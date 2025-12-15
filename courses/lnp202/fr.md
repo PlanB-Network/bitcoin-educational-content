@@ -643,17 +643,66 @@ Pour améliorer la fiabilité de nos paiements, il sera évidemment nécessaire 
 
 
 
+
 ## Définir son profil d'opérateur de nœud
 
+Maintenant que votre nœud Lightning est opérationnel, l’étape suivante consiste à définir votre profil d’opérateur. Ce choix est important, car il conditionne votre stratégie d’ouverture de canaux, le type de pairs à privilégier, ainsi que votre manière de gérer la liquidité.
 
-- Le consommateur
-- Le commerçant
-- Le routeur
+Sur Lightning, pour que ça fonctionne, il faut avoir de la liquidité dans le bon sens. La liquidité sortante correspond à votre capacité à payer (des sats disponibles de votre côté des canaux). La liquidité entrante correspond à votre capacité à recevoir (des sats disponibles du côté de vos pairs). Autrement dit, votre profil se résume à une question simple : la majorité du temps, vos sats sortent-ils de votre nœud, ou y entrent-ils ?
 
+### Le consommateur
+
+C’est le profil de la grande majorité des utilisateurs. Vous exploitez votre nœud pour effectuer des paiements Lightning : acheter des biens et des services, régler des factures, envoyer des pourboires, bref, utiliser Lightning comme un moyen de paiement rapide. En revanche, vous recevez peu sur Lightning, ou seulement de manière marginale, par exemple quelques dons, des remboursements entre amis ou quelques micro-paiements.
+
+Ce profil est le plus simple à gérer, car votre besoin principal est d’être capable de payer. Concrètement, cela signifie que vous devez disposer de liquidité sortante. Une fois que vous avez ouvert un ou plusieurs canaux correctement dimensionnés vers des nœuds stables et bien connectés, vos paiements sortants déplaceront mécaniquement la liquidité vers l’autre côté de vos canaux. C’est justement ce mouvement qui finit par créer naturellement une quantité raisonnable de liquidité entrante. Résultat : même si vous ne cherchez pas à recevoir régulièrement, vous serez tout de même capable de recevoir de temps en temps sans mettre en place une stratégie complexe. Vous n'avez donc pas besoin de vous soucier de vos liquidités entrantes.
+
+Dans ce cours LNP 202, nous allons nous concentrer sur ce profil "consommateur" d'opérateur de nœud, car c’est celui qui correspond à la quasi-totalité des utilisateurs de Bitcoin sur Lightning.
+
+### Le commerçant
+
+Le commerçant est, en quelque sorte, l'inverse du consommateur. Ici, l’objectif principal n’est pas de payer, mais d’encaisser. Un commerce, un prestataire de services, une boutique en ligne ou un point de vente qui accepte Lightning recevra beaucoup de paiements entrants, et effectuera relativement peu de paiements sortants depuis ce nœud.
+
+Ce profil est plus exigeant, car un paiement refusé sur Lightning représente potentiellement une vente perdue. La priorité devient donc la liquidité entrante. Si votre nœud ne dispose pas d’assez d’inbound, vos clients verront leurs paiements échouer, même s’ils ont les fonds, simplement parce qu’aucun chemin ne peut acheminer la liquidité vers vous dans le bon sens.
+
+Le défi majeur du commerçant vient aussi de l’évolution naturelle des canaux. Si vous ne faites que recevoir, vos canaux vont progressivement se remplir de votre côté. Il faut donc prévoir des mécanismes pour maintenir et renouveler votre liquidité entrante : c’est un sujet à part entière, que nous aborderons avec des outils et méthodes spécifiques dans un chapitre dédié.
+
+Il existe toutefois un cas plus simple : le profil mixte consommateur et commerçant. Si vous encaissez sur Lightning, mais dépensez aussi sur Lightning (dépenses professionnelles, paiements à des fournisseurs, ou même dépenses personnelles), alors vos paiements sortants recréent naturellement de l’inbound. La gestion devient plus fluide, car les flux se compensent, et vous avez moins besoin de recourir à des mécanismes artificiels uniquement destinés à regagner de la liquidité entrante.
+
+### Le routeur
+
+Le routeur est un profil spécifique. Il n’exploite pas son nœud Lightning pour payer ou encaisser, mais pour router les paiements des autres et percevoir des frais. L’objectif devient donc d’être une route utile, fiable et économiquement compétitive au sein du graphe Lightning.
+
+Pour être honnête avec vous, être routeur sur Lightning est une activité plus complexe qu’elle n’en a l’air, et la rentabilité est difficile à atteindre. D’abord, ouvrir et fermer des canaux coûte cher en frais onchain. Or, pour router efficacement, vous devez souvent ajuster votre topologie, tester, fermer des canaux peu performants, en ouvrir d’autres, et rééquilibrer régulièrement votre liquidité. Ensuite, la concurrence est rude : de gros nœuds déjà établis captent naturellement une grande partie du trafic, et il est difficile de se faire une place sans immobiliser des capitaux importants dans des canaux bien dimensionnés.
+
+S’ajoute aussi une exigence opérationnelle élevée. Un nœud de routage doit être extrêmement stable, surveillé, correctement sauvegardé, et géré avec rigueur. Il faut suivre la performance des canaux, adapter sa politique de frais, maintenir une liquidité équilibrée, gérer les pairs, et résoudre rapidement les problèmes techniques. Ce niveau d’implication peut être intéressant comme hobby technique ou comme contribution à l’infrastructure, mais si votre objectif est simplement d’utiliser Lightning de manière souveraine, se lancer dans le routage pour gagner de l’argent est rarement pertinent. C’est pour cette raison que ce cours LNP 202 ne traite pas ce profil en profondeur.
+
+### Se situer clairement avant d’aller plus loin
+
+Si vous vous reconnaissez dans le profil consommateur, votre priorité sera de pouvoir payer de manière fiable avec une gestion simple. Si vous êtes commerçant, votre priorité sera d’encaisser sans échec, ce qui implique une stratégie d'acquisition de liquidité entrante. Si vous envisagez le routage, il faut l’aborder comme une activité exigeante, incertaine économiquement et très chronophage.
+
+Définir ce profil dès maintenant vous évitera un piège classique : appliquer une stratégie de canaux conçue pour un commerçant ou un routeur, alors que vous êtes simplement un utilisateur qui veut payer.
 
 ## Utiliser un gestionnaire de nœud Lightning
 
-(ThunderHub / RTL) + Alby Hub ?
+Dans la partie précédente de cette formation LNP 202, nous avons utilisé l’interface de base de l’application `Lightning Node` sur Umbrel. Cette interface est suffisante pour les opérations essentielles (consulter le solde, visualiser la répartition des liquidités, ouvrir et fermer un canal) mais elle est volontairement très simplifiée. Cette simplicité limite les options disponibles et ne donne pas accès à de nombreuses fonctionnalités avancées de votre nœud LND. C’est pour cette raison que nous allons maintenant utiliser un autre logiciel de gestion de nœud Lightning, plus complet.
+
+Ce logiciel supplémentaire ne sera qu’une interface de gestion complémentaire pour votre nœud. Cela signifie que vous pourrez continuer à utiliser l’interface `Lightning Node` en parallèle, et même en utiliser plusieurs différentes si vous le souhaitez. Il s’agit simplement de différentes manières d’interagir avec le même nœud Lightning.
+
+Parmi les logiciels les plus connus, on retrouve :
+- [Alby Hub](https://albyhub.com/) ;
+- [Ride The Lightning](https://www.ridethelightning.info/) ;
+- [ThunderHub](https://thunderhub.io/).
+
+Ces trois outils sont de bonnes solutions. Vous pouvez, si vous le souhaitez, les tester tous les trois avec votre nœud avant de choisir celui qui vous convient le mieux. Pour ma part, j’utilise ThunderHub par habitude et parce qu’il me semble plus complet que les autres. C’est donc cet outil que je vous présenterai dans cette formation, mais vous pouvez tout à fait opter pour l’une des deux autres alternatives. Nous disposons d’ailleurs d’un tutoriel dédié pour chacun de ces logiciels sur Plan ₿ Academy.
+
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+
+https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca007688-0653-490c-8349-81d330d744b5
+
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+
+
+
 
 
 

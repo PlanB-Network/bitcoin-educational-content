@@ -23,7 +23,7 @@ Dans ce tutoriel, qui s'adresse aux utilisateurs débutants et intermédiaires, 
 
 Si vous êtes un utilisateur avancé et souhaitez explorer des fonctionnalités plus complexes, je vous recommande de consulter cet autre tutoriel où nous configurons le Passport avec Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Unboxing du Passport
 
@@ -166,7 +166,7 @@ Pour cela, utilisez la carte MicroSD incluse dans la boîte de votre Passport (o
 
 Avant de l'installer sur votre appareil, il est vivement conseillé de vérifier l'authenticité et l'intégrité du firmware téléchargé. Si vous avez besoin d'aide pour le faire, consultez ce tutoriel : 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Avec l'application Envoy
 
@@ -250,7 +250,7 @@ Cliquez sur le bouton de confirmation pour voir votre phrase mnémonique.
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase mnémonique, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Évidemment, vous ne devez jamais partager ces mots sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.**_
 
@@ -451,5 +451,5 @@ Félicitations, vous savez dorénavant comment configurer et utiliser le Passpor
 
 Pour aller plus loin, vous pouvez également consulter notre tutoriel sur le logiciel Liana :
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 

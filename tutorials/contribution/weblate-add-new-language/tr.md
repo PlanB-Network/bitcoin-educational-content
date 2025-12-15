@@ -1,11 +1,11 @@
 ---
 name: Weblate - yeni bir dil ekleme
-description: Plan ₿ Network'a nasıl yeni bir dil ekleyebilirsiniz?
+description: Plan ₿ Academy'a nasıl yeni bir dil ekleyebilirsiniz?
 ---
 ![cover](assets/cover.webp)
 
 
-Plan ₿ Network'in misyonu, Bitcoin'de birinci sınıf eğitim kaynakları sağlamak ve bunları mümkün olduğunca çok dile çevirmektir. Sitede yayınlanan içeriğin çoğu açık kaynaklıdır ve GitHub'da barındırılmaktadır, bu da herkesin platformu zenginleştirmeye katılmasına olanak tanır. Katkılar çeşitli şekillerde olabilir: mevcut içeriği düzeltmek ve düzeltmek, bilgileri güncellemek veya platforma eklemek için yeni eğitimler oluşturmak.
+Plan ₿ Academy'in misyonu, Bitcoin'de birinci sınıf eğitim kaynakları sağlamak ve bunları mümkün olduğunca çok dile çevirmektir. Sitede yayınlanan içeriğin çoğu açık kaynaklıdır ve GitHub'da barındırılmaktadır, bu da herkesin platformu zenginleştirmeye katılmasına olanak tanır. Katkılar çeşitli şekillerde olabilir: mevcut içeriği düzeltmek ve düzeltmek, bilgileri güncellemek veya platforma eklemek için yeni eğitimler oluşturmak.
 
 
 Web sitemiz şu anda bir dizi dil sunuyor ve daha fazlasını eklemek için sürekli çalışıyoruz. Ön yüzümüzün çeviri sürecini iyileştirmek için, işbirliği yapmamıza ve çevirileri verimli bir şekilde yönetmemize yardımcı olan Weblate aracını kullanıyoruz. Kullanıcı dostu bir araç.
@@ -14,7 +14,7 @@ Web sitemiz şu anda bir dizi dil sunuyor ve daha fazlasını eklemek için sür
 Ana diliniz henüz web sitemizde mevcut değilse ve eklemek istiyorsanız, bu eğitim tam size göre!
 
 
-Öncelikle, [Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla Plan ₿ Network ekibiyle iletişime geçtiğinizden emin olun. Telegram'ınız yoksa mari@planb.network adresine e-posta gönderebilirsiniz. Kim olduğunuz ve hangi dilleri konuştuğunuz hakkında küçük bir sunum yazdığınızdan emin olun.
+Öncelikle, [Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla Plan ₿ Academy ekibiyle iletişime geçtiğinizden emin olun. Telegram'ınız yoksa mari@planb.network adresine e-posta gönderebilirsiniz. Kim olduğunuz ve hangi dilleri konuştuğunuz hakkında küçük bir sunum yazdığınızdan emin olun.
 
 
 ## Bir Dilin Weblate üzerinde mevcut olup olmadığını kontrol etme
@@ -36,14 +36,14 @@ Dilinizin halihazırda üzerinde çalıştığımız diller arasında olup olmad
 Eğer diliniz bu listede yer alıyorsa, tekrar eklemenize gerek yoktur. Web tarihini düzelterek katkıda bulunmak için aşağıdaki öğreticiyi keşfedin:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
 Diliniz orada değilse, eklemek için aşağıdaki öğreticiyi izleyin.
 
 
-## Plan ₿ Network'e Yeni Bir Dil Ekleme
+## Plan ₿ Academy'e Yeni Bir Dil Ekleme
 
 
 
@@ -81,9 +81,9 @@ Diliniz orada değilse, eklemek için aşağıdaki öğreticiyi izleyin.
 Çeviri sürecinde rehberlik almak için aşağıdaki özel eğitimimize göz atın:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
-Tebrikler, Elements'un web sitesindeki statik Plan ₿ Network'i tercüme etme sürecini başlattınız!
+Tebrikler, Elements'un web sitesindeki statik Plan ₿ Academy'i tercüme etme sürecini başlattınız!
 
 Bunlar, başka bir yarı otomatik yöntem (AI çevirisi + katkıda bulunanların düzeltmesi) kullandığımız eğitim içeriği (kurslar, öğreticiler...) hariç, web sitesindeki tüm dizeleri içerir.
 

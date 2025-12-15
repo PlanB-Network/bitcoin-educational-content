@@ -1,8 +1,7 @@
 question: Lightning kimlik doğrulamasının amacı nedir?
 answer: E-posta adresi veya kişisel bilgi vermeden her hizmet için farklı bir tanımlayıcı oluşturur.
 wrong_answers:
-  - Lightning Wallet'i (dijital cüzdanı) olmayan herkesin, geçerli bir kimlik gösterilmesi halinde, 
-  e-posta adresi olmadan kimlik doğrulaması yapmasına izin verir.
+  - Lightning Wallet'i (dijital cüzdanı) olmayan herkesin, geçerli bir kimlik gösterilmesi halinde, e-posta adresi olmadan kimlik doğrulaması yapmasına izin verir.
   - Tüm hizmetler için aynı parolayı kullanmanıza olanak tanır.
   - Her ay şifreleri değiştirmek için hatırlatıcılar gönderir.
 explanation: |

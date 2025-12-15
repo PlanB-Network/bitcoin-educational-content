@@ -6,4 +6,4 @@ wrong_answers:
   - Utilizar WPS
 explanation: |
   La VPN crea un túnel cifrado para acceder a la red local sin exponer un puerto crítico a Internet.
-reviewed: false
+reviewed: true

@@ -42,7 +42,7 @@ Android 애플리케이션은 Google Play 스토어에서 사용할 수 없으�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 "설정" 아이콘을 클릭하여 StashPay 설정에 액세스한 다음 **백업 생성** 옵션을 클릭합니다. 그런 다음 복구 문구 표시를 승인합니다. 휴대폰에 설치된 다른 사기성 애플리케이션에서 액세스할 수 있으므로 복구 문구를 휴대폰의 클립보드에 복사하지 마세요.
 
@@ -88,7 +88,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
+https://planb.academy/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a150-ec0ce84a9d25
 
 ### StashPay로 비트코인 보내기
 
@@ -106,7 +106,7 @@ https://planb.network/tutorials/wallet/mobile/misty-breez-738ced2a-0764-4d7f-a15
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 그러나 브리즈 SDK는 메인 체인에서 Address로 비트코인을 전송할 수 있는 최소 금액을 부과합니다.
 
@@ -168,4 +168,4 @@ StashPay를 사용하면 선택한 현지 통화를 기준으로 Exchange 사토
 
 
 
-https://planb.network/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f

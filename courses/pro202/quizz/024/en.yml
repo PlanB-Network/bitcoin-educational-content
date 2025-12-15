@@ -1,0 +1,8 @@
+question: What is the primary reason that script puzzles relying only on public data without signature checks are vulnerable in Bitcoin?
+answer: Miners can copy the solution from the mempool and redirect the payout to themselves
+wrong_answers:
+  - The script execution becomes non-deterministic across different network nodes
+  - The transaction validation time increases quadratically with the puzzle complexity
+  - The stack-based execution model cannot handle complex mathematical operations securely
+explanation: |
+  Script puzzles that rely only on public data (like math problems or hash preimages) without signature checks are vulnerable to miner front-running. Once a valid solution appears in the mempool, any miner can observe it, copy the solution, and create their own transaction redirecting the payout to their address. This is why real-world Bitcoin contracts almost always include signature checks - signatures bind the solution to a specific party and prevent others from stealing the payout, preserving proper incentives for puzzle solvers.

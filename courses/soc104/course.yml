@@ -1,0 +1,32 @@
+id: 9421c810-523a-4f05-95bd-d2441e3ac2a8
+
+test_only: true
+
+topic: social studies
+subtopic: social studies
+
+type: practice
+level: beginner
+hours: 9
+
+professors_id:
+  - 1a2d2e86-4f52-4b7c-b2c6-17f165a3d5d7
+
+contributor_names:
+  - Asi0Flammeus
+  - jramos0
+
+published_at: 2025-11-25
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-30
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 6.88
+tags:
+  - self-sovereignty
+  - deep-dive
+  - philosophy

@@ -34,7 +34,7 @@ Teisisõnu, selle rakendusega saate :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Miks peaks olema oma Lightning-sõlm?
 
@@ -64,7 +64,7 @@ Selles mõttes suurendab Lightning-sõlme kasutamine teie andmete turvalisust ja
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Teil on kaks võimalust LND rakendamise instantsi käivitamiseks meie masinas. Me võime kas luua keskkonna oma masinas lokaalselt käivitamiseks või paigaldada LND Dockeri konteinerist. Siinkohal keskendume esimesele võimalusele ja vaatame, kuidas Dockeriga edasi minna, hilisemas õpetuses.
@@ -665,4 +665,4 @@ Nii et olete jõudnud selle õpetuse lõpuni. Kui soovite Lightningist rohkem te
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

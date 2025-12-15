@@ -6,4 +6,4 @@ wrong_answers:
   - 84/0/0
 explanation: |
   Der Pfad 84h/0h/0h ist in BIP84 für ein Konto definiert, das SegWit v0-Adressen mit P2WPKH ableitet.
-reviewed: false
+reviewed: true

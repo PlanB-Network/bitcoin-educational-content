@@ -1,7 +1,7 @@
 question: 哪个 Bitcoin.conf 参数限制了 Mempool 的大小（以 MB 为单位）？
-answer: maxmembool
+answer: maxmempool
 wrong_answers:
-  - 总内存池
+  - totalmempool
   - mempoolexpiry
   - mempoolsize
 explanation: |

@@ -24,7 +24,7 @@ Rendez-vous sur [la page de téléchargement officielle de Sparrow Wallet](https
 
 Il est important de vérifier l'intégrité et l'authenticité du logiciel avant son installation. Si vous ne savez pas comment le faire, vous trouverez un tutoriel complet ici :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Une fois Sparrow installé, vous pouvez ignorer les premiers écrans explicatifs pour accéder directement à l'écran de gestion des connexions.
 
@@ -68,9 +68,9 @@ Notez bien que si vous utilisez un nœud Bitcoin Core élagué, vous ne pourrez 
 
 Pour configurer un nœud Bitcoin Core, vous pouvez consulter l'un des tutoriels suivants, selon votre système d'exploitation :
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Sur Sparrow, rendez-vous dans l'onglet "*Bitcoin Core*".
 
@@ -213,7 +213,7 @@ Vous pouvez l'inscrire un papier, ou éventuellement, pour plus de sécurité, l
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase mnémonique, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -221,7 +221,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Vous pouvez également choisir d'ajouter une passphrase BIP39 en cliquant sur la case "*Use passphrase*". Attention, utiliser une passphrase peut être très utile, mais si vous ne comprenez pas comment cela fonctionne, cela peut être très risqué. C'est pourquoi je vous conseille fortement de lire ce petit article théorique sur le sujet :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Après avoir enregistré votre phrase mnémonique et votre éventuelle passphrase sur un support physique, cliquez sur "*Confirm Backup*".
 
@@ -255,7 +255,7 @@ Il y a deux principales méthodes pour connecter votre hardware wallet à Sparro
 
 Sparrow supporte toutes ces méthodes de communication et est compatible avec la plupart des hardware wallets disponibles sur le marché.
 
-Pour ce tutoriel, je vais utiliser une Ledger Nano S avec un câble, mais la procédure est similaire en mode Air-Gap. Vous trouverez les détails spécifiques à votre hardware wallet dans son tutoriel dédié sur Plan ₿ Network.
+Pour ce tutoriel, je vais utiliser une Ledger Nano S avec un câble, mais la procédure est similaire en mode Air-Gap. Vous trouverez les détails spécifiques à votre hardware wallet dans son tutoriel dédié sur Plan ₿ Academy.
 
 Avant de démarrer, assurez-vous que le portefeuille est déjà configuré sur votre hardware wallet. Si vous utilisez une connexion filaire, connectez-le à votre ordinateur par le câble.
 
@@ -317,7 +317,7 @@ Si vous utilisez un hardware wallet, il est très important de vérifier l'adres
 
 ![Image](assets/fr/44.webp)
 
-Pour les utilisateurs d'un hardware wallet Air-Gap, la vérification de l'adresse varie selon le modèle de l'appareil. Consultez le tutoriel dédié sur Plan ₿ Network pour obtenir des instructions précises.
+Pour les utilisateurs d'un hardware wallet Air-Gap, la vérification de l'adresse varie selon le modèle de l'appareil. Consultez le tutoriel dédié sur Plan ₿ Academy pour obtenir des instructions précises.
 
 Une fois la transaction diffusée par le payeur, vous la verrez apparaître dans l'onglet "*Transactions*". Vous pouvez cliquer dessus pour avoir plus de détails comme le TXID par exemple.
 
@@ -371,7 +371,7 @@ Vous accédez alors à une page qui détaille les éléments de votre transactio
 
 Il est important de conserver le Sighash par défaut. Pour comprendre pourquoi, je vous invite à consulter cette formation dans laquelle je vous explique tout ce qu'il faut savoir sur les Sighashs :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Sur l'écran suivant, les options varient selon votre type de portefeuille que vous utilisez :
 - Pour un hardware wallet Air-Gap, cliquez sur "*Show QR*" pour afficher une PSBT que vous pourrez signer avec votre appareil, puis charger la PSBT signée dans Sparrow en utilisant "*Scan QR*". L'option "*Save Transaction*" fonctionne de manière similaire, mais avec des échanges sur une microSD ;
@@ -445,4 +445,4 @@ Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de la
 
 Je vous conseille également de découvrir cet autre tutoriel dans lequel je vous explique comment configurer le hardware wallet COLDCARD Q avec Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

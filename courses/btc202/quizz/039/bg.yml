@@ -1,0 +1,9 @@
+question: Какъв е препоръчителният минимален капацитет на SSD в 2025 г. за възел Bitcoin?
+answer: 2 TB
+wrong_answers:
+  - 512 GB
+  - 10 TB
+  - 256 GB
+explanation: |
+  При Blockchain, надвишаващ 700 GB, и допълнителни приложения 2 TB се превърнаха в разумния минимум.
+reviewed: true

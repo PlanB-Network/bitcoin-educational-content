@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Su sistema Debian está ahora instalado y listo para usar en sus tareas diarias.
 
@@ -443,4 +443,4 @@ Para saber más sobre Debian, y más en general sobre las distribuciones GNU/Lin
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

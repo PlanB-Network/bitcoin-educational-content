@@ -21,7 +21,7 @@ LNDノードをダウンロードして設定する代わりに、私たちはpo
 - ウェブサーバー用のExpress
 - フロントエンド用のPugテンプレート + bootstrap
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## オペレーティングシステム
 

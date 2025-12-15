@@ -51,7 +51,7 @@ Podrobnější informace o tom, jak Lightning Network funguje, naleznete v naše
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Obchodní model
 
@@ -149,7 +149,7 @@ Další informace o tomto kompletním systému Wallet naleznete v našem výukov
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Webová konfigurace
 

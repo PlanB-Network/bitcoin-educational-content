@@ -322,7 +322,7 @@ Electrum consente di **ricevere e inviare bitcoin** con facilità, offrendo al c
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Proteggere il sistema Manjaro
 
@@ -395,4 +395,4 @@ Manjaro combina **stabilità, velocità e sicurezza**, rimanendo **completamente
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

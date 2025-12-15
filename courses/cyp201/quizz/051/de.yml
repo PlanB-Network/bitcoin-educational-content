@@ -6,4 +6,4 @@ wrong_answers:
   - Der PIN-Code generiert Bitcoin-Adressen
 explanation: |
   Im Gegensatz zum PIN-Code ist die Passphrase direkt am Schlüsselableitungsprozess beteiligt und ändert die Wallet-Schlüssel.
-reviewed: false
+reviewed: true

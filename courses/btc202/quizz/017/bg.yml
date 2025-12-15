@@ -1,0 +1,9 @@
+question: Кои два компонента се разпространяват с Bitcoin Core от версия 0.5 насам?
+answer: Bitcoin-qt и bitcoind
+wrong_answers:
+  - bitcoin-cli и Bitcoin-gui
+  - Bitcoin-Miner и Bitcoin-Wallet
+  - Bitcoin-core и Bitcoin-node
+explanation: |
+  От версия 0.5 ядрото на Bitcoin включва графичен Interface (Bitcoin-qt) и Interface с команден ред (bitcoind).
+reviewed: true

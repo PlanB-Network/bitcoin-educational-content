@@ -1,0 +1,9 @@
+question: Как се нарича протоколът за разпределен кредит, разработен от Райън Фугер през 2004 г. и споменат няколко пъти от Satoshi Nakamoto в неговите текстове?
+answer: Ripple
+wrong_answers:
+  - Вълни
+  - Цунами
+  - Swell
+explanation: |
+  През 2009 г. Satoshi [пише](https: //diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February/001362.html), че Ripple \[was\] е уникален с това, че разпространява доверието, а не го концентрира.
+reviewed: true

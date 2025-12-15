@@ -1,0 +1,9 @@
+question: ¿Qué característica técnica específica creó inadvertidamente la hard fork de Satoshi que permitió futuras actualizaciones de la soft fork?
+answer: Los operadores Script OP_NOP1 a OP_NOP10 opcodes
+wrong_answers:
+  - Los mecanismos de activación de BIP65 y BIP113 para la señalización minera
+  - El marco de compatibilidad hacia delante y hacia atrás para los cambios consensuados
+  - El sistema de activación del día de la bandera de soft fork activada por el usuario (UASF)
+explanation: |
+  Según el análisis de Eric Lombrozo, el hard fork de Satoshi (que fue mal comunicado y ocultado en un commit sobre cambios en makefile) creó inadvertidamente los opcodes OP_NOP1 a OP_NOP10. Estos códigos de "no operación" fueron diseñados para no hacer nada cuando se ejecutan, pero proporcionaron marcadores de posición que más tarde podrían ser reutilizados para nuevas funcionalidades a través de soft forks. Esto demostró ser clarividente, ya que OP_NOP2 se convirtió en OP_CHECKLOCKTIMEVERIFY (BIP65) y OP_NOP3 en OP_CHECKSEQUENCEVERIFY (BIP112). Las otras opciones son incorrectas porque BIP65 y BIP113 fueron las actualizaciones que utilizaron estos opcodes en lugar de crearlos, el marco de compatibilidad es un enfoque conceptual en lugar de una característica técnica, y UASF se propuso mucho más tarde durante la controversia Segwit.
+reviewed: false

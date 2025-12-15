@@ -1,9 +1,9 @@
-question: Why is starting with a small initial purchase of Bitcoin recommended for businesses?
-answer: It allows them to gain hands-on experience and understanding before committing larger sums.
+question: Tại sao doanh nghiệp nên bắt đầu bằng việc mua Bitcoin với số lượng nhỏ ban đầu?
+answer: Nó cho phép họ có được kinh nghiệm thực tế và hiểu biết trước khi cam kết số tiền lớn hơn.
 wrong_answers:
-  - It legally prevents the company from facing tax liabilities.
-  - It instantly guarantees the business maximum returns.
-  - It makes the company immune to all cryptocurrency scams.
+  - Về mặt pháp lý, điều này ngăn cản công ty phải đối mặt với nghĩa vụ thuế.
+  - Nó đảm bảo ngay lập tức lợi nhuận tối đa cho doanh nghiệp.
+  - Nó giúp công ty miễn nhiễm với mọi trò lừa đảo tiền điện tử.
 explanation: |
-  A small initial investment helps businesses learn the practical aspects of buying, storing, and managing Bitcoin without taking on significant risk.
-reviewed: false
+  Một khoản đầu tư ban đầu nhỏ giúp các doanh nghiệp tìm hiểu những khía cạnh thực tế của việc mua, lưu trữ và quản lý Bitcoin mà không phải chịu rủi ro đáng kể.
+reviewed: true

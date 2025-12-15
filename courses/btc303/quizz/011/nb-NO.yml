@@ -1,0 +1,9 @@
+question: Hva betyr "tillitsløs" i forbindelse med distribuerte systemer, ifølge Pieter Wuilles definisjon?
+answer: Et system som ikke krever noen betrodde parter for å fungere korrekt
+wrong_answers:
+  - Et system der brukerne ikke kan stole på noen av deltakerne eller validatorene
+  - Et system som eliminerer alle former for tillit, inkludert programvare og maskinvare
+  - Et system der transaksjoner ikke kan reverseres eller bestrides av noen
+explanation: |
+  Trustless refererer spesifikt til en teknisk egenskap der et distribuert system kan fungere korrekt uten å kreve noen betrodde parter. Dette er noe annet enn å eliminere all tillit (du stoler fortsatt på programvaren/maskinvaren din) eller å forhindre reversering (Bitcoin-transaksjoner kan reverseres gjennom omskriving av kjeden). Begrepet betyr heller ikke at brukerne ikke kan stole på deltakerne - men at systemets korrekthet ikke er avhengig av at man stoler på dem.
+reviewed: false

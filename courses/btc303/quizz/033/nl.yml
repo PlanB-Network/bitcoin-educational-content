@@ -1,0 +1,9 @@
+question: Wat is bij benadering het jaar waarin de bloksubsidie voor Bitcoin volgens BIP42 nul bereikt?
+answer: 2140
+wrong_answers:
+  - 2100
+  - 2064
+  - 2160
+explanation: |
+  Volgens het hoofdstuk heeft BIP42 een inflatiebug op zeer lange termijn opgelost en zorgt het ervoor dat de blokkensubsidie rond het jaar 2140 nul zal bedragen. Op dat moment zal Bitcoin overgaan van een op subsidies gebaseerd beloningssysteem naar een puur op vergoedingen gebaseerd systeem, waarbij de manier waarop de kosten voor netwerkbeveiliging worden gedekt fundamenteel wordt veranderd van houders die betalen via inflatie naar spenders die betalen via transactiekosten.
+reviewed: false

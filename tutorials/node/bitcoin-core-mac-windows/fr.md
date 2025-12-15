@@ -5,15 +5,15 @@ description: Installer Bitcoin Core sur Mac ou Windows
 
 ![cover](assets/cover.webp)
 
-Installer Bitcoin Core sur votre ordinateur habituel est possible, mais ce n'est pas idéal. Si vous ne dérange pas de laisser votre ordinateur allumé 24h/24 et 7j/7, cela fonctionnera bien. Si vous avez besoin d'éteindre l'ordinateur, il est ennuyeux d'attendre que le logiciel se synchronise à chaque fois que vous le rallumez.
+Installer Bitcoin Core sur votre ordinateur habituel est possible, mais ce n'est pas idéal. Si cela ne vous dérange pas de laisser votre ordinateur allumé 24h/24 et 7j/7, le logiciel fonctionnera bien. En revanche, si vous avez besoin d'éteindre votre ordinateur régulièrement, il est ennuyeux d'attendre que le logiciel se synchronise entièrement à chaque redémarrage.
 
 Ces instructions sont destinées aux utilisateurs de Mac ou de Windows. Les utilisateurs de Linux n'auront probablement pas besoin de mon aide, mais les instructions pour Linux sont très similaires à celles de Mac.
 
 ## Commencer avec un ordinateur propre
 
-Idéalement, vous voulez utiliser un ordinateur propre, sans logiciel malveillant. Même si vous utilisez un portefeuille matériel, un logiciel malveillant peut vous tromper et vous faire perdre vos bitcoins.
+Idéalement, utilisez un ordinateur propre et sécurisé, sans logiciel malveillant. Même si vous utilisez un portefeuille matériel, un logiciel malveillant sur votre machine peut vous tromper et vous faire perdre vos bitcoins.
 
-Vous pouvez soit nettoyer un ancien ordinateur et l'utiliser comme un ordinateur dédié à Bitcoin, soit acheter un ordinateur/portable dédié.
+Vous avez deux options, soit nettoyer un ancien ordinateur et le consacrer exclusivement à vos opérations Bitcoin, soit acheter un ordinateur/portable dédié.
 
 ## Le disque dur
 
@@ -25,7 +25,7 @@ Bitcoin Core occupera environ 400 gigaoctets de données sur votre disque dur et
 
 Allez sur bitcoin.org (assurez-vous de ne pas aller sur bitcoin.com, qui est un site de shitcoin détenu par Roger Ver, qui trompe les gens pour qu'ils achètent Bitcoin Cash au lieu de Bitcoin)
 
-Une fois là-bas, il n'est étrangement pas évident où obtenir le logiciel. Allez dans le menu des ressources et cliquez sur "Bitcoin Core", comme indiqué ci-dessous :
+Une fois sur le site, il peut sembler peu évident de trouver le logicielà télécharger.Pour y accéder, allez dans le menu des ressources et cliquez sur "Bitcoin Core", comme indiqué ci-dessous :
 
 ![image](assets/fr/02.webp)
 
@@ -41,7 +41,7 @@ Il y a plusieurs options à choisir, en fonction de votre ordinateur. Les deux p
 
 ## Vérifier le téléchargement (partie 1)
 
-Vous avez besoin du fichier qui contient les hachages des différentes versions. Ce fichier était autrefois sur la page de téléchargement de bitcoin.org, mais il a maintenant été déplacé vers bitcoincore.org/en/download :
+Vous avez besoin du fichier qui contient les hachages des différentes versions. Ce fichier était autrefois sur la page de téléchargement de bitcoin.org, mais il a désormais été déplacé vers bitcoincore.org/en/download :
 
 ![image](assets/fr/05.webp)
 
@@ -56,11 +56,11 @@ POUR MAC —–> shasum -a 256 XXXXXXXXXXXX
 POUR WINDOWS —–> certutil -hashfile XXXXXXXXXXX SHA256
 ```
 
-Vous obtiendrez un résultat de hachage. Prenez note de celui-ci et comparez-le au hachage contenu dans le fichier SHA256SUMS.
+Vous obtiendrez un résultat de hachage. Notez-le et comparez-le au hachage indiqué dans le fichier SHA256SUMS.
 Si les sorties sont identiques, alors vous avez vérifié qu'aucun bit de données n'a été altéré... presque. Nous devons encore nous assurer que le fichier SHA256SUMS n'est pas malveillant.
 Pour passer à l'étape suivante, nous devons avoir gpg installé sur notre ordinateur.
 
-Pour cela, consultez mon guide SHA256/gpg, et faites défiler jusqu'à la section "Télécharger gpg", puis recherchez le sous-titre de votre système d'exploitation. Ensuite, revenez ici.
+Pour cela, consultez mon guide SHA256/gpg, et faites défiler jusqu'à la section "Télécharger gpg", puis recherchez le sous-titre de votre système d'exploitation. Une fois installé, revenez ici pour continuer.
 
 ## Obtenir la clé publique
 

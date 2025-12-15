@@ -145,7 +145,7 @@ Questa frase funziona in modo simile alle frasi Mnemonic utilizzate nei portafog
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Nota bene**: A differenza delle frasi Mnemonic utilizzate nei portafogli Bitcoin, in Session **è assolutamente necessario salvare ogni parola nella sua interezza**. Le prime 4 lettere non sono sufficienti!
 
@@ -299,4 +299,4 @@ Vi consiglio anche quest'altro tutorial, in cui presento Threema, un'altra inter
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

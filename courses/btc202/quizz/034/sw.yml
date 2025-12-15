@@ -3,7 +3,7 @@ answer: Uwepo wa Interface na programu zilizojumuishwa
 wrong_answers:
   - Utangamano wa mtandao
   - Saizi ya Blockchain iliyohifadhiwa kwenye diski
-  - Itifaki na sarafu iliyotumika
+  - Protocol na sarafu iliyotumika
 explanation: |
-  Utekelezaji ghafi husakinisha programu ya nodi pekee, ilhali nodi ndani ya kisanduku huongeza Interface, Duka la Programu na huduma zilizounganishwa.
+  Utekelezaji ghafi husakinisha programu ya node pekee, ilhali node ndani ya kisanduku huongeza Interface, Duka la Programu na huduma zilizounganishwa.
 reviewed: true

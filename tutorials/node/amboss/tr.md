@@ -11,7 +11,7 @@ Lightning Network, Bitcoin protokolünün bir Layer'üdür ve öncelikle her iş
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Tıpkı ana zincirde olduğu gibi, düğümler arasındaki bağlantıları kolaylaştırmak ve genellikle ağda ortaya çıkan likidite sorununu en aza indirmek için kullanıcıların ağın bilgilerini ve durumunu bilmelerini sağlamak çok önemli hale gelmiştir. Nitekim Lightning Network'te, Bitcoin ana zincirindeki işlemlere kıyasla nispeten daha küçük miktarlarda mikro ödemeler yapılmasını öneriyoruz.
 
@@ -34,7 +34,7 @@ Bitcoin protokolünün ana zinciri hakkında faydalı bilgiler sağlayan [Mempoo
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Bu eğitimde, Lightning Network kullanıcıları, ağı genişletmek için düğümlerini bağlamak isteyenler vb. için önemli bir kaynak olan bu platformda sizi bir tura çıkaracağız.
 
@@ -57,7 +57,7 @@ Amboss platformunun amaçlarından biri, ağdaki çeşitli düğümlerin birbirl
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Ana sayfada, ayrıca 'ye göre sınıflandırılmış düğümler bulacaksınız:
 
@@ -147,7 +147,7 @@ Kanallar** bölümünde, açık kanalların listesini ve düğümün ağdaki di�
 
 - Gelen oran**: Seçilen kanala bağlı olarak düğümün aldığı her bir milyon Satoshi için sizden talep edeceği miktar.
 - Oran (milyon başına parça)** : kanallarından biri aracılığıyla bir ödeme yapmaya karar verdiğinizde düğümün sizden alacağı milyon birim başına Satoshi sayısını temsil eder. Diyelim ki ppm oranı `500 Sats` olan bir kanal üzerinden `10_000 Sats`lik bir ödeme yapmaya karar verdiniz, düğüme `10_000 * 500 / 1_000_000` satoshis, yani `5 Sats` ödemeniz gerekecek.
-- HTLC](https://planb.network/resources/glossary/HTLC) maksimum** : Bu düğümün bu kanallardan biri üzerinden geçiş yapmanıza izin verdiği maksimum miktar.
+- HTLC](https://planb.academy/resources/glossary/htlc) maksimum** : Bu düğümün bu kanallardan biri üzerinden geçiş yapmanıza izin verdiği maksimum miktar.
 
 
 
@@ -304,4 +304,4 @@ Artık platformun özellikleri ve analiz araçları hakkında tam bir tur attın
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

@@ -51,7 +51,7 @@ Katika itifaki ya Bitcoin, vipengee kama vile _account_ au _monetary units_ havi
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Ukiwa na Bitcoin unachokusanya na kutumia baadaye ni vitengo vidogo au vikubwa vya akaunti vinavyopimwa katika Satoshi, vinavyowakilishwa na `matokeo ya miamala ambayo hayajatumika`, **UTXO**, pia huitwa `sarafu`. Unapotumia UTXO kuunda shughuli, zinaharibiwa kabisa na UTXO zingine huundwa mahali pao.
 
@@ -568,7 +568,7 @@ Udhibiti wa Coin ni mazoezi madhubuti sana ya kuchagua ingizo lako la muamala. U
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Tumezungumza hapo awali kuhusu `kutenganisha mabaki`. Iwapo ungependa kufunga masalio kwa ajili ya kuchakatwa baadaye na kurejesha faragha (badilisha kwa Layer 2), ni lazima uangalie `kuwekea lebo` kila mara unapopokea. Kati ya Programu za Wallet zinazoonekana kufikia sasa, ni Electrum pekee inayopakwa rangi mabaki ya UTXO ili kuzifanya zionekane mara moja tu. Nyingine, kama vile Sparrow, hukuonyesha mnyororo katika njia ya utokezi wa UTXO mahususi (`m/84'/0'/0'/1/11`).
 

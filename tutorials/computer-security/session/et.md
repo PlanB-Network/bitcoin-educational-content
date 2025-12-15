@@ -145,7 +145,7 @@ See fraas toimib sarnaselt Mnemonic fraasidega, mida kasutatakse Bitcoin portfel
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Pöörake tähelepanu**: Erinevalt Bitcoin portfoolios kasutatavatest Mnemonic fraasidest, peate Sessioni puhul **tingimata salvestama iga sõna tervikuna**. Esimesed 4 tähte ei piisa!
 
@@ -299,4 +299,4 @@ Soovitan ka seda teist õpetust, kus ma tutvustan Threema't, mis on veel üks hu
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

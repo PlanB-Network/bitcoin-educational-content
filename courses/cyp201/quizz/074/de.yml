@@ -6,4 +6,4 @@ wrong_answers:
   - Eine Bitcoin-Mainnet-Währung
 explanation: |
   Der Index /84'/ wird in BIP84 definiert, um die Verwendung des SegWit v0-Standards mit P2WPKH-Adressen in Tiefe 1 (der des Ableitungsziels) anzuzeigen.
-reviewed: false
+reviewed: true

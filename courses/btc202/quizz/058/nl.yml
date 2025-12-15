@@ -1,4 +1,4 @@
-question: Wat is de belangrijkste beperking van Tor-communicatie met je knooppunt?
+question: Wat is de belangrijkste beperking van Tor-communicatie met je node?
 answer: Traagheid
 wrong_answers:
   - Gebrek aan encryptie

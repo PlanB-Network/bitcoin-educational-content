@@ -328,4 +328,4 @@ Nu är du redo att använda Ubuntu dagligen: säkra ditt system, surfa, göra ko
 För att ta säkerheten i ditt digitala liv ett steg längre rekommenderar vi att du tar en titt på vår krypterade meddelandetjänst, som är perfekt lämpad för att skydda din integritet och kompletterar din Ubuntu-installation:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

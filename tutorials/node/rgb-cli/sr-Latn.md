@@ -20,7 +20,7 @@ RGB ugovor je strukturiran kao evoluciona mašina stanja. Počinje sa Genesis ko
 Da biste saznali više o tome kako funkcioniše RGB protokol, preporučujem da pohađate ovaj sveobuhvatni kurs obuke:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Interna logika RGB zasnovana je na Rust bibliotekama koje vi, kao programeri, možete uvesti u svoje projekte kako biste upravljali *Client-side Validation* delom. Pored toga, LNP/BP tim radi na povezivanju za druge jezike, ali to još nije završeno. Pored toga, druge entitete kao što je Bitfinex razvijaju svoje sopstvene integracione stekove, ali o njima ćemo govoriti u nekom drugom tutorijalu. Za sada, `RGB` CLI je zvanična referenca, čak i ako ostaje relativno neizbrušena.
 
@@ -164,7 +164,7 @@ Postoje dva pristupa kreiranju nove imovine:
 - Ili direktno koristite podkomandu `issue`, sa YAML (ili TOML) fajlom koji opisuje svojstva tokena.
 
 
-Možete pronaći primere u Rustu u fascikli `examples`, koji ilustruju kako izgraditi `ContractBuilder`, popuniti `Global State` (ime imovine, oznaka, Supply (ukupna ponuda), datum, itd.), odrediti [vlasničko stanje (eng. Owned State)](https://planb.network/resources/glossary/owned-state) (kojem UTXO-u pripada), zatim sve to kompajlirati u *Contract Consignment* koji možete izvesti, validirati i uvesti u stash.
+Možete pronaći primere u Rustu u fascikli `examples`, koji ilustruju kako izgraditi `ContractBuilder`, popuniti `Global State` (ime imovine, oznaka, Supply (ukupna ponuda), datum, itd.), odrediti [vlasničko stanje (eng. Owned State)](https://planb.academy/resources/glossary/owned-state) (kojem UTXO-u pripada), zatim sve to kompajlirati u *Contract Consignment* koji možete izvesti, validirati i uvesti u stash.
 
 
 Drugi način je ručno uređivanje YAML datoteke izmenom `ticker`, `name`, `Supply`, i tako dalje. Pretpostavimo da se datoteka zove `RGB20-demo.yaml`. Možete navesti :
@@ -185,8 +185,8 @@ Evo primera YAML datoteka za kreiranje:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -231,7 +231,7 @@ rgb schemata
 ```
 
 
-CLI odgovara da je novi [Contract](https://planb.network/resources/glossary/contrat-rgb) izdat i dodat u stash. Ako unesemo sledeću komandu, vidimo da sada postoji dodatni Contract, koji odgovara upravo izdatom:
+CLI odgovara da je novi [Contract](https://planb.academy/resources/glossary/contrat-rgb) izdat i dodat u stash. Ako unesemo sledeću komandu, vidimo da sada postoji dodatni Contract, koji odgovara upravo izdatom:
 
 
 ```bash
@@ -242,7 +242,7 @@ rgb contracts
 ![RGB-CLI](assets/fr/07.webp)
 
 
-Zatim, sledeća komanda prikazuje globalna stanja (ime, oznaka, Supply...) i listu [Owned States](https://planb.network/resources/glossary/owned-state), tj. alokacije (na primer, 1 milion `PBN` tokena definisanih UTXO-om `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Zatim, sledeća komanda prikazuje globalna stanja (ime, oznaka, Supply...) i listu [Owned States](https://planb.academy/resources/glossary/owned-state), tj. alokacije (na primer, 1 milion `Plan ₿ Academy` tokena definisanih UTXO-om `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -420,4 +420,4 @@ Sada znate kako da izdate i prenesete RGB ugovor. Ako vam je ovaj vodič bio kor
 Takođe preporučujem ovaj drugi vodič u kojem objašnjavam kako pokrenuti Lightning čvor kompatibilan sa RGB za razmenu tokena gotovo trenutno:
 
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

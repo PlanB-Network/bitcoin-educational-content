@@ -6,4 +6,4 @@ wrong_answers:
   - Routage dynamique
 explanation: |
   La traduction statique établit un lien fixe entre une adresse IP interne et une adresse IP publique, utile pour rendre des ressources internes accessibles depuis l’extérieur.
-reviewed: false
+reviewed: true 

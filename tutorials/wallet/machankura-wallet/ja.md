@@ -1,5 +1,5 @@
 ---
-name: マチャンクラ
+name: Machankura
 description: インターネットがなくても、どの電話でもBitcoinを利用できる。
 ---
 
@@ -344,7 +344,7 @@ PIO TARAS (Lead Machankura Afrique Francophone)によるビットコインの[�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 また、"**クラン**"機能もあり、複数署名による協力体制を管理することができます。クランメンバーは各支出を承認する必要があり、クランメンバー間で自動的に資金を分配することができます。
 
@@ -439,13 +439,13 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 まっちゃんくらは、異なるライトニングウォレット間の相互運用を可能にします。このデモでは、Machankura WhatsApp Wallet から Satoshi Wallet の Wallet にビットコインを送ります。
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 送信するには、「SEND BTC」オプションに対応する数字1を入力してください。次に、"Lightning Address "の送信オプションを選択し、ビットコインを送信するAddressを入力します。最後に、"Sats "を選択し、送信するサトシの数を入力し、送信を確定します。
 
@@ -577,9 +577,9 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### バランスチェック
 

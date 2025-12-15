@@ -1,0 +1,8 @@
+question: Apa alasan utama mekanisme penyesuaian tingkat kesulitan Bitcoin membatasi perubahan dalam faktor empat selama setiap periode penyesuaian blok 2016?
+answer: Untuk mencegah osilasi ekstrem yang dapat mengganggu kestabilan jaringan ketika tingkat hash berubah secara dramatis
+wrong_answers:
+  - Untuk memastikan para penambang memiliki waktu yang cukup untuk meningkatkan perangkat keras mereka sebelum tingkat kesulitan meningkat secara signifikan
+  - Untuk mempertahankan kompatibilitas dengan bidang cap waktu 32-bit yang menjadi tidak dapat diandalkan dengan penyesuaian yang lebih besar
+  - Untuk mencegah jadwal pembagian subsidi blok agar tidak terganggu oleh perubahan tingkat kesulitan yang cepat
+explanation: |
+  Batas empat kali lipat mencegah loop umpan balik yang berbahaya di mana perubahan tingkat kesulitan yang ekstrim dapat menyebabkan perubahan waktu blok yang liar. Tanpa batasan ini, penurunan tingkat hash yang tiba-tiba dapat memicu penurunan tingkat kesulitan secara besar-besaran, membuat blok menjadi terlalu mudah dan berpotensi mengacaukan konsensus. Sebaliknya, peningkatan yang sangat besar dapat membuat blok menjadi hampir tidak mungkin untuk ditambang. Batas ini memastikan penyesuaian bertahap dan dapat diatur yang menjaga stabilitas jaringan bahkan selama gangguan besar seperti pelarangan mining, memungkinkan sistem untuk mengoreksi diri sendiri secara terprediksi selama beberapa periode penyesuaian daripada menciptakan osilasi yang kacau.

@@ -13,7 +13,7 @@ description: Hướng dẫn ngắn gọn để khuyến khích khách hàng chi 
 Cuối cùng bạn đã quyết định áp dụng Bitcoin vào doanh nghiệp của mình, và mọi thứ đã sẵn sàng: Lightning Network Wallet đã được thiết lập để nhận thanh toán, nhân viên của bạn đã biết cách sử dụng phiên bản chỉ đọc của Wallet để nhận thanh toán thay mặt bạn, Điểm bán hàng (PoS) đã được cấu hình với các sản phẩm của cửa hàng và được cập nhật hàng tháng, và bạn đã biết cách quản lý kế toán Bitcoin từ khách hàng. Nếu bạn chưa biết cách thực hiện, hãy xem hướng dẫn này:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Vấn đề là gì
 
@@ -129,7 +129,7 @@ Phương pháp thực hiện được giao cho người bán, nhưng tóm lại,
 Dù trong bất kỳ trường hợp nào, việc đảm bảo rằng doanh nghiệp của bạn, nếu có địa điểm thực tế, có mặt và được cập nhật trên [BTC Map](https://btcmap.org/map) luôn là một thói quen tốt. Hầu hết người dùng bitcoin đều quen thuộc với công cụ này, và gần như tất cả những ai đã chi tiêu bitcoin tại các cửa hàng thực tế đều đã ít nhất một lần kiểm tra xem những nơi nào chấp nhận. Nếu bạn muốn tìm hiểu cách thêm cửa hàng của mình vào BTC Map hoặc muốn có thêm thông tin, hãy xem hướng dẫn này:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Quản lý kế toán
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Nếu bạn đang thắc mắc làm thế nào để quản lý số bitcoin vừa kiếm được, cho dù bạn có áp dụng một trong các chính sách chiết khấu hay không, thì đây chính là hướng dẫn dành cho bạn:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Phần kết luận
 

@@ -1,0 +1,8 @@
+question: D'après le petit théorème de Fermat, quel est l'inverse multiplicatif de l'élément n dans un corps premier F(p) ?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Le petit théorème de Fermat énonce que n^(p-1) ≡ 1 (mod p) pour tout élément non nul n dans un corps premier. Pour trouver l'inverse multiplicatif, nous avons besoin d'une valeur qui, multipliée par n, donne 1. Puisque n^(p-1) ≡ 1, nous pouvons réécrire cela comme n - n^(p-2) ≡ 1, ce qui prouve que n^(p-2) est l'inverse multiplicatif de n. Les autres options sont incorrectes : n^(p-1) est égal à 1 par le théorème de Fermat, tandis que n^(p+1) et n^(p+2) donneraient des valeurs équivalentes à n^2 et n^3 respectivement lorsqu'ils sont réduits modulo p.

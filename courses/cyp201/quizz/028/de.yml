@@ -6,4 +6,4 @@ wrong_answers:
   - 128 Bits
 explanation: |
   Ein Schnorr-öffentlicher Schlüssel wird nur durch die x-Koordinate des Punktes auf der elliptischen Kurve dargestellt, was seine Größe auf 32 Bytes reduziert.
-reviewed: false
+reviewed: true

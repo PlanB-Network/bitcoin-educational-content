@@ -324,4 +324,4 @@ https://armantheparman.com/ledgersparrow/
 इस विषय को और अधिक जानने के लिए तथा BIP39 passphrase के साथ Ledger नैनो पर अपने Wallet की सुरक्षा को मजबूत करने के लिए, मैं आपको इस व्यापक ट्यूटोरियल को देखने के लिए आमंत्रित करता हूँ:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49

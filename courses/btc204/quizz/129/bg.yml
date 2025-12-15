@@ -1,0 +1,10 @@
+question: Кои са двата основни варианта на интелигентни договори, използвани при обмена на монети?
+answer: HTLC и PTLC
+wrong_answers:
+  - Множество подписи и един подпис
+  - Интелигентни договори и DApps
+  - SegWit и Taproot
+explanation: |
+  За осъществяване на размяна на монети могат да се използват HTLC (Hash Time-Locked Contracts) или PTLC (Point Time-Locked Contracts).
+  
+reviewed: true

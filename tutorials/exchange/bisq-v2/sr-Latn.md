@@ -11,7 +11,7 @@ description: Potpuni vodič za korišćenje Bisq 2 i razmenu bitkoina P2P
 Peer-to-peer razmene bez KYC (P2P) su ključne za očuvanje poverljivosti korisnika i finansijske autonomije. Omogućavaju direktne transakcije između pojedinaca bez potrebe za verifikacijom identiteta, što je od suštinskog značaja za one koji cene privatnost. Za dublje razumevanje teorijskih koncepata, pogledajte kurs BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Šta je Bisq 2?
 
@@ -31,7 +31,7 @@ Bisq 2 je nova verzija popularnog decentralizovanog Bisq Exchange, lansirana 202
 - Sistem uloga sa obaveznim depozitom u BSQ
 
 
-Ovaj vodič se fokusira isključivo na "Bisq Easy", jedini trenutno dostupni protokol. Bisq Easy je dizajniran posebno za nove korisnike Bitcoin. Ovaj protokol omogućava korisnicima da kupuju i prodaju Bitcoine u zamenu za fiat valute na decentralizovanoj peer-to-peer platformi. Transakcije su ograničene na ekvivalent od 600 USD (sa minimumom od 6 USD), a sigurnost Exchange se oslanja na reputaciju prodavaca BTC-a. Bisq Easy nema naknade za trgovanje niti zahteve za sigurnosni depozit. Očekuje se da će Bisq Easy zameniti Bisq 1 za gotovinske razmene ispod 600 USD (ili ekvivalent).
+Ovaj vodič se isključivo fokusira na „Bisq Easy“, jedini trenutno dostupni protokol. Bisq Easy je posebno dizajniran za nove korisnike Bitcoina. Ovaj protokol omogućava korisnicima kupovinu i prodaju bitkoina za fiat valute na decentralizovanoj peer-to-peer platformi. Transakcije su ograničene na ekvivalent od 600 USD (sa minimumom od 6 USD), a sigurnost trgovine zasniva se na reputaciji prodavaca BTC-a. Bisq Easy nema trgovačke naknade niti zahtev za depozitom. Očekuje se da će Bisq Easy zameniti Bisq 1 za fiat trgovine ispod 600 USD (ili ekvivalent).
 
 
 **Glavne karakteristike:**
@@ -84,7 +84,7 @@ Ovaj vodič se fokusira isključivo na "Bisq Easy", jedini trenutno dostupni pro
 - Kreator ponude definiše uslove Exchange
 - Jednom kada se trgovci dogovore o uslovima (način plaćanja i cena), Exchange počinje
 - Prodavac šalje svoje bankovne podatke kupcu, a kupac šalje svoj Bitcoin Address prodavcu.
-- Kupac vrši uplatu u gotovini i obaveštava prodavca
+- Kupac vrši uplatu u fiat valuti i obaveštava prodavca
 - Jednom kada uplata bude primljena, prodavac šalje bitkoine kupcu na Address
 - Exchange je završen kada kupac primi bitkoine
 
@@ -117,7 +117,7 @@ Ovaj vodič se fokusira isključivo na "Bisq Easy", jedini trenutno dostupni pro
 - Proverite autentičnost preuzete datoteke (preporučuje se). Za detaljan vodič o verifikaciji potpisa, pogledajte sledeći tutorijal:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Instalacija prema vašem sistemu
 

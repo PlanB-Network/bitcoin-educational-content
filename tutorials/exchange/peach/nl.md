@@ -14,7 +14,7 @@ description: Complete gids voor het gebruik van Peach en het wisselen van bitcoi
 KYC-vrije peer-to-peer (P2P) uitwisselingen zijn essentieel voor het behoud van de privacy en financiële autonomie van gebruikers. Ze maken directe transacties tussen individuen mogelijk zonder de noodzaak voor identiteitsverificatie, wat cruciaal is voor diegenen die waarde hechten aan privacy. Voor een meer diepgaand begrip van de theoretische concepten, bekijk de BTC204 cursus:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Wat is perzik?
 
@@ -47,7 +47,7 @@ Ter herinnering, een Hash is data die onherkenbaar is gemaakt, vergelijkbaar met
 *Voor meer informatie over hashing kun je deze cursus volgen:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Wie kan mijn betalingsgegevens zien?**
 

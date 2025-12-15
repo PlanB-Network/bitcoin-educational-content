@@ -1,0 +1,8 @@
+question: Hvilke spesifikke utfordringer må Bitcoin-noder håndtere når de konstruerer og verifiserer Merkle-trær fra transaksjonsdata?
+answer: Transaksjonshashes må reverseres fra little-endian serialisert format til big-endian for intern treberegning, og deretter reverseres tilbake for lagring
+wrong_answers:
+  - Blokkhodene må konverteres fra big-endian til little-endian før Merkle-roten beregnes for å matche nettverksoverføringsformatet
+  - Den endelige Merkle-roten må konverteres fra big-endian til little-endian bare når den sendes til andre noder via P2P-meldinger
+  - Transaksjons-ID-er lagres i big-endian-format, men må konverteres til little-endian før hashing av par i Merkle-treet
+explanation: |
+  Bitcoins Merkle-trekonstruksjon innebærer et kritisk konverteringstrinn for endian. Mens serialiserte blokkdata bruker little-endian-format, krever den interne Merkle-treberegningen big-endian-hashes. Noder må reversere transaksjonshashene fra det serialiserte little-endian-formatet til big-endian før trekonstruksjonen, og deretter reversere den endelige roten tilbake til little-endian for lagring i blokkhodet. Denne konverteringen er avgjørende for korrekt verifisering.

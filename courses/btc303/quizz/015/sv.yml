@@ -1,0 +1,9 @@
+question: Vad händer när användare lägger ut sin Bitcoin-transaktionsverifiering till tredje part istället för att köra sina egna fullständiga noder?
+answer: Bitcoin:s decentralisering försvagas eftersom färre personer tillämpar nätverksreglerna på egen hand
+wrong_answers:
+  - Bitcoin-transaktioner blir snabbare och mer effektiva för alla nätverksdeltagare
+  - Bitcoin-nätverket skapar automatiskt fler mining-noder för att kompensera för den förlorade valideringen
+  - Tredjepartstjänster får möjlighet att skapa nya bitcoins utöver det normala utgivningsschemat
+explanation: |
+  När användare inte driver sina egna fullständiga noder lägger de ut sin makt att genomdriva Bitcoin:s regler på andra. Detta försvagar Bitcoin:s decentralisering eftersom färre oberoende parter validerar transaktioner och block. Som David Harding förklarar skapar detta en situation där ett litet antal gruvarbetare och tjänsteleverantörer potentiellt kan ändra Bitcoin:s regler för icke-verifierande användare, medan dessa användare inte skulle kunna göra transaktioner med personer som driver fullständiga valideringsnoder som avvisar dessa regeländringar.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Množenje dva velika prosta broja da bi se dobio proizvod
 explanation: |
   Bezbednost RSA algoritma zasniva se na teškoći faktorizacije velikog broja (proizvoda dva velika prosta broja) na njegova dva prosta faktora, zadatak koji je gotovo nemoguć bez privatnog ključa.
-reviewed: false
+reviewed: true

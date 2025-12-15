@@ -5,5 +5,5 @@ wrong_answers:
   - IETF
   - AETF
 explanation: |
-  ARPA (Wakala wa Miradi ya Utafiti wa Juu) ilianzisha ARPANET, ambayo iliweka msingi wa uundaji wa itifaki ya TCP/IP. Mnamo 1972, wakala huo ulipewa jina la DARPA (Wakala wa Miradi ya Utafiti wa Kina wa Ulinzi).
-reviewed: false
+  ARPA (Advanced Research Projects Agency) ilianzisha ARPANET, ambayo iliweka msingi wa uundaji wa itifaki ya TCP/IP. Mnamo 1972, wakala huo ulipewa jina la DARPA (Wakala wa Miradi ya Utafiti wa Kina wa Ulinzi).
+reviewed: true

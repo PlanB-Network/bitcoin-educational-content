@@ -14,7 +14,7 @@ description: Kompletan vodič za korišćenje Peach-a i razmenu bitkoina P2P
 Peer-to-peer razmene bez KYC (P2P) su ključne za očuvanje poverljivosti korisnika i finansijske autonomije. Omogućavaju direktne transakcije između pojedinaca bez potrebe za verifikacijom identiteta, što je od suštinskog značaja za one koji cene privatnost. Za dublje razumevanje teorijskih koncepata, pogledajte kurs BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Šta je Peach?
 
@@ -47,7 +47,7 @@ Kao podsetnik, Hash je podatak učinjen neprepoznatljivim, slično enkripciji. I
 *Za više informacija o heširanju, možete pratiti ovaj kurs:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Ko može videti moje podatke o plaćanju?**
 

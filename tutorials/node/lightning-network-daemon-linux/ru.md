@@ -34,7 +34,7 @@ Lightning Network Daemon - это полная реализация Lightning Ne
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Зачем нужен собственный узел Lightning?
 
@@ -64,7 +64,7 @@ Lightning - это оверлей Bitcoin, который оптимизируе
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 У вас есть два варианта запуска экземпляра реализации LND на нашей машине. Мы можем либо настроить среду на своей машине для локального запуска, либо установить LND из контейнера Docker. Здесь мы остановимся на первом варианте, а о том, как работать с Docker, расскажем в одном из следующих уроков.
@@ -665,4 +665,4 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

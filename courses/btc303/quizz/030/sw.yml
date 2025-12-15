@@ -1,0 +1,9 @@
+question: Kulingana na mtazamo wa Satoshi Nakamoto, bitcoins zilizopotea zina athari gani kwenye sarafu zilizobaki katika mzunguko?
+answer: Wanafanya sarafu za kila mtu kuwa na thamani zaidi kama mchango kwa kila mtu
+wrong_answers:
+  - Wanapunguza usalama wa mtandao kwa kupunguza jumla ya thamani inayopatikana kwa zawadi za mining
+  - Wanaunda shinikizo la deflationary ambalo hudhoofisha mfumo wa fedha kwa muda
+  - Lazima zibadilishwe kupitia mining ya ziada ili kudumisha kiwango cha usambazaji kilichokusudiwa
+explanation: |
+  Satoshi Nakamoto alieleza kuwa sarafu zilizopotea hufanya kazi kama mchango kwa wamiliki wengine wote wa bitcoin kwa kufanya sarafu zao kuwa za thamani zaidi kutokana na ugavi wa ufanisi uliopungua. Hii ni athari chanya ya deflationary, sio nguvu ya kudhoofisha. Sarafu zilizopotea haziathiri zawadi za mining kwa kuwa hizo hutoka kwa sarafu mpya na ada za muamala, si kutoka kwa usambazaji uliopo. Itifaki ya Bitcoin haichukui nafasi ya sarafu zilizopotea - zinasalia nje ya mzunguko kabisa, ambayo kwa kweli huwanufaisha wamiliki waliosalia kupitia uhaba ulioongezeka.
+reviewed: false

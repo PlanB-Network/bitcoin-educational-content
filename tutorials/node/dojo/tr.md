@@ -64,7 +64,7 @@ Ekipman seçimi hakkında daha fazla bilgi için bu kursa katılmanızı tavsiye
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Önerilen ekipman
 
@@ -192,7 +192,7 @@ Ubuntu kurulum süreci hakkında daha fazla bilgi için lütfen özel eğitimimi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. sistem güncellemesi
 
@@ -428,7 +428,7 @@ Sistem daha sonra sizden seçtiğiniz şifreyi girmenizi ve ardından ikinci kez
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Kullanıcıyı Docker kullanmak için yetkilendirin
 
@@ -1068,7 +1068,7 @@ IBD ve daha genel olarak Bitcoin düğümünüzün çalışması ve rolü hakkı
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Senkronizasyon izleme

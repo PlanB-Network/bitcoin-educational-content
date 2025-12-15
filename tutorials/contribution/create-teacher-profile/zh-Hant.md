@@ -1,14 +1,14 @@
 ---
-name: Plan ₿ Network 教授
-description: 如何在 Plan ₿ Network 上新增或修改教師檔案？
+name: Plan ₿ Academy 教授
+description: 如何在 Plan ₿ Academy 上新增或修改教師檔案？
 ---
 ![cover](assets/cover.webp)
 
 
-如果您打算透過撰寫新的教學或課程來貢獻 Plan ₿ Network，您將需要一個教師檔案。此設定檔可讓您為貢獻至平台的內容取得適當的學分。
+如果您打算透過撰寫新的教學或課程來貢獻 Plan ₿ Academy，您將需要一個教師檔案。此設定檔可讓您為貢獻至平台的內容取得適當的學分。
 
 
-對於那些已經參與製作 Plan ₿ Network 上教育內容的人，您可能已經有一個教師檔案。您可以在 `/professors` 資料夾 [我們的 GitHub 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) 中找到它。如果您的設定檔已經存在，請在 `professor.yml` 檔案中找到您的登入帳號。
+對於那些已經參與製作 Plan ₿ Academy 上教育內容的人，您可能已經有一個教師檔案。您可以在 `/professors` 資料夾 [我們的 GitHub 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) 中找到它。如果您的設定檔已經存在，請在 `professor.yml` 檔案中找到您的登入帳號。
 
 
 若要變更您的個人資料，請前往本教學結尾的「編輯您的教師個人資料」部分。
@@ -17,13 +17,13 @@ description: 如何在 Plan ₿ Network 上新增或修改教師檔案？
 ## 使用我們的軟體新增教師
 
 
-在 Plan ₿ Network 上建立教師檔案的最簡單方法是使用我們整合的 Python 工具。以下是它的工作方式。
+在 Plan ₿ Academy 上建立教師檔案的最簡單方法是使用我們整合的 Python 工具。以下是它的工作方式。
 
 
 ### 1 - 設定您的本機環境
 
 
-您必須從 [GitHub 上的 Plan ₿ Network 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content) 擁有自己的 Fork。
+您必須從 [GitHub 上的 Plan ₿ Academy 套件庫](https://github.com/PlanB-Network/Bitcoin-educational-content) 擁有自己的 Fork。
 
 
 將 Fork 的主分支 (`dev`)與原始碼套件庫同步。
@@ -87,7 +87,7 @@ python3 main.py
 ```
 
 
-進入首頁後，輸入您的複製套件庫的本機路徑、您正在撰寫的語言以及您的 GitHub ID。如果您是為他人建立此個人資料，並且已經擁有教授的個人資料，請在 "*PBN Professor's ID*"欄位中輸入您的 ID。如果您正在建立自己的個人資料，您還沒有教授的 ID，因為您正在建立教授的 ID，所以請將此欄位留空。
+進入首頁後，輸入您的複製套件庫的本機路徑、您正在撰寫的語言以及您的 GitHub ID。如果您是為他人建立此個人資料，並且已經擁有教授的個人資料，請在 "*Plan ₿ Academy Professor's ID*"欄位中輸入您的 ID。如果您正在建立自己的個人資料，您還沒有教授的 ID，因為您正在建立教授的 ID，所以請將此欄位留空。
 
 
 然後按一下「*新教授*」按鈕。
@@ -156,8 +156,8 @@ git push origin add-professor-loic-morel
 對於初學者，我建議直接透過 GitHub 的 Interface web 進行修改。確保您有一個 GitHub 帳戶。如果您不知道如何建立帳號，請遵循此教學 ：
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-前往 [專門提供資料的 Plan ₿ Network GitHub 資源庫](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors)。
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+前往 [專門提供資料的 Plan ₿ Academy GitHub 資源庫](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors)。
 
 
 ![Image](assets/fr/03.webp)
@@ -184,7 +184,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![Image](assets/fr/06.webp)
 
 
-如果您還沒有 Plan ₿ Network 倉庫中的 Fork，GitHub 會建議您建立一個。點選「*Fork this repository*」。
+如果您還沒有 Plan ₿ Academy 倉庫中的 Fork，GitHub 會建議您建立一個。點選「*Fork this repository*」。
 
 
 ![Image](assets/fr/07.webp)
@@ -205,13 +205,13 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 您的變更摘要將會顯示。如果您希望對您的設定檔做進一步的變更，您可以返回資料夾並做進一步的提交。完成後，按一下「*建立拉取請求*」。
 
 
-拉取請求（Pull Request）是將您的分支中的變更整合到 Plan ₿ Network 套件庫的主分支中的請求，允許在合併之前檢閱和討論變更。
+拉取請求（Pull Request）是將您的分支中的變更整合到 Plan ₿ Academy 套件庫的主分支中的請求，允許在合併之前檢閱和討論變更。
 
 
 ![Image](assets/fr/10.webp)
 
 
-確保在 Interface 的頂端，您的工作分支與 Plan ₿ Network 套件庫的 `dev` 分支 (也就是主分支) 合併。
+確保在 Interface 的頂端，您的工作分支與 Plan ₿ Academy 套件庫的 `dev` 分支 (也就是主分支) 合併。
 
 
 輸入一個標題，簡要概括您希望與原始碼倉庫合併的變更。加入簡短的註解描述這些變更，然後按一下 Green 的「*建立拉取請求*」按鈕確認拉取請求：
@@ -220,7 +220,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![Image](assets/fr/11.webp)
 
 
-您的 PR 將會在 Plan ₿ Network 主套件庫的「*Pull Request*」標籤中顯示。現在您要做的就是等待管理員合併您的修改。
+您的 PR 將會在 Plan ₿ Academy 主套件庫的「*Pull Request*」標籤中顯示。現在您要做的就是等待管理員合併您的修改。
 
 
 ![Image](assets/fr/12.webp)

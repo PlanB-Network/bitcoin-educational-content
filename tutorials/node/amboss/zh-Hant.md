@@ -11,7 +11,7 @@ Lightning Network 是 Bitcoin 協定的 Layer，主要是為了提高每筆交�
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 正如在主鏈上一樣，為了促進節點之間的連接，並將網絡中普遍存在的流動性問題降至最低，讓用戶瞭解網絡的資訊和狀態已變得非常重要。事實上，與 Bitcoin 主鏈上的交易相比，我們建議在 Lightning Network 上進行金額相對較小的微額支付。
 
@@ -34,7 +34,7 @@ https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 在本教程中，我們將帶您參觀這個平台，它是 Lightning Network 使用者、想要連接節點擴充網路的使用者等不可或缺的資源。
 
@@ -57,7 +57,7 @@ Amboss 平台的目的之一是讓網路中的各個節點能夠互相連接和�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 在首頁上，您還可以找到根據 .NET 和 .NET 技術分類的節點：
 
@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - 傳入比率**：節點每收到一百萬個 Satoshi 會向您收取的金額，視所選擇的頻道而定。
 - 比率 (百萬分率)** : 表示當您決定透過其中一個通道付款時，節點會向您收取每百萬單位的 Satoshi 數量。比方說，您決定透過一個 ppm 比率為 `500 Sats` 的通道支付 `10_000 Sats` ，您就必須支付節點 `10_000 * 500 / 1_000_000` 薩托希，相當於 `5 Sats`。
-- [HTLC](https://planb.network/resources/glossary/HTLC) 最大** ：此節點允許您透過其中一個通道轉運的最大金額。
+- [HTLC](https://planb.academy/resources/glossary/htlc) 最大** ：此節點允許您透過其中一個通道轉運的最大金額。
 
 
 
@@ -304,4 +304,4 @@ Amboss 提供許多工具，協助您最佳化搜尋和行動。
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

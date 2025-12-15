@@ -1,7 +1,7 @@
-question: Waarom wordt een HDD niet aanbevolen voor een Bitcoin knooppunt?
-answer: Omdat het IBD en algemeen gebruik aanzienlijk vertraagt
+question: Waarom wordt een HDD niet aanbevolen voor een Bitcoin node?
+answer: Omdat het IBD een algemeen gebruik aanzienlijk vertraagt
 wrong_answers:
-  - Omdat het geen Blockchain bestanden kan opslaan
+  - Omdat het geen blockchain bestanden kan opslaan
   - Omdat het te weinig energie verbruikt en dreigt te exploderen
   - Omdat het niet compatibel is met Bitcoin core
 explanation: |

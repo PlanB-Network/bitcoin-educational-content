@@ -1,22 +1,22 @@
 ---
-name: Profesor Plan ₿ Network
-description: Bagaimana cara menambah atau mengubah profil guru saya di Plan ₿ Network?
+name: Profesor Plan ₿ Academy
+description: Bagaimana cara menambah atau mengubah profil guru saya di Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-Jika Anda berencana untuk berkontribusi pada Plan ₿ Network dengan menulis tutorial atau kursus baru, Anda memerlukan profil pengajar. Profil ini akan memungkinkan Anda menerima kredit yang sesuai untuk konten yang Anda kontribusikan ke platform.
+Jika Anda berencana untuk berkontribusi pada Plan ₿ Academy dengan menulis tutorial atau kursus baru, Anda memerlukan profil pengajar. Profil ini akan memungkinkan Anda menerima kredit yang sesuai untuk konten yang Anda kontribusikan ke platform.
 
-Bagi Anda yang telah terlibat dalam pembuatan konten pendidikan di Plan ₿ Network, Anda mungkin telah memiliki profil pengajar. Anda dapat menemukannya di folder `/professors` [di repositori GitHub kami] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Jika profil Anda sudah ada, cari login Anda di file `professor.yml`.
+Bagi Anda yang telah terlibat dalam pembuatan konten pendidikan di Plan ₿ Academy, Anda mungkin telah memiliki profil pengajar. Anda dapat menemukannya di folder `/professors` [di repositori GitHub kami] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Jika profil Anda sudah ada, cari login Anda di file `professor.yml`.
 
 Untuk membuat perubahan pada profil Anda, buka bagian "Edit profil guru Anda" di akhir tutorial ini.
 
 ## Tambahkan guru baru dengan perangkat lunak kami
 
-Cara termudah untuk membuat profil guru Anda di Plan ₿ Network adalah dengan menggunakan alat Python terintegrasi kami. Berikut cara kerjanya.
+Cara termudah untuk membuat profil guru Anda di Plan ₿ Academy adalah dengan menggunakan alat Python terintegrasi kami. Berikut cara kerjanya.
 
 ### 1 - Konfigurasikan lingkungan lokal Anda
 
-Anda harus memiliki Fork Anda sendiri dari [repositori Plan ₿ Network di GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Anda harus memiliki Fork Anda sendiri dari [repositori Plan ₿ Academy di GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Sinkronisasi cabang utama (`dev`) Fork Anda dengan repositori sumber.
 
@@ -67,7 +67,7 @@ Kemudian luncurkan perangkat lunak dengan perintah:
 python3 main.py
 ```
 
-Setelah berada di halaman beranda, masukkan jalur lokal ke klon repositori Anda, bahasa yang Anda gunakan untuk menulis, dan ID GitHub Anda. Jika Anda membuat profil ini untuk orang lain dan sudah memiliki profil Profesor, masukkan ID Anda di kolom "*ID Profesor PBN*". Jika Anda membuat profil Anda sendiri, Anda belum memiliki ID Profesor, karena Anda sedang dalam proses membuatnya, jadi biarkan bidang ini kosong.
+Setelah berada di halaman beranda, masukkan jalur lokal ke klon repositori Anda, bahasa yang Anda gunakan untuk menulis, dan ID GitHub Anda. Jika Anda membuat profil ini untuk orang lain dan sudah memiliki profil Profesor, masukkan ID Anda di kolom "*ID Profesor Plan ₿ Academy*". Jika Anda membuat profil Anda sendiri, Anda belum memiliki ID Profesor, karena Anda sedang dalam proses membuatnya, jadi biarkan bidang ini kosong.
 
 Kemudian klik tombol "*Profesor Baru*".
 
@@ -118,8 +118,8 @@ Jika Anda telah menguasai penggunaan Git, ubah profil guru Anda dengan membuat c
 
 Untuk pemula, saya sarankan untuk melakukan modifikasi secara langsung melalui web Interface milik GitHub. Pastikan Anda memiliki akun GitHub. Jika Anda tidak tahu cara membuatnya, ikuti tutorial ini:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Buka [repositori GitHub Plan ₿ Network yang didedikasikan untuk data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Buka [repositori GitHub Plan ₿ Academy yang didedikasikan untuk data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 
@@ -137,7 +137,7 @@ Setelah berada di file yang ingin Anda modifikasi, klik ikon pensil.
 
 ![Image](assets/fr/06.webp)
 
-Jika Anda belum memiliki Fork dari repositori Plan ₿ Network, GitHub akan menyarankan Anda untuk membuatnya. Klik "*Fork repositori ini*".
+Jika Anda belum memiliki Fork dari repositori Plan ₿ Academy, GitHub akan menyarankan Anda untuk membuatnya. Klik "*Fork repositori ini*".
 
 ![Image](assets/fr/07.webp)
 
@@ -151,17 +151,17 @@ Masukkan pesan yang menjelaskan perubahan Anda, lalu pilih "*Usulkan perubahan*"
 
 Ringkasan perubahan Anda akan ditampilkan. Jika Anda ingin membuat perubahan lebih lanjut pada profil Anda, Anda dapat kembali ke folder dan membuat komit lebih lanjut. Setelah selesai, klik "*Buat permintaan penarikan*".
 
-Pull Request adalah permintaan yang dibuat untuk mengintegrasikan perubahan dari cabang Anda ke dalam cabang utama repositori Plan ₿ Network, yang memungkinkan peninjauan dan diskusi perubahan sebelum digabungkan.
+Pull Request adalah permintaan yang dibuat untuk mengintegrasikan perubahan dari cabang Anda ke dalam cabang utama repositori Plan ₿ Academy, yang memungkinkan peninjauan dan diskusi perubahan sebelum digabungkan.
 
 ![Image](assets/fr/10.webp)
 
-Pastikan, di bagian atas Interface, bahwa cabang kerja Anda telah digabungkan dengan cabang `dev` dari repositori Plan ₿ Network (yang merupakan cabang utama).
+Pastikan, di bagian atas Interface, bahwa cabang kerja Anda telah digabungkan dengan cabang `dev` dari repositori Plan ₿ Academy (yang merupakan cabang utama).
 
 Masukkan judul yang secara singkat meringkas perubahan yang ingin Anda gabungkan dengan repositori sumber. Tambahkan komentar singkat yang menjelaskan perubahan ini, lalu klik tombol Green "*Buat permintaan penarikan*" untuk mengonfirmasi permintaan penarikan:
 
 ![Image](assets/fr/11.webp)
 
-PR Anda kemudian akan terlihat di tab "*Pull Request*" pada repositori Plan ₿ Network utama. Yang harus Anda lakukan sekarang adalah menunggu administrator untuk menggabungkan modifikasi Anda.
+PR Anda kemudian akan terlihat di tab "*Pull Request*" pada repositori Plan ₿ Academy utama. Yang harus Anda lakukan sekarang adalah menunggu administrator untuk menggabungkan modifikasi Anda.
 
 ![Image](assets/fr/12.webp)
 

@@ -1,0 +1,9 @@
+question: Коя е основната алтернатива за внедряване на Bitcoin Core?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin Парични средства
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, разработен от Luke Dashjr, е fork на Core, който предлага допълнителни опции и по-консервативна визия.
+reviewed: true

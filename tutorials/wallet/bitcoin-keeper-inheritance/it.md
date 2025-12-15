@@ -1,5 +1,5 @@
 ---
-name: Custode Bitcoin - Piano di Eredità
+name: Bitcoin Keeper - Piano di eredità
 description: Impostare e utilizzare il Bitcoin Keeper Wallet con i Tapsigner per creare un piano di eredità
 ---
 
@@ -17,7 +17,7 @@ Questo video tutorial illustra l'impostazione e l'utilizzo di Bitcoin Keeper Wal
 
 Per vedere l'esercitazione completa per il Bitcoin Keeper Wallet, vedere l'esercitazione qui:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Consultate qui altri link pertinenti:
 

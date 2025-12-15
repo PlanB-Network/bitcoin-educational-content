@@ -1,0 +1,8 @@
+question: Mitä erityisiä endianssimuunnoshaasteita Bitcoin-solmujen on käsiteltävä, kun ne rakentavat ja verifioivat Merkle-puita tapahtumatiedoista?
+answer: Transaktiohashit on käännettävä pikku-endian sarjallisesta muodosta big-endian muotoon sisäisen puun laskentaa varten ja käännettävä sitten takaisin tallennusta varten
+wrong_answers:
+  - Lohkootsikot on muunnettava big-endianista little-endianiksi ennen Merkle-juuren laskemista, jotta ne sopisivat verkon siirtoformaattiin
+  - Lopullinen Merkle-juuri on muunnettava big-endianista little-endianiksi vain silloin, kun se lähetetään muille solmuille P2P-sanomien välityksellä
+  - Tapahtumatunnukset tallennetaan big-endian-muodossa, mutta ne on muunnettava little-endian-muotoon ennen parien hashing-toimintoa Merkle-puussa
+explanation: |
+  Bitcoin:n Merkle-puun rakentamiseen liittyy kriittinen endianness-muunnosvaihe. Vaikka sarjallistetut lohkodatat käyttävät little-endian-muotoa, sisäinen Merkle-puun laskenta vaatii big-endian-muotoisia hasheja. Solmujen on käännettävä transaktiohashit serialisoidusta little-endian-muodosta big-endian-muotoon ennen puun rakentamista ja käännetään sitten lopullinen juuri takaisin little-endian-muotoon, jotta se voidaan tallentaa lohko-otsikkoon. Tämä muuntaminen on välttämätöntä asianmukaisen todentamisen kannalta.

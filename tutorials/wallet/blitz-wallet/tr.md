@@ -43,7 +43,7 @@ Burada, yeni bir Wallet oluşturmakla başlıyoruz. Yedekleme cümlelerinizi yed
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**ÖNEMLI**: Bu 12 / 24 kurtarma kelimeleri bitcoinlerinize erişim için gereklidir. Onları kaybederseniz, artık bitcoinlerinizi harcama yetkiniz olmayacaktır.
 
@@ -108,7 +108,7 @@ Blitz Wallet'ün özelliklerinden biri de Bitcoin ekosisteminden farklı ağlar�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Varsayılan olarak, tüm işlemleriniz Liquid Network üzerinde olacaktır, ancak Blitz **Biçim seç** düğmesine tıklayarak satoshi almak istediğiniz ağı tanımlamanıza izin verir.
 
@@ -196,9 +196,9 @@ Bitcoin transfer işlemlerine ek olarak, Blitz Wallet size dijital hizmetler iç
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz sahne arkasında: Daha ileri gitmek
 
@@ -220,7 +220,7 @@ Bu yaklaşım, başlangıç deneyimini kolaylaştırma ve yeni kullanıcıların
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Bakiyenizin dökümünü **Ayarlar>Bakiye Bilgisi** menüsünde görebilirsiniz.
 
@@ -268,4 +268,4 @@ Eğer bu eğitim Blitz'i öğrenmenize yardımcı olduysa, Muun Wallet eğitimin
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

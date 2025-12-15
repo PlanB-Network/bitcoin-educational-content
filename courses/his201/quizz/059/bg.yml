@@ -1,0 +1,9 @@
+question: Кой член на форума публикува своя алгоритъм mining след щедро дарение от Джеф Гарзик на 18 септември 2010 г.?
+answer: puddinpop
+wrong_answers:
+  - nelisky
+  - m0mchil
+  - tcatm
+explanation: |
+  Дотогава те са печелили от комисиона за използването на техния софтуер. Те го [публикуваха](https: //bitcointalk.org/index.php?topic=133.msg13135#msg13135) под свободен лиценз.
+reviewed: true

@@ -18,7 +18,7 @@ V rámci ekosystému Bitcoin je pro začátek používání plateb Lightning dop
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Aby se usnadnilo přijetí Bitcoin v komunitách po celém světě, zřídila společnost Wallet z Satoshi také prodejní místo, aby povzbudila uživatele, aby ve své komunitě našli osvědčené využití: nákup a prodej zboží a služeb s Bitcoin.
 
@@ -174,16 +174,16 @@ Nyní máte k dispozici nástroj, který vám umožní přijmout Bitcoin ve vaš
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 A pokud hledáte kompletní PoS vhodný pro malé a střední podniky, doporučuji také švýcarský Bitcoin Pay:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Nakonec najdete náš kompletní školící kurz, kde se naučíte základy plateb Bitcoin a cash flow pro podniky:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

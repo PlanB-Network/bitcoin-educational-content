@@ -1,0 +1,8 @@
+question: Bitcoin'ın P2P ağ mesaj yapısında, her mesaj zarfındaki 4 baytlık sağlama toplamı alanını hangi özel veriler oluşturur?
+answer: Mesaj yükünün hash256'sının ilk 4 baytı
+wrong_answers:
+  - Tüm mesaj zarfının SHA256 özetinin ilk 4 baytı
+  - Komut alanının hash256'sının ilk 4 baytı yük ile birleştirilir
+  - Mesaj yükünün RIPEMD160 özetinin ilk 4 baytı
+explanation: |
+  Bitcoin'nin P2P mesaj zarfı, 4 baytlık sağlama toplamı alanının yalnızca mesaj yüküne uygulanan hash256'nın ilk 4 baytını içerdiği özel bir sağlama toplamı mekanizması kullanır. Bu, ağ iletimi sırasında yük verisi için bütünlük doğrulaması sağlar. Diğer seçenekler, Bitcoin'nin ağ protokolünde gerçekte uyguladığından farklı hash fonksiyonlarına (tek SHA256, RIPEMD160) veya farklı girdi verilerine (tüm zarf, komut+payload) atıfta bulundukları için yanlıştır.

@@ -1,0 +1,8 @@
+question: What is the primary technical reason why Greenlight-powered wallets achieve superior payment routing reliability compared to traditional mobile Lightning implementations?
+answer: Greenlight nodes run continuously in the cloud, maintaining real-time network graph synchronization and instant complete graph data access
+wrong_answers:
+  - Greenlight uses advanced machine learning algorithms to predict optimal payment routes based on historical transaction patterns
+  - Greenlight implements proprietary multi-path payment splitting that distributes transactions across multiple channels simultaneously for redundancy
+  - Greenlight maintains dedicated high-bandwidth connections to major Lightning hubs, ensuring priority routing through the most liquid channels
+explanation: |
+  The correct answer identifies the fundamental architectural advantage of Greenlight's cloud-based approach. Traditional mobile Lightning wallets must synchronize network graph data when they start up, creating delays and potentially working with stale routing information. Greenlight solves this by running Lightning nodes continuously in the cloud, ensuring they always have current network knowledge and can instantly provide complete graph data when users connect. The wrong answers describe plausible but non-existent features - Greenlight doesn't use ML routing algorithms, proprietary payment splitting beyond standard Lightning protocols, or special hub connections for priority routing.

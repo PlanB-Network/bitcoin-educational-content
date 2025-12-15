@@ -24,7 +24,7 @@ description: چگونه یک مدیر رمز عبور راه‌اندازی کن
 
 در این آموزش، ما بررسی خواهیم کرد که چگونه یک مدیر رمز عبور را برای افزایش امنیت آنلاین خود راه‌اندازی و استفاده کنیم. من شما را با Bitwarden آشنا خواهم کرد و در یک آموزش دیگر، به یک راه‌حل دیگر به نام KeePass خواهیم پرداخت.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 هشدار: یک مدیر رمز عبور برای ذخیره رمزها عالی است، اما **هرگز نباید عبارت Bitcoin Wallet's Mnemonic خود را در آن ذخیره کنید!** به یاد داشته باشید، یک عبارت Mnemonic باید به‌طور انحصاری در یک قالب فیزیکی، مانند یک تکه کاغذ یا فلز ذخیره شود.
 
@@ -117,9 +117,9 @@ Bitwarden یک مدیر رمز عبور است که هم برای مبتدیان
 اگر مطمئن نیستید که چگونه این دستگاه‌های 2FA را راه‌اندازی و استفاده کنید، توصیه می‌کنم این 2 آموزش دیگر را دنبال کنید:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 برای انجام این کار، به زبانه "*امنیت*" در منوی "*تنظیمات*" بروید.
 
@@ -177,7 +177,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 ![BITWARDEN](assets/notext/26.webp)
 
-در قسمت "*Name*" یک نام توصیفی برای مدارک خود وارد کنید. این کار جستجو و سازماندهی رمزهای عبور شما را آسان‌تر می‌کند، به‌ویژه اگر تعداد زیادی دارید. به عنوان مثال، اگر می‌خواهید مدارک خود را برای سایت PlanB Network ذخیره کنید، می‌توانید این مورد را به گونه‌ای نام‌گذاری کنید که در جستجوهای آینده‌تان به سرعت قابل شناسایی باشد.
+در قسمت "*Name*" یک نام توصیفی برای مدارک خود وارد کنید. این کار جستجو و سازماندهی رمزهای عبور شما را آسان‌تر می‌کند، به‌ویژه اگر تعداد زیادی دارید. به عنوان مثال، اگر می‌خواهید مدارک خود را برای سایت Plan ₿ Academy ذخیره کنید، می‌توانید این مورد را به گونه‌ای نام‌گذاری کنید که در جستجوهای آینده‌تان به سرعت قابل شناسایی باشد.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -235,7 +235,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 ![BITWARDEN](assets/notext/41.webp)
 
-می‌توانید هنگام ایجاد یک پوشه، آن را به یک شناسه اختصاص دهید، همانطور که قبلاً انجام دادیم، یا با تغییر یک شناسه موجود. به عنوان مثال، با کلیک بر روی شناسه من برای PlanB Network، می‌توانم آن را در پوشه "*Bitcoin*" طبقه‌بندی کنم.
+می‌توانید هنگام ایجاد یک پوشه، آن را به یک شناسه اختصاص دهید، همانطور که قبلاً انجام دادیم، یا با تغییر یک شناسه موجود. به عنوان مثال، با کلیک بر روی شناسه من برای Plan ₿ Academy، می‌توانم آن را در پوشه "*Bitcoin*" طبقه‌بندی کنم.
 
 ![BITWARDEN](assets/notext/42.webp)
 

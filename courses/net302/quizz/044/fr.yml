@@ -6,4 +6,4 @@ wrong_answers:
   - Contrôler l’accès aux serveurs web
 explanation: |
   Le DNS (Domain Name System) sert à traduire des noms de domaine lisibles par l’humain en adresses IP numériques nécessaires au routage.
-reviewed: false
+reviewed: true 

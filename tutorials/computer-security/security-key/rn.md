@@ -14,7 +14,7 @@ Muri iki gihe, ubuhinga bwo kwemeza ko umuntu ari uwundi (2FA) bwacitse ikintu g
 Mu yindi nyigisho, narasiguye ingene woshiraho no gukoresha porogarama ya TOTP 2FA:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Aha, turabona ingene wokoresha urufunguzo rw’umutekano w’umubiri nk’ikintu ca kabiri co kwemeza amakonti yawe yose.
 

@@ -22,7 +22,7 @@ Katika somo hili, tutakuonyesha jinsi ya kutumia Kraken kama mtu binafsi. Ikiwa 
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Unda akaunti ya Kraken
 
@@ -164,7 +164,7 @@ Kisha utapewa chaguo mbili za 2FA, ama "password", ambayo hukuwezesha kuthibitis
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Baada ya kuchagua njia inayokufaa zaidi, hatimaye tuko tayari kuweka pesa ili kununua satoshi zetu za kwanza.
 
@@ -329,7 +329,7 @@ Ikiwa ungependa Lightning Network, pia tuna kozi kamili ya mafunzo ili kukusaidi
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

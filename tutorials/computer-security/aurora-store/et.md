@@ -44,13 +44,13 @@ Saate Aurora Store'i alla laadida ka teistest rakenduspoodidest, nagu F-Droid v�
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Soovitame siiski laadida APK-faili alla otse ametlikust veebisaidist, et tagada Aurora Store'i autentsus ja terviklikkus.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 APK (Android Package Kit) fail on paketivorming, mida Android operatsioonis체steem kasutab rakenduste levitamiseks ja paigaldamiseks. See on samav채채rne **.exe** failidega Windowsis v천i **.dmg** failidega macOSis.
 
@@ -155,4 +155,4 @@ Aurora Store on rohkem kui lihtsalt rakenduste pood, see on avatud l채htekoodiga
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

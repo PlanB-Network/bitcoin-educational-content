@@ -708,7 +708,7 @@ A ligação Tor é necessária se quiser aceder ao seu nó fora da sua rede loca
 Para mais informações sobre o software Sparrow Wallet, dispomos de um tutorial completo:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Conclusão
 
 

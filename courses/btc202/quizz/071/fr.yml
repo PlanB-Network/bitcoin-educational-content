@@ -6,4 +6,4 @@ wrong_answers:
   - ip.dat et anchors.dat
 explanation: |
   Bitcoin Core consulte d’abord anchors.dat (pairs sortants précédents) puis peers.dat (carnet d’adresses connues) pour se reconnecter.
-reviewed: false
+reviewed: true 

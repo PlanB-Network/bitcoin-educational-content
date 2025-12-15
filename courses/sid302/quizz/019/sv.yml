@@ -1,0 +1,8 @@
+question: Vad skiljer reglerade tillgångar från oreglerade tillgångar i Liquid:s ursprungliga tillgångssystem?
+answer: Reglerade tillgångar kräver en andra signatur från en auktoriseringsserver innan de kan flyttas, vilket möjliggör efterlevnad av KYC/AML
+wrong_answers:
+  - Reglerade tillgångar använder smarta kontrakt medan oreglerade tillgångar använder enkla RPC inbjuder till utfärdande
+  - Reglerade tillgångar backas upp av Bitcoin-reserver medan oreglerade tillgångar endast finns på sidokedjan
+  - Reglerade tillgångar kräver godkännande av en funktionär för att skapas medan oreglerade tillgångar kan utfärdas utan tillstånd
+explanation: |
+  I Liquid:s arkitektur kan både reglerade och oreglerade tillgångar utfärdas utan tillstånd med hjälp av enkla RPC-anrop utan smarta kontrakt. Den viktigaste skillnaden är deras rörelse: reglerade tillgångar använder Blockstreams Asset Management Platform (AMP) för att upprätthålla efterlevnad genom att kräva en ytterligare auktoriseringssignatur före överföringar, medan oreglerade tillgångar kan röra sig fritt utan sådana begränsningar.

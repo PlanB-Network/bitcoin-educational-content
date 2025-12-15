@@ -20,7 +20,7 @@ RGB Contract imeundwa kama mashine ya hali ya mabadiliko. Huanza na Genesis inay
 Ili kujifunza zaidi kuhusu jinsi itifaki ya RGB inavyofanya kazi, ninapendekeza uchukue kozi hii ya kina ya mafunzo:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Mantiki ya ndani ya RGB inategemea maktaba za Rust ambazo wewe, kama wasanidi, unaweza kuingiza katika miradi yako ili kudhibiti sehemu ya *Client-side Validation*. Zaidi ya hayo, timu ya LNP/BP inashughulikia masuala ya kuunganisha lugha nyingine, lakini hili bado halijakamilika. Kwa kuongezea, huluki zingine kama Bitfinex zinatengeneza safu zao za ujumuishaji, lakini tutazungumza juu ya haya katika mafunzo mengine. Kwa sasa, `RGB` CLI ndiyo marejeleo rasmi, hata kama imesalia kuwa haijapolishwa.
 
@@ -186,8 +186,8 @@ Hapa kuna mfano wa faili ya YAML kuunda:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -243,7 +243,7 @@ rgb contracts
 ![RGB-CLI](assets/fr/07.webp)
 
 
-Kisha, amri inayofuata inaonyesha mataifa ya kimataifa (jina, tiki, Supply...) na orodha ya Nchi Zinazomilikiwa, yaani mgao (kwa mfano, tokeni za `PBN` milioni 1 zilizofafanuliwa katika UTXO. `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Kisha, amri inayofuata inaonyesha mataifa ya kimataifa (jina, tiki, Supply...) na orodha ya Nchi Zinazomilikiwa, yaani mgao (kwa mfano, tokeni za `Plan ₿ Academy` milioni 1 zilizofafanuliwa katika UTXO. `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -421,4 +421,4 @@ Sasa unajua jinsi ya kutoa na kuhamisha RGB Contract. Ikiwa umepata mafunzo haya
 Pia ninapendekeza somo hili lingine ambalo ninaelezea jinsi ya kuzindua nodi ya Umeme inayoendana na RGB kwa tokeni za Exchange karibu mara moja:
 
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

@@ -60,7 +60,7 @@ _Para mayor seguridad configure un código PIN_
 
 ## Acerca de la Red Lightning
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 La red Bitcoin Lightning revoluciona las transacciones de Bitcoin haciéndolas más rápidas, baratas y eficientes. Es perfecta para el uso diario, ya que permite pagos casi instantáneos con comisiones mínimas, ideales para microtransacciones como comprar un café o gestionar pequeñas compras frecuentes.
 

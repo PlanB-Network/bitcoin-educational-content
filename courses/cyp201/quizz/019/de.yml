@@ -6,4 +6,4 @@ wrong_answers:
   - Diskretes Würfelproblem
 explanation: |
   Die Sicherheit der elliptischen Kurvenkryptografie basiert auf der Schwierigkeit, das diskrete Logarithmusproblem auf diesen Kurven zu lösen.
-reviewed: false
+reviewed: true

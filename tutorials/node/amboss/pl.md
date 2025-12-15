@@ -11,7 +11,7 @@ Lightning Network to Layer protokołu Bitcoin, który został opracowany przede 
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Podobnie jak w przypadku głównego łańcucha, konieczne stało się umożliwienie użytkownikom poznania informacji i statusu sieci, aby ułatwić połączenia między węzłami i zminimalizować problem płynności, który zwykle pojawia się w sieci. Rzeczywiście, na Lightning Network zalecamy mikropłatności o stosunkowo mniejszych kwotach niż w przypadku transakcji na głównym łańcuchu Bitcoin.
 
@@ -34,7 +34,7 @@ Podobnie jak [Mempool Space](https://Mempool.space), który dostarcza przydatnyc
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 W tym samouczku zabierzemy Cię na wycieczkę po tej platformie, która jest niezbędnym zasobem dla użytkowników Lightning Network, tych, którzy chcą podłączyć swój węzeł, aby rozszerzyć sieć itp.
 
@@ -57,7 +57,7 @@ Jednym z celów platformy Amboss jest umożliwienie różnym węzłom w sieci ł
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Na stronie głównej znajdują się również węzły sklasyfikowane według :
 
@@ -147,7 +147,7 @@ W sekcji **Kanały** zobaczysz listę otwartych kanałów i połączeń węzła 
 
 - Współczynnik przychodzący**: Kwota, jaką węzeł pobierze za każdy milion Satoshi, które otrzyma, w zależności od wybranego kanału.
 - Współczynnik (części na milion)** : który reprezentuje liczbę Satoshi na milion jednostek, które węzeł naliczy, gdy zdecydujesz się dokonać płatności za pośrednictwem jednego z jego kanałów. Powiedzmy, że zdecydujesz się dokonać płatności w wysokości `10_000 Sats` za pośrednictwem kanału, którego współczynnik ppm wynosi `500 Sats`, będziesz musiał zapłacić węzłowi `10_000 * 500 / 1_000_000` satoshi, co odpowiada `5 Sats`.
-- Maksymalna wartość [HTLC](https://planb.network/resources/glossary/HTLC)** : Maksymalna kwota, jaką ten węzeł pozwala przesyłać za pośrednictwem jednego z tych kanałów.
+- Maksymalna wartość [HTLC](https://planb.academy/resources/glossary/htlc)** : Maksymalna kwota, jaką ten węzeł pozwala przesyłać za pośrednictwem jednego z tych kanałów.
 
 
 
@@ -304,4 +304,4 @@ Zapoznałeś się już z funkcjami i narzędziami analitycznymi platformy. Poni�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

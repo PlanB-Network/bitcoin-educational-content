@@ -19,7 +19,7 @@ Raba neza ko washizeho Umbrel ukurikije ubuyobozi bwacu bwo gushiramwo:
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Intangamarara ya Nostr .
 
@@ -306,7 +306,7 @@ Niba ushaka kumenya ingene woshiraho node yawe ya Lightning kuri Umbrel, ndagusa
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Gutunganya n'umutekano biteye imbere
 

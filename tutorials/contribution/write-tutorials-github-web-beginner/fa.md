@@ -1,6 +1,6 @@
 ---
 name: مشارکت - آموزش وب GitHub (مبتدی)
-description: راهنمای کامل آموزش‌های Plan ₿ Network با GitHub Web
+description: راهنمای کامل آموزش‌های Plan ₿ Academy با GitHub Web
 ---
 ![cover](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: راهنمای کامل آموزش‌های Plan ₿ Network با G
 قبل از دنبال کردن این آموزش در مورد اضافه کردن یک آموزش جدید، باید چند مرحله مقدماتی را تکمیل کرده باشید. اگر هنوز این کار را انجام نداده‌اید، لطفاً ابتدا به این آموزش مقدماتی نگاهی بیندازید و سپس به اینجا برگردید:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 شما قبلاً دارید:
 
@@ -16,11 +16,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 
 - یک موضوع برای آموزش خود انتخاب کنید؛
-- با تیم Plan ₿ Network از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) یا paolo@planb.network تماس گرفته شد؛
+- با تیم Plan ₿ Academy از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) یا paolo@planb.network تماس گرفته شد؛
 - ابزارهای مشارکت خود را انتخاب کنید.
 
 
-در این آموزش، ما به نحوه افزودن آموزش خود به Plan ₿ Network با استفاده از نسخه وب GitHub خواهیم پرداخت. اگر قبلاً Git را به خوبی یاد گرفته‌اید، ممکن است این آموزش بسیار دقیق برای شما ضروری نباشد. در عوض، توصیه می‌کنم یکی از این ۲ آموزش دیگر را بررسی کنید، جایی که من دستورالعمل‌هایی را که باید دنبال کنید و مراحل ایجاد تغییرات از یک محلی را به تفصیل شرح داده‌ام:
+در این آموزش، ما به نحوه افزودن آموزش خود به Plan ₿ Academy با استفاده از نسخه وب GitHub خواهیم پرداخت. اگر قبلاً Git را به خوبی یاد گرفته‌اید، ممکن است این آموزش بسیار دقیق برای شما ضروری نباشد. در عوض، توصیه می‌کنم یکی از این ۲ آموزش دیگر را بررسی کنید، جایی که من دستورالعمل‌هایی را که باید دنبال کنید و مراحل ایجاد تغییرات از یک محلی را به تفصیل شرح داده‌ام:
 
 
 
@@ -28,13 +28,13 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 - **کاربران با تجربه**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
 - **متوسط (GitHub Desktop)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 ## پیش‌نیازها
 
@@ -45,27 +45,27 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-desk
 
 
 - یک [حساب GitHub](https://github.com/signup) داشته باشید؛
-- یک Fork از [مخزن منبع Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content) داشته باشید؛
-- [یک پروفایل معلم در Plan ₿ Network داشته باشید](https://planb.network/professors) (فقط اگر یک آموزش کامل ارائه می‌دهید).
+- یک Fork از [مخزن منبع Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content) داشته باشید؛
+- [یک پروفایل معلم در Plan ₿ Academy داشته باشید](https://planb.academy/professors) (فقط اگر یک آموزش کامل ارائه می‌دهید).
 
 
 اگر برای تهیه این پیش‌نیازها به کمک نیاز دارید، آموزش‌های دیگر من کمک خواهند کرد:
 
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
+https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
-هنگامی که همه چیز در جای خود قرار گرفت و شما Fork از مخزن Plan ₿ Network خود را دارید، می‌توانید اضافه کردن آموزش را شروع کنید.
+هنگامی که همه چیز در جای خود قرار گرفت و شما Fork از مخزن Plan ₿ Academy خود را دارید، می‌توانید اضافه کردن آموزش را شروع کنید.
 
 
 ## ۱ - ایجاد یک شاخه جدید
 
 
-مرورگر خود را باز کرده و به صفحه Fork خود در مخزن Plan ₿ Network بروید. این همان Fork است که شما در GitHub ایجاد کرده‌اید. URL مربوط به Fork شما باید به این شکل باشد: `https://github.com/[your-username]/Bitcoin-educational-content`:
+مرورگر خود را باز کرده و به صفحه Fork خود در مخزن Plan ₿ Academy بروید. این همان Fork است که شما در GitHub ایجاد کرده‌اید. URL مربوط به Fork شما باید به این شکل باشد: `https://github.com/[your-username]/Bitcoin-educational-content`:
 
 
 ![GITHUB](assets/fr/01.webp)
@@ -104,7 +104,7 @@ https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9b
 اکنون که شاخه کاری ایجاد شده است، زمان آن رسیده که آموزش جدید خود را ادغام کنید.
 
 
-در فایل‌های شاخه خود، باید زیرپوشه مناسب برای قرار دادن آموزش خود را پیدا کنید. سازماندهی پوشه‌ها بخش‌های مختلف وب‌سایت Plan ₿ Network را منعکس می‌کند. در مثال ما، از آنجا که در حال اضافه کردن یک آموزش در Green Wallet هستیم، به مسیر زیر بروید: `Bitcoin-educational-content\tutorials\Wallet` که به بخش `Wallet` وب‌سایت مربوط می‌شود:
+در فایل‌های شاخه خود، باید زیرپوشه مناسب برای قرار دادن آموزش خود را پیدا کنید. سازماندهی پوشه‌ها بخش‌های مختلف وب‌سایت Plan ₿ Academy را منعکس می‌کند. در مثال ما، از آنجا که در حال اضافه کردن یک آموزش در Green Wallet هستیم، به مسیر زیر بروید: `Bitcoin-educational-content\tutorials\Wallet` که به بخش `Wallet` وب‌سایت مربوط می‌شود:
 
 
 ![GITHUB](assets/fr/05.webp)
@@ -197,15 +197,15 @@ reward:
 
 
 
-- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Network یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مر
+- **project_id**: شناسه UUID شرکت یا سازمان پشت ابزار ارائه‌شده در آموزش [از لیست پروژه‌ها](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). به عنوان مثال، اگر در حال ایجاد یک آموزش درباره نرم‌افزار Green Wallet هستید، می‌توانید این `project_id` را در فایل زیر پیدا کنید: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. این اطلاعات به فایل YAML آموزش شما اضافه می‌شود زیرا Plan ₿ Academy یک پایگاه داده از تمام شرکت‌ها و سازمان‌هایی که بر روی Bitcoin یا پروژه‌های مرتبط فعالیت می‌کنند، نگهداری می‌کند. با افزودن `project_id` موجودیت مر
 
 
 
-- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
+- **برچسب‌ها**: 2 یا 3 کلمه کلیدی مرتبط با محتوای آموزش، به‌طور انحصاری انتخاب شده [از لیست برچسب‌های Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md)؛
 
 
 
-- **دسته‌بندی**: زیرمجموعه مربوط به محتوای آموزشی، مطابق با ساختار وب‌سایت Plan ₿ Network (برای مثال، برای کیف‌پول‌ها: `desktop`، `hardware`، `mobile`، `backup`);
+- **دسته‌بندی**: زیرمجموعه مربوط به محتوای آموزشی، مطابق با ساختار وب‌سایت Plan ₿ Academy (برای مثال، برای کیف‌پول‌ها: `desktop`، `hardware`، `mobile`، `backup`);
 
 
 
@@ -236,7 +236,7 @@ reward:
 برای جزئیات بیشتر در مورد شناسه معلم خود، لطفاً به آموزش مربوطه مراجعه کنید:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -474,7 +474,7 @@ description: [Description]
 ![GITHUB](assets/fr/35.webp)
 
 
-اگر می‌خواهید نقشه‌های خود را ایجاد کنید، حتماً دستورالعمل‌های گرافیکی Plan ₿ Network را دنبال کنید تا از یکنواختی بصری اطمینان حاصل کنید:
+اگر می‌خواهید نقشه‌های خود را ایجاد کنید، حتماً دستورالعمل‌های گرافیکی Plan ₿ Academy را دنبال کنید تا از یکنواختی بصری اطمینان حاصل کنید:
 
 
 
@@ -486,7 +486,7 @@ description: [Description]
  - سفید: #FFFFFF
 
 
-**ضروری است که تمام تصاویر موجود در آموزش‌های شما عاری از حق کپی‌رایت باشند یا به مجوز فایل منبع احترام بگذارند**. بنابراین، تمام نمودارهایی که در Plan ₿ Network منتشر می‌شوند تحت مجوز CC-BY-SA در دسترس قرار می‌گیرند، به همان شیوه‌ای که متن قرار دارد.
+**ضروری است که تمام تصاویر موجود در آموزش‌های شما عاری از حق کپی‌رایت باشند یا به مجوز فایل منبع احترام بگذارند**. بنابراین، تمام نمودارهایی که در Plan ₿ Academy منتشر می‌شوند تحت مجوز CC-BY-SA در دسترس قرار می‌گیرند، به همان شیوه‌ای که متن قرار دارد.
 
 
 **-> نکته:** هنگام به اشتراک‌گذاری فایل‌ها به‌صورت عمومی، مانند تصاویر، مهم است که فراداده‌های اضافی را حذف کنید. این اطلاعات می‌تواند شامل اطلاعات حساس مانند داده‌های مکانی، تاریخ‌های ایجاد و جزئیات نویسنده باشد. برای حفاظت از حریم خصوصی خود، ایده خوبی است که این فراداده‌ها را حذف کنید. برای ساده‌سازی این عملیات، می‌توانید از ابزارهای تخصصی مانند [Exif Cleaner](https://exifcleaner.com/) استفاده کنید که به شما امکان می‌دهد فراداده‌های یک سند را با کشیدن و رها کردن ساده پاک کنید.
@@ -504,7 +504,7 @@ description: [Description]
 ![GITHUB](assets/fr/36.webp)
 
 
-یک درخواست Pull Request درخواستی است برای ادغام تغییرات از شاخه شما به شاخه اصلی مخزن Plan ₿ Network، که امکان بررسی و بحث در مورد تغییرات را قبل از ادغام فراهم می‌کند.
+یک درخواست Pull Request درخواستی است برای ادغام تغییرات از شاخه شما به شاخه اصلی مخزن Plan ₿ Academy، که امکان بررسی و بحث در مورد تغییرات را قبل از ادغام فراهم می‌کند.
 
 
 قبل از ادامه، با دقت در پایین Interface بررسی کنید که این تغییرات همان چیزی است که انتظار داشتید:
@@ -513,7 +513,7 @@ description: [Description]
 ![GITHUB](assets/fr/37.webp)
 
 
-مطمئن شوید که در بالای Interface، شاخه کاری شما با شاخه `dev` مخزن Plan ₿ Network (که شاخه اصلی است) ادغام شده است.
+مطمئن شوید که در بالای Interface، شاخه کاری شما با شاخه `dev` مخزن Plan ₿ Academy (که شاخه اصلی است) ادغام شده است.
 
 
 عنوانی وارد کنید که به طور خلاصه تغییراتی که می‌خواهید با مخزن منبع ادغام کنید را خلاصه کند. یک نظر کوتاه توصیف‌کننده این تغییرات اضافه کنید (اگر شماره مسئله‌ای با ایجاد آموزش شما مرتبط است، به یاد داشته باشید که `Closes #{issue number}` را به عنوان یک نظر یادداشت کنید)، سپس روی دکمه Green "*ایجاد درخواست کشش*" کلیک کنید تا درخواست ادغام را تأیید کنید:
@@ -522,7 +522,7 @@ description: [Description]
 ![GITHUB](assets/fr/38.webp)
 
 
-سپس درخواست کشش شما در زبانه "*Pull Request*" مخزن اصلی Plan ₿ Network قابل مشاهده خواهد بود. اکنون تنها کاری که باید انجام دهید این است که منتظر بمانید تا یک مدیر با شما تماس بگیرد تا تأیید کند که مشارکت شما ادغام شده است یا درخواست هرگونه تغییرات بیشتری را بدهد.
+سپس درخواست کشش شما در زبانه "*Pull Request*" مخزن اصلی Plan ₿ Academy قابل مشاهده خواهد بود. اکنون تنها کاری که باید انجام دهید این است که منتظر بمانید تا یک مدیر با شما تماس بگیرد تا تأیید کند که مشارکت شما ادغام شده است یا درخواست هرگونه تغییرات بیشتری را بدهد.
 
 
 ![GITHUB](assets/fr/39.webp)
@@ -540,7 +540,7 @@ description: [Description]
 
 
 - اگر درخواست کشش شما هنوز باز است و ادغام نشده است، تغییرات را در همان شاخه کاری اعمال کنید. تغییرات تعهدی به درخواست کشش باز شما اضافه خواهد شد؛
-- در صورتی که PR شما قبلاً با شاخه اصلی ادغام شده است، باید فرآیند را از ابتدا با ایجاد یک شاخه جدید و سپس ارسال یک PR جدید تکرار کنید. اطمینان حاصل کنید که Fork شما با مخزن منبع Plan ₿ Network در شاخه `dev` همگام‌سازی شده است قبل از ادامه.
+- در صورتی که PR شما قبلاً با شاخه اصلی ادغام شده است، باید فرآیند را از ابتدا با ایجاد یک شاخه جدید و سپس ارسال یک PR جدید تکرار کنید. اطمینان حاصل کنید که Fork شما با مخزن منبع Plan ₿ Academy در شاخه `dev` همگام‌سازی شده است قبل از ادامه.
 
 
 اگر در ارسال آموزش خود با مشکلات فنی مواجه هستید، لطفاً در درخواست کمک از [گروه تلگرام اختصاصی ما برای مشارکت‌ها](https://t.me/PlanBNetwork_ContentBuilder) تردید نکنید. بسیار متشکریم!

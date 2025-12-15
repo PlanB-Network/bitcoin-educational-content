@@ -17,7 +17,7 @@ Ten samouczek wideo przeprowadzi Cię przez proces konfiguracji i korzystania z 
 
 Aby zobaczyć pełny samouczek dla Bitcoin Keeper Wallet, zobacz samouczek tutaj:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 Sprawdź tutaj inne istotne linki:
 

@@ -26,7 +26,7 @@ Katika somo hili, tutajifunza jinsi ya kusanidi VPN kulingana na WireGuard, sulu
 
 
 
-WireGuard ni suluhisho la hivi majuzi, ambalo limepatikana kama toleo thabiti tangu Machi 2020, na imekuwa na heshima ya kuunganishwa moja kwa moja kwenye **Linux kernel tangu toleo la 5.6**. Hii haizuii kufikiwa kutoka kwa usambazaji wa zamani wa Linux ambao hutumia toleo tofauti la kernel. Ikilinganishwa na suluhu kama vile OpenVPN na IPSec, WireGuard ni rahisi kutumia na haraka zaidi, kama tutakavyoona mwishoni mwa makala haya.
+WireGuard ni suluhisho la hivi majuzi, ambalo limepatikana kama toleo thabiti tangu March 20, na imekuwa na heshima ya kuunganishwa moja kwa moja kwenye **Linux kernel tangu toleo la 5.6**. Hii haizuii kufikiwa kutoka kwa usambazaji wa zamani wa Linux ambao hutumia toleo tofauti la kernel. Ikilinganishwa na suluhu kama vile OpenVPN na IPSec, WireGuard ni rahisi kutumia na haraka zaidi, kama tutakavyoona mwishoni mwa makala haya.
 
 
 
@@ -38,7 +38,7 @@ Baadhi ya mambo muhimu kuhusu WireGuard:
 
 - Rahisi, nyepesi na yenye ufanisi zaidi!
 - Operesheni ya UDP pekee (ambayo inaweza kuwa shida wakati wa kuvuka ngome fulani)
-- Hufanya kazi kwenye kielelezo cha rika-kwa-rika badala ya kielelezo cha seva-teja
+- Hufanya kazi kwenye kielelezo cha peer-to-peer badala ya kielelezo cha server-teja
 - Uthibitishaji kwa ufunguo wa Exchange, kwa kanuni sawa na SSH yenye funguo za kibinafsi/za umma
 - Matumizi ya algoriti kadhaa: usimbaji fiche linganifu na ChaCha20, uthibitishaji wa ujumbe na Poly1305, na vile vile zingine kama vile Curve25519, BLAKE2 na SipHash24.
 - Inaauni IPv4 na IPv6
@@ -79,15 +79,15 @@ Sasa nitakuambia kuhusu maabara yangu na kile tunachoenda kuanzisha leo.
 
 
 
-Nitatumia mashine ya Debian 11 kama seva ya WireGuard na mteja wa Windows kama mteja wa WireGuard VPN. Ingawa inapotosha kidogo kuzungumza kuhusu uhusiano wa seva ya mteja, kwa sababu **WireGuard hufanya kazi kwenye muundo wa "peer-to-peer"**. Hilo ni jina potofu kidogo unapojaribu kusanidi muunganisho wa "mteja-kwa-tovuti". Wacha tuseme badala yake kwamba nitakuwa na jozi mbili au ** sehemu mbili za unganisho za WireGuard ** ukipenda: moja chini ya Debian 11 na nyingine chini ya Windows.
+Nitatumia mashine ya Debian 11 kama server ya WireGuard na mteja wa Windows kama mteja wa WireGuard VPN. Ingawa inapotosha kidogo kuzungumza kuhusu uhusiano wa server ya mteja, kwa sababu **WireGuard hufanya kazi kwenye muundo wa "peer-to-peer"**. Hilo ni jina potofu kidogo unapojaribu kusanidi muunganisho wa "client-to-site". Wacha tuseme badala yake kwamba nitakuwa na jozi mbili au ** sehemu mbili za unganisho za WireGuard ** ukipenda: moja chini ya Debian 11 na nyingine chini ya Windows.
 
 
 
-Jozi hizi mbili zinaweza kuwasiliana kwa pande zote mbili, ikimaanisha kuwa kutoka kwa mashine yangu ya Windows naweza kufikia LAN ya mbali ya mashine ya Debian 11, na kinyume chake: yote inategemea usanidi wa handaki na firewall ya rika la WireGuard.
+Jozi hizi mbili zinaweza kuwasiliana kwa pande zote mbili, ikimaanisha kuwa kutoka kwa mashine yangu ya Windows naweza kufikia LAN ya mbali ya mashine ya Debian 11, na kinyume chake: yote inategemea usanidi watunnel  na firewall yaPeer la WireGuard (WireGuard peer).
 
 
 
-Katika mfano huu, nitazingatia kesi ifuatayo: **kutoka kwa Windows Peer 1 yangu iliyounganishwa kwenye mtandao wangu wa nyumbani, ninataka kufikia mtandao wangu wa shirika ili kufikia seva za kampuni kupitia njia ya VPN ya WireGuard**. Hii inatoa mchoro ufuatao:
+Katika mfano huu, nitazingatia kesi ifuatayo: **kutoka kwa Windows Peer 1 yangu iliyounganishwa kwenye mtandao wangu wa nyumbani, ninataka kufikia mtandao wangu wa shirika ili kufikia servers za kampuni kupitia njia ya VPN ya WireGuard**. Hii inatoa mchoro ufuatao:
 
 
 
@@ -95,21 +95,21 @@ Katika mfano huu, nitazingatia kesi ifuatayo: **kutoka kwa Windows Peer 1 yangu 
 
 
 
-Kwa upande wa anwani za IP, hii inatoa:
+Kwa upande wa IP Address, hii inatoa:
 
 
 
 
 
-- **Mtandao wa nyumbani**: 192.168.1.0/24
-- **Mtandao wa ushirika**: 192.168.100.0/24
-- **Mtandao wa handaki ya WireGuard**: 192.168.110.0/24
+- **Mtandao wa nyumbani (Home network)**: 192.168.1.0/24
+- **Mtandao wa ushirika (corporate network)**: 192.168.100.0/24
+- **Mtandao watunnel  ya WireGuard (WireGuard tunnel network)**: 192.168.110.0/24
 
 
-+ IP Address ya Peer 1 (Windows) kwenye handaki: 192.168.110.2/24
++ IP Address ya Peer 1 (Windows) kwenye tunnel: 192.168.110.2/24
 
 
-+ IP Address ya Peer 2 (Debian) kwenye handaki: 192.168.110.121/24
++ IP Address ya Peer 2 (Debian) kwenye tunnel: 192.168.110.121/24
 
 
 
@@ -117,15 +117,15 @@ Hayo tu ndiyo yapo! Hebu tushuke kwenye usanidi!
 
 
 
-**Kumbuka: kwa chaguomsingi, WireGuard hufanya kazi katika hali ya UDP kwenye bandari 51820**.
+**Kumbuka: kwa chaguomsingi, WireGuard hufanya kazi katika hali ya UDP kwenye **port 51820**.
 
 
 
-## III Usakinishaji na usanidi wa seva ya WireGuard
+## III Usakinishaji na usanidi wa server ya WireGuard
 
 
 
-Nitatumia maneno "mteja" kwa mashine ya Windows na "seva" kwa mashine ya Debian kwenye mafunzo haya, kwa sababu ingawa ni ya rika-rika, inaonekana kuwa na maana zaidi.
+Nitatumia maneno "client" kwa mashine ya Windows na "server" kwa mashine ya Debian kwenye mafunzo haya, kwa sababu ingawa ni ya Peer (peers), inaonekana kuwa na maana zaidi.
 
 
 
@@ -153,7 +153,7 @@ sudo apt-get install wireguard
 
 
 
-Sehemu ya seva ya WireGuard itasakinishwa, pamoja na zana mbalimbali zinazotoa ufikiaji wa amri muhimu za kudhibiti usanidi.
+Sehemu ya server ya WireGuard itasakinishwa, pamoja na zana mbalimbali zinazotoa ufikiaji wa amri muhimu za kudhibiti usanidi.
 
 
 
@@ -161,7 +161,7 @@ Sehemu ya seva ya WireGuard itasakinishwa, pamoja na zana mbalimbali zinazotoa u
 
 
 
-Kwa kutumia **amri "wg "** tunahitaji generate ufunguo wa faragha na ufunguo wa umma: muhimu kwa uthibitishaji kati ya jozi mbili, yaani seva na mteja (ambaye pia atahitaji jozi muhimu).
+Kwa kutumia **amri "wg "** tunahitaji kugenerate ufunguo wa faragha na ufunguo wa umma: muhimu kwa uthibitishaji kati ya jozi mbili, yaani server na mteja (ambaye pia atahitaji jozi muhimu).
 
 
 
@@ -213,16 +213,16 @@ PrivateKey = <clé privée du serveur>
 
 
 
-Sehemu `[Interface]` inatumika kutangaza sehemu ya seva. Hapa kuna habari fulani:
+Sehemu `[Interface]` inatumika kutangaza sehemu ya server. Hapa kuna habari fulani:
 
 
 
 
 
-- **Address**: IP Address ya Interface WireGuard ndani ya handaki ya VPN (subnet tofauti na LAN ya mbali)
+- **Address**: IP Address ya Interface WireGuard ndani ya tunnel ya VPN (subnet tofauti na LAN ya mbali)
 - **SaveConfig**: usanidi unahifadhiwa (na kulindwa) kwa muda mrefu kama Interface inafanya kazi.
-- **ListenPort**: Lango la kusikiliza la WireGuard. Katika kesi hii, 51820 ndio bandari chaguo-msingi, lakini unakaribishwa kuibinafsisha
-- **Ufunguo wa Kibinafsi**: thamani ya ufunguo wa faragha wa seva yetu (*wg-private.key*)
+- **ListenPort**: Lango la kusikiliza la WireGuard. Katika kesi hii, 51820 ndio port chaguo-msingi, lakini unakaribishwa kuibinafsisha
+- **Ufunguo wa Kibinafsi**: thamani ya ufunguo wa faragha wa server yetu (*wg-private.key*)
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Ukiorodhesha anwani za IP za seva yako ya Debian 11, utaona Interface mpya inayoitwa "wg0" na IP Address imefafanuliwa kwenye faili ya usanidi:
+Ukiorodhesha IP address za server yako ya Debian 11, utaona Interface mpya inayoitwa "wg0" na IP Address imefafanuliwa kwenye faili ya usanidi:
 
 
 
@@ -274,7 +274,7 @@ sudo systemctl enable wg-quick@wg0.service
 
 
 
-Kwa sasa, tutaacha kando usanidi wa upande wa seva ya WireGuard.
+Kwa sasa, tutaacha kando usanidi wa upande wa server ya WireGuard.
 
 
 
@@ -282,7 +282,7 @@ Kwa sasa, tutaacha kando usanidi wa upande wa seva ya WireGuard.
 
 
 
-Ili mashine yetu ya Debian 11 iweze **kuelekeza pakiti kati ya mitandao tofauti (kama kipanga njia)**, yaani, kati ya mtandao wa VPN na mtandao wa ndani, tunahitaji kuwezesha [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Kwa chaguo-msingi, kipengele hiki kimezimwa.
+Ili mashine yetu ya Debian 11 iweze **kuelekeza pakiti kati ya mitandao tofauti (kama router)**, yaani, kati ya mtandao wa VPN na mtandao wa ndani, tunahitaji kuwezesha [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Kwa chaguo-msingi, kipengele hiki kimezimwa.
 
 
 
@@ -310,11 +310,11 @@ Hayo ndiyo yote yaliyopo kwake.
 
 
 
-### D. Washa Kinyago cha IP
+### D. Washa IP mask
 
 
 
-Ili seva yetu iongoze pakiti kwa njia ipasavyo na ili LAN ya mbali iweze kufikiwa na mashine ya Windows, tunahitaji kuwezesha Kinyago cha IP kwenye seva yetu ya Debian. Hii ni aina ya kuwezesha NAT. Nitafanya usanidi huu kwenye ngome ya Linux kupitia UFW, ambayo nimezoea kutumia ([ufw mafunzo kwenye Debian](https://www.it-connect.fr/configurer-un-pare-feu-local-sous-debian-11-avec-ufw/)).
+Ili server yetu iongoze packet kwa njia ipasavyo na ili LAN ya mbali iweze kufikiwa na mashine ya Windows, tunahitaji kuwezesha IP mask kwenye server yetu ya Debian. Hii ni aina ya kuwezesha NAT. Nitafanya usanidi huu kwenye ngome ya Linux kupitia UFW, ambayo nimezoea kutumia ([ufw mafunzo kwenye Debian](https://www.it-connect.fr/configurer-un-pare-feu-local-sous-debian-11-avec-ufw/)).
 
 
 
@@ -328,7 +328,7 @@ sudo apt install ufw
 
 
 
-Kwanza kabisa, unahitaji kuwezesha SSH ili usipoteze udhibiti wa seva ya mbali (badilisha nambari ya bandari):
+Kwanza kabisa, unahitaji kuwezesha SSH ili usipoteze udhibiti wa server ya mbali (badilisha nambari ya Port):
 
 
 
@@ -338,7 +338,7 @@ sudo ufw allow 22/tcp
 
 
 
-Bandari ya 51820 katika UDP lazima pia iidhinishwe, tunapoitumia kwa WireGuard (tena, rekebisha nambari ya mlango):
+port ya 51820 katika UDP lazima pia iidhinishwe, tunapoitumia kwa WireGuard (tena, rekebisha nambari ya mlango):
 
 
 
@@ -348,7 +348,7 @@ sudo ufw allow 51820/udp
 
 
 
-Ifuatayo, tutaendelea na usanidi ili kuwezesha kinyago cha IP. Ili kufanya hivyo, tunahitaji kurejesha jina la Interface iliyounganishwa kwenye mtandao wa ndani. Ikiwa hujui jina, endesha "ip a" ili kuona jina la kadi. Katika kesi yangu, ni kadi ya "**ens192**".
+Ifuatayo, tutaendelea na usanidi ili kuwezesha IP mask. Ili kufanya hivyo, tunahitaji kurejesha jina la Interface iliyounganishwa kwenye mtandao wa ndani. Ikiwa hujui jina, endesha "ip a" ili kuona jina la kadi. Katika kesi yangu, ni kadi ya "**ens192**".
 
 
 
@@ -366,13 +366,13 @@ sudo nano /etc/ufw/before.rules
 
 
 
-Ongeza mistari hii mwishoni mwa faili ili **kuwezesha kinyago cha IP kwenye Interface en192** (badilisha jina la Interface) ndani ya safu ya POSTROUTING ya jedwali la NAT la ngome yetu ya karibu:
+Ongeza mistari hii mwishoni mwa faili ili **kuwezesha IP mask kwenye Interface en192** (badilisha jina la Interface) ndani ya safu ya POSTROUTING ya jedwali la NAT la ngome yetu ya karibu:
 
 
 
 ```
 # NAT - IP masquerade
-*nat*
+*nat
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -398,7 +398,7 @@ Weka faili hii ya usanidi wazi na uendelee kwa hatua inayofuata. 😉
 
 
 
-Bado katika faili sawa ya usanidi, tutatangaza mtandao wa ushirika "192.168.100.0/24" ili tuweze kuwasiliana nayo. Hapa kuna sheria mbili za kuongezwa (ikiwezekana baada ya sehemu ya "*# ok icmp ya FORWARD*" kuweka kanuni pamoja):
+Bado katika faili sawa ya usanidi, tutatangaza corporate network (mtandao wa ushirika) "192.168.100.0/24" ili tuweze kuwasiliana nayo. Hapa kuna sheria mbili za kuongezwa (ikiwezekana baada ya sehemu ya "*# ok icmp ya FORWARD*" kuweka kanuni pamoja):
 
 
 
@@ -439,7 +439,7 @@ sudo systemctl restart ufw
 
 
 
-Sehemu ya kwanza ya usanidi wa seva ya Debian sasa imekamilika.
+Sehemu ya kwanza ya usanidi wa server ya Debian sasa imekamilika.
 
 
 
@@ -467,7 +467,7 @@ Mara tu unapopakua kifurushi kinachoweza kutekelezwa au cha MSI, usakinishaji ni
 
 
 
-Anza kwa kufungua programu ili kuunda handaki mpya. Ili kufanya hivyo, bofya kwenye mshale ulio upande wa kulia wa kitufe cha "**Ongeza handaki **" na ubofye kitufe cha "**Ongeza handaki tupu **".
+Anza kwa kufungua programu ili kuundatunnel  mpya. Ili kufanya hivyo, bofya kwenye mshale ulio upande wa kulia wa kitufe cha "**Ongeza tunnel  **" na ubofye kitufe cha "**Ongezatunnel  tupu **".
 
 
 
@@ -475,7 +475,7 @@ Anza kwa kufungua programu ili kuunda handaki mpya. Ili kufanya hivyo, bofya kwe
 
 
 
-Dirisha la usanidi litafungua. Kila wakati usanidi mpya wa handaki unapoundwa, WireGuard hutengeneza jozi ya vitufe vya faragha/vya umma mahususi kwa usanidi huu. **Katika usanidi huu, tunahitaji kutangaza "rika", yaani seva ya mbali:**
+Window ya usanidi litafungua. Kila wakati usanidi mpya watunnel  unapoundwa, WireGuard hutengeneza jozi ya vitufe vya faragha/vya umma mahususi kwa usanidi huu. **Katika usanidi huu, tunahitaji kutangaza "Peer", yaani server ya mbali:
 
 
 
@@ -486,11 +486,11 @@ PrivateKey = <la clé privée du PC>
 
 
 
-Tunahitaji kukamilisha usanidi huu, hasa kutangaza IP Address kwenye Interface hii (*Address*), lakini pia kutangaza seva ya mbali ya WireGuard kupitia kizuizi cha [Peer]. Picha iliyo hapa chini inapaswa kukukumbusha juu ya faili ya usanidi tuliyounda kwenye upande wa seva ya Linux.
+Tunahitaji kukamilisha usanidi huu, hasa kutangaza IP Address kwenye Interface hii (*Address*), lakini pia kutangaza server ya mbali ya WireGuard kupitia block ya [Peer]. Picha iliyo hapa chini inapaswa kukukumbusha juu ya faili ya usanidi tuliyounda kwenye upande wa server ya Linux.
 
 
 
-Hebu tuanze na kizuizi cha `[Interface]`, na kuongeza IP Address "**192.168.110.2**"; kumbuka kuwa seva ina IP Address "**192.168.110.121**" kwenye sehemu hii ya mtandao. Hii inatoa:
+Hebu tuanze na kizuizi cha `[Interface]`, na kuongeza IP Address "**192.168.110.2**"; kumbuka kuwa server ina IP Address "**192.168.110.121**" kwenye sehemu hii ya mtandao. Hii inatoa:
 
 
 
@@ -502,7 +502,7 @@ Address = 192.168.110.2/24
 
 
 
-Ifuatayo, tunahitaji kutangaza kizuizi cha "Rika" na mali tatu, na kusababisha usanidi huu:
+Ifuatayo, tunahitaji kutangaza kizuizi cha "Peer" na mali tatu, na kusababisha usanidi huu:
 
 
 
@@ -523,27 +523,27 @@ Katika picha:
 
 
 
-**Maelezo machache kuhusu kizuizi cha [Peer]:**
+**Maelezo machache kuhusu kizuizi cha [Peer]:
 
 
 
 
 
-- **PublicKey**: huu ndio ufunguo wa umma wa seva ya WireGuard Debian 11 (unaweza kupata thamani yake na amri ya "*sudo wg*")
-- **Inaruhusiwa**: hizi ni anwani za IP / subneti zinazofikiwa kupitia mtandao huu wa WireGuard VPN, katika hali hii subnet maalum ya WireGuard VPN yangu (*192.168.110.0/24*) na LAN yangu ya mbali (*192.168.100.0/24*)
-- **Mwisho**: hii ni IP Address ya seva pangishi ya Debian 11, kwa kuwa hii ndio sehemu yetu ya unganisho ya WireGuard (utahitaji kubainisha IP ya umma Address)
+- **PublicKey**: huu ndio ufunguo wa umma wa server ya WireGuard Debian 11 (unaweza kupata thamani yake na amri ya "*sudo wg*")
+- **Inaruhusiwa**: hizi ni IP Address / subneti zinazofikiwa kupitia mtandao huu wa WireGuard VPN, katika hali hii subnet maalum ya WireGuard VPN yangu (*192.168.110.0/24*) na LAN yangu ya mbali (*192.168.100.0/24*)
+- **Mwisho**: hii ni IP Address ya server pangishi ya Debian 11, kwa kuwa hii ndio sehemu yetu ya unganisho ya WireGuard (utahitaji kubainisha IP ya umma Address)
 
 
 
-Hatimaye, weka jina katika sehemu ya "**Jina**" (bila nafasi) na unakili na ubandike ufunguo wa umma wa mteja, kwani tutahitaji kuutangaza kwenye seva. Bonyeza "**Jisajili**".
+Hatimaye, weka jina katika sehemu ya "**Jina**" (bila nafasi) na unakili na ubandike ufunguo wa umma wa mteja, kwani tutahitaji kuutangaza kwenye server. Bonyeza "**Jisajili**".
 
 
 
-### C. Tangaza mteja kwenye seva ya WireGuard
+### C. Tangaza mteja kwenye server ya WireGuard
 
 
 
-Ni wakati wa kurudi kwenye seva ya Debian ili kutangaza "**Rika**", yaani, Kompyuta yetu ya Windows, katika usanidi wa WireGuard. Kwanza kabisa, tunahitaji **kuzuia Interface "wg0"** ili kurekebisha usanidi wake:
+Ni wakati wa kurudi kwenye server ya Debian ili kutangaza "**Peer**", yaani, Kompyuta yetu ya Windows, katika usanidi wa WireGuard. Kwanza kabisa, tunahitaji **kuzuia Interface "wg0"** ili kurekebisha usanidi wake:
 
 
 
@@ -577,7 +577,7 @@ AllowedIPs = 192.168.110.2/32
 
 
 
-Kizuizi hiki cha [Rika] kina ufunguo wa umma wa Kompyuta ya Windows 10 (**PublicKey**) na IP Address ya Interface ya Kompyuta (**AllowedIPs**): seva itawasiliana katika kichuguu hiki cha WireGuard ili tu kuwasiliana na mteja wa Windows, kwa hivyo thamani "**168.168.32.2/2**".
+Kizuizi hiki cha [Peer] kina ufunguo wa umma wa Kompyuta ya Windows 10 (**PublicKey**) na IP Address ya Interface ya Kompyuta (**AllowedIPs**): server itawasiliana katika kichuguu hiki cha WireGuard ili tu kuwasiliana na mteja wa Windows, kwa hivyo thamani "**168.168.32.2/2".
 
 
 
@@ -593,7 +593,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Ili kuhakikisha kuwa tamko la rika linafanya kazi, unaweza kutumia amri hii:
+Ili kuhakikisha kuwa tamko laPeer linafanya kazi, unaweza kutumia amri hii:
 
 
 
@@ -603,7 +603,7 @@ sudo wg show
 
 
 
-Mara tu seva pangishi ya mbali inapoweka muunganisho wake wa WireGuard, IP Address yake itasogezwa hadi thamani ya "mwisho".
+Mara tu server pangishi ya mbali inapoweka muunganisho wake wa WireGuard, IP Address yake itasogezwa hadi thamani ya "mwisho".
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Sasa kwa kuwa usanidi uko tayari, tunaweza kuianzisha kutoka kwa Windows PC. Ili kufanya hivyo, katika mteja wa "**WireGuard**", bofya kitufe cha "**Amilisha**": uunganisho utabadilika **kutoka "Zima" hadi "On"**, lakini hiyo haimaanishi kuwa itafanya kazi. Yote inategemea ikiwa usanidi wako ni sahihi au la. **Muunganisho unapoanzishwa, mashine zetu mbili huwasiliana kupitia Interface WireGuard iliyosanidiwa kila upande!**
+Sasa kwa kuwa usanidi uko tayari, tunaweza kuianzisha kutoka kwa Windows PC. Ili kufanya hivyo, katika mteja wa "**WireGuard**", bofya kitufe cha "**Amilisha**": uunganisho utabadilika ** kutoka "Zima" hadi "On"**, lakini hiyo haimaanishi kuwa itafanya kazi. Yote inategemea ikiwa usanidi wako ni sahihi au la. **Muunganisho unapoanzishwa, mashine zetu mbili huwasiliana kupitia Interface WireGuard iliyosanidiwa kila upande!
 
 
 
@@ -633,7 +633,7 @@ Sasa kwa kuwa usanidi uko tayari, tunaweza kuianzisha kutoka kwa Windows PC. Ili
 
 
 
-Katika tukio la tatizo, hii itaonekana kwenye kichupo cha "**Logbook**". Wapangishi wawili watapakia Exchange mara kwa mara ili kuangalia hali ya muunganisho, kwa hivyo ujumbe wa "*Kupokea kifurushi cha keepalive kutoka kwa programu rika 1*".
+Katika tukio la tatizo, hii itaonekana kwenye kichupo cha "**Logbook**". Wapangishi wawili watapakia Exchange mara kwa mara ili kuangalia hali ya muunganisho, kwa hivyo ujumbe wa "*Kupokea kifurushi cha keepalive kutoka kwa programuPeer 1*".
 
 
 
@@ -651,7 +651,7 @@ Handshake for peer 1 (<ip>:51820) did not complete after 5 seconds, retrying (tr
 
 
 
-Kutoka kwa Kompyuta yangu ya mbali, ninaweza kubandika IP Address ya Interface WireGuard yangu kwenye upande wa seva, na vile vile mwenyeji kwenye LAN yangu ya mbali.
+Kutoka kwa Kompyuta yangu ya mbali, ninaweza kubandika IP Address ya Interface WireGuard yangu kwenye upande wa server, na vile vile mwenyeji kwenye LAN yangu ya mbali.
 
 
 
@@ -663,7 +663,7 @@ Kutoka kwa Kompyuta yangu ya mbali, ninaweza kubandika IP Address ya Interface W
 
 
 
-Kutoka kwa Kompyuta yangu ya mbali iliyounganishwa kwenye WireGuard VPN yangu, niliweza kufikia seva ya faili na kuhamisha faili kupitia [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), ili kuona kiwango cha uhamisho. **Nikiwa na WireGuard, ninashinda hadi 45 Mb/s, ambayo ni nzuri, kwa kuwa niko kwenye WiFi.**
+Kutoka kwa Kompyuta yangu ya mbali iliyounganishwa kwenye WireGuard VPN yangu, niliweza kufikia server ya faili na kuhamisha faili kupitia [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), ili kuona kiwango cha uhamisho. **Nikiwa na WireGuard, ninashinda hadi 45 Mb/s, ambayo ni nzuri, kwa kuwa niko kwenye WiFi.
 
 
 
@@ -683,11 +683,11 @@ Hii ni ya kuvutia, kwa sababu ikiwa, kwa mfano, ukibadilisha kutoka kwa uunganis
 
 
 
-### F. Bonasi: handaki kamili WireGuard
+### F. Bonasi:tunnel  kamili WireGuard
 
 
 
-Kwa usanidi wa sasa, sehemu ya trafiki hutiririka kupitia VPN, na iliyobaki kupitia muunganisho wa Mtandao wa mteja, ikijumuisha kuvinjari Mtandao. Ikiwa tunataka kubadili hadi kwa WireGuard **hali kamili ya handaki**, ili kila kitu kipitie njia ya VPN, tunahitaji kufanya mabadiliko machache kwenye usanidi wetu....
+Kwa usanidi wa sasa, sehemu ya trafiki hutiririka kupitia VPN, na iliyobaki kupitia muunganisho wa Mtandao wa mteja, ikijumuisha kuvinjari Mtandao. Ikiwa tunataka kubadili hadi kwa WireGuard **hali kamili yatunnel **, ili kila kitu kipitie njia ya VPN, tunahitaji kufanya mabadiliko machache kwenye usanidi wetu....
 
 
 
@@ -712,7 +712,7 @@ sudo wg-quick down /etc/wireguard/wg0.conf
 
 
 
-Kisha, **katika kizuizi cha `[Interface]`, tunaongeza seva ya DNS itakayotumika**. Kwa upande wangu, ni kidhibiti cha kikoa cha maabara yangu, lakini tunaweza pia kusakinisha Bind9 kwenye mashine ya Debian ili kuwa na kisuluhishi cha ndani.
+Kisha, **katika kizuizi cha `[Interface]`, tunaongeza server ya DNS itakayotumika**. Kwa upande wangu, ni kidhibiti cha kikoa cha maabara yangu, lakini tunaweza pia kusakinisha Bind9 kwenye mashine ya Debian ili kuwa na kisuluhishi cha ndani.
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Hatimaye, katika usanidi wa handaki kwenye kituo cha kazi cha Windows 10, unahitaji kurekebisha sehemu ya "AllowedIPs" ili kuonyesha kwamba kila kitu lazima kipite kwenye handaki. Badilisha:
+Hatimaye, katika usanidi watunnel  kwenye kituo cha kazi cha Windows 10, unahitaji kurekebisha sehemu ya "AllowedIPs" ili kuonyesha kwamba kila kitu lazima kipite kwenyetunnel . Badilisha:
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Unaweza kuona kwamba hii pia huwezesha chaguo la **"Ua swichi"**.
+Unaweza kuona kwamba hii pia huwezesha chaguo la "**Ua switch".
 
 
 
@@ -760,7 +760,7 @@ Unaweza kuona kwamba hii pia huwezesha chaguo la **"Ua swichi"**.
 
 
 
-Hatimaye, nilichukua fursa ya handaki hili kamili kufanya mtihani mdogo wa mtiririko, ambao matokeo yake yameonyeshwa hapa chini:
+Hatimaye, nilichukua fursa yatunnel  hili kamili kufanya mtihani mdogo wa mtiririko, ambao matokeo yake yameonyeshwa hapa chini:
 
 
 
@@ -783,4 +783,4 @@ Nyaraka za ziada:
 
 
 
-**WireGuard VPN yako iko na inafanya kazi! Hongera!**
+**WireGuard VPN yako iko na inafanya kazi! Hongera!

@@ -191,7 +191,7 @@ Programmid teostavad tavaliselt operatsioone andmetega.
 Muutujad on nagu nimelised kastid, mida me kasutame andmete salvestamiseks. Need võimaldavad meil seostada andmeid konkreetse nimega, et saaksime neid hiljem selle nime abil välja otsida.
 
 
-### `let` deklaratsioonid
+### let deklaratsioonid
 
 
 Muutuja deklareerimiseks JavaScriptis võime kasutada võtmesõna `let`.
@@ -355,7 +355,7 @@ Bob
 Nagu näete, muudeti nii `score` kui ka `player`.
 
 
-### `const` deklaratsioonid
+### const deklaratsioonid
 
 
 Enamasti ei taha me aga, et muutuja muutuks pärast selle loomist. Selleks kasutame `const`.
@@ -875,7 +875,7 @@ undefined
 Mis see on?
 
 
-### `undefined`
+### undefined
 
 
 Eriväärtus `undefined` tähendab, et "väärtust ei ole määratud".
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` ja kuidas seda käsitleda
+### null ja kuidas seda käsitleda
 
 
 `null` on samuti eriline väärtus. See tähendab, et "siin ei ole midagi ja ma tegin seda meelega"
@@ -1190,7 +1190,7 @@ Sest me kasutasime operaatorit `!`, et invertida muutuja `täiskasvanu`.
 Kasutades plokke, loogika- ja võrdlusoperaatoreid, saame struktureerida programmi täitmist, määratledes muutujaid, mis peavad olema "tõesed" (või "valed"), et midagi toimuks.
 
 
-### `while`, `break`, `continue`, `continue`
+### while, break, continue, continue
 
 
 "while" tsükkel kordab koodi *sellaliselt*, kui tingimus on tõene.
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (funktsioonide väljund)
+### return (funktsioonide väljund)
 
 
 Funktsioonid võivad ka **tagastada** väärtusi. See tähendab, et nad saadavad väärtuse tagasi sinna, kust funktsioon välja kutsuti.
@@ -2252,7 +2252,7 @@ JavaScript võimaldab teil objekte vabalt ümber kujundada, kuid klasside kasuta
 
 
 
-### Pärimine koos `extends` ja `super()`ga
+### Pärimine koos extends ja super()ga
 
 
 Mõnikord soovite luua klassi, mis on *peaaegu* samasugune nagu teine klass, kuid millel on mõned lisafunktsioonid.
@@ -2374,7 +2374,7 @@ Niisiis, kokkuvõtteks
 See on kasulik, kui teil on mitu sarnast asja (näiteks autod, veoautod ja jalgrattad) ja te soovite, et nad jagaksid koodi, kuid käituksid siiski omal viisil.
 
 
-### `instanceof`
+### instanceof
 
 
 Võtmesõna `instanceof` kontrollib, kas objekt on loodud teatud klassist.
@@ -2439,7 +2439,7 @@ Kui kirjutate keerulisemaid JavaScript-programme, tekib teil **vead**. Need on o
 Kui me neid vigu korralikult ei käsitle, võib meie programm kokku kukkuda või käituda ettearvamatul viisil. JavaScript pakub vahendeid nende vigade avastamiseks ja haldamiseks, et saaksime neid väärikalt käsitleda.
 
 
-### Üldine viga: juurdepääs väärtusele `undefined`
+### Üldine viga: juurdepääs väärtusele undefined
 
 
 Siin on tavaline olukord, mis põhjustab vea:
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Teine üleskutse põhjustab vea, sest nulliga jagamine ei ole selles näites lubatud.
 
 
-### Vigade püüdmine `try...catch` abil
+### Vigade püüdmine try...catch abil
 
 
 Kui te ei taha, et teie programm vea ilmnemisel kokku kukub, saate vea kinni püüda, kasutades blokki `try...catch`. See on kasulik, kui soovite, et teie programm **jätkaks** isegi siis, kui midagi ei õnnestu.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Selles peatükis näidatakse mõningaid kõige levinumaid lõkse JavaScriptis ja kuidas neid vältida.
 
 
-### `var` ja Assignment ilma deklaratsioonita
+### var ja Assignment ilma deklaratsioonita
 
 
 Vanemas JavaScripti koodis deklareeriti muutujaid sageli võtmesõnaga `var`. Erinevalt `let` ja `const`, mida te juba tundsite, võib `var` käituda segadusttekitavalt.
@@ -2650,7 +2650,7 @@ Nendes näidetes püüab JavaScript ära arvata, mida te mõtlesite. Mõnikord m
 Oluline on olla teadlik JavaScripti nõrgast tüübisüsteemist. Kui asjad hakkavad veidralt käituma, võib see olla tingitud ootamatust tüübipiirangust.
 
 
-### `"use strict"`
+### "use strict"
 
 
 Saate lubada rangemat režiimi, mis muudab mõned vaikivad vead tõelisteks vigadeks ja takistab teil kasutada mõningaid keele ohtlikumaid funktsioone.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Vaikeväärtust `"friend"` kasutatakse, kui midagi ei edastata.
 
 
-### Hajutatud parameetrid (`...`)
+### Hajutatud parameetrid (...)
 
 
 Mis siis, kui teie funktsioon võtab vastu paindliku arvu argumente?
@@ -3030,7 +3030,7 @@ Funktsioon `makeGreeter` on funktsioon, mis ehitab teisi funktsioone. See saab s
 Selline muster on väga võimas, sest see võimaldab teil jätta oma funktsioonidesse "auke", mida saate hiljem vajaliku käitumisega täita.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript annab teile mõned kasulikud sisseehitatud meetodid massiividega kasutamiseks.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 See on kasulik ühiste andmete ja meetodite salvestamiseks, mis kehtivad kogu objektide grupile, mitte ainult ühele objektile.
 
 
-### `get` ja `set`
+### get ja set
 
 
 JavaScriptis võimaldavad `get` ja `set` teha omadusi, mis *nähtavad* nagu tavalised muutujad, kuid tegelikult käivitavad taustal spetsiaalset koodi.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Kaardid on suurepärased suurte väärtuste kogumite haldamiseks, sest juurdepääs väärtustele suurel kaardil annab tavaliselt palju parema jõudluse kui suurel objektil.
 
 
-### `Set`
+### Set
 
 
 Kogum on ainult **väärtuste** kogum (võtmed puuduvad), kus iga väärtus peab olema **üheselt mõistetav**. See tähendab:
@@ -3892,7 +3892,7 @@ Kuigi objektid ei ole otseselt itereeritavad, annavad need meetodid täieliku ju
 Aga kuidas iteraatorid töötavad?
 
 
-### `Symbol.iterator`
+### Symbol.iterator
 
 
 Kõikide iteratiivide saladus on spetsiaalne **sümbol** nimega `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Iga kõne `.next()` annab teile järgmise väärtuse. Kui see on lõpetatud, naa
 ```
 
 
-### `next()`
+### next()
 
 
 Meetodit `.next()` kasutatakse järjestuse järgmise elemendi saamiseks.
@@ -4046,7 +4046,7 @@ Siin on see, mis toimub:
 Nüüd töötab meie `Range` klass nagu massiiv ja me saame seda kasutada mis tahes tsüklis, mis ootab iterable'i.
 
 
-### Generaatori funktsioonid ja `yield`
+### Generaatori funktsioonid ja yield
 
 
 Iteraatorite loomise lihtsustamiseks annab JavaScript teile **generaatori funktsioonid**, kasutades võtmesõna `function*` (see on `function`, mille lõpus on `*`) ja võtmesõna `yield`.
@@ -4105,7 +4105,7 @@ Siiani on meie kood olnud **sünkroonne**: see töötab üks rida korraga, järj
 Selles peatükis tutvustame uut mõistet: **valuuta**. See võimaldab meil manipuleerida järjekorda, milles asju tehakse. See on kasulik, kui tegeleme selliste asjadega nagu taimerid, kasutaja sisend või failide lugemine kettalt. JavaScript pakub erinevaid vahendeid samaaegsuse tegemiseks.
 
 
-### `setTimeout`
+### setTimeout
 
 
 Funktsioon `setTimeout` võimaldab teil **täita funktsiooni hiljem**, kui on möödunud mingi aeg.
@@ -4253,7 +4253,7 @@ Selle sees anname sellele kahe parameetriga funktsiooni:
 Ülaltoodud näites lahendame selle kohe sõnumiga `"See töötas!".
 
 
-### `.then()`
+### .then()
 
 
 Selleks, et teha midagi **pärast** lubaduse täitmist, kasutame `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `reject()`
+### reject()
 
 
 Loome lubaduse, mis **ei õnnestu**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Operatsioonide aheldamine `Promise`s abil
+### Operatsioonide aheldamine Promises abil
 
 
 
@@ -4551,7 +4551,7 @@ Vaatame läbi, mida see teeb:
 Iga `.then()` ootab, et enne seda sammu lõpetataks. Seega saame luua **tegevuste ahela** ilma pesitsuseta. See muudab koodi loetavamaks ja lihtsamaks vigade kõrvaldamiseks.
 
 
-## Samaaegsus koos `async`/`await`iga
+## Samaaegsus koos async/awaitiga
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Me nägime, kuidas `Promise` ahelad aitavad meil vältida tagasikutsumise põrgu
 Siin tulevadki mängu `async` ja `await`. Need võimaldavad meil kirjutada asünkroonset koodi, mis näeb välja nagu sünkroonne kood, mis teeb selle arusaadavamaks.
 
 
-### Mis on `async`?
+### Mis on async?
 
 
 Kui kirjutate võtmesõna `async` enne funktsiooni, mähib JavaScript automaatselt funktsiooni tagastusväärtuse Promise'ile.
@@ -4638,7 +4638,7 @@ Nüüd saame tulemust kasutada nii, nagu oleks see tavaline väärtus.
 Teeme nüüd midagi veidi kasulikumat.
 
 
-### Viivituse simuleerimine `await`iga
+### Viivituse simuleerimine awaitiga
 
 
 Loome lihtsa `wait` funktsiooni, mis võtab argumendiks hulga millisekundeid ja lihtsalt lahendab selle hulga millisekundite järel, ilma midagi muud tegemata:
@@ -4881,7 +4881,7 @@ Asünkroonsed iteraatorid on kasulikud, kui:
 Näiteks kui soovite laadida sõnumeid vestlusserverist ükshaaval või laadida suurt faili osade kaupa, annavad asünkroonilised iteraatorid võimaluse kirjutada `for`-silmus, mis töötab hilinenud andmetega.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Me võime kasutada asünkroonseid iteraatoreid ka kohandatud klassides.
@@ -5287,7 +5287,7 @@ NodeJS võimaldab meil muu hulgas ehitada CLI-sid (Command Line Interfaces).
 Selleks on meil vaja võimalust saada käsurea argumente, mida Node'is tehakse sisseehitatud `process` objekti abil.
 
 
-### `process`
+### process
 
 
 NodeJS pakub spetsiaalset objekti nimega `process`, mis kujutab jooksvat programmi.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 See väljastab operatsioonisüsteemi platvormi, näiteks `win32`, `linux` või `darwin` (Mac).
 
 
-### `process.argv`
+### process.argv
 
 
 Kui käivitate NodeJS-programmi terminalist, saate skripti nime järel edastada täiendavaid sõnu (argumente). Need salvestatakse faili `process.argv`.
@@ -5493,7 +5493,7 @@ Sa ei pea neid sisseehitatud mooduleid paigaldama, need tulevad koos NodeJSiga. 
 Järgmistes peatükkides tuuakse mõned kasulikud näited nende kasutamise kohta.
 
 
-## Moodul `fs`
+## Moodul fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `pakett.json`
+### pakett.json
 
 
 Fail "package.json" on lihtsalt JSON-fail, mis salvestab metaandmeid teie projekti kohta.
@@ -5960,7 +5960,7 @@ Mida tegi NPM ?
 Mis on `package-lock.json` ?
 
 
-### `pakett-lukk.json`
+### pakett-lukk.json
 
 
 Selle faili loob NPM automaatselt.
@@ -6023,7 +6023,7 @@ NodeJS-i kasutatakse sageli backend-keelena: saate oma skripti muuta serveriks j
 Selles peatükis tutvustame mõningaid põhilisi võrgufunktsioone, mis võimaldavad seda teha.
 
 
-### `fetch()`
+### fetch()
 
 
 Kui soovite, et teie programm laadiks alla andmeid veebisaidilt või API-lt, peate tegema **HTTP päringu**.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Seega veenduge, et string on õigesti vormindatud.
 
 
-### `http` server
+### http server
 
 
 NodeJS võimaldab luua veebiserveri ilma midagi muud paigaldamata.

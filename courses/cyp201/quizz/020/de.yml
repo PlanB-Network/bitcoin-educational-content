@@ -6,4 +6,4 @@ wrong_answers:
   - Der komprimierte öffentliche Schlüssel erfordert einen größeren privaten Schlüssel
 explanation: |
   Ein komprimierter öffentlicher Schlüssel behält nur die x-Koordinate und ein Bit für die Parität von y bei, wodurch seine Größe auf 33 Bytes reduziert wird.
-reviewed: false
+reviewed: true

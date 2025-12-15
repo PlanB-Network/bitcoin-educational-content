@@ -8,7 +8,7 @@ description: Complete guide to LNP2PBot and P2P bitcoin trading
 
 KYC-free peer-to-peer (P2P) exchanges are essential for preserving users' confidentiality and financial autonomy. They enable direct transactions between individuals without the need for identity verification, which is crucial for those who value privacy. For a more in-depth understanding of the theoretical concepts, take a look at the BTC204 course:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Buying and selling bitcoin peer-to-peer (P2P) is one of the most private methods of acquiring or disposing of bitcoins. LNP2PBot is an open source Telegram bot that facilitates P2P exchanges on the Lightning network, enabling fast, low-cost, KYC-free transactions.
 
@@ -52,7 +52,7 @@ Start by installing a compatible Lightning wallet. Here are our detailed recomme
 
 Below is the link to the tutorial for this wallet:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 - [Phoenix](https://phoenix.acinq.co) :
   - Simple and reliable
@@ -63,7 +63,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Below is the link to the tutorial for this wallet:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - [Blixt](https://blixtwallet.github.io) :
   - More technical but very complete
@@ -74,7 +74,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Below is the link to the tutorial for this wallet:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Important notes on other portfolios**
 

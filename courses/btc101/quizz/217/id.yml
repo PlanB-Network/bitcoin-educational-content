@@ -1,10 +1,9 @@
-question: Apa yang memungkinkan oleh Lightning Network?
-answer: Transaksi Bitcoin instan dengan biaya rendah.
+question: Apa tujuan utama Lightning Network?
+answer: Memungkinkan pembayaran offchain yang cepat dan berbiaya rendah
 wrong_answers:
-  - Transaksi Bitcoin instan dengan biaya tinggi.
-  - Transaksi Bitcoin tertunda dengan biaya rendah.
-  - Transaksi Bitcoin tertunda dengan biaya tinggi.
-explanation: >-
-  Lightning Network memungkinkan transaksi Bitcoin instan dengan biaya rendah,
-  sehingga menyelesaikan masalah skalabilitas Bitcoin.
+  - Meningkatkan ukuran blok pada blockchain Bitcoin
+  - Menggantikan blockchain Bitcoin secara bertahap dengan sistem yang lebih efisien
+  - Membuat ladang penambangan menjadi sangat kaya
+explanation: |
+  Lightning Network bertujuan memungkinkan pembayaran bitcoin yang hampir instan dengan biaya rendah, tanpa membebani blockchain utama.
 reviewed: false

@@ -90,7 +90,7 @@ Používání správce hesel je vynikajícím postupem. Nejenže vám umožní b
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Další informace najdete v našem návodu, jak používat aplikaci 2FA.
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Na kartě "*Jazyk a čas*" můžete změnit jazyk a časové pásmo zařízení Interface.
 

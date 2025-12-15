@@ -1,0 +1,8 @@
+question: What is the primary purpose of Rust's Option<T> enum type?
+answer: To safely represent values that may or may not be present, preventing null pointer errors
+wrong_answers:
+  - To store multiple different data types in a single variable without type checking
+  - To create optional parameters in function definitions that can be skipped during calls
+  - To provide a way to return multiple possible error types from a single function
+explanation: |
+  The Option<T> enum serves as Rust's solution to null pointer problems by forcing explicit handling of missing values. It has two variants: Some(T) for present values and None for absent values. The compiler requires you to check which variant you have before using the value, preventing runtime errors. The wrong answers confuse Option with other concepts: unions/variants (first), default parameters (second), and Result types for error handling (third).

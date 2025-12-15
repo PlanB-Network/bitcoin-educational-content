@@ -1,0 +1,9 @@
+question: Qual è stata la critica principale sollevata nella primissima e-mail di risposta all'annuncio di Satoshi Nakamoto del whitepaper Bitcoin sulla mailing list Cryptography?
+answer: Il sistema proposto non sembra essere in grado di raggiungere le dimensioni richieste
+wrong_answers:
+  - Gli algoritmi crittografici utilizzati non erano sufficientemente sicuri per le applicazioni finanziarie
+  - L'architettura peer-to-peer renderebbe il sistema vulnerabile agli attacchi di rete
+  - Il meccanismo di consenso consumerebbe troppa energia computazionale per essere pratico
+explanation: |
+  La prima frase della prima e-mail di risposta all'annuncio del whitepaper Bitcoin di Satoshi affermava specificamente "non sembra scalare alle dimensioni richieste" Questo dimostra che i problemi di scalabilità esistevano fin dalle prime discussioni pubbliche del Bitcoin, anche prima del lancio della rete. Le altre opzioni, pur essendo potenzialmente valide per un sistema di criptovalute, non erano al centro della risposta iniziale, che ha immediatamente identificato la scalabilità come il problema principale della proposta di Satoshi.
+reviewed: false

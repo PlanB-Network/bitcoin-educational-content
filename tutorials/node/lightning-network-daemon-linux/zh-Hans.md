@@ -34,7 +34,7 @@ Lightning Network Daemon 是 Lightning Network 的完整 Go 实现。它由 Ligh
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## 为什么要有自己的 "闪电 "节点？
 
@@ -64,7 +64,7 @@ https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 在我们的机器上运行 LND 实现实例有两种选择。我们可以在自己的机器上设置环境以便本地运行，或者从 Docker 容器中安装 LND。在这里，我们将集中讨论第一种方案，并在稍后的教程中了解如何使用 Docker。
@@ -665,4 +665,4 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

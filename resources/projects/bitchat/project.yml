@@ -1,0 +1,29 @@
+id: 28168b0b-31a1-4138-91eb-b830ced7e4ec
+
+name: Bitchat
+
+links:
+  website: https://bitchat.free/
+  github: https://github.com/permissionlesstech/bitchat
+
+category: communities
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - personal-security
+  - software
+  - privacy
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-06
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

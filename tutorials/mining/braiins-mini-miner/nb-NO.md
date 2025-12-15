@@ -6,7 +6,7 @@ description: Gjør Mining enkelt hjemmefra.
 
 
 
-### Innledning
+## Innledning
 
 
 
@@ -18,7 +18,7 @@ Du kan også finne mye mer viktig informasjon ved å sjekke ut den komplette vei
 
 
 
-### Oversikt over BMM 100
+## Oversikt over BMM 100
 
 
 
@@ -46,7 +46,7 @@ mens på baksiden har vi: hullet for strømmen, plass til et SD-kort (som kan v�
 
 
 
-### Tilkobling av Mini Miner
+## Tilkobling av Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Du må koble enheten til internett via ethernet, men merk at med den nye versjon
 
 
 
-### Konfigurasjon
+## Konfigurasjon
 
 
 
@@ -74,7 +74,7 @@ For å logge inn må du oppgi `root` som brukernavn, mens du kan la passordet st
 
 
 
-### Generelle innstillinger
+## Generelle innstillinger
 
 
 
@@ -110,7 +110,7 @@ Når du har gjort endringer, klikker du på `Lagre endringer`, og du vil se endr
 
 
 
-### Tilkobling til Mining pool
+## Tilkobling til Mining pool
 
 
 
@@ -134,15 +134,15 @@ Her må vi bestemme hvilket basseng vi skal bruke. I denne opplæringen vil jeg 
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Det andre alternativet er å koble oss til en Mining pool som mina i solo, som Public Pool, følg denne guiden for å gjøre det:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins basseng
+### Braiins basseng
 
 
 
@@ -150,7 +150,7 @@ For å koble oss til dette bassenget må vi opprette en konto. dette bassenget f
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Når det er gjort, er vi i Braiins bassengets dashbord. Det vi må gjøre er å fortelle bassenget at vi ønsker å koble oss til en av gruvearbeiderne våre, så på venstre side av skjermen finner du en rekke oppføringer. Vi må gå til "arbeidere"
 
@@ -168,7 +168,7 @@ og vi må klikke på den lilla knappen til høyre der det står "Koble til arbei
 
 
 
-Her kommer vinduet med informasjonen vi trenger for å koble vår mini Miner til bassenget. Her er den eneste endringen vi kan gjøre å velge Stratum V2. For å finne ut hva Stratum v2 er, se denne oppføringen i [glossary] (https://planb.network/en/resources/glossary/stratum-v2).
+Her kommer vinduet med informasjonen vi trenger for å koble vår mini Miner til bassenget. Her er den eneste endringen vi kan gjøre å velge Stratum V2. For å finne ut hva Stratum v2 er, se denne oppføringen i [glossary] (https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 
@@ -236,7 +236,7 @@ hvis du går tilbake til dashbordet, bør du begynne å se bevegelse på grafen 
 
 
 
-#### Offentlig basseng
+### Offentlig basseng
 
 
 

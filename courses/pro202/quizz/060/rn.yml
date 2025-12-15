@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo bwihariye butuma amanode y’imbere ya SegWit yemera ko amafaranga y’i P2WPKH ari ay’ukuri ata gutahura amategeko agenga ivy’ukwemeza abashingantahe?
+answer: Imbere ya SegWit zisobanura inyandiko ya OP_0 + 20-byte nk'igisohoka ca 'anyone-can-spend' kidasaba kugenzura umukono
+wrong_answers:
+  - Ivyuma vy'imbere ya SegWit bihita birungika amafaranga y'ibikorwa vya P2WPKH ku vyuma vyavuguruwe kugira ngo ivyemezo vyemezwe imbere y'uko bivyemera
+  - Imbere ya SegWit nodes zimenya urugero rwa P2WPKH maze zigasimbuka kwemeza vyose, zifata amafaranga yose y’ivyabona nk’aho yemejwe imbere
+  - Imbere ya SegWit nodes zihindura amakuru y'ivyabona zigasubira mu buryo bwa kera bwa scriptSig hakoreshejwe amategeko y'uguhindura ivy'inyuma
+explanation: |
+  Ubwenge bw’uguhingura SegWit buri mu gukoresha ingene ama node y’imbere ya SegWit akora ku mirongo y’inyandiko itazwi. Iyo izo node za kera zihuye n’inyandiko ya P2WPKH (OP_0 ikurikiwe n’ugusunika kw’amabyte 20), ntizimenya ko ari porogarama idasanzwe y’icabona. Ahubwo, barayisuzuma nk’inyandiko isanzwe isiga OP_0 na hash ku rutonde. Kubera ko OP_0 isuzuma ko ari ikinyoma mu buryo bwo kwandika bwa Bitcoin, amanode y'imbere ya SegWit asobanura ivyo nk'ivya 'anyone-can-spend' - bisobanura ko ata kugenzura umukono bisabwa bivuye ku mbonerahamwe yabo. Ivyo bituma igikorwa cemerwa mu mempool yabo no mu ma blocs ata guca mu masezerano, mu gihe SegWit-aware nodes zikora ivyemezo vy’ukuri vy’ibanga hakoreshejwe amakuru y’ivyabona.

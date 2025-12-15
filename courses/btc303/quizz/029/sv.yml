@@ -1,0 +1,9 @@
+question: Enligt Pieter Wuille's beräkningar, vad är den maximala teoretiska mängden Bitcoin som någonsin kommer att existera när alla mynt har utvunnits?
+answer: 20.999.999,9769 BTC
+wrong_answers:
+  - 21 000 000 000,0000 BTC exakt
+  - 20.999.817,3131 BTC
+  - 20,500,000.0000 BTC ungefär
+explanation: |
+  Pieter Wuille beräknade att det teoretiska maximala utbudet är 20 999 999,9769 BTC, vilket är något mindre än de 21 miljoner som brukar anges. Detta beror på det specifika halveringsschemat och avrundningen i Bitcoin:s kod. Siffran 21 miljoner är en avrundad approximation. Siffran 20 999 817,3131 representerar den faktiska cirkulerande tillgången efter redovisning av förlorade mynt och mining-fel upp till ett specifikt block, inte det teoretiska maximumet.
+reviewed: false

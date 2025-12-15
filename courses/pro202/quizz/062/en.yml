@@ -1,0 +1,8 @@
+question: In a P2WSH transaction's witness stack for a 2-of-3 multisig, why must an empty element be included at the bottom of the witness stack?
+answer: To compensate for CHECKMULTISIG's off-by-one bug that consumes an extra stack element during execution
+wrong_answers:
+  - "To provide a placeholder for the third signature that wasn't used in the 2-of-3 multisig validation"
+  - To separate the signature data from the witness script for proper SegWit validation parsing
+  - To ensure the witness stack has an even number of elements for efficient merkle tree construction
+explanation: |
+  The CHECKMULTISIG opcode has a historical bug where it pops one extra element from the stack beyond what it should need. This affects all multisig transactions, including P2WSH. The empty element compensates for this bug, ensuring the remaining stack elements (signatures and witness script) are properly positioned for validation. The other options are incorrect: unused signatures aren't represented by empty elements, witness parsing doesn't require separation elements, and witness stacks don't need even element counts for merkle operations.

@@ -1,5 +1,5 @@
 ---
-name: एम्बॉस
+name: Amboss
 description: Lightning Network का अन्वेषण और विश्लेषण करें
 ---
 
@@ -11,7 +11,7 @@ Lightning Network, Bitcoin प्रोटोकॉल का एक Layer ह�
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 मुख्य श्रृंखला की तरह, नोड्स के बीच कनेक्शन को सुगम बनाने और नेटवर्क में आम तौर पर उत्पन्न होने वाली तरलता की समस्या को कम करने के लिए, उपयोगकर्ताओं को नेटवर्क की जानकारी और स्थिति जानने में सक्षम बनाना आवश्यक हो गया है। वास्तव में, Lightning Network पर, हम Bitcoin मुख्य श्रृंखला पर लेनदेन की तुलना में अपेक्षाकृत छोटी राशि के माइक्रो-भुगतान की अनुशंसा करते हैं।
 
@@ -34,7 +34,7 @@ https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 इस ट्यूटोरियल में, हम आपको इस प्लेटफ़ॉर्म के दौरे पर ले जाएंगे, जो Lightning Network उपयोगकर्ताओं के लिए एक आवश्यक संसाधन है, जो नेटवर्क का विस्तार करने के लिए अपने नोड को कनेक्ट करना चाहते हैं, आदि।
 
@@ -57,7 +57,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 होम पेज पर आपको निम्न के अनुसार वर्गीकृत नोड्स भी मिलेंगे:
 
@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - इनकमिंग अनुपात**: वह राशि जो नोड आपसे प्रत्येक मिलियन Satoshi के लिए लेगा, जो चुने गए चैनल पर निर्भर करेगा।
 - अनुपात (प्रति मिलियन भाग)** : यह प्रति मिलियन यूनिट Satoshi की संख्या दर्शाता है जो नोड आपसे तब वसूलेगा जब आप उसके किसी चैनल के माध्यम से भुगतान करने का निर्णय लेंगे। मान लीजिए कि आप `500 Sats` वाले चैनल के माध्यम से `10_000 Sats` का भुगतान करने का निर्णय लेते हैं, तो आपको नोड को `10_000 * 500 / 1_000_000` सातोशी का भुगतान करना होगा, जो `5 Sats` के बराबर है।
-- [HTLC](https://planb.network/resources/glossary/HTLC) अधिकतम** : यह नोड आपको इनमें से किसी एक चैनल के माध्यम से अधिकतम सीमा तक पारगमन की अनुमति देता है।
+- [HTLC](https://planb.academy/resources/glossary/htlc) अधिकतम** : यह नोड आपको इनमें से किसी एक चैनल के माध्यम से अधिकतम सीमा तक पारगमन की अनुमति देता है।
 
 
 
@@ -304,4 +304,4 @@ Lightning Network नोड्स से अपने कनेक्शन क�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

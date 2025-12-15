@@ -1,0 +1,8 @@
+question: What is the main advantage of iterators being lazy in Rust?
+answer: They don't perform any work until consumed, allowing efficient chaining without creating intermediate collections
+wrong_answers:
+  - They automatically parallelize operations across multiple CPU cores for better performance
+  - They cache previous results in memory to avoid recomputing the same values multiple times
+  - They use less memory by storing only references instead of copying actual data values
+explanation: |
+  Lazy evaluation in Rust iterators means they don't execute any processing until a consuming method is called. This allows you to chain multiple operations like map, filter, and other adaptors together without creating intermediate collections between each step. The compiler can optimize the entire chain into efficient code that processes elements one at a time through all transformations, rather than creating temporary vectors or other collections at each stage.

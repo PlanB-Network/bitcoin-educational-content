@@ -1,10 +1,9 @@
-question: Lightning Network ilithibitishwa na kutekelezwa lini kwa mara ya kwanza?
-answer: 2017
+question: Kwa nini kituo cha Lightning kinaweza kutotumika katika mwelekeo mmoja?
+answer: Ukosefu wa ukwasi wa kutosha
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - Bloku mpya sana
+  - HTLC iliyoisha muda wake
+  - Nodi isiyosawazishwa
 explanation: |
-  Lightning Network ilithibitishwa kwanza na kutekelezwa
-  mwaka 2017.
-reviewed: true
+  Hata kwa uwezo mkubwa, kituo huruhusu malipo tu ikiwa kuna ukwasi wa kutosha upande sahihi.
+reviewed: false

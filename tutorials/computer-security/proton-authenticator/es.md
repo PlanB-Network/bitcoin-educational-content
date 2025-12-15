@@ -194,7 +194,7 @@ En primer lugar, puede consultar nuestra guía sobre ProtonMail para obtener má
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Accede a tu cuenta de ProtonMail y ve a la configuración de seguridad. Busca la opción "Autenticación de dos factores" y actívala.
 
@@ -495,7 +495,7 @@ Lo ideal es que utilices más de un segundo factor en tus cuentas críticas. No 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Asimismo, tenga a mano códigos de emergencia impresos.
 
@@ -545,7 +545,7 @@ A continuación encontrará nuestra guía sobre Authy:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator es una de las soluciones más completas y seguras disponibles: código abierto, sincronización encriptada multidispositivo, sin seguimiento comercial.
 

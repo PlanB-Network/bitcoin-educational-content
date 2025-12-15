@@ -161,4 +161,4 @@ Si encontraste útil este tutorial, agradeceríamos mucho un pulgar arriba abajo
 
 También te recomiendamos revisar este otro tutorial sobre VeraCrypt, un software que te permite cifrar y descifrar dispositivos de almacenamiento.
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

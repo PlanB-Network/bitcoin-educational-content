@@ -1,0 +1,9 @@
+question: Açıklanan güvenlik modeline göre Bitcoin'ın güvenilmez temel katmanı üzerine ne tür sistemler inşa edilebilir?
+answer: Hem güvenilmez hem de güvenilir sistemler bunun üzerine inşa edilebilir
+wrong_answers:
+  - Bunun üzerine sadece güvenilir sistemler inşa edilebilir
+  - Üzerine sadece güvenilir sistemler inşa edilebilir
+  - Üzerine ek sistemler inşa edilemez
+explanation: |
+  Bitcoin'in güvensiz temel katmanı, üzerine farklı türde sistemler inşa etmede esneklik sağlayan bir temel sağlar. Matt Corallo'nun açıkladığı gibi, güvenilir sistemlerin üzerine güvenilir olmayan sistemler inşa edemezken, güvenilir olmayan sistemlerin üzerine güvenilir sistemler (emanet cüzdanları gibi) inşa edebilirsiniz. Bu da Bitcoin'in güvensiz temelinin hem güvensiz uygulamaları hem de güvenilir hizmetleri desteklediği ve sistem tasarımcılarına temel katmanı kullanan diğer herkesi aynı ödünleşimlere zorlamadan uygun ödünleşimleri seçme özgürlüğü verdiği anlamına gelir.
+reviewed: false

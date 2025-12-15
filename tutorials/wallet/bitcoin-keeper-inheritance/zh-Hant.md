@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - 繼承計劃
+name: Bitcoin Keeper - 遺產規劃
 description: 設定並使用 Bitcoin Keeper Wallet 與 Tapsigners 來建立繼承計畫
 ---
 
@@ -17,7 +17,7 @@ description: 設定並使用 Bitcoin Keeper Wallet 與 Tapsigners 來建立繼�
 
 若要查看 Bitcoin Keeper Wallet 的完整教學，請參閱此處的教學：
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 在此查看其他相關連結：
 

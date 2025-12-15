@@ -8,7 +8,7 @@ description: Komplett guide til bruk av Bisq 2 og veksling av bitcoins P2P
 
 KYC-frie peer-to-peer-børser (P2P) er avgjørende for å bevare brukernes konfidensialitet og økonomiske uavhengighet. De muliggjør direkte transaksjoner mellom enkeltpersoner uten behov for identitetsbekreftelse, noe som er avgjørende for de som verdsetter personvern. For en mer inngående forståelse av de teoretiske konseptene, ta en titt på BTC204-kurset:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Hva er Bisq 2?
 
@@ -23,7 +23,7 @@ Bisq 2 er den nye versjonen av den populære desentraliserte Bisq-børsen, som b
 - Støtte for flere porteføljetyper
 - Rollesystem med obligatorisk innskudd i BSQ
 
-Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen som er tilgjengelig for øyeblikket. Bisq Easy er utviklet spesielt for nye Bitcoin-brukere. Denne protokollen gjør det mulig for brukere å kjøpe og selge Bitcoins mot fiat-valutaer på en desentralisert peer-to-peer-plattform. Transaksjonene er begrenset til tilsvarende 600 USD (med et minimum på 6 USD), og sikkerheten er avhengig av BTC-selgernes omdømme. Bisq Easy har ingen handelsgebyrer eller krav til depositum. Bisq Easy forventes å erstatte Bisq 1 for kontantbørser under 600 USD (eller tilsvarende).
+Denne veiledningen fokuserer utelukkende på «Bisq Easy», den eneste protokollen som for øyeblikket er tilgjengelig. Bisq Easy er spesielt utviklet for nye Bitcoin-brukere. Denne protokollen lar brukere kjøpe og selge bitcoins mot fiat-valutaer på en desentralisert peer-to-peer-plattform. Transaksjoner er begrenset til tilsvarende 600 USD (med et minimum på 6 USD), og sikkerheten i handelene er basert på BTC-selgernes omdømme. Bisq Easy har verken handelsgebyrer eller krav om sikkerhetsinnskudd. Det er forventet at Bisq Easy vil erstatte Bisq 1 for fiat-handler under 600 USD (eller tilsvarende).
 
 **Hovedfunksjoner:**
 
@@ -62,7 +62,7 @@ Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen
 - Den som utarbeider tilbudet, definerer vilkårene for utvekslingen
 - Når forhandlerne har blitt enige om vilkårene (betalingsmåte og pris), begynner utvekslingen
 - Selgeren sender bankopplysningene sine til kjøperen, og kjøperen sender Bitcoin-adressen sin til selgeren
-- Kjøperen betaler kontant og gir selgeren beskjed om dette
+- Kjøperen foretar betalingen i fiat-valuta og varsler selgeren
 - Når betalingen er mottatt, sender selgeren bitcoinsene til kjøperens adresse
 - Utvekslingen er fullført når kjøperen mottar bitcoinsene
 
@@ -86,7 +86,7 @@ Denne veiledningen fokuserer utelukkende på "Bisq Easy", den eneste protokollen
 - Last ned Bisq 2-versjonen som passer til operativsystemet ditt (bla nedover på siden)
 - Bekreft ektheten til den nedlastede filen (anbefales på det sterkeste). Du finner en detaljert veiledning om signaturverifisering i følgende veiledning:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Installasjon i henhold til ditt system
 

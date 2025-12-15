@@ -14,7 +14,7 @@ description: भौतिक सुरक्षा कुंजी का उप
 एक अन्य ट्यूटोरियल में, मैंने बताया कि TOTP 2FA एप्लिकेशन को कैसे सेट अप और उपयोग किया जाए:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 यहां, हम देखेंगे कि अपने सभी खातों के लिए प्रमाणीकरण के दूसरे कारक के रूप में भौतिक सुरक्षा कुंजी का उपयोग कैसे करें।
 

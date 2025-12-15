@@ -24,7 +24,7 @@ Een wachtwoordmanager genereert sterke wachtwoorden en slaat deze veilig op, zod
 
 In deze tutorial leren we hoe je een lokale wachtwoordmanager instelt en gebruikt om je online beveiliging te verbeteren. Hier zal ik je kennis laten maken met KeePass. Als je echter een beginner bent en een online wachtwoordmanager wilt die op meerdere apparaten kan synchroniseren, raad ik je aan onze tutorial over Bitwarden te volgen:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 

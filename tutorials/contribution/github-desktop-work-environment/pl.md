@@ -8,17 +8,17 @@ description: Jak skonfigurować lokalne środowisko pracy?
 Misją PlanB jest dostarczanie najwyższej jakości zasobów edukacyjnych na temat Bitcoin w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, co pozwala każdemu uczestniczyć we wzbogacaniu platformy. Wkład może przybierać różne formy: poprawianie i korekta istniejących tekstów, tłumaczenie na inne języki, aktualizowanie informacji lub tworzenie nowych samouczków, które nie są jeszcze dostępne na naszej stronie.
 
 
-Jeśli chcesz wnieść swój wkład do PlanB Network, musisz użyć GitHub, aby zaproponować zmiany. W tym celu dostępne są dwie opcje:
+Jeśli chcesz wnieść swój wkład do Plan ₿ Academy, musisz użyć GitHub, aby zaproponować zmiany. W tym celu dostępne są dwie opcje:
 
 
 - Przyczyń się bezpośrednio przez **Interface** na stronie GitHub: Jest to najprostsza metoda. Jeśli jesteś początkującym użytkownikiem lub planujesz wnieść tylko kilka drobnych zmian, ta opcja jest prawdopodobnie najlepsza dla Ciebie;
-- **Współtwórz lokalnie za pomocą Git**: Ta metoda jest bardziej odpowiednia, jeśli planujesz wnosić regularny lub znaczący wkład w PlanB Network. Chociaż skonfigurowanie lokalnego środowiska Git na komputerze może początkowo wydawać się skomplikowane, podejście to jest bardziej wydajne na dłuższą metę. Pozwala ono na bardziej elastyczne zarządzanie zmianami. Jeśli jesteś w tym nowy, nie martw się, **wyjaśniamy cały proces konfiguracji środowiska w tym samouczku** (obiecujemy, że nie będziesz musiał wpisywać żadnych wierszy poleceń ^^).
+- **Współtwórz lokalnie za pomocą Git**: Ta metoda jest bardziej odpowiednia, jeśli planujesz wnosić regularny lub znaczący wkład w Plan ₿ Academy. Chociaż skonfigurowanie lokalnego środowiska Git na komputerze może początkowo wydawać się skomplikowane, podejście to jest bardziej wydajne na dłuższą metę. Pozwala ono na bardziej elastyczne zarządzanie zmianami. Jeśli jesteś w tym nowy, nie martw się, **wyjaśniamy cały proces konfiguracji środowiska w tym samouczku** (obiecujemy, że nie będziesz musiał wpisywać żadnych wierszy poleceń ^^).
 
 
 Jeśli nie masz pojęcia, czym jest GitHub lub jeśli chcesz dowiedzieć się więcej o technicznych terminach związanych z Gitem i GitHubem, polecam przeczytać nasz artykuł wprowadzający, aby zapoznać się z tymi pojęciami.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -26,7 +26,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Aby rozpocząć, będziesz oczywiście potrzebować konta GitHub. Jeśli już je masz, możesz się zalogować, w przeciwnym razie możesz skorzystać z naszego samouczka, aby utworzyć nowe.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## Krok 2: Instalacja Obsidian
 
 
-Przejdźmy teraz do instalacji oprogramowania do pisania. Tutaj masz kilka opcji. Będziesz potrzebował oprogramowania, które obsługuje edycję plików Markdown, ponieważ PlanB Network używa tego formatu dla plików tekstowych w swoim repozytorium.
+Przejdźmy teraz do instalacji oprogramowania do pisania. Tutaj masz kilka opcji. Będziesz potrzebował oprogramowania, które obsługuje edycję plików Markdown, ponieważ Plan ₿ Academy używa tego formatu dla plików tekstowych w swoim repozytorium.
 
 
 Istnieje wiele programów specjalizujących się w edycji plików Markdown, takich jak Typora, zaprojektowanych specjalnie do pisania. Chociaż nie jest to idealne rozwiązanie, można również wybrać edytor kodu, taki jak Visual Studio Code (VSC) lub Sublime Text. Jednak jako pisarz wolę używać oprogramowania Obsidian. Zobaczmy razem, jak go zainstalować i rozpocząć z nim pracę.
@@ -73,19 +73,19 @@ Istnieje wiele programów specjalizujących się w edycji plików Markdown, taki
 - Dotrzesz do oprogramowania Obsidian. Na razie nie masz otwartych żadnych plików: ![github-desktop](assets/9.webp)
 
 
-## Krok 3: Fork repozytorium PlanB Network
+## Krok 3: Fork repozytorium Plan ₿ Academy
 
 
 
-- Przejdź do repozytorium danych PlanB Network pod następującym adresem Address: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Przejdź do repozytorium danych Plan ₿ Academy pod następującym adresem Address: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Na tej stronie kliknij przycisk `Fork` w prawym górnym rogu okna: ![github-desktop](assets/11.webp)
 - W menu tworzenia można pozostawić ustawienia domyślne. Upewnij się, że pole `Kopiuj tylko gałąź deweloperską` jest zaznaczone, a następnie kliknij przycisk `Utwórz Fork`: ![github-desktop](assets/12.webp)
-- Następnie dotrzesz do własnego Fork repozytorium PlanB Network: ![github-desktop](assets/13.webp)
+- Następnie dotrzesz do własnego Fork repozytorium Plan ₿ Academy: ![github-desktop](assets/13.webp)
 
 Ten Fork stanowi oddzielne repozytorium od oryginalnego, chociaż obecnie zawiera te same dane. Będziesz teraz pracować na tym nowym repozytorium.
 
 
-W pewnym sensie stworzyliśmy kopię repozytorium źródłowego PlanB Network. Fork (kopia) i oryginalne repozytorium będą teraz rozwijać się niezależnie od siebie. W oryginalnym repozytorium inni współtwórcy mogą dodawać nowe dane, podczas gdy ty, na swoim Fork, będziesz kontynuował własne modyfikacje.
+W pewnym sensie stworzyliśmy kopię repozytorium źródłowego Plan ₿ Academy. Fork (kopia) i oryginalne repozytorium będą teraz rozwijać się niezależnie od siebie. W oryginalnym repozytorium inni współtwórcy mogą dodawać nowe dane, podczas gdy ty, na swoim Fork, będziesz kontynuował własne modyfikacje.
 
 Aby zachować spójność między tymi dwoma repozytoriami, konieczna będzie ich okresowa synchronizacja, tak aby pobierały te same informacje. Aby wysłać zmiany do repozytorium źródłowego, należy użyć tak zwanego **Pull Request**. Aby zintegrować zmiany z repozytorium źródłowego do Fork, należy użyć polecenia **Sync Fork** dostępnego na GitHub web Interface.
 
@@ -116,7 +116,7 @@ Aby zachować spójność między tymi dwoma repozytoriami, konieczna będzie ic
 ![github-desktop](assets/18.webp)
 
 
-- Po sklonowaniu repozytorium oprogramowanie oferuje dwie opcje. Należy wybrać pierwszą z nich: `To contribute to the parent project`. Ten wybór pozwoli ci zaprezentować swoją przyszłą pracę jako wkład w projekt macierzysty (`PlanB-Network/Bitcoin-educational-content`), a nie wyłącznie jako modyfikację twojego osobistego Fork (`[nazwa użytkownika]/Bitcoin-educational-content`). Po wybraniu opcji kliknij `Kontynuuj`:
+- Po sklonowaniu repozytorium oprogramowanie oferuje dwie opcje. Należy wybrać pierwszą z nich: `To contribute to the parent project`. Ten wybór pozwoli ci zaprezentować swoją przyszłą pracę jako wkład w projekt macierzysty (`Plan ₿ Academy/Bitcoin-educational-content`), a nie wyłącznie jako modyfikację twojego osobistego Fork (`[nazwa użytkownika]/Bitcoin-educational-content`). Po wybraniu opcji kliknij `Kontynuuj`:
 
 ![github-desktop](assets/19.webp)
 
@@ -125,10 +125,10 @@ Aby zachować spójność między tymi dwoma repozytoriami, konieczna będzie ic
 
 ![github-desktop](assets/20.webp)
 
-To, co osiągnęliśmy na tym etapie, to utworzenie lokalnej kopii repozytorium, które jest hostowane na GitHub. Dla przypomnienia, to repozytorium jest Fork repozytorium źródłowego PlanB Network. Będziesz mógł wprowadzać modyfikacje do tej lokalnej kopii, takie jak dodawanie samouczków, tłumaczeń lub poprawek. Po wprowadzeniu tych modyfikacji należy użyć polecenia **Push origin**, aby wysłać lokalne modyfikacje do Fork hostowanego na GitHub.
+To, co osiągnęliśmy na tym etapie, to utworzenie lokalnej kopii repozytorium, które jest hostowane na GitHub. Dla przypomnienia, to repozytorium jest Fork repozytorium źródłowego Plan ₿ Academy. Będziesz mógł wprowadzać modyfikacje do tej lokalnej kopii, takie jak dodawanie samouczków, tłumaczeń lub poprawek. Po wprowadzeniu tych modyfikacji należy użyć polecenia **Push origin**, aby wysłać lokalne modyfikacje do Fork hostowanego na GitHub.
 
 
-Można również pobrać modyfikacje z Fork, na przykład podczas synchronizacji z repozytorium PlanB Network. W tym celu należy użyć polecenia **Fetch origin**, aby pobrać modyfikacje do lokalnej kopii (klonu), a następnie polecenia **Pull origin**, aby połączyć je ze swoją pracą. Pozwala to być na bieżąco z najnowszymi osiągnięciami projektu przy jednoczesnym efektywnym wkładzie.
+Można również pobrać modyfikacje z Fork, na przykład podczas synchronizacji z repozytorium Plan ₿ Academy. W tym celu należy użyć polecenia **Fetch origin**, aby pobrać modyfikacje do lokalnej kopii (klonu), a następnie polecenia **Pull origin**, aby połączyć je ze swoją pracą. Pozwala to być na bieżąco z najnowszymi osiągnięciami projektu przy jednoczesnym efektywnym wkładzie.
 
 
 ![github-desktop](assets/21.webp)
@@ -148,7 +148,7 @@ Można również pobrać modyfikacje z Fork, na przykład podczas synchronizacji
 
 ![github-desktop](assets/24.webp)
 
--> **Uwaga**, ważne jest, aby nie wybierać folderu `Bitcoin-educational-content` podczas tworzenia nowego skarbca w Obsidian. Zamiast tego należy wybrać folder nadrzędny, `GitHub`. Jeśli wybierzesz folder `Bitcoin-educational-content`, folder konfiguracyjny `.obsidian`, zawierający lokalne ustawienia Obsidian, zostanie automatycznie zintegrowany z repozytorium. Chcemy tego uniknąć, ponieważ nie jest konieczne przenoszenie konfiguracji Obsidian do repozytorium PlanB Network. Alternatywą jest dodanie folderu `.obsidian` do pliku `.gitignore`, ale ta metoda zmodyfikowałaby również plik `.gitignore` repozytorium źródłowego, co nie jest pożądane.
+-> **Uwaga**, ważne jest, aby nie wybierać folderu `Bitcoin-educational-content` podczas tworzenia nowego skarbca w Obsidian. Zamiast tego należy wybrać folder nadrzędny, `GitHub`. Jeśli wybierzesz folder `Bitcoin-educational-content`, folder konfiguracyjny `.obsidian`, zawierający lokalne ustawienia Obsidian, zostanie automatycznie zintegrowany z repozytorium. Chcemy tego uniknąć, ponieważ nie jest konieczne przenoszenie konfiguracji Obsidian do repozytorium Plan ₿ Academy. Alternatywą jest dodanie folderu `.obsidian` do pliku `.gitignore`, ale ta metoda zmodyfikowałaby również plik `.gitignore` repozytorium źródłowego, co nie jest pożądane.
 
 
 
@@ -164,7 +164,7 @@ Można również pobrać modyfikacje z Fork, na przykład podczas synchronizacji
 ## Krok 6: Zainstalowanie edytora kodu
 
 
-Większość modyfikacji będzie dotyczyć plików w formacie Markdown (`.md`). Do edycji tych dokumentów można użyć oprogramowania Obsidian, które omówiliśmy wcześniej. Jednak PlanB Network używa innych formatów plików i będziesz musiał zmodyfikować niektóre z nich.
+Większość modyfikacji będzie dotyczyć plików w formacie Markdown (`.md`). Do edycji tych dokumentów można użyć oprogramowania Obsidian, które omówiliśmy wcześniej. Jednak Plan ₿ Academy używa innych formatów plików i będziesz musiał zmodyfikować niektóre z nich.
 
 
 Na przykład podczas tworzenia nowego samouczka należy utworzyć plik YAML (`.yml`), aby wprowadzić tagi samouczka, jego tytuł i identyfikator nauczyciela. Obsidian nie oferuje możliwości modyfikowania tego typu plików, więc potrzebny będzie edytor kodu.
@@ -175,9 +175,9 @@ W tym celu dostępnych jest kilka opcji. Chociaż do tych modyfikacji można uż
 
 - Zainstaluj jeden z tych programów i zachowaj go do przyszłych modyfikacji. ![github-desktop](assets/26.webp)
 
-Gratulacje! Twoje środowisko pracy jest teraz skonfigurowane do współtworzenia PlanB Network. Możesz teraz zapoznać się z naszymi innymi samouczkami dla każdego rodzaju wkładu (tłumaczenie, korekta, pisanie).
+Gratulacje! Twoje środowisko pracy jest teraz skonfigurowane do współtworzenia Plan ₿ Academy. Możesz teraz zapoznać się z naszymi innymi samouczkami dla każdego rodzaju wkładu (tłumaczenie, korekta, pisanie).
 
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

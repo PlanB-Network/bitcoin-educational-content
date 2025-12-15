@@ -1,0 +1,8 @@
+question: What happens when a variable goes out of scope in Rust's ownership system?
+answer: The value is automatically dropped and its memory is freed
+wrong_answers:
+  - The value is moved to the global scope for reuse
+  - The value becomes immutable and remains in memory
+  - The value is copied to a backup location for safety
+explanation: |
+  In Rust's ownership system, when a variable goes out of scope (typically when execution leaves a block defined by curly braces), the value is automatically dropped and its memory is freed. This automatic cleanup is implemented through Rust's drop mechanism, where the language implicitly calls a drop function on variables going out of scope. This ensures proper resource management without requiring explicit cleanup code from the programmer, following the RAII pattern borrowed from C++.

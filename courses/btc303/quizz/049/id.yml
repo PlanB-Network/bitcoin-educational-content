@@ -1,0 +1,9 @@
+question: Menurut pendekatan pemikiran adversarial, apa alasan utama mengapa semua kelemahan yang diketahui dalam Bitcoin harus diatasi daripada menerima beberapa tingkat risiko?
+answer: Bitcoin beroperasi di lingkungan online pseudonim di mana musuh dapat mengeksploitasi kelemahan tanpa ketahuan atau dimintai pertanggungjawaban
+wrong_answers:
+  - "Model keamanan formal Bitcoin membutuhkan bukti matematis bahwa semua vektor serangan potensial telah dieliminasi"
+  - Sifat Bitcoin yang terdistribusi berarti bahwa bahkan kelemahan kecil pun dapat menyebabkan kegagalan di seluruh sistem di semua node
+  - "Pasokan tetap Bitcoin membuatnya tidak layak secara ekonomi untuk menyerap kerugian dari serangan yang berhasil, tidak seperti sistem keuangan tradisional"
+explanation: |
+  Jawaban yang tepat mencerminkan wawasan utama Andrew Poelstra tentang sistem online versus sistem fisik. Tidak seperti bangunan di mana kita menerima beberapa risiko dan mengandalkan penegakan hukum, Bitcoin beroperasi di lingkungan pseudonim di mana penyerang dapat bertindak tanpa terlihat atau konsekuensi. Perbedaan mendasar ini berarti setiap kelemahan yang diketahui pasti akan dieksploitasi, membuat keamanan komprehensif menjadi penting daripada manajemen risiko opsional.
+reviewed: false

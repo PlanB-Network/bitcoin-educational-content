@@ -62,7 +62,7 @@ One of the first things you should do when creating a new wallet is to back up y
 Here are some tips on how to back up your backup phrase.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 To back up your phrases, select the **Preferences > Security** menu, then the **Check your Backup Phrase** option.
 
@@ -158,4 +158,4 @@ Congratulations! You now have a good understanding of the Misty Breez wallet and
 To go further, I also recommend that you discover our tutorial on the Aqua wallet, which works in a similar way to Misty Breez :
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

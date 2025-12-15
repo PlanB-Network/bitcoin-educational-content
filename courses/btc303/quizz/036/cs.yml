@@ -1,0 +1,9 @@
+question: Jaký je hlavní rozdíl mezi blokovou dotací a transakčními poplatky z hlediska toho, kdo nakonec nese náklady na zabezpečení sítě Bitcoin?
+answer: Náklady na blokové dotace nesou držitelé prostřednictvím měnové inflace, zatímco transakční poplatky platí ti, kdo utrácejí
+wrong_answers:
+  - Náklady na dotace bloků hradí těžaři prostřednictvím nákladů na zařízení, zatímco transakční poplatky hradí provozovatelé uzlů
+  - Náklady na blokové dotace jsou rovnoměrně rozděleny mezi všechny účastníky sítě, zatímco transakční poplatky se týkají pouze velkých institucí
+  - Náklady na blokové dotace nesou burzy prostřednictvím poplatků za obchodování, zatímco transakční poplatky platí poskytovatelé wallet
+explanation: |
+  Jak poznamenal Paul Sztorc, blokové dotace a transakční poplatky mají zásadně odlišnou povahu. Bloková dotace představuje tvorbu nových bitcoinů, která rozmělňuje stávající nabídku a prostřednictvím měnové inflace efektivně zdražuje všechny držitele bitcoinů. Naproti tomu transakční poplatky představují přímé platby uživatelů, kteří chtějí provádět transakce, což znamená, že utrácející osoby nesou tyto náklady přímo. Kapitola ilustruje tento přechod a ukazuje, jak se náklady na zabezpečení přesunou z držitelů na utráceče, jak se dotace bloků v průběhu času snižuje.
+reviewed: false

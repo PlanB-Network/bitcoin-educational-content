@@ -1,0 +1,8 @@
+question: Wat gebeurt er met de netwerkconfiguratie tijdens het Dynamic Federation (Dynafed) overgangsproces van Liquid wanneer een functionaris vervangen moet worden?
+answer: Het netwerk zendt een overgangstransactie uit, gevolgd door een overlapperiode van twee weken voordat de nieuwe configuratie wordt overgenomen
+wrong_answers:
+  - Het netwerk schakelt onmiddellijk over naar de nieuwe functieconfiguratie na het uitzenden van de overgangstransactie
+  - Alle functionarissen moeten tegelijkertijd stemmen om de vervanging goed te keuren voordat er configuratiewijzigingen plaatsvinden
+  - Het netwerk vereist een harde fork en tijdelijke uitschakeling om de lijst met functionarissen bij te werken en opnieuw op te starten
+explanation: |
+  Dynamische Federatie laat Liquid evolueren zonder harde vorken door een zorgvuldig georkestreerd overgangsproces. Wanneer een functie moet worden vervangen, zendt het netwerk een overgangstransactie uit die de aankomende verandering aankondigt. Dit wordt gevolgd door een verplichte overlapperiode van twee weken waarin zowel oude als nieuwe configuraties naast elkaar bestaan, waardoor naadloze continuïteit wordt gegarandeerd. De andere opties zijn onjuist omdat onmiddellijk overschakelen het risico van instabiliteit van het netwerk met zich meebrengt, omdat gelijktijdig stemmen niet het gebruikte mechanisme is en omdat harde vorken juist zijn wat Dynafed wilde vermijden.

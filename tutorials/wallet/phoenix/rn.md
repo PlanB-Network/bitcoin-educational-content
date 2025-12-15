@@ -90,7 +90,7 @@ Ushobora kuyandika ku mpapuro canke, kugira ngo urushirizeho gutekana, ukayicapu
 Kugira ngo umenye vyinshi ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya Mnemonic, ndagusavye cane gukurikira iyi yindi nyigisho, cane cane nimba uri umutanguzi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Fyonda ku butumwa bugaragara hejuru ya Interface "*Bika Wallet yawe...*".
 
@@ -263,9 +263,9 @@ Urakoze cane, ubu urazi uko wotunganya no gukoresha Phoenix. Niwaba wabonye iyi 
 Kugira ngo utere ibintu intambwe imbere, raba iyi nyigisho kuri Alby Hub, uwundi muti mushasha kandi woroshe gukoresha wo gutanguza node yawe bwite ya Lightning:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Kandi kugira ngo umenye vyinshi ku bijanye n'ubuhinga bwa Lightning Network, urashobora kubona inyigisho nziza cane za Fanis Michalakis ku buntu ku Plan ₿ Network :
+Kandi kugira ngo umenye vyinshi ku bijanye n'ubuhinga bwa Lightning Network, urashobora kubona inyigisho nziza cane za Fanis Michalakis ku buntu ku Plan ₿ Academy :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -111,7 +111,7 @@ W tym samym menu ustawień można również zmienić język aplikacji i używan�
 Przed otrzymaniem pierwszych bitcoinów w Wallet, **Zalecam wykonanie testu odzyskiwania pustego konta**. Zanotuj informacje referencyjne, takie jak xpub lub pierwszy otrzymany Address, a następnie usuń Wallet w aplikacji Aqua, gdy jest jeszcze pusty. Następnie spróbuj przywrócić Wallet na Aqua przy użyciu papierowych kopii zapasowych. Sprawdź, czy informacje o plikach cookie wygenerowane po przywróceniu są zgodne z pierwotnie zapisanymi. Jeśli tak, możesz mieć pewność, że papierowe kopie zapasowe są niezawodne. Aby dowiedzieć się więcej o tym, jak przeprowadzić testowe odzyskiwanie, zapoznaj się z tym samouczkiem:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Nie widać tego na moim ekranie, ponieważ używam emulatora, ale w ustawieniach znajdziesz opcję zablokowania aplikacji za pomocą systemu uwierzytelniania biometrycznego. Zdecydowanie zalecam włączenie tej funkcji bezpieczeństwa, ponieważ bez niej każdy, kto ma dostęp do odblokowanego telefonu, może ukraść twoje bitcoiny. Możesz użyć Face ID na iOS lub odcisku palca na Androidzie. Jeśli te metody zawiodą podczas uwierzytelniania, nadal możesz uzyskać dostęp do aplikacji za pomocą kodu PIN telefonu.
 
@@ -284,4 +284,4 @@ Jeśli uznałeś ten poradnik za przydatny, będę wdzięczny za pozostawienie k
 Polecam również zapoznanie się z tym obszernym samouczkiem na temat aplikacji mobilnej Blockstream Green, która jest kolejnym interesującym rozwiązaniem do konfiguracji Liquid Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

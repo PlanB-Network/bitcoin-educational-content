@@ -6,13 +6,13 @@ description: Kuidas lisada uusi õppematerjale PlanB võrgustikku?
 
 PlanB missiooniks on pakkuda juhtivaid haridusressursse Bitcoin'i kohta võimalikult paljudes keeltes. Kõik saidil avaldatud sisu on avatud lähtekoodiga ja majutatud GitHub'is, mis võimaldab kõigil platvormi rikastamises osaleda.
 
-Lisaks õpetustele ja koolitustele pakub PlanB võrgustik ka laia valikut erinevat hariduslikku sisu Bitcoin'i kohta, mis on kõigile kättesaadav [BET (_Bitcoin Educational Toolkit_) sektsioonis](https://planb.network/resources/bet). See andmebaas sisaldab hariduslikke plakateid, meeme, humoorikaid propagandaplakateid, tehnilisi diagramme, logosid ja muid tööriistu kasutajatele. Selle algatuse eesmärk on toetada üksikisikuid ja kogukondi üle maailma Bitcoin'i õpetamisel, pakkudes neile vajalikke visuaalseid ressursse.
+Lisaks õpetustele ja koolitustele pakub PlanB võrgustik ka laia valikut erinevat hariduslikku sisu Bitcoin'i kohta, mis on kõigile kättesaadav [BET (_Bitcoin Educational Toolkit_) sektsioonis](https://planb.academy/resources/bet). See andmebaas sisaldab hariduslikke plakateid, meeme, humoorikaid propagandaplakateid, tehnilisi diagramme, logosid ja muid tööriistu kasutajatele. Selle algatuse eesmärk on toetada üksikisikuid ja kogukondi üle maailma Bitcoin'i õpetamisel, pakkudes neile vajalikke visuaalseid ressursse.
 
 Kas soovite osaleda selle andmebaasi rikastamises, kuid ei tea, kuidas? See õpetus on teile!
 
 *On hädavajalik, et kõik saidile integreeritud sisu oleks vaba õigustest või austaks lähtefaili litsentsi. Samuti on kõik PlanB võrgustikus avaldatud visuaalid kättesaadavad [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) litsentsi alusel.*
 ![sündmus](assets/01.webp)
-- Esiteks, teil peab olema konto GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Esiteks, teil peab olema konto GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Minge [PlanB-le pühendatud GitHubi repositooriumisse andmete jaoks](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` sektsioonis:
 ![sündmus](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
@@ -44,7 +44,7 @@ contributors:
 
 Siin on üksikasjad, mida iga välja jaoks täita:
 ```yaml
-project: Näita oma organisatsiooni identifikaatorit PlanB võrgustikus. Kui teie ettevõttel ei ole veel "project" identifikaatorit, saate selle luua [selle õpetuse järgi](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Kui teil seda veel ei ole, võite lihtsalt kasutada oma nime, pseudonüümi või ettevõtte nime ilma project profiili loomata.
+project: Näita oma organisatsiooni identifikaatorit PlanB võrgustikus. Kui teie ettevõttel ei ole veel "project" identifikaatorit, saate selle luua [selle õpetuse järgi](https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Kui teil seda veel ei ole, võite lihtsalt kasutada oma nime, pseudonüümi või ettevõtte nime ilma project profiili loomata.
 type: Valige oma sisu tüüp järgmiste kahe võimaluse hulgast:
 	- `Educational Content` haridusliku sisu jaoks.
 	- `Visual Content` muud tüüpi mitmekesise sisu jaoks.
@@ -67,7 +67,7 @@ contributors: Mainige oma kaastöötaja identifikaatorit, kui teil on üks.
 Näiteks võiks teie YAML fail välja näha selline:
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -101,7 +101,7 @@ links:
 - Klõpsake nupul `Commit changes...`: ![event](assets/22.webp)- Jätke commit'i pealkiri vaikimisi seadistusele ja veenduge, et `Commit directly to the patch-1 branch` kast on märgitud, seejärel klõpsake `Commit changes`: ![event](assets/23.webp)
 - Pöörduge tagasi `assets` kausta: ![event](assets/24.webp)
 - Klõpsake nupul `Add file`, seejärel `Upload files`: ![event](assets/25.webp)
-- Avaneb uus leht. Lohistage sisu esindav pisipilt alasse. See pilt kuvatakse PlanB Network saidil: ![event](assets/26.webp)
+- Avaneb uus leht. Lohistage sisu esindav pisipilt alasse. See pilt kuvatakse Plan ₿ Academy saidil: ![event](assets/26.webp)
 - See võib olla eelvaade, logo või ikoon: ![event](assets/27.webp)
 - Kui pilt on üles laaditud, veenduge, et `Commit directly to the patch-1 branch` kast on märgitud, seejärel klõpsake `Commit changes`: ![event](assets/28.webp)
 - Olge ettevaatlik, teie pilt peab olema nimetatud `logo` ja peab olema `.webp` formaadis. Täielik failinimi peaks seega olema: `logo.webp`: ![event](assets/29.webp)

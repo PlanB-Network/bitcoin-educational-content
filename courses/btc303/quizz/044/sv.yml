@@ -1,0 +1,9 @@
+question: Vad var det specifika problemet med BIP66 mjuk fork som Shaolinfry citerade som bevis mot gruvaktiverade mjukgafflar?
+answer: 95% av hashrate signalerade beredskap men ungefär hälften validerade faktiskt inte de uppgraderade reglerna och utvann på ett ogiltigt block
+wrong_answers:
+  - Gruvarbetare vägrade att signalera support trots överväldigande efterfrågan från användarna, vilket ledde till att uppgraderingen stannade av på obestämd tid
+  - En liten andel av gruvarbetarna lade in sitt veto mot uppgraderingen för hela nätverket trots majoritetsstöd från användarna
+  - Uppgraderingen orsakade en permanent kedjesplittring eftersom gruvarbetare och användare var oense om implementeringsdetaljerna
+explanation: |
+  BIP66-incidenten avslöjade ett kritiskt fel i mineraktiverade softforks: att signalera beredskap garanterar inte faktisk validering. Trots att 95 % av miners angav att de var redo för uppgraderingen validerade ungefär hälften inte de nya reglerna ordentligt och minade av misstag på ett ogiltigt block. Detta visade att hashkraftssignalering kan vara vilseledande och inte säkerställer korrekt implementering, vilket var ett av Shaolinfrys viktigaste argument för att föreslå användaraktiverade Soft-forkar som en mer tillförlitlig uppgraderingsmekanism.
+reviewed: false

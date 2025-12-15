@@ -94,13 +94,13 @@ Khi bạn hủy kích hoạt chế độ thử nghiệm, bạn phải cấu hìn
 
 
 
-Nếu bạn chưa sở hữu Bitcoin và/hoặc Lightning Wallet, chúng tôi khuyên bạn nên xem hướng dẫn về [ví di động] của chúng tôi (https://planb.network/tutorials/wallet).
+Nếu bạn chưa sở hữu Bitcoin và/hoặc Lightning Wallet, chúng tôi khuyên bạn nên xem hướng dẫn về [ví di động] của chúng tôi (https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **QUAN TRỌNG**: Khi cấu hình danh mục đầu tư của bạn, hãy chọn loại **BTC (On-Chain)** khi bạn nhận được số tiền lớn, ở mức hàng nghìn euro, để đảm bảo xác nhận đáng tin cậy trên Bitcoin và loại **LN Address** khi bạn muốn nhận các khoản thanh toán nhỏ ngay lập tức cho doanh nghiệp của mình.
 
@@ -435,4 +435,4 @@ Bạn đã nắm bắt tốt về Speed, hãy tích hợp Bitcoin vào doanh ngh
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

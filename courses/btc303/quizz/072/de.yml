@@ -1,0 +1,9 @@
+question: Was ist nach Gregory Maxwells Analyse der grundlegende Kompromiss, der die Nutzer in Bitcoin-Skalierungsdiskussionen zu vertrauenswürdigen Diensten zwingt?
+answer: Sowohl ein übermäßig hoher Ressourcenverbrauch, der die Prüfer aus dem Markt drängt, als auch ein übermäßig teurer Zugang zum Blockspace für die Streitbeilegung
+wrong_answers:
+  - Der Konflikt zwischen der Erhöhung des Transaktionsdurchsatzes und der Aufrechterhaltung einer angemessenen mining-Rentabilität bei unterschiedlichen Poolgrößen
+  - Das Spannungsverhältnis zwischen der Implementierung getrennter Zeugen-Upgrades und der Wahrung der Abwärtskompatibilität mit der alten wallet-Software
+  - Der Wettbewerb zwischen Zwei-Ebenen-Lösungen und on-chain-Skalierungsansätzen um begrenzte Entwicklungsressourcen und Unterstützung durch die Gemeinschaft
+explanation: |
+  Maxwell identifizierte ein zweiseitiges Problem, bei dem Bitcoin seine Vorteile in beide Richtungen verliert: Wenn die Ressourcennutzung im Verhältnis zur verfügbaren Technologie zu hoch ist, wird die Validierung zu kostspielig und verdrängt die Nutzer, die sich dann auf vertrauenswürdige Dritte verlassen müssen, anstatt selbst zu validieren. Umgekehrt wird der Zugriff auf die Blockchain zur Beilegung von Streitigkeiten unerschwinglich, wenn die Kapazität zu gering ist und die Transaktionsmethoden ineffizient sind, was wiederum die Nutzer zu vertrauenswürdigen Diensten drängt. Dies schafft ein empfindliches Gleichgewicht, das von Skalierungslösungen beherrscht werden muss.
+reviewed: false

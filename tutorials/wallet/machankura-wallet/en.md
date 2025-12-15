@@ -88,7 +88,7 @@ This step-by-step tutorial explains how to use Machankura, first on a basic phon
 ## Smartphone-free operation (via USSD)
 
 
-### Create your portfolio
+### Create your wallet
 
 
 For your first connection :
@@ -103,12 +103,12 @@ The system will ask you to create a 5-digit PIN code
 
 - Choose a secure PIN code (5 digits).
 - Confirm your PIN code.
-- Your Bitcoin portfolio is created instantly.
+- Your Bitcoin wallet is created instantly.
 
 
 This Bitcoin wallet is associated with your telephone number. The carefully chosen PIN code will encrypt your wallet and will also be used to confirm all your future transactions on Machankura.
 
-Once your portfolio has been created, you will access the main menu with the following options:
+Once your wallet has been created, you will access the main menu with the following options:
 
 
 1. Send bitcoins
@@ -173,7 +173,7 @@ However, you can choose a custom user name to replace the number (e.g. `Satoshi@
 Anyone with your Lightning address can send you bitcoins without knowing your phone number.
 
 
-#### Reloading your Machankura portfolio
+#### Reloading your Machankura wallet
 
 
 In addition to receiving bitcoins from another Lightning wallet, you can replenish your Machankura wallet with **Azteco** and **1Voucher** from the **Flash Group**.
@@ -258,7 +258,7 @@ You can watch the [video sending demo](https://www.linkedin.com/posts/activity-7
 Machankura isn't just a wallet. You can exchange your satoshis for goods and services (e.g. Bitrefill or Lightning Watts gift cards) directly from the app.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 You also have the "**Clan**" function, which allows you to manage a cooperative multi-signature system: clan members must approve each expense, and you can automatically distribute the funds among them.
 
@@ -275,7 +275,7 @@ There are two main reasons for this. The first step is to make the solution more
 The second, which is a logical extension of the first, is to be an inclusive and local solution, using an application that is widely used by Africans in their daily exchanges: WhatsApp.
 
 
-### Create your portfolio
+### Create your wallet
 
 
 To get started, you need to write a message to Machankura's WhatsApp bot (a simple "Hi" is more than enough). His WhatsApp number is [+27 73 762 5720](https://wa.me/+27737625720).
@@ -329,12 +329,12 @@ Machankura allows you to send your bitcoins via different options:
 - gW-16 address, via the Boltz service.
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura enables interoperability between different Lightning wallets. In this demonstration, we send bitcoins from our Machankura WhatsApp wallet to a Wallet of Satoshi wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 To send, please enter the number 1, corresponding to the "SEND BTC" option. Next, select the "Lightning address" sending option, then enter the address to which the bitcoins are to be sent. Finally, select the "Sats" value measure, indicate the number of satoshis to be sent and confirm the shipment.
 
@@ -414,7 +414,7 @@ After entering the amount in this unit of account, the system takes care of conv
 ![wallet](assets/fr/17.webp)
 
 
-Note that you can also obtain your On-Chain address on the web page linked to your portfolio.
+Note that you can also obtain your On-Chain address on the web page linked to your wallet.
 
 
 ![wallet](assets/fr/18.webp)
@@ -432,14 +432,14 @@ What's more, Machankura makes it possible for anyone wishing to send you bitcoin
 ![wallet](assets/fr/21.webp)
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Balance check
 
 
-You can view your Machankura portfolio balance by selecting option 3, which corresponds to the "Balance and history" option.
+You can view your Machankura wallet balance by selecting option 3, which corresponds to the "Balance and history" option.
 
 
 ![wallet](assets/fr/22.webp)

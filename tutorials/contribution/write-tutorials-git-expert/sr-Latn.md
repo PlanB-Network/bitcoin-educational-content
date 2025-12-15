@@ -1,6 +1,6 @@
 ---
 name: Doprinos - Git vodič (napredni)
-description: Vodič za napredne korisnike za pružanje tutorijala o Plan ₿ Network sa Git-om
+description: Vodič za napredne korisnike za pružanje tutorijala o Plan ₿ Academy sa Git-om
 ---
 ![cover](assets/cover.webp)
 
@@ -8,31 +8,31 @@ description: Vodič za napredne korisnike za pružanje tutorijala o Plan ₿ Net
 Pre nego što pratite ovaj vodič o dodavanju novog vodiča, potrebno je da završite nekoliko preliminarnih koraka. Ako to već niste učinili, molimo vas da prvo pogledate ovaj uvodni vodič, a zatim se vratite ovde:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Već imate:
 
 
 
 - Izaberite temu za vaš vodič;
-- Kontaktirao sam Plan ₿ Network tim putem [Telegram grupe](https://t.me/PlanBNetwork_ContentBuilder) ili paolo@planb.network ;
+- Kontaktirao sam Plan ₿ Academy tim putem [Telegram grupe](https://t.me/PlanBNetwork_ContentBuilder) ili paolo@planb.network ;
 - Izaberite svoje alate za doprinos.
 
 
-U ovom vodiču za iskusne korisnike Git-a, ukratko ćemo rezimirati ključne korake i osnovne smernice za ponudu novog Plan ₿ Network vodiča. Ako niste upoznati sa Git-om i GitHub-om, preporučujem da umesto toga pratite jedan od ova 2 detaljnija vodiča koji će vas voditi korak po korak:
+U ovom vodiču za iskusne korisnike Git-a, ukratko ćemo rezimirati ključne korake i osnovne smernice za ponudu novog Plan ₿ Academy vodiča. Ako niste upoznati sa Git-om i GitHub-om, preporučujem da umesto toga pratite jedan od ova 2 detaljnija vodiča koji će vas voditi korak po korak:
 
 
 
 - Srednji nivo (GitHub Desktop):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - Početnici (web Interface):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Predloženi alati
 
@@ -80,7 +80,7 @@ Da biste kreirali dijagrame i vizuale:
 
 
 
-- Morate imati svoj Fork iz [Plan ₿ Network repozitorijuma na GitHub-u](https://github.com/PlanB-Network/Bitcoin-educational-content).
+- Morate imati svoj Fork iz [Plan ₿ Academy repozitorijuma na GitHub-u](https://github.com/PlanB-Network/Bitcoin-educational-content).
 - Sinhronizujte glavnu granu (`dev`) vašeg Fork sa izvornim repozitorijumom.
 - Ažurirajte svoju lokalnu kloniranu verziju.
 
@@ -213,15 +213,15 @@ Evo potrebna polja:
 
 
 
-- **project_id**: UUID kompanije ili organizacije iza alata predstavljenog u tutorijalu [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate tutorijal o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećoj datoteci: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u YAML datoteku vašeg tutorijala jer Plan ₿ Network održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim tutorijalom, kreirate vezu između dva Elements;
+- **project_id**: UUID kompanije ili organizacije iza alata predstavljenog u tutorijalu [sa liste projekata](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na primer, ako kreirate tutorijal o Green Wallet softveru, možete pronaći ovaj `project_id` u sledećoj datoteci: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ova informacija se dodaje u YAML datoteku vašeg tutorijala jer Plan ₿ Academy održava bazu podataka svih kompanija i organizacija koje rade na Bitcoin ili povezanim projektima. Dodavanjem `project_id` entiteta povezanog sa vašim tutorijalom, kreirate vezu između dva Elements;
 
 
 
-- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [sa Plan ₿ Network liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagovi**: 2 ili 3 relevantne ključne reči povezane sa sadržajem tutorijala, isključivo odabrane [sa Plan ₿ Academy liste tagova](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **kategorija**: Podkategorija koja odgovara sadržaju tutorijala, prema strukturi sajta Plan ₿ Network (na primer, za novčanike: `desktop`, `hardware`, `mobile`, `backup`);
+- **kategorija**: Podkategorija koja odgovara sadržaju tutorijala, prema strukturi sajta Plan ₿ Academy (na primer, za novčanike: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
@@ -252,7 +252,7 @@ Evo potrebna polja:
 Za više detalja o vašem ID-u nastavnika, molimo vas da pogledate odgovarajući vodič:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -386,7 +386,7 @@ print("Hello, Bitcoin!")
     - Uverite se da su relevantni i visokog kvaliteta.
 - **Grafička povelja**:
     - Font: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Boje Plan ₿ Network:
+    - Boje Plan ₿ Academy:
         - Narandžasta: `#FF5C00`
         - Crna: `#000000`
         - Bela: `#FFFFFF`

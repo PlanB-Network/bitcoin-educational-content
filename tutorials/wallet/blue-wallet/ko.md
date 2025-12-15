@@ -11,11 +11,10 @@ Bitcoin의 사용 편의성에 회의적인 사람들에게는 Bitcoin를 시작
 
 
 
-이 튜토리얼에서는 [Multisig](https://planb.network/resources/glossary/multisig)를 기반으로 비트코인을 직접 관리하고 관리 협동조합을 만들 수 있는 간단하지만 매우 효과적인 Bitcoin Wallet인 블루 Wallet에 대해 살펴보겠습니다(다시 돌아올 테니 걱정하지 마세요).
+이 튜토리얼에서는 [Multisig](https://planb.academy/resources/glossary/multisig)를 기반으로 비트코인을 직접 관리하고 관리 협동조합을 만들 수 있는 간단하지만 매우 효과적인 Bitcoin Wallet인 블루 Wallet에 대해 살펴보겠습니다(다시 돌아올 테니 걱정하지 마세요).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Bitcoin의 사용 편의성에 회의적인 사람들에게는 Bitcoin를 시작
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Blue Wallet를 사용하면 별도의 전용 Bitcoin 포트폴리오를 만들 수 있습니다. 예를 들어, 하나의 애플리케이션에서 저축용 Wallet와 생활비용 Wallet를 모두 사용할 수 있습니다.
 
@@ -65,10 +64,10 @@ Phoenix 또는 Aqua와 같은 다른 Bitcoin 포트폴리오에 익숙하다면 
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 블루 Wallet의 Bitcoin Wallet는 Bitcoin 생태계의 표준 Wallet를 나타냅니다. 네트워크에서 유효한 서명을 제공하여 비트코인을 소유하고 있음을 인증할 수 있는 복구 단어를 보유하고 있는 한 비트코인을 사용할 수 있습니다.
 
@@ -122,7 +121,7 @@ Blue Wallet을 사용하면 Bitcoin 발송물의 매개변수를 원하는 대�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ P2WSH 형식을 선택하여 모범 사례를 유지하세요.
 
 
 
-**[P2WSH](https://planb.network/resources/glossary/p2wsh) 또는 증인 스크립트 Hash에 지불**은 거래의 나가는 비트코인(출력)을 Blue Wallet이 설정한 사용자 지정 스크립트의 Hash에 잠그는 잠금 방식입니다. 이러한 유형의 잠금의 주요 장점은 트랜잭션 데이터 크기를 줄이고 암묵적으로 더 낮은 트랜잭션 수수료를 지불할 수 있다는 것입니다.
+**[P2WSH](https://planb.academy/resources/glossary/p2wsh) 또는 증인 스크립트 Hash에 지불**은 거래의 나가는 비트코인(출력)을 Blue Wallet이 설정한 사용자 지정 스크립트의 Hash에 잠그는 잠금 방식입니다. 이러한 유형의 잠금의 주요 장점은 트랜잭션 데이터 크기를 줄이고 암묵적으로 더 낮은 트랜잭션 수수료를 지불할 수 있다는 것입니다.
 
 
 
@@ -264,7 +263,7 @@ Multisig Wallet 페이지에서 거래 내역과 받기 및 보내기 버튼을 
 
 
 
-두 번째 Wallet 서명자도 사용자라면 방금 생성한 [부분 서명 거래](https://planb.network/resources/glossary/psbt)의 QR 코드를 스캔하여 인터넷이 연결되지 않은 상태(Wi-Fi, 모바일 데이터가 없는 상태)에서도 거래에 서명할 수 있습니다.
+두 번째 Wallet 서명자도 사용자라면 방금 생성한 [부분 서명 거래](https://planb.academy/resources/glossary/psbt)의 QR 코드를 스캔하여 인터넷이 연결되지 않은 상태(Wi-Fi, 모바일 데이터가 없는 상태)에서도 거래에 서명할 수 있습니다.
 
 
 
@@ -330,12 +329,12 @@ Lightning Network은 더 이상 Blue Wallet 애플리케이션에서 기본적�
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 이제 블루 Wallet 투어를 완료하셨으며, Bitcoin의 간편함과 강력한 기능을 모두 사용할 준비가 되셨습니다. 다음 단계로 넘어가서 라이트닝의 강력한 기능으로 매장에서 Bitcoin 결제를 수락하는 방법을 알아보는 것이 좋습니다.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

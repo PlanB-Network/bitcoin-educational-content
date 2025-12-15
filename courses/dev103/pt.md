@@ -191,7 +191,7 @@ Os programas executam normalmente operações sobre dados.
 As variáveis são como caixas nomeadas que utilizamos para armazenar dados. Permitem-nos associar um dado a um nome específico, de modo a podermos recuperá-lo mais tarde utilizando esse nome.
 
 
-### declarações `let
+### declarações let
 
 
 Para declarar uma variável em JavaScript, podemos usar a palavra-chave `let`.
@@ -355,7 +355,7 @@ Bob
 Como pode ver, tanto `score` como `player` foram alterados.
 
 
-### declarações `const
+### declarações const
 
 
 Na maioria das vezes, porém, não queremos que uma variável mude depois de ser criada. Para isso, usamos `const`.
@@ -875,7 +875,7 @@ undefined
 O que é que é isso?
 
 
-### `undefined`
+### undefined
 
 
 O valor especial `undefined` significa "não foi atribuído qualquer valor".
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` e como tratá-lo
+### null e como tratá-lo
 
 
 `null` é também um valor especial. Significa "não há nada aqui, e eu fiz isso de propósito"
@@ -1190,7 +1190,7 @@ Porque utilizámos o operador `!` para inverter a variável `adulto`.
 Utilizando blocos, operadores lógicos e de comparação, podemos estruturar a execução do programa, definindo variáveis que devem ser "verdadeiras" (ou "falsas") para que algo aconteça.
 
 
-### `while`, `break`, `continue`
+### while, break, continue
 
 
 Um loop `while` repete o código *enquanto* uma condição for verdadeira.
@@ -1282,7 +1282,7 @@ Isto imprime:
 Porque quando o número era `3`, `continue` fazia o programa saltar a linha que imprimia o número.
 
 
-### `para ... de ...`
+### para ... de ...
 
 
 Se você tem um array, e quer fazer algo para cada item nele, você pode usar `for ... of ... {...}`.
@@ -1312,7 +1312,7 @@ O bloco será executado uma vez para cada elemento da matriz.
 `fruit` aqui é uma nova variável que recebe o valor de cada item do array, para operar sobre ele dentro do bloco.
 
 
-### `para ... em ...`
+### para ... em ...
 
 
 É possível utilizar `for ... in` para percorrer as chaves (índices) de um array:
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (saída de funções)
+### return (saída de funções)
 
 
 As funções também podem **retornar** valores. Isto significa que enviam um valor de volta para o local onde a função foi chamada.
@@ -1749,7 +1749,7 @@ O JavaScript é frequentemente designado como uma linguagem orientada para objec
 Isto significa que o ajuda a organizar o seu código agrupando valores e funções em **objectos**.
 
 
-### O que é um `objeto` ?
+### O que é um objeto ?
 
 
 Um objeto pode conter dados e funções que operam sobre esses dados. Quando uma função é colocada num objeto, dizemos que é um `método`.
@@ -2252,7 +2252,7 @@ O JavaScript permite-lhe remodelar objectos livremente, mas quando utiliza class
 
 
 
-### Herança com `extends` e `super()`
+### Herança com extends e super()
 
 
 Por vezes, é necessário criar uma classe que é *quase* igual a outra classe, mas com algumas caraterísticas extra.
@@ -2374,7 +2374,7 @@ Para resumir
 Isto é útil quando se tem várias coisas semelhantes (como carros, camiões e bicicletas) e se pretende que partilhem o código, mas que se comportem à sua maneira.
 
 
-### `instância de`
+### instância de
 
 
 A palavra-chave `instanceof` verifica se um objeto foi criado a partir de uma determinada classe.
@@ -2439,7 +2439,7 @@ Ambas as linhas retornam `verdadeiro`. Isso porque `Admin` é uma subclasse de `
 Se não tratarmos estes erros corretamente, o nosso programa pode falhar ou comportar-se de formas imprevisíveis. O JavaScript fornece ferramentas para detetar e gerir estes erros, para que os possamos tratar de forma mais graciosa.
 
 
-### Erro comum: aceder a um valor em `undefined`
+### Erro comum: aceder a um valor em undefined
 
 
 Eis uma situação comum que provoca um erro:
@@ -2462,7 +2462,7 @@ TypeError: Cannot read properties of undefined (reading 'name')
 Isso é o JavaScript dizendo a você: "Ei, você tentou obter a propriedade `name` de algo que está `undefined`, e isso não faz sentido" E, como você pode ver, quando esse tipo de erro acontece, o programa pára de funcionar, a menos que você tenha escrito um código específico para capturá-lo e tratá-lo.
 
 
-### `jogar` um erro
+### jogar um erro
 
 
 Às vezes você quer manualmente **levantar um erro** no seu código. Nesse caso, usa-se a palavra-chave `throw`.
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 A segunda chamada causa um erro porque a divisão por zero não é permitida neste exemplo.
 
 
-### Captura de erros com `try...catch`
+### Captura de erros com try...catch
 
 
 Se você não quer que seu programa falhe quando um erro ocorre, você pode pegar o erro usando um bloco `try...catch`. Isso é útil quando você quer que seu programa **continuar** mesmo que algo falhe.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### O bloco `finally
+### O bloco finally
 
 
 Você também pode adicionar um bloco `finally`. Este é o código que **sempre é executado**, quer tenha havido um erro ou não.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Este capítulo mostra algumas das armadilhas mais comuns em JavaScript e como evitá-las.
 
 
-### `var` e Assignment sem declaração
+### var e Assignment sem declaração
 
 
 Em código JavaScript antigo, variáveis eram frequentemente declaradas utilizando a palavra-chave `var`. Ao contrário de `let` e `const`, que você já aprendeu, `var` pode se comportar de maneiras confusas.
@@ -2650,7 +2650,7 @@ Nestes exemplos, o JavaScript tenta adivinhar o que o utilizador quis dizer. Por
 É importante estar ciente do fraco sistema de tipagem do JavaScript. Quando as coisas começam a agir de forma estranha, pode ser devido a uma coerção de tipo inesperada.
 
 
-### `"use strict"`
+### "use strict"
 
 
 Pode ativar um modo mais rigoroso que transforma alguns erros silenciosos em erros reais e impede-o de utilizar algumas das caraterísticas mais perigosas da linguagem.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 O valor padrão `"friend"` é usado quando nada é passado.
 
 
-### Parâmetros de propagação (`...`)
+### Parâmetros de propagação (...)
 
 
 E se a sua função receber um número flexível de argumentos?
@@ -3030,7 +3030,7 @@ A função `makeGreeter` é uma função que constrói outras funções. Ela rec
 Este tipo de padrão é muito poderoso, pois permite-lhe deixar "buracos" nas suas funções que pode preencher mais tarde com o comportamento de que necessita.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 O JavaScript fornece-lhe alguns métodos incorporados úteis para utilizar com arrays.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 As propriedades privadas são úteis quando se pretende evitar alterações acidentais.
 
 
-### propriedades `estáticas
+### propriedades estáticas
 
 
 Algumas vezes, você quer que uma propriedade pertença à própria classe, e não a cada objeto que você criar a partir dessa classe. É para isso que serve o `static`. Uma propriedade `static` está contida na classe e todos os objetos dessa classe farão referência a ela.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Isto é útil para armazenar dados e métodos partilhados que se aplicam a todo o grupo de objectos e não apenas a um.
 
 
-### `get` e `set`
+### get e set
 
 
 Em JavaScript, `get` e `set` permitem criar propriedades que *parecem* variáveis normais, mas na verdade executam código especial em segundo plano.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Isto é chamado de **propriedade computada**. O valor dentro dos parêntesis rectos é avaliado e o resultado é utilizado como a chave.
 
 
-### tipo `Symbol
+### tipo Symbol
 
 
 Além das strings, o JavaScript também permite utilizar um tipo especial chamado `Symbol` como uma chave de objeto.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Útil para alguns testes de desempenho simples.
 
 
-### O objeto `Math
+### O objeto Math
 
 
 O JavaScript fornece um objeto `Math` com métodos úteis para fazer cálculos.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Os mapas são óptimos para gerir grandes colecções de valores, uma vez que o acesso a valores num mapa de grandes dimensões proporciona normalmente um desempenho muito melhor do que num objeto de grandes dimensões.
 
 
-### `Set`
+### Set
 
 
 Um `Conjunto` é uma coleção de **valores apenas** (sem chaves), em que cada valor deve ser **único**. Isso significa que:
@@ -3770,7 +3770,7 @@ A maioria das coisas em JavaScript sobre as quais se pode fazer um loop (como ar
 Um **iterador** é um objeto especial em JavaScript que o ajuda a percorrer uma lista de itens **um de cada vez**.
 
 
-### iteradores `Object`
+### iteradores Object
 
 
 Ao contrário de arrays ou mapas, objectos regulares **não são iteráveis** com `for...of`. Se você tentar isso:
@@ -3892,7 +3892,7 @@ Mesmo que os objectos não sejam diretamente iteráveis, estes métodos dão-lhe
 Mas como é que os iteradores funcionam?
 
 
-### `Symbol.iterator`
+### Symbol.iterator
 
 
 O segredo por trás de todos os iteráveis é um **símbolo** especial chamado `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Cada chamada a `.next()` fornece o próximo valor. Quando ele termina, ele retor
 ```
 
 
-### `próximo()`
+### próximo()
 
 
 O método `.next()` é utilizado para obter o próximo item da sequência.
@@ -4046,7 +4046,7 @@ Eis o que está a acontecer:
 Agora nossa classe `Range` funciona como um array, e podemos usá-la em qualquer loop que espere um iterável.
 
 
-### Funções geradoras e `yield`
+### Funções geradoras e yield
 
 
 Para facilitar a criação de iteradores, o JavaScript oferece **funções geradoras**, usando a palavra-chave `function*` (é `function` com um `*` no final) e a palavra-chave `yield`.
@@ -4105,7 +4105,7 @@ Até agora, nosso código tem sido **síncrono**: ele executa uma linha de cada 
 Neste capítulo, vamos introduzir um novo conceito: **concurrency**. Ele nos permite manipular a ordem em que as coisas são feitas. Isto é útil quando se lida com coisas como temporizadores, entrada do utilizador ou leitura de ficheiros do disco. O JavaScript oferece diferentes ferramentas para fazer concorrência.
 
 
-### `setTimeout`
+### setTimeout
 
 
 A função `setTimeout` permite-lhe **executar uma função mais tarde**, após algum tempo.
@@ -4253,7 +4253,7 @@ No seu interior, atribuímos-lhe uma função com dois parâmetros:
 No exemplo acima, resolvemos o problema imediatamente com a mensagem `"Funcionou!"`.
 
 
-### `.then()`
+### .then()
 
 
 Para fazer algo **depois** que a promessa é feita, usamos `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `rejeitar()`
+### rejeitar()
 
 
 Vamos criar uma promessa que **falha**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Operações de encadeamento utilizando `Promise`s
+### Operações de encadeamento utilizando Promises
 
 
 
@@ -4551,7 +4551,7 @@ Vamos ver o que isto faz:
 Cada `.then()` espera que o passo anterior termine. Assim, podemos construir uma **cadeia de ações** sem aninhamento. Isso torna o código mais legível e mais fácil de depurar.
 
 
-## Concorrência com `async`/`await`
+## Concorrência com async/await
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Vimos como as cadeias `Promise` nos ajudam a evitar o inferno do callback, mas e
 É aí que entram `async` e `await`. Eles permitem-nos escrever código assíncrono **que se parece com código síncrono**, o que o torna mais fácil de entender.
 
 
-### O que é `async`?
+### O que é async?
 
 
 Quando você escreve a palavra-chave `async` antes de uma função, o JavaScript automaticamente envolve o valor de retorno da função em uma Promise.
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Ou pode utilizar `await`...
 
 
-### O que é `await`?
+### O que é await?
 
 
 A palavra-chave `await` diz ao JavaScript: "espere até que esta Promessa seja feita, e então me dê o resultado"
@@ -4638,7 +4638,7 @@ Agora podemos utilizar o resultado como se fosse um valor normal.
 Vamos fazer algo um pouco mais útil agora.
 
 
-### Simulando um atraso com `await`
+### Simulando um atraso com await
 
 
 Vamos criar uma função `wait` simples que recebe uma quantidade de milissegundos como argumento e só resolve depois desse número de milissegundos, sem fazer mais nada:
@@ -4881,7 +4881,7 @@ Os iteradores assíncronos são úteis quando:
 Por exemplo, se quiser carregar mensagens de um servidor de chat uma a uma, ou descarregar um ficheiro grande em pedaços, os iteradores assíncronos dão-lhe uma forma de escrever um ciclo `for` que funciona com dados atrasados.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Também podemos utilizar iteradores assíncronos em classes personalizadas.
@@ -5287,7 +5287,7 @@ O NodeJS permite-nos, entre outras coisas, construir CLIs (Command Line Interfac
 Para isso precisamos de uma forma de receber argumentos da linha de comando, o que no Node é feito usando o objeto `process` embutido.
 
 
-### `processo`
+### processo
 
 
 O NodeJS fornece um objeto especial chamado `process` que representa o programa atual em execução.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 Isto imprime a plataforma do sistema operativo, como `win32`, `linux`, ou `darwin` (Mac).
 
 
-### `process.argv`
+### process.argv
 
 
 Quando você executa um programa NodeJS a partir do terminal, você pode passar palavras extras (argumentos) após o nome do script. Estes são armazenados em `process.argv`.
@@ -5493,7 +5493,7 @@ Não é preciso instalar esses módulos embutidos, eles vêm com o NodeJS. Eles 
 Os próximos capítulos mostrar-lhe-ão alguns exemplos úteis da sua utilização.
 
 
-## O módulo `fs
+## O módulo fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `package.json`
+### package.json
 
 
 O arquivo `package.json` é apenas um arquivo JSON que armazena metadados sobre seu projeto.
@@ -5960,7 +5960,7 @@ O que é que a NPM fez?
 O que é `package-lock.json` ?
 
 
-### `package-lock.json`
+### package-lock.json
 
 
 Este ficheiro é criado automaticamente pelo NPM.
@@ -6023,7 +6023,7 @@ O NodeJS é frequentemente utilizado como uma linguagem para backend: pode trans
 Neste capítulo, vamos apresentar algumas funcionalidades básicas de rede que lhe permitirão fazer isso.
 
 
-### `fetch()`
+### fetch()
 
 
 Se quiser que o seu programa descarregue dados de um sítio Web ou de uma API, tem de fazer um pedido **HTTP**.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Por isso, certifique-se de que a cadeia de caracteres está corretamente formatada.
 
 
-### servidor `http
+### servidor http
 
 
 O NodeJS permite-lhe criar um servidor Web sem instalar mais nada.

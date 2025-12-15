@@ -4,7 +4,7 @@ description: Miten voit osallistua planb.network staattisten elementtien käänt
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Network tehtävänä on tarjota ensiluokkaisia koulutusresursseja Bitcoinista ja kääntää ne mahdollisimman monelle kielelle. Suuri osa sivustolla julkaistusta sisällöstä on avoimen lähdekoodin ja GitHubissa isännöityä, jolloin kuka tahansa voi osallistua alustan rikastuttamiseen. Osallistuminen voi tapahtua eri muodoissa: olemassa olevan sisällön korjaaminen ja oikolukeminen, tietojen päivittäminen tai uusien opetusohjelmien luominen alustalle lisättäväksi.
+Plan ₿ Academy tehtävänä on tarjota ensiluokkaisia koulutusresursseja Bitcoinista ja kääntää ne mahdollisimman monelle kielelle. Suuri osa sivustolla julkaistusta sisällöstä on avoimen lähdekoodin ja GitHubissa isännöityä, jolloin kuka tahansa voi osallistua alustan rikastuttamiseen. Osallistuminen voi tapahtua eri muodoissa: olemassa olevan sisällön korjaaminen ja oikolukeminen, tietojen päivittäminen tai uusien opetusohjelmien luominen alustalle lisättäväksi.
 
 Tässä opetusohjelmassa näytämme sinulle, miten voit helposti osallistua sivustomme staattisten elementtien kääntämiseen. Alustan tiedot on jaettu kahteen pääluokkaan:
 
@@ -14,16 +14,16 @@ Tässä opetusohjelmassa näytämme sinulle, miten voit helposti osallistua sivu
 
 Koulutussisällön kääntämiseen käytämme [tekoälyä] (https://github.com/Asi0Flammeus/LLM-Translator). Tämän jälkeen pyydämme oikolukijoita osallistumaan tiedostojen mahdollisten virheiden korjaamiseen. Jos haluat oikolukea jotakin sisältöä, tutustu seuraavaan ohjeeseen:
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Toisaalta, jos olet kiinnostunut kääntämään verkkosivuston staattisia elementtejä (lukuun ottamatta opetussisältöä), olet oikeassa paikassa! Etusivun tehokkaaseen kääntämiseen käytämme Weblate-työkalua, joka on erittäin helppokäyttöinen ja helpottaa kääntämistä.
 
-Jos haluat lisätä kokonaan uuden kielen Plan ₿ Network, ota yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder). Jos sinulla ei ole telegramia, voit lähettää sähköpostia osoitteeseen mari@planb.network. Muista kirjoittaa pieni esittely siitä, kuka olet ja mitä kieliä puhut.
+Jos haluat lisätä kokonaan uuden kielen Plan ₿ Academy, ota yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder). Jos sinulla ei ole telegramia, voit lähettää sähköpostia osoitteeseen mari@planb.network. Muista kirjoittaa pieni esittely siitä, kuka olet ja mitä kieliä puhut.
 
 Tiimimme jäsenet antavat sinulle tarkat ohjeet ja avaavat Githubiin asiaan liittyvät "ongelmat", jotta voit koordinoida työtäsi.
 
 Ennen kuin seuraat tätä erityistä ohjetta uuden kielen lisäämiseksi Weblateen.
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Kun olet valmis aloittamaan kääntämisen, palaa tähän ohjeeseen ja käy läpi seuraavat kohdat.
 
 ## Rekisteröidy Weblatessa
@@ -59,7 +59,7 @@ Kun olet valmis aloittamaan kääntämisen, palaa tähän ohjeeseen ja käy läp
 ![weblate](assets/06.webp)
 
 
-- Voit nyt palata Plan ₿ Network -mittaristoon:
+- Voit nyt palata Plan ₿ Academy -mittaristoon:
 
 ![weblate](assets/07.webp)
 
@@ -144,7 +144,7 @@ Kun olet valmis aloittamaan kääntämisen, palaa tähän ohjeeseen ja käy läp
 
 
 - Kun löydät sanoja, jotka on sijoitettu sulkeisiin "{", sinun ei tarvitse kääntää niitä. Esimerkiksi lauseessa "Tilisi on luotu, {{käyttäjänimi}}!" käännät koko lauseen, mutta säilytät sanan "käyttäjätunnus" englanniksi.
-- Kun löydät merkkijonosta "Plan ₿ Network", varmista, ettet käännä sanaa "network" (pidä Plan ₿ Networkia tavaramerkkinä). Käytä sitä paitsi aina Bitcoinin ₿!
+- Kun löydät merkkijonosta "Plan ₿ Academy", varmista, ettet käännä sanaa "network" (pidä Plan ₿ Networkia tavaramerkkinä). Käytä sitä paitsi aina Bitcoinin ₿!
 - Jos löydät sanan "verkko" yksin, voit kääntää sen sen sijaan.
 - Älä käännä "B-CERT", koska se on toinen kiinteä sana.
 - Jos löydät merkkijonoja, jotka päättyvät välilyöntiin, voit jättää sen pois.

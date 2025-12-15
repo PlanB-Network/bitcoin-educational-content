@@ -710,7 +710,7 @@ Ihuriro rya Tor ni ngombwa nimba ushaka gushika ku nzira yawe hanze y'urubuga rw
 Kubindi bisobanuro kuri porogaramu ya Sparrow wallet, turafise inyigisho yuzuye :
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Iciyumviro
 
 

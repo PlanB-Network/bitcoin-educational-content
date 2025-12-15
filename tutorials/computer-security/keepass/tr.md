@@ -24,7 +24,7 @@ Parola yöneticisi güçlü parolalar oluşturup bunları güvenli bir şekilde 
 
 Bu eğitimde, çevrimiçi güvenliğinizi artırmak için yerel bir parola yöneticisinin nasıl kurulacağını ve kullanılacağını öğreneceğiz. Burada size KeePass'ı tanıtacağım. Ancak, yeni başlayan biriyseniz ve birden fazla cihaz arasında senkronize olabilen bir çevrimiçi parola yöneticisine sahip olmak istiyorsanız, Bitwarden hakkındaki eğitimimizi takip etmenizi öneririm:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 

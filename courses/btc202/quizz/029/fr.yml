@@ -5,5 +5,5 @@ wrong_answers:
   - Il supprime les anciens blocs après vérification
   - Il dépend d’un autre nœud pour valider les transactions
 explanation: |
-  Le nœud complet conserve l’intégralité de la blockchain et valide chaque bloc et chaque transaction de manière indépendante.
-reviewed: false
+  Le nœud complet conserve l’intégralité de la blockchain et valide chaque bloc ainsi que chaque transaction de manière indépendante.
+reviewed: true 

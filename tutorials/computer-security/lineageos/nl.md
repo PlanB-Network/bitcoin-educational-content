@@ -738,4 +738,4 @@ LineageOS biedt een volwassen alternatief om de controle over je Android-smartph
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

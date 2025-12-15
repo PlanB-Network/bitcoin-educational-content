@@ -1,11 +1,9 @@
-question: Czym jest Lightning Network?
-answer: Sieć płatności, która wykorzystuje protokół Bitcoin, aby umożliwić błyskawiczne transakcje.
+question: Która z tych operacji w Lightning jest rejestrowana onchain?
+answer: Otwarcie kanału
 wrong_answers:
-  - Nowy rodzaj kryptowaluty.
-  - Nowa technologia Blockchain, która w przyszłości zastąpi Bitcoin.
-  - Metoda dla Mining Bitcoin.
+  - Płatność pośrednia
+  - Aktualizacja stanu
+  - Routing wieloskokowy
 explanation: |
-  Lightning Network to sieć płatności wykorzystująca protokół
-  Bitcoin, aby umożliwić szybkie transakcje. Nie jest to
-  oddzielną kryptowalutą ani metodą dla Mining Bitcoin.
-reviewed: true
+  Tylko otwarcie i zamknięcie kanału Lightning odpowiadają transakcjom Bitcoin publikowanym w blockchainie.
+reviewed: false

@@ -14,7 +14,7 @@ description: Peach kullanımı ve bitcoin alışverişi için eksiksiz kılavuz 
 KYC içermeyen eşler arası (P2P) borsalar, kullanıcıların gizliliğini ve finansal özerkliğini korumak için çok önemlidir. Kimlik doğrulamasına ihtiyaç duymadan bireyler arasında doğrudan işlem yapılmasını sağlarlar ki bu da gizliliğe önem verenler için çok önemlidir. Teorik kavramları daha derinlemesine anlamak için BTC204 kursuna bir göz atın:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Şeftali nedir?
 
@@ -47,7 +47,7 @@ Bir hatırlatma olarak, Hash, şifrelemeye benzer şekilde tanınmaz hale getiri
 *Hashing hakkında daha fazla bilgi için bu kursu takip edebilirsiniz:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Ödeme bilgilerimi kim görebilir?**
 

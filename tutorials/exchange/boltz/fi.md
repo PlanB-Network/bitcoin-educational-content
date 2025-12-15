@@ -54,7 +54,7 @@ Tällä tavoin säilytät bitcoinisi pysyvästi itse, eikä Exchange perustu luo
 
 
 
-Atominen Exchange toimii älykkäiden sopimusten [HTLC](https://planb.network/resources/glossary/htlc) kanssa (*Hashed Timelock Contract*). Tämäntyyppisessä Contract:ssä summa "lukitaan" kaksisuuntaiseen kanavaan ja otetaan käyttöön aikarajoitus, jolloin jos transaktiota ei saada päätökseen tietyn ajan kuluessa, saldo palautuu tallettajalle. Tätä mekanismia käytetään Boltz-alustalla.
+Atominen Exchange toimii älykkäiden sopimusten [HTLC](https://planb.academy/resources/glossary/htlc) kanssa (*Hashed Timelock Contract*). Tämäntyyppisessä Contract:ssä summa "lukitaan" kaksisuuntaiseen kanavaan ja otetaan käyttöön aikarajoitus, jolloin jos transaktiota ei saada päätökseen tietyn ajan kuluessa, saldo palautuu tallettajalle. Tätä mekanismia käytetään Boltz-alustalla.
 
 
 
@@ -116,9 +116,9 @@ Kun olet saanut peruskonfiguraatiot valmiiksi, lisää atomisen Exchange:n mää
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ Napsauta sitten **Luo atomic Exchange** -painiketta ja jatka ilmoitetun summan m
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Kun maksusi on suoritettu ja vahvistettu, saat automaattisesti vastaavan summan Lightning Wallet:een.
 
@@ -188,6 +188,6 @@ Boltz tarjoaa sinulle korkean tason luottamuksellisuutta, koska se on saatavilla
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Nyt tunnet jo Boltzin, ainutlaatuisen Exchange-alustan, joka mahdollistaa yhteentoimivuuden Bitcoin-ekosysteemin eri kerrosten välillä.

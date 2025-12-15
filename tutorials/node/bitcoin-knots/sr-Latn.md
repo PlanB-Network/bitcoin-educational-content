@@ -28,7 +28,7 @@ Postoje dva glavna razloga za korišćenje alternativnog klijenta kao što je Kn
 
 
 
-- **Tehnički**: Ovi klijenti često nude različite opcije u odnosu na Core, posebno u smislu upravljanja [Mempool-om](https://planb.network/resources/glossary/mempool), određujući koje transakcije prihvata i emituje vaš čvor.
+- **Tehnički**: Ovi klijenti često nude različite opcije u odnosu na Core, posebno u smislu upravljanja [Mempool-om](https://planb.academy/resources/glossary/mempool), određujući koje transakcije prihvata i emituje vaš čvor.
 - **Policy**: Neki ljudi preferiraju korišćenje alternativnih klijenata kao što je Knots iz netehničkih razloga, posebno da bi podržali alternativu Core-u i tako smanjili njegov monopol. Ako bi Core ikada bio kompromitovan, bilo bi korisno ne samo imati solidne, dobro održavane alternativne klijente, već i znati kako ih koristiti. Drugi koriste Knots iz protesta, jer su izgubili poverenje u Core-ove programere ili ne odobravaju način na koji se upravlja većinskim, Core klijentom.
 
 
@@ -44,7 +44,7 @@ Idite na [zvaničnu Bitcoin Knots veb stranicu](https://bitcoinknots.org/#downlo
 Pre nego što instalirate softver na svoj uređaj, preporučujemo da proverite njegovu autentičnost i integritet. Ako ne znate kako, pogledajte ovaj drugi vodič:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Kada je softver verifikovan, instalirajte ga prateći korake navedene u instalacionom panelu.
 
 
@@ -155,7 +155,7 @@ Konačno, kartica "*Display*" odnosi se na parametre koji se tiču grafičkog in
 ## Kreiranje Bitcoin novčanika
 
 
-Kada je početna sinhronizacija završena, vaš Bitcoin Knots čvor je potpuno funkcionalan. Sada imate opciju povezivanja ovog čvora sa drugim softverima novčanika, ili korišćenja ugrađenog [Hot Wallet, vrućeg novčanika](https://planb.network/resources/glossary/hot-wallet--software-wallet) direktno. Da biste to uradili, kliknite na dugme "*Create a new Wallet*".
+Kada je početna sinhronizacija završena, vaš Bitcoin Knots čvor je potpuno funkcionalan. Sada imate opciju povezivanja ovog čvora sa drugim softverima novčanika, ili korišćenja ugrađenog [Hot Wallet, vrućeg novčanika](https://planb.academy/resources/glossary/hot-wallet--software-wallet) direktno. Da biste to uradili, kliknite na dugme "*Create a new Wallet*".
 
 
 ![Image](assets/fr/16.webp)
@@ -170,7 +170,7 @@ Dajte svom novčaniku ime. Takođe ga možete zaštititi sa passphrase-om BIP39 
 passphrase BIP39 je opcionalna lozinka koju možete slobodno izabrati, pored vaše Mnemonic fraze (fraze za oporavak novčanika), kako biste povećali sigurnost vašeg novčanika. Pre nego što konfigurišete ovu funkciju, snažno vam savetujemo da pročitate sledeći članak, koji detaljno objašnjava kako passphrase funkcioniše u teoriji, i kako izbeći greške koje bi mogle dovesti do trajnog gubitka vaših bitkoina:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Ako ste aktivirali passphrase opciju, izaberite robusnu i pažljivo je sačuvajte na jednom ili više sigurnih fizičkih medija.
 
 
@@ -404,4 +404,4 @@ Ako ste našli ovaj vodič korisnim, bio bih veoma zahvalan ako biste klinuli na
 Takođe preporučujem ovaj drugi vodič u kojem objašnjavam kako da postavite svoj sopstveni Lightning čvor:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

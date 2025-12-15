@@ -11,7 +11,7 @@ BIP39 passphrase ni nenosiri la hiari ambalo, likiunganishwa na maneno yako ya M
 Kabla ya kuanza mafunzo haya, ikiwa hujui dhana ya passphrase, jinsi inavyofanya kazi, na athari zake kwa Bitcoin Wallet yako, ninapendekeza sana kushauriana na makala hii nyingine ya kinadharia ambapo ninaelezea kila kitu:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Je, passphrase inafanya kazi vipi kwenye Ledger?
 
@@ -41,14 +41,14 @@ Katika somo hili, nitatumia Ledger Flex kama mfano. Walakini, ikiwa unatumia mfa
 **Tahadhari:** Ikiwa tayari umepokea bitcoins kwenye Ledger yako kabla ya kuwezesha passphrase, utahitaji kuzihamisha kupitia muamala wa Bitcoin. passphrase inazalisha seti ya funguo mpya, hivyo kuunda Wallet ambayo ni huru kabisa na Wallet yako ya awali. Wakati wa kuongeza passphrase, utakuwa na Wallet mpya ambayo itakuwa tupu. Walakini, hii haifuti Wallet yako ya kwanza bila passphrase. Bado unaweza kuipata, moja kwa moja kupitia Ledger yako bila kuingiza passphrase au kupitia programu nyingine ukitumia kifungu chako cha maneno 24.
 
 
-Kabla ya kuanza mafunzo haya, hakikisha kuwa tayari umeanzisha Ledger yako na kuunda maneno yako ya Mnemonic. Ikiwa sivyo hivyo na Ledger yako ni mpya, fuata mafunzo mahususi ya muundo wako unaopatikana kwenye PlanB Network. Mara tu hatua hii imekamilika, unaweza kurudi kwenye mafunzo haya.
+Kabla ya kuanza mafunzo haya, hakikisha kuwa tayari umeanzisha Ledger yako na kuunda maneno yako ya Mnemonic. Ikiwa sivyo hivyo na Ledger yako ni mpya, fuata mafunzo mahususi ya muundo wako unaopatikana kwenye Plan ₿ Academy. Mara tu hatua hii imekamilika, unaweza kurudi kwenye mafunzo haya.
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
 ## Jinsi ya kuanzisha passphrase ya muda na Ledger?
 
@@ -274,4 +274,4 @@ Hongera, Bitcoin Wallet yako sasa imelindwa na passphrase! Ikiwa umepata mafunzo
 Pia ninapendekeza uangalie mafunzo haya mengine kamili ya jinsi ya kutumia Ledger Flex yako:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

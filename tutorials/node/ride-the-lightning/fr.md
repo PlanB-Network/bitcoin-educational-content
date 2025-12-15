@@ -325,7 +325,7 @@ N'exposez jamais RTL directement sur Internet. Privilégiez :
 - **Tor** pour un accès anonyme et sécurisé
 - **Reverse proxy HTTPS** (Nginx/Caddy) uniquement si vous maîtrisez la configuration
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Bonnes pratiques de sécurité
 
@@ -353,8 +353,8 @@ Pour aller plus loin :
 
 En résumé, RTL vous donne le contrôle total sur votre nœud Lightning, dans une interface moderne et complète.
 
-**Sources :** RTL official website; RTL GitHub; Umbrel App Store; Umbrel Community; Plan B Network resources.
+**Sources :** RTL official website; RTL GitHub; Umbrel App Store; Umbrel Community; Plan ₿ Academy resources.
 
 Pour approfondir votre compréhension du fonctionnement du Lightning Network, je vous recommande également de suivre ce cours gratuit :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

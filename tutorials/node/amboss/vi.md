@@ -11,7 +11,7 @@ Lightning Network là phiên bản Layer của giao thức Bitcoin, được ph�
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Cũng như trên chuỗi chính, việc cho phép người dùng biết thông tin và trạng thái của mạng lưới là điều cần thiết để tạo điều kiện thuận lợi cho việc kết nối giữa các nút và giảm thiểu vấn đề thanh khoản thường phát sinh trong mạng lưới. Trên thực tế, trên Lightning Network, chúng tôi khuyến nghị các khoản thanh toán nhỏ với số tiền tương đối nhỏ hơn so với các giao dịch trên chuỗi chính Bitcoin.
 
@@ -34,7 +34,7 @@ Giống như [Mempool Space](https://Mempool.space), cung cấp thông tin hữu
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Trong hướng dẫn này, chúng tôi sẽ đưa bạn tham quan nền tảng này, đây là tài nguyên thiết yếu cho người dùng Lightning Network, những người muốn kết nối nút của mình để mở rộng mạng, v.v.
 
@@ -57,7 +57,7 @@ Một trong những mục tiêu của nền tảng Amboss là cho phép các nú
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 Trên trang chủ, bạn cũng sẽ tìm thấy các nút được phân loại theo:
 
@@ -147,7 +147,7 @@ Trong phần **Kênh**, bạn sẽ thấy danh sách các kênh đang mở và k
 
 - Tỷ lệ đầu vào**: Số tiền mà nút sẽ tính phí cho bạn cho mỗi triệu Satoshi mà nó nhận được, tùy thuộc vào kênh được chọn.
 - Tỷ lệ (phần triệu)**: biểu thị số Satoshi trên một triệu đơn vị mà nút sẽ tính phí khi bạn quyết định thanh toán qua một trong các kênh của nó. Giả sử bạn quyết định thanh toán `10_000 Sats` qua một kênh có tỷ lệ ppm là `500 Sats`, bạn sẽ phải trả cho nút `10_000 * 500 / 1_000_000` satoshi, tương đương với `5 Sats`.
-- [HTLC](https://planb.network/resources/glossary/HTLC) tối đa**: Số lượng tối đa mà nút này cho phép bạn chuyển qua một trong các kênh này.
+- [HTLC](https://planb.academy/resources/glossary/htlc) tối đa**: Số lượng tối đa mà nút này cho phép bạn chuyển qua một trong các kênh này.
 
 
 
@@ -304,4 +304,4 @@ Bạn đã khám phá đầy đủ các tính năng và công cụ phân tích c
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

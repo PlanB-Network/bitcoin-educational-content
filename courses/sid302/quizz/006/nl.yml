@@ -1,0 +1,8 @@
+question: Welke cryptografische techniek gebruikt Elements om transactiebedragen te verbergen en toch netwerkvalidatie mogelijk te maken?
+answer: Pedersen Verplichtingen
+wrong_answers:
+  - Merkle Tree Hashing
+  - Elliptische Curve-handtekeningen
+  - SHA-256-codering
+explanation: |
+  Pedersen Commitments zijn de specifieke cryptografische techniek die gebruikt wordt in Elements' Confidential Transactions om transactiebedragen te verbergen. Deze commitments vervangen zichtbare bedragen door cryptografische commitments die nog steeds wiskundig geverifieerd kunnen worden door validators zonder de werkelijke waarden te onthullen. Merkle Tree Hashing wordt gebruikt voor het organiseren van transactiegegevens in blokken, Elliptic Curve Signatures worden gebruikt voor transactieautorisatie en SHA-256 is een hashingalgoritme, maar geen van deze technieken verbergt transactiebedragen met behoud van validatiemogelijkheden zoals Pedersen Commitments dat doen.

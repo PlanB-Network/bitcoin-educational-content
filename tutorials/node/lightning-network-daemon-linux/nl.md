@@ -34,7 +34,7 @@ Met andere woorden, met deze implementatie kun je :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Waarom een eigen Lightning-knooppunt?
 
@@ -64,7 +64,7 @@ In die zin verhoogt het draaien van een Lightning-node de veiligheid en integrit
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Er zijn twee opties om een instantie van de LND implementatie op onze machine te draaien. We kunnen de omgeving opzetten op onze eigen machine om lokaal te draaien, of LND installeren vanuit een Docker container. We concentreren ons hier op de eerste optie en zullen in een latere tutorial bekijken hoe we Docker kunnen gebruiken.
@@ -665,4 +665,4 @@ Je bent aan het einde gekomen van deze tutorial. Als je meer wilt leren over Lig
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

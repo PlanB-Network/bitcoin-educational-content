@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   L'efficacité de la transaction est calculée en soustrayant l'entropie maximale à l'entropie réelle de la transaction analysée.
 
-reviewed: false
+reviewed: true 

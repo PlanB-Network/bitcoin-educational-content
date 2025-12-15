@@ -98,7 +98,7 @@ Assets_에서 릴리스(이 예제에서는 1.67.apk)를 SHA256SUMS 파일 및 S
 Sparrow wallet 가이드에서 이 Software Wallet을 다운로드할 수 있습니다
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 그런 다음 컴퓨터에서 휴대폰으로 '.apk' 파일을 전송할 수 있습니다
 
@@ -276,7 +276,7 @@ Mnemonic를 올바르게 작성했다면 _계속_ 버튼이 작동합니다. 계
 
 
 
-이 단계가 끝나면 Mnemonic 문구에 [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39)을 추가할지 여부를 묻는 메시지가 표시됩니다. passphrase의 사용 방법, 백업 준비 또는 작동 방식에 대해 잘 모르는 경우 _암호 문구 필요 없음_을 선택하는 것이 좋습니다.
+이 단계가 끝나면 Mnemonic 문구에 [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39)을 추가할지 여부를 묻는 메시지가 표시됩니다. passphrase의 사용 방법, 백업 준비 또는 작동 방식에 대해 잘 모르는 경우 _암호 문구 필요 없음_을 선택하는 것이 좋습니다.
 
 
 
@@ -394,7 +394,7 @@ Wallet가 생성되었으며 [.BSMS](https://github.com/Bitcoin/BIPs/blob/master
 
 
 - 오른쪽 상단의 렌즈 아이콘을 사용하면 거래를 검색할 수 있습니다;
-- 'Wallet 구성 보기'를 클릭하면 오른쪽 상단의 고급 옵션(스크린샷을 찍을 수 없음)을 활성화하고 Wallet의 이름을 편집할 수 있는 구성 메뉴에 액세스할 수 있습니다. 여기에서 Wallet 구성, 레이블, 키 바꾸기, [간격 제한](https://planb.network/en/resources/glossary/gap-limit) 변경 등을 내보낼 수 있습니다.
+- 'Wallet 구성 보기'를 클릭하면 오른쪽 상단의 고급 옵션(스크린샷을 찍을 수 없음)을 활성화하고 Wallet의 이름을 편집할 수 있는 구성 메뉴에 액세스할 수 있습니다. 여기에서 Wallet 구성, 레이블, 키 바꾸기, [간격 제한](https://planb.academy/en/resources/glossary/gap-limit) 변경 등을 내보낼 수 있습니다.
 
 
 

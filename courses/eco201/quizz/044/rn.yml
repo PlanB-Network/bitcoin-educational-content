@@ -1,11 +1,10 @@
-question: Ni uruhara uruhe rw’abanyamigambi n’abanyamigabane mu bukungu bw’abanyagihugu nk’uko Mises abivuga?
-answer: Bagabanya umutungo mu nganda zitandukanye, gutyo bagahingura ibiciro bikora nk’ibikoresho mu biharuro vy’ubutunzi vy’abarongozi.
+question: Ni uruhara uruhe rw’abanyamigambi(abitunganiriza imigambi) n’abanyamitahe mu butunzi bw’abanyagihugu nk’uko Mises abivuga?
+answer: Bashira imitahe mu nganda(amahinguriro) zitandukanye, hama bashinga ibiciro bikora nk’ishimikiro mu biharuro vy’ubutunzi abajejwe guharura ubutunzi bagenderako.
 wrong_answers:
   - Ni bo bajejwe kurema akazi gashasha.
-  - Ni bo bajejwe kwongerera ubutunzi bw’igihugu.
-  - Ni bo bajejwe kugenzura Supply y’amahera mu bukungu.
+  - Ni bo bajejwe kwogwiza ubutunzi bw’igihugu.
+  - Ni bo bajejwe kugenzura itangwa ry’amahera mu butunzi.
 explanation: |
-  Mises yashimikiye akamaro k’abanyamigambi n’abanyamigabane,
-  abo, nk’abafise uburyo bwo gukora, bagatanga umutungo mu nganda zitandukanye,
-  gutyo bikaba bihingura ibiciro bikora nk’ibintu vy’injiza mu biharuro vy’ubutunzi vy’abarongozi.
-reviewed: true
+  Mises yashimikiye akamaro k’abanyamigambi n’abanyamitahe,
+  abo, nk’abafise uburyo bwo gukora, bagatanga  mu nganda zitandukanye,
+  hama bashinga ibiciro bikora nk’ishimikiro mu biharuro vy’ubutunzi abajejwe guharura ubutunzi bagenderako

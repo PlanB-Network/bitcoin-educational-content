@@ -22,7 +22,7 @@ Innymi słowy, zaleca się przechowywanie plików w 3 różnych lokalizacjach, p
 Aby łatwo wdrożyć tę strategię tworzenia kopii zapasowych 3-2-1, możesz zdecydować się na rozwiązanie do przechowywania danych online, automatycznie lub okresowo synchronizując pliki z komputera z plikami w chmurze. Wśród tych rozwiązań do tworzenia kopii zapasowych online są oczywiście te od dużych firm cyfrowych, które znasz: Google Drive, Microsoft OneDrive czy Apple iCloud. Nie są to jednak najlepsze rozwiązania do ochrony prywatności. W poprzednim poradniku przedstawiłem alternatywę, która szyfruje dokumenty dla lepszej poufności: Proton Drive.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Przyjmując tę strategię tworzenia kopii zapasowych lokalnie i w chmurze, korzystasz już z dwóch różnych typów nośników dla swoich danych, z których jeden znajduje się poza siedzibą firmy. Aby uzupełnić strategię 3-2-1, wystarczy dodać dodatkową kopię. Radzę po prostu okresowo eksportować dane obecne lokalnie i w chmurze na nośnik fizyczny, taki jak pamięć USB lub zewnętrzny dysk Hard. W ten sposób, nawet jeśli serwery rozwiązania do przechowywania danych online zostaną zniszczone, a komputer ulegnie awarii, nadal będziesz mieć trzecią kopię na nośniku zewnętrznym, aby nie stracić danych.
 
@@ -151,7 +151,7 @@ Radzę również zapisać hasło w menedżerze haseł. Ułatwia to dostęp do ha
 Aby uzyskać więcej informacji na temat zarządzania hasłami, radzę zapoznać się z tym innym kompletnym samouczkiem:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Wprowadź hasło w 2 wyznaczonych polach, a następnie kliknij "*Next*". ![VeraCrypt](assets/notext/25.webp)
 

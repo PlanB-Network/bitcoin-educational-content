@@ -8,7 +8,7 @@ description: 如何使用 Bitrefill 用 BTC 購買商品和服務？
 雖然 Bitcoin 如今主要被視為一種儲蓄手段，但它仍然是一種貨幣，其效用在於它能夠在手與手之間流通。如果您周圍的商家接受 Bitcoin 作為付款方式，您可以選擇直接在他們那裡消費。不幸的是，這種做法還不普遍，大多數商戶還沒有原生接受 BTC。
 
 
-最好的解決方案仍然是向當地商家 「介紹 」Bitcoin 的優點，讓他們接受 Bitcoin。您可以使用我們網站上 [「*商家*」](https://planb.network/tutorials/merchant) 區塊中的教程作為支援。此策略對小型獨立商家很有效，但對大型全國性連鎖店來說則較為複雜，因為現場的聯絡人通常不是決定付款方式的人。
+最好的解決方案仍然是向當地商家 「介紹 」Bitcoin 的優點，讓他們接受 Bitcoin。您可以使用我們網站上 [「*商家*」](https://planb.academy/tutorials/merchant) 區塊中的教程作為支援。此策略對小型獨立商家很有效，但對大型全國性連鎖店來說則較為複雜，因為現場的聯絡人通常不是決定付款方式的人。
 
 
 在等待這些鏈更大規模採用的同時，您可以使用中介支付方式：禮品卡來花費您的比特幣。而這正是 Bitrefill 為您提供的服務。
@@ -46,9 +46,9 @@ Bitrefill 非常容易使用。要開立帳戶，您只需提供電子郵件 Add
 如果您想學習如何輕鬆建立安全的電子郵件信箱，以及如何管理您的密碼，我建議您參考這 2 個其他教學：
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 然後按一下「*建立帳戶*」按鈕。
 
@@ -85,7 +85,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 若要進一步瞭解如何使用雙因素驗證來保護您的線上帳戶，我建議您參考這份教學：
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## 如何在 Bitrefill 上以 BTC 購買禮物卡？
 
@@ -158,4 +158,4 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 如果您希望為 Bitcoin 的普及做出貢獻，並鼓勵獨立商家採用這種支付方式，我建議您參考我們關於 Swiss Bitcoin Pay 的完整教程。它是 BTC 支付處理器的多合一解決方案，易於安裝和日常管理：
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

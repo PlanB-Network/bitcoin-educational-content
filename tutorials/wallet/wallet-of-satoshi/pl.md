@@ -12,7 +12,7 @@ _Ten poradnik został napisany przez_ [Bitcoin Campus](https://linktr.ee/bitcoin
 
 Wallet z Satoshi to Lightning Network Wallet, opiekuńczy i bardzo prosty w użyciu.
 
-Na potrzeby kursu [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) jest on używany do kuponów Redeem Lightning Network.
+Na potrzeby kursu [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) jest on używany do kuponów Redeem Lightning Network.
 
 
 **Zawsze pamiętaj**: _nie klucze, nie monety_

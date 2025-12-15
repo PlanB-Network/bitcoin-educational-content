@@ -1,0 +1,9 @@
+question: Jaka jest główna konsekwencja, gdy pull requesty Bitcoin Core trwają bardzo długo zanim zostaną scalone z repozytorium przez opiekunów?
+answer: Wskazuje to na brak recenzentów dostępnych do oceny proponowanych zmian w kodeksie
+wrong_answers:
+  - "Pokazuje to, że opiekunowie celowo spowalniają proces rozwoju Bitcoin"
+  - "Pokazuje, że proponowane zmiany są zasadniczo niezgodne z zasadami konsensusu Bitcoin"
+  - "Ujawnia to, że platforma GitHub ma techniczne ograniczenia w obsłudze bazy kodu Bitcoin"
+explanation: |
+  Zgodnie z treścią rozdziału, scalanie pull requestów zajmuje dużo czasu głównie z powodu braku recenzji, co wynika z niewystarczającej liczby recenzentów, a nie przeszkód ze strony opiekunów lub kwestii technicznych. Proces recenzji ma kluczowe znaczenie dla bezpieczeństwa Bitcoin, ponieważ zapewnia jakość kodu i zapobiega złośliwym zmianom. To wąskie gardło istnieje, ponieważ przeglądanie złożonego kodu kryptograficznego wymaga specjalistycznej wiedzy i czasu, co sprawia, że wykwalifikowani recenzenci są rzadkim zasobem w procesie rozwoju.
+reviewed: false

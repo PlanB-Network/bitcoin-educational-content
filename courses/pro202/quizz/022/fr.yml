@@ -1,0 +1,8 @@
+question: Quelle est la limite fondamentale du modèle UTXO qui doit être traitée de manière spécifique lors de l'utilisation du modèle Bitcoin ?
+answer: Les UTXO doivent être dépensées en totalité et ne peuvent être consommées partiellement
+wrong_answers:
+  - Les UTXO ne peuvent être dépensés qu'une seule fois par bloc afin d'éviter les doubles dépenses
+  - Les UTXO doivent être dépensées dans l'ordre chronologique de leur création
+  - Pour être valables, les UTXO doivent comporter plusieurs signatures provenant de clés différentes
+explanation: |
+  Le modèle UTXO comporte une contrainte fondamentale selon laquelle les sorties de transaction non dépensées doivent être entièrement consommées - il n'y a pas de mécanisme de dépense partielle. Lorsque vous avez besoin de dépenser moins que le montant total de la UTXO, vous devez créer une transaction qui dépense la totalité de la UTXO et inclut une sortie de modification vers vous-même pour le reste. Les autres options décrivent des limitations inexistantes : Les UTXO peuvent être dépensées plusieurs fois par bloc (UTXO différentes), ne nécessitent pas d'ordre chronologique et n'ont généralement besoin que d'une seule signature valide, à moins qu'elles ne soient spécifiquement conçues comme des signatures multiples.

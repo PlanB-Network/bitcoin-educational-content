@@ -193,7 +193,7 @@ CLI sangat bermanfaat pada server tanpa tampilan grafis dan untuk penulisan scri
 
 Umbrel adalah platform self-hosting yang populer (terutama digunakan untuk node Bitcoin/Lightning dan layanan self-host lainnya, melalui App Store-nya). Untuk menginstal dan mengkonfigurasi Umbrel, kami merekomendasikan Anda mengikuti tutorial khusus kami:
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Menggunakan Umbrel dan Tailscale secara bersamaan merupakan kasus penggunaan yang sangat menarik, mengingat Umbrel secara native mengintegrasikan modul Tailscale yang mudah diterapkan. Berikut adalah bagaimana Tailscale berintegrasi dengan Umbrel dan manfaat yang diberikannya:
 
@@ -259,7 +259,7 @@ Tailscale juga memungkinkan dompet Bitcoin dan Lightning Anda yang terpasang di 
 
 Baca panduan lengkap kami untuk mengonfigurasi Sparrow wallet dengan node Bitcoin Anda:
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 - **Zeus (Lightning)**: Dompet seluler Lightning ini dapat terhubung ke node Lightning Anda di Umbrel. Daripada mengonfigurasi endpoint sebagai `.onion', cukup atur IP Tailscale Umbrel Anda dan port API Lightning. Koneksi akan instan dibandingkan dengan Tor.
 
@@ -269,11 +269,11 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 Untuk mengonfigurasi Zeus dengan node Lightning Anda, lihat tutorial terperinci kami:
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Untuk mengetahui lebih lanjut mengenai Lightning Network dan cara kerjanya pada Umbrel, kunjungi:
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ### 4.3 Keunggulan dibandingkan Tor
 

@@ -22,7 +22,7 @@ In diesem Tutorial zeigen wir Ihnen, wie Sie Kraken als Einzelperson nutzen kön
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Erstellen Sie ein Kraken-Konto
 
@@ -164,7 +164,7 @@ Es werden Ihnen dann zwei 2FA-Optionen angeboten, entweder "passkey", mit der Si
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Nachdem Sie die Methode gewählt haben, die Ihnen am besten gefällt, können Sie endlich Geld einzahlen, um Ihre ersten Satoshis zu kaufen.
 
@@ -329,7 +329,7 @@ Wenn Sie sich für den Lightning Network interessieren, bieten wir Ihnen auch ei
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

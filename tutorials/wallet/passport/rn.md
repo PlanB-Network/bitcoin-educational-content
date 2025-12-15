@@ -32,7 +32,7 @@ Kugira ngo ushobore gucunga Wallet yawe itekanye kuri Passport, urafise uburyo b
 Nimba uri umutanguzi, uburyo bworoshe ni ugukoresha Passport yawe n’iporogarama ya Envoy y’akavukire, yateguwe na Foundation. Kugira umenye ingene ukoresha Envoy na Passport yawe, raba iyi yindi nyigisho :
 
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Gufungura pasiporo
 
@@ -203,7 +203,7 @@ Kugira ngo ubikore, nukoreshe ikarata MicroSD iri mu gasandugu kawe ka Passport 
 Imbere y’uko uyishira ku gikoresho cawe, turaguhanura cane ko wobanza kugenzura neza ko iyo porogarama yashizwe kuri interineti ari iyo ukuri be n’uko ataco ihinduye. Niba ukeneye gufashwa muri ivyo, raba iyi nyigisho :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Uhejeje gusuzuma dosiye `.bin`, uyishire kuri MicroSD yawe, hanyuma uyishire muri Passport. Igikoresho co gutohoza dosiye ya Pasiporo kizofunguka. Hitamwo dosiye `vN.N.N-pasiporo.bin`.
 
@@ -301,7 +301,7 @@ Fyonda kuri buto yo kwemeza kugira ngo ubone ijambo ryawe rya Mnemonic.
 Kugira ngo umenye vyinshi ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya Mnemonic, ndagusavye cane gukurikira iyi yindi nyigisho, cane cane nimba uri umutanguzi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 n’ukuri, ntushobora kwigera usangira aya majambo kuri internet, nk’uko ndiko ndabikora muri iyi nyigisho. Ico kigereranyo ca Wallet kizokoreshwa gusa kuri Testnet kandi kizokurwaho ku mpera y’inyigisho.
 
@@ -430,7 +430,7 @@ Imbere yo kubandanya, niwabishaka, urashobora kwongerako BIP39 passphrase. BIP39
 Imbere yo gutunganya iyo nzira kuri Passport yawe, birakenewe cane ko usoma iyi ngingo kugira ngo utahure neza ingene passphrase ikora kandi wirinde amakosa yoshobora gutuma utakaza amafaranga yawe y’ibiceri:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Kugira ngo uyikoreshe, genda kuri "*Ibindi*" hanyuma ukande kuri "*Injira passphrase*".
 
@@ -462,7 +462,7 @@ Igihe cose ufunguye, umaze kwandika passphrase, urabe kuri iki gicapo co kwemeza
 Imbere y’uko uronka ama bitcoins yawe ya mbere kuri Wallet yawe, **Ndaguhanura cane gukora ikigeragezo co gusubirana ubusa**. Ushire ahabona amakuru amwe amwe y’ishingiro, nka xpub yawe canke ubanza kwakira Address, hanyuma usibe Wallet yawe kuri Passport igihe ikiri ubusa (`Ivyagezwe -> Ivyiza -> Gukuraho Passport`). Hanyuma ugerageze gusubizaho Wallet yawe ukoresheje impapuro zawe z'amajambo Mnemonic na passphrase iyo ari yo yose. Suzuma ko amakuru y’ibifungurwa vyasohowe inyuma yo gusubizaho ahuye n’ayo wanditse mu ntango. Nivyashika, urashobora kwizigira yuko amakete yawe y’impapuro ari ay’ukwizigirwa. Kugira ngo umenye vyinshi ku buryo bwo gukora ikigeragezo co gukira, usabwe kuraba iyi yindi nyigisho :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -482,7 +482,7 @@ Tangana n’ugukura no gushiramwo Sparrow wallet [ku rubuga rwemewe](https://spa
 Raba neza ko iyo porogarama ari iyo ukuri be n’uko itagiramwo ubutungane imbere y’uko uyishiramwo. Niba utazi uko wobikora, urashobora kuraba iyi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow wallet imaze gufunguka, ukande kuri "*Dosiye*", hanyuma ukande kuri "*Wallet nshasha*".
 
@@ -712,4 +712,4 @@ Urakoze cane, ubu urazi uko wotunganya no gukoresha Passport. Niwaba wabonye ko 
 Ushaka kumenya vyinshi, raba inyigisho yacu kuri porogarama ya Liana:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

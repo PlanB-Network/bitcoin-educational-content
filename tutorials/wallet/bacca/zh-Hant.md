@@ -137,11 +137,11 @@ cargo run -p ledger_manager_gui
 在您開始之前，如果您的 Ledger 是新的，請確認您已設定 PIN 碼並儲存復原短語。這些初始步驟不需要 Ledger Live。只要透過 USB 傳輸線連接 Ledger 供電即可。如果您不確定如何進行這兩個步驟，您可以參考您機型的特定教學開頭：
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## 使用 Bacca
 
@@ -197,4 +197,4 @@ Bacca 隨後會通知您 Ledger 是否為真品。如果不是正品，則表示
 我也建議您看看這篇 GnuPG 的教學，其中說明了如何在安裝軟體之前檢查軟體的完整性與真實性。這是很重要的做法，尤其是在安裝 Wallet 管理軟體，例如 Liana 或 Sparrow ：
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

@@ -44,13 +44,13 @@ Je kunt Aurora Store ook downloaden vanuit andere applicatiewinkels zoals F-Droi
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 We raden echter aan om het APK-bestand rechtstreeks van de officiële website te downloaden om de authenticiteit en integriteit van Aurora Store te garanderen.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Een APK-bestand (Android Package Kit) is het pakketformaat dat door het Android-besturingssysteem wordt gebruikt om applicaties te distribueren en te installeren. Het is het equivalent van **.exe** bestanden op Windows of **.dmg** bestanden op macOS.
 
@@ -155,4 +155,4 @@ Aurora Store is meer dan alleen een applicatiewinkel, het is een open source opl
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

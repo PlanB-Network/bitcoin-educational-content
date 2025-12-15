@@ -4,7 +4,7 @@ description: 如何参与 planb.network 上静态元素的翻译？
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Network 的使命是提供一流的比特币教育资源，并将其翻译成尽可能多的语言。网站上发布的大部分内容都是开源的，并托管在 GitHub 上，任何人都可以参与丰富该平台。贡献的形式多种多样：纠正和校对现有内容、更新信息或创建新的教程添加到平台上。
+Plan ₿ Academy 的使命是提供一流的比特币教育资源，并将其翻译成尽可能多的语言。网站上发布的大部分内容都是开源的，并托管在 GitHub 上，任何人都可以参与丰富该平台。贡献的形式多种多样：纠正和校对现有内容、更新信息或创建新的教程添加到平台上。
 
 在本教程中，我们将向您展示如何轻松帮助翻译网站上的静态元素。平台上的数据分为两大类：
 
@@ -14,22 +14,22 @@ Plan ₿ Network 的使命是提供一流的比特币教育资源，并将其翻
 
 为了翻译教育内容，我们使用了[人工智能](https://github.com/Asi0Flammeus/LLM-Translator)。然后，为了纠正这些文件中可能出现的错误，我们邀请校对人员提供帮助。如果您想校对某些内容，请参考以下教程：
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 另一方面，如果您有兴趣翻译网站的静态元素（不包括教育内容），那您就找对地方了！为了有效地翻译前端内容，我们使用了 Weblate 工具，该工具使用起来非常简单，而且便于翻译。
 
-如果您希望在 Plan ₿ Network 中添加一种全新的语言，请务必通过我们的 [Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder) 联系 Plan ₿ Network 团队。如果您没有电报，可以发送电子邮件至 mari@planb.network。请务必撰写一份小简介，介绍您的身份和您所使用的语言。
+如果您希望在 Plan ₿ Academy 中添加一种全新的语言，请务必通过我们的 [Telegram 群组](https://t.me/PlanBNetwork_ContentBuilder) 联系 Plan ₿ Academy 团队。如果您没有电报，可以发送电子邮件至 mari@planb.network。请务必撰写一份小简介，介绍您的身份和您所使用的语言。
 
 我们的团队成员将为您提供具体指导，并在 Github 上开启相关 "问题"，以协调您的工作。
 
 在按照本教程在 Weblate 上添加新语言之前，请先阅读本教程。
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 当您准备好开始翻译时，请返回本教程并阅读以下要点。
 
 ## 在 Weblate 上注册
 
 
-- 访问 [Plan ₿ Network 的自办 Weblate](https://weblate.planb.network/)：
+- 访问 [Plan ₿ Academy 的自办 Weblate](https://weblate.planb.network/)：
 
 ![weblate](assets/01.webp)
 
@@ -144,7 +144,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 
 
 - 当您发现插入大括号"{"内的单词时，您不需要翻译它们。例如，在 "您的账户已创建，{{userName}}!"中，您将翻译整个句子，但保留英文中的 "username"。
-- 当你在一个字符串中找到 "Plan ₿ Network "时，一定不要翻译 "network "这个单词（将 Plan ₿ Network 视为商标）。此外，一定要使用比特币的₿！
+- 当你在一个字符串中找到 "Plan ₿ Academy "时，一定不要翻译 "network "这个单词（将 Plan ₿ Academy 视为商标）。此外，一定要使用比特币的₿！
 - 如果您发现只有 "网络 "一词，您可以将其翻译为 "网络"。
 - 不要翻译 "B-CERT"，因为这是另一个固定的单词。
 - 如果发现字符串以空格结尾，可以不填。
@@ -157,5 +157,5 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 
 ![weblate](assets/23.webp)
 
-感谢您对 Plan ₿ Network 翻译工作的贡献！如果您有任何具体问题或意见，请随时通过 [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) 联系我们。
+感谢您对 Plan ₿ Academy 翻译工作的贡献！如果您有任何具体问题或意见，请随时通过 [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) 联系我们。
 

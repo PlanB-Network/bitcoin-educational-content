@@ -32,12 +32,12 @@ Uzupełnij wymagane informacje: wprowadź swój adres e-mail Address i kraj zami
 Wskazówki dotyczące używania i zabezpieczania silnych, unikalnych haseł można znaleźć również w tym samouczku :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Teraz skonfigurujemy 2FA, aby zabezpieczyć konto. Użyj aplikacji uwierzytelniającej na smartfonie, takiej jak na przykład Google Authenticator lub Authy. Samouczek dotyczący tego narzędzia znajdziesz tutaj :
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Zeskanuj kod QR za pomocą aplikacji i wprowadź 6 podanych cyfr.
 
@@ -245,9 +245,9 @@ Bitfinex oferuje również opcje wpłat i wypłat za pośrednictwem Lightning Ne
 Jeśli jesteś zainteresowany Lightning Network, mamy również kompletny kurs szkoleniowy, który pomoże Ci zrozumieć, jak to działa:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Po zakupie swoich pierwszych bitcoinów masz oczywiście możliwość pozostawienia ich na platformie, ale zdecydowanie zalecam przeniesienie ich do własnego Wallet na własny rachunek. Jeśli nie wiesz jeszcze, jak korzystać z Bitcoin Wallet, zapraszam do zapoznania się z [sekcją "Wallet" na Plan ₿ Network](https://planb.network/tutorials/wallet).
+Po zakupie swoich pierwszych bitcoinów masz oczywiście możliwość pozostawienia ich na platformie, ale zdecydowanie zalecam przeniesienie ich do własnego Wallet na własny rachunek. Jeśli nie wiesz jeszcze, jak korzystać z Bitcoin Wallet, zapraszam do zapoznania się z [sekcją "Wallet" na Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 
 ## 6 - Kupno i sprzedaż bitcoinów na Bitfinex

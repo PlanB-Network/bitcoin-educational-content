@@ -1,0 +1,9 @@
+question: Кои са трите опции за сървър, налични в Sparrow?
+answer: Публичен сървър, ядро Bitcoin, частен Electrum
+wrong_answers:
+  - RPC Директно, VPN, Tor
+  - Full node, лек възел, мобилен възел
+  - Core RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow предлага три варианта за избор на сървър: Публичен сървър, Bitcoin Core (RPC) и частен Electrum.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Co zajišťuje, že obě strany v křížovém swapu buď úspěšně dokončí transakci, nebo obě selžou, aniž by přišly o finanční prostředky?
+answer: V obou sítích se používá stejný hashovací zámek, který vytváří kryptografickou vazbu mezi výměnnými částmi
+wrong_answers:
+  - Časové zámky brání kterékoli straně v uplatnění nároku na finanční prostředky, dokud obě sítě transakce nepotvrdí
+  - Agregace klíčů MuSig2 vyžaduje, aby obě strany před přesunem prostředků spolupodepsaly
+  - "Cesta skriptu Taproot automaticky změní směr transakcí, pokud se jedna síť nedokončí."
+explanation: |
+  Atomická povaha výměn mezi vrstvami spočívá v použití identických zámků hash v obou sítích. Když příjemce odhalí tajný předobraz, aby si nárokoval prostředky na jedné vrstvě, stejné tajemství se stane viditelným a použitelným pro odesílatele, aby si nárokoval reciproční prostředky na druhé vrstvě. Tato kryptografická vazba zajišťuje atomicitu - buď obě strany získají své prostředky, nebo je nezíská žádná z nich, což eliminuje riziko protistrany při výměnách bez důvěry.

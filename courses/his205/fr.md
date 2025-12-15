@@ -20,7 +20,7 @@ Ce cours captivant vous emmènera explorer l'évolution fascinante de la monnaie
 
 ## Introduction à l'Histoire de la monnaie
 <chapterId>ca53597e-be9a-5261-a55f-11fac8504a68</chapterId>
-![video](https://www.youtube.com/watch?v=jFK1ha2ALYE)
+:::video id=08ff35ca-8a40-4286-abaf-71283faf6e78:::
 
 
 Bienvenue dans ce cours consacré à l'histoire de la monnaie. Évidemment, comme son titre l'indique, nous allons explorer ensemble l'évolution historique des monnaies. Nous traverserons les époques, du Néolithique jusqu'à nos jours, en abordant les principaux empires et grandes civilisations que l'humanité a connus.
@@ -63,7 +63,7 @@ Merci et bon visionnement !
 
 ## De l'Australopithèque à l'Homme Moderne
 <chapterId>34a773aa-f2d3-5c26-8be4-f2cd79ed6fbc</chapterId>
-![video](https://www.youtube.com/watch?v=PQylNCGF3nA)
+:::video id=4f333013-4b2a-42ab-8761-593fafc971ca:::
 
 ### Pourquoi commencer au Néolithique
 
@@ -122,7 +122,7 @@ Donc, voilà ce survol historique pour nous donner une perspective de l'appariti
 
 ## Des Chasseurs-Cueilleurs aux Agriculteurs : L'Aube de la Civilisation
 <chapterId>ea950b6e-9eb7-553d-8f04-0eb042bb1f5a</chapterId>
-![video](https://www.youtube.com/watch?v=y6KPqmcv6os)
+:::video id=4b49a376-f6f4-42a0-86fa-264997a079f0:::
 
 ### La transition vers l'agriculture et la sédentarisation
 
@@ -155,7 +155,7 @@ Une autre théorie propose que les villages eux-mêmes ont créé le problème r
 
 ## Les échanges au néolithique
 <chapterId>8e495224-6d55-58f6-a9dc-ac2814281cfa</chapterId>
-![video](https://www.youtube.com/watch?v=e_HIT0QWF8A)
+:::video id=d04245af-e416-48b1-8157-d569207a32c4:::
 
 ### La Transition Paléolithique-Néolithique 
 
@@ -201,7 +201,7 @@ Le néolithique établit ainsi les bases de l'économie moderne : spécialisatio
 ## La formation des premières cités et l'émergence de l'écriture
 <chapterId>d6b799c2-8bf1-11f0-9c54-1b9f4f4c7011</chapterId>
 
-![video](https://www.youtube.com/watch?v=rPuDJ4893cg)
+:::video id=3ca18105-9856-4ceb-925c-c9e9215af21b:::
 
 ### L'irrigation et la naissance des grandes cités
 
@@ -219,19 +219,19 @@ Le système mis au point fut appelé "cunéiforme", du latin "cuneus" signifiant
 
 Ici, j'ai une copie d'une tablette avec de l'écriture cunéiforme dessus, donc ils avaient un espèce de stylet fait avec des roseaux, il me semble, et ils traçaient dans de l'argile humide les formes, l'écriture cunéiforme, pour noter sur ces tablettes.
 
-![](./assets/fr/1-1-3_1_Tablette_small.webp)  
+![image](assets/fr/001.webp)  
 
 J'ai aussi ce qui, je pense, est une vraie tablette sumérienne avec, au centre, une petite écriture cuneiforme. Sur cette tablette, on remarque des signatures qui sont faites en roulant un cylindre, que je vais vous montrer à l'instant.
 
 Ces marques avec des petits personnages étaient la forme de signature de l'époque quand on signait un contrat ou une lettre, tout simplement parce que les gens, évidemment, ne savaient pas écrire, il n'y avait que les scribes qui maîtrisaient cette technique.
 
-![](./assets/fr/1-1-3_2_Tablette_big.webp)  
+![image](assets/fr/002.webp)  
 
 Et ici, j'ai ce fameux cylindre qui est en fait une pierre où on a gravé certaines formes et on roulait ce cylindre de signature, qu'on appelle un cylinder seal en anglais, pour signer des lettres et signifier que c'est nous, l'auteur, ou nous qui avons rédigé, ou que cette lettre a été rédigée en notre nom.
 
 Les scribes de l'époque utilisaient donc ce fameux stylet en forme de coin pour imprimer des signes sur des tablettes humides.
 
-![](./assets/fr/1-1-3_3_cylindre.webp)  
+![image](assets/fr/003.webp)  
 
 Le cunéiforme n'était pas une langue, mais bien un système d'écriture permettant d'enregistrer les langues parlées. En anglais, on dirait «writing is written language», et puis on dirait que «cuneiforme is a script, not a language». Donc, on dirait en français que le cunéiforme n'est pas une langue, mais une façon de codifier un langage.
 
@@ -255,7 +255,7 @@ Cette écriture, à la fois outil de gestion économique et vecteur culturel, pe
 
 ## Le rôles des tablettes sumériennes
 <chapterId>a396e6c5-56cc-5410-9e6b-0274401c5425</chapterId>
-![video](https://www.youtube.com/watch?v=yZbmrToK7X8)
+:::video id=a0729a35-01ec-4aa4-828f-d4ccc2eb168e:::
 
 ### Les systèmes de crédit pré-monétaires
 
@@ -285,7 +285,7 @@ Ainsi, les documents mésopotamiens qui nous sont parvenus reflètent principale
 
 ## Le contrôle des élites sur les tablettes sumériennes
 <chapterId>c6d3df0e-b1e1-58dc-ab35-9f76bbc39393</chapterId>
-![video](https://www.youtube.com/watch?v=SumG3wpjl5k)
+:::video id=04a95fb8-a701-4a48-9ce8-0e9b6ba256fd:::
 
 ### L'Écriture, Une Technologie Économique Avant Tout
 
@@ -332,7 +332,7 @@ Cette période fondatrice révèle également les enjeux de pouvoir inhérents �
 
 ## Les grandes civilisations de l’âge du Bronze
 <chapterId>fab9334c-7385-5d7c-ad40-7d152beb22a1</chapterId>
-![video](https://www.youtube.com/watch?v=WaqFNZwyrRA)
+:::video id=737e12e8-1033-4210-b1dd-b8a680f68b17:::
 
 Dans cette section intitulée "Les grandes civilisations de l'âge du bronze", nous allons débuter avec un extrait du livre: *A History of Money: From Ancient Times to the Present Day par Glyn Davies.* Je trouve que cet extrait est une excellente introduction à cette section où on parle des grandes civilisations de l'Antiquité.
 
@@ -366,7 +366,7 @@ Mais on n'a pas de traces à Babylone de ces fameux jardins suspendus. Tandis qu
 
 ## Organisation économique en Mésopotamie
 <chapterId>6afb6fc8-cbb7-56a5-8427-484b4b7d7477</chapterId>
-![video](https://www.youtube.com/watch?v=raatMwCHSp8)
+:::video id=aa6a2cbd-5916-4ae3-ad4f-65f0bd5643fa:::
 
 ### Les structures économiques pré-capitalistes et l'esclavagisme
 
@@ -419,7 +419,7 @@ Dans les prochaines sections, nous allons faire le même travail pour l'Égypte 
 
 ## Organisation économique et monétaire en Égypte ancienne
 <chapterId>bffcc16c-7fbf-5992-a0fa-6a7726d7d287</chapterId>
-![video](https://www.youtube.com/watch?v=L28eSCdUW_c)
+:::video id=40c1c4e5-b190-4bb6-b8a0-810c9ce7698b:::
 
 ### Cadre historique et périodes égyptiennes
 
@@ -490,7 +490,7 @@ L'auteur nous propose que dès les premières utilisations de pièces de monnaie
 
 ## La monnaie signe et l’organisation économique et monétaire en Chine antique
 <chapterId>e08d3be9-423c-5cf3-a606-6ad54e2261af</chapterId>
-![video](https://www.youtube.com/watch?v=r_Crf3bgic8)
+:::video id=ae7e6367-1725-455e-bfe6-359be1f443e5:::
 
 Dans cette section intitulée "La monnaie signe et l'organisation économique et monétaire en Chine antique" nous verrons que la monnaie antique chinoise présente des caractéristiques distinctes des traditions occidentales. La monnaie chinoise était déjà une “monnaie signe” dès son origine. Les enseignements de cette section sont tirés des notes que j'ai prises suite à la lecture du livre "Aux origines de la monnaie".
 
@@ -530,7 +530,7 @@ Donc ici, au lieu de dire que, la pièce de monnaie en or aurait une espèce de 
 
 En Chine, la monnaie n’avait pas nécessairement besoin de marque ou de garantie officielle. Son acceptation dépendait uniquement de la confiance collective, ce qui explique pourquoi des monnaies de bronze ou cuivre sans inscriptions spécifiques ont pu circuler librement pendant longtemps.
 
-![](./assets/fr/1-2-3_chine.webp)
+![image](assets/fr/004.webp)
 
 Voici une pièce de monnaie de la Chrine qui date du Moyen Âge. Il s’agit d’une pièce coulée avec un trou carré au milieu. Cela permettait de passer une corde puis faire des espèces de bracelets ou des colliers, mais pas nécessairement pour porter, c'était plus pour la comptabilité. Ça permettait de les mettre ensemble et de former des sorte d’unités de compte sous forme de grandes ficelles avec les pièces imbriquées une sur une. Il n'y avait pas nécessairement des marques spécifiques, parfois c'était simplement des ronds de bronze.
 
@@ -553,7 +553,7 @@ Ainsi, l’expérience chinoise se caractérise par une conception profondément
 
 ## Organisation sociétale et économique durant l’antiquité 
 <chapterId>4023c3ce-7a47-5ac4-8f5f-c7ab699ab20f</chapterId>
-![video](https://www.youtube.com/watch?v=E0eRh2afwNA)
+:::video id=2761efe4-21cf-4f06-9bda-c03f9ff39012:::
 
 ### Le Débat sur le Parasitisme Urbain
 
@@ -618,7 +618,7 @@ L'analyse de ces modèles historiques révèle que la monnaie, au-delà de sa fo
 
 ## L’émergence des pièces de monnaie
 <chapterId>40ed3414-3066-57bd-bc1b-617ad0a354e0</chapterId>
-![video](https://www.youtube.com/watch?v=g6brlSyqCao)
+:::video id=1d6834c4-98a3-43fe-ba80-04be51b0486e:::
 
 Nous en sommes maintenant arrivés au point névralgique de l'apparition des pièces de monnaie à proprement parler. J'insiste ici sur le mot pièce parce qu'on a bien vu dans les sections précédentes que la monnaie ou les systèmes monétaires étaient bien présents dans les civilisations qui ont précédé les peuples de Lydie, les Grecs, les Perses. C'est assez clair je pense avec ce qu'on vient de voir. Et donc cette section est dédiée à l'apparition des pièces de monnaie à proprement parler et s’intitule: *L'émergence des pièces de monnaie*.
 
@@ -640,14 +640,14 @@ Je trouve intéressant de mentionner ici qu’en Égypte ils ont continué de pe
 
 ### La diffusion géographique et les adaptations régionales
 
-![](./assets/fr/1-3-0_indes.webp)
+![image](assets/fr/005.webp)
 
 Pour illustrer cette époque, voici un pièce de la région de l'Indes, une pièces de la région Bactriane qui est un peu à l'Ouest de la péninsule indienne, proche de l'Afghanistan dans cette zone-là, on retrouvait des pièces qui étaient probablement inspirées des pièces grecques où figure une de leur personnalité royale.
 
 
 ## Les Lydiens et les Perses
 <chapterId>eb802ab8-8ffd-5b25-907f-8944f120ed14</chapterId>
-![video](https://www.youtube.com/watch?v=g1UO-Bh9Jsk)
+:::video id=f151eb42-5ff3-4ca1-9af1-1ae2a5e051c0:::
 
 ### Les premières pièces lydiennes en électrum
 
@@ -655,7 +655,7 @@ Comme on ne peut pas séparer l'apparition des pièces de monnaie de la Lydie et
 
 J'ai ici une des premières pièces lydiennes qui représente une espèce de lion avec une proie à l'avant et on remarque qu'il y a souvent une étampe, une espèce de trou formé à l'arrière et certains pensent que c'est peut-être pour évaluer la pureté du métal pour éviter que ce soit juste une espèce de couche en superficie. Ça c'est une des premières pièces. Cette pièce-là, évidemment, c'est une copie. Toutes mes pièces en or ou en électrum sont des copies ou des recréations modernes pour éviter de passer toutes mes économies dans cette collection.
 
-![](./assets/fr/1-3-1_1_lydia.webp)
+![image](assets/fr/006.webp)
 
 Mais j'ai aussi une vraie pièce perse que l'on va voir à l'instant. C'est à quoi ressemblaient ces premières pièces. C'est comme des espèces de blobs, de lumps en anglais, de métaux qui étaient étampés à l'époque.
 
@@ -676,7 +676,7 @@ La monnaie lydienne connut une évolution importante sous le règne du célèbre
 
 Lorsqu'ils conquirent la Lydie en 546 av. J.-C., les Perses achéménides adoptèrent immédiatement cette innovation. Vers 500 av. J.-C., sous le règne de Darius Ier, les Perses établirent leur propre système monétaire avec des darics en or et des siglois en argent, portant souvent l'effigie royale dans des postures guerrières. Cette monnaie royale persane était principalement utilisée dans les régions hellénisées de l'Empire perse et se répandit progressivement, bien que son usage reste inégal, **certaines régions, comme l'Égypte, continuant de préférer l'échange en métal pesé (bullion).**.
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/fr/007.webp)
 
 J'ai ici un vrai sigloi ou siglos perse. Le petit design qu'on a ici représente un roi avec la trouche un peu effacée. C'est cette pièce en argent et contrairement au darik lui qui était en or. Ils étaient donc en mesure de séparer ces deux métaux, ce n'était plus des pièces d'électrum, ils ont séparé les pièces d'or et les pièces d'argent avec un bimétallisme, mais avec le même concept de blob de pièces de métal précieux avec un trou à l'arrière, encore là on suppose que c'était pour en vérifier la teneur en métal.
 
@@ -692,7 +692,7 @@ Un point essentiel à retenir de cette section est que nous parlons spécifiquem
 ## L’intervention institutionnelle et les premières pièces de monnaie 
 <chapterId>3e1efd08-99e3-5a32-9908-3185fef0e640</chapterId>
 
-![video](https://www.youtube.com/watch?v=oalzITZkY9I)
+:::video id=84847cf6-9e46-4a8c-9f35-25a27496cc4b:::
 
 ### La double nature de la monnaie 
 
@@ -729,20 +729,20 @@ Cette manipulation, observable dès les premières pièces lydiennes, suggère q
 ## La fabrication des pièces
 <chapterId>b205f4f2-c293-5308-b812-a998de9ad45e</chapterId>
 
-![video](https://www.youtube.com/watch?v=gKh7dyNgza8)
+:::video id=47c612ec-d97e-4498-b50e-7e66518bd56d:::
 
 ### Des blobs poinçonnés aux pièces frappées
 
 Donc comme nous venons de faire une section sur l'émergence des pièces de monnaie, je voulais faire une très courte section sur l'évolution de la fabrication les pièces. Comme nous l'avons vu, tout ça commence avec des blobs d'électrum et ensuite d'or et d'argent, où on marquait avec un poinçon les deux faces, soit avec la tronche du roi ou un trou à l'arrière pour vérifier la pureté.
 
-![](./assets/fr/1-3-1_2_Siglos.webp)
+![image](assets/fr/008.webp)
 
 Ensuite, ce qu'on va voir dans une section subséquente, les Grecs ont perfectionné cette technologie en faisant des pièces rondes qui étaient frappées au marteau sur les deux faces et donc on installait une pièce ronde, plate de métaux précieux qui était lisse et on frappait au marteau les deux côtés avec un modèle où on avait gravé à l'inverse la marque qu'on voulait inscrire et on cognait comme ça, à la main, les pièces.
 
 
 Et d'ailleurs cette technologie de frappe à la main, une par une, a probablement aidé à contrôler la notion d'inflation à cette époque, même si on diluait fortement les pièces de monnaie pour en produire plus. C'est ce qu'on va voir définitivement dans la période romaine et un peu dans la période grecque durant certaines guerres. Cette notion de fabrication de pièces une à la fois, limitait quand même la capacité de production de l'autorité et avait un effet, disons, positif sur le contrôle de l'inflation malgré les énormes dévaluations qu'on a pu voir. Donc on est passé d'un blob qui était poinçonné à une pièce ronde qui était frappée au marteau.
 
-![](./assets/fr/1-3-2_1_drachm.webp)
+![image](assets/fr/009.webp)
 
 ### L'évolution médiévale 
 
@@ -761,7 +761,7 @@ Donc cette notion de frappe au balancier a aidé avec ce phénomène d'écrêtag
 
 ## Théories sur l’émergence de la monnaie et ses différentes définitions
 <chapterId>7d699d4d-8c70-55b5-bf36-609f3fd90bcf</chapterId>
-![video](https://www.youtube.com/watch?v=ia3AlOnbxS8)
+:::video id=523c873f-501b-4954-b79f-7e74c0f685a5:::
 
 Bienvenue dans ce segment qui est dédié aux différentes théories sur l'émergence de la monnaie et ses différentes définitions. Voici un court extrait du livre *Aux origines de la monnaie* qui, je trouve, résume assez bien et de manière très succincte les deux thèses principales auxquelles nous nous intéresserons dans cette section. 
 
@@ -776,7 +776,7 @@ C'est donc le travail qu'on va faire dans cette partie. On va faire une sorte d'
 ## L’émergence de la monnaie pour les économistes classiques
 <chapterId>1d3776cd-0dfd-5297-af48-c6f41e257a7e</chapterId>
 
-![video](https://www.youtube.com/watch?v=JAP8V5CYEpQ)
+:::video id=873a16c1-17ac-448d-8941-df4feb7ab79d:::
 
 Ce segment est dédié aux différentes théories sur l'émergence de la monnaie. Le premier sujet que l'on va couvrir est l'émergence de la monnaie pour les économistes classiques.
 
@@ -806,7 +806,7 @@ En conclusion, je pense qu'on peut dire que les pièces de monnaie émanent néc
 
 ## Le mythe du troc
 <chapterId>0fcd4964-ac36-5163-a8cf-1aacebc0d2c0</chapterId>
-![video](https://www.youtube.com/watch?v=BUh0NKt0KMA)
+:::video id=0ede29ab-8acd-4d79-9282-bd5991b97076:::
 
 ### La critique de David Graeber
 
@@ -834,7 +834,7 @@ Donc, comme on l’a vu précédemment dans la section de l'Égypte et même de 
 ## L'émergence de la monnaie par la monnaie-dette
 <chapterId>4f508615-aa61-5d62-89d3-cecd02aeaa62</chapterId>
 
-![video](https://www.youtube.com/watch?v=VHr5Tccq8Fo)
+:::video id=a23f547f-3906-4f4a-8f72-5d78c649d0c4:::
 
 ### Monnaie comme reconnaissance de dette
 
@@ -858,7 +858,7 @@ Posséder un jeton monétaire n’est pas une “créance” sur la société, c
 
 ## L’émergence spontanée de la monnaie 
 <chapterId>e3ef86b1-73b9-5140-a61e-2ab6a5b0b2d4</chapterId>
-![video](https://www.youtube.com/watch?v=HZKkwWp4L3o)
+:::video id=e543995f-d5e2-49d7-9133-e397b46e0833:::
 
 Pour l'école autrichienne d'économie, initiée par Carl Menger, la monnaie émerge naturellement d'une économie de troc confrontée au problème de la double coïncidence des besoins. Dans cette vision, les individus convergent spontanément vers des biens intermédiaires qui facilitent les échanges - non pas des biens directement consommés, mais des marchandises reconnues pour leur capacité à être largement demandées.
 
@@ -894,7 +894,7 @@ Le débat entre émergence spontanée et institution consciente reste ouvert, le
 
 ## La vision anthropologique de l’émergence de la monnaie
 <chapterId>ec48c5d8-47ed-530f-beb7-c44fd0b62880</chapterId>
-![video](https://www.youtube.com/watch?v=T6PyNnEkTpY)
+:::video id=8c1f8764-75af-4fb6-a98b-55de3b7da02e:::
 
 ### Les origines non-économiques de la monnaie
 
@@ -910,7 +910,7 @@ C'est ce qui résume leur vision. On en discute avec Ulrich dans notre discussio
 
 Un exemple frappant est celui des pierres monumentales de l'île de Yap. Certaines de ces pierres, malgré leur immobilité voire leur disparition physique, continuaient à fonctionner pleinement comme monnaie grâce à un accord collectif, soulignant ainsi la dimension essentiellement sociale et symbolique de la monnaie.
 
-![](./assets/fr/Pierre_de_Yap.webp)
+![image](assets/fr/010.webp)
 
 C'est vraiment une analyse intéressante du cas des pierres de Yap. Saifedean Ammous mentionne aussi cet exemple dans son livre l’Étalon Bitcoin. C'est selon lui, le système qui ressemble le plus à bitcoin, une espèce de registre central qui est à la vue de tous, qui est public, qui tient les comptes, qui gère qui possède quoi. Et donc cette vision anthropologique récupère ce même exemple pour expliquer que tout ça ne représente qu'un accord, un consensus social dans cette société, c'est tout à fait vrai. Et je trouve cette mention des pierres perdues très intéressante. Ils allaient chercher les pierres en bateau à des centaines de kilomètres sur la mer avec des petits radeaux et ramenaient les pierres. Ça arrivait des fois que la pierre tombait au fond. Mais cette pierre avait toujours cours dans le système monétaire. Une personne pouvait dire "oui, donc la pierre qu'on a échappée, tu vois, à tel endroit, bien elle est à moi, donc on peut se l'échanger". Il n'y avait pas nécessairement un besoin de physicalité, de possession pour permettre de l'échange parce qu'en fait les pierres étaient tellement grosses qu'elles restaient souvent au même endroit. Donc, c'était plutôt le changement de main de ces pierres. Ça se faisait de manière transactionnelle, mais la possession changeait sans nécessairement qu'elle bouge. C'est une espèce de preuve du consensus. Je trouve ça super intéressant de le voir dans cette vision anthropologique de la monnaie.
 
@@ -944,7 +944,7 @@ Ici, on se rend compte qu'au final, dans nos sociétés modernes, la finalité m
 
 ## L’unification par le registre 
 <chapterId>7664442a-91c1-5ce4-a8bd-53b7371a3e3d</chapterId>
-![video](https://www.youtube.com/watch?v=8hXI9GLTrxQ)
+:::video id=473fc284-5375-4e1b-b0cd-6b51ba0cc3b8:::
 
 ### La théorie du registre comptable
 
@@ -987,7 +987,7 @@ D'un côté on a la nature qui gère l'expansion de la masse monétaire. Donc, s
 
 ## L’unification par la prime monétaire
 <chapterId>093756e5-8908-55e5-bb76-376a3a3cc4d3</chapterId>
-![video](https://www.youtube.com/watch?v=jznqwJ4mpbE)
+:::video id=eabc342a-ecbd-46ca-a347-e914917e7c4f:::
 
 ### Le concept de prime monétaire
 
@@ -1011,12 +1011,19 @@ Et pourquoi cette proposition de prime monétaire peut être qualifiée d'unific
 
 Par contre, c'est certain qu'**au niveau de l'émergence, selon le théorème de régression de Mises, on peut proposer que cet usage-là crée une demande à l'origine et initie cette le processus qui devient monnaie.** Tandis qu'au sujet, au niveau de la monnaie dette, c'est plus une imposition d'une autorité, donc la source, l'initiation de l'émergence et des concepts complètement différents. **Mais je pense qu'au niveau de la valeur, comment expliquer la valeur de la monnaie, avec la prime monétaire, on peut autant expliquer pourquoi la monnaie fiat a cette valeur qu'on lui attribue et pourquoi la monnaie marchandise a cette valeur** qu'on lui attribue. Pour moi, c'est le même processus et ça s'appelle la prime monétaire.
 
+#### La prime monétaire
+
+Voilà. La valeur de la monnaie peut s’expliquer par la prime monétaire découlant de sa demande monétaire, que ce soit sous la forme de tablettes d’argile, de pièces en métaux précieux, de billets de banque ou de Bitcoin.
+La prime monétaire repose simplement sur la confiance qu’une personne échangera cet argent plus tard pour un prix comparable.
+
+![image](assets/fr/011.webp)
+
 # Les différentes définitions de la monnaie
 <partId>77b7918a-8c3b-11f0-b688-6b2ab22378c9</partId>
 
 ## Money vs currency vs monnaie vs argent vs devise
 <chapterId>bf8a6d21-df88-5d23-a0a5-e9a5c1300554</chapterId>
-![video](https://www.youtube.com/watch?v=rxzqKRZFdcQ)
+:::video id=d9c9e7df-9db3-4a9f-801e-10d3fc7dfc22:::
 
 ### Sémantique des termes monétaires
 
@@ -1042,11 +1049,17 @@ Souvent, les gens qui n'ont pas creusé ces problèmes de sémantique, dans la t
 
 
 ## La définition de Saifedean Ammous 
-<chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
-![video](https://www.youtube.com/watch?v=KfvBzNWuWdM)
 
-![](assets/12.webp)
-![](assets/13.webp)
+<chapterId>07c4ba50-168c-567a-8957-0b187ff75f97</chapterId>
+
+:::video id=936d6d3b-6d45-468e-bc44-85fbce9b857a:::
+
+#### Qu'est ce que la monnaie ? 
+
+La monnaie est simplement quelque chose que vous possédez ou acquérez non pas pour être utilisé ou consommé pour ses propres caractéristiques, mais pour être échangé plus tard contre d'autres biens ou services dont vous pourriez avoir besoin. (Saifedean)
+La monnaie acquiert une prime monétaire lorsqu’une demande monétaire existe pour le bien, pour jouer un ou des rôles de la monnaie.
+Le bien monétaire doit être assez rare pour que la prime monétaire puisse subsister (pour prévenir l’ajustement de l’offre face à la demande monétaire).
+
 
 ### La prime monétaire
 
@@ -1063,7 +1076,7 @@ Donc ça, c'est la définition que Saifedean mentionne dans l'Étalon Bitcoin. M
 
 ## Moyen de paiement et valeur libératoire
 <chapterId>5d424039-e342-56f7-9d8b-bba9551831a9</chapterId>
-![video](https://www.youtube.com/watch?v=ZzeSvb13Ozk)
+:::video id=af4c0765-8111-4cb7-891b-3ee54d6e7054:::
 
 ### Moyen de paiement vs moyen d'échange
 
@@ -1091,7 +1104,7 @@ Je pense que dans cette discussion, on peut voir que le wergeld est un des bons 
 
 ## Monnaie dette vs monnaie marchandise
 <chapterId>4093677a-c8e8-5828-b994-15c01656186e</chapterId>
-![video](https://www.youtube.com/watch?v=X94tt6WQAfY)
+:::video id=f49cf5cc-288e-4daa-a1ff-b9de73506f4e:::
 
 ### Le débat fondamental
 
@@ -1160,7 +1173,7 @@ Ce paradoxe montre clairement l'écart entre ces deux conceptions monétaires : 
 
 ## La Théorie Monétaire Moderne
 <chapterId>8efc29af-3193-5d97-ad9f-e608b32924ff</chapterId>
-![video](https://www.youtube.com/watch?v=rr-9ex80jt0)
+:::video id=f8127cb7-46a1-468c-bbb5-97bf0a8b8837:::
 
 ### Principes de la théorie monétaire moderne
 
@@ -1191,20 +1204,20 @@ Cette théorie ne s’applique qu’à une poignée de pays (voir tweet de Steph
 Et qu’est-ce qu’une vraie souveraineté monétaire? C'est qu'on peut lever sa dette dans sa propre monnaie. Il faut être en mesure d'avoir un surplus commercial pour avoir assez de réserves de monnaie, de devises étrangères pour ne pas être obligé de lever des fonds dans les devises étrangères pour pouvoir importer des denrées. Ça concerne une poignée de pays.  
 J'ai un tweet ici de, justement, Stéphanie Kelton, qui est une espèce de poster woman de ce mouvement, qui a écrit un livre qui s'appelle "The Deficit Myth", qui mentionne dans un de ses tweets que différents pays comme les États-Unis, le Japon, le Canada, l'Australie, le Royaume-Uni, ne peuvent pas manquer de monnaie.
 
+![image](assets/fr/012.webp)
+
 Étrangement, elle ne liste que six pays ? Pourquoi ? Parce qu'ils ont une vraie souveraineté monétaire. Mais il y a environ 200 pays sur la Terre et ils n'ont pas tous une souveraineté monétaire. Donc, ce que je reproche à cette théorie, en plus d'être un peu étrange et non fonctionnelle, c'est qu'elle ne fonctionne que pour quelques pays qui jouissent d'une vraie souveraineté monétaire, ceux qui peuvent émettre des bons du trésor dans leur propre monnaie. Et ça se fait un peu au détriment du reste du monde. C'est comme si, en créant cette monnaie, ils exportaient leur inflation ailleurs, comme les États-Unis font avec leur privilège exorbitant depuis des décennies. C'est presque une espèce de forme de colonialisme monétaire où les pays qui jouissent d'une confiance à l'échelle mondiale et d’une demande pour leur monnaie pour acheter des biens qu'ils produisent, peuvent imprimer de la monnaie autant qu'ils veulent sans trop causer l'inflation parce qu'en général, ils l'exportent. 
 
 Cette théorie s'applique difficilement aux économies dépendantes des importations qui doivent maintenir la confiance internationale dans leur monnaie.
 
 Aussi, cette théorie nécessite un certain niveau de planification centralisée de l’économie notamment pour assurer le une surveillance accrue sur les ressources réelles (travailleurs, matières premières, capacités industrielles) et pour gérer l’inflation.
 
-![](assets/14.webp)
-
 # La chute et la renaissance de la monnaie
 <partId>87a34ca9-782b-5ade-b51a-400f88ed7b0c</partId>
 
 ## Les monnaies grecques
 <chapterId>7714195f-74ce-5f8c-be5f-59302d39fff4</chapterId>
-![video](https://www.youtube.com/watch?v=PgVBJR0eaJQ)
+:::video id=8e5c3091-0910-471b-8d4b-0dc6e9afa656:::
 
 ### Cadre historique et contextuel
 
@@ -1291,7 +1304,7 @@ L'histoire de la monnaie dans la Grèce antique commence aux alentours de 600 av
 
 Et j'ai la chance d'avoir une copie d'un drachme grec de l'époque avec cette fameuse chouette et une figure à l'arrière. C'est un tétradrachme qui était plus gros qu’un simple drachme.
 
-![](./assets/fr/3_1_tetradrachm.webp)
+![image](assets/fr/013.webp)
 
 Chaque cité grecque développa son propre rapport à la monnaie. À Athènes, la monnaie fut profondément liée à la puissance politique et économique. Le fameux décret athénien de la fin du Ve siècle av. J.-C. imposa l’usage exclusif de la monnaie athénienne dans ses territoires alliés, renforçant ainsi son hégémonie économique. Athènes accumulait aussi de grandes réserves d'or en cas d'urgence, conservées sur l'Acropole, peut-être un symbole de sa prudence économique. À l’inverse, Sparte, cité militaire aux valeurs rigoureuses, choisit de restreindre fortement l’usage de la monnaie, interdisant à ses citoyens la possession de pièces en or ou en argent. Sparte préférait utiliser de lourdes barres de fer afin de décourager le commerce extérieur et maintenir sa cohésion sociale.
 
@@ -1316,7 +1329,7 @@ Enfin, malgré leur variété et leurs fluctuations régionales, les monnaies gr
 
 ## L'impact de la monnaie en Grèce
 <chapterId>3a5e6c7d-699c-5567-87cd-3374c49d55a9</chapterId>
-![video](https://www.youtube.com/watch?v=z3kkaX5D1x0)
+:::video id=0c79a59c-e179-4893-a414-1b8de0930eb9:::
 
 ### Athènes et le contraste avec Sparte
 
@@ -1355,7 +1368,7 @@ Ces deux systèmes révèlent que l'adoption de la monnaie dépend étroitement 
 
 ## La République romaine
 <chapterId>0bc80983-33e1-5881-85bb-7c22f3144a9a</chapterId>
-![video](https://www.youtube.com/watch?v=HWvtelD7Pmk)
+:::video id=dc05ca97-d29c-4679-bfeb-912c47d86ce2:::
 
 ### Cadre historique de la république romaine
 
@@ -1382,7 +1395,7 @@ La rencontre déterminante avec les Grecs d'Italie du Sud initie véritablement 
 
 On retrouve d’ailleurs plusieurs représentations de mythes fondateurs sur les pièces romaines de l’époque de la république. Et j'en ai une ici, une superbe pièce, c'est une vraie, du roi, du roi Tatius. Cette pièce illustre un mythe de l'enlèvement des femmes à Sabine. Donc ce fameux Tatius était le roi dans cette région. Il existait un mythe fondateur où les Romains seraient allés enlever les femmes à Sabine, un peuple qui vivait près des Romains. Et plus tard, le roi Tatius est devenu un co-roi avec un des fondateurs de Rome, le roi Romulus.
 
-![](./assets/fr/3_2_tatius.webp)
+![image](assets/fr/014.webp)
 
 ### L'origine du mot "monnaie" et le temple de Juno Moneta
 
@@ -1394,7 +1407,7 @@ Les conflits militaires influencent considérablement l'évolution monétaire ro
 
 Ici, on retrouve un concept qu'on a déjà énoncé avec les Grecs d'une fonte de métaux précieux qui étaient conservés dans un temple pour pallier à des crises économiques. Et pour parler de **Carthage**, j'ai ici une vraie pièce carthaginoise. Ces pièces carthaginoises arboraient un palmier d'un côté, on peut le voir ici, probablement qu'on le verra beaucoup mieux sur la photo en haute résolution, et de l'autre côté, c'était un cheval. Et sur cette pièce, le cheval n'est pas très reconnaissable, elle est très usée.
 
-![](./assets/fr/3_2_Carthage.webp)
+![image](assets/fr/015.webp)
 
 Donc, le poids des monnaies de bronze, AES, chuta également drastiquement, perdant près de 80 % en six ans. Donc, le poids de ces pièces en bronze, qui n'étaient pas un métal précieux et qui étaient utilisées dans le commerce courant, a diminué beaucoup, ce qui était un signe d'évaluation monétaire due à ces guerres.
 
@@ -1412,7 +1425,7 @@ Enfin, si Rome domina économiquement le monde méditerranéen, elle conserva un
 
 ## L'Empire Romain
 <chapterId>2dc44e50-112a-5abf-97ae-8e0a9ecda989</chapterId>
-![video](https://www.youtube.com/watch?v=ehEW5SVCjzY)
+:::video id=f8d6f3d6-9ee4-4504-888e-4f12b3f20489:::
 
 
 **Cadre historique:**
@@ -1470,13 +1483,13 @@ Dans cette section sur l'Antiquité, nous en sommes déjà arrivés à l'Empire 
 
 Après l'assassinat de César en 44 av. J.-C., Octave (Auguste) prend le contrôle de Rome, établissant l’Empire en 27 av. J.-C. Son règne voit une réforme complète du système monétaire, stabilisant durablement l'économie romaine. Au temps d'Auguste, un aureus en or équivaut à 25 deniers d'argent, lui-même valant 4 sesterces en bronze. Cette stabilité monétaire se prolonge durant le premier siècle après Jésus-Christ, période souvent décrite comme un âge d’or économique pour Rome.  
 
-![](./assets/fr/3_3_aureus.webp)
+![image](assets/fr/016.webp)
 
-![](./assets/fr/3_3_denier.webp)
+![image](assets/fr/017.webp)
 
-![](./assets/fr/3_3_sesterce.webp)
+![image](assets/fr/018.webp)
 
-![](./assets/fr/3_3_dernier-sesterce.webp)
+![image](assets/fr/019.webp)
 
 Cependant, à partir de Néron (54-68 ap. J.-C.), Rome amorce une lente dévaluation de ses monnaies, réduisant progressivement leur poids et leur pureté pour financer les dépenses impériales croissantes, notamment après le grand incendie de Rome en 64 ap. J.-C. Ces dévaluations entraînent des effets notables : les pièces plus pures sont retirées de la circulation par thésaurisation ou exportation, conformément à la loi de **Gresham**, tandis que des monnaies dévaluées prolifèrent, provoquant une hausse graduelle des prix.
 
@@ -1484,9 +1497,9 @@ Le troisième siècle marque un tournant dramatique avec une accélération spec
 
 Ça me permet d'introduire la dernière pièce de cette section, un antoninien. On ne sait pas comment cette pièce s'appelait à l'époque. Nous, on l'appelle un antoninien. Cette pièce a cette particularité de valoir deux deniers mais le problème, c'est qu'elle n'est 1.5 fois plus grosse qu’un denier. De plus, éventuellement, ce n'était que des pièces de billon, donc un alliage non pur d'argent et d'autres métaux. Les pièces étaient simplement recouvertes d'argent. C'était un bel exemple de déchéance monétaire.
 
-![](./assets/fr/3_3_antoninien.webp)
+![image](assets/fr/020.webp)
 
-![](./assets/fr/3_3_Denier-Antoninien.webp)
+![image](assets/fr/021.webp)
 
 Face à cette situation, l'empereur Aurélien (270-275) tente de stabiliser le système en revalorisant nominalement les monnaies, mais **cette réforme introduit en réalité un mécanisme inflationniste en fixant artificiellement la valeur des monnaies existantes à un niveau supérieur.**
 
@@ -1496,9 +1509,9 @@ C'est vraiment Aurélien qui a inventé cette forme de dévaluation qui est beau
 
 Une façon d'exprimer, de vous faire apprécier de manière visuelle cet extrême d'évaluation, j'ai trouvé des statistiques très intéressantes sur le prix du grain en Égypte à partir de 40 avant notre ère et jusqu'au 3e siècle, donc sur 300 ans. J'ai par exemple un tétradrachma grec. Il y avait l'équivalent en Égypte à l'époque, un tétradrachme égyptien sous occupation romaine au 3e siècle. En Égypte, ils utilisaient encore la dénomination drachmas et c'était l'équivalent d'un denier.
 
-![](./assets/fr/3_3_egypt-tetradrachm.webp)
+![image](assets/fr/022.webp)
 
-![](./assets/fr/3_3_tetradrachm-vs-tetradrachm.webp)
+![image](assets/fr/023.webp)
 
 Donc le tétradrachme égyptien que j'ai ici, était l'équivalent d'un denier. On voit que la pièce est en billon ou en bronze, qu’il n'y a aucun métal précieux. On peut le comparer au tetradrachm grec d’origine pour voir la dévaluation physique sur ces 300 ans. C'est une multiplication par un million du prix du grain en Égypte.
 
@@ -1526,7 +1539,7 @@ Pour conclure, j’aimerais vous partager cette citation de l’ouvrage *A Histo
 
 ## Liens entre dilution monétaire et inflation : des causes aux conséquences
 <chapterId>38d5781c-e900-53f7-baa7-413655d71754</chapterId>
-![video](https://www.youtube.com/watch?v=3h4ykXxjFV4)
+:::video id=3999256d-aafe-4502-9b72-dfa8491a2777:::
 
 Dans cette section, on va s'intéresser aux liens entre la dilution monétaire et l'inflation de ses causes aux conséquences. La dilution monétaire est l'un des phénomènes économiques majeurs de l’histoire monétaire romaine, avec des effets directs sur l’inflation. Dès le Ier siècle ap. J.-C., on observe une première phase lente de dilution de la monnaie d'argent (denier) à partir du règne de Néron (54-68 ap. J.-C.), accélérée par la suite lors de crises militaires et financières répétées, notamment sous Septime Sévère (193-211) puis sous Gallien (253-268).
 
@@ -1571,7 +1584,7 @@ Ainsi, on observe un lien clair entre la dilution monétaire romaine et l’infl
 
 ## La chute de l’Empire Romain
 <chapterId>b6ec0914-227b-509c-8108-b09eec9bb904</chapterId>
-![video](https://www.youtube.com/watch?v=x9glWpea1FE)
+:::video id=91d4fee5-59bb-4ab9-a90b-e1125c71decb:::
 
 ### La dévaluation monétaire et l'effondrement de Rome 
 
@@ -1613,7 +1626,7 @@ Cette transformation révèle la fragilité des civilisations complexes. La divi
 
 ## L’âge des ténèbres et le Moyen Âge
 <chapterId>a5856873-6142-57be-8a73-1f9e3df83792</chapterId>
-![video](https://www.youtube.com/watch?v=hcHscrzYGAM)
+:::video id=86b8da9b-3831-443d-b170-58c2bea3ad54:::
 
 L'histoire et l'émergence de la monnaie au Moyen Âge sont marquées par des périodes de régression, d'innovation et de rétablissement économique.
 
@@ -1624,7 +1637,7 @@ En Angleterre, la monnaie connut un regain significatif avec la production du pe
 
 Comme premier artefact liés à cette période, je vous propose une reproduction d'un penny anglais de l'époque.
 
-![](./assets/fr/3_5_penny.webp)
+![image](assets/fr/024.webp)
 
 Durant le haut Moyen Âge, l'Europe bascula vers le féodalisme suite à l'effondrement du système monétaire romain. La majorité de la population utilisait des monnaies de faible valeur en cuivre ou en bronze, souvent sujettes à la dilution monétaire, limitant ainsi les échanges commerciaux sur de longues distances.
 
@@ -1642,7 +1655,7 @@ Les croisades, quant à elles, stimulèrent le commerce méditerranéen, favoris
 
 Et pour faire le lien avec les Templiers, j'ai ici une monnaie médiévale française, et on peut reconnaître au centre une belle croix. C'était assez commun pour les monnaies de cette époque d'arborer cette croix.
 
-![](./assets/fr/3_5_Denier-france.webp)
+![image](assets/fr/025.webp)
 
 Enfin, les grandes crises, comme la Peste noire (1346-1353), provoquèrent de profondes transformations économiques. La forte baisse démographique entraîna une augmentation brutale des salaires, défiant les tentatives gouvernementales de maintenir les anciens niveaux de rémunération.
 
@@ -1661,7 +1674,7 @@ Au moment où la création de dette est faite par le Parlement, ça fait émerge
 
 ## La renaissance
 <chapterId>1d1dfb05-70b4-5b7b-9708-373c2182950d</chapterId>
-![video](https://www.youtube.com/watch?v=I0FTZz9KVDU)
+:::video id=4977b4f3-c7b2-41a5-ad7b-a96a8cca4092:::
 
 Nous en sommes déjà arrivés à la section du cours où nous parlons de cette période que l'on nomme la Renaissance. Elle se déroule sur fond d'une crise tragique avec la propagation fulgurante de la peste par des puces sur des rats qui embarquent sur les bateaux. Cette tragédie nous informe toutefois sur la croissance des échanges et des déplacements de la période du haut médiéval. Plus tôt durant cette période, pas autant de gens se déplaçaient aussi loin et aussi rapidement.
 
@@ -1671,13 +1684,13 @@ Le retour des monnaies d'or en Europe durant la Renaissance marque un tournant f
 
 Et ici, j'ai une reproduction d'un Florin. Un Florin d'or fait en étain et estampé par un artiste français qui fait d'excellentes pièces, gravées et frappées à la main.
 
-![](./assets/fr/4_Florin.webp)
+![image](assets/fr/026.webp)
 
 Ce retour des monnaies d’or est motivé par un contexte précis : la chute du solidus byzantin et le déclin économique musulman causé par les invasions mongoles créent un vide monétaire pour les échanges internationaux.
 
-![](./assets/fr/4_Byzantine.webp)
+![image](assets/fr/027.webp)
 
-![](./assets/fr/4_Hongrie.webp)
+![image](assets/fr/028.webp)
 
 J'ai ici une pièce byzantine que je trouve intéressante. Je vais vous faire un parallèle avec une monnaie de l'époque, une monnaie de la Hongrie de l'époque. C'est une pièce qui est est en forme de coupe, comme un petit bol miniature. Et l'iconographie dessus, c'est une espèce de figure religieuse et des rois qui tiennent des croix dans leurs mains côte à côte. C'est le même genre de pièce sous forme de coupe et celle-là vient de Hongrie. C'était assez coutumier de copier les pièces des autres pays. Comme les pièces byzantines étaient globalement acceptées, ça arrivait que d'autres pays copient ces pièces. On peut voir quand on les compare côte à côte, ces pièces se ressemblent beaucoup.
 
@@ -1696,7 +1709,7 @@ C'est aussi pendant cette période que l’Europe prend connaissance de l'existe
 
 On parle ici évidemment de la frappe au balancier auquel j’ai fait référence plus tôt dans le cours. Ça permettait de faire des pièces plus uniformes que la frappe au marteau, et ça permettait surtout d'écrire autour, un peu comme je vous ai déjà montré, sur le taler. C'est un taler européen de 1793, et donc on voit qu'il y a une écriture sur la frange.
 
-![image](./assets/fr/4_thaler.webp)
+![image](assets/fr/029.webp)
 
 Au XVe siècle, toutefois, l'Europe connaît une grave crise monétaire avec une dégradation généralisée de la teneur en argent des monnaies européennes, qui tombe à moins de 5 % vers 1450\.
 
@@ -1712,7 +1725,7 @@ Enfin, la Renaissance financière amorce la transition vers la modernité écono
  
 ## L'évolution des monnaies de réserve mondiales
 <chapterId>d65cc352-e7ca-5f03-9b23-dd1fae5c0395</chapterId>
-![video](https://www.youtube.com/watch?v=Kg7oBu9dj1c)
+:::video id=82710062-8fff-426c-93af-923c08d82233:::
 
 ### L'importance historique des métaux précieux
 
@@ -1734,7 +1747,7 @@ Au fil des siècles, plusieurs empires se sont succédé comme centres économiq
 
 Pour répondre à la soif d’or et d’argent en Europe, "la motivation constante des grandes découvertes fut le profit commercial et surtout la quête d’or et d’argent". Toutefois, l’Empire portugais, trop étendu et concurrencé par les Hollandais, Anglais et Français, déclina par la suite.
 
-![](./assets/fr/5_1_Real_Portugais.webp)
+![image](assets/fr/030.webp)
 
 Voici un artefact, un demi-réal presto qui date de l'époque de ces conquêtes Maritime.
 
@@ -1743,13 +1756,13 @@ Voici un artefact, un demi-réal presto qui date de l'époque de ces conquêtes 
 
 Avec la conquête du Nouveau Monde, **l’Espagne** devint l’acteur dominant. Son monarque, contrôlant de gigantesques mines d’argent (Potosí en Bolivie, Zacatecas au Mexique), réussit à battre monnaie en argent pur, évitant ainsi de déprécier la sienne : le **Real Espagnol.**  
 
-![](./assets/fr/5_1_Dollar_Espagnol.webp)
+![image](assets/fr/031.webp)
 
 Le réal espagnol, qu’on appelle aussi le « piece of eight ». Il est surnommé ainsi parce qu’on le coupait souvent en huit pour créer de la monnaie plus petite. On l’appelle aussi le **dollar espagnol**. La pièce que vous voyez ici date de 1814, donc c’est un exemplaire un peu plus récent. Les toutes premières pièces du dollar espagnol, elles, n’étaient pas aussi parfaites : c’étaient des pièces frappées au marteau, beaucoup moins rondes et moins nettes.
 
 Ce qui est vraiment intéressant, c’est que le dollar espagnol était la monnaie de réserve internationale à l’époque. L’autorité espagnol avait aussi sa monnaie locale, le maravedi, et pour ajuster la masse monétaire, il procédait à des rappels réguliers. Par exemple, une pièce en cuivre ou en bronze valant initialement un maravedi pouvait être rappelée et estampée avec un « 2 », puis plus tard avec un « 4 », et ainsi de suite jusqu’à « 8 ». Sur la photo haute définition, on voit clairement un « 8 » estampé. C’est une façon de faire grandir la masse monétaire… et forcément, ça créait de l’inflation.
 
-![](./assets/fr/5_1_maravedi.webp)
+![image](assets/fr/032.webp)
 
 Si on regarde l’histoire des monnaies de réserve, un point intéressant émerge : les empires n’inflationnaient pas leur monnaie tant qu’elle gardait ce statut de monnaie de réserve. **Ce n’est qu’à la fin de leur domination qu’ils finissaient par la dévaluer, perdant ce privilège, qui passait alors à un nouvel empire.**
 
@@ -1765,8 +1778,8 @@ Par la suite, l’Espagne fit face à de nombreux conflits militaires (Flandres,
 
 Après l’apogée ibérique, **les Pays-Bas** s’imposent comme nouvelle puissance commerciale au XVIIe siècle. Le commerce maritime, la VOC (Dutch East India Company) et la fondation de la **Bourse d’Amsterdam** (inspirée de celle d’Anvers) érigent cette république marchande au rang de plaque tournante.
 
-![](./assets/fr/5_1_gulden.webp)
-![](./assets/fr/5_1_VOC.webp)
+![image](assets/fr/033.webp)
+![image](assets/fr/034.webp)
 
 Voici un Gulden de 1722, une belle pièce en argent ainsi qu’un pièce émise par la VOC
 
@@ -1790,11 +1803,11 @@ Lorsque cette méfiance s’est finalement estompée, autre fiasco du papier fra
 
 Des lois plus restrictives voulaient imposer l'assignat, mais sans succès. Le gouvernement a essayé de l'imposer en allant jusqu'à menacer de mort ceux qui ne l'acceptaient pas et en forçant les commerçants à rester ouverts. Mais évidemment, au final, ça n'a pas fonctionné.
 
-![](./assets/fr/5_1_assignat.webp)
+![image](assets/fr/035.webp)
 
 Comme cette monnaie papier a fait disparaître toute la bonne monnaie en métaux précieux, conformément à cette fameuse loi de Gresham, ils se sont retrouvés avec une pénurie de pièces et pour frapper des pièces, ils ont utilisé le métal de cloche saisi au clergé. Voici une belle pièce de métal de cloche frappée à partir de ce cuivre récupéré, en faisant fondre les pièces saisies au clergé.
 
-![](./assets/fr/5_1_cloche.webp)
+![image](assets/fr/036.webp)
 
 ### La domination britannique (XVIIIe – début XXe siècle)
 
@@ -1811,13 +1824,13 @@ Et comme artefact, ici, j'ai des belles pièces intéressantes. En fait, ce sont
 Et ça, les souverains, c'était une pièce monétaire qui est une pièce d'or qui valait un livre à l'origine. Et précédant ce fameux souverain, on retrouvait la Guinée, le même principe, une pièce de monnaie. Le Guinée était nommé ainsi parce que l'origine des métaux précieux qu'il contenait venait de ce pays, la Guinée.
 
 
-![](./assets/fr/5_2_sovereign.webp)
-![](./assets/fr/5_1_Guinea.webp)
+![image](assets/fr/037.webp)
+![image](assets/fr/038.webp)
 
 ## L'émergence des banques centrales
 <chapterId>15777771-1e28-55f7-a400-69868a47079b</chapterId>
 
-![video](https://www.youtube.com/watch?v=zWqZHZ2i5cc)
+:::video id=7661b7b5-e00f-48f3-b69a-6fb2eb5ebba4:::
 
 Suite à cette section sur l'histoire des premières monnaies de réserve, l'évolution des monnaies de réserve, voici un segment sur l'émergence des banques centrales. Ça suit à peu près le même chemin que l'émergence des monnaies de réserve, mais ça se concentre un peu plus sur les technologies bancaires de l'époque.
 
@@ -1826,7 +1839,7 @@ Dès le XIIIe siècle, les Italiens (Florence, Gênes, Venise…) développent d
 
 À Anvers on avait des foires marchandes où les marchands se rencontraient souvent pour faire des règlements de dette. Et à l'époque, on a inventé des nouveaux outils financiers. Celui est un peu plus récent, 1761, mais donc ça c'est un **billet à ordre**. On voit que c'est écrit à la main et on peut voir qu'il y a des inscriptions à l'arrière C'est un magnifique artefact de l'époque.
 
-![](./assets/fr/5_2_Billet_a_ordre.webp)
+![image](assets/fr/039.webp)
 
 Cette effervescence suscita la création d’institutions bancaires plus sophistiquées. Les **banquiers lombards** puis les marchands hollandais perfectionnèrent les instruments de crédit (lettres de change, billets à ordre, etc.). Le système bancaire moderne repose sur cette idée : la monnaie peut être du crédit, et pas simplement du métal.
 
@@ -1885,7 +1898,7 @@ Et le fait le plus important ici, c'est qu'**on est passé d'une dette qui pouva
 
 ## La route vers le système fiat
 <chapterId>27a98545-d350-56ee-a200-92468e6b9b33</chapterId>
-![video](https://www.youtube.com/watch?v=jQxuvdkErmQ)
+:::video id=e27a753e-aeee-4307-a65c-9506aab380a1:::
 
 Nous en sommes déjà arrivés à la fin de ce cours sur l'histoire de la monnaie et en toute fin de cours, j'avais envie de vous proposer deux sujets. Le premier sujet est les différentes étapes qui ont mené à notre système actuel fiat. Donc on va reprendre essentiellement les faits qu'on a vus dans le point 5 au sujet de la création des banques centrales. On va le voir assez rapidement de façon succincte et après la différence c'est qu'on va ajouter le concept du dollar américain qui est ultimement la monnaie de réserve actuelle. On va voir un peu comment ça a évolué, comment le dollar est né, le dollar est né de quoi, comment il a évolué, comment il a changé, quelles étapes il est passé pour devenir un système fiat parce que l'origine du dollar c'est une pièce en argent.
 
@@ -1909,40 +1922,40 @@ Ensuite, on a la panique de 1776. Tout le monde remonte la pyramide de la monnai
 
 Donc, on est passé du florin jusqu'à la banque d'Angleterre. Ensuite, évidemment, il y a eu l'étape de la Première Guerre, de la Deuxième Guerre, mais avant, là on est en 1796, de l'autre côté de l'Atlantique, on a les Américains. En 1776, c'était encore une colonie anglaise, britannique, et donc les colonies, ça c'est un billet du Connecticut, c'est un vrai, c'est un billet de deux shillings du Connecticut de 1776.
 
-![](./assets/fr/two_shilling.webp)
+![image](assets/fr/040.webp)
 
 C'est juste avant qu'ils déclarent la guerre à l'Angleterre et puissent éventuellement émettre leur propre monnaie. Entre-temps, il y avait cette monnaie-papier, mais ils utilisaient aussi le dollar espagnol pour les espèces, pour les pièces. D'ailleurs, le nom dollar est resté pour le dollar américain.
 
 Donc, je crois que c'est en 1792, si je ne dis pas de bêtises, qu'ils ont décrété une loi pour leur permettre de battre monnaie. Et pour vous donner un exemple, ça c'est un dollar américain moderne.
 
-![](./assets/fr/silver_dollar.webp)
+![image](assets/fr/041.webp)
 
 Bon, évidemment, ça ne vaut pas un dollar, il y a environ 30 ou 40 dollars de valeur, c'est un once en fait d'argent, donc dépendamment du cours de l'argent, ça vaut au moins 30 ou 40 dollars US. Aujourd'hui, évidemment, ça ne vaut plus qu'un dollar, mais ça représente précisément le format de l'époque. Le dollar américain démarre de cette valeur en argent.
 
 Ensuite, on peut passer à la guerre civile en Amérique. On avait les confédérés qui ont imprimé de l'argent. Cette monnaie a eu de l'hyperinflation. Ce n'est pas dans la liste officielle de Hanke-Krus parce que ça n'a pas atteint le 50 %, mais ça a atteint 40 % d'inflation mensuelle. Donc, ils en ont imprimé beaucoup durant la guerre.
 
-![](./assets/fr/confederate.webp)
+![image](assets/fr/042.webp)
 
 Et leurs opposants, au nord, avaient des dollars aussi. On vient de voir des dollars confédérés, et maintenant c'est les dollars du nord. Et ils s'appelaient le greenback parce que le dos était vert.
 
-![](./assets/fr/greenback.webp)
+![image](assets/fr/043.webp)
 
 Et je vous invite à comparer la différence de grandeur avec les billets modernes. Les billets à l'époque étaient étaient plus gros.
 
 Donc, c'est le nord qui a gagné. Le greenback est devenu la monnaie des Amériques. Et après, on a eu la fondation de la FED en 1913. Ensuite, on a eu la Première Guerre mondiale.  
 Et à la suite de la Première Guerre mondiale, dans la dernière série de billets imprimés, on voyait toujours la mention "redeemable in gold on demand". Donc, ces billets-là, en 1928, il faut quand même réaliser que 20 $ à l'époque, ça achetait près d'un once d'or. Le prix de l'or, c'était 20,67 $. Donc, on peut dire que 20,67 $ par once. Et donc, ce billet pouvait acheter un once d'or en 1928.  
 
-![](./assets/fr/1928.webp)
+![image](assets/fr/044.webp)
 
 Et aujourd'hui, une once d'or, ça vaut 3 000 $ US. Et donc, on peut voir ici tout le pouvoir de la dévaluation, évidemment. Et ce billet est le dernier imprimé avec la mention "redeemable in gold". On verra tout de suite après qu'après le Order 6102, où ils ont saisi tout l'or. D'ailleurs, ils ont saisi l'or et ils ont aussi saisi les certificats d'or. Donc, ça, c'est un "gold certificate" de 1928.
 
-![](./assets/fr/Gold_certificate.webp)
+![image](assets/fr/045.webp)
 
 Et lui, en plus d'être "redeemable in gold" comme le billet de 1928, ce l'était en pièces d'or. C'est vraiment écrit en pièces d'or. C'est vraiment un "gold certificate". Et ils ont tous été saisis. C'était illégal jusqu'en 1964 d'en posséder. Je suis très content d'en posséder un.  
 C'était illégal. Puis en 1964, c'était illégal de posséder de l'or jusqu'en 1974, si je ne m'abuse. Mais dans les années 70, ils ont permis aux gens d'accumuler de l'or après le choc Nixon qu'on va mentionner bientôt. Et donc, à partir de 1933, quand ils ont fait le "order 6102", l'ordre exécutif 6102, ils ont saisi l'or. C'était illégal d'en posséder. Il y avait de grosses peines de prison si vous étiez pris à garder votre or. À l'époque, chaque once d'or a été échangé pour un billet comme celui-là, après en 1934. Donc, en 1928, c'est encore écrit "redeemable in gold".  
 En 1933, ils font l'ordre exécutif 6102. Ils saisissent tout l'or. Et après, ils donnent 20,67$ pour chaque once d'or. Et après, voici l'arnaque. Ils sortent des nouveaux billets en 1934 et c'est écrit dessus "this note is legal tender for all debt".
 
-![](./assets/fr/1934.webp)
+![image](assets/fr/046.webp)
 
 Donc, on a la notion de cours légal ici qui apparaît, qui remplace le "redeemable in gold". Les deux billets se ressemblent, c'est juste la petite mention qui change. Et l'arnaque, c'est qu'ils ont dévalué le dollar à cette époque. C'est passé d'un once d'or pour 20,67$ à 35$ dollars l'once en 1934. C'était une dévaluation du dollar d'environ 40 %. Il y a eu une dévaluation du dollar à cette époque.
 
@@ -1972,13 +1985,15 @@ Je vous remercie pour votre attention.
 ## L'histoire des bulles monétaires 
 <chapterId>b6451c46-917d-11f0-97de-6bc5081765fa</chapterId>
 
-![video](https://www.youtube.com/watch?v=SFQ7mzGFaHA)
+:::video id=5967d9a6-aae4-4b84-a283-71b1b735bca4:::
 
 ### L’invention de la monnaie papier et la première grande bulle
 
 Avec la création des banques centrales au XVIIIᵉ siècle, une vraie révolution a vu le jour : l’argent magique sous forme de billets. L’exemple le plus marquant en France reste John Law. Cet Écossais exilé à Paris proposa au régent, le duc d’Orléans, de résoudre la faillite des finances royales en créant une banque d’État et une compagnie commerciale coloniale : la fameuse **Banque Royale** et la **Compagnie du Mississippi**.
 
 Par ce système, Law lia monnaie papier et actions de sa compagnie. Plus de billets circulaient, plus les actions grimpaient, plus la banque semblait solide… jusqu’à ce que la spéculation dépasse de loin la réalité. La bulle éclata brutalement en 1720, ruinant nobles, bourgeois, et une bonne partie de l’Europe venue spéculer rue Quincampoix. Résultat : méfiance durable envers la monnaie papier en France, et première leçon européenne de bulle spéculative.
+
+![image](assets/fr/047.webp)
 
 ### Quand le foncier devient « garantie »
 
@@ -2015,7 +2030,7 @@ L’histoire de la finance n’est qu’un cycle sans fin : imprimer, spéculer,
 
 ## Monnaie et violence
 <chapterId>9486fe64-854f-5e17-86b3-8873baca39a8</chapterId>
-![video](https://www.youtube.com/watch?v=N8Fd5AiLU7A)
+:::video id=bd6d0807-2d8f-4637-a0f5-1e990e5c0d0f:::
 
 Cette courte section au sujet de la monnaie et la violence reviendra sur plusieurs événements qu'on a déjà vus à travers tout le cours. Juste pour faire un petit résumé de certaines anecdotes que je trouve intéressantes.
 
@@ -2050,7 +2065,7 @@ Merci !
 
 ## Les conséquences économiques de la violence organisée 
 <chapterId>66bd4674-2159-5489-ad4b-ec5e3fb691af</chapterId>
-![video](https://www.youtube.com/watch?v=PnkMqfPoHSI)
+:::video id=c8b063c6-aeb4-4a94-9027-b11d369e71a4:::
 
 ### La violence organisée et l'évolution de l'État 
 
@@ -2094,7 +2109,7 @@ L'histoire nous enseigne que ces transitions durent des générations. Mais la s
 
 ## Une très courte histoire de la finance
 <chapterId>1d37fff1-a091-5034-8e71-4af590b8ffce</chapterId>
-![video](https://www.youtube.com/watch?v=q2aX9xwn0BE)
+:::video id=fdfabbc6-e4d8-463a-8522-19176f8fb460:::
 
 Suite à ce récit de l'histoire de la monnaie qui nous amène jusqu'au système fiat, j'aimerais assez rapidement et de manière très succincte vous expliquer l'évolution de la finance qui a mené éventuellement à l'état-providence. Au départ, à l'époque romaine, on a eu des pièces de monnaie.
 

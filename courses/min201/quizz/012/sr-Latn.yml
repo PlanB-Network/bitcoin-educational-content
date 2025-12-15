@@ -1,9 +1,9 @@
-question: Kako funkcioniše Mining pool i zašto je neophodan?
-answer: Mining pool je grupa rudara koji kombinuju svoje računske resurse kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer izolovana mala Mining mašina konkuriše industrijskim gigantima, smanjujući svoje šanse za uspeh na zanemarljiv nivo. Udruživanjem, rudari mogu kombinovati svoju računarsku snagu, češće pronalaziti blokove i zatim proporcionalno raspodeliti nagrade prema doprinosu svakog Miner u bazenu.
+question: Kako funkcioniše rudarski bazen i zašto je neophodan?
+answer: Rudarski bazen je grupa rudara koji kombinuju svoje računske resurse kako bi povećali svoje šanse za rudarenje bloka. Ova saradnja je neophodna jer izolovana mala mašina za rudarenje konkuriše industrijskim gigantima, smanjujući svoje šanse za uspeh na zanemarljiv nivo. Udruživanjem, rudari mogu kombinovati svoju računarsku snagu, češće pronalaziti blokove i zatim proporcionalno raspodeliti nagrade prema doprinosu svakog uređaja u bazenu.
 wrong_answers:
-  - Mining pool je grupa rudara koji dele istu Mining mašinu kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer jedna Mining mašina može da iskopa samo ograničenu količinu Bitcoin.
-  - Mining pool je grupa rudara koji dele isti Mining softver kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer različiti Mining softveri imaju različite efikasnosti.
-  - Mining pool je grupa rudara koji dele istu Mining lokaciju kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer lokacija Mining operacije može uticati na efikasnost Mining.
+  - Mining pool je grupa rudara koji dele istu mašinu za rudarenje kako bi povećali svoje šanse da izrudare blok. Ova saradnja je neophodna jer jedna mašina za rudarenje može da iskopa samo ograničenu količinu Bitcoina.
+  - Mining pool je grupa rudara koji dele isti softver za rudarenje kako bi povećali svoje šanse da izrudare blok. Ova saradnja je neophodna jer različiti softveri za rudarenje imaju različite efikasnosti.
+  - Mining pool je grupa rudara koji dele istu lokaciju za rudarenje kako bi povećali svoje šanse da izrudare blok. Ova saradnja je neophodna jer lokacija za rudarske operacije može uticati na efikasnost rudarenja.
 explanation: |
-  Poglavlje objašnjava da je Mining pool grupa rudara koji kombinuju svoje računarske resurse kako bi povećali svoje šanse za Mining. Ova saradnja je neophodna jer izolovana mala Mining mašina konkuriše industrijskim gigantima, smanjujući svoje šanse za uspeh na zanemarljiv nivo.
+  Poglavlje objašnjava da je rudarski bazen grupa rudara koji kombinuju svoje računarske resurse kako bi povećali svoje šanse da izrudare blok. Ova saradnja je neophodna jer izolovana mala rudarska mašina konkuriše industrijskim gigantima, smanjujući svoje šanse za uspeh na zanemarljiv nivo.
 reviewed: true

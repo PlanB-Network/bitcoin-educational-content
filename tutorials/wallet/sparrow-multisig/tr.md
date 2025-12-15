@@ -48,7 +48,7 @@ Bu eğitimde, **Sparrow wallet** ile klasik bir çoklu imza Wallet'nin nasıl ol
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Ön Koşullar
 
@@ -58,7 +58,7 @@ Bu eğitimde size [Sparrow wallet Wallet yönetim yazılımı] (https://sparroww
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 Çoklu imzalı bir Wallet kurmak için farklı donanım cüzdanlarına ihtiyacınız olacaktır. Örneğin bir Multisig 2-de-3 için, :
 
@@ -101,11 +101,11 @@ Multisig Wallet'inizi yapılandırmadan önce, her bir Hardware Wallet'in doğru
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Bu eğitimde daha sonra göreceğimiz gibi, Multisig yapılandırmanıza bir Hardware Wallet ile ilişkili olmayan, ancak özel anahtarları bilgisayarınızda depolanan bir faktörü entegre etmek de mümkündür. Bu yöntemin donanım cüzdanlarının özel kullanımından daha az güvenli olduğu açıktır, ancak bazı durumlarda uygun olabilir. Örneğin, bir Multisig 2-de-3 için iki donanım cüzdanı ve bir Software Wallet tercih edebilirsiniz.
 
@@ -375,7 +375,7 @@ Descriptor'ü kaydetmenin yanı sıra, imza cihazlarınızın her biri için Mne
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Multisig'inizdeki ilk bitcoinlerinizi almadan önce, **Boş bir kurtarma testi** yapmanızı şiddetle tavsiye ederim. İlk alınan Address gibi bazı referans bilgilerini not edin, ardından Wallet hala boşken donanım cüzdanlarınızı sıfırlayın. Ardından, Mnemonic ifade kağıdı yedeklerinizi kullanarak Multisig Wallet'inizi Donanım Cüzdanlarında, ardından *Descriptor* kullanarak Sparrow'da geri yüklemeyi deneyin. Geri yüklemeden sonra oluşturulan ilk Address'un başlangıçta yazdığınızla eşleşip eşleşmediğini kontrol edin. Eğer eşleşiyorsa, kağıt yedeklerinizin güvenilir olduğundan emin olabilirsiniz.
 
@@ -385,7 +385,7 @@ Kurtarma testinin nasıl yapılacağı hakkında daha fazla bilgi edinmek için 
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Multisig'niz üzerinden bitcoin alın
 
@@ -619,4 +619,4 @@ Daha ileri gitmek için, Bitcoin Wallet'ünüzün güvenliğini artırmaya yöne
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

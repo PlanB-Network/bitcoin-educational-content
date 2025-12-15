@@ -1,0 +1,9 @@
+question: Коя дистрибуция използва десктоп средата Cinnamon по подразбиране?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Дебиан
+  - Fedora
+explanation: |
+  Cinnamon е разработен от екипа на Linux Mint, за да предложи модерен, класически Interface, близък до Windows.
+reviewed: false

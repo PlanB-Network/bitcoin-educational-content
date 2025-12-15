@@ -1,12 +1,11 @@
 ---
-name: The RGB protocol, from theory to practice
+name: RGB programming
 goal: Acquire the skills needed to understand and use RGB
-objectives: 
-  - Understand the fundamental concepts of the RGB protocol
-  - Master the principles of client-side validation and Bitcoin commitments
-  - Learn how to create, manage and transfer RGB contracts
-  - How to operate an RGB-compatible Lightning node
-
+objectives:
+- Understand the fundamental concepts of the RGB protocol
+- Master the principles of client-side validation and Bitcoin commitments
+- Learn how to create, manage and transfer RGB contracts
+- How to operate an RGB-compatible Lightning node
 ---
 # Discovering the RGB protocol
 
@@ -41,10 +40,9 @@ The second section will focus on the application of the theoretical concepts see
 
 The final section is led by other speakers who present concrete RGB-based applications, to highlight real-life use cases.
 
----
 This training course originally grew out of a two-week advanced development bootcamp in Viareggio, Tuscany, organized by [Fulgur'Ventures](https://fulgur.ventures/). The first week, focused on Rust and SDKs, can be found in this other course:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 In this course, we focus on the second week of the bootcamp, which focuses on RGB.
 
@@ -78,7 +76,6 @@ Ready to dive into the complex and fascinating world of RGB? Let's go!
 ## Introduction to distributed computing concepts
 
 <chapterId>f52f8af5-5d7c-588b-b56d-99b97176204b</chapterId>
-
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 RGB is a protocol designed to apply and enforce digital rights (in the form of contracts and assets) in a scalable and confidential way, based on the consensus rules and operations of the Bitcoin blockchain. The aim of this first chapter is to present the basic concepts and terminology around the RGB protocol, highlighting in particular its close links with basic distributed computing concepts such as Client-side Validation and Single-use Seals.
@@ -1832,7 +1829,7 @@ The Lightning Network is a decentralized network of payment channels (or _state 
 
 For more information on how Lightning works, I recommend you take this other course:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -3053,8 +3050,8 @@ interface: RGB20Fixed
 
 globals:
   spec:
-    ticker: PBN
-    name: Plan B Network
+    ticker: Plan ₿ Academy
+    name: Plan ₿ Academy
     details: "Pay attention: the asset has no value"
     precision: 2
   terms:
@@ -3099,7 +3096,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Then, the next command displays the global states (name, ticker, supply...) and the list of Owned States, i.e. allocations (for example, 1 million `PBN` tokens defined in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Then, the next command displays the global states (name, ticker, supply...) and the list of Owned States, i.e. allocations (for example, 1 million `Plan ₿ Academy` tokens defined in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3282,7 +3279,7 @@ In reality, the Lightning Network enables payments to be routed via multiple cha
 
 The operation of RGB on Lightning must therefore be considered in parallel with that of the Lightning Network itself. If you'd like to delve deeper into this subject, I highly recommend you take a look at this other comprehensive training course:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB code map
 
@@ -3779,7 +3776,7 @@ You can, of course, adapt the order. To confirm the transaction, we mine a:
 ./regtest.sh mine 1
 ```
 
-We can now create an RGB asset. The command will depend on the type of asset you wish to create and its parameters. Here I'm creating a NIA (*Non Inflatable Asset*) token named "PBN" with a supply of 1000 units. The `precision` allows you to define the divisibility of the units.
+We can now create an RGB asset. The command will depend on the type of asset you wish to create and its parameters. Here I'm creating a NIA (*Non Inflatable Asset*) token named "Plan ₿ Academy" with a supply of 1000 units. The `precision` allows you to define the divisibility of the units.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3787,8 +3784,8 @@ curl -X POST -H "Content-Type: application/json" \
         "amounts": [
           1000
         ],
-        "ticker": "PBN",
-        "name": "Plan B Network",
+        "ticker": "Plan ₿ Academy",
+        "name": "Plan ₿ Academy",
         "precision": 0
       }' \
   http://localhost:3001/issueassetnia
@@ -3824,7 +3821,7 @@ The command returns the public key of my node n°2:
 
 ![RGB-Bitcoin](assets/en/110.webp)
 
-Next, we'll open the channel by specifying the relevant asset (`PBN`). The `/openchannel` command lets you define the size of the channel in satoshis and opt to include the RGB asset. It depends on what you want to create, but in my case, the command is:
+Next, we'll open the channel by specifying the relevant asset (`Plan ₿ Academy`). The `/openchannel` command lets you define the size of the channel in satoshis and opt to include the RGB asset. It depends on what you want to create, but in my case, the command is:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3863,7 +3860,7 @@ To confirm the transaction, 6 blocks are mined:
 
 ![RGB-Bitcoin](assets/en/112.webp)
 
-The Lightning channel is now open and also contains 500 `PBN` tokens on node n°1's side. If node n°2 wishes to receive `PBN` tokens, it must generate an invoice. Here's how to do it:
+The Lightning channel is now open and also contains 500 `Plan ₿ Academy` tokens on node n°1's side. If node n°2 wishes to receive `Plan ₿ Academy` tokens, it must generate an invoice. Here's how to do it:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3892,7 +3889,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RGB-Bitcoin](assets/en/113.webp)
 
-We will now pay this invoice from the first node, which holds the necessary cash with the `PBN` token:
+We will now pay this invoice from the first node, which holds the necessary cash with the `Plan ₿ Academy` token:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \

@@ -74,7 +74,7 @@ I den samme innstillingsmenyen kan du også endre programspråket og fiat-valuta
 
 Før du mottar dine første bitcoins i lommeboken din, ** anbefaler jeg deg på det sterkeste å utføre en tom gjenopprettingstest**. Noter litt referanseinformasjon, for eksempel xpub-adressen din eller den første mottakeradressen, og slett deretter lommeboken din i Aqua-appen mens den fortsatt er tom. Prøv deretter å gjenopprette lommeboken på Aqua ved hjelp av papirsikkerhetskopiene dine. Sjekk at cookie-informasjonen som genereres etter gjenopprettingen, samsvarer med den du opprinnelig skrev ned. Hvis den gjør det, kan du være sikker på at papirsikkerhetskopiene dine er pålitelige. Hvis du vil vite mer om hvordan du utfører en testgjenoppretting, kan du lese denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Det er ikke synlig på skjermen min fordi jeg bruker en emulator, men i innstillingene finner du også et alternativ for å låse appen med et biometrisk autentiseringssystem. Jeg anbefaler sterkt å aktivere denne sikkerhetsfunksjonen, for uten den kan hvem som helst med tilgang til din ulåste telefon stjele bitcoinene dine. Du kan bruke Face ID på iOS eller fingeravtrykk på Android. Hvis disse metodene feiler under autentiseringen, kan du fortsatt få tilgang til appen via telefonens PIN-kode.
 
@@ -190,5 +190,5 @@ Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legge
 
 Jeg anbefaler også at du sjekker ut denne andre omfattende veiledningen om Blockstream Green-mobilappen, som er en annen interessant løsning for å sette opp Liquid-lommeboken din :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 

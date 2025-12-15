@@ -111,4 +111,4 @@ Voilà, l'archive ZIP "Encrypted.zip" dans sa version non chiffrée me permet de
 
 Veillez à utiliser des mots de passe robuste pour protéger les données, et si vous utilisez un fichier de clé vous devez penser à le sauvegarder sous peine de ne plus pouvoir déchiffrer le conteneur PCV généré par Picocrypt. Enfin, sachez qu'il existe aussi [une version CLI](https://github.com/Picocrypt/CLI) (avec moins de fonctionnalités) qui permet d'exploiter Picocrypt en ligne de commande : là encore, Picocrypt ouvre la porte à de nouvelles possibilités.
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

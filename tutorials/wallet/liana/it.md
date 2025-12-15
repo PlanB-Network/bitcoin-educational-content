@@ -7,16 +7,16 @@ description: impostazione e utilizzo di un wallet su Liana
 In questo tutorial spiegheremo passo dopo passo come utilizzare l'applicazione Liana su un computer. Tra le altre cose, imparerete a impostare un piano di successione automatico, a ricevere e inviare dei bitcoin in situazioni normali e recuperare i fondi da un wallet esistente dopo un determinato periodo.
 
 Nel gennaio 2025, i portafogli hardware compatibili con Liana erano:
-- [BitBox02](https://planb.network/it/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c);
-- [Blockstream Jade](https://planb.network/it/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3);
-- [Blockstream Jade Plus](https://planb.network/it/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0);
-- [COLDCARD MK4](https://planb.network/it/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59);
-- [COLDCARD Q](https://planb.network/it/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3);
-- [Ledger Nano S](https://planb.network/it/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88);
-- [Ledger Nano S Plus](https://planb.network/it/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4);
-- [Ledger Nano X](https://planb.network/it/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88);
-- [Ledger Flex](https://planb.network/it/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a);
-- [Specter DIY](https://planb.network/it/tutorials/wallet/hardware/specter-diy-87993e31-233e-42f8-9aea-e2128049e2dc).
+- [BitBox02](https://planb.academy/it/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c);
+- [Blockstream Jade](https://planb.academy/it/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3);
+- [Blockstream Jade Plus](https://planb.academy/it/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0);
+- [COLDCARD MK4](https://planb.academy/it/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59);
+- [COLDCARD Q](https://planb.academy/it/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3);
+- [Ledger Nano S](https://planb.academy/it/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88);
+- [Ledger Nano S Plus](https://planb.academy/it/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4);
+- [Ledger Nano X](https://planb.academy/it/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88);
+- [Ledger Flex](https://planb.academy/it/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a);
+- [Specter DIY](https://planb.academy/it/tutorials/wallet/hardware/specter-diy-87993e31-233e-42f8-9aea-e2128049e2dc).
 
 Se desiderate recuperare fondi da un wallet Liana esistente, leggete la presentazione qui sotto e andate direttamente alla sezione "Recupero dei bitcoin".
 
@@ -36,7 +36,7 @@ Il diagramma seguente illustra il funzionamento di un wallet con due percorsi di
 Questa operazione consente di impostare varie configurazioni, tra cui:
 
 
-- Un piano di successione (o eredità) che consente agli eredi di recuperare i fondi in caso di morte dell'utente. Per maggiori informazioni su questo argomento, si consiglia la lettura della [parte 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) del corso BTC102.
+- Un piano di successione (o eredità) che consente agli eredi di recuperare i fondi in caso di morte dell'utente. Per maggiori informazioni su questo argomento, si consiglia la lettura della [parte 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) del corso BTC102.
 - Un backup rinforzato con un tempo di ripristino, che offre all'utente la possibilità di utilizzare il proprio wallet senza dover conservare la frase segreta corrispondente e rischiare di vederselo rubare, ad esempio durante un furto.
 - Una rete di sicurezza per le persone che iniziano a utilizzare Bitcoin: esse gestiranno il proprio wallet e il loro "tutore" (un parente, ad esempio) si riserverà il diritto di recuperare i loro fondi dopo un determinato periodo.
 - Uno schema di firma multiparte (_multisig_) con requisiti ridotti nel tempo, per far fronte alla scomparsa di uno o più partecipanti, come ad esempio i soci di un'azienda.
@@ -54,11 +54,11 @@ In questa esercitazione, imposteremo un piano di successione. Utilizzeremo il so
 
 - Una Ledger Nano S Plus, per le spese quotidiane;
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - Un Blockstream Jade, utilizzato per recuperare i fondi;
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - Due supporti di memoria (chiavette USB) per memorizzare il descrittore del wallet;
 - Una lettera di successione, contenente le istruzioni per il recupero dei fondi;
@@ -72,7 +72,7 @@ Visitate il sito ufficiale di Wizardsardine e scaricate Liana all'indirizzo http
 
 Per sapere come verificare manualmente l'autenticità e l'integrità del software prima dell'installazione, vi consigliamo di consultare questo tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 
 Installare il software sul computer e avviarlo. Scegliere l'opzione "*Crea un nuovo wallet Liana*" per configurare il wallet.
@@ -204,7 +204,7 @@ Una volta inviati i fondi, la transazione appare nella schermata principale (pri
 
 Per comprendere meglio il modello di rappresentazione UTXO utilizzato in Bitcoin, è possibile consultare la prima parte del corso sulla riservatezza in Bitcoin scritto da Loïc Morel:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Spese correnti
 
@@ -349,6 +349,6 @@ Gli script creati da questo portfolio avranno la seguente forma:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Poiché la sicurezza del vostro wallet Bitcoin dipende anche dalla comprensione del suo funzionamento, vi suggerisco di studiare a fondo i meccanismi dei portafogli deterministici e gerarchici seguendo questo corso di formazione gratuito su Plan ₿ Network:
+Poiché la sicurezza del vostro wallet Bitcoin dipende anche dalla comprensione del suo funzionamento, vi suggerisco di studiare a fondo i meccanismi dei portafogli deterministici e gerarchici seguendo questo corso di formazione gratuito su Plan ₿ Academy:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

@@ -1,5 +1,5 @@
 ---
-name: 제우스 스왑
+name: Zeus Swap
 description: On-Chain와 Lightning Network 비트코인 간의 비수탁형 Exchange 서비스
 ---
 
@@ -51,7 +51,7 @@ Lightning Network의 작동 방식에 대한 자세한 내용은 전용 강좌 �
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### 비즈니스 모델
 
@@ -149,7 +149,7 @@ Zeus Wallet는 기본적으로 서비스를 통합하여 Interface Bitcoin/Light
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### 웹 구성
 

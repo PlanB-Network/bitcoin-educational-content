@@ -4,10 +4,11 @@ related_words:
 original_language: fr
 proofreading:
   - language: en
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 0.17
+      - bitcoinJungle
+    reward: 0.09
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
@@ -130,7 +131,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.22
   - language: rn
     last_contribution_date:
     urgency: 1

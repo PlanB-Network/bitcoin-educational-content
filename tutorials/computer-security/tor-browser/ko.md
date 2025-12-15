@@ -204,4 +204,4 @@ DuckDuckGo의 "*Onionize*" 옵션을 사용하면 토르 네트워크의 '.onion
 브라우저의 전반적인 보안을 위해 "*안전*" 및 "*안전*" 모드를 사용하면 방문하는 사이트에서 실행되는 웹 기능과 스크립트를 조정할 수 있습니다. 이렇게 하면 취약점 악용 위험을 최소화할 수 있지만, 대신 사이트의 표시 및 상호 작용에도 영향을 미칩니다. ![TOR 브라우저](assets/notext/36.webp) 위험한 콘텐츠 차단기와 사이트와의 연결이 이 프로토콜을 일관되게 준수하도록 하는 HTTPS 전용 모드 등 다른 보안 옵션을 찾을 수 있습니다. ![TOR 브라우저](assets/notext/37.webp) 마지막으로, "*연결*" 탭에서는 토르 네트워크 연결과 관련된 모든 설정을 찾을 수 있습니다. 여기에서 액세스가 검열될 수 있는 지역에서 토르에 액세스하기 위한 브릿지를 구성할 수 있습니다. ![TOR 브라우저](assets/notext/38.webp) 이제 더 안전하고 사적인 방식으로 인터넷을 탐색할 준비가 되었습니다! 온라인 개인 정보 보호에 관심이 있으시다면, Mullvad VPN에 대한 다른 튜토리얼도 찾아보시길 추천합니다:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

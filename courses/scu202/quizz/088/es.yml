@@ -5,5 +5,5 @@ wrong_answers:
   - NordPass
   - Administrador de contraseñas de Google
 explanation: |
-  KeePassDX funciona sobre la base de archivos locales encriptados, sin necesidad de una nube o suscripción a un servicio centralizado.
-reviewed: false
+  KeePassDX funciona sobre la base de archivos locales cifrados, sin necesidad de una nube o suscripción a un servicio centralizado.
+reviewed: true

@@ -440,4 +440,4 @@ Size Gmail'e çok daha gizlilik dostu bir alternatif olan Proton Mail'i tanıtt�
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

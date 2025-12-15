@@ -51,7 +51,7 @@ Jos haluat lisätietoja Lightning Network:n toiminnasta, tutustu omaan kurssiimm
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Liiketoimintamalli
 
@@ -149,7 +149,7 @@ Katso Zeus-opas saadaksesi lisätietoja tästä täydellisestä Wallet:stä:
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### Web-konfigurointi
 

@@ -2,8 +2,8 @@ question: Ni amri gani inayopendekezwa kwa kuchambua miunganisho inayotumika ya 
 answer: ss
 wrong_answers:
   - arp
-  - ip kiungo
+  - IP link
   - ifup
 explanation: |
   Amri ya ss inachukua nafasi ya netstat ili kuonyesha kwa haraka miunganisho yote inayotumika ya mtandao.
-reviewed: false
+reviewed: true

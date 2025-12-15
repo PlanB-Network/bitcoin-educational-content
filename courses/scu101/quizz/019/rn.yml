@@ -1,11 +1,10 @@
-question: Ni kubera iki bihambaye cane kwama uhindura ubuhinga bwo gukoresha n’ibindi bikoresho?
-answer: Kugira ngo twikingire ibintu bishasha bitera ubwoba n’ibintu bishobora gutuma umuntu agira ingorane.
+question: Ni kubera iki bihambaye cane kwama ushira kugihe sisitemu be na porogarame?
+answer: Kugira ngo twikingire ivyo duhungabanya n’ibintu bishobora gutuma umuntu agira ingorane.
 wrong_answers:
-  - Kugira ngo iyo mashini ibe iya kera.
+  - Kugira ngo iyo mashini ite igihe.
   - Kugira ngo imashini igende buhoro.
-  - Kugira ngo uhindure umukoresha Interface.
+  - Kugira ngo uhindure igicapo.
 explanation: |
-  Guhindura ibintu bishasha ni ngombwa kugira ngo ukingire sisitemu
-  ingeramizi nshasha n’ibintu bishobora gutuma umuntu agira ingorane. Ntibigamije
-  gutuma iyo mashini idakoreshwa canke igenda buhoro.
+  Kwama ushira kugihe ningombwa kugira ngo ukingire sisiteme ibintu bishasha bishobora kuyonona n’ibintu bishobora gutuma umuntu agira ingorane. Ntibigamije
+  gutuma imashini idakoreshwa canke igenda buhoro.
 reviewed: true

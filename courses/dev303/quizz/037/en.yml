@@ -1,0 +1,8 @@
+question: What is the primary characteristic that makes closures powerful in Rust?
+answer: Their ability to capture variables from their surrounding environment
+wrong_answers:
+  - Their ability to run faster than regular functions
+  - Their ability to automatically handle memory allocation
+  - Their ability to execute code in parallel threads
+explanation: |
+  The fundamental characteristic that makes closures powerful is their ability to "close over" their environment, meaning they can access and use variables that exist in the scope where the closure is defined. This capturing capability allows closures to maintain state and context from their creation environment, making them much more flexible than regular functions. While closures can be optimized for performance and used in threading contexts, these are secondary benefits - their core power comes from environmental variable capture.

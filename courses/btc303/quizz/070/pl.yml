@@ -1,0 +1,9 @@
+question: Jaka podstawowa cecha odróżnia zawartą w książce definicję skalowania Bitcoin od powszechnych alternatywnych definicji stosowanych w przestrzeni Bitcoin?
+answer: Wyraźnie wymaga utrzymania odporności na cenzurę jako ograniczenia przy jednoczesnym zwiększeniu możliwości użytkowania
+wrong_answers:
+  - Koncentruje się ona wyłącznie na zwiększaniu przepustowości transakcji blockchain, a nie na poprawie wydajności
+  - Priorytetowo traktuje rozwój architektury warstwowej nad wszelkimi modyfikacjami podstawowego protokołu blockchain
+  - Kładzie nacisk na zmniejszenie wymagań obliczeniowych dla węzłów zamiast zwiększania przepustowości sieci
+explanation: |
+  Książka definiuje skalowanie jako "zwiększanie pojemności użytkowej Bitcoin bez narażania jego odporności na cenzurę", co wyraźnie obejmuje ograniczenie odporności na cenzurę. To odróżnia ją od innych definicji, które koncentrują się wyłącznie na zwiększaniu przepustowości transakcji, poprawie wydajności lub systemach warstwowych bez uwzględnienia zachowania podstawowych właściwości Bitcoin. Wymóg odporności na cenzurę gwarantuje, że rozwiązania skalujące nie podważają podstawowej wartości Bitcoin, jaką jest bycie pozbawionym zaufania, zdecentralizowanym systemem, który nie może być kontrolowany przez żaden pojedynczy podmiot.
+reviewed: false

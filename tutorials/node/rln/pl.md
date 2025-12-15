@@ -45,7 +45,7 @@ RGB Contract ma strukturę ewolucyjnej maszyny stanów. Zaczyna się od Genesis,
 Aby dowiedzieć się więcej na temat działania protokołu RGB, polecam udział w tym kompleksowym szkoleniu:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Instalacja węzła Lightning zgodnego z RGB
 
@@ -302,7 +302,7 @@ Można oczywiście dostosować zamówienie. Aby potwierdzić transakcję, wydoby
 ```
 
 
-Możemy teraz utworzyć zasób RGB. Polecenie będzie zależeć od typu zasobu, który chcemy utworzyć i jego parametrów. Tutaj tworzę token NIA (*Non Inflatable Asset*) o nazwie "PBN" z Supply wynoszącym 1000 jednostek. Parametr `precision` pozwala zdefiniować podzielność jednostek.
+Możemy teraz utworzyć zasób RGB. Polecenie będzie zależeć od typu zasobu, który chcemy utworzyć i jego parametrów. Tutaj tworzę token NIA (*Non Inflatable Asset*) o nazwie "Plan ₿ Academy" z Supply wynoszącym 1000 jednostek. Parametr `precision` pozwala zdefiniować podzielność jednostek.
 
 
 ```bash
@@ -311,8 +311,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -360,7 +360,7 @@ Polecenie zwraca klucz publiczny mojego węzła n°2:
 ![RLN](assets/fr/13.webp)
 
 
-Następnie otworzymy kanał, określając odpowiedni zasób (`PBN`). Polecenie `/openchannel` pozwala zdefiniować rozmiar kanału w satoshis i zdecydować się na dołączenie zasobu RGB. Zależy to od tego, co chcesz utworzyć, ale w moim przypadku polecenie to :
+Następnie otworzymy kanał, określając odpowiedni zasób (`Plan ₿ Academy`). Polecenie `/openchannel` pozwala zdefiniować rozmiar kanału w satoshis i zdecydować się na dołączenie zasobu RGB. Zależy to od tego, co chcesz utworzyć, ale w moim przypadku polecenie to :
 
 
 ```bash
@@ -408,7 +408,7 @@ Aby potwierdzić transakcję, wydobywanych jest 6 bloków:
 ![RLN](assets/fr/15.webp)
 
 
-Kanał Lightning jest teraz otwarty i zawiera również 500 tokenów `PBN` po stronie węzła n°1. Jeśli węzeł n°2 chce otrzymać tokeny `PBN`, musi wykonać generate i Invoice. Oto jak to zrobić:
+Kanał Lightning jest teraz otwarty i zawiera również 500 tokenów `Plan ₿ Academy` po stronie węzła n°1. Jeśli węzeł n°2 chce otrzymać tokeny `Plan ₿ Academy`, musi wykonać generate i Invoice. Oto jak to zrobić:
 
 
 ```bash
@@ -445,7 +445,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RLN](assets/fr/16.webp)
 
 
-Teraz zapłacimy ten Invoice z pierwszego węzła, który posiada niezbędną gotówkę za pomocą tokena `PBN`:
+Teraz zapłacimy ten Invoice z pierwszego węzła, który posiada niezbędną gotówkę za pomocą tokena `Plan ₿ Academy`:
 
 
 ```bash
@@ -499,4 +499,4 @@ Jeśli uważasz, że ten poradnik był przydatny, będę bardzo wdzięczny, jeś
 Polecam również ten samouczek, w którym wyjaśniam, jak używać narzędzia RGB CLI opracowanego przez stowarzyszenie LNP/BP do tworzenia RGB Contract:
 
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

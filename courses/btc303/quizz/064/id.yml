@@ -1,0 +1,9 @@
+question: Menurut pertukaran antara throughput dan desentralisasi yang dibahas oleh Gregory Maxwell, apa yang terjadi ketika penggunaan sumber daya blockchain Bitcoin menjadi terlalu besar dibandingkan dengan teknologi yang tersedia?
+answer: Bitcoin kehilangan keunggulan kompetitif dibandingkan dengan sistem lama karena validasi menjadi terlalu mahal, membuat banyak pengguna tidak percaya dan memaksa kepercayaan kembali ke dalam sistem
+wrong_answers:
+  - Bitcoin menjadi lebih aman karena hanya pengguna yang paling berdedikasi dengan perangkat keras yang kuat yang dapat berpartisipasi dalam validasi, menciptakan jaringan yang lebih kuat
+  - Bitcoin secara otomatis menyesuaikan algoritma tingkat kesulitannya untuk mengurangi kebutuhan sumber daya dan mempertahankan tingkat desentralisasi yang sama di semua peserta
+  - Bitcoin dibagi menjadi beberapa rantai paralel untuk mendistribusikan beban komputasi dengan tetap mempertahankan jaminan keamanan yang sama untuk semua pengguna
+explanation: |
+  Maxwell mengidentifikasi pertukaran mendasar di mana kebutuhan sumber daya yang berlebihan mendorong pengguna ke arah pihak ketiga yang tepercaya daripada validasi independen. Ketika biaya validasi menjadi mahal, pengguna tidak mampu menjalankan node penuh dan harus bergantung pada pihak lain, sehingga merusak sifat tidak dapat dipercaya dari Bitcoin. Jawaban yang salah secara keliru menunjukkan hasil yang menguntungkan (peningkatan keamanan, penyesuaian otomatis, atau jaminan yang dipertahankan) ketika penggunaan sumber daya yang tinggi sebenarnya memaksa sentralisasi dan ketergantungan kepercayaan.
+reviewed: false

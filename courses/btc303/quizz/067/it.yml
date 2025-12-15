@@ -1,0 +1,9 @@
+question: Secondo la definizione fornita per la scalatura Bitcoin, quale approccio NON si qualifica come scalatura legittima?
+answer: Aumentare il throughput delle transazioni richiedendo agli utenti di affidarsi a processori di pagamento centralizzati per la maggior parte delle transazioni
+wrong_answers:
+  - Gli input delle transazioni utilizzano meno byte grazie a schemi di codifica più efficienti
+  - Implementazione di soluzioni di architettura stratificata che costruiscono protocolli in cima a Bitcoin
+  - Miglioramento delle prestazioni di verifica della firma per elaborare più rapidamente i blocchi
+explanation: |
+  Il capitolo definisce esplicitamente lo scaling di Bitcoin come "l'aumento della capacità di utilizzo di Bitcoin senza compromettere la sua resistenza alla censura" La risposta corretta viola questa definizione perché la richiesta agli utenti di affidarsi a processori di pagamento centralizzati compromette direttamente la resistenza alla censura di Bitcoin, un valore fondamentale. Le risposte sbagliate rappresentano tutte approcci di scala legittimi citati nel capitolo: una codifica efficiente riduce l'utilizzo delle risorse, le soluzioni a strati permettono di aumentare la capacità preservando le proprietà del livello di base e una migliore verifica delle firme aumenta le prestazioni senza compromettere la centralizzazione.
+reviewed: false

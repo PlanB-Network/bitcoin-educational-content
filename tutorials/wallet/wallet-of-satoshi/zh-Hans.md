@@ -12,7 +12,7 @@ _本教程由_ [Bitcoin 校园](https://linktr.ee/bitcoincampus_) 编写
 
 Satoshi 的 Wallet 是 Lightning Network 的 Wallet，具有监护功能，使用非常简单。
 
-就课程[BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)而言，它用于 Redeem Lightning Network 凭证。
+就课程[BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)而言，它用于 Redeem Lightning Network 凭证。
 
 
 **永远记住**：不是你的钥匙，也不是你的硬币_

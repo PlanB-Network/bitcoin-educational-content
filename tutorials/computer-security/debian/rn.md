@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Sisitemu yawe ya Debian ubu yashizweho kandi yiteguye gukoreshwa mu bikorwa vyawe vya misi yose.
 
@@ -443,4 +443,4 @@ Kugira ngo umenye vyinshi ku vyerekeye Debian, no muri rusangi ku bijanye n'uguk
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

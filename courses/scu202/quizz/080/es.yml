@@ -6,4 +6,4 @@ wrong_answers:
   - Autenticación fuerte y servidores descentralizados
 explanation: |
   El cifrado de extremo a extremo garantiza la confidencialidad de los intercambios, y el código abierto permite verificar la correcta implementación de esta seguridad.
-reviewed: false
+reviewed: true

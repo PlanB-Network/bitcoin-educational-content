@@ -86,7 +86,7 @@ Seejärel järgige juhiseid, et kinnitada varundamine ja ühendada oma kaugvarun
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **OLULINE**: Layer lisaturvalisuse lisamiseks oma Breez Wallet-le saate määrata PIN-koodi ja seada selle, et autentida Wallet-le juurdepääsu lubamist.
 

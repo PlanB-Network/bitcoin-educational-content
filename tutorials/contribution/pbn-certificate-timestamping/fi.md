@@ -36,11 +36,11 @@ Niille, jotka ovat uteliaita ja haluavat oppia lisää tästä fantastisesta ohj
 Kuka tahansa voi käyttää OpenTimestampsia aikaleimatakseen tiedoston ja saadakseen vahvistettavissa olevan todistuksen tiedoston olemassaolosta. Toisin sanoen, se ei tarjoa sinulle todistusta siitä, milloin tiedosto on luotu, vaan todistuksen olemassaolosta viimeistään tiettynä hetkenä.
 OpenTimestamps pystyy tarjoamaan tämän palvelun ilmaiseksi kiitos erittäin tehokkaan tavan tallentaa tällainen todiste Bitcoin-lohkoketjuun. Se käyttää tiedoston sha256-tiivistettä tiedoston yksilöllisenä tunnisteena ja rakentaa merkle-puun muiden käyttäjien toimittamien tiedostojen tiivisteistä ja ankkuroi vain Merkle-puun rakenteen tiivisteen OpReturn-transaktioon.
 Kun tämä transaktio on jossakin lohkossa, kuka tahansa alkuperäisen tiedoston ja siihen liittyvän `.ots`-tiedoston kanssa voi varmistaa aikaleiman aitouden. Tutoriaalin toisessa osassa näemme, miten voit varmistaa Bitcoin-sertifikaattisi tai minkä tahansa kurssin suoritustodistuksen aitouden terminaalin kautta ja graafisen käyttöliittymän kautta OpenTimestamps-verkkosivustolla.
-# Kuinka varmistaa Plan B Network -sertifikaatti tai -diplomi
+# Kuinka varmistaa Plan ₿ Academy -sertifikaatti tai -diplomi
 
 ## Vaihe 1. Lataa sertifikaattisi tai diplomi
 
-Kirjaudu henkilökohtaiseen PBN-kojelautaasi.
+Kirjaudu henkilökohtaiseen Plan ₿ Academy-kojelautaasi.
 
 ![image](./assets/login.webp)
 
@@ -65,13 +65,13 @@ Avaa ensin terminaali kansiossa, jossa tiedostot ovat (napsauttamalla kansioiden
 1. Tuo Plan ₿ Networkin julkinen PGP-avain seuraavalla komennolla:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 Jos PGP-avaimen tuonti onnistui, näet viestin kuten seuraava
 
 ```
-gpg: key 8F12D0C63B1A606E: julkinen avain "PlanB Network (käytetään PBN-alustalla) <admin@planb.network>" tuotu
+gpg: key 8F12D0C63B1A606E: julkinen avain "Plan ₿ Academy (käytetään Plan ₿ Academy-alustalla) <admin@planb.network>" tuotu
 gpg: Käsitelty yhteensä: 1
 gpg:               tuotu: 1
 ```
@@ -86,7 +86,7 @@ gpg --verify certificate.txt
 
 Tämä komento näyttää sinulle yksityiskohdat allekirjoituksesta, mukaan lukien:
 
-- Kuka sen allekirjoitti (Plan ₿ Network)
+- Kuka sen allekirjoitti (Plan ₿ Academy)
 - Milloin se allekirjoitettiin
 - Onko allekirjoitus voimassa
 
@@ -96,7 +96,7 @@ Tässä on esimerkki tuloksesta:
 gpg: Allekirjoitus tehty ma 11 marras 2024, 00:39:04 CET
 gpg:                käyttäen RSA-avainta 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                lähettäjä "admin@planb.network"
-gpg: Hyvä allekirjoitus "PlanB Network (käytetään PBN-alustalla) <admin@planb.network>" [tuntematon]
+gpg: Hyvä allekirjoitus "Plan ₿ Academy (käytetään Plan ₿ Academy-alustalla) <admin@planb.network>" [tuntematon]
 ```
 
 Jos näet viestin kuten "HUONO allekirjoitus", se tarkoittaa, että tiedostoa on muutettu.
@@ -144,4 +144,4 @@ Huomaa, että vahvistus on onnistunut, jos **molemmat** viestit näytetään:
 1. GPG-allekirjoituksen kerrotaan olevan **"Hyvä allekirjoitus Plan ₿ Networkilta"**
 2. OpenTimestamps-vahvistus näyttää tietyn Bitcoin-lohkon aikaleiman ja raportoi **"Onnistui! Bitcoin-lohko [lohkonkorkeus] todistaa, että data oli olemassa [aikaleima]"**
 
-Nyt kun tiedät, miten Plan B Network myöntää vahvistettavissa olevan todistuksen mille tahansa Bitcoin-sertifikaatille ja kurssin suoritustodistukselle, voit helposti varmistaa sen eheyden.
+Nyt kun tiedät, miten Plan ₿ Academy myöntää vahvistettavissa olevan todistuksen mille tahansa Bitcoin-sertifikaatille ja kurssin suoritustodistukselle, voit helposti varmistaa sen eheyden.

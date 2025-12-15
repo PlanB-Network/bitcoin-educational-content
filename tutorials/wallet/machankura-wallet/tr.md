@@ -344,7 +344,7 @@ Machankura sadece bir Wallet değildir. Satoshilerinizi doğrudan uygulama üzer
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Ayrıca, işbirliğine dayalı çoklu imza sistemini yönetmenize olanak tanıyan "**Klan**" işlevine de sahipsiniz: klan üyeleri her harcamayı onaylamalıdır ve fonları aralarında otomatik olarak dağıtabilirsiniz.
 
@@ -439,13 +439,13 @@ Machankura, bitcoinlerinizi farklı seçenekler aracılığıyla göndermenize o
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura, farklı Lightning cüzdanları arasında birlikte çalışabilirlik sağlar. Bu gösterimde, Machankura WhatsApp Wallet'imizden Satoshi Wallet'in bir Wallet'ine bitcoin gönderiyoruz.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Göndermek için lütfen "BTC GÖNDER" seçeneğine karşılık gelen 1 rakamını girin. Ardından, "Lightning Address" gönderme seçeneğini seçin, ardından bitcoinlerin gönderileceği Address'u girin. Son olarak, "Sats" değer ölçüsünü seçin, gönderilecek satoshis sayısını belirtin ve gönderiyi onaylayın.
 
@@ -577,9 +577,9 @@ Dahası, Machankura size bitcoin göndermek isteyen herkesin bunu web sitenizden
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Bakiye kontrolü
 

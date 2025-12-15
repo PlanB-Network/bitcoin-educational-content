@@ -38,6 +38,8 @@ Bitcoin रैबिट होल में गोता लगाना एक 
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 BTC102 में आपका स्वागत है! यदि आपने पहले ही BTC101 पूरा कर लिया है, तो आपने Bitcoin के इतने क्रांतिकारी तकनीक होने के पीछे की मुख्य सैद्धांतिक अवधारणाओं का पता लगा लिया है। अब, BTC102 के साथ, उस ज्ञान को कार्य में लगाने का समय आ गया है। यह कोर्स आपको चरण दर चरण अपनी व्यक्तिगत Bitcoin योजना बनाने में मदद करने के लिए डिज़ाइन किया गया है।
 
@@ -45,7 +47,7 @@ BTC102 में आपका स्वागत है! यदि आपने 
 आगे के अध्यायों में, हम आपको अपना पहला बिटकॉइन प्राप्त करने, उन्हें उचित रूप से सुरक्षित करने, तथा इस तेजी से बढ़ते पारिस्थितिकी तंत्र में आत्मविश्वास के साथ अपना पहला कदम रखने के व्यावहारिक चरणों के माध्यम से मार्गदर्शन करेंगे।
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 हालाँकि Bitcoin 16 साल से ज़्यादा समय से अस्तित्व में है, लेकिन यह उद्योग अभी भी युवा, गतिशील और स्वतंत्रता में गहराई से निहित है। इसका अंतर्निहित प्रोटोकॉल पूरी तरह से विकेंद्रीकृत है और किसी भी केंद्रीय प्राधिकरण द्वारा नियंत्रित नहीं किया जा सकता है, जिससे पारिस्थितिकी तंत्र को प्राकृतिक और जैविक तरीके से विकसित होने की अनुमति मिलती है।
 
@@ -99,7 +101,7 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 क्या आप Bitcoin की दुनिया में अपनी यात्रा शुरू करने के लिए तैयार हैं? चलिए शुरू करते हैं!
 
 
-**टिप्पणी**: यदि आप पाठ्यक्रम के दौरान किसी अपरिचित शब्द का सामना करते हैं, तो कृपया परिभाषाओं के लिए [शब्दावली](https://planb.network/resources/glossary) देखें।
+**टिप्पणी**: यदि आप पाठ्यक्रम के दौरान किसी अपरिचित शब्द का सामना करते हैं, तो कृपया परिभाषाओं के लिए [शब्दावली](https://planb.academy/resources/glossary) देखें।
 
 # Bitcoin को समझने के लिए पूर्वापेक्षाएँ
 
@@ -111,6 +113,8 @@ https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 :::वीडियो आईडी=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
@@ -139,9 +143,9 @@ Bitcoin पारिस्थितिकी तंत्र और इसके
 यदि आप बेहतर ढंग से समझना चाहते हैं कि Bitcoin कहां से आता है और वास्तव में क्या इसे अन्य परियोजनाओं से अलग बनाता है, तो मैं बाद में Bitcoin के इतिहास पर इस निःशुल्क अनुवर्ती पाठ्यक्रम की जांच करने की सलाह देता हूं:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-जैसा कि आप जानते हैं, Plan ₿ Network प्लेटफ़ॉर्म विशेष रूप से Bitcoin के लिए समर्पित है। हालाँकि, अन्य क्रिप्टोकरेंसी के साथ अंतर को समझने से आपको बेकार और कभी-कभी धोखाधड़ी वाली परियोजनाओं से जुड़े नुकसान से बचने में मदद मिलेगी।
+जैसा कि आप जानते हैं, Plan ₿ Academy प्लेटफ़ॉर्म विशेष रूप से Bitcoin के लिए समर्पित है। हालाँकि, अन्य क्रिप्टोकरेंसी के साथ अंतर को समझने से आपको बेकार और कभी-कभी धोखाधड़ी वाली परियोजनाओं से जुड़े नुकसान से बचने में मदद मिलेगी।
 
 
 ![image](assets/hi/006.webp)
@@ -352,6 +356,8 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 :::वीडियो आईडी=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
@@ -362,10 +368,10 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 यह अध्याय आपको डिजिटल स्वच्छता बढ़ाने तथा इस क्षेत्र में स्वयं को सुरक्षित रखने के लिए कुछ सरल, व्यावहारिक कदमों से परिचित कराता है।
 
 
-यदि आप अधिक गहराई में जाना चाहते हैं, तो Plan ₿ Network का SEC101 पाठ्यक्रम विशेष रूप से Bitcoin उपयोगकर्ताओं के लिए डिज़ाइन की गई साइबर सुरक्षा रणनीतियों का व्यापक विश्लेषण प्रदान करता है।
+यदि आप अधिक गहराई में जाना चाहते हैं, तो Plan ₿ Academy का SEC101 पाठ्यक्रम विशेष रूप से Bitcoin उपयोगकर्ताओं के लिए डिज़ाइन की गई साइबर सुरक्षा रणनीतियों का व्यापक विश्लेषण प्रदान करता है।
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### साइबर सुरक्षा क्यों महत्वपूर्ण है
 
@@ -393,7 +399,7 @@ Bitcoin आपको अपने पैसे को सीधे (बैंक
 एक और स्मार्ट आदत यह है कि किसी भी सॉफ़्टवेयर को अपनी मशीन पर इंस्टॉल करने से पहले उसकी प्रामाणिकता और अखंडता को सत्यापित करें। यदि आप सुनिश्चित नहीं हैं कि यह कैसे करना है, तो चिंता न करें हमारे पास आपको इस प्रक्रिया से गुज़रने के लिए एक समर्पित ट्यूटोरियल है:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 अंत में, अपने महत्वपूर्ण डेटा का नियमित बैकअप बनाएं। अचानक विफलता, हैकिंग या आकस्मिक विलोपन के मामले में अपनी फ़ाइलों की डुप्लिकेट रखने के लिए एक बाहरी Hard ड्राइव या SSD एक ठोस विकल्प है। आप बाद में खुद को धन्यवाद देंगे।
 
@@ -401,7 +407,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 यदि आप क्लाउड समाधान पसंद करते हैं, तो प्रोटॉन ड्राइव जैसी सुरक्षित सेवा का उपयोग करने पर विचार करें। बस सुनिश्चित करें कि आप जो भी विकल्प चुनते हैं वह आपकी गोपनीयता का सम्मान करता है और मजबूत एन्क्रिप्शन प्रदान करता है।
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 एक व्यापक रूप से अनुशंसित बैकअप रणनीति "3-2-1 नियम" है। यह आपके डेटा को आकस्मिक हानि, साइबर हमलों या यहां तक ​​कि प्राकृतिक आपदाओं से बचाने के लिए डिज़ाइन किया गया है।
 
@@ -442,12 +448,12 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 वैसे तो कई पासवर्ड मैनेजर उपलब्ध हैं, लेकिन मैं आपकी ज़रूरतों के हिसाब से दो बेहतरीन विकल्प सुझा सकता हूँ। अगर आप किसी ऐसे पासवर्ड मैनेजर की तलाश में हैं जिसका इस्तेमाल करना आसान हो और जो कई डिवाइस पर आसानी से सिंक हो जाए, तो बिटवर्डन एक बेहतरीन विकल्प है:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 यदि आप सब कुछ स्थानीय रूप से अपने डिवाइस पर रखना चाहते हैं, तो KeePass एक बढ़िया विकल्प है:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: दोहरी सुरक्षा
 
@@ -461,7 +467,7 @@ Bitcoin में, आप अपने खुद के बैंक हैं�
 2FA, Google प्रमाणक या Authy जैसे ऐप द्वारा उत्पन्न समय-आधारित वन-टाइम कोड (आमतौर पर 6 अंक) की आवश्यकता के द्वारा सुरक्षा का दूसरा Layer जोड़ता है। इसलिए भले ही कोई आपका पासवर्ड प्राप्त करने में कामयाब हो जाए, फिर भी वह आपके फ़ोन तक भौतिक पहुँच के बिना आपके खाते तक नहीं पहुँच सकता।
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ![image](assets/hi/017.webp)
 
@@ -475,7 +481,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 जो लोग सुरक्षा को एक कदम आगे ले जाना चाहते हैं, उनके लिए YubiKey जैसी भौतिक कुंजियाँ और भी उच्च स्तर की सुरक्षा प्रदान करती हैं।
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### आपकी गोपनीयता की सुरक्षा
 
@@ -496,12 +502,12 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 ![image](assets/hi/019.webp)
 
 
-हमारे पास Plan ₿ Network पर कई ट्यूटोरियल उपलब्ध हैं जो आपको आसानी से VPN सेटअप करने में मार्गदर्शन कर सकते हैं। मैं विशेष रूप से IVPN या Mullvad की अनुशंसा करता हूँ:
+हमारे पास Plan ₿ Academy पर कई ट्यूटोरियल उपलब्ध हैं जो आपको आसानी से VPN सेटअप करने में मार्गदर्शन कर सकते हैं। मैं विशेष रूप से IVPN या Mullvad की अनुशंसा करता हूँ:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ऑनलाइन आपकी गोपनीयता की सुरक्षा के लिए आवश्यक कदमों में ये भी शामिल हैं:
 
@@ -510,21 +516,21 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 - गोपनीयता-केंद्रित ब्राउज़रों जैसे फ़ायरफ़ॉक्स, ब्रेव या टोर (बेहतर गुमनामी के लिए) का उपयोग करना;
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
 - प्रोटॉनमेल जैसे सुरक्षित मेलबॉक्स का उपयोग करना;
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 
 - बिटलॉकर (विंडोज के लिए) या वेराक्रिप्ट (मल्टी-प्लेटफॉर्म पर उपलब्ध) जैसे उपकरणों से अपनी फाइलों को एन्क्रिप्ट करना।
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### चरण-दर-चरण प्रगति
 
@@ -541,7 +547,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 संक्षेप में: साइबर सुरक्षा को कम न आँकें, बुनियादी बातों को स्थापित करने के लिए समय निकालें, और याद रखें कि निरंतरता महत्वपूर्ण है। अच्छी डिजिटल स्वच्छता के बिना, सबसे अच्छे उपकरण भी आपके लिए कुछ खास नहीं कर पाएँगे।
 
 
-इसके अलावा Plan ₿ Network पर [हमारे कंप्यूटर सुरक्षा ट्यूटोरियल](https://planb.network/tutorials/computer-security) अवश्य देखें।
+इसके अलावा Plan ₿ Academy पर [हमारे कंप्यूटर सुरक्षा ट्यूटोरियल](https://planb.academy/tutorials/computer-security) अवश्य देखें।
 
 
 ![image](assets/hi/020.webp)
@@ -554,6 +560,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 :::वीडियो आईडी=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
@@ -646,7 +654,7 @@ Bitcoin सभी के लिए खुला है, लेकिन इस�
 
 यदि आप अभी भी अनिश्चित हैं, तो **सीखना शुरू करें।**
 
-Bitcoin को एक्सप्लोर करने में कुछ घंटे बिताएँ, Plan ₿ Network पर मुफ़्त संसाधन देखें, कुछ किताबें पढ़ें, इसे आज़माने के लिए पाँच यूरो खर्च करें और ऑनलाइन कुछ बेहतरीन सामग्री देखें। जिज्ञासु बने रहें। आप जितना सहज होंगे, अपनी रणनीति पर फिर से विचार करना, अपने दृष्टिकोण में बदलाव करना और आत्मविश्वास के साथ आगे बढ़ना उतना ही आसान होगा।
+Bitcoin को एक्सप्लोर करने में कुछ घंटे बिताएँ, Plan ₿ Academy पर मुफ़्त संसाधन देखें, कुछ किताबें पढ़ें, इसे आज़माने के लिए पाँच यूरो खर्च करें और ऑनलाइन कुछ बेहतरीन सामग्री देखें। जिज्ञासु बने रहें। आप जितना सहज होंगे, अपनी रणनीति पर फिर से विचार करना, अपने दृष्टिकोण में बदलाव करना और आत्मविश्वास के साथ आगे बढ़ना उतना ही आसान होगा।
 
 
 ### बीटीसी की अस्थिरता को समझना
@@ -692,7 +700,7 @@ Bitcoin की सबसे शक्तिशाली (और अक्सर 
 यदि आप अपने Bitcoin में से Ownership लेने के लिए तैयार हैं और अपने पुनर्प्राप्ति वाक्यांश को सुरक्षित करने के लिए सर्वोत्तम प्रथाओं में गहराई से गोता लगाना चाहते हैं, तो मैं इस लेख को देखने की अत्यधिक अनुशंसा करता हूं:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### गोपनीयता और विवेक
 
@@ -716,7 +724,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 यदि आप Bitcoin गोपनीयता के विषय में गहराई से जाने के लिए तैयार हैं, तो हम आपको हमारे वर्ष 2 गोपनीयता पाठ्यक्रम को जारी रखने की सलाह देते हैं, जहाँ आप अपनी पहचान और गतिविधि को सुरक्षित रखने के लिए अधिक उन्नत तकनीक सीखेंगे:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### कर निहितार्थ
 
@@ -826,6 +834,8 @@ Bitcoin कोई शीघ्र अमीर बनने वाली यो�
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 :::वीडियो आईडी=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
 
@@ -894,7 +904,7 @@ Bitcoin अचानक से नहीं आया। इसे एक बह
 Bitcoin की उत्पत्ति के बारे में आपके ज्ञान को गहरा करने के लिए, हम इस विषय पर एक निःशुल्क, व्यापक और अच्छी तरह से प्रलेखित प्रशिक्षण पाठ्यक्रम प्रदान करते हैं:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### मूल्य हस्तांतरण के लिए एक विकेन्द्रीकृत नेटवर्क
 
@@ -1036,10 +1046,10 @@ Bitcoin को "शून्य से एक" के रूप में दे
 ![image](assets/hi/040.webp)
 
 
-यदि आप अपने ज्ञान को और बढ़ाना चाहते हैं, तो आप Plan ₿ Network पर BTC101 पाठ्यक्रम ले सकते हैं, जो Bitcoin के तकनीकी और आर्थिक मूल सिद्धांतों का अधिक गहन अन्वेषण प्रदान करता है।
+यदि आप अपने ज्ञान को और बढ़ाना चाहते हैं, तो आप Plan ₿ Academy पर BTC101 पाठ्यक्रम ले सकते हैं, जो Bitcoin के तकनीकी और आर्थिक मूल सिद्धांतों का अधिक गहन अन्वेषण प्रदान करता है।
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Bitcoin के इस परिचय के बाद (जिसमें 5 मिनट से थोड़ा ज़्यादा समय लग सकता है!), अब आप बिटकॉइन खरीदने और सुरक्षित करने पर विचार करने के लिए बेहतर तरीके से तैयार हैं। पाठ्यक्रम के अगले अध्यायों में, हम Bitcoin के महत्व, इसके उद्योग के कामकाज और इसकी विभिन्न परतों के विकास के बारे में गहराई से जानेंगे। इसके बाद, आने वाले अनुभाग में, हम चर्चा करेंगे कि अपनी खुद की व्यक्तिगत योजना कैसे सेट करें।
 
@@ -1047,6 +1057,8 @@ Bitcoin के इस परिचय के बाद (जिसमें 5 म
 
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
+
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
 
 :::वीडियो आईडी=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
@@ -1266,6 +1278,8 @@ Bitcoin कोई संगठन या राजनीतिक दल नह�
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
 
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
+
 
 :::वीडियो आईडी=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
@@ -1463,15 +1477,15 @@ Bitcoin, अपनी प्रकृति के अनुसार, पार
 **सावधानी:** किसी भी भौतिक लेनदेन के लिए, संभावित धोखाधड़ी से बचने के लिए सार्वजनिक और सुरक्षित स्थान चुनें।
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Bitcoin-केवल Exchange प्लेटफ़ॉर्म**
@@ -1480,13 +1494,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 ये प्लेटफ़ॉर्म उपयोगकर्ता के अनुकूल दृष्टिकोण अपनाते हैं, जो सरल, पारदर्शी सेवा प्रदान करते हैं। वे केवल Bitcoin के लिए हैं। वे अक्सर डॉलर-कॉस्ट एवरेजिंग (DCA) के माध्यम से बिटकॉइन खरीदने के लिए समाधान लागू करते हैं और व्यक्तिगत Wallet में स्वचालित निकासी की पेशकश करते हैं। वे विशेष रूप से उन शुरुआती लोगों के लिए उपयुक्त हैं जो प्रगतिशील और सुरक्षित तरीके से बिटकॉइन जमा करना चाहते हैं। उदाहरण: रिले, बुल Bitcoin, स्टैकिनसैट, बिटस्टैक...
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - **सामान्य प्रयोजन या व्यापार-उन्मुख Exchange प्लेटफ़ॉर्म**
@@ -1495,13 +1509,13 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 ये प्लेटफ़ॉर्म Bitcoin खरीदने से कहीं ज़्यादा उन्नत सुविधाएँ प्रदान करते हैं, जिसमें लीवरेज और डेरिवेटिव शामिल हैं। हालाँकि, हम ट्रेडिंग के खिलाफ़ दृढ़ता से सलाह देते हैं। इसके बजाय, हम Bitcoin खरीदने और इसे अपने Wallet में स्थानांतरित करने की सलाह देते हैं। ट्रेडिंग एक उच्च जोखिम वाली गतिविधि है और आम तौर पर उन लोगों के लिए उपयुक्त नहीं है जो दीर्घकालिक संचय पर ध्यान केंद्रित करते हैं। ट्रेडिंग गेम से बाहर रहना अक्सर समझदारी भरा रास्ता होता है।
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Exchange प्लेटफ़ॉर्म सुरक्षित वॉलेट नहीं हैं**। अपने बिटकॉइन को Exchange पर छोड़ना आपको काफी जोखिम में डालता है। कई परिदृश्यों के परिणामस्वरूप आपके फंड का नुकसान हो सकता है:
 
@@ -1566,7 +1580,7 @@ Mining पारिस्थितिकी तंत्र में कई प
 Mining अपनी ही दुनिया है, जिसमें खोज करने के लिए कई परतें हैं; तकनीकी चुनौतियाँ, आर्थिक प्रोत्साहन और ऊर्जा संबंधी विचार सभी इसमें शामिल हैं। जो लोग इस क्षेत्र को और अधिक जानने और वास्तव में यह समझने में रुचि रखते हैं कि यह कैसे काम करता है, उनके लिए हमारा MIN201 कोर्स आपको वह सब कुछ बताता है जो आपको जानना चाहिए।
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Bitcoin पारिस्थितिकी तंत्र में विकास
 
@@ -1602,12 +1616,14 @@ Bitcoin के विकास को योगदानकर्ताओं �
 यह भी ध्यान देने योग्य है कि **Bitcoin Core एकमात्र क्लाइंट नहीं है**। Bitcoin Knots जैसे विकल्प भी Bitcoin प्रोटोकॉल को लागू करते हैं, जिससे उपयोगकर्ताओं को अधिक विकल्प मिलते हैं और सिस्टम का विकेंद्रीकरण मजबूत होता है:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Bitcoin की स्तरित वास्तुकला
 
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
+
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
 
 
 :::वीडियो आईडी=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
@@ -1641,7 +1657,7 @@ Bitcoin पारिस्थितिकी तंत्र को समृद
 यदि आप इस बारे में अधिक जानने में रुचि रखते हैं कि लाइटनिंग कैसे काम करती है, तो हम इस विषय पर समर्पित एक उत्कृष्ट द्वितीय वर्ष का पाठ्यक्रम प्रदान करते हैं:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - **साइडचेन** :
@@ -1659,7 +1675,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 यदि आप Liquid को अधिक विस्तार से जानना चाहते हैं, तो हम इस विषय पर एक उन्नत तृतीय-वर्षीय पाठ्यक्रम प्रदान करते हैं:
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - **जीडब्ल्यू-335** :
@@ -1677,7 +1693,7 @@ RGB की एक प्रमुख विशेषता Double-spending क�
 RGB के बारे में आपके ज्ञान को बढ़ाने के लिए, हम चौथे वर्ष का प्रशिक्षण पाठ्यक्रम प्रदान करते हैं (कृपया ध्यान दें कि यह अत्यधिक तकनीकी है):
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB, Bitcoin के शीर्ष पर निर्मित कई प्रोटोकॉल में से एक है। जबकि कुछ को दूसरों की तुलना में अधिक व्यापक रूप से अपनाया जाता है, नए प्रोटोकॉल उभरना जारी है। सामान्य सूत्र प्रत्येक Layer को एक विशिष्ट कार्य के लिए अनुकूलित करने का विचार है, जबकि Bitcoin के आधार प्रोटोकॉल की अखंडता और अपरिवर्तनीयता को संरक्षित करना है।
 
@@ -1700,17 +1716,17 @@ RGB, Bitcoin के शीर्ष पर निर्मित कई प्�
 यदि आप एक ऐसा समाधान चाहते हैं जिसमें कोई हस्तक्षेप न हो और आप सीधे अपने बैंक खाते में फिएट मुद्रा प्राप्त करना चाहते हैं, तो ओपननोड जैसी कस्टोडियल सेवाएं एक सुव्यवस्थित अनुभव प्रदान करती हैं:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 जो व्यापारी तकनीकी रूप से अधिक इच्छुक हैं और प्रक्रिया पर पूर्ण नियंत्रण चाहते हैं, उनके लिए BTCPay सर्वर एक शानदार ओपन-सोर्स विकल्प है। मुख्य नुकसान यह है कि इसे स्थापित करने और बनाए रखने के लिए समय की आवश्यकता होती है, साथ ही कुछ तकनीकी ज्ञान की भी आवश्यकता होती है:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 बीच में कहीं, आपको स्विस Bitcoin पे मिलेगा, जो एक उपयोगकर्ता के अनुकूल लेकिन शक्तिशाली समाधान है जो उपयोग में आसानी, कार्यक्षमता और सुरक्षा के बीच एक अच्छा संतुलन बनाता है। यह छोटे खुदरा विक्रेताओं और बड़े व्यवसायों दोनों के लिए अच्छा काम करता है:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Bitcoin को स्वीकार करने से व्यवसाय को कई व्यावहारिक और वित्तीय लाभ मिल सकते हैं। नकदी की तरह ही, Bitcoin ग्राहक और व्यापारी के बीच सीधे भुगतान की अनुमति देता है (पारंपरिक बैंक की कोई आवश्यकता नहीं)। Lightning Network के माध्यम से किए गए भुगतान तत्काल और अंतिम होते हैं, जिससे चार्जबैक का जोखिम कम हो जाता है। और जब व्यापारी अपना Bitcoin (स्व-संरक्षण) रखते हैं, तो उन्हें अधिक वित्तीय स्वायत्तता प्राप्त होती है।
 
@@ -1730,7 +1746,7 @@ Bitcoin को स्वीकार करने से व्यवसाय �
 यदि आप यह जानना चाहते हैं कि Bitcoin को आपके व्यवसाय में किस प्रकार एकीकृत किया जा सकता है (चाहे भुगतान विधि के रूप में, राजकोषीय परिसंपत्ति के रूप में, या दोनों के रूप में) तो हम उस आवश्यकता के अनुरूप एक शुरुआती स्तर का पाठ्यक्रम प्रदान करते हैं:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin, Exchange के माध्यम के रूप में अपनी जगह बना रहा है, तथा कई उद्योगों में इसका उपयोग बढ़ रहा है। Lightning Network ने भुगतान को तेज़ और सस्ता बना दिया है, जिससे व्यापारियों के लिए Bitcoin की अपील और बढ़ गई है।
 
@@ -1774,6 +1790,8 @@ Bitcoin को एक सड़क के रूप में कल्पना
 
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
+
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
 
 
 :::वीडियो आईडी=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
@@ -2054,7 +2072,7 @@ Wallet और सुरक्षा पद्धति का चुनाव �
 अंत में, सुरक्षा काफी हद तक इस बात पर निर्भर करती है कि आप उपकरणों का उपयोग कैसे करते हैं। यदि आप Mnemonic वाक्यांश खो देते हैं, उजागर करते हैं या समझौता करते हैं तो Hardware Wallet आपको बहुत लाभ नहीं देगा। सावधानी और अनुशासन बिटकॉइन खोने के खिलाफ आपकी सबसे अच्छी सुरक्षा है। इस बारे में अधिक जानकारी के लिए, मैं इस लेख को पढ़ने की अत्यधिक अनुशंसा करता हूँ:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### अधिग्रहण के तरीके और लेनदेन की मात्रा
 
@@ -2113,7 +2131,7 @@ KYC एक्सचेंज का सबसे बड़ा नुकसान
 - **P2P प्लेटफ़ॉर्म**: बिस्क, रोबोसैट और पीच जैसे प्लेटफ़ॉर्म पहचान सत्यापन की आवश्यकता के बिना निजी व्यक्तियों के बीच लेन-देन की सुविधा प्रदान करते हैं, लेनदेन को सुरक्षित करने के लिए एस्क्रो सिस्टम का उपयोग करते हैं। यदि दूसरा पक्ष सहयोग नहीं करता है तो इन प्लेटफ़ॉर्म में अभी भी चोरी का जोखिम है, लेकिन एस्क्रो सेवाओं द्वारा जोखिम को कम किया जाता है।
 - **Bitcoin स्वचालित टेलर मशीनें (एटीएम)**: कुछ एटीएम (कियोस्क) आपको नकदी के साथ Bitcoin खरीदने की अनुमति देते हैं, हालांकि शुल्क अधिक होता है, और कुछ में बड़े लेनदेन के लिए आईडी सत्यापन की आवश्यकता होती है।
 - **केवाईसी-मुक्त Exchange प्लेटफॉर्म**: कुछ प्लेटफॉर्म, विशेष रूप से स्विट्जरलैंड में, आपको आईडी सत्यापन की आवश्यकता के बिना Bitcoin की छोटी मात्रा खरीदने की अनुमति देते हैं।
-- **Mining**: व्यक्ति Bitcoin का खनन कर सकते हैं। पुरानी या छोटी मशीनें सुलभ हैं, जो KYC के बिना Bitcoin प्राप्त करने का एक गैर-पारंपरिक तरीका प्रदान करती हैं। Mining pool में शामिल होकर, आप बुनियादी उपकरणों के साथ भी नियमित भुगतान कमा सकते हैं। अधिक जानकारी के लिए, [हमारे Mining ट्यूटोरियल देखें](https://planb.network/tutorials/mining)।
+- **Mining**: व्यक्ति Bitcoin का खनन कर सकते हैं। पुरानी या छोटी मशीनें सुलभ हैं, जो KYC के बिना Bitcoin प्राप्त करने का एक गैर-पारंपरिक तरीका प्रदान करती हैं। Mining pool में शामिल होकर, आप बुनियादी उपकरणों के साथ भी नियमित भुगतान कमा सकते हैं। अधिक जानकारी के लिए, [हमारे Mining ट्यूटोरियल देखें](https://planb.academy/tutorials/mining)।
 - **बिटकॉइन में भुगतान / वेतन**: यदि आप कोई व्यवसाय चलाते हैं, तो आप भुगतान के रूप में Bitcoin स्वीकार कर सकते हैं। यदि आप नौकरीपेशा हैं, तो आपके अधिकार क्षेत्र के आधार पर, आप Bitcoin में भुगतान मांग सकते हैं। ये तरीके आपको KYC के बिना Bitcoin प्राप्त करने की अनुमति देते हैं।
 
 
@@ -2238,6 +2256,8 @@ KYC एक्सचेंज का सबसे बड़ा नुकसान
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 :::वीडियो आईडी=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
 
@@ -2280,22 +2300,22 @@ Bitcoin चक्रों में चलता है; प्रमुख ब
 यहां वॉलेट्स के लिए कुछ ट्यूटोरियल दिए गए हैं जो होल्डर्स के लिए बहुत अच्छे हैं:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 एक बार जब आपका Wallet सेट हो जाए, तो अपने 12- या 24-शब्द रिकवरी वाक्यांश का बैकअप किसी टिकाऊ भौतिक माध्यम पर अवश्य लें। अपने वाक्यांश के लिए कौन सा माध्यम चुनना है, इसके बारे में अधिक जानने के लिए, इस ट्यूटोरियल का पालन करें:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 अतिरिक्त मानसिक शांति के लिए, आप सुरक्षा की परतें जोड़ सकते हैं जैसे:
 
@@ -2303,13 +2323,13 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 - टाइमलॉक के साथ एक मल्टीसिग्नेचर Wallet:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 
 - एक BIP39 passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ![image](assets/hi/076.webp)
 
@@ -2323,13 +2343,13 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 क्योंकि होडलर बड़ी मात्रा में निवेश करते हैं, इसलिए उन्हें मजबूत लिक्विडिटी वाले एक्सचेंज की आवश्यकता होती है। यहाँ कुछ ऐसे एक्सचेंज दिए गए हैं जो बिल के अनुकूल हैं:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
 ![image](assets/hi/077.webp)
 
@@ -2374,7 +2394,7 @@ https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713
 अपनी निजी कुंजियों से समझौता किए बिना अपनी होल्डिंग्स की निगरानी करने के लिए, Watch-only wallet का उपयोग करने पर विचार करें। यह आपको केवल अपनी सार्वजनिक कुंजियों का उपयोग करके शेष राशि और लेनदेन को ट्रैक करने देता है।
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 होडलर की रणनीति सरल लेकिन शक्तिशाली है: खरीदें, सुरक्षित करें और भूल जाएं। असली चुनौती तकनीकी नहीं है; यह मनोवैज्ञानिक है। सबसे कठिन हिस्सा बहुत जल्दी बेचने या कीमत गिरने के दौरान घबराने की इच्छा का विरोध करना है। लेकिन अगर आप अनुशासित रहते हैं और दीर्घकालिक सोचते हैं, तो होडलिंग समय के साथ मूल्य को संरक्षित करने और धन बनाने का एक विश्वसनीय तरीका साबित हुआ है।
 
@@ -2410,6 +2430,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
+
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
 
 
 :::वीडियो आईडी=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
@@ -2459,38 +2481,38 @@ Bitcoin पारिस्थितिकी तंत्र में, स्�
 - **Hot Wallet**: शुरुआती लोगों के लिए आदर्श, मोबाइल या डेस्कटॉप वॉलेट आपको आसानी से Sats प्राप्त करने और भुगतान करने की अनुमति देते हैं। हालाँकि, वे छोटी राशियों के लिए सबसे उपयुक्त हैं। बेहतर UTXO प्रबंधन के कारण लाइटनिंग वॉलेट की तुलना में On-Chain वॉलेट को स्टैकिंग के लिए प्राथमिकता दी जाती है। अनुशंसित सॉफ़्टवेयर वॉलेट: Green Wallet, ब्लू Wallet, Sparrow wallet, बिटकिट, ननचुक, Aqua, प्रोटॉन
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 - **Hardware Wallet**: जैसे-जैसे आपकी Bitcoin होल्डिंग्स बढ़ती हैं, चोरी के जोखिम को कम करने के लिए Cold Wallet के साथ अपने फंड को सुरक्षित करना आवश्यक है। एक गंभीर स्टैकर नियमित रूप से अपने Hot Wallet से Hardware Wallet में फंड स्थानांतरित करता है। उदाहरण: बिटबॉक्स02, ट्रेज़ोर, Ledger, कोल्डकार्ड, जेड...
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 सबसे प्रभावी तरीका दोनों का उपयोग करना है: दैनिक स्टैकिंग के लिए Hot Wallet और दीर्घकालिक Cold स्टोरेज के लिए Hardware Wallet। Hot Wallet उपयोग करने में आसान और सुविधाजनक है। यह आपको अपने बिटकॉइन को प्लेटफ़ॉर्म पर छोड़ने के बजाय जल्दी से अपने कब्जे में लेने की अनुमति देता है जहाँ वे जोखिम के संपर्क में आ सकते हैं। हालाँकि, Hardware Wallet की तुलना में, Hot Wallet बहुत कम सुरक्षा प्रदान करता है। इसलिए स्टैकर को अपनी दीर्घकालिक बचत को सुरक्षित करने और Hot Wallet में बहुत अधिक फंड रखने से बचने के लिए नियमित रूप से अपने फंड को अपने Cold Wallet में स्थानांतरित करना चाहिए। समय-समय पर, स्टैकर Cold स्टोरेज में स्थानांतरित करते समय UTXO को समेकित करता है; भविष्य के लेनदेन शुल्क को अनुकूलित करने के लिए छोटे इनपुट को मर्ज करता है।
 
@@ -2518,37 +2540,37 @@ https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83
 डीसीए प्लेटफॉर्म के उदाहरण:
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 डीसीए का समर्थन करने वाले मुख्यधारा के एक्सचेंज:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 स्टैकर अपनी गोपनीयता को भी बढ़ाना चाह सकते हैं, भले ही यह उनका प्राथमिक लक्ष्य न हो। इस मामले में, उन्हें विनियमित प्लेटफ़ॉर्म के बाहर P2P अधिग्रहण विधि का उपयोग करने पर विचार करना चाहिए। स्वचालित DCA खरीद के विपरीत, इन विधियों के लिए आपको अपनी खरीद रणनीति को मैन्युअल रूप से प्रबंधित करने की आवश्यकता होती है, इसलिए अनुशासन ट्रैक पर बने रहने की कुंजी है।
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3. बिटकॉइन निकालना और सुरक्षित करना
 
@@ -2578,7 +2600,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 सुरक्षा से समझौता किए बिना आसान निगरानी के लिए, सार्वजनिक कुंजी का उपयोग करके शेष राशि पर नज़र रखने के लिए Watch-only wallet सेट करें।
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### अपने स्टेकर प्रोफ़ाइल का मूल्यांकन करें
 
@@ -2607,6 +2629,8 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5
 
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
+
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
 
 
 :::वीडियो आईडी=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
@@ -2670,53 +2694,53 @@ Bitcoin का सक्रिय रूप से उपयोग करने 
 - दीर्घकालिक बचत सुनिश्चित करने के लिए Cold Wallet (Hardware Wallet)।
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
 - दैनिक लेनदेन के लिए एक या अधिक मोबाइल Hot वॉलेट। आम तौर पर, एक सक्रिय उपयोगकर्ता के पास On-Chain Hot Wallet और लाइटनिंग Wallet दोनों होंगे।
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 इस तरह से अपने फंड को अलग करने से रोजमर्रा के भुगतान के लिए उपयोग किए जाने वाले Wallet के साथ छेड़छाड़ होने की स्थिति में जोखिम को कम करने में मदद मिलती है।
 
@@ -2727,22 +2751,22 @@ https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-50
 सक्रिय उपयोगकर्ता अक्सर अपनी व्यक्तिगत परिस्थितियों के आधार पर, विश्वसनीय तृतीय पक्षों पर अपनी निर्भरता कम करने का लक्ष्य रखते हैं। इसे प्राप्त करने के सबसे प्रभावी तरीकों में से एक अपना स्वयं का Bitcoin नोड चलाना है। यह उन्हें अपने लेन-देन की गोपनीयता को बढ़ाते हुए नेटवर्क का स्वतंत्र रूप से उपयोग करने की अनुमति देता है।
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 जो लोग नियमित रूप से Lightning Network का उपयोग करते हैं, उनके लिए अपने स्वयं के LND, LDK या Core-Lightning नोड का प्रबंधन करना एक स्मार्ट कदम हो सकता है। यह उन्हें चैनल खोलने और बंद करने पर पूर्ण नियंत्रण देता है, आत्म-संप्रभुता बढ़ाता है, और लेनदेन शुल्क को कम करने में भी मदद कर सकता है; खासकर जब फीनिक्स जैसे स्वचालित समाधानों या इससे भी बदतर, कस्टोडियल लाइटनिंग वॉलेट्स की तुलना में।
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3. नियमित Bitcoin अधिग्रहण
 
@@ -2760,45 +2784,45 @@ Bitcoin प्राप्त करने के कई तरीके है�
 - बिटफिनेक्स या बुल Bitcoin (आपके Cold Wallet को टॉप अप करने के लिए आदर्श) जैसे विनियमित प्लेटफार्मों के माध्यम से पारंपरिक खरीद;
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - पीच, रोबोसैट्स या Bitcoin एटीएम जैसी पीयर-टू-पीयर सेवाओं के माध्यम से **गैर-केवाईसी अधिग्रहण**; जिससे आप व्यक्तिगत जानकारी का खुलासा किए बिना अपने Wallet में जोड़ सकते हैं।
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Bitcoin** में कमाई, एक सक्रिय उपयोगकर्ता होने का मतलब सिर्फ़ BTC खर्च करना नहीं है; यह इसे कमाने के बारे में भी है। यदि आप कोई व्यवसाय चलाते हैं, तो भुगतान के रूप में Bitcoin स्वीकार करने पर विचार करें। यदि आप एक कर्मचारी हैं, तो देखें कि क्या आपका नियोक्ता आपके वेतन का पूरा या आंशिक भाग BTC में प्राप्त करने का विकल्प प्रदान करता है।
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 ![image](assets/hi/089.webp)
 
@@ -2818,7 +2842,7 @@ Bitcoin खर्च को आसान बनाने के लिए, ब�
 चूंकि हम अभी भी एक संक्रमण चरण में हैं जहां सभी दैनिक व्यापारी बीटीसी स्वीकार नहीं करते हैं, इसलिए कुछ सरल लेकिन प्रभावी समाधान हैं। उदाहरण के लिए, Bitcoin के साथ उपहार कार्ड खरीदना एक व्यावहारिक समाधान है, और बिटरफिल, कॉइन्सबी या Bitcoin कंपनी जैसे कई प्रदाता यह सेवा प्रदान करते हैं।
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. तकनीकी जागरूकता और लचीलापन
 
@@ -2858,6 +2882,8 @@ Bitcoin प्रोटोकॉल, Layer-2 सिस्टम जैसे Lig
 
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
+
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
 
 
 :::वीडियो आईडी=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
@@ -2910,21 +2936,21 @@ Bitcoin प्रोटोकॉल, Layer-2 सिस्टम जैसे Lig
 - **Cold Wallet (एयर-गैप्ड और/या DIY)** दीर्घकालिक होल्डिंग्स को अत्यधिक सुरक्षित, एयर-गैप्ड या DIY वॉलेट में संग्रहीत किया जाता है। ये आम तौर पर ओपन-सोर्स डिवाइस या वे होते हैं जिनमें सत्यापन योग्य कोड होता है, जैसे कि जेड, कोल्डकार्ड, सीडसिग्नर, पोर्टल या पासपोर्ट... जब भी संभव हो, वे इन डिवाइस को गुमनाम रूप से प्राप्त करेंगे; या तो नकद भुगतान करके या किसी भौतिक स्टोर पर Bitcoin का उपयोग करके, या विवेकपूर्ण शिपिंग विकल्पों और B
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
 - रोजमर्रा के लेन-देन के लिए **Hot Wallet**, नियमित खर्च के लिए, पागल उपयोगकर्ता गोपनीयता-केंद्रित वॉलेट जैसे कि आशिगारू, वासाबी Wallet या Sparrow wallet का विकल्प चुनते हैं। ये वॉलेट उन्नत सुविधाओं का समर्थन करते हैं जैसे: मिनी-CoinJoin खर्च लेनदेन, पेजॉइन, संभावित रूप से CoinJoin उपकरण, सिक्का नियंत्रण, UTXO टैगिंग, या अपने स्वयं के Bitcoin नोड के माध्यम से कनेक्ट करने की क्षमता।
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
 ![image](assets/hi/093.webp)
 
@@ -2934,23 +2960,23 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 - अपना खुद का **Bitcoin नोड** चलाना ज़रूरी है। यह लेनदेन प्रसारण पर पूर्ण नियंत्रण सुनिश्चित करता है और तीसरे पक्ष के बुनियादी ढांचे पर निर्भरता से बचाता है। यह गोपनीयता की भी रक्षा करता है, सेंसरशिप को रोकता है, और उन्हें Bitcoin प्रोटोकॉल के नियमों को स्वतंत्र रूप से सत्यापित करने देता है। चाहे लिनक्स, विंडोज, मैकओएस पर हो या रास्पिब्लिट्ज, मायनोड या स्टार्ट9 जैसे प्लग-एंड-प्ले सेटअप के माध्यम से, पागल उपयोगकर्ता अपने नोड को संप्रभुता के एक गैर-परक्राम्य स्तंभ के रूप में मानता है।
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
 - **Lightning Network** पर लेन-देन करने के लिए, नियंत्रण और विवेक के समान स्तर को बनाए रखते हुए, वे अपना स्वयं का लाइटनिंग नोड भी संचालित करते हैं। इससे उन्हें चैनलों को सीधे प्रबंधित करने और इस तरह से खर्च करने की अनुमति मिलती है जिससे निगरानी या कस्टोडियल सेवाओं पर निर्भरता कम से कम हो।
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 ![image](assets/hi/094.webp)
 
@@ -2958,19 +2984,19 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 सुरक्षा यहीं तक सीमित नहीं है। seed वाक्यांशों का बैकअप लेने के लिए, पागल उपयोगकर्ता छेड़छाड़-प्रमाणित सीलबंद लिफाफों के साथ संयुक्त धातु बैकअप का उपयोग करता है। वे नियमित रूप से सत्यापित करते हैं कि बैकअप समझौता रहित रहे और किसी भी आकस्मिकता के लिए तैयार रहने के लिए Wallet पुनर्प्राप्ति प्रक्रियाओं का परीक्षण करें।
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 जब बचत को सुरक्षित करने की बात आती है, तो वे अधिक परिष्कृत सेटअप जैसे मल्टीसिग्नेचर वॉलेट (टाइम लॉक के साथ या बिना) को लागू कर सकते हैं।
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ये विन्यास जोखिम को कम करते हैं। seed वाक्यांश में BIP39 passphrase जोड़ने से सुरक्षा का एक और Layer जुड़ जाता है और यह सुनिश्चित करता है कि एक भी खोज से उनके फंड तक पहुंच से समझौता नहीं किया जा सकता है।
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 एक पागल बिटकॉइनर के पास निश्चित रूप से अपने बिटकॉइन के लिए एक सुविचारित विरासत योजना होगी। इस महत्वपूर्ण विषय को पाठ्यक्रम के अगले भाग में विस्तार से कवर किया जाएगा।
 
@@ -2982,50 +3008,50 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 - **ऑपरेटिंग सिस्टम**, उनके फोन और कंप्यूटर दोनों पर;
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - **प्रमाणीकरण उपकरण**;
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
 - **संचार उपकरण**;
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - **डेटा प्रबंधन उपकरण**.
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 यदि आप आईटी सुरक्षा विषय के बारे में अधिक जानना चाहते हैं, तो हम इस विषय पर समर्पित एक पूर्ण प्रथम वर्ष का पाठ्यक्रम प्रदान करते हैं:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. गुमनाम तरीके से बिटकॉइन खरीदना
 
@@ -3037,21 +3063,21 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 - **P2P खरीदने वाले प्लेटफॉर्म** जैसे कि Bisq, Robosat, LNP2PBot, Peach, HODL HODL, आदि;
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **व्यक्तिगत नकद लेन-देन**, उदाहरण के लिए स्थानीय Bitcoin मीटअप में;
 
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
 - **जीडब्ल्यू-630 एटीएम**;
@@ -3059,11 +3085,11 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 - Mining **बिटकॉइन**.
 
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 केंद्रीकृत एक्सचेंजों से पूरी तरह परहेज किया जाता है क्योंकि उनमें गोपनीयता तथा संभावित सेंसरशिप या जब्ती का खतरा रहता है।
 
@@ -3091,7 +3117,7 @@ https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-5
 जो लोग On-Chain गोपनीयता और निगरानी प्रतिरोध में गहराई से जाना चाहते हैं, उनके लिए हम Bitcoin गोपनीयता प्रथाओं पर एक उन्नत द्वितीय वर्ष का प्रशिक्षण प्रदान करते हैं:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4. सतर्क रहना और अपनी रणनीति को अद्यतन रखना
 
@@ -3153,6 +3179,8 @@ Bitcoin प्रोटोकॉल, Lightning Network, और संबंध�
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 :::वीडियो आईडी=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
@@ -3464,7 +3492,7 @@ Bitcoin उत्तराधिकार योजना बनाने के
 **बधाई हो!** आपने अपनी Bitcoin संपत्ति को सुरक्षित करने में एक महत्वपूर्ण कदम पूरा कर लिया है। अब आप समय-समय पर इसकी समीक्षा करके और टाइमलॉक के साथ Multisig सेटअप को कम करने जैसे अधिक उन्नत समाधानों की खोज करके अपनी विरासत योजना को परिष्कृत कर सकते हैं:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 संदर्भ: [*क्रिप्टोएसेट इनहेरिटेंस प्लानिंग, मालिकों के लिए एक सरल गाइड* - पामेला मॉर्गन, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
@@ -3478,6 +3506,8 @@ https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
+
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
 
 
 :::वीडियो आईडी=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
@@ -3551,39 +3581,39 @@ Sats को नियमित रूप से स्टैक करते र
 - अपनी डिजिटल सुरक्षा को बेहतर बनाने के लिए, हमारे परिचयात्मक सुरक्षा पाठ्यक्रम से शुरुआत करें:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 - यदि आप Bitcoin के आर्थिक और दार्शनिक पक्ष की ओर आकर्षित हैं, तो इन गहन पाठ्यक्रमों को देखें:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 
 - Bitcoin को अपनी कंपनी की रणनीति में एकीकृत करने में रुचि रखने वाले व्यवसाय मालिकों को यह नहीं भूलना चाहिए:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 - Bitcoin के निर्माण और प्रणाली के प्रारंभिक वर्षों के पीछे की आकर्षक कहानी जानने के लिए, मैं इस पाठ्यक्रम की अत्यधिक अनुशंसा करता हूँ:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 - अंत में, यदि आप Bitcoin और इसके पारिस्थितिकी तंत्र के तकनीकी पहलुओं के बारे में उत्सुक हैं, तो इन प्रशिक्षण पाठ्यक्रमों का अन्वेषण करें:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Bitcoin पारिस्थितिकी तंत्र में योगदान करें
 
@@ -3597,7 +3627,7 @@ Bitcoin सिर्फ़ एक वित्तीय साधन नही�
 - **स्थानीय समुदाय में शामिल हों**: अन्य बिटकॉइनर्स से मिलने और नवीनतम घटनाक्रमों पर Exchange विचार प्राप्त करने के लिए कार्यक्रमों, मीटअप और मंचों में भाग लें।
 
 
-यदि आप दूसरों को शिक्षित करने में मदद करना चाहते हैं, तो Plan ₿ Network हमेशा योगदानकर्ताओं की तलाश में रहता है! हमारी सभी शैक्षिक सामग्री ओपन-सोर्स है और GitHub पर होस्ट की गई है। हम सामग्री को विभिन्न भाषाओं में प्रूफ़रीड और अनुवाद करने में मदद करने के लिए योगदानकर्ताओं का स्वागत करते हैं; Exchange में कुछ Sats के लिए! चाहे अभी या बाद में अपनी Bitcoin यात्रा में, आपको Plan ₿ Network के [योगदानकर्ताओं के लिए हमारे टेलीग्राम समूह](https://t.me/PlanBNetwork_ContentBuilder) में शामिल होने के लिए आमंत्रित किया जाता है।
+यदि आप दूसरों को शिक्षित करने में मदद करना चाहते हैं, तो Plan ₿ Academy हमेशा योगदानकर्ताओं की तलाश में रहता है! हमारी सभी शैक्षिक सामग्री ओपन-सोर्स है और GitHub पर होस्ट की गई है। हम सामग्री को विभिन्न भाषाओं में प्रूफ़रीड और अनुवाद करने में मदद करने के लिए योगदानकर्ताओं का स्वागत करते हैं; Exchange में कुछ Sats के लिए! चाहे अभी या बाद में अपनी Bitcoin यात्रा में, आपको Plan ₿ Academy के [योगदानकर्ताओं के लिए हमारे टेलीग्राम समूह](https://t.me/PlanBNetwork_ContentBuilder) में शामिल होने के लिए आमंत्रित किया जाता है।
 
 
 ### अंतिम शब्द
@@ -3606,7 +3636,7 @@ Bitcoin सिर्फ़ एक वित्तीय साधन नही�
 BTC102 कोर्स लेने के लिए आपका बहुत बहुत धन्यवाद।
 
 
-मेरा नाम रोजजी है, मैं Découvre Bitcoin का संस्थापक और Plan ₿ Network का सह-संस्थापक हूं; यह एक ऐसा मंच है जो हमारे अविश्वसनीय नए साझेदारों, टेदर और फुलगुर वेंचर्स, और Bitcoin के बारे में अधिक से अधिक लोगों को शिक्षित करने के हमारे साझा मिशन द्वारा संभव बनाया गया है।
+मेरा नाम रोजजी है, मैं Découvre Bitcoin का संस्थापक और Plan ₿ Academy का सह-संस्थापक हूं; यह एक ऐसा मंच है जो हमारे अविश्वसनीय नए साझेदारों, टेदर और फुलगुर वेंचर्स, और Bitcoin के बारे में अधिक से अधिक लोगों को शिक्षित करने के हमारे साझा मिशन द्वारा संभव बनाया गया है।
 
 
 आपकी प्रतिक्रिया अविश्वसनीय रूप से मूल्यवान है। प्लेटफ़ॉर्म पर टिप्पणी छोड़ने के लिए स्वतंत्र महसूस करें और हमें बताएं कि पाठ्यक्रम के इस अद्यतन संस्करण के बारे में आपको क्या लगा। आपके सुझाव हमें अपनी सामग्री की गुणवत्ता में सुधार करने में मदद करते हैं।
@@ -3618,7 +3648,7 @@ BTC102 कोर्स लेने के लिए आपका बहुत �
 आपको कामयाबी मिले!
 
 
-मुझे उम्मीद है कि जल्द ही मैं आपसे Plan ₿ Network पर किसी अन्य कोर्स में फिर से मिलूंगा; चाहे वह मेरा हो या समुदाय के किसी अन्य अद्भुत शिक्षक का। और कौन जानता है, शायद हम किसी सम्मेलन, कार्यक्रम या Bitcoin मीटअप में व्यक्तिगत रूप से भी मिलें।
+मुझे उम्मीद है कि जल्द ही मैं आपसे Plan ₿ Academy पर किसी अन्य कोर्स में फिर से मिलूंगा; चाहे वह मेरा हो या समुदाय के किसी अन्य अद्भुत शिक्षक का। और कौन जानता है, शायद हम किसी सम्मेलन, कार्यक्रम या Bitcoin मीटअप में व्यक्तिगत रूप से भी मिलें।
 
 
 एक बार फिर, आप इतनी दूर तक आ गए हैं इसके लिए बधाई। और याद रखें; मेरा प्राथमिक लक्ष्य हमेशा एक ही रहेगा:

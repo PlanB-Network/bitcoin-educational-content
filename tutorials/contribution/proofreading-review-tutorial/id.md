@@ -1,25 +1,25 @@
 ---
 name: Pemeriksaan atau Peninjauan konten
-description: Bagaimana cara berpartisipasi dalam peninjauan konten edukasi di Plan ₿ Network?
+description: Bagaimana cara berpartisipasi dalam peninjauan konten edukasi di Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## Dalam Ringkasan
 
-Jika Anda ingin berpartisipasi dalam meninjau dan mengoreksi konten untuk Plan ₿ Network, bergabunglah dengan [grup Telegram kami] (https://t.me/PlanBNetwork_ContentBuilder) yang didedikasikan untuk kontribusi. Perkenalkan diri Anda secara singkat, lalu tentukan konten yang ingin Anda tinjau dan bahasanya. Lakukan koreksi Anda di cabang yang sedang bekerja dan kirimkan PR setelah tinjauan Anda selesai.
+Jika Anda ingin berpartisipasi dalam meninjau dan mengoreksi konten untuk Plan ₿ Academy, bergabunglah dengan [grup Telegram kami] (https://t.me/PlanBNetwork_ContentBuilder) yang didedikasikan untuk kontribusi. Perkenalkan diri Anda secara singkat, lalu tentukan konten yang ingin Anda tinjau dan bahasanya. Lakukan koreksi Anda di cabang yang sedang bekerja dan kirimkan PR setelah tinjauan Anda selesai.
 
 Jika Anda tidak memahami bagian di atas, jangan khawatir-tutorial ini cocok untuk Anda!
 
 ---
-## Apa yang dimaksud dengan Plan ₿ Network?
+## Apa yang dimaksud dengan Plan ₿ Academy?
 
-Plan ₿ Network adalah sebuah platform untuk mempelajari Bitcoin melalui berbagai kursus dan tutorial untuk semua orang. Saat ini, semua konten kami bersifat open-source, dihosting di repositori GitHub, dan terbuka untuk kontribusi tinjauan dan pembuatan konten.
+Plan ₿ Academy adalah sebuah platform untuk mempelajari Bitcoin melalui berbagai kursus dan tutorial untuk semua orang. Saat ini, semua konten kami bersifat open-source, dihosting di repositori GitHub, dan terbuka untuk kontribusi tinjauan dan pembuatan konten.
 
-Plan ₿ Network bertujuan untuk menjadi alun-alun publik dunia maya Bitcoin, menghubungkan dan mendorong komunitas Bitcoin di seluruh dunia.
+Plan ₿ Academy bertujuan untuk menjadi alun-alun publik dunia maya Bitcoin, menghubungkan dan mendorong komunitas Bitcoin di seluruh dunia.
 
 ## Mengapa berkontribusi?
 
-Plan ₿ Network pada dasarnya multibahasa, karena tujuan kami adalah membuat sumber daya Bitcoin dapat diakses oleh semua orang di seluruh dunia. Kami percaya bahwa bahasa seharusnya tidak menjadi penghalang untuk uang yang berdaulat.
+Plan ₿ Academy pada dasarnya multibahasa, karena tujuan kami adalah membuat sumber daya Bitcoin dapat diakses oleh semua orang di seluruh dunia. Kami percaya bahwa bahasa seharusnya tidak menjadi penghalang untuk uang yang berdaulat.
 
 Untuk mencapai hal ini, kami menggunakan pendekatan Human x AI. Melalui [program] (https://github.com/Asi0Flammeus/LLM-Translator), kami dapat menerjemahkan konten kami secara otomatis ke dalam banyak bahasa. Namun, kami membutuhkan pembicara yang fasih untuk memeriksanya guna memastikan konten tersebut dapat dimengerti dan bebas dari istilah-istilah yang tidak tepat.
 
@@ -33,20 +33,20 @@ Anda tidak perlu menjadi ahli GitHub untuk meninjau konten. Meskipun akan lebih 
 
 Namun, jika Anda tidak terbiasa dengan Git dan GitHub dan ingin mempelajari lebih lanjut, Anda dapat melihat artikel pengantar kami tentang alat bantu ini:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Membuat akun
 
 
 - Buat akun di [GitHub](https://github.com/) untuk mulai berkontribusi. Jika Anda menginginkan panduan untuk membuat akun GitHub, kami juga memiliki tutorial terperinci:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Anda juga memerlukan akun di aplikasi perpesanan [Telegram](https://telegram.org/).
 
 ## 2. Bergabung dengan grup Telegram
 
 
-- Bergabunglah dengan [grup Pembangun Konten PBN] (https://t.me/PlanBNetwork_ContentBuilder) di Telegram.
+- Bergabunglah dengan [grup Pembangun Konten Plan ₿ Academy] (https://t.me/PlanBNetwork_ContentBuilder) di Telegram.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -82,7 +82,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/06.webp)
 
-NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di jendela terpisah. Sebagai contoh, Anda dapat melihat teks di situs web Plan ₿ Network atau di pratinjau GitHub pada tab browser. Gunakan `ctrl + F` untuk menemukan kesalahan dan melakukan koreksi dalam tampilan kode saat Anda melakukannya.
+NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di jendela terpisah. Sebagai contoh, Anda dapat melihat teks di situs web Plan ₿ Academy atau di pratinjau GitHub pada tab browser. Gunakan `ctrl + F` untuk menemukan kesalahan dan melakukan koreksi dalam tampilan kode saat Anda melakukannya.
 
 ## 4. Melakukan perubahan
 
@@ -113,7 +113,7 @@ NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di
 
 - Jika Anda belum menyelesaikan tinjauan Anda dan ingin melanjutkan pekerjaan Anda nanti, Anda bisa langsung keluar.
 - Selama Anda telah melakukan perubahan, perubahan tersebut akan tersimpan di fork GitHub Anda.
-- Untuk melanjutkan pekerjaan Anda, buka repositori konten Plan ₿ Network melalui profil GitHub Anda.
+- Untuk melanjutkan pekerjaan Anda, buka repositori konten Plan ₿ Academy melalui profil GitHub Anda.
 
 ![REVIEW](assets/fr/14.webp)
 
@@ -138,17 +138,17 @@ NB. Disarankan untuk meninjau di jendela kode, dengan konten asli ditampilkan di
 
 ## 6. Aturan yang harus diikuti saat melakukan proofreading konten
 
-Untuk mengetahui lebih lanjut tentang pedoman yang harus diikuti saat melakukan proofreading di Plan ₿ Network terkait dengan aturan bahasa atau format, silakan merujuk ke tutorial "contribution-proofreading-guidelines" di bagian yang sama ini!
+Untuk mengetahui lebih lanjut tentang pedoman yang harus diikuti saat melakukan proofreading di Plan ₿ Academy terkait dengan aturan bahasa atau format, silakan merujuk ke tutorial "contribution-proofreading-guidelines" di bagian yang sama ini!
 
 ## 7. Tunggu ulasan
 
 
-- Selamat, PR Anda telah diajukan! Anda dapat melacak perkembangannya di tab "Pull request" di [Repositori GitHub Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Selamat, PR Anda telah diajukan! Anda dapat melacak perkembangannya di tab "Pull request" di [Repositori GitHub Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
 
-- Terima kasih banyak atas kontribusi Anda! Setelah disetujui, anggota tim Plan ₿ Network akan menghubungi Anda untuk mengirimkan hadiah. \**Pembayaran dilakukan secara eksklusif melalui Lightning Network\**.
+- Terima kasih banyak atas kontribusi Anda! Setelah disetujui, anggota tim Plan ₿ Academy akan menghubungi Anda untuk mengirimkan hadiah. \**Pembayaran dilakukan secara eksklusif melalui Lightning Network\**.
 - Jika Anda ingin memulai lagi, kembali ke langkah 2 dan kirim pesan baru di grup Telegram untuk terus berkontribusi pada konten lainnya. Pastikan untuk menyinkronkan fork Anda sebelum membuat cabang baru yang berfungsi. Untuk melakukan ini, masuk ke beranda fork Anda, pilih cabang utama bernama `dev` (lih. \**A\**), lalu klik tombol "Sinkronisasi fork" (lih. \**B\**). Jika pembaruan tersedia untuk fork Anda, tombol "Perbarui cabang" akan muncul. Cukup klik untuk melakukan pembaruan.
 
 ![REVIEW](assets/fr/16.webp)

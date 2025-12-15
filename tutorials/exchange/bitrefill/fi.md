@@ -6,7 +6,7 @@ description: Kuinka ostaa tavaroita ja palveluita BTC:llä käyttäen Bitrefilli
 
 Vaikka Bitcoinia pidetään ensisijaisesti säästämisen välineenä nykyään, se on edelleen valuutta, jonka hyödyllisyys perustuu sen kykyyn kiertää kädestä käteen. Jos ympärilläsi olevat kauppiaat hyväksyvät Bitcoinin maksutavaksi, sinulla on mahdollisuus käyttää sitä suoraan heidän kanssaan. Valitettavasti tämä käytäntö ei ole vielä laajalle levinnyt, ja useimmat kauppiaat eivät vielä hyväksy BTC:tä natiivisti.
 
-Paras ratkaisu on "oranssikapseloida" paikalliset kauppiaat saadaksesi heidät hyväksymään Bitcoinin, selittämällä tämän järjestelmän etuja. Voit käyttää sivustomme ["*kauppiaat*"](https://planb.network/tutorials/merchant) -osiossa olevia ohjeita tukena. Tämä strategia voi olla tehokas pienten itsenäisten kauppiaiden kanssa, mutta se osoittautuu monimutkaisemmaksi suurten kansallisten ketjujen kanssa, koska paikan päällä olevat yhteyshenkilöt eivät yleensä ole niitä, jotka tekevät päätöksiä maksutavoista.
+Paras ratkaisu on "oranssikapseloida" paikalliset kauppiaat saadaksesi heidät hyväksymään Bitcoinin, selittämällä tämän järjestelmän etuja. Voit käyttää sivustomme ["*kauppiaat*"](https://planb.academy/tutorials/merchant) -osiossa olevia ohjeita tukena. Tämä strategia voi olla tehokas pienten itsenäisten kauppiaiden kanssa, mutta se osoittautuu monimutkaisemmaksi suurten kansallisten ketjujen kanssa, koska paikan päällä olevat yhteyshenkilöt eivät yleensä ole niitä, jotka tekevät päätöksiä maksutavoista.
 
 Odotettaessa näiden ketjujen laajempaa omaksumista, voit käyttää bitcoinejasi välillisellä maksutavalla: lahjakorteilla. Ja juuri tämän Bitrefill tarjoaa sinulle.
 
@@ -28,9 +28,9 @@ Anna sähköpostiosoite. Jos haluat pitää tilisi anonyyminä, varmista, että 
 ![BITREFILL](assets/notext/05.webp)
 Jos haluat oppia, kuinka luoda helposti turvallinen sähköpostilaatikko ja hallita salasanojasi, suosittelen tutustumaan näihin kahteen muuhun ohjeeseen:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sen jälkeen napsauta "*Luo tili*" -painiketta.
 ![BITREFILL](assets/notext/06.webp)
@@ -44,7 +44,7 @@ Ja siirry "*Kirjautuminen & Turvallisuus*" -välilehteen.
 Kaksivaiheisen tunnistautumisen osiossa, napsauta "*Ota käyttöön*" -painiketta ja seuraa asennusprosessia.
 Jos haluat tietää lisää siitä, miten kaksivaiheista tunnistautumista voidaan käyttää online-tilien suojaamiseen, suosittelen tutustumaan tähän toiseen oppaaseen:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Miten ostaa lahjakortti BTC:llä Bitrefillissä?
 
@@ -68,4 +68,4 @@ Ja siinä se on, nyt tiedät, miten voit käyttää bitcoinejasi ilman KYC:tä s
 
 Jos haluat edistää Bitcoinin suosion kasvua ja kannustaa itsenäistä kauppiasta omaksumaan tämän maksutavan, suosittelen tutustumaan kattavaan oppaaseemme Swiss Bitcoin Paysta. Se on kaiken kattava ratkaisu BTC-maksuprosessoreille, helppo asentaa ja hallita päivittäin:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

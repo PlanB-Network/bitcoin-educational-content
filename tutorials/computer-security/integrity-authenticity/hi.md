@@ -234,4 +234,4 @@ sparrow_2.0.0-1_amd64.deb: OK
 मैं वेराक्रिप्ट पर इस अन्य ट्यूटोरियल को भी देखने की सलाह देता हूं, यह एक सॉफ्टवेयर है जो आपको स्टोरेज डिवाइस को एन्क्रिप्ट और डिक्रिप्ट करने की अनुमति देता है।
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

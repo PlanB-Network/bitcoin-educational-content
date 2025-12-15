@@ -1,7 +1,7 @@
 question: In welke programmeertaal is Bitcoin core geschreven?
 answer: C++
 wrong_answers:
-  - Ga naar
+  - Go
   - JavaScript
   - Rust
 explanation: |

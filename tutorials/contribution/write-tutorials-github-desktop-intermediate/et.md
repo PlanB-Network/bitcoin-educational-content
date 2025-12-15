@@ -1,12 +1,12 @@
 ---
 name: Panus - õpetus GitHubi töölaua abil (vahepealne)
-description: Täielik juhend, kuidas teha ettepanek õpetuse kohta Plan ₿ Network kasutades GitHubi töölauda
+description: Täielik juhend, kuidas teha ettepanek õpetuse kohta Plan ₿ Academy kasutades GitHubi töölauda
 ---
 ![cover](assets/cover.webp)
 
 Enne selle uue õpetuse lisamise õpetuse järgimist peate olema teinud mõned eeltegevused. Kui te pole seda veel teinud, siis kutsun teid üles kõigepealt tutvuma selle sissejuhatava õpetusega ja seejärel tulema siia tagasi:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 Te olete juba:
 
 
@@ -19,13 +19,13 @@ Selles õpetuses näeme, kuidas lisada oma õpetus Plan ₿ võrgustikku, luues 
 
 - **Kogenud kasutajad**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Kui te ei soovi oma lokaalset keskkonda luua, järgige seda teist, algajatele mõeldud õpetust, kus me teeme muudatused otse GitHubi veebiliidese kaudu:
 
 
 - **Algajad (veebiliides)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Eeltingimused
 
 Selle õpetuse jälgimiseks vajalik tarkvara:
@@ -41,12 +41,12 @@ Eeltingimused enne õpetuse alustamist:
 
 
 - Kas teil on [GitHubi konto](https://github.com/signup);
-- On olemas [Plan ₿ Network source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
-- Omama [professori profiili Plan ₿ Network](https://planb.network/professors) (ainult juhul, kui te esitate täieliku õpetuse).
+- On olemas [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Omama [professori profiili Plan ₿ Academy](https://planb.academy/professors) (ainult juhul, kui te esitate täieliku õpetuse).
 
 Kui vajate abi nende eelduste hankimisel, siis minu teised õpetused aitavad teid:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 Kui kõik on paigas ja teie kohalik keskkond on korralikult seadistatud koos oma Plan ₿ Networki haruga, võite alustada õpetuse lisamist.
 
 
@@ -76,7 +76,7 @@ Klõpsake sellel harul, seejärel klõpsake nupule "Uus haru":
 
 ![TUTO](assets/fr/08.webp)
 
-Veenduge, et uus haru põhineb lähtematerjalide repositooriumil, nimelt `PlanB-Network/bitcoin-educational-content`.
+Veenduge, et uus haru põhineb lähtematerjalide repositooriumil, nimelt `Plan ₿ Academy/bitcoin-educational-content`.
 
 Nimetage oma filiaal nii, et pealkirjast oleks selgelt näha selle eesmärk, kasutades iga sõna eraldamiseks mõttekriipsu. Ütleme näiteks, et meie eesmärk on kirjutada õpetus Sparrow Wallet tarkvara kasutamise kohta. Sellisel juhul võiks selle õpetuse kirjutamisele pühendatud tööharu nimetada: `tuto-sparrow-wallet-loic`. Kui sobiv nimi on sisestatud, klõpsake haru loomise kinnitamiseks nuppu `Create branch`:
 
@@ -103,7 +103,7 @@ Sa pead installima oma masinasse:
 
 - Python 3.8 või uuem.
 
-Skripti kasutamiseks navigeerige kausta, kus see on salvestatud. Skript asub teekonnal Plan ₿ Network data repository: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+Skripti kasutamiseks navigeerige kausta, kus see on salvestatud. Skript asub teekonnal Plan ₿ Academy data repository: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 Kui olete kaustas, installige sõltuvused:
 
@@ -144,7 +144,7 @@ See toiming täidab automaatselt teie professori UUID vastavasse välja.
 
 Kui teil ei ole veel professori profiili, vaadake seda õpetust:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Seejärel klõpsake nupule "Uus õpetus".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -161,7 +161,7 @@ Valige spetsiaalselt teie õpetuse jaoks loodud kataloogile nimi. Selle kausta n
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` on õpetuses käsitletava tööriista taga oleva ettevõtte või organisatsiooni UUID, mis on saadaval [projektide nimekirjas](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks Sparrow Wallet'i õpetuse puhul leiate selle `project_id` failist: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. See teave lisatakse teie õpetuse YAML-faili, sest Plan ₿ Network haldab andmebaasi Bitcoini või sellega seotud projektidega tegelevate ettevõtete ja organisatsioonide kohta. Lisades seotud `project_id`, seote oma sisu vastava üksusega.
+`project_id` on õpetuses käsitletava tööriista taga oleva ettevõtte või organisatsiooni UUID, mis on saadaval [projektide nimekirjas](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks Sparrow Wallet'i õpetuse puhul leiate selle `project_id` failist: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. See teave lisatakse teie õpetuse YAML-faili, sest Plan ₿ Academy haldab andmebaasi Bitcoini või sellega seotud projektidega tegelevate ettevõtete ja organisatsioonide kohta. Lisades seotud `project_id`, seote oma sisu vastava üksusega.
 
 ***Update:*** Skripti uues versioonis ei ole enam vaja käsitsi sisestada `project_id`. Lisatud on otsingufunktsioon, mis otsib projekti nime järgi ja hangib automaatselt vastava `project_id`. Projekti otsimiseks sisestage projekti nime algus väljale `Projekti nimi` ja valige seejärel rippmenüüst soovitud ettevõte. Projekti_id` täidetakse automaatselt allolevasse väljale. Vajaduse korral võite selle ka käsitsi sisestada.
 
@@ -183,7 +183,7 @@ Lisateavet selle Pythoni skripti kohta leiate ka [README](https://github.com/Pla
 
 Avage oma failihaldur ja navigeerige kausta `bitcoin-educational-content`, mis kujutab endast teie repositooriumi kohalikku klooni. Tavaliselt peaksite selle leidma aadressil `Documents\GitHub\bitcoin-educational-content`.
 
-Selles kataloogis peate leidma sobiva alamkataloogi, kuhu paigutate oma õpetuse. Kaustade korraldus kajastab Plan ₿ Network veebilehe erinevaid jaotisi. Meie näites, kuna me tahame lisada õpetuse Sparrow Wallet'i kohta, peaksime navigeerima järgmisele teele: `bitcoin-educational-content\tutorials\wallet`, mis vastab veebisaidi jaotisele `WALLET`:
+Selles kataloogis peate leidma sobiva alamkataloogi, kuhu paigutate oma õpetuse. Kaustade korraldus kajastab Plan ₿ Academy veebilehe erinevaid jaotisi. Meie näites, kuna me tahame lisada õpetuse Sparrow Wallet'i kohta, peaksime navigeerima järgmisele teele: `bitcoin-educational-content\tutorials\wallet`, mis vastab veebisaidi jaotisele `WALLET`:
 
 ![TUTO](assets/fr/12.webp)
 
@@ -251,7 +251,7 @@ Siin on kohustuslikud väljad:
 
 - **id**: UUID (_Universally Unique Identifier_), mis võimaldab õpetust ainulaadselt tuvastada. Selle saab luua [veebitööriista](https://www.uuidgenerator.net/version4) abil. Ainus nõue on, et see UUID oleks juhuslik, et vältida konflikte teiste platvormil olevate UUID-dega;
 
-- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Network haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
+- **project_id**: Ettevõtte või organisatsiooni UUID, mis on seotud õpetuses esitatud tööriistaga [projektide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Näiteks kui loote õpetust Green Walleti tarkvara kohta, leiate `project_id` järgmisest failist: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. See teave lisatakse teie õpetuse YAML-faili, kuna Plan ₿ Academy haldab kõigi Bitcoiniga seotud ettevõtete ja organisatsioonide andmebaasi. Lisades oma õpetusega seotud üksuse `project_id`, loote seose kahe elemendi vahel;
 
 - **tags**: 2 või 3 õpetuse sisuga seotud märksõna, mis valitakse ainult [Plan ₿ Networki siltide loendist](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
@@ -276,7 +276,7 @@ Siin on kohustuslikud väljad:
 
 Lisateavet õpetaja ID kohta leiate vastavast juhendmaterjalist:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -380,7 +380,7 @@ Diagrammi lisamiseks oma dokumenti kasutage järgmist Markdown-käsku, märkides
 
 Hüüumärk alguses näitab, et tegemist on pildiga. Alternatiivne tekst, mis aitab kaasa ligipääsetavusele ja SEO-le, on paigutatud sulgude vahele. Lõpuks on sulgude vahel märgitud pildi tee.
 
-Kui soovite luua oma diagrammid, järgige kindlasti Plan ₿ Network'i graafilist põhikirja, et tagada visuaalne järjepidevus:
+Kui soovite luua oma diagrammid, järgige kindlasti Plan ₿ Academy'i graafilist põhikirja, et tagada visuaalne järjepidevus:
 
 
 - **Font**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -389,7 +389,7 @@ Kui soovite luua oma diagrammid, järgige kindlasti Plan ₿ Network'i graafilis
  - Must: #000000
  - Valge: #FFFFFF
 
-**On oluline, et kõik teie õppematerjalidesse integreeritud visuaalid oleksid vabad või järgiksid lähtefaili litsentsi**. Samuti on kõik Plan ₿ Network'is avaldatud diagrammid tehtud kättesaadavaks CC-BY-SA litsentsi alusel, samamoodi nagu tekst.
+**On oluline, et kõik teie õppematerjalidesse integreeritud visuaalid oleksid vabad või järgiksid lähtefaili litsentsi**. Samuti on kõik Plan ₿ Academy'is avaldatud diagrammid tehtud kättesaadavaks CC-BY-SA litsentsi alusel, samamoodi nagu tekst.
 
 **-> Vihje:** Kui jagate faile avalikult, näiteks pilte, on oluline eemaldada kõik ebavajalikud metaandmed. Need võivad sisaldada tundlikku teavet, nagu asukohaandmed, loomise kuupäevad või üksikasjad autori kohta. Privaatsuse kaitsmiseks on soovitatav need metaandmed kustutada. Selle protsessi lihtsustamiseks saate kasutada spetsiaalseid tööriistu, nagu [Exif Cleaner](https://exifcleaner.com/), mis võimaldab dokumendi metaandmete puhastamist lihtsa lohistamise abil.
 
@@ -419,7 +419,7 @@ Saate veelkord kontrollida, et teie muudatused on korrektsed, seejärel klõpsak
 
 ![TUTO](assets/fr/32.webp)
 
-Pull Request on taotlus, mis on tehtud teie haru muudatuste integreerimiseks Plan ₿ Network'i repositooriumi põhiharusse, mis võimaldab muudatusi enne nende ühendamist läbi vaadata ja arutada.
+Pull Request on taotlus, mis on tehtud teie haru muudatuste integreerimiseks Plan ₿ Academy'i repositooriumi põhiharusse, mis võimaldab muudatusi enne nende ühendamist läbi vaadata ja arutada.
 
 Teid suunatakse automaatselt GitHubi brauseris teie Pull Requesti ettevalmistamise lehele:
 

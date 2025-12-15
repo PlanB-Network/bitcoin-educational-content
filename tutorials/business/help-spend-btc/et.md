@@ -13,7 +13,7 @@ description: Lühike juhend, et motiveerida kliente kulutama oma bitcoin'e teie 
 Olete lõpuks otsustanud oma ettevõttes Bitcoin vastu võtta ja kõik on valmis: Lightning Network Wallet on maksete vastuvõtmiseks seadistatud, teie töötajad teavad, kuidas kasutada Wallet ainult lugemisfunktsiooniga versiooni, et teie nimel makseid vastu võtta, müügipunkt (PoS) on seadistatud kaupluse toodetega ja seda on igakuiselt uuendatud ning te teate juba, kuidas hallata Bitcoin raamatupidamist klientidelt. Kui te ei tea, kuidas seda teha, vaadake seda õpetust:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Mis on probleem
 
@@ -129,7 +129,7 @@ Rakendusmeetod on jäetud kaupmehe otsustada, kuid lühidalt on siin mõned olem
 Igal juhul on alati hea tava veenduda, et teie ettevõte, kui sellel on füüsiline asukoht, oleks esindatud ja ajakohane [BTC Map](https://btcmap.org/map)-is. Enamik bitcoini kasutajaid on selle tööriistaga tuttavad ja peaaegu kõik, kes on kulutanud bitcoini füüsilistes poodides, on vähemalt korra kontrollinud, millised kohad seda aktsepteerivad. Kui soovite teada saada, kuidas oma poodi BTC Mapi lisada või rohkem teavet saada, vaadake seda õpetust:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Raamatupidamise juhtimine
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Kui te ei tea, kuidas hallata äsja teenitud bitcoinide raamatupidamist, olenemata sellest, kas olete kohaldanud ühte allahindluse poliitikast või mitte, siis see on teie jaoks mõeldud õpetus:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Kokkuvõte
 

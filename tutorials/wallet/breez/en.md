@@ -63,7 +63,7 @@ Then activate the **Chiffer backup** option: this will reveal the keywords in yo
 Then follow the instructions to confirm your backup and connect your remote backup account to the Breez wallet.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **IMPORTANT**: To add an extra layer of security to your Breez wallet, you can define a PIN code and set it to authenticate that access to the wallet is authorized.
 

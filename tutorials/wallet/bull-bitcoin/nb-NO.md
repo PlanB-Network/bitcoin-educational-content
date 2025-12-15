@@ -151,9 +151,9 @@ Ellers klikker du på "**Opprett ny Wallet**" :
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 3.3 Sikring av tilgang :
 
@@ -994,8 +994,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Ordliste] (https://planb.network/fr/resources/glossary/payjoin)
-- Chapitre [Les transactions PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
+- [Ordliste] (https://planb.academy/fr/resources/glossary/payjoin)
+- Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Ordliste] (https://planb.network/fr/resources/glossary/rbf-replacebyfee)
+- [Ordliste] (https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1039,8 +1039,8 @@ Følg disse anbefalingene for å bruke **Bull Bitcoin Mobile** sikkert og effekt
 
 
 - **Sikre gjenopprettingsfrasen din**:
- - Veiledning: [Save your Mnemonic phrase](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
+ - Veiledning: [Save your Mnemonic phrase](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+ - Cours [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
 
@@ -1119,39 +1119,39 @@ Følg disse anbefalingene for å bruke **Bull Bitcoin Mobile** sikkert og effekt
 
 
 
-- Læring og veiledning:** ** **[Plan ₿ Network](https://planb.network/)** :
+- Læring og veiledning:** ** **[Plan ₿ Academy](https://planb.academy/)** :
  - Sikre gjenopprettingsfrasen din
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
 - **Liquid Network** :
-- [Ordliste](https://planb.network/resources/glossary/liquid-network)
+- [Ordliste](https://planb.academy/resources/glossary/liquid-network)
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 
 - **Lightning Network**:
-- [Ordliste](https://planb.network/resources/glossary/lightning-network)
+- [Ordliste](https://planb.academy/resources/glossary/lightning-network)
 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 ### A5. Bull Bitcoin

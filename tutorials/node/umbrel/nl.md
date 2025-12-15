@@ -710,7 +710,7 @@ De Tor-verbinding is nodig als je toegang wilt tot je node buiten je lokale netw
 Voor meer informatie over Sparrow wallet software hebben we een uitgebreide handleiding:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Conclusie
 
 

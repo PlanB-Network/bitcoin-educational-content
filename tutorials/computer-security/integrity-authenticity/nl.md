@@ -234,4 +234,4 @@ Als je deze handleiding nuttig vond, zou ik een duim omhoog hieronder op prijs s
 Ik raad ook aan om deze andere tutorial over VeraCrypt te bekijken, een software waarmee je opslagapparaten kunt versleutelen en ontsleutelen.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

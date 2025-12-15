@@ -64,7 +64,7 @@ Untuk informasi lebih lanjut mengenai cara memilih perlengkapan Anda, saya saran
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Peralatan yang direkomendasikan
 
@@ -192,7 +192,7 @@ Untuk detail lebih lanjut tentang proses instalasi Ubuntu, silakan lihat tutoria
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. pembaruan sistem
 
@@ -428,7 +428,7 @@ Sistem kemudian akan meminta Anda memasukkan kata sandi yang Anda pilih, lalu me
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Mengotorisasi pengguna untuk menggunakan Docker
 
@@ -1068,7 +1068,7 @@ Untuk memperdalam pengetahuan Anda tentang IBD dan, secara umum, tentang pengope
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Pemantauan sinkronisasi

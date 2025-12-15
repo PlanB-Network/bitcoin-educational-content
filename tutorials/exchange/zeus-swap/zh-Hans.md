@@ -1,5 +1,5 @@
 ---
-name: 宙斯交换
+name: Zeus Swap
 description: 介于 On-Chain 和 Lightning Network 比特币之间的非托管 Exchange 服务
 ---
 
@@ -51,7 +51,7 @@ Zeus Swap 使用 Boltz 的开源 Bitcoin/Lightning 原子交换技术。该协�
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### 业务模式
 
@@ -149,7 +149,7 @@ Zeus Swap 可根据网络条件自动调整到期时间和 Mining 费用。Zeus 
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### 网络配置
 

@@ -3,7 +3,7 @@ name: Bitaxe
 description: 如何设置BitAxe？
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### 引言
+## 介绍
 
 BitAxe是由Skot创建并在[GitHub上可用](https://github.com/skot/bitaxe)的开源项目，它允许进行成本效益高的挖矿实验。
 
@@ -20,7 +20,7 @@ BitAxe有几个版本，芯片和性能各不相同：
 
 在本教程中，我们将使用配备BM1366芯片的BitAxe Ultra 204，用于Antminer S19XP。这个已经由零售商组装和刷新。
 
-### [零售商列表可在此页面上找到](https://bitaxe.org/legit.html)
+[经销商列表可在此页面上查看](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 
@@ -28,7 +28,7 @@ BitAxe有几个版本，芯片和性能各不相同：
 
 ![signup](assets/1.webp)
 
-### 配置
+## 配置
 当你首次插入你的BitAxe时，它会默认尝试连接到Wi-Fi网络。经过五次尝试后，它会显示自己的Wi-Fi网络名称，以便你可以连接并配置它。
 为此，你可以使用任何电脑或智能手机。转到你的Wi-Fi设置，搜索新网络，你会看到一个名为Bitaxe_XXXX的Wi-Fi。这里是`Bitaxe_A859`。连接到这个Wi-Fi网络，一个窗口会自动打开。
 
@@ -46,7 +46,7 @@ BitAxe有几个版本，芯片和性能各不相同：
 
 如屏幕所示，您需要移除`stratum+tcp://`和`:3333`部分，只留下`eu.stratum.braiins.com`。然后，在`Port`字段中，输入URL末尾的4位数字，但不包括`:`。这里，因此是`3333`。
 
-在本教程中，我们使用的是Braiins挖矿池，但您可以自由选择其他挖矿池。您可以在PlanB网络网站上找到我们关于挖矿池的教程[在PlanB网络网站](https://planb.network/en/tutorials/mining)。
+在本教程中，我们使用的是Braiins挖矿池，但您可以自由选择其他挖矿池。您可以在PlanB网络网站上找到我们关于挖矿池的教程[在PlanB网络网站](https://planb.academy/en/tutorials/mining)。
 
 接下来，在`User`中输入您的标识符，然后输入`Password`，通常是`"x"`或`"Anything123"`。
 
@@ -56,7 +56,7 @@ BitAxe有几个版本，芯片和性能各不相同：
 
 正确输入所有设置后，点击底部的`Save`按钮，然后通过拔插电源简单地重启您的BitAxe。
 如果您正确输入了信息，设备应该会迅速连接到您的Wi-Fi，然后连接到挖矿池，并开始在其小屏幕上显示一些信息。它可能需要几分钟时间才能在挖矿池的仪表板上显示。
-### 仪表板和屏幕
+## 仪表板和屏幕
 
 将会轮流显示三个不同的页面。在第三页，您将看到`IP`信息，这是允许您连接到仪表板的IP地址。这里，地址是`192.168.1.19`。
 

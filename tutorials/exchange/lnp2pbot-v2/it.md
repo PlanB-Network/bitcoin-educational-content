@@ -8,7 +8,7 @@ description: Guida completa a LNP2PBot e al trading P2P di bitcoin
 
 Gli scambi peer-to-peer (P2P) senza KYC sono essenziali per preservare la riservatezza e l'autonomia finanziaria degli utenti. Permettono di effettuare transazioni dirette tra individui senza la necessità di verificare l'identità, il che è fondamentale per coloro che tengono alla privacy. Per una comprensione più approfondita dei concetti teorici, date un'occhiata al corso BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 La compravendita di bitcoin peer-to-peer (P2P) è uno dei metodi più privati per acquisire o cedere bitcoin. LNP2PBot è un bot Telegram open source che facilita gli scambi P2P sulla rete Lightning, consentendo transazioni veloci, a basso costo e senza KYC.
 
@@ -52,7 +52,7 @@ Iniziate installando un portafoglio Lightning compatibile. Ecco le nostre raccom
 
 Di seguito è riportato il link al tutorial di questo portafoglio:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 - [Phoenix](https://phoenix.acinq.co) :
   - Semplice e affidabile
@@ -63,7 +63,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Di seguito è riportato il link al tutorial di questo portafoglio:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - [Blixt](https://blixtwallet.github.io) :
   - Più tecnico ma molto completo
@@ -74,7 +74,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Di seguito è riportato il link al tutorial di questo portafoglio:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Note importanti su altri portafogli**
 

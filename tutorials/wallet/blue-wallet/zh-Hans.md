@@ -11,11 +11,10 @@ description: Bitcoin 简洁有力的投资组合
 
 
 
-在本教程中，我们将了解 Blue Wallet，这是一种简单但高效的 Bitcoin Wallet，它可以让你亲自管理比特币，也可以基于 [Multisig](https://planb.network/resources/glossary/multisig)创建管理合作社（别担心，我们会再讲的）。
+在本教程中，我们将了解 Blue Wallet，这是一种简单但高效的 Bitcoin Wallet，它可以让你亲自管理比特币，也可以基于 [Multisig](https://planb.academy/resources/glossary/multisig)创建管理合作社（别担心，我们会再讲的）。
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Blue Wallet 是一款开放源代码的自我保管 Bitcoin Wallet，可让您�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 使用 Blue Wallet，您可以创建独立、专用的 Bitcoin 投资组合。例如，您可以在同一个应用程序中为您的储蓄和日常开支分别建立一个 Wallet 投资组合。
 
@@ -65,10 +64,10 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 蓝色 Wallet 的 Bitcoin Wallet 代表了 Bitcoin 生态系统中的标准 Wallet。只要你拥有恢复字样，就可以花费比特币，恢复字样将在网络上提供有效签名，以证明你拥有比特币。
 
@@ -122,7 +121,7 @@ Blue Wallet 可让您随心所欲地配置 Bitcoin 装运的参数。
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ Multisig（多重签名）Wallet 代表由一定数量（最少 2 个）的 Bitc
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh)或支付给见证脚本 Hash** 是一种锁定方法，可将您的交易流出比特币（输出）锁定到 Blue Wallet 设置的自定义脚本的 Hash。这种锁定方式的主要优点是可以减少交易数据的大小，并暗中允许您支付较低的交易费用。
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh)或支付给见证脚本 Hash** 是一种锁定方法，可将您的交易流出比特币（输出）锁定到 Blue Wallet 设置的自定义脚本的 Hash。这种锁定方式的主要优点是可以减少交易数据的大小，并暗中允许您支付较低的交易费用。
 
 
 
@@ -264,7 +263,7 @@ Multisig（多重签名）Wallet 代表由一定数量（最少 2 个）的 Bitc
 
 
 
-第二位 Wallet 签名人（如果他或她也是用户）可以通过扫描您刚刚创建的[部分签名交易](https://planb.network/resources/glossary/psbt) 的二维码，即使他或她不在互联网上（没有 Wi-Fi，没有移动数据），也可以签署该交易。
+第二位 Wallet 签名人（如果他或她也是用户）可以通过扫描您刚刚创建的[部分签名交易](https://planb.academy/resources/glossary/psbt) 的二维码，即使他或她不在互联网上（没有 Wi-Fi，没有移动数据），也可以签署该交易。
 
 
 
@@ -330,12 +329,12 @@ Blue Wallet 应用程序不再支持 Lightning Network。
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 您现在已经完成了蓝色 Wallet 之旅，准备好使用 Bitcoin 的所有简单功能和强大功能了。我们建议您迈出下一步，了解如何借助 Lightning 的强大功能在店铺中接受 Bitcoin 付款。
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

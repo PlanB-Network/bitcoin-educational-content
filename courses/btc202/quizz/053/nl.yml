@@ -2,7 +2,7 @@ question: Welke optionele index kan worden geactiveerd in Bitcoin core om een tr
 answer: txindex
 wrong_answers:
   - addrindex
-  - blokindex
+  - blockindex
   - elektrumindex
 explanation: |
   De optie txindex=1 wordt gebruikt om een transactie op te vragen met zijn unieke identificatiecode (txid).

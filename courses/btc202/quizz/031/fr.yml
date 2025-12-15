@@ -6,4 +6,4 @@ wrong_answers:
   - Start9
 explanation: |
   RaspiBlitz est optimisé pour le Raspberry Pi et reste léger, contrairement à Umbrel qui est devenu trop lourd pour ces machines.
-reviewed: false
+reviewed: true 

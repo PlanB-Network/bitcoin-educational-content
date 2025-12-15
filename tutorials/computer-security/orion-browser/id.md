@@ -359,14 +359,14 @@ Setelah konfigurasi, uji pengaturan Anda:
 - [Tes Kebocoran DNS](https://www.dnsleaktest.com/) - Periksa kebocoran DNS
 - [BrowserLeaks](https://browserleaks.com/) - Rangkaian lengkap tes privasi
 
-### Alternatif pada Plan ₿ Network
+### Alternatif pada Plan ₿ Academy
 
 Untuk perlindungan maksimal, bacalah panduan kami yang lain:
 
-- [Firefox yang diperkuat](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Konfigurasi multi-platform tingkat lanjut
-- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Anonimitas jaringan lengkap
-- [Browser Mullvad](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Perlindungan fingerprinting maksimum
+- [Firefox yang diperkuat](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Konfigurasi multi-platform tingkat lanjut
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Anonimitas jaringan lengkap
+- [Browser Mullvad](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Perlindungan fingerprinting maksimum
 
-Jika Anda ingin mempelajari lebih lanjut tentang sejarah dan pengoperasian browser, serta objek digital utama dalam kehidupan sehari-hari, saya mengundang Anda untuk menemukan kursus pelatihan gratis kami yang baru, SCU 202, yang tersedia di Plan ₿ Network:
+Jika Anda ingin mempelajari lebih lanjut tentang sejarah dan pengoperasian browser, serta objek digital utama dalam kehidupan sehari-hari, saya mengundang Anda untuk menemukan kursus pelatihan gratis kami yang baru, SCU 202, yang tersedia di Plan ₿ Academy:
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

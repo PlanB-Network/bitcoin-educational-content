@@ -18,7 +18,7 @@ Digitaalsel andmekogumise ajastul on privaatsus internetis muutunud meie, intern
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Sellele põhimõttele tuginedes on [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) avatud lähtekoodiga VPN-teenus, mille Mozilla Foundation arendas 2020. aastal. See on saadaval aadressil:
 
@@ -191,4 +191,4 @@ Nüüd olete valmis turvaliselt ja konfidentsiaalselt internetis surfama. Kui su
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

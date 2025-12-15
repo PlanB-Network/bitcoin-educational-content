@@ -1,0 +1,8 @@
+question: Коя е инициативата, която допринася за това икономиката на Bitcoin да стане по-достъпна и удобна за всички?
+answer: BTCMap.
+wrong_answers:
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
+explanation: >-
+reviewed: true

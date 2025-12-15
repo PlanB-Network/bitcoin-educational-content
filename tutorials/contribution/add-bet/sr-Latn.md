@@ -1,6 +1,6 @@
 ---
 name: Dodavanje obrazovnih alata
-description: Kako dodati nove obrazovne materijale na PlanB Network?
+description: Kako dodati nove obrazovne materijale na Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Kako dodati nove obrazovne materijale na PlanB Network?
 Misija PlanB-a je da obezbedi vodeće obrazovne resurse o Bitcoin, na što više jezika. Sav sadržaj objavljen na sajtu je otvorenog koda i hostovan na GitHub-u, što omogućava svakome da učestvuje u obogaćivanju platforme.
 
 
-Pored tutorijala i obuka, PlanB Network takođe nudi ogromnu biblioteku raznovrsnog edukativnog sadržaja o Bitcoin, dostupnu svima, [u odeljku "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Ova baza podataka uključuje edukativne postere, mimove, humorističke propagandne postere, tehničke dijagrame, logotipe i druge alate za korisnike. Cilj ove inicijative je da podrži pojedince i zajednice koje podučavaju Bitcoin širom sveta pružajući im potrebne vizuelne resurse.
+Pored tutorijala i obuka, Plan ₿ Academy takođe nudi ogromnu biblioteku raznovrsnog edukativnog sadržaja o Bitcoin, dostupnu svima, [u odeljku "BET" (_Bitcoin Educational Toolkit_)](https://planb.academy/resources/bet). Ova baza podataka uključuje edukativne postere, mimove, humorističke propagandne postere, tehničke dijagrame, logotipe i druge alate za korisnike. Cilj ove inicijative je da podrži pojedince i zajednice koje podučavaju Bitcoin širom sveta pružajući im potrebne vizuelne resurse.
 
 
 Želite da učestvujete u obogaćivanju ove baze podataka, ali ne znate kako? Ovaj vodič je za vas!
 
 
-*Važno je da sav sadržaj integrisan na sajt bude bez prava ili da poštuje licencu izvornog fajla. Takođe, svi vizuali objavljeni na PlanB Network dostupni su pod [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licencom.*
+*Važno je da sav sadržaj integrisan na sajt bude bez prava ili da poštuje licencu izvornog fajla. Takođe, svi vizuali objavljeni na Plan ₿ Academy dostupni su pod [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licencom.*
 
 ![event](assets/01.webp)
 
@@ -22,7 +22,7 @@ Pored tutorijala i obuka, PlanB Network takođe nudi ogromnu biblioteku raznovrs
 - Prvo, potrebno je da imate nalog na GitHub-u. Ako ne znate kako da kreirate nalog, napravili smo detaljan vodič da vas uputimo.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -82,7 +82,7 @@ Evo detalja za popunjavanje svakog polja:
 - `project`: Naznačite identifikator vaše organizacije na PlanB mreži. Ako još nemate "project" identifikator za vašu kompaniju, možete ga kreirati prateći ovaj vodič.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 Ako nemate jedan, možete jednostavno koristiti svoje ime, svoj pseudonim ili ime svoje kompanije bez kreiranja profila graditelja.
 
@@ -118,7 +118,7 @@ Na primer, vaša YAML datoteka može izgledati ovako:
 
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -135,7 +135,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -152,7 +152,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)

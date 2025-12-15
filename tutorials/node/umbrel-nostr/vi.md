@@ -19,7 +19,7 @@ Hãy đảm bảo bạn đã cài đặt Umbrel bằng cách làm theo hướng 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Giới thiệu về Nostr
 
@@ -306,7 +306,7 @@ Nếu bạn muốn biết cách thiết lập nút Lightning của riêng mình 
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Cấu hình và bảo mật nâng cao
 

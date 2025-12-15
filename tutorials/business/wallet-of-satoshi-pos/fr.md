@@ -10,7 +10,7 @@ Combiner la puissance du Lightning Network avec une expérience utilisateur flui
 
 Dans l'écosystème Bitcoin, Wallet of Satoshi est un portefeuille recommandé pour débuter avec les paiements Lightning. Malgré le fait que vous ne soyez pas en total possession de vos bitcoins (self-custodial), Wallet of Satoshi vous propose une expérience fluide pour débuter avec bitcoin avec de petits montants en utilisant la couche Lightning Network. Si c'est la première fois que vous abordez ce portefeuille, nous vous recommandons notre tutoriel de prise en main.
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Afin de faciliter l'adoption de Bitcoin dans les communautés tout autour du globe, Wallet of Satoshi a également mis en place un point de Vente pour encourager les utilisateurs à trouver une utilisation avérée dans leur communauté : acheter et vendre des biens et services avec du bitcoin.
 
@@ -90,12 +90,12 @@ Chaque utilisateur de l'application Wallet of Satoshi POS dispose d'un historiqu
 
 Vous avez désormais un outil pour accepter le Bitcoin dans votre commerce et ceci en quelques minutes. Si vous êtes pour les solutions self-custody, nous sommes confiants que vous adorerez notre tutoriel sur le point de Vente du portefeuille Breez.
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 Et si vous recherchez un PoS complet adapté aux petites et moyenne entreprises, je vous conseille également Swiss Bitcoin Pay :
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Enfin, retrouvez notre formation complète pour apprendre les bases du paiement et de la trésorerie en bitcoins pour les entreprises :
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

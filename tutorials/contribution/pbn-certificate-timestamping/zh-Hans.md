@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Network 文凭时间戳
+name: Plan ₿ Academy 文凭时间戳
 description: 了解Plan ₿ Network如何为您的证书和文凭发放可验证的证明
 ---
 
@@ -66,13 +66,13 @@ OpenTimestamps能够免费提供这项服务，得益于一种高效的方式，
 1. 使用以下命令导入Plan ₿ Network公共PGP密钥：
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 如果您成功导入了PGP密钥，您应该会看到以下消息：
 
 ```
-gpg: key 8F12D0C63B1A606E: public key "PlanB Network (used for PBN platform) <admin@planb.network>" imported
+gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
@@ -87,7 +87,7 @@ gpg --verify certificate.txt
 
 此命令应显示有关签名的详细信息，包括：
 
-- 签名者（Plan ₿ Network）
+- 签名者（Plan ₿ Academy）
 - 签名时间
 - 签名的有效性
 
@@ -97,7 +97,7 @@ gpg --verify certificate.txt
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
 gpg:                using RSA key 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                issuer "admin@planb.network"
-gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.network>" [unknown]
+gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [unknown]
 ```
 
 如果您看到像“BAD signature”这样的消息，那意味着文件已被篡改。
@@ -143,7 +143,7 @@ ots verify certificate.txt.ots
 
 请注意，如果系统显示以下**两条**消息，则验证成功：
 
-1. GPG 签名被报告为**“来自Plan ₿ Network的签名有效”（Good signature from Plan ₿ Network）**
+1. GPG 签名被报告为**“来自Plan ₿ Network的签名有效”（Good signature from Plan ₿ Academy）**
 2. OpenTimestamps 验证显示特定的比特币区块时间戳，并报告**“成功！比特币区块 [区块高度] 证明数据自 [时间戳] 起就存在”（Success! Bitcoin block [区块高度] attests data existed as of [时间戳]）**
 
 现在您知道了Plan ₿ Network如何为任何₿-CERT证书和课程完成证书颁发可验证的证明，并且您可以轻松验证其真实性。

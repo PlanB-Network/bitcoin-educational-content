@@ -6,7 +6,7 @@ description: Comment construire un ordinateur minimal, isolé et peu coûteux en
 
 
 
-Si vous êtes sur les pages de Plan ₿ Network depuis un certain temps, vous avez déjà appris que l'un des paramètres de sécurité les plus préconisés, presque un must, **est la gestion des fonds par le stockage hors ligne de vos clés privées**.
+Si vous êtes sur les pages de Plan ₿ Academy depuis un certain temps, vous avez déjà appris que l'un des paramètres de sécurité les plus préconisés, presque un must, **est la gestion des fonds par le stockage hors ligne de vos clés privées**.
 
 
 
@@ -14,7 +14,7 @@ Si vous ne l'avez pas encore découvert, vous trouverez tout au long de ce tutor
 
 
 
-Pour gérer les clés privées hors ligne, il faut donc un appareil en permanence déconnecté du réseau, qu’il s’agisse d’un [portefeuille matériel](https://planb.network/resources/glossary/hardware-wallet) ou d’un ordinateur en airgap, dédié à cette fonction spécifique.
+Pour gérer les clés privées hors ligne, il faut donc un appareil en permanence déconnecté du réseau, qu’il s’agisse d’un [portefeuille matériel](https://planb.academy/resources/glossary/hardware-wallet) ou d’un ordinateur en airgap, dédié à cette fonction spécifique.
 
 
 
@@ -500,7 +500,7 @@ Parmi les portefeuilles que je connais, le seul qui propose une version 32 bits 
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Conclusions
 

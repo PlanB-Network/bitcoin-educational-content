@@ -18,7 +18,7 @@ Autrement dit, avec cette implémentation, vous pouvez :
 - **Relier un nœud Bitcoin distant ou votre propre instance de Bitcoin Core** : LND vous permet de relier une instance de Bitcoin et de vous en servir comme backend pour votre utilisation, pour utiliser cette implémentation, vous n'aurez pas besoin de faire tourner obligatoirement une instance de Bitcoin Core sur votre machine.
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Pourquoi avoir son propre nœud Lightning ?  
 Lightning est une surcouche de Bitcoin qui vient optimiser le processus de transfert et réduire les frais de transaction. 
@@ -34,7 +34,7 @@ En ce sens, faire tourner un nœud Lightning augmente la sécurité et l'intégr
 - **Apprentissage et autonomie** : Grâce aux commandes `lncli` vous pouvez comprendre mieux les processus sous-jacents de Lightning en vous appliquant depuis votre terminal.
 - **Décentralisation** : Participez activement au renforcement et à la décentralisation du réseau Bitcoin / Lightning.  
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Vous avez deux possibilités pour faire tourner une instance de l'implémentation LND sur notre machine. Nous pouvons configurer l'environnement sur notre machine même afin de pouvoir agir en local ou installer LND à partir d'un conteneur Docker. Ici, nous allons nous concentrer sur la première option, et nous verrons comment procéder avec Docker dans un prochain tutoriel.
@@ -343,7 +343,7 @@ lncli restorechanbackup <CHEMIN_DU_FICHIER>
 Vous êtes donc à la fin de ce tutoriel, si vous désirez en apprendre plus sur Lightning, nous vous proposons ce cours introductif pour vous permettre de comprendre mieux les concepts et les pratiques sur le réseau Lightning. 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 

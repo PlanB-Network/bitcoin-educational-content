@@ -6,7 +6,7 @@ description: Guide étape par étape pour HODLHODL
 
 ![image](assets/cover.webp)
 
-Hodl Hodl est une bourse décentralisée de Bitcoin qui privilégie le contrôle et la sécurité des utilisateurs. Contrairement aux bourses traditionnelles, elle fonctionne selon un modèle pair à pair, permettant des échanges directs entre utilisateurs. Grâce à son système d'entiercement multi-signatures, Hodl Hodl garantit la sécurité des fonds lors des transactions. La plateforme prend également en charge divers modes de paiement et propose des options de trading telles que les contrats sur différence (CFD).
+Hodl Hodl est une bourse décentralisée de Bitcoin qui privilégie le contrôle et la sécurité des utilisateurs. Contrairement aux bourses traditionnelles, elle fonctionne selon un modèle pair-à-pair, permettant des échanges directs entre utilisateurs. Grâce à son système d'entiercement multisignatures, Hodl Hodl garantit la sécurité des fonds lors des transactions. La plateforme prend également en charge divers modes de paiement et propose des options de trading telles que les contrats sur différence (CFD).
 
 ![video](https://youtu.be/epLslPQC-EA)
 
@@ -17,9 +17,9 @@ https://hodlhodl.com/pages/faq_help
 
 ![image](assets/5.webp)
 
-HodlHodl est une bourse de cryptomonnaie pair à pair (P2P) qui prend en charge exclusivement une seule devise numérique, mais offre la flexibilité de trader dans n'importe quelle devise, englobant toutes les devises fiduciaires et les altcoins. Un aspect important de cette plateforme P2P est qu'elle n'impose aucun frais de dépôt ou de retrait, mais facture plutôt des frais de trading allant de 0,5% à 0,6%, en fonction du statut de vérification de l'utilisateur. Les utilisateurs ont l'avantage d'un large éventail de modes de paiement, ce qui fait de HodlHodl l'une des plateformes P2P les plus polyvalentes. Certains des modes de paiement couramment utilisés incluent SWIFT, SEPA, les virements bancaires, les transactions par carte de crédit, PayPal, Venmo, MoneyGram et Western Union. Cependant, les options de paiement disponibles dépendent de l'acceptation du vendeur.
+HodlHodl est une bourse de cryptomonnaie pair-à-pair (P2P) qui prend en charge exclusivement une seule devise numérique, mais offre la flexibilité de trader dans n'importe quelle devise, englobant toutes les devises fiduciaires et les altcoins. Un aspect important de cette plateforme P2P est qu'elle n'impose aucun frais de dépôt ou de retrait, mais facture plutôt des frais de trading allant de 0,5% à 0,6%, en fonction du statut de vérification de l'utilisateur. Les utilisateurs ont l'avantage d'un large éventail de modes de paiement, ce qui fait de HodlHodl l'une des plateformes P2P les plus polyvalentes. Certains des modes de paiement couramment utilisés incluent SWIFT, SEPA, les virements bancaires, les transactions par carte de crédit, PayPal, Venmo, MoneyGram et Western Union. Cependant, les options de paiement disponibles dépendent de l'acceptation du vendeur.
 
-Une des caractéristiques saillantes de HodlHodl est les limites de trading variables, qui peuvent être progressivement assouplies avec l'augmentation du volume de trading et des transactions réussies. Le montant minimum de trading de BTC est fixé à 0,001 BTC et l'offre de prêt la plus basse ne doit pas être inférieure à 50 USD en valeur crypto. La plateforme ne nécessite aucune procédure de Connaissance de Votre Client (KYC) ou de Lutte contre le Blanchiment d'Argent (AML) conformément à sa politique de maintien de l'anonymat des utilisateurs. Cependant, les utilisateurs qui optent pour la vérification peuvent bénéficier d'avantages tels que des commissions réduites, des limites de transaction accrues et un statut "Vérifié" visible. HodlHodl a une portée mondiale étendue, accueillant des utilisateurs de presque tous les pays à quelques exceptions près comme la Corée du Nord, l'Irak, la Syrie et le Soudan.
+Une des caractéristiques saillantes de HodlHodl est les limites de trading variables, qui peuvent être progressivement assouplies avec l'augmentation du volume de trading et des transactions réussies. Le montant minimum de trading de BTC est fixé à 0,001 BTC et l'offre de prêt la plus basse ne doit pas être inférieure à 50 USD en valeur crypto. La plateforme ne nécessite aucune procédure de Know Your Customer (KYC) ou de lutte contre le Blanchiment d'Argent (AML) conformément à sa politique de maintien de l'anonymat des utilisateurs. Cependant, les utilisateurs qui optent pour la vérification peuvent bénéficier d'avantages tels que des commissions réduites, des limites de transaction accrues et un statut "Vérifié" visible. HodlHodl a une portée mondiale étendue, accueillant des utilisateurs de presque tous les pays, à quelques exceptions près comme la Corée du Nord, l'Irak, la Syrie et le Soudan.
 
 ### Création de compte
 
@@ -34,9 +34,9 @@ Après avoir réussi l'inscription de votre compte, votre prochaine étape consi
 La personnalisation de votre profil devrait inclure :
 
 - Informations personnelles - Cela comprend votre nom d'utilisateur choisi, votre adresse e-mail et une brève biographie.
-- Authentification à deux facteurs (2FA) - Activer le 2FA améliore la sécurité de votre profil, ce qui est toujours une mesure prudente.
-- Accès à l'API - Ce n'est pas obligatoire et reste inactif par défaut.
-- Profils P2P passés - Si vous avez déjà interagi avec d'autres plateformes P2P, lier ces informations peut augmenter votre crédibilité auprès des autres traders.
+- Authentification à deux facteurs (2FA) : Activer le 2FA améliore la sécurité de votre profil, ce qui est toujours une mesure prudente.
+- Accès à l'API : Ce n'est pas obligatoire et reste inactif par défaut.
+- Profils P2P passés : Si vous avez déjà interagi avec d'autres plateformes P2P, lier ces informations peut augmenter votre crédibilité auprès des autres traders.
 
 ### Enregistrez votre adresse BTC'
 
@@ -82,7 +82,7 @@ Guide par Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
 ![cover](assets/19.webp)
 
-- Vous devrez ensuite attendre que le vendeur confirme avoir reçu les fonds, à ce moment-là, les bitcoins seront envoyés à l'adresse que vous avez spécifiée au début du contrat. Vous aurez également la possibilité d'évaluer votre pair.
+- Vous devrez ensuite attendre que le vendeur confirme avoir reçu les fonds. À ce moment-là, les bitcoins seront envoyés à l'adresse que vous avez spécifiée au début du contrat. Vous aurez également la possibilité d'évaluer votre pair.
 
 ![cover](assets/20.webp)
 
@@ -134,7 +134,7 @@ L'utilisateur "NateN-09" propose de prêter entre 100 et 500 USDT envoyés par l
 
 Dans la section TAP (Taux Annuel en Pourcentage), vous pouvez voir à quel point le taux proposé correspond à une extension annuelle, simplement à titre de référence pour la comparaison avec d'autres services financiers.
 
-La relation en pourcentage (LTV) entre la valeur de la garantie et le montant que le prêteur nous accordera est fixée à 70%, nous devons donc placer 30% de plus de valeur en BTC en garantie pour soutenir le prêt. En d'autres termes, il/elle nous prête les 70% en stablecoins (ou cryptomonnaie) de la valeur en BTC que nous bloquons en garantie. Cela s'appelle un prêt sur-collatéralisé.
+La relation en pourcentage (LTV) entre la valeur de la garantie et le montant que le prêteur nous accordera est fixée à 70%, nous devons donc placer 30% de plus de valeur en BTC en garantie pour soutenir le prêt. En d'autres termes, il/elle nous prête les 70% en stablecoins (ou cryptomonnaie) de la valeur en BTC que nous bloquons en garantie. Cela s'appelle un prêt surcollatéralisé.
 
 Une fois que nous avons saisi l'offre, nous verrons les détails comme suit :
 
@@ -151,7 +151,7 @@ Dans le champ "Adresse de remboursement Bitcoin", nous mettons celle où nous vo
 
 Dans le cadre vert à droite, nous pouvons voir les détails du contrat, y compris les frais d'origination facturés par la plateforme pour fournir les outils techniques nécessaires à l'exécution du contrat.
 
-Une fois que le contrat est accepté, une adresse d'entiercement multi-signature est créée où nous devons déposer le montant de BTC dû afin de soutenir le contrat.
+Une fois que le contrat est accepté, une adresse d'entiercement multisignature est créée où nous devons déposer le montant de BTC dû afin de soutenir le contrat.
 
 Pour générer cette adresse dans la blockchain Bitcoin, on nous demandera un "Mot de passe de paiement" (différent de celui de connexion) qui servira de clé privée pour récupérer nos BTC à la fin du contrat.
 
@@ -163,7 +163,7 @@ Nous devons faire attention à ce que la LTV ne monte pas trop pendant la durée
 
 Nous pouvons effectuer des paiements partiels pour rembourser le prêt ou nous pouvons le faire en une seule fois à la fin de la période.
 
-Une fois que le prêt intégral plus les intérêts sont remboursés et que les paiements sont confirmés, nous pourrons retirer nos BTC de l'adresse d'entiercement multi-signature et le contrat sera terminé.
+Une fois que le prêt intégral plus les intérêts sont remboursés et que les paiements sont confirmés, nous pourrons retirer nos BTC de l'adresse d'entiercement multisignature et le contrat sera terminé.
 
 Dans un prochain article, nous décrirons les étapes à suivre si nous agissons en tant que prêteurs.
 

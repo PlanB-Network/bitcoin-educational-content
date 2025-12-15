@@ -1,6 +1,6 @@
 ---
 name: PlanB Ağına Kitap Ekleme
-description: PlanB Network'e yeni bir kitap nasıl eklenir?
+description: Plan ₿ Academy'e yeni bir kitap nasıl eklenir?
 ---
 ![book](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: PlanB Network'e yeni bir kitap nasıl eklenir?
 PlanB'nin misyonu, Bitcoin hakkında mümkün olduğunca çok dilde üst düzey eğitim kaynakları sağlamaktır. Sitede yayınlanan tüm içerik açık kaynaklıdır ve GitHub'da barındırılarak herkesin platformun zenginleştirilmesine katkıda bulunmasına olanak tanır.
 
 
-**PlanB Network sitesine Bitcoin ile ilgili bir kitap eklemek ve çalışmanızın görünürlüğünü artırmak istiyor ama nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!**
+**Plan ₿ Academy sitesine Bitcoin ile ilgili bir kitap eklemek ve çalışmanızın görünürlüğünü artırmak istiyor ama nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!**
 
 ![book](assets/01.webp)
 
@@ -16,7 +16,7 @@ PlanB'nin misyonu, Bitcoin hakkında mümkün olduğunca çok dilde üst düzey 
 - İlk olarak, bir GitHub hesabınızın olması gerekir. Nasıl hesap oluşturacağınızı bilmiyorsanız, size rehberlik edecek ayrıntılı bir eğitim hazırladık.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/03.webp)
 
 
-- PlanB Network'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
+- Plan ₿ Academy'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
 
 ![book](assets/04.webp)
 
@@ -178,7 +178,7 @@ tags:
 ![book](assets/25.webp)
 
 
-- Yeni bir sayfa açılacaktır. Kitabınızın kapak resmini bu alana sürükleyip bırakın. Bu resim PlanB Network sitesinde görüntülenecektir:
+- Yeni bir sayfa açılacaktır. Kitabınızın kapak resmini bu alana sürükleyip bırakın. Bu resim Plan ₿ Academy sitesinde görüntülenecektir:
 
 ![book](assets/26.webp)
 

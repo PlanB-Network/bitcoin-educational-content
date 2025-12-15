@@ -23,7 +23,7 @@ Dans cette optique, Speed Wallet se présente comme un écosystème intuitif et 
 
 Dans ce tutoriel, nous tacherons de vous faire découvrir chacun de ces aspects pour faciliter votre expérience avec Speed Wallet.
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Débuter avec Speed Wallet
 
@@ -39,13 +39,13 @@ Dans ce tutoriel, nous nous focaliserons sur la plateforme Android de l'applicat
 
 Speed Wallet requiert la création d'un compte utilisateur obligatoire pour son utilisation. Vous pouvez en créer un à partir de votre compte Google ou définir un email et un mot de passe fort.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
 Une fois votre compte créé, nous vous recommandons la mise en place du système de double authentification ou la vérification par code PIN / empreinte biométrique. Ce sont des configurations qui vous permettront d'ajouter un niveau de sécurité en plus afin de vous authentifier avant l'accès au portefeuille et lors des transactions bitcoins depuis Speed Wallet.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Pour ce faire, rendez vous dans les paramètres de l'application puis activer la double authentification et la vérification biométrique.
 
@@ -97,9 +97,9 @@ Les options **Buy** et **Swap**, vous permet d'échanger des bitcoins pour les a
 
 - **Acheter Bitcoin à partir d'autres cryptomonnaies** : Vous pouvez échanger vos USDT, USDC pour avoir des bitcoins dans votre portefeuille et vice-versa. Au travers cette option, Speed Wallet simplifie le processus d'achat et de vente de Bitcoin sans pour autant se référer à des plateformes d'échange externes. Vous pouvez donc faire des échanges à partir de 20.000 satoshis, environ $20 au taux actuel, sans quitter votre portefeuille Speed.
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -129,7 +129,7 @@ Retrouvez ci-dessous notre tutoriel sur la prise en main de Bitrefill.
 
 ![rewards](assets/fr/12.webp)
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Obtenez des récompenses
 
@@ -157,7 +157,7 @@ Dans l'option **Paramètres** sur la page **Wallet**, la section **Mini Apps** v
 
 ![mini-apps](assets/fr/14.webp)
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet ce n’est pas que du Mobile !
 
@@ -191,4 +191,4 @@ Essentiellement axée sur les paiements vous retrouverez les options suivantes :
 
 Vous êtes à la fin de notre tutoriel de prise en main de Speed Wallet. Si ce tutoriel vous a été utile, merci de nous laisser un pouce vert. Nous vous suggérons de découvrir notre tutoriel sur l'épargne et la mise en place d'un plan de succession en utilisant le portefeuille Liana.
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

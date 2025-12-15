@@ -6,13 +6,13 @@ description: Bagaimana cara menambahkan materi edukasi baru di Jaringan PlanB?
 
 Misi PlanB adalah menyediakan sumber daya edukasi terdepan tentang Bitcoin, dalam sebanyak mungkin bahasa. Semua konten yang dipublikasikan di situs ini bersifat open-source dan dihosting di GitHub, yang memungkinkan siapa saja untuk berpartisipasi dalam memperkaya platform.
 
-Lebih dari tutorial dan pelatihan, Jaringan PlanB juga menawarkan perpustakaan konten edukasi tentang Bitcoin yang beragam, dapat diakses oleh semua orang, [di bagian "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Database ini mencakup poster edukasi, meme, poster propaganda humoris, diagram teknis, logo, dan alat lainnya untuk pengguna. Tujuan dari inisiatif ini adalah untuk mendukung individu dan komunitas yang mengajarkan Bitcoin di seluruh dunia dengan menyediakan sumber daya visual yang diperlukan.
+Lebih dari tutorial dan pelatihan, Jaringan PlanB juga menawarkan perpustakaan konten edukasi tentang Bitcoin yang beragam, dapat diakses oleh semua orang, [di bagian "BET" (_Bitcoin Educational Toolkit_)](https://planb.academy/resources/bet). Database ini mencakup poster edukasi, meme, poster propaganda humoris, diagram teknis, logo, dan alat lainnya untuk pengguna. Tujuan dari inisiatif ini adalah untuk mendukung individu dan komunitas yang mengajarkan Bitcoin di seluruh dunia dengan menyediakan sumber daya visual yang diperlukan.
 
 Apakah Anda ingin berpartisipasi dalam memperkaya database ini, tetapi tidak tahu bagaimana? Tutorial ini untuk Anda!
 
 *Penting bahwa semua konten yang diintegrasikan ke dalam situs bebas dari hak atau menghormati lisensi file sumber. Juga, semua visual yang dipublikasikan di Jaringan PlanB tersedia di bawah lisensi [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 ![event](assets/01.webp)
-- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Pertama, Anda perlu memiliki akun di GitHub. Jika Anda tidak tahu cara membuat akun, kami telah membuat [tutorial terperinci untuk membimbing Anda](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Pergi ke [repositori GitHub PlanB yang didedikasikan untuk data](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) di bagian `resources/bet/`:
 ![event](assets/02.webp)
 - Klik di kanan atas pada tombol `Add file`, lalu pada `Create new file`:
@@ -41,7 +41,7 @@ tags:
 contributors:
   - 
 ```
-- **`project`**: Tunjukkan pengenal organisasi Anda di Jaringan PlanB. Jika Anda belum memiliki pengenal "project" untuk perusahaan Anda, Anda dapat membuatnya [dengan mengikuti tutorial ini](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Jika Anda tidak memilikinya, Anda dapat menggunakan nama Anda, pseudonim Anda, atau nama perusahaan Anda tanpa harus membuat profil project.
+- **`project`**: Tunjukkan pengenal organisasi Anda di Jaringan PlanB. Jika Anda belum memiliki pengenal "project" untuk perusahaan Anda, Anda dapat membuatnya [dengan mengikuti tutorial ini](https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d). Jika Anda tidak memilikinya, Anda dapat menggunakan nama Anda, pseudonim Anda, atau nama perusahaan Anda tanpa harus membuat profil project.
 - **`type`**: Pilih jenis konten Anda dari dua opsi berikut:
 	- `Educational Content` untuk konten pendidikan.
 	- `Visual Content` untuk jenis konten beragam lainnya.
@@ -64,7 +64,7 @@ contributors:
 Sebagai contoh, file YAML Anda bisa terlihat seperti ini:
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

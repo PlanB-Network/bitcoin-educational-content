@@ -17,7 +17,7 @@ Tetapi aplikasi ini juga memiliki fitur "Node tertanam".
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 **Sebagai pengingat, Lightning adalah sebuah jaringan yang beroperasi secara paralel dengan Bitcoin, yang memungkinkan bitcoin untuk ditukarkan tanpa harus melakukan transaksi On-Chain secara sistematis. Hasilnya adalah transaksi yang hampir seketika, tanpa perlu menunggu 10 menit untuk memvalidasi sebuah blok. Hal ini sangat berguna ketika membayar pedagang di dunia fisik. Terlebih lagi, Lightning memberikan tingkat kerahasiaan yang luar biasa yang tidak dimiliki oleh jaringan Bitcoin.**
 
@@ -200,7 +200,7 @@ Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengel
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ Zeus kemudian memungkinkan Anda untuk menambahkan catatan untuk mendenominasi pe
 
 
 
-Perhatikan bahwa tidak seperti Wallet seperti [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), dengan Zeus rute dihitung secara lokal dan tidak didelegasikan ke pihak ketiga (ACINQ dalam kasus Phoenix). Jadi, Anda adalah satu-satunya yang mengetahui penerima pembayaran. Kami kehilangan sedikit efisiensi (pembayaran membutuhkan waktu lebih lama untuk diselesaikan, tetapi kami mendapatkan banyak keuntungan dalam hal privasi).
+Perhatikan bahwa tidak seperti Wallet seperti [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), dengan Zeus rute dihitung secara lokal dan tidak didelegasikan ke pihak ketiga (ACINQ dalam kasus Phoenix). Jadi, Anda adalah satu-satunya yang mengetahui penerima pembayaran. Kami kehilangan sedikit efisiensi (pembayaran membutuhkan waktu lebih lama untuk diselesaikan, tetapi kami mendapatkan banyak keuntungan dalam hal privasi).
 
 
 
@@ -422,8 +422,8 @@ Selamat, Anda sekarang siap untuk menggunakan Zeus Embedded, sistem pencahayaan 
 
 
 
-Untuk mengetahui lebih lanjut tentang pengoperasian teknis Lightning Network, Anda dapat mengikuti pelatihan Plan ₿ Network gratis yang luar biasa dari Fanis Michalakis:
+Untuk mengetahui lebih lanjut tentang pengoperasian teknis Lightning Network, Anda dapat mengikuti pelatihan Plan ₿ Academy gratis yang luar biasa dari Fanis Michalakis:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

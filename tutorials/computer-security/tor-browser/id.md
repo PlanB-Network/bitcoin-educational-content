@@ -151,4 +151,4 @@ Terakhir, di tab "*Koneksi / Connection*", Anda akan menemukan semua pengaturan 
 
 Dan itulah, Anda sekarang siap untuk menjelajahi Internet dengan cara yang lebih aman dan lebih pribadi! Jika privasi online adalah topik yang menarik bagi Anda, saya juga merekomendasikan untuk menemukan tutorial lain tentang Mullvad VPN:
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

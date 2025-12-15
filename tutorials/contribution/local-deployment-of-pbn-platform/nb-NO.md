@@ -1,12 +1,12 @@
 ---
-name: Veiledning for lokal kjøring av Plan ₿ Network-plattformen
-description: Hvordan kan du kjøre Plan ₿ Network i et lokalt miljø for å teste innholdsbidraget mitt eller korrekturlesing/gjennomgang av pedagogisk innhold på Plan ₿ Network?
+name: Veiledning for lokal kjøring av Plan ₿ Academy-plattformen
+description: Hvordan kan du kjøre Plan ₿ Academy i et lokalt miljø for å teste innholdsbidraget mitt eller korrekturlesing/gjennomgang av pedagogisk innhold på Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## Oppsummering
 
-Denne veiledningen gir trinnvise instruksjoner for hvordan du konfigurerer Bitcoin Learning Management System fra Plan ₿ Network på din lokale maskin ved hjelp av Docker, dummy-nøkler og egendefinerte repository-konfigurasjoner.
+Denne veiledningen gir trinnvise instruksjoner for hvordan du konfigurerer Bitcoin Learning Management System fra Plan ₿ Academy på din lokale maskin ved hjelp av Docker, dummy-nøkler og egendefinerte repository-konfigurasjoner.
 
 Hvis du ikke forsto delen ovenfor, ikke bekymre deg - denne veiledningen er for deg!
 
@@ -106,7 +106,7 @@ Når containerne er i gang, får du tilgang til frontend på:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Merk: Appen lastes automatisk inn på nytt hvis du endrer kildefiler.
 
@@ -142,7 +142,7 @@ men så igjen..:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Tilpasse depotet (valgfritt)**
 

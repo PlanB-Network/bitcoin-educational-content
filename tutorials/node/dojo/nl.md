@@ -64,7 +64,7 @@ Voor meer informatie over het kiezen van je uitrusting raad ik je aan deze cursu
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Aanbevolen uitrusting
 
@@ -192,7 +192,7 @@ Voor meer details over het installatieproces van Ubuntu, zie onze speciale tutor
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. systeemupdate
 
@@ -428,7 +428,7 @@ Het systeem zal je dan vragen om je gekozen wachtwoord in te voeren en het vervo
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Gebruiker machtigen om Docker te gebruiken
 
@@ -1068,7 +1068,7 @@ Om je kennis over IBD en, meer in het algemeen, over de werking en de rol van je
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Synchronisatiebewaking

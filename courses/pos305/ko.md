@@ -1,31 +1,18 @@
 ---
-name: Bitcoin 및 BTC 페이 서버
-goal: 비즈니스를 위한 BTC Pay 서버 설치
-objectives: 
-
-  - Btcpayserver가 무엇인지 이해합니다.
-  - BTC Pay 서버를 직접 호스팅하고 구성합니다.
-  - 일상적인 비즈니스에서 btcpayserver를 사용하세요.
-
+name: BTC Pay Server 마스터하기
+goal: 지역 비즈니스를 위한 BTC Pay Server 인스턴스 구성
+objectives:
+- 결제 처리에서 BTCPay Server의 역할에 대한 기본 사항 이해하기
+- BTCPay Server 구성 프로세스의 내부 작동 방식 마스터하기
+- 클라우드 및 노드 기반 환경에 BTCPay Server 배포하기
+- BTC Pay Server 운영자가 되기
 ---
+# 금융 주권으로의 여정
 
-# Bitcoin 및 BTCPay 서버
+신뢰는 취약합니다. 특히 돈과 관련해서는 더욱 그렇습니다. 이 입문 과정은 제3자에 의존하지 않고 비트코인 결제를 받을 수 있는 강력한 도구인 BTCPay Server를 안내합니다. BTCPay Server 운영자가 되기 위한 기초를 배우게 됩니다
 
-
-이 강좌는 알렉코스와 바스가 작성한 BTCPay 서버 운영자 입문 강좌로, 멜론위스트와 asi0가 플랜 ₿ 강좌 포맷에 맞게 각색했습니다.
-
-
-아직 끝나지 않은 이야기
-
-
-"이것은 거짓말이다, 당신에 대한 나의 신뢰는 깨졌다, 당신을 쓸모없게 만들겠다".
-
-
-BTCPay 서버 재단에서 제작
-
-
+Alekos와 Bas가 만들고 melontwist와 asi0가 각색한 이 과정은 개인과 기업이 전통적인 결제 시스템의 대안을 어떻게 구축하고 있는지 보여줍니다. 비트코인에 대해 궁금하든 기업을 위한 결제 인프라를 운영할 준비가 되어 있든, 현상 유지에 도전하는 실용적인 기술을 발견하게 될 것입니다. 금융 독립이 실제로 어떤 모습인지 탐구할 준비가 되셨습니까?
 +++
-
 # 소개
 
 
@@ -291,7 +278,7 @@ BTCPay 서버의 많은 옵션은 다른 Bitcoin Wallet 관련 소프트웨어�
 데모 환경으로 이동하면 '로그인' 또는 '계정 만들기'를 묻는 메시지가 표시됩니다 서버 관리자는 보안상의 이유로 새 계정 생성 기능을 비활성화할 수 있습니다. BTCPay 서버는 오픈 소스 소프트웨어이므로 BTCPay 서버 로고와 버튼 색상은 변경될 수 있습니다. 타사 호스트는 소프트웨어에 화이트 라벨을 붙이고 전체 모양을 변경할 수 있습니다.
 
 
-![image](assets/en/0.webp)
+![image](assets/en/001.webp)
 
 
 ### 계정 만들기 창
@@ -306,7 +293,7 @@ BTCPay 서버에서 계정을 생성하려면 유효한 이메일 Address 문자
 이메일과 비밀번호 필드가 모두 올바르게 입력되면 '계정 생성' 버튼을 클릭합니다. 그러면 이메일과 비밀번호가 교수자의 BTCPay 서버 인스턴스에 저장됩니다.
 
 
-![image](assets/en/1.webp)
+![image](assets/en/002.webp)
 
 
 **!참고!**
@@ -321,7 +308,7 @@ BTCPay 서버에서 계정을 생성하려면 유효한 이메일 Address 문자
 BTCPay 서버 인스턴스 관리자는 BTCPay 서버 계정을 생성할 수도 있습니다. BTCPay 서버 인스턴스의 관리자는 '서버 설정'(1)을 클릭하고 '사용자' 탭(2)을 클릭한 다음 사용자 탭의 오른쪽 상단에 있는 '+ 사용자 추가' 버튼(3)을 클릭할 수 있습니다. 목표(4.3)에서 계정의 관리자 제어에 대해 자세히 알아볼 수 있습니다.
 
 
-![image](assets/en/2.webp)
+![image](assets/en/003.webp)
 
 
 관리자는 사용자의 이메일 Address이 필요하며 표준 비밀번호를 설정해야 합니다. 관리자는 보안상의 이유로 계정을 사용하기 전에 사용자에게 이 비밀번호를 변경하도록 안내하는 것이 좋습니다. 관리자가 비밀번호를 설정하지 않고 서버에 SMTP가 구성되어 있는 경우 사용자는 계정을 만들고 비밀번호를 직접 설정할 수 있는 초대 링크가 포함된 이메일을 받게 됩니다.
@@ -383,7 +370,7 @@ https://Mainnet.demo.btcpayserver.org/login.
 - 계정 관리.
 
 
-![image](assets/en/3.webp)
+![image](assets/en/004.webp)
 
 
 ### 어둡고 밝은 모드
@@ -413,7 +400,7 @@ BTCPay 서버 사용자는 라이트 모드 또는 다크 모드 버전의 UI �
 사용자는 전체 계정을 삭제할 수 있습니다. 계정 탭에서 삭제 버튼을 클릭하면 삭제할 수 있습니다.
 
 
-![image](assets/en/4.webp)
+![image](assets/en/005.webp)
 
 
 **!참고!**
@@ -428,7 +415,7 @@ BTCPay 서버 사용자는 라이트 모드 또는 다크 모드 버전의 UI �
 학생은 비밀번호를 변경하고 싶을 수 있습니다. 비밀번호 탭으로 이동하여 비밀번호를 변경할 수 있습니다. 여기에서 이전 비밀번호를 입력해야 하며 새 비밀번호로 변경할 수 있습니다.
 
 
-![image](assets/en/5.webp)
+![image](assets/en/006.webp)
 
 
 ### 2단계 인증(2FA)
@@ -462,7 +449,7 @@ BTCPay 서버는 2FA를 활성화하는 두 가지 방법, 즉 앱 기반 2FA(Au
 3. 인증 앱에서 고유 코드를 제공합니다. BTCPay 서버에 고유 코드를 입력하여 설정을 확인한 다음 확인을 클릭하여 프로세스를 완료합니다.
 
 
-![image](assets/en/6.webp)
+![image](assets/en/007.webp)
 
 
 ### 기술 요약
@@ -497,7 +484,7 @@ BTCPay 서버는 2FA를 활성화하는 두 가지 방법, 즉 앱 기반 2FA(Au
 새 사용자가 BTCPay 서버에 로그인하면 환경이 비어 있으며 첫 번째 스토어가 필요합니다. BTCPay 서버의 소개 마법사는 사용자에게 '스토어 만들기' 옵션을 제공합니다(1). 스토어는 Bitcoin에 필요한 홈으로 볼 수 있습니다. 새로운 BTCPay 서버 노드는 Bitcoin Blockchain을 동기화하는 것으로 시작됩니다(2). BTCPay 서버를 실행하는 인프라에 따라 몇 시간에서 며칠까지 걸릴 수 있습니다. 인스턴스의 현재 버전은 BTCPay 서버 UI의 오른쪽 하단에 표시됩니다. 문제를 해결할 때 참조하면 유용합니다.
 
 
-![image](assets/en/7.webp)
+![image](assets/en/008.webp)
 
 
 ### 스토어 생성 마법사
@@ -509,7 +496,7 @@ BTCPay 서버는 2FA를 활성화하는 두 가지 방법, 즉 앱 기반 2FA(Au
 사용자는 전체 계정을 삭제할 수 있습니다. 계정 탭에서 삭제 버튼을 클릭하면 삭제할 수 있습니다.
 
 
-![image](assets/en/8.webp)
+![image](assets/en/009.webp)
 
 
 **!참고!**
@@ -524,7 +511,7 @@ BTCPay 서버 계정은 스토어 개수에 제한 없이 생성할 수 있습�
 "스토어 만들기"를 클릭하여 시작합니다.
 
 
-![image](assets/en/9.webp)
+![image](assets/en/010.webp)
 
 
 이렇게 하면 BTCPay 서버를 사용하기 위한 첫 번째 홈과 대시보드가 생성됩니다.
@@ -533,31 +520,31 @@ BTCPay 서버 계정은 스토어 개수에 제한 없이 생성할 수 있습�
 (1) "스토어 생성"을 클릭하면 BTCPay 서버에서 스토어 이름을 입력하라는 메시지가 표시되며, 유용한 이름을 지정할 수 있습니다.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/011.webp)
 
 
 (2) 다음으로 기본 스토어 통화를 법정 화폐 또는 Bitcoin 또는 Sats로 표시된 통화로 설정해야 합니다. 데모 환경에서는 USD로 설정하겠습니다.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/012.webp)
 
 
 (3) 스토어 설정의 마지막 파라미터로, BTCPay 서버는 Bitcoin의 가격을 현재 법정 화폐 가격과 비교하기 위해 "선호 가격 소스"를 설정하여 스토어가 Bitcoin와 스토어가 설정한 법정 화폐 사이에 올바른 Exchange 환율을 표시하도록 요구합니다. 데모 예시의 기본값을 그대로 사용하여 크라켄 Exchange로 설정하겠습니다. BTCPay 서버는 크라켄 API를 사용하여 Exchange 환율을 확인합니다.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/013.webp)
 
 
 (4) 이제 스토어 매개변수가 설정되었으므로 생성 버튼을 클릭하면 BTCPay 서버에서 첫 번째 스토어의 대시보드가 생성되고 마법사가 계속 진행됩니다.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/014.webp)
 
 
 축하합니다, 첫 번째 스토어를 생성하셨으니 이것으로 이 연습을 마칩니다.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/015.webp)
 
 
 ### 기술 요약
@@ -592,7 +579,7 @@ Bitcoin 지갑이 생성되면 소위 "seed"를 생성합니다. 지난 목표�
 seed 세대는 "계층적 결정론적"(HD) 프레임워크로 알려진 업계 표준에 따라 수행됩니다.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/016.webp)
 
 
 ### 주소
@@ -807,7 +794,7 @@ Replace-by-fee(RBF)은 이전에 브로드캐스트된 트랜잭션(아직 확�
 '고급 설정' 버튼을 누르면 RBF 옵션을 볼 수 있습니다.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/017.webp)
 
 
 
@@ -837,10 +824,10 @@ BTCPay 서버에서 수신 버튼을 클릭하면 결제를 받는 데 사용할
 BTCPay 서버는 Address 재사용을 방지하기 위해 항상 사용 가능한 다음 Address를 generate으로 설정하라는 메시지를 표시합니다. "generate 다음 사용 가능한 BTC Address"를 클릭하면 BTCPay 서버가 새 Address와 QR을 생성했습니다. 또한 주소를 더 잘 관리하기 위해 Address에 직접 라벨을 설정할 수 있습니다.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/018.webp)
 
 
-![image](assets/en/18.webp)
+![image](assets/en/019.webp)
 
 
 #### 다시 스캔
@@ -875,13 +862,13 @@ BTCPAYGEN_EXCLUDE_FRAGMENTS="$BTCPAYGEN_EXCL UDE_FRAGMENTS;opt-mempoolfullrbf"
 BTCPay 서버 내의 Wallet 설정은 Wallet의 일반 설정에 대한 명확하고 간결한 개요를 제공합니다. Wallet을 BTCPay 서버로 생성한 경우 이러한 모든 설정이 미리 채워져 있습니다.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/020.webp)
 
 
 BTCPay 서버 내의 Wallet 설정은 Wallet의 일반 설정에 대한 명확하고 간결한 개요를 제공합니다. Wallet이 BTCPay 서버로 생성된 경우 이러한 모든 설정이 미리 채워져 있습니다. BTCPay 서버의 Wallet 설정은 Wallet 상태부터 시작합니다. 시계 전용인가요 아니면 Hot Wallet인가요? Wallet 유형에 따라 누락된 거래가 있는지 다시 스캔하거나, 기록에서 오래된 거래를 정리하거나, 결제 링크에 Wallet을 등록하거나, 스토어에 연결된 현재 Wallet을 교체 및 삭제하는 등 작업이 달라질 수 있습니다. BTCPay 서버의 Wallet 설정에서 관리자는 더 나은 Wallet 관리를 위해 Wallet에 라벨을 설정할 수 있습니다. 여기에서 관리자는 파생 체계, 계정 키(xpub), 지문 및 키 경로도 확인할 수 있습니다. Wallet 설정의 결제에는 두 가지 주요 설정만 있습니다. Invoice 만료 후 (설정된 분) 이내에 거래가 확인되지 않으면 결제가 무효화됩니다. 결제 거래에 확인 횟수가 X회일 때 Invoice가 확인된 것으로 간주합니다. 관리자는 결제 화면에 권장 수수료를 표시하도록 토글을 설정하거나 블록 수에 수동 확인 목표를 설정할 수도 있습니다.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/021.webp)
 
 
 **!참고!**
@@ -911,13 +898,13 @@ BTCPay 서버가 새로운 Wallet을 생성할 때 제공하는 두 번째 옵�
 마지막 부분에서 새 '스토어'를 만들었습니다. 설치 마법사는 "Wallet 설정" 또는 "라이트닝 노드 설정"을 요청하며 계속 진행됩니다. 이 예에서는 "Wallet 설정" 마법사 프로세스(1)를 따릅니다.
 
 
-![image](assets/en/21.webp)
+![image](assets/en/022.webp)
 
 
 "Wallet 설정"을 클릭하면 마법사가 계속 진행할 방법을 묻는 메시지가 표시되며, 이제 BTCPay 서버는 기존 Bitcoin를 새 스토어에 연결할 수 있는 옵션을 제공합니다. Wallet이 없는 경우 BTCPay 서버는 새 Wallet을 생성할 것을 제안합니다. 이 예제에서는 "새 Wallet 생성"(2) 단계를 따릅니다. '기존 Wallet 연결하기'(1) 단계를 따르세요.
 
 
-![image](assets/en/22.webp)
+![image](assets/en/023.webp)
 
 
 **!참고!**
@@ -929,16 +916,16 @@ BTCPay 서버가 새로운 Wallet을 생성할 때 제공하는 두 번째 옵�
 (1) "새 Wallet 만들기" 버튼을 클릭하여 "새 Wallet 만들기" 마법사를 계속 진행합니다.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/024.webp)
 
 
 (2) "새 Wallet 만들기"를 클릭하면 마법사의 다음 창에 "Hot Wallet" 및 "Watch-only wallet" 옵션이 표시됩니다 강사와 함께 따라하는 경우 환경은 공유 데모이며 Watch-only wallet만 만들 수 있습니다. 아래 두 그림의 차이점에 주목하세요. 데모 환경에서는 강사를 따라 "Watch-only wallet"을 만든 다음 "새 Wallet" 마법사를 계속 진행합니다.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/025.webp)
 
 
-![image](assets/en/25.webp)
+![image](assets/en/026.webp)
 
 
 (3) 새 Wallet 마법사를 계속 진행하면 이제 BTC Watch-only wallet 생성 섹션으로 이동합니다. 여기서 Wallet의 "Address 유형"을 설정할 수 있습니다 BTCPay 서버에서 선호하는 Address 유형을 선택할 수 있지만, 이 강좌를 작성하는 현재로서는 여전히 bech32 주소를 사용하는 것이 좋습니다. 주소에 대한 자세한 내용은 이 파트의 첫 번째 장에서 확인할 수 있습니다.
@@ -962,31 +949,31 @@ BTCPay 서버가 새로운 Wallet을 생성할 때 제공하는 두 번째 옵�
 선호하는 Wallet Address 유형으로 SegWit(권장)를 선택합니다.
 
 
-![image](assets/en/26.webp)
+![image](assets/en/027.webp)
 
 
 (4) Wallet의 파라미터를 설정할 때, BTCPay 서버는 사용자가 BIP39를 통해 passphrase을 옵션으로 설정할 수 있도록 허용하므로 반드시 비밀번호를 확인하시기 바랍니다.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/028.webp)
 
 
 (5) Wallet의 Address 유형을 설정하고 몇 가지 고급 옵션을 설정한 후 생성을 클릭하면 BTCPay 서버가 새 Wallet를 generate으로 생성합니다. 이 단계는 seed 문구를 생성하기 전 마지막 단계입니다. 다른 사람이 화면을 보고 seed 문구를 훔칠 수 없는 환경에서만 이 작업을 수행해야 합니다.
 
 
-![image](assets/en/28.webp)
+![image](assets/en/029.webp)
 
 
 (6) 마법사의 다음 화면에서 BTCPay 서버는 새로 생성된 Wallet에 대한 복구 seed 문구를 표시하며, 이는 Wallet을 복구하고 거래에 서명하는 데 필요한 키입니다. BTCPay 서버는 12개의 단어로 구성된 seed 문구를 생성합니다. 이 단어는 이 설정 화면 이후 서버에서 지워집니다. 이 Wallet은 구체적으로 Watch-only wallet입니다. 이 seed 문구를 디지털 또는 사진 이미지로 저장하지 않는 것이 좋습니다. 사용자가 seed 문구를 적었다는 사실을 적극적으로 인정하는 경우에만 마법사에서 더 진행할 수 있습니다.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/030.webp)
 
 
 (7) 완료를 클릭하고 새로 생성된 Bitcoin seed 문구를 보호하면 BTCPay 서버가 첨부된 새 Wallet로 스토어를 업데이트하고 결제를 받을 준비가 완료됩니다. 사용자 Interface의 왼쪽 탐색 메뉴에서 Bitcoin이 Wallet 아래에 강조 표시되고 활성화된 것을 확인할 수 있습니다.
 
 
-![image](assets/en/30.webp)
+![image](assets/en/031.webp)
 
 
 ### 예시: seed 문구 적기
@@ -1090,7 +1077,7 @@ BTCPay 서버에는 연결 정보가 필요하며, 사전 제작(또는 관리 �
 - REST API를 통한 LNDhub
 
 
-![image](assets/en/31.webp)
+![image](assets/en/032.webp)
 
 
 '연결 테스트'를 클릭하여 연결 세부 정보를 올바르게 입력했는지 확인합니다. 연결이 정상으로 확인되면 '저장'을 클릭하면 BTCPay 서버에 스토어가 라이트닝 노드로 업데이트되었음을 표시합니다.
@@ -1146,7 +1133,7 @@ BTCPay 서버에는 연결 정보가 필요하며, 사전 제작(또는 관리 �
 서버 관리자는 내부 노드 정보를 클릭하여 서버 상태(온라인/오프라인)와 클리어넷 또는 토르의 연결 문자열을 확인할 수 있습니다.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/033.webp)
 
 
 #### 연결 변경
@@ -1155,7 +1142,7 @@ BTCPay 서버에는 연결 정보가 필요하며, 사전 제작(또는 관리 �
 외부 라이트닝 노드를 변경하려면 '라이트닝 설정'으로 이동하여 '연결 변경'('공개 노드 정보' 옆)을 클릭합니다. 그러면 기존 설정이 재설정됩니다. 새 노드 세부 정보를 입력하고 저장을 클릭하면 스토어가 그에 따라 업데이트됩니다.
 
 
-![image](assets/en/33.webp)
+![image](assets/en/034.webp)
 
 
 #### 서비스
@@ -1170,7 +1157,7 @@ BTCPay 서버에는 연결 정보가 필요하며, 사전 제작(또는 관리 �
 이전 단계에서 스토어에 라이트닝 노드를 추가한 후에도 스토어 소유자는 라이트닝 설정 상단의 토글을 사용하여 스토어에 대해 비활성화하도록 선택할 수 있습니다.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/035.webp)
 
 
 #### 라이트닝 결제 옵션
@@ -1245,7 +1232,7 @@ BTCPay 서버에는 연결 정보가 필요하며, 사전 제작(또는 관리 �
 Alby와 같은 관리자와 연결할 때 스토어 소유자는 먼저 계정을 생성하고 https://getalby.com/ 을 방문해야 합니다
 
 
-![image](assets/en/35.webp)
+![image](assets/en/036.webp)
 
 
 Alby 계정을 생성한 후 BTCPay 서버 스토어로 이동합니다.
@@ -1254,25 +1241,25 @@ Alby 계정을 생성한 후 BTCPay 서버 스토어로 이동합니다.
 1단계: 대시보드에서 '라이트닝 노드 설정'을 클릭하거나 지갑 아래의 '라이트닝'을 클릭합니다.
 
 
-![image](assets/en/36.webp)
+![image](assets/en/037.webp)
 
 
 2단계: Alby에서 제공한 Wallet 연결 자격 증명을 입력합니다. Alby의 대시보드에서 Wallet를 클릭합니다. 여기에서 "Wallet 연결 자격 증명"을 찾을 수 있습니다. 이 자격 증명을 복사합니다. Alby에서 받은 자격 증명을 BTCPay 서버의 연결 구성 필드에 붙여넣습니다.
 
 
-![image](assets/en/37.webp)
+![image](assets/en/038.webp)
 
 
 3단계: BTCPay 서버에 연결 세부 정보를 제공한 후 "연결 테스트" 버튼을 클릭하여 연결이 제대로 작동하는지 확인합니다. 화면 상단에 "라이트닝 노드에 연결 성공" 메시지가 표시됩니다. 이는 모든 것이 예상대로 작동하고 있음을 확인합니다.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/039.webp)
 
 
 4단계: "저장"을 클릭하면 이제 스토어가 Alby의 라이트닝 노드에 연결됩니다.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/040.webp)
 
 
 **!참고!**
@@ -1337,7 +1324,7 @@ BTCPay 서버 대시보드의 기본 보기에는 몇 가지 표준 타일이 �
 Wallet 잔액 타일은 Wallet의 자금과 성과를 간략하게 보여줍니다. 주별, 월별 또는 연간 그래프에서 BTC 또는 법정화폐로 확인할 수 있습니다.
 
 
-![image](assets/en/40.webp)
+![image](assets/en/041.webp)
 
 
 ### 거래 활동
@@ -1346,7 +1333,7 @@ Wallet 잔액 타일은 Wallet의 자금과 성과를 간략하게 보여줍니�
 Wallet 잔액 타일 옆의 BTCPay 서버에는 지급 대기 중인 지급액, 지난 7일간의 거래 수, 스토어에서 환불을 발행했는지 여부에 대한 간략한 개요가 표시됩니다. 관리 버튼을 클릭하면 보류 중인 지급액 관리로 이동합니다(지급액에 대한 자세한 내용은 BTCPay 서버 - 지급액 챕터에서 자세히 알아보세요).
 
 
-![image](assets/en/41.webp)
+![image](assets/en/042.webp)
 
 
 ### 라이트닝 밸런스
@@ -1358,7 +1345,7 @@ Wallet 잔액 타일 옆의 BTCPay 서버에는 지급 대기 중인 지급액, 
 관리자가 Lightning Network 액세스를 허용한 경우, BTCPay 서버 대시보드에 라이트닝 노드 정보가 포함된 새 타일이 표시됩니다. 채널에 있는 BTC의 양, 로컬 또는 원격(인바운드 또는 아웃바운드 유동성) 잔액, 채널이 닫히거나 열리고 있는지, 라이트닝 노드에서 Bitcoin이 On-Chain를 얼마나 보유하고 있는지 등을 확인할 수 있습니다.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/043.webp)
 
 
 ### 라이트닝 서비스
@@ -1370,7 +1357,7 @@ Wallet 잔액 타일 옆의 BTCPay 서버에는 지급 대기 중인 지급액, 
 관리자는 BTCPay 서버 대시보드에서 라이트닝 잔액 옆에 라이트닝 서비스 타일을 볼 수 있습니다. 관리자는 여기에서 라이트닝 노드를 관리하는 데 사용하는 도구의 빠른 버튼을 찾을 수 있습니다. 예를 들어, 라이트닝 노드 관리를 위한 BTCPay 서버의 표준 도구 중 하나인 라이트닝 타기는 라이트닝 노드를 관리하는 데 사용됩니다.
 
 
-![image](assets/en/43.webp)
+![image](assets/en/044.webp)
 
 
 ### 최근 거래
@@ -1379,7 +1366,7 @@ Wallet 잔액 타일 옆의 BTCPay 서버에는 지급 대기 중인 지급액, 
 최근 거래 타일에는 스토어의 가장 최근 거래가 표시됩니다. 이제 BTCPay 서버 인스턴스의 관리자는 클릭 한 번으로 최신 거래를 확인하고 해당 거래에 대한 주의가 필요한지 확인할 수 있습니다.
 
 
-![image](assets/en/44.webp)
+![image](assets/en/045.webp)
 
 
 ### 최근 송장
@@ -1388,7 +1375,7 @@ Wallet 잔액 타일 옆의 BTCPay 서버에는 지급 대기 중인 지급액, 
 최근 인보이스 타일에는 상태와 Invoice 금액을 포함해 BTCPay 서버에서 생성한 6개의 최신 인보이스가 표시됩니다. 타일에는 전체 Invoice 개요에 쉽게 액세스할 수 있는 "모두 보기" 버튼도 포함되어 있습니다.
 
 
-![image](assets/en/45.webp)
+![image](assets/en/046.webp)
 
 
 ### POS 및 크라우드 펀딩
@@ -1397,13 +1384,13 @@ Wallet 잔액 타일 옆의 BTCPay 서버에는 지급 대기 중인 지급액, 
 BTCPay 서버는 표준 플러그인 또는 앱 세트를 제공하므로 POS와 크라우드펀드는 BTCPay 서버의 두 가지 주요 플러그인입니다. 모든 스토어와 Wallet을 통해 BTCPay 서버 사용자는 원하는 만큼의 POS 또는 크라우드펀드를 generate에 추가할 수 있습니다. 각각 플러그인의 성능을 보여주는 새로운 대시보드 타일이 생성됩니다.
 
 
-![image](assets/en/46.webp)
+![image](assets/en/047.webp)
 
 
 POS 타일과 크라우드펀딩 타일에는 약간의 차이가 있습니다. 관리자는 POS 타일에서 판매된 상위 품목을 볼 수 있습니다. 크라우드펀딩 타일에서는 이것이 상위 특전이 됩니다. 두 타일 모두 각 앱을 관리하고 인기 아이템 또는 인기 특전으로 생성된 최근 송장을 볼 수 있는 빠른 버튼이 있습니다.
 
 
-![image](assets/en/47.webp)
+![image](assets/en/048.webp)
 
 
 **!참고!**
@@ -1544,7 +1531,7 @@ BTCPay 서버에서 Invoice이 생성될 때 항상 가장 최신의 정확한 �
 스토어에 매개 변수를 설정하여 고객이 가격이 X 금액 미만인 경우에만 Lightning과 상호 작용하도록 하고, 그 반대로 On-Chain 거래의 경우 X가 Y보다 크면 항상 On-Chain 결제 옵션을 제시하도록 할 수 있습니다.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/049.webp)
 
 
 #### 결제
@@ -1553,7 +1540,7 @@ BTCPay 서버에서 Invoice이 생성될 때 항상 가장 최신의 정확한 �
 BTCPay 서버 릴리스 1.7부터 새로운 Checkout Interface, Checkout V2가 도입되었습니다. 릴리스 1.9가 표준화되었으므로 관리자와 스토어 소유자는 여전히 이전 릴리스로 결제를 설정할 수 있습니다. 스토어 소유자는 "클래식 결제 사용" 토글을 사용하여 스토어를 이전 결제 환경으로 되돌릴 수 있습니다. 또한 BTCPay 서버에는 온라인 상거래 또는 매장 내 환경을 위한 사전 설정 세트가 있습니다.
 
 
-![image](assets/en/49.webp)
+![image](assets/en/050.webp)
 
 
 고객이 스토어와 상호 작용하여 Invoice을 생성하면 Invoice의 만료 시간이 있습니다. 기본적으로 BTCPay 서버는 이 시간을 5분으로 설정하며, 관리자는 원하는 대로 조정할 수 있습니다. 다음 매개변수를 확인하여 결제 페이지를 추가로 사용자 지정할 수 있습니다:
@@ -1568,25 +1555,25 @@ BTCPay 서버 릴리스 1.7부터 새로운 Checkout Interface, Checkout V2가 �
 - 결제 시 언어 자동 감지
 
 
-![image](assets/en/50.webp)
+![image](assets/en/051.webp)
 
 
 언어 자동 감지를 설정하지 않은 경우 BTCPay 서버는 기본적으로 영어를 표시합니다. 스토어 소유자는 이 기본값을 원하는 언어로 변경할 수 있습니다.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/052.webp)
 
 
 드롭다운을 클릭하면 스토어 소유자가 결제 페이지에 표시할 사용자 지정 HTML 제목을 설정할 수 있습니다.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/053.webp)
 
 
 고객이 결제 방법을 알 수 있도록 스토어 소유자는 결제 시 항상 사용자가 선호하는 결제 방법을 선택하도록 명시적으로 설정할 수 있습니다. Invoice이 결제되면 BTCPay 서버는 고객이 웹숍으로 돌아갈 수 있도록 합니다. 스토어 소유자는 고객이 결제한 후 이 리디렉션이 자동으로 적용되도록 설정할 수 있습니다.
 
 
-![image](assets/en/53.webp)
+![image](assets/en/054.webp)
 
 
 #### 공개 영수증
@@ -1595,7 +1582,7 @@ BTCPay 서버 릴리스 1.7부터 새로운 Checkout Interface, Checkout V2가 �
 스토어 소유자는 공개 영수증 설정에서 영수증 페이지를 공개로 설정하여 영수증 페이지에 결제 목록과 고객이 쉽게 액세스할 수 있는 QR 코드를 표시할 수 있습니다.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/055.webp)
 
 
 ### 액세스 토큰
@@ -1604,7 +1591,7 @@ BTCPay 서버 릴리스 1.7부터 새로운 Checkout Interface, Checkout V2가 �
 액세스 토큰은 특정 전자상거래 통합 또는 사용자 지정 통합과 페어링하는 데 사용됩니다.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/056.webp)
 
 
 ### 사용자
@@ -1613,7 +1600,7 @@ BTCPay 서버 릴리스 1.7부터 새로운 Checkout Interface, Checkout V2가 �
 스토어 사용자는 스토어 소유자가 직원, 직원 계정 및 스토어 액세스 권한을 관리할 수 있는 곳입니다. 직원이 계정을 생성한 후 스토어 소유자는 특정 사용자를 게스트 사용자 또는 소유자로 스토어에 추가할 수 있습니다. 직원의 역할을 추가로 정의하려면 다음 섹션의 "BTCPay 서버 스토어 설정 - 역할"을 참조하세요
 
 
-![image](assets/en/56.webp)
+![image](assets/en/057.webp)
 
 
 ### 역할
@@ -1625,13 +1612,13 @@ BTCPay 서버 릴리스 1.7부터 새로운 Checkout Interface, Checkout V2가 �
 (1) 새 역할을 만들려면 '+ 역할 추가' 버튼을 클릭합니다.
 
 
-![image](assets/en/57.webp)
+![image](assets/en/058.webp)
 
 
 (2) 역할 이름(예: '캐셔')을 입력합니다.
 
 
-![image](assets/en/58.webp)
+![image](assets/en/059.webp)
 
 
 (3) 역할에 대한 개별 권한을 구성합니다.
@@ -1665,7 +1652,7 @@ BTCPay 서버 릴리스 1.7부터 새로운 Checkout Interface, Checkout V2가 �
 역할이 생성되면 이름이 고정되며 편집 모드에 들어간 후에는 변경할 수 없습니다.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/060.webp)
 
 
 ### 웹훅
@@ -1674,13 +1661,13 @@ BTCPay 서버 릴리스 1.7부터 새로운 Checkout Interface, Checkout V2가 �
 BTCPay 서버 내에서 새로운 "웹후크"를 만드는 것은 매우 쉽습니다. BTCPay 서버 스토어 설정 - 웹후크 탭에서 스토어 소유자는 "+ 웹후크 생성"을 클릭하여 새 웹후크를 쉽게 생성할 수 있습니다. 웹후크를 사용하면 BTCPay 서버가 스토어와 관련된 HTTP 이벤트를 다른 서버 또는 전자상거래 통합으로 전송할 수 있습니다.
 
 
-![image](assets/en/60.webp)
+![image](assets/en/061.webp)
 
 
 이제 웹훅을 생성하기 위한 뷰에 들어왔습니다. 페이로드 URL을 알고 있는지 확인하고 이를 BTCPay 서버에 붙여넣습니다. 페이로드 URL을 붙여넣는 동안 그 아래에 웹훅 비밀 번호가 표시됩니다. 웹훅 비밀을 복사하여 엔드포인트에 입력합니다. 모든 설정이 완료되면 BTCPay 서버에서 "자동 재전송"으로 전환할 수 있습니다 BTCPay 서버는 10초, 1분, 10분 후 최대 6회까지 배달 실패 시 재전송을 시도합니다. 모든 이벤트 사이를 전환하거나 필요에 따라 이벤트를 지정할 수 있습니다. 웹훅을 활성화하고 "웹훅 추가" 버튼을 눌러 저장하세요.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/062.webp)
 
 
 웹후크는 Bitpay API와 호환되지 않습니다. BTCPay 서버에는 두 개의 별도 IPN(BitPay 용어로는 "즉시 결제 알림")이 있습니다.
@@ -1703,15 +1690,15 @@ Bitpay API를 통해 인보이스를 생성할 때만 알림 URL을 사용합니
 스토어 소유자는 두 가지 지급 프로세서를 개별적으로 클릭하고 구성할 수 있습니다. 스토어 소유자는 On-Chain 프로세서를 X시간에 한 번만 실행하고 싶을 수도 있고, off-chain 프로세서는 몇 분마다 실행할 수도 있습니다. On-Chain의 경우 포함할 블록의 대상을 설정할 수도 있습니다. 기본적으로 이 설정은 1(또는 사용 가능한 다음 블록)로 설정되어 있습니다. off-chain 지급 프로세서 설정에는 간격 타이머만 있고 블록 대상은 없습니다. Lightning Network 지급은 즉시 이루어집니다.
 
 
-![image](assets/en/62.webp)
+![image](assets/en/063.webp)
 
-![image](assets/en/63.webp)
+![image](assets/en/064.webp)
 
 
 스토어 소유자는 스토어에 Hot Wallet이 연결되어 있는 경우에만 On-Chain 프로세서를 구성할 수 있습니다.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/065.webp)
 
 
 지급 프로세서를 설정한 후에는 BTCPay 서버 스토어 설정의 지급 프로세서 탭으로 돌아가서 빠르게 제거하거나 수정할 수 있습니다.
@@ -1729,7 +1716,7 @@ Bitpay API를 통해 인보이스를 생성할 때만 알림 URL을 사용합니
 BTCPay 서버는 알림용 이메일을 사용하거나 올바르게 설정된 경우 인스턴스에서 생성된 계정을 복구하는 데 사용할 수 있습니다. 예를 들어 비밀번호 분실 시 BTCPay 서버는 기본적으로 이메일을 보내지 않습니다.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/066.webp)
 
 
 스토어 소유자는 스토어에서 특정 이벤트를 트리거하도록 이메일 규칙을 설정하기 전에 먼저 몇 가지 기본 이메일 설정을 설정해야 합니다. 스토어와 관련된 이벤트 또는 비밀번호 재설정에 대한 이메일을 보내려면 이러한 설정이 필요합니다.
@@ -1749,7 +1736,7 @@ BTCPay 서버는 "빠른 채우기" 옵션을 사용하여 이 정보를 더 쉽
 빠른 채우기 옵션을 사용하면 BTCPay 서버가 SMTP 서버와 포트에 대한 필드를 미리 채웁니다. 이제 스토어 소유자는 이메일 Address, 로그인(일반적으로 이메일 Address과 동일), 비밀번호 등 자격 증명만 입력하면 됩니다. BTCPay 서버 이메일 설정의 고급 옵션은 TLS 인증서 보안 검사 비활성화이며, 기본적으로 이 옵션은 활성화되어 있습니다.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/067.webp)
 
 
 스토어 소유자는 이메일 규칙을 통해 특정 이벤트를 설정하여 특정 이메일 주소로 이메일을 트리거할 수 있습니다.
@@ -1768,7 +1755,7 @@ BTCPay 서버는 "빠른 채우기" 옵션을 사용하여 이 정보를 더 쉽
 고객이 Address 이메일을 제공한 경우 이러한 트리거를 통해 고객에게 정보를 보낼 수도 있습니다. 스토어 소유자는 제목 줄을 미리 작성하여 이 이메일이 발생한 이유와 트리거가 발생한 원인을 명확히 알릴 수 있습니다.
 
 
-![image](assets/en/67.webp)
+![image](assets/en/068.webp)
 
 
 ### 양식
@@ -1780,13 +1767,13 @@ BTCPay 서버는 데이터를 수집하지 않으므로 스토어 소유자는 �
 새 양식을 생성하면 BTCPay 서버에서 새 양식에 입력할 기본 정보를 요청하는 새 창이 열립니다. 처음에는 스토어 소유자가 새 양식의 이름을 명확하게 지정해야 하며, 이 이름은 설정한 후에는 변경할 수 없습니다.
 
 
-![image](assets/en/68.webp)
+![image](assets/en/069.webp)
 
 
 스토어 소유자가 양식에 이름을 지정한 후 '공개용 양식 허용' 스위치를 켜기로 전환하면 Green이 켜집니다. 이렇게 하면 모든 고객 대면 위치에서 양식을 사용할 수 있습니다. 예를 들어, 매장 소유자가 POS를 통하지 않고 별도의 Invoice를 생성하는 경우에도 고객으로부터 정보를 수집하고 싶을 수 있습니다. 이 토글을 사용하면 해당 정보를 수집할 수 있습니다.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/070.webp)
 
 
 모든 양식은 최소 1개의 새 양식 필드로 시작됩니다. 스토어 소유자는 어떤 유형의 필드가 될지 선택할 수 있습니다.
@@ -1809,7 +1796,7 @@ BTCPay 서버는 데이터를 수집하지 않으므로 스토어 소유자는 �
 모든 유형에는 입력할 매개 변수가 있습니다. 스토어 소유자는 원하는 대로 설정할 수 있습니다. 스토어 소유자는 처음 생성된 필드 아래에서 이 양식에 새 필드를 추가할 수 있습니다.
 
 
-![image](assets/en/70.webp)
+![image](assets/en/071.webp)
 
 
 #### 고급 사용자 지정 양식
@@ -1905,7 +1892,7 @@ BTCPay 서버는 두 가지 설정 보기로 구성됩니다. 하나는 스토�
 BTCPay 서버 설정에는 스토어별 사용자 지정 역할과 서버 전체 사용자 지정 역할의 두 가지 유형의 사용자 지정 역할이 있습니다. 둘 다 비슷한 권한 세트를 보유하지만, BTCpay 서버 설정 - 역할 탭을 통해 설정하면 적용된 역할이 서버 전체에 적용되어 여러 스토어에 적용됩니다. 서버 설정에서 사용자 지정 역할에 "서버 전체" 태그가 있는지 확인하세요.
 
 
-![image](assets/en/71.webp)
+![image](assets/en/072.webp)
 
 
 ### 서버 전체 사용자 지정 역할
@@ -1951,7 +1938,7 @@ BTCPay 서버 설정에는 스토어별 사용자 지정 역할과 서버 전체
 서버 전체 이메일 설정은 스토어별 이메일 설정과 비슷해 보입니다. 그러나 이 설정은 스토어 또는 관리자 로그에 대한 트리거뿐만 아니라 다른 이벤트에 대한 트리거도 처리합니다. 또한 이 이메일 설정은 로그인 시 BTCPay 서버에서 비밀번호 복구를 사용할 수 있게 해줍니다. 스토어별 설정과 유사하게 작동하며, 관리자는 이메일 매개변수를 빠르게 입력하고 이메일 자격 증명을 입력하여 서버가 이메일을 보낼 수 있도록 할 수 있습니다.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/073.webp)
 
 
 ### 정책
@@ -1960,7 +1947,7 @@ BTCPay 서버 설정에는 스토어별 사용자 지정 역할과 서버 전체
 BTCPay 서버 정책 관리자는 기존 사용자 설정, 새 사용자 설정, 알림 설정, 유지 관리 설정과 같은 다양한 설정을 설정할 수 있습니다. 이러한 설정은 새 사용자를 관리자 또는 일반 사용자로 등록하거나 서버 헤더에 추가하여 검색 엔진에서 BTCPay 서버를 숨기는 데 사용됩니다.
 
 
-![image](assets/en/73.webp)
+![image](assets/en/074.webp)
 
 
 #### 기존 사용자 설정
@@ -1978,7 +1965,7 @@ BTCPay 서버 정책 관리자는 기존 사용자 설정, 새 사용자 설정,
   - 이전 주제인 Hot 지갑 만들기 항목과 마찬가지로, 이 정책은 Hot 지갑 만들기 항목에서 언급한 것과 동일한 위험성을 지닌 Wallet을 가져올 수 있도록 허용합니다.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/075.webp)
 
 
 #### 새 사용자 설정
@@ -1997,13 +1984,13 @@ BTCPay 서버 정책 관리자는 기존 사용자 설정, 새 사용자 설정,
 기본적으로 BTCPay 서버는 "서버에서 새 사용자 등록 비활성화"를 토글하여 관리자가 아닌 사람이 사용자 생성 API 엔드포인트에 액세스할 수 없도록 설정되어 있습니다. 이는 보안을 위한 것으로, BTCPay 로그인을 우연히 발견한 임의의 사용자가 계정을 만들 수 없습니다.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/076.webp)
 
 
 #### 알림 설정
 
 
-![image](assets/en/76.webp)
+![image](assets/en/077.webp)
 
 
 #### 유지 관리 설정
@@ -2018,7 +2005,7 @@ BTCPay 서버는 GitHub에 있는 오픈 소스 프로젝트입니다. BTCPay �
 - 실험적 기능을 사용하도록 설정합니다.
 
 
-![image](assets/en/77.webp)
+![image](assets/en/078.webp)
 
 
 #### 플러그인
@@ -2027,7 +2014,7 @@ BTCPay 서버는 GitHub에 있는 오픈 소스 프로젝트입니다. BTCPay �
 BTCPay 서버는 플러그인을 추가하고 기능 세트를 확장할 수 있습니다. 기본적으로 플러그인은 BTCPay 서버 플러그인 빌더 리포지토리에서 로드됩니다. 그러나 관리자는 플러그인 개발자가 허용하는 경우 사전 릴리스 상태의 플러그인을 볼 수 있으며, 서버 관리자는 이제 베타 버전의 플러그인을 설치할 수 있습니다.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/079.webp)
 
 
 ##### 사용자 지정 설정
@@ -2041,7 +2028,7 @@ BTCPay 서버는 플러그인을 추가하고 기능 세트를 확장할 수 있
   - 루트 도메인에 표시할 수 있는 앱 목록을 표시합니다.
 
 
-![image](assets/en/79.webp)
+![image](assets/en/080.webp)
 
 
 
@@ -2049,7 +2036,7 @@ BTCPay 서버는 플러그인을 추가하고 기능 세트를 확장할 수 있
   - 특정 앱에 대한 특정 도메인을 설정하려면 클릭하면 관리자가 특정 앱이 가리키는 도메인을 필요한 만큼 설정할 수 있습니다.
 
 
-![image](assets/en/80.webp)
+![image](assets/en/081.webp)
 
 
 #### 블록 탐색기
@@ -2058,7 +2045,7 @@ BTCPay 서버는 플러그인을 추가하고 기능 세트를 확장할 수 있
 BTCPay 서버는 기본적으로 트랜잭션용 Block explorer로 Mempool.space가 함께 제공됩니다. BTCPay 서버가 새 Invoice을 생성하고 트랜잭션이 여기에 연결되면 스토어 소유자는 클릭하여 트랜잭션을 열 수 있습니다. BTCPay 서버는 기본적으로 Mempool.space를 Block explorer로 가리키지만, 서버 관리자는 이를 원하는 옵션으로 변경할 수 있습니다.
 
 
-![image](assets/en/81.webp)
+![image](assets/en/082.webp)
 
 
 ### 서비스
@@ -2070,7 +2057,7 @@ BTCPay 서버는 기본적으로 트랜잭션용 Block explorer로 Mempool.space
 BTCPay 서버 관리자는 각 서비스 뒤에 있는 "정보 보기"를 클릭하여 해당 서비스를 열고 특정 설정을 지정할 수 있습니다.
 
 
-![image](assets/en/82.webp)
+![image](assets/en/083.webp)
 
 
 #### LND(gRPC)
@@ -2095,7 +2082,7 @@ BTCPay는 외부에서 사용할 수 있도록 LND의 GRPC 서비스를 노출�
 #### LND(REST)
 
 
-BTCPay는 외부에서 사용할 수 있도록 LND의 REST 서비스를 노출하며, 여기에서 연결 정보를 확인할 수 있고 호환 가능한 지갑은 여기에 나열되어 있습니다. 호환되는 지갑은 줄(Joule), 앨비(Alby), 제우스LN입니다. BTCPay 서버는 연결용 QR 코드를 제공하며, 이를 스캔하여 호환되는 Wallet에서 적용할 수 있습니다.
+BTCPay는 외부에서 사용할 수 있도록 LND의 REST 서비스를 노출하며, [여기]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay)에서 연결 정보를 확인할 수 있고 호환 가능한 지갑은 [여기](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server).에 나열되어 있습니다. 호환되는 지갑은 줄(Joule), 앨비(Alby), 제우스LN입니다. BTCPay 서버는 연결용 QR 코드를 제공하며, 이를 스캔하여 호환되는 Wallet에서 적용할 수 있습니다.
 
 
 
@@ -2157,7 +2144,7 @@ BTCPay 서버에는 두 가지 테마가 기본으로 제공됩니다: 라이트
 관리자는 사용자 지정 CSS를 추가하거나 사용자 지정 테마를 전체 사용자 지정으로 설정하여 라이트/다크 테마를 확장할 수 있습니다.
 
 
-![image](assets/en/83.webp)
+![image](assets/en/084.webp)
 
 
 #### 서버 브랜딩
@@ -2166,7 +2153,7 @@ BTCPay 서버에는 두 가지 테마가 기본으로 제공됩니다: 라이트
 서버 관리자는 회사의 서버 전체 브랜딩을 설정하여 BTCPay 서버 브랜딩을 변경할 수 있습니다. BTCPay 서버는 FOSS이므로 서버 관리자는 소프트웨어에 화이트 라벨을 붙이고 비즈니스에 맞게 모양을 사용자 지정할 수 있습니다.
 
 
-![image](assets/en/84.webp)
+![image](assets/en/085.webp)
 
 
 ### 유지 관리
@@ -2178,7 +2165,7 @@ BTCPay 서버에는 두 가지 테마가 기본으로 제공됩니다: 라이트
 BTCPay 서버는 오픈 소스 프로젝트이며 자주 업데이트됩니다. 모든 새 릴리스는 BTCPay 서버 알림 또는 BTCPay 서버가 소통하는 공식 채널을 통해 발표됩니다.
 
 
-![image](assets/en/85.webp)
+![image](assets/en/086.webp)
 
 
 #### 도메인 이름
@@ -2187,7 +2174,7 @@ BTCPay 서버는 오픈 소스 프로젝트이며 자주 업데이트됩니다. 
 BTCPay 서버가 설정된 후 관리자는 원래 도메인에서 변경하고 싶을 수 있습니다. 관리자는 유지 관리 탭에서 도메인을 변경할 수 있습니다. 확인을 클릭하고 도메인에 적절한 DNS 레코드를 설정하면 BTCPay 서버가 업데이트 및 재시작되어 새 도메인으로 돌아갑니다.
 
 
-![image](assets/en/86.webp)
+![image](assets/en/087.webp)
 
 
 #### 다시 시작
@@ -2196,7 +2183,7 @@ BTCPay 서버가 설정된 후 관리자는 원래 도메인에서 변경하고 
 BTCPay 서버 및 관련 서비스를 다시 시작합니다.
 
 
-![image](assets/en/87.webp)
+![image](assets/en/088.webp)
 
 
 #### 청소
@@ -2205,7 +2192,7 @@ BTCPay 서버 및 관련 서비스를 다시 시작합니다.
 BTCPay 서버는 도커 구성 요소로 실행되며, 업데이트 시 도커 이미지, 임시 파일 등이 남아있을 수 있습니다. 서버 관리자는 정리 스크립트를 실행하여 공간을 확보할 수 있습니다.
 
 
-![image](assets/en/88.webp)
+![image](assets/en/089.webp)
 
 
 #### 업데이트
@@ -2214,7 +2201,7 @@ BTCPay 서버는 도커 구성 요소로 실행되며, 업데이트 시 도커 �
 유지 관리 탭에서 가장 중요한 옵션입니다. BTCPay 서버는 커뮤니티에 의해 구축되었기 때문에 대부분의 소프트웨어 제품보다 업데이트 주기가 더 잦습니다. BTCPay 서버에 새 릴리스가 있으면 관리자는 알림 센터에서 알림을 받게 됩니다. 업데이트 버튼을 클릭하면 BTCPay 서버가 GitHub에서 최신 릴리스를 확인하고 서버를 업데이트한 후 다시 시작합니다. 업데이트하기 전에 서버 관리자는 항상 BTCPay 서버의 공식 채널을 통해 배포된 릴리스 노트를 읽어보시기 바랍니다.
 
 
-![image](assets/en/89.webp)
+![image](assets/en/090.webp)
 
 
 ### 로그
@@ -2408,10 +2395,10 @@ BTCPay 서버는 로컬 파일 시스템을 갖추고 있어 스토어(제품) �
 서버 관리자가 파일 저장소 탭에 있는 경우 서버에 직접 업로드하거나 파일 저장소 공급자를 로컬 파일 시스템 또는 Azure Blob 저장소로 변경할 수 있습니다.
 
 
-![image](assets/en/90.webp)
+![image](assets/en/091.webp)
 
 
-![image](assets/en/91.webp)
+![image](assets/en/092.webp)
 
 
 ### 기술 요약
@@ -2468,7 +2455,7 @@ BTCPay 서버의 핵심은 Bitcoin Invoice 관리 시스템으로 작동하는 �
 기본 제공 [Wallet](https://docs.btcpayserver.org/Wallet/)을 사용하여 수동으로 결제를 받지 않는 한, 스토어 내 모든 결제는 인보이스 페이지에 표시됩니다. 이 페이지는 날짜별로 결제를 누적 정렬하며 Invoice 관리 및 결제 문제 해결을 위한 중앙 리소스 역할을 합니다.
 
 
-![image](assets/en/92.webp)
+![image](assets/en/093.webp)
 
 
 ### 일반
@@ -2586,7 +2573,7 @@ Invoice 타이머는 기본적으로 15분으로 설정되어 있습니다. 타�
 - 모양 - CSS 테마를 사용한 색상 및 스타일
 
 
-![image](assets/en/93.webp)
+![image](assets/en/094.webp)
 
 
 #### 결제 요청 생성
@@ -2595,7 +2582,7 @@ Invoice 타이머는 기본적으로 15분으로 설정되어 있습니다. 타�
 왼쪽 메뉴에서 결제 요청으로 이동하여 '결제 요청 생성'을 클릭합니다.
 
 
-![image](assets/en/94.webp)
+![image](assets/en/095.webp)
 
 
 요청 이름, 금액, 표시 단위, 관련 스토어, 만료 시간 및 설명(선택 사항)을 입력합니다
@@ -2610,7 +2597,7 @@ Invoice 타이머는 기본적으로 15분으로 설정되어 있습니다. 타�
 BTCPay가 결제 요청을 위한 URL을 생성합니다. 이 URL을 공유하면 결제 요청을 확인할 수 있습니다. 동일한 요청이 여러 개 필요하신가요? 메인 메뉴의 복제 옵션을 사용하여 결제 요청을 복제할 수 있습니다.
 
 
-![image](assets/en/95.webp)
+![image](assets/en/096.webp)
 
 
 **경고**
@@ -2625,7 +2612,7 @@ BTCPay가 결제 요청을 위한 URL을 생성합니다. 이 URL을 공유하�
 수취인과 요청자는 결제가 전송된 후 결제 요청의 상태를 확인할 수 있습니다. 결제 금액이 전액 수령된 경우 상태는 결제 완료로 표시됩니다. 일부만 결제된 경우 미결제 금액에 남은 잔액이 표시됩니다.
 
 
-![image](assets/en/96.webp)
+![image](assets/en/097.webp)
 
 
 #### 결제 요청 사용자 지정
@@ -2823,7 +2810,7 @@ BTCPay 서버를 사용하면 스토어 소유자가 여러 레이아웃으로 �
 스토어 소유자가 왼쪽 메뉴 표시줄에서 "판매 시점"을 클릭하면 이제 BTCPay 서버가 이름을 묻고, 이 이름이 왼쪽 메뉴 표시줄에 표시됩니다. 생성을 클릭하여 PoS를 생성합니다.
 
 
-![image](assets/en/97.webp)
+![image](assets/en/098.webp)
 
 
 #### 새로 생성된 POS 업데이트
@@ -2844,7 +2831,7 @@ BTCPay 서버를 사용하면 스토어 소유자가 여러 레이아웃으로 �
 일반인이 방문하면 스토어 제목이나 이름을 볼 수 있습니다. BTCPay 서버는 기본적으로 스토어 이름을 "티숍"으로 지정합니다 이 이름을 상점 이름으로 바꾸세요.
 
 
-![image](assets/en/98.webp)
+![image](assets/en/099.webp)
 
 
 #### POS 스타일 선택
@@ -2864,31 +2851,31 @@ BTCPay 서버는 여러 가지 방법으로 POS를 표시할 수 있습니다.
   - 제품 목록을 항상 디지털로 표시할 수 없는 경우 제품을 위한 "오프라인" 솔루션이 필요한데, BTCPay 서버에는 오프라인 스토어 역할을 하는 인쇄 디스플레이가 있습니다.
 
 
-![image](assets/en/99.webp)
+![image](assets/en/100.webp)
 
 
 #### POS 스타일 - 제품 목록
 
 
-![image](assets/en/100.webp)
+![image](assets/en/101.webp)
 
 
 #### POS 스타일 - 제품 목록 + 카트
 
 
-![image](assets/en/101.webp)
+![image](assets/en/102.webp)
 
 
 #### POS 스타일 - 키패드 전용
 
 
-![image](assets/en/102.webp)
+![image](assets/en/103.webp)
 
 
 #### POS 스타일 - 인쇄 디스플레이
 
 
-![image](assets/en/103.webp)
+![image](assets/en/104.webp)
 
 
 #### 통화
@@ -2903,7 +2890,7 @@ BTCPay 서버는 여러 가지 방법으로 POS를 표시할 수 있습니다.
 무엇을 얼마에 판매하고 있는지 등 스토어에 대해 세상에 알리세요 상점을 설명하는 모든 것이 여기에 있습니다.
 
 
-![image](assets/en/104.webp)
+![image](assets/en/105.webp)
 
 
 #### 제품
@@ -2932,7 +2919,7 @@ POS가 생성되면 표준 BTCPay 서버는 참고용으로 몇 가지 아이템
 스토어 소유자는 "원시 편집기"를 사용하여 제품을 구성할 수도 있습니다. 원시 편집기를 사용하려면 JSON 구조에 대한 기본적인 이해가 필요합니다.
 
 
-![image](assets/en/105.webp)
+![image](assets/en/106.webp)
 
 
 #### 결제
@@ -2983,7 +2970,7 @@ POS 플러그인 옆에 BTCPay 서버에는 크라우드펀드를 생성할 수 
 BTCPay 서버 왼쪽 메인 메뉴의 플러그인 섹션 아래에서 크라우드펀딩 플러그인을 클릭합니다. 이제 BTCPay 서버가 크라우드펀드의 이름을 요청할 것이며, 이 이름은 왼쪽 메뉴 표시줄에도 표시됩니다.
 
 
-![image](assets/en/106.webp)
+![image](assets/en/107.webp)
 
 
 #### 새로 생성된 POS 업데이트
@@ -3010,7 +2997,7 @@ BTCPay 서버 왼쪽 메인 메뉴의 플러그인 섹션 아래에서 크라우
 크라우드펀딩의 내용을 한 줄로 표현하여 모금 행사의 취지를 알릴 수 있습니다.
 
 
-![image](assets/en/107.webp)
+![image](assets/en/108.webp)
 
 
 #### 추천 이미지 URL
@@ -3031,7 +3018,7 @@ BTCPay 서버 왼쪽 메인 메뉴의 플러그인 섹션 아래에서 크라우
 크라우드펀드를 세상에 알리세요. 어떤 목적으로 모금하시나요? 크라우드펀드를 설명하는 모든 것이 여기에 있습니다.
 
 
-![image](assets/en/108.webp)
+![image](assets/en/109.webp)
 
 
 #### 크라우드 펀딩 목표
@@ -3040,7 +3027,7 @@ BTCPay 서버 왼쪽 메인 메뉴의 플러그인 섹션 아래에서 크라우
 프로젝트의 모금 목표액을 설정하고 목표액을 어떤 통화로 표시할지 설정하세요. 목표가 날짜 사이에 설정된 경우 크라우드펀딩의 목표 아래에 이러한 목표와 종료 날짜를 포함하세요.
 
 
-![image](assets/en/109.webp)
+![image](assets/en/110.webp)
 
 
 #### 특전
@@ -3066,7 +3053,7 @@ BTCPay 서버 왼쪽 메인 메뉴의 플러그인 섹션 아래에서 크라우
 스토어 소유자가 새 특전의 모든 필드를 채우고 저장을 클릭하면 이제 크라우드펀딩의 특전 섹션이 채워지는 것을 확인할 수 있습니다.
 
 
-![image](assets/en/110.webp)
+![image](assets/en/111.webp)
 
 
 ### BTCPay 서버 - POS
@@ -3324,13 +3311,13 @@ https://docs.btcpayserver.org.
 먼저 LunaNode.com 웹사이트로 이동하여 새 계정을 생성합니다. 오른쪽 상단의 가입을 클릭하거나 홈페이지의 시작하기 마법사를 사용합니다.
 
 
-![image](assets/en/111.webp)
+![image](assets/en/112.webp)
 
 
 새 계정을 생성하면 루나노드에서 확인 이메일을 보내드립니다. 계정을 확인하면 Voltage와 비교하여 계정 잔액을 충전할 수 있는 옵션이 즉시 표시됩니다. 이 잔액은 서버 공간과 호스팅 비용을 충당하는 데 필요합니다.
 
 
-![image](assets/en/112.webp)
+![image](assets/en/113.webp)
 
 
 #### LunaNode 계정에 크레딧 추가
@@ -3354,7 +3341,7 @@ LunaNode 대시보드에서 오른쪽 상단의 API를 클릭합니다. 그러�
 API 자격 증명을 생성하면 긴 문자열과 문자를 받게 됩니다. 이것이 바로 API 키입니다.
 
 
-![image](assets/en/113.webp)
+![image](assets/en/114.webp)
 
 
 #### 새 서버를 배포하는 방법은 무엇인가요?
@@ -3369,7 +3356,7 @@ API 자격 증명을 생성하면 긴 문자열과 문자를 받게 됩니다. �
 런처가 있는 페이지로 돌아가서 API 키와 ID로 필드를 채우고 계속을 클릭할 수 있습니다.
 
 
-![image](assets/en/114.webp)
+![image](assets/en/115.webp)
 
 
 다음 단계에서는 도메인 이름을 입력할 수 있습니다. 이미 도메인을 소유하고 있고 이 도메인을 BTCPay 서버에 사용하려면 도메인에 DNS 레코드(`A` 레코드라고 함)도 추가해야 합니다. 도메인을 소유하고 있지 않다면 LunaNode가 제공한 도메인을 대신 사용하고(나중에 BTCPay 서버 설정에서 변경할 수 있음) 계속을 클릭합니다.
@@ -3390,7 +3377,7 @@ BTCPay 서버의 DNS 레코드 설정 또는 변경에 대해 자세히 알아�
 라이트닝 구현을 선택할 수 있습니다. 루나노드는 LND과 코어 라이트닝의 두 가지 구현을 제공합니다. 이 가이드에서는 LND을 사용하겠습니다. 두 구현에는 약간의 차이가 있지만, 이에 대한 자세한 내용은 자세한 설명서를 읽어보시기 바랍니다: https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
 
-![image](assets/en/115.webp)
+![image](assets/en/116.webp)
 
 
 LunaNode는 여러 가상 머신(VM) 요금제를 제공합니다. 요금제는 가격대와 서버 사양이 다릅니다. 이 가이드에서는 m2 요금제로 충분하지만, Bitcoin 이상을 통화로 선택한 경우 최소 m4 요금제를 사용하는 것이 좋습니다.
@@ -3405,7 +3392,7 @@ LunaNode는 여러 가상 머신(VM) 요금제를 제공합니다. 요금제는 
 생성 절차가 끝나면 BTCPay 서버 링크를 클릭하고 관리자 계정을 생성하라는 메시지가 표시됩니다.
 
 
-![image](assets/en/116.webp)
+![image](assets/en/117.webp)
 
 
 ### 기술 요약
@@ -3448,19 +3435,19 @@ https://docs.btcpayserver.org.
 먼저, Voltage.cloud 웹사이트로 이동하여 새 계정을 만드세요. 계정을 만들 때 7일 무료 체험을 신청할 수 있습니다. 오른쪽 상단의 가입을 클릭하거나 홈페이지에서 '7일 무료 체험'을 이용하세요.
 
 
-![image](assets/en/117.webp)
+![image](assets/en/118.webp)
 
 
 계정을 만든 후 대시보드에서 '노드' 버튼을 클릭합니다. 노드를 선택하고 새 노드를 생성하면 가능한 노드의 전압 오퍼가 표시됩니다. 이 가이드에서는 Lightning Network도 다루기 때문에, 전압에서는 BTCPay 서버를 생성하기 전에 먼저 라이트닝 구현을 선택해야 합니다. 라이트닝 노드를 클릭합니다.
 
 
-![image](assets/en/118.webp)
+![image](assets/en/119.webp)
 
 
 여기에서 원하는 라이트닝 노드의 종류를 선택해야 합니다. Voltage에는 조명 설정을 위한 다양한 옵션이 있습니다. 예를 들어 LunaNode로 배포할 때는 다릅니다. 이 가이드의 목적에 따라 라이트 노드로 충분합니다. Voltage.cloud의 차이점에 대해 자세히 알아보세요.
 
 
-![image](assets/en/119.webp)
+![image](assets/en/120.webp)
 
 
 노드에 이름을 지정하고 비밀번호를 설정한 다음 이 비밀번호를 보호하세요. 이 비밀번호를 분실하면 백업에 액세스할 수 없게 되며, Voltage에서 비밀번호를 복구할 수 없습니다. 노드를 생성하면 Voltage가 진행 상황을 표시합니다. 전압이 라이트닝 노드를 생성했습니다. 이제 BTCPay 서버 인스턴스를 생성하고 Lightning Network에 직접 액세스할 수 있습니다.
@@ -3472,7 +3459,7 @@ https://docs.btcpayserver.org.
 전압은 미국 서부 지역에서 호스팅되는 BTCPay 서버의 지리적 위치를 보여줍니다. 여기에서 서버 호스팅 비용도 확인할 수 있습니다. 생성을 클릭하고 BTCPay 서버에 이름을 지정합니다. 라이트닝을 활성화하면 이전 단계에서 생성한 라이트닝 노드가 표시됩니다. 생성을 클릭하면 전압이 BTCPay 서버 인스턴스를 생성합니다.
 
 
-![image](assets/en/120.webp)
+![image](assets/en/121.webp)
 
 
 만들기를 누르면 Voltage에서 기본 사용자 이름과 비밀번호가 표시됩니다. 이는 이전에 전압에서 설정한 비밀번호와 유사합니다. 계정에 로그인 버튼을 클릭하면 BTCPay 서버로 리디렉션됩니다.
@@ -3513,7 +3500,7 @@ https://docs.btcpayserver.org.
 https://umbrel.com/
 
 
-![image](assets/en/121.webp)
+![image](assets/en/122.webp)
 
 
 ### BTCPay 서버 - 엄브렐 배포
@@ -3522,13 +3509,13 @@ https://umbrel.com/
 엄브렐 노드가 Bitcoin Blockchain과 완전히 동기화된 후 엄브렐 앱 스토어로 이동하여 앱 아래에서 BTCPay 서버를 검색합니다.
 
 
-![image](assets/en/122.webp)
+![image](assets/en/123.webp)
 
 
 BTCPay 서버를 클릭하여 앱 세부 정보를 확인합니다. BTCPay 서버에 대한 세부 정보가 열리면 오른쪽 하단에 앱이 제대로 실행되기 위한 요구 사항이 표시됩니다. Bitcoin와 라이트닝 노드가 필요하다는 메시지가 표시됩니다. 엄브렐에 라이트닝 노드를 설치하지 않은 경우 설치를 클릭합니다. 이 과정은 몇 분 정도 소요될 수 있습니다.
 
 
-![image](assets/en/123.webp)
+![image](assets/en/124.webp)
 
 
 라이트닝 노드를 설치한 후
@@ -3541,7 +3528,7 @@ BTCPay 서버를 클릭하여 앱 세부 정보를 확인합니다. BTCPay 서�
 3. 이 내용을 적어 두세요.
 
 
-![image](assets/en/124.webp)
+![image](assets/en/125.webp)
 
 
 엄브렐은 방금 적어놓은 단어의 확인을 요청할 것입니다. 라이트닝 노드 설정이 완료되면 Umbrel 앱스토어로 돌아와 BTCPay 서버를 찾습니다. 설치 버튼을 클릭하면 엄브렐이 필요한 구성 요소가 설치되어 있는지, 그리고 BTCPay 서버에 이러한 구성 요소에 대한 액세스 권한이 필요한지 표시합니다. 설치가 완료되면 앱 세부 정보 오른쪽 상단의 열기를 클릭하거나 엄브렐 대시보드에서 BTCPay 서버를 엽니다.
@@ -3550,7 +3537,7 @@ BTCPay 서버를 클릭하여 앱 세부 정보를 확인합니다. BTCPay 서�
 엄브렐은 방금 적어놓은 단어의 확인을 요청합니다.
 
 
-![image](assets/en/125.webp)
+![image](assets/en/126.webp)
 
 
 **!참고!**
@@ -3562,13 +3549,13 @@ BTCPay 서버를 클릭하여 앱 세부 정보를 확인합니다. BTCPay 서�
 라이트닝 노드가 설정된 후 Umbrel 앱스토어로 돌아와 BTCPay 서버를 찾습니다. 설치 버튼을 클릭하면 엄브렐이 필요한 구성 요소가 설치되어 있는지, BTCPay 서버에 이러한 구성 요소에 대한 액세스 권한이 필요한지 표시합니다.
 
 
-![image](assets/en/126.webp)
+![image](assets/en/127.webp)
 
 
 설치 후 앱 세부정보 오른쪽 상단에서 열기를 클릭하거나 엄브렐스 대시보드에서 BTCPay 서버를 엽니다.
 
 
-![image](assets/en/127.webp)
+![image](assets/en/128.webp)
 
 
 ### 기술 요약

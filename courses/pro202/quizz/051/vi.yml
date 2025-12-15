@@ -1,0 +1,8 @@
+question: Trong cấu trúc thông báo mạng P2P của Bitcoin, dữ liệu cụ thể nào tạo nên trường kiểm tra tổng 4 byte trong mỗi gói thông báo?
+answer: Bốn byte đầu tiên của mã băm 256 của dữ liệu thông báo.
+wrong_answers:
+  - Bốn byte đầu tiên của mã băm SHA256 của toàn bộ phong bì tin nhắn
+  - Bốn byte đầu tiên của hash256 của trường lệnh được nối với dữ liệu tải trọng.
+  - Bốn byte đầu tiên của mã băm RIPEMD160 của nội dung thông báo
+explanation: |
+  Gói tin P2P của Bitcoin sử dụng cơ chế kiểm tra tổng cụ thể, trong đó trường kiểm tra tổng 4 byte chứa 4 byte đầu tiên của hàm băm SHA256 được áp dụng chỉ cho phần dữ liệu tải trọng của tin nhắn. Điều này cung cấp xác minh tính toàn vẹn cho dữ liệu tải trọng trong quá trình truyền mạng. Các tùy chọn khác không chính xác vì chúng tham chiếu đến các hàm băm khác nhau (SHA256 đơn lẻ, RIPEMD160) hoặc dữ liệu đầu vào khác nhau (toàn bộ gói tin, lệnh + dữ liệu tải trọng) so với những gì Bitcoin thực sự triển khai trong giao thức mạng của nó.

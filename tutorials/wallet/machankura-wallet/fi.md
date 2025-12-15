@@ -344,7 +344,7 @@ Machankura ei ole vain Wallet. Voit ostaa Exchange satoshisi tavaroita ja palvel
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Käytössäsi on myös "**Klaani**"-toiminto, jonka avulla voit hallinnoida usean allekirjoituksen yhteistyöjärjestelmää: klaanin jäsenten on hyväksyttävä jokainen meno, ja voit jakaa varat automaattisesti heidän kesken.
 
@@ -439,13 +439,13 @@ Machankuran avulla voit lähettää bitcoineja eri vaihtoehtojen kautta:
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura mahdollistaa eri Lightning-lompakoiden välisen yhteentoimivuuden. Tässä esittelyssä lähetämme bitcoineja Machankura WhatsApp Wallet:sta Satoshi Wallet:n Wallet:aan.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Jos haluat lähettää, kirjoita numero 1, joka vastaa "SEND BTC" -vaihtoehtoa. Valitse seuraavaksi "Lightning Address" -lähetysvaihtoehto ja syötä sitten Address, johon bitcoinit lähetetään. Valitse lopuksi "Sats" -arvotoimenpide, ilmoita lähetettävien satoshien määrä ja vahvista lähetys.
 
@@ -577,9 +577,9 @@ Lisäksi Machankura mahdollistaa sen, että kuka tahansa, joka haluaa lähettä�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Saldotarkistus
 

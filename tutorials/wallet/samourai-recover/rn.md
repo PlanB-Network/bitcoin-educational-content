@@ -240,7 +240,7 @@ Niba ukoresha porogarama itandukanye na Sparrow, nka Electrum, kugira ngo ugarur
 - Ivangura: `m/84'/0'/2147483646'`
 
 
-Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.network/inyigisho/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.academy/inyigisho/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Ndabagira inama kandi yo kwinjiza mu gihugu n’amaboko amabara mwari mufatanije n’ama UTXO yanyu kuri Samourai. Ivyo bizokuronsa uburenganzira bwo gukora neza ubugenzuzi bwa Coin kuri Sparrow mu nyuma.
@@ -329,7 +329,7 @@ Niba uriko urakoresha uwundi murongo nka Electrum kugira ngo ugarure Samourai Wa
 - Ivangura: `m/84'/0'/2147483646'`
 
 
-Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Ubu urashobora kuronka amafaranga yawe kuri Sparrow. Niba ukeneye gufashwa ukoresheje Sparrow wallet, urashobora kandi kuraba [inyigisho yacu yihariye](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Ndabagira inama kandi yo kwinjiza mu gihugu n’amaboko amakete mwari mwarafatanije n’ama UTXO yanyu kuri Samourai. Ivyo bizokuronsa uburenganzira bwo gukora neza ubugenzuzi bwa Coin kuri Sparrow mu nyuma.
@@ -512,7 +512,7 @@ Ubwa nyuma, ni ngombwa ko wihweza anonset ya mbere ya Coin yawe, imbere y’uko 
 
 Kubera ko igikoresho ca WST ubu kitagikora inyuma y’aho OXT.me ihagarikiwe, ushobora gusa kugereranya izo anonsets. Ku bijanye n’ivyo gusubira inyuma, nta vyinshi vyo kwiganyira kuko umuderi wa Whirlpool ushobora gutuma uri hejuru cane ugereranije na CoinJoin ya mbere, kubera iragi ry’urunganwe rwawe. Ivyo bishobora gutera ingorane ni iyo Coin yawe imaze imyaka myinshi itavuzwe kandi yari ivuzwe mu ntango y’ugutangura kw’ikidengeri. Ku bijanye n’ivyo bishobora gushika, urashobora gusuzuma igihe Coin yawe yamaze iboneka ku bijanye n’amahera. Nimba haciye amezi menshi, rero birashoboka ko ifise anonset y’ivyizigiro vyinshi cane. Ku rundi ruhande, iyo yongewe ku kidengeri amasaha makeyi gusa imbere y’uko ama server afatwa, rero anonset yayo y’imbere kumbure iri hasi cane.
 
-[**-> Menya vyinshi ku bijanye n'ibiharuro vy'abantu n'uburyo bwo kubiharura.**](https://planb.network/inyigisho/ubuzima bwite/isesengura/ibiharuro vy'abantu bitagiramwo amakuru
+[**-> Menya vyinshi ku bijanye n'ibiharuro vy'abantu n'uburyo bwo kubiharura.**](https://planb.academy/inyigisho/ubuzima bwite/isesengura/ibiharuro vy'abantu bitagiramwo amakuru
 
 
 Ikindi kintu co kwiyumvira ni ingaruka z’ugushiramwo ibintu ku bimenyetso vy’ibiceri vyavanzwe. Kubera ko amakonti ya Whirlpool atagishobora gukoreshwa biciye ku rubuga rwa Samourai, birashoboka ko benshi mu bakoresha baciye barungika Wallet yabo mu yindi porogarama maze bagerageza gukura amahera yabo muri Whirlpool. Cane cane, mu mpera z’umusi uheze, igihe amafaranga y’ugucuruza ku rubuga rwa Bitcoin yari menshi cane, hariho inguvu zikomeye z’ubuhinga n’ubutunzi zo gukomeza ibiceri vy’inyuma y’uguvanga. Ivyo bisigura ko bishoboka ko abakoresha benshi bagize ugushira hamwe gukomeye.

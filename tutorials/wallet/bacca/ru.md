@@ -98,11 +98,11 @@ cargo run -p ledger_manager_gui
 
 Прежде чем начать, если ваш Ledger новый, убедитесь, что вы настроили PIN-код и сохранили фразу восстановления. Для этих начальных шагов вам не нужна программа Ledger Live. Просто подключите Ledger к питанию через USB-кабель. Если вы не знаете, как выполнить эти два шага, обратитесь к началу руководства по конкретной модели:
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## Использование Бакки
 
@@ -140,5 +140,5 @@ https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b
 
 Я также рекомендую вам взглянуть на этот учебник по GnuPG, в котором рассказывается о том, как проверить целостность и подлинность программного обеспечения перед его установкой. Это очень важная практика, особенно при установке программ для управления портфелем, таких как Liana или Sparrow:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

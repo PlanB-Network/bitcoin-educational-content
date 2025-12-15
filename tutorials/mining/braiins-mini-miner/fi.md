@@ -4,13 +4,13 @@ description: Tee louhinnasta helppoa kotona.
 ---
 ![cover](assets/cover.webp)
 
-### Johdanto
+## Johdanto
 
 Mini Miner braiins BMM 100 on Braiins-louhintapoolin kehittämä tuote. Tämä laite on tyylikkäästi muotoiltu ja erittäin hiljainen. Se tuottaa 1,1 Th/s laskentatehoa ja kuluttaa noin 40 wattia. Toisin kuin monet muut laitteet, se ei ole avoimen lähdekoodin tuote, mutta sen asentaminen on todella helppoa – se onnistuu vain muutamalla klikkauksella! Mini Miner BMM 100 on ensimmäinen julkaistu versio. Nyt on tuotannossa versio 2, nimeltään BMM 101, joka eroaa ensimmäisestä suuremman näytön ja Wi-Fi-tuen ansiosta, mutta asennusmenettelyt pysyvät samoina.
 
 Lisätietoja löydät täydellisestä oppaasta suoraan [valmistajan sivuilta](https://braiins.com/hardware/mini-Miner-bmm-100).
 
-### Yleiskatsaus BMM 100:aan
+## Yleiskatsaus BMM 100:aan
 
 Laite näyttää suorakulmaiselta laatikolta, jossa on näyttö etupuolella.
 
@@ -24,11 +24,11 @@ Takapuolella on: virtaliitäntä, paikka SD-kortille (voi olla tarpeen päivityk
 
 ![image](assets/en/03.webp)
 
-### Mini Minerin yhdistäminen
+## Mini Minerin yhdistäminen
 
 Laite on liitettävä internetiin Ethernet-kaapelilla; huomaa, että uudessa versiossa (BMM 101) tämä ei enää ole välttämätöntä. Tässä Mini Miner -mallissa on kuitenkin ensin yhdistettävä laite internetlinjaan ja sen jälkeen virtalähteeseen: laite käynnistyy automaattisesti ja näyttää IP-osoitteen näytöllä.
 
-### Konfigurointi
+## Konfigurointi
 
 Avaa selain ja kirjoita Mini Minerin näytöllä näkyvä IP-osoite hakupalkkiin. Muistutan, että laitteen löytämiseksi verkosta on oltava paikallisessa verkossa, eli käytössä olevan tietokoneen on oltava yhdistettynä samaan verkkoon kuin Mini Miner. Kun IP-osoite on syötetty ja Enter-painiketta painettu, näytölle ilmestyy Mini Minerin käyttöjärjestelmän (Braiins OS) kirjautumissivu.
 
@@ -38,7 +38,7 @@ Kirjautumista varten käyttäjätunnus on `root`, ja salasanan voi jättää tyh
 
 ![image](assets/en/07.webp)
 
-### Yleiset asetukset
+## Yleiset asetukset
 
 Siirry kohtaan System.
 
@@ -56,7 +56,7 @@ Kun muutokset on tehty, napsauta `Save Changes`, ja näet muutokset laitteen nä
 
 ![image](assets/en/27.webp)
 
-### Yhteys louhintapooliin
+## Yhteys louhintapooliin
 
 Laite ei ole vielä toimintakunnossa, sillä se on liitettävä pooliin louhinnan aloittamiseksi. Siirry kohtaan "Configuration".
 
@@ -68,17 +68,17 @@ Ensimmäinen vaihtoehto on `Pools`.
 
 Tässä kohdassa meidän on päätettävä, mitä poolia käytetään. Tässä oppaassa esitellään kaksi vaihtoehtoa. Ensimmäinen on yhdistäminen Braiins-louhintapooliin, jota myös ammattimaiset louhijat käyttävät, kuten näet tästä oppaasta:
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Toinen vaihtoehto on yhdistäminen solo-louhintapooliin, kuten Public Pool. Seuraa tätä ohjetta:
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Braiins pool
+### Braiins pool
 
 Yhdistääksemme tähän pooliin meidän täytyy luoda tili. Tämä pooli suorittaa myös maksuja Lightning Networkin kautta, joten voimme vastaanottaa muutamia satseja päivässä. Tätä varten on määritettävä Lightning-osoite palkkioiden vastaanottamista varten. Jos et tiedä, kuinka tili luodaan Braiins-poolissa tai kuinka Lightning-osoite määritetään, voit seurata tätä ohjetta:
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Kun tämä on tehty, olemme Braiins-poolin hallintapaneelissa. Meidän on ilmoitettava poolille, että haluamme yhdistää yhden louhijoistamme. Näytön vasemmasta reunasta löydät useita valintoja. Valitse "workers".
 
@@ -88,7 +88,7 @@ Klikkaa sitten oikeassa reunassa olevaa violettia painiketta "Connect workers".
 
 ![image](assets/en/05.webp)
 
-Tämän jälkeen avautuu ikkuna, jossa on tarvittavat tiedot Mini Minerin liittämiseksi pooliin. Ainoa muutos, jonka voimme tehdä, on valita Stratum V2. Lisätietoa Stratum v2:sta löydät tästä [sanastosta](https://planb.network/en/resources/glossary/stratum-v2).
+Tämän jälkeen avautuu ikkuna, jossa on tarvittavat tiedot Mini Minerin liittämiseksi pooliin. Ainoa muutos, jonka voimme tehdä, on valita Stratum V2. Lisätietoa Stratum v2:sta löydät tästä [sanastosta](https://planb.academy/en/resources/glossary/stratum-v2).
 
 ![image](assets/en/10.webp)
 
@@ -122,7 +122,7 @@ Jos palaat takaisin hallintapaneeliin, sinun pitäisi alkaa nähdä liikettä ka
 
 ![image](assets/en/16.webp)
 
-#### Public Pool
+### Public Pool
 
 Tämän poolin kautta voi kokeilla onneaan ja louhia solo-tilassa poolin kautta. Tässä tapauksessa emme saa säännöllisiä palkkioita, mutta onnistumisen sattuessa saamme koko lohkopalkkion. Yhdistymme siis Public Pooliin, joka on täysin avoimen lähdekoodin louhintapooli. Avaa uusi selainikkuna ja siirry osoitteeseen [web.public-pool.io](https://web.public-pool.io/#/).
 

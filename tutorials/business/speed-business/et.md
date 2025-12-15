@@ -94,13 +94,13 @@ Kui deaktiveerite testrežiimi, peate konfigureerima oma tagasivõtuportfelli.
 
 
 
-Kui teil ei ole veel Bitcoin ja/või Lightning Wallet, soovitame teil tutvuda meie [mobiilipakettide] õpetustega(https://planb.network/tutorials/wallet).
+Kui teil ei ole veel Bitcoin ja/või Lightning Wallet, soovitame teil tutvuda meie [mobiilipakettide] õpetustega(https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **OLULINE**: Bitcoin usaldusväärse kinnituse tagamiseks valige oma portfelli konfigureerimisel tüüp **BTC (On-Chain)**, kui saate suuri summasid, suurusjärgus tuhandeid eurosid, ja tüüp **LN Address**, kui soovite oma äris saada koheseid mikromakseid.
 
@@ -435,4 +435,4 @@ Sa oled saanud hea ülevaate Speedist, integreeri Bitcoin oma ettevõttesse ja a
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

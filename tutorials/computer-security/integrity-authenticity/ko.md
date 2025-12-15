@@ -234,4 +234,4 @@ sparrow_2.0.0-1_amd64.deb: OK
 저장 장치를 암호화하고 해독할 수 있는 소프트웨어인 VeraCrypt에 대한 다른 튜토리얼도 확인해 보시기 바랍니다.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

@@ -6,4 +6,4 @@ wrong_answers:
   - Übermäßige Größe von Signaturen
 explanation: |
   SegWit korrigierte die Veränderbarkeit von ECDSA-Signaturen, was Anwendungen wie das Lightning Network ermöglichte.
-reviewed: false
+reviewed: true

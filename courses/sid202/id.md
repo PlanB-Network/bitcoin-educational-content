@@ -1,5 +1,5 @@
 ---
-name: Membangun dengan Elemen dan Jaringan Cair
+name: Membangun dengan Elements dan Liquid Network
 goal: Belajar menggunakan dan mengembangkan dengan platform blockchain sumber terbuka Elements dan fitur-fitur utamanya
 objectives: 
 

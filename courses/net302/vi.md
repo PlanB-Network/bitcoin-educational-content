@@ -90,7 +90,7 @@ Bạn đã sẵn sàng khám phá thế giới mạng máy tính chưa? Bắt đ
 **LƯU Ý**: Các mô tả được dựa trên hệ thống GNU/Linux CentOS 7. Tuy nhiên, cấu hình mạng phần lớn giống nhau khi so sánh Debian với hệ thống CentOS. Vì vậy, chúng tôi sẽ không phân biệt. Nếu có, chúng tôi sẽ thêm một logo cụ thể vào trước.
 
 
-**Lưu ý**: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa.
+**Lưu ý**: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
 
 
 
@@ -138,7 +138,7 @@ Trong cấu trúc mạng vòng, các thiết bị được kết nối theo mộ
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/vi/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Bố cục phân cấp này đặc biệt hiệu quả với các mạng lớn c
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/vi/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Trong cấu trúc bus, tất cả các thiết bị chia sẻ cùng một môi t
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/vi/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Bố cục này giúp việc quản lý và bảo trì trở nên dễ dàng: n�
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/vi/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Nhược điểm là số lượng kết nối cần thiết lập tăng nhanh t
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/vi/005.webp)
 
 
 
@@ -263,7 +263,7 @@ Bốn lớp của mô hình TCP/IP là:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/vi/006.webp)
 
 
 
@@ -283,11 +283,11 @@ Mỗi Layer của ngăn xếp TCP/IP cung cấp các dịch vụ cụ thể, gi�
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## Giao thức QoS IPv5
 
@@ -390,7 +390,7 @@ Khi một datagram vượt quá MTU của một phân đoạn mạng mà nó c�
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/vi/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Quá trình truyền tải do đó tuân theo một quá trình có cấu trúc:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/vi/008.webp)
 
 
 
@@ -442,7 +442,7 @@ Khi đến nơi, quy trình được đảo ngược: máy nhận nhận khung t
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/vi/009.webp)
 
 
 
@@ -456,7 +456,7 @@ Quá trình chuyển đổi dữ liệu tại mỗi Layer có thể được tó
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/vi/010.webp)
 
 
 
@@ -507,7 +507,7 @@ Số lượng địa chỉ khả dụng thay đổi rất nhiều giữa các l�
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/vi/011.webp)
 
 
 
@@ -585,7 +585,7 @@ Chúng tôi muốn có 4 mạng con, mỗi mạng có tối đa 60 máy chủ.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/vi/012.webp)
 
 
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Giao thức TCP
 
@@ -680,7 +680,7 @@ TCP là một giao thức hướng kết nối, nghĩa là nó thiết lập m�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/vi/013.webp)
 
 
 
@@ -688,7 +688,7 @@ TCP là một giao thức hướng kết nối, nghĩa là nó thiết lập m�
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/vi/014.webp)
 
 
 
@@ -711,7 +711,7 @@ TCP có khả năng phát hiện và xử lý các bản sao. Nếu một phân 
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/vi/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Trên thực tế, cửa sổ trượt xác định một dãy số thứ tự c
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/vi/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Việc quản lý chính xác này, kết hợp định tuyến linh hoạt củ
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/vi/017.webp)
 
 
 
@@ -791,7 +791,7 @@ Có hai khía cạnh chính chi phối những trao đổi này:
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/vi/018.webp)
 
 
 
@@ -800,7 +800,7 @@ Có hai khía cạnh chính chi phối những trao đổi này:
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/vi/019.webp)
 
 
 
@@ -836,7 +836,7 @@ Bằng cách kết hợp khía cạnh ngang (giao tiếp giữa các ứng dụn
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/vi/020.webp)
 
 
 
@@ -896,7 +896,7 @@ ví dụ: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/vi/021.webp)
 
 
 
@@ -1183,7 +1183,7 @@ IP Address            MAC Address                Type
 - Ví dụ trực quan về MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/vi/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ IP Address            MAC Address                Type
 - Ví dụ trực quan về IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/vi/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Ngoài việc giải quyết tình trạng khan hiếm IPv4, NAT còn tăng cư�
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/vi/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ _Để minh họa cách thức hoạt động này trong thực tế, hãy xem x
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/vi/025.webp)
 
 
 
@@ -1379,11 +1379,11 @@ Trong chương tiếp theo, chúng ta sẽ xem xét chi tiết về cấu hình 
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Làm thế nào để cấu hình mạng bằng `ip`?
@@ -1500,7 +1500,7 @@ Trong môi trường chuyên nghiệp, mục tiêu là đảm bảo tính liên 
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/vi/026.webp)
 
 
 
@@ -1954,7 +1954,7 @@ Cấu hình thủ công vẫn hữu ích trong môi trường được kiểm so
 Sau đây là ví dụ về cách chuyển đổi MAC Address thành EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/vi/027.webp)
 
 
 
@@ -2092,7 +2092,7 @@ Sau đây là tổng quan về các loại tiêu đề mở rộng khác nhau đ
 Tiêu đề này, nếu có, luôn được đặt ngay sau tiêu đề cơ sở. Nó chứa thông tin cần được xử lý bởi mọi bộ định tuyến dọc theo đường đi của gói tin, không giống như hầu hết các tiêu đề khác, thường chỉ được xử lý bởi nút đích. Các ứng dụng điển hình bao gồm báo hiệu các tham số toàn cục hoặc yêu cầu các bước xử lý cụ thể khi gói tin di chuyển qua mạng.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/vi/028.webp)
 
 
 #### Tiêu đề định tuyến
@@ -2117,7 +2117,7 @@ Bốn trường đầu tiên của tiêu đề gốc này là:
 Trường "Các đoạn còn lại" bắt đầu bằng tổng số đoạn còn lại và giảm đi một ở mỗi bước nhảy.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/vi/029.webp)
 
 
 #### Tiêu đề phân mảnh
@@ -2134,7 +2134,7 @@ Tiêu đề phân mảnh chứa các trường sau:
 - Cờ **M**: chỉ ra liệu có thêm đoạn nào theo sau hay không.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/vi/030.webp)
 
 
 #### Tiêu đề xác thực (AH)
@@ -2146,7 +2146,7 @@ Tiêu đề này được thiết kế để bảo mật thông tin liên lạc 
 Trong trường hợp cố gắng sửa đổi gian lận, mã xác thực sẽ không còn khớp nữa và datagram có thể bị từ chối. Cơ chế này cũng bảo vệ chống lại các cuộc tấn công phát lại bằng cách phát hiện các bản sao trái phép.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/vi/031.webp)
 
 
 #### Tiêu đề Tùy chọn đích
@@ -2158,7 +2158,7 @@ Tiêu đề này chỉ dành cho người nhận cuối cùng của datagram. N�
 Ban đầu, không có tùy chọn nào như vậy được định nghĩa trong giao thức. Tuy nhiên, tiêu đề này đã được giới thiệu khi IPv6 được thiết kế, để cho phép các phần mở rộng trong tương lai được thêm vào mà không cần sửa đổi cấu trúc gói tin tổng thể. Ví dụ, tùy chọn null chỉ được sử dụng để thêm tiêu đề lên bội số của 8 byte cho mục đích căn chỉnh bộ nhớ.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/vi/032.webp)
 
 
 Thiết kế gói tin IPv6 được xây dựng dựa trên sự phân tách rõ ràng giữa tiêu đề cơ sở tối thiểu và tiêu đề mở rộng dạng mô-đun. Kiến trúc này đảm bảo cả hiệu suất xử lý tiêu chuẩn và tính linh hoạt cần thiết để phát triển giao thức và tích hợp các cơ chế bảo mật, định tuyến phức tạp hoặc chất lượng dịch vụ, đồng thời duy trì khả năng tương thích với các cơ sở hạ tầng trong tương lai.
@@ -2504,7 +2504,7 @@ Wireshark có sẵn trên nhiều hệ điều hành, bao gồm Linux và Window
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/vi/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Lệnh này đưa ra báo cáo chi tiết về `enp0s3` Interface, một quy ư�
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/vi/034.webp)
 
 
 
@@ -3068,7 +3068,7 @@ Việc truy vấn lặp lại hoặc truy vấn chuyên sâu đến máy chủ D
 Khi giám sát hoặc bảo mật mạng cục bộ hoặc mạng diện rộng, điều quan trọng là phải xác định các thiết bị đang hoạt động và các dịch vụ mà chúng cung cấp. Đây chính xác là những gì công cụ `nmap` (*Network Mapper*) thực hiện.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Giới thiệu `nmap`
 
@@ -3107,7 +3107,7 @@ Trong trường hợp này, tất cả các máy chủ trong phạm vi `192.168.
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/vi/035.webp)
 
 
 
@@ -3120,7 +3120,7 @@ Người quản trị có thể dựa vào `nmap` cho một số tác vụ:
 - **Phòng ngừa lỗ hổng**: phát hiện các dịch vụ không an toàn hoặc lỗi thời đang chạy trên các máy quan trọng.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Công cụ thẩm vấn quy trình
 

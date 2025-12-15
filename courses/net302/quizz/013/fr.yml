@@ -6,4 +6,4 @@ wrong_answers:
   - Google
 explanation: |
   L'IANA (Internet Assigned Numbers Authority) gère l'attribution des numéros de version des protocoles IP et la répartition des plages de protocoles.
-reviewed: false
+reviewed: true 

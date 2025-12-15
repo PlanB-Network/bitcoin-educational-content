@@ -194,7 +194,7 @@ Kõigepealt saate lisateavet meie ProtonMaili juhendi kohta:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Logige sisse oma ProtonMaili kontole ja minge turvasätete juurde. Otsige valik "Kahefaktoriline autentimine" ja aktiveerige see.
 
@@ -495,7 +495,7 @@ Ideaalis kasutage oma kriitiliste kontode puhul rohkem kui ühte teist tegurit. 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Samuti hoidke käepärast trükitud hädaolukorra koodid.
 
@@ -545,7 +545,7 @@ Allpool leiate meie juhendi Authy kohta:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator on üks terviklikumaid ja turvalisemaid lahendusi: avatud lähtekood, krüpteeritud sünkroniseerimine mitme seadme vahel, ei mingeid kommertslike järelmeetmeid.
 

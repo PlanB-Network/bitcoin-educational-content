@@ -369,4 +369,4 @@ Und das war's. Sie wissen jetzt, wie Sie Lightning mit Ihrem eigenen Knotenpunkt
 
 Um alle Lightning-Mechanismen, die wir in diesem Tutorial behandelt haben, im Detail zu verstehen, empfehle ich Ihnen dringend, unsere kostenlose Schulung zu diesem Thema zu besuchen:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

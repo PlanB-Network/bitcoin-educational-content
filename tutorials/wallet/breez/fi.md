@@ -86,7 +86,7 @@ Vahvista varmuuskopiointi ja yhdistä etävarmuuskopiointitili Breez-salkkuun no
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **TÄRKEÄÄ**: Voit lisätä Breez Wallet -laitteeseesi ylimääräisen Layer-turvan määrittämällä PIN-koodin ja asettamalla sen todentamaan, että pääsy Wallet-laitteeseen on sallittu.
 

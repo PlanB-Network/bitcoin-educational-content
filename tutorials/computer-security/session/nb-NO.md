@@ -145,7 +145,7 @@ Denne frasen fungerer på samme måte som Mnemonic-frasene som brukes i Bitcoin-
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Vær oppmerksom på dette**: I motsetning til Mnemonic-fraser som brukes i Bitcoin-mapper, må du i Session **absolutt lagre hvert ord i sin helhet**. De fire første bokstavene er ikke nok!
 
@@ -299,4 +299,4 @@ Jeg anbefaler også denne andre opplæringen, der jeg presenterer Threema, et an
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

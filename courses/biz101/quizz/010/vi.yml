@@ -1,9 +1,9 @@
-question: How does the Lightning Network help reduce fees for Bitcoin transactions?
-answer: By conducting most transactions off-chain and publishing only channel settlement transactions on the main blockchain.
+question: Lightning Network giúp giảm phí cho các giao dịch Bitcoin như thế nào?
+answer: Bằng cách thực hiện hầu hết các giao dịch off-chain và chỉ công bố các giao dịch thanh toán kênh trên blockchain chính.
 wrong_answers:
-  - By removing all cryptographic verification from payments.
-  - By centralizing control in one large payment hub.
-  - By requiring merchants to pay all network costs upfront.
+  - Bằng cách xóa bỏ mọi xác minh mật mã khỏi thanh toán.
+  - Bằng cách tập trung quyền kiểm soát vào một trung tâm thanh toán lớn.
+  - Bằng cách yêu cầu các thương gia phải trả trước toàn bộ chi phí mạng lưới.
 explanation: |
-  Since Lightning transactions happen off-chain, only the final channel states are settled on the Bitcoin blockchain. This reduces congestion and thus lowers fees by avoiding making many on-chain transactions.
-reviewed: false
+  Vì các giao dịch Lightning diễn ra ở off-chain, nên chỉ có trạng thái kênh cuối cùng được giải quyết trên blockchain Bitcoin. Điều này làm giảm tắc nghẽn và do đó giảm phí bằng cách tránh thực hiện nhiều giao dịch on-chain.
+reviewed: true

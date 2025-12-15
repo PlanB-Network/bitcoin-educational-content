@@ -1,5 +1,5 @@
 question: Wat is de rol van een Nostr-relais dat is geïnstalleerd op Umbrel?
-answer: Host uw publicaties lokaal
+answer: Host je publicaties lokaal
 wrong_answers:
   - Bitcoin transacties controleren
   - Maak Nostr-kanalen met je contacten

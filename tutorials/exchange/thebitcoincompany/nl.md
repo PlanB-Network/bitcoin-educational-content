@@ -40,7 +40,7 @@ Kortom, "uitgeven" & "vervangen" lijkt de weg vooruit te zijn. Neem deel aan de 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 De boodschap kan niet duidelijker zijn: "Geef uw Bitcoins overal uit".
 
@@ -117,9 +117,9 @@ Als je van de oude stempel bent en wilt weten hoe je eenvoudig een beveiligde ma
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Laten we kiezen voor "Aanmelden met Lightning".
 
@@ -154,7 +154,7 @@ Laten we dus onze Wallet Phoenix openen en de getoonde QR-code scannen. Eenmaal 
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Je wordt onmiddellijk geïdentificeerd via je Wallet Lightning, die natuurlijk Phoenix of een andere kan zijn, aangezien de meeste portemonnees op de markt deze functie ondersteunen.
 
@@ -291,4 +291,4 @@ Als je Bitcoin wilt helpen populariseren en een onafhankelijke handelaar wilt aa
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

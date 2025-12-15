@@ -86,7 +86,7 @@ Kada preuzmete datoteku, instalirajte je kao i bilo koji drugi softver. Prihvati
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Uvoz Whonix
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix je više od operativnog sistema: to je pravi **siguran okruženje** dizajniran da zaštiti vašu anonimnost, vašu privatnost i vaše osetljive aktivnosti. Zahvaljujući svojoj arhitekturi zasnovanoj na Tor-u, inteligentnoj podeli između Gateway-a i Workstation-a, i unapred instaliranim alatima kao što su Tor Browser, KeePassXC i Electrum, nudi rešenje spremno za upotrebu za svakoga ko želi da **pretražuje anonimno**, **radi sigurno** ili **rukuje poverljivim podacima**.
 
@@ -244,4 +244,4 @@ Da biste ojačali svoju sigurnost na Unix sistemu, pogledajte naš vodič o revi
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

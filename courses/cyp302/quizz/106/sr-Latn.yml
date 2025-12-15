@@ -5,5 +5,5 @@ wrong_answers:
   - Korišćenje više ključeva za svaku poruku
   - Dodavanje dodatnog ključa u svaku poruku
 explanation: |
-  Dodavanje jedinstvenog identifikatora za svakog učesnika u šifrovanoj poruci sprečava reflection napade, jer omogućava razlikovanje porekla poruka.
-reviewed: false
+  Dodavanje jedinstvenog identifikatora za svakog učesnika u šifrovanoj poruci sprečava refleksione napade, jer omogućava razlikovanje porekla poruka.
+reviewed: true

@@ -422,13 +422,13 @@ Best practices
 - Tor Browser: network anonymity via Tor; slower. See our **complete installation and configuration guide**:
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - Mullvad Browser: "Tor without Tor", to be combined with VPN; standardized footprint. Find out how to install it in our **dedicated tutorial**:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 
 - Recommended combinations: Firefox (Level 2) + VPN for everyday use; Tor/Mullvad for sensitive activities; separate profiles for compartmentalization.
@@ -449,13 +449,13 @@ By following this step-by-step guide, you've transformed Firefox into a true bul
 ## Resources
 
 
-### Plan ₿ Network
+### Plan ₿ Academy
 
 
 - SCU 202 - Improving your personal digital security: To learn more about the digital security concepts covered in this tutorial
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Mozilla documentation
 

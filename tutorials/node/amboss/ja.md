@@ -1,5 +1,5 @@
 ---
-name: アンボス
+name: Amboss
 description: Lightning Networkの探索と分析
 ---
 
@@ -11,7 +11,7 @@ Lightning NetworkはBitcoinプロトコルのLayerであり、各取引の処理
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 メインチェーンと同様に、ノード間の接続を促進し、ネットワークで一般的に発生する流動性の問題を最小化するために、ユーザーがネットワークの情報や状況を知ることができるようにすることが不可欠となっている。実際、Lightning Networkでは、Bitcoinのメインチェーンでの取引よりも比較的少額のマイクロペイメントを推奨している。
 
@@ -34,7 +34,7 @@ Bitcoinプロトコルのメインチェーンに関する有益な情報を提�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 このチュートリアルでは、Lightning Networkユーザーやノードを接続してネットワークを拡張したい人などにとって不可欠なリソースであるこのプラットフォームのツアーを紹介する。
 
@@ -57,7 +57,7 @@ Ambossプラットフォームの目的の1つは、ネットワーク内の様�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 トップページには、.NET、.NET、.NET、.NET、.NET、.NET、.NET、.NET、.NETの各分野に分類されたノードがあります：
 
@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - 受信比率**：ノードが100万Satoshiを受信するごとに、選択したチャンネルに応じて課金される金額。
 - 比率(parts per million)** : 100万単位あたりのSatoshiの数を表し、あなたがノードのチャンネルの1つを使って支払いをするときに、ノードがあなたに請求します。例えば、あなたが`500 Sats`のチャネルで`10_000 Sats`の支払いをすることに決めたとすると、あなたはノードに`10_000 * 500 / 1_000_000` satoshis、`5 Sats`を支払わなければなりません。
-- HTLC](https://planb.network/resources/glossary/HTLC) 最大** ：このノードがこれらのチャネルのいずれかを介してトランジットすることを許可する最大量。
+- HTLC](https://planb.academy/resources/glossary/htlc) 最大** ：このノードがこれらのチャネルのいずれかを介してトランジットすることを許可する最大量。
 
 
 
@@ -304,4 +304,4 @@ Bitcoin の現在の価格を現地通貨 (EUR / USD) でご覧いただけま�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

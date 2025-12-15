@@ -215,9 +215,9 @@ Key C= Spending Policy Key (if used to sign, imposes predefined spending conditi
 If necessary, refer to the tutorials below to familiarize yourself with the Sparrow wallet software:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1- Export Wallet Multisig 2-sur-3 to Sparrow wallet
 
@@ -349,7 +349,7 @@ No problem this time, no warning message appears, and when we import the signed 
 ## Co-Sign with Nunchuk
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- Web 2FA & Whitelisted addresses
 
@@ -381,11 +381,11 @@ Finally, to get a complete picture of the possibilities offered by "Co-Sign", le
 This feature lets you use a TOTP RFC-6238-compliant application such as Google Authenticator / Ente Auth / Proton Authenticator / Authy 2FA / or Aegis Authenticator, to add an extra layer of security.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 In concrete terms, before signing a transaction, you'll need to bring your NFC-enabled, internet-connected device close to your Coldcard. This will automatically take you to a coldcard.com web page, where you'll be asked to enter the 6-digit code for your application. If you enter the right code, the web page will show you either a QR code to scan for the ColdCardQ, or an 8-digit code to enter on your Mk4, to authorize your device to sign.
 

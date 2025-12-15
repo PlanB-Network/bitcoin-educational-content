@@ -1,6 +1,6 @@
 ---
-name: PlanB Network'e Podcast Ekleme
-description: PlanB Network'e yeni bir podcast nasıl eklenir?
+name: Plan ₿ Academy'e Podcast Ekleme
+description: Plan ₿ Academy'e yeni bir podcast nasıl eklenir?
 ---
 ![podcast](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: PlanB Network'e yeni bir podcast nasıl eklenir?
 PlanB'nin misyonu, Bitcoin hakkında mümkün olduğunca çok dilde üst düzey eğitim kaynakları sağlamaktır. Sitede yayınlanan tüm içerikler açık kaynaklıdır ve GitHub'da barındırılarak herkesin platformu zenginleştirmeye katılmasına olanak tanır.
 
 
-PlanB Network sitesine bir Bitcoin podcast'i eklemek ve programınızın görünürlüğünü artırmak istiyor ama nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!
+Plan ₿ Academy sitesine bir Bitcoin podcast'i eklemek ve programınızın görünürlüğünü artırmak istiyor ama nasıl yapacağınızı bilmiyor musunuz? Bu eğitim tam size göre!
 
 ![podcast](assets/01.webp)
 
@@ -16,7 +16,7 @@ PlanB Network sitesine bir Bitcoin podcast'i eklemek ve programınızın görün
 - İlk olarak, bir GitHub hesabınızın olması gerekir. Nasıl oluşturacağınızı bilmiyorsanız, size rehberlik edecek ayrıntılı bir eğitim hazırladık.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![podcast](assets/03.webp)
 
 
-- PlanB Network'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
+- Plan ₿ Academy'ün içeriğine daha önce hiç katkıda bulunmadıysanız, orijinal deponun Fork'ünü oluşturmanız gerekecektir. Bir depoyu çatallamak, kendi GitHub hesabınızda o deponun bir kopyasını oluşturmak anlamına gelir ve orijinal depoyu etkilemeden proje üzerinde çalışmanıza olanak tanır. Fork this repository` düğmesine tıklayın:
 
 ![podcast](assets/04.webp)
 
@@ -210,7 +210,7 @@ contributors:
 ![podcast](assets/25.webp)
 
 
-- Yeni bir sayfa açılacaktır. Podcast logonuzu alana sürükleyip bırakın. Bu görüntü PlanB Network sitesinde görüntülenecektir:
+- Yeni bir sayfa açılacaktır. Podcast logonuzu alana sürükleyip bırakın. Bu görüntü Plan ₿ Academy sitesinde görüntülenecektir:
 
 ![podcast](assets/26.webp)
 
@@ -269,10 +269,10 @@ contributors:
 
 ![podcast](assets/37.webp)
 
-Tebrikler! Halkla İlişkileriniz başarıyla oluşturuldu. Şimdi bir yönetici bunu inceleyecek ve her şey yolundaysa PlanB Network'ün ana havuzuyla birleştirecek. Podcast'inizin birkaç gün sonra web sitesinde göründüğünü göreceksiniz.
+Tebrikler! Halkla İlişkileriniz başarıyla oluşturuldu. Şimdi bir yönetici bunu inceleyecek ve her şey yolundaysa Plan ₿ Academy'ün ana havuzuyla birleştirecek. Podcast'inizin birkaç gün sonra web sitesinde göründüğünü göreceksiniz.
 
 
-Lütfen halkla ilişkilerinizin ilerleyişini takip ettiğinizden emin olun. Bir yönetici ek bilgi isteyen bir yorum bırakabilir. PR'niz onaylanmadığı sürece, PlanB Network GitHub deposundaki `Pull requests` sekmesinde görüntüleyebilirsiniz:
+Lütfen halkla ilişkilerinizin ilerleyişini takip ettiğinizden emin olun. Bir yönetici ek bilgi isteyen bir yorum bırakabilir. PR'niz onaylanmadığı sürece, Plan ₿ Academy GitHub deposundaki `Pull requests` sekmesinde görüntüleyebilirsiniz:
 
 ![podcast](assets/38.webp)
 

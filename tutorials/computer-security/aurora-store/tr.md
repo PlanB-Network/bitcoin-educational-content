@@ -44,13 +44,13 @@ Aurora Store'u F-Droid veya IzzyOnDroid gibi diğer uygulama mağazalarından da
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Ancak, Aurora Store'un orijinalliğinden ve bütünlüğünden emin olmak için APK dosyasını doğrudan resmi web sitesinden indirmenizi öneririz.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Bir APK (Android Paket Kiti) dosyası, Android işletim sistemi tarafından uygulamaları dağıtmak ve yüklemek için kullanılan paket biçimidir. Windows'taki **.exe** dosyalarının veya macOS'taki **.dmg** dosyalarının eşdeğeridir.
 
@@ -155,4 +155,4 @@ Bir uygulama mağazasından çok daha fazlası olan Aurora Store, verilerinizin 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

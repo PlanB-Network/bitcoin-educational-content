@@ -1,5 +1,5 @@
 ---
-name: آمبوس
+name: Amboss
 description: کاوش و تحلیل Lightning Network
 ---
 
@@ -11,7 +11,7 @@ Lightning Network یک Layer از پروتکل Bitcoin است که در درجه
 
 
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 همانطور که در زنجیره اصلی، ضروری شده است که کاربران بتوانند اطلاعات و وضعیت شبکه را بدانند، تا ارتباطات بین نودها را تسهیل کرده و مشکل نقدینگی که معمولاً در شبکه به وجود می‌آید را به حداقل برسانند. در واقع، در Lightning Network، ما پرداخت‌های خرد با مبالغ نسبتاً کمتری نسبت به تراکنش‌ها در زنجیره اصلی Bitcoin توصیه می‌کنیم.
 
@@ -34,7 +34,7 @@ https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 در این آموزش، ما شما را با این پلتفرم آشنا خواهیم کرد، که یک منبع ضروری برای کاربران Lightning Network، کسانی که می‌خواهند نود خود را برای گسترش شبکه متصل کنند، و غیره است.
 
@@ -57,7 +57,7 @@ https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 در صفحه اصلی، همچنین گره‌هایی را خواهید یافت که بر اساس موارد زیر طبقه‌بندی شده‌اند:
 
@@ -147,7 +147,7 @@ https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-8405
 
 - نسبت ورودی**: مقدار هزینه‌ای که نود برای هر میلیون Satoshi که دریافت می‌کند، بسته به کانال انتخابی از شما دریافت خواهد کرد.
 - نسبت (قسمت در میلیون)** : که نشان‌دهنده تعداد Satoshi به ازای هر میلیون واحد است که نود هنگام تصمیم‌گیری برای پرداخت از طریق یکی از کانال‌هایش از شما دریافت می‌کند. فرض کنید تصمیم دارید پرداختی به مبلغ `10_000 Sats` از طریق کانالی با نسبت ppm `500 Sats` انجام دهید، باید به نود `10_000 * 500 / 1_000_000` ساتوشی پرداخت کنید که معادل `5 Sats` است.
-- حداکثر [HTLC](https://planb.network/resources/glossary/HTLC) ** : حداکثر مقداری که این نود به شما اجازه می‌دهد از طریق یکی از این کانال‌ها انتقال دهید.
+- حداکثر [HTLC](https://planb.academy/resources/glossary/htlc) ** : حداکثر مقداری که این نود به شما اجازه می‌دهد از طریق یکی از این کانال‌ها انتقال دهید.
 
 
 
@@ -304,4 +304,4 @@ Amboss ابزارهای متعددی را ارائه می‌دهد تا به ش�
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

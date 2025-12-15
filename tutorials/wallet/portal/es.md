@@ -66,7 +66,7 @@ Puede inscribirlo en un papel o, para mayor seguridad, le recomiendo grabarlo en
 
 Para más información sobre la forma correcta de guardar y gestionar tu frase mnemotécnica, te recomiendo encarecidamente que sigas este otro tutorial, especialmente si eres principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.
 
@@ -228,4 +228,4 @@ Enhorabuena, ya sabes cómo utilizar Portal Si este tutorial te ha resultado út
 
 Para saber más, eche un vistazo a nuestro completo curso de formación sobre el funcionamiento de las carteras HD:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

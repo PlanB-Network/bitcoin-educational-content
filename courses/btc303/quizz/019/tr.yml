@@ -1,0 +1,9 @@
+question: Bitcoin işlemleri bağlamında anonimlik ve takma ad arasındaki temel fark nedir?
+answer: Bitcoin gibi takma isimli sistemlerde ödemeler takma isimler arasında takip edilebilirken, anonim sistemlerde herhangi bir iz bulunmaz
+wrong_answers:
+  - Sözde anonim sistemler gerçek isimler kullanırken, anonim sistemler tüm işlemler için sahte isimler kullanır
+  - Anonim sistemler açık anahtarlar gerektirirken, takma adlı sistemler kimlik tespiti için yalnızca özel anahtarlar kullanır
+  - "Sözde anonim sistemler işlem tutarlarını gizlerken anonim sistemler yalnızca gönderenin kimliğini gizler"
+explanation: |
+  Bitcoin anonim değil takma adlıdır, çünkü adresler (takma adlar) arasındaki tüm işlemler blok zincirinde izlenebilir. Gerçekten anonim bir sistemde, paranın nereden geldiği ya da nereye gittiğine dair hiçbir iz bulunmayacaktır ki bu da teorik olarak sıfır bilgi kanıtlarıyla sağlanabilir. Ancak Bitcoin'nin şeffaflığı, herkesin farklı adresler arasındaki bitcoin akışını takip etmesine olanak tanıyarak sistemi anonim olmaktan ziyade takma isim haline getirmektedir. Bitcoin'deki takma adlar, rastgele kullanıcı adları veya gerçek kimlikler değil, açık anahtarlardan türetilen adreslerdir.
+reviewed: false

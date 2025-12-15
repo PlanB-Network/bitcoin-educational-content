@@ -14,7 +14,7 @@ Lightning novčanici, kao i svi mobilni novčanici, smatraju se "Hot" novčanici
 Ako želite da saznate više o Lightning Network i razumete kako tehnički funkcioniše, preporučujem da pohađate ovaj kurs:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 U ovom vodiču, pogledaćemo **Lipa**, jednostavan i efikasan Lightning Wallet razvijen u Švajcarskoj.
 
@@ -131,7 +131,7 @@ Da biste napravili rezervnu kopiju vašeg Wallet, idite na karticu "Settings" i 
 Za više informacija o tome kako pravilno napraviti rezervnu kopiju i upravljati vašom frazom za oporavak, toplo preporučujem da pratite ovaj drugi vodič, posebno ako ste početnik:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Primite bitkoine
 

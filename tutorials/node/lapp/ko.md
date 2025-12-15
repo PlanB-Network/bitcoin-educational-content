@@ -29,7 +29,7 @@ Lightning 앱을 구축하기 위해 다음 기술을 사용할 것입니다:
 - 프론트엔드를 위한 Pug 템플릿 + 부트스트랩
 
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## 운영 체제
 

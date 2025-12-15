@@ -1,5 +1,5 @@
 ---
-name: Bitcoin कीपर - विरासत योजना
+name: Bitcoin Keeper - उत्तराधिकार योजना
 description: उत्तराधिकार योजना बनाने के लिए टैपसाइनर के साथ Bitcoin कीपर Wallet को सेट अप करें और उसका उपयोग करें
 ---
 
@@ -17,7 +17,7 @@ description: उत्तराधिकार योजना बनाने �
 
 Bitcoin कीपर Wallet का पूरा ट्यूटोरियल देखने के लिए, यहां ट्यूटोरियल देखें:
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 अन्य प्रासंगिक लिंक यहां देखें:
 

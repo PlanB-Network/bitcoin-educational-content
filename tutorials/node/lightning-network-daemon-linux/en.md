@@ -26,7 +26,7 @@ In other words, with this implementation, you can :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Why have your own Lightning node?
 
@@ -49,7 +49,7 @@ In this sense, running a Lightning node increases the security and integrity of 
 - **Decentralization**: Play an active part in strengthening and decentralizing the Bitcoin / Lightning network.
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 You have two options for running an instance of the LND implementation on our machine. We can either set up the environment on our own machine to run locally, or install LND from a Docker container. Here, we'll concentrate on the first option, and see how to proceed with Docker in a later tutorial.
@@ -504,4 +504,4 @@ So you've come to the end of this tutorial. If you'd like to learn more about Li
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

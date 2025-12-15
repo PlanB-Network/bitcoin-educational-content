@@ -1,0 +1,8 @@
+question: Kompakt blok filtrelerin (BIP158) mükemmel doğruluğu korurken hafif istemciler için gizlilik sağlamasına olanak tanıyan birincil kriptografik özellik nedir?
+answer: İşlemleri eşleştirirken yanlış pozitifler üretebilirler ancak asla yanlış negatifler üretmezler
+wrong_answers:
+  - Düğümlerden hangi adreslerin sorgulandığını gizlemek için sıfır bilgi kanıtlarını kullanırlar
+  - "Gizlice dinlemeyi önlemek için müşterinin açık anahtarını kullanarak tüm filtre verilerini şifrelerler"
+  - Harcama kalıplarını gözlemcilerden gizlemek için işlem karmalarının sırasını rastgele ayarlıyorlar
+explanation: |
+  Kompakt blok filtreleri, bir eşleşmeyi yanlış gösterebilen (yanlış pozitif) ancak gerçek bir eşleşmeyi asla kaçırmayacak (yanlış negatif) olasılıksal veri yapıları kullanır. Bu asimetrik özellik çok önemlidir: yanlış pozitifler yalnızca gereksiz blok indirmelerine neden olurken, yanlış negatifler cüzdanların ödemeleri tamamen kaçırmasına neden olur. Gizlilik avantajı bu belirsizlikten kaynaklanır - gözlemciler gerçek eşleşmeler ile yanlış pozitifleri ayırt edemez ve hangi işlemlerin gerçekten sorgulayan wallet'a ait olduğunu gizler.

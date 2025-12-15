@@ -44,13 +44,13 @@ Aurora Store można również pobrać z innych sklepów z aplikacjami, takich ja
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Zalecamy jednak pobranie pliku APK bezpośrednio z oficjalnej strony internetowej, aby zapewnić autentyczność i integralność Aurora Store.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Plik APK (Android Package Kit) to format pakietu używany przez system operacyjny Android do dystrybucji i instalacji aplikacji. Jest to odpowiednik plików **.exe** w systemie Windows lub **.dmg** w systemie macOS.
 
@@ -155,4 +155,4 @@ Aurora Store to coś więcej niż tylko sklep z aplikacjami - to rozwiązanie ty
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

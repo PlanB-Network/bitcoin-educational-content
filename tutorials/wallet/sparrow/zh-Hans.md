@@ -26,7 +26,7 @@ Sparrow 支持单签名和多签名钱包，可以流畅地管理多个钱包。
 
 在安装软件之前，检查软件的完整性和真实性非常重要。如果您不知道如何操作，请点击此处查看完整教程：
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow 安装完成后，您可以跳过初始说明屏幕，直接进入连接管理屏幕。
 
@@ -69,9 +69,9 @@ Sparrow 安装完成后，您可以跳过初始说明屏幕，直接进入连接
 
 要配置 Bitcoin Core 节点，可根据操作系统参考以下教程之一：
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 在 Sparrow 上，转到 "*Bitcoin 核心*"选项卡。
 
@@ -220,7 +220,7 @@ rpcpassword=my_password
 
 有关保存和管理 Mnemonic 短语的正确方法的更多信息，我强烈推荐您阅读本教程，尤其是初学者：
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -228,7 +228,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 您也可以点击 "*使用 passphrase*"方框，选择添加 passphrase BIP39。警告：使用 passphrase 可能非常有用，但如果您不了解它的工作原理，就会有很大风险。因此，我强烈建议您阅读这篇相关的理论短文：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 将 Mnemonic 和任何 passphrase 保存到物理介质后，单击 "*确认备份*"。
 
@@ -264,7 +264,7 @@ https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 Sparrow 支持所有这些通信方式，并与市场上大多数硬件钱包兼容。
 
-在本教程中，我将使用带电缆的 Ledger Nano S，但在气隙模式下操作步骤类似。有关 Hardware Wallet 的具体细节，请参阅 Plan ₿ Network 的专门教程。
+在本教程中，我将使用带电缆的 Ledger Nano S，但在气隙模式下操作步骤类似。有关 Hardware Wallet 的具体细节，请参阅 Plan ₿ Academy 的专门教程。
 
 开始之前，请确保 Hardware Wallet 上已经配置了 Wallet。如果使用有线连接，请通过电缆将其连接到电脑。
 
@@ -326,7 +326,7 @@ Sparrow 支持所有这些通信方式，并与市场上大多数硬件钱包兼
 
 ![Image](assets/fr/44.webp)
 
-对于 Hardware Wallet Air-Gap 用户，Address 验证因设备型号而异。有关精确说明，请参阅专门的 Plan ₿ Network 教程。
+对于 Hardware Wallet Air-Gap 用户，Address 验证因设备型号而异。有关精确说明，请参阅专门的 Plan ₿ Academy 教程。
 
 一旦付款人广播了交易，您就会看到它出现在 "*交易*"选项卡中。您可以点击查看更多详细信息，如 txid。
 
@@ -380,7 +380,7 @@ Sparrow 会显示一个摘要图，显示您的输入、输出和交易费用（
 
 保持 Sighash 的默认状态非常重要。要了解原因，请参阅本培训课程，我将在课程中为您讲解有关 Sighash 的所有知识：
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 在下一个屏幕中，选项会根据您使用的 Wallet 类型而有所不同：
 
@@ -460,4 +460,4 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 我还推荐另一篇教程，其中介绍了如何用 Sparrow Wallet 配置 Hardware Wallet COLDCARD Q：
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

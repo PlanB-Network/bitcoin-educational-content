@@ -1,0 +1,9 @@
+question: Ni iyihe mpamvu nyamukuru ituma kwongerekana kw’ubunini bw’amabuye bituma habaho amahirwe menshi y’amabuye ya kera muri Bitcoin mining?
+answer: Amabuye manini afata umwanya munini wo gukwiragizwa no kwemezwa ku rubuga rwose, bikaba bituma habaho amadirisho maremare aho abacukuzi bakora ku mpanuro za blockchain za kera .
+wrong_answers:
+  - Amabuye manini asaba ubushobozi bwinshi bwo gucukura, ivyo bikaba bituma abacukuzi bamara igihe kirekire barondera inyishu zibereye za proof-of-work .
+  - "Ukwongerekana kw'ubunini bw'amabuye bigabanya ubushobozi bw'uburyo bwo gutunganya ingorane, bikajana mu bihe vy'amabuye bitamenyekana"
+  - Amabuye manini manini atuma haba amakimbirane menshi hagati y’amabuye ahanganye, bikaba bigoye kumenya ibuye rikwiye kwemerwa .
+explanation: |
+  Inyishu ibereye iragaragaza uburyo nyamukuru buri inyuma y’amabuye y’agaciro. Iyo amabuye ari manini, asaba bandwidth nyinshi kugira ngo ashobore guca hagati y’ibice n’igihe kinini co kwemeza. Muri iki kiringo kirekire c’ukwiragira, abacukuzi benshi boshobora gusanga amabuye ariko arahiganwa ku burebure bumwe kuko batararonka ibuye rishasha. Ivyo bituma haba ivy’ugusiganwa aho amaherezo igice kimwe gusa gishobora kwemerwa, bigatuma ayandi agira ubusa. Inyishu zitari zo zitera urujijo iki kibazo co gukwiragiza n’ingorane ya mining, uburyo bwo kwumvikana, canke amakimbirane y’ugucuruza, ivyo bikaba ari ivyiyumviro bitandukanye n’ingorane y’igihe itera amabuye y’agaciro.
+reviewed: false

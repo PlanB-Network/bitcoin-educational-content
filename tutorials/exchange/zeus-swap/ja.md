@@ -1,5 +1,5 @@
 ---
-name: ゼウス・スワップ
+name: Zeus Swap
 description: On-ChainとLightning Networkビットコイン間の非保護Exchangeサービス
 ---
 
@@ -51,7 +51,7 @@ Lightning Networkがどのように機能するかの詳細については、専
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### ビジネスモデル
 
@@ -149,7 +149,7 @@ Zeus Swap はネットワーク状況に応じて有効期限と Mining 料金�
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 ### ウェブ設定
 

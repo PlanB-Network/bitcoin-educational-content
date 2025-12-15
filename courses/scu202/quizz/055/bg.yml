@@ -1,0 +1,9 @@
+question: Кой енджин за визуализация е най-разпространеният днес и захранва повечето съвременни браузъри?
+answer: Мигване
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, разработен от WebKit Fork от Google, днес е доминиращият енджин за рендиране, който захранва Chrome, Edge, Opera, Brave, Vivaldi и др.
+reviewed: false

@@ -1,128 +1,122 @@
 ---
 name: Bitkit Wallet
 
-description: Richten Sie Ihr selbstverwaltetes On-Chain und Lightning Wallet ein
+description: Richte deine self-custodial On-Chain und Lightning Wallet ein
 ---
 
 ![cover](assets/cover.webp)
 
 
-Bitkit (https://www.bitkit.to) ist ein einfaches, aber leistungsfähiges Wallet zur Selbstabrechnung. Bezahlen Sie jeden, überall, zu jeder Zeit.
+Bitkit (https://www.bitkit.to) ist eine einfache, aber leistungsstarke selbstverwahrende (self-custodial) Wallet. Bezahle jeden, überall, zu jeder Zeit.
 
 
-Bitkit ist ein selbstverwaltetes mobiles Wallet, das es Ihnen ermöglicht, Ihr Bitcoin in die Hand zu nehmen, so dass Sie zu Ihren Bedingungen ausgeben können. Verbessert mit herausragenden Funktionen und einem schlanken Design, Bitkit schaltet sofortige Zahlungen an jeden, jederzeit und überall. Und das alles, während es vollständig quelloffen ist und von jedem überprüft werden kann.
+Bitkit ist eine self-custodial mobile Wallet, die es dir ermöglicht, die volle Kontrolle über dein Bitcoin zu übernehmen, sodass du nach deinen Bedingungen ausgeben kannst. Mit herausragenden Funktionen und einem eleganten Design ermöglicht Bitkit sofortige Zahlungen an jede Person, zu jeder Zeit und an jedem Ort. Dabei ist die App vollständig Open-Source und kann von jedem überprüft werden.
 
 
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
 
 
-das Video-Tutorial oben ist eine 20' umfassende Anleitung zu Bitkit Wallet_
+_das Video-Tutorial oben ist eine 20' umfassende Anleitung zu Bitkit Wallet_
 
 
-## Leitfaden
+## Anleitung
 
 
 Bitkit ist wirklich sehr einfach zu bedienen.
 
 
-Als vollwertiger Bitcoin Wallet enthält Bitkit alle Funktionalitäten, die Sie erwarten:
+Als vollständige Bitcoin-Wallet enthält Bitkit alle Funktionen, die du erwartest:
 
 
-Sofortige Zahlungen: Kein Jonglieren mehr zwischen Wallets für On-Chain und Lightning-Transaktionen. Bitkit verbindet beides nahtlos.
+Sofortige Zahlungen: Kein Hin- und Herwechseln mehr zwischen Wallets für On-Chain- und Lightning-Transaktionen. Bitkit vereint beide nahtlos.
 
 
-Guthabenverwaltung: Übertragen Sie mühelos Guthaben zwischen Ihrem Spar- und Ihrem Ausgabenkonto, um sicherzustellen, dass Sie immer genug Kapazität für sofortige Zahlungen haben.
+Guthabenverwaltung: Überweise mühelos Guthaben zwischen deinem Spar- und Ausgabekonto, um sicherzustellen, dass du immer genügend Kapazität für sofortige Zahlungen hast.
 
 
-Wiederherstellungsphrase: Stellen Sie Ihr Sparguthaben auf jedem Wallet wieder her, das BIP 39 unterstützt.
+Wiederherstellungsphrase: Stelle dein Guthaben auf jeder Wallet, die BIP 39 unterstützt, wieder her.
 
 
-Automatische Backups: Die nicht sensiblen Daten Ihres Wallet werden automatisch gesichert, so dass Sie Ihren Ausgabensaldo jederzeit wiederherstellen können.
+Automatische Backups: Nicht-sensitive Daten aus deiner Wallet werden automatisch gesichert, sodass du deinen Guthaben jederzeit wiederherstellen kannst.
 
 
-Detaillierte Transaktionshistorie: Weisen Sie Kontakte zu und kennzeichnen Sie Ihre Transaktionen, um sie zu organisieren.
+Detaillierte Transaktionshistorie: Ordne deine Transaktionen, indem du Kontakte zuweist und Tags hinzufügst.
 
 
 ![image](assets/en/01.webp)
 
 
-Bitkit verfügt auch über einzigartige Fähigkeiten, die es von anderen abheben:
+Bitkit verfügt auch über einzigartige Funktionen, die es von anderen abhebt:
 
 
-Zahlbare Kontakte: Verabschieden Sie sich davon, nach Adressen oder Rechnungen zu fragen. Fügen Sie einfach Freunde zu Ihrer Kontaktliste hinzu und bezahlen Sie sie.
+Zahlbare Kontakte: Verabschiede dich vom Anfragen von Adressen oder Rechnungen. Füge einfach Freunde zu deiner Kontaktliste hinzu und bezahle sie.
 
 
-Live-Widgets: Verleihen Sie Ihrem Wallet-Startbildschirm mit ansprechenden Widgets einen Hauch von Spaß und Nutzen.
+Live-Widgets: Füge deinem Wallet-Startbildschirm einen Hauch von Spaß und Nützlichkeit mit ansprechenden Widgets hinzu.
 
 
-Soziales Profil: Übernehmen Sie die Kontrolle über Ihr öffentliches Profil und Ihre Links, damit Ihre Kontakte Sie jederzeit erreichen und bezahlen können.
+Soziales Profil: Nimm die Kontrolle über dein öffentliches Profil und deine Links, sodass deine Kontakte dich jederzeit erreichen und bezahlen können.
 
 
-Passwortlose Konten: Melden Sie sich bei Websites an, die Slashtags oder Lightning-Authentifizierung unterstützen.
+Passwortlose Konten: Melde dich bei Websites an, die Slashtags oder Lightning-Authentifizierung unterstützen.
 
+QuickPay: Lege einen benutzerdefinierten Grenzwert für Lightning-Zahlungen unter 50 USD fest, und jede Rechnung darunter wird sofort bezahlt – keine Wischbewegungen, keine Verzögerungen. Perfekt für Kaffeepausen oder das Teilen von Rechnungen.
 
-QuickPay: Legen Sie ein benutzerdefiniertes Limit für Blitzzahlungen unter 50 $ fest, und alle Invoice darunter werden sofort bezahlt - ohne Durchziehen, ohne Verzögerung. Perfekt für Kaffeefahrten oder zum Teilen von Rechnungen.
+Einkaufen: Bezahle für Netflix, Airbnb, Lebensmittel, mobiles Datenvolumen und mehr mit Bitcoin, direkt innerhalb von Bitkit.
 
-
-Einkaufen: Bezahlen Sie für Netflix, Airbnb, Lebensmittel, mobile Daten und mehr, mit Bitcoin, direkt in Bitkit.
-
-
-Keine Banken. Keine Reibung.
+Keine Banken. Keine Reibungsverluste.
 
 
 ![image](assets/en/02.webp)
 
 
-## Einsteigerhandbuch zu BitKit: Ein Schritt-für-Schritt-Tutorial
+## Anleitung für Einsteiger: Ein Schritt-für-Schritt-Tutorial
 
 
 ### 1. BitKit installieren
 
 
-Öffnen Sie den App Store (iOS) oder Google Play (Android).
+Öffne den App Store (iOS) oder Google Play (Android).
 
 
-Suchen Sie nach "BitKit" und bestätigen Sie, dass Sie das offizielle orangefarbene Markensymbol sehen.
+Suche nach „BitKit“ und stelle sicher, dass du das offizielle orangefarbene Markenicon siehst.
 
 
-Tippen Sie auf Abrufen oder Installieren und dann auf Öffnen, sobald der Download abgeschlossen ist.
+Tippe auf „Herunterladen“ oder „Installieren“ und öffne die App, sobald der Download abgeschlossen ist.
 
 
-Tipp: Wenn Sie eine gefälschte Anwendung entdecken, überprüfen Sie den Herausgeber. BitKit wird von Synonym Software Ltd. veröffentlicht.
-
+Tipp: Falls du falsche Apps entdeckst, überprüfe den Herausgeber. BitKit wird von Synonym Software Ltd. veröffentlicht.
 
 
 ### 2. Erster Start und Bedingungen
 
 
-Starten Sie BitKit, stimmen Sie den Nutzungsbedingungen zu und tippen Sie auf Weiter.
+Starte BitKit, akzeptiere die Nutzungsbedingungen und tippe auf „Weiter“.
+
+Tippe auf „Los geht's“, um den Einrichtungsprozess zu beginnen.
+
+Ignoriere „Wallet wiederherstellen“ vorerst; wir werden eine neue Wallet erstellen.
 
 
-Tippen Sie auf Beginnen, um den Einführungsprozess zu starten.
+### 3. Wallet-Seed sichern
 
 
-Ignorieren Sie Wallet wiederherstellen für den Moment; wir werden einen neuen Wallet erstellen.
+BitKit ist selbstverwahrend, daher ist die zwölfwörtige Seed-Phrase deine einzige Wiederherstellungsmethode.
 
 
-### 3. Sichern Sie Ihren Wallet seed
+Tippe auf „Jetzt sichern“, wenn du dazu aufgefordert wirst.
 
 
-BitKit ist selbstverwahrend, daher ist der seed-Satz mit zwölf Wörtern Ihre einzige Wiederherstellungsmethode.
+Schreibe die zwölf Wörter auf Papier und bewahre sie offline an einem sicheren Ort auf.
 
 
-Tippen Sie auf Jetzt sichern, wenn Sie dazu aufgefordert werden.
+Bestätige die Wörter, wenn du dazu aufgefordert wirst, und tippe auf „Speichern“.
 
 
-Schreiben Sie die zwölf Wörter auf Papier auf und bewahren Sie sie offline an einem sicheren Ort auf.
+Warnung: Verlierst du den Seed, verlierst du deine Coins. Es gibt keinen Rücksetzknopf.
 
 
-Bestätigen Sie die Wörter, wenn Sie dazu aufgefordert werden, und tippen Sie dann auf Speichern.
-
-
-Achtung! Wenn Sie das seed verlieren, verlieren Sie Ihre Münzen. Es gibt keine Reset-Taste.
-
-
-### 4. Sparen vs. Ausgabenkonten
+### 4. Spar- und Ausgabekonten
 
 
 BitKit erstellt automatisch zwei Konten:
@@ -140,150 +134,145 @@ Ausgaben: Lightning Network
 Kleine, sofortige Zahlungen im Alltag
 
 
-Wechseln Sie mit der Registerkarte am oberen Rand des Startbildschirms zwischen ihnen.
+Wechsele zwischen ihnen mit der Registerkarte oben auf dem Startbildschirm.
 
 
-### 5. Empfangen Bitcoin on chain (Einsparungen)
+### 5. Bitcoin On-Chain empfangen (Sparen) 
 
 
-Wählen Sie Einsparungen.
+Wähle „Sparen“.
 
 
-Tippen Sie auf Empfangen, um generate eine neue Bitcoin Address.
+Tippe auf „Empfangen“, um eine neue Bitcoin-Adresse zu generieren.
 
 
-Teilen Sie den QR-Code oder kopieren Sie den Address an den Absender.
+Teile den QR-Code oder kopiere die Adresse an den Sender.
 
 
-Das Geld wird nach einer Bestätigung erscheinen. Konfetti wird die Ankunft feiern.
+Die Mittel erscheinen nach einer Bestätigung. Konfetti feiert die Ankunft.
 
 
-### 6. Empfangen über Blitz (Ausgeben)
+### 6. Über Lightning empfangen (Ausgeben)
 
 
-Wählen Sie Ausgaben und tippen Sie auf Empfangen.
+Wähle „Ausgeben“ und tippe auf „Empfangen“.
 
 
-Geben Sie einen Betrag ein (z. B. 10 000 Sats) und tippen Sie auf Weiter.
+Gib einen Betrag ein (z.B. 10.000 Sats) und tippe auf „Weiter“.
 
 
-BitKit wird die Gebühr für die Eröffnung eines Kanals (Liquiditätsbedarf) schätzen.
+BitKit schätzt die Gebühr, um einen Kanal zu öffnen (Liquidity-Anforderung).
 
 
-Tippen Sie auf Weiter zu generate a Lightning Invoice.
+Tippe auf „Weiter“, um eine Lightning-Rechnung zu generieren.
 
 
-Lassen Sie den Absender den Invoice scannen oder einfügen. Das Geld wird in Sekundenschnelle überwiesen.
+Lass den Sender den QR-Code scannen oder einfügen. Die Mittel werden in Sekunden verbucht.
 
 
 
-### 7. Eine Blitzzahlung senden
+### 7. Eine Lightning-Zahlung senden
 
 
-Tippen Sie auf das Symbol Scannen, scannen Sie einen Lightning Invoice oder fügen Sie ihn ein.
+Tippe auf das Scansymbol, scanne eine Lightning-Rechnung oder füge sie ein.
 
 
-Geben Sie bei Bedarf den Betrag ein und tippen Sie dann auf Weiter.
+Gib den Betrag ein, falls erforderlich, und tippe auf „Weiter“.
 
 
-Überprüfen Sie die Gebühr und fügen Sie ein optionales Schild für die Buchhaltung hinzu.
+Überprüfe die Gebühr und füge optional ein Tag für die Buchhaltung hinzu.
 
 
-Wischen Sie zum Bezahlen, geben Sie Ihre PIN ein, und schon sind Sie fertig.
+Wische, um zu bezahlen, gib deine PIN ein, und fertig.
 
 
-Die Einzelheiten der Transaktion, einschließlich Gebühr und Timestamp, erscheinen im Aktivitäts-Feed.
+Die Transaktionsdetails, einschließlich Gebühr und Zeitpunkt, erscheinen im Aktivitätsfeed.
 
 
-### 8. Erstellen Sie Ihr Profil und Ihre Kontakte
+### 8. Profil und Kontakte erstellen
 
 
-Tippen Sie auf den Avatar oben links.
+Tippe auf das Avatarbild in der oberen linken Ecke.
 
 
-Geben Sie einen Anzeigenamen ein und wählen Sie ein Profilbild aus.
+Gib einen Anzeigenamen ein und wähle ein Profilbild.
 
 
-BitKit zeigt Ihren persönlichen QR-Code. Freunde können ihn scannen, um Sie hinzuzufügen.
+BitKit zeigt deinen persönlichen QR-Code an. Freunde können ihn scannen, um dich hinzuzufügen.
 
 
-Nehmen Sie die Anfrage an oder lehnen Sie sie ab, damit die Kontakte Sie bezahlen können.
+Akzeptiere oder lehne die Anfrage ab, um Kontakten das Bezahlen zu ermöglichen.
 
 
-Sobald ein Kontakt hinzugefügt wurde, tippen Sie einfach auf seinen Namen in den Kontakten, um Sats zu senden oder anzufordern.
+Sobald ein Kontakt hinzugefügt ist, tippe einfach auf seinen Namen in den Kontakten, um Sats zu senden oder anzufordern.
 
 
-### 9. Widgets erforschen
+### 9. Widgets erkunden
 
-Wischen Sie auf dem Startbildschirm zum Abschnitt Widgets. Tippen Sie zum Hinzufügen oder Bearbeiten auf das Zahnradsymbol:
+Vom Startbildschirm aus wische zum Widget-Bereich. Tippe auf das Zahnradsymbol, um hinzuzufügen oder zu bearbeiten:
 
 
-Bitcoin Price Ticker - wählen Sie bis zu vier Fiat-Währungen und legen Sie den Zeitrahmen fest (Tag, Woche, Monat, Jahr).
+Bitcoin-Preis-Ticker – wähle bis zu vier Fiat-Währungen und den Zeitrahmen (Tag, Woche, Monat, Jahr).
 
 
-News Feed - Schlagzeilen aus führenden Bitcoin-Quellen.
+News-Feed – Schlagzeilen von führenden Bitcoin-Quellen.
 
 
-Bitcoin Fakten - mundgerechtes Wissenswertes für Anfänger.
+Bitcoin-Fakten – knackige Trivia für Anfänger.
 
 
-Rechner - sofortige Umrechnung zwischen Sats und Fiat.
+Rechner – konvertiere sofort zwischen Sats und Fiat.
 
 
-Wetter-Widget - zeigt das "Wetter" für die Netzgebühren an und weist auf günstige Zeiten für On-Chain-Transaktionen hin (Sonne bedeutet geringe Überlastung).
+Wetter-Widget – zeigt das „Wetter“ der Netzwerkgebühren an, das gute Zeiten für On-Chain-Transaktionen anzeigt (sonnig bedeutet niedrige Staus).
 
 
+### 10. Mit Bitcoin einkaufen
 
-### 10. Einkaufen mit Bitcoin
 
+BitKit ist mit Bitrefill für Geschenkkarten, Telefonaufladungen und mehr integriert.
 
-BitKit integriert sich mit Bitrefill für Geschenkkarten, Telefonaufladungen und mehr.
 
+Tippe auf „Shop“ in der unteren Navigation.
 
-Tippen Sie in der unteren Navigation auf Shop.
 
+Wähle „Geschenkkarten“ und wähle einen Händler (z.B. Bitrefill).
 
-Wählen Sie Geschenkkarten und wählen Sie einen Händler (z. B. Bitrefill).
 
+Wähle einen Betrag (ab 1 USD), füge eine E-Mail-Adresse für die Lieferung hinzu, und gehe zur Kasse.
 
-Wählen Sie einen Betrag (ab 1 USD), fügen Sie eine E-Mail für die Lieferung hinzu und gehen Sie zur Kasse.
 
-
-Durchziehen und bezahlen. Der Code für die Geschenkkarte kommt innerhalb von Sekunden per E-Mail an.
-
+Wische, um zu bezahlen. Der Geschenkcard-Code trifft innerhalb von Sekunden per E-Mail ein.
 
 
 ### 11. Schnelles Bezahlen
 
 
-Quick Pay bestätigt automatisch Blitzrechnungen unter einem benutzerdefinierten Limit (Standardwert 50 USD).
+Quick Pay bestätigt automatisch Lightning-Rechnungen unter einem benutzerdefinierten Grenzwert (Standard 50 USD).
 
 
-Gehen Sie zu Einstellungen → Allgemein → Schnellzahlung.
+Gehe zu „Einstellungen“ → „Allgemein“ → „Quick Pay“.
 
 
-Legen Sie den Schwellenwert fest und aktivieren Sie den Schalter.
+Lege deinen Grenzwert fest und aktiviere den Schalter.
 
 
-Kleine Einkäufe wie Kaffee müssen nicht mehr durchgestrichen werden.
-
-
+Kleine Einkäufe wie Kaffee erfordern kein Wischen mehr.
 
 
 ### 12. Sicherheit und Datenschutz
 
 
-PIN-Code - Aktivieren Sie diese Option unter Einstellungen → Sicherheit & Datenschutz und legen Sie einen sechsstelligen Code fest.
+PIN-Code – aktivieren unter „Einstellungen“ → „Sicherheit & Datenschutz“ und setze einen sechsstelligen Code.
 
 
-Biometrie - Schalten Sie Face ID oder die Entsperrung per Fingerabdruck ein.
+Biometrie – schalte Face ID oder Fingerabdruck-Entsperrung ein.
 
 
-Auto-Lock - wählen Sie eine Zeitüberschreitung (z. B. 90 Sekunden Inaktivität).
+Auto-Sperre – wähle Timeout (z.B. 90 Sekunden Inaktivität).
 
 
-Verlangen Sie eine PIN für Zahlungen - das gibt Ihnen zusätzliche Sicherheit.
-
+PIN für Zahlungen erforderlich – extra Sicherheit.
 
 
 ### 13. Verwalten von Lightning-Kanälen
@@ -295,61 +284,59 @@ Was ist ein Kanal?
 Ein Kanal ist ein Zwei-Parteien-Tunnel, der Liquidität enthält, aufgeteilt in:
 
 
-Ausgehend - Ihr Bitcoin, verwendet zum Senden.
+Outbound – dein Bitcoin, verwendet zum Senden.
+
+Inbound – Bitcoin des Gegenübers, erforderlich zum Empfangen.
 
 
-Inbound - Gegenpartei Bitcoin, zum Empfang verpflichtet.
+Von Sparen zu Ausgeben übertragen
 
 
-Transfer von Ersparnissen zu Ausgaben
+Öffne Sparen, tippe auf „Zu Ausgeben übertragen“.
 
 
-Öffnen Sie Savings und tippen Sie auf Transfer to Spending.
+Gib den Betrag ein (z.B. 25.000 ₿) und tippe auf „Weiter“.
 
 
-Geben Sie den Betrag ein (z. B. 25 000 ₿) und tippen Sie auf Weiter.
+Genehmige die Gebühr und warte, bis die On-Chain-Transaktion bestätigt ist.
 
 
-Genehmigen Sie die Gebühr und warten Sie auf die Bestätigung der On-Chain-Transaktion.
+Sobald geöffnet, aktualisieren sich der Ausgabesaldo und die Empfangskapazität.
 
 
-Sobald sie geöffnet sind, werden der Ausgabensaldo und die Aufnahmekapazität aktualisiert.
+Einen Kanal anzeigen oder schließen
 
 
-Anzeigen oder Schließen eines Channels
+Gehe zu „Einstellungen“ → „Erweitert“ → „Lightning-Verbindungen“.
 
 
-Einstellungen → Erweitert → Lightning-Verbindungen
+Tippe auf eine Verbindung, um Status, Salden und Gebühren zu sehen.
 
 
-Tippen Sie auf eine Verbindung, um Status, Guthaben und Gebühren anzuzeigen.
+Scroll nach unten zu „Verbindung schließen“, falls du sie beenden und die Mittel zu Sparen zurückgeben möchtest.
 
 
-Blättern Sie zu Verbindung schließen, wenn Sie die Verbindung beenden und das Geld in die Ersparnisse zurückführen möchten.
-
-
-Hinweis: Aus regulatorischen Gründen ist die Gesamtliquidität von BitKit auf Bitcoin im Wert von etwa neunhundertneunzig Euro begrenzt.
+Hinweis: Aus regulatorischen Gründen ist die Gesamtliquidity in BitKit auf etwa neunhundertneunzig Euro in Bitcoin begrenzt.
 
 
 ### 14. Erweiterte Funktionen
 
 
-Coin-Auswahl - Wählen Sie bestimmte UTXO-Eingänge für die Datenschutz- oder Gebührenkontrolle (Einstellungen → Erweitert → Coin-Auswahl).
+Coin-Auswahl - wähle spezifische UTXO-Inputs für Privatsphäre oder Gebührenkontrolle (Einstellungen → Erweitert → Coin-Auswahl).
 
 
 ![image](assets/en/03.webp)
 
 
-Transaktionsgeschwindigkeit - wählen Sie die Gebührenziele Langsam, Normal oder Schnell On-Chain.
+Transaktionsgeschwindigkeit - wähle Langsam, Normal oder Schnell On-Chain-Gebührenziele.
 
 
-Lokale Währung - wechseln Sie unter Einstellungen → Allgemein von USD zu einer beliebigen Währung.
+Lokale Währung - wechsle von USD zu jeder wichtigen Fiat-Währung unter „Einstellungen“ → „Allgemein“.
 
 
 ## Herzlichen Glückwunsch
 
 
-Sie haben BitKit installiert, Ihr seed gesichert, Lightning-Zahlungen gemeistert und sogar Ihre erste Geschenkkarte gekauft. Das Design von BitKit sorgt dafür, dass sich leistungsstarke Bitcoin-Tools intuitiv anfühlen, und dennoch haben Sie immer die Schlüssel in der Hand. Laden Sie BitKit noch heute herunter und treten Sie in das wahre Bitcoin Ownership ein. Fragen oder Feedback? Wenden Sie sich an das BitKit-Team in den sozialen Medien oder über den In-App-Support-Link.
+Du hast BitKit installiert, deinen Seed gesichert, Lightning-Zahlungen gemeistert und sogar deine erste Geschenkcard gekauft. Das Design von BitKit macht leistungsstarke Bitcoin-Tools intuitiv, und du behältst immer die Kontrolle. Lade BitKit noch heute herunter und mache den ersten Schritt zu echter Bitcoin-Besitz. Fragen oder Feedback? Wende dich an das BitKit-Team in den sozialen Medien oder über den Support-Link in der App.
 
-
-**Hinweis zum Kauf oder Verkauf von Bitcoin**: Bitkit unterstützt nicht den Kauf und Verkauf von Bitcoin. Um zu kaufen oder zu verkaufen, verwenden Sie Börsen wie Bitfinex und senden Sie dann an oder von Bitkit.
+**Hinweis zum Kauf oder Verkauf von Bitcoin:** Bitkit unterstützt keinen Kauf und Verkauf von Bitcoin. Um zu kaufen oder zu verkaufen, nutze Börsen wie Bitfinex und sende dann an oder von Bitkit.

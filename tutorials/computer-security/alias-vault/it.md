@@ -93,7 +93,7 @@ Prima di usare questa email per un servizio di login puoi provarne la funzionali
 
 **⚠️ ATTENZIONE**: La ricezione delle email è possibile grazie al server incorporato di Alias Vault, ma questo permette esclusivamente di ricevere email e non di rispondere, o usare la casella email con le funzioni "convenzionali" di un servizio `alias`. Si differenzia quindi molto da Simple Login, Addy ed altre piattaforme che si dedicano esclusivamente a questo tipo di servizio. Per l'esempio di Simple Login è possibile visionare il tutorial dedicato:
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Per cancellare un alias che hai creato a titolo di prova, non dovrai far altro che accedere alla tua `Home`, poi `Credentials` e cliccare sull'identità da cancellare. In alto a destra ti compare il comando _Delete_ per procedere.
 

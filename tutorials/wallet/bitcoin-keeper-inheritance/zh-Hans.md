@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 守护者 - 继承计划
+name: Bitcoin Keeper - 遗产规划
 description: 设置并使用 Bitcoin Keeper Wallet 与 Tapsigners 一起创建继承计划
 ---
 
@@ -17,7 +17,7 @@ description: 设置并使用 Bitcoin Keeper Wallet 与 Tapsigners 一起创建�
 
 要查看 Bitcoin Keeper Wallet 的完整教程，请点击此处：
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 在此查看其他相关链接：
 

@@ -14,7 +14,7 @@ Günümüzde iki faktörlü kimlik doğrulama (2FA), çevrimiçi hesapların yet
 Başka bir eğitimde TOTP 2FA uygulamasının nasıl kurulacağını ve kullanılacağını anlatmıştım:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Burada, tüm hesaplarınız için ikinci bir kimlik doğrulama faktörü olarak fiziksel bir güvenlik anahtarının nasıl kullanılacağını göreceğiz.
 

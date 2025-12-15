@@ -1,0 +1,8 @@
+question: What is the primary architectural benefit of UniFFI's layered approach when integrating Rust libraries with target languages like Swift or Kotlin?
+answer: The binding layer handles type translation and memory management while presenting a completely native interface to the target language
+wrong_answers:
+  - The UDL file automatically compiles Rust code into bytecode that can run natively on mobile platforms without translation
+  - The Rust library code is automatically rewritten in the target language syntax to eliminate any foreign function interface calls
+  - The target language applications directly access Rust memory structures through shared pointers to avoid data marshaling overhead
+explanation: |
+  UniFFI's architecture creates a separation where generated binding code acts as a translation layer between the target language and Rust. This layer handles complex marshaling/unmarshaling of data types, manages memory safely across language boundaries, and provides error handling following target language conventions. The other options are incorrect because UniFFI doesn't compile to bytecode (it generates bindings), doesn't rewrite Rust code in other languages (it maintains the original Rust implementation), and doesn't use shared memory access (it safely marshals data across boundaries).

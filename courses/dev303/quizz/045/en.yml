@@ -1,0 +1,8 @@
+question: What is the main benefit of Rust's functional programming features maintaining zero-cost abstractions?
+answer: They produce efficient machine code comparable to traditional loop-based approaches without sacrificing performance
+wrong_answers:
+  - They automatically handle memory allocation and deallocation to prevent runtime overhead completely
+  - They eliminate the need for type checking at compile time while maintaining safety guarantees
+  - They provide garbage collection functionality that runs without impacting program execution speed
+explanation: |
+  Zero-cost abstractions in Rust's functional programming features mean that using closures and iterators doesn't sacrifice performance for expressiveness. The Rust compiler optimizes these high-level constructs to produce machine code that performs as well as hand-written traditional loops. This allows developers to write more expressive and readable code without paying a runtime performance penalty, which is a core principle of Rust's design philosophy.

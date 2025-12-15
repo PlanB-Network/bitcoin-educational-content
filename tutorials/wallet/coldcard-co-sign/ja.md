@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - コサイン
+name: COLDCARD - Co-Sign
 description: Co-Sign機能を発見し、COLDCARDでご利用ください。
 ---
 
@@ -289,9 +289,9 @@ ColdCard Co-Signing "メニューで "Build 2-of-N "を選択し、次の画面�
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
+https://planb.academy/tutorials/wallet/desktop/sparrow-multisig-5860333b-6dd8-4aaa-8ab6-89ebc6276f1f
 
 ### 1-輸出 Wallet Multisig 2-サー-3～Sparrow wallet
 
@@ -464,7 +464,7 @@ ColdCardQでこの取引に署名してみよう。
 
 
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
 ### 1- ウェブ2FAとホワイトリストのアドレス
 
@@ -506,11 +506,11 @@ https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 
-https://planb.network/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
+https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
 具体的には、取引にサインする前に、NFC対応のインターネット接続機器をColdcardに近づける必要がある。すると自動的にcoldcard.comのウェブ・ページが表示され、そこで申請用の6桁のコードを入力するよう求められます。正しいコードを入力すると、ウェブページに ColdCardQ 用にスキャンする QR コード、または Mk4 に入力する 8 桁のコードが表示され、デバイスに署名を許可します。
 

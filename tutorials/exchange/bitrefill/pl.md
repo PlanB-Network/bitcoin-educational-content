@@ -8,7 +8,7 @@ description: Jak kupować towary i usługi za BTC za pomocą Bitrefill?
 Chociaż Bitcoin jest dziś uważany przede wszystkim za środek do oszczędzania, pozostaje walutą, której użyteczność polega na zdolności do przechodzenia z rąk do rąk. Jeśli sprzedawcy w pobliżu akceptują Bitcoin jako metodę płatności, możesz wydać je bezpośrednio u nich. Niestety, praktyka ta nie jest jeszcze powszechna, a większość sprzedawców nie akceptuje jeszcze BTC natywnie.
 
 
-Najlepszym rozwiązaniem pozostaje "pomarańczowa pigułka" lokalnych sprzedawców, aby skłonić ich do zaakceptowania Bitcoin, wyjaśniając zalety tego systemu. Jako wsparcia można użyć samouczków dostępnych w sekcji ["*merchants*"](https://planb.network/tutorials/merchant) na naszej stronie. Ta strategia może być skuteczna w przypadku małych niezależnych sprzedawców, ale okazuje się bardziej skomplikowana w przypadku dużych sieci krajowych, ponieważ osoby kontaktowe na miejscu zazwyczaj nie podejmują decyzji dotyczących metod płatności.
+Najlepszym rozwiązaniem pozostaje "pomarańczowa pigułka" lokalnych sprzedawców, aby skłonić ich do zaakceptowania Bitcoin, wyjaśniając zalety tego systemu. Jako wsparcia można użyć samouczków dostępnych w sekcji ["*merchants*"](https://planb.academy/tutorials/merchant) na naszej stronie. Ta strategia może być skuteczna w przypadku małych niezależnych sprzedawców, ale okazuje się bardziej skomplikowana w przypadku dużych sieci krajowych, ponieważ osoby kontaktowe na miejscu zazwyczaj nie podejmują decyzji dotyczących metod płatności.
 
 
 Czekając na bardziej masową adopcję przez te sieci, możesz wydawać swoje bitcoiny za pomocą pośredniej metody płatności: kart podarunkowych. I właśnie to oferuje Bitrefill.
@@ -46,9 +46,9 @@ Wprowadź adres e-mail Address. Jeśli chcesz zachować anonimowość swojego ko
 Jeśli chcesz dowiedzieć się, jak łatwo utworzyć bezpieczną skrzynkę e-mail i jak zarządzać hasłami, polecam zapoznać się z tymi 2 innymi samouczkami:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Następnie kliknij przycisk "*Utwórz konto*".
 
@@ -85,7 +85,7 @@ W sekcji "*Uwierzytelnianie dwuskładnikowe*" kliknij przycisk "*Włącz*" i pos
 Aby dowiedzieć się więcej o tym, jak używać uwierzytelniania dwuskładnikowego do zabezpieczania kont online, polecam zapoznać się z tym innym samouczkiem:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Jak kupić kartę podarunkową w BTC na Bitrefill?
 
@@ -158,4 +158,4 @@ I gotowe, teraz już wiesz, jak wydawać swoje bitcoiny bez KYC u głównych spr
 Jeśli chcesz przyczynić się do popularyzacji Bitcoin i zachęcić niezależnego sprzedawcę do przyjęcia tej metody płatności, polecam zapoznanie się z naszym kompletnym samouczkiem na temat Swiss Bitcoin Pay. Jest to kompleksowe rozwiązanie dla procesorów płatności BTC, łatwe w instalacji i codziennym zarządzaniu:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

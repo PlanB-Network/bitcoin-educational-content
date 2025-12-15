@@ -32,7 +32,7 @@ Green je posebno jednostavna aplikacija za korišćenje, što je čini zanimljiv
 Blockstream Green takođe podržava Liquid Network, Bitcoin Sidechain razvijen od strane Blockstream-a za brzo, Confidential Transactions izvan glavnog Blockchain. U ovom vodiču, fokusiramo se isključivo na Bitcoin, ali sam takođe napravio još jedan vodič da naučite kako koristiti Liquid na Green :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## 2/2 Multisig opcija (2FA)
 
@@ -61,7 +61,7 @@ Još jedan nedostatak ove sigurnosne metode je što ćete morati koristiti manji
 Ako ne želite da koristite opciju 2FA i jednostavno želite da postavite "*singlesig*" Wallet na Green, pozivam vas da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 ## Instaliranje i konfiguracija Blockstream Green softvera
 
@@ -223,7 +223,7 @@ Kliknite na dugme Green "*Povećajte sigurnost svog naloga dodavanjem 2FA*".
 Zatim ćete moći da izaberete metod autentifikacije za pristup drugom ključu vašeg 2/2 Multisig. Za ovaj vodič, koristićemo aplikaciju za autentifikaciju. Ako niste upoznati sa ovom vrstom aplikacije, preporučujem da pogledate naš vodič o Authy:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Odaberite "*Authenticator Application*".
 
@@ -396,4 +396,4 @@ Ako ste našli ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green p
 Takođe vam preporučujem da pogledate ovaj drugi sveobuhvatni vodič o mobilnoj aplikaciji Blockstream Green za postavljanje Liquid Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

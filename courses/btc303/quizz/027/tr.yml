@@ -1,0 +1,9 @@
+question: Bölüme göre, kendi Bitcoin gizlilik uygulamalarınız konusunda dikkatsiz davrandığınızda ne olur?
+answer: Diğer Bitcoin kullanıcılarının da gizliliğini azaltabilir
+wrong_answers:
+  - Sadece kendi işlemlerinizi etkiler ve başkaları üzerinde hiçbir etkisi yoktur
+  - Tüm Bitcoin ağını herkes için daha güvenli hale getirir
+  - Bitcoin sisteminin genel anonimliğini geliştirmeye yardımcı olur
+explanation: |
+  Bitcoin gizliliği kullanıcılar arasında birbirine bağlıdır. Bir kişi gizlilik uygulamalarında özensiz davrandığında, işlem yaptığı diğer kullanıcıların gizliliğini de olumsuz etkileyebilir. Bunun nedeni işlem kalıpları, adres kümeleme ve diğer blok zinciri analiz tekniklerinin işlemlere dahil olan birden fazla taraf hakkındaki bilgileri ortaya çıkarabilmesidir. Bu bölüm, aldığınız gizlilik önlemlerinin yalnızca kendinizi korumakla kalmadığını, aynı zamanda daha geniş Bitcoin topluluğunu korumaya yardımcı olduğunu ve gizliliği yalnızca bireysel bir endişe olmaktan ziyade kolektif bir sorumluluk haline getirdiğini vurgulamaktadır.
+reviewed: false

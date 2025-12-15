@@ -9,22 +9,22 @@ description: Exécutez votre propre nœud avec Bitcoin core sous Linux
 ## Exécuter son propre nœud avec Bitcoin core
 
 
-Introduction à Bitcoin et au concept de nœud, complétée par un guide d'installation complet sur Linux.
+Introduction à Bitcoin et au concept de nœud, accompagnée d’un guide complet d'installation sur Linux.
 
 
 L'un des aspects les plus intéressants de Bitcoin est la possibilité d'exécuter soi-même le programme, et donc de participer à un niveau granulaire au réseau et à la vérification de la transaction publique Ledger.
 
 
-Bitcoin, en tant que projet open-source, est disponible gratuitement et distribué publiquement depuis 2009. Près de 17 ans après sa création, Bitcoin est aujourd'hui un réseau monétaire numérique robuste et imparable, bénéficiant d'un puissant effet de réseau organique. Pour ses efforts et sa vision, Satoshi Nakamoto mérite notre gratitude. À propos, nous hébergeons le livre blanc Bitcoin ici sur Agora 256 (note : également sur l'université).
+Bitcoin, en tant que projet open-source, est disponible gratuitement et distribué publiquement depuis 2009. Près de 17 ans après sa création, Bitcoin est aujourd'hui un réseau monétaire numérique robuste, décentralisé et pratiquement imparable, bénéficiant d'un puissant effet de réseau organique. Pour ses efforts et sa vision, Satoshi Nakamoto mérite notre gratitude. À propos, nous hébergeons le livre blanc Bitcoin ici sur Agora 256 (note : également sur l'université).
 
 
 ### Devenir sa propre banque
 
 
-Gérer son propre nœud est devenu essentiel pour les adeptes de l'éthique Bitcoin. Sans demander la permission à personne, il est possible de télécharger le Blockchain depuis le début et de vérifier ainsi toutes les transactions de A à Z selon le protocole Bitcoin.
+Gérer son propre nœud est devenu essentiel pour les adeptes de l'éthique Bitcoin. Sans demander la permission à qui que ce soit, il est possible de télécharger la Blockchain depuis le début et de vérifier ainsi toutes les transactions de A à Z selon le protocole Bitcoin.
 
 
-Le programme comprend également son propre Wallet. Ainsi, nous contrôlons les transactions que nous envoyons au reste du réseau, sans intermédiaire ni tiers. Vous êtes votre propre banque.
+Le logiciel inclut également son propre Wallet. Ainsi, nous contrôlons les transactions que nous envoyons au reste du réseau, sans intermédiaire ni tiers. Vous êtes véritablement votre propre banque.
 
 
 Le reste de cet article est donc un guide pour installer Bitcoin core - la version la plus utilisée du logiciel Bitcoin - spécifiquement sur les distributions Linux compatibles avec Debian telles qu'Ubuntu et Pop!OS. Suivez ce guide pour faire un pas de plus vers votre souveraineté individuelle.
@@ -122,7 +122,7 @@ Vous pouvez ignorer les avertissements :
 ### Conclusion de la partie 1 : Guide d'installation
 
 
-Une fois la Bitcoin core installée, il est recommandé de la laisser fonctionner autant que possible pour contribuer au réseau Bitcoin en vérifiant les transactions et en transmettant les nouveaux blocs à d'autres pairs.
+Une fois Bitcoin core installée, il est recommandé de le laisser fonctionner aussi souvent que possible. Cela permet de contribuer au réseau Bitcoin en vérifiant les transactions et en relayant les nouveaux blocs autres nœuds.
 
 
 Toutefois, l'exécution et la synchronisation intermittentes de votre nœud, ne serait-ce que pour valider les transactions reçues et envoyées, restent une bonne pratique.
@@ -156,13 +156,13 @@ sudo systemctl restart tor
 ```
 
 
-Ensuite, lançons le Bitcoin core graphique Interface avec la commande `Bitcoin-qt`. Ensuite, activez la fonction automatique du logiciel pour router nos connexions à travers un proxy Tor : _Paramètres > Réseau_, et de là, cochez _Connecter à travers un proxy SOCKS5 (proxy par défaut)_ ainsi que _Utiliser un proxy SOCKS5 séparé pour atteindre des pairs via les services d'oignon Tor_.
+Ensuite, lançons l'interface graphique de Bitcoin core avec la commande `Bitcoin-qt`. Puis, activez la fonction automatique du logiciel pour router nos connexions à travers un proxy Tor : _Paramètres > Réseau_, et de là, cochez _Connecter à travers un proxy SOCKS5 (proxy par défaut)_ ainsi que _Utiliser un proxy SOCKS5 séparé pour atteindre des pairs via les services d'oignon Tor_.
 
 
 ![option](assets/fr/04.webp)
 
 
-Bitcoin core détecte automatiquement si Tor est installé et, si c'est le cas, crée par défaut des connexions sortantes vers d'autres nœuds utilisant également Tor, en plus des connexions vers des nœuds utilisant des réseaux IPv4/IPv6 (clearnet).
+Bitcoin core détecte automatiquement si Tor est installé. Si c'est le cas, il établit par défaut des connexions sortantes vers d'autres nœuds utilisant également Tor, en plus des connexions vers des nœuds utilisant des réseaux IPv4/IPv6 (clearnet).
 
 
 **Note💡:** pour changer la langue d'affichage en français, allez dans l'onglet Affichage dans Paramètres.
@@ -171,7 +171,7 @@ Bitcoin core détecte automatiquement si Tor est installé et, si c'est le cas, 
 ### Configuration avancée de Tor (en option)
 
 
-Il est possible de configurer le Bitcoin core pour qu'il n'utilise que le réseau Tor pour se connecter avec des pairs, optimisant ainsi l'anonymat de notre nœud. Comme il n'y a pas de fonctionnalité intégrée pour cela dans le Interface graphique, nous devrons créer manuellement un fichier de configuration. Allez dans Settings, puis dans Options.
+Il est possible de configurer Bitcoin core pour qu'il n'utilise que le réseau Tor pour se connecter avec des pairs, optimisant ainsi l'anonymat de notre nœud. Comme il n'y a pas de fonctionnalité intégrée pour cela dans l'interface graphique, nous devrons créer manuellement un fichier de configuration. Pour cela, allez dans Settings, puis dans Options.
 
 
 ![option 2](assets/fr/05.webp)
@@ -180,7 +180,7 @@ Il est possible de configurer le Bitcoin core pour qu'il n'utilise que le résea
 Ici, cliquez sur _Ouvrir le fichier de configuration_. Une fois dans le fichier texte `Bitcoin.conf`, ajoutez simplement la ligne `onlynet=onion` et sauvegardez le fichier. Vous devez redémarrer Bitcoin core pour que cette commande prenne effet.
 
 
-Nous configurerons ensuite le service Tor pour que Bitcoin core puisse recevoir des connexions entrantes via un proxy, ce qui permettra à d'autres nœuds du réseau d'utiliser notre nœud pour télécharger les données de Blockchain sans compromettre la sécurité de notre machine.
+Nous configurerons ensuite le service Tor pour que Bitcoin core puisse recevoir des connexions entrantes via un proxy, ce qui permettra à d'autres nœuds du réseau d'utiliser le vôtre pour télécharger les données de la Blockchain sans compromettre la sécurité de votre machine.
 
 
 Dans le terminal, entrez `sudo nano /etc/tor/torrc` pour accéder au fichier de configuration du service Tor. Dans ce fichier, cherchez la ligne `#ControlPort 9051` et supprimez le `#` pour l'activer. Maintenant, ajoutez deux nouvelles lignes au fichier :
@@ -207,10 +207,10 @@ Avec cette configuration, Bitcoin core pourra établir des connexions entrantes 
 En fin de compte, utiliser uniquement le réseau Tor (`onlynet=onion`) pourrait vous rendre vulnérable à un Sybil Attack. C'est pourquoi certains recommandent de maintenir une configuration multi-réseaux pour atténuer ce type de risque. De plus, toutes les connexions IPv4/IPv6 seront routées à travers le proxy Tor une fois qu'il sera configuré, comme indiqué précédemment.
 
 
-Alternativement, pour rester uniquement sur le réseau Tor et atténuer le risque d'une Sybil Attack, vous pouvez ajouter la Address d'un autre noeud de confiance à votre fichier `Bitcoin.conf` en ajoutant la ligne `addnode=adresse_de_confiance.onion`. Vous pouvez ajouter cette ligne plusieurs fois si vous voulez vous connecter à plusieurs nœuds de confiance.
+Alternativement, pour rester uniquement sur le réseau Tor et atténuer le risque d'une Sybil Attack, vous pouvez ajouter l'Address d'un autre noeud de confiance à votre fichier `Bitcoin.conf` en ajoutant la ligne `addnode=adresse_de_confiance.onion`. Vous pouvez répéter cette ligne autant de fois que nécessaire pour vous connecter à plusieurs nœuds de confiance.
 
 
-Pour voir les journaux de votre noeud Bitcoin spécifiquement liés à son interaction avec Tor, ajoutez `debug=tor` à votre fichier `Bitcoin.conf`. Vous aurez alors des informations pertinentes sur Tor dans votre journal de débogage, que vous pouvez visualiser dans la fenêtre _Information_ avec le bouton _Fichier de débogage_. Il est aussi possible de voir ces logs directement dans le terminal avec la commande `bitcoind -debug=tor`.
+Pour voir les journaux de votre noeud Bitcoin concernant spécifiquement ses interaction avec Tor, ajoutez la ligne `debug=tor` à votre fichier `Bitcoin.conf`. Vous aurez alors des informations détaillées sur Tor dans votre journal de débogage, que vous pouvez visualiser dans la fenêtre _Information_ avec le bouton _Fichier de débogage_. Il est aussi possible de voir ces logs directement dans le terminal avec la commande `bitcoind -debug=tor`.
 
 
 **Tip💡:** voici quelques liens intéressants :

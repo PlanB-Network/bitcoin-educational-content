@@ -1,9 +1,9 @@
-question: Wanneer is een pruned knoop een probleem voor een Wallet?
-answer: Bij het restaureren van een oude Wallet
+question: Wanneer is een pruned node een probleem voor een wallet?
+answer: Bij het herstellen van een oude wallet
 wrong_answers:
-  - Bij het maken van een nieuwe ontvangst Address
+  - Bij het maken van een nieuw ontvangst adres
   - Bij het verzenden van een recente transactie
   - Bij het selecteren van het bedrag
 explanation: |
-  Een pruned knooppunt bewaart geen oude blokken, waardoor transacties uit het verleden niet gescand kunnen worden tijdens het herstel.
+  Een pruned node bewaart geen oude blokken, waardoor transacties uit het verleden niet gescand kunnen worden tijdens het herstel.
 reviewed: true

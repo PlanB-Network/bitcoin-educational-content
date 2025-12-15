@@ -1,9 +1,9 @@
-question: Which alternative solution is mentioned for businesses that prefer an all-in-one online retail environment?
+question: Giải pháp thay thế nào được đề cập dành cho các doanh nghiệp thích môi trường bán lẻ trực tuyến trọn gói?
 answer: Be-BOP
 wrong_answers:
   - Phoenix
-  - Open Node
+  - Nút mở
   - Swiss Bitcoin Pay
 explanation: |
-  Be-BOP is as an option for those who desire an integrated online e-store that facilitates Bitcoin payments.
-reviewed: false
+  Be-BOP là lựa chọn dành cho những ai mong muốn có một cửa hàng điện tử trực tuyến tích hợp hỗ trợ thanh toán Bitcoin.
+reviewed: true

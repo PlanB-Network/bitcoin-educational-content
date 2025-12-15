@@ -32,12 +32,12 @@ Popunite potrebne informacije: unesite svoju email adresu Address i zemlju prebi
 Za savete o korišćenju i zaštiti jakih, jedinstvenih lozinki, pogledajte i ovaj vodič :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sada ćemo konfigurisati 2FA da osiguramo nalog. Koristite aplikaciju za autentifikaciju na svom pametnom telefonu, kao što su Google Authenticator ili Authy na primer. Pronaći ćete vodič za ovaj alat ovde:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skenirajte QR kod sa svojom aplikacijom i unesite 6 cifara koje su date.
 
@@ -245,9 +245,9 @@ Bitfinex takođe nudi opcije depozita i povlačenja putem Lightning Network, omo
 Ako ste zainteresovani za Lightning Network, imamo i kompletan kurs obuke koji će vam pomoći da razumete kako funkcioniše:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Nakon kupovine svojih prvih bitkoina, očigledno imate opciju da ih ostavite na platformi, ali ja snažno preporučujem da ih prebacite na svoj Wallet u samostalnom čuvanju. Ako još ne znate kako da koristite Bitcoin Wallet, pozivam vas da istražite [odeljak "Wallet" na Plan ₿ Network](https://planb.network/tutorials/wallet).
+Nakon kupovine svojih prvih bitkoina, očigledno imate opciju da ih ostavite na platformi, ali ja snažno preporučujem da ih prebacite na svoj Wallet u samostalnom čuvanju. Ako još ne znate kako da koristite Bitcoin Wallet, pozivam vas da istražite [odeljak "Wallet" na Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 
 ## 6 - Kupovina i prodaja bitkoina na Bitfinex-u

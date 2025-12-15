@@ -27,7 +27,7 @@ Da biste instalirali Umbrel i konfigurisali svoj Bitcoin čvor, preporučujemo d
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Proverite da je vaš Bitcoin čvor ažuriran i ispravno radi, jer Lightning Network zavisi od njega za sve off-chain transakcije.
 
@@ -57,7 +57,7 @@ Za potpuni teorijski uvod u Lightning mrežu, preporučujemo da pohađate naš p
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Ovaj kurs će vam pružiti temeljno razumevanje osnovnih pojmova Lightning mreže, a zatim će vas voditi ka praktičnom radu sa vašim LND čvorom.
 
@@ -613,7 +613,7 @@ Da biste saznali više o konfigurisanju i korišćenju osmatračnica, preporuču
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Druge najbolje prakse
 
 

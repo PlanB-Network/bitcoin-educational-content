@@ -1,9 +1,9 @@
-question: What is the main goal of the specialized Bitcoin accounting tools?
-answer: To simplify the automatic collection and processing of Bitcoin-related data
+question: Mục tiêu chính của các công cụ kế toán chuyên dụng Bitcoin là gì?
+answer: Để đơn giản hóa việc thu thập và xử lý tự động dữ liệu liên quan đến Bitcoin
 wrong_answers:
-  - To enhance the security of Bitcoin private keys
-  - To facilitate direct trading of Bitcoin on decentralized exchanges for businesses
-  - To set up a PoS system for accepting Bitcoin payments
+  - Để tăng cường tính bảo mật của khóa riêng tư Bitcoin
+  - Để tạo điều kiện thuận lợi cho việc giao dịch trực tiếp Bitcoin trên các sàn giao dịch phi tập trung dành cho doanh nghiệp
+  - Thiết lập hệ thống PoS để chấp nhận thanh toán Bitcoin
 explanation: |
-  These tools are designed to automate data collection, format conversion, tax calculation, and transaction categorization.
-reviewed: false
+  Các công cụ này được thiết kế để tự động hóa việc thu thập dữ liệu, chuyển đổi định dạng, tính thuế và phân loại giao dịch.
+reviewed: true

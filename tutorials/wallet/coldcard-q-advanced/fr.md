@@ -6,7 +6,7 @@ description: Utiliser les options avancées de la COLDCARD Q
 
 Dans un tutoriel précédent, nous avons découvert la configuration initiale de la COLDCARD Q et ses fonctionnalités de base pour les débutants. Si vous venez de recevoir votre COLDCARD Q et ne l'avez pas encore configurée, je vous recommande de commencer par ce tutoriel avant de poursuivre ici :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Ce nouveau tutoriel est dédié aux options avancées de la COLDCARD Q, pensées pour les utilisateurs avancés et paranoïaques. En effet, les COLDCARD se distinguent des autres hardware wallets par leurs nombreuses fonctionnalités de sécurité avancées. Vous n'êtes évidemment pas obligé d'utiliser toutes ces options. Choisissez uniquement celles qui correspondent à votre stratégie de sécurisation.
 
@@ -20,7 +20,7 @@ Avant de commencer, assurez-vous d'avoir accès à la sauvegarde physique de vot
 
 Si vous ne savez pas ce qu'est une passphrase BIP39 ou si son fonctionnement ne vous est pas totalement clair, je vous recommande fortement de consulter ce tutoriel préalable, qui couvre les bases théoriques nécessaires pour comprendre les risques associés à l'utilisation d'une passphrase :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Gardez à l'esprit qu'une fois la passphrase configurée sur votre portefeuille, votre phrase mnémonique seule ne suffira plus pour retrouver l'accès à vos bitcoins. Vous aurez besoin à la fois de la phrase mnémonique et de la passphrase. De plus, vous devrez saisir la passphrase chaque fois que vous déverrouillerez votre COLDCARD Q. Cela renforce la sécurité en rendant l'accès physique à la COLDCARD et la connaissance du code PIN insuffisants sans la passphrase.
 
@@ -66,7 +66,7 @@ Confirmez que l'empreinte affichée correspond à celle de votre portefeuille et
 
 Gardez à l'esprit que l'utilisation d'une passphrase signifie que vous devrez importer un nouvel ensemble de clés dérivées de la combinaison de votre phrase mnémonique et de la passphrase dans votre logiciel de gestion de portefeuille (comme Sparrow Wallet). Pour ce faire, suivez l'étape "*Configurer un nouveau portefeuille sur Sparrow*" dans cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Les options liées au déverrouillage
 
@@ -193,7 +193,7 @@ Désormais, à chaque allumage de l'appareil, une calculatrice fonctionnelle ave
 
 ![CCQ](assets/fr/34.webp)
 
-Par exemple, vous pourrez calculer le hachage SHA256 de "*Plan B Network*".
+Par exemple, vous pourrez calculer le hachage SHA256 de "*Plan ₿ Academy*".
 
 ![CCQ](assets/fr/35.webp)
 
@@ -236,5 +236,5 @@ Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de la
 
 Je vous conseille également de découvrir cet autre tutoriel dans lequel nous abordons l'utilisation d'une concurrente directe à la CCQ, la Ledger Flex :
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 

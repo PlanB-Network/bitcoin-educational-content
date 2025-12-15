@@ -49,7 +49,7 @@ W tym samouczku omówimy każdy z tych aspektów, aby maksymalnie ułatwić korz
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Rozpoczęcie pracy z urządzeniem Speed Wallet
 
@@ -79,7 +79,7 @@ Speed Wallet wymaga utworzenia konta użytkownika. Można je utworzyć za pomoc�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Po utworzeniu konta zalecamy skonfigurowanie systemu podwójnego uwierzytelniani
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Aby to zrobić, przejdź do ustawień aplikacji, a następnie aktywuj podwójne uwierzytelnianie i weryfikację biometryczną.
 
@@ -205,9 +205,9 @@ Opcje **Kup** i **Zamiana** umożliwiają Exchange bitcoinów na inne waluty dos
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Zobacz nasz samouczek, jak rozpocząć korzystanie z Bitrefill poniżej.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Zdobywanie nagród
 
@@ -327,7 +327,7 @@ W opcji **Ustawienia** na stronie **Wallet**, sekcja **Mini Apps** pozwala dosto
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet nie jest tylko dla urządzeń mobilnych!
 
@@ -401,4 +401,4 @@ Dotarłeś do końca naszego samouczka Speed Wallet. Jeśli ten samouczek okaza�
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

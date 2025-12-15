@@ -1,0 +1,9 @@
+question: Коя команда извлича локалния IP адрес на вашия Umbrel, ако достъпът чрез umbrel.local е неуспешен?
+answer: име на хост -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  В случай на проблеми с откриването можете да използвате командата hostname -I на машината Umbrel, за да откриете нейния локален IP адрес.
+reviewed: true

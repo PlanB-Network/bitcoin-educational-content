@@ -13,7 +13,7 @@ description: En kort guide for å motivere kunder til å bruke bitcoins i butikk
 Du har endelig bestemt deg for å akseptere Bitcoin i virksomheten din, og alt er klart: Lightning Network Wallet er satt opp for å motta betalinger, de ansatte vet hvordan de skal bruke den skrivebeskyttede versjonen av Wallet til å motta betalinger på dine vegne, Point of Sale (PoS) er konfigurert med butikkprodukter og oppdateres månedlig, og du vet allerede hvordan du skal håndtere Bitcoin-regnskapet fra kundene. Hvis du ikke vet hvordan du gjør det, kan du se denne veiledningen:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Hva er problemet?
 
@@ -129,7 +129,7 @@ Det er opp til forhandleren å bestemme hvordan den skal implementeres, men her 
 Uansett er det alltid god praksis å sørge for at virksomheten din, dersom den har en fysisk beliggenhet, er til stede og oppdatert på [BTC Map](https://btcmap.org/map). De fleste bitcoin-brukere er kjent med dette verktøyet, og nesten alle som har brukt bitcoin i fysiske butikker har sjekket minst én gang hvilke steder som aksepterer dem. Hvis du vil lære hvordan du legger til butikken din på BTC Map eller ønsker mer informasjon, se denne veiledningen:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Administrere regnskap
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Hvis du lurer på hvordan du skal administrere bokføringen av opptjente bitcoins, uansett om du har brukt en av rabattpolicyene eller ikke, er dette veiledningen for deg:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Konklusjon
 

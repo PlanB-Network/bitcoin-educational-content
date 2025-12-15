@@ -18,7 +18,7 @@ Dalam ekosistem Bitcoin, Wallet dari Satoshi merupakan Wallet yang direkomendasi
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Untuk memfasilitasi adopsi Bitcoin di komunitas di seluruh dunia, Wallet dari Satoshi juga telah menyiapkan Point of Sale untuk mendorong pengguna menemukan penggunaan yang telah terbukti di komunitas mereka: membeli dan menjual barang dan jasa dengan Bitcoin.
 
@@ -174,16 +174,16 @@ Anda sekarang memiliki alat untuk menerima Bitcoin dalam bisnis Anda hanya dalam
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 Dan jika Anda mencari PoS lengkap yang cocok untuk usaha kecil dan menengah, saya juga merekomendasikan Swiss Bitcoin Pay:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Terakhir, temukan kursus pelatihan lengkap kami untuk mempelajari dasar-dasar pembayaran dan arus kas Bitcoin untuk bisnis:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

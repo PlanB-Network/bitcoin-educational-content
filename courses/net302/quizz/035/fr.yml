@@ -6,4 +6,4 @@ wrong_answers:
   - 127.0.0.0/8, 169.254.0.0/16, 198.51.100.0/24
 explanation: |
   Ces trois plages sont officiellement réservées pour un usage privé et ne sont pas routables sur Internet.
-reviewed: false
+reviewed: true 

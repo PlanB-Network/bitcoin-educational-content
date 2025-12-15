@@ -124,12 +124,12 @@ Kopię zapasową można również wzbogacić o dodatkowe informacje związane z 
 Z drugiej strony, jeśli używasz passphrase, upewnij się, że nie zapisujesz go na tym samym nośniku, co frazę Mnemonic. Celem passphrase jest ochrona Wallet w przypadku kradzieży. Aby dowiedzieć się więcej na temat korzystania z passphrase, zapoznaj się z tym uzupełniającym samouczkiem:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Po zapisaniu frazy Mnemonic na nośniku fizycznym zdecydowanie zaleca się wykonanie testu odzyskiwania, gdy nowo utworzony Wallet jest nadal pusty. Test ten polega na zapisaniu przykładowej informacji, celowym usunięciu pustego Wallet, a następnie próbie przywrócenia go przy użyciu tylko fizycznej kopii zapasowej frazy Mnemonic. Umożliwi to sprawdzenie, czy kopia zapasowa jest kompletna i wolna od błędów wejściowych. Pozwoli to również na zapoznanie się z procesem odzyskiwania. W ten sposób, jeśli będziesz musiał odzyskać dane w przyszłości, będziesz lepiej przygotowany i unikniesz stresu związanego z pierwszą próbą w rzeczywistej sytuacji. Aby dowiedzieć się więcej o tym, jak przeprowadzić ten test, zobacz ten poradnik :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Na koniec pozostaje kwestia liczby kopii zapasowych. Wybór ten zależy wyłącznie od osobistej sytuacji użytkownika. Ograniczenie liczby kopii, na przykład poprzez zapisanie frazy Mnemonic tylko raz na nośniku, zmniejsza ryzyko kradzieży, ale zwiększa ryzyko utraty. I odwrotnie, wykonanie kilku kopii zmniejsza ryzyko utraty, ale zwiększa ryzyko kradzieży. Do użytkownika należy więc znalezienie odpowiedniej równowagi dla swoich potrzeb i określenie liczby kopii, która jest najbardziej odpowiednia.
 
@@ -170,9 +170,9 @@ Wreszcie, zarządzanie frazami Mnemonic wiąże się również z kwestią dziedz
 Aby pójść o krok dalej i jeszcze bardziej wzmocnić swoją strategię bezpieczeństwa, zalecam zapoznanie się z technicznym działaniem Bitcoin Wallet. Rozumiejąc, w jaki sposób różne Elements współdziałają ze sobą, a także ich znaczenie i implikacje, będziesz w stanie dostosować swoją strategię bezpieczeństwa z pełną świadomością związanego z tym ryzyka. W szczególności, jeśli zrozumiesz na poziomie technicznym, co umożliwia fraza Mnemonic, będziesz w stanie dostosować sposób rejestrowania, przechowywania i zarządzania nią w czasie.
 
 
-Dlatego zapraszam do wzięcia udziału w bezpłatnym szkoleniu CYP201 oferowanym przez Plan ₿ Network. Szkolenie to szczegółowo wyjaśnia działanie portfeli Bitcoin, umożliwiając opanowanie aspektów technicznych niezbędnych do skutecznego zabezpieczenia środków:
+Dlatego zapraszam do wzięcia udziału w bezpłatnym szkoleniu CYP201 oferowanym przez Plan ₿ Academy. Szkolenie to szczegółowo wyjaśnia działanie portfeli Bitcoin, umożliwiając opanowanie aspektów technicznych niezbędnych do skutecznego zabezpieczenia środków:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Jeśli ten poradnik okazał się przydatny, będę wdzięczny za pozostawienie poniżej kciuka Green. Zapraszam do udostępnienia tego artykułu w sieciach społecznościowych. Dziękuję bardzo!

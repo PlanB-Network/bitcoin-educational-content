@@ -1,9 +1,9 @@
-question: Waarom heeft een Miner een Bitcoin knooppunt nodig?
+question: Waarom heeft een miner een Bitcoin node nodig?
 answer: Om te communiceren met het netwerk en je blokken te verdelen
 wrong_answers:
-  - Naar generate digitale handtekeningen
-  - Om uw levering Address in de Coinbase Transaction in te voeren
-  - Om de moeilijkheidsgraad van Mining
+  - Om digitale handtekeningen te genereren
+  - Om je leveringsadres in de coinbase transaction in te voeren
+  - Om de moeilijkheidsgraad van mining te verminderen
 explanation: |
   Miners gebruiken een node om met het netwerk te communiceren, hun blokken te verzenden en transacties te ontvangen.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Къде е най-активната общност на Umbrel?
+answer: За Discord и онлайн форума
+wrong_answers:
+  - В Instagram
+  - За LinkedIn и онлайн форума
+  - В IRC
+explanation: |
+  Umbrel има много активна общност в Discord и в онлайн форума, където потребителите обменят помощ и подкрепа.
+reviewed: true

@@ -165,7 +165,7 @@ Fraasiparool on väga võimas vahend oma bitcoinide turvalisuse suurendamiseks. 
 
 Paroolifraas on väga võimas tööriist teie bitcoinide turvalisuse suurendamiseks. Siiski on ülioluline enne selle kasutuselevõttu mõista, kuidas see töötab, et vältida rahakoti ligipääsu kaotust. Sellepärast selgitan kõike eraldi juhendis:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Lõpuks võimaldab viimane seadete leht teie Ledgeri lähtestada. Jätkake selle lähtestamisega ainult siis, kui olete kindel, et see ei sisalda ühtegi teie bitcoinide turvamiseks vajalikku võtit, kuna võite alaliselt kaotada juurdepääsu oma vahenditele.
 ![LEDGER FLEX](assets/notext/30.webp)
@@ -301,7 +301,7 @@ Võite lisada "*Label*"i, et kirjeldada bitcoine, mis selle aadressiga turvataks
 
 Lisateabe saamiseks siltide kohta soovitan teil vaadata ka seda teist õpetust:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Seejärel võite kasutada seda aadressi bitcoinide vastuvõtmiseks.
 

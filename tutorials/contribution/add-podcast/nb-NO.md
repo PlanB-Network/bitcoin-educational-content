@@ -10,7 +10,7 @@ Ser du etter å legge til en Bitcoin-podcast på PlanB Nettverk-siden og øke sy
 ![podcast](assets/01.webp)
 - Først må du ha en GitHub-konto. Hvis du ikke vet hvordan du oppretter en, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/podcasts) i `resources/podcasts/`-seksjonen:
@@ -86,7 +86,7 @@ contributors:
 ![podcast](assets/13.webp)
 - Klikk på GitHub-profilbildet ditt øverst til høyre, deretter på `Your Repositories`:
 ![podcast](assets/14.webp)
-- Velg din fork av PlanB Network-repositoriet:
+- Velg din fork av Plan ₿ Academy-repositoriet:
 ![podcast](assets/15.webp)
 - Du bør se en notifikasjon øverst i vinduet med din nye branch. Den heter sannsynligvis `patch-1`. Klikk på den:
 ![podcast](assets/16.webp)
@@ -107,7 +107,7 @@ contributors:
 ![podcast](assets/24.webp)
 - Klikk på `Add file`-knappen, deretter på `Upload files`:
 ![podcast](assets/25.webp)
-- En ny side vil åpne seg. Dra og slipp podcast-logoen din inn i området. Dette bildet vil bli vist på PlanB Network-nettstedet: ![podcast](assets/26.webp)
+- En ny side vil åpne seg. Dra og slipp podcast-logoen din inn i området. Dette bildet vil bli vist på Plan ₿ Academy-nettstedet: ![podcast](assets/26.webp)
 - Vær forsiktig, bildet må være kvadratisk for å passe best på vår nettside: ![podcast](assets/27.webp)
 - Når bildet er lastet opp, verifiser at `Commit directly to the patch-1 branch`-boksen er krysset av, deretter klikk på `Commit changes`: ![podcast](assets/28.webp)
 - Vær forsiktig, bildet ditt må være navngitt `logo` og må være i `.webp`-format. Det fullstendige filnavnet skal derfor være: `logo.webp`: ![podcast](assets/29.webp)
@@ -119,7 +119,7 @@ contributors:
 - Du bør se en melding som indikerer at din gren har gjennomgått endringer. Klikk på `Compare & pull request`-knappen: ![podcast](assets/35.webp)
 - Legg til en klar tittel og beskrivelse til din PR: ![podcast](assets/36.webp)
 - Klikk på `Create pull request`-knappen: ![podcast](assets/37.webp)
-Gratulerer! Din PR har blitt opprettet med suksess. En administrator vil nå gjennomgå den og, hvis alt er i orden, flette den inn i hovedrepositoriet til PlanB Network. Du bør se din podcast dukke opp på nettstedet noen dager senere.
+Gratulerer! Din PR har blitt opprettet med suksess. En administrator vil nå gjennomgå den og, hvis alt er i orden, flette den inn i hovedrepositoriet til Plan ₿ Academy. Du bør se din podcast dukke opp på nettstedet noen dager senere.
 
-Vennligst sørg for å følge med på fremgangen til din PR. En administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du se den i `Pull requests`-fanen på PlanB Network GitHub-repositoriet: ![podcast](assets/38.webp)
+Vennligst sørg for å følge med på fremgangen til din PR. En administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du se den i `Pull requests`-fanen på Plan ₿ Academy GitHub-repositoriet: ![podcast](assets/38.webp)
 Tusen takk for ditt verdifulle bidrag! :)

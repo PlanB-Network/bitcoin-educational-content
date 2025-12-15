@@ -1,5 +1,5 @@
 ---
-name: Kho bí danh
+name: Alias Vault
 description: Công cụ mạnh mẽ để quản lý mật khẩu, xác thực hai yếu tố và bí danh (có máy chủ email tích hợp) - Cũng tự lưu trữ!
 ---
 
@@ -185,7 +185,7 @@ Trước khi sử dụng email này cho dịch vụ đăng nhập, bạn có th�
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
 
 Để xóa bí danh bạn đã tạo dưới dạng bài kiểm tra, tất cả những gì bạn phải làm là đăng nhập vào `Trang chủ`, sau đó vào `Thông tin xác thực` và nhấp vào danh tính bạn muốn xóa. Lệnh _Xóa_ sẽ xuất hiện ở góc trên bên phải để bạn tiếp tục.
 

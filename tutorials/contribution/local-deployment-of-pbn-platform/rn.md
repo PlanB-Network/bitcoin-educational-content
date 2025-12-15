@@ -1,6 +1,6 @@
 ---
-name: Inyobora yo gukoresha urubuga rwa Plan ₿ Network mu karere
-description: Woshobora gute gukoresha Plan ₿ Network mu bidukikije vyo mu karere kugira ngo ugerageze intererano yanje y’ibirimwo canke gukosora/gusubiramwo ibirimwo inyigisho kuri Plan ₿ Network?
+name: Inyobora yo gukoresha urubuga rwa Plan ₿ Academy mu karere
+description: Woshobora gute gukoresha Plan ₿ Academy mu bidukikije vyo mu karere kugira ngo ugerageze intererano yanje y’ibirimwo canke gukosora/gusubiramwo ibirimwo inyigisho kuri Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Woshobora gute gukoresha Plan ₿ Network mu bidukikije vyo mu kare
 ## Mu ncamake
 
 
-Iyi nyigisho itanga amabwirizwa y’intambwe ku yindi yo gushinga Bitcoin Learning Management System kuva kuri Plan ₿ Network ku mashini yawe yo mu karere ukoresheje Docker, imfunguruzo z’ibinyoma, n’imiterere y’ububiko bw’ibintu.
+Iyi nyigisho itanga amabwirizwa y’intambwe ku yindi yo gushinga Bitcoin Learning Management System kuva kuri Plan ₿ Academy ku mashini yawe yo mu karere ukoresheje Docker, imfunguruzo z’ibinyoma, n’imiterere y’ububiko bw’ibintu.
 
 
 Nimba utatahuye igice kiri hejuru, ntuhagarike umutima—iyi nyigisho ni iyawe!
@@ -147,7 +147,7 @@ Igihe ibikoresho biriko birakora, genda ku frontend kuri:
 \[<umushitsi wo mu karere:8181](umushitsi wo mu karere:8181)>
 
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 
 Iciyumviro: ko app izosubira kwifungura iyo uhinduye amadosiye yose y’inkomoko.
@@ -196,7 +196,7 @@ curl -X POST http://localhost:3000/api/github/sync
 ```
 
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 
 

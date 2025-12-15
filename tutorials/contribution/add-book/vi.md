@@ -10,7 +10,7 @@ Sứ mệnh của PlanB là cung cấp nguồn tài nguyên giáo dục hàng đ
 ![book](assets/01.webp)
 - Đầu tiên, bạn cần phải có một tài khoản GitHub. Nếu bạn không biết cách tạo tài khoản, chúng tôi đã tạo một hướng dẫn chi tiết để hướng dẫn bạn.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Truy cập vào [kho lưu trữ GitHub của PlanB dành cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) trong phần `resources/books/`:
@@ -70,7 +70,7 @@ tags:
 ![sách](assets/13.webp)
 - Nhấn vào ảnh đại diện GitHub của bạn ở góc trên bên phải, sau đó chọn `Your Repositories`:
 ![sách](assets/14.webp)
-- Chọn fork của bạn từ kho lưu trữ PlanB Network:
+- Chọn fork của bạn từ kho lưu trữ Plan ₿ Academy:
 ![sách](assets/15.webp)
 - Bạn sẽ thấy một thông báo ở đầu cửa sổ với nhánh mới của bạn. Có thể nó được gọi là `patch-1`. Nhấn vào đó:
 ![sách](assets/16.webp)
@@ -92,7 +92,7 @@ tags:
 ![sách](assets/24.webp)
 - Nhấn vào nút `Add file`, sau đó chọn `Upload files`:
 ![sách](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo và thả hình ảnh bìa của cuốn sách của bạn vào khu vực đó. Hình ảnh này sẽ được hiển thị trên trang web của PlanB Network:
+- Một trang mới sẽ mở ra. Kéo và thả hình ảnh bìa của cuốn sách của bạn vào khu vực đó. Hình ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy:
 ![sách](assets/26.webp)
 - Hãy cẩn thận, hình ảnh phải ở định dạng của một cuốn sách, để phù hợp nhất với trang web của chúng tôi, ví dụ như:
 ![sách](assets/27.webp)

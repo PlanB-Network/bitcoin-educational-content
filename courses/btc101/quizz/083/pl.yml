@@ -1,13 +1,13 @@
-question: Jakie jest zalecane zastosowanie mobilnego Wallet?
-answer: Przechowywanie codziennych wydatków.
+question: Jakie jest zalecane zastosowanie portfela mobilnego?
+answer: Przechowywanie kwot do codziennych wydatków.
 wrong_answers:
   - Przechowywanie długoterminowych oszczędności.
   - Przechowywanie oszczędności średnioterminowych.
-  - Przechowywanie dużych ilości.
+  - Przechowywanie dużych ilości pieniędzy.
 explanation: |
-  Mobilny Wallet jest zalecany do codziennych wydatków, ponieważ
+  Portfel mobilny jest zalecany do codziennych wydatków, ponieważ
   łatwo za jego pomocą przeprowadzać transakcje. Jednakże
-  nie jest jednak zalecany do przechowywania dużych kwot lub
+  nie jest zalecany do przechowywania dużych kwot lub
   długoterminowych oszczędności, ponieważ jest potencjalnie podatny na
   zagrożenia internetowe.
 reviewed: true

@@ -34,7 +34,7 @@ Dengan kata lain, dengan implementasi ini, Anda dapat :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Mengapa harus memiliki simpul Lightning Anda sendiri?
 
@@ -64,7 +64,7 @@ Dalam hal ini, menjalankan node Lightning meningkatkan keamanan dan integritas d
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Anda memiliki dua opsi untuk menjalankan sebuah instans implementasi LND pada mesin kita. Kita dapat menyiapkan lingkungan pada mesin kita sendiri untuk berjalan secara lokal, atau menginstal LND dari kontainer Docker. Di sini, kita akan berkonsentrasi pada opsi pertama, dan melihat cara melanjutkan dengan Docker di tutorial selanjutnya.
@@ -665,4 +665,4 @@ Jadi, Anda telah sampai pada akhir tutorial ini. Jika Anda ingin mempelajari leb
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

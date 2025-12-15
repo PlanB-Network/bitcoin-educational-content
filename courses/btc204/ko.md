@@ -38,6 +38,8 @@ Bitcoin의 사용을 혁신하고 기밀 유지 및 개인정보 보호와 관�
 
 <chapterId>08ba1933-f393-4fb5-8279-777d874caedb</chapterId>
 
+:::video id=687fe126-56db-4fe2-aaac-e481bbb5d838:::
+
 
 BTC204 과정에 오신 것을 환영합니다!
 
@@ -127,6 +129,8 @@ Bitcoin의 복잡한 개인정보 보호에 대해 알아볼 준비가 되셨나
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
+:::video id=60e8f3fa-9607-47ae-ac4f-5aa747d9b6d4:::
+
 
 
 Bitcoin은 무엇보다도 통화이지만, 실제로 BTC가 프로토콜에서 어떻게 표시되는지 알고 계십니까?
@@ -197,6 +201,8 @@ Wallet의 총 잔액은 `17 BTC`가 됩니다.
 
 
 <chapterId>29d3aaab-de2e-4746-ab40-c9748898850c</chapterId>
+
+:::video id=c79d651d-ff4a-4a75-bc2b-a48a00c17326:::
 
 
 
@@ -323,6 +329,8 @@ Coinbase Transaction은 generate 출력에 대한 입력을 소비할 필요 없
 
 <chapterId>769d8963-3ed5-4094-b21d-9203c7d9e465</chapterId>
 
+:::video id=f83d8e7a-ff4d-4c05-a8ff-0e601c49a508:::
+
 
 
 ### 돈: 진위성, 무결성 및 이중 지출
@@ -432,6 +440,8 @@ Bitcoin에서 개인 정보 보호를 복잡하게 만드는 것은 바로 이�
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
+:::video id=3d27ea95-599b-44cc-a24c-a628c2e6a64a:::
+
 
 
 ### 정의 및 운영
@@ -500,9 +510,9 @@ Blockchain 분석의 목표 중 하나는 Bitcoin의 다양한 활동을 그룹�
 Blockchain 분석에 대응하는 가장 좋은 방법은 분석에 사용된 방법에 대해 알아보는 것일까요? Bitcoin 개인 정보 보호를 강화하려면 이러한 방법을 이해하는 것이 필수적입니다. 이렇게 하면 CoinJoin 또는 PayJoin(이 과정의 마지막 부분에서 살펴볼 기법)와 같은 기법을 더 잘 이해하고 실수를 줄일 수 있습니다.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 여기서 우리는 암호화와 암호 분석에 비유할 수 있습니다. 훌륭한 암호학자는 무엇보다도 숙련된 암호 분석가입니다. 새로운 암호화 알고리즘을 고안하려면 어떤 공격에 직면하게 될지 알아야 하고, 이전 알고리즘이 왜 깨졌는지도 연구해야 합니다. Bitcoin 개인 정보 보호에도 동일한 원칙이 적용됩니다. Blockchain 분석 방법을 이해하는 것이 보호의 핵심입니다. 그렇기 때문에 이 강좌에 on chain 분석에 대한 전체 섹션을 포함시켰습니다.
 
@@ -551,6 +561,8 @@ https://planb.network/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 
 
 <chapterId>d365a101-2d37-46a5-bfb9-3c51e37bf96b</chapterId>
+
+:::video id=4bd4c9d4-7997-487c-8760-98c74ae1589e:::
 
 
 
@@ -743,6 +755,8 @@ Alice의 예를 다시 살펴봅시다: 스캔 결과 플랫폼(예: 바이낸�
 
 <chapterId>c54b5abe-872f-40f4-a0d0-c59faff228ba</chapterId>
 
+:::video id=bbc145cc-5232-41e4-a7f8-1af4e422635a:::
+
 
 
 내부 휴리스틱은 거래 환경을 조사할 필요 없이 거래 자체 내에서 식별하여 추론할 수 있는 특정 특성을 말합니다. 높은 수준에서 거래의 전체 구조에 초점을 맞추는 패턴과 달리 내부 휴리스틱은 추출 가능한 데이터 집합을 기반으로 합니다. 여기에는 다음이 포함됩니다:
@@ -902,6 +916,8 @@ b79d8f8e4756d34bbb26c659ab88314c220834c7a8b781c047a3916b56d14dcf
 
 
 <chapterId>4a170e3b-200d-431a-8285-18a23ff617ba</chapterId>
+
+:::video id=f83c94a1-4f60-4dc7-855d-aa6710064575:::
 
 
 
@@ -1491,6 +1507,8 @@ ___
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 
+:::video id=5392183e-e317-499f-9757-b69e9d7cda11:::
+
 
 
 Bitcoin에서 기밀성을 손상시킬 수 있는 기술을 살펴본 후, 이번 3부에서는 기밀성 보호를 위해 채택할 수 있는 모범 사례를 살펴보겠습니다. 이 파트의 목적은 나중에 다룰 주제인 기밀성을 개선하는 방법을 모색하는 것이 아니라, 추가 기술을 사용하지 않고도 Bitcoin과 올바르게 상호 작용하여 자연스럽게 기밀성을 유지하는 방법을 이해하는 데 있습니다.
@@ -1665,6 +1683,8 @@ BIP32 덕분에 최신 지갑은 이제 결정론적이고 계층적입니다. �
 
 <chapterId>fbdb07cd-c025-48f2-97b0-bd1bc21c68a8</chapterId>
 
+:::video id=4c411c97-ebb2-483d-b4fa-03109cf5d5d7:::
+
 
 
 문자열 분석 섹션에서 살펴본 것처럼, 수많은 휴리스틱과 패턴을 사용하여 거래에 대한 정보를 유추할 수 있습니다. 사용자는 이러한 기법으로부터 자신을 더 잘 보호하기 위해 이러한 기법을 숙지하는 것이 중요합니다.
@@ -1815,12 +1835,14 @@ FIFO(*선입선출*) 및 LIFO(*후입선출*)와 같은 UTXO 선택 방법은 �
 UTXO에 태그를 지정하는 방법을 알아보려면 주요 Bitcoin Wallet 소프트웨어에 대한 종합적인 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 ## KYC 및 키 식별
 
 
 <chapterId>cec6b9d9-0eed-4f85-bc4e-1e9aa59ca605</chapterId>
+
+:::video id=ecf888fe-906f-4293-91b5-1e5ae7b2fde1:::
 
 
 
@@ -1973,6 +1995,8 @@ KYC는 특정 회사가 고객의 신원을 확인하고 등록하기 위해 시
 
 <chapterId>756598af-95aa-4c77-ac48-243c7ad89530</chapterId>
 
+:::video id=9fd3d90f-32f4-48a2-a740-3597249551db:::
+
 
 
 이전 챕터를 읽고 나면 KYC와 관련된 위험을 피하기 위해 신원 확인 절차를 거치지 않고 Bitcoin을 어떻게 구매하거나 판매할 수 있는지 궁금하실 것입니다. Bitcoin을 거래하는 방법에는 여러 가지가 있습니다.
@@ -2050,7 +2074,7 @@ KYC는 특정 회사가 고객의 신원을 확인하고 등록하기 위해 시
 -> Bisq 튜토리얼을 참조하세요.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 더 간단한 옵션을 원한다면 분쟁 해결 시스템이 내장된 구매자와 판매자를 연결해주는 모바일 앱인 [Peach](https://peachbitcoin.com/)를 사용해 보세요. 프로세스는 Bisq보다 직관적입니다.
 
@@ -2058,7 +2082,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8e
 -> Peach 튜토리얼을 참조하세요.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
 또 다른 온라인 옵션으로는 개인적으로 테스트해 보지는 않았지만 좋은 유동성을 제공하는 잘 알려진 플랫폼인 [HodlHodl](https://hodlhodl.com/)이 있습니다.
 
@@ -2066,7 +2090,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9
 -> HodlHodl 튜토리얼을 참조하세요.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
 Lightning Network 기반 솔루션의 경우, [RoboSats](https://learn.robosats.com/) 및 [LNP2PBot](https://lnp2pbot.com/)을 사용해 보세요. RoboSats는 웹사이트를 통해 액세스할 수 있으며 사용법이 비교적 간단합니다. LNP2PBot은 텔레그램 메시징 애플리케이션 내의 Exchange 시스템을 통해 작동하기 때문에 좀 더 비정형적입니다.
 
@@ -2077,9 +2101,9 @@ Lightning Network 기반 솔루션의 경우, [RoboSats](https://learn.robosats.
 -> LNP2PBot 튜토리얼을 참조하세요.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/ko/096.webp)
 
@@ -2093,7 +2117,7 @@ https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 -> Relai에 대한 튜토리얼을 참조하세요.
 
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 이전 장에서 살펴본 바와 같이 이러한 유형의 플랫폼은 KYC 절차와 관련된 위험을 완화하지만, 키 신원 확인에 대한 위험도도 더 높습니다. 따라서 Bitcoin 기밀성 측면에서 이러한 플랫폼은 KYC를 통한 구매 방법보다 더 나은 보호 기능을 제공하지만, P2P 거래소보다는 덜 매력적입니다.
 
@@ -2128,7 +2152,7 @@ ATM의 가장 큰 단점은 교환 금액의 몇 퍼센트에서 많게는 15%�
 KYC 절차가 필요하지 않은 몇몇 플랫폼에서는 비트코인을 주요 소매점에서 사용할 수 있는 기프트 카드로 교환할 수 있는 기능을 제공합니다. 여기에는 [코인비](https://www.coinsbee.com/), [Bitcoin 회사](https://thebitcoincompany.com/), [비트필](https://www.bitrefill.com/)이 포함됩니다. 이러한 플랫폼을 사용하면 비트코인을 법정 화폐로 변환하지 않고도 다양한 상품과 서비스를 이용할 수 있어 일상에서 비트코인을 훨씬 쉽게 사용할 수 있습니다.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ![BTC204](assets/ko/098.webp)
 
@@ -2149,6 +2173,8 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 <chapterId>d0486c8f-332d-402b-ae2e-949416752b9c</chapterId>
+
+:::video id=9e5841a2-4ff5-460e-a161-0e0af57f95d8:::
 
 
 
@@ -2271,6 +2297,8 @@ UTXO를 관리할 때 비용 절감을 위해 통합을 추진하는 경제적 �
 
 <chapterId>b5216965-7d13-4ea1-9b7c-e292966a487b</chapterId>
 
+:::video id=5fc4ce39-6a0b-419a-baa9-f6da75427987:::
+
 
 
 Bitcoin에서 개인정보 보호를 강화하기 위한 몇 가지 추가 모범 사례를 살펴보겠습니다.
@@ -2352,6 +2380,8 @@ Bitcoin에서 개인정보 보호를 강화하기 위한 몇 가지 추가 모�
 
 
 <chapterId>0862bc6b-1c48-4aa4-b76d-4f547b469008</chapterId>
+
+:::video id=37f23334-4b52-43db-8d82-bd84310af86c:::
 
 
 
@@ -2502,6 +2532,8 @@ Alice의 예를 들어 보겠습니다. 그녀는 여동생 이브의 생일을 
 
 
 <chapterId>326c9654-b359-4906-b23d-d6518dd5dc3e</chapterId>
+
+:::video id=7df91435-f60b-4d80-89a8-79717a14ebd3:::
 
 
 
@@ -2678,9 +2710,10 @@ CoinJoin 트랜잭션 구성 프로세스는 입력 등록, 출력 등록, 트�
 
 <chapterId>e37ed073-9498-4e4f-820b-30951e829596</chapterId>
 
+:::video id=36021102-82f3-4e86-80a9-168e3431ce7b:::
 
 
-*2024년에는 Bitcoin에서 코인 조인을 원하는 사용자가 사용할 수 있는 도구에 큰 변화가 있을 것으로 예상됩니다. 현재 저희는 전환점을 맞이하고 있으며, CoinJoin 시장은 대대적인 구조조정이 진행 중입니다. 이 챕터는 시간이 지남에 따라 업데이트될 예정입니다.*
+
 
 
 현재로서는 Bitcoin에서 주로 3가지의 다른 CoinJoin 구현이 있습니다:
@@ -2692,6 +2725,10 @@ CoinJoin 트랜잭션 구성 프로세스는 입력 등록, 출력 등록, 트�
 - 와비사비;
 - JoinMarket.
 
+
+이 세 가지 역사적 구현 외에도 최근에 새로운 구현이 등장했습니다: Joinstr. 이 장에서는 다루지 않지만, 관련된 모든 정보는 이 전용 튜토리얼에서 확인할 수 있습니다:
+
+https://planb.academy/tutorials/privacy/on-chain/joinstr-37d85631-40d3-4203-abc3-3d95a078d7c3
 
 이러한 각 구현은 CoinJoin 트랜잭션을 통해 UTXO의 역사를 깨는 것을 목표로 합니다. 그러나 그 메커니즘은 상당히 다릅니다. 따라서 각각의 작동 방식을 이해해야 자신의 필요에 가장 적합한 옵션을 선택할 수 있습니다.
 
@@ -2725,6 +2762,8 @@ JoinMarket의 주요 단점 중 하나는 사용법이 복잡하다는 점으로
 
 마지막으로, 조인마켓 개념은 특히 역동적인 유동성 시장에 관심이 있는 사람들에게는 흥미롭지만, 구조적 약점과 기술적 복잡성으로 인해 CoinJoin 구현을 원하는 초보자와 전문가 모두에게 매력적이지 않다고 생각합니다.
 
+
+https://planb.academy/tutorials/privacy/on-chain/joinmarket-4581d8b0-0888-45c2-9545-d0a298b36f98
 
 ### 와비사비
 
@@ -2793,10 +2832,16 @@ Exchange 관리 방법도 두 구현을 구분했습니다. Whirlpool에서는 �
 지금쯤이면 다들 아시겠지만, 저는 Bitcoin에서 코인 조인을 할 때 Whirlpool 모델을 선호합니다. 이 시스템은 엄격함이 돋보이며 뛰어난 기밀성 보장을 제공합니다. 또한 수학적 맥락에서 완벽하다고 여겨지는 믹스를 제공하는 유일한 시스템이기도 합니다. 제 생각에는 이 모델이 Bitcoin 네트워크에서 코인 조인의 미래를 대표한다고 생각합니다. 다음 장에서 이 모델을 더 자세히 살펴보시기 바랍니다.
 
 
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+
+https://planb.academy/tutorials/wallet/desktop/ginger-wallet-9bb51029-4e64-4d3c-9766-358649adaea3
+
 ## Whirlpool 작동 방식
 
 
 <chapterId>bdbd7109-e36d-4b4f-a3c6-928df4e9bfda</chapterId>
+
+:::video id=e40f1195-d028-44d3-be24-d76427f9d24b:::
 
 
 
@@ -3077,7 +3122,7 @@ UTXO 병합은 가장 흔한 실수입니다. CIOH(*Common-Input-Ownership-Heuri
 Bitcoin 거래와 마찬가지로 수신 Address을 재사용하지 않는 것도 중요합니다. 각각의 새 트랜잭션은 새롭고 빈 Address로 수신해야 합니다.
 
 
-가장 간단하고 안전한 해결책은 혼합된 UTXO를 **postmix** 계정에 그대로 두고, 리믹싱을 허용한 다음 소비할 때만 터치하는 것입니다. 사무라이와 Sparrow 지갑은 이러한 모든 체인 분석 위험에 대한 추가적인 보호 기능을 제공합니다. 이러한 보호 기능은 실수를 방지하는 데 도움이 됩니다.
+가장 쉽고 안전한 방법은 혼합된 UTXO를 **postmix** 계정에 그대로 두어 재혼합이 계속되도록 하고, 사용할 때만 건드리는 것입니다. Samourai 지갑(그리고 이제 Ashigaru)과 Sparrow는 체인 분석과 관련된 이러한 모든 위험에 대한 추가 보호 기능을 제공합니다. 이러한 보호 기능은 사용자가 실수를 피하도록 도와줍니다.
 
 
 ### 유해한 변화를 어떻게 관리하나요?
@@ -3095,31 +3140,34 @@ Bitcoin 거래와 마찬가지로 수신 Address을 재사용하지 않는 것�
 - "사용 불가"로 표시: **또 다른 방법은 사용을 중지하고 전용 계정에서 "사용 불가"로 표시한 후 HODL만 사용하는 것입니다.** 이렇게 하면 실수로 사용하지 않도록 방지할 수 있습니다. Bitcoin의 가치가 상승하면 독성 UTXO에 더 적합한 새로운 풀이 등장할 수 있습니다.
 - 기부하기: **Bitcoin 및 관련 소프트웨어를 개발하는 개발자에게 적은 금액이라도 기부하는 것을 고려해 보세요.** BTC를 받는 협회에 기부할 수도 있습니다. 독성이 있는 UTXO를 관리하는 것이 너무 복잡해 보인다면 간단히 제거하고 기부할 수 있습니다.
 - 기프트 카드 구매: **[Bitrefill](https://www.bitrefill.com/)과 같은 플랫폼에서는 다양한 가맹점에서 사용할 수 있는 기프트 카드로 906 비트코인을 GW할 수 있습니다.** 이는 관련 가치를 잃지 않고 독성이 있는 UTXO와 결별하는 방법이 될 수 있습니다.
-- **모네로에 통합:** 사무라이 Wallet는 BTC와 XMR 간의 아토믹 스왑 서비스를 제공합니다. 이는 독성 UTXO를 Bitcoin로 다시 보내기 전에 CIOH를 통해 기밀성을 손상시키지 않고 모네로에 통합하여 관리하는 데 이상적입니다. 그러나 이 옵션은 유동성 제약으로 인해 Mining 수수료와 프리미엄 측면에서 비용이 많이 들 수 있습니다.
+- **Monero를 통한 통합:** Samourai Wallet은 과거 BTC와 XMR 간의 원자적 스왑 서비스를 제공했으나, 체포 이후 현재는 이용할 수 없습니다. 이 방식은 CIOH를 통한 프라이버시 손상 없이 Monero에서 오염된 UTXO를 통합한 뒤 다시 비트코인으로 되돌릴 수 있게 해주었습니다. 유사한 서비스가 다시 등장한다면 매력적인 선택이 될 수 있습니다. 다만, 이 방법은 채굴 수수료뿐 아니라 비트코인으로의 역전환 과정에서 발생하는 유동성 제약에 따른 프리미엄까지 고려할 때 비용이 높아질 수 있다는 점을 유념해야 합니다.
 - **Lightning Network으로 전송:** 이러한 UTXO를 Lightning Network으로 전송하여 거래 수수료 할인 혜택을 받는 것은 매력적인 옵션이 될 수 있습니다. 하지만 이 방법은 Lightning 사용 방식에 따라 특정 정보가 노출될 수 있으므로 주의해서 사용해야 합니다.
 
 
 ### Whirlpool은 어떻게 사용하나요?
 
 
-2024년 4월 24일 사무라이 Wallet의 창시자가 체포되고 서버가 압수됨에 따라, Whirlpool 도구는 자체 도장을 보유한 분들에게도 더 이상 작동하지 않습니다. 이전에는 사무라이 Wallet와 Sparrow wallet에서 사용할 수 있었습니다.
+2024년 4월 24일 Samourai Wallet 설립자들의 체포와 서버 압수 이후, Whirlpool 도구는 Samourai Wallet과 Sparrow Wallet에서 더 이상 사용할 수 없습니다.
 
 
 ![BTC204](assets/ko/155.webp)
 
 
-그러나 시험 결과에 따라 앞으로 몇 주 내에 이 도구가 다시 활성화되거나 다른 방식으로 재출시될 가능성이 남아 있습니다. 어쨌든 수요가 있기 때문에 Bitcoin CoinJoin 시장이 Supply 없이 오랫동안 지속되지는 않을 것으로 생각합니다. 또한 Whirlpool는 기밀성 측면에서 가장 진보된 모델이기 때문에 향후 구현에 가장 많이 선택될 것입니다.
 
 
-저희는 이 사건과 관련 도구의 개발 상황을 면밀히 주시하고 있습니다. 새로운 정보가 입수되는 대로 이 강좌를 업데이트할 예정이니 안심하세요.
 
+
+이제부터 Whirlpool은 Samourai Wallet의 포크인 Ashigaru 모바일 애플리케이션에서 Ashigaru Terminal 소프트웨어를 통해 다시 사용할 수 있습니다.
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
+
+Whirlpool의 핵심 작동 방식은 변하지 않았지만 Samourai에서의 사용과 비교하면 몇 가지 차이가 있습니다. 2025년 기준 Ashigaru에서는 `0.25 BTC` 및 `0.025 BTC` 두 개의 풀만 이용할 수 있으며, 각각의 참가 수수료는 `0.0125 BTC` 및 `0.00125 BTC`입니다.
 
 다음 장에서는 '무설정'이 무엇인지, 이러한 지표가 어떻게 계산되는지, 그리고 이 지표가 CoinJoin 사이클의 효율성을 추정하는 데 어떻게 도움이 되는지 알아보겠습니다.
 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e566803d-ab3f-4d98-9136-5462009262ef
 
 
 
@@ -3127,6 +3175,8 @@ https://planb.network/tutorials/privacy/on-chain/coinjoin-samourai-wallet-e56680
 
 
 <chapterId>be1093dc-1a74-40e5-9545-2b97a7d7d431</chapterId>
+
+:::video id=03d8581a-3454-4225-9068-a6434840cbcb:::
 
 
 
@@ -3238,6 +3288,8 @@ CoinJoin의 유용성은 구별할 수 없는 UTXO 그룹에 UTXO을 삽입하�
 
 
 <chapterId>e4fe289d-618b-49a2-84c9-68c562e708b4</chapterId>
+
+:::video id=5118b15a-a58f-4529-8a91-4e9f6a093fce:::
 
 
 
@@ -3550,7 +3602,7 @@ Whirlpool 8x8 서지 사이클 CoinJoin를 예로 들면 볼츠만 테이블은 
 이제 코인 조인에 대해 자세히 살펴보았으니, 강좌의 마지막 섹션에서는 Bitcoin에서 사용할 수 있는 다른 개인정보 보호 기술을 살펴보겠습니다. 페이조인, 특정 의사 CoinJoin 트랜잭션 유형, 정적 Address 프로토콜, 트랜잭션 자체가 아닌 노드 네트워크 수준에서 기밀성을 강화하는 방법 등을 살펴볼 것입니다.
 
 
-https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # 기타 고급 기밀성 기술의 과제 이해
 
@@ -3562,6 +3614,8 @@ https://planb.network/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6
 
 
 <chapterId>c1e90b95-f709-4574-837b-2ec26b11286f</chapterId>
+
+:::video id=5496cb59-006e-40b8-971f-af6d98868527:::
 
 
 
@@ -3674,8 +3728,11 @@ PayJoin를 지원하는 잘 알려진 소프트웨어 프로그램으로는 Spar
 ![BTC204](assets/ko/177.webp)
 
 
-가장 진보된 PayJoin 구현은 사무라이 Wallet의 Stowaway에만 있었습니다. 그러나 소프트웨어 개발자가 체포된 이후 이 도구는 현재 부분적으로만 작동합니다. 스토웨이의 장점은 포괄적이고 사용하기 쉬운 프로토콜을 제공하여 페이조인 수신과 송금을 모두 지원한다는 것입니다. 부분적으로 서명된 거래는 여러 개의 QR 코드를 스캔해 수동으로 교환하거나 토르를 통해 소로반을 통해 자동으로 교환할 수 있습니다. 후자의 통신 옵션은 현재 사용할 수 없습니다.
 
+
+가장 발전된 payjoin 구현은 Samourai Wallet 개발자들이 만든 Stowaway입니다. 소프트웨어 창립자들이 체포된 이후로 이 도구는 Samourai에서 부분적으로만 작동하고 있습니다. 그러나 Ashigaru 애플리케이션에서 다시 활성화되었습니다.
+
+Stowaway의 장점은 수신과 송신 모두의 페이조인을 지원하는 완전하고 매우 사용하기 쉬운 프로토콜이라는 점입니다. 부분적으로 서명된 트랜잭션은 여러 QR 코드를 스캔하여 수동으로 교환하거나 Tor를 통한 Soroban으로 자동 교환할 수 있습니다.
 
 ![BTC204](assets/ko/178.webp)
 
@@ -3688,12 +3745,14 @@ PayJoin 사용의 어려움은 판매자의 참여 여부에 따라 달라진다
 
 
 
-https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab
 
 ## 결제 미니-CoinJoin
 
 
 <chapterId>300777ee-30ae-43d7-ab00-479dac3522c1</chapterId>
+
+:::video id=1f33e8f1-e41d-4480-a388-e283ef51cc17:::
 
 
 
@@ -3852,13 +3911,12 @@ Alice, Bob 제빵사, 찰스를 예로 들어 보겠습니다. Blockchain의 트
 ### 스톤월과 스톤월 x2 트랜잭션은 어떻게 사용하나요?
 
 
-스톤월 및 스톤월 x2 트랜잭션은 사무라이 Wallet 애플리케이션과 Sparrow wallet 소프트웨어 모두에서 사용할 수 있습니다.
+Stonewall 거래는 Sparrow Wallet과 Ashigaru 모두에서 사용할 수 있지만, Stonewall x2는 현재 Ashigaru에서만 지원됩니다.
 
 
 ![BTC204](assets/ko/189.webp)
 
 
-그러나 페이조인과 마찬가지로 사무라이의 설립자가 체포된 이후 스톤월 x2 거래는 이제 관련 당사자 간에 수동으로 PSBT를 교환해야만 작동합니다. 안타깝게도 소로반을 통한 자동 Exchange는 더 이상 사용할 수 없습니다.
 
 
 Bitcoin Wallet 소프트웨어에서 이러한 유형의 거래를 수동으로 수행할 수도 있습니다.
@@ -3867,14 +3925,18 @@ Bitcoin Wallet 소프트웨어에서 이러한 유형의 거래를 수동으로 
 다음 장에서는 비교적 잘 알려지지 않았지만 이미 공부한 내용을 보완하는 데 매우 유용한 또 다른 기밀성 기법에 대해 살펴보겠습니다.
 
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4
 
-https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
+https://planb.academy/tutorials/privacy/on-chain/sparrow-stonewall-6fcfd679-7038-4ee2-8bf7-de76a72f9392
+
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
 ## 리쳇
 
 
 <chapterId>db9a20ac-a149-443d-884b-ea6c03f28499</chapterId>
+
+:::video id=3c9ce9e5-4081-4c36-98f9-9fc3779c0337:::
 
 
 
@@ -3947,18 +4009,18 @@ Bitcoin 트랜잭션의 경우에도 비슷한 현상이 관찰됩니다. 충분
 이 방법은 코인 조인뿐만 아니라 UTXO의 대체 가능성을 손상시킬 수 있는 다른 모든 마크에도 효과적입니다.
 
 
-이 리코쳇 방법에 대한 아이디어는 사무라이 Wallet 팀이 프로세스를 자동화하기 위해 애플리케이션에 통합한 것에서 비롯되었습니다. 리코쳇에는 100,000 Sats의 서비스 수수료와 Mining 비용이 포함되므로 이 서비스는 Samourai에서 무료로 제공되지 않습니다. 따라서 상당한 금액을 이체할 때 이 서비스를 사용하는 것이 좋습니다.
+이 리코셰 방식은 원래 Samourai Wallet 팀에서 고안한 것으로, 작동을 자동화하기 위해 애플리케이션에 통합되었습니다. Samourai에서는 이 서비스가 유료였으며, 한 번의 리코셰마다 서비스 요금으로 100,000 사토시의 고정 비용이 들고 여기에 채굴 수수료가 추가되었습니다. 오늘날 Ashigaru에서도 같은 방식이 적용됩니다. 따라서 이 방법은 큰 금액의 이체에 사용하는 것이 권장됩니다.
 
 
 ![BTC204](assets/ko/196.webp)
 
 
-사무라이 애플리케이션은 두 가지 리쳇 변형을 제공합니다:
+Ashigaru 애플리케이션은 두 가지 리코셰 변형을 제공합니다(이전에 Samourai에서 사용하던 것과 동일합니다):
 
 
 
 
-- 강화된 리코쳇 또는 "시차 전송"은 사무라이 서비스 요금을 5개의 연속된 거래에 걸쳐 분산시키는 이점을 제공합니다. 이 옵션은 또한 각 트랜잭션이 별도의 시간에 브로드캐스트되고 다른 블록에 기록되어 Ownership의 전송 동작을 최대한 가깝게 모방하도록 합니다. 이 방법은 느리지만 체인 분석에 대한 저항을 강화하여 리코셰의 효율성을 극대화하기 때문에 서두르지 않는 분들에게 선호됩니다.
+- 강화된 리코셰, 즉 "단계적 전달"은 Ashigaru 서비스 수수료를 연속된 다섯 개의 거래에 분산할 수 있다는 장점이 있습니다. 또한 이 옵션은 각 거래가 서로 다른 시점에 전파되고 서로 다른 블록에 기록되도록 보장하여 소유권 변경의 행동을 최대한 정확하게 모방합니다. 속도는 느리지만, 이 방법은 시간이 촉박하지 않은 사용자에게 더 적합하며, 체인 분석에 대한 저항성을 강화해 리코셰의 효율성을 극대화합니다；
 
 
 ![BTC204](assets/ko/197.webp)
@@ -3978,12 +4040,14 @@ Bitcoin 트랜잭션의 경우에도 비슷한 현상이 관찰됩니다. 충분
 다음 장에서는 Ownership의 비밀 전송을 위한 다양한 기술을 살펴봅니다. 이러한 방법은 작동 방식과 결과 측면에서 지금까지 살펴본 방법과 근본적으로 다릅니다.
 
 
-https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589
+https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589
 
 ## Ownership의 비밀 전송
 
 
 <chapterId>a2067036-849c-4d6b-87d2-44235cfae7a1</chapterId>
+
+:::video id=374f79ce-fc61-4528-8b69-b5ca7c7eaa6f:::
 
 
 
@@ -4170,6 +4234,8 @@ Alice가 위험을 피하려면 코인 조인을 통해 $B$ Coin의 기록을 �
 
 <chapterId>04a2467b-db84-4076-a9ff-919be5135106</chapterId>
 
+:::video id=8428b212-de79-48a5-b984-ed7936861c2f:::
+
 
 
 4부에서는 거래의 기밀성을 보호하기 위해 Full node을 사용하는 것의 중요성에 대해 설명했습니다. 그러나 노드가 사용자의 활동에 대한 정보를 추출하기 위한 공격에 취약할 수도 있다는 점을 인식하는 것이 중요합니다. 따라서 이 장에서는 트랜잭션 자체나 Bitcoin 플로우가 아닌 네트워크 수준에서 개인정보를 보호하기 위해 취할 수 있는 다양한 조치에 대해 살펴보겠습니다.
@@ -4285,6 +4351,8 @@ P2P V2 전송은 2023년 12월에 배포된 Bitcoin core 버전 26.0에서 옵�
 
 <chapterId>ad88e076-a04b-4aec-b3b2-7b4760175504</chapterId>
 
+:::video id=b0e9acc2-b50f-4caa-a1d7-cf8624b8e727:::
+
 
 
 3부에서 살펴본 바와 같이 Address 재사용은 Bitcoin 프로토콜에서 사용자 기밀성에 중대한 장애물입니다. 이러한 위험을 완화하기 위해 Wallet에서 새로운 결제가 수신될 때마다 Address를 수신하는 공백을 generate에 생성하는 것이 좋습니다. 최신 소프트웨어와 계층적 결정론적 지갑을 사용하면 새로운 Address를 생성하는 것이 간소화되었지만, 이 방법은 직관적이지 않은 것처럼 보일 수 있습니다.
@@ -4329,7 +4397,7 @@ BIP47의 목적은 주소를 재사용하지 않고도 대량의 결제를 받�
 따라서 사용자는 기존 수신자 Address 또는 공개 키와 달리 기밀성 손실의 위험 없이 소셜 네트워크나 웹사이트에서 결제 코드를 완전히 자유롭게 공유할 수 있습니다.
 
 
-거래를 수행하려면 양 당사자 모두 사무라이 Wallet 또는 Sparrow wallet의 PayNym과 같이 BIP47이 구현된 Bitcoin Wallet가 필요합니다. 결제 코드를 공동으로 사용하면 양 당사자 간에 비밀 채널이 생성됩니다. 이 채널을 효과적으로 설정하려면 발급자는 "알림 트랜잭션"이라고 하는 특정 트랜잭션을 Bitcoin Blockchain에서 수행해야 합니다(자세한 내용은 나중에 설명).
+거래를 수행하려면 양측 모두 BIP47이 구현된 비트코인 지갑을 보유해야 하며, 예로는 Ashigaru의 PayNym 또는 Sparrow Wallet이 있습니다. 두 사용자의 결제 코드를 함께 사용하면 그들 사이에 비밀 채널이 형성됩니다. 이 채널을 효과적으로 구축하기 위해 발신자는 비트코인 블록체인에서 특정 거래를 수행해야 하며, 이는 "알림 거래"로 알려져 있습니다(자세한 내용은 추후 설명하겠습니다).
 
 
 두 사용자의 결제 코드를 결합하면 공유 비밀이 생성되고, 이를 통해 많은 수의 고유한 Bitcoin 수신 주소(정확히 2^32 또는 약 40억 개)가 생성됩니다. 이러한 방식으로 BIP47을 통해 이루어진 결제는 실제로 결제 코드 자체가 아니라 관련 사용자의 결제 코드에서 파생된 기존 영수증 주소로 전달됩니다.
@@ -4360,7 +4428,7 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 이 코드는 QR 코드로도 인코딩할 수 있으므로 기존 Address와 마찬가지로 더 쉽게 통신할 수 있습니다.
 
 
-트위터에서 가끔 볼 수 있는 로봇인 PayNym 봇의 경우, 사무라이 Wallet에서 만든 결제 코드를 시각적으로 표현한 것입니다. Hash 함수를 사용하여 생성되어 거의 고유성을 갖습니다. 로봇은 `+`로 시작하는 작은 문자열의 형태를 취합니다:
+PayNym Bot은 X(트위터)에서 때때로 보이는 로봇들로, Samourai Wallet이 만든 결제 코드의 시각적 표현입니다. Ashigaru에서는 약간 달라졌지만 기본 원리는 동일합니다. 해시 함수로 생성되며, 이로 인해 거의 고유한 특징을 갖습니다. 이들은 `+`로 시작하는 짧은 문자열 형태로 나타납니다:
 
 
 ```plaintext
@@ -4380,10 +4448,10 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 
 
 ---
-*이 장의 다음 섹션에서는 BIP47의 작동 방식을 자세히 살펴보고, 특히 사용된 암호화 방법을 중점적으로 살펴보겠습니다. 다소 기술적인 설명을 완전히 이해하려면 먼저 HD 지갑의 구조, 키 생성 절차, 타원 곡선 암호화의 기본을 이해해야 합니다. 이러한 개념에 대해 더 자세히 알아보고 싶으시다면 Plan ₿ Network*에서 또 다른 무료 강좌를 수강하실 수 있습니다
+*이 장의 다음 섹션에서는 BIP47의 작동 방식을 자세히 살펴보고, 특히 사용된 암호화 방법을 중점적으로 살펴보겠습니다. 다소 기술적인 설명을 완전히 이해하려면 먼저 HD 지갑의 구조, 키 생성 절차, 타원 곡선 암호화의 기본을 이해해야 합니다. 이러한 개념에 대해 더 자세히 알아보고 싶으시다면 Plan ₿ Academy*에서 또 다른 무료 강좌를 수강하실 수 있습니다
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 *BIP47의 기술적 작동을 이해하면 다음 챕터*에서 설명할 다른 유사한 제안을 훨씬 쉽게 이해할 수 있으므로 이를 따르는 것이 좋습니다
 
@@ -5455,12 +5523,14 @@ Bob은 Alice의 재사용 가능한 결제 코드를 알고 있으므로 환불�
 *이 장의 집필에 영감을 준 글에 대한 교정과 전문가 조언을 해주신* [Fanis Michalakis](https://x.com/FanisMichalakis)*님께 감사드립니다!*
 
 
-https://planb.network/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
+https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
 ## 자동 결제
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
+
+:::video id=85b2780e-864e-4f64-b843-f272277181e6:::
 
 
 

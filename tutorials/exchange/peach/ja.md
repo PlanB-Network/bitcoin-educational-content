@@ -10,7 +10,7 @@ description: Peachの使い方とビットコインのP2P交換完全ガイド
 
 KYCフリーのピアツーピア（P2P）取引所は、ユーザーの機密性と金融の自主性を守るために不可欠である。本人確認を必要としない個人間の直接取引を可能にし、プライバシーを重視する人々にとって極めて重要です。理論的概念をより深く理解するには、BTC204コースをご覧ください：
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1.ピーチとは？
 
@@ -34,7 +34,7 @@ Peachは、ユーザーに関する必要最小限のデータを保存するよ
 
 *ハッシュの詳細については、こちらのコースを参照されたい。*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **誰が私の支払詳細を見ることができますか？**
 

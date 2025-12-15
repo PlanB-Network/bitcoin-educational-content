@@ -40,7 +40,7 @@ Kwa kifupi, "tumia" & "badala" inaonekana kuwa njia ya mbele. Shiriki katika mae
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Ujumbe haukuweza kuwa wazi zaidi: "Tumia Bitcoins zako Kila mahali".
 
@@ -117,9 +117,9 @@ Ikiwa unasoma shule ya zamani na unataka kujua jinsi ya kuunda kisanduku cha bar
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kwa upande wetu, hebu tuchague "Ingia kwa Umeme".
 
@@ -154,7 +154,7 @@ Kwa hivyo, tufungue Wallet Phoenix yetu, na tuchanganue msimbo wa QR ulioonyeshw
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Papo hapo, unatambuliwa kupitia Umeme wako wa Wallet, ambao unaweza kuwa Phoenix au nyingine bila shaka, kwa vile pochi nyingi kwenye soko hutumia kipengele hiki.
 
@@ -291,4 +291,4 @@ Iwapo ungependa kusaidia kueneza Bitcoin na kuhimiza mfanyabiashara anayejitegem
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

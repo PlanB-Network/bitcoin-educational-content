@@ -51,7 +51,7 @@ Bitcoin protokolünde _account_ veya _monetary units_ gibi öğeler mevcut deği
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Bitcoin ile biriktirdiğiniz ve daha sonra harcadığınız şey, Satoshi ile ölçülen küçük veya büyük hesap birimleridir, `harcanmamış işlem çıktıları` ile temsil edilir, **UTXO**, `para` olarak da adlandırılır. Bir işlem oluşturmak için UTXO'ları kullandığınızda, bunlar tamamen yok edilir ve yerlerine başka UTXO'lar oluşturulur.
 
@@ -568,7 +568,7 @@ Coin kontrolü, işlem girdilerinizi seçmek için çok etkili bir uygulamadır.
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Daha önce `kalıntıların ayrıştırılması` hakkında konuşmuştuk. Kalıntıları daha sonra işlenmek üzere kilitlemek ve gizliliği yeniden kazanmak istiyorsanız (Layer 2'de takas), her aldığınızda onları `etiketlemeye' dikkat etmelisiniz. Şu ana kadar görülen Yazılım Cüzdanları arasında yalnızca Electrum, UTXO kalıntılarını bir bakışta görünür kılmak için grafiksel olarak renklendirmektedir. Sparrow gibi diğerleri ise UTXO'in türetilme yolundaki zinciri gösterir (`m/84'/0'/0'/1/11`).
 

@@ -1,0 +1,9 @@
+question: Кой софтуер съчетава функциите full node и wallet?
+answer: Ядро Bitcoin
+wrong_answers:
+  - Sparrow wallet
+  - Ашигару
+  - Wallet от Satoshi
+explanation: |
+  За разлика от други софтуерни пакети, които са само софтуер за управление на wallet, Bitcoin Core действа едновременно като full node и wallet.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - 6 Bits
 explanation: |
   Die Länge der Prüfsumme wird mit der Formel CS = ENT / 32 berechnet, was bei einer Entropie von 128 Bits 4 Bits ergibt.
-reviewed: false
+reviewed: true

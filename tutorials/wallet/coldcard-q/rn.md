@@ -27,7 +27,7 @@ Muri iyi nyigisho, ndashaka kubamenyesha umuti umwe nk'uwo: **COLDCARD Q**.
 Nk’uko COLDCARD Q itanga ibikorwa vyinshi, ndasaba ko twogabanya ikoreshwa ryayo mu nyigisho 2. Muri iyi nyigisho ya mbere, turaza kuraba ingene igikoresho gikoreshwa mu ntango be n’ingene gikora. Hanyuma, mu nyigisho ya kabiri, turaza kuraba ingene woshobora kwungukira ku mahitamwo yose ateye imbere ya COLDCARD yawe.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Turabamenyesha COLDCARD Q
@@ -113,7 +113,7 @@ Niba ushaka gukoresha COLDCARD yawe utayihuje na mudasobwa (air-gap), shiramwo a
 Kuri iyi nyigisho, uzokenera kandi Sparrow wallet kugira ngo ushobore gucunga Bitcoin Wallet yawe kuri mudasobwa yawe. Ushobora gukuraho [Sparrow wallet](https/gukuraho/) ku rubuga rwemewe. Ndaguhanura cane ko wosuzuma ukuri kwayo (na GnuPG) n’ubutungane bwayo (biciye kuri Hash) imbere yo gukomeza gushiramwo. Niba utazi uko wobikora, kurikiza iyi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Guhitamwo kode ya PIN
 
@@ -232,7 +232,7 @@ Muri iki gihe, turagusavye cane gusuzuma ubutungane n’ukuri kw’ivyo bikoresh
 Niba utazi neza ubu buryo bwo kugenzura, ndagusavye gukurikira iyi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Fata ikarita ya microSD maze uyishiremwo dosiye ya firmware (inyandiko iri muri `.dfu`). Injira ikarita ya microSD muri kimwe mu bibanza vya COLDCARD yawe.
 
@@ -291,7 +291,7 @@ Muri iyi menyu, uzosangamwo uburyo butandukanye bwo guhindura, nko gushinga umuc
 Turaza kuraba ibindi bikoresho vy'imbere mu nyigisho ikurikira:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Guhingura Bitcoin Wallet
 
@@ -486,7 +486,7 @@ Imbere y’uko uronka ama bitcoins yawe ya mbere muri Wallet yawe, **Ndaguhanura
 Kugira ngo umenye vyinshi ku buryo bwo gukora ikibazo co gukira, ndagusavye urabe iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Kwakira ama bitcoins
 
@@ -563,7 +563,7 @@ Ubu ushobora kwongerako "*Label*" kugira ngo udondore inkomoko y'ama bitcoins az
 Kubindi bisobanuro ku bijanye no gushirako amazina, ndagusaba kandi iyi yindi nyigisho:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Ushobora rero gukoresha iyi Address kugira ngo uronke ama bitcoins.
 
@@ -712,4 +712,4 @@ Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu r
 Ndagusavye kandi kuraba iyi yindi nyigisho aho tuganira ku mahitamwo ateye imbere ya COLDCARD Q :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

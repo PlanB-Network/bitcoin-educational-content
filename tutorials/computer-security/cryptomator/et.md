@@ -42,7 +42,7 @@ Cryptomator on alternatiiv teistele rakendustele, eelkõige teises artiklis tutv
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Cryptomatori rakendus on saadaval **Windows** (exe / msi), **Linux**, **macOS,** aga ka **Android** ja **iOS**. Muide, kõik rakendused on tasuta, välja arvatud Androidi rakendus, mille eest tuleb maksta (14,99 eurot).
 

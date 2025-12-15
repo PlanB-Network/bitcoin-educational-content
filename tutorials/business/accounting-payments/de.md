@@ -28,7 +28,7 @@ Der nächste Schritt besteht darin, Bitcoin direkt in Ihrem Unternehmen zu akzep
 Der Einfachheit halber werden wir Wallet von Satoshi als Beispiel verwenden. Befolgen Sie diese Schritte, um es zu installieren und zu konfigurieren:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Nachdem Sie die Anleitung befolgt haben, sind Sie bereit, Bitcoin als Zahlungsmethode zu akzeptieren: Öffnen Sie einfach die mobile App und klicken Sie auf die Schaltfläche "Empfangen", dann geben Sie den Betrag (normalerweise in Ihrer Landeswährung) für generate und Invoice ein, der vom Nutzer zu zahlen ist.
 
@@ -59,7 +59,7 @@ Die Nutzung der Point-of-Sale-Funktion hat drei Vorteile:
 Weitere Informationen finden Sie in der speziellen Anleitung zu Wallet von Satoshi - Point of Sale:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Verordnung
 

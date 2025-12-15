@@ -37,9 +37,9 @@ Fedi Wallet je Bitcoin portfolio koji dolazi s novim pristupom čuvanju vaših k
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
@@ -47,9 +47,9 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Umesto toga, Fedi Wallet nudi pristup federacije, koji vam omogućava da se pridružite grupi ljudi kojima verujete da upravljaju ključevima vašeg portfolija. Možete se pridružiti popularnoj federaciji koju predlaže Fedi, ili se pridružiti lokalnoj federaciji u vašoj zajednici skeniranjem QR koda ili lepljenjem pozivnog koda federacije.
 
@@ -75,7 +75,7 @@ Saznajte više o našim preporukama za rezervnu kopiju reči za oporavak:
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Za svaku federaciju kojoj se pridružite, Fedi razlikuje vaše bitkoine kreiranjem zasebnih novčanika.
 
@@ -141,7 +141,7 @@ Vaš primalac će morati da skenira generisani QR kod da bi preuzeo satoshi.
 
 
 
-Offline plaćanja se uglavnom vrše koristeći [e-cash](https://planb.network/resources/glossary/ecash-david-chaum). Transakcija se čuva u vašem telefonu, a čim pristupite Internetu, potvrda transakcije postaje automatska. Takođe možete ručno potvrditi plaćanje klikom na **Potvrdi transakciju**.
+Offline plaćanja se uglavnom vrše koristeći [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Transakcija se čuva u vašem telefonu, a čim pristupite Internetu, potvrda transakcije postaje automatska. Takođe možete ručno potvrditi plaćanje klikom na **Potvrdi transakciju**.
 
 
 
@@ -191,7 +191,7 @@ U meniju **Mods** pronaći ćete aplikacije kao što su :
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,4 +231,4 @@ Upravo ste završili Fedi Wallet turu, sada ste u poziciji da iskoristite puni p
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

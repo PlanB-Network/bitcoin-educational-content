@@ -6,4 +6,4 @@ wrong_answers:
   - 256 Go
 explanation: |
   Avec une blockchain dépassant 700 Go et des applications additionnelles, 2 To est devenu le minimum raisonnable.
-reviewed: false
+reviewed: true 

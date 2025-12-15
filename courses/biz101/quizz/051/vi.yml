@@ -1,9 +1,9 @@
-question: What type of business is most likely to find a simple csv file sufficient for accounting?
-answer: Small businesses
+question: Loại hình doanh nghiệp nào có khả năng tìm thấy tệp CSV đơn giản đủ cho mục đích kế toán?
+answer: Doanh nghiệp nhỏ
 wrong_answers:
-  - Large multinational corporations
-  - Major financial institutions
-  - High-frequency trading platforms
+  - Các tập đoàn đa quốc gia lớn
+  - Các tổ chức tài chính lớn
+  - Nền tảng giao dịch tần suất cao
 explanation: |
-  Most small businesses benefit from the simplicity and sufficient detail provided by a csv export.
-reviewed: false
+  Hầu hết các doanh nghiệp nhỏ đều được hưởng lợi từ tính đơn giản và thông tin chi tiết đầy đủ mà tệp xuất CSV cung cấp.
+reviewed: true

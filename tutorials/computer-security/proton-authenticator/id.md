@@ -87,7 +87,7 @@ Sekarang kita akan melihat cara menambahkan kode 2FA pertama Anda, dengan menggu
 
 Pertama-tama, Anda dapat membaca panduan kami untuk ProtonMail untuk informasi lebih lanjut:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Masuk ke akun ProtonMail Anda dan buka pengaturan keamanan. Cari opsi "two-factor authentication" dan aktifkan.
 
@@ -237,7 +237,7 @@ Sangat menggoda untuk menggunakan password manager yang juga menyimpan TOTP. Nam
 
 Idealnya, gunakan lebih dari satu faktor kedua pada akun penting Anda. Jangan ragu untuk menambahkan physical security key jika layanan mengizinkannya. Lihat tutorial kami tentang kunci fisik Yubikey untuk informasi lebih lanjut:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Selain itu, simpanlah kode darurat yang telah dicetak.
 
@@ -278,7 +278,7 @@ Bagaimana posisi Proton Authenticator dibandingkan dengan aplikasi otentikasi la
 
 Anda dapat menemukan panduan kami untuk Authy di bawah ini:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator adalah salah satu solusi paling komprehensif dan aman yang tersedia: open source, sinkronisasi terenkripsi multi-perangkat, tanpa tindak lanjut komersial.
 

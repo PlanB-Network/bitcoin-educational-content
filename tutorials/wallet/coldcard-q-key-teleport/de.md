@@ -95,7 +95,7 @@ Auf dem Bildschirm wird ein QR-Code erzeugt. Auch hier müssen Sie diesen QR-Cod
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *Wir haben derzeit:*
 
@@ -145,7 +145,7 @@ Sie werden nun aufgefordert, die Art der Geheimnisse auszuwählen, die zwischen 
 
 
 
-Hier wird unser Geheimnis eine kurze Nachricht sein, indem Sie **"Quick Text Message "** wählen. Geben Sie Ihre Nachricht ein (in unserem Fall "PlanB Network rocks") und drücken Sie **"ENTER "**.
+Hier wird unser Geheimnis eine kurze Nachricht sein, indem Sie **"Quick Text Message "** wählen. Geben Sie Ihre Nachricht ein (in unserem Fall "Plan ₿ Academy rocks") und drücken Sie **"ENTER "**.
 
 
 Das Gerät generiert dann ein neues Zufallspasswort mit der Bezeichnung **"Teleport-Passwort "**, im Beispiel "NE XG BT SK".
@@ -190,7 +190,7 @@ Drücken Sie die Taste **"QR "**, um den QR-Code zu scannen, den das Sendegerät
 
 
 
-Die Daten werden dann entschlüsselt und für das empfangende Gerät verständlich gemacht. Die empfangene Nachricht lautet tatsächlich "PlanB Network rocks". Das ist alles.
+Die Daten werden dann entschlüsselt und für das empfangende Gerät verständlich gemacht. Die empfangene Nachricht lautet tatsächlich "Plan ₿ Academy rocks". Das ist alles.
 
 
 

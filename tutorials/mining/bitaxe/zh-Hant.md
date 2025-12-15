@@ -4,7 +4,7 @@ description: 如何設定 BitAxe？
 
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### 簡介
+## 介紹
 
 
 BitAxe 是由 Skot 創建的開放原始碼專案，[可在 GitHub 上取得](https://github.com/skot/bitaxe)，可進行符合成本效益的 Mining 試驗。
@@ -26,7 +26,7 @@ BitAxe 有多個版本，晶片和效能各不相同：
 在本教程中，我們將使用配備 BM1366 晶片的 BitAxe Ultra 204，用於 Antminer S19XP。這顆晶片已經由零售商組裝好並開機。
 
 
-### [零售商清單可在本頁取得](https://bitaxe.org/legit.html)
+[經銷商清單可在此頁面上查看](https://bitaxe.org/legit.html)
 
 
 ![signup](assets/2.webp)
@@ -38,7 +38,7 @@ BitAxe 有多個版本，晶片和效能各不相同：
 ![signup](assets/1.webp)
 
 
-### 組態
+## 設定
 
 當您第一次插入 BitAxe 時，預設它會嘗試連線至 Wi-Fi 網路。嘗試五次之後，它會顯示自己的 Wi-Fi 網路名稱，以便您連線並進行設定。
 
@@ -69,7 +69,7 @@ BitAxe 有多個版本，晶片和效能各不相同：
 正如您在螢幕上看到的，您需要移除 `stratum+tcp://` 和 `:3333` 部分，只留下 `eu.stratum.braiins.com`。然後，在 `Port` 欄位中輸入池所給的 URL 結尾的 4 位數字，但去掉 `:`。因此，這裡是 `3333`。
 
 
-在本教程中，我們使用的是 Braiins Mining pool，但您也可以自由選擇其他產品。您可以在 [PlanB Network 網站上](https://planb.network/en/tutorials/mining) 找到我們有關 Mining 水池的教學。
+在本教程中，我們使用的是 Braiins Mining pool，但您也可以自由選擇其他產品。您可以在 [Plan ₿ Academy 網站上](https://planb.academy/en/tutorials/mining) 找到我們有關 Mining 水池的教學。
 
 
 接下來，在`使用者`中輸入您的識別碼，然後輸入`密碼`，通常是`"x「`或`」Anything123"`。
@@ -85,7 +85,7 @@ BitAxe 有多個版本，晶片和效能各不相同：
 
 如果您輸入的資訊正確，裝置應該會很快連接到您的 Wi-Fi，然後連接到 Mining pool，並開始在其小螢幕上顯示一些資訊。可能需要幾分鐘的時間才能顯示在 Mining pool 的儀表板上。
 
-### 儀表板和螢幕
+## 儀表板和螢幕
 
 
 三個不同的顯示頁面會捲動顯示。在第三頁，您會看到 `IP` 資訊，也就是允許您連線到儀表板的 IP Address。這裡，Address 是 `192.168.1.19`。

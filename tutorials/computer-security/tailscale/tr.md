@@ -293,7 +293,7 @@ Umbrel popüler bir kendi kendini barındırma platformudur (özellikle App Stor
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Umbrel ve Tailscale'i birlikte kullanmak, Umbrel'in dağıtımı kolay bir Tailscale modülünü yerel olarak entegre etmesi nedeniyle özellikle ilginç bir kullanım örneğidir. İşte Tailscale'in Umbrel ile nasıl entegre olduğu ve neler getirdiği:
 
@@ -419,7 +419,7 @@ Sparrow wallet'i Bitcoin düğümünüzle yapılandırmaya yönelik eksiksiz kı
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -439,13 +439,13 @@ Zeus'u Lightning düğümünüzle yapılandırmak için ayrıntılı öğreticim
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Lightning Network ve Umbrel'de nasıl çalıştığı hakkında daha fazla bilgi edinmek için şu adresi ziyaret edin:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 

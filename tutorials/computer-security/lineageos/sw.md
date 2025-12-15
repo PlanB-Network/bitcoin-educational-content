@@ -1,6 +1,6 @@
 ---
 name: LineageOS
-description: Mfumo wa uendeshaji wa Android usiolipishwa na usio na waya kwa simu mahiri
+description: Mfumo wa OS wa Android usiolipishwa na usio na waya kwa simu mahiri
 ---
 
 ![cover](assets/cover.webp)
@@ -738,4 +738,4 @@ LineageOS inatoa njia mbadala ya kurejesha udhibiti wa simu yako mahiri ya Andro
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

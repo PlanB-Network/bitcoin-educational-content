@@ -1,0 +1,9 @@
+question: Koji je primarni razlog zbog kojeg se greške u performansama u Bitcoin potencijalno mogu iskoristiti za stvaranje mrežnih particija prema mišljenju stručnjaka za bezbednost?
+answer: Greške u performansama mogu biti strateški raspoređene kako bi se odvojili specifični rudari i berze od ostatka mreže, omogućavajući napade dvostrukog trošenja.
+wrong_answers:
+  - Performans bagovi prvenstveno utiču na vreme potvrde transakcija, čineći mrežu nepouzdanom za trgovce i korisnike
+  - Greške u performansama troše prekomerne računarske resurse, što prisiljava čvorove da se isključe i smanjuje decentralizaciju mreže.
+  - Greške u performansama stvaraju curenje memorije koje na kraju ruši čvorove, što dovodi do privremene nestabilnosti mreže i smanjenja stope heširanja.
+explanation: |
+  Gregory Maxwell je posebno upozorio da se greške u performansama, kada se stručno primene, mogu koristiti za strateško particionisanje mreže - na primer, odvajanje 'rudara A i berze B' u jednu particiju dok svi ostali idu u drugu, stvarajući uslove za napade dvostrukog trošenja. Ovo pokazuje zašto bi se naizgled manji problemi trebali tretirati kao potencijalno ozbiljni, jer se mogu iskoristiti na sofisticirane načine koji nisu odmah očigledni.
+reviewed: false

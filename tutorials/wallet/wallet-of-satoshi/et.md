@@ -12,7 +12,7 @@ _Selle õpetuse on kirjutanud_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_
 
 Wallet Satoshi on Lightning Network Wallet, eestkostetav ja väga lihtne kasutada.
 
-Kursuse [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) puhul kasutatakse seda Redeem Lightning Network vautšeriteks.
+Kursuse [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) puhul kasutatakse seda Redeem Lightning Network vautšeriteks.
 
 
 **Mäleta alati**: _ei oma võtmeid, mitte oma münte_

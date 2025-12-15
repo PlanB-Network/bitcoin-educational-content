@@ -54,7 +54,7 @@ Electrumi allalaadimiseks soovitan järgida selle õpetuse esimesi samme:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Pärast allalaadimist kontrollige alati väljalase enne selle paigaldamist, seejärel jätkake "One Server" konfigureerimist, nagu te leiate abiosast "Start with a Dummy Wallet".
 

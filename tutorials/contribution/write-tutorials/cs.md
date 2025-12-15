@@ -1,12 +1,12 @@
 ---
 name: Příspěvek - Výukové programy
-description: Jak mohu do sítě Plan ₿ Network odeslat nový obsah?
+description: Jak mohu do sítě Plan ₿ Academy odeslat nový obsah?
 ---
 ![cover](assets/cover.webp)
 
-Posláním sítě Plan ₿ Network je zpřístupnit špičkové vzdělávací zdroje o Bitcoinu v co největším počtu jazyků. Veškerý obsah zveřejněný na webu je open-source a je umístěn na GitHubu, což dává každému možnost podílet se na obohacování platformy. Příspěvky mohou mít mnoho podob: opravy a korektury stávajících textů, překlady do jiných jazyků, aktualizace informací nebo dokonce vytváření nových výukových materiálů, které na našich stránkách dosud nejsou k dispozici.
+Posláním sítě Plan ₿ Academy je zpřístupnit špičkové vzdělávací zdroje o Bitcoinu v co největším počtu jazyků. Veškerý obsah zveřejněný na webu je open-source a je umístěn na GitHubu, což dává každému možnost podílet se na obohacování platformy. Příspěvky mohou mít mnoho podob: opravy a korektury stávajících textů, překlady do jiných jazyků, aktualizace informací nebo dokonce vytváření nových výukových materiálů, které na našich stránkách dosud nejsou k dispozici.
 
-V tomto návodu se podíváme na to, jak přidat nový obsah, například výukový kurz, do platformy Plan ₿ Network.
+V tomto návodu se podíváme na to, jak přidat nový obsah, například výukový kurz, do platformy Plan ₿ Academy.
 
 ## Jaký je rozdíl mezi výukovým kurzem a kurzem?
 
@@ -14,13 +14,13 @@ Dvěma hlavními částmi naší platformy jsou kurzy a výukové programy. Kurz
 
 Kurzy jsou přirozeně delší a strukturovanější než výukové programy. Měly by se zabývat konkrétním tématem souvisejícím s bitcoinem nebo jeho ekosystémem do hloubky, přesně a podrobně.
 
-[Discover Plan ₿ Síťové kurzy](https://planb.network/courses)
+[Discover Plan ₿ Síťové kurzy](https://planb.academy/courses)
 
 ![TUTO](assets/fr/37.webp)
 
 Výukové programy jsou obecně kratší. Jsou určeny jako návody krok za krokem, jak provést konkrétní úkol související s bitcoinem, s obrázky jako podporou.
 
-[Discover Plan ₿ Síťové výukové programy](https://planb.network/tutorials)
+[Discover Plan ₿ Síťové výukové programy](https://planb.academy/tutorials)
 
 ![TUTO](assets/fr/38.webp)
 
@@ -62,7 +62,7 @@ Kromě těchto témat, která se týkají konkrétně bitcoinu, hledá síť Pla
 
 V současné době máme například výukové programy pro Tails, Nostr a GrapheneOS. Tyto nástroje přímo nesouvisejí s Bitcoinem, ale jsou to systémy, které by nás mohly zajímat jako součást přechodu k suverenitě v digitálním světě. Tento obsah lze začlenit do podkategorie sekce "Ostatní".
 
-Můžete buď vytvořit výukový program od začátku, nebo převzít výukový program již dříve zveřejněný na vašich webových stránkách (za předpokladu, že vlastníte autorská práva) a sdílet jej také v síti Plan ₿ Network a přidat odkaz na původní článek.
+Můžete buď vytvořit výukový program od začátku, nebo převzít výukový program již dříve zveřejněný na vašich webových stránkách (za předpokladu, že vlastníte autorská práva) a sdílet jej také v síti Plan ₿ Academy a přidat odkaz na původní článek.
 
 Ať už se rozhodnete jakkoli, mějte na paměti, že veškerý obsah zveřejněný v síti Plan ₿ je licencován pod svobodnou licencí [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Tato licence opravňuje kohokoli kopírovat a případně upravovat váš obsah, a to pouze za podmínky, že bude řádně uveden původní zdroj.
 
@@ -85,14 +85,14 @@ Chcete-li přispět do sítě Plan ₿, máte tři možnosti v závislosti na ú
 
 - **Zkušení uživatelé**: Pokračujte v obvyklých metodách a jednoduše se podívejte na krátký návod níže, který shrnuje strukturu souborů síťového úložiště Plan ₿, specifické požadavky a způsob práce:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 - **Středně pokročilý (GitHub Desktop)**: Pokud nejste obeznámeni s používáním systému Git, první možností je snadné nastavení vlastního místního prostředí pro přispívání do sítě Plan ₿. Tento přístup se doporučuje pro významné příspěvky, jako je například napsání celého výukového programu. Chcete-li tak učinit, postupujte podle níže uvedeného návodu krok za krokem:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **Začátečníci (webové rozhraní)**: Můžete se také rozhodnout používat webové rozhraní GitHubu přímo, aniž byste museli nastavovat kompletní místní prostředí. Tuto metodu lze zvážit pro drobné příspěvky. U větších příspěvků, jako je například přidání kompletního nového výukového programu, se však tato možnost může ukázat jako složitější než nastavení místního prostředí. Jak to udělat, vysvětlím v tomto návodu:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
-Vyberte si jednu z těchto tří možností podle úrovně svých znalostí a začněte psát svůj první tutoriál Plan ₿ Network!
+Vyberte si jednu z těchto tří možností podle úrovně svých znalostí a začněte psát svůj první tutoriál Plan ₿ Academy!

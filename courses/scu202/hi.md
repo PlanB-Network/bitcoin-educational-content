@@ -156,7 +156,7 @@ SCU202 कोर्स में आपका स्वागत है, जो 
 
 
 
-*नोट: यदि पाठ्यक्रम के दौरान आपको कोई अपरिचित शब्द मिले, तो कृपया परिभाषाओं के लिए [शब्दावली](https://planb.network/resources/glossary) देखें।*
+*नोट: यदि पाठ्यक्रम के दौरान आपको कोई अपरिचित शब्द मिले, तो कृपया परिभाषाओं के लिए [शब्दावली](https://planb.academy/resources/glossary) देखें।*
 
 
 
@@ -179,7 +179,7 @@ SCU101 पाठ्यक्रम एक परिचयात्मक पा�
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### सुरक्षित ऑनलाइन ब्राउज़िंग
 
@@ -974,7 +974,7 @@ RPM प्रारूप (*Red Hat Package Manager*) के आसपास क
 
 आर्क लिनक्स मुख्यतः उन्नत उपयोगकर्ताओं के लिए है जो अपने परिवेश पर पूर्ण नियंत्रण चाहते हैं, साथ ही स्थापना और रखरखाव में कुछ जटिलताएँ भी स्वीकार करते हैं। इस तकनीकी आवश्यकता के कारण इसके उपयोग को लोकतांत्रिक बनाने के उद्देश्य से कई व्युत्पन्न वितरण सामने आए हैं।
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 सबसे प्रसिद्ध है मैनजारो, जो आर्क के तकनीकी आधार को बरकरार रखते हुए सरलीकृत इंस्टॉलेशन, पूर्व-कॉन्फ़िगर डेस्कटॉप वातावरण और अपडेट को स्थिर करने के लिए थोड़ा विलंबित रिलीज चक्र प्रदान करता है।
 
@@ -1062,7 +1062,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1074,7 +1074,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 मिंट अपनी सरलता, डिफ़ॉल्ट रूप से मल्टीमीडिया कोडेक्स की मौजूदगी और एक बेहतरीन डिज़ाइन वाले अपडेट टूल के लिए जाना जाता है। दूसरी ओर, यह उबंटू के बुनियादी ढाँचे पर बहुत अधिक निर्भर करता है, जिससे यह उबंटू के तकनीकी विकल्पों (खासकर कर्नेल और रिपॉजिटरी स्तर पर) पर निर्भर हो जाता है। मिंट विशेष रूप से गैर-तकनीकी उपयोगकर्ताओं, या उन लोगों के लिए उपयुक्त है जो एक ऐसा तैयार-से-उपयोग सिस्टम चाहते हैं जिसके लिए बहुत ज़्यादा सीखने की ज़रूरत न हो।
 
@@ -1108,7 +1108,7 @@ https://planb.network/tutorials/computer-security/operating-system/linux-mint-da
 
 2011 में लॉन्च किया गया, एलीमेंट्री ओएस एक उबंटू-आधारित वितरण है जो मुख्य रूप से Interface के डिज़ाइन और सुसंगतता पर केंद्रित है। इसका पैंथियन डेस्कटॉप वातावरण, जो macOS से प्रेरित है, न्यूनतम, सुरुचिपूर्ण और प्रवाहपूर्ण है। हालाँकि, यह सिस्टम अन्य वितरणों की तुलना में कम अनुकूलन योग्य है, और कुछ उन्नत उपयोगकर्ता Interface के विकल्पों और इसकी जानबूझकर सीमित संरचना के कारण सीमित महसूस कर सकते हैं। यह उन सौंदर्य-संवेदनशील उपयोगकर्ताओं के लिए उपयुक्त है जो रोज़मर्रा के उपयोग के लिए एक सरल, सुसंगत सिस्टम की तलाश में हैं।
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1151,7 +1151,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **ओपनएसयूएसई** (टम्बलवीड या लीप):
@@ -1179,7 +1179,7 @@ https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **मंजारो**:
@@ -1208,7 +1208,7 @@ https://planb.network/tutorials/computer-security/operating-system/debian-d09a57
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### विशिष्ट वितरण
 
@@ -1246,7 +1246,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **नोट:** लाइव वितरण एक लिनक्स ऑपरेटिंग सिस्टम है जिसे Hard डिस्क पर इंस्टॉलेशन के बिना सीधे USB स्टिक या सीडी से उपयोग किया जा सकता है।
 
@@ -1300,7 +1300,7 @@ PureOS, Purism द्वारा विकसित एक डेबियन-�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **रास्पबेरी पाई ओएस**:
 
@@ -1326,7 +1326,7 @@ Whonix डेबियन को टोर नेटवर्क के सा�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 यह पैनोरमा आपको वर्तमान लिनक्स वितरण पारिस्थितिकी तंत्र का अवलोकन प्रदान करता है, जिससे आप अपने तकनीकी प्रोफाइल और उद्देश्यों के लिए सबसे उपयुक्त वितरण का चयन कर सकते हैं।
 
@@ -1938,7 +1938,7 @@ MATE, GNOME 2 का एक Fork संस्करण है, जिसे GNOM
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 इंस्टॉलेशन पूरा होने पर, संकेत मिलने पर USB कुंजी हटाएँ, फिर रीबूट करें। अब उबंटू आपकी मशीन पर इंस्टॉल हो जाएगा और इस्तेमाल के लिए तैयार हो जाएगा।
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### कई कमरों वाला कार्यालय
 
 
@@ -3114,13 +3114,13 @@ sudo snap install code --classic
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 अंत में, इस अध्याय को समाप्त करते हुए, यहां दैनिक रूप से पालन करने के लिए कुछ सर्वोत्तम अभ्यास दिए गए हैं:
 
@@ -3212,9 +3212,9 @@ sudo apt update && sudo apt upgrade
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 अंत में, इस पासवर्ड को नियमित रूप से बदलें - हर 3 से 6 महीने में - खासकर यदि आपकी मशीन साझा या मोबाइल वातावरण में उपयोग की जाती है।
 
@@ -3314,13 +3314,13 @@ UEFI को सुरक्षित करना अक्सर अनदे�
 - लिनक्स वितरण डिस्क को स्वचालित रूप से एन्क्रिप्ट नहीं करते, जब तक कि इंस्टॉलेशन के दौरान यह विकल्प न चुना जाए। आप डिस्क को एन्क्रिप्ट करने के लिए LUKS का उपयोग कर सकते हैं।
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 सभी मामलों में, डिक्रिप्शन पासवर्ड मज़बूत होना चाहिए, सिस्टम पासवर्ड से अलग होना चाहिए, और एक सुरक्षित पासवर्ड मैनेजर में संग्रहीत होना चाहिए। यदि आप संवेदनशील डेटा वाली बाहरी डिस्क या USB कुंजी का उपयोग कर रहे हैं, तो उन्हें VeraCrypt जैसे टूल से अलग-अलग एन्क्रिप्ट करने पर भी विचार करें।
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### न्यूनतम विशेषाधिकार का सिद्धांत
 
@@ -3417,7 +3417,7 @@ macOS पर, हालाँकि पहले बनाए गए खात�
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 आईटी सुरक्षा के संदर्भ में, वर्चुअल मशीनों का एक बड़ा फ़ायदा उनकी अलग-अलग श्रेणियों में बाँटने की क्षमता है। एक वर्चुअल मशीन अपनी फ़ाइलें, प्रक्रियाएँ या नेटवर्क एक्सेस होस्ट सिस्टम के साथ साझा नहीं करती, जब तक कि आप इन आदान-प्रदानों को स्पष्ट रूप से कॉन्फ़िगर न करें। इसलिए, यदि कोई वर्चुअल मशीन मैलवेयर से संक्रमित है, या यदि आप उसके अंदर संवेदनशील सॉफ़्टवेयर का परीक्षण करते हैं, तो इसका प्रभाव केवल उस वर्चुअल मशीन तक ही सीमित रहता है: आपका मुख्य सिस्टम सुरक्षित रहता है, बशर्ते आइसोलेशन मापदंडों का पालन किया जाए (कोई साझा निर्देशिकाएँ नहीं, कोई USB डिवाइस वर्चुअल मशीन को न दी जाएँ...)।
 
@@ -3953,7 +3953,7 @@ macOS में, दो मुख्य तरीके हैं: *लॉन्
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### macOS के अंतर्गत
 
@@ -4061,11 +4061,11 @@ macOS अपनी सुरक्षा के लिए जाना जात
 
 
 
-क्रिप्टोग्राफ़िक Hash फ़ंक्शन और डिजिटल हस्ताक्षरों के बारे में अधिक जानने के लिए, मैं आपको Plan ₿ Network पर प्रस्तुत निःशुल्क CYP 201 पाठ्यक्रम लेने के लिए आमंत्रित करता हूँ:
+क्रिप्टोग्राफ़िक Hash फ़ंक्शन और डिजिटल हस्ताक्षरों के बारे में अधिक जानने के लिए, मैं आपको Plan ₿ Academy पर प्रस्तुत निःशुल्क CYP 201 पाठ्यक्रम लेने के लिए आमंत्रित करता हूँ:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### सॉफ़्टवेयर की अखंडता और प्रामाणिकता सत्यापित करें
 
@@ -4469,7 +4469,7 @@ Alice अपनी फ़ाइलों का एक संस्करण अ
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 इस प्रकार Alice 3-2-1 नियम का सम्मान करता है: इसकी फ़ाइलों की 3 प्रतियां (कम्प्यूटर, USB कुंजी, क्लाउड) होती हैं, जो कम से कम 2 विभिन्न मीडिया (आंतरिक डिस्क, USB कुंजी, रिमोट सर्वर) पर संग्रहीत होती हैं, तथा कम से कम 1 ऑफ-साइट प्रतिलिपि (क्लाउड सर्वर) होती है।
 
@@ -4556,7 +4556,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 लिनक्स के अंतर्गत, मानक समाधान LUKS (*Linux Unified Key Setup*) है। LUKS एक एन्क्रिप्टेड वॉल्यूम प्रबंधन प्रणाली है जो अधिकांश वितरणों में एकीकृत है। जब सिस्टम पहली बार इंस्टॉल किया जाता है, तो आमतौर पर आपको पूरी कंप्यूटर डिस्क को एन्क्रिप्ट करने के लिए कहा जाएगा। बेशक, मैं दृढ़ता से अनुशंसा करता हूँ कि आप इस विकल्प को सक्रिय करें। एन्क्रिप्शन सक्षम होने के बाद, सिस्टम हर बूट पर, यहाँ तक कि ऑपरेटिंग सिस्टम लोड होने से पहले भी, पासवर्ड मांगेगा। यह सुनिश्चित करता है कि डिस्क तक भौतिक पहुँच सुरक्षा को दरकिनार न कर सके।
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 यदि आप किसी बाहरी डिस्क या USB स्टिक को एन्क्रिप्ट करना चाहते हैं, तो यह कमांड लाइन से या ग्राफ़िकल Interface के माध्यम से भी किया जा सकता है। डिस्क को फ़ॉर्मेट करना होगा, इसलिए यदि पहले बैकअप नहीं लिया गया तो सारा मौजूदा डेटा नष्ट हो जाएगा।
 
@@ -4832,7 +4832,7 @@ USB कुंजी को अनमाउंट करने और एन्�
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4877,7 +4877,7 @@ FileVault सक्रिय हो जाने के बाद, पासव�
 
 क्रिप्टोमेटर एक बेहतरीन विकल्प है। यह ओपन सोर्स सॉफ़्टवेयर आपको एक सुरक्षित जगह बनाने की सुविधा देता है: एक विशेष निर्देशिका जिसमें सभी फ़ाइलें स्वचालित रूप से एन्क्रिप्ट हो जाती हैं। इस सुरक्षित जगह को ड्रॉपबॉक्स, गूगल ड्राइव या नेक्स्टक्लाउड जैसी क्लाउड सेवाओं के साथ सिंक्रोनाइज़ किया जा सकता है, बिना प्रदाता को अनएन्क्रिप्टेड डेटा तक पहुँच के। यह एप्लिकेशन एंड्रॉइड और आईओएस सहित सभी ऑपरेटिंग सिस्टम पर उपलब्ध है, और इसे इस्तेमाल करने के लिए किसी विशेष तकनीकी कौशल की आवश्यकता नहीं है।
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 अंत में, वेराक्रिप्ट को कंटेनर मोड में उपयोग करना भी संभव है, जो एक ऐसी फाइल बनाता है जो एन्क्रिप्टेड आर्काइव के रूप में कार्य करती है, जिसे डिस्क की तरह माउंट किया जा सकता है।
 
@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-`name.jpg` को अपनी फ़ाइल के असली नाम से बदलें। यह भी सुनिश्चित करें कि आप उस निर्देशिका में स्थित हों जिसमें यह चित्र है। उदाहरण के लिए, अगर मेरे पास `/Downloads` निर्देशिका में Satoshi नाकामोटो प्रतिमा की तस्वीर है, तो मैं निम्न आदेश चलाकर उसका मेटाडेटा प्रदर्शित कर सकता हूँ:
+`name.webp` को अपनी फ़ाइल के असली नाम से बदलें। यह भी सुनिश्चित करें कि आप उस निर्देशिका में स्थित हों जिसमें यह चित्र है। उदाहरण के लिए, अगर मेरे पास `/Downloads` निर्देशिका में Satoshi नाकामोटो प्रतिमा की तस्वीर है, तो मैं निम्न आदेश चलाकर उसका मेटाडेटा प्रदर्शित कर सकता हूँ:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-यह वर्तमान निर्देशिका में मौजूद सभी JPEG फ़ाइलों का मेटाडेटा हटा देता है। आप अपनी ज़रूरतों के अनुसार एक्सटेंशन को अनुकूलित कर सकते हैं (`*.png`, `*.pdf`...)।
+यह वर्तमान निर्देशिका में मौजूद सभी JPEG फ़ाइलों का मेटाडेटा हटा देता है। आप अपनी ज़रूरतों के अनुसार एक्सटेंशन को अनुकूलित कर सकते हैं (`*.webp`, `*.pdf`...)।
 
 
 
@@ -5580,9 +5580,9 @@ mat2 ~/Downloads/*
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### बहादुर
 
@@ -5742,7 +5742,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### टोर ब्राउज़र
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 इसका नकारात्मक पक्ष प्रदर्शन में उल्लेखनीय कमी (उच्च विलंबता) और कुछ वेबसाइटों के साथ सीमित संगतता है। टोर ब्राउज़र संवेदनशील गतिविधियों (पत्रकारिता, सक्रियता...) के लिए आदर्श है, लेकिन सामान्य रोज़मर्रा के उपयोग के लिए कम उपयुक्त है।
 
@@ -5765,11 +5765,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 [मुलवड ब्राउज़र](https://mullvad.net/en/browser) टोर फ़ाउंडेशन और मुलवड वीपीएन के बीच सहयोग का परिणाम है। यह टोर ब्राउज़र पर आधारित है, जो स्वयं फ़ायरफ़ॉक्स ईएसआर से लिया गया है। मुलवड ब्राउज़र को उपयोगकर्ता की गोपनीयता को अधिकतम करने के लिए डिज़ाइन किया गया है। डिफ़ॉल्ट रूप से, इसमें फ़िंगरप्रिंटिंग, ट्रैकर्स और तृतीय-पक्ष स्क्रिप्ट के विरुद्ध उन्नत सुरक्षा शामिल है।
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 इसमें टोर ब्राउज़र द्वारा प्रदान की जाने वाली अधिकांश सुरक्षा और गोपनीयता सुविधाएँ हैं, बस एक अंतर है: यह ट्रैफ़िक को टोर नेटवर्क के माध्यम से पुनर्निर्देशित नहीं करता है। IP Address लीक से बचने के लिए, आप इसे VPN (आदर्श रूप से, Mullvad VPN) के साथ संयोजन में उपयोग कर सकते हैं।
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 यदि आप अपनी गोपनीयता के बारे में चिंतित हैं, तो मुल्वाद ब्राउज़र एक उत्कृष्ट समाधान है, चाहे आप शुरुआती या उन्नत उपयोगकर्ता हों।
 
@@ -5795,7 +5795,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### ज़ेन ब्राउज़र
 
@@ -5813,7 +5813,7 @@ https://planb.network/tutorials/computer-security/communication/librewolf-1783e9
 
 यदि आप एक ऐसे गेको ब्राउज़िंग वातावरण की तलाश कर रहे हैं जो निःशुल्क, नवीन, सुव्यवस्थित और आपकी गोपनीयता का सम्मान करने वाला हो, तो ज़ेन ब्राउज़र एक दिलचस्प विकल्प है।
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### वेबकिट-आधारित ब्राउज़र
 
@@ -5855,7 +5855,7 @@ https://planb.network/tutorials/computer-security/communication/zen-browser-f1af
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### रेंडरिंग इंजन रहित ब्राउज़र
 
 
@@ -6035,9 +6035,9 @@ sudo apt update && sudo apt upgrade firefox
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 पासवर्ड मैनेजर का उपयोग करने के कई फायदे हैं: यह आपके दैनिक जीवन को सरल बनाता है, क्योंकि इससे आपको ढेर सारे पासवर्ड याद रखने की आवश्यकता नहीं रहती, तथा प्रमाणीकरण की मुख्य कमजोरी को कम करता है: अर्थात उपयोगकर्ता स्वयं।
 
@@ -6047,13 +6047,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### वीपीएन का उपयोग करना
 
@@ -6087,11 +6087,11 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 हाई-प्रोफाइल वीपीएन से बचना चाहिए। अपने आक्रामक विपणन के बावजूद, ये केंद्रीकृत व्यावसायिक सेवाएँ ही हैं, जो अक्सर कम सुरक्षात्मक क्षेत्रों में स्थित होती हैं, और अपने वास्तविक तकनीकी संचालन के बारे में शायद ही कभी पारदर्शी होती हैं।
 
@@ -6626,7 +6626,7 @@ iOS मूल रूप से Mac द्वारा प्रयुक्त �
 ग्राफीन केवल हाल के गूगल पिक्सल (पिक्सेल 6, 7, 8 और 9) के साथ संगत है।
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### कैलिक्सओएस
 
@@ -6842,11 +6842,11 @@ CalyxOS एक दिलचस्प संतुलन प्रदान क�
 अपनी सुरक्षा के लिए, इन सार्वजनिक नेटवर्क का उपयोग करने से बचें, या VPN का उपयोग करें, जो आपके डिवाइस और रिमोट सर्वर के बीच एक एन्क्रिप्टेड सुरंग बना देगा। यह सुरंग आपके डेटा को अपने में समाहित कर लेती है, जिससे उसे इंटरसेप्ट या संशोधित करना बेहद मुश्किल हो जाता है।
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 जहां तक आपके घरेलू वाई-फाई नेटवर्क का सवाल है, हम इसके बारे में SCU 202 पाठ्यक्रम के अंतिम भाग में बात करेंगे।
 
@@ -6921,7 +6921,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 ऐसा करने के लिए, आपको एन्क्रिप्टेड स्थानीय समाधानों का उपयोग करना चाहिए, जैसे कि एक बाहरी डिस्क या एक एन्क्रिप्टेड यूएसबी कुंजी (उदाहरण के लिए, वेराक्रिप्ट के साथ)। ऐसा न होने पर, *Syncthing* या *Nextcloud* जैसे स्व-होस्टेड क्लाउड समाधान आपको अपने डेटा का बैकअप एक निजी सर्वर पर लेने की अनुमति देते हैं, जबकि पहुँच और गोपनीयता पर पूर्ण नियंत्रण बनाए रखते हैं। व्यावसायिक क्लाउड सेवाओं (गूगल ड्राइव, आईक्लाउड...) के विपरीत, ये समाधान आपकी जानकारी को तीसरे पक्षों तक पहुँचने से काफी हद तक सीमित कर देते हैं।
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### रिमोट वाइपिंग
 
@@ -7019,7 +7019,7 @@ Apple की ओर से, iMessage (2011 में लॉन्च किय�
 संक्षेप में, सिग्नल एक बहुत अच्छा मैसेजिंग समाधान है, लेकिन दुर्भाग्य से इसके लिए एक टेलीफोन नंबर से कनेक्शन की आवश्यकता होती है।
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-
 इसलिए, टेलीग्राम तकनीकी रूप से उन अधिकांश वार्तालापों की सामग्री तक पहुँच सकता है जो स्पष्ट रूप से संरक्षित नहीं हैं। भले ही कंपनी सरकारी अधिकारियों के प्रति कड़ा रुख अपनाए, लेकिन गोपनीय या संवेदनशील आदान-प्रदान के लिए टेलीग्राम एक आदर्श समाधान नहीं है, जब तक कि आप स्पष्ट रूप से इसके "गुप्त आदान-प्रदान" का उपयोग न करें, जो दैनिक आधार पर बहुत कम व्यावहारिक हैं।
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### थ्रीमा
 
@@ -7065,7 +7065,7 @@ https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf
 मुझे लगता है कि यह मैसेजिंग समाधान उत्कृष्ट है, लेकिन इसका मुख्य दोष यह है कि इसके सर्वर का स्रोत कोड मालिकाना है।
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### सिंपलएक्स चैट
 
@@ -7088,7 +7088,7 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 सुरक्षा और गोपनीयता के मामले में, SimpleX ज़्यादातर मौजूदा मैसेजिंग सिस्टम से कहीं आगे जाता है, मेटाडेटा को न्यूनतम तक सीमित रखता है और किसी केंद्रीय निर्देशिका या विशिष्ट पहचानकर्ता पर निर्भरता को समाप्त करता है। हालाँकि, यह आर्किटेक्चर उपयोगकर्ता-अनुकूलता के संदर्भ में कई समझौते करता है: कभी-कभी कम सहज एर्गोनॉमिक्स, थोड़ी शुरुआती सीखने की ज़रूरत, और रिले सर्वर की उपलब्धता पर निर्भरता।
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### सत्र
 
@@ -7105,7 +7105,7 @@ https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1
 सेशन क्लाइंट और सर्वर ओपन-सोर्स हैं। यह सॉफ़्टवेयर एंड्रॉइड, आईओएस, विंडोज़, मैकओएस और लिनक्स पर उपलब्ध है, और इसमें Mnemonic वाक्यांश के माध्यम से उपकरणों के बीच सिंक्रोनाइज़ करने का विकल्प भी है, जो Bitcoin वॉलेट में इस्तेमाल होने वाले वाक्यांश के समान है। यह वाक्यांश उपयोगकर्ता को अपने डेटा पर विशेष नियंत्रण प्रदान करता है, लेकिन बैकअप के मामले में एक महत्वपूर्ण ज़िम्मेदारी भी देता है।
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### कीट
 
@@ -7125,7 +7125,7 @@ https://planb.network/tutorials/computer-security/communication/session-b0e3193c
 कीट एंड्रॉयड, आईओएस, विंडोज, मैकओएस और लिनक्स पर उपलब्ध है, और इसे Mnemonic वाक्यांश का उपयोग करके उपकरणों के बीच सिंक्रनाइज़ किया जा सकता है।
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### ओल्विद
 
@@ -7162,7 +7162,7 @@ https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e
 ओल्विड एंड्रॉइड, आईओएस, विंडोज, मैकओएस और लिनक्स के साथ संगत है। इसका एर्गोनॉमिक्स सरल और सुलभ बना हुआ है। इस एप्लिकेशन में कुंजियों और संपर्कों के लिए एक एन्क्रिप्टेड बैकअप सिस्टम भी है, जिससे आप किसी नए डिवाइस पर अपना खाता पुनर्स्थापित कर सकते हैं।
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### मैसेजिंग एप्लिकेशन से बचें
 
@@ -7260,7 +7260,7 @@ K-9 मेल एक ओपन-सोर्स एंड्रॉइड मे�
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [तुता](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Etar एक सरल, कुशल और पूरी तरह से ओप�
 आप बिटवर्डन के सर्वर इस्तेमाल कर सकते हैं, या चाहें तो पूर्ण नियंत्रण के लिए इसे स्वयं होस्ट भी कर सकते हैं। इसका Interface मोबाइल स्पष्ट और सहज है, और एंड्रॉइड या iOS सिस्टम के साथ सहज एकीकरण के साथ आता है।
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [कीपासडीएक्स](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass एन्क्रिप्टेड स्थानीय फ़ाइ�
 iOS के लिए [KeePassium](https://keepassium.com/) भी उपलब्ध है, जो Apple इकोसिस्टम में एक अच्छी तरह से एकीकृत एप्लिकेशन है, जो KeePass फ़ॉर्मैट के साथ संगत है और ओपन-सोर्स है। KeePass क्लाइंट के लिए एक और iOS विकल्प Strongbox है, लेकिन यह सॉफ़्टवेयर कई वर्षों से ओपन-सोर्स नहीं है।
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [प्रोटॉन पास](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 गोपनीयता सुरक्षा के लिहाज से Mullvad सबसे बेहतरीन VPN में से एक है। इसके लिए किसी ईमेल या पासवर्ड की ज़रूरत नहीं होती: आपका खाता एक साधारण रैंडम नंबर से जुड़ा होता है। भुगतान बिटकॉइन या नकद में किया जा सकता है। यह मोबाइल क्लाइंट ओपन-सोर्स, इस्तेमाल में आसान और शक्तिशाली है। Mullvad कोई लॉग नहीं रखता, अपने उपयोगकर्ताओं पर नज़र नहीं रखता, और नियमित रूप से स्वतंत्र सुरक्षा ऑडिट प्रकाशित करता है।
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [आईवीपीएन](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN एक और बेहतरीन गोपनीयता-केंद्रित विकल्प है। यह एक सरल और कुशल मोबाइल Interface प्रदान करता है, लॉग संग्रह की आवश्यकता नहीं है, और गुमनाम पंजीकरण की अनुमति देता है। आप बिटकॉइन में भी भुगतान कर सकते हैं। इस एप्लिकेशन में एक फ़ायरवॉल शामिल है जो सभी गैर-वीपीएन ट्रैफ़िक को ब्लॉक करता है, जो स्मार्टफ़ोन पर बहुत उपयोगी हो सकता है। इसके क्लाइंट ओपन-सोर्स हैं।
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [प्रोटॉन वीपीएन](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 Ente Auth एक आधुनिक, ओपन-सोर्स, मल्टी-प्लेटफ़ॉर्म समाधान है जिसमें एंड-टू-एंड एन्क्रिप्टेड बैकअप हैं। यह आपको मोबाइल, डेस्कटॉप और वेब पर अपने 2FA कोड को सुरक्षित रूप से सिंक्रोनाइज़ करने में सक्षम बनाता है। आप इसे क्लाउड बैकअप या अकाउंट बनाए बिना, ऑफ़लाइन भी इस्तेमाल कर सकते हैं।
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 एन्टे ऑथ कई अतिरिक्त सुविधाएं प्रदान करता है: टैग द्वारा संगठन, प्रत्येक सेवा के लिए अनुकूलित आइकन, नोट्स, पसंदीदा, एकीकृत खोज, सुरक्षित टीम कोड साझाकरण।
 
 
@@ -7609,13 +7609,13 @@ https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e
 ऑथी कई डिवाइसों पर 2FA सिंक्रोनाइज़ेशन प्रदान करता है, जो उपयोगी हो सकता है, लेकिन यह एप्लिकेशन ओपन-सोर्स नहीं है और पंजीकरण के लिए फ़ोन नंबर की आवश्यकता होती है। हालाँकि, शुरुआती लोगों के लिए, यह Google प्रमाणक की तुलना में अधिक पूर्ण है, विशेष रूप से इसके क्लाउड बैकअप फ़ंक्शन के कारण।
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 यदि आप पासवर्ड मैनेजर, 2FA प्रमाणीकरण और VPN के बारे में अधिक जानना चाहते हैं, तो मैं आपको SCU-101 पाठ्यक्रम में समर्पित अध्याय पढ़ने की सलाह देता हूं:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### मौसम
 
@@ -8267,7 +8267,7 @@ ___
 सैद्धांतिक मूल बातों की समीक्षा के बाद, यह अध्याय आपके स्थानीय नेटवर्क की सुरक्षा बढ़ाने के लिए स्पष्ट, व्यावहारिक और प्रभावी कदमों के माध्यम से आपका मार्गदर्शन करेगा।
 
 
-*कृपया ध्यान दें: यहाँ दी गई जानकारी सामान्य है, क्योंकि Plan ₿ Network अंतर्राष्ट्रीय दर्शकों के लिए है। आपकी स्थानीय परिस्थितियों और आपके ISP के आधार पर, कुछ सर्वोत्तम प्रथाओं का उल्लेख यहाँ नहीं किया जा सकता है, या वे किसी भिन्न तरीके से लागू हो सकती हैं।*
+*कृपया ध्यान दें: यहाँ दी गई जानकारी सामान्य है, क्योंकि Plan ₿ Academy अंतर्राष्ट्रीय दर्शकों के लिए है। आपकी स्थानीय परिस्थितियों और आपके ISP के आधार पर, कुछ सर्वोत्तम प्रथाओं का उल्लेख यहाँ नहीं किया जा सकता है, या वे किसी भिन्न तरीके से लागू हो सकती हैं।*
 
 
 ### अपने नेटवर्क उपकरण का चयन और सुरक्षा करना
@@ -8305,9 +8305,9 @@ ___
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ये प्रणालियां फ़ायरवॉल नियमों, आउटगोइंग और इनकमिंग कनेक्शनों, नेटवर्क सेगमेंटेशन (वीएलएएन) और डीएनएस प्रबंधन पर बेहतर नियंत्रण प्रदान करती हैं, लेकिन इनका उद्देश्य उन्नत उपयोगकर्ताओं पर अधिक केंद्रित है।
 
@@ -8344,9 +8344,9 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 यह पासवर्ड लंबा (40 अक्षर), जटिल (संख्याएँ, लोअरकेस, अपरकेस और प्रतीक), अनोखा (अन्यत्र दोबारा इस्तेमाल न किया जाए) और यादृच्छिक होना चाहिए। मैं स्पष्ट रूप से generate के लिए पासवर्ड मैनेजर का उपयोग करने और इन क्रेडेंशियल्स को सुरक्षित रूप से संग्रहीत करने की सलाह देता हूँ।
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 चेतावनी: राउटर के एडमिनिस्ट्रेशन पासवर्ड (जो इसके कॉन्फ़िगरेशन तक पहुँच की सुरक्षा करता है) को वाई-फ़ाई पासवर्ड (जो आपको वायरलेस नेटवर्क से कनेक्ट करने की अनुमति देता है) के साथ भ्रमित न करें। ये दो अलग-अलग Elements हैं, और दोनों को बदलना होगा।
 
@@ -8384,7 +8384,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 कुछ राउटर आपको इंटरनेट के ज़रिए, बाहर से, उनके एडमिन Interface से कनेक्ट करने की सुविधा देते हैं। यह सुविधा आपके राउटर के हमले की संभावना को अनुचित रूप से बढ़ा देती है। इसे पूरी तरह से बंद कर दें, जब तक कि आपको रिमोट मैनेजमेंट की कोई खास ज़रूरत न हो। फिर भी, हमेशा VPN का इस्तेमाल करें।
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **अप्रचलित या असुरक्षित प्रोटोकॉल**:
@@ -8505,7 +8505,7 @@ DNS (*डोमेन नेम सिस्टम*) एक इंटरने�
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - ऑपरेटिंग सिस्टम स्तर पर: कुछ ऑपरेटिंग सिस्टम मूल रूप से एन्क्रिप्टेड DNS समर्थन (DoT या DoH) को एकीकृत करते हैं, जो सिस्टम के नेटवर्क स्टैक से गुजरने वाले सभी DNS अनुरोधों को सुरक्षित करता है। हालाँकि, यह पूरे कंप्यूटर या टेलीफ़ोन को सुरक्षित नहीं करता है: यदि एप्लिकेशन किसी भिन्न DNS रिज़ॉल्वर या प्रोटोकॉल का उपयोग करने के लिए कॉन्फ़िगर किए गए हैं, तो वे इस सेटिंग को बायपास कर सकते हैं।
 
 
@@ -8520,7 +8520,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 चीजों को एक कदम आगे ले जाने के लिए, आप Pi-hole या AdGuard Home जैसे स्थानीय DNS फ़िल्टरिंग समाधान भी सेट कर सकते हैं।
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 ये उपकरण आपके नेटवर्क के अंदर एक छोटे DNS सर्वर की तरह काम करते हैं, जो विज्ञापन, ब्राउज़र ट्रैकर, फ़िशिंग या दुर्भावनापूर्ण साइटों को होस्ट करने वाले डोमेन के अनुरोधों को ब्लॉक करते हैं। ये उपकरण आपको अपनी स्वयं की ब्लॉकिंग सूचियाँ बनाने या कनेक्टेड डिवाइस के अनुसार फ़िल्टरिंग को अनुकूलित करने की भी अनुमति देते हैं।
 
@@ -8541,19 +8541,19 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 - वायरगार्ड: आधुनिक, तेज़ और हल्का
 - ओपनवीपीएन: पुराना, लेकिन बहुत परिपक्व और विन्यास योग्य
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 यहां टेलस्केल पर एक संपूर्ण ट्यूटोरियल दिया गया है, जो वायरगार्ड का उपयोग करने वाला एक आसान-से-कॉन्फ़िगर वीपीएन समाधान है:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 आप इस वीपीएन को सीधे किसी संगत राउटर पर, किसी छोटे कंप्यूटर (जैसे रास्पबेरी पाई) पर या घर पर किसी समर्पित सर्वर पर होस्ट कर सकते हैं। आप इसे किसी भी डिवाइस पर सीधे क्लाइंट के रूप में भी इंस्टॉल कर सकते हैं।
 
 लेकिन वीपीएन सिर्फ़ रिमोट एक्सेस के लिए ही नहीं है। आप अपने डिवाइस पर एक क्लासिक वीपीएन क्लाइंट का इस्तेमाल करके अपने सभी आउटगोइंग ट्रैफ़िक को एन्क्रिप्ट भी कर सकते हैं, भले ही आप घर से दूर हों (पब्लिक वाई-फ़ाई, होटल, यूनिवर्सिटी, वगैरह)। इस स्थिति में, आपका डिवाइस किसी थर्ड-पार्टी वीपीएन सर्वर (कमर्शियल या सेल्फ-होस्टेड) से कनेक्ट होता है, जो आपके कनेक्शन को इंटरनेट से रिले करता है। यह आपके असली आईपी पते Address को ISP से छुपाता है, आपके डेटा को स्थानीय जासूसी से बचाता है और कुछ तरह की सेंसरशिप से बचाता है।
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 अंत में, अपने राउटर पर सीधे VPN सेट करना भी संभव है, जिससे आप अपने घर के सभी डिवाइसों की सुरक्षा कर सकते हैं, और इसके लिए आपको उनमें से प्रत्येक पर VPN क्लाइंट इंस्टॉल करने की आवश्यकता नहीं होगी।
 
@@ -8563,17 +8563,17 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 पहला कदम सुरक्षा लॉग को केंद्रीकृत करना है। नेटवर्क से जुड़ा हर उपकरण कनेक्शन, त्रुटियों या संदिग्ध गतिविधि की जानकारी वाले लॉग उत्पन्न करता है। इन लॉग को अलग-अलग देखने के बजाय, मैं उन्हें एक ऐसे सर्वर पर भेजने की सलाह देता हूँ जो उन्हें समूहीकृत, क्रमबद्ध और विश्लेषण कर सके। ग्रेलॉग या इलास्टिक स्टैक (ELK) जैसे समाधान आपको इन लॉग को एक ग्राफ़िकल Interface में एकत्रित करने की अनुमति देते हैं जहाँ आप विशिष्ट घटनाओं की खोज कर सकते हैं, अलर्ट बना सकते हैं या नेटवर्क गतिविधि को विज़ुअलाइज़ कर सकते हैं।
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 इसके बाद, अपने स्थानीय नेटवर्क का नियमित रूप से सक्रिय स्कैन करें, उदाहरण के लिए Nmap के साथ। इससे आपको अपने नेटवर्क पर मौजूद सभी उपकरणों और उनके द्वारा खोले गए पोर्ट का अवलोकन मिलेगा। अगर आपको कोई अज्ञात उपकरण या असामान्य सेवा दिखाई देती है, तो यह किसी हमले का संकेत हो सकता है।
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 इससे भी आगे बढ़कर, आप एक IDS (*घुसपैठ का पता लगाने वाला सिस्टम*), या एक IPS (*घुसपैठ रोकथाम सिस्टम*) भी स्थापित कर सकते हैं। Suricata या Snort जैसे ये उपकरण वास्तविक समय में नेटवर्क प्रवाह की निगरानी करते हैं और ज्ञात हमलों (पोर्ट स्कैन, इंजेक्शन, संदिग्ध कनेक्शन, आदि) के संकेतों का पता लगाते हैं। IDS चेतावनी देता है, जबकि IPS कुछ क्रियाओं को स्वचालित रूप से रोक सकता है।
 
 अंत में, बैंडविड्थ खपत की निगरानी भी असामान्य गतिविधि का एक अच्छा संकेतक है। अगर कोई डिवाइस बिना किसी स्पष्ट कारण के अचानक बहुत अधिक डेटा खपत करता है, तो यह अनधिकृत डाउनलोड, डेटा लीक या यहाँ तक कि डिवाइस के साथ छेड़छाड़ का संकेत हो सकता है। ntopng या vnStat जैसे टूल आपको डिवाइस के अनुसार इनकमिंग और आउटगोइंग फ्लो देखने में सक्षम बनाते हैं।
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### बैकअप और लचीलापन
 

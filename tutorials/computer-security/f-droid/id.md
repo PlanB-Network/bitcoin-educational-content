@@ -53,7 +53,7 @@ Dengan mengklik aplikasi, Anda akan menemukan, antara lain:
 
 Cari tahu lebih lanjut di tutorial Thunderbird kami:
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid memberi Anda semua informasi yang Anda butuhkan untuk memutuskan apakah menggunakan aplikasi melindungi data Anda dan meningkatkan privasi Anda. Pindai semua aplikasi yang ingin Anda gunakan, lalu klik tombol **Install** untuk mengunduh dan memasang aplikasi Anda.
 
@@ -99,4 +99,4 @@ F-Droid mengompilasi aplikasi di server mereka sendiri, berdasarkan source code 
 
 Jika Anda menikmati tutorial ini, cari tahu lebih lanjut tentang kursus keamanan TI dan manajemen data kami:
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

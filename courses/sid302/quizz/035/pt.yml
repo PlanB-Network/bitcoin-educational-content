@@ -1,0 +1,8 @@
+question: Qual é a principal finalidade do processo de três etapas Conectar, Preparar e Executar na interface do desenvolvedor do SDK do Breez?
+answer: Normalizar fluxos financeiros complexos através da sincronização de carteiras, do cálculo antecipado de todas as taxas e da criação de transacções
+wrong_answers:
+  - Para estabelecer ligações de backup redundantes em vários fornecedores de swap antes de iniciar quaisquer operações atómicas
+  - Criar assinaturas criptográficas separadas para cada rede envolvida em transacções de swaps submarinos entre cadeias
+  - Validar pré-imagens de pagamento em relação a contratos bloqueados no tempo antes de libertar fundos de mecanismos de caução
+explanation: |
+  O padrão Connect, Prepare, Execute simplifica o desenvolvimento, dividindo operações complexas em etapas gerenciáveis: Conectar inicializa as carteiras e estabelece conexões de monitoramento, Preparar calcula e exibe todos os custos de forma transparente para os usuários, e Executar lida com a construção e transmissão da transação real. Essa padronização abstrai a complexidade subjacente de swaps submarinos e operações entre cadeias, facilitando aos desenvolvedores a integração da funcionalidade Bitcoin sem gerenciar detalhes de baixo nível.

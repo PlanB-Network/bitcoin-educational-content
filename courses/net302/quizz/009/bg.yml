@@ -1,0 +1,9 @@
+question: Коя американска агенция стои зад проекта ARPANET?
+answer: ARPA
+wrong_answers:
+  - ARPAN
+  - IETF
+  - AETF
+explanation: |
+  ARPA (Агенция за напреднали изследователски проекти) инициира ARPANET, която положи основите за разработването на протокола TCP/IP. През 1972 г. агенцията е преименувана на DARPA (Defense Advanced Research Projects Agency).
+reviewed: false

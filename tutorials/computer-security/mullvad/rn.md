@@ -151,4 +151,4 @@ Kugira ngo ubone icegeranyo ca konti yawe ya Mullvad no gucunga ibikoresho bitan
 Kandi aho urafise, ubu urafise ibikoresho vyo kunezerererwa bimwe bishitse Mullvad VPN. Niba ushaka kumenya uwundi mutanga VPN asa na Mullvad, mu bijanye n’ibiranga n’ibiciro, ndagusavye kandi kuraba inyigisho yacu ku IVPN:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

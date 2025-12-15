@@ -344,7 +344,7 @@ Machankura není jen Wallet. Přímo z aplikace můžete Exchange své satoši v
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 K dispozici máte také funkci "**Clan**", která vám umožňuje spravovat kooperativní systém s více podpisy: členové klanu musí schválit každý výdaj a vy mezi ně můžete automaticky rozdělit finanční prostředky.
 
@@ -439,13 +439,13 @@ Machankura umožňuje posílat bitcoiny různými způsoby:
 
 
 
-https://planb.network/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
+https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
 Machankura umožňuje interoperabilitu mezi různými peněženkami Lightning. V této ukázce posíláme bitcoiny z naší aplikace Machankura WhatsApp Wallet do Wallet Satoshi Wallet.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Pro odeslání zadejte číslo 1, které odpovídá možnosti "SEND BTC". Dále vyberte možnost odeslání "Lightning Address" a zadejte číslo Address, na které mají být bitcoiny odeslány. Nakonec vyberte míru hodnoty "Sats", uveďte počet satoshis, které mají být odeslány, a potvrďte odeslání.
 
@@ -577,9 +577,9 @@ Machankura navíc umožňuje každému, kdo vám chce poslat bitcoiny, aby tak u
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
 ### Kontrola vyváženosti
 

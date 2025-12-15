@@ -1,0 +1,9 @@
+question: Theo các thông lệ tiết lộ có trách nhiệm, vấn đề đạo đức chính mà các nhà nghiên cứu bảo mật phải đối mặt khi phát hiện ra lỗ hổng trong các hệ thống phi tập trung như Bitcoin là gì?
+answer: Cân bằng nhu cầu thông báo cho các bên có trách nhiệm trong khi tránh tiết lộ cho những tác nhân có khả năng gây hại có thể khai thác lỗ hổng
+wrong_answers:
+  - Quyết định xem có nên hưởng lợi từ việc phát hiện lỗ hổng thông qua chương trình tiền thưởng lỗi hay tặng thông tin miễn phí cho cộng đồng
+  - Lựa chọn giữa việc báo cáo với cơ quan chính phủ trước hay báo cáo trực tiếp với nhóm phát triển phần mềm để tránh các rắc rối về mặt quy định
+  - Xác định mức bồi thường tài chính phù hợp cho việc phát hiện lỗ hổng trước khi đồng ý tiết lộ thông tin cho các nhà phát triển
+explanation: |
+  Thách thức đạo đức cốt lõi trong việc công bố thông tin có trách nhiệm là sự cân bằng tinh tế giữa tính minh bạch và bảo mật. Các nhà nghiên cứu phải đảm bảo các lỗ hổng được giải quyết mà không vô tình tạo ra lộ trình cho việc khai thác độc hại. Điều này bao gồm việc phối hợp chặt chẽ với các nhà phát triển, thời điểm công bố thông tin phù hợp và cân nhắc tác động rộng hơn đến hệ sinh thái. Các lựa chọn khác tập trung vào các vấn đề tài chính hoặc quy định, mặc dù có thể liên quan, nhưng không phải là vấn đề đạo đức chính được nêu trong các hoạt động công bố thông tin có trách nhiệm.
+reviewed: false

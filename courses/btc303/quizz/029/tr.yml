@@ -1,0 +1,9 @@
+question: Pieter Wuille'in hesaplamalarına göre, tüm madeni paralar çıkarıldıktan sonra var olacak maksimum teorik Bitcoin miktarı nedir?
+answer: 20,999,999.9769 BTC
+wrong_answers:
+  - tam olarak 21,000,000.0000 BTC
+  - 20,999,817.3131 BTC
+  - yaklaşık 20,500,000.0000 BTC
+explanation: |
+  Pieter Wuille teorik maksimum arzın 20,999,999.9769 BTC olduğunu hesaplamıştır ki bu da yaygın olarak belirtilen 21 milyondan biraz daha azdır. Bunun nedeni Bitcoin'in kodundaki özel yarılama programı ve yuvarlamadır. 21 milyon rakamı yuvarlanmış bir yaklaşımdır. 20.999.817,3131 rakamı, teorik maksimum değeri değil, belirli bir bloğa kadar kayıp madeni paralar ve mining hataları hesaba katıldıktan sonra gerçek dolaşımdaki arzı temsil etmektedir.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Kwa nini BIP34 inahitaji kupachika urefu wa block katika sehemu ya scriptSig ya muamala wa Coinbase?
+answer: Ili kuhakikisha kila Coinbase transaction ID ni ya kipekee katika vitalu vyote
+wrong_answers:
+  - Kutoa entropy ya ziada kwa wachimbaji wakati nafasi ya nonce imeisha
+  - Ili kuwezesha wateja wepesi kuthibitisha uagizaji wa vitalu bila kupakua vitalu kamili
+  - Ili kuzuia wachimbaji kudai ruzuku ya vitalu zaidi ya kiasi kinachoruhusiwa
+explanation: |
+  BIP34 inaamuru kuingizwa kwa urefu wa block katika Coinbase scriptSig haswa ili kuhakikisha upekee wa kila Coinbase transaction ID. Bila sharti hili, vitalu viwili katika urefu tofauti vinaweza kuwa na miamala inayofanana ya Coinbase, na kuunda txids zinazofanana ambazo zingekiuka mawazo ya upekee wa miamala ya Bitcoin na kusababisha migogoro ya hifadhidata katika utekelezaji unaoonyeshwa na txid.

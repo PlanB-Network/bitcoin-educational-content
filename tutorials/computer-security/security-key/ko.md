@@ -14,7 +14,7 @@ description: 물리적 보안 키는 어떻게 사용하나요?
 다른 튜토리얼에서 TOTP 2FA 애플리케이션을 설정하고 사용하는 방법에 대해 설명했습니다:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 여기에서는 모든 계정에 대한 두 번째 인증 요소로 물리적 보안 키를 사용하는 방법을 살펴봅니다.
 

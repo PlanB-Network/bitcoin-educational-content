@@ -85,11 +85,11 @@ Niba ukeneye gufashwa mu gutegura igikoresho cawe, turafise kandi inyigisho zito
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Ku modoka nshasha ya Wallet
 
@@ -139,7 +139,7 @@ Kugira ngo umenye vyinshi ku buryo bwiza bwo kubika no gucunga amajambo yawe ya 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Ku Trezor, hitamwo umubare wose w'imigabane wipfuza gutunganya. Ivyiyumviro bikunze kuboneka ni 2-de-3 na 3-de-5. Ku karorero, nzokora 2-de-3, rero nzotora imigabane 3. Buri mugabane uzogereranya amajambo 20 Mnemonic.
 
@@ -273,7 +273,7 @@ Urasangwa, ubu uri ku rugero rwo gukoresha ama Backups y’ugusangira rimwe n’
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Niwaba wabonye iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa Green aha hepfo. Ntutinye gusangiza abandi iyi nkuru ku mbuga zanyu zo gusangirirako amakuru. Murakoze cane!
 

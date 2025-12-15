@@ -81,7 +81,7 @@ Hier sind einige Tipps, wie Sie Ihren Sicherungssatz sichern können.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Um Ihre Phrasen zu sichern, wählen Sie das Menü **Einstellungen > Sicherheit** und dann die Option **Sicherungsphrase prüfen**.
 
@@ -210,4 +210,4 @@ Um weiter zu gehen, empfehle ich auch, dass Sie unser Tutorial über die Aqua Wa
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

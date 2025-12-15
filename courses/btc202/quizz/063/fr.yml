@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin Core et Bitcoin Knots
   - Ride The Lightning et ThunderHub
 explanation: |
-  Umbrel permet de choisir entre LND et Core Lightning comme implémentations du Lightning Network.
-reviewed: false
+  Umbrel permet de choisir entre LND et Core Lightning comme implémentation du Lightning Network.
+reviewed: true 

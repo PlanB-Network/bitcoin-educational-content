@@ -6,4 +6,4 @@ wrong_answers:
   - Simplificar los intercambios entre diferentes criptomonedas
 explanation: |
   La Lightning Network busca mejorar la escalabilidad de Bitcoin al permitir transacciones rápidas y económicas a través de canales de pago fuera de la cadena.
-reviewed: false
+reviewed: true

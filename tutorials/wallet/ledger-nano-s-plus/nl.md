@@ -77,7 +77,7 @@ Voor deze tutorial hebt u 2 softwaretoepassingen nodig: Ledger Live om de Ledger
 
 Voor deze twee softwareprogramma's raad ik sterk aan om zowel hun authenticiteit (met GnuPG) als hun integriteit (via de Hash) te controleren voordat je ze op je machine installeert. Als je niet zeker weet hoe je dit moet doen, kun je deze andere tutorial volgen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Hoe een Ledger Nano initialiseren?
 
@@ -228,7 +228,7 @@ De passphrase moet niet verward worden met de PIN-code. Het speelt een rol bij d
 De passphrase is een zeer krachtig hulpmiddel om de veiligheid van je bitcoins te verbeteren. Het is echter erg belangrijk om te begrijpen hoe het werkt voordat je het implementeert, om te voorkomen dat je de toegang tot je Wallet verliest. Daarom raad ik je aan deze andere tutorial te raadplegen, speciaal als je een passphrase op je Ledger wilt installeren:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Met het menu "*PIN lock*" kun je de automatische vergrendeling van je Ledger configureren en activeren na een bepaalde periode van inactiviteit.
 
@@ -371,7 +371,7 @@ Voordat u uw eerste bitcoins in uw Wallet ontvangt, **raad ik u ten zeerste aan 
 Om meer te leren over hoe je een hersteltest uitvoert, raad ik je aan om deze andere tutorial te raadplegen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Hoe ontvang ik bitcoins met de Ledger Nano?
 
@@ -416,7 +416,7 @@ Je kunt een "*Label*" toevoegen om de bron te beschrijven van de bitcoins die be
 Voor meer informatie over labelen raad ik je ook aan om deze andere tutorial te bekijken:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Je kunt deze Address dan gebruiken om bitcoins te ontvangen.
 
@@ -518,4 +518,4 @@ Als je deze handleiding nuttig vond, zou ik het waarderen als je hieronder een d
 Ik raad je ook aan om deze complete tutorial over de Ledger Flex te bekijken:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

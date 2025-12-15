@@ -51,7 +51,7 @@ description: پیاده‌سازی پشتیبان‌گیری
 اگر هنوز حساب Proton ندارید، باید یکی ایجاد کنید. من شما را به آموزش Proton Mail ما ارجاع می‌دهم که در آن به‌طور مفصل توضیح می‌دهیم چگونه یک حساب Proton رایگان ایجاد کرده و آن را تنظیم کنید:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![PROTON DRIVE](assets/notext/04.webp)
 
@@ -75,7 +75,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 برای افزودن فایل‌ها به Proton Drive خود، زمانی که به‌طور انحصاری از نسخه وب استفاده می‌کنید (بعداً به استفاده از نسخه محلی خواهیم پرداخت)، کافی است اسناد خود را مستقیماً به Interface بکشید و رها کنید. ![PROTON DRIVE](assets/notext/08.webp) سپس می‌توانید سند خود را در صفحه اصلی پیدا کنید. ![PROTON DRIVE](assets/notext/09.webp) برای افزودن آیتم جدید، روی دکمه "*New*" در بالای سمت چپ صفحه کلیک کنید. ![PROTON DRIVE](assets/notext/10.webp) عملکرد "*Upload file*" مرورگر فایل محلی شما را باز می‌کند و به شما امکان می‌دهد اسناد جدید را به Proton Drive انتخاب و وارد کنید، همان‌طور که با کشیدن و رها کردن انجام می‌دهید. ![PROTON DRIVE](assets/notext/11.webp) "*Upload folder*" به شما امکان می‌دهد یک پوشه کامل را وارد کنید. ![PROTON DRIVE](assets/notext/12.webp) "*New folder*" به شما امکان می‌دهد یک پوشه ایجاد کنید تا اسناد خود را در Proton Drive بهتر سازماندهی کنید. ![PROTON DRIVE](assets/notext/13.webp) روی این گزینه کلیک کنید و به پوشه خود نامی اختصاص دهید. ![PROTON DRIVE](assets/notext/14.webp) سپس آن را مستقیماً در صفحه اصلی Proton Drive پیدا خواهید کرد. ![PROTON DRIVE](assets/notext/15.webp) در نهایت، "*New document*" به شما امکان می‌دهد یک سند متنی جدید مستقیماً در Proton Drive ایجاد کنید. ![PROTON DRIVE](assets/notext/16.webp) با کلیک بر روی آن، یک سند خالی جدید باز می‌شود. ![PROTON DRIVE](assets/notext/17.webp) می‌توانید روی آن بنویسید و ویرایش کنید. ![PROTON DRIVE](assets/notext/18.webp) اگر روی دکمه "*Share*" در بالای سمت راست کلیک کنید، می‌توانید سند را به اشتراک بگذارید. ![PROTON DRIVE](assets/notext/19.webp) فقط کافی است ایمیل همکار مورد نظر خود را که می‌خواهید به سند دسترسی داشته باشد، وارد کنید، چه در حالت فقط خواندنی و چه با حقوق ویرایش. ![PROTON DRIVE](assets/notext/20.webp) اگر به Proton Drive خود برگردید، می‌توانید ببینید که سند با موفقیت ذخیره شده است. ![PROTON DRIVE](assets/notext/21.webp) در تب "*Shared*" می‌توانید اسنادی را که با دیگران به اشتراک گذاشته‌اید پیدا کنید. ![PROTON DRIVE](assets/notext/22.webp) و در تب "*Shared with me*" می‌توانید اسنادی را که دیگران با شما به اشتراک گذاشته‌اند ببینید. ![PROTON DRIVE](assets/notext/23.webp) در نهایت، در تب "*Trash*" می‌توانید اسناد اخیراً حذف شده خود را پیدا کنید. ![PROTON DRIVE](assets/notext/24.webp) بیشتر تنظیمات Proton Drive شما در حساب Proton شما ادغام شده است. برای دستورالعمل‌های دقیق در مورد تنظیم حساب خود، شما را به مشاوره با این آموزش دعوت می‌کنم:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## چگونه نرم‌افزار Proton Drive را نصب کنیم؟
 
@@ -145,4 +145,4 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 برای کسب اطلاعات بیشتر در مورد ایمن‌سازی حضور آنلاین خود و جلوگیری از هک، همچنین توصیه می‌کنم به آموزش جامع ما درباره مدیر رمز عبور Bitwarden مراجعه کنید:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

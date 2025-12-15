@@ -219,4 +219,4 @@ sudo dnf upgrade
 
 Sekarang sistem Fedora Anda sudah terbaharui dan siap digunakan untuk semua tugas sehari-hari. Temukan tutorial kami tentang Linux Mint, distribusi Linux lainnya, dan cara menyiapkan lingkungan yang sehat dan aman untuk transaksi Bitcoin Anda.
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

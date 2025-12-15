@@ -1,21 +1,21 @@
 ---
-name: Aggiungere un podcast su Plan ₿ Network
-description: Come aggiungere un nuovo podcast su Plan ₿ Network?
+name: Aggiungere un podcast su Plan ₿ Academy
+description: Come aggiungere un nuovo podcast su Plan ₿ Academy?
 ---
 ![podcast](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, permettendo a chiunque di partecipare all'arricchimento della piattaforma.
+La missione di Plan ₿ Academy è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, permettendo a chiunque di partecipare all'arricchimento della piattaforma.
 
-Stai cercando di aggiungere un podcast Bitcoin su Plan ₿ Network per aumentare la visibilità del tuo show, ma non sai come fare? Questo tutorial è per te!
+Stai cercando di aggiungere un podcast Bitcoin su Plan ₿ Academy per aumentare la visibilità del tuo show, ma non sai come fare? Questo tutorial è per te!
 
 ![podcast](assets/01.webp)
 
 - Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo scritto un tutorial dettagliato per guidarti.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) nella sezione `resources/podcasts/`:
+- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) nella sezione `resources/podcasts/`:
 
 ![podcast](assets/02.webp)
 
@@ -123,7 +123,7 @@ contributors:
 
 ![podcast](assets/14.webp)
 
-- Seleziona il tuo fork del repository Plan ₿ Network:
+- Seleziona il tuo fork del repository Plan ₿ Academy:
 
 ![podcast](assets/15.webp)
 
@@ -167,7 +167,7 @@ contributors:
 
 ![podcast](assets/25.webp)
 
-- Si aprirà una nuova pagina. Trascina e rilascia il logo del tuo podcast nell'area indicata. Questa immagine verrà visualizzata sul sito Plan ₿ Network:
+- Si aprirà una nuova pagina. Trascina e rilascia il logo del tuo podcast nell'area indicata. Questa immagine verrà visualizzata sul sito Plan ₿ Academy:
 
 ![podcast](assets/26.webp)
 
@@ -215,9 +215,9 @@ contributors:
 
 ![podcast](assets/37.webp)
 
-Congratulazioni! La tua PR è stata creata con successo. Un coordinatore la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo podcast sul sito web qualche giorno dopo.
+Congratulazioni! La tua PR è stata creata con successo. Un coordinatore la esaminerà e, se tutto è in ordine, la unirà al repository principale di Plan ₿ Academy. Dovresti vedere apparire il tuo podcast sul sito web qualche giorno dopo.
 
-Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Finché la tua PR non è validata, puoi visualizzarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network: 
+Tieni monitorata la tua PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Finché la tua PR non è validata, puoi visualizzarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Academy: 
 
 ![podcast](assets/38.webp)
 

@@ -17,7 +17,7 @@ Kuid rakenduses on ka "Embedded node".
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Tuletame meelde, et Lightning on võrk, mis töötab paralleelselt Bitcoin-ga, võimaldades bitcoinide vahetamist ilma On-Chain tehinguid süstemaatiliselt sooritamata. Tulemuseks on peaaegu kohesed tehingud, ilma et oleks vaja oodata 10 minutit ploki kinnitamist. See on eriti kasulik, kui maksta kaupmehe eest füüsilises maailmas. Veelgi enam, Lightning pakub märkimisväärset **konfidentsiaalsuse taset**, mida Bitcoin võrk ei oma*.
 
@@ -200,7 +200,7 @@ Lisateavet selle kohta, kuidas oma Mnemonic fraasi õigesti salvestada ja hallat
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ Zeus võimaldab teil seejärel lisada märkuse oma makse tähistamiseks või vaa
 
 
 
-Pange tähele, et erinevalt Wallet-st nagu [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), arvutatakse Zeuse puhul marsruut kohalikult ja seda ei delegeerita kolmandale osapoolele (Phoenixi puhul ACINQ). Seega olete ainus, kes teab makse saajat. Me kaotame veidi tõhusust (maksete tegemine võtab veidi kauem aega, kuid me võidame palju privaatsuse osas).
+Pange tähele, et erinevalt Wallet-st nagu [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), arvutatakse Zeuse puhul marsruut kohalikult ja seda ei delegeerita kolmandale osapoolele (Phoenixi puhul ACINQ). Seega olete ainus, kes teab makse saajat. Me kaotame veidi tõhusust (maksete tegemine võtab veidi kauem aega, kuid me võidame palju privaatsuse osas).
 
 
 
@@ -422,8 +422,8 @@ Palju õnne, olete nüüd valmis kasutama Zeus Embedded'i, Wallet mobiilse valgu
 
 
 
-Kui soovite rohkem teada saada Lightning Network tehnilise toimimise kohta, leiate Fanis Michalakise suurepärase tasuta Plan ₿ Network koolituse:
+Kui soovite rohkem teada saada Lightning Network tehnilise toimimise kohta, leiate Fanis Michalakise suurepärase tasuta Plan ₿ Academy koolituse:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

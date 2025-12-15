@@ -14,7 +14,7 @@ description: 如何使用實體安全鑰匙？
 在另一篇教學中，我介紹了如何設定和使用 TOTP 2FA 應用程式：
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 在此，我們將介紹如何使用實體安全鑰匙作為所有帳戶的第二認證因素。
 

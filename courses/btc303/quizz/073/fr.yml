@@ -1,0 +1,9 @@
+question: Selon les pratiques de divulgation responsable de Bitcoin Core, quand les détails d'une vulnérabilité doivent-ils être divulgués publiquement après qu'un correctif a été déployé ?
+answer: Lorsque plus de 80 % des nœuds Bitcoin ont déployé les correctifs
+wrong_answers:
+  - Immédiatement après la publication du correctif afin d'éviter les fausses hypothèses de sécurité
+  - Une fois que tous les principaux altcoins ont été notifiés et ont mis à jour leurs implémentations
+  - Après une période d'embargo standard de 90 jours, quel que soit le statut du déploiement
+explanation: |
+  Le Bitcoin Core suit un calendrier de divulgation basé sur le déploiement plutôt qu'une période fixe. Le seuil de 80 % garantit que la grande majorité du réseau est protégée avant que les attaquants ne puissent prendre connaissance de la vulnérabilité à la suite d'une divulgation publique. Cette approche privilégie la sécurité du réseau par rapport à des délais arbitraires, car une divulgation prématurée pourrait exposer les 20 % de nœuds restants à des attaques ciblées. Les autres options représentent des pratiques courantes en matière de sécurité logicielle traditionnelle, mais ne tiennent pas compte de la nature décentralisée de Bitcoin, où les utilisateurs doivent volontairement mettre à niveau leurs nœuds.
+reviewed: false

@@ -81,7 +81,7 @@ Berikut ini beberapa tips tentang cara membuat cadangan frasa cadangan Anda.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Untuk mencadangkan frasa Anda, pilih menu **Preferensi > Keamanan**, lalu opsi **Periksa Frasa Cadangan Anda**.
 
@@ -210,4 +210,4 @@ Untuk melangkah lebih jauh, saya juga menyarankan Anda untuk menemukan tutorial 
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

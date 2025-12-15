@@ -26,7 +26,7 @@ ___
 
 
 
-Ili kufanya hivyo, kuna mbinu nyingi na programu/itifaki zinazopatikana. Netflow, kwa mfano, iliyotengenezwa na Cisco, inaweza kutumika kurejesha takwimu za mtiririko wa IP kutoka kwa Interface, lakini matumizi yake yanazuiwa kwa vifaa vinavyotangamana.
+Ili kufanya hivyo, kuna mbinu nyingi na programu/protocol  zinazopatikana. Netflow, kwa mfano, iliyotengenezwa na Cisco, inaweza kutumika kurejesha takwimu za mtiririko wa IP kutoka kwa Interface, lakini matumizi yake yanazuiwa kwa vifaa vinavyotangamana.
 
 
 
@@ -43,7 +43,7 @@ Ntop ni programu huria ambayo inaweza kusakinishwa kwenye mashine yoyote ya Linu
 - Utumiaji wa Bandwidth
 - Wateja wakuu
 - Maeneo makuu
-- Itifaki zilizotumika
+- protocol s zilizotumika
 - Maombi yaliyotumika
 - Bandari zilizotumika
 - Nk.
@@ -78,7 +78,7 @@ Faida ya mbinu hii ni kwamba hauhitaji vifaa vya ziada. Kwa upande mwingine, huo
 
 
 
-**bomba** ni **kifaa cha mtandao ambacho kinarudia trafiki inayopita ndani yake na kuituma kwa kifaa kingine.** Faida ya kifaa hiki ni kwamba haihitaji marekebisho yoyote ya miundombinu iliyopo, na inaweza kuwekwa popote ili kufuatilia sehemu mahususi za mtandao, au kati ya swichi ya msingi na kipanga njia ili kuchanganua trafiki kutoka/kutoka kwenye Mtandao.
+**bomba (Test Access Point)** ni **kifaa cha mtandao ambacho kinarudia trafiki inayopita ndani yake na kuituma kwa kifaa kingine.** Faida ya kifaa hiki ni kwamba haihitaji marekebisho yoyote ya miundombinu iliyopo, na inaweza kuwekwa popote ili kufuatilia sehemu mahususi za mtandao, au kati ya switch ya msingi na router ili kuchanganua trafiki kutoka/kutoka kwenye Mtandao.
 
 
 
@@ -86,7 +86,7 @@ Hasara kubwa ya aina hii ya vifaa ni gharama yake. Katika mitandao ya kisasa ya 
 
 
 
-Hali ya **SPAN**, inayojulikana pia kama **kuakisi mlango**, inatumiwa na swichi ili kusambaza trafiki kutoka mlango mmoja hadi mwingine. Hii ndiyo njia ninayopendelea zaidi, kwani ni rahisi kusanidi na, kama bomba, hukuruhusu kufuatilia sehemu ya mtandao au mtandao mzima upendavyo. Hata hivyo, kuna vikwazo viwili: kubadili lazima kuunganisha kazi hii, na matumizi yake yanaweza kuongeza mzigo wa processor kwenye kubadili.
+Hali ya **SPAN**, inayojulikana pia kama **kuakisi mlango (port mirroring)**, inatumiwa na switch ili kusambaza trafiki kutoka mlango mmoja hadi mwingine. Hii ndiyo njia ninayopendelea zaidi, kwani ni rahisi kusanidi na, kama bomba, hukuruhusu kufuatilia sehemu ya mtandao au mtandao mzima upendavyo. Hata hivyo, kuna vikwazo viwili: kubadili lazima kuunganisha kazi hii, na matumizi yake yanaweza kuongeza mzigo wa processor kwenye kubadili.
 
 
 
@@ -94,27 +94,27 @@ Hali ya **SPAN**, inayojulikana pia kama **kuakisi mlango**, inatumiwa na swichi
 
 
 
-Inawezekana kabisa kuweka kipanga njia chini ya Linux na kusakinisha ntopng juu yake. Upungufu pekee wa njia hii ni kwamba itarekebisha mtandao wako, ama anwani yake ya ndani, au anwani kati ya kipanga njia chako "halisi" na ile unayoongeza.
+Inawezekana kabisa kuweka router chini ya Linux na kusakinisha ntopng juu yake. Upungufu pekee wa njia hii ni kwamba itarekebisha mtandao wako, ama Address yake ya ndani, au Address kati ya router yako "halisi" na ile unayoongeza.
 
 
 
-Kumbuka: kwa wasomaji wa makala [Unda kipanga njia cha Wifi ukitumia Raspberry Pi na RaspAP](https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) inawezekana kabisa kusakinisha ntopng kwenye Rpi yako ili kupata takwimu sahihi!
+Kumbuka: kwa wasomaji wa makala [Unda router cha Wifi ukitumia Raspberry Pi na RaspAP](https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) inawezekana kabisa kusakinisha ntopng kwenye Rpi yako ili kupata takwimu sahihi!
 
 
 
-### D. Hali ya daraja
+### D. Hali ya bridge
 
 
 
-Njia mbadala ya kuvutia ni kutumia **mashine ya Linux katika hali ya daraja.** Imewekwa kati ya vipande viwili vya vifaa, hii inaruhusu trafiki yote kunaswa bila kulazimika kuingilia kati usanidi wa miundombinu au vifaa vyake. Kwa kuwa mashine ya zamani inaweza kufanya kazi hiyo, gharama ya njia hii pia inaweza kuvutia. Kumbuka kuwa ili kuwa bora, kifaa kinapaswa kuwa na kadi tatu za mtandao, mbili katika hali ya daraja, moja kufikia Interface na SSH. Inawezekana kutumia kadi mbili tu, lakini basi trafiki ya usimamizi wa kifaa pia itanaswa...
+Njia mbadala ya kuvutia ni kutumia **mashine ya Linux katika hali ya bridge.** Imewekwa kati ya vipande viwili vya vifaa, hii inaruhusu trafiki yote kunaswa bila kulazimika kuingilia kati usanidi wa miundombinu au vifaa vyake. Kwa kuwa mashine ya zamani inaweza kufanya kazi hiyo, gharama ya njia hii pia inaweza kuvutia. Kumbuka kuwa ili kuwa bora, kifaa kinapaswa kuwa na kadi tatu za mtandao, mbili katika bridge mode, moja kufikia Interface na SSH. Inawezekana kutumia kadi mbili tu, lakini basi trafiki ya usimamizi wa kifaa pia itanaswa...
 
 
 
-Kwa hivyo ni ** hali hii ya mwisho ambayo nitatumia **. Kwa sababu za vitendo, nitakuwa nikitumia mashine za kawaida kwa maandamano, lakini njia inabaki kuwa sawa kwa matumizi ya mashine za kimwili.
+Kwa hivyo ni **hali hii ya mwisho ambayo nitatumia**. Kwa sababu za vitendo, nitakuwa nikitumia mashine za kawaida kwa maandamano, lakini njia inabaki kuwa sawa kwa matumizi ya mashine za kimwili.
 
 
 
-## III. Maandalizi ya uchunguzi na daraja la Interface
+## III. Maandalizi ya uchunguzi na bridge  la Interface
 
 
 
@@ -132,7 +132,7 @@ apt-get update && apt-get upgrade
 
 
 
-Kisha sakinisha kifurushi cha **bridge-utils**, ambacho kitaturuhusu kuunda daraja letu:
+Kisha sakinisha kifurushi cha **bridge-utils**, ambacho kitaturuhusu kuunda bridge  yetu:
 
 
 
@@ -166,7 +166,7 @@ Hapa, naona miingiliano 3:
 
 
 
-Sasa kwa kuwa nina habari yote, ninaweza kurekebisha */etc/network/interfaces* faili ili kuunda daraja langu. Hivi ndivyo inavyoonekana kwa sasa (inaweza kutofautiana):
+Sasa kwa kuwa nina habari yote, ninaweza kurekebisha */etc/network/interfaces* faili ili kuunda bridge  yangu. Hivi ndivyo inavyoonekana kwa sasa (inaweza kutofautiana):
 
 
 
@@ -189,7 +189,7 @@ iface ens33 inet6 auto
 
 
 
-Sehemu ya kwanza inahusu kitanzi changu cha Interface, ambacho sitakigusa, ikifuatiwa na Interface en33. Marekebisho yanajumuisha kuongeza Interface yangu ya pili (ens36) na kusanidi daraja na miingiliano hii miwili:
+Sehemu ya kwanza inahusu kitanzi changu cha Interface, ambacho sitakigusa, ikifuatiwa na Interface en33. Marekebisho yanajumuisha kuongeza Interface yangu ya pili (ens36) na kusanidi bridge  na miingiliano hii miwili:
 
 
 
@@ -211,8 +211,8 @@ Hapa kuna baadhi ya maelezo ya mabadiliko haya ya kwanza:
 
 
 
-- kiotomatiki **Interface**: "itaanzisha" kiotomatiki Interface wakati wa kuwasha mfumo
-- iface **Interface** mwongozo wa **inet**: kutumia Interface bila IP Address yoyote. Kama neno kuu "tuli" kufafanua IP tuli Address au "dhcp" kutumia kushughulikia kwa nguvu.
+- kiotomatiki *Interface***: "itaanzisha" kiotomatiki Interface wakati wa kuwasha mfumo
+- iface *Interface* mwongozo wa inet**: kutumia Interface bila IP Address yoyote. Kama neno kuu "tuli" kufafanua IP tuli Address au "dhcp" kutumia kushughulikia kwa nguvu.
 
 
 
@@ -239,10 +239,10 @@ Hapa tena, maelezo machache:
 
 
 
-- iface br0 inet tuli: hapa nimefafanua daraja langu la Interface (**br0**) na Address tuli.
-- **Address, barakoa, lango**: maelezo ya anwani ya ubao
-- **bridge_ports**: miingiliano ya kujumuishwa kwenye daraja
-- **bridge_stp**: itifaki ya Spanning Tree hutumiwa wakati wa kuunganisha swichi ili kutambua viungo visivyohitajika na kuepuka vitanzi. Kwa kuwa daraja linaweza kuingizwa kati ya njia mbili za mtandao, inaweza kuwa chanzo cha kitanzi, hivyo uwezekano wa kuwezesha itifaki hii. Siitaji hapa, kwa hivyo ninaizima.
+- **iface br0 inet tuli**: hapa nimefafanua bridge  yangu ya Interface (*br0*) na Address tuli.
+- **Address, Mask, Gateway**: maelezo ya Address ya ubao
+- **bridge_ports**: miingiliano ya kujumuishwa kwenye bridge 
+- **bridge_stp**: protocol  ya Spanning Tree hutumiwa wakati wa kuunganisha switch ili kutambua viungo visivyohitajika na kuepuka vitanzi. Kwa kuwa bridge  linaweza kuingizwa kati ya njia mbili za mtandao, inaweza kuwa chanzo cha kitanzi, hivyo uwezekano wa kuwezesha protocol hii. Siitaji hapa, kwa hivyo ninaizima.
 
 
 
@@ -271,7 +271,7 @@ Unaweza kuona kwa uwazi **Interface yangu mpya "*br0*" na IP Address ambayo nime
 
 
 
-Sasa kwa kuwa uchunguzi wetu unaweza kunusa trafiki kati ya mtandao wangu na kipanga njia, kilichobaki kufanya ni kusakinisha ntopng. Ili kufanya hivyo, kwanza rekebisha faili ya */etc/apt/sources.list* na uongeze **changia** mwishoni mwa kila mstari ukianza na **deb** au **deb-src**.
+Sasa kwa kuwa uchunguzi wetu unaweza kunusa trafiki kati ya mtandao wangu na router, kilichobaki kufanya ni kusakinisha ntopng. Ili kufanya hivyo, kwanza rekebisha faili ya */etc/apt/sources.list* na uongeze **changia** mwishoni mwa kila mstari ukianza na **deb** au **deb-src**.
 
 
 
@@ -281,7 +281,7 @@ Kwa chaguo-msingi, vyanzo vya kifurushi vina vifurushi vinavyotii DFSG (*Miongoz
 
 
 
-- **mchango**: vifurushi vilivyo na programu inayotii DFSG, lakini kwa kutumia vitegemezi ambavyo si sehemu ya **tawi kuu**
+- **mchango**: vifurushi vilivyo na programu inayotii DFSG, lakini kwa kutumia vitegemezi ambavyo si sehemu ya **branch kuu**
 - **isiyolipishwa**: ina vifurushi ambavyo haviambatani na DFSG
 
 
@@ -395,11 +395,11 @@ Dirisha jipya linaonyesha "Top Flaw Talkers", yaani vifaa vinavyowasiliana zaidi
 
 
 
-**Wapangishi wa vyanzo huonekana upande wa kushoto, marudio upande wa kulia ** Hii hukuruhusu kuibua matumizi ya jumla ya kipimo data kwa kila seva pangishi, na kupata mtazamo wa jumla wa trafiki ya mtandao. Sio mbaya, lakini tunaweza kwenda mbali zaidi ...
+**Wapangishi wa vyanzo huonekana upande wa kushoto, marudio upande wa kulia ** Hii hukuruhusu kuibua matumizi ya jumla ya kipimo data kwa kila server pangishi, na kupata mtazamo wa jumla wa trafiki ya mtandao. Sio mbaya, lakini tunaweza kwenda mbali zaidi ...
 
 
 
-Nikibofya "*Wapangishi*", kwa mfano, ninapata grafu inayoonyesha utumaji na upokeaji wa matumizi ya nguvu ya kila seva pangishi kwenye mtandao wangu. Hapa, kwa mfano, naweza kuona kwamba 192.168.1.37 pekee inachangia 80% ya trafiki yangu:
+Nikibofya "*Wapangishi*", kwa mfano, ninapata grafu inayoonyesha utumaji na upokeaji wa matumizi ya nguvu ya kila server pangishi kwenye mtandao wangu. Hapa, kwa mfano, naweza kuona kwamba 192.168.1.37 pekee inachangia 80% ya trafiki yangu:
 
 
 
@@ -426,7 +426,7 @@ Pia utagundua menyu mpya juu ya muhtasari huu. Ninapendekeza ubofye "**Programu*
 ![Image](assets/fr/017.webp)
 
 
-Lo, inaonekana kama tumepata jibu! Kwenye grafu iliyo upande wa kushoto, **tunaona kwamba 76.6% ya trafiki yake inatoka ... Sasisho la Windows**, kwa hivyo seva pangishi inapakua masasisho!
+Lo, inaonekana kama tumepata jibu! Kwenye grafu iliyo upande wa kushoto, **tunaona kwamba 76.6% ya trafiki yake inatoka ... Sasisho la Windows**, kwa hivyo server pangishi inapakua masasisho!
 
 
 
@@ -474,7 +474,7 @@ Kubofya kwenye takwimu hii huleta maelezo ya arifa. Hakuna jambo la kutisha hapa
 
 
 
-Walakini, ninapotumia toleo lisilolipishwa, siwezi kutenga vikoa au seva pangishi ambazo ndio chanzo cha arifa, kwa hivyo itabidi uziangalie ili kuepuka kukosa kitu kinachotia wasiwasi zaidi. NtopNG itatoa arifa za generate katika tukio la:
+Walakini, ninapotumia toleo lisilolipishwa, siwezi kutenga vikoa au server pangishi ambazo ndio chanzo cha arifa, kwa hivyo itabidi uziangalie ili kuepuka kukosa kitu kinachotia wasiwasi zaidi. NtopNG itatoa arifa za generate katika tukio la:
 
 
 
@@ -493,7 +493,7 @@ Walakini, ninapotumia toleo lisilolipishwa, siwezi kutenga vikoa au seva pangish
 
 
 
-Katika somo hili, tumeona **jinsi ya kusanidi uchunguzi kwa kutumia NtopNG** inayotuwezesha **kuchanganua trafiki ya mtandao wetu** ili kuibua matumizi ya itifaki na umiliki wa kila seva pangishi, lakini pia kugundua trafiki ya kutiliwa shaka.
+Katika somo hili, tumeona **jinsi ya kusanidi uchunguzi kwa kutumia NtopNG** inayotuwezesha **kuchanganua trafiki ya mtandao wetu** ili kuibua matumizi ya protocol na umiliki wa kila server pangishi, lakini pia kugundua trafiki ya kutiliwa shaka.
 
 
 

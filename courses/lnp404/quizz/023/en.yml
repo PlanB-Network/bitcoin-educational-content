@@ -1,0 +1,8 @@
+question: What is the primary purpose of the Connection String in Lightning Terminal's multi-node setup?
+answer: It serves as a cryptographic pairing phrase that authorizes Terminal to communicate with the Lightning Terminal Daemon
+wrong_answers:
+  - It establishes a direct TCP connection between the browser and the Lightning node through firewall ports
+  - It synchronizes channel state information across multiple nodes in the same network for redundancy purposes
+  - It creates a shared database connection that allows multiple nodes to access the same liquidity pool
+explanation: |
+  The Connection String functions as a unique cryptographic pairing phrase that enables secure communication between Lightning Terminal and the Lightning Terminal Daemon (LitD) over Lightning Node Connect (LNC). This approach specifically eliminates the need to open firewall ports, making it distinct from direct TCP connections. The string contains authentication data that grants administrative access, functioning like a private key. It's not used for synchronizing channel states between nodes or creating shared database connections, as each node operates independently with its own separate authentication and session state.

@@ -21,7 +21,7 @@ Pro výstavbu naší Lightning aplikace budeme používat následující technol
 - Express pro náš webový server
 - Pug šablony + bootstrap pro naše frontend
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## Operační systém
 

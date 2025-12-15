@@ -14,7 +14,7 @@ Amasakoshi y'umuravyo, nk'amasakoshi yose agendagenda, afatwa nk'amasakoshi ya "
 Niba wifuza kumenya vyinshi ku vyerekeye Lightning Network no gutahura ingene ikora mu buryo bw’ubuhinga, ndagusavye gufata iri shure:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Muri iyi nyigisho, tuzoba turiko turaraba **Lipa**, Lightning Wallet yoroshe kandi ikora neza yakozwe mu Busuwisi.
 
@@ -131,7 +131,7 @@ Kugira ngo ukore ububiko bwa Wallet yawe, genda kuri "Imiterere" maze uhitemwo "
 Kugira ngo uronke ibindi bisobanuro ku buryo bwo gusubiza inyuma no gucunga neza ijambo ryawe ryo gusubirana, ndagusavye cane gukurikira iyi yindi nyigisho, cane cane nimba uri umutanguzi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Kwakira ama bitcoins
 

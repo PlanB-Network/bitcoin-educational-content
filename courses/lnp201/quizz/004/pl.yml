@@ -6,4 +6,4 @@ wrong_answers:
   - Transakcje między różnymi łańcuchami bloków
 explanation: |
   Sieć Lightning umożliwia szybkie i tanie transakcje za pośrednictwem kanałów płatności off-chain, które różnią się od zwykłych transakcji w łańcuchu bloków.
-reviewed: false
+reviewed: true

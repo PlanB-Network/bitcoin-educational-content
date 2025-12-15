@@ -1,0 +1,9 @@
+question: Mikä on luvun mukaan tärkein rajoitus, jolta edes full node ei voi suojata?
+answer: Ketjujen uudelleenkirjoitukset, jotka voivat tuplata tapahtumasi
+wrong_answers:
+  - Haitallinen ohjelmisto varastaa yksityiset avaimesi muistista
+  - "Virheelliset lohkot, jotka eivät noudata Bitcoin:n konsensussääntöjä"
+  - Virheelliset kolikoiden liikkeeseenlaskuaikataulut, jotka rikkovat protokollaa
+explanation: |
+  Vaikka full node voi tarkistaa, että lohkot noudattavat konsensussääntöjä, estää virheellisen kolikon liikkeeseenlaskun ja havaita protokollarikkomukset, se ei voi estää ketjun uudelleenkirjoittamista, jossa louhijat järjestävät lohkoketjun uudelleen transaktioiden kaksinkertaistamiseksi. Luvussa todetaan nimenomaan, että riippumatta siitä, kuinka kehittynyt ohjelmistosi on, sinun on silti luotettava siihen, että kolikkojasi sisältäviä lohkoja ei kirjoiteta uudelleen. Siksi Bitcoin:n puolustusmekanismi perustuu useiden vahvistusten odottamiseen, jotta ketjun uudelleenkirjoittamisen todennäköisyys pienenee hyväksyttävälle tasolle.
+reviewed: false

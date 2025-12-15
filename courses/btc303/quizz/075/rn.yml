@@ -1,0 +1,9 @@
+question: Dushingiye ku ciyumviro ca Gregory Maxwell ku bijanye n’ugusuzuma uburemere bw’ubugoyagoye, ni uburyo ubuhe abahinguzi bakwiye gukoresha igihe basuzuma ingaruka zishobora guterwa n’ibibazo vy’umutekano vyavumbuwe?
+answer: Fata ubugoyagoye nk’ubukomeye kuruta uko buzwi ubu kandi wiyumvire ko bushobora gukoreshwa bitagoranye naho bwoba busa n’ubugoye gukoreshwa .
+wrong_answers:
+  - Nimwibande gusa ku ngaruka zishobora gushika vuba kandi mushire mu migwi ingorane zishingiye ku buryo buzwi bwo kuzikoresha .
+  - Gushira imbere ubugoyagoye bushingiye ku buhinga bwabwo bugoye no gutevya gutorera umuti ibibazo bisa n'ibigoye gukoreshwa
+  - Gusuzuma ubugoyagoye bumwe bumwe bwihariye utazirikanye ingene ibibazo bitobito vyinshi vyoshobora guhuriza hamwe kugira ngo bivemwo ingorane zikomeye z’umutekano .
+explanation: |
+  Maxwell avuga ko abahinguzi bakwiye gufata ubugoyagoye nk’ubukomeye kuruta uko buboneka kubera ko ibibazo bigoye gukoreshwa bishobora guhinduka ibidahambaye hakoreshejwe ubuhinga bubereye, kandi ingorane zisa n’izito zishobora guhinduka ingorane zikomeye. Ashimika ku vy’uko ibikoko vyoroshe bishobora gukoreshwa nk’ibirwanisho kugira ngo bigabanye urubuga no gutuma ibitero vya double-spending bishoboka. Ubwo buryo bwo gukingira buremeza ko abahinguzi bashobora mu ntango kutamenya ubushobozi bwo gukoresha nabi ikintu gishobora guhungabana, ivyo bikaba bituma biba vyiza kwiyumvira ko ari ikintu kibi kuruta ibindi vyose aho gufata minenerwe ingorane.
+reviewed: false

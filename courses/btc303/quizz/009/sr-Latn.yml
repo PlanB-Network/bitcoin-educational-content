@@ -1,0 +1,9 @@
+question: Šta Gregory Maxwell identifikuje kao veći rizik za Bitcoin od 51% napada?
+answer: Ljudi ne razumeju ili ne štite decentralizacione osobine Bitcoin
+wrong_answers:
+  - Rudari koncentrišu previše računske snage na jednom mestu
+  - Vladine regulative koje sprečavaju operacije Bitcoin mining
+  - "Tehničke ranjivosti u kriptografskim algoritmima Bitcoin"
+explanation: |
+  Prema objavi Gregory Maxwella na Redditu koja je navedena u poglavlju, iako 51% napadi postoje kao teoretska zabrinutost, mnogo veći rizik je da korisnici Bitcoin neće razumeti, brinuti se o, ili štititi svojstva decentralizacije koja čine Bitcoin vrednim u odnosu na centralizovane alternative. To je zato što decentralizacija pruža Bitcoin otpornost na cenzuru - njegovu ključnu razliku u odnosu na tradicionalne monetarne sisteme. Ako ljudi ne budu aktivno štitili ova svojstva, Bitcoin bi mogao postepeno postati centralizovan dok cenzura ne postane moguća, uništavajući većinu njegove vrednosti. Ostale opcije, iako potencijalne zabrinutosti, nisu ono što je Maxwell specifično identifikovao kao veću pretnju dugoročnom uspehu Bitcoin.
+reviewed: false

@@ -48,7 +48,7 @@ Pindai kode QR dengan aplikasi autentikasi Anda, masukkan kode 6 digit dan klik 
 
 Jika Anda tidak terbiasa menggunakan aplikasi autentikasi untuk 2FA, saya sarankan Anda untuk melihat tutorial tentang aplikasi Authy ini:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Masukkan kata sandi Anda untuk mengonfirmasi.
 
@@ -125,9 +125,9 @@ Masukkan jumlah yang ingin Anda beli. Anda juga harus memilih bagaimana Anda ing
 
 Jika Anda belum terbiasa menggunakan dompet Bitcoin, Lightning atau Liquid, saya sarankan Anda untuk mengikuti kursus pelatihan khusus kami:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Anda juga dapat menjelajahi [tutorial terperinci kami tentang dompet Bitcoin terbaik](https://planb.network/tutorials/wallet).
+Anda juga dapat menjelajahi [tutorial terperinci kami tentang dompet Bitcoin terbaik](https://planb.academy/tutorials/wallet).
 
 Kemudian konfirmasikan pembelian Anda dengan mengklik "*Konfirmasi Pembelian*".
 
@@ -196,8 +196,16 @@ Untuk melacak semua transaksi Anda, Anda dapat melihat riwayat di menu "*Transak
 
 ![BULL](assets/fr/36.webp)
 
+## Mulai pembelian berulang otomatis (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Buat pesanan limit
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Sekarang Anda sudah tahu cara membeli dan menjual bitcoin dengan mudah menggunakan Bull Bitcoin. Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!
 
 Saya juga menyarankan Anda untuk melihat tutorial komprehensif lainnya untuk mempelajari cara mengelola frasa mnemonik dengan cara yang benar:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

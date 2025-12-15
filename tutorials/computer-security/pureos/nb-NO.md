@@ -11,7 +11,7 @@ Beskyttelse av personopplysninger i den digitale tidsalderen er en topp priorite
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Kom i gang med PureOS
 
@@ -353,4 +353,4 @@ Oppdag kurset vårt om hvordan du kan styrke sikkerheten og beskytte det digital
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

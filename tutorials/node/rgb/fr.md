@@ -7,19 +7,19 @@ description: Introduction et création d'actifs sur RGB
 
 ## Introduction
 
-Le 3 janvier 2009, Satoshi Nakamoto a lancé le premier nœud Bitcoin, à partir de ce moment-là, de nouveaux nœuds ont rejoint et Bitcoin a commencé à se comporter comme s'il s'agissait d'une nouvelle forme de vie, une forme de vie qui n'a cessé d'évoluer, petit à petit, il est devenu le réseau le plus sûr au monde grâce à sa conception unique, très bien pensée par Satoshi, car, grâce à des incitations économiques, il attire des utilisateurs communément appelés mineurs à investir dans l'énergie et la puissance de calcul, ce qui contribue à la sécurité du réseau.
+Le 3 janvier 2009, Satoshi Nakamoto a lancé le premier nœud Bitcoin. À partir de ce moment, de nouveaux nœuds ont rejoint le réseau et Bitcoin a commencé à se comporter comme une nouvelle forme de vie, une forme de vie en constante évolution. Petit à petit, il est devenu le réseau le plus sûr au monde grâce à sa conception unique, soigneusement pensée par Satoshi. En effet, grâce à des incitations économiques, il attire des utilisateurs, appelés mineurs, à investir dans l'énergie et la puissance de calcul, contribuant ainsi à la sécurité du réseau.
 
-Alors que Bitcoin continue sa croissance et son adoption, il fait face à des problèmes de scalabilité. Le réseau Bitcoin permet à un nouveau bloc avec des transactions d'être miné en environ 10 minutes. En supposant que nous ayons 144 blocs par jour avec des valeurs maximales de 2700 transactions par bloc, Bitcoin n'aurait permis que 4,5 transactions par seconde. Satoshi était conscient de cette limitation, nous pouvons le voir dans un e-mail1 envoyé à Mike Hearn en mars 2011 où il explique comment ce que nous connaissons aujourd'hui sous le nom de canal de paiement fonctionne. micropaiements rapidement et en toute sécurité sans attendre de confirmations. C'est là que les protocoles hors chaîne entrent en jeu.
+Alors que Bitcoin continue de croître et d’être adopté, il se heurte à des problèmes de scalabilité. Le réseau Bitcoin permet de miner un nouveau bloc contenant des transactions environ toutes les 10 minutes. En supposant que nous ayons 144 blocs par jour avec des valeurs maximales de 2700 transactions par bloc, le réseau ne pourrait traiter qu’environ 4,5 transactions par seconde. Satoshi était conscient de cette limitation, comme l’indique un e-mail envoyé à Mike Hearn en mars 2011 où il explique comment ce que nous connaissons aujourd'hui sous le nom de canal de paiement permet de réaliser des micropaiements rapidement et en toute sécurité, sans attendre de confirmations. C'est précisément là que les protocoles hors chaîne interviennent.
 
-Selon Christian Decker2, les protocoles hors chaîne sont généralement des systèmes dans lesquels les utilisateurs utilisent des données d'une blockchain et les gèrent sans toucher à la blockchain elle-même jusqu'à la dernière minute. Sur la base de ce concept, le Lightning Network est né, un réseau qui utilise des protocoles hors chaîne pour permettre des paiements Bitcoin presque instantanés et, comme toutes ces opérations ne sont pas écrites sur la chaîne de blocs, il permet des milliers de transactions par seconde et met à l'échelle Bitcoin.
+Selon Christian Decker, les protocoles hors chaîne sont généralement des systèmes dans lesquels les utilisateurs manipulent des données provenant d'une blockchain sans interagir directement avec celle-ci jusqu'au dernier moment. C’est sur ce principe que le Lightning Network a été développé, un réseau qui utilise des protocoles hors chaîne pour permettre des paiements Bitcoin quasi instantanés. Comme ces opérations ne sont pas enregistrées immédiatement sur la blockchain, le Lightning Network peut traiter des milliers de transactions par seconde, offrant ainsi une solution d’évolutivité pour Bitcoin.
 
-La recherche et le développement dans le domaine des protocoles hors chaîne sur Bitcoin ont ouvert une boîte de Pandore, aujourd'hui nous savons que nous pouvons réaliser beaucoup plus que le transfert de valeur de manière décentralisée, l'association à but non lucratif LNP/BP Standards se concentre sur le développement de protocoles de couche 2 et 3 sur Bitcoin et le Lightning Network, parmi ces projets, RGB se distingue.
+La recherche et le développement dans le domaine des protocoles hors chaîne sur Bitcoin ont ouvert une véritable boîte de Pandore. aujourd'hui, nous savons que nous pouvons réaliser beaucoup plus que le simple transfert de valeur de manière décentralisée, l'association à but non lucratif LNP/BP Standards se concentre sur le développement de protocoles de couche 2 et 3 sur Bitcoin et le Lightning Network. parmi ces projets, RGB se distingue particulièrement.
 
 ## Qu'est-ce que RGB ?
 
-RGB est apparu à partir des recherches de Peter Todd3 sur les scellés à usage unique et la validation côté client, qui a été formulé en 2016-2019 par Giacomo Zucco et la communauté en un meilleur protocole d'actifs pour Bitcoin et le réseau Lightning. L'évolution ultérieure de ces idées a conduit au développement de RGB en un système de contrats intelligents à part entière par Maxim Orlovsky, qui en assure la mise en œuvre depuis 2019 avec la participation de la communauté.
+RGB est né des recherches de Peter Todd sur les scellés à usage unique et la validation côté client. Entre 2016-2019 Giacomo Zucco et la communauté ont formulé ces idées en un protocole d'actifs amélioré pour Bitcoin et le réseau Lightning. L'évolution de ces concepts a ensuite conduit au développement de RGB en un système complet de contrats intelligents, mis en œuvre depuis 2019 par Maxim Orlovsky avec la participation active de la communauté.
 
-Nous pouvons définir RGB comme un ensemble de protocoles open source qui nous permet d'exécuter des contrats intelligents complexes de manière évolutive et confidentielle. Ce n'est pas un réseau particulier (comme Bitcoin ou Lightning) ; chaque contrat intelligent est simplement un ensemble de participants au contrat qui peuvent interagir en utilisant différents canaux de communication (par défaut, le réseau Lightning). RGB utilise la blockchain Bitcoin comme couche d'engagement de l'état et conserve le code du contrat intelligent et les données hors chaîne, ce qui le rend évolutif, en exploitant les transactions Bitcoin (et Script) comme système de contrôle de propriété pour les contrats intelligents ; tandis que l'évolution du contrat intelligent est définie par un schéma hors chaîne, il est enfin important de noter que tout est validé côté client.
+Nous pouvons définir RGB comme un ensemble de protocoles open source qui nous permet d'exécuter des contrats intelligents complexes de manière évolutive et confidentielle. Ce n'est pas un réseau particulier (comme Bitcoin ou Lightning) ; chaque contrat intelligent se compose simplement d'un ensemble de participants qui peuvent interagir via différents canaux de communication (par défaut, le réseau Lightning). RGB utilise la blockchain Bitcoin comme couche d'engagement pour l'état, tout en conservant le code du contrat intelligent et les données hors chaîne, ce qui le rend scalable. Les transactions Bitcoin (et Script) servent de système de contrôle de propriété pour les contrats intelligents ; tandis que l'évolution du contrat intelligent est définie par un schéma hors chaîne. Enfin, il est important de noter que toutes les validations sont effectuées côté client.
 
 En termes simples, RGB est un système qui permet à l'utilisateur d'auditer un contrat intelligent, de l'exécuter et de le vérifier individuellement à tout moment sans coût supplémentaire, car il n'utilise pas une blockchain comme le font les systèmes "traditionnels". Les systèmes de contrats intelligents complexes ont été pionnés par Ethereum, mais en raison de la nécessité pour l'utilisateur de dépenser des quantités importantes de gaz pour chaque opération, ils n'ont jamais atteint la scalabilité promise, ce qui en fait jamais une option pour les utilisateurs exclus du système financier actuel.
 
@@ -29,29 +29,29 @@ Actuellement, l'industrie de la blockchain promeut que le code des contrats inte
 
 ## Contrats intelligents dans RGB
 
-Dans RGB, le développeur de contrats intelligents définit un schéma spécifiant les règles selon lesquelles le contrat évolue dans le temps. Le schéma est la norme pour la construction de contrats intelligents dans RGB, et à la fois un émetteur lors de la définition d'un contrat pour l'émission et un portefeuille ou une bourse doivent adhérer à un schéma particulier contre lequel ils doivent valider le contrat. Seulement si la validation est correcte, chaque partie peut accepter les demandes et travailler avec l'actif.
+Dans RGB, le développeur de contrats intelligents définit un schéma qui spécifie les règles d’évolution du contrat dans le temps. Ce schéma sert de norme pour la construction des contrats intelligents dans RGB, et à la fois un émetteur lors de la définition d'un contrat pour l'émission et un portefeuille ou une bourse doivent adhérer à un schéma particulier contre lequel ils doivent valider le contrat. Seulement si la validation est correcte, chaque partie peut accepter les demandes et travailler avec l'actif.
 
-Un contrat intelligent dans RGB est un graphe acyclique dirigé (DAG) de changements d'état, où seule une partie du graphe est toujours connue et il n'y a pas d'accès au reste. Le schéma RGB est un ensemble de règles de base pour l'évolution de ce graphe avec lequel le contrat intelligent démarre. Chaque participant au contrat peut ajouter à ces règles (si cela est autorisé par le schéma) et le graphe résultant est construit à partir de l'application itérative de ces règles.
+Un contrat intelligent dans RGB est représenté par un graphe acyclique dirigé (DAG) de changements d'état, dont seule une partie du graphe est toujours visible pour chaque participant, sans accès au reste. Le schéma RGB est un ensemble de règles de base qui régissent l'évolution de ce graphe dès la création du contrat. Chaque participant au contrat peut ajouter à ces règles (si cela est autorisé par le schéma) et le graphe résultant est construit à partir de l'application itérative de ces règles.
 
 ## Actifs fongibles
 
-Les actifs fongibles dans RGB suivent la spécification LNPBP RGB-20, lorsque RGB-20 est défini, les données d'actif connues sous le nom de "données de genèse" sont distribuées via le réseau Lightning, ce qui contient ce qui est nécessaire pour utiliser l'actif. La forme la plus basique des actifs n'autorise pas l'émission secondaire, la destruction de jetons, la renomination ou le remplacement.
+Les actifs fongibles dans RGB suivent la spécification LNPBP RGB-20, lorsque RGB-20 est défini, les données d'actif connues sous le nom de "données de genèse" sont distribuées via le réseau Lightning, Ces données contiennent toutes les informations nécessaire pour utiliser l'actif. La forme la plus basique des actifs ne permettent ni l'émission secondaire, ni la destruction de jetons, ni la renomination, ni le remplacement.
 
-Parfois, l'émetteur aura besoin d'émettre plus de jetons à l'avenir, par exemple des stablecoins tels que USDT, qui maintiennent la valeur de chaque jeton liée à la valeur d'une monnaie inflationniste telle que le dollar américain. Pour cela, des schémas RGB-20 plus complexes existent, et en plus des données de genèse, ils exigent de l'émetteur de produire des envois, qui circuleront également dans le réseau Lightning ; avec ces informations, nous pouvons connaître l'offre totale en circulation de l'actif. Il en va de même pour les actifs brûlants ou pour le changement de leur nom.
+Parfois, l'émetteur peut avoir besoin d'émettre plus de jetons à l'avenir. C’est le cas, par exemple, des stablecoins tels que USDT, qui maintiennent la valeur de chaque jeton indexée sur une monnaie inflationniste comme le dollar américain. Pour cela, des schémas RGB-20 plus complexes existent, et en plus des données de genèse, ils exigent de l'émetteur de produire des envois supplémentaires, qui circuleront également dans le réseau Lightning. Grâce à ces informations, nous pouvons connaître l'offre totale en circulation de l'actif. Il en va de même pour la destruction (burn) de jetons ou pour le changement du nom d'un actif.
 
 Les informations relatives à l'actif peuvent être publiques ou privées : si l'émetteur exige la confidentialité, il peut choisir de ne pas partager d'informations sur le jeton et effectuer des opérations en toute confidentialité absolue, mais nous avons également le cas inverse où l'émetteur et les détenteurs ont besoin que tout le processus soit transparent. Cela est réalisé en partageant les données du jeton.
 
 ## Procédures RGB-20
 
-La procédure de destruction désactive les jetons, les jetons brûlés ne peuvent plus être utilisés.
+La procédure de destruction désactive les jetons, une fois les jetons brûlés ils ne peuvent plus être utilisés.
 
-La procédure de remplacement se produit lorsque des jetons sont brûlés et qu'une nouvelle quantité du même jeton est créée. Cela permet de réduire la taille des données historiques de l'actif, ce qui est important pour maintenir la rapidité de l'actif.
+La procédure de remplacement se produit lorsque des jetons sont brûlés et qu'une nouvelle quantité du même jeton est créée. Cela permet de réduire la taille des données historiques liées l'actif, ce qui contribue à maintenir la rapidité de l'actif et son efficacité.
 
-Pour prendre en charge le cas d'utilisation où il est possible de brûler des actifs sans avoir à les remplacer, un sous-schéma de RGB-20 est utilisé qui permet uniquement de brûler des actifs.
+Pour gérer les cas d'utilisation où il est possible de brûler des actifs sans les remplacer, un sous-schéma de RGB-20 est utilisé, qui permet uniquement de brûler des actifs.
 
 ## Actifs non fongibles
 
-Les actifs non fongibles (NFT) dans RGB suivent la spécification LNPBP RGB-21, lorsque nous travaillons avec des NFT, nous avons également un schéma principal et un sous-schéma. Ces schémas ont une procédure de gravure, qui nous permet d'attacher des données personnalisées par le propriétaire du jeton, l'exemple le plus courant que nous voyons aujourd'hui dans les NFT est l'art numérique lié au jeton. L'émetteur du jeton peut interdire cette gravure de données en utilisant le sous-schéma RGB-21. Contrairement à d'autres systèmes de blockchain NFT, RGB permet de distribuer des données de jeton multimédia de grande taille de manière décentralisée et résistante à la censure, en utilisant une extension du réseau P2P Lightning appelée Bifrost, qui est également utilisée pour construire de nombreuses autres fonctionnalités de contrat intelligent spécifiques à RGB.
+Les actifs non fongibles (NFT) dans RGB suivent la spécification LNPBP RGB-21, lorsque nous travaillons avec des NFT, nous utilisons un schéma principal et un sous-schéma. Ces schémas ont une procédure de gravure, qui nous permet d'attacher des données personnalisées par le propriétaire du jeton, l'exemple le plus courant que nous voyons aujourd'hui dans les NFT est l'art numérique lié au jeton. L'émetteur du jeton peut interdire cette gravure de données en utilisant le sous-schéma RGB-21. Contrairement à d'autres systèmes de blockchain NFT, RGB permet de distribuer des données de jeton multimédia de grande taille de manière décentralisée et résistante à la censure, en utilisant une extension du réseau P2P Lightning appelée Bifrost, qui est également utilisée pour construire de nombreuses autres fonctionnalités de contrat intelligent spécifiques à RGB.
 
 En plus des actifs fongibles et des NFT, RGB et Bifrost peuvent être utilisés pour produire d'autres formes de contrats intelligents, y compris des DEX, des pools de liquidité, des stablecoins algorithmiques, etc., que nous aborderons dans des articles futurs.
 
@@ -69,7 +69,7 @@ En plus des actifs fongibles et des NFT, RGB et Bifrost peuvent être utilisés 
 
 Depuis le lancement de Bitcoin, il y a près de 13 ans, il y a eu beaucoup de recherches et d'expérimentations dans ce domaine, les succès et les erreurs nous ont permis de comprendre un peu mieux le comportement des systèmes décentralisés dans la pratique, ce qui les rend vraiment décentralisés et quelles actions tendent à les mener vers la centralisation. Tout cela nous a conduit à conclure que la véritable décentralisation est un phénomène rare et difficile à atteindre, la véritable décentralisation n'a été réalisée que par Bitcoin et c'est pour cette raison que nous concentrons nos efforts pour construire dessus.
 
-RGB a son propre terrier dans le terrier du lapin Bitcoin, pendant que je tombe à travers eux, je posterai ce que j'ai appris, dans le prochain article, nous aurons une introduction aux nœuds LNP et RGB et comment les utiliser.
+RGB a son propre terrier au sein du vaste terrier du lapin qu’est Bitcoin, pendant que je tombe à travers eux, je posterai ce que j'ai appris, dans le prochain article, nous aurons une introduction aux nœuds LNP et RGB et comment les utiliser.
 
 - 1 https://plan99.net/~mike/satoshi-emails/thread4.html
 - 2 https://btctranscripts.com/chaincode-labs/chaincode-residency/2018-10-22-christian-decker-history-of-lightning/
@@ -92,7 +92,7 @@ L'utilisation d'une distribution Linux est recommandée, ce tutoriel a été éc
 - Bitcoin core
 - git
 
-Note : Ce tutoriel montre l'exécution de commandes dans un terminal Linux, pour différencier ce que l'utilisateur écrit et la réponse qu'il obtient dans le terminal, nous incluons le symbole $ symbolisant l'invite de commande bash.
+Note : Ce tutoriel présente l'exécution de commandes dans un terminal Linux. Pour distinguer ce que l'utilisateur saisit de la réponse que le terminal renvoie, nous incluons le symbole $, qui représente l'invite de commande bash.
 
 Vous devrez installer certaines dépendances :
 
@@ -138,20 +138,20 @@ alias rgb1-cli="$HOME/.cargo/bin/rgb-cli -d $HOME/rgbdata/data1 -n testnet"
 Nous pouvons simplement exécuter les alias ou les ajouter à la fin du fichier $HOME/.bashrc et exécuter source $HOME/.bashrc.
 Prémisse
 
-RGB-node ne gère aucune fonctionnalité liée au portefeuille, il effectue simplement des tâches spécifiques à RGB sur les données qui seront fournies par un portefeuille externe tel que bitcoin core. En particulier, pour démontrer un flux de travail de base avec l'émission et le transfert, nous aurons besoin de :
+RGB-node ne gère aucune fonctionnalité liée au portefeuille, il effectue simplement des tâches spécifiques à RGB sur les données qui seront fournies par un portefeuille externe tel que bitcoin core. En particulier, pour illustrer un flux de travail de base avec l'émission et le transfert, nous aurons donc besoin de :
 
 - Un issuance_utxo auquel rgb-node-0 liera l'actif nouvellement émis
 - Un receive_utxo où rgb-node-1 reçoit l'actif
 - Un change_utxo où rgb-node-0 reçoit le changement d'actif
 - Une transaction bitcoin partiellement signée (tx.psbt), dont la clé publique de sortie sera ajustée pour inclure un engagement de transfert.
-  Nous utiliserons le bitcoin core cli, nous devons avoir le démon bitcoind en cours d'exécution sur testnet, cela nous donnera une interopérabilité et à la fin nous pourrons envoyer nos propres actifs à d'autres utilisateurs RGB qui ont suivi ce tutoriel.
+  Nous utiliserons le client bitcoin core cli, ce qui nécessite d’avoir le démon bitcoind en cours d'exécution sur testnet, cela nous garantit une bonne interopérabilité, et à la fin nous pourrons envoyer nos propres actifs à d'autres utilisateurs RGB qui ont suivi ce tutoriel.
   Pour simplifier, nous ajouterons cet alias à la fin de notre fichier ~/.bashrc.
 
 ```
 alias bcli="bitcoin-cli -testnet"
 ```
 
-Listons nos transactions de sortie non dépensées et en sélectionnons deux, l'une sera l'issuance_utxo et l'autre change_utxo, peu importe lequel est lequel, l'important est que l'émetteur ait le contrôle de ces deux UTXO.
+Listons nos transactions de sortie non dépensées et en sélectionnons deux, l'une sera l'issuance_utxo et l'autre change_utxo, peu importe lequel joue quel rôle, l'essentiel est que l'émetteur ait le contrôle de ces deux UTXO.
 
 ```
 $ bcli listunspent
@@ -191,7 +191,7 @@ Avant d'aller plus loin, nous devons parler des outpoints, une seule transaction
 - change_utxo: cd66d3b77dfc1c2ecf958847c16a8a1311bba84ee7bf9dd55592a7b97b13028f:1
 - receive_utxo: e40d9037e31d3f440552b30af16e764cf25ffda3899b4851cc4e38fd64718b09:0
 
-Nous allons maintenant créer une transaction partiellement signée (tx.psbt) dont la sortie sera ajustée pour inclure un engagement de transfert, n'oubliez pas de remplacer le txid et le vout par les vôtres, l'adresse de destination n'a pas vraiment d'importance, elle peut être la vôtre ou celle d'une autre personne, peu importe où vont ces sats, ce qui importe, c'est que nous utilisions issuance_utxo.
+Nous allons maintenant créer une transaction partiellement signée (tx.psbt) dont la sortie sera ajustée pour inclure un engagement de transfert, n'oubliez pas de remplacer le txid et le vout par les vôtres. L'adresse de destination n'a pas vraiment d'importance, elle peut être la vôtre ou celle d'une autre personne, peu importe où vont ces sats, ce qui importe, c'est que nous utilisions issuance_utxo.
 
 ```
 $ bcli walletcreatefundedpsbt "[{/"txid/":/"4c1785210d8930959f530072cffea7f9606e0599b0de9e89aed60f2e9f133893/",/"vout/":1}]" "[{/"tb1q9crtjp0y6rt00c4fcrmuamrylzkcalcxls80j9/":/"0.00050000/"}]"

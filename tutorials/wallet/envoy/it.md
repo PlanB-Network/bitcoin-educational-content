@@ -22,7 +22,7 @@ In questo tutorial, rivolto ai principianti e agli utenti intermedi, scopriremo 
 
 Se siete utenti avanzati e volete esplorare funzioni più complesse, vi consiglio di dare un'occhiata a quest'altro tutorial in cui configuriamo Passport con Sparrow Wallet:
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Unboxing del Passaporto
 
@@ -170,7 +170,7 @@ A tal fine, utilizzare la scheda MicroSD inclusa nella confezione del Passport (
 
 Prima di installarlo sul dispositivo, consigliamo vivamente di verificare l'autenticità e l'integrità del firmware scaricato. Se avete bisogno di aiuto, consultate questo tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Con l'applicazione Envoy
 
@@ -254,7 +254,7 @@ Cliccate sul pulsante di conferma per visualizzare la vostra frase mnemonica.
 
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, vi consiglio di seguire quest'altro tutorial, soprattutto se siete principianti:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 naturalmente, non dovete mai condividere queste parole su Internet, come sto facendo io in questa esercitazione. Questo portfolio di esempio sarà utilizzato solo su Testnet e sarà cancellato alla fine del tutorial.
 
@@ -457,4 +457,4 @@ Congratulazioni, ora sapete come configurare e utilizzare Passport con l'applica
 
 Per ulteriori informazioni, consultare il nostro tutorial sul software Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

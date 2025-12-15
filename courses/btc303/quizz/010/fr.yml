@@ -1,0 +1,9 @@
+question: Que faut-il faire pour utiliser Bitcoin sans confiance, conformément à la conception du protocole ?
+answer: Exécution d'un nœud Bitcoin à validation complète pour vérifier soi-même tous les blocs et toutes les transactions
+wrong_answers:
+  - Utilisation d'une bourse de crypto-monnaies réputée, dotée de mesures de sécurité et d'une assurance solides
+  - S'appuyer sur plusieurs services de tiers de confiance pour la vérification croisée des informations relatives aux transactions
+  - Installation de logiciels wallet vérifiés provenant de sources officielles avec signatures numériques
+explanation: |
+  Pour utiliser Bitcoin sans confiance, vous devez exécuter un nœud Bitcoin à validation complète qui vérifie indépendamment que tous les blocs respectent les règles de consensus, vérifie le calendrier d'émission des pièces et empêche les doubles dépenses. Cela garantit que vous ne confiez pas la vérification à d'autres, ce qui maintient la propriété de confiance. L'utilisation d'échanges ou de services tiers implique de faire confiance à d'autres pour vous dire la vérité sur l'état de la blockchain. Bien que les logiciels vérifiés soient importants pour la sécurité, ils n'éliminent pas le besoin de votre propre nœud de validation pour atteindre une véritable absence de confiance dans le système Bitcoin.
+reviewed: false

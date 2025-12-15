@@ -14,7 +14,7 @@ In deze tutorial behandelen we het proces van het aanmaken van een Kraken bedrij
 Als je geïnteresseerd bent in het onderwerp van het integreren van Bitcoin in je bedrijf, raad ik je ook aan om onze volledige theoretische training over dit onderwerp te ontdekken:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Een bedrijfsaccount bij Kraken aanmaken
 
@@ -115,7 +115,7 @@ Bij de 2FA opties kun je ervoor kiezen om een fysieke beveiligingssleutel als tw
 Voor meer informatie over het gebruik van dit type apparaat, zie onze speciale handleiding:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 De andere optie is het gebruik van een verificatietoepassing zoals Google Authenticator of Authy. Deze applicaties generate een dynamische 6-cijferige code die je elke keer dat je inlogt moet invoeren.
 
@@ -132,7 +132,7 @@ Om deze methode te activeren, scan je de QR-code met de applicatie van je keuze 
 Voor meer informatie over verificatietoepassingen kun je ook deze tutorial raadplegen:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Daaronder heeft u ook toegang tot geavanceerde instellingen, waaronder de mogelijkheid om verschillende 2FA's in te stellen. Kraken biedt geavanceerde beveiligingsdelegatie via 2FA. Met deze functie kunt u verschillende 2FA-niveaus aanmaken voor verschillende acties, zoals inloggen, ordervalidatie en geldopname. Dit maakt het bijvoorbeeld mogelijk om een accountant toegang te geven tot bepaalde functionaliteiten zonder dat hij of zij geld kan opnemen. Dit zijn de opties:
 
@@ -320,4 +320,4 @@ Afhankelijk van de doelstellingen en structuur van uw bedrijf kan het gebruik va
 Voor een meer diepgaande kijk op dit onderwerp, raad ik deze uitgebreide training aan over het integreren van Bitcoin in bedrijven, die in detail ingaat op het toevoegen aan de cashflow, het accepteren van Bitcoin betalingen, en de boekhouding:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

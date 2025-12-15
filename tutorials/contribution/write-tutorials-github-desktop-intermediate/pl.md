@@ -1,6 +1,6 @@
 ---
 name: Wkład - samouczek z GitHub Desktop (średniozaawansowany)
-description: Kompletny przewodnik po proponowaniu samouczka na Plan ₿ Network przy użyciu GitHub Desktop
+description: Kompletny przewodnik po proponowaniu samouczka na Plan ₿ Academy przy użyciu GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
@@ -8,24 +8,24 @@ description: Kompletny przewodnik po proponowaniu samouczka na Plan ₿ Network 
 Przed przystąpieniem do tego samouczka dotyczącego dodawania nowego samouczka należy wykonać kilka wstępnych kroków. Jeśli jeszcze tego nie zrobiłeś, zapraszam najpierw do zapoznania się z tym samouczkiem wprowadzającym, a następnie do powrotu tutaj:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Już to zrobiłeś:
 
 
 - Wybierz temat swojego samouczka;
-- Kontakt z zespołem Plan ₿ Network za pośrednictwem [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub paolo@planb.network;
+- Kontakt z zespołem Plan ₿ Academy za pośrednictwem [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub paolo@planb.network;
 - Wybierz swoje narzędzia.
 
 
-W tym samouczku zobaczymy, jak dodać swój samouczek na Plan ₿ Network, konfigurując lokalne środowisko za pomocą GitHub Desktop. Jeśli jesteś już biegły w Git, ten bardzo szczegółowy poradnik może nie być dla ciebie konieczny. Zalecałbym raczej zapoznanie się z tym innym poradnikiem, w którym przedstawiam tylko główne wytyczne, bez szczegółowych wskazówek krok po kroku:
+W tym samouczku zobaczymy, jak dodać swój samouczek na Plan ₿ Academy, konfigurując lokalne środowisko za pomocą GitHub Desktop. Jeśli jesteś już biegły w Git, ten bardzo szczegółowy poradnik może nie być dla ciebie konieczny. Zalecałbym raczej zapoznanie się z tym innym poradnikiem, w którym przedstawiam tylko główne wytyczne, bez szczegółowych wskazówek krok po kroku:
 
 
 
 - **Doświadczeni użytkownicy**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 Jeśli wolisz nie konfigurować lokalnego środowiska, postępuj zgodnie z tym innym samouczkiem przeznaczonym dla początkujących, w którym wprowadzamy zmiany bezpośrednio przez Interface w sieci GitHub:
 
@@ -34,7 +34,7 @@ Jeśli wolisz nie konfigurować lokalnego środowiska, postępuj zgodnie z tym i
 - **Początkujący (web Interface)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Wymagania wstępne
 
@@ -56,21 +56,21 @@ Wymagania wstępne przed rozpoczęciem samouczka:
 
 
 - Posiadać konto [GitHub] (https://github.com/signup);
-- Posiadanie Fork z [repozytorium źródłowego Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content);
-- Posiadać [profil profesora na Plan ₿ Network](https://planb.network/professors) (tylko jeśli proponujesz kompletny samouczek).
+- Posiadanie Fork z [repozytorium źródłowego Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Posiadać [profil profesora na Plan ₿ Academy](https://planb.academy/professors) (tylko jeśli proponujesz kompletny samouczek).
 
 
 Jeśli potrzebujesz pomocy w uzyskaniu tych warunków wstępnych, moje inne samouczki pomogą ci:
 
 
 
-Gdy wszystko jest już na swoim miejscu, a lokalne środowisko jest odpowiednio skonfigurowane z własnym Fork z Plan ₿ Network, możesz rozpocząć dodawanie samouczka.
+Gdy wszystko jest już na swoim miejscu, a lokalne środowisko jest odpowiednio skonfigurowane z własnym Fork z Plan ₿ Academy, możesz rozpocząć dodawanie samouczka.
 
 
 ## 1 - Utwórz nowy oddział
 
 
-Otwórz przeglądarkę i przejdź do strony Fork repozytorium Plan ₿ Network. Jest to Fork, które utworzyłeś na GitHub. Adres URL Fork powinien wyglądać następująco: `https://github.com/[twoja-nazwa-użytkownika]/Bitcoin-educational-content`:
+Otwórz przeglądarkę i przejdź do strony Fork repozytorium Plan ₿ Academy. Jest to Fork, które utworzyłeś na GitHub. Adres URL Fork powinien wyglądać następująco: `https://github.com/[twoja-nazwa-użytkownika]/Bitcoin-educational-content`:
 
 
 ![TUTO](assets/fr/03.webp)
@@ -106,7 +106,7 @@ Kliknij tę gałąź, a następnie kliknij przycisk "Nowa gałąź":
 ![TUTO](assets/fr/08.webp)
 
 
-Upewnij się, że nowa gałąź jest oparta na repozytorium źródłowym, a mianowicie `PlanB-Network/Bitcoin-educational-content`.
+Upewnij się, że nowa gałąź jest oparta na repozytorium źródłowym, a mianowicie `Plan ₿ Academy/Bitcoin-educational-content`.
 
 
 Nazwij swoją gałąź w taki sposób, aby tytuł jasno określał jej cel, używając myślników do oddzielenia każdego słowa. Na przykład, powiedzmy, że naszym celem jest napisanie samouczka na temat korzystania z oprogramowania Sparrow Wallet. W takim przypadku gałąź robocza przeznaczona do napisania tego samouczka mogłaby nosić nazwę: `tuto-sparrow-Wallet-loic`. Po wprowadzeniu odpowiedniej nazwy, kliknij `Create branch`, aby potwierdzić utworzenie gałęzi:
@@ -143,7 +143,7 @@ Musisz zainstalować na swoim komputerze:
 - Python 3.8 lub nowszy.
 
 
-Aby użyć skryptu, należy przejść do folderu, w którym jest on przechowywany. Skrypt znajduje się w repozytorium danych Plan ₿ Network w ścieżce: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+Aby użyć skryptu, należy przejść do folderu, w którym jest on przechowywany. Skrypt znajduje się w repozytorium danych Plan ₿ Academy w ścieżce: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 
 Po znalezieniu się w folderze zainstaluj zależności:
@@ -203,7 +203,7 @@ Ta czynność spowoduje automatyczne wpisanie identyfikatora UUID profesora w od
 Jeśli nie masz jeszcze profilu profesora, zapoznaj się z tym samouczkiem:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Następnie kliknij przycisk "Nowy samouczek".
 
@@ -229,7 +229,7 @@ Wybierz nazwę dla katalogu utworzonego specjalnie na potrzeby samouczka. Nazwa 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-Identyfikator `project_id` to identyfikator UUID firmy lub organizacji stojącej za narzędziem opisanym w poradniku, dostępny [na liście projektów] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, dla samouczka na temat Sparrow Wallet, można znaleźć jego `project_id` w pliku: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Network utrzymuje bazę danych firm i organizacji aktywnych w Bitcoin lub powiązanych projektach. Dodając powiązany `project_id`, łączysz swoją zawartość z odpowiednim podmiotem.
+Identyfikator `project_id` to identyfikator UUID firmy lub organizacji stojącej za narzędziem opisanym w poradniku, dostępny [na liście projektów] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, dla samouczka na temat Sparrow Wallet, można znaleźć jego `project_id` w pliku: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych firm i organizacji aktywnych w Bitcoin lub powiązanych projektach. Dodając powiązany `project_id`, łączysz swoją zawartość z odpowiednim podmiotem.
 
 
 ***Aktualizacja:*** W nowej wersji skryptu nie trzeba już ręcznie wprowadzać `project_id`. Dodano funkcję wyszukiwania, aby znaleźć projekt według nazwy i automatycznie pobrać odpowiedni `project_id`. Wpisz początek nazwy projektu w polu "Project Name", aby go wyszukać, a następnie wybierz żądaną firmę z rozwijanego menu. Identyfikator `project_id` zostanie automatycznie wypełniony w polu poniżej. W razie potrzeby można go również wprowadzić ręcznie.
@@ -238,7 +238,7 @@ Identyfikator `project_id` to identyfikator UUID firmy lub organizacji stojącej
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-W przypadku tagów wybierz 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybierając wyłącznie z [listy tagów Plan ₿ Network] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Oprogramowanie udostępnia również funkcję wyszukiwania słów kluczowych z rozwijaną listą.
+W przypadku tagów wybierz 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybierając wyłącznie z [listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Oprogramowanie udostępnia również funkcję wyszukiwania słów kluczowych z rozwijaną listą.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -262,7 +262,7 @@ Więcej informacji na temat tego skryptu Pythona można znaleźć w pliku [READM
 Otwórz menedżera plików i przejdź do folderu `Bitcoin-educational-content`, który reprezentuje lokalny klon repozytorium. Zazwyczaj powinieneś go znaleźć pod `Documents\GitHub\Bitcoin-educational-content`.
 
 
-W tym katalogu należy zlokalizować odpowiedni podfolder do umieszczenia samouczka. Organizacja folderów odzwierciedla różne sekcje strony Plan ₿ Network. W naszym przykładzie, ponieważ chcemy dodać samouczek na temat Sparrow Wallet, powinniśmy przejść do następującej ścieżki: `Bitcoin-educational-content\tutorials\Wallet`, która odpowiada sekcji `Wallet` na stronie internetowej:
+W tym katalogu należy zlokalizować odpowiedni podfolder do umieszczenia samouczka. Organizacja folderów odzwierciedla różne sekcje strony Plan ₿ Academy. W naszym przykładzie, ponieważ chcemy dodać samouczek na temat Sparrow Wallet, powinniśmy przejść do następującej ścieżki: `Bitcoin-educational-content\tutorials\Wallet`, która odpowiada sekcji `Wallet` na stronie internetowej:
 
 
 ![TUTO](assets/fr/12.webp)
@@ -344,15 +344,15 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ta informacja jest dodawana do pliku YAML samouczka, ponieważ Plan ₿ Network utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
+- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Ta informacja jest dodawana do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
 
 
 
-- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Network] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **category**: Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Network (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Academy (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
@@ -383,7 +383,7 @@ Poniżej znajdują się wymagane pola:
 Aby uzyskać więcej informacji na temat identyfikatora nauczyciela, zapoznaj się z odpowiednim samouczkiem:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -518,7 +518,7 @@ Aby wstawić diagram do dokumentu, użyj następującego polecenia Markdown, upe
 Wykrzyknik na początku wskazuje, że jest to obraz. Tekst alternatywny, który pomaga w dostępności i SEO, jest umieszczony między nawiasami. Wreszcie, ścieżka do obrazu jest wskazana między nawiasami.
 
 
-Jeśli chcesz tworzyć własne diagramy, pamiętaj o przestrzeganiu karty graficznej Plan ₿ Network, aby zapewnić spójność wizualną:
+Jeśli chcesz tworzyć własne diagramy, pamiętaj o przestrzeganiu karty graficznej Plan ₿ Academy, aby zapewnić spójność wizualną:
 
 
 - **Czcionka**: Użyj [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -528,7 +528,7 @@ Jeśli chcesz tworzyć własne diagramy, pamiętaj o przestrzeganiu karty grafic
  - Biały: #FFFFFF
 
 
-**Niezbędne jest, aby wszystkie wizualizacje zintegrowane z samouczkami były wolne od praw lub respektowały licencję pliku źródłowego**. Ponadto wszystkie diagramy publikowane na Plan ₿ Network są udostępniane na licencji CC-BY-SA, tak samo jak tekst.
+**Niezbędne jest, aby wszystkie wizualizacje zintegrowane z samouczkami były wolne od praw lub respektowały licencję pliku źródłowego**. Ponadto wszystkie diagramy publikowane na Plan ₿ Academy są udostępniane na licencji CC-BY-SA, tak samo jak tekst.
 
 **-> Wskazówka:** Podczas publicznego udostępniania plików, takich jak obrazy, ważne jest, aby usunąć wszelkie niepotrzebne metadane. Mogą one zawierać poufne informacje, takie jak dane o lokalizacji, daty utworzenia lub szczegóły dotyczące autora. Aby chronić swoją prywatność, zaleca się usunięcie tych metadanych. Aby uprościć ten proces, można użyć specjalistycznych narzędzi, takich jak [Exif Cleaner](https://exifcleaner.com/), który umożliwia czyszczenie metadanych dokumentu za pomocą prostego przeciągania i upuszczania.
 
@@ -571,7 +571,7 @@ Możesz sprawdzić ostatni raz, czy wprowadzone modyfikacje są poprawne, a nast
 ![TUTO](assets/fr/32.webp)
 
 
-Żądanie ściągnięcia to prośba o zintegrowanie zmian z gałęzi użytkownika do głównej gałęzi repozytorium Plan ₿ Network, co pozwala na przejrzenie i omówienie zmian przed ich połączeniem.
+Żądanie ściągnięcia to prośba o zintegrowanie zmian z gałęzi użytkownika do głównej gałęzi repozytorium Plan ₿ Academy, co pozwala na przejrzenie i omówienie zmian przed ich połączeniem.
 
 
 Nastąpi automatyczne przekierowanie do przeglądarki w serwisie GitHub na stronę przygotowania wniosku o pociągnięcie:
@@ -584,7 +584,7 @@ Wskaż tytuł, który krótko podsumowuje zmiany, które chcesz scalić z repozy
 ![TUTO](assets/fr/34.webp)
 
 
-Twój PR będzie wtedy widoczny w zakładce `Pull Request` głównego repozytorium Plan ₿ Network. Wszystko, co musisz zrobić, to poczekać, aż administrator skontaktuje się z tobą, aby potwierdzić połączenie twojego wkładu lub poprosić o dodatkowe modyfikacje.
+Twój PR będzie wtedy widoczny w zakładce `Pull Request` głównego repozytorium Plan ₿ Academy. Wszystko, co musisz zrobić, to poczekać, aż administrator skontaktuje się z tobą, aby potwierdzić połączenie twojego wkładu lub poprosić o dodatkowe modyfikacje.
 
 
 ![TUTO](assets/fr/35.webp)
@@ -606,7 +606,7 @@ Jeśli chcesz wprowadzić zmiany w swoim wkładzie po przesłaniu PR, procedura 
 
 
 - Jeśli twój PR jest nadal otwarty i nie został jeszcze scalony, wprowadź zmiany lokalnie, pozostając w tej samej gałęzi. Gdy modyfikacje zostaną sfinalizowane, użyj przycisku `Push origin`, aby dodać nowe zatwierdzenie do wciąż otwartego PR;
-- Jeśli twój PR został już scalony z główną gałęzią, będziesz musiał rozpocząć proces od nowa, tworząc nową gałąź, a następnie przesyłając nowy PR. Przed kontynuowaniem upewnij się, że lokalne repozytorium jest zsynchronizowane z repozytorium źródłowym Plan ₿ Network.
+- Jeśli twój PR został już scalony z główną gałęzią, będziesz musiał rozpocząć proces od nowa, tworząc nową gałąź, a następnie przesyłając nowy PR. Przed kontynuowaniem upewnij się, że lokalne repozytorium jest zsynchronizowane z repozytorium źródłowym Plan ₿ Academy.
 
 
 Jeśli napotkasz trudności techniczne w przesłaniu swojego samouczka, nie wahaj się poprosić o pomoc na [naszej dedykowanej grupie Telegram dla kontrybucji] (https://t.me/PlanBNetwork_ContentBuilder). Dziękujemy!

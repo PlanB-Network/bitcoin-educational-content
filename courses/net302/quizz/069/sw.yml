@@ -6,4 +6,4 @@ wrong_answers:
   - 8 biti
 explanation: |
   Biti 64 za kwanza za IPv6 Address kwa ujumla zimehifadhiwa kwa kiambishi awali cha subnet.
-reviewed: false
+reviewed: true

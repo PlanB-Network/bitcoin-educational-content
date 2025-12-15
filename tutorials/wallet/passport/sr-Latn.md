@@ -30,7 +30,7 @@ Da biste upravljali svojim sigurnim Wallet na Passport-u, imate nekoliko opcija.
 Ako ste početnik, najlakša opcija je da koristite svoj Passport sa izvornom Envoy aplikacijom, koju je razvila Foundation. Da biste saznali kako koristiti Envoy sa svojim Passport-om, pogledajte ovaj drugi vodič :
 
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Otvaranje pasoša
 
@@ -201,7 +201,7 @@ Da biste to uradili, koristite MicroSD karticu uključenu u vaš Passport paket 
 Pre nego što ga instalirate na svoj uređaj, toplo vam savetujemo da proverite autentičnost i integritet preuzetog firmvera. Ako vam je potrebna pomoć oko ovoga, pogledajte ovaj vodič :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Nakon provere `.bin` fajla, postavite ga na vašu MicroSD karticu, zatim je ubacite u Passport. Passport istraživač fajlova će se otvoriti. Izaberite fajl `vN.N.N-passport.bin`.
 
@@ -299,7 +299,7 @@ Kliknite na dugme za potvrdu da vidite vašu Mnemonic frazu.
 Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic frazom, toplo preporučujem da pratite ovaj drugi vodič, posebno ako ste početnik:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 naravno, nikada ne smete deliti ove reči na Internetu, kao što ja radim u ovom uputstvu. Ovaj uzorak Wallet će biti korišćen samo na Testnet i biće obrisan na kraju uputstva.
 
@@ -428,7 +428,7 @@ Pre nego što nastavite, ako želite, možete dodati BIP39 passphrase. BIP39 pas
 Pre nego što konfigurišete ovu opciju na vašem Passport-u, preporučuje se da pročitate ovaj članak kako biste u potpunosti razumeli teorijski rad passphrase i izbegli greške koje bi mogle dovesti do gubitka vaših bitkoina:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Da biste ga aktivirali, idite na meni "*Više*" i kliknite na "*Unesite passphrase*".
 
@@ -445,7 +445,7 @@ Unesite svoj passphrase koristeći aA1 tastaturu i obavezno ga sačuvajte jedan 
 Imajte na umu da su BIP39 lozinke osetljive na velika i mala slova, kao i na tipografske greške. Ako unesete passphrase koji je malo drugačiji od onog koji je prvobitno konfigurisan, Passport neće prijaviti grešku, ali će generisati drugi skup kriptografskih ključeva koji neće biti oni u vašem početnom Wallet.
 
 
-Važno je, dakle, prilikom konfigurisanja, negde zabeležiti otisak prsta glavnog ključa koji će vam biti dat u sledećem koraku. Na primer, sa mojom passphrase `Plan B Network`, otisak prsta mog glavnog ključa je `745D526B`.
+Važno je, dakle, prilikom konfigurisanja, negde zabeležiti otisak prsta glavnog ključa koji će vam biti dat u sledećem koraku. Na primer, sa mojom passphrase `Plan ₿ Academy`, otisak prsta mog glavnog ključa je `745D526B`.
 
 
 ![Image](assets/fr/52.webp)
@@ -460,7 +460,7 @@ Svaki put kada otključate, nakon što zapišete passphrase, proverite na ovom e
 Pre nego što primite svoje prve bitkoine na vaš Wallet, **snažno vam savetujem da izvedete test praznog oporavka**. Zapišite neke referentne informacije, kao što su vaš xpub ili prvi prijemni Address, zatim obrišite vaš Wallet na Passport-u dok je još uvek prazan (`Settings -> Advanced -> Erase Passport`). Zatim pokušajte da obnovite vaš Wallet koristeći vaše papirne rezervne kopije Mnemonic fraze i bilo kojeg passphrase. Proverite da li informacije o kolačićima generisane nakon obnove odgovaraju onima koje ste prvobitno zapisali. Ako odgovaraju, možete biti sigurni da su vaše papirne rezervne kopije pouzdane. Da biste saznali više o tome kako izvesti test oporavka, molimo vas da pogledate ovaj drugi vodič :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -480,7 +480,7 @@ Počnite preuzimanjem i instaliranjem Sparrow Wallet [sa zvaničnog sajta](https
 Obavezno proverite autentičnost i integritet softvera pre instalacije. Ako ne znate kako to da uradite, molimo vas da pogledate ovaj vodič:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Kada otvorite Sparrow Wallet, kliknite na karticu "*File*", zatim na "*New Wallet*".
 
@@ -710,4 +710,4 @@ Vaša transakcija je emitovana i čeka potvrdu.
 Za dodatne informacije, pogledajte naš vodič o softveru Liana:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

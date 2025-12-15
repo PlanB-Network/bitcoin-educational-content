@@ -10,7 +10,7 @@ PlanB sitt oppdrag er å tilby førsteklasses utdanningsressurser om Bitcoin på
 ![book](assets/01.webp)
 - Først må du ha en GitHub-konto. Hvis du ikke vet hvordan du oppretter en konto, har vi laget en detaljert veiledning for å veilede deg.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gå til [GitHub-repositoriet til PlanB dedikert til data](https://github.com/DecouvreBitcoin/sovereign-university-data/tree/dev/resources/books) i `resources/books/`-seksjonen:
@@ -70,7 +70,7 @@ tags:
 ![bok](assets/13.webp)
 - Klikk på GitHub-profilbildet ditt øverst til høyre, deretter på `Dine Repositories`:
 ![bok](assets/14.webp)
-- Velg din fork av PlanB Network-repositoriet:
+- Velg din fork av Plan ₿ Academy-repositoriet:
 ![bok](assets/15.webp)
 - Du bør se en notifikasjon øverst i vinduet med din nye branch. Den heter sannsynligvis `patch-1`. Klikk på den:
 ![bok](assets/16.webp)
@@ -92,7 +92,7 @@ tags:
 ![bok](assets/24.webp)
 - Klikk på `Legg til fil`-knappen, deretter på `Last opp filer`:
 ![bok](assets/25.webp)
-- En ny side vil åpne seg. Dra og slipp omslagsbildet til boken din inn i området. Dette bildet vil bli vist på PlanB Network-nettstedet:
+- En ny side vil åpne seg. Dra og slipp omslagsbildet til boken din inn i området. Dette bildet vil bli vist på Plan ₿ Academy-nettstedet:
 ![bok](assets/26.webp)
 - Vær forsiktig, bildet må være i formatet til en bok, for å best tilpasse seg nettstedet vårt, som for eksempel:
 ![bok](assets/27.webp)
@@ -159,7 +159,7 @@ contributors:
 ![bok](assets/43.webp)
 - Klikk på `Opprett trekkforespørsel`-knappen:
 ![bok](assets/44.webp)
-Gratulerer! Din PR har blitt vellykket opprettet. En administrator vil nå gjennomgå den og, hvis alt er i orden, slå den sammen med hovedlageret til PlanB Network. Du bør se boken din dukke opp på nettstedet noen dager senere.
+Gratulerer! Din PR har blitt vellykket opprettet. En administrator vil nå gjennomgå den og, hvis alt er i orden, slå den sammen med hovedlageret til Plan ₿ Academy. Du bør se boken din dukke opp på nettstedet noen dager senere.
 
 Sørg for å følge med på fremgangen til din PR. En administrator kan legge igjen en kommentar som ber om ytterligere informasjon. Så lenge din PR ikke er validert, kan du se den i `Trekkforespørsler`-fanen på PlanB Networks GitHub-lager:
 ![bok](assets/45.webp)

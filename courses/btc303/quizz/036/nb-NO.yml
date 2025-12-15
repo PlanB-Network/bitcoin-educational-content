@@ -1,0 +1,9 @@
+question: Hva er den viktigste forskjellen mellom blokksubsidier og transaksjonsgebyrer når det gjelder hvem som til syvende og sist bærer kostnadene for Bitcoins nettverkssikkerhet?
+answer: Blokksubsidiekostnadene bæres av innehaverne gjennom pengeinflasjon, mens transaksjonsgebyrene betales av dem som bruker pengene
+wrong_answers:
+  - Blokksubsidieringskostnadene betales av utvinnerne gjennom utgifter til utstyr, mens transaksjonsgebyrene bæres av nodeoperatørene
+  - Blokksubsidiekostnadene deles likt mellom alle nettverksdeltakerne, mens transaksjonsgebyrene bare rammer store institusjoner
+  - Blokksubsidieringskostnadene bæres av børsene gjennom handelsavgifter, mens transaksjonsavgifter betales av wallet-leverandører
+explanation: |
+  Som Paul Sztorc bemerket, er blokksubsidier og transaksjonsgebyrer fundamentalt forskjellige. Blokksubsidier representerer ny bitcoinproduksjon, noe som utvanner det eksisterende tilbudet og i praksis koster alle bitcoin-innehavere gjennom pengeinflasjon. Transaksjonsgebyrer er derimot direkte betalinger fra brukere som ønsker å utføre transaksjoner, noe som betyr at de som bruker penger, bærer denne kostnaden direkte. Kapittelet illustrerer denne overgangen ved å vise hvordan sikkerhetskostnadene flyttes fra innehavere til brukere etter hvert som blokksubsidien reduseres over tid.
+reviewed: false

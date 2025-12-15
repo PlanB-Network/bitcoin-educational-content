@@ -100,7 +100,7 @@ Finn ut mer i vår Thunderbird-veiledning:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid gir deg all den informasjonen du trenger for å avgjøre om bruken av en applikasjon beskytter dataene dine og forbedrer personvernet ditt. Skann alle applikasjonene du ønsker å bruke, og klikk deretter på **Install**-knappen for å laste ned og installere applikasjonen.
 
@@ -187,4 +187,4 @@ Hvis du likte denne veiledningen, kan du lese mer om kurset vårt i IT-sikkerhet
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

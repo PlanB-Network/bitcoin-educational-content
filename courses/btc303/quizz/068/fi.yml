@@ -1,0 +1,9 @@
+question: Kun louhijat yhdistyvät mining-pooleihin, joilla on suurempi kaistanleveys ja yhteydet välttääkseen vanhentuneita lohkoja lohkokokojen kasvaessa, mikä on ensisijainen kielteinen seuraus Bitcoin-verkolle?
+answer: Se vähentää mining:n hajauttamista, kun pienemmät louhijat työnnetään kohti suurempia pooleja, joilla on parempi infrastruktuuri
+wrong_answers:
+  - Se lisää mining-operaatioiden laskennallista vaikeutta, mikä vaikeuttaa lohkojen ratkaisemista
+  - Se aiheuttaa ylimääräisiä transaktiomaksuja, jotka on maksettava verkkoyhteyden ylläpitämiseksi
+  - Se vähentää verkon kokonaishashlausnopeutta, koska louhijat käyttävät resursseja yhteyksiin mining:n sijasta
+explanation: |
+  Luvussa selitetään, että kun lohkokoot kasvavat, etenemisajat kasvavat, mikä johtaa useampiin vanhentuneisiin lohkoihin. Jotta louhijat eivät menettäisi lohkopalkkioita vanhentuneista lohkoista, he etsivät poolit, joissa on parempi kaistanleveys ja yhteydet. Tämä ajaa louhijat kohti suurempia, hyvin yhdistettyjä pooleja, mikä vähentää mining:n hajauttamista. Muut vaihtoehdot ovat virheellisiä: vaikeusaste säätyy automaattisesti poolin yhteydestä riippumatta, yhteyskustannukset eivät aiheuta ylimääräisiä transaktiomaksuja, eivätkä louhijat vähennä hash-nopeutta liittyessään parempien yhteyksien pooliin.
+reviewed: false

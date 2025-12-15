@@ -14,7 +14,7 @@ _Mafunzo haya yametolewa kwa madhumuni ya elimu na habari pekee. Hatuidhinishi a
 
 _Mafunzo haya yamejitolea kwa usakinishaji wa RoninDojo v1. Ili kuchukua fursa ya uboreshaji na vipengele vya hivi karibuni, ninapendekeza sana kushauriana na mafunzo yetu yaliyotolewa kwa usakinishaji wa moja kwa moja wa RoninDojo v2 kwenye Raspberry Pi yako:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

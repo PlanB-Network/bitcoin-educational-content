@@ -328,4 +328,4 @@ Sada ste spremni da svakodnevno koristite Ubuntu: osigurajte svoj sistem, pretra
 Da biste dodatno osigurali svoj digitalni život, preporučujemo da pogledate našu uslugu za šifrovanu razmenu poruka, koja je savršeno prilagođena zaštiti vaše privatnosti i dopunjuje vašu Ubuntu instalaciju:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

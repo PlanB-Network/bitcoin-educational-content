@@ -665,7 +665,7 @@ Orion Browser 代表著 macOS 和 iOS 上的隱私權向前邁進了一大步。
 
 
 
-### Plan ₿ Network 的替代方案
+### Plan ₿ Academy 的替代方案
 
 
 若要獲得最大程度的保護，請參閱我們的其他指南：
@@ -673,14 +673,14 @@ Orion Browser 代表著 macOS 和 iOS 上的隱私權向前邁進了一大步。
 
 
 
-- [Firefox Hardened](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - 進階多平台設定
-- [Tor 瀏覽器](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - 完整的網路匿名性
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - 最大程度的指紋保護
+- [Firefox Hardened](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - 進階多平台設定
+- [Tor 瀏覽器](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - 完整的網路匿名性
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - 最大程度的指紋保護
 
 
 
-如果您想進一步瞭解瀏覽器的歷史和操作，以及日常生活中的主要數位物件，我邀請您探索我們新的免費培訓課程 SCU 202，可在 Plan ₿ Network 上獲得：
+如果您想進一步瞭解瀏覽器的歷史和操作，以及日常生活中的主要數位物件，我邀請您探索我們新的免費培訓課程 SCU 202，可在 Plan ₿ Academy 上獲得：
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

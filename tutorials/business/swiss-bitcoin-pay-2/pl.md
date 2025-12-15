@@ -11,12 +11,12 @@ Obecnie istnieje wiele rozwiązań dla sprzedawców, którzy chcą akceptować B
 Dla tych, którzy wolą nie zawracać sobie głowy i otrzymywać środki w walucie fiducjarnej bezpośrednio na swoje konto bankowe, dostępne są rozwiązania powiernicze, takie jak Open Node:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Dla sprzedawców gotowych pobrudzić sobie ręce i chcących w pełni kontrolować proces, oprogramowanie BTCPay Server jest doskonałą opcją. Jednak główną wadą BTCPay Server jest to, że jego konfiguracja i zarządzanie wymagają czasu i pewnej wiedzy technicznej:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Wśród tych wszystkich rozwiązań, Swiss Bitcoin Pay wydaje się być bardzo interesującym kompromisem łączącym łatwość użytkowania, funkcje i bezpieczeństwo. Rozwiązanie to jest odpowiednie zarówno dla bardzo małych firm, jak i większych struktur. W tym samouczku dowiesz się, jak łatwo korzystać ze Swiss Bitcoin Pay, aby akceptować Bitcoin w swojej firmie.
 
@@ -224,4 +224,4 @@ Kliknij przycisk "*Dashboard*" w prawym górnym rogu ekranu, a następnie wprowa
 
 Wreszcie, w zakładce "*Ustawienia*" masz możliwość zmodyfikowania informacji podanych podczas rejestracji, w tym metod wypłaty i podziału między Bitcoin i fiat. ![SWISS Bitcoin PAY](assets/notext/50.webp)
 
-Gratulacje! Skonfigurowałeś teraz system procesora płatności, aby akceptować Bitcoin w swojej firmie. Jeśli chcesz również zapoznać się z BTCPay Server, bardziej zaawansowanym i złożonym rozwiązaniem, zalecamy skorzystanie z naszego kompletnego szkolenia poświęconego temu oprogramowaniu: [BTC305](https://planb.network/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).
+Gratulacje! Skonfigurowałeś teraz system procesora płatności, aby akceptować Bitcoin w swojej firmie. Jeśli chcesz również zapoznać się z BTCPay Server, bardziej zaawansowanym i złożonym rozwiązaniem, zalecamy skorzystanie z naszego kompletnego szkolenia poświęconego temu oprogramowaniu: [BTC305](https://planb.academy/courses/6fc12131-e464-4515-9d3f-9255365d5fa1).

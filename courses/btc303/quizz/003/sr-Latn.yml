@@ -1,0 +1,9 @@
+question: Koji problem je Bitcoin rešio koji prethodne digitalne valute nisu uspele da adresiraju?
+answer: Problem double-spending na decentralizovan način
+wrong_answers:
+  - Problem enkripcije u peer-to-peer mrežama
+  - Problem skladištenja za digitalne transakcije
+  - Problem brzine u onlajn plaćanjima
+explanation: |
+  Proboj Bitcoin bio je rešavanje problema double-spending bez potrebe za centralnim autoritetom. Problem double-spending je izazov sprečavanja nekoga da potroši isti digitalni novčić dva puta. Prethodne digitalne valute nisu uspele jer su se oslanjale na centralne servere ili pouzdane autoritete, što ih je činilo ranjivim na cenzuru i jedinstvene tačke kvara. Bitcoin je ovo rešio putem svog peer-to-peer distribuiranog servera vremenskih oznaka koristeći proof-of-work, omogućavajući mreži da se složi oko redosleda transakcija bez ikakve centralne kontrole.
+reviewed: false

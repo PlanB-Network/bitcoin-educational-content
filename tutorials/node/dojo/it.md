@@ -64,7 +64,7 @@ Per maggiori informazioni sulla scelta dell'attrezzatura, vi consiglio di seguir
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Attrezzatura consigliata
 
@@ -192,7 +192,7 @@ Per maggiori dettagli sul processo di installazione di Ubuntu, consultate il nos
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. aggiornamento del sistema
 
@@ -428,7 +428,7 @@ Il sistema chiederà quindi di inserire la password scelta e di confermarla una 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Autorizzare l'utente a usare Docker
 
@@ -1068,7 +1068,7 @@ Per approfondire la conoscenza dell'IBD e, più in generale, del funzionamento e
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Monitoraggio della sincronizzazione

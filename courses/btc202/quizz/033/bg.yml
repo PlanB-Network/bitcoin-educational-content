@@ -1,0 +1,9 @@
+question: Кой поддържа проекта Bitcoin Knots?
+answer: Лука Дашър
+wrong_answers:
+  - Гавин Андресен
+  - Владимир Й. Ван Дер Лаан
+  - Питер Вуйе
+explanation: |
+  Bitcoin Knots се поддържа от Luke Dashjr и служи като основен алтернативен клиент на Bitcoin Core.
+reviewed: true

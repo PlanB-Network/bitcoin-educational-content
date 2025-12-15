@@ -12,7 +12,7 @@ Il "Labelling" è una tecnica che permette di aggiungere un’annotazione, o eti
 
 Ad esempio, se ricevo un UTXO da una transazione P2P effettuata su Bisq con Charles, potrei etichettarlo come Acquisto P2P Bisq con Charles.
 
-Assegnare delle etichette agli UTXO permette di ricordarne facilmente l’origine o l’utilizzo previsto, facilitando la gestione dei fondi e migliorando la propria privacy. Questa pratica diventa ancora più efficace quando viene affiancata alla funzione di ["coin control"](https://planb.network/resources/glossary/coin-control), peculiarità offerta da molti wallet avanzati, e che permette all’utente di scegliere manualmente quali UTXO utilizzare come input in una determinata transazione.
+Assegnare delle etichette agli UTXO permette di ricordarne facilmente l’origine o l’utilizzo previsto, facilitando la gestione dei fondi e migliorando la propria privacy. Questa pratica diventa ancora più efficace quando viene affiancata alla funzione di ["coin control"](https://planb.academy/resources/glossary/coin-control), peculiarità offerta da molti wallet avanzati, e che permette all’utente di scegliere manualmente quali UTXO utilizzare come input in una determinata transazione.
 
 L’uso combinato di etichetta e coin control consente di distinguere con precisione le fonti da cui provengono i fondi, evitando di mescolare UTXO provenienti da contesti diversi. Ciò aiuta a ridurre i rischi legati all’euristica che analizza le proprietà in comune tra gli input (in inglese: Common Input Ownership Heuristic (CIOH)), secondo cui gli input di una transazione sono probabilmente controllati dallo stesso utente, ipotesi che può compromettere seriamente la privacy.
 

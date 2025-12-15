@@ -30,10 +30,10 @@ Toisaalta jotkut työkalut ovat joko kärsineet palvelimen sulkemisesta tai eiv�
 Yksittäisten kulutustyökalujen osalta kaikki toimii normaalisti, edellyttäen tietysti, että sinulla on oma Dojo. Normaalit Stonewall-siirrot (ei Stonewall x2) toimivat ilman ongelmia.
 
 Twitter-kommenteissa on korostettu, että Stonewall-siirron tarjoama yksityisyys saattaa nyt olla vähentynyt. Stonewall-siirron lisäarvo piilee siinä, että sen rakenne on erottamaton Stonewall x2 -siirrosta. Kun analyytikko kohtaa tämän tietyn mallin, hän ei voi määrittää, onko kyseessä tavallinen Stonewall yhdellä käyttäjällä vai Stonewall x2 kahdella käyttäjällä. Kuitenkin, kuten seuraavissa kappaleissa näemme, Stonewall x2 -siirtojen suorittaminen on muuttunut monimutkaisemmaksi Sorobanin saatavuuden puuttuessa. Jotkut siis ajattelevat, että analyytikko saattaisi nyt olettaa, että mikä tahansa tällaisen rakenteen siirto on normaali Stonewall. Henkilökohtaisesti en jaa tätä oletusta. Vaikka Stonewall x2 -siirrot saattavat olla harvinaisempia (ja luulen, että ne olivat jo ennen tätä tapausta), se, että ne ovat edelleen mahdollisia, voi mitätöidä koko analyysin, joka perustuu oletukseen, että ne eivät ole.
-**[-> Lue lisää Stonewall-siirroista.](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Lue lisää Stonewall-siirroista.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Ricochetin osalta en ole pystynyt varmistamaan, onko palvelu edelleen toiminnassa, koska minulla ei ole Dojoa Testnetissä, ja haluan välttää riskin käyttää `100 000 satsia` lompakkoon, jota viranomaiset saattavat hallita. Jos sinulla on ollut mahdollisuus testata tätä työkalua äskettäin, pyydän sinua ottamaan yhteyttä minuun, jotta voimme päivittää tämän artikkelin.
 
-Jos tarvitset Ricochetia, muista, että voit aina suorittaa tämän toimenpiteen manuaalisesti millä tahansa lompakko-ohjelmistolla. Jos haluat oppia suorittamaan eri hyppyjä manuaalisesti oikein, suosittelen tutustumaan tähän toiseen artikkeliin: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+Jos tarvitset Ricochetia, muista, että voit aina suorittaa tämän toimenpiteen manuaalisesti millä tahansa lompakko-ohjelmistolla. Jos haluat oppia suorittamaan eri hyppyjä manuaalisesti oikein, suosittelen tutustumaan tähän toiseen artikkeliin: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 JoinBot-työkalu ei ole enää toiminnassa, koska se riippui täysin Samourain hallinnoiman lompakon osallistumisesta.
 
@@ -44,9 +44,9 @@ Muiden yhteistyöllisten siirtojen osalta, joita usein kutsutaan "cahoots"-siirr
 Useiden testien jälkeen vaikuttaa siltä, että Soroban ei enää toimi. Näiden yhteistyöllisten siirtojen suorittamiseksi datan vaihto on siis tehtävä manuaalisesti. Tässä on kaksi vaihtoehtoa tämän vaihdon suorittamiseksi:
 - Jos olet fyysisesti lähellä yhteistyökumppaniasi, voit skannata QR-koodeja peräkkäin;
 - Jos olet kaukana yhteistyökumppanistasi, voit vaihtaa PSBT:t ulkoisen viestintäkanavan kautta sovelluksen ulkopuolella. Ole kuitenkin varovainen, sillä näissä PSBT:ssä olevat tiedot ovat yksityisyyden kannalta arkaluonteisia. Suosittelen salatun viestipalvelun käyttöä vaihdon luottamuksellisuuden varmistamiseksi.
-**[-> Lue lisää Stonewall x2 -transaktioista.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Lue lisää Stonewall x2 -transaktioista.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Lue lisää Stowaway-transaktioista.](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Lue lisää Stowaway-transaktioista.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Mitä tulee Whirlpooliin, protokolla ei näytä enää toimivan, edes käyttäjille, joilla on oma Dojo. Olen seurannut RoninDojoani viime päivinä ja yrittänyt joitakin perusmanipulaatioita, mutta Whirlpool CLI ei ole kyennyt muodostamaan yhteyttä palvelimen sulkemisen jälkeen.
 
@@ -146,7 +146,7 @@ Jos käytät eri ohjelmistoa kuin Sparrow, kuten Electrum, Samourai-lompakkosi p
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Nyt sinulla on pääsy bitcoineihisi Sparrow'ssa. Jos tarvitset apua Sparrow Walletin käyttöön, voit myös tutustua [omistettuun opastukseemme](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Nyt sinulla on pääsy bitcoineihisi Sparrow'ssa. Jos tarvitset apua Sparrow Walletin käyttöön, voit myös tutustua [omistettuun opastukseemme](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Suosittelen myös manuaalisesti tuomaan Samouraissa UTXO:ihisi liitetyt nimikkeet. Tämä mahdollistaa tehokkaan kolikoiden hallinnan Sparrow'ssa myöhemmin.
 
@@ -202,7 +202,7 @@ Jos käytät toista ohjelmistoa, kuten Electrumia, palauttaaksesi Samourai-lompa
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Sinulla on nyt pääsy bitcoineihisi Sparrow'ssa. Jos tarvitset apua Sparrow Walletin käytössä, voit myös konsultoida [omistettua opastamme](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Sinulla on nyt pääsy bitcoineihisi Sparrow'ssa. Jos tarvitset apua Sparrow Walletin käytössä, voit myös konsultoida [omistettua opastamme](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 Suosittelen myös manuaalisesti tuomaan Samouraissa UTXO:ihisi liittyneet etiketit. Tämä mahdollistaa tehokkaan kolikoiden hallinnan Sparrow'ssa myöhemmin.
 

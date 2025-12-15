@@ -1,31 +1,31 @@
 ---
 name: Bidrag - Opplæring med GitHub Desktop (mellomnivå)
-description: Komplett veiledning for å foreslå en opplæring på Plan ₿ Network ved hjelp av GitHub Desktop
+description: Komplett veiledning for å foreslå en opplæring på Plan ₿ Academy ved hjelp av GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
 Før du følger denne veiledningen om hvordan du legger til en ny opplæring, må du ha gjennomført noen innledende trinn. Hvis du ikke har gjort det ennå, anbefaler jeg at du først leser denne introduksjonsveiledningen, og deretter kommer tilbake hit:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 Det har du allerede gjort:
 
 
 - Velg tema for veiledningen din;
-- Kontaktet Plan ₿ Network-teamet via [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network;
+- Kontaktet Plan ₿ Academy-teamet via [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network;
 - Velg dine bidragsverktøy.
 
-I denne veiledningen vil vi se hvordan du legger til opplæringen din på Plan ₿ Network ved å sette opp ditt lokale miljø med GitHub Desktop. Hvis du allerede er dyktig med Git, er denne veldig detaljerte opplæringen kanskje ikke nødvendig for deg. Jeg vil heller anbefale å lese denne andre veiledningen, der jeg bare presenterer de viktigste retningslinjene, uten detaljert trinnvis veiledning:
+I denne veiledningen vil vi se hvordan du legger til opplæringen din på Plan ₿ Academy ved å sette opp ditt lokale miljø med GitHub Desktop. Hvis du allerede er dyktig med Git, er denne veldig detaljerte opplæringen kanskje ikke nødvendig for deg. Jeg vil heller anbefale å lese denne andre veiledningen, der jeg bare presenterer de viktigste retningslinjene, uten detaljert trinnvis veiledning:
 
 
 - **Erfarne brukere**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Hvis du foretrekker å ikke sette opp ditt lokale miljø, kan du følge denne andre veiledningen for nybegynnere, der vi gjør endringene direkte via GitHubs webgrensesnitt:
 
 
 - **Nybegynnere (nettgrensesnitt)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Forutsetninger
 
 Programvare som kreves for å følge denne opplæringen:
@@ -41,18 +41,18 @@ Forutsetninger før du starter opplæringen:
 
 
 - Har en [GitHub-konto] (https://github.com/signup);
-- Ha en gaffel av [Plan ₿ Network source repository] (https://github.com/PlanB-Network/bitcoin-educational-content);
-- Har [en professorprofil på Plan ₿ Network] (https://planb.network/professors) (bare hvis du foreslår en fullstendig veiledning).
+- Ha en gaffel av [Plan ₿ Academy source repository] (https://github.com/PlanB-Network/bitcoin-educational-content);
+- Har [en professorprofil på Plan ₿ Academy] (https://planb.academy/professors) (bare hvis du foreslår en fullstendig veiledning).
 
 Hvis du trenger hjelp med å skaffe deg disse forutsetningene, kan du få hjelp i de andre veiledningene mine:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Når alt er på plass og det lokale miljøet ditt er riktig konfigurert med din egen gaffel av Plan ₿ Network, kan du begynne å legge til opplæringen.
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Når alt er på plass og det lokale miljøet ditt er riktig konfigurert med din egen gaffel av Plan ₿ Academy, kan du begynne å legge til opplæringen.
 
 
 ## 1 - Opprett en ny filial
 
-Åpne nettleseren din og gå til siden for din gaffel av Plan ₿ Network repository. Dette er gaffelen du har etablert på GitHub. URL-adressen til gaffelen din skal se slik ut: `https://github.com/[ditt-brukernavn]/bitcoin-educational-content`:
+Åpne nettleseren din og gå til siden for din gaffel av Plan ₿ Academy repository. Dette er gaffelen du har etablert på GitHub. URL-adressen til gaffelen din skal se slik ut: `https://github.com/[ditt-brukernavn]/bitcoin-educational-content`:
 
 ![TUTO](assets/fr/03.webp)
 
@@ -76,7 +76,7 @@ Klikk på denne grenen, og klikk deretter på knappen Ny gren:
 
 ![TUTO](assets/fr/08.webp)
 
-Sørg for at den nye grenen er basert på kildearkivet, nemlig `PlanB-Network/bitcoin-educational-content`.
+Sørg for at den nye grenen er basert på kildearkivet, nemlig `Plan ₿ Academy/bitcoin-educational-content`.
 
 Gi grenen et navn som tydeliggjør formålet med tittelen, og bruk bindestreker for å skille ordene fra hverandre. La oss for eksempel si at målet vårt er å skrive en veiledning om hvordan du bruker programvaren Sparrow Wallet. I dette tilfellet kan arbeidsgrenen som er dedikert til å skrive denne opplæringen få navnet: `tuto-sparrow-wallet-loic`. Når du har angitt et passende navn, klikker du på `Opprett gren` for å bekrefte opprettelsen av grenen:
 
@@ -103,7 +103,7 @@ Du må installere på maskinen din:
 
 - Python 3.8 eller nyere.
 
-For å bruke skriptet må du navigere til mappen der det er lagret. Skriptet ligger i Plan ₿ Network data repository på banen: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+For å bruke skriptet må du navigere til mappen der det er lagret. Skriptet ligger i Plan ₿ Academy data repository på banen: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 Når du er i mappen, installerer du avhengighetene:
 
@@ -144,7 +144,7 @@ Denne handlingen vil automatisk fylle inn din professor-UUID i det tilsvarende f
 
 Hvis du ikke har en professorprofil ennå, kan du ta en titt på denne veiledningen:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Klikk deretter på knappen "Ny opplæring".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -161,13 +161,13 @@ Velg et navn på katalogen som er opprettet spesielt for opplæringen. Navnet p�
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-Prosjekt-ID er UUID-en til selskapet eller organisasjonen som står bak verktøyet som dekkes i opplæringen, tilgjengelig [i listen over prosjekter] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, for en veiledning om Sparrow Wallet, kan du finne `project_id` i filen: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Denne informasjonen legges til i YAML-filen til opplæringen din fordi Plan ₿ Network opprettholder en database over selskaper og organisasjoner som er aktive i Bitcoin eller relaterte prosjekter. Ved å legge til den tilknyttede `project_id`, kobler du innholdet ditt til den relevante enheten.
+Prosjekt-ID er UUID-en til selskapet eller organisasjonen som står bak verktøyet som dekkes i opplæringen, tilgjengelig [i listen over prosjekter] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, for en veiledning om Sparrow Wallet, kan du finne `project_id` i filen: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Denne informasjonen legges til i YAML-filen til opplæringen din fordi Plan ₿ Academy opprettholder en database over selskaper og organisasjoner som er aktive i Bitcoin eller relaterte prosjekter. Ved å legge til den tilknyttede `project_id`, kobler du innholdet ditt til den relevante enheten.
 
 ***Oppdatering: *** I den nye versjonen av skriptet trenger du ikke lenger å skrive inn `project_id` manuelt. Det er lagt til en søkefunksjon som finner prosjektet etter navn og automatisk henter det tilsvarende `project_id`. Skriv inn begynnelsen av prosjektets navn i feltet "Project Name" for å søke etter det, og velg deretter ønsket selskap fra rullegardinmenyen. Prosjektnummeret fylles automatisk ut i feltet nedenfor. Du kan også skrive det inn manuelt om nødvendig.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-For tagger velger du to eller tre relevante nøkkelord som er relatert til opplæringsinnholdet ditt, og du velger utelukkende fra [Plan ₿ Network tag list] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programvaren har også en søkefunksjon for nøkkelord med en nedtrekksliste.
+For tagger velger du to eller tre relevante nøkkelord som er relatert til opplæringsinnholdet ditt, og du velger utelukkende fra [Plan ₿ Academy tag list] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programvaren har også en søkefunksjon for nøkkelord med en nedtrekksliste.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -183,7 +183,7 @@ Hvis du vil ha mer informasjon om dette Python-skriptet, kan du også lese [READ
 
 Åpne filbehandleren og naviger til mappen `bitcoin-educational-content`, som representerer den lokale klonen av repositoriet ditt. Du finner den vanligvis under `Documents\GitHub\bitcoin-educational-content`.
 
-I denne katalogen må du finne den riktige undermappen for plassering av opplæringen. Mappeorganiseringen gjenspeiler de ulike delene av Plan ₿ Network-nettstedet. I vårt eksempel, siden vi ønsker å legge til en veiledning om Sparrow Wallet, bør vi navigere til følgende sti: `bitcoin-educational-content\tututorials\wallet`, som tilsvarer `WALLET`-delen på nettstedet:
+I denne katalogen må du finne den riktige undermappen for plassering av opplæringen. Mappeorganiseringen gjenspeiler de ulike delene av Plan ₿ Academy-nettstedet. I vårt eksempel, siden vi ønsker å legge til en veiledning om Sparrow Wallet, bør vi navigere til følgende sti: `bitcoin-educational-content\tututorials\wallet`, som tilsvarer `WALLET`-delen på nettstedet:
 
 ![TUTO](assets/fr/12.webp)
 
@@ -250,11 +250,11 @@ Her er de obligatoriske feltene:
 
 - **id**: En UUID (_Universally Unique Identifier_) som unikt identifiserer veiledningen. Du kan generere den med [et nettbasert verktøy](https://www.uuidgenerator.net/version4). Det eneste kravet er at denne UUID-en er tilfeldig for å unngå konflikter med en annen UUID på plattformen;
 
-- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Network vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
+- **project_id**: UUID-en til selskapet eller organisasjonen bak verktøyet som presenteres i veiledningen [fra prosjektlisten](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). For eksempel, hvis du lager en veiledning om Green Wallet-programvaren, kan du finne denne `project_id` i følgende fil: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Denne informasjonen legges til i YAML-filen til veiledningen din fordi Plan ₿ Academy vedlikeholder en database over alle selskaper og organisasjoner som opererer på Bitcoin eller relaterte prosjekter. Ved å legge til `project_id` tilknyttet veiledningen din, oppretter du en kobling mellom de to elementene;
 
-- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Network tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 eller 3 relevante stikkord relatert til veiledningens innhold, valgt utelukkende [fra Plan ₿ Academy tag-listen](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Network-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Underkategorien som tilsvarer innholdet i veiledningen, i henhold til strukturen på Plan ₿ Academy-nettstedet (for eksempel for lommebøker: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Vanskelighetsnivået for veiledningen, valgt blant:
     - `beginner`
@@ -275,7 +275,7 @@ Her er de obligatoriske feltene:
 
 For mer informasjon om lærer-ID-en din, se den tilhørende veiledningen:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -378,7 +378,7 @@ For å sette inn et diagram i dokumentet bruker du følgende Markdown-kommando, 
 
 Utropstegnet i begynnelsen indikerer at det er et bilde. Den alternative teksten, som bidrar til tilgjengelighet og SEO, er plassert mellom parentesene. Til slutt er stien til bildet angitt mellom parentesene.
 
-Hvis du ønsker å lage dine egne diagrammer, må du sørge for å følge Plan ₿ Network sitt grafiske charter for å sikre visuell konsistens:
+Hvis du ønsker å lage dine egne diagrammer, må du sørge for å følge Plan ₿ Academy sitt grafiske charter for å sikre visuell konsistens:
 
 
 - **Skrifttype**: Bruk [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -387,7 +387,7 @@ Hvis du ønsker å lage dine egne diagrammer, må du sørge for å følge Plan �
  - Svart: #000000
  - Hvit: #FFFFFFFF
 
-**Det er viktig at alle bilder som er integrert i opplæringsvideoene dine er fri for rettigheter eller respekterer lisensen til kildefilen**. Alle diagrammer som publiseres på Plan ₿ Network, gjøres også tilgjengelige under CC-BY-SA-lisensen, på samme måte som teksten.
+**Det er viktig at alle bilder som er integrert i opplæringsvideoene dine er fri for rettigheter eller respekterer lisensen til kildefilen**. Alle diagrammer som publiseres på Plan ₿ Academy, gjøres også tilgjengelige under CC-BY-SA-lisensen, på samme måte som teksten.
 
 **-> Tips:** Når du deler filer offentlig, for eksempel bilder, er det viktig å fjerne unødvendige metadata. Disse kan inneholde sensitiv informasjon, for eksempel stedsdata, dato for opprettelse eller informasjon om opphavspersonen. For å beskytte personvernet ditt er det lurt å slette disse metadataene. For å forenkle denne prosessen kan du bruke spesialiserte verktøy som [Exif Cleaner] (https://exifcleaner.com/), som gjør det mulig å rense metadataene i et dokument ved hjelp av enkel dra-og-slipp-funksjon.
 
@@ -417,7 +417,7 @@ Du kan sjekke en siste gang at endringene dine er korrekte, og deretter klikke p
 
 ![TUTO](assets/fr/32.webp)
 
-En Pull Request er en forespørsel om å integrere endringene fra din gren til hovedgrenen i Plan ₿ Network-arkivet, noe som gjør det mulig å gå gjennom og diskutere endringene før de slås sammen.
+En Pull Request er en forespørsel om å integrere endringene fra din gren til hovedgrenen i Plan ₿ Academy-arkivet, noe som gjør det mulig å gå gjennom og diskutere endringene før de slås sammen.
 
 Du vil automatisk bli omdirigert til din nettleser på GitHub til forberedelsessiden for din Pull Request:
 
@@ -427,7 +427,7 @@ Angi en tittel som kort oppsummerer endringene du ønsker å slå sammen med kil
 
 ![TUTO](assets/fr/34.webp)
 
-PR-en din vil da være synlig i fanen `Pull Request` i hovedregisteret Plan ₿ Network. Alt du trenger å gjøre er å vente til en administrator kontakter deg for å bekrefte sammenslåingen av bidraget ditt eller for å be om ytterligere endringer.
+PR-en din vil da være synlig i fanen `Pull Request` i hovedregisteret Plan ₿ Academy. Alt du trenger å gjøre er å vente til en administrator kontakter deg for å bekrefte sammenslåingen av bidraget ditt eller for å be om ytterligere endringer.
 
 ![TUTO](assets/fr/35.webp)
 
@@ -443,7 +443,7 @@ Hvis du ønsker å gjøre endringer i bidraget ditt etter at du allerede har sen
 
 
 - Hvis PR-en din fortsatt er åpen og ennå ikke har blitt slått sammen, kan du gjøre endringene lokalt mens du holder deg på samme gren. Når endringene er ferdige, bruker du `Push origin`-knappen for å legge til en ny forpliktelse til den fortsatt åpne PR-en;
-- Hvis PR-en din allerede har blitt slått sammen med hovedgrenen, må du starte prosessen på nytt ved å opprette en ny gren og deretter sende inn en ny PR. Sørg for at det lokale depotet ditt er synkronisert med Plan ₿ Network-kilderegisteret før du fortsetter.
+- Hvis PR-en din allerede har blitt slått sammen med hovedgrenen, må du starte prosessen på nytt ved å opprette en ny gren og deretter sende inn en ny PR. Sørg for at det lokale depotet ditt er synkronisert med Plan ₿ Academy-kilderegisteret før du fortsetter.
 
 Hvis du støter på tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Takk skal du ha!
 

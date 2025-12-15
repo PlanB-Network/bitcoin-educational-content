@@ -1,8 +1,9 @@
-question: Jak zabezpieczone są transakcje na Lightning Network?
-answer: Poprzez kryptografię i pośrednio poprzez energię zużywaną przez górników na Bitcoin.
+question: Jaka jest centralna zasada RGB?
+answer: Walidacja po stronie klienta
 wrong_answers:
-  - Tylko przy użyciu kluczy prywatnych.
-  - Tylko przy użyciu kluczy publicznych.
-  - Tylko przy użyciu klucza prywatnego i publicznego.
-explanation: >-
-reviewed: true
+  - Globalne wykonanie na blockchainie
+  - Konsensus federacyjny
+  - Proof-of-Work
+explanation: |
+  RGB opiera się na lokalnej walidacji stanów, a blockchain służy jedynie jako kryptograficzne zakotwiczenie i ochrona przed podwójnym wydatkowaniem.
+reviewed: false

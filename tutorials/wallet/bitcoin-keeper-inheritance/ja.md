@@ -1,5 +1,5 @@
 ---
-name: Bitcoin キーパー - 相続プラン
+name: Bitcoin Keeper - 相続プラン
 description: BitcoinキーパーWalletをタップシグナーで設定・使用し、相続プランを作成する。
 ---
 
@@ -17,7 +17,7 @@ description: BitcoinキーパーWalletをタップシグナーで設定・使用
 
 Bitcoinキーパー Wallet」の詳しいチュートリアルは、こちらをご覧ください：
 
-https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 その他の関連リンクはこちら：
 

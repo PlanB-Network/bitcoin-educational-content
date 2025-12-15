@@ -14,7 +14,7 @@ Lightning-plånböcker, liksom alla mobila plånböcker, betraktas som "Hot"-pl�
 Om du vill lära dig mer om Lightning Network och förstå hur den fungerar tekniskt rekommenderar jag att du går den här kursen:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 I den här handledningen tar vi en titt på **Lipa**, en enkel och effektiv Lightning Wallet som utvecklats i Schweiz.
 
@@ -131,7 +131,7 @@ För att säkerhetskopiera din Wallet går du till fliken "Inställningar" och v
 För mer information om hur du säkerhetskopierar och hanterar din återställningsfras på rätt sätt rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Ta emot bitcoins
 

@@ -195,4 +195,4 @@ Vous voilà prêt à utiliser Ubuntu au quotidien : sécuriser votre système, n
 
 Pour aller plus loin dans la sécurisation de votre vie numérique, nous vous recommandons de consulter notre, un service de messagerie chiffré qui s'inscrit parfaitement dans une démarche de protection de la vie privée, en complément de votre installation Ubuntu :
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

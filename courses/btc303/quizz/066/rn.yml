@@ -1,0 +1,9 @@
+question: Mu bijanye n’ivyemezo vya mining, ni ikihe kibazo nyamukuru c’umutekano abacukuzi bahura naco iyo basubije inyuma ivyemezo vy’amabuye yose kugira ngo ntibakoreshe amabuye y’agaciro?
+answer: Bashobora kwubaka ku nzira y’ubuhinga butagira akamaro mu gihe gito, bagatakaza ububasha bwo gukoresha ubuhinga bwa none ku nzira y’ubuhinga buzoheza ikangwa .
+wrong_answers:
+  - Bashobora gushikirwa n'ingorane zo kugira ama blocks yabo yankwa n'urubuga kubera ko ata kwemeza neza kw'ibikorwa vya kera .
+  - Bashobora gutakaza impembo zabo za mining ubudasiba kubera ko mining idafise icemezo ifatwa nk’ukurenga ku mategeko .
+  - Bashobora gutera ibitero vy’amahera abiri kubera ko badashobora kugenzura ko amahera yinjira ari yemewe .
+explanation: |
+  Iyo abacukuzi b’amabuye y’agaciro bariko baramenyereza mining idafise ivyemezo, basuzuma proof-of-work gusa iri mu mutwe w’ibarabara maze baca batangura mining hejuru yayo mu gihe bariko barakura no kwemeza igice cose mu buryo bumwe. Icoba ari ikibazo gikomeye ni uko boba bariko bubaka ku gice kitagira akamaro, bisobanura ko utwigoro twabo two gukoresha ubuhinga bwa none tugenda ubusa ku ishami ry’ibarabara rizokwangwa iyo igice kitagira akamaro kivumbuwe. Ivyo bica bihungabanya umutekano w’urubuga kubera ko igice c’ububasha bwa mining kitariko kiragira ico gikoze ku ruhererekane rukomeye cane rufise akamaro, ari rwo buryo nyamukuru bw’umutekano wa Bitcoin.
+reviewed: false

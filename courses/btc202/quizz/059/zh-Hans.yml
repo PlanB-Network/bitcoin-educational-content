@@ -1,4 +1,4 @@
-question: 远程访问 Bitcoin core 的最佳方式是什么？
+question: 远程访问 Bitcoin Core 的最佳方式是什么？
 answer: 公开 RPC 端口
 wrong_answers:
   - 使用 Tor

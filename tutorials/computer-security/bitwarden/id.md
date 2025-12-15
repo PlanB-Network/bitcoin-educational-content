@@ -18,7 +18,7 @@ Pengelola kata sandi akan menghasilkan dan menyimpan kata sandi yang kuat secara
 
 Dalam tutorial ini, kita akan menjelajahi cara mengatur dan menggunakan pengelola kata sandi untuk meningkatkan keamanan online Anda. Saya akan memperkenalkan Anda pada Bitwarden, dan dalam tutorial lain, kita akan membahas solusi lain yang disebut KeePass. Anda bisa menemukan tutorial KeePass di sini: 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Peringatan Penting: Pengelola kata sandi sangat bagus untuk menyimpan kata sandi, **tetapi Anda tidak boleh menyimpan frasa mnemonik dompet Bitcoin Anda di dalamnya!** Ingat, frasa mnemonik harus disimpan secara eksklusif dalam format fisik, seperti selembar kertas atau logam.
 
@@ -88,9 +88,9 @@ Pertama dan terpenting, saya sangat menyarankan Anda untuk mengatur autentikasi 
 
 Jika Anda tidak yakin bagaimana cara mengatur dan menggunakan perangkat 2FA ini, saya menyarankan mengikuti 2 tutorial lain ini:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Untuk melakukan ini, pergi ke tab "*Keamanan*" dalam menu "*Pengaturan*".
 ![BITWARDEN](assets/notext/14.webp)
@@ -135,7 +135,7 @@ Kini pengelola kata sandi Anda telah terkonfigurasi, Anda dapat mulai menyimpan 
 Dalam formulir yang terbuka, mulailah dengan menentukan sifat dari item yang akan disimpan. Untuk menyimpan kredensial login, pilih opsi "*Login*" dari menu dropdown.
 ![BITWARDEN](assets/notext/26.webp)
 
-Di kolom "*Name*", masukkan nama deskriptif untuk kredensial Anda. Ini akan memudahkan Anda dalam mencari dan mengatur kata sandi, terutama jika Anda memiliki banyak. Contohnya, jika Anda ingin menyimpan kredensial untuk situs PlanB Network, Anda bisa menamai entri ini sedemikian rupa agar langsung dikenali saat pencarian di kemudian hari.
+Di kolom "*Name*", masukkan nama deskriptif untuk kredensial Anda. Ini akan memudahkan Anda dalam mencari dan mengatur kata sandi, terutama jika Anda memiliki banyak. Contohnya, jika Anda ingin menyimpan kredensial untuk situs Plan ₿ Academy, Anda bisa menamai entri ini sedemikian rupa agar langsung dikenali saat pencarian di kemudian hari.
 ![BITWARDEN](assets/notext/27.webp)
 
 Opsi "*Folder*" memungkinkan Anda untuk mengklasifikasikan kredensial Anda ke dalam folder. Saat ini, kita belum membuat folder apa pun, namun akan saya tunjukkan cara melakukannya nanti.
@@ -180,7 +180,7 @@ Kemudian klik pada "*Save*".
 Folder Anda sekarang muncul di manajer Anda.
 ![BITWARDEN](assets/notext/41.webp)
 
-Anda dapat menetapkan folder untuk sebuah pengenal ketika membuatnya, seperti yang telah kita lakukan sebelumnya, atau dengan memodifikasi pengenal yang sudah ada. Sebagai contoh, dengan mengklik identifikasi saya untuk PlanB Network, saya kemudian dapat memilih untuk mengklasifikasikannya ke dalam folder "*Bitcoin*".
+Anda dapat menetapkan folder untuk sebuah pengenal ketika membuatnya, seperti yang telah kita lakukan sebelumnya, atau dengan memodifikasi pengenal yang sudah ada. Sebagai contoh, dengan mengklik identifikasi saya untuk Plan ₿ Academy, saya kemudian dapat memilih untuk mengklasifikasikannya ke dalam folder "*Bitcoin*".
 ![BITWARDEN](assets/notext/42.webp)
 
 Dengan cara ini, Anda dapat menyusun pengelola kata sandi Anda untuk memudahkan pencarian pengenal. Anda bisa mengelompokkan dengan folder seperti pribadi, profesional, bank, email, media sosial, langganan, belanja, administrasi, streaming, penyimpanan, perjalanan, kesehatan, dan lain-lain.
@@ -219,13 +219,13 @@ Dan akhirnya, masukkan kode 6-digit dari aplikasi autentikasi Anda.
 Anda sekarang terhubung ke manajer Bitwarden Anda melalui ekstensi browser.
 ![BITWARDEN](assets/notext/51.webp)
 
-Sebagai contoh, jika saya kembali ke situs PlanB Network dan mencoba masuk ke akun saya, Anda dapat melihat bahwa ekstensi Bitwarden yang terintegrasi di browser mengenali kolom login dan secara otomatis menawarkan saya untuk memilih pengenal yang sebelumnya telah saya simpan.
+Sebagai contoh, jika saya kembali ke situs Plan ₿ Academy dan mencoba masuk ke akun saya, Anda dapat melihat bahwa ekstensi Bitwarden yang terintegrasi di browser mengenali kolom login dan secara otomatis menawarkan saya untuk memilih pengenal yang sebelumnya telah saya simpan.
 ![BITWARDEN](assets/notext/52.webp)
 
 Jika saya memilih pengenal ini, Bitwarden akan mengisi kolom login secara otomatis untuk saya. Fitur ekstensi ini memungkinkan koneksi cepat ke situs web, tanpa perlu menyalin-tempel kredensial dari aplikasi web atau perangkat lunak Bitwarden.
 ![BITWARDEN](assets/notext/53.webp)
 
-Ekstensi ini juga dirancang untuk mendeteksi pembuatan akun baru. Sebagai contoh, saat membuat akun baru di PlanB Network, Bitwarden akan secara otomatis menyarankan untuk menyimpan identifikasi baru tersebut.
+Ekstensi ini juga dirancang untuk mendeteksi pembuatan akun baru. Sebagai contoh, saat membuat akun baru di Plan ₿ Academy, Bitwarden akan secara otomatis menyarankan untuk menyimpan identifikasi baru tersebut.
 ![BITWARDEN](assets/notext/54.webp)
 
 Saat Anda mengeklik saran yang muncul, ekstensi akan terbuka. Ini memungkinkan saya untuk memasukkan detail pengenal baru dan membuat kata sandi yang kuat serta unik.

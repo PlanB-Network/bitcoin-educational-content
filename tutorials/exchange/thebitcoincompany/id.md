@@ -40,7 +40,7 @@ Singkatnya, "habiskan" & "ganti" tampaknya merupakan jalan ke depan. Berpartisip
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Pesannya sangat jelas: "Belanjakan Bitcoin Anda di mana saja".
 
@@ -117,9 +117,9 @@ Jika Anda masih jadul dan ingin mengetahui cara mudah membuat kotak surat yang a
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Untuk bagian kami, mari kita pilih "Masuk dengan Lightning".
 
@@ -154,7 +154,7 @@ Jadi, mari kita buka Wallet Phoenix, dan pindai kode QR yang ditampilkan. Setela
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Secara instan, Anda akan diidentifikasi melalui Wallet Lightning Anda, yang dapat berupa Phoenix atau yang lainnya, karena sebagian besar dompet di pasaran mendukung fitur ini.
 
@@ -291,4 +291,4 @@ Jika Anda ingin membantu mempopulerkan Bitcoin dan mendorong pedagang independen
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

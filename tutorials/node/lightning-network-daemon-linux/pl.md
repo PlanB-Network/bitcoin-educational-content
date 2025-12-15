@@ -34,7 +34,7 @@ Innymi słowy, dzięki tej implementacji można :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Dlaczego warto mieć własny węzeł Lightning?
 
@@ -64,7 +64,7 @@ W tym sensie uruchomienie węzła Lightning zwiększa bezpieczeństwo i integral
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Istnieją dwie opcje uruchomienia instancji implementacji LND na naszej maszynie. Możemy albo skonfigurować środowisko na własnej maszynie, aby działało lokalnie, albo zainstalować LND z kontenera Docker. Tutaj skoncentrujemy się na pierwszej opcji i zobaczymy, jak postępować z Dockerem w późniejszym samouczku.
@@ -665,4 +665,4 @@ Dotarłeś do końca tego samouczka. Jeśli chcesz dowiedzieć się więcej o Li
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

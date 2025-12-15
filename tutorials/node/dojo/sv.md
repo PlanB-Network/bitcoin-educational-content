@@ -64,7 +64,7 @@ För mer information om hur du väljer din utrustning rekommenderar jag att du g
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Rekommenderad utrustning
 
@@ -192,7 +192,7 @@ För mer information om installationsprocessen för Ubuntu, se vår dedikerade h
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. Uppdatering av systemet
 
@@ -428,7 +428,7 @@ Systemet ber dig sedan att ange det lösenord du har valt och sedan bekräfta de
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Auktorisera användaren att använda Docker
 
@@ -1068,7 +1068,7 @@ För att fördjupa dina kunskaper om IBD och, mer allmänt, om hur din Bitcoin-n
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Övervakning av synkronisering

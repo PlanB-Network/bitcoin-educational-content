@@ -191,7 +191,7 @@ Programi obično izvršavaju operacije nad podacima.
 Varijable su kao imenovane kutije koje koristimo za skladištenje podataka. Omogućavaju nam da povežemo deo podataka sa specifičnim imenom, tako da ga možemo kasnije dohvatiti koristeći to ime.
 
 
-### Deklaracije `let`
+### Deklaracije let
 
 
 Da bismo deklarisali promenljivu u JavaScript-u, možemo koristiti ključnu reč `let`.
@@ -355,7 +355,7 @@ Bob
 Kao što možete videti, i `score` i `player` su promenjeni.
 
 
-### Deklaracije `const`
+### Deklaracije const
 
 
 Većinu vremena, međutim, ne želimo da promenljiva menja vrednost nakon što je kreirana. Za to koristimo `const`.
@@ -875,7 +875,7 @@ undefined
 Šta je to??
 
 
-### `nedefinisano`
+### nedefinisano
 
 
 Posebna vrednost `undefined` znači „nijedna vrednost nije dodeljena”.
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` i kako ga tretirati
+### null i kako ga tretirati
 
 
 `null` je takođe posebna vrednost. Znači „ovde nema ničega, i to sam uradio namerno.”
@@ -1075,7 +1075,7 @@ To znači da možemo koristiti blokove da izolujemo delove našeg koda, i biti s
 Organizovanje našeg koda u blokove nam takođe omogućava da strukturiramo izvršavanje programa, sa konstrukcijama kontrolnog toka kao što je `if`
 
 
-### `if`, `else`
+### if, else
 
 
 Ponekad želimo da pokrenemo kod **samo ako** je nešto tačno. Za to služi `if` naredba.
@@ -1190,7 +1190,7 @@ Zato što smo koristili operator `!` da invertujemo promenljivu `adult`.
 Korišćenjem blokova, logičkih i operatora poređenja, možemo strukturirati izvršavanje programa, definišući promenljive koje moraju biti `true` (ili `false`) da bi se nešto dogodilo.
 
 
-### `while`, `break`, `continue`
+### while, break, continue
 
 
 `while` petlja ponavlja kod *sve dok* je uslov tačan.
@@ -1282,7 +1282,7 @@ Ovo štampa:
 Zato što kada je broj bio `3`, `continue` je naterao program da preskoči liniju koja štampa broj.
 
 
-### `for ... of ...`
+### for ... of ...
 
 
 Ako imate niz i želite da uradite nešto sa svakom stavkom u njemu, možete koristiti `for ... of ... {...}`.
@@ -1312,7 +1312,7 @@ Blok će biti izvršen jednom za svaki element niza.
 `fruit` ovde je nova promenljiva koja uzima vrednost svake stavke u nizu, kako bi se njome upravljalo unutar bloka.
 
 
-### `for ... in ...`
+### for ... in ...
 
 
 Možete koristiti `for ... in` za iteraciju preko ključeva (indeksa) niza:
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (izlaz iz funkcija)
+### return (izlaz iz funkcija)
 
 
 Funkcije takođe mogu **vraćati** vrednosti. To znači da šalju vrednost nazad tamo gde je funkcija pozvana.
@@ -1749,7 +1749,7 @@ JavaScript se često naziva objektno orijentisanim jezikom.
 To znači da vam pomaže da organizujete svoj kod grupisanjem vrednosti i funkcija zajedno u **objekte**.
 
 
-### Šta je `object`?
+### Šta je object?
 
 
 Objekat može sadržati podatke i funkcije koje rade nad tim podacima. Kada se funkcija stavi u objekat kažemo da je to `metod`.
@@ -2252,7 +2252,7 @@ JavaScript vam omogućava slobodno preoblikovanje objekata, ali kada koristite k
 
 
 
-### Nasleđivanje sa `extends` i `super()`
+### Nasleđivanje sa extends i super()
 
 
 Ponekad želite da kreirate klasu koja je *gotovo* ista kao druga klasa, ali sa nekoliko dodatnih funkcija.
@@ -2374,7 +2374,7 @@ Dakle, da rezimiramo
 Ovo je korisno kada imate nekoliko stvari koje su slične (kao što su automobili, kamioni i bicikli) i želite da dele kod, ali da se i dalje ponašaju na svoj način.
 
 
-### `instanceof`
+### instanceof
 
 
 Ključna reč `instanceof` proverava da li je objekat kreiran iz određene klase.
@@ -2439,7 +2439,7 @@ Kako budete pisali složenije JavaScript programe, susretaćete se sa **greškam
 Ako ne obradimo ove greške pravilno, naš program bi mogao da se sruši ili da se ponaša na nepredvidive načine. JavaScript pruža alate za otkrivanje i upravljanje ovim greškama kako bismo ih mogli obraditi na elegantniji način.
 
 
-### Uobičajena greška: pristupanje vrednosti na `undefined`
+### Uobičajena greška: pristupanje vrednosti na undefined
 
 
 Evo uobičajene situacije koja izaziva grešku:
@@ -2462,7 +2462,7 @@ TypeError: Cannot read properties of undefined (reading 'name')
 To je JavaScript koji vam govori: „Hej, pokušao si da dobiješ svojstvo `name` iz nečega što je `undefined`, a to nema smisla.” I kao što možete videti, kada se desi ovakva greška, program prestaje da radi osim ako niste specifično napisali kod da je uhvati i obradi.
 
 
-### `throw`anje greške
+### throwanje greške
 
 
 Ponekad želite ručno **pokrenuti grešku** u svom kodu. U tom slučaju koristite ključnu reč `throw`.
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Drugi poziv izaziva grešku jer deljenje nulom nije dozvoljeno u ovom primeru.
 
 
-### Hvatanje grešaka sa `try...catch`
+### Hvatanje grešaka sa try...catch
 
 
 Ako ne želite da vaš program padne kada dođe do greške, možete uhvatiti grešku koristeći blok `try...catch`. Ovo je korisno kada želite da vaš program **nastavi** čak i ako nešto ne uspe.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Blok `finally`
+### Blok finally
 
 
 Možete takođe dodati blok `finally`. Ovo je kod koji **uvek radi**, bilo da je došlo do greške ili ne.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Ovo poglavlje prikazuje neke od najčešćih zamki u JavaScriptu i kako ih izbeći.
 
 
-### `var` i Assignment bez deklaracije
+### var i Assignment bez deklaracije
 
 
 U starijem JavaScript kodu, promenljive su često bile deklarisane koristeći ključnu reč `var`. Za razliku od `let` i `const`, o kojima ste već učili, `var` može da se ponaša na zbunjujuće načine.
@@ -2650,7 +2650,7 @@ U ovim primerima, JavaScript pokušava da pogodi šta ste mislili. Ponekad pretv
 Biti svestan JavaScript-ovog sistema slabe tipizacije je važno. Kada stvari počnu da se ponašaju čudno, to može biti zbog neočekivane konverzije tipova.
 
 
-### `"use strict"`
+### "use strict"
 
 
 Možete omogućiti stroži režim koji pretvara neke tihe greške u stvarne greške i sprečava vas da koristite neke od opasnijih funkcija jezika.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Podrazumevana vrednost `"friend"` se koristi kada ništa nije prosleđeno.
 
 
-### Prosledi parametre (`...`)
+### Prosledi parametre (...)
 
 
 Šta ako vaša funkcija prima promenljiv broj argumenata?
@@ -3030,7 +3030,7 @@ Funkcija `makeGreeter` je funkcija koja kreira druge funkcije. Prima string i vr
 Ovakav obrazac je veoma moćan, jer vam omogućava da ostavite "rupe" u vašim funkcijama koje možete kasnije popuniti ponašanjem koje vam je potrebno.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript vam daje neke korisne ugrađene metode za korišćenje sa nizovima.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Privatna svojstva su korisna kada želite da sprečite slučajne promene.
 
 
-### `static` Properties
+### static Properties
 
 
 Ponekad želite da svojstvo pripada samoj klasi, a ne svakom objektu koji kreirate iz te klase. Za to služi `static`. `Static` svojstvo je sadržano u klasi i svi objekti te klase će se na njega odnositi.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Ovo je korisno za čuvanje zajedničkih podataka i metoda koje se primenjuju na celu grupu objekata, a ne samo na jedan.
 
 
-### `get` i `set`
+### get i set
 
 
 U JavaScript-u, `get` i `set` vam omogućavaju da kreirate svojstva koja *izgledaju* kao normalne promenljive, ali zapravo pokreću poseban kod u pozadini.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Ovo se zove **izračunato svojstvo**. Vrednost unutar uglastih zagrada se procenjuje, a rezultat se koristi kao ključ.
 
 
-### `Symbol` Tip
+### Symbol Tip
 
 
 Pored stringova, JavaScript vam takođe omogućava korišćenje posebnog tipa nazvanog `Symbol` kao ključa objekta.
@@ -3421,7 +3421,7 @@ Kao što možete videti, originalna `name` svojina je na neki način sačuvana n
 JavaScript nam daje neke korisne ugrađene objekte koji nam pomažu u stvarima kao što su debagovanje i matematičke operacije.
 
 
-### Druge metode `console`
+### Druge metode console
 
 
 Već ste videli `console.log`, koji ispisuje vrednosti na ekran.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Korisno za neka jednostavna testiranja performansi.
 
 
-### Objekat `Math`
+### Objekat Math
 
 
 JavaScript vam daje objekat `Math` sa korisnim metodama za izvođenje proračuna.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Mape su odlične za upravljanje velikim kolekcijama vrednosti, jer pristup vrednostima na velikoj mapi obično daje mnogo bolje performanse nego na velikom objektu.
 
 
-### `Skup`
+### Skup
 
 
 `Set` je kolekcija **samo vrednosti** (bez ključeva), gde svaka vrednost mora biti **jedinstvena**. To znači:
@@ -3770,7 +3770,7 @@ Većina stvari u JavaScriptu koje možete iterirati (kao što su nizovi, stringo
 Iterator je poseban objekat u JavaScript-u koji vam pomaže da prolazite kroz listu stavki **jednu po jednu**.
 
 
-### `Object` iteratori
+### Object iteratori
 
 
 Za razliku od nizova ili mapa, regularni objekti **nisu iterabilni** sa `for...of`. Ako probate ovo:
@@ -3892,7 +3892,7 @@ Iako objekti nisu direktno iterabilni, ove metode vam omogućavaju potpuni prist
 Ali kako rade iteratori?
 
 
-### `Symbol.iterator`
+### Symbol.iterator
 
 
 Tajna svih iterables je poseban **simbol** nazvan `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Svaki poziv `.next()` daje vam sledeću vrednost. Kada završi, vraća:
 ```
 
 
-### `next()`
+### next()
 
 
 Metoda `.next()` se koristi za dobijanje sledeće stavke iz sekvence.
@@ -4046,7 +4046,7 @@ Evo šta se dešava:
 Sada naša klasa `Range` radi kao niz, i možemo je koristiti u bilo kojoj petlji koja očekuje iterabilni objekat.
 
 
-### Funkcije generatora i `yield`
+### Funkcije generatora i yield
 
 
 Da bi olakšao kreiranje iteratora, JavaScript pruža **generator funkcije**, koristeći ključnu reč `function*` (to je `function` sa `*` na kraju) i ključnu reč `yield`.
@@ -4105,7 +4105,7 @@ Do sada je naš kod bio **sinhroni**: izvršava se liniju po liniju, redom. Ali 
 U ovom poglavlju ćemo uvesti novi koncept: **konkurentnost**. Omogućava nam da manipulišemo redosledom u kojem se stvari obavljaju. Ovo je korisno kada se bavimo stvarima kao što su tajmeri, korisnički unos ili čitanje fajlova sa diska. JavaScript nudi različite alate za ostvarivanje konkurentnosti.
 
 
-### `setTimeout`
+### setTimeout
 
 
 Funkcija `setTimeout` vam omogućava da **pokrenete funkciju kasnije**, nakon što prođe određeno vreme.
@@ -4253,7 +4253,7 @@ Unutar njega, dajemo mu funkciju sa dva parametra:
 U gornjem primeru, jednostavno ga odmah rešavamo porukom `"It worked!"`.
 
 
-### `.then()`
+### .then()
 
 
 Da bismo uradili nešto **nakon** što je obećanje ispunjeno, koristimo `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `reject()`
+### reject()
 
 
 Hajde da kreiramo obećanje koje **ne uspeva**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Ulančavanje operacija koristeći `Promise`e
+### Ulančavanje operacija koristeći Promisee
 
 
 
@@ -4551,7 +4551,7 @@ Hajde da prođemo kroz to šta ovo radi:
 Svaki `.then()` čeka da se prethodni korak završi. Tako možemo izgraditi **lanac akcija** bez ugnježđivanja. Ovo čini kod čitljivijim i lakšim za debagovanje.
 
 
-## Istovremenost sa `async`/`await`
+## Istovremenost sa async/await
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Videli smo kako `Promise` lanci pomažu da izbegnemo callback hell, ali i dalje 
 Tu dolaze `async` i `await`. Oni nam omogućavaju da pišemo asinhroni kod **koji izgleda kao sinhroni kod**, što ga čini lakšim za razumevanje.
 
 
-### Šta je `async`?
+### Šta je async?
 
 
 Kada napišete ključnu reč `async` pre funkcije, JavaScript automatski obavija povratnu vrednost funkcije u Promise.
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Ili možete koristiti `await`...
 
 
-### Šta je `await`?
+### Šta je await?
 
 
 Ključna reč `await` govori JavaScript-u: „sačekaj dok se ovaj Promise ne završi, a zatim mi daj rezultat.”
@@ -4638,7 +4638,7 @@ Sada možemo koristiti rezultat kao da je to regularna vrednost.
 Hajde da sada uradimo nešto malo korisnije.
 
 
-### Simulacija kašnjenja sa `await`
+### Simulacija kašnjenja sa await
 
 
 Napravićemo jednostavnu funkciju `wait` koja uzima količinu milisekundi kao argument i samo se razrešava nakon tog broja milisekundi, bez obavljanja bilo čega drugog:
@@ -4881,7 +4881,7 @@ Asinhroni iteratori su korisni kada:
 Na primer, ako želite da učitavate poruke sa servera za ćaskanje jednu po jednu, ili da preuzmete veliku datoteku u delovima, asinhroni iteratori vam omogućavaju da napišete `for` petlju koja radi sa odloženim podacima.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Takođe možemo koristiti asinhrone iteratore u prilagođenim klasama.
@@ -5287,7 +5287,7 @@ NodeJS nam omogućava, između ostalog, da pravimo CLI-jeve (Command Line Interf
 Za to nam je potreban način za primanje argumenata komandne linije, što se u Node-u radi korišćenjem ugrađenog objekta `process`.
 
 
-### `proces`
+### proces
 
 
 NodeJS pruža poseban objekat pod nazivom `process` koji predstavlja trenutno pokrenut program.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 Ovo ispisuje platformu operativnog sistema, kao što su `win32`, `linux` ili `darwin` (Mac).
 
 
-### `process.argv`
+### process.argv
 
 
 Kada pokrenete NodeJS program iz terminala, možete proslediti dodatne reči (argumente) nakon imena skripte. Oni se čuvaju u `process.argv`.
@@ -5493,7 +5493,7 @@ Ne morate instalirati ove ugrađene module, oni dolaze sa NodeJS-om. Oni čine "
 Sledeća poglavlja će vam pokazati neke korisne primere njihove upotrebe.
 
 
-## Modul `fs`
+## Modul fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `package.json`
+### package.json
 
 
 Datoteka `package.json` je samo JSON datoteka koja čuva metapodatke o vašem projektu.
@@ -5960,7 +5960,7 @@ i pokušajte da ga pokrenete. Terminal bi trebalo da prikaže obojenu verziju te
 Šta je `package-lock.json`?
 
 
-### `package-lock.json`
+### package-lock.json
 
 
 Ovu datoteku automatski kreira NPM.
@@ -6023,7 +6023,7 @@ NodeJS se često koristi kao jezik za backend: možete pretvoriti svoj skript u 
 U ovom poglavlju ćemo predstaviti neke osnovne mrežne funkcije koje će vam to omogućiti.
 
 
-### `fetch()`
+### fetch()
 
 
 Ako želite da vaš program preuzme podatke sa veb-sajta ili API-ja, potrebno je da napravite **HTTP zahtev**.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Dakle, uverite se da je string pravilno formatiran.
 
 
-### `http` server
+### http server
 
 
 NodeJS vam omogućava da kreirate veb server bez instaliranja bilo čega drugog.

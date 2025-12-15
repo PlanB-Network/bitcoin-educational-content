@@ -94,13 +94,13 @@ Speed поставляется с набором средств разработ
 
 
 
-Если вы еще не владеете Bitcoin и/или Lightning Wallet, рекомендуем вам ознакомиться с нашими учебниками по [мобильным кошелькам] (https://planb.network/tutorials/wallet).
+Если вы еще не владеете Bitcoin и/или Lightning Wallet, рекомендуем вам ознакомиться с нашими учебниками по [мобильным кошелькам] (https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **ВАЖНО**: При настройке портфеля выбирайте тип **BTC (On-Chain)**, если вы получаете крупные суммы, порядка тысяч евро, для надежного подтверждения на Bitcoin, и тип **LN Address**, если вы хотите получать мгновенные микроплатежи в своем бизнесе.
 
@@ -435,4 +435,4 @@ Speed Business имеет комплект для разработчиков, к
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -1,0 +1,9 @@
+question: Коя база данни се използва в blocks/index/ за съхраняване на метаданни за блокове?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Бъркли DB
+explanation: |
+  Ядрото на Bitcoin използва LevelDB в blocks/index/, за да индексира блокове, като ускорява търсенето и обслужването на равнопоставени потребители.
+reviewed: true

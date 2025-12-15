@@ -1,0 +1,9 @@
+question: Qual é o requisito fundamental que permite aos utilizadores verificar se o software Bitcoin "funciona como anunciado" de acordo com os princípios de fonte aberta debatidos?
+answer: Os utilizadores devem ter acesso ilimitado ao código-fonte do software que pretendem verificar
+wrong_answers:
+  - Os utilizadores devem obter autorização dos responsáveis pelo núcleo Bitcoin antes de acederem às ferramentas de verificação
+  - Os utilizadores devem pagar uma taxa razoável para aceder aos binários de verificação compilados a partir de fontes oficiais
+  - Os utilizadores devem confiar em assinaturas criptográficas de programadores de confiança para validar o comportamento do software
+explanation: |
+  O capítulo afirma explicitamente que, para que os utilizadores verifiquem se o software Bitcoin "funciona como anunciado", devem ter acesso ilimitado ao código-fonte. Isto está diretamente relacionado com o princípio 'Não Confie, Verifique' e com o requisito da definição de código aberto para a disponibilidade do código fonte. As respostas erradas contradizem os princípios fundamentais do código aberto: exigir permissão viola o princípio do livre acesso, pagar taxas contradiz o requisito de distribuição sem custos, e confiar apenas em assinaturas mina a capacidade de verificação através de inspeção que o código aberto fornece.
+reviewed: false

@@ -101,7 +101,7 @@ Qubes OS همچنین شفافیت و کنترل کامل بر محیط دیجی
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 به جای تلاش برای ایجاد یک سیستم نفوذناپذیر، Qubes OS بر مقاومت تمرکز دارد: در صورت وقوع نفوذ، آسیب را محصور می‌کند و خطر را برای بقیه سیستم کاهش می‌دهد. این رویکرد عمل‌گرایانه، Qubes OS را به انتخابی ترجیحی برای کاربرانی با نیازهای امنیتی بالا یا کسانی که می‌خواهند حداکثر کنترل را بر زندگی دیجیتال خود حفظ کنند، تبدیل می‌کند.
 
@@ -126,7 +126,7 @@ https://planb.network/tutorials/computer-security/operating-system/whonix-06f917
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Qubes OS همچنین به شما اجازه می‌دهد تا یک **کوب ا
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

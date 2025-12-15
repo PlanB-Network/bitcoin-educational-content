@@ -97,7 +97,7 @@ Bu eğitimde, Trezor Safe 3'ü [Sparrow wallet Wallet yönetim yazılımı] (htt
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Safe 3'ü yapılandırmak, orijinalliğini kontrol etmek ve aygıt yazılımını yüklemek için Trezor Suite yazılımına da ihtiyacınız olacak. Bu yazılımı yalnızca bunun için kullanacağız ve daha sonra yalnızca aygıt yazılımı güncellemeleri için gerekli olacak. Wallet'in günlük yönetimi için yalnızca Sparrow wallet'i kullanacağız, çünkü Bitcoin için optimize edilmiştir ve yeni başlayanlar için bile kullanımı kolaydır (Sparrow yalnızca Bitcoin'u destekler, altcoinleri desteklemez).
 
@@ -115,7 +115,7 @@ Bu iki program için de, makinenize yüklemeden önce hem orijinalliklerini (Gnu
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Trezor Safe 3'ü başlatma
 
@@ -213,7 +213,7 @@ Eğer *Çoklu Paylaşım Yedekleme* de dahil olmak üzere Trezor'da bulunan diğ
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 ![Image](assets/fr/16.webp)
 
@@ -279,7 +279,7 @@ Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla b
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/21.webp)
 
@@ -393,7 +393,7 @@ Sparrow wallet'yi açtıktan sonra, yazılımın Bitcoin'ün sağ alt köşesind
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 "*Dosya*" sekmesine ve ardından "*Yeni Wallet*" seçeneğine tıklayın.
 
@@ -471,7 +471,7 @@ Kurtarma testinin nasıl yapılacağı hakkında daha fazla bilgi edinmek için 
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Trezor Safe 3 ile bitcoinleri nasıl alabilirim?
 
@@ -629,6 +629,6 @@ Tebrikler, artık Trezor Safe 3'ün Sparrow wallet ile temel kullanımını öğ
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Bu öğreticiyi faydalı bulduysanız, aşağıya bir Green başparmağı bırakırsanız minnettar olurum. Bu makaleyi sosyal ağlarınızda paylaşmaktan çekinmeyin. Çok teşekkür ederim!

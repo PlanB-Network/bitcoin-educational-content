@@ -15,7 +15,7 @@ Toisin sanoen on suositeltavaa säilyttää tiedostosi kolmessa eri paikassa, k�
 
 Tämän 3-2-1 varmuuskopiostrategian helpoksi toteuttamiseksi voit valita online-tallennusratkaisun, synkronoimalla tiedostot tietokoneeltasi pilveen automaattisesti tai säännöllisesti. Näiden online-varmuuskopioratkaisujen joukossa on tietenkin niitä suurilta digitaalisilta yrityksiltä, joita tunnet: Google Drive, Microsoft OneDrive tai Apple iCloud. Nämä eivät kuitenkaan ole parhaita ratkaisuja yksityisyytesi suojaamiseen. Aiemmassa oppaassa esittelin sinulle vaihtoehdon, joka salaa dokumenttisi paremman luottamuksellisuuden saavuttamiseksi: Proton Drive.
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Noudattamalla tätä paikallisen ja pilven varmuuskopiointistrategiaa hyödyt jo kahdesta eri tyyppisestä mediasta tiedoillesi, joista toinen on ulkopuolinen. 3-2-1 strategian täydentämiseksi sinun tarvitsee vain lisätä ylimääräinen kopio. Neuvoni on yksinkertaisesti säännöllisesti viedä tietosi paikallisesti ja pilvestä fyysiselle medialle, kuten USB-tikulle tai ulkoiselle kovalevylle. Näin, vaikka online-tallennusratkaisusi palvelimet tuhoutuisivat ja tietokoneesi hajoaisi samanaikaisesti, sinulla on silti tämä kolmas kopio ulkoisella medialla, jotta et menetä tietojasi.
 ![VeraCrypt](assets/notext/01.webp)

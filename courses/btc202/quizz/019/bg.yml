@@ -1,0 +1,9 @@
+question: На какъв език за програмиране е написано ядрото на Bitcoin?
+answer: C++
+wrong_answers:
+  - Отидете на
+  - JavaScript
+  - Rust
+explanation: |
+  Ядрото на Bitcoin е написано на C++ и се поддържа от голяма общност с отворен код.
+reviewed: true

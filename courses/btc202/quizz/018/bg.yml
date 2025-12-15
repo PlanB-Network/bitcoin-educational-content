@@ -1,0 +1,9 @@
+question: Коя е най-широко използваната реализация на възел Bitcoin?
+answer: Ядро Bitcoin
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  С около 9 от 10 възела в мрежата Bitcoin Core е основният клиент.
+reviewed: true

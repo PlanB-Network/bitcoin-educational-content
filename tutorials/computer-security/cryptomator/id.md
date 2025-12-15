@@ -20,7 +20,7 @@ Dalam demonstrasi ini, komputer Windows 11 22H2 dengan OneDrive akan digunakan, 
 
 Cryptomator adalah alternatif untuk aplikasi lain, terutama Picocrypt yang disajikan dalam artikel lain, yang terlihat berbeda, tetapi sama mudahnya untuk digunakan. Cryptomator juga merupakan **open source**, sesuai dengan RGPD, dan akan mengenkripsi data dengan algoritma enkripsi AES-256 bit. Sebaliknya, Picocrypt mengandalkan algoritma XChaCha20 yang lebih cepat (juga 256-bit).
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Aplikasi Cryptomator tersedia di **Windows** (exe / msi), **Linux**, **macOS**, tetapi juga **Android** dan **iOS**. Omong-omong, semua aplikasi gratis, kecuali untuk aplikasi Android, yang harus Anda bayar (14,99 euro).
 

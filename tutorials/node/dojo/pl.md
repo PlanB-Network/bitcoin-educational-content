@@ -64,7 +64,7 @@ Więcej informacji na temat wyboru sprzętu można znaleźć w tym kursie:
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 ### Zalecany sprzęt
 
@@ -192,7 +192,7 @@ Więcej szczegółów na temat procesu instalacji Ubuntu można znaleźć w nasz
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ### 1.3. aktualizacja systemu
 
@@ -428,7 +428,7 @@ System poprosi o wprowadzenie wybranego hasła, a następnie potwierdzi je po ra
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ### 3.3. Autoryzacja użytkownika do korzystania z Dockera
 
@@ -1068,7 +1068,7 @@ Aby pogłębić swoją wiedzę na temat IBD i, bardziej ogólnie, działania i r
 
 
 
-https://planb.network/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
+https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 ## 7. Monitorowanie synchronizacji

@@ -304,4 +304,4 @@ Se gostou de descobrir o Tox e conseguiu perceber como é útil para reforçar a
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

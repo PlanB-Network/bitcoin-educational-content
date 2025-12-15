@@ -1,6 +1,5 @@
 ---
 name: Braiins Pool
-
 description: Introducción a Braiins Pool
 ---
 
@@ -8,13 +7,13 @@ description: Introducción a Braiins Pool
 
 Braiins Pool, anteriormente conocido como Slush Pool, es el primer pool de minería de Bitcoin. Establecido en noviembre de 2010, minó su primer bloque el 16 de diciembre de 2010, el bloque 97834.
 
-Para mayo de 2024, Braiins Pool cuenta con una potencia de cómputo de 13 EH/s, lo que representa aproximadamente el 1.8% del total del hashrate de Bitcoin. Ha minado un total de 1,307,188 bitcoins, lo que es aproximadamente el 6% de los 21 millones máximos de bitcoins que existirán.
+Para mayo de 2024, Braiins Pool cuenta con una potencia de cómputo de 13 EH/s, lo que representa aproximadamente el 1.8% del total del hashrate de Bitcoin. Ha minado un total de 1,307,188 Bitcoin, lo que es aproximadamente el 6% de los 21 millones máximos de Bitcoin que existirán.
 
 ### Sistema de Compensación
 
 Desde finales de 2023, Braiins Pool ha cambiado su sistema de compensación para adoptar el sistema FPPS (Full Pay Per Share). Esto significa que los mineros reciben recompensas todos los días por todo su trabajo del día anterior, incluso si el pool no encontró un bloque. Esto difiere del sistema antiguo donde los mineros solo recibían una recompensa cuando el pool encontraba un bloque.
 
-**Es importante destacar, [según un tweet de Mononaut](https://x.com/mononautical/status/1777686545715089605) quien analiza la TimeChain de Bitcoin, que muchos pools de minería que utilizan el sistema FPPS enviarían los bitcoins minados a una dirección de AntPool, lo que significaría que AntPool controla el hashrate de todos estos pools, aproximadamente el 47% del hashrate global de Bitcoin. Esto es una muy mala noticia para la descentralización de la red.**
+**Es importante destacar, [según un tweet de Mononaut](https://x.com/mononautical/status/1777686545715089605) quien analiza la TimeChain de Bitcoin, que muchos pools de minería que utilizan el sistema FPPS enviarían el Bitcoin minado a una dirección de AntPool, lo que significaría que AntPool controla el hashrate de todos estos pools, aproximadamente el 47% del hashrate global de Bitcoin. Esto es una muy mala noticia para la descentralización de la red.**
 
 ### Tarifas del Pool
 
@@ -37,13 +36,11 @@ Los retiros pueden ser activados por intervalo de tiempo o por cantidad.
 
 Para comenzar a usar Braiins Pool [ve a su sitio web](https://braiins.com/pool) y haz clic en "SIGN UP" en la parte superior derecha
 
-
 ![signup](assets/3.webp)
 
 Ingresa tu información y valida, luego recibirás un correo electrónico solicitando la confirmación de tu dirección. Confirma con el enlace en el correo que recibiste y luego inicia sesión en la plataforma
 
 ![signup](assets/4.webp)
-
 
 ## Agregando un "worker"
 Un worker es el minero que conectarás al pool. Para agregar un nuevo minero, haz clic en "Workers" en el menú lateral izquierdo.
@@ -90,7 +87,7 @@ Debajo de este gráfico, tienes varias piezas de información sobre tus recompen
 
 **"Saldo de la Cuenta"** El número de sats disponibles en tu cuenta, que luego puedes retirar.
 ## Configuración de Retiros
-Puedes retirar tus recompensas ya sea en cadena o a través de lightning con una dirección.
+Puedes retirar tus recompensas ya sea en cadena o a través de Lightning con una dirección.
 
 En la parte superior, haz clic en "Fondos". Por defecto, tienes una "Cuenta de Bitcoin". Puedes crear otras para compartir las recompensas. Volveremos a esto en la próxima sección.
 
@@ -98,7 +95,7 @@ Por ahora, haz clic en "Configurar".
 
 ![signup](assets/17.webp)
 
-En esta nueva ventana, puedes elegir "Pago en cadena".
+En esta nueva ventana, puedes elegir "Pago on Chain".
 
 Nombra esta billetera, proporciona una dirección BTC y selecciona el tipo de disparador que deseas. "Umbral" significa que el pago se activará cuando hayas acumulado una cantidad definida de BTC, y con "Intervalo de tiempo", el pago se activará en intervalos regulares (día/semanas/meses).
 

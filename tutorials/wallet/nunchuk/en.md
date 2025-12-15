@@ -73,7 +73,7 @@ In the window that pops up, you will find fields to "fill in": choose the _Brows
 
 You can find the guide to Sparrow wallet to download this Software Wallet
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 You can then transfer the `.apk` file from your computer to your phone
 
@@ -206,7 +206,7 @@ Name your key and press _Continue_.
 ![image](assets/en/27.webp)
 
 
-At the end of these steps, you will be asked whether to add a [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) to your mnemonic phrase. If you do not have the necessary awareness of how to use passphrase, arrange for its backup, or how it works, I recommend that you choose _I don't need a passphrase_.
+At the end of these steps, you will be asked whether to add a [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) to your mnemonic phrase. If you do not have the necessary awareness of how to use passphrase, arrange for its backup, or how it works, I recommend that you choose _I don't need a passphrase_.
 
 
 ![image](assets/en/28.webp)
@@ -294,7 +294,7 @@ You are in _Home_, where you are shown the newly created Wallet reporting the ba
 
 
 - The lens icon in the upper right-hand corner allows you to do a transaction search;
-- `View Wallet config` gives access to the configuration menu, where you can edit the name of the Wallet and enable advanced options, top right (of which you can't get screenshots). Here you can export the Wallet configuration, labels, replace keys, change the [gap limit](https://planb.network/en/resources/glossary/gap-limit) and more.
+- `View Wallet config` gives access to the configuration menu, where you can edit the name of the Wallet and enable advanced options, top right (of which you can't get screenshots). Here you can export the Wallet configuration, labels, replace keys, change the [gap limit](https://planb.academy/en/resources/glossary/gap-limit) and more.
 
 
 ## Transactions with Nunchuk

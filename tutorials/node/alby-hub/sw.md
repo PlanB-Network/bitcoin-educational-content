@@ -548,4 +548,4 @@ Na ndivyo ilivyo, sasa unajua jinsi ya kutumia Umeme na nodi yako mwenyewe kwa k
 Ili kuelewa kwa undani njia zote za Umeme ambazo tumetumia katika somo hili, nakushauri sana ugundue mafunzo yetu ya bila malipo kuhusu mada hii:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

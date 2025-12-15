@@ -17,12 +17,12 @@ description: Hifadhi faragha na usiri wako.
 
 
 
-- **Bila malipo**: Kama ugawaji mwingi wa Linux, Whonix ni mfumo wa chanzo huria uliopewa leseni bila malipo kabisa. Inatengenezwa katika chanzo wazi, na jumuiya inayofanya kazi na ya uwazi.
-- **Faragha, usalama na kutokujulikana**: Lengo kuu la Whonix ni kutoa mazingira salama kabisa, ambapo data yako yote inalindwa na mawasiliano yako yamesimbwa kwa njia fiche kupitia mtandao wa Tor.
-- **Rahisi kutumia**: Whonix inatoa angavu, iliyosanidiwa awali ya Interface, inayofaa hata kwa watumiaji wapya. Hakuna haja ya kuwa mtaalam ili kufaidika na ulinzi wa hali ya juu.
-- **Mazingira yanayofaa kwa maendeleo salama**: Whonix hukuruhusu kuunda, kujaribu, kukagua au kuendesha programu bila kamwe kufichua IP yako halisi ya Address au kufichua tabia zako za kuvinjari au mawasiliano ya mtandao.
-- **Vipindi vinavyoweza kutumika na Hali ya Moja kwa Moja**: Whonix inaweza kuzinduliwa katika Hali ya Moja kwa Moja au kupitia mashine zinazoweza kutumika (k.m. kupitia **Qubes OS**), kuwezesha majukumu muhimu kutekelezwa bila kuacha ufuatiliaji unaoendelea punde tu kipindi kitakapokamilika.
-- **Usakinishaji rahisi kiasi**: Picha zilizo tayari kutumika hutolewa kwa usakinishaji wa haraka katika mashine pepe (VirtualBox, KVM, Qubes). Mfumo umeandikwa na kusasishwa mara kwa mara.
+- Bila malipo**: Kama ugawaji mwingi wa Linux, Whonix ni mfumo wa chanzo huria uliopewa leseni bila malipo kabisa. Inatengenezwa katika chanzo wazi, na jumuiya inayofanya kazi na ya uwazi.
+- Faragha, usalama na kutokujulikana**: Lengo kuu la Whonix ni kutoa mazingira salama kabisa, ambapo data yako yote inalindwa na mawasiliano yako yamesimbwa kwa njia fiche kupitia mtandao wa Tor.
+- Rahisi kutumia**: Whonix inatoa angavu, iliyosanidiwa awali ya Interface, inayofaa hata kwa watumiaji wapya. Hakuna haja ya kuwa mtaalam ili kufaidika na ulinzi wa hali ya juu.
+- Mazingira yanayofaa kwa maendeleo salama**: Whonix hukuruhusu kuunda, kujaribu, kukagua au kuendesha programu bila kamwe kufichua IP yako halisi ya Address au kufichua tabia zako za kuvinjari au mawasiliano ya mtandao.
+- Vipindi vinavyoweza kutumika na Hali ya Moja kwa Moja**: Whonix inaweza kuzinduliwa katika Hali ya Moja kwa Moja au kupitia mashine zinazoweza kutumika (k.m. kupitia **Qubes OS**), kuwezesha majukumu muhimu kutekelezwa bila kuacha ufuatiliaji unaoendelea punde tu kipindi kitakapokamilika.
+- Usakinishaji rahisi kiasi**: Picha zilizo tayari kutumika hutolewa kwa usakinishaji wa haraka katika mashine pepe (VirtualBox, KVM, Qubes). Mfumo umeandikwa na kusasishwa mara kwa mara.
 
 
 
@@ -56,9 +56,9 @@ Hapa kuna vipimo vilivyopendekezwa vya matumizi laini na dhabiti na Whonix:
 
 
 
-- **Kumbukumbu ya Ufikiaji Nasibu (RAM)**: kiwango cha chini cha **GB** kinapendekezwa sana. Kadiri unavyokuwa na RAM zaidi, ndivyo rasilimali nyingi unavyoweza kutenga kwa mashine pepe (Lango na Kituo cha Kazi), kuboresha utendaji.
+- Kumbukumbu ya Ufikiaji Nasibu (RAM)**: kiwango cha chini cha **GB** kinapendekezwa sana. Kadiri unavyokuwa na RAM zaidi, ndivyo rasilimali nyingi unavyoweza kutenga kwa mashine pepe (Lango na Kituo cha Kazi), kuboresha utendaji.
 - Nafasi ya diski inayopatikana**: tafadhali ruhusu angalau GB 30 ya nafasi ya bure ya diski**. Hii inajumuisha nafasi inayohitajika kwa mashine mbili pepe, faili za mfumo na data au vijipicha vyovyote.
-- **Kichakataji**: kichakataji chenye angalau **viini 4** (nyuzi 8 za kimantiki) kinapendekezwa, haswa ikiwa unataka kuendesha huduma au zana zingine kwa sambamba.
+- Kichakataji**: kichakataji chenye angalau **viini 4** (nyuzi 8 za kimantiki) kinapendekezwa, haswa ikiwa unataka kuendesha huduma au zana zingine kwa sambamba.
 
 
 
@@ -86,7 +86,7 @@ Mara tu unapopakua faili, isakinishe kama ungefanya programu nyingine yoyote. Ku
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Inaleta Whonix
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix ni zaidi ya mfumo wa uendeshaji tu: ni **mazingira salama** yaliyoundwa ili kulinda kutokujulikana kwako, faragha yako na shughuli zako nyeti. Shukrani kwa usanifu wake unaotegemea Tor, ugawaji wa akili kati ya Gateway na Workstation, na zana zilizosakinishwa awali kama vile Tor Browser, KeePassXC na Electrum, inatoa suluhisho la ufunguo wa kugeuza kwa yeyote anayetaka **kuvinjari bila kujulikana**, **kufanya kazi kwa usalama** au **kushughulikia data ya siri**.
 
@@ -244,4 +244,4 @@ Ili kuimarisha usalama wako kwenye mfumo wako wa Unix, angalia mafunzo yetu kuhu
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

@@ -1,0 +1,8 @@
+question: When analyzing a Lightning node's routing capabilities across different payment sizes, what critical insight does the dynamic updating of the Routable Liquidity Chart reveal as payment amounts increase?
+answer: Individual channels with sufficient capacity for small payments become unusable bottlenecks for larger transactions, despite appearing healthy in static analysis
+wrong_answers:
+  - Fee rates automatically adjust proportionally to payment size, making larger transactions more profitable but requiring higher initial capital investment
+  - Total node liquidity remains constant but gets redistributed equally across all channels to maintain optimal routing performance for any payment size
+  - "Channel capacity increases logarithmically with payment size due to Lightning Network's automatic liquidity aggregation from neighboring nodes"
+explanation: |
+  The Simulation Engine's key value lies in exposing the gap between static capacity analysis and dynamic routing reality. While a channel might show adequate total capacity, it may lack the concentrated liquidity needed for larger payments, creating invisible bottlenecks. The wrong answers misunderstand fundamental Lightning mechanics: fees don't auto-adjust to payment size, liquidity doesn't redistribute automatically, and channels can't borrow capacity from neighbors.

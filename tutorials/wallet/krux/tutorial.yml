@@ -109,10 +109,11 @@ proofreading:
     contributor_names:
     reward: 0.48
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 0.6
+      - Tinnah924
+    reward: 0.3
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -137,7 +138,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.6
+    reward: 0.73
   - language: rn
     last_contribution_date:
     urgency: 1

@@ -1,14 +1,14 @@
 ---
-name: Mejorar su seguridad digital personal
-goal: Establezca un entorno digital personal seguro, estable y eficiente.
+name: Mejorar tu seguridad digital personal
+goal: Establecer un entorno digital personal seguro, estable y eficiente.
 objectives: 
 
 
   - Entender cómo funcionan los sistemas operativos modernos y elegir con conocimiento de causa
-  - Gane autonomía técnica en Linux
+  - Obtener autonomía técnica en Linux
   - Aplicar las mejores prácticas de seguridad en un ordenador personal
   - Aumentar la seguridad de la navegación web y el uso del móvil mediante herramientas de código abierto y una configuración adecuada
-  - Implantar las protecciones necesarias en una red doméstica
+  - Implementar las protecciones necesarias en una red doméstica
 
 
 ---
@@ -17,7 +17,7 @@ objectives:
 
 
 
-En un mundo en el que los dispositivos digitales están en todas partes pero rara vez se dominan, aprender a proteger su propio entorno informático es una necesidad. Ya sea su ordenador, navegador, teléfono o red doméstica, cada uno de estos Elements puede ser una puerta potencial a su privacidad. Este curso le ayuda a recuperar el control de sus dispositivos digitales.
+En un mundo en el que los dispositivos digitales están en todas partes pero rara vez se dominan, aprender a proteger tu propio entorno informático es una necesidad. Ya sea tu ordenador, navegador, teléfono o red doméstica, cada uno de estos elementos puede ser una potencial puerta de acceso a tu información privada. Este curso le ayuda a recuperar el control de tus dispositivos digitales.
 
 
 
@@ -25,11 +25,11 @@ No se trata sólo de conocer las mejores prácticas: se trata de entender lo que
 
 
 
-A lo largo de los módulos del curso, descubrirá cómo verificar la integridad del software que instala, cifrar sus datos de forma eficaz, utilizar su navegador y su teléfono con una fuga de datos mínima y reforzar la seguridad de su red doméstica.
+A lo largo de los módulos del curso, descubrirá cómo verificar la integridad del software que instala, cifrar tus datos de forma eficaz, utilizar tu navegador y tu teléfono con una fuga de datos mínima y reforzar la seguridad de tu red doméstica.
 
 
 
-Este curso está dirigido a usuarios intermedios que quieran ir más allá en el dominio de sus herramientas digitales. Se basa en un enfoque práctico, centrado en la autonomía y la soberanía, para construir hábitos informáticos cotidianos más seguros y conscientes, siguiendo el lema "*No confíes, verifica*".
+Este curso está dirigido a usuarios intermedios que quieran ir más allá en el dominio de tus herramientas digitales. Se basa en un enfoque práctico, centrado en la autonomía y la soberanía, para construir hábitos informáticos cotidianos más seguros y conscientes, siguiendo el lema "*No confíes, verifica*".
 
 
 
@@ -49,7 +49,7 @@ Este curso está dirigido a usuarios intermedios que quieran ir más allá en el
 
 
 
-Bienvenido al curso SCU202, continuación del curso SCU101, que le llevará más lejos en su dominio de la seguridad informática haciendo hincapié en la soberanía individual, la protección de la vida privada y la gestión segura de sus datos personales. He aquí un resumen de lo que descubrirá a lo largo del curso SCU202.
+Bienvenido al curso SCU202, continuación del curso SCU101, que le llevará más lejos en tu dominio de la seguridad informática haciendo hincapié en la soberanía individual, la protección de la vida privada y la gestión segura de tus datos personales.Este es un resumen de lo que irás viendo a lo largo del curso SCU202.
 
 
 
@@ -57,7 +57,7 @@ Bienvenido al curso SCU202, continuación del curso SCU101, que le llevará más
 
 
 
-El curso comienza con un breve repaso de los conceptos tratados en SCU101, que le garantizará que está totalmente al día de los principios fundamentales necesarios para abordar correctamente lo que viene a continuación.
+El curso comienza con un breve repaso de los conceptos tratados en SCU101, que comprobará que está totalmente al día de los principios fundamentales necesarios para realizar correctamente lo que viene a continuación.
 
 
 
@@ -84,7 +84,7 @@ En esta sección, aprenderás a reforzar la seguridad de tu ordenador. Abordarem
 
 
 
-También aprenderá a verificar la integridad y autenticidad del software descargado para evitar infecciones o riesgos, así como a utilizar eficazmente el cifrado para proteger sus datos personales y copias de seguridad. Por último, descubrirá por qué y cómo limpiar los metadatos de sus archivos para proteger su privacidad en línea.
+También aprenderás a verificar la integridad y autenticidad del software descargado para evitar infecciones o riesgos, así como a utilizar eficazmente el cifrado para proteger tus datos personales y copias de seguridad. Por último, descubrirás por qué y cómo limpiar los metadatos de tus archivos para proteger tu privacidad en línea.
 
 
 
@@ -156,7 +156,7 @@ Para finalizar el curso, podrás realizar el examen final para obtener tu certif
 
 
 
-**N.B.:** Si durante el curso se encuentra con algún término que no le resulte familiar, consulte [el glosario](https://planb.network/resources/glossary) para obtener las definiciones
+**N.B.:** Si durante el curso se encuentra con algún término que no le resulte familiar, consulte [el glosario](https://planb.academy/resources/glossary) para obtener las definiciones
 
 
 
@@ -179,7 +179,7 @@ El curso SCU101 fue un curso introductorio diseñado para establecer una base s�
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Navegación en línea segura
 
@@ -189,7 +189,7 @@ La navegación por Internet suele ser el principal punto de entrada de las amena
 
 
 
-Otra buena práctica tratada en el curso se refiere a las cookies, esos pequeños archivos que se almacenan en su ordenador cuando visita sitios web. Debe eliminarlos o limitarlos regularmente para proteger su privacidad.
+Otra buena práctica tratada en el curso se refiere a las cookies, esos pequeños archivos que se almacenan en tu ordenador cuando visita sitios web. Debe eliminarlos o limitarlos regularmente para proteger su privacidad.
 
 
 
@@ -229,7 +229,7 @@ La seguridad también implica conocer tu sistema operativo (SO). Has explorado l
 
 
 
-SCU101 también le advirtió que nunca conectara unidades USB desconocidas a su ordenador, ya que pueden contener malware que podría infectar su sistema.
+SCU101 también te advirtió que nunca conectara unidades USB desconocidas a su ordenador, ya que pueden contener malware que podría infectar su sistema.
 
 
 
@@ -261,7 +261,7 @@ SCU101 hizo especial hincapié en la importancia de proteger su correo electrón
 
 
 
-Ya has visto la importancia de crear direcciones de correo electrónico seguras y dedicadas. Es prudente tener una Address de correo electrónico específica reservada para la recuperación de cuentas, separada de su Address principal.
+Ya has visto la importancia de crear direcciones de correo electrónico seguras y dedicadas. Es prudente tener una dirección de correo electrónico específica reservada para la recuperación de cuentas, separada de su dirección principal.
 
 
 
@@ -293,7 +293,7 @@ Por último, SCU101 te presentó la autenticación de dos factores (2FA). El pri
 
 
 
-2FA protege sus cuentas considerablemente mejor: incluso si su contraseña se ve comprometida, el acceso sigue siendo imposible sin el segundo factor. Ten en cuenta que los códigos enviados por SMS o correo electrónico son menos seguros, ya que pueden ser interceptados o desviados.
+2FA protege tus cuentas considerablemente mejor: incluso si tu contraseña se ve comprometida, el acceso sigue siendo imposible sin el segundo factor. Ten en cuenta que los códigos enviados por SMS o correo electrónico son menos seguros, ya que pueden ser interceptados o desviados.
 
 
 
@@ -301,7 +301,7 @@ ___
 
 
 
-Este recordatorio de los fundamentos servirá de base para nuestro curso SCU202, en el que profundizaremos mucho más en el dominio de las técnicas de ciberseguridad, para proteger mejor su soberanía individual, su intimidad y sus datos personales en general.
+Este recordatorio de los fundamentos servirá de base para nuestro curso SCU202, en el que profundizaremos mucho más en el dominio de las técnicas de ciberseguridad, para proteger mejor tu soberanía individual, tu intimidad y tus datos personales en general.
 
 
 
@@ -312,7 +312,7 @@ Este recordatorio de los fundamentos servirá de base para nuestro curso SCU202,
 
 
 
-## Linux, Windows, macOS: ¿cuál le conviene?
+## Linux, Windows, macOS: ¿cuál te conviene?
 
 
 <chapterId>598cdecb-f90c-4382-b13c-0ba5a9dfeede</chapterId>
@@ -331,7 +331,7 @@ Antes de entrar en los detalles técnicos de Linux en los próximos capítulos, 
 
 
 
-Un sistema operativo es un conjunto de programas centrales que actúa como intermediario entre el usuario, las aplicaciones (que también son software) y el hardware, es decir, su ordenador. Es el software básico Layer que permite utilizar los recursos hardware de un ordenador (procesador, memoria, discos, periféricos, etc.).
+Un sistema operativo es un conjunto de programas centrales que actúa como intermediario entre el usuario, las aplicaciones (que también son software) y el hardware, es decir, tu ordenador. Es  la capa básica de software que permite utilizar los recursos hardware de un ordenador (procesador, memoria, discos, periféricos, etc.).
 
 
 
@@ -412,7 +412,7 @@ Linux también está masivamente integrado en dispositivos embebidos como router
 
 
 
-→ **Importante:** El núcleo es el componente central del sistema operativo: gestiona el acceso al hardware (procesador, memoria, periféricos), arbitra la ejecución simultánea de procesos, aplica políticas de seguridad y ofrece una Interface uniforme a los programas que enmascara la complejidad de los circuitos electrónicos. En otras palabras, actúa de puente entre el entorno de software (bibliotecas, controladores, shells, servicios, herramientas de administración, Interface gráfico, etc.) y el hardware.
+→ **Importante:** El núcleo es el componente central del sistema operativo: gestiona el acceso al hardware (procesador, memoria, periféricos), arbitra la ejecución simultánea de procesos, aplica políticas de seguridad y ofrece una interfaz uniforme a los programas que enmascara la complejidad de los circuitos electrónicos. En otras palabras, actúa de puente entre el entorno de software (bibliotecas, controladores, shells, servicios, herramientas de administración, Interface gráfico, etc.) y el hardware.
 
 
 
@@ -420,7 +420,7 @@ Linux también está masivamente integrado en dispositivos embebidos como router
 
 
 
-Windows es un sistema operativo propietario desarrollado por Microsoft. Está instalado en la mayoría de los ordenadores personales del mundo. Históricamente, ha sido apreciado por ser Interface fácil de usar e intuitivo. Sin embargo, esa ventaja es cuestionable ahora: el Interface de macOS también es muy accesible, y muchas distribuciones de Linux tienen un Interface apto para el gran público (volveremos sobre esto en los siguientes capítulos).
+Windows es un sistema operativo propietario desarrollado por Microsoft. Está instalado en la mayoría de los ordenadores personales del mundo. Históricamente, ha sido apreciado por temer una interfaz fácil de usar e intuitiva. Sin embargo, esa ventaja es cuestionable ahora: la interfaz de macOS también es muy accesible, y muchas distribuciones de Linux tienen una interfaz cómoda para el gran público (volveremos sobre esto en los siguientes capítulos).
 
 
 
@@ -448,7 +448,7 @@ En términos de seguridad, Windows es un objetivo privilegiado para el malware. 
 
 
 
-En mi opinión, Windows ocupa una posición central no afirmada: puede ser seguro, pero menos que Linux y macOS; permite cierto control, pero mucho menos que Linux; no es ni tan potente como macOS, ni tan sencillo como Chrome OS o algunos sistemas Linux aptos para principiantes. Es mediocre en todos los aspectos, sin ser realmente malo en ninguno (excepto en privacidad, por defecto).
+En mi opinión, Windows ocupa una posición central: puede ser seguro, pero menos que Linux y macOS; permite cierto control, pero mucho menos que Linux; no es ni tan potente como macOS, ni tan sencillo como Chrome OS o algunos sistemas Linux aptos para principiantes. Es mediocre en todos los aspectos, sin ser realmente malo en ninguno (excepto en privacidad, por defecto).
 
 
 
@@ -472,7 +472,7 @@ macOS es el sistema operativo desarrollado por Apple para sus ordenadores Mac. E
 
 
 
-Esta sólida base proporciona una buena estabilidad, una gestión eficaz de los recursos y una arquitectura relativamente segura por defecto. A esto se añade un Interface gráfico especialmente pulido, diseñado para una experiencia de usuario fluida.
+Esta sólida base proporciona una buena estabilidad, una gestión eficaz de los recursos y una arquitectura relativamente segura por defecto. A esto se añade una interfaz gráfica especialmente pulida, diseñada para una experiencia de usuario fluida.
 
 
 
@@ -480,7 +480,7 @@ Esta sólida base proporciona una buena estabilidad, una gestión eficaz de los 
 
 
 
-Uno de los principales puntos fuertes de macOS reside en la integración vertical de hardware y software. Apple controla toda la cadena, desde el diseño del procesador hasta los más pequeños detalles de Interface. El resultado es un sistema generalmente fiable, con pocos fallos de hardware y optimizado para el rendimiento. El resultado es un sistema generalmente fiable, con pocos fallos de hardware y optimizado para el rendimiento.
+Uno de los principales puntos fuertes de macOS reside en la integración vertical de hardware y software. Apple controla toda la cadena, desde el diseño del procesador hasta los más pequeños detalles de l interfaz. El resultado es un sistema generalmente fiable, con pocos fallos de hardware y optimizado para el rendimiento. 
 
 
 
@@ -496,7 +496,7 @@ En términos de privacidad, aunque macOS es menos intrusivo que Windows, sigue l
 
 
 
-macOS puede convenir a los usuarios que valoran el rendimiento, la estabilidad y la comodidad de un sistema bien integrado, sin tener que sumergirse en los detalles técnicos. Por otro lado, cuando se trata de la soberanía digital y el control de su entorno de TI, es demasiado cerrado, demasiado dependiente de una sola empresa, y no es propicio para la personalización afinada. Por eso no hablaremos más de ello en este curso SCU202.
+macOS puede convenir a los usuarios que valoran el rendimiento, la estabilidad y la comodidad de un sistema bien integrado, sin tener que sumergirse en los detalles técnicos. Por otro lado, cuando se trata de la soberanía digital y el control de su entorno de TI, es demasiado cerrado, demasiado dependiente de una sola empresa, y no es propicio para una  personalización detallada. Por eso no hablaremos más de ello en este curso SCU202.
 
 
 
@@ -524,13 +524,13 @@ Sin embargo, Linux también presenta cierta complejidad para los principiantes. 
 
 
 
-Su elección dependerá principalmente de sus necesidades y expectativas:
+Su elección dependerá principalmente de tus necesidades y expectativas:
 
 
 
 
 - Si buscas sencillez, una amplia compatibilidad de hardware y software (especialmente para videojuegos), así como un uso general, Windows puede ser una buena opción. Sin embargo, debes ser consciente de sus limitaciones en cuanto a rendimiento, seguridad y privacidad;
-- Si buscas una integración óptima entre tu hardware y tu sistema, un Interface refinado y fácil de usar y una seguridad relativamente buena sin necesidad de configuraciones avanzadas, y ya posees o deseas adoptar el ecosistema Apple, macOS es una opción natural;
+- Si buscas una integración óptima entre tu hardware y tu sistema, una interfaz refinada y fácil de usar y una seguridad relativamente buena sin necesidad de configuraciones avanzadas, y ya perteneces o deseas empezar en el ecosistema Apple, macOS es una opción natural;
 - Por último, si buscas seguridad, estabilidad y rendimiento por encima de todo y además quieres controlar en profundidad tu entorno digital, estando dispuesto a invertir tiempo en aprender a utilizar tu sistema operativo, Linux es una excelente opción, especialmente en un contexto en el que la autonomía técnica y la soberanía digital son prioritarias.
 
 
@@ -604,7 +604,7 @@ El proyecto GNU (acrónimo recursivo de "*GNU's Not Unix*") fue anunciado oficia
 
 
 
-Más allá de sus aspectos técnicos, el proyecto GNU se inscribe en una filosofía heredada de la cultura hacker de los años setenta: una cultura basada en el intercambio de conocimientos, la cooperación entre iguales y el libre acceso al código fuente. Richard Stallman quería preservar el espíritu de colaboración que dominó los primeros tiempos de la informática, cuando los fabricantes aún distribuían libremente el código fuente de sus sistemas. El proyecto GNU no sólo pretende ofrecer un sistema operativo libre, sino defender una visión política y ética de la informática: la del conocimiento accesible a todos, sin monopolios ni bloqueos propietarios. El objetivo es evitar que los usuarios se conviertan en prisioneros de un software que no pueden entender ni modificar, y promover una informática emancipadora.
+Más allá de sus aspectos técnicos, el proyecto GNU es parte de una filosofía heredada de la cultura hacker de los años setenta: una cultura basada en el intercambio de conocimientos, la cooperación entre iguales y el libre acceso al código fuente. Richard Stallman quería preservar el espíritu de colaboración que dominó los primeros tiempos de la informática, cuando los fabricantes aún distribuían libremente el código fuente de sus sistemas. El proyecto GNU no sólo pretende ofrecer un sistema operativo libre, sino defender una visión política y ética de la informática: la del conocimiento accesible a todos, sin monopolios ni bloqueos propietarios. El objetivo es evitar que los usuarios se conviertan en prisioneros de un software que no pueden entender ni modificar, y promover una informática emancipadora.
 
 
 
@@ -616,7 +616,7 @@ Con esta idea, Stallman fundó en 1985 la *Free Software Foundation* (FSF), una 
 
 
 
-GNU proporciona rápidamente una serie de herramientas esenciales para su sistema:
+GNU proporcionó rápidamente una serie de herramientas esenciales para su sistema:
 
 
 
@@ -634,7 +634,7 @@ GNU proporciona rápidamente una serie de herramientas esenciales para su sistem
 
 
 
-También se integran algunos ladrillos externos, como el sistema X Window, el motor de composición TeX y el micronúcleo Mach, utilizado con el paquete servidor Hurd de GNU (juntos, Mach y Hurd cumplen las mismas funciones que un núcleo Unix clásico, pero en una arquitectura de micronúcleo + servidor). Este proyecto de sustitución del núcleo era ambicioso pero muy complejo. Nunca llegará a ser plenamente funcional, dejando sitio al núcleo Linux.
+También se integraron algunos componentes externos, como el sistema X Window, el motor de composición TeX y el micronúcleo Mach, utilizado con el paquete servidor Hurd de GNU (juntos, Mach y Hurd cumplen las mismas funciones que un núcleo Unix clásico, pero en una arquitectura de micronúcleo + servidor). Este proyecto para sustituir el núcleo era ambicioso pero muy complejo. Nunca llegará a ser plenamente funcional, dejando sitio al núcleo Linux.
 
 
 
@@ -702,7 +702,7 @@ La distinción entre los dos términos radica, por tanto, en la motivación suby
 
 
 
-A pesar de sus diferencias filosóficas, estas dos corrientes comparten valores comunes como la transparencia, la auditabilidad del código fuente, la independencia de los proveedores y la capacidad de los usuarios finales para comprender, modificar y mejorar sus herramientas informáticas. Incluso hoy en día, estas distinciones alimentan regularmente el debate y la reflexión en el seno de las comunidades técnicas, en particular la Bitcoin.
+A pesar de sus diferencias filosóficas, estas dos corrientes comparten valores comunes como la transparencia, la auditabilidad del código fuente, la independencia de los proveedores y la capacidad de los usuarios finales para comprender, modificar y mejorar sus herramientas informáticas. Incluso hoy en día, estas distinciones alimentan regularmente el debate y la reflexión en el seno de las comunidades técnicas, particularmente en la de Bitcoin.
 
 
 
@@ -714,7 +714,7 @@ GNU y Linux no son sólo una historia de éxito técnico: su impacto cultural y 
 
 
 
-Este enfoque comunitario, abierto y colaborativo permite que Linux evolucione rápidamente, de forma descentralizada y participativa. Todos los usuarios pueden contribuir al proyecto, ya sea codificando, documentando o probando. Esta dinámica de colaboración masiva representa una importante innovación social en el mundo de la informática.
+Este enfoque comunitario, abierto y colaborativo permite que Linux evolucione rápidamente, de forma descentralizada y participativa. Todos los usuarios pueden contribuir al proyecto, ya sea escribiendo código, documentando o haciendo pruebas. Esta dinámica de colaboración masiva representa una importante innovación social en el mundo de la informática.
 
 
 
@@ -780,7 +780,7 @@ Comprender las diferencias entre las distribuciones de Linux es, por tanto, un p
 
 
 
-Las primeras distribuciones de Linux aparecieron inmediatamente después de que Linus Torvalds publicara el núcleo Linux en septiembre de 1991. En aquella época, Linux no era más que un núcleo: para obtener un sistema completo, los usuarios debían ensamblar manualmente los distintos componentes necesarios (a menudo tomados del proyecto GNU), lo que requería un alto nivel de conocimientos técnicos. Instalar el sistema significa compilar uno mismo el núcleo, configurar las particiones, elegir las herramientas, gestionar las dependencias de software... En resumen, un proceso complejo, reservado a los iniciados.
+Las primeras distribuciones de Linux aparecieron inmediatamente después de que Linus Torvalds publicara el núcleo Linux en septiembre de 1991. En aquella época, Linux no era más que un núcleo: para obtener un sistema completo, los usuarios debían unir manualmente los distintos componentes necesarios (a menudo tomados del proyecto GNU), lo que requería un alto nivel de conocimientos técnicos. Instalar el sistema significa compilar uno mismo el núcleo, configurar las particiones, elegir las herramientas, gestionar las dependencias de software... En resumen, un proceso complejo, reservado a los iniciados.
 
 
 
@@ -972,11 +972,11 @@ La familia Arch Linux se distingue por una filosofía radicalmente opuesta a la 
 
 Este enfoque se basa en un modelo *rolling release*, en el que los paquetes se actualizan continuamente, sin necesidad de reinstalar el sistema con cada versión importante. El gestor de paquetes Pacman es rápido y ligero, lo que facilita la instalación y actualización de software, y el AUR (*Arch User Repository*), un repositorio comunitario, proporciona acceso a una amplia gama de paquetes no oficiales y de desarrollo.
 
-Arch Linux está dirigido sobre todo a usuarios avanzados que desean un control total sobre su entorno, aunque aceptando cierta complejidad en la instalación y el mantenimiento. Este requisito técnico ha propiciado la aparición de varias distribuciones derivadas destinadas a democratizar su uso.
+Arch Linux está dirigida sobre todo a usuarios avanzados que desean un control total sobre su entorno, aunque aceptando cierta complejidad en la instalación y el mantenimiento. Este requisito técnico ha propiciado la aparición de varias distribuciones derivadas destinadas a democratizar su uso.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
-El más conocido es Manjaro, que conserva la base técnica de Arch al tiempo que ofrece una instalación simplificada, entornos de escritorio preconfigurados y un ciclo de lanzamiento ligeramente retrasado para estabilizar las actualizaciones.
+La más conocido es Manjaro, que conserva la base técnica de Arch al tiempo que ofrece una instalación simplificada, entornos de escritorio preconfigurados y un ciclo de lanzamiento ligeramente retrasado para estabilizar las actualizaciones.
 
 
 
@@ -1062,7 +1062,7 @@ Desarrollada por Canonical y lanzada en 2004, Ubuntu es una de las distribucione
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
@@ -1070,11 +1070,11 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-Lanzada en 2006, Linux Mint es una distribución derivada de Ubuntu, diseñada para ofrecer una alternativa más intuitiva y cercana a la ergonomía de Windows. Ofrece varios entornos de escritorio, entre ellos Cinnamon, un Fork de GNOME diseñado específicamente por el equipo de Mint, que proporciona un Interface claro, clásico e inmediatamente familiar.
+Lanzada en 2006, Linux Mint es una distribución derivada de Ubuntu, diseñada para ofrecer una alternativa más intuitiva y cercana a la ergonomía de Windows. Ofrece varios entornos de escritorio, entre ellos Cinnamon, un Fork de GNOME diseñado específicamente por el equipo de Mint, que proporciona una interfaz claro, clásica e inmediatamente familiar.
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint destaca por su sencillez, la presencia por defecto de códecs multimedia y una herramienta de actualización bien diseñada. Por otro lado, depende en gran medida de la infraestructura de Ubuntu, lo que le hace dependiente de las decisiones técnicas de Ubuntu (sobre todo a nivel de kernel y repositorios). Mint se adapta especialmente bien a los usuarios no técnicos, o a los que quieren un sistema listo para usar que no requiera demasiado aprendizaje.
 
@@ -1090,7 +1090,7 @@ Mint destaca por su sencillez, la presencia por defecto de códecs multimedia y 
 
 
 
-Creado en 2008 por un equipo irlandés, Zorin OS se dirige explícitamente a los usuarios de Windows y macOS que buscan una transición suave a Linux. Se basa en Ubuntu LTS y ofrece un Interface personalizado que puede imitar a Windows o macOS según las preferencias.
+Creado en 2008 por un equipo irlandés, Zorin OS se dirige explícitamente a los usuarios de Windows y macOS que buscan una transición suave a Linux. Se basa en Ubuntu LTS y ofrece una interfaz personalizado que puede imitar a Windows o macOS según las preferencias.
 
 
 
@@ -1104,11 +1104,11 @@ La instalación es sencilla, el software esencial está preinstalado y la versi�
 
 
 
-- sO elemental:
+- elementary OS**:
 
-Lanzada en 2011, elementary OS es una distribución basada en Ubuntu que se centra sobre todo en el diseño y la coherencia de Interface. Su entorno de escritorio Pantheon, inspirado en macOS, es minimalista, elegante y fluido. Sin embargo, el sistema sigue siendo menos personalizable que otras distribuciones, y algunos usuarios avanzados pueden sentirse limitados por las opciones de Interface y su estructura deliberadamente cerrada. Es muy adecuada para usuarios sensibles a la estética que buscan un sistema sencillo y coherente para el uso diario.
+Lanzada en 2011, elementary OS es una distribución basada en Ubuntu que se centra sobre todo en el diseño y la coherencia de la interfaz. Su entorno de escritorio Pantheon, inspirado en macOS, es minimalista, elegante y fluido. Sin embargo, el sistema sigue siendo menos personalizable que otras distribuciones, y algunos usuarios avanzados pueden sentirse limitados por las opciones de la interfaz y su estructura deliberadamente cerrada. Es muy adecuada para usuarios sensibles a la estética que buscan un sistema sencillo y coherente para el uso diario.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1122,7 +1122,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-Desarrollado por la empresa estadounidense System76, Pop!OS también se basa en Ubuntu. Está dirigido tanto a usuarios de escritorio como a desarrolladores, con un GNOME Interface modificado (y recientemente un entorno propio llamado COSMIC). Pop!OS integra por defecto optimizaciones para las GPU NVIDIA y cuenta con un modo de gestión de ventanas en mosaico. El sistema sigue siendo sencillo de utilizar, pero también ofrece funcionalidades avanzadas listas para usar. Está dirigido a usuarios intermedios, estudiantes o profesionales que desean un sistema eficiente sin tener que configurar su entorno a mano.
+Desarrollado por la empresa estadounidense System76, Pop!OS también se basa en Ubuntu. Está dirigida tanto a usuarios de escritorio como a desarrolladores, con una interfaz de GNOME modificada (y recientemente con un entorno propio llamado COSMIC). Pop!OS integra por defecto optimizaciones para las GPU NVIDIA y cuenta con un modo de gestión de ventanas en mosaico. El sistema sigue siendo sencillo de utilizar, pero también ofrece funcionalidades avanzadas listas para usar. Está dirigido a usuarios intermedios, estudiantes o profesionales que desean un sistema eficiente sin tener que configurar su entorno a mano.
 
 
 
@@ -1151,7 +1151,7 @@ Fedora es una distribución respaldada por Red Hat, orientada a las últimas tec
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
 - **openSUSE** (Tumbleweed o Leap):
@@ -1179,7 +1179,7 @@ Debian existe en varias ramas, incluyendo *Stable* (muy fiable, pero con softwar
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
 - **Manjaro**:
@@ -1208,13 +1208,13 @@ Arch Linux es una distribución minimalista, continuamente actualizable, que se 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Distribución especializada
 
 - **Kali Linux**:
 
-Kali Linux es una distribución basada en Debian diseñada para pruebas de penetración y auditoría de seguridad. Incluye cientos de herramientas de pentest. Esta distribución no es realmente adecuada como sistema principal para el uso diario.
+Kali Linux es una distribución basada en Debian diseñada para pentesting y auditoría de seguridad. Incluye cientos de herramientas de pentest. Esta distribución no es realmente adecuada como sistema principal para el uso diario.
 
 
 
@@ -1238,7 +1238,8 @@ Parrot OS también deriva de Debian. Ofrece un entorno para pentesting, segurida
 
 
 
-- **Colas**:
+- Tails**:
+
 
 
 
@@ -1246,9 +1247,9 @@ Tails es una distribución en vivo basada en Debian y centrada en la privacidad.
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
-→ **Nota:** Una distribución en vivo es un sistema operativo Linux que puede utilizarse directamente desde una memoria USB o CD, sin instalación en el disco Hard.
+→ **Nota:** Una distribución en vivo es un sistema operativo Linux que puede utilizarse directamente desde una memoria USB o CD, sin instalación en el disco duro.
 
 
 
@@ -1300,7 +1301,7 @@ PureOS es una distribución derivada de Debian desarrollada por Purism, totalmen
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
 - **Raspberry Pi OS**:
 
@@ -1326,7 +1327,7 @@ Whonix combina Debian con la red Tor en una arquitectura de dos VM (pasarela + e
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Este panorama le ofrece una visión general del ecosistema actual de distribuciones Linux, lo que le permitirá seleccionar la distribución que mejor se adapte a su perfil técnico y a sus objetivos.
 
@@ -1336,13 +1337,13 @@ En el próximo capítulo de SCU202, echaremos un vistazo más de cerca al entorn
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-En un sistema GNU/Linux, el entorno de escritorio juega uno de los papeles más importantes en la experiencia de usuario. Es el Layer gráfico que permite la interacción con el sistema, basado en representaciones visuales familiares: ventanas, menús, iconos, paneles y aplicaciones preinstaladas.
+En un sistema GNU/Linux, el entorno de escritorio juega uno de los papeles más importantes en la experiencia de usuario. Es la capa gráfica que permite la interacción con el sistema, basado en representaciones visuales familiares: ventanas, menús, iconos, paneles y aplicaciones preinstaladas.
 
 En este capítulo, exploraré la estructura y el papel de un entorno de escritorio, sus componentes típicos, las principales familias disponibles, los criterios de selección y su integración en las distribuciones Linux más populares.
 
-### ¿Qué es un entorno de oficina?
+### ¿Qué es un entorno de escritorio?
 
-Un entorno de escritorio (o "*DE*" por *Desktop Environment*) se refiere al conjunto de programas que conforman el Interface gráfico completo de un sistema operativo. En Windows y macOS, se ofrece por defecto un único entorno de escritorio, integrado en el sistema, sin posibilidad de modificarlo por completo (sólo existen ciertos shells para modificar parcialmente el Interface). En cambio, los sistemas Linux son mucho más modulares y tratan el entorno de escritorio como un componente independiente que puede sustituirse libremente.
+Un entorno de escritorio (o "*DE*" por *Desktop Environment*) se refiere al conjunto de programas que conforman el interfaz gráfico completo de un sistema operativo. En Windows y macOS, se ofrece por defecto un único entorno de escritorio, integrado en el sistema, sin posibilidad de modificarlo por completo (sólo existen ciertos shells para modificar parcialmente el Interface). En cambio, los sistemas Linux son mucho más modulares y tratan el entorno de escritorio como un componente independiente que puede sustituirse libremente.
 
 En Linux, es importante distinguir claramente entre todas las capas: el núcleo (que gestiona la interacción con el hardware), el servidor de pantalla (que actúa como intermediario entre las aplicaciones, los controladores gráficos y el hardware a través del núcleo) y, por último, el propio entorno de escritorio, que se basa en esta infraestructura para ofrecer un Interface gráfico coherente al usuario. Esta distinción a veces puede ser menos clara, ya que muchas distribuciones de Linux vienen con un entorno de escritorio preinstalado que a veces incluye su propio compositor Wayland, que luego actúa como servidor de pantalla.
 
@@ -1352,11 +1353,11 @@ En Linux, es importante distinguir claramente entre todas las capas: el núcleo 
 
 
 
-### Componentes típicos de un entorno de oficina
+### Componentes típicos de un entorno de escritorio
 
 
 
-Un entorno de escritorio en una distribución Linux no es una única aplicación, sino un conjunto coherente de componentes de software que proporcionan un Interface gráfico completo para interactuar con el sistema operativo. Estos componentes se basan en varias capas de software, que se estructuran de la siguiente manera:
+Un entorno de escritorio en una distribución Linux no es una única aplicación, sino un conjunto coherente de componentes de software que proporcionan un interfaz gráfico completo para interactuar con el sistema operativo. Estos componentes se basan en varias capas de software, que se estructuran de la siguiente manera:
 
 
 
@@ -1374,7 +1375,7 @@ Un entorno de escritorio en una distribución Linux no es una única aplicación
 
 
 
-- **Un centro de configuración**: se trata de un conjunto de herramientas que permiten al usuario modificar los parámetros del sistema sin pasar por la línea de comandos: aspecto, papel tapiz, gestión de usuarios, red, periféricos...
+- Un centro de configuración**: se trata de un conjunto de herramientas que permiten al usuario modificar los parámetros del sistema sin pasar por la línea de comandos: aspecto, fondo de escritorio, gestión de usuarios, red, periféricos...
 
 
 
@@ -1414,7 +1415,7 @@ Un entorno de escritorio en una distribución Linux no es una única aplicación
 
 
 
-Todos estos Elements se basan en un conjunto de herramientas gráficas, es decir, una biblioteca de software que proporciona los componentes básicos para crear interfaces gráficas: botones, menús, campos de texto... Los dos principales toolkits de Linux son:
+Todos estos elementos se basan en un conjunto de herramientas gráficas, es decir, una biblioteca de software que proporciona los componentes básicos para crear interfaces gráficas: botones, menús, campos de texto... Los dos principales toolkits de Linux son:
 
 
 
@@ -1440,7 +1441,7 @@ Todos estos Elements se basan en un conjunto de herramientas gráficas, es decir
 
 
 
-Lanzado en 1997 y publicado por primera vez en 1999, GNOME ("*GNU Network Object Model Environment*") se basa en la biblioteca GTK y pretende minimizar la fricción entre el usuario y Interface mediante una organización muy sencilla. Desde GNOME 3, su núcleo, GNOME Shell, ha abandonado la metáfora tradicional del escritorio cubierto de iconos: en lugar de hacer malabarismos con varios espacios de trabajo visibles simultáneamente, los usuarios cambian a un único selector de actividades donde gestionan ventanas, escritorios virtuales y lanzadores de aplicaciones.
+Lanzado en 1997 y publicado por primera vez en 1999, GNOME ("*GNU Network Object Model Environment*") se basa en la biblioteca GTK y pretende minimizar la fricción entre el usuario y la interfaz mediante una organización muy sencilla. Desde GNOME 3, su núcleo, GNOME Shell, ha abandonado la metáfora tradicional del escritorio cubierto de iconos: en lugar de hacer malabarismos con varios espacios de trabajo visibles simultáneamente, los usuarios cambian a un único selector de actividades donde gestionan ventanas, escritorios virtuales y lanzadores de aplicaciones.
 
 
 
@@ -1448,7 +1449,7 @@ Lanzado en 1997 y publicado por primera vez en 1999, GNOME ("*GNU Network Object
 
 
 
-Técnicamente, el compositor Mutter combina la gestión de ventanas y la pila Wayland, siendo compatible con X11 gracias a XWayland. Por defecto, el entorno proporciona Nautilus para la navegación de archivos, GNOME Terminal para la línea de comandos y un panel de configuración centralizado. Las opciones de personalización de GNOME son inherentemente limitadas.
+Técnicamente, el compositor Mutter combina la gestión de ventanas y la infraestructure de Wayland, siendo compatible con X11 gracias a XWayland. Por defecto, el entorno proporciona Nautilus para la navegación de archivos, GNOME Terminal para la línea de comandos y un panel de configuración centralizado. Las opciones de personalización de GNOME son inherentemente limitadas.
 
 
 
@@ -1464,7 +1465,7 @@ El proyecto KDE se inició en 1996 y la primera versión de su entorno de escrit
 
 
 
-KDE Plasma se basa en Qt 6, un framework C++ multiplataforma, y en KDE Frameworks, una colección modular de bibliotecas que facilitan el desarrollo de aplicaciones integradas. Su gestor de ventanas, KWin, también actúa como un completo compositor Wayland: maneja efectos visuales (desenfoque, transparencia, transiciones), división de pantalla con aceleración GPU y gestos multitáctiles a través de libinput.
+KDE Plasma se basa en Qt 6, un framework C++ multiplataforma, y en KDE Frameworks, una colección modular de bibliotecas que facilitan el desarrollo de aplicaciones integradas. Su gestor de ventanas, KWin, también actúa como compositor Wayland: maneja efectos visuales (desenfoque, transparencia, transiciones), división de pantalla con aceleración GPU y gestos multitáctiles a través de libinput.
 
 
 
@@ -1472,7 +1473,7 @@ KDE Plasma se basa en Qt 6, un framework C++ multiplataforma, y en KDE Framework
 
 
 
-Uno de los puntos distintivos de KDE Plasma es su centro de configuración unificado, que expone un Interface gráfico para prácticamente todos los ajustes: comportamiento del escritorio virtual, accesos directos globales, suavidad de las animaciones, gestión de energía, configuración de red, apariencia de los bordes de las ventanas... No es necesario editar manualmente archivos de configuración de texto, lo que facilita la personalización del entorno de escritorio.
+Uno de los puntos distintivos de KDE Plasma es su centro de configuración unificado, que expone una interfaz gráfica para prácticamente todos los ajustes: comportamiento del escritorio virtual, accesos directos globales, suavidad de las animaciones, gestión de energía, configuración de red, apariencia de los bordes de las ventanas... No es necesario editar manualmente archivos de configuración de texto, lo que facilita la personalización del entorno de escritorio.
 
 
 
@@ -1488,7 +1489,7 @@ Xfce es un entorno de escritorio libre y de código abierto creado en 1996 por O
 
 
 
-Xfce adopta un enfoque gráfico tradicional de Interface, con un escritorio basado en iconos, menú de aplicaciones, barra de tareas y paneles configurables. Todo el paquete está diseñado para consumir pocos recursos, tanto de RAM como de procesador. Esto lo convierte en una solución ideal para ordenadores antiguos y menos potentes, o simplemente para usuarios que buscan un sistema fluido, estable y con capacidad de respuesta.
+Xfce adopta un enfoque gráfico tradicional de interfaz, con un escritorio basado en iconos, menú de aplicaciones, barra de tareas y paneles configurables. Todo el paquete está diseñado para consumir pocos recursos, tanto de RAM como de procesador. Esto lo convierte en una solución ideal para ordenadores antiguos y menos potentes, o simplemente para usuarios que buscan un sistema fluido, estable y con capacidad de respuesta.
 
 
 
@@ -1500,7 +1501,7 @@ Xfce adopta un enfoque gráfico tradicional de Interface, con un escritorio basa
 
 
 
-LXQt es un entorno de escritorio ligero diseñado para ofrecer un Interface gráfico completo con un consumo mínimo de recursos del sistema. Es especialmente adecuado para máquinas antiguas o menos potentes.
+LXQt es un entorno de escritorio ligero diseñado para ofrecer un interfaz gráfico completo con un consumo mínimo de recursos del sistema. Es especialmente adecuado para máquinas antiguas o menos potentes.
 
 
 
@@ -1512,7 +1513,7 @@ LXQt es el resultado de la fusión en 2013 de dos proyectos independientes: LXDE
 
 
 
-#### Canela
+#### Cinnamon
 
 
 
@@ -1524,7 +1525,7 @@ Inicialmente, Cinnamon era un simple Fork de GNOME Shell, pero poco a poco se fu
 
 
 
-Su principal objetivo es ofrecer un Interface clásico e intuitivo, en la continuidad de GNOME 2 y Windows: un menú de aplicaciones en la parte inferior izquierda, una barra de tareas, una zona de notificaciones y un escritorio manejable. Este enfoque conservador es especialmente interesante para los usuarios noveles o los que vienen de Windows, que se orientarán rápidamente.
+Su principal objetivo es ofrecer una interfaz clásica e intuitiva, en la continuidad de GNOME 2 y Windows: un menú de aplicaciones en la parte inferior izquierda, una barra de tareas, una zona de notificaciones y un escritorio manejable. Este enfoque conservador es especialmente interesante para los usuarios noveles o los que vienen de Windows, que se orientarán rápidamente.
 
 
 
@@ -1536,7 +1537,7 @@ Su principal objetivo es ofrecer un Interface clásico e intuitivo, en la contin
 
 
 
-MATE es un Fork de GNOME 2, lanzado en 2011, tras la llegada de GNOME 3 y su radicalmente diferente Interface (GNOME Shell). MATE nació del deseo de preservar el enfoque clásico del entorno GNOME 2, a la vez que se mantenía y modernizaba.
+MATE es un Fork de GNOME 2, lanzado en 2011, tras la llegada de GNOME 3 y su interfaz radicalmente diferente (GNOME Shell). MATE nació del deseo de preservar el enfoque clásico del entorno GNOME 2, a la vez que se mantenía y modernizaba.
 
 
 
@@ -1544,7 +1545,7 @@ Técnicamente, MATE está basado en las librerías GTK 3 (después de haber usad
 
 
 
-Su Interface se basa en la lógica tradicional de los escritorios: uno o dos paneles (menú, áreas de inicio rápido, reloj, áreas de notificación), un escritorio con iconos y una organización de ventanas flotantes.
+Su interfaz se basa en la lógica tradicional de los escritorios: uno o dos paneles (menú, áreas de inicio rápido, reloj, áreas de notificación), un escritorio con iconos y una organización de ventanas flotantes.
 
 
 
@@ -1564,12 +1565,12 @@ Elegir el entorno de escritorio GNU/Linux no es trivial: determina la experienci
 
 
 
-Cada entorno de escritorio tiene una huella de recursos diferente. Esto se mide en términos de consumo de RAM, uso de CPU y tiempo de arranque:
+Cada entorno de escritorio tiene una huella de consumo de recursos diferente. Esto se mide en términos de consumo de RAM, uso de CPU y tiempo de arranque:
 
 
 
 
-- En máquinas más antiguas o menos potentes (CPU de un solo núcleo, menos de 2 GB de RAM...), recomiendo entornos muy ligeros como LXQt, LXDE o Xfce. Ofrecen un Interface gráfico completo, pero sin efectos visuales ni dependencias pesadas;
+- En máquinas más antiguas o menos potentes (CPU de un solo núcleo, menos de 2 GB de RAM...), recomiendo entornos muy ligeros como LXQt, LXDE o Xfce. Ofrecen una interfaz gráfica completa, pero sin efectos visuales ni dependencias pesadas;
 - Los entornos intermedios, como MATE o Cinnamon, requieren un hardware ligeramente más reciente (se recomiendan de 4 a 6 GB de RAM), pero siguen siendo razonables;
 - Los entornos modernos y ricos como GNOME o KDE Plasma son muy completos, pero requieren más recursos, especialmente si se activan los efectos gráficos. Son adecuados para máquinas recientes.
 
@@ -1579,12 +1580,12 @@ Cada entorno de escritorio tiene una huella de recursos diferente. Esto se mide 
 
 
 
-Cada ET ofrece una filosofía Interface distinta:
+Cada ET ofrece una filosofía de interfaz distinta:
 
 
 
 
-- GNOME favorece la sencillez de uso, con un Interface racionalizado, sin escritorio ni iconos clásicos, y un flujo de trabajo orientado a la productividad que puede resultar desconcertante para los principiantes
+- GNOME favorece la sencillez de uso, con un interfaz simple, sin escritorio ni iconos clásicos, y un flujo de trabajo orientado a la productividad que puede resultar desconcertante para los principiantes
 - KDE Plasma es extremadamente personalizable, hasta el más mínimo detalle. Presenta un aspecto moderno, animaciones y un Interface por defecto más parecido al de Windows
 - Cinnamon y MATE ofrecen una experiencia clásica: menú inferior izquierdo, barra de tareas, iconos de escritorio. Cinnamon es visualmente más moderno, MATE más ligero
 - Xfce y LXQt apuestan por la sencillez y el rendimiento, con una estética más sobria pero configurable
@@ -1602,7 +1603,7 @@ El uso principal del ordenador también influirá en su elección:
 
 - Para uso ofimático y multimedia, todos los entornos son adecuados
 - Para una estación de trabajo de desarrollo, las preferencias varían: algunos desarrolladores aprecian la sobriedad de Xfce, otros prefieren las herramientas de integración que ofrece KDE
-- Para aplicaciones integradas o de servidor con un Interface mínimo, o en máquinas muy antiguas, LXQt, LXDE o Xfce son a menudo las únicas opciones viables
+- Para aplicaciones integradas o de servidor con una interfaz mínima, o en máquinas muy antiguas, LXQt, LXDE o Xfce son a menudo las únicas opciones viables
 
 
 
@@ -1610,11 +1611,11 @@ El uso principal del ordenador también influirá en su elección:
 
 
 
-Cada distribución GNU/Linux favorece un entorno de escritorio por defecto, que a menudo está mejor integrado, mejor probado, viene con herramientas dedicadas y se instala por defecto. Siempre es posible instalar otro entorno de escritorio, pero esto puede conducir a la duplicación de software, conflictos de configuración, o una experiencia de usuario menos consistente. Por lo tanto, tu elección de entorno de escritorio puede estar influenciada por la de tu distribución de Linux o, a la inversa, tu preferencia por un entorno de escritorio específico puede guiar tu elección de distribución.
+Cada distribución GNU/Linux tiene un entorno de escritorio por defecto, que a menudo está mejor integrado, mejor probado, viene con herramientas dedicadas y se instala por defecto. Siempre es posible instalar otro entorno de escritorio, pero esto puede conducir a la duplicación de software, conflictos de configuración, o una experiencia de usuario menos consistente. Por lo tanto, tu elección de entorno de escritorio puede estar influenciada por la de tu distribución de Linux o, a la inversa, tu preferencia por un entorno de escritorio específico puede guiar tu elección de distribución.
 
 
 
-Tenga en cuenta que algunas distribuciones, ya sean mantenidas por el equipo del proyecto o por colaboradores externos, incluyen un entorno de escritorio diferente del predeterminado (por ejemplo, Kubuntu, Lubuntu, Xubuntu...).
+Ten en cuenta que algunas distribuciones, ya sean mantenidas por el equipo del proyecto o por colaboradores externos, incluyen un entorno de escritorio diferente del predeterminado (por ejemplo, Kubuntu, Lubuntu, Xubuntu...).
 
 
 
@@ -1765,7 +1766,7 @@ Este capítulo te habrá permitido comprender mejor qué es un entorno de escrit
 
 Hoy en día, Ubuntu es una de las puertas de entrada más accesibles a GNU/Linux: un entorno GNOME pulido, repositorios extensos, actualizaciones de seguridad receptivas y una gran comunidad. Por eso he elegido presentar esta distribución.
 
-
+ 
 
 Sin embargo, dominar la instalación de tu escritorio requiere una comprensión de los mecanismos fundamentales del sistema: gestión de paquetes, línea de comandos, seguridad básica y buenas prácticas diarias. En este capítulo, te llevaré paso a paso, desde la configuración inicial hasta la instalación de herramientas de productividad y desarrollo, para asegurarte de que tienes un escritorio completo, seguro y eficiente.
 
@@ -1843,7 +1844,7 @@ Conecta una memoria USB de al menos 8 GB (cuidado, su contenido se borrará) y u
 
 
 
-Ahora necesitas arrancar tu ordenador no desde el disco Hard, sino desde la llave USB. Reinicie su ordenador y acceda al menú de arranque o BIOS/UEFI. Esto se suele hacer pulsando una tecla justo después de arrancar el ordenador (a menudo `F2`, `F10`, `F12`, `DEL`, `ESC`). Comprueba cómo acceder a este menú en tu máquina.
+Ahora necesitas arrancar tu ordenador no desde el disco duro, sino desde la llave USB. Reinicie su ordenador y acceda al menú de arranque o BIOS/UEFI. Esto se suele hacer pulsando una tecla justo después de arrancar el ordenador (a menudo `F2`, `F10`, `F12`, `DEL`, `ESC`). Comprueba cómo acceder a este menú en tu ordenador.
 
 
 
@@ -1862,7 +1863,7 @@ El instalador sugerirá:
 
 - elija su idioma y zona horaria
 - conectarse a una red Wi-Fi
-- elija el tipo de instalación (por defecto o ampliada) en función de si desea un sistema mínimo o uno con muchas aplicaciones preinstaladas
+- elija el tipo de instalación (por defecto o avanzada) en función de si desea un sistema mínimo o uno con muchas aplicaciones preinstaladas
 - instalar o no software de terceros (controladores gráficos, códecs, etc.)
 
 
@@ -1892,7 +1893,7 @@ Si su ordenador ya contiene Windows, Ubuntu detectará automáticamente esta ins
 
 
 
-Elija esta opción si desea mantener Windows para determinadas aplicaciones de software (por ejemplo, videojuegos) mientras descubre Linux.
+Elija esta opción si desea mantener Windows para determinadas aplicaciones de software (por ejemplo, videojuegos) mientras descubres Linux.
 
 
 
@@ -1902,7 +1903,7 @@ Para hacer esto correctamente, te recomiendo que primero crees una partición no
 
 
 
-- **Sustitución completa de las ventanas**
+- Sustitución completa de Windows**
 
 
 
@@ -1922,7 +1923,7 @@ Elija esta opción sólo si desea cambiar 100% a GNU/Linux. Recuerda hacer una c
 
 
 
-- Instalación en un ordenador en blanco
+- Instalación en un ordenador sin sistema operativo**
 
 
 
@@ -1938,7 +1939,7 @@ Para más información sobre el instalador de Ubuntu, también puedes consultar 
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Una vez finalizada la instalación, retire la llave USB cuando se le solicite y reinicie. Ubuntu estará ahora instalado y listo para usar en su máquina.
 
@@ -2020,10 +2021,10 @@ Cada repositorio está dividido en secciones. Por defecto, Ubuntu activa cuatro 
 
 
 
-- **main**: software libre mantenido oficialmente por Canonical. Ejemplos: Firefox, LibreOffice, bash
-- **restringido**: software no libre que es esencial para que el hardware funcione correctamente. Ejemplos: Controladores NVIDIA, firmware Wi-Fi, códecs propietarios
-- **universo**: software libre mantenido por la comunidad. Ejemplos: GIMP, Inkscape, Audacity
-- **multiverse**: software sujeto a restricciones legales (patentes, licencias no libres). La disponibilidad puede variar según el país. Ejemplos: determinados códecs de audio/vídeo, Steam
+- main**: software libre mantenido oficialmente por Canonical. Ejemplos: Firefox, LibreOffice, bash
+- restringido**: software no libre que es esencial para que el hardware funcione correctamente. Ejemplos: Controladores NVIDIA, firmware Wi-Fi, códecs propietarios
+- universo**: software libre mantenido por la comunidad. Ejemplos: GIMP, Inkscape, Audacity
+- multiuniversos**: software sujeto a restricciones legales (patentes, licencias no libres). La disponibilidad puede variar según el país. Ejemplos: determinados códecs de audio/vídeo, Steam
 
 
 
@@ -2035,7 +2036,7 @@ Cada componente puede dividirse en varios canales o ramas: `release`, `security`
 
 
 
-El Interface gráfico hace que el uso de Ubuntu sea intuitivo, pero para determinadas tareas de administración, el terminal sigue siendo la herramienta más eficaz y potente. En Ubuntu, la shell por defecto es **Bash** (*Bourne Again SHell*), una shell libre de la tradición Unix.
+El Interface gráfico hace que el uso de Ubuntu sea intuitivo, pero para determinadas tareas de administración, el terminal sigue siendo la herramienta más eficaz y potente. En Ubuntu, el *shell* por defecto es **Bash** (*Bourne Again SHell*), un shell libre de la tradición Unix.
 
 
 
@@ -2142,7 +2143,7 @@ Para crear un nuevo directorio dentro del actual, utilice el comando
 
 
 ```bash
-mkdir name
+mkdir nombre
 ```
 
 
@@ -2166,7 +2167,7 @@ Para copiar un archivo, utilice el comando `cp`, seguido del nombre del archivo 
 
 
 ```bash
-cp file.txt destination
+cp file.txt destino
 ```
 
 
@@ -2182,7 +2183,7 @@ cp file.txt destination
 
 
 ```bash
-mv file.txt /new/directory/
+mv archivo.txt /nuevo/directorio/
 ```
 
 
@@ -2202,7 +2203,7 @@ El comando `mv` le permite mover o renombrar un fichero o directorio. Si especif
 
 
 ```bash
-rm file.txt
+rm archivo.txt
 ```
 
 
@@ -2227,7 +2228,8 @@ Para evitar errores con este comando, recomiendo añadir un prompt de confirmaci
 
 
 ```bash
-echo "alias rm='rm -i'" >> ~/.bashrc
+echo "alias rm='rm -i'" 
+~/.bashrc
 source ~/.bashrc
 ```
 
@@ -2260,7 +2262,7 @@ clear
 
 
 ```bash
-sudo command
+sudo somando
 ```
 
 
@@ -2269,7 +2271,7 @@ La palabra clave `sudo` (*superuser do*) le permite ejecutar temporalmente un co
 
 
 
-Sugerencia: para cambiar a un shell raíz (sesión de administrador), escriba:
+Sugerencia: para cambiar a un shell *root* (sesión de administrador), escriba:
 
 
 
@@ -2290,7 +2292,7 @@ Esto abre un terminal completo con privilegios de root. Utilícelo con precauci�
 
 
 ```bash
-man command_name
+man nombre_comando
 ```
 
 
@@ -2331,7 +2333,7 @@ En las siguientes secciones, veremos más de cerca cómo utilizar el terminal pa
 
 
 
-En un sistema GNU/Linux como Ubuntu, la instalación, actualización y eliminación de software se centralizan mediante sistemas de gestión de paquetes. A diferencia de Windows, donde se descargan archivos `.exe' o `.msi', Ubuntu utiliza herramientas como APT, Snap o Flatpak para automatizar estas operaciones, garantizando la coherencia del sistema.
+En un sistema GNU/Linux como Ubuntu, la instalación, actualización y eliminación de software se centralizan mediante sistemas de gestión de paquetes. A diferencia de Windows, donde se descargan archivos `.exe` o `.msi`, Ubuntu utiliza herramientas como APT, Snap o Flatpak para automatizar estas operaciones, garantizando la coherencia del sistema.
 
 
 
@@ -2371,7 +2373,7 @@ sudo apt install gimp
 
 
 
-Una vez finalizada la instalación, encontrarás el ejecutable en el menú de aplicaciones de Ubuntu, situado en la parte inferior izquierda de la Interface.
+Una vez finalizada la instalación, encontrarás el ejecutable en el menú de aplicaciones de Ubuntu, situado en la parte inferior izquierda de la interfaz.
 
 
 
@@ -2466,7 +2468,7 @@ sudo snap install spotify
 
 
 
-Una vez finalizada la instalación, encontrarás el ejecutable en el menú de aplicaciones de Ubuntu, situado en la parte inferior izquierda de Interface. O, aún más sencillo: puedes escribir el nombre del programa directamente en el terminal (en este caso, "spotify") para abrirlo.
+Una vez finalizada la instalación, encontrarás el ejecutable en el menú de aplicaciones de Ubuntu, situado en la parte inferior izquierda de la interfaz. O, aún más sencillo: puedes escribir el nombre del programa directamente en el terminal (en este caso, "spotify") para abrirlo.
 
 
 
@@ -2506,7 +2508,7 @@ sudo snap remove spotify
 
 
 
-Flatpak es otro formato de paquete universal, desarrollado por la comunidad (Red Hat, GNOME...). Su objetivo es superar las limitaciones de los formatos tradicionales, al tiempo que ofrece una mejor gestión de permisos que Snap. Cada aplicación funciona en una caja de arena, pero con una granularidad de control más fina.
+Flatpak es otro formato de paquete universal, desarrollado por la comunidad (Red Hat, GNOME...). Su objetivo es superar las limitaciones de los formatos tradicionales, al tiempo que ofrece una mejor gestión de permisos que Snap. Cada aplicación funciona aislada, pero con una granularidad de control más fina.
 
 
 
@@ -2558,7 +2560,7 @@ En pocas palabras:
 
 
 
-Ubuntu incluye una aplicación llamada *App Center*, que sirve como un Interface gráfico para buscar, instalar y desinstalar aplicaciones fácilmente, sin usar líneas de comandos como acabamos de ver. Técnicamente, App Center actúa como una superposición a los gestores de paquetes. Por lo tanto, puede:
+Ubuntu incluye una aplicación llamada *App Center*, que sirve como una interfaz gráfica para buscar, instalar y desinstalar aplicaciones fácilmente, sin usar líneas de comandos como acabamos de ver. Técnicamente, App Center actúa como una superposición a los gestores de paquetes. Por lo tanto, puede:
 
 
 
@@ -2812,11 +2814,11 @@ Esto permite conexiones TCP en el puerto 6881 sólo desde la subred `192.168.1.0
 
 
 
-#### Gráfico Interface: GUFW
+#### Interfaz gráfico: GUFW
 
 
 
-Si se siente menos cómodo con el terminal, existe un Interface gráfico llamado GUFW, que facilita la gestión de las reglas del cortafuegos con botones, listas desplegables y cuadros de diálogo. Para instalarlo:
+Si se siente menos cómodo con el terminal, existe un interfaz gráfico llamado GUFW, que facilita la gestión de las reglas del cortafuegos con botones, listas desplegables y cuadros de diálogo. Para instalarlo:
 
 
 
@@ -2846,11 +2848,11 @@ En Ubuntu, la gestión de la red corre a cargo de *NetworkManager*, un servicio 
 
 
 
-#### Gestión gráfica Interface
+#### Gestión interfaz gráfica
 
 
 
-Para la mayoría de los usuarios, la Interface gráfica integrada en GNOME (Ajustes del sistema → Red/Wi-Fi) es más que suficiente. Le permite:
+Para la mayoría de los usuarios, la interfaz gráfica integrada en GNOME (Ajustes del sistema → Red/Wi-Fi) es más que suficiente. Le permite:
 
 
 
@@ -2977,7 +2979,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Paquete ofimático
 
 
@@ -3114,13 +3116,13 @@ Además de estas pocas herramientas básicas, también te recomiendo que instale
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Por último, para concluir este capítulo, he aquí algunas buenas prácticas para seguir a diario:
 
@@ -3212,9 +3214,9 @@ Una contraseña compleja es difícil de recordar. Por eso recomiendo utilizar un
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Por último, cambia esta contraseña con regularidad -cada 3 o 6 meses-, especialmente si tu máquina se utiliza en entornos compartidos o móviles.
 
@@ -3254,7 +3256,7 @@ Para activarlo, dependerá del modelo de tu placa base, pero en general necesita
 
 - Reinicie el ordenador
 - Inmediatamente después del encendido, pulse rápidamente la tecla de acceso BIOS/UEFI específica de su máquina (`Del`, `F2`, `F10`, `Esc`...)
-- En el Interface que aparece, busque las opciones de contraseña de seguridad o de administrador
+- En la interfaz que aparece, busque las opciones de contraseña de seguridad o de administrador
 - Establece una contraseña larga, única y aleatoria, y guárdala
 - Guarde los cambios y reinicie el ordenador
 
@@ -3288,7 +3290,7 @@ Uno de los riesgos más comunes (pero subestimados) es dejar un ordenador desate
 
 
 
-En la misma línea, desaconsejo el uso de accesorios o periféricos externos que no controle. Evita insertar en tu ordenador memorias USB, unidades externas Hard, cargadores o dongles si no se conoce el origen de estos objetos (nuevos o propiedad de una persona de confianza). Algunos accesorios aparentemente inocuos pueden contener circuitos capaces de ejecutar comandos maliciosos nada más enchufarlos. A la inversa, no preste sus propios accesorios ni los deje desatendidos en lugares accesibles: podrían cambiarse por versiones comprometidas.
+En la misma línea, desaconsejo el uso de accesorios o periféricos externos que no controle. Evita insertar en tu ordenador memorias USB, discos duros externos , cargadores o dongles si no se conoce el origen de estos objetos (nuevos o propiedad de una persona de confianza). Algunos accesorios aparentemente inocuos pueden contener circuitos capaces de ejecutar comandos maliciosos nada más enchufarlos. A la inversa, no preste sus propios accesorios ni los deje desatendidos en lugares accesibles: podrían cambiarse por versiones comprometidas.
 
 
 
@@ -3314,13 +3316,13 @@ Por último, una de las medidas más importantes que puedes tomar para protegert
 - Las distribuciones Linux no cifran automáticamente el disco, a menos que se seleccione esta opción durante la instalación. Puede utilizar LUKS para cifrar el disco
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 En todos los casos, la contraseña de descifrado debe ser segura, distinta de la contraseña del sistema y almacenada en un gestor de contraseñas seguro. Si utilizas un disco externo o una llave USB con datos confidenciales, considera también la posibilidad de cifrarlos individualmente con herramientas como VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### El principio del menor privilegio
 
@@ -3394,7 +3396,7 @@ En Linux, esta separación puede reforzarse mediante mecanismos como AppArmor o 
 
 
 
-Es importante señalar que la multisesión no sustituye al uso de una cuenta de no administrador, ni a la aplicación del principio del menor privilegio. Lo complementa añadiendo un Layer de aislamiento lógico, fácil de configurar y especialmente eficaz para un uso híbrido familiar o profesional.
+Es importante señalar que la multisesión no sustituye al uso de una cuenta de no administrador, ni a la aplicación del principio del menor privilegio. Lo complementa añadiendo una capa de aislamiento lógico, fácil de configurar y especialmente eficaz para un uso híbrido familiar o profesional.
 
 
 
@@ -3417,7 +3419,7 @@ Esta tecnología se basa en un hipervisor, un programa de software que gestiona 
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 En términos de seguridad informática, una de las grandes ventajas de las máquinas virtuales es su capacidad de compartimentación. Una máquina virtual no comparte sus archivos, procesos o acceso a la red con el sistema anfitrión, a menos que configure explícitamente estos intercambios. De este modo, si una máquina virtual se infecta con un programa malicioso, o si se prueba software sensible en su interior, el impacto queda confinado a esa máquina virtual: su sistema principal permanece intacto, siempre que se respeten los parámetros de aislamiento (ni directorios compartidos, ni dispositivos USB pasados a la máquina virtual...).
 
@@ -3587,7 +3589,7 @@ sudo apt update && sudo apt upgrade -y
 
 
 
-Si prefieres utilizar un Interface gráfico, en Ubuntu existe la herramienta *Software Updater* que te permite gestionar las actualizaciones fácilmente sin pasar por el terminal.
+Si prefieres utilizar una interfaz gráfica, en Ubuntu existe la herramienta *Software Updater* que te permite gestionar las actualizaciones fácilmente sin pasar por el terminal.
 
 
 
@@ -3622,7 +3624,7 @@ sudo pacman -Syu
 
 
 
-Apple centraliza las actualizaciones de su sistema en los ajustes de Interface. Para comprobar la disponibilidad:
+Apple centraliza las actualizaciones de su sistema en los ajustes de interfaz. Para comprobar la disponibilidad:
 
 
 
@@ -3743,9 +3745,9 @@ sudo apt update \
 
 
 
-- sudo apt full-upgrade` actualiza todos los paquetes instalados, incluyendo aquellos que requieren añadir o eliminar dependencias. y` le permite responder automáticamente "sí" a cualquier confirmación que le pida el gestor de paquetes;
+- `sudo apt full-upgrade` actualiza todos los paquetes instalados, incluyendo aquellos que requieren añadir o eliminar dependencias y le permite responder automáticamente "sí" a cualquier confirmación que le pida el gestor de paquetes;
 - `sudo apt autoremove -y`: elimina dependencias innecesarias ;
-- sudo apt autoclean`: limpia la caché de paquetes obsoletos.
+- `sudo apt autoclean`: limpia la caché de paquetes obsoletos.
 
 
 
@@ -3758,7 +3760,8 @@ Si tiene software distribuido como paquetes Flatpak o Snap, algunos se actualiza
 
 
 ```bash
-flatpak update sudo snap refresh
+flatpak update
+sudo snap refresh
 ```
 
 
@@ -3953,7 +3956,7 @@ En una máquina Linux bien mantenida y utilizada con fines personales, los riesg
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### En macOS
 
@@ -3965,7 +3968,7 @@ macOS es famoso por su seguridad, gracias sobre todo a sus políticas de firmas 
 
 
 
-- **KnockKnock**: escanea todos los Elements configurados para ejecutarse al inicio (agentes, demonios, módulos del kernel...) e identifica aquellos que son potencialmente sospechosos, no firmados o desconocidos. Permite identificar rápidamente la persistencia de malware en el sistema.
+- KnockKnock*: escanea todos los procesos configurados para ejecutarse al inicio (agentes, demonios, módulos del kernel...) e identifica aquellos que son potencialmente sospechosos, no firmados o desconocidos. Permite identificar rápidamente la persistencia de malware en el sistema.
 
 
 
@@ -4061,11 +4064,11 @@ Este sistema se basa en la criptografía asimétrica y en herramientas como GnuP
 
 
 
-Para saber más sobre las funciones criptográficas Hash y las firmas digitales, le invito a seguir el curso gratuito CYP 201 que se ofrece en Plan ₿ Network:
+Para saber más sobre las funciones criptográficas Hash y las firmas digitales, le invito a seguir el curso gratuito CYP 201 que se ofrece en Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Verificar la integridad y autenticidad del software
 
@@ -4208,12 +4211,12 @@ El proceso de verificación de la firma es idéntico en Windows, macOS y Linux. 
 
 
 ```bash
-gpg --import [key_path]
+gpg --import [ruta_de_la_clave]
 ```
 
 
 
-Sustituya `[ruta_clave]` por la ubicación del archivo de clave pública del desarrollador.
+Sustituya `[ruta_de_la_clave]` por la ubicación del archivo de clave pública del desarrollador.
 
 
 
@@ -4226,7 +4229,7 @@ Compruebe la firma con el siguiente comando:
 
 
 ```bash
-gpg --verify [file.asc]
+gpg --verify [archivo.asc]
 ```
 
 
@@ -4268,7 +4271,7 @@ En Windows, abra un terminal y ejecute el siguiente comando:
 
 
 ```bash
-CertUtil -hashfile [file_path] SHA256 | findstr /v "hash"
+CertUtil -hashfile [ruta_archivo] SHA256 | findstr /v "hash"
 ```
 
 
@@ -4310,7 +4313,7 @@ Basta con ejecutar este comando en macOS:
 
 
 ```bash
-shasum --check [file_name] --ignore-missing
+shasum --check [nombre_archivo] --ignore-missing
 ```
 
 
@@ -4340,7 +4343,7 @@ En Linux, el comando es similar:
 
 
 ```bash
-sha256sum --check [file_name] --ignore-missing
+sha256sum --check [nombre_archivo] --ignore-missing
 ```
 
 
@@ -4411,7 +4414,7 @@ Hacer copias de seguridad periódicas de los datos personales o de la empresa es
 
 
 
-- Ataque informático: algunos programas maliciosos, sobre todo los ransomware, cifran tus archivos localmente y piden un rescate en Exchange por la clave de descifrado. Sin una copia de seguridad independiente, estás a su merced.
+- Ataque informático: algunos programas maliciosos, sobre todo los ransomware, cifran tus archivos localmente y piden un rescate a cambio de la clave de descifrado. Sin una copia de seguridad independiente, estás a su merced.
 
 
 
@@ -4469,7 +4472,7 @@ Con esta configuración, Alice ya está protegida contra muchas amenazas habitua
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice respeta así la regla 3-2-1: tiene 3 copias de sus archivos (ordenador, llave USB, nube), almacenadas en al menos 2 soportes diferentes (disco interno, llave USB, servidor remoto), con al menos 1 copia externa (el servidor en la nube).
 
@@ -4556,9 +4559,9 @@ El cifrado completo es como un candado: mientras no se proporcione la contraseñ
 En Linux, la solución estándar es LUKS (*Linux Unified Key Setup*). LUKS es un sistema de gestión de volúmenes cifrados integrado en la mayoría de las distribuciones. Cuando el sistema se instala por primera vez, generalmente se te pedirá que encriptes todo el disco del ordenador. Por supuesto, te recomiendo encarecidamente que actives esta opción. Una vez activada la encriptación, el sistema pedirá la contraseña en cada arranque, incluso antes de que se cargue el SO. Esto garantiza que el acceso físico al disco no pueda burlar la seguridad.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
-Si deseas encriptar un disco externo o una memoria USB, también puedes hacerlo desde la línea de comandos o a través del Interface gráfico. El disco tendrá que formatearse, por lo que todos los datos existentes se perderán si no se hace antes una copia de seguridad.
+Si deseas encriptar un disco externo o una memoria USB, también puedes hacerlo desde la línea de comandos o a través del interfaz gráfico. El disco tendrá que formatearse, por lo que todos los datos existentes se perderán si no se hace antes una copia de seguridad.
 
 
 
@@ -4708,7 +4711,7 @@ Si lo desea, también puede automatizar esta secuencia utilizando scripts Python
 
 
 
-La otra solución es utilizar el software GNOME Disks con su Interface gráfico, que suele ser más sencillo que utilizar el terminal. Normalmente, esta utilidad ya está preinstalada en Ubuntu. Si no es el caso, puedes instalarla manualmente con el siguiente comando:
+La otra solución es utilizar el software GNOME Disks con su interfaz gráfica, que suele ser más sencillo que utilizar el terminal. Normalmente, esta utilidad ya está preinstalada en Ubuntu. Si no es el caso, puedes instalarla manualmente con el siguiente comando:
 
 
 
@@ -4832,7 +4835,7 @@ Para saber más sobre esta solución, consulte este completo tutorial :
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4869,7 +4872,7 @@ La elección de la contraseña también es muy importante: debe ser larga, compl
 
 ### Cifrado selectivo de archivos
 
-En algunos casos, no es necesario ni práctico cifrar todo un disco Hard o un soporte externo. En esos casos, puedes optar por el cifrado selectivo, que consiste en proteger sólo determinados archivos o directorios que contienen datos confidenciales.
+En algunos casos, no es necesario ni práctico cifrar todo un disco duro o un soporte externo. En esos casos, puedes optar por el cifrado selectivo, que consiste en proteger sólo determinados archivos o directorios que contienen datos confidenciales.
 
 Uno de los métodos más conocidos para cifrar archivos es utilizar GPG. Esta herramienta se basa en la criptografía asimétrica: tienes un par de claves, una pública, que puedes distribuir libremente a tus corresponsales, y otra privada, que debe permanecer estrictamente secreta. Los archivos se cifran con la clave pública del destinatario, pero sólo pueden descifrarse con su clave privada.
 
@@ -4877,7 +4880,7 @@ Este protocolo es perfecto para intercambiar archivos confidenciales de forma se
 
 Una excelente alternativa es Cryptomator. Este software de código abierto permite crear una caja fuerte: un directorio especial en el que todos los archivos depositados se cifran automáticamente. Esta caja fuerte puede sincronizarse con servicios en la nube como Dropbox, Google Drive o Nextcloud sin que el proveedor tenga nunca acceso a los datos sin cifrar. La aplicación está disponible en todos los sistemas operativos, incluidos Android e iOS, y no requiere conocimientos técnicos especiales para utilizarla.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4888,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Por último, también es posible utilizar VeraCrypt en modo contenedor, que crea un archivo que actúa como un archivo encriptado, montable como un disco.
 
@@ -4943,18 +4946,18 @@ Para ver todos los metadatos contenidos en un archivo, utilice el siguiente coma
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Sustituye `nombre.jpg` por el nombre real de tu archivo. Asegúrate también de que estás situado en el directorio que contiene esta imagen. Por ejemplo, si tengo una foto de la estatua de Satoshi Nakamoto en el directorio `/Downloads`, puedo mostrar sus metadatos ejecutando el siguiente comando:
+Sustituye `nombre.webp` por el nombre real de tu archivo. Asegúrate también de que estás situado en el directorio que contiene esta imagen. Por ejemplo, si tengo una foto de la estatua de Satoshi Nakamoto en el directorio `/Downloads`, puedo mostrar sus metadatos ejecutando el siguiente comando:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4994,7 @@ Para eliminar todos los metadatos innecesarios de un archivo, utilice el comando
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5016,7 @@ Si no quieres conservar el original, puedes borrarlo con el comando:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5040,12 @@ Si tiene varios archivos que procesar en el mismo directorio, puede utilizar un 
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Borra los metadatos de todos los archivos JPEG del directorio actual. Puede adaptar la extensión a sus necesidades (`*.png`, `*.pdf`...).
+Borra los metadatos de todos los archivos JPEG del directorio actual. Puede adaptar la extensión a sus necesidades (`*.webp`, `*.pdf`...).
 
 
 
@@ -5146,18 +5149,18 @@ Hemos llegado al final de esta sección sobre la seguridad de tu ordenador. En l
 
 
 
-## Breve historia de los navegantes
+## Breve historia de los navegadores
 
 
 <chapterId>ac6d2c23-5883-4564-b6a9-bc109b47f92c</chapterId>
 
 
 
-El navegador web es el programa informático que permite acceder a los sitios y contenidos disponibles en la *World Wide Web*. Su función es interpretar los lenguajes utilizados para crear páginas web, especialmente HTML, CSS y JavaScript, con el fin de mostrar el contenido del sitio de forma legible e interactiva. Actúa como Interface entre el usuario y los servidores web, enviando peticiones y recibiendo respuestas a través del protocolo HTTP o HTTPS.
+El navegador web es el programa informático que permite acceder a los sitios y contenidos disponibles en la *World Wide Web*. Su función es interpretar los lenguajes utilizados para crear páginas web, especialmente HTML, CSS y JavaScript, con el fin de mostrar el contenido del sitio de forma legible e interactiva. Actúa como interfaz entre el usuario y los servidores web, enviando peticiones y recibiendo respuestas a través del protocolo HTTP o HTTPS.
 
 
 
-Pero hoy en día, el navegador se ha convertido en mucho más que una simple pieza de software: a menudo es el Interface principal en informática, especialmente para los usuarios principiantes. Por eso a veces se considera un "sistema operativo secundario" dentro del sistema operativo propiamente dicho (que estudiamos en la primera sección de SCU202). De hecho, muchas tareas que antes se realizaban mediante software local especializado ahora se realizan directamente en línea a través del navegador: entretenimiento, trabajo ofimático (tratamiento de textos, hojas de cálculo, presentaciones), gestión del correo electrónico, mensajería, almacenamiento de archivos y trabajo colaborativo.
+Pero hoy en día, el navegador se ha convertido en mucho más que una simple pieza de software: a menudo es la interfaz principal en informática, especialmente para los usuarios principiantes. Por eso a veces se considera un "sistema operativo secundario" dentro del sistema operativo propiamente dicho (que estudiamos en la primera sección de SCU202). De hecho, muchas tareas que antes se realizaban mediante software local especializado ahora se realizan directamente en línea a través del navegador: entretenimiento, trabajo ofimático (tratamiento de textos, hojas de cálculo, presentaciones), gestión del correo electrónico, mensajería, almacenamiento de archivos y trabajo colaborativo.
 
 
 
@@ -5181,7 +5184,7 @@ La historia de los navegadores web comienza con el nacimiento de la *World Wide 
 
 
 
-En 1992 aparecieron otros navegadores experimentales. Uno de los más notables fue Erwise, desarrollado por cuatro estudiantes finlandeses para el sistema X Window basado en Unix. Fue el primer navegador con un Interface gráfico para este tipo de entorno. A pesar de sus méritos técnicos, sufrió una falta de financiación y no se mantuvo después de su primera versión. Otros proyectos, como ViolaWWW, también aparecieron durante este periodo.
+En 1992 aparecieron otros navegadores experimentales. Uno de los más notables fue Erwise, desarrollado por cuatro estudiantes finlandeses para el sistema X Window basado en Unix. Fue el primer navegador con un interfaz gráfica para este tipo de entorno. A pesar de sus méritos técnicos, sufrió una falta de financiación y no se mantuvo después de su primera versión. Otros proyectos, como ViolaWWW, también aparecieron durante este periodo.
 
 
 
@@ -5189,7 +5192,7 @@ En 1992 aparecieron otros navegadores experimentales. Uno de los más notables f
 
 
 
-en 1992 también se creó Lynx, el navegador web más antiguo que aún se mantiene y utiliza en la actualidad. Fue desarrollado por un equipo de estudiantes de la Universidad de Kansas.
+En 1992 también se creó Lynx, el navegador web más antiguo que aún se mantiene y utiliza en la actualidad. Fue desarrollado por un equipo de estudiantes de la Universidad de Kansas.
 
 
 
@@ -5341,7 +5344,7 @@ Respaldado por la marca Google y una campaña de marketing muy eficaz, Chrome ga
 
 
 
-En 2013, Google anunció un importante cambio estratégico: Fork WebKit para crear un nuevo motor de renderizado independiente, denominado Blink. Esto Fork se explica por diferencias técnicas y organizativas con Apple, sobre todo en torno a la arquitectura del motor y la integración de funciones experimentales. Blink se convirtió en el motor exclusivo de Chrome a partir de la versión 28, y posteriormente fue adoptado por muchos otros navegadores: Opera (que abandonó Presto en 2013), Vivaldi, Brave, Microsoft Edge (desde 2020) y otros.
+En 2013, Google anunció un importante cambio estratégico: Fork WebKit para crear un nuevo motor de renderizado independiente, denominado Blink. Este Fork se explica por diferencias técnicas y organizativas con Apple, sobre todo en torno a la arquitectura del motor y la integración de funciones experimentales. Blink se convirtió en el motor exclusivo de Chrome a partir de la versión 28, y posteriormente fue adoptado por muchos otros navegadores: Opera (que abandonó Presto en 2013), Vivaldi, Brave, Microsoft Edge (desde 2020) y otros.
 
 
 
@@ -5357,7 +5360,7 @@ Chrome ha redefinido profundamente las normas de rendimiento, seguridad y ergono
 
 
 
-El motor de renderizado es el componente central de un navegador web. Su función principal es interpretar los archivos recibidos de un servidor (HTML, CSS, JavaScript, imágenes, fuentes...) para generate convertirlos en un Interface gráfico interactivo. El motor de renderizado es como un intérprete entre los lenguajes web y tu pantalla, traduciendo líneas de código en una página visualmente coherente, interactiva y funcional.
+El motor de renderizado es el componente central de un navegador web. Su función principal es interpretar los archivos recibidos de un servidor (HTML, CSS, JavaScript, imágenes, fuentes...) para convertirlos en una interfaz gráfica interactiva. El motor de renderizado es como un intérprete entre los lenguajes web y tu pantalla, traduciendo líneas de código en una página visualmente coherente, interactiva y funcional.
 
 
 
@@ -5439,7 +5442,7 @@ Desarrollado por el proyecto KDE para su navegador Konqueror, KHTML es un motor 
 
 
 
-WebKit es un Fork de KHTML lanzado por Apple para desarrollar su propio navegador: Safari. Primero se optimizó para el rendimiento y la integración con macOS, y luego fue utilizado por Google Chrome cuando se lanzó en 2008. WebKit se basa en dos subcomponentes:
+WebKit es un _fork_ de KHTML lanzado por Apple para desarrollar su propio navegador: Safari. Primero se optimizó para el rendimiento y la integración con macOS, y luego fue utilizado por Google Chrome cuando se lanzó en 2008. WebKit se basa en dos subcomponentes:
 
 
 
@@ -5461,7 +5464,7 @@ WebKit destaca por su velocidad y su reducido tamaño. En iOS, Apple ha impuesto
 
 
 
-Blink es una Fork de WebKit iniciada por Google para equipar Chrome (y Chromium), luego adoptada rápidamente por Opera, Brave, Vivaldi, e incluso Microsoft Edge desde 2020. Blink introduce una gobernanza más flexible que la de Apple, lo que permite a Google experimentar rápidamente con nuevas API web.
+Blink es un _fork_ de WebKit iniciado por Google para equipar Chrome (y Chromium), luego adoptada rápidamente por Opera, Brave, Vivaldi, e incluso Microsoft Edge desde 2020. Blink introduce una gobernanza más flexible que la de Apple, lo que permite a Google experimentar rápidamente con nuevas API web.
 
 
 
@@ -5517,7 +5520,7 @@ Además, la creciente dependencia de un único motor plantea un riesgo sistémic
 
 
 
-En la actualidad, Mozilla sigue desempeñando un papel esencial en la defensa de una web abierta, respetuosa con la privacidad y de libre acceso. Firefox sigue siendo uno de los pocos navegadores importantes que no se basa en Chromium, y ofrece innovaciones independientes. Pero su supervivencia depende de su capacidad para mantener una base de usuarios suficiente y una financiación sostenible.
+En la actualidad, Mozilla sigue desempeñando un papel esencial en la defensa de una web abierta, respetuosa con la privacidad y de libre acceso. Firefox sigue siendo uno de los pocos navegadores importantes que no se basa en Chromium y ofrece innovaciones independientes. Pero su supervivencia depende de su capacidad para mantener una base de usuarios suficiente y una financiación sostenible.
 
 
 
@@ -5576,15 +5579,15 @@ Google Chrome se basa en el proyecto Chromium, que es de código abierto. Sin em
 
 
 
-Así que yo no recomendaría usar Google Chrome, ni personal ni profesionalmente (a menos, por supuesto, que tu negocio dependa de la suite de Google). De hecho, existen excelentes alternativas a los servicios de Google, tanto locales como en la nube. En particular, le invito a descubrir los servicios ofrecidos por Proton :
+Así que yo no recomendaría usar Google Chrome, ni personal ni profesionalmente (a menos, por supuesto, que tu negocio dependa de la suite de Google). De hecho, existen excelentes alternativas a los servicios de Google, tanto locales como en la nube. En particular, le invito a descubrir los servicios ofrecidos por Proton:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-#### Valiente
+#### Brave
 
 
 
@@ -5617,19 +5620,19 @@ Aunque Brave ha desactivado desde entonces esta API, este caso ilustra clarament
 
 
 
-- Su IP Address,
-- Tu proveedor de servicios de Internet,
-- Tu geolocalización,
-- Tu navegador y sus propiedades,
-- Tu sistema operativo,
-- Tu versión de software,
-- Fuentes instaladas,
-- La resolución y el tamaño de tu pantalla,
-- Profundidad de color,
-- Tu zona horaria e idioma,
-- Lienzo HTML5,
-- Análisis de renderizado gráfico,
-- Las extensiones de tu navegador,
+- Su IP Address
+- Tu proveedor de servicios de Internet
+- Tu geolocalización
+- Tu navegador y sus propiedades
+- Tu sistema operativo
+- Tu versión de software
+- Fuentes instaladas
+- La resolución y el tamaño de tu pantalla
+- Profundidad de color
+- Tu zona horaria e idioma
+- Lienzo HTML5
+- Análisis de renderizado gráfico
+- Las extensiones de tu navegador
 - etc...
 
 
@@ -5658,7 +5661,7 @@ En términos de seguridad, Vivaldi incluye varias funciones para bloquear rastre
 
 
 
-[Opera](https://www.opera.com/) es un navegador de larga tradición, que existe desde 1995. Ahora utiliza Blink tras abandonar su motor propietario (*Presto*). Tiene un Interface moderno y algunas funciones innovadoras.
+[Opera](https://www.opera.com/) es un navegador de larga tradición, que existe desde 1995. Ahora utiliza Blink tras abandonar su motor propietario (*Presto*). Tiene una interfaz moderna y algunas funciones innovadoras.
 
 
 
@@ -5684,7 +5687,7 @@ Los navegadores basados en Blink también incluyen una serie de navegadores más
 
 
 
-Desarrollado por The Browser Company, [Arc](https://arc.net/) ofrece un enfoque radicalmente distinto al usuario Interface. Sustituye las pestañas tradicionales por un sistema de "*espacios*", una barra lateral unificada, e integra herramientas creativas como capturas anotables y un sencillo editor de sitios. Se hace hincapié en la usabilidad, la personalización visual y la fluidez de uso, lo que la convierte en una herramienta preferida por algunos profesionales.
+Desarrollado por The Browser Company, [Arc](https://arc.net/) ofrece un enfoque radicalmente distinto al interfaz de usuario. Sustituye las pestañas tradicionales por un sistema de "*espacios*", una barra lateral unificada, e integra herramientas creativas como capturas anotables y un sencillo editor de sitios. Se hace hincapié en la usabilidad, la personalización visual y la fluidez de uso, lo que la convierte en una herramienta preferida por algunos profesionales.
 
 
 
@@ -5702,7 +5705,7 @@ Desde un punto de vista técnico, Arc se basa en Chromium, pero sigue siendo sof
 
 
 
-[Polypane](https://polypane.app/) está dirigido específicamente a desarrolladores front-end y diseñadores de UX. Su función principal es mostrar simultáneamente varias instancias del mismo sitio en distintas resoluciones de pantalla, para probar el comportamiento *responsive* de una Interface en tiempo real. También ofrece herramientas de accesibilidad, validadores de HTML/CSS, simuladores de daltonismo y métricas de rendimiento.
+[Polypane](https://polypane.app/) está dirigido específicamente a desarrolladores front-end y diseñadores de UX. Su función principal es mostrar simultáneamente varias instancias del mismo sitio en distintas resoluciones de pantalla, para probar el comportamiento *responsive* de una interfaz en tiempo real. También ofrece herramientas de accesibilidad, validadores de HTML/CSS, simuladores de daltonismo y métricas de rendimiento.
 
 
 
@@ -5742,7 +5745,7 @@ Firefox sigue siendo una referencia en materia de seguridad y privacidad, a pesa
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Navegador Tor
 
 
@@ -5751,7 +5754,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 El inconveniente es una reducción significativa del rendimiento (alta latencia) y una compatibilidad limitada con ciertos sitios web. Tor Browser es ideal para actividades sensibles (periodismo, activismo...), pero menos adecuado para el uso cotidiano.
 
@@ -5765,11 +5768,11 @@ El inconveniente es una reducción significativa del rendimiento (alta latencia)
 
 [Mullvad Browser](https://mullvad.net/en/browser) es el resultado de la colaboración entre la Fundación Tor y Mullvad VPN. Está basado en el navegador Tor, que a su vez deriva de Firefox ESR. Mullvad Browser está diseñado para maximizar la privacidad del usuario. Por defecto, incluye protección avanzada contra huellas digitales, rastreadores y scripts de terceros.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Tiene la mayoría de las características de seguridad y privacidad ofrecidas por el Navegador Tor, con una diferencia: no redirige el tráfico a través de la red Tor. Para evitar fugas de IP Address, puedes usarlo en combinación con una VPN (idealmente, Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser es una solución excelente si te preocupa tu privacidad, tanto si eres un principiante como un usuario avanzado.
 
@@ -5795,16 +5798,16 @@ Por defecto, LibreWolf activa la configuración de seguridad avanzada de Firefox
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Navegador Zen
 
 [Zen Browser](https://zen-browser.app/) es un navegador gratuito y de código abierto basado en Firefox (motor Gecko), lanzado en 2024. Su objetivo es ofrecer una experiencia de navegación moderna, elegante, altamente personalizable y, sobre todo, centrada en la privacidad, sin depender de Chromium.
 
-Zen destaca por su enfoque radical de Interface y usabilidad, inspirado en gran medida en el navegador Arc, pero emancipado de él por su naturaleza de código abierto y su motor Gecko. Incluye :
+Zen destaca por su enfoque radical de interfaz y usabilidad, inspirado en gran medida en el navegador Arc, pero emancipado de él por su naturaleza de código abierto y su motor Gecko. Incluye :
 
-- Un Interface minimalista y modular, con una barra lateral vertical para pestañas, una vista dividida y un sistema *workspace* para agrupar conjuntos de pestañas por proyecto;
-- Un sistema de plantillas personalizables Interface (*Zen Mods*) que pueden utilizarse para modificar profundamente la apariencia del navegador;
+- Una interfaz minimalista y modular, con una barra lateral vertical para pestañas, una vista dividida y un sistema *workspace* para agrupar conjuntos de pestañas por proyecto;
+- Un sistema de plantillas de interfaz personalizables (*Zen Mods*) que pueden utilizarse para modificar profundamente la apariencia del navegador;
 - Una función original llamada *Glance*, que abre un enlace en una ventana temporal ligera, evitando el desorden de las pestañas...
 
 Zen también es compatible con las extensiones de Firefox, así como con la sincronización a través de una cuenta de Mozilla.
@@ -5813,7 +5816,7 @@ Desde el punto de vista de la seguridad y la privacidad, Zen cuenta con bloqueo 
 
 Zen Browser es una alternativa interesante si buscas un entorno de navegación Gecko que sea gratuito, innovador, despejado y respetuoso con tu privacidad.
 
-https://planb.network/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### Navegadores basados en WebKit
 
@@ -5847,7 +5850,7 @@ Orion difiere de Safari en varios aspectos técnicos:
 - Adopta una estricta política de telemetría cero: no recoge ni transmite datos por defecto, ni siquiera durante la instalación inicial;
 - Incluye un bloqueador de anuncios y rastreadores activado por defecto, comparable en eficacia a *uBlock Origin* en la mayoría de los casos;
 - Admite de forma nativa la instalación y el uso de extensiones de Chrome y Firefox de forma nativa en macOS ;
-- Entre las herramientas útiles se incluyen el modo *Focus* (navegación sin Interface), el modo de bajo consumo y la gestión de pestañas verticales.
+- Entre las herramientas útiles se incluyen el modo *Focus* (navegación sin interfaz), el modo de bajo consumo y la gestión de pestañas verticales.
 
 
 
@@ -5855,7 +5858,7 @@ Orion ha sido desarrollado íntegramente por el equipo Kagi (conocido por su mot
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Navegadores sin motor de renderizado
 
 
@@ -5864,7 +5867,7 @@ Por último, me gustaría terminar este repaso con una alternativa mucho menos c
 
 
 
-Lynx es el navegador web más antiguo que aún se mantiene (1992). Funciona exclusivamente en modo texto y se utiliza directamente en un terminal, sin ningún Interface gráfico. Técnicamente, Lynx no admite JavaScript, CSS ni imágenes, lo que elimina cualquier ejecución activa de código en las páginas web. Sólo interpreta código HTML en bruto, que renderiza como texto estructurado.
+Lynx es el navegador web más antiguo que aún se mantiene (1992). Funciona exclusivamente en modo texto y se utiliza directamente en un terminal, sin ningún interfaz gráfico. Técnicamente, Lynx no admite JavaScript, CSS ni imágenes, lo que elimina cualquier ejecución activa de código en las páginas web. Sólo interpreta código HTML en bruto, que renderiza como texto estructurado.
 
 
 
@@ -5945,6 +5948,7 @@ En el próximo capítulo, echaremos un vistazo a las mejores prácticas para nav
 ## Buenas prácticas en el uso de la web
 
 
+ 
 <chapterId>ded47ada-0569-4e63-b668-0da042e691d5</chapterId>
 
 
@@ -5966,7 +5970,6 @@ El navegador web es uno de los componentes de software más expuestos en un sist
 
 
 Esta complejidad técnica, combinada con una enorme superficie de ataque, convierte al navegador en un objetivo prioritario para los atacantes. Los fallos críticos en los motores de renderizado (como Blink o Gecko), las bibliotecas de análisis de imágenes o los gestores de memoria pueden permitir los llamados ataques "zero-click" (basta con visitar un sitio trampa para que la máquina quede comprometida), o de "día cero" (vulnerabilidad desconocida para el proveedor).
-
 
 
 Para reducir estos riesgos, los editores de navegadores lanzan actualizaciones muy frecuentes, a menudo semanales, que corrigen estas vulnerabilidades en cuanto se identifican. Estos parches no se limitan a Interface o mejoras de rendimiento: bloquean activamente vectores de ataque reales y documentados.
@@ -6035,9 +6038,9 @@ Un gestor de contraseñas genera y almacena de forma segura contraseñas seguras
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Utilizar un gestor de contraseñas tiene varias ventajas: simplifica el día a día al eliminar la necesidad de memorizar multitud de contraseñas y minimiza el principal punto débil de la autenticación: el propio usuario.
 
@@ -6047,13 +6050,13 @@ Cuando se trata de autenticación, el uso de un gestor de contraseñas debe comp
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Utilizar una VPN
 
@@ -6087,11 +6090,11 @@ Una buena VPN debe tener una política clara de no-logging, ofrecer tecnologías
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Las VPN de alto perfil deben evitarse. A pesar de su agresivo marketing, siguen siendo servicios comerciales centralizados, a menudo basados en jurisdicciones menos protectoras, y raramente transparentes sobre su funcionamiento técnico real.
 
@@ -6368,7 +6371,7 @@ Esta es precisamente la función de HTTPS (*HyperText Transfer Protocol Secure*)
 
 
 
-En concreto, un sitio habilitado para HTTPS se indica mediante un candado cerrado en la barra Address de su navegador, normalmente en la parte superior izquierda de Interface. Al hacer clic en este candado, aparece información sobre el certificado TLS del sitio (autoridad de certificación, fecha de validez, etc.). La Address del sitio también comienza sistemáticamente por `https://`.
+En concreto, un sitio habilitado para HTTPS se indica mediante un candado cerrado en la barra Address de su navegador, normalmente en la parte superior izquierda de la interfaz. Al hacer clic en este candado, aparece información sobre el certificado TLS del sitio (autoridad de certificación, fecha de validez, etc.). La Address del sitio también comienza sistemáticamente por `https://`.
 
 
 
@@ -6392,7 +6395,7 @@ De hecho, hoy en día muy pocos sitios son accesibles únicamente a través de H
 
 
 
-Como ya hemos visto, es importante distinguir entre dos Elements que a menudo se confunden: el navegador, que es una aplicación instalada en el ordenador (como Firefox o Brave) y que se utiliza para visualizar páginas web, y el motor de búsqueda, que es un servicio en línea (como Google) al que se envían consultas para obtener resultados. Estos dos Elements son independientes, aunque los navegadores suelen integrar por defecto un motor determinado.
+Como ya hemos visto, es importante distinguir entre dos elementos que a menudo se confunden: el navegador, que es una aplicación instalada en el ordenador (como Firefox o Brave) y que se utiliza para visualizar páginas web, y el motor de búsqueda, que es un servicio en línea (como Google) al que se envían consultas para obtener resultados. Estos dos Elements son independientes, aunque los navegadores suelen integrar por defecto un motor determinado.
 
 
 
@@ -6484,7 +6487,7 @@ Google compró Android Inc. en 2005 por unos 50 millones de dólares. Entre 2005
 Pero en enero de 2007, un acontecimiento marcó un importante punto de inflexión en la historia del smartphone: Steve Jobs presentó la primera generación del iPhone. La creencia generalizada de que un teclado físico era indispensable se hizo añicos. El iPhone introdujo un dispositivo diseñado para un uso totalmente táctil, que redefinió por sí solo las expectativas del mercado.
 
 
-Ante esta revolución, Google se vio obligado a replantearse por completo la dirección de su proyecto Android para hacerlo compatible con un Interface táctil. Más tarde, en 2007, Google lanzó oficialmente Android como proyecto de código abierto basado en un núcleo Linux modificado, con el nombre de *Android open-source Project (AOSP)*.
+Ante esta revolución, Google se vio obligado a replantearse por completo la dirección de su proyecto Android para hacerlo compatible con una interfaz táctil. Más tarde, en 2007, Google lanzó oficialmente Android como proyecto de código abierto basado en un núcleo Linux modificado, con el nombre de *Android open-source Project (AOSP)*.
 
 
 El primer dispositivo con Android que llegó al mercado, el HTC Dream, se lanzó en 2008. Ofrecía un entorno aún rudimentario, pero totalmente abierto: fabricantes y operadores podían adaptar libremente el sistema a sus necesidades, mientras que los desarrolladores podían crear y distribuir aplicaciones sin validación previa. Este enfoque conquistó rápidamente a una comunidad activa y contribuyó a la adopción generalizada de Android por muchos fabricantes.
@@ -6557,7 +6560,7 @@ iOS se basó inicialmente en el sistema operativo utilizado por el Mac: OS X. Ut
 Esta arquitectura cerrada permite a Apple garantizar una experiencia de usuario fluida y segura. El desarrollo centralizado también facilita la optimización hardware-software, con poca variabilidad entre modelos, a diferencia de Android. Por ello, iOS se considera uno de los sistemas más seguros frente a los ataques informáticos.
 
 
-#### Desventajas de cerrar iOS
+#### Desventajas de las restricciones en iOS
 
 
 Sin embargo, esta seguridad se basa en un estricto bloqueo del usuario final, que no tiene prácticamente ningún control técnico sobre su dispositivo. Es imposible instalar aplicaciones que no sean a través de la App Store, salvo mediante un *jailbreak*, una operación compleja, arriesgada y a menudo inestable que anula la garantía y compromete la seguridad del sistema. Este principio también sustenta el modelo de negocio de Apple, que cobra una comisión por las transacciones realizadas en aplicaciones de terceros.
@@ -6573,7 +6576,7 @@ Además, la integración obligatoria de iCloud en la mayoría de los servicios (
 
 
 
-- algunos Elements (como los metadatos de conexión, las solicitudes de Siri o los registros de errores) siguen pasando por los servidores de Apple
+- algunos elementos (como los metadatos de conexión, las solicitudes de Siri o los registros de errores) siguen pasando por los servidores de Apple
 - los mecanismos de análisis de comportamiento para sugerencias contextuales, actualizaciones de App Store o filtrado de mensajes utilizan modelos propios no auditables
 - el uso de servicios como iCloud implica una confianza implícita en la infraestructura de Apple, sin control sobre dónde o cuánto tiempo se almacenan los datos
 
@@ -6626,7 +6629,7 @@ GrapheneOS no integra componentes propietarios. Eres libre de añadir o no servi
 Graphene solo es compatible con los Google Pixel recientes (Pixel 6, 7, 8 y 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
@@ -6634,7 +6637,7 @@ https://planb.network/tutorials/computer-security/operating-system/grapheneos-08
 [CalyxOS](https://calyxos.org/) es un sistema intermedio que pretende conciliar privacidad, seguridad y compatibilidad con el uso cotidiano. También está basado en AOSP, con mejoras de seguridad. Su característica especial es la integración opcional de MicroG, una reimplementación libre de los servicios de Google. Esto permite ejecutar la mayoría de las aplicaciones Android dependientes de los servicios de Google, sin tener que pasar por los binarios propietarios oficiales.
 
 
-CalyxOS también ofrece aplicaciones preinstaladas (Signal, F-Droid, Aurora Store, VPN integrada...), y un estupendo Interface. Es fácil de instalar a través de una herramienta gráfica para los usuarios de Pixel. Calyx es compatible principalmente con los Google Pixel, pero también con algunos modelos Fairphone y Motorola.
+CalyxOS también ofrece aplicaciones preinstaladas (Signal, F-Droid, Aurora Store, VPN integrada...), y un estupendo interfaz. Es fácil de instalar a través de una herramienta gráfica para los usuarios de Pixel. Calyx es compatible principalmente con los Google Pixel, pero también con algunos modelos Fairphone y Motorola.
 
 
 ![Image](assets/fr/137.webp)
@@ -6646,7 +6649,7 @@ CalyxOS también ofrece aplicaciones preinstaladas (Signal, F-Droid, Aurora Stor
 [LineageOS](https://lineageos.org/), sucesor de CyanogenMod, es la ROM alternativa más compatible. Es compatible con varios cientos de modelos, gracias a una gran comunidad de colaboradores. Basada en AOSP, hace hincapié en la personalización, la sencillez y la libertad de uso.
 
 
-LineageOS te ofrece un sistema Android sin superposiciones del fabricante, sin bloatware, con gestión completa de permisos, fácil actualización y un Interface optimizado. Puedes añadir servicios de Google u optar por un uso 100% libre.
+LineageOS te ofrece un sistema Android sin superposiciones del fabricante, sin bloatware, con gestión completa de permisos, fácil actualización y una interfaz optimizada. Puedes añadir servicios de Google u optar por un uso 100% libre.
 
 
 En el frente de la seguridad, sin embargo, LineageOS no integra ciertas protecciones de hardware o refuerzos de memoria que se encuentran en GrapheneOS y CalyxOS. Su sistema de actualizaciones también depende de la comunidad, lo que puede introducir retrasos en los parches de seguridad.
@@ -6702,7 +6705,7 @@ En este capítulo, veremos paso a paso algunas recomendaciones básicas que se a
 ### Actualizaciones
 
 
-Voy a repetirme, pero cada actualización lanzada por los desarrolladores incluye potencialmente importantes parches de seguridad. Además, los smartphones están expuestos a numerosos riesgos debido a su enorme superficie de ataque: A través de redes móviles, aplicaciones de terceros, comunicaciones inalámbricas (Wi-Fi, Bluetooth, NFC, etc.).
+Voy a repetirme, pero cada actualización lanzada por los desarrolladores incluye potencialmente importantes parches de seguridad. Además, los smartphones están expuestos a numerosos riesgos debido a su enorme superficie de ataque: a través de redes móviles, aplicaciones de terceros, comunicaciones inalámbricas (Wi-Fi, Bluetooth, NFC, etc.).
 
 
 No aplicar estas actualizaciones significa dejar deliberadamente abiertas vulnerabilidades conocidas, documentadas públicamente en bases de datos como CVE (*Common Vulnerabilities and Exposures*). A veces, estos fallos son explotados automáticamente por herramientas disponibles en línea, sin necesidad siquiera de conocimientos avanzados. Esto convierte a un teléfono desactualizado en un objetivo ideal, incluso para ataques automatizados a gran escala.
@@ -6720,16 +6723,16 @@ Por lo tanto, es esencial activar las actualizaciones automáticas en la configu
 No todos los smartphones son iguales en cuanto a soporte de software. Muchos dispositivos básicos y de gama media dejan de recibir actualizaciones críticas al cabo de dos o tres años, exponiéndote a riesgos cada vez más graves.
 
 
-Sin embargo, algunas marcas tienen un soporte de software muy bueno, sobre todo Google (7 años), Fairphone (de 5 a 7 años), Samsung (de 5 a 7 años) y Apple (de 5 a 7 años). Este criterio es muy importante a la hora de comprar un teléfono nuevo: Un aparato duradero es ante todo un aparato mantenido.
+Sin embargo, algunas marcas tienen un soporte de software muy bueno, sobre todo Google (7 años), Fairphone (de 5 a 7 años), Samsung (de 5 a 7 años) y Apple (de 5 a 7 años). Este criterio es muy importante a la hora de comprar un teléfono nuevo: un aparato duradero es ante todo un aparato mantenido.
 
 
 #### Utilice tiendas de aplicaciones fiables
 
 
-Las aplicaciones móviles representan una importante fuente de riesgo: Por ellas pasa la mayor parte del malware moderno para Android. Instalar una aplicación a través de un archivo `.apk` recibido de un sitio desconocido, o de una tienda no certificada, significa correr el riesgo de instalar un programa deliberadamente malicioso, o modificado para incluir funciones de espionaje o robo de datos.
+Las aplicaciones móviles representan una importante fuente de riesgo: por ellas pasa la mayor parte del malware moderno para Android. Instalar una aplicación a través de un archivo `.apk` recibido de un sitio desconocido, o de una tienda no certificada, significa correr el riesgo de instalar un programa deliberadamente malicioso, o modificado para incluir funciones de espionaje o robo de datos.
 
 
-Incluso en tiendas oficiales como Google Play Store o Apple App Store, hay que permanecer alerta. A pesar de los mecanismos de filtrado, las aplicaciones maliciosas consiguen colarse con regularidad. Por ejemplo, a veces pueden verse aplicaciones "Sparrow wallet" en Play Store, a pesar de que este software solo existe en PC: Se trata, sin duda, de una aplicación fraudulenta.
+Incluso en tiendas oficiales como Google Play Store o Apple App Store, hay que permanecer alerta. A pesar de los mecanismos de filtrado, las aplicaciones maliciosas consiguen colarse con regularidad. Por ejemplo, a veces pueden verse aplicaciones "Sparrow wallet" en Play Store, a pesar de que este software solo existe en PC: se trata, sin duda, de una aplicación fraudulenta.
 
 
 Antes de instalarlo, tómate tu tiempo para comprobar algunas cosas: permisos necesarios, número de descargas, valoración general, fecha de la última actualización y opiniones de los usuarios.
@@ -6750,7 +6753,7 @@ En Android, si instalas aplicaciones a través de archivos `.apk`, tendrás que 
 ### Gestionar los permisos de las aplicaciones
 
 
-En un smartphone, cualquier aplicación puede solicitar acceso directo a recursos sensibles: Micrófono, cámara, posición geográfica precisa, libro Address, archivos, SMS, sensores de movimiento, etc. Este acceso no es trivial: técnicamente, cuando se concede el permiso, la aplicación puede explotarlo en segundo plano, de forma continua o ad hoc, a veces sin notificación visible. Por eso es importante aplicar el principio del menor privilegio: conceder a cada aplicación sólo las autorizaciones estrictamente indispensables para su funcionamiento mínimo.
+En un smartphone, cualquier aplicación puede solicitar acceso directo a recursos sensibles: micrófono, cámara, posición geográfica precisa, libro Address, archivos, SMS, sensores de movimiento, etc. Este acceso no es trivial: técnicamente, cuando se concede el permiso, la aplicación puede explotarlo en segundo plano, de forma continua o ad hoc, a veces sin notificación visible. Por eso es importante aplicar el principio del menor privilegio: conceder a cada aplicación sólo las autorizaciones estrictamente indispensables para su funcionamiento mínimo.
 
 
 ![Image](assets/fr/141.webp)
@@ -6842,11 +6845,11 @@ Las redes Wi-Fi públicas, como las de cafeterías, hoteles o transportes públi
 Para protegerse, simplemente evite utilizar estas redes públicas, o utilice una VPN, que creará un túnel cifrado entre su dispositivo y un servidor remoto. Este túnel encapsula tus datos, lo que los hace extremadamente difíciles de interceptar o modificar.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 En cuanto a tu red Wi-Fi doméstica, hablaremos de ello en la última parte del curso SCU 202.
 
@@ -6855,7 +6858,7 @@ En cuanto a tu red Wi-Fi doméstica, hablaremos de ello en la última parte del 
 #### Bluetooth, NFC y GPS
 
 
-Bluetooth (protocolo inalámbrico para comunicaciones de corto alcance), NFC (Near Field Communication) y GPS (posicionamiento por satélite) están activados por defecto en muchos smartphones. Estas tecnologías pueden utilizarse como puerta de entrada para ataques locales: Ejecución remota de código, acceso no autorizado, seguimiento de la ubicación, incluso interceptación de las comunicaciones en el caso de Bluetooth (vulnerabilidades BlueBorne, por ejemplo).
+Bluetooth (protocolo inalámbrico para comunicaciones de corto alcance), NFC (Near Field Communication) y GPS (posicionamiento por satélite) están activados por defecto en muchos smartphones. Estas tecnologías pueden utilizarse como puerta de entrada para ataques locales: ejecución remota de código, acceso no autorizado, seguimiento de la ubicación, incluso interceptación de las comunicaciones en el caso de Bluetooth (vulnerabilidades BlueBorne, por ejemplo).
 
 
 Para limitar estos riesgos, desactive siempre estas funciones cuando no las utilice. Esto reduce drásticamente la superficie de ataque y evita cualquier intento de explotación.
@@ -6885,7 +6888,7 @@ La mejor manera de proteger tus comunicaciones es utilizar aplicaciones de mensa
 A menudo se sobrestima la utilidad de los programas antivirus en los smartphones, en gran parte debido a las agresivas campañas de marketing. Las verdaderas amenazas en los móviles, especialmente en Android, suelen estar relacionadas con la instalación de aplicaciones maliciosas procedentes de fuentes no oficiales. En un dispositivo que se actualiza con regularidad, se configura cuidadosamente (sobre todo en términos de autorizaciones) y sólo utiliza fuentes oficiales o verificadas, el riesgo de infección es muy bajo.
 
 
-Además, los dispositivos Android ya vienen equipados por defecto con Google Play Protect, que actúa como antivirus. Las aplicaciones antivirus de terceros utilizan el mismo escáner Interface, lo que simplemente añade redundancia. En la práctica, pues, los antivirus para móviles ofrecen poco valor añadido, tanto en Android como en iOS.
+Además, los dispositivos Android ya vienen equipados por defecto con Google Play Protect, que actúa como antivirus. Las aplicaciones antivirus de terceros utilizan la misma API (interfaz del OS) para escanear, lo que simplemente añade redundancia. En la práctica los antivirus para móviles ofrecen poco valor añadido, tanto en Android como en iOS.
 
 
 Además, estas aplicaciones pueden inducir una falsa sensación de seguridad en los usuarios, haciéndoles creer que están totalmente protegidos contra las amenazas, cuando en realidad sólo ofrecen una protección reactiva. No ofrecen protección contra el phishing, ni contra los permisos excesivos concedidos a las aplicaciones, a pesar de que la mayoría de las amenazas a los smartphones proceden precisamente de estos vectores.
@@ -6897,7 +6900,7 @@ Su utilidad real es, por tanto, muy limitada, y estas aplicaciones son a veces c
 ### Comprobar las conexiones salientes
 
 
-También hay aplicaciones de cortafuegos para smartphones, como NetGuard o RethinkDNS, que actúan como un cortafuegos local directamente en tu dispositivo. Utilizan la API VPN de Android para interceptar todo el tráfico saliente, sin necesidad de acceso root.
+También hay aplicaciones de cortafuegos para smartphones, como NetGuard o RethinkDNS, que actúan como un cortafuegos local directamente en tu dispositivo. Utilizan la API VPN de Android para interceptar todo el tráfico saliente, sin necesidad de acceso administrador.
 
 
 En la práctica, esto significa que puede bloquear individualmente el acceso a Internet de determinadas aplicaciones, reduciendo así considerablemente el riesgo de recopilación de datos no deseados o de comunicaciones no autorizadas.
@@ -6921,7 +6924,7 @@ Hacer copias de seguridad periódicas de los datos de tu smartphone es muy impor
 Para ello, debes utilizar soluciones locales cifradas, como un disco externo o una llave USB cifrada (por ejemplo, con Veracrypt). En su defecto, las soluciones autoalojadas en la nube, como *Syncthing* o *Nextcloud*, te permiten hacer copias de seguridad de tus datos en un servidor personal, manteniendo un control total sobre el acceso y la confidencialidad. A diferencia de los servicios comerciales en la nube (Google Drive, iCloud...), estas soluciones limitan considerablemente la exposición de tu información a terceros.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Limpieza a distancia
 
@@ -6935,7 +6938,7 @@ En Android, puedes utilizar *Buscar mi dispositivo* desde los Ajustes de Google.
 ![Image](assets/fr/147.webp)
 
 
-Sin embargo, estas características presentan compromisos significativos: Centralizan tu información sensible (geolocalización, inicios de sesión, acceso remoto, etc.) en los servidores de una empresa privada, y requieren que mantengas activada tu localización.
+Sin embargo, estas características presentan compromisos significativos: centralizan tu información sensible (geolocalización, inicios de sesión, acceso remoto, etc.) en los servidores de una empresa privada, y requieren que mantengas activada tu localización.
 
 
 Si decides implantarlas de todos modos, prueba estas funciones con antelación para asegurarte de que funcionarán correctamente el día que realmente las necesites.
@@ -6980,7 +6983,7 @@ Estas limitaciones también se aplican a MMS (*Multimedia Messaging Service*), q
 En los últimos años, algunos operadores y fabricantes han introducido RCS (*Rich Communication Services*), una evolución técnica de los SMS. RCS permite enviar mensajes enriquecidos (imágenes, vídeos, acuses de recibo, etc.) e integra el cifrado en tránsito (TLS), pero sigue dependiendo de los servidores del operador y no garantiza el cifrado de extremo a extremo en todos los casos. Además, la fragmentación de su implantación entre operadores y fabricantes (entre Android e iOS, por ejemplo) limita su adopción y su fiabilidad real.
 
 
-Desde 2021, Mensajes de Google ha adoptado el protocolo Signal para garantizar el cifrado de extremo a extremo, pero esta función solo es accesible si ambas partes utilizan Mensajes de Google.
+Desde 2021, _Mensajes_ de Google ha adoptado el protocolo Signal para garantizar el cifrado de extremo a extremo, pero esta función solo es accesible si ambas partes utilizan Mensajes de Google.
 
 
 En marzo de 2025, la Asociación GSM publicó el *Perfil Universal 3.0* (UP 3.0), que establece finalmente una norma de interoperabilidad para el cifrado de extremo a extremo (E2EE) en RCS. Como resultado, cuando un Exchange tiene lugar a través de un cliente RCS compatible con UP 3.0, el contenido se vuelve ilegible tanto para el operador como para un IMSI-catcher. Google y Apple han anunciado su intención de apoyar esta tecnología (queda por ver si será interoperable). Sin embargo, si uno de los dispositivos no es compatible con RCS UP 3.0, o si no hay conectividad IP, la comunicación cambia automáticamente a SMS convencionales no cifrados, lo que hace trivial la interceptación.
@@ -7001,7 +7004,7 @@ En lugar de SMS, te aconsejo que utilices aplicaciones de mensajería específic
 Frente a las limitaciones de los SMS, han surgido varias aplicaciones modernas, algunas con cifrado de extremo a extremo. Aquí tienes una comparativa de las principales aplicaciones disponibles hoy en día, para ayudarte a identificar las que mejor se adaptan a tus necesidades de seguridad y confidencialidad.
 
 
-#### Señal
+#### Signal
 
 
 Signal es una aplicación de mensajería instantánea diseñada desde el principio para ofrecer la máxima confidencialidad y seguridad. Se basa en el *Protocolo Signal*, que garantiza un cifrado sistemático de extremo a extremo para cada mensaje, llamada de voz o vídeo, así como para compartir archivos. Este protocolo es reutilizado por muchos otros servicios de mensajería, como WhatsApp, Facebook Messenger, Skype y Google Messages (en sus implementaciones RCS).
@@ -7013,13 +7016,13 @@ Signal es una aplicación de mensajería instantánea diseñada desde el princip
 Técnicamente, cada conversación dentro de Signal está protegida por un mecanismo de cifrado asimétrico y efímero: Las claves de sesión se negocian dinámicamente y se destruyen después de su uso, limitando así el riesgo de compromiso. La transparencia de la aplicación, cuyo código es totalmente abierto tanto en el lado del cliente como del servidor, significa que cualquier experto o investigador en seguridad puede comprobar su integridad y el cumplimiento de las normas criptográficas establecidas.
 
 
-Sin embargo, Signal tiene un punto débil en lo que se refiere al anonimato: la aplicación requiere un número de teléfono válido para el registro y la identificación del usuario. Aunque este número no es sistemáticamente visible para tus contactos (puede ocultarse bajo un seudónimo), este requisito introduce una dependencia de la infraestructura telefónica y, por tanto, una posible laguna de trazabilidad.
+Sin embargo, Signal tiene un punto débil en lo que se refiere al anonimato: la aplicación requiere un número de teléfono válido para el registro y la identificación del usuario. Aunque este número no es sistemáticamente visible para tus contactos (puede ocultarse bajo un pseudónimo), este requisito introduce una dependencia de la infraestructura telefónica y, por tanto, una posible laguna de trazabilidad.
 
 
 En resumen, Signal es una solución de mensajería muy buena, pero desgraciadamente requiere una conexión desde un número de teléfono.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7045,7 @@ Telegram es un servicio de mensajería muy popular gracias a su ergonomía y sus
 Por lo tanto, Telegram puede acceder técnicamente al contenido de la mayoría de las conversaciones que no están explícitamente protegidas. Aunque la empresa adopte una postura firme frente a las autoridades gubernamentales, Telegram no es una solución óptima para los intercambios confidenciales o sensibles, a menos que utilices explícitamente sus "intercambios secretos", mucho menos prácticos en el día a día.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7068,7 @@ Otro aspecto importante de Threema es su modelo de negocio: la aplicación no es
 Esta solución de mensajería me parece excelente, pero su principal inconveniente es que el código fuente de sus servidores sigue siendo propietario.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### Chat SimpleX
 
@@ -7082,15 +7085,15 @@ Técnicamente, los mensajes se cifran de extremo a extremo y pasan por servidore
 El protocolo es totalmente de código abierto: clientes, servidores y protocolos son accesibles y auditados públicamente. SimpleX está disponible en Android, iOS, Linux, Windows y macOS, con almacenamiento local cifrado y portátil, por lo que los perfiles pueden transferirse sin necesidad de un servidor central. Además, cada usuario puede gestionar varios perfiles aislados, cada uno con su propia configuración, apodo y foto. Esta flexibilidad permite separar claramente la vida privada, la profesional y el seudónimo.
 
 
-Los contactos se añaden mediante enlaces temporales o direcciones estáticas (identificadores permanentes pero revocables). También puedes elegir entre Exchange efímero o un modo más clásico, con controles precisos de visibilidad y autorizaciones (por ejemplo, ocultar tu nombre real tras un seudónimo aleatorio y único para cada contacto).
+Los contactos se añaden mediante enlaces temporales o direcciones estáticas (identificadores permanentes pero revocables). También puedes elegir entre intercambios efímeros o un modo más clásico, con controles precisos de visibilidad y autorizaciones (por ejemplo, ocultar tu nombre real tras un seudónimo aleatorio y único para cada contacto).
 
 
 En términos de seguridad y confidencialidad, SimpleX va más allá que la mayoría de los sistemas de mensajería existentes, limitando los metadatos al mínimo y eliminando cualquier dependencia de un directorio central o de un identificador único. Sin embargo, esta arquitectura impone una serie de compromisos en términos de facilidad de uso: ergonomía a veces menos intuitiva, necesidad de una ligera curva de aprendizaje inicial y dependencia de la disponibilidad de servidores de retransmisión.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-#### Sesión
+#### Session
 
 
 Session, lanzada en 2020 por la Oxen Privacy Tech Foundation, es una aplicación de mensajería diseñada para ofrecer mayor privacidad y resistencia frente a la vigilancia. Session no requiere información personal al registrarse: ni número de teléfono, ni correo electrónico, solo un par de claves criptográficas generadas localmente. Esto permite la autenticación anónima.
@@ -7102,12 +7105,12 @@ Session, lanzada en 2020 por la Oxen Privacy Tech Foundation, es una aplicación
 Técnicamente, Session implementa el cifrado de extremo a extremo para mensajes, archivos, audio y llamadas, así como para grupos (de hasta 100 miembros). Los mensajes se enrutan a través de una red descentralizada basada en servidores de nodos inspirados en la arquitectura de cebolla de Tor. Este mecanismo ofrece una protección avanzada contra la vigilancia de la red, incluso por parte de ISP y agentes estatales.
 
 
-El cliente y el servidor de Session son de código abierto. El software está disponible en Android, iOS, Windows, macOS y Linux, con opción de sincronización entre dispositivos mediante la frase Mnemonic, similar a la utilizada en los monederos Bitcoin. Esta frase otorga al usuario el control exclusivo sobre sus datos, pero también le impone una importante responsabilidad en términos de copias de seguridad.
+El cliente y el servidor de Session son de código abierto. El software está disponible en Android, iOS, Windows, macOS y Linux, con opción de sincronización entre dispositivos mediante la frase mnemónica, similar a la utilizada en los monederos Bitcoin. Esta frase otorga al usuario el control exclusivo sobre sus datos, pero también le impone una importante responsabilidad en términos de copias de seguridad.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
-#### Tecla
+#### Keet
 
 
 Keet, lanzada en 2022 por Holepunch (una empresa respaldada por Tether y Bitfinex), destaca por su enfoque radicalmente descentralizado: Todas las comunicaciones (mensajes, llamadas de audio y vídeo, transferencias de archivos, etc.) tienen lugar directamente entre los usuarios, sin pasar por ningún servidor central. Esta arquitectura P2P elimina intermediarios y mejora considerablemente la confidencialidad y resistencia del sistema.
@@ -7119,13 +7122,13 @@ Keet, lanzada en 2022 por Holepunch (una empresa respaldada por Tether y Bitfine
 Keet encripta todas las comunicaciones de extremo a extremo. El registro es completamente anónimo: no se requiere ningún número de teléfono, correo electrónico Address o identificador. Esto garantiza una mayor confidencialidad desde el momento en que se activa el servicio. Las videollamadas son de la máxima calidad y las transferencias de archivos tienen un tamaño ilimitado, por lo que es adecuado tanto para uso profesional como personal.
 
 
-Por otro lado, aunque algunos componentes (criptografía y redes) están publicados como código abierto en GitHub, el cliente Interface de Keet no estaba totalmente abierto en el momento de escribir SCU-202 (mayo de 2025). Sin embargo, Holepunch ha anunciado su intención de publicar todo el código en el futuro.
+Por otro lado, aunque algunos componentes (criptografía y redes) están publicados como código abierto en GitHub, la interfaz del cliente de Keet no estaba totalmente abierta en el momento de escribir SCU-202 (mayo de 2025). Sin embargo, Holepunch ha anunciado su intención de publicar todo el código en el futuro.
 
 
-Keet está disponible en Android, iOS, Windows, macOS y Linux, y se puede sincronizar entre dispositivos mediante una frase Mnemonic.
+Keet está disponible en Android, iOS, Windows, macOS y Linux, y se puede sincronizar entre dispositivos mediante una frase menemónica.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7162,7 +7165,7 @@ La aplicación está certificada por la ANSSI (*Agencia Nacional de Seguridad de
 Olvid es compatible con Android, iOS, Windows, macOS y Linux. Su ergonomía sigue siendo sencilla y accesible. La aplicación también cuenta con un sistema de copia de seguridad cifrada de claves y contactos, para que puedas restaurar una cuenta en un nuevo dispositivo.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Aplicaciones de mensajería que deben evitarse
 
@@ -7183,17 +7186,17 @@ He aquí una tabla resumen de las principales aplicaciones de mensajería existe
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (opcional) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (opcional) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2016              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federado)          | 2016              |
 | Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2014              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federado)          | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(no directory)   | 2019              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(no directorio)   | 2019              |
 | Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
 | Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
@@ -7260,11 +7263,11 @@ Thunderbird Mobile es la versión móvil del popular cliente de correo electrón
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
-Tuta (antes "*Tutanota*") ofrece una solución completa de correo electrónico cifrado de extremo a extremo, pero su cliente móvil sólo admite cuentas de Tuta. No funciona con otros proveedores. Interface es moderno y despejado, y el registro no requiere datos personales.
+Tuta (antes "*Tutanota*") ofrece una solución completa de correo electrónico cifrado de extremo a extremo, pero su cliente móvil sólo admite cuentas de Tuta. No funciona con otros proveedores. La interfaz es moderna y clara, y el registro no requiere datos personales.
 
 
 ![Image](assets/fr/158.webp)
@@ -7283,7 +7286,7 @@ Proton Mail es un servicio de mensajería seguro con base en Suiza que ofrece ci
 Un sistema de correo electrónico se basa en 2 componentes distintos: El proveedor de correo electrónico (como Gmail, Tuta o Proton Mail), que se encarga de recibir, enviar y almacenar los mensajes a través de servidores; y el cliente de correo electrónico, que es la aplicación que se utiliza para ver y escribir los mensajes (como la aplicación Gmail, Outlook, K-9 Mail o Thunderbird). El cliente puede conectarse a distintos proveedores mediante protocolos estándar como IMAP o SMTP.
 
 
-Por tanto, es posible utilizar un cliente de código abierto respetuoso con la privacidad y, al mismo tiempo, mantener inicialmente una cuenta con un proveedor más tradicional. Algunas aplicaciones, como Gmail, Proton Mail o Tuta, ofrecen clientes de correo electrónico que también actúan como proveedores de mensajería, por lo que ofrecen una solución completa que integra tanto el servicio de lectura como el de envío y recepción de correo electrónico Interface.
+Por tanto, es posible utilizar un cliente de código abierto respetuoso con la privacidad y, al mismo tiempo, mantener inicialmente una cuenta con un proveedor más tradicional. Algunas aplicaciones, como Gmail, Proton Mail o Tuta, ofrecen clientes de correo electrónico que también actúan como proveedores de mensajería, por lo que ofrecen una solución completa que integra tanto el servicio de lectura como el de envío y recepción de correo electrónico.
 
 
 He aquí algunas sugerencias a la hora de elegir su proveedor de correo electrónico:
@@ -7307,13 +7310,13 @@ La mayoría de las aplicaciones cartográficas clásicas, como Google Maps, Waze
 
 
 
-- [Mapas orgánicos](https://organicmaps.app/)
+- [Organic Maps](https://organicmaps.app/)
 
 
 Organic Maps es una aplicación gratuita de navegación offline. Se basa en datos de [OpenStreetMap](https://www.openstreetmap.org), una base de datos abierta y colaborativa. Te descargas los mapas de las regiones que te interesan y luego navegas sin red.
 
 
-No contiene publicidad, seguimiento ni recopilación de datos. La aplicación es especialmente adecuada para desplazamientos a pie, en bicicleta o en coche, ya que Interface es sencilla, rápida y sin distracciones.
+No contiene publicidad, seguimiento ni recopilación de datos. La aplicación es especialmente adecuada para desplazamientos a pie, en bicicleta o en coche, ya que la interfaz es sencilla, rápida y sin distracciones.
 
 
 ![Image](assets/fr/160.webp)
@@ -7390,7 +7393,7 @@ En Android, puedes instalar la aplicación móvil oficial de Nextcloud para acce
 
 
 
-- [Archivos de material](https://github.com/zhanghai/MaterialFiles)
+- [Material Files](https://github.com/zhanghai/MaterialFiles)
 
 
 Material Files es un gestor de archivos de código abierto, ligero y ordenado. Te permite explorar, mover, copiar o eliminar archivos localmente en tu dispositivo Android.
@@ -7432,7 +7435,7 @@ Esta aplicación forma parte de la suite "*Simple Mobile Tools*". No requiere cu
 
 
 
-- [Calendario Tuta](https://tuta.com/calendar)
+- [Tuta Calendar](https://tuta.com/calendar)
 
 
 Tuta Calendar, desarrollado por el equipo detrás de Tuta Mail, es un calendario totalmente cifrado de extremo a extremo diseñado para mantener la confidencialidad de tus eventos. Funciona en Android, iOS y a través de un cliente web. Incluso los títulos, descripciones y metadatos de tus eventos están encriptados, lo que garantiza que ningún tercero, incluido Tuta, pueda acceder a tus datos.
@@ -7442,7 +7445,7 @@ Tuta Calendar, desarrollado por el equipo detrás de Tuta Mail, es un calendario
 
 
 
-- [Calendario Protón](https://proton.me/calendar)
+- [Proton Calendar](https://proton.me/calendar)
 
 
 Proton Calendar también ofrece cifrado nativo de extremo a extremo para tus eventos y sus metadatos. Es accesible en móvil (Android, iOS) y a través de un cliente web, con un Interface claro e intuitivo. El servicio permite crear múltiples calendarios, importar/exportar eventos y compartir opciones. El cliente web es de código abierto, pero las aplicaciones móviles aún no lo son del todo.
@@ -7477,7 +7480,7 @@ Quillpad es una aplicación ligera diseñada específicamente para tomar notas e
 Joplin es una solución más completa, que ofrece sincronización de notas cifradas a través de servicios compatibles como Nextcloud, Dropbox o WebDAV. Puedes gestionar notas simples o estructuradas (en Markdown), clasificar tus documentos e incluso importar archivos adjuntos.
 
 
-Su Interface es un poco más complejo que el de QuillNote, pero sigue siendo perfectamente utilizable en el móvil, y adecuado tanto para uso personal como profesional.
+Su interfaz es un poco más complejo que el de QuillNote, pero sigue siendo perfectamente utilizable en el móvil, y adecuado tanto para uso personal como profesional.
 
 
 ![Image](assets/fr/171.webp)
@@ -7502,7 +7505,7 @@ Bitwarden es uno de los gestores de contraseñas de código abierto más complet
 Puedes usar los servidores de Bitwarden, o autoalojarte si quieres para tener un control total. Su Interface móvil es claro y fluido, con una integración perfecta en el sistema Android o iOS.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7520,7 @@ KeePass es un gestor de contraseñas histórico basado en archivos locales encri
 También existe [KeePassium](https://keepassium.com/) para iOS, una aplicación bien integrada en el ecosistema Apple, compatible con el formato KeePass y de código abierto. Otra alternativa iOS para un cliente KeePass es Strongbox, pero este software no es de código abierto desde hace varios años.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7551,7 @@ Sin embargo, no todas las VPN son iguales. Servicios populares como NordVPN o Ex
 Mullvad es una de las mejores VPN en términos de protección de la privacidad. No requiere correo electrónico ni contraseña: tu cuenta está vinculada a un simple número aleatorio. El pago puede hacerse en bitcoins o en efectivo. El cliente móvil es de código abierto, fácil de usar y potente. Mullvad no guarda registros, no rastrea a sus usuarios y publica regularmente auditorías de seguridad independientes.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7560,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN es otra excelente alternativa centrada en la privacidad. Ofrece un Interface móvil sencillo y eficaz, no recopila registros y permite el registro anónimo. También se puede pagar en bitcoins. La aplicación incorpora un cortafuegos que bloquea todo el tráfico no VPN, lo que puede ser muy útil en un smartphone. Los clientes son de código abierto.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [Proton VPN](https://protonvpn.com/)
@@ -7582,7 +7585,7 @@ La autenticación de dos factores (2FA) es una medida de seguridad adicional a l
 - [Aegis Authenticator](https://getaegis.app/)
 
 
-Aegis es una completa aplicación de código abierto. Cifra tu base de datos 2FA con una contraseña, ofrece copias de seguridad exportables (también cifradas) y te permite ordenar tus cuentas por directorio. Es clara, moderna y fácil de restaurar en un nuevo dispositivo, siempre que tengas el archivo de copia de seguridad y la contraseña asociada.
+Aegis es una completa aplicación de código abierto. Cifra tu base de datos 2FA con una contraseña, ofrece copias de seguridad exportables (también cifradas) y te permite ordenar tus cuentas por carpetas. Es clara, moderna y fácil de restaurar en un nuevo dispositivo, siempre que tengas el archivo de copia de seguridad y la contraseña asociada.
 
 
 ![Image](assets/fr/175.webp)
@@ -7595,7 +7598,7 @@ Aegis es una completa aplicación de código abierto. Cifra tu base de datos 2FA
 Ente Auth es una solución moderna, de código abierto y multiplataforma con copias de seguridad cifradas de extremo a extremo. Te permite sincronizar tus códigos 2FA de forma segura en móvil, escritorio y web. También puede utilizarla sin conexión, sin copias de seguridad en la nube ni creación de cuentas.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth ofrece muchas funciones adicionales: Organización por etiquetas, iconos personalizados para cada servicio, notas, favoritos, búsqueda integrada, compartición segura de códigos de equipo.
 
 
@@ -7609,13 +7612,13 @@ Ente Auth ofrece muchas funciones adicionales: Organización por etiquetas, icon
 Authy ofrece sincronización 2FA a través de múltiples dispositivos, lo que puede ser útil, pero la aplicación no es de código abierto y requiere un número de teléfono para el registro. Para los principiantes, sin embargo, es más completa que Google Authenticator, gracias en particular a su función de copia de seguridad en la nube.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Si quieres saber más sobre gestores de contraseñas, autenticación 2FA y VPN, te recomiendo que leas los capítulos dedicados en el curso SCU-101:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Tiempo
 
@@ -7662,7 +7665,7 @@ En general, en las aplicaciones meteorológicas es mejor configurar manualmente 
 ### Streaming de audio/vídeo
 
 
-Plataformas populares como Spotify o YouTube ofrecen una experiencia de usuario sin fisuras, pero a costa de un compromiso significativo de la privacidad. Estos servicios recopilan constantemente datos sobre el comportamiento: Historial de visionado o escucha, tiempo empleado, preferencias de contenido, dispositivo utilizado. Esta información se utiliza a menudo con fines de elaboración de perfiles o de segmentación.
+Plataformas populares como Spotify o YouTube ofrecen una experiencia de usuario sin fisuras, pero a costa de un compromiso significativo de la privacidad. Estos servicios recopilan constantemente datos sobre el comportamiento: historial de visionado o escucha, tiempo empleado, preferencias de contenido, dispositivo utilizado. Esta información se utiliza a menudo con fines de elaboración de perfiles o de segmentación.
 
 
 **Alternativas**:
@@ -7672,7 +7675,7 @@ Plataformas populares como Spotify o YouTube ofrecen una experiencia de usuario 
 - [LibreTube](https://libretube.dev/)
 
 
-LibreTube es una aplicación para Android que te permite ver vídeos de YouTube sin que Google te rastree. Todas las solicitudes se redirigen a través de un servidor proxy Piped, que anonimiza el acceso a los vídeos. Su Interface es moderno, rápido y sin anuncios. La aplicación no requiere cuenta de Google y te permite suscribirte de forma anónima a canales o crear listas de reproducción locales.
+LibreTube es una aplicación para Android que te permite ver vídeos de YouTube sin que Google te rastree. Todas las solicitudes se redirigen a través de un servidor proxy, que anonimiza el acceso a los vídeos. Su interfza es moderna, rápida y sin anuncios. La aplicación no requiere cuenta de Google y te permite suscribirte de forma anónima a canales o crear listas de reproducción locales.
 
 
 ![Image](assets/fr/180.webp)
@@ -7770,7 +7773,7 @@ F-Droid es un catálogo de aplicaciones exclusivamente de código abierto. Todo 
 - [Tienda Aurora](https://auroraoss.com/)
 
 
-Aurora Store te permite acceder al catálogo de Google Play Store de forma anónima, sin necesidad de una cuenta de Google. Es un cliente gratuito que interactúa directamente con los servidores de Google, a la vez que enmascara tu identidad mediante una cuenta genérica. Es una solución valiosa para seguir utilizando ciertas aplicaciones propietarias necesarias: Aplicaciones, evitando al mismo tiempo la telemetría de Google Play.
+Aurora Store te permite acceder al catálogo de Google Play Store de forma anónima, sin necesidad de una cuenta de Google. Es un cliente gratuito que interactúa directamente con los servidores de Google, a la vez que enmascara tu identidad mediante una cuenta genérica. Es una solución valiosa para seguir utilizando ciertas aplicaciones propietarias necesarias: aplicaciones, evitando al mismo tiempo la telemetría de Google Play.
 
 
 ### Noticias
@@ -7825,7 +7828,7 @@ Simple Gallery es una aplicación minimalista de código abierto que funciona co
 - [Aves](https://github.com/deckerst/aves)
 
 
-Aves es una alternativa con un Interface más moderno. Ofrece una navegación fluida por los álbumes y una organización avanzada (etiquetas, filtros, clasificación, etc.). No requiere conexión a Internet para funcionar y no recopila datos del usuario.
+Aves es una alternativa con una interfaz más moderna. Ofrece una navegación fluida por los álbumes y una organización avanzada (etiquetas, filtros, clasificación, etc.). No requiere conexión a Internet para funcionar y no recopila datos del usuario.
 
 
 ![Image](assets/fr/185.webp)
@@ -7887,7 +7890,7 @@ La aplicación Teléfono de Google, instalada por defecto en muchos smartphones 
 - [Koler](https://github.com/Chooloo/koler)
 
 
-Koler es una aplicación de telefonía de código abierto diseñada para ser bonita, fácil de usar y respetuosa con la privacidad. Ofrece un Interface fluido e intuitivo para gestionar tus llamadas, sin rastreadores ni análisis de datos personales. Sin embargo, actualmente no incluye filtrado avanzado de llamadas ni integración con servicios de terceros.
+Koler es una aplicación de telefonía de código abierto diseñada para ser bonita, fácil de usar y respetuosa con la privacidad. Ofrece una interfaz fluida e intuitiva para gestionar tus llamadas, sin rastreadores ni análisis de datos personales. Sin embargo, actualmente no incluye filtrado avanzado de llamadas ni integración con servicios de terceros.
 
 
 ![Image](assets/fr/188.webp)
@@ -7906,7 +7909,7 @@ Google Translate es la referencia en traducción automática, pero su uso implic
 - [TranslateYou](https://github.com/you-apps/TranslateYou)
 
 
-TranslateYou es una aplicación de traducción de código abierto que respeta la privacidad de sus usuarios. Funciona como un Interface para varios motores de traducción (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.), y te permite elegir un servicio que no explote tus datos.
+TranslateYou es una aplicación de traducción de código abierto que respeta la privacidad de sus usuarios. Funciona como una interfaz para varios motores de traducción (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.), y te permite elegir un servicio que no explote tus datos.
 
 
 Sin anuncios, sin rastreadores y con un Interface fácil de usar, TranslateYou es una alternativa práctica a Google Translate.
@@ -7967,7 +7970,7 @@ Warpinator, desarrollado por Linux Mint, facilita la transferencia de archivos e
 - [LocalSend](https://localsend.org/)
 
 
-LocalSend es otra alternativa gratuita y completa, con un bonito Interface. Totalmente de código abierto, esta aplicación permite transferencias de archivos descentralizadas y encriptadas de extremo a extremo entre dispositivos conectados a la misma red local. No utiliza servidores intermedios, lo que garantiza que tus datos nunca salgan de tu red doméstica.
+LocalSend es otra alternativa gratuita y completa, con una interfaz bonita. Totalmente de código abierto, esta aplicación permite transferencias de archivos descentralizadas y encriptadas de extremo a extremo entre dispositivos conectados a la misma red local. No utiliza servidores intermedios, lo que garantiza que tus datos nunca salgan de tu red doméstica.
 
 
 ![Image](assets/fr/190.webp)
@@ -7976,7 +7979,7 @@ LocalSend es otra alternativa gratuita y completa, con un bonito Interface. Tota
 ### Libros
 
 
-Aplicaciones como Goodreads, aunque muy utilizadas, plantean serios problemas de privacidad. Esta plataforma es propiedad de Amazon, que recopila gran cantidad de datos sobre sus lecturas, preferencias, valoraciones y reseñas. Además, Interface recurre en gran medida al rastreo de usuarios y al análisis del comportamiento con fines comerciales.
+Aplicaciones como Goodreads, aunque muy utilizadas, plantean serios problemas de privacidad. Esta plataforma es propiedad de Amazon, que recopila gran cantidad de datos sobre sus lecturas, preferencias, valoraciones y reseñas. Además, la interfaz recurre en gran medida al rastreo de usuarios y al análisis del comportamiento con fines comerciales.
 
 
 **Alternativas**:
@@ -7999,7 +8002,7 @@ Openreads es la alternativa de código abierto para un seguimiento de la lectura
 - [Chrono](https://github.com/vicolo-dev/chrono)
 
 
-Disponible en F-Droid y totalmente de código abierto, Chrono ofrece un Interface moderno y despejado, sin publicidad ni recopilación de datos. Permite crear alarmas personalizables: Repetición según días o rangos de fechas concretos, elección de sonido, intensidad progresiva, vibración, o incluso tareas a realizar para desactivar la alarma (Resolver un cálculo, releer un texto, etc.).
+Disponible en F-Droid y totalmente de código abierto, Chrono ofrece un Interface moderno y despejado, sin publicidad ni recopilación de datos. Permite crear alarmas personalizables: repetición según días o rangos de fechas concretos, elección de sonido, intensidad progresiva, vibración, o incluso tareas a realizar para desactivar la alarma (Resolver un cálculo, releer un texto, etc.).
 
 
 La aplicación también integra un temporizador y un cronómetro, con registro de vueltas, estadísticas, comparaciones de tiempo y gestión de varios temporizadores. Puedes configurar varias zonas horarias, personalizar el tema (colores, estilos, animaciones) e incluso organizar tus alarmas y temporizadores con etiquetas.
@@ -8051,7 +8054,7 @@ La historia de Internet se remonta a finales de los años 60, en un contexto de 
 ![Image](assets/fr/191.webp)
 
 
-El objetivo era también diseñar una red resistente, capaz de seguir funcionando aunque se destruyera parte de sus nodos (una necesidad en plena guerra Cold). ARPANET permitió las primeras comunicaciones entre ordenadores remotos en 1969.
+El objetivo era también diseñar una red resistente, capaz de seguir funcionando aunque se destruyera parte de sus nodos (una necesidad en plena guerra fría). ARPANET permitió las primeras comunicaciones entre ordenadores remotos en 1969.
 
 
 ![Image](assets/fr/192.webp)
@@ -8115,7 +8118,7 @@ El módem (abreviatura de "*modulador-demodulador*") es el componente que conect
 - El papel del **enrutador**
 
 
-El router es el corazón de tu red local. Distribuye la conexión a Internet a todos tus dispositivos: Ordenadores, smartphones, objetos conectados, impresoras, etc. Asigna a cada uno de ellos una IP local Address (distinta de su IP pública visible en Internet). A continuación, el router organiza el tráfico entrante y saliente, garantizando que los datos lleguen al dispositivo correcto. También puede integrar un cortafuegos, filtrar paquetes de red o gestionar reglas de reenvío de puertos. NAT oculta su red local a los ojos de Internet, utilizando una única IP pública Address para representar a todos sus dispositivos. Sólo el router sabe qué dispositivo local inició cada solicitud.
+El router es el corazón de tu red local. Distribuye la conexión a Internet a todos tus dispositivos: Ordenadores, smartphones, objetos conectados, impresoras, etc. Asigna a cada uno de ellos una IP local Address (distinta de su IP pública visible en Internet). A continuación, el router organiza el tráfico entrante y saliente, garantizando que los datos lleguen al dispositivo correcto. También puede integrar un cortafuegos, filtrar paquetes de red o gestionar reglas de reenvío de puertos. NAT oculta su red local a los ojos de Internet, utilizando una única dirección IP pública  para representar a todos sus dispositivos. Sólo el router sabe qué dispositivo local inició cada solicitud.
 
 
 En algunos países, estas dos funciones se reparten a veces entre dos aparatos distintos: Un módem y un router.
@@ -8133,7 +8136,7 @@ En el próximo capítulo, veremos cómo optimizar esta configuración, identific
 ### La red de área local (LAN)
 
 
-La red local, o "LAN" (*Local Area Network*), se refiere a todas las conexiones digitales dentro de tu casa. Incluye todos los dispositivos conectados al router: Ordenadores, smartphones, tabletas, impresoras, etc.
+La red local, o "LAN" (*Local Area Network*), se refiere a todas las conexiones digitales dentro de tu casa. Incluye todos los dispositivos conectados al router: ordenadores, smartphones, tabletas, impresoras, etc.
 
 
 A diferencia de Internet, que es una red global y pública, la red local es un espacio privado, parcialmente aislado, diseñado para permitir que los dispositivos se comuniquen entre sí, sin que sus intercambios salgan de su casa. Por ejemplo, cuando envías un archivo desde tu ordenador a una impresora conectada por Wi-Fi, o controlas una bombilla conectada a través del teléfono, estas comunicaciones tienen lugar exclusivamente a nivel local, sin pasar por un servidor remoto.
@@ -8142,7 +8145,7 @@ A diferencia de Internet, que es una red global y pública, la red local es un e
 ![Image](assets/fr/194.webp)
 
 
-Se basa en un conjunto de tecnologías y protocolos estándar, el más importante de los cuales es el protocolo IP. A cada dispositivo de la red local se le asigna una IP local Address (normalmente con el formato `192.168.x.x`), que sirve para identificarlo de forma única dentro de esa red. Esta Address no es visible desde Internet. Sólo tu IP Address pública, compartida por todos los dispositivos a través del módem, está expuesta fuera de tu casa.
+Se basa en un conjunto de tecnologías y protocolos estándar, el más importante de los cuales es el protocolo IP. A cada dispositivo de la red local se le asigna una diracción IP local (normalmente con el formato `192.168.x.x`), que sirve para identificarlo de forma única dentro de esa red. Esta dirección no es visible desde Internet. Sólo tu IP dirección pública, compartida por todos los dispositivos a través del módem, está expuesta fuera de tu casa.
 
 
 Pero este aparente aislamiento no debe darle una falsa sensación de seguridad. Una red local mal configurada puede convertirse en una puerta de entrada de ataques, sobre todo en los siguientes casos:
@@ -8176,7 +8179,7 @@ Un atacante con acceso a su red Wi-Fi podría entonces:
 - Interceptar datos no cifrados que pasan por la red (por ejemplo, solicitudes DNS o tráfico HTTP)
 - Acceder a sus archivos o dispositivos si están mal protegidos
 - Inyectar contenido malicioso en su navegador
-- Utilizar su conexión a Internet sin su conocimiento, o incluso llevar a cabo ataques en línea desde su IP pública Address
+- Utilizar su conexión a Internet sin su conocimiento, o incluso llevar a cabo ataques en línea desde su dirección IP pública
 
 
 Para protegerse de estas amenazas, debe proteger su red Wi-Fi. Veremos cómo hacerlo en los próximos capítulos.
@@ -8185,10 +8188,10 @@ Para protegerse de estas amenazas, debe proteger su red Wi-Fi. Veremos cómo hac
 ### Direcciones IP locales
 
 
-Cuando conectas un dispositivo a tu red doméstica, éste recibe una IP local Address. Esta Address está formada por cuatro números separados por puntos (por ejemplo, `192.168.1.14`). Se utiliza para identificar de forma única cada dispositivo dentro de tu red local. Gracias a este Address, tu router sabe a qué dispositivo debe enviar datos (por ejemplo, una página web o un vídeo que hayas solicitado).
+Cuando conectas un dispositivo a tu red doméstica, éste recibe una dirección IP local. Esta dirección está formada por cuatro números separados por puntos (por ejemplo, `192.168.1.14`). Se utiliza para identificar de forma única cada dispositivo dentro de tu red local. Gracias a esta dirección, tu router sabe a qué dispositivo debe enviar datos (por ejemplo, una página web o un vídeo que hayas solicitado).
 
 
-Es importante entender que estas direcciones IP locales no son visibles desde Internet. Pertenecen a rangos reservados, definidos por normas internacionales, que no pueden utilizarse en la red pública. Los tres rangos IP locales más comunes de Address son:
+Es importante entender que estas direcciones IP locales no son visibles desde Internet. Pertenecen a rangos reservados, definidos por normas internacionales, que no pueden utilizarse en la red pública. Los tres rangos IP locales más comunes de direcciones son:
 
 
 
@@ -8197,28 +8200,28 @@ Es importante entender que estas direcciones IP locales no son visibles desde In
 - de `172.16.0.0` a `172.31.255.255`
 
 
-Por tanto, un mismo dispositivo puede tener una IP Address como `192.168.1.42` en casa, mientras que otro usuario en otro país tendrá otro dispositivo con la misma IP Address en su propia red local, sin que nunca haya conflicto, porque estas direcciones no salen de la red doméstica. Es el router el que proporciona el enlace entre la red doméstica y la Internet pública, traduciendo estas direcciones mediante un mecanismo llamado "NAT" (*Network Address Translation*).
+Por tanto, un mismo dispositivo puede tener una dirección IP como `192.168.1.42` en casa, mientras que otro usuario en otro país tendrá otro dispositivo con la misma dirección IP en su propia red local, sin que nunca haya conflicto, porque estas direcciones no salen de la red doméstica. Es el router el que proporciona el enlace entre la red doméstica y la Internet pública, traduciendo estas direcciones mediante un mecanismo llamado "NAT" (*Network Address Translation*).
 
 
-Las direcciones IP locales suelen asignarse dinámicamente, mediante DHCP (*Protocolo de configuración dinámica de host*). Cuando se conecta un nuevo dispositivo a la red, éste envía una solicitud DHCP para una Address, y el router le asigna una Address libre disponible dentro del rango definido. Esta Address puede variar con el tiempo.
+Las direcciones IP locales suelen asignarse dinámicamente, mediante DHCP (*Protocolo de configuración dinámica de host*). Cuando se conecta un nuevo dispositivo a la red, éste envía una solicitud DHCP para una dirección, y el router le asigna una dirección libre disponible dentro del rango definido. Esta dirección puede variar con el tiempo.
 
 
-No obstante, es posible configurar direcciones IP fijas para determinados dispositivos. Esto significa reservar una Address específica para un dispositivo determinado, de forma permanente. Esto es útil en varios casos, por ejemplo:
+No obstante, es posible configurar direcciones IP fijas para determinados dispositivos. Esto significa reservar una dirección específica para un dispositivo determinado, de forma permanente. Esto es útil en varios casos, por ejemplo:
 
 
 
 - Para acceder fácilmente a un servidor personal o NAS desde otro dispositivo
-- Para imprimir a distancia en una impresora de red sin tener que buscar su Address
+- Para imprimir a distancia en una impresora de red sin tener que buscar su dirección
 - Para crear reglas de filtrado o reenvío de puertos en el router
 
 
 ### Puertos de red
 
 
-Para entender cómo funciona una red local, debes saber que cada IP Address (ya sea local o pública) está asociada a una serie de puertos numéricos, numerados del `0` al `65535`. Estos puertos no son físicos: son puntos de entrada o salida virtuales que permiten a las aplicaciones y servicios comunicarse a través de la red.
+Para entender cómo funciona una red local, debes saber que cada dirección IP (ya sea local o pública) está asociada a una serie de puertos numéricos, numerados del `0` al `65535`. Estos puertos no son físicos: son puntos de entrada o salida virtuales que permiten a las aplicaciones y servicios comunicarse a través de la red.
 
 
-Cada vez que un dispositivo se comunica a través de Internet o de una red local, lo hace combinando una IP Address y un número de puerto. Esto permite identificar no sólo a qué dispositivo enviar datos, sino también qué aplicación o servicio concreto de ese dispositivo. Por ejemplo:
+Cada vez que un dispositivo se comunica a través de Internet o de una red local, lo hace combinando una dirección IP y un número de puerto. Esto permite identificar no sólo a qué dispositivo enviar datos, sino también qué aplicación o servicio concreto de ese dispositivo. Por ejemplo:
 
 
 
@@ -8267,7 +8270,7 @@ Como descubrimos en el capítulo anterior, asegurar tu red doméstica es muy imp
 Tras repasar los fundamentos teóricos, este capítulo le guiará a través de pasos claros, prácticos y eficaces para mejorar la seguridad de su red local.
 
 
-*Nota: La información que aquí se ofrece es de carácter general, ya que Plan ₿ Network está dirigida a un público internacional. Dependiendo de sus circunstancias locales y de su proveedor de servicios de Internet, es posible que algunas de las mejores prácticas no se mencionen aquí, o que se apliquen de forma diferente.*
+*Nota: La información que aquí se ofrece es de carácter general, ya que Plan ₿ Academy está dirigida a un público internacional. Dependiendo de sus circunstancias locales y de su proveedor de servicios de Internet, es posible que algunas de las mejores prácticas no se mencionen aquí, o que se apliquen de forma diferente.*
 
 
 ### Elegir y proteger los equipos de red
@@ -8305,9 +8308,9 @@ Si su router ya no se mantiene pero aún funciona correctamente desde el punto d
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Estos sistemas permiten un control más preciso de las reglas del cortafuegos, las conexiones salientes y entrantes, la segmentación de la red (VLAN) y la gestión de DNS, pero están más dirigidos a usuarios avanzados.
 
@@ -8330,28 +8333,28 @@ Uno de los errores más comunes (y peligrosos) es mantener las credenciales por 
 Históricamente, las credenciales por defecto de los routers eran muy inseguras y a menudo idénticas para todos los usuarios, como las conocidas `admin/admin`. Estas credenciales básicas eran públicas, estaban documentadas en los manuales de usuario y ampliamente registradas en las bases de datos utilizadas por los atacantes. En este caso, cualquiera que detectara la presencia de tu router podría intentar un acceso no autorizado simplemente probando estas combinaciones conocidas.
 
 
-Hoy en día, la mayoría de los fabricantes asignan una contraseña única y robusta a cada router. Sin embargo, incluso en este caso, recomiendo cambiar las credenciales por defecto. Esto reduce los riesgos de la cadena Supply y evita que la contraseña original (a veces impresa en la etiqueta del router) comprometa su seguridad.
+Hoy en día, la mayoría de los fabricantes asignan una contraseña única y robusta a cada router. Sin embargo, incluso en este caso, recomiendo cambiar las credenciales por defecto. Esto reduce los riesgos de la cadena de suministro y evita que la contraseña original (a veces impresa en la etiqueta del router) comprometa su seguridad.
 
 
 Por lo tanto, es imperativo que cambie sus identificadores inmediatamente después de instalar el router:
 
 
 
-- El nombre de usuario (si está disponible) de la administración Interface
+- El nombre de usuario (si está disponible) de la interfaz de administración
 - Y, sobre todo, la contraseña de administración, que protege el acceso a toda la configuración de la red, así como la contraseña Wi-Fi
 
 
 Esta contraseña debe ser larga (40 caracteres), compleja (números, minúsculas, mayúsculas y símbolos), única (no reutilizable en otros sitios) y aleatoria. Evidentemente, recomiendo utilizar un gestor de contraseñas para generate y almacenar estas credenciales de forma segura.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Atención: no confunda la contraseña de administración del router (que protege el acceso a su configuración) con la contraseña Wi-Fi (que le permite conectarse a la red inalámbrica). Se trata de dos Elements diferentes, y ambas deben cambiarse.
 
 
-Por último, algunos routers modernos cuentan con dos interfaces de gestión: Una web Interface local (accesible a través de una Address como `192.168.1.1`) y una Interface en la nube (que permite la gestión remota a través de Internet). Si esta última está activada por defecto, te aconsejo que la desactives si no la utilizas, o que refuerces su seguridad con una contraseña segura y posiblemente autenticación de dos factores (2FA) si está disponible.
+Por último, algunos routers modernos cuentan con dos interfaces de gestión: Una web Interface local (accesible a través de una Address como `192.168.1.1`) y una interfaz en la nube (que permite la gestión remota a través de Internet). Si esta última está activada por defecto, te aconsejo que la desactives si no la utilizas, o que refuerces su seguridad con una contraseña segura y posiblemente autenticación de dos factores (2FA) si está disponible.
 
 
 ### Configuración segura del router
@@ -8384,7 +8387,7 @@ Originalmente diseñado para simplificar la conexión de dispositivos a Wi-Fi si
 Algunos routers permiten conectarse a su administración Interface desde el exterior, a través de Internet. Esta característica aumenta desmesuradamente la superficie de ataque de su router. Desactívela por completo, a menos que tenga una necesidad específica de gestión remota. Incluso entonces, utilice siempre una VPN.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
 - **Protocolos obsoletos o inseguros**:
@@ -8412,7 +8415,7 @@ La red Wi-Fi suele ser el punto de entrada preferido para las intrusiones en un 
 El primer paso importante es elegir el protocolo de cifrado adecuado. Activa siempre "*WPA3-Personal*", el estándar más reciente y seguro. No solo protege los datos intercambiados, sino que también evita ciertos ataques conocidos.
 
 
-El nombre de tu red Wi-Fi, llamado "SSID" (*Service Set Identifier*), debe ser neutro. Evite incluir su nombre, Address o la marca de su router. Un nombre como `MaisonDupont_WiFi6` ya da demasiada información a un posible atacante. Prefiera un nombre genérico, sin significado particular. Esto limita la información disponible para el seguimiento pasivo o la segmentación social.
+El nombre de tu red Wi-Fi, llamado "SSID" (*Service Set Identifier*), debe ser neutro. Evite incluir su nombre, dirección o la marca de su router. Un nombre como `MaisonDupont_WiFi6` ya da demasiada información a un posible atacante. Prefiera un nombre genérico, sin significado particular. Esto limita la información disponible para el seguimiento pasivo o la segmentación social.
 
 
 Otra buena práctica consiste en crear una red de invitados separada de la red principal. Esta red paralela, a menudo ofrecida de forma nativa en los routers modernos, le permite ofrecer a sus invitados una conexión a Internet sin que tengan acceso a sus otros dispositivos (ordenadores, impresoras, NAS, etc.). También significa que no tienes que proporcionarles la contraseña de tu red principal. Para ir aún más lejos, activa el aislamiento de clientes en esta red de invitados: Esto también evitará que los visitantes se comuniquen entre sí, reduciendo aún más los riesgos asociados a los dispositivos comprometidos.
@@ -8505,7 +8508,7 @@ En la práctica, el cifrado DNS y la conmutación de servidores pueden aplicarse
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - A nivel de sistema operativo: Algunos sistemas operativos integran de forma nativa soporte DNS cifrado (DoT o DoH), que asegura todas las peticiones DNS que pasan por la pila de red del sistema. Sin embargo, esto no asegura todo el ordenador o el teléfono: Las aplicaciones pueden eludir este ajuste si están configuradas para utilizar un resolver DNS o protocolo diferente.
 
 
@@ -8520,7 +8523,7 @@ Además, los módems router suministrados por los ISP no siempre admiten estas f
 Para ir un paso más allá, también puede configurar una solución de filtrado DNS local como Pi-hole o AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Estas herramientas actúan como un pequeño servidor DNS dentro de su red, bloqueando las peticiones a dominios conocidos por albergar publicidad, rastreadores de navegador, phishing o sitios maliciosos. Estas herramientas también te permiten crear tus propias listas de bloqueo o personalizar el filtrado en función de los dispositivos conectados.
 
@@ -8541,19 +8544,19 @@ Las dos soluciones principales para clientes privados son:
 - WireGuard: Moderno, rápido y ligero
 - OpenVPN: más antiguo, pero muy maduro y configurable
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Aquí tienes un tutorial completo sobre Tailscale, una solución VPN fácil de configurar que utiliza WireGuard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Puedes alojar esta VPN directamente en un router compatible, en un ordenador pequeño (como una Raspberry Pi) o en un servidor dedicado en casa. También puedes instalarla como cliente directamente en cualquier dispositivo.
 
 Pero una VPN no sólo sirve para acceder a distancia. También puedes utilizar un cliente VPN clásico en tus dispositivos para cifrar todo tu tráfico saliente, incluso cuando estés fuera de casa (Wi-Fi pública, hotel, universidad, etc.). En este caso, tu dispositivo se conecta a un servidor VPN de terceros (comercial o autoalojado), que retransmite tus conexiones a Internet. Esto oculta tu IP Address real al proveedor de Internet, protege tus datos del espionaje local y evita ciertas formas de censura.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Por último, también es posible configurar una VPN directamente en tu router, lo que te permitirá proteger todos los dispositivos de tu casa sin tener que instalar un cliente VPN en cada uno de ellos.
 
@@ -8563,17 +8566,17 @@ Una vez que la red se ha configurado y segmentado correctamente, es importante i
 
 El primer paso es centralizar los registros de seguridad. Cada dispositivo conectado a la red genera registros que contienen información sobre conexiones, errores o actividades sospechosas. En lugar de consultar estos registros individualmente, recomiendo enviarlos a un servidor capaz de agruparlos, ordenarlos y analizarlos. Soluciones como Graylog o Elastic Stack (ELK) permiten agregar estos registros en un Interface gráfico donde se pueden buscar eventos específicos, crear alertas o visualizar la actividad de la red.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 A continuación, realiza escaneos activos regulares de tu red local, por ejemplo con Nmap. Esto te dará una visión general de todos los dispositivos de tu red y de los puertos que tienen abiertos. Si identificas un dispositivo desconocido o un servicio inusual, podría ser señal de un ataque.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Para ir aún más lejos, puedes instalar un IDS (*Intrusion Detection System*), o incluso un IPS (*Intrusion Prevention System*). Estas herramientas, como Suricata o Snort, supervisan los flujos de red en tiempo real y detectan firmas de ataques conocidos (escaneos de puertos, inyecciones, conexiones sospechosas, etc.). El IDS avisa, mientras que el IPS puede bloquear automáticamente determinadas acciones.
 
 Por último, vigilar el consumo de ancho de banda también es un buen indicador de actividad anormal. Si un dispositivo consume de repente muchos datos sin motivo aparente, esto puede delatar una descarga no autorizada, una fuga de datos o incluso un dispositivo comprometido. Herramientas como ntopng o vnStat permiten ver los flujos entrantes y salientes por dispositivo.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Copia de seguridad y resistencia
 

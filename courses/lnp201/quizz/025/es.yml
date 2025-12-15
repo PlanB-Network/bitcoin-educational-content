@@ -6,4 +6,4 @@ wrong_answers:
   - Cierre directo, cierre indirecto, cierre con reclamación
 explanation: |
   Hay tres métodos: cierre cooperativo donde las partes están de acuerdo, cierre forzado sin respuesta de una de las partes, y cierre con engaño donde una parte intenta publicar una transacción antigua.
-reviewed: false
+reviewed: true

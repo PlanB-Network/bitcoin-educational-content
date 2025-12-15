@@ -1,0 +1,9 @@
+question: Vad är det främsta skälet till att ökande blockstorlekar leder till en högre sannolikhet för inaktuella block i Bitcoin mining?
+answer: Större block tar mer tid att sprida och validera över nätverket, vilket skapar längre fönster där gruvarbetare arbetar med föråldrade blockchain-tips
+wrong_answers:
+  - Större block kräver mer beräkningskraft för att bryta, vilket gör att gruvarbetare spenderar längre tid på att hitta giltiga proof-of-work-lösningar
+  - "Ökade blockstorlekar minskar svårighetsjusteringsmekanismens effektivitet, vilket leder till oförutsägbara blocktidsintervall"
+  - Större block skapar fler transaktionskonflikter mellan konkurrerande block, vilket gör det svårare att avgöra vilket block som ska accepteras
+explanation: |
+  Rätt svar identifierar kärnmekanismen bakom inaktuella block. När blocken är större kräver de mer bandbredd för att överföras mellan noderna och mer tid för att valideras. Under denna förlängda spridningsperiod kan flera miners hitta konkurrerande block på samma höjd eftersom de ännu inte har fått det senaste blocket. Detta skapar ett tävlingstillstånd där endast ett block kan accepteras i slutändan, vilket gör att de andra blir inaktuella. I de felaktiga svaren förväxlas detta spridningsproblem med mining-svårigheter, konsensusmekanismer eller transaktionskonflikter, som är separata problem från det timingproblem som orsakar inaktuella block.
+reviewed: false

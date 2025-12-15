@@ -36,7 +36,7 @@ Jade Plus ühildub enamiku portfellihaldustarkvaraga. Siin on kokkuvõte ühildu
 
 Selles õpetuses seadistame ja kasutame Jade Plus'i koos Blockstream'i mobiilirakendusega Green Wallet Bluetooth-ühenduse kaudu. See seadistus sobib ideaalselt algajatele. Kui otsite edasijõudnute lähenemist, soovitan vaadata seda õpetust, kus kasutame Jade Plus'i koos Sparrow Walletiga QR-koodide režiimis:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Jade Plus ohutusmudel
 
@@ -109,7 +109,7 @@ Võite kirjutada selle karbis olevale papile või täiendava turvalisuse tagamis
 
 Lisateavet selle kohta, kuidas oma mnemofraasi õigesti salvestada ja hallata, soovitan kindlasti jälgida seda teist õpetust, eriti kui olete algaja:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Es on selge, et te ei tohi neid sõnu kunagi internetis jagada, nagu ma seda käesolevas õpetuses teen. Seda näidisportfelli kasutatakse ainult Testnetis ja see kustutatakse õpetuse lõpus**
 
@@ -125,11 +125,11 @@ Kui olete oma lause salvestanud, palub Jade Plus teil seda kinnitada. Valige õi
 
 Selles õpetuses kasutame Jade Plus'is asuva rahakoti haldamiseks rakendust Green Wallet. See meetod sobib eriti hästi algajatele. Kui soovite oma Bitcoini rahakotti üksikasjalikumalt hallata, võite kasutada ka Sparrow Wallet'i, mida käsitleme eraldi õpetuses:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Blockstream Green'i rakenduse paigaldamise ja seadistamise juhiseid leiate selle teise õpetuse esimesest osast:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Kui olete Blockstream Green'i rakenduses, klõpsake nupule "*Uue portfelli konfigureerimine*".
 
@@ -207,7 +207,7 @@ Valige "*Standard*", kui soovite luua klassikalise ühe sümboliga portfelli.
 
 Lisateavet "*2FA*" valiku kohta saate sellest juhendmaterjalist:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Teie konto on loodud.
 
@@ -233,7 +233,7 @@ Teie Jade avatakse Blockstream'i "virtuaalse turvalise elemendi" kaudu (vt selle
 
 Enne esimeste bitcoinide saamist oma rahakotti, ** soovitan teil tungivalt teha tühja taastamistesti**. Pange kirja mõned võrdlusandmed, näiteks oma xpub või esimene vastuvõtuaadress, seejärel kustutage oma rahakott rohelises rakenduses ja Jade Plus'is, kui see on veel tühi (`Options -> Device -> Factory Reset`). Seejärel proovige taastada oma rahakott, kasutades oma paberkandjal varukoopiaid mnemofraasiga. Kontrollige, et pärast taastamist genereeritud küpsisteave vastaks sellele, mille te algselt kirja panite. Kui see vastab, võite olla kindel, et teie paberkandjal varukoopiad on usaldusväärsed. Lisateavet selle kohta, kuidas teha testtaastamine, leiate sellest teisest juhendmaterjalist :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Bitcoinide vastuvõtmine
 
@@ -299,6 +299,6 @@ Palju õnne, te teate nüüd, kuidas seadistada ja kasutada Jade Plus'i koos Blo
 
 Et minna sammu võrra kaugemale, soovitan seda Jade Plus'i õpetust, kus me seadistame selle koos Sparrow Wallet'i tarkvaraga QR-režiimis. Samuti saate teada, kuidas kasutada oma riistvaralise rahakoti täiustatud seadeid:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 

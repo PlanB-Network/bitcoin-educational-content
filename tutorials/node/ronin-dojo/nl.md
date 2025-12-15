@@ -14,7 +14,7 @@ deze handleiding is alleen bedoeld voor educatieve en informatieve doeleinden. W
 
 deze tutorial is gewijd aan de installatie van RoninDojo v1. Om te profiteren van de nieuwste verbeteringen en functies, raad ik je aan om onze tutorial te raadplegen over de directe installatie van RoninDojo v2 op je Raspberry Pi:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

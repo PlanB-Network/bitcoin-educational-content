@@ -132,7 +132,7 @@ Bitcoin addresses are hashes of public keys, not the raw keys themselves. To gen
 
 ### Understanding ECDSA: Bitcoin's Digital Signature Foundation
 
-Bitcoin relies on ECDSA, an elliptic curve–based signature scheme offering strong security with far smaller key sizes than RSA. Its security comes from the elliptic curve discrete logarithm problem: given P = eG, computing P is easy, but deriving E from P is computationally infeasible. This asymmetry enables public key cryptography while keeping private keys secure.
+Bitcoin relies on ECDSA, an elliptic curve–based signature scheme offering strong security with far smaller key sizes than RSA. Its security comes from the elliptic curve discrete logarithm problem: given P = eG, computing P is easy, but deriving e from P is computationally infeasible. This asymmetry enables public key cryptography while keeping private keys secure.
 
 #### DER Encoding of ECDSA Signatures
 

@@ -20,31 +20,27 @@ All you need is an email to get started. If you prefer, you can also enable Sing
 
 ## Home Page
 
-Okay, here we have the ZapRite homepage.
-
-Dashboard
+Okay, here we have the Zaprite homepage, the dashboard:
 
 ![This is a neat little dashboard that'll give you a great overview of everything that you have available.](assets/en/08.webp)
 
-Navigation Toolbar
+On the left side, we have a useful Navigation Toolbar, separated into two sections. Just to overview. 
 
-On the left side, we have a useful toolbar, separated into two sections. Just to overview. 
-
-Merchant Tools Overview
+#### Merchant Tools Overview
 
 Over here on the left, we have our merchant tools, where we can make payment links. We have POS for our point-of-sale system.Event tickets, invoices, recurring invoices, payment requests, and a checkout section, where you can customize how your checkout experience will be for your customers.
 
-Business Tools Overview
+#### Business Tools Overview
 
 Underneath that, we also have your business section. Here you can configure what your orders can be made up of, transactions, contacts, connections, and settings. And then after that, we have support that will link you to all sorts of quick tips and tricks for how to use the section.
 
-Header
+#### Header
 
 Back up at the top, we do have a useful ticker showing the current US dollar denominated price of Bitcoin, or whatever currency you select for your business.
 
 Next to that, we do have a quick button as well that allows us to quickly get to payment links, POS, events, invoice, recurring invoice, payment request, contacts, and transactions. And next to that, we also have our account, where we can edit our account or sign out.
 
-Income Summary
+#### Income Summary
 
 Beneath that, on this dashboard, we do have an income summary. This will show your Bitcoin received.
 As well as the current, the accounted value in your currency of choice.
@@ -56,41 +52,17 @@ Your Bitcoin payments will be listed, by whether they come in as Bitcoin on-chai
 
 ### Payment Links
 
-Going further down, we have our payment links. You can create a payment link there. That's just something simple you can shoot out to someone.
-
-Each payment link is composed of a title, a image, your brand logo, and your brand color. 
+Going further down, we have our payment links. You can create a payment link there. That's just something simple you can shoot out to someone. Each payment link is composed of a title, a image, your brand logo, and your brand color. 
 
 ![Payment Link Creation Form](assets/en/09.webp)
 
-You can give a description, for example, let's just say "dijital Technologies payment"
+You can give a description, for example, let's just say "dijital Technologies payment". I'll just say Pay to dijital Technologies. And beneath that, you can also configure your item. You can choose your currency, it defaults to your local currency, although you can choose Bitcoin; you can add taxes to that as well. 
 
-I'll just say Pay to dijital Technologies.
+For the price, the customer can choose what to pay, or you can display whatever the set price is. You can also take stock, how much is available. So let's say we have 10. And set a max order of 1. You can choose what details the customer has to enter, so you can get as much information as you would like. Let's just say a email is required.
 
-And beneath that, you can also configure your item.
+And let's say if you have a, item that you need to, ship off, you would check required fulfillment. This would load in, back to the system where you can mark that. So the system will say, if checked, orders will be marked as paid upon payment. You will then be able to mark orders as complete. So once you, actually ship off whatever they need to get.
 
-you can choose your currency, it defaults to your local currency, although you can choose Bitcoin
-
-You can add taxes to that as well. 
-
-For the price, the customer can choose what to pay, or you can display whatever the set price is.
-
-You can also take stock, how much is available. So let's say we have 10. And set a max order of 1.
-
-You can choose what details the customer has to enter, so you can get as much information as you would like.
-
-Let's just say a email is required.
-
-And let's say if you have a, item that you need to, ship off, you would check required fulfillment. This would load in, back to the system where you can mark that.
-
-So the system will say, if checked, orders will be marked as paid upon payment. You will then be able to mark orders as complete. So once you, actually ship off whatever they need to get.
-
-You can also add tags to your orders. So let's just add a demo tag, as well as a…
-
-Products… And you can then also notify team members when payments are received, we'll keep that checked.
-
-And then we can go with our default payment option, but just to take a look, you can configure a custom payment solution based on whatever,
-
-Based on whatever connections you have, set up.
+You can also add tags to your orders. So let's just add a demo tag, as well as products, and you can then also notify team members when payments are received, we'll keep that checked. And then we can go with our default payment option, but just to take a look, you can configure a custom payment solution based on whatever connections you have, set up.
 
 But I'll go with my default payment that I've already configured, and that does show this checkout preview. So it'll give the price here, since we selected BTC, that's what the, order shows up on the left, and then on the right, they do have all the available payment options.
 

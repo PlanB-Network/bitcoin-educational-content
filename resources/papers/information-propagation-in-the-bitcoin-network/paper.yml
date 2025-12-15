@@ -1,0 +1,15 @@
+title: "Information propagation in the Bitcoin network"
+original_language: en
+authors:
+  - Christian Decker
+  - Roger Wattenhofer
+abstract: |
+  Bitcoin is a digital currency that unlike traditional currencies does not rely on a centralized authority. Instead Bitcoin relies on a network of volunteers that collectively implement a replicated ledger and verify transactions. In this paper we analyze how Bitcoin uses a multi-hop broadcast to propagate transactions and blocks through the network to update the ledger replicas. We then use the gathered information to verify the conjecture that the propagation delay in the network is the primary cause for blockchain forks. Blockchain forks should be avoided as they are symptomatic for inconsistencies among the replicas in the network. We then show what can be achieved by pushing the current protocol to its limit with unilateral changes to the client's behavior.
+publication_date: 2013-09-09
+paper_type: conference
+source: IEEE P2P
+topics:
+  - Network Propagation Dynamics
+  - Distributed Consensus Mechanisms
+pdf_url: https://tik-old.ee.ethz.ch/file/49318d3f56c1d525aabf7fda78b23fc0/P2P2013_041.pdf
+id: 1533ea17-5225-4fef-94c1-c2372ed1828f

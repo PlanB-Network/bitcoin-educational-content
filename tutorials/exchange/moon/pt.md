@@ -1,5 +1,5 @@
 ---
-name: Lua
+name: Moon
 description: Pague em bitcoins onde quer que os cartões bancários Visa sejam aceites.
 ---
 

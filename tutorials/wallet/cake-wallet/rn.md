@@ -1,5 +1,5 @@
 ---
-name: Gato Wallet.
+name: Cake Wallet
 description: Inyigisho ku gato Wallet n'ukwishyura mu gacerere
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Торт Wallet
+name: Cake Wallet
 description: Учебник о торте Wallet и бесшумных выплатах
 ---
 

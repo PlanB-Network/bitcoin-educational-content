@@ -1,0 +1,20 @@
+title: "Corrigendum: Lightning network: a second path towards centralisation of the bitcoin economy (2020 New J. Phys.22 083022)"
+original_language: en
+authors:
+  - Jian-Hong Lin
+  - Kevin Primicerio
+  - Tiziano Squartini
+  - Christian Decker
+  - Claudio J Tessone
+abstract: |
+  The bitcoin lightning network (BLN), a so-called 'second layer' payment protocol, was launched in 2018 to scale up the number of transactions between bitcoin owners. In this paper, we analyse the structure of the BLN over a period of 18 months, ranging from 12th January 2018 to 17th July 2019, at the end of which the network has reached 8.216 users, 122.517 active channels and 2.732,5 transacted bitcoins. Here, we consider three representations of the BLN: the daily snapshot one, the weekly snapshot one and the daily-block snapshot one. By studying the topological properties of the binary and weighted versions of the three representations above, we find that the total volume of transacted bitcoins approximately grows as the square of the network size; however, despite the huge activity characterising the BLN, the bitcoins distribution is very unequal: the average Gini coefficient of the node strengths (computed across the entire history of the Bitcoin Lightning Network) is, in fact, ≃0.88 causing the 10% (50%) of the nodes to hold the 80% (99%) of the bitcoins at stake in the BLN (on average, across the entire period). This concentration brings up the question of which minimalist network model allows us to explain the network topological structure. Like for other economic systems, we hypothesise that local properties of nodes, like the degree, ultimately determine part of its characteristics. Therefore, we have tested the goodness of the undirected binary configuration model (UBCM) in reproducing the structural features of the BLN: the UBCM recovers the disassortative and the hierarchical character of the BLN but underestimates the centrality of nodes; this suggests that the BLN is becoming an increasingly centralised network, more and more compatible with a core-periphery structure. Further inspection of the resilience of the BLN shows that removing hubs leads to the collapse of the network into many components, an evidence suggesting that this network may be a target for the so-called split attacks.
+publication_date: 2021-07-22
+paper_type: academic
+source: New Journal of Physics
+type: SCIE
+category: PHYSICS, MULTIDISCIPLINARY
+topics:
+  - Payment Channel Networks
+  - Network Topology Analysis
+pdf_url: https://iopscience.iop.org/article/10.1088/1367-2630/ac122d/pdf
+id: d4add456-7cca-4217-8db3-35b00ba578ee

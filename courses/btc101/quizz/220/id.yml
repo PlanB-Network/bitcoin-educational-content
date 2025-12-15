@@ -1,9 +1,9 @@
-question: Apa yang bisa terjadi pada layanan transfer uang tradisional seperti Western Union, bank sentral, Visa, dan Mastercard jika mereka tidak mengadopsi teknologi Lightning Network?
-answer: Mereka bisa menghilang.
+question: Mekanisme apa yang menghubungkan sebuah sidechain ke Bitcoin?
+answer: Penjangkaran dua arah
 wrong_answers:
-  - Mereka bisa menjadi lebih populer.
-  - Mereka bisa menjadi lebih aman.
-  - Mereka bisa menjadi lebih terdesentralisasi.
-explanation: >-
-  Layanan transfer uang tradisional seperti Western Union, bank sentral, Visa, dan Mastercard bisa menghilang jika mereka tidak mengadopsi teknologi Lightning Network.
+  - Saluran pembayaran
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Mekanisme two-way peg memungkinkan BTC dikunci di Bitcoin dan direpresentasikan di sidechain.
 reviewed: false

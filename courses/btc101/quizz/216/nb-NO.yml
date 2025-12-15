@@ -1,10 +1,9 @@
-question: Hva er blockchain-trilemmaet?
-answer: Et protokoll basert på en blockchain kan bare tilfredsstille to av desentralisering, sikkerhet og skalerbarhet.
+question: Hvilken risiko løper en Lightning-node som publiserer en gammel kanaltilstand?
+answer: En straff
 wrong_answers:
-  - Et protokoll basert på en blockchain kan bare tilfredsstille en av desentralisering, sikkerhet og skalerbarhet.
-  - Et protokoll basert på en blockchain kan tilfredsstille alle av desentralisering, sikkerhet og skalerbarhet.
-  - Et protokoll basert på en blockchain kan ikke tilfredsstille noen av desentralisering, sikkerhet og skalerbarhet.
+  - En advarsel
+  - Ekstra gruvegebyrer
+  - En midlertidig frysing
 explanation: |
-  Blockchain-trilemmaet refererer til utfordringen med at et protokoll basert
-  på en blockchain bare kan tilfredsstille to av desentralisering, sikkerhet og skalerbarhet.
+  Protokollen fastsetter en avskrekkende straff som gjør det mulig for den andre parten å hente tilbake alle midlene.
 reviewed: false

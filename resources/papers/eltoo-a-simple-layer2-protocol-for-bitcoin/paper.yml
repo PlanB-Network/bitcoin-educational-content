@@ -1,0 +1,30 @@
+title: "eltoo: A Simple Layer2 Protocol for Bitcoin"
+original_language: en
+authors:
+  - Christian Decker
+  - Rusty Russell
+  - Olaoluwa Osuntokun
+abstract: |
+  Bitcoin, and other blockchain based systems, are inherently limited
+  in their scalability. On-chain payments must be verified and stored by
+  every node in the network, meaning that the node with the least re-
+  sources limits the overall throughput of the system as a whole. Layer
+  2, also called off-chain protocols, are often seen as the solution to these
+  scalability issues: by renegotiating a shared state among a limited set
+  of participants, and not broadcasting the vast majority of state up-
+  dates to the blockchain, the load on the network is reduced. Central
+  to all Layer 2 protocols is the issue of guaranteeing that an old state
+  may not be committed once it has been replaced. In this work we
+  present eltoo, a simple, yet powerful replacement mechanism for Layer
+  2 protocols. It introduces the idea of state numbers, an on-chain en-
+  forceable variant of sequence numbers that were already present in the
+  original implementation, but that were not enforceable.
+publication_date: 2018-04-30
+paper_type: whitepaper
+source: /
+topics:
+  - Layer-2 Solutions
+  - Payment Channel Networks
+  - Off-Chain Scalability
+pdf_url: https://blockstream.com/eltoo.pdf
+id: 8fe186e2-2810-41f8-a679-50b13422ca9d

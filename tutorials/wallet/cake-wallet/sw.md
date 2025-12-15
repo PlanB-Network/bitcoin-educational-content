@@ -1,5 +1,5 @@
 ---
-name: Keki Wallet
+name: Cake Wallet
 description: Mafunzo kuhusu Keki Wallet na Malipo ya Kimya
 ---
 

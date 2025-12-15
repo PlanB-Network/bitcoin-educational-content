@@ -1,5 +1,5 @@
 ---
-name: Ikibuga c'indege ca Ashigaru
+name: Ashigaru Terminal
 description: Koresha Ashigaru ku biro kugira ngo ukore amafaranga
 ---
 

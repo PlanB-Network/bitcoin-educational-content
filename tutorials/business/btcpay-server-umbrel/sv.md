@@ -1,5 +1,5 @@
 ---
-name: BTCPay-server - Umbrel
+name: BTCPay Server - Umbrel
 description: Installera och använda BTCPay Server på Umbrel för att acceptera Bitcoin och Lightning
 ---
 

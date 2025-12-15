@@ -1,0 +1,22 @@
+title: "Simple Schnorr multi-signatures with applications to Bitcoin"
+original_language: en
+authors:
+  - Gegory Maxwell
+  - Andrew Polestra
+  - Yannick Seurin
+  - Pieter Wuille
+abstract: |
+  We describe a new Schnorr-based multi-signature scheme (i.e., a protocol which allows a group of signers to produce a short, joint
+  signature on a common message) called MuSig, provably secure in the
+  plain public-key model (meaning that signers are only required to have
+  a public key, but do not have to prove knowledge of the private key
+  corresponding to their public key to some certification authority or to
+  other signers before engaging the protocol), which improves over the state-of-art scheme of Bellare and Neven (ACM-CCS 2006) and its variants by Bagherzandi et al. (ACM-CCS 2008) and Ma et al. (Des. Codes Cryptogr., 2010) in two respects: (i) it is simple and efficient, having the same key and signature size as standard Schnorr signatures; (ii) it allows key aggregation, which informally means that the joint signature can be verified exactly as a standard Schnorr signature with respect to a single “aggregated” public key which can be computed from the individual public keys of the signers. To the best of our knowledge, this is the first multi-signature scheme provably secure in the plain public-key model which allows key aggregation. As an application, we explain how our new multi-signature scheme could improve both performance and user privacy in Bitcoin.
+publication_date: 2018-05-20
+paper_type: pre-print
+source: iacr
+topics:
+  - Multi-Signature Schemes
+  - Digital Signature Schemes
+pdf_url: https://eprint.iacr.org/2018/068.pdf
+id: 3591c814-15d3-42f7-9ff6-ad5b32a726a1

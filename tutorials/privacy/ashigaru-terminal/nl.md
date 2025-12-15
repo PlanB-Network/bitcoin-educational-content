@@ -1,5 +1,5 @@
 ---
-name: Terminal Ashigaru
+name: Ashigaru Terminal
 description: Gebruik Ashigaru op het bureaublad om coinjoins te maken
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Ingver Wallet
+name: Ginger Wallet
 description: Avatud lähtekoodiga, isehaldatav Bitcoin wallet tarkvara, fork Wasabi Wallet-st, integreerides Coinjoins'i
 ---
 ![cover](assets/cover.webp)

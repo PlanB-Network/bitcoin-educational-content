@@ -1,5 +1,5 @@
 ---
-name: Mwezi
+name: Moon
 description: Lipa kwa bitcoins popote kadi za benki za Visa zinakubaliwa.
 ---
 

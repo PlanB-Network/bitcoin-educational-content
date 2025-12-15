@@ -1,5 +1,5 @@
 ---
-name: Gespenstisches Heimwerken
+name: Specter DIY
 description: Einrichtungsanleitung für Specter DIY
 ---
 

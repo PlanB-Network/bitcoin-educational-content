@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Podepsat
+name: COLDCARD - Co-Sign
 description: Objevte funkci Co-Sign a použijte ji na své kartě COLDCARD
 ---
 

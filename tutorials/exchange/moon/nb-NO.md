@@ -1,5 +1,5 @@
 ---
-name: Månen
+name: Moon
 description: Betal med bitcoins overalt der Visa-bankkort aksepteres.
 ---
 

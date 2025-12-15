@@ -1,5 +1,5 @@
 ---
-name: बीजपालक
+name: Seedkeeper
 description: मैं अपने wallet Bitcoin का बैकअप सीडकीपर स्मार्ट कार्ड के साथ कैसे ले सकता हूँ?
 ---
 

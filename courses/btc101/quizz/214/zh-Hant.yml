@@ -1,11 +1,9 @@
-question: 什麼是 Lightning Network？
-answer: 一個使用 Bitcoin 通訊協定的支付網路，可實現快如閃電的交易。
+question: 以下哪一項 Lightning 操作會被記錄在鏈上？
+answer: 通道開啟
 wrong_answers:
-  - 一種新型的加密貨幣。
-  - 未來將取代 Bitcoin 的全新 Blockchain 技術。
-  - Mining Bitcoin 的方法。
+  - 中間支付
+  - 狀態更新
+  - 多跳路由
 explanation: |
-  Lightning Network 是一個支付網路，使用
-  Bitcoin 協定來實現快速交易。它不是一種
-  獨立的加密貨幣，也不是 Mining Bitcoin 的方法。
-reviewed: true
+  只有 Lightning 通道的開啟與關閉才對應於發佈在區塊鏈上的比特幣交易。
+reviewed: false

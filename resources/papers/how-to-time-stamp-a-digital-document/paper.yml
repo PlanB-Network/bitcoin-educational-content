@@ -1,0 +1,15 @@
+title: "How to Time-Stamp a Digital Document"
+original_language: en
+authors:
+  - Stuart Haber
+  - W. Scott Stornetta
+abstract: |
+  The prospect of a world in which all text, audio, picture, and video documents are in digital form on easily modifiable media raises the issue of how to certify when a document was created or last changed. The problem is to time-stamp the data, not the medium. We propose computationally practical procedures for digital time-stamping of such documents so that it is infeasible for a user either to back-date or to forward-date his document, even with the collusion of a time-stamping service. Our procedures maintain complete privacy of the documents themselves, and require no record-keeping by the time-stamping service.
+publication_date: 1991-01-01
+paper_type: conference
+source: Eurocrypt
+topics:
+  - Timestamping Protocols
+  - Cryptographic Commitment Schemes
+pdf_url: https://link.springer.com/content/pdf/10.1007/3-540-38424-3_32.pdf
+id: ce855b49-b541-48cf-91af-f7faa34be2c6

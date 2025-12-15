@@ -1,5 +1,5 @@
 ---
-name: Spectre DIY
+name: Specter DIY
 description: Průvodce nastavením Spectre DIY
 ---
 

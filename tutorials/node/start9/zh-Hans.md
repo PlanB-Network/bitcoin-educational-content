@@ -1,5 +1,5 @@
 ---
-name: 开始9
+name: Start9
 
 description: 建立 Start9 私人服务器教程
 

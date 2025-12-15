@@ -1,5 +1,5 @@
 ---
-name: BIP-39 पासफ़्रेज़ सीडसाइनर
+name: BIP-39 Passphrase SeedSigner
 description: मैं अपने SeedSigner पोर्टफोलियो में passphrase कैसे जोड़ सकता हूँ?
 ---
 

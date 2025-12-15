@@ -1,0 +1,18 @@
+title: "Brick: Asynchronous Incentive-Compatible Payments Channels"
+original_language: en
+authors:
+  - Zeta Avarikioti
+  - Eleftherios Kokoris-Kogias
+  - Roger Wattenhofer
+  - Dionysis Zindros
+abstract: |
+  Off-chain protocols (channels) are a promising solution to the scalability and privacy challenges of blockchain payments. Current proposals, however, require synchrony assumptions to preserve the safety of a channel, leaking to an adversary the exact amount of time needed to control the network for a successful attack. In this paper, we introduce Brick, the first payment channel that remains secure under network asynchrony and concurrently provides correct incentives. The core idea is to incorporate the conflict resolution process within the channel by introducing a rational committee of external parties, called wardens. Hence, if a party wants to close a channel unilaterally, it can only get the committee’s approval for the last valid state. Additionally, Brick provides sub-second latency because it does not employ heavy-weight consensus. Instead, Brick uses consistent broadcast to announce updates and close the channel, a light-weight abstraction that is powerful enough to preserve safety and liveness to any rational parties. We formally define and prove for Brick the properties a payment channel construction should fulfill. We also design incentives for Brick such that honest and rational behavior aligns. Finally, we provide a reference implementation of the smart contracts in Solidity.
+publication_date: 2021-10-23
+paper_type: conference
+source: FC
+topics:
+  - Payment Channel Networks
+  - Smart Contract Security
+  - Off-Chain Scalability
+pdf_url: https://tik-db.ee.ethz.ch/file/42fb33a52a897ade7c8498181719b13e/Brick_FC2021__preproceedings_.pdf
+id: 77ab2279-9837-4eaf-a309-ae56c4518e60

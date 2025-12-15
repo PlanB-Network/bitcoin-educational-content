@@ -7,11 +7,11 @@ objectives:
  - Create testnet addresses and broadcast transactions over the network
  - Master the mathematical foundations underlying Bitcoin's security model
 ---
-# A Journey to Bitcoin's scripts and programs
+# A Journey into Bitcoin's Scripts and Programs
 
 This intensive two-day course, taught by Jimmy Song, takes you deep into Bitcoin's technical foundations by building a complete Bitcoin library from the ground up. Starting with the essential mathematics of finite fields and elliptic curves, you'll progress through transaction parsing, script execution, and network communication. Through hands-on coding exercises in Jupyter notebooks, you'll create your own testnet address, construct transactions manually, and broadcast them directly to the network—all while gaining a profound understanding of the cryptographic principles that make Bitcoin secure and trustless.
 
-Enjoy your discovery!
+Enjoy the journey!
 
 +++
 
@@ -33,15 +33,15 @@ This first section establishes the indispensable mathematical groundwork. You wi
 
 You will then formalize the components of ECDSA: key generation, point formatting, hashing, signature creation, and verification. This section directly connects theory to practice, emphasizing implementation details and the robustness of the underlying security model.
 
-### Bitcoin Transaction Innerworkings
+### Bitcoin Transaction Inner Workings
 
 In the second section, you will dissect the structure of a Bitcoin transaction: UTXOs, inputs/outputs, sequences, scripts, encodings, and more. You will write code to construct, sign, and verify transactions, gaining a precise understanding of what is committed by the hash and why.
 
 Next, you will implement a minimal _Script_ executor, review key opcodes, and validate spending paths. The objective is to make you capable of auditing transaction behavior, diagnosing validation failures, and reasoning about the safety of spending policies.
 
-### Bitcoin Network Innerworkings
+### Bitcoin Network Inner Workings
 
-In the third section, you will place the transaction within the broader system: block structure, headers, difficulty, and the Proof-of-Work mechanism. You will handle protocol messages, block headers, and Merkle trees.
+In the third section, you will place transactions within the broader system: block structure, headers, difficulty, and the Proof-of-Work mechanism. You will handle protocol messages, block headers, and Merkle trees.
 
 Finally, you will study peer-to-peer node communication, message optimization, and the introduction of SegWit.
 
@@ -122,7 +122,7 @@ A private key is a random scalar s; the public key is P = sG. Because solving th
 
 Bitcoin addresses are hashes of public keys, not the raw keys themselves. To generate an address, serialize the public key in SEC format, compute hash160 (SHA‑256 then RIPEMD‑160), prepend the network prefix (0x00 for mainnet, 0x6F for testnet), compute a checksum using double SHA‑256, append the first four checksum bytes, and encode the result using Base58. This encoding removes ambiguous characters and includes the checksum to prevent transcription errors. The multi‑step pipeline hides the public key until a spend occurs, adds network identification, and ensures human‑readable, error‑resistant addresses.
 
-# Bitcoin Transaction Innerworkings
+# Bitcoin Transaction Inner Workings
 <partId>5da35ad0-6180-11f0-bd66-13724db9fbbd</partId>
 
 ## Bitcoin Transaction Parsing and ECDSA Signatures
@@ -132,11 +132,11 @@ Bitcoin addresses are hashes of public keys, not the raw keys themselves. To gen
 
 ### Understanding ECDSA: Bitcoin's Digital Signature Foundation
 
-Bitcoin relies on ECDSA, an elliptic curve–based signature scheme offering strong security with far smaller key sizes than RSA. Its security comes from the elliptic curve discrete logarithm problem: given P = EG, computing P is easy, but deriving E from P is computationally infeasible. This asymmetry enables public key cryptography while keeping private keys secure.
+Bitcoin relies on ECDSA, an elliptic curve–based signature scheme offering strong security with far smaller key sizes than RSA. Its security comes from the elliptic curve discrete logarithm problem: given P = eG, computing P is easy, but deriving e from P is computationally infeasible. This asymmetry enables public key cryptography while keeping private keys secure.
 
 #### DER Encoding of ECDSA Signatures
 
-Bitcoin encodes ECDSA signatures using DER format:  
+Bitcoin encodes ECDSA signatures using the DER format:  
 - 0x30 (sequence marker)  
 - length byte  
 - 0x02 + length + R bytes  
@@ -164,7 +164,7 @@ A Bitcoin transaction consists of:
 - output list  
 - locktime (4 bytes)
 
-Inputs reference previous UTXOs using the transaction hash and output index, include the unlocking script (scriptSig), and a sequence number for timelocks or RBF. Outputs specify the amount (8 bytes) and the locking script (scriptPubKey), defining spending conditions. Bitcoin addresses are representations of these scripts.
+Inputs reference previous UTXOs by their transaction hash and output index, and include an unlocking script (scriptSig) and a sequence number used for timelocks or RBF. Outputs specify the amount (8 bytes) and the locking script (scriptPubKey), defining spending conditions. Bitcoin addresses are representations of these scripts.
 
 #### The UTXO Model
 Bitcoin tracks unspent outputs rather than account balances. UTXOs must be spent entirely—partial spending is impossible. To spend 1 BTC from a 100 BTC UTXO, a transaction must include a change output. Forgetting the change output turns the remainder into a miner fee.
@@ -182,7 +182,7 @@ Outputs include an 8‑byte amount and scriptPubKey (varstr). Locktime controls 
 ### Fees, Change, and Malleability
 
 Fees are implicit:  
-fee = sum(inputs) – sum(outputs).  
+fee = sum(input values) – sum(output values).  
 Any unassigned value becomes the fee, making correct change output construction essential. Before SegWit, signatures allowed malleability—modifying S to N-S produced a new valid transaction with a different ID. Bitcoin now enforces a low‑S rule, and SegWit isolates signatures from the txid calculation, making IDs stable and enabling second‑layer protocols like Lightning.
 
 ## Bitcoin Script and Transaction Validation
@@ -190,7 +190,7 @@ Any unassigned value becomes the fee, making correct change output construction 
 
 ![lecture](https://www.youtube.com/watch?v=g1wd-qwbHM8)
 
-Bitcoin Script is a small, stack-based smart contract language that defines how coins can be spent. Every output carries a ScriptPubKey (locking script) and every input carries a ScriptSig (unlocking script). Together they form a program that must evaluate to “true” for the spend to be valid. Script is intentionally not Turing-complete so that all execution paths are predictable and easy to validate across the network.
+Bitcoin Script is a small, stack-based smart contract language that defines how coins can be spent. Every output carries a scriptPubKey (locking script) and every input carries a scriptSig (unlocking script). Together they form a program that must evaluate to “true” for the spend to be valid. Script is intentionally not Turing-complete so that all execution paths are predictable and easy to validate across the network.
 
 ### Script Operations and Execution Model
 
@@ -198,19 +198,19 @@ A script is a sequence of data elements and opcodes. Data pushes (signatures, pu
 
 ### P2PK and P2PKH: Core Payment Patterns
 
-The earliest pattern, Pay-to-Public-Key (P2PK), locked coins directly to a full public key: the ScriptPubKey is `<pubkey> OP_CHECKSIG`, and the ScriptSig is just a signature. It is simple but space-inefficient and exposes the public key before the coins are spent.
+The earliest pattern, Pay-to-Public-Key (P2PK), locked coins directly to a full public key: the scriptPubKey is `<pubkey> OP_CHECKSIG`, and the scriptSig is just a signature. It is simple but space-inefficient and exposes the public key before the coins are spent.
 
 #### P2PKH and Addresses
-Pay-to-Public-Key-Hash (P2PKH) improves this by locking to a 20‑byte hash of the public key. The ScriptPubKey is `OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG`, and the ScriptSig provides `<signature> <pubkey>`. Execution checks that the provided public key hashes to the committed value and then verifies the signature. This hides the public key until spend time, reduces size, and matches the familiar “1…” mainnet address format.
+Pay-to-Public-Key-Hash (P2PKH) improves this by locking to a 20‑byte hash of the public key. The scriptPubKey is `OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG`, and the scriptSig provides `<signature> <pubkey>`. Execution checks that the provided public key hashes to the committed value and then verifies the signature. This hides the public key until spend time, reduces size, and matches the familiar “1…” mainnet address format.
 
 ### Transaction Validation and Signature Hashing
 
 A node validating a transaction must ensure:  
 1) Each input references an existing, unspent output.  
-2) Total inputs ≥ total outputs (the difference is the fee).  
-3) Each ScriptSig correctly unlocks its referenced ScriptPubKey.
+2) Total input value ≥ total output value (the difference is the fee).  
+3) Each scriptSig correctly unlocks its referenced scriptPubKey.
 
-Signature verification requires constructing the exact message that was signed, called the sighash. For legacy ECDSA, validation empties all ScriptSigs, replaces the current input’s ScriptSig with the corresponding ScriptPubKey, appends a 4‑byte hash type (usually `SIGHASH_ALL`), and double‑hashes the result. That 256‑bit value is what `OP_CHECKSIG` uses. Alternative hash types (e.g., `SINGLE`, `NONE`, with or without `ANYONECANPAY`) change which parts of the transaction are committed to, enabling niche use cases like collaborative funding or partially specified transactions, but they are rarely used in practice.
+Signature verification requires constructing the exact message that was signed, called the sighash. For legacy ECDSA, validation empties all scriptSigs, replaces the current input’s scriptSig with the corresponding scriptPubKey, appends a 4‑byte hash type (usually `SIGHASH_ALL`), and double‑hashes the result. That 256‑bit value is what `OP_CHECKSIG` uses. Alternative hash types (e.g., `SINGLE`, `NONE`, with or without `ANYONECANPAY`) change which parts of the transaction are committed to, enabling niche use cases like collaborative funding or partially specified transactions, but they are rarely used in practice.
 
 #### Quadratic Hashing and SegWit
 Because each input in a legacy transaction requires its own sighash computation over a structure that includes all inputs, validation time can grow quadratically with the number of inputs. Large multi‑input transactions once caused noticeable validation delays. SegWit redesigned sighash calculation to cache shared parts and reduce complexity to linear time, improving scalability and making denial‑of‑service attacks harder.
@@ -256,7 +256,7 @@ Losing a redeem script means losing funds: spending requires both the private ke
 
 P2SH improves privacy by hiding spending conditions until the first spend, but once the redeem script appears on-chain, it becomes permanently visible. Despite this, the benefits of reduced size, backward compatibility, and flexible contract support made P2SH a major milestone, influencing later upgrades such as SegWit and Taproot.
 
-# Bitcoin Network Innerworkings
+# Bitcoin Network Inner Workings
 <partId>c058ed10-33b0-58e3-8b81-08e1ebede253</partId>
 
 ## Bitcoin Blocks and Proof of Work
@@ -280,14 +280,14 @@ The 80‑byte header contains:
 - bits (difficulty target, 4 bytes)  
 - nonce (4 bytes)
 
-Version numbers evolved into a bit‑field signaling system via BIP9, allowing miners to coordinate soft-fork readiness. The timestamp is a 32‑bit Unix time value and will need updating around the year 2104.
+Version numbers evolved into a bit‑field signaling system via BIP9, allowing miners to coordinate soft-fork readiness. The timestamp is a 32‑bit Unix time value and will need updating around the year 2106.
 
 #### Bits Field and Targets  
 The bits field encodes the target in compact form: target = coefficient × 256^(exponent−3). Valid block hashes must be numerically below this target. Because hashes are interpreted as little-endian integers, valid hashes often appear with many trailing zeros when displayed in hex.
 
 ### Difficulty, Validation, and Adjustments
 
-Difficulty is defined as lowest_target / current_target and expresses how many times harder mining is today compared to the easiest possible difficulty. Validation requires only comparing the hash of the header to the target—extremely cheap relative to mining.
+Difficulty is defined as lowest_target / current_target, expressing how much harder mining is today compared to the easiest possible difficulty. Validation requires only comparing the hash of the header to the target—extremely cheap relative to mining.
 
 Every 2016 blocks, Bitcoin adjusts difficulty to target ~10‑minute block intervals. The adjustment compares the actual time for the previous 2016 blocks with the expected two weeks. Limits constrain adjustments to within a factor of four. Major real‑world events—such as China’s mining ban—demonstrated this mechanism’s resilience when hash rate dropped sharply and difficulty adjusted downward to compensate.
 
@@ -317,7 +317,7 @@ Bitcoin stores a single 32‑byte Merkle root in each block header as a commitme
 #### Merkle Proofs and SPV  
 Merkle proofs allow verifying that a transaction is included in a block without downloading the entire block. The proof consists of sibling hashes along the path to the root. Lightweight SPV clients store only block headers and request these proofs from full nodes. Because a Merkle tree grows logarithmically, proving inclusion in a block with thousands of transactions requires only a few hundred bytes.
 
-Taproot expands this concept by committing spending conditions in a Merkle‑ized script tree (MAST), revealing only the executed branch plus a Merkle proof. This improves both efficiency and privacy.
+Taproot extends this concept by committing spending conditions to a Merklized script tree (MAST), revealing only the executed branch along with a Merkle proof. This improves both efficiency and privacy.
 
 ### Network Operations and Block Synchronization
 

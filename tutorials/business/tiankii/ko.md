@@ -1,5 +1,5 @@
 ---
-name: 티안키
+name: Tiankii
 description: 리테일러와 소비자를 위한 라이트닝 도구 모음
 ---
 

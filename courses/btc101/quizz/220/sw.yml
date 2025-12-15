@@ -1,11 +1,9 @@
-question: Je, nini kinaweza kutokea kwa huduma za jadi za kuhamisha pesa kama Western Union, benki kuu, Visa, na Mastercard ikiwa hazitatumia Lightning Network?
-answer: Wangeweza kutoweka.
+question: Ni utaratibu gani unaounganisha sidechain na Bitcoin?
+answer: Nanga ya pande mbili
 wrong_answers:
-  - Wanaweza kuwa maarufu zaidi.
-  - Wanaweza kuwa salama zaidi.
-  - Wanaweza kuwa madarakani zaidi.
+  - Njia ya malipo
+  - Proof of Stake
+  - Sharding
 explanation: |
-  Huduma za jadi za kuhamisha pesa kama vile Western Union,
-  benki kuu, Visa, na Mastercard inaweza kutoweka kama wao
-  usitumie teknolojia ya Lightning Network.
-reviewed: true
+  Utaratibu wa two-way peg huruhusu kufunga BTC kwenye Bitcoin na kuziwakilisha kwenye sidechain.
+reviewed: false

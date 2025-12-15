@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Salasana SeedSigner Allekirjoittaja
+name: BIP-39 Passphrase SeedSigner
 description: Miten lisään passphrase:n SeedSigner-salkkuuni?
 ---
 

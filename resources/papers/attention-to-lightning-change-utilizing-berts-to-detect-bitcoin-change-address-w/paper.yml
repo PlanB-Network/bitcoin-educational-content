@@ -1,0 +1,19 @@
+title: "Attention to Lightning Change: Utilizing BERTs to Detect Bitcoin Change Address with Lightning Network Information"
+original_language: en
+authors:
+  - Mikaeil Mayeli Feridani
+  - Rodrigue Tonga Naha
+  - Oumayma Dekhil
+  - Fatma Najjar
+  - Kaiwen Zhang
+abstract: |
+  As the popularity of Bitcoin has increased over the years, the limited capacity of its blocks has led to competitive transaction fee bidding among users. This structural limitation undermines Bitcoin’s suitability for microtransactions due to increasing transaction fees. In response, Poon and Dryja introduced the Lightning Network (LN), a second-layer solution that provides almost instant transactions with minimal fees. Over the past few years, LN has attracted more and more users, currently securing over $336 million in Bitcoin within its channels to date. However, the expansion of the Lightning Network brings potential challenges. Among them is the risk to compromise user anonymity by creating public LN channels. While existing studies primarily explore privacy within the LN or Bitcoin network independently, cross-layer privacy remains underexplored. In this paper, we present concrete evidence to showcase the potential effect of using the Lightning Network on the anonymity of Bitcoin users. Our proposed solution demonstrates how data collected from the Layer 2 Lightning Network can be used to detect change addresses residing in the Layer 1 Bitcoin network. First, we analyze the distribution of transaction inputs and outputs and compare transactions in a range of Bitcoin blocks, with those linked to LN channel creation. We then implement a machine learning model utilizing an encoder-only transformer to identify change outputs in Bitcoin transactions. Lastly, we compared the results to show the potential of cross-chain data. Our model successfully achieved its goal by flagging the correct change output with 94% accuracy with the cross-chain data, compared to 87% baseline which is a significant improvement. Our result provides valuable insights into the impact of the Lightning Network on Bitcoin user privacy and sets the groundwork for further investigation into cross-layer deanonymization.
+publication_date: 2024-10-09
+paper_type: conference
+source: BRAINS
+type: SCI
+topics:
+  - Privacy-Preserving Protocols
+  - Payment Channel Networks
+pdf_url: https://ieeexplore.ieee.org/abstract/document/10732429
+id: 1cd76838-9e08-4a0e-a355-a2357dba5997

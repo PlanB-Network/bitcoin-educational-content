@@ -1,5 +1,5 @@
 ---
-name: Ukwezi
+name: Moon
 description: Ishura mu bitcoins aho hose amakarita ya Visa yemerwa.
 ---
 

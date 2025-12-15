@@ -1,5 +1,5 @@
 ---
-name: Torte Wallet
+name: Cake Wallet
 description: Tutorial über Cake Wallet und Stille Zahlungen
 ---
 

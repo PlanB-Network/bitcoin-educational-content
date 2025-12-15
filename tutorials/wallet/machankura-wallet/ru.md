@@ -1,5 +1,5 @@
 ---
-name: Мачанкура
+name: Machankura
 description: Используйте Bitcoin на любом телефоне, без интернета.
 ---
 

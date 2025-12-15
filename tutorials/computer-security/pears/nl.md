@@ -1,5 +1,5 @@
 ---
-name: Peren
+name: Pears
 description: Hoe installeer en gebruik ik applicaties op Pears?
 ---
 

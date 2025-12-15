@@ -1,5 +1,5 @@
 ---
-name: Gemuruh Wallet
+name: Rumble Wallet
 description: Bergabunglah dengan para kreator yang membela kebebasan berpendapat melalui kebebasan finansial.
 ---
 

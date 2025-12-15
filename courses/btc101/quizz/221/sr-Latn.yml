@@ -1,8 +1,9 @@
-question: Naknade za transakcije na Lightning mreži su izuzetno niske, često manje od...?
-answer: 0,5%.
+question: Koju prednost Ark nudi u odnosu na Lightning za prijem plaćanja?
+answer: Nema potrebe za dolaznom likvidnošću
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-reviewed: true
+  - Trenutna konačnost plaćanja
+  - Nema transakcionih naknada
+  - Nije potrebno imati novčanik
+explanation: |
+  Ark omogućava prijem plaćanja bez prethodnog posedovanja dolazne likvidnosti.
+reviewed: false

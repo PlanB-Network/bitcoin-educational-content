@@ -1,5 +1,5 @@
 ---
-name: 蛋糕 Wallet
+name: Cake Wallet
 description: 关于蛋糕 Wallet 和静默支付的教程
 ---
 

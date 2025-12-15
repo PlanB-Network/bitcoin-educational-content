@@ -1,0 +1,16 @@
+title: "Bitcoin meets strong consistency"
+original_language: en
+authors:
+  - Christian Decker
+  - Jochen Seidel
+  - Roger Wattenhofer
+abstract: |
+  The Bitcoin system only provides eventual consistency. For everyday life, the time to confirm a Bitcoin transaction is prohibitively slow. In this paper we propose a new system, built on the Bitcoin blockchain, which enables strong consistency. Our system, PeerCensus, acts as a certification authority, manages peer identities in a peer-to-peer network, and ultimately enhances Bitcoin and similar systems with strong consistency. Our extensive analysis shows that PeerCensus is in a secure state with high probability. We also show how Discoin, a Bitcoin variant that decouples block creation and transaction confirmation, can be built on top of PeerCensus, enabling real-time payments. Unlike Bitcoin, once transactions in Discoin are committed, they stay committed.
+publication_date: 2016-01-04
+paper_type: conference
+source: ICDCN
+topics:
+  - Distributed Consensus Mechanisms
+  - Byzantine Fault Tolerance
+pdf_url: https://arxiv.org/pdf/1412.7935
+id: 72348863-78b6-4878-b381-3ffaa1bca3b5

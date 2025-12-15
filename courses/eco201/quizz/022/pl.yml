@@ -7,7 +7,6 @@ wrong_answers:
 explanation: |
   Dylemat więźnia to koncepcja w teorii gier, w której
   jednostki mają motywację do wyboru strategii, które
-  maksymalizują swój indywidualny zysk, niezależnie od
-  strategie wybrane przez innych, nawet jeśli możliwy jest bardziej pożądany
-  równowaga poprzez koordynację/współpracę jest możliwa.
+  maksymalizują ich indywidualny zysk, niezależnie od
+  strategi wybranych przez innych nawet, jeśli poprzez koordynację/współpracę możliwy jest bardziej korzystny wynik.
 reviewed: true

@@ -181,7 +181,6 @@ Cela **lisse les revenus** et **réduit la variance**, ce qui est vital pour les
 
 Sans cette association entre mineurs qui partagent la récompense lorsque l'un d'entre eux trouve un bloc, un mineur isolé pourrait miner des années sans rien trouver. En rejoignant une pool, les paiements sont réguliers , et prévisibles. La pool demande à chaque mineur du groupe de soumettre des preuvent de travail partielles appelées "shares" , puis attribut
 
-
 Cela **réduit la variance** : au lieu de tout miser sur une "loterie" où les chances de miner un bloc seul sont infimes , on obtient  des fractions de BTC régulièrement, quotidiennement ou hebdomadairement, en fonction de son hashrate. 
 
 ## 2.2 Pourquoi faire du solo mining
@@ -208,7 +207,7 @@ Quoi qu'il en soit cette fois-ci quand un mineur trouve un bloc, ce dernier gard
 
 ![Image](assets/fr/007.webp)
 
-**La seconde** consite pour chaque solominer à auto héberer sur un serveur qui lui appartient le noeud bitcoin et le logiciel de minage qui lui permet de sélectionner lui même les transactions qu'il veut inclure dans sont bloc, et de construire soit-même le block template. C'est la manière la plus souveraine de faire du solomining et aujourd'hui les miniserveurs personnels comme Umbrel ou Start9 bien connus des bitoiners, permettent de facilement choisir cette option si on le désire.
+**La seconde** consiste pour chaque solominer à auto héberer sur un serveur qui lui appartient le noeud bitcoin et le logiciel de minage qui lui permet de sélectionner lui même les transactions qu'il veut inclure dans sont bloc, et de construire soit-même le block template. C'est la manière la plus souveraine de faire du solomining et aujourd'hui les miniserveurs personnels comme Umbrel ou Start9 bien connus des bitoiners, permettent de facilement choisir cette option si on le désire.
 
 ![Image](assets/fr/008.webp)
 
@@ -373,14 +372,21 @@ https://bitcoinbazar.fr/en/products/avalon-q
 
 ## 2.4 Panorama des solutions software
 
-Lorsqu'il s'agit de matériel de minage, le logiciel installé sur l'appareil  est appelé "firmware". Ce logiciel se compose en synthèsepour ce qui de l'OS (Operating System) de l'appareil, du logiciel de minage, et de l'interface web / application mobile, qui vous permettra d'interagir facilement avec votre miner depuis un navigateur d'ordinateur classique, ou votre smartphone.
+Lorsqu'il s'agit de matériel de minage, le logiciel installé sur l'appareil  est appelé "firmware". Ce logiciel se compose en synthèse de l'OS (Operating System) de l'appareil, du logiciel de minage, et de l'interface web / application mobile, qui vous permettra d'interagir facilement avec votre miner depuis un navigateur d'ordinateur classique, ou votre smartphone.
 
-Nous présenterons ici un aperçu non exhaustif des différents logiciels qui seotn installés sur les machines de minage des différents contructeurs, en s'attardant sur davantage sur les machines qui font l'objets de cette formation, c'est à dire celles que nous instrallerons à la maison.
-### AxeOS & Esp-Miner
+Nous présenterons ici un aperçu non exhaustif de certains de ces logiciels en s'attardant davantage sur les machines qui font l'objet de cette formation, c'est à dire celles que nous instrallerons à la maison.
 
+Aujourd'hui les machines de minage sont livrées avec un firmware préinstallé par le fabricant, vous épargnant de devoir choisir quoi installer que ce soit pour les machines traditionnelles de Bitmain, MicroBT, et Canaan mais également dans notre cas de machine de Home Mining à l'attention de particuliers.
 
+Sachez cependant qu'il est  possible dans certains cas de remplacer le firmware du  constructeur par un autre si on le souhaite, pour bénéficier des certaines fonctionnalitées par exemple.
+
+C'est le cas de Braiins OS qui peut se subtituer au firmware de base des appareils Antminer de Bitmain par exemple. On présentera rapidement l'OS dans le paragraphe suivant puisque que c'est l'OS qui équipe notre appareil Braiins BMM101 présenté plus haut, et qu'elle présente des caractéristiques et fonctionnalitées interessantes.
 
 ### Braiins OS
+
+
+### AxeOS & Esp-Miner
+
 
 ### Avalon Family App
 
@@ -390,10 +396,57 @@ Nous présenterons ici un aperçu non exhaustif des différents logiciels qui se
 
 # Installer et configurer son premier mineur personnel
 
-## 3.1 Bitaxe le projet 100% Open Source
-## 3.2 Panorama des différentes Pool de mining
-## 3.3 Installation d'un Bitaxe et connexion à une "solopool"
-## 3.4 Découverte d'AxeOS
+## 3.1 Mise en perspective et ordres de grandeurs
+
+Dans ce paragraphe  nous entrons dans la pratique. Nous verrons comment paramétrer un Bitaxe Gamma 601 et le connecter à une pool de mining.
+
+Pour ceux qui auraient opté pour des appareils de la gamme Avalon de Canaan, vous trouverez des tutoriels disponibles ci-dessous:
+
+https://planb.academy/fr/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+
+https://planb.academy/fr/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+
+https://planb.academy/fr/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+
+Pour rappel un Bitaxe Gamma fournit un hashrate d'environ 1,2 Th/s. C'est à la fois énorme et minuscule. Enorme car une seule de ces petites machines est désormais plus puissante et immensément plus efficiente que les machines les plus performates d'il y 10 ans. Minuscule car en branchant un Bitaxe, vous ne représentez qu'un milliardième du hashrate mondial atuel (évalué à environ 1 Zetahash par seconde au moment où ces lignes sont écrites).
+
+Cela étant dit il va nous falloir décider comment allouer notre hasrate de la manière la plus "smart" possible. En simple est-il plus malin de miner en pool, ou de solominer avec un Bitaxe ?
+
+**Bitaxe en pool**: avec 1,2 Th/s un Bitaxe vous permettrait au moment où sont écrites ces lignes de générer 4 centimes de dollars par jours de bitcoin, sans compter la dépense énergétique qui dépendra de chacun et qui pour la majorité d'entre nous sera supérieure à la récompense. En dehors du fait d'obtenir quelques sats non KYC, l'intérêt est très limité. C'est pour quoi les Bitaxes sont utilisés dans leur écrasante majorité comme des tickets de lotterie.
+
+![Image](assets/fr/027.webp)
+
+**Bitaxe en solomining:
+
+Mais alors s'il s'agit de jouer à la lotterie Bitcoin, quelles sont nos chances de tirer le gros et de gagner les 3,125 bitcoins + frais de la récompense de block allouée à chaque mineur chanceux ?
+
+Comme on vient de le voir un peu plus haut un Bitaxe seul, c'est 1 / 1000 000 000 de la puissance de calcul globale déployée sur terre. Est-ce à dire que notre chance de trouver un block est de 1 sur 1 milliard ? Ce serait le cas si on essayait une seule fois de miner un block, c'est à dire qu'on allumerait notre appareil pendant les 10 prochaines minutes en croisant les doigts, jusqu'au prochian bloc miné. Là effectivement nos chances seraient de 1 sur 1 milliard.
+
+Mais la beauté de Bitcoin, c'est qu'un nouveau bloc est miné toutes les 10 minutes environ, ce qui nous permet de jouer à la lotterie Bitcoin environ 144 fois par jour. Et ça ça change beaucoup de choses en terme de statistiques, car ça n'étonnera personne: plus on jour, plus on a de chance de gagner.
+
+Alors quelles sont nos chances exactement ? Des sites existent ([solochance.com](https://solochance.com/) ou [sololuck.com](https://www.sololuck.com/)) nous permettant de calculer cela (même si le calcul n'est aps très compliqué en soit), qui varient légèrement en fonction de leur appréciation du hashrate global et autres paramètres.
+
+![Image](assets/fr/028.webp)
+
+![Image](assets/fr/029.webp)
+
+
+Cela permet quand même de se rendre compte des ordres de grandeurs dont nous parlons.
+
+| Bitaxe Gamma (1.2 Th/s) 15th of December 2025 | Duration of mining activity | Number of tries | Chance of hitting a block |
+| --------------------------------------------- | --------------------------- | --------------- | ------------------------- |
+|                                               | 1 block                     | 1               | 1/1000 000 000            |
+|                                               | 1 day                       | 144             | 1 / 6000 000              |
+|                                               | 1 year                      | 53560           | 1/ 18 000                 |
+
+Ainsi pour résumer, laisser son Bitaxe Gamma touner toute l'année, revient à effectuer  une fois par an, un tirage au sort avec 1 chance sur 18000 de gagner le jackpot.
+
+## 3.2 Installation d'un Bitaxe et connexion à une "solopool"
+
+Entrons dans le dur du sujet désormais et installons notre 1er Bitaxe
+## 3.3 Panorama des différentes Pool de mining
+## 3.4 Installation d'un Bitaxe et connexion à une "solopool"
+## 3.5 Découverte d'AxeOS
 
 
 # Miner via sa propre pool de mining 

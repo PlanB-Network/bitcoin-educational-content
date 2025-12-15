@@ -315,6 +315,12 @@ Sur la droite, vous verrez plusieurs informations importantes concernant votre n
 
 021
 
+Nous allons commencer par personnaliser notre nœud. Cliquez sur les trois petits points en haut à droite de l’interface, puis sur `Advanced Settings`. Dans le sous-menu `Personalization`, vous pouvez définir un nom public pour votre nœud (évitez d’utiliser votre véritable nom) et choisir sa couleur.
+
+046
+
+Cliquez ensuite sur le bouton vert `SAVE AND RESTART` afin de redémarrer votre nœud et appliquer ces modifications.
+
 Votre nœud Lightning est désormais prêt à ouvrir ses premiers canaux pour effectuer des paiements. Mais avant cela, voyons comment protéger vos sats !
 
 ## Sauvegarder son nœud Lightning
@@ -701,14 +707,75 @@ https://planb.academy/tutorials/node/lightning-network/ride-the-lightning-ca0076
 
 https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
+### Installer ThunderHub
 
+Ces logiciels peuvent tous être installés très facilement depuis l’App Store d’Umbrel. Comme je vous l’indiquais, nous allons utiliser ThunderHub ici, mais si vous souhaitez en tester un autre par la suite, la procédure sera similaire.
 
+041
 
+Umbrel vous fournit un mot de passe par défaut pour accéder à ThunderHub. Copiez-le : vous en aurez besoin juste après. Pensez également à l’enregistrer dans votre gestionnaire de mots de passe, car il vous sera demandé à chaque ouverture du logiciel.
 
+042
 
-### Fermer un canal
+Cliquez sur `Login`, puis collez le mot de passe fourni par Umbrel afin de vous connecter.
 
+043
 
+Vous arrivez ensuite sur la page d’accueil de ThunderHub, qui affiche les principales informations relatives à votre nœud Lightning.
+
+044
+
+Pour commencer, je vous recommande d’activer l'authentification à deux facteurs (2FA). Dans les paramètres, cliquez simplement sur `Enable` à côté de `Enable 2FA`, puis suivez le processus classique.
+
+045
+
+### Utiliser ThunderHub
+
+ThunderHub est relativement simple à prendre en main. Tous les menus sont accessibles depuis la colonne de gauche de l’interface. Voici, pour résumer, le rôle de chacun :
+- `Home` : vue d’ensemble du nœud, soldes et actions rapides ;
+- `Dashboard` : tableau de bord personnalisable avec widgets et métriques ;
+- `Peers` : visualisation et gestion des connexions avec les autres nœuds Lightning ;
+- `Channels` : gestion complète des canaux (liquidité, frais, fermeture...) ;
+- `Rebalance` : outil de rééquilibrage des canaux via des paiements circulaires ;
+- `Transactions` : historique des paiements Lightning envoyés et reçus ;
+- `Forwards` : statistiques de routage et frais générés par votre nœud ;
+- `Chain` : portefeuille Bitcoin onchain (UTXOs et transactions) ;
+- `Amboss` : intégration Amboss pour le monitoring et les sauvegardes ;
+- `Tools` : outils avancés (backups, rapports, génération de macaroons, signatures…) ;
+- `Swap` : swaps Lightning/onchain via Boltz ;
+- `Stats` : statistiques globales et performances de votre nœud Lightning.
+
+Avec cet ensemble de fonctionnalités, vous disposez de tous les outils nécessaires pour gérer efficacement votre nœud Lightning. Il n’est pas indispensable de maîtriser chaque option dans le détail dès maintenant : nous les découvrirons progressivement tout au long de ce cours. Si vous souhaitez toutefois approfondir l'utilisation de ce logiciel, je vous invite à consulter notre tutoriel dédié à ThunderHub :
+
+https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
+
+Le menu qui nous intéressera le plus ici est `Channels`. Il offre une vue détaillée de l’ensemble des canaux de votre nœud, avec leur répartition de liquidités. Vous pouvez notamment consulter les canaux ouverts dans `Open`, ceux en attente d’ouverture ou de fermeture dans `Pending`, et les canaux déjà fermés dans `Closed`.
+
+047
+
+Pour un canal donné, vous pouvez cliquer sur le nom du pair ou sur l’identifiant du canal afin d’ouvrir sa page Amboss et obtenir plus d’informations. Vous pouvez également cliquer sur l’icône en forme de crayon pour modifier les paramètres du canal, notamment la politique de frais appliquée à ce canal si votre nœud route des paiements vers celui de votre pair.
+
+048
+
+Si vous utilisez votre nœud Lightning principalement comme "consommateur", il n’est pas nécessaire de modifier ces frais : vous pouvez conserver les valeurs par défaut. En revanche, si vous souhaitez mieux comprendre le fonctionnement des frais de routage sur Lightning, je vous recommande la formation LNP 201, et en particulier le chapitre 4.1 :
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+En cliquant sur la petite croix à côté d’un pair, vous pouvez initier la fermeture d’un canal. Si vous constatez, par exemple, qu’un pair est régulièrement inactif, il peut être pertinent de fermer ce canal afin de réallouer votre capital vers un pair plus fiable.
+
+Deux options s’offrent alors à vous. La première, toujours préférable, est la fermeture coopérative. En confirmant cette action, votre nœud demande à votre pair de fermer le canal de manière conjointe. S’il accepte, vous pouvez diffuser la transaction de fermeture onchain et récupérer votre part des fonds. Les avantages de cette méthode sont que vous choisissez les frais onchain de la transaction, ce qui évite ainsi des coûts inutiles, et que les fonds sont récupérés plus rapidement, sans aucun timelock.
+
+049
+
+La seconde option est la fermeture forcée. Dans ce cas, vous ne sollicitez pas l’accord du pair et diffusez directement la dernière transaction d’engagement en votre possession. Je vous déconseille cette méthode sauf en dernier recours, par exemple si le pair refuse systématiquement les fermetures coopératives ou ne répond plus. La fermeture forcée présente deux inconvénients majeurs : des frais souvent très élevés, car ils ont été définis à l’avance pour anticiper une hausse des frais onchain, et un délai de récupération des fonds, puisqu'ils sont bloqués par un timelock. Ce timelock permet de laisser le temps à votre pair de réagir en cas de tentative de triche (ce n'est évidemment pas le cas ici, mais il faut tout de même attendre).
+
+050
+
+Enfin, pour ouvrir un nouveau canal, rendez-vous dans le menu `Home` et cliquez sur `Open a Channel` dans la section `Liquidity`. Vous pourrez alors renseigner l’identifiant du nœud choisi, la capacité du canal, les frais de routage Lightning souhaités, ainsi que les frais onchain pour la transaction d’ouverture.
+
+051
+
+Voilà pour les principales actions dont vous aurez besoin sur ThunderHub. Nous découvrirons d’autres fonctionnalités au fil des besoins dans ce cours LNP 202.
 
 ## Obtenir de la liquidité entrante
 

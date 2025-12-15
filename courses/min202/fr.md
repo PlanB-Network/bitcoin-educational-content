@@ -18,7 +18,7 @@ Ensuite on comprend que détenir ses propres clés ne suffit pas à nous garanti
 Pour finir l'étape ultime de tout Bitcoiner souverain c'est d'ajouter sa propre contribution à la sécurité du réseau en déployant de la puissance de calcul supplémentaire, du hashrate, et en minant depuis chez soit.
 
 Dans ce cours MIN202 nous verrons comment miner du bitcoin à la maison, grace à des machines adaptées à cet usage et facilement configurable par tous.
-Nous verrons les différentes solutions hardware qui d'offrent à nous pour se faire, les logiciels associés, comment les utiliser. 
+Nous verrons les différentes solutions hardware qui s'offrent à nous pour se faire, les logiciels associés, comment les utiliser. 
 
 Désormais miner à la maison est devenu simple, les solutions "plug & play" sont là et c'est une excellente nouvelle.
 
@@ -443,10 +443,55 @@ Ainsi pour résumer, laisser son Bitaxe Gamma touner toute l'année, revient à 
 
 ## 3.2 Installation d'un Bitaxe et connexion à une "solopool"
 
-Entrons dans le dur du sujet désormais et installons notre 1er Bitaxe
+Entrons dans le dur du sujet désormais et installons notre 1er Bitaxe.
+
+Après l'avoir mis sous tention, des indications apparaissent sur son petit écran. Il vous faudra vous munir de votre smartphone ou de votre ordinateur pour aller rechercher dans les paramètres WI-FI l'appareil répondant au nom de **Bitaxe_E25D**. Bien sur ce nom sera différent dans votre cas.
+
+![Image](assets/fr/030.webp)
+
+Une fois que vous aurez cliquez sur le nom de l'appareil , une oage web s'ouvrira automatiquement en vous demandant de renseigner:
+
+- le nom de l'appareil tel qu'il appaitra sur votre réseau local (livre à vous de chosir celui qui vous convient)
+- votre Wi-Fi SSID, c'est à dire le nom du réseau Wi-Fi de votre routeur, ici Livebox-43A0.
+- Le mot de passe Wi-Fi permettant de se connecter à votre réseau local en Wi-Fi
+
+
+![Image](assets/fr/031.webp)
+
+Une fois les champs complétés, cliquez sur "Save", puis "Restart".
+
+![Image](assets/fr/032.webp)
+
+
+L'appareil redémarre, et est désormais connecté à votre réseau local. Une adresse IP lui a donc été attribuée qu'il nous conviendra de déterminer car c'est grace à cet identifiant que l'on pourra interagir avec l'appareil.
+
+![Image](assets/fr/033.webp)
+
+Avec les Bitaxes l'adresse IP est très facile à trouver puisqu'elle s'affiche sur l'écran de l'appareil tout simplement, comme indiqué ci_dessous:
+
+![Image](assets/fr/034.webp)
+
+![Image](assets/fr/035.webp)
+
+Ainsi l'adresse IP attribuée à notre Bitaxe 601 est "192.168.1.21".
+En tapant cette adresse dans notre navigateur favori, on arrive sur l'interface d'AxeOS qui pilote l'appareil et qui va nous permettre de le connecger à une la pool de minage de notre choix entre autre.
+
+
+![Image](assets/fr/036.webp)
+
+Allons configurer maintenant la solopool de minage vers laquelle nous allons pointer notre hasrate.
+Pour rappel cette pool est chargé de nous donner un accès au réseau Bitcoin, de sélectionner les transactions à inclure dans le bloc sur lequel nous travaillons, et de diffuser notre bloc valide sur le réseau Bitcoin, dans le cas où nous serions chanceux.
+
+Ce tutoriel est réalisé sous la version v 2.11.0 d'Axe OS. Il est  possible que les menus soient sensiblement différents suivant la version de l'OS qui flashé sur votre appareil au moment où vous le configurerez. 
+
+Cliquons via le menu de gauche dur "Pool".
+
+
+
+
 ## 3.3 Panorama des différentes Pool de mining
-## 3.4 Installation d'un Bitaxe et connexion à une "solopool"
-## 3.5 Découverte d'AxeOS
+
+## 3.4 Découverte d'AxeOS
 
 
 # Miner via sa propre pool de mining 

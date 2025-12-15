@@ -1,0 +1,8 @@
+question: Que elemento específico deve ser incluído num P2SH ScriptSig que o distingue das entradas de transação normais?
+answer: O próprio script de resgate completo, juntamente com os dados de desbloqueio
+wrong_answers:
+  - O HASH160 do script de resgate e as chaves públicas
+  - Apenas as assinaturas e chaves públicas necessárias para satisfazer as condições
+  - O byte de versão e a codificação de endereço para validação P2SH
+explanation: |
+  As entradas P2SH requerem os dados de desbloqueio (assinaturas, etc.) E o script de resgate completo no ScriptSig. Isto é único porque o script de resgate estava anteriormente escondido atrás de um hash e agora tem de ser revelado para validação. A primeira etapa de validação verifica se HASH160(redeem_script) corresponde ao hash na scriptPubKey e, em seguida, o script de resgate é executado com os dados de desbloqueio fornecidos. As outras opções estão incorrectas: o hash já se encontra na scriptPubKey original, as assinaturas por si só não são suficientes sem o script e os bytes de versão são utilizados para codificação de endereços e não para validação de despesas.

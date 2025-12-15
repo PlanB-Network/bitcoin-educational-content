@@ -1,0 +1,8 @@
+question: Was ist die mathematische Grundlage, die das diskrete Logarithmusproblem in der elliptischen Kurvenkryptographie rechnerisch undurchführbar macht?
+answer: Die unvorhersehbare Verteilung von Punkten bei der Erzeugung einer zyklischen Gruppe durch wiederholte Punktaddition
+wrong_answers:
+  - Die Symmetrieeigenschaft elliptischer Kurven, die Punkte auf der x-Achse widerspiegelt
+  - Die modularen arithmetischen Operationen, die in endlichen Feldern anstelle von reellen Zahlen durchgeführt werden
+  - Die große Primzahl, die als Feldcharakteristik in der Kurvengleichung verwendet wird
+explanation: |
+  Die Schwierigkeit des diskreten Logarithmusproblems ergibt sich aus der unvorhersehbaren, nichtlinearen Verteilung der Punkte bei der Erzeugung einer zyklischen Gruppe (G, 2G, 3G, ..., nG). Obwohl die Punkte sequentiell erzeugt werden, erscheinen sie verstreut und zufällig, so dass es rechnerisch nicht möglich ist, den Skalar s aus dem Punkt P = sG zu bestimmen. Symmetrie, modulare Arithmetik und große Primzahlen sind zwar wichtige Eigenschaften elliptischer Kurven, aber sie erzeugen nicht direkt die Einwegfunktion, die sichere Kryptographie mit öffentlichen Schlüsseln ermöglicht.

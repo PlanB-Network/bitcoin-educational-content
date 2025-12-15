@@ -1,0 +1,8 @@
+question: Ni utaratibu gani wa kriptografia unaoruhusu Liquid Network kuthibitisha kwamba miamala inaingiza matokeo sawa pamoja na ada bila kufichua kiasi halisi kwa umma?
+answer: Ahadi za Pedersen na Uthibitisho wa Mbalimbali
+wrong_answers:
+  - Miti ya Merkle na Saini za Kidijitali
+  - Mikataba ya Hash Iliyofungwa kwa Muda na Saini Nyingi
+  - Saini za Schnorr na Hati za Taproot
+explanation: |
+  Ahadi za Pedersen na Uthibitisho wa Masafa ni hati miliki maalum za siri zinazowezesha Confidential Transactions ya Liquid kuficha kiasi huku ikiruhusu uthibitishaji wa hisabati. Ahadi za Pedersen hufungamana kisiri na thamani bila kuzifichua, huku Uthibitisho wa Masafa ukihakikisha kiasi chote ni nambari chanya, na kuzuia watumiaji kuunda pesa kupitia thamani hasi. Chaguo zingine ni zana halali za siri za Bitcoin lakini hazitoi uwezo wa kupofusha unaohitajika kwa miamala ya siri ambapo kiasi hubaki kimefichwa lakini kinaweza kuthibitishwa.

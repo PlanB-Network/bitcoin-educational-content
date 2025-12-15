@@ -1,0 +1,8 @@
+question: Vilken är den matematiska formel som används för att beräkna blocksubventionen vid en given blockhöjd h i Bitcoin:s protokoll?
+answer: subvention = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - subvention = 50_000_000_000 / (2^(h / 210_000))
+  - subvention = 5_000_000_000 * (0,5^(h % 210_000))
+  - subvention = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  I den korrekta formeln används bitskiftoperationer där 5_000_000_000 representerar 50 BTC i satoshis och högerskiftoperatorn >> effektivt delar med potenser av 2. Golvdivisionen h // 210_000 avgör hur många halveringsperioder som har inträffat. Det första felsvaret använder vanlig division istället för bit-shifting och börjar med ett felaktigt basvärde. Det andra använder modulo istället för golvdivision, vilket skulle skapa ett cykliskt mönster snarare än en progressiv halvering. Det tredje använder modulooperation, vilket skulle återställa halveringsräknaren var 210.000:e block i stället för att ackumulera halveringar över tiden.

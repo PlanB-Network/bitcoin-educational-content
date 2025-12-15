@@ -1,0 +1,8 @@
+question: Kusudi kuu la kipindi cha kusubiri cha uthibitisho wa 102 wakati wa mchakato wa kuingiza kutoka Bitcoin hadi Liquid ni lipi?
+answer: Ili kulinda dhidi ya upangaji upya wa blockchain ya Bitcoin kabla ya kuunda L-BTC
+wrong_answers:
+  - Kutoa muda wa kutosha kwa shirikisho kuthibitisha utambulisho wa mtumiaji na kufuata sheria
+  - Ili kuhakikisha mtandao wa Liquid una uwezo wa kutosha wa kuchakata muamala unaoingia
+  - Kutoa muda wa idhini ya saini nyingi za 11 kati ya 15 kutoka kwa wanachama wa shirikisho
+explanation: |
+  Kipindi cha kusubiri cha uthibitisho wa 102 (takriban saa 17) kimeundwa mahsusi kulinda dhidi ya upangaji upya wa blockchain ya Bitcoin. Kwa kuwa Bitcoin inafanya kazi kwa umaliziaji wa uwezekano, daima kuna uwezekano mdogo kwamba vizuizi vinaweza kupangwa upya, na hivyo kuathiri miamala. Kwa kusubiri uthibitisho wa 102, mfumo unahakikisha kwamba muamala wa Bitcoin unaotuma fedha kwa anwani ya shirikisho umezikwa sana na hauwezekani kabisa kubadilishwa. Hii inazuia hali ambapo L-BTC inatengenezwa kwenye Liquid lakini muamala wa msingi wa Bitcoin unabadilishwa kutokana na upangaji upya. Chaguzi zingine si sahihi kwa sababu: uthibitishaji wa utambulisho si sehemu ya mchakato wa kiotomatiki wa kuingiza, uwezo wa mtandao si jambo linalohitaji ucheleweshaji kama huo, na idhini ya 11 kati ya 15 ya multisig inatumika kwa ajili ya kuondoa, si kuingiza.

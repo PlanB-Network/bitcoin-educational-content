@@ -1,0 +1,8 @@
+question: Vad händer med de aritmetiska operationerna när elliptiska kurvor definieras över ändliga fält istället för reella tal?
+answer: Alla operationer använder modulär aritmetik med bibehållande av samma algebraiska regler
+wrong_answers:
+  - Punktadditionsformlerna måste skrivas om helt och hållet för diskret matematik
+  - Lutningsberäkningarna blir odefinierade på grund av punkternas diskreta natur
+  - Alla algebraiska regler ändras fundamentalt för att passa den finita fältstrukturen
+explanation: |
+  När elliptiska kurvor flyttas från reella tal till finita fält förblir den underliggande algebraiska strukturen och reglerna identiska - det är bara aritmetiken som ändras till modulär aritmetik. Alla formler för punktaddition, lutningsberäkningar och geometriska relationer fungerar på exakt samma sätt, men varje beräkning utförs modulo p. Detta bevarande av algebraiska regler samtidigt som endast den aritmetiska grunden ändras är det som gör elliptiska kurvor i finita fält så kraftfulla för kryptografi, eftersom de bibehåller alla matematiska egenskaper som behövs samtidigt som de skapar det diskreta, oförutsägbara beteende som är viktigt för säkerheten.

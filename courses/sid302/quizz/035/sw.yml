@@ -1,0 +1,8 @@
+question: Kusudi kuu la mchakato wa Kuunganisha, Kuandaa, na Kutekeleza wa hatua tatu katika kiolesura cha msanidi programu cha Breez SDK ni lipi?
+answer: Kusawazisha mtiririko tata wa kifedha kwa kusawazisha pochi, kuhesabu ada zote mapema, na kisha kujenga miamala
+wrong_answers:
+  - Kuanzisha miunganisho mbadala isiyo ya lazima katika watoa huduma wengi wa kubadilishana kabla ya kuanzisha shughuli zozote za atomiki
+  - Kuunda sahihi tofauti za kriptografia kwa kila mtandao unaohusika katika miamala ya kubadilishana manowari ya mnyororo mtambuka
+  - Kuthibitisha picha za awali za malipo dhidi ya mikataba iliyofungwa kwa muda kabla ya kutoa fedha kutoka kwa mifumo ya escrow
+explanation: |
+  Muundo wa Unganisha, Tayarisha, Tekeleza hurahisisha uundaji kwa kugawanya shughuli tata katika hatua zinazoweza kudhibitiwa: Unganisha huanzisha pochi na kuanzisha miunganisho ya ufuatiliaji, Huandaa huhesabu na kuonyesha gharama zote kwa uwazi kwa watumiaji, na Hutekeleza hushughulikia ujenzi na utangazaji halisi wa miamala. Usanifishaji huu huondoa ugumu wa msingi wa ubadilishaji wa manowari na shughuli za mnyororo mtambuka, na kurahisisha watengenezaji kuunganisha utendaji wa Bitcoin bila kudhibiti maelezo ya kiwango cha chini.

@@ -1,0 +1,8 @@
+question: Jaki jest główny cel mechanizmu wymiany kluczy ECDH w architekturze Liquid Confidential Transactions?
+answer: Umożliwienie nadawcom szyfrowania kwot i typów zasobów przy użyciu niewidomego klucza publicznego odbiorcy, przy jednoczesnym generowaniu weryfikowalnych dowodów zasięgu
+wrong_answers:
+  - Ustanowienie bezpiecznych kanałów komunikacji między serwerami AMP a klientami wallet podczas procesów autoryzacji transakcji
+  - Tworzenie wspólnych wpisów tajnych na potrzeby rejestracji deskryptora wielopodpisu między portfelami a infrastrukturą serwera AMP
+  - Aby generate podpisy kryptograficzne, które potwierdzają własność aktywów bez ujawniania podstawowych informacji o kluczu prywatnym
+explanation: |
+  Wymiana kluczy ECDH (Elliptic Curve Diffie-Hellman) w Liquid w Confidential Transactions umożliwia w szczególności transfery aktywów z zachowaniem prywatności, umożliwiając nadawcom szyfrowanie wartości wyjściowych transakcji przy użyciu zaślepiającego klucza publicznego odbiorcy. Tworzy to wspólny sekret, który tylko odbiorca może odszyfrować za pomocą swojego prywatnego klucza zaślepiającego, jednocześnie generując dowody zasięgu, które pozwalają walidatorom sieci weryfikować ważność transakcji bez oglądania rzeczywistych kwot. Pozostałe opcje niepoprawnie opisują ECDH jako służące bezpieczeństwu komunikacji, rejestracji deskryptorów lub funkcjom dowodu własności, które są obsługiwane przez różne mechanizmy kryptograficzne w ekosystemie Liquid.

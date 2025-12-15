@@ -1,0 +1,8 @@
+question: Jaki jest główny powód, dla którego transakcje P2SH-wrapped SegWit wykorzystują trzy warstwy reguł walidacji podczas weryfikacji?
+answer: Aby zapewnić kompatybilność wsteczną między węzłami sprzed BIP16, po BIP16 i SegWit przy jednoczesnym zachowaniu konsensusu
+wrong_answers:
+  - Aby potroić bezpieczeństwo, wymagając trzech oddzielnych dowodów kryptograficznych przed zaakceptowaniem transakcji
+  - Rozłożenie obciążenia związanego z walidacją na różne typy węzłów w celu poprawy wydajności i skalowalności sieci
+  - Zapobieganie atakom double-spending poprzez walidację tych samych danych transakcyjnych za pomocą trzech niezależnych metod
+explanation: |
+  P2SH-wrapped SegWit wykorzystuje trzy warstwy walidacji specjalnie dla kompatybilności wstecznej: węzły przed BIP16 akceptują redeemScript jako prawidłowy, węzły po BIP16 oceniają go pozostawiając OP_0 + hash na stosie, a węzły SegWit wykonują pełną walidację świadków. To warstwowe podejście zapewnia, że wszystkie typy węzłów mogą uczestniczyć w konsensusie bez zerwania, w przeciwieństwie do błędnych odpowiedzi, które sugerują zwielokrotnienie bezpieczeństwa, dystrybucję wydajności lub zapobieganie podwójnym wydatkom jako główne motywacje.

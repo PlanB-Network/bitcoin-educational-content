@@ -1,0 +1,8 @@
+question: Quale operazione matematica viene utilizzata per trovare il punto P + Q su una curva ellittica?
+answer: Tracciare una retta passante per i punti P e Q, trovare il terzo punto di intersezione R, quindi riflettere R attraverso l'asse x
+wrong_answers:
+  - Sommare le coordinate x e y di P e Q direttamente utilizzando l'aritmetica modulare
+  - Moltiplicare le coordinate di P e Q e applicare l'equazione della curva per trovare il risultato
+  - Calcolare il punto medio tra P e Q e poi applicare il metodo della retta tangente per ottenere la somma
+explanation: |
+  L'addizione di punti di una curva ellittica segue una regola geometrica specifica: si traccia una linea attraverso i due punti P e Q, che interseca la curva in un terzo punto R, quindi si riflette R sull'asse x per ottenere P + Q. Questa operazione geometrica diventa algebrica quando si lavora su campi finiti, ma mantiene lo stesso principio fondamentale. Le altre opzioni descrivono metodi errati che non seguono la legge di gruppo stabilita per le curve ellittiche.

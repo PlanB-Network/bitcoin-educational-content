@@ -1,0 +1,8 @@
+question: Wenn der Mechanismus zur Anpassung des Schwierigkeitsgrads von Bitcoin auf ein Szenario stößt, in dem der Abbau der Blöcke aus dem Jahr 2016 genau 6 Wochen statt der erwarteten 2 Wochen gedauert hat, welcher Anpassungsfaktor würde dann angewendet werden?
+answer: Der Schwierigkeitsgrad wird um den Faktor 4 reduziert (maximal zulässige Reduzierung)
+wrong_answers:
+  - Die Schwierigkeit würde sich um den Faktor 3 verringern (6 Wochen ÷ 2 Wochen)
+  - Der Schwierigkeitsgrad wird um den Faktor 2,5 reduziert, um eine Überkorrektur zu vermeiden
+  - Die Schwierigkeit würde sich um den Faktor 6 verringern, je nach Zeitverhältnis
+explanation: |
+  Die Bitcoin-Schwierigkeitsanpassung hat eingebaute Grenzen, die Änderungen auf einen Faktor von vier in jeder Richtung beschränken. Auch wenn 6 Wochen ÷ 2 Wochen = 3 ist, was eine dreifache Verringerung bedeutet, begrenzt das Protokoll die Anpassungen auf das Vierfache, um extreme Schwankungen zu verhindern. Dieser Sicherheitsmechanismus gewährleistet die Stabilität des Netzwerks bei größeren Hash-Raten-Änderungen, wie mining-Verboten oder Geräteausfällen, indem er eine Überkorrektur verhindert, die das Block-Timing destabilisieren könnte.

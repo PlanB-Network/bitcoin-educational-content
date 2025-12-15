@@ -1,0 +1,8 @@
+question: Quelle opération mathématique permet de trouver le point P + Q sur une courbe elliptique ?
+answer: Tracer une ligne passant par les points P et Q, trouver le troisième point d'intersection R, puis faire passer R par l'axe des abscisses
+wrong_answers:
+  - Additionner les coordonnées x et y de P et Q directement en utilisant l'arithmétique modulaire
+  - Multipliez les coordonnées de P et Q et appliquez l'équation de la courbe pour obtenir le résultat
+  - Calculer le point médian entre P et Q, puis appliquer la méthode de la ligne tangente pour obtenir la somme
+explanation: |
+  L'addition de points sur une courbe elliptique suit une règle géométrique spécifique : il faut tracer une ligne passant par les deux points P et Q, qui coupe la courbe en un troisième point R, puis réfléchir R sur l'axe des x pour obtenir P + Q. Cette opération géométrique devient algébrique lorsque l'on travaille sur des corps finis, mais elle conserve le même principe fondamental. Les autres options décrivent des méthodes incorrectes qui ne suivent pas la loi de groupe établie pour les courbes elliptiques.

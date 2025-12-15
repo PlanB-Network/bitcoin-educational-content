@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta algorytmu podwójnego dodawania dla mnożenia skalarnego w kryptografii krzywych eliptycznych?
+answer: Zmniejsza to złożoność obliczeniową z O(n) do O(log n) operacji
+wrong_answers:
+  - Eliminuje to potrzebę stosowania arytmetyki modularnej w polach skończonych
+  - Przekształca problem logarytmu dyskretnego w rozwiązanie wielomianowe w czasie
+  - Umożliwia bezpośrednie obliczanie kluczy prywatnych z kluczy publicznych
+explanation: |
+  Algorytm podwajania i dodawania znacznie poprawia wydajność, zmniejszając złożoność obliczeniową z O(n) liniowych dodawań do O(log n) operacji. Działa to poprzez skanowanie binarnej reprezentacji skalara, podwajanie punktu na każdym kroku i dodawanie punktu generatora tylko wtedy, gdy bit wynosi 1. Inne opcje są nieprawidłowe: arytmetyka modularna jest nadal wymagana w skończonych polach, problem logarytmu dyskretnego pozostaje niewykonalny obliczeniowo (co jest niezbędne dla bezpieczeństwa), a klucze prywatne nie mogą być obliczane z kluczy publicznych niezależnie od zastosowanego algorytmu mnożenia.

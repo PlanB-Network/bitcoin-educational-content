@@ -1,0 +1,8 @@
+question: Yếu tố cụ thể nào phải được bao gồm trong P2SH ScriptSig để phân biệt nó với các dữ liệu đầu vào giao dịch thông thường?
+answer: Toàn bộ kịch bản đổi mã cùng với dữ liệu mở khóa.
+wrong_answers:
+  - Mã HASH160 của tập lệnh đổi thưởng và các khóa công khai
+  - Chỉ cần chữ ký và khóa công khai là đủ để đáp ứng các điều kiện.
+  - Mã hóa byte và địa chỉ phiên bản để xác thực P2SH.
+explanation: |
+  Đầu vào P2SH yêu cầu cả dữ liệu mở khóa (chữ ký, v.v.) VÀ toàn bộ kịch bản đổi thưởng trong ScriptSig. Điều này là duy nhất vì kịch bản đổi thưởng trước đây được ẩn sau một hàm băm và giờ phải được tiết lộ để xác thực. Bước xác thực đầu tiên kiểm tra xem HASH160(redeem_script) có khớp với hàm băm trong scriptPubKey hay không, sau đó kịch bản đổi thưởng được thực thi với dữ liệu mở khóa được cung cấp. Các tùy chọn khác không chính xác: hàm băm đã có trong scriptPubKey gốc, chỉ chữ ký thôi là không đủ nếu không có kịch bản, và byte phiên bản được sử dụng để mã hóa địa chỉ, chứ không phải để xác thực chi tiêu.

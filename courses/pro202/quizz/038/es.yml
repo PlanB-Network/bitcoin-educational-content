@@ -1,0 +1,8 @@
+question: ¿Qué determina el importe de la comisión de transacción en una operación Bitcoin durante el proceso de construcción?
+answer: Diferencia entre el valor total de todos los insumos y el valor total de todos los productos
+wrong_answers:
+  - Un porcentaje fijo del valor total de la transacción calculado por el protocolo de red
+  - El tamaño de la transacción en bytes multiplicado por una tasa estándar establecida por los mineros
+  - El número de firmas necesarias en todas las entradas más una tasa básica de red
+explanation: |
+  Las comisiones de las transacciones Bitcoin se determinan por la diferencia entre el total de entradas y el total de salidas. Cuando construyes una transacción, seleccionas UTXOs como entradas y creas salidas para los receptores y el cambio. Cualquier cantidad sobrante se convierte en la tasa que incentiva a los mineros a incluir tu transacción. La comisión no se calcula por porcentaje, tasas fijas o recuento de firmas: es simplemente lo que queda sin asignar en el saldo de valor de la transacción.

@@ -1,0 +1,8 @@
+question: Jaká konkrétní data tvoří ve struktuře síťové zprávy Bitcoin pole se 4bajtovým kontrolním součtem v každé obálce zprávy?
+answer: První 4 bajty hash256 užitečného zatížení zprávy
+wrong_answers:
+  - První 4 bajty hashe SHA256 celé obálky zprávy
+  - První 4 bajty hash256 příkazového pole zřetězené s užitečným zatížením
+  - První 4 bajty hashe RIPEMD160 užitečného zatížení zprávy
+explanation: |
+  Obálka zprávy Bitcoin P2P používá specifický mechanismus kontrolního součtu, kde pole 4bajtového kontrolního součtu obsahuje pouze první 4 bajty hash256 aplikované na užitečné zatížení zprávy. To zajišťuje ověření integrity dat užitečného zatížení během síťového přenosu. Ostatní možnosti jsou nesprávné, protože odkazují na jiné hashovací funkce (jednoduchá SHA256, RIPEMD160) nebo jiná vstupní data (celá obálka, příkaz+platba), než jaké Bitcoin skutečně implementuje ve svém síťovém protokolu.

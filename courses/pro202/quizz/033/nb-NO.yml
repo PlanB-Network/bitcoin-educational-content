@@ -1,0 +1,8 @@
+question: Hvilken totrinns valideringsprosess må gjennomføres for at transaksjonen skal anses som gyldig når du bruker en P2SH-utbetaling?
+answer: Kontroller først at HASH160 i redeem-skriptet stemmer overens med scriptPubKey-hash, og kjør deretter redeem-skriptet med de oppgitte dataene
+wrong_answers:
+  - Kjør først innløsningsskriptet med de oppgitte dataene, og kontroller deretter at den resulterende hashen stemmer overens med scriptPubKey
+  - Kontroller først at alle signaturene er gyldige i forhold til de offentlige nøklene, og kontroller deretter at hashen til innløsningsskriptet stemmer overens
+  - Bekreft først at det innløste skriptet inneholder gyldige op-koder, og bekreft deretter at skriptkjøringen gir et sant resultat
+explanation: |
+  P2SH-validering krever en spesifikk totrinnsprosess: Først må hashen til det oppgitte innløsningsskriptet samsvare med hashen på 20 byte i scriptPubKey (HASH160-verifisering), og først etter at denne verifiseringen er bestått, kjører nettverket selve innløsningsskriptet med opplåsingsdataene. Denne utformingen sikrer at bare det riktige innløsningsskriptet kan brukes, samtidig som de faktiske utgiftsbetingelsene holdes skjult frem til uttaket skjer. De andre alternativene beskriver plausible, men feilaktige valideringssekvenser som ikke følger den faktiske P2SH-protokollen.

@@ -1,4 +1,3 @@
-<img width="1780" height="828" alt="image" src="https://github.com/user-attachments/assets/51766ffe-b518-4eff-b76b-fe7111b31621" />---
 name: Създаване на Bitcoin общност
 goal: Лесно създаване и организиране на Bitcoin общност в местния ви район
 objectives: 

@@ -441,6 +441,23 @@ Cela permet quand même de se rendre compte des ordres de grandeurs dont nous pa
 
 Ainsi pour résumer, laisser son Bitaxe Gamma touner toute l'année, revient à effectuer  une fois par an, un tirage au sort avec 1 chance sur 18000 de gagner le jackpot.
 
+Mais dans les faits, est-ce que nous avons des exemples de solominers ayant trouvé un blocs et empocher la récompense ?
+Eh bien oui, il suffit pour se faire une idée de suivre l'actualité du solomining sur les réseaux sociaux (X principalement), pour s'en convaincre. Régulièrement, une ou deux fois par moins en 2025, des heureux gagnants sont repérés.
+
+![Image](assets/fr/042.webp)
+
+![Image](assets/fr/043.webp)
+
+Si l'on veut un  moyen non exhaustif mais assez fiable d'avoir une idée du nombre de "solo blocs" trouvés, alors il nous faut tout simplement observer les blocs minés par la pus grande solo pool du monde "Solo CkPool": https://mempool.space/mining/pool/solock
+
+On remarque alors qu'environ 1 bloc par mois est trouvé par un miner solo via cette pool. Cependant il est à noté qu'un mineur solo peut tout aussi bien être un Bitaxe dans un salon, qu'un mineur  professionel possédant des dizaines de machines dernier cri.
+
+![Image](assets/fr/044.webp)
+
+Dernière remarque, mais il est à noter que certain chanceux ont eux déjà réussi à miner des blocs sur des pool [auto hébergées sur leur propre serveur Umbrel](https://mempool.space/mining/pool/publicpool). Le meilleur moyen de miner selon moi, comme le faisaient les mineurs des origines, sans dépendre de personne. Et aujourd'hui, c'est à la portée de n'importe qui. On reviendra dans le dernier paragraphe de cette formation sur les applications permettant de miner en tout autonomie et en quelques clics.
+
+![Image](assets/fr/045.webp)
+
 ## 3.2 Installation d'un Bitaxe et connexion à une "solopool"
 
 Entrons dans le dur du sujet désormais et installons notre 1er Bitaxe.
@@ -474,22 +491,112 @@ Avec les Bitaxes l'adresse IP est très facile à trouver puisqu'elle s'affiche 
 ![Image](assets/fr/035.webp)
 
 Ainsi l'adresse IP attribuée à notre Bitaxe 601 est "192.168.1.21".
-En tapant cette adresse dans notre navigateur favori, on arrive sur l'interface d'AxeOS qui pilote l'appareil et qui va nous permettre de le connecger à une la pool de minage de notre choix entre autre.
+En tapant cette adresse dans notre navigateur favori, on arrive sur l'interface d'AxeOS qui pilote l'appareil et qui va nous permettre de le connecter à une la pool de minage de notre choix, entre autre.
 
 
 ![Image](assets/fr/036.webp)
 
-Allons configurer maintenant la solopool de minage vers laquelle nous allons pointer notre hasrate.
-Pour rappel cette pool est chargé de nous donner un accès au réseau Bitcoin, de sélectionner les transactions à inclure dans le bloc sur lequel nous travaillons, et de diffuser notre bloc valide sur le réseau Bitcoin, dans le cas où nous serions chanceux.
+Allons configurer maintenant la solopool de minage vers laquelle nous allons pointer notre hashrate. 
+Pour rappel cette pool est chargée de nous donner un accès au réseau Bitcoin, de sélectionner les transactions à inclure dans le bloc sur lequel nous travaillons, et de diffuser notre bloc valide sur le réseau Bitcoin, dans le cas où nous serions chanceux.
+
+**NB: Lorsque vous initialisez pour la première fois votre Bitaxe, des pools et adresses bitcoins sont déjà renseignées par défaut, mais il faut les remplacer autrement vous minerez pour quelqu'un d'autre si vous ne faites rien.
+
+**La pool renseignée par défaut est Public Pool (Public Pool est un pool au code open source et ouvert, sans frai et conçu pour les petits mineurs comme le Bitaxe.  L'adresse par défaut est celle de l'OSMU l'oraganisation responsable du développement du projet Bitaxe****
 
 Ce tutoriel est réalisé sous la version v 2.11.0 d'Axe OS. Il est  possible que les menus soient sensiblement différents suivant la version de l'OS qui flashé sur votre appareil au moment où vous le configurerez. 
 
-Cliquons via le menu de gauche dur "Pool".
+Cliquons via le menu de gauche sur "Pool".
+
+Il nous est donné la possibilité de renseigner 2 pool différentes ici, une principale et une pool de backup au cas où la première ait des problèmes, notre Bitaxe basculera alors automatiquement sur la pool de secours garantissant une continuité du service, maximisant ainsi vos chances de miner un bloc.
+
+Pour chaque Pool les champs à renseigner sont:
+
+- Stratum Host
+- Stratum Port
+- User
+- Password
+
+![Image](assets/fr/037.webp)
+
+Nous choisissons en  pool principale Public Pool, une solo Pool très populaire chez les solominers, toujour en quête de son premier bloc miné malgré les quelques  40 Ph/s que des solominer du monde entier pointent vers elle.
+
+On verra au pragraphe suivant qu'il existe de multiples services de solopool similaires à celui-ci, et qu'il convient de faire attention car ces fournisseurs de services restent des intermédiares  qui peuvent très bien être malhonnêtes.
+
+En allant sur https://web.public-pool.io/#/ on nous indique les informations à renseigner dans les champs qui nous intéressent:
+
+![Image](assets/fr/038.webp)
+
+- Stratum Host: **stratum+tcp://public-pool.io** (ou simplement public-pool.io)
+- Stratum Port: **3333**
+- User: **"votre adresse bitcoin"."nom de votre appareil"** soit pour nous bc1qpqqf9f9xjfpnen2e4u3hs09sn6rvj386xk7zhgtuwm5pmlxwcuzq0v4fzm.bitaxePlanB
+- Password: x (dans le protocole de minage stratum le mot de passe n'a pas d'importance dans la plupart des cas ce sera "x")
+
+En solopool secondaire de backup, nous optons pour Ckpool, la plus grosse pool de solomining qui elle pour le coup a déjà miné de multiples blocs. Sur https://solo.ckpool.org/ on nous indique là aussi les champs à remplir dans l'interface de notre Bitaxe. Comme nous sommes située en Europe, nous choisissons le serveur européen pour bénéficier de meilleures performances.
+
+![Image](assets/fr/039.webp)
+
+- Stratum Host: **stratum+tcp://eusolo.ckpool.org** (ou simplement eusolo.ckpool.org)
+- Stratum Port: **3333**
+- User: **"votre adresse bitcoin"."nom de votre appareil"** soit pour nous bc1qpqqf9f9xjfpnen2e4u3hs09sn6rvj386xk7zhgtuwm5pmlxwcuzq0v4fzm.bitaxePlanB
+- Password: "x" là encore.
+
+Lorsque tout cela est fait, il suffit de cliquer sur "Save" puis "Restart" en bas de l'écran dans AxeOS pour que notre hasrate pointe effectivement vers les pools que nous venons de choisir et que le solomining commence !
+
+Allons maintenant vérifier que Public Pool détecte bien notre hashrate et que tous fonctionne correctement.
+
+Pour ce faire rensignez simplement votre adresse dans le champ prévu à cette effet sur https://web.public-pool.io/#/. Votre adresse Bitcoin vous sert non seulement à recevoir les éventuelles récompense mais également à vous identifier en tant qu'entité minière. Il s'agit en quelque sort de votre identité du point de vue de la pool.
+
+Cliquez ensuite sur le bouton "My Workers" pour visualiser l'ensemble des appareils liés à votre adresse que Public Pool détecte.
 
 
+![Image](assets/fr/040.webp)
 
+On voit bien ici notre Bitaxe, dénommé par le nom qu'on lui a attribué "bitaxePlanB".
+
+Les informations affichées sont en synthèse:
+
+- la difficulté totale du réseau, c'est à dire un nombre déterminé par le protocole et dont l'ajustement permet  l'émission régulière environ toute les 10 minutes, de nouveaux Bitcoin. Plus ce nombre est élevé, plus il sera difficile pour un mineur de "trouver un bloc". Ce nombre est ajusté tous les 2016 blocs soit environ toutes les 2 semaines pour faire varier la difficulté du minage à la hausse ou à la baisse. Ici la difficulté affichée est de 148,2 Téra.
+- Notre meilleure difficulté personnelle sur la période d'activité du mineur: pour nous 92,77 M (millions). Autrement dit il nous faudra faire environ 1,5 millions de fois mieux pour trouver un bloc...
+- Le hashrate global de 984 Eh/s
+- La hauteur de bloc
+- Les information en temps réel sur le hashrate de notre appareil tel que détecté par la pool
+
+![Image](assets/fr/041.webp)
+
+Nous sommes désormais parés, nous minons et participons à l'effort global et la décentralisation du hashrate tout en ayant une maigre chance d'être récompensé. Mission accomplie.
 
 ## 3.3 Panorama des différentes Pool de mining
+
+Nous venons de voir dans le rapide tutoriel du paragraphe précédent, 2 solo pool que l'on peut choisir afin de connecter notre "hasheur" au réseau Bitcoin et lui permettre de miner.
+Public Pool et CkPool sont en effet les 2 solutions les plus populaires du marché auprès des solominer mais elles sont loin d'être les seules.
+
+Nous verrons dans ce paragraphe un panorama assez complet mais comme souvent non exhaustif des solutions qui s'offrent à nous, et des caractéristiques de chacune des solutions.
+
+### Les solopools
+
+#### [La plus grande et réputée: CkPool](https://solo.ckpool.org/)
+
+CkPool est la solution de référence pour les solominer, fondée par une figure bien connue et presque légendaire de l'écosystème open source du mining Bitcoin: Con Kolivas alias [Dr-Ck (@ckpooldev) ](https://x.com/ckpooldev) sur les réseaux sociaux.
+C'est la solopool qui a permis de miner le plus de solo blocs et de loin, notamment du à son ancienneté et à la réputation de son développeur.
+
+Elle cumule aujourd'hui un hashrate total de 215 PH/s.
+
+![Image](assets/fr/046.webp)
+
+Elle prélève 2% de frais à chaque bloc trouvé en échange d'une confiance, d'une fiabilité et d'un "uptime" qui n'est plus à démontrer.
+
+Ainsi si vous trouvez un bloc par l'intermédiaire de CkPool, la transaction coinbase créditera votre adresse, moins les 2% de frais comme on peut le constater ci-dessous pour le dernier bloc trouvé par CkPool.
+
+![Image](assets/fr/047.webp)
+
+#### [Le petit nouveau "Public Pool"](https://web.public-pool.io/#/)
+
+
+
+| Type de Pool | Open Source | Frais |
+| ------------ | ----------- | ----- |
+|              |             |       |
+
 
 ## 3.4 Découverte d'AxeOS
 

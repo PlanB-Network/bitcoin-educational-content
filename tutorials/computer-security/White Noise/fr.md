@@ -154,7 +154,7 @@ Cliquez sur ce sous-menu pour déconnecter votre compte de l'application. Mais, 
 ![screen](assets/fr/22.webp)
 
 
-Un deuxième section, vous propose les sous-menus : 
+Une deuxième section, vous propose les sous-menus : 
 
 - **Paramètres de l'application**
 

@@ -416,7 +416,7 @@ Un approccio di questo tipo garantisce che non si metta a rischio il proprio ben
 
 ![image](assets/it/023.webp)
 
-Una volta definito il tuo budget, pensa a come vuoi investire. Uno dei metodi più semplici, ampiamente consigliati, per i principianti è il Dollar Cost Averaging (DCA) - i Piano di Accumulo Costante (PAC), che consiste nell'acquistare una quantità fissa di Bitcoin a intervalli regolari (settimanalmente, mensilmente, ecc.). Questa strategia consente di livellare il prezzo medio di ingresso nel tempo e ridurre l'impatto emotivo delle oscillazioni di prezzo. È un approccio intelligente per la maggior parte delle persone, soprattutto per chi è all'inizio.
+Una volta definito il tuo budget, pensa a come vuoi investire. Uno dei metodi più semplici, ampiamente consigliati, per i principianti è il [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca) - i Piano di Accumulo Costante (PAC), che consiste nell'acquistare una quantità fissa di Bitcoin a intervalli regolari (settimanalmente, mensilmente, ecc.). Questa strategia consente di livellare il prezzo medio di ingresso nel tempo e ridurre l'impatto emotivo delle oscillazioni di prezzo. È un approccio intelligente per la maggior parte delle persone, soprattutto per chi è all'inizio.
 
 A questo punto domandati: Qual è il mio orizzonte temporale?
 Vuoi entrare e uscire rapidamente dal mercato (trading)? Oppure sei più affine alla mentalità di conservare Bitcoin a lungo termine e per diversi anni (hodler)? Se sei un hodler, probabilmente ti preoccuperai meno delle oscillazioni giornaliere dei prezzi e ti concentrerai maggiormente per migliorare la sicurezza e l'auto-custodia a lungo termine. Se fai trading, sarai più esposto al rumore del mercato a breve termine, al rischio più elevato e allo stress che spesso deriva dal prendere decisioni rapide. Non esiste una risposta univoca per tutti, ma conoscere il tuo approccio ii aiuterà a orientare le decisioni.
@@ -439,7 +439,7 @@ Soprattutto, non investire mai più di quanto puoi permetterti di perdere. Evita
 
 ### Gestione e protezione del Wallet Bitcoin
 
-Una delle caratteristiche più potenti (e spesso sottovalutate) di Bitcoin è l'**auto-custodia**. Con un Wallet self-hosted (un wallet gestito da te e non da una piattaforma), solo tu sei responsabile dei tuoi fondi. Questi wallet sono in genere derivati da una **recovery phrase** (nota anche come seed phrase), una sequenza di 12 o 24 parole che garantisce l'accesso completo ai tuoi BTC. Se perdi questa frase (o se qualcun altro ne entra in possesso) i tuoi bitcoin sono persi per sempre. **Nessun servizio clienti. Nessun pulsante di reset.**
+Una delle caratteristiche più potenti (e spesso sottovalutate) di Bitcoin è l'**auto-custodia**. Con un Wallet self-hosted (un wallet gestito da te e non da una piattaforma), solo tu sei responsabile dei tuoi fondi. Questi wallet sono in genere derivati da una **recovery phrase** (nota anche come [seed phrase](https://planb.academy/resources/glossary/seed)), una sequenza di 12 o 24 parole che garantisce l'accesso completo ai tuoi BTC. Se perdi questa frase (o se qualcun altro ne entra in possesso) i tuoi bitcoin sono persi per sempre. **Nessun servizio clienti. Nessun pulsante di reset.**
 
 ![image](assets/it/025.webp)
 
@@ -668,7 +668,7 @@ Sebbene questo approccio sia più tecnico, offre agli utenti più esigenti la po
 
 #### Metodo di pagamento senza confini e resiliente
 
-Grazie alla sua natura decentralizzata, Bitcoin opera 24 ore su 24, 7 giorni su 7, senza essere influenzato da confini o fusi orari. Nelle regioni in cui le infrastrutture bancarie tradizionali sono carenti, Bitcoin è spesso utilizzato come soluzione rapida e a basso costo per inviare o ricevere fondi senza affidarsi a intermediari costosi. Le commissioni di transazione possono variare in base al traffico della rete, ma in genere sono molto più basse delle commissioni applicate dalle banche per i trasferimenti internazionali. Inoltre, le soluzioni cosiddette di Layer-2 come Lightning Network, consentono di effettuare transazioni Bitcoin ancora più veloci ed economiche.
+Grazie alla sua natura decentralizzata, Bitcoin opera 24 ore su 24, 7 giorni su 7, senza essere influenzato da confini o fusi orari. Nelle regioni in cui le infrastrutture bancarie tradizionali sono carenti, Bitcoin è spesso utilizzato come soluzione rapida e a basso costo per inviare o ricevere fondi senza affidarsi a intermediari costosi. Le commissioni di transazione possono variare in base al traffico della rete, ma in genere sono molto più basse delle commissioni applicate dalle banche per i trasferimenti internazionali. Inoltre, le soluzioni cosiddette di Layer-2 come [Lightning Network](https://planb.academy/resources/glossary/lightning-network), consentono di effettuare transazioni Bitcoin ancora più veloci ed economiche.
 
 #### Riserva di valore
 
@@ -951,7 +951,7 @@ Gli exchange svolgono un ruolo fondamentale nell'ecosistema Bitcoin, fungendo da
 - un'opzione per gli acquisti automatici ricorrenti (ARP);
 - prelievo facile e gratuito di bitcoin su un wallet personale.
 
-Gli exchange che rispettano le normative locali devono in genere seguire rigidi protocolli **"Know Your Customer "** (KYC), che richiedono agli utenti di fornire documenti di identità prima di accedere ai servizi. Se da un lato questi processi sono pensati per prevenire attività illegali, dall'altro possono compromettere la privacy che Bitcoin offre intrinsecamente.
+Gli exchange che rispettano le normative locali devono in genere seguire rigidi protocolli **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer) "** (KYC), che richiedono agli utenti di fornire documenti di identità prima di accedere ai servizi. Se da un lato questi processi sono pensati per prevenire attività illegali, dall'altro possono compromettere la privacy che Bitcoin offre intrinsecamente.
 
 ![image](assets/it/058.webp)
 
@@ -1136,7 +1136,7 @@ Questo design a layer è in contrasto con gran parte del settore crypto, che spe
 
 ### Strumenti per commercianti che vogliono accettare Bitcoin
 
-Oggi sono disponibili numerosi strumenti per gli esercenti che desiderano accettare Bitcoin come forma di pagamento. Per le piccole imprese che desiderano una configurazione semplice, l'utilizzo di un hot wallet (o anche di un wallet Lightning) è spesso sufficiente per iniziare ad accettare direttamente i pagamenti. Le aziende più grandi, che necessitano di un'adeguata contabilità e rendicontazione, preferiscono solitamente sistemi di elaborazione dei pagamenti più avanzati. Fortunatamente sono disponibili diverse opzioni a seconda delle esigenze.
+Oggi sono disponibili numerosi strumenti per gli esercenti che desiderano accettare Bitcoin come forma di pagamento. Per le piccole imprese che desiderano una configurazione semplice, l'utilizzo di un [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) (o anche di un wallet Lightning) è spesso sufficiente per iniziare ad accettare direttamente i pagamenti. Le aziende più grandi, che necessitano di un'adeguata contabilità e rendicontazione, preferiscono solitamente sistemi di elaborazione dei pagamenti più avanzati. Fortunatamente sono disponibili diverse opzioni a seconda delle esigenze.
 
 Se preferisci una soluzione non vincolante e desideri ricevere la valuta fiat direttamente sul conto bancario, i servizi di custodia come OpenNode offrono un'esperienza semplificata:
 
@@ -1150,7 +1150,7 @@ A metà strada si trova Swiss Bitcoin Pay, una soluzione facile ma potente da us
 
 https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Accettare Bitcoin può portare alle aziende diversi vantaggi pratici e finanziari. Proprio come i contanti, Bitcoin consente di effettuare pagamenti diretti tra cliente ed esercente (senza bisogno di una banca tradizionale). I pagamenti effettuati tramite Lightning Network sono istantanei e definitivi, riducendo il rischio di chargeback. Inoltre, quando gli esercenti detengono i propri Bitcoin (self-custody), acquisiscono una maggiore autonomia finanziaria.
+Accettare Bitcoin può portare alle aziende diversi vantaggi pratici e finanziari. Proprio come i contanti, Bitcoin consente di effettuare pagamenti diretti tra cliente ed esercente (senza bisogno di una banca tradizionale). I pagamenti effettuati tramite Lightning Network sono istantanei e definitivi, riducendo il rischio di chargeback. Inoltre, quando gli esercenti detengono i propri Bitcoin ([self-custody](https://planb.academy/resources/glossary/selfcustody)), acquisiscono una maggiore autonomia finanziaria.
 
 Può anche contribuire a ridurre i costi eliminando le commissioni bancarie e la necessità di terminali di pagamento tradizionali; spesso è sufficiente uno smartphone o un computer portatile. Anche se sono coinvolti processori di pagamento, le commissioni sono generalmente inferiori a quelle applicate dalle banche.
 
@@ -1304,7 +1304,7 @@ Con supporto Lightning: Phoenix, Wallet di Satoshi, BitKit
 Ideale per: principianti, piccoli importi e transazioni frequenti.
 
 
-#### Hardware Wallet
+#### [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)
 
 Gli hardware wallet sono dispositivi fisici che conservano le chiavi private completamente offline. Sono molto più sicuri dei wallet hot perché riducono il rischio di attacchi online.
 

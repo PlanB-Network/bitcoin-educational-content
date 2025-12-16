@@ -29,7 +29,7 @@ No se requiere conocimiento previo para comenzar este curso. BTC 101 fue diseña
 
 Bitcoin es una revolución tecnológica y monetaria, capaz de hacernos cuestionar nuestra relación con el dinero y la sociedad. De hecho, Bitcoin (referido como BTC) es una moneda **neutral** y **descentralizada**, lo que significa que no está controlada por ninguna entidad o institución. Es una innovación que va más allá de una mera "moneda de Internet": es a la vez un protocolo informático (Bitcoin) y una unidad monetaria (bitcoin).
 
-El protocolo utiliza tecnologías subyacentes como la criptografía, la comunicación en red y el famoso "blockchain", mientras que la unidad bitcoin sirve como moneda necesaria para el correcto funcionamiento de este protocolo. En la vida cotidiana, salvadoreños y bitcoiners de todo el mundo utilizan la moneda bitcoin para comprar y vender bienes y servicios, confiando en esta tecnología para mejorar sus vidas.
+El protocolo utiliza tecnologías subyacentes como la criptografía, la comunicación en red y el famoso "[blockchain](https://planb.academy/resources/glossary/blockchain)", mientras que la unidad bitcoin sirve como moneda necesaria para el correcto funcionamiento de este protocolo. En la vida cotidiana, salvadoreños y bitcoiners de todo el mundo utilizan la moneda bitcoin para comprar y vender bienes y servicios, confiando en esta tecnología para mejorar sus vidas.
 
 **Un programa de estudios completo pero accesible:**
 
@@ -681,7 +681,7 @@ Ahora que hemos cubierto los fundamentos de los monederos Bitcoin y las mejores 
 
 ![image](assets/es/038.webp)
 
-El 31 de octubre de 2008 marca el nacimiento de la nueva tecnología financiera que es Bitcoin. Ese día, el anónimo Satoshi Nakamoto presentó su innovación al mundo a través de un correo electrónico enviado a la lista de correo de los cypherpunks, una comunidad de entusiastas de la criptografía dedicada a promover la privacidad en Internet. Este correo contenía un documento llamado "White Paper", que presentaba el funcionamiento de Bitcoin.
+El 31 de octubre de 2008 marca el nacimiento de la nueva tecnología financiera que es Bitcoin. Ese día, el anónimo Satoshi Nakamoto presentó su innovación al mundo a través de un correo electrónico enviado a la lista de correo de los cypherpunks, una comunidad de entusiastas de la criptografía dedicada a promover la privacidad en Internet. Este correo contenía un documento llamado "[White Paper](https://planb.academy/resources/glossary/white-paper)", que presentaba el funcionamiento de Bitcoin.
 
 Esta iniciativa no generó entusiasmo de inmediato, probablemente debido a los fracasos anteriores en los intentos de crear un sistema de dinero digital. No obstante, este Libro Blanco acabó convirtiéndose en una referencia para los usuarios de Bitcoin y ha sido objeto de numerosos debates en el ecosistema Bitcoin a lo largo de los años.
 
@@ -761,7 +761,7 @@ De hecho, los mineros tienen la función de reunir transacciones válidas y no c
 
 ### Paso 3: La transacción es minada en un bloque por un minero.
 
-El sistema Proof of work requiere encontrar un "hash" válido para el bloque en cuestión: piense en él como una huella digital única asociada al bloque, compuesta por 256 caracteres. La validez de este hash depende de la tasa de dificultad de la red Bitcoin (entraremos en más detalles más adelante). Por ahora, considere que un minero ha encontrado un bloque válido, y que la transacción de Bob a Alice está incluida en él. Entonces, el nuevo bloque válido se añade al blockchain, el libro de contabilidad común para todos los usuarios de Bitcoin.
+El sistema [proof of work](https://planb.academy/resources/glossary/proof-of-work) requiere encontrar un "hash" válido para el bloque en cuestión: piense en él como una huella digital única asociada al bloque, compuesta por 256 caracteres. La validez de este hash depende de la tasa de dificultad de la red Bitcoin (entraremos en más detalles más adelante). Por ahora, considere que un minero ha encontrado un bloque válido, y que la transacción de Bob a Alice está incluida en él. Entonces, el nuevo bloque válido se añade al blockchain, el libro de contabilidad común para todos los usuarios de Bitcoin.
 
 ![image](assets/es/048.webp)
 
@@ -838,7 +838,7 @@ Tras esta victoria, los nodos activaron una actualización llamada SegWit, allan
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Los mineros aseguran la red y añaden transacciones a los bloques. Utilizan electricidad a través de máquinas ASIC para resolver la prueba de trabajo de Bitcoin.**
+**Los mineros aseguran la red y añaden transacciones a los bloques. Utilizan electricidad a través de máquinas [ASIC](https://planb.academy/resources/glossary/asic) para resolver la prueba de trabajo de Bitcoin.**
 
 ![image](assets/es/054.webp)
 

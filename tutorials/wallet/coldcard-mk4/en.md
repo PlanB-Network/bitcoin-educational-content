@@ -443,6 +443,6 @@ Alternatively, you can add a `Add If Wrong` action that will be triggered after 
 
 ## Conclusion
 
-This tutorial has provided the guide of how to set up, conduct Bitcoin transactions with Mk4 and use some advanced features of Mk4. It offers secure and flexible ways to store and manage your bitcoins. Its design ensures that private keys never leave the device, while features like passphrases, trick PINs, and air-gapped transactions give users full control over their security setup. It can be paired with Sparrow Wallet for a seamless experience to creating, signing, and managing Bitcoin transactions—without compromising privacy or security. 
+This tutorial has provided the guide on how to set up Mk4, how to conduct Bitcoin transactions with Mk4 and how to use some advanced features of Mk4. It offers secure and flexible ways to store and manage your bitcoins. Its design ensures that private keys never leave the device, while features like passphrases, trick PINs, and air-gapped transactions give users full control over their security setup. It can be paired with Sparrow Wallet for a user-friendly experience to creating, signing, and managing Bitcoin transactions without compromising privacy or security. 
 
-If you wish to explore other functionalities, you can check the documentation on Coinkite's website [here](https://coldcard.com/docs/). I hope you find this tutorial beneficial when you are using Coldcard Mk4. Thank you and see you next time!
+If you wish to explore other functionalities, you can check the documentation on Coinkite's website [here](https://coldcard.com/docs/). I hope you find this tutorial beneficial when you are using your Coldcard Mk4. Thank you and see you next time!

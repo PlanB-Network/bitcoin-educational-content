@@ -1045,6 +1045,8 @@ Dennoch gibt es in El Salvador und in anderen Teilen der Welt immer mehr Einzelp
 
 ![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+*Quelle : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
 Darüber hinaus wurde ein Open-Source- und Gemeinschaftsprojekt ins Leben gerufen, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), um die Verwendung von Bitcoin bei alltäglichen Transaktionen zu erleichtern. Diese Plattform listet alle Händler auf, die Bitcoin akzeptieren, sowie die verschiedenen Bitcoin-Gemeinschaften auf der ganzen Welt, so dass du ihre Website besuchen kannst, um das Bitcoin-Ökosystem um dich herum zu entdecken. Trotz der Schwierigkeiten und des Zögerns gibt es also Initiativen wie BTCMap, die dazu beitragen, die Bitcoin-Wirtschaft für alle zugänglicher und bequemer zu machen.
 
 ### Warum sollten wir Bitcoins akzeptieren, anstatt sie zu kaufen?

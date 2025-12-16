@@ -1545,6 +1545,8 @@ Ubukungu bwa Bitcoin burahari kandi buriko buratera imbere mu turere tumwe tw’
 
 ![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+*Isôko : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
 
 Ivyiyongerako, harashizweho umugambi w’ubuhinga bufunguye kandi bukorana n’abandi, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), kugira ngo bishobore kworohereza ikoreshwa rya Bitcoin mu bikorwa vya misi yose. Iyi nzira iratanga urutonde rw’abacuruzi bose bemera Bitcoin, hamwe n’imiryango itandukanye ya Bitcoin kw’isi yose, kugira ngo ushobore kuraba urubuga rwabo kugira ngo uvumbure imiryango ya Bitcoin igukikije. Gutyo, naho hari ingorane n’ugukekeranya, hariho imigambi nka BTCMap zifasha mu gutuma ubutunzi bwa Bitcoin bushikira kandi bubereye umuntu wese.
 

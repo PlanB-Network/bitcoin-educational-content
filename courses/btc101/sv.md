@@ -1069,6 +1069,8 @@ Trots detta finns det i El Salvador och i andra delar av världen allt fler indi
 
 ![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+*Källa : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
 Dessutom har ett open source- och samarbetsprojekt lanserats, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), för att underlätta användningen av Bitcoin i vardagliga transaktioner. Denna plattform listar alla handlare som accepterar Bitcoin, liksom de olika Bitcoin-samhällena runt om i världen, så att du kan besöka deras webbplats för att upptäcka Bitcoin-ekosystemet runt omkring dig. Trots svårigheter och tveksamheter finns det alltså initiativ som BTCMap som bidrar till att göra Bitcoin-ekonomin mer tillgänglig och bekväm för alla.
 
 ### Varför ska vi acceptera Bitcoin istället för att köpa dem?

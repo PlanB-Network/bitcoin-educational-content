@@ -1081,6 +1081,8 @@ Tuy nhiên, ở El Salvador và ở những nơi khác trên thế giới, ngày
 
 ![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+*Nguồn : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
 Bên cạnh đó, một dự án hợp tác mã nguồn mở đã được ra mắt, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), để tạo điều kiện thuận lợi cho việc sử dụng Bitcoin trong các giao dịch hàng ngày. Nền tảng này liệt kê tất cả các thương gia chấp nhận Bitcoin, cũng như các cộng đồng Bitcoin khác nhau trên toàn thế giới, để bạn có thể truy cập trang web của họ để khám phá hệ sinh thái Bitcoin xung quanh bạn. Do đó, bất chấp những khó khăn và do dự, vẫn có những sáng kiến như BTCMap góp phần làm cho nền kinh tế Bitcoin dễ tiếp cận và thuận tiện hơn cho mọi người.
 
 ### Tại sao chúng ta nên chấp nhận Bitcoin thay vì mua nó?

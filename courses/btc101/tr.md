@@ -1550,6 +1550,8 @@ Bununla birlikte, El Salvador'da ve dünyanın diğer bölgelerinde, Bitcoin'yi 
 ![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
 
+*Kaynak : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
 Buna ek olarak, günlük işlemlerde Bitcoin kullanımını kolaylaştırmak için [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680) adlı açık kaynaklı ve işbirliğine dayalı bir proje başlatılmıştır. Bu platform, Bitcoin'i kabul eden tüm tüccarların yanı sıra dünyadaki farklı Bitcoin topluluklarını listeler; böylece çevrenizdeki Bitcoin ekosistemini keşfetmek için web sitelerini ziyaret edebilirsiniz. Dolayısıyla, zorluklara ve tereddütlere rağmen, BTCMap gibi Bitcoin ekonomisini herkes için daha erişilebilir ve kullanışlı hale getirmeye katkıda bulunan girişimler vardır.
 
 

@@ -1039,6 +1039,8 @@ Toch zijn er in El Salvador en in andere delen van de wereld steeds meer individ
 
 ![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+*Bron : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
 Daarnaast is er een open-source en samenwerkingsproject gelanceerd, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), om het gebruik van Bitcoin in alledaagse transacties te vergemakkelijken. Dit platform geeft een overzicht van alle bedrijven, winkeliers en handelaren die Bitcoin accepteren, evenals de verschillende Bitcoin gemeenschappen over de hele wereld, dus je kunt hun website bezoeken om het Bitcoin ecosysteem om je heen te ontdekken. Dus, ondanks de moeilijkheden en aarzelingen, zijn er initiatieven zoals BTCMap die bijdragen aan het toegankelijker en gemakkelijker maken van de Bitcoin economie voor iedereen.
 
 ### Waarom zouden we Bitcoin accepteren in plaats van het te kopen?

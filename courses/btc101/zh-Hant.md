@@ -1065,6 +1065,8 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+*來源 : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
 此外，一個開源且協作性的專案[BTCMap](https://btcmap.org/map#2/21.28937/5.46680)已經啟動，以方便在日常交易中使用比特幣。這個平台列出了所有接受比特幣的商家，以及世界各地不同的比特幣社區，您可以訪問他們的網站，探索你周圍的比特幣商家與社群。因此，儘管有許多困難和猶疑，還是有一些像 BTCMap 這樣的項目，為比特幣經濟的普及和便利做出了貢獻。
 
 ### 為什麼我們要接受比特幣而不是購買它？

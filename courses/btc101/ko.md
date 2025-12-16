@@ -1545,6 +1545,8 @@ Bitcoin은 상품이나 서비스를 판매하고 Bitcoin로 결제할 수 있�
 ![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
 
+*출처 : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
 또한, 일상적인 거래에서 Bitcoin의 사용을 촉진하기 위해 오픈 소스 및 협업 프로젝트인 [BTCMap](https://btcmap.org/map#2/21.28937/5.46680)이 시작되었습니다. 이 플랫폼에는 Bitcoin을 허용하는 모든 가맹점과 전 세계의 다양한 Bitcoin 커뮤니티가 나열되어 있으므로 웹사이트를 방문하여 주변의 Bitcoin 생태계를 살펴볼 수 있습니다. 따라서 어려움과 망설임에도 불구하고 BTC맵과 같은 이니셔티브는 모든 사람이 Bitcoin 경제에 더 쉽게 접근하고 편리하게 이용할 수 있도록 하는 데 기여하고 있습니다.
 
 

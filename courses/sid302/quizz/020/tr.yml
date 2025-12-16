@@ -1,0 +1,8 @@
+question: Liquid'ın Dinamik Federasyon (Dynafed) geçiş süreci sırasında bir görevlinin değiştirilmesi gerektiğinde ağ yapılandırmasına ne olur?
+answer: Ağ bir geçiş işlemi yayınlar ve ardından yeni yapılandırma devreye girmeden önce iki haftalık bir çakışma dönemi başlar
+wrong_answers:
+  - Ağ, geçiş işlemini yayınladıktan sonra hemen yeni işlevsel yapılandırmaya geçer
+  - Herhangi bir yapılandırma değişikliği gerçekleşmeden önce tüm görevlilerin aynı anda değişimi onaylamak için oy kullanması gerekir
+  - Ağ, görevli listesini güncellemek ve işlemleri yeniden başlatmak için sert bir fork ve geçici kapatma gerektirir
+explanation: |
+  Dinamik Federasyon, Liquid'nin dikkatlice düzenlenmiş bir geçiş süreci aracılığıyla sert çatallar olmadan gelişmesine olanak tanır. Görevli değişimi gerektiğinde, ağ yaklaşan değişikliği işaret eden bir geçiş işlemi yayınlar. Bunu, hem eski hem de yeni yapılandırmaların bir arada bulunduğu ve kesintisiz sürekliliğin sağlandığı iki haftalık zorunlu bir çakışma dönemi takip eder. Diğer seçenekler yanlıştır çünkü ani geçiş ağ istikrarsızlığı riskini doğurur, eşzamanlı oylama kullanılan mekanizma değildir ve sert çatallanmalar özellikle Dynafed'in kaçınmak için tasarlandığı şeydir.

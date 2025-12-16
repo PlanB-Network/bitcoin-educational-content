@@ -1,0 +1,8 @@
+question: Que mecanismo específico garante que os nós pré-SegWit aceitam as transacções P2WPKH como válidas sem compreenderem as regras de validação de testemunhas?
+answer: Os nós pré-SegWit interpretam o script OP_0 + hash de 20 bytes como uma saída "anyone-can-spend" que não requer verificação de assinatura
+wrong_answers:
+  - Os nós pré-SegWit reencaminham automaticamente as transacções P2WPKH para os nós actualizados para validação de testemunhas antes de as aceitarem
+  - Os nós pré-SegWit reconhecem o padrão P2WPKH e saltam completamente a validação, tratando todas as transacções de testemunhas como pré-validadas
+  - Os nós pré-SegWit convertem os dados da testemunha de volta para o formato tradicional scriptSig utilizando regras de transformação de compatibilidade com versões anteriores
+explanation: |
+  A genialidade do design do SegWit reside na exploração da forma como os nós anteriores ao SegWit lidam com padrões de script desconhecidos. Quando esses nós mais antigos encontram um script P2WPKH (OP_0 seguido de um push de 20 bytes), eles não o reconhecem como um programa testemunha especial. Em vez disso, eles avaliam-no como um script padrão que deixa OP_0 e o hash na pilha. Uma vez que OP_0 é avaliado como falso no sistema de script do Bitcoin, os nós pré-SegWit interpretam isso como uma condição 'anyone-can-spend' - o que significa que nenhuma verificação de assinatura é necessária de sua perspetiva. Isto permite que a transação seja aceite no seu mempool e blocos sem quebrar o consenso, enquanto os nós com conhecimento do SegWit executam a validação criptográfica real usando os dados da testemunha.

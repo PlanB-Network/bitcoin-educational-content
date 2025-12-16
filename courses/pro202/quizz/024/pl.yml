@@ -1,0 +1,8 @@
+question: Jaki jest główny powód, dla którego łamigłówki skryptowe polegające wyłącznie na danych publicznych bez sprawdzania podpisów są podatne na ataki w Bitcoin?
+answer: Górnicy mogą skopiować rozwiązanie z mempool i przekierować wypłatę do siebie
+wrong_answers:
+  - Wykonanie skryptu staje się niedeterministyczne w różnych węzłach sieci
+  - Czas weryfikacji transakcji rośnie czterokrotnie wraz ze złożonością układanki
+  - Model wykonywania oparty na stosie nie jest w stanie bezpiecznie obsługiwać złożonych operacji matematycznych
+explanation: |
+  Zagadki skryptowe, które opierają się wyłącznie na danych publicznych (takich jak problemy matematyczne lub wstępne obrazy hash) bez sprawdzania podpisów, są podatne na front-running górników. Gdy ważne rozwiązanie pojawi się w mempool, każdy górnik może je zaobserwować, skopiować rozwiązanie i utworzyć własną transakcję przekierowującą wypłatę na jego adres. Właśnie dlatego rzeczywiste kontrakty Bitcoin prawie zawsze zawierają kontrolę podpisów - podpisy wiążą rozwiązanie z konkretną stroną i uniemożliwiają innym kradzież wypłaty, zachowując odpowiednie zachęty dla rozwiązujących łamigłówki.

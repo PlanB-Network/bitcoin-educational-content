@@ -1,0 +1,8 @@
+question: Dlaczego starsza walidacja transakcji Bitcoin wykazuje kwadratową złożoność czasową w odniesieniu do liczby danych wejściowych?
+answer: Każde wejście wymaga własnego obliczenia sighash nad strukturą, która zawiera wszystkie wejścia w transakcji
+wrong_answers:
+  - Każde wejście musi weryfikować podpisy względem wszystkich innych wejść, aby zapobiec double-spending w ramach transakcji
+  - Model wykonywania oparty na stosie wymaga zagnieżdżonych pętli do przetwarzania kodów operacyjnych dla każdej kombinacji danych wejściowych
+  - "ScriptSig każdego wejścia musi zostać zweryfikowany względem ScriptPubKey każdego wyjścia, aby znaleźć prawidłowe dopasowanie"
+explanation: |
+  Starsza walidacja Bitcoin tworzy kwadratową złożoność, ponieważ każde wejście wymaga własnego obliczenia sighash, ale każde obliczenie przetwarza strukturę transakcji zawierającą wszystkie dane wejściowe. Przy n danych wejściowych tworzy to n×n operacji. SegWit rozwiązał to poprzez buforowanie współdzielonych części obliczeń sighash, zmniejszając złożoność do czasu liniowego i zapobiegając potencjalnym atakom typu denial-of-service z dużych transakcji z wieloma danymi wejściowymi.

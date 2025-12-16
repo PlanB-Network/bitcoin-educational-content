@@ -1,0 +1,8 @@
+question: 在交易建立過程中為 P2SH 輸入產生簽章時，必須在 sighash 計算過程中使用何種腳本？
+answer: 必須使用贖回指令碼來取代 scriptPubKey
+wrong_answers:
+  - 必須直接使用包含切細值的原始 scriptPubKey
+  - 必須同時使用 scriptPubKey 和贖回指令碼的組合
+  - 必須改用包含解鎖資料的 ScriptSig
+explanation: |
+  在 P2SH 簽章產生過程中，sighash 程序需要使用 redeem 腳本來取代 scriptPubKey。這一點非常重要，因為 scriptPubKey 只包含 redeem 腳本的哈希值，而非實際的支出條件。兌換腳本包含真正的邏輯 (例如多重簽名要求)，可決定如何使用輸出，因此簽名必須針對這個底層腳本產生才有效。直接使用 scriptPubKey 會失敗，因為它只包含雜湊比較，而不是需要滿足的實際支出條件。

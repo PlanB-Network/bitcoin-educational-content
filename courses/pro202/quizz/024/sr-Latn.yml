@@ -1,0 +1,8 @@
+question: Koji je primarni razlog da su skript zagonetke koje se oslanjaju samo na javne podatke bez provere potpisa ranjive u Bitcoin?
+answer: Rudari mogu kopirati rešenje iz mempool-a i preusmeriti isplatu na sebe
+wrong_answers:
+  - Izvršavanje skripte postaje nedeterminističko na različitim mrežnim čvorovima
+  - Vreme validacije transakcije povećava se kvadratno sa složenošću zagonetke
+  - Model izvršavanja zasnovan na steku ne može bezbedno da obradi složene matematičke operacije
+explanation: |
+  Skripte zagonetki koje se oslanjaju samo na javne podatke (kao što su matematički problemi ili preimage heševi) bez provere potpisa su ranjive na front-running od strane rudara. Kada se validno rešenje pojavi u mempool-u, bilo koji rudar može da ga uoči, kopira rešenje i kreira svoju transakciju preusmeravajući isplatu na svoju adresu. Zbog toga stvarni Bitcoin ugovori gotovo uvek uključuju provere potpisa - potpisi vezuju rešenje za određenu stranu i sprečavaju druge da ukradu isplatu, čuvajući pravilne podsticaje za rešavače zagonetki.

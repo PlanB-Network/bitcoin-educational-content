@@ -1,0 +1,8 @@
+question: Mis juhtub Merkle'i puu konstrueerimisel tehingutest, kui hashide arv mis tahes tasandil on paaritu?
+answer: Viimane hash dubleeritakse, et luua järgmise taseme jaoks paariline arv paare
+wrong_answers:
+  - Viimane hash kantakse muutmata kujul järgmisele tasandile ilma paarita
+  - Viimane hash on XOR-ühendusega selle tasandi esimese hashiga, et viia lõpule paaride moodustamine
+  - Viimane hash kombineeritakse null-hashiga (kõik nullid), et luua lõplik paar
+explanation: |
+  Bitcoin Merkle'i puu konstrueerimiseks on vaja igal tasandil paaritada hashid. Kui on olemas paaritu arv, dubleerib protokoll spetsiaalselt viimast hash'i, et tagada nõuetekohane paaritamine. See säilitab puu binaarse struktuuri ja tagab deterministliku juurte arvutamise. Teised võimalused rikuksid Bitcoin konsensusreeglitega ühilduvust ja looksid identsete tehingukogumite jaoks erinevad Merkle'i juured.

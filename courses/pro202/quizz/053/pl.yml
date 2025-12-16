@@ -1,0 +1,8 @@
+question: Z jakim konkretnym wyzwaniem związanym z konwersją endianness muszą poradzić sobie węzły Bitcoin podczas konstruowania i weryfikacji drzew Merkle z danych transakcyjnych?
+answer: Hasze transakcji muszą być odwrócone z formatu serializowanego little-endian do big-endian dla wewnętrznych obliczeń drzewa, a następnie odwrócone z powrotem do przechowywania
+wrong_answers:
+  - Nagłówki bloków muszą zostać przekonwertowane z big-endian na little-endian przed obliczeniem korzenia Merkle, aby dopasować je do formatu transmisji sieciowej
+  - Ostateczny korzeń Merkle musi zostać przekonwertowany z big-endian na little-endian tylko podczas przesyłania do innych węzłów za pośrednictwem komunikatów P2P
+  - Identyfikatory transakcji są przechowywane w formacie big-endian, ale muszą zostać przekonwertowane na format little-endian przed haszowaniem par w drzewie Merkle'a
+explanation: |
+  Konstrukcja drzewa Merkle'a w Bitcoin obejmuje krytyczny krok konwersji endianness. Podczas gdy serializowane dane blokowe używają formatu little-endian, wewnętrzne obliczenia drzewa Merkle wymagają skrótów big-endian. Węzły muszą odwrócić skróty transakcji z ich serializowanego formatu little-endian do big-endian przed konstrukcją drzewa, a następnie odwrócić końcowy root z powrotem do formatu little-endian do przechowywania w nagłówku bloku. Ta konwersja jest niezbędna do prawidłowej weryfikacji.

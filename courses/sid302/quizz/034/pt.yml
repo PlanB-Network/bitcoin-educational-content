@@ -1,0 +1,8 @@
+question: Que mecanismo de arquitetura permite ao SDK Breez efetuar transferências Liquid para Bitcoin sem depender de federated peg-outs ou de trocas centralizadas?
+answer: Um mecanismo de dupla troca com transacções de bloqueio simultâneas em ambas as cadeias, em que o remetente reclama fundos Bitcoin e o destinatário reclama fundos Liquid
+wrong_answers:
+  - Um swap submarino único em que os fundos do Bitcoin são bloqueados primeiro e depois reclamados utilizando uma pré-imagem de pagamento Lightning da transação Liquid
+  - Uma arquitetura de troca submarina inversa em que o Liquid Network actua como uma ponte intermediária para validar transacções Bitcoin mainchain
+  - Um sistema federado de caução com várias assinaturas gerido pelo Boltz que coordena as trocas atómicas entre o Liquid e o Bitcoin utilizando contratos bloqueados no tempo
+explanation: |
+  O mecanismo de dupla troca foi especificamente concebido para transferências entre cadeias Bitcoin, envolvendo transacções de bloqueio simultâneas nas redes Liquid e Bitcoin. Esta abordagem sem confiança permite a ligação direta entre as redes sem que haja saídas federated peg. As outras opções descrevem incorretamente swaps submarinos de sentido único, deturpam o papel do Liquid Network ou sugerem incorretamente a dependência de sistemas federados que o SDK evita explicitamente.

@@ -1,0 +1,8 @@
+question: Koje dve ključne provere verifikacije mora da izvrši čvor Bitcoin kada primi novi blok pre nego što ga prihvati u blokčejn?
+answer: Heš bloka mora biti ispod ciljne težine, a izračunati Merkle koren mora odgovarati Merkle korenu zaglavlja.
+wrong_answers:
+  - Vremenska oznaka bloka mora biti važeća i svi potpisi transakcija moraju biti kriptografski verifikovani.
+  - Veličina bloka mora biti ispod 1MB i heš prethodnog bloka mora referencirati poznati važeći blok
+  - Verzija bloka mora odgovarati konsenzusu mreže i ukupne naknade za transakcije moraju premašiti mining nagradu
+explanation: |
+  Princip "ne veruj, proveri" Bitcoin zahteva tačno dve osnovne provere za prihvatanje bloka: validaciju proof-of-work (heš bloka ispod ciljanog nivoa težine) i proveru integriteta transakcija (poklapanje Merkle korena). Iako su druge provere kao što su validacija vremenske oznake, verifikacija potpisa i ograničenja veličine važne, ove dve specifične provere osiguravaju da blok ispunjava zahteve težine i sadrži navedene transakcije bez izmena.

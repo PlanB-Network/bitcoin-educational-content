@@ -1,0 +1,8 @@
+question: Wakati wa kutengeneza sahihi za ingizo la P2SH wakati wa ujenzi wa muamala, ni hati gani lazima itumike katika mchakato wa hesabu ya sighash?
+answer: Hati ya kukomboa lazima itumike badala ya scriptPubKey
+wrong_answers:
+  - ScriptPubKey asili iliyo na hash lazima itumike moja kwa moja
+  - Mchanganyiko wa hati ya scriptPubKey na redeem lazima utumike
+  - ScriptSig iliyo na data ya kufungua lazima itumike badala yake
+explanation: |
+  Wakati wa uzalishaji wa sahihi ya P2SH, mchakato wa sighash unahitaji kutumia hati ya ukombozi badala ya scriptPubKey. Hii ni muhimu kwa sababu scriptPubKey ina hash ya hati ya ukombozi pekee, si masharti halisi ya matumizi. Hati ya ukombozi ina mantiki halisi (kama mahitaji ya multisig) ambayo huamua jinsi matokeo yanaweza kutumika, kwa hivyo saini lazima zizalishwe dhidi ya hati hii ya msingi ili iwe halali. Kutumia scriptPubKey moja kwa moja kutashindwa kwa sababu ina ulinganisho wa hash tu, si masharti halisi ya matumizi ambayo yanahitaji kuridhika.

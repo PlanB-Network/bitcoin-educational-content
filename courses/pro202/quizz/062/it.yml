@@ -1,0 +1,8 @@
+question: Nella pila dei testimoni di una transazione P2WSH per una multisigma 2 su 3, perché deve essere incluso un elemento vuoto in fondo alla pila dei testimoni?
+answer: Per compensare il bug di CHECKMULTISIG che consuma un elemento di stack in più durante l'esecuzione
+wrong_answers:
+  - "Per fornire un segnaposto per la terza firma che non è stata utilizzata nella convalida multisigma 2 su 3"
+  - Per separare i dati della firma dallo script del testimone per una corretta analisi della convalida SegWit
+  - Per garantire che la pila dei testimoni abbia un numero pari di elementi per un'efficiente costruzione dell'albero di merkle
+explanation: |
+  L'opcode CHECKMULTISIG presenta un bug storico per cui viene estratto un elemento in più dallo stack rispetto a quello che dovrebbe essere necessario. Ciò riguarda tutte le transazioni multisig, comprese le P2WSH. L'elemento vuoto compensa questo errore, assicurando che i restanti elementi dello stack (firme e script del testimone) siano posizionati correttamente per la convalida. Le altre opzioni non sono corrette: le firme non utilizzate non sono rappresentate da elementi vuoti, l'analisi dei testimoni non richiede elementi di separazione e le pile di testimoni non necessitano di un numero di elementi pari per le operazioni di merkle.

@@ -127,7 +127,7 @@ Bildet nedenfor illustrerer tydelig utviklingen av bevegelsen gjennom dens mange
 
 ![image](assets/nb-NO/005.webp)
 
-Det var i dette fruktbare miljøet at den mystiske Satoshi Nakamoto publiserte Bitcoin-hvitboken i 2008. I dette dokumentet kombinerte han flere ideer fra cypherpunk-bevegelsen, som proof of work og kryptografiske tidsstempler, for å skape en desentralisert og sensurresistent digital valuta.
+Det var i dette fruktbare miljøet at den mystiske Satoshi Nakamoto publiserte Bitcoin-hvitboken i 2008. I dette dokumentet kombinerte han flere ideer fra cypherpunk-bevegelsen, som [proof of work](https://planb.academy/resources/glossary/proof-of-work) og kryptografiske tidsstempler, for å skape en desentralisert og sensurresistent digital valuta.
 
 Bitcoin var imidlertid mer enn bare det: Den representerte virkeliggjøringen av cypherpunk-idealene. Utover teknologien symboliserte den en revolusjon mot tradisjonelle finanssystemer og tilbød et alternativ basert på åpenhet, desentralisering og individuell suverenitet.
 
@@ -679,7 +679,7 @@ Nå som vi har gått gjennom det grunnleggende om Bitcoin-lommebøker og beste p
 
 ![image](assets/nb-NO/038.webp)
 
-31. oktober 2008 markerer fødselen til den nye finansielle teknologien som er Bitcoin. Denne dagen presenterte den anonyme Satoshi Nakamoto innovasjonen sin for verden gjennom en e-post som ble sendt til e-postlisten til cypherpunks, et fellesskap av kryptografientusiaster som jobber for å fremme personvern på internett. E-posten inneholdt et dokument kalt "White Paper", som presenterte hvordan Bitcoin fungerte.
+31. oktober 2008 markerer fødselen til den nye finansielle teknologien som er Bitcoin. Denne dagen presenterte den anonyme Satoshi Nakamoto innovasjonen sin for verden gjennom en e-post som ble sendt til e-postlisten til cypherpunks, et fellesskap av kryptografientusiaster som jobber for å fremme personvern på internett. E-posten inneholdt et dokument kalt "[White Paper](https://planb.academy/resources/glossary/white-paper)", som presenterte hvordan Bitcoin fungerte.
 
 Initiativet vakte ikke umiddelbart begeistring, sannsynligvis på grunn av de tidligere mislykkede forsøkene på å skape et digitalt kontantsystem. Likevel ble denne hvitboken etter hvert en referanse for Bitcoin-brukere, og den har vært gjenstand for mange debatter i Bitcoin-økosystemet opp gjennom årene.
 
@@ -836,7 +836,7 @@ Etter denne seieren aktiverte nodene en oppdatering kalt SegWit, som banet vei f
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-\*\*Minere sikrer nettverket og legger til transaksjoner i blokkene. De bruker elektrisitet gjennom ASIC-maskiner for å løse Bitcoin proof of work
+\*\*Minere sikrer nettverket og legger til transaksjoner i blokkene. De bruker elektrisitet gjennom [ASIC](https://planb.academy/resources/glossary/asic)-maskiner for å løse Bitcoin proof of work
 
 ![image](assets/nb-NO/054.webp)
 

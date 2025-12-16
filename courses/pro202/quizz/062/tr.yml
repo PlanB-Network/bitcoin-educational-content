@@ -1,0 +1,8 @@
+question: Bir P2WSH işleminin 2-of-3 multisig için tanık yığınında, tanık yığınının en altında neden boş bir öğe bulunmalıdır?
+answer: CHECKMULTISIG'in yürütme sırasında fazladan bir yığın elemanı tüketen off-by-one hatasını telafi etmek için
+wrong_answers:
+  - "3'te 2 multisig doğrulamasında kullanılmayan üçüncü imza için bir yer tutucu sağlamak için"
+  - Doğru SegWit doğrulama ayrıştırması için imza verilerini tanık kodundan ayırmak için
+  - Verimli merkle ağacı inşası için tanık yığınının çift sayıda elemana sahip olmasını sağlamak
+explanation: |
+  CHECKMULTISIG işlem kodu, yığından ihtiyaç duyması gerekenin ötesinde fazladan bir öğe çıkardığı tarihsel bir hataya sahiptir. Bu, P2WSH dahil olmak üzere tüm multisig işlemlerini etkiler. Boş öğe bu hatayı telafi eder ve kalan yığın öğelerinin (imzalar ve tanık komut dosyası) doğrulama için doğru şekilde konumlandırılmasını sağlar. Diğer seçenekler yanlıştır: kullanılmayan imzalar boş öğelerle temsil edilmez, tanık ayrıştırması ayırma öğeleri gerektirmez ve tanık yığınları merkle işlemleri için eşit öğe sayılarına ihtiyaç duymaz.

@@ -1011,7 +1011,7 @@ Mặc dù phương pháp này mang tính kỹ thuật hơn, nhưng nó cung cấ
 #### Một phương thức thanh toán xuyên biên giới linh hoạt
 
 
-Nhờ tính chất phi tập trung, Bitcoin hoạt động 24/7, không bị ảnh hưởng bởi biên giới hay múi giờ. Tại những khu vực còn thiếu cơ sở hạ tầng ngân hàng truyền thống, Bitcoin thường được sử dụng như một giải pháp nhanh chóng, chi phí thấp để gửi hoặc nhận tiền mà không cần phụ thuộc vào các trung gian đắt đỏ. Mặc dù phí giao dịch có thể thay đổi tùy theo tình trạng tắc nghẽn mạng, nhưng nhìn chung vẫn thấp hơn nhiều so với phí mà các ngân hàng áp dụng cho các giao dịch chuyển khoản quốc tế. Ngoài ra, các giải pháp Layer-2 như Lightning Network cho phép giao dịch Bitcoin nhanh hơn và rẻ hơn.
+Nhờ tính chất phi tập trung, Bitcoin hoạt động 24/7, không bị ảnh hưởng bởi biên giới hay múi giờ. Tại những khu vực còn thiếu cơ sở hạ tầng ngân hàng truyền thống, Bitcoin thường được sử dụng như một giải pháp nhanh chóng, chi phí thấp để gửi hoặc nhận tiền mà không cần phụ thuộc vào các trung gian đắt đỏ. Mặc dù phí giao dịch có thể thay đổi tùy theo tình trạng tắc nghẽn mạng, nhưng nhìn chung vẫn thấp hơn nhiều so với phí mà các ngân hàng áp dụng cho các giao dịch chuyển khoản quốc tế. Ngoài ra, các giải pháp Layer-2 như [Lightning Network](https://planb.academy/resources/glossary/lightning-network) cho phép giao dịch Bitcoin nhanh hơn và rẻ hơn.
 
 
 #### Một kho lưu trữ giá trị
@@ -1542,7 +1542,7 @@ Ngành công nghiệp Bitcoin Wallet được chia thành nhiều loại, mỗi 
 
 
 
-- Các nhà sản xuất Hardware Wallet**: Các công ty này phát triển các thiết bị vật lý được thiết kế để lưu trữ khóa an toàn. Một số là mã nguồn mở, trong khi những công ty khác cung cấp các giải pháp độc quyền với nhiều tính năng và mức độ bảo mật khác nhau. Những cái tên đáng chú ý bao gồm Ledger, Trezor, Coinkite, Foundation và Shiftcrypto.
+- Các nhà sản xuất [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Các công ty này phát triển các thiết bị vật lý được thiết kế để lưu trữ khóa an toàn. Một số là mã nguồn mở, trong khi những công ty khác cung cấp các giải pháp độc quyền với nhiều tính năng và mức độ bảo mật khác nhau. Những cái tên đáng chú ý bao gồm Ledger, Trezor, Coinkite, Foundation và Shiftcrypto.
 - Software Wallet Developers**: Bao gồm các công ty và nhà phát triển độc lập chuyên tạo ứng dụng di động và máy tính để bàn. Các sản phẩm của họ đa dạng về trải nghiệm người dùng, bảo mật và tính năng. Ví dụ bao gồm Sparrow, Wizard Sardine, Galoy, Synonym và Blockstream.
 - Ví DIY (*Tự làm*): Các giải pháp mã nguồn mở này được thiết kế cho người dùng nâng cao muốn kiểm soát hoàn toàn và ít phụ thuộc vào bên thứ ba. Việc tự xây dựng Wallet giúp giảm thiểu sự phụ thuộc vào độ tin cậy và có thể tăng cường khả năng bảo mật của bạn. Các tùy chọn DIY đáng chú ý bao gồm Seedsigner và Spectre DIY.
 

@@ -1,0 +1,8 @@
+question: Mikä on sighash-rakennusprosessin ensisijainen tarkoitus Bitcoin-tapahtuman validoinnissa?
+answer: Luoda täsmälleen sama viesti, joka on alun perin allekirjoitettu yksityisellä avaimella allekirjoituksen todentamista varten
+wrong_answers:
+  - generate:lle tapahtuman yksilöllinen tunniste, joka estää double-spending:n hyökkäykset
+  - Tapahtumatietojen pakkaaminen pienempään muotoon tehokasta verkkolähetystä varten
+  - Salata tapahtuman sisältö niin, että vain vastaanottaja voi purkaa salauksen ja käyttää kolikot
+explanation: |
+  Sighash-rakenne luo tarkan viestin, joka on allekirjoitettu yksityisellä avaimella, jolloin OP_CHECKSIG voi tarkistaa allekirjoituksen aitouden. Tähän prosessiin kuuluu ScriptSigien tyhjentäminen, nykyisen syötteen ScriptSigin korvaaminen sitä vastaavalla ScriptPubKey-avaimella ja hash-tyypin lisääminen ennen kaksinkertaista hassatusta. Muut vaihtoehdot ovat virheellisiä: transaktioiden tunnukset toimivat tunnisteina, pakkaus käsitellään erikseen ja Bitcoin:n transaktioita ei salata, vaan ne näkyvät julkisesti lohkoketjussa.

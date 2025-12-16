@@ -1,0 +1,8 @@
+question: Quelle est la propriété mathématique qui rend impossible l'inversion de l'opération k-P sur une courbe elliptique ?
+answer: Le problème du logarithme discret
+wrong_answers:
+  - Arithmétique modulaire dans les corps finis
+  - La propriété du point à l'infini
+  - L'équation de la courbe y² = x³ + 7
+explanation: |
+  Le problème du logarithme discret est le fondement mathématique de la sécurité de la cryptographie à courbe elliptique. Si le calcul de k-P (multiplication scalaire) est facile à réaliser, il est extrêmement difficile de trouver k lorsque P et k-P sont donnés - c'est ce que l'on appelle le problème du logarithme discret de la courbe elliptique. Les autres options sont des composants mathématiques importants mais ne constituent pas la barrière de sécurité : l'arithmétique des corps finis permet les opérations, le point à l'infini sert d'élément d'identité et l'équation de la courbe définit la structure, mais aucune de ces options ne crée l'infaisabilité de calcul qui protège la sécurité cryptographique de Bitcoin.

@@ -29,7 +29,7 @@ Welcome to the BTC101 course!
 
 Bitcoin is a technological and a monetary revolution, capable of making us question our relationship with money and society. In fact, Bitcoin (referred to as BTC) is a **neutral** and **decentralized** currency, which means that it is not controlled by any entity or institution. It is an innovation that goes beyond a mere "internet currency": it is both a computer protocol (Bitcoin) and a monetary unit (bitcoin).
 
-The Bitcoin protocol uses underlying technologies such as cryptography, network communication, and the famous "blockchain", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
+The Bitcoin protocol uses underlying technologies such as cryptography, network communication, and the famous "[blockchain](https://planb.academy/resources/glossary/blockchain)", while the bitcoin unit serves as the necessary currency for the proper functioning of this protocol. In everyday life, Salvadorians and bitcoiners around the world use the bitcoin currency to buy and sell goods and services, relying on this technology to make their lives better.
 
 **A comprehensive yet accessible curriculum:**
 
@@ -126,7 +126,7 @@ The image below clearly illustrates the development of the movement through its 
 
 ![image](assets/en/005.webp)
 
-It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as proof of work and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
+It was in this fertile environment that the mysterious Satoshi Nakamoto published the Bitcoin whitepaper in 2008. In this document, he combined several ideas from the cypherpunk movement, such as [proof of work](https://planb.academy/resources/glossary/proof-of-work) and cryptographic timestamps, to create a decentralized and censorship-resistant digital currency.
 
 However, Bitcoin was more than just that: it represented the achievement of the cypherpunk ideals. Beyond its technology, it symbolized a revolution against traditional financial systems and offered an alternative based on transparency, decentralization, and individual sovereignty.
 
@@ -366,7 +366,7 @@ The creation of new bitcoins is the result of the mining process. In a nutshell,
 
 ![image](assets/en/022.webp)
 
-After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "halving"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
+After successfully performing this task, miners get rewarded with the issuance of new bitcoins every ten minutes. This reward is programmed to halve every 210,000 blocks, which is approximately every four years (an event known as "[halving](https://planb.academy/resources/glossary/halving)"), giving the monetary issuance curve a stair-like shape. Due to this mechanism, it can be mathematically predicted that the creation of new bitcoins will cease arount the year 2140, when the total number reaches its limit of 21 million.
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -419,7 +419,7 @@ The idea of devaluing the currency goes against the fundamental philosophy of Bi
 
 The scarcity of Bitcoin is a major asset, and the maximum quantity of 21 million bitcoins in circulation is public and verifiable by anyone.
 
-In fact, anyone can do this through a Bitcoin node (i.e. a transaction validator) by simply entering the following command: `bitcoin-cli gettxoutsetinfo`. This transparency strengthens trust in the Bitcoin system, which is not based on central institutions or individuals, but rather on the mathematical and cryptographic guarantees inherent in its protocol (You will learn how to do this easily in LNP201).
+In fact, anyone can do this through a Bitcoin [node](https://planb.academy/resources/glossary/node) (i.e. a transaction validator) by simply entering the following command: `bitcoin-cli gettxoutsetinfo`. This transparency strengthens trust in the Bitcoin system, which is not based on central institutions or individuals, but rather on the mathematical and cryptographic guarantees inherent in its protocol (You will learn how to do this easily in LNP201).
 
 ```json
 {
@@ -471,7 +471,7 @@ Whether it's your Bitcoin "banker" or yourself, the vast majority of Bitcoin wal
 
   When initializing a wallet, a secret recovery phrase, also known as a mnemonic phrase (private key), is generated and presented to you in the form of 12 or 24 words.
 
-  The private key is fundamental because it constitutes the ownership of the bitcoins and therefore the right to use or send them. Therefore, the holder of the private key is the true owner of the bitcoins. As the popularized statement goes, “Not your keys, not your coins.”
+  The [private key](https://planb.academy/resources/glossary/private-key) is fundamental because it constitutes the ownership of the bitcoins and therefore the right to use or send them. Therefore, the holder of the private key is the true owner of the bitcoins. As the popularized statement goes, “Not your keys, not your coins.”
 
   This key must be kept secret and well protected, as it unlocks your fortune!
 
@@ -677,7 +677,7 @@ Now that we have covered the basics of Bitcoin wallets and the best practices fo
 
 ![image](assets/en/038.webp)
 
-October 31, 2008 marks the birth of the new financial technology that is Bitcoin. On this day, the anonymous Satoshi Nakamoto presented his innovation to the world through an email sent to the mailing list of the cypherpunks, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "White Paper", which presented how Bitcoin worked.
+October 31, 2008 marks the birth of the new financial technology that is Bitcoin. On this day, the anonymous Satoshi Nakamoto presented his innovation to the world through an email sent to the mailing list of the cypherpunks, a community of cryptography enthusiasts dedicated to promoting privacy on the internet. This email contained a document called "[White Paper](https://planb.academy/resources/glossary/white-paper)", which presented how Bitcoin worked.
 
 This initiative did not immediately generate enthusiasm, probably because of the previous failures in the attempts to create a digital cash systems. Nevertheless, this White Paper eventually became a reference for Bitcoin users and has been the subject of many debates in the Bitcoin ecosystem through the years.
 
@@ -835,7 +835,7 @@ Following this victory, the nodes activated an update called SegWit, paving the 
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners secure the network and add transactions to the blocks. They use electricity through ASIC machines to solve the Bitcoin proof of work.**
+**Miners secure the network and add transactions to the blocks. They use electricity through [ASIC](https://planb.academy/resources/glossary/asic) machines to solve the Bitcoin proof of work.**
 
 ![image](assets/en/054.webp)
 

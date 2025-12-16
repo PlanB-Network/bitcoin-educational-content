@@ -1,0 +1,8 @@
+question: Koja je primarna prednost algoritma dvostrukog dodavanja za skalarno množenje u kriptografiji eliptičkih krivih?
+answer: Smanjuje složenost računanja sa O(n) na O(log n) operacija
+wrong_answers:
+  - Eliminiše potrebu za modularnom aritmetikom u konačnim poljima
+  - Pretvara problem diskretnog logaritma u rešenje u polinomijalnom vremenu
+  - Omogućava direktno izračunavanje privatnih ključeva iz javnih ključeva
+explanation: |
+  Algoritam double-and-add značajno poboljšava efikasnost smanjenjem računarske složenosti sa O(n) linearnih sabiranja na O(log n) operacija. Ovo funkcioniše skeniranjem binarne reprezentacije skalara, udvostručavanjem tačke na svakom koraku i dodavanjem generatora tačke samo kada je bit 1. Ostale opcije su netačne: modularna aritmetika je i dalje potrebna u konačnim poljima, problem diskretnog logaritma ostaje računarski neizvodljiv (što je ključno za sigurnost), i privatni ključevi se ne mogu izračunati iz javnih ključeva bez obzira na korišćeni algoritam množenja.

@@ -1,0 +1,8 @@
+question: Ni igiki gishobora gutuma Liquid ihisha amafaranga y’ibikorwa n’ubwoko bw’itunga kugira ngo abantu ntibabibone?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Ivyuma vy'umutekano (HSMs)
+  - Ihuriro ry'inguvu (Dynafed) amasezerano
+  - Imfunguruzo z'ukwemererwa (PAKs)
+explanation: |
+  Confidential Transactions (CT) ni ikintu gifasha Liquid guhisha ubwoko bw’itunga n’amahera y’ibikorwa mu gitabu ca bose mu gihe kiguma kireka urubuga rugenzura ko ibikorwa vy’ibikorwa ari ukuri. Ivyo bitanga ubuzima bwite bw’ubudandaji buhambaye ku nzego. Ivyuma vy’umutekano w’ibikoresho ni ibikoresho vy’umubiri bicungera imfunguruzo z’ibanga, umurongo wa Dynafed ucungera amahinduka y’ishirahamwe, na PAKs zigenzura uburyo bwo gukuraho - nta na kimwe muri ivyo gihisha amakuru y’ibikorwa kugira ngo abantu bose ntibabibone.

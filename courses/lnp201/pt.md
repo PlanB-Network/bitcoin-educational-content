@@ -153,7 +153,7 @@ O script mais comum exige uma assinatura com a chave privada associada ao endere
 
 ### UTXOs: Saídas de Transação Não Gastas
 
-No Bitcoin, o que realmente trocamos não são diretamente bitcoins, mas **UTXOs** (_Unspent Transaction Outputs_), significando "saídas de transação não gastas".
+No Bitcoin, o que realmente trocamos não são diretamente bitcoins, mas **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), significando "saídas de transação não gastas".
 
 Um UTXO é um pedaço de bitcoin que pode ser de qualquer valor, por exemplo, **2.000 bitcoins**, **8 bitcoins**, ou até mesmo **8.000 sats**. Cada UTXO é bloqueado por um script, e para gastá-lo, deve-se satisfazer as condições do script, muitas vezes uma assinatura com a chave privada correspondente a um determinado endereço de recebimento.
 
@@ -590,7 +590,7 @@ Neste capítulo, exploramos o roteamento de pagamentos na Rede Lightning. Mas su
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Neste capítulo, descobriremos como o Lightning permite que pagamentos transitem através de nós intermediários sem a necessidade de confiar neles, graças aos **HTLC** (_Hashed Time-Locked Contracts_). Esses contratos inteligentes garantem que cada nó intermediário só receberá os fundos de seu canal se encaminhar o pagamento para o destinatário final, caso contrário, o pagamento não será validado.
+Neste capítulo, descobriremos como o Lightning permite que pagamentos transitem através de nós intermediários sem a necessidade de confiar neles, graças aos **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Esses contratos inteligentes garantem que cada nó intermediário só receberá os fundos de seu canal se encaminhar o pagamento para o destinatário final, caso contrário, o pagamento não será validado.
 
 O problema que surge para o roteamento de pagamentos é, portanto, a confiança necessária nos nós intermediários, e entre os próprios nós intermediários. Para ilustrar isso, vamos revisitar nosso exemplo simplificado de rede Lightning com 3 nós e 2 canais:
 
@@ -977,7 +977,7 @@ O objetivo deste treinamento era fornecer a você um entendimento abrangente e t
 
 Nos capítulos iniciais, exploramos como duas partes, ao abrir um canal de pagamento, podem conduzir transações fora da blockchain do Bitcoin. Aqui estão os passos abordados:
 
-- **Abertura do Canal**: A criação do canal é feita através de uma transação Bitcoin que bloqueia os fundos em um endereço multisignature 2/2. Este depósito representa o canal Lightning na blockchain.
+- **Abertura do Canal**: A criação do canal é feita através de uma transação Bitcoin que bloqueia os fundos em um endereço [multisignature](https://planb.academy/resources/glossary/multisig) 2/2. Este depósito representa o canal Lightning na blockchain.
 
 ![LNP201](assets/en/076.webp) 2. **Transações no Canal**: Neste canal, é então possível realizar inúmeras transações sem ter que publicá-las na blockchain. Cada transação Lightning cria um novo estado do canal refletido em uma transação de compromisso.
 ![LNP201](assets/en/077.webp)

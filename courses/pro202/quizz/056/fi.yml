@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen syy siihen, että P2SH-käärittyjen SegWit-tapahtumien tarkistuksessa käytetään kolmea validointisääntökerrosta?
+answer: Varmistetaan taaksepäin yhteensopivuus ennen BIP16:ta, sen jälkeen ja SegWit-solmujen välillä ja ylläpidetään samalla konsensusta
+wrong_answers:
+  - Kolminkertaistetaan turvallisuus vaatimalla kolme erillistä kryptografista todistusta ennen tapahtuman hyväksymistä
+  - Validointityömäärän jakaminen eri solmutyypeille verkon suorituskyvyn ja skaalautuvuuden parantamiseksi
+  - Estetään double-spending-hyökkäykset validoimalla samat tapahtumatiedot kolmella itsenäisellä menetelmällä
+explanation: |
+  P2SH:een kääritty SegWit käyttää kolmea validointikerrosta erityisesti taaksepäin yhteensopivuuden varmistamiseksi: ennen BIP16:tä olevat solmut hyväksyvät redeemScriptin kelvolliseksi, BIP16:n jälkeiset solmut arvioivat sen jättäen OP_0 + hash:n pinoon ja SegWit-solmut suorittavat täydellisen todistajan validoinnin. Tämä kerroksittainen lähestymistapa varmistaa, että kaikki solmutyypit voivat osallistua konsensukseen rikkoutumatta, toisin kuin väärät vastaukset, jotka esittävät ensisijaisina motiiveina turvallisuuden moninkertaistamista, suorituskyvyn jakamista tai kaksinkertaisen kulutuksen estämistä.

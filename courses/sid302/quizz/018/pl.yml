@@ -1,0 +1,8 @@
+question: Jaki mechanizm kryptograficzny pozwala Liquid Network zweryfikować, czy dane wejściowe transakcji są równe danym wyjściowym powiększonym o opłaty bez ujawniania rzeczywistych kwot publicznie?
+answer: Zobowiązania Pedersena i dowody zasięgu
+wrong_answers:
+  - Drzewa Merkle'a i podpisy cyfrowe
+  - Umowy Hash z blokadą czasową i wieloma podpisami
+  - Podpisy Schnorr i skrypty Taproot
+explanation: |
+  Pedersen Commitments i Range Proofs to specyficzne prymitywy kryptograficzne, które umożliwiają Liquid Confidential Transactions ukrywanie kwot, jednocześnie umożliwiając weryfikację matematyczną. Pedersen Commitments kryptograficznie wiążą się z wartościami bez ich ujawniania, podczas gdy Range Proofs zapewniają, że wszystkie kwoty są dodatnimi liczbami całkowitymi, uniemożliwiając użytkownikom tworzenie pieniędzy za pomocą wartości ujemnych. Pozostałe opcje są legalnymi narzędziami kryptograficznymi Bitcoin, ale nie zapewniają możliwości oślepiania potrzebnych do poufnych transakcji, w których kwoty pozostają ukryte, ale możliwe do zweryfikowania.

@@ -1,0 +1,8 @@
+question: Trong quá trình xác thực giao dịch P2PKH, ScriptPubKey thực hiện chuỗi thao tác cụ thể nào để xác minh các điều kiện chi tiêu?
+answer: Sao chép khóa công khai, băm khóa đó, so sánh với mã băm đã được cam kết, sau đó xác minh chữ ký.
+wrong_answers:
+  - Hàm này băm chữ ký, so sánh với hàm băm của khóa công khai, sau đó xác minh so với giá trị đã cam kết.
+  - Trước tiên, hệ thống xác minh chữ ký, sau đó băm khóa công khai và so sánh với mã băm đã cam kết.
+  - Kết hợp chữ ký và khóa công khai, băm kết quả, sau đó so sánh với mã băm đã cam kết.
+explanation: |
+  ScriptPubKey của P2PKH tuân theo một trình tự cụ thể: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Quá trình này sao chép khóa công khai được cung cấp, áp dụng thuật toán băm SHA256 rồi RIPEMD160, xác minh kết quả khớp với mã băm đã cam kết, và cuối cùng kiểm tra chữ ký. Các tùy chọn khác mô tả sai thứ tự các thao tác hoặc đề xuất băm chữ ký thay vì khóa công khai, điều này sẽ phá vỡ logic xác thực.

@@ -1,0 +1,8 @@
+question: Apa perbedaan arsitektur utama antara Blockstream AMP Versi 1 dan Versi 2 terkait konstruksi transaksi dan persyaratan simpul?
+answer: Versi 2 mengalihkan kompleksitas ke server yang menangani konstruksi transaksi dan menyajikan PSET kepada penerbit, sehingga tidak perlu lagi melakukan sinkronisasi full node
+wrong_answers:
+  - Versi 2 mengharuskan penerbit untuk menjalankan beberapa node Elements yang tersinkronisasi untuk redundansi sementara Versi 1 hanya membutuhkan koneksi node tunggal
+  - Versi 2 memindahkan semua operasi kriptografi ke dompet perangkat keras sisi klien, sementara Versi 1 melakukan semua operasi penandatanganan pada infrastruktur server
+  - Versi 2 menghilangkan persyaratan penandatanganan bersama sepenuhnya dan memungkinkan transfer peer-to-peer langsung, sementara Versi 1 memerlukan otorisasi server untuk setiap transaksi
+explanation: |
+  Evolusi dari AMP Versi 1 ke Versi 2 mewakili pergeseran mendasar dari model 'klien pintar, infrastruktur kompleks' ke pendekatan 'server pintar, klien yang disederhanakan'. Versi 1 mengharuskan penayang untuk mempertahankan node Elements yang tersinkronisasi sepenuhnya dan sangat bergantung pada Green SDK monolitik, sehingga menciptakan hambatan teknis yang tinggi. Versi 2 memindahkan kompleksitas ke sisi server, di mana server AMP menangani konstruksi transaksi, pemilihan UTXO, dan penghitungan biaya, lalu menyajikan kepada penerbit Transaksi Elements yang Ditandatangani Sebagian (Partially Signed Elements Transactions/PSTT) yang hanya memerlukan tanda tangan. Hal ini menghilangkan kebutuhan akan node penuh dan memungkinkan integrasi wallet standar.

@@ -28,7 +28,7 @@ Välkommen till BTC101-kursen!
 
 Bitcoin är en teknologisk och monetär revolution, kapabel att få oss att ifrågasätta vår relation till pengar och samhälle. Faktum är att Bitcoin (som kallas BTC) är en neutral och decentraliserad valuta, vilket betyder att den inte kontrolleras av någon enhet eller institution. Det är en innovation som går bortom enbart en "internetvaluta": det är både ett datorprotokoll (Bitcoin) och en monetär enhet (bitcoin).
 
-Bitcoin-protokollet använder underliggande teknologier som kryptografi, nätverkskommunikation och den berömda "blockchain", medan bitcoin-enheten fungerar som den nödvändiga valutan för att detta protokoll ska fungera korrekt. I vardagen använder salvadoraner och bitcoin-användare runt om i världen bitcoin-valutan för att köpa och sälja varor och tjänster, och förlitar sig på denna teknologi för att förbättra sina liv.
+Bitcoin-protokollet använder underliggande teknologier som kryptografi, nätverkskommunikation och den berömda "[blockchain](https://planb.academy/resources/glossary/blockchain)", medan bitcoin-enheten fungerar som den nödvändiga valutan för att detta protokoll ska fungera korrekt. I vardagen använder salvadoraner och bitcoin-användare runt om i världen bitcoin-valutan för att köpa och sälja varor och tjänster, och förlitar sig på denna teknologi för att förbättra sina liv.
 
 ### En omfattande men ändå lättillgänglig läroplan
 
@@ -136,7 +136,7 @@ Bilden nedan illustrerar tydligt rörelsens utveckling genom dess många teknisk
 
 ![image](assets/sv/005.webp)
 
-Det var i denna bördiga miljö som den mystiske Satoshi Nakamoto publicerade Bitcoin whitepaper år 2008. I detta dokument kombinerade han flera idéer från cypherpunk-rörelsen, såsom proof of work och kryptografiska tidsstämplar, för att skapa en decentraliserad och censurresistent digital valuta.
+Det var i denna bördiga miljö som den mystiske Satoshi Nakamoto publicerade Bitcoin whitepaper år 2008. I detta dokument kombinerade han flera idéer från cypherpunk-rörelsen, såsom [proof of work](https://planb.academy/resources/glossary/proof-of-work) och kryptografiska tidsstämplar, för att skapa en decentraliserad och censurresistent digital valuta.
 
 Bitcoin var dock mer än så: det representerade förverkligandet av cypherpunk-idealen. Utöver sin teknik symboliserade den en revolution mot traditionella finansiella system och erbjöd ett alternativ baserat på transparens, decentralisering och individuell suveränitet.
 
@@ -703,7 +703,7 @@ Nu när vi har gått igenom grunderna inom Bitcoin-plånböcker och de bästa me
 
 ![image](assets/sv/038.webp)
 
-Den 31 oktober 2008 föddes den nya finansiella tekniken som är Bitcoin. Den här dagen presenterade den anonyme Satoshi Nakamoto sin innovation för världen genom ett e-postmeddelande som skickades till cypherpunks e-postlista, en grupp kryptografientusiaster som arbetar för att främja integritet på internet. E-postmeddelandet innehöll ett dokument kallat "White Paper", som beskrev hur Bitcoin fungerade.
+Den 31 oktober 2008 föddes den nya finansiella tekniken som är Bitcoin. Den här dagen presenterade den anonyme Satoshi Nakamoto sin innovation för världen genom ett e-postmeddelande som skickades till cypherpunks e-postlista, en grupp kryptografientusiaster som arbetar för att främja integritet på internet. E-postmeddelandet innehöll ett dokument kallat "[White Paper](https://planb.academy/resources/glossary/white-paper)", som beskrev hur Bitcoin fungerade.
 
 Initiativet väckte inte omedelbart entusiasm, förmodligen på grund av de tidigare misslyckandena av försöken att skapa ett digitalt kontantsystem. Trots detta blev White Paper så småningom en referens för Bitcoin-användare och har varit föremål för många debatter i Bitcoin-ekosystemet genom åren.
 
@@ -858,7 +858,7 @@ Efter denna seger aktiverade noderna en uppdatering kallad SegWit, vilket banade
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners säkrar nätverket och lägger till transaktioner i blocken. De använder elektricitet genom ASIC-maskiner för att lösa Bitcoins proof of work.**
+**Miners säkrar nätverket och lägger till transaktioner i blocken. De använder elektricitet genom [ASIC](https://planb.academy/resources/glossary/asic)-maskiner för att lösa Bitcoins proof of work.**
 
 ![image](assets/sv/054.webp)
 

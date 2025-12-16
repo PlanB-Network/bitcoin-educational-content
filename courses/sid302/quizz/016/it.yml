@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale del periodo di attesa di 102 conferme durante il processo di peg-in da Bitcoin a Liquid?
+answer: Per proteggersi dalle riorganizzazioni della blockchain Bitcoin prima di coniare L-BTC
+wrong_answers:
+  - Consentire alla federazione di verificare l'identità e la conformità dell'utente per un tempo sufficiente
+  - Per garantire che la rete Liquid abbia una capacità adeguata per elaborare la transazione in entrata
+  - Per dare tempo all'autorizzazione a più firme, 11 su 15, da parte dei membri della federazione
+explanation: |
+  Il periodo di attesa di 102 conferme (circa 17 ore) è stato progettato specificamente per proteggere dalle riorganizzazioni della blockchain Bitcoin. Poiché il Bitcoin opera sulla finalizzazione probabilistica, c'è sempre una piccola possibilità che i blocchi vengano riorganizzati, invalidando potenzialmente le transazioni. Attendendo 102 conferme, il sistema garantisce che la transazione Bitcoin che invia fondi all'indirizzo della federazione sia profondamente sepolta ed è estremamente improbabile che venga annullata. In questo modo si evita lo scenario in cui il L-BTC viene coniato nel Liquid ma la transazione Bitcoin sottostante viene annullata a causa di una riorganizzazione. Le altre opzioni non sono corrette perché: la verifica dell'identità non fa parte del processo automatico di peg-in, la capacità della rete non è un fattore limitante che richiede tali ritardi e l'autorizzazione multisig 11 su 15 viene utilizzata per i peg-out, non per i peg-in.

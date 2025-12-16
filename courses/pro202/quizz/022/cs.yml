@@ -1,0 +1,8 @@
+question: Jaké zásadní omezení modelu UTXO vyžaduje zvláštní zacházení při čerpání Bitcoin?
+answer: UTXO musí být zcela vyčerpány a nemohou být spotřebovány částečně
+wrong_answers:
+  - UTXO lze utratit pouze jednou za blok, aby se zabránilo dvojímu utrácení
+  - UTXO musí být použity v chronologickém pořadí podle času vytvoření
+  - UTXO vyžadují ke své platnosti více podpisů z různých klíčů
+explanation: |
+  Model UTXO má zásadní omezení, že nespotřebované výstupy transakcí musí být spotřebovány celé - neexistuje žádný mechanismus pro částečné čerpání. Pokud potřebujete utratit méně než celou částku UTXO, musíte vytvořit transakci, která utratí celou částku UTXO a za zbývající část zahrne výstup změny zpět k sobě. Ostatní možnosti popisují neexistující omezení: UTXO lze utratit vícekrát v jednom bloku (různé UTXO), nevyžadují chronologické řazení a obvykle potřebují pouze jeden platný podpis, pokud nejsou speciálně navrženy jako multisig.

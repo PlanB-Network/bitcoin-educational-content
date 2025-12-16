@@ -1,0 +1,8 @@
+question: Hvilket spesifikt kryptografisk element i en Lightning Send submarine swap gjør det mulig for swapleverandøren å kreve de låste Liquid-midlene etter å ha betalt Lightning-fakturaen?
+answer: Betalingsbildet fra Lightning-betalingen fungerer som kryptografisk nøkkel for å låse opp de spærrede Liquid-midlene
+wrong_answers:
+  - Hash-tidslåskontraktsignaturen som genereres under den første Liquid-låsingstransaksjonen, gir tilgang til
+  - Metadataene for WebSocket-tilkoblingen inneholder opplåsingsnøkkelen som autoriserer frigjøring av midler til leverandøren
+  - "Bytteleverandørens private nøkkel låser automatisk opp midlene når bekreftelsen på Lightning-betalingen er mottatt."
+explanation: |
+  Betalingsbildet er den kryptografiske kvitteringen som beviser at en Lightning-betaling ble fullført. I ubåtbytter fungerer dette forhåndsbildet som opplåsingsnøkkel for de deponerte Liquid-midlene, noe som sikrer atomicitet - bytteleverandøren kan bare gjøre krav på Liquid-midlene hvis de faktisk har betalt Lightning-fakturaen. De andre alternativene beskriver enten generiske kryptografiske elementer som ikke gir det spesifikke betalingsbeviset som trengs, eller feilaktige mekanismer som ville kompromittere den atomiske swappens tillitsløse natur.

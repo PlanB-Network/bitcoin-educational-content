@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo nyamukuru bwo kwumvikana bukoreshwa na Liquid Network?
+answer: Ukwemeranya kw'Ubumwe
+wrong_answers:
+  - Proof-of-Work.
+  - Ikimenyamenya c'Igiti
+  - Ikimenyamenya c'Ikigobe
+explanation: |
+  Liquid Network ikoresha uburyo bw’Isezerano ry’Igihugu, butandukanye cane n’uburyo bwa Proof-of-Work bwa Bitcoin. Muri iki kigereranyo, umugwi watoranijwe w’abakozi cumi n’itanu bakora nk’abashira umukono ku mabuye bakora amabuye mu buryo bw’uruziga. Proof-of-Work ni uburyo bwo kwumvikana bwa Bitcoin bujanye na mining, mu gihe Ikimenyamenya-c’Imigabane n’Ikimenyamenya-c’Imigabane gishikirijwe ni uburyo bwo kwemeranya bukoreshwa n’izindi nzira z’ubuhinga bwa blockchain ariko atari na Liquid.

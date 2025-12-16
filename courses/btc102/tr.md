@@ -1009,7 +1009,7 @@ Bu yaklaşım daha teknik olmasına rağmen, en talepkar kullanıcılara üçün
 #### Esnek, Sınır Ötesi Bir Ödeme Yöntemi
 
 
-Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi Lightning Network-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
+Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi [Lightning Network](https://planb.academy/resources/glossary/lightning-network)-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
 
 
 #### Bir değer deposu
@@ -1540,7 +1540,7 @@ Bitcoin Wallet endüstrisi, her biri farklı ihtiyaçlara ve teknik uzmanlık se
 
 
 
-- Hardware Wallet Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
+- [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
 - Software Wallet Geliştiriciler**: Bunlar, mobil ve masaüstü uygulamalar yaratan şirketlerden bağımsız geliştiricilere kadar uzanmaktadır. Sundukları teklifler kullanıcı deneyimi, güvenlik ve özellikler açısından farklılık gösterir. Örnekler arasında Sparrow, Wizard Sardine, Galoy, Synonym ve Blockstream bulunmaktadır.
 - DIY (*Kendin Yap*) Cüzdanlar**: Bu açık kaynaklı çözümler, tam kontrol ve üçüncü taraflara minimum bağımlılık isteyen ileri düzey kullanıcılar için tasarlanmıştır. Kendi Wallet'nizi oluşturmak güven bağımlılıklarını azaltır ve güvenlik duruşunuzu artırabilir. Önemli DIY seçenekleri arasında Seedsigner ve Specter DIY bulunmaktadır.
 

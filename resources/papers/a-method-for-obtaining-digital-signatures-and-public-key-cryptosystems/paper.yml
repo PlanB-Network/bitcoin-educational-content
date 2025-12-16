@@ -1,0 +1,20 @@
+title: "A Method for Obtaining Digital Signatures and Public-key Cryptosystems"
+original_language: en
+authors:
+  - R. L. Rivest
+  - A. Shamir
+  - L. Adleman
+abstract: |
+  An encryption method is presented with the novel property that publicly revealing an encryption key does not thereby reveal the corresponding decryption key. This has two important consequences:
+  Couriers or other secure means are not needed to transmit keys, since a message can be enciphered using an encryption key publicly revealed by the intended recipient. Only he can decipher the message, since only he knows the corresponding decryption key.
+  A message can be “signed” using a privately held decryption key. Anyone can verify this signature using the corresponding publicly revealed encryption key. Signatures cannot be forged, and a signer cannot later deny the validity of his signature. This has obvious applications in “electronic mail” and “electronic funds transfer” systems. A message is encrypted by representing it as a number M, raising M to a publicly specified power e, and then taking the remainder when the result is divided by the publicly specified product, n, of two large secret prime numbers p and q. Decryption is similar; only a different, secret, power d is used, where e * d = 1(mod (p - 1) * (q - 1)). The security of the system rests in part on the difficulty of factoring the published divisor, n.
+publication_date: 1983-01-01
+paper_type: academic
+source: ACM
+type: SCIE
+category: COMPUTER SCIENCE, THEORY & METHODS
+topics:
+  - Public Key Cryptography
+  - Digital Signature Schemes
+pdf_url: https://people.csail.mit.edu/rivest/Rsapaper.pdf
+id: 2b7ce0b0-fc75-451f-a48a-5c64139916a4

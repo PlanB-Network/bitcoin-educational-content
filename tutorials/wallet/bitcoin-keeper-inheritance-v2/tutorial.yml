@@ -1,0 +1,27 @@
+id: 45d0722a-abd7-4da7-b20d-cee60b40cffa
+
+project_id: cb3e67d7-62bd-43ae-a81c-8e0533390d2c
+
+tags:
+  - wallets
+  - onchain
+  - guides
+
+category: backup
+
+level: intermediate
+
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-12-11
+    urgency: 1
+    contributor_names:
+      - Pivii
+    reward: 0

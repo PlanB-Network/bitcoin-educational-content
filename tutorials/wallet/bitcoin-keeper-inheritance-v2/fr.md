@@ -96,9 +96,9 @@ L'écran suivant vous permet de configurer l'Emergency Key et l'Inheritance Key.
 
 ![Configuration des délais](assets/fr/07.webp)
 
-Pour l'**Emergency Key**, sélectionnez la clé hardware qui servira de secours ultime (ici Coldcard MK4) et choisissez le délai d'activation : **dans notre exemple 2 ans**. Cette clé ne deviendra utilisable qu'après 2 ans d'inactivité des fonds. Elle sert de « break glass in case of emergency » : si plusieurs autres clés sont perdues ou si une situation extrême survient, cette clé permet de récupérer les fonds après le délai.
+Pour l'**Emergency Key**, sélectionnez la clé hardware qui servira de secours ultime (ici Coldcard MK4) et choisissez le délai d'activation (dans notre exemple : 2 ans). Contrairement à l'Inheritance Key, l'Emergency Key ne s'ajoute pas au quorum : elle permet de **bypasser complètement le multisig** et donne un contrôle total sur les fonds après expiration du délai. C'est votre solution de dernier recours : si plusieurs clés sont perdues ou détruites, cette clé unique permet de tout récupérer. Elle doit donc être protégée avec la plus grande rigueur.
 
-Pour l'**Inheritance Key**, sélectionnez la clé destinée à l'héritier (ici Coldcard MK4SP) et choisissez le délai : **ici 1 an**. Après un an sans mouvement, cette clé s'ajoutera au quorum de signature. Concrètement, votre wallet 2-of-3 deviendra un wallet 2-of-4 une fois ce délai écoulé, permettant à l'héritier de participer à la signature.
+Pour l'**Inheritance Key**, sélectionnez la clé destinée à l'héritier (ici Coldcard MK4SP) et choisissez le délai (dans notre exemple : 1 an). Après un an sans mouvement, cette clé **s'ajoutera au quorum de signature**. Concrètement, votre wallet 2-of-3 deviendra un wallet 2-of-4 une fois ce délai écoulé, permettant à l'héritier de participer à la signature aux côtés des clés existantes.
 
 ### Comment fonctionnent les timelocks ?
 

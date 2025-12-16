@@ -6,3 +6,4 @@ wrong_answers:
   - Đơn giản hóa các phép tính của chữ ký số
 explanation: |
   Mô tả kịch bản bao gồm tất cả thông tin cần thiết để theo dõi một kịch bản cụ thể, bao gồm đường dẫn phái sinh và các khóa được sử dụng, nhưng không bao gồm cụm từ khôi phục.
+reviewed: false

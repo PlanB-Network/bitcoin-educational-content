@@ -6,3 +6,4 @@ wrong_answers:
   - 一种数据压缩技术
 explanation: |
   在密码学中，熵量化了随机源中的不确定性或混乱程度，这对于生成安全密钥至关重要。
+reviewed: false

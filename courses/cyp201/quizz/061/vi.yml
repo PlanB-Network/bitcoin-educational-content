@@ -6,3 +6,4 @@ wrong_answers:
   - 128 byte
 explanation: |
   Một khóa mở rộng không kèm checksum có kích thước là 78 byte và khi bao gồm checksum thì kích thước là 82 byte.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Ini menerapkan biaya tambahan untuk setiap node perantara
 explanation: |
   Timelock memberlakukan jangka waktu untuk menyelesaikan sebuah HTLC, yang memungkinkan untuk pemulihan dana jika transaksi tidak berhasil, dengan membatalkan pembayaran setelah periode ini.
+reviewed: false

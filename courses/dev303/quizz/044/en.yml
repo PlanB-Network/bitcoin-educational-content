@@ -6,3 +6,4 @@ wrong_answers:
   - Iterator
 explanation: |
   FnOnce is the most basic trait that all closures implement in Rust. It represents closures that can be called at least once, making it the foundation of the closure trait hierarchy. FnMut and Fn are more restrictive traits that build upon FnOnce - FnMut allows multiple calls with mutation, while Fn allows multiple calls without mutation. Iterator is unrelated to closure traits and is used for processing sequences of data.
+reviewed: false

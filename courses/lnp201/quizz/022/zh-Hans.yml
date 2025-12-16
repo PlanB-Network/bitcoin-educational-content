@@ -6,3 +6,4 @@ wrong_answers:
   - 阻止通道中的任何进一步交易
 explanation: |
   撤销密钥允许受害方在对方尝试作弊的情况下回收所有资金。
+reviewed: false

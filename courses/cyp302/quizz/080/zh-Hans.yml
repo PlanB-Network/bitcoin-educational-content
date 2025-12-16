@@ -6,3 +6,4 @@ wrong_answers:
   - 一种将消息分段成数据块的加密
 explanation: |
   “流密码”是一种对称加密，其中与消息长度相同的密钥流与后者结合，以产生加密文本。
+reviewed: false

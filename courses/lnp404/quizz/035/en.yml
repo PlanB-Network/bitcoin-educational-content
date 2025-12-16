@@ -6,3 +6,4 @@ wrong_answers:
   - Prioritizing node-level operations over channel-level management to reduce complexity while setting monthly budget cycles for predictable cost planning
 explanation: |
   The correct answer addresses the fundamental tension in Auto Loop design: preventing "dust" loops that are consumed by fees while ensuring sufficient budget flexibility for necessary rebalancing. The first wrong answer ignores cost control entirely, which could lead to runaway expenses. The second creates inefficient micro-swaps that waste money on fees relative to liquidity gained. The third misunderstands that channel-level precision is often crucial for high-value routing relationships, and budget cycles should match operational needs, not arbitrary timeframes.
+reviewed: false

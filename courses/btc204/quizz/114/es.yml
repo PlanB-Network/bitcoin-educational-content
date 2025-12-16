@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Analizar una transacción Stonewall desde el exterior no conduce a la aplicación de COINJOIN, porque la presencia de dos salidas del mismo monto sugiere un patrón de coinjoin. Desde un punto de vista externo, COINJOIN por lo tanto no es aplicable en este caso específico.
+reviewed: false

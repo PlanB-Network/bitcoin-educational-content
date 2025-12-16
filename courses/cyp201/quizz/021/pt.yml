@@ -6,3 +6,4 @@ wrong_answers:
   - Muito longa para calcular
 explanation: |
   A multiplicação escalar em curvas elípticas é uma função unidirecional, tornando impossível recuperar a chave privada a partir da chave pública.
+reviewed: false

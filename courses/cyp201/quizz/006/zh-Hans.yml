@@ -6,3 +6,4 @@ wrong_answers:
   - 变量的初始值保持不变
 explanation: |
   每个轮次使用字、常数和逻辑操作修改状态变量，以扩散信息。
+reviewed: false

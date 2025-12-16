@@ -6,3 +6,4 @@ wrong_answers:
   - Códigos de Autenticación de Mensajes (MAC)
 explanation: |
   Las firmas digitales en Bitcoin prueban la posesión de fondos firmando transacciones con una clave privada para desbloquear el script que asegura un UTXO.
+reviewed: false

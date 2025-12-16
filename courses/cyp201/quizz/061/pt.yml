@@ -6,3 +6,4 @@ wrong_answers:
   - 128 bytes
 explanation: |
   Uma chave estendida tem 78 bytes sem o checksum e 82 bytes com o checksum incluído.
+reviewed: false

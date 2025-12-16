@@ -6,3 +6,4 @@ wrong_answers:
   - It creates a loop that executes the macro at runtime with different expression values
 explanation: |
   The pattern `$($x:expr),*` uses Rust's macro repetition syntax where the `*` quantifier means 'zero or more', `$x:expr` captures each expression, and the comma specifies the separator between expressions. This enables macros like `vec!` to accept any number of arguments: `vec![1, 2, 3]` or `vec![]`. The other options are incorrect because: the pattern handles multiple expressions not just one, it specifically matches expressions not type definitions and uses commas not semicolons, and macros execute at compile-time during code generation not at runtime.
+reviewed: false

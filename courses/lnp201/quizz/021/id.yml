@@ -6,3 +6,4 @@ wrong_answers:
   - Ini memblokir penggunaan kunci pembatalan
 explanation: |
   Timelock memberlakukan penundaan selama mana penipu tidak dapat mengambil dana mereka, sehingga memberikan kesempatan kepada pihak lain untuk merespons.
+reviewed: false

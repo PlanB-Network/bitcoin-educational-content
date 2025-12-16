@@ -6,3 +6,4 @@ wrong_answers:
   - The system creates separate on-chain wallets for each application while maintaining shared Lightning channel liquidity across all accounts
 explanation: |
   LND Accounts create virtual segregation through access control rather than infrastructure separation. The correct answer captures the core security model: sandboxed environments with restricted permissions, spending limits, and time-locks that limit breach impact. The wrong answers incorrectly suggest physical infrastructure separation (dedicated channels/keys, separate wallets) or shared credentials with backup mechanisms, which contradicts the virtual account architecture where the host node retains all cryptographic control while providing logical isolation.
+reviewed: false

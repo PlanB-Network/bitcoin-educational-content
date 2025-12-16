@@ -6,3 +6,4 @@ wrong_answers:
   - 挖出的比特币总量。
 explanation: >-
   哈希率指的是矿工每秒进行的尝试解决工作量证明的总次数。它是衡量比特币网络计算能力的一个指标。
+reviewed: false

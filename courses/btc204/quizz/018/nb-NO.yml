@@ -6,3 +6,4 @@ wrong_answers:
   - Ekstern transaksjonsheuristikk.
 explanation: |
   Heuristikkene som brukes i kjedeanalyse kan grupperes i tre kategorier; transaksjonsmønstre (eller transaksjonsmodeller), intern transaksjonsheuristikk, og ekstern transaksjonsheuristikk.
+reviewed: false

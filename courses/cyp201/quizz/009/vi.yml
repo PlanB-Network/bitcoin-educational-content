@@ -6,3 +6,4 @@ wrong_answers:
   - Cấu trúc Knuth-Morris-Pratt
 explanation: |
   Cấu trúc Merkle-Damgård cho phép biến đổi một hàm nén thành một hàm băm cho các thông điệp có độ dài biến đổi.
+reviewed: false

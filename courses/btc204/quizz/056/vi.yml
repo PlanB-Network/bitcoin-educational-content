@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Khi một khoản thanh toán được thực hiện, giao dịch tạo ra một UTXO mới như đầu ra từ các UTXO được tiêu thụ như đầu vào. Trên đầu ra này, một script được đặt để định nghĩa cách UTXO này có thể được tiêu sau này. Script này được biết đến là ScriptPubKey. Địa chỉ nhận được tích hợp vào script này.
+reviewed: false

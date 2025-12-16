@@ -6,3 +6,4 @@ wrong_answers:
   - 因为它不支持扩展。
 explanation: |
   Google Chrome浏览器以其跟踪器而闻名，这些跟踪器可以收集有关您在线活动的数据。对于一些用户来说，这可能是一个隐私问题。
+reviewed: false

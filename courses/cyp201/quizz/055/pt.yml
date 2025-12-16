@@ -6,3 +6,4 @@ wrong_answers:
   - Quatro partes de 128 bits
 explanation: |
   A saída do HMAC-SHA512 é dividida em duas partes: a chave privada mestre (256 bits) e o código de cadeia mestre (256 bits).
+reviewed: false

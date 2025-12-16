@@ -6,3 +6,4 @@ wrong_answers:
   - 手写签名的数字复制
 explanation: |
   数字签名是一种加密技术，它证明了消息确实是由相应私钥的所有者创建的，从而确保了其真实性。
+reviewed: false

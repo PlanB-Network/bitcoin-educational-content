@@ -6,4 +6,4 @@ wrong_answers:
   - Concatenare il tweak t e la chiave pubblica P
 explanation: |
   La chiave pubblica Taproot Q si ottiene aggiungendo alla chiave pubblica P il prodotto scalare del tweak t per il generatore G.
-recensito: false
+reviewed: false

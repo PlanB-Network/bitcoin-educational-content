@@ -6,3 +6,4 @@ wrong_answers:
   - Yksinkertaistaa digitaalisten allekirjoitusten laskelmia
 explanation: |
   Kuvaajat kapseloivat kaikki tarvittavat tiedot tietyn skriptin seuraamiseksi, mukaan lukien johdannaispolku ja käytetyt avaimet, mutta eivät palautusfraasia.
+reviewed: false

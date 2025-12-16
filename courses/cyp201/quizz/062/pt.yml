@@ -6,3 +6,4 @@ wrong_answers:
   - Tanto chaves privadas filhas endurecidas quanto normais
 explanation: |
   Uma chave pública estendida permite apenas a derivação de chaves públicas filhas normais, não chaves privadas ou chaves endurecidas.
+reviewed: false

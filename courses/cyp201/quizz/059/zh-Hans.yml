@@ -6,3 +6,4 @@ wrong_answers:
   - 确保交易的保密性
 explanation: |
   种子是从助记词和密码短语衍生出的512位序列。它构成了钱包中所有密钥的基础。
+reviewed: false

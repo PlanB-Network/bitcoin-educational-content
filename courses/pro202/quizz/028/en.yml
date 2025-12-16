@@ -6,3 +6,4 @@ wrong_answers:
   - P2PK stores the private key in the ScriptPubKey, while P2PKH stores only the signature verification result
 explanation: |
   P2PK locks coins directly to a full public key that is visible in the ScriptPubKey before any spending occurs. P2PKH improves privacy by only showing a 20-byte hash of the public key in the ScriptPubKey, hiding the actual public key until the owner provides it in the ScriptSig during spending. This privacy enhancement is one of P2PKH's key advantages over the earlier P2PK pattern.
+reviewed: false

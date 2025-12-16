@@ -6,3 +6,4 @@ wrong_answers:
   - Uue maksekanali avamine
 explanation: |
   Pühendumustehing esindab kanalis olevate vahendite praegust jaotust pärast iga Lightning tehingut, kuid seda ei avaldata plokiahelas seni, kuni kanal püsib avatuna.
+reviewed: false

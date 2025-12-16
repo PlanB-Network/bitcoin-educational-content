@@ -6,3 +6,4 @@ wrong_answers:
   - It develops skills in managing concurrent user sessions and multi-threading patterns that are essential for handling multiple Lightning channel operations and Bitcoin node synchronization processes
 explanation: |
   The correct answer identifies the crucial connection between basic input validation and the robust error handling required in blockchain applications. Bitcoin and Lightning systems must constantly deal with malformed transactions, network interruptions, and invalid states - skills directly developed through proper command-line input processing. The wrong answers focus on specific technical implementations (cryptography, random generation, concurrency) that aren't actually developed in a simple guessing game, making them plausible but incorrect connections to blockchain development.
+reviewed: false

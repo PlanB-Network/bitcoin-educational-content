@@ -6,3 +6,4 @@ wrong_answers:
   - P2TR
 explanation: |
   P2PKH地址采用base58check编码，来源于传统标准，并以数字`1`开头。
+reviewed: false

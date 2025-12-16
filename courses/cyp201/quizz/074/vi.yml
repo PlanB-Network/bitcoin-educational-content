@@ -6,3 +6,4 @@ wrong_answers:
   - Một loại tiền tệ Bitcoin mainnet
 explanation: |
   Chỉ số /84'/ được định nghĩa trong BIP84 để chỉ việc sử dụng chuẩn SegWit v0 với địa chỉ P2WPKH ở độ sâu 1 (đó là độ sâu của mục tiêu phái sinh).
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - PIN-kood genereerib Bitcoin'i aadresse
 explanation: |
   Erinevalt PIN-koodist on fraasparool otseselt seotud võtme tuletamise protsessiga ja muudab rahakoti võtmeid.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 自动计算交易费用
 explanation: |
   LNURL是一个通信协议，旨在简化节点与闪电应用之间的交互，如提款和支付等。
+reviewed: false

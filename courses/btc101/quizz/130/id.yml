@@ -6,3 +6,4 @@ wrong_answers:
   - Dengan memberikan alamat Bitcoin mereka kepada penerima.
 explanation: >-
   Pengguna di jaringan Bitcoin mentransfer kepemilikan uang mereka dengan menandatangani transaksi secara digital menggunakan kunci privat mereka. Ini memverifikasi bahwa mereka adalah pemilik dari Bitcoin yang ingin mereka transfer.
+reviewed: false

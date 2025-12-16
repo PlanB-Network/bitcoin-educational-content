@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH, SegWit ile uyumsuzdur.
 explanation: |
   SegWit ile birlikte sunulan P2WPKH, işlemlerin değiştirilebilirliğini önlemek için imzaları Witness adı verilen ayrı bir bölüme taşır.
+reviewed: false

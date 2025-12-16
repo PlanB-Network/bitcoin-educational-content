@@ -6,3 +6,4 @@ wrong_answers:
   - Generabilidad en tiempo real
 explanation: |
   La resistencia a colisiones asegura que es prácticamente imposible encontrar dos entradas diferentes que produzcan el mismo hash, lo cual es importante para verificar que el software no ha sido manipulado.
+reviewed: false

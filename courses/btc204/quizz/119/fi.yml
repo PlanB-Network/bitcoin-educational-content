@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Paranneltu kimpoaminen varmistaa, että jokainen transaktio lähetetään eri aikaan ja kirjataan eri lohkoon, kun taas klassinen kimpoaminen lähettää kaikki transaktiot lyhyen ajan sisällä.
+reviewed: false

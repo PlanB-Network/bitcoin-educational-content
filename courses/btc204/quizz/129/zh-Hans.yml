@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   要执行币币交换，可以使用HTLCs（哈希时间锁定合约）或PTLCs（点时间锁定合约）。
+reviewed: false

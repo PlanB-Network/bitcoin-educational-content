@@ -6,4 +6,4 @@ wrong_answers:
   - Una tecnica di compressione dei dati
 explanation: |
   In crittografia, l'entropia quantifica il livello di incertezza o caos in una fonte casuale, essenziale per generare chiavi sicure.
-recensito: false
+reviewed: false

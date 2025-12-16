@@ -6,3 +6,4 @@ wrong_answers:
   - 0x00
 explanation: |
   Tiền tố 0x03 chỉ một khóa công khai nén có tọa độ y lẻ.
+reviewed: false

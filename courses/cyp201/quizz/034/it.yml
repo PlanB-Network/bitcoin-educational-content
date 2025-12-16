@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_ANYONECANPAY
 explanation: |
   SIGHASH_ALL è il flag sighash predefinito, che copre tutti gli input e gli output di una transazione, impedendo qualsiasi modifica.
+reviewed: false

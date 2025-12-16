@@ -6,3 +6,4 @@ wrong_answers:
   - 在HTLC过期之前，通道不能被关闭。
 explanation: |
   在强制关闭过程中，待处理的HTLCs会作为输出在承诺交易中表示，从而确保根据定义的条件执行它们或返回它们。
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   无法加入池的零钱被隔离在“doxxic change”账户中，以确保与钱包中其他UTXOs的严格分离。
+reviewed: false

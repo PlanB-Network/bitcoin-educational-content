@@ -6,3 +6,4 @@ wrong_answers:
   - Quando as taxas de transação são muito altas
 explanation: |
   O fechamento forçado é usado como último recurso se uma das partes, por exemplo, devido a um problema técnico, não responde mais às mensagens da outra.
+reviewed: false

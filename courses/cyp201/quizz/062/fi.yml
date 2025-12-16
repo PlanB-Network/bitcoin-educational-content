@@ -6,3 +6,4 @@ wrong_answers:
   - Sekä kovetetut että tavalliset lapsiprivaattiavaimet
 explanation: |
   Laajennettu julkinen avain mahdollistaa vain tavallisten lapsijulkisten avainten johdattamisen, ei privaattiavaimia tai kovetettuja avaimia.
+reviewed: false

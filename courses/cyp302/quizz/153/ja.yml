@@ -6,4 +6,4 @@ wrong_answers:
   - メッセージは復号不可能になります
 explanation: |
   簡易RSAでは、メッセージを複数回暗号化しても常に同じ結果が得られるため、暗号化は攻撃に対して脆弱になります。
-  レビュー済み: false
+reviewed: false

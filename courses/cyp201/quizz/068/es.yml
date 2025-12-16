@@ -6,3 +6,4 @@ wrong_answers:
   - El proceso debe incluir la clave privada padre
 explanation: |
   Una clave pública hija solo puede derivarse de una clave pública padre si es normal, no endurecida.
+reviewed: false

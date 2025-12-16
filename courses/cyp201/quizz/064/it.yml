@@ -6,4 +6,4 @@ wrong_answers:
   - Crittografare le chiavi pubbliche
 explanation: |
   Una chiave estesa combina una chiave (privata o pubblica) con una chain code associata, ovvero i due elementi necessari per derivare chiavi figlie.
-recensito: false
+reviewed: false

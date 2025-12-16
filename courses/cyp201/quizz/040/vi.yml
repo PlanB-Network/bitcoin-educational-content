@@ -6,3 +6,4 @@ wrong_answers:
   - Nó hạn chế kích thước của các cụm từ mnemonic được tạo ra
 explanation: |
   Việc tạo entropy một cách thủ công có thể giới thiệu độ chệch hoặc lỗi, làm cho các khóa dễ bị tấn công hơn.
+reviewed: false

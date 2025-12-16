@@ -6,3 +6,4 @@ wrong_answers:
   - A quantidade exata de liquidez disponível para cada canal
 explanation: |
   Ao indicar canais próximos com liquidez ou revelar canais privados, Bob ajuda Alice a escolher rotas com uma melhor probabilidade de sucesso.
+reviewed: false

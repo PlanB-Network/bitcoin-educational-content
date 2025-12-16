@@ -6,3 +6,4 @@ wrong_answers:
   - 日本大将問題
 explanation: |
   この問題の名前（Lamport、Shostak、Peaseによって1982年に形式化された）は、読者を不快にさせないように選ばれました。なぜなら、ビザンチンと自己同一視した人は誰もいなかったからです。
+reviewed: false

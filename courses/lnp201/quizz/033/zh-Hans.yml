@@ -6,3 +6,4 @@ wrong_answers:
   - 同时向路径上的所有节点发送资金
 explanation: |
   洋葱路由意味着每个中间节点只知道前一个节点和下一个节点，从而保护了最终接收者的隐私。
+reviewed: false

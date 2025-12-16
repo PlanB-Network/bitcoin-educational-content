@@ -6,3 +6,4 @@ wrong_answers:
   - Không có độ dài cố định cho S trong RC4 chuẩn
 explanation: |
   Trong RC4 chuẩn, mảng S chứa 256 byte, điều này làm tăng đáng kể độ phức tạp của các phép tính và cải thiện bảo mật so với phiên bản đơn giản chỉ với 8 byte.
+reviewed: false

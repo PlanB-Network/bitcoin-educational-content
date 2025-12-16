@@ -6,3 +6,4 @@ wrong_answers:
   - Nõuda ainult pool saadaolevatest vahenditest
 explanation: |
   Pettuse korral saab Bob kasutada tühistamisvõtit, et taastada kanalist kõik vahendid, karistades sellega Alicet tema katse eest.
+reviewed: false

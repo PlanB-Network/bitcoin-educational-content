@@ -6,3 +6,4 @@ wrong_answers:
   - Concatenar o ajuste t e a chave pública P
 explanation: |
   A chave pública Taproot Q é obtida adicionando o produto escalar do ajuste t pelo gerador G à chave pública P.
+reviewed: false

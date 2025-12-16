@@ -6,3 +6,4 @@ wrong_answers:
   - 平分资金
 explanation:
   交换之前交易的秘密，允许每个参与者在对方尝试通过发布旧交易来欺骗时惩罚对方。
+reviewed: false

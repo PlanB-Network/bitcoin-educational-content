@@ -6,3 +6,4 @@ wrong_answers:
   - 消息哈希、标签加密、标签分发
 explanation:
   MAC方案包括三个主要步骤：生成一个秘密密钥，为消息产生一个标签，以及验证接收到的消息及其标签是否匹配。
+reviewed: false

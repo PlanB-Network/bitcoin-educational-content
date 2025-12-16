@@ -6,3 +6,4 @@ wrong_answers:
   - The library requires all components to use identical programming languages and cannot support cross-platform language bindings
 explanation: |
   LDK's core philosophy centers on providing modular components with working default implementations that developers can selectively replace when needed. This allows customization of specific functionality (like blockchain monitoring or transaction signing) while keeping other components unchanged. The wrong answers misrepresent LDK's approach: it provides defaults rather than requiring everything from scratch, enables component replacement rather than locking them together, and supports multiple programming languages through its binding system.
+reviewed: false

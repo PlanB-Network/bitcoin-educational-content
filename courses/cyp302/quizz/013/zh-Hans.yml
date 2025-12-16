@@ -6,3 +6,4 @@ wrong_answers:
   - 仅使用铜线
 explanation: |
   现代通信的大多数依赖于光纤网络，这确保了高速数据交换，尽管一些使用卫星和同轴电缆的情况仍然存在。
+reviewed: false

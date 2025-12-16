@@ -6,3 +6,4 @@ wrong_answers:
   - Fordi meldinger ikke kan autentiseres uten en digital signatur.
 explanation: |
   Konfidensialitet beskytter innholdet i meldinger, men uten en MAC, kan en angriper fortsatt avlytte og endre en melding uten å forstå den, og dermed kompromittere integriteten til kommunikasjonen.
+reviewed: false

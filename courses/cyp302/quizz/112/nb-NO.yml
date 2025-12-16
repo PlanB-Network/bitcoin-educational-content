@@ -6,3 +6,4 @@ wrong_answers:
   - Den bruker en nøkkelstrøm basert utelukkende på klarteksten
 explanation: |
   RC4 er en synkron strømkryptering fordi nøkkelstrømmen kun avhenger av den opprinnelige nøkkelen og ikke av klarteksten eller kryptoteksten, noe som sikrer uavhengigheten til denne strømmen fra meldingene.
+reviewed: false

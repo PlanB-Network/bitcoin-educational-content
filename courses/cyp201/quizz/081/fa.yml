@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH با SegWit ناسازگار است.
 explanation: |
   P2WPKH، که همراه با SegWit معرفی شد، امضاها را به بخشی جداگانه به نام Witness منتقل می‌کند تا از تغییرپذیری تراکنش جلوگیری کند.
+reviewed: false

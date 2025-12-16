@@ -6,3 +6,4 @@ wrong_answers:
   - By comparing the current channel balances against the initial capital investment in each channel
 explanation: |
   Terminal Web calculates Net Profit by automatically synthesizing the difference between Earned Satoshis and Spent Satoshis. Earned Satoshis tracks revenue from forwarding payments, while Spent Satoshis aggregates operational costs like on-chain fees and rebalancing expenses. The other options describe different calculations: fee rate calculations, routing efficiency metrics, or balance comparisons, none of which represent how Net Profit is actually computed in the system.
+reviewed: false

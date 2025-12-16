@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Konstanta Bitcoin Seed se používá jako klíč ve funkci HMAC-SHA512 k odvození hlavního soukromého klíče a hlavního řetězového kódu.
+reviewed: false

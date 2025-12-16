@@ -6,3 +6,4 @@ wrong_answers:
   - Fordi den kun krypterer små meldinger
 explanation: |
   Engangsnøkkelen er sikker fordi hvert bit av nøkkelen er tilfeldig og aldri blir gjenbrukt, noe som sikrer at den ikke etterlater utnyttbare spor for en angriper.
+reviewed: false

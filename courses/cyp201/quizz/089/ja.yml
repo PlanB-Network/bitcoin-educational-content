@@ -6,3 +6,4 @@ wrong_answers:
   - base58checkでのエンコーディング
 explanation: |
   公開鍵はHASH160ハッシュ関数を通す前に、そのサイズを減らすために圧縮されなければなりません。
+reviewed: false

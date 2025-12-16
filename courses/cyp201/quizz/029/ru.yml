@@ -6,3 +6,4 @@ wrong_answers:
   - HMAC
 explanation: |
   Изначально в Bitcoin использовался ECDSA, протокол подписи, основанный на эллиптических кривых, до введения подписей Schnorr в 2021 году.
+reviewed: false

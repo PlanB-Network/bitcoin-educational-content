@@ -6,3 +6,4 @@ wrong_answers:
   - Indem verdächtige Nachrichten automatisch blockiert werden
 explanation: |
   Ein MAC ermöglicht es dem Empfänger zu überprüfen, dass eine Nachricht durch ein mit einem gemeinsamen Geheimschlüssel generiertes Tag nicht modifiziert wurde, was die Möglichkeiten der Manipulation einschränkt.
+reviewed: false

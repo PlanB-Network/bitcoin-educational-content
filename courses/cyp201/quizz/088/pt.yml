@@ -6,3 +6,4 @@ wrong_answers:
   - 0x00
 explanation: |
   O prefixo 0x03 indica uma chave pública comprimida com uma coordenada y ímpar.
+reviewed: false

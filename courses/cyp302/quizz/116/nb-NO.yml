@@ -6,3 +6,4 @@ wrong_answers:
   - Innføre ekstra forvirring ved å erstatte byter
 explanation: |
   Shift rows-operasjonen i AES omorganiserer bytene i tilstandstabellen for å spre ut informasjonen, og dermed øke diffusjonen.
+reviewed: false

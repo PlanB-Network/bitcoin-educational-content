@@ -6,3 +6,4 @@ wrong_answers:
   - 它们都不是。
 explanation:
   当一个简单支付模型的交易中两个输出之间有足够大的差异时，可以估计较大的输出很可能是找零。
+reviewed: false

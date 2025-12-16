@@ -6,3 +6,4 @@ wrong_answers:
   - Để cho phép Alice mã hóa tin nhắn để xác minh tính toàn vẹn của nó
 explanation: |
   Trong mật mã bất đối xứng, khóa công khai của Alice cho phép Bob gửi một tin nhắn được mã hóa mà chỉ cô ấy có thể giải mã, do đó đảm bảo tính bảo mật của tin nhắn.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Integrativ kryptografi
 explanation: |
   Asymmetrisk kryptografi er basert på bruken av et par nøkler, offentlig og privat, som muliggjør kryptering uten å dele en hemmelig nøkkel.
+reviewed: false

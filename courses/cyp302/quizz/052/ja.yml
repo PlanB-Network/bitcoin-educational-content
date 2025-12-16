@@ -6,3 +6,4 @@ wrong_answers:
   - 乗法単位元を決定する
 explanation: |
   既約多項式は、有限体内の乗算を構造化するために使用され、各要素が体内に留まることを保証します。
+reviewed: false

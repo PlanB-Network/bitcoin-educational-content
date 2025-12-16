@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Stonewallトランザクションを外部から分析すると、COINJOINの適用には至りません。なぜなら、同じ金額の2つの出力があることが、coinjoinパターンを示唆しているからです。外部の観点からは、この特定のケースではCOINJOINは適用不可能です。
 
-  レビュー済み: false
+reviewed: false

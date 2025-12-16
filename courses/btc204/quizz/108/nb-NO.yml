@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Når en analytiker undersøker en payjoin-transaksjon, blir de ledet til å tro at alle inndataene kommer fra samme person på grunn av CIOH. Imidlertid er denne oppfatningen feil, ettersom mottakeren av betalingen også bidrar til inndataene sammen med den faktiske betaleren. Derfor blir kjedeanalysen omdirigert mot en tolkning som viser seg å være falsk.
+reviewed: false

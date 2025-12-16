@@ -6,3 +6,4 @@ wrong_answers:
   - 64 bits
 explanation: |
   Uma frase mnemônica de 24 palavras é baseada em 256 bits de entropia, garantindo uma segurança muito alta.
+reviewed: false

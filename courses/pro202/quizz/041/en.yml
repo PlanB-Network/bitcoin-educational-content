@@ -6,3 +6,4 @@ wrong_answers:
   - The unclaimed subsidies would be redistributed proportionally among transaction fee recipients in subsequent blocks
 explanation: |
   Bitcoin's protocol allows miners to claim less than the maximum allowed subsidy, but any unclaimed amount is permanently lost—there's no mechanism to redistribute or recover it later. The subsidy formula and halving schedule determine the theoretical maximum of ~21 million BTC, but the actual supply depends on miners claiming their full entitlement. Unlike the difficulty adjustment which responds to mining conditions, there's no compensatory mechanism for unclaimed rewards, making the total supply potentially deflationary if miners consistently underclaim.
+reviewed: false

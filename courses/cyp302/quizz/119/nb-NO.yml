@@ -6,3 +6,4 @@ wrong_answers:
   - Det tillater ikke å dele teksten inn i 128-bits blokker
 explanation: |
   ECB-modus anbefales ikke fordi den produserer deterministisk kryptering, noe som betyr at identiske blokker av klartekst vil gi identiske blokker av kryptert tekst, som kan utnyttes for å gjette informasjon om klarteksten.
+reviewed: false

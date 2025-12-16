@@ -6,3 +6,4 @@ wrong_answers:
   - Chúng sử dụng khóa công khai không nén
 explanation: |
   Ví JBOK buộc người dùng phải sao lưu từng khóa riêng tư một cách riêng biệt, làm phức tạp việc quản lý chúng.
+reviewed: false

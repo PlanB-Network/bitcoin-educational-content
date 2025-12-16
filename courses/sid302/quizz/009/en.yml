@@ -6,3 +6,4 @@ wrong_answers:
   - To enable the transfer of Bitcoin from the main chain to Elements sidechains through cryptographic pegging mechanisms
 explanation: |
   Pedersen Commitments are the core cryptographic mechanism that enables privacy in Confidential Transactions by replacing visible amounts with mathematical commitments. Due to their homomorphic properties, validators can verify that inputs equal outputs plus fees without seeing actual values. Range Proofs prevent negative amounts, asset IDs identify tokens, and pegging mechanisms handle cross-chain transfers, but none of these are the function of Pedersen Commitments specifically.
+reviewed: false

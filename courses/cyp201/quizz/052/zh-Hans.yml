@@ -6,3 +6,4 @@ wrong_answers:
   - 保护UTXOs免受双重支付的影响
 explanation: |
   诱饵钱包的用途是通过提供一个只包含少量比特币的钱包，来转移攻击者的注意力。
+reviewed: false

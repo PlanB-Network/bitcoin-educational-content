@@ -6,3 +6,4 @@ wrong_answers:
   - Meminta node perantara untuk meningkatkan likuiditas mereka
 explanation: |
   Ketika sebuah rute gagal, node pengirim mencoba rute alternatif lain sampai menemukan jalur yang berfungsi, atau semua opsi telah habis dicoba.
+reviewed: false

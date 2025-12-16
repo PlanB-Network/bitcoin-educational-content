@@ -6,3 +6,4 @@ wrong_answers:
   - 公钥
 explanation: |
   块加密将数据分割成固定大小的块，然后独立加密这些块。
+reviewed: false

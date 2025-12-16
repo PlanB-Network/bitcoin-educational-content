@@ -6,4 +6,4 @@ wrong_answers:
   - 約3000万ユニット
 explanation: |
   ビットコインの作成は、2100万ユニットという固定の上限によって特徴づけられます。
-  レビュー済み: true
+reviewed: false

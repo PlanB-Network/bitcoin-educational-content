@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   JoinMarket opera en un mercado de intercambio P2P donde algunos usuarios, los creadores, ofrecen sus bitcoins para mezclar, mientras que otros, los tomadores, utilizan estos fondos para realizar coinjoins a cambio de una tarifa.
+reviewed: false

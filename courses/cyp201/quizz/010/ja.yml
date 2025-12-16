@@ -6,3 +6,4 @@ wrong_answers:
   - RIPEMD160
 explanation: |
   HMAC-SHA512は、ハッシュ関数と秘密鍵を組み合わせて認証コードを計算するアルゴリズムです。
+reviewed: false

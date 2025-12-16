@@ -6,3 +6,4 @@ wrong_answers:
   - Uma cópia digital de uma assinatura manuscrita
 explanation: |
   Uma assinatura digital é uma técnica criptográfica que comprova que uma mensagem foi de fato criada pelo proprietário da chave privada correspondente, garantindo assim sua autenticidade.
+reviewed: false

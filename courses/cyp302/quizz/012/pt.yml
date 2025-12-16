@@ -6,3 +6,4 @@ wrong_answers:
   - Considerar que apenas agências nacionais podem interceptar dados
 explanation: |
   É uma ilusão pensar que apenas garantir a segurança física do canal é suficiente para assegurar a confidencialidade, pois muitos pontos de interceptação permanecem acessíveis, especialmente para comunicações sem fio.
+reviewed: false

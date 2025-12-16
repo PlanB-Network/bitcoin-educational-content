@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Man bør spesielt ikke bruke en mottaksadresse flere ganger. Alle de andre svarene tillater å unngå kjedeanalyseheuristikkene.
+reviewed: false

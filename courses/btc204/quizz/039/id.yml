@@ -6,3 +6,4 @@ wrong_answers:
   - Karena alamat tersebut dapat memungkinkan penerapan heuristik kepemilikan input umum.
 explanation: |
   Berbagi alamat penerima Bitcoin di internet dapat digunakan sebagai titik masuk untuk analisis rantai dengan menghubungkan identitas (nyata atau samaran) dengan aktivitas onchain.
+reviewed: false

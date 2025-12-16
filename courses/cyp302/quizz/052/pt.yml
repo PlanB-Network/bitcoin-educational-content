@@ -6,3 +6,4 @@ wrong_answers:
   - Determinar a identidade multiplicativa
 explanation: |
   Polinômios irredutíveis são usados para estruturar a multiplicação em campos finitos, garantindo que cada elemento permaneça dentro do campo.
+reviewed: false

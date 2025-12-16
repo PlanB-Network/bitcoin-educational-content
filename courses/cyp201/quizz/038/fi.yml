@@ -6,3 +6,4 @@ wrong_answers:
   - Se mitätöi digitaaliset allekirjoitukset
 explanation: |
   Osoitteen uudelleenkäyttö mahdollistaa tarkkailijoiden helposti yhdistää eri transaktiot samaan käyttäjään, vaarantaen heidän yksityisyytensä.
+reviewed: false

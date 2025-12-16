@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   RC4 là một loại mã hóa luồng đồng bộ vì dòng khóa của nó chỉ phụ thuộc vào khóa ban đầu và không phụ thuộc vào bản rõ hay bản mã, đảm bảo sự độc lập của dòng này với các thông điệp.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Để thực hiện một coinswap, người ta có thể sử dụng HTLCs hoặc PTLCs. Hai giao thức này hoạt động theo cách tương tự bằng cách sử dụng hệ thống khóa thời gian đảm bảo rằng giao dịch hoặc là được hoàn thành thành công hoặc được hủy bỏ hoàn toàn, bảo vệ tính toàn vẹn của quỹ từ cả hai bên. Sự khác biệt chính giữa HTLCs và PTLCs là HTLCs sử dụng băm và preimages để bảo mật giao dịch, trong khi PTLCs sử dụng Chữ ký Adaptor.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 在每个XOR操作阶段
 explanation:
   伽罗瓦域在字节替换中用于计算乘法逆元，在MixColumns操作中用于执行模不可约多项式的乘法。
+reviewed: false

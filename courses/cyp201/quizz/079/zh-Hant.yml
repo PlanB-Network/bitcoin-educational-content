@@ -6,3 +6,4 @@ wrong_answers:
   - 簡化數位簽章的計算方式
 explanation: |
   描述符封裝了追蹤特定腳本的所有必要資訊，包括衍生路徑和使用的金鑰，但不包括復原詞組。
+reviewed: false

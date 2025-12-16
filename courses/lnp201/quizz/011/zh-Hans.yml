@@ -6,3 +6,4 @@ wrong_answers:
   - 允许Bob直接花费这些资金
 explanation: |
   Alice创建提款交易是为了在与Bob发生问题时取回她的资金，从而确保她的存款安全。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Độ sâu 4
 explanation: |
   Độ sâu 2 được sử dụng để xác định loại tiền tệ trong các ví đa tiền tệ, như Bitcoin (chỉ số 0') hoặc Litecoin (chỉ số 2').
+reviewed: false

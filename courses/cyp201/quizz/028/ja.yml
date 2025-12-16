@@ -6,3 +6,4 @@ wrong_answers:
   - 128ビット
 explanation: |
   Schnorr公開鍵は楕円曲線上の点のx座標のみによって表されるため、そのサイズは32バイトに削減されます。
+reviewed: false

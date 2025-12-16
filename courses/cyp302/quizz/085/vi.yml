@@ -6,3 +6,4 @@ wrong_answers:
   - Một mã hóa không yêu cầu khóa bí mật
 explanation: |
   Block cipher là một thuật toán áp dụng một biến đổi trên một chuỗi bit cố định với một khóa để tạo ra một chuỗi khác có cùng độ dài.
+reviewed: false

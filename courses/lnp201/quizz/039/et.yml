@@ -6,3 +6,4 @@ wrong_answers:
   - Kanalit ei saa sulgeda enne, kui HTLC on aegunud.
 explanation: |
   Jõuga sulgemise korral esindatakse ootel HTLC-sid kohustuslike tehingute väljunditena, tagades seeläbi nende täitmise või tagastamise määratletud tingimustel.
+reviewed: false

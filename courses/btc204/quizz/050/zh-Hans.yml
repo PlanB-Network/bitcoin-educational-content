@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Silent Payments的运作不需要通知交易，这样可以节省交易费用并避免区块链过载。
+reviewed: false

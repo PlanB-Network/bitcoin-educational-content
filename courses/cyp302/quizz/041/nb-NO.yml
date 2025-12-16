@@ -6,3 +6,4 @@ wrong_answers:
   - Det assosiative elementet
 explanation: |
   Identitetselementet i en gruppe er det unike elementet som, når det anvendes på et annet element, lar det være uendret. For eksempel, i gruppen av heltall under addisjon, er identitetselementet 0.
+reviewed: false

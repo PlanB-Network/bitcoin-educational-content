@@ -6,3 +6,4 @@ wrong_answers:
   - A federated multi-signature escrow system managed by Boltz that coordinates atomic swaps between Liquid and Bitcoin using time-locked contracts
 explanation: |
   The dual-swap mechanism is specifically designed for cross-chain Bitcoin transfers, involving simultaneous lock-up transactions on both Liquid and Bitcoin networks. This trustless approach allows direct bridging without federated peg-outs. The other options incorrectly describe single-direction submarine swaps, misrepresent the Liquid Network's role, or incorrectly suggest reliance on federated systems that the SDK explicitly avoids.
+reviewed: false

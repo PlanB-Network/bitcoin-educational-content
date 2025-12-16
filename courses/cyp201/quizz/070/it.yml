@@ -6,4 +6,4 @@ wrong_answers:
   - Il tipo di valuta
 explanation: |
   La profondità 0 corrisponde alle chiavi master e alla master chain code, che sono i punti di partenza per tutte le derivazioni in un wallet HD.
-recensito: false
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Es dient nur als temporärer Speicher für Daten bis zum Ende des Prozesses.
 explanation: |
   Das K-Array wird verwendet, um das S-Array im Schlüsselplanungsprozess zu transformieren, was die Erzeugung eines pseudorandomisierten Schlüsselstroms ermöglicht, um den Klartext zu verschlüsseln.
+reviewed: false

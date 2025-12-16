@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Hằng số Bitcoin Seed được sử dụng như một khóa trong hàm HMAC-SHA512 để tạo ra khóa riêng tư chính và mã chuỗi chính.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Su probabilidad combinada es igual a la probabilidad más alta de los dos
 explanation: |
   Dos eventos son independientes si la probabilidad de uno no cambia la probabilidad del otro, como un sorteo de lotería que no tiene influencia en el clima del día siguiente.
+reviewed: false

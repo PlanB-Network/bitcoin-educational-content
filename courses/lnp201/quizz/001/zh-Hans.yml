@@ -6,3 +6,4 @@ wrong_answers:
   - 通道每天可以支持的交易数量
 explanation: |
   通道的容量对应于两个参与者的总资金，并保持固定以确定可能的交换。
+reviewed: false

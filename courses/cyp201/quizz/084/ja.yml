@@ -6,3 +6,4 @@ wrong_answers:
   - 確認ブロックを特定する
 explanation: |
   BitcoinアドレスはscriptPubKeyに埋め込まれ、UTXOをロックします。これにより、資金をアンロックするために必要な条件が決定されます。
+reviewed: false

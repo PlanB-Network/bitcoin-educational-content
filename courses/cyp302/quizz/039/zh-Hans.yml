@@ -6,3 +6,4 @@ wrong_answers:
   - 它仅允许计算二进制操作。
 explanation: |
   数论在公钥密码学中至关重要，因为它基于整数的属性帮助构建算法，从而便于执行加密和解密操作。
+reviewed: false

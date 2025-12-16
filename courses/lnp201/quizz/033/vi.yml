@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   Onion routing có nghĩa là mỗi nút trung gian chỉ biết về nút trước và nút tiếp theo, do đó bảo vệ sự bảo mật của người nhận cuối cùng.
+reviewed: false

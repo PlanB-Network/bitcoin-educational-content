@@ -6,3 +6,4 @@ wrong_answers:
   - "Taproot's script path automatically reverses transactions if one network fails to complete"
 explanation: |
   The atomic nature of cross-layer swaps relies on using identical hash locks across both networks. When the receiver reveals the secret preimage to claim funds on one layer, that same secret becomes visible and usable by the sender to claim reciprocal funds on the other layer. This cryptographic binding ensures atomicity - either both parties get their funds or neither does, eliminating counterparty risk in trustless swaps.
+reviewed: false

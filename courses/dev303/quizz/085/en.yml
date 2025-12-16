@@ -6,3 +6,4 @@ wrong_answers:
   - Serialize and Deserialize bounds are required to marshal callback parameters between different language runtimes
 explanation: |
   Callback interfaces in UniFFI require Send and Sync bounds because they enable bidirectional communication where Rust code calls back into application code written in target languages. Since these callbacks may cross thread boundaries during execution, Rust's type system requires Send (safe to transfer between threads) and Sync (safe to share references between threads) bounds to ensure memory safety. The other options are incorrect: Clone/Copy are not needed for cross-language calls, Debug/Display are for formatting not safety, and Serialize/Deserialize are handled automatically by UniFFI's marshaling system.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Se ei salli tekstin jakamista 128-bittisiin lohkoihin
 explanation: |
   ECB-tilaa ei suositella, koska se tuottaa determinististä salausta, mikä tarkoittaa, että identtiset tekstin lohkot tuottavat identtiset salatun tekstin lohkot, joita voidaan hyödyntää arvaamaan tietoja alkuperäisestä tekstistä.
+reviewed: false

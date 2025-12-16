@@ -6,3 +6,4 @@ wrong_answers:
   - See krüpteerib sõnumit
 explanation: |
   Sümmeetrilises krüpteerimisskeemis toodab võtmegeneratsiooni algoritm privaatvõtme, mida seejärel kasutatakse sõnumite krüpteerimiseks ja dekrüpteerimiseks.
+reviewed: false

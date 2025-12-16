@@ -6,4 +6,4 @@ wrong_answers:
   - Si perdono solo le transazioni non confermate
 explanation: |
   La passphrase è un componente essenziale nella derivazione delle chiavi. Senza di essa, è impossibile ricreare le chiavi e quindi accedere ai bitcoin.
-recensito: false
+reviewed: false

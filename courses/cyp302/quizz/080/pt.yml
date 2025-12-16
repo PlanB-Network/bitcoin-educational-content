@@ -6,3 +6,4 @@ wrong_answers:
   - Uma criptografia que segmenta a mensagem em blocos de dados
 explanation: |
   Uma cifra de fluxo é uma criptografia simétrica na qual um fluxo de chaves do mesmo comprimento que a mensagem é combinado com esta última para produzir o texto criptografado.
+reviewed: false

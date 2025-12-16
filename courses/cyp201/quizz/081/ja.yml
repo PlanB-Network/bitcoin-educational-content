@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKHはSegWitと互換性がありません。
 explanation: |
   SegWitで導入されたP2WPKHは、トランザクションの可変性を防ぐために、署名をWitnessと呼ばれる別のセクションに移動します。
+reviewed: false

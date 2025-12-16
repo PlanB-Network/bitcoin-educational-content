@@ -6,3 +6,4 @@ wrong_answers:
   - 在每次交易后关闭并重新打开通道
 explanation: |
   通道内的每一笔交易都会通过一个新的承诺交易更新通道的状态，反映两个参与者之间资金的当前分配情况。
+reviewed: false

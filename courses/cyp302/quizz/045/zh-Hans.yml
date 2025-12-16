@@ -6,3 +6,4 @@ wrong_answers:
   - 群的度数
 explanation: |
   群的阶是指它包含的元素的总数。
+reviewed: false

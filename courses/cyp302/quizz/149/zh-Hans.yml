@@ -6,3 +6,4 @@ wrong_answers:
   - 一个比另一个整数大的整数
 explanation:
   如果两个整数的最大公约数为1，意味着它们之间不共享任何其他的公因数，那么这两个整数互质。
+reviewed: false

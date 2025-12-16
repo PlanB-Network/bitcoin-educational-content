@@ -6,3 +6,4 @@ wrong_answers:
   - Kryptere de offentlige nøklene
 explanation: |
   En utvidet nøkkel kombinerer en nøkkel (enten privat eller offentlig) med en tilknyttet kjedekode, dvs. de to elementene som er nødvendige for å derivere barnenøkler.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Elas requerem um hashing mais longo para mais segurança
 explanation: |
   Senhas fracas podem ser facilmente recuperadas a partir de seu hash usando ataques de dicionário, tornando sua seleção importante para garantir a segurança.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Implement Auto Loop at channel level with high confirmation targets to slowly drain remote balances over time
 explanation: |
   When channels have high local balance (90%), the node can send but cannot receive payments. Loop Out is specifically designed to solve this by sending Lightning funds to the Loop server, which returns on-chain Bitcoin, effectively 'emptying' the local side to create inbound liquidity. Loop In would worsen the problem by adding more local balance. Closing/reopening channels is costly and time-consuming. Auto Loop with high confirmation targets doesn't address the fundamental direction of rebalancing needed.
+reviewed: false

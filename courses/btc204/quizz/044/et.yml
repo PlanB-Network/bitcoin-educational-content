@@ -6,3 +6,4 @@ wrong_answers:
   - Isikutuvastuse mehhanism.
 explanation: |
   Need platvormid kasutavad tavaliselt kaitsemehhanismi, kus bitcoine hoitakse seni, kuni müüja kinnitab makse fiat-rahas. See kolmanda osapoole poolt hoidmise mehhanism on tuntud kui escrow.
+reviewed: false

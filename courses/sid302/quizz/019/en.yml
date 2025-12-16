@@ -6,3 +6,4 @@ wrong_answers:
   - Regulated assets require functionary approval for creation while unregulated assets can be issued permissionlessly
 explanation: |
   In Liquid's architecture, both regulated and unregulated assets can be issued permissionlessly using simple RPC calls without smart contracts. The key difference is in their movement: regulated assets utilize Blockstream's Asset Management Platform (AMP) to enforce compliance by requiring an additional authorization signature before transfers, while unregulated assets can move freely without such restrictions.
+reviewed: false

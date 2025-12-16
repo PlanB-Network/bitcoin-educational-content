@@ -6,3 +6,4 @@ wrong_answers:
   - A construção de Knuth-Morris-Pratt
 explanation: |
   A construção de Merkle-Damgård permite transformar uma função de compressão em uma função hash para mensagens de comprimento variável.
+reviewed: false

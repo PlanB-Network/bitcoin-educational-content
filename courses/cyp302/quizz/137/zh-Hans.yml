@@ -6,3 +6,4 @@ wrong_answers:
   - 为了允许用户无需密码登录
 explanation: |
   通过存储密码哈希，即使在数据泄露的情况下，也无法直接读取实际的密码，从而增加了安全性。
+reviewed: false

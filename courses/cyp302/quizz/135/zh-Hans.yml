@@ -6,3 +6,4 @@ wrong_answers:
   - 它们需要更长的哈希处理以提高安全性
 explanation: |
   弱密码可以通过字典攻击轻松从其哈希值中恢复，因此选择强密码对于确保安全非常重要。
+reviewed: false

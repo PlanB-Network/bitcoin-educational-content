@@ -6,3 +6,4 @@ wrong_answers:
   - 硬化和普通子私钥都可以
 explanation: |
   一个扩展公钥只允许派生普通子公钥，不能派生私钥或硬化密钥。
+reviewed: false

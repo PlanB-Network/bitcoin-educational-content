@@ -6,3 +6,4 @@ wrong_answers:
   - 无论结果如何它总是返回0
 explanation: |
   XOR操作（或称为“异或”）在两个比特位不同（0和1或1和0）时产生1，如果它们相同则产生0。
+reviewed: false

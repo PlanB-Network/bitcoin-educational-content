@@ -6,3 +6,4 @@ wrong_answers:
   - Routing Capacity
 explanation: |
   Online Status is described as the most fundamental check because it verifies your node is online and accessible. For routing nodes, consistent uptime is absolutely critical since you cannot facilitate any payments across the network when offline. While Peer Quality, Channel Count, and Routing Capacity are all important metrics for optimizing node performance, they become irrelevant if the node isn't online in the first place. A node must be consistently available to route payments between other network participants.
+reviewed: false

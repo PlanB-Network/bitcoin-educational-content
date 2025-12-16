@@ -6,3 +6,4 @@ wrong_answers:
   - 敏感信息在每个密文块中被打乱
 explanation: |
   扩散意味着明文的一个小变化会导致密文中的显著变化，这使得攻击者难以推断出明文。
+reviewed: false

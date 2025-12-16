@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Sự nhầm lẫn phát sinh từ việc một số người chỉ coi mã hóa khối là các thuật toán sử dụng các chế độ khối cụ thể, trong khi thực tế, chúng có thể bao gồm các phương thức mã hóa như chế độ OFB.
+reviewed: false

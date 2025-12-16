@@ -6,3 +6,4 @@ wrong_answers:
   - SHA160
 explanation: |
   HASH160 kết hợp SHA256 và RIPEMD160 để tạo ra dấu vân tay 160-bit, đặc biệt là cho địa chỉ Bitcoin.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 打开一个新的闪电网络通道
 explanation: |
   闪电网络发票是一个支付请求，由接收节点传送给发送节点，以在闪电网络上启动支付。
+reviewed: false

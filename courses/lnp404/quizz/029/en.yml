@@ -6,3 +6,4 @@ wrong_answers:
   - "To validate each peer's routing capacity before committing funds to prevent failed channel establishments"
 explanation: |
   The "Add Channel" function allows operators to aggregate multiple channel openings into a single on-chain transaction rather than finalizing after each peer configuration. This stacking approach is the core mechanism that makes batch opens economically advantageous, as the marginal cost of each additional channel becomes negligible compared to the base transaction cost. The other options describe functions that either don't exist in the batch system or misrepresent how the workflow operates.
+reviewed: false

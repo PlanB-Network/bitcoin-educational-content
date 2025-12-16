@@ -6,3 +6,4 @@ wrong_answers:
   - Generere bitcoins for hver bruker
 explanation: |
   En Bitcoin-lommebok lagrer ikke direkte bitcoins, men administrerer de private nøklene som er nødvendige for å låse opp UTXOene som representerer bitcoinsene.
+reviewed: false

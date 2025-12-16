@@ -6,3 +6,4 @@ wrong_answers:
   - Bob saab automaatselt kanalis olevad vahendid
 explanation: |
   Ilma Bobi allkirjata väljamaksetehingul ei saa Alice tagada oma vahendite taastamist probleemi korral, mis seab ohtu kaotuse.
+reviewed: false

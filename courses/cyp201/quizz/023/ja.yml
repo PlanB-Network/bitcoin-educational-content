@@ -6,3 +6,4 @@ wrong_answers:
   - 圧縮公開鍵
 explanation: |
   楕円曲線secp256k1の生成点Gは、秘密鍵から公開鍵を計算するために使用されます。
+reviewed: false

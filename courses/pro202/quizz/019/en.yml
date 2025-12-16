@@ -6,3 +6,4 @@ wrong_answers:
   - The sum of R + S must equal the x-coordinate of the public key point P
 explanation: |
   ECDSA verification works by reconstructing the original point KG through the equation UG + VP, where U = Z/S (hash divided by S) and V = R/S. If the x-coordinate of this reconstructed point equals R from the signature, verification succeeds. This mathematical relationship allows verification without knowing the private key or nonce K, as the algebra reconstructs KG indirectly through the public key and signature components.
+reviewed: false

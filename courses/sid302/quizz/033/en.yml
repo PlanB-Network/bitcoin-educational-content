@@ -6,3 +6,4 @@ wrong_answers:
   - It cannot operate without internet connectivity because it requires constant synchronization with centralized Breez servers
 explanation: |
   The SDK is explicitly described as 'strictly a Liquid-centric tool' that operates with Liquid as its 'home base.' It only supports three specific operations: Liquid-to-Liquid, Liquid-to-Lightning, and Liquid-to-Bitcoin. Unlike a full Lightning node that can route payments between Lightning channels, the Breez SDK cannot perform direct Lightning-to-Lightning transactions, making it fundamentally different from traditional Lightning infrastructure.
+reviewed: false

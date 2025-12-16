@@ -6,3 +6,4 @@ wrong_answers:
   - Cubrir todas las salidas excepto una
 explanation: |
   SIGHASH_SINGLE cubre una única entrada y una única salida correspondiente al índice de la entrada firmada, dejando el resto modificable.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - AES-256
 explanation: |
   Seed được tạo ra sử dụng hàm PBKDF2 với HMAC-SHA512 và 2048 lần lặp, từ cụm từ ghi nhớ và cụm từ bí mật.
+reviewed: false

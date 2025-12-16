@@ -6,3 +6,4 @@ wrong_answers:
   - 安全密钥交换
 explanation:
   RSA基于质数分解的难度，这是一个计算上的难题，使得密码系统能够抵御攻击。
+reviewed: false

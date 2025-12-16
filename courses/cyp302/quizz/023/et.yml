@@ -6,3 +6,4 @@ wrong_answers:
   - See kustutab tähed pärast tähte Z
 explanation: |
   Modulo 26 operatsioon võimaldab tähtedel pärast Z tagasi loopida, et tagada iga krüpteeritud tähe jäämine 26 tähestiku tähe piiresse.
+reviewed: false

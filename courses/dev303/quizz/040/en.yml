@@ -6,3 +6,4 @@ wrong_answers:
   - The types remain flexible and can change based on context
 explanation: |
   In Rust, closures benefit from automatic type inference, but this flexibility has limits. Once a closure is called with specific parameter types, the compiler locks in those types for that particular closure instance. This means the same closure cannot later be called with different types - it becomes monomorphized to the first types it encounters. This is different from generic functions which can be called with different types because each call creates a separate instantiation. The other options are incorrect because they suggest ongoing flexibility that doesn't exist once the closure's types are determined.
+reviewed: false

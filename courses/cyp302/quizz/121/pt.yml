@@ -6,3 +6,4 @@ wrong_answers:
   - A necessidade de transmitir chaves para cada comunicação
 explanation: |
   O problema da gestão de chaves reside na dificuldade de armazenar e proteger um par de chaves para cada usuário, especialmente quando o número de clientes atinge milhões.
+reviewed: false

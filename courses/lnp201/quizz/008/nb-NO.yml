@@ -6,3 +6,4 @@ wrong_answers:
   - Den brukes kun for å sende midler til offentlige adresser.
 explanation: |
   En 2/2 multisignaturadresse krever signaturer fra begge parter involvert for at midlene skal kunne brukes, noe som brukes for sikkerheten til Lightning-kanaler.
+reviewed: false

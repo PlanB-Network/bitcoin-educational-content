@@ -6,3 +6,4 @@ wrong_answers:
   - Kwa kugawanya ufunguo kutoka kwa kila herufi iliyosimbwa na kutumia modulo 27
 explanation: |
   Katika shifti ya misimbo, usimbuaji unafanywa kwa kutoa ufunguo kutoka kwa kila herufi iliyosimbwa, kisha kutumia modulo 26 ili kurudi kwenye maandishi asili. Moduli ya 26 inaruhusu kurudi mwanzo wa alfabeti baada ya herufi Z.
+reviewed: false

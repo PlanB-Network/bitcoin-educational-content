@@ -6,3 +6,4 @@ wrong_answers:
   - Một đường cong elliptic tùy chỉnh
 explanation: |
   Một chữ ký ECDSA bắt đầu bằng việc tính toán băm của thông điệp cần được ký, thường sử dụng SHA256.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - De har ingen felles divisorer annet enn 1 og seg selv
 explanation: |
   To tall er innbyrdes primiske hvis deres største felles divisor er 1, noe som betyr at de ikke deler noen primtallfaktorer, en viktig egenskap i kryptografi.
+reviewed: false

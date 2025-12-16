@@ -6,3 +6,4 @@ wrong_answers:
   - 见证脚本哈希
 explanation: |
   前缀`wpkh`表示使用支付至见证公钥哈希地址的SegWit v0脚本。
+reviewed: false

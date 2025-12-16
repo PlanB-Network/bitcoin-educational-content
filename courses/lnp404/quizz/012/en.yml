@@ -6,3 +6,4 @@ wrong_answers:
   - They display real-time routing traffic and forwarding volume more effectively than text logs
 explanation: |
   Terminal Web's visual liquidity bars are specifically designed to show the balance distribution of each channel through visual representation, making it immediately apparent which channels have too much outbound liquidity (local-heavy) or inbound liquidity (remote-heavy). This visual scan is much more efficient than parsing numerical tables for identifying rebalancing needs. The wrong answers confuse this visualization feature with other Terminal Web functions like fee calculations, automated operations, or traffic monitoring, which are separate features with different purposes.
+reviewed: false

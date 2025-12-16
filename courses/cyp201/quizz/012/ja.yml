@@ -6,3 +6,4 @@ wrong_answers:
   - 1024バイト
 explanation: |
   SHA512は計算に128バイトのブロックを使用します。これは1024ビットに相当します。
+reviewed: false

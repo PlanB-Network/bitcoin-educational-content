@@ -6,3 +6,4 @@ wrong_answers:
   - Garante o uso de chaves únicas
 explanation: |
   O princípio de Kerckhoff possibilita a verificação pública de falhas de segurança, como em sistemas de código aberto, o que torna os sistemas mais confiáveis através da transparência. A segurança é assegurada unicamente pela chave, não pelo processo de criptografia em si.
+reviewed: false

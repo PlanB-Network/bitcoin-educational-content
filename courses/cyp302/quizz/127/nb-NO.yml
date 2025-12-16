@@ -6,3 +6,4 @@ wrong_answers:
   - En forenklet modulær divisjon
 explanation: |
   Diffie-Hellman er avhengig av en enveisfunksjon som er lett å beregne i én retning, men praktisk talt umulig å reversere uten et hemmelig stykke informasjon, kalt en bakdør.
+reviewed: false

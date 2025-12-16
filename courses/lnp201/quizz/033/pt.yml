@@ -6,3 +6,4 @@ wrong_answers:
   - Enviar fundos para todos os nós no caminho simultaneamente
 explanation: |
   Roteamento em cebola significa que cada nó intermediário só conhece o nó anterior e o próximo, preservando assim a confidencialidade do destinatário final.
+reviewed: false

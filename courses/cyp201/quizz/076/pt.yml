@@ -6,3 +6,4 @@ wrong_answers:
   - A um caminho de derivação endurecido
 explanation: |
   A notação /<0;1>/* indica que o descritor pode gerar endereços para a cadeia externa (0) e interna (1), com derivação sequencial graças ao curinga (*).
+reviewed: false

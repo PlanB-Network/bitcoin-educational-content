@@ -6,3 +6,4 @@ wrong_answers:
   - 通过替换字节引入额外的混淆
 explanation: |
   AES中的“行移位”操作通过重新排列状态表中的字节来分散信息，从而增加了扩散。
+reviewed: false

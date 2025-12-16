@@ -6,3 +6,4 @@ wrong_answers:
   - UTXOs require multiple signatures from different keys to be valid
 explanation: |
   The UTXO model has a fundamental constraint that unspent transaction outputs must be consumed entirely - there's no mechanism for partial spending. When you need to spend less than the full UTXO amount, you must create a transaction that spends the entire UTXO and includes a change output back to yourself for the remainder. The other options describe non-existent limitations: UTXOs can be spent multiple times per block (different UTXOs), don't require chronological ordering, and typically need only one valid signature unless specifically designed as multisig.
+reviewed: false

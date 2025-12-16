@@ -6,3 +6,4 @@ wrong_answers:
   - 一个非标准的派生
 explanation: |
   撇号表示该派生是加固的，需要父私钥来生成子密钥。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Se rajoittaa luotujen mnemonisten fraasien kokoa
 explanation: |
   Entropian manuaalinen luominen voi tuoda mukanaan vinoumia tai virheitä, mikä tekee avaimista haavoittuvampia hyökkäyksille.
+reviewed: false

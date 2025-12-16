@@ -6,3 +6,4 @@ wrong_answers:
   - CoinSwap
 explanation: |
   Lightning Labsi Loop Out teenus võimaldab vahendite ülekandmist Lightning kanalist ahelasse, optimeerides sellega vastuvõtu mahtu, samal ajal bitcoine põhiahelast tagasi saades.
+reviewed: false

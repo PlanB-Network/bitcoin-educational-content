@@ -6,3 +6,4 @@ wrong_answers:
   - Địa chỉ Bitcoin sẽ không tương thích với mạng
 explanation: |
   Một PRNG được thiết kế kém có thể tạo ra các chuỗi dễ đoán, làm cho các khóa dễ bị tấn công hơn.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Määrittää kertolaskullinen identiteetti
 explanation: |
   Redusoitumattomia polynomeja käytetään rakentamaan kertolasku äärellisissä kentissä, varmistaen, että jokainen alkio pysyy kentässä.
+reviewed: false

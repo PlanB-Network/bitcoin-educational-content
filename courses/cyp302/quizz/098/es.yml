@@ -6,3 +6,4 @@ wrong_answers:
   - Bloqueando automáticamente mensajes sospechosos
 explanation: |
   Un MAC permite al destinatario verificar que un mensaje no ha sido modificado a través de una etiqueta generada con una clave secreta compartida, lo que limita las posibilidades de manipulación.
+reviewed: false

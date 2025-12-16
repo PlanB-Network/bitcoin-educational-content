@@ -6,3 +6,4 @@ wrong_answers:
   - Witness Script Hash
 explanation: |
   Il prefisso `wpkh` indica uno script SegWit v0 che utilizza indirizzi Pay-to-Witness-Public-Key-Hash.
+reviewed: false

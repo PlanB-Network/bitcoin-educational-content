@@ -6,3 +6,4 @@ wrong_answers:
   - Khách hàng sẽ phải thay đổi khóa với mỗi lần mua hàng
 explanation: |
   Bằng cách sử dụng cùng một khóa cho mọi người, Jim's Sporting Goods sẽ làm mất đi tính bảo mật và toàn vẹn, vì mỗi khách hàng có thể tiềm năng truy cập vào dữ liệu của khách hàng khác.
+reviewed: false

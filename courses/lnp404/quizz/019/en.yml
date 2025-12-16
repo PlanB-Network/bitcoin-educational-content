@@ -6,3 +6,4 @@ wrong_answers:
   - To create secure backup copies of channel policies before the Auto-Fees algorithm makes any fee adjustments
 explanation: |
   The Privacy Mapper specifically obfuscates sensitive identifiers such as Channel IDs, Channel Points, and Node Public Keys before any data leaves the local node environment. This allows the external Auto-Fees logic to perform mathematical optimizations without exposing the node's specific identity or topology map to the central server. The other options describe general security measures but not the Privacy Mapper's actual function of identifier obfuscation.
+reviewed: false

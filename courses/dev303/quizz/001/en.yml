@@ -6,3 +6,4 @@ wrong_answers:
   - A build system that compiles Rust programs and manages project structure
 explanation: |
   Rustup is specifically designed as a toolchain management system that handles the installation, updating, and management of Rust itself across different projects and platforms. While Cargo serves as the package manager and build system for Rust projects, and Clippy functions as the linter for code analysis, Rustup operates at a higher level by managing the entire Rust development environment. It allows developers to install different Rust versions, manage compilation targets for various platforms, and easily update to new Rust releases with simple commands like 'rustup update'.
+reviewed: false

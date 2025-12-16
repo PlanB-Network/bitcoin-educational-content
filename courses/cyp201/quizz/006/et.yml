@@ -6,3 +6,4 @@ wrong_answers:
   - Muutujate algväärtused jäävad muutmata
 explanation: |
   Iga ring muudab olekumuutujaid kasutades sõnu, konstante ja loogilisi operatsioone, et levitada informatsiooni.
+reviewed: false

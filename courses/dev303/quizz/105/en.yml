@@ -6,3 +6,4 @@ wrong_answers:
   - LDK encrypts all persistence data by default while traditional nodes rely on application-level encryption
 explanation: |
   LDK's persistence layer abstracts storage by providing applications with serialized binary data blobs that must be stored and retrieved reliably, while handling all the complexity of serializing Lightning channel states and network data internally. This allows applications to choose any storage solution (file systems, cloud storage, databases) that matches their platform requirements. Traditional Lightning nodes typically implement their own specific data management systems tied to particular storage mechanisms, making them less flexible across different deployment environments.
+reviewed: false

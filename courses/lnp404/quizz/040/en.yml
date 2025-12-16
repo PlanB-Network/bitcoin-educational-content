@@ -6,3 +6,4 @@ wrong_answers:
   - By accessing private routing data from other nodes through encrypted peer-to-peer intelligence sharing protocols
 explanation: |
   Peer Insights transforms channel management by using your node's own transaction history to provide concrete performance metrics for each peer relationship. Unlike network explorers that can only guess at routing volume, Terminal accesses your local data to show exact forwarding events, satoshis moved, and revenue generated. This evidence-based approach allows operators to identify underperforming channels, optimize fee structures, and treat their node as a portfolio of financial assets requiring active management rather than passive connectivity.
+reviewed: false

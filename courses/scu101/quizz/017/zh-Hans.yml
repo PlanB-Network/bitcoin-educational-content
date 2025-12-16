@@ -6,3 +6,4 @@ wrong_answers:
   - 检查网站的配色方案。
 explanation:
   检查地址栏中的URL和小锁标志是确认自己访问的是预期网站的一种方式。小锁标志表明该网站使用了HTTPS协议，该协议对数据进行加密，以安全地交换信息。
+reviewed: false

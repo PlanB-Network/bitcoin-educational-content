@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Tagasiulatuv anonüümsuskomplekt näitab antud mündi võimalike allikate arvu, arvestades UTXO-d tsükli lõpus.
+reviewed: false

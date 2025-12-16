@@ -6,3 +6,4 @@ wrong_answers:
   - Mã hóa theo base58check
 explanation: |
   Khóa công khai phải được nén để giảm kích thước trước khi đi qua hàm băm HASH160.
+reviewed: false

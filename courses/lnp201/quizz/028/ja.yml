@@ -6,4 +6,4 @@ wrong_answers:
   - 利用可能な資金の半分だけを請求する
 explanation: |
   不正行為が発生した場合、Bobは取消鍵を使用してチャネルから全ての資金を回復することができ、これによりAliceの試みを罰することができます。
-  レビュー済み: false
+reviewed: false

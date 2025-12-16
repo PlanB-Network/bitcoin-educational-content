@@ -6,3 +6,4 @@ wrong_answers:
   - Gjennom verifisering av brukeridentitet.
 explanation: |
   Utgangene av en Bitcoin-transaksjon er UTXOer som er sikret med et skript. Dette skriptet krever at forhåndsdefinerte betingelser for bruk er oppfylt for å kunne bruke UTXOen.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - See tagastab alati 0 sõltumata tulemusest
 explanation: |
   XOR operatsioon (või eksklusiivne või) toodab 1, kui kaks bitti on erinevad (0 ja 1 või 1 ja 0) ning 0, kui need on samad.
+reviewed: false

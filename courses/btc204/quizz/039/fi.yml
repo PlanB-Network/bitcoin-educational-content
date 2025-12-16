@@ -6,3 +6,4 @@ wrong_answers:
   - Koska ne voivat mahdollistaa yleisen syötteen omistajuuden heuristiikan soveltamisen.
 explanation: |
   Bitcoinin vastaanotto-osoitteiden jakaminen internetissä voi toimia ketjuanalyysin lähtökohtana yhdistämällä henkilöllisyyden (todellisen tai pseudonyymin) onchain-toimintaan.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Khả năng tạo ra thời gian thực
 explanation: |
   Tính kháng va chạm đảm bảo rằng thực tế là không thể tìm thấy hai đầu vào khác nhau tạo ra cùng một giá trị băm, điều này quan trọng để xác minh rằng phần mềm không bị can thiệp.
+reviewed: false

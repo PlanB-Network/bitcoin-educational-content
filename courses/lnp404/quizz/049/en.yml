@@ -6,3 +6,4 @@ wrong_answers:
   - "LND Accounts generate child nodes with their own private keys that inherit a portion of the parent node's channel capacity through hierarchical deterministic derivation"
 explanation: |
   LND Accounts are purely virtual constructs that create logical partitions within a single node's infrastructure. They do not create separate channels, wallets, or keys - instead, they function as access control layers that allow multiple users or applications to share the host node's existing liquidity and connectivity. This design prevents capital fragmentation while enabling secure multi-tenant access to Lightning Network functionality.
+reviewed: false

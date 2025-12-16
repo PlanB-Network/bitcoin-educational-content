@@ -6,3 +6,4 @@ wrong_answers:
   - Verktøytoken Byttealternativ
 explanation: |
   En UTXO er en utgang av en transaksjon som ennå ikke har blitt brukt.
+reviewed: false

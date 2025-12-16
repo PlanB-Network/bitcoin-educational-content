@@ -6,3 +6,4 @@ wrong_answers:
   - Generere private nøkler for hver kommunikasjon
 explanation: |
   En MAC er et kryptografisk skjema som muliggjør verifisering av at en melding virkelig kommer fra den legitime avsenderen og ikke har blitt endret, og sikrer dermed autentisiteten og integriteten.
+reviewed: false

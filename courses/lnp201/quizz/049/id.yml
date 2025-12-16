@@ -6,3 +6,4 @@ wrong_answers:
   - Membuka saluran Lightning baru
 explanation: |
   Sebuah invoice Lightning adalah permintaan pembayaran, yang ditransmisikan oleh node penerima ke node pengirim untuk memulai pembayaran di Jaringan Lightning.
+reviewed: false

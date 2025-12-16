@@ -6,3 +6,4 @@ wrong_answers:
   - Descriptografar automaticamente mensagens interceptadas
 explanation: |
   Um esquema de criptografia autenticada combina criptografia e um código de autenticação (MAC) para garantir tanto a confidencialidade das mensagens quanto a sua autenticidade.
+reviewed: false

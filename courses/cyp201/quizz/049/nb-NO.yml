@@ -6,3 +6,4 @@ wrong_answers:
   - Å generere en hash for UTXOene
 explanation: |
   Den mnemoniske frasen muliggjør utledningen av alle private og offentlige nøkler i en lommebok, noe som letter sikkerhetskopiering og gjenoppretting.
+reviewed: false

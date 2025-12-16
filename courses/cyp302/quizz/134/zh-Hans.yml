@@ -6,3 +6,4 @@ wrong_answers:
   - 允许Alice加密消息以验证其完整性
 explanation: |
   在非对称加密中，Alice的公钥使得Bob能够发送一个只有她能解密的加密消息，从而确保了消息的保密性。
+reviewed: false

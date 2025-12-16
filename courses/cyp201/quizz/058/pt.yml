@@ -6,3 +6,4 @@ wrong_answers:
   - AES-256
 explanation: |
   A semente é gerada usando a função PBKDF2 com HMAC-SHA512 e 2048 iterações, a partir da frase mnemônica e da senha.
+reviewed: false

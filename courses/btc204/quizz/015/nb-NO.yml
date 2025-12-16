@@ -6,3 +6,4 @@ wrong_answers:
   - Datainnsamling, tilfeldig utvalg, og anmeldelse.
 explanation: |
   Blockchain-analyse innebærer først å få tilgang til Bitcoin blockchain-data, deretter forsøke å identifisere kjennetegn i denne dataen, og til slutt gjøre plausible tolkninger.
+reviewed: false

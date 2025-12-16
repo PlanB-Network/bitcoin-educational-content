@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Entropi digunakan untuk mengukur kurangnya pengetahuan analis tentang konfigurasi transaksi yang tepat. Dengan kata lain, semakin tinggi entropi, semakin sulit bagi analis untuk mengidentifikasi aliran bitcoin antara input dan output.
+reviewed: false

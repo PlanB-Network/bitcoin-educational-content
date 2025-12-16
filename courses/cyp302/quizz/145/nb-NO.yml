@@ -6,3 +6,4 @@ wrong_answers:
   - Det brukes til å verifisere partall av et tall
 explanation: |
   I asymmetrisk kryptografi forenkler Eulers teorem beregningen av potenser i ordninger som RSA, ettersom det gir en metode for å manipulere modulære eksponentieringer.
+reviewed: false

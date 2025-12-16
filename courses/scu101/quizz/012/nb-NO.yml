@@ -8,3 +8,4 @@ explanation: |
   Å verifisere nettstedets offentlige nøkkel ved hjelp av et sertifikatsystem er viktig
   for å bekrefte nettstedets autentisitet. Dette hjelper med å beskytte mot ondsinnede individer
   som utgir seg for å være nettstedet og overfører data i klartekst.
+reviewed: false

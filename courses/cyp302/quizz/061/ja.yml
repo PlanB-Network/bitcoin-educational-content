@@ -6,3 +6,4 @@ wrong_answers:
   - 公開鍵
 explanation: |
   ブロック暗号化は、データを固定サイズのブロックに分割し、それぞれを独立して暗号化します。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Rot
 explanation: |
   Bitcoin seed-konstanten används som en nyckel i HMAC-SHA512-funktionen för att härleda den privata huvudnyckeln och huvud-chain code.
+reviewed: false

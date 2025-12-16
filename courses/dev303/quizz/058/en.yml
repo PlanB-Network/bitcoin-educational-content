@@ -6,3 +6,4 @@ wrong_answers:
   - Use $($x:expr)? to match an optional single expression with no repetition
 explanation: |
   The pattern $($x:expr),* is specifically designed for variable argument macros, where expr matches any expression and the ,* syntax handles zero or more repetitions separated by commas. This is exactly what's needed for macros like vec! that can accept varying numbers of arguments. The other options are incorrect because: ident only matches identifiers (not full expressions), ty matches types (not values), and ? matches optional single items rather than variable repetitions.
+reviewed: false

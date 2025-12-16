@@ -6,3 +6,4 @@ wrong_answers:
   - 它使数字签名失效
 explanation: |
   重复使用一个地址使得观察者可以轻松地将不同的交易链接到同一个用户，从而威胁到他们的隐私。
+reviewed: false

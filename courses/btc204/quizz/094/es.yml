@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Se desaconseja fusionar UTXOs doxxic juntos porque permite que se establezca una conexión entre las diferentes entradas del usuario en Whirlpool.
+reviewed: false

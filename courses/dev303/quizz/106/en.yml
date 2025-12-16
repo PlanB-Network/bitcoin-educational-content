@@ -6,3 +6,4 @@ wrong_answers:
   - "LDK's peer management system implements advanced cryptographic signatures that inherently distinguish between legitimate and malicious transaction patterns"
 explanation: |
   LDK's modular design allows developers to extract just the signing and verification components while preserving the Lightning protocol intelligence needed to understand transaction context. This enables HSMs to make informed decisions about payment forwarding, channel operations, and security threats rather than blindly signing transactions. The wrong answers incorrectly attribute this capability to automated fraud detection, blockchain monitoring, or cryptographic signatures, when it's actually the modular architecture's ability to maintain protocol awareness in isolated components that enables intelligent transaction evaluation.
+reviewed: false

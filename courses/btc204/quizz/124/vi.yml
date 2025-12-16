@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   P2P V2 transport có thể được chỉnh sửa với tùy chọn v2transport= trong tệp cấu hình của một nút Core.
+reviewed: false

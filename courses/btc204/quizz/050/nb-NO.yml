@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Silent Payments fungerer uten en varslingstransaksjon, noe som sparer transaksjonsgebyrer og unngår å overbelaste blokkjeden.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Enables cross-chain atomic swaps between Bitcoin and altcoins through integrated multi-currency wallet management and routing protocols
 explanation: |
   LITD's core architectural benefit is consolidating LND, Loop, Pool, Faraday, and Taproot Assets into one unified binary, eliminating the operational overhead of managing five separate daemons and their complex inter-process communications. The wrong answers describe features that LITD doesn't provide: it doesn't optimize resource pooling across services, doesn't offer failover between different Lightning implementations, and doesn't enable cross-chain atomic swaps with altcoins.
+reviewed: false

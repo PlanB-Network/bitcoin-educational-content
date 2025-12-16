@@ -6,3 +6,4 @@ wrong_answers:
   - A chave pública comprimida
 explanation: |
   O ponto gerador G da curva elíptica secp256k1 é usado para calcular chaves públicas a partir de chaves privadas.
+reviewed: false

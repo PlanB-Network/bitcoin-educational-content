@@ -6,3 +6,4 @@ wrong_answers:
   - 有理数或由有理数描述的元素的群体
 explanation: |
   密码学使用基于整数的群体，或者由整数描述的元素，如椭圆曲线上的点，用于加密和签名操作。
+reviewed: false

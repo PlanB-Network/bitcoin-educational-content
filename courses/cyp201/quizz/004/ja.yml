@@ -6,3 +6,4 @@ wrong_answers:
   - SHA160
 explanation: |
   HASH160は、SHA256とRIPEMD160を組み合わせて160ビットのフィンガープリントを生成します。これは特にBitcoinアドレスにおいて顕著です。
+reviewed: false

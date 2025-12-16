@@ -6,3 +6,4 @@ wrong_answers:
   - Fordi de kan tillate bruk av vanlig input-eierskapsheuristikk.
 explanation: |
   Å dele Bitcoin mottaksadresser på internett kan brukes som et inngangspunkt for kjedeanalyse ved å koble en identitet (ekte eller pseudonym) med onchain-aktivitet.
+reviewed: false

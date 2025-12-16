@@ -7,3 +7,4 @@ wrong_answers:
 explanation: |
   Primitive stream cipher, seperti Salsa20, dirancang secara independen dari block cipher, sementara block cipher stream cipher menggunakan block cipher sebagai dasarnya, dimodifikasi untuk menghasilkan aliran enkripsi.
   direview: false
+reviewed: false

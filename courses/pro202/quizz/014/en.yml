@@ -6,3 +6,4 @@ wrong_answers:
   - It allows direct computation of private keys from public keys
 explanation: |
   The double-and-add algorithm significantly improves efficiency by reducing the computational complexity from O(n) linear additions to O(log n) operations. This works by scanning the scalar's binary representation, doubling the point at each step, and adding the generator point only when the bit is 1. The other options are incorrect: modular arithmetic is still required in finite fields, the discrete logarithm problem remains computationally infeasible (which is essential for security), and private keys cannot be computed from public keys regardless of the multiplication algorithm used.
+reviewed: false

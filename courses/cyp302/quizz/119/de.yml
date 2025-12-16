@@ -6,3 +6,4 @@ wrong_answers:
   - Sie erlaubt es nicht, den Text in 128-Bit-Blöcke zu unterteilen
 explanation: |
   Der ECB-Modus wird nicht empfohlen, weil er zu deterministischer Verschlüsselung führt, was bedeutet, dass identische Blöcke von Klartext identische Blöcke von Chiffretext ergeben, was ausgenutzt werden kann, um Informationen über den Klartext zu erraten.
+reviewed: false

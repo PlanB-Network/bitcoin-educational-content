@@ -6,3 +6,4 @@ wrong_answers:
   - Für jeden Benutzer Bitcoins generieren
 explanation: |
   Ein Bitcoin-Wallet speichert nicht direkt Bitcoins, sondern verwaltet die privaten Schlüssel, die notwendig sind, um die UTXOs zu entsperren, die die Bitcoins repräsentieren.
+reviewed: false

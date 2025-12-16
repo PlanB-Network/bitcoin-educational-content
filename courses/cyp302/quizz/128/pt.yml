@@ -6,3 +6,4 @@ wrong_answers:
   - Troca segura de chaves
 explanation: |
   O RSA é baseado na dificuldade da fatoração de números primos, uma tarefa computacionalmente difícil que torna o criptossistema seguro contra ataques.
+reviewed: false

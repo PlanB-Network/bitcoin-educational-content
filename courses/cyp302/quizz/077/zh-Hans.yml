@@ -6,3 +6,4 @@ wrong_answers:
   - 保证每条消息有一个独特的密钥
 explanation: |
   根据Kerckhoff原理，密码系统的安全性应该仅依赖于密钥的秘密，而不是算法本身的秘密。
+reviewed: false

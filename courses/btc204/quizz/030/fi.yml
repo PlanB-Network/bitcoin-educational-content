@@ -6,3 +6,4 @@ wrong_answers:
   - Tunnistaa samaan entiteettiin kuuluva klusteri.
 explanation: |
   Sisäiset heuristiikat mahdollistavat meidän tunnistaa vaihdon tavoitteena tarkkailla käyttäjää myöhemmissä transaktioissa.
+reviewed: false

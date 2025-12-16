@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Makers jättävät bitcoinejaan saataville takersille ja saavat vastineeksi palkkioita palvelustaan. Takers puolestaan maksavat käyttääkseen makersien bitcoineja suorittaakseen omat coinjoin-transaktionsa.
+reviewed: false

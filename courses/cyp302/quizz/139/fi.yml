@@ -6,3 +6,4 @@ wrong_answers:
   - Se purkaa viestejä käyttäen julkista avainta.
 explanation: |
   Hajautusfunktio luo kiinteän pituuden hajautusarvon, riippumatta syötteen koosta.
+reviewed: false

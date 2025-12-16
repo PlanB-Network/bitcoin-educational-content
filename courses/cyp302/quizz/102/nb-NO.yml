@@ -6,3 +6,4 @@ wrong_answers:
   - Opprett en tag, deretter bruk en offentlig nøkkel for å kryptere den
 explanation: |
   For å sikre sikkerhet, må autentisert kryptering først kryptere meldingen, deretter generere en tag på den krypterte teksten. Andre rekkefølger er potensielt sårbare.
+reviewed: false

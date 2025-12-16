@@ -6,3 +6,4 @@ wrong_answers:
   - 将消息转换为二进制
 explanation: |
   消息认证码（MAC）用于确保消息未被篡改，且确实来自假定的发送者。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 客户每次购买都必须更换密钥
 explanation:
   通过对所有人使用同一密钥，吉姆体育用品店会损害保密性和完整性，因为每个客户都有可能访问其他客户的数据。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 新しいLightningチャネルを開く
 explanation: |
   Lightningインボイスは、支払いをLightningネットワーク上で開始するために、受信ノードが送信ノードに送信する支払い要求です。
+reviewed: false

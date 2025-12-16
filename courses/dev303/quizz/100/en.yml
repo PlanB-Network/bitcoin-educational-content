@@ -6,3 +6,4 @@ wrong_answers:
   - "LDK's lightweight blockchain integration reduces memory usage sufficiently to meet WebAssembly's strict resource constraints and limitations"
 explanation: |
   LDK's system-call-free design is specifically what enables browser compatibility. Traditional Lightning nodes rely on direct system calls for networking, file I/O, and randomness, which WebAssembly environments prohibit for security reasons. LDK abstracts these dependencies, allowing developers to provide browser-compatible implementations using WebSockets for networking and browser APIs for persistence and randomness, while maintaining full Lightning protocol compliance.
+reviewed: false

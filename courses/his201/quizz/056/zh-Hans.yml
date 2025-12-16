@@ -6,3 +6,4 @@ wrong_answers:
   - 通过公钥接收（P2PK）和通过脚本接收（P2SH）
 explanation:
   这两种类型自比特币开始以来就被使用。P2MS类型在2012年3月被定为标准。P2SH类型在2012年4月被添加到协议中。
+reviewed: false

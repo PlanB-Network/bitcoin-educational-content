@@ -6,3 +6,4 @@ wrong_answers:
   - Nó mã hóa tin nhắn
 explanation: |
   Trong một hệ thống mã hóa đối xứng, thuật toán tạo khóa sản xuất ra một khóa riêng, sau đó sẽ được sử dụng để mã hóa và giải mã tin nhắn.
+reviewed: false

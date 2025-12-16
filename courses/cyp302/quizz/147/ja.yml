@@ -6,4 +6,4 @@ wrong_answers:
   - (p - 1) + (q - 1)
 explanation: |
   Nが2つの素数pとqの積である場合、Nの位数は(p - 1) * (q - 1)として計算されます。
-  レビュー済み: false
+reviewed: false

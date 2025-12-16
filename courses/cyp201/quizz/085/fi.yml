@@ -6,3 +6,4 @@ wrong_answers:
   - Yhdistä muunnos t ja julkinen avain P
 explanation: |
   Taproot-julkinen avain Q saadaan lisäämällä muunnoksen t skalaaritulo generaattorin G kanssa julkiseen avaimen P.
+reviewed: false

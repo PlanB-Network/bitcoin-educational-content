@@ -6,3 +6,4 @@ wrong_answers:
   - Kuna need võivad võimaldada ühise sisendi omandi heuristika rakendamist.
 explanation: |
   Bitcoin'i vastuvõtuaadresside jagamine internetis võib olla sisenemispunktiks ahela analüüsiks, seostades identiteedi (reaalse või pseudonüümse) onchain tegevusega.
+reviewed: false

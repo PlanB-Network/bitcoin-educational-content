@@ -6,3 +6,4 @@ wrong_answers:
   - Bloquear a transação com um timelock inapropriado
 explanation: |
   O principal risco é que uma parte pode tentar enganar publicando uma transação de compromisso antiga, o que poderia permitir que eles recuperassem fundos que já não possuem mais.
+reviewed: false

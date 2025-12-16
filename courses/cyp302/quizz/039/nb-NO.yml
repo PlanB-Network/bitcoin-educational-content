@@ -6,3 +6,4 @@ wrong_answers:
   - Den tillater kun beregning av operasjoner i binært.
 explanation: |
   Tallteori er avgjørende i offentlig nøkkelkryptografi fordi den hjelper med å strukturere algoritmer basert på egenskapene til heltall, noe som letter operasjoner for kryptering og dekryptering.
+reviewed: false

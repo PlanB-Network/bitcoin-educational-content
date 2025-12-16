@@ -6,3 +6,4 @@ wrong_answers:
   - Odesílání dat pouze přes optická vlákna
 explanation: |
   Bezdrátová připojení, která přenášejí data pomocí rádiových vln, usnadňují zachycení útočníky, jelikož nevyžadují fyzický přístup k síti.
+reviewed: false

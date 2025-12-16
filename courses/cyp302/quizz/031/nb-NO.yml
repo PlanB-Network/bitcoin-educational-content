@@ -6,3 +6,4 @@ wrong_answers:
   - Som en variabel-lengde streng som resultat av en krypteringsprosess
 explanation: |
   En tilfeldig streng defineres som værende fra et jevnt utvalg blant alle mulige strenger av samme lengde.
+reviewed: false

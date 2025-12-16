@@ -6,3 +6,4 @@ wrong_answers:
   - Sitä käytetään vain eksponentin e generoimiseen
 explanation: |
   RSA: ssa kokonaisluku N on kahden suuren alkuluvun p ja q tulo, ja sitä käytetään moduloimiseen salaus- ja purkuoperaatioissa.
+reviewed: false

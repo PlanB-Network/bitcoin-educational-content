@@ -6,3 +6,4 @@ wrong_answers:
   - De bruker ukomprimerte offentlige nøkler
 explanation: |
   JBOK-lommebøker tvinger brukeren til å ta sikkerhetskopi av hver privat nøkkel individuelt, noe som kompliserer deres håndtering.
+reviewed: false

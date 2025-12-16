@@ -6,3 +6,4 @@ wrong_answers:
   - "Configure chain=bitcoin-regtest to access Elements features in Bitcoin's test environment"
 explanation: |
   The elementsregtest configuration creates a local regression testing environment where developers can generate blocks instantly using commands like generateblock, allowing them to test asset issuance and other features without waiting for network confirmations or depending on external nodes. Setting chain=liquidv1 connects to the production Liquid network which has 1-minute block times and external dependencies. The issueasset command doesn't have a --testmode flag, and bitcoin-regtest is for Bitcoin Core, not Elements functionality.
+reviewed: false

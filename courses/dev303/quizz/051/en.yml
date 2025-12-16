@@ -6,3 +6,4 @@ wrong_answers:
   - RefCell will deadlock when multiple threads try to borrow the same data concurrently
 explanation: |
   RefCell is designed exclusively for single-threaded scenarios and lacks any thread synchronization mechanisms. Unlike thread-safe alternatives like Mutex, RefCell performs no atomic operations or locking, making concurrent access from multiple threads result in undefined behavior and potential data races. The runtime borrowing checks that RefCell performs are not thread-safe and can be corrupted by concurrent access, leading to memory safety violations that Rust normally prevents.
+reviewed: false

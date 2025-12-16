@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Tx0 eesmärk on ette valmistada ja võrdsustada UTXO-d coinjoini jaoks, jagades need üksusteks, mis vastavad valitud basseini summale, et tagada segamise homogeensus.
+reviewed: false

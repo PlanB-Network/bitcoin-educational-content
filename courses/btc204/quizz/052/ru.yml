@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   Для облегчения реализации этого протокола и для улучшения анонимности его пользователей, Silent Payments исключительно полагаются на скрипты P2TR (Pay to Taproot).
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 对每个加密块增加密钥长度
 explanation: |
   像OFB这样的模式允许块密码作为流密码使用，通过生成一个密钥流，然后用于明文的每个部分。
+reviewed: false

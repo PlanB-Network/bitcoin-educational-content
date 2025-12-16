@@ -6,3 +6,4 @@ wrong_answers:
   - Binary executable files, target directory, and release build configuration
 explanation: |
   The `cargo new` command creates a comprehensive project foundation including a Git repository for version control, a Cargo.toml file for project configuration and dependencies, and a basic main.rs file containing a 'Hello, world!' program. This provides everything needed to start development immediately. The other options are incorrect because cargo new doesn't create test suites, documentation files, executable binaries, or build artifacts - it only sets up the initial project structure.
+reviewed: false

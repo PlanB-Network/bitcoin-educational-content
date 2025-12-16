@@ -6,3 +6,4 @@ wrong_answers:
   - Only the fields you explicitly change become inaccessible in the original
 explanation: |
   When using struct update syntax with non-Copy types, Rust's ownership system moves the copied fields from the original instance to the new one. This means those specific fields become unusable in the original instance, though fields that weren't copied remain accessible. The compiler tracks these partial moves intelligently, preventing access to moved fields while allowing continued use of unmoved fields. This behavior ensures memory safety by preventing multiple owners of the same data.
+reviewed: false

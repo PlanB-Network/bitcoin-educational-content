@@ -6,3 +6,4 @@ wrong_answers:
   - 仅限制修改一个输出
 explanation: |
   SIGHASH_NONE仅覆盖输入，允许在签名后修改输出。
+reviewed: false

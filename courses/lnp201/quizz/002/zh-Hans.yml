@@ -6,3 +6,4 @@ wrong_answers:
   - 140,000 satoshis
 explanation:
   发送40,000 satoshis后，Alice在通道中的余额是60,000 satoshis。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 逆元
 explanation: |
   生成元是循环群中的一个元素，通过指数运算，它可以产生群中的所有其他元素。
+reviewed: false

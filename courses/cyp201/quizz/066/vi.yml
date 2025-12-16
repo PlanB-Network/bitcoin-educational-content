@@ -6,3 +6,4 @@ wrong_answers:
   - Băm SHA256 của 32 byte giữa
 explanation: |
   32 byte cuối của kết quả HMAC-SHA512 được sử dụng làm mã chuỗi cho khóa con.
+reviewed: false

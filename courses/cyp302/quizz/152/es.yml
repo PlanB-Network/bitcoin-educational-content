@@ -6,3 +6,4 @@ wrong_answers:
   - Se utiliza para calcular φ(N)
 explanation: |
   La clave privada d se utiliza para descifrar mensajes cifrados, completando el cálculo con el módulo N.
+reviewed: false

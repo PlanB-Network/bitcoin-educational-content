@@ -6,3 +6,4 @@ wrong_answers:
   - They randomize the order of transaction hashes to obscure spending patterns from observers
 explanation: |
   Compact block filters use probabilistic data structures that may incorrectly indicate a match (false positive) but will never miss an actual match (false negative). This asymmetric property is crucial: false positives only cause unnecessary block downloads, while false negatives would cause wallets to miss payments entirely. The privacy benefit comes from this uncertainty - observers cannot distinguish between genuine matches and false positives, obscuring which transactions actually belong to the querying wallet.
+reviewed: false

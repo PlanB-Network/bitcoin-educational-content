@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Bitcoin seed konstanta se koristi kao ključ u HMAC-SHA512 funkciji za izvođenje glavnog privatnog ključa i glavnog lanca koda.
+reviewed: false

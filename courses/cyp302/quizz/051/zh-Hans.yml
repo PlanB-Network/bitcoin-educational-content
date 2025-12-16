@@ -6,3 +6,4 @@ wrong_answers:
   - 一个使用随机向量的域
 explanation: |
   一个质数域包含等于一个质数的元素数量，使其成为加密操作的基本域。
+reviewed: false

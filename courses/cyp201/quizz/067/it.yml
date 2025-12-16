@@ -6,4 +6,4 @@ wrong_answers:
   - Aggiungere un ulteriore livello di sicurezza
 explanation: |
   L'indice consente di differenziare le chiavi figlie derivate dalla stessa coppia genitore.
-recensito: false
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - "Elements is the consensus mechanism that powers the Liquid Network's block validation"
 explanation: |
   Elements is the open-source blockchain platform software, while Liquid is a specific implementation or 'instance' of an Elements sidechain that has been configured for production use with a federated consensus model. Think of Elements as the underlying technology framework, and Liquid as one particular network built using that framework. This is similar to how Bitcoin Core is the software that powers the Bitcoin network - Elements is the software engine that powers Liquid and other custom sidechains.
+reviewed: false

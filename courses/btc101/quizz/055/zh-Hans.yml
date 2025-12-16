@@ -6,3 +6,4 @@ wrong_answers:
   - 区块调整
 explanation: |
   确保每十分钟向区块链添加一个新区块的机制是难度调整。这种调整每2016个区块进行一次，大约两周时间。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - LDK implements automatic channel management and recovery mechanisms that eliminate the need for custom persistence solutions
 explanation: |
   LDK's modular architecture as discrete Rust crates allows developers to include only necessary functionality, reducing application size and resource consumption critical for mobile environments. Unlike monolithic implementations like LND that were designed as complete applications, LDK's library-based approach provides core Lightning functionality while allowing developers to implement mobile-specific optimizations and user experience features. The other options are incorrect because LDK wasn't specifically designed for mobile (it's platform-agnostic), doesn't provide complete functionality out of the box (requiring custom implementations for synchronization and payment history), and doesn't include automatic channel management or recovery mechanisms.
+reviewed: false

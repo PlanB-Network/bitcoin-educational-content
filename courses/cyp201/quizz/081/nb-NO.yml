@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH er ikke kompatibelt med SegWit.
 explanation: |
   P2WPKH, introdusert med SegWit, flytter signaturer til en separat seksjon kalt Vitne for å forhindre transaksjonsmalleabilitet.
+reviewed: false

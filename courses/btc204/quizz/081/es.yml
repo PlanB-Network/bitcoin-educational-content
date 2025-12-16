@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   En los coinjoins Chaumianos, el uso de Tor y las firmas ciegas de David Chaum se combinan para asegurar que el coordinador no pueda saber qué salida pertenece a qué usuario.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Từ quan điểm bên ngoài, mô hình giao dịch hoàn toàn giống nhau. Không có thông tin bối cảnh bổ sung, do đó, không thể phân biệt được giao dịch Stonewall với giao dịch Stonewall x2, vì chúng áp dụng cùng một mô hình.
+reviewed: false

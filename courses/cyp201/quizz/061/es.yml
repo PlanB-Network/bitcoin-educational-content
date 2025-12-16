@@ -6,3 +6,4 @@ wrong_answers:
   - 128 bytes
 explanation: |
   Una clave extendida es de 78 bytes sin el checksum y de 82 bytes con el checksum incluido.
+reviewed: false

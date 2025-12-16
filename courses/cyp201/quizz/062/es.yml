@@ -6,3 +6,4 @@ wrong_answers:
   - Tanto claves privadas de hijos endurecidos como normales
 explanation: |
   Una clave pública extendida solo permite la derivación de claves públicas de hijos normales, no de claves privadas ni de claves endurecidas.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 自动解密截获的消息
 explanation:
   认证加密方案结合了加密和认证码（MAC），以保证消息的机密性和真实性。
+reviewed: false

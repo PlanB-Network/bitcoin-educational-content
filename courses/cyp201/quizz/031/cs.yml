@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_NONSTANDARD
 explanation: |
   SIGHASH_ANYONECANPAY modifikuje příznaky sighash tak, aby pokrývaly pouze jediný vstup, zatímco zbytek zůstává modifikovatelný.
+reviewed: false

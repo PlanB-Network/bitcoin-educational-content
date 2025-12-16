@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_ALL
 explanation: |
   SIGHASH_ALL yhdistettynä SIGHASH_ANYONECANPAY: n kanssa mahdollistaa syötteiden lisäämisen muuttamatta tulosteita.
+reviewed: false

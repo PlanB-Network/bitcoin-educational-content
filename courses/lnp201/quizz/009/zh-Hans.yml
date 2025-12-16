@@ -6,3 +6,4 @@ wrong_answers:
   - 它临时锁定资金以防止过度支出
 explanation: |
   锁定脚本强加条件，例如使用私钥签名，以解锁并使用交易中的资金。
+reviewed: false

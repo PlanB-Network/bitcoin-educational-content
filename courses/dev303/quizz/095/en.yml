@@ -6,3 +6,4 @@ wrong_answers:
   - "The game's numerical range validation teaches the same input sanitization techniques required for handling Bitcoin addresses and Lightning invoice parsing"
 explanation: |
   The correct answer identifies that the game's simple mechanics serve as a foundation for learning CLI design patterns common in blockchain development tools. The interface design philosophy explicitly reflects patterns found in professional BDK/LDK tools, where command-line interfaces serve as both testing environments and practical utilities. The wrong answers incorrectly focus on specific technical parallels between game mechanics and blockchain cryptography, consensus, or validation, rather than understanding that the educational value lies in learning general CLI development patterns that are transferable to blockchain tool development.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Assotsiatiivelement
 explanation: |
   Rühma ühikelement on unikaalne element, mis teisele elemendile rakendades jätab selle muutmata. Näiteks täisarvude rühmas liitmise tehte puhul on ühikelemendiks 0.
+reviewed: false

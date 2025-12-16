@@ -6,3 +6,4 @@ wrong_answers:
   - 确定乘法单位元
 explanation:
   不可约多项式用于构造有限域中的乘法，确保每个元素保持在域内。
+reviewed: false

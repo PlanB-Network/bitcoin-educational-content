@@ -6,3 +6,4 @@ wrong_answers:
   - Hairuhusu kugawanya maandishi katika vizuizi 128-bit
 explanation: |
   Hali ya ECB haipendekezwi kwa sababu hutoa usimbaji fiche wa kubainisha, kumaanisha kuwa vizuizi vinavyofanana vya maandishi wazi vitatoa vizuizi sawa vya maandishi ya siri, ambayo yanaweza kutumiwa kukisia maelezo kuhusu maandishi wazi.
+reviewed: false

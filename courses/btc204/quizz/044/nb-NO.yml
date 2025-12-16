@@ -6,3 +6,4 @@ wrong_answers:
   - En identitetsbekreftelsesmekanisme.
 explanation: |
   Disse plattformene bruker typisk en beskyttelsesmekanisme der bitcoins holdes inntil selgeren bekrefter betalingen i fiatvaluta. Denne mekanismen for å holde av en tredjepart representerer det som er kjent som en escrow.
+reviewed: false

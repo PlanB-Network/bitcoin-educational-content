@@ -6,3 +6,4 @@ wrong_answers:
   - ~1TB storage because all Lightning nodes require complete blockchain history to validate channel opening and closing transactions
 explanation: |
   A pruned Bitcoin node requires approximately 80GB of storage because it only maintains recent blockchain data necessary for UTXO validation and Lightning operations, discarding older transaction history. This is sufficient for Lightning Network functionality since channels only need current blockchain state for validation. The wrong answers either underestimate storage needs, overestimate requirements for pruned configurations, or incorrectly assume full archival data is mandatory for Lightning operations.
+reviewed: false

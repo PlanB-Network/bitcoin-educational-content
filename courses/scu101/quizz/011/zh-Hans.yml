@@ -6,3 +6,4 @@ wrong_answers:
   - 它允许用户在不使用数据的情况下访问互联网。
 explanation: |
   HTTPS协议用于加密网站上的数据，确保用户和网站之间交换的数据是安全的。这有助于防止第三方截取数据。
+reviewed: false

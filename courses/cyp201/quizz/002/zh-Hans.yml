@@ -6,3 +6,4 @@ wrong_answers:
   - 长度
 explanation: |
   输入的一个小改变会导致哈希发生根本性的变化，这就是所谓的雪崩效应。
+reviewed: false

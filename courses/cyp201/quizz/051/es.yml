@@ -6,3 +6,4 @@ wrong_answers:
   - El código PIN genera direcciones de Bitcoin
 explanation: |
   A diferencia del código PIN, la frase de paso está directamente involucrada en el proceso de derivación de clave y cambia las claves de la cartera.
+reviewed: false

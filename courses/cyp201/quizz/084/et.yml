@@ -6,3 +6,4 @@ wrong_answers:
   - Tuvastada kinnitusblokk
 explanation: |
   Bitcoin aadress on manustatud scriptPubKey'sse, et lukustada UTXOd. See määrab vajalikud tingimused vahendite avamiseks.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 立方根
 explanation:
   在密码学中，阶为2^m的有限域通常使用不可约多项式来确保该域是良定义的，并且所有操作都是可能的。
+reviewed: false

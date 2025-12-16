@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Coinswap利用智能合约使两个用户之间可以进行比特币所有权的转移，无需信任且这种转移在区块链上不会明显可见。
+reviewed: false

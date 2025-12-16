@@ -6,3 +6,4 @@ wrong_answers:
   - Liquid implements native smart contract functionality through Elements scripting while Ethereum requires external virtual machine execution environments
 explanation: |
   The UTXO model's deterministic nature is crucial for financial institutions because transactions either succeed completely or fail without any cost, providing predictable outcomes. Ethereum's account model can result in failed transactions that still consume gas fees, creating operational uncertainty and additional costs that are unacceptable for mission-critical financial operations where reliability and cost predictability are paramount.
+reviewed: false

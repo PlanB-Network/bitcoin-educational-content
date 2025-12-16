@@ -6,3 +6,4 @@ wrong_answers:
   - Grupos de números complejos
 explanation: |
   En criptografía, los grupos cíclicos son esenciales porque permiten la generación de todos los elementos del grupo mediante la exponenciación de un solo elemento, llamado generador.
+reviewed: false

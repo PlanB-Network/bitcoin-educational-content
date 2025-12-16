@@ -6,3 +6,4 @@ wrong_answers:
   - Mã hóa các khóa công khai
 explanation: |
   Một khóa mở rộng kết hợp một khóa (dù là khóa riêng tư hay khóa công khai) với một mã chuỗi liên kết, tức là hai yếu tố cần thiết để tạo ra các khóa con.
+reviewed: false

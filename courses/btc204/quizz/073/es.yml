@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   No se debe usar una dirección de recepción múltiples veces. Todas las otras respuestas permiten evitar las heurísticas de análisis de cadena.
+reviewed: false

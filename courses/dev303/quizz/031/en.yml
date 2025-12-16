@@ -6,3 +6,4 @@ wrong_answers:
   - File not found errors or permission denied exceptions
 explanation: |
   Panics should be reserved for unrecoverable errors that represent programming mistakes or situations where the program has entered an unsafe state, such as array bounds violations or memory safety issues. The wrong answers all describe recoverable errors - network failures, user input problems, and file system issues are expected conditions that programs should handle gracefully using Result types rather than crashing. These recoverable errors allow programs to continue running by implementing appropriate error handling strategies.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Terminate the entire application immediately to prevent data corruption
 explanation: |
   Invalid input errors represent contract violations between the caller and function, where the provided parameters don't meet the function's requirements. The correct approach is to reject the input and return an error indication, allowing the caller to handle the situation appropriately. Converting negative values to positive ones silently masks the error and could lead to unintended behavior. Using default values ignores the caller's intent and may process incorrect data. Terminating the entire application is excessive for input validation failures and would create poor user experience in Bitcoin applications where graceful error handling is crucial.
+reviewed: false

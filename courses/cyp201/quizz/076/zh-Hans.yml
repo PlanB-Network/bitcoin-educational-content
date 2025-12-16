@@ -6,3 +6,4 @@ wrong_answers:
   - 对应一个加固的派生路径
 explanation: |
   符号/<0;1>/*表示描述符可以为外部（0）和内部（1）链生成地址，感谢通配符（*）实现顺序派生。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Because the nonce field is incremented from zero upward, causing the hash function to generate patterns with trailing zeros
 explanation: |
   In little-endian interpretation, bytes are read in reverse order, so the rightmost bytes in hexadecimal become the most significant portion of the integer. For a hash to be below the target (a small number), its most significant bits must be zero, which appear as trailing zeros in the hex display. This is purely a representation artifact of the endianness conversion, not a property of SHA-256 or mining hardware.
+reviewed: false

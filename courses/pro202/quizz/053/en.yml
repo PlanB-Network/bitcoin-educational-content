@@ -6,3 +6,4 @@ wrong_answers:
   - Transaction IDs are stored in big-endian format but must be converted to little-endian before hashing pairs in the Merkle tree
 explanation: |
   Bitcoin's Merkle tree construction involves a critical endianness conversion step. While serialized block data uses little-endian format, the internal Merkle tree computation requires big-endian hashes. Nodes must reverse transaction hashes from their serialized little-endian format to big-endian before tree construction, then reverse the final root back to little-endian for storage in the block header. This conversion is essential for proper verification.
+reviewed: false

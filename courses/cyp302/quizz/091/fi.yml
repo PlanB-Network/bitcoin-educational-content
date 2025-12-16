@@ -6,3 +6,4 @@ wrong_answers:
   - Lohkosalausvirtasalakirjoitus ei sovellu suurten datamäärien käsittelyyn.
 explanation: |
   Primitiivinen virtasalakirjoitus, kuten Salsa20, on suunniteltu itsenäisesti lohkosalausmenetelmästä, kun taas lohkosalausvirtasalakirjoitus käyttää perustanaan lohkosalausmenetelmää, jota on muokattu tuottamaan salausvirtaa.
+reviewed: false

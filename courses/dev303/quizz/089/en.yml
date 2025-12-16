@@ -6,3 +6,4 @@ wrong_answers:
   - "UDL provides a way to automatically convert Rust's ownership model to garbage collection for target languages"
 explanation: |
   UniFFI uses UDL as a deliberate design choice to maintain separation of concerns between implementation and interface. The UDL file acts as an explicit contract that allows developers to selectively expose parts of their Rust library while keeping internal implementation details private. This approach prevents automatic exposure of all public Rust items, giving developers fine-grained control over their API surface. The other options are incorrect because Rust types can be mapped without UDL (though less elegantly), performance optimization isn't UDL's primary purpose, and UDL doesn't convert ownership models.
+reviewed: false

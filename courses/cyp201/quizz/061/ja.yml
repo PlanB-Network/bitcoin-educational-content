@@ -6,3 +6,4 @@ wrong_answers:
   - 128バイト
 explanation: |
   拡張キーはチェックサムを含めない場合78バイトで、チェックサムを含めると82バイトになります。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Genererbarhet i sanntid
 explanation: |
   Kollisjonsresistens sikrer at det er praktisk talt umulig å finne to forskjellige inndata som produserer samme hash, noe som er viktig for å verifisere at programvaren ikke har blitt manipulert.
+reviewed: false

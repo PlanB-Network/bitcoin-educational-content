@@ -6,3 +6,4 @@ wrong_answers:
   - Mnemonisk frase
 explanation: |
   UTXOer låses med en offentlig nøkkel eller dens hash, og låses opp med den tilsvarende private nøkkelen.
+reviewed: false

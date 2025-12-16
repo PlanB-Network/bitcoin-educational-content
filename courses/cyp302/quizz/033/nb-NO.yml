@@ -6,3 +6,4 @@ wrong_answers:
   - Å legge til en uniform distribusjon til verdiene i en kjede
 explanation: |
   Frøet er en kortere streng som brukes som et utgangspunkt av en ekspansjonsalgoritme for å generere en lengre pseudotilfeldig kjede.
+reviewed: false

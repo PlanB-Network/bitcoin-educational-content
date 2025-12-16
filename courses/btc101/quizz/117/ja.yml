@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoin-0.1.1.
 explanation: >-
   最初にリリースされたBitcoinソフトウェアはBitcoin-0.1.0でした。これは2009年1月8日にサトシ・ナカモトによって発表されました。
-  レビュー済み: true
+reviewed: false

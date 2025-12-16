@@ -6,3 +6,4 @@ wrong_answers:
   - É usado apenas para gerar o expoente e
 explanation: |
   No RSA, o inteiro N é o produto de dois grandes números primos p e q, e é usado como módulo para operações de criptografia e descriptografia.
+reviewed: false

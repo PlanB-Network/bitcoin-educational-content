@@ -6,3 +6,4 @@ wrong_answers:
   - Andmelekkimise risk
 explanation: |
   KYC-ga kaasneb andmelekkimise risk, kuna teie teave salvestatakse, riikliku järelevalve all oleku risk, kuna teie teavet võidakse edastada või konfiskeerida, ning jälgimise risk, kuna KYC võib olla sisenemispunktiks. Siiski ei vähenda KYC ostetud bitcoinide likviidsust.
+reviewed: false

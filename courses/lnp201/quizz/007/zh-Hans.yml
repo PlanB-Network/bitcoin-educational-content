@@ -6,3 +6,4 @@ wrong_answers:
   - 它们代表比特币的小额固定数额
 explanation:
   就像一张纸币，一个UTXO在交易中必须被完整地花费，任何多余的部分将作为“找零”返回给发送者。
+reviewed: false

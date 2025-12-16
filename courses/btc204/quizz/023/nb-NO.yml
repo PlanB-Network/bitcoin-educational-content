@@ -6,3 +6,4 @@ wrong_answers:
   - UTXOene i inndata kom fra 2 forskjellige brukere, og den i utdata tilhører fortsatt disse 2 brukerne.
 explanation: |
   Vi er sannsynligvis i nærvær av en konsolidering. Derfor er det et felles eierskap til inndataene og utdataen.
+reviewed: false

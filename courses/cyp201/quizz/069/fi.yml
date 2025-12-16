@@ -6,3 +6,4 @@ wrong_answers:
   - Varmistaa yhteensopivuuden Bitcoin-protokollan kanssa
 explanation: |
   Ketjukoodia käytetään tuomaan lisätty ja ainutlaatuinen entropian lähde jokaiselle johdetulle avaimelle.
+reviewed: false

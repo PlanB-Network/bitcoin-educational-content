@@ -6,3 +6,4 @@ wrong_answers:
   - Kortere fraser er ikke standardisert
 explanation: |
   Selv om en 24-ords frase tilbyr 256 bits sikkerhet, garanterer de avledede Bitcoin private nøklene kun 128 bits sikkerhet, noe som gjør overskuddet unødvendig.
+reviewed: false

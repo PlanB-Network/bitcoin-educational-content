@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   La constante Bitcoin Seed se utiliza como clave en la función HMAC-SHA512 para derivar la clave privada maestra y el código de cadena maestro.
+reviewed: false

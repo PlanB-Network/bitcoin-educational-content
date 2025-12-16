@@ -6,3 +6,4 @@ wrong_answers:
   - UniFFI does not support error handling translation, forcing developers to implement custom exception handling in each target language
 explanation: |
   UniFFI's most significant limitation is its lack of support for asynchronous interfaces - all generated bindings are synchronous. This creates challenges for mobile development where responsive UIs are critical, as developers must implement their own threading solutions to avoid blocking the main thread. The wrong answers are incorrect because UniFFI actually excels at handling complex types like enums and structs, provides automatic memory-safe marshaling across language boundaries, and has sophisticated error handling translation that converts Rust Result types into native exception models for target languages.
+reviewed: false

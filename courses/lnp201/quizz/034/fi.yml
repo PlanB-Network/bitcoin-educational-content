@@ -6,3 +6,4 @@ wrong_answers:
   - Kunkin polulla olevan solmun kryptografinen allekirjoitus
 explanation: |
   Lähettävän solmun on tiedettävä verkon topologia voidakseen laskea reitin vastaanottajalle, mikä mahdollistaa parhaan polun valitsemisen.
+reviewed: false

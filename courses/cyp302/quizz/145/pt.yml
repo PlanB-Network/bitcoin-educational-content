@@ -6,3 +6,4 @@ wrong_answers:
   - É usado para verificar a paridade de um número
 explanation: |
   Na criptografia assimétrica, o teorema de Euler simplifica o cálculo de potências em esquemas como o RSA, pois fornece um método para manipular exponenciações modulares.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   Tập hợp các số nguyên không thỏa mãn điều kiện nghịch đảo dưới phép nhân vì không có nghịch đảo cho mỗi số nguyên nào có thể nhân với nhau để được 1. Chỉ có các phần tử 1 và -1 mới đáp ứng điều kiện này.
+reviewed: false

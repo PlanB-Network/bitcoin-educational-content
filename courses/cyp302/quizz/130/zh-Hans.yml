@@ -6,3 +6,4 @@ wrong_answers:
   - 它们确保用户之间消息的加密
 explanation: |
   证书颁发机构颁发的证书将公钥与其所有者链接起来，允许用户验证他们使用的公钥的真实性。
+reviewed: false

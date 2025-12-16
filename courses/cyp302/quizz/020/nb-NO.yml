@@ -6,3 +6,4 @@ wrong_answers:
   - Tallet som deler uten rest
 explanation: |
   Modulo-operasjonen innebærer å bestemme resten av en divisjon, for eksempel er 25 mod 4 lik 1 fordi resten av divisjonen er 1.
+reviewed: false

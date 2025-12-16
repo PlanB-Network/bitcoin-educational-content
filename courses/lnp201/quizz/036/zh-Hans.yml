@@ -6,3 +6,4 @@ wrong_answers:
   - 他们必须等待时间锁到期后才能取回资金。
 explanation:
   要在HTLC中接收资金，接收者必须提供一个特定的秘密，该秘密允许解锁由哈希保护的支付。
+reviewed: false

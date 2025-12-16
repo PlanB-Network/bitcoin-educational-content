@@ -6,3 +6,4 @@ wrong_answers:
   - 署名の圧縮
 explanation: |
   Schnorrでは、複数の公開鍵を単一の鍵に集約することができます。
+reviewed: false

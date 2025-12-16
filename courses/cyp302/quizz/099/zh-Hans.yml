@@ -6,3 +6,4 @@ wrong_answers:
   - 为每次通信生成私钥
 explanation: |
   MAC是一种加密方案，允许验证消息确实来自合法发送者并且未被篡改，从而确保了消息的真实性和完整性。
+reviewed: false

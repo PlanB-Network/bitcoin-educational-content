@@ -6,3 +6,4 @@ wrong_answers:
   - The last hash is combined with a null hash (all zeros) to create the final pair
 explanation: |
   Bitcoin's Merkle tree construction requires pairing hashes at each level. When an odd number exists, the protocol specifically duplicates the last hash to ensure proper pairing. This maintains the tree's binary structure and ensures deterministic root calculation. The other options would break compatibility with Bitcoin's consensus rules and create different Merkle roots for identical transaction sets.
+reviewed: false

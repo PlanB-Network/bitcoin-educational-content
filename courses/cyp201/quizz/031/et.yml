@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_NONSTANDARD
 explanation: |
   SIGHASH_ANYONECANPAY modifitseerib sighash lippe nii, et need katab ainult ühte sisendit, jättes ülejäänud muudetavaks.
+reviewed: false

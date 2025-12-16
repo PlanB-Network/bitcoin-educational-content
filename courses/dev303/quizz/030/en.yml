@@ -6,3 +6,4 @@ wrong_answers:
   - To wrap successful values in an additional Result layer for extra safety
 explanation: |
   The question mark operator (?) is designed specifically for error propagation in Rust. When applied to a Result, it extracts the success value if the operation succeeded, allowing the code to continue with that value. However, if an error occurred, the ? operator immediately returns that error from the current function, effectively propagating it up the call stack. This eliminates the need for verbose match expressions while maintaining explicit error handling semantics. The operator can only be used in functions that return Result types, ensuring proper error propagation patterns.
+reviewed: false

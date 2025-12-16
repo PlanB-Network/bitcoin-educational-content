@@ -6,3 +6,4 @@ wrong_answers:
   - Hashing de mensagem, criptografia de tag, distribuição de tag
 explanation: |
   Um esquema MAC consiste em três passos principais: gerar uma chave secreta, produzir uma tag para a mensagem e verificar se a mensagem recebida e sua tag correspondem.
+reviewed: false

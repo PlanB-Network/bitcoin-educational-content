@@ -6,3 +6,4 @@ wrong_answers:
   - Need ei vaja võtme uuendusi
 explanation: |
   Pseudorandom stream ciphers on praktilisemad, kuna need võimaldavad lühikest võtit pikendada pikemaks võtmehulgaks, vältides vajadust säilitada võtit, mis on sama pikk kui sõnum ise.
+reviewed: false

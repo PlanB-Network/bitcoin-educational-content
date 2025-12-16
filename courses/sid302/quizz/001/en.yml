@@ -6,3 +6,4 @@ wrong_answers:
   - At least 12 out of 15 functionaries must sign
 explanation: |
   The Liquid Network requires signatures from at least 11 of the 15 functionaries to validate a block, which represents a two-thirds plus one threshold. This specific requirement ensures robust consensus while preventing any small group from controlling the network. The other options are incorrect: 8 signatures would be too few for security, 10 would not meet the two-thirds threshold, and 12 would be unnecessarily restrictive for normal operations.
+reviewed: false

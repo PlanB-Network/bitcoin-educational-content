@@ -6,3 +6,4 @@ wrong_answers:
   - V každé fázi operace XOR
 explanation: |
   Galoisova pole jsou používána při substituci bytů pro výpočet multiplikativního inverzu a v operaci MixColumns pro provádění násobení modulo neredukovatelný polynom.
+reviewed: false

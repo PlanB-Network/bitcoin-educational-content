@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Kolikkovaihdon suorittamiseen voidaan käyttää HTLC: itä (Hash Time-Locked Contracts) tai PTLC; itä (Point Time-Locked Contracts).
+reviewed: false

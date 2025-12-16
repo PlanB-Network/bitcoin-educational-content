@@ -6,3 +6,4 @@ wrong_answers:
   - 它为比特币钱包生成私钥
 explanation: |
   哈希函数将任意大小的数据转换为固定大小的哈希，这对于比特币中的许多应用至关重要。
+reviewed: false

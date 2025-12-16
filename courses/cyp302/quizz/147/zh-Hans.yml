@@ -6,3 +6,4 @@ wrong_answers:
   - (p - 1) + (q - 1)
 explanation: |
   对于N等于两个质数p和q的乘积，N的阶是通过计算(p - 1) * (q - 1)得到的。
+reviewed: false

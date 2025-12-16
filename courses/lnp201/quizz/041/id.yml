@@ -6,3 +6,4 @@ wrong_answers:
   - Karena saluran secara otomatis menutup setelah setiap transaksi
 explanation: |
   Distribusi dana yang tepat dalam sebuah saluran hanya terlihat oleh dua node peserta, mencegah node lain dari memperkirakan likuiditas yang tersedia untuk perutean.
+reviewed: false

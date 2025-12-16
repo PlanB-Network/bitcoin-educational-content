@@ -6,3 +6,4 @@ wrong_answers:
   - To prevent race conditions between the user input thread and the number generation thread in concurrent execution
 explanation: |
   The artificial delays serve as a teaching mechanism to demonstrate progress bar implementation in situations where operations complete too quickly to naturally observe the progress feedback. Since number generation is instantaneous, adding delays allows developers to see how progress indicators work and understand their value for longer operations. The other options incorrectly assume technical necessities (network simulation, cryptographic requirements, or concurrency issues) that aren't relevant to this educational demonstration of UI feedback patterns.
+reviewed: false

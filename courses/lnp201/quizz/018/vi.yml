@@ -6,3 +6,4 @@ wrong_answers:
   - Bằng cách đóng và mở lại kênh sau mỗi giao dịch
 explanation: |
   Mỗi giao dịch trong kênh cập nhật trạng thái của kênh với một giao dịch cam kết mới, phản ánh phân phối hiện tại của quỹ giữa hai bên tham gia.
+reviewed: false

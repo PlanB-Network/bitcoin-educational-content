@@ -6,3 +6,4 @@ wrong_answers:
   - 修正を1つの出力にのみ制限すること
 explanation: |
   SIGHASH_NONEは入力のみをカバーし、署名後に出力を変更可能にします。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 深度 4
 explanation: |
   深度 2 用于在多货币钱包中识别货币，例如比特币（索引 0'）或莱特币（索引 2'）。
+reviewed: false

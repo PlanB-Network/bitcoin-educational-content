@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   合并的原则是在比特币的费用较低时期利用这一点，将较小的UTXOs合并成一个较大的UTXO。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - It calculates the optimal channel capacity allocation to maximize total locked bitcoin while minimizing operational costs
 explanation: |
   The Simulation Engine's true power lies in revealing hidden inefficiencies by correlating payment sizes with fee rates. This allows operators to discover when they have liquidity that appears healthy but is effectively unusable because it's priced out of the market or lacks sufficient depth. The other options describe automated functions or competitive analysis features that don't exist in the system - the tool is diagnostic, not automated, and focuses on internal capacity optimization rather than external market positioning.
+reviewed: false

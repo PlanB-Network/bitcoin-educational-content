@@ -6,3 +6,4 @@ wrong_answers:
   - Den fungerer kun som midlertidig lagring for data til prosessen er ferdig
 explanation: |
   K-arrayet brukes til å transformere S-arrayet i nøkkelplanleggingsprosessen, noe som muliggjør genereringen av en pseudotilfeldig nøkkelstrøm for å kryptere klarteksten.
+reviewed: false

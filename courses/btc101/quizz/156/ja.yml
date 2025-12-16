@@ -6,4 +6,4 @@ wrong_answers:
   - 20分。
 explanation: >-
   Bitcoinプロトコルでは、平均して10分ごとにブロックが生成されます。この時間は、マイナーの数や計算能力に関わらず一定です。
-  レビュー済み: true
+reviewed: false

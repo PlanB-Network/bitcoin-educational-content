@@ -6,3 +6,4 @@ wrong_answers:
   - Para permitir que os usuários façam login sem uma senha
 explanation: |
   Ao armazenar hashes de senhas, mesmo no caso de uma violação de dados, as senhas reais não podem ser lidas diretamente, aumentando assim a segurança.
+reviewed: false

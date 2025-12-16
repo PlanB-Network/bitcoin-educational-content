@@ -6,3 +6,4 @@ wrong_answers:
   - Dividindo a chave por cada letra criptografada e aplicando módulo 27
 explanation: |
   Na cifra de César, a descriptografia é realizada subtraindo a chave de cada letra criptografada, em seguida, aplicando módulo 26 para retornar ao texto original. O módulo 26 permite retornar ao início do alfabeto após a letra Z.
+reviewed: false

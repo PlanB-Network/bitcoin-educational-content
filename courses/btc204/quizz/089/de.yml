@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Die Makers stellen ihre Bitcoins für die Takers zur Verfügung und erhalten im Gegenzug Gebühren für ihren Service. Die Takers zahlen wiederum, um die Bitcoins der Makers zu nutzen, um ihre eigenen CoinJoin-Transaktionen durchzuführen.
+reviewed: false

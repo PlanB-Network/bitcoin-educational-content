@@ -6,3 +6,4 @@ wrong_answers:
   - Criptografar as chaves públicas
 explanation: |
   Uma chave estendida combina uma chave (seja privada ou pública) com um código de cadeia associado, ou seja, os dois elementos necessários para derivar chaves filhas.
+reviewed: false

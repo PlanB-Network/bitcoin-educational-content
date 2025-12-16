@@ -6,3 +6,4 @@ wrong_answers:
   - Separate witness blocks transmitted only to upgraded nodes, while legacy nodes receive traditional 1MB blocks
 explanation: |
   SegWit uses block weight units where base transaction data counts as 4 weight units per byte, while witness data counts as 1 weight unit per byte. This 75% discount allows blocks up to 4 million weight units (potentially 4MB with all witness data) while ensuring legacy nodes never see more than 1MB of base transaction data. The other options describe non-existent mechanisms - there's no compression, no dynamic sizing, and no separate block transmission.
+reviewed: false

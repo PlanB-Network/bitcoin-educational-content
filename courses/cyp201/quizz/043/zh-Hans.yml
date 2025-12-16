@@ -6,3 +6,4 @@ wrong_answers:
   - 64位
 explanation: |
   一个24词助记词短语基于256位的熵，确保了非常高的安全性。
+reviewed: false

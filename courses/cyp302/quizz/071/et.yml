@@ -6,3 +6,4 @@ wrong_answers:
   - Jagades võtme igast krüpteeritud tähest ja rakendades modulo 27
 explanation: |
   Nihkešifris toimub dekrüpteerimine lahutades võtme igast krüpteeritud tähest, seejärel rakendades modulo 26, et naasta algse teksti juurde. Modulo 26 võimaldab pärast tähte Z tagasi tähestiku algusesse pöörduda.
+reviewed: false

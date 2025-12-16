@@ -6,3 +6,4 @@ wrong_answers:
   - HASH160
 explanation: |
   HMAC používá SHA512 pro vytvoření bezpečného 512-bitového hash.
+reviewed: false

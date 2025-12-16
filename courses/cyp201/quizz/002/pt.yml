@@ -6,3 +6,4 @@ wrong_answers:
   - Comprimento
 explanation: |
   Uma pequena mudança na entrada resulta em uma mudança radical no hash, isso é o que é chamado de efeito avalanche.
+reviewed: false

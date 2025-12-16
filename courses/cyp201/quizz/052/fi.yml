@@ -6,3 +6,4 @@ wrong_answers:
   - Suojata UTXO: t kaksoiskulutukselta
 explanation: |
   Harhautuslompakkoa käytetään ohjaamaan hyökkääjän huomio pois antamalla pääsyn lompakkoon, jossa on pieni määrä bitcoineja.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 它使用公钥解密消息。
 explanation: |
   哈希函数生成一个固定长度的哈希值，不管输入的大小如何。
+reviewed: false

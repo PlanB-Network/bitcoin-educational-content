@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Untuk melakukan coinswap, seseorang dapat menggunakan HTLCs (Hash Time-Locked Contracts) atau PTLCs (Point Time-Locked Contracts).
+reviewed: false

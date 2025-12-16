@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   コインスワップを実行するためには、HTLC（Hash Time-Locked Contracts）またはPTLC（Point Time-Locked Contracts）を使用できます。
 
-  レビュー済み: false
+reviewed: false

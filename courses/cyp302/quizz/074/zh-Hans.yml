@@ -6,3 +6,4 @@ wrong_answers:
   - 该单词变成了“ZHA”
 explanation:
   使用密钥7，单词“CAT”的每个字母都在字母表中向后移动了7个位置，这样就产生了加密后的单词“JHA”。
+reviewed: false

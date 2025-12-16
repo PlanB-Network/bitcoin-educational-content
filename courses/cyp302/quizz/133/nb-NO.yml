@@ -6,3 +6,4 @@ wrong_answers:
   - En digital kopi av en håndskrevet signatur
 explanation: |
   En digital signatur er en kryptografisk teknikk som beviser at en melding faktisk ble opprettet av eieren av den tilsvarende private nøkkelen, og sikrer dermed dens autentisitet.
+reviewed: false

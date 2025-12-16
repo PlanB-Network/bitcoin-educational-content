@@ -6,3 +6,4 @@ wrong_answers:
   - 9 signatures required, can tolerate up to 6 node failures
 explanation: |
   Liquid uses an 11-of-15 threshold system where at least 11 out of 15 functionaries must sign each block for it to be valid. This design allows the network to continue operating even if up to 4 nodes fail (15 - 11 = 4). The other options either provide incorrect signature thresholds or miscalculate the fault tolerance, which is always the total nodes minus the required signatures.
+reviewed: false

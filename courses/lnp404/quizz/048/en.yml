@@ -6,3 +6,4 @@ wrong_answers:
   - The account temporarily borrows funds from other accounts within the same node
 explanation: |
   LND Accounts enforce budget constraints at the protocol level within the LND node itself, not at the interface level. When an application attempts to spend beyond its allocated limit, the node's internal logic rejects the request before any payment processing occurs. This is a hard enforcement mechanism that cannot be bypassed by the application. The wrong answers represent softer controls or cooperative behaviors that would undermine the security model - warnings without enforcement would be ineffective, automatic permission escalation would defeat the purpose of containment, and cross-account borrowing would violate the segregation principle that makes LND Accounts secure.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Adicionar uma camada extra de segurança
 explanation: |
   O índice permite diferenciar chaves filhas derivadas do mesmo par de pais.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Seseorang seharusnya tidak menggunakan alamat penerima berulang kali. Semua jawaban lainnya memungkinkan untuk menghindari heuristik analisis rantai.
+reviewed: false

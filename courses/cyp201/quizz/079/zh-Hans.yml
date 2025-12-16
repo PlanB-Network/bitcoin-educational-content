@@ -6,3 +6,4 @@ wrong_answers:
   - 简化数字签名的计算
 explanation: |
   描述符封装了跟踪特定脚本所需的所有信息，包括派生路径和使用的密钥，但不包括恢复短语。
+reviewed: false

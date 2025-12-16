@@ -6,3 +6,4 @@ wrong_answers:
   - Bahwa itu adalah transaksi on-chain
 explanation: |
   Awalan lnbc menandakan bahwa faktur tersebut untuk transaksi Lightning pada jaringan Bitcoin, dan bukan pada jaringan lain.
+reviewed: false

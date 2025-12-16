@@ -6,3 +6,4 @@ wrong_answers:
   - 它临时分割它们以进行验证。
 explanation: |
   交易中输出的UTXOs是通过消耗输入中的UTXOs来创建的。从某种意义上说，这是资金的目的地。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 簡易化されたモジュラー除算
 explanation: |
   Diffie-Hellmanは、一方向で計算が容易だが、秘密の情報（バックドアと呼ばれる）がないと実質的に逆方向の計算が不可能な一方向関数に依存しています。
+reviewed: false

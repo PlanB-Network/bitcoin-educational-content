@@ -6,3 +6,4 @@ wrong_answers:
   - "Cargo's dependency management system becomes fully functional only after processing at least 1,000 lines of user-written code"
 explanation: |
   The 1,000-line threshold reflects the pedagogical reality that programming language mastery requires extensive hands-on practice across diverse scenarios. Unlike compiler optimization requirements, standard library memorization, or tooling limitations, this volume ensures developers encounter various language patterns, error scenarios, and problem-solving contexts. The guessing game exemplifies this by combining syntax, error handling, user input, and CLI development—multiple skills that collectively build the pattern recognition and muscle memory essential for professional Rust development.
+reviewed: false

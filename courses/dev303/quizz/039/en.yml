@@ -6,3 +6,4 @@ wrong_answers:
   - FnCapture
 explanation: |
   Fn is the most restrictive closure trait that represents closures callable multiple times without mutating their captured environment. These closures only capture by immutable reference and can be called concurrently safely. FnOnce represents closures that can only be called once, while FnMut represents closures that can be called multiple times but may mutate their captured environment. FnCapture is not a real Rust trait.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Mencegah transaksi lebih lanjut dalam saluran
 explanation: |
   Kunci pembatalan memungkinkan pihak yang dirugikan untuk mengambil kembali semua dana dalam kejadian percobaan kecurangan oleh pihak lain.
+reviewed: false

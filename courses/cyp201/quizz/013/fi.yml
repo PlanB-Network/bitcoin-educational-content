@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin-osoitteiden luonti
 explanation: |
   PBKDF2 tä käytetään johdattamaan siemen muistisanoista ja valinnaisesta salasanasta.
+reviewed: false

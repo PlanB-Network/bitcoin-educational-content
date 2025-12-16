@@ -6,3 +6,4 @@ wrong_answers:
   - Komprimeeritud avalik võti
 explanation: |
   Elliptilise kõvera secp256k1 generaatori punkti G kasutatakse avalike võtmete arvutamiseks privaatvõtmetest.
+reviewed: false

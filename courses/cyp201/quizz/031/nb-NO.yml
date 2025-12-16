@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_NONSTANDARD
 explanation: |
   SIGHASH_ANYONECANPAY modifiserer sighash-flaggene til kun å dekke et enkelt inndata mens resten forblir modifiserbar.
+reviewed: false

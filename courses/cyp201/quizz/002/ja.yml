@@ -6,3 +6,4 @@ wrong_answers:
   - 長さ
 explanation: |
   入力が少し変わるだけでハッシュが根本的に変化することをアバランシェ効果と呼びます。
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   从外部分析Stonewall交易并不会导致应用COINJOIN，因为两个相同金额的输出表明了一个coinjoin模式。因此，从外部视角看，COINJOIN在这个特定情况下不适用。
+reviewed: false

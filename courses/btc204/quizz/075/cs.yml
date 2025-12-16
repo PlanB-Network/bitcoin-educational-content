@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Cílem transakce coinjoin je přerušit historii mince. Tato technika neposkytuje trvalou anonymitu ani definitivně neblokuje sledování bitcoinů, na rozdíl od toho, co by si někdo mohl myslet. Coinjoin má za cíl pouze přerušit historii v bodě, kde je transakce coinjoin provedena.
+reviewed: false

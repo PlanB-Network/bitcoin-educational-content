@@ -6,3 +6,4 @@ wrong_answers:
   - Error handling requires developers to manually implement error translation code for each target language platform
 explanation: |
   UniFFI provides sophisticated error handling that preserves Rust's Result-based error model while translating it appropriately for each target language. Functions that return Result types in Rust are marked with the 'throws' keyword in UDL, and these generate native exception handling in target languages - Kotlin methods throw exceptions following Java/Kotlin conventions, while Python uses Python's exception model. This ensures error handling feels natural and idiomatic in each language while preserving the semantic meaning of the original Rust error types, unlike generic wrappers or manual translation approaches.
+reviewed: false

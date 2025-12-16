@@ -6,3 +6,4 @@ wrong_answers:
   - Fordi kanaler automatisk lukker seg etter hver transaksjon
 explanation: |
   Den nøyaktige fordelingen av midler i en kanal er kun synlig for de to deltakende nodene, noe som forhindrer andre noder i å estimere tilgjengelig likviditet for ruting.
+reviewed: false

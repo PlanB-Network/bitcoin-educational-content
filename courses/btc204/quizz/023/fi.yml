@@ -6,3 +6,4 @@ wrong_answers:
   - Syötteiden UTXOt tulivat 2 eri käyttäjältä, ja tuloksena oleva kuuluu edelleen näille 2 käyttäjälle.
 explanation: |
   Todennäköisesti on kyse konsolidaatiosta. Siksi syötteiden ja tuloksen yhteinen omistajuus on todennäköinen.
+reviewed: false

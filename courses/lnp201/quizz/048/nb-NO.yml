@@ -6,3 +6,4 @@ wrong_answers:
   - Midlene krediteres direkte uten ekstra sikkerhet
 explanation: |
   Keysend lar avsenderen generere et hemmelig passord innebygd i HTLC-ene, som muliggjør at mottakeren kan låse opp midlene uten å ha utstedt en faktura.
+reviewed: false

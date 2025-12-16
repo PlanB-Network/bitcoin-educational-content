@@ -6,3 +6,4 @@ wrong_answers:
   - Chúng yêu cầu băm lâu hơn để tăng cường bảo mật
 explanation: |
   Mật khẩu yếu có thể dễ dàng được khôi phục từ mã băm của chúng thông qua tấn công từ điển, làm cho việc lựa chọn chúng trở nên quan trọng để đảm bảo an ninh.
+reviewed: false

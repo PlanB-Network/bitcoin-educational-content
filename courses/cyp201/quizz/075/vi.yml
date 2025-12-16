@@ -6,3 +6,4 @@ wrong_answers:
   - 84/0/0
 explanation: |
   Đường dẫn 84h/0h/0h được định nghĩa trong BIP84 cho một tài khoản phái sinh địa chỉ SegWit v0 với P2WPKH.
+reviewed: false

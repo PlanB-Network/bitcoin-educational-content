@@ -6,3 +6,4 @@ wrong_answers:
   - By shared access, by exclusive access, or by concurrent access
 explanation: |
   Closures in Rust capture environment variables in exactly three ways: by immutable reference (when they only need to read), by mutable reference (when they need to modify), or by taking ownership (when they need to move the value, often for thread safety). The compiler automatically chooses the most restrictive method that satisfies the closure's needs, following the principle of least privilege.
+reviewed: false

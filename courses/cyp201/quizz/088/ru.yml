@@ -6,3 +6,4 @@ wrong_answers:
   - 0x00
 explanation: |
   Префикс 0x03 указывает на сжатый открытый ключ с нечетной координатой y.
+reviewed: false

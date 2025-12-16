@@ -6,3 +6,4 @@ wrong_answers:
   - Fordi den kun krypterer meldingen uten en tagg
 explanation: |
   Et autentisert krypteringssystem er designet for å oppdage modifikasjoner av kryptoteksten, som gjør taggen ugyldig i tilfelle tukling og sikrer motstand mot angrep med valgt kryptotekst.
+reviewed: false

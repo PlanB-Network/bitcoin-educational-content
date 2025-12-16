@@ -6,3 +6,4 @@ wrong_answers:
   - Nó được sử dụng để kiểm tra tính chẵn lẻ của một số
 explanation: |
   Trong mật mã bất đối xứng, định lý Euler đơn giản hóa việc tính toán lũy thừa trong các hệ thống như RSA, vì nó cung cấp một phương pháp để thao tác với các phép mũ mô-đun.
+reviewed: false

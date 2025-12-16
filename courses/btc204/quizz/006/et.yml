@@ -6,3 +6,4 @@ wrong_answers:
   - Boonus, mis antakse saatjale kiirete tehingute eest.
 explanation: |
   Vahetusraha on väljund, mis esindab makse täitmiseks kasutamata jäänud sisendite osa ja seega naaseb algsele saatjale tehingus.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - fn
 explanation: |
   The `impl` keyword is specifically used to create implementation blocks where you define methods and associated functions for structures. While `struct` defines the structure itself, `fn` defines individual functions, and `method` isn't a Rust keyword at all, only `impl` creates the block that contains the behavior associated with a type. Implementation blocks using `impl` allow you to add functionality to your structures, making them more than just data containers.
+reviewed: false

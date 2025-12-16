@@ -6,3 +6,4 @@ wrong_answers:
   - Den erstatter fysiske kabler med sikker kommunikasjon.
 explanation: |
   I et åpent kommunikasjonsmiljø, hvor kanaler kan overvåkes, sikrer kryptografi sikkerheten ved å beskytte utvekslede data, selv i nærvær av potensielle angrep.
+reviewed: false

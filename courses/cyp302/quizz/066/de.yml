@@ -6,3 +6,4 @@ wrong_answers:
   - Er verschlüsselt die Nachricht
 explanation: |
   In einem symmetrischen Verschlüsselungsschema erzeugt der Schlüsselgenerierungsalgorithmus einen privaten Schlüssel, der dann verwendet wird, um Nachrichten zu verschlüsseln und zu entschlüsseln.
+reviewed: false

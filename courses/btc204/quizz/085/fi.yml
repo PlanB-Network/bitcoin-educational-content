@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   JoinMarket toimii P2P-vaihtomarkkinana, jossa jotkut käyttäjät, makers, tarjoavat bitcoinejaan sekoitettavaksi, kun taas toiset, takers, käyttävät näitä varoja suorittaakseen coinjoineja vastineeksi maksusta.
+reviewed: false

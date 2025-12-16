@@ -6,3 +6,4 @@ wrong_answers:
   - Zugriff auf das Wallet mit Gesichtserkennung schützen
 explanation: |
   Die Passphrase fungiert als ein zweiter Sicherheitsfaktor, indem sie den Ableitungsseed des Schlüssels verändert, um den Zugriff auf das Wallet zu verhindern, falls die mnemonische Phrase kompromittiert wird.
+reviewed: false

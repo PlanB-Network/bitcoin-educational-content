@@ -6,3 +6,4 @@ wrong_answers:
   - 因为通道在每次交易后自动关闭
 explanation:
   通道中资金的精确分配只对两个参与节点可见，这阻止了其他节点估计用于路由的可用流动性。
+reviewed: false

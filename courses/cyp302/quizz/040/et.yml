@@ -6,3 +6,4 @@ wrong_answers:
   - Distributiivsuse tingimus
 explanation: |
   Hulgal S koos binaarse tehtega peab olema mitu tingimust, et moodustada grupp, ja esimene neist on sulgemise tingimus: kahe S elemendi vaheline tehe peab andma tulemuseks S elemendi.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Varat hyvitetään suoraan ilman lisäturvatoimia
 explanation: |
   Keysend mahdollistaa lähettäjän luoda salaisuuden, joka on sisällytetty HTLC: iin, mahdollistaen vastaanottajan vapauttaa varat ilman, että laskua on annettu.
+reviewed: false

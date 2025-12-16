@@ -6,3 +6,4 @@ wrong_answers:
   - El hash SHA256 de los 32 bytes medios
 explanation: |
   Los últimos 32 bytes del resultado de HMAC-SHA512 sirven como el código de cadena para la clave hijo.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Usa um fluxo de chave baseado unicamente no texto puro
 explanation: |
   O RC4 é uma cifra de fluxo síncrono porque seu fluxo de chave depende apenas da chave inicial e não do texto puro ou do texto cifrado, garantindo a independência deste fluxo das mensagens.
+reviewed: false

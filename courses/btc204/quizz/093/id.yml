@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Tx0 bertujuan untuk mempersiapkan dan menyamakan UTXO untuk coinjoin, dengan membaginya menjadi unit yang sesuai dengan jumlah kolam yang dipilih, untuk memastikan homogenitas pencampuran.
+reviewed: false

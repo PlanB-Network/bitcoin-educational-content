@@ -6,3 +6,4 @@ wrong_answers:
   - 一个总是在特定物理实验背景下定义的变量
 explanation: |
   随机变量可以取两个或更多的值，每个值都有正概率，而且它通常在密码学的背景下被抽象地定义。
+reviewed: false

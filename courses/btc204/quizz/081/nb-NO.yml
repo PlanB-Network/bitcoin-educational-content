@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   I såkalte Chaumian coinjoins kombineres bruken av Tor og David Chaums blinde signaturer for å sikre at koordinatoren ikke kan vite hvilken utgang som tilhører hvilken bruker.
+reviewed: false

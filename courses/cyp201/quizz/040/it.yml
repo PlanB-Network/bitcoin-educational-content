@@ -6,4 +6,4 @@ wrong_answers:
   - Perché limita la dimensione delle frasi mnemoniche generate
 explanation: |
   Generare manualmente l'entropia può introdurre scelte prevedibili o errori, rendendo le chiavi più vulnerabili agli attacchi.
-recensito: false
+reviewed: false

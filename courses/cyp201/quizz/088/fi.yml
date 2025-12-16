@@ -6,3 +6,4 @@ wrong_answers:
   - 0x00
 explanation: |
   Etuliite 0x03 osoittaa tiivistetyn julkisen avaimen, jonka y-koordinaatti on pariton.
+reviewed: false

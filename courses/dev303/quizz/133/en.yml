@@ -6,3 +6,4 @@ wrong_answers:
   - Lightning wallets require coordination with Lightning Service Providers to rebuild payment routing tables
 explanation: |
   Traditional Bitcoin wallets can be fully restored using only a seed phrase through hierarchical deterministic key derivation, as all transaction history exists on the blockchain. However, Lightning wallets maintain off-chain channel states that are not recorded on the blockchain. These channel states contain critical information about payment channel balances and pending transactions that cannot be reconstructed from the seed phrase alone. This creates a fundamental challenge requiring secure remote persistence mechanisms to store channel state information while maintaining non-custodial security principles.
+reviewed: false

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Tx0は、コインジョインのためにUTXOを準備し、選択されたプールの金額に対応する単位に分割することで、ミキシングの均一性を確保することを目的としています。
 
-  レビュー済み: false
+reviewed: false

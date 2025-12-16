@@ -6,3 +6,4 @@ wrong_answers:
   - 消息认证码（MAC）
 explanation:
   比特币中的数字签名通过使用私钥签署交易来证明资金的拥有权，以解锁保护UTXO的脚本。
+reviewed: false

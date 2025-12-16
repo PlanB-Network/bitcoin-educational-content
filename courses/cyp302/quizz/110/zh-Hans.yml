@@ -6,3 +6,4 @@ wrong_answers:
   - 除了私钥外还需要使用公钥
 explanation: |
   RC4在密钥流生成中存在重大弱点，这使得加密容易受到攻击，因此在现代安全协议中逐渐被弃用。
+reviewed: false

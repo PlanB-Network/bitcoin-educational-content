@@ -6,3 +6,4 @@ wrong_answers:
   - Um número de 1 a 26
 explanation: |
   Na criptografia por deslocamento, a chave é um número entre 0 e 25, que corresponde ao número de posições de deslocamento aplicadas a cada letra da mensagem em um alfabeto de 26 letras.
+reviewed: false

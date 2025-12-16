@@ -6,3 +6,4 @@ wrong_answers:
   - Den pålegger ekstra gebyrer for hver mellomliggende node
 explanation: |
   Tidsbegrensningen pålegger en tidsramme for å fullføre en HTLC, som tillater gjenoppretting av midler hvis transaksjonen ikke lykkes, ved å kansellere betalingen etter denne perioden.
+reviewed: false

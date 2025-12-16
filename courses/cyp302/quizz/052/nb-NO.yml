@@ -6,3 +6,4 @@ wrong_answers:
   - Bestemmer den multiplikative identiteten
 explanation: |
   Irreduktible polynomer brukes til å strukturere multiplikasjon i endelige felt, og sikrer at hvert element forblir innenfor feltet.
+reviewed: false

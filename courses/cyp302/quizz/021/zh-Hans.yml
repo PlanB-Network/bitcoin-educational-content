@@ -6,3 +6,4 @@ wrong_answers:
   - 离散几何
 explanation: |
   模运算是数学的一个分支，它处理在有限框架内的数的运算，使用模运算。
+reviewed: false

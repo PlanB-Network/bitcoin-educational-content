@@ -6,3 +6,4 @@ wrong_answers:
   - The curve parameter a
 explanation: |
   The point at infinity serves as the identity element in elliptic curve groups, meaning that adding any point P to the point at infinity returns P unchanged. This is analogous to how adding zero works in regular arithmetic. The origin (0,0) is not necessarily on the curve, the generator point G is used for creating public keys, and the curve parameter a is just a coefficient in the curve equation, not an identity element.
+reviewed: false

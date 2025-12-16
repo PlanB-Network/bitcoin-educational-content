@@ -6,3 +6,4 @@ wrong_answers:
   - 发送信件到账户持有者的家庭地址
 explanation: |
   2FA的第二步可以是通过短信发送的临时代码、由应用程序生成的代码，或是一个物理安全密钥。
+reviewed: false

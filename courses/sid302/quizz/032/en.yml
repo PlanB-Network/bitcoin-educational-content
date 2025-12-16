@@ -6,3 +6,4 @@ wrong_answers:
   - The user must contact Boltz support to manually trigger a federated peg-out transaction
 explanation: |
   The Breez SDK implements Automated Refund Management as a critical safety mechanism. When swaps fail or time out, the SDK monitors all swap states and automatically handles the recovery process without user intervention. This abstracts away the complexity of time-locked contracts and ensures funds are never permanently lost. The other options are incorrect because they either require manual intervention, assume permanent fund loss, or involve processes that don't exist in the automated system.
+reviewed: false

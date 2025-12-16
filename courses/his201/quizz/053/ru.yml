@@ -6,3 +6,4 @@ wrong_answers:
   - Стандартный формат транзакции
 explanation: |
   Это были инструкции без операции, которые не делали скрипт недействительным при их выполнении. Они позволили добавить в протокол OP_CHECKLOCKTIMEVERIFY и OP_CHECKSEQUENCEVERIFY в 2015/2016 годах.
+reviewed: false

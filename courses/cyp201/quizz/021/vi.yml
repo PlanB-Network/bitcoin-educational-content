@@ -6,3 +6,4 @@ wrong_answers:
   - Mất rất nhiều thời gian để tính toán
 explanation:
   Phép nhân vô hướng trên đường cong elliptic là một hàm một chiều, làm cho việc lấy lại khóa riêng từ khóa công khai trở nên không thể.
+reviewed: false

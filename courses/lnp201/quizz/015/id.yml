@@ -6,3 +6,4 @@ wrong_answers:
   - Pembukaan saluran pembayaran baru
 explanation: |
   Transaksi komitmen merepresentasikan distribusi dana saat ini dalam saluran setelah setiap transaksi Lightning, tetapi tidak dipublikasikan di blockchain selama saluran tetap terbuka.
+reviewed: false

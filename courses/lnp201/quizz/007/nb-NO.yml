@@ -6,3 +6,4 @@ wrong_answers:
   - De representerer små faste mengder bitcoins
 explanation: |
   Lik en seddel, må en UTXO brukes helt opp i en transaksjon, og eventuelt overskudd returneres til avsenderen som veksel.
+reviewed: false

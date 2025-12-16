@@ -6,3 +6,4 @@ wrong_answers:
   - Det eksakte beløpet av tilgjengelig likviditet for hver kanal
 explanation: |
   Ved å indikere nærliggende kanaler med likviditet eller avsløre private kanaler, hjelper Bob Alice med å velge ruter med en bedre sannsynlighet for suksess.
+reviewed: false

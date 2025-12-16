@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin-osoitteet eivät olisi yhteensopivia verkon kanssa
 explanation: |
   Huonosti suunniteltu PRNG voi tuottaa ennustettavia sekvenssejä, mikä tekee avaimista haavoittuvampia hyökkäyksille.
+reviewed: false

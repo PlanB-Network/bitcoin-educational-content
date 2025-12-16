@@ -6,3 +6,4 @@ wrong_answers:
   - For å automatisk beregne den korteste veien
 explanation: |
   Rutegebyrer brukes for å kompensere mellomliggende noder som videresender betalinger ved å tilby sin likviditet for å muliggjøre overføring av midler over nettverket.
+reviewed: false

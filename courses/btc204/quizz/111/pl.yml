@@ -6,3 +6,4 @@ wrong_answers:
   - Transakcja, która angażuje odbiorcę w dane wejściowe
 explanation: |
   Stonewall x2 to specyficzna forma transakcji Bitcoin mająca na celu zwiększenie prywatności użytkownika podczas transakcji, ale tym razem poprzez współpracę z osobą trzecią niezaangażowaną w transakcję. Metoda ta działa jak mini-CoinJoin między dwoma uczestnikami, jednocześnie dokonując płatności na rzecz osoby trzeciej.
+reviewed: false

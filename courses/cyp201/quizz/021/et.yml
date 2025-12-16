@@ -6,3 +6,4 @@ wrong_answers:
   - Väga pikk arvutada
 explanation: |
   Skalaarkorrutis elliptilistel kõveratel on ühesuunaline funktsioon, muutes võimatuks privaatvõtme taastamise avalikust võtmest.
+reviewed: false

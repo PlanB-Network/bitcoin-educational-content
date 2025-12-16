@@ -6,3 +6,4 @@ wrong_answers:
   - Midlene blir permanent blokkert
 explanation: |
   Hvis et HTLC utløper uten at hemmeligheten blir avslørt, blir betalingen kansellert og midlene returneres til avsenderen, noe som forhindrer at noen mellomliggende node kan beholde midlene.
+reviewed: false

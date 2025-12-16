@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Thuật toán được sử dụng là ECDH (Elliptic Curve Diffie-Hellman). Đây là một biến thể của thuật toán Diffie-Hellman cổ điển sử dụng đường cong elliptic.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 确保与比特币协议的兼容性
 explanation: |
   链码用于为每个派生的密钥引入一个额外且唯一的熵源。
+reviewed: false

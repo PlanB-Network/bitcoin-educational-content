@@ -6,3 +6,4 @@ wrong_answers:
   - Der SHA256-Hash der mittleren 32 Bytes
 explanation: |
   Die letzten 32 Bytes des HMAC-SHA512-Ausgabewerts dienen als Chain Code für den Child-Key.
+reviewed: false

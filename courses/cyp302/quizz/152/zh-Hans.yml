@@ -6,3 +6,4 @@ wrong_answers:
   - 它用于计算φ(N)
 explanation: |
   私钥d用于通过完成与模数N的计算来解密加密消息。
+reviewed: false

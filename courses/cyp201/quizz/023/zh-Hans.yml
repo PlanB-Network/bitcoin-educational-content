@@ -6,3 +6,4 @@ wrong_answers:
   - 压缩公钥
 explanation: |
   椭圆曲线 secp256k1 的生成器点 G 被用来从私钥计算公钥。
+reviewed: false

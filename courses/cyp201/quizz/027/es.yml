@@ -6,3 +6,4 @@ wrong_answers:
   - Tamaño excesivo de las firmas
 explanation: |
   SegWit corrigió la maleabilidad de las firmas ECDSA, permitiendo usos como la Red Lightning.
+reviewed: false

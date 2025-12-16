@@ -6,3 +6,4 @@ wrong_answers:
   - 消息散列
 explanation:
   流加密特别适用于连续通信，因为它连续加密数据，不像块加密那样将数据分成块。
+reviewed: false

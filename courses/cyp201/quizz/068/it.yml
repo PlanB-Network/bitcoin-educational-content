@@ -6,4 +6,4 @@ wrong_answers:
   - Il processo deve includere la chiave privata genitore
 explanation: |
   Una chiave pubblica figlia può essere derivata da una chiave pubblica genitore solo se è normale, non hardened.
-recensito: false
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 狄利克雷Beta函数
 explanation:
   欧拉Phi函数用于确定小于N的与N互质的整数数量，这是基于素数的密码学定理中的一个核心概念。
+reviewed: false

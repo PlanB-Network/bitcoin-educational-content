@@ -6,3 +6,4 @@ wrong_answers:
   - When creating circular references between data structures that need automatic memory cleanup
 explanation: |
   RefCell is designed for interior mutability scenarios where you need to mutate data through an immutable reference, particularly when the compiler's static analysis is too conservative. Mock objects that implement traits with immutable methods but need to track internal state represent a perfect use case. The other options are incorrect: RefCell is not thread-safe, it moves checking to runtime (not compile time), and it doesn't solve circular reference problems - it can actually contribute to them when combined with RC.
+reviewed: false

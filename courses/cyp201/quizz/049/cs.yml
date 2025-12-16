@@ -6,3 +6,4 @@ wrong_answers:
   - K generování hash pro UTXO
 explanation: |
   Mnemonická fráze umožňuje odvození všech soukromých a veřejných klíčů v peněžence, což usnadňuje zálohování a obnovu.
+reviewed: false

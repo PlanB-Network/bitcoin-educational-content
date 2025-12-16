@@ -6,3 +6,4 @@ wrong_answers:
   - Ved å lukke og gjenåpne kanalen etter hver transaksjon
 explanation: |
   Hver transaksjon innenfor kanalen oppdaterer kanalens tilstand med en ny forpliktelsestransaksjon, som reflekterer den nåværende fordelingen av midler mellom de to deltakerne.
+reviewed: false

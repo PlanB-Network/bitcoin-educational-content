@@ -6,3 +6,4 @@ wrong_answers:
   - PHP, Perl, Lua
 explanation:
   本章列出了Python, C, 和 Java作为网络安全中使用的一些编程语言。
+reviewed: false

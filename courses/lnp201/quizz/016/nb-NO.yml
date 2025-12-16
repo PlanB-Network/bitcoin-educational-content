@@ -6,3 +6,4 @@ wrong_answers:
   - Når de tilgjengelige midlene er oppbrukt
 explanation: |
   Forpliktelsestransaksjoner bygges og signeres for hver endring i tildeling, men de blir kun til slutt publisert på blockchain i tilfelle kanallukking.
+reviewed: false

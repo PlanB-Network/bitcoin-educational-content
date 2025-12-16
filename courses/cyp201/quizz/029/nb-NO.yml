@@ -6,3 +6,4 @@ wrong_answers:
   - HMAC
 explanation: |
   Bitcoin brukte opprinnelig ECDSA, en signaturprotokoll basert på elliptiske kurver, før introduksjonen av Schnorr-signaturer i 2021.
+reviewed: false

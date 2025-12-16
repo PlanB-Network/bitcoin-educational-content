@@ -6,3 +6,4 @@ wrong_answers:
   - Kommunikoida suoraan kaikkien välisolmujen kanssa
 explanation: |
   Lähettävä solmu vastaa koko reitin laskemisesta vastaanottajalle, sillä välisolmut tuntevat vain välittömän naapurinsa.
+reviewed: false

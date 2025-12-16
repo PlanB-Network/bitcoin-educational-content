@@ -6,3 +6,4 @@ wrong_answers:
   - No permite dividir el texto en bloques de 128 bits
 explanation: |
   El modo ECB no se recomienda porque produce una encriptación determinista, lo que significa que bloques idénticos de texto plano producirán bloques idénticos de texto cifrado, lo cual puede ser explotado para adivinar información sobre el texto plano.
+reviewed: false

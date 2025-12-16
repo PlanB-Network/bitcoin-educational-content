@@ -6,3 +6,4 @@ wrong_answers:
   - Lisätä Bitcoin-siirtojen luottamuksellisuutta.
 explanation: |
   Yksi ketjuanalyysin tavoitteista on ryhmitellä erilaisia toimintoja Bitcoinissa, jotta voidaan määrittää suorittaneen käyttäjän yksilöllisyys. Tämän jälkeen on mahdollista yrittää yhdistää tämä toimintojen ryhmä todelliseen henkilöllisyyteen.
+reviewed: false

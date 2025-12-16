@@ -6,3 +6,4 @@ wrong_answers:
   - Write access to all channel settings and read access to private keys and wallet information
 explanation: |
   Auto-Fees operates under the principle of least privilege through a restricted LNC session. It has limited read access to forwarding history, channel balances, and current fee policies, plus write access strictly confined to updating fee policies. It cannot spend funds, close channels, or alter other node settings, ensuring security while enabling automated fee management.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Koska virtasalaukset ovat aina hitaampia
 explanation: |
   Virtasalaukset on suunniteltu salaamaan dataa jatkuvasti (bitti bitiltä tai tavu tavulta), mikä vaikeuttaa niiden käyttöä lohkomoodissa, joka vaatii käsittelyn kiinteänkokoisissa lohkoissa.
+reviewed: false

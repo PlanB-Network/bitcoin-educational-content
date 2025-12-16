@@ -6,3 +6,4 @@ wrong_answers:
   - Kiri, mis saadetakse kontoomaniku koduaadressile
 explanation: |
   2FA teine samm võib olla ajutine kood, mis saadetakse SMS-i teel, rakenduse poolt genereeritud kood või füüsiline turvavõti.
+reviewed: false

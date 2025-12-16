@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Sự an toàn của RSA dựa trên sự khó khăn trong việc phân tích một số lớn (tích của hai số nguyên tố lớn) thành hai thừa số nguyên tố của nó, một nhiệm vụ gần như là không thể thực hiện được nếu không có khóa riêng tư.
+reviewed: false

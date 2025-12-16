@@ -6,3 +6,4 @@ wrong_answers:
   - Komplekse tallgrupper
 explanation: |
   I kryptografi er sykliske grupper essensielle fordi de tillater generering av alle elementene i gruppen ved å bruke eksponentiering av et enkelt element, kalt en generator.
+reviewed: false

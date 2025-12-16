@@ -6,3 +6,4 @@ wrong_answers:
   - Tiefe 4
 explanation: |
   Tiefe 2 wird verwendet, um die Währung in Multi-Währungs-Wallets zu identifizieren, wie zum Beispiel Bitcoin (Index 0') oder Litecoin (Index 2').
+reviewed: false

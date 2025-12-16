@@ -6,3 +6,4 @@ wrong_answers:
   - P2TR
 explanation: |
   Địa chỉ P2PKH, được mã hóa trong base58check, thuộc về tiêu chuẩn Legacy và bắt đầu với chữ số `1`.
+reviewed: false

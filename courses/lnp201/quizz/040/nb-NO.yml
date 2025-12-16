@@ -6,3 +6,4 @@ wrong_answers:
   - Kommunisere direkte med alle mellomliggende noder
 explanation: |
   Sender noden er ansvarlig for å beregne hele ruten til mottakeren, ettersom mellomliggende noder kun kjenner sin umiddelbare nabo.
+reviewed: false

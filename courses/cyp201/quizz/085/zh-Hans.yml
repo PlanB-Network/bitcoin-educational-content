@@ -6,3 +6,4 @@ wrong_answers:
   - 将调整值t和公钥P连接起来
 explanation: |
   通过将调整值t与生成器G的标量乘积加到公钥P上，得到Taproot公钥Q。
+reviewed: false

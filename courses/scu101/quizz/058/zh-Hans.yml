@@ -6,3 +6,4 @@ wrong_answers:
   - AutoCAD, SolidWorks, Revit
 explanation:
   本章列出了Wireshark, Metasploit, 和 Nmap 作为网络安全中使用的一些工具。
+reviewed: false

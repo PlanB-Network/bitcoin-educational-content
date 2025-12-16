@@ -6,3 +6,4 @@ wrong_answers:
   - Para gerar um hash para os UTXOs
 explanation: |
   A frase mnemônica permite a derivação de todas as chaves privadas e públicas em uma carteira, facilitando assim o backup e a recuperação.
+reviewed: false

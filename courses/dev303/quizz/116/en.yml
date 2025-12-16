@@ -6,3 +6,4 @@ wrong_answers:
   - Developers can access shared Lightning infrastructure without implementing their own node management, reducing development costs and complexity
 explanation: |
   The SDK's interoperability allows users to access the same Lightning node and funds from multiple specialized apps (like a general wallet and a podcasting app) without managing separate balances or nodes. The wrong answers misrepresent the architecture: private keys never leave the user's device and aren't shared between apps, liquidity pooling isn't how the system works, and while developers do benefit from simplified infrastructure, the primary advantage described is the unified user experience across applications.
+reviewed: false

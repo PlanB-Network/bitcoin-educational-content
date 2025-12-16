@@ -6,3 +6,4 @@ wrong_answers:
   - Não é compatível com protocolos de comunicação modernos
 explanation: |
   A criptografia assimétrica, embora poderosa para autenticação e criptografia inicial, requer mais recursos, tornando seu uso ineficiente para transferências substanciais de dados.
+reviewed: false

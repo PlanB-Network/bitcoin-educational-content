@@ -6,3 +6,4 @@ wrong_answers:
   - Automatiseringen av meldingssending
 explanation: |
   Klassisk kryptografi var primært fokusert på konfidensialitet, og dette målet er fortsatt essensielt i moderne kryptografi, selv om andre temaer, som integritet og autentisitet, har blitt lagt til.
+reviewed: false

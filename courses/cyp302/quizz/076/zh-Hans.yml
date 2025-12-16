@@ -6,3 +6,4 @@ wrong_answers:
   - 100位
 explanation: |
   使用至少128位的密钥，现代加密技术目前被认为可以抵御暴力破解攻击，因为尝试的次数将是不切实际的。
+reviewed: false

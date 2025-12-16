@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH 與 SegWit 不相容。
 explanation: |
   與 SegWit 一同推出的 P2WPKH，將簽名移到稱為 Witness 的單獨部分，以防止交易的可篡改性。
+reviewed: false

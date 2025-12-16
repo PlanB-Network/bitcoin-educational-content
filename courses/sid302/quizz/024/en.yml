@@ -6,3 +6,4 @@ wrong_answers:
   - Cryptographic proof-of-stake consensus where validators must reach majority agreement before executing any compliance action
 explanation: |
   AMP uses multisignature control to ensure that compliance actions require authorization from multiple parties, preventing any single employee from acting unilaterally. This creates a checks-and-balances system for sensitive operations while maintaining the regulatory oversight required for institutional assets. The wrong answers describe mechanisms that either don't exist in AMP or would be inappropriate for regulated financial compliance.
+reviewed: false

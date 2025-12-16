@@ -6,3 +6,4 @@ wrong_answers:
   - To prevent miners from claiming block subsidies higher than the allowed amount
 explanation: |
   BIP34 mandates block height inclusion in Coinbase scriptSig specifically to guarantee uniqueness of every Coinbase transaction ID. Without this requirement, two blocks at different heights could theoretically have identical Coinbase transactions, creating duplicate txids that would violate Bitcoin's transaction uniqueness assumptions and potentially cause database conflicts in implementations that index by txid.
+reviewed: false

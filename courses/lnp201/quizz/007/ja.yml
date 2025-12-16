@@ -6,3 +6,4 @@ wrong_answers:
   - 小さな固定額のビットコインを表しています
 explanation: |
   紙幣と同様に、UTXOは取引で全額使われる必要があり、余剰分は「おつり」として送信者に返されます。
+reviewed: false

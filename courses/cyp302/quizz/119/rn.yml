@@ -6,3 +6,4 @@ wrong_answers:
   - Ntivyemera gucapura umwandiko mu bice 128 .
 explanation: |
   Uburyo bwa ECB ntibushimishijwe kuko butanga ubuhinga bwo gupfuka amakuru, bisobanura ko amabara asa n’ay’inyandiko zisanzwe azotanga amabara asa n’ay’inyandiko y’ibanga, ashobora gukoreshwa mu gutekereza ku makuru yerekeye inyandiko isanzwe.
+reviewed: false

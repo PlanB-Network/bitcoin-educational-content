@@ -6,3 +6,4 @@ wrong_answers:
   - 将其记录在像Google Drive这样的数字介质上
 explanation: |
   密码短语必须物理上单独保存，与助记词短语分开，以防两者同时被盗。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Faktur dibayar melalui transaksi on-chain di Bitcoin.
 explanation: |
   Ketika Bob mengirimkan faktur kepada Alice, dia membuat dan menandatangani transaksi komitmen baru untuk menyesuaikan distribusi dana, dengan demikian mentransfer 30.000 satoshi di dalam saluran.
+reviewed: false

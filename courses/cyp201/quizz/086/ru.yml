@@ -6,3 +6,4 @@ wrong_answers:
   - Непосредственно кодируя в base64
 explanation: |
   Адреса Bech32 используют BCH коды для расчета контрольной суммы.
+reviewed: false

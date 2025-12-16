@@ -6,3 +6,4 @@ wrong_answers:
   - 在每条消息中添加一个额外的密钥
 explanation:
   在加密消息中为每个参与者添加一个唯一标识符可以防止反射攻击，因为它允许区分消息的来源。
+reviewed: false

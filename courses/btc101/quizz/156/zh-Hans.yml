@@ -5,3 +5,4 @@ wrong_answers:
   - 15分钟
   - 20分钟
 explanation: 在比特币协议中，平均每10分钟创建一个区块。无论矿工数量和他们的计算能力如何，这个时间都保持不变。
+reviewed: false

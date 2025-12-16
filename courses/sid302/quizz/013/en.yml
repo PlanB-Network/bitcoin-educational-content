@@ -6,3 +6,4 @@ wrong_answers:
   - They broadcast separate transactions on each layer simultaneously to ensure atomic settlement without key aggregation
 explanation: |
   The cooperative "key path" in Taproot allows parties to combine their keys into a single aggregated public key using MuSig2. When both agree, they simply co-sign the transaction, which appears identical to any standard payment on the blockchain. This provides maximum privacy and efficiency since no script logic is revealed, consuming minimal block space. The other options incorrectly describe either legacy HTLC behavior or the adversarial script path scenario.
+reviewed: false

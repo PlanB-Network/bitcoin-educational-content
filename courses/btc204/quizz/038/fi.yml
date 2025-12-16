@@ -6,3 +6,4 @@ wrong_answers:
   - Sweeping.
 explanation: |
   CIOH ei sovellu transaktioihin, jotka noudattavat yhteistyöllistä mallia, koska tässä erityistapauksessa syötteet tulevat välttämättä eri tahoilta.
+reviewed: false

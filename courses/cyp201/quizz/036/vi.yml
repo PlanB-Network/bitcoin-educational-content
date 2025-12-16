@@ -6,3 +6,4 @@ wrong_answers:
   - Hoàn toàn tránh sử dụng khóa công khai
 explanation: |
   Ví HD tạo ra tất cả các khóa riêng từ một hạt giống duy nhất, điều này làm đơn giản hóa việc sao lưu và gián tiếp cải thiện sự riêng tư.
+reviewed: false

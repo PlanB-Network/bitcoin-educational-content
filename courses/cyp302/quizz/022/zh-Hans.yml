@@ -6,3 +6,4 @@ wrong_answers:
   - UVW
 explanation:
   在字母表中移位17位，D变成U，O变成F，G变成X。因此，加密后的单词是UFX。
+reviewed: false

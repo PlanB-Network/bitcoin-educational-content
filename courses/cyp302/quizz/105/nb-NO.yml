@@ -6,3 +6,4 @@ wrong_answers:
   - Ved å kryptere meldinger med en annen algoritme
 explanation: |
   Sekvensnumre sikrer at meldinger mottas i riktig rekkefølge og forhindrer omorganisering av dem.
+reviewed: false

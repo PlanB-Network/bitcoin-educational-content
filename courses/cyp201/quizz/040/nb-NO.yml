@@ -6,3 +6,4 @@ wrong_answers:
   - Det begrenser størrelsen på de genererte mnemonic-frasene
 explanation: |
   Å manuelt generere entropi kan introdusere skjevheter eller feil, noe som gjør nøklene mer sårbare for angrep.
+reviewed: false

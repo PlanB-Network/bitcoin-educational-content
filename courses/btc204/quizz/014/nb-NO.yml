@@ -6,3 +6,4 @@ wrong_answers:
   - Bare myndigheter har tilgang til transaksjonsdetaljene.
 explanation: |
   I tilfellet med Bitcoin, siden informasjonsflyten ikke kan brytes mellom transaksjonene og det offentlige domenet, er personvernmodellen avhengig av separasjonen mellom brukerens identitet og transaksjonene.
+reviewed: false

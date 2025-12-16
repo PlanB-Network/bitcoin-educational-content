@@ -6,3 +6,4 @@ wrong_answers:
   - a täytyy olla alkuluku
 explanation: |
   Kokonaisluvulla a on käänteisalkio modulo N jos ja vain jos ne ovat keskenään jaottomia, tarkoittaen, että niiden suurin yhteinen tekijä on 1.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Nó tạm thời khóa quỹ để ngăn chặn việc chi tiêu quá mức
 explanation: |
   Script khóa đặt ra các điều kiện, như việc ký bằng khóa riêng, để mở khóa và sử dụng quỹ trong một giao dịch.
+reviewed: false

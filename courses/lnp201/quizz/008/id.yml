@@ -6,3 +6,4 @@ wrong_answers:
   - Hanya digunakan untuk mengirim dana ke alamat publik.
 explanation: |
   Alamat multisignature 2/2 memerlukan tanda tangan dari kedua pihak yang terlibat agar dana dapat dihabiskan, yang digunakan untuk keamanan saluran Lightning.
+reviewed: false

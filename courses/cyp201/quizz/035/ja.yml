@@ -6,3 +6,4 @@ wrong_answers:
   - BIP141
 explanation: |
   BIP32はHDウォレットの操作を定義しており、シードからプライベートキーを階層的に導出することを可能にします。
+reviewed: false

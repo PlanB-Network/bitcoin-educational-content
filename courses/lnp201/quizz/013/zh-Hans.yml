@@ -6,3 +6,4 @@ wrong_answers:
   - Bob自动收到通道中的资金
 explanation: |
   如果没有Bob在提款交易上的签名，Alice就无法确保在出现问题时恢复她的资金，这就存在丧失资金的风险。
+reviewed: false

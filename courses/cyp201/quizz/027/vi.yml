@@ -6,3 +6,4 @@ wrong_answers:
   - Kích thước chữ ký quá lớn
 explanation: |
   SegWit đã khắc phục tính dễ biến đổi của chữ ký ECDSA, cho phép các ứng dụng như Lightning Network.
+reviewed: false

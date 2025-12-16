@@ -6,3 +6,4 @@ wrong_answers:
   - 它们在地址中使用公钥哈希。
 explanation: |
   SegWit v1 (P2TR)地址不使用公钥的哈希，而是直接使用Taproot公钥。
+reviewed: false

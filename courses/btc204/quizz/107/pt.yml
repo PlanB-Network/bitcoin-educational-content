@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   A transação payjoin se enquadra no domínio da esteganografia porque esconde o valor real de uma transação dentro de uma transação falsa que atua como um chamariz para observadores externos.
+reviewed: false

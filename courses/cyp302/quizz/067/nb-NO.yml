@@ -6,3 +6,4 @@ wrong_answers:
   - De burde kunne gjette innholdet i meldingen
 explanation: |
   I et godt utformet symmetrisk krypteringssystem, bør en angriper som avlytter en kryptert melding ikke være i stand til å utlede relevant informasjon om innholdet i meldingen uten dekrypteringsnøkkelen.
+reviewed: false

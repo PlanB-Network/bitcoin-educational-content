@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Den forbedrede ricochet sikrer at hver transaksjon kringkastes på et distinkt tidspunkt og registreres i en annen blokk, mens den klassiske ricochet kringkaster alle transaksjoner innenfor et kort tidsrom.
+reviewed: false

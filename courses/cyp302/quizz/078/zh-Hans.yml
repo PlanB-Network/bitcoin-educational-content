@@ -6,3 +6,4 @@ wrong_answers:
   - 用力敲打计算机以迫使其放弃秘密密钥
 explanation: |
   暴力破解攻击涉及系统地测试所有可能的密钥以解密加密消息。
+reviewed: false

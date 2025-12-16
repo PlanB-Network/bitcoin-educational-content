@@ -6,4 +6,4 @@ wrong_answers:
   - Utilizzano l'hash della chiave pubblica nell'indirizzo.
 explanation: |
   Gli indirizzi SegWit v1 (P2TR) non utilizzano un hash della chiave pubblica, ma direttamente la chiave pubblica Taproot.
-recensito: false
+reviewed: false

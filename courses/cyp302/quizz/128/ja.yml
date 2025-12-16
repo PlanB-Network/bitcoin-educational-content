@@ -6,3 +6,4 @@ wrong_answers:
   - 安全な鍵交換
 explanation: |
   RSAは素数の因数分解の難しさに基づいており、これは計算上難しいタスクであり、暗号システムを攻撃から守ることができます。
+reviewed: false

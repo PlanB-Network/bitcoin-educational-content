@@ -6,3 +6,4 @@ wrong_answers:
   - 助记词
 explanation: |
   UTXOs是通过公钥或其哈希锁定的，并且通过相应的私钥解锁。
+reviewed: false

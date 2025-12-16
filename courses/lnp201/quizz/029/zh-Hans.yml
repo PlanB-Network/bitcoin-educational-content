@@ -6,3 +6,4 @@ wrong_answers:
   - 当交易费用过高时
 explanation: |
   如果其中一方因为技术问题等原因不再回应对方的消息，强制关闭作为最后手段被使用。
+reviewed: false

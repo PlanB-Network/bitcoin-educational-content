@@ -6,3 +6,4 @@ wrong_answers:
   - 费用由两个参与者共享
 explanation:
   签署的承诺交易确保每个参与者在渠道关闭的情况下，通过发布最新版本来恢复他们的资金。
+reviewed: false

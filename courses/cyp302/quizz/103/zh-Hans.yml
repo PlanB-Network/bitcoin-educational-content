@@ -6,3 +6,4 @@ wrong_answers:
   - 因为它只加密消息而不附加标签
 explanation: |
   认证加密方案旨在检测密文的修改，任何篡改尝试都会使标签无效，从而确保对选择密文攻击的抵抗力。
+reviewed: false

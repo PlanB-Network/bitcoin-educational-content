@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH không tương thích với SegWit.
 explanation: |
   P2WPKH, được giới thiệu với SegWit, chuyển chữ ký vào một phần riêng biệt gọi là Witness để ngăn chặn sự biến đổi giao dịch.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   JoinMarket hoạt động trên một thị trường trao đổi P2P nơi một số người dùng, được gọi là người tạo lập, cung cấp bitcoin của họ để trộn, trong khi những người khác, được gọi là người nhận, sử dụng các quỹ này để thực hiện coinjoins đổi lấy một khoản phí.
+reviewed: false

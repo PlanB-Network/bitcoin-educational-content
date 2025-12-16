@@ -6,3 +6,4 @@ wrong_answers:
   - OP_NOP 操作码
 explanation: |
   这个有效的警报系统允许他使用私钥，在技术问题发生时警告网络节点，并暂停一些API命令。
+reviewed: false

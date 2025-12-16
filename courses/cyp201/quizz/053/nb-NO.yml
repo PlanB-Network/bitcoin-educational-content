@@ -6,3 +6,4 @@ wrong_answers:
   - Du mister kun de ubekreftede transaksjonene
 explanation: |
   Passfrasen er en essensiell komponent i nøkkelavledningen. Uten den er det umulig å gjenskape nøklene og derfor umulig å få tilgang til bitcoinene.
+reviewed: false

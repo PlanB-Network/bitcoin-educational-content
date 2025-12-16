@@ -6,3 +6,4 @@ wrong_answers:
   - The public key hash is pushed onto the stack
 explanation: |
   OP_CHECKSIG is a stack-transforming opcode that consumes a signature and public key from the stack, verifies the signature against the transaction's sighash, and pushes either 1 (for valid) or 0 (for invalid) onto the stack. The original signature and public key are removed during this process. The stack is not cleared entirely, and no hash values are pushed - only the boolean result of the verification operation.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - To ensure the witness stack has an even number of elements for efficient merkle tree construction
 explanation: |
   The CHECKMULTISIG opcode has a historical bug where it pops one extra element from the stack beyond what it should need. This affects all multisig transactions, including P2WSH. The empty element compensates for this bug, ensuring the remaining stack elements (signatures and witness script) are properly positioned for validation. The other options are incorrect: unused signatures aren't represented by empty elements, witness parsing doesn't require separation elements, and witness stacks don't need even element counts for merkle operations.
+reviewed: false

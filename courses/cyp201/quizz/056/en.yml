@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   The Bitcoin Seed constant is used as a key in the HMAC-SHA512 function to derive the master private key and the master chain code.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Lohkoketjun Juuri
 explanation: |
   Bitcoin Seed vakioa käytetään avaimena HMAC-SHA512 funktiossa johdattaakseen pääyksityisavaimen ja pääketjukoodin.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Rajoittaakseen Bitcoin-lohkoketjun käyttöä
 explanation: |
   Reitittimen tavoitteena on reitittää mahdollisimman monta maksua kerätäkseen maksuja, mikä vaatii hyvän likviditeetin jakautumisen molemmille puolille kanavia varmistaakseen reitityskapasiteetin.
+reviewed: false

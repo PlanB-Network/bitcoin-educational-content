@@ -6,3 +6,4 @@ wrong_answers:
   - Blokeerides automaatselt kahtlased sõnumid
 explanation: |
   MAC võimaldab saajal kontrollida, et sõnumit ei ole muudetud, kasutades selleks jagatud salajase võtmega genereeritud märgendit, mis piirab manipuleerimise võimalusi.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - The mining fee remains constant per channel regardless of how many channels are included in the batch
 explanation: |
   In batch opens, a single mining fee pays for the entire aggregate transaction containing multiple channel outputs. This fee is spread across all channels being opened, making each individual channel cheaper to establish. The wrong answers incorrectly suggest either proportional increases, separate fees per channel, or no cost benefit - all contradicting the fundamental economic advantage of batching multiple operations into one transaction.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Una chiave figlia normale è più sicura di una chiave figlio hardened.
 explanation: |
   Una chiave figlia normale può essere derivata dalla chiave pubblica genitore, a differenza di una chiave figlia hardened che richiede la chiave privata genitore.
-recensito: false
+reviewed: false

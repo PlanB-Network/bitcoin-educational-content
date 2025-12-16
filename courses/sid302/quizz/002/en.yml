@@ -6,3 +6,4 @@ wrong_answers:
   - Every 5 minutes
 explanation: |
   The Liquid Network produces blocks every minute in a deterministic round-robin fashion, which is much faster and more predictable than Bitcoin's probabilistic 10-minute intervals. This precise one-minute timing is critical for the network's use cases like arbitrage and rapid inter-exchange settlement, providing the speed needed for institutional trading operations.
+reviewed: false

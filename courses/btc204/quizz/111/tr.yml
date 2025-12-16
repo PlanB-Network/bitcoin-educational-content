@@ -6,3 +6,4 @@ wrong_answers:
   - Alıcının girdilere dahil olduğu bir işlem
 explanation: |
   Stonewall x2, bir harcama sırasında kullanıcı gizliliğini artırmayı amaçlayan belirli bir Bitcoin işlem biçimidir, ancak bu kez harcamaya dahil olmayan üçüncü bir tarafla işbirliği yaparak. Bu yöntem, iki katılımcı arasında mini bir CoinJoin gibi işlev görürken aynı zamanda üçüncü bir kişiye ödeme yapar.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Hash de Script de Testemunha
 explanation: |
   O prefixo `wpkh` indica um script SegWit v0 usando endereços de Pagamento para Witness-Public-Key-Hash.
+reviewed: false

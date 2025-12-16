@@ -6,3 +6,4 @@ wrong_answers:
   - Sõnum muutub dekrüpteerimatuks
 explanation: |
   Lihtsustatud RSA-s genereerib sõnumi mitmekordne krüpteerimine alati sama tulemuse, muutes krüpteeringu rünnakutele haavatavaks.
+reviewed: false

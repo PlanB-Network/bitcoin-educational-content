@@ -6,3 +6,4 @@ wrong_answers:
   - Biaya routing yang ditetapkan oleh setiap node
 explanation: |
   Jumlah maksimum yang dapat ditransfer oleh pembayaran tidak langsung tergantung pada likuiditas terendah yang tersedia di saluran yang digunakan, karena setiap saluran harus menyesuaikan dana di setiap sisi.
+reviewed: false

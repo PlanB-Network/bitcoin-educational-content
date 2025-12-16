@@ -6,3 +6,4 @@ wrong_answers:
   - Añadir una capa adicional de cifrado
 explanation: |
   En un esquema de cifrado autenticado, se utiliza un nonce para asegurar que cada mensaje tenga una etiqueta única, mejorando así la seguridad al prevenir repeticiones.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Enables automatic price discovery through built-in market making algorithms
 explanation: |
   Liquid's 2-minute settlement enables atomic settlement, which is crucial for reducing counterparty risk because both parties receive what they're owed simultaneously, eliminating the gap where one party might default. Traditional T+2 settlement creates a window where counterparty risk exists. The other options are incorrect: Liquid still requires compliance through AMP, has transaction fees and scaling limits, and doesn't provide automatic market making.
+reviewed: false

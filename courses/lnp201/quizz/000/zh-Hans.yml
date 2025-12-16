@@ -6,3 +6,4 @@ wrong_answers:
   - 简化不同加密货币之间的交易
 explanation:
   闪电网络旨在通过启用离链支付渠道，增强比特币的可扩展性，从而实现快速和低成本的交易。
+reviewed: false

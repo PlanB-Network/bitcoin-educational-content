@@ -6,3 +6,4 @@ wrong_answers:
   - El tipo de moneda
 explanation: |
   La profundidad 0 corresponde a la clave maestra y el código de cadena maestro, que son los puntos de partida para todas las derivaciones en una cartera HD.
+reviewed: false

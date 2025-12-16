@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Las comunicaciones a través de Tor son más lentas. Esta latencia es particularmente problemática durante el lanzamiento inicial de un nodo, ya que la IBD (Descarga Inicial de Bloques) requiere mucha comunicación.
+reviewed: false

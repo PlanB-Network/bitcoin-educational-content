@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Ricochet-metoden innebærer typisk å gjøre 4 transaksjoner til seg selv, og en siste for å sende midlene til den endelige mottakeren.
+reviewed: false

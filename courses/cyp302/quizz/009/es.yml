@@ -6,3 +6,4 @@ wrong_answers:
   - La demostración matemática de seguridad
 explanation: |
   La prueba de seguridad en la criptografía moderna se centra en objetivos y suposiciones matemáticas, excluyendo aspectos como la interfaz de usuario, que no es relevante para la seguridad criptográfica.
+reviewed: false

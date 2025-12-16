@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_ALL
 explanation: |
   SIGHASH_ALL kết hợp với SIGHASH_ANYONECANPAY cho phép thêm đầu vào mà không thay đổi các đầu ra.
+reviewed: false

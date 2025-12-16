@@ -6,3 +6,4 @@ wrong_answers:
   - The number of signatures required across all inputs plus a base network fee
 explanation: |
   Bitcoin transaction fees are determined by the difference between total inputs and total outputs. When constructing a transaction, you select UTXOs as inputs and create outputs for recipients and change. Any leftover amount becomes the fee that incentivizes miners to include your transaction. The fee is not calculated by percentage, fixed rates, or signature counts - it's simply what remains unallocated in the transaction's value balance.
+reviewed: false

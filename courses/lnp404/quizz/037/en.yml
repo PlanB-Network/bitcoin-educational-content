@@ -6,3 +6,4 @@ wrong_answers:
   - Focus on opening additional channels with this peer to diversify routing paths and capture more network traffic
 explanation: |
   Peer Insights transforms channel management into evidence-based strategy by revealing actual performance data rather than theoretical metrics. When a channel shows zero forwarding events despite favorable conditions (high capacity, competitive fees), it indicates a fundamental routing inefficiency that won't resolve through waiting or increased investment. The analytics make this inefficiency obvious, signaling need for fee adjustment to attract traffic or channel closure to reallocate capital. The wrong answers incorrectly assume that capacity and competitive pricing alone guarantee success, ignoring the critical performance data that Peer Insights provides for optimization decisions.
+reviewed: false

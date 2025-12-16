@@ -6,3 +6,4 @@ wrong_answers:
   - A obrigação de mudar as chaves a cada comunicação
 explanation: |
   O problema da distribuição de chaves refere-se ao desafio de transmitir chaves de maneira segura, uma necessidade que se tornou crucial nas comunicações digitais onde uma troca física é impraticável.
+reviewed: false

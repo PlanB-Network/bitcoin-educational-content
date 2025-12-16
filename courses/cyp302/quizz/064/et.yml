@@ -6,3 +6,4 @@ wrong_answers:
   - Sõnumi teisendamise binaarkoodiks
 explanation: |
   Sõnumi autentimiskoodi (MAC) kasutatakse selleks, et tagada sõnumi muutmata jäämine ja kinnitada, et see tõepoolest pärineb eeldatavalt saatjalt.
+reviewed: false

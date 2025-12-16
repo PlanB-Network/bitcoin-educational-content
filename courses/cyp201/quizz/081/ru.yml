@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH несовместим с SegWit.
 explanation:
   P2WPKH, введенный с SegWit, перемещает подписи в отдельный раздел, называемый Witness, чтобы предотвратить изменчивость транзакций.
+reviewed: false

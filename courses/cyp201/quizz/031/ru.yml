@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_NONSTANDARD
 explanation: |
   SIGHASH_ANYONECANPAY модифицирует флаги sighash таким образом, чтобы они покрывали только один вход, оставляя остальные изменяемыми.
+reviewed: false

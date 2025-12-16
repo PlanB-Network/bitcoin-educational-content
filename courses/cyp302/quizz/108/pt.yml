@@ -6,3 +6,4 @@ wrong_answers:
   - Não permite a autenticação do remetente no momento da sessão.
 explanation: |
   Um esquema de criptografia autenticada não protege contra ataques como replay, reordenação e reflexão sem a adição de indicadores como identificadores e números de sequência.
+reviewed: false

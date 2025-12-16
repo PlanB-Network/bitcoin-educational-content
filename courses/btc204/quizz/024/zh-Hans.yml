@@ -6,3 +6,4 @@ wrong_answers:
   - 协作交易
 explanation: |
   对这种模式的解释是，我们正在处理批量支出。这种结构允许诸如交易平台之类的实体通过将其费用分组到单个交易中来节省费用。
+reviewed: false

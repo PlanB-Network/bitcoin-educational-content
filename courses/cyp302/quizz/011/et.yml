@@ -6,3 +6,4 @@ wrong_answers:
   - Andmete saatmine ainult optiliste kiudude kaudu
 explanation: |
   Juhtmeta ühendused, mis edastavad andmeid raadiolainete kaudu, muudavad pealtkuulamise ründajate jaoks lihtsamaks, kuna selleks ei ole vaja füüsilist juurdepääsu võrgule.
+reviewed: false

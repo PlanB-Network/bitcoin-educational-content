@@ -6,3 +6,4 @@ wrong_answers:
   - Để đảm bảo mỗi tin nhắn có một khóa duy nhất
 explanation: |
   Theo nguyên tắc Kerckhoff, an ninh của một hệ thống mật mã học nên chỉ dựa vào khóa bí mật, và không phải là sự bí mật của thuật toán nói chung.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 限制每个用户的交易数量。
 explanation:
   为了确认交易的不存在，从而避免双重支付，每个用户都需要了解所有过去的交易。
+reviewed: false

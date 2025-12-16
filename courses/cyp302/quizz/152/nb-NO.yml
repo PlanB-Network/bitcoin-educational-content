@@ -6,3 +6,4 @@ wrong_answers:
   - Den brukes til å beregne φ(N)
 explanation: |
   Den private nøkkelen d brukes til å dekryptere krypterte meldinger, ved å fullføre beregningen med modulus N.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Die Anforderung, einen öffentlichen Schlüssel zusätzlich zu einem privaten Schlüssel zu verwenden
 explanation: |
   RC4 weist signifikante Schwächen in der Erzeugung des Schlüsselstroms auf, die die Verschlüsselung Angriffen aussetzen, daher seine allmähliche Aufgabe in modernen Sicherheitsprotokollen.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   O transporte P2P V2 pode ser modificado com a opção v2transport= no arquivo de configuração de um nó Core.
+reviewed: false

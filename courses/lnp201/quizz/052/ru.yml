@@ -6,3 +6,4 @@ wrong_answers:
   - CoinSwap
 explanation: |
   Сервис Loop Out от Lightning Labs позволяет переводить средства из канала Lightning в блокчейн ончейн, тем самым оптимизируя возможность получения при извлечении биткоинов на основной цепи.
+reviewed: false

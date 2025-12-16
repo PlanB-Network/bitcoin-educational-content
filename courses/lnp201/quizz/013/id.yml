@@ -6,3 +6,4 @@ wrong_answers:
   - Bob secara otomatis menerima dana dalam saluran
 explanation: |
   Tanpa tanda tangan Bob pada transaksi penarikan, Alice tidak dapat memastikan pemulihan dana miliknya dalam kasus terjadi masalah, menimbulkan risiko kehilangan.
+reviewed: false

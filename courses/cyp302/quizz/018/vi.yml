@@ -6,3 +6,4 @@ wrong_answers:
   - Xác suất kết hợp của chúng bằng với xác suất cao nhất của hai sự kiện
 explanation: |
   Hai sự kiện được coi là độc lập nếu xác suất của một sự kiện không làm thay đổi xác suất của sự kiện kia, như việc rút thăm xổ số không ảnh hưởng đến thời tiết của ngày hôm sau.
+reviewed: false

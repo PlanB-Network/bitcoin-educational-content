@@ -6,3 +6,4 @@ wrong_answers:
   - Dzieląc klucz z każdej zaszyfrowanej litery i stosując modulo 27
 explanation: |
   W szyfrze przestawieniowym deszyfrowanie odbywa się poprzez odjęcie klucza od każdej zaszyfrowanej litery, a następnie zastosowanie modulo 26 w celu powrotu do oryginalnego tekstu. Modulo 26 pozwala na powrót do początku alfabetu po literze Z.
+reviewed: false

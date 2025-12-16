@@ -6,3 +6,4 @@ wrong_answers:
   - Mengklaim hanya setengah dari dana yang tersedia
 explanation: |
   Dalam kejadian kecurangan, Bob dapat menggunakan kunci pembatalan untuk mengambil kembali semua dana dari saluran, dengan demikian menghukum Alice atas upayanya.
+reviewed: false

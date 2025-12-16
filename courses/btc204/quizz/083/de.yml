@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Sobald die Teilnehmer die gesamte Transaktion unterschrieben haben, nachdem sie sichergestellt haben, dass alles korrekt ist, kann der Koordinator diese Transaktion nicht mehr ändern, einschließlich der Ausgänge, ohne sie zu invalidieren, weil die Unterschrift die gesamte Transaktion abdeckt.
+reviewed: false

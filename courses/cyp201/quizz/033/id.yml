@@ -6,4 +6,4 @@ wrong_answers:
   - Membatasi modifikasi hanya pada satu keluaran
 explanation: |
   SIGHASH_NONE hanya menutupi masukan, meninggalkan keluaran dapat dimodifikasi setelah penandatanganan.
-ditinjau: false
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Non consente di dividere il testo in blocchi di 128 bit
 explanation: |
   La modalità ECB non è raccomandata perché produce una cifratura deterministica, il che significa che blocchi identici di testo in chiaro produrranno blocchi identici di testo cifrato, che possono essere sfruttati per indovinare informazioni sul testo in chiaro.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - PRNG使用私钥，TRNG使用公钥。
 explanation: |
   PRNG是确定性的，这意味着它们可以从一个初始状态重现序列，而TRNG则不行。
+reviewed: false

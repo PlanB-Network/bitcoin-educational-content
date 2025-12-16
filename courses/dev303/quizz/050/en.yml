@@ -6,3 +6,4 @@ wrong_answers:
   - Stack overflow from deep recursion, prevented by limiting reference depth
 explanation: |
   When using RC<RefCell<T>>, the primary danger is creating reference cycles where data structures reference themselves directly or through chains. These cycles prevent reference counts from reaching zero, causing memory leaks since the data appears to always have active references. Weak references solve this by not contributing to the reference count used for memory management, breaking cycles while preserving connections. The other options are incorrect: RC<RefCell<T>> isn't thread-safe so data races aren't the main concern, RefCell specifically moves checks to runtime rather than preventing them at compile-time, and stack overflow isn't related to the reference counting mechanism.
+reviewed: false

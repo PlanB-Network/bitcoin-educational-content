@@ -6,3 +6,4 @@ wrong_answers:
   - Utvikle symmetriske krypteringsalgoritmer
 explanation: |
   Tallteori fokuserer på egenskapene til heltall og funksjonene som anvendes på heltall, ofte for anvendelser i kryptografi, spesielt i konteksten av offentlig nøkkelkryptografi.
+reviewed: false

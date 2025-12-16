@@ -6,3 +6,4 @@ wrong_answers:
   - 公開キーを使用してメッセージを復号します。
 explanation: |
   ハッシュ関数は、入力のサイズに関わらず、固定長のハッシュを生成します。
+reviewed: false

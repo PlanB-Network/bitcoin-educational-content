@@ -6,3 +6,4 @@ wrong_answers:
   - Syvyys 4
 explanation: |
   Syvyys 2: tta käytetään valuutan tunnistamiseen monivaluuttaisissa lompakoissa, kuten Bitcoin (indeksi 0') tai Litecoin (indeksi 2').
+reviewed: false

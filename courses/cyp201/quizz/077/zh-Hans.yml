@@ -6,3 +6,4 @@ wrong_answers:
   - 它们使多重签名与所有脚本兼容
 explanation: |
   描述符包含所有参与者的扩展公钥，这有助于多重签名配置的恢复和管理。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Recoverable errors require unwinding the stack while unrecoverable errors can be ignored by the calling code
 explanation: |
   Rust categorizes errors based on whether programs can reasonably recover from them. Recoverable errors represent expected failure conditions like missing files or network issues that programs can handle gracefully using Result types, allowing execution to continue with appropriate error handling. Unrecoverable errors indicate fundamental problems like memory safety violations or logic errors where the program cannot safely continue, triggering panics that terminate execution to prevent further corruption.
+reviewed: false

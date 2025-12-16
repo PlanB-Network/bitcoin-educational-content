@@ -6,3 +6,4 @@ wrong_answers:
   - XOR是加法的逆运算
 explanation: |
   XOR操作可以被视为带有模2的位加法，使得结果相同。
+reviewed: false

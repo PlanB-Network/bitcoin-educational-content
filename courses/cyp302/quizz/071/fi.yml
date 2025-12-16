@@ -6,3 +6,4 @@ wrong_answers:
   - Jakamalla avain jokaisesta salatusta kirjaimesta ja soveltamalla modulo 27
 explanation: |
   Siirtosalauksessa purkaminen suoritetaan vähentämällä avain jokaisesta salatusta kirjaimesta, sitten soveltamalla modulo 26 palataksesi alkuperäiseen tekstiin. Modulo 26 mahdollistaa paluun aakkosten alkuun kirjaimen Z jälkeen.
+reviewed: false

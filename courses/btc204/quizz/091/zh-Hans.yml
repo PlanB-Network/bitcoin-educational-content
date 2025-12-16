@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   避免在同一交易中合并已混币的UTXO和未混币的UTXO非常重要，但也要避免UTXO之间的相互混合，以避免共同输入所有权启发式（CIOH）。
+reviewed: false

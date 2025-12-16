@@ -6,3 +6,4 @@ wrong_answers:
   - "The receiving node must validate the connecting node's peer certificate"
 explanation: |
   The Bitcoin P2P handshake requires a bidirectional exchange where the connecting node sends a version message, the receiver replies with verack and its own version message, and the original sender responds with its verack. Only after this complete four-message exchange (version→verack+version→verack) can nodes begin active communication. DNS seeds are only used for initial peer discovery, not handshaking. Bitcoin doesn't use certificates, and chain validation occurs after the connection is established.
+reviewed: false

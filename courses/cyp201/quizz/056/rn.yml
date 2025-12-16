@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Umuzi
 explanation: |
   Bitcoin seed idahinduka ikoreshwa nk'urufunguzo mu gikorwa ca HMAC-SHA512 kugira ngo ubone urufunguzo rw'ibanga n'urufunguzo rwa chain code.
+reviewed: false

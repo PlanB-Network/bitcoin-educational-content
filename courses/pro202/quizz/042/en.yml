@@ -6,3 +6,4 @@ wrong_answers:
   - The difficulty would be reduced by a factor of 6 based on the time ratio
 explanation: |
   Bitcoin's difficulty adjustment has built-in limits that constrain changes to within a factor of four in either direction. Even though 6 weeks ÷ 2 weeks = 3, suggesting a 3x reduction, the protocol caps adjustments at 4x to prevent extreme volatility. This safety mechanism ensures network stability during major hash rate changes, like mining bans or equipment failures, by preventing overcorrection that could destabilize block timing.
+reviewed: false

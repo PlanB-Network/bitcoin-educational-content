@@ -6,3 +6,4 @@ wrong_answers:
   - Deberían poder adivinar el contenido del mensaje
 explanation: |
   En un esquema de cifrado simétrico bien diseñado, un atacante que intercepte un mensaje cifrado no debería ser capaz de deducir información relevante sobre el contenido del mensaje sin la llave de descifrado.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Função Beta de Dirichlet
 explanation: |
   A Função Phi de Euler determina o número de inteiros menores que N que são coprimos com N, um conceito central em teoremas de criptografia baseados em números primos.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   Một số nguyên được gọi là tố cùng nhau với số nguyên khác nếu ước số chung lớn nhất của chúng là 1, nghĩa là chúng không chia sẻ bất kỳ ước số chung nào khác.
+reviewed: false

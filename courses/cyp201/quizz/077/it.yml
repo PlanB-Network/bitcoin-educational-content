@@ -6,4 +6,4 @@ wrong_answers:
   - Rendono i multisig compatibili con tutti gli script
 explanation: |
   I descriptor includono le chiavi pubbliche estese di tutti i partecipanti, il che facilita il ripristino e la gestione delle configurazioni multisig.
-recensito: false
+reviewed: false

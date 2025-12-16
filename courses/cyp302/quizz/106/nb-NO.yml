@@ -6,3 +6,4 @@ wrong_answers:
   - Legge til en ekstra nøkkel i hver melding
 explanation: |
   Å legge til en unik identifikator for hver deltaker i den krypterte meldingen forhindrer refleksjonsangrep, ettersom det gjør det mulig å skille opprinnelsen til meldingene.
+reviewed: false

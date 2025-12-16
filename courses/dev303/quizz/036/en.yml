@@ -6,3 +6,4 @@ wrong_answers:
   - Restarts the current function execution from the beginning
 explanation: |
   When a panic occurs in Rust, the unwinding process walks back through the call stack to provide a detailed stack trace showing exactly where the panic occurred. This helps developers identify the source of the problem during debugging. The other options are incorrect: Rust doesn't immediately terminate without cleanup (that only happens when unwinding is disabled), panics cannot be converted to Result types as they represent unrecoverable errors, and Rust doesn't restart function execution when panics occur.
+reviewed: false

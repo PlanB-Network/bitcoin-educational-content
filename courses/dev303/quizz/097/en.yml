@@ -6,3 +6,4 @@ wrong_answers:
   - Developing asynchronous network communication layers with peer-to-peer discovery mechanisms and protocol version negotiation capabilities
 explanation: |
   The correct answer focuses on user experience design principles that make command-line tools intuitive and professional. The chapter emphasizes how visual enhancements (colors for different feedback states), readline functionality (command history and completion), and progress indicators create familiar experiences users expect from modern terminal applications. The wrong answers describe complex technical implementations that, while relevant to blockchain development, miss the fundamental UI/UX design philosophy that makes tools usable and maintainable in professional environments.
+reviewed: false

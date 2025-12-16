@@ -6,3 +6,4 @@ wrong_answers:
   - 燃烧证明
 explanation: >-
   矿工通过一个称为“工作证明”的过程验证交易并将它们包含在一个区块中。这涉及到解决一个加密难题。
+reviewed: false

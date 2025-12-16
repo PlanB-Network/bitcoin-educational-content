@@ -6,3 +6,4 @@ wrong_answers:
   - "The node's fee structure is optimally configured for maximum profitability, successfully filtering out low-value transactions while capturing premium routing revenue"
 explanation: |
   This scenario describes a classic systematic inefficiency where the node appears healthy in terms of total liquidity but fails to capture routing revenue. Lightning network pathfinding algorithms prioritize cost-effective routes, so when a node's available liquidity is concentrated in expensive channels, payments route around it entirely. The depleted low-fee channels indicate past routing activity, but their emptiness prevents future routing. This creates 'invisible' revenue loss because the operator sees adequate capacity but doesn't realize payments are avoiding their node due to poor fee rate distribution across channels.
+reviewed: false

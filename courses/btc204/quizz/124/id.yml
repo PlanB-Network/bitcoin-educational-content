@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Transportasi P2P V2 dapat dimodifikasi dengan opsi v2transport= dalam file konfigurasi node Core.
+reviewed: false

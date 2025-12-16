@@ -6,3 +6,4 @@ wrong_answers:
   - Määra korrutusühik
 explanation: |
   Pöördumatuid polünoome kasutatakse lõplikes väljades korrutamise struktureerimiseks, tagades, et iga element jääb välja piiresse.
+reviewed: false

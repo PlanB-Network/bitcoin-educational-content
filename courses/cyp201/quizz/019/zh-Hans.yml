@@ -6,3 +6,4 @@ wrong_answers:
   - 离散立方问题
 explanation: |
   椭圆曲线密码学的安全性基于这些曲线上解决离散对数问题的难度。
+reviewed: false

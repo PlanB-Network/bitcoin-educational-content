@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Maker meninggalkan bitcoin mereka tersedia untuk taker dan menerima biaya sebagai imbalan atas layanan mereka. Taker, sebaliknya, membayar untuk menggunakan bitcoin dari maker agar dapat melaksanakan transaksi coinjoin mereka sendiri.
+reviewed: false

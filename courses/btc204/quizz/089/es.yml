@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Los makers dejan sus bitcoins disponibles para los takers y reciben comisiones a cambio de su servicio. Los takers, a su vez, pagan para usar los bitcoins de los makers con el fin de llevar a cabo sus propias transacciones coinjoin.
+reviewed: false

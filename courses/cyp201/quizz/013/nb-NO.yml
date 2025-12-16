@@ -6,3 +6,4 @@ wrong_answers:
   - Opprette Bitcoin-adresser
 explanation: |
   PBKDF2 brukes til å utlede et frø fra en mnemonisk frase og en valgfri passfrase.
+reviewed: false

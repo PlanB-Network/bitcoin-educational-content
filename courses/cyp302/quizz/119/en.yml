@@ -6,3 +6,4 @@ wrong_answers:
   - It does not allow dividing the text into 128-bit blocks
 explanation: |
   ECB mode is not recommended because it produces deterministic encryption, meaning that identical blocks of plaintext will yield identical blocks of ciphertext, which can be exploited to guess information about the plaintext.
+reviewed: false

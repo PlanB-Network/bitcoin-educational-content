@@ -6,3 +6,4 @@ wrong_answers:
   - Transações entre diferentes blockchains
 explanation: |
   A Lightning Network possibilita transações rápidas e de baixo custo por meio de canais de pagamento fora da cadeia, o que difere das transações regulares na blockchain.
+reviewed: false

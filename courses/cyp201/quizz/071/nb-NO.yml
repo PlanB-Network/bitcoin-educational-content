@@ -6,3 +6,4 @@ wrong_answers:
   - Dybde 4
 explanation: |
   Dybde 2 brukes for å identifisere valutaen i flervaluta-lommebøker, slik som Bitcoin (indeks 0') eller Litecoin (indeks 2').
+reviewed: false

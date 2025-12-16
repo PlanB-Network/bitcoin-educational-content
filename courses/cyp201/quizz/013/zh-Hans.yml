@@ -6,3 +6,4 @@ wrong_answers:
   - 创建比特币地址
 explanation: |
   PBKDF2用于从助记词和一个可选的密码短语中派生出一个种子。
+reviewed: false

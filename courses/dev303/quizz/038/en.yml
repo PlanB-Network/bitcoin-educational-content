@@ -6,3 +6,4 @@ wrong_answers:
   - Curly braces {} to enclose parameters
 explanation: |
   Rust closures use pipe characters (|) to define parameters, which distinguishes them from regular functions that use parentheses. For example, a closure with no parameters is written as ||, while a closure with parameters looks like |x, y|. This unique syntax makes closures easily recognizable and differentiates them from function definitions. Parentheses are used for regular functions, while square brackets and curly braces serve other purposes in Rust syntax.
+reviewed: false

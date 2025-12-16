@@ -6,3 +6,4 @@ wrong_answers:
   - Heuristik transaksi eksternal.
 explanation: |
   Heuristik yang digunakan dalam analisis rantai dapat dikelompokkan menjadi tiga kategori; pola transaksi (atau model transaksi), heuristik transaksi internal, dan heuristik transaksi eksternal.
+reviewed: false

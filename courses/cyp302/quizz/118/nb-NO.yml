@@ -6,3 +6,4 @@ wrong_answers:
   - Den deler klarteksten inn i 128-bits blokker
 explanation: |
   Byte-substitusjonsoperasjonen (S-Box) i AES introduserer forvirring ved å erstatte hver byte med en annen verdi i henhold til en tabell, noe som gjør den krypterte teksten vanskeligere å analysere.
+reviewed: false

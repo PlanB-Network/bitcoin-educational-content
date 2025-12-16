@@ -6,3 +6,4 @@ wrong_answers:
   - Não funciona com mensagens acima de 256 bits
 explanation: |
   O método ECB (Electronic Code Book) é determinístico: blocos idênticos de dados são criptografados da mesma maneira, o que permite que padrões sejam detectados no texto criptografado.
+reviewed: false

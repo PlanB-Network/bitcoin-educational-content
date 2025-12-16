@@ -6,3 +6,4 @@ wrong_answers:
   - "LDK's peer-to-peer mesh networking protocol that allows direct device-to-device Lightning payments without internet"
 explanation: |
   LDK's modular architecture enables mobile applications to implement intermittent connectivity patterns by synchronizing with LSPs upon coming online, allowing users to receive payments and manage channels even when the mobile device was offline. This differs fundamentally from traditional Lightning daemons that require continuous operation. The wrong answers describe non-existent features - LDK doesn't have built-in offline payment processing, distributed backups, or mesh networking capabilities.
+reviewed: false

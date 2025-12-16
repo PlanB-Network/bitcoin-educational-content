@@ -6,3 +6,4 @@ wrong_answers:
   - 一个非对称密码
 explanation: |
   移位加密是单字母替换密码的一个例子，其中消息中的每个字母都按字母表中的固定数量的位置进行移动。
+reviewed: false

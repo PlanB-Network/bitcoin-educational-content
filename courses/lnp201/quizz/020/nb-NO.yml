@@ -6,3 +6,4 @@ wrong_answers:
   - Blokkere transaksjonen med en upassende tidsbegrensning
 explanation: |
   Den største risikoen er at en part kan forsøke å jukse ved å publisere en gammel forpliktelsestransaksjon, noe som kan tillate dem å kreve tilbake midler de ikke lenger har.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - It makes enums consume less memory than traditional structures with similar data
 explanation: |
   Rust enums can attach data directly to each variant, which eliminates the common programming error of maintaining separate variables for type indicators and their associated data. This design ensures that the data always matches the variant, preventing inconsistencies that could lead to runtime errors. Unlike other languages where you might have a separate enum for the type and variables for the data, Rust bundles everything together, making it impossible for the type and data to become mismatched.
+reviewed: false

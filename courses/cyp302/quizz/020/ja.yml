@@ -6,4 +6,4 @@ wrong_answers:
   - 余りなしで割り切れる数
 explanation: |
   モジュロ演算は、除算の余りを求めることを含みます。例えば、25 mod 4 は 1 となります。なぜなら、除算の余りが1だからです。
-  レビュー済み: false
+reviewed: false

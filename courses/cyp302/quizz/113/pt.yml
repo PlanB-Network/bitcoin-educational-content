@@ -6,3 +6,4 @@ wrong_answers:
   - Ele serve apenas como armazenamento temporário para dados até o final do processo
 explanation: |
   O array K é usado para transformar o array S no processo de agendamento de chaves, o que permite a geração de um fluxo de chaves pseudorandom para criptografar o texto simples.
+reviewed: false

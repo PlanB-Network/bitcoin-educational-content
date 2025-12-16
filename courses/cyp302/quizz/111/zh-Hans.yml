@@ -6,3 +6,4 @@ wrong_answers:
   - 一种其密钥流仅依赖于初始密钥的加密方式
 explanation: |
   异步流加密是一种加密方式，其中密钥流受到密钥和加密文本元素的影响。
+reviewed: false

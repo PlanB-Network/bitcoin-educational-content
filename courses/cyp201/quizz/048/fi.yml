@@ -6,3 +6,4 @@ wrong_answers:
   - Lyhyempiä lauseita ei ole standardoitu
 explanation: |
   Vaikka 24 sanan lause tarjoaa 256 bitin turvallisuuden, johdetut Bitcoin yksityisavaimet takaavat vain 128 bitin turvallisuuden, mikä tekee ylimääräisestä tarpeetonta.
+reviewed: false

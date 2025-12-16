@@ -6,3 +6,4 @@ wrong_answers:
   - 変数の初期値は変更されません
 explanation: |
   各ラウンドは、ワード、定数、および論理演算を使用して状態変数を変更し、情報を広げます。
+reviewed: false

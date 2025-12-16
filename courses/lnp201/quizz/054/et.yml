@@ -6,3 +6,4 @@ wrong_answers:
   - Suur on-chain saldo
 explanation: |
   Maksete vastuvõtmiseks peab müüjal olema sissetulev likviidsus, mis tähendab, et vastasküljel kanalis peavad olema vahendid saadaval, et nad saaksid makseid aktsepteerida.
+reviewed: false

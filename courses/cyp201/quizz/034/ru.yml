@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_ANYONECANPAY
 explanation: |
   SIGHASH_ALL является флагом sighash по умолчанию, охватывающим все входы и выходы транзакции, что предотвращает любые модификации.
+reviewed: false

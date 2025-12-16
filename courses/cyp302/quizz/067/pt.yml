@@ -6,3 +6,4 @@ wrong_answers:
   - Eles devem ser capazes de adivinhar o conteúdo da mensagem
 explanation: |
   Em um esquema de criptografia simétrica bem projetado, um atacante que interceptar uma mensagem criptografada não deve ser capaz de deduzir informações relevantes sobre o conteúdo da mensagem sem a chave de descriptografia.
+reviewed: false

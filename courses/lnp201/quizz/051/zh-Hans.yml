@@ -6,3 +6,4 @@ wrong_answers:
   - 与网络中每个其他节点的直接连接
 explanation:
   三角开放技术通过在几个参与者之间形成一个通道循环，允许每个节点实现平衡的流动性，包括进流和出流。
+reviewed: false

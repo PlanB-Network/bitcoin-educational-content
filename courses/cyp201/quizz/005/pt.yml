@@ -6,3 +6,4 @@ wrong_answers:
   - Cada hash é armazenada em um banco de dados
 explanation: |
   Operações como ShR e XOR tornam impossível retornar ao estado inicial, garantindo a irreversibilidade.
+reviewed: false

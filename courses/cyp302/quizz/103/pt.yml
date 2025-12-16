@@ -6,3 +6,4 @@ wrong_answers:
   - Porque criptografa apenas a mensagem sem uma tag
 explanation: |
   Um esquema de criptografia autenticada é projetado para detectar modificações do texto cifrado, o que torna a tag inválida em caso de tentativas de adulteração e garante resistência a ataques de texto cifrado escolhido.
+reviewed: false

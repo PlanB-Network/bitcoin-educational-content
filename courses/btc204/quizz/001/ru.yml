@@ -6,3 +6,4 @@ wrong_answers:
   - Алгоритм шифрования для Bitcoin.
 explanation: |
   UTXO - это непотраченный выход транзакции, так что это по сути кусочек биткоина.
+reviewed: false

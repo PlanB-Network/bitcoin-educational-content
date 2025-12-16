@@ -6,3 +6,4 @@ wrong_answers:
   - Rust normally requires explicit memory management, while RefCell handles it automatically
 explanation: |
   RefCell's key innovation is moving borrowing rule enforcement from compile time to runtime. Normal Rust references are checked by the compiler during compilation to ensure safety, but RefCell performs these same checks while the program is running. This allows RefCell to provide interior mutability in situations where the compiler's static analysis is too conservative, but comes with the trade-off of potential runtime panics if borrowing rules are violated. The other options incorrectly describe Rust's fundamental safety mechanisms or RefCell's actual behavior.
+reviewed: false

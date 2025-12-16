@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_ALL
 explanation: |
   SIGHASH_ALL combinado com SIGHASH_ANYONECANPAY permite adicionar entradas sem modificar as saídas.
+reviewed: false

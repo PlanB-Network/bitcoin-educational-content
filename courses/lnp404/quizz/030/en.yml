@@ -6,3 +6,4 @@ wrong_answers:
   - Implementing off-chain agreements that delay on-chain settlement until multiple channels are ready
 explanation: |
   Batch opens reduce costs by consolidating multiple channel creations into one transaction, sharing the overhead of inputs and signatures across all channels. This eliminates the need for separate transactions with their individual overhead bytes. The wrong answers describe non-existent mechanisms: channels don't share private keys, there's no special compression format for batching, and the process still requires immediate on-chain settlement for all channels simultaneously.
+reviewed: false

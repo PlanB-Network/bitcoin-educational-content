@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_NONSTANDARD
 explanation: |
   SIGHASH_ANYONECANPAY modifioi Sighash-lippuja siten, että ne kattavat vain yhden syötteen samalla kun loput jätetään muokattaviksi.
+reviewed: false

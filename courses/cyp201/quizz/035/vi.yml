@@ -6,3 +6,4 @@ wrong_answers:
   - BIP141
 explanation: |
   BIP32 định nghĩa hoạt động của ví HD, cho phép việc phái sinh phân cấp các khóa riêng từ một hạt giống.
+reviewed: false

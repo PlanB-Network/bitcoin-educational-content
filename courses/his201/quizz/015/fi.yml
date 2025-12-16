@@ -6,3 +6,4 @@ wrong_answers:
   - Keittää valtameret
 explanation: |
   Hashcash vaati todistuksen työstä jokaiselle vastaanotetulle sähköpostille, mikä oli tarkoitus rajoittaa roskapostia.
+reviewed: false

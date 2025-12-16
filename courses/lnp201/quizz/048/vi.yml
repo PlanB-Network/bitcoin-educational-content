@@ -6,3 +6,4 @@ wrong_answers:
   - Quỹ được ghi có trực tiếp mà không cần thêm bảo mật
 explanation: |
   Keysend cho phép người gửi tạo ra một bí mật được nhúng vào trong các HTLCs, cho phép người nhận mở khóa quỹ mà không cần phải phát hành một hóa đơn.
+reviewed: false

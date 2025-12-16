@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_ALL
 explanation: |
   SIGHASH_ALL koos SIGHASH_ANYONECANPAY-ga võimaldab sisendeid lisada ilma väljundeid muutmata.
+reviewed: false

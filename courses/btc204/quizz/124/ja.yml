@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   P2P V2トランスポートは、Coreノードの設定ファイルでv2transport=オプションを使用して変更できます。
 
-  レビュー済み: false
+reviewed: false

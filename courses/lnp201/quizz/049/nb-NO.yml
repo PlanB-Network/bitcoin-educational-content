@@ -6,3 +6,4 @@ wrong_answers:
   - Åpne en ny Lightning-kanal
 explanation: |
   En Lightning-faktura er en betalingsforespørsel, overført av mottakernoden til senderenoden for å initiere en betaling på Lightning-nettverket.
+reviewed: false

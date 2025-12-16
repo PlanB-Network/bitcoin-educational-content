@@ -6,3 +6,4 @@ wrong_answers:
   - Frases mais curtas não são padronizadas
 explanation: |
   Embora uma frase de 24 palavras ofereça 256 bits de segurança, as chaves privadas Bitcoin derivadas garantem apenas 128 bits de segurança, tornando o excesso desnecessário.
+reviewed: false

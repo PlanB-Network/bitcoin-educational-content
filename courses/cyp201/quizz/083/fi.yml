@@ -6,3 +6,4 @@ wrong_answers:
   - P2TR
 explanation: |
   P2PKH-osoitteet, jotka on koodattu base58check-muodossa, ovat peräisin Legacy-standardista ja alkavat numerolla `1`.
+reviewed: false

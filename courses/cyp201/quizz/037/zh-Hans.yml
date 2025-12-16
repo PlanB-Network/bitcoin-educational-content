@@ -6,3 +6,4 @@ wrong_answers:
   - 它们使用未压缩的公钥
 explanation: |
   JBOK钱包强制用户单独备份每个私钥，这使得管理变得复杂。
+reviewed: false

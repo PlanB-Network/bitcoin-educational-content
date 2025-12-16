@@ -7,3 +7,4 @@ wrong_answers:
 explanation: |
   SMS anses ikke som den beste metoden for 2FA fordi den kun gir
   bevis på besittelse av et telefonnummer, ikke bevis på identitet.
+reviewed: false

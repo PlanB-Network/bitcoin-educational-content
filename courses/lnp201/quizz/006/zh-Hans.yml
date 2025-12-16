@@ -6,3 +6,4 @@ wrong_answers:
   - 将一定数量的比特币分成多个部分
 explanation: |
   UTXO，或称为“未花费交易输出”，是指一个未花费的交易输出，代表持有者可以使用的一定数量的比特币。
+reviewed: false

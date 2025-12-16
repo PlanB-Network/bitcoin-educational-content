@@ -6,3 +6,4 @@ wrong_answers:
   - Dijital imza hesaplamalarını basitleştirin
 explanation: |
   Tanımlayıcılar, türetme yolu ve kullanılan anahtarlar da dahil olmak üzere belirli bir komut dosyasını izlemek için gerekli tüm bilgileri kapsüller, ancak kurtarma ifadesini kapsüllemez.
+reviewed: false

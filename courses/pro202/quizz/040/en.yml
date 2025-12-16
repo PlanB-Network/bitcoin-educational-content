@@ -6,3 +6,4 @@ wrong_answers:
   - Changing Coinbase data reduces the computational difficulty by allowing miners to bypass the standard proof-of-work requirements
 explanation: |
   Modern ASICs can exhaust the 4-byte nonce space (2^32 possibilities) extremely quickly, requiring additional search space. By modifying data in the Coinbase transaction, miners change the transaction's hash, which alters the Merkle root in the block header, effectively creating billions of additional nonce-like values to try. This technique, called 'extra-nonce,' is essential for modern mining operations where hardware far exceeds the original nonce field's capacity.
+reviewed: false

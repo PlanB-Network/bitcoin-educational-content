@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin-adresser ville være inkompatible med nettverket
 explanation: |
   En dårlig utformet PRNG kan produsere forutsigbare sekvenser, noe som gjør nøklene mer sårbare for angrep.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Mereka dapat meminjam dana dari sisi peserta lain jika diperlukan.
 explanation: |
   Setiap peserta dibatasi oleh jumlah satoshi yang mereka pegang di saluran untuk transaksi mereka, memastikan bahwa dana selalu tercakup.
+reviewed: false

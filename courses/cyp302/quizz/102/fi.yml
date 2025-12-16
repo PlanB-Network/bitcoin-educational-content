@@ -6,3 +6,4 @@ wrong_answers:
   - Luo tunniste, sitten käytä julkista avainta sen salaamiseen
 explanation: |
   Turvallisuuden varmistamiseksi todennetussa salauksessa on ensin salattava viesti ja sen jälkeen luotava tunniste salattuun tekstiin. Muut järjestykset ovat potentiaalisesti haavoittuvia.
+reviewed: false

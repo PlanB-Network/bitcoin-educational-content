@@ -6,3 +6,4 @@ wrong_answers:
   - It automatically panics on certain error types, making it unsuitable for production library code
 explanation: |
   The anyhow library's main drawback for library development is that it essentially flattens all errors into string representations, losing the structured error information that library consumers need to make programmatic decisions. While anyhow excels at simplifying error handling for end-user applications where errors are primarily displayed, libraries need to provide specific error types that allow consumers to distinguish between different failure modes (like invalid input vs. runtime errors) and respond appropriately. The other options are incorrect: anyhow works fine with both Result and Option types, actually reduces verbosity through automatic conversion, and doesn't cause panics.
+reviewed: false

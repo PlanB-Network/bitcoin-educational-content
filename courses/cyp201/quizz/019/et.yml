@@ -6,3 +6,4 @@ wrong_answers:
   - Diskreetne kuupprobleem
 explanation: |
   Elliptilise kõvera krüptograafia turvalisus põhineb nende kõverate diskreetse logaritmiprobleemi lahendamise raskusel.
+reviewed: false

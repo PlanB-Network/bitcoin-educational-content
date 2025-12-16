@@ -6,3 +6,4 @@ wrong_answers:
   - OP_NOP operační kódy
 explanation: |
   Tento efektivní systém upozornění mu umožnil, s použitím soukromého klíče, varovat uzly sítě v případě technického problému a pozastavit některé příkazy API.
+reviewed: false

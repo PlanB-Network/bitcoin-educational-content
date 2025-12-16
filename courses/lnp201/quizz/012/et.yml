@@ -6,3 +6,4 @@ wrong_answers:
   - Kohe, kui on loodud 2/2 multisignatuuriga aadress
 explanation: |
   Kanalit peetakse avatuks, kui deposiidi tehing on lisatud Bitcoin'i plokki ja on saavutanud teatud arvu kinnitusi.
+reviewed: false

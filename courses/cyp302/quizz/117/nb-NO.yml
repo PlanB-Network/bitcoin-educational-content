@@ -6,3 +6,4 @@ wrong_answers:
   - I hvert stadium av XOR-operasjonen
 explanation: |
   Galois Fields brukes i byte-substitusjon for å beregne den multiplikative inversen og i MixColumns-operasjonen for å utføre multiplikasjoner modulo et irreduktibelt polynom.
+reviewed: false

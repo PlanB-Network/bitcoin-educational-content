@@ -6,3 +6,4 @@ wrong_answers:
   - O número que divide sem resto
 explanation: |
   A operação de módulo envolve determinar o resto de uma divisão, por exemplo, 25 mod 4 é igual a 1 porque o resto da divisão é 1.
+reviewed: false

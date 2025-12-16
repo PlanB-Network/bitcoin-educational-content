@@ -6,3 +6,4 @@ wrong_answers:
   - Mobile app stores prohibit non-custodial financial applications, forcing developers to implement custodial solutions to achieve app store approval
 explanation: |
   The original Breez app demonstrated that mobile ecosystems don't facilitate inter-app communication, preventing specialized applications from leveraging shared Lightning infrastructure. This architectural limitation forced all Lightning functionality into monolithic applications. The other options are incorrect: mobile devices can run Lightning nodes (as Breez proved), background restrictions are manageable with proper architecture, and app stores generally allow non-custodial financial apps.
+reviewed: false

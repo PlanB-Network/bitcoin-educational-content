@@ -6,3 +6,4 @@ wrong_answers:
   - Ryhmä ilman neutraalia alkiota
 explanation: |
   Abelin ryhmä on ryhmä, jossa alkioiden järjestyksellä operaation suorittamisessa ei ole vaikutusta lopputulokseen, mikä tarkoittaa, että se noudattaa vaihdannaisuutta.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Meldingen vil bli umulig å dekryptere
 explanation: |
   I et forenklet RSA vil kryptering av en melding flere ganger alltid produsere samme resultat, noe som gjør krypteringen sårbar for angrep.
+reviewed: false

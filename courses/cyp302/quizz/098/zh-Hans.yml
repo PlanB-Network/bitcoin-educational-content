@@ -6,3 +6,4 @@ wrong_answers:
   - 通过自动阻止可疑消息
 explanation: |
   MAC通过一个共享的秘密密钥生成的标签，使接收者能够验证消息没有被修改，从而限制了操纵的可能性。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH는 SegWit와 호환되지 않습니다.
 explanation: |
   SegWit와 함께 도입된 P2WPKH는 서명을 증인이라는 별도의 섹션으로 이동하여 트랜잭션의 가변성을 방지합니다.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 区块链
 explanation:
   最初的货币政策对应于一个恒定的发行量（X BTC/区块），如白皮书的第一版和中本聪与Ray Dillinger的[交流](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)所示。
+reviewed: false

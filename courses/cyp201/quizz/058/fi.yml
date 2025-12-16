@@ -6,3 +6,4 @@ wrong_answers:
   - AES-256
 explanation: |
   Siemen arvo luodaan käyttäen PBKDF2-funktiota HMAC-SHA512: n kanssa ja 2048 iteraatiota, mnemonic-lausekkeesta ja salasanasta.
+reviewed: false

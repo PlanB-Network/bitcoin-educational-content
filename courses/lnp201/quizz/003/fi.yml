@@ -6,3 +6,4 @@ wrong_answers:
   - He voivat tarvittaessa lainata varoja toisen osallistujan puolelta.
 explanation: |
   Kukin osallistuja on rajoitettu kanavassa pitämiensä satoshien määrään transaktioitaan varten, varmistaen, että varat ovat aina katettu.
+reviewed: false

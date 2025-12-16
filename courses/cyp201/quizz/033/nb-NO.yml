@@ -6,3 +6,4 @@ wrong_answers:
   - Å begrense endringer til kun én utgang
 explanation: |
   SIGHASH_NONE dekker kun inngangene, noe som etterlater utgangene endringsbare etter signering.
+reviewed: false

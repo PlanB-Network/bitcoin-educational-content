@@ -6,3 +6,4 @@ wrong_answers:
   - Fordi strømkrypterer alltid er tregere
 explanation: |
   Strømkrypterer er designet for å kryptere data kontinuerlig (bit for bit eller byte for byte), noe som kompliserer bruken av dem i blokkmodus som krever behandling i faste størrelsesblokker.
+reviewed: false

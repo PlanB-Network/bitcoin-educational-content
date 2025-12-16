@@ -6,3 +6,4 @@ wrong_answers:
   - Tamanho excessivo das assinaturas
 explanation: |
   O SegWit corrigiu a maleabilidade das assinaturas ECDSA, possibilitando usos como a Lightning Network.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Second preimage resistance
 explanation: |
   Preimage resistance zajišťuje, že je prakticky nemožné najít původní zprávu z jejího hash.
+reviewed: false

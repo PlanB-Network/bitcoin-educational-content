@@ -6,3 +6,4 @@ wrong_answers:
   - Đảm bảo tính bảo mật của giao dịch
 explanation: |
   Hạt giống là một chuỗi 512-bit được suy ra từ cụm từ ghi nhớ và cụm từ mật khẩu. Nó tạo thành cơ sở cho tất cả các khóa trong ví.
+reviewed: false

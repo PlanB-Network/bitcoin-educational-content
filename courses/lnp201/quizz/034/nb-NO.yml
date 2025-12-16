@@ -6,3 +6,4 @@ wrong_answers:
   - Den kryptografiske signaturen til hver node på stien
 explanation: |
   Den sendende noden må kjenne nettverkstopologien for å beregne ruten til mottakeren, noe som gjør det mulig å velge den beste stien.
+reviewed: false

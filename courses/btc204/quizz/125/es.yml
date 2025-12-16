@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Coinswap utiliza contratos inteligentes para permitir una transferencia de la propiedad de bitcoin entre dos usuarios, sin la necesidad de confianza y sin que esta transferencia sea explícitamente visible en la blockchain.
+reviewed: false

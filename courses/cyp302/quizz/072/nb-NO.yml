@@ -6,3 +6,4 @@ wrong_answers:
   - Fordi nøkkelen varierer med hver kryptering
 explanation: |
   Skiftkryptering anses som symmetrisk kryptering fordi den bruker den samme nøkkelen til å kryptere og dekryptere en melding, og dermed sikrer konfidensialitet mellom partene som deler denne nøkkelen.
+reviewed: false

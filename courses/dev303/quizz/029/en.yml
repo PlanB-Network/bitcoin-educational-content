@@ -6,3 +6,4 @@ wrong_answers:
   - Pass(T) for successful operations and Panic(E) for failures
 explanation: |
   The Result enum in Rust has exactly two variants: Ok(T) which contains a successful value of type T, and Err(E) which contains an error of type E. This design forces developers to explicitly handle both success and failure cases. The other options are incorrect - Success/Failure are not Result variants, Some/None belong to the Option enum for handling null values, and Pass/Panic are not standard Rust enum variants for error handling.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 中央の32バイトのSHA256ハッシュ
 explanation: |
   HMAC-SHA512の出力の最後の32バイトが、子キーのチェーンコードとして機能します。
+reviewed: false

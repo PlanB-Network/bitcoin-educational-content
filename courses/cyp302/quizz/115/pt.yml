@@ -6,3 +6,4 @@ wrong_answers:
   - Informações sensíveis são embaralhadas em cada bloco do texto cifrado
 explanation: |
   Difusão significa que uma pequena mudança no texto original resulta em uma mudança significativa no texto cifrado, tornando difícil para um atacante deduzir o texto original.
+reviewed: false

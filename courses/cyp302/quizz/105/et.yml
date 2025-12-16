@@ -6,3 +6,4 @@ wrong_answers:
   - Krüpteerides sõnumeid erineva algoritmiga
 explanation: |
   Järjekorranumbrid tagavad, et sõnumid võetakse vastu õiges järjekorras ja hoiavad ära nende ümberjärjestamise.
+reviewed: false

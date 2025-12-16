@@ -6,3 +6,4 @@ wrong_answers:
   - PBKDF2
 explanation: |
   Схема подписи Шнорра была введена в ноябре 2021 года с обновлением Taproot.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Transaksi antar blockchain yang berbeda
 explanation: |
   Jaringan Lightning memungkinkan transaksi cepat dan biaya rendah melalui saluran pembayaran off-chain, yang berbeda dari transaksi reguler di blockchain.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Applications sacrifice real-time payment processing capabilities in exchange for better security through cloud-based validation of all Lightning transactions
 explanation: |
   The Breez SDK's architecture represents a carefully considered privacy-versus-usability trade-off. While Greenlight can observe channel states and routing information (reducing privacy), users maintain complete control over their private keys, which never leave their devices. This ensures funds cannot be accessed without user authorization, preserving the core non-custodial principle. The wrong answers incorrectly suggest fund custody, feature limitations, or processing delays - none of which are actual trade-offs in the SDK's design.
+reviewed: false

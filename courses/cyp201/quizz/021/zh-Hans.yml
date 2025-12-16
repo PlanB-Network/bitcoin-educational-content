@@ -6,3 +6,4 @@ wrong_answers:
   - 计算时间很长
 explanation: |
   椭圆曲线上的标量乘法是一种单向函数，这使得从公钥无法检索私钥。
+reviewed: false

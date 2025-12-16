@@ -6,3 +6,4 @@ wrong_answers:
   - Se jakaa selkotekstin 128-bittisiin lohkoihin
 explanation: |
   Tavun korvausoperaatio (S-Box) AES: ssä tuo sekaannusta korvaamalla jokaisen tavun eri arvolla taulukon mukaan, mikä tekee salatusta tekstistä vaikeammin analysoitavaa.
+reviewed: false

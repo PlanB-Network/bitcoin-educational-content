@@ -6,3 +6,4 @@ wrong_answers:
   - 它加密消息
 explanation: |
   在对称加密方案中，密钥生成算法产生一个私钥，然后将使用该私钥来加密和解密消息。
+reviewed: false

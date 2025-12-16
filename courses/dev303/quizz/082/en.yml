@@ -6,3 +6,4 @@ wrong_answers:
   - It provides a testing framework for validating the correctness of generated bindings across multiple platforms
 explanation: |
   The UDL file serves as a contract or specification between the Rust implementation and the generated language bindings. It doesn't contain Rust code itself, nor does it handle runtime operations or testing. Instead, it declaratively defines which functions, types, and interfaces from the Rust library should be made available to other languages, specifying how they should be mapped and presented in the target language's native interface.
+reviewed: false

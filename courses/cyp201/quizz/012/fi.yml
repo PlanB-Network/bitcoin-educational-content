@@ -6,3 +6,4 @@ wrong_answers:
   - 1024 tavua
 explanation: |
   SHA512 käyttää laskelmissaan 128 tavun lohkoja, mikä vastaa 1024 bittiä.
+reviewed: false

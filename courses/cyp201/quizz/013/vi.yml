@@ -6,3 +6,4 @@ wrong_answers:
   - Tạo địa chỉ Bitcoin
 explanation: |
   PBKDF2 được sử dụng để tạo ra một hạt giống từ một cụm từ ghi nhớ và một cụm từ mật khẩu tùy chọn.
+reviewed: false

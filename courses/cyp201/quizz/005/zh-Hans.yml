@@ -6,3 +6,4 @@ wrong_answers:
   - 每个哈希都存储在数据库中
 explanation: |
   诸如ShR和XOR这样的操作使得返回到初始状态变得不可能，从而确保了不可逆性。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Kui muutuva pikkusega string, mis on tulemus krüpteerimisprotsessist
 explanation: |
   Juhuslik string on määratletud kui ühtlane valik kõikide võimalike sama pikkusega stringide seast.
+reviewed: false

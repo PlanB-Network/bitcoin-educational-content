@@ -6,3 +6,4 @@ wrong_answers:
   - -1
 explanation: |
   При использовании операции XOR, 0 XOR 1 дает 1, потому что биты различаются.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 安全性的数学证明
 explanation:
   现代密码学中的安全证明关注于目标和数学假设，排除了像用户界面这样与加密安全无关的方面。
+reviewed: false

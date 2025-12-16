@@ -6,3 +6,4 @@ wrong_answers:
   - 密钥长度对Salsa20没有影响。
 explanation:
   在对称加密方案Salsa20中，密钥长度（128或256位）影响算法中的轮数，但不改变算法本身的核心。
+reviewed: false

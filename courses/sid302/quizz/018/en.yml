@@ -6,3 +6,4 @@ wrong_answers:
   - Schnorr Signatures and Taproot Scripts
 explanation: |
   Pedersen Commitments and Range Proofs are the specific cryptographic primitives that enable Liquid's Confidential Transactions to hide amounts while still allowing mathematical verification. Pedersen Commitments cryptographically bind to values without revealing them, while Range Proofs ensure all amounts are positive integers, preventing users from creating money through negative values. The other options are legitimate Bitcoin cryptographic tools but don't provide the blinding capabilities needed for confidential transactions where amounts remain hidden yet verifiable.
+reviewed: false

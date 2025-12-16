@@ -6,3 +6,4 @@ wrong_answers:
   - 为链的值添加均匀分布
 explanation: |
   种子是一个较短的字符串，被扩展算法用作起点，以生成更长的伪随机链。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - ShR on looginen operaatio, RotR on aritmeettinen
 explanation: |
   ShR siirtää bittejä oikealle lisäämällä nollia, kun taas RotR suorittaa bittien kiertävän kierron.
+reviewed: false

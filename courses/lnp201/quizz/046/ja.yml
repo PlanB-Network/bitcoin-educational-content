@@ -6,4 +6,4 @@ wrong_answers:
   - それがオンチェーントランザクションであることを示しています
 explanation: |
   接頭辞「lnbc」は、その請求書がBitcoinネットワーク上のLightningトランザクションのためのものであり、他のネットワーク上のものではないことを示しています。
-  レビュー済み: false
+reviewed: false

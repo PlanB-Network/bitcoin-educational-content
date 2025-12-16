@@ -6,3 +6,4 @@ wrong_answers:
   - Antall transaksjoner en kanal kan støtte per dag
 explanation: |
   Kapasiteten til kanalen tilsvarer de totale midlene til de to deltakerne og forblir fast for å bestemme de mulige utvekslingene.
+reviewed: false

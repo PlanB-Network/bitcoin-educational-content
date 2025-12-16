@@ -6,3 +6,4 @@ wrong_answers:
   - n^(p+2) mod p
 explanation: |
   Fermat's Little Theorem states that n^(p-1) ≡ 1 (mod p) for any non-zero element n in a prime field. To find the multiplicative inverse, we need a value that when multiplied by n gives 1. Since n^(p-1) ≡ 1, we can rewrite this as n · n^(p-2) ≡ 1, proving that n^(p-2) is the multiplicative inverse of n. The other options are incorrect: n^(p-1) equals 1 by Fermat's theorem, while n^(p+1) and n^(p+2) would give values equivalent to n^2 and n^3 respectively when reduced modulo p.
+reviewed: false

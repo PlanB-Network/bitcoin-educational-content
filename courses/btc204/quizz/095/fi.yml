@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Tuleva anonset osoittaa ryhmän koon, jonka seassa tutkittu UTXO piiloutuu syklin tulosteessa, tietäen UTXO: n syötteessä, eli erottamattomien kolikoiden määrän tässä ryhmässä.
+reviewed: false

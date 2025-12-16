@@ -6,4 +6,4 @@ wrong_answers:
   - 電子マネーを作成する方法
 explanation: |
   イギリスの暗号学者たちは、GCHQで働きながら、DiffieとHellmanのものと類似したアイデアを独立して開発しましたが、これらの進歩は1997年に公開されるまで機密のままでした。
-  レビュー済み: false
+reviewed: false

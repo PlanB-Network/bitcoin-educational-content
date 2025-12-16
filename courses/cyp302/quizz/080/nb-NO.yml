@@ -6,3 +6,4 @@ wrong_answers:
   - En kryptering som segmenterer meldingen i datablokker
 explanation: |
   En stream cipher er en symmetrisk kryptering der en strøm av nøkler med samme lengde som meldingen kombineres med sistnevnte for å produsere den krypterte teksten.
+reviewed: false

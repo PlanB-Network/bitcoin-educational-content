@@ -6,4 +6,4 @@ wrong_answers:
   - チャネルが一日にサポートできる取引の数
 explanation: |
   チャネルの容量は二人の参加者の総資金に相当し、可能な交換を決定するために固定されます。
-  レビュー済み: false
+reviewed: false

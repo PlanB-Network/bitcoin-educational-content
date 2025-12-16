@@ -6,3 +6,4 @@ wrong_answers:
   - Que se trata de uma transação on-chain
 explanation: |
   O prefixo lnbc indica que a fatura é para uma transação Lightning na rede Bitcoin, e não em outra rede.
+reviewed: false

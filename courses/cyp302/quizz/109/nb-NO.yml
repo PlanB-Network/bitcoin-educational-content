@@ -6,3 +6,4 @@ wrong_answers:
   - Nøkkelspoofingangrep
 explanation: |
   Et sekvensnummer i hver melding forhindrer replay- og omorganiseringsangrep, ettersom det tillater verifisering av rekkefølgen og unikheten til meldingene.
+reviewed: false

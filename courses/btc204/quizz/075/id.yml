@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Tujuan dari transaksi coinjoin adalah untuk memutus riwayat sebuah koin. Teknik ini tidak menyediakan anonimitas permanen dan juga tidak secara definitif menghalangi pelacakan bitcoin, bertentangan dengan apa yang mungkin dipikirkan orang. Coinjoin hanya bertujuan untuk memutus riwayat pada titik di mana transaksi coinjoin dilakukan.
+reviewed: false

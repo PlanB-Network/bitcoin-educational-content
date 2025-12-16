@@ -6,3 +6,4 @@ wrong_answers:
   - 标准RC4中的S没有固定长度
 explanation:
   在标准RC4中，S数组包含256字节，这大大增加了计算的复杂性，并与仅有8字节的简化版本相比，增强了安全性。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Et heltall som er større enn det andre
 explanation: |
   Et heltall er relativt primt med et annet hvis deres største felles divisor er 1, noe som betyr at de ikke deler noen andre felles faktorer.
+reviewed: false

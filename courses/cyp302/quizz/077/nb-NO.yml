@@ -6,3 +6,4 @@ wrong_answers:
   - Å garantere at hver melding har en unik nøkkel
 explanation: |
   Ifølge Kerckhoffs prinsipp, bør sikkerheten til et kryptografisk system utelukkende stole på den hemmelige nøkkelen, og ikke på hemmeligholdelsen av algoritmen selv.
+reviewed: false

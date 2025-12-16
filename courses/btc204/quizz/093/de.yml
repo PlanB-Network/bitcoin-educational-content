@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Das Ziel von Tx0 ist es, die UTXOs für den Coinjoin vorzubereiten und zu vereinheitlichen, indem sie in Einheiten aufgeteilt werden, die dem Betrag des ausgewählten Pools entsprechen, um die Homogenität des Mischens zu gewährleisten.
+reviewed: false

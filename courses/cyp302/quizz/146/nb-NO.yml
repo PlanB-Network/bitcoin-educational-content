@@ -6,3 +6,4 @@ wrong_answers:
   - a må være et primtall
 explanation: |
   Et heltall a har en invers modulo N hvis og bare hvis de er relativt primiske, noe som betyr at deres største felles divisor er 1.
+reviewed: false

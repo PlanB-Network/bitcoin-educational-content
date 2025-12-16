@@ -6,3 +6,4 @@ wrong_answers:
   - 使用安全的电子邮件地址，但避免使用密码管理器和二次身份验证（2FA）
 explanation: |
   为了获得最佳安全性，推荐使用安全的电子邮件地址、安全的密码管理器，并采用YubiKeys进行二次身份验证（2FA）。还建议购买两个YubiKeys，以防丢失或被盗。
+reviewed: false

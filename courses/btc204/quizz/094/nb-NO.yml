@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Det frarådes å slå sammen doxxiske UTXOer fordi det tillater en forbindelse å bli laget mellom de forskjellige oppføringene til brukeren i Whirlpool.
+reviewed: false

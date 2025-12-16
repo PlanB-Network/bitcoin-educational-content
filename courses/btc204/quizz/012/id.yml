@@ -6,3 +6,4 @@ wrong_answers:
   - Dengan membatasi jumlah transaksi per pengguna.
 explanation: |
   Untuk mengonfirmasi ketiadaan transaksi, dan dengan demikian menghindari pengeluaran ganda, diperlukan agar setiap pengguna mengetahui semua transaksi sebelumnya.
+reviewed: false

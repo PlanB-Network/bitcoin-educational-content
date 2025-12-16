@@ -6,3 +6,4 @@ wrong_answers:
   - Prosessin tulee sisältää vanhemman yksityinen avain
 explanation: |
   Lapsen julkinen avain voidaan johtaa vanhemman julkisesta avaimesta vain, jos se on normaali, ei vahvistettu.
+reviewed: false

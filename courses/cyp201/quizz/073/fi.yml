@@ -6,3 +6,4 @@ wrong_answers:
   - /2/
 explanation: |
   Ulkoinen ketju tunnistetaan indeksillä /0/ johdospolun syvyydessä 4.
+reviewed: false

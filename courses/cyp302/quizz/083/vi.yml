@@ -6,3 +6,4 @@ wrong_answers:
   - Chúng không cần cập nhật khóa
 explanation: |
   Mã hóa luồng giả ngẫu nhiên thực tế hơn vì chúng cho phép một khóa ngắn được mở rộng thành một dòng khóa dài hơn, tránh được nhu cầu phải lưu trữ một khóa dài bằng chính thông điệp.
+reviewed: false

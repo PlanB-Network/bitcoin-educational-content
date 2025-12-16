@@ -6,3 +6,4 @@ wrong_answers:
   - Ele bloqueia o uso da chave de revogação
 explanation: |
   O timelock impõe um atraso durante o qual o trapaceiro não pode recuperar seus fundos, dando assim à outra parte a oportunidade de responder.
+reviewed: false

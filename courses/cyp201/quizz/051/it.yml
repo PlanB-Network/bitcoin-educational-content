@@ -6,4 +6,4 @@ wrong_answers:
   - Il PIN genera indirizzi Bitcoin
 explanation: |
   A differenza del PIN code, la passphrase è direttamente coinvolta nel processo di derivazione delle chiavi del wallet.
-recensito: false
+reviewed: false

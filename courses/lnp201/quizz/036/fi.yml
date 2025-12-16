@@ -6,3 +6,4 @@ wrong_answers:
   - Heidän on odotettava aikalukon umpeutumista ennen varojen noutamista.
 explanation: |
   Saadakseen varat HTLC: ssä, vastaanottajan on annettava tietty salaisuus, joka mahdollistaa maksun avaamisen hashin turvaamana.
+reviewed: false

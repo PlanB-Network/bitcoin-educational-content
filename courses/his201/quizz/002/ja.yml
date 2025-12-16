@@ -6,3 +6,4 @@ wrong_answers:
   - 閾値署名
 explanation: |
   eCashはブラインド署名プロセスに基づいており、これにより署名者は署名する内容を見ることなく署名することができます。
+reviewed: false

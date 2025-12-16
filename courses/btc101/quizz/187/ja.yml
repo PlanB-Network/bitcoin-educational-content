@@ -6,4 +6,4 @@ wrong_answers:
   - BTCpay Mining.
 explanation: |
   BTCpay Serverは、大規模な構造や情熱的なビットコイナーがBitcoinを受け入れるためのツールです。他の解決策には、シンプルなオンラインビジネス向けのOpenNodeや、アマチュア商人向けのSwiss Bitcoin Payが含まれます。
-  レビュー済み: true
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Tx0 har som mål å forberede og jevne ut UTXOene for coinjoin, ved å dele dem inn i enheter som tilsvarer mengden av det valgte bassenget, for å sikre homogeniteten av miksen.
+reviewed: false

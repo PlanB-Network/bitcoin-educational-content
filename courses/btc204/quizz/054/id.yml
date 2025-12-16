@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Algoritma ECDH (Elliptic-Curve Diffie-Hellman) digunakan dalam Pembayaran Siluman antara pasangan kunci pemindaian penerima dan jumlah pasangan kunci pengirim untuk menetapkan rahasia bersama yang akan memungkinkan untuk derivasi alamat pembayaran unik.
+reviewed: false

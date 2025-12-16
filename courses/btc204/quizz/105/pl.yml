@@ -6,3 +6,4 @@ wrong_answers:
   - Wprowadza odbiorcę w błąd
 explanation: |
   Transakcja PayJoin zwiększa prywatność zainteresowanych stron poprzez wprowadzającą w błąd analizę łańcucha.
+reviewed: false

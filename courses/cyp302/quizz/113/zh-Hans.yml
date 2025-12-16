@@ -6,3 +6,4 @@ wrong_answers:
   - 它仅作为数据的临时存储直到过程结束
 explanation: |
   K数组用于在密钥调度过程中转换S数组，这允许生成一个伪随机密钥流来加密明文。
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   O objetivo da Tx0 é preparar e igualar os UTXOs para o coinjoin, dividindo-os em unidades correspondentes ao valor do pool selecionado, a fim de garantir a homogeneidade da mistura.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Users delegate channel management to Lightning Service Providers while maintaining custody through hardware security modules integrated into mobile devices
 explanation: |
   The Breez SDK's architecture gives each user their own dedicated Lightning node running on Greenlight's cloud infrastructure, but crucially, the private keys never leave the user's device. This means Greenlight cannot perform any Lightning operations without the user's application actively signing transactions. This differs from shared channel pools, local lightweight nodes, or hardware security modules - it's a unique hybrid approach that eliminates operational complexity while preserving true self-custody principles.
+reviewed: false

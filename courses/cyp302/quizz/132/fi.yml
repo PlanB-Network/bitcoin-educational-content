@@ -6,3 +6,4 @@ wrong_answers:
   - Viestien aitoustarkistuskoodit (MAC)
 explanation: |
   Digitaaliset allekirjoitukset Bitcoinissa todistavat varojen hallussapidon allekirjoittamalla siirrot yksityisellä avaimella, jotta voidaan avata skripti, joka turvaa UTXO: n.
+reviewed: false

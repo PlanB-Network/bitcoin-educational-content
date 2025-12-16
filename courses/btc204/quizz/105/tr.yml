@@ -6,3 +6,4 @@ wrong_answers:
   - Alıcıyı yanlış yönlendirir
 explanation: |
   PayJoin işlemi, yanıltıcı zincir analizi ile paydaşların gizliliğini artırır.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Knuth-Morris-Pratti konstruktsioon
 explanation: |
   Merkle-Damgårdi konstruktsioon võimaldab muuta kokkusurumisfunktsiooni hash-funktsiooniks muutuva pikkusega sõnumite jaoks.
+reviewed: false

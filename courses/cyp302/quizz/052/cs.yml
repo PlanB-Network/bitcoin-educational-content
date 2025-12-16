@@ -6,3 +6,4 @@ wrong_answers:
   - Určí multiplikativní identitu
 explanation: |
   Neredukovatelné polynomy se používají k strukturování násobení v konečných tělesech, čímž se zajišťuje, že každý prvek zůstane v tělese.
+reviewed: false

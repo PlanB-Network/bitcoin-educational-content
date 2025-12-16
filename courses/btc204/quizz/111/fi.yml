@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Stonewall x2 on tietty Bitcoin-siirron muoto, jonka tavoitteena on lisätä käyttäjän yksityisyyttä maksun yhteydessä, mutta tällä kertaa yhteistyössä kolmannen osapuolen kanssa, joka ei ole osallisena maksussa. Tämä menetelmä toimii kuin mini-coinjoin kahden osallistujan välillä, samalla kun suoritetaan maksu kolmannelle henkilölle.
+reviewed: false

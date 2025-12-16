@@ -6,3 +6,4 @@ wrong_answers:
   - Fordi de oftere blir avvist av Bitcoin-nettverkets noder.
 explanation: |
   Hvis den totale gruppen av transaksjoner med samme skripttype som vi gjemmer oss i er liten, er vi lettere å identifisere enn i en veldig stor gruppe transaksjoner.
+reviewed: false

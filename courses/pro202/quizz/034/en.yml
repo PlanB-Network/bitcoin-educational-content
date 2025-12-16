@@ -6,3 +6,4 @@ wrong_answers:
   - The version byte and address encoding for P2SH validation
 explanation: |
   P2SH inputs require both the unlocking data (signatures, etc.) AND the complete redeem script in the ScriptSig. This is unique because the redeem script was previously hidden behind a hash and must now be revealed for validation. The first validation step checks that HASH160(redeem_script) matches the hash in the scriptPubKey, then the redeem script is executed with the provided unlocking data. The other options are incorrect: the hash is already in the original scriptPubKey, signatures alone aren't sufficient without the script, and version bytes are used for address encoding, not spending validation.
+reviewed: false

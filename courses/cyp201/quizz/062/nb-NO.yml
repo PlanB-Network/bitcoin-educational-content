@@ -6,3 +6,4 @@ wrong_answers:
   - Både herdede og normale barne private nøkler
 explanation: |
   En utvidet offentlig nøkkel tillater kun utledning av normale barne offentlige nøkler, ikke private nøkler eller herdede nøkler.
+reviewed: false

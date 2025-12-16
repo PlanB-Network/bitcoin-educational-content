@@ -6,3 +6,4 @@ wrong_answers:
   - Simplificar os cálculos de assinaturas digitais
 explanation: |
   Os descritores encapsulam todas as informações necessárias para rastrear um script específico, incluindo o caminho de derivação e as chaves usadas, mas não a frase de recuperação.
+reviewed: false

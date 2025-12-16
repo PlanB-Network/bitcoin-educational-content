@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_ANYONECANPAY
 explanation: |
   SIGHASH_ALL je výchozí sighash příznak, který pokrývá všechny vstupy a výstupy transakce, čímž zabraňuje jakýmkoliv úpravám.
+reviewed: false

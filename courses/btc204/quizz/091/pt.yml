@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   É importante evitar combinar UTXOs misturados com UTXOs não misturados na mesma transação, mas também misturar UTXOs entre si, a fim de evitar a Heurística de Propriedade de Entrada Comum (CIOH).
+reviewed: false

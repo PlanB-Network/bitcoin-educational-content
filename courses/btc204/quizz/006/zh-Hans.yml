@@ -6,3 +6,4 @@ wrong_answers:
   - 为快速交易奖励给发送者的奖金。
 explanation:
   变更是一个输出，代表了未用于完成支付的输入部分，因此返回给交易的原始发送者。
+reviewed: false

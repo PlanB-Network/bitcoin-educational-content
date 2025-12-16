@@ -6,3 +6,4 @@ wrong_answers:
   - En vanlig barne-nøkkel er sikrere enn en herdet barne-nøkkel.
 explanation: |
   En vanlig barne-nøkkel kan avledes fra den overordnede offentlige nøkkelen, i motsetning til en herdet barne-nøkkel som krever den overordnede private nøkkelen.
+reviewed: false

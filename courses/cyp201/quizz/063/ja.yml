@@ -6,3 +6,4 @@ wrong_answers:
   - チェーンコード
 explanation: |
   拡張キーには、子キーを導出するために必要な情報のみが含まれており、取引に関連する情報は含まれていません。
+reviewed: false

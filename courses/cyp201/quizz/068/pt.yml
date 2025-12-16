@@ -6,3 +6,4 @@ wrong_answers:
   - O processo deve incluir a chave privada pai
 explanation: |
   Uma chave pública filha só pode ser derivada de uma chave pública pai se ela for normal, não endurecida.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Coin control是优秀的比特币钱包软件中的一个功能，它允许你手动选择特定的UTXOs作为进行交易时的输入。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Frase mnemônica
 explanation: |
   UTXOs são bloqueados com uma chave pública ou seu hash, e desbloqueados com a chave privada correspondente.
+reviewed: false

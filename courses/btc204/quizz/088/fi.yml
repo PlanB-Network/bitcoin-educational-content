@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Osallistujien anonsettien lisäämiseksi Wabisabi käyttää erittäin suuria coinjoin-transaktioita, jotka ryhmittävät yhteen kymmeniä osallistujia.
+reviewed: false

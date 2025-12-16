@@ -6,3 +6,4 @@ wrong_answers:
   - String automatically implements borrowing while &str requires explicit ownership transfer
 explanation: |
   String and &str represent different approaches to string handling in Rust. String is a heap-allocated, growable string type that owns its data and can be modified at runtime. In contrast, &str (string slice) is an immutable reference to string data, often pointing to string literals embedded in the program binary or slices of existing String data. This distinction allows Rust to optimize for both flexibility (String for dynamic content) and efficiency (&str for read-only access without allocation).
+reviewed: false

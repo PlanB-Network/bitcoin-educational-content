@@ -6,3 +6,4 @@ wrong_answers:
   - Ved automatisk å blokkere mistenkelige meldinger
 explanation: |
   En MAC muliggjør for mottakeren å verifisere at en melding ikke har blitt modifisert gjennom en tag generert med en delt hemmelig nøkkel, noe som begrenser mulighetene for manipulasjon.
+reviewed: false

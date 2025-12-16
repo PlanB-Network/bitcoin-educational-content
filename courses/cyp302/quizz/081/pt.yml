@@ -6,3 +6,4 @@ wrong_answers:
   - Substituição de cada letra
 explanation: |
   Em uma cifra de fluxo, a operação XOR é geralmente usada para combinar o fluxo de chaves com a mensagem porque é simples e reversível.
+reviewed: false

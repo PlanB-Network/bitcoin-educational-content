@@ -6,3 +6,4 @@ wrong_answers:
   - Quá trình phải bao gồm khóa riêng tư của cha
 explanation: |
   Một khóa công khai con chỉ có thể được suy ra từ một khóa công khai cha nếu nó là bình thường, không phải cứng hóa.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 签名过大
 explanation: |
   SegWit修正了ECDSA签名的可变性，使得像闪电网络这样的应用成为可能。
+reviewed: false

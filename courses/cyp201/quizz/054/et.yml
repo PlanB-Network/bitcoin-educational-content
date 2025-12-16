@@ -6,3 +6,4 @@ wrong_answers:
   - Kaitsta rahakoti ligipääsu näotuvastusega
 explanation: |
   Fraasiparool toimib teise turvafaktorina, muutes võtme tuletamise seemet, et vältida ligipääsu rahakotile juhul, kui mnemooniline fraas on kompromiteeritud.
+reviewed: false

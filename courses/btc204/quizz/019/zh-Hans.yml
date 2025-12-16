@@ -6,3 +6,4 @@ wrong_answers:
   - 体积分析和脚本相似性。
 explanation:
   在比特币白皮书的第10部分，中本聪警告用户关于CIOH（共同输入所有权启发式）和重用相同的一对密钥。
+reviewed: false

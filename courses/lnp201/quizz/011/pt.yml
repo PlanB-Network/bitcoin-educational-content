@@ -6,3 +6,4 @@ wrong_answers:
   - Para permitir que Bob gaste os fundos diretamente
 explanation: |
   Alice cria uma transação de retirada para recuperar seus fundos se ocorrer um problema com Bob, garantindo assim a segurança de seu depósito.
+reviewed: false

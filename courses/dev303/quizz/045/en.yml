@@ -6,3 +6,4 @@ wrong_answers:
   - They provide garbage collection functionality that runs without impacting program execution speed
 explanation: |
   Zero-cost abstractions in Rust's functional programming features mean that using closures and iterators doesn't sacrifice performance for expressiveness. The Rust compiler optimizes these high-level constructs to produce machine code that performs as well as hand-written traditional loops. This allows developers to write more expressive and readable code without paying a runtime performance penalty, which is a core principle of Rust's design philosophy.
+reviewed: false

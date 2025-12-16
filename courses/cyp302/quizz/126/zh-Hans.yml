@@ -6,3 +6,4 @@ wrong_answers:
   - 它允许交换电子货币。
 explanation: |
   Diffie-Hellman协议使两方能够公开共享信息，同时确保只有他们能生成一个共同的密钥来保护他们未来的交换。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Den matematiske demonstrasjonen av sikkerhet
 explanation: |
   Sikkerhetsbeviset i moderne kryptografi fokuserer på mål og matematiske antagelser, og utelater aspekter som brukergrensesnittet, som ikke er relevant for kryptografisk sikkerhet.
+reviewed: false

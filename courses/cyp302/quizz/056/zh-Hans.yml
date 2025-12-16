@@ -6,3 +6,4 @@ wrong_answers:
   - 矩阵
 explanation: |
   群是抽象代数基于的基本代数结构，它由一组元素和一个满足特定性质的二元运算定义。
+reviewed: false

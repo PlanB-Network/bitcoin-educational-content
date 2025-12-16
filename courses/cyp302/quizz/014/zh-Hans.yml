@@ -6,3 +6,4 @@ wrong_answers:
   - 只使用有线连接
 explanation:
   在一个许多通信渠道都可能被截取的世界里，明智的做法是假设可能有第三方在监听，这使得加密变得至关重要。
+reviewed: false

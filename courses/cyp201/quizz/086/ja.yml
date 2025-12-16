@@ -6,3 +6,4 @@ wrong_answers:
   - 直接base64でエンコードすることで
 explanation: |
   Bech32アドレスは、チェックサムを計算するためにBCHコードを使用します。
+reviewed: false

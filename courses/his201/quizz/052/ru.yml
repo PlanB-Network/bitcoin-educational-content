@@ -6,3 +6,4 @@ wrong_answers:
   - 8 МБ
 explanation: |
   Параметр MAX_BLOCK_SIZE был добавлен в июле, затем лимит начал применяться ко всем узлам сети начиная с 12 сентября.
+reviewed: false

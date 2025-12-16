@@ -6,3 +6,4 @@ wrong_answers:
   - Metnin 128 bitlik bloklara bölünmesine izin vermez
 explanation: |
   ECB modu önerilmez çünkü deterministik şifreleme üretir, yani aynı düz metin blokları aynı şifreli metin bloklarını verir, bu da düz metin hakkında bilgi tahmin etmek için kullanılabilir.
+reviewed: false

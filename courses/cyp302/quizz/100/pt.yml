@@ -6,3 +6,4 @@ wrong_answers:
   - Adicionar uma camada adicional de criptografia
 explanation: |
   Em um esquema de criptografia autenticada, um nonce é usado para garantir que cada mensagem tenha uma etiqueta única, aumentando assim a segurança ao prevenir repetições.
+reviewed: false

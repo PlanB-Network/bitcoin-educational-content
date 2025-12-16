@@ -6,3 +6,4 @@ wrong_answers:
   - Ketjukoodi
 explanation: |
   Laajennettu avain sisältää vain tarvittavat tiedot lapsiavainten johdattamiseksi, ei tietoja liittyen transaktioihin.
+reviewed: false

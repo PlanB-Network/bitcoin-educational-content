@@ -6,4 +6,4 @@ wrong_answers:
   - CoinSwap
 explanation: |
   Lightning LabsのLoop Outサービスは、Lightningチャネルからオンチェーンブロックチェーンへの資金の転送を可能にし、メインチェーン上でビットコインを回収しながら受信容量を最適化します。
-  レビュー済み: false
+reviewed: false

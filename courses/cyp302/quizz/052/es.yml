@@ -6,3 +6,4 @@ wrong_answers:
   - Determinar la identidad multiplicativa
 explanation: |
   Los polinomios irreducibles se utilizan para estructurar la multiplicación en campos finitos, asegurando que cada elemento permanezca dentro del campo.
+reviewed: false

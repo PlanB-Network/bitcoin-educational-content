@@ -6,3 +6,4 @@ wrong_answers:
   - 它仅用于生成指数e
 explanation: |
   在RSA中，整数N是两个大质数p和q的乘积，它用作加密和解密操作的模。
+reviewed: false

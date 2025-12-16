@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Stonewall x2 er en spesifikk form for Bitcoin-transaksjon som har som mål å øke brukerens personvern under en utbetaling, men denne gangen ved å samarbeide med en tredjepart som ikke er involvert i utbetalingen. Denne metoden fungerer som en mini-coinjoin mellom to deltakere, samtidig som den gjør en betaling til en tredje person.
+reviewed: false

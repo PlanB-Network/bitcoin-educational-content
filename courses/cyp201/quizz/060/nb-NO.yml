@@ -6,3 +6,4 @@ wrong_answers:
   - En utvidet offentlig nøkkel for SegWit V2 på Testnettet
 explanation: |
   zpub-prefikset indikerer en utvidet offentlig nøkkel for SegWit V0-skript på Hovednettet.
+reviewed: false

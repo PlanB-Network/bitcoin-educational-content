@@ -6,3 +6,4 @@ wrong_answers:
   - Un entero que es mayor que el otro
 explanation: |
   Un entero es coprimo con otro si su máximo común divisor es 1, lo que significa que no comparten ningún otro factor común.
+reviewed: false

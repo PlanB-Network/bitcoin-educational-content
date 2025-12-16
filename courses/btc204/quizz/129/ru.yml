@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Для выполнения coinswap можно использовать HTLC (Hash Time-Locked Contracts) или PTLC (Point Time-Locked Contracts).
+reviewed: false

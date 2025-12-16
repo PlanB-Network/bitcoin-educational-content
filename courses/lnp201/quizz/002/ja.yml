@@ -6,4 +6,4 @@ wrong_answers:
   - 140,000サトシ
 explanation: |
   40,000サトシを送金した後、アリスのチャネル内の残高は60,000サトシです。
-  レビュー済み: false
+reviewed: false

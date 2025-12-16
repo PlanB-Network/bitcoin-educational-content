@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH es incompatible con SegWit.
 explanation: |
   P2WPKH, introducido con SegWit, traslada las firmas a una sección separada llamada Witness para prevenir la maleabilidad de las transacciones.
+reviewed: false

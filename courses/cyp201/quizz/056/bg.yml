@@ -6,3 +6,4 @@ wrong_answers:
   - Корен Blockchain
 explanation: |
   Константата Bitcoin Seed се използва като ключ във функцията HMAC-SHA512 за получаване на главния частен ключ и главния chain code.
+reviewed: false

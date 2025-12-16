@@ -6,3 +6,4 @@ wrong_answers:
   - At det er en on-chain transaksjon
 explanation: |
   Prefikset lnbc betegner at fakturaen er for en Lightning-transaksjon på Bitcoin-nettverket, og ikke på et annet nettverk.
+reviewed: false

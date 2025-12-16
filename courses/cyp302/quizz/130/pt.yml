@@ -6,3 +6,4 @@ wrong_answers:
   - Elas garantem a criptografia de mensagens entre usuários
 explanation: |
   As autoridades certificadoras emitem certificados que vinculam uma chave pública ao seu proprietário, permitindo que os usuários verifiquem a autenticidade das chaves públicas que utilizam.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Chỉ sử dụng kết nối có dây
 explanation: |
   Trong một thế giới mà nhiều kênh giao tiếp có thể bị nghe lén, thì việc giả định rằng có thể có một bên thứ ba đang nghe là điều khôn ngoan, làm cho việc mã hóa trở nên cần thiết.
+reviewed: false

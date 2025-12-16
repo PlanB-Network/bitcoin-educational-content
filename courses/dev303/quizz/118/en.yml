@@ -6,3 +6,4 @@ wrong_answers:
   - Greenlight maintains dedicated high-bandwidth connections to major Lightning hubs, ensuring priority routing through the most liquid channels
 explanation: |
   The correct answer identifies the fundamental architectural advantage of Greenlight's cloud-based approach. Traditional mobile Lightning wallets must synchronize network graph data when they start up, creating delays and potentially working with stale routing information. Greenlight solves this by running Lightning nodes continuously in the cloud, ensuring they always have current network knowledge and can instantly provide complete graph data when users connect. The wrong answers describe plausible but non-existent features - Greenlight doesn't use ML routing algorithms, proprietary payment splitting beyond standard Lightning protocols, or special hub connections for priority routing.
+reviewed: false

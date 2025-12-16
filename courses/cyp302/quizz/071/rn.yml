@@ -6,3 +6,4 @@ wrong_answers:
   - Mu kugabanya urufunguzo ruva ku nyuguti yose yashizwemwo amakuru no gukoresha modulo 27 .
 explanation: |
   Mu shift cipher, gukuraho urufunguzo bikorwa mu gukura urufunguzo ku rudome rwose rwashizwemwo, hanyuma ugakoresha modulo 26 kugira ngo usubire ku nyandiko y’intango. Modulo 26 iremesha gusubira ku ntango y'inyuguti inyuma y'urudome Z.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Что это транзакция в блокчейне
 explanation:
   Префикс lnbc означает, что счет предназначен для транзакции Lightning в сети Bitcoin, а не в другой сети.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Kattaa kaikki tulosteet paitsi yhden
 explanation: |
   SIGHASH_SINGLE kattaa yhden syötteen ja yhden siihen indeksillä vastaavan tulosteen, jättäen loput muokattaviksi.
+reviewed: false

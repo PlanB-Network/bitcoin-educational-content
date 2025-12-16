@@ -6,3 +6,4 @@ wrong_answers:
   - Codificación en base58check
 explanation: |
   La clave pública debe ser comprimida para reducir su tamaño antes de pasar por la función hash HASH160.
+reviewed: false

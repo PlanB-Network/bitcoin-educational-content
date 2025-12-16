@@ -6,3 +6,4 @@ wrong_answers:
   - Reemplaza los cables físicos con comunicaciones seguras.
 explanation: |
   En un entorno de comunicación abierta, donde los canales pueden ser monitoreados, la criptografía asegura la seguridad protegiendo los datos intercambiados, incluso en presencia de posibles ataques.
+reviewed: false

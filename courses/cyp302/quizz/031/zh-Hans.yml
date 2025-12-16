@@ -6,3 +6,4 @@ wrong_answers:
   - 一个由加密过程产生的可变长度字符串
 explanation: |
   一个随机字符串被定义为从所有可能的相同长度的字符串中均匀选择的一个字符串。
+reviewed: false

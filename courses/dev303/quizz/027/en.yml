@@ -6,3 +6,4 @@ wrong_answers:
   - Merge multiple structure instances together into a single combined instance
 explanation: |
   The struct update syntax in Rust allows you to create a new structure instance by specifying only the fields you want to change, while automatically copying all other fields from an existing instance. This is done using the `..existing_instance` syntax. The other options are incorrect: struct update syntax always creates a new instance rather than modifying existing ones, it doesn't generate default values but copies from existing instances, and it works with one source instance rather than merging multiple instances together.
+reviewed: false

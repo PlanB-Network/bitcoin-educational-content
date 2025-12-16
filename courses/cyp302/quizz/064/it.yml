@@ -6,3 +6,4 @@ wrong_answers:
   - La conversione del messaggio in binario
 explanation: |
   Un Codice di Autenticazione del Messaggio (MAC) è utilizzato per assicurare che il messaggio non sia stato alterato e che provenga effettivamente dal mittente presunto.
+reviewed: false

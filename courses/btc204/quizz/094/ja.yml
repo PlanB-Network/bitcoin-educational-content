@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   ドクシックUTXOを一緒にマージすることは、Whirlpool内のユーザーの異なるエントリー間の接続が可能になるため、推奨されません。
 
-  レビュー済み: false
+reviewed: false

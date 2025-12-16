@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   Giống như một tờ tiền giấy, một UTXO phải được chi tiêu hoàn toàn trong một giao dịch, và bất kỳ số tiền dư nào sẽ được trả lại cho người gửi dưới dạng tiền thối.
+reviewed: false

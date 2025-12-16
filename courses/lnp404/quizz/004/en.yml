@@ -6,3 +6,4 @@ wrong_answers:
   - Wallet, Exchange, Mining Pool, and Payment Processor with optional Electrum
 explanation: |
   Lightning Terminal (LitD) is specifically designed as a unified management stack that bundles Loop (submarine swaps), Pool (liquidity marketplace), Faraday (channel management), Taproot Assets (asset protocol), and optionally LND (Lightning Network Daemon). These are all Lightning Labs products that work together to provide comprehensive Lightning node management. The wrong answers contain general Bitcoin or network tools that are not part of the LitD stack.
+reviewed: false

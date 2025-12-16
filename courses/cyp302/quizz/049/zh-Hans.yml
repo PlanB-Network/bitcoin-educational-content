@@ -6,3 +6,4 @@ wrong_answers:
   - 复数群
 explanation:
   在密码学中，循环群是基础，因为它们允许通过使用单个元素（称为生成器）的指数运算来生成群的所有元素。
+reviewed: false

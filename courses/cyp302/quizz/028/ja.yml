@@ -6,4 +6,4 @@ wrong_answers:
   - -1
 explanation: |
   XORにおいて、0 XOR 1はビットが異なるため、結果は1になります。
-  レビュー済み: false
+reviewed: false

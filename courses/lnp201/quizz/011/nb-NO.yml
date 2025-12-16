@@ -6,3 +6,4 @@ wrong_answers:
   - For å tillate Bob å bruke pengene direkte
 explanation: |
   Alice oppretter en uttakstransaksjon for å hente tilbake pengene sine hvis det oppstår et problem med Bob, og sikrer dermed sikkerheten til hennes innskudd.
+reviewed: false

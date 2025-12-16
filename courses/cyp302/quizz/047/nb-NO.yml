@@ -6,3 +6,4 @@ wrong_answers:
   - a mod N
 explanation: |
   Eulers teorem sier at for to heltall a og N som er relativt primiske, er eksponensieringen a^ϕ(N) mod N alltid lik 1 mod N, en egenskap som brukes i kryptografi.
+reviewed: false

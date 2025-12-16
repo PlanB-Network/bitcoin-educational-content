@@ -6,3 +6,4 @@ wrong_answers:
   - Mobile operating systems restrict full node operations due to background processing limitations and app store policies
 explanation: |
   The content explicitly states that using a full Bitcoin node for synchronization was 'unsuitable for mobile applications due to bandwidth and storage limitations.' Mobile devices have constrained resources compared to servers, making it impractical to download and store the entire blockchain. The other options are incorrect because full nodes are actually secure and reliable, they do provide necessary APIs for blockchain monitoring, and while mobile OS restrictions exist, the primary constraint mentioned was resource limitations rather than OS-level restrictions.
+reviewed: false

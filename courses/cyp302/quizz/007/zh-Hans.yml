@@ -6,3 +6,4 @@ wrong_answers:
   - 消息的匿名化
 explanation:
   现代加密包括的方案不仅仅是保证机密性，还要确保完整性和真实性，以及不可否认性，这与简单的加密方案不同。
+reviewed: false

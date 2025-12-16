@@ -6,3 +6,4 @@ wrong_answers:
   - BIP141
 explanation: |
   BIP32 定义了 HD 钱包的操作，允许从一个种子中分层派生私钥。
+reviewed: false

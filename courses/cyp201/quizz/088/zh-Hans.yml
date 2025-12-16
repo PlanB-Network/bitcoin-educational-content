@@ -6,3 +6,4 @@ wrong_answers:
   - 0x00
 explanation: |
   前缀0x03表示具有奇数y坐标的压缩公钥。
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   预期匿名集指的是，在知道输入处的UTXO的情况下，研究的UTXO在周期输出时隐藏在其中的群组大小，即，此群组内存在的不可区分硬币的数量。
+reviewed: false

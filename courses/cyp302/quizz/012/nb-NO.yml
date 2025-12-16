@@ -6,3 +6,4 @@ wrong_answers:
   - Å anse at bare nasjonale etater kan avlytte data
 explanation: |
   Det er en illusjon å tro at det å kun sikre kanalen fysisk er nok for å sikre konfidensialitet, ettersom mange punkter for avlytting forblir tilgjengelige, spesielt for trådløs kommunikasjon.
+reviewed: false

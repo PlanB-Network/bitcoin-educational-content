@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   在所谓的“Chaumian”coinjoins中，结合使用Tor和David Chaum的盲签名来确保协调者无法知道哪个输出属于哪个用户。
+reviewed: false

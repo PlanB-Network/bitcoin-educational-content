@@ -6,3 +6,4 @@ wrong_answers:
   - Sikker nøkkelutveksling
 explanation: |
   RSA er basert på vanskelighetene med faktorisering av primtall, en beregningsmessig vanskelig oppgave som gjør kryptosystemet sikkert mot angrep.
+reviewed: false

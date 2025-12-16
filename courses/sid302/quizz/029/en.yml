@@ -6,3 +6,4 @@ wrong_answers:
   - Limited asset transferability since AMP tokens can only be sent to pre-approved wallets within the same regulatory jurisdiction
 explanation: |
   The correct answer identifies AMP's core privacy trade-off: while Confidential Transactions maintain user-to-user privacy, AMP assets allow issuers complete unblinded visibility for regulatory compliance. The wrong answers describe operational constraints (fees, speed, transferability) rather than the fundamental transparency compromise that distinguishes AMP from standard Liquid's fully confidential model.
+reviewed: false

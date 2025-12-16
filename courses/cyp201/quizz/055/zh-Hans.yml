@@ -6,3 +6,4 @@ wrong_answers:
   - 四部分，每部分128位
 explanation: |
   HMAC-SHA512的输出被分成两部分：主私钥（256位）和主链代码（256位）。
+reviewed: false

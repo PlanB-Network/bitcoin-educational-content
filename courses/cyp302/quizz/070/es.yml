@@ -6,3 +6,4 @@ wrong_answers:
   - Un cifrado asimétrico
 explanation: |
   El cifrado por desplazamiento es un ejemplo de un cifrado de sustitución monoalfabético, donde cada letra en el mensaje se desplaza un número fijo de posiciones en el alfabeto.
+reviewed: false

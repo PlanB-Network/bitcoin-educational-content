@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   取引の効率は、分析された取引の実際のエントロピーから最大エントロピーを引くことによって計算されます。
 
-  レビュー済み: false
+reviewed: false

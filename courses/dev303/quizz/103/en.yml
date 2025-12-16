@@ -6,3 +6,4 @@ wrong_answers:
   - By creating isolated sandboxes that execute Lightning protocol logic entirely within the HSM environment
 explanation: |
   LDK's modular design allows developers to extract just the transaction signing and verification components for HSM integration. This enables the creation of Lightning-aware signing devices that understand transaction context beyond simple signing - they can evaluate whether a transaction represents legitimate payments, routing operations, or potential security threats. The other options describe monolithic or hardware-specific approaches that contradict LDK's flexible, modular philosophy of providing composable components rather than complete solutions.
+reviewed: false

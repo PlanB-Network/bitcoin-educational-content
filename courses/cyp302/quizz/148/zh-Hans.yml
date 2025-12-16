@@ -6,3 +6,4 @@ wrong_answers:
   - 高斯函数
 explanation:
   欧拉Phi函数（或称欧拉函数）用于计算与整数N互质的整数数量，特别是对于非质数整数。
+reviewed: false

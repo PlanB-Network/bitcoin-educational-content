@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Nos chamados coinjoins Chaumianos, o uso do Tor e as assinaturas cegas de David Chaum são combinados para garantir que o coordenador não possa saber qual saída pertence a qual usuário.
+reviewed: false

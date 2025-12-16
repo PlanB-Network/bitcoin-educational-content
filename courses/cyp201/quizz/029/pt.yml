@@ -6,3 +6,4 @@ wrong_answers:
   - HMAC
 explanation: |
   O Bitcoin inicialmente utilizou o ECDSA, um protocolo de assinatura baseado em curvas elípticas, antes da introdução das assinaturas Schnorr em 2021.
+reviewed: false

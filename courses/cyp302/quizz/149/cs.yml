@@ -6,3 +6,4 @@ wrong_answers:
   - Celé číslo, které je větší než to druhé
 explanation: |
   Celé číslo je nesoudělné s jiným, pokud jejich největší společný dělitel je 1, což znamená, že nemají žádný jiný společný dělitel.
+reviewed: false

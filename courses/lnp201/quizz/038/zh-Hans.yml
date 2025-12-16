@@ -6,3 +6,4 @@ wrong_answers:
   - 它对每个中介节点施加额外费用
 explanation: |
   Timelock为完成HTLC设置了一个时间框架，如果交易未成功，允许通过在此期间后取消支付来恢复资金。
+reviewed: false

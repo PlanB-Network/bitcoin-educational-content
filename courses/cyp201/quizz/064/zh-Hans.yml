@@ -6,3 +6,4 @@ wrong_answers:
   - 加密公钥
 explanation: |
   扩展密钥将密钥（可以是私钥或公钥）与相关的链代码结合在一起，即派生子密钥所需的两个元素。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Jumlah pembayaran yang dilakukan oleh node tujuan
 explanation: |
   Kapasitas total dari saluran-saluran tersebut dapat menunjukkan probabilitas keberhasilan yang lebih tinggi, karena ini menunjukkan ketersediaan likuiditas yang lebih besar untuk transaksi.
+reviewed: false

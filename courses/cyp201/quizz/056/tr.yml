@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Kök
 explanation: |
   Bitcoin seed sabiti, ana özel anahtarı ve ana chain code'yı türetmek için HMAC-SHA512 işlevinde bir anahtar olarak kullanılır.
+reviewed: false

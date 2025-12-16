@@ -6,3 +6,4 @@ wrong_answers:
   - En mengde bitcoin delt inn i flere deler
 explanation: |
   En UTXO, eller Unspent Transaction Output, er en ubrukt transaksjonsutgang, som representerer en viss mengde bitcoins som innehaveren kan bruke.
+reviewed: false

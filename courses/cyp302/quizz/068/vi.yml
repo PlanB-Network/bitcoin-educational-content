@@ -6,3 +6,4 @@ wrong_answers:
   - Nó được chia sẻ công khai để tạo ra các khóa khác
 explanation: |
   Trong các phương pháp mã hóa đối xứng, cùng một khóa riêng được sử dụng để mã hóa tin nhắn khi gửi và để giải mã nó khi nhận.
+reviewed: false

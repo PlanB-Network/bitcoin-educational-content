@@ -6,3 +6,4 @@ wrong_answers:
   - By dividing the key from each encrypted letter and applying modulo 27
 explanation: |
   In shift cipher, decryption is performed by subtracting the key from each encrypted letter, then applying modulo 26 to return to the original text. The modulo 26 allows for returning to the beginning of the alphabet after the letter Z.
+reviewed: false

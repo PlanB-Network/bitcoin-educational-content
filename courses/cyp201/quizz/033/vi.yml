@@ -6,3 +6,4 @@ wrong_answers:
   - Hạn chế chỉnh sửa chỉ một đầu ra
 explanation: |
   SIGHASH_NONE chỉ bao gồm các đầu vào, để lại các đầu ra có thể được chỉnh sửa sau khi ký.
+reviewed: false

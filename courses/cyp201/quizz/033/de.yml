@@ -6,3 +6,4 @@ wrong_answers:
   - Einschränkung der Modifikationen auf nur eine Ausgabe
 explanation: |
   SIGHASH_NONE deckt nur die Eingaben ab und lässt die Ausgaben nach der Signierung modifizierbar.
+reviewed: false

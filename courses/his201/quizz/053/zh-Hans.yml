@@ -6,3 +6,4 @@ wrong_answers:
   - 标准交易格式
 explanation: |
   这些是不会在执行时使脚本无效的空操作指令。它们使得在2015/2016年向协议中添加OP_CHECKLOCKTIMEVERIFY和OP_CHECKSEQUENCEVERIFY成为可能。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Version 2 eliminates the co-signing requirement entirely and allows direct peer-to-peer transfers while Version 1 required server authorization for every transaction
 explanation: |
   The evolution from AMP Version 1 to Version 2 represents a fundamental shift from a 'smart client, complex infrastructure' model to a 'smart server, simplified client' approach. Version 1 required issuers to maintain fully synchronized Elements nodes and rely heavily on the monolithic Green SDK, creating high technical barriers. Version 2 moves the complexity server-side, where the AMP server handles transaction construction, UTXO selection, and fee calculation, then presents issuers with Partially Signed Elements Transactions (PSETs) that only require signatures. This eliminates the need for full nodes and enables standard wallet integrations.
+reviewed: false

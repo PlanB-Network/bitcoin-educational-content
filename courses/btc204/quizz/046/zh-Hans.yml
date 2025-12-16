@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   使用的算法是ECDH（椭圆曲线Diffie-Hellman）。它是经典Diffie-Hellman算法的一个变种，使用椭圆曲线。
+reviewed: false

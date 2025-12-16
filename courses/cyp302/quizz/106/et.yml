@@ -6,3 +6,4 @@ wrong_answers:
   - Iga sõnumi juurde lisavõtme lisamine
 explanation: |
   Iga osaleja jaoks unikaalse identifikaatori lisamine krüpteeritud sõnumisse takistab peegeldusrünnete toimumist, kuna see võimaldab eristada sõnumite päritolu.
+reviewed: false

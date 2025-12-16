@@ -6,3 +6,4 @@ wrong_answers:
   - Para permitir a los usuarios iniciar sesión sin una contraseña
 explanation: |
   Al almacenar hashes de contraseñas, incluso en el caso de una violación de datos, las contraseñas reales no pueden ser leídas directamente, aumentando así la seguridad.
+reviewed: false

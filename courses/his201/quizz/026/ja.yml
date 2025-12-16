@@ -6,3 +6,4 @@ wrong_answers:
   - ブロックチェーン
 explanation: |
   最初のモネタリーポリシーは、白書の最初のバージョンとサトシがRay Dillingerとの[交換](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)で示したように、一定の発行量（X BTC/ブロック）に対応していました。
+reviewed: false

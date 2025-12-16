@@ -6,3 +6,4 @@ wrong_answers:
   - Ein hohes Guthaben on-chain
 explanation: |
   Um Zahlungen zu erhalten, muss ein Verkäufer über eingehende Liquidität verfügen, was bedeutet, dass Mittel auf der gegenüberliegenden Seite des Kanals verfügbar sein müssen, damit sie Zahlungen akzeptieren können.
+reviewed: false

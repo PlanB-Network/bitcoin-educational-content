@@ -6,3 +6,4 @@ wrong_answers:
   - Proteger o acesso à carteira com identificação facial
 explanation: |
   A frase-senha atua como um segundo fator de segurança, alterando a semente de derivação de chave para prevenir o acesso à carteira caso a frase mnemônica seja comprometida.
+reviewed: false

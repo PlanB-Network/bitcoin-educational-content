@@ -6,3 +6,4 @@ wrong_answers:
   - Semplificare i calcoli delle firme digitali
 explanation: |
   I descriptor racchiudono tutte le informazioni necessarie per tracciare uno script specifico, inclusi il derivation path e le chiavi utilizzate, ma non la frase mnemonica.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Proteger UTXOs contra um gasto duplo
 explanation: |
   Uma carteira isca é usada para desviar a atenção de um atacante, fornecendo acesso a uma carteira que contém uma pequena quantidade de bitcoins.
+reviewed: false

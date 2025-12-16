@@ -6,3 +6,4 @@ wrong_answers:
   - Loại tiền tệ
 explanation: |
   Depth 0 tương ứng với khóa chính và mã chuỗi chính, đây là điểm xuất phát cho tất cả các quá trình phái sinh trong một ví HD.
+reviewed: false

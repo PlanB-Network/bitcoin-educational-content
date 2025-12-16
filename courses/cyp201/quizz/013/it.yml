@@ -6,3 +6,4 @@ wrong_answers:
   - Generare indirizzi Bitcoin
 explanation: |
   PBKDF2 è utilizzato per derivare un seed da una frase mnemonica e una passphrase opzionale.
+reviewed: false

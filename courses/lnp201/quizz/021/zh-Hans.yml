@@ -6,3 +6,4 @@ wrong_answers:
   - 它阻止使用撤销密钥
 explanation: |
   时间锁通过施加延迟，使得作弊者在此期间无法取回他们的资金，从而给予另一方响应的机会。
+reviewed: false

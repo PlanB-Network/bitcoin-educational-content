@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Etiketter lagres lokalt av lommebokprogramvaren og overføres aldri over Bitcoin-nettverket. Etikettering er dermed et personlig forvaltningsverktøy.
+reviewed: false

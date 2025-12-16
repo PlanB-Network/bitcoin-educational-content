@@ -6,3 +6,4 @@ wrong_answers:
   - 64 bit
 explanation: |
   Một cụm từ ghi nhớ 24 từ dựa trên 256 bit entropy, đảm bảo độ an toàn rất cao.
+reviewed: false

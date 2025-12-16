@@ -6,3 +6,4 @@ wrong_answers:
   - 512
 explanation: |
   PBKDF2 lặp lại quy trình HMAC-SHA512 2048 lần để tăng cường bảo mật.
+reviewed: false

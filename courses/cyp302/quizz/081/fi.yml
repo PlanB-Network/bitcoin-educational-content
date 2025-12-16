@@ -6,3 +6,4 @@ wrong_answers:
   - Kirjaimen korvaaminen
 explanation: |
   Virtasalauksessa XOR-operaatiota käytetään yleisesti yhdistämään avainvirta viestiin, koska se on yksinkertainen ja kääntyvä.
+reviewed: false

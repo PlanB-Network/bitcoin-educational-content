@@ -6,3 +6,4 @@ wrong_answers:
   - Kjedekoden
 explanation: |
   En utvidet nøkkel inneholder kun informasjonen som er nødvendig for å avlede barnenøkler, ikke informasjon relatert til transaksjoner.
+reviewed: false

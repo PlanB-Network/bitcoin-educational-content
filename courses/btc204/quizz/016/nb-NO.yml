@@ -6,3 +6,4 @@ wrong_answers:
   - Øke konfidensialiteten til Bitcoin-transaksjoner.
 explanation: |
   Ett av målene med kjedeanalyse er å gruppere ulike aktiviteter på Bitcoin for å kunne bestemme unikheten til brukeren som utførte dem. Deretter vil det være mulig å forsøke å koble denne samlingen av aktiviteter til en reell identitet.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Memblokir transaksi dengan timelock yang tidak tepat
 explanation: |
   Risiko utama adalah bahwa pihak dapat mencoba untuk curang dengan menerbitkan transaksi komitmen lama, yang dapat memungkinkan mereka untuk mengklaim kembali dana yang tidak lagi mereka miliki.
+reviewed: false

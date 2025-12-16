@@ -6,3 +6,4 @@ wrong_answers:
   - Salata julkiset avaimet
 explanation: |
   Laajennettu avain yhdistää avaimen (joko yksityisen tai julkisen) liitännäisen ketjukoodin kanssa, eli kaksi elementtiä, jotka ovat tarpeen ala-avainten johdannassa.
+reviewed: false

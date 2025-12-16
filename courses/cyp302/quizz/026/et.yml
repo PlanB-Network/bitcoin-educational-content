@@ -6,3 +6,4 @@ wrong_answers:
   - XOR on liitmise vastand
 explanation: |
   XOR operatsiooni võib vaadelda kui bittide liitmist modulo 2-ga, muutes tulemused identselt.
+reviewed: false

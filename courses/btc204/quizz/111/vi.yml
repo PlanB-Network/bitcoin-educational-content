@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Stonewall x2 là một dạng giao dịch Bitcoin cụ thể nhằm tăng cường quyền riêng tư cho người dùng trong quá trình chi tiêu, nhưng lần này bằng cách hợp tác với một bên thứ ba không tham gia vào việc chi tiêu. Phương pháp này hoạt động giống như một mini-coinjoin giữa hai người tham gia, đồng thời thực hiện thanh toán cho một người thứ ba.
+reviewed: false

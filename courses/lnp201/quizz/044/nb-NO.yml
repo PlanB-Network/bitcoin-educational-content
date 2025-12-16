@@ -6,3 +6,4 @@ wrong_answers:
   - Den ber de mellomliggende nodene om å øke sin likviditet
 explanation: |
   Når en rute mislykkes, prøver sender-noden andre alternative ruter til en funksjonell vei er funnet, eller alle alternativer er uttømt.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Taproot swaps can be completed without revealing any cryptographic secrets, unlike legacy HTLCs that always expose preimages
 explanation: |
   Taproot with MuSig2 revolutionizes HTLC privacy through key aggregation. In the cooperative 'happy path,' both parties combine their keys into a single aggregated public key and co-sign the transaction. This makes the swap indistinguishable from a regular payment, consuming minimal block space and revealing no swap conditions. Legacy SegWit v0 HTLCs required publishing entire script logic on-chain, making them easily identifiable and more expensive. The other options are incorrect: time locks remain essential for safety, multiple hash locks aren't the key innovation, and preimages are still revealed when claiming funds.
+reviewed: false

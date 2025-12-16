@@ -6,3 +6,4 @@ wrong_answers:
   - É compartilhada publicamente para gerar outras chaves
 explanation: |
   Em esquemas de criptografia simétrica, a mesma chave privada é utilizada tanto para criptografar a mensagem ao enviar quanto para descriptografá-la ao receber.
+reviewed: false

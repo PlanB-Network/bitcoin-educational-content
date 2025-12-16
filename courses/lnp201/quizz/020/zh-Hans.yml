@@ -6,3 +6,4 @@ wrong_answers:
   - 使用不当的时间锁阻止交易
 explanation:
   主要风险是一方可能试图通过发布旧的承诺交易来作弊，这可能允许他们重新获得他们不再拥有的资金。
+reviewed: false

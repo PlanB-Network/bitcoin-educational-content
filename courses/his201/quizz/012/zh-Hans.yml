@@ -6,3 +6,4 @@ wrong_answers:
   - 日本大将问题
 explanation: |
   这个问题的名称（由Lamport, Shostak和Pease在1982年正式提出）被选中是为了避免冒犯读者，因为从未有人认同自己是拜占庭人。
+reviewed: false

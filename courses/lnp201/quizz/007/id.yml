@@ -6,3 +6,4 @@ wrong_answers:
   - Mereka mewakili jumlah bitcoin yang kecil dan tetap
 explanation: |
   Seperti uang kertas, sebuah UTXO harus dihabiskan sepenuhnya dalam sebuah transaksi, dan kelebihan apapun dikembalikan kepada pengirim sebagai kembalian.
+reviewed: false

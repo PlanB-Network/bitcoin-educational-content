@@ -6,4 +6,4 @@ wrong_answers:
   - φ(N)と等しくなければなりません
 explanation: |
   RSAにおいて、指数 e は2より大きく、かつφ(N)と互いに素であるように選ばれます。これにより、操作の安全性が保証されます。
-  レビュー済み: false
+reviewed: false

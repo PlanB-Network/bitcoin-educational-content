@@ -6,3 +6,4 @@ wrong_answers:
   - 1024字节
 explanation: |
   SHA512使用128字节的块进行其计算，这等同于1024位。
+reviewed: false

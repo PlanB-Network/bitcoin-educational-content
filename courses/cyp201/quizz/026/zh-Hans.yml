@@ -6,3 +6,4 @@ wrong_answers:
   - 一个自定义的椭圆曲线
 explanation: |
   ECDSA签名的开始是计算要签名的消息的哈希值，通常使用SHA256。
+reviewed: false

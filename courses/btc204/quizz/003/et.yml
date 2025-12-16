@@ -6,3 +6,4 @@ wrong_answers:
   - See ajutiselt jagab neid verifitseerimiseks.
 explanation: |
   Tehingu väljundites olevad UTXO-d luuakse, tarbides sisendites olevaid UTXO-sid. See on omamoodi raha sihtkoht.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Reference counting that tracks how many pointers reference each value
 explanation: |
   Rust uses the drop mechanism to automatically clean up resources when variables go out of scope. This system implicitly calls a drop function on each variable as it goes out of scope, marking memory as available for reuse and performing any necessary cleanup operations like closing file handles. This approach, borrowed from C++'s RAII pattern, ensures automatic resource management without requiring garbage collection, manual memory management, or reference counting systems used by other languages.
+reviewed: false

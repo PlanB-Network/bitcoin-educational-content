@@ -6,3 +6,4 @@ wrong_answers:
   - 链代码
 explanation: |
   扩展密钥只包含派生子密钥所需的信息，不包含与交易相关的信息。
+reviewed: false

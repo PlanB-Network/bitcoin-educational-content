@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Para aumentar os conjuntos anônimos dos participantes, a Wabisabi utiliza transações coinjoin muito grandes que agrupam dezenas de participantes.
+reviewed: false

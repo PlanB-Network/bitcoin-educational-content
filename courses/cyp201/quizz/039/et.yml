@@ -6,3 +6,4 @@ wrong_answers:
   - Genereerida igale kasutajale bitcoine
 explanation: |
   Bitcoin'i rahakott ei hoia otseselt bitcoine, vaid hallab privaatvõtmeid, mis on vajalikud UTXO-de avamiseks, mis esindavad bitcoine.
+reviewed: false

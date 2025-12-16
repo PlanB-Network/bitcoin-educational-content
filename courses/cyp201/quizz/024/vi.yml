@@ -6,3 +6,4 @@ wrong_answers:
   - 1024 bit
 explanation: |
   Một khóa riêng trong Bitcoin là một số nguyên ngẫu nhiên 256-bit, đảm bảo một không gian khóa đủ lớn để bảo đảm an ninh.
+reviewed: false

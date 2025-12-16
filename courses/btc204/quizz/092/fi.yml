@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Altaaseen liittymättä jäänyt vaihtoraha eristetään “doxxic change” -tilille, jotta muista lompakon UTXOista voidaan pitää tiukka erillisyys.
+reviewed: false

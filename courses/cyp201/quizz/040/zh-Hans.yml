@@ -6,3 +6,4 @@ wrong_answers:
   - 它限制了生成的助记词短语的大小
 explanation: |
   手动生成熵可能会引入偏差或错误，使密钥更容易受到攻击。
+reviewed: false

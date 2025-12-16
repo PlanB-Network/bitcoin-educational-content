@@ -6,3 +6,4 @@ wrong_answers:
   - Eles representam pequenas quantias fixas de bitcoins
 explanation: |
   Assim como uma cédula bancária, um UTXO deve ser gasto integralmente em uma transação, e qualquer excesso é retornado ao remetente como troco.
+reviewed: false

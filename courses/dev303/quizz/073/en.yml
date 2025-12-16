@@ -6,3 +6,4 @@ wrong_answers:
   - When you need to convert errors to a default value and continue program execution
 explanation: |
   The question mark operator (?) is designed for error propagation - it extracts success values but immediately returns errors from the current function, allowing callers to handle them. Unlike unwrap()/expect() which panic on errors, or unwrap_or() which provides defaults, the ? operator maintains the error context and passes responsibility to higher-level code that can make appropriate handling decisions.
+reviewed: false

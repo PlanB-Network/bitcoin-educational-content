@@ -6,3 +6,4 @@ wrong_answers:
   - De trenger ikke nøkkeloppdateringer
 explanation: |
   Pseudorandom stream ciphers er mer praktiske fordi de tillater at en kort nøkkel kan utvides til en lengre nøkkelstrøm, og unngår behovet for å lagre en nøkkel som er like lang som meldingen selv.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Iga tähe asendamine
 explanation: |
   Voošifris kasutatakse üldiselt XOR toimingut võtmevoo ja sõnumi ühendamiseks, kuna see on lihtne ja pöörduv.
+reviewed: false

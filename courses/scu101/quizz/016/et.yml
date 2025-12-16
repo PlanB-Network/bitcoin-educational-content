@@ -6,3 +6,4 @@ wrong_answers:
   - See säästab mobiilandmeid.
 explanation: |
   VPN-i kasutamine kodus võib suurendada vahetatavate andmete turvalisust internetis. See tuleneb asjaolust, et VPN-id krüpteerivad andmeid, muutes kolmandate osapoolte jaoks raskemaks nende pealtkuulamise.
+reviewed: false

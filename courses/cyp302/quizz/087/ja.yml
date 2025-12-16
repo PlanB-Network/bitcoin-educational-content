@@ -6,3 +6,4 @@ wrong_answers:
   - SHA-256
 explanation: |
   CBC方式は初期化ベクトルを使用し、プレーンテキストの各ブロックと前の暗号化されたブロックとの間でXORを適用することで、暗号化を確率的にし、ECBよりも安全にします。
+reviewed: false

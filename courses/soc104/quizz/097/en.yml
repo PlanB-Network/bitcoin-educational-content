@@ -7,3 +7,4 @@ wrong_answers:
 explanation: |
   Hughes explicitly stated that 'We cannot expect governments, corporations, or other large anonymous organizations to guarantee us confidentiality' and that the main objective for Cypherpunks is 'to make people defend their confidentiality, rather than relying on someone else to provide it'.
   This reflects the core cypherpunk philosophy of individual responsibility and distrust of centralized institutions. The movement believed that cryptographic tools should empower individuals to protect themselves rather than depending on the very institutions they viewed as potential threats to privacy and freedom.
+reviewed: false

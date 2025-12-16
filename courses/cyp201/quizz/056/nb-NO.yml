@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Konstanten Bitcoin Seed brukes som en nøkkel i HMAC-SHA512-funksjonen for å utlede hovedprivatnøkkelen og hovedkjedekoden.
+reviewed: false

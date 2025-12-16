@@ -6,3 +6,4 @@ wrong_answers:
   - 以base58check编码
 explanation: |
   公钥必须先被压缩以减小其大小，然后才能通过HASH160哈希函数。
+reviewed: false

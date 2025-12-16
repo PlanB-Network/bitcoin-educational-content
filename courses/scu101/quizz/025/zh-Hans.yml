@@ -6,3 +6,4 @@ wrong_answers:
   - 使用容易记住的常见密码。
 explanation: |
   推荐将数据加密的密码写在纸上，并保存在一个安全的地方。这样做是为了防止丢失访问加密数据的权限。
+reviewed: false

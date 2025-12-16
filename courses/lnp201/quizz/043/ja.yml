@@ -6,4 +6,4 @@ wrong_answers:
   - 各チャネルの利用可能な流動性の正確な金額
 explanation: |
   流動性のある近隣のチャネルを示したり、プライベートチャネルを明らかにすることで、BobはAliceが成功確率の高いルートを選択するのを助けます。
-  レビュー済み: false
+reviewed: false

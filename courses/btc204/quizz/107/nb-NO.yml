@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Payjoin-transaksjonen faller under domenet til steganografi fordi den skjuler det reelle beløpet av en transaksjon innenfor en falsk transaksjon som fungerer som en avledning for eksterne observatører.
+reviewed: false

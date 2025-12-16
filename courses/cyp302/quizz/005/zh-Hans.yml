@@ -6,3 +6,4 @@ wrong_answers:
   - 信息发送的自动化
 explanation: |
   经典密码学主要关注于信息的保密性，这一目标在现代密码学中仍然至关重要，尽管增加了其他主题，如完整性和真实性。
+reviewed: false

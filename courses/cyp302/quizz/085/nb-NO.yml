@@ -6,3 +6,4 @@ wrong_answers:
   - En kryptering som ikke krever en hemmelig nøkkel
 explanation: |
   En block cipher er en algoritme som anvender en transformasjon på en bitstreng med fast lengde med en nøkkel for å produsere en annen streng av samme lengde.
+reviewed: false

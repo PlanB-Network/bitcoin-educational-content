@@ -6,3 +6,4 @@ wrong_answers:
   - SHA160
 explanation: |
   HASH160 сочетает в себе SHA256 и RIPEMD160 для генерации 160-битных отпечатков, в частности, для адресов Bitcoin.
+reviewed: false

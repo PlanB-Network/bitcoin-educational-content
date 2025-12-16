@@ -6,3 +6,4 @@ wrong_answers:
   - Garanteerida, et igal sõnumil on unikaalne võti
 explanation: |
   Kerckhoffi põhimõtte kohaselt peaks krüptograafilise süsteemi turvalisus sõltuma ainult salajasest võtmest, mitte algoritmi enda salajasusest.
+reviewed: false

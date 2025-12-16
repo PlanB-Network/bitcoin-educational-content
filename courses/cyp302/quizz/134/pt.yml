@@ -6,3 +6,4 @@ wrong_answers:
   - Permitir que Alice criptografe a mensagem para verificar sua integridade
 explanation: |
   Na criptografia assimétrica, a chave pública de Alice permite que Bob envie uma mensagem criptografada que somente ela pode descriptografar, garantindo assim a confidencialidade da mensagem.
+reviewed: false

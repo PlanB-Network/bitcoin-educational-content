@@ -6,3 +6,4 @@ wrong_answers:
   - Konkatener justeringen t og den offentlige nøkkelen P
 explanation: |
   Den Taproot offentlige nøkkelen Q oppnås ved å legge til det skalarproduktet av justeringen t med generatoren G til den offentlige nøkkelen P.
+reviewed: false

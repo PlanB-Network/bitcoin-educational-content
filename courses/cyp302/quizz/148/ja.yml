@@ -6,3 +6,4 @@ wrong_answers:
   - ガウス関数
 explanation: |
   オイラーのファイ関数（またはトーティエント関数）は、特に非素数の整数Nの互いに素な数を計算するために使用されます。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 一个用于保护交易的验证代码。
 explanation: |
   每个交易输入都是对UTXO的引用，意味着是之前交易的输出。
+reviewed: false

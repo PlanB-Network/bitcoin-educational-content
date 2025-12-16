@@ -6,3 +6,4 @@ wrong_answers:
   - Det går inte att dela upp texten i 128-bitarsblock
 explanation: |
   ECB-läget rekommenderas inte eftersom det ger deterministisk kryptering, vilket innebär att identiska block av klartext ger identiska block av chiffertext, vilket kan utnyttjas för att gissa information om klartexten.
+reviewed: false

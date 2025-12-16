@@ -6,3 +6,4 @@ wrong_answers:
   - To generate cryptographic signatures that prove asset ownership without revealing the underlying private key information
 explanation: |
   ECDH (Elliptic Curve Diffie-Hellman) key exchange in Liquid's Confidential Transactions specifically enables privacy-preserving asset transfers by allowing senders to encrypt transaction output values using the receiver's blinding public key. This creates a shared secret that only the receiver can decrypt with their private blinding key, while simultaneously generating range proofs that allow network validators to verify transaction validity without seeing the actual amounts. The other options incorrectly describe ECDH as serving communication security, descriptor registration, or ownership proof functions, which are handled by different cryptographic mechanisms in the Liquid ecosystem.
+reviewed: false

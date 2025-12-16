@@ -6,3 +6,4 @@ wrong_answers:
   - Gerar chaves privadas para cada comunicação
 explanation: |
   Um MAC é um esquema criptográfico que permite a verificação de que uma mensagem realmente vem do remetente legítimo e não foi alterada, garantindo assim a autenticidade e integridade.
+reviewed: false

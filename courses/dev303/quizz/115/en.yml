@@ -6,3 +6,4 @@ wrong_answers:
   - It eliminates the need for watchtower services by creating temporary channels that automatically expire after successful payment completion
 explanation: |
   The just-in-time channel mechanism specifically addresses Lightning's liquidity management challenge where funds can only flow in directions where capacity exists. When a user needs to receive a payment but lacks sufficient inbound liquidity, the LSP automatically opens a new channel at the moment the payment arrives, happening seamlessly without user intervention. The wrong answers describe other Lightning challenges but not the specific liquidity problem that just-in-time channels solve.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Tujuan dari BIP47 adalah untuk menyediakan pengenal unik yang memungkinkan penerimaan bitcoin berkali-kali dan dari banyak orang, tetapi tanpa menggunakan ulang alamat, karena ini adalah praktik yang sangat buruk untuk privasi pengguna.
+reviewed: false

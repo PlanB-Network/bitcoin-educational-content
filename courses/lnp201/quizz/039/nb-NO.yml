@@ -6,3 +6,4 @@ wrong_answers:
   - Kanalen kan ikke lukkes før HTLC-en har utløpt.
 explanation: |
   Under en tvungen lukking, representeres ventende HTLC-er som utganger i forpliktelsestransaksjonene, noe som sikrer deres utførelse eller retur i henhold til de definerte betingelsene.
+reviewed: false

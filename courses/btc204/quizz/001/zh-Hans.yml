@@ -6,3 +6,4 @@ wrong_answers:
   - 一个比特币的加密算法。
 explanation: |
   UTXO是未花费交易输出的简称，因此它本质上是“一块比特币”。
+reviewed: false

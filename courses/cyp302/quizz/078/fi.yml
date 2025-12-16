@@ -6,3 +6,4 @@ wrong_answers:
   - Tietokoneen kovakourainen hakkaaminen pakottaakseen sen luovuttamaan salaisen avaimen
 explanation: |
   Murtovoimahyökkäys sisältää kaikkien mahdollisten avainten systemaattisen testaamisen salatun viestin purkamiseksi.
+reviewed: false

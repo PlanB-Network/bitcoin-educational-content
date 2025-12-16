@@ -6,3 +6,4 @@ wrong_answers:
   - Den dekrypterer meldinger ved bruk av en offentlig nøkkel.
 explanation: |
   En hashfunksjon genererer en hash med fast lengde, uansett størrelsen på inndata.
+reviewed: false

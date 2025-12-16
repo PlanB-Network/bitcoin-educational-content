@@ -6,3 +6,4 @@ wrong_answers:
   - Outbound fee policies, routing philosophy patterns, and revenue generation data
 explanation: |
   The correct answer focuses on reconnaissance-level indicators available for any public network node before establishing relationships. Pool marketplace badges specifically identify nodes seeking liquidity, centrality scores indicate network importance, and health checks show reliability - exactly what's needed for partner scouting. The wrong answers either reference advanced analytics only available for existing channel partners (forwarding events, volume routed) or focus on fee analysis rather than partner identification criteria.
+reviewed: false

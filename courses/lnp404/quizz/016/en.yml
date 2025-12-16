@@ -6,3 +6,4 @@ wrong_answers:
   - 500 millisatoshis because it creates the lowest possible barrier to entry for routing payments
 explanation: |
   Lightning Labs specifically recommends 2,500 millisatoshis as the baseline because this middle-ground value gives the Auto-Fees algorithm necessary flexibility to adjust fees in both directions without immediately hitting floor or ceiling constraints. This strategic positioning allows the system to respond effectively to both demand surges (by increasing fees) and demand slumps (by decreasing fees) without being constrained by overly high or low starting points.
+reviewed: false

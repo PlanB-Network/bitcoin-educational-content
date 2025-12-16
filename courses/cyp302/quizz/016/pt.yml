@@ -6,3 +6,4 @@ wrong_answers:
   - Apenas dois valores podem ocorrer com probabilidades iguais
 explanation: |
   Uma variável uniforme é uma variável aleatória onde todos os valores possíveis têm uma probabilidade igual de ocorrer.
+reviewed: false

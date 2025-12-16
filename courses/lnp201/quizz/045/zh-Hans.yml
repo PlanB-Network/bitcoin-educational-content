@@ -6,3 +6,4 @@ wrong_answers:
   - 无需接收方确认即可发送资金
 explanation: |
   LNURL-withdraw允许用户通过扫描二维码从服务中提取资金，从而简化了提款过程。
+reviewed: false

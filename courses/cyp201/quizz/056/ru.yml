@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Константа Bitcoin Seed используется как ключ в функции HMAC-SHA512 для получения мастер-приватного ключа и мастер-кода цепочки.
+reviewed: false

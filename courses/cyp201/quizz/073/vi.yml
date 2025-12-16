@@ -6,3 +6,4 @@ wrong_answers:
   - /2/
 explanation: |
   Chuỗi bên ngoài được xác định bởi chỉ số /0/ ở độ sâu 4 của đường dẫn phái sinh.
+reviewed: false

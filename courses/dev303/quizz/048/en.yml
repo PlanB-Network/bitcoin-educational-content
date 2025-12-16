@@ -6,3 +6,4 @@ wrong_answers:
   - To prevent reference cycles and memory leaks when sharing data between multiple owners
 explanation: |
   RC<RefCell<T>> combines reference counting for shared ownership with interior mutability for runtime-checked mutations. RC allows multiple parts of code to own the same data, while RefCell enables mutation through immutable references by checking borrowing rules at runtime. The other options are incorrect: this pattern actually moves checks to runtime (not compile time), creates mutable (not immutable) shared data, and can actually cause reference cycles rather than prevent them.
+reviewed: false

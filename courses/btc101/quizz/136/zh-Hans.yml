@@ -6,3 +6,4 @@ wrong_answers:
 - 该节点将被比特币网络奖励
 explanation:
   如果用户决定遵循其他使当前共识规则无效的规则，那么这个节点将不再是比特币网络的一部分。
+reviewed: false

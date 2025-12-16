@@ -6,3 +6,4 @@ wrong_answers:
   - Et tall fra 1 til 26
 explanation: |
   I forskyvningskryptering er nøkkelen et tall mellom 0 og 25, som tilsvarer antall forskyvningsposisjoner som anvendes på hver bokstav i meldingen i et 26-bokstavers alfabet.
+reviewed: false

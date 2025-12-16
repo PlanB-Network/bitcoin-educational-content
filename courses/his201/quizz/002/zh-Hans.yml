@@ -6,3 +6,4 @@ wrong_answers:
   - 阈值签名
 explanation: |
   eCash基于盲签名过程，这允许签名者在不看到他们签名内容的情况下进行签名。
+reviewed: false

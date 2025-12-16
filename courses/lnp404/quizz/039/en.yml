@@ -6,3 +6,4 @@ wrong_answers:
   - It enables direct channel opening negotiations through integrated messaging protocols and automated liquidity matching services
 explanation: |
   Peer Insights' tiered architecture is specifically designed to serve two distinct use cases: network scouting (providing general data for any public node to assess potential partners) and relationship monitoring (unlocking detailed performance metrics using local data for existing channel partners). This dual capability distinguishes it from basic network explorers that only show static connectivity metrics. The wrong answers describe advanced features that aren't mentioned in the content - real-time fee updates, predictive modeling, and automated negotiation tools are not part of Peer Insights' actual functionality.
+reviewed: false

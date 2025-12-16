@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH ei ühildu SegWit'iga.
 explanation: |
   P2WPKH, mis tutvustati koos SegWit'iga, viib allkirjad eraldi sektsiooni nimega Witness, et vältida tehingute muudetavust.
+reviewed: false

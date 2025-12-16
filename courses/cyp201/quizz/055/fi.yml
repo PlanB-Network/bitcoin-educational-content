@@ -6,3 +6,4 @@ wrong_answers:
   - Neljään 128 bitin osaan
 explanation: |
   HMAC-SHA512: n tuotos jaetaan kahteen osaan pääyksityisavain (256 bittiä) ja pääketjukoodi (256 bittiä).
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - "The interactive nature of the game necessitates concurrent programming patterns that are fundamental to understanding Rust's async programming model"
 explanation: |
   The correct answer reflects the chapter's core educational philosophy: using a mechanically simple project to focus on professional development practices. The game's simplicity is intentional - it allows learners to concentrate on crucial skills like project structure, testing frameworks, code formatting with cargo fmt, static analysis with clippy, and third-party library integration. The wrong answers incorrectly suggest the game's value lies in algorithmic complexity, advanced type systems, or concurrency patterns, which would distract from the fundamental development practices the project is designed to teach.
+reviewed: false

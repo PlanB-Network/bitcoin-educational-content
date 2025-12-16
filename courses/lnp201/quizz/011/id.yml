@@ -6,3 +6,4 @@ wrong_answers:
   - Untuk memungkinkan Bob menghabiskan dana secara langsung
 explanation: |
   Alice membuat transaksi penarikan untuk mengambil kembali dananya jika terjadi masalah dengan Bob, sehingga memastikan keamanan depositnya.
+reviewed: false

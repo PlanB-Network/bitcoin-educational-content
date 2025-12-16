@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Det retrospektive anonset indikerer antallet mulige kilder for en gitt mynt, med tanke på UTXO ved slutten av syklusen.
+reviewed: false

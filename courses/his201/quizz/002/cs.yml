@@ -6,3 +6,4 @@ wrong_answers:
   - Threshold signatures (Práhové podpisy)
 explanation: |
   eCash je založen na procesu slepých podpisů, který umožňuje podepisujícímu podepsat něco, aniž by viděl, co podepisuje.
+reviewed: false

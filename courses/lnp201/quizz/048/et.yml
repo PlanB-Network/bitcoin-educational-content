@@ -6,3 +6,4 @@ wrong_answers:
   - Vahendid kantakse otse üle ilma lisaturvalisuseta
 explanation: |
   Keysend võimaldab saatjal genereerida HTLC-desse manustatud salajase koodi, mis võimaldab saajal vahendid vabastada ilma, et oleks väljastatud arvet.
+reviewed: false

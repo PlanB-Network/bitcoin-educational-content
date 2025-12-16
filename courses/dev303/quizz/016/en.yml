@@ -6,3 +6,4 @@ wrong_answers:
   - A reference creation that allows both variables to share read-only access
 explanation: |
   Rust performs a move operation by default when assigning complex types like String. This transfers ownership from the source to the destination variable while invalidating the source, preventing dangerous scenarios where multiple variables could modify the same heap memory. A deep copy would be inefficient for large strings, a shallow copy would create memory safety issues with multiple pointers to the same data, and reference creation requires explicit syntax with the ampersand operator.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 它确保使用唯一的密钥
 explanation: |
   Kerckhoff原则使得公众可以验证安全缺陷，如在开源系统中，这通过透明度使系统更加可靠。安全性仅通过密钥来确保，而不是通过加密过程本身。
+reviewed: false

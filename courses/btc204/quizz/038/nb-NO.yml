@@ -6,3 +6,4 @@ wrong_answers:
   - Sweeping.
 explanation: |
   CIOH er ikke anvendelig på transaksjoner som tar i bruk et samarbeidsmønster, fordi i dette spesifikke tilfellet kommer inndataene nødvendigvis fra forskjellige enheter.
+reviewed: false

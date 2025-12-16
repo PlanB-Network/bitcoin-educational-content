@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH ei ole yhteensopiva SegWitin kanssa.
 explanation: |
   P2WPKH, joka esiteltiin SegWitin yhteydessä, siirtää allekirjoitukset erilliseen osioon nimeltä Todistaja estääkseen transaktioiden muunneltavuuden.
+reviewed: false

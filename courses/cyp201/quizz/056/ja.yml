@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Bitcoin Seed 定数は、マスタープライベートキーとマスターチェーンコードを導出するために HMAC-SHA512 関数のキーとして使用されます。
+reviewed: false

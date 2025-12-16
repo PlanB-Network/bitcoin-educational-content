@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Täiustatud rikošett tagab, et iga tehing edastatakse erineval ajal ja registreeritakse erinevas plokis, samas kui klassikaline rikošett edastab kõik tehingud lühikese aja jooksul.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - The spending conditions become visible temporarily during spending but are hidden again afterward
 explanation: |
   P2SH provides privacy by hiding the actual spending conditions (redeem script) behind a hash in the scriptPubKey. Only the 20-byte hash is visible initially, concealing whether it's multisig, timelock, or other complex conditions. However, when the P2SH output is first spent, the full redeem script must be revealed on-chain for validation, making the spending conditions permanently visible to all network participants. This one-time revelation is the trade-off P2SH makes between privacy and functionality.
+reviewed: false

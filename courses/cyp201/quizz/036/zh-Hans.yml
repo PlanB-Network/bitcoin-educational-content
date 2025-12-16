@@ -6,3 +6,4 @@ wrong_answers:
   - 完全避免使用公钥
 explanation: |
   HD钱包从一个独特的种子派生所有私钥，这简化了备份并间接提高了隐私性。
+reviewed: false

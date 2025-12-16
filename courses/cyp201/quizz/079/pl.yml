@@ -6,3 +6,4 @@ wrong_answers:
   - Uproszczenie obliczeń podpisów cyfrowych
 explanation: |
   Deskryptory zawierają wszystkie informacje niezbędne do śledzenia konkretnego skryptu, w tym ścieżkę derywacji i użyte klucze, ale nie frazę odzyskiwania.
+reviewed: false

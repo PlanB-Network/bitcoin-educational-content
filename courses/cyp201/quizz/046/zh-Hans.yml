@@ -6,3 +6,4 @@ wrong_answers:
   - 6位
 explanation: |
   校验和的长度使用公式CS = ENT / 32来计算，对于128位的熵，等于4位。
+reviewed: false

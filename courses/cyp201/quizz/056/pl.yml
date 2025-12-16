@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Stała Bitcoin seed jest używana jako klucz w funkcji HMAC-SHA512 w celu uzyskania głównego klucza prywatnego i głównego kodu łańcucha.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Os fundos são creditados diretamente sem segurança adicional
 explanation: |
   Keysend permite que o remetente gere um segredo embutido nos HTLCs, possibilitando que o destinatário desbloqueie os fundos sem ter emitido uma fatura.
+reviewed: false

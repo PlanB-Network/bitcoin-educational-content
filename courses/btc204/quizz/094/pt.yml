@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   É aconselhado contra a mesclagem de UTXOs doxxic juntos porque permite que uma conexão seja feita entre as diferentes entradas do usuário no Whirlpool.
+reviewed: false

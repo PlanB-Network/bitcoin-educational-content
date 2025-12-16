@@ -6,3 +6,4 @@ wrong_answers:
   - Forenkle vekslinger mellom forskjellige kryptovalutaer
 explanation: |
   Lightning Network har som mål å forbedre Bitcoins skalerbarhet ved å muliggjøre raske og rimelige transaksjoner gjennom off-chain betalingskanaler.
+reviewed: false

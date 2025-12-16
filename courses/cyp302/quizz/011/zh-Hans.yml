@@ -6,3 +6,4 @@ wrong_answers:
   - 仅通过光纤发送数据
 explanation: |
   无线连接通过无线电波传输数据，这使得攻击者更容易拦截，因为它们不需要物理接入网络。
+reviewed: false

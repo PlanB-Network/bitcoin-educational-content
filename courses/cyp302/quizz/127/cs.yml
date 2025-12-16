@@ -6,3 +6,4 @@ wrong_answers:
   - Zjednodušené modulární dělení
 explanation: |
   Diffie-Hellman se spoléhá na jednosměrnou funkci, která je snadno vypočitatelná v jednom směru, ale prakticky nemožná k obrácení bez tajného kousku informace, nazývaného zadní vrátka.
+reviewed: false

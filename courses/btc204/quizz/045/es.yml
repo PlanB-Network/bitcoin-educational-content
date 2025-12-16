@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   El objetivo del BIP47 es proporcionar un identificador único que permita recibir bitcoins múltiples veces y de múltiples personas, pero sin reutilizar direcciones, ya que esto es una práctica muy mala para la privacidad del usuario.
+reviewed: false

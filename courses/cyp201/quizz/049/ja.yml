@@ -6,3 +6,4 @@ wrong_answers:
   - UTXOsのハッシュを生成するため
 explanation: |
   ニーモニックフレーズにより、ウォレット内のすべての秘密鍵と公開鍵を導出できるため、バックアップと復元が容易になります。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - SHA160
 explanation: |
   HASH160结合了SHA256和RIPEMD160来生成160位的指纹，特别用于比特币地址。
+reviewed: false

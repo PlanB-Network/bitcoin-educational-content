@@ -6,3 +6,4 @@ wrong_answers:
   - 它必须等于φ(N)
 explanation: |
   在RSA中，指数e的选择要求它大于2并且与φ(N)互质，这确保了操作的安全性。
+reviewed: false

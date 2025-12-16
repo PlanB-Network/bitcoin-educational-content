@@ -6,3 +6,4 @@ wrong_answers:
   - 总共256位
 explanation:
   在RSA等现代密码系统中，选择的质数通常是每个1024位，这使得因式分解极其困难，并增强了安全性。
+reviewed: false

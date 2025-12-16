@@ -6,3 +6,4 @@ wrong_answers:
   - Todistajan skriptin tarkiste
 explanation: |
   Etuliite `wpkh` viittaa SegWit v0 skriptiin, joka käyttää Maksa-todistaja-julkisen-avaimen-tarkisteelle osoitteita.
+reviewed: false

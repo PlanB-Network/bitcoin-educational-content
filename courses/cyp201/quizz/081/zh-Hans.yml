@@ -6,3 +6,4 @@ wrong_answers:
   - P2WPKH与SegWit不兼容。
 explanation: |
   P2WPKH是与SegWit一同引入的，它将签名移动到一个称为见证人的单独部分，以防止交易可变性。
+reviewed: false

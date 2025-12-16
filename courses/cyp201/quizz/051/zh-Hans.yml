@@ -6,3 +6,4 @@ wrong_answers:
   - PIN码生成比特币地址
 explanation: |
   与PIN码不同，密码短语直接参与密钥派生过程，并改变钱包密钥。
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Payjoin-siirto kuuluu steganografian alueeseen, koska se piilottaa todellisen siirtosumman väärennetyn siirron sisään, joka toimii harhautuksena ulkopuolisille tarkkailijoille.
+reviewed: false

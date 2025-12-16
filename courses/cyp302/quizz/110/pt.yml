@@ -6,3 +6,4 @@ wrong_answers:
   - A exigência de usar uma chave pública em adição a uma chave privada
 explanation: |
   O RC4 apresenta fraquezas significativas na geração do fluxo de chaves, o que expõe a criptografia a ataques, levando ao seu abandono gradual nos protocolos de segurança modernos.
+reviewed: false

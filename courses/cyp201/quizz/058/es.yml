@@ -6,3 +6,4 @@ wrong_answers:
   - AES-256
 explanation: |
   La semilla se genera utilizando la función PBKDF2 con HMAC-SHA512 y 2048 iteraciones, a partir de la frase mnemotécnica y la frase de paso.
+reviewed: false

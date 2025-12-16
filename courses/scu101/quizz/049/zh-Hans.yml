@@ -6,3 +6,4 @@ wrong_answers:
   - 它的设置过于复杂
 explanation: |
   SMS不被认为是2FA的最佳选择，因为它只提供了对一个电话号码的拥有权证明，而不是身份的证明。
+reviewed: false

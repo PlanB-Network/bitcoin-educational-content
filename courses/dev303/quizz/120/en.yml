@@ -6,3 +6,4 @@ wrong_answers:
   - LSP services can now monitor all on-chain transactions and link them to Lightning payment patterns
 explanation: |
   The correct answer identifies the key privacy degradation: cloud-based routing allows Greenlight to potentially observe payment destinations, while cloud invoice generation expands information exposure beyond what traditional LSP-only architectures revealed. The wrong answers are incorrect because: private keys remain under user control despite cloud architecture; channel states aren't made publicly visible through routing; and LSPs don't gain additional on-chain transaction monitoring capabilities through this architectural change.
+reviewed: false

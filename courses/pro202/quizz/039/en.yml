@@ -6,3 +6,4 @@ wrong_answers:
   - The two-step validation process can fail randomly causing permanent fund loss
 explanation: |
   P2SH introduces a unique security requirement: both the private keys AND the redeem script are necessary to spend funds. Unlike standard transactions where only private keys are needed, P2SH requires the actual redeem script to be provided during spending. If the redeem script is lost, the funds become permanently inaccessible regardless of having the correct private keys, because the spending conditions cannot be reconstructed or validated.
+reviewed: false

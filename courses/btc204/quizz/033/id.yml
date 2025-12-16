@@ -6,3 +6,4 @@ wrong_answers:
   - Output yang bulat adalah alamat cadangan.
 explanation: |
   Ketika dihadapkan pada pola pembayaran sederhana (1 input dan 2 output), jika salah satu output menghabiskan jumlah yang bulat, maka itu mewakili pembayaran. Ini berarti meninggalkan kepemilikan pengguna input.
+reviewed: false

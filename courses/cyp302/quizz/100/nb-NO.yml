@@ -6,3 +6,4 @@ wrong_answers:
   - Legge til et ekstra lag med kryptering
 explanation: |
   I et autentisert krypteringsskjema brukes en nonce for å sikre at hver melding har en unik tag, noe som øker sikkerheten ved å forhindre gjentakelser.
+reviewed: false

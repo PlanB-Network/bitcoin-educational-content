@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Para ejecutar un intercambio de monedas, se pueden utilizar HTLCs (Contratos Bloqueados por Tiempo y Hash) o PTLCs (Contratos Bloqueados por Tiempo y Punto).
+reviewed: false

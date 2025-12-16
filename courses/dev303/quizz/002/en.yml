@@ -6,3 +6,4 @@ wrong_answers:
   - The variable requires explicit type annotation to compile successfully
 explanation: |
   In Rust, variables are immutable by default when declared with 'let'. This means once you assign a value to a variable like 'let x = 5', you cannot change that value later in the program. If you try to modify it, the compiler will produce an error. This default immutability is a key safety feature that prevents many common programming bugs caused by unexpected state changes. To make a variable mutable, you must explicitly use the 'mut' keyword like 'let mut x = 5'.
+reviewed: false

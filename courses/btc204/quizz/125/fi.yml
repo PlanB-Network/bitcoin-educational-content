@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Kolikkovaihto käyttää älykkäitä sopimuksia mahdollistaakseen bitcoinien omistusoikeuden siirron kahden käyttäjän välillä ilman luottamuksen tarvetta ja ilman, että tämä siirto näkyy eksplisiittisesti lohkoketjussa.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Hash de Script de Testigo
 explanation: |
   El prefijo `wpkh` indica un script SegWit v0 usando direcciones de Pago-a-Testigo-Hash-de-Clave-Pública.
+reviewed: false

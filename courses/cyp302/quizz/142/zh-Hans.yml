@@ -6,3 +6,4 @@ wrong_answers:
   - 可逆函数
 explanation: |
   单向函数允许在一个方向上快速计算，但使得逆向求解在实践中几乎不可能，因此它们在密码学中非常有用。
+reviewed: false

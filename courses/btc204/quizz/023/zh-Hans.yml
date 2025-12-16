@@ -6,3 +6,4 @@ wrong_answers:
   - 输入中的UTXOs来自2个不同的用户，而输出中的那个仍然属于这2个用户。
 explanation: |
   我们很可能处于一个整合的情况。因此，输入和输出有着共同的所有权。
+reviewed: false

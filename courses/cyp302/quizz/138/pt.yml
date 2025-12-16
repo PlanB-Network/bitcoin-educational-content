@@ -6,3 +6,4 @@ wrong_answers:
   - Gerabilidade em tempo real
 explanation: |
   A resistência a colisões garante que é praticamente impossível encontrar duas entradas diferentes que produzam o mesmo hash, o que é importante para verificar que o software não foi adulterado.
+reviewed: false

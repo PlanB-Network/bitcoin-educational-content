@@ -6,3 +6,4 @@ wrong_answers:
   - 创建锁定脚本以保护比特币
 explanation: |
   私钥用于签署交易以满足脚本并解锁比特币。
+reviewed: false

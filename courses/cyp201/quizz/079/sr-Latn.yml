@@ -6,3 +6,4 @@ wrong_answers:
   - Pojednostavite izračunavanje digitalnih potpisa
 explanation: |
   Deskriptori obuhvataju sve neophodne informacije za praćenje određenog skripta, uključujući put derivacije i korišćene ključeve, ali ne i frazu za oporavak.
+reviewed: false

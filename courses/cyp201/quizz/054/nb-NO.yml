@@ -6,3 +6,4 @@ wrong_answers:
   - Beskytte tilgang til lommeboken med ansikts-ID
 explanation: |
   Passfrasen fungerer som en andre sikkerhetsfaktor, ved å endre nøkkelavledningens frø for å forhindre tilgang til lommeboken i tilfelle den mnemoniske frasen er kompromittert.
+reviewed: false

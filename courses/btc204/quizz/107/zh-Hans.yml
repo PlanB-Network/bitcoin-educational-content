@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Payjoin交易属于隐写术的范畴，因为它在一个假交易中隐藏了真实的交易金额，这个假交易对外部观察者起到了诱饵的作用。
+reviewed: false

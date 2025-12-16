@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   回顾性匿名集指的是考虑到周期结束时的UTXO，给定硬币的可能来源数量。
+reviewed: false

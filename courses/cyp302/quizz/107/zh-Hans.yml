@@ -6,3 +6,4 @@ wrong_answers:
   - 攻击者使用一条旧消息创建一条新消息
 explanation: |
   在反射攻击中，攻击者截获Alice发给Bob的消息，并将同一消息发送回Alice，导致会话中的混乱。
+reviewed: false

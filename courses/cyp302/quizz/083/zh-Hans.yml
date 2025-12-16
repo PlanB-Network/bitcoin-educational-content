@@ -6,3 +6,4 @@ wrong_answers:
   - 它们不需要密钥更新
 explanation: |
   伪随机流密码更加实用，因为它们允许将短密钥扩展成更长的密钥流，避免了需要存储与消息本身一样长的密钥的需求。
+reviewed: false

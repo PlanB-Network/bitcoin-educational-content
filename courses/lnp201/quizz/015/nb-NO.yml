@@ -6,3 +6,4 @@ wrong_answers:
   - Åpningen av en ny betalingskanal
 explanation: |
   En forpliktelsestransaksjon representerer den nåværende fordelingen av midler i kanalen etter hver Lightning-transaksjon, men publiseres ikke på blokkjeden så lenge kanalen forblir åpen.
+reviewed: false

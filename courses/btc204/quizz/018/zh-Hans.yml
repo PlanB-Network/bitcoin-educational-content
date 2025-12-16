@@ -6,3 +6,4 @@ wrong_answers:
   - 外部交易启发式。
 explanation: |
   链分析中使用的启发式可以分为三个类别；交易模式（或交易模型）、内部交易启发式和外部交易启发式。
+reviewed: false

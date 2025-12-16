@@ -6,3 +6,4 @@ wrong_answers:
   - Tạo một thẻ, sau đó sử dụng khóa công khai để mã hóa nó
 explanation: |
   Để đảm bảo an ninh, mã hóa xác thực phải mã hóa tin nhắn trước, sau đó tạo ra một thẻ trên văn bản đã mã hóa. Các thứ tự khác có thể tiềm ẩn rủi ro.
+reviewed: false

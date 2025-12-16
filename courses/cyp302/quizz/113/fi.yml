@@ -6,3 +6,4 @@ wrong_answers:
   - Se toimii vain väliaikaisena datan säilytyspaikkana prosessin loppuun asti
 explanation: |
   K-taulukkoa käytetään S-taulukon muuntamiseen avainsuunnitteluprosessissa, mikä mahdollistaa pseudosatunnaisen avainvirran tuottamisen selkotekstin salaamiseksi.
+reviewed: false

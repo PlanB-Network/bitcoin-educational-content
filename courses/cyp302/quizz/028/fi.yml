@@ -6,3 +6,4 @@ wrong_answers:
   - -1
 explanation: |
   XOR-operaatiossa 0 XOR 1 tuottaa tuloksen 1, koska bitit ovat erilaiset.
+reviewed: false

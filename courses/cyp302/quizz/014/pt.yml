@@ -6,3 +6,4 @@ wrong_answers:
   - Usar apenas conexões com fio
 explanation: |
   Em um mundo onde muitos canais de comunicação são suscetíveis à interceptação, é prudente presumir que uma terceira parte possa estar ouvindo, tornando a criptografia essencial.
+reviewed: false

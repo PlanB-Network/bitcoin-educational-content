@@ -6,3 +6,4 @@ wrong_answers:
   - Cả khóa riêng tư con cứng và bình thường
 explanation: |
   Một khóa công khai mở rộng chỉ cho phép suy ra các khóa công khai con bình thường, không phải khóa riêng tư hoặc khóa cứng.
+reviewed: false

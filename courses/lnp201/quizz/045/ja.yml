@@ -6,4 +6,4 @@ wrong_answers:
   - 受取人の確認なしに資金を送る
 explanation: |
   LNURL-withdrawは、ユーザーがQRコードをスキャンすることでサービスから資金を引き出すことを可能にし、引き出しプロセスを簡素化します。
-  レビュー済み: false
+reviewed: false

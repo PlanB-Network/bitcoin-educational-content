@@ -6,3 +6,4 @@ wrong_answers:
   - The hash collision problem
 explanation: |
   ECDSA security relies on the elliptic curve discrete logarithm problem: given P = eG, computing P from e and G is easy, but deriving the private key e from the public key P is computationally infeasible. This one-way mathematical relationship enables secure public key cryptography with smaller key sizes than RSA, which depends on integer factorization.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Um grupo sem um elemento neutro
 explanation: |
   Um grupo abeliano é um grupo no qual a ordem dos elementos na operação não afeta o resultado, significando que adere à comutatividade.
+reviewed: false

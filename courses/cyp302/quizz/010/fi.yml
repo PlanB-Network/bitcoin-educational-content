@@ -6,3 +6,4 @@ wrong_answers:
   - Se korvaa fyysiset kaapelit turvallisella viestinnällä.
 explanation: |
   Avoimessa viestintäympäristössä, jossa kanavia voidaan tarkkailla, kryptografia varmistaa turvallisuuden suojaamalla vaihdetut tiedot, jopa potentiaalisten hyökkäysten läsnäollessa.
+reviewed: false

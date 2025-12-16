@@ -6,3 +6,4 @@ wrong_answers:
   - De tekst kan niet in 128-bits blokken worden verdeeld
 explanation: |
   ECB mode wordt niet aanbevolen omdat het deterministische encryptie produceert, wat betekent dat identieke blokken plaintext identieke blokken ciphertext opleveren, wat gebruikt kan worden om informatie over de plaintext te raden.
+reviewed: false

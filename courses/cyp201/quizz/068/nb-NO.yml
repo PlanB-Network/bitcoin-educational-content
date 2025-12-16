@@ -6,3 +6,4 @@ wrong_answers:
   - Prosessen må inkludere den private nøkkelen til forelderen
 explanation: |
   En barneoffentlig nøkkel kan kun utledes fra en forelderoffentlig nøkkel hvis den er normal, ikke herdet.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 资金被永久阻塞
 explanation:
   如果HTLC在没有揭示秘密的情况下到期，支付会被取消，资金返回给发送者，从而防止任何中介节点保留资金。
+reviewed: false

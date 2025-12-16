@@ -6,3 +6,4 @@ wrong_answers:
   - A lock-based system that synchronizes access between multiple owners of the same data
 explanation: |
   RC maintains an internal reference counter that increments when cloned and decrements when dropped, ensuring memory is only freed when no references remain. This differs from compile-time analysis (which Box uses), garbage collection (which Rust doesn't employ), or locking mechanisms (which are used for thread synchronization, not ownership tracking). The counter-based approach allows safe shared ownership without runtime overhead of garbage collection or the restrictions of single ownership.
+reviewed: false

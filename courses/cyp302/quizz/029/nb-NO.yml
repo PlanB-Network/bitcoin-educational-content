@@ -6,3 +6,4 @@ wrong_answers:
   - Den returnerer alltid 0 uavhengig av resultatet
 explanation: |
   XOR-operasjonen (eller eksklusiv eller) produserer 1 hvis de to bitene er forskjellige (0 og 1 eller 1 og 0) og 0 hvis de er like.
+reviewed: false

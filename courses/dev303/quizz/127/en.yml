@@ -6,3 +6,4 @@ wrong_answers:
   - Lightning payments must be processed through centralized routing nodes, making it impossible to maintain truly non-custodial wallet architecture
 explanation: |
   The correct answer identifies the core architectural difference between Lightning and on-chain payments. On-chain Bitcoin transactions are permanently recorded on the blockchain, making payment history retrieval straightforward through blockchain queries. Lightning payments, however, exist only as temporary channel states and leave no permanent blockchain record, forcing developers to implement custom tracking and storage systems. The wrong answers are incorrect because: Lightning payments are computationally efficient (not resource-intensive), they maintain the same cryptographic security as Bitcoin, and routing is decentralized (not centralized).
+reviewed: false

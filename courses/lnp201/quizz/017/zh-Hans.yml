@@ -6,3 +6,4 @@ wrong_answers:
   - 发票通过比特币上的链上交易支付。
 explanation:
   当Bob向Alice发送一张发票时，她创建并签署了一个新的承诺交易来调整资金的分配，从而在通道中转移30,000 satoshis。
+reviewed: false

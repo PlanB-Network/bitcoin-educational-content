@@ -6,3 +6,4 @@ wrong_answers:
   - Iga sõlme poolt määratud marsruudi tasud
 explanation: |
   Maksimaalne summa, mida kaudne makse saab üle kanda, sõltub kasutatavate kanalite madalaimast saadaolevast likviidsusest, kuna iga kanal peab kohandama vahendeid mõlemal poolel.
+reviewed: false

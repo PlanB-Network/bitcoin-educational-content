@@ -6,3 +6,4 @@ wrong_answers:
   - Fakturaen betales gjennom en on-chain transaksjon på Bitcoin.
 explanation: |
   Når Bob sender en faktura til Alice, oppretter og signerer hun en ny forpliktelsestransaksjon for å justere fordelingen av midler, og overfører dermed 30 000 satoshis i kanalen.
+reviewed: false

@@ -8,3 +8,4 @@ explanation: |
   Optimum güvenlik için, güvenli bir e-posta adresi, güvenli bir parola yöneticisi ve YubiKeys ile 2FA'yı benimsemeniz tavsiye edilir.
   Ayrıca, kayıp veya hırsızlık ihtimaline karşı, iki adet YubiKeys satın almanız tavsiye edilir.
   reviewed: true
+reviewed: false

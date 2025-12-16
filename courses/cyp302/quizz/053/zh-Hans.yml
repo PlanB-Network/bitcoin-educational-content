@@ -6,3 +6,4 @@ wrong_answers:
   - 向量域
 explanation: |
   有限域也被称为伽罗瓦域，以数学家埃瓦里斯特·伽罗瓦的名字命名，它在现代密码学中非常重要。
+reviewed: false

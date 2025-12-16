@@ -6,3 +6,4 @@ wrong_answers:
   - La necesidad de usar una clave pública además de una clave privada
 explanation: |
   RC4 tiene debilidades significativas en la generación de la secuencia de claves, lo que expone la encriptación a ataques, de ahí su abandono gradual en los protocolos de seguridad modernos.
+reviewed: false

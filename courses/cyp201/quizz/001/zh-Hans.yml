@@ -6,3 +6,4 @@ wrong_answers:
   - 二次原像抗性
 explanation: |
   原像抗性确保从其哈希值找回原始消息在实践中是不可能的。
+reviewed: false

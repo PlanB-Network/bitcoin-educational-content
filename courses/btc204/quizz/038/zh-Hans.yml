@@ -6,3 +6,4 @@ wrong_answers:
   - 清扫。
 explanation:
   CIOH不适用于采用协作模式的交易，因为在这种特定情况下，输入必然来自不同的实体。
+reviewed: false

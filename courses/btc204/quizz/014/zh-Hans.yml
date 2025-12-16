@@ -6,3 +6,4 @@ wrong_answers:
   - 只有政府能够访问交易详情。
 explanation: |
   在比特币的情况下，由于信息流动不能在交易和公共领域之间断开，隐私模型依赖于用户身份和交易之间的分离。
+reviewed: false

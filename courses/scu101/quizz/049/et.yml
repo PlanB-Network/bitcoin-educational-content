@@ -6,3 +6,4 @@ wrong_answers:
   - Selle seadistamine on liiga keeruline
 explanation: |
   SMS-i ei peeta parimaks valikuks 2FA jaoks, kuna see annab ainult tõendi telefoninumbri olemasolust, mitte isikutõendi.
+reviewed: false

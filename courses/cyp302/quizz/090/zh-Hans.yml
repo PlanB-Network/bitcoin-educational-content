@@ -6,3 +6,4 @@ wrong_answers:
   - 因为流密码总是更慢
 explanation: |
   流密码被设计为连续加密数据（逐位或逐字节），这使得它们在需要以固定大小块处理的块模式中的使用变得复杂。
+reviewed: false

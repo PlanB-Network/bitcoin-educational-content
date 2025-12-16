@@ -6,3 +6,4 @@ wrong_answers:
   - Simplificar los cálculos de firmas digitales
 explanation: |
   Los descriptores encapsulan toda la información necesaria para rastrear un script particular, incluyendo la ruta de derivación y las claves utilizadas, pero no la frase de recuperación.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Digitaalinen kopio käsinkirjoitetusta allekirjoituksesta
 explanation: |
   Digitaalinen allekirjoitus on kryptografinen tekniikka, joka todistaa viestin todella olevan sen yksityisen avaimen omistajan luoma, varmistaen näin sen aitouden.
+reviewed: false

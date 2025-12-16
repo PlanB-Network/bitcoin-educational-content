@@ -6,3 +6,4 @@ wrong_answers:
   - Eles limitam a gama de possibilidades ao diminuir o número de elementos.
 explanation: |
   Campos de extensão com base 2 são convenientes porque seus elementos podem ser vistos como cadeias binárias, facilitando a realização de operações em dados digitais no nível binário em sistemas.
+reviewed: false

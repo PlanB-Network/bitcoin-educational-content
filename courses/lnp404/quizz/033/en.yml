@@ -6,3 +6,4 @@ wrong_answers:
   - Node Level, Channel Level, Peer Level
 explanation: |
   Auto Loop operates in a three-tier hierarchy starting with the broadest scope and narrowing down. Node Level manages the aggregate liquidity of the entire node, Peer Level handles total balance across all channels with a specific peer, and Channel Level provides micro-management of individual high-priority channels. This hierarchical structure allows operators to set automated liquidity management policies at different granularities, ensuring comprehensive coverage from general node health down to specific channel requirements.
+reviewed: false

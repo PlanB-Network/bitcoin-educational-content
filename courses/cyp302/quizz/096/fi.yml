@@ -6,3 +6,4 @@ wrong_answers:
   - Viestin hajautus, tagin salaaminen, tagin jakelu
 explanation: |
   MAC-järjestelmä koostuu kolmesta päävaiheesta: salaisen avaimen luominen, viestille tagin tuottaminen ja vastaanotetun viestin sekä sen tagin vastaavuuden varmistaminen.
+reviewed: false

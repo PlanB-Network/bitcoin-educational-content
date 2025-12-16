@@ -6,3 +6,4 @@ wrong_answers:
   - 它将明文分割成128位块
 explanation: |
   AES中的字节替换操作（S-Box）通过根据一个表将每个字节替换为一个不同的值来引入混淆，使加密文本更难以分析。
+reviewed: false

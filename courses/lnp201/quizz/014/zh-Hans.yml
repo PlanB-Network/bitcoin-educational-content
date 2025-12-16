@@ -6,3 +6,4 @@ wrong_answers:
   - 验证每个参与者的资金余额
 explanation:
   开设通道的最后一步是在区块链上发布存款交易，这正式开启了通道。
+reviewed: false

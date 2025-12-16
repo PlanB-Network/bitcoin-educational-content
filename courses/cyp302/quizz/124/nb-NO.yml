@@ -6,3 +6,4 @@ wrong_answers:
   - Det forhindrer gjenbruk av nøkler for gjentatte transaksjoner
 explanation: |
   Å utveksle nøkler personlig er kostbart og ineffektivt, spesielt i stor skala, ettersom det bremser transaksjoner og pålegger betydelige logistikkostnader for hver ny klient.
+reviewed: false

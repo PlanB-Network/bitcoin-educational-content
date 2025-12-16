@@ -6,3 +6,4 @@ wrong_answers:
   - Mekanisme verifikasi identitas.
 explanation: |
   Platform ini biasanya menggunakan mekanisme perlindungan di mana bitcoin ditahan sampai penjual mengonfirmasi pembayaran dalam mata uang fiat. Mekanisme penahanan oleh pihak ketiga ini mewakili apa yang dikenal sebagai escrow.
+reviewed: false

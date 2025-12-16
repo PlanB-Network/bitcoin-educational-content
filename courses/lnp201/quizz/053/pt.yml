@@ -6,3 +6,4 @@ wrong_answers:
   - Para limitar o uso da blockchain do Bitcoin
 explanation: |
   Um roteador visa rotear o maior número possível de pagamentos para coletar taxas, o que requer uma boa distribuição de liquidez em ambos os lados dos canais para garantir a capacidade de roteamento.
+reviewed: false

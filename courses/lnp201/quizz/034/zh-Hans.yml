@@ -6,3 +6,4 @@ wrong_answers:
   - 路径上每个节点的加密签名
 explanation:
   发送节点必须知道网络拓扑以计算到接收者的路由，这使其能够选择最佳路径。
+reviewed: false

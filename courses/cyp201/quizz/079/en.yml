@@ -6,3 +6,4 @@ wrong_answers:
   - Simplify the calculations of digital signatures
 explanation: |
   Descriptors encapsulate all the necessary information to track a particular script, including the derivation path and the keys used, but not the recovery phrase.
+reviewed: false

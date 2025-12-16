@@ -6,3 +6,4 @@ wrong_answers:
   - Dividiendo la clave entre cada letra cifrada y aplicando módulo 27
 explanation: |
   En el cifrado César, el descifrado se realiza restando la clave de cada letra cifrada, luego aplicando módulo 26 para volver al texto original. El módulo 26 permite volver al inicio del alfabeto después de la letra Z.
+reviewed: false

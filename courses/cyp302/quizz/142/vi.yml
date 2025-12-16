@@ -6,3 +6,4 @@ wrong_answers:
   - Hàm có thể đảo ngược
 explanation: |
   Hàm một chiều cho phép tính toán nhanh chóng theo một hướng, nhưng làm cho việc giải quyết ngược lại trở nên gần như không thể, do đó là tiện ích của chúng trong mật mã học.
+reviewed: false

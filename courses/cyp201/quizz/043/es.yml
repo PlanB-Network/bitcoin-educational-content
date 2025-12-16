@@ -6,3 +6,4 @@ wrong_answers:
   - 64 bits
 explanation: |
   Una frase mnemotécnica de 24 palabras se basa en 256 bits de entropía, asegurando una seguridad muy alta.
+reviewed: false

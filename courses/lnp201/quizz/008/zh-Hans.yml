@@ -6,3 +6,4 @@ wrong_answers:
   - 它仅用于将资金发送到公共地址。
 explanation:
   一个2/2多重签名地址需要涉及双方的签名，资金才能被使用，这用于提高闪电网络通道的安全性。
+reviewed: false

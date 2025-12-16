@@ -6,3 +6,4 @@ wrong_answers:
   - En cada etapa de la operación XOR
 explanation: |
   Los Campos de Galois se utilizan en la sustitución de bytes para calcular el inverso multiplicativo y en la operación MixColumns para realizar multiplicaciones módulo un polinomio irreducible.
+reviewed: false

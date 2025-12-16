@@ -6,3 +6,4 @@ wrong_answers:
   - "Bitcoin's open source nature makes it harder to fix bugs after deployment"
 explanation: |
   The correct answer highlights Bitcoin's fundamental characteristic: its decentralized nature means there's no authority to appeal to for fund recovery once transactions are broadcast. Unlike traditional financial systems with regulatory protections and chargeback mechanisms, Bitcoin mistakes are permanent and irreversible. The wrong answers misunderstand the core issue - it's not about development speed, compiler limitations, or open source challenges, but about the irreversible nature of financial operations in a decentralized system where user funds are at permanent risk.
+reviewed: false

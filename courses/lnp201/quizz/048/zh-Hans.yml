@@ -6,3 +6,4 @@ wrong_answers:
   - 资金直接入账，无需额外安全措施
 explanation: |
   Keysend允许发送方在HTLCs中嵌入一个秘密，使接收方能够在没有开具发票的情况下解锁资金。
+reviewed: false

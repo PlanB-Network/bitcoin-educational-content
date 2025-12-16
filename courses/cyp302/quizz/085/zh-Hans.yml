@@ -6,3 +6,4 @@ wrong_answers:
   - 一种不需要密钥的加密
 explanation: |
   块密码是一种算法，它使用密钥对固定长度的比特串进行转换，以产生另一个相同长度的字符串。
+reviewed: false

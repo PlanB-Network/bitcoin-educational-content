@@ -6,3 +6,4 @@ wrong_answers:
   - RUST_PANIC_TRACE
 explanation: |
   RUST_BACKTRACE is the correct environment variable that provides additional debugging information by showing the complete call stack that led to a panic. This helps developers trace exactly which sequence of function calls resulted in the error. The other options (RUST_STACKTRACE, RUST_DEBUG_TRACE, and RUST_PANIC_TRACE) are not valid Rust environment variables and will not produce any debugging output when a panic occurs.
+reviewed: false

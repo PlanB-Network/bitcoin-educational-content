@@ -6,3 +6,4 @@ wrong_answers:
   - Saata vahendeid kõikidele marsruudi sõlmedele samaaegselt
 explanation: |
   Sibulmarsruutimine tähendab, et iga vahesõlm teab ainult eelmist ja järgmist sõlme, säilitades seeläbi lõppsaaja konfidentsiaalsuse.
+reviewed: false

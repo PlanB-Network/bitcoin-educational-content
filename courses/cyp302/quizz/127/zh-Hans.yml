@@ -6,3 +6,4 @@ wrong_answers:
   - 一个简化的模除法
 explanation: |
   Diffie-Hellman依赖于一个单向函数，这个函数在一个方向上容易计算，但在没有一个被称为后门的秘密信息的情况下，实际上不可能反向计算。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Para generar un hash para los UTXOs
 explanation: |
   La frase mnemotécnica permite la derivación de todas las claves privadas y públicas en una cartera, facilitando así la copia de seguridad y la recuperación.
+reviewed: false

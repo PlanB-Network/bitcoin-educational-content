@@ -6,3 +6,4 @@ wrong_answers:
   - Fullstendig unngå bruk av offentlige nøkler
 explanation: |
   HD-lommebøker genererer alle private nøkler fra en unik seed, noe som forenkler sikkerhetskopiering og indirekte forbedrer personvernet.
+reviewed: false

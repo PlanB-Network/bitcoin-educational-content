@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_NONSTANDARD
 explanation: |
   SIGHASH_ANYONECANPAYは、sighashフラグを修正して単一の入力のみをカバーし、残りを変更可能にします。
+reviewed: false

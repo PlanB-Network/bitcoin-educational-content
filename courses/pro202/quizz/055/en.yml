@@ -6,3 +6,4 @@ wrong_answers:
   - Up to 500 headers can be returned, each followed by the Merkle root hash for verification
 explanation: |
   Bitcoin's P2P protocol specifically limits getheaders responses to a maximum of 2000 headers to prevent overwhelming nodes with massive responses. Each header is exactly 80 bytes and is followed by a transaction count field set to zero, since headers-only messages don't include actual transactions. This design allows efficient chain synchronization where nodes can quickly download and verify the proof-of-work chain structure before requesting full block data.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   交易的效率是通过从分析的交易的实际熵中减去最大熵来计算的。
+reviewed: false

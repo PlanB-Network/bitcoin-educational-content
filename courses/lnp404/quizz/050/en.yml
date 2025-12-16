@@ -6,3 +6,4 @@ wrong_answers:
   - The private key fragmentation risk where each application generates its own cryptographic material
 explanation: |
   LND Accounts solve the 'blast radius' problem by creating sandboxed environments with strict budget limits and granular permissions. Without this architecture, all applications typically have broad access to the node's full balance, meaning a single compromised application could drain everything. The wrong answers describe issues that either don't exist (double-spending is prevented by Lightning's cryptographic design) or aren't the primary security concern LND Accounts address (channel capacity management and key fragmentation).
+reviewed: false

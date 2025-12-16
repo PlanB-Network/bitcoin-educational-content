@@ -6,3 +6,4 @@ wrong_answers:
   - Plokiahela Juur
 explanation: |
   Konstanti Bitcoin Seed kasutatakse võtmena HMAC-SHA512 funktsioonis, et tuletada peamine privaatvõti ja peamine ahelakood.
+reviewed: false

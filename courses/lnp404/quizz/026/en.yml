@@ -6,3 +6,4 @@ wrong_answers:
   - Batched channels share liquidity between each other, allowing funds to be redistributed dynamically based on demand
 explanation: |
   The correct answer identifies the core economic benefit of batch opens: cost efficiency through transaction consolidation. Instead of paying separate mining fees and consuming block space for each individual channel opening, batch opens aggregate multiple channels into one transaction, dramatically reducing the per-channel cost. The wrong answers confuse batch opens with other Lightning Network concepts - batching doesn't affect routing fee optimization, doesn't provide mining priority or enhanced visibility, and doesn't enable liquidity sharing between channels (each channel remains independently funded).
+reviewed: false

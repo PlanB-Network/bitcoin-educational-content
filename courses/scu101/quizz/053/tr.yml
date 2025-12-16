@@ -8,3 +8,4 @@ explanation: |
   Biyometrik veriler daha az güvenlidir çünkü kimlik doğrulama cihazına kaydedilmeli ve çevrimiçi olarak ifşa edilmemelidir. 
   Eğer çevrimiçi olarak ifşa edilirse, çalınabilir ve yetkisiz erişim için kullanılabilir.
   reviewed: true
+reviewed: false

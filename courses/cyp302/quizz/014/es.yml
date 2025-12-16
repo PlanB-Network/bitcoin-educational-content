@@ -6,3 +6,4 @@ wrong_answers:
   - Usar solo conexiones cableadas
 explanation: |
   En un mundo donde muchos canales de comunicación son susceptibles a interceptaciones, es prudente asumir que una tercera parte podría estar escuchando, haciendo esencial la criptografía.
+reviewed: false

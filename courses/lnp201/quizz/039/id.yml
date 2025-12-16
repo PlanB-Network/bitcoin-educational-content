@@ -6,3 +6,4 @@ wrong_answers:
   - Saluran tidak dapat ditutup sampai HTLC telah kedaluwarsa.
 explanation: |
   Selama penutupan paksa, HTLC yang tertunda direpresentasikan sebagai output dalam transaksi komitmen, sehingga memastikan eksekusi atau pengembalian mereka sesuai dengan kondisi yang ditentukan.
+reviewed: false

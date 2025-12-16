@@ -6,3 +6,4 @@ wrong_answers:
   - 圧縮されていない公開キーを使用します
 explanation: |
   JBOKウォレットは、ユーザーに各プライベートキーを個別にバックアップさせることで、その管理を複雑にします。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Så snart 2/2 multisignaturadressen er opprettet
 explanation: |
   Kanalen anses som åpen når innskuddstransaksjonen har blitt inkludert i en Bitcoin-blokk og har nådd et visst antall bekreftelser.
+reviewed: false

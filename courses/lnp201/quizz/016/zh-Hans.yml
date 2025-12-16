@@ -6,3 +6,4 @@ wrong_answers:
   - 当可用资金耗尽时
 explanation:
   承诺交易会在分配发生每次变化时构建并签名，但它们只有在通道关闭的事件中最终才会发布到区块链上。
+reviewed: false

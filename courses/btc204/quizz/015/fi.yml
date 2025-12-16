@@ -6,3 +6,4 @@ wrong_answers:
   - Tiedonkeruu, satunnainen valinta ja ilmianto.
 explanation: |
   Lohkoketjuanalyysi alkaa ensin Bitcoin-lohkoketjun datan saavuttamisella, sitten pyritään tunnistamaan ominaisuuksia tässä datassa ja lopulta tekemään uskottavia tulkintoja.
+reviewed: false

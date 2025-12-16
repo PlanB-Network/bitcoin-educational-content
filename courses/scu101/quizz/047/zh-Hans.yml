@@ -6,3 +6,4 @@ wrong_answers:
   - 提高您的互联网连接速度
 explanation: |
   2FA为您的在线账户添加了一个额外的安全层。即使黑客获得了您的密码，如果没有第二重验证因素，他们也无法访问您的账户。
+reviewed: false

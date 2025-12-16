@@ -7,3 +7,4 @@ wrong_answers:
 explanation: |
   XOR-i puhul annab 0 XOR 1 tulemuseks 1, kuna bitid on erinevad.
   üle_vaadatud: false
+reviewed: false

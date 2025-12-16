@@ -6,3 +6,4 @@ wrong_answers:
   - Omezuje velikost generovaných mnemonických frází
 explanation: |
   Ruční generování entropie může zavést zkreslení nebo chyby, čímž klíče stávají více zranitelnými vůči útokům.
+reviewed: false

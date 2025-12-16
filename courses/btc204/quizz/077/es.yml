@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   La principal desventaja de los mezcladores en comparación con los coinjoins es que requieren que el usuario renuncie a la custodia de sus fondos durante el proceso de mezcla, lo que los expone a riesgos de robo.
+reviewed: false

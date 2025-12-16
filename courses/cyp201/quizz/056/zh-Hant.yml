@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain 根
 explanation: |
   Bitcoin seed 常數在 HMAC-SHA512 函式中作為金鑰使用，以推導出主私密金鑰和主鏈碼。
+reviewed: false

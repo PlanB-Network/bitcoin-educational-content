@@ -6,3 +6,4 @@ wrong_answers:
   - The node follows a randomized fee distribution model to optimize for network privacy and avoid predictable routing patterns
 explanation: |
   The Fee Distribution Graph's dual-axis design reveals sophisticated routing philosophies through fee clustering patterns. A tight cluster at lower rates (100ppm) with premium outliers (1000ppm) indicates deliberate tiered pricing where the operator charges premium rates for channels with scarce or strategically valuable liquidity while maintaining competitive rates on standard channels. This contrasts with flat distributions that suggest passive 'set-and-forget' management. The other options incorrectly assume dysfunction, technical problems, or privacy strategies, when this pattern actually demonstrates active, strategic channel management based on liquidity scarcity and routing value.
+reviewed: false

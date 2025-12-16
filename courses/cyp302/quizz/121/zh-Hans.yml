@@ -6,3 +6,4 @@ wrong_answers:
   - 每次通信都必须传输密钥的必要性
 explanation: |
   关键管理问题在于为每个用户存储和保护一对密钥的难度，尤其是当客户数量达到数百万时。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Độ dài
 explanation: |
   Một thay đổi nhỏ trong đầu vào dẫn đến sự thay đổi rõ rệt trong giá trị băm, đây chính là hiệu ứng tuyết lở.
+reviewed: false

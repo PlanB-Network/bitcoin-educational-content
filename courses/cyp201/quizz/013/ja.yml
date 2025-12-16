@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoinアドレスを作成する
 explanation: |
   PBKDF2は、ニーモニックフレーズとオプショナルなパスフレーズからシードを導出するために使用されます。
+reviewed: false

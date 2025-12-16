@@ -6,3 +6,4 @@ wrong_answers:
   - 综合密码学
 explanation: |
   非对称密码学基于使用一对密钥，即公钥和私钥，允许在不共享秘密密钥的情况下进行加密。
+reviewed: false

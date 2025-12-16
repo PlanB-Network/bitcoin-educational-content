@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Coinswap bruker smartkontrakter for å muliggjøre en overføring av bitcoin-eierskap mellom to brukere, uten behov for tillit og uten at denne overføringen er eksplisitt synlig på blokkjeden.
+reviewed: false

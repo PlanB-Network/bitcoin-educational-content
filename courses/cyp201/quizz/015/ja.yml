@@ -6,3 +6,4 @@ wrong_answers:
   - ニーモニックフレーズ
 explanation: |
   UTXOは公開キーまたはそのハッシュでロックされ、対応する秘密キーでアンロックされます。
+reviewed: false

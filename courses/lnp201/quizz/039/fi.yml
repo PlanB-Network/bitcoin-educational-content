@@ -6,3 +6,4 @@ wrong_answers:
   - Kanavaa ei voida sulkea ennen kuin HTLC on vanhentunut.
 explanation: |
   Pakotetun sulkemisen aikana vireillä olevat HTLC: t esitetään tuloksina sitoumustapahtumissa, varmistaen näin niiden suorittamisen tai palautuksen määriteltyjen ehtojen mukaisesti.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - P2TR
 explanation: |
   Adresy P2PKH, zakódované v base58check, pocházejí ze standardu Legacy a začínají číslicí `1`.
+reviewed: false

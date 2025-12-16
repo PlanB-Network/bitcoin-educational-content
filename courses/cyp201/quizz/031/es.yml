@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_NONSTANDARD
 explanation: |
   SIGHASH_ANYONECANPAY modifica las banderas de sighash para cubrir solo una entrada única, dejando el resto modificable.
+reviewed: false

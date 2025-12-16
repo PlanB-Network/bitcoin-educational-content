@@ -6,3 +6,4 @@ wrong_answers:
   - A palavra se torna ZHA
 explanation: |
   Com uma chave de 7, cada letra da palavra CAT é deslocada por 7 posições no alfabeto, o que produz a palavra criptografada JHA.
+reviewed: false

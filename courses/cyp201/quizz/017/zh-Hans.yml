@@ -6,3 +6,4 @@ wrong_answers:
   - P-384
 explanation: |
   比特币在其加密操作中使用了由方程 y² = x³ + 7 定义的 secp256k1 曲线。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - They prevent panic conditions by wrapping all potentially failing operations in safe Result containers
 explanation: |
   The map() and map_err() methods enable functional-style error handling where you can chain operations and transform values or errors right at the point where they occur. This keeps error handling logic close to the operations that can fail, unlike try-catch blocks where error handling is separated from the actual operations. The other options are incorrect: map methods don't convert errors to strings (that's anyhow's role), they work alongside the question mark operator rather than replacing it, and they don't prevent panics but rather provide structured error handling for Results.
+reviewed: false

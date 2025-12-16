@@ -6,3 +6,4 @@ wrong_answers:
   - Dual-layer address generation that creates hybrid addresses capable of receiving both Lightning and on-chain payments
 explanation: |
   The correct answer is automatic swap services because Breez SDK specifically implements on-chain swap functionality to seamlessly convert between Lightning and on-chain Bitcoin when users need to make different types of payments. This allows users to see a single balance while the system handles the technical complexity of moving funds between layers. The wrong answers describe non-existent or technically impossible mechanisms - balance aggregation would only display combined amounts without enabling cross-layer functionality, channel reserves cannot move funds to on-chain states, and hybrid addresses don't exist in Bitcoin's protocol.
+reviewed: false

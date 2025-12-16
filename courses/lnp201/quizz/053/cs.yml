@@ -6,3 +6,4 @@ wrong_answers:
   - Aby omezil použití Bitcoin blockchainu
 explanation: |
   Cílem routeru je směrovat co nejvíce plateb, aby získal poplatky, což vyžaduje dobrou distribuci likvidity na obou stranách kanálů, aby byla zajištěna směrovací kapacita.
+reviewed: false

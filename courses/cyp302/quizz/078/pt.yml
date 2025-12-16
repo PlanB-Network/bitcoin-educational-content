@@ -6,3 +6,4 @@ wrong_answers:
   - Bater muito forte no computador para forçá-lo a revelar a chave secreta
 explanation: |
   Um ataque de força bruta envolve testar sistematicamente todas as chaves possíveis para descriptografar uma mensagem criptografada.
+reviewed: false

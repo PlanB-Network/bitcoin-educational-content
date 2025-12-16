@@ -6,3 +6,4 @@ wrong_answers:
   - Dengan menutup dan membuka kembali saluran setelah setiap transaksi
 explanation: |
   Setiap transaksi dalam saluran memperbarui status saluran dengan transaksi komitmen baru, mencerminkan distribusi dana saat ini antara dua peserta.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Tutvustada lisasegadust, asendades baite
 explanation: |
   Shift rows operatsioon AES-is paigutab ümber baitid olekutabelis, et hajutada informatsiooni, suurendades seeläbi difusiooni.
+reviewed: false

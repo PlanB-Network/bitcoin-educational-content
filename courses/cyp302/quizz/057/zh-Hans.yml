@@ -6,3 +6,4 @@ wrong_answers:
   - 一个没有中性元素的群
 explanation: |
   阿贝尔群是一种群，在这种群中，元素在运算中的顺序不影响结果，意味着它遵循交换律。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Profundidade 4
 explanation: |
   A Profundidade 2 é usada para identificar a moeda em carteiras multi-moedas, como Bitcoin (índice 0') ou Litecoin (índice 2').
+reviewed: false

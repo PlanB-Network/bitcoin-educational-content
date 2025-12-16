@@ -6,3 +6,4 @@ wrong_answers:
   - 增加额外的安全层
 explanation: |
   索引允许区分从同一父对派生的不同子密钥。
+reviewed: false

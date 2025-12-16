@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Bitcoin Seed常数被用作HMAC-SHA512函数中的一个键，以派生主私钥和主链代码。
+reviewed: false

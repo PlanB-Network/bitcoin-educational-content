@@ -6,3 +6,4 @@ wrong_answers:
   - De påkrevde bruk av homomorf kryptografi
 explanation: |
   Før 1970-tallet gjorde problemer med nøkkeldistribusjon og -håndtering det vanskelig å sikre kommunikasjon i stor skala, noe som hindret utviklingen av moderne applikasjoner som netthandel.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 它决定了一个区块的大小。
 explanation: >-
   比特币网络中的难度调整确保大约每十分钟添加一个区块。这是比特币网络协议规则的一部分。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - 10位
 explanation: |
   每个11位段对应于BIP39中标准化的2048个单词列表中的一个单词。
+reviewed: false

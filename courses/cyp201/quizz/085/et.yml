@@ -6,3 +6,4 @@ wrong_answers:
   - Ühenda muudatus t ja avalik võti P
 explanation: |
   Taproot avalik võti Q saadakse, lisades skalaarkorrutise muudatusest t generaatoriga G avalikule võtmele P.
+reviewed: false

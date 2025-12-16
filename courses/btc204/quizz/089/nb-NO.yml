@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Makers lar sine bitcoins være tilgjengelige for takers og mottar gebyrer som betaling for tjenesten sin. Takers, på sin side, betaler for å bruke bitcoinsene til makers for å gjennomføre sine egne coinjoin-transaksjoner.
+reviewed: false

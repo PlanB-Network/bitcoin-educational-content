@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Transaksi payjoin masuk dalam domain steganografi karena menyembunyikan jumlah sebenarnya dari sebuah transaksi dalam transaksi palsu yang bertindak sebagai umpan pengalih untuk pengamat eksternal.
+reviewed: false

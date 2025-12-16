@@ -6,3 +6,4 @@ wrong_answers:
   - 84/0/0
 explanation: |
   O caminho 84h/0h/0h é definido no BIP84 para uma conta que deriva endereços SegWit v0 com P2WPKH.
+reviewed: false

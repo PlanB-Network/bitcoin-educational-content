@@ -6,3 +6,4 @@ wrong_answers:
   - Förenkla beräkningen av digitala signaturer
 explanation: |
   Deskriptorer innehåller all information som behövs för att spåra ett visst skript, inklusive härledningsvägen och de nycklar som används, men inte återställningsfrasen.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Porque os canais fecham automaticamente após cada transação
 explanation: |
   A distribuição precisa dos fundos em um canal é visível apenas para os dois nós participantes, impedindo que outros nós estimem a liquidez disponível para roteamento.
+reviewed: false

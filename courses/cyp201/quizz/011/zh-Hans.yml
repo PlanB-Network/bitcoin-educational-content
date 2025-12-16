@@ -6,3 +6,4 @@ wrong_answers:
   - HASH160
 explanation: |
   HMAC使用SHA512来生成一个安全的512位哈希。
+reviewed: false

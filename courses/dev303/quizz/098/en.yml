@@ -6,3 +6,4 @@ wrong_answers:
   - They enable automatic dependency management and library integration for third-party packages like colors and readline without manual configuration
 explanation: |
   Cargo fmt and cargo clippy serve as essential quality assurance tools that maintain consistent code formatting and identify potential improvements through static analysis. While they don't directly optimize runtime performance, provide debugging capabilities, or manage dependencies, they establish professional development standards that prevent common mistakes and ensure code maintainability. This automated code review process is crucial for building reliable applications that can scale to more complex projects like blockchain development tools.
+reviewed: false

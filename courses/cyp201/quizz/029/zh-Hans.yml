@@ -6,3 +6,4 @@ wrong_answers:
   - HMAC
 explanation: |
   比特币最初使用基于椭圆曲线的签名协议ECDSA，在2021年引入Schnorr签名之前。
+reviewed: false

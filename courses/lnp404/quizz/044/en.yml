@@ -6,3 +6,4 @@ wrong_answers:
   - Liquidity failures trigger automatic rebalancing protocols that consume excessive on-chain fees and reduce overall node profitability
 explanation: |
   The correct answer captures the unique challenge of Lightning liquidity management - its silent nature. Unlike crashed servers or rejected transactions that generate clear error signals, poor liquidity simply causes payments to route around your node invisibly, resulting in lost revenue opportunities without any notification. The wrong answers describe visible, active failure modes with clear symptoms (error messages, channel closures, automatic responses), which contradicts the fundamental problem that liquidity issues are 'invisible' and provide no feedback mechanism to alert operators of the lost routing opportunities.
+reviewed: false

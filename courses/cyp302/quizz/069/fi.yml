@@ -6,3 +6,4 @@ wrong_answers:
   - Avaimen pituudella ei ole vaikutusta Salsa20: ssa.
 explanation: |
   Symmetrisessä salausjärjestelmässä Salsa20 avaimen pituus (128 tai 256 bittiä) vaikuttaa algoritmin kierrosten määrään, muuttamatta itse algoritmin ydintä.
+reviewed: false

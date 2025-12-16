@@ -6,3 +6,4 @@ wrong_answers:
   - 自动计算最短路径
 explanation: |
   路由费用用于补偿通过提供他们的流动性来中继支付的中介节点，以实现跨网络的资金转移。
+reviewed: false

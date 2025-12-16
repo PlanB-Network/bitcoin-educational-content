@@ -6,3 +6,4 @@ wrong_answers:
   - 複数の部分に分割されたビットコインの量
 explanation: |
   UTXO、またはUnspent Transaction Outputは、未使用のトランザクション出力を指し、保持者が使用できる特定の量のビットコインを表します。
+reviewed: false

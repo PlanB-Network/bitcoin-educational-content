@@ -6,4 +6,4 @@ wrong_answers:
   - Le frasi più corte non sono standardizzate
 explanation: |
   Sebbene una frase di 24 parole offra 256 bit di sicurezza, le chiavi private Bitcoin derivate garantiscono solo 128 bit di sicurezza, rendendo l'eccesso non necessario.
-recensito: false
+reviewed: false

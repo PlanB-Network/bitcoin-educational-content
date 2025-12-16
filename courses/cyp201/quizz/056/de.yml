@@ -6,3 +6,4 @@ wrong_answers:
   - Blockchain Root
 explanation: |
   Die Konstante Bitcoin Seed wird als Schlüssel in der HMAC-SHA512-Funktion verwendet, um den Master-Privatschlüssel und den Master-Chain-Code abzuleiten.
+reviewed: false

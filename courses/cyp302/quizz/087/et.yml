@@ -6,3 +6,4 @@ wrong_answers:
   - SHA-256
 explanation: |
   CBC meetod kasutab initsialiseerimisvektorit ja rakendab XOR-i iga tekstiploki ja eelmise krüpteeritud ploki vahel, muutes krüpteeringu tõenäosuslikuks ja turvalisemaks kui ECB.
+reviewed: false

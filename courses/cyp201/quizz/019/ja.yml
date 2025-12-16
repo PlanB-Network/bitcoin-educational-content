@@ -6,3 +6,4 @@ wrong_answers:
   - 離散立方体問題
 explanation: |
   楕円曲線暗号のセキュリティは、これらの曲線上での離散対数問題を解くことの難しさに基づいています。
+reviewed: false

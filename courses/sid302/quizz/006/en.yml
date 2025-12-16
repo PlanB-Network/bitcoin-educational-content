@@ -6,3 +6,4 @@ wrong_answers:
   - SHA-256 Encryption
 explanation: |
   Pedersen Commitments are the specific cryptographic technique used in Elements' Confidential Transactions to hide transaction amounts. These commitments replace visible amounts with cryptographic commitments that can still be mathematically verified by validators without revealing the actual values. Merkle Tree Hashing is used for organizing transaction data in blocks, Elliptic Curve Signatures are used for transaction authorization, and SHA-256 is a hashing algorithm, but none of these hide transaction amounts while maintaining validation capability like Pedersen Commitments do.
+reviewed: false

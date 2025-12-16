@@ -6,3 +6,4 @@ wrong_answers:
   - Meldingsautentiseringskoder (MAC)
 explanation: |
   Digitale signaturer i Bitcoin beviser besittelse av midler ved å signere transaksjoner med en privat nøkkel for å låse opp skriptet som sikrer en UTXO.
+reviewed: false

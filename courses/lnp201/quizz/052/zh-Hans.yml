@@ -6,3 +6,4 @@ wrong_answers:
   - CoinSwap
 explanation:
   来自Lightning Labs的Loop Out服务使资金能够从Lightning通道转移到链上区块链，从而在主链上检索比特币的同时优化接收容量。
+reviewed: false

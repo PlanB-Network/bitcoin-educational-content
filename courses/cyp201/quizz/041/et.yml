@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin aadressid ei ühilduks võrguga
 explanation: |
   Halvasti kujundatud PRNG võib toota etteaimatavaid jadasid, muutes võtmed rünnakutele haavatavamaks.
+reviewed: false

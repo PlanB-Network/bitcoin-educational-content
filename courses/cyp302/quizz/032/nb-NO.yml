@@ -6,3 +6,4 @@ wrong_answers:
   - Fordi den er generert utelukkende fra naturlige hendelser
 explanation: |
   En pseudotilfeldig streng er designet for å nøye ligne en ekte tilfeldig streng, noe som gjør skillet umulig uten tilgang til frøet eller algoritmen som ble brukt.
+reviewed: false

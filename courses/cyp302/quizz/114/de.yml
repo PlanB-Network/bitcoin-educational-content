@@ -6,3 +6,4 @@ wrong_answers:
   - Es gibt keine feste Länge für S in Standard-RC4
 explanation: |
   In Standard-RC4 enthält das S-Array 256 Bytes, was die Komplexität der Berechnungen erheblich erhöht und die Sicherheit im Vergleich zur vereinfachten Version mit nur 8 Bytes verbessert.
+reviewed: false

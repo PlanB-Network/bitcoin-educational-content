@@ -6,3 +6,4 @@ wrong_answers:
   - SIGHASH_NONSTANDARD
 explanation: |
   SIGHASH_ANYONECANPAY modifica i flag sighash per coprire un singolo input, lasciando modificabili gli altri.
+reviewed: false

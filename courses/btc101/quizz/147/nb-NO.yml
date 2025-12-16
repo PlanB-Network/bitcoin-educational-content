@@ -8,3 +8,4 @@ explanation: >-
   ASICs (Application-Specific Integrated Circuits) er spesialisert maskinvare
   designet spesifikt for Bitcoin-mining. De er optimalisert for å utføre SHA256-
   hashfunksjonen, som er det matematiske problemet minerne må løse i Proof of Work.
+reviewed: false

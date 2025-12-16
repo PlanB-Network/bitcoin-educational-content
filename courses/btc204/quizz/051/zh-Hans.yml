@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   为了放弃通知交易，接收者必须扫描所有符合标准的比特币交易，试图找到寄给他们的支付。
+reviewed: false

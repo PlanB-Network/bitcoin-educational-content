@@ -6,3 +6,4 @@ wrong_answers:
   - 普通子密钥比强化子密钥更安全。
 explanation: |
   与强化子密钥需要父私钥不同，普通子密钥可以从父公钥派生。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Homomorphic encryption with merkle tree commitments that enable mathematical operations on encrypted transaction data
 explanation: |
   AMP uses ECDH key exchange where senders encrypt asset amounts using receivers' blinding public keys, generating range proofs that mathematically verify transaction validity without exposing values. This differs from SNARKs (computational proofs), ring signatures (anonymity focus), or homomorphic encryption (computation on encrypted data) - AMP specifically needs confidential but verifiable transactions.
+reviewed: false

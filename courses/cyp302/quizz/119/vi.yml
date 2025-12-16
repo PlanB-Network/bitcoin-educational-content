@@ -6,3 +6,4 @@ wrong_answers:
   - Nó không cho phép chia văn bản thành các khối 128-bit
 explanation: |
   Chế độ ECB không được khuyến nghị vì nó tạo ra mã hóa xác định, nghĩa là các khối bản rõ giống hệt nhau sẽ tạo ra các khối bản mã giống hệt nhau, có thể bị khai thác để đoán thông tin về bản rõ.
+reviewed: false

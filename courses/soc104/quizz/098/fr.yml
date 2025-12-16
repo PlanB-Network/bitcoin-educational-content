@@ -6,3 +6,4 @@ wrong_answers:
   - Cypherpunks prioritize educating the public about privacy risks rather than developing technical solutions
 explanation: |
   The manifesto explicitly states 'Cypherpunks write code' and emphasizes that they don't find comfort in hopes and wishes but actively intervene in events. Hughes argued that people cannot expect governments, corporations, or other large organizations to guarantee privacy, so cypherpunks must build cryptographic systems themselves. This active, technical approach through code development distinguishes them from passive approaches like lobbying, working within existing systems, or merely educating others without creating concrete technological solutions.
+reviewed: false

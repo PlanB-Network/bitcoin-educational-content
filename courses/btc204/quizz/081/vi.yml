@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Trong những coinjoin kiểu Chaumian, việc sử dụng Tor và chữ ký mù của David Chaum được kết hợp để đảm bảo rằng người điều phối không thể biết đầu ra nào thuộc về người dùng nào.
+reviewed: false

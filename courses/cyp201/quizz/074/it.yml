@@ -6,4 +6,4 @@ wrong_answers:
   - Una moneta sulla mainnet Bitcoin
 explanation: |
   L'indice /84'/ è definito nel BIP84 per indicare l'uso dello standard SegWit v0 con indirizzi P2WPKH al livello 1 (quello del target di derivazione).
-recensito: false
+reviewed: false

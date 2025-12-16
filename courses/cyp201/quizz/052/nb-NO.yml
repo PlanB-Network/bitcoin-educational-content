@@ -6,3 +6,4 @@ wrong_answers:
   - Beskytte UTXOer fra et dobbeltutgift
 explanation: |
   En lokke-lommebok brukes for å avlede en angripers oppmerksomhet ved å gi tilgang til en lommebok som inneholder en liten mengde bitcoins.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Konverteringen av meldingen til binær
 explanation: |
   En meldingsautentiseringskode (MAC) brukes for å sikre at meldingen ikke har blitt endret og at den faktisk kommer fra den antatte avsenderen.
+reviewed: false

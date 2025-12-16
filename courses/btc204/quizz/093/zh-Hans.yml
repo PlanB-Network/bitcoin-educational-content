@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation:
   Tx0的目标是通过将它们分割成与选定池量相对应的单位来准备和均衡UTXOs，以确保混合的同质性。
+reviewed: false

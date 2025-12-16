@@ -6,3 +6,4 @@ wrong_answers:
   - Välised tehingu heuristikad.
 explanation: |
   Ahela analüüsis kasutatavad heuristikad jagunevad kolme kategooriasse; tehingumustrid (või tehingu mudelid), sisemised tehingu heuristikad ja välised tehingu heuristikad.
+reviewed: false

@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   ECDH（椭圆曲线Diffie-Hellman）算法在静默支付中被用于接收者的扫描密钥对和发送者的密钥对之和之间，以建立共享的秘密，这将允许派生出独一无二的支付地址。
+reviewed: false

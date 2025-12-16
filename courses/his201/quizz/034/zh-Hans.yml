@@ -6,3 +6,4 @@ wrong_answers:
   - SmokeTooMuch
 explanation:
   这项服务是初级的：交易通过电子邮件协商，通过PayPal支付。汇率基于NewLibertyStandard自己的挖矿成本。
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Bốn phần, mỗi phần 128 bit
 explanation: |
   Đầu ra của HMAC-SHA512 được chia thành hai phần: khóa riêng tư chính (256 bit) và mã chuỗi chính (256 bit).
+reviewed: false

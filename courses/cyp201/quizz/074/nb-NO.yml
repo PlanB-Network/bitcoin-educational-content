@@ -6,3 +6,4 @@ wrong_answers:
   - En Bitcoin hovednettvaluta
 explanation: |
   Indeksen /84'/ er definert i BIP84 for å indikere bruk av SegWit v0-standarden med P2WPKH-adresser på dybde 1 (det som er avledningsmålet).
+reviewed: false

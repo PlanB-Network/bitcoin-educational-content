@@ -6,3 +6,4 @@ wrong_answers:
   - Descifrar automáticamente mensajes interceptados
 explanation: |
   Un esquema de cifrado autenticado combina el cifrado y un código de autenticación (MAC) para garantizar tanto la confidencialidad de los mensajes como su autenticidad.
+reviewed: false

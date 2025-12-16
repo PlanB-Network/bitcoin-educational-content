@@ -6,3 +6,4 @@ wrong_answers:
   - Khóa công khai nén
 explanation: |
   Điểm sinh G của đường cong elliptic secp256k1 được sử dụng để tính toán khóa công khai từ khóa riêng.
+reviewed: false

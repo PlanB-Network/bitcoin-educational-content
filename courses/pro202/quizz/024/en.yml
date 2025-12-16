@@ -6,3 +6,4 @@ wrong_answers:
   - The stack-based execution model cannot handle complex mathematical operations securely
 explanation: |
   Script puzzles that rely only on public data (like math problems or hash preimages) without signature checks are vulnerable to miner front-running. Once a valid solution appears in the mempool, any miner can observe it, copy the solution, and create their own transaction redirecting the payout to their address. This is why real-world Bitcoin contracts almost always include signature checks - signatures bind the solution to a specific party and prevent others from stealing the payout, preserving proper incentives for puzzle solvers.
+reviewed: false

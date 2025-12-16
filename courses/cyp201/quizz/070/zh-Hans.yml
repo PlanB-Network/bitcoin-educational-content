@@ -6,3 +6,4 @@ wrong_answers:
   - 货币类型
 explanation: |
   深度0对应于主密钥和主链代码，这是HD钱包中所有派生的起点。
+reviewed: false

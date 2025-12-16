@@ -6,3 +6,4 @@ wrong_answers:
   - Una división modular simplificada
 explanation: |
   Diffie-Hellman se basa en una función unidireccional que es fácil de calcular en una dirección pero prácticamente imposible de invertir sin una pieza secreta de información, llamada puerta trasera.
+reviewed: false

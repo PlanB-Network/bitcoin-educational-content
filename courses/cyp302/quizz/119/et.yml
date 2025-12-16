@@ -6,3 +6,4 @@ wrong_answers:
   - See ei võimalda teksti jagada 128-bitisteks plokkideks
 explanation: |
   ECB režiimi ei soovitata, kuna see toodab deterministlikku krüpteeringut, mis tähendab, et identsed tekstiplokid annavad identsed šifreeritud plokid, mida saab ära kasutada, et arvata teksti kohta informatsiooni.
+reviewed: false

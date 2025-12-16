@@ -6,3 +6,4 @@ wrong_answers:
   - The entire HTLC contract terms including swap amounts, timeframes, and both Lightning and Liquid addresses
 explanation: |
   Taproot organizes HTLC conditions in a Merkle tree structure, allowing selective disclosure. When cooperation fails, only the specific branch needed to prove the right to recover funds is revealed, while other contract details remain hidden. This is unlike legacy HTLCs that exposed complete scripts, and differs from cooperative cases where no script details are revealed at all.
+reviewed: false

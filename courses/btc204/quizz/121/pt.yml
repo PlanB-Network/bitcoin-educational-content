@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   Dandelion primeiro utiliza uma fase stem onde a transação é enviada através de um caminho aleatório de nós. A transação é então transmitida para toda a rede na fase fluff.
+reviewed: false

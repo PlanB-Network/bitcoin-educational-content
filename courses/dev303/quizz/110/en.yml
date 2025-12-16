@@ -6,3 +6,4 @@ wrong_answers:
   - LSPs route payments through multiple intermediate channels to find existing liquidity paths without creating new channel relationships
 explanation: |
   The Breez SDK implements 'just-in-time' channels where LSPs automatically open new Lightning channels precisely when a user needs to receive a payment but lacks sufficient inbound liquidity. This happens seamlessly without user intervention, solving Lightning's fundamental liquidity constraint where funds can only flow in directions where channel capacity exists. The other options describe different approaches that don't match the SDK's actual implementation of dynamic channel creation.
+reviewed: false

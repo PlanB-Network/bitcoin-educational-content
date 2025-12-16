@@ -9,3 +9,4 @@ wrong_answers:
 
 explanation: |
   いわゆるChaumianコインジョインでは、TorとDavid Chaumのブラインド署名の使用が組み合わされ、コーディネーターがどの出力がどのユーザーに属しているかを知ることができないようにします。
+reviewed: false

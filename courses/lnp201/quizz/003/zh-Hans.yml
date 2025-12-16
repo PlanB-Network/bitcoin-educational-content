@@ -6,3 +6,4 @@ wrong_answers:
   - 如有需要，他们可以从另一参与者那边借用资金。
 explanation:
   每个参与者在通道中持有的satoshi数量限制了他们的交易金额，确保资金总是有保障的。
+reviewed: false

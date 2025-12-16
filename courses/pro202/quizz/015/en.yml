@@ -6,3 +6,4 @@ wrong_answers:
   - All algebraic rules change fundamentally to accommodate the finite field structure
 explanation: |
   When elliptic curves are moved from real numbers to finite fields, the underlying algebraic structure and rules remain identical - only the arithmetic changes to modular arithmetic. All point addition formulas, slope calculations, and geometric relationships work exactly the same way, but every calculation is performed modulo p. This preservation of algebraic rules while changing only the arithmetic foundation is what makes finite field elliptic curves so powerful for cryptography, maintaining all the mathematical properties needed while creating the discrete, unpredictable behavior essential for security.
+reviewed: false

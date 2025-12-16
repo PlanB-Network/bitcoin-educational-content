@@ -6,3 +6,4 @@ wrong_answers:
   - セキュリティの追加層を追加する
 explanation: |
   インデックスにより、同じ親ペアから派生した子キーを区別することができます。
+reviewed: false

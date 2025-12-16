@@ -6,3 +6,4 @@ wrong_answers:
   - SmokeTooMuch
 explanation: |
   Эта служба была первичной: обмены согласовывались по электронной почте, а платежи осуществлялись через PayPal. Курс обмена базировался на затратах на майнинг самого NewLibertyStandard.
+reviewed: false

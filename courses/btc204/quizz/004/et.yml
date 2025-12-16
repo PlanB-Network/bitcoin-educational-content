@@ -6,3 +6,4 @@ wrong_answers:
   - Kasutaja identiteedi kontrolli kaudu.
 explanation: |
   Bitcoini tehingu väljundid on UTXO-d, mis on turvatud skriptiga. See skript nõuab, et kulutamiseks tuleb täita eelnevalt määratletud tingimused.
+reviewed: false

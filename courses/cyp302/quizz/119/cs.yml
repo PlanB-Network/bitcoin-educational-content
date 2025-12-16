@@ -6,3 +6,4 @@ wrong_answers:
   - Neumožňuje dělení textu do 128-bitových bloků
 explanation: |
   ECB mód se nedoporučuje, protože produkuje deterministické šifrování, což znamená, že identické bloky otevřeného textu vyprodukují identické bloky šifrovaného textu, což lze využít k odhadu informací o otevřeném textu.
+reviewed: false

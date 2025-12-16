@@ -1,0 +1,8 @@
+question: Jaka jest formuła matematyczna używana do obliczania dotacji blokowej przy dowolnej wysokości bloku h w protokole Bitcoin?
+answer: dotacja = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - dotacja = 50_000_000 / (2^(h / 210_000))
+  - subsydium = 5_000_000_000 * (0.5^(h % 210_000))
+  - dotacja = 50_000_000 >> (h % 210_000)
+explanation: |
+  Prawidłowa formuła wykorzystuje operacje przesuwania bitów, gdzie 5_000_000_000 reprezentuje 50 BTC w satoshi, a operator przesunięcia w prawo >> efektywnie dzieli przez potęgi 2. Podział podłogowy h // 210_000 określa, ile okresów dzielenia na pół miało miejsce. Pierwsza błędna odpowiedź wykorzystuje zwykłe dzielenie zamiast przesunięcia bitowego i zaczyna się od nieprawidłowej wartości bazowej. Druga wykorzystuje dzielenie modulo zamiast dzielenia podłogowego, co spowodowałoby utworzenie wzorca cyklicznego zamiast progresywnego przepoławiania. Trzecia wykorzystuje operację modulo, która resetowałaby licznik połówek co 210 000 bloków zamiast akumulować połówki w czasie.

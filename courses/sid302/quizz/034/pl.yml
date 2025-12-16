@@ -1,0 +1,8 @@
+question: Jaki mechanizm architektoniczny umożliwia Breez SDK wykonywanie transferów Liquid do Bitcoin bez polegania na federated peg-out lub scentralizowanych wymianach?
+answer: Mechanizm podwójnej wymiany z jednoczesnymi transakcjami lock-up w obu łańcuchach, w których nadawca żąda środków Bitcoin, a odbiorca żąda środków Liquid
+wrong_answers:
+  - Pojedynczy swap podmorski, w którym środki Bitcoin są najpierw blokowane, a następnie żądane przy użyciu wstępnego obrazu płatności Lightning z transakcji Liquid
+  - Architektura odwrotnej podmorskiej wymiany, w której Liquid Network działa jako most pośredniczący do zatwierdzania transakcji Bitcoin mainchain
+  - Sfederowany system depozytowy z wieloma podpisami zarządzany przez Boltz, który koordynuje swapy atomowe między Liquid i Bitcoin przy użyciu kontraktów z blokadą czasową
+explanation: |
+  Mechanizm podwójnej wymiany jest specjalnie zaprojektowany do transferów międzyłańcuchowych Bitcoin, obejmujących jednoczesne transakcje lock-up w sieciach Liquid i Bitcoin. To pozbawione zaufania podejście umożliwia bezpośrednie mostkowanie bez federated peg-outów. Pozostałe opcje nieprawidłowo opisują jednokierunkowe podmorskie swapy, błędnie przedstawiają rolę Liquid Network lub nieprawidłowo sugerują poleganie na systemach federacyjnych, których SDK wyraźnie unika.

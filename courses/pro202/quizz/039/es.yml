@@ -1,0 +1,8 @@
+question: ¿Cuál es el principal riesgo de seguridad que hace que P2SH sea fundamentalmente diferente de las transacciones estándar Bitcoin en términos de recuperación de fondos?
+answer: La pérdida de la secuencia de comandos de rescate bloquea permanentemente los fondos, incluso si usted tiene las claves privadas
+wrong_answers:
+  - El hash de 20 bytes puede ser forzado si el script de redención es demasiado simple
+  - Las direcciones P2SH caducan al cabo de cierta altura de bloque, lo que hace irrecuperables los fondos
+  - El proceso de validación en dos pasos puede fallar aleatoriamente causando la pérdida permanente de fondos
+explanation: |
+  P2SH introduce un requisito de seguridad único: tanto las claves privadas como el script de canje son necesarios para gastar fondos. A diferencia de las transacciones estándar, en las que sólo se necesitan las claves privadas, P2SH exige que se proporcione el script de canje durante el gasto. Si se pierde la secuencia de canje, los fondos quedan permanentemente inaccesibles aunque se disponga de las claves privadas correctas, ya que las condiciones de gasto no pueden reconstruirse ni validarse.

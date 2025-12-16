@@ -1,0 +1,8 @@
+question: Quel est l'objectif principal de la période d'attente de confirmation de 102 jours pendant le processus de raccordement de Bitcoin à Liquid ?
+answer: Pour se protéger contre les réorganisations de la blockchain Bitcoin avant de frapper des L-BTC
+wrong_answers:
+  - Laisser suffisamment de temps à la fédération pour vérifier l'identité et la conformité de l'utilisateur
+  - S'assurer que le réseau Liquid dispose d'une capacité suffisante pour traiter la transaction entrante
+  - Prévoir un délai pour l'autorisation multisignature des membres de la fédération (11 sur 15)
+explanation: |
+  La période d'attente de 102 confirmations (environ 17 heures) est spécifiquement conçue pour se protéger contre les réorganisations de la blockchain Bitcoin. Étant donné que la Bitcoin fonctionne sur la base d'une finalité probabiliste, il y a toujours une petite chance que les blocs soient réorganisés, ce qui pourrait invalider les transactions. En attendant 102 confirmations, le système garantit que la transaction Bitcoin envoyant des fonds à l'adresse de la fédération est profondément enfouie et qu'il est extrêmement improbable qu'elle soit annulée. Cela permet d'éviter le scénario où le L-BTC est frappé sur la Liquid mais où la transaction Bitcoin sous-jacente est annulée en raison d'une réorganisation. Les autres options sont incorrectes car : la vérification de l'identité ne fait pas partie du processus automatisé de peg-in, la capacité du réseau n'est pas un facteur limitant nécessitant de tels délais, et l'autorisation multisig 11 sur 15 est utilisée pour les peg-outs, pas pour les peg-ins.

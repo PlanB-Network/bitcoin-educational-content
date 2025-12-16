@@ -1,0 +1,8 @@
+question: Công thức toán học nào được sử dụng để tính toán trợ cấp khối ở bất kỳ độ cao khối h nào trong giao thức của Bitcoin?
+answer: trợ cấp = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - trợ cấp = 50_000_000_000 / (2^(h / 210_000))
+  - trợ cấp = 5_000_000_000 * (0,5^(h % 210_000))
+  - trợ cấp = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Công thức chính xác sử dụng phép toán dịch bit, trong đó 5.000.000.000 biểu thị 50 BTC tính bằng satoshi, và toán tử dịch phải >> thực chất là phép chia cho lũy thừa của 2. Phép chia lấy phần nguyên h // 210.000 xác định số chu kỳ giảm một nửa đã xảy ra. Câu trả lời sai đầu tiên sử dụng phép chia thông thường thay vì dịch bit và bắt đầu với giá trị cơ số không chính xác. Câu trả lời sai thứ hai sử dụng phép toán modulo thay vì phép chia lấy phần nguyên, điều này sẽ tạo ra một mô hình tuần hoàn thay vì giảm một nửa dần dần. Câu trả lời sai thứ ba sử dụng phép toán modulo, điều này sẽ đặt lại bộ đếm giảm một nửa sau mỗi 210.000 khối thay vì tích lũy các lần giảm một nửa theo thời gian.

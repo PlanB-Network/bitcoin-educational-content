@@ -5,15 +5,15 @@ objectives:
 
   - Identify the fundamental human facts that justify freedom and property
   - Analyze the historical evolution of freedom from primitive societies to the present day
-  - Recognizing the fallacies that underpin systems of unfreedom
-  - Applying liberal principles to contemporary economic, political and social issues
+  - Recognize the fallacies that underpin systems of unfreedom
+  - Apply liberal principles to contemporary economic, political and social issues
 
 ---
 
 # Journey to freedom
 
 
-This course explores liberty as a social project, drawing on the rich French liberal tradition of the 18th and 19th centuries. Through the writings of thinkers such as Frédéric Bastiat, Gustave de Molinari, Paul Leroy-Beaulieu, Benjamin Constant and Charles Dunoyer, you will discover how liberty is not an abstract utopia, but deeply rooted in the facts of human existence.
+This course explores liberty as a social project, drawing on the rich French liberal tradition of the 18th and 19th centuries. Through the writings of thinkers such as Frédéric Bastiat, Gustave de Molinari, Paul Leroy-Beaulieu, Benjamin Constant, and Charles Dunoyer, you will discover how liberty is not an abstract utopia, but deeply rooted in the facts of human existence.
 
 
 Ready to discover why freedom is not only a moral ideal, but also the most effective solution to the challenges facing our societies? Let's begin this intellectual journey to the heart of French liberal thought.
@@ -37,35 +37,34 @@ Ready to discover why freedom is not only a moral ideal, but also the most effec
 ### Introduction to the French liberal tradition
 
 
-The French liberal tradition, developed in the 18th and 19th centuries, constitutes a major intellectual heritage that the Coppet Institute is striving to rehabilitate. This thought deserves attention for three reasons: the resurgence of ideas of liberty in contemporary debate, its deep roots in French-speaking culture, and its universalist perspective, which thinks of man as a human being rather than as a citizen of a particular time or country. The influence of thinkers like Frédéric Bastiat extends far beyond France's borders, and remains of considerable relevance today.
+The French liberal tradition, developed in the 18th and 19th centuries, constitutes a major part of the French intellectual heritage that the Coppet Institute is striving to rehabilitate. This intellectual tradition deserves attention for three reasons: the resurgence of ideas of liberty in contemporary debate, its deep roots in French-speaking culture, and its universalist perspective, which regards man as a human being rather than as a citizen of a particular time or country. The influence of thinkers like Frédéric Bastiat extends far beyond France's borders, and remains highly relevant today.
 
 
 ### Beyond theory-practice opposition and the coherence of freedom
 
 
-Public debate artificially pits theorists, dismissed as disconnected from reality, against practitioners, valued for their concrete knowledge. This dichotomy doesn't stand up to scrutiny: every one of our everyday actions, such as climbing stairs or picking up an object, is based on implicit theories such as gravitation. Practitioners themselves constantly apply theoretical frameworks, often unconsciously. The real question is not to choose between theory and practice, but to distinguish good theories, based on observable facts, from bad ones, built on sophisms.
+Public debate artificially opposes theorists, dismissed as disconnected from reality, against practitioners, valued for their concrete knowledge. This dichotomy doesn't stand up to scrutiny: every one of our everyday actions, such as climbing stairs or picking up an object, is based on implicit theories such as gravity. Practitioners themselves constantly apply theoretical frameworks, often unconsciously. The real question is not to choose between theory and practice, but to distinguish good theories, based on observable facts, from bad ones, built on fallacies.
 
 
-A problematic distinction has also been drawn between freedom, accepted as a fundamental value, and liberalism, often rejected as too abstract. This separation leads to the fragmentation of freedom into good and bad categories: political freedom is valued, while economic freedom is distrusted. Yet the principles underpinning religious tolerance and universal suffrage - in other words, the individual's capacity for choice - should logically lead to the recognition of economic freedom too. This incoherence reduces freedom to the simple faculty of periodically choosing a political master. Moreover, collective choice presents structural limitations: temporary and spaced out over time, it eliminates many individual choices that would enable constant adaptation to circumstances, direct responsibility and respect for the diversity of preferences.
+A problematic distinction has also been drawn between freedom, accepted as a fundamental value, and liberalism, often rejected as too abstract. This separation leads to the breaking of freedom into good and bad categories: political freedom is valued, while economic freedom is distrusted. Yet the principles underpinning religious tolerance and universal suffrage — in other words, the individual's capacity for choice - should logically lead to the recognition of economic freedom too. This lack of organisation reduces freedom to the simple faculty of periodically choosing a political master. Moreover, collective choice presents structural limitations: temporary and spaced out over time, they eliminate many individual choices that would enable constant adaptation to circumstances, direct responsibility and respect for the diversity of preferences.
 
 
 ### Ideologists and the factual foundations of freedom
 
 
-Ideologists such as Destutt de Tracy, Cabanis and Volney, active during the Revolution and the Empire, sought to anchor the theory of liberty in the observation of facts. Contrary to the image of the disconnected theorist, these thinkers were also practitioners: Cabanis was a physician, Destutt de Tracy an agronomist. Napoleon gave them this pejorative name, but admitted on St. Helena that he himself did not know the purpose of his conquests. Ironically, it was the Ideologists who possessed a coherent understanding of human action, while the so-called practitioner acted without clear direction.
+Ideologists such as Destutt de Tracy, Cabanis, and Volney, active during the Revolution and the Empire, sought to anchor the theory of liberty in the observation of facts. Contrary to the image of the disconnected theorist, these thinkers were also practitioners: Cabanis was a physician, Destutt de Tracy was an agronomist. Napoleon gave them this pejorative name, but admitted on St. Helena that he himself did not know the purpose of his conquests. Ironically, it was the Ideologists who possessed a coherent understanding of human action, while the so-called practitioner acted without clear direction.
 
 
-The first fundamental fact they identify is that the human being constitutes a body necessarily occupying a physical space. When someone sleeps in a bed, he occupies it exclusively - even in a collectivist society, the bed belongs to him de facto while he is using it. Ownership thus emerges not as an arbitrary social construct, but as a direct consequence of our bodily existence. More fundamentally, appropriation appears to be willed by nature: to eat an apple is necessarily to appropriate it; to breathe requires appropriation of the air. Ownership is therefore a reality rooted in our physical existence, not a convention that can be changed at will.
+The first fundamental fact they identify is that the human being constitutes a body necessarily occupying a physical space. When someone sleeps in a bed, they occupy exclusively - even in a collectivist society, the bed belongs to them de facto while they are using it. Ownership thus emerges not as an arbitrary social construct, but as a direct consequence of our bodily existence. More fundamentally, appropriation appears to be required by nature: to eat an apple is necessarily to appropriate it; to breathe requires appropriation of the air. Ownership is therefore a reality rooted in our physical existence, not a convention that can be changed at will.
 
 
 ### The finitude of the world and the individuality of perceptions
 
 
-The finiteness of resources necessarily generates a form of competition. Apples have to be appropriated precisely because they don't exist in infinite numbers. We can criticize competition, but we can't replace it with anything else. Collectivist systems don't eliminate it: they displace it into political relations, queues or administrative privileges, generally to the detriment of efficiency and justice. The relevant question is not whether competition will exist, but what rules will govern it.
+The finite nature of resources inevitably gives rise to competition. Apples, for example, must be appropriated precisely because they are not infinite in number. While we can critique competition, we cannot eliminate it entirely. Collectivist systems do not remove it either; they simply redirect it into political relations, queues, or administrative privileges, often at the expense of efficiency and justice. The more pertinent question is not whether competition will exist, but what rules should govern it.
 
 
-Finally, sensations are a fundamentally individual phenomenon. You can't hunger through someone else's eyes, nor can you see through someone else's eyes. This individuality has major consequences for social organization: individual decisions, based on direct perceptions, possess a quality of information that collective decisions cannot reproduce. A collective decision concerning food must aggregate the perceptions of multiple individuals whose needs differ in time and intensity. Its effects will necessarily be less adapted to each individual's actual situation. These facts show that freedom is not just one option among many, but a necessity deriving from the very nature of man and the world.
-
+Furthermore, sensations are inherently individual. One cannot experience hunger through another person’s eyes, nor can one truly see through someone else’s perspective. This individuality carries significant implications for social organization: decisions based on direct personal perceptions contain information that collective decisions cannot replicate. For instance, a collective decision regarding food must aggregate the perceptions of multiple individuals, each with different needs in terms of timing and intensity. As a result, its outcomes will inevitably be less tailored to each person’s actual situation. These observations demonstrate that freedom is not merely one option among many, but a necessity arising from the very nature of human beings and the world they inhabit
 
 
 
@@ -80,7 +79,7 @@ Finally, sensations are a fundamentally individual phenomenon. You can't hunger 
 ### The natural foundations of freedom of thought
 
 
-Freedom is based on concrete human facts rather than abstract constructs. The human being is not just a body acting in the material world: he is first and foremost a mind capable of feeling, conceiving and sharing ideas. Charles Comte, in his course on natural law (circa 1830), asserts that an individual devoid of cognitive abilities would scarcely be recognized as human. Social relationships are formed precisely because individuals can exchange thoughts and feelings.
+Freedom is based on concrete human realities rather than abstract constructs. The human being is not just a body acting in the material world: they are first and foremost a mind capable of feeling, conceiving and sharing ideas. Charles Comte, in his course on natural law (circa 1830), asserts that an individual devoid of cognitive abilities would scarcely be recognized as human. Social relationships are formed precisely because individuals can exchange thoughts and feelings.
 
 
 This ability to think is accompanied by an intrinsic pleasure that naturally encourages its development and sharing. The story of Father Yves-Marie André illustrates this reality: when his superiors forbade him to carry out philosophical research, he suffered deeply. For many people, developing and sharing their thoughts is a fundamental source of satisfaction. Thought is a manifestation of individual will and an extension of our individuality: we feel, conceive projects and naturally want to communicate them.
@@ -89,20 +88,18 @@ This ability to think is accompanied by an intrinsic pleasure that naturally enc
 ### The inviolability of conscience and intellectual property
 
 
-Thought is a logical consequence of the will, and its expression is merely its materialization. Since we possess free will, no one can stop us from thinking. There is therefore a natural postulate in favor of free expression: to hinder this freedom would break the organic link between sensation, will, thought and expression. When a person writes down his or her thoughts, it is always his or her personal property, directly related to self-ownership.
+Thought is a logical consequence of the will, and its expression is merely its material manifestation. Since we possess free will, no one can prevent us from thinking. There is, therefore a natural postulate in favor of free expression: to hinder this freedom would break the organic link between sensation, will, thought and expression. When a person writes down their thoughts, it is always their personal property, directly tied to self-ownership.
 
 
-This inviolability of conscience is historically demonstrated by the ineffectiveness of burning at the stake and intellectual repression. The physical existence of the bearer of an idea can be suppressed, but the act of thinking itself cannot be prevented. No authority has ever had power over thought as such, only over its material expression. We are free to change it, to pursue it, to construct concepts or to abandon them. Benjamin Constant, in his "Principes de politique" (1815), makes this point forcefully: "Error or truth, man's thought is his most sacred property." To break this freedom in the name of a higher reason, whatever it may be, seems fundamentally unjust.
+This inviolability of conscience is historically demonstrated by the ineffectiveness of burning at the stake and intellectual repression. While the physical existence of the bearer of an idea can be suppressed, the act of thinking itself cannot be prevented. No authority has ever had power over thought as such, only over its material expression. We are free to change our ideas, pursue them, construct concepts or abandon them. Benjamin Constant, in his "Principes de politique" (1815), makes this point forcefully: "Error or truth, man's thought is his most sacred property." To break this freedom in the name of a higher reason, whatever it may be, seems fundamentally unjust.
 
 
 ### Human perfectibility and the debate of ideas
 
 
-Freedom of expression is also justified by its usefulness for human progress. Condorcet, in his "Esquisse d'un tableau historique des progrès de l'esprit humain", develops the idea that humanity is continually progressing, thus overturning the doctrine of the original fall. However, this perfectibility requires active conditions: new, daring or revolutionary ideas must be able to be communicated, so that discoveries can be passed on to subsequent generations.
+Freedom of expression is also justified by its contribution to human progress. Condorcet, in his Esquisse d'un tableau historique des progrès de l'esprit humain, develops the idea that humanity is continually advancing, thereby challenging the doctrine of the original fall. However, this perfectibility depends on certain conditions: new, daring, or revolutionary ideas must be freely communicated so that discoveries can be transmitted to subsequent generations.
 
-
-Intellectual debate works on a principle similar to economic competition: it allows the best ideas to win through confrontation. Everyone can check whether a new conception corresponds to their own observations and perceptions. This dynamic is an essential mechanism of progress, enabling the continuous improvement of humanity's intellectual heritage. What's more, the natural variety of human beings necessarily generates a diversity of ideas. Differently constituted individuals develop distinct tastes, perceptions and sensibilities. This diversity fully justifies the need for free debate, enabling the most soundly based conceptions to find their audience.
-
+Intellectual debate operates on a principle similar to economic competition: it allows the best ideas to prevail through confrontation. Everyone can assess whether a new conception aligns with their own observations and experiences. This dynamics serves as an essential mechanism of progress, enabling the continuous enhancement of humanity's intellectual heritage. Furthermore, the natural variety among human beings inevitably generates a diversity of ideas. Individuals with different dispositions develop distinct tastes, perceptions, and sensibilities. This diversity fully justifies the necessity of free debate, allowing the most well-founded ideas to reach their audience.
 
 ### Press freedom and free education
 
@@ -111,7 +108,6 @@ Freedom of the press plays a specific role in the functioning of democracy. Poli
 
 
 French history illustrates the consequences of the absence of this freedom. Despite the influence of the Enlightenment, the absence of newspapers accessible to the people prevented the formation of an informed public opinion capable of supporting Turgot's reforms. In the end, these changes could only be brought about by the Revolution. The press acted as a "court of public opinion", a free and rapid mechanism for observing the effects of laws and pointing out their problematic aspects.
-
 
 ## Property and freedom of work
 
@@ -125,7 +121,7 @@ French history illustrates the consequences of the absence of this freedom. Desp
 ### Self-ownership as the primary foundation
 
 
-Self-ownership is the foundation of all thinking about economic freedom. Without recognition of the individual as self-owner, it is impossible to conceive of legitimate ownership of material goods.
+Self-ownership is the foundation of all thinking about economic freedom. Without recognition of the individual as self-owner, it is impossible to have legitimate ownership of material goods.
 
 
 This property is articulated around two fundamental cycles. The first goes from sensation to judgment, then to opinion: our sensory perceptions are personal and individual, our judgments remain free, and their expression leads to freedom of the press, education and religious tolerance. The second cycle links observation, reasoning and adaptation: the individual observes, establishes links between cause and effect, then acts according to a personal plan of conduct.
@@ -137,10 +133,10 @@ Jules Simon demonstrated that complex economic notions such as capital or freedo
 ### Ownership of things and land
 
 
-The ownership of things is based on the need to acquire. Human existence can only be sustained through the appropriation and production of goods. Vital necessities dictate production, which requires the reasoning of self-ownership.
+The ownership of things is based on the need to acquire. Human existence can only be sustained through the appropriation and production of goods. Vital necessities guide production, which requires the reasoning of self-ownership.
 
 
-Appropriation necessarily precedes consumption: to consume an apple, you must first appropriate it. This appropriation is individual in nature, and it is precisely because we appropriate goods individually that we feel their effects in a personal way.
+Appropriation necessarily precedes consumption: to consume an apple, you must first appropriate it. This appropriation is individual in nature, and it is precisely because we appropriate goods ourselves that we feel their effects personally.
 
 
 Land ownership is an extension of this logic, and is based on work. The image of the sweaty land-clearer illustrates this reality: virgin land remains unsuitable for satisfying human needs. To make it productive, it must be cleared, cultivated and maintained. Possession is truly work, an observation that extends even to capital: preserving and increasing capital requires resistance to the temptations of immediate consumption and the ability to direct investments wisely.
@@ -149,19 +145,19 @@ Land ownership is an extension of this logic, and is based on work. The image of
 ### The universality of ownership
 
 
-Ownership can be observed in all ages and societies. Phases of human development correspond to different forms of property, depending on the conditions of production, but the fundamental principle remains constant.
+Ownership can be observed in all ages and societies. Phases of human development correspond to different forms of property, depending on the conditions of production, but the fundamental principle remains the same.
 
 
-This notion can even be observed among animals, who share spaces and territories that they defend against intruders. Even in the Stone Age, caves and resources were regarded as private property, although often collectively within a group. This collective tribal ownership should not be confused with ownership common to the whole of humanity: tribes excluded other human groups.
+This notion can even be observed among animals, who share spaces and territories that they defend against intruders. Even in the Stone Age, caves and resources were regarded as private property, although often treated as group owned property. This collective tribal ownership should not be confused with common ownership by all humanity: tribes excluded other human groups.
 
 
-This collective form of hunting can be explained by production conditions. Hunting could not be carried out in restricted areas, since animals moved over vast territories. Ownership existed, but adapted to the technical constraints of the time.
+This collective form of hunting can be explained by production conditions. Hunting could not be carried out in restricted areas, because animals moved over vast territories. Ownership existed, but adapted to the technical constraints of the time.
 
 
 ### Freedom to work, self-interest and free trade
 
 
-Freedom to work is rooted in real, individual need. It is I who feel my own hunger, it is I who experience a particular suffering. This individuality is the basis of freedom to work: as the need is personal, I must be allowed to respond to it in the way I see fit.
+Freedom to work is rooted in real, individual need. It is I who feel my own hunger, it is I who experience a particular suffering. This individuality is the basis of freedom to work: as the need is personal, one must be free to address it in the way they see fit.
 
 
 A second foundation is the variety of dispositions, tastes and strengths between individuals. Faced with similar needs, individuals feel them differently. Each must find the resources to draw from his own body the utilities that will meet his specific needs. When a regulatory state intervenes, it breaks this natural chain by imposing a uniform course of action without taking individual dispositions into account.
@@ -170,7 +166,7 @@ A second foundation is the variety of dispositions, tastes and strengths between
 Self-interest is a fundamental motive for human action. Pierre de Boisguilbert identified it as early as the beginning of the eighteenth century: all commerce is governed solely by the interests of entrepreneurs, who are never thinking of rendering service but of satisfying their own needs. This reciprocal utility is what makes the world harmonious.
 
 
-Free trade is the logical extension of these principles. If I am an owner by virtue of my work, what authority can prevent me from exchanging my good for another that pleases me more? To legitimately own a good and not have the freedom to exchange it is a contradiction of fundamental human facts.
+Free trade is the logical extension of these principles. If I am an owner by virtue of my work, what authority can prevent me from exchanging my good for another that pleases me more? To legitimately own some good and not have the freedom to trade it is in contradiction with basic human realities.
 
 
 Taken together, these observations do not constitute an abstract theory, but a rigorous appreciation of the facts of human nature, developed by the liberal economists of the eighteenth and nineteenth centuries.
@@ -189,13 +185,13 @@ Taken together, these observations do not constitute an abstract theory, but a r
 ### The physiological basis of the non-aggression principle
 
 
-The principle of non-aggression has its roots in universal biological facts. Pain is the mechanism by which infringements of our freedom and bodily property manifest themselves to our consciousness. Without this phenomenon, transmitted by the nervous system, it would be impossible to perceive violations of our physical integrity. This physiological reality establishes a natural limit to everyone's freedom: any action that causes pain to others constitutes an infringement of their self-ownership.
+The principle of non-aggression has its roots in universal biological facts. Pain is the mechanism through which violations of our freedom and bodily integrity become perceptible to us. Without this phenomenon, transmitted by the nervous system, it would be impossible to perceive violations of our physical integrity. This physiological reality establishes a natural limit to everyone's freedom: any action that causes pain to others constitutes an infringement of their self-ownership.
 
 
-A second fact completes this understanding: fear and the brake on action it engenders. Gustave de Molinari developed this analysis: when others infringe our rights or pose a threat, we have to re-examine and modify our plans. This psychological constraint prevents us from acting as we would have done in the absence of the threat, diminishing our effective freedom.
+A second fact completes this understanding: fear and the inhibition of action it produces. Gustave de Molinari developed this analysis: when others infringe our rights or pose a threat, we are compelled to reconsider and adjust our plans. This psychological constraint prevents us from acting as we would have done without the threat, diminishing our effective freedom.
 
 
-However, not all nuisances can be treated equally by the law. The example of the baker illustrates this distinction: a new competitor causes an economic nuisance, but this does not constitute a legally condemnable aggression. Historical developments show a gradual broadening of the nuisances excluded from the legal framework. In the Middle Ages, competition and technical progress were often condemned because their effects were concentrated in restricted communities. The emancipation of these restrictions accompanied the development of a freer society.
+However, not all nuisances can be treated equally by the law. The example of the baker illustrates this distinction: a new competitor causes an economic nuisance, but this does not constitute a legally actionable aggression. Historical developments show a gradual expansion of the nuisances that the law no longer considers punishable. In the Middle Ages, competition and technical progress were often condemned because their effects were concentrated in restricted communities. The emancipation of these restrictions accompanied the development of a freer society.
 
 
 ### Social harmony and peace through exchange
@@ -204,7 +200,7 @@ However, not all nuisances can be treated equally by the law. The example of the
 Frédéric Bastiat and Gustave de Molinari summed up their doctrine as "liberty and peace". This harmony is rooted in the relationship between customers and suppliers. The customer needs his supplier to obtain the desired goods, while the supplier needs his customer to be prosperous. A rational supplier prefers wealthy customers capable of acquiring his products. This logic applies at every level, from the family to international trade, creating mutually beneficial relationships that naturally engender harmony.
 
 
-The Abbé de Saint-Pierre underlines a fundamental fact: security is a universal need, because no individual is strong enough to protect himself alone. The strongest man was not strong in childhood, nor will he be in old age. Even at the peak of his strength, he experiences moments of vulnerability: sleep, illness, weakening. This vulnerability creates a universal need for collective security, satisfied by the establishment of the rule of law.
+The Abbé de Saint-Pierre underlines a fundamental fact: security is a universal need, because no individual is strong enough to protect themselves alone. Even the strongest person was not strong in childhood, nor will he be in old age. Even at the peak of strength, individuals experience moments of vulnerability— such as sleep, illness, and weakening. This vulnerability creates a universal need for collective security, satisfied by the establishment of the rule of law.
 
 
 The evolution of modern production reinforces this tendency towards peace. Hunting and fishing are violent forms of production, based on destruction rather than creation. Agriculture represents an advance towards peaceful production, embodying harmony rather than predatory activities.
@@ -213,19 +209,19 @@ The evolution of modern production reinforces this tendency towards peace. Hunti
 ### The foundations of political freedom
 
 
-Political freedom is based on fundamental human facts. The principle of decentralization is rooted in human variety: human beings have different needs, preferences and circumstances. This diversity is above all individual. Logically, decentralization should be pushed to the point of individual autonomy. This logic, defended by Benjamin Constant, reveals the fundamental impossibility of planism: you can't organize a society in a centralized way while ignoring this irreducible diversity.
+Political freedom is grounded in fundamental facts about human nature. The principle of decentralization is rooted in human variety: human beings have different needs, preferences, and circumstances. This diversity is above all individual. Logically, decentralization should extend to individual autonomy. This reasoning, defended by Benjamin Constant, highlights the fundamental impossibility of central planning: one cannot organize society in a centralized manner while ignoring this irreducible diversity.
 
 
-Universal suffrage is based on the fact that pleasures and pains are individual experiences: everyone feels the effects of laws directly. Different individuals can have different perceptions of the same situations, and form judgments based on their personal experience. This reality justifies soliciting everyone's opinion in the democratic process.
+Universal suffrage is based on the fact that pleasures and pains are individual experiences: everyone feels the effects of laws directly. People may perceive the same situation differently and form judgments based on their own experiences. This reality justifies involving everyone in the democratic process.
 
 
 ### The foundations of civil liberty
 
 
-Civil liberty is also based on fundamental facts. Freedom of expression and religious tolerance derive from the fact that judgments are based on human personality and self-ownership. As each personality is different, judgments can and must be different to enable the debate of ideas, the driving force behind human perfectibility. This diversity of judgments is not an obstacle, but a richness to be cultivated.
+Civil liberty is likewise grounded in fundamental truths. Freedom of expression and religious tolerance arise from the reality that judgments stem from individual personality and self-ownership. Because personalities differ, judgments will — and must — differ as well. This diversity makes possible the exchange of ideas, which is the driving force behind human improvement. Rather than an obstacle, this plurality of viewpoints is a resource to be cultivated.
 
 
-The question of marriage illustrates these principles: the choice of spouse must be free, because there are a thousand shades of beauty and a thousand ways of being happy. Aesthetic and emotional perceptions are profoundly individual. These simple facts underpin essential elements of civil liberty, demonstrating how liberalism is rooted in the concrete reality of human experience rather than abstract ideological constructs.
+The question of marriage illustrates these principles: the choice of spouse must be free, because there are a thousand shades of beauty and a thousand ways of being happy. Aesthetic and emotional perceptions are profoundly individual. These simple facts support the essential elements of civil liberty, showing that liberalism is rooted in the concrete reality of human experience, rather than in abstract ideological constructions.
 
 
 
@@ -240,10 +236,10 @@ The question of marriage illustrates these principles: the choice of spouse must
 ### The contradictions surrounding property
 
 
-Proudhon's formula "property is theft" illustrates the internal contradictions of systems of constraint. Bastiat demonstrated its logical incoherence: if property is theft, then theft is property, which amounts to asserting that what is legitimate is not legitimate. His analysis establishes that property flows naturally from work, self-ownership and human faculties, present in all societies throughout history.
+Proudhon's formula "property is theft" illustrates the internal contradictions of systems of constraint. Bastiat demonstrated its logical incoherence: if property is theft, then theft would be property, which is equivalent to claiming that what is legitimate is illegitimate. His analysis establishes that property flows naturally from work, self-ownership, and human faculties, present in all societies throughout history.
 
 
-Non-freedom systems postulate an original spoliation of land by force, followed by enjoyment without work. This vision contains two major factual errors. Firstly, it assumes an automatic ease to enrichment, ignoring the constant risks, back-breaking work and difficulties faced by entrepreneurs. Secondly, if this original despoilment were true, we should be seeing the descendants of these land-grabbers among the richest families today. However, reality shows that exchanges are legitimately made through work and the exchange of value for value. Today's properties have been validated by work and voluntary exchange. What's more, production conditions are constantly evolving: once-valuable lands can lose their value, while neglected areas acquire new interest, as the example of rare earths illustrates.
+Non-freedom systems postulate an original spoliation of land by force, followed by enjoyment without work. This vision contains two major factual errors. Firstly, it assumes an automatic ease to enrichment, ignoring the constant risks, back-breaking work and difficulties faced by entrepreneurs. Secondly, if this original despoilment were true, we would expect to see the descendants of these land-grabbers among the wealthiest families today. However, reality shows that exchanges are legitimately made through work and the exchange of value for value. Today's properties have been validated by work and voluntary exchange. Moreover, production conditions are constantly evolving: lands that were once valuable can lose their worth, while previously neglected areas can gain value, as illustrated by rare earths earths illustrates.
 
 
 ### The contradictions of human nature
@@ -252,7 +248,7 @@ Non-freedom systems postulate an original spoliation of land by force, followed 
 Uniform laws and administrative centralization are in direct contradiction with humanity's natural diversity. These systems impose uniform ways of working and enjoying property, whereas property should confer the freedom to do with it as one wishes. Under these regimes, the owner becomes a mere usufructuary, with true ownership belonging to the state, reminiscent of the Ancien Régime when the king was the ultimate owner of all land.
 
 
-Another major contradiction is the weakening of self-interest. Every human being is born with a distinct personality that manifests itself throughout his or her life. Freedom allows self-interest to find its satisfactions voluntarily and peacefully, at its own pace and according to its own particular needs. Non-freedom imposes standardized satisfactions that do not correspond to people's real needs.
+Another major contradiction is the weakening of self-interest. Every human being is born with a distinct personality that manifests itself throughout their life. Freedom allows self-interest to find its satisfactions voluntarily and peacefully, at its own pace and according to its own particular needs. Non-freedom imposes standardized satisfactions that do not correspond to people's actual needs.
 
 
 The rejection of parental love in education represents a particularly serious contradiction. Unfree education replaces these natural feelings with state administrative guardianship. The state, devoid of feelings, cannot appreciate the unique personality of each child, unlike parents, who possess irreplaceable intimate knowledge and emotional investment.
@@ -263,8 +259,7 @@ The rejection of parental love in education represents a particularly serious co
 
 Attempts to control thought are manifested through the subsidized press, monopolistic national education, limitations on religious freedom and regulated democracy. These measures are attacks on the very nature of human thought. Thought is formed within, belongs intimately to each individual and is the purest expression of self-ownership. Systems of coercion attempt to break the natural link between ideas and their peaceful expression, depriving society of the process of discovering and improving the truth that emerges from free debate.
 
-
-This attempt reveals a profound misunderstanding of how ideas are formed and propagated. Thought cannot be controlled from the outside without destroying the ability to think creatively and critically. Systems that impose intellectual orthodoxy end up stifling the innovation and intellectual progress essential to human development.
+This approach reveals a profound misunderstanding of how ideas are formed and propagated. Thought cannot be controlled from the outside without destroying the ability to think creatively and critically. Systems that impose intellectual orthodoxy end up stifling innovation and intellectual progress essential to human development
 
 
 ### Economic contradictions

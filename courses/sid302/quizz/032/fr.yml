@@ -1,0 +1,8 @@
+question: Que se passe-t-il lorsqu'une permutation sous-marine inversée échoue ou est interrompue dans l'architecture SDK Breez ?
+answer: Le SDK construit et diffuse automatiquement une transaction de remboursement pour restituer les fonds à la wallet de l'utilisateur
+wrong_answers:
+  - Le fournisseur de swap lance manuellement un processus de récupération nécessitant l'intervention de l'utilisateur dans les 24 heures
+  - Les fonds restent bloqués en permanence jusqu'à ce que la connexion Lightning Network soit rétablie
+  - L'utilisateur doit contacter le support Boltz pour déclencher manuellement une transaction federated peg-out
+explanation: |
+  Le SDK Breez met en œuvre la gestion automatisée des remboursements en tant que mécanisme de sécurité essentiel. Lorsque les swaps échouent ou expirent, le SDK surveille tous les états des swaps et gère automatiquement le processus de récupération sans intervention de l'utilisateur. Cela permet de faire abstraction de la complexité des contrats à durée déterminée et de s'assurer que les fonds ne sont jamais définitivement perdus. Les autres options sont incorrectes car elles nécessitent une intervention manuelle, supposent une perte permanente des fonds ou impliquent des processus qui n'existent pas dans le système automatisé.

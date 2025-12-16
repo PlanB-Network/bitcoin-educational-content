@@ -1,0 +1,8 @@
+question: Dans le contexte des filtres de bloc compacts (BIP158) pour les clients légers préservant la vie privée, quel est le compromis critique qui les rend efficaces pour la protection de la vie privée wallet ?
+answer: Ils peuvent produire des faux positifs mais jamais de faux négatifs, ce qui permet aux clients de télécharger des blocs potentiellement non pertinents sans révéler d'adresses spécifiques
+wrong_answers:
+  - Ils peuvent produire des faux négatifs mais jamais de faux positifs, ce qui garantit que les clients ne téléchargent que les blocs contenant leurs transactions
+  - Ils éliminent à la fois les faux positifs et les faux négatifs en utilisant un filtrage déterministe basé sur les adresses wallet
+  - "Ils produisent à la fois des faux positifs et des faux négatifs dans des proportions égales afin d'obscurcir les schémas de transaction réels du client
+explanation: |
+  Les filtres de blocs compacts sont conçus avec un modèle d'erreur asymétrique : ils peuvent indiquer qu'un bloc contient des transactions pertinentes alors que ce n'est pas le cas (faux positif), mais ils ne manqueront jamais un bloc qui contient réellement des transactions pertinentes (pas de faux négatif). Cette conception est cruciale car les faux négatifs signifieraient manquer des paiements réels, alors que les faux positifs n'entraînent que le téléchargement de blocs inutiles. Le taux de faux positifs garantit la confidentialité en obligeant les clients à télécharger des blocs non pertinents, ce qui empêche les observateurs de déterminer quels blocs contiennent réellement les transactions du client.

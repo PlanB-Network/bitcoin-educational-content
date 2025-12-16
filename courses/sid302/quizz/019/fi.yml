@@ -1,0 +1,8 @@
+question: Mikä erottaa säännellyt omaisuuserät sääntelemättömistä omaisuuseristä Liquid:n kotimaisessa omaisuuseräjärjestelmässä?
+answer: Säännellyt omaisuuserät vaativat toisen allekirjoituksen valtuutuspalvelimelta, ennen kuin niitä voidaan siirtää, mikä mahdollistaa KYC/AML-vaatimusten noudattamisen
+wrong_answers:
+  - Säännellyt omaisuuserät käyttävät älykkäitä sopimuksia, kun taas sääntelemättömät omaisuuserät käyttävät yksinkertaisia RPC-pyyntöjä liikkeeseenlaskuun
+  - Säänneltyjen omaisuuserien takana on Bitcoin-reservit, kun taas sääntelemättömät omaisuuserät ovat olemassa vain sivuketjussa
+  - Säänneltyjen omaisuuserien luominen edellyttää viranomaisten hyväksyntää, kun taas sääntelemättömät omaisuuserät voidaan laskea liikkeeseen ilman lupaa
+explanation: |
+  Liquid:n arkkitehtuurissa sekä säänneltyjä että sääntelemättömiä omaisuuseriä voidaan laskea liikkeeseen ilman lupaa yksinkertaisilla RPC-puheluilla ilman älykkäitä sopimuksia. Keskeinen ero on niiden liikkumisessa: säännellyt omaisuuserät käyttävät Blockstreamin omaisuudenhallinta-alustaa (AMP) vaatimustenmukaisuuden valvomiseksi vaatimalla ylimääräisen valtuutusallekirjoituksen ennen siirtoja, kun taas sääntelemättömät omaisuuserät voivat liikkua vapaasti ilman tällaisia rajoituksia.

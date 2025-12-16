@@ -1,0 +1,8 @@
+question: Bir Bitcoin düğümü getheaders komutunu kullanarak blok başlıkları talep ettiğinde, tek bir yanıtta döndürülebilecek maksimum başlık sayısı nedir ve her 80 baytlık başlığı ne takip eder?
+answer: 2000 adede kadar başlık döndürülebilir, her birinin ardından sıfırlık sahte bir işlem sayısı gelir
+wrong_answers:
+  - 1000 adede kadar başlık döndürülebilir, her birinin ardından bir varint olarak gerçek işlem sayısı gelir
+  - Her birinin ardından başlık verilerinin 4 baytlık bir sağlama toplamı olmak üzere 2000 adede kadar başlık döndürülebilir
+  - Her birinin ardından doğrulama için Merkle kök karması olmak üzere 500 adede kadar başlık döndürülebilir
+explanation: |
+  Bitcoin'nin P2P protokolü özellikle getheaders yanıtlarını maksimum 2000 başlık ile sınırlandırarak düğümlerin büyük yanıtlarla boğulmasını önler. Her başlık tam olarak 80 bayttır ve bunu sıfıra ayarlanmış bir işlem sayısı alanı takip eder, çünkü yalnızca başlık mesajları gerçek işlemleri içermez. Bu tasarım, düğümlerin tam blok verilerini talep etmeden önce proof-of-work zincir yapısını hızlı bir şekilde indirip doğrulayabildiği verimli zincir senkronizasyonuna olanak tanır.

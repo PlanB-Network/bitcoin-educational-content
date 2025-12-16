@@ -1,0 +1,8 @@
+question: Mikä on Elements:n ja Liquid Network:n välinen suhde?
+answer: Liquid on tuotantokäyttöön konfiguroidun Elements-sivuketjun erityinen instanssi
+wrong_answers:
+  - Elements on Liquid Network:n erityinen testitarkoituksiin konfiguroitu instanssi
+  - Liquid ja Elements ovat kaksi kilpailevaa lohkoketjualustaa, joilla on erilaiset koodipohjat
+  - "Elements on konsensusmekanismi, joka käyttää Liquid Network:n lohkon validointia."
+explanation: |
+  Elements on avoimen lähdekoodin lohkoketjualustaohjelmisto, kun taas Liquid on Elements:n sivuketjun erityinen toteutus tai "instanssi", joka on konfiguroitu tuotantokäyttöön federoitua konsensusmallia varten. Ajattele Elements:tä taustalla olevana teknologiakehyksenä ja Liquid:ta yhtenä erityisenä verkostona, joka on rakennettu tätä kehystä käyttäen. Tämä on samanlaista kuin Bitcoin Core on ohjelmisto, joka käyttää Bitcoin-verkkoa - Elements on ohjelmistomoottori, joka käyttää Liquid:ta ja muita mukautettuja sivuketjuja.

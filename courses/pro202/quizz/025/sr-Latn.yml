@@ -1,0 +1,8 @@
+question: U P2PKH validaciji transakcije, koji specifičan niz operacija ScriptPubKey izvršava da bi verifikovao uslove trošenja?
+answer: Duplicira javni ključ, hešira ga, poredi sa posvećenim hešom, zatim verifikuje potpis
+wrong_answers:
+  - Hešira potpis, poredi sa hešom javnog ključa, zatim verifikuje u odnosu na posvećenu vrednost
+  - Prvo verifikuje potpis, zatim hešira javni ključ i upoređuje sa hešom u obavezi
+  - Kombinuje potpis i javni ključ, hešira rezultat, zatim upoređuje sa posvećenim hešom
+explanation: |
+  ScriptPubKey P2PKH sledi specifičnom nizu: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Ovo duplira dati javni ključ, primenjuje SHA256 zatim RIPEMD160 heširanje, proverava da li rezultat odgovara posvećenom hešu, i na kraju proverava potpis. Druge opcije netačno opisuju redosled operacija ili predlažu heširanje potpisa umesto javnih ključeva, što bi narušilo logiku validacije.

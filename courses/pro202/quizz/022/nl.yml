@@ -1,0 +1,8 @@
+question: Welke fundamentele beperking van het UTXO model vereist een specifieke aanpak bij het uitgeven van Bitcoin?
+answer: UTXO's moeten volledig worden uitgegeven en kunnen niet gedeeltelijk worden geconsumeerd
+wrong_answers:
+  - UTXO's kunnen maar één keer per blok worden uitgegeven om dubbele uitgaven te voorkomen
+  - UTXO's moeten in chronologische volgorde worden uitgegeven op basis van de aanmaaktijd
+  - UTXO's vereisen meerdere handtekeningen van verschillende sleutels om geldig te zijn
+explanation: |
+  Het UTXO model heeft een fundamentele beperking dat niet uitgegeven transactie-uitgangen volledig moeten worden geconsumeerd - er is geen mechanisme voor gedeeltelijke uitgaven. Als je minder dan het volledige UTXO bedrag wilt uitgeven, moet je een transactie creëren die het volledige UTXO bedrag uitgeeft en een wijzigingsuitvoer naar jezelf voor het restant bevat. De andere opties beschrijven niet-bestaande beperkingen: UTXO's kunnen meerdere keren per blok worden uitgegeven (verschillende UTXO's), hebben geen chronologische volgorde nodig en hebben meestal maar één geldige handtekening nodig, tenzij ze specifiek zijn ontworpen als multisig.

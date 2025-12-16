@@ -1,0 +1,8 @@
+question: 암호화 연산에서 효율적인 모듈식 지수를 수행하기 위해 특별히 언급되는 파이썬 함수는 무엇인가요?
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(base, exp, prime)
+  - exp(base, mod, field)
+  - mult(base, exp, modulo)
+explanation: |
+  파이썬에 내장된 pow(base, exp, mod) 함수는 큰 지수를 포함하는 암호화 연산에 중요한 효율적인 모듈식 지수를 위해 특별히 설계되었습니다. 이 함수는 최적화된 알고리즘을 사용하여 base^exp의 잠재적으로 엄청난 중간 결과를 먼저 계산할 필요 없이 (base^exp) mod를 계산합니다. 다른 옵션은 유효한 파이썬 함수가 아닙니다. 이러한 매개변수 패턴을 가진 mod(), exp() 및 mult()는 암호화 모듈식 산술을 위한 파이썬의 표준 라이브러리에 존재하지 않습니다.

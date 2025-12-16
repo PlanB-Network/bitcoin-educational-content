@@ -1,0 +1,8 @@
+question: Kui Bitcoin wallet skaneerib plokke sissetulevate maksete jaoks, miks eelistatakse tervete plokkide allalaadimist üksikute tehingute taotlemisele võrgupooltelt?
+answer: Tervete plokkide allalaadimine tagab parema privaatsuse kaitse, kuna ei avalda, milliste konkreetsete tehingute või aadresside jälgimisest wallet on huvitatud
+wrong_answers:
+  - Tervete plokkide allalaadimine on arvutuslikult tõhusam, sest see nõuab vähem krüptograafilisi hash-operatsioone tehingu autentsuse kontrollimiseks
+  - Tervete plokkide allalaadimine tagab kiirema sünkroniseerimise, kuna vastastajad saavad saata kompresseeritud plokkide andmeid, mitte üksikuid tehingu vastuseid
+  - Tervete plokkide allalaadimine tagab parema turvalisuse, sest see võimaldab wallet-l kontrollida iga tehingu puhul kogu proof-of-work
+explanation: |
+  Privaatsus on plokipõhise päringu peamine eelis. Kui wallet küsib konkreetseid tehinguid, siis lekib ta tugevaid signaale kasutaja tegevuse kohta ja paljastab, millised aadressid kuuluvad sellele wallet-le. Tervete plokkide allalaadimine varjab wallet tegelikke huve kõikide plokkide tehingute seas. Valed vastused keskenduvad tõhususele, kiirusele või turvalisuse eelistele, mis ei ole peamine motivatsioon - üksikud tehingupäringud võiksid teoreetiliselt olla sama turvalised või tõhusad, kuid nad kahjustavad põhimõtteliselt privaatsust, kuna paljastavad wallet jälgimismustrid võrgukaaslastele.

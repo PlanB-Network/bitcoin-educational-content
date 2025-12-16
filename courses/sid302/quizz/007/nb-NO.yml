@@ -1,0 +1,8 @@
+question: Hva er forholdet mellom Elements og Liquid Network?
+answer: Liquid er en spesifikk instans av en Elements-sidekjede som er konfigurert for produksjonsbruk
+wrong_answers:
+  - Elements er en spesifikk instans av Liquid Network konfigurert for testformål
+  - Liquid og Elements er to konkurrerende blokkjedeplattformer med ulike kodebaser
+  - "Elements er konsensusmekanismen som driver Liquid Networks blokkvalidering."
+explanation: |
+  Elements er blokkjedeplattformens programvare med åpen kildekode, mens Liquid er en spesifikk implementering eller "instans" av en Elements-sidekjede som er konfigurert for produksjonsbruk med en føderert konsensusmodell. Tenk på Elements som det underliggende teknologiske rammeverket, og Liquid som ett bestemt nettverk som er bygget ved hjelp av dette rammeverket. Dette er på samme måte som Bitcoin Core er programvaren som driver Bitcoin-nettverket - Elements er programvaremotoren som driver Liquid og andre tilpassede sidekjeder.

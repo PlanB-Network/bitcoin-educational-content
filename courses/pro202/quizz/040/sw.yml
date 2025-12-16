@@ -1,0 +1,8 @@
+question: Kwa nini wachimbaji wa kisasa wa ASIC hurekebisha data ndani ya muamala wa Coinbase badala ya kutegemea tu sehemu ya nonce ya kichwa cha block?
+answer: Sehemu ya nonce ya baiti 4 haitoshi kutafuta ASIC za kisasa, kwa hivyo wachimbaji hubadilisha data ya Coinbase ili kubadilisha mzizi wa Merkle na kuunda nafasi ya ziada ya kutafuta
+wrong_answers:
+  - Kurekebisha muamala wa Coinbase huruhusu wachimbaji kudai zawadi kubwa zaidi kuliko vibali vya kiwango cha kawaida cha ruzuku
+  - "Muamala wa Coinbase lazima urekebishwe ili kujumuisha sahihi ya kidijitali ya mchimbaji kwa madhumuni ya uthibitishaji wa vitalu"
+  - Kubadilisha data ya Coinbase hupunguza ugumu wa kompyuta kwa kuruhusu wachimbaji kupita mahitaji ya kawaida ya proof-of-work
+explanation: |
+  ASIC za kisasa zinaweza kutumia nafasi ya nonce ya baiti 4 (uwezekano wa 2^32) haraka sana, zikihitaji nafasi ya ziada ya utafutaji. Kwa kurekebisha data katika muamala wa Coinbase, wachimbaji hubadilisha hash ya muamala, ambayo hubadilisha mzizi wa Merkle kwenye kichwa cha block, na kuunda kwa ufanisi mabilioni ya thamani za ziada zinazofanana na nonce za kujaribu. Mbinu hii, inayoitwa 'extra-nonce,' ni muhimu kwa shughuli za kisasa za mining ambapo vifaa vinazidi sana uwezo wa uwanja wa nonce wa asili.

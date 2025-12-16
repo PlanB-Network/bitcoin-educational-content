@@ -1,0 +1,8 @@
+question: O que é um campo finito F(p) no sistema criptográfico de Bitcoin?
+answer: Um sistema aritmético definido por um número primo p, contendo elementos de 0 a p-1
+wrong_answers:
+  - Um conjunto infinito de números utilizados para gerar endereços e chaves Bitcoin
+  - Um campo matemático que contém todos os números reais entre 0 e p-1 inclusive
+  - Uma função de hash criptográfica que produz resultados de exatamente p bits de comprimento
+explanation: |
+  Um campo finito F(p) é especificamente um sistema aritmético construído em torno de um número primo p que contém exatamente p elementos: os números inteiros de 0 a p-1. O aspeto "finito" é crucial - não é infinito, e não se trata de números reais ou funções hash. Os campos primos asseguram que cada elemento diferente de zero tem um inverso multiplicativo e que todas as operações aritméticas (adição, subtração, multiplicação) são realizadas utilizando o módulo p, mantendo os resultados dentro do campo. Esta estrutura limitada e previsível é essencial para a segurança criptográfica do Bitcoin.

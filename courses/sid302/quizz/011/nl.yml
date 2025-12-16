@@ -1,0 +1,8 @@
+question: Wat gebeurt er als een serviceprovider een Lightning-factuur betaalt om een Liquid-naar-Lightning swap te voltooien met behulp van HTLC's?
+answer: De provider ontvangt de preimage van de Lightning-betaling, die hij vervolgens kan gebruiken om de L-BTC van de HTLC te ontgrendelen en op te eisen
+wrong_answers:
+  - De provider moet wachten tot het tijdslot is verlopen voordat hij toegang heeft tot de L-BTC die is vergrendeld in het HTLC contract
+  - "De klant ontvangt automatisch het preimage en gebruikt het om de L-BTC direct vrij te geven aan Liquid wallet van de provider."
+  - Het HTLC contract wordt automatisch uitgevoerd en draagt de L-BTC over aan de provider zonder dat er extra cryptografisch bewijs nodig is
+explanation: |
+  HTLC's creëren atomaire swaps door middel van cryptografische binding met hetzelfde hash slot op beide netwerken. Wanneer de provider de Lightning-factuur met succes betaalt, verkrijgen ze het preimage (geheim) dat overeenkomt met het hash lock. Dit preimage is de cryptografische sleutel waarmee ze de L-BTC kunnen ontgrendelen die eerder was vergrendeld in de HTLC. De andere opties zijn onjuist omdat ze de atomaire aard van HTLC's niet weerspiegelen - het tijdslot is slechts een terugvalmechanisme, clients handelen de distributie van het preimage niet af en HTLC's vereisen actief cryptografisch bewijs in plaats van automatische uitvoering.

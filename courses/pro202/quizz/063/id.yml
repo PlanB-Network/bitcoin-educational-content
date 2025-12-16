@@ -1,0 +1,8 @@
+question: Apa properti kriptografi utama yang memungkinkan filter blok ringkas (BIP158) untuk memberikan privasi bagi klien yang ringan sekaligus mempertahankan akurasi yang sempurna?
+answer: Mereka dapat menghasilkan positif palsu tetapi tidak pernah negatif palsu saat mencocokkan transaksi
+wrong_answers:
+  - Mereka menggunakan bukti zero-knowledge untuk menyembunyikan alamat mana yang ditanyakan dari node
+  - "Mereka mengenkripsi semua data filter menggunakan kunci publik klien untuk mencegah penyadapan"
+  - Mereka mengacak urutan hash transaksi untuk mengaburkan pola pengeluaran dari pengamat
+explanation: |
+  Filter blokir ringkas menggunakan struktur data probabilistik yang mungkin salah mengindikasikan kecocokan (positif palsu) tetapi tidak akan pernah melewatkan kecocokan yang sebenarnya (negatif palsu). Sifat asimetris ini sangat penting: positif palsu hanya menyebabkan unduhan blok yang tidak perlu, sementara negatif palsu akan menyebabkan dompet melewatkan pembayaran sama sekali. Manfaat privasi berasal dari ketidakpastian ini - pengamat tidak dapat membedakan antara kecocokan yang sebenarnya dan positif palsu, mengaburkan transaksi mana yang sebenarnya termasuk dalam kueri wallet.

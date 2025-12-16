@@ -1,0 +1,8 @@
+question: Zašto Mayfellova implementacija zadužnica na Liquid posebno koristi Confidential Transactions umesto korišćenja transparentnih blockchain zapisa?
+answer: Komercijalni zahtevi za privatnost zahtevaju da iznosi zajma ostanu vidljivi samo zajmodavcu i zajmoprimcu, uz očuvanje mogućnosti verifikacije od strane revizora.
+wrong_answers:
+  - Regulatorna usklađenost u Meksiku nalaže da sve finansijske transakcije moraju biti potpuno skrivene od nadzora vlade i poreskih vlasti.
+  - Transparentni zapisi bi stvorili uska grla u skalabilnosti koja sprečavaju sistem da efikasno obradi potrebnih 25.000+ zadužnica.
+  - Javna vidljivost iznosa zajmova bi pokrenula automatske poreske događaje koji bi proces tokenizacije učinili finansijski neodrživim za učesnike.
+explanation: |
+  Confidential Transactions rešava kritičan poslovni problem u komercijalnom kreditiranju: održavanje konkurentne privatnosti uz omogućavanje usklađenosti sa propisima. U tradicionalnim finansijama, iznosi zajmova između preduzeća su poverljive komercijalne informacije kojima konkurenti ne bi trebalo da imaju pristup, ali revizori i regulatori moraju da verifikuju integritet knjigovodstvenih evidencija. Liquid-ov Confidential Transactions postiže ovu ravnotežu kriptografski skrivajući iznose od javnosti dok ovlašćenim stranama omogućava verifikaciju transakcija. Pogrešni odgovori pogrešno predstavljaju tehnologiju - CT ne skriva transakcije od regulatora (privatnost naspram tajnosti), ne rešava probleme skalabilnosti (to je poseban tehnički problem), i ne stvara mehanizme za izbegavanje poreza (legitimni alati za privatnost ne zaobilaze poreske obaveze).

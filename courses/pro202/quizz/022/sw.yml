@@ -1,0 +1,8 @@
+question: Ni kizuizi gani cha msingi cha modeli ya UTXO kinachohitaji utunzaji maalum wakati wa kutumia Bitcoin?
+answer: UTXO lazima zitumike kabisa na haziwezi kutumika kwa sehemu
+wrong_answers:
+  - UTXO zinaweza kutumika mara moja tu kwa kila block ili kuzuia matumizi mara mbili
+  - UTXO lazima zitumike kwa mpangilio kulingana na muda wa uumbaji
+  - UTXO zinahitaji sahihi nyingi kutoka kwa funguo tofauti ili ziwe halali
+explanation: |
+  Mfano wa UTXO una kikwazo cha msingi kwamba matokeo ya miamala ambayo hayajatumika lazima yatumike kabisa - hakuna utaratibu wa matumizi ya sehemu. Unapohitaji kutumia chini ya kiasi kamili cha UTXO, lazima uunde muamala unaotumia UTXO nzima na unajumuisha matokeo ya mabadiliko kwako mwenyewe kwa yaliyobaki. Chaguzi zingine zinaelezea mapungufu ambayo hayapo: UTXO zinaweza kutumika mara nyingi kwa kila kizuizi (UTXO tofauti), hazihitaji mpangilio wa mpangilio, na kwa kawaida zinahitaji sahihi moja tu halali isipokuwa imeundwa mahsusi kama multisig.

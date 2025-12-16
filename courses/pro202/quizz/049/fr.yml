@@ -1,0 +1,8 @@
+question: Quels sont les deux contrôles critiques qu'un nœud Bitcoin doit effectuer lorsqu'il reçoit un nouveau bloc avant de l'accepter dans la blockchain ?
+answer: Le hachage du bloc doit être inférieur à la difficulté cible et la racine de Merkle calculée doit correspondre à la racine de Merkle de l'en-tête
+wrong_answers:
+  - L'horodatage du bloc doit être valide et toutes les signatures de transaction doivent être vérifiées cryptographiquement
+  - La taille du bloc doit être inférieure à 1 Mo et le hachage du bloc précédent doit faire référence à un bloc valide connu
+  - La version du bloc doit correspondre au consensus du réseau et le total des frais de transaction doit dépasser la récompense mining
+explanation: |
+  Le principe "ne pas faire confiance, vérifier" du Bitcoin exige exactement deux contrôles fondamentaux pour l'acceptation des blocs : La validation proof-of-work (hachage du bloc inférieur à l'objectif de difficulté) et la vérification de l'intégrité de la transaction (correspondance de la racine Merkle). Bien que d'autres contrôles tels que la validation de l'horodatage, la vérification de la signature et les limites de taille soient importants, ces deux contrôles spécifiques garantissent que le bloc répond aux exigences de difficulté et contient les transactions déclarées sans altération.

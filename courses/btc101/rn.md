@@ -1543,7 +1543,9 @@ Bitcoin ishobora kubonwa nk’igikoresho gishobora kurema ubutunzi bubangabangan
 Ubukungu bwa Bitcoin burahari kandi buriko buratera imbere mu turere tumwe tw’isi, nka muri El Salvador, aho Bitcoin yabaye amafaranga yemewe mu 2021. Ariko rero, ku wa 20 Nzero 2025, inama y'igihugu yemeje itegeko rishasha ryakuye Bitcoin ku izina ry' 'amafaranga yemewe', bivugwa ko nyuma yo gukurikirana igitutu c'ishirahamwe mpuzamakungu ry'ibifungurwa. Muri iri tegeko rishasha, abantu ntibakiri bategerezwa kwemera Bitcoin mu bucuruzi bwabo, kandi ntibashobora gukoresha Bitcoin mu kwishyura imisoro. Kwemera birakiri ku bushake.
 
 
-![image](assets/rn/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Isôko : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 
 Ivyiyongerako, harashizweho umugambi w’ubuhinga bufunguye kandi bukorana n’abandi, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), kugira ngo bishobore kworohereza ikoreshwa rya Bitcoin mu bikorwa vya misi yose. Iyi nzira iratanga urutonde rw’abacuruzi bose bemera Bitcoin, hamwe n’imiryango itandukanye ya Bitcoin kw’isi yose, kugira ngo ushobore kuraba urubuga rwabo kugira ngo uvumbure imiryango ya Bitcoin igukikije. Gutyo, naho hari ingorane n’ugukekeranya, hariho imigambi nka BTCMap zifasha mu gutuma ubutunzi bwa Bitcoin bushikira kandi bubereye umuntu wese.

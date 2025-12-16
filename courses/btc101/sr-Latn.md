@@ -1546,8 +1546,10 @@ Bitcoin ekonomija postoji i razvija se u određenim regionima sveta, kao što je
 Ipak, u El Salvadoru i u drugim delovima sveta, sve više pojedinaca, preduzeća i organizacija prihvata Bitcoin kao sredstvo plaćanja za svoje proizvode ili usluge.
 
 
-![image](assets/sr-Latn/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+
+*Izvor : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Pored toga, pokrenut je  otvoreni i kolaborativni projekat, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), kako bi se olakšala upotreba bitkoin u svakodnevnim transakcijama. Ova platforma navodi sve trgovce koji prihvataju bitkoin, kao i različite bitkoin zajednice širom sveta, tako da možete posetiti njihov veb-sajt kako biste otkrili Bitkoin ekosistem oko vas. Tako, uprkos poteškoćama i oklevanjima, postoje inicijative poput BTCMap koje doprinose tome da Bitkoin ekonomija postane pristupačnija i pogodnija za sve.
 

@@ -1043,7 +1043,9 @@ Bitcoinová ekonomika existuje a vyvíjí se v určitých regionech světa, jako
 
 Nicméně, v El Salvadoru a v dalších částech světa je stále více jednotlivců, podniků a organizací, které přijímají bitcoin jako prostředek platby za své produkty nebo služby.
 
-![image](assets/cs/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Zdroj : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Kromě toho byl spuštěn projekt [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), který je založen na otevřeném zdrojovém kódu a spolupráci a který má usnadnit používání bitcoinu při každodenních transakcích. Na této platformě jsou uvedeni všichni obchodníci, kteří přijímají bitcoiny, a také různé bitcoinové komunity po celém světě, takže můžete navštívit jejich webové stránky a objevit bitcoinový ekosystém ve svém okolí. Navzdory obtížím a váhání tedy existují iniciativy, jako je BTCMap, které přispívají k tomu, aby byla ekonomika bitcoinu dostupnější a pohodlnější pro všechny.
 

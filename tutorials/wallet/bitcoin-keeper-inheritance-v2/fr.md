@@ -112,7 +112,7 @@ L'avantage des timelocks absolus : ils permettent des délais supérieurs à 15 
 
 Pour empêcher l'activation des clés spéciales de votre vivant, vous devez périodiquement « rafraîchir » votre wallet. Avec les timelocks absolus, cette opération consiste à **recréer le wallet avec une nouvelle date d'expiration** repoussée dans le futur, puis à transférer vos fonds vers ce nouveau wallet.
 
-Concrètement, vous devrez créer un nouveau wallet avec les mêmes clés mais une nouvelle date d'expiration, puis transférer manuellement vos fonds de l'ancien wallet vers le nouveau. Planifiez cette opération régulièrement, bien avant l'expiration du plus court délai configuré. Par exemple, avec une Inheritance Key à 1 an, effectuez un refresh tous les 9-10 mois pour garder une marge de sécurité.
+Bitcoin Keeper simplifie ce processus via une fonction de refresh intégrée. L'application gère automatiquement la complexité en arrière-plan : vous n'avez qu'à suivre les étapes guidées, sans avoir à créer manuellement un nouveau wallet ni à transférer les fonds vous-même. Planifiez cette opération régulièrement, bien avant l'expiration du plus court délai configuré. Par exemple, avec une Inheritance Key à 1 an, effectuez un refresh tous les 9-10 mois pour garder une marge de sécurité.
 
 ## Sauvegarder et exporter la configuration
 

@@ -907,7 +907,6 @@ Votre offre de swap est maintenant créée. Il ne reste plus qu’à attendre qu
 
 Toutes les places du swap ont été prises : nous passons désormais à la phase d’ouverture des canaux. Chaque participant peut voir, depuis son interface LN+, vers quel nœud il doit ouvrir un canal Lightning. De votre côté, ouvrez le canal en utilisant le Node ID fourni par LN+ et en respectant le montant indiqué.
 
-071
 
 
 
@@ -924,9 +923,10 @@ Toutes les places du swap ont été prises : nous passons désormais à la phase
 # Libérer le potentiel de votre nœud Lightning
 
 
-
-
 ## Connecter un portefeuille mobile via Tailscale
+
+
+### Quelles sont les solutions pour connecter un client mobile ?
 
 Ça y est, vous disposez désormais d’un nœud Lightning bien connecté, avec à la fois de la liquidité entrante et sortante. Tout est donc prêt pour utiliser votre nœud Lightning dans la vie réelle. Jusqu’ici, nous avons toujours utilisé directement des interfaces sur Umbrel, que ce soit celle de l’application `Lightning Node` ou l’interface `ThunderHub`. Ces outils fonctionnent bien pour envoyer et recevoir des paiements, mais ils ne sont clairement pas optimisés pour des paiements Lightning du quotidien. L’interface est pensée pour un usage sur ordinateur, peu pratique sur smartphone, et nécessite en plus d’être connecté au même réseau pour fonctionner correctement (même s’il est techniquement possible de s’y connecter à distance via Tor).
 
@@ -945,14 +945,67 @@ L’alternative que j’ai ensuite adoptée consiste à utiliser un VPN Tailscal
 
 Dans le chapitre suivant, nous verrons une autre solution plus récente, qui fonctionne elle aussi très bien : Nostr Wallet Connect. Nous utiliserons cette fois l’application Alby Go afin de vous présenter une alternative, même si Zeus est également compatible avec NWC si vous le souhaitez.
 
+### Installer et configurer Tailscale
 
+Pour cette première méthode, nous allons avoir besoin de Tailscale. Il s’agit d’une solution de VPN basée sur WireGuard, qui permet de relier de manière sécurisée des appareils répartis sur Internet, tout en gérant automatiquement le chiffrement, l’authentification et la traversée des NAT. Pour faire simple, c’est comme si tous vos appareils étaient connectés au même réseau local que votre routeur, alors qu’ils peuvent se trouver n’importe où sur Internet.
 
+Pour l’utiliser, vous devez commencer par créer un compte. Rendez-vous sur le site de Tailscale, puis cliquez sur le bouton `Get Started`.
 
+071
 
+Choisissez ensuite un fournisseur d’identité pour votre compte Tailscale. Personnellement, j’ai utilisé l’un de mes comptes GitHub pour me connecter.
 
+072
 
+Une fois connecté, quelques questions vous seront posées concernant votre usage. Répondez-y brièvement afin de poursuivre.
 
+073
 
+Tailscale vous propose ensuite d’installer un client sur votre machine. Pour l’instant, ce n’est pas ce qui nous intéresse : rendez-vous directement sur Umbrel et installez l’application Tailscale depuis l’App Store.
+
+074
+
+À l’ouverture de l’application, cliquez sur `Log In`, puis suivez le processus d’authentification en utilisant la même méthode que lors de la création de votre compte.
+
+075
+
+Cliquez sur `Connect` pour confirmer. Votre Umbrel est maintenant connecté à votre réseau VPN.
+
+076
+
+Téléchargez ensuite l’application Tailscale sur votre smartphone et connectez-vous de la même manière, avec le même compte. Attention : sur Android, il n’est pas possible d’utiliser deux VPN simultanément. Pour que Tailscale fonctionne, vous devrez donc désactiver tout autre VPN actif. De plus, chaque fois que vous souhaiterez utiliser votre nœud Lightning via Zeus, il faudra impérativement que le VPN Tailscale soit activé, sans quoi la connexion ne pourra pas s’établir.
+
+077
+
+Sur le site de Tailscale, maintenant qu’au moins deux clients sont connectés, vous pouvez accéder à la console d’administration avec la liste de tous vos appareils connectés au réseau et leurs adresses IP Tailscale.
+
+078
+
+### Connecter Zeus
+
+Installez l’application Zeus sur votre téléphone. À l’ouverture, sélectionnez `Advanced Setup`, puis `Create or connect a wallet`.
+
+079
+
+Dans la section `Wallet interface`, choisissez `LND (REST)`. Renseignez ensuite l’adresse Tailscale de votre Umbrel, que vous pouvez retrouver depuis votre tableau de bord Tailscale ou directement dans l’application Tailscale sur Umbrel. Pour le port, indiquez `8080`.
+
+080
+
+Zeus vous demande ensuite de fournir un `Macaroon`. Il s’agit d’un jeton d’autorisation permettant de définir précisément les droits accordés à une application (en l’occurrence Zeus) pour interagir avec votre nœud Lightning. Il est possible de générer un macaroon depuis ThunderHub, dans le menu `Tools`, sous-menu `Bakery`, mais pour cet usage, le plus simple est de le récupérer directement depuis l’application `Lightning Node`.
+
+Cliquez sur les trois petits points en haut à droite de l’interface, puis sur `Connect Wallet`. Vous pourrez alors copier un macaroon disposant des droits appropriés.
+
+081
+
+Collez-le dans le champ correspondant dans Zeus, puis cliquez sur le bouton `SAVE WALLET CONFIG`.
+
+082
+
+Vous avez maintenant accès à votre nœud Lightning depuis l’application Zeus. Vous pouvez ainsi générer des invoices pour recevoir des paiements directement sur votre nœud Lightning depuis votre smartphone, et également régler des invoices Lightning, où que vous soyez.
+
+083
+
+Dans le prochain chapitre, nous découvrirons une autre méthode, tout aussi efficace, pour connecter un client mobile à votre nœud Lightning : Nostr Wallet Connect. Nous utiliserons alors une autre application que Zeus (même si Zeus est également compatible avec NWC) à savoir l’application Alby Go.
 
 ## Connecter un portefeuille mobile via NWC
 
@@ -961,17 +1014,10 @@ Dans le chapitre suivant, nous verrons une autre solution plus récente, qui fon
 
 
 
-## Gérer les frais et le routage
 
 
 
 
-## Naviguer dans le réseau Lightning
-
-
-
-
-### Visualiser sa position (LNVisualizer)
 
 
 

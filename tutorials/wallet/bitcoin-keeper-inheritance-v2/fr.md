@@ -102,19 +102,17 @@ Pour l'**Inheritance Key**, sélectionnez la clé destinée à l'héritier (ici 
 
 ### Comment fonctionnent les timelocks ?
 
-Bitcoin Keeper utilise des **timelocks relatifs** (CSV - CheckSequenceVerify), rendus possibles par Miniscript. Le point crucial à comprendre : le compteur démarre à partir du moment où chaque UTXO est reçu dans le wallet, **pas à la création du coffre**.
+Bitcoin Keeper utilise des **timelocks absolus** (CLTV - CheckLockTimeVerify), rendus possibles par Miniscript. Contrairement aux timelocks relatifs (CSV) qui démarrent à la réception de chaque UTXO, les timelocks absolus fonctionnent avec une **date d'expiration fixe** définie à la création du wallet.
 
-Exemple concret : si vous déposez 0.1 BTC aujourd'hui avec un délai d'Inheritance Key de 1 an, cette somme deviendra accessible via l'Inheritance Key dans exactement 1 an. Si vous déposez 0.05 BTC supplémentaires dans 6 mois, ce second dépôt aura son propre compteur et ne sera accessible qu'après 1 an à partir de sa date de dépôt.
+Concrètement : si vous créez un wallet aujourd'hui avec une Inheritance Key à 1 an, la date d'activation sera fixée à « aujourd'hui + 1 an ». Tous les fonds déposés dans ce wallet, quelle que soit leur date de dépôt, seront accessibles via l'Inheritance Key à cette même date.
 
-**Limitation technique** : Le protocole Bitcoin limite les timelocks CSV à environ **15 mois maximum** (65 535 blocs). Les options proposées par Keeper (6 mois, 1 an, 2 ans) peuvent utiliser des mécanismes différents pour les délais dépassant cette limite.
+L'avantage des timelocks absolus : ils permettent des délais supérieurs à 15 mois (la limite des timelocks relatifs CSV), ce qui explique que Bitcoin Keeper puisse proposer des options comme 2 ans.
 
 ### Le mécanisme de refresh
 
-Pour empêcher l'activation prématurée de ces clés de votre vivant, vous devez périodiquement « rafraîchir » vos UTXO. Cette opération consiste à effectuer une transaction vers vous-même (vers une nouvelle adresse du même wallet). Cela crée de nouveaux UTXO et repart les compteurs à zéro.
+Pour empêcher l'activation des clés spéciales de votre vivant, vous devez périodiquement « rafraîchir » votre wallet. Avec les timelocks absolus, cette opération consiste à **recréer le wallet avec une nouvelle date d'expiration** repoussée dans le futur, puis à transférer vos fonds vers ce nouveau wallet.
 
-Planifiez ce refresh régulièrement, bien avant l'expiration du plus court délai configuré. Par exemple, avec une Inheritance Key à 1 an, effectuez un refresh tous les 9-10 mois pour garder une marge de sécurité.
-
-Confirmez votre configuration, nommez votre wallet (ex: « Test Plan B »), et appuyez sur **Create Your Wallet**.
+Concrètement, vous devrez créer un nouveau wallet avec les mêmes clés mais une nouvelle date d'expiration, puis transférer manuellement vos fonds de l'ancien wallet vers le nouveau. Planifiez cette opération régulièrement, bien avant l'expiration du plus court délai configuré. Par exemple, avec une Inheritance Key à 1 an, effectuez un refresh tous les 9-10 mois pour garder une marge de sécurité.
 
 ## Sauvegarder et exporter la configuration
 
@@ -160,7 +158,7 @@ Déposez une petite somme (quelques milliers de satoshis) sur chaque Canary Wall
 
 Malgré la puissance de ces outils, il est important de reconnaître leurs limites pour les gérer au mieux.
 
-La **complexité** d'un coffre multisig avec timelocks peut être un risque en soi : erreur de configuration, incompréhension par les héritiers, perte d'un élément critique parmi les nombreux composants. Bitcoin Keeper simplifie l'expérience au maximum, mais cela reste une opération technique. Ne déployez ce plan que si le montant à protéger le justifie. Pour de petits montants, un plan plus simple (une seed copiée et confiée à deux personnes distinctes) peut suffire.
+La **complexité** d'un coffre multisig avec timelocks peut être un risque en soi : erreur de configuration, incompréhension par les héritiers, perte d'un élément critique parmi les nombreux composants. Bitcoin Keeper simplifie l'expérience au maximum, mais cela reste une opération technique. Ne déployez ce plan que si le montant à protéger le justifie. Pour de petits montants, un plan plus simple peut suffire.
 
 La **dépendance à l'application** mérite réflexion. Bien que le code soit open source et basé sur des standards ouverts (Miniscript, BSMS), certaines fonctionnalités reposent sur l'écosystème Keeper. Conservez une copie de l'application (APK Android ou IPA iOS) et documentez dans vos lettres aux héritiers la possibilité d'utiliser d'autres wallets compatibles Miniscript (comme Liana) pour récupérer les fonds.
 

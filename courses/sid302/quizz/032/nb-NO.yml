@@ -1,0 +1,8 @@
+question: Hva skjer når et omvendt ubåtbytte mislykkes eller tar tid i Breez SDK-arkitekturen?
+answer: SDK-en konstruerer og sender automatisk en refusjonstransaksjon for å returnere penger til brukerens wallet
+wrong_answers:
+  - Bytteleverandøren setter manuelt i gang en gjenopprettingsprosess som krever brukerinngrep innen 24 timer
+  - Midlene forblir permanent låst inntil Lightning Network-forbindelsen er gjenopprettet
+  - Brukeren må kontakte Boltz-support for å utløse en federated peg-ut-transaksjon manuelt
+explanation: |
+  Breez SDK implementerer automatisert refusjonshåndtering som en kritisk sikkerhetsmekanisme. Når bytter mislykkes eller går ut på tid, overvåker SDK-en alle byttestatusene og håndterer automatisk gjenopprettingsprosessen uten brukerinnblanding. Dette fjerner kompleksiteten ved tidslåste kontrakter og sikrer at midler aldri går tapt permanent. De andre alternativene er feil fordi de enten krever manuell inngripen, forutsetter permanent tap av midler eller involverer prosesser som ikke finnes i det automatiserte systemet.

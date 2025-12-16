@@ -1,0 +1,8 @@
+question: Vad händer när en omvänd ubåtsväxling misslyckas eller tar slut i Breez SDK-arkitekturen?
+answer: SDK konstruerar och sänder automatiskt en återbetalningstransaktion för att återbetala medel till användarens wallet
+wrong_answers:
+  - Bytesleverantören initierar manuellt en återställningsprocess som kräver användarintervention inom 24 timmar
+  - Fonderna förblir permanent låsta tills Lightning Network-anslutningen har återställts
+  - Användaren måste kontakta Boltz-support för att manuellt utlösa en federated peg-out-transaktion
+explanation: |
+  Breez SDK implementerar automatiserad återbetalningshantering som en kritisk säkerhetsmekanism. När swappar misslyckas eller går ut i tid övervakar SDK alla swapstatusar och hanterar automatiskt återställningsprocessen utan användarintervention. Detta abstraherar bort komplexiteten i tidslåsta kontrakt och säkerställer att medel aldrig går förlorade permanent. De andra alternativen är felaktiga eftersom de antingen kräver manuellt ingripande, förutsätter permanent fondförlust eller involverar processer som inte finns i det automatiserade systemet.

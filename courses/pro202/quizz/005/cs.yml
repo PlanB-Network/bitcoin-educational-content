@@ -1,0 +1,8 @@
+question: Jaká matematická vlastnost zajišťuje, že každý nenulový prvek v prvočíselném poli F(p) má multiplikativní inverzní hodnotu?
+answer: Pole je definováno prvočíslem p
+wrong_answers:
+  - Pole obsahuje přesně p-1 prvků
+  - Pole používá modulární aritmetické operace
+  - Pole podporuje sčítání a násobení
+explanation: |
+  Konečné pole F(p) musí být definováno prvočíslem p, aby každý nenulový prvek měl multiplikativní inverzi. To je základní požadavek teorie pole - když je p prvočíslo, celá čísla modulo p tvoří pole, kde je dělení vždy možné (kromě dělení nulou). Pokud by p bylo složené, některé nenulové prvky by neměly inverze, což by narušilo strukturu pole. Zatímco ostatní možnosti popisují vlastnosti konečných polí, pouze primárnost p zaručuje existenci multiplikativních inverzí pro všechny nenulové prvky.

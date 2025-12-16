@@ -1,0 +1,8 @@
+question: Nini kitatokea kwa sehemu za ScriptSig za ingizo zote wakati wa mchakato wa ujenzi wa sighash kwa ajili ya uthibitishaji wa sahihi ya ECDSA ya zamani?
+answer: Sehemu zote za ScriptSig zimeondolewa, kisha ScriptSig ya ingizo la sasa inabadilishwa na ScriptPubKey yake inayolingana.
+wrong_answers:
+  - Sehemu zote za ScriptSig hazijabadilika na zimejumuishwa katika umbo lao la asili katika hesabu ya sighash
+  - "ScriptSig ya ingizo la sasa pekee ndiyo huhifadhiwa huku sehemu zingine zote za ingizo la ScriptSig zikiondolewa kwenye muamala"
+  - Sehemu zote za ScriptSig hubadilishwa na thamani zao zinazolingana za ScriptPubKey kutoka kwa matokeo yaliyorejelewa.
+explanation: |
+  Wakati wa ujenzi wa sighash kwa miamala ya zamani, mchakato huo huondoa kabisa sehemu zote za ScriptSig kwanza, kisha hubadilisha tu ingizo la sasa linalothibitishwa na ScriptPubKey yake inayolingana kutoka kwa matokeo yanayotumika. Hii inahakikisha saini inakubali masharti ya matumizi bila kuunda utegemezi wa mviringo ambapo saini zitahitaji kujisajili zenyewe. Chaguzi zingine si sahihi kwa sababu huacha saini mahali pake (kuunda kutowezekana kwa kimantiki) au kurekebisha ingizo zote kwa usawa (ambayo haingetenganisha ipasavyo muktadha wa uthibitisho wa ingizo la sasa).

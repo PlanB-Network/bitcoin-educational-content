@@ -1,0 +1,8 @@
+question: Phép toán nào được sử dụng để tìm điểm P + Q trên một đường cong elip?
+answer: Vẽ một đường thẳng đi qua hai điểm P và Q, tìm điểm giao thứ ba R, sau đó phản chiếu R qua trục x.
+wrong_answers:
+  - Cộng trực tiếp tọa độ x và tọa độ y của P và Q bằng phép toán số học modulo.
+  - Nhân tọa độ của P và Q với nhau rồi áp dụng phương trình đường cong để tìm kết quả.
+  - Tính trung điểm giữa P và Q, sau đó áp dụng phương pháp tiếp tuyến để tìm tổng.
+explanation: |
+  Phép cộng điểm trên đường cong elip tuân theo một quy tắc hình học cụ thể: vẽ một đường thẳng đi qua hai điểm P và Q, cắt đường cong tại điểm thứ ba R, sau đó phản chiếu R qua trục x để được P + Q. Phép toán hình học này trở thành phép toán đại số khi làm việc trên trường hữu hạn nhưng vẫn duy trì nguyên tắc cơ bản tương tự. Các lựa chọn khác mô tả các phương pháp không chính xác, không tuân theo định luật nhóm đã được thiết lập cho đường cong elip.

@@ -1,0 +1,8 @@
+question: Jakou konkrétní posloupnost operací provádí ScriptPubKey při ověřování transakcí P2PKH, aby ověřil podmínky pro čerpání?
+answer: Duplikuje veřejný klíč, vytvoří jeho hash, porovná jej s odevzdaným hashem a ověří podpis
+wrong_answers:
+  - Provede hašování podpisu, porovná ho s hašem veřejného klíče a ověří ho s odevzdanou hodnotou
+  - Nejprve ověří podpis, poté provede hašování veřejného klíče a porovná ho s odevzdaným hašem
+  - Zkombinuje podpis a veřejný klíč, vytvoří hash výsledku a porovná jej s odevzdaným hashem
+explanation: |
+  ScriptPubKey P2PKH se řídí specifickou sekvencí: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Tím se duplikuje poskytnutý veřejný klíč, použije se hashování SHA256 a poté RIPEMD160, ověří se shoda výsledku s odevzdaným hashem a nakonec se zkontroluje podpis. Ostatní možnosti nesprávně popisují pořadí operací nebo navrhují hashování podpisů místo veřejných klíčů, což by porušilo logiku ověřování.

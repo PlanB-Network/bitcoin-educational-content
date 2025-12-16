@@ -1,0 +1,8 @@
+question: Yatırımcılar Blockstream AMP varlık ekosistemlerine katılırken standart Liquid Network işlemlerine kıyasla hangi temel değiş tokuşu kabul etmelidir?
+answer: Diğer kullanıcılardan gizliliklerini korumalarına rağmen varlıklarının ve işlem geçmişlerinin varlık ihraççısına tam görünürlüğü
+wrong_answers:
+  - Ortak imza yetkilendirme mekanizmaları için gereken ek hesaplama yükü nedeniyle daha yüksek işlem ücretleri
+  - Tüm transferlerin onaylanmadan önce merkezi uyumluluk sunucuları üzerinden doğrulanması gerektiğinden işlem hızında azalma
+  - AMP tokenleri yalnızca aynı düzenleyici yetki alanı içindeki önceden onaylanmış cüzdanlara gönderilebildiğinden sınırlı varlık aktarılabilirliği
+explanation: |
+  Doğru cevap AMP'nin temel gizlilik ödününü tanımlamaktadır: Confidential Transactions kullanıcıdan kullanıcıya gizliliği korurken, AMP varlıkları düzenleyici uyumluluk için ihraççılara tam unblinded görünürlüğü sağlamaktadır. Yanlış cevaplar, AMP'yi standart Liquid'ün tamamen gizli modelinden ayıran temel şeffaflık uzlaşmasından ziyade operasyonel kısıtlamaları (ücretler, hız, aktarılabilirlik) tanımlamaktadır.

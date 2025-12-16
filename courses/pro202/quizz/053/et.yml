@@ -1,0 +1,8 @@
+question: Millise spetsiifilise endiannessi teisendamise probleemiga peavad Bitcoin sõlmed toime tulema, kui nad konstrueerivad ja kontrollivad Merkle'i puid tehinguandmetest?
+answer: Tehinguhashid tuleb sisemise puuarvutuse jaoks pöörduda väikeseendilisest serialiseeritud formaadist suureendiliseks, seejärel pöörduvad nad salvestamiseks tagasi
+wrong_answers:
+  - Plokkide päised tuleb enne Merkle'i juurte arvutamist konverteerida big-endianist little-endianiks, et need vastaksid võrgu edastamise vormingule
+  - Lõplik Merkle'i juur tuleb konverteerida big-endianist little-endianiks ainult siis, kui see edastatakse teistele sõlmpunktidele P2P sõnumite kaudu
+  - Tehingu ID-d on salvestatud big-endian formaadis, kuid need tuleb konverteerida little-endian formaadiks enne paaride hashimist Merkle'i puule
+explanation: |
+  Bitcoin Merkle-puu konstrueerimine hõlmab kriitilist endiannessi teisendamise etappi. Kui serialiseeritud plokkandmete puhul kasutatakse väikese lõpuajaga formaati, siis Merkle'i puu sisemine arvutamine nõuab suure lõpuajaga häkke. Enne puu konstrueerimist peavad sõlmed tehinguhaasid oma serialiseeritud little-endian-vormingust pöörduma big-endian-vormingusse, seejärel pöörduvad lõplikud juured tagasi little-endian-vormingusse, et neid saaks salvestada plokkide päises. See teisendamine on oluline nõuetekohaseks kontrollimiseks.

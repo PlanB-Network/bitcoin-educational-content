@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru yo gukoresha hash160 (SHA-256 hanyuma RIPEMD-160) igihe urema aderesi za Bitcoin ukoresheje imfunguruzo za bose?
+answer: Guhisha urufunguzo rwa bose gushika amahera akoreshejwe no kurema aderesi ngufi kandi zishobora gukoreshwa neza
+wrong_answers:
+  - Kugira ngo ushireho urufunguzo rw'ibanga no kubuza uwundi muntu gushika ku mahera ya wallet ata wemerewe
+  - Ku generate umukono wa digitale usabwa kugira ngo amafaranga yemezwe ku rubuga rwa blockchain
+  - Guhindura uturongo tw'umurongo w'uruzitiro mu buryo bukwiye bw'ibikorwa vya secp256k1
+explanation: |
+  Hash160 ikora ibikorwa vyinshi bihambaye mu kurema aderesi za Bitcoin. Mu gutera urufunguzo rwa bose, bigumya urufunguzo rwa bose nyarwo rwihishije gushika amafaranga y’ibiceri akoreshejwe, bikaba bitanga umutekano w’inyongera. Ivyo bigabanya cane ubunini kuva kuri 33/65 bytes gushika kuri 20 bytes gusa, bikaba bituma aderesi zishobora gukoreshwa neza. Inyishu zitari zo zitera urujijo ivyo n’ugushiramwo urufunguzo rw’ibanga (ivyo bitakorwa), imikono ya digitale (ikoresha ibikorwa bitandukanye vy’ugushiramwo urufunguzo), canke guhindura uburyo bw’urufunguzo (bishika mu gihe c’ugukurikirana kwa SEC, atari uguhingura aderesi).

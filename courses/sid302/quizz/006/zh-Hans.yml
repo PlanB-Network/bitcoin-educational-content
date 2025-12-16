@@ -1,0 +1,8 @@
+question: Elements 使用什么加密技术来隐藏交易金额，同时还允许网络验证？
+answer: Pedersen 承诺
+wrong_answers:
+  - Merkle Tree 哈希算法
+  - 椭圆曲线签名
+  - SHA-256 加密
+explanation: |
+  Pedersen 承诺是 Elements 和 Confidential Transactions 中用于隐藏交易金额的特定加密技术。这些承诺用加密承诺取代了可见金额，验证者仍可对其进行数学验证，而不会泄露实际金额。Merkle Tree 哈希算法用于在区块中组织交易数据，椭圆曲线签名用于交易授权，SHA-256 也是一种哈希算法，但这些算法都不能像佩德森承诺那样在隐藏交易金额的同时保持验证能力。

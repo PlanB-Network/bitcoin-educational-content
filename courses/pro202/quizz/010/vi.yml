@@ -1,0 +1,8 @@
+question: Mục đích chính của việc sử dụng hàm băm 160 (SHA-256 sau đó là RIPEMD-160) khi tạo địa chỉ Bitcoin từ khóa công khai là gì?
+answer: Để ẩn khóa công khai cho đến khi giao dịch chi tiêu diễn ra và tạo ra các địa chỉ ngắn gọn, dễ quản lý hơn.
+wrong_answers:
+  - Để mã hóa khóa riêng tư và ngăn chặn truy cập trái phép vào quỹ wallet.
+  - generate là chữ ký số cần thiết để xác thực giao dịch trên blockchain.
+  - Để chuyển đổi các điểm của đường cong elip sang định dạng phù hợp cho các phép toán secp256k1
+explanation: |
+  Hash160 thực hiện nhiều chức năng quan trọng trong việc tạo địa chỉ Bitcoin. Bằng cách băm khóa công khai, nó giữ cho khóa công khai thực sự được ẩn cho đến khi tiền được chi tiêu, cung cấp thêm một lớp bảo mật. Việc băm cũng làm giảm đáng kể kích thước từ 33/65 byte xuống chỉ còn 20 byte, giúp địa chỉ dễ quản lý hơn. Các câu trả lời sai nhầm lẫn điều này với mã hóa khóa riêng (điều này không được thực hiện), chữ ký số (sử dụng các phép toán mật mã khác nhau) hoặc định dạng đường cong (xảy ra trong quá trình tuần tự hóa SEC, chứ không phải khi tạo địa chỉ).

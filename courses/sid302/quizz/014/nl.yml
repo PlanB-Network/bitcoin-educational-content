@@ -1,0 +1,8 @@
+question: Wat zorgt ervoor dat beide partijen in een cross-layer swap ofwel de transactie succesvol voltooien of beide mislukken zonder geld te verliezen?
+answer: Hetzelfde hash slot wordt gebruikt op beide netwerken, waardoor een cryptografische binding ontstaat tussen de wisselpoten
+wrong_answers:
+  - Tijdsloten voorkomen dat een van de partijen geld opeist totdat beide netwerken de transacties hebben bevestigd
+  - MuSig2-sleutelaggregatie vereist dat beide partijen medeondertekenen voordat er geld kan worden verplaatst
+  - "Taproot's scriptpad keert transacties automatisch om als één netwerk niet voltooid wordt"
+explanation: |
+  De atomaire aard van laag-overschrijdende swaps berust op het gebruik van identieke hash-sloten in beide netwerken. Wanneer de ontvanger het geheime preimage onthult om fondsen op de ene laag op te eisen, wordt datzelfde geheim zichtbaar en bruikbaar voor de verzender om wederkerige fondsen op de andere laag op te eisen. Deze cryptografische binding zorgt voor atomiciteit - beide partijen krijgen hun geld of geen van beide, waardoor het tegenpartijrisico in vertrouwensloze swaps wordt geëlimineerd.

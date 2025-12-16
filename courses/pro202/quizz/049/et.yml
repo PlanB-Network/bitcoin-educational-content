@@ -1,0 +1,8 @@
+question: Millised on kaks kriitilist kontrolli, mida Bitcoin-sõlm peab uue ploki vastuvõtmisel tegema, enne kui ta selle plokiahelasse vastu võtab?
+answer: Plokkide hash peab olema allpool sihtraskust ja arvutatud Merkle'i juur peab vastama päise Merkle'i juurele
+wrong_answers:
+  - Bloki ajatempel peab olema kehtiv ja kõik tehingu allkirjad peavad olema krüptograafiliselt kontrollitud
+  - Ploki suurus peab olema alla 1MB ja eelmine plokk peab viitama teadaolevalt kehtivale plokile
+  - Plokkide versioon peab vastama võrgu konsensusele ja tehingutasude kogusumma peab ületama mining tasu
+explanation: |
+  Bitcoin põhimõte "ära usalda, kontrolli" nõuab täpselt kahte põhimõttelist kontrolli ploki vastuvõtmiseks: proof-of-work valideerimine (ploki hash alla raskuse eesmärgi) ja tehingu terviklikkuse kontrollimine (Merkle'i juurtuvastamine). Kuigi muud kontrollid, nagu ajatempli valideerimine, allkirja kontrollimine ja suuruspiirangud, on olulised, tagavad need kaks konkreetset kontrolli, et plokk vastab raskusnõuetele ja sisaldab väidetavaid tehinguid ilma võltsimata.

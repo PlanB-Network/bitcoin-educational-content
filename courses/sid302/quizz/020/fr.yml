@@ -1,0 +1,8 @@
+question: Qu'advient-il de la configuration du réseau pendant le processus de transition de la Fédération dynamique (Dynafed) de Liquid lorsqu'un fonctionnaire doit être remplacé ?
+answer: Le réseau diffuse une opération de transition suivie d'une période de chevauchement de deux semaines avant que la nouvelle configuration ne prenne le relais
+wrong_answers:
+  - Le réseau passe immédiatement à la nouvelle configuration fonctionnelle après avoir diffusé la transaction de transition
+  - Tous les fonctionnaires doivent voter simultanément pour approuver le remplacement avant toute modification de la configuration
+  - Le réseau a besoin d'un hard fork et d'un arrêt temporaire pour mettre à jour la liste des fonctionnaires et redémarrer les opérations
+explanation: |
+  La fédération dynamique permet à Liquid d'évoluer sans bifurcation brutale grâce à un processus de transition soigneusement orchestré. Lorsque le remplacement d'une fonction est nécessaire, le réseau diffuse une transaction de transition qui signale le changement à venir. Cette transaction est suivie d'une période de chevauchement obligatoire de deux semaines au cours de laquelle l'ancienne et la nouvelle configuration coexistent, assurant ainsi une continuité sans faille. Les autres options sont incorrectes car un changement immédiat risquerait d'entraîner une instabilité du réseau, le vote simultané n'est pas le mécanisme utilisé et les "hard forks" sont précisément ce que Dynafed a été conçu pour éviter.

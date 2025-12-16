@@ -1,0 +1,8 @@
+question: Vilken är den grundläggande mekanismen som gör det möjligt för SegWit att öka blockkapaciteten och samtidigt upprätthålla bakåtkompatibilitet med noder från tiden före SegWit?
+answer: Blockviktsystem där vittnesdata diskonteras med 75% i kapacitetsberäkningar, vilket möjliggör upp till 4 MB total data medan äldre noder ser ≤1 MB
+wrong_answers:
+  - Komprimeringsalgoritmer som minskar storleken på vittnesdata med 75% före överföring, vilket håller blocken under 1 MB för alla noder
+  - Dynamisk blockstorleksjustering som ökar gränserna baserat på SegWit-transaktionens procentandel i varje block
+  - Separata vittnesblock överförs endast till uppgraderade noder, medan äldre noder får traditionella 1 MB-block
+explanation: |
+  SegWit använder blockviktsenheter där bastransaktionsdata räknas som 4 viktsenheter per byte, medan vittnesdata räknas som 1 viktsenhet per byte. Denna 75-procentiga rabatt tillåter block på upp till 4 miljoner viktenheter (potentiellt 4 MB med all vittnesdata) samtidigt som den säkerställer att äldre noder aldrig ser mer än 1 MB bastransaktionsdata. De andra alternativen beskriver obefintliga mekanismer - det finns ingen komprimering, ingen dynamisk dimensionering och ingen separat blocköverföring.

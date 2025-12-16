@@ -1,0 +1,8 @@
+question: Ni ubuhinga ubuhe bwo gukingira amakuru Elements ikoresha kugira ngo ihishe amafaranga y’ibikorwa mu gihe iguma yemera kwemeza urubuga?
+answer: Ivyemezo vya Pedersen
+wrong_answers:
+  - Merkle Tree Guteranya
+  - Imikono y'umugongo
+  - SHA-256 Ububiko
+explanation: |
+  Pedersen Commitments ni ubuhinga bwihariye bwo gukingira amakuru bukoreshwa muri Elements’ Confidential Transactions kugira ngo umuntu ahishe amafaranga y’ibikorwa. Ivyo vyemezo bisubirira amafaranga aboneka n’ivyemezo vy’ubuhinga bwa none bishobora gusuzumwa mu biharuro n’abavyemeza ataco bahishuriye agaciro nyakuri. Merkle Tree Hashing ikoreshwa mu gutunganya amakuru y’ibikorwa mu bice, Elliptic Curve Signatures ikoreshwa mu kwemerera ibikorwa, na SHA-256 ni ubuhinga bwo gukora, ariko nta na kimwe muri ivyo gihisha amafaranga y’ibikorwa mu gihe kigumya ubushobozi bwo kwemeza nk’uko Pedersen Commitments ibigira.

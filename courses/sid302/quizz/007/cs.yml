@@ -1,0 +1,8 @@
+question: Jaký je vztah mezi Elements a Liquid Network?
+answer: Liquid je specifická instance postranního řetězce Elements nakonfigurovaná pro výrobní použití
+wrong_answers:
+  - Elements je specifická instance Liquid Network nakonfigurovaná pro účely testování
+  - Liquid a Elements jsou dvě konkurenční blockchainové platformy s odlišnými kódovými základnami
+  - "Elements je mechanismus konsensu, který zajišťuje ověřování bloků Liquid Network."
+explanation: |
+  Elements je open-source software blockchainové platformy, zatímco Liquid je specifická implementace nebo "instance" sidechainu Elements, která byla nakonfigurována pro produkční použití s federativním modelem konsensu. Představte si Elements jako základní technologický rámec a Liquid jako jednu konkrétní síť vytvořenou pomocí tohoto rámce. Je to podobné, jako když je jádro Bitcoin softwarem, který pohání síť Bitcoin - Elements je softwarový motor, který pohání Liquid a další vlastní sidechainy.

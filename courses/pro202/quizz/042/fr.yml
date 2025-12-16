@@ -1,0 +1,8 @@
+question: Si le mécanisme d'ajustement de la difficulté de Bitcoin rencontre un scénario dans lequel les blocs 2016 précédents ont pris exactement 6 semaines à extraire au lieu des 2 semaines prévues, quel facteur d'ajustement serait appliqué ?
+answer: La difficulté serait réduite d'un facteur 4 (réduction maximale autorisée)
+wrong_answers:
+  - La difficulté serait réduite d'un facteur 3 (6 semaines ÷ 2 semaines)
+  - La difficulté serait réduite d'un facteur de 2,5 pour éviter une surcorrection
+  - La difficulté serait réduite d'un facteur 6 en fonction du rapport de temps
+explanation: |
+  L'ajustement de la difficulté de Bitcoin comporte des limites intégrées qui restreignent les changements à un facteur de quatre dans les deux sens. Même si 6 semaines ÷ 2 semaines = 3, ce qui suggère une réduction de 3x, le protocole plafonne les ajustements à 4x pour éviter une volatilité extrême. Ce mécanisme de sécurité garantit la stabilité du réseau lors de changements majeurs du taux de hachage, comme les interdictions de mining ou les pannes d'équipement, en empêchant une surcorrection qui pourrait déstabiliser la synchronisation des blocs.

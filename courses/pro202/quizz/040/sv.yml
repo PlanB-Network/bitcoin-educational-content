@@ -1,0 +1,8 @@
+question: Varför modifierar moderna ASIC-gruvbrytare data i Coinbase-transaktionen i stället för att enbart förlita sig på blockhuvudets nonce-fält?
+answer: Nonce-fältet på 4 byte ger otillräckligt sökutrymme för moderna ASIC, så gruvarbetare modifierar Coinbase-data för att ändra Merkle-roten och skapa ytterligare sökutrymme
+wrong_answers:
+  - Genom att ändra Coinbase-transaktionen kan gruvarbetare kräva högre blockbelöningar än vad det vanliga subventionsbeloppet tillåter
+  - "Coinbase-transaktionen måste ändras för att inkludera gruvarbetarens digitala signatur för blockvalideringsändamål"
+  - Att ändra Coinbase-data minskar beräkningssvårigheterna genom att låta gruvarbetare kringgå standardkraven för proof-of-work
+explanation: |
+  Moderna ASIC:er kan uttömma nonce-utrymmet på 4 byte (2^32 möjligheter) extremt snabbt, vilket kräver ytterligare sökutrymme. Genom att ändra data i Coinbase-transaktionen ändrar miners transaktionens hash, vilket ändrar Merkle-roten i blockhuvudet, vilket effektivt skapar miljarder ytterligare nonce-liknande värden att prova. Denna teknik, som kallas "extra-nonce", är nödvändig för moderna mining-operationer där hårdvaran vida överstiger det ursprungliga nonce-fältets kapacitet.

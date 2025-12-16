@@ -1,0 +1,8 @@
+question: Zašto P2WSH koristi SHA256 heširanje umesto hash160 (RIPEMD160+SHA256) za skript obavezu u witness programima?
+answer: SHA256 obezbeđuje 32-bajtni heš koji razlikuje P2WSH od P2WPKH-ovog 20-bajtnog hash160 i nudi jaču sigurnost za složene skripte
+wrong_answers:
+  - SHA256 je brži za izračunavanje od hash160, smanjujući vreme validacije za složene multisig transakcije u scenarijima sa visokim protokom.
+  - "Hash160 je ukinut u SegWit zbog potencijalnih ranjivosti sudara otkrivenih tokom rane faze razvoja Bitcoin"
+  - SHA256 omogućava da skripte svedoka budu veće od 520 bajtova, dok hash160 nameće stroga ograničenja na složenost skripti.
+explanation: |
+  P2WSH koristi SHA256 za kreiranje heševa od 32 bajta specifično da bi se razlikovao od P2WPKH-ove 20-bajtne hash160 obaveze, omogućavajući čvorovima da odmah identifikuju verziju programa svedoka. Duži heš takođe pruža poboljšanu sigurnost za složene skripte koje mogu imati veću vrednost ili veću površinu za napad. Ostale opcije su netačne: SHA256 nije nužno brži od hash160, hash160 nije ukinut zbog ranjivosti, i izbor heš funkcije ne utiče na ograničenja veličine skripte.

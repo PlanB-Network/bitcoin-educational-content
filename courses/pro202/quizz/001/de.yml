@@ -1,0 +1,8 @@
+question: Was ist ein endliches Feld F(p) im kryptografischen System von Bitcoin?
+answer: Ein durch eine Primzahl p definiertes arithmetisches System, das die Elemente 0 bis p-1 enthält
+wrong_answers:
+  - Eine unendliche Menge von Zahlen, die zur Erzeugung von Bitcoin-Adressen und Schlüsseln verwendet werden
+  - Ein mathematisches Feld, das alle reellen Zahlen zwischen 0 und p-1 einschließlich enthält
+  - Eine kryptografische Hash-Funktion, die Ausgaben mit einer Länge von genau p Bits erzeugt
+explanation: |
+  Ein endliches Feld F(p) ist insbesondere ein arithmetisches System, das um eine Primzahl p herum aufgebaut ist und genau p Elemente enthält: die ganzen Zahlen von 0 bis p-1. Der Aspekt "endlich" ist entscheidend - es handelt sich nicht um unendlich, und es geht nicht um reelle Zahlen oder Hash-Funktionen. Primzahlfelder stellen sicher, dass jedes Element, das nicht Null ist, einen multiplikativen Kehrwert hat, und dass alle arithmetischen Operationen (Addition, Subtraktion, Multiplikation) modulo p verwendet werden, damit die Ergebnisse innerhalb des Feldes bleiben. Diese begrenzte, vorhersehbare Struktur ist für die kryptografische Sicherheit von Bitcoin unerlässlich.

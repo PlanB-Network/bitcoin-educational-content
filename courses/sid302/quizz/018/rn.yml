@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo bwo gukingira amakuru butuma Liquid Network igenzura ko ivyo yinjiza mu bikorwa vy’ubudandaji bingana n’ivyo isohora hamwe n’amahera ataco imenyesheje abantu bose?
+answer: Ivyemezo vya Pedersen n'ibimenyamenya vy'urutonde
+wrong_answers:
+  - Ibiti vya Merkle n'imikono ya digitale
+  - Hash Igihe Amasezerano Yafunze n'Imikono myinshi
+  - Imikono ya Schnorr n'inyandiko za Taproot
+explanation: |
+  Pedersen Commitments and Range Proofs ni ibimenyetso vy’intango vy’ubuhinga bwa none bishobora gutuma Confidential Transactions ya Confidential Transactions ihisha amafaranga mu gihe iguma yemerera kugenzura imibare. Pedersen Commitments zifatanya n’agaciro ataco zihishura, mu gihe Range Proofs zikora neza ko amafaranga yose ari imibare myiza, bikabuza abakoresha kurema amahera biciye mu gaciro kabi. Ayandi mahitamwo ni ibikoresho vy’ubuhinga bwa Bitcoin vyemewe ariko ntibitanga ubushobozi bwo guhuma amaso bukenewe ku bikorwa vy’ibanga aho amafaranga aguma yihishije ariko ashobora kugenzurwa.

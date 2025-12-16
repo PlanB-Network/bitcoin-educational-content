@@ -1,0 +1,8 @@
+question: Vad är det främsta skälet till att transaktioner med bara flera siffror i stor utsträckning ersattes av P2SH för komplexa utgiftsförhållanden?
+answer: Bare multisig exponerar alla publika nycklar on-chain, vilket gör transaktioner stora, dyra och svåra att koda som adresser
+wrong_answers:
+  - Bare multisig kräver fler signaturer än P2SH för att uppnå samma säkerhetsnivå för flerpartstransaktioner
+  - Bare multisig kan inte hantera tidslåsta transaktioner eller villkorade utgiftskrav som P2SH kan
+  - Bare multisig-signaturer är inkompatibla med modern wallet-programvara och kan inte sändas till aktuella noder
+explanation: |
+  P2SH infördes specifikt för att hantera bare multisigs ineffektivitet. Bare multisig kräver att alla publika nycklar ska vara synliga i scriptPubKey, vilket skapar stora transaktionsstorlekar som kostar mer i avgifter och är svåra att representera som användarvänliga adresser. P2SH löser detta genom att dölja det komplexa skriptet bakom en hash på 20 byte och endast avslöja de faktiska utgiftsvillkoren när utdata spenderas. Detta minskar on-chain:s fotavtryck, förbättrar integriteten och möjliggör standardadressformat samtidigt som samma säkerhetsgarantier bibehålls.

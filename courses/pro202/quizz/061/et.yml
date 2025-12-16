@@ -1,0 +1,8 @@
+question: Milline on põhiline mehhanism, mis võimaldab SegWit-l suurendada plokkide mahtu, säilitades samal ajal tagasiulatuva ühilduvuse SegWit-eelsete sõlmedega?
+answer: Plokkide kaalusüsteem, kus tunnistajate andmeid diskonteeritakse 75% ulatuses võimsuse arvutamisel, võimaldades kuni 4 MB kogutihedust, samas kui varasemad sõlmed näevad ≤1 MB
+wrong_answers:
+  - Pakkimisalgoritmid, mis vähendavad tunnistajate andmete suurust enne edastamist 75% võrra, hoides plokid kõigis sõlmedes alla 1MB
+  - Dünaamiline plokisuuruse kohandamine, mis suurendab piiranguid vastavalt SegWit tehingu protsendimäärale igas plokis
+  - Eraldi tunnistajablokid, mis edastatakse ainult uuendatud sõlmedele, samas kui vanad sõlmed saavad traditsioonilisi 1MB plokke
+explanation: |
+  SegWit kasutab plokkide kaaluühikuid, kus põhitehingu andmed loevad 4 kaaluühikut baidi kohta, samas kui tunnistaja andmed loevad 1 kaaluühikut baidi kohta. See 75%-line allahindlus võimaldab plokke kuni 4 miljoni kaaluühiku ulatuses (potentsiaalselt 4 MB koos kõigi tunnistajate andmetega), tagades samas, et vanad sõlmed ei näe kunagi rohkem kui 1 MB põhitehinguandmeid. Teised võimalused kirjeldavad olematuid mehhanisme - ei ole kompressiooni, dünaamilist suuruse määramist ega eraldi plokkide edastamist.

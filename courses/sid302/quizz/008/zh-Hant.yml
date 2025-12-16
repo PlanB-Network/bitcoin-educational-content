@@ -1,0 +1,8 @@
+question: 開發人員想要在 Elements 上測試資產發行，而不需要外部依賴或等待區塊確認 - 他們應該使用哪種組態？
+answer: 設定 chain=elementsregtest 以建立可立即產生區塊的本機測試環境
+wrong_answers:
+  - 設定 chain=liquidv1 連線至 Liquid 主網路以立即進行測試
+  - 使用帶有 --testmode 標記的 issueasset RPC 指令進行隔離開發
+  - 「配置 chain=bitcoin-regtest 以在 Bitcoin 的測試環境中存取 Elements 功能」
+explanation: |
+  elementsregtest 設定可建立本機回歸測試環境，開發人員可使用 generateblock 等指令即時 generate 區塊，讓他們測試資產發行和其他功能，而無需等待網路確認或依賴外部節點。設定 chain=liquidv1 可連線至生產中的 Liquid 網路，該網路的區塊時間為 1 分鐘，且有外部依賴。issueasset 命令沒有 --testmode 標誌，bitcoin-regtest 是用於 Bitcoin 核心，而不是 Elements 功能。

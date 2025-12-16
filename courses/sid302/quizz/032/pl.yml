@@ -1,0 +1,8 @@
+question: Co się dzieje, gdy odwrotna zamiana podwodna nie powiedzie się lub przekroczy limit czasu w architekturze Breez SDK?
+answer: Zestaw SDK automatycznie tworzy i wysyła transakcję zwrotu środków do wallet użytkownika
+wrong_answers:
+  - Dostawca swapu ręcznie inicjuje proces odzyskiwania wymagający interwencji użytkownika w ciągu 24 godzin
+  - Środki pozostają trwale zablokowane do czasu przywrócenia połączenia Lightning Network
+  - Użytkownik musi skontaktować się z obsługą Boltz, aby ręcznie uruchomić transakcję federated peg-out
+explanation: |
+  Breez SDK implementuje automatyczne zarządzanie zwrotami jako krytyczny mechanizm bezpieczeństwa. Gdy swapy kończą się niepowodzeniem lub upływa czas, SDK monitoruje wszystkie stany swapów i automatycznie obsługuje proces odzyskiwania bez interwencji użytkownika. Eliminuje to złożoność kontraktów z blokadą czasową i zapewnia, że środki nigdy nie zostaną trwale utracone. Inne opcje są nieprawidłowe, ponieważ wymagają ręcznej interwencji, zakładają trwałą utratę środków lub obejmują procesy, które nie istnieją w zautomatyzowanym systemie.

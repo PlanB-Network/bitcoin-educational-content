@@ -1,0 +1,8 @@
+question: Koja matematička osobina čini računarski neizvodljivim obrnuti operaciju k·P na eliptičnoj krivoj?
+answer: Problem diskretnog logaritma
+wrong_answers:
+  - Konačna polja modularna aritmetika
+  - Osobina tačke u beskonačnosti
+  - Jednačina krive y² = x³ + 7
+explanation: |
+  Diskretni logaritamski problem je matematički temelj koji čini eliptičku krivulju kriptografijom sigurnom. Dok je računanje k·P (skalarna množenja) računski lako, pronalaženje k kada su dati P i k·P je izuzetno teško - ovo je poznato kao problem diskretnog logaritma eliptičke krivulje. Ostale opcije su važni matematički elementi, ali ne pružaju sigurnosnu barijeru: aritmetika konačnog polja omogućava operacije, tačka u beskonačnosti služi kao identitetni element, a jednačina krivulje definiše strukturu, ali nijedna od ovih ne stvara računsku neizvodljivost koja štiti kriptografsku sigurnost Bitcoin.

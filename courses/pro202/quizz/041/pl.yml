@@ -1,0 +1,8 @@
+question: Co stałoby się z całkowitą podażą Bitcoin, gdyby górnicy konsekwentnie żądali tylko 90% dozwolonej dotacji blokowej we wszystkich blokach?
+answer: Całkowita podaż zostanie trwale zmniejszona poniżej 21 milionów BTC, ponieważ nieodebrane dotacje zostaną utracone na zawsze
+wrong_answers:
+  - Pozostałe 10% byłoby gromadzone w puli rezerwowej dla przyszłych górników, którzy mogliby ubiegać się o nie w okresach niskich opłat
+  - Mechanizm dostosowania trudności zrekompensowałby to poprzez zwiększenie przyszłych nagród za bloki w celu utrzymania limitu 21 milionów
+  - Nieodebrane subsydia byłyby redystrybuowane proporcjonalnie wśród odbiorców opłat transakcyjnych w kolejnych blokach
+explanation: |
+  Protokół Bitcoin pozwala górnikom ubiegać się o mniej niż maksymalną dozwoloną dotację, ale każda nieodebrana kwota jest trwale tracona - nie ma mechanizmu redystrybucji lub odzyskania jej później. Formuła subsydiów i harmonogram zmniejszania o połowę określają teoretyczne maksimum na poziomie ~21 milionów BTC, ale rzeczywista podaż zależy od górników ubiegających się o pełne uprawnienia. W przeciwieństwie do korekty trudności, która reaguje na warunki mining, nie ma mechanizmu kompensacyjnego dla nieodebranych nagród, co sprawia, że całkowita podaż jest potencjalnie deflacyjna, jeśli górnicy konsekwentnie zgłaszają zbyt niskie roszczenia.

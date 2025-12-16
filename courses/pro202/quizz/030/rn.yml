@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru y’uburyo bwo kwubaka sighash mu kwemeza ibikorwa vya Bitcoin?
+answer: Kugira ngo ureme ubutumwa nyabwo bwashizweko umukono n'urufunguzo rwihariye rwo kugenzura umukono
+wrong_answers:
+  - Ku generate ikimenyetso kidasanzwe c'ugucuruza kibuza ibitero vya double-spending
+  - Kugira ngo ushire amakuru y'ibikorwa mu buryo butoyi kugira ngo ushobore gutanga amakuru ku rubuga
+  - Gushiramwo amakuru y'ibirimwo kugira ngo uwuyakira wenyene ashobore gufungura no gukoresha ibiceri .
+explanation: |
+  Ubwubatsi bwa sighash burarema ubutumwa nyabwo bwashizweko umukono n’urufunguzo rw’ibanga, bikaba bishoboza OP_CHECKSIG kugenzura ukuri kw’uwo mukono. Iyi nzira irimwo gukuraho ubusa ScriptSigs, gusubirira ScriptSig y'inyungu y'ubu na ScriptPubKey ihuye, no kwongerako ubwoko bwa hash imbere yo gukora hash kabiri. Ayandi mahitamwo ntabwo ari meza: ID z’ibikorwa zikora nk’ibimenyetso, ugufatanya gufatwa ukwavyo, kandi ibikorwa vya Bitcoin ntibishirwa mu nzira ariko biraboneka ku mugaragaro ku rubuga rwa blockchain.

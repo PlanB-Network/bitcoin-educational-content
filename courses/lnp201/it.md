@@ -13,7 +13,7 @@ objectives:
 
 Immergiti nel cuore di Lightning Network, un sistema essenziale per il futuro delle transazioni Bitcoin. LNP201 è un corso sulla teoria del funzionamento tecnico di Lightning. Rivela le fondamenta e i meccanismi di questo Layer 2 (rete di secondo livello), progettata per rendere i pagamenti Bitcoin veloci, economici e scalabili.
 
-Grazie alla sua rete di canali di pagamento, Lightning Network consente transazioni rapide e sicure senza registrare ogni scambio sulla blockchain di Bitcoin. Nei vari capitoli imparerai come funzionano l'apertura dei canali, la loro gestione e chiusura, come i pagamenti vengono instradati attraverso nodi lungo la rete in modo sicuro, minimizzando la necessità di fiducia e come gestire la liquidità. Scoprirai cosa sono le commitment transaction, gli HTLC, le revocation keys (chiavi di revoca), i meccanismi di punizione, l'instradamento (routing) onion e le invoice (richieste di pagamento).
+Grazie alla sua rete di canali di pagamento, Lightning Network consente transazioni rapide e sicure senza registrare ogni scambio sulla blockchain di Bitcoin. Nei vari capitoli imparerai come funzionano l'apertura dei canali, la loro gestione e chiusura, come i pagamenti vengono instradati attraverso nodi lungo la rete in modo sicuro, minimizzando la necessità di fiducia e come gestire la liquidità. Scoprirai cosa sono le [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction), gli HTLC, le revocation keys (chiavi di revoca), i meccanismi di punizione, l'instradamento (routing) onion e le invoice (richieste di pagamento).
 
 Che tu sia un principiante in ambito Bitcoin o un utente più esperto, questo corso ti fornirà informazioni preziose per comprendere e utilizzare Lightning Network. Nelle prime parti del corso tratteremo alcuni fondamenti del funzionamento di Bitcoin, perché è essenziale padroneggiare le basi dell'invenzione di Satoshi prima di immergersi in LNP201.
 
@@ -155,7 +155,7 @@ Lo script più comune richiede una firma digitale, effettuata con la chiave priv
 
 ### UTXO: Unspent Transaction Output (Output di una Transazione Non Spesa)
 
-In Bitcoin ciò che effettivamente scambiamo non sono direttamente i bitcoin, ma **UTXO** (_Unspent Transaction Outputs_), ovvero "gli output di transazione non spesi".
+In Bitcoin ciò che effettivamente scambiamo non sono direttamente i bitcoin, ma **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), ovvero "gli output di transazione non spesi".
 
 Un UTXO è una porzione di bitcoin che può avere qualsiasi valore, ad esempio, **2.000 bitcoin**, **8 bitcoin**, o anche **8.000 satoshi**. Ogni UTXO è bloccato da uno script e, per spenderlo, si devono soddisfare le condizioni dello script, spesso una firma effettuata con la chiave privata corrispondente a un dato indirizzo di ricezione.
 
@@ -293,7 +293,7 @@ Prendiamo un esempio con Alice che invia 30.000 satoshi a Bob:
 
 ### Processo di Trasferimento: Invoice
 
-Quando Bob desidera ricevere fondi, invia ad Alice un'**_invoice_** per 30.000 satoshi. Alice procede quindi a pagare avviando il trasferimento all'interno del canale. Come abbiamo visto, questo processo si basa sulla creazione e firma di una nuova **commitment transaction**.
+Quando Bob desidera ricevere fondi, invia ad Alice un'**_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_** per 30.000 satoshi. Alice procede quindi a pagare avviando il trasferimento all'interno del canale. Come abbiamo visto, questo processo si basa sulla creazione e firma di una nuova **commitment transaction**.
 
 Ogni commitment transaction rappresenta la nuova distribuzione dei fondi nel canale dopo ogni trasferimento. In questo esempio, dopo la transazione, Bob ha 30.000 satoshi e Alice ha 100.000 satoshi. Se uno dei due partecipanti decidesse di pubblicare questa commitment transaction sulla blockchain, ciò provocherebbe la chiusura del canale con i fondi ripartiti secondo quest'ultima distribuzione.
 
@@ -610,7 +610,7 @@ In questo capitolo, abbiamo esplorato l'instradamento dei pagamenti su Lightning
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
-Ora scopriremo come il protocollo Lightning Network permette ai pagamenti di transitare attraverso nodi intermedi, senza la necessità di fidarsi di loro, grazie agli **HTLC** (_Hashed Time-Locked Contracts_). Questi smart contract assicurano che ciascun nodo intermedio riceverà i fondi dal suo canale solo se inoltra il pagamento al destinatario finale; in caso contrario, il pagamento non verrà convalidato.
+Ora scopriremo come il protocollo Lightning Network permette ai pagamenti di transitare attraverso nodi intermedi, senza la necessità di fidarsi di loro, grazie agli **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Questi smart contract assicurano che ciascun nodo intermedio riceverà i fondi dal suo canale solo se inoltra il pagamento al destinatario finale; in caso contrario, il pagamento non verrà convalidato.
 
 Il problema che sorge per l'instradamento dei pagamenti è quindi la necessaria fiducia nei nodi intermedi e tra gli stessi. Per illustrare meglio, rivediamo il nostro esempio semplificato di una rete composta da 3 nodi e 2 canali:
 

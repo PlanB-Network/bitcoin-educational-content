@@ -1,0 +1,8 @@
+question: Welches sind die beiden kritischen Überprüfungen, die ein Bitcoin-Knoten durchführen muss, wenn er einen neuen Block erhält, bevor er ihn in die Blockchain aufnimmt?
+answer: Der Blockhash muss unterhalb der Zielschwierigkeit liegen und die berechnete Merkle-Wurzel muss mit der Merkle-Wurzel des Headers übereinstimmen
+wrong_answers:
+  - Der Zeitstempel des Blocks muss gültig sein und alle Transaktionssignaturen müssen kryptografisch verifiziert sein
+  - Die Blockgröße muss unter 1 MB liegen und der vorherige Block-Hash muss auf einen bekannten gültigen Block verweisen
+  - Die Blockversion muss mit dem Netzwerkkonsens übereinstimmen und die gesamten Transaktionsgebühren müssen die mining-Belohnung übersteigen
+explanation: |
+  Das Bitcoin-Prinzip "Don't trust, verify" erfordert genau zwei grundlegende Überprüfungen für die Blockannahme: proof-of-work-Validierung (Block-Hash unter dem Schwierigkeitsziel) und Überprüfung der Transaktionsintegrität (Merkle-Root-Matching). Auch wenn andere Prüfungen wie Zeitstempelvalidierung, Signaturüberprüfung und Größenbeschränkungen wichtig sind, stellen diese beiden spezifischen Prüfungen sicher, dass der Block die Schwierigkeitsanforderungen erfüllt und die behaupteten Transaktionen ohne Manipulationen enthält.

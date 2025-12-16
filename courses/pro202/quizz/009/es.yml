@@ -1,0 +1,8 @@
+question: ¿Cuál es la ecuación específica de la curva elíptica utilizada por secp256k1 de Bitcoin?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + 3
+  - y² = x³ + 5
+  - y² = x³ + 1
+explanation: |
+  Bitcoin utiliza la curva secp256k1 definida por la ecuación y² = x³ + 7 sobre un campo finito. Se eligió esta ecuación específica porque preserva la simetría y el comportamiento no lineal esenciales para la seguridad criptográfica. El coeficiente 7 forma parte de la especificación estandarizada secp256k1 y la distingue de otras curvas elípticas que podrían utilizar constantes diferentes como 1, 3 o 5.

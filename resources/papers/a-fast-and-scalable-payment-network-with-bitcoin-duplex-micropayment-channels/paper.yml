@@ -1,0 +1,16 @@
+title: "A Fast and Scalable Payment Network with Bitcoin Duplex Micropayment Channels"
+original_language: en
+authors:
+  - Christian Decker
+  - Roger Wattenhofer
+abstract: |
+  Bitcoin does not scale, because its synchronization mechanism, the blockchain, limits the maximum rate of transactions the network can process. However, using off-blockchain transactions it is possible to create long-lived channels over which an arbitrary number of transfers can be processed locally between two users, without any burden to the Bitcoin network. These channels may form a network of payment service providers (PSPs). Payments can be routed between any two users in real time, without any confirmation delay. In this work we present a protocol for duplex micropayment channels, which guarantees end-to-end security and allow instant transfers, laying the foundation of the PSP network.
+publication_date: 2015-01-01
+paper_type: conference
+source: SSS
+topics:
+  - Payment Channel Networks
+  - Off-Chain Scalability
+  - Micropayment Systems
+pdf_url: https://www.researchgate.net/profile/Christian-Decker-4/publication/277991245_A_Fast_and_Scalable_Payment_Network_with_Bitcoin_Duplex_Micropayment_Channels/links/55780a4e08aeb6d8c01cf2d0/A-Fast-and-Scalable-Payment-Network-with-Bitcoin-Duplex-Micropayment-Channels.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19
+id: 9ccc1e21-8092-47a7-8c3a-15eaadb7fb04

@@ -1,0 +1,8 @@
+question: Bitcoin işlem doğrulaması sırasında, her bir girdinin referans verilen çıktısını harcamak üzere uygun şekilde yetkilendirildiğinden emin olmak için bir düğüm neyi doğrulamalıdır?
+answer: ScriptSig, birlikte yürütüldüğünde ilgili ScriptPubKey'in kilidini başarıyla açmalıdır
+wrong_answers:
+  - "Girdinin dijital imzası çıktının gömülü açık anahtarıyla tam olarak eşleşmelidir"
+  - İşlem karması, başvurulan blok başlığında saklanan merkle köküne eşit olmalıdır
+  - Girdi miktarı, harcanmakta olan çıktı miktarına eşit veya daha büyük olmalıdır
+explanation: |
+  Bitcoin'in komut dosyası sistemi, yığında doğru bir sonuç üretmek için her girdinin ScriptSig'inin (kilit açma komut dosyası) başvurulan çıktının ScriptPubKey'i (kilitleme komut dosyası) ile başarılı bir şekilde yürütülmesini gerektirir. Bu kod yürütme modeli, basit imza eşleştirmesinin ötesinde esnek harcama koşullarına olanak tanır. Diğer seçenekler yanlış doğrulama gereksinimlerini tanımlar - imzaların gömülü anahtarlarla tam olarak eşleşmesi gerekmez, işlem karmaları girdi doğrulaması sırasında merkle kökleriyle karşılaştırılmaz ve tek tek girdilerin çıktılarını aşması gerekmez (yalnızca toplam girdiler toplam çıktıları aşmalıdır).

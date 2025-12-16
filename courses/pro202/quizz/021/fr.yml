@@ -1,0 +1,8 @@
+question: Quelle est la principale conséquence de l'oubli d'une sortie de modification lors de la dépense d'une UTXO qui contient plus de Bitcoin que nécessaire ?
+answer: Le montant excédentaire devient automatiquement une taxe de minage
+wrong_answers:
+  - La transaction sera rejetée par le réseau pour cause d'invalidité
+  - "Le montant excédentaire est renvoyé à l'adresse de l'expéditeur initial
+  - Le montant excédentaire reste bloqué dans la UTXO d'origine
+explanation: |
+  Dans le modèle UTXO de Bitcoin, les frais de transaction sont calculés implicitement comme la différence entre le total des entrées et le total des sorties (frais = somme(entrées) - somme(sorties)). Lorsque vous dépensez une UTXO, vous devez la dépenser entièrement - toute dépense partielle est impossible. Si vous ne devez dépenser qu'une partie de la valeur d'une UTXO, vous devez créer une sortie de modification pour recevoir le reste. Si vous oubliez d'inclure cette sortie de changement, la différence non comptabilisée entre les entrées et les sorties devient automatiquement la redevance du mineur. C'est la raison pour laquelle il est essentiel de créer correctement des sorties de modification - sans cela, vous pourriez accidentellement payer des frais énormes aux mineurs.

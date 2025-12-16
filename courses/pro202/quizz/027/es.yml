@@ -1,0 +1,8 @@
+question: ¿Qué le ocurre a la pila después de ejecutar OP_CHECKSIG cuando la verificación de la firma tiene éxito?
+answer: El valor 1 se introduce en la pila
+wrong_answers:
+  - La firma y la clave pública permanecen en la pila
+  - La pila se borra y vuelve a estar vacía
+  - El hash de la clave pública se introduce en la pila
+explanation: |
+  OP_CHECKSIG es un opcode de transformación de pila que consume una firma y una clave pública de la pila, verifica la firma con el sighash de la transacción y coloca un 1 (para válido) o un 0 (para inválido) en la pila. La firma original y la clave pública se eliminan durante este proceso. La pila no se borra por completo y no se introducen valores hash, sólo el resultado booleano de la operación de verificación.

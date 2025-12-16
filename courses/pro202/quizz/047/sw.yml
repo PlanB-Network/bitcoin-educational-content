@@ -1,0 +1,8 @@
+question: Ni fomula gani ya hisabati inayotumika kuhesabu ruzuku ya block katika urefu wowote wa block h katika itifaki ya Bitcoin?
+answer: ruzuku = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - ruzuku = 50_000_000_000 / (2^(saa / 210_000))
+  - ruzuku = 5_000_000_000 * (0.5^(saa % 210_000))
+  - ruzuku = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Fomula sahihi hutumia shughuli za kuhamisha biti ambapo 5_000_000_000 inawakilisha BTC 50 katika satoshis, na opereta wa kuhamisha kulia >> hugawanya kwa ufanisi kwa nguvu za 2. Mgawanyiko wa sakafu h // 210_000 huamua ni vipindi vingapi vya kuhamisha nusu vimetokea. Jibu la kwanza lisilo sahihi hutumia mgawanyiko wa kawaida badala ya kuhamisha biti na huanza na thamani ya msingi isiyo sahihi. Ya pili hutumia modulo badala ya mgawanyiko wa sakafu, ambayo ingeunda muundo wa mzunguko badala ya kuhamisha nusu inayoendelea. Ya tatu hutumia operesheni ya modulo ambayo ingeweka upya kaunta ya kuhamisha nusu kila baada ya vitalu 210,000 badala ya kukusanya nusu baada ya muda.

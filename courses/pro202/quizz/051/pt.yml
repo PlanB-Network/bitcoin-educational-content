@@ -1,0 +1,8 @@
+question: Na estrutura de mensagens da rede P2P do Bitcoin, que dados específicos constituem o campo de soma de controlo de 4 bytes em cada envelope de mensagem?
+answer: Os primeiros 4 bytes do hash256 da carga útil da mensagem
+wrong_answers:
+  - Os primeiros 4 bytes do hash SHA256 de todo o envelope da mensagem
+  - Os primeiros 4 bytes do hash256 do campo de comando concatenado com a carga útil
+  - Os primeiros 4 bytes do hash RIPEMD160 da carga útil da mensagem
+explanation: |
+  O envelope de mensagem P2P do Bitcoin utiliza um mecanismo de soma de controlo específico em que o campo de soma de controlo de 4 bytes contém os primeiros 4 bytes do hash256 aplicado apenas à carga útil da mensagem. Este mecanismo permite verificar a integridade dos dados da carga útil durante a transmissão na rede. As outras opções estão incorrectas porque fazem referência a funções de hash diferentes (SHA256 simples, RIPEMD160) ou a dados de entrada diferentes (envelope completo, comando+carga útil) do que o que o Bitcoin realmente implementa no seu protocolo de rede.

@@ -1,0 +1,8 @@
+question: Welche elliptische Kurvengleichung verwendet die secp256k1 von Bitcoin?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin verwendet speziell die elliptische Kurve secp256k1, die die vereinfachte Gleichung y² = x³ + 7 hat. Dies ist ein Spezialfall der allgemeinen elliptischen Kurvenform y² = x³ + ax + b mit a = 0 und b = 7. Die anderen Optionen sind falsch: y² = x³ + ax + b ist die allgemeine Form, aber nicht die spezifische Kurve von Bitcoin, y² = x³ + 5 verwendet die falsche Konstante, und y² = x³ + x + 7 enthält fälschlicherweise einen linearen x-Term, der in secp256k1 nicht existiert.

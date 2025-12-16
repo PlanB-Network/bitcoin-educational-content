@@ -1,0 +1,8 @@
+question: ¿Qué ocurre con los campos ScriptSig de todas las entradas durante el proceso de construcción de sighash para la verificación de firma ECDSA heredada?
+answer: Todos los campos ScriptSig se vacían y, a continuación, el ScriptSig de la entrada actual se sustituye por su correspondiente ScriptPubKey
+wrong_answers:
+  - Todos los campos ScriptSig permanecen inalterados y se incluyen en su forma original en el cálculo del sighash
+  - "Sólo se conserva el ScriptSig de la entrada actual, mientras que los campos ScriptSig de todas las demás entradas se eliminan de la transacción"
+  - Todos los campos ScriptSig se sustituyen por sus correspondientes valores ScriptPubKey de las salidas referenciadas
+explanation: |
+  Durante la construcción de sighash para transacciones heredadas, el proceso vacía específicamente todos los campos ScriptSig en primer lugar y, a continuación, sustituye sólo la entrada actual que se está validando por su correspondiente ScriptPubKey de la salida que está gastando. Esto garantiza que la firma se compromete con las condiciones de gasto sin crear dependencias circulares en las que las firmas tendrían que firmarse a sí mismas. Las otras opciones son incorrectas porque o bien dejan las firmas en su lugar (creando imposibilidades lógicas) o bien modifican todas las entradas uniformemente (lo que no aislaría correctamente el contexto de validación de la entrada actual).

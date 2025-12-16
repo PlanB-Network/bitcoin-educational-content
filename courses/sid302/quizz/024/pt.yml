@@ -1,0 +1,8 @@
+question: Na Plataforma de Gestão de Activos (AMP) da Liquid, qual é o principal mecanismo técnico que evita acções de conformidade de ponto único de falha, mantendo o controlo regulamentar sobre os activos tokenizados?
+answer: Autorização com várias assinaturas que exige que várias partes aprovem acções de conformidade como o congelamento de fundos ou a reemissão de tokens
+wrong_answers:
+  - Tokens de governação Smart contract que permitem a votação da comunidade em todas as decisões de conformidade e aplicação da regulamentação
+  - Contas de garantia bloqueadas no tempo que executam automaticamente acções de conformidade após o termo de períodos de espera pré-determinados
+  - Consenso criptográfico de prova de participação, em que os validadores devem chegar a um acordo maioritário antes de executarem qualquer ação de conformidade
+explanation: |
+  A AMP utiliza o controlo de múltiplas assinaturas para garantir que as acções de conformidade requerem autorização de várias partes, impedindo que um único funcionário actue unilateralmente. Isto cria um sistema de verificação e equilíbrio para operações sensíveis, mantendo a supervisão regulamentar necessária para os activos institucionais. As respostas erradas descrevem mecanismos que não existem na AMP ou que seriam inadequados para a conformidade financeira regulamentada.

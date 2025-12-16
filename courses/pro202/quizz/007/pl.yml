@@ -1,0 +1,8 @@
+question: Jaka właściwość matematyczna sprawia, że odwrócenie operacji k-P na krzywej eliptycznej jest obliczeniowo niewykonalne?
+answer: Problem logarytmu dyskretnego
+wrong_answers:
+  - Arytmetyka modularna pól skończonych
+  - Właściwość punktu w nieskończoności
+  - Równanie krzywej y² = x³ + 7
+explanation: |
+  Problem logarytmu dyskretnego jest matematyczną podstawą, która sprawia, że kryptografia krzywych eliptycznych jest bezpieczna. Podczas gdy obliczenie k-P (mnożenie skalarne) jest obliczeniowo łatwe, znalezienie k przy danych P i k-P jest niezwykle trudne - jest to znane jako problem logarytmu dyskretnego krzywej eliptycznej. Pozostałe opcje są ważnymi składnikami matematycznymi, ale nie zapewniają bariery bezpieczeństwa: arytmetyka pól skończonych umożliwia operacje, punkt w nieskończoności służy jako element tożsamości, a równanie krzywej definiuje strukturę, ale żadna z nich nie tworzy niewykonalności obliczeniowej, która chroni bezpieczeństwo kryptograficzne Bitcoin.

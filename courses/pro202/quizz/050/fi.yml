@@ -1,0 +1,8 @@
+question: Kun Bitcoin-solmu käynnistyy ja liittyy verkkoon ensimmäistä kertaa, mitä ensisijaista mekanismia se käyttää löytääkseen aktiiviset vertaisverkot?
+answer: Yhteydenotot kovakoodattuihin DNS-siemeniin, joita ytimen kehittäjät ylläpitävät aktiivisten vertaisvertaisten IP-osoitteiden vastaanottamiseksi
+wrong_answers:
+  - Lähettää havaintoviestin kaikille IP-osoitteille ennalta määritellyillä aliverkkoalueilla
+  - Ottaa yhteyden keskusrekisteripalvelimeen, joka ylläpitää luetteloa kaikista aktiivisista solmuista
+  - Käyttää DHT (Distributed Hash Table) -protokollaa vertaisten löytämiseen hash-pohjaisen reitityksen avulla
+explanation: |
+  Bitcoin käyttää kovakoodattuja DNS-siemeniä käynnistysmekanismina, koska se tarjoaa hajautetun tavan, jolla uudet solmut voivat liittyä verkkoon turvautumatta keskusviranomaiseen. Ydinkehittäjät ylläpitävät DNS-siemeniä, ja ne palauttavat tällä hetkellä aktiivisten vertaisverkkojen IP-osoitteet. Kun solmut ovat muodostaneet yhteyden, ne voivat käyttää getaddr-komentoa löytääkseen lisää vertaisvertaisvertaisvertaisvertaisvertaisvertaisvertaisvertaisia. Väärät vastaukset kuvaavat keskitettyjä lähestymistapoja tai protokollia, joita Bitcoin ei käytä - Bitcoin:n suunnittelussa ei ole keskusrekisteriä, aliverkon lähetyksiä eikä DHT-pohjaista vertaisverkon löytämistä.

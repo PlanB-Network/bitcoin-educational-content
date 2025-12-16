@@ -1,0 +1,8 @@
+question: Ni kazi gani ya Python iliyotajwa mahsusi kwa ajili ya kufanya uainishaji mzuri wa moduli katika shughuli za kriptografia?
+answer: pow(msingi, exp, mod)
+wrong_answers:
+  - mod(msingi, muda wa matumizi, mkuu)
+  - exp(msingi, mod, sehemu)
+  - nyingi(msingi, exp, modulo)
+explanation: |
+  Kitendakazi cha Python kilichojengewa ndani cha pow(base, exp, mod) kimeundwa mahsusi kwa ajili ya uainishaji wa moduli wenye ufanisi, ambao ni muhimu kwa shughuli za usimbaji data zinazohusisha vipeo vikubwa. Kitendakazi hiki hutumia algoriti zilizoboreshwa ili kukokotoa moduli ya moduli ya (base^exp) bila kulazimika kukokotoa matokeo makubwa ya kati ya base^exp kwanza. Chaguzi zingine si halali za kitendakazi cha Python - mod(), exp(), na mult() zenye mifumo hii ya vigezo hazipo katika maktaba ya kawaida ya Python ya hesabu ya moduli ya usimbaji data.

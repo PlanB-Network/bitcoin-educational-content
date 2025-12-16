@@ -184,7 +184,7 @@ Bitcoin이 등장하기 전에도 디지털 화폐를 만들려는 시도는 여
 ![image](assets/ko/005.webp)
 
 
-이러한 비옥한 환경에서 2008년 미스터리한 Satoshi 나카모토가 Bitcoin 백서를 발표했습니다. 이 문서에서 그는 Proof of Work 및 암호화 타임스탬프와 같은 Cypherpunk 운동의 여러 아이디어를 결합하여 검열에 저항하는 탈중앙화된 디지털 화폐를 만들었습니다.
+이러한 비옥한 환경에서 2008년 미스터리한 Satoshi 나카모토가 Bitcoin 백서를 발표했습니다. 이 문서에서 그는 [proof of work](https://planb.academy/resources/glossary/proof-of-work) 및 암호화 타임스탬프와 같은 Cypherpunk 운동의 여러 아이디어를 결합하여 검열에 저항하는 탈중앙화된 디지털 화폐를 만들었습니다.
 
 
 하지만 Bitcoin는 그 이상의 의미를 지녔습니다. Cypherpunk의 이상을 실현한 것이었죠. 기술을 넘어 기존 금융 시스템에 대한 혁명을 상징하며 투명성, 탈중앙화, 개인 주권에 기반한 대안을 제시했습니다.
@@ -1108,7 +1108,7 @@ Bob이 Alice에게 비트코인을 전송하려면 Bitcoin 주소 중 하나를 
 이 시점에서 이 트랜잭션은 Mempool이라는 도구를 통해 모든 사람에게 알려지더라도, Miner가 블록에 삽입할 때까지는 확정된 것으로 간주할 수 없으며, Blockchain에 포함시켜 트랜잭션을 검증하는 유일한 사람인 Miner가 이를 확인할 수 있습니다.
 
 
-실제로 채굴자는 유효한 트랜잭션과 확인되지 않은 트랜잭션을 모아 블록으로 컴파일하는 역할을 합니다. 간단히 말해, 채굴자는 'Proof of Work'이라는 프로세스에서 암호화 퍼즐을 풀어야만 Bitcoin Blockchain의 다음 블록이 될 수 있습니다.
+실제로 채굴자는 유효한 트랜잭션과 확인되지 않은 트랜잭션을 모아 블록으로 컴파일하는 역할을 합니다. 간단히 말해, 채굴자는 '[proof of work](https://planb.academy/resources/glossary/proof-of-work)'이라는 프로세스에서 암호화 퍼즐을 풀어야만 Bitcoin Blockchain의 다음 블록이 될 수 있습니다.
 
 
 ![image](assets/ko/047.webp)
@@ -1117,7 +1117,7 @@ Bob이 Alice에게 비트코인을 전송하려면 Bitcoin 주소 중 하나를 
 ### 3단계: 트랜잭션은 Miner에 의해 블록에서 채굴됩니다.
 
 
-Proof of Work 시스템은 해당 블록에 대해 유효한 "Hash"을 찾아야 합니다. 256자로 구성된 블록과 관련된 고유 지문이라고 생각하시면 됩니다. 이 Hash의 유효성은 Bitcoin 네트워크의 난이도에 따라 달라집니다(자세한 내용은 나중에 설명하겠습니다). 지금은 Miner가 유효한 블록을 찾았고 Alice에 대한 Bob의 트랜잭션이 여기에 포함되어 있다고 가정해 보겠습니다. 그런 다음 새로운 유효한 블록이 모든 Bitcoin 사용자의 공통 Ledger인 Blockchain에 추가됩니다.
+[proof of work](https://planb.academy/resources/glossary/proof-of-work) 시스템은 해당 블록에 대해 유효한 "Hash"을 찾아야 합니다. 256자로 구성된 블록과 관련된 고유 지문이라고 생각하시면 됩니다. 이 Hash의 유효성은 Bitcoin 네트워크의 난이도에 따라 달라집니다(자세한 내용은 나중에 설명하겠습니다). 지금은 Miner가 유효한 블록을 찾았고 Alice에 대한 Bob의 트랜잭션이 여기에 포함되어 있다고 가정해 보겠습니다. 그런 다음 새로운 유효한 블록이 모든 Bitcoin 사용자의 공통 Ledger인 Blockchain에 추가됩니다.
 
 
 ![image](assets/ko/048.webp)
@@ -1231,16 +1231,16 @@ Bitcoin 노드가 어떻게 작동하는지 자세히 살펴보겠습니다.
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**마이너는 네트워크를 보호하고 블록에 트랜잭션을 추가합니다. 채굴자는 ASIC 머신을 통해 전기를 사용하여 Bitcoin Proof of Work.**를 해결합니다
+**마이너는 네트워크를 보호하고 블록에 트랜잭션을 추가합니다. 채굴자는 [ASIC](https://planb.academy/resources/glossary/asic) 머신을 통해 전기를 사용하여 Bitcoin [proof of work](https://planb.academy/resources/glossary/proof-of-work).**를 해결합니다
 
 
 ![image](assets/ko/054.webp)
 
 
-### Proof of Work에 대한 설명
+### [proof of work](https://planb.academy/resources/glossary/proof-of-work)에 대한 설명
 
 
-"Proof of Work"(POW)은 Bitcoin 프로토콜의 보안 합의 메커니즘입니다. 이는 모든 것의 기초이며 Bitcoin의 게임 이론에서 중요한 역할을 합니다.
+"[proof of work](https://planb.academy/resources/glossary/proof-of-work)"(POW)은 Bitcoin 프로토콜의 보안 합의 메커니즘입니다. 이는 모든 것의 기초이며 Bitcoin의 게임 이론에서 중요한 역할을 합니다.
 
 
 작동 방식을 설명하기 위해 모든 사람이 참여할 수 있는 범용 복권을 상상해 보겠습니다. 목표는 당첨자가 유효한 블록에 서명할 수 있는 특정 숫자를 찾아 Bitcoin로 보상을 받는 것입니다. 참여자(채굴자)는 올바른 숫자를 찾을 때까지 1, 52, 2648, 26874615, 15344854131318631 등과 같은 수십억 개의 가능성을 시도할 것입니다.

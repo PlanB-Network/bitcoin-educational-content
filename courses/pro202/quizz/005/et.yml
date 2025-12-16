@@ -1,0 +1,8 @@
+question: Milline matemaatiline omadus tagab, et igal nullist erineval elemendil primaarväljas F(p) on multiplikatiivne pöördväärtus?
+answer: Väli on määratletud algarvuga p
+wrong_answers:
+  - Väli sisaldab täpselt p-1 elementi
+  - Väljal kasutatakse modulaarseid aritmeetilisi operatsioone
+  - Väli toetab liitmist ja korrutamist
+explanation: |
+  Lõplik väli F(p) peab olema defineeritud algarvuga p, et tagada, et igal nullist erineval elemendil on korrutisvõrrand. See on põhinõue väljateoorias - kui p on algarv, moodustavad täisarvud modulo p välja, kus jagamine on alati võimalik (välja arvatud nulliga). Kui p oleks komposiit, siis ei oleks mõnel mittenulliga elemendil inversioone, mis rikuks välja struktuuri. Kui teised võimalused kirjeldavad lõplike väljade omadusi, siis ainult p primaarsus tagab kõigi nullist erinevate elementide jaoks multiplikatiivsete inversioonide olemasolu.

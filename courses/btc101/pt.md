@@ -29,7 +29,7 @@ Bem-vindo ao curso BTC101!
 
 O Bitcoin é uma revolução tecnológica e monetária, capaz de nos fazer questionar a nossa relação com o dinheiro e com a sociedade. De facto, a Bitcoin (designada por BTC) é uma moeda **neutra** e **descentralizada**, o que significa que não é controlada por nenhuma entidade ou instituição. Trata-se de uma inovação que vai para além de uma mera "moeda da Internet": é simultaneamente um protocolo informático (Bitcoin) e uma unidade monetária (bitcoin).
 
-O protocolo utiliza tecnologias subjacentes como a criptografia, a comunicação em rede e a famosa "blockchain", enquanto a unidade bitcoin serve como a moeda necessária para o bom funcionamento deste protocolo. Na vida quotidiana, os salvadorenhos e os bitcoiners de todo o mundo utilizam a moeda bitcoin para comprar e vender bens e serviços, confiando nesta tecnologia para melhorar as suas vidas.
+O protocolo utiliza tecnologias subjacentes como a criptografia, a comunicação em rede e a famosa "[blockchain](https://planb.academy/resources/glossary/blockchain)", enquanto a unidade bitcoin serve como a moeda necessária para o bom funcionamento deste protocolo. Na vida quotidiana, os salvadorenhos e os bitcoiners de todo o mundo utilizam a moeda bitcoin para comprar e vender bens e serviços, confiando nesta tecnologia para melhorar as suas vidas.
 
 **Um currículo abrangente, mas acessível:**
 
@@ -370,7 +370,7 @@ A criação de novos bitcoins é o resultado do processo de mineração. Em pouc
 
 ![image](assets/pt/022.webp)
 
-Depois de executarem esta tarefa com sucesso, os mineiros são recompensados com a emissão de novos bitcoins a cada dez minutos. Esta recompensa está programada para reduzir para metade a cada 210 000 blocos, o que corresponde aproximadamente a cada quatro anos (um evento conhecido como "halving"), dando à curva de emissão monetária uma forma semelhante a uma escada. Devido a este mecanismo, pode prever-se matematicamente que a criação de novos bitcoins cessará por volta do ano 2140, quando o número total atingir o seu limite de 21 milhões.
+Depois de executarem esta tarefa com sucesso, os mineiros são recompensados com a emissão de novos bitcoins a cada dez minutos. Esta recompensa está programada para reduzir para metade a cada 210 000 blocos, o que corresponde aproximadamente a cada quatro anos (um evento conhecido como "[halving](https://planb.academy/resources/glossary/halving)"), dando à curva de emissão monetária uma forma semelhante a uma escada. Devido a este mecanismo, pode prever-se matematicamente que a criação de novos bitcoins cessará por volta do ano 2140, quando o número total atingir o seu limite de 21 milhões.
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -759,7 +759,7 @@ De facto, os mineiros têm o papel de reunir transacções válidas e não confi
 
 ### Passo 3: A transação é extraída num bloco por um mineiro.
 
-O sistema Proof of work requer encontrar um "hash" válido para o bloco em questão: pense nele como uma impressão digital única associada ao bloco, composta por 256 caracteres. A validade deste hash depende da taxa de dificuldade da rede Bitcoin (entraremos em mais pormenores mais tarde). Por enquanto, considere que um minerador encontrou um bloco válido e que a transação de Bob para Alice está incluída nele. Então, o novo bloco válido é adicionado ao blockchain, o livro-razão comum para todos os utilizadores de Bitcoin.
+O sistema [proof of work](https://planb.academy/resources/glossary/proof-of-work) requer encontrar um "hash" válido para o bloco em questão: pense nele como uma impressão digital única associada ao bloco, composta por 256 caracteres. A validade deste hash depende da taxa de dificuldade da rede Bitcoin (entraremos em mais pormenores mais tarde). Por enquanto, considere que um minerador encontrou um bloco válido e que a transação de Bob para Alice está incluída nele. Então, o novo bloco válido é adicionado ao blockchain, o livro-razão comum para todos os utilizadores de Bitcoin.
 
 ![image](assets/pt/048.webp)
 
@@ -836,7 +836,7 @@ Após esta vitória, os nós activaram uma atualização denominada SegWit, abri
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-\*\*Os mineiros protegem a rede e adicionam transacções aos blocos. Eles usam eletricidade através de máquinas ASIC para resolver a prova de trabalho do Bitcoin
+\*\*Os mineiros protegem a rede e adicionam transacções aos blocos. Eles usam eletricidade através de máquinas [ASIC](https://planb.academy/resources/glossary/asic) para resolver a prova de trabalho do Bitcoin
 
 ![image](assets/pt/054.webp)
 

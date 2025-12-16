@@ -60,7 +60,7 @@ Katika sehemu ya pili, tunaangalia mbinu zinazotumiwa na kampuni za uchanganuzi 
 
 ### Sehemu ya 3: Kusimamia mbinu bora za kulinda faragha yako
 
-Katika sehemu ya tatu ya kozi yetu ya mafunzo, tunashuka hadi kwenye undani wa mazoezi. Lengo ni kujifunza mbinu zote bora na muhimu ambazo zinapaswa kuwa tabia za kawaida kwa mtumiaji yeyote wa Bitcoin. Tutashughulikia matumizi ya Address tupu, kuweka alama, uimarishaji, matumizi ya Full node, pamoja na KYC na mbinu za kujipatia Bitcoin. Lengo ni kukupa muhtasari wa kina wa mitego ya kuepuka ili kuweka msingi imara katika juhudi zetu za kulinda faragha. Kwa baadhi ya mazoea haya, utaelekezwa kwenye mafunzo maalum ya jinsi ya kuyatekeleza.
+Katika sehemu ya tatu ya kozi yetu ya mafunzo, tunashuka hadi kwenye undani wa mazoezi. Lengo ni kujifunza mbinu zote bora na muhimu ambazo zinapaswa kuwa tabia za kawaida kwa mtumiaji yeyote wa Bitcoin. Tutashughulikia matumizi ya Address tupu, kuweka alama, uimarishaji, matumizi ya [full node](https://planb.academy/resources/glossary/full-node), pamoja na KYC na mbinu za kujipatia Bitcoin. Lengo ni kukupa muhtasari wa kina wa mitego ya kuepuka ili kuweka msingi imara katika juhudi zetu za kulinda faragha. Kwa baadhi ya mazoea haya, utaelekezwa kwenye mafunzo maalum ya jinsi ya kuyatekeleza.
 
 ![BTC204](assets/sw/003.webp)
 
@@ -141,7 +141,7 @@ Salio la jumla lako kwingineko litakuwa `17 BTC`.
 
 ### Ingizo la shughuli na matokeo
 
-Muamala wa Bitcoin ni operesheni iliyorekodiwa kwenye Blockchain inayohamisha Umilikishaji wa bitcoins kutoka kwa mtu mmoja hadi mwingine. Kwa usahihi zaidi, kwa kuwa tuko kwenye modeli ya UTXO na hakuna akaunti, shughuli hiyo inakidhi masharti ya matumizi ambayo yalilinda UTXO moja au zaidi, inazitumia, na kwa usawa huunda UTXO mpya na masharti mapya ya matumizi. Kwa kifupi, muamala huhamisha bitcoins kutoka hati iliyoridhika hadi hati mpya iliyoundwa ili kuzilinda.
+Muamala wa Bitcoin ni operesheni iliyorekodiwa kwenye Blockchain inayohamisha Umilikishaji wa bitcoins kutoka kwa mtu mmoja hadi mwingine. Kwa usahihi zaidi, kwa kuwa tuko kwenye modeli ya [UTXO](https://planb.academy/resources/glossary/utxo) na hakuna akaunti, shughuli hiyo inakidhi masharti ya matumizi ambayo yalilinda UTXO moja au zaidi, inazitumia, na kwa usawa huunda UTXO mpya na masharti mapya ya matumizi. Kwa kifupi, muamala huhamisha bitcoins kutoka hati iliyoridhika hadi hati mpya iliyoundwa ili kuzilinda.
 
 ![BTC204](assets/sw/010.webp)
 
@@ -282,17 +282,17 @@ Kwa sababu ya kikwazo cha utangazaji wa miamala kwa umma ambacho tuliona katika 
 
 ![BTC204](assets/sw/024.webp)
 
-Kwa mfano, ukinunua baguette kutoka kwa mwokaji, ukalipa kwa BTC, jirani yako, ambaye ana full node yake, anaweza kuona muamala wako ukipitia, kama anavyoweza kuona miamala mingine yote katika mfumo. Hata hivyo, ikiwa kanuni za faragha zinaheshimiwa, hapaswi kuunganisha muamala huu mahususi na utambulisho wako.
+Kwa mfano, ukinunua baguette kutoka kwa mwokaji, ukalipa kwa BTC, jirani yako, ambaye ana [full node](https://planb.academy/resources/glossary/full-node) yake, anaweza kuona muamala wako ukipitia, kama anavyoweza kuona miamala mingine yote katika mfumo. Hata hivyo, ikiwa kanuni za faragha zinaheshimiwa, hapaswi kuunganisha muamala huu mahususi na utambulisho wako.
 
 ![BTC204](assets/sw/025.webp)
 
 Lakini kwa kuwa miamala ya Bitcoin inafanywa kwa umma, bado inawezekana kuanzisha viungo kati yao ili kupata taarifa kuhusu wahusika wanaohusika. Miamala hii hata inajulikana kama taaluma maalum kwa haki yake yenyewe, inayojulikana kama **uchambuzi wa Blockchain**. Katika sehemu inayofuata ya kozi, ninakualika kuchunguza misingi ya uchambuzi wa Blockchain, ili uweze kuelewa jinsi bitcoins zako zinavyofuatiliwa na kujilinda vizuri dhidi yake.
 
-# Kuelewa na kulinda dhidi ya Chain analysis (uchambuzi wa mnyororo)
+# Kuelewa na kulinda dhidi ya [chain analysis](https://planb.academy/resources/glossary/chain-analysis) (uchambuzi wa mnyororo)
 
 <partId>4739371e-9fef-45b0-bcaa-b7a4df6b4470</partId>
 
-## Chain analysis ya Bitcoin ni nini?
+## [chain analysis](https://planb.academy/resources/glossary/chain-analysis) ya Bitcoin ni nini?
 
 <chapterId>7d198ba6-4af2-4f24-86cb-3c79cb25627e</chapterId>
 
@@ -300,7 +300,7 @@ Lakini kwa kuwa miamala ya Bitcoin inafanywa kwa umma, bado inawezekana kuanzish
 
 ### Ufafanuzi na uendeshaji
 
-Uchunguzi wa Blockchain ni mazoezi ya kufuatilia mtiririko wa bitcoins kwenye mnyororo wa block. Kwa ujumla, Chain analysis (uchambuzi wa mnyororo) unategemea uchunguzi wa sifa katika sampuli za miamala ya awali. Kisha unahusisha kutambua sifa hizo hizo kwenye muamala tunaotaka kuchanganua, na kupata tafsiri zinazokubalika kutoka kwayo. Njia hii ya kutatua matatizo, kulingana na mbinu ya vitendo ya kupata suluhisho linalokubalika vya kutosha, inajulikana kama Legacy (Urithi).
+Uchunguzi wa Blockchain ni mazoezi ya kufuatilia mtiririko wa bitcoins kwenye mnyororo wa block. Kwa ujumla, [chain analysis](https://planb.academy/resources/glossary/chain-analysis) (uchambuzi wa mnyororo) unategemea uchunguzi wa sifa katika sampuli za miamala ya awali. Kisha unahusisha kutambua sifa hizo hizo kwenye muamala tunaotaka kuchanganua, na kupata tafsiri zinazokubalika kutoka kwayo. Njia hii ya kutatua matatizo, kulingana na mbinu ya vitendo ya kupata suluhisho linalokubalika vya kutosha, inajulikana kama Legacy (Urithi).
 
 Kwa maneno ya watu wa kawaida, kuna hatua tatu kuu katika Chainalysis (uchambuzi wa mnyororo):
 1. **Kuchunguza Kuzuia mnyororo ;**
@@ -309,9 +309,9 @@ Kwa maneno ya watu wa kawaida, kuna hatua tatu kuu katika Chainalysis (uchambuzi
 
 ![BTC204](assets/sw/026.webp)
 
-Uchambuzi wa blockchain unaweza kufanywa na mtu yeyote. Unachohitaji ni kufikia maelezo ya umma ya blockchain kupitia nodi kamili ili kuona mienendo ya muamala na kufanya dhahania. Pia kuna zana zisizolipishwa zinazowezesha uchanganuzi huu, kama vile [OXT.me](https://oxt.me/), ambazo tutachunguza kwa kina katika sura mbili za mwisho za sehemu hii. Hata hivyo, hatari kuu ya usiri hutoka kwa makampuni maalumu katika **Chain analysis**. Kampuni hizi zimechukua uchanganuzi wa blockchain kwa kiwango cha viwanda na kuuza huduma zao kwa taasisi za kifedha na serikali. Miongoni mwa makampuni haya, **Chain analysis** ni hakika inayojulikana zaidi.
+Uchambuzi wa blockchain unaweza kufanywa na mtu yeyote. Unachohitaji ni kufikia maelezo ya umma ya blockchain kupitia nodi kamili ili kuona mienendo ya muamala na kufanya dhahania. Pia kuna zana zisizolipishwa zinazowezesha uchanganuzi huu, kama vile [OXT.me](https://oxt.me/), ambazo tutachunguza kwa kina katika sura mbili za mwisho za sehemu hii. Hata hivyo, hatari kuu ya usiri hutoka kwa makampuni maalumu katika **[chain analysis](https://planb.academy/resources/glossary/chain-analysis)**. Kampuni hizi zimechukua uchanganuzi wa blockchain kwa kiwango cha viwanda na kuuza huduma zao kwa taasisi za kifedha na serikali. Miongoni mwa makampuni haya, **Chain analysis** ni hakika inayojulikana zaidi.
 
-### Malengo ya Chain analysis (uchambuzi wa mnyororo)
+### Malengo ya [chain analysis](https://planb.academy/resources/glossary/chain-analysis) (uchambuzi wa mnyororo)
 
 Mojawapo ya malengo ya uchambuzi wa mnyororo ni kuunganisha pamoja miamala mbalimbali kwenye Bitcoin ili kubaini upekee wa mtumiaji aliyeitekeleza. Baadaye, huenda ikawa rahisi kujaribu kuihusisha kundi hili la miamala na utambulisho wa kweli.
 
@@ -331,7 +331,7 @@ Maeneo haya ya kuingia kwa hakika hayawezi kuepukika unapotumia Bitcoin. Ingawa 
 
 ![BTC204](assets/sw/029.webp)
 
-### Kujilinda dhidi ya Chain analysis 
+### Kujilinda dhidi ya [chain analysis](https://planb.academy/resources/glossary/chain-analysis) 
 
 Kwa hivyo tunahitaji pia kuweza kukabiliana na uchanganuzi wa blockchain katika matumizi yetu ya Bitcoin. Kwa kufanya hivyo, tunaweza kupunguza ujumlisho wa shughuli zetu na kupunguza athari za mahali pa kuingilia kwenye faragha yetu.
 
@@ -340,7 +340,7 @@ Kwa hivyo tunahitaji pia kuweza kukabiliana na uchanganuzi wa blockchain katika 
 Ni njia gani bora ya kukabiliana na uchambuzi wa blockchain kuliko kujifunza kuhusu mbinu zinazotumiwa ndani yake? Ikiwa ungependa kujua jinsi ya kuboresha faragha yako kwenye Bitcoin, unahitaji kuelewa mbinu hizi. Hii itakupa ufahamu bora wa mbinu kama vile Coinjoin  au Payjoin (mbinu tutakazoangalia katika sehemu za mwisho za kozi), na kupunguza makosa ambayo unaweza kufanya.
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
-https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
 Katika hili, tunaweza kuchora mlinganisho na cryptography na cryptanalysis. Mwandishi mzuri wa kriptografia kwanza kabisa ni cryptanalyst mzuri. Ili kuunda algorithm mpya ya usimbuaji, unahitaji kujua ni mashambulizi gani ambayo itakabili, na pia usome kwa nini algorithmu ya hapo awali imevunjwa. Kanuni hiyo hiyo inatumika kwa faragha ya Bitcoin. Kuelewa mbinu za uchambuzi wa blockchain ndio ufunguo wa kulinda dhidi yao. Ndiyo maana nimejumuisha uchanganuzi wa sehemu nzima ya onchain katika kozi hii ya mafunzo.
 
 ### Mbinu za Chainalysis 
@@ -356,9 +356,9 @@ Heuristics hizi maarufu zinaweza kugawanywa katika vikundi tofauti, ambavyo tuta
 - **Muamala wa ndani heuristics ;**
 - **Legacy nje ya muamala.**
 
-### Satoshi Nakamoto na Chain analysis 
+### Satoshi Nakamoto na [chain analysis](https://planb.academy/resources/glossary/chain-analysis) 
 
-Heuristics mbili za kwanza za Chain analysis ziligunduliwa na Satoshi Nakamoto mwenyewe. Anazizungumzia katika Sehemu ya 10 ya Karatasi Nyeupe ya Bitcoin. Zifuatazo ni:
+Heuristics mbili za kwanza za [chain analysis](https://planb.academy/resources/glossary/chain-analysis) ziligunduliwa na Satoshi Nakamoto mwenyewe. Anazizungumzia katika Sehemu ya 10 ya Karatasi Nyeupe ya Bitcoin. Zifuatazo ni:
 
 - cIOH (*Ingizo la Kawaida Ownership Heuristic*);
 - na kutumia tena Anwani (address).
@@ -456,7 +456,7 @@ Kwa mfano, hapa kuna muamala wa Bitcoin ambao unachukua muundo wa ujumuishaji:
 
 Chanzo : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b1a7368631caed515fe51b081d220590589e94)
 
-Katika uchanganuzi wa mnyororo (chain analysis), mtindo huu unaweza kufunua habari nyingi. Kwa mfano, ikiwa tunajua kuwa moja ya pembejeo ni ya Alice, tunaweza kudhani kuwa ingizo zingine zote na matokeo ya muamala huu pia ni yake. Dhana hii basi ingewezesha kurejea msururu wa miamala ya awali ili kugundua na kuchanganua miamala mingine inayoweza kuhusishwa na Alice.
+Katika uchanganuzi wa mnyororo ([chain analysis](https://planb.academy/resources/glossary/chain-analysis)), mtindo huu unaweza kufunua habari nyingi. Kwa mfano, ikiwa tunajua kuwa moja ya pembejeo ni ya Alice, tunaweza kudhani kuwa ingizo zingine zote na matokeo ya muamala huu pia ni yake. Dhana hii basi ingewezesha kurejea msururu wa miamala ya awali ili kugundua na kuchanganua miamala mingine inayoweza kuhusishwa na Alice.
 
 ![BTC204](assets/sw/039.webp)
 
@@ -558,7 +558,7 @@ Chanzo : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Kwa mwisho, tunaweza kuona kwamba pembejeo hakuna. 0 na pato nambari. 1 tumia hati za P2WPKH (SegWit V0), wakati pato nambari. 0 hutumia hati tofauti ya P2PKH Legacy.
 
-Mapema katika miaka ya 2010, heuristics hii inayotegemea matoleo ya script haikuwa na msaada mkubwa kutokana na aina chache za script zilizokuwepo. Hata hivyo, kadri muda ulivyopita na masasisho mfululizo ya Bitcoin yalivyotekelezwa, utofauti wa aina za script umeongezeka. Kwa hivyo, heuristics hii inazidi kuwa muhimu, kwani kadri aina za script zinavyoongezeka, watumiaji wanagawanyika katika makundi madogo zaidi, jambo linaloongeza uwezekano wa kutumia heuristics hii ya ndani ya kutumia tena toleo la script.Kwa sababu hii, kwa mtazamo wa faragha pekee, inashauriwa kuchagua aina ya script inayotumika sana. Kwa mfano, ninapoandika mistari hii, script za Taproot (`bc1p`) zinatumika kwa nadra zaidi kuliko script za SegWit V0 (`bc1q`). Ingawa za kwanza hutoa faida za kiuchumi na faragha katika hali mahususi, kwa matumizi ya kawaida ya saini moja, huenda ikaeleweka zaidi kushikilia kiwango cha zamani kwa sababu za faragha, hadi kiwango kipya kitapokubalika zaidi.
+Mapema katika miaka ya 2010, heuristics hii inayotegemea matoleo ya script haikuwa na msaada mkubwa kutokana na aina chache za script zilizokuwepo. Hata hivyo, kadri muda ulivyopita na masasisho mfululizo ya Bitcoin yalivyotekelezwa, utofauti wa aina za script umeongezeka. Kwa hivyo, heuristics hii inazidi kuwa muhimu, kwani kadri aina za script zinavyoongezeka, watumiaji wanagawanyika katika makundi madogo zaidi, jambo linaloongeza uwezekano wa kutumia heuristics hii ya ndani ya kutumia tena toleo la script.Kwa sababu hii, kwa mtazamo wa faragha pekee, inashauriwa kuchagua aina ya script inayotumika sana. Kwa mfano, ninapoandika mistari hii, script za [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) zinatumika kwa nadra zaidi kuliko script za SegWit V0 (`bc1q`). Ingawa za kwanza hutoa faida za kiuchumi na faragha katika hali mahususi, kwa matumizi ya kawaida ya saini moja, huenda ikaeleweka zaidi kushikilia kiwango cha zamani kwa sababu za faragha, hadi kiwango kipya kitapokubalika zaidi.
 
 
 ### Malipo ya nambari ya pande zote
@@ -672,7 +672,7 @@ Heuristi ya Umiliki wa Pamoja wa Ingizo (*Common Input Ownership Heuristic – C
 
 ![BTC204](assets/sw/058.webp)
 
-Ili kutumia CIOH, tunaanza kwa kuchunguza muamala wenye ingizo zaidi ya moja. Hii inaweza kuwa ingizo 2 au hata 30. Mara sifa hii inapobainika, tunakagua kama muamala huo unalingana na muundo wa muamala unaojulikana. Kwa mfano, ikiwa kuna ingizo 5 zenye kiasi kinachokaribiana na toleo 5 zenye kiasi sawa kabisa, tutajua kuwa huu ni muundo wa coinjoin. Hivyo basi, hatutaweza kutumia CIOH.
+Ili kutumia CIOH, tunaanza kwa kuchunguza muamala wenye ingizo zaidi ya moja. Hii inaweza kuwa ingizo 2 au hata 30. Mara sifa hii inapobainika, tunakagua kama muamala huo unalingana na muundo wa muamala unaojulikana. Kwa mfano, ikiwa kuna ingizo 5 zenye kiasi kinachokaribiana na toleo 5 zenye kiasi sawa kabisa, tutajua kuwa huu ni muundo wa [coinjoin](https://planb.academy/resources/glossary/coinjoin). Hivyo basi, hatutaweza kutumia CIOH.
 
 ![BTC204](assets/sw/059.webp)
 
@@ -1037,7 +1037,7 @@ wallet ya Samourai) ;
 
 <partId>9bd04b63-f1af-4e50-9061-6bc90009df68</partId>
 
-## kutumia tena address (address reuse)
+## kutumia tena address ([address reuse](https://planb.academy/resources/glossary/address-reuse))
 
 <chapterId>f3e97645-3df3-41bc-a4ed-d2c740113d96</chapterId>
 

@@ -1,0 +1,8 @@
+question: Mikä estää käyttäjiä luomasta rahaa tyhjästä Elements:n Confidential Transactions-järjestelmässä?
+answer: Alueen todistukset, jotka todistavat matemaattisesti, että piilotetut arvot ovat positiivisia kokonaislukuja kelvollisten alueiden sisällä
+wrong_answers:
+  - Pedersen Maksusitoumukset, joissa transaktiosummat sidotaan kryptografisesti julkisiin avaimiin
+  - Vararekisterin validointi, joka tarkistaa kaikkien tapahtumien summat rekisteröityjen varallisuusrajojen perusteella
+  - Federoidut konsensussolmut, jotka purkavat ja tarkistavat kaikki luottamukselliset transaktiomäärät
+explanation: |
+  Range Proofs on erityinen kryptografinen mekanismi, joka estää käyttäjiä hyödyntämästä luottamuksellista transaktiojärjestelmää käyttämällä negatiivisia lukuja tai virheellisiä summia luodakseen rahaa tyhjästä. Pedersen Commitments piilottaa todelliset summat, mutta Range Proofs varmistaa matemaattisen eheyden todistamalla, että piilotetut arvot kuuluvat laillisiin arvoväleihin. Vararekisteri vain kuvaa omaisuuserien tunnukset ihmisten luettaviksi nimiksi eikä validoi määriä, eivätkä federoidut solmut purkaa luottamuksellisten transaktioiden salausta - ne varmentavat ne näkemättä todellisia arvoja.

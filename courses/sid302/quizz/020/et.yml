@@ -1,0 +1,8 @@
+question: Mis juhtub võrgu konfiguratsiooniga Liquid dünaamilise föderatsiooni (Dynafed) üleminekuprotsessi ajal, kui funktsionäär tuleb välja vahetada?
+answer: Võrk edastab üleminekutehingu, millele järgneb kahenädalane kattumisperiood enne uue konfiguratsiooni ülevõtmist
+wrong_answers:
+  - Pärast üleminekutehingu edastamist lülitub võrk kohe uuele funktsionaalsele konfiguratsioonile
+  - Kõik funktsionärid peavad samaaegselt hääletama asendamise heakskiitmise poolt enne mis tahes konfiguratsioonimuudatuste tegemist
+  - Võrk nõuab kõva fork ja ajutist väljalülitamist, et ajakohastada funktsioonide loetelu ja taaskäivitada toimingud
+explanation: |
+  Dünaamiline föderatsioon võimaldab Liquid-l areneda ilma raskete hargnemiseta hoolikalt korraldatud üleminekuprotsessi kaudu. Kui funktsioonide asendamine on vajalik, edastab võrk üleminekutehingu, mis annab märku eelseisvast muutusest. Sellele järgneb kohustuslik kahenädalane kattumisperiood, mil nii vana kui ka uus konfiguratsioon eksisteerivad koos, tagades sujuva järjepidevuse. Teised võimalused on valed, sest vahetu üleminekuga kaasneks võrgu ebastabiilsuse oht, samaaegne hääletamine ei ole kasutatav mehhanism ja Dynafedi eesmärk on just vältida kõvade hargnemiste tekkimist (hard forks).

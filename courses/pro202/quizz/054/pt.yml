@@ -1,0 +1,8 @@
+question: No processo de handshake da rede P2P do Bitcoin, que condição específica tem de ser cumprida para que dois nós possam começar a transmitir ativamente inventários e dados de transacções?
+answer: Os dois nós devem trocar mensagens de versão e verack entre si
+wrong_answers:
+  - O nó de ligação deve receber a confirmação do DNS seed dos programadores de base
+  - "Ambos os nós devem verificar a altura do bloco e o hash da ponta da cadeia um do outro"
+  - "O nó recetor tem de validar o certificado de ligação do nó de ligação"
+explanation: |
+  O aperto de mão Bitcoin P2P requer uma troca bidirecional em que o nó de ligação envia uma mensagem de versão, o recetor responde com verack e a sua própria mensagem de versão e o remetente original responde com o seu verack. Só após esta troca completa de quatro mensagens (versão→verack+versão→verack) é que os nós podem iniciar a comunicação ativa. As sementes DNS são usadas apenas para a descoberta inicial de pares, não para o handshaking. O Bitcoin não utiliza certificados e a validação da cadeia ocorre após o estabelecimento da ligação.

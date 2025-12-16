@@ -1,0 +1,8 @@
+question: Mis takistab kasutajatel Elements' Confidential Transactions süsteemis õhust raha luua?
+answer: Vahemiku tõestused, mis matemaatiliselt tõestavad, et varjatud väärtused on positiivsed täisarvud kehtivate vahemike piires
+wrong_answers:
+  - Pedersen Kohustused, mis seovad krüptograafiliselt tehingusummad avalike võtmetega
+  - Vararegistri valideerimine, mis kontrollib kõiki tehingusummasid registreeritud varade piirmäärade suhtes
+  - Föderaalsed konsensussõlmed, mis dekrüpteerivad ja kontrollivad kõiki konfidentsiaalseid tehingusummasid
+explanation: |
+  Range Proofs on konkreetne krüptograafiline mehhanism, mis takistab kasutajatel kasutada ära konfidentsiaalset tehingusüsteemi, kasutades negatiivseid numbreid või kehtetuid summasid, et luua raha tühjalt kohalt. Kui Pedersen Commitments varjab tegelikke summasid, siis Range Proofs tagab matemaatilise terviklikkuse, tõestades, et varjatud väärtused jäävad seaduslikesse vahemikesse. Vararegister kaardistab ainult varade ID-d inimloetavatele nimedele ja ei valideeri summasid ning föderaalsed sõlmed ei dekrüpteeri konfidentsiaalseid tehinguid - nad kontrollivad neid, ilma et näeksid tegelikke väärtusi.

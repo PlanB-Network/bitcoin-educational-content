@@ -1,0 +1,8 @@
+question: Tên gọi của dạng biểu diễn Bitcoin được sử dụng trong Liquid Network là gì?
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - Bitcoin được bọc (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - Federated Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC) là tên gọi chính xác của Bitcoin khi nó tồn tại trên chuỗi phụ Liquid. Khi người dùng chuyển đổi Bitcoin của họ sang Liquid, họ sẽ nhận được một lượng LBTC tương đương có thể được sử dụng cho các giao dịch trong Liquid Network. WBTC là Bitcoin token dựa trên Ethereum, trong khi SBTC và FBTC không phải là các đại diện Bitcoin thực sự được sử dụng trong bất kỳ mạng lưới lớn nào.

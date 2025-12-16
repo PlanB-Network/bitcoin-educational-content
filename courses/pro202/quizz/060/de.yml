@@ -1,0 +1,8 @@
+question: Welcher spezifische Mechanismus stellt sicher, dass Knoten vor SegWit P2WPKH-Transaktionen als gültig akzeptieren, ohne die Regeln für die Zeugenvalidierung zu verstehen?
+answer: Vor-SegWit-Knoten interpretieren das OP_0 + 20-Byte-Hash-Skript als "anyone-can-spend"-Ausgabe, die keine Signaturprüfung erfordert
+wrong_answers:
+  - Pre-SegWit-Knoten leiten P2WPKH-Transaktionen automatisch an aktualisierte Knoten zur Zeugenprüfung weiter, bevor sie akzeptiert werden
+  - Pre-SegWit-Knoten erkennen das P2WPKH-Muster und überspringen die Validierung vollständig, indem sie alle Zeugen-Transaktionen als vorvalidiert behandeln
+  - Pre-SegWit-Knoten konvertieren die Zeugnisdaten unter Verwendung von Abwärtskompatibilitätsregeln zurück in das traditionelle scriptSig-Format
+explanation: |
+  Die Genialität des SegWit-Designs liegt in der Ausnutzung der Art und Weise, wie Knoten vor SegWit mit unbekannten Skriptmustern umgehen. Wenn diese älteren Knoten auf ein P2WPKH-Skript stoßen (OP_0 gefolgt von einem 20-Byte-Push), erkennen sie es nicht als spezielles Zeugenprogramm. Stattdessen werten sie es als ein Standard-Skript aus, das OP_0 und den Hash auf dem Stack hinterlässt. Da OP_0 im Bitcoin-Skriptsystem als "false" ausgewertet wird, interpretieren die SegWit-Knoten dies als eine "anyone-can-spend"-Bedingung, was bedeutet, dass aus ihrer Sicht keine Signaturprüfung erforderlich ist. Dadurch kann die Transaktion in ihren Mempool und in ihre Blöcke aufgenommen werden, ohne den Konsens zu brechen, während SegWit-fähige Knoten die eigentliche kryptografische Validierung unter Verwendung der Zeugen-Daten durchführen.

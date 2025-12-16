@@ -1,0 +1,8 @@
+question: Nini hutokea wakati ubadilishaji wa nyambizi ya nyuma unaposhindwa au wakati unapoisha katika usanifu wa Breez SDK?
+answer: SDK huunda na kutangaza kiotomatiki muamala wa kurejeshewa pesa ili kurudisha pesa kwa wallet ya mtumiaji.
+wrong_answers:
+  - Mtoa huduma wa kubadilisha huanzisha mchakato wa kurejesha unaohitaji uingiliaji kati wa mtumiaji ndani ya saa 24
+  - Fedha hubaki zimefungwa kabisa hadi muunganisho wa Lightning Network utakaporejeshwa
+  - Mtumiaji lazima awasiliane na usaidizi wa Boltz ili kuanzisha muamala wa federated peg-out mwenyewe
+explanation: |
+  SDK ya Breez hutekeleza Usimamizi wa Marejesho Kiotomatiki kama utaratibu muhimu wa usalama. Wakati ubadilishaji unaposhindwa au muda wake unapoisha, SDK hufuatilia hali zote za ubadilishaji na hushughulikia kiotomatiki mchakato wa urejeshaji bila kuingilia kati kwa mtumiaji. Hii huondoa ugumu wa mikataba iliyofungwa kwa muda na kuhakikisha fedha hazipotei kabisa. Chaguzi zingine si sahihi kwa sababu zinahitaji uingiliaji kati wa mikono, kudhani upotevu wa kudumu wa mfuko, au kuhusisha michakato ambayo haipo katika mfumo otomatiki.

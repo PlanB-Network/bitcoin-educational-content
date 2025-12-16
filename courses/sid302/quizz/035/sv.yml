@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med trestegsprocessen Connect, Prepare och Execute i Breez SDK:s utvecklargränssnitt?
+answer: Att standardisera komplexa finansiella flöden genom att synkronisera plånböcker, beräkna alla avgifter i förväg och sedan konstruera transaktioner
+wrong_answers:
+  - För att upprätta redundanta backup-anslutningar över flera swap-leverantörer innan några atomära operationer initieras
+  - Att skapa separata kryptografiska signaturer för varje nätverk som är involverat i submarina swapptransaktioner mellan kedjor
+  - För att validera betalningsbilder mot tidslåsta kontrakt innan medel frigörs från spärrmekanismer
+explanation: |
+  Connect-, Prepare- och Execute-mönstret förenklar utvecklingen genom att dela upp komplexa operationer i hanterbara steg: Connect initierar plånböcker och upprättar övervakningsanslutningar, Prepare beräknar och visar alla kostnader på ett transparent sätt för användarna och Execute hanterar den faktiska transaktionen och sändningen. Denna standardisering abstraherar bort den underliggande komplexiteten i ubåtsbyten och kedjeöverskridande operationer, vilket gör det enklare för utvecklare att integrera Bitcoin-funktionalitet utan att hantera detaljer på låg nivå.

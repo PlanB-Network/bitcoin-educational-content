@@ -1,0 +1,8 @@
+question: Trong ngăn xếp chứng thực của giao dịch P2WSH cho chữ ký đa chữ ký 2 trên 3, tại sao phải có một phần tử trống ở cuối ngăn xếp chứng thực?
+answer: Để bù đắp cho lỗi lệch một đơn vị của CHECKMULTISIG, lỗi này tiêu tốn thêm một phần tử ngăn xếp trong quá trình thực thi.
+wrong_answers:
+  - "Để cung cấp một vị trí giữ chỗ cho chữ ký thứ ba không được sử dụng trong quá trình xác thực đa chữ ký 2/3."
+  - Để tách dữ liệu chữ ký khỏi kịch bản chứng thực nhằm phân tích cú pháp xác thực SegWit đúng cách.
+  - Để đảm bảo ngăn xếp chứng cứ có số lượng phần tử chẵn nhằm xây dựng cây Merkle hiệu quả.
+explanation: |
+  Lệnh CHECKMULTISIG có một lỗi cũ khiến nó lấy thêm một phần tử khỏi ngăn xếp vượt quá số lượng cần thiết. Điều này ảnh hưởng đến tất cả các giao dịch đa chữ ký, bao gồm cả P2WSH. Phần tử rỗng bù đắp cho lỗi này, đảm bảo các phần tử còn lại trong ngăn xếp (chữ ký và kịch bản chứng thực) được định vị đúng cách để xác thực. Các tùy chọn khác không chính xác: chữ ký không sử dụng không được biểu thị bằng phần tử rỗng, việc phân tích chứng thực không yêu cầu các phần tử phân tách, và ngăn xếp chứng thực không cần số lượng phần tử chẵn cho các phép toán Merkle.

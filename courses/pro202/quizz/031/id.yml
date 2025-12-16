@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada bidang ScriptSig dari semua input selama proses konstruksi sighash untuk verifikasi tanda tangan ECDSA lama?
+answer: Semua bidang ScriptSig dikosongkan, lalu ScriptSig input saat ini diganti dengan ScriptPubKey yang sesuai
+wrong_answers:
+  - Semua bidang ScriptSig tetap tidak berubah dan disertakan dalam bentuk aslinya dalam perhitungan sighash
+  - "Hanya ScriptSig dari input saat ini yang disimpan, sementara semua bidang ScriptSig dari input lainnya akan dihapus dari transaksi"
+  - Semua bidang ScriptSig diganti dengan nilai ScriptPubKey yang sesuai dari output yang direferensikan
+explanation: |
+  Selama konstruksi sighash untuk transaksi lama, proses ini secara khusus mengosongkan semua bidang ScriptSig terlebih dahulu, kemudian hanya mengganti input saat ini yang sedang divalidasi dengan ScriptPubKey yang sesuai dari output yang dibelanjakan. Hal ini memastikan tanda tangan berkomitmen pada kondisi pengeluaran tanpa membuat ketergantungan melingkar di mana tanda tangan harus menandatangani dirinya sendiri. Opsi lain tidak benar karena mereka membiarkan tanda tangan tetap di tempatnya (menciptakan ketidakmungkinan logis) atau memodifikasi semua input secara seragam (yang tidak akan mengisolasi konteks validasi input saat ini dengan benar).

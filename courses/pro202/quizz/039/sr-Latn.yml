@@ -1,0 +1,8 @@
+question: Koji je primarni bezbednosni rizik koji čini da se P2SH suštinski razlikuje od standardnih Bitcoin transakcija u smislu povraćaja sredstava?
+answer: Gubljenje redeem skripte trajno zaključava sredstva čak i ako imate privatne ključeve
+wrong_answers:
+  - 20-bajtni heš može biti probijen grubom silom ako je skripta za otkup previše jednostavna
+  - P2SH adrese ističu nakon određenog broja blokova, čineći sredstva neobnovljivim.
+  - Proces dvostepene validacije može nasumično propasti uzrokujući trajni gubitak sredstava
+explanation: |
+  P2SH uvodi jedinstven sigurnosni zahtev: i privatni ključevi I skripta za otkup su neophodni za trošenje sredstava. Za razliku od standardnih transakcija gde su potrebni samo privatni ključevi, P2SH zahteva da se stvarna skripta za otkup obezbedi tokom trošenja. Ako se skripta za otkup izgubi, sredstva postaju trajno nedostupna bez obzira na to što imate ispravne privatne ključeve, jer se uslovi trošenja ne mogu rekonstruisati ili validirati.

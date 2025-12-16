@@ -1,0 +1,8 @@
+question: Co určuje výši transakčního poplatku u transakce Bitcoin během procesu výstavby?
+answer: Rozdíl mezi celkovou hodnotou všech vstupů a celkovou hodnotou všech výstupů
+wrong_answers:
+  - Pevné procento z celkové hodnoty transakce vypočtené síťovým protokolem
+  - Velikost transakce v bajtech vynásobená standardní sazbou stanovenou těžaři
+  - Počet požadovaných podpisů na všech vstupech plus základní síťový poplatek
+explanation: |
+  Poplatky za transakce Bitcoin jsou určeny rozdílem mezi celkovými vstupy a celkovými výstupy. Při sestavování transakce vyberete UTXO jako vstupy a vytvoříte výstupy pro příjemce a změnu. Jakákoli zbývající částka se stává poplatkem, který motivuje těžaře k zařazení vaší transakce. Poplatek se nepočítá podle procent, pevných sazeb ani počtu podpisů - je to prostě to, co zůstane nepřiděleno v zůstatku hodnoty transakce.

@@ -793,10 +793,45 @@ Si vous êtes une entreprise ou un commerçant, cette approche permet d’obteni
 
 Il existe de nombreuses méthodes pour acheter de la liquidité entrante. Celle que j’utilise personnellement et que je vous recommande est la plateforme [Magma](https://magma.amboss.tech/) d’Amboss. Son utilisation est très simple, l’ouverture de canal est rapide et les tarifs sont généralement raisonnables. Magma fonctionne comme une place de marché avec des makers et des takers, mais sa version 2 a grandement simplifié l’expérience : il suffit de créer une demande, de payer le prix via Lightning, et Magma se charge automatiquement de la faire correspondre avec la meilleure offre disponible. Après six confirmations onchain, votre canal avec liquidité entrante est opérationnel. Voici comment procéder.
 
+Rendez-vous sur [le site de Magma](https://magma.amboss.tech/buy), dans la section `Buy Channels`.
 
+052
 
+Si vous le souhaitez, vous pouvez créer un compte afin de suivre vos différents achats, mais ce n’est pas obligatoire. Si vous ne créez pas de compte, Magma vous fournira simplement un identifiant de session, qui vous permettra de retrouver vos achats ultérieurement.
 
+Une fois sur le site, renseignez les informations nécessaires à l’achat de liquidité. Sélectionnez `One Time` pour un achat ponctuel, puis indiquez le montant que vous êtes prêt à payer pour obtenir de la liquidité entrante. Plus le montant payé est élevé, plus le canal ouvert vers votre nœud aura une grande capacité. Une estimation de la capacité du canal apparaît en dessous : il s’agit d’une approximation, car le montant final dépendra de la meilleure offre trouvée par Magma, qui est parfois supérieure, parfois inférieure.
 
+053
+
+Renseignez ensuite l’identifiant de votre nœud. Vous pouvez le retrouver dans le menu `Node ID` de l’application `Lightning Node` sur Umbrel.
+
+054
+
+Une fois toutes les informations complétées, cliquez sur le bouton `Review & open order`.
+
+055
+
+Si vous n’avez pas créé de compte, Magma vous fournit une clé de session ainsi qu’un fichier de sauvegarde. Conservez soigneusement ces deux éléments, car ils vous permettront de retrouver cette commande ultérieurement ou de suivre son état en cas de problème. Une fois la sauvegarde effectuée, cliquez sur le bouton `Pay with Lightning`.
+
+056
+
+Magma génère alors une invoice Lightning correspondant au montant que vous avez choisi. Vous devez la payer. Si vous disposez déjà de canaux sur votre nœud Lightning, vous pouvez la payer directement depuis celui-ci, ou utiliser un autre portefeuille Lightning externe.
+
+057
+
+Une fois le paiement effectué, la transaction apparaît comme en cours de traitement dans l’interface Magma.
+
+058
+
+Après quelques minutes, la demande est traitée : un canal avec des sats est en cours d’ouverture vers votre nœud Lightning. Une fois la transaction d’ouverture confirmée onchain, vous disposerez de la liquidité entrante correspondante.
+
+059
+
+Magma est également intégré directement dans ThunderHub. Dans l’onglet `Home`, descendez jusqu’à la section `Liquidity` et cliquez sur `Buy Inbound Liquidity`. Il vous suffira alors d’indiquer le montant souhaité et de confirmer. Aucune invoice n’est à payer manuellement, car ThunderHub se charge automatiquement du paiement depuis votre nœud.
+
+060
+
+Si vous êtes commerçant, ce type de service est particulièrement adapté, car il permet d’obtenir rapidement une quantité importante de liquidité entrante depuis des nœuds fiables, ce qui garantit que vos clients pourront vous payer sans difficulté. En revanche, si vous êtes un particulier ou si vous ne souhaitez pas payer pour disposer de liquidité entrante, il existe également des solutions gratuites. Voyons cela ensemble.
 
 ### Obtenir de la liquidité entrante par coopération
 
@@ -818,6 +853,66 @@ Bien entendu, il n’existe aucun mécanisme technique garantissant qu’un part
 
 Cette solution est particulièrement adaptée à un profil de "consommateur", car elle permet d’obtenir gratuitement de la liquidité entrante, tout en connectant son nœud à d’autres petits opérateurs. En revanche, si vous êtes commerçant, cette approche n’est généralement pas pertinente : chaque sat de liquidité entrante nécessite de bloquer un sat de liquidité sortante, et vos besoins importants en liquidité entrante impliqueraient alors une immobilisation de capital trop élevée.
 
+Pour utiliser Lightning Network +, deux options s’offrent à vous : soit passer par l’application intégrée à Umbrel, soit utiliser le site web classique et créer un compte en vous connectant depuis votre nœud. Je vous recommande cette seconde solution, car l’application intégrée ne propose pas l’ensemble des fonctionnalités disponibles.
+
+Rendez-vous sur le site de [Lightning Network +](https://lightningnetwork.plus/) et cliquez sur le bouton `Login` en haut à droite de l’interface.
+
+061
+
+Pour vous authentifier, vous devez signer le message fourni à l’aide de la clé privée de votre nœud Lightning. Avec ThunderHub, cette opération est très simple. Commencez par copier le message affiché par LN+.
+
+062
+
+Dans ThunderHub, allez dans l’onglet `Tools`, puis cliquez sur le bouton `Sign` dans la section `Messages`.
+
+063
+
+Collez le message d’authentification fourni par LN+, puis cliquez sur `Sign`.
+
+064
+
+ThunderHub signe alors ce message à l’aide de la clé privée de votre nœud. Copiez la signature générée.
+
+065
+
+Collez cette signature dans le champ correspondant sur le site LN+, puis cliquez sur `Sign in`.
+
+066
+
+Vous êtes maintenant connecté à LN+ avec votre nœud Lightning. Ce processus permet à LN+ de vérifier que vous êtes bien le propriétaire légitime du nœud que vous revendiquez sur leur plateforme.
+
+067
+
+Si vous le souhaitez, vous pouvez personnaliser votre profil LN+, par exemple en ajoutant une courte biographie.
+
+Pour participer à votre première ouverture de canaux circulaire, rendez-vous dans le menu `Swaps` en haut de l’interface. Vous y trouverez l’ensemble des swaps actuellement disponibles en fonction des caractéristiques de votre nœud.
+
+068
+
+Pour rejoindre une offre de swap existante, il suffit de cliquer dessus puis de s’inscrire. Toutefois, sur LN+, le créateur d’un swap peut imposer certaines conditions aux participants, notamment un nombre minimal de canaux ou une capacité totale minimale du nœud. Il est donc possible, surtout au début, que peu d’offres soient accessibles à votre nœud. Dans mon cas, malgré quelques canaux déjà ouverts, aucune offre n’était disponible pour mon nœud. J’ai donc créé mon propre swap, et vous pouvez faire de même si vous êtes dans la même situation.
+
+Cliquez sur `Start Liquidity Swap`, puis renseignez les paramètres de votre offre :
+- Choisissez le nombre total de participants (3, 4 ou 5) ;
+- Indiquez le montant des canaux à ouvrir (assurez-vous de disposer au minimum de cette somme sur votre portefeuille onchain) ;
+- Définissez la durée d’ouverture des canaux. Cela correspond à la période durant laquelle les participants s’engagent à ne pas les fermer ;
+- Sur la droite, vous pouvez fixer des restrictions pour les participants : nombre minimal de canaux, capacité totale minimale et type de connexion acceptée.
+
+Une fois tous les paramètres définis, cliquez sur le bouton `Start Liquidity Swap`.
+
+069
+
+Votre offre de swap est maintenant créée. Il ne reste plus qu’à attendre que d’autres opérateurs de nœuds s’y inscrivent. Si vos conditions ne sont pas trop restrictives, cela ne devrait pas prendre trop de temps. Pensez à surveiller l’état de votre swap dans les heures ou les jours suivants.
+
+070
+
+Toutes les places du swap ont été prises : nous passons désormais à la phase d’ouverture des canaux. Chaque participant peut voir, depuis son interface LN+, vers quel nœud il doit ouvrir un canal Lightning. De votre côté, ouvrez le canal en utilisant le Node ID fourni par LN+ et en respectant le montant indiqué.
+
+071
+
+
+
+
+
 
 
 
@@ -831,7 +926,36 @@ Cette solution est particulièrement adaptée à un profil de "consommateur", ca
 
 
 
-## Connecter un portefeuille mobile
+## Connecter un portefeuille mobile via Tailscale
+
+Ça y est, vous disposez désormais d’un nœud Lightning bien connecté, avec à la fois de la liquidité entrante et sortante. Tout est donc prêt pour utiliser votre nœud Lightning dans la vie réelle. Jusqu’ici, nous avons toujours utilisé directement des interfaces sur Umbrel, que ce soit celle de l’application `Lightning Node` ou l’interface `ThunderHub`. Ces outils fonctionnent bien pour envoyer et recevoir des paiements, mais ils ne sont clairement pas optimisés pour des paiements Lightning du quotidien. L’interface est pensée pour un usage sur ordinateur, peu pratique sur smartphone, et nécessite en plus d’être connecté au même réseau pour fonctionner correctement (même s’il est techniquement possible de s’y connecter à distance via Tor).
+
+Dans la pratique, ce que nous recherchons en tant que bitcoiner, c’est une interface de wallet Lightning classique sur smartphone : la possibilité de scanner des invoices via QR code, et une interface simple pour payer et recevoir des sats. C’est précisément ce que nous allons mettre en place dans ce chapitre et le suivant.
+
+L’idée générale est d’avoir sur votre smartphone une application de wallet Lightning mobile, utilisable depuis n’importe où (pas uniquement depuis votre réseau local) mais qui, en arrière-plan, s’appuie sur votre propre nœud Lightning pour envoyer et recevoir des paiements.
+
+Aujourd’hui, il existe plusieurs manières de procéder, tant du côté de l’application mobile que du type de connexion entre votre nœud et cette application. Les trois principaux modes de connexion sont :
+- via Tor ;
+- via un VPN Tailscale ;
+- via Nostr Wallet Connect.
+
+Il y a quelques années, j’utilisais une connexion via Tor, mais j’ai rapidement arrêté : le nombre d’échecs et les délais de communication étaient beaucoup trop importants. En théorie, cela fonctionne, mais en pratique, l’expérience utilisateur était catastrophique. Je vous déconseille donc cette approche.
+
+L’alternative que j’ai ensuite adoptée consiste à utiliser un VPN Tailscale pour assurer la communication entre l’application mobile et le nœud. Cette solution fonctionne très bien : même sur des réseaux mobiles avec peu de débit, mes paiements sont toujours passés sans difficulté. C’est donc cette méthode que je vais vous présenter en premier dans ce chapitre, avec l’application Zeus.
+
+Dans le chapitre suivant, nous verrons une autre solution plus récente, qui fonctionne elle aussi très bien : Nostr Wallet Connect. Nous utiliserons cette fois l’application Alby Go afin de vous présenter une alternative, même si Zeus est également compatible avec NWC si vous le souhaitez.
+
+
+
+
+
+
+
+
+
+
+## Connecter un portefeuille mobile via NWC
+
 
 
 
@@ -840,7 +964,11 @@ Cette solution est particulièrement adaptée à un profil de "consommateur", ca
 ## Gérer les frais et le routage
 
 
+
+
 ## Naviguer dans le réseau Lightning
+
+
 
 
 ### Visualiser sa position (LNVisualizer)

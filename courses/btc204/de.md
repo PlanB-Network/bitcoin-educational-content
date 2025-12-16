@@ -85,7 +85,7 @@ Bereit, die Tiefen der Privatsphäre bei Bitcoin zu erkunden? Los geht's!
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Das UTXO-Modell von Bitcoin
+## Das [UTXO](https://planb.academy/resources/glossary/utxo)-Modell von Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -351,7 +351,7 @@ Wie kann man der Blockchain-Analyse besser begegnen, als wenn man die dabei verw
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Hier können wir eine Analogie zur Kryptographie und Kryptoanalyse ziehen. Ein guter Kryptograph ist in erster Linie ein guter Kryptoanalytiker. Um einen neuen Verschlüsselungsalgorithmus zu entwickeln, muss man wissen, welchen Angriffen er ausgesetzt sein wird, und auch untersuchen, warum frühere Algorithmen gebrochen wurden. Das gleiche Prinzip gilt für die Bitcoin-Privatsphäre. Das Verständnis der Blockchain-Analysemethoden ist der Schlüssel zum Schutz vor ihnen. Deshalb habe ich einen ganzen Abschnitt über die Blockchain-Analyse in diesen Kurs aufgenommen.
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Auf letzterem ist zu sehen, dass Eingang Nr. 0 und Ausgang Nr. 1 P2WPKH-Skripte (SegWit V0) verwenden, während Ausgang Nr. 0 ein anderes P2PKH-Skript (Legacy) verwendet.
 
-In den frühen 2010er Jahren war diese Heuristik, die auf der Skriptversionierung basierte, aufgrund der begrenzten Anzahl der verfügbaren Skripttypen relativ wenig hilfreich. Im Laufe der Zeit und mit aufeinanderfolgenden Bitcoin-Updates wurde jedoch eine zunehmende Vielfalt an Skripttypen eingeführt. Diese Heuristik wird daher immer relevanter, da sich die Nutzer mit einer größeren Bandbreite an Skripttypen in kleinere Gruppen aufteilen, was die Chancen erhöht, diese interne Heuristik zur Wiederverwendung von Versionen anzuwenden. Aus diesem Grund ist es allein schon aus Gründen der Vertraulichkeit ratsam, sich für den am häufigsten verwendeten Skripttyp zu entscheiden. Während ich diese Zeilen schreibe, werden beispielsweise Taproot-Skripte (`bc1p`) weniger häufig verwendet als SegWit V0-Skripte (`bc1q`). Obwohl erstere in bestimmten Kontexten wirtschaftliche und Vertraulichkeitsvorteile bieten, kann es für traditionellere Anwendungen mit nur einer Unterschrift sinnvoll sein, aus Vertraulichkeitsgründen bei einem älteren Standard zu bleiben, bis sich der neue Standard weiter durchgesetzt hat.
+In den frühen 2010er Jahren war diese Heuristik, die auf der Skriptversionierung basierte, aufgrund der begrenzten Anzahl der verfügbaren Skripttypen relativ wenig hilfreich. Im Laufe der Zeit und mit aufeinanderfolgenden Bitcoin-Updates wurde jedoch eine zunehmende Vielfalt an Skripttypen eingeführt. Diese Heuristik wird daher immer relevanter, da sich die Nutzer mit einer größeren Bandbreite an Skripttypen in kleinere Gruppen aufteilen, was die Chancen erhöht, diese interne Heuristik zur Wiederverwendung von Versionen anzuwenden. Aus diesem Grund ist es allein schon aus Gründen der Vertraulichkeit ratsam, sich für den am häufigsten verwendeten Skripttyp zu entscheiden. Während ich diese Zeilen schreibe, werden beispielsweise [Taproot](https://planb.academy/resources/glossary/taproot)-Skripte (`bc1p`) weniger häufig verwendet als SegWit V0-Skripte (`bc1q`). Obwohl erstere in bestimmten Kontexten wirtschaftliche und Vertraulichkeitsvorteile bieten, kann es für traditionellere Anwendungen mit nur einer Unterschrift sinnvoll sein, aus Vertraulichkeitsgründen bei einem älteren Standard zu bleiben, bis sich der neue Standard weiter durchgesetzt hat.
 
 ### Zahlungen mit runden Zahlen
 
@@ -1605,9 +1605,9 @@ Vergessen Sie auf keinen Fall, dass jede Konsolidierung unweigerlich einen Verlu
 
 Werfen wir einen Blick auf ein paar andere bewährte Praktiken zur Optimierung Ihrer Privatsphäre auf Bitcoin.
 
-### Die Full Node
+### Die [full node](https://planb.academy/resources/glossary/full-node)
 
-Der Besitz Ihrer Bitcoins in Selbstverwahrung ist großartig, aber die Verwendung Ihres eigenen Full Node ist noch besser! Hier erfahren Sie, warum ein eigener Node für die souveräne Nutzung von Bitcoin entscheidend ist:
+Der Besitz Ihrer Bitcoins in Selbstverwahrung ist großartig, aber die Verwendung Ihres eigenen [full node](https://planb.academy/resources/glossary/full-node) ist noch besser! Hier erfahren Sie, warum ein eigener Node für die souveräne Nutzung von Bitcoin entscheidend ist:
 
 
 - **Widerstandsfähigkeit gegen Zensur**: Ihre Transaktionen können von niemandem blockiert werden;

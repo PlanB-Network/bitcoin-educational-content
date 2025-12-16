@@ -635,7 +635,7 @@ En slik tilnærming sikrer at du ikke setter den økonomiske velferden din på s
 ![image](assets/nb-NO/023.webp)
 
 
-Når budsjettet ditt er definert, kan du tenke på hvordan du vil investere. En av de mest nybegynnervennlige og anbefalte metodene er Dollar Cost Averaging (DCA), der du kjøper en fast mengde Bitcoin med jevne mellomrom (ukentlig, månedlig osv.). Denne strategien bidrar til å jevne ut den gjennomsnittlige inngangsprisen over tid og reduserer den følelsesmessige effekten av prissvingninger. Det er en smart tilnærming for de fleste, spesielt nykommere.
+Når budsjettet ditt er definert, kan du tenke på hvordan du vil investere. En av de mest nybegynnervennlige og anbefalte metodene er [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), der du kjøper en fast mengde Bitcoin med jevne mellomrom (ukentlig, månedlig osv.). Denne strategien bidrar til å jevne ut den gjennomsnittlige inngangsprisen over tid og reduserer den følelsesmessige effekten av prissvingninger. Det er en smart tilnærming for de fleste, spesielt nykommere.
 
 
 Så spør deg selv: Hva er tidshorisonten min?
@@ -1007,7 +1007,7 @@ Selv om denne tilnærmingen er mer teknisk, gir den de mest krevende brukerne mu
 #### En motstandsdyktig betalingsmetode på tvers av landegrensene
 
 
-På grunn av sin desentraliserte natur fungerer Bitcoin døgnet rundt, uavhengig av landegrenser eller tidssoner. I regioner der tradisjonell bankinfrastruktur mangler, brukes Bitcoin ofte som en rask og rimelig løsning for å sende eller motta penger uten å være avhengig av dyre mellomledd. Selv om transaksjonsgebyrene kan variere avhengig av overbelastning i nettverket, er de generelt mye lavere enn gebyrene bankene tar for internasjonale overføringer. I tillegg gir Layer-2-løsninger som Lightning Network mulighet for enda raskere og billigere Bitcoin-transaksjoner.
+På grunn av sin desentraliserte natur fungerer Bitcoin døgnet rundt, uavhengig av landegrenser eller tidssoner. I regioner der tradisjonell bankinfrastruktur mangler, brukes Bitcoin ofte som en rask og rimelig løsning for å sende eller motta penger uten å være avhengig av dyre mellomledd. Selv om transaksjonsgebyrene kan variere avhengig av overbelastning i nettverket, er de generelt mye lavere enn gebyrene bankene tar for internasjonale overføringer. I tillegg gir Layer-2-løsninger som [Lightning Network](https://planb.academy/resources/glossary/lightning-network) mulighet for enda raskere og billigere Bitcoin-transaksjoner.
 
 
 #### Et verdioppbevaringsmiddel
@@ -1429,7 +1429,7 @@ Børsene spiller en viktig rolle i Bitcoin-økosystemet, og fungerer som broer m
 - enkelt, gratis uttak av bitcoins til en personlig Wallet.
 
 
-Børsene som overholder lokale forskrifter, må vanligvis følge strenge **"Know Your Customer"** (KYC)-protokoller, som krever at brukerne fremlegger identifikasjonsdokumenter før de får tilgang til tjenestene. Selv om disse prosessene er utformet for å forhindre ulovlig aktivitet, kan de gå på bekostning av personvernet som Bitcoin i seg selv tilbyr.
+Børsene som overholder lokale forskrifter, må vanligvis følge strenge **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC)-protokoller, som krever at brukerne fremlegger identifikasjonsdokumenter før de får tilgang til tjenestene. Selv om disse prosessene er utformet for å forhindre ulovlig aktivitet, kan de gå på bekostning av personvernet som Bitcoin i seg selv tilbyr.
 
 
 ![image](assets/nb-NO/058.webp)
@@ -1538,7 +1538,7 @@ Bitcoin Wallet-bransjen er delt inn i flere kategorier, som hver for seg dekker 
 
 
 
-- **Produsenter av Hardware Wallet**: Disse selskapene utvikler fysiske enheter for sikker lagring av nøkler. Noen har åpen kildekode, mens andre tilbyr proprietære løsninger med varierende funksjoner og sikkerhetsnivåer. Blant kjente navn finner vi Ledger, Trezor, Coinkite, Foundation og Shiftcrypto.
+- **Produsenter av [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Disse selskapene utvikler fysiske enheter for sikker lagring av nøkler. Noen har åpen kildekode, mens andre tilbyr proprietære løsninger med varierende funksjoner og sikkerhetsnivåer. Blant kjente navn finner vi Ledger, Trezor, Coinkite, Foundation og Shiftcrypto.
 - **Software Wallet Utviklere**: Dette er alt fra selskaper til uavhengige utviklere som lager mobil- og skrivebordsapplikasjoner. Tilbudene deres varierer når det gjelder brukeropplevelse, sikkerhet og funksjoner. Eksempler inkluderer Sparrow, Wizard Sardine, Galoy, Synonym og Blockstream.
 - DIY-lommebøker (*Do It Yourself*): Disse åpen kildekode-løsningene er utviklet for avanserte brukere som ønsker full kontroll og minimal avhengighet av tredjeparter. Ved å bygge din egen Wallet reduserer du avhengigheten av tredjeparter og kan øke sikkerheten din. Blant de mest kjente alternativene er Seedsigner og Specter DIY.
 

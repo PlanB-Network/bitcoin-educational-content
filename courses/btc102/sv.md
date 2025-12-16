@@ -669,7 +669,7 @@ Framför allt ska du aldrig investera mer än du har råd att förlora. Undvik a
 ### Hantering och säkring av din Bitcoin Wallet
 
 
-En av Bitcoin:s mest kraftfulla (och ofta underskattade) funktioner är **self-custody**. Med en självhostad Wallet är du ensam ansvarig för dina medel. Dessa plånböcker genereras vanligtvis från en **återvinningsfras** (även känd som en seed-fras), en serie med 12 eller 24 ord som ger full tillgång till din BTC. Om du förlorar den här frasen (eller om någon annan får tag på den) är dina bitcoins borta för gott. ** Ingen kundsupport. Ingen återställningsknapp.**
+En av Bitcoin:s mest kraftfulla (och ofta underskattade) funktioner är **[self-custody](https://planb.academy/resources/glossary/selfcustody)**. Med en självhostad Wallet är du ensam ansvarig för dina medel. Dessa plånböcker genereras vanligtvis från en **återvinningsfras** (även känd som en seed-fras), en serie med 12 eller 24 ord som ger full tillgång till din BTC. Om du förlorar den här frasen (eller om någon annan får tag på den) är dina bitcoins borta för gott. ** Ingen kundsupport. Ingen återställningsknapp.**
 
 
 ![image](assets/sv/025.webp)
@@ -1008,7 +1008,7 @@ Bitcoin gör det möjligt för vem som helst att kontrollera riktigheten i Block
 #### En motståndskraftig, gränsöverskridande betalningsmetod
 
 
-På grund av sin decentraliserade natur fungerar Bitcoin dygnet runt, oberoende av gränser eller tidszoner. I regioner där traditionell bankinfrastruktur saknas används Bitcoin ofta som en snabb och billig lösning för att skicka eller ta emot pengar utan att förlita sig på dyra mellanhänder. Även om transaktionsavgifterna kan variera beroende på överbelastning i nätverket är de i allmänhet mycket lägre än de avgifter som bankerna tar ut för internationella överföringar. Layer-2-lösningar som Lightning Network möjliggör dessutom ännu snabbare och billigare Bitcoin-transaktioner.
+På grund av sin decentraliserade natur fungerar Bitcoin dygnet runt, oberoende av gränser eller tidszoner. I regioner där traditionell bankinfrastruktur saknas används Bitcoin ofta som en snabb och billig lösning för att skicka eller ta emot pengar utan att förlita sig på dyra mellanhänder. Även om transaktionsavgifterna kan variera beroende på överbelastning i nätverket är de i allmänhet mycket lägre än de avgifter som bankerna tar ut för internationella överföringar. Layer-2-lösningar som [Lightning Network](https://planb.academy/resources/glossary/lightning-network) möjliggör dessutom ännu snabbare och billigare Bitcoin-transaktioner.
 
 
 #### En värdebevarare
@@ -1430,7 +1430,7 @@ Utbyten spelar en kritisk roll i Bitcoin-ekosystemet och fungerar som broar mell
 - enkelt, gratis uttag av bitcoins till en personlig Wallet.
 
 
-Börser som följer lokala bestämmelser måste vanligtvis följa strikta **"Know Your Customer"** (KYC)-protokoll, vilket kräver att användare tillhandahåller identitetshandlingar innan de får tillgång till tjänster. Även om dessa processer är utformade för att förhindra olaglig aktivitet kan de äventyra den integritet som Bitcoin i sig erbjuder.
+Börser som följer lokala bestämmelser måste vanligtvis följa strikta **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC)-protokoll, vilket kräver att användare tillhandahåller identitetshandlingar innan de får tillgång till tjänster. Även om dessa processer är utformade för att förhindra olaglig aktivitet kan de äventyra den integritet som Bitcoin i sig erbjuder.
 
 
 ![image](assets/sv/058.webp)
@@ -1539,7 +1539,7 @@ Bitcoin Wallet-branschen är indelad i flera kategorier, som var och en tillgodo
 
 
 
-- **Hardware Wallet Tillverkare**: Dessa företag utvecklar fysiska enheter som är utformade för säker lagring av nycklar. Vissa har öppen källkod, medan andra erbjuder proprietära lösningar med varierande funktioner och säkerhetsnivåer. Anmärkningsvärda namn inkluderar Ledger, Trezor, Coinkite, Foundation och Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Tillverkare**: Dessa företag utvecklar fysiska enheter som är utformade för säker lagring av nycklar. Vissa har öppen källkod, medan andra erbjuder proprietära lösningar med varierande funktioner och säkerhetsnivåer. Anmärkningsvärda namn inkluderar Ledger, Trezor, Coinkite, Foundation och Shiftcrypto.
 - **Software Wallet-utvecklare**: Dessa omfattar allt från företag till oberoende utvecklare som skapar mobila och stationära applikationer. Deras erbjudanden varierar i användarupplevelse, säkerhet och funktioner. Exempel på detta är Sparrow, Wizard Sardine, Galoy, Synonym och Blockstream.
 - DIY (*Do It Yourself*)-plånböcker: Dessa lösningar med öppen källkod är utformade för avancerade användare som vill ha full kontroll och minimalt beroende av tredje part. Att bygga din egen Wallet minskar förtroendeberoenden och kan öka din säkerhetsställning. Anmärkningsvärda DIY-alternativ inkluderar Seedsigner och Specter DIY.
 

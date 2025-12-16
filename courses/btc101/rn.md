@@ -1002,7 +1002,7 @@ Ubu ko twamaze kumenya ivy’ishimikiro vy’amasakoshi ya Bitcoin n’ingene tw
 ![image](assets/rn/038.webp)
 
 
-Mukwicenda, 31 2008 niho havuka ubuhinga bushasha bw'ivy'ubutunzi ari bwo Bitcoin. Kuri uwo musi, uwiyoberanije Satoshi Nakamoto yeretse isi ubuhinga bwiwe bushasha biciye ku butumwa bwo kuri email yarungikiye umugwi witwa cypherpunks, umuryango w’abakunda ubuhinga bwo gukingira amakuru y’ibanga, wiyemeje kumenyekanisha ubuzima bw'ibanga kuri internet. Iyi email yarimwo inyandiko yitwa "White Paper", yerekana ingene Bitcoin ikora.
+Mukwicenda, 31 2008 niho havuka ubuhinga bushasha bw'ivy'ubutunzi ari bwo Bitcoin. Kuri uwo musi, uwiyoberanije Satoshi Nakamoto yeretse isi ubuhinga bwiwe bushasha biciye ku butumwa bwo kuri email yarungikiye umugwi witwa cypherpunks, umuryango w’abakunda ubuhinga bwo gukingira amakuru y’ibanga, wiyemeje kumenyekanisha ubuzima bw'ibanga kuri internet. Iyi email yarimwo inyandiko yitwa "[White Paper](https://planb.academy/resources/glossary/white-paper)", yerekana ingene Bitcoin ikora.
 
 
 Uno mugambi ntiwaciye ugirako utera amatsiko, bishoboka kuba vyavuye kukwanka kw'umugambi wokugerageza gushiraho ubuhinga bwo gukoresha amahera yo kubuhinga bwa none. Naho biri ukwo, ino white paper yarahejeje iba igitabu barabirako abakoresha Bitcoin kandi yarabaye inkuru y'ibiganiro vyinshi vya bitcoin imyaka myinshi. 
@@ -1112,7 +1112,7 @@ Kuri iyi ntambwe, irungika n'irungikwa ryarashizweho hama ingodo ya Bob irayisab
 Kurino ntambwe, naho biba biciye mwirungika n'irungikwa bizwi naburimuntu wese (biciye ku gikoresho citwa Mempool), ntishobora gufatwa nk’iyemejwe gushika yinjijwe mumuryango n'abacukuzi, basanzwe aribo bonyene bemeza irungika n'irungikwa mukurishira muri Blockchain.
 
 
-Ariko, abacukuzi barafise uruhara rwo gushira hamwe irungika n'irungikwa y'ayemejwe n n'ayatwemejwe mugushikiriza hamwe mumuryango. Mu majambo make, bategerezwa gutorera inyishu agakino k'ubuhinga bw'inyandiko z'ibanga mu buryo bwitwa "Proof of Work" kugira ngo uwomuryango ube uwukwirikira muri Bitcoin Blockchain.
+Ariko, abacukuzi barafise uruhara rwo gushira hamwe irungika n'irungikwa y'ayemejwe n n'ayatwemejwe mugushikiriza hamwe mumuryango. Mu majambo make, bategerezwa gutorera inyishu agakino k'ubuhinga bw'inyandiko z'ibanga mu buryo bwitwa "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" kugira ngo uwomuryango ube uwukwirikira muri Bitcoin Blockchain.
 
 
 ![image](assets/rn/047.webp)
@@ -1121,7 +1121,7 @@ Ariko, abacukuzi barafise uruhara rwo gushira hamwe irungika n'irungikwa y'ayeme
 ### Intambwe ya 3: Ihanahanwa riracukurwa mumuryango n'aacukuzi.
 
 
-Uburyo bwa Proof of Work busaba kurondera "Hash" ibereye kumuryango ukwenewe: wiyumvire nk'ikimenyetso c'urutoke kidasanzwe kirikumwe n'umuryango, gifise indome 256. Ukwemeza kw'iyi Hash buvana n’urugero umuryango wa bitcoin ugoye (tuzovyinjiramwo vyimbitse hanyuma).  Fata y'uko abacukuzi baronse umuryango wemewe, hama irungika rya Bob kwa Alice ririmwo murivyo. Hanyuma, umuryango mushasha wemewe urongerwa kuri Blockchain, igitabo rusangi c'abakoresha Bitcoin bose.
+Uburyo bwa [proof of work](https://planb.academy/resources/glossary/proof-of-work) busaba kurondera "Hash" ibereye kumuryango ukwenewe: wiyumvire nk'ikimenyetso c'urutoke kidasanzwe kirikumwe n'umuryango, gifise indome 256. Ukwemeza kw'iyi Hash buvana n’urugero umuryango wa bitcoin ugoye (tuzovyinjiramwo vyimbitse hanyuma).  Fata y'uko abacukuzi baronse umuryango wemewe, hama irungika rya Bob kwa Alice ririmwo murivyo. Hanyuma, umuryango mushasha wemewe urongerwa kuri Blockchain, igitabo rusangi c'abakoresha Bitcoin bose.
 
 
 ![image](assets/rn/048.webp)
@@ -1235,16 +1235,16 @@ Inyuma y’iyo ntsinzi, amapfundo yarashize ahabona ubuhinga bushasha bwitwa Seg
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Abacukuzi bakingira urubuga bongerako irungikwa n'iyakira kuma blocs. Bakoresha umuyagankuba biciye mu mashini za ASIC kugira ngo bashobore gutorera inyishu ikibazo ca Bitcoin Proof of Work.**
+**Abacukuzi bakingira urubuga bongerako irungikwa n'iyakira kuma blocs. Bakoresha umuyagankuba biciye mu mashini za [ASIC](https://planb.academy/resources/glossary/asic) kugira ngo bashobore gutorera inyishu ikibazo ca Bitcoin [proof of work](https://planb.academy/resources/glossary/proof-of-work).**
 
 
 ![image](assets/rn/054.webp)
 
 
-### Insiguro ya Proof of Work
+### Insiguro ya [proof of work](https://planb.academy/resources/glossary/proof-of-work)
 
 
-"Proof of Work" (POW) ni uburyo bwo kwumvikana ku bijanye n'umutekano bw'amasezerano ya Bitcoin. Ni umushinge w'ibintu vyose kandi ufise uruhara runini mu vyiyumviro vy'agakino ka Bitcoin.
+"[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) ni uburyo bwo kwumvikana ku bijanye n'umutekano bw'amasezerano ya Bitcoin. Ni umushinge w'ibintu vyose kandi ufise uruhara runini mu vyiyumviro vy'agakino ka Bitcoin.
 
 
 Mugusigura ingene bigenda, niwiyumvire urukino rw'amahirwe rwo kw’isi yose aho umuntu wese ashobora kugira uruharamwo. Intumbero nigutora igiharuro c'umwihariko gishobora uwutsinza atera igikumu kuriblock ifise akamaro, akaronka agashirukabute k'ama Bitcoin. Ikigiharuro kiroroshe cane gusuzuma ukoresheje igikorwa ca SHA-256 Hash, ariko biragoye kuronka: abitabira (abacukuzi) bazogerageza amahirwe amamiliyaridi ku miliyaridi, nka 1, 52, 2648, 26874615, 15344854131313 , n'ibindi n'ibindi gushika bavumbuye iyukuri.
@@ -1285,7 +1285,7 @@ Hashrate y’uruzitiro rwa Bitcoin igereranya nigiharuro cokugerageza biba ku se
 Umutwe wa block urimwo ibintu vyinsi nk'igihe, intumbero y’ingorane, igitigiri ca block yanyuma, umuce w'izakoreshejwe, hamwe n'umuzi wa Merkle w'irungika n'irungikwa y'ibiheruka.
 
 
-**irungika n'irungikwa rya Coinbase** ryama ariryo rungika n'irungikwa ryambere riri muri block: ririmwo ubushirukabute bw'abacukuzi mukuronka proof of work. Hanyuma hakaza kwemeza irungikan'irungikwa. Abacukuzi bazohitamwo kwinjiza irungika n'irungikwa ribaha uburusho bwinshi, ni ukuvuga amarungika n'irungikwa mato mato afise ipembo nyinshi.
+**irungika n'irungikwa rya Coinbase** ryama ariryo rungika n'irungikwa ryambere riri muri block: ririmwo ubushirukabute bw'abacukuzi mukuronka [proof of work](https://planb.academy/resources/glossary/proof-of-work). Hanyuma hakaza kwemeza irungikan'irungikwa. Abacukuzi bazohitamwo kwinjiza irungika n'irungikwa ribaha uburusho bwinshi, ni ukuvuga amarungika n'irungikwa mato mato afise ipembo nyinshi.
 
 
 ### indishi y'abacukuzi

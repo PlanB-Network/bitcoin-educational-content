@@ -71,7 +71,7 @@ Celem tego szkolenia nie jest zapewnienie całkowitej anonimowości podczas korz
 **Sekcja 1: Definicje i kluczowe pojęcia**
 
 
-Na początek dokonamy przeglądu podstawowych zasad rządzących działaniem Bitcoin, abyśmy mogli następnie spokojnie zająć się pojęciami związanymi z poufnością. Konieczne jest opanowanie kilku podstawowych pojęć, takich jak UTXO, odbieranie adresów i skryptów, zanim będzie można w pełni zrozumieć koncepcje, które omówimy w kolejnych sekcjach. Przedstawimy również ogólny model poufności Bitcoin, zgodnie z wyobrażeniami Satoshi Nakamoto, co pozwoli nam zrozumieć związane z nim stawki i ryzyko.
+Na początek dokonamy przeglądu podstawowych zasad rządzących działaniem Bitcoin, abyśmy mogli następnie spokojnie zająć się pojęciami związanymi z poufnością. Konieczne jest opanowanie kilku podstawowych pojęć, takich jak [UTXO](https://planb.academy/resources/glossary/utxo), odbieranie adresów i skryptów, zanim będzie można w pełni zrozumieć koncepcje, które omówimy w kolejnych sekcjach. Przedstawimy również ogólny model poufności Bitcoin, zgodnie z wyobrażeniami Satoshi Nakamoto, co pozwoli nam zrozumieć związane z nim stawki i ryzyko.
 
 
 ![BTC204](assets/pl/001.webp)
@@ -98,7 +98,7 @@ W trzeciej części naszego szkolenia przechodzimy do sedna: praktyki! Celem jes
 **Sekcja 4: Zrozumienie transakcji CoinJoin**
 
 
-Jak możemy mówić o prywatności w Bitcoin nie wspominając o coinjoinach? W sekcji 4 dowiesz się wszystkiego, co musisz wiedzieć o tej metodzie mieszania. Dowiesz się, czym są coinjoiny, poznasz ich historię i cele, a także różne rodzaje CoinJoin, które istnieją. Wreszcie, dla bardziej doświadczonych użytkowników, przyjrzymy się, czym są anonsety i entropia oraz jak je obliczyć.
+Jak możemy mówić o prywatności w Bitcoin nie wspominając o [coinjoin](https://planb.academy/resources/glossary/coinjoin)ach? W sekcji 4 dowiesz się wszystkiego, co musisz wiedzieć o tej metodzie mieszania. Dowiesz się, czym są coinjoiny, poznasz ich historię i cele, a także różne rodzaje CoinJoin, które istnieją. Wreszcie, dla bardziej doświadczonych użytkowników, przyjrzymy się, czym są anonsety i entropia oraz jak je obliczyć.
 
 
 ![BTC204](assets/pl/004.webp)
@@ -502,7 +502,7 @@ Czy jest lepszy sposób na przeciwdziałanie analizie Blockchain niż poznanie m
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 W tym przypadku możemy wyciągnąć analogię z kryptografią i kryptoanalizą. Dobry kryptograf jest przede wszystkim dobrym kryptoanalitykiem. Aby opracować nowy algorytm szyfrowania, trzeba wiedzieć, z jakimi atakami będzie musiał się zmierzyć, a także zbadać, dlaczego poprzednie algorytmy zostały złamane. Ta sama zasada dotyczy prywatności Bitcoin. Zrozumienie metod analizy Blockchain jest kluczem do ochrony przed nimi. Właśnie dlatego w tym szkoleniu zawarłem całą sekcję poświęconą analizie on chain.
 
@@ -822,7 +822,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 Na tym ostatnim widzimy, że wejście nr 0 i wyjście nr 1 wykorzystują skrypty P2WPKH (SegWit V0), podczas gdy wyjście nr 0 wykorzystuje inny skrypt P2PKH (Legacy).
 
 
-Na początku 2010 roku ta heurystyka oparta na wersjonowaniu skryptów była stosunkowo mało przydatna ze względu na ograniczoną liczbę dostępnych typów skryptów. Jednak wraz z upływem czasu i kolejnymi aktualizacjami Bitcoin wprowadzono coraz większą różnorodność typów skryptów. Ta heurystyka staje się zatem coraz bardziej istotna, ponieważ przy szerszym zakresie typów skryptów użytkownicy dzielą się na mniejsze grupy, zwiększając w ten sposób szanse na zastosowanie tej wewnętrznej heurystyki ponownego użycia wersjonowania. Z tego powodu, wyłącznie z perspektywy poufności, zaleca się wybranie najpopularniejszego typu skryptu. Na przykład, w chwili gdy piszę te słowa, skrypty Taproot (`bc1p`) są rzadziej używane niż skrypty SegWit V0 (`bc1q`). Chociaż te pierwsze oferują korzyści ekonomiczne i poufność w pewnych określonych kontekstach, w przypadku bardziej tradycyjnych zastosowań z pojedynczym podpisem może być sensowne trzymanie się starszego standardu ze względu na poufność, dopóki nowy standard nie zostanie szerzej przyjęty.
+Na początku 2010 roku ta heurystyka oparta na wersjonowaniu skryptów była stosunkowo mało przydatna ze względu na ograniczoną liczbę dostępnych typów skryptów. Jednak wraz z upływem czasu i kolejnymi aktualizacjami Bitcoin wprowadzono coraz większą różnorodność typów skryptów. Ta heurystyka staje się zatem coraz bardziej istotna, ponieważ przy szerszym zakresie typów skryptów użytkownicy dzielą się na mniejsze grupy, zwiększając w ten sposób szanse na zastosowanie tej wewnętrznej heurystyki ponownego użycia wersjonowania. Z tego powodu, wyłącznie z perspektywy poufności, zaleca się wybranie najpopularniejszego typu skryptu. Na przykład, w chwili gdy piszę te słowa, skrypty [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) są rzadziej używane niż skrypty SegWit V0 (`bc1q`). Chociaż te pierwsze oferują korzyści ekonomiczne i poufność w pewnych określonych kontekstach, w przypadku bardziej tradycyjnych zastosowań z pojedynczym podpisem może być sensowne trzymanie się starszego standardu ze względu na poufność, dopóki nowy standard nie zostanie szerzej przyjęty.
 
 
 ### Płatności w zaokrągleniu

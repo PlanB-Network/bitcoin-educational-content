@@ -29,7 +29,7 @@ Benvenuto nel corso BTC101!
 
 Bitcoin è una rivoluzione tecnologica e monetaria, capace di farci mettere in discussione il nostro rapporto con il denaro e la società. Bitcoin (indicato come BTC) è infatti una moneta **neutrale** e **decentralizzata**, cioè non controllata da alcuna entità o istituzione. È un'innovazione che va oltre la semplice "moneta di internet": è sia un protocollo informatico (Bitcoin) che un'unità monetaria (bitcoin).
 
-Il protocollo utilizza tecnologie sottostanti come la crittografia, la comunicazione in rete e la famosa "blockchain", mentre l'unità bitcoin rappresenta la valuta necessaria per il corretto funzionamento di questo protocollo. Nella vita di tutti i giorni, i salvadoregni e i bitcoiner di tutto il mondo utilizzano la valuta bitcoin per acquistare e vendere beni e servizi, affidandosi a questa tecnologia per migliorare la propria vita.
+Il protocollo utilizza tecnologie sottostanti come la crittografia, la comunicazione in rete e la famosa "[blockchain](https://planb.academy/resources/glossary/blockchain)", mentre l'unità bitcoin rappresenta la valuta necessaria per il corretto funzionamento di questo protocollo. Nella vita di tutti i giorni, i salvadoregni e i bitcoiner di tutto il mondo utilizzano la valuta bitcoin per acquistare e vendere beni e servizi, affidandosi a questa tecnologia per migliorare la propria vita.
 
 **Un programma di studi completo ma accessibile:**
 
@@ -127,7 +127,7 @@ La figura sotto illustra chiaramente lo sviluppo del movimento attraverso le sue
 
 ![image](assets/it/005.webp)
 
-È in questo ambiente fertile che il misterioso Satoshi Nakamoto pubblicò il whitepaper di Bitcoin nel 2008. Nel documento combina diverse idee del movimento cypherpunk, come la proof of work e i timestamp crittografici, per creare una valuta digitale decentralizzata e resistente alla censura.
+È in questo ambiente fertile che il misterioso Satoshi Nakamoto pubblicò il whitepaper di Bitcoin nel 2008. Nel documento combina diverse idee del movimento cypherpunk, come la [proof of work](https://planb.academy/resources/glossary/proof-of-work) e i timestamp crittografici, per creare una valuta digitale decentralizzata e resistente alla censura.
 
 Bitcoin è comunque più di questo: rappresenta la realizzazione degli ideali cypherpunk. Al di là della sua tecnologia, simboleggia una rivoluzione contro i sistemi finanziari tradizionali e offre un'alternativa basata su trasparenza, decentralizzazione e sovranità individuale.
 
@@ -370,7 +370,7 @@ La creazione di nuovi bitcoin è il risultato del processo di mining. In poche p
 
 ![image](assets/it/022.webp)
 
-Dopo aver svolto con successo questo compito, i miner vengono ricompensati con l'emissione di nuovi bitcoin ogni dieci minuti. Questa ricompensa è programmata per dimezzarsi ogni 210.000 blocchi, cioè circa ogni quattro anni (un evento noto come "halving"), dando alla curva di emissione monetaria una forma a scala. Grazie a questo meccanismo si può prevedere matematicamente che la creazione di nuovi bitcoin cesserà entro l'anno 2140, quando il numero totale raggiungerà il limite di 21 milioni.
+Dopo aver svolto con successo questo compito, i miner vengono ricompensati con l'emissione di nuovi bitcoin ogni dieci minuti. Questa ricompensa è programmata per dimezzarsi ogni 210.000 blocchi, cioè circa ogni quattro anni (un evento noto come "[halving](https://planb.academy/resources/glossary/halving)"), dando alla curva di emissione monetaria una forma a scala. Grazie a questo meccanismo si può prevedere matematicamente che la creazione di nuovi bitcoin cesserà entro l'anno 2140, quando il numero totale raggiungerà il limite di 21 milioni.
 
 | Numero di halving | Altezza del blocco | Ricompensa in BTC dopo l'halving | Stima dei BTC in circolazione dopo l'halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -679,7 +679,7 @@ Dopo aver trattato le basi dei wallet Bitcoin e le migliori pratiche per garanti
 
 ![image](assets/it/038.webp)
 
-Il 31 ottobre 2008 segna la nascita della nuova tecnologia finanziaria conosciuta come Bitcoin. In questo giorno l'anonimo Satoshi Nakamoto presentò al mondo la sua innovazione, attraverso una e-mail inviata alla mailing list dei cypherpunks, una comunità di appassionati di crittografia dedicata alla promozione della privacy su Internet. Questa e-mail conteneva un documento chiamato "White Paper", che presentava il funzionamento di Bitcoin.
+Il 31 ottobre 2008 segna la nascita della nuova tecnologia finanziaria conosciuta come Bitcoin. In questo giorno l'anonimo Satoshi Nakamoto presentò al mondo la sua innovazione, attraverso una e-mail inviata alla mailing list dei cypherpunks, una comunità di appassionati di crittografia dedicata alla promozione della privacy su Internet. Questa e-mail conteneva un documento chiamato "[White Paper](https://planb.academy/resources/glossary/white-paper)", che presentava il funzionamento di Bitcoin.
 
 Immediatamente l'iniziativa non ha suscitato entusiasmo, probabilmente a causa dei precedenti tentativi di creare un sistema di moneta digitale, poi falliti. Ciononostante il White Paper è diventato un punto di riferimento per gli utenti Bitcoin ed è stato oggetto di molti dibattiti nell'ecosistema nel corso degli anni.
 
@@ -835,7 +835,7 @@ In seguito a questa vittoria, i nodi hanno attivato un aggiornamento chiamato Se
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**I miner proteggono la rete e aggiungono blocchi transazioni alla blockchain. Utilizzano l'elettricità per alimentare macchine ASIC, le quali risolvono la proof-of-work di Bitcoin.**
+**I miner proteggono la rete e aggiungono blocchi transazioni alla blockchain. Utilizzano l'elettricità per alimentare macchine [ASIC](https://planb.academy/resources/glossary/asic), le quali risolvono la proof-of-work di Bitcoin.**
 
 ![image](assets/it/054.webp)
 

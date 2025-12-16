@@ -40,7 +40,7 @@ Witamy w kursie BTC101!
 Bitcoin to rewolucja technologiczna i monetarna, która może sprawić, że zakwestionujemy nasze relacje z pieniędzmi i społeczeństwem. W rzeczywistości Bitcoin (określany jako BTC) jest **neutralną** i **zdecentralizowaną** walutą, co oznacza, że nie jest kontrolowany przez żaden podmiot ani instytucję. Jest to innowacja, która wykracza poza zwykłą "walutę internetową": jest to zarówno protokół komputerowy (Bitcoin), jak i jednostka monetarna (bitcoin).
 
 
-Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny "blockchain", podczas gdy jednostka bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
+Protokół Bitcoin wykorzystuje podstawowe technologie, takie jak kryptografia, komunikacja sieciowa i słynny "[blockchain](https://planb.academy/resources/glossary/blockchain)", podczas gdy jednostka bitcoin służy jako waluta niezbędna do prawidłowego funkcjonowania tego protokołu. W życiu codziennym Salwadorczycy i bitcoinerzy na całym świecie używają waluty bitcoin do kupowania i sprzedawania towarów i usług, polegając na tej technologii, aby uczynić swoje życie lepszym.
 
 
 **Kompleksowy, ale przystępny program nauczania:**
@@ -190,7 +190,7 @@ Poniższy obrazek wyraźnie ilustruje rozwój ruchu poprzez liczne innowacje tec
 ![image](assets/en/005.webp)
 
 
-To właśnie w tym żyznym środowisku tajemniczy Satoshi Nakamoto opublikował białą księgę Bitcoin w 2008 roku. W dokumencie tym połączył kilka pomysłów z ruchu cypherpunk, takich jak proof of work i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę walutę cyfrową.
+To właśnie w tym żyznym środowisku tajemniczy Satoshi Nakamoto opublikował białą księgę Bitcoin w 2008 roku. W dokumencie tym połączył kilka pomysłów z ruchu cypherpunk, takich jak [proof of work](https://planb.academy/resources/glossary/proof-of-work) i kryptograficzne znaczniki czasu, aby stworzyć zdecentralizowaną i odporną na cenzurę walutę cyfrową.
 
 
 Bitcoin był jednak czymś więcej: reprezentował osiągnięcie ideałów cypherpunku. Poza technologią symbolizował rewolucję przeciwko tradycyjnym systemom finansowym i oferował alternatywę opartą na przejrzystości, decentralizacji i indywidualnej suwerenności.
@@ -556,7 +556,7 @@ Tworzenie nowych bitcoinów jest wynikiem procesu mining. W skrócie, górnicy u
 ![image](assets/en/022.webp)
 
 
-Po pomyślnym wykonaniu tego zadania górnicy są nagradzani emisją nowych bitcoinów co dziesięć minut. Nagroda ta jest zaprogramowana tak, aby zmniejszać się o połowę co 210 000 bloków, czyli mniej więcej co cztery lata (zdarzenie znane jako "halving"), nadając krzywej emisji monet kształt przypominający schody. Ze względu na ten mechanizm można matematycznie przewidzieć, że tworzenie nowych bitcoinów zakończy się około roku 2140, kiedy ich łączna liczba osiągnie limit 21 milionów.
+Po pomyślnym wykonaniu tego zadania górnicy są nagradzani emisją nowych bitcoinów co dziesięć minut. Nagroda ta jest zaprogramowana tak, aby zmniejszać się o połowę co 210 000 bloków, czyli mniej więcej co cztery lata (zdarzenie znane jako "[halving](https://planb.academy/resources/glossary/halving)"), nadając krzywej emisji monet kształt przypominający schody. Ze względu na ten mechanizm można matematycznie przewidzieć, że tworzenie nowych bitcoinów zakończy się około roku 2140, kiedy ich łączna liczba osiągnie limit 21 milionów.
 
 
 | Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
@@ -1004,7 +1004,7 @@ Teraz, gdy omówiliśmy podstawy portfeli Bitcoin i najlepsze praktyki ich zabez
 ![image](assets/en/038.webp)
 
 
-31 października 2008 r. to data narodzin nowej technologii finansowej, jaką jest Bitcoin. Tego dnia anonimowy Satoshi Nakamoto zaprezentował światu swoją innowację za pośrednictwem wiadomości e-mail wysłanej na listę mailingową cypherpunks, społeczności entuzjastów kryptografii poświęconej promowaniu prywatności w Internecie. Wiadomość ta zawierała dokument o nazwie "White Paper", który przedstawiał sposób działania Bitcoin.
+31 października 2008 r. to data narodzin nowej technologii finansowej, jaką jest Bitcoin. Tego dnia anonimowy Satoshi Nakamoto zaprezentował światu swoją innowację za pośrednictwem wiadomości e-mail wysłanej na listę mailingową cypherpunks, społeczności entuzjastów kryptografii poświęconej promowaniu prywatności w Internecie. Wiadomość ta zawierała dokument o nazwie "[White Paper](https://planb.academy/resources/glossary/white-paper)", który przedstawiał sposób działania Bitcoin.
 
 
 Inicjatywa ta nie spotkała się z natychmiastowym entuzjazmem generate, prawdopodobnie ze względu na wcześniejsze niepowodzenia w próbach stworzenia cyfrowych systemów gotówkowych. Niemniej jednak, biała księga ostatecznie stała się punktem odniesienia dla użytkowników Bitcoin i przez lata była przedmiotem wielu debat w ekosystemie Bitcoin.
@@ -1237,7 +1237,7 @@ Po tym zwycięstwie węzły aktywowały aktualizację o nazwie SegWit, torując 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Minerzy zabezpieczają sieć i dodają transakcje do bloków. Wykorzystują energię elektryczną poprzez maszyny ASIC, aby rozwiązać Bitcoin proof of work.**
+**Minerzy zabezpieczają sieć i dodają transakcje do bloków. Wykorzystują energię elektryczną poprzez maszyny [ASIC](https://planb.academy/resources/glossary/asic), aby rozwiązać Bitcoin proof of work.**
 
 
 ![image](assets/en/054.webp)

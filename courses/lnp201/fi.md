@@ -153,7 +153,7 @@ Yleisin skripti vaatii allekirjoituksen osoitteeseen liitetyllä yksityisellä a
 
 ### UTXO:t: Käyttämättömät siirtojen tulosteet
 
-Bitcoinissa vaihdamme itse asiassa suoraan bitcoineja, vaan **UTXO:ita** (_Unspent Transaction Outputs_), tarkoittaen "käyttämättömiä siirtojen tulosteita".
+Bitcoinissa vaihdamme itse asiassa suoraan bitcoineja, vaan **[UTXO](https://planb.academy/resources/glossary/utxo):ita** (_Unspent Transaction Outputs_), tarkoittaen "käyttämättömiä siirtojen tulosteita".
 
 UTXO on bitcoinin pala, joka voi olla minkä tahansa arvoinen, esimerkiksi **2,000 bitcoina**, **8 bitcoinia** tai jopa **8,000 satsia**. Jokainen UTXO on lukittu skriptillä, ja sen käyttämiseen täytyy täyttää skriptin ehdot, usein allekirjoitus annetun vastaanotto-osoitteen yksityisellä avaimella.
 
@@ -591,7 +591,7 @@ Tässä luvussa tutkimme maksujen reititystä Lightning-verkossa. Mutta herää 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Tässä luvussa tutustumme siihen, miten Lightning mahdollistaa maksujen siirtymisen välisolmujen kautta ilman, että niitä tarvitsee luottaa, kiitos **HTLC** (_Hashed Time-Locked Contracts_) -älykkäiden sopimusten. Nämä älykkäät sopimukset varmistavat, että jokainen välisolmu saa varat kanavastaan vain, jos se välittää maksun lopulliselle vastaanottajalle, muuten maksua ei vahvisteta.
+Tässä luvussa tutustumme siihen, miten Lightning mahdollistaa maksujen siirtymisen välisolmujen kautta ilman, että niitä tarvitsee luottaa, kiitos **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_) -älykkäiden sopimusten. Nämä älykkäät sopimukset varmistavat, että jokainen välisolmu saa varat kanavastaan vain, jos se välittää maksun lopulliselle vastaanottajalle, muuten maksua ei vahvisteta.
 
 Maksujen reitityksessä esiin nouseva ongelma on siis tarvittava luottamus välisolmuihin ja välisolmujen keskinäinen luottamus. Havainnollistaaksemme tätä, palatkaamme yksinkertaistettuun Lightning-verkon esimerkkiimme, jossa on 3 solmua ja 2 kanavaa:
 

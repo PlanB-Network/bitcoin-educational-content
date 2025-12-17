@@ -5,5 +5,5 @@ wrong_answers:
   - Poplatky za transakce se spalují během zpracování, čímž se postupně snižuje dostupná zásoba bitcoinů
   - "Protokol Bitcoin automaticky blokuje mince, které se delší dobu nepohybovaly, aby se zabránilo inflaci."
 explanation: |
-  Kapitola vysvětluje, že ačkoli teoretické maximum je přibližně 20 999 817 BTC, skutečná využitelná zásoba je kvůli lidským chybám a ztrátám mnohem nižší. Ztracené soukromé klíče trvale znepřístupňují bitcoiny, peněženky se kradou nebo zapomínají a mince se někdy posílají na neplatné adresy. Tyto faktory způsobují trvalé snížení nabídky, z něhož těží zbývající držitelé, jak poznamenal Satoshi, ztracené mince zvyšují hodnotu mincí všech ostatních.
+  Pokud je teoretické maximum 20 999 999.9769 BTC, skutečně využitelná nabídka je mnohem nižší v důsledku lidských chyb a ztrát. Ztracené soukromé klíče činí bitcoiny trvale nedostupnými, peněženky jsou kradeny nebo zapomenuty a mince jsou někdy odesílány na neplatné adresy. Tyto faktory vedou k trvalému snížení nabídky, z čehož těží zbývající držitelé, jak poznamenal Satoshi: ztracené mince zvyšují hodnotu mincí ostatních.
 reviewed: false

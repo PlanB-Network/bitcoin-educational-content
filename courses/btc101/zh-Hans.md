@@ -1043,7 +1043,9 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 尽管如此，在萨尔瓦多和世界其他地方，越来越多的个人、企业和组织接受比特币作为其产品或服务的支付手段。
 
-![image](assets/zh-Hans/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*来源 : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 此外，一个开源协作项目[BTCMap](https://btcmap.org/map#2/21.28937/5.46680)已经启动，以促进比特币在日常交易中的使用。这个平台列出了所有接受比特币的商家，以及世界各地不同的比特币社区，你可以访问他们的网站，发现你身边的比特币生态系统。因此，尽管有困难和犹豫，但像 BTCMap 这样的倡议有助于使比特币经济对每个人来说更容易获得和更方便。
 

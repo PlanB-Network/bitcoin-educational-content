@@ -567,6 +567,11 @@ Nous sommes désormais parés, nous minons et participons à l'effort global et 
 
 ## 3.3 Panorama des différentes Pool de mining
 
+**Disclaimer:** Les Pool de mining sont des tiers de confiance. Si vous ne faites pas tourner votre propre logiciel de mining et comptez sur quelqu'un d'autre pour le faire, de la confiance est nécessaire et rien ne garanti que l'opérateur du serveur auquel vous êtes connecté est honnêtes.
+
+Le 
+
+
 Nous venons de voir dans le rapide tutoriel du paragraphe précédent, 2 solo pool que l'on peut choisir afin de connecter notre "hasheur" au réseau Bitcoin et lui permettre de miner.
 Public Pool et CkPool sont en effet les 2 solutions les plus populaires du marché auprès des solominer mais elles sont loin d'être les seules.
 
@@ -589,15 +594,96 @@ Ainsi si vous trouvez un bloc par l'intermédiaire de CkPool, la transaction coi
 
 ![Image](assets/fr/047.webp)
 
+Synthèse:
+
+- frais: 2%
+- fiabilité: élevée
+- confiance: élevée
 #### [Le petit nouveau "Public Pool"](https://web.public-pool.io/#/)
 
+Public Pool a émergé en 2023 en parallèle du projet Bitaxe, afin de permettre aux mineurs débutant de se connecter facilement au réseau Bitcoin. C'est cette pool que nous avons choisi dans el rapide tutoriel Bitaxe du chapitre précédent.
 
+![Image](assets/fr/048.webp)
+
+Il s'agit un pool de minage solo open-source pour Bitcoin, lancé  par [Benjamin Wilson](https://x.com/Public_Pool_BTC). 
+
+Il existe deux modes :
+
+- [Hébergé](https://web.public-pool.io/#/) : Géré par le site [public-pool.io](https://web.public-pool.io/#/v), idéal pour les débutants.
+- Auto-hébergé : Vous installez le logiciel sur votre propre nœud Bitcoin (par exemple via Umbrel), pour plus de contrôle et de souveraineté, et une faible latence.
+
+**Anecdote**: aujourd'hui 2 blocs ont déjà été trouvé via le mode "Auto-hébergé" par des mineurs indépendants, alors qu'aucun n'a encore été trouvé via la mode "Hébergé" qui enregistre pourtant 40Ph/s de hashrate. Cela devrait par contre changer dans les mois à venir car 40 Ph/s nous donne en théorie  2 chances par an de solominer un block.
+
+![Image](assets/fr/049.webp)
+
+Synthèse:
+
+- frais: 0%
+- fiabilité: élevée
+- confiance: élevée
+#### [La plus Originale : Parasite Pool](https://parasite.space/)
+
+Il s'agit d'une petite pool de mining encore confidentielle basée sur un fork de CkpPool et ne totalisant qu'un hashrate de 15 Ph/spour le moment (même si c'est déjà beaucoup), mais qui mérite qu'on s'y attarde tant l'initiative est singulière.
+
+[*"Centralized Bitcoin mining is a festering wound, bleeding out Satoshi’s vision of a decentralized network secured by equal peers. Corporate pools choke the life from home miners, hoarding hash rate and wrecking them with fees. Parasite Pool is the blade that severs their grip—a radical reimagination of mining with zero fees, simple Lightning payouts, and coinbase logic that flips the script"* ](https://zkshark.substack.com/p/parasite-pool-igniting-the-mining)- [**ZK-Shark**](https://x.com/ZK_shark)
+
+![Image](assets/fr/050.webp)
+
+Fondée par le développeur [ZK-Shark ](https://x.com/ZK_shark)cette pool qualifiée d'encore expérimentale et en "phase beta" par son fondateur vise à apporter sa propre pierre à l'édifice de la décentralisation du hashrate pour le ramener plus proche de la vision originelle de Satoshi, où chaque membre du réseau participe à son fonctionnement.
+
+
+En synthèse:
+
+- 0 frais
+- Paiements Lightning intégrés
+- Une gestion de la transaction Coinbase radicalement différente. Si un membre de la pool trouve en bloc, 1 Bitcoin entier lui est directement attribué tandis que le reste est partagé entre les membres de la pool via Lightning.
+- Fiabilité: élevée
+- Confiance: Intermédiaire (encore à démontrer)
+  
+  
+[#### Braiins Solo](https://solo.braiins.com/stats)
+
+Braiins, déjà entraperçu lors de notre panorama rapide des logiciels de mining , est un acteur majeur du mining proposant depuis 2010 (plus vieille pool de mining du monde) une des principale pool  "mutualiste" totalisant aujourd'hui 15 Eh/s soit environ 1.5% du hashrate mondial.
+
+![Image](assets/fr/052.webp)
+
+
+Braiins propose depuis Janvier 2023, en concordance avec cette réémergence du home mining, sa version solo aux plus téméraires: [**Braiins Solo](https://solo.braiins.com/stats).**
+
+![Image](assets/fr/053.webp)
+
+
+Braiins n'est plus à présenter, cette solopool est fiable sur tous les plans. Il vous en coûtera 0.5% de frais si vous gagnez le jackpot, honorable.
+
+![Image](assets/fr/054.webp)
+
+Synthèse:
+
+- frais: 0.5 %
+- fiabilité: élevée
+- confiance: élevée
+
+#### [La Pool "Deutsche Qualität" de Solomining](https://pool.solomining.de/#/)
+
+[Solomining](https://solomining.de/en) est un des acteurs majeur dans la production de machines Bitaxe et de ses dérivés en Europe. Son initiative de solopool avec 0% de frais directement forké du code de Public Pool est bienvenue. 
+
+![Image](assets/fr/055.webp)
+
+- frais: 0 %
+- fiabilité: élevée
+- confiance: intermédiaire / élevée
+
+### La Pool montante francophone des "chauffagistes"
 
 | Type de Pool | Open Source | Frais |
 | ------------ | ----------- | ----- |
 |              |             |       |
 
+### Les Pool "Mutualistes" adaptées au HomeMining
 
+#### Braiins 
+
+#### Ocean Mining
 ## 3.4 Découverte d'AxeOS
 
 

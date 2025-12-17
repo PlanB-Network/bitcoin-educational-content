@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Héritage
+name: Bitcoin Keeper - Plan de succession
 description: Planifier la transmission de ses bitcoins avec Bitcoin Keeper
 ---
 
@@ -12,6 +12,8 @@ Dans ce second tutoriel consacré à Bitcoin Keeper, nous explorons les fonction
 Ce guide suppose que vous maîtrisez déjà les bases de Bitcoin Keeper (création de portefeuille, multisig classique, ajout de clés hardware) telles qu'expliquées dans notre premier tutoriel :
 
 https://planb.network/tutorials/wallet/mobile/bitcoin-keeper-22cbfb8d-790f-4a6f-a92f-93a117e1e65c
+
+![video](https://youtu.be/tCld_-n2d30)
 
 ## Les plans d'abonnement Bitcoin Keeper
 

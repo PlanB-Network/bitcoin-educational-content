@@ -1,0 +1,8 @@
+question: Tệp Ngôn ngữ Định nghĩa Thống nhất (UDL) đóng vai trò gì trong quy trình làm việc của UniFFI?
+answer: Nó đóng vai trò như một đặc tả giao diện mô tả những phần nào của thư viện Rust cần được cung cấp cho các ngôn ngữ khác.
+wrong_answers:
+  - Nó chứa mã thực thi Rust thực tế được biên dịch thành các liên kết ngôn ngữ đích.
+  - Nó đóng vai trò là tệp cấu hình thời gian chạy, quản lý việc phân bổ bộ nhớ giữa các môi trường ngôn ngữ khác nhau.
+  - Nó cung cấp một khung kiểm thử để xác thực tính chính xác của các liên kết được tạo ra trên nhiều nền tảng khác nhau.
+explanation: |
+  Tệp UDL đóng vai trò như một hợp đồng hoặc đặc tả giữa việc triển khai Rust và các liên kết ngôn ngữ được tạo ra. Nó không chứa mã Rust, cũng không xử lý các hoạt động thời gian chạy hoặc kiểm thử. Thay vào đó, nó khai báo định nghĩa những hàm, kiểu và giao diện nào từ thư viện Rust nên được cung cấp cho các ngôn ngữ khác, chỉ rõ cách chúng nên được ánh xạ và trình bày trong giao diện gốc của ngôn ngữ đích.

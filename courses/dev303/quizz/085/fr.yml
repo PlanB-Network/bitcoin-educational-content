@@ -1,0 +1,8 @@
+question: Lors de la définition d'interfaces de rappel dans l'interface UniFFI, quelles sont les limites supplémentaires du trait Rust qui sont généralement requises pour le trait de rappel afin de garantir une invocation interlangues sûre ?
+answer: Les limites d'envoi et de synchronisation sont nécessaires parce que les rappels peuvent traverser les limites des threads entre Rust et les langages cibles
+wrong_answers:
+  - Les limites de clonage et de copie sont nécessaires pour permettre la duplication des données de rappel au-delà des frontières linguistiques
+  - Les limites de débogage et d'affichage sont nécessaires pour permettre un rapport d'erreur correct lorsque les rappels échouent pendant l'exécution
+  - Les limites Serialize et Deserialize sont nécessaires pour marshaller les paramètres de callback entre les différents langages d'exécution
+explanation: |
+  Les interfaces de rappel dans l'interface UniFFI nécessitent des bornes Send et Sync parce qu'elles permettent une communication bidirectionnelle dans laquelle le code Rust rappelle le code de l'application écrit dans les langages cibles. Comme ces rappels peuvent traverser les limites des threads pendant l'exécution, le système de types de Rust exige des bornes Send (transfert sûr entre threads) et Sync (partage sûr de références entre threads) pour garantir la sécurité de la mémoire. Les autres options sont incorrectes : Clone/Copy ne sont pas nécessaires pour les appels inter-langues, Debug/Display sont pour le formatage et non pour la sécurité, et Serialize/Deserialize sont gérés automatiquement par le système de marshaling de l'UniFFI.

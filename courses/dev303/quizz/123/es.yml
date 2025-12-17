@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal ventaja arquitectónica que permite al SDK de Breez eliminar la barrera tradicional de Lightning Network de la apertura manual de canales para nuevos usuarios?
+answer: Funcionalidad Lightning Service Provider (LSP) integrada que aprovisiona automáticamente la liquidez entrante tras la instalación de wallet
+wrong_answers:
+  - Servicios de intercambio submarino integrados que convierten los canales on-chain Bitcoin en canales Lightning sin intervención del usuario
+  - Canales prefinanciados gestionados por Greenlight que se asignan dinámicamente a los usuarios en función de la demanda
+  - Mecanismos automáticos de descubrimiento de pares que conectan nuevos monederos a nodos de gran liquidez para la creación instantánea de canales
+explanation: |
+  La funcionalidad LSP integrada del SDK de Breez está diseñada específicamente para eliminar la barrera de la apertura manual de canales, proporcionando automáticamente liquidez de entrada cuando los usuarios instalan su wallet. Esto permite la recepción inmediata de pagos sin necesidad de configuración técnica. Los intercambios submarinos gestionan la conversión de capas, pero no abordan el aprovisionamiento inicial de canales. Los pools prefinanciados y el descubrimiento de pares no son los mecanismos que utiliza Breez. En su lugar, la integración de LSP proporciona directamente la capacidad de entrada necesaria para que los nuevos usuarios reciban pagos inmediatamente.

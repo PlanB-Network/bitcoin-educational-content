@@ -1,0 +1,8 @@
+question: Hvilken grunnleggende utfordring i plattformutvikling løser UniFFI når man jobber med Rust-biblioteker?
+answer: Behovet for å manuelt opprette tilpasset bindingskode for hvert målspråk når Rusts FFI på lavt nivå skal eksponeres
+wrong_answers:
+  - Rust kan ikke kompilere til native binærfiler som kan kjøres på flere operativsystemer
+  - Mangelen på garantier for minnesikkerhet når Rust-kode samhandler med språk som samler opp søppel
+  - "Ytelsesoverheadet som introduseres når Rusts eierskapsmodell oversettes til språk med referansetelling"
+explanation: |
+  UniFFI løser problemet med å skrive bindingskode manuelt for hvert målspråk. Når Rust kompileres til binær utdata, produserer den en Foreign Function Interface (FFI) som er på lavt nivå og utfordrende å bruke direkte fra språk på høyere nivå. Tradisjonelt sett har utviklere måttet skrive tilpasset bindingskode for hvert målspråk (Python, Swift, Kotlin osv.), noe som har skapt betydelige hindringer for bruk. UniFFI eliminerer denne redundansen ved å generere disse bindingene automatisk gjennom UDL-spesifikasjonssystemet.

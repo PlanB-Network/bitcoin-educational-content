@@ -1,0 +1,8 @@
+question: Que fait Rust pendant le processus de dénouement en cas de panique ?
+answer: Retourne dans la pile d'appels pour fournir une trace détaillée de la pile
+wrong_answers:
+  - Termine immédiatement le programme sans nettoyage ni information
+  - Convertit la panique en un type de résultat récupérable pour la gestion des erreurs
+  - Recommence l'exécution de la fonction en cours depuis le début
+explanation: |
+  Lorsqu'une panique se produit dans Rust, le processus de déroulement remonte la pile d'appels pour fournir une trace de pile détaillée indiquant exactement où la panique s'est produite. Cela aide les développeurs à identifier la source du problème pendant le débogage. Les autres options sont incorrectes : Rust ne se termine pas immédiatement sans nettoyage (cela ne se produit que lorsque le déroulement est désactivé), les paniques ne peuvent pas être converties en types Result car elles représentent des erreurs irrécupérables, et Rust ne redémarre pas l'exécution de la fonction lorsque des paniques se produisent.

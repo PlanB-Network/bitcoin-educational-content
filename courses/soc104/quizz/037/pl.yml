@@ -1,0 +1,9 @@
+question: Zgodnie z perspektywą Friedmana, jaki jest główny problem z ocenianiem polityk społecznych na podstawie ich deklarowanych intencji, a nie rzeczywistych rezultatów?
+answer: Polityka oparta na dobrych intencjach często powoduje niezamierzone konsekwencje, takie jak zależność ekonomiczna i zakłócenia rynkowe, które są sprzeczne z jej pierwotnymi celami
+wrong_answers:
+  - Intencje są zbyt trudne do obiektywnego zmierzenia w porównaniu z bezpośrednią oceną wyników i rezultatów polityki
+  - Politycy celowo wprowadzają opinię publiczną w błąd co do swoich prawdziwych intencji, co sprawia, że ocena oparta na intencjach jest zasadniczo niewiarygodna i zwodnicza
+  - Intencje zmieniają się zbyt często podczas wdrażania polityki, co czyni je niestabilną podstawą do długoterminowej oceny polityki
+explanation: |
+  Friedman argumentuje, że polityka mająca hojne intencje może wywoływać skutki odwrotne do zamierzonych, takie jak tworzenie zależności wśród tych, którym ma pomóc
+  których celem jest pomoc. Problemem nie jest trudność pomiaru, oszustwo polityczne lub zmiana intencji, ale raczej to, że dobre intencje nie gwarantują pozytywnych rezultatów. Dlatego właśnie definicje strukturalne, skupiające się na obserwowalnych cechach i mierzalnych wynikach, są preferowane w stosunku do definicji intencjonalnych, które opierają się na deklarowanych motywacjach.

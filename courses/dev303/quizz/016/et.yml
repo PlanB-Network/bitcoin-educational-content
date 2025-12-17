@@ -1,0 +1,8 @@
+question: Millist tüüpi operatsiooni teeb Rust vaikimisi, kui ta omistab ühe String-muutuja teisele?
+answer: Liikumisoperatsioon, mis annab üle omandiõiguse ja muudab lähtemuutuja kehtetuks
+wrong_answers:
+  - Sügavkoopia, mis dubleerib kõik kuhjaandmed, et luua sõltumatuid stringid
+  - Madal koopia, mis loob kaks osutajat samale kuhja mälule
+  - Viite loomine, mis võimaldab mõlemale muutujale ühist lugemisõigusega juurdepääsu
+explanation: |
+  Rust teostab vaikimisi liikumisoperatsiooni, kui ta omistab keerulisi tüüpe, nagu String. See annab omandiõiguse allikalt sihtmuutujale üle, tühistades samal ajal allika, vältides ohtlikke stsenaariume, kus mitu muutujat võivad muuta sama kuhja mälu. Sügav kopeerimine oleks suurte stringide puhul ebaefektiivne, madal kopeerimine tekitaks mäluohutusprobleeme, kui samadele andmetele oleks mitu osutajat, ja viide loomine nõuab selget süntaksit amperandiga.

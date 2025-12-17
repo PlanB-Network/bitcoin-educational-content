@@ -1,0 +1,8 @@
+question: Volgens Rust's eigendomssysteem, hoeveel eigenaren kan een waarde op elk moment hebben?
+answer: Precies één eigenaar
+wrong_answers:
+  - Meerdere eigenaren zijn toegestaan
+  - Maximaal twee eigenaren
+  - Geen eigenaren tot toegang
+explanation: |
+  Het eigendomssysteem van Rust werkt op basis van drie fundamentele regels, waarvan de eerste is dat elke waarde op elk gegeven moment precies één eigenaar heeft. Dit principe van één eigenaar is cruciaal voor geheugenveiligheid, omdat het voorkomt dat meerdere delen van het programma tegelijkertijd proberen hetzelfde geheugen vrij te maken of gegevens te wijzigen. Het hebben van meerdere eigenaren zou leiden tot use-after-free bugs en data races, terwijl het hebben van geen eigenaren zou betekenen dat geheugen nooit goed kan worden opgeschoond.

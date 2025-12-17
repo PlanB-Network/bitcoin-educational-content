@@ -1,0 +1,8 @@
+question: Quale sintassi viene utilizzata per definire i parametri nelle chiusure di Rust?
+answer: Caratteri di pipa (|) per racchiudere i parametri
+wrong_answers:
+  - Parentesi () per racchiudere i parametri
+  - Le parentesi quadre [] per racchiudere i parametri
+  - Parentesi graffe {} per racchiudere i parametri
+explanation: |
+  Le chiusure Rust utilizzano i caratteri pipe (|) per definire i parametri, distinguendoli dalle funzioni regolari che utilizzano le parentesi. Ad esempio, una chiusura senza parametri si scrive ||, mentre una chiusura con parametri si presenta come |x, y|. Questa sintassi unica rende le chiusure facilmente riconoscibili e le differenzia dalle definizioni di funzione. Le parentesi sono usate per le funzioni regolari, mentre le parentesi quadre e le parentesi graffe servono ad altri scopi nella sintassi di Rust.

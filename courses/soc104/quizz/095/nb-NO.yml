@@ -1,0 +1,9 @@
+question: Hva er det grunnleggende problemet med konvensjonelle valutaer som Bitcoin ble designet for å løse, ifølge Satoshi Nakamotos filosofi?
+answer: Den overdrevne tilliten som kreves i sentraliserte institusjoner som historisk sett har brutt denne tilliten gjennom valutasvekkelse
+wrong_answers:
+  - Mangelen på digital infrastruktur og treg transaksjonsbehandling i tradisjonelle banksystemer
+  - De høye transaksjonsgebyrene og den begrensede tilgjengeligheten av internasjonale pengeoverføringer gjennom bankene
+  - Miljøpåvirkningen og energiforbruket til tradisjonelle bank- og betalingsformidlingssystemer
+explanation: |
+  Satoshi Nakamoto uttalte eksplisitt at "det grunnleggende problemet med konvensjonell valuta er all tilliten som kreves for å få den til å fungere", og at sentralbanker må ha tillit til at de ikke svekker valutaen, men "fiat-valutaenes historie er full av brudd på denne tilliten".
+  Dette sitatet avslører Bitcoins kjerneformål: å eliminere behovet for tillit til sentraliserte institusjoner. De andre alternativene, selv om de potensielt kan gi grunn til bekymring for tradisjonell finans, løser ikke det grunnleggende filosofiske problemet Satoshi identifiserte - at fiatsystemer krever blind tillit til institusjoner som gjentatte ganger har vist seg upålitelige gjennom pengemanipulasjon og pengeforringelse.

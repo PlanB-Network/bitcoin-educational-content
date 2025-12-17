@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru y'ubwoko bwa enum bwa Option<T> bwa Rust?
+answer: Kugira ngo ugaragaze neza agaciro gashobora kubaho canke kataboneka, gukingira amakosa y'ubusa
+wrong_answers:
+  - Kubika ubwoko bwinshi bw'amakuru atandukanye mu mpinduka imwe ata kugenzura ubwoko
+  - Kugira ngo ureme amaparametere y'ubusabe mu nsobanuro z'imikorere zishobora gusimburwa mu gihe c'amahamagara
+  - Gutanga uburyo bwo kugarura ubwoko bwinshi bw'amakosa ashoboka kuva ku gikorwa kimwe
+explanation: |
+  Ihitamwo<T> enum ikora nk'umuti wa Rust ku bibazo vy'ikimenyetso c'ubusa mu guhatira gukoresha neza agaciro kabuze. Ifise uburyo bubiri: Some(T) ku gaciro k'ubu na None ku gaciro katariho. Igikoresho co gukoranya gisaba ko usuzuma uburyo ufise imbere yo gukoresha agaciro, ukabuza amakosa yo mu gihe co gukora. Inyishu zitari zo zitera urujijo Ihitamwo n’ibindi vyiyumviro: amashirahamwe/ibihinduka (ivya mbere), ibipimo vy’imbere (ivya kabiri), n’ubwoko bw’Inyishu zo gutorera umuti amakosa (ivya gatatu).

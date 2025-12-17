@@ -1,0 +1,8 @@
+question: Millised täiendavad Rust tunnuse piirid on tagasilöögi tunnuse puhul UniFFI-s defineerimisel tavaliselt vajalikud, et tagada turvaline keeltevaheline üleskutse (cross-language invocation)?
+answer: Send ja Sync piirid on vajalikud, sest tagasikutsed võivad ületada niidipiirid Rust ja sihtkeelte vahel
+wrong_answers:
+  - Kloonimise ja kopeerimise piirid on vajalikud selleks, et tagasikutsumise andmeid saaks dubleerida üle keelepiiride
+  - Debug ja Display piirid on vajalikud, et võimaldada nõuetekohast veateavitust, kui tagasikutsumine ebaõnnestub täitmise ajal
+  - Serialize ja Deserialize piirid on vajalikud tagasivõtuparameetrite marshallimiseks erinevate keelte töörežiimide vahel
+explanation: |
+  UniFFI tagasikutsumisliidesed vajavad Send ja Sync piire, sest need võimaldavad kahesuunalist suhtlust, kus Rust kood kutsub tagasi sihtkeeles kirjutatud rakenduskoodi. Kuna need tagasipöördumised võivad täitmise ajal ületada niidipiire, nõuab Rust tüübisüsteem mälu ohutuse tagamiseks Send (turvaline niitide vaheline ülekanne) ja Sync (turvaline niitide vaheliste viidete jagamine) piire. Teised valikud on valed: Clone/Copy ei ole vaja keeltevaheliste kõnede jaoks, Debug/Display on vormindamise, mitte ohutuse jaoks ja Serialize/Deserialize on UniFFI marshaling-süsteemi poolt automaatselt käsitletud.

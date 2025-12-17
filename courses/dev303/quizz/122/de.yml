@@ -1,0 +1,8 @@
+question: Was ist die größte Herausforderung bei der Wiederherstellung, wenn Nutzer ihre Gelder über die Cloud-basierte Lightning Node-Architektur von Greenlight verwalten?
+answer: Die Nutzer bräuchten technisches Fachwissen, um unabhängige Core Lightning-Knoten aufzusetzen und Kanalzustände ohne Greenlight-Infrastruktur wiederherzustellen
+wrong_answers:
+  - "Die Nutzer verlieren den Zugang zu ihren privaten Schlüsseln, die ausschließlich auf den Servern von Blockstream gespeichert sind"
+  - "Die Kanalzustände werden mit Greenlight-eigenen Schlüsseln verschlüsselt, was die Wiederherstellung von Geldern mathematisch unmöglich macht
+  - "Lightning-Kanäle laufen automatisch nach 30 Tagen aus, wenn Greenlight keine kontinuierliche Wartung anbietet
+explanation: |
+  Die richtige Antwort unterstreicht die tatsächliche technische Komplexität der Fondswiederherstellung in der Greenlight-Architektur. Während die Nutzer ihre privaten Schlüssel behalten, erfordert der Zugriff auf Gelder ohne Greenlight die Ausführung von Core Lightning-Knoten und die manuelle Wiederherstellung von Kanalzuständen - ein Prozess, der die Fähigkeiten der meisten Nutzer übersteigt. Die falschen Antworten sind falsch, denn: Nutzer haben die Kontrolle über ihre privaten Schlüssel (die nicht auf Servern gespeichert sind), Kanalzustände verwenden Standard-Lightning-Protokolle (keine proprietäre Verschlüsselung) und Lightning-Kanäle haben keine automatischen Ablaufzeiten, die an Dienstanbieter gebunden sind.

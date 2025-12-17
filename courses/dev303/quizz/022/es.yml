@@ -1,0 +1,8 @@
+question: ¿Cuál es el propósito principal del tipo Option<T> enum de Rust?
+answer: Para representar de forma segura valores que pueden o no estar presentes, evitando errores de puntero nulo
+wrong_answers:
+  - Para almacenar varios tipos de datos diferentes en una sola variable sin comprobación de tipos
+  - Para crear parámetros opcionales en las definiciones de funciones que puedan omitirse durante las llamadas
+  - Proporcionar una forma de devolver múltiples tipos de error posibles desde una única función
+explanation: |
+  El enum Option<T> sirve como solución de Rust a los problemas de punteros nulos forzando el manejo explícito de valores perdidos. Tiene dos variantes: Some(T) para valores presentes y None para valores ausentes. El compilador requiere que compruebe qué variante tiene antes de usar el valor, evitando errores en tiempo de ejecución. Las respuestas erróneas confunden Opción con otros conceptos: uniones/variantes (primero), parámetros por defecto (segundo) y tipos de resultado para la gestión de errores (tercero).

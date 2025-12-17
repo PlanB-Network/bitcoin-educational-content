@@ -1,0 +1,8 @@
+question: Kun UniFFI:ssä määritellään takaisinsoittorajapintoja, mitä Rust-piirteen lisärajoituksia takaisinsoitto-piirteeseen yleensä vaaditaan, jotta voidaan varmistaa turvallinen kieltenvälinen kutsuminen?
+answer: Send- ja Sync-rajoja tarvitaan, koska takaisinkutsut voivat ylittää säikerirajoja Rust- ja kohdekielten välillä
+wrong_answers:
+  - Clone- ja Copy-rajat tarvitaan, jotta takaisinkutsutiedot voidaan kopioida yli kielirajojen
+  - Debug- ja Display-rajat tarvitaan, jotta virheistä voidaan raportoida asianmukaisesti, kun takaisinkutsut epäonnistuvat suorituksen aikana
+  - Serialize- ja Deserialize-rajoja tarvitaan, jotta eri kielten suoritusaikojen väliset takaisinkutsuparametrit voidaan ottaa käyttöön
+explanation: |
+  UniFFI:n takaisinkutsurajapinnat vaativat Send- ja Sync-rajat, koska ne mahdollistavat kaksisuuntaisen viestinnän, jossa Rust-koodi kutsuu takaisin kohdekielellä kirjoitettua sovelluskoodia. Koska nämä takaisinkutsut voivat ylittää säikeitä suorituksen aikana, Rust:n tyyppijärjestelmä vaatii Send- (turvallinen siirto säikeiden välillä) ja Sync-rajat (turvallinen viittausten jakaminen säikeiden välillä) muistiturvallisuuden varmistamiseksi. Muut vaihtoehdot ovat virheellisiä: Clone/Copy ei ole tarpeen kieltenvälisissä kutsuissa, Debug/Display on tarkoitettu muotoiluun, ei turvallisuuteen, ja Serialize/Deserialize hoidetaan automaattisesti UniFFI:n marshaling-järjestelmällä.

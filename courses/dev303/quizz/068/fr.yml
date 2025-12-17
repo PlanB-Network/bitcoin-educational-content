@@ -1,0 +1,8 @@
+question: Quel est le principal avantage du typage statique de Rust par rapport au typage dynamique lors du développement d'applications Bitcoin ?
+answer: Les erreurs de type sont détectées au moment de la compilation avant le déploiement, ce qui permet d'éviter les erreurs d'exécution lors de la gestion des fonds des utilisateurs
+wrong_answers:
+  - Le typage statique permet d'accélérer la vitesse d'exécution lors du traitement des transactions Bitcoin sur la blockchain
+  - "Le typage dynamique nécessite une allocation de mémoire plus importante, ce qui est en contradiction avec les exigences de Bitcoin en matière de nœuds légers
+  - Le typage statique permet de générer automatiquement du code pour les implémentations de protocoles Bitcoin et les contrats intelligents
+explanation: |
+  Le typage statique de Rust détecte les erreurs de type lors de la compilation, ce qui garantit que les erreurs sont résolues avant que le logiciel ne puisse être construit ou déployé. Cet aspect est crucial pour le développement du Bitcoin, car une fois que le logiciel manipule des fonds d'utilisateurs réels, les erreurs de typage lors de l'exécution peuvent entraîner des pertes financières irréversibles. Le typage dynamique ne révèle les erreurs que pendant l'exécution, potentiellement après le déploiement, lorsque l'argent des utilisateurs est en jeu. Les autres options sont incorrectes car le principal avantage du typage statique n'est pas la vitesse d'exécution, l'utilisation de la mémoire ou la génération de code, mais plutôt la prévention des erreurs au moment de la compilation.

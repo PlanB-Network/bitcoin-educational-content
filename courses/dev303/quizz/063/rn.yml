@@ -1,0 +1,8 @@
+question: Iyo macro ikoresheje urugero `$($x:expr),*` mu nsobanuro yayo, urugero rurangura iki?
+answer: Ihuye na zero canke imvugo nyinshi zitandukanijwe n'ibimenyetso, bishoboza urutonde rw'imvo z'uburebure buhinduka
+wrong_answers:
+  - Ihuye neza n'imvugo imwe kandi isubiramwo ukwaguka kwa macro incuro nyinshi
+  - Ihuye n'umubare uwo ari wo wose w'insobanuro z'ubwoko zitandukanijwe n'uturongo tw'inyuguti kugira ngo haboneke kode
+  - Irema uruzitiro rukora macro mu gihe c'urugendo n'agaciro k'imvugo itandukanye
+explanation: |
+  Igishushanyo `$($x:expr),*` gikoresha insiguro y'isubiramwo ry'amajambo ya Rust aho `*` igiharuro gisobanura 'zero canke vyinshi', `$x:expr` gifata invugo yose, kandi akarongo gasobanura itandukaniro hagati y'imvugo. Ibi bishoboza ama macro nka `vec!` kwemera umubare uwo ari wo wose w'imvo: `vec![1, 2, 3]` canke `vec![]`. Ayandi mahitamwo ntabwo ari meza kuko: igishushanyo gifata amajambo menshi atari imwe gusa, gihuye n'amajambo atari insobanuro z'ubwoko kandi gikoresha amakoma atari amasemikoloni, na macros zikora ku gihe co gukoranya mu gihe co gukora kode atari ku gihe co gukora.

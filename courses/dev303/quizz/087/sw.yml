@@ -1,0 +1,8 @@
+question: Nini kinatokea kwa miundo ya Rust yenye mbinu zinazohusiana zinapochorwa kupitia UDL ya UniFFI ili kulenga lugha kama Kotlin au Swift?
+answer: Zinaonyeshwa kama violesura katika UDL na generate kama madarasa yenye mbinu katika lugha lengwa zinazolenga vitu
+wrong_answers:
+  - Hubadilishwa kuwa kamusi rahisi bila utendakazi wowote wa mbinu katika lugha lengwa
+  - Zinahitaji utekelezaji wa kila mbinu kwa mikono katika lugha lengwa kwa kutumia violesura vya kupiga simu tena.
+  - Hubadilishwa kiotomatiki kuwa vitendakazi vya nafasi ya majina ambavyo huchukua muundo kama kigezo cha kwanza
+explanation: |
+  UniFFI huhifadhi ruwaza za muundo unaozingatia vitu kwa kuchora ramani ya miundo ya Rust yenye mbinu zinazohusiana na violesura katika UDL, ambayo kisha generate kama madarasa asilia yenye mbinu katika lugha lengwa. Hii inadumisha uadilifu wa kimuundo na tabia ya utekelezaji wa awali wa Rust huku ikiwasilisha violesura vinavyojulikana vinavyozingatia vitu kwa wasanidi programu katika lugha kama Kotlin na Swift. Chaguzi zingine si sahihi kwa sababu UniFFI hudumisha hasa utendakazi wa mbinu badala ya kuibadilisha kuwa kamusi, haihitaji utekelezaji wa mwongozo kwani vifungo huzalishwa kiotomatiki, na haibadilishi mbinu za muundo kuwa vitendakazi vya nafasi ya majina.

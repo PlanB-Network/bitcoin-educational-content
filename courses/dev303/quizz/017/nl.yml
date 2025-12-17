@@ -1,0 +1,8 @@
+question: Wat zijn de drie componenten waaruit de structuur van een String bestaat in Rust's geheugenlayout?
+answer: Een pointer naar de heapgegevens, de huidige lengte en de totale capaciteit
+wrong_answers:
+  - Een pointer naar stackgegevens, de huidige grootte en de maximale lengte
+  - Een geheugenadres, het aantal tekens en het toewijzingstype
+  - Een gegevensreferentie, de bytegrootte en de eigendomsstatus
+explanation: |
+  Een String in Rust bestaat uit precies drie componenten opgeslagen op de stack: een pointer naar de door de heap toegewezen karaktergegevens, de huidige lengte van de stringinhoud en de totale capaciteit van de toegewezen buffer. Deze structuur maakt het mogelijk om strings efficiënt te laten groeien en krimpen met behoud van kennis van hun grenzen. De andere opties zijn onjuist omdat ze ofwel verwijzen naar verkeerde locaties (stack in plaats van heap), onnauwkeurige terminologie gebruiken (grootte vs lengte, aantal tekens vs byte-lengte), of niet-bestaande componenten bevatten zoals toewijzingstype of eigendomsstatus.

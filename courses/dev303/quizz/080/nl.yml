@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van het gebruik van Result en Option types boven panic voor foutafhandeling in Rust productiecode?
+answer: Ze dwingen expliciete bevestiging van potentiële fouten af en maken herstel van onverwachte fouten mogelijk
+wrong_answers:
+  - Ze bieden betere prestaties door het afwikkelen van de stack tijdens foutcondities te vermijden
+  - Ze converteren automatisch alle fouttypes naar tekenreeksen om het debuggen te vergemakkelijken
+  - Ze elimineren de noodzaak voor foutpropagatie door fouten af te handelen op het punt waar de fout optreedt
+explanation: |
+  Resultaat- en optietypes maken foutafhandeling expliciet en herstelbaar door ontwikkelaars te dwingen te erkennen dat bewerkingen kunnen mislukken en mechanismen te bieden om die mislukkingen netjes af te handelen. In tegenstelling tot panic, dat onmiddellijk de uitvoering beëindigt, staan deze types toe dat programma's blijven draaien en op de juiste manier reageren op foutcondities. De verkeerde antwoorden geven een verkeerd beeld van hun mogelijkheden: prestaties zijn niet hun belangrijkste voordeel, ze converteren fouten niet automatisch naar strings (dat is de eigenschap van anyhow), en ze vergemakkelijken in feite de voortplanting van fouten in plaats van ze te elimineren door operatoren zoals ?.

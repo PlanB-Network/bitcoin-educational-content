@@ -1,0 +1,8 @@
+question: Was ist der grundlegende Mechanismus, der es RC ermöglicht, mehrere Eigentümer zuzulassen und gleichzeitig die Speichersicherheit zu gewährleisten?
+answer: Ein interner Zähler, der Verweise verfolgt und Speicher nur freigibt, wenn der Zähler Null erreicht
+wrong_answers:
+  - Eine Kompilierzeitanalyse, die alle Referenzmuster vor der Programmausführung verifiziert
+  - Ein Garbage Collector, der in regelmäßigen Abständen unerreichbare Speicherzuweisungen überprüft und aufräumt
+  - Ein auf Sperren basierendes System, das den Zugriff mehrerer Eigentümer auf dieselben Daten synchronisiert
+explanation: |
+  RC unterhält einen internen Referenzzähler, der sich erhöht, wenn geklont wird, und sich verringert, wenn er gelöscht wird, so dass der Speicher erst freigegeben wird, wenn keine Referenzen mehr vorhanden sind. Dies unterscheidet sich von der Kompilierzeitanalyse (die Box verwendet), der Garbage Collection (die Rust nicht einsetzt) oder den Sperrmechanismen (die für die Thread-Synchronisation und nicht für die Verfolgung der Eigentümerschaft verwendet werden). Der zählerbasierte Ansatz ermöglicht sicheres Shared Ownership ohne den Laufzeit-Overhead der Garbage Collection oder die Einschränkungen des Single Ownership.

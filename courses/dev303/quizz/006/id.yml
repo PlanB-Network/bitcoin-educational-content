@@ -1,0 +1,8 @@
+question: Seberapa sering Rust merilis versi stabil baru sesuai dengan jadwal rilis mereka?
+answer: Kira-kira setiap enam minggu
+wrong_answers:
+  - Kira-kira setiap tiga bulan sekali
+  - Kira-kira setiap dua minggu sekali
+  - Kira-kira setiap empat bulan sekali
+explanation: |
+  Rust mengikuti jadwal rilis yang dapat diprediksi dengan versi stabil baru yang keluar kira-kira setiap enam minggu. Siklus rilis yang sering ini memastikan bahwa fitur-fitur baru dan peningkatan menjangkau pengguna secara teratur sambil mempertahankan stabilitas. Jangka waktu lainnya tidak tepat - tiga bulan dan empat bulan akan jauh lebih lambat daripada kecepatan Rust yang sebenarnya, sementara dua minggu akan menjadi sangat cepat untuk rilis stabil yang membutuhkan pengujian menyeluruh.

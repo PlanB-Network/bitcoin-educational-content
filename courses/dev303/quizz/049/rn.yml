@@ -1,0 +1,8 @@
+question: Ni ikibazo ikihe c’ishimikiro RC itorera umuti Box idashobora gutorera umuti mu bijanye n’ubutunzi bwa Rust?
+answer: RC ishoboza ubutunzi bwinshi bw'amakuru amwe biciye mu kubara ibisobanuro
+wrong_answers:
+  - RC itanga uburyo bwo kwibuka no gukuraho ubwonko bwihuta kurusha Box .
+  - RC iremeza gucunga ububiko bwite ata gihe co gukora
+  - RC ishoboza gusuzuma igihe co gukoranya ivyo Box idashobora gukora
+explanation: |
+  RC (Reference Counter) ivuga cane cane ku bijanye n’imipaka y’akarorero k’ubutunzi bumwe bwa Box mu kwemera ko ibice vyinshi vya kode bisangira ubutunzi bw’amakuru amwe icarimwe. Box ikurikira amategeko y’ubutunzi aho ikigo kimwe gusa gishobora kugira amakuru ku gihe, bikaba bidashoboka guhingura ibintu nk’imiterere y’amakuru asangiye aho urutonde rwinshi ruvuga igice kimwe c’umurizo. RC ibungabunga igiharuro co mu mutima gikurikirana ibisobanuro, kigakomeza iyo gikozwe mu buryo bwa clone kigaca kigabanuka iyo gikozwe, kigaca kibohora gusa ubwonko iyo igiharuro gishitse kuri zero. Ivyo bituma habaho uburyo bwo gusangira amakuru mu buryo buhinduka mu gihe umuntu aguma afise umutekano w’ubwenge, ivyo bikaba bitandukanye cane n’uburyo bwa Box bwo kuba umunyamuryango wenyene.

@@ -1,0 +1,8 @@
+question: Vad är den största risken när man använder RC<RefCell<T>> för delat mutabelt tillstånd, och vilken mekanism hjälper till att förhindra det?
+answer: Referenscykler orsakar minnesläckor, förhindras genom att använda svaga referenser
+wrong_answers:
+  - Datarace mellan trådar, förhindras genom att använda Mutex istället för RefCell
+  - Panik i runtime på grund av borrowing-överträdelser, förhindras av kompileringstidskontroll
+  - Stackoverflow från djup rekursion, förhindras genom begränsning av referensdjupet
+explanation: |
+  När RC<RefCell<T>> används är den främsta faran att skapa referenscykler där datastrukturer refererar till sig själva direkt eller genom kedjor. Dessa cykler förhindrar referensräkningar från att nå noll, vilket orsakar minnesläckor eftersom data alltid verkar ha aktiva referenser. Svaga referenser löser detta genom att inte bidra till det referensantal som används för minneshantering, vilket bryter cykler samtidigt som anslutningar bevaras. De andra alternativen är felaktiga: RC<RefCell<T>> är inte trådsäkert så datarace är inte huvudproblemet, RefCell flyttar specifikt kontroller till körtid snarare än att förhindra dem vid kompileringstid, och stacköverflöd är inte relaterat till referensräkningsmekanismen.

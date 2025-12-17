@@ -1,0 +1,8 @@
+question: Jaký je hlavní architektonický přínos vrstveného přístupu UniFFI při integraci knihoven Rust s cílovými jazyky, jako je Swift nebo Kotlin?
+answer: Vazbová vrstva se stará o překlad typů a správu paměti a zároveň představuje zcela nativní rozhraní pro cílový jazyk
+wrong_answers:
+  - Soubor UDL automaticky zkompiluje kód Rust do bajtového kódu, který lze nativně spustit na mobilních platformách bez překladu
+  - Kód knihovny Rust je automaticky přepsán v syntaxi cílového jazyka, aby se eliminovala volání cizích funkcí
+  - Aplikace v cílovém jazyce přistupují přímo k paměťovým strukturám Rust prostřednictvím sdílených ukazatelů, aby se vyhnuly režii spojování dat
+explanation: |
+  Architektura UniFFI vytváří oddělení, kde generovaný vazební kód funguje jako překladová vrstva mezi cílovým jazykem a Rust. Tato vrstva zpracovává komplexní marshaling/unmarshaling datových typů, bezpečně spravuje paměť napříč hranicemi jazyků a zajišťuje ošetření chyb podle konvencí cílového jazyka. Ostatní možnosti jsou nesprávné, protože UniFFI nekompiluje do bajtového kódu (generuje vazby), nepřepisuje kód Rust do jiných jazyků (zachovává původní implementaci Rust) a nepoužívá sdílený přístup do paměti (bezpečně marshalluje data přes hranice jazyků).

@@ -1,0 +1,8 @@
+question: Kui tihti annab Rust vastavalt oma avaldamisgraafikule välja uue stabiilse versiooni?
+answer: Umbes iga kuue nädala tagant
+wrong_answers:
+  - Umbes iga kolme kuu tagant
+  - Umbes iga kahe nädala tagant
+  - Umbes iga nelja kuu tagant
+explanation: |
+  Rust järgib prognoositavat avaldamisgraafikut, kus uued stabiilsed versioonid ilmuvad umbes iga kuue nädala tagant. Selline tihe väljaandmistsükkel tagab, et uued funktsioonid ja parandused jõuavad kasutajateni regulaarselt, säilitades samal ajal stabiilsuse. Teised ajakavad on valed - kolm kuud ja neli kuud oleksid Rust tegelikust tempost palju aeglasemad, samas kui kaks nädalat oleks ebareaalselt kiire stabiilse väljaande jaoks, mis nõuab põhjalikku testimist.

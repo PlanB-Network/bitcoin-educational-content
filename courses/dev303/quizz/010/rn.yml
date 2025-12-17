@@ -1,0 +1,8 @@
+question: Ni igiki kiba ku gihinduka iyo ubutunzi bwimuriwe ku kindi gihinduka muri Rust?
+answer: Impinduka y'umwimerere irahinduka ubusa kandi ntishobora gusubira gukoreshwa
+wrong_answers:
+  - Impinduka y'umwimerere iba igisobanuro co gusoma gusa ku makuru
+  - Ivyo bihinduka vyose birasangiye uburenganzira kandi bishobora guhindura amakuru ku giti cabo
+  - Impinduka y'umwimerere ihita ihindurwa ikaba igisobanuro gishobora guhinduka
+explanation: |
+  Iyo ubutunzi bwimuriwe muri Rust, umuhinduzi w'intango aba ataco amaze rwose kandi ntashobora gusubira gushikwako. Ivyo ni ikintu c'ishimikiro co gukingira kibuza ibihinduka vyinshi gucungera ububiko bumwe bw'ikirundo, bishobora gutuma habaho ibibazo vy'inyuma y'ubuntu canke amakosa atagira kabiri. Igikorwa kijanye n'ukwimura kirungika ubugenzuzi bwose ku mpinduka nshasha, kandi umukozi azozana ikosa iyo ugerageje gukoresha umuhinduzi w'intango inyuma yo kwimura. Ivyo bitandukanye n’ugukopa (aho ivyo bihinduka vyose biguma bifise akamaro) no kugurana (aho nyen’intango aguma ari we afise).

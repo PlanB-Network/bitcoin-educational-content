@@ -634,7 +634,7 @@ Dengan melakukan pendekatan seperti ini, Anda tidak akan membahayakan kesehatan 
 ![image](assets/id/023.webp)
 
 
-Setelah anggaran Anda ditentukan, pikirkan bagaimana Anda ingin berinvestasi. Salah satu metode yang paling ramah pemula dan banyak direkomendasikan adalah Dollar Cost Averaging (DCA), membeli Bitcoin dalam jumlah tetap secara berkala (mingguan, bulanan, dll). Strategi ini membantu memuluskan harga masuk rata-rata Anda dari waktu ke waktu dan mengurangi dampak emosional dari perubahan harga. Ini adalah pendekatan yang cerdas bagi kebanyakan orang, terutama pendatang baru.
+Setelah anggaran Anda ditentukan, pikirkan bagaimana Anda ingin berinvestasi. Salah satu metode yang paling ramah pemula dan banyak direkomendasikan adalah [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), membeli Bitcoin dalam jumlah tetap secara berkala (mingguan, bulanan, dll). Strategi ini membantu memuluskan harga masuk rata-rata Anda dari waktu ke waktu dan mengurangi dampak emosional dari perubahan harga. Ini adalah pendekatan yang cerdas bagi kebanyakan orang, terutama pendatang baru.
 
 
 Kemudian, tanyakan pada diri sendiri: Apa jangka waktu saya?
@@ -668,7 +668,7 @@ Yang terpenting, jangan pernah berinvestasi lebih dari yang Anda mampu untuk keh
 ### Mengelola dan mengamankan Bitcoin Wallet Anda
 
 
-Salah satu fitur Bitcoin yang paling kuat (dan sering diremehkan) adalah **self-custody**. Dengan Wallet yang disimpan sendiri, Anda sendiri yang bertanggung jawab atas dana Anda. Dompet ini biasanya dibuat dari **frase pemulihan** (juga dikenal sebagai frase seed), serangkaian 12 atau 24 kata yang memberikan akses penuh ke BTC Anda. Jika Anda kehilangan frasa ini (atau jika orang lain mendapatkannya), maka bitcoin Anda akan hilang untuk selamanya. **Tidak ada dukungan pelanggan. Tidak ada tombol reset.**
+Salah satu fitur Bitcoin yang paling kuat (dan sering diremehkan) adalah **[self-custody](https://planb.academy/resources/glossary/selfcustody)**. Dengan Wallet yang disimpan sendiri, Anda sendiri yang bertanggung jawab atas dana Anda. Dompet ini biasanya dibuat dari **frase pemulihan** (juga dikenal sebagai frase seed), serangkaian 12 atau 24 kata yang memberikan akses penuh ke BTC Anda. Jika Anda kehilangan frasa ini (atau jika orang lain mendapatkannya), maka bitcoin Anda akan hilang untuk selamanya. **Tidak ada dukungan pelanggan. Tidak ada tombol reset.**
 
 
 ![image](assets/id/025.webp)
@@ -1006,7 +1006,7 @@ Meskipun pendekatan ini lebih bersifat teknis, pendekatan ini menawarkan para pe
 #### Metode Pembayaran Lintas Batas yang Tangguh
 
 
-Karena sifatnya yang terdesentralisasi, Bitcoin beroperasi 24/7, tidak terpengaruh oleh perbatasan atau zona waktu. Di wilayah di mana kurangnya infrastruktur perbankan tradisional, Bitcoin sering digunakan sebagai solusi cepat dan murah untuk mengirim atau menerima dana tanpa bergantung pada perantara yang mahal. Meskipun biaya transaksi dapat bervariasi berdasarkan kepadatan jaringan, biaya ini umumnya jauh lebih rendah daripada biaya yang dikenakan oleh bank untuk transfer internasional. Selain itu, solusi Layer-2 seperti Lightning Network memungkinkan transaksi Bitcoin yang lebih cepat dan lebih murah.
+Karena sifatnya yang terdesentralisasi, Bitcoin beroperasi 24/7, tidak terpengaruh oleh perbatasan atau zona waktu. Di wilayah di mana kurangnya infrastruktur perbankan tradisional, Bitcoin sering digunakan sebagai solusi cepat dan murah untuk mengirim atau menerima dana tanpa bergantung pada perantara yang mahal. Meskipun biaya transaksi dapat bervariasi berdasarkan kepadatan jaringan, biaya ini umumnya jauh lebih rendah daripada biaya yang dikenakan oleh bank untuk transfer internasional. Selain itu, solusi Layer-2 seperti [Lightning Network](https://planb.academy/resources/glossary/lightning-network) memungkinkan transaksi Bitcoin yang lebih cepat dan lebih murah.
 
 
 #### Tempat penyimpanan nilai
@@ -1536,7 +1536,7 @@ Industri Bitcoin Wallet dibagi menjadi beberapa kategori, masing-masing melayani
 
 
 
-- **Produsen Hardware Wallet**: Perusahaan-perusahaan ini mengembangkan perangkat fisik yang dirancang untuk penyimpanan kunci yang aman. Beberapa diantaranya merupakan sumber terbuka, sementara yang lainnya menawarkan solusi eksklusif dengan berbagai fitur dan tingkat keamanan. Nama-nama yang terkenal termasuk Ledger, Trezor, Coinkite, Foundation, dan Shiftcrypto.
+- **Produsen [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Perusahaan-perusahaan ini mengembangkan perangkat fisik yang dirancang untuk penyimpanan kunci yang aman. Beberapa diantaranya merupakan sumber terbuka, sementara yang lainnya menawarkan solusi eksklusif dengan berbagai fitur dan tingkat keamanan. Nama-nama yang terkenal termasuk Ledger, Trezor, Coinkite, Foundation, dan Shiftcrypto.
 - **Software Wallet Pengembang**: Mulai dari perusahaan hingga pengembang independen yang membuat aplikasi seluler dan desktop. Penawaran mereka bervariasi dalam hal pengalaman pengguna, keamanan, dan fitur. Contohnya termasuk Sparrow, Wizard Sarden, Galoy, Synonym, dan Blockstream.
 - **Dompet DIY (*Do It Yourself*)**: Solusi sumber terbuka ini dirancang untuk pengguna tingkat lanjut yang menginginkan kontrol penuh dan ketergantungan minimal pada pihak ketiga. Membangun Wallet Anda sendiri akan mengurangi ketergantungan pada pihak ketiga dan dapat meningkatkan postur keamanan Anda. Opsi DIY yang terkenal termasuk Seedsigner dan Specter DIY.
 

@@ -1,0 +1,8 @@
+question: Ni uwuhe mushinge w’imibare utuma ingorane y’imirongo y’imibare idashoboka mu buryo bw’imibare mu bijanye n’ubuhinga bwo gupfuka amakuru y’imirongo y’imirongo?
+answer: Ugusangira kw'ibiharuro kutamenyekana igihe habaho umugwi w'ingendo biciye mu kwongerako ibiharuro kenshi
+wrong_answers:
+  - Uburinganire bw'imirongo y'imirongo yerekana uturongo turi ku ruhande rw'umurongo wa x
+  - Imikorere y'imibare y'ibice ikorwa mu bibanza bifise impera aho gukoresha imibare nyayo
+  - Umubare munini w'intango ukoreshwa nk'ikiranga umurima mu ihanganwa ry'umugongo
+explanation: |
+  Ingorane y’ingorane y’ibara ry’umubiri itandukanye ikomoka ku gukwiragira kw’ibiharuro kutamenyekana, kutagira umurongo igihe havutse umugwi w’inzinguzingu (G, 2G, 3G, ..., nG). Naho uturongo tuvyarwa mu buryo bukurikirana, dusa n’utunyanyagiye kandi tudasanzwe, bikaba bituma bidashoboka mu buryo bw’ubuhinga bwo guharura kumenya scalar s kuva ku ntumbero P = sG. Naho uburinganire, imibare y'ibice, n'ibiharuro binini vy'intango ari ibintu bihambaye vy'imirongo y'imirongo, ntibituma habaho igikorwa c'inzira imwe gishoboza gukingira urufunguzo rwa bose.

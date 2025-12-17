@@ -1,5 +1,5 @@
 ---
-name: Ejara Krypto
+name: Ejara Crypto
 description: Förvara, köp och sälj bitcoins från 1000 CFA-franc i fransktalande Afrika
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: 럼블 Wallet
+name: Rumble Wallet
 description: 재정적 자유를 통해 언론의 자유를 수호하는 크리에이터와 함께하세요.
 ---
 

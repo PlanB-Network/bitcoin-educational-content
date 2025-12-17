@@ -1,0 +1,8 @@
+question: Millist elliptilise kõvera võrrandit kasutab Bitcoin secp256k1?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin kasutab konkreetselt elliptilist kõverat secp256k1, mille lihtsustatud võrrand on y² = x³ + 7. See on erijuhtum üldisest elliptilise kõvera vormist y² = x³ + ax + b, kus a = 0 ja b = 7. Teised valikud on valed: y² = x³ + ax + b on üldine vorm, kuid mitte Bitcoin spetsiifiline kõver, y² = x³ + 5 kasutab vale konstanti ja y² = x³ + x + 7 sisaldab valesti lineaarset x-terminit, mida secp256k1 puhul ei ole olemas.

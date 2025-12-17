@@ -1,5 +1,5 @@
 ---
-name: BIP-39 عبارت عبور SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: چگونه می‌توانم یک passphrase به پورتفولیوی SeedSigner خود اضافه کنم؟
 ---
 

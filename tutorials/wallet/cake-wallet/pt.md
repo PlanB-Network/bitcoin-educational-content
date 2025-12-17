@@ -1,5 +1,5 @@
 ---
-name: Bolo Wallet
+name: Cake Wallet
 description: Tutorial sobre Cake Wallet e pagamentos silenciosos
 ---
 

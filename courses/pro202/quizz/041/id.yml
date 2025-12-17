@@ -1,0 +1,8 @@
+question: Apa yang akan terjadi pada total pasokan Bitcoin jika para penambang secara konsisten mengklaim hanya 90% dari subsidi blok yang diizinkan di semua blok?
+answer: Total pasokan akan berkurang secara permanen di bawah 21 juta BTC, karena subsidi yang tidak diklaim akan hilang selamanya
+wrong_answers:
+  - Sisa 10% akan terakumulasi dalam kumpulan cadangan untuk diklaim oleh penambang di masa depan selama periode biaya rendah
+  - Mekanisme penyesuaian tingkat kesulitan akan mengkompensasi dengan meningkatkan hadiah blok di masa depan untuk mempertahankan batas 21 juta
+  - Subsidi yang tidak diklaim akan didistribusikan kembali secara proporsional di antara para penerima biaya transaksi di blok berikutnya
+explanation: |
+  Protokol Bitcoin mengizinkan penambang untuk mengklaim kurang dari subsidi maksimum yang diizinkan, tetapi jumlah yang tidak diklaim akan hilang secara permanen - tidak ada mekanisme untuk mendistribusikan kembali atau memulihkannya nanti. Formula subsidi dan jadwal pembagian dua menentukan jumlah maksimum teoretis ~21 juta BTC, tetapi pasokan sebenarnya tergantung pada penambang yang mengklaim hak penuh mereka. Tidak seperti penyesuaian tingkat kesulitan yang merespons kondisi mining, tidak ada mekanisme kompensasi untuk hadiah yang tidak diklaim, sehingga total pasokan berpotensi mengalami deflasi jika penambang secara konsisten melakukan underclaim.

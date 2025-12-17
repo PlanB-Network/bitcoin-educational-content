@@ -1,5 +1,5 @@
 ---
-name: Kek Wallet
+name: Cake Wallet
 description: Cake Wallet ve Sessiz Ödemeler hakkında eğitim
 ---
 

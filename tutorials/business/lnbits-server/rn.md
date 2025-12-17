@@ -1,5 +1,5 @@
 ---
-name: Serveri y'ibice vya LN
+name: LNbits Server
 description: Gushiramwo no gutunganya umukozi wa LNbits yikorera kuri Ubuntu VPS na Phoenixd canke kuri Umbrel
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: モストロ
+name: Mostro
 description: LightningとNostrを介したKYCフリーのBitcoin P2P交換プラットフォーム
 ---
 

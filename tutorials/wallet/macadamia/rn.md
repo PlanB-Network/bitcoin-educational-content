@@ -1,5 +1,5 @@
 ---
-name: Igiti c’umukaraba Wallet.
+name: Macadamia Wallet
 description: Cashu telefone ngendanwa wallet ku kwishura BTC ata mazina kandi ubwo nyene
 ---
 

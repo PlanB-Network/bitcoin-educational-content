@@ -1,0 +1,8 @@
+question: Co dzieje się z prywatnością warunków wydatków transakcji P2SH w czasie?
+answer: Warunki wydatków pozostają ukryte do pierwszego wydania, a następnie stają się stale widoczne on-chain
+wrong_answers:
+  - Warunki wydatków pozostają na stałe prywatne, nawet po dokonaniu wielu transakcji
+  - Warunki wydatków są natychmiast widoczne, gdy adres P2SH jest tworzony po raz pierwszy
+  - Warunki wydatków stają się tymczasowo widoczne podczas wydatków, ale później są ponownie ukryte
+explanation: |
+  P2SH zapewnia prywatność, ukrywając rzeczywiste warunki wydatków (skrypt wykupu) za skrótem w scriptPubKey. Początkowo widoczny jest tylko 20-bajtowy hash, ukrywający, czy jest to multisig, timelock lub inne złożone warunki. Jednakże, gdy dane wyjściowe P2SH są wydawane po raz pierwszy, pełny skrypt redeem musi zostać ujawniony on-chain w celu walidacji, dzięki czemu warunki wydawania są stale widoczne dla wszystkich uczestników sieci. To jednorazowe ujawnienie jest kompromisem P2SH między prywatnością a funkcjonalnością.

@@ -1,8 +1,9 @@
-question: Wie werden Transaktionen im Lightning-Netzwerk gesichert?
-answer: Durch Kryptographie und indirekt durch die von Bitcoin-Minern verbrauchte Energie.
+question: Was ist das zentrale Prinzip von RGB?
+answer: Clientseitige Validierung
 wrong_answers:
-  - Nur durch die Verwendung von privaten Schlüsseln.
-  - Nur durch die Verwendung von öffentlichen Schlüsseln.
-  - Nur durch die Verwendung von sowohl privaten als auch öffentlichen Schlüsseln.
-explanation: Transaktionen im Lightning-Netzwerk werden durch Kryptographie und indirekt durch die von Bitcoin-Minern verbrauchte Energie gesichert.
-reviewed: true
+  - Globale Ausführung auf der Blockchain
+  - Föderierter Konsens
+  - Proof-of-Work
+explanation: |
+  RGB basiert auf einer lokalen Validierung der Zustände, wobei die Blockchain lediglich als kryptografische Verankerung und als Schutz vor Doppelausgaben dient.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mis juhtub virnaga pärast OP_CHECKSIG täitmist, kui allkirja kontrollimine õnnestub?
+answer: Väärtus 1 lükatakse virna
+wrong_answers:
+  - Allkiri ja avalik võti jäävad virna
+  - Korstnat tühjendatakse ja seatakse tühjaks
+  - Avaliku võtme hash lükatakse virna
+explanation: |
+  OP_CHECKSIG on virna transformeeriv opkood, mis võtab virnast allkirja ja avaliku võtme, kontrollib allkirja tehingu sighash'i suhtes ja lükkab virnale kas 1 (kehtiv) või 0 (kehtetu). Algne allkiri ja avalik võti eemaldatakse selle protsessi käigus. Korstnat ei tühjendata täielikult ja hash-väärtusi ei lükata, vaid ainult kontrolltoimingu booletiline tulemus.

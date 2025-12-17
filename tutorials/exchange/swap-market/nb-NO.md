@@ -1,5 +1,5 @@
 ---
-name: Byttemarkedet
+name: SwapMarket
 description: Bitcoin og Lightning swap-tjenester aggregator
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Нефритовый DIY
+name: Jade DIY
 description: Превратите плату за 15 долларов в полнофункциональное оборудование Bitcoin и wallet
 ---
 

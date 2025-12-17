@@ -1,0 +1,8 @@
+question: ¿Cuál es el mecanismo fundamental que permite a SegWit aumentar la capacidad de los bloques manteniendo la compatibilidad con los nodos anteriores a SegWit?
+answer: Sistema de ponderación de bloques en el que los datos testigo se descuentan un 75% en los cálculos de capacidad, lo que permite hasta 4 MB de datos totales mientras que los nodos heredados ven ≤1 MB
+wrong_answers:
+  - Algoritmos de compresión que reducen el tamaño de los datos testigo en un 75% antes de la transmisión, manteniendo los bloques por debajo de 1 MB para todos los nodos
+  - Ajuste dinámico del tamaño de los bloques que aumenta los límites en función del porcentaje de transacciones SegWit en cada bloque
+  - Se transmiten bloques de testigos separados sólo a los nodos actualizados, mientras que los nodos heredados reciben bloques tradicionales de 1 MB
+explanation: |
+  SegWit utiliza unidades de peso por bloque en las que los datos de transacciones base cuentan como 4 unidades de peso por byte, mientras que los datos testigo cuentan como 1 unidad de peso por byte. Este descuento del 75% permite bloques de hasta 4 millones de unidades de peso (potencialmente 4 MB con todos los datos testigo), al tiempo que garantiza que los nodos heredados nunca vean más de 1 MB de datos de transacciones base. Las otras opciones describen mecanismos inexistentes: no hay compresión, ni dimensionamiento dinámico, ni transmisión de bloques por separado.

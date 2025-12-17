@@ -1,5 +1,5 @@
 ---
-name: Rencanakan ₿ Akademi - Aplikasi Pir
+name: Plan ₿ Academy - Pears App
 description: Bagaimana cara menginstal dan menggunakan aplikasi Plan ₿ Academy di Pears?
 ---
 

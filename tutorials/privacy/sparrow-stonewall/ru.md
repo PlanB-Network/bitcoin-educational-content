@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - Стоунволл
+name: Sparrow Wallet - Stonewall
 description: Понимание и использование транзакций Stonewall на Sparrow
 ---
 

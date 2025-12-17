@@ -106,11 +106,9 @@ proofreading:
     contributor_names:
     reward: 24.72
   - language: sw
-    last_contribution_date: 2025-10-31
+    last_contribution_date:
     urgency: 1
     contributor_names:
-      - monyangi10
-      - Arianebtc
     reward: 6.18
   - language: zh-Hant
     last_contribution_date:

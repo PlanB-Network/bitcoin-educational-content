@@ -68,13 +68,13 @@ Meie koolituskursuse kolmandas osas läheme asja juurde: praktika! Eesmärk on o
 
 **4. jagu: Coinjoin-tehingute mõistmine**
 
-Kuidas me saame rääkida Bitcoini privaatsusest, ilma et mainiksime coinjoins'i? Jaotises 4 leiate kõik, mida selle segamismeetodi kohta teada peate. Saate teada, mis on coinjoinid, nende ajalugu ja eesmärgid, samuti erinevad olemasolevad coinjoini tüübid. Lõpuks vaatame kogenumatele kasutajatele, mis on anonsetid ja entroopia ning kuidas neid arvutada.
+Kuidas me saame rääkida Bitcoini privaatsusest, ilma et mainiksime [coinjoin](https://planb.academy/resources/glossary/coinjoin)s'i? Jaotises 4 leiate kõik, mida selle segamismeetodi kohta teada peate. Saate teada, mis on coinjoinid, nende ajalugu ja eesmärgid, samuti erinevad olemasolevad coinjoini tüübid. Lõpuks vaatame kogenumatele kasutajatele, mis on anonsetid ja entroopia ning kuidas neid arvutada.
 
 ![BTC204](assets/et/004.webp)
 
 **5. jagu: Teiste täiustatud konfidentsiaalsustehnikate probleemide mõistmine**
 
-Viiendas jaotises vaatleme kõiki teisi meetodeid, mis on saadaval teie privaatsuse kaitsmiseks Bitcoinis, välja arvatud coinjoin. Aastate jooksul on arendajad näidanud märkimisväärset loovust privaatsusele pühendatud vahendite väljatöötamisel. Vaatleme kõiki neid meetodeid, nagu payjoin, ühistehingud, Coin Swap ja Atomic Swap, kirjeldades üksikasjalikult nende toimimist, eesmärke ja võimalikke nõrkusi.
+Viiendas jaotises vaatleme kõiki teisi meetodeid, mis on saadaval teie privaatsuse kaitsmiseks Bitcoinis, välja arvatud coinjoin. Aastate jooksul on arendajad näidanud märkimisväärset loovust privaatsusele pühendatud vahendite väljatöötamisel. Vaatleme kõiki neid meetodeid, nagu [payjoin](https://planb.academy/resources/glossary/payjoin), ühistehingud, Coin Swap ja Atomic Swap, kirjeldades üksikasjalikult nende toimimist, eesmärke ja võimalikke nõrkusi.
 
 Samuti vaatleme privaatsust sõlmede võrgu ja tehingute levitamise tasandil. Samuti arutame erinevaid protokolle, mida on aastate jooksul pakutud kasutajate privaatsuse suurendamiseks Bitcoinis, sealhulgas staatiliste aadresside protokollid.
 
@@ -85,7 +85,7 @@ Kas olete valmis uurima Bitcoini privaatsuse keerdkäike? Lähme!
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Bitcoini UTXO mudel
+## Bitcoini [UTXO](https://planb.academy/resources/glossary/utxo) mudel
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Viimase puhul näeme, et sisend nr 0 ja väljund nr 1 kasutavad P2WPKH skripte (SegWit V0), samas kui väljund nr 0 kasutab teistsugust P2PKH skripti (Legacy).
 
-2010. aastate alguses oli see skriptide versioonil põhinev heuristika suhteliselt vähekasulik, kuna skriptide tüübid olid piiratud. Aja jooksul ja järjestikuste Bitcoini uuendustega on siiski kasutusele võetud üha rohkem erinevaid skripttüüpe. Seetõttu muutub see heuristika üha asjakohasemaks, kuna skripti tüüpide laiema valiku korral jagunevad kasutajad väiksemateks gruppideks, mis suurendab selle sisemise versioonide taaskasutamise heuristika rakendamise võimalusi. Sel põhjusel on üksnes konfidentsiaalsuse seisukohalt soovitatav valida kõige levinum skriptitüüp. Näiteks, kui ma neid ridu kirjutan, kasutatakse Taproot-skripte (`bc1p`) harvemini kui SegWit V0-skripte (`bc1q`). Kuigi esimesed pakuvad teatud spetsiifilistes kontekstides majanduslikke ja konfidentsiaalsuse eeliseid, võib traditsioonilisemate ühe allkirja kasutusalade puhul olla mõistlik jääda konfidentsiaalsuse huvides vanema standardi juurde, kuni uus standard on laiemalt kasutusele võetud.
+2010. aastate alguses oli see skriptide versioonil põhinev heuristika suhteliselt vähekasulik, kuna skriptide tüübid olid piiratud. Aja jooksul ja järjestikuste Bitcoini uuendustega on siiski kasutusele võetud üha rohkem erinevaid skripttüüpe. Seetõttu muutub see heuristika üha asjakohasemaks, kuna skripti tüüpide laiema valiku korral jagunevad kasutajad väiksemateks gruppideks, mis suurendab selle sisemise versioonide taaskasutamise heuristika rakendamise võimalusi. Sel põhjusel on üksnes konfidentsiaalsuse seisukohalt soovitatav valida kõige levinum skriptitüüp. Näiteks, kui ma neid ridu kirjutan, kasutatakse [Taproot](https://planb.academy/resources/glossary/taproot)-skripte (`bc1p`) harvemini kui SegWit V0-skripte (`bc1q`). Kuigi esimesed pakuvad teatud spetsiifilistes kontekstides majanduslikke ja konfidentsiaalsuse eeliseid, võib traditsioonilisemate ühe allkirja kasutusalade puhul olla mõistlik jääda konfidentsiaalsuse huvides vanema standardi juurde, kuni uus standard on laiemalt kasutusele võetud.
 
 ### Ümmargused maksed
 

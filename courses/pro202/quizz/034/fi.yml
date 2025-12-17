@@ -1,0 +1,8 @@
+question: Mikä erityinen elementti on sisällytettävä P2SH ScriptSigiin, joka erottaa sen tavallisista tapahtumasyötteistä?
+answer: Koko lunastusskripti itse sekä lukituksen avaamistiedot
+wrong_answers:
+  - Lunastuskäsikirjoituksen HASH160 ja julkiset avaimet
+  - Ainoastaan allekirjoitukset ja julkiset avaimet, joita tarvitaan ehtojen täyttämiseksi
+  - P2SH:n validoinnissa käytettävä version tavu ja osoitekoodaus
+explanation: |
+  P2SH-syötteet edellyttävät sekä lukituksen avaustiedot (allekirjoitukset jne.) että koko lunastuskäsikirjoituksen ScriptSigissä. Tämä on ainutlaatuista, koska lunastusskripti oli aiemmin piilotettu hashin taakse, ja se on nyt paljastettava validointia varten. Ensimmäisessä validointivaiheessa tarkistetaan, että HASH160(redeem_script) täsmää scriptPubKey:ssä olevaan hash-arvoon, minkä jälkeen lunastusskripti suoritetaan annettujen avaustietojen avulla. Muut vaihtoehdot ovat virheellisiä: hash on jo alkuperäisessä scriptPubKey-avaimessa, pelkät allekirjoitukset eivät riitä ilman skriptiä, ja versiotavuja käytetään osoitteen koodaukseen, ei menojen validointiin.

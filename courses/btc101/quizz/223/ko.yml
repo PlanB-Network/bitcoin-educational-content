@@ -1,10 +1,9 @@
-question: Lightning Network은 무엇을 가능하게 하나요?
-answer: 직접 채널에 연결되어 있지 않은 개인 간에 거래하는 경우.
+question: Liquid에서 사용되는 비트코인은 무엇이라고 불립니까?
+answer: L-BTC
 wrong_answers:
-  - 중앙 집중식 거래소와만 직접 채널 연결을 만들 수 있습니다.
-  - 모든 거래에 대해 여러 번의 확인이 필요한 채널 연결을 만들려면 다음과 같이 하세요.
-  - 대규모 거래로만 제한되는 직접 채널 연결을 설정합니다.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Lightning Network을 사용하면 직접 채널에 연결되지 않은 개인 간의 거래가 가능합니다
-  개인 간의 거래가 가능합니다.
-reviewed: true
+  Liquid에서는 비트코인이 BTC와 1대1로 연동된 L-BTC로 표현됩니다.
+reviewed: false

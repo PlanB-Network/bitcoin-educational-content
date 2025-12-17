@@ -1,5 +1,5 @@
 ---
-name: Макадамия Wallet
+name: Macadamia Wallet
 description: Cashu mobile wallet за анонимни и незабавни плащания с BTC
 ---
 

@@ -1,0 +1,8 @@
+question: Wie wird sichergestellt, dass beide Parteien bei einem Cross-Layer-Swap entweder die Transaktion erfolgreich abschließen oder beide scheitern, ohne dass Geldmittel verloren gehen?
+answer: In beiden Netzen wird dieselbe Hash-Sperre verwendet, wodurch eine kryptografische Verbindung zwischen den Swap-Legs entsteht
+wrong_answers:
+  - Zeitsperren verhindern, dass eine der Parteien Geldmittel beansprucht, bis beide Netzwerke die Transaktionen bestätigen
+  - Bei der MuSig2-Schlüsselaggregation müssen beide Parteien mitunterzeichnen, bevor Geldbeträge übertragen werden können
+  - "Der Skriptpfad von Taproot kehrt Transaktionen automatisch um, wenn ein Netzwerk nicht abgeschlossen werden kann
+explanation: |
+  Die atomare Natur der schichtenübergreifenden Swaps beruht auf der Verwendung identischer Hash-Sperren in beiden Netzen. Wenn der Empfänger das geheime Vorabbild preisgibt, um Gelder auf einer Ebene anzufordern, wird dasselbe Geheimnis für den Sender sichtbar und nutzbar, um auf der anderen Ebene gegenseitige Gelder anzufordern. Diese kryptografische Bindung gewährleistet Atomarität - entweder erhalten beide Parteien ihre Gelder oder keine von ihnen, was das Kontrahentenrisiko bei vertrauenslosen Swaps eliminiert.

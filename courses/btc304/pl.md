@@ -28,7 +28,7 @@ W BTC304 przyjrzymy się, dlaczego budowanie społeczności ma znaczenie, zbadam
 
 
 
-Witamy w BTC302!
+Witamy w BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ W pojedynkę można szybko zbadać jeden z wielu tuneli w króliczej norze Bitco
 
 
 
-## BTC302, co dalej
+## BTC 304, co dalej
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-W tym kursie BTC302 szczegółowo omówiliśmy, jak skonfigurować społeczność lub spotkanie, a także jak uruchomić różne projekty.
+W tym kursie BTC 304 szczegółowo omówiliśmy, jak skonfigurować społeczność lub spotkanie, a także jak uruchomić różne projekty.
 
 
 Gdy Twoja społeczność jest gotowa na kolejny krok, **możesz utworzyć formalne stowarzyszenie**.

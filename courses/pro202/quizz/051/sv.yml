@@ -1,0 +1,8 @@
+question: Vilka specifika data i Bitcoin:s P2P-nätverksmeddelandestruktur utgör 4-byte-kontrollsummefältet i varje meddelandekuvert?
+answer: De första 4 bytena av hash256 för meddelandets nyttolast
+wrong_answers:
+  - De första 4 bytena av SHA256-hashningen av hela meddelandekuvertet
+  - De första 4 bytena av hash256 för kommandofältet sammankopplade med nyttolasten
+  - De första 4 bytena i RIPEMD160-hashningen av meddelandets nyttolast
+explanation: |
+  Bitcoin:s P2P-meddelandekuvert använder en specifik kontrollsummemekanism där kontrollsumman på 4 byte innehåller de första 4 bytena av hash256 som endast tillämpas på meddelandets nyttolast. Detta ger integritetsverifiering för nyttolastdata under nätverksöverföringen. De andra alternativen är felaktiga eftersom de hänvisar till andra hashfunktioner (enstaka SHA256, RIPEMD160) eller andra indata (hela kuvertet, kommando+nyttodata) än vad Bitcoin faktiskt använder i sitt nätverksprotokoll.

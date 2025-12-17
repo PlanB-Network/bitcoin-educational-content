@@ -1,0 +1,8 @@
+question: Lorsqu'un nœud Bitcoin demande des en-têtes de bloc à l'aide de la commande getheaders, quel est le nombre maximum d'en-têtes qui peuvent être renvoyés dans une seule réponse, et qu'est-ce qui suit chaque en-tête de 80 octets ?
+answer: Il est possible de renvoyer jusqu'à 2000 en-têtes, chacun étant suivi d'un nombre de transactions fictives égal à zéro
+wrong_answers:
+  - Jusqu'à 1000 en-têtes peuvent être renvoyés, chacun étant suivi du nombre de transactions sous la forme d'une variable
+  - Jusqu'à 2000 en-têtes peuvent être renvoyés, chacun étant suivi d'une somme de contrôle de 4 octets des données de l'en-tête
+  - Jusqu'à 500 en-têtes peuvent être renvoyés, chacun étant suivi du hachage de la racine Merkle à des fins de vérification
+explanation: |
+  Le protocole P2P de Bitcoin limite spécifiquement les réponses getheaders à un maximum de 2000 en-têtes pour éviter de submerger les nœuds avec des réponses massives. Chaque en-tête comprend exactement 80 octets et est suivi d'un champ de comptage de transactions fixé à zéro, puisque les messages à en-tête seul n'incluent pas de transactions réelles. Cette conception permet une synchronisation efficace des chaînes, les nœuds pouvant rapidement télécharger et vérifier la structure de la chaîne proof-of-work avant de demander des données complètes sur les blocs.

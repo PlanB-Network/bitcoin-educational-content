@@ -1,8 +1,9 @@
-question: None amafaranga akoreshwa kuri Lightning Network akingirwa gute?
-answer: Biciye mu buhinga bwo gukingira amabuye y’agaciro no mu buryo butaziguye biciye ku nguvu zikoreshwa n’abacukuzi b’amabuye y’agaciro kuri Bitcoin.
+question: Ni ikihe shingiro nyamukuru rya RGB?
+answer: Kwemeza ku ruhande rw’umukiriya
 wrong_answers:
-  - Biciye mu gukoresha imfunguruzo z’ibanga gusa.
-  - Biciye mu gukoresha imfunguruzo za bose gusa.
-  - Biciye mu gukoresha imfunguruzo z’ibanga n’iz’abantu bose gusa.
-explanation: >-
-reviewed: true
+  - Gushyira mu bikorwa rusangi kuri blockchain
+  - Konsensusi ya federasiyo
+  - Proof-of-Work
+explanation: |
+  RGB ishingiye ku kwemeza uko ibintu bimeze mu buryo bw’aho biri, blockchain ikaba ikoreshwa gusa nk’ankeri ya kriptografiya no kurinda ikoreshwa kabiri ry’amafaranga.
+reviewed: false

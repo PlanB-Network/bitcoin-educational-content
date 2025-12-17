@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Ricochete
+name: Ashigaru - Ricochet
 description: Compreender e utilizar as transacções Ricochete
 ---
 ![cover ricochet](assets/cover.webp)

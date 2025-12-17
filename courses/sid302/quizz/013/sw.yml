@@ -1,0 +1,8 @@
+question: Katika HTLC inayowezeshwa na Taproot, nini hutokea wakati pande zote mbili zinapokubaliana kwa ushirikiano kukamilisha ubadilishaji wa tabaka mtambuka?
+answer: Wanasaini kwa pamoja kwa kutumia ufunguo wao wa umma uliojumlishwa kupitia MuSig2, na hivyo kuunda muamala usioweza kutofautishwa na malipo ya kawaida yenye sahihi moja.
+wrong_answers:
+  - Lazima zionyeshe hati kamili iliyo na hash na time locks on-chain kwa ajili ya uthibitishaji wa mtandao
+  - Wanachapisha tawi maalum la mti wa Merkle pekee linalohitajika huku wakificha ufunguo uliounganishwa kutoka kwa waangalizi.
+  - Wanatangaza miamala tofauti kwenye kila safu kwa wakati mmoja ili kuhakikisha utatuzi wa atomiki bila mkusanyiko wa vitufe
+explanation: |
+  "Njia muhimu" ya ushirikiano katika Taproot inaruhusu pande kuchanganya funguo zao kuwa ufunguo mmoja wa umma uliojumlishwa kwa kutumia MuSig2. Wote wawili wanapokubaliana, wanasaini tu muamala huo, ambao unaonekana sawa na malipo yoyote ya kawaida kwenye blockchain. Hii hutoa faragha na ufanisi wa hali ya juu kwa kuwa hakuna mantiki ya hati inayofunuliwa, ikichukua nafasi ndogo ya kuzuia. Chaguzi zingine zinaelezea vibaya tabia ya zamani ya HTLC au hali ya njia ya hati ya uhasama.

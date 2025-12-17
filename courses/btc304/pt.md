@@ -28,7 +28,7 @@ No BTC304, veremos por que a construção de comunidades é importante, explorar
 
 
 
-Bem-vindo ao BTC302!
+Bem-vindo ao BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Sozinho, pode explorar rapidamente um dos muitos túneis da toca do coelho da Bi
 
 
 
-## BTC302, O que se segue
+## BTC 304, O que se segue
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Neste curso BTC302, explicamos em pormenor como criar uma comunidade ou um encontro, bem como lançar uma variedade de projectos.
+Neste curso BTC 304, explicamos em pormenor como criar uma comunidade ou um encontro, bem como lançar uma variedade de projectos.
 
 
 Quando o seu bairro estiver pronto para dar o próximo passo, **pode criar uma associação formal**.

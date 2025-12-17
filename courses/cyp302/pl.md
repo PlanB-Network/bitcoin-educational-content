@@ -681,18 +681,18 @@ Najpierw ją zdefiniujmy. Załóżmy słownik *D*, który zrównuje wszystkie li
 Operator modulo w szyfrze przestawieniowym zapewnia zawijanie liter, dzięki czemu wszystkie litery szyfrogramu są zdefiniowane. Aby to zilustrować, rozważmy zastosowanie szyfru przestawieniowego na słowie "DOG".
 
 
-Załóżmy, że jednolicie wybrano klucz o wartości 17. Litera "O" jest równa 15. Bez operacji modulo, dodanie tej liczby tekstu jawnego do klucza dałoby liczbę szyfrogramu równą 32. Jednak ta liczba szyfrogramu nie może zostać przekształcona w literę szyfrogramu, ponieważ alfabet angielski ma tylko 26 liter. Operacja modulo zapewnia, że liczba szyfrogramu wynosi w rzeczywistości 6 (wynik $32 \mod 26$), co odpowiada literze szyfrogramu "G".
+Załóżmy, że jednolicie wybrano klucz o wartości $17$. Litera „O” odpowiada $14$. Bez operacji modulo dodanie tej liczby tekstu jawnego do klucza dałoby liczbę szyfrogramu równą $31$. Jednak tej liczby nie można zamienić na literę szyfrogramu, ponieważ alfabet angielski ma tylko $26$ liter. Operacja modulo zapewnia, że liczba szyfrogramu wynosi faktycznie $5$ (wynik $31 \mod 26$), co odpowiada literze szyfrogramu „F”.
 
 
 Całe szyfrowanie słowa "DOG" z wartością klucza 17 wygląda następująco:
 
 
 
-- Wiadomość = DOG = D,O,G = 3,15,6
+**Wiadomość = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Każdy może intuicyjnie zrozumieć, jak działa szyfr przestawieniowy i prawdopodobnie sam go używać. Aby jednak pogłębić swoją wiedzę na temat kryptografii, ważne jest, aby zacząć czuć się bardziej komfortowo z formalizacją, ponieważ schematy staną się znacznie trudniejsze. Dlatego też kroki szyfru przestawieniowego zostały sformalizowane.

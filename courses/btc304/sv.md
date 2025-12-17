@@ -28,7 +28,7 @@ I BTC304 kommer vi att titta på varför gemenskapsbyggande är viktigt, utforsk
 
 
 
-Välkommen till BTC302!
+Välkommen till BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Ensam kan du snabbt utforska en av de många tunnlarna i Bitcoin-kaninhålet. Me
 
 
 
-## BTC302, Vad händer härnäst?
+## BTC 304, Vad händer härnäst?
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-I den här BTC302-kursen har vi gått in i detalj på hur man skapar en community eller meet-up, samt hur man startar en mängd olika projekt.
+I den här BTC 304-kursen har vi gått in i detalj på hur man skapar en community eller meet-up, samt hur man startar en mängd olika projekt.
 
 
 När din förening är redo att ta nästa steg kan du **skapa en formell förening**.

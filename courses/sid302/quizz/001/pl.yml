@@ -1,0 +1,8 @@
+question: Ile podpisów funkcyjnych jest wymaganych do zatwierdzenia bloku w Liquid Network?
+answer: Co najmniej 11 z 15 funkcjonariuszy musi podpisać umowę
+wrong_answers:
+  - Co najmniej 8 z 15 funkcjonariuszy musi złożyć podpis
+  - Co najmniej 10 z 15 funkcjonariuszy musi podpisać umowę
+  - Co najmniej 12 z 15 funkcjonariuszy musi złożyć podpis
+explanation: |
+  Liquid Network wymaga podpisów co najmniej 11 z 15 osób funkcyjnych w celu zatwierdzenia bloku, co stanowi próg dwóch trzecich plus jeden. Ten konkretny wymóg zapewnia solidny konsensus, jednocześnie uniemożliwiając małej grupie kontrolowanie sieci. Pozostałe opcje są nieprawidłowe: 8 podpisów byłoby zbyt mało dla bezpieczeństwa, 10 nie spełniałoby progu dwóch trzecich, a 12 byłoby niepotrzebnie restrykcyjne dla normalnych operacji.

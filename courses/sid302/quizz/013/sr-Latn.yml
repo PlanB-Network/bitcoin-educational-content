@@ -1,0 +1,8 @@
+question: U Taproot-omogućenoj HTLC, šta se dešava kada se obe strane kooperativno slože da završe zamenu između slojeva?
+answer: Oni supodpisuju koristeći svoj agregirani javni ključ putem MuSig2, stvarajući transakciju koja se ne razlikuje od standardnog plaćanja s jednim potpisom.
+wrong_answers:
+  - Moraju otkriti kompletan skript koji sadrži heš i vremenske brave on-chain za verifikaciju mreže.
+  - Objavljuju samo određenu granu Merkle stabla koja je potrebna, dok agregirani ključ ostaje skriven od posmatrača.
+  - Oni emituju odvojene transakcije na svakom sloju istovremeno kako bi osigurali atomsko poravnanje bez agregacije ključeva
+explanation: |
+  Kooperativa "key path" u Taproot omogućava stranama da kombinuju svoje ključeve u jedan agregirani javni ključ koristeći MuSig2. Kada se obe strane slože, jednostavno ko-potpisuju transakciju, koja izgleda identično kao bilo koje standardno plaćanje na blockchain-u. Ovo pruža maksimalnu privatnost i efikasnost jer se ne otkriva logika skripte, trošeći minimalan prostor u bloku. Druge opcije netačno opisuju ili ponašanje starog HTLC ili scenario sa neprijateljskim putem skripte.

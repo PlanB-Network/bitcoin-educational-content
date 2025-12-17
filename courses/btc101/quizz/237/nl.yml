@@ -1,8 +1,0 @@
-question: Wat is een manier om de Lightning Network zelf te testen?
-answer: Door de podcastapplicatie Fountain te proberen.
-wrong_answers:
-  - Door Mining Bitcoin met behulp van een personal computer.
-  - Door Bitcoin van de bank te kopen.
-  - Door een nieuwe cryptocurrency te creëren.
-explanation: >-
-reviewed: true

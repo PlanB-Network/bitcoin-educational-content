@@ -1,5 +1,5 @@
 ---
-name: BTCPay 서버 - 엄브렐
+name: BTCPay Server - Umbrel
 description: 엄브렐에 BTCPay 서버를 설치 및 사용하여 Bitcoin 및 라이트닝 수락하기
 ---
 

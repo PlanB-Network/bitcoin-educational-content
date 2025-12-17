@@ -1,5 +1,5 @@
 ---
-name: Umucungezi w'imbuto
+name: Seedkeeper
 description: Noshobora gute gusubiza inyuma wallet Bitcoin yanje nkoresheje ikarita y’ubwenge ya Seedkeeper?
 ---
 

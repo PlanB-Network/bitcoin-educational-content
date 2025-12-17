@@ -1,0 +1,8 @@
+question: Koja je primarna prednost korišćenja Taproot sa MuSig2 za zamene između slojeva u poređenju sa starijim SegWit v0 HTLC-ovima?
+answer: Kooperativni swapovi se pojavljuju kao standardne transakcije sa jednim potpisom, obezbeđujući potpunu privatnost i minimalno korišćenje prostora u bloku
+wrong_answers:
+  - Taproot eliminiše potrebu za vremenskim zaključavanjima, čineći zamene bržim i efikasnijim od starijih HTLC-ova
+  - MuSig2 omogućava da se više heš zaključavanja koristi istovremeno, omogućavajući složenije aranžmane zamene između više strana.
+  - Taproot zamene mogu biti završene bez otkrivanja bilo kakvih kriptografskih tajni, za razliku od nasleđenih HTLC-ova koji uvek otkrivaju preimage.
+explanation: |
+  Taproot sa MuSig2 revolucionira privatnost HTLC kroz agregaciju ključeva. U kooperativnom 'happy path' scenariju, obe strane kombinuju svoje ključeve u jedan agregirani javni ključ i zajednički potpisuju transakciju. Ovo čini zamenu neprepoznatljivom od regularnog plaćanja, trošeći minimalan prostor u bloku i ne otkrivajući uslove zamene. Legacy SegWit v0 HTLC-ovi zahtevali su objavljivanje kompletne logike skripte on-chain, čineći ih lako prepoznatljivim i skupljim. Ostale opcije su netačne: vremenska zaključavanja ostaju ključna za sigurnost, višestruki hash zaključci nisu ključna inovacija, a preimage se i dalje otkrivaju prilikom potraživanja sredstava.

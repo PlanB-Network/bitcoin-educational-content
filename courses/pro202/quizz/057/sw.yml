@@ -1,0 +1,8 @@
+question: Kwa nini P2WSH hutumia SHA256 hashing badala ya hash160 (RIPEMD160+SHA256) kwa ahadi ya hati katika programu za mashahidi?
+answer: SHA256 hutoa hash ya baiti 32 inayotofautisha P2WSH na hash ya baiti 20 ya P2WPKH na inatoa usalama zaidi kwa hati changamano.
+wrong_answers:
+  - SHA256 ni kasi zaidi kukokotoa kuliko hash160, hivyo kupunguza muda wa uthibitishaji kwa miamala tata ya multisig katika hali zenye matokeo ya juu
+  - "Hash160 iliondolewa katika SegWit kutokana na udhaifu unaoweza kutokea wa mgongano uliogunduliwa wakati wa awamu ya awali ya maendeleo ya Bitcoin"
+  - SHA256 inaruhusu hati za mashahidi kuwa kubwa kuliko baiti 520, huku hash160 ikiweka vikwazo vikali vya ukubwa kwenye ugumu wa hati
+explanation: |
+  P2WSH hutumia SHA256 kuunda hashes za baiti 32 haswa ili kutofautisha na ahadi ya hash160 ya baiti 20 ya P2WPKH, ikiruhusu nodi kutambua mara moja toleo la programu ya shahidi. Hashe ndefu pia hutoa usalama ulioimarishwa kwa hati changamano ambazo zinaweza kuwa na thamani kubwa au uso zaidi wa shambulio. Chaguzi zingine si sahihi: SHA256 si lazima iwe haraka kuliko hash160, hash160 haikuondolewa kwa sababu ya udhaifu, na chaguo la kitendakazi cha hash haliathiri mipaka ya ukubwa wa hati.

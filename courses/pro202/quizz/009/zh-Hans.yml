@@ -1,0 +1,8 @@
+question: Bitcoin 的 secp256k1 使用的具体椭圆曲线方程是什么？
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + 3
+  - y² = x³ + 5
+  - y² = x³ + 1
+explanation: |
+  Bitcoin 使用由有限域上 y² = x³ + 7 等式定义的 secp256k1 曲线。之所以选择这个特定方程，是因为它保留了对加密安全至关重要的对称性和非线性特性。系数 7 是标准 secp256k1 规范的一部分，使其有别于其他可能使用 1、3 或 5 等不同常数的椭圆曲线。

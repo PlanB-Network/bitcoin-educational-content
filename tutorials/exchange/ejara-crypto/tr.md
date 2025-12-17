@@ -1,5 +1,5 @@
 ---
-name: Ejara Kripto
+name: Ejara Crypto
 description: Fransızca konuşulan Afrika'da 1000 CFA frankından bitcoin depolayın, satın alın ve satın
 ---
 

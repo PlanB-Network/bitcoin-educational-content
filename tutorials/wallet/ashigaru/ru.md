@@ -1,5 +1,5 @@
 ---
-name: Ашигару
+name: Ashigaru
 description: fork от Samourai Wallet для защиты, управления и смешивания ваших биткоинов
 ---
 

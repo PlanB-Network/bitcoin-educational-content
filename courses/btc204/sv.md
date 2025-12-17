@@ -71,7 +71,7 @@ Syftet med denna utbildning är inte att göra dig helt anonym i din användning
 **Avsnitt 1: Definitioner och nyckelbegrepp**
 
 
-Till att börja med ska vi gå igenom de grundläggande principer som styr driften av Bitcoin, så att vi sedan lugnt kan ta itu med begreppen som rör sekretess. Det är viktigt att behärska några grundläggande begrepp, till exempel UTXO, mottagningsadresser och skript, innan du fullt ut kan förstå de begrepp som vi kommer att behandla i följande avsnitt. Vi kommer också att introducera Bitcoin:s allmänna sekretessmodell, som den föreställdes av Satoshi Nakamoto, vilket gör det möjligt för oss att förstå de därmed sammanhängande insatserna och riskerna.
+Till att börja med ska vi gå igenom de grundläggande principer som styr driften av Bitcoin, så att vi sedan lugnt kan ta itu med begreppen som rör sekretess. Det är viktigt att behärska några grundläggande begrepp, till exempel [UTXO](https://planb.academy/resources/glossary/utxo), mottagningsadresser och skript, innan du fullt ut kan förstå de begrepp som vi kommer att behandla i följande avsnitt. Vi kommer också att introducera Bitcoin:s allmänna sekretessmodell, som den föreställdes av Satoshi Nakamoto, vilket gör det möjligt för oss att förstå de därmed sammanhängande insatserna och riskerna.
 
 
 ![BTC204](assets/sv/001.webp)
@@ -98,7 +98,7 @@ I det tredje avsnittet av vår utbildningskurs går vi in på det väsentliga: �
 **Avsnitt 4: Förståelse av CoinJoin-transaktioner**
 
 
-Hur kan vi prata om integritet på Bitcoin utan att nämna coinjoins? I avsnitt 4 får du reda på allt du behöver veta om den här mixningsmetoden. Du får lära dig vad coinjoins är, deras historia och mål, samt de olika typerna av CoinJoin som finns. Slutligen, för den mer erfarna användaren, tar vi en titt på vad anonsets och entropi är och hur man beräknar dem.
+Hur kan vi prata om integritet på Bitcoin utan att nämna [coinjoin](https://planb.academy/resources/glossary/coinjoin)s? I avsnitt 4 får du reda på allt du behöver veta om den här mixningsmetoden. Du får lära dig vad coinjoins är, deras historia och mål, samt de olika typerna av CoinJoin som finns. Slutligen, för den mer erfarna användaren, tar vi en titt på vad anonsets och entropi är och hur man beräknar dem.
 
 
 ![BTC204](assets/sv/004.webp)
@@ -502,7 +502,7 @@ Finns det något bättre sätt att motverka Blockchain-analys än att lära sig 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 I detta kan vi dra en analogi med kryptografi och kryptoanalys. En duktig kryptograf är först och främst en duktig kryptoanalytiker. För att ta fram en ny krypteringsalgoritm måste du veta vilka attacker den kommer att utsättas för och även studera varför tidigare algoritmer har brutits. Samma princip gäller för Bitcoin-sekretess. Att förstå Blockchain-analysmetoder är nyckeln till att skydda sig mot dem. Det är därför jag har inkluderat ett helt avsnitt on chain-analys i den här utbildningen.
 
@@ -822,7 +822,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 På den senare kan vi se att ingång nr 0 och utgång nr 1 använder P2WPKH-skript (SegWit V0), medan utgång nr 0 använder ett annat P2PKH-skript (Legacy).
 
 
-I början av 2010-talet var denna heuristik baserad på versionshantering av skript relativt oanvändbar på grund av de begränsade typerna av tillgängliga skript. Med tiden och med successiva uppdateringar av Bitcoin har dock en allt större mångfald av skripttyper införts. Denna heuristik blir därför alltmer relevant, eftersom användarna med ett bredare utbud av skripttyper delas in i mindre grupper, vilket ökar chanserna att tillämpa denna heuristik för återanvändning av intern versionering. Av denna anledning, och endast ur ett sekretessperspektiv, är det tillrådligt att välja den vanligaste typen av skript. Till exempel, när jag skriver dessa rader, används Taproot-skript (`bc1p`) mindre ofta än SegWit V0-skript (`bc1q`). Även om de förra erbjuder ekonomiska och sekretessmässiga fördelar i vissa specifika sammanhang, kan det för mer traditionella användningsområden med en enda signatur vara vettigt att hålla sig till en äldre standard av sekretessskäl, tills den nya standarden har antagits i större utsträckning.
+I början av 2010-talet var denna heuristik baserad på versionshantering av skript relativt oanvändbar på grund av de begränsade typerna av tillgängliga skript. Med tiden och med successiva uppdateringar av Bitcoin har dock en allt större mångfald av skripttyper införts. Denna heuristik blir därför alltmer relevant, eftersom användarna med ett bredare utbud av skripttyper delas in i mindre grupper, vilket ökar chanserna att tillämpa denna heuristik för återanvändning av intern versionering. Av denna anledning, och endast ur ett sekretessperspektiv, är det tillrådligt att välja den vanligaste typen av skript. Till exempel, när jag skriver dessa rader, används [Taproot](https://planb.academy/resources/glossary/taproot)-skript (`bc1p`) mindre ofta än SegWit V0-skript (`bc1q`). Även om de förra erbjuder ekonomiska och sekretessmässiga fördelar i vissa specifika sammanhang, kan det för mer traditionella användningsområden med en enda signatur vara vettigt att hålla sig till en äldre standard av sekretessskäl, tills den nya standarden har antagits i större utsträckning.
 
 
 ### Betalningar med runda tal

@@ -1,5 +1,5 @@
 ---
-name: Torta Wallet
+name: Cake Wallet
 description: Tutorial su Cake Wallet e sui pagamenti silenziosi
 ---
 

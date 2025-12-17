@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck der Wartezeit von 102 Bestätigungen während des Umstellungsprozesses von Bitcoin auf Liquid?
+answer: Zum Schutz vor Bitcoin-Blockchain-Umstrukturierungen vor der Prägung von L-BTC
+wrong_answers:
+  - Ausreichend Zeit für den Verband, um die Identität der Benutzer und die Einhaltung der Vorschriften zu überprüfen
+  - Um sicherzustellen, dass das Liquid-Netz über ausreichende Kapazitäten zur Verarbeitung der eingehenden Transaktionen verfügt
+  - Zeit für die 11-von-15-Mehrfachunterschriftsberechtigung von Föderationsmitgliedern zu schaffen
+explanation: |
+  Die Wartezeit von 102 Bestätigungen (ca. 17 Stunden) wurde speziell zum Schutz vor Bitcoin-Blockchain-Umstrukturierungen entwickelt. Da Bitcoin mit probabilistischer Endgültigkeit arbeitet, gibt es immer eine kleine Chance, dass Blöcke umorganisiert werden, wodurch Transaktionen ungültig werden könnten. Durch das Warten auf 102 Bestätigungen stellt das System sicher, dass die Bitcoin-Transaktion, die Gelder an die Verbandsadresse sendet, tief vergraben ist und mit großer Wahrscheinlichkeit nicht rückgängig gemacht werden kann. Dadurch wird das Szenario verhindert, dass L-BTC auf Liquid geprägt wird, die zugrundeliegende Bitcoin-Transaktion jedoch aufgrund einer Umstrukturierung rückgängig gemacht wird. Die anderen Optionen sind nicht korrekt, da die Identitätsüberprüfung nicht Teil des automatisierten Peg-In-Prozesses ist, die Netzwerkkapazität kein begrenzender Faktor ist, der solche Verzögerungen erfordert, und die 11-von-15-Multisig-Autorisierung für Peg-Outs und nicht für Peg-Ins verwendet wird.

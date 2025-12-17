@@ -1,0 +1,8 @@
+question: Koju kritičnu stratešku prednost pruža regulatorna pozicija Liquid u poređenju sa drugim platformama za tokenizaciju kao što su Ethereum ili Solana?
+answer: Liquid izbegava rizike neregistrovanih hartija od vrednosti koristeći Bitcoin (L-BTC) kao svoj izvorni aset bez pre-mining ili sprovođenja ICO-a
+wrong_answers:
+  - Liquid posluje pod posebnim regulatornim sandboxom koji ga izuzima od zakona o hartijama od vrednosti u većini jurisdikcija
+  - "Federacijski model Liquid automatski kvalifikuje sve izdate tokene kao regulisane hartije od vrednosti prema postojećim okvirima"
+  - Liquid je dobio opštu regulatornu dozvolu od glavnih finansijskih vlasti za sve tokenizovane aktive na svojoj platformi
+explanation: |
+  Strateška regulatorna prednost Liquid proizlazi iz njegove tehničke arhitekture, a ne iz posebnih izuzetaka ili odobrenja. Korišćenjem Bitcoin kao svog izvornog sredstva (L-BTC) bez pre-mining tokena ili sprovođenja ICO-a, Liquid izbegava klasifikaciju "neprijavljene hartije od vrednosti" koja preti mnogim drugim blockchain platformama. Ovo je ključno jer su regulatorne vlasti poput SEC-a sve više ispitivale blockchain projekte koji su kreirali i prodavali sopstvene tokene, potencijalno ih klasifikujući kao neprijavljene hartije od vrednosti. Pogrešni odgovori pogrešno sugerišu da Liquid ima posebne regulatorne dozvole ili automatske funkcije usklađenosti, dok u stvarnosti njegova prednost dolazi iz potpunog izbegavanja problematične token ekonomije.

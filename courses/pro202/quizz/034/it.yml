@@ -1,0 +1,8 @@
+question: Quale elemento specifico deve essere incluso in uno ScriptSig P2SH che lo distingue dai normali input di transazione?
+answer: Lo stesso script di riscatto completo con i dati di sblocco
+wrong_answers:
+  - L'HASH160 dello script redeem e le chiavi pubbliche
+  - Solo le firme e le chiavi pubbliche necessarie per soddisfare le condizioni
+  - Il byte della versione e la codifica dell'indirizzo per la convalida P2SH
+explanation: |
+  Gli ingressi P2SH richiedono sia i dati di sblocco (firme, ecc.) che il redeem script completo nello ScriptSig. Si tratta di una caratteristica unica, perché il redeem script era precedentemente nascosto dietro un hash e ora deve essere rivelato per la convalida. La prima fase di convalida verifica che HASH160(redeem_script) corrisponda all'hash nella scriptPubKey, quindi il redeem script viene eseguito con i dati di sblocco forniti. Le altre opzioni non sono corrette: l'hash è già presente nello scriptPubKey originale, le firme da sole non sono sufficienti senza lo script e i byte di versione sono utilizzati per la codifica degli indirizzi, non per la convalida delle spese.

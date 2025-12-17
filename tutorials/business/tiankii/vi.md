@@ -1,5 +1,5 @@
 ---
-name: Thiankii
+name: Tiankii
 description: Bộ công cụ Lightning dành cho nhà bán lẻ và người tiêu dùng
 ---
 

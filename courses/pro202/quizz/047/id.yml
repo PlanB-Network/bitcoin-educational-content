@@ -1,0 +1,8 @@
+question: Apa rumus matematika yang digunakan untuk menghitung subsidi blok pada ketinggian blok tertentu h dalam protokol Bitcoin?
+answer: subsidi = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - subsidi = 50_000_000_000 / (2^(h / 210_000))
+  - subsidi = 5_000_000_000 * (0.5^(h % 210_000))
+  - subsidi = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Rumus yang benar menggunakan operasi pergeseran bit di mana 5_000_000_000 mewakili 50 BTC dalam satoshi, dan operator pergeseran kanan >> secara efektif membagi dengan pangkat 2. Pembagian dasar h // 210_000 menentukan berapa banyak periode pembagian yang terjadi. Jawaban salah yang pertama menggunakan pembagian biasa, bukan pergeseran bit, dan dimulai dengan nilai dasar yang salah. Jawaban kedua menggunakan modulo dan bukan pembagian dasar, yang akan menciptakan pola siklus daripada pembagian dua kali lipat. Jawaban ketiga menggunakan operasi modulo yang akan mengatur ulang penghitung halving setiap 210.000 blok dan bukannya mengakumulasi halving dari waktu ke waktu.

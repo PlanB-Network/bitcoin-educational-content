@@ -1,5 +1,5 @@
 ---
-name: Ibiro vya Spectre
+name: Specter Desktop
 description: Gucungera ibitabo vyawe vy'imikono myinshi Bitcoin mu busegaba bwose ukoresheje urudodo rwawe bwite
 ---
 

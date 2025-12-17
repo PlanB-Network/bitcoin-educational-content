@@ -1,0 +1,8 @@
+question: Qual è l'elemento di identità nel gruppo della curva ellittica utilizzato per le operazioni di addizione dei punti?
+answer: Il punto all'infinito
+wrong_answers:
+  - Il punto di origine (0,0)
+  - Il punto generatore G
+  - Il parametro della curva a
+explanation: |
+  Il punto all'infinito funge da elemento di identità nei gruppi di curve ellittiche, il che significa che aggiungendo un qualsiasi punto P al punto all'infinito, il punto P rimane invariato. Ciò è analogo al funzionamento dell'addizione di zero nell'aritmetica regolare. L'origine (0,0) non si trova necessariamente sulla curva, il punto generatore G è utilizzato per la creazione di chiavi pubbliche e il parametro a della curva è solo un coefficiente nell'equazione della curva, non un elemento di identità.

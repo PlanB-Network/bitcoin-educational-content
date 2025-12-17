@@ -1,0 +1,8 @@
+question: Apa saja dua pemeriksaan verifikasi penting yang harus dilakukan oleh node Bitcoin ketika menerima blok baru sebelum menerimanya ke dalam blockchain?
+answer: Hash blok harus di bawah target tingkat kesulitan dan akar Merkle yang dihitung harus cocok dengan akar Merkle header
+wrong_answers:
+  - Stempel waktu blokir harus valid dan semua tanda tangan transaksi harus diverifikasi secara kriptografis
+  - Ukuran blok harus di bawah 1MB dan hash blok sebelumnya harus merujuk pada blok valid yang diketahui
+  - Versi blok harus sesuai dengan konsensus jaringan dan total biaya transaksi harus melebihi reward mining
+explanation: |
+  Prinsip "jangan percaya, verifikasi" dari Bitcoin membutuhkan dua pemeriksaan mendasar untuk penerimaan blok: Validasi proof-of-work (hash blok di bawah target kesulitan) dan verifikasi integritas transaksi (pencocokan akar Merkle). Walaupun pemeriksaan lain seperti validasi stempel waktu, verifikasi tanda tangan, dan batas ukuran juga penting, dua pemeriksaan khusus ini memastikan bahwa blok tersebut memenuhi persyaratan tingkat kesulitan dan berisi transaksi yang diklaim tanpa gangguan.

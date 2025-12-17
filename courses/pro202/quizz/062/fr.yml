@@ -1,0 +1,8 @@
+question: Dans la pile de témoins d'une transaction P2WSH pour un multisig 2 sur 3, pourquoi un élément vide doit-il être inclus au bas de la pile de témoins ?
+answer: Pour compenser le bogue de CHECKMULTISIG qui consomme un élément de pile supplémentaire pendant l'exécution
+wrong_answers:
+  - "Pour fournir une place à la troisième signature qui n'a pas été utilisée dans la validation multisig 2 sur 3"
+  - Séparer les données de la signature du script du témoin pour une analyse correcte de la validation SegWit
+  - Pour s'assurer que la pile de témoins a un nombre pair d'éléments pour une construction efficace de l'arbre de Merkle
+explanation: |
+  L'opcode CHECKMULTISIG présente un bogue historique dans lequel il extrait un élément supplémentaire de la pile au-delà de ce qui est nécessaire. Ce problème affecte toutes les transactions multisig, y compris P2WSH. L'élément vide compense ce bogue et garantit que les éléments restants de la pile (signatures et script témoin) sont correctement positionnés pour la validation. Les autres options sont incorrectes : les signatures inutilisées ne sont pas représentées par des éléments vides, l'analyse des témoins ne nécessite pas d'éléments de séparation et les piles de témoins n'ont pas besoin d'un nombre pair d'éléments pour les opérations de merkle.

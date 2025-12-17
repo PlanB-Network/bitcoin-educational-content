@@ -1,0 +1,8 @@
+question: What is the primary architectural relationship between Lightning Network nodes and the Bitcoin blockchain?
+answer: Lightning nodes must connect to Bitcoin Core to access blockchain data and transaction information
+wrong_answers:
+  - Lightning nodes operate independently and only sync with Bitcoin blockchain during channel settlements
+  - Lightning nodes create their own blockchain that periodically merges with the Bitcoin network
+  - Lightning nodes connect directly to mining pools to validate transactions without using Bitcoin Core
+explanation: |
+  Lightning Network operates as a second-layer solution that requires constant connection to the Bitcoin blockchain through Bitcoin Core nodes. This connection is essential because Lightning nodes need real-time access to blockchain data, transaction information, and network state to function properly. The other options are incorrect because Lightning nodes cannot operate independently of Bitcoin (they need blockchain data for security), they don't create separate blockchains (Lightning is off-chain but Bitcoin-secured), and they don't connect to mining pools directly (they need full blockchain data, not just mining services).

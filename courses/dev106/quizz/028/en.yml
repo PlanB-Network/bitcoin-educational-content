@@ -1,0 +1,8 @@
+question: What type of wallet structure forms the foundation of each Lightning payment channel between two parties?
+answer: A 2-of-2 multisignature wallet where both parties must agree on every payment
+wrong_answers:
+  - A single-signature wallet controlled by the node with the highest stake
+  - A 3-of-3 multisignature wallet including a third-party arbitrator for disputes
+  - A time-locked wallet that automatically releases funds after a set period
+explanation: |
+  Lightning payment channels are built on 2-of-2 multisignature wallets, which means both parties have control over the funds and both must agree on every transaction within the channel. This structure ensures security and trust between the two participants. The other options are incorrect: single-signature wallets would give one party complete control (defeating the purpose of a trustless system), 3-of-3 multisig would require a third party (contradicting Lightning's peer-to-peer nature), and time-locked wallets don't provide the interactive payment functionality that channels require.

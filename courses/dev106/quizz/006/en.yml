@@ -1,0 +1,8 @@
+question: What does the acronym CRUD represent in the context of data operations?
+answer: Create, Read, Update, Delete - the four basic operations performed on data
+wrong_answers:
+  - Control, Request, Upload, Download - the four steps of HTTP communication
+  - Client, Response, User, Data - the four components of web applications
+  - Connect, Retrieve, Utilize, Disconnect - the four phases of database interaction
+explanation: |
+  CRUD stands for Create, Read, Update, and Delete, which are the four fundamental operations that can be performed on any data storage system. These operations map directly to HTTP methods: POST for Create, GET for Read, PUT for Update, and DELETE for Delete. The other options are incorrect because they don't represent the standard CRUD acronym used universally in programming and database management.

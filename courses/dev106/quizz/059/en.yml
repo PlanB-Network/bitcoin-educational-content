@@ -1,0 +1,8 @@
+question: In the Pleb Wallet React application, what is the primary architectural consequence of implementing all Lightning wallet functionality within a Single Page Application (SPA) rather than using a multi-page application approach?
+answer: All state management and component interactions must be handled in memory using React hooks, requiring careful coordination between components for data consistency
+wrong_answers:
+  - Database connections must be established directly from each React component, bypassing the backend API for real-time Lightning network operations
+  - "Lightning Network operations require client-side cryptographic key management within the browser's local storage for security and transaction signing"
+  - Multiple HTTP sessions must be maintained simultaneously to handle concurrent Lightning invoice creation and payment processing across different browser tabs
+explanation: |
+  In a SPA architecture like Pleb Wallet, all application state (balances, transactions, user data) exists in browser memory and must be coordinated between components using React hooks like useState and useEffect. This differs from multi-page applications where each page can independently fetch and manage its own data. The SPA approach requires careful state synchronization - when a payment is made, multiple components (balance display, transaction list, etc.) must be updated consistently. The wrong answers incorrectly suggest direct database access, client-side Lightning operations, or session management issues that don't apply to this frontend-backend API architecture.

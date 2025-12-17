@@ -1,0 +1,8 @@
+question: What does the colon (:) symbol represent when defining routes in Express Router?
+answer: It defines a route parameter that can be extracted from the URL
+wrong_answers:
+  - It separates the HTTP method from the route path definition
+  - It indicates a required middleware function for that specific route
+  - It marks the route as accessible only to authenticated users
+explanation: |
+  In Express Router, the colon (:) followed by a name creates a route parameter that captures dynamic values from the URL. For example, in the route '/:id', the colon makes 'id' a parameter that can be accessed via req.params.id. This allows a single route definition to handle multiple URLs like '/123' or '/john-doe', where the values after the slash become the parameter value. The other options are incorrect because colons don't separate HTTP methods from paths, don't indicate middleware requirements, and have no relation to authentication.

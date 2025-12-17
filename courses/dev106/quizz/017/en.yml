@@ -1,0 +1,8 @@
+question: When setting up Express middleware for security, what is the correct order to implement helmet, morgan, cors, and rate limiting before adding express.json()?
+answer: helmet() first for security headers, then morgan() for logging, cors() for cross-origin requests, and rateLimit() before express.json()
+wrong_answers:
+  - "express.json() first, then helmet(), morgan(), cors(), and rateLimit() in any order since middleware order doesn't matter"
+  - rateLimit() first to block requests early, then cors(), helmet(), morgan(), and finally express.json() for parsing
+  - morgan() first for logging all requests, then rateLimit(), express.json(), helmet(), and cors() at the end
+explanation: |
+  Middleware order matters in Express because each function executes sequentially. Security headers from helmet() should be set first to protect against vulnerabilities. Morgan() logs requests early in the pipeline for complete monitoring. CORS() handles cross-origin policies before processing. Rate limiting comes before JSON parsing to prevent abuse attempts from consuming parsing resources. The other options either place express.json() incorrectly early or misunderstand that middleware execution order is crucial for proper functionality and security.

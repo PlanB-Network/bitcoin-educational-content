@@ -1,0 +1,8 @@
+question: In a Knex.js environment configuration, what is the critical reason for using process.env.DATABASE_URL in production while using a direct filename path for development?
+answer: Production environments require dynamic database connection strings that can be securely configured through environment variables without exposing credentials in code
+wrong_answers:
+  - Development environments cannot handle environment variables properly, so direct file paths are the only reliable connection method for SQLite databases
+  - PostgreSQL databases require environment variables for performance optimization, while SQLite databases perform better with direct file path connections
+  - Production servers automatically generate DATABASE_URL variables, while development machines require manual file path configuration for proper database initialization
+explanation: |
+  Using process.env.DATABASE_URL in production is essential for security and deployment flexibility. Production database credentials should never be hardcoded in source code, and environment variables allow different deployment environments to use different database instances without code changes. Development uses direct file paths because SQLite databases are local files that don't require network connections or credential management, making them simple and secure for local development.

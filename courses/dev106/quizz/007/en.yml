@@ -1,0 +1,8 @@
+question: What does HTTP stand for in the context of web APIs?
+answer: Hypertext Transfer Protocol
+wrong_answers:
+  - Hypertext Transmission Protocol
+  - Hyperlink Transfer Protocol
+  - Hypertext Transport Protocol
+explanation: |
+  HTTP stands for Hypertext Transfer Protocol, which is the fundamental protocol of the internet that enables communication between clients and servers. The other options are incorrect variations that sound similar but don't represent the actual meaning of HTTP. Understanding this acronym is essential because HTTP APIs use this protocol to facilitate all web-based communication between different systems and applications.

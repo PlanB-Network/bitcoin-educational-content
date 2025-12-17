@@ -1,0 +1,8 @@
+question: When implementing a multi-table relational database system, what fundamental mechanism enables RDBMS to maintain data consistency and referential integrity across interconnected tables?
+answer: Primary keys and foreign keys that create enforceable relationships between tables with built-in constraint validation
+wrong_answers:
+  - SQL dialect variations that automatically synchronize data changes across different database management systems
+  - The WHERE clause filtering mechanism that prevents inconsistent data from being inserted into related tables
+  - ANSI and ISO standardization protocols that guarantee uniform data structure across all connected tables
+explanation: |
+  The correct answer identifies the core relational database mechanism: primary keys uniquely identify records within tables, while foreign keys reference these primary keys from other tables, creating enforceable relationships. RDBMS systems use these keys with built-in constraints to maintain referential integrity, ensuring that related data remains consistent across tables. The wrong answers confuse related but distinct concepts: SQL dialects are syntax variations between systems, WHERE clauses filter existing data but don't enforce structural integrity, and ANSI/ISO standards define language specifications rather than data relationship mechanisms.

@@ -1,0 +1,8 @@
+question: In the Pleb Wallet React frontend, what is the primary architectural reason for implementing separate functions like getWalletBalance(), getChannelBalance(), and getTransactions() rather than a single unified data fetching function?
+answer: Each function maps to distinct backend API endpoints with different authentication requirements and data structures
+wrong_answers:
+  - Separate functions prevent React state conflicts when multiple components update simultaneously during re-renders
+  - Individual functions enable better error handling isolation and prevent cascading failures across unrelated data types
+  - "Multiple functions allow for different polling intervals optimized for each data type's update frequency requirements"
+explanation: |
+  The separation of data fetching functions directly corresponds to the backend API architecture where each endpoint serves a specific purpose with distinct data formats. getWalletBalance() calls /lightning/balance, getChannelBalance() calls /lightning/channelbalance, and getTransactions() calls /lightning/invoices - each requiring proper JWT authentication and returning different data structures. While error isolation and polling optimization are benefits, the primary reason is the one-to-one mapping with backend endpoints, ensuring clean separation of concerns and maintainable code that mirrors the API design.

@@ -1,0 +1,8 @@
+question: In a Knex.js migration file, what is the fundamental purpose of the down function in relation to the up function?
+answer: The down function provides rollback instructions to reverse the changes made by the up function
+wrong_answers:
+  - The down function validates the schema changes before the up function executes them
+  - The down function optimizes database performance after the up function creates new structures
+  - The down function creates backup copies of data before the up function modifies the schema
+explanation: |
+  The down function serves as the reverse operation for migrations, containing instructions to undo whatever changes the up function applies. This rollback capability is essential for database version control, allowing developers to safely revert schema changes if issues arise. While validation, optimization, and backups are important database concepts, they are not the primary purpose of the down function in Knex migrations.

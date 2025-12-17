@@ -1,0 +1,8 @@
+question: In the typical Lightning app architecture described, what is the primary role of the API layer between the frontend and the Lightning node?
+answer: Handle HTTP communication, call Lightning node methods, and manage authentication
+wrong_answers:
+  - Store user payment history and invoice records in a persistent database
+  - Manage Bitcoin funds and maintain connections to the Lightning Network
+  - Provide the user interface and handle all frontend rendering logic
+explanation: |
+  The API layer serves as the communication bridge between the frontend and backend systems. It handles HTTP requests (GET, POST, UPDATE, DELETE), translates these into Lightning node method calls, and manages user authentication. The other options describe different architectural layers: the database stores persistent data, the Lightning node manages funds and network connections, and the frontend handles user interface. The API layer's unique role is orchestrating communication and authentication between these components.

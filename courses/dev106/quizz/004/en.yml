@@ -1,0 +1,8 @@
+question: Which of the following is NOT a typical use case for Node.js applications?
+answer: Client-side DOM manipulation and user interface rendering
+wrong_answers:
+  - Building REST APIs and web servers for data processing
+  - Creating real-time chat applications and live updates
+  - Developing command-line tools and system utilities
+explanation: |
+  Node.js is specifically designed for server-side development and runs outside the browser environment. Client-side DOM manipulation and UI rendering are handled by JavaScript running in web browsers, not by Node.js. Node.js excels at server-side tasks like building APIs, creating real-time applications, and developing command-line tools because it has access to system-level resources like file systems and network sockets that browsers don't provide for security reasons.

@@ -1,0 +1,8 @@
+question: When implementing the User model's create() method with Knex.js, what is the primary purpose of chaining .returning('*') after the .insert() operation?
+answer: To retrieve the complete newly created user record from the database after insertion, including any auto-generated fields like id
+wrong_answers:
+  - To validate that all required fields were properly inserted and meet the database schema constraints before committing the transaction
+  - To enable automatic rollback functionality in case the insertion fails due to duplicate key constraints or validation errors
+  - To establish foreign key relationships with other tables and ensure referential integrity across the database schema
+explanation: |
+  The .returning('*') method in Knex.js is essential for retrieving the complete record after insertion, including database-generated values like auto-increment IDs, timestamps, or default values. Without this, the insert operation would only return metadata about the operation rather than the actual created record. The wrong answers describe other database concepts: validation happens at the schema level, rollback is handled by transaction management, and foreign key relationships are defined in migrations, not in the returning clause.

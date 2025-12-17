@@ -1,0 +1,8 @@
+question: Which HTTP method is typically used to retrieve existing data from a server?
+answer: GET
+wrong_answers:
+  - POST
+  - PUT
+  - DELETE
+explanation: |
+  GET is the correct HTTP method for retrieving data because it maps to the 'Read' operation in CRUD (Create, Read, Update, Delete). POST is used for creating new resources, PUT is used for updating existing resources by replacing them entirely, and DELETE is used for removing resources. The GET method is specifically designed to request data from a server without modifying anything, making it safe and idempotent - you can call it multiple times without changing the server state.

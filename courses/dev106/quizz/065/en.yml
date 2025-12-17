@@ -1,0 +1,8 @@
+question: What is the primary reason why Heroku's built-in SQLite database resets every 24 hours and makes it unsuitable for production Lightning wallet applications?
+answer: Heroku uses ephemeral file systems where dynos restart daily, causing all local file-based data including SQLite databases to be permanently lost
+wrong_answers:
+  - Heroku automatically backs up SQLite databases every 24 hours by recreating them from scratch to prevent data corruption and maintain performance
+  - SQLite has a built-in security feature that purges all transaction data every 24 hours to comply with financial regulations and privacy requirements
+  - Heroku limits SQLite database size to 24-hour worth of data to prevent storage overflow and automatically archives older records to cold storage
+explanation: |
+  Heroku dynos run on ephemeral file systems, meaning the entire container and its local files are destroyed and recreated during the daily restart cycle. Since SQLite stores data in local files, all database content is permanently lost every 24 hours. This makes SQLite completely unsuitable for production applications that need persistent data storage, especially Lightning wallets that must maintain transaction history, user accounts, and payment records. The other options incorrectly suggest intentional backup, security, or storage management features that don't exist.

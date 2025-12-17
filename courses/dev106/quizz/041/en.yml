@@ -1,0 +1,8 @@
+question: What is the most critical reason why SQL dialects exist across different RDBMS platforms despite SQL being an ANSI and ISO standardized language?
+answer: Each RDBMS vendor extends standard SQL with proprietary functions and optimizations to provide competitive advantages and specialized features
+wrong_answers:
+  - The ANSI and ISO standards are too restrictive, forcing vendors to create completely different implementations to meet performance requirements
+  - SQL standardization only covers basic syntax, leaving all advanced database operations undefined and requiring vendor-specific implementations
+  - Different RDBMS platforms use incompatible underlying storage engines that make standard SQL syntax impossible to implement consistently
+explanation: |
+  SQL dialects exist because while ANSI and ISO provide core standardization, vendors like PostgreSQL, MySQL, and Oracle add proprietary extensions, unique built-in functions, and specialized data types to differentiate their products and optimize for specific use cases. The standards cover fundamental operations, but leave room for innovation and competition through additional features. This allows the same core SQL skills to transfer between systems while enabling vendors to offer unique capabilities that serve different market needs and technical requirements.

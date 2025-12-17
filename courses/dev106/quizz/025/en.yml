@@ -1,0 +1,8 @@
+question: When setting up JWT authentication in Express, which combination of packages provides the essential functionality for secure user authentication with password protection?
+answer: jsonwebtoken for token creation/verification, bcryptjs for password hashing, and dotenv for environment management
+wrong_answers:
+  - express-session for session management, passport for authentication strategies, and mongoose for database operations
+  - cookie-parser for cookie handling, express-validator for input validation, and cors for cross-origin requests
+  - helmet for security headers, morgan for logging, and body-parser for request parsing and data handling
+explanation: |
+  The correct combination specifically addresses JWT authentication needs: jsonwebtoken handles the core JWT functionality (creating and verifying tokens), bcryptjs provides secure password hashing to protect user credentials, and dotenv manages sensitive configuration like JWT secrets. The other options include useful Express packages but don't provide the essential JWT authentication capabilities. Express-session is for traditional session-based auth, not JWT. Cookie-parser and express-validator are helpful utilities but not core to JWT auth. Helmet and morgan are general Express middleware, not authentication-specific tools.

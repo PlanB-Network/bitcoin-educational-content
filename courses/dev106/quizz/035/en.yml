@@ -1,0 +1,8 @@
+question: What are the three essential credentials needed to establish a secure gRPC connection to an LND Lightning node?
+answer: HOST (gRPC endpoint), CERT (TLS certificate file), and MACAROON (authentication token)
+wrong_answers:
+  - USERNAME (login name), PASSWORD (secret key), and API_KEY (access token)
+  - NODE_ID (public key), PRIVATE_KEY (signing key), and ENDPOINT (network address)
+  - WALLET_ID (identifier), SEED_PHRASE (recovery words), and PORT (connection number)
+explanation: |
+  LND uses a specific security model requiring three components: HOST specifies the gRPC endpoint address and port, CERT provides the TLS certificate for encrypted communication, and MACAROON serves as the authentication token with specific permissions. The other options represent authentication methods used by different systems but not LND's gRPC interface, which relies on macaroon-based authentication rather than traditional username/password or private key systems.

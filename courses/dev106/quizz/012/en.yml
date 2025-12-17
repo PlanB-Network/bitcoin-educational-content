@@ -1,0 +1,8 @@
+question: Which HTTP method should be used to remove data according to REST API principles?
+answer: DELETE
+wrong_answers:
+  - PUT
+  - POST
+  - GET
+explanation: |
+  DELETE is the correct HTTP method for removing data in REST APIs. REST (Representational State Transfer) defines standard methods for different operations: GET retrieves data, POST creates new data, PUT updates existing data, and DELETE removes data. Using the appropriate HTTP method makes APIs predictable and follows established conventions that developers worldwide understand.

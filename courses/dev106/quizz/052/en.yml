@@ -1,0 +1,8 @@
+question: In the Lightning wallet backend implementation, what is the most critical security consideration when updating the user registration endpoint to use database models with bcrypt password hashing?
+answer: The salt rounds parameter must be sufficiently high (like 14) to prevent brute force attacks while balancing computational cost and security
+wrong_answers:
+  - The JWT secret must be stored in the database alongside the hashed password to ensure token validation works correctly
+  - The bcrypt hash must be stored in environment variables rather than the database to prevent exposure of sensitive data
+  - The password must be hashed on the client side before transmission to prevent plaintext passwords from being sent over the network
+explanation: |
+  The salt rounds parameter in bcrypt.hashSync() determines the computational cost of hashing, which directly impacts security against brute force attacks. A value like 14 provides strong security while maintaining reasonable performance. The wrong answers are incorrect because: JWT secrets should never be stored in databases but kept as environment variables; bcrypt hashes are specifically designed to be safely stored in databases; and client-side hashing would be ineffective since the client code is visible and manipulable by attackers.

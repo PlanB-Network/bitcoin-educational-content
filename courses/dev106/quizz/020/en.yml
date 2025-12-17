@@ -1,0 +1,8 @@
+question: Which middleware package should be used to protect an Express server from XSS attacks, clickjacking, and other vulnerabilities by setting security-related HTTP headers?
+answer: helmet
+wrong_answers:
+  - morgan
+  - cors
+  - express-rate-limit
+explanation: |
+  Helmet is specifically designed as a security middleware that protects Express applications by setting various HTTP security headers to prevent XSS attacks, clickjacking, and other common web vulnerabilities. Morgan is a logging middleware used for HTTP request/response logging, CORS handles cross-origin resource sharing to allow requests from different domains, and express-rate-limit prevents abuse by limiting the number of requests per IP address. Only helmet focuses on comprehensive security header management.

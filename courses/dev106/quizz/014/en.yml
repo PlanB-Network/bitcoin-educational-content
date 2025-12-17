@@ -1,0 +1,8 @@
+question: What is the correct way to structure the project directory when implementing Express Router for organizing API routes?
+answer: Create a separate routers folder with individual router files, then import and use them in index.js with server.use()
+wrong_answers:
+  - Define all routes directly in index.js using app.get(), app.post(), app.put(), and app.delete() methods
+  - Create router functions inside the same index.js file and call them using middleware before server.listen()
+  - Use separate Express server instances for each route category and run them on different ports
+explanation: |
+  Express Router follows a modular architecture pattern where routes are organized into separate files within a dedicated routers folder. Each router file exports an Express Router instance containing related routes, which are then imported into the main index.js file and mounted using server.use() with specific path prefixes like '/users' or '/lightning'. This approach promotes code organization, maintainability, and scalability compared to cramming all routes into a single file or using multiple server instances.

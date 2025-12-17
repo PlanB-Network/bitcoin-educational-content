@@ -1,0 +1,8 @@
+question: In the Pleb Wallet React application, what is the most critical consequence of storing the JWT authentication token in localStorage rather than using sessionStorage or memory-based storage?
+answer: The authentication token persists across browser sessions, allowing users to remain logged in even after closing and reopening the browser
+wrong_answers:
+  - The token becomes accessible to all tabs in the browser, creating potential security vulnerabilities through cross-tab authentication sharing
+  - The application can automatically refresh expired tokens without user intervention, maintaining seamless connectivity to the Lightning backend services
+  - "The token gets encrypted by the browser's built-in security mechanisms, providing additional protection against XSS and CSRF attacks"
+explanation: |
+  localStorage persists data across browser sessions until explicitly cleared, unlike sessionStorage which expires when the tab closes, or memory storage which is lost on page refresh. This persistence is why the useEffect hook checks for an existing token on app startup and automatically calls getUserInfo() to restore the authenticated state. The wrong answers are incorrect because: localStorage doesn't provide cross-tab vulnerabilities (all tabs share the same localStorage anyway), it doesn't handle token refresh automatically (that requires separate implementation), and localStorage data isn't encrypted by browsers - it's stored as plain text accessible to JavaScript.

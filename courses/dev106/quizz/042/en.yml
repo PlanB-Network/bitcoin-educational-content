@@ -1,0 +1,8 @@
+question: When designing a relational database system for a Bitcoin wallet application, what is the most critical structural requirement that distinguishes RDBMS from simple file storage or NoSQL solutions?
+answer: Tables must be connected through primary and foreign keys to maintain referential integrity across related data entities
+wrong_answers:
+  - All data must be stored in a single table structure to ensure ACID compliance and transaction consistency
+  - The database must implement blockchain-style immutability where records can only be appended, never modified or deleted
+  - Each table must contain identical column structures to enable cross-table queries and maintain data normalization
+explanation: |
+  The fundamental characteristic of RDBMS is the relational model where tables connect through primary and foreign keys, ensuring referential integrity. This allows a wallet to maintain separate but connected tables for users, transactions, and addresses while guaranteeing data consistency. The wrong answers misrepresent core RDBMS principles: single-table storage contradicts normalization, blockchain immutability isn't required for RDBMS, and identical column structures would eliminate the benefits of specialized tables.

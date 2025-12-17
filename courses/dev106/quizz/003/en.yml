@@ -1,0 +1,8 @@
+question: What fundamental capability did Node.js introduce that JavaScript previously lacked?
+answer: The ability to run JavaScript code outside of web browsers
+wrong_answers:
+  - The ability to create interactive web pages with dynamic content
+  - The ability to manipulate HTML elements and handle user events
+  - The ability to make HTTP requests to external APIs from browsers
+explanation: |
+  Before Node.js, JavaScript was confined to running only within web browsers, limiting its use to client-side scripting. Node.js revolutionized JavaScript by creating a runtime environment that allows JavaScript to execute outside browsers, enabling server-side development, command-line tools, desktop applications, and system-level access. The wrong answers describe capabilities that JavaScript already had in browsers before Node.js existed.

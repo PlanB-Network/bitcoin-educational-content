@@ -1,0 +1,8 @@
+question: When implementing database models in a Node.js application with Knex.js, what is the primary architectural benefit of using model methods like User.findByUsername() instead of writing raw Knex queries directly in route handlers?
+answer: Models provide separation of concerns by abstracting database logic from route logic, enabling code reusability and centralized maintenance of database operations
+wrong_answers:
+  - Models automatically optimize SQL queries and provide better performance than direct Knex queries by implementing connection pooling and query caching
+  - Models enforce data validation and type checking at the database level, preventing invalid data from being inserted into tables
+  - Models provide automatic transaction management and rollback capabilities that are not available when using direct Knex queries
+explanation: |
+  The correct answer highlights the core architectural principle of separation of concerns. Models act as an abstraction layer that separates database logic from business logic in route handlers, making code more maintainable and reusable. The wrong answers confuse models with other database features: models don't inherently optimize queries or provide connection pooling (that's Knex's job), they don't automatically enforce validation (that requires additional implementation), and they don't provide automatic transaction management beyond what Knex already offers.

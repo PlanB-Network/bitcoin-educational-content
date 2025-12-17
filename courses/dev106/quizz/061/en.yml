@@ -1,0 +1,8 @@
+question: What is the primary security risk when deploying a Lightning wallet application with admin rights to mainnet versus testnet?
+answer: Real funds could be stolen through attacks since the app has administrative control over actual Bitcoin
+wrong_answers:
+  - Testnet transactions are more vulnerable to double-spending attacks than mainnet transactions
+  - Mainnet provides better encryption protocols that make it inherently more secure than testnet
+  - Administrative privileges are automatically revoked on mainnet but remain active on testnet
+explanation: |
+  The fundamental difference between mainnet and testnet deployment lies in the value at risk. When deploying to mainnet with admin rights, the application has control over real Bitcoin funds, making it a target for attackers who could potentially steal actual money. Testnet uses worthless test coins, so while the same vulnerabilities may exist, there's no financial incentive for attackers. The other options are incorrect because testnet and mainnet use the same underlying protocols and security mechanisms - the only difference is the value of the coins involved.

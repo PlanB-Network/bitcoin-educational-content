@@ -1,0 +1,8 @@
+question: What are the three parameters that every Express middleware function receives, and what is the purpose of the third parameter?
+answer: req (request object), res (response object), and next (function to pass control to next middleware)
+wrong_answers:
+  - req (request object), res (response object), and error (function to handle middleware errors)
+  - request (incoming data), response (outgoing data), and callback (function to return results)
+  - req (request object), res (response object), and done (function to complete middleware execution)
+explanation: |
+  Express middleware functions always receive exactly three parameters: req (the request object containing client data), res (the response object for sending data back), and next (a function that passes control to the next middleware in the chain). The next parameter is crucial because calling next() allows the request to continue through the middleware pipeline, while omitting it or sending a response will terminate the cycle at that middleware.

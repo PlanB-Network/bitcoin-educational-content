@@ -1,0 +1,8 @@
+question: What happens to the distribution of funds when Alice opens a Lightning channel and initially deposits 1 BTC into it?
+answer: All 1 BTC starts on Alice's side of the channel, giving her the ability to send but not receive payments initially
+wrong_answers:
+  - The 1 BTC is automatically split equally between Alice and her channel partner, with 0.5 BTC on each side
+  - The 1 BTC is locked in a neutral state until both parties agree on the initial distribution through negotiation
+  - "Alice's 1 BTC is mirrored by an equal deposit from her channel partner, creating a 2 BTC total capacity"
+explanation: |
+  Lightning channels are unidirectional by nature, meaning when you open a channel and fund it, all the liquidity starts on your side. This gives you the ability to send payments (moving funds to the other side) but prevents you from receiving payments until the other party has some balance on their side. The funds don't get split automatically, aren't held in a neutral state, and don't require matching deposits from the other party. This unidirectional characteristic is crucial for understanding Lightning Network liquidity management.

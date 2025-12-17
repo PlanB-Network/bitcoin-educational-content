@@ -1,0 +1,8 @@
+question: What is the primary purpose of an HTTP API in web development?
+answer: To serve as a contract or gateway that defines how clients can communicate with a server
+wrong_answers:
+  - To store and manage database connections directly on the client side
+  - To replace the need for HTTP protocol by creating a new communication standard
+  - To automatically generate user interfaces for web applications
+explanation: |
+  An HTTP API acts as a contract or gateway between the client and server, defining exactly what data can be requested, what data can be sent, how communication happens, and what responses clients will receive. This controlled interface ensures security by keeping business logic server-side while providing standardized access to resources. The wrong answers are incorrect because APIs don't manage database connections on the client side, don't replace HTTP (they use it), and don't generate user interfaces.

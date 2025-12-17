@@ -1,0 +1,8 @@
+question: When implementing JWT authentication in Express, what is the primary security benefit of storing the JWT secret in environment variables rather than hardcoding it in the source code?
+answer: It prevents sensitive secrets from being committed to version control and exposed in the codebase
+wrong_answers:
+  - It automatically encrypts the JWT payload data making it unreadable to attackers
+  - It enables the JWT tokens to have longer expiration times and better performance
+  - It allows the server to validate tokens faster by caching the secret in memory
+explanation: |
+  Environment variables keep sensitive data like JWT secrets separate from source code, preventing them from being accidentally committed to version control systems where they could be exposed to unauthorized users. This is a fundamental security practice because hardcoded secrets in source code are visible to anyone with repository access. The other options are incorrect: environment variables don't affect JWT payload encryption (JWTs are signed, not encrypted), don't impact token expiration times or performance, and don't provide caching benefits for secret validation.

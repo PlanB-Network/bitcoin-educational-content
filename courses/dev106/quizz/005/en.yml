@@ -1,0 +1,8 @@
+question: What is the primary benefit of NPM (Node Package Manager) for Node.js developers?
+answer: Provides access to over 1 million open-source packages and manages project dependencies
+wrong_answers:
+  - Automatically compiles JavaScript code using the V8 engine for faster execution
+  - Creates secure sandboxed environments for running server-side JavaScript applications
+  - Enables direct communication between client browsers and Node.js server applications
+explanation: |
+  NPM is Node.js's package manager that gives developers access to a vast ecosystem of over 1 million open-source packages while handling dependency management through simple commands. The other options describe different aspects of Node.js: V8 engine compilation happens automatically regardless of NPM, sandboxing is actually a browser feature that Node.js doesn't use, and client-server communication requires additional protocols and frameworks beyond just NPM.

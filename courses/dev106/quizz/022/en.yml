@@ -1,0 +1,8 @@
+question: In JWT authentication, what is the primary purpose of the signature component in the three-part token structure?
+answer: To verify the token's authenticity and ensure it hasn't been tampered with
+wrong_answers:
+  - "To store the user's encrypted password and sensitive authentication data"
+  - To specify the encryption algorithm and token type used for payload encoding
+  - To contain the user claims and expiration time for session management
+explanation: |
+  The JWT signature is created using the header, payload, and a secret key to ensure the token's integrity and authenticity. It allows the server to verify that the token hasn't been modified since it was issued. The other options describe different JWT components: the header specifies algorithms, the payload contains claims and expiration data, and passwords should never be stored in JWTs as they are only encoded, not encrypted.

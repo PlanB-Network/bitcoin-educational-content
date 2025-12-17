@@ -1,0 +1,8 @@
+question: When deploying a Lightning wallet backend to production, what is the most critical vulnerability regarding API endpoint exposure that could lead to financial loss?
+answer: Publicly accessible endpoints like /lightning/invoices expose wallet activity and allow unauthorized access to Lightning node operations
+wrong_answers:
+  - Database migration files containing sensitive schema information are exposed through the deployment process on Heroku
+  - "JWT tokens are automatically cached by Heroku's dyno system making them vulnerable to cross-application attacks"
+  - "The Express server's middleware stack creates memory leaks that expose private keys during garbage collection cycles"
+explanation: |
+  The correct answer identifies the real security flaw mentioned in the chapter: API endpoints like /lightning/invoices are publicly accessible without proper access controls, exposing wallet activity and potentially allowing unauthorized Lightning operations. This is especially dangerous since the app has admin rights to the node. The wrong answers describe technical-sounding but fabricated vulnerabilities - Heroku doesn't expose migration files publicly, JWT tokens aren't cached across applications, and middleware doesn't cause private key exposure through garbage collection.

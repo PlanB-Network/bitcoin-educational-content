@@ -1,0 +1,8 @@
+question: When designing a Lightning wallet database, which type of database would be most appropriate for handling financial transactions that require strong data consistency and ACID properties?
+answer: Relational database because it provides data integrity constraints and ACID properties essential for financial data
+wrong_answers:
+  - Document-oriented database because it offers flexible schema and rapid development for wallet applications
+  - Key-value store because it provides high performance and speed needed for Lightning Network transactions
+  - Graph database because it can efficiently model the complex relationships between wallet users and payments
+explanation: |
+  Relational databases are the correct choice for financial applications like Lightning wallets because they provide ACID properties (Atomicity, Consistency, Isolation, Durability) and strong data integrity constraints that are crucial for handling money. While document databases offer flexibility, key-value stores provide speed, and graph databases excel at relationships, none of these alternatives provide the robust data consistency guarantees that financial transactions absolutely require. The mature ecosystem and decades of optimization in relational databases make them the industry standard for applications where data accuracy and consistency cannot be compromised.

@@ -1,0 +1,8 @@
+question: Which combination of database characteristics makes relational databases particularly suitable for applications that need to maintain data accuracy across multiple interconnected tables?
+answer: ACID properties and referential integrity through foreign key constraints
+wrong_answers:
+  - Flexible schema design and JSON document storage capabilities
+  - High-speed key-value lookups and in-memory data caching
+  - Graph traversal algorithms and node-edge relationship mapping
+explanation: |
+  Relational databases excel at maintaining data accuracy through ACID properties (Atomicity, Consistency, Isolation, Durability) which ensure transactions are processed reliably, and referential integrity enforced by foreign key constraints which guarantee that relationships between tables remain valid. The other options describe features of different database types: flexible schema and JSON storage are characteristics of document databases like MongoDB, high-speed key-value operations describe systems like Redis, and graph traversal features are specific to graph databases like Neo4j.

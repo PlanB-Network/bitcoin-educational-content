@@ -1,0 +1,8 @@
+question: A Lightning wallet application needs to store user profiles, payment channels, and transaction history with complex relationships between these entities. Which database design approach would best handle queries that need to traverse multiple relationships while maintaining ACID properties?
+answer: Relational database with properly designed primary and foreign keys connecting users, channels, and transactions tables
+wrong_answers:
+  - Document-oriented database storing all user data, channels, and transactions as nested JSON documents within single collections
+  - Key-value store with composite keys that encode relationship information directly into the key structure for fast lookups
+  - Graph database with nodes for each data type and edges representing relationships, optimized for traversing complex connections
+explanation: |
+  Relational databases excel at handling complex relationships between structured data while maintaining ACID properties essential for financial applications. The foreign key relationships between users, channels, and transactions tables ensure referential integrity and allow efficient joins across multiple tables. While graph databases handle relationships well, they lack the mature ACID guarantees needed for financial data. Document databases struggle with complex cross-document relationships and can lead to data inconsistencies. Key-value stores are too simplistic for complex relational queries and lack the relationship management capabilities required for interconnected financial data.

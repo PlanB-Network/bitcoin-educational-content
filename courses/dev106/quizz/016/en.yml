@@ -1,0 +1,8 @@
+question: What happens when middleware in Express.js sends a response using res.send() without calling next()?
+answer: The request-response cycle terminates and subsequent middleware functions are not executed
+wrong_answers:
+  - The response is queued and all remaining middleware functions continue to execute normally
+  - An error is thrown and the server automatically calls next() to continue the middleware chain
+  - The response is sent but next() is called automatically to ensure all middleware runs
+explanation: |
+  When middleware sends a response using res.send(), it terminates the request-response cycle immediately. The next() function must be explicitly called to pass control to the next middleware, but once a response is sent, there's no need to continue processing. This is why order matters in middleware - any middleware defined after one that sends a response won't execute for that request. This behavior allows middleware to act as gatekeepers, potentially stopping the request flow based on conditions like authentication failures or rate limiting violations.

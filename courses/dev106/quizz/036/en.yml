@@ -1,0 +1,8 @@
+question: In a relational database, what is the primary purpose of foreign keys when designing table relationships?
+answer: To reference primary keys in other tables and maintain referential integrity between connected data
+wrong_answers:
+  - To serve as backup identifiers when primary keys become corrupted or unavailable
+  - To encrypt sensitive data fields and ensure secure connections between database tables
+  - To automatically generate unique identifiers for new records across multiple related tables
+explanation: |
+  Foreign keys are specifically designed to create and maintain relationships between tables by referencing primary keys in other tables. They enforce referential integrity, ensuring that connected data remains consistent and that foreign keys always point to valid records. The wrong answers describe functions that don't exist in database systems - foreign keys don't serve as backups, don't encrypt data, and don't generate unique identifiers.

@@ -1,0 +1,8 @@
+question: What is the primary purpose of the express-rate-limit middleware when configured with windowMs: 15 * 60 * 1000 and max: 100?
+answer: To prevent DoS attacks by limiting each IP address to 100 requests per 15-minute window
+wrong_answers:
+  - To cache frequently requested data for 15 minutes with a maximum of 100 cached items
+  - To compress responses larger than 100KB within a 15-minute processing window
+  - To authenticate users by allowing only 100 login attempts within 15 minutes
+explanation: |
+  The express-rate-limit middleware is specifically designed to prevent Denial of Service (DoS) attacks and abuse by restricting the number of requests from each IP address. The configuration windowMs: 15 * 60 * 1000 sets a 15-minute time window (15 minutes × 60 seconds × 1000 milliseconds), while max: 100 limits each IP to 100 requests during that window. This protects against automated attacks that typically follow repetitive patterns like simple for loops flooding the server with requests. The other options incorrectly describe caching, compression, or authentication functionalities that are handled by different middleware.

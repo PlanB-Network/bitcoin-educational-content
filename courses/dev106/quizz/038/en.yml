@@ -1,0 +1,8 @@
+question: What is the main advantage of SQL being a declarative language when working with relational databases?
+answer: You describe what data you want without specifying how the database should retrieve it
+wrong_answers:
+  - You must explicitly define each step the database takes to process your request
+  - You can only perform one operation at a time to maintain data consistency
+  - You write code that directly manipulates the physical storage structure of tables
+explanation: |
+  SQL is declarative because you specify what results you want (like 'SELECT all users created after 2023') rather than writing procedural code that tells the database exactly how to find that data. The database engine optimizes the execution plan automatically. The wrong answers describe imperative or procedural approaches where you would need to specify the step-by-step process, which is not how SQL works.

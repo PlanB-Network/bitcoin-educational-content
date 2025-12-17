@@ -1,0 +1,8 @@
+question: In SQL, what is the fundamental reason why both UPDATE and DELETE operations require extreme caution when omitting the WHERE clause?
+answer: Without WHERE clause, these operations affect ALL rows in the table, potentially destroying entire datasets
+wrong_answers:
+  - Without WHERE clause, these operations will fail with syntax errors and cannot execute successfully
+  - Without WHERE clause, these operations only affect the first row found, creating inconsistent data states
+  - Without WHERE clause, these operations require additional authentication privileges that most users lack
+explanation: |
+  The WHERE clause acts as a filter that specifies which rows should be affected by UPDATE or DELETE operations. Without it, SQL interprets the command as applying to every single row in the table. This means UPDATE without WHERE will modify all records, and DELETE without WHERE will remove all data from the table - catastrophic outcomes that can destroy entire datasets. The other options are incorrect because SQL will execute these commands successfully (no syntax errors), they affect all rows rather than just the first, and they don't require special authentication beyond normal table permissions.

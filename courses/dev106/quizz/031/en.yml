@@ -1,0 +1,8 @@
+question: What is the primary advantage of using gRPC over HTTP/REST for Lightning node communication?
+answer: Binary protocol with persistent streaming connections for better performance and real-time data
+wrong_answers:
+  - JSON-based text format that provides easier debugging and human-readable communication
+  - Stateless request-response model that ensures better security and simpler connection management
+  - Built-in authentication system that automatically handles macaroon validation and encryption
+explanation: |
+  gRPC uses a binary protocol (Protocol Buffers) instead of text-based JSON, making it more efficient for data transmission. Unlike HTTP's stateless request-response model, gRPC maintains persistent streaming connections, eliminating the need for repeated handshakes and enabling real-time data flow. This is particularly valuable for Lightning applications that need instant notifications for invoice payments or channel updates. The other options incorrectly describe HTTP/REST characteristics or non-existent gRPC features.

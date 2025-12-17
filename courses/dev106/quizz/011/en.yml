@@ -1,0 +1,8 @@
+question: What is the primary purpose of Express Router in a Node.js application?
+answer: To group and organize routes into separate files for modular code structure
+wrong_answers:
+  - To automatically generate REST API endpoints from database schemas
+  - To handle authentication and user session management across routes
+  - To compress and optimize HTTP responses for better performance
+explanation: |
+  Express Router is a built-in middleware function designed specifically for organizing routes into modular, maintainable structures. It allows developers to group related routes together in separate files, making applications easier to scale and maintain. While Express can handle authentication, compression, and other features through various middleware, Router's core purpose is code organization and modularity, not automatic endpoint generation, session management, or performance optimization.

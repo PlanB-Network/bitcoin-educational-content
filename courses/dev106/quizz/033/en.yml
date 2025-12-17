@@ -1,0 +1,8 @@
+question: When building a custodial Lightning wallet service, what is the main characteristic regarding who can spend the funds?
+answer: Only the service administrators have the ability to spend funds on behalf of users
+wrong_answers:
+  - Users maintain full control over their private keys and can spend independently
+  - Both users and administrators share equal spending rights through multi-signature setup
+  - Users can spend directly but administrators can only view transaction history
+explanation: |
+  In a custodial Lightning wallet setup, the service provider holds and controls the private keys, meaning only the administrators can initiate spending transactions. Users can create invoices and receive payments, but they cannot directly spend funds - they must request the service to make payments on their behalf. This differs from non-custodial wallets where users control their own keys, multi-signature arrangements where spending requires multiple parties, or read-only access where administrators cannot spend at all.

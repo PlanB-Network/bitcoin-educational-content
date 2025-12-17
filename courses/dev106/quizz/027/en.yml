@@ -1,0 +1,8 @@
+question: When Alice wants to send a payment to Carol through Bob's node in the Lightning Network, what role does Bob's node actively perform?
+answer: Bob's node routes the payment by forwarding it from Alice to Carol through the connected channels
+wrong_answers:
+  - "Bob's node validates the payment on the Bitcoin blockchain before allowing it to proceed to Carol"
+  - "Bob's node holds the payment in escrow until Carol confirms receipt and releases it manually"
+  - "Bob's node broadcasts the payment details to all network nodes for consensus verification"
+explanation: |
+  Lightning nodes actively route payments by forwarding them through connected channels, which is fundamentally different from Bitcoin nodes that passively validate transactions. When Alice pays Carol through Bob, the payment literally passes through Bob's node via the channel connections (Alice-Bob-Carol). Bob's node doesn't validate on-chain, hold payments in escrow, or broadcast for consensus - these would be Bitcoin blockchain functions. Instead, Lightning nodes perform the active function of routing payments through the network of channels, making them much more active participants than traditional Bitcoin nodes.

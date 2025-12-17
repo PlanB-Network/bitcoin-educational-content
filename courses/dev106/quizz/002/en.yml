@@ -1,0 +1,8 @@
+question: What is the V8 engine that Node.js is built on?
+answer: An open-source JavaScript engine developed by Google that compiles and executes JavaScript code
+wrong_answers:
+  - A database management system specifically designed for handling Node.js application data
+  - A web framework that provides routing and middleware functionality for building web applications
+  - A package manager that handles the installation and management of JavaScript libraries and dependencies
+explanation: |
+  The V8 engine is Google's open-source JavaScript engine that was originally created to power Google Chrome browser. It compiles JavaScript code into machine code for fast execution. Node.js leverages this same V8 engine to run JavaScript outside of the browser environment, enabling server-side JavaScript development. The other options describe different technologies: database systems manage data storage, web frameworks provide application structure, and package managers handle code dependencies - none of which describe what the V8 engine actually is.

@@ -1,0 +1,8 @@
+question: When implementing JWT token verification in the GET /user endpoint, what happens if the jwt.verify() method encounters an invalid or expired token?
+answer: The callback function receives an error parameter, triggering a 401 Unauthorized response with error details
+wrong_answers:
+  - The method throws a synchronous exception that must be caught with try-catch blocks
+  - The decoded token parameter contains null values while the error parameter remains undefined
+  - The application automatically redirects to the login endpoint and regenerates a new valid token
+explanation: |
+  The jwt.verify() method uses an asynchronous callback pattern where any verification failure (invalid signature, expired token, malformed token) passes an error object to the callback's first parameter. The code explicitly checks for this error condition with 'if (err)' and responds with a 401 status code. Unlike synchronous operations, jwt.verify() doesn't throw exceptions but uses error-first callback conventions. The method never auto-redirects or regenerates tokens, and when errors occur, the decodedToken parameter is undefined, not containing null values.

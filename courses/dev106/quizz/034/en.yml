@@ -1,0 +1,8 @@
+question: What is the main purpose of using a gRPC wrapper library like LND-GRPC when developing Lightning applications?
+answer: To simplify node communication by reducing complex gRPC boilerplate code into simple function calls
+wrong_answers:
+  - To provide additional security encryption between the application and the Lightning node
+  - To automatically manage Lightning channel liquidity and routing for optimal payment paths
+  - To create a backup connection method when the primary Lightning node becomes unavailable
+explanation: |
+  gRPC wrapper libraries like LND-GRPC are designed to abstract away the complexity of raw gRPC communication. Instead of writing 40+ lines of boilerplate code with protocol buffers, connection management, and error handling for each node interaction, developers can use simple function calls like `lnd.services.Lightning.getInfo()`. The wrapper handles all the underlying gRPC complexity while maintaining the performance benefits of the binary protocol. It doesn't provide security, manage liquidity, or create backup connections - those are separate concerns handled by other components.

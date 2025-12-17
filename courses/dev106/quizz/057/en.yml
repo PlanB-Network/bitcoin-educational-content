@@ -1,0 +1,8 @@
+question: In the Pleb Wallet React frontend architecture, what is the primary purpose of the axiosWithAuth utility function?
+answer: To automatically include JWT authentication tokens in all HTTP requests to the backend API
+wrong_answers:
+  - To encrypt all API request payloads before transmission to prevent data interception
+  - To implement retry logic and error handling for failed network requests to the backend
+  - To cache API responses locally and manage state synchronization across components
+explanation: |
+  The axiosWithAuth utility creates an Axios instance that automatically includes the JWT token from localStorage in the authorization header of every request. This eliminates the need to manually add authentication headers in each API call throughout the application. The other options describe different functionality - payload encryption is handled at the transport layer, retry logic isn't implemented in this utility, and caching/state management are separate concerns handled by React state and useEffect hooks.

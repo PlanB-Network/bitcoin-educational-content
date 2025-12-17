@@ -1,0 +1,8 @@
+question: When implementing the generateToken function for JWT authentication, what is the primary purpose of the 'expiresIn: 1d' option in the token configuration?
+answer: To automatically invalidate the token after 24 hours for enhanced security
+wrong_answers:
+  - To compress the token data and reduce its size for faster transmission
+  - To encrypt the payload data using a time-based encryption algorithm
+  - To enable the token to be refreshed automatically every 24 hours
+explanation: |
+  The 'expiresIn: 1d' option sets an expiration time of one day for the JWT token, after which it becomes invalid and cannot be used for authentication. This is a crucial security measure that limits the window of opportunity for attackers if a token is compromised. The other options are incorrect: JWT compression is handled separately from expiration, the expiration doesn't encrypt payload data, and tokens don't automatically refresh - they simply expire and require re-authentication.

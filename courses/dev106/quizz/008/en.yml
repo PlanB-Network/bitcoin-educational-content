@@ -1,0 +1,8 @@
+question: In the client-server model, which component is responsible for storing and processing data?
+answer: The server side
+wrong_answers:
+  - The client side
+  - Both client and server equally
+  - The API interface layer
+explanation: |
+  In the client-server model, the server side is responsible for storing and processing data, along with handling business logic in a secure environment. The client side focuses on making requests, displaying data, and handling user interactions, but does not store or process the core data. The API serves as the communication interface between these two components, but it is not a separate storage layer itself.

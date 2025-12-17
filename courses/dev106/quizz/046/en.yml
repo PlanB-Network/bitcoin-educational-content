@@ -1,0 +1,8 @@
+question: When setting up a Knex.js configuration for both development and production environments, what is the primary reason for using SQLite in development and PostgreSQL in production?
+answer: SQLite is lightweight and requires no server setup for local development, while PostgreSQL provides robust features and scalability for production workloads
+wrong_answers:
+  - SQLite has better performance than PostgreSQL and should be used in production, but PostgreSQL has better debugging tools for development
+  - SQLite supports more advanced SQL features than PostgreSQL, making it ideal for development testing before deploying to simpler PostgreSQL
+  - "SQLite requires a separate server process that's easier to manage locally, while PostgreSQL runs embedded within the application in production"
+explanation: |
+  The correct answer reflects the fundamental difference in database architecture and use cases. SQLite is a file-based, serverless database that's perfect for development because it requires no setup, configuration, or separate processes - you can simply create a database file and start working. PostgreSQL, however, is a full-featured client-server database system that provides advanced features like connection pooling, concurrent access handling, and enterprise-level scalability that production applications require. The wrong answers incorrectly describe SQLite as having server requirements or superior features, when in reality SQLite is designed for simplicity and local use, while PostgreSQL excels in multi-user, high-performance production environments.

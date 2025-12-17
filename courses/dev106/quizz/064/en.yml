@@ -1,0 +1,8 @@
+question: What is the most significant architectural challenge when scaling a Lightning wallet application deployed on Heroku's dyno system with persistent database requirements?
+answer: Dynos are stateless containers that restart every 24 hours, requiring external database services to maintain data persistence across deployments and restarts
+wrong_answers:
+  - "Heroku's load balancing system cannot handle Lightning Network's real-time payment processing requirements due to latency constraints"
+  - The Git-based deployment model creates version conflicts when multiple developers push Lightning node configuration changes simultaneously
+  - "Heroku's containerized environment blocks the specific TCP ports required for Lightning Network peer-to-peer communication protocols"
+explanation: |
+  Heroku dynos are ephemeral, stateless containers that restart regularly and lose all local data upon restart. This fundamental architecture makes local storage unreliable for production applications. The chapter specifically mentions that Heroku's built-in SQLite resets every 24 hours, which would be catastrophic for a Lightning wallet storing transaction history, user accounts, and payment records. This is why external database services like Heroku Postgres are essential for maintaining data persistence. The other options are incorrect because Heroku supports real-time applications, handles Git deployments well for team collaboration, and doesn't block Lightning Network communications.

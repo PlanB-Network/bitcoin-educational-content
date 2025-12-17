@@ -1,0 +1,8 @@
+question: When implementing RESTful API endpoints for user management, which combination of HTTP method and route pattern correctly handles updating a specific user's information?
+answer: PUT /users/:id with the user data in the request body
+wrong_answers:
+  - POST /users/:id with the user data in the request body
+  - PUT /users/update with the user ID in the request body
+  - PATCH /users with both ID and user data in the request body
+explanation: |
+  PUT /users/:id is the correct RESTful approach for updating a specific user. PUT is designed for updating existing resources, the :id parameter in the URL identifies which user to update, and the updated data belongs in the request body. POST is for creating new resources, not updating existing ones. Including the ID in the request body instead of the URL parameter breaks RESTful conventions where the resource identifier should be part of the URL path. PATCH without a URL parameter fails to specify which user to update.

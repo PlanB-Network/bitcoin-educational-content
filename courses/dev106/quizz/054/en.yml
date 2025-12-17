@@ -1,0 +1,8 @@
+question: In the Lightning wallet backend architecture, what is the primary risk of directly exposing database connection objects from dbConfig.js in route handlers instead of using model abstraction layers?
+answer: Route handlers become tightly coupled to database implementation details, making the codebase fragile to schema changes and difficult to maintain
+wrong_answers:
+  - Database connections will automatically timeout after each query execution, causing performance degradation and connection pool exhaustion
+  - JWT token verification will fail because the database connection lacks proper authentication middleware integration with the Express router
+  - Lightning Network integration becomes impossible since LND requires model-based abstractions to properly handle invoice and payment operations
+explanation: |
+  The correct answer identifies the core architectural problem: tight coupling. When route handlers directly use database connections, any changes to table structures, column names, or query logic require modifications across multiple route files. Model abstraction layers like the User model provide a single point of control, where database logic is centralized and route handlers remain focused on HTTP concerns. The wrong answers incorrectly suggest technical limitations that don't actually exist - database connections don't timeout per query, JWT verification is independent of database abstraction, and LND integration works regardless of how database queries are structured.

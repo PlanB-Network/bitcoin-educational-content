@@ -1,0 +1,8 @@
+question: What is the primary advantage of using JSON Web Tokens (JWTs) over traditional session-based authentication in distributed web applications?
+answer: JWTs are stateless and self-contained, requiring no server-side storage and enabling easy distribution across multiple servers
+wrong_answers:
+  - JWTs provide stronger encryption algorithms and are immune to all types of security attacks compared to session cookies
+  - JWTs automatically refresh themselves without user intervention and never expire, providing permanent authentication status
+  - JWTs store user passwords in encrypted format within the token, eliminating the need for separate password verification
+explanation: |
+  JWTs are stateless because they contain all necessary authentication information within the token itself, eliminating the need for server-side session storage. This makes them highly scalable since any server can validate the token without accessing a shared session store. The wrong answers are incorrect because: JWTs use signing rather than encryption and aren't immune to all attacks; JWTs have expiration times and don't auto-refresh; and JWTs should never contain passwords, only user claims and metadata.

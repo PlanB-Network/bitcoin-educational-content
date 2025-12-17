@@ -1,0 +1,8 @@
+question: When using Knex.js schema builder, what is the primary advantage of the 'useNullAsDefault: true' configuration option in SQLite development environments?
+answer: It ensures compatibility with PostgreSQL patterns by handling null value defaults consistently across database systems
+wrong_answers:
+  - It automatically converts all undefined JavaScript values to null in database insertions for better data integrity
+  - It enables SQLite to use null as the primary key default value when no increments() method is specified
+  - It forces all table columns to accept null values by default, overriding any notNullable() constraints applied
+explanation: |
+  The 'useNullAsDefault: true' option is crucial for database agnostic development. SQLite handles null defaults differently than PostgreSQL, and this setting ensures that your development environment (SQLite) behaves consistently with your production environment (PostgreSQL). Without this setting, you might encounter discrepancies when migrating between environments. The wrong answers are incorrect because this option doesn't affect JavaScript-to-database value conversion, doesn't change primary key behavior, and doesn't override explicit column constraints like notNullable().

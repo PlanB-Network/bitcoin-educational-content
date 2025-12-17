@@ -1,0 +1,8 @@
+question: What is the most significant architectural limitation when using Heroku's built-in SQLite for a Lightning wallet backend in production?
+answer: The database resets every 24 hours causing complete loss of transaction history and user data
+wrong_answers:
+  - SQLite cannot handle concurrent Lightning payment requests leading to payment failures
+  - "Heroku's SQLite implementation lacks encryption causing Lightning invoices to be stored in plaintext"
+  - The database becomes read-only during dyno scaling preventing new invoice generation
+explanation: |
+  Heroku's built-in SQLite has a critical limitation where it resets every 24 hours, making it unsuitable for production Lightning applications that require persistent storage of user accounts, transaction history, and payment records. While SQLite can handle concurrent requests adequately for small applications, supports encryption, and doesn't become read-only during scaling, the 24-hour reset cycle would cause catastrophic data loss in any real-world deployment, which is why the chapter recommends Heroku Postgres for production use.

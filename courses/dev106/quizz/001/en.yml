@@ -1,0 +1,8 @@
+question: What is the primary purpose of the CommonJS module system in Node.js?
+answer: To organize code into reusable units that can be imported and exported between files
+wrong_answers:
+  - To compile JavaScript code faster using the V8 engine for better performance
+  - To provide access to over 1 million open-source packages through NPM registry
+  - To enable JavaScript to run outside the browser by accessing system resources
+explanation: |
+  The CommonJS module system is Node.js's way of organizing code into self-contained, reusable units called modules. Each module has its own scope with variables and functions that can be exported using module.exports and imported using require(). This system keeps code organized, manageable, and enables code reuse across different files in a project. While the V8 engine handles JavaScript compilation, NPM manages packages, and Node.js runtime enables browser-independent execution, these are separate concepts from the module system's core organizational purpose.

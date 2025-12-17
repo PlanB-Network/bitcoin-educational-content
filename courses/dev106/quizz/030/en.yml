@@ -1,0 +1,8 @@
+question: What is the primary advantage that micropayments on the Lightning Network provide over traditional Bitcoin transactions?
+answer: They enable small, instant transactions with minimal fees that expand Bitcoin's use cases
+wrong_answers:
+  - They automatically convert Bitcoin to fiat currency for easier merchant acceptance
+  - They eliminate the need for any Bitcoin blockchain confirmations permanently
+  - They allow unlimited transaction amounts without any network capacity restrictions
+explanation: |
+  Micropayments on the Lightning Network enable small, instant transactions with minimal fees, making Bitcoin practical for everyday use cases that would be economically unfeasible on the main blockchain due to high fees and slow confirmation times. The other options are incorrect: Lightning doesn't convert Bitcoin to fiat (it remains Bitcoin), it still relies on the Bitcoin blockchain for channel opening/closing and final settlement, and Lightning channels have capacity limits based on the funds locked in each channel.

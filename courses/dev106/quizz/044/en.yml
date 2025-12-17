@@ -1,0 +1,8 @@
+question: What is the primary architectural advantage that makes SQL's table-based relational structure superior to simple spreadsheet-like data storage for complex applications?
+answer: Tables can establish enforced relationships through primary and foreign keys, ensuring data integrity and preventing orphaned records across multiple connected data entities.
+wrong_answers:
+  - Tables provide faster query performance through automatic indexing of all columns, while spreadsheets must scan every row sequentially for data retrieval operations.
+  - Tables support unlimited concurrent users with built-in locking mechanisms, whereas spreadsheets can only handle single-user access without data corruption risks.
+  - Tables automatically compress data using advanced algorithms to minimize storage space, while spreadsheets store data in uncompressed formats that waste disk space.
+explanation: |
+  The correct answer identifies the core relational database concept: referential integrity through key relationships. This allows multiple tables to connect reliably (like users to orders) with enforced constraints that prevent data inconsistencies. The wrong answers focus on performance, concurrency, or storage - which are implementation benefits rather than the fundamental architectural advantage of the relational model's ability to maintain consistent, connected data structures.

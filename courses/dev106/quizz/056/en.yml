@@ -1,0 +1,8 @@
+question: When implementing periodic data updates in the Pleb Wallet frontend, what is the primary reason for using setInterval with a 30-second delay rather than real-time WebSocket connections?
+answer: To balance data freshness with server resource efficiency while maintaining simplicity in the React application architecture
+wrong_answers:
+  - Because WebSocket connections cannot handle JWT authentication tokens required for secure Lightning Network operations
+  - Because Lightning Network nodes inherently update their state every 30 seconds and faster polling would return stale data
+  - Because React hooks like useEffect are incompatible with WebSocket event listeners and would cause memory leaks
+explanation: |
+  The 30-second polling interval represents a practical compromise between keeping the UI updated with fresh data and avoiding excessive server load. While WebSockets could provide real-time updates, the polling approach is simpler to implement, easier to debug, and sufficient for wallet operations where sub-second updates aren't critical. WebSockets can handle JWT auth, Lightning nodes update more frequently than 30 seconds, and React hooks work fine with WebSocket connections, making those alternatives incorrect.

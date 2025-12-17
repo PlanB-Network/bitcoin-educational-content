@@ -1,0 +1,8 @@
+question: When defining a table schema in Knex.js, what is the critical difference between using table.string('username', 128).notNullable().unique() versus table.string('username').unique().notNullable()?
+answer: There is no functional difference; both create identical database constraints with the same validation behavior
+wrong_answers:
+  - The first version enforces uniqueness before null validation, while the second enforces null validation before uniqueness
+  - The first version creates a 128-character limit with unique constraint, while the second creates unlimited length with null constraint priority
+  - The first version applies constraints during table creation, while the second applies them after table creation through ALTER statements
+explanation: |
+  In Knex.js schema builder, method chaining for constraints like .notNullable() and .unique() can be applied in any order without affecting the final database schema. Both expressions produce identical SQL output with the same NOT NULL and UNIQUE constraints. The 128-character limit in the first example is independent of the constraint order. Knex processes all chained methods and generates the appropriate CREATE TABLE statement with all specified constraints applied simultaneously, regardless of the sequence in which the constraint methods are called.

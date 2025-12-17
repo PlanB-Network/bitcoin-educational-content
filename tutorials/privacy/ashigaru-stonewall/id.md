@@ -42,7 +42,7 @@ Dengan menganalisa transaksi ini, kita dapat melihat bahwa si pembuat roti telah
 
 
 
-Dalam contoh ini, saya sengaja mengabaikan biaya mining agar lebih mudah dipahami. Pada kenyataannya, biaya transaksi ditanggung sepenuhnya oleh penerbit.
+Dalam contoh ini, aku sengaja mengabaikan biaya mining agar lebih mudah dipahami. Pada kenyataannya, biaya transaksi ditanggung sepenuhnya oleh penerbit.
 
 
 

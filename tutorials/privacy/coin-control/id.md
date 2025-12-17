@@ -13,12 +13,9 @@ description: Mulailah dengan Coin Control, alat penting untuk melindungi privasi
 
 
 
-Kekuatan protokol Bitcoin dijamin oleh konsep-konsep kunci yang sederhana. Di antaranya, transparansi menonjol: semua transaksi Bitcoin bersifat publik dan mudah diverifikasi oleh siapa pun. Meskipun fitur ini merupakan tonggak penting dari protokol, karena mencegah penipuan dan menjamin keaslian dana, hal ini juga dapat menjadi tantangan bagi kerahasiaan. **Pernahkah Anda bertanya-tanya apakah transparansi sebesar ini bisa mengganggu privasi Anda?**
+Kekuatan protokol Bitcoin dijamin oleh konsep-konsep kunci yang sederhana. Di antaranya, transparansi menonjol: semua transaksi Bitcoin bersifat publik dan mudah diverifikasi oleh siapa pun. Meskipun fitur ini merupakan tonggak penting dari protokol, karena mencegah penipuan dan menjamin keaslian dana, hal ini juga bisa menjadi tantangan bagi kerahasiaan. **Pernahkah kamu bertanya-tanya apakah transparansi sebesar ini bisa mengganggu privasi kamu?**
 
-
-
-Anda harus melakukannya. Meskipun mengumpulkan Satoshi non-kyc cukup mudah, privasi Anda paling berisiko pada tahap pembelanjaan.
-
+Kamu seharusnya memikirkannya. Meskipun mengumpulkan Satoshi non-kyc cukup mudah, privasi kamu justru paling berisiko pada tahap pembelanjaan.
 
 
 ### Apa yang terjadi ketika Anda menggunakan UTXO
@@ -27,19 +24,13 @@ Anda harus melakukannya. Meskipun mengumpulkan Satoshi non-kyc cukup mudah, priv
 
 Membelanjakan Bitcoin bukan sekadar transfer nilai kepada orang lain.
 
+Dengan menggunakan salah satu UTXO kamu, kamu harus memenuhi persyaratan yang diberlakukan oleh transparansi protokol, karena kamu berkewajiban membuktikan bahwa kamu memang memiliki dana tersebut. Oleh karena itu, kamu bertanggung jawab untuk:
 
+- Mengekspos kunci publik kamu;
 
-Dengan menggunakan salah satu UTXO Anda, Anda harus memenuhi persyaratan yang diberlakukan untuk transparansi protokol, karena Anda berkewajiban untuk membuktikan bahwa Anda memiliki dana tersebut. Oleh karena itu, Anda bertanggung jawab untuk :
+- Menghasilkan tanda tangan digital.
 
-
-
-
-- mengekspos kunci publik Anda;
-- menghasilkan tanda tangan digital.
-
-
-
-Oleh karena itu, waktu pembelanjaan adalah yang paling penting: **Membelanjakan Bitcoin adalah tindakan yang harus dilakukan secara sadar dan dengan kontrol sebanyak mungkin**.
+Karena itu, momen pembelanjaan adalah yang paling krusial: **Membelanjakan Bitcoin adalah tindakan yang harus dilakukan secara sadar dan dengan kontrol sebanyak mungkin.**
 
 
 
@@ -47,37 +38,28 @@ Oleh karena itu, waktu pembelanjaan adalah yang paling penting: **Membelanjakan 
 
 
 
-Dalam protokol Bitcoin, item seperti _account_ atau _unit moneter_ tidak ada. Konsep UTXO dijelaskan dengan sangat baik dalam kursus berikut ini, yang sangat saya rekomendasikan:
+Dalam protokol Bitcoin, item seperti _account_ atau _unit moneter_ tidak ada. Konsep UTXO dijelaskan dengan sangat baik dalam kursus berikut ini, yang sangat aku rekomendasikan:
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Dengan Bitcoin, apa yang Anda kumpulkan dan kemudian dibelanjakan adalah unit akun kecil atau besar yang diukur dalam Satoshi, yang diwakili oleh 'hasil transaksi yang tidak terpakai', yaitu **UTXO**, yang juga disebut 'koin'. Ketika Anda menggunakan UTXO untuk membuat transaksi, UTXO tersebut akan dihancurkan sepenuhnya dan UTXO lain akan dibuat sebagai gantinya.
+Dengan Bitcoin, apa yang kamu kumpulkan dan kemudian belanjakan adalah unit akun kecil atau besar yang diukur dalam Satoshi, yang direpresentasikan oleh unspent transaction output, yaitu **UTXO,** yang juga sering disebut sebagai “koin”. Ketika kamu menggunakan sebuah UTXO untuk membuat transaksi, UTXO tersebut akan dihancurkan sepenuhnya dan UTXO lain akan dibuat sebagai gantinya.
 
+Dompet perangkat lunak dikembangkan untuk membuat pilihan ini secara otomatis, dengan menggunakan koin yang dipilih secara “acak” melalui algoritma tertentu yang disediakan oleh protokol. Satu-satunya kriteria yang dipenuhi oleh algoritma ini adalah tercapainya jumlah yang dibutuhkan untuk pembelanjaan.
 
+Algoritma tersebut dapat menggabungkan UTXO dari berbagai usia, atau memprioritaskan pengeluaran yang paling baru atau yang “tertua”, tergantung pada algoritma yang dipilih oleh pengembang. Dompet perangkat lunak terbaik juga berencana memberikan pilihan penting ini kepada pengguna.
 
-Dompet Perangkat Lunak dikembangkan untuk membuat pilihan ini secara otomatis, menggunakan koin yang dipilih secara "acak", dengan menggunakan algoritma tertentu yang disediakan oleh protokol. Satu-satunya kriteria yang dipenuhi oleh algoritma ini adalah untuk memenuhi jumlah yang dibutuhkan untuk pembelanjaan.
+Manual 'Coin Control', yang juga bisa kamu temukan dengan nama 'Coin Selection', adalah fitur dari beberapa dompet perangkat lunak yang memungkinkan kamu untuk **memilih secara manual UTXO yang akan dibelanjakan saat kamu melakukan transaksi.**
 
-
-
-Mereka dapat menggabungkan UTXO dari berbagai usia, atau mendukung pengeluaran yang terbaru atau "tertua", tergantung pada algoritme yang dipilih oleh pengembang. Dompet Perangkat Lunak terbaik, juga berencana untuk memberikan pilihan penting kepada pengguna.
-
-
-
-Manual `Coin Control`, yang juga dapat Anda temukan sebagai `Coin Selection`, adalah fitur dari beberapa Dompet Perangkat Lunak yang memungkinkan Anda untuk **memilih secara manual UTXO yang akan dibelanjakan saat Anda melakukan transaksi**.
-
-
-
-Misalkan kita memiliki Wallet dengan 3 UTXO masing-masing 21.000, 42.000 dan 63.000 Satoshi.
-
+Misalkan kita memiliki sebuah wallet dengan 3 UTXO masing-masing sebesar 21.000, 42.000, dan 63.000 Satoshi.
 
 
 ![img](assets/en/01.webp)
 
 
 
-Jika Anda harus mengeluarkan 24.000 Sats dan membiarkan algoritme melakukan pemilihan otomatis, Software Wallet yang baik mungkin memilih untuk menggabungkan UTXO 1 + UTXO 2 untuk membayar biaya Sats dan Miner sebesar 24k, menciptakan sisa yang kembali ke Address internal dari Wallet awal.
+Jika kamu harus mengeluarkan 24.000 sats dan membiarkan algoritme melakukan pemilihan otomatis, dompet perangkat lunak yang baik kemungkinan akan memilih untuk menggabungkan UTXO 1 + UTXO 2 guna membayar 24k sats beserta biaya penambang, lalu menciptakan sisa dana yang dikembalikan ke address internal dari wallet awal.
 
 
 
@@ -93,15 +75,14 @@ Setelah transaksi, situasi baru di Wallet, dengan hanya menghitung UTXO, dapat d
 
 
 
-Namun demikian, dengan perangkat lunak yang tepat dan kesadaran Anda, Anda dapat membuat pilihan yang berbeda, dalam beberapa hal, pilihan yang lebih tepat. Contohnya, dengan hanya memilih UTXO2 (dari 42.000 Sats).
-
+Namun demikian, dengan perangkat lunak yang tepat dan kesadaran kamu, kamu bisa membuat pilihan yang berbeda, dan dalam beberapa kasus, pilihan yang lebih tepat. Contohnya, dengan hanya memilih UTXO2 yang bernilai 42.000 sats.
 
 
 ![img](assets/en/04.webp)
 
 
 
-Dengan situasi akhir di Wallet Anda, pada level UTXO, yang terlihat berbeda dari sebelumnya.
+Dengan situasi akhir di Wallet kamu, pada level UTXO, yang terlihat berbeda dari sebelumnya.
 
 
 

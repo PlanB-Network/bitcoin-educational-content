@@ -1,0 +1,8 @@
+question: Ni tofauti gani kuu kati ya makosa yanayoweza kurejeshwa na yasiyoweza kurejeshwa katika mfumo wa kushughulikia makosa wa Rust?
+answer: Makosa yanayoweza kurejeshwa yanaweza kushughulikiwa kwa uzuri na kuruhusu programu kuendelea, huku makosa yasiyoweza kurejeshwa yakikomesha programu
+wrong_answers:
+  - Hitilafu zinazoweza kurejeshwa hutumia hofu! macro huku hitilafu zisizoweza kurejeshwa zikitumia matokeo ya hesabu kwa ajili ya usimamizi sahihi wa hitilafu
+  - Makosa yanayoweza kurejeshwa hutokea wakati wa kukusanya data huku makosa yasiyoweza kurejeshwa yakitokea tu wakati wa utekelezaji wa programu wakati wa utekelezaji.
+  - Hitilafu zinazoweza kurejeshwa zinahitaji kufungua rafu ilhali hitilafu zisizoweza kurejeshwa zinaweza kupuuzwa na msimbo wa kupiga simu.
+explanation: |
+  Rust huainisha makosa kulingana na kama programu zinaweza kupona kutokana nayo kwa njia inayofaa. Makosa yanayoweza kurejeshwa yanawakilisha hali zinazotarajiwa za hitilafu kama vile faili zinazokosekana au matatizo ya mtandao ambayo programu zinaweza kushughulikia kwa uzuri kwa kutumia aina za Matokeo, na kuruhusu utekelezaji kuendelea na utunzaji sahihi wa hitilafu. Makosa yasiyoweza kurejeshwa yanaonyesha matatizo ya msingi kama vile ukiukaji wa usalama wa kumbukumbu au makosa ya mantiki ambapo programu haiwezi kuendelea kwa usalama, na kusababisha hofu inayokomesha utekelezaji ili kuzuia ufisadi zaidi.

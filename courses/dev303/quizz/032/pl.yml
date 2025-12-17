@@ -1,0 +1,8 @@
+question: Jaka jest podstawowa różnica między błędami odzyskiwalnymi i nieodzyskiwalnymi w systemie obsługi błędów Rust?
+answer: Błędy, które można odzyskać, mogą być obsługiwane z wdziękiem, umożliwiając kontynuowanie programów, podczas gdy błędy, których nie można odzyskać, kończą program
+wrong_answers:
+  - Błędy możliwe do odzyskania używają makra panic!, podczas gdy błędy niemożliwe do odzyskania używają wyliczenia Result do właściwego zarządzania błędami
+  - Błędy możliwe do odzyskania występują podczas kompilacji, natomiast błędy niemożliwe do odzyskania występują tylko podczas wykonywania programu
+  - Błędy możliwe do odzyskania wymagają rozwinięcia stosu, podczas gdy błędy niemożliwe do odzyskania mogą zostać zignorowane przez kod wywołujący
+explanation: |
+  Rust kategoryzuje błędy w oparciu o to, czy programy mogą je odzyskać. Błędy odzyskiwalne reprezentują oczekiwane warunki awarii, takie jak brakujące pliki lub problemy sieciowe, które programy mogą obsługiwać z wdziękiem przy użyciu typów wyników, umożliwiając kontynuowanie wykonywania z odpowiednią obsługą błędów. Błędy nienaprawialne wskazują na podstawowe problemy, takie jak naruszenia bezpieczeństwa pamięci lub błędy logiczne, w przypadku których program nie może być bezpiecznie kontynuowany, wywołując panikę, która kończy wykonywanie, aby zapobiec dalszemu uszkodzeniu.

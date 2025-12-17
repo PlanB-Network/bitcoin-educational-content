@@ -1,0 +1,8 @@
+question: Ni igiki gishoboza LDK gushigikira uburyo butandukanye bwo gutwara ibintu nk’amasokete ya TCP, amasokete ya Web, n’amahuza y’uruhererekane ya USB ku bijanye n’uguhanahana amakuru Lightning Network?
+answer: Uburyo bwo gucunga urunganwe bukora bwigenga ku buryo bwo gutwara ibintu mu gihe bukorana n'ububiko bw'amasezerano y'urusaku
+wrong_answers:
+  - Umuyobozi w'umurongo ahuza n'ibikoresho vyinshi vy'uruja n'uruza biciye ku nzira y'ubuhinga bumwe
+  - LDK ishira mu ngiro abashoferi b'amasezerano ku bwoko bwose bw'ibinyabiziga mu gice cayo nyamukuru c'uruja n'uruza
+  - Ubuhinga bw'ivyabaye buca bumenya uburyo bwo gutwara buboneka maze bugatunganya ibikoresho bikwiye vyo guhuza
+explanation: |
+  Uburyo bwo gucunga abagenzi bwa LDK bwagenewe canecane gukorana n’ivy’itumanaho ry’umurongo wa Lightning (harimwo n’ugushiramwo urusaku n’imiterere y’ubutumwa) bitandukanye n’ivy’ugutwara abantu n’ibintu. Ukwo gutandukanya kw’ubwubatsi gutuma abahinguzi bashobora gushiramwo uburyo bwose bwo guhanahana amakuru bujanye n’inzira zibiri mu gihe umuyobozi w’urunganwe yibanda gusa ku kwubahiriza amategeko ya Lightning. Ibindi bihitamwo bivuga nabi ko LDK itanga uburyo bwo gutwara abantu canke uburyo bwo kumenya ubwabwo, mu gihe mu vy’ukuri inkomezi za LDK ziri mu gukura kure y’uburyo bumwe bumwe bwo gutwara abantu.

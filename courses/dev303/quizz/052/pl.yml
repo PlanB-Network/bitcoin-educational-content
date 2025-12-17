@@ -1,0 +1,8 @@
+question: Jaka jest kluczowa różnica między sposobem obsługi naruszeń wypożyczeń w przypadku zwykłych odniesień Rust a RefCell?
+answer: Zwykłe referencje powodują błędy kompilacji, podczas gdy RefCell wywołuje panikę w czasie wykonywania
+wrong_answers:
+  - Zwykłe referencje powodują panikę w czasie wykonywania, podczas gdy RefCell powoduje błędy kompilacji
+  - Zwykłe referencje pozwalają na wiele mutowalnych zapożyczeń, podczas gdy RefCell wymusza pojedynczy mutowalny dostęp
+  - Zwykłe referencje wymagają wyraźnych adnotacji o czasie życia, podczas gdy RefCell używa automatycznego czyszczenia
+explanation: |
+  RefCell przenosi egzekwowanie reguł pożyczania Rust z czasu kompilacji do czasu wykonywania. Podczas gdy kompilator statycznie analizuje regularne odniesienia i zapobiega naruszeniom zapożyczeń przed uruchomieniem programu, RefCell wykonuje te same kontrole bezpieczeństwa podczas wykonywania programu. Pozwala to RefCell na ominięcie konserwatywnych ograniczeń kompilatora w przypadkach, gdy programista wie, że kod jest bezpieczny, ale naruszenia skutkują paniką w czasie wykonywania zamiast niepowodzeniami kompilacji.

@@ -1,0 +1,8 @@
+question: Breez SDK'nın mimarisinin, genellikle saklama Yıldırım hizmetlerini etkileyen düzenleyici engelleri önlemesinin temel nedeni nedir?
+answer: Kullanıcılar, cihazlarını asla terk etmeyen özel anahtarları üzerinde tam kontrole sahiptir, bu da onu gözetim dışı bir yazılım haline getirir
+wrong_answers:
+  - SDK, düzenleme sorumluluğunu birden fazla yetki alanına dağıtan merkezi olmayan LSP'ler aracılığıyla çalışır
+  - Greenlight altyapısı, bulut tabanlı Lightning hizmetlerini muaf tutan düzenleyici dostu yargı bölgelerinde barındırılmaktadır
+  - Tam zamanında kanal mekanizması, geleneksel finansal düzenlemelerin dışında kalan geçici ödeme kanalları yaratır
+explanation: |
+  Breez SDK, gözetim dışı ilkeleri koruduğu için düzenleyici engellerden kaçınır - kullanıcıların özel anahtarları cihazlarını asla terk etmez ve Greenlight kullanıcı fonlarına erişemez veya yetkisiz işlemler gerçekleştiremez. Bu gözetim dışı mimari, kullanıcı varlıklarını kontrol ettikleri için önemli yasal gerekliliklerle karşılaşan gözetim hizmetlerinin aksine, yazılımın müşteri fonlarını tutmadığı anlamına gelir. Diğer seçenekler yanlış bir şekilde düzenleyici avantajların teknik özelliklerden veya yargı stratejilerinden kaynaklandığını öne sürmektedir; oysa temel avantaj, gözetim dışı yazılımın küresel olarak daha az düzenleyici engelle karşılaşmasıdır.

@@ -1,0 +1,8 @@
+question: Vad händer med slutledningsförmågan när en slutledning anropas med specifika typer?
+answer: Dessa typer blir fasta för den stängningsinstansen
+wrong_answers:
+  - Stängningen kan fortfarande acceptera olika typer i framtida samtal
+  - Kompilatorn återställer typerna för nästa funktionsanrop
+  - Typerna är flexibla och kan ändras beroende på sammanhanget
+explanation: |
+  I Rust kan stängningar dra nytta av automatisk typinferens, men denna flexibilitet har begränsningar. När en closure anropas med specifika parametertyper låser kompilatorn in dessa typer för just den closure-instansen. Detta innebär att samma closure inte senare kan anropas med olika typer - den blir monomorfiserad till de första typerna den stöter på. Detta skiljer sig från generiska funktioner som kan anropas med olika typer eftersom varje anrop skapar en separat instansiering. De andra alternativen är felaktiga eftersom de antyder en pågående flexibilitet som inte finns när avslutningens typer har bestämts.

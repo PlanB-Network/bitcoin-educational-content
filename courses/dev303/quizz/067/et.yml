@@ -1,0 +1,8 @@
+question: Kuidas on Rust platvormideülene ühilduvus kasulik Bitcoin rakenduste arendamisel erinevates rakenduskeskkondades?
+answer: See võimaldab ühtlustatud koodibaase käivitada mobiiliplatvormidel, veebibrauserites WebAssembly'i kaudu ja traditsioonilistes operatsioonisüsteemides
+wrong_answers:
+  - See tegeleb automaatselt krüptovaluuta vahetuskursi ümberarvestusega erinevatel piirkondlikel turgudel ja valuutades
+  - See pakub sisseehitatud plokiahela sünkroniseerimisprotokolle, mis toimivad identselt kõigis võrguarhitektuurides
+  - See pakub emakeelset integratsiooni riistvaraliste rahakottide ja turvamoodulitega igal toetatud platvormil
+explanation: |
+  Rust platvormideülesed võimalused võimaldavad arendajatel kirjutada Bitcoin rakendusi, mida saab kasutada erinevates keskkondades, sealhulgas mobiiltelefonides (Android/iOS), veebibrauserites (WebAssembly'i kompileerimise abil) ja traditsioonilistes töölaua operatsioonisüsteemides. Seda mitmekülgsust näitavad sellised projektid nagu Mutiny Wallet, mis kasutab Rust WebAssembly-tuge, et luua otse brauserites töötavaid Lightning-rahakotte. Vale vastused kirjeldavad funktsioone, mis ei ole seotud platvormideülese ühilduvusega - valuuta konverteerimine on rakendustasandi funktsioon, plokiahela protokollid on võrgukihi probleemid ja riistvara integreerimine nõuab pigem spetsiifilisi APIsid kui üldist platvormideülest toetust.

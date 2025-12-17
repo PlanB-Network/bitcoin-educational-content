@@ -1,0 +1,8 @@
+question: Qual é a caraterística mais básica que todas as closures implementam na hierarquia de caraterísticas de closures do Rust?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterador
+explanation: |
+  FnOnce é a caraterística mais básica que todas as closures implementam no Rust. Representa fechamentos que podem ser chamados pelo menos uma vez, tornando-o a base da hierarquia de caraterísticas de fechamento. FnMut e Fn são caraterísticas mais restritivas que se baseiam em FnOnce - FnMut permite várias chamadas com mutação, enquanto Fn permite várias chamadas sem mutação. Iterator não está relacionado com as caraterísticas de fecho e é utilizado para processar sequências de dados.

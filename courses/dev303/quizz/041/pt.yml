@@ -1,0 +1,8 @@
+question: Quais são as três maneiras pelas quais as closures podem capturar variáveis do seu ambiente no Rust?
+answer: Por referência imutável, por referência mutável ou por apropriação
+wrong_answers:
+  - Por cópia de valor, por empréstimo de referência ou por desreferência de ponteiro
+  - Por alocação de pilha, por alocação de heap ou por armazenamento estático
+  - Por acesso partilhado, por acesso exclusivo ou por acesso simultâneo
+explanation: |
+  As closures no Rust capturam as variáveis de ambiente exatamente de três maneiras: por referência imutável (quando precisam apenas ler), por referência mutável (quando precisam modificar), ou assumindo a propriedade (quando precisam mover o valor, geralmente para segurança de thread). O compilador escolhe automaticamente o método mais restritivo que satisfaz as necessidades da closure, seguindo o princípio do menor privilégio.

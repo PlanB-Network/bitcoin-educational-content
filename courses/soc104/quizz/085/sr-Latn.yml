@@ -1,0 +1,9 @@
+question: Prema Hajekovoj teoriji disperzovanog znanja, zašto centralno planirane ekonomije imaju poteškoća sa određivanjem cena u poređenju sa slobodnim tržištima?
+answer: Centralni planeri ne mogu pristupiti subjektivnom, lokalizovanom znanju o individualnim troškovima, koristima i preferencijama koje poseduju samo učesnici na tržištu.
+wrong_answers:
+  - Centralni planeri nemaju dovoljno računarske snage i napredne algoritme za obradu svih ekonomskih podataka koji su im dostupni.
+  - Centralni planeri su inherentno korumpirani i postavljaju cene da bi koristili sebi, a ne društvu, za razliku od učesnika na tržištu koji su altruistični.
+  - Centralni planeri se previše fokusiraju na dugoročnu ekonomsku stabilnost umesto da odgovaraju na trenutne fluktuacije ponude i potražnje.
+explanation: |
+  Ključni uvid Hayeka je da znanje postoji samo kao 'fragmenti raspršenog, nepotpunog i često kontradiktornog znanja koje poseduju svi različiti pojedinci.' Ovo znanje je subjektivno i lokalizovano - samo pojedinci znaju svoje sopstvene troškove, koristi i preferencije. Slobodna tržišta kroz dobrovoljnu razmenu i pregovaranje o cenama omogućavaju da ovo raspršeno znanje ispliva na površinu i koordinira ekonomsku aktivnost. 
+  Centralni planeri, bez obzira na njihove namere ili sposobnosti, ne mogu pristupiti ovoj subjektivnoj, raspršenoj informaciji koja postoji u umovima miliona pojedinaca, što čini efikasno određivanje cena nemogućim.

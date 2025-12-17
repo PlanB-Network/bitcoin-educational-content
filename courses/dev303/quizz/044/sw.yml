@@ -1,0 +1,8 @@
+question: Ni sifa gani ya msingi zaidi ambayo kufungwa kote hutekeleza katika safu ya sifa ya kufungwa ya Rust?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Kirudia
+explanation: |
+  FnOnce ndiyo sifa ya msingi zaidi ambayo kufungwa kote hutekeleza katika Rust. Inawakilisha kufungwa ambako kunaweza kuitwa angalau mara moja, na kuifanya kuwa msingi wa uongozi wa sifa ya kufungwa. FnMut na Fn ni sifa zenye vikwazo zaidi zinazojengwa juu ya FnOnce - FnMut inaruhusu simu nyingi zenye mabadiliko, huku Fn ikiruhusu simu nyingi bila mabadiliko. Kipima hakihusiani na sifa za kufungwa na hutumika kwa ajili ya usindikaji wa mfuatano wa data.

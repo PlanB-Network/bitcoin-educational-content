@@ -1,0 +1,8 @@
+question: Macro inapotumia muundo `$($x:expr)**` katika ufafanuzi wake, muundo huu unatimiza nini?
+answer: Inalingana na misemo sifuri au zaidi iliyotenganishwa na koma, na kuwezesha orodha za hoja zenye urefu tofauti
+wrong_answers:
+  - Inalingana kabisa na usemi mmoja na hurudia upanuzi wa jumla mara nyingi
+  - Inalingana na idadi yoyote ya fasili za aina zilizotengwa na nusu koloni kwa ajili ya utengenezaji wa msimbo
+  - Inaunda kitanzi kinachotekeleza makro wakati wa utekelezaji na thamani tofauti za usemi
+explanation: |
+  Muundo `$($x:expr),*` hutumia sintaksia ya marudio ya jumla ya Rust ambapo kihesabu `*` kinamaanisha 'sifuri au zaidi', `$x:expr` hunasa kila usemi, na koma hubainisha kitenganishi kati ya misemo. Hii huwezesha makro kama `vec!` kukubali idadi yoyote ya hoja: `vec![1, 2, 3]` au `vec![]`. Chaguzi zingine si sahihi kwa sababu: muundo hushughulikia misemo mingi si moja tu, hulingana haswa misemo si ufafanuzi wa aina na hutumia koma si nusu koloni, na makro hutekeleza wakati wa kukusanya wakati wa uzalishaji wa msimbo si wakati wa utekelezaji.

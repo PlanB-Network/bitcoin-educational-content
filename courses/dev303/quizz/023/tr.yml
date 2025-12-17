@@ -1,0 +1,8 @@
+question: Kopya olmayan türlerle struct güncelleme sözdizimini kullandığınızda orijinal yapı örneğine ne olur?
+answer: Kopyalanan alanlar, taşıma semantiği nedeniyle orijinal örnekte kullanılamaz hale gelir
+wrong_answers:
+  - Orijinal örnek tamamen değişmeden kalır ve tamamen erişilebilirdir
+  - Orijinal örneğin tamamı klonlanır ve her iki örnek de tamamen işlevsel hale gelir
+  - Yalnızca açıkça değiştirdiğiniz alanlar orijinalinde erişilemez hale gelir
+explanation: |
+  Kopyalanmayan türlerle struct güncelleme sözdizimi kullanıldığında, Rust'ın sahiplik sistemi kopyalanan alanları orijinal örnekten yeni örneğe taşır. Bu, kopyalanmayan alanların erişilebilir kalmasına rağmen, bu belirli alanların orijinal örnekte kullanılamaz hale geldiği anlamına gelir. Derleyici bu kısmi taşımaları akıllıca izler, taşınan alanlara erişimi engellerken taşınmayan alanların kullanılmaya devam etmesine izin verir. Bu davranış, aynı verinin birden fazla sahibi olmasını önleyerek bellek güvenliğini sağlar.

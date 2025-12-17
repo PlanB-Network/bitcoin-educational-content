@@ -1,0 +1,8 @@
+question: Ni utaratibu gani mkuu wa usalama unaohakikisha miundombinu ya Greenlight haiwezi kufikia fedha za watumiaji licha ya kuwa na nodi za umeme kwenye wingu?
+answer: Funguo za kibinafsi haziondoki kwenye vifaa vya mtumiaji na shughuli zote zinahitaji utiaji saini wa programu unaoendelea
+wrong_answers:
+  - Pochi zenye sahihi nyingi zenye vipande vya ufunguo vilivyosambazwa katika watoa huduma wengi wa wingu
+  - Moduli za usalama wa vifaa vinavyosimba miamala yote kabla ya usindikaji wa wingu
+  - Mikataba mahiri iliyofungwa kwa wakati ambayo hurejesha pesa kiotomatiki ikiwa ufikiaji usioidhinishwa utatokea
+explanation: |
+  SDK ya Breez hudumisha usalama kupitia usanifu usioaminika ambapo funguo za kibinafsi hubaki kwenye vifaa vya watumiaji pekee. Ingawa Greenlight huhifadhi miundombinu ya nodi ya Lightning, haiwezi kufanya shughuli zozote bila programu iliyounganishwa kikamilifu ambayo inaweza kusaini miamala na ujumbe. Muundo huu unahakikisha kwamba ingawa nodi inaendesha katika wingu, Greenlight haipati kamwe funguo za watumiaji na haiwezi kuhamisha fedha bila idhini ya mtumiaji wazi kupitia programu yao ya ndani. Chaguzi zingine zinaelezea mifumo tofauti ya usalama ambayo haitumiki katika usanifu huu.

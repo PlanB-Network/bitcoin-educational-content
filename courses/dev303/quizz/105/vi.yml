@@ -1,0 +1,8 @@
+question: Điểm khác biệt quan trọng giữa thiết kế lớp lưu trữ dữ liệu của LDK và phương pháp quản lý dữ liệu nút Lightning truyền thống, giúp mang lại sự linh hoạt trong triển khai đa nền tảng là gì?
+answer: LDK cung cấp các khối dữ liệu nhị phân trừu tượng để lưu trữ, trong khi các ứng dụng tự triển khai cơ chế lưu trữ riêng của chúng.
+wrong_answers:
+  - LDK sử dụng cơ sở dữ liệu SQL tiêu chuẩn trong khi các node truyền thống yêu cầu triển khai hệ thống tệp tùy chỉnh.
+  - LDK tự động đồng bộ hóa dữ liệu trên nhiều nền tảng, trong khi các node truyền thống chỉ lưu trữ dữ liệu cục bộ.
+  - LDK mã hóa tất cả dữ liệu lưu trữ theo mặc định, trong khi các node truyền thống dựa vào mã hóa ở cấp độ ứng dụng.
+explanation: |
+  Lớp lưu trữ bền vững của LDK trừu tượng hóa việc lưu trữ bằng cách cung cấp cho các ứng dụng các khối dữ liệu nhị phân được tuần tự hóa, cần được lưu trữ và truy xuất một cách đáng tin cậy, đồng thời xử lý toàn bộ sự phức tạp của việc tuần tự hóa trạng thái kênh Lightning và dữ liệu mạng bên trong. Điều này cho phép các ứng dụng lựa chọn bất kỳ giải pháp lưu trữ nào (hệ thống tệp, lưu trữ đám mây, cơ sở dữ liệu) phù hợp với yêu cầu nền tảng của chúng. Các nút Lightning truyền thống thường triển khai các hệ thống quản lý dữ liệu cụ thể của riêng chúng gắn liền với các cơ chế lưu trữ cụ thể, khiến chúng kém linh hoạt hơn trong các môi trường triển khai khác nhau.

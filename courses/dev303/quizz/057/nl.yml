@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van het uitroepteken (!) dat volgt op een macronaam in Rust?
+answer: Het dient als een visuele indicator dat er compileerbare code wordt gegenereerd in plaats van een runtime functieaanroep
+wrong_answers:
+  - Het geeft aan dat de macro in paniek raakt als er ongeldige invoerparameters worden gegeven tijdens de uitvoering
+  - Het markeert de macro als onveilig en vereist expliciete erkenning van potentiële problemen met geheugenveiligheid
+  - Het specificeert dat de macro een resultaattype retourneert dat moet worden afgehandeld met foutcontrole
+explanation: |
+  Het uitroepteken in de Rust macro syntax is een bewuste ontwerpkeuze die macro's visueel onderscheidt van functies. Wanneer je `println!()` of `vec![]` ziet, geeft de `!` onmiddellijk aan dat er compileertijd code-uitbreiding zal plaatsvinden, geen runtime functie-aanroep. Dit onderscheid is cruciaal omdat macro's fundamenteel anders werken dan functies - ze generate code tijdens het compileren door patroonherkenning en uitbreiding. De foute antwoorden verwarren dit met runtime gedrag zoals panikeren, onveilige operaties of foutafhandeling, maar het uitroepteken geeft specifiek de compileertijd metaprogrammatische aard van macro's aan.

@@ -1,0 +1,8 @@
+question: Ni intumbero nyamukuru iyihe y’ikimenyetso c’ugutangara (!) gikurikira izina ry’agaciro muri Rust?
+answer: Bikora nk'ikimenyetso kigaragara c'uko kode y'igihe co gukoranya iriko iraba aho guhamagara igikorwa c'igihe co gukora
+wrong_answers:
+  - Bigaragaza ko macro izogira ubwoba iyo ihawe amaparametere y'inyungu atari yo mu gihe c'ugushirwa mu ngiro
+  - Bishira ikimenyetso kuri macro ko idatekanye kandi bisaba kwemera mu buryo butomoye ibibazo bishobora guterwa n'umutekano w'ubwenge
+  - Bigaragaza ko macro igarura ubwoko bw'Igisubizo kigomba gufatwa n'ikosa ryo kugenzura
+explanation: |
+  Ikimenyetso c'ugutangara mu nsiguro y'amajambo ya Rust ni uguhitamwo kw'imiterere y'ibigirankana gutandukanya ama macro n'ibikorwa. Iyo ubonye `println!()` canke `vec![]`, `!` ihita yerekana ko ukwaguka kwa kode y'igihe co gukora bizoba, atari uguhamagara kw'igikorwa c'igihe co gukora. Iryo tandukaniro ni ngirakamaro kubera ko macros zikora mu buryo butandukanye cane n'ibikorwa - zikora kode ya generate mu gihe co gukoranya biciye mu guhuza n'ukwagura. Inyishu zitari zo zitera urujijo ivyo n'inyifato z'igihe co gukora nk'uguhagarika umutima, ibikorwa bidatekanye, canke gufata amakosa, ariko ikimenyetso c'ugutangara kigaragaza canecane kamere y'igihe co gukora porogarama y'ama macros.

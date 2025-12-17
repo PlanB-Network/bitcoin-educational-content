@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck des Ausrufezeichens (!), das einem Makronamen in Rust folgt?
+answer: Es dient als visueller Indikator dafür, dass zur Kompilierzeit Code generiert wird und nicht zur Laufzeit ein Funktionsaufruf erfolgt
+wrong_answers:
+  - Es zeigt an, dass das Makro in Panik gerät, wenn es während der Ausführung ungültige Eingabeparameter erhält
+  - Es kennzeichnet das Makro als unsicher und erfordert die ausdrückliche Anerkennung möglicher Probleme mit der Speichersicherheit
+  - Es gibt an, dass das Makro einen Ergebnistyp zurückgibt, der mit einer Fehlerprüfung behandelt werden muss
+explanation: |
+  Das Ausrufezeichen in der Rust-Makrosyntax ist eine bewusste Designentscheidung, die Makros visuell von Funktionen unterscheidet. Wenn Sie `println!()` oder `vec![]` sehen, signalisiert das `!` sofort, dass eine Codeerweiterung zur Kompilierungszeit stattfindet und nicht ein Funktionsaufruf zur Laufzeit. Diese Unterscheidung ist von entscheidender Bedeutung, da Makros grundlegend anders funktionieren als Funktionen - sie erzeugen während der Kompilierung durch Mustervergleich und Expansion generate-Code. Die falschen Antworten verwechseln dies mit Laufzeitverhalten wie Panikmache, unsicheren Operationen oder Fehlerbehandlung, aber das Ausrufezeichen weist ausdrücklich auf die Kompilierzeit-Metaprogrammierung von Makros hin.

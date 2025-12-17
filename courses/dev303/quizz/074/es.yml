@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal limitación del uso de la biblioteca anyhow para la gestión de errores en el desarrollo de bibliotecas Rust?
+answer: Convierte todos los errores en mensajes de cadena, evitando que los consumidores respondan mediante programación a diferentes condiciones de error
+wrong_answers:
+  - Sólo funciona con tipos Resultado y no puede manejar tipos Opción, lo que limita su utilidad en escenarios mixtos
+  - Requiere la conversión manual de errores para cada tipo de error, por lo que es más verboso que la gestión estándar de resultados
+  - Entra automáticamente en pánico ante determinados tipos de error, lo que lo hace inadecuado para el código de bibliotecas de producción
+explanation: |
+  El principal inconveniente de la biblioteca anyhow para el desarrollo de bibliotecas es que básicamente aplana todos los errores en representaciones de cadenas, perdiendo la información estructurada de errores que los consumidores de la biblioteca necesitan para tomar decisiones programáticas. Mientras que anyhow sobresale en la simplificación del manejo de errores para aplicaciones de usuario final donde los errores se muestran principalmente, las bibliotecas necesitan proporcionar tipos de error específicos que permitan a los consumidores distinguir entre diferentes modos de fallo (como entrada inválida vs. errores de tiempo de ejecución) y responder apropiadamente. Las otras opciones son incorrectas: anyhow funciona bien con los tipos Result y Option, reduce la verbosidad mediante la conversión automática y no causa pánicos.

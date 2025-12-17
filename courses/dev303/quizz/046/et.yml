@@ -1,0 +1,8 @@
+question: Mis juhtub, kui kloonida RC<T> eksemplar, mis sisaldab suurt andmestruktuuri?
+answer: Ainult viide kopeeritakse ja viite loendurit suurendatakse, jättes algsed andmed muutmata
+wrong_answers:
+  - Kogu andmestruktuur dubleeritakse mälus ja mõlemad koopiad säilitavad eraldi viiteloendurid
+  - Luuakse pinnapealne koopia, kus primitiivsed väljad kopeeritakse, kuid komplekssed väljad jäävad jagatud viideteks
+  - Andmed viiakse uude mälupunkti ja esialgne RC muutub kehtetuks, kuni see uuesti initsialiseeritakse
+explanation: |
+  RC kloonimisel kopeerib Rust ainult viitekirje ja suurendab sisemist viiteloendurit, muutes operatsiooni äärmiselt tõhusaks, sõltumata andmete suurusest. Alusandmed jäävad samasse mälupunkti ja neid jagavad kõik RC-instantsid. See erineb põhimõtteliselt tegelike andmete kloonimisest, mis kaotaks jagatud omandiõiguse eesmärgi ja raiskaks mälu.

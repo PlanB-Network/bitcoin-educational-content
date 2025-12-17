@@ -1,0 +1,8 @@
+question: Milline on peamine mehhanism, mille abil Breez SDK nullkanalilise reservi funktsioon loob lisariski, mille Lightning teenusepakkujad peavad võtma enda kanda?
+answer: LSPd peavad võtma riski, et kasutajad kulutavad kogu oma kanali tasakaalu, kõrvaldades turvapuhvri, mis traditsiooniliselt kaitseb kanali sundkatkestuste eest
+wrong_answers:
+  - LSP-d hakkavad vastutama pideva võrgugraafi sünkroniseerimise eest mitme kasutaja seadme vahel ilma traditsioonilise reservipõhise tasu kompenseerimiseta
+  - LSPd peavad tagama kohese maksete marsruutimise ilma likviidsuspuhvrita, mida kanalireservid pakuvad võrgu ülekoormusstsenaariumide käsitlemiseks
+  - LSPd võtavad vastutuse on-chain vahetuse ebaõnnestumiste eest, kui kasutajad üritavad konverteerida oma kogu Lightning-saldot Bitcoin-sse kõrgete tasude perioodidel
+explanation: |
+  Null-kanali reservid võimaldavad kasutajatel kulutada kogu näidatud saldo, kuid see kaotab traditsioonilise turvapuhvri, mis kaitseb välkteenuse pakkujaid kanalite sundsulgemise ajal. Kanali reservid tagavad tavaliselt, et osa vahendeid jääb lukku, et katta sulgemiskulud ja pakkuda kaitset pahatahtliku käitumise vastu. Kasutajakogemuse parandamise eesmärgil nende reservide eemaldamisega peavad LSPd võtma täiendavad tegevus- ja finantsriskid, mille leevendamiseks need puhvrid olid mõeldud, mis kujutab endast selget kompromissi, mille puhul tehniline keerukus ja risk nihkuvad kasutajatelt teenusepakkujatele.

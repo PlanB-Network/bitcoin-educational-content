@@ -1,0 +1,8 @@
+question: Mis on peamine erinevus taastatavate ja taastamatute vigade vahel Rust veakäitlussüsteemis?
+answer: Taastatavaid vigu saab käsitleda graatsiliselt, võimaldades programmide jätkamist, samas kui taastamatud vead lõpetavad programmi
+wrong_answers:
+  - Taastatavad vead kasutavad makrot panic!, samas kui taastamatud vead kasutavad nõuetekohaseks veahalduseks Result enum'i
+  - Taastatavad vead tekivad kompileerimise ajal, samas kui taastamatud vead tekivad ainult programmi täitmise ajal
+  - Taastatavad vead nõuavad virna lahti kerimist, samas kui taastamatuid vigu saab kutsuv kood ignoreerida
+explanation: |
+  Rust liigitab vead kategooriatesse selle alusel, kas programmid suudavad neist mõistlikult taastuda. Taastatavad vead kujutavad endast eeldatavaid veatingimusi, nagu puuduolevad failid või võrguprobleemid, mida programmid saavad graatsiliselt käsitleda, kasutades tulemitüüpe, võimaldades täitmise jätkamist asjakohase veakäsitlusega. Taastumatud vead näitavad põhimõttelisi probleeme, nagu mälu ohutuse rikkumised või loogikavead, mille puhul programm ei saa ohutult jätkata, käivitades paanika, mis lõpetab täitmise, et vältida edasist rikkumist.

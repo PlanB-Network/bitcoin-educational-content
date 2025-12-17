@@ -1,0 +1,8 @@
+question: Apa tujuan utama menggabungkan RC dengan RefCell dalam pemrograman Rust?
+answer: Untuk memungkinkan beberapa pemilik berbagi dan mengubah data yang sama dengan pemeriksaan peminjaman runtime
+wrong_answers:
+  - Untuk memindahkan penegakan aturan peminjaman dari waktu proses ke waktu kompilasi untuk kinerja yang lebih baik
+  - Untuk membuat data bersama yang tidak dapat diubah yang dapat diakses dengan aman di beberapa thread
+  - Untuk mencegah siklus referensi dan kebocoran memori saat berbagi data di antara beberapa pemilik
+explanation: |
+  RC <RefCell<T> menggabungkan penghitungan referensi untuk kepemilikan bersama dengan mutabilitas interior untuk mutasi yang diperiksa pada saat runtime. RC memungkinkan beberapa bagian kode memiliki data yang sama, sementara RefCell memungkinkan mutasi melalui referensi yang tidak dapat diubah dengan memeriksa aturan peminjaman pada saat runtime. Opsi lainnya tidak benar: pola ini sebenarnya memindahkan pemeriksaan ke waktu runtime (bukan waktu kompilasi), menciptakan data bersama yang dapat berubah (bukan tidak dapat berubah), dan sebenarnya dapat menyebabkan siklus referensi daripada mencegahnya.

@@ -1,0 +1,9 @@
+question: Según la perspectiva de Friedman, ¿cuál es el principal problema de juzgar las políticas sociales basándose en sus intenciones declaradas y no en sus resultados reales?
+answer: Las políticas bienintencionadas suelen tener consecuencias no deseadas, como la dependencia económica y las distorsiones del mercado, que contradicen sus objetivos originales
+wrong_answers:
+  - Las intenciones son demasiado difíciles de medir objetivamente en comparación con la evaluación directa de los resultados de las políticas
+  - Los políticos engañan deliberadamente al público sobre sus verdaderas intenciones, lo que hace que la evaluación basada en la intención sea fundamentalmente poco fiable y engañosa
+  - Las intenciones cambian con demasiada frecuencia durante la aplicación de las políticas, lo que las convierte en una base inestable para su evaluación a largo plazo
+explanation: |
+  Friedman sostiene que las políticas con intenciones generosas pueden producir efectos perversos contrarios a sus objetivos, como crear dependencia entre aquellos a los que pretenden ayudar
+  que pretenden ayudar. La cuestión no es la dificultad de medición, el engaño político o el cambio de intenciones, sino que las buenas intenciones no garantizan resultados positivos. Por eso se prefieren las definiciones estructurales, centradas en características observables y resultados mensurables, a las definiciones intencionales, basadas en motivaciones declaradas.

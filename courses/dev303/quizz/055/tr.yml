@@ -1,0 +1,8 @@
+question: Rust derleyicisi bir makro çağrısıyla karşılaştığında derleme işlemi sırasında ne olur?
+answer: Derleyici, girdiyi tanımlanmış kalıplarla eşleştirir ve tür denetimi gerçekleşmeden önce makro çağrısını oluşturulan kodla değiştirir
+wrong_answers:
+  - Derleyici, kodun geçerliliğini sağlamak için tip denetimi ve optimizasyon sonrasına kadar makro genişletmeyi erteler
+  - Derleyici makro çağrısını bayt kodu olarak saklar ve çalışma zamanı yürütmesi sırasında dinamik olarak genişletir
+  - Derleyici makro sözdizimini doğrular ancak asıl genişletme işlemini bağlayıcıya bırakır
+explanation: |
+  Makrolar, tip denetimi ve optimizasyon gerçekleşmeden önce derleme sırasında genişletilir. Derleyici bir makro çağrısıyla karşılaştığında, girdiyi makronun tanımlı kalıplarıyla hemen eşleştirir ve makro çağrısının tamamını oluşturulan kodla değiştirir. Bu genişletilmiş kod daha sonra tür denetimi de dahil olmak üzere normal derleme işlemlerine tabi tutulur. Diğer seçenekler yanlıştır çünkü makrolar çalışma zamanında değil derleme zamanında çalışır ve oluşturulan kodun doğruluğunun onaylanması gerektiğinden genişletme işleminin tür denetiminden önce gerçekleşmesi gerekir.

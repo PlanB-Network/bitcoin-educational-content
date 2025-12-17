@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van Rustup in het Rust ontwikkel-ecosysteem?
+answer: Een uitgebreid toolchainbeheersysteem voor het installeren en beheren van Rust
+wrong_answers:
+  - Een pakketbeheerder voor het afhandelen van afhankelijkheden in Rust projecten
+  - Een geavanceerde linter die code analyseert en suggesties voor verbetering geeft
+  - Een buildsysteem dat Rust programma's compileert en de projectstructuur beheert
+explanation: |
+  Rustup is specifiek ontworpen als een toolchain management systeem dat de installatie, het updaten en het beheer van Rust zelf afhandelt over verschillende projecten en platformen. Terwijl Cargo dient als pakketbeheerder en bouwsysteem voor Rust projecten, en Clippy functioneert als de linter voor code analyse, werkt Rustup op een hoger niveau door de gehele Rust ontwikkelomgeving te beheren. Het stelt ontwikkelaars in staat om verschillende Rust versies te installeren, compilatiedoelen voor verschillende platforms te beheren en eenvoudig bij te werken naar nieuwe Rust releases met eenvoudige commando's zoals 'rustup update'.

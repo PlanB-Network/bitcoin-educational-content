@@ -1,0 +1,8 @@
+question: Welche Kombination von Rust-Merkmalen macht es besonders geeignet für die Handhabung der irreversiblen Natur von Bitcoin-Transaktionen?
+answer: Statisches starkes Typensystem, das Fehler bei der Kompilierung erkennt und speicherbezogene Schwachstellen verhindert
+wrong_answers:
+  - Dynamische Typisierung mit Laufzeitprüfungen und automatischer Garbage Collection für die Speicherverwaltung
+  - Schwaches Typensystem mit flexiblen Konvertierungen und manueller Speicherverwaltung zur Leistungsoptimierung
+  - Just-in-time-Kompilierung mit Laufzeitoptimierung und interpretierter Fehlerbehandlung für mehr Flexibilität
+explanation: |
+  Das statische starke Typsystem von Rust ist für die Bitcoin-Entwicklung von entscheidender Bedeutung, da es Typinkongruenzen und Logikfehler erkennt, bevor das Programm ausgeführt wird, und so Probleme verhindert, die sich auf die Mittel der Benutzer auswirken könnten. Die statische Natur bedeutet, dass Fehler zur Kompilierungszeit und nicht zur Laufzeit bei der Bearbeitung echter Transaktionen gefunden werden. Darüber hinaus verwaltet das Rust-Typsystem den Speicherbesitz und verhindert speicherbezogene Schwachstellen wie Double-Free-Fehler und Race Conditions. Dies ist wichtig für Bitcoin-Anwendungen, bei denen Fehler irreversibel sind und es keine Instanz gibt, an die man sich wenden kann, um Gelder zurückzuerhalten, im Gegensatz zu traditionellen Finanzsystemen mit Rückbuchungsmechanismen.

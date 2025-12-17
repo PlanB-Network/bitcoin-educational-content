@@ -1,0 +1,8 @@
+question: Qual è il principale compromesso architettonico che l'SDK Breez fa per ottenere un'integrazione semplificata di Lightning mantenendo i principi di non-custodia?
+answer: Gli utenti sacrificano un po' di privacy, poiché Greenlight può osservare gli stati dei canali e le informazioni di routing, ma mantengono il pieno controllo sulle chiavi private e sull'accesso ai fondi
+wrong_answers:
+  - Gli utenti devono affidare a Greenlight la custodia parziale dei fondi in cambio di una gestione automatizzata dei canali e di una minore complessità operativa
+  - Gli sviluppatori perdono l'accesso alle funzionalità avanzate di Lightning, come il routing personalizzato e le politiche di canale, in cambio di un'integrazione semplificata con API e del supporto multipiattaforma
+  - Le applicazioni sacrificano le capacità di elaborazione dei pagamenti in tempo reale in cambio di una maggiore sicurezza grazie alla convalida basata su cloud di tutte le transazioni Lightning
+explanation: |
+  L'architettura dell'SDK Breez rappresenta un compromesso attentamente considerato tra privacy e usabilità. Mentre Greenlight può osservare gli stati dei canali e le informazioni di routing (riducendo la privacy), gli utenti mantengono il controllo completo sulle loro chiavi private, che non lasciano mai i loro dispositivi. Questo garantisce che non si possa accedere ai fondi senza l'autorizzazione dell'utente, preservando il principio fondamentale di non custodia. Le risposte sbagliate suggeriscono erroneamente la custodia dei fondi, le limitazioni delle funzioni o i ritardi di elaborazione, nessuno dei quali è un reale compromesso nella progettazione dell'SDK.

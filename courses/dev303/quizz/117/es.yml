@@ -1,0 +1,8 @@
+question: ¿Cuál es la razón fundamental por la que la arquitectura del SDK de Breez evita los obstáculos normativos que suelen afectar a los servicios de custodia Lightning?
+answer: Los usuarios mantienen un control total sobre sus claves privadas, que nunca salen de sus dispositivos, por lo que se trata de un software no custodial
+wrong_answers:
+  - El SDK funciona a través de PSL descentralizados que distribuyen la responsabilidad reguladora entre múltiples jurisdicciones
+  - La infraestructura de Greenlight se aloja en jurisdicciones favorables a la reglamentación que eximen los servicios Lightning basados en la nube
+  - El mecanismo del canal justo a tiempo crea canales de pago temporales que quedan fuera de la normativa financiera tradicional
+explanation: |
+  El SDK de Breez evita los obstáculos normativos porque mantiene principios de no custodia: las claves privadas de los usuarios nunca salen de sus dispositivos y Greenlight no puede acceder a los fondos de los usuarios ni realizar operaciones no autorizadas. Esta arquitectura no custodial significa que el software no retiene los fondos de los clientes, a diferencia de los servicios de custodia, que se enfrentan a importantes requisitos normativos al controlar los activos de los usuarios. Las otras opciones sugieren incorrectamente que las ventajas normativas provienen de características técnicas o estrategias jurisdiccionales, cuando la ventaja fundamental es simplemente que el software no custodial se enfrenta a menos barreras normativas a nivel mundial.

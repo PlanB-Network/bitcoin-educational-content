@@ -1,0 +1,8 @@
+question: Ni nini kinachotofautisha makosa ya rasilimali ya wakati wa utekelezaji na makosa batili ya ingizo na makosa ya kimantiki katika ukuzaji wa programu ya Bitcoin?
+answer: Hitilafu za rasilimali za wakati wa utekelezaji hutokea wakati utegemezi wa nje kama vile faili au miunganisho ya mtandao haupatikani, na hivyo kuhitaji marekebisho ya kimazingira badala ya mabadiliko ya msimbo.
+wrong_answers:
+  - "Hitilafu za rasilimali za wakati wa utekelezaji hutokea wakati vigezo vya utendaji havifikii mahitaji, kuonyesha ukiukwaji wa mkataba kati ya mpigaji simu na utendaji"
+  - Hitilafu za rasilimali za wakati wa utekelezaji zinawakilisha hitilafu katika utekelezaji wa programu zinazohitaji utatuzi wa matatizo na urekebishaji wa msimbo ili kutatuliwa ipasavyo
+  - Hitilafu za rasilimali za wakati wa utekelezaji hutokea wakati mfumo wa aina unashindwa kupata tofauti, na kuruhusu aina zisizo sahihi za data kuenea kupitia mfumo.
+explanation: |
+  Hitilafu za rasilimali za wakati wa utekelezaji huwa nje ya mantiki ya programu na hutokea wakati utegemezi kama vile faili, miunganisho ya mtandao, au vifaa vya kuhifadhi hazipatikani. Tofauti na hitilafu batili za kuingiza data (ambazo zinahusisha ukiukaji wa mkataba wa vigezo) au hitilafu za mantiki (ambazo ni hitilafu za utekelezaji), hitilafu za rasilimali za wakati wa utekelezaji kwa kawaida huhitaji marekebisho ya kimazingira badala ya mabadiliko ya msimbo. Programu lazima ishughulikie haya kwa uzuri kwani mara nyingi huwa ya muda mfupi na nje ya udhibiti wa moja kwa moja wa programu.

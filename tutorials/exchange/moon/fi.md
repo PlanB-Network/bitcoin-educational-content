@@ -7,6 +7,12 @@ description: Maksa bitcoineilla kaikkialla, missä Visa-pankkikortit hyväksytä
 
 
 
+---
+
+⚠️ *Päivitys joulukuu 2025: Huomio, **joulukuun 2025 alusta lähtien osa Moonin palveluista ei ole enää saatavilla**, erityisesti ladattavat Visa-pankkikortit. Emme vielä tiedä, onko tämä käyttökatko väliaikainen vai pysyvä. Tämä opas päivitetään heti, kun saamme lisätietoja.*
+
+---
+
 Moonin avulla voit käyttää kryptovaluuttoja, kuten bitcoinia, ostaaksesi KYC-vapaita virtuaalisia Visa-kortteja ja lahjakortteja, joita voi käyttää miljoonissa verkkokauppiaissa perinteisen pankkikortin tavoin. Se tarjoaa siis yksinkertaisen tavan käyttää sats kaikkialla, missä Visa hyväksytään, ilman vaihtofoorumin kautta kulkemista.
 
 

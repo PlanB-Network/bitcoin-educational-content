@@ -1,0 +1,8 @@
+question: Mitä ensisijaista mekanismia Rust käyttää estääkseen muistiin liittyvät viat, kuten use-after-free ja puskurin ylivuodot?
+answer: Staattinen analyysi suoritetaan kokonaan kääntämisaikana
+wrong_answers:
+  - Suoritusaikainen roskienkeruu ja automaattinen muistin siivous
+  - Dynaaminen muistin tarkistus ohjelman suorituksen aikana
+  - Manuaalinen muistinhallinta nimenomaisilla allokaatiokutsuilla
+explanation: |
+  Rust ehkäisee muistiin liittyviä virheitä staattisella analyysillä, joka suoritetaan kokonaan kääntämisen aikana, jolloin kääntäjä tutkii lähdekoodin ja määrittää varmuudella, ovatko muistitoiminnot turvallisia. Tämä eroaa roskien keräämisestä (jota Java/Go käyttää), joka aiheuttaa yleiskustannuksia ajonaikana, dynaamisesta tarkistuksesta, joka edellyttää ajonaikaista tarkistusta, ja manuaalisesta muistinhallinnasta (jota C/C++ käyttää), joka perustuu ohjelmoijan kurinalaisuuteen. Rust:n kääntämisaikainen lähestymistapa varmistaa muistin turvallisuuden ilman ajonaikaisia kustannuksia tai arvaamattomia taukoja.

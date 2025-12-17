@@ -1,0 +1,8 @@
+question: Was ist der wichtigste Kompromiss in Bezug auf den Datenschutz, der bei der Migration von einer selbstverwalteten LDK-Implementierung zur Cloud-basierten Architektur des Breez SDK eingegangen wird?
+answer: Greenlight gewinnt durch Cloud-basiertes Routing potenzielle Transparenz über Zahlungsziele und Rechnungserstellungsaktivitäten
+wrong_answers:
+  - "Private Schlüssel werden auf den Servern von Blockstream gespeichert und nicht lokal auf dem Gerät des Nutzers
+  - Informationen über den Kanalstatus werden im Lightning Network-Graphen durch Greenlight-Knoten öffentlich sichtbar
+  - LSP-Dienste können jetzt alle on-chain-Transaktionen überwachen und sie mit Lightning-Zahlungsmustern verknüpfen
+explanation: |
+  Die richtige Antwort identifiziert die wichtigste Verschlechterung des Datenschutzes: Cloud-basiertes Routing ermöglicht Greenlight die potenzielle Beobachtung von Zahlungszielen, während die Cloud-Rechnungserstellung die Offenlegung von Informationen über das hinaus ausweitet, was herkömmliche reine LSP-Architekturen enthüllen. Die falschen Antworten sind falsch, denn: private Schlüssel bleiben trotz der Cloud-Architektur unter der Kontrolle des Nutzers; Kanalzustände werden durch das Routing nicht öffentlich sichtbar gemacht; und LSPs erhalten durch diese Architekturänderung keine zusätzlichen on-chain-Transaktionsüberwachungsmöglichkeiten.

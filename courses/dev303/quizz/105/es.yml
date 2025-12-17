@@ -1,0 +1,8 @@
+question: ¿Cuál es la diferencia crítica entre el diseño de la capa de persistencia de LDK y la gestión tradicional de datos del nodo Lightning que permite la flexibilidad de despliegue entre plataformas?
+answer: LDK proporciona blobs de datos binarios abstractos para el almacenamiento, mientras que las aplicaciones implementan sus propios mecanismos de almacenamiento
+wrong_answers:
+  - LDK utiliza bases de datos SQL estandarizadas, mientras que los nodos tradicionales requieren implementaciones personalizadas del sistema de archivos
+  - LDK sincroniza automáticamente los datos entre varias plataformas, mientras que los nodos tradicionales sólo los almacenan localmente
+  - LDK encripta todos los datos de persistencia por defecto, mientras que los nodos tradicionales dependen de la encriptación a nivel de aplicación
+explanation: |
+  La capa de persistencia de LDK abstrae el almacenamiento proporcionando a las aplicaciones blobs de datos binarios serializados que deben almacenarse y recuperarse de forma fiable, al tiempo que gestiona internamente toda la complejidad de serializar los estados de los canales Lightning y los datos de red. Esto permite a las aplicaciones elegir cualquier solución de almacenamiento (sistemas de archivos, almacenamiento en la nube, bases de datos) que se ajuste a los requisitos de su plataforma. Los nodos Lightning tradicionales suelen implementar sus propios sistemas de gestión de datos específicos vinculados a mecanismos de almacenamiento concretos, lo que los hace menos flexibles en distintos entornos de implantación.

@@ -1,0 +1,9 @@
+question: Quel logiciel a innové en représentant la graine liée à la dérivation des clés sous la forme d'une phrase de 12 mots en novembre 2011 ?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Ce portefeuille a été créé par le développeur français Thomas Voegtlin. Son nom fait référence à l'électrum, alliage naturel d'or et d'argent. Electrum a été l'un des premiers portefeuilles à mettre en place une structure déterministe faisant dériver les clés d'une graine, qu'il représentait à la fois sous la forme d'une chaine de caractères hexadécimaux et d'une phrase de 12 mots.
+reviewed: false

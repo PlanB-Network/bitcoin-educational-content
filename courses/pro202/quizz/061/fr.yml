@@ -1,0 +1,8 @@
+question: Quel est le mécanisme fondamental qui permet à SegWit d'augmenter la capacité des blocs tout en maintenant la compatibilité avec les nœuds antérieurs à SegWit ?
+answer: Système de pondération des blocs dans lequel les données témoins sont réduites de 75 % dans les calculs de capacité, ce qui permet d'avoir jusqu'à 4 Mo de données totales alors que les anciens nœuds voient ≤1 Mo
+wrong_answers:
+  - Des algorithmes de compression qui réduisent la taille des données témoins de 75 % avant la transmission, en maintenant les blocs à moins de 1 Mo pour tous les nœuds
+  - Ajustement dynamique de la taille des blocs qui augmente les limites en fonction du pourcentage de transactions SegWit dans chaque bloc
+  - Blocs témoins distincts transmis uniquement aux nœuds mis à niveau, tandis que les nœuds existants reçoivent des blocs traditionnels de 1 Mo
+explanation: |
+  SegWit utilise des unités de poids par bloc où les données de transaction de base comptent pour 4 unités de poids par octet, tandis que les données témoins comptent pour 1 unité de poids par octet. Cette réduction de 75 % permet aux blocs d'atteindre 4 millions d'unités de poids (potentiellement 4 Mo avec toutes les données témoins) tout en garantissant que les nœuds existants ne verront jamais plus de 1 Mo de données de transaction de base. Les autres options décrivent des mécanismes inexistants - il n'y a pas de compression, pas de dimensionnement dynamique et pas de transmission séparée des blocs.

@@ -1,0 +1,8 @@
+question: Mis on peamine tagajärg, kui unustatakse lisada muutuste väljund, kui kulutatakse UTXO, mis sisaldab rohkem Bitcoin kui vaja?
+answer: Liigne summa muutub automaatselt kaevandamistasuks
+wrong_answers:
+  - Võrk lükkab tehingu tagasi kui kehtetu
+  - "Liigne summa tagastatakse algse saatja aadressile"
+  - Liigne summa jääb lukustatud algsesse UTXO-sse
+explanation: |
+  Bitcoin UTXO mudelis arvutatakse tehingutasud kaudselt sisendite kogusumma ja väljundite kogusumma vahena (tasu = summa(sisendid) - summa(väljundid)). Kui te kulutate UTXO, peate te selle täielikult kulutama - osaline kulutamine on võimatu. Kui teil on vaja kulutada ainult osa UTXO väärtusest, peate ülejäänud summa saamiseks looma muutmisväljundi. Kui te unustate selle muutmisväljundi lisada, muutub sisendite ja väljundite arvestamata vahe automaatselt kaevandamistasuks. Seepärast on õige muutusväljundi konstrueerimine hädavajalik - ilma selleta võite kogemata maksta kaevuritele tohutuid tasusid.

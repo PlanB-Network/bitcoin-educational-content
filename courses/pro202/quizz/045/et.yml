@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus, miks Bitcoin raskuste korrigeerimise mehhanism piirab muutusi iga 2016. aasta plokkide korrigeerimisperioodi jooksul kuni neljakordse faktoriga?
+answer: Et vältida äärmuslikke võnkumisi, mis võivad võrgu destabiliseerida, kui hash-kiirus muutub järsult
+wrong_answers:
+  - Tagamaks, et kaevandajatel on piisavalt aega oma riistvara uuendamiseks enne, kui raskusaste oluliselt suureneb
+  - Et säilitada ühilduvus 32-bitise ajatempli väljaga, mis muutub ebausaldusväärseks suuremate kohanduste korral
+  - Selleks, et vältida blokeeritud toetuste poolitamise ajakava häirimist kiirete raskuste muutuste tõttu
+explanation: |
+  Neljakordne piirang hoiab ära ohtlikud tagasisideahelad, kus äärmuslikud raskuste muutused võivad põhjustada metsikuid muutusi blokeerimisaegades. Ilma selle piiranguta võib äkiline hash-kiiruse langus vallandada massiivse raskusastme vähenemise, muutes plokid liiga lihtsaks ja destabiliseerides konsensuse. Vastupidi, tohutud tõusud võivad muuta plokkide kaevandamise peaaegu võimatuks. Piirang tagab järk-järgulised, hallatavad kohandused, mis säilitavad võrgu stabiilsuse isegi suurte häirete, näiteks mining keelustamise ajal, võimaldades süsteemil prognoositavalt ise korrigeerida mitme kohandamisperioodi jooksul, mitte tekitada kaootilisi võnkumisi.

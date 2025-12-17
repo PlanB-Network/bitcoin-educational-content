@@ -1,0 +1,8 @@
+question: Ni isano irihe riri hagati ya Elements na Liquid Network?
+answer: Liquid ni urugero rwihariye rw'uruzitiro rw'inyuma rwa Elements rwatunganijwe kugira ngo rukoreshwe mu guhingura
+wrong_answers:
+  - Elements ni urugero rwihariye rwa Liquid Network rwatunganijwe ku ntumbero zo kugerageza
+  - Liquid na Elements ni ibibanza bibiri bihiganwa bifise ama codebases atandukanye .
+  - "Elements ni uburyo bwo kwumvikana buha ububasha bwo kwemeza ububiko bwa Liquid Network"
+explanation: |
+  Elements ni porogaramu y’urubuga rwa blockchain rwuguruye, mu gihe Liquid ari ugushirwa mu ngiro canke ‘instance’ yihariye y’uruhererekane rwa Elements rwatunganijwe kugira ngo rukoreshwe mu guhingura n’akarorero k’uguhurizako. Iyumvire Elements nk’inzego z’ubuhinga zishingiyeko, na Liquid nk’urubuga rumwe rwihariye rwubatswe hakoreshejwe iyo nzira. Ivyo bisa n’ingene Bitcoin Core ari porogaramu itanga ubushobozi ku rubuga rwa Bitcoin - Elements ni moteri ya porogaramu itanga ubushobozi kuri Liquid n’izindi sidechains zisanzwe.

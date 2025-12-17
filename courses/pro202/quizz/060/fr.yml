@@ -1,0 +1,8 @@
+question: Quel mécanisme spécifique garantit que les nœuds pré-SegWit acceptent les transactions P2WPKH comme valides sans comprendre les règles de validation des témoins ?
+answer: Les nœuds antérieurs à la SegWit interprètent le script OP_0 + 20 octets de hachage comme une sortie "anyone-can-spend" qui ne nécessite pas de vérification de la signature
+wrong_answers:
+  - Les nœuds pré-SegWit transmettent automatiquement les transactions P2WPKH aux nœuds mis à niveau pour validation des témoins avant de les accepter
+  - Les nœuds antérieurs à la SegWit reconnaissent le modèle P2WPKH et sautent complètement la validation, traitant toutes les transactions de témoins comme prévalidées
+  - Les nœuds pré-SegWit reconvertissent les données témoins dans le format scriptSig traditionnel en utilisant les règles de transformation de la compatibilité ascendante
+explanation: |
+  Le génie de la conception de SegWit réside dans l'exploitation de la façon dont les nœuds antérieurs à SegWit traitent les modèles de scripts inconnus. Lorsque ces nœuds plus anciens rencontrent un script P2WPKH (OP_0 suivi d'un push de 20 octets), ils ne le reconnaissent pas comme un programme témoin spécial. Au lieu de cela, ils l'évaluent comme un script standard qui laisse OP_0 et le hachage sur la pile. Comme OP_0 est évalué comme faux dans le système de script de Bitcoin, les nœuds pré-SegWit l'interprètent comme une condition "anyone-can-spend", ce qui signifie qu'aucune vérification de signature n'est requise de leur point de vue. Cela permet à la transaction d'être acceptée dans leur pool de mémoire et leurs blocs sans rompre le consensus, tandis que les nœuds conscients de la SegWit effectuent la validation cryptographique réelle à l'aide des données des témoins.

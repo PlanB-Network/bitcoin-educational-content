@@ -1,0 +1,8 @@
+question: Ni ikihe kintu c’imibare gituma ikintu cose kitari zero kiri mu gisata c’intango F(p) gifise inverse y’ugukubita?
+answer: Umurima usobanurwa n'umubare w'intango p
+wrong_answers:
+  - Umurima urimwo neza na neza ibintu p-1
+  - Umurima ukoresha ibikorwa vy'imibare
+  - Umurima ushigikira kwongerako no kugwiza
+explanation: |
+  Igihugu gifise impera F(p) kigomba gusobanurwa n'umubare w'intango p kugira ngo ikintu cose kitari zero gifise inverse y'ugukubita. Ivyo ni ibisabwa n’ishimikiro vy’inyigisho y’umurima - iyo p ari umubare w’imbere, imibare yose modulo p ikora umurima aho ugucapura kwama gushoboka (kiretse na zero). Iyo p iba igizwe n’ibintu vyinshi, ibintu bimwebimwe bitagira zero ntivyogira inverses, bikamenagura imiterere y’umurima. Naho ayandi mahitamwo adondora imiterere y'ibibanza bifise impera, uburemere bwa p bwonyene ni bwo bwemeza ukubaho kw'ibihinduka vy'ugukubita ku bintu vyose bitagira zero.

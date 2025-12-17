@@ -1,0 +1,8 @@
+question: Hva er den primære tekniske mekanismen i Liquids Asset Management Platform (AMP) som forhindrer samsvarstiltak med ett enkelt feilpunkt og samtidig opprettholder regulatorisk kontroll over tokeniserte eiendeler?
+answer: Multisignaturautorisasjon som krever at flere parter godkjenner compliance-handlinger som frysing av midler eller utstedelse av tokens på nytt
+wrong_answers:
+  - Smart contract governance-tokens som gjør det mulig å stemme på alle beslutninger om etterlevelse og håndheving av regelverket
+  - Tidslåste sperrede kontoer som automatisk utfører compliance-tiltak etter at forhåndsbestemte venteperioder er utløpt
+  - Kryptografisk proof-of-stake-konsensus, der validatorene må oppnå majoritetsenighet før de kan utføre en compliance-handling
+explanation: |
+  AMP bruker multisignaturkontroll for å sikre at samsvarshandlinger krever autorisasjon fra flere parter, slik at ingen enkeltansatt kan handle ensidig. Dette skaper et kontrollsystem for sensitive operasjoner, samtidig som det opprettholder det lovpålagte tilsynet som kreves for institusjonelle eiendeler. De gale svarene beskriver mekanismer som enten ikke finnes i AMP, eller som ville være upassende for regulert finansiell compliance.

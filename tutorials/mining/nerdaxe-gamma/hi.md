@@ -1,5 +1,5 @@
 ---
-name: NerdAxe गामा
+name: NerdAxe Gamma
 description: NerdAxe गामा कॉन्फ़िगरेशन गाइड
 ---
 

@@ -1,0 +1,8 @@
+question: Koja kriptografska mehanizma omogućava šifrovanje iznosa imovine u Blockstream AMP-ovoj arhitekturi zaslepljivanja, dok istovremeno omogućava verifikaciju validnosti transakcije?
+answer: Razmena ključeva Diffie-Hellman eliptičke krive sa dokazima opsega koji verifikuju validnost transakcije bez otkrivanja šifrovanih vrednosti
+wrong_answers:
+  - SNARK-ovi sa nultim znanjem sa šemama obavezivanja koje skrivaju iznose transakcija dok dokazuju računarsku integritet
+  - Prstenasti potpisi sa skrivenim adresama koji zamagljuju identitet pošiljaoca dok održavaju kriptografsku proverljivost
+  - Homomorfno šifrovanje sa merkle drvo komitmentima koje omogućava matematičke operacije na šifrovanim podacima transakcija
+explanation: |
+  AMP koristi ECDH razmenu ključeva gde pošiljaoci šifruju iznose sredstava koristeći javne ključeve za zaslepljivanje primalaca, generišući dokaze opsega koji matematički potvrđuju validnost transakcije bez otkrivanja vrednosti. Ovo se razlikuje od SNARK-ova (računskih dokaza), prstenastih potpisa (fokus na anonimnost) ili homomorfne enkripcije (računanje na šifrovanim podacima) - AMP specifično zahteva poverljive, ali proverljive transakcije.

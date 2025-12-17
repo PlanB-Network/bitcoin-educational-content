@@ -1,0 +1,8 @@
+question: Milline arhitektuurimehhanism võimaldab Breez SDK-l teostada Liquid-Bitcoin ülekandeid ilma federated peg-outide või tsentraliseeritud vahetusteta?
+answer: Topeltvahetusmehhanism, mis hõlmab samaaegselt mõlemas ahelas toimuvaid lukustustehinguid, mille puhul saatja nõuab Bitcoin vahendeid ja vastuvõtja Liquid vahendeid
+wrong_answers:
+  - Ühekordne allveelaevavahetus, kus Bitcoin vahendid lukustatakse esmalt ja seejärel nõutakse neid Liquid tehingu välkmakse eelkujutise abil
+  - Tagasipööratud allveelaevade vahetusarhitektuur, kus Liquid Network toimib Bitcoin mainchain tehingute valideerimiseks vahesillana
+  - Boltz hallatav mitme allkirja föderatiivne depoosüsteem, mis koordineerib Liquid ja Bitcoin vahelisi aatomivahetusi, kasutades ajaliselt lukustatud lepinguid
+explanation: |
+  Topeltvahetusmehhanism on spetsiaalselt mõeldud Bitcoin ahelate vaheliste ülekannete jaoks, mis hõlmavad samaaegseid lukustamistehinguid nii Liquid kui ka Bitcoin võrgus. See usaldusteta lähenemisviis võimaldab otsest sildamist ilma federated peg-lt välja lülitamata. Teised valikud kirjeldavad ebaõigesti ühesuunalisi allveevahetusi, moonutavad Liquid Network rolli või viitavad ebaõigesti tuginemisele föderaalsetele süsteemidele, mida SDK selgesõnaliselt väldib.

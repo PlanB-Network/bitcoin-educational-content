@@ -1,8 +1,9 @@
-question: Ni uruja n’uruza uruhe Lightning Network irema?
-answer: Urubuga rw’imihora yo kwishura.
+question: Ni ubuhe buryo butunganya ihinduka rya Bitcoin risobanuwe muri iki gice?
+answer: Ihinduka mu nzego
 wrong_answers:
-  - Urubuga rw’ibihimba vya Mining.
-  - Urubuga rw’ibihimba vya Blockchain.
-  - Urubuga rw’amahera y’ivy’ubuhinga bwa none.
-explanation: >-
-reviewed: true
+  - Blockchain imwe rukumbi
+  - Sharding kavukire
+  - Gushyira mu bikorwa onchain rusangi
+explanation: |
+  Bitcoin igumana urwego shingiro rworoshe kandi rukomeye, mu gihe porotokole zo hejuru zongeramo imikorere yihariye.
+reviewed: false

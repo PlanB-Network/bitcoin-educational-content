@@ -1,0 +1,8 @@
+question: Milline krüptograafiline funktsioon võimaldab Liquid-l varjata avalikkuse eest tehingusummasid ja varade tüüpe?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Riistvaralised turvamoodulid (HSM)
+  - Dünaamilise föderatsiooni (Dynafed) protokoll
+  - Peg-out autoriseerimisvõtmed (PAK)
+explanation: |
+  Confidential Transactions (CT) on krüptograafiline funktsioon, mis võimaldab Liquid-l varjata varaliigid ja tehingusummad avalikust pearaamatust, võimaldades samal ajal võrgustikul kontrollida tehingu kehtivust. See tagab asutuste jaoks hädavajaliku ärilise privaatsuse. Riistvaralised turvamoodulid on füüsilised seadmed, mis kaitsevad privaatvõtmeid, Dynafed-protokoll haldab föderatsiooni muudatusi ja PAKid kontrollivad peg-out-protsessi - ükski neist ei peida tehingu üksikasju avalikkuse eest.

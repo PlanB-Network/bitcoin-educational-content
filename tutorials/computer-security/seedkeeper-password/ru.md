@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - менеджер паролей
+name: Seedkeeper - Менеджер паролей
 description: Как сохранить пароли с помощью смарт-карты Seedkeeper?
 ---
 

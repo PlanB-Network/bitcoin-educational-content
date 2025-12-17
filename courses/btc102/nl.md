@@ -397,7 +397,7 @@ Bitcoin staat open voor iedereen, maar dat betekent niet dat je er onvoorbereid 
 
 **Technologische fouten:**
 
-- **Je seed phrase (herstelzin) verliezen:** Je herstelzin (meestal 12 of 24 woorden) is de enige manier om toegang te krijgen tot je bitcoin als er iets met je wallet gebeurt. Als je hem verliest, zijn je tegoeden voorgoed verdwenen;
+- **Je [seed phrase](https://planb.academy/resources/glossary/seed) (herstelzin) verliezen:** Je herstelzin (meestal 12 of 24 woorden) is de enige manier om toegang te krijgen tot je bitcoin als er iets met je wallet gebeurt. Als je hem verliest, zijn je tegoeden voorgoed verdwenen;
 - **Je bitcoins opslaan op een platform van een derde partij:** Als je munten op een gecentraliseerd platform staan, zijn ze niet echt jouw eigendom. Je staat bloot aan risico's zoals hacks, platformstoringen of zelfs inbeslagnames van tegoeden;
 - **Privacy verwaarlozen:** Het beschermen van je privacy is een essentieel onderdeel van het veiligstellen van je bezittingen. Als je publiekelijk onthult hoeveel bitcoin je bezit, kun je een doelwit worden;
 - **Onvoldoende online beveiliging:** Als je er niet in slaagt om je apparaten te beveiligen met basisbeveiligingen (zoals updates, sterke wachtwoorden of 2FA), ben je een gemakkelijke prooi voor aanvallers, en dat kan je alles kosten.
@@ -423,7 +423,7 @@ Door het op deze manier aan te pakken, zorg je ervoor dat je je financiële welz
 
 ![image](assets/nl/023.webp)
 
-Als je budget is vastgesteld, bedenk dan hoe je wilt investeren. Een van de meest beginnersvriendelijke en algemeen aanbevolen methodes is Dollar Cost Averaging (DCA), waarbij je op regelmatige tijdstippen (wekelijks, maandelijks, enz.) een vast bedrag aan bitcoin koopt. Deze strategie helpt om je gemiddelde instapprijs in de loop van de tijd af te vlakken en vermindert de emotionele impact van prijsschommelingen. Het is een slimme aanpak voor de meeste mensen, vooral nieuwkomers.
+Als je budget is vastgesteld, bedenk dan hoe je wilt investeren. Een van de meest beginnersvriendelijke en algemeen aanbevolen methodes is [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), waarbij je op regelmatige tijdstippen (wekelijks, maandelijks, enz.) een vast bedrag aan bitcoin koopt. Deze strategie helpt om je gemiddelde instapprijs in de loop van de tijd af te vlakken en vermindert de emotionele impact van prijsschommelingen. Het is een slimme aanpak voor de meeste mensen, vooral nieuwkomers.
 
 Vraag jezelf dan af: Wat is mijn tijdshorizon?
 Ben je op zoek naar snelle bewegingen in en uit de markt (trading)? Of ben je meer gericht op de lange termijn mindset van het houden van Bitcoin over meerdere jaren (hodler)? Als je een hodler bent, ben je waarschijnlijk minder bezig met dagelijkse prijsschommelingen en meer gericht op veiligheid op lange termijn en zelfbehoud. Als je handelt, ben je meer blootgesteld aan kortetermijnruis op de markt, hogere risico's en de stress die vaak gepaard gaat met snelle beslissingen. Er is geen pasklaar antwoord, maar als je je eigen aanpak kent, kunt je je beslissingen beter sturen.
@@ -445,7 +445,7 @@ Investeer vooral nooit meer dan je je kunt veroorloven om te verliezen. Vermijd 
 
 ### Je Bitcoin wallet beheren en beveiligen
 
-Een van de krachtigste (en vaak onderschatte) functies van Bitcoin is **self-custody (zelfbewaring)**. Met een zelf gehosted wallet, ben jij alleen verantwoordelijk voor je tegoeden. Deze wallets worden meestal gegenereerd vanuit een **herstelzin** (ook bekend als een seed phrase), een serie van 12 of 24 woorden die volledige toegang geeft tot je BTC. Als je deze zin verliest (of als iemand anders hem te pakken krijgt) zijn je bitcoins voorgoed verdwenen. **Geen klantenservice. Geen reset-knop.**
+Een van de krachtigste (en vaak onderschatte) functies van Bitcoin is **[self-custody](https://planb.academy/resources/glossary/selfcustody) (zelfbewaring)**. Met een zelf gehosted wallet, ben jij alleen verantwoordelijk voor je tegoeden. Deze wallets worden meestal gegenereerd vanuit een **herstelzin** (ook bekend als een seed phrase), een serie van 12 of 24 woorden die volledige toegang geeft tot je BTC. Als je deze zin verliest (of als iemand anders hem te pakken krijgt) zijn je bitcoins voorgoed verdwenen. **Geen klantenservice. Geen reset-knop.**
 
 ![image](assets/nl/025.webp)
 
@@ -672,7 +672,7 @@ Hoewel deze aanpak technischer is, biedt het de meest veeleisende gebruikers de 
 
 #### Een Veerkrachtige, Grensoverschrijdende Betalingsmethode
 
-Door zijn gedecentraliseerde aard werkt Bitcoin 24/7, zonder beïnvloed te worden door grenzen of tijdzones. In regio's waar de traditionele bankinfrastructuur ontbreekt, wordt Bitcoin vaak gebruikt als een snelle, goedkope oplossing voor het verzenden of ontvangen van geld zonder afhankelijk te zijn van dure tussenpersonen. Hoewel transactiekosten kunnen variëren op basis van netwerkcongestie, zijn ze over het algemeen veel lager dan de kosten die banken in rekening brengen voor internationale overboekingen. Bovendien maken laag-2 oplossingen zoals het Lightning Network nog snellere en goedkopere Bitcoin transacties mogelijk.
+Door zijn gedecentraliseerde aard werkt Bitcoin 24/7, zonder beïnvloed te worden door grenzen of tijdzones. In regio's waar de traditionele bankinfrastructuur ontbreekt, wordt Bitcoin vaak gebruikt als een snelle, goedkope oplossing voor het verzenden of ontvangen van geld zonder afhankelijk te zijn van dure tussenpersonen. Hoewel transactiekosten kunnen variëren op basis van netwerkcongestie, zijn ze over het algemeen veel lager dan de kosten die banken in rekening brengen voor internationale overboekingen. Bovendien maken laag-2 oplossingen zoals het [Lightning Network](https://planb.academy/resources/glossary/lightning-network) nog snellere en goedkopere Bitcoin transacties mogelijk.
 
 #### Een opslagplaats van waarde
 
@@ -955,7 +955,7 @@ Koop- en verkoopplatformen spelen een cruciale rol in het Bitcoin ecosysteem en 
 - een optie voor automatisch terugkerende aankopen (ARP);
 - eenvoudige, gratis opname van bitcoins naar een persoonlijke wallet.
 
-Beurzen die voldoen aan de lokale regelgeving moeten meestal strikte **"Know Your Customer"** (KYC) protocollen volgen, waarbij gebruikers identificatiedocumenten moeten overleggen voordat ze toegang krijgen tot diensten. Hoewel deze processen bedoeld zijn om illegale activiteiten te voorkomen, kunnen ze de privacy die Bitcoin inherent biedt in gevaar brengen.
+Beurzen die voldoen aan de lokale regelgeving moeten meestal strikte **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC) protocollen volgen, waarbij gebruikers identificatiedocumenten moeten overleggen voordat ze toegang krijgen tot diensten. Hoewel deze processen bedoeld zijn om illegale activiteiten te voorkomen, kunnen ze de privacy die Bitcoin inherent biedt in gevaar brengen.
 
 ![image](assets/nl/058.webp)
 
@@ -1034,7 +1034,7 @@ Elk type wallet biedt een andere balans van:
 
 De Bitcoin wallet industrie is onderverdeeld in verschillende categorieën, die elk voldoen aan verschillende behoeften en niveaus van technische expertise:
 
-- **Hardware Wallet Fabrikanten**: Deze bedrijven ontwikkelen fysieke apparaten die ontworpen zijn voor veilige sleutelopslag. Sommige zijn open-source, terwijl andere eigen oplossingen bieden met verschillende functies en beveiligingsniveaus. Bekende namen zijn Ledger, Trezor, Coinkite, Foundation en Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Fabrikanten**: Deze bedrijven ontwikkelen fysieke apparaten die ontworpen zijn voor veilige sleutelopslag. Sommige zijn open-source, terwijl andere eigen oplossingen bieden met verschillende functies en beveiligingsniveaus. Bekende namen zijn Ledger, Trezor, Coinkite, Foundation en Shiftcrypto.
 - **Software Wallet Ontwikkelaars**: Deze variëren van bedrijven tot onafhankelijke ontwikkelaars die mobiele en desktopapplicaties maken. Hun aanbod varieert in gebruikerservaring, beveiliging en functies. Voorbeelden zijn Sparrow, Wizard Sardine, Galoy, Synonym en Blockstream.
 - **DIY (*Do It Yourself*) Wallets**: Deze open-source oplossingen zijn ontworpen voor gevorderde gebruikers die volledige controle en minimale afhankelijkheid van derden willen. Door je eigen wallet te bouwen, verminder je de afhankelijkheid van vertrouwen en kun je je beveiliging verbeteren. Bekende doe-het-zelf opties zijn Seedsigner en Specter DIY.
 
@@ -1140,7 +1140,7 @@ Dit gelaagde ontwerp staat in contrast met veel van de bredere crypto-industrie,
 
 ### Tools Voor Handelaren Bij Het Accepteren Van Bitcoin
 
-Vandaag de dag zijn er veel hulpmiddelen beschikbaar voor winkeliers die Bitcoin als betaalmiddel willen accepteren. Voor kleine bedrijven die op zoek zijn naar een eenvoudige setup, is het gebruik van een hot wallet (of zelfs een Lightning wallet) vaak voldoende om te beginnen met het direct accepteren van betalingen. Grotere bedrijven die een goede boekhouding en rapportage nodig hebben, geven meestal de voorkeur aan meer geavanceerde betalingsverwerkingssystemen. Gelukkig zijn er verschillende opties beschikbaar, afhankelijk van je behoeften.
+Vandaag de dag zijn er veel hulpmiddelen beschikbaar voor winkeliers die Bitcoin als betaalmiddel willen accepteren. Voor kleine bedrijven die op zoek zijn naar een eenvoudige setup, is het gebruik van een [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) (of zelfs een Lightning wallet) vaak voldoende om te beginnen met het direct accepteren van betalingen. Grotere bedrijven die een goede boekhouding en rapportage nodig hebben, geven meestal de voorkeur aan meer geavanceerde betalingsverwerkingssystemen. Gelukkig zijn er verschillende opties beschikbaar, afhankelijk van je behoeften.
 
 Als je de voorkeur geeft aan een hands-off oplossing en fiatvaluta direct op je bankrekening wilt ontvangen, bieden custodial services zoals OpenNode een gestroomlijnde ervaring:
 

@@ -1,0 +1,8 @@
+question: Was passiert, wenn ein Diensteanbieter eine Lightning-Rechnung bezahlt, um einen Liquid-zu-Lightning-Swap mit HTLCs durchzuführen?
+answer: Der Anbieter erhält das Vorabbild aus der Blitzzahlung, mit dem er dann die L-BTC vom HTLC freischalten und einfordern kann
+wrong_answers:
+  - Der Anbieter muss warten, bis die Zeitsperre abgelaufen ist, bevor er auf die im HTLC-Vertrag gesperrten L-BTC zugreifen kann
+  - "Der Kunde erhält automatisch das Vorabbild und verwendet es, um die L-BTC direkt an den Liquid wallet des Anbieters freizugeben
+  - Der HTLC-Vertrag wird automatisch ausgeführt und überträgt die L-BTC an den Anbieter, ohne dass ein zusätzlicher kryptografischer Nachweis erforderlich ist
+explanation: |
+  HTLCs erstellen atomare Swaps durch kryptografische Bindung unter Verwendung derselben Hash-Sperre in beiden Netzwerken. Wenn der Anbieter die Lightning-Rechnung erfolgreich bezahlt, erhält er das Preimage (Geheimnis), das mit der Hash-Sperre übereinstimmt. Dieses Vorabbild ist der kryptografische Schlüssel, mit dem er die L-BTC entsperren kann, die zuvor im HTLC gesperrt waren. Die anderen Optionen sind nicht korrekt, da sie die atomare Natur von HTLCs nicht widerspiegeln - das Zeitschloss ist nur ein Fallback-Mechanismus, die Clients kümmern sich nicht um die Verteilung des Preimages, und HTLCs erfordern einen aktiven kryptografischen Nachweis und keine automatische Ausführung.

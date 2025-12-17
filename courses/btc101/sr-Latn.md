@@ -186,7 +186,7 @@ Slika ispod jasno ilustruje razvoj pokreta kroz njegove mnoge tehnološke inovac
 ![image](assets/sr-Latn/005.webp)
 
 
-U ovom plodnom okruženju, misteriozni Satoshi Nakamoto objavio je Bitkoin whitepaper 2008. godine. U ovom dokumentu, on je kombinovao nekoliko ideja iz Cypherpunk pokreta, kao što su Proof of Work i kriptografski vremenski pečati, kako bi stvorio decentralizovanu i digitalnu valutu otpornu na cenzuru.
+U ovom plodnom okruženju, misteriozni Satoshi Nakamoto objavio je Bitkoin whitepaper 2008. godine. U ovom dokumentu, on je kombinovao nekoliko ideja iz Cypherpunk pokreta, kao što su [proof of work](https://planb.academy/resources/glossary/proof-of-work) i kriptografski vremenski pečati, kako bi stvorio decentralizovanu i digitalnu valutu otpornu na cenzuru.
 
 
 Međutim, Bitkoin je bio više od toga: predstavljao je ostvarenje ideala Cypherpunk-a. Pored svoje tehnologije, simbolizovao je revoluciju protiv tradicionalnih finansijskih sistema i ponudio alternativu zasnovanu na transparentnosti, decentralizaciji i individualnom suverenitetu.
@@ -1003,7 +1003,7 @@ Sada kada smo pokrili osnove Bitkoin novčanika i najbolje prakse za njihovu za�
 ![image](assets/sr-Latn/038.webp)
 
 
-31. oktobar 2008. označava rođenje nove finansijske tehnologije koja se zove Bitkoin. Tog dana, anonimni Satoshi Nakamoto predstavio je svoju inovaciju svetu putem emaila poslatog na mailing listu cypherpunks-a, zajednice entuzijasta kriptografije posvećenih promociji privatnosti na internetu. Ovaj email je sadržao dokument nazvan "White Paper", koji je predstavio kako Bitkoin funkcioniše.
+31. oktobar 2008. označava rođenje nove finansijske tehnologije koja se zove Bitkoin. Tog dana, anonimni Satoshi Nakamoto predstavio je svoju inovaciju svetu putem emaila poslatog na mailing listu cypherpunks-a, zajednice entuzijasta kriptografije posvećenih promociji privatnosti na internetu. Ovaj email je sadržao dokument nazvan "[White Paper](https://planb.academy/resources/glossary/white-paper)", koji je predstavio kako Bitkoin funkcioniše.
 
 
 Ova inicijativa nije odmah izazvala entuzijazam, verovatno zbog prethodnih neuspeha u pokušajima stvaranja sistema digitalnog novca. Ipak, ovaj White Paper je na kraju postao referenca za Bitkoin korisnike i bio je predmet mnogih debata u Bitkoin ekosistemu tokom godina.
@@ -1113,7 +1113,7 @@ U ovoj fazi, transakcija je kreirana i Bobov novčanik će je podeliti sa Bitkoi
 U ovom trenutku, iako je ova transakcija poznata svima (putem alata zvanog Mempool), ne može se smatrati potvrđenom dok ne bude umetnuta u blok od strane rudara, koji je jedini koji potvrđuje transakcije uključujući ih u Blockchain.
 
 
-Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija kako bi ih sastavili u blok. Ukratko, moraju rešiti kriptografski zadatak u procesu nazvanom "Proof of Work"(dokaz o radu) kako bi njihov blok bio sledeći u Bitkoin Blockchain-u.
+Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija kako bi ih sastavili u blok. Ukratko, moraju rešiti kriptografski zadatak u procesu nazvanom "[proof of work](https://planb.academy/resources/glossary/proof-of-work)"(dokaz o radu) kako bi njihov blok bio sledeći u Bitkoin Blockchain-u.
 
 
 ![image](assets/sr-Latn/047.webp)
@@ -1122,7 +1122,7 @@ Zapravo, rudari imaju ulogu prikupljanja važećih i nepotvrđenih transakcija k
 ### Korak 3: Transakcija se rudari u bloku pod strane rudara.
 
 
-Sistem Proof of Work zahteva pronalaženje važećeg "Hash-a" za dati blok: zamislite to kao jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash-a zavisi od stepena težine Bitkoin mreže (o tome ćemo kasnije detaljnije). Za sada, uzmite u obzir da je rudar  pronašao važeći blok, i da je Bobova transakcija ka Alisi uključena u njega. Zatim, novi važeći blok se dodaje u Blockchain, zajednički Ledger za sve korisnike bitkoina.
+Sistem [proof of work](https://planb.academy/resources/glossary/proof-of-work) zahteva pronalaženje važećeg "Hash-a" za dati blok: zamislite to kao jedinstveni otisak prsta povezan sa blokom, sastavljen od 256 karaktera. Validnost ovog Hash-a zavisi od stepena težine Bitkoin mreže (o tome ćemo kasnije detaljnije). Za sada, uzmite u obzir da je rudar  pronašao važeći blok, i da je Bobova transakcija ka Alisi uključena u njega. Zatim, novi važeći blok se dodaje u Blockchain, zajednički Ledger za sve korisnike bitkoina.
 
 
 ![image](assets/sr-Latn/048.webp)
@@ -1236,16 +1236,16 @@ Nakon ove pobede, čvorovi su aktivirali ažuriranje pod nazivom SegWit, otvaraj
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem ASIC mašina da reše Bitkoin Proof of Work(dokaz o radu).**
+**Rudari osiguravaju mrežu i dodaju transakcije u blokove. Koriste električnu energiju putem [ASIC](https://planb.academy/resources/glossary/asic) mašina da reše Bitkoin [proof of work](https://planb.academy/resources/glossary/proof-of-work)(dokaz o radu).**
 
 
 ![image](assets/sr-Latn/054.webp)
 
 
-### Objašnjenje Proof of Work
+### Objašnjenje [proof of work](https://planb.academy/resources/glossary/proof-of-work)
 
 
-"Proof of Work" (POW) je mehanizam konsenzusa za bezbednost Bitkoin protokola. To je osnova svega i igra ključnu ulogu u teoriji igara Bitkoina.
+"[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) je mehanizam konsenzusa za bezbednost Bitkoin protokola. To je osnova svega i igra ključnu ulogu u teoriji igara Bitkoina.
 
 
 Da objasnimo kako to funkcioniše, zamislite univerzalnu lutriju u kojoj svako može učestvovati. Cilj je pronaći specifičan broj koji omogućava pobedniku da potpiše validan blok, zarađujući nagradu u bitkoinima. Ovaj broj je veoma jednostavan za verifikaciju korišćenjem SHA-256 Hash funkcije, ali ga je teško pronaći: učesnici (rudari) će pokušavati milijarde i milijarde mogućnosti, kao što su 1, 52, 2648, 26874615, 15344854131318631, i tako dalje, sve dok ne otkriju pravi.
@@ -1546,8 +1546,10 @@ Bitcoin ekonomija postoji i razvija se u određenim regionima sveta, kao što je
 Ipak, u El Salvadoru i u drugim delovima sveta, sve više pojedinaca, preduzeća i organizacija prihvata Bitcoin kao sredstvo plaćanja za svoje proizvode ili usluge.
 
 
-![image](assets/sr-Latn/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+
+*Izvor : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Pored toga, pokrenut je  otvoreni i kolaborativni projekat, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), kako bi se olakšala upotreba bitkoin u svakodnevnim transakcijama. Ova platforma navodi sve trgovce koji prihvataju bitkoin, kao i različite bitkoin zajednice širom sveta, tako da možete posetiti njihov veb-sajt kako biste otkrili Bitkoin ekosistem oko vas. Tako, uprkos poteškoćama i oklevanjima, postoje inicijative poput BTCMap koje doprinose tome da Bitkoin ekonomija postane pristupačnija i pogodnija za sve.
 
@@ -1775,123 +1777,201 @@ Ako želite da proširite svoje znanje o Bitkoinu, ovo je pravo vreme: veliki br
 
 > "Mislim da će Internet postati jedna od glavnih sila za smanjenje uloge vlade. Jedina stvar koja nedostaje, ali će uskoro biti razvijena, je pouzdan e-novac - metoda pomoću koje na Internetu možete preneti sredstva sa A na B bez da A zna B ili B zna A." - Predviđanje Miltona Friedmana 1999.
 
-# Budućnost Bitkoina: Lightning mreža
 
+
+# Budućnost Bitcoina
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-
-## Kratak uvod u Lightning mrežu
-
+## Lightning mreža: brzo plaćanje u bitkoinima uz niske naknade
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
+Sada kada poznajete osnove Bitcoin protokola, predstavićemo glavni platni sistem izgrađen iznad Bitcoina: Lightning Network (često skraćeno „LN“). Njegov cilj je jednostavan: omogućiti BTC plaćanja sa gotovo trenutnom konačnošću, bez zagušenja blockchaina i uz uglavnom veoma niske naknade.
 
-Sada kada imamo osnove Bitkoin protokola, predstavićemo mrežu plaćanja koja koristi Bitkoin protokol za omogućavanje munjevito brzih transakcija: Lightning Network!
+### Blockchain ne može sve
 
-
-Imajte na umu da je sledeće samo opšti opis, pa, ako želite da ga razumete u dubljim detaljima, pozivamo vas da pohađate naš LNP201 kurs.
-
-
-### Ukratko
-
-
-Lightning mreža je revolucionarna tehnologija koja je duboko promenila naše shvatanje Bitkoina, jer rešava problem skalabilnosti Bitkoina.
-
-
-Da biste u potpunosti razumeli Lightning mrežu, ključno je razumeti kako se Bitkoin razvija i napreduje u slojevima infrastrukture: prvi Layer je Blockchain, a drugi je Lightning mreža.
-
-
-![image](assets/sr-Latn/080.webp)
-
-
-### Blockchain ne može rasti beskonačno
-
-
-Lightning mreža je validirana i implementirana 2017. godine kako bi rešio problem skalabilnosti Bitkoina, jer omogućava trenutne, niskotroškovne Bitkoin transakcije.
-
-
-Problem skalabilnosti odnosi se na izazov implementacije monetarnog sistema sposobnog da obezbedi sve veći broj transakcija po sekundi kao odgovor na rastuće usvajanje. Ovo pitanje se odnosi na Blockchain trilemu. Zamislite trougao sa decentralizacijom, sigurnošću i skalabilnošću kao njegovim vrhovima.
-
+Bitcoin blockchain je dizajniran tako da ga može proveravati što veći broj ljudi, bez dozvole i bez poverenja. Ovaj zahtev nameće strukturna ograničenja: blockchain ne može obraditi neograničenu količinu transakcija, jer blokovi moraju ostati razumne veličine za preuzimanje, skladištenje i proveru od strane nezavisnih čvorova, bez potrebe za skupim hardverom. Ovaj kompromis se često sažima u tzv. trilemu: decentralizacija, bezbednost, skalabilnost. Sistem zasnovan na blockchainu ne može istovremeno maksimizovati sve tri osobine. Bitcoin daje prednost decentralizaciji i bezbednosti, što prirodno ograničava mogući protok onchain transakcija.
 
 ![image](assets/sr-Latn/081.webp)
 
+Na Bitcoinu su programeri svesno donosili odluke kako bi favorizovali ove ciljeve. Sa jedne strane, veličina blokova ograničena na 1 MB i prosečno vreme od 10 minuta između dva bloka omogućavaju pokretanje Bitcoin čvora uz nizak trošak, što podstiče decentralizaciju mreže. Sa druge strane, proizvodnja blokova putem [proof of work](https://planb.academy/resources/glossary/proof-of-work) mehanizma čini svaki pokušaj prevare izuzetno skupim, dok istovremeno olakšava proveru čvorovima i jača ukupnu bezbednost protokola.
 
-Prema tome, protokol zasnovan na Blockchain-u može zadovoljiti samo dve od tri navedene karakteristike. U okviru Bitkoin protokola, programeri su napravili izbore u korist decentralizacije i sigurnosti. S jedne strane, veličina bloka od 1MB i vreme između dva bloka (u proseku 10 minuta) omogućavaju pokretanje Bitkoin čvora uz niže troškove, što favorizuje decentralizaciju. S druge strane, proizvodnja blokova putem Proof-of-Work čini prevaru unutar protokola izuzetno skupom, dok olakšava verifikaciju od strane mrežnih čvorova i favorizuje sigurnost. Međutim, ovi izbori nameću ograničenje na prosečan broj transakcija u bloku, što otprilike odgovara nekoliko transakcija po sekundi. Ovaj broj je smešan u poređenju sa računarskim kapacitetom platnih procesora kao što je VISA (1700/s), ali ovo ograničenje je neophodno kako bi se transakcije sa Bitkoinom obavljale na način otporan na cenzuru i bez poverenja. Ipak, oni koji razvijaju Bitkoin razmišljaju o ovom problemu od samog početka.
+Ove odluke, međutim, nameću važno ograničenje: broj transakcija koje se mogu uključiti u svaki blok je ograničen. To odgovara svega nekoliko transakcija u sekundi. Ovaj broj je zanemarljiv u poređenju sa kapacitetima centralizovanih platnih sistema poput Vise (koja ima teorijski maksimalni kapacitet od oko 65.000 transakcija u sekundi), ali to je cena koju treba platiti da bi se omogućile transakcije bez cenzure i bez posrednika od poverenja.
 
+Konkretno, to znači dve veoma važne stvari za svakodnevnu upotrebu Bitcoina:
+* kada potražnja za prostorom u bloku raste, onchain naknade mogu značajno porasti;
+* onchain plaćanja zahtevaju potvrde, što nije uvek pogodno za svakodnevne kupovine.
 
-### Lightning kao sloj na vrhu
+Lightning Network je upravo odgovor na ove probleme. Ideja Lightninga uklapa se u slojeviti pristup: Bitcoin ostaje osnovni sloj (sloj poravnanja, robustan i veoma bezbedan), dok Lightning služi kao brzi platni sloj iznad njega.
 
+![image](assets/sr-Latn/080.webp)
 
-Nakon godina razmatranja i višestrukih pokušaja, pojavio se Lightning protokol. Koristeći određeni broj specifikacija, ovaj protokol konstruira peer-to-peer mrežu plaćanja oslanjajući se na sigurnost i programabilnost Bitkoin transakcijskog protokola. Lightning mreža djeluje kao mreža kanala plaćanja, omogućavajući trenutne transakcije sa niskim naknadama za pošiljaoca, a čak kreira rute za razmenu između pojedinaca koji nemaju direktnu vezu kanala.
+### Platni kanali usidreni na Bitcoinu
 
+Lightning se zasniva na dvosmernim platnim kanalima. Kanal je tehnički odnos između dva učesnika koji im omogućava razmenu satoshija offchain, odnosno bez upisivanja svake pojedinačne transakcije u blockchain.
 
-![image](assets/sr-Latn/082.webp)
+Sa stanovišta Bitcoina (onchain), otvaranje kanala znači zaključavanje sredstava u posebnoj transakciji. To se može posmatrati kao svojevrsni escrow: sredstva su blokirana tako da samo validno zatvaranje kanala može da ih redistribuira.
 
+Sa stanovišta Lightninga, isti mehanizam postaje kanal u kome obe strane mogu ažurirati stanje raspodele satoshija koliko god puta žele, gotovo trenutno i bez potrebe da se svako plaćanje upisuje u glavni blockchain.
 
-Tradicionalne usluge prenosa novca kao što su Western Union, centralne banke, Visa i Mastercard mogle bi nestati ako ne usvoje tehnologiju Lightning mreže, koja je efikasnija i isplativija od trenutnih platnih sistema. Zapravo, Lightning mreža omogućava gotovo neograničene transakcije između dva korisnika koji dele kanal, pri čemu se snose samo troškovi energije povezani sa transakcijom za najavu kreiranja kanala, umesto za svaku pojedinačnu transakciju.
-
+Mehanizam je, dakle, sledeći:
+* otvaranje i zatvaranje Lightning kanala su Bitcoin transakcije (objavljene onchain);
+* plaćanja između otvaranja i zatvaranja su offchain ažuriranja, koja se ne vide na glavnom blockchainu.
 
 ![image](assets/sr-Latn/083.webp)
 
+Na taj način, dve osobe koje dele Lightning kanal mogu izvršiti veoma veliki broj plaćanja bez potrebe da svaki put prave onchain transakciju. Ovde se jasno vidi logika skalabilnosti: blockchain se rezerviše za retke i važne operacije (otvaranje i zatvaranje kanala, odnosno konačno poravnanje), dok se ostala mala, posredna plaćanja premeštaju u efikasniji sloj.
 
-Transakcije su osigurane kroz kriptografiju i indirektno kroz energiju koju troše rudari na Bitkoinu. Mogu se izvršiti trenutno, bez geografskih ograničenja, uz izuzetno niske naknade (često manje od 0.5%).
+### Mreža međusobno povezanih kanala
 
+Lightning nije samo skup izolovanih kanala. To je mreža: hiljade čvorova povezane su međusobno kanalima i formiraju graf povezanosti.
 
-Ukratko, Lightning mreža je obećavajući pokušaj implementacije efikasnog sistema plaćanja za kupovinu i prodaju u Bitkoinu. Već postoji mnogo Lightning novčanika koji su dostupni, a koje možete otkriti u našem odeljku sa tutorijalima ili kroz naše kurseve o Lightning mreži.
+![image](assets/sr-Latn/082.webp)
 
+Zahvaljujući ovoj mreži, možete platiti primaoca čak i ako nemate direktan kanal sa njim, pod uslovom da postoji put kanala kojim se plaćanje može proslediti. Plaćanje tada prolazi kroz više posrednih čvorova, skok po skok.
 
-Ako želite da idete dalje od ovog uvoda i razumete sve funkcije Lightning mreže, preporučujemo da pohađate ovaj odličan kurs Fanisa Mihalakisa na tu temu:
+Ovde se pojavljuje važan pojam Lightninga: likvidnost. Kapacitet kanala odgovara ukupnoj količini sredstava zaključanih u tom kanalu, dok likvidnost predstavlja raspodelu tih sredstava između dve strane kanala, odnosno smer u kome satoshi mogu da se kreću. Drugim rečima, kanal može imati veliki kapacitet, ali biti neupotrebljiv u određenom smeru ako se likvidnost nalazi na pogrešnoj strani. Uspeh plaćanja, dakle, zavisi ne samo od postojanja puta, već i od dostupne likvidnosti duž celog tog puta.
 
+### Prosleđivanje plaćanja bez poverenja u posrednike
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+Lightning je dizajniran tako da omogući plaćanja preko posrednika bez potrebe da im se veruje. U tu svrhu, protokol koristi pametne ugovore zvane HTLC (*Hashed Time-Locked Contracts*). Bez ulaženja u sve detalje, važno je zapamtiti opšti mehanizam:
+* plaćanje je uslovljeno otkrivanjem tajne (preimage);
+* ako krajnji primalac otkrije tu tajnu, on prima sredstva, a posrednici mogu, zauzvrat, naplatiti ono što im pripada;
+* ako plaćanje ne uspe, rokovi ističu i svaka strana vraća svoja sredstva.
 
-## Upotrebe Lightning mreže
+Ovakav način rada daje suštinsku osobinu: plaćanje je atomsko. Ili se u potpunosti realizuje, ili propada bez ikakvog posrednog gubitka.
 
+Na kraju, Lightning uključuje i mehanizam kazne: ako jedan od učesnika pokuša da prevari objavljivanjem starog stanja kanala (koje više ne odražava stvarnost), druga strana može da ga kazni i preuzme celokupna sredstva. Ovo pravilo snažno podstiče pošteno ponašanje, čak i u neprijateljskom okruženju.
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+### Lightning čvor, Lightning novčanik: šta to znači
 
+Na Bitcoin onchain sloju, novčanik je softver koji upravlja ključevima i konstruiše transakcije. Na Lightningu je situacija nejasnija, jer prava non-custodial upotreba počiva na Lightning čvoru (čak i ako je taj čvor skriven iza jednostavnog interfejsa).
 
-Kao što smo upravo videli, Bitkoin protokol, iako revolucionaran, suočava se sa značajnim izazovima u pogledu skalabilnosti potrebne za obradu svih naših dnevnih transakcija. Da bi se rešili ovi problemi, predložena je Lightning mreža i od tada se razvila u nekoliko različitih implementacija, od kojih su sve interoperabilne:
+U praksi, postoje dve glavne kategorije aplikacija za korišćenje Lightninga:
+* Custodial servisi: aplikacija vam prikazuje stanje, ali sredstva kontroliše pružalac usluge. Vaše stanje je knjigovodstveni zapis u njihovom sistemu, slično kao na berzi;
+* Non-custodial rešenja: vi zaista kontrolišete ključeve i mogućnost da povratite svoja sredstva. To može biti aplikacija koja integriše čvor sa minimalnim upravljanjem radi jednostavnijeg korisničkog iskustva (na primer Phoenix, Zeus…), ili pravi Lightning čvor kojim u potpunosti sami upravljate.
 
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-- Core-lightning by Blockstream
-- Eclair od Acinq-a
-- LND od Lightning strike-a
+Danas postoje i self-custodial novčanici koji mogu indirektno da podrže Lightning plaćanja, oslanjajući se na atomske swapove koji se pokreću na zahtev za svako dolazno ili odlazno plaćanje (na primer Bull Bitcoin Wallet, Aqua…). Ovi novčanici obično koriste Liquid sidechain kao sloj poravnanja (u sledećem poglavlju ćemo videti šta to znači).
 
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
 
-Ova peer-to-peer mreža ima za cilj da olakša mikro-transakcije (sa veoma niskom vrednošću) koje bi inače bile nepraktične zbog visokih naknada i dugih vremena potvrde na bitkoin Blockchain-u.
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
+### Konkretni slučajevi upotrebe: šta Lightning konačno omogućava
 
-### Koje su upotrebe mreže?
+Lightning otključava čitav spektar upotreba koje su ranije bile nepraktične ili čak nemoguće sa samim Bitcoin onchain slojem.
 
+- **Svakodnevna plaćanja (online i fizička)**
 
-Ova tehnologija otvara vrata širokom spektru potencijalnih primena za Bitkoin koje su ranije bile nedostižne zbog neophodnih ograničenja za osiguranje sigurnosti i decentralizaciju Bitkoina. Među ovim svakodnevnim slučajevima upotrebe, možemo pomenuti instant naplatu u fizičkoj i online trgovini, strimovanje novca za plaćanja u realnom vremenu i mikro-donacije za kreatore sadržaja. Omogućavanjem mreže gotovo trenutnih, sigurnih i niskotarifnih transakcija (u proseku manje od 0,5%), mnogi ranije nezamislivi poslovni modeli mogu biti ostvareni. Ovo je moguće jer Lightning mreža funkcioniše koristeći satoshije (Sats), najmanju jedinicu bitkoina.
+Za plaćanje na kasi ili online kupovinu, Lightning omogućava gotovo trenutnu konačnost, uz uglavnom niske naknade. To čini bitcoin upotrebljivim za male iznose, čak i kada je glavni blockchain opterećen.
 
+- **Mikroplaćanja i streaming money**
 
-![image](assets/sr-Latn/084.webp)
+Mogućnost slanja veoma malih iznosa otvara nove ekonomske modele: plaćanje po upotrebi, plaćanje po minutu, ponavljajuće donacije, napojnice… To je ideja „streaming money“: plaćanje u skladu sa stvarnom potrošnjom sadržaja ili usluge, umesto fiksne pretplate.
 
+- **Kreatori sadržaja, podkasti i donacije**
 
-Industrija video igara nudi posebno zanimljiv primer kako se Lightning mreža može koristiti za transformaciju postojećih poslovnih modela. Koncept "skin in the game" - koža u igri - je ideja koja je nedavno stekla popularnost u ovom kontekstu. U suštini, to podrazumeva da imate finansijski ulog u ishodu igre. Zapravo, Lightning mreža omogućava igračima da se klade na vrlo male iznose novca dok igraju igre, kao što su nekoliko satoshija (oko delić euro centa) kako bi uspostavili ulog koji podstiče konkurenciju, dok značajno povećava troškove korišćenja botova.
+Lightning se često koristi za mikro-donacije ili mehanizme nagrađivanja. Aplikacije poput Fountain ili Rumble dobro ilustruju ovu logiku: plaćanje postaje granularno i prirodni deo iskustva, umesto teške i povremene radnje. Ovu logiku smo integrisali i na Plan ₿ Academy, jer možete lako slati male donacije svojim omiljenim predavačima kao znak zahvalnosti.
 
+- **Igre i digitalne ekonomije**
+
+Video-igre i digitalna okruženja prirodno su pogodni za mikrotransakcije: male opklade, nagrade, virtuelni predmeti… Uvođenje minimalnog monetarnog uloga može povećati cenu spama i određenih zloupotreba (botova), a da pritom ostane pristupačno.
 
 ![image](assets/sr-Latn/085.webp)
 
+### Glavne Lightning implementacije
 
-Ukratko, budućnost mikrotransakcija sa Bitkoinom izgleda obećavajuće zahvaljujući inovacijama poput Lightning mreža. Kako se ove tehnologije nastavljaju razvijati i sazrevati, možemo očekivati pojavu novih i uzbudljivih aplikacija u bliskoj budućnosti.
+Kao i kod Bitcoina, Lightning je protokol, a ne jedinstveni softver. Više implementacija koegzistira i ostaje interoperabilno zahvaljujući zajedničkim specifikacijama (BOLT):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* itd.
+
+### Lightning kao deo evolucije Bitcoina
+
+Lightning ne zamenjuje Bitcoin blockchain: on ga dopunjuje. Blockchain ostaje konačni sloj poravnanja, spor ali izuzetno robustan. Lightning je brzi platni sloj, dizajniran za čestu upotrebu i male iznose.
+
+Godine 2025, Lightning je pristupačniji nego na početku, zahvaljujući novčanicima i servisima koji skrivaju deo složenosti. Ipak, on zadržava kompromise: likvidnost, onchain troškove kanala i ponekad balansiranje između jednostavnosti, suvereniteta i privatnosti.
+
+Ako želite da detaljno razumete Lightning (kanale, likvidnost, rutiranje, upravljanje rizicima), preporučujem kompletan teorijski kurs LNP 201 Fanisa Michalakisa:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+A ako želite da se upustite u avanturu pokretanja sopstvenog Lightning čvora, imamo i praktični kurs LNP 202, posebno posvećen toj temi:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 
-![image](assets/sr-Latn/086.webp)
+## Iza Lightninga: drugi protokoli za razvoj Bitcoina
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+Kao što smo videli u prethodnim poglavljima, Bitcoin je dizajniran kao izuzetno robustan osnovni sloj: javni registar, jednostavan i bezbedan, ali prirodno ograničen po brzini, programabilnosti i protoku plaćanja. Umesto da se ovaj sloj primora da radi sve (kao što je, na primer, slučaj sa Ethereumom), Bitcoin ekosistem je postepeno usvojio slojeviti pristup: blockchain služi kao temelj (konačno poravnanje), dok viši slojevi dodaju nova svojstva, poput bržih plaćanja, veće privatnosti ili izdavanja aktiva (stablecoini, tokenizovane hartije od vrednosti…).
+
+Bitcoin ne evoluira samo kroz izmene svog osnovnog protokola. On se razvija i kroz nadgradnju, uz rešenja koja prave različite kompromise u zavisnosti od cilja. Neka se fokusiraju na skalabilnost plaćanja, druga na programabilnost (u širem smislu) i izdavanje aktiva, a treća pokušavaju da kombinuju oba pristupa.
+
+U ovom poglavlju predstavljamo četiri važna protokola koji svaki nude nove mogućnosti na Bitcoinu: sidechainove (posebno Liquid), Ark, RGB i Taproot Assets.
+
+### Sidechainovi: paralelni blockchainovi povezani sa Bitcoinom
+
+Sidechain je blockchain odvojen od Bitcoina, dizajniran da funkcioniše paralelno, sa sopstvenim pravilima i sopstvenim konsenzus mehanizmom. Povezan je sa Bitcoinom putem mehanizma dvosmernog usidravanja (*2WP*), koji u praksi omogućava korišćenje bitkoina na sidechainu u reprezentativnom obliku (često bitcoin zaključan na Bitcoinu i ponovo kreiran na sidechainu), a zatim povratak na glavnu mrežu.
+
+Prednost sidechaina je u tome što nudi funkcionalnosti koje je teško postići direktno na Bitcoinu: brže transakcije, funkcije vezane za aktive, pojačanu privatnost ili veću fleksibilnost u razvoju. Zauzvrat, sidechain uvek pravi određene kompromise u odnosu na Bitcoin, naročito u pogledu modela poverenja ili decentralizacije.
+
+Najpoznatiji sidechain na Bitcoinu je verovatno **Liquid**, koji je razvio Blockstream. Dizajniran je posebno za ubrzavanje određenih upotreba: brze transfere između platformi, češća poravnanja i izdavanje aktiva (stablecoini, hartije od vrednosti…), uz povećanu privatnost. Na Liquidu, korišćeni bitkoini se nazivaju L-BTC i vezani su u odnosu 1:1 sa BTC-om putem dvosmernog usidravanja.
+
+![image](assets/sr-Latn/088.webp)
+
+Glavna razlika u odnosu na Bitcoin leži u modelu bezbednosti i decentralizacije: Liquid se ne oslanja na Bitcoin proof of work, već na federaciju operatora (identifikovanu grupu) koja obezbeđuje proizvodnju blokova i funkcionisanje mostova između BTC i L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: deljenje UTXO-a radi smanjenja troškova i poboljšanja iskustva
+
+Ark označava porodicu predloga i implementacija čiji je cilj poboljšanje skalabilnosti Bitcoina grupisanjem velikog broja korisničkih operacija u manji broj Bitcoin transakcija. Ideja je prilično jednostavna: umesto da se za svakog korisnika kreira posebna onchain transakcija, kreira se jedna onchain transakcija koja predstavlja paket, a zatim se prava svakog korisnika uglavnom razvijaju offchain, sve do trenutka kada se želi konačno poravnanje na Bitcoinu.
+
+Ovu ideju protokola drugog sloja predstavio je Burak u maju 2023. Kao i Lightning Network, Ark je sistem koji se gradi iznad glavnog Bitcoin lanca. On omogućava brza, anonimna i niskotarifna bitcoin plaćanja van lanca. U poređenju sa Lightningom, Ark ne zahteva ulaznu likvidnost za primanje plaćanja, što značajno poboljšava korisničko iskustvo. Pored toga, nudi nivo privatnosti sličan coinjoin transakcijama. Ark bi takođe mogao biti neinteraktivan ako se u Bitcoin dodaju covenant mehanizmi.
+
+Burak često kritikuje sposobnost Lightninga da se skalira zbog njegove zavisnosti od glavnog lanca i sugeriše da bi Ark teorijski mogao integrisati celokupnu svetsku populaciju u self-custody model. Iako se Ark može posmatrati kao konkurentski protokol Lightning Networku, u praksi oba mogu koegzistirati i čak se međusobno dopunjavati.
+
+Ark je i dalje veoma aktivna, ali još uvek mlada oblast: cilj je obećavajući (drastično smanjenje onchain otiska po korisniku), ali treba imati na umu da je reč o složenijoj arhitekturi, sa drugačijim pretpostavkama i rizicima u odnosu na Bitcoin i Lightning.
+
+### RGB: ugovori i aktiva sa validacijom na strani klijenta
+
+RGB je sistem pametnih ugovora i aktiva na Bitcoinu koji usvaja radikalno drugačiji pristup u odnosu na opšte blockchainove. Njegova centralna ideja je validacija na strani klijenta: umesto objavljivanja kompletnog stanja ugovora na globalnom blockchainu, učesnici lokalno čuvaju i validiraju istorije koje ih zanimaju, dok Bitcoin blockchain služi samo za usidravanje kriptografskih obaveza i sprečavanje dvostruke potrošnje.
+
+Drugim rečima:
+* Bitcoin blockchain igra ulogu minimalne osnove za vremensko obeležavanje i arbitražu;
+* detaljni podaci (pravila ugovora, stanja, tranzicije) cirkulišu offchain, između uključenih strana;
+* verifikacija se obavlja lokalno, što poboljšava skalabilnost i može povećati privatnost, jer ne postoji globalni registar svih RGB aktivnosti vidljiv svima.
+
+![image](assets/sr-Latn/089.webp)
+
+RGB može poslužiti kao osnova za izdavanje i upravljanje velikim brojem aktiva: tokena (uključujući stablecoine), NFT-ova ili digitalnih hartija od vrednosti, pa čak i za izgradnju složenijih logika ugovora, a sve to bez opterećivanja osnovnog sloja.
+
+Nedostatak ovog pristupa je upravljanje podacima: ako validirate na strani klijenta, morate i pravilno čuvati i bekapovati podatke koji dokazuju vaša prava.
+
+RGB je protokol u razvoju već dugi niz godina. Napredak je postepen, ali danas već postoje konkretne aplikacije koje koriste RGB. Za dublje razumevanje, na Plan ₿ Academy nudimo kurs ekspertskog nivoa koji detaljno objašnjava rad ovog protokola:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: izdavanje aktiva na Bitcoinu i njihovo kretanje preko Lightninga
+
+Taproot Assets (ranije „Taro“) je protokol koji razvija Lightning Labs, a čiji je cilj omogućavanje izdavanja aktiva na Bitcoinu, uz mogućnost njihovog kasnijeg prenosa preko Lightning mreže radi brzih i jeftinih razmena.
+
+Ovo je često pominjani gradivni element u narativu „programmable money“ na Bitcoinu: ne zato što Bitcoin postaje globalni računar, već zato što se finansijski instrumenti (aktive) mogu nadograditi iznad Bitcoin osnove i zatim efikasno prenositi putem Lightninga.
+
+### Bitcoin jača dopuštajući inovacije na višim slojevima
+
+Danas najvernija slika Bitcoin ekosistema nije ona fiksnog protokola, niti super-blockchaina koji radi sve, poput Ethereuma. To je pre svega namerno konzervativna osnova, okružena slojevima i protokolima koji eksperimentišu i omogućavaju inovacije uz minimalan rizik.
 
 
-Još jedan primer može biti "strimovanje novca": putem Lightning mreže, možemo vršiti mikro-transakcije svake minute (potencijalno bez pouzdane treće strane), što otvara vrata eksperimentisanju sa ekonomskim modelima gde potrošači plaćaju za sadržaj na osnovu njihove stvarne potrošnje. Čak je zamislivo koristiti ovaj sistem za iznajmljivanje dobara. U takvom sistemu, novac se automatski deli, na osnovu unapred definisanog procenta, među različitim doprinosiocima usluge ili proizvoda. Ovo bi moglo revolucionisati način na koji razmišljamo o modelima plaćanja: umesto plaćanja mesečne pretplate za uslugu, korisnici bi mogli biti naplaćeni po minuti, ili čak po sekundi, za vreme koje provode koristeći uslugu. Takav ekonomski model mogao bi imati duboke implikacije za kreatore sadržaja, koji bi bili motivisani da proizvode kvalitetan sadržaj kako bi zadržali pažnju korisnika.
-
-
-![image](assets/sr-Latn/087.webp)
-
-
-Zaključno, Lightning mreža otvara mnoštvo uzbudljivih upotreba za korisnike Bitkoina. Rezultirajući ekonomski modeli i poslovne prilike su brojni i raznovrsni, i ohrabrujemo vas da sami proverite isprobavanjem aplikacije za podkaste [Fountain](https://www.fountain.fm/), koja vam omogućava da budete nagrađeni sa nekoliko Sats za slušanje vaših omiljenih podkasta!
 
 
 ## Crvena pilula ili plava pilula?

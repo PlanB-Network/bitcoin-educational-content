@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste reden waarom kale multisig transacties grotendeels vervangen werden door P2SH voor complexe uitgaven?
+answer: Bare multisig stelt alle openbare sleutels on-chain bloot, waardoor transacties groot en duur worden en moeilijk te coderen zijn als adressen
+wrong_answers:
+  - Bare multisig vereist meer handtekeningen dan P2SH om hetzelfde beveiligingsniveau te bereiken voor transacties met meerdere partijen
+  - Bare multisig kan niet overweg met transacties met een tijdslot of voorwaardelijke uitgaven zoals P2SH dat kan
+  - Naakte multisig handtekeningen zijn niet compatibel met moderne wallet software en kunnen niet worden uitgezonden naar huidige knooppunten
+explanation: |
+  P2SH werd specifiek geïntroduceerd om de inefficiënties van kale multisig aan te pakken. Bare multisig vereist dat alle publieke sleutels zichtbaar zijn in de scriptPubKey, waardoor grote transacties ontstaan die meer kosten en moeilijk zijn weer te geven als gebruiksvriendelijke adressen. P2SH lost dit op door het complexe script te verbergen achter een hash van 20 bytes, waarbij de werkelijke bestedingsvoorwaarden pas worden onthuld wanneer de uitvoer is uitgegeven. Dit verkleint de voetafdruk van on-chain, verbetert de privacy en maakt standaard adresformaten mogelijk met behoud van dezelfde veiligheidsgaranties.

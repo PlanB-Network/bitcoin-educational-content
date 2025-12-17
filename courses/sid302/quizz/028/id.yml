@@ -1,0 +1,8 @@
+question: Apa kerentanan operasional kritis yang muncul dari model otorisasi penandatanganan bersama AMP untuk transfer aset yang diatur?
+answer: Likuiditas aset akan berhenti sepenuhnya jika server AMP tidak tersedia karena setiap transfer memerlukan tanda tangan bersama server
+wrong_answers:
+  - Biaya transaksi meningkat secara eksponensial ketika beberapa penandatangan bersama mencoba mengotorisasi transfer secara bersamaan
+  - Privasi Transaksi Rahasia Privasi transaksi rusak karena penandatanganan bersama mengekspos faktor-faktor yang membutakan bagi pengamat jaringan
+  - Pemegang aset kehilangan kontrol hak asuh karena mekanisme penandatanganan bersama mentransfer kunci pribadi ke server AMP
+explanation: |
+  Model otorisasi AMP mengharuskan server AMP untuk ikut menandatangani setiap transfer aset, sehingga menciptakan satu titik kegagalan. Jika server offline, tidak ada transaksi yang dapat diselesaikan, yang secara efektif membekukan semua likuiditas aset. Opsi lainnya tidak benar: biaya tidak meningkat secara eksponensial dengan penandatanganan bersama, privasi Transaksi Rahasia tetap utuh (hanya penerbit yang mendapatkan visibilitas), dan pengguna tetap memiliki kunci pribadi mereka, sementara server hanya menyediakan tanda tangan otorisasi.

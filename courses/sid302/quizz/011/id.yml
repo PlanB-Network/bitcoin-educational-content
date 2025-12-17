@@ -1,0 +1,8 @@
+question: Apa yang terjadi jika penyedia layanan membayar faktur Lightning untuk menyelesaikan pertukaran Liquid ke Lightning menggunakan HTLC?
+answer: Penyedia menerima preimage dari pembayaran Lightning, yang kemudian dapat mereka gunakan untuk membuka dan mengklaim L-BTC dari HTLC
+wrong_answers:
+  - Penyedia harus menunggu kunci waktu berakhir sebelum dapat mengakses L-BTC yang terkunci dalam kontrak HTLC
+  - "Klien secara otomatis menerima preimage dan menggunakannya untuk melepaskan L-BTC secara langsung ke Liquid wallet milik penyedia"
+  - Kontrak HTLC secara otomatis mengeksekusi dan mentransfer L-BTC ke penyedia tanpa memerlukan bukti kriptografi tambahan
+explanation: |
+  HTLC membuat pertukaran atom melalui pengikatan kriptografi menggunakan kunci hash yang sama di kedua jaringan. Ketika penyedia berhasil membayar faktur Lightning, mereka mendapatkan preimage (rahasia) yang cocok dengan kunci hash. Preimage ini adalah kunci kriptografi yang memungkinkan mereka untuk membuka kunci L-BTC yang sebelumnya terkunci di HTLC. Opsi lainnya tidak benar karena tidak mencerminkan sifat atomik dari HTLC - kunci waktu hanyalah sebuah mekanisme fallback, klien tidak menangani distribusi preimage, dan HTLC membutuhkan bukti kriptografi aktif daripada eksekusi otomatis.

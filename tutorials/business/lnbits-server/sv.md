@@ -1,5 +1,5 @@
 ---
-name: LNbits server
+name: LNbits Server
 description: Installation och konfiguration av en egen LNbits-server på Ubuntu VPS med Phoenixd eller på Umbrel
 ---
 

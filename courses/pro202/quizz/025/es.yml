@@ -1,0 +1,8 @@
+question: En la validación de transacciones P2PKH, ¿qué secuencia específica de operaciones realiza el ScriptPubKey para verificar las condiciones de gasto?
+answer: Duplica la clave pública, la convierte en hash, la compara con el hash confirmado y, a continuación, verifica la firma
+wrong_answers:
+  - Realiza un hash de la firma, lo compara con el hash de la clave pública y, a continuación, lo verifica con el valor confirmado
+  - Primero verifica la firma, luego aplica el hash a la clave pública y la compara con el hash confirmado
+  - Combina la firma y la clave pública, aplica un hash al resultado y lo compara con el hash confirmado
+explanation: |
+  El ScriptPubKey de P2PKH sigue una secuencia específica: OP_DUP OP_HASH160 <hash_pubclave> OP_EQUALVERIFY OP_CHECKSIG. Esto duplica la clave pública proporcionada, aplica hash SHA256 y luego RIPEMD160, verifica que el resultado coincide con el hash comprometido, y finalmente comprueba la firma. Las otras opciones describen incorrectamente el orden de las operaciones o sugieren aplicar hash a las firmas en lugar de a las claves públicas, lo que rompería la lógica de validación.

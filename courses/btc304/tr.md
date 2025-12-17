@@ -28,7 +28,7 @@ BTC304'te, topluluk oluşturmanın neden önemli olduğuna bakacağız, güçlü
 
 
 
-BTC302'ye hoş geldiniz!
+BTC 304'ye hoş geldiniz!
 
 
 
@@ -2831,14 +2831,14 @@ Tek başınıza, Bitcoin tavşan deliğindeki birçok tünelden birini hızla ke
 
 
 
-## BTC302, Sırada Ne Var
+## BTC 304, Sırada Ne Var
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Bu BTC302 kursunda, bir topluluğun veya buluşmanın nasıl kurulacağının yanı sıra çeşitli projelerin nasıl başlatılacağı konusunda ayrıntılara girdik.
+Bu BTC 304 kursunda, bir topluluğun veya buluşmanın nasıl kurulacağının yanı sıra çeşitli projelerin nasıl başlatılacağı konusunda ayrıntılara girdik.
 
 
 Topluluğunuz bir sonraki adımı atmaya hazır olduğunda, **resmi bir dernek oluşturabilirsiniz**.

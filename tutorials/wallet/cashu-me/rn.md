@@ -1,5 +1,5 @@
 ---
-name: Amahera.jewe
+name: Cashu.me
 description: Cashu.me ubuyobozi bwo gukoresha ecash
 ---
 

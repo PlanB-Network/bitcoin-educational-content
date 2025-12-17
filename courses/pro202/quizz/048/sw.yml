@@ -1,0 +1,8 @@
+question: Nini hutokea wakati wa kujenga mti wa Merkle kutokana na miamala ikiwa idadi ya hashes katika kiwango chochote ni isiyo ya kawaida?
+answer: Hashi ya mwisho inarudiwa ili kuunda idadi sawa ya jozi kwa kiwango kinachofuata
+wrong_answers:
+  - Hashi ya mwisho hupelekwa mbele bila kubadilika hadi ngazi inayofuata bila kuoanisha
+  - Hashi ya mwisho imeunganishwa na hashi ya kwanza ya kiwango hicho ili kukamilisha uunganishaji
+  - Hashi ya mwisho imeunganishwa na hashi null (sifuri zote) ili kuunda jozi ya mwisho
+explanation: |
+  Ujenzi wa mti wa Merkle wa Bitcoin unahitaji hashes za kuoanisha katika kila ngazi. Wakati nambari isiyo ya kawaida ipo, itifaki huiga hashes ya mwisho ili kuhakikisha kuoanisha sahihi. Hii hudumisha muundo wa jozi wa mti na kuhakikisha hesabu ya mizizi ya uhakika. Chaguzi zingine zingevunja utangamano na sheria za makubaliano za Bitcoin na kuunda mizizi tofauti ya Merkle kwa seti zinazofanana za miamala.

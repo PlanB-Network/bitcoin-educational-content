@@ -1,0 +1,8 @@
+question: Vilken är den primära affärsfördelen som Liquid:s avvecklingstid på 2 minuter ger jämfört med traditionella finansiella system?
+answer: Minskar motpartsrisken genom att möjliggöra atomär avveckling där leverans och betalning sker samtidigt
+wrong_answers:
+  - Eliminerar behovet av regelefterlevnad och kundkännedomskrav inom tillgångshandel
+  - Tillåter obegränsad skalbarhet för högfrekvenshandel utan några transaktionsavgifter
+  - Möjliggör automatisk prisupptäckt genom inbyggda algoritmer för market making
+explanation: |
+  Liquid:s 2-minutersavveckling möjliggör atomavveckling, vilket är avgörande för att minska motpartsrisken eftersom båda parter får vad de är skyldiga samtidigt, vilket eliminerar gapet där en part kan fallera. Traditionell T+2-avveckling skapar ett fönster där motpartsrisk existerar. De andra alternativen är felaktiga: Liquid kräver fortfarande efterlevnad genom AMP, har transaktionsavgifter och skalningsgränser och tillhandahåller inte automatisk market making.

@@ -1,5 +1,5 @@
 ---
-name: アイベックスペイ
+name: IbexPay
 description: ビットコインでの支払いを受け付け、現地通貨に変換する。
 ---
 ![cover](assets/cover.webp)

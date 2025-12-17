@@ -1,0 +1,8 @@
+question: Matokeo ya msingi ya kusahau kujumuisha matokeo ya mabadiliko wakati wa kutumia UTXO ambayo ina Bitcoin zaidi ya inavyohitajika ni yapi?
+answer: Kiasi cha ziada kiotomatiki huwa ada ya wachimbaji madini
+wrong_answers:
+  - Muamala utakataliwa na mtandao kama batili
+  - "Kiasi cha ziada kinarudishwa kwenye anwani ya mtumaji wa awali"
+  - Kiasi cha ziada kinabaki kimefungwa kwenye UTXO ya asili
+explanation: |
+  Katika mfumo wa UTXO wa Bitcoin, ada za miamala huhesabiwa bila kufafanua kama tofauti kati ya jumla ya pembejeo na jumla ya matokeo (ada = jumla (pembejeo) - jumla (matokeo)). Unapotumia UTXO, lazima uitumie kabisa - matumizi ya sehemu hayawezekani. Ukihitaji kutumia sehemu tu ya thamani ya UTXO, lazima uunda matokeo ya mabadiliko ili kupokea salio. Ukisahau kujumuisha matokeo haya ya mabadiliko, tofauti isiyohesabiwa kati ya pembejeo na matokeo inakuwa ada ya wachimbaji kiotomatiki. Hii ndiyo sababu ujenzi sahihi wa matokeo ya mabadiliko ni muhimu - bila hiyo, unaweza kulipa ada kubwa kwa wachimbaji kwa bahati mbaya.

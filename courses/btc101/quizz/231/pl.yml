@@ -1,8 +1,0 @@
-question: Czym jest koncepcja strumieniowania pieniędzy w kontekście sieci Lightning?
-answer: Dokonywanie ciągłych mikropłatności w czasie rzeczywistym.
-wrong_answers:
-  - Wyamiana bitcoinów na gotówkę w lokalizacji fizycznej przy użyciu bankomatu.
-  - Przesyłanie strumieniowe treści audio lub wideo do Bitcoina.
-  - Tworzenie nowych bitcoinów poprzez wydobywanie, które odbywa się w czasie rzeczywistym.
-explanation: >-
-reviewed: true

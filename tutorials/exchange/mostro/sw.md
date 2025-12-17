@@ -1,5 +1,5 @@
 ---
-name: Wengi
+name: Mostro
 description: Jukwaa la kubadilishana la Bitcoin P2P lisilo na KYC kupitia Umeme na Nostr
 ---
 

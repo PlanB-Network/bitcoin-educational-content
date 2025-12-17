@@ -1,0 +1,8 @@
+question: Jaka jest podstawa matematyczna, która sprawia, że problem logarytmu dyskretnego jest niewykonalny obliczeniowo w kryptografii krzywych eliptycznych?
+answer: Nieprzewidywalny rozkład punktów podczas generowania grupy cyklicznej poprzez wielokrotne dodawanie punktów
+wrong_answers:
+  - Właściwość symetrii krzywych eliptycznych, która odzwierciedla punkty na osi x
+  - Modularne operacje arytmetyczne wykonywane na skończonych polach zamiast na liczbach rzeczywistych
+  - Duża liczba pierwsza używana jako charakterystyka pola w równaniu krzywej
+explanation: |
+  Trudność problemu logarytmu dyskretnego wynika z nieprzewidywalnego, nieliniowego rozkładu punktów podczas generowania grupy cyklicznej (G, 2G, 3G, ..., nG). Mimo że punkty są generowane sekwencyjnie, wydają się rozproszone i losowe, co sprawia, że wyznaczenie skalara s z punktu P = sG jest obliczeniowo niewykonalne. Podczas gdy symetria, arytmetyka modularna i duże liczby pierwsze są ważnymi właściwościami krzywych eliptycznych, nie tworzą one bezpośrednio funkcji jednokierunkowej, która umożliwia bezpieczną kryptografię klucza publicznego.

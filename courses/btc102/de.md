@@ -952,7 +952,7 @@ Börsen spielen eine wichtige Rolle im Bitcoin-Ökosystem, da sie als Brücke zw
 - eine Option für automatisch wiederkehrende Käufe (ARP)
 - einfache, kostenlose Abhebung von Bitcoins auf ein persönliches Wallet
 
-Börsen, welche die lokalen Vorschriften einhalten, müssen in der Regel strenge **"Know Your Customer "** (KYC)-Protokolle befolgen. Sie verlangen von den Nutzern Ausweisdokumente, bevor diese auf die Dienste zugreifen können. Diese Verfahren sollen zwar illegale Aktivitäten verhindern, können aber die Privatsphäre, die Bitcoin von Natur aus bietet, beeinträchtigen.
+Börsen, welche die lokalen Vorschriften einhalten, müssen in der Regel strenge **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer) "** (KYC)-Protokolle befolgen. Sie verlangen von den Nutzern Ausweisdokumente, bevor diese auf die Dienste zugreifen können. Diese Verfahren sollen zwar illegale Aktivitäten verhindern, können aber die Privatsphäre, die Bitcoin von Natur aus bietet, beeinträchtigen.
 
 ![image](assets/de/058.webp)
 
@@ -1801,7 +1801,7 @@ Die Einführung von Bitcoin für alltägliche Zahlungen erfordert einen durchdac
 
 Anwender sollten zwei verschiedene Arten von Wallets verwenden, um ein Gleichgewicht zwischen Sicherheit und Komfort herzustellen:
 
-- Ein Cold Wallet (Hardware Wallet) zur Sicherung langfristiger Einsparungen.
+- Ein Cold Wallet ([Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)) zur Sicherung langfristiger Einsparungen.
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 

@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Tanda Tangan Bersama
+name: COLDCARD - Co-Sign
 description: Temukan fitur Co-Sign dan gunakan di COLDCARD Anda
 ---
 

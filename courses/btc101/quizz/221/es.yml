@@ -1,10 +1,9 @@
-question: ¿Las comisiones por transacciones en la Red Lightning son extremadamente bajas, a menudo menos del...?
-answer: 0.5%.
+question: ¿Qué ventaja ofrece Ark frente a Lightning para la recepción?
+answer: No se necesita liquidez entrante
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-  Las comisiones por transacciones en la Red Lightning son extremadamente bajas, a menudo
-  menos del 0.5%.
-reviewed: true
+  - Finalidad inmediata del pago
+  - Ausencia de comisiones de transacción
+  - No es necesario tener un monedero
+explanation: |
+  Ark permite recibir pagos sin disponer previamente de liquidez entrante.
+reviewed: false

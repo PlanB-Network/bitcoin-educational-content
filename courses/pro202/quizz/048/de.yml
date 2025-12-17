@@ -1,0 +1,8 @@
+question: Was passiert bei der Konstruktion eines Merkle-Baums aus Transaktionen, wenn die Anzahl der Hashes auf jeder Ebene ungerade ist?
+answer: Der letzte Hash wird dupliziert, um eine gerade Anzahl von Paaren für die nächste Ebene zu erzeugen
+wrong_answers:
+  - Der letzte Hash wird ohne Paarung unverändert in die nächste Ebene übernommen
+  - Der letzte Hashwert wird mit dem ersten Hashwert dieser Ebene XOR-verknüpft, um die Paarung abzuschließen
+  - Der letzte Hash wird mit einem Null-Hash (alles Nullen) kombiniert, um das endgültige Paar zu bilden
+explanation: |
+  Die Merkle-Baumkonstruktion von Bitcoin erfordert die Paarung von Hashes auf jeder Ebene. Wenn eine ungerade Zahl vorhanden ist, dupliziert das Protokoll speziell den letzten Hash, um eine korrekte Paarung zu gewährleisten. Dadurch wird die binäre Struktur des Baums beibehalten und eine deterministische Wurzelberechnung gewährleistet. Die anderen Optionen würden die Kompatibilität mit den Konsensregeln von Bitcoin aufheben und unterschiedliche Merkle-Wurzeln für identische Transaktionssätze erzeugen.

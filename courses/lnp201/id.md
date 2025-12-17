@@ -153,7 +153,7 @@ Skrip yang paling umum memerlukan tanda tangan dengan private key (kunci privat)
 
 ### UTXOs: Unspent Transaction Outputs
 
-Di Bitcoin, apa yang sebenarnya kita tukarkan bukanlah bitcoin secara langsung, melainkan **UTXOs** (_Unspent Transaction Outputs_), yang berarti "output transaksi yang belum digunakan".
+Di Bitcoin, apa yang sebenarnya kita tukarkan bukanlah bitcoin secara langsung, melainkan **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), yang berarti "output transaksi yang belum digunakan".
 
 UTXO adalah sepotong bitcoin yang bisa bernilai berapa saja, misalnya, **2.000 bitcoin**, **8 bitcoin**, atau bahkan **8.000 sats**. Setiap UTXO dikunci oleh skrip, dan untuk menggunakan UTXO tersebut, harus memenuhi kondisi skrip, biasanya berupa sebuah tanda tangan dengan private key (kunci privat) yang sesuai dengan address (alamat) penerima UTXO tersebut.
 
@@ -183,7 +183,7 @@ Tipe alamat ini secara tepat merupakan representasi di blockchain Bitcoin dari s
 - **Bitcoin address (alamat)** berasal dari public key (kunci publik), yang asalnya dari private key (kunci privat).
 - Dana pada Bitcoin dikunci oleh **skrip**, dan untuk bisa menggunakan dana tersebut, maka harus memenuhi kondisi skrip, yang umumnya memerlukan tanda tangan dengan private key (kunci privat) yang sesuai.
 - **UTXOs** adalah bagian-bagian bitcoin yang dikunci oleh skrip, dan setiap transaksi Bitcoin terdiri dari membuka kunci UTXO dan kemudian menciptakan satu atau lebih UTXO baru yang juga terkunci sebagai gantinya.
-- **2/2 multi-signature address (alamat multi-tanda tangan 2/2)** memerlukan dua tanda tangan dari private key (kunci privat) untuk bisa menggunakan dana di dalamnya. Address (alamat) spesifik ini digunakan dalam konteks Lightning untuk membuat payment channel (saluran pembayaran).
+- **2/2 multi-signature address (alamat multi-tanda tangan 2/2)** memerlukan dua tanda tangan dari private key (kunci privat) untuk bisa menggunakan dana di dalamnya. Address (alamat) spesifik ini digunakan dalam konteks Lightning untuk membuat [payment channel](https://planb.academy/resources/glossary/payment-channel) (saluran pembayaran).
 
 Bab tentang Bitcoin ini mempersiapkan kita agar dapat memahami beberapa konsep penting untuk pembahasan berikutnya. Dalam bab selanjutnya, kita akan secara khusus membahas bagaimana cara pembukaan channel (saluran) pada Lightning Network (Jaringan Lightning).
 
@@ -222,7 +222,7 @@ Penting untuk dicatat bahwa sebuah node Lightning dapat berkomunikasi melalui pr
 
 ![LNP201](assets/en/011.webp)
 
-- **Pembuatan multisignature address (alamat multi-tandatangan)**: Dengan kedua public key (kunci publik) ini, Alice membuat **2/2 multi-signature address (alamat multi-tanda tangan 2/2)**, yang berarti dana yang nantinya akan disetorkan pada address (alamat) ini akan memerlukan kedua tanda tangan (Alice dan Bob) untuk dapat digunakan.
+- **Pembuatan [multisignature](https://planb.academy/resources/glossary/multisig) address (alamat multi-tandatangan)**: Dengan kedua public key (kunci publik) ini, Alice membuat **2/2 multi-signature address (alamat multi-tanda tangan 2/2)**, yang berarti dana yang nantinya akan disetorkan pada address (alamat) ini akan memerlukan kedua tanda tangan (Alice dan Bob) untuk dapat digunakan.
 
 ![LNP201](assets/en/012.webp)
 
@@ -593,7 +593,7 @@ Dalam bab ini, kita telah membahas perutean pembayaran di Jaringan Lightning. Na
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Dalam bab ini, kita akan membahas bagaimana Lightning memungkinkan pembayaran untuk transit melalui node perantara tanpa perlu mempercayai mereka, berkat **HTLC** (_Hashed Time-Locked Contracts_). Kontrak pintar ini memastikan bahwa setiap node perantara hanya akan menerima dana dari salurannya jika ia meneruskan pembayaran ke penerima akhir, jika tidak, pembayaran tidak akan divalidasi.
+Dalam bab ini, kita akan membahas bagaimana Lightning memungkinkan pembayaran untuk transit melalui node perantara tanpa perlu mempercayai mereka, berkat **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Kontrak pintar ini memastikan bahwa setiap node perantara hanya akan menerima dana dari salurannya jika ia meneruskan pembayaran ke penerima akhir, jika tidak, pembayaran tidak akan divalidasi.
 
 Masalah yang muncul untuk routing pembayaran adalah perlunya kepercayaan pada node perantara, dan kepercayaan di antara node perantara itu sendiri. Untuk menggambarkannya, mari kita kembali ke contoh Lightning Network (Jaringan Lightning) yang disederhanakan dengan 3 node dan 2 saluran:
 

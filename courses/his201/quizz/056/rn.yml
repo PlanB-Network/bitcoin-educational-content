@@ -1,9 +1,9 @@
-question: Ni ibihe bimenyetso vy’isohoka ry’inyandiko vyemewe na porogarama muri Nzero 2010?
-answer: Ukwakira urufunguzo rwa bose (P2PK) n'ukwakira Address (P2PKH)
+question: Ni ibihe bimenyetso vy’isohoka ry’inyandiko vyemewe na porogarama muri Nyakanga 2010?
+answer: Ukwakira urufunguzo rwa bose (P2PK) hamwe n'ukwakira biciye kuri Address (P2PKH)
 wrong_answers:
-  - Ukwakira na Address (P2PKH) n’ukwakira n’inyandiko y’umukono myinshi (P2MS)
-  - Ukwakira n’umunyamakuru Address (P2PKH) n’ukwakira n’inyandiko (P2SH)
-  - Ukwakira n'urufunguzo rwa bose (P2PK) n'ukwakira n'inyandiko (P2SH)
+  - Ukugarura biciye kuri Address (P2PKH) n’ukwakira n’inyandiko y’umukono myinshi (P2MS)
+  - Ukugarura biciye kuri Address (P2PKH) n’ukwakira n’inyandiko (P2SH)
+  - Ukugarura biciye k'urufunguzo rwa bose (P2PK) n'ukwakira n'inyandiko (P2SH)
 explanation: |
   Ubwo ni bwo bwoko bubiri bwakoreshwa kuva mu ntango za Bitcoin. Ubwoko bwa P2MS bwacitse ubusanzwe muri Ntwarante 2012, ubwoko bwa P2SH na bwo bwongerwa ku masezerano muri Ndamukiza 2012.
 reviewed: true

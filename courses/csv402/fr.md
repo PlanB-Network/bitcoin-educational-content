@@ -1008,7 +1008,7 @@ Avant de diffuser la transaction, Alice envoie à Bob un ***Consignment*** conte
 Si Bob est satisfait, il peut éventuellement donner son approbation (par exemple en signant le *consignment*). Alice peut alors diffuser la transaction témoin préparée. Une fois confirmée, celle-ci clos le sceau précédemment détenu par Alice et officialise la propriété par Bob. La sécurité anti double-dépense se base alors sur le même mécanisme que dans Bitcoin : l’UTXO est dépensé, ce qui prouve qu’Alice ne peut plus le réutiliser.
 
 ![RGB-Bitcoin](assets/en/061.webp)
-Le nouvel état référence désormais l'UTXO de Bob, ce qui confère à celui-ci la propriété que détenait précédemment Alice. La sortie Bitcoin où sont ancrées les données RGB devient la preuve irrévocable du transfert de propriété.
+Le nouvel état référence désormais l'UTXO de Bob, ce qui confère à celui-ci la propriété que détenait auparavant Alice. La sortie Bitcoin où sont ancrées les données RGB devient la preuve irrévocable du transfert de propriété.
 
 Un exemple de DAG (*Directed Acyclic Graph*) minimal comprenant deux opérations de contrat (une **Genesis** puis un ***State Transition***) peut illustrer comment l’état RGB (couche *client-side*, en rouge) se relie à la blockchain Bitcoin (couche *Commitment*, en orange).  
 
@@ -1026,17 +1026,17 @@ Les **State Transitions**, décrites dans le chapitre précédent, constituent l
 
 ![RGB-Bitcoin](assets/en/063.webp)
 
-Ce schéma montre comment, dans une *State Transition Bundle*, on peut clore plusieurs sceaux en une seule transaction témoin, en ouvrant simultanément de nouveaux sceaux. En effet, une caractéristique intéressante du protocole RGB est sa possibilité de passage à l'échelle : plusieurs transitions peuvent être agrégées dans un Transition Bundle, chaque agrégation étant associée à une feuille distincte du *MPC tree* (un identifiant de bundle unique). Grâce au mécanisme de *Deterministic Bitcoin Commitment* (DBC), l’ensemble du message est inséré dans une sortie `Tapret` ou `Opret`, tout en fermant les sceaux précédents et en définissant éventuellement de nouveaux sceaux. L’*Anchor* sert de lien direct entre l’engagement stocké dans la blockchain et la structure de validation côté client (*client-side*).
+Ce schéma montre comment, dans une *State Transition Bundle*, on peut clore plusieurs sceaux en une seule transaction témoin, en ouvrant simultanément de nouveaux sceaux. En effet, une caractéristique intéressante du protocole RGB est sa possibilité de passage à l'échelle : plusieurs transitions peuvent être agrégées dans une **Transition Bundle**, chaque agrégation étant associée à une feuille distincte du *MPC tree* (un identifiant de bundle unique). Grâce au mécanisme de *Deterministic Bitcoin Commitment* (DBC), l’ensemble du message est inséré dans une sortie `Tapret` ou `Opret`, tout en fermant les sceaux précédents et en définissant éventuellement de nouveaux sceaux. L’*Anchor* sert de lien direct entre l’engagement stocké dans la blockchain et la structure de validation côté client (*client-side*).
 
-Nous étudierons dans les chapitre suivants tous les composants et les processus liés à la construction et à la validation d’une State Transition. La plupart de ces éléments relèvent du consensus RGB, implémenté dans la "**RGB Core Library**".
+Nous étudierons dans les chapitres suivants tous les composants et les processus liés à la construction et à la validation d’une State Transition. La plupart de ces éléments relèvent du consensus RGB, implémenté dans la "**RGB Core Library**".
 
 ### Transition Bundle
 
-Sur RGB, il est possible de regrouper différentes State Transitions appartenant au même contrat (c’est-à-dire partageant le même **ContractId**, dérivé du **OpId** de la Genesis). Dans le cas le plus simple, comme entre Alice et Bob dans l’exemple ci-dessus, un **Transition Bundle** ne contient qu’une seule transition. Mais la prise en charge des opérations multi-payer (comme par exemple des coinjoins, des ouvertures de canaux Lightning, etc.) permet à plusieurs utilisateurs de combiner leurs State Transitions en un seul bundle.
+Sur RGB, il est possible de regrouper différentes State Transitions appartenant au même contrat (c’est-à-dire partageant le même **ContractId**, dérivé du **OpId** de la Genesis). Dans le cas le plus simple, comme entre Alice et Bob dans l’exemple ci-dessus, une **Transition Bundle** ne contient qu’une seule transition. Mais la prise en charge des opérations multi-payeurs (par exemple des coinjoins, des ouvertures de canaux Lightning, etc.) permet à plusieurs utilisateurs de combiner leurs State Transitions dans un seul bundle (ensemble).
 
 Une fois rassemblées, ces transitions sont ancrées (par le mécanisme MPC + DBC) dans une unique transaction Bitcoin :
 - Chaque State Transition est hashée et regroupée en une Transition Bundle ;
-- La Transition Bundle est elle-même hachée et insérée dans la feuille du MPC tree correspondant à ce contrat (un BundleId) ;
+- La Transition Bundle est elle-même hashée et insérée dans la feuille du MPC tree correspondant à ce contrat (un BundleId) ;
 - Le MPC tree est finalement engagé via `Opret` ou `Tapret` dans la transaction témoin, qui ferme ainsi les sceaux consommés et définit les nouveaux sceaux.
 
 Sur le plan technique, le **BundleId** inséré dans la feuille MPC est obtenu à partir d’un tagged hash appliqué à la sérialisation stricte du champ *InputMap* du bundle :
@@ -1076,9 +1076,9 @@ Parmi celles-ci, **Genesis** et **State Extension** sont parfois appelées "*Sta
 
 On définit souvent l’**Active State** d’un contrat comme l’ensemble des derniers états résultant de l’historique (le DAG) des opérations, en commençant par la Genesis et en suivant tous les ancrages dans la blockchain Bitcoin. Tous les anciens états déjà obsolètes (c’est-à-dire attachés à des UTXOs dépensés) ne sont plus considérés comme actifs, mais restent indispensables pour vérifier la cohérence de l’historique.
 
-### Genesis
+### Genesis (Genèse)
 
-La Genesis est le point de départ de tout contrat RGB. Elle est créée par l’émetteur du contrat et définit les paramètres initiaux, conformément au **Schema**. Dans le cas d’un token RGB, la Genesis peut spécifier, par exemple :
+Le Genesis est le point de départ de tout contrat RGB. Elle est créée par l’émetteur du contrat et définit les paramètres initiaux, conformément au **Schema**. Dans le cas d’un token RGB, la Genesis peut spécifier, par exemple :
 - La quantité de jetons créée à l’origine et leurs propriétaires ;
 - Le plafond total d’émission possible ;
 - Les éventuelles règles de réémission, et quels participants peuvent y prétendre.
@@ -1089,7 +1089,7 @@ La Genesis est le point de départ de tout contrat RGB. Elle est créée par l�
 
 Les **State Extensions** offrent une fonctionnalité originale pour des smart contracts. Elles permettent de racheter certains droits numériques (*Valencies*) prévus dans la définition du contrat, sans fermer immédiatement le sceau. Le plus souvent, cela concerne :
 - Des émissions distribuées de tokens ;
-- Des mécanismes de swap entre actifs ;
+- Des mécanismes de swap (échanges) entre actifs ;
 - Des réémissions conditionnelles (pouvant inclure la destruction d’autres actifs, etc.).
 
 Sur le plan technique, une State Extension référence un *Redeem* (un type particulier d’input RGB) qui correspond à une *Valency* définie précédemment (par exemple dans la Genesis ou dans une autre State Transition). Elle définit un nouveau sceau, à la disposition de la personne ou de la condition qui en bénéficie. Pour que ce sceau soit rendu effectif, il faudra qu’une State Transition ultérieure vienne le dépenser.
@@ -1157,7 +1157,7 @@ Maintenant, je vous propose d'examiner de manière détaillée chacun des élém
                +---------------------------------------------------------------------------------------------------------------------+
 ```
 
-En observant le schéma ci-dessus, on note qu’une Contract Operation comporte des éléments se rapportant au **New State** et d’autres qui font référence à l’**Old State** mis à jour.
+En observant le schéma ci-dessus, on note qu’un Contract Operation comporte des éléments se rapportant au **New State** et d’autres qui font référence à l’**Old State** mis à jour.
 
 Les éléments du **New State** sont :
 - Les **Assignments**, dans lesquels sont définis :
@@ -1170,7 +1170,7 @@ L’**Old State** est référencé via :
 - Les **Inputs**, qui pointent vers des *Assignments* de transitions d’état précédentes (pas présents dans la Genesis) ;
 - Les **Redeems**, qui font référence à des Valencies antérieurement définies (uniquement dans les State Extensions).
 
-Par ailleurs, une Contract Operation inclut des champs plus généraux, propres à l’opération :
+Par ailleurs, un Contract Operation inclut des champs plus généraux, propres à l’opération :
 - `Ffv` (*Fast-forward version*) : entier de 2 octets indiquant la version du contrat ;
 - `TransitionType` ou `ExtensionType` : entier 16 bits spécifiant le type de Transition ou d’Extension, selon la logique métier ;
 - `ContractId` : nombre de 32 octets renvoyant à l’*OpId* de la Genesis du contrat. Inclus dans les Transitions et Extensions, mais pas dans la Genesis ;
@@ -1195,13 +1195,13 @@ Le **Contract State** représente l’ensemble des informations que le protocole
 
 ![RGB-Bitcoin](assets/en/066.webp)
 
-Le *Global State* est directement inclus dans la *Contract Operation* sous la forme d’un bloc unique. Les *Owned States* sont, eux, définis dans chaque *Assignment*, à côté de la *Seal Definition*.
+Le *Global State* est directement inclus dans le *Contract Operation* sous la forme d’un bloc unique. Les *Owned States* sont, eux, définis dans chaque *Assignment*, à côté de la *Seal Definition*.
 
 Une particularité majeure de RGB est la manière dont on modifie le Global State et les Owned States. On distingue généralement deux comportements :
 - **Mutable** : lorsqu’un élément d’état est décrit comme mutable, chaque nouvelle opération remplace l’état précédent par un nouvel état. L’ancienne donnée est alors considérée comme obsolète ;
 - **Accumulating** : lorsqu’un élément d’état est défini comme cumulatif, chaque nouvelle opération vient ajouter une information supplémentaire à l’état précédent, sans l’écraser. On obtient ainsi une sorte d’historique accumulé.
 
-Si, dans le contrat, un élément d’état n’est pas défini comme mutable ou cumulatif, cet élément restera vide pour les opérations ultérieures (autrement dit, il n’y a aucune nouvelle version pour ce champ). C'est le Schema du contrat (c’est-à-dire la logique métier codée) qui détermine si un état (Global ou Owned) est mutable, cumulatif ou fixe. Une fois la Genesis définie, ces propriétés ne peuvent être modifiées que si le contrat lui-même l’autorise, par exemple via une State Extension spécifique.
+Si, dans le contrat, un élément d’état n’est pas défini comme mutable ou cumulatif, cet élément restera vide pour les opérations ultérieures (autrement dit, il n’y a aucune nouvelle version pour ce champ). C'est le Schema du contrat (c’est-à-dire la logique métier codée) qui détermine si un état (Global ou Owned) est mutable, cumulatif ou fixe. Une fois la Genesis définie, ces propriétés ne peuvent être modifiées que si le contrat lui-même l’autorise par exemple via une State Extension spécifique.
 
 Le tableau ci-dessous illustre comment chaque type de Contract Operation peut manipuler (ou non) le Global State et l’Owned State :
 
@@ -1220,7 +1220,7 @@ Par ailleurs, on peut distinguer la portée temporelle et les droits de mise à 
 
 |                                 | Metadata                                 | Global State                                   | Owned State                                                                                                  |
 | ------------------------------- | ---------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Portée**                      | Défini pour une seule Contract Operation | Défini globalement pour le contrat             | Défini pour chaque sceau (*Assignment*)                                                                      |
+| **Portée**                      | Défini pour un seul Contract Operation | Défini globalement pour le contrat             | Défini pour chaque sceau (*Assignment*)                                                                      |
 | **Qui peut le mettre à jour ?** | Non réactualisable (données éphémères)   | Opération émise par les acteurs (issuer, etc.) | Dépend du détenteur légitime qui possède le sceau (celui qui peut le dépenser dans une transaction suivante) |
 | **Portée temporelle**           | Juste pour l’opération en cours          | L’état est établi à l’issue de l’opération     | L’état est défini avant l’opération (par la *Seal Definition* de l’opération précédente)                     |
 
@@ -1232,7 +1232,7 @@ Le Global State se décrit souvent par la formule : "*personne ne possède, tout
 - La précision (nombre de décimales) : `precision` ;
 - L’offre initiale (et/ou la limite maximale de tokens) : `issuedSupply` ;
 - La date d’émission : `created` ;
-- Des données légales ou tout autre information publique : `data`.
+- Des données légales ou toute autre information publique : `data`.
 
 Ce Global State peut être placé sur des ressources publiques (sites web, IPFS, Nostr, Torrent, etc.) et diffusé auprès de la communauté. Aussi, l’incitation économique (le besoin de détenir et de transférer ces tokens, etc.) pousse naturellement les utilisateurs du contrat à maintenir eux-mêmes et à propager ces données.
 
@@ -1285,7 +1285,7 @@ Avec par exemple :
 tag_data = urn:lnp-bp:rgb:state-data#2024-02-12
 ```
 
-- **Attachments** : permet de relier un fichier (audio, image, binaire, etc.) à l’Owned State, en stockant le hash du fichier `file_hash`, le type MIME `media type` et un sel cryptographique `salt`. Le fichier lui-même est hébergé ailleurs. En forme cachée, c’est un hash tagué des trois données précédentes :
+- **Attachments** : permet de relier un fichier (audio, image, binaire, etc.) à l’Owned State, en stockant le hash du fichier `file_hash`, le type MIME `media type` et un salt cryptographique `salt`. Le fichier lui-même est hébergé ailleurs. En forme cachée, c’est un hash tagué des trois données précédentes :
 
 ```txt
 SHA-256(SHA-256(tag_attachment) || SHA-256(tag_attachment) || file_hash || media_type || salt)
@@ -1340,12 +1340,12 @@ Pour résumer, voici les 4 types d'états possibles dans la forme publique et ca
 | --------------------- | -------------- | ------------------------------------ | ----------------------------- | ---------------------------- |
 | **Données**           | Aucune         | Entier signé ou non signé de 64 bits | Tout type de données strictes | Tout fichier                 |
 | **Type d'info**       | Aucune         | Signé ou non signé                   | Types stricts                 | Type MIME                    |
-| **Confidentialité**   | Non requise    | Pedersen commitment                  | Hachage avec blinding         | Identifiant de fichier haché |
+| **Confidentialité**   | Non requise    | Pedersen commitment (Engagement Pedersen )                 | Hachage avec anonymisation         | Identifiant de fichier haché |
 | **Limites de taille** | N/A            | 256 octets                           | Jusqu’à 64 Ko                 | Jusqu’à ~500 Go              |
 
 ### Inputs
 
-Les Inputs d’une *Contract Operation* font référence aux *Assignments* qui sont en train d’être dépensés dans cette nouvelle opération. Un Input indique :
+Les Inputs d’un *Contract Operation* font référence aux *Assignments* qui sont en train d’être dépensés dans cette nouvelle opération. Un Input indique :
 - `PrevOpId` : l’identifiant (`OpId`) de l’opération précédente où se trouvait l’*Assignment* ;
 - `AssignmentType` : le type d’*Assignment* (par exemple, `assetOwner` pour un token) ;
 - `Index` : l’index de l’*Assignment* dans la liste associée à l’`OpId` précédent, déterminé après un tri lexicographique des sceaux cachés.
@@ -1360,7 +1360,7 @@ Le champ **Metadata** peut aller jusqu’à 64 KiB et sert à inclure des donné
 
 ### Valencies
 
-Les **Valencies** sont un mécanisme original du protocole RGB. On peut les rencontrer dans la Genesis, les State Transitions ou les State Extensions. Elles représentent des droits numériques activables par une State Extension (via des *Redeems*), puis finalisés par une Transition ultérieure. Chaque Valency est identifiée par un `ValencyType` (16 bits). Sa sémantique (droit de réémission, swap de jetons, droit de burn, etc.) est définie dans le Schema.
+Les **Valencies** sont un mécanisme original du protocole RGB. On peut les rencontrer dans la Genesis, les State Transitions ou les State Extensions. Elles représentent des droits numériques activables par une State Extension (via des *Redeems*), puis finalisés par une Transition ultérieure. Chaque Valency est identifiée par un `ValencyType` (16 bits). Sa sémantique (droit de réémission, échange de jetons, droit de destruction, etc.) est définie dans le Schema.
 
 Concrètement, on peut imaginer qu’une Genesis définisse une valency "droit de réémission". Une State Extension viendra la consommer (*Redeem*) si certaines conditions sont remplies, afin d’introduire une nouvelle quantité de jetons. Puis, une State Transition émanant du détenteur du sceau ainsi créé pourra transférer ces nouveaux jetons.
 
@@ -1421,7 +1421,7 @@ Cette limite garantit :
 #### Le paradigme Validation != Ownership
 
 L’une des innovations majeures de RGB est la séparation stricte entre deux concepts :
-- La **validation** : le fait de vérifier qu’une transition d’état respecte les règles du contrat (logique métier, historique, etc.) ;
+- La **validation** : le fait de vérifier qu’une transition d’état respecte les règles du contrat (business logic, historique, etc.) ;
 - L’**ownership** (la propriété, ou le contrôle) : le fait de posséder l’UTXO Bitcoin qui permet de dépenser (ou fermer) le Single-use Seal et donc de réaliser la transition d’état.
 
 La **Validation** se fait au niveau de la pile logicielle RGB (les bibliothèques, le protocole de *commitments*, etc.). Son rôle est de s’assurer que les règles internes au contrat (montants, permissions, etc.) sont bien respectées. Les observateurs ou les autres participants peuvent aussi valider l’historique des données.
@@ -1430,13 +1430,13 @@ L’**Ownership**, elle, repose totalement sur la sécurité de Bitcoin. Posséd
 
 ![RGB-Bitcoin](assets/en/069.webp)
 
-Cette approche limite les vulnérabilités classiques rencontrées dans les blockchains plus complexes (où tout le code d’un smart contract est public et modifiable par n’importe qui, ce qui a parfois mené à des hacks). Sur RGB, un attaquant ne peut pas simplement interagir avec l’état on-chain, car le droit d’agir sur l’état (*ownership*) est protégé par la couche Bitcoin.
+Cette approche limite les vulnérabilités classiques rencontrées dans les blockchains plus complexes (où tout le code d’un smart contrat est public et modifiable par n’importe qui, ce qui a parfois mené à des hacks). Sur RGB, un attaquant ne peut pas simplement interagir avec l’état on-chain, car le droit d’agir sur l’état (*ownership*) est protégé par la couche Bitcoin.
 
 De plus, ce découplage permet à RGB de s’intégrer naturellement avec le Lightning Network. Les canaux Lightning peuvent servir à engager et à déplacer les actifs RGB sans engager à chaque fois les *commitments* on-chain. Nous étudierons plus précisément cette intégration de RGB sur Lightning dans les prochains chapitres de la formation.
 
 #### Évolutions de consensus dans RGB
 
-Outre le versioning sémantique du code, RGB inclut un système permettant de faire évoluer ou de mettre à jour les règles de consensus d’un contrat au fil du temps. On distingue deux grandes formes d’évolution :
+Outre le versionnage (gestion ou contrôle) sémantique du code, RGB inclut un système permettant de faire évoluer ou de mettre à jour les règles de consensus d’un contrat au fil du temps. On distingue deux grandes formes d’évolution :
 - **Fast-forward**
 - **Push-back**
 
@@ -1484,7 +1484,7 @@ Un Assignment indique donc qu’une portion de l’état (par exemple, un actif)
 
 #### Business Logic
 
-La Business Logic regroupe l’ensemble des règles et des opérations internes d’un contrat, décrites par son **schéma** (c’est-à-dire la structure même du contrat). Elle dicte la manière dont l’état du contrat peut évoluer et sous quelles conditions.
+Le Business Logic regroupe l’ensemble des règles et des opérations internes d’un contrat, décrites par son **schema** (c’est-à-dire la structure même du contrat). Elle dicte la manière dont l’état du contrat peut évoluer et sous quelles conditions.
 
 #### Client-side Validation
 
@@ -1518,14 +1518,14 @@ Dans le protocole RGB, un commitment est inclus dans une transaction Bitcoin afi
 #### Consignment
 
 Un **Consignment** regroupe les données échangées entre les parties, soumises à la Client-side Validation dans RGB. Il existe deux grandes catégories de consignments :
-- **Contract Consignment** : fourni par l’*issuer* (émetteur du contrat), il comprend les informations d’initialisation telles que le Schema, la Genesis, l’Interface et l’Implementation de l'Interface.
+- **Contract Consignment** : fourni par l’*issuer* (émetteur du contrat), il comprend les informations d’initialisation telles que le Schema, le Genesis, l’Interface et l’Implementation de l'Interface.
 - **Transfer Consignment** : fourni par la partie qui paie (*payer*). Il contient tout l’historique de transitions d’état aboutissant au terminal consignment (c’est-à-dire l’état final reçu par le payeur).
 
 Ces consignments ne sont pas enregistrés publiquement dans la blockchain ; ils sont échangés directement entre les parties concernées sur le canal de communication de leur choix.
 
-#### Contract
+#### Contrat
 
-Un Contract désigne un ensemble de droits exécutés numériquement entre plusieurs acteurs via le protocole RGB. Il possède un état actif et une logique d’affaires, définie par un Schema, qui précise quelles opérations sont autorisées (transferts, extensions, etc.). L’état d’un contrat, ainsi que les règles de validité, s’expriment dans le Schema. À tout moment, le contrat n’évolue que conformément à ce qui est permis par ce Schema et par les scripts de validation (exécutés, par exemple, dans AluVM).
+Un Contrat désigne un ensemble de droits exécutés numériquement entre plusieurs acteurs via le protocole RGB. Il possède un état actif et une logique d’affaires, définie par un Schema, qui précise quelles opérations sont autorisées (transferts, extensions, etc.). L’état d’un contrat, ainsi que les règles de validité, s’expriment dans le Schema. À tout moment, le contrat n’évolue que conformément à ce qui est permis par ce Schema et par les scripts de validation (exécutés, par exemple, dans AluVM).
 
 #### Contract Operation
 
@@ -1539,9 +1539,9 @@ Chaque opération modifie l’état en y ajoutant ou en y remplaçant certaines 
 #### Contract Participant
 
 Un Contract Participant est un acteur prenant part aux opérations relatives au contrat. Dans RGB, on distingue :
-- L’issuer du contrat, qui crée la Genesis (l’origine du contrat) ;
-- Les contract parties, c’est-à-dire les détenteurs de droits sur l’état du contrat ;
-- Les public parties, acteurs pouvant construire des State Extensions si le contrat propose des Valencies accessibles au public.
+- L’émetteur du contrat, qui crée la Genesis (l’origine du contrat) ;
+- Les parties aux contrats, c’est-à-dire les détenteurs de droits sur l’état du contrat ;
+- Les  parties publiques, acteurs pouvant construire des State Extensions si le contrat propose des Valencies accessibles au public.
 
 #### Contract Rights
 
@@ -1580,15 +1580,15 @@ L’ETP (*Extra Transaction Proof*) est la partie de l’Anchor qui renferme les
 
 #### Genesis
 
-La Genesis désigne l’ensemble des données, régies par un Schema, qui forment l’état initial de tout contrat dans RGB. On peut la rapprocher du concept de _Genesis Block_ (le bloc originel) sur Bitcoin, ou bien au concept de transaction Coinbase, mais ici au niveau _client-side_ et des jetons RGB.
+Le Genesis désigne l’ensemble des données, régies par un Schema, qui forment l’état initial de tout contrat dans RGB. On peut la rapprocher du concept de _Genesis Block_ (le bloc originel) sur Bitcoin, ou bien au concept de transaction Coinbase, mais ici au niveau _client-side_ et des jetons RGB.
 
 #### Global State
 
-Le Global State est l’ensemble des propriétés publiques contenues dans l’état d’un contrat (Contract State). Il est défini lors de la Genesis et peut être, selon les règles du contrat, mis à jour par des transitions autorisées. Contrairement aux Owned States, le Global State n’appartient pas à une entité particulière ; il est plus proche d’un registre public dans le cadre du contrat.
+Le Global State est l’ensemble des propriétés publiques contenues dans l’état d’un contrat (Contract State). Il est défini lors du Genesis et peut-être, selon les règles du contrat, mis à jour par des transitions autorisées. Contrairement aux Owned States, le Global State n’appartient pas à une entité particulière ; il est plus proche d’un registre public dans le cadre du contrat.
 
 #### Interface
 
-L’Interface est l’ensemble des instructions qui permettent de décoder les données binaires compilées dans un Schema ou dans des opérations de contrat et leurs états, afin de les rendre lisibles pour l’utilisateur ou son wallet. Elle agit comme une couche d’interprétation.
+L’Interface est l’ensemble des instructions qui permettent de décoder les données binaires compilées dans un Schema ou dans des opérations de contrat et leurs états, afin de les rendre lisibles pour l’utilisateur ou son wallet (portefeuille). Elle agit comme une couche d’interprétation.
 
 #### Interface Implementation
 
@@ -1608,7 +1608,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
-Le Multi Protocol Commitment (MPC) désigne la structure d'arbre de Merkle utilisée dans RGB pour inclure, au sein d’une unique transaction Bitcoin, plusieurs **Transition Bundles** issus de contrats différents. L’idée est de regrouper plusieurs engagements (correspondant potentiellement à différents contrats ou différents actifs) dans un seul point d’ancrage afin d’optimiser l’occupation de l’espace de bloc.
+Le Multi Protocol Commitment (MPC) désigne la structure de l'arbre de Merkle utilisée dans RGB pour inclure, au sein d’une unique transaction Bitcoin, plusieurs **Transition Bundles** issus de contrats différents. L’idée est de regrouper plusieurs engagements (correspondant potentiellement à différents contrats ou différents actifs) dans un seul point d’ancrage afin d’optimiser l’occupation de l’espace de bloc.
 
 #### Owned State
 
@@ -1626,7 +1626,7 @@ Pour plus d’informations : [BIP-0174](https://github.com/bitcoin/bips/blob/mas
 
 #### Pedersen commitment
 
-Un Pedersen commitment est un type d'engagement cryptographique présentant la propriété d’être **homomorphique** vis-à-vis de l’opération d’addition. Cela signifie qu’il est possible de valider la somme de deux engagements sans dévoiler les valeurs individuelles.
+Un Pedersen commitment est un type d'engagement cryptographique présentant la propriété d’être **homomorphe** vis-à-vis de l’opération d’addition. Cela signifie qu’il est possible de valider la somme de deux engagements sans dévoiler les valeurs individuelles.
 
 Formellement, si :
 
@@ -1658,7 +1658,7 @@ La Seal Definition est la partie d’un Assignment qui associe le _commitment_ �
 
 #### Shard
 
-Un Shard représente une branche dans le DAG de l’historique des State Transitions d’un contrat RGB. Autrement dit, c’est un sous-ensemble cohérent de l’historique global du contrat, correspondant par exemple à la séquence de transitions nécessaires pour prouver la validité d’un actif donné depuis la _Genesis_.
+Un Shard représente une branche dans le DAG de l’historique des State Transitions d’un contrat RGB. Autrement dit, c’est un sous-ensemble cohérent de l’historique global du contrat, correspondant par exemple à la séquence de transitions nécessaires pour prouver la validité d’un actif donné depuis le _Genesis_.
 
 #### Single-use Seal
 
@@ -1666,11 +1666,11 @@ Un Single-use Seal est une promesse d'engagement cryptographique sur un message 
 
 #### Stash
 
-Le Stash est l’ensemble des données côté client qu’un utilisateur stocke pour un ou plusieurs contrats RGB, afin de procéder à la validation (*Client-side Validation*). Cela inclut l’historique des transitions, les consignments, les preuves de validité, etc. Chaque détenteur ne conserve que les parties de l’historique dont il a besoin (*shards*).
+Le Stash est l’ensemble des données côté client qu’un utilisateur stocke pour un ou plusieurs contrats RGB, afin de procéder à la validation (*Client-side Validation*). Cela inclut l’historique des transitions, les consignations, les preuves de validité, etc. Chaque détenteur ne conserve que les parties de l’historique dont il a besoin (*shards*).
 
 #### State Extension
 
-Une State Extension est une opération de contrat permettant de redéclencher des mises à jour de l’état via la rédemption de **Valencies** préalablement déclarées. Pour être effective, une State Extension doit ensuite être refermée par une State Transition (qui actualise l’état final du contrat).  
+Une State Extension est une opération de contrat permettant de relancer des mises à jour d’état via la rédemption de **Valencies** préalablement déclarées. Pour être effective, une State Extension doit ensuite être refermée par une State Transition (qui actualise l’état final du contrat).  
 
 #### State Transition
 
@@ -1686,7 +1686,7 @@ Le Terminal Consignment (ou _Consignment Endpoint_) est un *transfer consignment
 
 #### Transition Bundle
 
-Un Transition Bundle est un ensemble de State Transitions RGB (appartenant au même contrat) qui sont tous engagés dans la même ***witness transaction*** Bitcoin. Cela permet de regrouper plusieurs mises à jour ou transferts en un seul ancrage on-chain.
+Une Transition Bundle est un ensemble de State Transitions RGB (appartenant au même contrat) qui sont tous engagés dans la même ***witness transaction*** Bitcoin. Cela permet de regrouper plusieurs mises à jour ou transferts en un seul ancrage on-chain.
 
 #### UTXO
 
@@ -1712,9 +1712,9 @@ Dans ce chapitre, nous allons aborder concrètement la manière dont un contrat 
 
 ### Les composants d'un contrat RGB
 
-Jusqu’ici, nous avons déjà discuté de la **Genesis**, qui représente le point de départ d’un contrat, et nous avons vu comment elle s’inscrit dans la logique d’une *Contract Operation* et de l’état du protocole. La définition complète d’un contrat RGB ne se limite cependant pas à la seule Genesis : elle implique trois composants complémentaires qui, ensemble, forment le cœur de l’implémentation.
+Jusqu’ici, nous avons déjà discuté du **Genesis**, qui représente le point de départ d’un contrat, et nous avons vu comment elle s’inscrit dans la logique d’une *Contract Operation* et de l’état du protocole. La définition complète d’un contrat RGB ne se limite cependant pas au seul Genesis : elle implique trois composants complémentaires qui, ensemble, forment le cœur de l’implémentation.
 
-Le premier composant est appelé le **Schema**. Il s’agit d’un fichier décrivant la structure fondamentale et la logique métier (*business logic*) du contrat. En son sein, on précise les types de données utilisés, les règles de validation, les opérations permises (par exemple : l'émission initiale de tokens, le transferts, des conditions particulières...), bref, l’ossature générale qui dicte le fonctionnement du contrat.
+Le premier composant est appelé le **Schema**. Il s’agit d’un fichier décrivant la structure fondamentale et la logique métier (*business logic*) du contrat. En son sein, on précise les types de données utilisés, les règles de validation, les opérations permises (par exemple : l'émission initiale de tokens, les transferts, des conditions particulières…), bref, l’ossature générale qui dicte le fonctionnement du contrat.
 
 Le deuxième composant est l'**Interface**. Il se focalise sur la manière dont les utilisateurs (et par extension, les logiciels de portefeuilles) vont interagir avec ce contrat. On y décrit la sémantique, c’est-à-dire la représentation lisible des différents champs et actions. Ainsi, alors que le Schema définit comment le contrat fonctionne techniquement, l’Interface définit comment présenter et exposer ces fonctionnalités : noms des méthodes, affichage des données, etc.
 
@@ -1726,7 +1726,7 @@ Pour résumer, chaque contrat se compose donc de :
 - **Genesis**, qui est l’état initial du contrat (et qu’on peut assimiler à une transaction spéciale définissant la première propriété d’un actif, d'un droit, ou de toute autre donnée paramétrable) ;
 - **Schema**, qui décrit la logique métier du contrat (types de données, règles de validation, etc.) ;
 - **Interface**, qui apporte une couche sémantique, destinée aux wallets et aux utilisateurs humains, afin de clarifier la lecture et l’exécution des opérations ;
-- **Interface Implementation**, qui fait le lien entre la logique métier et la présentation, afin d'assurer que la définition du contrat est cohérente avec l’expérience utilisateur.
+- **Interface Implementation**, qui fait le lien entre la logique métier et la présentation, dans le but d'assurer que la définition du contrat est cohérente avec l’expérience utilisateur.
 
 ![RGB-Bitcoin](assets/en/070.webp)
 
@@ -1736,42 +1736,42 @@ Afin de mieux clarifier ces notions, voici un tableau récapitulatif comparant l
 
 | Composant de contrat RGB     | Signification                           | Équivalent OOP                                     | Équivalent Ethereum                |
 | ---------------------------- | --------------------------------------- | -------------------------------------------------- | ---------------------------------- |
-| **Genesis**                  | État initial du contrat                 | Class constructor                                  | Contract constructor               |
-| **Schema**                   | Logique métier du contrat               | Class                                              | Contract                           |
+| **Genesis**                  | État initial du contrat                 | Constructeur de classe                                   | Constructeur de contrat           |
+| **Schema**                   | Business Logic du contrat               | Classe                                              | Contrat                           |
 | **Interface**                | Sémantique du contrat                   | Interface (Java) / trait (Rust) / protocol (Swift) | ERC Standard                       |
-| **Interface Implementation** | Mapping de la sémantique et  la logique | Impl (Rust) / Implements (Java)                    | Application Binary Interface (ABI) |
+| **Interface Implementation** | Mapping de la sémantique et de la logique | Impl (Rust) / Implements (Java)                    | Interface binaire d'application "Application Binary Interface" (ABI) |
 
 Dans la colonne de gauche, on retrouve les éléments propres au protocole RGB. Dans la colonne du milieu, on voit la fonction concrète de chaque composant. Puis, dans la colonne "Équivalent OOP", on trouve le terme équivalent dans la programmation orientée objet :
 - La **Genesis** joue un rôle similaire à un *Class constructor* : c’est là qu’on initialise l’état du contrat ;
 - Le **Schema** correspond à la description d’une classe, c’est-à-dire la définition des propriétés, des méthodes, et de la logique sous-jacente ;
-- L’**Interface** correspond aux *interfaces* (Java), aux *traits* (Rust) ou encore aux *protocols* (Swift) : ce sont les définitions publiques des fonctions, événements, champs... ;
+- L’**Interface** correspond aux *interfaces* (Java), aux *traits* (Rust) ou encore aux *protocols* (Swift) : ce sont les définitions publiques des fonctions, événements, champs… ;
 - L’**Interface Implementation** correspond à *Impl* en Rust ou *Implements* en Java, où l’on précise comment le code va réellement exécuter les méthodes annoncées dans l’interface.
 
-Dans le cadre d’Ethereum, la Genesis se rapproche du *contract constructor*, le Schema de la définition du contrat, l’Interface d’un standard type ERC-20 ou ERC-721, et l’Interface Implementation de l’ABI (*Application Binary Interface*), qui  spécifie le format des interactions avec le contrat.
+Dans le cadre d’Ethereum, le Genesis se rapproche du *contract constructor*, le Schema de la définition du contrat, l’Interface d’un standard type ERC-20 ou ERC-721, et l’Interface Implementation de l’ABI (*Application Binary Interface*), qui  spécifie le format des interactions avec le contrat.
 
-L’avantage de la modularité de RGB tient aussi au fait que des parties prenantes différentes peuvent écrire, par exemple, leur propre Interface Implementation, tant qu’elles respectent la logique du *Schema* et la sémantique de l’*Interface*. Ainsi, un émetteur pourrait développer un nouveau front-end (Interface) plus convivial, sans modifier la logique du contrat, ou inversement, on pourrait étendre le Schema pour ajouter une fonctionnalité, et fournir une nouvelle version de l’Interface Implementation adaptée, tandis que les anciennes implémentations resteraient valables pour les fonctionnalités de base.
+L’avantage de la modularité de RGB tient aussi au fait que des parties prenantes différentes peuvent écrire, par exemple, leur propre "Interface Implementation", tant qu’elles respectent la logique du *Schema* et la sémantique de l’*Interface*. Ainsi, un émetteur pourrait développer un nouveau front-end (Interface) plus convivial, sans modifier la logique du contrat, ou inversement, on pourrait étendre le Schema pour ajouter une fonctionnalité, et fournir une nouvelle version de l’"Interface Implementation" adaptée, tandis que les anciennes implémentations resteraient valables pour les fonctionnalités de base.
 
-Lorsqu’on compile un nouveau contrat, on génère une Genesis (première étape d’émission ou de distribution de l’actif), ainsi que ses composants (Schema, Interface, Interface Implementation). Après cela, le contrat est pleinement opérationnel et peut être propagé aux wallets et aux utilisateurs. Cette méthode, où la Genesis se combine à ces trois composants, garantit à la fois un haut degré de personnalisation (chaque contrat peut avoir sa propre logique), de décentralisation (chacun peut contribuer à un composant donné), et de sécurité (la validation demeure strictement définie par le protocole, sans dépendre d’un code arbitraire on-chain comme c’est souvent le cas sur d’autres blockchains).
+Lorsqu’on compile un nouveau contrat, on génère un Genesis (première étape d’émission ou de distribution de l’actif), ainsi que ses composants (Schema, Interface, Interface Implementation). Après cela, le contrat est pleinement opérationnel et peut être propagé aux wallets et aux utilisateurs. Cette méthode, où le Genesis se combine à ces trois composants, garantit à la fois un haut degré de personnalisation (chaque contrat peut avoir sa propre logique), de décentralisation (chacun peut contribuer à un composant donné), et de sécurité (la validation demeure strictement définie par le protocole, sans dépendre d’un code arbitraire on-chain comme c’est souvent le cas sur d’autres blockchains).
 
 Maintenant, je vous propose de découvrir plus en détail chacun de ces composants : le **Schema**, l’**Interface** et l’**Interface Implementation**.
 
 ### Schema
 
-Dans la section précédente, nous avons vu que dans l’écosystème RGB, un contrat est composé de plusieurs éléments : la Genesis, qui instaure l’état initial, et plusieurs autres composants complémentaires. Le but du Schema est de décrire de manière déclarative toute la logique métier (*business logic*) du contrat, c’est-à-dire la structure des données, les types utilisés, les opérations permises et leurs conditions. C'est donc un élément très important pour rendre un contrat opérationnel côté client, puisque chaque participant (un wallet, par exemple) doit vérifier que les transitions d’état qu’il reçoit sont conformes à la logique définie dans le Schema.
+Dans la section précédente, nous avons vu que dans l’écosystème RGB, un contrat est composé de plusieurs éléments : le Genesis, qui instaure l’état initial, et plusieurs autres composants complémentaires. Le but du Schema est de décrire de manière déclarative toute la logique métier (*business logic*) du contrat, c’est-à-dire la structure des données, les types utilisés, les opérations permises et leurs conditions. C'est donc un élément très important pour rendre un contrat opérationnel côté client, puisque chaque participant (un wallet, par exemple) doit vérifier que les transitions d’état qu’il reçoit sont conformes à la logique définie dans le Schema.
 
 Le Schema peut être assimilé à une "classe" dans la programmation orientée objet (OOP). De manière générale, il sert de modèle définissant les composants d’un contrat, tels que :
 - Les différents types de Owned States et les Assignments ;
 - Les Valencies, c’est-à-dire les droits spéciaux pouvant être déclenchés (*redeemed*) dans le cadre de certaines opérations ;
 - Les champs du Global State, qui décrivent des propriétés globales, publiques et partagées du contrat ;
-- La structure de la Genesis (la toute première opération qui active le contrat) ;
+- La structure du Genesis (la toute première opération qui active le contrat) ;
 - Les formes autorisées de State Transitions et de State Extensions, et la manière dont ces opérations peuvent modifier l’état ;
-- Des éventuelles Metadata associées à chaque opération, permettant de stocker des informations temporaires ou supplémentaires ;
+- Les métadonnées associées à chaque opération, afin de stocker des informations temporaires ou supplémentaires ;
 - Les règles qui déterminent comment les données internes du contrat peuvent évoluer (par exemple, si un champ est mutable ou cumulatif) ;
 - Les séquences d’opérations considérées comme valides : par exemple, un ordre de transitions à respecter ou un ensemble de conditions logiques à satisfaire.
 
 ![RGB-Bitcoin](assets/en/071.webp)
 
-Lorsque l’*issuer* d’un actif sur RGB publie un contrat, il fournit la Genesis et le Schema qui lui est associé. Les utilisateurs ou wallets qui souhaitent interagir avec l’actif récupèrent ce Schema pour comprendre la logique qui sous-tend le contrat et pouvoir vérifier par la suite que les transitions auxquelles ils participeront sont légitimes.
+Lorsque l’*issuer* d’un actif sur RGB publie un contrat, il fournit le Genesis et le Schema qui lui est associé. Les utilisateurs ou wallets qui souhaitent interagir avec l’actif récupèrent ce Schema pour comprendre la logique qui sous-tend le contrat et pouvoir vérifier par la suite que les transitions auxquelles ils participeront sont légitimes.
 
 La première étape, pour quiconque reçoit des informations sur un actif RGB (par exemple un transfert de tokens), est de valider ces informations par rapport au Schema. Cela implique d’utiliser la compilation du Schema pour :
 - Vérifier que les Owned States, Assignments et autres éléments sont correctement définis et qu’ils respectent bien les types imposés (ce qu’on appelle le *strict type system*) ;
@@ -1781,7 +1781,7 @@ Dans la pratique, le Schema n’est pas un code exécutable comme on peut le voi
 
 Un Schema doit être compilé pour être utilisable par les applications RGB. Cette compilation produit un fichier binaire (par exemple `.rgb`) ou binaire chiffré (`.rgba`). Lorsque le wallet importe ce fichier, il sait alors :
 - À quoi ressemble chaque type de donnée (entiers, structures, tableaux…) grâce au strict type system ;
-- De quelle façon la Genesis doit être structurée (afin de comprendre l’initialisation de l’actif) ;
+- De quelle façon le Genesis doit être structurée (afin de comprendre l’initialisation de l’actif) ;
 - Les différents types d’opérations (State Transitions, State Extensions) et la manière dont elles peuvent modifier l’état ;
 - Les règles de script (introduites dans le Schema) que le moteur AluVM appliquera pour vérifier la validité des opérations.
 
@@ -1793,7 +1793,7 @@ Un autre point important est que la logique d’évolution de l’état (transfe
 
 #### Différence avec les blockchains programmables on-chain
 
-Contrairement à des systèmes comme Ethereum, où le code du smart contract (exécutable) est inscrit dans la blockchain elle-même, RGB stocke le contrat (sa logique) off-chain, sous forme de document déclaratif compilé. Cela implique que :
+Contrairement à des systèmes comme Ethereum, où le code du smart contrat (exécutable) est inscrit dans la blockchain elle-même, RGB stocke le contrat (sa logique) off-chain, sous forme de document déclaratif compilé. Cela implique que :
 - Il n’y a pas de VM Turing-complète qui tourne dans chaque nœud du réseau Bitcoin. Les règles d’un contrat RGB ne sont pas exécutées sur la blockchain, mais bien chez chaque utilisateur qui souhaite valider un état ;
 - Les données du contrat ne polluent pas la blockchain : seules des preuves cryptographiques (*commitments*) sont ancrées dans les transactions Bitcoin (via `Tapret` ou `Opret`) ;
 - Le Schema peut être mis à jour ou décliner des versions (*fast-forward*, *push-back*, etc.), sans nécessiter de fork sur la blockchain Bitcoin. Les wallets doivent simplement importer le nouveau Schema et s’adapter aux changements de consensus.
@@ -1802,7 +1802,7 @@ Contrairement à des systèmes comme Ethereum, où le code du smart contract (ex
 
 Lorsqu’un *issuer* crée un actif (par exemple un jeton fongible non inflationniste), il prépare :
 - Un Schema décrivant les règles d’émission, de transfert, etc. ;
-- Une Genesis adaptée à ce Schema (avec le nombre total de jetons émis, l’identité de l’owner initial, éventuellement des Valencies spéciales pour la réémission, etc.).
+- Un Genesis adapté à ce Schema (avec le nombre total de jetons émis, l’identité de l’owner initial, éventuellement des Valencies spéciales pour la réémission, etc.).
 
 Ensuite, il met à disposition des utilisateurs le Schema compilé (un fichier `.rgb`), afin que toute personne recevant un transfert de ce token puisse vérifier localement la cohérence de l’opération. Sans ce Schema, un utilisateur ne saurait pas interpréter les données d’état ou vérifier qu’elles respectent les règles du contrat.
 
@@ -1901,11 +1901,11 @@ fn nia_schema() -> SubSchema {
 
 - **(1) – En-tête de la fonction et SubSchema**
 
-La fonction `nia_schema()` renvoie un `SubSchema`, ce qui indique que ce Schema peut hériter partiellement d’un schéma plus générique. Dans l’écosystème RGB, cette souplesse permet de réutiliser certains éléments standard d’un schema master, puis de définir des règles spécifiques au contrat en question. Ici, on choisit de ne pas activer d’héritage puisque `subset_of` sera `None`.
+La fonction `nia_schema()` renvoie un `SubSchema`, ce qui indique que ce Schema peut hériter partiellement d’un schéma plus générique. Dans l’écosystème RGB, cette souplesse permet de réutiliser certains éléments standard d’un schéma master, puis de définir des règles spécifiques au contrat en question. Ici, on choisit de ne pas activer d’héritage puisque `subset_of` sera `None`.
 
 - **(2) – Propriétés générales : ffv, subset_of, type_system**
 
-La propriété `ffv` correspond à la version *fast-forward* du contrat. Une valeur `zero!()` indique ici qu’on est à la version 0 ou initiale de ce schéma. Si plus tard on souhaite ajouter de nouvelles fonctionnalités (nouveau type d’opération, etc.), on peut incrémenter cette version pour indiquer un changement de consensus.
+La propriété `ffv` correspond à la version *fast-forward* du contrat. Une valeur `zero!()` indique ici qu’on est à la version 0 ou initiale de ce schéma. Si plus tard, on souhaite ajouter de nouvelles fonctionnalités (nouveau type d’opération, etc.), on peut incrémenter cette version pour indiquer un changement de consensus.
 
 La propriété `subset_of: None` confirme l’absence d’héritage. Le champ `type_system` fait référence au strict type system déjà défini dans la bibliothèque `types`. Grâce à cette ligne, on indique que toutes les données employées par le contrat utilisent l’implémentation de sérialisation stricte fournie par la librairie mentionnée.
 
@@ -1915,7 +1915,7 @@ Dans le bloc `global_types`, on déclare quatre éléments. On utilise la clé, 
 - `GS_NOMINAL` fait référence à un type `DivisibleAssetSpec`, qui décrit divers champs du jeton créé (nom complet, ticker, precision…) ;
 - `GS_DATA` représente des données générales, par exemple un disclaimer, des métadonnées, ou tout autre texte ;
 - `GS_TIMESTAMP` fait référence à une date d’émission ;
-- `GS_ISSUED_SUPPLY` établit la supply totale, c’est-à-dire le nombre maximal de jetons qu’il est permis de créer.
+- `GS_ISSUED_SUPPLY` établit la supply (offre) totale, c’est-à-dire le nombre maximal de jetons qu’il est permis de créer.
 
 Le mot-clé `once(...)` signifie que chacun de ces champs ne peut apparaître qu’une seule fois.
 
@@ -1929,23 +1929,23 @@ On indique `valency_types: none!()`, ce qui signifie qu’il n’y a pas de Vale
 
 - **(6) – Genesis : premières opérations**
 
-On entre ici dans la partie qui déclare les Contract Operations. La Genesis est décrite par :
+On entre ici dans la partie qui déclare les Contract Operations. Le Genesis est décrit par :
 - L’absence de `metadata` (champ `metadata: Ty::<SemId>::UNIT.id(None)`) ;
 - Les Global States qui doivent être présents une fois chacun (`Once`) ;
-- Une Assignments list où `OS_ASSET` doit apparaître `OnceOrMore`. Cela signifie qu’à la Genesis, il faut au moins un Assignments `OS_ASSET` (un détenteur initial) ;
+- Une Assignments list où `OS_ASSET` doit apparaître `OnceOrMore`. Cela signifie qu’au Genesis, il faut au moins un Assignments `OS_ASSET` (un détenteur initial) ;
 - Aucune Valency : `valencies: none!()`.
 
 C’est ainsi qu’on limite la définition d’émission initiale du jeton : on doit déclarer la supply émise (`GS_ISSUED_SUPPLY`), plus au moins un détenteur (une Owned State de type `OS_ASSET`).
 
 - **(7) – Extensions**
 
-Le champ `extensions: none!()` indique qu’aucune State Extension n’est prévue dans ce contrat. Cela signifie qu’il n’y a pas d’opération servant à racheter un droit numérique (Valency) ou à effectuer une extension de l’état avant une Transition. Tout se fait via la Genesis ou les State Transitions.
+Le champ `extensions: none!()` indique qu’aucune State Extension n’est prévue dans ce contrat. Cela signifie qu’il n’y a pas d’opération servant à racheter un droit numérique (Valency) ou à effectuer une extension de l’état avant une Transition. Tout se fait via le Genesis ou les State Transitions.
 
 - **(8) – Transitions : TS_TRANSFER**
 
 Dans `transitions`, on définit le type d’opération `TS_TRANSFER`. On explique que :
 - Il n’a pas de `metadata` ;
-- Il ne modifie pas le Global State (celui-ci étant déjà défini dans la Genesis) ;
+- Il ne modifie pas le Global State (celui-ci étant déjà défini dans le Genesis) ;
 - Il prend en entrée (`inputs`) un ou plusieurs `OS_ASSET`. Cela signifie qu’il doit dépenser des Owned States existants ;
 - Il crée (`assignments`) au moins un nouveau `OS_ASSET` (autrement dit, le ou les destinataires reçoivent des jetons) ;
 - Il ne génère aucune nouvelle Valency.
@@ -1959,7 +1959,7 @@ Enfin, on déclare un script AluVM (`Script::AluVM(AluScript { ... })`). Ce scri
 - Des `entry_points` qui pointent vers des offsets de fonctions dans le code AluVM, correspondant à la validation de la Genesis (`ValidateGenesis`) et de chaque Transition déclarée (`ValidateTransition(TS_TRANSFER)`).
 
 Ce code de validation est responsable d’appliquer la logique métier. Par exemple, il vérifiera :
-- Que la `GS_ISSUED_SUPPLY` n’est pas dépassée lors de la Genesis ;
+- Que la `GS_ISSUED_SUPPLY` n’est pas dépassée lors du Genesis ;
 - Que la somme des `inputs` (tokens dépensés) égale la somme des `assignments` (tokens reçus) pour `TS_TRANSFER`.
 
 En cas de non-respect de ces règles, la transition sera considérée comme invalide.
@@ -1968,16 +1968,16 @@ Cet exemple de Schema de "*Non Inflatable Fungible Asset*" nous permet de mieux 
 
 ### Interface
 
-L'interface est la couche destinée à rendre un contrat lisible et manipulable, tant par des utilisateurs (lecture humaine) que par les portefeuilles (lecture logicielle). L’Interface joue donc un rôle comparable à celui d’une interface dans un langage de programmation orientée objet (Java, Rust trait, etc.), en ce sens qu’elle expose et clarifie la structure fonctionnelle d’un contrat, sans nécessairement dévoiler les détails internes de la logique métier.
+L'interface est la couche destinée à rendre un contrat lisible et manipulable, tant par des utilisateurs (lecture humaine) que par les portefeuilles (lecture logicielle). L’"Interface" joue donc un rôle comparable à celui d’une interface dans un langage de programmation orientée objet (Java, Rust trait, etc.), en ce sens qu’elle expose et clarifie la structure fonctionnelle d’un contrat, sans nécessairement dévoiler les détails internes de la logique métier.
 
-Contrairement au Schema, qui est purement déclaratif et compilé en un fichier binaire difficilement exploitable tel quel, l’Interface fournit les clés de lecture nécessaires pour :
+Contrairement au Schema, qui est purement déclaratif et compilé en un fichier binaire difficilement exploitable tel quel, l’"Interface" fournit les clés de lecture nécessaires pour :
 - Lister et décrire les Global States et Owned States présents dans le contrat ;
 - Accéder aux noms et aux valeurs de chaque champ, afin de pouvoir les afficher (par exemple pour un jeton, connaître son ticker, son montant maximal, etc.) ;
 - Interpréter et construire les Contract Operations (Genesis, State Transition, ou State Extension) en associant les données à des noms compréhensibles (par exemple réaliser un transfert en spécifiant clairement "amount" plutôt qu’un identifiant binaire).
 
 ![RGB-Bitcoin](assets/en/073.webp)
 
-Grâce à l’Interface, on peut par exemple écrire un code dans un wallet qui, au lieu de manipuler des champs, manipule directement des libellés comme "nombre de tokens", "nom de l’actif", etc. De cette manière, la gestion d’un contrat devient plus intuitive.
+Grâce à l’"Interface", on peut par exemple écrire un code dans un wallet qui, au lieu de manipuler des champs, manipule directement des libellés comme "nombre de tokens", "nom de l’actif", etc. De cette manière, la gestion d’un contrat devient plus intuitive.
 
 #### Fonctionnement général
 
@@ -1989,25 +1989,25 @@ Un même type de contrat peut être pris en charge par une Interface standard, p
 
 - **Séparation claire entre le Schema et l’Interface :**  
 
-Dans la conception de RGB, le Schema (logique métier) et l’Interface (présentation et manipulation) sont deux entités indépendantes. Les développeurs qui écrivent la logique du contrat peuvent se concentrer sur le Schema, sans se soucier de l’ergonomie ou de la représentation des données, tandis qu’une autre équipe (ou la même, mais sur un autre temps) peut développer l’Interface.
+Dans la conception de RGB, le Schema (business logic) et l’"Interface" (présentation et manipulation) sont deux entités indépendantes. Les développeurs qui écrivent la logique du contrat peuvent se concentrer sur le Schema, sans se soucier de l’ergonomie ou de la représentation des données, tandis qu’une autre équipe (ou la même, mais sur un autre temps) peut développer l’"Interface".
 
 - **Évolution flexible :**  
 
-L’Interface peut être modifiée ou complétée après l’émission de l’actif, sans avoir à changer le contrat lui-même. C’est une différence majeure avec certains systèmes de smart contracts on-chain où l’Interface (souvent mêlée au code d’exécution) est figée dans la blockchain.
+L’"Interface" peut être modifiée ou complétée après l’émission de l’actif, sans avoir à changer le contrat lui-même. C’est une différence majeure avec certains systèmes de smart contracts on-chain où l’"Interface" (souvent mêlée au code d’exécution) est figée dans la blockchain.
 
 - **Possibilité de multi-interface**  
 
-Un même contrat pourrait être exposé par différentes Interfaces adaptées à des besoins distincts : une Interface simple pour l’utilisateur final, une autre plus avancée pour l’issuer qui doit gérer des opérations complexes de configuration. Le wallet pourra alors choisir quelle Interface importer, selon son usage.
+Un même contrat pourrait être exposé par différentes "Interfaces" adaptées à des besoins distincts : une "Interface" simple pour l’utilisateur final, une autre plus avancée pour l’issuer qui doit gérer des opérations complexes de configuration. Le wallet pourra alors choisir quelle Interface importer, selon son usage.
 
 ![RGB-Bitcoin](assets/en/074.webp)
 
-En pratique, lorsque le wallet récupère un contrat RGB (via un fichier `.rgb` ou `.rgba`), il importe également l’Interface associée, elle aussi compilée. À l’exécution, le wallet peut par exemple :
-- Parcourir la liste des states et lire leurs noms, afin d’afficher sur l’interface utilisateur Ticker, Montant initial, Date d’émission, etc. plutôt qu’un identifiant numérique illisible ;
+En pratique, lorsque le wallet récupère un contrat RGB (via un fichier `.rgb` ou `.rgba`), il importe également l’"Interface" associée, elle aussi compilée. À l’exécution, le wallet peut par exemple :
+- Parcourir la liste des états et lire leurs noms, afin d’afficher sur l’interface utilisateur Ticker, Montant initial, Date d’émission, etc. plutôt qu’un identifiant numérique illisible ;
 - Construire une opération (comme un transfert) en utilisant des noms de paramètres explicites : au lieu d’écrire `assignments { OS_ASSET => 1 }`, il peut proposer à l’utilisateur un champ "Amount" dans un formulaire, et traduire cette information en champs strictement typés attendus par le contrat.
 
 #### Différence avec Ethereum et les autres systèmes
 
-Sur Ethereum, l’Interface (décrite via l’ABI, *Application Binary Interface*) est généralement dérivée d’un code stocké on-chain (le smart contract). Il peut être coûteux ou compliqué de modifier une partie spécifique de l’interface sans toucher au contrat lui-même. Or, RGB repose sur une logique entièrement off-chain, avec des données ancrées en *commitments* sur Bitcoin. Cette conception rend possible la modification de l’Interface (ou de son implémentation) sans impact sur la sécurité fondamentale du contrat, car la validation des règles métier reste dans le Schema et le code AluVM référencé.
+Sur Ethereum, l’"Interface" (décrite via l’ABI, *Application Binary Interface*) est généralement dérivée d’un code stocké on-chain (le smart contrat). Il peut être coûteux ou compliqué de modifier une partie spécifique de l’interface sans toucher au contrat lui-même. Or, RGB repose sur une logique entièrement off-chain, avec des données ancrées en *commitments* sur Bitcoin. Cette conception rend possible la modification de l’Interface (ou de son implémentation) sans impact sur la sécurité fondamentale du contrat, car la validation des règles métier reste dans le Schema et le code AluVM référencé.
 
 #### Compilation de l’Interface
 
@@ -2016,7 +2016,7 @@ Comme pour le Schema, l’Interface est définie dans un code source (souvent en
 - Faire le lien entre chaque champ (et sa valeur) et le strict type system défini dans le contrat ;
 - Connaître les différentes opérations autorisées et la façon de les construire.
 
-Une fois l’Interface importée, le wallet peut donc afficher correctement le contrat et proposer des interactions à l'utilisateur.
+Une fois l’"Interface" importée, le wallet peut donc afficher correctement le contrat et proposer des interactions à l'utilisateur.
 
 
 ### Interfaces standardisées par l'association LNP/BP

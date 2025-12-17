@@ -1037,7 +1037,9 @@ De Bitcoin economie bestaat en ontwikkelt zich in bepaalde regio's van de wereld
 
 Toch zijn er in El Salvador en in andere delen van de wereld steeds meer individuen, bedrijven en organisaties die Bitcoin accepteren als betaalmiddel voor hun producten of diensten.
 
-![image](assets/nl/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Bron : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Daarnaast is er een open-source en samenwerkingsproject gelanceerd, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), om het gebruik van Bitcoin in alledaagse transacties te vergemakkelijken. Dit platform geeft een overzicht van alle bedrijven, winkeliers en handelaren die Bitcoin accepteren, evenals de verschillende Bitcoin gemeenschappen over de hele wereld, dus je kunt hun website bezoeken om het Bitcoin ecosysteem om je heen te ontdekken. Dus, ondanks de moeilijkheden en aarzelingen, zijn er initiatieven zoals BTCMap die bijdragen aan het toegankelijker en gemakkelijker maken van de Bitcoin economie voor iedereen.
 

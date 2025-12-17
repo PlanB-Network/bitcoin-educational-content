@@ -28,7 +28,7 @@ I BTC304 vil vi se på hvorfor samfunnsbygging er viktig, utforske verktøy for 
 
 
 
-Velkommen til BTC302!
+Velkommen til BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Alene kan du raskt utforske en av de mange tunnelene i Bitcoin-kaninhullet. Men 
 
 
 
-## BTC302, Hva blir det neste?
+## BTC 304, Hva blir det neste?
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-I dette BTC302-kurset har vi gått i detalj på hvordan du setter opp et fellesskap eller et møte, samt hvordan du starter en rekke prosjekter.
+I dette BTC 304-kurset har vi gått i detalj på hvordan du setter opp et fellesskap eller et møte, samt hvordan du starter en rekke prosjekter.
 
 
 Når lokalsamfunnet er klart til å ta neste skritt, kan dere **opprette en formell forening**.

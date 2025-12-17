@@ -1071,7 +1071,9 @@ Uchumi wa Bitcoin upo na unakua katika maeneo fulani ya dunia, kama vile El Salv
 
 Hata hivyo, katika El Salvador na sehemu nyingine za dunia, kuna idadi inayoongezeka ya watu binafsi, biashara, na mashirika yanayokubali Bitcoin kama njia ya malipo kwa bidhaa au huduma zao.
 
-![image](assets/sw/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Chanzo : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Zaidi ya hayo, mradi wa programu huria na shirikishi umezinduliwa, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), ili kuwezesha matumizi ya Bitcoin katika shughuli za kila siku. Mfumo huu unaorodhesha wafanyabiashara wote wanaokubali Bitcoin, pamoja na jumuiya tofauti za Bitcoin duniani kote, ili uweze kutembelea tovuti yao ili kugundua mfumo wa ikolojia wa Bitcoin unaokuzunguka. Kwa hivyo, licha ya ugumu na kusitasita, kuna mipango kama BTCMap inayochangia kufanya uchumi wa Bitcoin kufikiwa zaidi na rahisi kwa kila mtu.
 

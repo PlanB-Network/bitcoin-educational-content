@@ -1548,8 +1548,10 @@ Gospodarka Bitcoin istnieje i rozwija się w niektórych regionach świata, na p
 Niemniej jednak w Salwadorze i innych częściach świata jest coraz więcej osób, firm i organizacji, które akceptują Bitcoin jako środek płatniczy za swoje produkty lub usługi.
 
 
-![image](assets/en/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
+
+*Źródło : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Ponadto uruchomiono projekt open-source i współpracy, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), aby ułatwić korzystanie z Bitcoin w codziennych transakcjach. Platforma ta zawiera listę wszystkich sprzedawców akceptujących Bitcoin, a także różnych społeczności Bitcoin na całym świecie, dzięki czemu można odwiedzić ich stronę internetową, aby odkryć ekosystem Bitcoin wokół siebie. Tak więc, pomimo trudności i wahań, istnieją inicjatywy takie jak BTCMap, które przyczyniają się do uczynienia gospodarki Bitcoin bardziej dostępną i wygodną dla wszystkich.
 

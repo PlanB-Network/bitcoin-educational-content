@@ -1044,7 +1044,9 @@ Bitcoini majandus eksisteerib ja areneb teatud piirkondades maailmas, nagu El Sa
 
 Siiski on El Salvadoris ja teistes maailma osades üha rohkem üksikisikuid, ettevõtteid ja organisatsioone, kes aktsepteerivad Bitcoin'i oma toodete või teenuste maksevahendina.
 
-![image](assets/et/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Allikas : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Lisaks on käivitatud avatud lähtekoodiga ja koostööprojekt [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), et hõlbustada Bitcoini kasutamist igapäevastes tehingutes. Sellel platvormil on loetletud kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma, nii et võite külastada nende veebisaiti, et avastada Bitcoini ökosüsteemi enda ümber. Seega on vaatamata raskustele ja kõhklustele olemas sellised algatused nagu BTCMap, mis aitavad kaasa Bitcoini majanduse kättesaadavamaks ja mugavamaks muutmisele kõigi jaoks.
 

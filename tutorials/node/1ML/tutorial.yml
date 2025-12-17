@@ -1,0 +1,21 @@
+id: 37ada2ab-7a24-4473-87fd-007cb7640e7b
+
+level: Intermediate
+
+category: lightning-network
+
+professor_id: 47064624-48d3-4099-a3c2-3269a6213c2e
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-12-17
+    urgency: 1
+    contributor_names: Bened45
+    reward: 3.55
+ 
+tags:
+  - node
+  - lightning
+  - guides

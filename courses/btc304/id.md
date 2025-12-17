@@ -28,7 +28,7 @@ Dalam BTC304, kita akan melihat mengapa membangun komunitas itu penting, menjela
 
 
 
-Selamat datang di BTC302!
+Selamat datang di BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Sendirian, Anda dapat dengan cepat menjelajahi salah satu dari sekian banyak ter
 
 
 
-## BTC302, Apa Selanjutnya
+## BTC 304, Apa Selanjutnya
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Dalam kursus BTC302 ini, kami telah membahas secara rinci tentang cara membuat komunitas atau pertemuan, serta cara meluncurkan berbagai proyek.
+Dalam kursus BTC 304 ini, kami telah membahas secara rinci tentang cara membuat komunitas atau pertemuan, serta cara meluncurkan berbagai proyek.
 
 
 Ketika komunitas Anda siap untuk mengambil langkah selanjutnya, **Anda dapat membuat asosiasi formal**.

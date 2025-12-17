@@ -689,7 +689,7 @@ Synthèse:
 
 # Miner via sa propre pool de mining 
 ## 4.1 Pourquoi ? (Block Template / intermédiare etc...)
-## 4.2 Public Pool sur Umbrel & Start 9
+## 4.2 Public Pool & Bassin sur Umbrel / Start 9
 ## 4.3 Datum et Stratum V2
 
 

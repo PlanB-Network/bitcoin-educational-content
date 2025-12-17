@@ -29,7 +29,7 @@ Benvenuto nel corso BTC101!
 
 Bitcoin è una rivoluzione tecnologica e monetaria, capace di farci mettere in discussione il nostro rapporto con il denaro e la società. Bitcoin (indicato come BTC) è infatti una moneta **neutrale** e **decentralizzata**, cioè non controllata da alcuna entità o istituzione. È un'innovazione che va oltre la semplice "moneta di internet": è sia un protocollo informatico (Bitcoin) che un'unità monetaria (bitcoin).
 
-Il protocollo utilizza tecnologie sottostanti come la crittografia, la comunicazione in rete e la famosa "blockchain", mentre l'unità bitcoin rappresenta la valuta necessaria per il corretto funzionamento di questo protocollo. Nella vita di tutti i giorni, i salvadoregni e i bitcoiner di tutto il mondo utilizzano la valuta bitcoin per acquistare e vendere beni e servizi, affidandosi a questa tecnologia per migliorare la propria vita.
+Il protocollo utilizza tecnologie sottostanti come la crittografia, la comunicazione in rete e la famosa "[blockchain](https://planb.academy/resources/glossary/blockchain)", mentre l'unità bitcoin rappresenta la valuta necessaria per il corretto funzionamento di questo protocollo. Nella vita di tutti i giorni, i salvadoregni e i bitcoiner di tutto il mondo utilizzano la valuta bitcoin per acquistare e vendere beni e servizi, affidandosi a questa tecnologia per migliorare la propria vita.
 
 **Un programma di studi completo ma accessibile:**
 
@@ -127,7 +127,7 @@ La figura sotto illustra chiaramente lo sviluppo del movimento attraverso le sue
 
 ![image](assets/it/005.webp)
 
-È in questo ambiente fertile che il misterioso Satoshi Nakamoto pubblicò il whitepaper di Bitcoin nel 2008. Nel documento combina diverse idee del movimento cypherpunk, come la proof of work e i timestamp crittografici, per creare una valuta digitale decentralizzata e resistente alla censura.
+È in questo ambiente fertile che il misterioso Satoshi Nakamoto pubblicò il whitepaper di Bitcoin nel 2008. Nel documento combina diverse idee del movimento cypherpunk, come la [proof of work](https://planb.academy/resources/glossary/proof-of-work) e i timestamp crittografici, per creare una valuta digitale decentralizzata e resistente alla censura.
 
 Bitcoin è comunque più di questo: rappresenta la realizzazione degli ideali cypherpunk. Al di là della sua tecnologia, simboleggia una rivoluzione contro i sistemi finanziari tradizionali e offre un'alternativa basata su trasparenza, decentralizzazione e sovranità individuale.
 
@@ -370,7 +370,7 @@ La creazione di nuovi bitcoin è il risultato del processo di mining. In poche p
 
 ![image](assets/it/022.webp)
 
-Dopo aver svolto con successo questo compito, i miner vengono ricompensati con l'emissione di nuovi bitcoin ogni dieci minuti. Questa ricompensa è programmata per dimezzarsi ogni 210.000 blocchi, cioè circa ogni quattro anni (un evento noto come "halving"), dando alla curva di emissione monetaria una forma a scala. Grazie a questo meccanismo si può prevedere matematicamente che la creazione di nuovi bitcoin cesserà entro l'anno 2140, quando il numero totale raggiungerà il limite di 21 milioni.
+Dopo aver svolto con successo questo compito, i miner vengono ricompensati con l'emissione di nuovi bitcoin ogni dieci minuti. Questa ricompensa è programmata per dimezzarsi ogni 210.000 blocchi, cioè circa ogni quattro anni (un evento noto come "[halving](https://planb.academy/resources/glossary/halving)"), dando alla curva di emissione monetaria una forma a scala. Grazie a questo meccanismo si può prevedere matematicamente che la creazione di nuovi bitcoin cesserà entro l'anno 2140, quando il numero totale raggiungerà il limite di 21 milioni.
 
 | Numero di halving | Altezza del blocco | Ricompensa in BTC dopo l'halving | Stima dei BTC in circolazione dopo l'halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -679,7 +679,7 @@ Dopo aver trattato le basi dei wallet Bitcoin e le migliori pratiche per garanti
 
 ![image](assets/it/038.webp)
 
-Il 31 ottobre 2008 segna la nascita della nuova tecnologia finanziaria conosciuta come Bitcoin. In questo giorno l'anonimo Satoshi Nakamoto presentò al mondo la sua innovazione, attraverso una e-mail inviata alla mailing list dei cypherpunks, una comunità di appassionati di crittografia dedicata alla promozione della privacy su Internet. Questa e-mail conteneva un documento chiamato "White Paper", che presentava il funzionamento di Bitcoin.
+Il 31 ottobre 2008 segna la nascita della nuova tecnologia finanziaria conosciuta come Bitcoin. In questo giorno l'anonimo Satoshi Nakamoto presentò al mondo la sua innovazione, attraverso una e-mail inviata alla mailing list dei cypherpunks, una comunità di appassionati di crittografia dedicata alla promozione della privacy su Internet. Questa e-mail conteneva un documento chiamato "[White Paper](https://planb.academy/resources/glossary/white-paper)", che presentava il funzionamento di Bitcoin.
 
 Immediatamente l'iniziativa non ha suscitato entusiasmo, probabilmente a causa dei precedenti tentativi di creare un sistema di moneta digitale, poi falliti. Ciononostante il White Paper è diventato un punto di riferimento per gli utenti Bitcoin ed è stato oggetto di molti dibattiti nell'ecosistema nel corso degli anni.
 
@@ -835,7 +835,7 @@ In seguito a questa vittoria, i nodi hanno attivato un aggiornamento chiamato Se
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**I miner proteggono la rete e aggiungono blocchi transazioni alla blockchain. Utilizzano l'elettricità per alimentare macchine ASIC, le quali risolvono la proof-of-work di Bitcoin.**
+**I miner proteggono la rete e aggiungono blocchi transazioni alla blockchain. Utilizzano l'elettricità per alimentare macchine [ASIC](https://planb.academy/resources/glossary/asic), le quali risolvono la proof-of-work di Bitcoin.**
 
 ![image](assets/it/054.webp)
 
@@ -1040,7 +1040,9 @@ L'economia Bitcoin esiste ed è in fase di sviluppo in alcune regioni del mondo,
 
 Nonostante ciò, in El Salvador e in altre parti del mondo, ci sono sempre più individui, aziende e organizzazioni che accettano Bitcoin come mezzo di pagamento per i loro prodotti o servizi.
 
-![image](assets/it/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Fonte : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Inoltre, è stato lanciato un progetto collaborativo e open-source, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), per facilitare l'uso di Bitcoin per le spese quotidiane. BTCMap elenca tutti i commercianti che accettano Bitcoin, nonché le diverse comunità Bitcoin in tutto il mondo; è quindi possibile visitare il loro sito web per scoprire l'ecosistema Bitcoin più vicino. Nonostante le difficoltà e le esitazioni, ci sono iniziative come BTCMap che contribuiscono a rendere l'economia Bitcoin più accessibile e conveniente per tutti.
 
@@ -1196,84 +1198,199 @@ Se volete ampliare le vostre conoscenze su Bitcoin questo è il momento giusto: 
 
 > "Penso che Internet sarà una delle forze principali per ridurre il ruolo del governo. L'unica cosa che manca, ma che sarà presto sviluppata, è un e-cash affidabile - un metodo con cui su Internet si possono trasferire fondi da A a B senza che A conosca B o B conosca A" - Previsione di Milton Friedman nel 1999
 
-# Il futuro di Bitcoin: Lightning Network
+
+# Il futuro di Bitcoin
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Breve introduzione a Lightning Network
+## La rete Lightning: pagare in bitcoin rapidamente, con commissioni ridotte
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Ora che abbiamo le basi del protocollo Bitcoin, presenteremo una rete di pagamento che utilizza il protocollo Bitcoin per consentire transazioni fulminee: Lightning Network!
+Ora che conoscete le basi del protocollo Bitcoin, introdurremo la principale rete di pagamento costruita sopra Bitcoin: il Lightning Network (spesso abbreviato in "LN"). Il suo obiettivo è semplice: consentire pagamenti in BTC con una finalità quasi istantanea, senza saturare la blockchain e con commissioni generalmente molto basse.
 
-Tenete presente che quella che segue è solo una descrizione generale, quindi, se volete comprenderla in modo più approfondito vi invitiamo a consultare il nostro corso LNP201.
+### La blockchain non può fare tutto
 
-### LN in poche parole
-
-Lightning Network è una tecnologia rivoluzionaria che ha cambiato profondamente la nostra percezione di Bitcoin, in quanto affronta il problema della scalabilità connesso all'uso di Bitcoin.
-
-Per comprendere appieno Lightning Network è fondamentale capire come Bitcoin si evolva e si sviluppi in livelli infrastrutturali, i layer: il primo layer è la blockchain e il secondo è Lightning Network.
-
-![image](assets/it/080.webp)
-
-### Una Blockchain non può crescere all'infinito
-
-Lightning Network è stata approvata e implementata nel 2017 per risolvere il problema della scalabilità di Bitcoin, in quanto consente transazioni Bitcoin istantanee e a basso costo.
-
-Il problema della scalabilità si riferisce alla sfida di implementare un sistema monetario in grado di fornire un numero sempre maggiore di transazioni al secondo, per far fronte alla crescente adozione. Questo problema è legato al trilemma della blockchain. Immaginiamo un triangolo che abbia come vertici la decentralizzazione, la sicurezza e la scalabilità.
+La blockchain di Bitcoin è progettata per essere verificabile dal maggior numero possibile di persone, senza autorizzazione e senza fiducia. Questo requisito implica limiti strutturali: la blockchain non può trattare una quantità illimitata di transazioni, poiché i blocchi devono rimanere ragionevoli da scaricare, archiviare e verificare da nodi indipendenti, senza dover investire in hardware troppo costoso. È il compromesso spesso riassunto nel trilemma: decentralizzazione, sicurezza, scalabilità. Un sistema basato su blockchain non può massimizzare contemporaneamente tutte e tre queste proprietà. Bitcoin privilegia la decentralizzazione e la sicurezza, il che limita naturalmente il throughput delle transazioni onchain possibili.
 
 ![image](assets/it/081.webp)
 
-Secondo il trilemma, un protocollo basato su una blockchain può soddisfare solo due di queste tre caratteristiche. All'interno del protocollo Bitcoin, gli sviluppatori hanno fatto delle scelte per favorire la decentralizzazione e la sicurezza. Da un lato la dimensione del blocco di 1MB e l'intervallo di tempo tra due blocchi (in media 10 minuti) consentono di gestire un nodo Bitcoin a un costo inferiore, favorendo la decentralizzazione. Dall'altro lato, poi, l'aggiunta di blocchi tramite Proof-of-Work rende estremamente costosa la frode all'interno del protocollo, facilitando al contempo la verifica da parte dei nodi e favorendo la sicurezza della rete. Queste scelte impongono tuttavia un limite al numero medio di transazioni in un blocco, che corrisponde approssimativamente a poche transazioni al secondo. Si tratta di un numero irrisorio se paragonato alla capacità computazionale di processori di pagamento come VISA (1700/s), ma questo limite è necessario per effettuare transazioni con Bitcoin in modo resistente alla censura e senza porre fiducia in terze parti. Ciononostante, chi sta sviluppando Bitcoin ha pensato a questo problema fin dall'inizio.
+Su Bitcoin, gli sviluppatori hanno fatto scelte consapevoli per privilegiare questi aspetti. Da un lato, la dimensione dei blocchi limitata a 1 MB e il tempo medio di 10 minuti tra due blocchi permettono di eseguire un nodo Bitcoin a basso costo, favorendo così la decentralizzazione della rete. Dall’altro lato, la produzione dei blocchi tramite proof of work rende ogni tentativo di frode estremamente costoso, facilitando al contempo la verifica da parte dei nodi e rafforzando la sicurezza complessiva del protocollo.
 
-### Lightning Network come layer superiore
+Queste scelte comportano tuttavia un vincolo importante: il numero di transazioni che possono essere incluse in ciascun blocco è limitato. Ciò corrisponde a solo poche transazioni al secondo. Questo numero è irrisorio se confrontato con le capacità dei sistemi di pagamento centralizzati come VISA (che dispone di una capacità massima teorica di circa 65.000 transazioni al secondo), ma questa limitazione è il prezzo da pagare per consentire transazioni senza censura e senza intermediari di fiducia.
 
-Dopo anni di riflessioni e molteplici tentativi è emerso il protocollo Lightning. Utilizzando un certo numero di specifiche, questo protocollo costruisce una rete di pagamento peer-to-peer sfruttando la sicurezza e la programmabilità del protocollo di transazione di Bitcoin. La rete Lightning agisce come una rete di canali di pagamento, consentendo transazioni istantanee con commissioni ridotte per il mittente, e crea persino percorsi di scambio tra individui che non hanno una connessione diretta tra di loro.
+Concretamente, questo significa 2 cose molto importanti per l’uso quotidiano di Bitcoin:
+* quando la domanda di spazio nei blocchi aumenta, le commissioni onchain possono diventare molto elevate;
+* i pagamenti onchain richiedono conferme, il che non è sempre adatto agli acquisti quotidiani.
 
-![image](assets/it/082.webp)
+Il Lightning Network è proprio una risposta a queste problematiche. L’idea di Lightning si inserisce in un approccio a strati: Bitcoin rimane lo strato di base (lo strato di regolamento, robusto e molto sicuro), mentre Lightning funge da strato di pagamento rapido al di sopra.
 
-I servizi tradizionali di trasferimento di denaro come Western Union, banche centrali, Visa e Mastercard potrebbero scomparire se non adottassero la tecnologia Lightning Network, più efficiente ed economica rispetto agli attuali sistemi di pagamento. Lightning Network, infatti, consente transazioni quasi illimitate tra due peer che condividono un canale, sostenendo solo i costi energetici associati alla transazione per annunciare la creazione del canale stesso, anziché su ogni singola transazione.
+![image](assets/it/080.webp)
+
+### Canali di pagamento ancorati a Bitcoin
+
+Lightning si basa su canali di pagamento bidirezionali. Un canale è una relazione tecnica tra due partecipanti che consente loro di scambiarsi sat offchain, cioè senza registrare ogni pagamento sulla blockchain.
+
+Dal punto di vista di Bitcoin (onchain), aprire un canale equivale a bloccare dei fondi in una transazione speciale. Si può vedere questo meccanismo come una forma di escrow: i fondi sono bloccati in modo tale che solo una chiusura valida del canale possa ridistribuirli.
+
+Dal punto di vista di Lightning, questo stesso meccanismo diventa un canale nel quale entrambe le parti possono aggiornare lo stato di distribuzione dei sat tutte le volte che lo desiderano, quasi istantaneamente e senza dover registrare ogni pagamento sulla blockchain principale.
+
+Il meccanismo è quindi il seguente:
+* l’apertura e la chiusura di un canale Lightning sono transazioni Bitcoin (e quindi pubblicate onchain);
+* i pagamenti tra l’apertura e la chiusura sono aggiornamenti offchain, che non sono visibili sulla blockchain principale.
 
 ![image](assets/it/083.webp)
 
-Le transazioni sono protette dalla crittografia e indirettamente dall'energia consumata dai miner di Bitcoin. Possono essere effettuate istantaneamente, senza limitazioni geografiche, con commissioni estremamente basse (spesso inferiori allo 0,5%).
+In questo modo, due persone che condividono un canale Lightning possono effettuare un numero molto elevato di pagamenti senza dover creare ogni volta una transazione onchain. Ritroviamo qui una logica di scalabilità: la blockchain viene riservata alle operazioni rare e importanti (apertura e chiusura del canale, cioè il regolamento finale), mentre il resto dei piccoli pagamenti intermedi viene spostato su uno strato più efficiente.
 
-Lightning Network è quindi un promettente tentativo di implementare un sistema di pagamento efficiente per acquistare e vendere usando Bitcoin. Sono già disponibili numerosi walletLightning, che potete scoprire nella nostra sezione tutorial o attraverso i nostri corsi Lightning Network.
+### Una rete di canali interconnessi
 
-Se volete andare oltre questa introduzione e comprendere tutti i meccanismi della rete Lightning, vi consigliamo di seguire questo eccellente corso di Fanis Michalakis sull'argomento:
+Lightning non è soltanto una somma di canali isolati. È una rete: migliaia di nodi sono collegati tra loro tramite canali, formando così un grafo di connessioni.
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+![image](assets/it/082.webp)
 
-## Casi d'uso per Lightning Network
+Grazie a questa rete, è possibile pagare un destinatario anche se non si dispone di un canale diretto con lui, a condizione che esista un percorso di canali che consenta di instradare il pagamento. Questo attraversa quindi diversi nodi intermedi, salto dopo salto.
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
-Per quanto rivoluzionario, il protocollo Bitcoin deve affrontare sfide difficili in termini di scalabilità necessaria per gestire tutte le transazioni quotidiane. Per risolvere questi problemi è stata proposta Lightning Network, che da allora si è sviluppata in diverse implementazioni, tutte interoperabili:
+È qui che emerge una nozione importante di Lightning: la liquidità. La capacità di un canale corrisponde al totale dei fondi bloccati in quel canale, mentre la liquidità corrisponde alla distribuzione di tali fondi tra i due lati del canale e quindi alla direzione in cui i sat possono circolare. In altre parole, un canale può avere una grande capacità ma risultare inutilizzabile in una determinata direzione se la liquidità si trova dal lato sbagliato. Il successo dei pagamenti dipende quindi dall’esistenza di un percorso, ma anche dalla liquidità disponibile lungo tutto quel percorso.
 
-- Core-lightning di Blockstream
-- Eclair di Acinq
-- LND di Lightning strike
+### Instradare un pagamento senza fidarsi degli intermediari
 
-Questa rete peer-to-peer mira a facilitare i micro-pagamenti (di valore molto basso) che altrimenti non sarebbero praticabili a causa delle elevate commissioni e dei lunghi tempi di conferma sulla blockchain Bitcoin.
+Lightning è stato progettato per consentire pagamenti tramite intermediari senza dover riporre fiducia in essi. A tal fine, il protocollo utilizza contratti intelligenti chiamati HTLC (*Hashed Time-Locked Contracts*). Senza entrare in tutti i dettagli, il meccanismo generale è il seguente:
+* il pagamento è condizionato alla rivelazione di un segreto (una preimage);
+* se il destinatario finale rivela questo segreto, riceve i fondi e gli intermediari possono a loro volta incassare quanto dovuto;
+* se il pagamento fallisce, le scadenze temporali scadono e ciascuno recupera i propri fondi.
 
-### Quali sono i casi d'uso di Lightning Network?
+Questo funzionamento conferisce una proprietà essenziale: il pagamento è atomico. O va a buon fine completamente, oppure fallisce senza perdite intermedie.
 
-Questa tecnologia apre le porte a un'ampia gamma di potenziali applicazioni per Bitcoin che in precedenza erano fuori portata a causa dei vincoli necessari per garantire la sicurezza e la decentralizzazione della rete. Tra questi casi di utilizzo quotidiano possiamo citare: la fatturazione istantanea dei negozi fisici e online, la trasmissione di denaro per i pagamenti in tempo reale e le micro-donazioni per i creatori di contenuti. Grazie alla possibilità di creare una rete di pagamenti quasi istantanei, sicuri e a basso costo (con una media inferiore allo 0,5%), è possibile realizzare molti modelli di business prima inimmaginabili. Questo è possibile perché Lightning Network sfrutta la più piccola unità di Bitcoin, i satoshi (sats).
+Infine, Lightning integra un meccanismo di penalità: se uno dei partecipanti tenta di barare pubblicando uno stato precedente del canale (che non riflette più la realtà), l’altro può sanzionarlo e recuperare l’intero ammontare dei fondi. Questa regola incentiva fortemente un comportamento onesto, anche in un ambiente avverso.
 
-![image](assets/it/084.webp)
+### Nodo Lightning, wallet Lightning: cosa significa
 
-L'industria dei videogiochi offre un esempio particolarmente interessante di come Lightning Network possa essere utilizzata per trasformare i modelli di business esistenti. Il concetto di "skin in the game" è un'idea che ha recentemente guadagnato popolarità in questo contesto. Si tratta essenzialmente di avere una partecipazione finanziaria al risultato del gioco. Lightning Network consente ai giocatori di scommettere, a tutti gli effetti, somme di denaro molto piccole quando giocano, come pochi satoshi (circa una frazione di centesimo di euro) per stabilire una posta in gioco che stimola la concorrenza, aumentando al contempo il costo dell'utilizzo dei bot.
+Su Bitcoin onchain, un wallet è un software che gestisce le chiavi e costruisce le transazioni. Su Lightning, la situazione è più ambigua, poiché un vero utilizzo non custodial si basa su un nodo Lightning (anche se questo nodo è nascosto dietro un’interfaccia semplice).
+
+Nella pratica, esistono due grandi categorie di applicazioni per utilizzare Lightning:
+* Servizi custodial: l’applicazione mostra un saldo, ma i fondi sono controllati da un fornitore di servizi. Il vostro saldo è una registrazione contabile nel loro sistema, come su una piattaforma di scambio;
+* Soluzioni non custodial: controllate realmente le chiavi e la capacità di recuperare i vostri fondi. Può trattarsi di un’applicazione che integra un nodo con una gestione minima, semplificando l’esperienza utente (ad esempio Phoenix, Zeus...), oppure di un vero e proprio nodo Lightning che gestite interamente.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Esistono inoltre oggi portafogli self-custodial in grado di supportare i pagamenti Lightning in modo indiretto, basandosi su atomic swap attivati su richiesta per ogni pagamento in entrata o in uscita (ad esempio Bull Bitcoin Wallet, Aqua…). Questi portafogli utilizzano generalmente la sidechain Liquid come strato di regolamento (vedremo nel prossimo capitolo cosa significa).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Casi d’uso concreti: ciò che Lightning rende finalmente possibile
+
+Lightning sblocca una gamma di utilizzi che in precedenza erano poco pratici, se non impossibili, con il solo Bitcoin onchain.
+
+- **Pagamenti quotidiani (online e fisici)**
+
+Per un pagamento alla cassa o un acquisto online, Lightning consente una finalità quasi istantanea, con commissioni generalmente basse. Questo rende il bitcoin utilizzabile per piccoli importi, anche quando la blockchain principale è congestionata.
+
+- **Micropagamenti e streaming money**
+
+La possibilità di inviare importi minuscoli apre nuovi modelli economici: remunerazione a consumo, pagamento al minuto, donazioni ricorrenti, mance... È l’idea dello "streaming money": pagare in base al consumo reale di un contenuto o di un servizio, piuttosto che tramite un abbonamento forfettario.
+
+- **Creator di contenuti, podcast e donazioni**
+
+Lightning è spesso utilizzato per micro-donazioni o meccanismi di ricompensa. Applicazioni come Fountain o Rumble illustrano bene questa logica: il pagamento diventa granulare e nativo all’esperienza, invece di essere un atto pesante e occasionale. Abbiamo integrato questa logica anche su Plan ₿ Academy, poiché potete facilmente inviare piccole donazioni ai vostri professori preferiti per ringraziarli.
+
+- **Giochi ed economie digitali**
+
+I videogiochi e gli ambienti digitali si prestano naturalmente alle micro-transazioni: piccole puntate, ricompense, oggetti virtuali... Introdurre una posta monetaria minima può anche aumentare il costo dello spam e di alcuni abusi (bot), pur rimanendo accessibile.
 
 ![image](assets/it/085.webp)
 
-In sintesi il futuro dei micro-pagamenti con Bitcoin sembra promettente grazie a innovazioni come Lightning Network. Con lo sviluppo e la maturazione di queste tecnologie, possiamo aspettarci di vedere emergere nuove ed entusiasmanti applicazioni nel prossimo futuro.
+### Le principali implementazioni di Lightning
 
-![image](assets/it/086.webp)
+Come per Bitcoin, Lightning è un protocollo, non un software unico. Diverse implementazioni coesistono e rimangono interoperabili grazie a specifiche comuni (le BOLT):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* ecc.
 
-Un altro esempio potrebbe essere lo "streaming di denaro": attraverso Lightning Network possiamo effettuare micro-pagamenti ogni minuto (potenzialmente senza una terza parte fidata), il che apre la porta alla sperimentazione di modelli economici in cui i consumatori pagano per i contenuti in base al loro effettivo consumo. È persino ipotizzabile utilizzare questo sistema per il noleggio di beni. In un sistema di questo tipo, il denaro viene automaticamente suddiviso tra i diversi autori di un servizio o di un prodotto, in base a una percentuale predefinita. Questo potrebbe rivoluzionare il modo in cui pensiamo ai modelli di pagamento: invece di pagare un abbonamento mensile per un servizio, gli utenti potrebbero ricevere un addebito al minuto, o addirittura al secondo, per il tempo che trascorrono utilizzando quel determinato servizio. Un modello economico di questo tipo potrebbe avere profonde implicazioni per i creatori di contenuti, che sarebbero incentivati a produrre contenuti di qualità per mantenere l'attenzione degli utenti.
+### Lightning si inserisce nell’evoluzione di Bitcoin
 
-![image](assets/it/087.webp)
+Lightning non sostituisce la blockchain di Bitcoin: la completa. La blockchain rimane lo strato di regolamento finale, lento ma estremamente robusto. Lightning è lo strato di pagamento rapido, progettato per utilizzi frequenti e piccoli importi.
 
-In sintesi, Lightning Network apre una moltitudine di casi d'uso interessanti per gli utenti Bitcoin. I modelli economici e le opportunità commerciali che ne derivano sono numerosi e variegati e vi invitiamo a verificare di persona, provando l'applicazione podcast [Fountain](https://www.fountain.fm/), che vi permette di essere ricompensati con qualche sats per l'ascolto dei vostri podcast preferiti!
+Nel 2025, Lightning è più accessibile rispetto ai suoi inizi, grazie a portafogli e servizi che mascherano parte della complessità. Tuttavia, conserva dei compromessi: liquidità, costo onchain dei canali e, talvolta, scelte tra semplicità, sovranità e riservatezza.
+
+Se desiderate comprendere Lightning in profondità (canali, liquidità, instradamento, gestione dei rischi), vi consiglio il corso teorico completo LNP 201 di Fanis Michalakis:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+E se volete intraprendere l’avventura di gestire il vostro nodo Lightning, abbiamo anche il corso pratico LNP 202, dedicato specificamente a questo argomento:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Oltre Lightning: altri protocolli per far evolvere Bitcoin
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+Come abbiamo visto nei capitoli precedenti, Bitcoin è stato progettato come uno strato di base estremamente robusto: un registro pubblico, semplice e sicuro, ma naturalmente limitato in velocità, programmabilità e throughput dei pagamenti. Piuttosto che forzare questo strato a fare tutto (come avviene, ad esempio, su Ethereum), l’ecosistema Bitcoin ha progressivamente adottato un approccio a strati: la blockchain funge da fondamento (regolamento finale), mentre strati superiori aggiungono nuove proprietà, come pagamenti più rapidi, maggiore riservatezza o l’emissione di asset (stablecoin, titoli tokenizzati...).
+
+Bitcoin non evolve solo modificando il suo protocollo di base. Evolverà anche costruendo sopra di esso, con soluzioni che fanno compromessi diversi a seconda dell’obiettivo perseguito. Alcune cercano la scalabilità dei pagamenti, altre la programmabilità (in senso ampio) e l’emissione di asset, e altre ancora tentano di combinare entrambe le cose.
+
+In questo capitolo introduciamo quattro protocolli importanti che offrono ciascuno nuove possibilità su Bitcoin: le sidechain (in particolare Liquid), Ark, RGB e Taproot Assets.
+
+### Sidechain: blockchain parallele collegate a Bitcoin
+
+Una sidechain è una blockchain distinta da quella di Bitcoin, progettata per funzionare in parallelo, con le proprie regole e il proprio meccanismo di consenso. È collegata a Bitcoin tramite un meccanismo di ancoraggio bidirezionale (*2WP*) che consente, nella pratica, di utilizzare bitcoin sulla sidechain in forma rappresentativa (spesso un bitcoin bloccato su Bitcoin e ricreato sulla sidechain), per poi tornare successivamente alla catena principale.
+
+L’interesse di una sidechain è offrire funzionalità difficili da ottenere direttamente su Bitcoin: transazioni più rapide, funzionalità sugli asset, maggiore riservatezza o una maggiore flessibilità di sviluppo. In contropartita, una sidechain comporta sempre dei compromessi rispetto a Bitcoin, in particolare sul modello di fiducia o sulla decentralizzazione.
+
+La sidechain più conosciuta su Bitcoin è probabilmente **Liquid**, sviluppata da Blockstream. È progettata in particolare per accelerare alcuni utilizzi: trasferimenti rapidi tra piattaforme, regolamenti più frequenti ed emissione di asset (stablecoin, titoli...), con una riservatezza rafforzata. Su Liquid, i bitcoin utilizzati sono chiamati L-BTC: sono progettati per essere legati 1 a 1 al BTC, tramite un meccanismo di ancoraggio bidirezionale.
+
+![image](assets/it/088.webp)
+
+La principale differenza rispetto a Bitcoin riguarda il modello di sicurezza e decentralizzazione: Liquid non si basa sulla proof of work di Bitcoin, ma su una federazione di operatori (un gruppo identificato) che garantisce la produzione dei blocchi e il funzionamento dei ponti tra BTC e L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: condividere UTXO per ridurre i costi e migliorare l’esperienza
+
+Ark indica una famiglia di proposte e implementazioni volte a migliorare la scalabilità di Bitcoin raggruppando numerose operazioni degli utenti in un numero ridotto di transazioni Bitcoin. L’idea è piuttosto semplice: invece di creare una transazione onchain per ogni utente, si crea una transazione onchain che rappresenta un lotto, quindi si fanno evolvere i diritti di ciascuno principalmente offchain, fino al momento in cui si desidera regolare definitivamente su Bitcoin.
+
+Questa idea di protocollo di secondo livello è stata presentata da Burak nel maggio 2023. Come il Lightning Network, Ark è un sistema che si sviluppa sopra la catena principale di Bitcoin. Consentirebbe di effettuare pagamenti in bitcoin offchain in modo rapido, anonimo e a basso costo. Rispetto a Lightning, Ark non richiede liquidità in entrata per ricevere pagamenti, migliorando notevolmente l’esperienza utente. Inoltre, offre una riservatezza che si avvicina a quella delle transazioni coinjoin. Ark potrebbe anche essere non interattivo se venissero aggiunti covenant a Bitcoin.
+
+Burak critica spesso la capacità di Lightning di scalare a causa della sua dipendenza dalla catena principale e suggerisce che Ark potrebbe teoricamente integrare l’intera popolazione mondiale in self-custody. Anche se Ark può essere visto come un protocollo concorrente del Lightning Network, i due possono in realtà coesistere e persino risultare complementari.
+
+Ark rimane un ambito molto attivo ma ancora giovane: l’obiettivo è promettente (ridurre drasticamente l’impronta onchain per utente), ma bisogna tenere presente che si tratta di un’architettura più complessa, con ipotesi e rischi diversi da quelli di Bitcoin e Lightning.
+
+### RGB: contratti e asset con validazione lato client
+
+RGB è un sistema di contratti intelligenti e asset su Bitcoin che adotta un approccio radicalmente diverso rispetto alle blockchain generaliste. La sua idea centrale è la validazione lato client: invece di pubblicare lo stato completo di un contratto su una blockchain globale, i partecipanti conservano e validano localmente le storie che li riguardano, mentre la blockchain di Bitcoin serve solo ad ancorare impegni crittografici e a impedire la doppia spesa.
+
+In altre parole:
+* la blockchain di Bitcoin svolge il ruolo di base di timestamp e arbitro minimale;
+* i dati dettagliati (regole del contratto, stati, transizioni) circolano offchain tra le parti interessate;
+* la verifica avviene localmente, migliorando la scalabilità e potenzialmente la riservatezza, poiché non esiste un registro globale di tutte le attività RGB visibile a chiunque.
+
+![image](assets/it/089.webp)
+
+RGB potrebbe fungere da base per emettere e gestire una grande varietà di asset: token (inclusi stablecoin), NFT o titoli digitali, o persino per costruire logiche contrattuali più elaborate, il tutto senza appesantire lo strato di base.
+
+Il rovescio della medaglia è la gestione dei dati: se dovete validare lato client, dovete anche conservare e salvare correttamente ciò che dimostra i vostri diritti.
+
+RGB è un protocollo in sviluppo da molti anni. I progressi sono graduali, ma oggi esistono già applicazioni concrete che sfruttano RGB. Per approfondire, proponiamo su Plan ₿ Academy un corso di livello esperto che descrive in dettaglio il funzionamento di questo protocollo:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: emettere asset su Bitcoin e spostarli su Lightning
+
+Taproot Assets (precedentemente "Taro") è un protocollo promosso da Lightning Labs che mira a consentire l’emissione di asset su Bitcoin, con la possibilità di trasferirli successivamente tramite la rete Lightning per scambi rapidi e a basso costo.
+
+È spesso citato come un tassello della narrazione del "programmable money" su Bitcoin: non perché Bitcoin diventi un computer globale, ma perché è possibile sovrapporre strumenti finanziari (asset) sopra la base di Bitcoin e poi farli circolare in modo efficiente tramite Lightning.
+
+### Bitcoin si rafforza lasciando innovare gli strati superiori
+
+Oggi, l’immagine più fedele dell’ecosistema Bitcoin non è quella di un protocollo immutabile, né quella di una super blockchain che fa tutto, come Ethereum. È piuttosto una base volutamente conservatrice, circondata da strati e protocolli che sperimentano e consentono l’innovazione con un livello di rischio minimo.
+
 
 ## Pillola rossa o pillola blu?
 

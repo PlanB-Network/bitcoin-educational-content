@@ -1,0 +1,8 @@
+question: Lors de la validation de la transaction Bitcoin, que doit vérifier un nœud pour s'assurer que chaque entrée est bien autorisée à dépenser la sortie à laquelle elle se réfère ?
+answer: Le ScriptSig doit réussir à déverrouiller la clé ScriptPubKey correspondante lorsqu'il est exécuté en même temps
+wrong_answers:
+  - "La signature numérique de l'entrée doit correspondre exactement à la clé publique intégrée de la sortie
+  - Le hachage de la transaction doit être égal à la racine merkle stockée dans l'en-tête du bloc référencé
+  - Le montant en entrée doit être supérieur ou égal au montant en sortie dépensé
+explanation: |
+  Le système de script de Bitcoin exige que le ScriptSig (script de déverrouillage) de chaque entrée s'exécute avec succès avec le ScriptPubKey (script de verrouillage) de la sortie référencée pour produire un véritable résultat sur la pile. Ce modèle d'exécution des scripts permet des conditions de dépenses flexibles allant au-delà de la simple correspondance des signatures. Les autres options décrivent des exigences de validation incorrectes - les signatures n'ont pas besoin de correspondre exactement aux clés intégrées, les hachages de transaction ne sont pas comparés aux racines merkle pendant la validation des entrées, et les entrées individuelles n'ont pas besoin de dépasser leurs sorties (seules les entrées totales doivent dépasser les sorties totales).

@@ -43,11 +43,12 @@ proofreading:
     contributor_names:
     reward: 30.58
   - language: fr
-    last_contribution_date: 2025-10-31
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - nrak10
-    reward: 11.48
+      - user28238
+    reward: 5.74
   - language: it
     last_contribution_date: 2024-03-27
     urgency: 1
@@ -156,6 +157,11 @@ proofreading:
     contributor_names:
       - Dahl23
     reward: 22.91
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.58
 tags:
   - finance
   - market-trends

@@ -6,3 +6,4 @@ wrong_answers:
   - Viralliset turvallisuustodistukset paljastaisivat haavoittuvuudet vastustajille, joten ydinkehittäjät pitävät ne salaisina
 explanation: |
   Kuten Jameson Lopp selittää, Bitcoin rakennettiin ilman virallisesti määriteltyä määrittelyä tai turvallisuusmallia sen luontaisen monimutkaisuuden ja epämääräisen luonteen vuoksi. Toisin kuin yksinkertaisemmissa järjestelmissä, kuten allekirjoituspöytäkirjoissa, joissa on selkeät turvallisuusoletukset, Bitcoin:ssa on useita vuorovaikutteisia komponentteja, kuten kryptografia, taloustiede, peliteoria ja ihmisten käyttäytyminen. Tämän monimutkaisuuden vuoksi on mahdotonta luoda muodollisia matemaattisia turvallisuustodistuksia, vaikka järjestelmä osoittaa käytännön turvallisuutta todellisessa toiminnassa.
+reviewed: false

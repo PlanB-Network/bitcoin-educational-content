@@ -6,3 +6,4 @@ wrong_answers:
   - İşlemleri daha verimli bir şekilde işleyebilen devlet onaylı doğrulama düğümlerinin oluşturulması
 explanation: |
   Kitapta Bitcoin ölçeklendirmesi "Bitcoin'nin kullanım kapasitesini sansüre karşı direncinden ödün vermeden artırmak" olarak tanımlanıyor Alan verimli imza doğrulama, işlemlerin daha az bayt kullanmasını sağlarken merkeziyetsizliği koruyarak bu tanıma doğrudan uymaktadır. Yanlış cevapların hepsi sansüre karşı direnci tehlikeye atmaktadır: merkezi borsalar güvenilir üçüncü tarafları devreye sokar, işlem filtreleme sansür mekanizmaları yaratır ve devlet onaylı düğümler doğrulama yetkisini merkezileştirir. Gerçek ölçeklendirme, verimliliği artırırken Bitcoin'nin temel özelliklerini korur.
+reviewed: false

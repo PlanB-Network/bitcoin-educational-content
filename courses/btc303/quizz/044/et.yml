@@ -6,3 +6,4 @@ wrong_answers:
   - Uuendamine põhjustas püsiva ahela lõhenemise, sest kaevurid ja kasutajad ei olnud rakendamise üksikasjade osas ühel meelel
 explanation: |
   BIP66 juhtum näitas kriitilist viga kaevurite poolt aktiveeritud pehmetes kahvlites: valmisoleku märku andmine ei taga tegelikku valideerimist. Hoolimata sellest, et 95% kaevuritest näitas, et nad on uuenduseks valmis, ei valideerinud umbes pooled neist uusi reegleid korralikult ja kaevandasid ekslikult kehtetu ploki. See näitas, et hash power signalisatsioon võib olla eksitav ja ei taga nõuetekohast rakendamist, mis oli üks Shaolinfry peamisi argumente, miks ta pakkus välja kasutaja aktiveeritud Soft Forks'i kui usaldusväärsema uuendamismehhanismi.
+reviewed: false

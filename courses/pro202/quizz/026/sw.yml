@@ -1,0 +1,8 @@
+question: Kwa nini uthibitisho wa miamala ya zamani ya Bitcoin unaonyesha ugumu wa muda wa nne kuhusiana na idadi ya ingizo?
+answer: Kila ingizo linahitaji hesabu yake ya sighash juu ya muundo unaojumuisha ingizo zote katika muamala
+wrong_answers:
+  - Kila ingizo lazima lithibitishe sahihi dhidi ya ingizo zingine zote ili kuzuia double-spending kuingia katika muamala.
+  - Mfano wa utekelezaji unaotegemea mrundiko unahitaji vitanzi vilivyowekwa kwenye viota ili kusindika opcodes kwa kila mchanganyiko wa ingizo
+  - "Kila ingizo la ScriptSig lazima lithibitishwe dhidi ya kila ingizo la ScriptPubKey ili kupata ulinganifu sahihi"
+explanation: |
+  Uthibitisho wa zamani wa Bitcoin huunda ugumu wa quadratic kwa sababu kila ingizo linahitaji hesabu yake ya sighash, lakini kila hesabu husindika muundo wa miamala ulio na ingizo zote. Kwa ingizo n, hii huunda shughuli za n×n. SegWit ilitatua hili kwa kuhifadhi sehemu zilizoshirikiwa za hesabu ya sighash, kupunguza ugumu hadi wakati wa mstari na kuzuia mashambulizi yanayoweza kutokea ya kukataliwa kwa huduma kutoka kwa miamala mikubwa ya ingizo nyingi.

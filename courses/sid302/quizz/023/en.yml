@@ -1,0 +1,8 @@
+question: Why does Mayfell's implementation of promissory notes on Liquid specifically leverage Confidential Transactions rather than using transparent blockchain records?
+answer: Commercial privacy requirements demand that loan amounts remain visible only to lender and borrower while preserving auditor verification capabilities
+wrong_answers:
+  - Regulatory compliance in Mexico mandates that all financial transactions must be completely hidden from government oversight and tax authorities
+  - Transparent records would create scalability bottlenecks that prevent the system from processing the required 25,000+ promissory notes efficiently
+  - Public visibility of loan amounts would trigger automatic taxation events that make the tokenization process financially unviable for participants
+explanation: |
+  Confidential Transactions solve a critical business problem in commercial lending: maintaining competitive privacy while enabling regulatory compliance. In traditional finance, loan amounts between businesses are confidential commercial information that competitors shouldn't access, yet auditors and regulators need to verify ledger integrity. Liquid's Confidential Transactions achieve this balance by cryptographically hiding amounts from the public while allowing authorized parties to verify transactions. The wrong answers misrepresent the technology - CT doesn't hide transactions from regulators (privacy vs. secrecy), doesn't solve scalability issues (that's a separate technical concern), and doesn't create tax avoidance mechanisms (legitimate privacy tools don't circumvent tax obligations).

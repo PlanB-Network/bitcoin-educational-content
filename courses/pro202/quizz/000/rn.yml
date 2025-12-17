@@ -1,0 +1,8 @@
+question: Ni iyihe nsiguro y’umurongo w’uruzitiro secp256k1 ya Bitcoin ikoresha?
+answer: y2 = x3 + 7
+wrong_answers:
+  - y2 = x3 + isōko + b
+  - y2 = x3 + 5
+  - y2 = x3 + x + 7
+explanation: |
+  Bitcoin ikoresha cane cane umurongo w’uruzitiro secp256k1, ufise ingano yoroshe y2 = x3 + 7. Iyi ni ikibazo kidasanzwe c’uruzitiro rusangi rw’uruzitiro rw’uruzitiro y2 = x3 + ax + b aho a = 0 na b = 7. Ayandi mahitamwo ntabwo ari yo: y2 ax = b1 ni rusangi ariko G2 the + x' y2 = x3 + 5 ikoresha ikintu kidahinduka kitari co, kandi y2 = x3 + x + 7 ikoresha nabi ijambo x ry'umurongo ritariho muri secp256k1.

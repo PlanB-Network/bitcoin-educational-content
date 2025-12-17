@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Salasõna SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: Kuidas lisada passphrase oma SeedSigneri portfelli?
 ---
 

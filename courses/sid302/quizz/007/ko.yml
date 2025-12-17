@@ -1,0 +1,8 @@
+question: Elements과 Liquid Network의 관계는 무엇인가요?
+answer: Liquid는 프로덕션용으로 구성된 Elements 사이드체인의 특정 인스턴스입니다
+wrong_answers:
+  - Elements는 테스트 목적으로 구성된 Liquid Network의 특정 인스턴스입니다
+  - Liquid과 Elements은 서로 다른 코드베이스를 가진 두 개의 경쟁 블록체인 플랫폼입니다
+  - "Elements는 Liquid Network의 블록 검증을 강화하는 합의 메커니즘입니다."
+explanation: |
+  Elements은 오픈 소스 블록체인 플랫폼 소프트웨어이며, Liquid는 연합 합의 모델을 사용하여 프로덕션용으로 구성된 Elements 사이드체인의 특정 구현 또는 '인스턴스'입니다. Elements을 기본 기술 프레임워크로, Liquid를 해당 프레임워크를 사용해 구축된 하나의 특정 네트워크라고 생각하시면 됩니다. 이는 Bitcoin 코어가 Bitcoin 네트워크를 구동하는 소프트웨어라면, Elements은 Liquid 및 기타 사용자 지정 사이드체인을 구동하는 소프트웨어 엔진인 것과 유사합니다.

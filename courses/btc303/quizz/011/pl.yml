@@ -6,3 +6,4 @@ wrong_answers:
   - System, w którym transakcje nie mogą być przez nikogo cofnięte ani zakwestionowane
 explanation: |
   Trustless odnosi się konkretnie do właściwości technicznej, w której system rozproszony może działać poprawnie bez konieczności posiadania zaufanych stron. Różni się to od wyeliminowania wszelkiego zaufania (nadal ufasz swojemu oprogramowaniu / sprzętowi) lub zapobiegania odwróceniu (transakcje Bitcoin można odwrócić poprzez przepisanie łańcucha). Termin ten nie oznacza również, że użytkownicy nie mogą ufać uczestnikom - poprawność systemu nie zależy od zaufania do nich.
+reviewed: false

@@ -66,7 +66,7 @@ Na terceira secção do nosso curso de formação, vamos ao que interessa: a pr�
 
 ![BTC204](assets/pt/003.webp)
 
-**Secção 4: Compreender as transacções coinjoin**
+**Secção 4: Compreender as transacções [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Como é que podemos falar de privacidade na Bitcoin sem mencionar os coinjoins? Na secção 4, descobrirá tudo o que precisa de saber sobre este método de mistura. Aprenderá o que são coinjoins, a sua história e objectivos, bem como os diferentes tipos de coinjoins que existem. Finalmente, para os utilizadores mais experientes, veremos o que são os anonsets e a entropia e como calculá-los.
 
@@ -74,7 +74,7 @@ Como é que podemos falar de privacidade na Bitcoin sem mencionar os coinjoins? 
 
 **Secção 5: Compreender os desafios de outras técnicas avançadas de confidencialidade**
 
-Na quinta secção, vamos dar uma vista de olhos a todas as outras técnicas disponíveis para proteger a sua privacidade na Bitcoin, para além do coinjoin. Ao longo dos anos, os programadores têm demonstrado uma criatividade notável na conceção de ferramentas dedicadas à privacidade. Analisaremos todos estes métodos, como o payjoin, as transacções colaborativas, o Coin Swap e o Atomic Swap, detalhando o seu funcionamento, os seus objectivos e as suas fraquezas.
+Na quinta secção, vamos dar uma vista de olhos a todas as outras técnicas disponíveis para proteger a sua privacidade na Bitcoin, para além do coinjoin. Ao longo dos anos, os programadores têm demonstrado uma criatividade notável na conceção de ferramentas dedicadas à privacidade. Analisaremos todos estes métodos, como o [payjoin](https://planb.academy/resources/glossary/payjoin), as transacções colaborativas, o Coin Swap e o Atomic Swap, detalhando o seu funcionamento, os seus objectivos e as suas fraquezas.
 
 Também analisaremos a privacidade ao nível da rede de nós e da disseminação de transacções. Também discutiremos os vários protocolos que foram propostos ao longo dos anos para melhorar a privacidade do utilizador na Bitcoin, incluindo protocolos de endereço estático.
 
@@ -85,7 +85,7 @@ Pronto para explorar os meandros da privacidade no Bitcoin? Vamos lá!
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## O modelo UTXO da Bitcoin
+## O modelo [UTXO](https://planb.academy/resources/glossary/utxo) da Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -569,7 +569,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Neste último, podemos ver que a entrada n.º 0 e a saída n.º 1 utilizam scripts P2WPKH (SegWit V0), enquanto a saída n.º 0 utiliza um script P2PKH diferente (Legacy).
 
-No início dos anos 2010, esta heurística baseada no versionamento de scripts era relativamente inútil devido aos limitados tipos de scripts disponíveis. No entanto, ao longo do tempo e com as sucessivas actualizações do Bitcoin, foi introduzida uma diversidade crescente de tipos de scripts. Esta heurística está, portanto, a tornar-se cada vez mais relevante, uma vez que, com uma maior variedade de tipos de scripts, os utilizadores se dividem em grupos mais pequenos, aumentando assim as hipóteses de aplicar esta heurística de reutilização de versões internas. Por este motivo, apenas numa perspetiva de confidencialidade, é aconselhável optar pelo tipo de script mais comum. Por exemplo, no momento em que escrevo estas linhas, os scripts Taproot (`bc1p`) são menos utilizados do que os scripts SegWit V0 (`bc1q`). Embora os primeiros ofereçam benefícios económicos e de confidencialidade em certos contextos específicos, para utilizações mais tradicionais de assinatura única, pode fazer sentido manter um padrão mais antigo por razões de confidencialidade, até que o novo padrão seja mais amplamente adotado.
+No início dos anos 2010, esta heurística baseada no versionamento de scripts era relativamente inútil devido aos limitados tipos de scripts disponíveis. No entanto, ao longo do tempo e com as sucessivas actualizações do Bitcoin, foi introduzida uma diversidade crescente de tipos de scripts. Esta heurística está, portanto, a tornar-se cada vez mais relevante, uma vez que, com uma maior variedade de tipos de scripts, os utilizadores se dividem em grupos mais pequenos, aumentando assim as hipóteses de aplicar esta heurística de reutilização de versões internas. Por este motivo, apenas numa perspetiva de confidencialidade, é aconselhável optar pelo tipo de script mais comum. Por exemplo, no momento em que escrevo estas linhas, os scripts [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) são menos utilizados do que os scripts SegWit V0 (`bc1q`). Embora os primeiros ofereçam benefícios económicos e de confidencialidade em certos contextos específicos, para utilizações mais tradicionais de assinatura única, pode fazer sentido manter um padrão mais antigo por razões de confidencialidade, até que o novo padrão seja mais amplamente adotado.
 
 ### Pagamentos por números redondos
 

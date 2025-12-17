@@ -1,5 +1,5 @@
 ---
-name: BTCPayサーバー - Umbrel
+name: BTCPay Server - Umbrel
 description: UmbrelにBTCPayサーバーをインストールして使用し、BitcoinとLightningを受け入れる
 ---
 

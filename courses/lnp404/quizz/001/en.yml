@@ -1,0 +1,8 @@
+question: What configuration setting must be enabled in LND to allow Lightning Terminal to connect in remote mode?
+answer: rpcmiddleware.enable=true
+wrong_answers:
+  - remoteterminal.enable=true
+  - litd.connection.enable=true
+  - rpcconnection.remote=true
+explanation: |
+  The correct answer is rpcmiddleware.enable=true because LitD requires this specific setting in the LND configuration to authenticate and communicate with the existing LND instance. This middleware acts as a bridge that allows LitD to interact with LND's RPC interface securely. The other options are plausible-sounding configuration parameters but are not actual LND settings. Without rpcmiddleware.enable=true, Lightning Terminal cannot establish the necessary connection to manage the remote LND node.

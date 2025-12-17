@@ -6,3 +6,4 @@ wrong_answers:
   - As obras derivadas devem incluir a marca original do Bitcoin Core e não podem ser renomeadas ou mudar de marca
 explanation: |
   A Licença MIT exige que os trabalhos derivados sejam distribuídos sob os mesmos termos de licença que o software original, garantindo que a natureza de código aberto seja preservada. Isso não proíbe a venda comercial (resposta errada 1), não exige permissão dos desenvolvedores (resposta errada 2) e não exige a manutenção da marca original (resposta errada 3). A licença afirma especificamente que modificações e trabalhos derivados devem ser permitidos sob os mesmos termos, mantendo o modelo de desenvolvimento sem permissão que permite inovações como Lightning Network e sidechains.
+reviewed: false

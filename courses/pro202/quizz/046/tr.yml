@@ -1,0 +1,8 @@
+question: Bitcoin'ın zorluk değeri ile blok doğrulama için kullanılan mevcut hedef arasındaki matematiksel ilişki nedir?
+answer: Zorluk, mümkün olan en düşük hedefin mevcut hedefe bölünmesine eşittir
+wrong_answers:
+  - Zorluk, mevcut hedefin mümkün olan en düşük hedefe bölünmesine eşittir
+  - Zorluk, mevcut hedefin mümkün olan en düşük hedefle çarpımına eşittir
+  - Zorluk, katsayı çarpı 256'nın üs eksi 3'e yükseltilmesine eşittir
+explanation: |
+  Bitcoin'in zorluğu özellikle lowest_target / current_target olarak tanımlanır ve bu da mining'nin mümkün olan en kolay zorluğa kıyasla kaç kat daha zor olduğunu ifade eder. Bu ters ilişki, hedef küçüldükçe (geçerli hash'lerin bulunması zorlaştıkça) zorluğun da orantılı olarak artacağı anlamına gelir. Formül, 1 zorluk derecesinin en kolay mining koşullarını temsil etmesini sağlarken, daha yüksek değerler geçerli blokları bulmak için gereken hesaplama işinin orantılı olarak daha fazla olduğunu gösterir.

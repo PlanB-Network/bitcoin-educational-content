@@ -1,0 +1,8 @@
+question: Czym jest skończone pole F(p) w systemie kryptograficznym Bitcoin?
+answer: System arytmetyczny zdefiniowany przez liczbę pierwszą p, zawierający elementy od 0 do p-1
+wrong_answers:
+  - Nieskończony zestaw liczb używany do generowania adresów i kluczy Bitcoin
+  - Pole matematyczne zawierające wszystkie liczby rzeczywiste od 0 do p-1 włącznie
+  - Kryptograficzna funkcja skrótu, która generuje dane wyjściowe o długości dokładnie p bitów
+explanation: |
+  Skończone pole F(p) to w szczególności system arytmetyczny zbudowany wokół liczby pierwszej p, który zawiera dokładnie p elementów: liczby całkowite od 0 do p-1. Aspekt "skończony" jest kluczowy - nie jest nieskończony i nie dotyczy liczb rzeczywistych ani funkcji hashujących. Pola pierwsze zapewniają, że każdy niezerowy element ma odwrotność multiplikatywną, a wszystkie operacje arytmetyczne (dodawanie, odejmowanie, mnożenie) są zawijane przy użyciu modulo p, utrzymując wyniki w obrębie pola. Ta ograniczona, przewidywalna struktura jest niezbędna dla bezpieczeństwa kryptograficznego Bitcoin.

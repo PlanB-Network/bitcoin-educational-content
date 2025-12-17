@@ -6,3 +6,4 @@ wrong_answers:
   - Reduz a taxa de hash total da rede, uma vez que os mineiros gastam recursos em conetividade em vez de mining
 explanation: |
   O capítulo explica que quando os tamanhos dos blocos aumentam, os tempos de propagação aumentam, levando a mais blocos obsoletos. Para evitar a perda de recompensas de blocos obsoletos, os mineiros procuram pools com melhor largura de banda e conetividade. Isto empurra os mineiros para pools maiores e bem conectados, reduzindo a descentralização do mining. As outras opções estão incorrectas: a dificuldade ajusta-se automaticamente independentemente da conetividade do grupo, os custos de conetividade não criam taxas de transação adicionais e os mineiros não reduzem a taxa de hash quando se juntam a grupos com melhores ligações.
+reviewed: false

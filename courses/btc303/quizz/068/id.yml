@@ -6,3 +6,4 @@ wrong_answers:
   - Ini mengurangi tingkat hash total jaringan karena penambang menghabiskan sumber daya untuk konektivitas alih-alih mining
 explanation: |
   Bab ini menjelaskan bahwa ketika ukuran blok meningkat, waktu propagasi juga meningkat, yang menyebabkan lebih banyak blok basi. Untuk menghindari kehilangan upah blok dari blok basi, para penambang mencari pool dengan bandwidth dan konektivitas yang lebih baik. Hal ini mendorong para penambang ke pool yang lebih besar dan terkoneksi dengan baik, sehingga mengurangi desentralisasi mining. Opsi lainnya tidak benar: tingkat kesulitan menyesuaikan secara otomatis terlepas dari konektivitas pool, biaya konektivitas tidak menimbulkan biaya transaksi tambahan, dan penambang tidak mengurangi tingkat hash ketika bergabung dengan pool yang terhubung lebih baik.
+reviewed: false

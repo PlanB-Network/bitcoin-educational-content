@@ -6,3 +6,4 @@ wrong_answers:
   - Sosyal medya paylaşımları ve kamu işlem duyuruları aracılığıyla
 explanation: |
   Bölüm içeriğine göre, özel veriler iki temel yolla sızabilir: on-chain ve off-chain. Zincir içi sızıntılar, işlem kalıplarının, adreslerin yeniden kullanımının ve kümelenmenin finansal bilgileri ortaya çıkarabileceği halka açık blok zincirinin analizi yoluyla gerçekleşir. Zincir dışı sızıntılar ise kötü niyetli aktörlerin internet iletişimini kesmesi ya da diğer blok zinciri dışı yollarla gerçekleşir. Yanlış cevaplar Bitcoin ekosistemindeki gerçek güvenlik endişelerinden bahsetse de, materyalde belirtildiği gibi gizlilik sızıntılarının nasıl meydana geldiğine ilişkin temel kategorizasyonu temsil etmemektedir.
+reviewed: false

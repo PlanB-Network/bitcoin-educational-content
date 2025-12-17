@@ -1,5 +1,5 @@
 ---
-name: コイノス
+name: Coinos
 description: ビットコイン決済を送受信するためのシンプルなウェブアプリケーションです。
 ---
 ![cover](assets/cover.webp)

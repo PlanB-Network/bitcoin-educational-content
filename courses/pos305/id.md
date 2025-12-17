@@ -2079,10 +2079,10 @@ Administrator server dapat membuka detail lebih lanjut untuk melihat.
 - Rangkaian Cipher SSL GRPC (GRPC_SSL_CIPHER_SUITES)
 
 
-#### LND (SISA)
+#### LND (REST)
 
 
-BTCPay mengekspos layanan REST LND untuk konsumsi luar; Anda dapat menemukan informasi koneksi di sini; dompet yang kompatibel terdaftar di sini. Di antara dompet yang kompatibel adalah Joule, Alby, dan ZeusLN. BTCPay Server menyediakan kode QR untuk koneksi, yang dapat dipindai dan diterapkan di Wallet yang kompatibel.
+BTCPay mengekspos layanan REST LND untuk konsumsi luar; Anda dapat menemukan informasi koneksi di [sini](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); dompet yang kompatibel terdaftar di [sini](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Di antara dompet yang kompatibel adalah Joule, Alby, dan ZeusLN. BTCPay Server menyediakan kode QR untuk koneksi, yang dapat dipindai dan diterapkan di Wallet yang kompatibel.
 
 
 

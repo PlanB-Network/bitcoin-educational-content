@@ -6,3 +6,4 @@ wrong_answers:
   - Överbelastning i nätverket och mining-centralisering
 explanation: |
   I avsnitt 7 i Bitcoin:s vitbok identifierade Satoshi Nakamoto återanvändning av adresser och klustring av adresser som de största integritetsproblemen i blockkedjan. Address återanvändning inträffar när samma adress används flera gånger, vilket gör det enkelt att koppla transaktioner till samma användare. Address-klustring avser möjligheten att fastställa att olika adresser tillhör samma ägare, särskilt genom transaktioner med flera inmatningar som avslöjar att alla inmatningar kontrollerades av samma person. De andra alternativen är tekniska eller operativa utmaningar i Bitcoin, men är inte de integritetsfrågor som specifikt diskuteras i Satoshi i vitboken.
+reviewed: false

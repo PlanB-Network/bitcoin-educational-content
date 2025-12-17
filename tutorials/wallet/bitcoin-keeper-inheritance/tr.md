@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Miras Planı
+name: Bitcoin Keeper - Miras planı
 description: Bir miras planı oluşturmak için Bitcoin Keeper Wallet'yi Tapsigners ile birlikte kurun ve kullanın
 ---
 

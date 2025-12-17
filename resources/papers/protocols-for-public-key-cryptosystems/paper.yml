@@ -1,0 +1,15 @@
+title: "Protocols for Public Key Cryptosystems"
+original_language: en
+authors:
+  - Ralph C. Merkle
+abstract: |
+  New Cryptographic protocols which take full advantage of the unique properties of public key cryptosystems are now evolving. Several protocols for public key distribution and for digital signatures are briefly compared with each other and with the conventional alternative.
+publication_date: 1990-04-16
+paper_type: review
+source: IEEE
+type: SCI
+topics:
+  - Public Key Cryptography
+  - Digital Signature Schemes
+pdf_url: https://www.ralphmerkle.com/papers/Protocols.pdf
+id: 2cdd2058-4aef-4ff1-88fe-791f7e8d2128

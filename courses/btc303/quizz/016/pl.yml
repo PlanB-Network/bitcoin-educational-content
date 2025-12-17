@@ -6,3 +6,4 @@ wrong_answers:
   - Nie można na nim budować żadnych dodatkowych systemów
 explanation: |
   Zaufana warstwa bazowa Bitcoin zapewnia fundament, który pozwala na elastyczność w budowaniu różnych typów systemów na wierzchu. Jak wyjaśnił Matt Corallo, podczas gdy nie można budować zaufanych systemów na zaufanych systemach, można budować zaufane systemy (takie jak portfele powiernicze) na zaufanych systemach. Oznacza to, że zaufana podstawa Bitcoin obsługuje zarówno zaufane aplikacje, jak i zaufane usługi, dając projektantom systemów swobodę wyboru odpowiednich kompromisów bez wymuszania tych samych kompromisów na wszystkich innych korzystających z warstwy bazowej.
+reviewed: false

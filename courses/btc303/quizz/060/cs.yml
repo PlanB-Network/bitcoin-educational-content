@@ -6,3 +6,4 @@ wrong_answers:
   - Mohou být vyžadovány správní poplatky, ale pouze za komerční redistribuce
 explanation: |
   Definice open source v části "Volné šíření" výslovně uvádí, že "Licence nesmí vyžadovat licenční nebo jiný poplatek za takový prodej" To znamená, že open source software musí být volně šiřitelný bez povinných poplatků nebo licenčních poplatků. Ostatní možnosti nesprávně naznačují, že jsou povoleny různé druhy poplatků, což by porušovalo základní princip volného šíření, který definuje software s otevřeným zdrojovým kódem.
+reviewed: false

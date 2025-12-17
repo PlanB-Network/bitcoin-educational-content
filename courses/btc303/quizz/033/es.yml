@@ -6,3 +6,4 @@ wrong_answers:
   - 2160
 explanation: |
   Según el capítulo, el BIP42 solucionó un error de inflación a muy largo plazo y garantiza que el subsidio por bloque llegará a cero en torno al año 2140. Será entonces cuando Bitcoin pase de un sistema de recompensas basado en subsidios a un sistema basado exclusivamente en comisiones, lo que supondrá un cambio fundamental en el modo en que se cubren los costes de seguridad de la red, pasando de que los titulares paguen a través de la inflación a que los gastadores paguen a través de las comisiones por transacción.
+reviewed: false

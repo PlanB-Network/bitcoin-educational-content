@@ -1,0 +1,8 @@
+question: Pourquoi P2WSH utilise-t-il le hachage SHA256 au lieu du hachage 160 (RIPEMD160+SHA256) pour l'engagement des scripts dans les programmes témoins ?
+answer: SHA256 fournit un hachage de 32 octets qui distingue P2WSH du hachage de 20 octets de P2WPKH160 et offre une plus grande sécurité pour les scripts complexes
+wrong_answers:
+  - SHA256 est plus rapide à calculer que hash160, ce qui réduit le temps de validation des transactions complexes à plusieurs chiffres dans les scénarios à haut débit
+  - "Hash160 a été supprimé dans SegWit en raison de vulnérabilités de collision potentielles découvertes au cours de la première phase de développement de Bitcoin"
+  - SHA256 permet aux scripts témoins d'avoir une taille supérieure à 520 octets, tandis que hash160 impose des limites strictes à la complexité des scripts
+explanation: |
+  P2WSH utilise SHA256 pour créer des hachages de 32 octets afin de se différencier de l'engagement de hachage de 20 octets de P2WPKH160 , ce qui permet aux nœuds d'identifier immédiatement la version du programme témoin. Le hachage plus long offre également une sécurité accrue pour les scripts complexes qui peuvent avoir une valeur plus élevée ou une surface d'attaque plus importante. Les autres options sont incorrectes : SHA256 n'est pas nécessairement plus rapide que hash160, hash160 n'a pas été supprimé en raison de vulnérabilités et le choix de la fonction de hachage n'affecte pas les limites de taille des scripts.

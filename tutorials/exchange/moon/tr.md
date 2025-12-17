@@ -1,5 +1,5 @@
 ---
-name: Ay
+name: Moon
 description: Visa banka kartlarının kabul edildiği her yerde bitcoin ile ödeme yapın.
 ---
 

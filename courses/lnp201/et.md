@@ -153,7 +153,7 @@ Kõige levinum skript nõuab aadressiga seotud privaatvõtmega allkirjastamist. 
 
 ### UTXO-d: Kulutamata Tehinguväljundid
 
-Bitcoin'il vahetame tegelikult mitte otseselt bitcoine, vaid **UTXO-sid** (_Unspent Transaction Outputs_), tähendab "kulutamata tehinguväljundeid".
+Bitcoin'il vahetame tegelikult mitte otseselt bitcoine, vaid **[UTXO](https://planb.academy/resources/glossary/utxo)-sid** (_Unspent Transaction Outputs_), tähendab "kulutamata tehinguväljundeid".
 
 UTXO on bitcoin'i tükk, mis võib olla mis tahes väärtuses, näiteks **2,000 bitcoin'i**, **8 bitcoin'i** või isegi **8,000 sats'i**. Iga UTXO on lukustatud skriptiga ja selle kulutamiseks tuleb rahuldada skripti tingimused, sageli allkiri antud vastuvõtu aadressiga seotud privaatvõtmega.
 
@@ -591,7 +591,7 @@ Sel peatükis uurisime maksete suunamist Lightningi võrgus. Kuid tekib küsimus
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Sel peatükis avastame, kuidas Lightning võimaldab makseid suunata läbi vahendajasõlmede ilma, et peaks neid usaldama, tänu **HTLC**-le (_Hashed Time-Locked Contracts_). Need nutilepingud tagavad, et iga vahendajasõlm saab oma kanalist rahad kätte ainult siis, kui ta edastab makse lõppsaajale, vastasel juhul makset ei valideerita.
+Sel peatükis avastame, kuidas Lightning võimaldab makseid suunata läbi vahendajasõlmede ilma, et peaks neid usaldama, tänu **[HTLC](https://planb.academy/resources/glossary/htlc)**-le (_Hashed Time-Locked Contracts_). Need nutilepingud tagavad, et iga vahendajasõlm saab oma kanalist rahad kätte ainult siis, kui ta edastab makse lõppsaajale, vastasel juhul makset ei valideerita.
 
 Maksete suunamisel tekib seega vajadus usaldada vahendajasõlmi ja ka vahendajasõlmede vahelist usaldust. Selle illustreerimiseks vaatame uuesti meie lihtsustatud Lightningi võrgu näidet 3 sõlme ja 2 kanaliga:
 

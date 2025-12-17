@@ -6,3 +6,4 @@ wrong_answers:
   - Konkurents teise kihi lahenduste ja on-chain skaleerivate lähenemisviiside vahel piiratud arendusressursside ja kogukonna toetuse pärast
 explanation: |
   Maxwell tuvastas kahepoolse probleemi, mille puhul Bitcoin kaotab oma eelised mõlemas suunas: kui ressursside kasutamine on liiga suur võrreldes olemasoleva tehnoloogiaga, muutub valideerimine liiga kulukaks ja hindab kasutajad välja, kes peavad siis sõltuma usaldusväärsetest kolmandatest isikutest, selle asemel et iseseisvalt valideerida. Vastupidi, kui võimsus on liiga väike ja tehingumeetodid on ebatõhusad, muutub juurdepääs plokiahelale vaidluste lahendamiseks liiga kalliks, mis jällegi surub kasutajaid usaldusväärsete teenuste poole. See loob õrna tasakaalu, millega skaleerimislahendused peavad toime tulema.
+reviewed: false

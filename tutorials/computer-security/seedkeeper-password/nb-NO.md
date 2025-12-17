@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - Passordbehandling
+name: Seedkeeper - Passordbehandler
 description: Hvordan lagrer du passordene dine med Seedkeeper-smartkortet?
 ---
 

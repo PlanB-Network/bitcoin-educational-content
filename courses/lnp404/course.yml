@@ -1,0 +1,26 @@
+id: 068234ae-1524-4947-9cb0-ea741b7f7c0f
+topic: bitcoin
+subtopic: lightning
+level: intermediate
+hours: 16
+test_only: true
+
+professors_id:
+  - 303993a1-6506-4c25-b0b6-6d3f0497859b
+
+published_at: 2025-12-01
+contributor_names:
+  - jramos0
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+      - jramos0
+    reward: 5.69
+tags:
+  - DIY
+  - protocols
+  - software

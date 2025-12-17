@@ -1,0 +1,8 @@
+question: Quel avantage stratégique critique le positionnement réglementaire du Liquid offre-t-il par rapport à d'autres plateformes de tokenisation comme Ethereum ou Solana ?
+answer: Liquid évite les risques de sécurité non enregistrés en utilisant Bitcoin (L-BTC) comme actif natif sans pré-mining ni ICO
+wrong_answers:
+  - Liquid opère dans le cadre d'une réglementation spéciale qui l'exempte des lois sur les valeurs mobilières dans la plupart des juridictions
+  - "Le modèle de fédération du Liquid qualifie automatiquement tous les jetons émis comme des titres réglementés dans les cadres existants
+  - Liquid a obtenu l'approbation réglementaire globale des principales autorités financières pour tous les actifs tokenisés sur sa plateforme
+explanation: |
+  L'avantage réglementaire stratégique de Liquid découle de son architecture technique plutôt que d'exemptions ou d'approbations spéciales. En utilisant le Bitcoin comme actif natif (L-BTC) sans jetons pré-mining ou en menant une ICO, Liquid évite la classification de "titre non enregistré" qui menace de nombreuses autres plateformes de blockchain. Ceci est crucial car les autorités de régulation comme la SEC ont de plus en plus examiné les projets de blockchain qui ont créé et vendu leurs propres jetons, les classant potentiellement comme des titres non enregistrés. Les mauvaises réponses suggèrent à tort que le Liquid dispose d'autorisations réglementaires spéciales ou de fonctions de conformité automatiques, alors qu'en réalité son avantage est d'éviter complètement l'économie problématique du token.

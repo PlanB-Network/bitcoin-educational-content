@@ -1,5 +1,5 @@
 ---
-name: Yeşim Kendin Yap
+name: Jade DIY
 description: 15 dolarlık bir geliştirme kartını tamamen işlevsel bir Bitcoin donanım wallet'e dönüştürün
 ---
 

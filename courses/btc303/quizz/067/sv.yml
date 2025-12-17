@@ -6,3 +6,4 @@ wrong_answers:
   - Förbättrad prestanda för signaturverifiering för att behandla block snabbare
 explanation: |
   Kapitlet definierar uttryckligen Bitcoin-skalning som "att öka Bitcoin:s användningskapacitet utan att kompromissa med dess censurmotstånd" Det korrekta svaret bryter mot denna definition eftersom att kräva att användare litar på centraliserade betalningsprocessorer direkt äventyrar Bitcoin:s censurmotstånd - ett kärnvärdeförslag. De felaktiga svaren representerar alla legitima skalningsmetoder som nämns i kapitlet: effektiv kodning minskar resursanvändningen, skiktade lösningar möjliggör ytterligare kapacitet samtidigt som basskiktets egenskaper bevaras och förbättrad signaturverifiering förbättrar prestandan utan centraliseringskompromisser.
+reviewed: false

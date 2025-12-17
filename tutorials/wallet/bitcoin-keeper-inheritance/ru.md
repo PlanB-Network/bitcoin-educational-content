@@ -1,5 +1,5 @@
 ---
-name: Хранитель Bitcoin - План наследования
+name: Bitcoin Keeper - План наследования
 description: Создайте и используйте Bitcoin Keeper Wallet вместе с Tapsigners для создания плана наследования
 ---
 

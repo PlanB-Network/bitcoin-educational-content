@@ -6,3 +6,4 @@ wrong_answers:
   - Ekonomski čvorovi odbili su nadogradnju zbog zabrinutosti oko povećanih naknada za transakcije
 explanation: |
   Segwit nadogradnja bila je jedinstvena jer se suočila sa problemom koordinacije gde je postojala ogromna podrška među korisnicima Bitcoin, ali su rudari odbijali da signaliziraju podršku za nadogradnju. Ovo je stvorilo pat poziciju gde nadogradnja nije mogla da se aktivira kroz uobičajeni mehanizam soft fork aktiviran od strane rudara. Prethodne nadogradnje su bile relativno bezbolne jer su imale podršku i korisnika i rudara. Ova situacija je dovela do predloga User Activated Soft Forks (UASF) kao alternativnog mehanizma aktivacije koji se nije oslanjao na signalizaciju rudara, ističući tenziju između različitih zainteresovanih strana u Bitcoin ekosistemu.
+reviewed: false

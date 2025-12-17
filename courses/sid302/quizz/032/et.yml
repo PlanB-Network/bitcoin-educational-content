@@ -1,0 +1,8 @@
+question: Mis juhtub, kui Breez SDK arhitektuuris tagurpidi allveelaeva vahetamine ebaõnnestub või aegub?
+answer: SDK koostab ja edastab automaatselt tagasimaksetehingu, et tagastada raha kasutaja wallet-le
+wrong_answers:
+  - Vahetuse pakkuja algatab käsitsi taastamisprotsessi, mis nõuab kasutaja sekkumist 24 tunni jooksul
+  - Rahalised vahendid jäävad püsivalt lukustatuks, kuni Lightning Network ühendus taastatakse
+  - Kasutaja peab võtma ühendust Boltz toega, et käivitada käsitsi federated peg-out tehing
+explanation: |
+  Breez SDK rakendab automatiseeritud tagasimaksete haldamist kui kriitilist ohutusmehhanismi. Kui vahetused ebaõnnestuvad või aeguvad, jälgib SDK kõiki vahetuse olekuid ja korraldab taastamisprotsessi automaatselt ilma kasutaja sekkumiseta. See eemaldab ajaliselt lukustatud lepingute keerukuse ja tagab, et vahendid ei lähe kunagi jäädavalt kaduma. Teised võimalused on valed, sest need nõuavad kas käsitsi sekkumist, eeldavad vahendite püsivat kaotust või hõlmavad protsesse, mida automatiseeritud süsteemis ei ole.

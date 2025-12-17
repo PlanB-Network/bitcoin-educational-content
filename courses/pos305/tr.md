@@ -2082,7 +2082,7 @@ Sunucu yöneticileri daha fazla ayrıntı görmek için açabilir.
 #### LND (REST)
 
 
-BTCPay, LND'in REST hizmetini dış tüketim için sunar; bağlantı bilgilerini burada bulacaksınız; uyumlu cüzdanlar burada listelenmiştir. Uyumlu cüzdanlar arasında Joule, Alby ve ZeusLN bulunmaktadır. BTCPay Sunucusu, bağlantı için uyumlu bir Wallet'de taranabilen ve uygulanabilen bir QR kodu sağlar.
+BTCPay, LND'in REST hizmetini dış tüketim için sunar; bağlantı bilgilerini [burada](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay) bulacaksınız; uyumlu cüzdanlar [burada](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server) listelenmiştir. Uyumlu cüzdanlar arasında Joule, Alby ve ZeusLN bulunmaktadır. BTCPay Sunucusu, bağlantı için uyumlu bir Wallet'de taranabilen ve uygulanabilen bir QR kodu sağlar.
 
 
 

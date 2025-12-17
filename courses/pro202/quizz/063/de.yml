@@ -1,0 +1,8 @@
+question: Was ist die primäre kryptografische Eigenschaft, die es kompakten Blockfiltern (BIP158) ermöglicht, die Privatsphäre von Light Clients zu schützen und gleichzeitig perfekte Genauigkeit zu gewährleisten?
+answer: Sie können beim Abgleich von Transaktionen falsch-positive, aber niemals falsch-negative Ergebnisse liefern
+wrong_answers:
+  - Sie verwenden Zero-Knowledge-Beweise, um zu verbergen, welche Adressen von Knoten abgefragt werden
+  - "Sie verschlüsseln alle Filterdaten mit dem öffentlichen Schlüssel des Kunden, um Abhörmaßnahmen zu verhindern
+  - Die Reihenfolge der Transaktions-Hashes wird nach dem Zufallsprinzip festgelegt, um Ausgabenmuster vor Beobachtern zu verbergen
+explanation: |
+  Kompakte Blockfilter verwenden probabilistische Datenstrukturen, die fälschlicherweise eine Übereinstimmung anzeigen können (falsch positiv), aber niemals eine tatsächliche Übereinstimmung übersehen (falsch negativ). Diese asymmetrische Eigenschaft ist von entscheidender Bedeutung: Falsch-positive Ergebnisse führen nur zu unnötigen Block-Downloads, während falsch-negative Ergebnisse dazu führen würden, dass Geldbörsen Zahlungen komplett verpassen. Der Vorteil für die Privatsphäre ergibt sich aus dieser Ungewissheit - Beobachter können nicht zwischen echten Übereinstimmungen und falsch-positiven Übereinstimmungen unterscheiden, so dass nicht klar ist, welche Transaktionen tatsächlich zur abfragenden wallet gehören.

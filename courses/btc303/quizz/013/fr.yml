@@ -6,3 +6,4 @@ wrong_answers:
   - Les systèmes Trustless et les systèmes de confiance doivent fonctionner de manière indépendante et ne peuvent pas être superposés
 explanation: |
   L'idée maîtresse de Matt Corallo est que la couche de base sans confiance du Bitcoin permet une certaine souplesse dans la conception des systèmes. Une base sans confiance comme le protocole Bitcoin permet aux développeurs de créer des services de confiance (comme les portefeuilles de garde) sur des couches plus élevées tout en préservant les garanties de sécurité sous-jacentes. Toutefois, l'inverse est impossible : il est impossible de créer des systèmes véritablement sans confiance si la base elle-même nécessite la confiance, car toute propriété sans confiance serait compromise par les vulnérabilités de la couche de base de confiance.
+reviewed: false

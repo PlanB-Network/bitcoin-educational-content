@@ -1,0 +1,8 @@
+question: Mikä on Liquid Network:n käyttämä pääasiallinen konsensusmekanismi?
+answer: Liittovaltiokonsensus
+wrong_answers:
+  - Proof-of-Work
+  - Proof-of-Stake
+  - Delegoitu valtakirjojen vastaanottotodistus (Proof-of-Stake)
+explanation: |
+  Liquid Network toimii Federated Consensus -mallilla, joka eroaa olennaisesti Bitcoin:n Proof-of-Work-järjestelmästä. Tässä mallissa valittu ryhmä viittätoista toimihenkilöä toimii lohkojen allekirjoittajina, jotka tuottavat lohkoja deterministisellä round-robin-mallilla. Proof-of-Work on Bitcoin:n konsensusmekanismi, johon mining osallistuu, kun taas Proof-of-Stake ja Delegated Proof-of-Stake ovat konsensusmekanismeja, joita muut lohkoketjuverkot käyttävät, mutta ei Liquid.

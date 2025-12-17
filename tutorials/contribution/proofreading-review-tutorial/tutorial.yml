@@ -19,7 +19,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.4
+    reward: 1.41
   - language: en
     last_contribution_date: 2025-03-13
     urgency: 1
@@ -39,11 +39,12 @@ proofreading:
     contributor_names:
     reward: 1.84
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.7
+      - ProfScofield21
+    reward: 0.35
   - language: it
     last_contribution_date: '2025-10-31'
     urgency: 1
@@ -60,7 +61,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.4
+    reward: 1.41
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -80,12 +81,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.27
+    reward: 2.28
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.27
+    reward: 2.28
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -95,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.14
+    reward: 3.15
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -116,7 +117,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.27
+    reward: 2.28
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -126,7 +127,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.4
+    reward: 1.41
   - language: nl
     last_contribution_date: '2025-11-05'
     urgency: 1
@@ -137,12 +138,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.27
+    reward: 2.28
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.27
+    reward: 2.28
   - language: rn
     last_contribution_date:
     urgency: 1

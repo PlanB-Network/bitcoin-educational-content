@@ -6,3 +6,4 @@ wrong_answers:
   - Nó giúp cải thiện tính ẩn danh tổng thể của hệ thống Bitcoin
 explanation: |
   Quyền riêng tư Bitcoin được kết nối chặt chẽ giữa những người dùng. Khi một người thực hiện các biện pháp bảo mật không nghiêm ngặt, điều đó có thể ảnh hưởng tiêu cực đến quyền riêng tư của những người dùng khác mà họ giao dịch cùng. Điều này xảy ra bởi vì các mô hình giao dịch, phân cụm địa chỉ và các kỹ thuật phân tích blockchain khác có thể tiết lộ thông tin về nhiều bên liên quan trong giao dịch. Chương này nhấn mạnh rằng các biện pháp bảo mật bạn thực hiện không chỉ bảo vệ bản thân mà còn giúp bảo vệ cộng đồng Bitcoin nói chung, biến quyền riêng tư thành trách nhiệm chung chứ không chỉ là mối quan tâm cá nhân.
+reviewed: false

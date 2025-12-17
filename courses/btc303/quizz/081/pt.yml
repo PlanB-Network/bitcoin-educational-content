@@ -6,3 +6,4 @@ wrong_answers:
   - Os erros de desempenho criam fugas de memória que acabam por bloquear os nós, levando a uma instabilidade temporária da rede e a uma taxa de hash reduzida
 explanation: |
   Gregory Maxwell alertou especificamente para o facto de os bugs de desempenho, quando implementados com perícia, poderem ser utilizados para dividir a rede estrategicamente - por exemplo, separando "o mineiro A e a bolsa B" numa partição, enquanto todos os outros vão para outra, criando condições para ataques de duplo gasto. Isto demonstra porque é que problemas aparentemente menores devem ser tratados como potencialmente graves, uma vez que podem ser transformados em armas de formas sofisticadas que não são imediatamente óbvias.
+reviewed: false

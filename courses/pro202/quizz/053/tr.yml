@@ -1,0 +1,8 @@
+question: Bitcoin düğümleri, işlem verilerinden Merkle ağaçları oluştururken ve doğrularken hangi özel endianness dönüşüm zorluğunun üstesinden gelmelidir?
+answer: İşlem karmaları, dahili ağaç hesaplaması için little-endian serileştirilmiş formattan big-endian'a tersine çevrilmeli, ardından depolama için geri çevrilmelidir
+wrong_answers:
+  - Ağ iletim formatına uyması için Merkle kökü hesaplanmadan önce blok başlıkları big-endian'dan little-endian'a dönüştürülmelidir
+  - Nihai Merkle kökü, yalnızca P2P mesajları aracılığıyla diğer düğümlere iletilirken big-endian'dan little-endian'a dönüştürülmelidir
+  - İşlem kimlikleri big-endian formatında saklanır ancak Merkle ağacındaki çiftleri hash etmeden önce little-endian'a dönüştürülmelidir
+explanation: |
+  Bitcoin'nin Merkle ağacı yapısı kritik bir endian dönüştürme adımı içerir. Serileştirilmiş blok verileri little-endian formatını kullanırken, dahili Merkle ağacı hesaplaması big-endian hash'ler gerektirir. Düğümler, ağaç oluşturmadan önce işlem karmalarını serileştirilmiş little-endian formatından big-endian'a tersine çevirmeli, ardından son kökü blok başlığında saklamak için little-endian'a geri çevirmelidir. Bu dönüşüm düzgün doğrulama için gereklidir.

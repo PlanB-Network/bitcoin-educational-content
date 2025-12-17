@@ -73,13 +73,12 @@ _Die weltweite Bevölkerung ohne Bankverbindung_
 Dieser Vortrag **Warum El Salvador Bitcoin braucht "** gibt einen Überblick über das **Bitcoin-Protokoll**, seine Wurzeln in der **Cypherpunk-Bewegung** und seine Rolle als Instrument zur Ermöglichung von **unzensiertem Geld**, **finanzieller Inklusion** und vielem mehr.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - bitcoin-Protokoll:_ Die Regeln und die Struktur, die bestimmen, wie Bitcoin als dezentrale digitale Währung funktioniert.
-> - cypherpunk-Bewegung:_ Eine Gruppe, die sich für den Einsatz von Kryptografie einsetzt, um Privatsphäre und Freiheit in digitalen Räumen zu gewährleisten.
-> - finanzielle Eingliederung:_ Ermöglichung des Zugangs zu Finanzdienstleistungen für Menschen, die von den traditionellen Bankensystemen ausgeschlossen sind und oft als "Nicht-Bankkunden" bezeichnet werden
-> - unzensiertes Geld:_ Geld, das nicht von Regierungen oder Finanzinstituten kontrolliert oder eingeschränkt werden kann.
+- bitcoin-Protokoll:_ Die Regeln und die Struktur, die bestimmen, wie Bitcoin als dezentrale digitale Währung funktioniert.
+- cypherpunk-Bewegung:_ Eine Gruppe, die sich für den Einsatz von Kryptografie einsetzt, um Privatsphäre und Freiheit in digitalen Räumen zu gewährleisten.
+- finanzielle Eingliederung:_ Ermöglichung des Zugangs zu Finanzdienstleistungen für Menschen, die von den traditionellen Bankensystemen ausgeschlossen sind und oft als "Nicht-Bankkunden" bezeichnet werden
+- unzensiertes Geld:_ Geld, das nicht von Regierungen oder Finanzinstituten kontrolliert oder eingeschränkt werden kann.
 
 #### Rickys Hintergrund und Bitcoin-Befürwortung
 
@@ -102,11 +101,11 @@ In autoritären Regimen, in denen finanzielle Repressionen üblich sind, ermögl
 Trotz seines Potenzials steht Bitcoin vor erheblichen Herausforderungen. In Gebieten wie Afrika und Indien fehlt es oft an grundlegender Infrastruktur wie Strom und Internetzugang, was die Akzeptanz einschränkt. Darüber hinaus bleibt die **digitale Inklusion** - die Sicherstellung, dass Menschen aller Alters- und Bildungsstufen die Technologie nutzen können - eine große Hürde.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - private Schlüssel:_ Geheime Codes, die Zugriff auf die Bitcoin eines Benutzers ermöglichen.
-> - _Open-source:_ Software, die jeder einsehen, verändern und verbessern kann.
+
+- private Schlüssel:_ Geheime Codes, die Zugriff auf die Bitcoin eines Benutzers ermöglichen.
+- _Open-source:_ Software, die jeder einsehen, verändern und verbessern kann.
 
 ### Der Fall El Salvador
 
@@ -135,10 +134,10 @@ Zusammenfassend lässt sich sagen, dass Bitcoin ein enormes Versprechen für die
 Die **Cypherpunk-Bewegung** entstand im späten 20. Jahrhundert und setzte sich für den Schutz der Privatsphäre und die Freiheit durch Kryptografie ein. Pioniere wie **Eric Hughes** und **Tim May** glaubten, dass eine starke Verschlüsselung zum Schutz der persönlichen Freiheit in einer digitalen Welt unerlässlich sei. Ihre Ideen hatten großen Einfluss auf die Entwicklung von Bitcoin.
 
 
-> **Definition:**
->
+**Definitionen**:
 
-> - cypherpunk:_ Eine Bewegung, die sich für Privatsphäre und Freiheit durch Kryptographie einsetzt.
+
+- cypherpunk:_ Eine Bewegung, die sich für Privatsphäre und Freiheit durch Kryptographie einsetzt.
 
 #### Österreichische Volkswirtschaftslehre
 
@@ -146,10 +145,10 @@ Die **Cypherpunk-Bewegung** entstand im späten 20. Jahrhundert und setzte sich 
 Gleichzeitig bildete die **Österreichische Volkswirtschaftslehre** die Grundlage für die geldpolitischen Grundsätze von Bitcoin. Ökonomen wie **Ludwig von Mises** und **Friedrich Hayek** vertraten die Ansicht, dass gesundes Geld knapp, dauerhaft und ein guter Wertaufbewahrer sein sollte - Kernprinzipien, die das Design von Bitcoin prägten.
 
 
-> **Definition:**
->
+**Definitionen**:
 
-> - knappheit:_ Begrenzte Verfügbarkeit, die durch die Notwendigkeit einer sorgfältigen Zuteilung Wert schafft.
+
+- knappheit:_ Begrenzte Verfügbarkeit, die durch die Notwendigkeit einer sorgfältigen Zuteilung Wert schafft.
 
 ### Die Schöpfung von Bitcoin
 
@@ -157,10 +156,10 @@ Gleichzeitig bildete die **Österreichische Volkswirtschaftslehre** die Grundlag
 **Satoshi Nakamoto** kombinierte diese Ideen, um Bitcoin im Jahr 2008 als dezentralisierte, zensurresistente digitale Währung zu schaffen. Durch die Verschmelzung der Cypherpunk-Ideale der Privatsphäre mit den österreichischen Prinzipien des gesunden Geldes bietet Bitcoin ein Finanzsystem, das die traditionellen Banken und die staatliche Kontrolle herausfordert.
 
 
-> **Definition:**
->
+**Definitionen**:
 
-> - _Zensurresistent:_ Geld, das nicht durch äußere Kräfte kontrolliert oder blockiert werden kann.
+
+- _Zensurresistent:_ Geld, das nicht durch äußere Kräfte kontrolliert oder blockiert werden kann.
 
 #### Die wichtigsten wirtschaftlichen Grundsätze
 
@@ -171,11 +170,11 @@ Gleichzeitig bildete die **Österreichische Volkswirtschaftslehre** die Grundlag
 - Sparen:** Wertaufbewahrung für zukünftige Bedürfnisse, die zu Investitionen und Innovationen führt.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - zeitpräferenz:_ Wertschätzung gegenwärtiger Güter gegenüber zukünftigen.
-> - _Speichern:_ Speichern eines Wertes zur späteren Verwendung.
+
+- zeitpräferenz:_ Wertschätzung gegenwärtiger Güter gegenüber zukünftigen.
+- _Speichern:_ Speichern eines Wertes zur späteren Verwendung.
 
 ### Bitcoin in El Salvador
 
@@ -243,11 +242,11 @@ Bitcoin basiert auf **digitalen Signaturen** unter Verwendung der **Elliptic Cur
 **Satoshi Nakamoto**, der pseudonyme Schöpfer von Bitcoin, erweiterte diese Ideen, indem er das PoW-Modell auf ein dezentrales **Blockchain** umstellte. Dies ermöglichte es einem verteilten Netzwerk von Knoten, Transaktionen ohne eine zentrale Autorität zu validieren und aufzuzeichnen, was eine bedeutende Entwicklung gegenüber früheren digitalen Währungsversuchen darstellte.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - _Proof-of-Work (PoW):_ Ein System, bei dem die Teilnehmer Rechenpuzzle lösen müssen, um Transaktionen zu validieren und das Netzwerk zu sichern.
-> - elliptic Curve Cryptography:_ Eine kryptografische Methode, die sichere und effiziente digitale Signaturen ermöglicht.
+
+- _Proof-of-Work (PoW):_ Ein System, bei dem die Teilnehmer Rechenpuzzle lösen müssen, um Transaktionen zu validieren und das Netzwerk zu sichern.
+- elliptic Curve Cryptography:_ Eine kryptografische Methode, die sichere und effiziente digitale Signaturen ermöglicht.
 
 ### Blockchain Mechanik und Transaktionsvalidierung
 
@@ -264,12 +263,12 @@ Jeder **Block** im Blockchain besteht aus einem **Kopf** (mit Daten wie im Hash 
 Bevor Transaktionen in einen Block aufgenommen werden, befinden sie sich im **Mempool**, wo sie auf ihre Validierung warten. Nach der Validierung werden diese Transaktionen dem neu geschürften Block und anschließend dem Blockchain hinzugefügt.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - _Mining:_ Der Prozess des Lösens kryptografischer Rätsel, um neue Blöcke zum Blockchain hinzuzufügen.
-> - ein Wert, der verwendet wird, um den richtigen Hash während Mining zu finden.
-> - _Mempool:_ Ein Wartebereich für unbestätigte Transaktionen, bevor sie zu einem Block hinzugefügt werden.
+
+- _Mining:_ Der Prozess des Lösens kryptografischer Rätsel, um neue Blöcke zum Blockchain hinzuzufügen.
+- ein Wert, der verwendet wird, um den richtigen Hash während Mining zu finden.
+- _Mempool:_ Ein Wartebereich für unbestätigte Transaktionen, bevor sie zu einem Block hinzugefügt werden.
 
 ### Skalierbarkeit, Datenschutz und Entwicklung in Bitcoin
 
@@ -283,12 +282,12 @@ Der Betrieb eines **Full node** ist für die Gewährleistung von Dezentralisieru
 Die Bitcoin-Entwicklung wurde weiterentwickelt, um die Leistung und Sicherheit zu verbessern. Zu den wichtigsten Upgrades gehören **Segregated Witness (SegWit)**, das sich mit der Verfälschbarkeit von Transaktionen befasst und die effektive Blockgröße erhöht, und **Taproot**, das den Datenschutz verbessert und komplexere Verträge mit **Merkleized Abstract Syntax Trees (MAST)** ermöglicht.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - _SegWit:_ Ein Bitcoin-Upgrade, das Unterschriftsdaten von Transaktionsdaten trennt und so die Effizienz erhöht.
-> - taproot:_ Ein Upgrade, das den Datenschutz und die Skalierbarkeit von Bitcoin verbessert, indem es komplexere intelligente Verträge ermöglicht.
-> - _Lightning Network:_ Eine zweite Layer-Lösung für schnellere, billigere Bitcoin-Transaktionen über Zahlungskanäle.
+
+- _SegWit:_ Ein Bitcoin-Upgrade, das Unterschriftsdaten von Transaktionsdaten trennt und so die Effizienz erhöht.
+- taproot:_ Ein Upgrade, das den Datenschutz und die Skalierbarkeit von Bitcoin verbessert, indem es komplexere intelligente Verträge ermöglicht.
+- _Lightning Network:_ Eine zweite Layer-Lösung für schnellere, billigere Bitcoin-Transaktionen über Zahlungskanäle.
 
 #### Schlussfolgerung
 
@@ -316,11 +315,11 @@ In diesem Vortrag entlarven wir gängige Mythen rund um **Bitcoin**, **Blockchai
 Ein häufiges Missverständnis ist, dass **Bitcoin** und **Blockchain** das Gleiche sind. Während Bitcoin eine digitale Währung ist, ist **Blockchain** die Technologie, die ihr zugrunde liegt. Blockchains bieten eine verifizierte Aufzeichnung von Transaktionen, haben aber Nachteile wie langsamere Geschwindigkeiten und höhere Kosten, die Lösungen wie das **Lightning Network** Address.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - blockchain:_ Die zugrunde liegende Technologie zur Aufzeichnung von Transaktionen in einer dezentralen, unveränderlichen Ledger.
-> - _Lightning Network:_ Eine zweite Layer-Lösung, die die Effizienz von Bitcoin-Transaktionen verbessert, indem sie off-chain-Transaktionen ermöglicht.
+
+- blockchain:_ Die zugrunde liegende Technologie zur Aufzeichnung von Transaktionen in einer dezentralen, unveränderlichen Ledger.
+- _Lightning Network:_ Eine zweite Layer-Lösung, die die Effizienz von Bitcoin-Transaktionen verbessert, indem sie off-chain-Transaktionen ermöglicht.
 
 ### Bitcoin vs. Krypto
 
@@ -328,10 +327,10 @@ Ein häufiges Missverständnis ist, dass **Bitcoin** und **Blockchain** das Glei
 Ein weiterer wichtiger Unterschied ist, dass **Bitcoin** mit dem alleinigen Ziel geschaffen wurde, eine dezentrale, zensurresistente Form des Geldes zu schaffen, frei von jeglicher Kontrolle durch Unternehmen oder Regierungen. Im Gegensatz dazu sind Kryptowährungen **Shitcoins** oft mit zentraler Kontrolle konzipiert und dienen in erster Linie dazu, die dahinter stehenden Unternehmen durch räuberische Praktiken, Pump-and-Dump-Systeme oder regelrechten Betrug zu bereichern. Diese Token dienen in der Regel keinem wirklichen Zweck, außer der Erzielung eines schnellen Gewinns für ihre Schöpfer auf Kosten von uninformierten Anlegern. Bitcoin ist jedoch die einzige wirklich dezentralisierte digitale Währung mit einer nachgewiesenen Erfolgsbilanz in Bezug auf Sicherheit und Widerstandsfähigkeit.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - shitcoins:_ Shitcoins sind Kryptowährungen von geringem Wert oder fragwürdiger Qualität, die keinen echten Nutzen haben. Sie sind oft hochspekulativ und werden manchmal zu betrügerischen Zwecken oder ohne klaren Zweck geschaffen, um den Boom auf dem Kryptowährungsmarkt auszunutzen.
+
+- shitcoins:_ Shitcoins sind Kryptowährungen von geringem Wert oder fragwürdiger Qualität, die keinen echten Nutzen haben. Sie sind oft hochspekulativ und werden manchmal zu betrügerischen Zwecken oder ohne klaren Zweck geschaffen, um den Boom auf dem Kryptowährungsmarkt auszunutzen.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +341,10 @@ Ein weiterer wichtiger Unterschied ist, dass **Bitcoin** mit dem alleinigen Ziel
 Einer der häufigsten Kritikpunkte an Bitcoin ist sein **Energieverbrauch**. Bitcoin Mining verbraucht zwar Energie, macht aber weniger als 1 % des weltweiten Stromverbrauchs und weniger als 3 % der verschwendeten Energie aus. Außerdem zapft **Bitcoin Mining** oft ungenutzte oder erneuerbare Energiequellen an und ist damit umweltfreundlicher, als oft dargestellt wird.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - bitcoin Mining:_ Der Prozess der Validierung von Transaktionen und der Sicherung des Netzwerks durch das Lösen von kryptografischen Rätseln, was Rechenleistung erfordert.
+
+- bitcoin Mining:_ Der Prozess der Validierung von Transaktionen und der Sicherung des Netzwerks durch das Lösen von kryptografischen Rätseln, was Rechenleistung erfordert.
 
 ### Falsche Vorstellungen über kriminelle Nutzung
 
@@ -359,10 +358,10 @@ Bitcoin wird oft kritisiert, weil es für kriminelle Aktivitäten verwendet wird
 **Privatsphäre** und **Fungibilität** sind wesentliche Merkmale von Bitcoin. Die Privatsphäre schützt Nutzer in repressiven Regimen, und die Fungibilität stellt sicher, dass jedes Bitcoin gleich ist, unabhängig von seiner Geschichte. Dies macht Bitcoin zu einer zuverlässigen und fairen Form von Geld.
 
 
-> **Definitionen:**
->
+**Definitionen:**
 
-> - fungibilität:_ Die Eigenschaft des Geldes, bei der jede Einheit durch eine andere austauschbar ist und somit den gleichen Wert hat.
+
+- fungibilität:_ Die Eigenschaft des Geldes, bei der jede Einheit durch eine andere austauschbar ist und somit den gleichen Wert hat.
 
 ### Umgang mit FUD und Marktdynamik
 
@@ -2967,7 +2966,7 @@ Es gibt verschiedene Lightning-Geldbörsen, die jeweils auf die unterschiedliche
 
 
 
-- Merkmale**: Ähnlich wie Breeze, verwendet ein LSP-Modell für die Liquidität, Open-Source, konzentriert sich auf die Einfachheit der Benutzer und ein effektives Liquiditätsmanagement.
+- Merkmale**: Ähnlich wie Breez, verwendet ein LSP-Modell für die Liquidität, Open-Source, konzentriert sich auf die Einfachheit der Benutzer und ein effektives Liquiditätsmanagement.
 
 
 #### Bitcoin Wallet (OBW) öffnen:
@@ -2985,7 +2984,7 @@ Wallets können danach klassifiziert werden, wer die privaten Schlüssel hält u
 
 
 - Verwahrte Geldbörsen**: Dritte halten private Schlüssel und bieten in der Regel ein automatisches Liquiditätsmanagement. Beispiele sind Wallet oder Satoshi.
-- Nicht-verwahrende Geldbörsen**: Die Nutzer besitzen private Schlüssel und müssen die Liquidität möglicherweise manuell verwalten. Beispiele sind Breeze und OBW.
+- Nicht-verwahrende Geldbörsen**: Die Nutzer besitzen private Schlüssel und müssen die Liquidität möglicherweise manuell verwalten. Beispiele sind Breez und OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3096,11 +3095,11 @@ Entwickler stehen vor der Herausforderung, ein nahtloses Liquiditätsmanagement 
 - Mögliche Lösungen**: Die Entwickler erforschen fortschrittliche Algorithmen für die **Liquiditätsweiterleitung** und die Nutzung von **dual-funded channels**, um sicherzustellen, dass auf beiden Seiten einer Transaktion Liquidität verfügbar ist.
 
 
-> **Definitionen**:
->
+**Definitionen**:
 
-> - **Liquidität**: Die Verfügbarkeit von Geldmitteln in einem Blitzkanal, um Zahlungen zu leisten oder zu erhalten.
-> - **LSP (Lightning Service Provider)**: Ein Dienst, der Benutzern hilft, Liquidität und Kanäle auf dem Lightning Network zu verwalten.
+
+- **Liquidität**: Die Verfügbarkeit von Geldmitteln in einem Blitzkanal, um Zahlungen zu leisten oder zu erhalten.
+- **LSP (Lightning Service Provider)**: Ein Dienst, der Benutzern hilft, Liquidität und Kanäle auf dem Lightning Network zu verwalten.
 
 ---
 
@@ -3129,12 +3128,12 @@ Die Entwickler haben die Aufgabe, die Komplexität von L1 und L2 für die Nutzer
 - Mögliche Lösungen**: Die Entwickler arbeiten an Funktionen wie dem **Splicing** (das es ermöglicht, Geldmittel zu einem Kanal hinzuzufügen oder zu entfernen, ohne ihn zu schließen) und automatischen Kanalmanagement-Tools.
 
 
-> **Definitionen**:
->
+**Definitionen**:
 
-> - **L1 (Layer 1)**: Bitcoin ist der Haupt-Blockchain Layer.
-> - **L2 (Layer 2)**: Der Lightning Network, der auf dem Bitcoin aufsetzt, um schnellere und billigere Transaktionen zu ermöglichen.
-> - **Splicing**: Eine Technik, die es ermöglicht, die Balance eines Blitzkanals zu ändern, ohne ihn schließen zu müssen.
+
+- **L1 (Layer 1)**: Bitcoin ist der Haupt-Blockchain Layer.
+- **L2 (Layer 2)**: Der Lightning Network, der auf dem Bitcoin aufsetzt, um schnellere und billigere Transaktionen zu ermöglichen.
+- **Splicing**: Eine Technik, die es ermöglicht, die Balance eines Blitzkanals zu ändern, ohne ihn schließen zu müssen.
 
 ---
 
@@ -3163,11 +3162,11 @@ Die Entwickler suchen nach Möglichkeiten, Lightning-Zahlungen auch dann zu empf
 - Mögliche Lösungen**: Die Forschung zu **Offline-Zahlungsgutscheinen**, die es den Empfängern ermöglichen würden, Zahlungen zu beantragen, sobald sie wieder mit dem Netz verbunden sind, ist noch nicht abgeschlossen.
 
 
-> **Definitionen**:
->
+**Definitionen**:
 
-> - **Offline-Zahlungen**: Zahlungen, die gesendet oder empfangen werden, während eine Partei nicht mit dem Lightning Network verbunden ist.
-> - **Vermögensverwaltete Geldbörsen**: Wallets, bei denen eine dritte Partei die privaten Schlüssel kontrolliert und die Transaktionen im Namen des Nutzers verwaltet.
+
+- **Offline-Zahlungen**: Zahlungen, die gesendet oder empfangen werden, während eine Partei nicht mit dem Lightning Network verbunden ist.
+- **Vermögensverwaltete Geldbörsen**: Wallets, bei denen eine dritte Partei die privaten Schlüssel kontrolliert und die Transaktionen im Namen des Nutzers verwaltet.
 
 ---
 
@@ -3196,10 +3195,10 @@ Die Entwickler müssen Backup-Lösungen implementieren, die es den Nutzern ermö
 - Mögliche Lösungen**: **Static Channel Backups (SCBs)** wurden entwickelt, um die Wiederherstellung zu vereinfachen, aber für vollautomatische und sichere Backups werden fortschrittlichere Lösungen benötigt.
 
 
-> **Definitionen**:
->
+**Definitionen**:
 
-> - **Statische Kanalsicherung (SCB)**: Eine Art der Sicherung, die es den Nutzern ermöglicht, ihre Mittel aus einem Lightning-Kanal im Falle eines Ausfalls wiederherzustellen, indem der letzte Zustand des Kanals wiederhergestellt wird.
+
+- **Statische Kanalsicherung (SCB)**: Eine Art der Sicherung, die es den Nutzern ermöglicht, ihre Mittel aus einem Lightning-Kanal im Falle eines Ausfalls wiederherzustellen, indem der letzte Zustand des Kanals wiederhergestellt wird.
 
 ---
 
@@ -3293,7 +3292,7 @@ blinded-Pfade wurden entwickelt, um die Privatsphäre des Empfängers im Lightni
 
 **Blitzdienstleister (LSPs)**
 
-Die von Breeze Wallet konzipierten Lightning Service Provider (LSPs) zielen darauf ab, die Benutzererfahrung zu verbessern, indem sie sofortige Empfangsfunktionen ermöglichen. LSPs öffnen Kanäle für Benutzer, ähnlich wie Internetdienstanbieter Konnektivitätsdienste anbieten. Diese Innovation vereinfacht den Onboarding-Prozess und sorgt für nahtlose Interaktionen mit dem Lightning Network.
+Die von Breez Wallet konzipierten Lightning Service Provider (LSPs) zielen darauf ab, die Benutzererfahrung zu verbessern, indem sie sofortige Empfangsfunktionen ermöglichen. LSPs öffnen Kanäle für Benutzer, ähnlich wie Internetdienstanbieter Konnektivitätsdienste anbieten. Diese Innovation vereinfacht den Onboarding-Prozess und sorgt für nahtlose Interaktionen mit dem Lightning Network.
 
 
 **Ressourcen, um auf dem Laufenden zu bleiben**
@@ -3342,12 +3341,12 @@ Herkömmliche Rechnungen haben jedoch ihre Grenzen. Zum Beispiel:
 - Größenbeschränkungen**: Große Rechnungen können in Form von QR-Codes schwer zu handhaben sein, was sie für bestimmte Anwendungen unpraktisch macht.
 
 
-> **Definitionen**:
->
+**Definitionen**:
 
-> - **Invoice**: Eine Zahlungsaufforderung im Lightning Network, die in der Regel den Betrag und die Empfängerangaben enthält.
-> - **HTLC (Hash Zeitgesperrte Contract)**: Eine Art von Smart contract, die verwendet wird, um bedingte Zahlungen innerhalb eines Zeitlimits zu gewährleisten.
-> - **Zwiebel-Routing**: Eine Datenschutztechnik, bei der Transaktionsdaten wie eine Zwiebel geschichtet werden, um die Identität von Absender und Empfänger zu schützen.
+
+- **Invoice**: Eine Zahlungsaufforderung im Lightning Network, die in der Regel den Betrag und die Empfängerangaben enthält.
+- **HTLC (Hash Zeitgesperrte Contract)**: Eine Art von Smart contract, die verwendet wird, um bedingte Zahlungen innerhalb eines Zeitlimits zu gewährleisten.
+- **Zwiebel-Routing**: Eine Datenschutztechnik, bei der Transaktionsdaten wie eine Zwiebel geschichtet werden, um die Identität von Absender und Empfänger zu schützen.
 
 ### Protokolle und Anwendungsfälle
 
@@ -3374,15 +3373,15 @@ Ein weiteres Protokoll, **RGB**, erweitert die Funktionalität von Lightning, in
 **Lightning Liquidity Service Providers (LSPs)** spielen ebenfalls eine wichtige Rolle bei der Ausweitung von Lightning-Zahlungen. LSPs stellen Liquidität für den Empfang von Zahlungen bereit, helfen bei der Öffnung von **dual-finanzierten Kanälen** und sorgen für nahtlose Transaktionen, indem sie Zahlungen abfangen und Kanäle on-the-fly öffnen.
 
 
-> **Definitionen**:
->
+**Definitionen**:
 
-> - **LNURL**: Ein Protokoll, das die dynamische Erstellung von Invoice ermöglicht, wodurch Zahlungen einfacher und flexibler werden.
-> - **Bolt 12**: Eine Erweiterung von Lightning, die Onion Messaging für den Datenschutz nutzt und gleichzeitig den Invoice-Abruf automatisiert.
-> - **Nostr**: Eine dezentralisierte Plattform, die LProtokolle und Use Cases integriert
-> blitzzahlungen für Mikro-Transaktionen.
-> - **RGB-Protokoll**: Ein Protokoll, das die Übertragung von Vermögenswerten, wie Token, über den Lightning Network ermöglicht.
-> - **LSP (Lightning Service Provider)**: Ein Unternehmen, das Liquidität bereitstellt und Kanäle für Lightning-Transaktionen öffnet, um das Netzwerk für Nutzer zugänglicher zu machen.
+
+- **LNURL**: Ein Protokoll, das die dynamische Erstellung von Invoice ermöglicht, wodurch Zahlungen einfacher und flexibler werden.
+- **Bolt 12**: Eine Erweiterung von Lightning, die Onion Messaging für den Datenschutz nutzt und gleichzeitig den Invoice-Abruf automatisiert.
+- **Nostr**: Eine dezentralisierte Plattform, die LProtokolle und Use Cases integriert
+- **blitzzahlungen** für Mikro-Transaktionen.
+- **RGB-Protokoll**: Ein Protokoll, das die Übertragung von Vermögenswerten, wie Token, über den Lightning Network ermöglicht.
+- **LSP (Lightning Service Provider)**: Ein Unternehmen, das Liquidität bereitstellt und Kanäle für Lightning-Transaktionen öffnet, um das Netzwerk für Nutzer zugänglicher zu machen.
 
 ### Geschäftsmodelle und fortgeschrittene Protokolle
 
@@ -3405,12 +3404,12 @@ Fortgeschrittene Protokolle wie **Point Time-Locked Contracts (PTLCs)** gehen so
 Protokolle wie **LNURL** und **Bolt 12** rationalisieren den Zahlungsverkehr, indem sie manuelle Interaktionen reduzieren, und sorgen dafür, dass das Lightning Network benutzerfreundlicher wird und eine größere Verbreitung findet.
 
 
-> **Definitionen**:
->
+**Definitionen**:
 
-> - **PTLC (Point Time-Locked Contract)**: Ein kryptographisches Primitiv, das die HTLCs verbessert und flexiblere und sicherere Zahlungen ermöglicht.
-> - **Vorabbild**: Ein Wert, der zum Entsperren eines HTLC verwendet wird und der auch als Zugangsschlüssel für Dienste dienen kann.
-> - **Auktionsmodell**: Ein Zahlungsmodell, bei dem die Zahlungen während einer Auktion in der Schwebe gehalten und erst freigegeben werden, wenn das höchste Gebot den Zuschlag erhält.
+
+- **PTLC (Point Time-Locked Contract)**: Ein kryptographisches Primitiv, das die HTLCs verbessert und flexiblere und sicherere Zahlungen ermöglicht.
+- **Vorabbild**: Ein Wert, der zum Entsperren eines HTLC verwendet wird und der auch als Zugangsschlüssel für Dienste dienen kann.
+- **Auktionsmodell**: Ein Zahlungsmodell, bei dem die Zahlungen während einer Auktion in der Schwebe gehalten und erst freigegeben werden, wenn das höchste Gebot den Zuschlag erhält.
 
 ### Schlussfolgerung
 

@@ -1,0 +1,8 @@
+question: Ni utaratibu gani wa msingi unaowezesha SegWit kuongeza uwezo wa kuzuia huku ikidumisha utangamano wa nyuma na nodi za kabla ya SegWit?
+answer: Mfumo wa uzito wa vitalu ambapo data ya shahidi hupunguzwa kwa 75% katika hesabu za uwezo, kuruhusu hadi jumla ya data ya 4MB huku nodi za zamani zikiona ≤1MB
+wrong_answers:
+  - Algoriti za kubana zinazopunguza ukubwa wa data ya shahidi kwa 75% kabla ya uwasilishaji, na kuweka vizuizi chini ya 1MB kwa nodi zote
+  - Marekebisho ya ukubwa wa vitalu vinavyobadilika ambayo huongeza mipaka kulingana na asilimia ya miamala ya SegWit katika kila kitalu
+  - Vizuizi tofauti vya ushahidi hutumwa kwa nodi zilizoboreshwa pekee, huku nodi za zamani zikipokea vizuizi vya kawaida vya 1MB
+explanation: |
+  SegWit hutumia vitengo vya uzito wa vitalu ambapo data ya muamala wa msingi huhesabiwa kama vitengo 4 vya uzito kwa baiti, huku data ya shahidi ikihesabiwa kama kitengo 1 cha uzito kwa baiti. Punguzo hili la 75% huruhusu kuzuia hadi vitengo milioni 4 vya uzito (uwezekano wa 4MB na data yote ya shahidi) huku ikihakikisha nodi za zamani hazioni zaidi ya 1MB ya data ya muamala wa msingi. Chaguo zingine zinaelezea mifumo isiyopo - hakuna mgandamizo, hakuna ukubwa unaobadilika, na hakuna upitishaji tofauti wa vitalu.

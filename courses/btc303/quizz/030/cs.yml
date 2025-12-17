@@ -6,3 +6,4 @@ wrong_answers:
   - Pro udržení zamýšlené úrovně zásobování je třeba je nahradit dodatečným mining
 explanation: |
   Satoshi Nakamoto vysvětlil, že ztracené mince fungují jako dar všem ostatním držitelům bitcoinů, protože jejich mince jsou díky snížené efektivní nabídce hodnotnější. Jedná se o pozitivní deflační efekt, nikoliv o destabilizující sílu. Ztracené mince nemají vliv na odměny mining, protože ty pocházejí z nově vyražených mincí a transakčních poplatků, nikoli ze stávající nabídky. Protokol Bitcoin nenahrazuje ztracené mince - ty zůstávají trvale mimo oběh, z čehož ve skutečnosti těží zbývající držitelé díky zvýšenému nedostatku.
+reviewed: false

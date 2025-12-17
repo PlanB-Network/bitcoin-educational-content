@@ -12,16 +12,17 @@ tags:
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-07-23
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0.39
+      - marshal-opsource
+    reward: 0.19
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: de
     last_contribution_date:
     urgency: 1
@@ -33,35 +34,36 @@ proofreading:
     contributor_names:
     reward: 0.77
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.77
+      - Salgraphics
+    reward: 0.39
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.66
+    reward: 1.67
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: it
     last_contribution_date: '2025-11-05'
     urgency: 1
@@ -72,17 +74,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.44
+    reward: 1.45
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -92,12 +94,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -107,39 +109,39 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.44
+    reward: 1.45
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.99
+    reward: 1.0
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.22
+    reward: 1.23
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.44
+    reward: 1.45

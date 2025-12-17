@@ -9,9 +9,9 @@ objectives:
 
 # Un'immersione nella storia della creazione di Bitcoin
 
-Benvenuti a questo corso dedicato alla storia della creazione di Bitcoin! Come utente, potresti esserti chiesto da dove provenga lo strumento che stai utilizzando. Inoltre, potresti non comprendere i riferimenti talvolta fatti alle persone e agli eventi che hanno segnato la breve storia della criptovaluta. Infine, studiare questa storia ti permetterà di capire meglio Bitcoin stesso, dato che entrerai a conoscenza del contesto che ha plasmato la sua lenta formazione.
+Benvenuto a questo corso dedicato alla storia della creazione di Bitcoin! Come utente, potresti esserti chiesto come sia nato lo strumento che stai utilizzando. Inoltre, potresti non comprendere i riferimenti talvolta fatti alle persone e agli eventi che hanno segnato la sua breve storia. Alla fine, studiare questa storia ti permetterà di capire meglio Bitcoin stesso, dato che entrerai a conoscenza del contesto che ha plasmato la sua lenta formazione.
 
-In questo corso, scoprirai la sua progettazione, il lancio e la struttura economica iniziale. Nella prima parte, esamineremo il contesto tecnico in cui il concetto di Bitcoin è emerso. Nella seconda parte, ci concentreremo sulla sua nascita e sul suo avviamento. Nella terza parte, studieremo come Bitcoin ha guadagnato importanza in termini di uso economico, di produzione mediante il processo di mining e di sviluppo software. Nella quarta parte, seguiremo semplicemente come Satoshi Nakamoto, il creatore di Bitcoin, sia gradualmente scomparso e come la community abbia preso il sopravvento, rendendo la criptovaluta un progetto veramente collettivo.
+In questo corso, scoprirai di più sulla progettazione di Bitcoin, sul lancio e sulla struttura economica iniziale. Nella prima parte, esamineremo il contesto tecnico in cui il concetto di Bitcoin è emerso. Nella seconda parte, ci concentreremo sulla sua nascita e sul suo avviamento. Nella terza parte, studieremo come Bitcoin ha guadagnato importanza in termini di uso economico, di produzione mediante il processo di mining e di sviluppo software. Nella quarta parte, seguiremo semplicemente come Satoshi Nakamoto, il creatore di Bitcoin, sia gradualmente scomparso e come la community abbia preso il sopravvento, rendendo la criptovaluta un progetto veramente collettivo.
 
 Questo corso è, naturalmente, centrato sulla figura di Satoshi Nakamoto, di cui scoprirai le parole e azioni. Inoltre, conoscerai anche altri personaggi che hanno partecipato allo sviluppo di Bitcoin durante i suoi primi anni di esistenza. Conoscerai così individui come Hal Finney, Martti Malmi, Laszlo Hanyecz, Gavin Andresen, Jeff Garzik o Amir Taaki, che sono stati i principali pionieri in questa crescita. Speriamo che questa immersione nella storia degli inizi di Bitcoin ti sia utile!
 
@@ -93,7 +93,7 @@ Pronto a esplorare l'incredibile saga della creazione di Bitcoin? Allora immergi
 :::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
 
 Prima di addentrarci nella vera e propria storia della creazione di Bitcoin da parte di Satoshi Nakamoto, è opportuno discutere ciò che l'ha preceduto. Affronteremo l'argomento in tre fasi: come prima cosa, introdurremo il concetto di denaro digitale Chaumiano comunemente chiamato *eCash*; poi, parleremo delle valute private basate su sistemi centralizzati come e-gold; infine, descriveremo i modelli tecnici che sono stati ideati prima dell'implementazione del potente sistema distribuito che è Bitcoin.
-Iniziamo con il primo concetto, eCash. eCash deriva dal lavoro di David Chaum, uno scienziato informatico e crittografo americano nato nel 1955, considerato un pioniere nel campo delle comunicazioni anonime e un precursore dei cypherpunk. Ha dato un contributo importante allo sviluppo della crittografia negli anni '80. Ha sviluppato il suo modello di denaro digitale (noto come "Chaumiano") nello stesso periodo e ha tentato di implementarlo negli anni '90 attraverso la sua azienda DigiCash.
+Iniziamo con il primo concetto, eCash. eCash deriva dal lavoro di David Chaum, uno scienziato informatico e crittografo americano nato nel 1955, considerato un pioniere nel campo delle comunicazioni anonime e un precursore dei cypherpunk. Ha dato un contributo importante allo sviluppo della crittografia negli anni '80, e ha sviluppato il suo modello di denaro digitale (noto come "Chaumiano") nello stesso periodo e ha tentato di implementarlo negli anni '90 attraverso la sua azienda DigiCash.
 
 L'azione di David Chaum seguì una rivoluzione concettuale: la rivelazione della crittografia asimmetrica nel 1976 da parte di Whitfield Diffie e Martin Hellman. L'idea della valuta digitale è emersa anche da questa scoperta fondamentale. Oltre a nascondere le informazioni contenute in un messaggio, la crittografia asimmetrica ha permesso l'istituzione di processi di firma. È così diventato possibile per una persona dimostrare matematicamente di essere il proprietario di una certa quantità di unità di conto digitale.
 
@@ -336,7 +336,7 @@ Con la diffusione di Internet negli anni '90, il problema delle email indesidera
 ![Adam Back nel 2001](assets/it/015.webp)
 Adam Back nel 2001 (fonte: [archivio della pagina personale di Adam Back](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/))
 
-Ma i cypherpunk non si sono limitati a considerare la proof of work come un semplice mezzo per limitare lo spam; volevano anche usarla come modo per garantire il costo di produzione di una valuta digitale. Così, nel 1997, Adam Back [immaginava](https://cypherpunks.venona.com/date/1997/04/msg00822.html) questa idea da solo, ma era consapevole che le prove di lavoro così ottenute non potevano essere trasferite in modo completamente distribuito (a causa del problema del doppio-spending) e che era quindi necessario passare attraverso un sistema centralizzato come eCash. Allo stesso modo, nel 1996, i crittografi Ronald Rivest e Adi Shamir descrivevano [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf), un sistema di micropagamento centralizzato i cui coins sarebbero stati impossibili da contraffare grazie alla produzione di prove di lavoro.
+Ma i cypherpunk non si sono limitati a considerare la proof of work come un semplice mezzo per limitare lo spam; volevano anche usarla come modo per garantire il costo di produzione di una valuta digitale. Così, nel 1997, Adam Back [immaginava](https://cypherpunks.venona.com/date/1997/04/msg00822.html) questa idea da solo, ma era consapevole che le prove di lavoro così ottenute non potevano essere trasferite in modo completamente distribuito (a causa del problema del double-spending) e che era quindi necessario passare attraverso un sistema centralizzato come eCash. Allo stesso modo, nel 1996, i crittografi Ronald Rivest e Adi Shamir descrivevano [MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf), un sistema di micropagamento centralizzato i cui coins sarebbero stati impossibili da contraffare grazie alla produzione di prove di lavoro.
 
 Bisognava trovare un sistema che permettesse a questo modello di funzionare in modo forte e sostenibile. Questo è ciò che i cypherpunk Wei Dai, Nick Szabo e Hal Finney hanno cercato di sviluppare con i loro rispettivi protocolli – b-money, bit gold e RPOW – che esamineremo in seguito. Ed è questo che Satoshi Nakamoto ha finito per fare includendo Hashcash nella progettazione di Bitcoin.
 
@@ -358,7 +358,7 @@ Dopo la sua pubblicazione sulla lista, b-money attirò l'attenzione dei cypherpu
 ### Bit gold: l'oro digitale prima di Bitcoin
 
 Il secondo modello emerso dalle idee dei cypherpunk fu il concetto di bit gold immaginato da Nick Szabo nel 1998. Quest'ultimo era un informatico americano di origine ungherese, che aveva in particolare lavorato come consulente per DigiCash per sei mesi. Cypherpunk, è noto per aver formalizzato la nozione di *smart contract* nel 1995.
-Nel 1994, Nick Szabo aveva creato una mailing list privata chiamata libtech-l. Come suggerisce il nome, si proponeva di ospitare discussioni su tecniche liberatorie, che permettessero di proteggere le libertà individuali dagli attacchi delle autorità. Cypherpunk come Wei Dai e Hal Finney vi avevano accesso, così come gli economisti Larry White e George Selgin, sostenitori della concorrenza valutaria hayekiana e del free banking.
+Nel 1994, Nick Szabo aveva creato una mailing list privata chiamata libtech-l. Come suggerisce il nome, si proponeva di ospitare discussioni su azioni libertarie, che permettessero di proteggere le libertà individuali dagli attacchi delle autorità. Cypherpunk come Wei Dai e Hal Finney vi avevano accesso, così come gli economisti Larry White e George Selgin, sostenitori della concorrenza valutaria hayekiana e del free banking.
 
 ![Nick Szabo nel 1997](assets/it/017.webp)
 Nick Szabo nel 1997 (fonte: [Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1))
@@ -434,11 +434,11 @@ Questo capitolo tratta della nascita di Bitcoin, che ha avuto luogo tra l'autunn
 
 ### La scoperta
 
-Secondo la sua [stessa](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [testimonianza](https://bitcointalk.org/index.php?topic=13.msg46#msg46), Satoshi Nakamoto ha iniziato a lavorare su Bitcoin durante la primavera del 2007. Dopo aver condotto varie ricerche sul tema delle valute digitali, ha infine trovato un modo per risolvere il problema del doppio-spending, ovvero della doppia spesa, senza la necessità di una terza parte fidata. Per oltre un anno, ha mantenuto il suo modello segreto, volendo perfezionarlo per garantirne la stabilità. Come ha [scritto](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617) in seguito:
+Secondo la sua [stessa](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [testimonianza](https://bitcointalk.org/index.php?topic=13.msg46#msg46), Satoshi Nakamoto ha iniziato a lavorare su Bitcoin durante la primavera del 2007. Dopo aver condotto varie ricerche sul tema delle valute digitali, ha infine trovato un modo per risolvere il problema del double-spending, ovvero della doppia spesa, senza la necessità di affidarsi a una terza parte. Per oltre un anno, ha mantenuto il suo modello segreto, per perfezionarlo e garantirne la stabilità. Come ha [scritto](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617) in seguito:
 
-> "Ad un certo punto, mi sono convinto che esistesse un modo per realizzarlo senza bisogno di alcuna fiducia e non potevo fare a meno di pensarci. Il lavoro riguardava più  la progettazione che la codifica."
+> "Ad un certo punto, mi sono convinto che esistesse un modo per realizzarlo senza bisogno di alcuna fiducia e non potevo fare a meno di pensarci. Il lavoro riguardava più la progettazione che la codifica."
 
-Per assicurarsi che funzionasse correttamente, Satoshi ha [programmato](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) un prototipo prima di redigere il White paper. Questo approccio è l'opposto di quello che di solito viene fatto all'interno della comunità accademica, dove i concetti sono formalmente presentati in articoli scientifici prima di essere implementati. Il creatore di Bitcoin ha [dichiarato](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html):
+Per assicurarsi che funzionasse correttamente, Satoshi ha [programmato](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html) un prototipo prima di redigere il White paper. Questo approccio è l'opposto di quello che di solito viene usato all'interno della comunità accademica, dove i concetti sono formalmente presentati in articoli scientifici prima di essere implementati. Il creatore di Bitcoin ha [dichiarato](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html):
 
 > "In realtà ho fatto il contrario. Ho dovuto scrivere tutto il codice prima di convincermi di poter risolvere ogni problema, poi ho pubblicato il White paper."
 
@@ -456,32 +456,32 @@ Il giorno dopo aver letto il riassunto inviato da Satoshi (ma non il documento),
 
 Il giorno successivo, il 22 agosto, Satoshi invia un'email a Wei Dai dicendo che "sta preparando la pubblicazione di un documento che espande le tue idee in un sistema completo e funzionante" e gli chiede l'anno di pubblicazione della sua pagina su b-money per citarla nel White paper. Come nel suo scambio con Adam Back, condivide la bozza del White paper con Wei Dai.
 
-Nonostante queste interazioni, Adam Back e Wei Dai non si interessano immediatamente al concetto di Satoshi. Solo anni dopo, infatti, torneranno su Bitcoin: Wei Dai nel 2010-2011 e Adam Back nel 2013.
+Nonostante queste interazioni, Adam Back e Wei Dai non si interessano immediatamente al concetto di Satoshi. Solo anni dopo, infatti, torneranno su Bitcoin: Wei Dai nel 2010-2011, e Adam Back nel 2013.
 
-Da parte sua, Satoshi termina i preparativi per rendere pubblica la sua invenzione. Il 3 ottobre, completa la prima versione del White paper di Bitcoin, ora con il suo nome scelto. Il 5 ottobre, si registra sulla piattaforma di gestione progetti SourceForge, dove il codice sorgente del software open-source sarebbe stato ospitato e gestito fino al 2011.
+Da parte sua, Satoshi termina i preparativi per rendere pubblica la sua invenzione. Il 3 ottobre, completa la prima versione del White paper di Bitcoin: ora con il nome scelto dal suo creatore. Il 5 ottobre, Satoshi si registra sulla piattaforma di gestione progetti SourceForge, dove il codice sorgente del software open-source sarebbe stato caricato e gestito fino al 2011.
 
 ### La pubblicazione del White paper
 
-Il 31 ottobre 2008, Satoshi Nakamoto pubblica [la prima versione del White paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) su una mailing list email dedicata alla crittografia, semplicemente chiamata "Cryptography mailing list". Questa lista è stata gestita dallo sviluppatore Perry Metzger dal 1996, dalla sua [creazione](https://cypherpunks.venona.com/date/1996/12/msg00102.html), ed è ospitata sul suo sito personale, Metdowd.com, dal [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). È il successore della lista dei cypherpunks, con la differenza che è soggetta a una stretta moderazione. Nel 2008, partecipavano ancora diversi ex cypherpunks, come John Gilmore, Hal Finney e Len Sassaman.
+Il 31 ottobre 2008, Satoshi Nakamoto pubblica [la prima versione del White paper](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf) su una mailing list email dedicata alla crittografia, semplicemente chiamata "Cryptography mailing list". Questa lista fu gestita dallo sviluppatore Perry Metzger a partire dal 1996, anno della sua [creazione](https://cypherpunks.venona.com/date/1996/12/msg00102.html), ed è inserita sul suo sito personale, Metdowd.com, dal [2003](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html). Si tratta del successore della lista dei cypherpunks, con la differenza che è soggetta a una stretta moderazione. Nel 2008, partecipavano ancora diversi ex cypherpunks, come John Gilmore, Hal Finney e Len Sassaman.
 
 Nella sua prima [email](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html) indirizzata alla lista, Satoshi scrive semplicemente:
 
-> "Ho lavorato a un nuovo sistema di denaro elettronico che è completamente peer-to-peer, senza alcuna parte terza fidata."
+> "Ho lavorato a un nuovo sistema di denaro elettronico che è completamente peer-to-peer, senza alcuna  terza parte fidata."
 
-Elenca anche le principali proprietà del suo modello:
+Nel documento, si elencano anche le principali proprietà del suo modello:
 
-- "Il doppio-spending è prevenuto con una rete peer-to-peer."
+- "Il double-spending è prevenuto con una rete peer-to-peer."
 - "Nessuna banca o altre parti fidate."
 - "I partecipanti possono essere anonimi."
 - "I nuovi coin sono creati da una prova di lavoro in stile Hashcash."
-- "La prova di lavoro utilizzata per generare nuovi coin consente anche di prevenire il doppio-spending all'interno del network."
+- "La prova di lavoro utilizzata per generare nuovi coin consente anche di prevenire il double-spending all'interno del network."
 
-Nella sua email, include un link al White paper, già presente su Bitcoin.org, che è un breve documento di 9 pagine, presentato come un articolo scientifico, che descrive il funzionamento tecnico di Bitcoin. Questo documento si concentra sul problema dei pagamenti online.
+Nella sua email, include un link al White paper (già presente su Bitcoin.org): è un breve documento di 9 pagine, presentato come un articolo scientifico, che descrive il funzionamento tecnico di Bitcoin. Questo documento si concentra sul problema dei pagamenti online.
 
 ![Titolo e riassunto della prima versione del white paper (Ottobre 2008)](assets/it/021.webp)
 
 In seguito a questo annuncio, Satoshi riceve alcune risposte, ma la maggior parte di esse sono scettiche. Viene criticato in particolare per tre cose:
-- In primo luogo, il cypherpunk James A. Donald [contesta](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) la scalabilità del sistema affermando che "non sembra scalare alla dimensione richiesta". Satoshi [risponde](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) che "la larghezza di banda potrebbe non essere così proibitiva come pensi".
+- In primo luogo, il cypherpunk James A. Donald [contesta](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) la scalabilità del sistema affermando che "non sembra scalare alla dimensione richiesta". Satoshi [risponde](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html) che "la larghezza della banda potrebbe non essere così proibitiva come pensi".
 
 - Il secondo commento negativo proviene da John R. Levine, autore del libro *Internet for Dummies* e consulente specializzato in infrastruttura email, filtraggio dello spam e brevetti software. Egli [critica](https://www.metzdowd.com/pipermail/cryptography/2008-November/014817.html) la sicurezza di Bitcoin menzionando la potenza computazionale detenuta da "fattorie di macchine zombie" composte da computer controllati da hacker. Sottolinea in particolare che, su Internet, "i buoni hanno significativamente meno potenza computazionale dei cattivi". Satoshi [risponde](https://www.metzdowd.com/pipermail/cryptography/2008-November/014818.html) brillantemente: "Il requisito è che i buoni collettivamente abbiano più potenza computazionale di qualsiasi singolo attaccante".
 

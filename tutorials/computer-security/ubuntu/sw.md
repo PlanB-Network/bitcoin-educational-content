@@ -1,4 +1,4 @@
- ---
+---
 name: Ubuntu
 description: Mwongozo kamili wa kusakinisha na kutumia Ubuntu kama njia mbadala ya Windows
 ---

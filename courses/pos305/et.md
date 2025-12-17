@@ -2082,7 +2082,7 @@ Serveriadministraatorid saavad avada rohkem üksikasju, et näha.
 #### LND (REST)
 
 
-BTCPay avaldab LND REST-teenuse väljastpoolt tarbimiseks; ühendusandmed leiate siit; ühilduvad rahakotid on loetletud siin. Ühilduvate rahakottide hulgas on Joule, Alby ja ZeusLN. BTCPay Server pakub ühenduse loomiseks QR-koodi, mida saab skannida ja rakendada ühilduvas Wallet-s.
+BTCPay avaldab LND REST-teenuse väljastpoolt tarbimiseks; ühendusandmed leiate [siit](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); ühilduvad rahakotid on loetletud [siin](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Ühilduvate rahakottide hulgas on Joule, Alby ja ZeusLN. BTCPay Server pakub ühenduse loomiseks QR-koodi, mida saab skannida ja rakendada ühilduvas Wallet-s.
 
 
 

@@ -1,0 +1,8 @@
+question: När en Bitcoin-nod startar upp och ansluter till nätverket för första gången, vilken är den primära mekanismen den använder för att upptäcka aktiva peers?
+answer: Kontakter med hårdkodade DNS-frön som underhålls av kärnutvecklare för att ta emot IP-adresser för aktiva peers
+wrong_answers:
+  - Sänder ett meddelande om upptäckt till alla IP-adresser i fördefinierade subnätintervall
+  - Ansluter till en central registerserver som upprätthåller en lista över alla aktiva noder
+  - Använder DHT-protokoll (Distributed Hash Table) för att hitta peers genom hashbaserad routing
+explanation: |
+  Bitcoin använder hårdkodade DNS-frön som bootstrap-mekanism eftersom det ger ett decentraliserat sätt för nya noder att komma in i nätverket utan att förlita sig på en central myndighet. DNS-frön underhålls av kärnutvecklare och returnerar IP-adresser till för närvarande aktiva peers. När noderna väl är anslutna kan de använda kommandot getaddr för att hitta ytterligare peers. De felaktiga svaren beskriver centraliserade tillvägagångssätt eller protokoll som inte används av Bitcoin - det finns inget centralt register, ingen subnätssändning och ingen DHT-baserad peer-upptäckt i Bitcoin:s design.

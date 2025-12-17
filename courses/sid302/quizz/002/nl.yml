@@ -1,0 +1,8 @@
+question: Hoe vaak worden er nieuwe blokken gegenereerd in de Liquid Network?
+answer: Elke minuut
+wrong_answers:
+  - Elke 10 minuten
+  - Elke 30 seconden
+  - Elke 5 minuten
+explanation: |
+  De Liquid Network produceert elke minuut blokken op een deterministische round-robin manier, wat veel sneller en voorspelbaarder is dan de probabilistische 10-minuten intervallen van de Bitcoin. Deze nauwkeurige timing van één minuut is cruciaal voor de use cases van het netwerk, zoals arbitrage en snelle inter-exchange settlement, en biedt de snelheid die nodig is voor institutionele handelsactiviteiten.

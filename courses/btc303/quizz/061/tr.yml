@@ -6,3 +6,4 @@ wrong_answers:
   - Kullanıcılar, yazılım davranışını doğrulamak için güvenilir geliştiricilerin kriptografik imzalarına güvenmelidir
 explanation: |
   Bu bölümde, kullanıcıların Bitcoin yazılımının 'söylendiği gibi çalıştığını' doğrulayabilmeleri için kaynak koduna sınırsız erişime sahip olmaları gerektiği açıkça belirtilmektedir. Bu doğrudan 'Güvenme, Doğrula' ilkesine ve açık kaynak tanımının kaynak kodunun erişilebilirliği gerekliliğine bağlanmaktadır. Yanlış cevaplar temel açık kaynak ilkeleriyle çelişmektedir: izin istemek ücretsiz erişim ilkesini ihlal eder, ücret ödemek ücretsiz dağıtım gerekliliğiyle çelişir ve yalnızca imzalara güvenmek açık kaynağın sağladığı denetim yoluyla doğrulama özelliğini zayıflatır.
+reviewed: false

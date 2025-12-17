@@ -6,3 +6,4 @@ wrong_answers:
   - 立即啟動硬體 fork，而沒有提供使用者足夠的時間來升級節點軟體
 explanation: |
   根據 Eric Lombrozo 的分析，Satoshi 的問題在於將破壞共識的變更隱藏在提交中，並使用誤導性的描述，只提到「revoted makefile.unix wx-config version 0.3.6」，卻沒有任何破壞變更的說明。以現今的標準來看，這種將重要的共識修改隱藏在看起來無傷大雅的提交中的做法是不可接受的，因為在 Bitcoin 開發中，共識修改的透明度和明確溝通是基本原則。
+reviewed: false

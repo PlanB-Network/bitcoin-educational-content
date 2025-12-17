@@ -1,5 +1,5 @@
 ---
-name: नर्डक्यूएक्स
+name: NerdQaxe
 description: NerdQaxe के साथ खनन कैसे करें?
 ---
 

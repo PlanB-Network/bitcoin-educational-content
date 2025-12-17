@@ -1,6 +1,5 @@
 question: Ni ibihe bikorwa uhanuriwe gukora ngo umuntu ugire umutekano ukwiye hamwe nukwemeze gukomeye?
-answer: Koresha aderese imeyiri ifise umutekano n'ubutunganyirizo bw'ijambo ry'ibanga, kandi wimenyereze gukoresha
-2FA ukoresheje YubiKeys.
+answer: Koresha aderese imeyiri ifise umutekano n'ubutunganyirizo bw'ijambo ry'ibanga, kandi wimenyereze gukoresha 2FA ukoresheje YubiKeys.
 wrong_answers:
   - Koresha ijambobanga rusangi kuri konti zose, kandi wirinde 2FA
   - Koresha ijambobanga ryoroshe kandi wizigire amakuru ya biometric ya 2FA

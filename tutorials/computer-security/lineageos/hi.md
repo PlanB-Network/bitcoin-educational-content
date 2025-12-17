@@ -1,5 +1,5 @@
 ---
-name: lineageOs
+name: LineageOS
 description: स्मार्टफ़ोन के लिए मुफ़्त, अनग्लूड एंड्रॉइड ऑपरेटिंग सिस्टम
 ---
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Để tránh các vấn đề trách nhiệm pháp lý có thể phát sinh do tiết lộ sớm cho các dự án của bên thứ ba
 explanation: |
   Chiến lược thời gian phản ánh phương pháp tiếp cận ưu tiên bảo mật, trong đó mạng lưới Bitcoin phải được bảo vệ trước khi hỗ trợ các mạng khác. Nếu các altcoin được thông báo đồng thời, kẻ tấn công có thể nghiên cứu các triển khai altcoin hoặc khai thác chúng để hiểu lỗ hổng, sau đó có khả năng tấn công các nút Bitcoin chưa được nâng cấp. Phương pháp tiếp cận tuần tự đảm bảo khả năng bảo vệ rộng rãi của Bitcoin trước khi mở rộng hỗ trợ sang các mạng khác, giảm thiểu thời gian khai thác lỗ hổng trên toàn hệ sinh thái.
+reviewed: false

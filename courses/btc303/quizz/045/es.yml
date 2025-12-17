@@ -6,3 +6,4 @@ wrong_answers:
   - Activación inmediata del hard fork sin dar a los usuarios tiempo suficiente para actualizar el software de sus nodos
 explanation: |
   Según el análisis de Eric Lombrozo, el enfoque problemático de Satoshi consistía en disfrazar un cambio que rompía el consenso en una confirmación con una descripción engañosa que mencionaba sólo "revertido makefile.unix wx-config versión 0.3.6" sin ninguna indicación de los cambios que rompían el consenso. Esta práctica de ocultar modificaciones críticas de consenso en confirmaciones de apariencia inocua se consideraría inaceptable según los estándares actuales, en los que la transparencia y la comunicación clara sobre los cambios de consenso son principios fundamentales del desarrollo de Bitcoin.
+reviewed: false

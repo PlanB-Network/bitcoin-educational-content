@@ -6,3 +6,4 @@ wrong_answers:
   - Bukti keamanan formal akan mengungkapkan kerentanan kepada pihak lawan, sehingga tetap dirahasiakan oleh pengembang inti
 explanation: |
   Seperti yang dijelaskan oleh Jameson Lopp, Bitcoin dibangun tanpa spesifikasi atau model keamanan yang didefinisikan secara formal karena kompleksitasnya yang melekat dan sifatnya yang samar-samar. Tidak seperti sistem yang lebih sederhana seperti protokol penandatanganan yang memiliki asumsi keamanan yang jelas, Bitcoin melibatkan beberapa komponen yang saling berinteraksi termasuk kriptografi, ekonomi, teori permainan, dan perilaku manusia. Kompleksitas ini membuat tidak mungkin untuk membuat bukti matematis formal dari keamanan, meskipun sistem ini menunjukkan keamanan praktis melalui operasi dunia nyata.
+reviewed: false

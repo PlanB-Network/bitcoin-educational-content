@@ -6,3 +6,4 @@ wrong_answers:
   - Změny Soft fork se stávají trvalými a nelze je měnit, jakmile je horníci aktivují
 explanation: |
   Shaolinfry zjistil, že signalizace horníků vytváří přirozený systém veta, kdy i malé procento hashrate může zabránit aktivaci upgradů pro celou síť. Tato "setrvačnost při upgradu" se stává problematičtější s tím, jak se mining stává více decentralizovaným, což může blokovat prospěšná vylepšení protokolu. Ostatní varianty zkreslují fungování soft forků - těžaři nemohou jednostranně zvrátit aktivaci, ekonomické uzly si zachovávají validační autoritu a soft forky lze teoreticky upravovat prostřednictvím následných upgradů.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Dans le processus de prise de contact du réseau P2P de Bitcoin, quelle condition spécifique doit être remplie avant que deux nœuds puissent commencer à relayer activement des inventaires et des données de transaction ?
+answer: Les deux nœuds doivent s'échanger des messages de version et de vérification
+wrong_answers:
+  - Le nœud de connexion doit recevoir une confirmation DNS seed de la part des développeurs principaux
+  - "Les deux nœuds doivent vérifier la hauteur du bloc et le hachage de la pointe de la chaîne de l'autre nœud
+  - "Le nœud de réception doit valider le certificat du nœud de connexion"
+explanation: |
+  La poignée de main Bitcoin P2P nécessite un échange bidirectionnel dans lequel le nœud de connexion envoie un message de version, le destinataire répond avec verack et son propre message de version, et l'expéditeur d'origine répond avec son verack. Ce n'est qu'après cet échange complet de quatre messages (version→verack+version→verack) que les nœuds peuvent commencer à communiquer activement. Les semences DNS ne sont utilisées que pour la découverte initiale des pairs, et non pour l'échange de mains. Bitcoin n'utilise pas de certificats, et la validation de la chaîne a lieu après l'établissement de la connexion.

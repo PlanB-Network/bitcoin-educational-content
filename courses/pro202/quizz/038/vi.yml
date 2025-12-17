@@ -1,0 +1,8 @@
+question: Điều gì quyết định mức phí giao dịch trong giao dịch Bitcoin trong quá trình xây dựng?
+answer: Sự khác biệt giữa tổng giá trị của tất cả các đầu vào và tổng giá trị của tất cả các đầu ra.
+wrong_answers:
+  - Một tỷ lệ phần trăm cố định của tổng giá trị giao dịch được tính toán bởi giao thức mạng.
+  - Kích thước của giao dịch tính bằng byte nhân với tỷ lệ tiêu chuẩn do các thợ đào đặt ra.
+  - Số lượng chữ ký cần thiết trên tất cả các nguồn đầu vào cộng với phí mạng cơ bản.
+explanation: |
+  Phí giao dịch Bitcoin được xác định bằng sự khác biệt giữa tổng số đầu vào và tổng số đầu ra. Khi tạo một giao dịch, bạn chọn UTXO làm đầu vào và tạo đầu ra cho người nhận và tiền thừa. Bất kỳ khoản tiền dư nào sẽ trở thành phí, khuyến khích các thợ đào khác đưa giao dịch của bạn vào. Phí không được tính theo tỷ lệ phần trăm, tỷ lệ cố định hoặc số lượng chữ ký - mà chỉ đơn giản là số tiền còn lại chưa được phân bổ trong số dư giá trị của giao dịch.

@@ -1,0 +1,8 @@
+question: Kuinka usein Liquid Network:ssa luodaan uusia lohkoja?
+answer: Joka minuutti
+wrong_answers:
+  - 10 minuutin välein
+  - 30 sekunnin välein
+  - 5 minuutin välein
+explanation: |
+  Liquid Network tuottaa lohkoja minuutin välein deterministisesti round-robin-muodossa, mikä on paljon nopeampaa ja ennustettavampaa kuin Bitcoin:n todennäköiset 10 minuutin välein tapahtuvat lohkot. Tämä tarkka yhden minuutin ajoitus on ratkaisevan tärkeää verkon käyttötapauksissa, kuten arbitraasissa ja nopeassa pörssien välisessä selvityksessä, ja se tarjoaa institutionaalisen kaupankäynnin edellyttämän nopeuden.

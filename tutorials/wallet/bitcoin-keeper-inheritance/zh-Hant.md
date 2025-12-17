@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - 繼承計劃
+name: Bitcoin Keeper - 遺產規劃
 description: 設定並使用 Bitcoin Keeper Wallet 與 Tapsigners 來建立繼承計畫
 ---
 

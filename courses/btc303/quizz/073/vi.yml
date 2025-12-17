@@ -6,3 +6,4 @@ wrong_answers:
   - Sau thời gian cấm vận tiêu chuẩn 90 ngày bất kể trạng thái triển khai
 explanation: |
   Bitcoin Core tuân theo một mốc thời gian công bố dựa trên triển khai thay vì một khoảng thời gian cố định. Ngưỡng 80% đảm bảo phần lớn mạng được bảo vệ trước khi kẻ tấn công có thể biết về lỗ hổng thông qua việc công khai. Cách tiếp cận này ưu tiên bảo mật mạng hơn các mốc thời gian tùy ý, vì việc công bố sớm có thể khiến 20% số nút còn lại bị tấn công có chủ đích. Các tùy chọn khác thể hiện các thông lệ phổ biến trong bảo mật phần mềm truyền thống nhưng không tính đến bản chất phi tập trung của Bitcoin, nơi người dùng phải tự nguyện nâng cấp nút của mình.
+reviewed: false

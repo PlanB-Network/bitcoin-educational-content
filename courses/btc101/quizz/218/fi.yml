@@ -1,9 +1,9 @@
-question: Milloin Lightning Network validointiin ja otettiin käyttöön ensimmäistä kertaa?
-answer: 2017
+question: Miksi Lightning-kanava voi olla käyttökelvoton yhteen suuntaan?
+answer: Riittämätön likviditeetti
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - Liian uusi lohko
+  - Vanhentunut HTLC
+  - Synkronoimaton solmu
 explanation: |
-  Lightning Network validointiin ja otettiin käyttöön ensimmäistä kertaa vuonna 2017.
-reviewed: true
+  Vaikka kapasiteetti olisi suuri, kanava mahdollistaa maksun vain, jos oikealla puolella on riittävästi likviditeettiä.
+reviewed: false

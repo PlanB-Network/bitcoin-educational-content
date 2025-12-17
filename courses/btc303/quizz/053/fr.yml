@@ -6,3 +6,4 @@ wrong_answers:
   - Le Bitcoin utilise des signatures cryptographiques pour la protection, tandis que les bâtiments s'appuient sur des systèmes de contrôle d'accès et de surveillance
 explanation: |
   La distinction essentielle est que les systèmes en ligne comme le Bitcoin sont confrontés à des adversaires anonymes qui exploiteront inévitablement toute faiblesse connue, contrairement aux systèmes physiques pour lesquels nous pouvons accepter un certain risque parce que les auteurs peuvent être identifiés et poursuivis en justice. Comme l'a fait remarquer Andrew Poelstra, nous n'avons pas le luxe de pouvoir dissuader les forces de l'ordre en ligne - s'il est possible de nuire au système, des acteurs anonymes le feront. Cela oblige le Bitcoin à s'attaquer à toutes les vulnérabilités plutôt que d'accepter des risques calculés.
+reviewed: false

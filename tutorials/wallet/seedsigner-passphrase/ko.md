@@ -1,5 +1,5 @@
 ---
-name: BIP-39 암호문구 시드서명자
+name: BIP-39 Passphrase SeedSigner
 description: 시드사인 포트폴리오에 passphrase을 추가하려면 어떻게 해야 하나요?
 ---
 

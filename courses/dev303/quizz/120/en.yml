@@ -1,4 +1,4 @@
-question: What is the most significant privacy trade-off introduced when migrating from a self-managed LDK implementation to Breeze SDK's cloud-based architecture?
+question: What is the most significant privacy trade-off introduced when migrating from a self-managed LDK implementation to Breez SDK's cloud-based architecture?
 answer: Greenlight gains potential visibility into payment destinations and invoice generation activities through cloud-based routing
 wrong_answers:
   - "Private keys are stored on Blockstream's servers instead of locally on the user's device"

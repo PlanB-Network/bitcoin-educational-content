@@ -472,16 +472,16 @@ Määritellään se ensin. Oletetaan sanakirja *D*, joka rinnastaa kaikki englan
 
 Siirtymäsalakirjoituksen modulo-operaattori varmistaa, että kirjaimet kiertyvät ympäri, joten kaikki salatekstin kirjaimet ovat määriteltyjä. Esimerkkinä mainittakoon, että shift-salausmenetelmää sovelletaan sanaan "DOG".
 
-Oletetaan, että valitsit yhdenmukaisesti avaimen, jonka arvo on 17. Kirjain "O" vastaa arvoa 15. Ilman modulo-operaatiota tämän selvätekstiluvun ja avaimen yhteenlasku antaisi salatekstiluvuksi 32. Tätä salatekstilukua ei kuitenkaan voida muuttaa salatekstin kirjaimeksi, koska englantilaisissa aakkosissa on vain 26 kirjainta. Modulo-operaatio varmistaa, että salatekstin luku on itse asiassa 6 (tulos $32 \mod 26$), mikä vastaa salatekstin kirjainta "G".
+Oletetaan, että valitsit tasaisesti avaimen, jonka arvo on $17$. Kirjain ”O” vastaa arvoa $14$. Ilman modulo-operaatiota tämän selkotekstin luvun ja avaimen yhteenlasku olisi antanut salatekstiksi luvun $31$. Tätä lukua ei kuitenkaan voida muuntaa salatekstikirjaimeksi, koska englannin aakkosissa on vain $26$ kirjainta. Modulo-operaatio varmistaa, että salatekstin luku on itse asiassa $5$ (tulos $31 \mod 26$), mikä vastaa salakirjainta ”F”.
 
 Koko sanan "DOG" salaus, jonka avainarvo on 17, on seuraava:
 
 
-- Viesti = DOG = D,O,G = 3,15,6
+**Viesti = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Kaikki ymmärtävät intuitiivisesti, miten shift-salaus toimii, ja todennäköisesti käyttävät sitä itse. Kryptografian tuntemuksen syventämiseksi on kuitenkin tärkeää, että alat oppia tuntemaan paremmin formalisointia, sillä skeemoista tulee paljon vaikeampia. Siksi siirtosalauksen vaiheet formalisoitiin.
 

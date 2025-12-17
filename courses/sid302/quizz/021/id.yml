@@ -1,0 +1,8 @@
+question: Apa keuntungan bisnis utama yang diberikan oleh waktu penyelesaian 2 menit Liquid dibandingkan sistem keuangan tradisional?
+answer: Mengurangi risiko mitra pengimbang dengan memungkinkan penyelesaian secara atomik di mana pengiriman dan pembayaran terjadi secara bersamaan
+wrong_answers:
+  - Menghilangkan kebutuhan akan kepatuhan terhadap peraturan dan persyaratan KYC dalam perdagangan aset
+  - Memungkinkan skalabilitas tak terbatas untuk perdagangan frekuensi tinggi tanpa biaya transaksi
+  - Memungkinkan penemuan harga otomatis melalui algoritme pembuatan pasar bawaan
+explanation: |
+  Penyelesaian 2 menit Liquid memungkinkan penyelesaian secara atomik, yang sangat penting untuk mengurangi risiko counterparty karena kedua belah pihak menerima apa yang menjadi kewajiban mereka secara bersamaan, menghilangkan celah di mana salah satu pihak dapat mengalami gagal bayar. Penyelesaian T+2 tradisional menciptakan jendela di mana risiko counterparty ada. Opsi lainnya tidak tepat: Liquid masih membutuhkan kepatuhan melalui AMP, memiliki biaya transaksi dan batas penskalaan, dan tidak menyediakan pembuatan pasar otomatis.

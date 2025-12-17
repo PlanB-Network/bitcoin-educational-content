@@ -6,3 +6,4 @@ wrong_answers:
   - Sie müssen durch zusätzliche mining ersetzt werden, um das geplante Versorgungsniveau aufrechtzuerhalten
 explanation: |
   Satoshi Nakamoto erklärte, dass verlorene Münzen als Spende an alle anderen Bitcoin-Inhaber fungieren, indem sie deren Münzen aufgrund des geringeren effektiven Angebots wertvoller machen. Dies ist ein positiver deflationärer Effekt, keine destabilisierende Kraft. Verlorene Münzen wirken sich nicht auf mining-Belohnungen aus, da diese aus neu geprägten Münzen und Transaktionsgebühren stammen, nicht aus dem vorhandenen Angebot. Das Bitcoin-Protokoll ersetzt keine verlorenen Münzen - sie bleiben dauerhaft aus dem Verkehr gezogen, was den verbleibenden Besitzern durch die erhöhte Knappheit sogar zugute kommt.
+reviewed: false

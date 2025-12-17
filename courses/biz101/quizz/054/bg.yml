@@ -5,5 +5,5 @@ wrong_answers:
   - Koinly
   - ZenLedger
 explanation: |
-  Sparrow не е счетоводно решение Bitcoin, докато другите са (това е софтуер Bitcoin Wallet).
+  Sparrow не е счетоводно решение Bitcoin, докато другите са (Sparrow е софтуерен Bitcoin портфейл).
 reviewed: true

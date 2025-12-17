@@ -6,3 +6,4 @@ wrong_answers:
   - "Protokol Bitcoin secara otomatis mengunci koin yang tidak bergerak dalam waktu lama untuk mencegah inflasi"
 explanation: |
   Bab ini menjelaskan bahwa meskipun jumlah maksimum teoretisnya adalah sekitar 20.999.817 BTC, jumlah pasokan yang dapat digunakan sebenarnya jauh lebih rendah karena kesalahan manusia dan kehilangan. Kunci pribadi yang hilang membuat bitcoin tidak dapat diakses secara permanen, dompet dicuri atau dilupakan, dan koin terkadang dikirim ke alamat yang tidak valid. Faktor-faktor ini menciptakan pengurangan pasokan permanen yang menguntungkan pemegang yang tersisa, seperti yang dicatat oleh Satoshi bahwa koin yang hilang membuat koin orang lain menjadi lebih berharga.
+reviewed: false

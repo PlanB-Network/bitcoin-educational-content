@@ -6,3 +6,4 @@ wrong_answers:
   - Mejora del rendimiento de la verificación de firmas para procesar los bloques con mayor rapidez
 explanation: |
   El capítulo define explícitamente el escalado de Bitcoin como "el aumento de la capacidad de uso de Bitcoin sin comprometer su resistencia a la censura" La respuesta correcta viola esta definición porque exigir a los usuarios que confíen en procesadores de pago centralizados compromete directamente la resistencia a la censura de Bitcoin, una de sus principales propuestas de valor. Todas las respuestas erróneas representan enfoques de escalado legítimos mencionados en el capítulo: la codificación eficiente reduce el uso de recursos, las soluciones por capas permiten aumentar la capacidad conservando las propiedades de la capa base y la verificación de firmas mejorada aumenta el rendimiento sin concesiones a la centralización.
+reviewed: false

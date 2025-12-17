@@ -6,3 +6,4 @@ wrong_answers:
   - "Ataque de ingeniería social; es ineficaz porque los desarrolladores de Bitcoin utilizan métodos de verificación formal para evitar la manipulación"
 explanation: |
   Un ataque Sybil se produce cuando una entidad controla varios nodos para hacerse pasar por muchas entidades distintas. Sin embargo, este ataque es ineficaz contra Bitcoin porque la red no se basa en el recuento de nodos ni en la votación democrática entre los participantes de la red. En su lugar, Bitcoin utiliza el consenso proof-of-work, en el que la potencia de cálculo (hashpower) determina las decisiones de la red, no el número de nodos. Esto hace imposible que un atacante gane influencia simplemente haciendo funcionar muchos nodos sin los recursos computacionales correspondientes.
+reviewed: false

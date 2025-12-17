@@ -1,0 +1,8 @@
+question: Hva er den største fordelen med dobbel-og-add-algoritmen for skalarmultiplikasjon i elliptisk kurvekryptografi?
+answer: Det reduserer beregningskompleksiteten fra O(n) til O(log n)-operasjoner
+wrong_answers:
+  - Det eliminerer behovet for modulær aritmetikk i endelige felt
+  - Den konverterer det diskrete logaritmeproblemet til en polynomisk tidsløsning
+  - Det gjør det mulig å beregne private nøkler direkte fra offentlige nøkler
+explanation: |
+  Dobbel-og-add-algoritmen forbedrer effektiviteten betydelig ved å redusere beregningskompleksiteten fra O(n) lineære addisjoner til O(log n) operasjoner. Dette fungerer ved å skanne skalarens binære representasjon, doble punktet i hvert trinn og bare legge til generatorpunktet når biten er 1. De andre alternativene er feil: modulær aritmetikk er fortsatt nødvendig i endelige felt, problemet med diskret logaritme er fortsatt ugjennomførbart (noe som er avgjørende for sikkerheten), og private nøkler kan ikke beregnes ut fra offentlige nøkler uansett hvilken multiplikasjonsalgoritme som brukes.

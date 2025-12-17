@@ -1,0 +1,8 @@
+question: Hvilket skript må brukes i sighash-beregningsprosessen når du genererer signaturer for en P2SH-inndata under transaksjonskonstruksjon?
+answer: Skriptet redeem må brukes i stedet for scriptPubKey
+wrong_answers:
+  - Den opprinnelige scriptPubKey som inneholder hashen, må brukes direkte
+  - En kombinasjon av både scriptPubKey og redeem script må brukes
+  - ScriptSig som inneholder opplåsingsdataene, må brukes i stedet
+explanation: |
+  Under P2SH-signaturgenerering krever sighash-prosessen at man bruker redeem-skriptet i stedet for scriptPubKey. Dette er avgjørende fordi scriptPubKey bare inneholder hashen til redeem-skriptet, ikke de faktiske utgiftsbetingelsene. Innløsningsskriptet inneholder den virkelige logikken (som multisig-krav) som avgjør hvordan utbetalingene kan brukes, så signaturer må genereres mot dette underliggende skriptet for å være gyldige. Hvis scriptPubKey brukes direkte, vil det mislykkes fordi den bare inneholder en hash-sammenligning, ikke de faktiske utgiftsbetingelsene som må oppfylles.

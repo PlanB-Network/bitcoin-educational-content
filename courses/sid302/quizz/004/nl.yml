@@ -1,0 +1,8 @@
+question: Met welke cryptografische functie kan Liquid transactiebedragen en activatypes verbergen voor het publiek?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Hardwarebeveiligingsmodules (HSM's)
+  - Dynamisch federatieprotocol (Dynafed)
+  - Peg-out autorisatiesleutels (PAK's)
+explanation: |
+  Confidential Transactions (CT) is de cryptografische functie die Liquid in staat stelt om activatypes en transactiebedragen te verbergen voor het publieke grootboek, terwijl het netwerk toch de geldigheid van transacties kan verifiëren. Dit biedt commerciële privacy die essentieel is voor instellingen. Hardware Security Modules zijn fysieke apparaten die privésleutels beveiligen, het Dynafed protocol beheert federatiewijzigingen en PAK's controleren het peg-out proces.

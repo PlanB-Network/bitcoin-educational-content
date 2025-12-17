@@ -2082,7 +2082,7 @@ Palvelimen ylläpitäjät voivat avata lisätietoja.
 #### LND (REST)
 
 
-BTCPay tarjoaa LND:n REST-palvelun ulkopuolisille; löydät yhteystiedot täältä; yhteensopivat lompakot on lueteltu täällä. Yhteensopiviin lompakoihin kuuluvat Joule, Alby ja ZeusLN. BTCPay-palvelin tarjoaa yhteyden muodostamista varten QR-koodin, joka voidaan skannata ja soveltaa yhteensopivassa Wallet:ssa.
+BTCPay tarjoaa LND:n REST-palvelun ulkopuolisille; löydät yhteystiedot [täältä](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); yhteensopivat lompakot on lueteltu [täällä](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Yhteensopiviin lompakoihin kuuluvat Joule, Alby ja ZeusLN. BTCPay-palvelin tarjoaa yhteyden muodostamista varten QR-koodin, joka voidaan skannata ja soveltaa yhteensopivassa Wallet:ssa.
 
 
 

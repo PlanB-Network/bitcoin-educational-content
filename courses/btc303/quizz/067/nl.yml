@@ -6,3 +6,4 @@ wrong_answers:
   - Prestaties van handtekeningverificatie verbeteren om blokken sneller te verwerken
 explanation: |
   Het hoofdstuk definieert Bitcoin schalen expliciet als 'het verhogen van de gebruikscapaciteit van Bitcoin zonder de censuurbestendigheid in gevaar te brengen' Het juiste antwoord is in strijd met deze definitie, omdat de eis dat gebruikers vertrouwen moeten hebben in gecentraliseerde betalingsverwerkers direct afbreuk doet aan de censuurbestendigheid van Bitcoin - een kernpropositie. De foute antwoorden vertegenwoordigen allemaal legitieme schaalbenaderingen die in het hoofdstuk worden genoemd: efficiënte codering vermindert het gebruik van bronnen, gelaagde oplossingen maken extra capaciteit mogelijk met behoud van de eigenschappen van de basislaag en verbeterde verificatie van handtekeningen verbetert de prestaties zonder in te leveren op centralisatie.
+reviewed: false

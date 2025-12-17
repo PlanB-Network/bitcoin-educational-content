@@ -6,3 +6,4 @@ wrong_answers:
   - The upgrade caused a permanent chain split because miners and users disagreed on the implementation details
 explanation: |
   The BIP66 incident revealed a critical flaw in miner-activated soft forks: signaling readiness doesn't guarantee actual validation. Despite 95% of miners indicating they were ready for the upgrade, approximately half weren't properly validating the new rules and mistakenly mined on an invalid block. This demonstrated that hash power signaling can be misleading and doesn't ensure proper implementation, which was one of Shaolinfry's key arguments for proposing User Activated Soft Forks as a more reliable upgrade mechanism.
+reviewed: false

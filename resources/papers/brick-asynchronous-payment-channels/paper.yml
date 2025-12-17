@@ -1,0 +1,19 @@
+title: "Brick: Asynchronous Payment Channels"
+original_language: en
+authors:
+  - Georgia Avarikioti
+  - Eleftherios Kokoris Kogias
+  - Roger Wattenhofer
+  - Dionysis Zindros
+abstract: |
+  Off-chain protocols (channels) are a promising solution to the scalability and privacy challenges of blockchain payments. Current proposals, however, require synchrony assumptions to preserve the safety of a channel, leaking to an adversary the exact amount of time needed to control the network for a successful attack. In this paper, we introduce BRICK, the first payment channel that remains secure under network asynchrony and concurrently provides correct incentives. The core idea is to incorporate the conflict resolution process within the channel by introducing a rational committee of external parties, called Wardens. Hence, if a party wants to close a channel unilaterally, it can only get the committee’s approval for the last valid state. BRICK provides sub-second latency because it does not employ heavy-weight consensus. Instead, BRICK uses consistent broadcast to announce updates and close the channel, a light-weight abstraction that is powerful enough to preserve safety and liveness to any rational parties. Furthermore, we consider permissioned blockchains, where the additional property of auditability might be desired for regulatory purposes. We introduce BRICK+, an off-chain construction that provides auditability on top of BRICK without conflicting with its privacy guarantees. We formally define the properties our payment channel construction should fulfill, and prove that both BRICK and BRICK+ satisfy them. We also design incentives for BRICK such that honest and rational behavior aligns. Finally, we provide a reference
+  implementation of the smart contracts in Solidity.
+publication_date: 2020-06-19
+paper_type: pre-print
+source: arXiv
+topics:
+  - Payment Channel Networks
+  - Smart Contract Security
+  - Off-Chain Scalability
+pdf_url: https://arxiv.org/pdf/1905.11360
+id: b4ed0846-96d2-48fe-9217-e5800c47a955

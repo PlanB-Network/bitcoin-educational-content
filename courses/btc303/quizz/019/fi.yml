@@ -6,3 +6,4 @@ wrong_answers:
   - "Pseudonyymit järjestelmät piilottavat transaktioiden summat, kun taas anonyymit järjestelmät piilottavat vain lähettäjän henkilöllisyyden"
 explanation: |
   Bitcoin on pseudonyymi, ei anonyymi, koska kaikki osoitteiden (pseudonyymien) väliset transaktiot ovat jäljitettävissä lohkoketjussa. Todella anonyymissä järjestelmässä ei olisi mitään jälkiä siitä, mistä raha on peräisin tai minne se on menossa, mikä voitaisiin teoriassa saavuttaa nollatietotodistusten avulla. Bitcoin:n läpinäkyvyyden ansiosta kuka tahansa voi kuitenkin seurata bitcoinien kulkua eri osoitteiden välillä, mikä tekee järjestelmästä pikemminkin pseudonyymin kuin anonyymin. Bitcoin:n pseudonyymit ovat julkisista avaimista johdettuja osoitteita, eivät mielivaltaisia käyttäjätunnuksia tai todellisia henkilöllisyyksiä.
+reviewed: false

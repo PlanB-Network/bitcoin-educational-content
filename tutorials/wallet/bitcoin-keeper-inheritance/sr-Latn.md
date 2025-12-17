@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Plan nasleđivanja
+name: Bitcoin Keeper - Plan nasledstva
 description: Postavite i koristite Bitcoin Keeper Wallet sa Tapsigners kako biste kreirali plan nasleđivanja.
 ---
 

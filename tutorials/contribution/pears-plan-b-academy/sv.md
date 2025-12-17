@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Akademin - Päron App
+name: Plan ₿ Academy - Pears App
 description: Hur installerar och använder man Plan ₿ Academy-applikationen på Pears?
 ---
 

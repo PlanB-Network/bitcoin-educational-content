@@ -507,11 +507,11 @@ Proces ten można podsumować w następujący sposób:
 
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 

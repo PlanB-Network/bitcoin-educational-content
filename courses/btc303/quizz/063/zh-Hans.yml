@@ -6,3 +6,4 @@ wrong_answers:
   - GitHub 仓库维护一个主密钥，用于验证全球所有其他仓库副本
 explanation: |
   根据本章引用的 Jameson Lopp 的分析，Bitcoin Core 的 GitHub 仓库在技术上与所有其他副本完全相同。它的意义纯粹是社会性的--它已成为开发协调的焦点。如果它消失了，自然会有新的协调中心出现。这表明了 Bitcoin 的分散性，没有任何一个储存库在技术上凌驾于其他储存库之上。
+reviewed: false

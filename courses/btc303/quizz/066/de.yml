@@ -6,3 +6,4 @@ wrong_answers:
   - Sie riskieren Angriffe mit doppelten Ausgaben, da sie nicht überprüfen können, ob die eingehenden Transaktionen rechtmäßig sind
 explanation: |
   Wenn Miner ohne Validierung mining verwenden, prüfen sie nur die proof-of-work im Blockkopf und beginnen sofort mit mining, während sie den gesamten Block parallel herunterladen und validieren. Das kritische Risiko besteht darin, dass sie auf einem ungültigen Block aufbauen könnten, was bedeutet, dass ihr Rechenaufwand auf einen Blockchain-Zweig verschwendet wird, der zurückgewiesen wird, sobald der ungültige Block entdeckt wird. Dies untergräbt die Netzwerksicherheit, da ein Teil der mining-Leistung nicht zur stärksten gültigen Kette beiträgt, die der grundlegende Sicherheitsmechanismus von Bitcoin ist.
+reviewed: false

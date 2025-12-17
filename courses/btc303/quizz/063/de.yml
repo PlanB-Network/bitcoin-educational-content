@@ -6,3 +6,4 @@ wrong_answers:
   - Das GitHub-Repository verwaltet einen Hauptschlüssel, der alle anderen Repository-Kopien weltweit validiert
 explanation: |
   Laut der im Kapitel zitierten Analyse von Jameson Lopp ist das GitHub-Repository von Bitcoin Core technisch identisch mit allen anderen Kopien. Seine Bedeutung ist rein sozialer Natur - es ist der zentrale Punkt für die Entwicklungskoordination geworden. Das Repository dient eher der Bequemlichkeit als der technischen Autorität, und wenn es verschwinden würde, würde natürlich ein neuer Brennpunkt entstehen. Dies verdeutlicht den dezentralen Charakter von Bitcoin, bei dem kein einzelnes Repository die technische Vorherrschaft über andere hat.
+reviewed: false

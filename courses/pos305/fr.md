@@ -2082,7 +2082,7 @@ Les administrateurs de serveur peuvent ouvrir plus de détails pour voir.
 #### LND (REST)
 
 
-BTCPay expose le service REST de LND pour la consommation externe ; vous trouverez les informations de connexion ici ; les portefeuilles compatibles sont listés ici. Parmi les portefeuilles compatibles figurent Joule, Alby et ZeusLN. Le serveur BTCPay fournit un code QR pour la connexion, qui peut être scanné et appliqué dans un Wallet compatible.
+BTCPay expose le service REST de LND pour la consommation externe ; vous trouverez les informations de connexion [ici]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay)) ; les portefeuilles compatibles sont listés [ici](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Parmi les portefeuilles compatibles figurent Joule, Alby et ZeusLN. Le serveur BTCPay fournit un code QR pour la connexion, qui peut être scanné et appliqué dans un Wallet compatible.
 
 
 

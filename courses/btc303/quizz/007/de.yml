@@ -6,3 +6,4 @@ wrong_answers:
   - Private Schlüssel werden auf mehreren Geräten statt auf einem einzigen wallet gespeichert
 explanation: |
   Full node-Dezentralisierung bedeutet, dass die Validierung von Blöcken (die Daten, die Miner produzieren) am Rande des Netzwerks durch einzelne Benutzer erfolgt, die ihre eigenen Knoten betreiben, anstatt sich auf einige wenige vertrauenswürdige Behörden zu verlassen, um Transaktionen zu verifizieren. Dies unterscheidet sich von der Dezentralisierung der Miner, bei der es um die Anordnung und Verarbeitung von Transaktionen geht. Die anderen Optionen verwechseln full node-Dezentralisierung mit mining-Verteilung, Governance-Strukturen oder Sicherheitspraktiken, aber keine erfasst das Kernkonzept der verteilten Blockvalidierung durch Netzwerkteilnehmer.
+reviewed: false

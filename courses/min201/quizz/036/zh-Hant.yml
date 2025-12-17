@@ -5,9 +5,8 @@ wrong_answers:
   - Bitcoin 的成本與其價格在一定比例內是固定的
   - Bitcoin 的成本總是高於其價格
 explanation: |
-  與電力有關的 Bitcoin 成本
-  操作 Mining 機器所需的一般可
-  與其價格成正比。此關係提供了
-  更好地瞭解價格波動和未來
-  前景。
+  Bitcoin 的成本與運作礦機所需的電力相關，
+  通常可以與其價格成正比。
+  這種關係有助於人們
+  更好地理解價格波動和未來的發展前景。
 reviewed: true

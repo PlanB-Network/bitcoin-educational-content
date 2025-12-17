@@ -1,0 +1,8 @@
+question: Jakie podstawowe ograniczenie modelu UTXO wymaga szczególnej obsługi podczas wydawania Bitcoin?
+answer: UTXO muszą zostać wydane w całości i nie mogą zostać zużyte częściowo
+wrong_answers:
+  - UTXO można wydać tylko raz na blok, aby zapobiec podwójnym wydatkom
+  - UTXO muszą być wydawane w porządku chronologicznym w oparciu o czas utworzenia
+  - UTXO wymagają wielu podpisów z różnych kluczy, aby były ważne
+explanation: |
+  Model UTXO ma podstawowe ograniczenie, że niewydane wyniki transakcji muszą zostać w całości wykorzystane - nie ma mechanizmu częściowego wydawania. Jeśli chcesz wydać mniej niż pełną kwotę UTXO, musisz utworzyć transakcję, która wydaje cały UTXO i zawiera wyjście zmiany z powrotem do siebie za pozostałą część. Pozostałe opcje opisują nieistniejące ograniczenia: UTXO mogą być wydawane wiele razy na blok (różne UTXO), nie wymagają porządku chronologicznego i zazwyczaj wymagają tylko jednego ważnego podpisu, chyba że są specjalnie zaprojektowane jako multisig.

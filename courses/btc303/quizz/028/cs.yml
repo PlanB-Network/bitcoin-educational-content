@@ -6,3 +6,4 @@ wrong_answers:
   - Těžaři zcela zastaví mining, protože samotné transakční poplatky nemohou pokrýt náklady na elektřinu
 explanation: |
   Fee sniping nastává, když se těžaři snaží znovu vytěžit předchozí bloky, které obsahovaly transakce s vysokými poplatky, místo aby poctivě prodlužovali řetězec. To se stává ekonomicky racionální, když poplatky v předchozím bloku výrazně převyšují poplatky v aktuálním mempoolu. Pravděpodobnost úspěchu je sice nižší než u poctivého mining, ale potenciální odměna může být mnohem vyšší. Toto chování je obzvláště znepokojivé, protože může vyvolat kaskádový efekt, kdy se do nepoctivých praktik zapojí více těžařů, což v konečném důsledku ohrozí bezpečnostní model Bitcoin, když se dotace bloků sníží.
+reviewed: false

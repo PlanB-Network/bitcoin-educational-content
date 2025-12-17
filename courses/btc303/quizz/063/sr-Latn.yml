@@ -6,3 +6,4 @@ wrong_answers:
   - GitHub skladište održava glavni ključ koji validira sve ostale kopije skladišta širom sveta
 explanation: |
   Prema analizi Jamesona Loppa navedene u poglavlju, GitHub repozitorijum Bitcoin Core je tehnički identičan svim drugim kopijama. Njegov značaj je isključivo društveni - postao je žarište za koordinaciju razvoja. Repozitorijum služi kao pitanje pogodnosti, a ne tehničkog autoriteta, i ako bi nestao, nova tačka fokusa bi se prirodno pojavila. Ovo pokazuje decentralizovanu prirodu Bitcoin gde nijedan repozitorijum nema tehničku nadmoć nad drugima.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Problém rychlosti online plateb
 explanation: |
   Průlomem Bitcoin bylo vyřešení problému double-spending, aniž by byl vyžadován centrální orgán. Problém double-spending spočívá v tom, že je třeba zabránit tomu, aby někdo utratil stejnou digitální minci dvakrát. Předchozí digitální měny selhaly, protože se spoléhaly na centrální servery nebo důvěryhodné autority, což je činilo zranitelnými vůči cenzuře a jedinému bodu selhání. Bitcoin tento problém vyřešila díky svému peer-to-peer distribuovanému serveru časových razítek využívajícímu proof-of-work, který umožňuje síti dohodnout se na pořadí transakcí bez jakékoli centrální kontroly.
+reviewed: false

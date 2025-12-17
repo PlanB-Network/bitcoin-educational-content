@@ -6,3 +6,4 @@ wrong_answers:
   - x/(1-x)^2
 explanation: |
   Fomula sahihi ni (x/(1-x))^2 kwa sababu udukuzi wa ada huhitaji mchimbaji kuchimba vizuizi viwili mfululizo ili kuchukua nafasi ya kizuizi cha awali pamoja na kupanua mnyororo. Uwezekano wa mining block moja dhidi ya wachimbaji waaminifu ni x/(1-x), na kwa vile vitalu viwili lazima vichimbwe kwa mfululizo, uwezekano huu ni wa mraba. Fomula zingine zinakubalika kihisabati lakini zinawakilisha hali tofauti za uwezekano ambazo hazilingani na mahitaji mahususi ya udukuzi wa ada, ambapo mchimbaji asiye mwaminifu lazima ashinde mtandao wa uaminifu mara mbili mfululizo.
+reviewed: false

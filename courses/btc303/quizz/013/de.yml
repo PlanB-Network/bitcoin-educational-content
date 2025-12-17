@@ -6,3 +6,4 @@ wrong_answers:
   - Trustless und vertrauenswürdige Systeme müssen unabhängig voneinander arbeiten und können nicht übereinander geschichtet werden
 explanation: |
   Die wichtigste Erkenntnis von Matt Corallo ist, dass die vertrauenslose Basisschicht von Bitcoin Flexibilität beim Systemdesign ermöglicht. Eine vertrauenswürdige Grundlage wie das Bitcoin-Protokoll ermöglicht es Entwicklern, vertrauenswürdige Dienste (wie z. B. Geldbörsen) auf höheren Schichten zu erstellen und dabei die zugrundeliegenden Sicherheitsgarantien beizubehalten. Das Gegenteil ist jedoch unmöglich - man kann keine wirklich vertrauenslosen Systeme schaffen, wenn die Grundlage selbst Vertrauen erfordert, da alle vertrauenslosen Eigenschaften durch die Schwachstellen der vertrauenswürdigen Basisschicht untergraben würden.
+reviewed: false

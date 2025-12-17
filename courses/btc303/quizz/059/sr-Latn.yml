@@ -6,3 +6,4 @@ wrong_answers:
   - "Ovo otkriva da GitHub platforma ima tehnička ograničenja za rukovanje kodnom bazom Bitcoin"
 explanation: |
   Prema sadržaju poglavlja, pull zahtevi dugo traju da budu spojeni prvenstveno zbog nedostatka pregleda, što proizilazi iz nedovoljnog broja recenzenata, a ne zbog opstrukcije održavaoca ili tehničkih problema. Proces pregleda je ključan za bezbednost Bitcoin, jer osigurava kvalitet koda i sprečava zlonamerne izmene. Ovo usko grlo postoji zato što pregled složenog kriptografskog koda zahteva stručnost i vreme, čineći kvalifikovane recenzente oskudnim resursom u procesu razvoja.
+reviewed: false

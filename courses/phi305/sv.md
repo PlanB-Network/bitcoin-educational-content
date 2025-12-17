@@ -35,7 +35,7 @@ I den här kursen har jag nöjet att presentera filosofin hos Baruch de Spinoza 
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/sv/001.webp)
 
 
 Porträtt av Spinoza
@@ -70,7 +70,7 @@ Först ska jag presentera Spinoza, hans personlighet, hans sociala, religiösa o
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/sv/002.webp)
 
 
 Porträtt av Spinoza
@@ -93,7 +93,7 @@ Vi tar också en titt på Spinozas två huvudverk och börjar med Etiken, som pu
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/sv/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Därefter tar vi en titt på Traité théologico-Politique, som publicerades und
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/sv/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Tack vare teorin om affekter som utvecklats på geometriskt manér, "more geomet
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/sv/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Han var av judisk tro och tillhörde den portugisiska sefardiska folkgruppen som
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/sv/006.webp)
 
 
 
@@ -157,7 +157,6 @@ I själva verket visade han redan i tidig ålder en starkt kritisk anda mot den 
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ Som arvtagare, liksom sina samtida Descartes (1596-1650), Pascal (1632-1662) och
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/sv/007.webp)
 
 
 
@@ -189,10 +188,10 @@ Och det är detta synsätt som knyter Spinoza till upplysningsfilosofin, vare si
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/sv/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/sv/009.webp)
 
 
 
@@ -208,7 +207,7 @@ Rikedom är dock inte knuten till naturresurser, exploatering och skövling av k
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/sv/010.webp)
 
 
 
@@ -255,7 +254,6 @@ I detta kapitel föreslår jag att vi nu vänder oss till Spinozas viktigaste ve
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ Etiken är ett verk skrivet på latin i geometrisk anda, troligen inspirerat av 
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/sv/011.webp)
 
 
 
@@ -279,7 +277,7 @@ Jag vill påpeka att när du öppnar Ethics rekommenderas det att du börjar med
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/sv/012.webp)
 
 
 
@@ -311,7 +309,7 @@ För det första, om slumpen inte existerar för Spinoza, så är det för att d
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/sv/013.webp)
 
 
 
@@ -331,7 +329,7 @@ Enligt Gilles Deleuze (1925-1995), den berömde filosofiprofessorn och Spinoza-s
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/sv/014.webp)
 
 
 
@@ -367,7 +365,7 @@ Detta är Traité théologico-politique, eller TTP, som publicerades anonymt 167
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/sv/015.webp)
 
 
 
@@ -378,7 +376,7 @@ Som vi har sett är Spinozas gudsbegrepp ämnet för hela den första delen av E
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/sv/016.webp)
 
 
 
@@ -390,7 +388,7 @@ Det är så Spinoza visar oss att Gud, enligt hans uppfattning, inte är en antr
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/sv/017.webp)
 
 
 
@@ -427,7 +425,7 @@ Den beryktade jordbävningen i Lissabon den 1 november 1755 innebar en stor för
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/sv/018.webp)
 
 
 
@@ -439,7 +437,7 @@ Ett drama som återupplivade frågan som den tyske filosofen och matematikern Le
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/sv/019.webp)
 
 
 
@@ -447,7 +445,7 @@ Jean-Jacques Rousseau (1712-1778) fördömde inte bara Guds hand, utan skrev ock
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/sv/020.webp)
 
 
 
@@ -492,10 +490,9 @@ Precis som Nicolas Copernicus (1473-1543) slog fast att jorden inte var världen
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/sv/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +504,7 @@ Före honom hade den klassiska grekiska filosofin en ordnad, hierarkisk syn på 
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/sv/022.webp)
 
 
 
@@ -519,10 +516,9 @@ Men med Kopernikus (1473-1543) nya fysik på 1400-talet genomgick kosmologin en 
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/sv/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +526,7 @@ Men för att till fullo förstå spinozismen måste vi också ta hänsyn till Re
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/sv/024.webp)
 
 
 
@@ -538,7 +534,7 @@ Trots riskerna och fördömandena från Giordano Bruno (1548-1600) och Galileo f
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/sv/025.webp)
 
 
 
@@ -582,7 +578,7 @@ Som vi redan har sett är Spinoza (1632-1677) välkänd för att betrakta den fr
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/sv/026.webp)
 
 
 
@@ -606,7 +602,7 @@ Eftersom människan i sitt liv inte skulle vara underkastad någon annan lag än
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/sv/027.webp)
 
 
 
@@ -622,7 +618,7 @@ Detta är idén om absolut determinism, utifrån vilken han i sin Etik slår fas
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/sv/028.webp)
 
 
 
@@ -650,7 +646,7 @@ Denna syn på frihet som en förmåga att agera är den koppling vi kan göra ti
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/sv/029.webp)
 
 
 
@@ -675,10 +671,9 @@ Slutligen är det värt att påpeka att även om den libertarianska rörelse som
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/sv/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -709,7 +704,7 @@ Men för Spinoza (1632-1677) är människan inte "ett rike i riket", dvs. hon ä
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/sv/031.webp)
 
 
 
@@ -733,7 +728,7 @@ Och det är därför nya sjukdomar som AIDS på 90-talet eller covid 2020 alltid
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/sv/032.webp)
 
 
 
@@ -749,7 +744,7 @@ Och det är precis vad den franske naturforskaren Jean-Baptiste de Lamarck (1744
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/sv/033.webp)
 
 
 
@@ -757,7 +752,7 @@ Men som Spinoza säger, "människans villfarelse slutar inte där", och bland al
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/sv/034.webp)
 
 
 
@@ -773,7 +768,7 @@ Denna ensidiga tolkning av inflationen får oss dock att glömma att den, även 
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/sv/035.webp)
 
 
 
@@ -809,7 +804,7 @@ I detta sista kapitel om spinozismens nya kopernikanska idévärld vänder vi os
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/sv/036.webp)
 
 
 
@@ -833,7 +828,7 @@ Med andra ord, en vitskäggig gammal man gömd bakom ett moln, som anses ha skap
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/sv/037.webp)
 
 
 
@@ -845,7 +840,7 @@ Men trots vår stolthet över att vi tror oss stå över naturen och att vi kan 
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/sv/038.webp)
 
 
 
@@ -865,7 +860,7 @@ Med andra ord, "de ökända" enligt Voltaire (1694-1778), för vilka vidskepelse
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/sv/039.webp)
 
 
 
@@ -877,7 +872,7 @@ Det var detta som den tyska, engelska och franska upplysningen försvarade från
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/sv/040.webp)
 
 
 
@@ -885,7 +880,7 @@ Och det är detta som Spinoza återigen visar i sin Teologisk-politiska avhandli
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/sv/041.webp)
 
 
 
@@ -945,7 +940,7 @@ Antika filosofer ansåg att ondskan inte fanns i naturen, och Sokrates (470-399 
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/sv/042.webp)
 
 
 
@@ -953,7 +948,7 @@ Men den skolastiska traditionen, särskilt den av Sankt Augustinus (354-430), so
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/sv/043.webp)
 
 
 
@@ -970,7 +965,7 @@ Naturligtvis, som du kan föreställa dig, slits denna idé i stycken av Spinoza
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/sv/044.webp)
 
 
 
@@ -993,7 +988,7 @@ Det är därför spinozisten Gilles Deleuze (1925-1995) förklarar att etik är 
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/sv/045.webp)
 
 
 
@@ -1033,7 +1028,7 @@ Han utvecklar sitt system i den tredje delen av Etiken. Det är den berömda "te
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/sv/046.webp)
 
 
 
@@ -1057,7 +1052,7 @@ Det är vad Spinoza säger i sin Etik, när han förvånas över att "människor
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/sv/047.webp)
 
 
 
@@ -1073,7 +1068,7 @@ Detta är förresten särskilt sant inom området kryptovalutor.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/sv/048.webp)
 
 
 
@@ -1093,7 +1088,7 @@ Detta är exemplet med blixten. För när blixten slår ner och dödar oskyldiga
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/sv/049.webp)
 
 
 
@@ -1113,7 +1108,7 @@ Detta är det geniala med Etiken. Spinoza visar oss att det är möjligt att gå
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/sv/050.webp)
 
 
 
@@ -1151,14 +1146,13 @@ I slutändan innebär denna klarsynthet att man inte längre lever i den nihilis
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Det var just detta som upplysningstidens rationella filosofi handlade om, inte minst tack vare Immanuel Kant (1724-1804), för vilken endast en bildad individ, under förnuftets ledning, kan tänka själv och etiskt avgöra vad som är "sant" eller "gott" och vad som är giftigt.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/sv/051.webp)
 
 
 
@@ -1169,7 +1163,7 @@ Det är ett resonemang som gör kopplingen till den österrikiska skolan för li
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/sv/052.webp)
 
 
 
@@ -1177,7 +1171,7 @@ Menger och Mises slog till exempel fast att all kunskap måste konstrueras enlig
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/sv/053.webp)
 
 
 
@@ -1198,7 +1192,7 @@ Som spinozist förklarar Hayek i en video att "eftersom denna makt inte kan tas 
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/sv/054.webp)
 
 
 
@@ -1206,7 +1200,7 @@ Det här är de politiska och ekonomiska argument som framfördes av de första 
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/sv/055.webp)
 
 
 
@@ -1214,7 +1208,7 @@ Särskilt när han skrev in Times rubrik den 3 januari 2009 i myntbasen för blo
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/sv/056.webp)
 
 
 

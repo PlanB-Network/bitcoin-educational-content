@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Erbschaftsplan
+name: Bitcoin Keeper - Nachlassplan
 description: Einrichtung und Verwendung von Bitcoin Keeper Wallet mit Tapsigners zur Erstellung eines Vererbungsplans
 ---
 

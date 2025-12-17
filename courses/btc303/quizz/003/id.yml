@@ -6,3 +6,4 @@ wrong_answers:
   - Masalah kecepatan dalam pembayaran online
 explanation: |
   Terobosan Bitcoin adalah memecahkan masalah double-spending tanpa memerlukan otoritas pusat. Masalah double-spending adalah tantangan untuk mencegah seseorang membelanjakan koin digital yang sama dua kali. Mata uang digital sebelumnya gagal karena bergantung pada server pusat atau otoritas tepercaya, sehingga rentan terhadap penyensoran dan satu titik kegagalan. Bitcoin memecahkan masalah ini melalui server stempel waktu terdistribusi peer-to-peer yang menggunakan proof-of-work, yang memungkinkan jaringan untuk menyetujui pemesanan transaksi tanpa kontrol pusat.
+reviewed: false

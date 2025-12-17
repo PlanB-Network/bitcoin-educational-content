@@ -2082,7 +2082,7 @@ Serveradministratorer kan åpne flere detaljer for å se.
 #### LND (REST)
 
 
-BTCPay eksponerer LNDs REST-tjeneste for eksternt forbruk; du finner tilkoblingsinformasjon her; kompatible lommebøker er oppført her. Blant de kompatible lommebøkene er Joule, Alby og ZeusLN. BTCPay Server tilbyr en QR-kode for tilkobling, som kan skannes og brukes i en kompatibel Wallet.
+BTCPay eksponerer LNDs REST-tjeneste for eksternt forbruk; du finner tilkoblingsinformasjon [her]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); kompatible lommebøker er oppført [her](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server).. Blant de kompatible lommebøkene er Joule, Alby og ZeusLN. BTCPay Server tilbyr en QR-kode for tilkobling, som kan skannes og brukes i en kompatibel Wallet.
 
 
 

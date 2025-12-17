@@ -6,3 +6,4 @@ wrong_answers:
   - Kích hoạt fork cứng ngay lập tức mà không cung cấp cho người dùng đủ thời gian để nâng cấp phần mềm nút của họ
 explanation: |
   Theo phân tích của Eric Lombrozo, cách tiếp cận có vấn đề của Satoshi là che giấu một thay đổi phá vỡ sự đồng thuận trong một commit bằng một mô tả gây hiểu lầm, chỉ đề cập đến "đã hoàn nguyên makefile.unix wx-config phiên bản 0.3.6" mà không có bất kỳ dấu hiệu nào cho thấy những thay đổi này. Việc che giấu các sửa đổi đồng thuận quan trọng trong các commit trông có vẻ vô hại này sẽ bị coi là không thể chấp nhận được theo các tiêu chuẩn ngày nay, khi tính minh bạch và truyền đạt rõ ràng về các thay đổi đồng thuận là những nguyên tắc cơ bản của quá trình phát triển Bitcoin.
+reviewed: false

@@ -1,0 +1,18 @@
+id: 49d82c92-7a46-41e2-8426-b4ebf4993c79
+chapterId: 085d5756-4ffe-5e2e-8b41-9a94102c97d3
+difficulty: hard
+duration: 45
+author: Asi0Flammeus
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-12-01
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0.12
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.25

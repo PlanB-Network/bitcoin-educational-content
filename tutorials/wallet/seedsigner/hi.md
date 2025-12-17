@@ -1,5 +1,5 @@
 ---
-name: सीडसाइनर
+name: SeedSigner
 description: DIY, स्टेटलेस, किफायती और पूरी तरह से एयर-गैप्ड wallet हार्डवेयर
 ---
 

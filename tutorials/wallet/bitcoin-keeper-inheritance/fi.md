@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - perintösuunnitelma
+name: Bitcoin Keeper - Perintösuunnitelma
 description: Bitcoin Keeper Wallet:n perustaminen ja käyttäminen Tapsignersin kanssa perintösuunnitelman luomiseksi
 ---
 

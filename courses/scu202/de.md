@@ -4842,18 +4842,18 @@ Um alle in einer Datei enthaltenen Metadaten anzuzeigen, verwende den folgenden 
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Ersetze "Name.jpg" durch den richtigen Namen deiner Datei. Stelle ausserdem sicher, dass du dich in dem Verzeichnis befindest, das dieses Bild enthält. Wenn ich zum Beispiel ein Foto der Satoshi Nakamoto-Statue im Verzeichnis `/Downloads` habe, kann ich die Metadaten mit dem folgenden Befehl anzeigen:
+Ersetze "Name.webp" durch den richtigen Namen deiner Datei. Stelle ausserdem sicher, dass du dich in dem Verzeichnis befindest, das dieses Bild enthält. Wenn ich zum Beispiel ein Foto der Satoshi Nakamoto-Statue im Verzeichnis `/Downloads` habe, kann ich die Metadaten mit dem folgenden Befehl anzeigen:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4890,7 +4890,7 @@ Um alle unnötigen Metadaten aus einer Datei zu löschen, verwende folgenden Bef
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -4912,7 +4912,7 @@ Wenn du das Original nicht behalten willst, kannst du es mit folgendem Befehl l�
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -4936,12 +4936,12 @@ Wenn du mehrere Dateien im selben Verzeichnis zu verarbeiten hast, kannst du ein
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Du kannst die Erweiterung an deine Bedürfnisse anpassen (`*.png`, `*.pdf`...).
+Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Du kannst die Erweiterung an deine Bedürfnisse anpassen (`*.webp`, `*.pdf`...).
 
 
 

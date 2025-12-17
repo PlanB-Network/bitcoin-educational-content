@@ -6,3 +6,4 @@ wrong_answers:
   - Mekanisme konsensus jaringan untuk menyepakati blok yang valid
 explanation: |
   Sifat trustless dari Bitcoin secara khusus menghilangkan kebutuhan akan pihak ketiga yang tepercaya seperti bank atau lembaga keuangan untuk memproses dan memvalidasi transaksi. Seperti yang dijelaskan oleh Satoshi Nakamoto dalam whitepaper Bitcoin, perdagangan tradisional bergantung pada lembaga keuangan yang berfungsi sebagai perantara tepercaya, tetapi desain Bitcoin memungkinkan sistem berfungsi dengan baik tanpa pihak tepercaya melalui mekanisme konsensus yang terdesentralisasi. Opsi lainnya mewakili komponen teknis penting yang masih dibutuhkan oleh Bitcoin - Anda masih membutuhkan perangkat keras/perangkat lunak untuk berpartisipasi, keamanan kriptografi tetap menjadi hal yang fundamental, dan konsensus jaringan adalah cara Bitcoin mencapai kepercayaan, bukan sesuatu yang dihilangkan.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Nettverksvalidatorer som stemmer over transaksjonens gyldighet gjennom en demokratisk prosess
 explanation: |
   Bitcoins forsyningsgrense håndheves gjennom fullstendige noder som kjører verifiseringskode for å sjekke hver blokks coinbase-transaksjon opp mot konsensusreglene. Selv om noen noder blir ondsinnede og aksepterer ugyldige blokker med for høye belønninger, vil ærlige noder ganske enkelt ignorere dem og fortsette med den gyldige kjeden. Dette skaper et tillitsløst system der du ikke trenger å stole på noen enkeltperson eller autoritet - du trenger bare å kjøre kode som verifiserer at reglene følges, noe som gjør nettverket kollektivt sikkert mot forsøk på tilbudsinflasjon.
+reviewed: false

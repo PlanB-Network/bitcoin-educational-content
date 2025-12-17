@@ -1,0 +1,8 @@
+question: Co dzieje się z różnicą między kwotami wejściowymi a kwotami wyjściowymi w transakcji Bitcoin?
+answer: Różnica automatycznie staje się opłatą transakcyjną płaconą górnikom
+wrong_answers:
+  - "Różnica jest zwracana na pierwotny adres nadawcy jako zmiana"
+  - Różnica jest spalana i trwale usuwana z obiegu
+  - Różnica jest przechowywana w depozycie do czasu potwierdzenia transakcji
+explanation: |
+  W systemie opłat Bitcoin opłaty są obliczane domyślnie jako różnica między całkowitymi kwotami wejściowymi a całkowitymi kwotami wyjściowymi (opłata = suma (wejścia) - suma (wyjścia)). Każda wartość, która nie została jawnie przypisana do wyjścia, automatycznie staje się opłatą górnika. Właśnie dlatego tworzenie odpowiednich wyjść zmiany jest krytyczne - jeśli zapomnisz dołączyć wyjście zmiany podczas wydawania dużego UTXO, cała reszta stanie się kosztowną opłatą dla górnika. Pozostałe opcje są nieprawidłowe, ponieważ Bitcoin nie tworzy automatycznie wyjść zmiany, nie spala nieprzypisanej wartości i nie wykorzystuje mechanizmów escrow dla różnic transakcyjnych.

@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin arendus kasutab suletud lähtekoodiga koodi, mis piirab välist panust
 explanation: |
   Bitcoin avatud arendusprotsess, mis on üks selle suurimaid tugevusi detsentraliseerimise ja läbipaistvuse osas, loob ka haavatavuse vastase sissetungi suhtes. Kuna igaüks võib aruteludes osaleda, muudatusi esitada ja läbivaatamisprotsessis osaleda ilma luba või volitusi vajamata, saavad pühendunud ründajad seda avatust ära kasutada. Nad võivad takistada edasiminekut ebaoluliste küsimuste lõputute probleemidega, tinkida täpsete sõnastuste üle, korrata juba toimunud arutelusid või kasutada nn sotsiaalseid Sybil-rünnakuid, kasutades mitut võltsidentiteeti, et luua vale mulje vastupanust. Selline avatus on teravas vastuolus suletud arengumudelitega, kus on olemas väravavalvurid või heakskiitmisprotsessid, mis võivad halvad osalejad välja filtreerida.
+reviewed: false

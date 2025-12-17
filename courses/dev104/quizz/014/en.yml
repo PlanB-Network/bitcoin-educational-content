@@ -1,0 +1,8 @@
+question: When using template literals with backticks in JavaScript functions, what is the primary advantage over string concatenation with the + operator?
+answer: Template literals allow easy variable insertion with ${} syntax and avoid conflicts with apostrophes in strings
+wrong_answers:
+  - Template literals execute faster than string concatenation and use less memory in the browser
+  - Template literals automatically convert all variables to strings while concatenation requires manual conversion
+  - Template literals can only be used inside functions while concatenation works in global scope
+explanation: |
+  Template literals using backticks provide cleaner syntax for embedding variables with ${variable} notation and eliminate issues with apostrophes in strings like "I'm a developer". The other options are incorrect: template literals don't have significant performance advantages, both methods handle type conversion similarly, and template literals work in any scope, not just functions. The main benefits are readability, easier variable interpolation, and avoiding quote conflicts.

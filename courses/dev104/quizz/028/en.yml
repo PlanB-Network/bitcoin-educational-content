@@ -1,0 +1,8 @@
+question: Which architectural problem from vanilla JavaScript Lightning wallets does React's component-based approach most directly solve?
+answer: Scattered architecture with logic spread across multiple files and code duplication
+wrong_answers:
+  - Network latency issues when connecting to Lightning nodes and payment routing delays
+  - Private key security vulnerabilities and cryptographic implementation weaknesses
+  - Bitcoin protocol compatibility issues and transaction broadcasting failures
+explanation: |
+  React's component-based architecture directly addresses the scattered logic and code duplication problems inherent in vanilla JavaScript implementations. By organizing functionality into logical, reusable components, React eliminates the need to spread wallet logic across multiple files and reduces code duplication through component reusability. The other options relate to network, security, or protocol issues that are independent of the frontend framework choice and would exist regardless of whether you use React or vanilla JavaScript for your Lightning wallet interface.

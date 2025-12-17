@@ -1,0 +1,8 @@
+question: What happens when two CSS properties with the same name are declared for the same element within a single CSS rule?
+answer: The second property overwrites the first due to CSS cascade reading top to bottom
+wrong_answers:
+  - Both properties are combined and applied together creating a merged effect
+  - The first property takes precedence and the second property is ignored completely
+  - A CSS error occurs and neither property is applied to the element
+explanation: |
+  CSS follows the cascade principle, reading rules from top to bottom within the same selector. When duplicate properties exist, the last one declared overwrites previous ones. This behavior is intentional and useful for creating fallbacks or specific overrides, like setting a general margin and then overriding margin-bottom. The other options are incorrect because CSS doesn't merge duplicate properties, doesn't give precedence to the first declaration, and doesn't throw errors for duplicate properties.

@@ -1,0 +1,8 @@
+question: When you hover over a JavaScript function in VS Code with proper extensions installed, what type of development feature are you primarily utilizing?
+answer: IntelliSense code intelligence that provides live documentation, function signatures, and parameter information
+wrong_answers:
+  - ESLint static analysis that checks for syntax errors and enforces coding style standards
+  - Prettier code formatting that automatically adjusts indentation, spacing, and code structure
+  - Integrated terminal functionality that allows command execution without leaving the editor
+explanation: |
+  IntelliSense is VS Code's intelligent code completion system that provides real-time information when you hover over code elements. It displays function signatures, parameter descriptions, type information, and usage examples - essentially live documentation. ESLint focuses on error detection and style enforcement, Prettier handles automatic code formatting, and the integrated terminal provides command-line access. The hover feature specifically leverages IntelliSense's code intelligence capabilities to enhance developer productivity through contextual information.

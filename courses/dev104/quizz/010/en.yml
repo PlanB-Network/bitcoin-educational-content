@@ -1,0 +1,8 @@
+question: In a mobile-first responsive design approach, which media query would you use to apply styles specifically for tablet screens and larger devices?
+answer: @media (min-width: 768px)
+wrong_answers:
+  - @media (max-width: 768px)
+  - @media (width: 768px)
+  - @media (min-height: 768px)
+explanation: |
+  Mobile-first design starts with styles for the smallest screens, then uses min-width media queries to progressively enhance for larger devices. @media (min-width: 768px) applies styles to screens 768px and wider, covering tablets and desktops. The max-width option targets smaller screens instead, width targets only exactly 768px, and min-height relates to screen height rather than the standard responsive breakpoint approach.

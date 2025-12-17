@@ -1,0 +1,8 @@
+question: What is the primary purpose of HTML according to the chapter?
+answer: To instruct web browsers how to display content on a web page
+wrong_answers:
+  - To perform calculations and process data like a programming language
+  - To store and manage data in databases for web applications
+  - To create interactive animations and visual effects on websites
+explanation: |
+  HTML (HyperText Markup Language) is specifically defined as a markup language that tells web browsers how to display images, text, and other content. The chapter explicitly states that HTML is not a programming language since it cannot perform calculations - it simply provides instructions for content display. The other options describe functions of programming languages, database systems, or JavaScript/CSS, which are different technologies with distinct purposes from HTML's core role of structuring and presenting web content.

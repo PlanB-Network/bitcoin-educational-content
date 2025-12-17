@@ -1,0 +1,8 @@
+question: What is the primary purpose of having three distinct environments (local, remote repository, and production) in a professional development workflow?
+answer: To enable safe development, collaboration, and deployment by separating where code is written, stored/shared, and accessed by users
+wrong_answers:
+  - To provide redundant backups of the same codebase in case one environment fails or becomes corrupted
+  - To allow different programming languages to be used in each environment based on performance requirements
+  - To ensure that each developer on the team has their own dedicated workspace without interfering with others
+explanation: |
+  The three environments serve distinct purposes in the development lifecycle: local environments allow developers to write and test code safely, remote repositories (like GitHub) facilitate code storage and team collaboration through version control, and production environments host the live application for end users. This separation ensures code quality, enables teamwork, and prevents development work from affecting live systems. The other options misunderstand the purpose - these aren't backup systems, don't require different languages, and aren't about giving developers separate workspaces but rather about creating a structured workflow from development to deployment.

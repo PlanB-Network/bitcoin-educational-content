@@ -1,0 +1,8 @@
+question: When designing a React Lightning wallet's component hierarchy, what is the most critical architectural principle for managing complex state interactions between balance updates, transaction history, and real-time price data?
+answer: Centralizing all state in the App component and distributing data through props while collecting events through callbacks
+wrong_answers:
+  - Distributing state across individual components and using event emitters to synchronize data between sibling components
+  - Creating separate state managers for each data type and using global variables to share information between components
+  - Implementing direct component-to-component communication through refs and allowing each component to manage its own state independently
+explanation: |
+  The correct approach centralizes state management in the App component, which serves as the single source of truth for all wallet data including balance, transactions, and price information. This creates a predictable unidirectional data flow where props flow down to child components and events flow up through callbacks. The wrong answers represent anti-patterns that lead to scattered state, synchronization issues, and unpredictable data flow - exactly the problems React was designed to solve. Distributing state across components or using global variables creates the same architectural problems that plagued vanilla JavaScript implementations.

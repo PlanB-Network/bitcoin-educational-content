@@ -1,0 +1,8 @@
+question: What is the primary difference between Git and GitHub in a developer's workflow?
+answer: Git is the version control protocol that tracks code changes, while GitHub is a cloud platform that hosts Git repositories
+wrong_answers:
+  - Git is for individual developers while GitHub is only for team collaboration and enterprise projects
+  - Git handles frontend code versioning while GitHub specializes in backend repository management and deployment
+  - "Git is Microsoft's version control system while GitHub is the open-source alternative developed by Google"
+explanation: |
+  Git is the underlying version control system - a protocol that tracks changes, enables branching, and manages code history locally on your computer. GitHub is a web-based platform built on top of Git that provides cloud storage for repositories, collaboration tools, and a visual interface. Think of Git as the engine that powers version control, while GitHub is the user-friendly car that makes Git accessible and adds features like remote backup, sharing, and team collaboration tools.

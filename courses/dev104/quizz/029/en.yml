@@ -1,0 +1,8 @@
+question: What is the most significant architectural benefit of React's automatic UI updates compared to manual DOM manipulation in Lightning wallet development?
+answer: React eliminates state synchronization issues by automatically re-rendering components when underlying data changes, ensuring UI consistency
+wrong_answers:
+  - React provides faster transaction processing by optimizing Lightning Network protocol calls through virtual DOM batching
+  - React reduces Lightning channel opening costs by caching DOM elements and reusing them across multiple payment operations
+  - React improves Lightning invoice generation speed by pre-compiling component templates into optimized JavaScript bytecode
+explanation: |
+  React's automatic UI updates solve the critical problem of keeping the user interface synchronized with changing wallet data. In vanilla JavaScript Lightning wallets, developers must manually update DOM elements whenever balance, transaction history, or payment status changes, which is error-prone and can lead to inconsistent UI states. React's declarative approach automatically re-renders components when their underlying data (state or props) changes, eliminating the need for manual DOM manipulation and ensuring the UI always reflects the current wallet state. The wrong answers incorrectly suggest React optimizes Lightning Network protocol performance, reduces blockchain costs, or improves cryptographic operations - none of which are React's actual benefits.

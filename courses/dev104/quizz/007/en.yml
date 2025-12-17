@@ -1,0 +1,8 @@
+question: When multiple CSS rules target the same element with different selectors, what determines which style will be applied?
+answer: CSS specificity, where classes override elements, and IDs override classes
+wrong_answers:
+  - The order in which the CSS files are loaded in the HTML head section
+  - The physical position of the element in the HTML document structure
+  - The last rule written in the stylesheet always takes precedence regardless of selector type
+explanation: |
+  CSS specificity is a scoring system that determines which styles are applied when multiple rules target the same element. The hierarchy is: inline styles (highest), IDs, classes, and elements (lowest). While the last wrong answer mentions cascade order (which does matter for rules of equal specificity), specificity always takes precedence first. File loading order and HTML position don't affect which styles win - only selector specificity and source order for equal-specificity rules matter.

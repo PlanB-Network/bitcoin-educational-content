@@ -1,0 +1,8 @@
+question: In the React Lightning wallet component hierarchy, what is the primary responsibility of the App component regarding state management and data distribution?
+answer: Holds all state centrally and distributes data to child components via props while receiving events via callbacks
+wrong_answers:
+  - Manages only UI state while delegating business logic state to individual child components for better separation
+  - Serves as a passive container that forwards state management responsibilities to specialized state management components
+  - Acts as a state proxy that mirrors the state structure of each child component without holding primary state
+explanation: |
+  The App component follows React's unidirectional data flow pattern by centralizing all state (price, balance, transactions, chart data) and distributing it downward to child components through props. Child components remain stateless and communicate back to the App through callback functions, creating a predictable data flow where state flows down and events flow up. This centralized approach eliminates the scattered architecture problems of vanilla JavaScript implementations and ensures consistent state synchronization across all components.

@@ -1,0 +1,8 @@
+question: In React's JSX syntax, what is the primary reason why event handlers use camelCase naming convention like onClick instead of HTML's onclick?
+answer: JSX is JavaScript syntax that follows JavaScript naming conventions, and React's event system uses SyntheticEvents that wrap native events with consistent cross-browser behavior.
+wrong_answers:
+  - JSX requires camelCase to distinguish between HTML attributes and React props, preventing conflicts when components receive onClick as a prop from parent components.
+  - "React's Virtual DOM optimization algorithm can only efficiently diff and update DOM elements when event handlers follow camelCase naming patterns for performance reasons."
+  - JSX transpilation to React.createElement() calls requires camelCase event names to properly bind event listeners to the correct DOM nodes during rendering.
+explanation: |
+  JSX is fundamentally JavaScript syntax that gets transpiled to React.createElement() calls, so it must follow JavaScript naming conventions where camelCase is standard. React's event system creates SyntheticEvents that provide consistent behavior across different browsers, abstracting away browser-specific differences. The other options incorrectly suggest that camelCase is needed for prop conflicts, Virtual DOM performance, or transpilation requirements, but the real reason is simply that JSX follows JavaScript conventions and React's event system design.

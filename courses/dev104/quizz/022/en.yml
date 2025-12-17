@@ -1,0 +1,8 @@
+question: Why should modern React developers use functional components with hooks instead of class components when building Bitcoin applications?
+answer: Functional components have simpler syntax, better performance optimization, and support modern React features like hooks
+wrong_answers:
+  - Class components provide better state management and are more secure for handling Bitcoin transactions
+  - Functional components automatically handle blockchain connections while class components require manual setup
+  - Class components have built-in cryptocurrency validation that functional components lack for Bitcoin development
+explanation: |
+  Functional components represent the modern React standard because they eliminate boilerplate code, making them easier to write and maintain. React can optimize functional components more effectively than class components, leading to better performance. Most importantly, functional components support hooks like useState and useEffect, which provide cleaner state management and lifecycle handling. The wrong answers incorrectly suggest that class components have special Bitcoin-related features or better state management, when in fact the React team recommends functional components as the current best practice for all applications, including cryptocurrency projects.

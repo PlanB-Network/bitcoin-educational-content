@@ -1,0 +1,8 @@
+question: When using the useEffect hook in a Bitcoin price component, what happens if you omit the dependency array entirely?
+answer: The effect runs after every render, potentially causing infinite API calls and performance issues
+wrong_answers:
+  - The effect runs only once when the component mounts, similar to having an empty dependency array
+  - The effect never runs because React requires an explicit dependency array to execute useEffect
+  - The effect runs only when the component unmounts, making it equivalent to a cleanup function
+explanation: |
+  Without a dependency array, useEffect runs after every render cycle. In a Bitcoin price component, this means if the effect updates state (like setting a new price), it triggers a re-render, which runs the effect again, creating an infinite loop. This differs from an empty array [] which runs once on mount, or an array with dependencies which runs only when those values change. Omitting the dependency array is rarely intentional and usually indicates a bug that will cause performance problems and excessive API calls.

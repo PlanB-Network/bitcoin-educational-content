@@ -1,0 +1,8 @@
+question: What is the primary advantage of React's Virtual DOM when building a Bitcoin wallet that updates prices every 5 seconds?
+answer: React compares virtual DOM snapshots and only updates the specific price element, avoiding full page re-renders
+wrong_answers:
+  - React stores all price data in browser memory to eliminate network requests and improve loading speed
+  - React automatically caches Bitcoin API responses in the virtual DOM to reduce server load and costs
+  - React creates multiple virtual copies of the DOM to handle concurrent price updates from different exchanges
+explanation: |
+  The Virtual DOM's key benefit is efficient diffing - React maintains a JavaScript representation of the DOM in memory, compares snapshots when data changes, and updates only what actually needs updating. For a Bitcoin wallet updating prices frequently, this means only the price display element gets updated rather than re-rendering the entire page, resulting in smooth performance. The wrong answers confuse the Virtual DOM with caching mechanisms, network optimization, or misunderstand how the virtual representation works.

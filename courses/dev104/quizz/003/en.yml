@@ -1,0 +1,8 @@
+question: Which HTML element is used to create a clickable link to another webpage or section?
+answer: The <a> element with an href attribute
+wrong_answers:
+  - The <link> element with a url attribute
+  - The <href> element with a target attribute
+  - The <nav> element with a destination attribute
+explanation: |
+  The <a> (anchor) element is the correct HTML element for creating clickable links. It uses the href attribute to specify the destination URL or anchor point. The <link> element is used for linking external resources like stylesheets, not for clickable links. There is no <href> element in HTML - href is an attribute, not an element. The <nav> element is a container for navigation links but doesn't create clickable links by itself, and there's no destination attribute in HTML.

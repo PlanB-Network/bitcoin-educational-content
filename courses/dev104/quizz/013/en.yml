@@ -1,0 +1,8 @@
+question: What is the correct way to access the second item in a JavaScript array named 'transactions'?
+answer: transactions[1]
+wrong_answers:
+  - transactions[2]
+  - transactions.second
+  - transactions(1)
+explanation: |
+  JavaScript arrays use zero-based indexing, meaning the first item is at index 0, the second item is at index 1, and so on. To access array elements, you use bracket notation with the index number. Therefore, transactions[1] correctly accesses the second item. transactions[2] would access the third item, transactions.second uses object property notation which doesn't work for array indexes, and transactions(1) uses function call syntax which is incorrect for accessing array elements.

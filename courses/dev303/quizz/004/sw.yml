@@ -1,0 +1,8 @@
+question: Ni neno gani muhimu linalohitajika ili kufanya kigezo kinachoweza kurekebishwa baada ya tamko lake la awali katika Rust?
+answer: mut
+wrong_answers:
+  - var
+  - inayoweza kubadilika
+  - mabadiliko
+explanation: |
+  Katika Rust, neno muhimu la 'mut' linahitajika ili kutangaza kigezo kama kinachoweza kubadilishwa, na kuruhusu thamani yake kubadilishwa baada ya mgawo wa awali. Kwa chaguo-msingi, vigezo vyote katika Rust havibadiliki kwa sababu za usalama. Sintaksia ni 'let mut x = 5' kwa kigezo kinachoweza kubadilishwa dhidi ya 'let x = 5' kwa kisichobadilika. Chaguzi zingine kama 'var', 'mutable', na 'change' si maneno muhimu halali ya Rust kwa kusudi hili.

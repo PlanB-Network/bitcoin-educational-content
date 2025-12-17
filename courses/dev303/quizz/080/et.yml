@@ -1,0 +1,8 @@
+question: Milline on kõige olulisem eelis, mis on tulemuse ja valiku tüüpide kasutamisel paanika ees veakäitluses Rust koodis?
+answer: Nad sunnivad võimalike rikete selgesõnalist kinnitamist ja võimaldavad vigade sujuvat kõrvaldamist
+wrong_answers:
+  - Nad tagavad parema jõudluse, kuna väldivad virna lahti kerimist veatingimuste korral
+  - Nad teisendavad automaatselt kõik veatüübid string-teadete jaoks, et hõlbustada veaotsingut
+  - Nad kõrvaldavad vea leviku vajaduse, käsitledes vigu veapunktis
+explanation: |
+  Tulemuse ja valiku tüübid muudavad veakäitluse selgesõnaliseks ja taastatavaks, sundides arendajaid tunnistama, et operatsioonid võivad ebaõnnestuda, ja pakkudes mehhanisme nende vigade väärikaks käsitlemiseks. Erinevalt paanikast, mis lõpetab koheselt täitmise, võimaldavad need tüübid programmidel jätkata tööd ja reageerida veatingimustele asjakohaselt. Valed vastused moonutavad nende võimeid: jõudlus ei ole nende peamine eelis, nad ei muuda automaatselt vigu stringideks (see on Anyhow funktsioon) ja nad tegelikult pigem hõlbustavad kui kõrvaldavad vigade levikut selliste operaatorite nagu ? abil.

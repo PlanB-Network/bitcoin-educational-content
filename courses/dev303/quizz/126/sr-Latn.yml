@@ -1,0 +1,8 @@
+question: Koja je primarna tehnička posledica Breez SDK-ove filozofije dizajna sa izraženim stavovima u poređenju sa LDK-ovim generičkim pristupom alatima za razvoj Lightning wallet?
+answer: Omogućava direktnu integraciju esencijalnih usluga kao što je LSP funkcionalnost unutar samog SDK-a, omogućavajući trenutni prijem uplata bez ručnog postavljanja kanala.
+wrong_answers:
+  - To zahteva od programera da implementiraju više niskonivo protokola umrežavanja i algoritama za usmeravanje plaćanja u poređenju sa korišćenjem generičkih Lightning biblioteka.
+  - Prisiljava wallet aplikacije da samostalno upravljaju sinhronizacijom mrežnog grafa i upravljanjem izlaza sidra nezavisno od osnovne Lightning implementacije.
+  - Zahteva prilagođenu implementaciju podrške za LNURL i usluge deviznog kursa, jer SDK-ovi sa unapred definisanim mišljenjima ne mogu uključivati integracije trećih strana.
+explanation: |
+  Dizajn Breez SDK-a sa izraženim stavom specifično cilja wallet aplikacije, omogućavajući integraciju esencijalnih servisa kao što je LSP funkcionalnost direktno u SDK. Ovo je u oštrom kontrastu sa generičkim pristupom LDK-a, koji zahteva od programera da implementiraju ove servise zasebno. Integracija omogućava besprekorno korisničko iskustvo kao što je trenutno primanje uplata za nove novčanike, dok široki opseg LDK-a znači da programeri moraju da izgrade ove wallet-specifične funkcije od nule, što značajno povećava složenost razvoja i vreme do izlaska na tržište.

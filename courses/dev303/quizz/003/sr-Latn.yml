@@ -1,0 +1,8 @@
+question: Koja Cargo komanda vrši proveru kompilacije bez generisanja izvršnog fajla?
+answer: cargo check
+wrong_answers:
+  - cargo build
+  - cargo run
+  - test tereta
+explanation: |
+  Komanda 'cargo check' obavlja sve provere kompajliranja i verifikuje da li se vaš kod ispravno kompajlira bez stvaranja konačne izvršne datoteke. Ovo je značajno brže od kompletne izgradnje kada jednostavno želite da proverite ispravnost koda. Nasuprot tome, 'cargo build' kompajlira i generiše izvršne datoteke, 'cargo run' i kompajlira i izvršava program, a 'cargo test' kompajlira i pokreće testove.

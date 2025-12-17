@@ -1,0 +1,8 @@
+question: Was ist der grundlegende architektonische Vorteil des Breez SDK-Ansatzes für die Verwaltung von Lightning-Knoten im Vergleich zu herkömmlichen, selbst gehosteten Lightning-Implementierungen?
+answer: Nutzer unterhalten ihre eigenen Lightning-Knoten auf der Greenlight-Infrastruktur und behalten die exklusive Kontrolle über ihre privaten Schlüssel, die ihre Geräte nie verlassen
+wrong_answers:
+  - Die Nutzer nutzen gemeinsam die von Breez verwalteten Blitzkanäle und behalten gleichzeitig die individuelle Verwahrung der Gelder durch Mehrfachunterschriftsvereinbarungen
+  - "Die Nutzer betreiben lokal leichtgewichtige Lightning-Knoten, die mit den Breez-Masterknoten synchronisiert werden, um die Zuverlässigkeit zu erhöhen und die Bandbreitenanforderungen zu reduzieren
+  - Nutzer delegieren das Channel-Management an Lightning Service Provider und behalten gleichzeitig die Kontrolle durch Hardware-Sicherheitsmodule, die in mobile Geräte integriert sind
+explanation: |
+  Die Architektur des Breez SDK bietet jedem Nutzer einen eigenen Lightning-Knotenpunkt, der auf der Cloud-Infrastruktur von Greenlight läuft, wobei die privaten Schlüssel das Gerät des Nutzers nicht verlassen. Das bedeutet, dass Greenlight keine Lightning-Operationen durchführen kann, ohne dass die Anwendung des Nutzers aktiv Transaktionen signiert. Dies unterscheidet sich von gemeinsam genutzten Channel-Pools, lokalen Lightning-Knoten oder Hardware-Sicherheitsmodulen - es ist ein einzigartiger hybrider Ansatz, der die betriebliche Komplexität eliminiert und gleichzeitig das Prinzip der Selbstverwahrung beibehält.

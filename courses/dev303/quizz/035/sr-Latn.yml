@@ -1,0 +1,8 @@
+question: Šta radi metoda unwrap kada se pozove na tip Result u Rust?
+answer: Izvlači vrednost uspeha, ali paniči ako dođe do greške
+wrong_answers:
+  - Vraća None ako dođe do greške i Some ako je uspešno
+  - Pretvara grešku u upozorenje i nastavlja izvršavanje
+  - Automatski propagira grešku funkciji koja poziva
+explanation: |
+  Metoda unwrap izvlači uspešnu vrednost iz Result, ali izaziva paniku programa ako dođe do greške. Ovo je korisno za brzo prototipisanje ili situacije u kojima ste sigurni da će operacija uspeti. Druge opcije opisuju različita ponašanja: vraćanje None/Some opisuje Option tipove, konvertovanje grešaka u upozorenja nije standardni Rust obrazac, a automatsko propagiranje grešaka je ono što radi operator znak pitanja (?), a ne unwrap.

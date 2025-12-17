@@ -1,0 +1,8 @@
+question: Hvilket kritisk problem løser Breez SDKs just-in-time-kanalmekanisme som tradisjonelle Lightning-implementeringer sliter med?
+answer: Den oppretter automatisk nye kanaler med tilstrekkelig inngående likviditet når det kommer innbetalinger, slik at brukerne ikke trenger å administrere kanalkapasiteten manuelt
+wrong_answers:
+  - Den forhindrer tvangsstenging av kanaler ved automatisk å rebalansere midler på tvers av flere kanaler når en av dem ikke svarer eller går offline
+  - Det reduserer transaksjonsgebyrene ved å samle flere små betalinger i større kanaloperasjoner som behandles i nettverkstiden utenom rushtiden
+  - Det eliminerer behovet for vakttårntjenester ved å opprette midlertidige kanaler som automatisk utløper når betalingen er fullført
+explanation: |
+  Just-in-time-kanalmekanismen er spesielt rettet mot Lightnings utfordring med likviditetsstyring, der midler bare kan flyte i retninger der det finnes kapasitet. Når en bruker trenger å motta en betaling, men mangler tilstrekkelig inngående likviditet, åpner LSP-en automatisk en ny kanal i det øyeblikket betalingen ankommer, uten at brukeren trenger å gripe inn. De gale svarene beskriver andre Lightning-utfordringer, men ikke det spesifikke likviditetsproblemet som just-in-time-kanaler løser.

@@ -1,0 +1,8 @@
+question: Welche Syntax wird verwendet, um Parameter in Rust-Abschlüssen zu definieren?
+answer: Pipe-Zeichen (|) zum Einschließen von Parametern
+wrong_answers:
+  - Klammern () zum Einschließen von Parametern
+  - Eckige Klammern [] zum Einschließen von Parametern
+  - Geschweifte Klammern {} zum Einschließen von Parametern
+explanation: |
+  Rust-Schließungen verwenden Pipe-Zeichen (|), um Parameter zu definieren, wodurch sie sich von regulären Funktionen unterscheiden, die Klammern verwenden. Eine Closure ohne Parameter wird zum Beispiel als || geschrieben, während eine Closure mit Parametern wie |x, y| aussieht. Diese einzigartige Syntax macht Closures leicht erkennbar und unterscheidet sie von Funktionsdefinitionen. Klammern werden für reguläre Funktionen verwendet, während eckige Klammern und geschweifte Klammern in der Rust-Syntax anderen Zwecken dienen.

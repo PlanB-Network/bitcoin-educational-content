@@ -1,0 +1,8 @@
+question: Hva er den viktigste tekniske grunnen til at Greenlight-drevne lommebøker oppnår overlegen pålitelighet i betalingsrutingen sammenlignet med tradisjonelle mobile Lightning-implementeringer?
+answer: Greenlight-nodene kjører kontinuerlig i skyen, og opprettholder synkronisering av nettverksgrafen i sanntid og umiddelbar tilgang til komplette grafdata
+wrong_answers:
+  - Greenlight bruker avanserte maskinlæringsalgoritmer til å forutsi optimale betalingsruter basert på historiske transaksjonsmønstre
+  - Greenlight implementerer en egenutviklet betalingssplitting som fordeler transaksjoner over flere kanaler samtidig for å sikre redundans
+  - Greenlight har dedikerte forbindelser med høy båndbredde til store Lightning-knutepunkter, noe som sikrer prioritert ruting gjennom de mest likvide kanalene
+explanation: |
+  Det riktige svaret identifiserer den grunnleggende arkitektoniske fordelen med Greenlights skybaserte tilnærming. Tradisjonelle mobile Lightning-lommebøker må synkronisere nettverksgrafdata når de starter opp, noe som skaper forsinkelser og potensielt arbeider med foreldet rutingsinformasjon. Greenlight løser dette ved å kjøre Lightning-noder kontinuerlig i skyen, noe som sikrer at de alltid har oppdatert nettverkskunnskap og umiddelbart kan levere komplette grafdata når brukerne kobler seg til. De gale svarene beskriver plausible, men ikke-eksisterende funksjoner - Greenlight bruker ikke ML-rutingsalgoritmer, proprietær betalingssplitting utover standard Lightning-protokoller eller spesielle hub-tilkoblinger for prioritert ruting.

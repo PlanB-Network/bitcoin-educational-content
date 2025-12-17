@@ -1,0 +1,8 @@
+question: Ni ijambo ry’ingenzi irihe rikenewe kugira ngo umuhinduzi ahindurwe inyuma y’itangazo ryawo rya mbere muri Rust?
+answer: mut
+wrong_answers:
+  - var
+  - ihinduka
+  - guhinduka
+explanation: |
+  Muri Rust, ijambo ry'ingenzi 'mut' rikenewe kugira ngo rimenyeshe umuhinduzi nk'umuhinduzi, bituma agaciro kayo gahinduka inyuma y'uguhabwa igikorwa ca mbere. Ku mburabuzi, ibihinduka vyose biri muri Rust ntibihinduka kubera imvo z'umutekano. Inyuguti ni 'let mut x = 5' ku gihinduka gihinduka 'let x = 5' ku kidahinduka. Ayandi mahitamwo nka 'var', 'mutable', na 'change' si amajambo y'ingenzi ya Rust ku bw'iyo ntumbero.

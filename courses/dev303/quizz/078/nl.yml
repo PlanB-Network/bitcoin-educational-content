@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste verschil tussen de methoden unwrap_or() en unwrap_or_default() bij het omgaan met Result- en Option-typen?
+answer: unwrap_or() vereist dat je een fallback-waarde opgeeft, terwijl unwrap_or_default() de standaardimplementatie van het type gebruikt
+wrong_answers:
+  - unwrap_or() raakt in paniek bij fouten, terwijl unwrap_or_default() geen enkele retourneert, wat zorgt voor een veiligere foutafhandeling in productie
+  - unwrap_or() werkt alleen met Result-types terwijl unwrap_or_default() uitsluitend werkt met Option-types voor waarde-extractie
+  - unwrap_or() propageert fouten omhoog in de aanroepstapel, terwijl unwrap_or_default() alle fouten omzet in standaardstringberichten
+explanation: |
+  Met de methode unwrap_or() kun je een specifieke fallback-waarde opgeven wanneer een Resultaat een fout bevat of een Optie geen bevat, waardoor je controle hebt over welke waarde je moet gebruiken in geval van mislukking. Daarentegen gebruikt unwrap_or_default() automatisch de implementatie van de eigenschap Default van het type, wat handig is als de standaardwaarde geschikt is voor je gebruikssituatie. Beide methoden werken met zowel Resultaat- als Optietypes en geen van beide raakt in paniek of verspreidt fouten - ze bieden beide sierlijke degradatie door bruikbare waarden terug te geven in plaats van te falen.

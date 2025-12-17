@@ -1,0 +1,8 @@
+question: Qual è il rischio più significativo quando si usa RC<RefCell<T> per lo stato mutabile condiviso e quale meccanismo aiuta a prevenirlo?
+answer: Cicli di riferimenti che causano perdite di memoria, prevenibili con l'uso di riferimenti deboli
+wrong_answers:
+  - Gare di dati tra thread, impedite dall'uso di Mutex invece che di RefCell
+  - Il runtime va in panico per le violazioni dei prestiti, impedite dal controllo a tempo di compilazione
+  - Overflow dello stack da ricorsione profonda, impedito dalla limitazione della profondità dei riferimenti
+explanation: |
+  Quando si usa RC<RefCell<T>>, il pericolo principale è la creazione di cicli di riferimenti in cui le strutture di dati fanno riferimento a se stesse direttamente o attraverso catene. Questi cicli impediscono al conteggio dei riferimenti di raggiungere lo zero, causando perdite di memoria, poiché i dati sembrano avere sempre riferimenti attivi. I riferimenti deboli risolvono questo problema non contribuendo al conteggio dei riferimenti utilizzato per la gestione della memoria, interrompendo i cicli e preservando le connessioni. Le altre opzioni non sono corrette: RC<RefCell<T>> non è thread-safe, quindi i data race non sono il problema principale, RefCell sposta specificamente i controlli a runtime piuttosto che prevenirli a compile-time e lo stack overflow non è legato al meccanismo di conteggio dei riferimenti.

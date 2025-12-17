@@ -1,0 +1,8 @@
+question: Koje je primarno ograničenje korišćenja anyhow biblioteke za rukovanje greškama u razvoju Rust biblioteke?
+answer: Pretvara sve greške u string poruke, sprečavajući korisnike da programski reaguju na različite uslove greške.
+wrong_answers:
+  - Funkcioniše samo sa tipovima Result i ne može da obradi tipove Option, što ograničava njegovu korisnost u mešovitim scenarijima.
+  - Zahtijeva ručno pretvaranje grešaka za svaku vrstu greške, što ga čini opširnijim od standardnog rukovanja rezultatima.
+  - Automatski paniči na određenim tipovima grešaka, što ga čini nepodesnim za produkcijski bibliotečki kod.
+explanation: |
+  Glavna mana biblioteke anyhow za razvoj biblioteka je što ona suštinski pretvara sve greške u string reprezentacije, gubeći strukturirane informacije o greškama koje korisnici biblioteke trebaju za donošenje programskih odluka. Dok se anyhow odlično snalazi u pojednostavljivanju rukovanja greškama za krajnje korisničke aplikacije gde se greške prvenstveno prikazuju, biblioteke treba da obezbede specifične tipove grešaka koji omogućavaju korisnicima da razlikuju različite načine neuspeha (kao što su nevažeći unos naspram grešaka u izvršavanju) i da odgovore na odgovarajući način. Ostale opcije su netačne: anyhow dobro funkcioniše sa oba tipa, Result i Option, zapravo smanjuje opširnost kroz automatsku konverziju i ne izaziva panike.

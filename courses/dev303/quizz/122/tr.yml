@@ -1,0 +1,8 @@
+question: Fonları Greenlight'ın bulut tabanlı Lightning node mimarisi üzerinden yönetilen kullanıcıların karşılaştığı en kritik kurtarma zorluğu nedir?
+answer: Kullanıcılar, Greenlight altyapısı olmadan bağımsız Core Lightning düğümleri oluşturmak ve kanal durumlarını geri yüklemek için teknik uzmanlığa ihtiyaç duyacaktır
+wrong_answers:
+  - "Kullanıcılar, yalnızca Blockstream'in sunucularında depolanan özel anahtarlarına erişimlerini kaybederler"
+  - "Kanal durumları Greenlight'ın tescilli anahtarları kullanılarak şifrelenir ve fonun kurtarılması matematiksel olarak imkansız hale gelir"
+  - "Lightning kanalları, Greenlight'ın sürekli bakım hizmetleri olmadan 30 gün sonra otomatik olarak sona erer"
+explanation: |
+  Doğru yanıt, Greenlight'ın mimarisinde fon kurtarmanın gerçek teknik karmaşıklığını vurgulamaktadır. Kullanıcılar özel anahtarlarını korurken, Greenlight olmadan fonlara erişmek Core Lightning düğümlerini çalıştırmayı ve kanal durumlarını manuel olarak geri yüklemeyi gerektirir - çoğu kullanıcının yeteneklerinin ötesinde bir işlem. Yanlış cevaplar yanlıştır çünkü: kullanıcılar özel anahtarlarını kontrol eder (sunucularda saklanmaz), kanal durumları standart Lightning protokollerini kullanır (tescilli şifreleme değil) ve Lightning kanallarının hizmet sağlayıcılara bağlı otomatik sona erme zamanlayıcıları yoktur.

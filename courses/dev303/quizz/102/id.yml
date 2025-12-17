@@ -1,0 +1,8 @@
+question: Apa perbedaan mendasar antara pendekatan integrasi blockchain LDK dan node Lightning tradisional terkait lingkungan dengan sumber daya terbatas?
+answer: LDK menyediakan abstraksi berbasis penyaringan yang memungkinkan aplikasi untuk mengimplementasikan pemantauan melalui sumber data yang ringan seperti server Electrum
+wrong_answers:
+  - LDK membutuhkan sinkronisasi blockchain penuh tetapi mengoptimalkan penyimpanan melalui header blok terkompresi dan mekanisme pemangkasan transaksi
+  - LDK mengimplementasikan protokol blockchain khusus yang mengurangi bandwidth dengan mempertahankan hanya transaksi yang relevan dengan saluran dalam memori
+  - LDK menggunakan mekanisme konsensus hibrida yang hanya memvalidasi transaksi yang terkait dengan Lightning dan mengabaikan operasi Bitcoin standar
+explanation: |
+  Integrasi blockchain LDK dirancang dengan dua mode: mode blok penuh untuk lingkungan yang kaya sumber daya dan mode berbasis pemfilteran untuk lingkungan yang terbatas. Pendekatan penyaringan memungkinkan LDK untuk mengomunikasikan kebutuhan pemantauannya melalui antarmuka abstrak, meminta pengawasan transaksi tertentu, UTXO, atau pola skrip. Aplikasi kemudian dapat mengimplementasikan pemantauan ini menggunakan sumber-sumber ringan seperti server Electrum atau penjelajah blok, yang secara dramatis mengurangi kebutuhan bandwidth dan penyimpanan dibandingkan dengan sinkronisasi blockchain penuh. Abstraksi ini memungkinkan dompet seluler dan aplikasi web untuk mempertahankan fungsionalitas Lightning tanpa sumber daya overhead yang dibutuhkan oleh node Lightning tradisional.

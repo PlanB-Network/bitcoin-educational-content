@@ -1,0 +1,8 @@
+question: RC giải quyết vấn đề cơ bản nào mà Box không thể xử lý trong hệ thống sở hữu của Rust?
+answer: RC cho phép nhiều người cùng sở hữu một dữ liệu thông qua việc đếm tham chiếu.
+wrong_answers:
+  - RC cung cấp tốc độ cấp phát và giải phóng bộ nhớ nhanh hơn Box.
+  - RC cho phép quản lý bộ nhớ tự động mà không gây ra bất kỳ chi phí phát sinh nào trong quá trình hoạt động.
+  - RC cho phép thực hiện kiểm tra mượn tham chiếu trong quá trình biên dịch mà Box không thể thực hiện.
+explanation: |
+  RC (Reference Counter) giải quyết cụ thể hạn chế của mô hình sở hữu duy nhất của Box bằng cách cho phép nhiều phần mã chia sẻ quyền sở hữu dữ liệu cùng một lúc. Box tuân theo các quy tắc sở hữu truyền thống, trong đó chỉ một thực thể có thể sở hữu dữ liệu tại một thời điểm, khiến việc tạo ra các kịch bản như cấu trúc dữ liệu được chia sẻ, nơi nhiều danh sách tham chiếu đến cùng một phần cuối, là không thể. RC duy trì một bộ đếm nội bộ theo dõi các tham chiếu, tăng lên khi được sao chép và giảm xuống khi bị xóa, chỉ giải phóng bộ nhớ khi bộ đếm đạt đến không. Điều này cho phép các mô hình chia sẻ dữ liệu linh hoạt trong khi vẫn duy trì tính an toàn của bộ nhớ, về cơ bản khác với cách tiếp cận sở hữu độc quyền của Box.

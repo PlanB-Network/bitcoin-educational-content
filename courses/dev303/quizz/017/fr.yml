@@ -1,0 +1,8 @@
+question: Quels sont les trois éléments qui constituent la structure d'une chaîne de caractères dans la configuration de la mémoire de Rust ?
+answer: Un pointeur sur les données du tas, la longueur actuelle et la capacité totale
+wrong_answers:
+  - Un pointeur sur les données de la pile, la taille actuelle et la longueur maximale
+  - Une adresse mémoire, le nombre de caractères et le type d'allocation
+  - Une référence de données, la taille de l'octet et l'état de la propriété
+explanation: |
+  Une chaîne de caractères dans Rust se compose exactement de trois éléments stockés sur la pile : un pointeur sur les données de caractères allouées au tas, la longueur actuelle du contenu de la chaîne et la capacité totale de la mémoire tampon allouée. Cette structure permet aux chaînes de croître et de diminuer efficacement tout en conservant la connaissance de leurs limites. Les autres options sont incorrectes car elles font référence à des emplacements erronés (pile au lieu de tas), utilisent une terminologie imprécise (taille vs longueur, nombre de caractères vs longueur d'octets) ou incluent des composants inexistants tels que le type d'allocation ou l'état de propriété.

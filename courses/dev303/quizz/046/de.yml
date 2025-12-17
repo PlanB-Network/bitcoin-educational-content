@@ -1,0 +1,8 @@
+question: Was passiert, wenn man eine RC<T>-Instanz klont, die eine große Datenstruktur enthält?
+answer: Nur der Verweis wird kopiert und der Verweiszähler erhöht, die ursprünglichen Daten bleiben unverändert
+wrong_answers:
+  - Die gesamte Datenstruktur wird im Speicher dupliziert und beide Kopien behalten getrennte Referenzzähler
+  - Es wird eine oberflächliche Kopie erstellt, bei der primitive Felder kopiert werden, komplexe Felder jedoch gemeinsame Referenzen bleiben
+  - Die Daten werden an einen neuen Speicherplatz verschoben und der ursprüngliche RC wird ungültig, bis er neu initialisiert wird
+explanation: |
+  Beim Klonen einer RC kopiert Rust nur den Referenzzeiger und erhöht den internen Referenzzähler, wodurch der Vorgang unabhängig von der Datengröße äußerst effizient ist. Die zugrundeliegenden Daten verbleiben am selben Speicherort und werden von allen RC-Instanzen gemeinsam genutzt. Dies ist ein grundlegender Unterschied zum Klonen der eigentlichen Daten, das den Zweck der gemeinsamen Eigentümerschaft zunichte machen und Speicher verschwenden würde.

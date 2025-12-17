@@ -1,0 +1,8 @@
+question: Jaký je klíčový rozdíl mezi tím, jak aplikace Rust řeší obnovení chyb v režimu panic a Result?
+answer: Funkce Panic okamžitě zastaví provádění a nelze ji obnovit, zatímco funkce Result umožňuje volajícím elegantně zpracovat chyby
+wrong_answers:
+  - Panic poskytuje podrobné informace o chybách, zatímco Result pouze indikuje úspěch nebo neúspěch bez kontextu
+  - Chyba Panic je bezpečná pro všechna vlákna a lze ji zpracovávat napříč vlákny, zatímco chyby Result jsou omezeny na jednotlivá vlákna
+  - Funkce Panic automaticky zaznamenává chyby do systému, zatímco funkce Result vyžaduje ruční zaznamenávání a hlášení chyb
+explanation: |
+  Panika představuje neopravitelné chyby, které okamžitě ukončují provádění prostřednictvím odvíjení nebo přerušení, což znemožňuje volajícímu kódu chybu zpracovat a pokračovat. Výsledek, jako enum obsahující Ok(value) nebo Err(error), explicitně nutí volající, aby vzali na vědomí potenciální selhání a zvolili, jak na ně reagovat - zda zpracováním chyby, poskytnutím výchozích hodnot nebo jejím šířením nahoru po zásobníku volání. Díky tomuto zásadnímu rozdílu je Result preferovanou volbou pro obnovitelné chyby v produkčním kódu, zatímco panic by měl být vyhrazen pro skutečně neobnovitelné situace nebo vývojové scénáře.

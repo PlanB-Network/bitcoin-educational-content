@@ -1,0 +1,8 @@
+question: Co dzieje się podczas procesu kompilacji, gdy kompilator Rust napotka wywołanie makra?
+answer: Kompilator dopasowuje dane wejściowe do zdefiniowanych wzorców i zastępuje wywołanie makra wygenerowanym kodem przed sprawdzeniem typu
+wrong_answers:
+  - Kompilator odracza rozszerzanie makr do momentu sprawdzenia typu i optymalizacji, aby zapewnić poprawność kodu
+  - Kompilator przechowuje wywołanie makra jako kod bajtowy i rozszerza go dynamicznie podczas wykonywania w czasie rzeczywistym
+  - Kompilator sprawdza poprawność składni makra, ale pozostawia faktyczne rozszerzenie do obsługi przez linker
+explanation: |
+  Makra są rozszerzane podczas kompilacji przed sprawdzeniem typu i optymalizacją. Gdy kompilator napotka wywołanie makra, natychmiast dopasowuje dane wejściowe do zdefiniowanych wzorców makra i zastępuje całe wywołanie makra wygenerowanym kodem. Ten rozszerzony kod jest następnie poddawany normalnym procesom kompilacji, w tym sprawdzaniu typów. Pozostałe opcje są nieprawidłowe, ponieważ makra działają w czasie kompilacji, a nie w czasie wykonywania, a rozszerzenie musi nastąpić przed sprawdzeniem typu, ponieważ wygenerowany kod musi zostać zweryfikowany pod kątem poprawności.

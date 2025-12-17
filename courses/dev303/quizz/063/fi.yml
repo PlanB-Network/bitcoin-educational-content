@@ -1,0 +1,8 @@
+question: Kun makro käyttää määritelmässään mallia `$($x:expr),*`, mitä tämä malli saa aikaan?
+answer: Se vastaa nollaa tai useampaa pilkulla erotettua lauseketta, mikä mahdollistaa vaihtelevan pituiset argumenttiluettelot
+wrong_answers:
+  - Se vastaa täsmälleen yhtä lauseketta ja toistaa makrolaajennuksen useita kertoja
+  - Se vastaa mitä tahansa tyyppimääritelmiä, jotka on erotettu puolipisteillä koodin luomiseksi
+  - Se luo silmukan, joka suorittaa makron suoritusaikana eri lausekkeiden arvoilla
+explanation: |
+  Kuvio `$($x:expr),*` käyttää Rust:n makrojen toistosyntaksia, jossa `*`-kvantifikaattori tarkoittaa 'nolla tai enemmän', `$x:expr` kuvaa jokaisen lausekkeen, ja pilkku määrittää lausekkeiden välisen erottimen. Tämä mahdollistaa sen, että makrot, kuten `vec!`, voivat hyväksyä minkä tahansa määrän argumentteja: `vec![1, 2, 3]` tai `vec![]`. Muut vaihtoehdot ovat virheellisiä, koska: kuvio käsittelee useita lausekkeita eikä vain yhtä, se vastaa nimenomaan lausekkeita eikä tyyppimäärityksiä ja käyttää pilkkuja eikä puolipisteitä, ja makrot suoritetaan käännösaikana koodin luomisessa eikä suoritusaikana.

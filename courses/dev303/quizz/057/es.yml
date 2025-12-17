@@ -1,0 +1,8 @@
+question: ¿Cuál es el propósito principal del signo de exclamación (!) que sigue al nombre de una macro en Rust?
+answer: Sirve como indicador visual de que se está generando código en tiempo de compilación en lugar de una llamada a una función en tiempo de ejecución
+wrong_answers:
+  - Indica que la macro entrará en pánico si se le dan parámetros de entrada no válidos durante la ejecución
+  - Marca la macro como no segura y exige el reconocimiento explícito de posibles problemas de seguridad de la memoria
+  - Especifica que la macro devuelve un tipo de Resultado que debe tratarse con comprobación de errores
+explanation: |
+  El signo de exclamación en la sintaxis de macros de Rust es una elección deliberada de diseño que distingue visualmente las macros de las funciones. Cuando veas `println!()` o `vec![]`, el signo de exclamación `!` indica inmediatamente que se producirá una expansión de código en tiempo de compilación, no una llamada a una función en tiempo de ejecución. Esta distinción es crucial porque las macros operan de forma fundamentalmente diferente a las funciones - generate código durante la compilación a través de la coincidencia de patrones y la expansión. Las respuestas incorrectas confunden esto con comportamientos en tiempo de ejecución como pánico, operaciones inseguras o manejo de errores, pero el signo de exclamación indica específicamente la naturaleza de metaprogramación en tiempo de compilación de las macros.

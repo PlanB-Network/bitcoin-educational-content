@@ -1,0 +1,9 @@
+question: Dukurikije igitabu ca Eric Hughes citwa Cypherpunk Manifesto, ni ubuhe buryo nyamukuru aba cypherpunk bakwiye gukoresha kugira ngo bashike ku ntego zabo zo kwirinda no kwidegemvya?
+answer: Kwandika kode yo kwubaka ubuhinga bwo gukingira amakuru butuma amacakubiri ya politike atagira akamaro
+wrong_answers:
+  - Gusaba intwaro gushinga amategeko akomeye yo gukingira ubuzima bwite
+  - Gutegura imyiyerekano ya benshi n’amasekeza y’ubugarariji bw’abanyagihugu kugira ngo barwanye ugucungera abantu
+  - Gutegura porogarama z'inyigisho zo gukangurira abantu uburenganzira bwo gukoresha ubuhinga bwa none
+explanation: |
+  Eric Hughes yavuze neza ko ‘aba Cypherpunks bandika kode’ ari bwo buryo bwabo bw’ishimikiro. Iryo kete rishimika ku vy’uko aba cypherpunks badaronka ihumure mu vyizigiro no mu vyipfuzo, ahubwo bagira ico bakoze mu kwubaka ubuhinga butazwi biciye mu buhinga bwo gukingira amakuru. 
+  Ivyo bihindura ivyiyumviro bitaboneka vy’umwidegemvyo bikaba ukuri nyakuri kw’ubutunzi n’imibano, bikaba bituma amacakubiri ya politike aba ataco amaze kandi adakenewe. Ibindi bihitamwo bigereranya ubuhinga bwa politike bwa kera, buvuguruza ubuhinga bwa cypherpunk bwo gutorera umuti ibibazo mu buryo bw’ubuhinga bwa none ku bijanye n’ivugurura ry’inzego.

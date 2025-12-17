@@ -1,0 +1,9 @@
+question: Según la teoría económica keynesiana, ¿cuál es el papel principal de la intervención gubernamental en la economía?
+answer: Utilizar las políticas fiscales y monetarias para estabilizar los ciclos económicos estimulando la demanda durante las recesiones y enfriándola durante el recalentamiento
+wrong_answers:
+  - Sustituir completamente los mecanismos de mercado por una planificación estatal centralizada y eliminar toda forma de empresa privada
+  - Mantener políticas estrictas de laissez-faire y permitir que los mercados se autorregulen sin interferencia gubernamental alguna
+  - Centrarse exclusivamente en la política monetaria, evitando cualquier intervención fiscal o ajuste del gasto público
+explanation: |
+  La teoría keynesiana aboga por la intervención activa del Estado a través de políticas fiscales (gasto público, impuestos) y monetarias (tipos de interés) para gestionar los ciclos económicos.
+  Esto representa una "tercera vía" entre el capitalismo laissez-faire puro y el control estatal total, que busca el equilibrio estimulando la demanda durante las recesiones y moderándola durante el recalentamiento económico, lo que se alinea con los enfoques pragmáticos centristas de la gestión económica.

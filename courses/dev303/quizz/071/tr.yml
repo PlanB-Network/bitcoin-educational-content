@@ -1,0 +1,8 @@
+question: Bir Bitcoin uygulaması, yalnızca pozitif tamsayılar gerektiren bir alan için negatif bir değer almak gibi geçersiz bir girdi hatasıyla karşılaştığında en uygun yanıt nedir?
+answer: Girdiyi reddeder ve çağırana bir hata göstergesi döndürür
+wrong_answers:
+  - Negatif değeri mutlak değerine dönüştürün ve işleme devam edin
+  - Hatayı günlüğe kaydedin ancak varsayılan değeri kullanarak işleme devam edin
+  - Veri bozulmasını önlemek için tüm uygulamayı derhal sonlandırın
+explanation: |
+  Geçersiz girdi hataları, sağlanan parametrelerin işlevin gereksinimlerini karşılamadığı durumlarda, çağıran ve işlev arasındaki sözleşme ihlallerini temsil eder. Doğru yaklaşım, girdiyi reddetmek ve bir hata göstergesi döndürerek çağıranın durumu uygun şekilde ele almasına izin vermektir. Negatif değerlerin pozitif değerlere dönüştürülmesi hatayı sessizce maskeler ve istenmeyen davranışlara yol açabilir. Varsayılan değerlerin kullanılması, arayanın niyetini göz ardı eder ve yanlış verileri işleyebilir. Tüm uygulamanın sonlandırılması, girdi doğrulama hataları için aşırıdır ve zarif hata işlemenin çok önemli olduğu Bitcoin uygulamalarında kötü kullanıcı deneyimine neden olur.

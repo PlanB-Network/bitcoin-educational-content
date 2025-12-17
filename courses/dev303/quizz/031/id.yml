@@ -1,0 +1,8 @@
+question: Jenis kesalahan apa yang seharusnya memicu kepanikan dalam program Rust?
+answer: Kesalahan yang tidak dapat dipulihkan yang mengindikasikan kesalahan logika pemrograman atau kondisi yang tidak aman
+wrong_answers:
+  - Kegagalan koneksi jaringan atau kesalahan waktu habis dari layanan eksternal
+  - Masukan pengguna yang tidak valid atau file konfigurasi yang hilang
+  - Kesalahan file tidak ditemukan atau pengecualian izin ditolak
+explanation: |
+  Panik harus disediakan untuk kesalahan yang tidak dapat dipulihkan yang mewakili kesalahan pemrograman atau situasi di mana program telah memasuki kondisi yang tidak aman, seperti pelanggaran batas larik atau masalah keamanan memori. Jawaban yang salah semuanya menggambarkan kesalahan yang dapat dipulihkan - kegagalan jaringan, masalah input pengguna, dan masalah sistem file adalah kondisi yang diharapkan bahwa program harus menangani dengan baik menggunakan tipe Result daripada crash. Kesalahan yang dapat dipulihkan ini memungkinkan program untuk terus berjalan dengan menerapkan strategi penanganan kesalahan yang tepat.

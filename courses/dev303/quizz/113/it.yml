@@ -1,0 +1,8 @@
+question: Quali limiti critici degli ecosistemi di applicazioni mobili ha rivelato l'applicazione originale Breez che ha influenzato lo sviluppo dell'architettura SDK?
+answer: Le app mobili non possono comunicare facilmente tra loro, costringendo gli sviluppatori a costruire tutte le funzionalità di Lightning in singole applicazioni piuttosto che condividere l'infrastruttura Lightning
+wrong_answers:
+  - I dispositivi mobili non hanno una potenza di calcolo sufficiente per gestire in modo affidabile i nodi Lightning e richiedono un'infrastruttura basata su cloud per gestire i complessi calcoli di routing
+  - I sistemi operativi mobili limitano troppo i processi in background, impedendo ai nodi Lightning di mantenere connessioni persistenti alla rete
+  - Gli app store per dispositivi mobili vietano le applicazioni finanziarie non depositate, costringendo gli sviluppatori a implementare soluzioni depositate per ottenere l'approvazione dell'app store
+explanation: |
+  L'applicazione originale Breez ha dimostrato che gli ecosistemi mobili non facilitano la comunicazione inter-app, impedendo alle applicazioni specializzate di sfruttare l'infrastruttura Lightning condivisa. Questa limitazione architettonica ha costretto tutte le funzionalità di Lightning ad applicazioni monolitiche. Le altre opzioni non sono corrette: i dispositivi mobili possono eseguire i nodi Lightning (come ha dimostrato Breez), le restrizioni in background sono gestibili con un'architettura adeguata e gli app store in genere consentono l'esecuzione di applicazioni finanziarie non custodiali.

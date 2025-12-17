@@ -1,0 +1,8 @@
+question: Rust'daki yapılar için yöntemler ve ilişkili işlevler içeren uygulama bloklarını tanımlamak için hangi anahtar sözcük kullanılır?
+answer: impl
+wrong_answers:
+  - yöntem
+  - yAPI
+  - fn
+explanation: |
+  Impl` anahtar sözcüğü özellikle yapılar için yöntemleri ve ilişkili işlevleri tanımladığınız uygulama blokları oluşturmak için kullanılır. Struct` yapının kendisini tanımlarken, `fn` tek tek fonksiyonları tanımlarken ve `method` bir Rust anahtar sözcüğü değilken, sadece `impl` bir tiple ilişkili davranışı içeren bloğu oluşturur. Impl` kullanan uygulama blokları, yapılarınıza işlevsellik eklemenize olanak tanıyarak onları veri kaplarından daha fazlası haline getirir.

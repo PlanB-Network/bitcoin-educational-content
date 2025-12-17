@@ -1,0 +1,8 @@
+question: Mikä on Clippyn ensisijainen tehtävä Rust-kehitysekosysteemissä?
+answer: Edistynyt linteri, joka analysoi koodia ja ehdottaa parannuksia Rust-idiomien parantamiseksi
+wrong_answers:
+  - Paketinhallinta, joka hoitaa riippuvuuksien ratkaisun ja projektin rakentamisen
+  - Kääntäjätyökalu, joka muuttaa Rust:n lähdekoodin suoritettaviksi binäärikoodeiksi
+  - Dokumentaatiogeneraattori, joka luo API-viitemateriaalit automaattisesti
+explanation: |
+  Clippy on edistynyt linter, joka menee perus-syntaksin tarkistusta pidemmälle ja analysoi Rust-koodisi ja antaa parannusehdotuksia. Toisin kuin yksinkertaiset syntaksin tarkistusohjelmat, Clippy ymmärtää Rust:n idiomeja ja voi suositella tehokkaampia tai idiomaattisempia tapoja suorittaa tiettyjä tehtäviä. Muut vaihtoehdot kuvaavat erilaisia työkaluja: Cargo on pakettihallinta, joka käsittelee riippuvuuksia ja rakentamista, rustc on kääntäjä, joka muuttaa lähdekoodin suoritettaviksi tiedostoiksi, ja rustdoc on dokumentaatiogeneraattori. Clippy keskittyy erityisesti koodin laadun analysointiin ja auttaa kehittäjiä kirjoittamaan parempaa ja ylläpidettävämpää Rust-koodia ehdottamalla parhaita käytäntöjä.

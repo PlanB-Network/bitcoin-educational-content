@@ -1,0 +1,8 @@
+question: Vilken miljövariabel kan ställas in för att visa en fullständig anropsstackspårning när en panik inträffar i Rust?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_SPÅR
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE är den korrekta miljövariabeln som ger ytterligare felsökningsinformation genom att visa hela anropsstacken som ledde till panik. Detta hjälper utvecklare att spåra exakt vilken sekvens av funktionsanrop som resulterade i felet. De andra alternativen (RUST_STACKTRACE, RUST_DEBUG_TRACE och RUST_PANIC_TRACE) är inte giltiga Rust-miljövariabler och kommer inte att ge någon felsökningsinformation när en panik uppstår.

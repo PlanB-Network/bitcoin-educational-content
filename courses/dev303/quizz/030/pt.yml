@@ -1,0 +1,8 @@
+question: Qual é o principal objetivo do operador de ponto de interrogação (?) do Rust quando utilizado com tipos de resultados?
+answer: Para desembrulhar automaticamente os valores bem sucedidos e devolver imediatamente os erros da função atual
+wrong_answers:
+  - Para converter todos os tipos de resultados em tipos de opções para facilitar o tratamento de nulos
+  - Para entrar automaticamente em pânico com uma mensagem personalizada quando ocorre um erro
+  - Para envolver os valores bem sucedidos numa camada adicional de resultados para maior segurança
+explanation: |
+  O operador de ponto de interrogação (?) foi concebido especificamente para a propagação de erros no Rust. Quando aplicado a um Resultado, extrai o valor de sucesso se a operação for bem sucedida, permitindo que o código continue com esse valor. No entanto, se ocorreu um erro, o operador ? devolve imediatamente esse erro da função atual, propagando-o efetivamente para a pilha de chamadas. Isso elimina a necessidade de expressões de correspondência verbosas, mantendo a semântica explícita de tratamento de erros. O operador só pode ser usado em funções que retornam tipos de resultado, garantindo padrões adequados de propagação de erros.

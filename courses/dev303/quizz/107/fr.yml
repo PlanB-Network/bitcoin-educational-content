@@ -1,0 +1,8 @@
+question: Quelle est la capacité critique qui permet à LDK de maintenir la fonctionnalité Lightning sur les portefeuilles mobiles avec une connectivité intermittente par rapport aux nœuds Lightning traditionnels basés sur daemon ?
+answer: La capacité de LDK à se synchroniser avec les fournisseurs de services Lightning (LSP) lors de la mise en ligne, tout en conservant le contrôle de la clé privée sans garde
+wrong_answers:
+  - "Le système intégré de traitement des paiements hors ligne de LDK qui met les transactions en attente jusqu'à ce que la connectivité du réseau soit rétablie
+  - "Le système de sauvegarde distribué de LDK qui réplique automatiquement les données entre plusieurs fournisseurs de services en nuage"
+  - "Le protocole de réseau maillé peer-to-peer de LDK permet des paiements Lightning directs d'appareil à appareil sans Internet
+explanation: |
+  L'architecture modulaire de LDK permet aux applications mobiles de mettre en œuvre des modèles de connectivité intermittents en se synchronisant avec les PSL dès leur mise en ligne, ce qui permet aux utilisateurs de recevoir des paiements et de gérer des canaux même lorsque l'appareil mobile était hors ligne. Cela diffère fondamentalement des démons Lightning traditionnels qui nécessitent un fonctionnement continu. Les mauvaises réponses décrivent des fonctionnalités inexistantes - LDK n'a pas de traitement intégré des paiements hors ligne, de sauvegardes distribuées ou de capacités de réseau maillé.

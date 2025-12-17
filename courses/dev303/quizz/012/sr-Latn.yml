@@ -1,0 +1,8 @@
+question: Prema sistemu vlasništva Rust, koliko vlasnika može imati neka vrednost u bilo kom trenutku?
+answer: Tačno jedan vlasnik
+wrong_answers:
+  - Dozvoljeno je više vlasnika
+  - Najviše dva vlasnika
+  - Nema vlasnika dok se ne pristupi
+explanation: |
+  Sistem vlasništva Rust funkcioniše na tri osnovna pravila, pri čemu je prvo da svaka vrednost ima tačno jednog vlasnika u bilo kom trenutku. Ovaj princip jedinstvenog vlasništva je ključan za bezbednost memorije jer sprečava da više delova programa pokušava da oslobodi istu memoriju ili istovremeno modifikuje podatke. Imati više vlasnika bi dovelo do grešaka korišćenja nakon oslobađanja i trka podataka, dok bi nedostatak vlasnika značio da memorija nikada ne bi mogla biti pravilno očišćena.

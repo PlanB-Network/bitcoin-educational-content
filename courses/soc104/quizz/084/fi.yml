@@ -1,0 +1,8 @@
+question: Miksi Hayekin hajautetun tiedon teorian mukaan keskussuunnittelu on talouden koordinointimekanismina pohjimmiltaan virheellinen?
+answer: Tieto on olemassa vain hajanaisina palasina yksilöiden keskuudessa, minkä vuoksi keskussuunnittelijoiden on mahdotonta saada käyttöönsä täydellistä tietoa, jota tarvitaan tehokkaaseen koordinointiin
+wrong_answers:
+  - Keskussuunnittelijoilla ei ole moraalista auktoriteettia tehdä päätöksiä muiden puolesta, vaikka heillä olisi täydelliset markkinatiedot
+  - Poliittinen korruptio ja oman edun tavoittelu estävät keskussuunnittelijoita toteuttamasta taloudellisesti optimaalisia ratkaisuja, vaikka heillä olisi käytettävissään kaikki tarvittavat tiedot
+  - Keskussuunnittelu vaatii liikaa laskentatehoa ja teknologiaa, jota ei ollut saatavilla Hayekin aikana mutta joka voisi toimia nykyään
+explanation: |
+  Hayekin kritiikki keskussuunnittelua kohtaan on epistemologista, ei moraalista tai teknologista. Hän väitti, että tietoa ei ole koskaan olemassa keskitetyssä muodossa vaan ainoastaan "hajallaan olevina epätäydellisen ja usein ristiriitaisen tiedon palasina, jotka ovat kaikkien erilaisten yksilöiden hallussa" Tämä hajanaisen tiedon ongelma tarkoittaa, että keskussuunnittelijat eivät pääse käsiksi subjektiivisiin kustannuksiin, hyötyihin ja paikallisiin mieltymyksiin, joita vain yksilöillä on, mikä tekee tehokkaan taloudellisen koordinoinnin mahdottomaksi riippumatta suunnittelijoiden aikomuksista tai laskentakyvystä.

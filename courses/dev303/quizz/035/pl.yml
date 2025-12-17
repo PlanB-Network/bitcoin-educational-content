@@ -1,0 +1,8 @@
+question: Co robi metoda unwrap wywołana na typie Result w Rust?
+answer: Wyodrębnia wartość sukcesu, ale wpada w panikę, jeśli wystąpi błąd
+wrong_answers:
+  - Zwraca None, jeśli wystąpi błąd i Some, jeśli się powiedzie
+  - Przekształca błąd w komunikat ostrzegawczy i kontynuuje wykonywanie
+  - Automatycznie propaguje błąd do funkcji wywołującej
+explanation: |
+  Metoda unwrap wyodrębnia wartość sukcesu z Result, ale powoduje, że program wpada w panikę, jeśli wystąpi błąd. Sprawia to, że jest ona przydatna do szybkiego prototypowania lub sytuacji, w których masz pewność, że operacja się powiedzie. Pozostałe opcje opisują różne zachowania: zwracanie None/Some opisuje typy Option, konwertowanie błędów na ostrzeżenia nie jest standardowym wzorcem Rust, a automatyczna propagacja błędów jest tym, co robi operator znaku zapytania (?), a nie unwrap.

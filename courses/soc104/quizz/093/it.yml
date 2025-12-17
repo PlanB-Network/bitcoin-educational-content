@@ -1,0 +1,9 @@
+question: Secondo la filosofia di Satoshi Nakamoto, quale problema fondamentale delle valute convenzionali intende risolvere il Bitcoin?
+answer: L'eccessiva fiducia richiesta alle istituzioni centralizzate, che storicamente la violano con lo svilimento della moneta
+wrong_answers:
+  - L'inefficienza tecnica dei sistemi di pagamento tradizionali che elaborano le transazioni troppo lentamente per il commercio globale
+  - L'impatto ambientale della produzione di valuta fisica e l'impronta di carbonio delle infrastrutture bancarie
+  - I limiti geografici delle valute nazionali che impediscono il commercio e gli scambi internazionali senza soluzione di continuità
+explanation: |
+  Il Satoshi affermava esplicitamente che "il problema principale della moneta convenzionale è la fiducia che è necessaria per farla funzionare" e notava che "la storia delle valute fiat è piena di violazioni di tale fiducia"
+  Il Bitcoin è stato progettato come un sistema privo di fiducia per eliminare la dipendenza dalle banche centrali che storicamente hanno svilito le valute. Le altre opzioni, pur essendo potenzialmente valide, non costituivano la motivazione filosofica alla base della creazione del Bitcoin, così come articolata dal suo creatore.

@@ -1,0 +1,8 @@
+question: Šta omogućava sintaksa ažuriranja strukture prilikom kreiranja novih instanci strukture u Rust?
+answer: Kreirajte novu instancu tako što ćete navesti samo promenjena polja, dok ćete preostala polja kopirati iz postojeće instance.
+wrong_answers:
+  - Izmenite postojeća polja strukture na licu mesta bez kreiranja nove instance.
+  - Automatski podrazumevane vrednosti za neodređena polja generate koristeći osobinu Default
+  - Spoji više instanci struktura u jednu kombinovanu instancu.
+explanation: |
+  Sintaksa ažuriranja strukture u Rust omogućava vam da kreirate novu instancu strukture tako što ćete navesti samo polja koja želite da promenite, dok se automatski kopiraju sva ostala polja iz postojeće instance. Ovo se radi koristeći sintaksu `..existing_instance`. Ostale opcije su netačne: sintaksa ažuriranja strukture uvek kreira novu instancu umesto da menja postojeće, ne koristi podrazumevane vrednosti iz generate već kopira iz postojećih instanci, i radi sa jednom izvornom instancom umesto da spaja više instanci zajedno.

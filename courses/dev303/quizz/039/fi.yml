@@ -1,0 +1,8 @@
+question: Mikä ominaisuus edustaa sulkuja, joita voidaan kutsua useita kertoja muuttamatta niiden kaapattua ympäristöä?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn on rajoittavin sulku-ominaisuus, joka edustaa sulkuja, joita voidaan kutsua useita kertoja ilman, että niiden kaapattu ympäristö muuttuu. Nämä sulkeumat kaapataan vain muuttumattomalla viitteellä, ja niitä voidaan kutsua turvallisesti samanaikaisesti. FnOnce edustaa sulkuja, joita voidaan kutsua vain kerran, kun taas FnMut edustaa sulkuja, joita voidaan kutsua useita kertoja, mutta jotka voivat muuttaa kaapattua ympäristöään. FnCapture ei ole todellinen Rust-ominaisuus.

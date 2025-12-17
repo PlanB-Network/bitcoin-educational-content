@@ -1,0 +1,8 @@
+question: Hvilke sikkerhetshensyn bør du være oppmerksom på når du installerer Rust ved hjelp av Rustup?
+answer: Installasjonen innebærer nedlasting og kjøring av et skript, selv om det bruker HTTPS og kommer fra offisielle, pålitelige kilder
+wrong_answers:
+  - Installasjonen krever administratorrettigheter, noe som skaper potensielle sårbarheter i systemet
+  - Den stabile verktøykjeden inneholder eksperimentelle funksjoner som kan ha uoppdagede sikkerhetsfeil
+  - Installasjonsprosessen aktiverer automatisk alle kompileringsmål, inkludert potensielt usikre arkitekturer
+explanation: |
+  Når du installerer Rustup, laster du ned og kjører et skript fra det offisielle Rust-nettstedet. Dette bruker HTTPS for transportlagssikkerhet, og pakkene kommer fra pålitelige kilder som crates.io. Selv om dette er sikkert for de fleste bruksområder, kan det hende at enkelte organisasjoner med strenge sikkerhetspolicyer foretrekker distribusjonens pakkebehandler, som legger til distribusjonens egen signeringsinfrastruktur. De andre alternativene er feil: Rustup installeres i brukerens hjemmekatalog uten å kreve administratorrettigheter, den stabile verktøykjeden ekskluderer spesifikt eksperimentelle funksjoner, og kompileringsmål legges til separat og utgjør ingen iboende sikkerhetsrisiko.

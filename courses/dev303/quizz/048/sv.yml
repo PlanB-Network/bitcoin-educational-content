@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med att kombinera RC med RefCell i Rust-programmeringen?
+answer: För att göra det möjligt för flera ägare att dela och mutera samma data med lånekontroller under körning
+wrong_answers:
+  - Att flytta tillämpningen av låneregler från körtid tillbaka till kompileringstid för bättre prestanda
+  - Att skapa oföränderliga delade data som kan nås säkert över flera trådar
+  - För att förhindra referenscykler och minnesläckor när data delas mellan flera ägare
+explanation: |
+  RC<RefCell<T>> kombinerar referensräkning för delat ägande med inre mutabilitet för körtidskontrollerade mutationer. RC tillåter flera delar av koden att äga samma data, medan RefCell möjliggör mutation genom oföränderliga referenser genom att kontrollera låneregler vid körning. De andra alternativen är felaktiga: det här mönstret flyttar faktiskt kontrollerna till körtid (inte kompileringstid), skapar mutabla (inte oföränderliga) delade data och kan faktiskt orsaka referenscykler snarare än att förhindra dem.

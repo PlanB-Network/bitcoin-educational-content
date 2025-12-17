@@ -1,0 +1,8 @@
+question: Qual è il vantaggio principale dell'approccio alla sicurezza della memoria in tempo di compilazione di Rust rispetto alla garbage collection?
+answer: Elimina l'overhead del runtime e le pause imprevedibili delle prestazioni
+wrong_answers:
+  - Utilizza più memoria ma fornisce maggiori garanzie di sicurezza
+  - Richiede meno codice da scrivere, ma è più lento della garbage collection
+  - Previene tutti gli errori di runtime, ma utilizza più CPU durante l'esecuzione
+explanation: |
+  L'approccio alla sicurezza della memoria di Rust analizza il codice in fase di compilazione per garantire la sicurezza della memoria senza alcun costo di runtime. A differenza della garbage collection utilizzata in linguaggi come Java e Go, che introduce un overhead di prestazioni e può causare pause imprevedibili durante l'esecuzione del programma, il sistema di Rust non ha alcun impatto sul runtime. Le altre opzioni non sono corrette perché Rust utilizza effettivamente la memoria in modo più efficiente (non di più), non viene eseguito più lentamente (viene eseguito più velocemente senza controlli di runtime) e non utilizza più CPU durante l'esecuzione (il lavoro viene svolto in fase di compilazione).

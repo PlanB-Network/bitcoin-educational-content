@@ -1,0 +1,8 @@
+question: In che modo la compatibilità multipiattaforma di Rust avvantaggia lo sviluppo di applicazioni Bitcoin in diversi ambienti di distribuzione?
+answer: Consente l'esecuzione di codebase unificate su piattaforme mobili, browser web tramite WebAssembly e sistemi operativi tradizionali
+wrong_answers:
+  - Gestisce automaticamente le conversioni dei tassi di cambio delle criptovalute tra i diversi mercati regionali e le diverse valute
+  - Fornisce protocolli di sincronizzazione blockchain integrati che funzionano in modo identico su tutte le architetture di rete
+  - Offre un'integrazione nativa con portafogli hardware e moduli di sicurezza su tutte le piattaforme supportate
+explanation: |
+  Le funzionalità multipiattaforma di Rust consentono agli sviluppatori di scrivere applicazioni Bitcoin che possono essere distribuite in diversi ambienti, tra cui i dispositivi mobili (Android/iOS), i browser web (grazie alla compilazione di WebAssembly) e i sistemi operativi desktop tradizionali. Questa versatilità è dimostrata da progetti come Mutiny Wallet, che sfrutta il supporto WebAssembly di Rust per creare portafogli Lightning eseguibili direttamente nei browser. Le risposte sbagliate descrivono caratteristiche che non sono legate alla compatibilità multipiattaforma: la conversione della valuta è una caratteristica a livello di applicazione, i protocolli blockchain riguardano il livello di rete e l'integrazione hardware richiede API specifiche piuttosto che un supporto generale multipiattaforma.

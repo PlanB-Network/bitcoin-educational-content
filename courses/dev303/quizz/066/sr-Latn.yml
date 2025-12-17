@@ -1,0 +1,8 @@
+question: Koja kombinacija karakteristika Rust čini ga posebno pogodnim za rukovanje nepovratnom prirodom Bitcoin transakcija?
+answer: Staticki snažan tip sistem koji otkriva greške pri kompajliranju i sprečava ranjivosti povezane sa memorijom
+wrong_answers:
+  - Dinamičko tipiziranje sa proverama u vreme izvršavanja i automatsko sakupljanje smeća za upravljanje memorijom
+  - Slab tipa sa fleksibilnim konverzijama i ručnim upravljanjem memorijom za optimizaciju performansi
+  - Kompilacija u poslednjem trenutku sa optimizacijom u vreme izvršavanja i interpretirano rukovanje greškama za fleksibilnost
+explanation: |
+  Staticki snažan tip sistem Rust je ključan za razvoj Bitcoin jer otkriva nepodudarnosti tipova i logičke greške pre nego što program počne da radi, sprečavajući probleme koji bi mogli uticati na sredstva korisnika. Staticka priroda znači da se greške pronalaze u vreme kompajliranja, a ne u vreme izvršavanja kada se rukuje stvarnim transakcijama. Pored toga, tip sistem Rust upravlja vlasništvom memorije i sprečava ranjivosti povezane sa memorijom kao što su greške dvostrukog oslobađanja i uslovi trke. Ovo je od suštinskog značaja za Bitcoin aplikacije gde su greške nepopravljive i nema autoriteta kome se može žaliti za povrat sredstava, za razliku od tradicionalnih finansijskih sistema sa mehanizmima povraćaja sredstava.

@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta korzystania z metod map() i map_err() na typach Result w porównaniu do tradycyjnych wzorców obsługi błędów try-catch?
+answer: Pozwalają one na łańcuchowanie operacji w stylu funkcjonalnym, utrzymując obsługę błędów blisko operacji, które mogą zakończyć się niepowodzeniem
+wrong_answers:
+  - Automatycznie konwertują wszystkie typy błędów na komunikaty łańcuchowe w celu łatwiejszego debugowania i wyświetlania użytkownikowi
+  - Eliminują one potrzebę stosowania operatora znaku zapytania, zapewniając wbudowane mechanizmy propagacji błędów
+  - Zapobiegają one stanom paniki poprzez zawijanie wszystkich potencjalnie nieudanych operacji w bezpieczne kontenery Result
+explanation: |
+  Metody map() i map_err() umożliwiają obsługę błędów w stylu funkcjonalnym, gdzie można łańcuchować operacje i przekształcać wartości lub błędy bezpośrednio w miejscu ich wystąpienia. Dzięki temu logika obsługi błędów znajduje się blisko operacji, które mogą zakończyć się niepowodzeniem, w przeciwieństwie do bloków try-catch, w których obsługa błędów jest oddzielona od rzeczywistych operacji. Pozostałe opcje są niepoprawne: metody map nie konwertują błędów na ciągi znaków (to rola Anyhow), działają obok operatora znaku zapytania, a nie zastępują go, i nie zapobiegają panice, ale raczej zapewniają ustrukturyzowaną obsługę błędów dla wyników.

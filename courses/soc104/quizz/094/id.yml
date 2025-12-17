@@ -1,0 +1,9 @@
+question: Menurut kritik mendasar dari Satoshi Nakamoto, apa masalah utama dari sistem mata uang fiat konvensional?
+answer: Mereka membutuhkan kepercayaan yang berlebihan pada lembaga-lembaga terpusat yang secara historis telah melanggar kepercayaan itu melalui pelemahan mata uang
+wrong_answers:
+  - Mereka tidak memiliki infrastruktur teknologi yang memadai untuk menangani transaksi digital modern secara efisien dan aman
+  - Mereka menciptakan terlalu banyak volatilitas dalam nilai tukar yang membuat perdagangan internasional tidak dapat diprediksi dan mahal
+  - Mereka generate biaya transaksi yang berlebihan yang membuat pembayaran mikro tidak layak secara ekonomi untuk pengguna sehari-hari
+explanation: |
+  Satoshi Nakamoto secara eksplisit menyatakan bahwa 'akar masalah dari mata uang konvensional adalah kepercayaan yang dibutuhkan untuk membuatnya bekerja' dan bahwa 'sejarah mata uang fiat penuh dengan pelanggaran terhadap kepercayaan tersebut'
+  Kritiknya berfokus pada ketergantungan mendasar pada bank sentral untuk tidak melemahkan mata uang, yang telah berulang kali gagal ditegakkan. Pilihan lainnya, meskipun berpotensi menimbulkan kekhawatiran tentang sistem tradisional, namun melewatkan keberatan filosofis utama Nakamoto terhadap sistem moneter berbasis kepercayaan dan motivasinya untuk menciptakan alternatif tanpa kepercayaan.

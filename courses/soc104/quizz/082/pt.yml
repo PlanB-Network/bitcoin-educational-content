@@ -1,0 +1,8 @@
+question: De acordo com a teoria do conhecimento disperso de Hayek, por que razão as economias centralmente planificadas não conseguem afetar os recursos de forma eficiente em comparação com os sistemas de mercado livre?
+answer: Os planeadores centrais não podem aceder aos conhecimentos fragmentados e localizados que os indivíduos possuem sobre as suas necessidades, preferências e circunstâncias específicas, o que impossibilita uma afetação óptima dos recursos.
+wrong_answers:
+  - Os planeadores centrais não dispõem de capacidade computacional suficiente nem de algoritmos avançados para processar todos os dados económicos necessários para tomar decisões óptimas de afetação de recursos.
+  - Os planeadores centrais são inerentemente corruptos e egoístas, dando prioridade ao seu próprio bem-estar em detrimento das necessidades da sociedade quando tomam decisões económicas.
+  - Os planeadores centrais concentram-se demasiado em objectivos estratégicos a longo prazo, negligenciando as necessidades de consumo imediato e as preferências de cada cidadão.
+explanation: |
+  A principal ideia de Hayek é que o conhecimento existe apenas como "fragmentos dispersos de conhecimentos incompletos e frequentemente contraditórios possuídos por todos os indivíduos distintos" O sistema de preços do mercado serve como um mecanismo de descoberta que mobiliza este conhecimento disperso através de trocas voluntárias. Os planeadores centrais, independentemente das suas intenções ou capacidades, não podem aceder à informação subjectiva e localizada que os indivíduos têm sobre custos, benefícios e preferências. Isto cria o "problema do conhecimento" fundamental que torna o planeamento central inerentemente ineficiente em comparação com a coordenação espontânea do mercado.

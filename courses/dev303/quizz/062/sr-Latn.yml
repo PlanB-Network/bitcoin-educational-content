@@ -1,0 +1,8 @@
+question: Koja je primarna prednost korišćenja komande `cargo expand` prilikom razvoja složenih makroa u Rust?
+answer: Prikazuje potpuno proširen kod generisan pozivima makroa, omogućavajući programerima da provere generisani izlaz i otklone greške.
+wrong_answers:
+  - Automatski optimizuje performanse makroa smanjenjem vremena kompajliranja i eliminisanjem redundantnih grana za poklapanje obrazaca.
+  - Ona proverava sintaksu makroa u vreme izvršavanja i obezbeđuje proveru grešaka u realnom vremenu za dinamičku validaciju argumenata makroa.
+  - Automatski pretvara makroe nalik funkcijama u derive makroe, poboljšavajući ponovnu upotrebljivost koda i efikasnost implementacije osobina.
+explanation: |
+  Komanda `cargo expand` je neprocenjiva za razvoj makroa jer otkriva stvarni kod koji makroi generate tokom kompilacije. Pošto makroi rade u vreme kompilacije i transformišu ulazne obrasce u generisani kod, programeri moraju da vide ovaj prošireni izlaz kako bi potvrdili da njihovi makroi rade ispravno. Ovo je posebno važno kada kod generisan makroima sadrži greške, jer prošireni izlaz pomaže da se utvrdi da li problemi potiču iz same definicije makroa ili iz strukture generisanog koda. Ostale opcije su netačne jer je `cargo expand` isključivo alat za debagovanje i inspekciju - ne optimizuje performanse, ne validira ponašanje u vreme izvršavanja, niti automatski konvertuje između tipova makroa.

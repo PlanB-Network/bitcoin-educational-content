@@ -1,0 +1,8 @@
+question: Wat gebeurt er als je een variabele declareert in Rust met 'let x = 5' zonder extra sleutelwoorden?
+answer: De variabele wordt onveranderlijk en kan niet worden gewijzigd na de toewijzing
+wrong_answers:
+  - De variabele wordt muteerbaar en kan op elk moment worden gewijzigd
+  - De variabele wordt automatisch geoptimaliseerd voor alleen release builds
+  - De variabele heeft een expliciete type-annotatie nodig om succesvol te compileren
+explanation: |
+  In Rust zijn variabelen standaard onveranderlijk wanneer ze gedeclareerd worden met 'let'. Dit betekent dat wanneer je een waarde toekent aan een variabele zoals 'let x = 5', je die waarde later in het programma niet meer kunt veranderen. Als je het probeert te wijzigen, zal de compiler een fout produceren. Deze standaard onveranderlijkheid is een belangrijke veiligheidsfunctie die veel voorkomende fouten in het programmeren voorkomt die worden veroorzaakt door onverwachte toestandsveranderingen. Om een variabele muteerbaar te maken, moet je expliciet het sleutelwoord 'mut' gebruiken, zoals 'let mut x = 5'.

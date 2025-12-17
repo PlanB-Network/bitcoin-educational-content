@@ -1,0 +1,8 @@
+question: Hvilken metode lar deg trekke ut en verdi fra et resultat samtidig som du gir en tilpasset panikkmelding hvis det oppstår en feil?
+answer: forventer
+wrong_answers:
+  - unwrap_or_else
+  - pakke_ut_med_melding
+  - panikk_med
+explanation: |
+  Expect-metoden er spesielt utviklet for å trekke ut suksessverdien fra et resultat, samtidig som du kan angi en egendefinert panikkmelding som skal vises hvis det oppstår en feil. Dette gjør feilsøking enklere sammenlignet med unwrap, som bruker en generisk panikkmelding. Metoden unwrap_or_else utløser ikke panikk, men kjører i stedet en closure når det oppstår en feil. De andre alternativene (unwrap_with_message og panic_with) er ikke faktiske Rust-metoder for håndtering av Result-typer.

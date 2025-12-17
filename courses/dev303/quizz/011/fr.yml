@@ -1,0 +1,8 @@
+question: Quel est le principal avantage de l'approche de sécurité de la mémoire à la compilation de Rust par rapport au ramassage des ordures ?
+answer: Il élimine les surcharges d'exécution et les pauses imprévisibles
+wrong_answers:
+  - Il utilise plus de mémoire mais offre de meilleures garanties de sécurité
+  - Il nécessite moins de code à écrire mais fonctionne plus lentement que le ramassage des ordures
+  - Il évite toutes les erreurs d'exécution mais utilise plus de CPU pendant l'exécution
+explanation: |
+  L'approche de sécurité de la mémoire à la compilation de Rust analyse le code pendant la compilation pour garantir la sécurité de la mémoire sans aucun coût d'exécution. Contrairement au garbage collection utilisé dans des langages comme Java et Go, qui introduit une surcharge de performance et peut provoquer des pauses imprévisibles pendant l'exécution du programme, le système de Rust n'a aucun impact sur le temps d'exécution. Les autres options sont incorrectes car Rust utilise la mémoire plus efficacement (et non pas plus), ne s'exécute pas plus lentement (il s'exécute plus rapidement sans vérification du temps d'exécution) et n'utilise pas plus de CPU pendant l'exécution (le travail est fait au moment de la compilation).

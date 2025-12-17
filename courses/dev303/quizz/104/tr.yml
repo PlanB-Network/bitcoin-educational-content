@@ -1,0 +1,8 @@
+question: LDK'nın Lightning Network iletişimi için TCP soketleri, WebSoketleri ve USB seri bağlantıları gibi çeşitli taşıma mekanizmalarını desteklemesini sağlayan nedir?
+answer: Eş yönetim sistemi, gürültü protokolü şifrelemesini ele alırken altta yatan taşıma mekanizmasından bağımsız olarak çalışır
+wrong_answers:
+  - Kanal yöneticisi, birleşik bir soket soyutlama katmanı aracılığıyla birden çok ağ bağdaştırıcısıyla eşgüdüm sağlar
+  - LDK, çekirdek ağ modülünde her bir taşıma türü için protokole özel sürücüler uygular
+  - Olay sistemi mevcut aktarım yöntemlerini otomatik olarak algılar ve uygun bağlantı işleyicilerini yapılandırır
+explanation: |
+  LDK'nın eş yönetim sistemi, Lightning protokol iletişimini (gürültü şifreleme ve mesaj yapıları dahil) gerçek taşıma katmanından bağımsız olarak ele almak için özel olarak tasarlanmıştır. Bu mimari ayrım, eş yöneticisi yalnızca Lightning protokolü uyumluluğuna odaklanırken geliştiricilerin herhangi bir çift yönlü iletişim kanalını uygulamasına olanak tanır. Diğer seçenekler yanlış bir şekilde LDK'nın yerleşik taşıma uygulamaları veya otomatik algılama sağladığını öne sürerken, gerçekte LDK'nın gücü belirli taşıma mekanizmalarından tamamen soyutlanmasında yatmaktadır.

@@ -1,0 +1,8 @@
+question: Was ist die wichtigste Einschränkung, mit der Entwickler umgehen müssen, wenn sie UniFFI für die Entwicklung mobiler Anwendungen verwenden, die responsive Benutzeroberflächen erfordern?
+answer: UniFFI unterstützt nur synchrone Schnittstellen, so dass Entwickler asynchrone Operationen über separate Threading-Mechanismen abwickeln müssen
+wrong_answers:
+  - UniFFI kann keine komplexen Datentypen wie Enums und Structs verarbeiten, was die Vielfalt der mobilen API-Schnittstellen einschränkt
+  - UniFFI erzeugt Bindungen, die über Sprachgrenzen hinweg nicht speichersicherfähig sind, was eine manuelle Speicherverwaltung erfordert
+  - UniFFI unterstützt keine Übersetzung der Fehlerbehandlung, so dass die Entwickler gezwungen sind, eine eigene Ausnahmebehandlung in jeder Zielsprache zu implementieren
+explanation: |
+  Die größte Einschränkung von UniFFI ist die fehlende Unterstützung für asynchrone Schnittstellen - alle generierten Bindungen sind synchron. Dies führt zu Herausforderungen bei der Entwicklung mobiler Geräte, bei denen reaktionsschnelle Benutzeroberflächen entscheidend sind, da die Entwickler ihre eigenen Threading-Lösungen implementieren müssen, um ein Blockieren des Haupt-Threads zu vermeiden. Die falschen Antworten sind falsch, denn UniFFI zeichnet sich durch den Umgang mit komplexen Typen wie Enums und Structs aus, bietet automatisches speichersicherfähiges Marshalling über Sprachgrenzen hinweg und verfügt über eine ausgefeilte Übersetzung der Fehlerbehandlung, die Rust-Ergebnistypen in native Ausnahmemodelle für Zielsprachen umwandelt.

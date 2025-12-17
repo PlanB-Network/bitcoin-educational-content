@@ -1,0 +1,8 @@
+question: Was ist der primäre architektonische Vorteil des schichtweisen Ansatzes von UniFFI bei der Integration von Rust-Bibliotheken in Zielsprachen wie Swift oder Kotlin?
+answer: Die Bindungsschicht kümmert sich um die Typübersetzung und die Speicherverwaltung und bietet eine vollständig native Schnittstelle zur Zielsprache
+wrong_answers:
+  - Die UDL-Datei kompiliert Rust-Code automatisch in Bytecode, der auf mobilen Plattformen ohne Übersetzung ausgeführt werden kann
+  - Der Rust-Bibliothekscode wird automatisch in der Syntax der Zielsprache umgeschrieben, um alle Aufrufe fremder Funktionsschnittstellen zu eliminieren
+  - Die Anwendungen der Zielsprache greifen über gemeinsame Zeiger direkt auf Rust-Speicherstrukturen zu, um den Overhead bei der Datenübertragung zu vermeiden
+explanation: |
+  Die UniFFI-Architektur schafft eine Trennung, bei der der generierte Bindungscode als Übersetzungsschicht zwischen der Zielsprache und Rust fungiert. Diese Schicht wickelt komplexes Marshaling/Demarshaling von Datentypen ab, verwaltet den Speicher sicher über Sprachgrenzen hinweg und bietet eine Fehlerbehandlung gemäß den Konventionen der Zielsprache. Die anderen Optionen sind falsch, weil UniFFI nicht zu Bytecode kompiliert (es erzeugt Bindungen), keinen Rust-Code in andere Sprachen umschreibt (es behält die ursprüngliche Rust-Implementierung bei) und keinen gemeinsamen Speicherzugriff verwendet (es verwaltet Daten sicher über Sprachgrenzen hinweg).

@@ -1,0 +1,8 @@
+question: Breez SDK'nın gözetim dışı ilkeleri korurken basitleştirilmiş Lightning entegrasyonu elde etmek için yaptığı birincil mimari ödün nedir?
+answer: Greenlight kanal durumlarını ve yönlendirme bilgilerini gözlemleyebildiği için kullanıcılar bir miktar gizlilikten feragat eder, ancak özel anahtarlar ve fon erişimi üzerinde tam kontrole sahiptir
+wrong_answers:
+  - Kullanıcılar, otomatik kanal yönetimi ve operasyonel karmaşıklığın azaltılması karşılığında Greenlight'a kısmi fon saklama konusunda güvenmelidir
+  - Geliştiriciler, basitleştirilmiş API entegrasyonu ve çapraz platform desteği karşılığında özel yönlendirme ve kanal ilkeleri gibi gelişmiş Lightning özelliklerine erişimlerini kaybederler
+  - Uygulamalar, tüm Lightning işlemlerinin bulut tabanlı olarak doğrulanması yoluyla daha iyi güvenlik karşılığında gerçek zamanlı ödeme işleme özelliklerinden feragat ediyor
+explanation: |
+  Breez SDK'nın mimarisi, dikkatlice düşünülmüş bir gizlilik-kullanılabilirlik dengesini temsil eder. Greenlight kanal durumlarını ve yönlendirme bilgilerini gözlemleyebilirken (gizliliği azaltır), kullanıcılar cihazlarını asla terk etmeyen özel anahtarları üzerinde tam kontrole sahiptir. Bu da fonlara kullanıcı yetkisi olmadan erişilememesini sağlayarak temel gözetimsizlik ilkesini korur. Yanlış cevaplar yanlış bir şekilde fon saklama, özellik sınırlamaları veya işlem gecikmelerini önermektedir - bunların hiçbiri SDK'nın tasarımındaki gerçek ödünleşmeler değildir.

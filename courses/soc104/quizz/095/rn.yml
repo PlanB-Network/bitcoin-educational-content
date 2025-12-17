@@ -1,0 +1,9 @@
+question: Dushingiye ku ciyumviro ca Satoshi Nakamoto, ni ikihe kibazo nyamukuru kiri mu mafaranga asanzwe Bitcoin yagenewe gutorera umuti?
+answer: Ukwizigira birenze urugero bisabwa mu nzego zishingiye ku rwego rwo hejuru zari zarenganye ukwo kwizigira mu mateka biciye mu guca bugufi kw’amahera .
+wrong_answers:
+  - Kubura ibikorwa remezo vy'ubuhinga bwa none n'uguteba gukora amafaranga mu mabanki ya kera
+  - Amafaranga menshi yo gukoresha n'ukuntu amafaranga yoherezwa mpuzamakungu ashobora gukoreshwa nabi biciye mu mabanki
+  - Ingaruka ku bidukikije n'inguvu zikoreshwa mu mabanki n'uburyo bwo kwishura
+explanation: |
+  Satoshi Nakamoto yavuze neza ko 'ingorane nyamukuru y'amafaranga asanzwe ari ukwizigira kwose gukenewe kugira ngo akore' kandi ko amabanki akomeye ategerezwa kwizigirwa kugira ngo ntashire hasi amafaranga, ariko 'amateka y'amafaranga y'ubuhinga yuzuyemwo ukurenga kuri ukwo kwizigira'.
+  Iryo jambo ry’inyuma ryerekana intumbero nyamukuru ya Bitcoin: gukuraho ivy’ukwizigira inzego zishingiye ku rwego rwo hejuru. Ibindi bihitamwo, naho bishobora kuba ari ivy’ukuri ku bijanye n’ivy’amahera y’agaciro, ntibitorera umuti ingorane y’ishimikiro ya filozofiya Satoshi yerekanye - ko uburyo bwa fiat busaba ukwizera ataco buzi ku nzego zagaragaje kenshi ko zitari izo kwizigirwa biciye mu gukoresha nabi amahera no kuyacisha bugufi.

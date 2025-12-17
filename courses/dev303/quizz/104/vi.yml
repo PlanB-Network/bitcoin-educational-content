@@ -1,0 +1,8 @@
+question: Điều gì cho phép LDK hỗ trợ các cơ chế truyền tải đa dạng như socket TCP, WebSocket và kết nối nối tiếp USB cho giao tiếp Lightning Network?
+answer: Hệ thống quản lý ngang hàng hoạt động độc lập với cơ chế vận chuyển cơ bản trong khi xử lý mã hóa giao thức nhiễu.
+wrong_answers:
+  - Trình quản lý kênh phối hợp với nhiều bộ điều hợp mạng thông qua một lớp trừu tượng socket thống nhất.
+  - LDK triển khai các trình điều khiển dành riêng cho từng giao thức đối với mỗi loại phương thức truyền tải trong mô-đun mạng cốt lõi của nó.
+  - Hệ thống sự kiện tự động phát hiện các phương thức vận chuyển khả dụng và cấu hình các trình xử lý kết nối phù hợp.
+explanation: |
+  Hệ thống quản lý ngang hàng của LDK được thiết kế đặc biệt để xử lý giao tiếp giao thức Lightning (bao gồm mã hóa nhiễu và cấu trúc thông báo) một cách độc lập với lớp vận chuyển thực tế. Sự tách biệt về kiến trúc này cho phép các nhà phát triển triển khai bất kỳ kênh giao tiếp hai chiều nào trong khi trình quản lý ngang hàng chỉ tập trung vào việc tuân thủ giao thức Lightning. Các tùy chọn khác cho rằng LDK cung cấp các triển khai vận chuyển tích hợp hoặc phát hiện tự động, trong khi trên thực tế, thế mạnh của LDK nằm ở việc trừu tượng hóa hoàn toàn khỏi các cơ chế vận chuyển cụ thể.

@@ -1,0 +1,8 @@
+question: UniFFI UDL dosyasındaki ad alanı bildiriminin birincil amacı nedir?
+answer: Nesne örnekleme gerektirmeden doğrudan çağrılabilen işlevler için bir kapsayıcı sağlamak
+wrong_answers:
+  - Oluşturulan dil bağları için paket yapısını ve içe aktarma bağımlılıklarını tanımlamak için
+  - UniFFI aracılığıyla Rust kütüphanesini kullanacak hedef programlama dillerini belirtmek için
+  - Diller arası veri harmanlama işlemleri için bellek yönetimi stratejisi oluşturmak
+explanation: |
+  UniFFI'nin UDL'sindeki ad alanı, önce nesne oluşturmadan doğrudan çağrılabilen bağımsız işlevler için bir kap görevi görür. Bu ad alanı işlevleri genellikle parametre olarak değer alan ve sonuç döndüren basit işlemleri gerçekleştirir. Diğer seçenekler yanlıştır çünkü: paket yapısı ve içe aktarmalar bağlama oluşturma süreci tarafından otomatik olarak işlenir, hedef diller UDL dosyası yerine derleme işlemi sırasında belirtilir ve bellek yönetimi ad alanlarında açıkça belirtilmek yerine UniFFI'nin çalışma zamanı katmanı tarafından şeffaf bir şekilde işlenir.

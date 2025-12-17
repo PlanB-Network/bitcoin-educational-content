@@ -1,0 +1,8 @@
+question: Ni sifa gani mahususi ya usanifu unaoendeshwa na matukio wa LDK inayowezesha programu kudumisha utengano safi kati ya mantiki ya itifaki ya Umeme na majibu mahususi ya programu?
+answer: Arifa zisizofuatana hutolewa kwa shughuli zote muhimu na mabadiliko ya hali, na kuruhusu washughulikiaji wa matukio maalum kutekelezwa kwa kujitegemea
+wrong_answers:
+  - Kurudi nyuma kwa simu kunakolingana huanzishwa moja kwa moja ndani ya kidhibiti cha chaneli, na kuhitaji majibu ya haraka ili kudumisha utiifu wa itifaki
+  - Vidhibiti vya matukio huzalishwa kiotomatiki kulingana na usanidi wa programu, na hivyo kuondoa hitaji la mantiki maalum ya utekelezaji.
+  - Matukio yote yamewekwa kwenye foleni katika bafa kuu na kusindika kwa mtiririko ili kuhakikisha tabia ya matumizi ya uhakika
+explanation: |
+  Mfumo wa matukio wa LDK hutoa arifa zisizofuatana kwa shughuli zote za Umeme ikijumuisha miunganisho ya wenzao, malipo, na mabadiliko ya njia. Hii inaruhusu wasanidi programu kutekeleza vidhibiti maalum vya matukio vinavyojibu ipasavyo huku wakidumisha utengano safi kati ya utendaji kazi mkuu wa LDK na mantiki ya programu. Chaguzi zingine si sahihi kwa sababu LDK haitumii vidhibiti vya simu vinavyofuatana vinavyozuia shughuli za itifaki, haitumii vidhibiti otomatiki vya generate, na hailazimishi usindikaji mfuatano wa matukio.

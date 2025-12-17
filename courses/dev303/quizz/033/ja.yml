@@ -1,0 +1,8 @@
+question: Rustでパニックが発生したとき、完全なコールスタックトレースを表示するために設定できる環境変数は？
+answer: RUST_BACKTRACE
+wrong_answers:
+  - サビ_スタックトレース
+  - rust_debug_trace
+  - サビパニックトレース
+explanation: |
+  RUST_BACKTRACEは正しい環境変数で、パニックに至った完全なコールスタックを表示することで、追加のデバッグ情報を提供します。これは開発者がどの関数呼び出しのシーケンスがエラーにつながったかを正確に追跡するのに役立ちます。他のオプション(RUST_STACKTRACE、RUST_DEBUG_TRACE、RUST_PANIC_TRACE)は有効なRust環境変数ではなく、パニックが発生したときにデバッグ出力を生成しません。

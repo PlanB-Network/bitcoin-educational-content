@@ -1,0 +1,8 @@
+question: Miks ei sobi "liigu kiiresti ja lõhu asju" filosoofia Bitcoin arenduse jaoks eriti hästi võrreldes traditsioonilise tarkvaraarendusega?
+answer: Bitcoin tehingud on pöördumatud ja puudub keskne asutus, kes saaks vigade tõttu raha tagasi nõuda
+wrong_answers:
+  - Bitcoin arendus nõuab kiiremaid iteratsioonitsükleid kui traditsioonilised veebirakendused
+  - "Rust kompilaator takistab plokiahela innovatsiooniks vajalikku kiiret prototüüpimist"
+  - "Bitcoin avatud lähtekoodiga olemus muudab vigade parandamise pärast kasutuselevõttu raskemaks"
+explanation: |
+  Õige vastus toob esile Bitcoin põhilise omaduse: selle detsentraliseeritud olemus tähendab, et pärast tehingute edastamist ei ole asutust, kelle poole pöörduda fondide tagasisaamiseks. Erinevalt traditsioonilistest finantssüsteemidest, millel on regulatiivsed kaitsemeetmed ja tagasipöördumismehhanismid, on Bitcoin vead püsivad ja pöördumatud. Valed vastused mõistavad põhiküsimust valesti - küsimus ei ole mitte arenduskiiruses, kompilaatori piirangutes või avatud lähtekoodiga seotud probleemides, vaid finantstehingute pöördumatuses detsentraliseeritud süsteemis, kus kasutajate rahalised vahendid on alaliselt ohus.

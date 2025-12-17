@@ -1,0 +1,8 @@
+question: V jakém scénáři by bylo nejvhodnější použít RefCell k řešení omezení výpůjčky při kompilaci?
+answer: Při implementaci makety objektu, která potřebuje sledovat změny vnitřního stavu prostřednictvím neměnného rozhraní rysu
+wrong_answers:
+  - Pokud potřebujete sdílet data mezi více vlákny a vyžadujete atomické počítání referencí
+  - Pokud se chcete vyhnout režii za běhu tím, že přesunete veškerou kontrolu výpůjček do doby kompilace
+  - Při vytváření kruhových odkazů mezi datovými strukturami, které vyžadují automatické čištění paměti
+explanation: |
+  Nástroj RefCell je určen pro scénáře vnitřní mutability, kdy je třeba mutovat data prostřednictvím neměnné reference, zejména pokud je statická analýza kompilátoru příliš konzervativní. Dokonalý případ použití představují makety objektů, které implementují rysy s neměnnými metodami, ale potřebují sledovat vnitřní stav. Ostatní možnosti jsou nesprávné: RefCell není thread-safe, přesouvá kontrolu do doby běhu (nikoliv do doby kompilace) a neřeší problémy s kruhovými referencemi - ve skutečnosti k nim může přispívat, pokud se kombinuje s RC.

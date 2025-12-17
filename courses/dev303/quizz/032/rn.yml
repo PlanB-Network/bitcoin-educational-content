@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe ry’intango hagati y’amakosa ashobora gusubirwamwo n’atashobora gusubirwamwo mu buryo bwo gutorera umuti amakosa bwa Rust?
+answer: Amakosa ashobora gusubirwamwo arashobora gukorwa neza bituma porogarama zikomeza, mu gihe amakosa adashobora gusubirwamwo arangiza porogarama .
+wrong_answers:
+  - Amakosa ashobora gusubirwamwo akoresha ubwoba! macro mu gihe amakosa adashobora gusubirwamwo akoresha igisubizo enum ku gucunga neza amakosa
+  - Amakosa ashobora gusubirwamwo aba mu gihe co gukoranya mu gihe amakosa adashobora gusubirwamwo aba gusa mu gihe c'ugukora porogarama
+  - Amakosa ashobora gusubirwamwo asaba gufungura ikirundo mu gihe amakosa adashobora gusubirwamwo ashobora kwirengagizwa na kode y'uguhamagara
+explanation: |
+  Rust ishira mu migwi amakosa ashingiye ku kuba porogarama zishobora kuyakira mu buryo bubereye. Amakosa ashobora gusubirwamwo agereranya ibintu vyitezwe vyo kunanirwa nk’amadosiye abuze canke ibibazo vy’urubuga porogarama zishobora gutorera umuti neza hakoreshejwe ubwoko bw’Ibisubizo, bituma ugushirwa mu ngiro kubandanya n’ugutorera umuti amakosa bikwiye. Amakosa adashobora gusubirwamwo yerekana ingorane z’ishimikiro nk’uguhungabanya umutekano w’ubwenge canke amakosa y’ubwenge aho porogarama idashobora kubandanya ata nkomanzi, bikaba bitera ubwoba buhagarika gukora kugira ngo ntihagire ibindi biturire bikomeza.

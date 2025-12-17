@@ -1,0 +1,8 @@
+question: Ni imvo nyamukuru iyihe ituma ubuhinga bwa Breez SDK bubuza intambamyi z’amategeko zisanzwe zigira ingaruka ku bikorwa vy’ububiko bw’umuravyo?
+answer: Abakoresha baguma bafise ububasha bwose ku mfunguruzo zabo z’ibanga zidashobora kuva ku bikoresho vyabo, bikaba bituma zidashobora kuzigama
+wrong_answers:
+  - SDK ikora biciye mu ma LSP yegerejwe atanga inshingano zo gutegeka mu bihugu vyinshi
+  - Ibikorwa remezo vy'umuco w'icatsi kibisi bishikirizwa mu bihugu bifise amategeko asonerwa ibikorwa vy'umuco bishingiye ku gicu
+  - Uburyo bwo gutanga amahera mu gihe nyene buratuma habaho inzira zo kwishura z’igihe gito zija hanze y’amabwirizwa y’ivy’ubutunzi asanzwe
+explanation: |
+  Breez SDK irinda intambamyi z’amategeko kuko igumya ingingo ngenderwako zitari izo kubungabunga - imfunguruzo z’ibanga z’abakoresha ntizigera ziva ku bikoresho vyabo kandi Greenlight ntishobora kuronka amahera y’abakoresha canke gukora ibikorwa bitaremewe. Ubu buhinga butagira ububiko busobanura ko porogarama idafata amahera y’abaguzi, bitandukanye n’ibikorwa vy’ububiko bihura n’ibisabwa bihambaye vy’amategeko kuko bigenzura umutungo w’abakoresha. Ayandi mahitamwo atari yo avuga ko inyungu z’amategeko zikomoka ku bintu vy’ubuhinga canke ingamba z’ubutungane, mu gihe inyungu nyamukuru ari uko gusa porogarama zitari izo kubungabunga zihura n’intambamyi nkeyi z’amategeko kw’isi yose.

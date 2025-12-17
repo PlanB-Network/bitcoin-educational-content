@@ -1,0 +1,8 @@
+question: Dalam skenario apa RefCell paling tepat digunakan untuk mengatasi pembatasan waktu peminjaman kompilasi?
+answer: Saat mengimplementasikan objek tiruan yang perlu melacak perubahan status internal melalui antarmuka sifat yang tidak dapat diubah
+wrong_answers:
+  - Saat Anda perlu berbagi data di antara beberapa thread dan memerlukan penghitungan referensi atom
+  - Ketika Anda ingin menghindari overhead runtime dengan memindahkan semua pemeriksaan peminjaman ke waktu kompilasi
+  - Saat membuat referensi melingkar di antara struktur data yang membutuhkan pembersihan memori otomatis
+explanation: |
+  RefCell didesain untuk skenario mutabilitas internal di mana Anda perlu mengubah data melalui referensi yang tidak dapat diubah, terutama ketika analisis statis kompiler terlalu konservatif. Objek tiruan yang mengimplementasikan sifat-sifat dengan metode yang tidak dapat diubah tetapi perlu melacak keadaan internal merupakan kasus penggunaan yang sempurna. Opsi-opsi lainnya tidak tepat: RefCell tidak thread-safe, ia memindahkan pengecekan ke runtime (bukan waktu kompilasi), dan tidak menyelesaikan masalah referensi sirkular - RefCell sebenarnya bisa berkontribusi pada masalah ini ketika digabungkan dengan RC.

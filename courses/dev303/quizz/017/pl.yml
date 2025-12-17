@@ -1,0 +1,8 @@
+question: Jakie są trzy elementy składające się na strukturę String w układzie pamięci Rust?
+answer: Wskaźnik do danych sterty, bieżąca długość i całkowita pojemność
+wrong_answers:
+  - Wskaźnik do danych stosu, aktualny rozmiar i maksymalna długość
+  - Adres pamięci, liczba znaków i typ alokacji
+  - Odniesienie do danych, rozmiar bajtu i status własności
+explanation: |
+  String w Rust składa się z dokładnie trzech komponentów przechowywanych na stosie: wskaźnika do danych znakowych przydzielonych na stercie, bieżącej długości zawartości ciągu oraz całkowitej pojemności przydzielonego bufora. Struktura ta pozwala łańcuchom znaków efektywnie rosnąć i kurczyć się, zachowując wiedzę o ich granicach. Pozostałe opcje są niepoprawne, ponieważ odnoszą się do niewłaściwych lokalizacji (stos zamiast sterty), używają nieprecyzyjnej terminologii (rozmiar vs długość, liczba znaków vs długość bajtu) lub zawierają nieistniejące elementy, takie jak typ alokacji lub status własności.

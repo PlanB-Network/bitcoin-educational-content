@@ -1,0 +1,8 @@
+question: Jaký je hlavní důvod, proč UniFFI vyžaduje, aby vývojáři vytvořili samostatný soubor UDL, místo aby automaticky generoval vazby přímo z kódu Rust?
+answer: UDL slouží jako explicitní smlouva o rozhraní, která určuje, které části knihovny Rust mají být vystaveny jiným jazykům
+wrong_answers:
+  - "UDL je vyžadován, protože typový systém Rust je bez překladu nekompatibilní s jinými programovými jazyky"
+  - Soubory UDL jsou nezbytné pro optimalizaci výkonu volání funkcí mezi jazyky během běhu
+  - "UDL poskytuje způsob, jak automaticky převést model vlastnictví Rust na garbage collection pro cílové jazyky."
+explanation: |
+  UniFFI používá UDL jako záměrnou volbu návrhu pro zachování oddělení zájmů mezi implementací a rozhraním. Soubor UDL funguje jako explicitní smlouva, která vývojářům umožňuje selektivně vystavit části jejich knihovny Rust a zároveň zachovat interní implementační detaily v tajnosti. Tento přístup zabraňuje automatickému vystavení všech veřejných položek Rust, což vývojářům poskytuje jemnou kontrolu nad jejich povrchem API. Ostatní možnosti jsou nesprávné, protože typy Rust lze mapovat bez UDL (i když méně elegantně), optimalizace výkonu není primárním účelem UDL a UDL nepřevádí modely vlastnictví.

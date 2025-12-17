@@ -1,0 +1,8 @@
+question: Bir derleme zamanı ödünç alma kısıtlamasını çözmek için RefCell en uygun şekilde hangi senaryoda kullanılır?
+answer: Değişmez bir özellik arayüzü aracılığıyla dahili durum değişikliklerini izlemesi gereken bir mock nesnesi uygularken
+wrong_answers:
+  - Birden fazla iş parçacığı arasında veri paylaşmanız gerektiğinde ve atomik referans sayımına ihtiyaç duyduğunuzda
+  - Tüm ödünç kontrolünü derleme zamanına taşıyarak çalışma zamanı ek yükünden kaçınmak istediğinizde
+  - Otomatik bellek temizleme gerektiren veri yapıları arasında döngüsel referanslar oluştururken
+explanation: |
+  RefCell, özellikle derleyicinin statik analizi çok tutucu olduğunda, değişmez bir referans aracılığıyla verileri değiştirmeniz gereken iç değişebilirlik senaryoları için tasarlanmıştır. Değişmez yöntemlere sahip özellikleri uygulayan ancak dahili durumu izlemesi gereken sahte nesneler mükemmel bir kullanım örneğini temsil eder. Diğer seçenekler yanlıştır: RefCell iş parçacığı güvenli değildir, denetimi çalışma zamanına taşır (derleme zamanına değil) ve döngüsel referans sorunlarını çözmez - aslında RC ile birleştirildiğinde bunlara katkıda bulunabilir.

@@ -1,0 +1,8 @@
+question: Quel est le rôle principal des assertions dans le développement d'applications Bitcoin selon les meilleures pratiques Rust ?
+answer: Pour détecter les bogues pendant les tests, provoquer l'échec précoce du programme lorsque des problèmes surviennent et servir de documentation exécutable des hypothèses du programmeur
+wrong_answers:
+  - Gérer les erreurs de ressources d'exécution telles que les échecs d'accès aux fichiers et les problèmes de connectivité réseau de manière gracieuse
+  - Traduire les erreurs de bas niveau de la bibliothèque en erreurs de haut niveau de l'application que les utilisateurs peuvent comprendre et sur lesquelles ils peuvent agir
+  - Pour éviter les erreurs d'entrée non valides en limitant les paramètres de fonction à des valeurs comprises dans des fourchettes valides
+explanation: |
+  Les assertions remplissent trois fonctions essentielles dans le développement de logiciels Bitcoin robustes : elles détectent les bogues pendant la phase de test, garantissent que les programmes échouent rapidement lorsque les hypothèses fondamentales sont violées (ce qui facilite le débogage) et agissent comme une documentation exécutable qui décrit les attentes du programmeur concernant l'état du programme. Les autres options décrivent différentes stratégies de traitement des erreurs - traitement gracieux des défaillances des ressources externes, traduction des erreurs entre les couches d'abstraction et validation des entrées - qui sont importantes mais distinctes du rôle spécifique des assertions dans la vérification des hypothèses internes du programme.

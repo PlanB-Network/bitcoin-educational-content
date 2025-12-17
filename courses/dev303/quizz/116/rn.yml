@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’intango k’uburyo bwo gukorana n’abandi bwa Breez SDK bushobora gutuma porogarama nyinshi zifatanya n’uruzitiro rumwe rwa Lightning hakoreshejwe ijambo rimwe rya seed?
+answer: Abakoresha barashobora kuguma bafise uburinganire bumwe bw'umuravyo mu bikorwa bitandukanye vy'umwihariko mu gihe bariko baririnda ingorane zo gucunga uturongo twinshi tw'umuravyo .
+wrong_answers:
+  - Porogaramu zishobora gusangira imfunguruzo z'ibanga hagati yazo, bikaba bishoboza gusinyana amaporogarama ataco umukozi akora
+  - Ibikoresho vyinshi birashobora gukoranya amahera yavyo hamwe kugira ngo bibe imihora minini y'umuravyo ifise ubushobozi bwo gukoresha inzira y'urubuga .
+  - Abahinguzi bashobora gushika ku bikorwa remezo vya Lightning basangira batashize mu ngiro uburongozi bwabo bwite, bikagabanya ibiciro vy’iterambere n’ugusobanuka
+explanation: |
+  Ugukorana kwa SDK gutuma abakoresha bashobora gushika ku nzira imwe ya Lightning node n’amahera avuye mu maporogarama menshi yihariye (nk’iporogarama rusangi ya wallet n’iporogarama ya podcasting) ata gucunga amafaranga canke inzira zitandukanye. Inyishu zitari zo zigaragaza nabi ubwubatsi: imfunguruzo z’ibanga ntizigera ziva ku gikoresho c’ukoresha kandi ntizisangirwa hagati ya porogaramu, gukoranya amafaranga si uko sisitemu ikora, kandi naho abahinguzi bungukira ku bikorwa remezo vyoroshe, akamaro ka mbere kavugwa ni ubumenyi bumwe bw’ukoresha mu porogaramu zose.

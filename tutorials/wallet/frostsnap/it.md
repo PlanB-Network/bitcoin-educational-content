@@ -1,5 +1,5 @@
 ---
-name: Frostnap
+name: Frostsnap
 description: Un avanzato sistema di sicurezza multi-firma che utilizza il protocollo FROST
 ---
 

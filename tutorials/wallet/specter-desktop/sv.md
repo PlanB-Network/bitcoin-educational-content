@@ -1,5 +1,5 @@
 ---
-name: Specter skrivbord
+name: Specter Desktop
 description: Hantera dina Bitcoin-portföljer med flera signaturer i total suveränitet med din egen nod
 ---
 

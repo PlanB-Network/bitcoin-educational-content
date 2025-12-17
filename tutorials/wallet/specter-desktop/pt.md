@@ -1,5 +1,5 @@
 ---
-name: Ambiente de trabalho Specter
+name: Specter Desktop
 description: Gerir as suas carteiras Bitcoin multi-assinaturas em total soberania com o seu próprio nó
 ---
 

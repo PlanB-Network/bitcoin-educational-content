@@ -1,5 +1,5 @@
 ---
-name: Mesec
+name: Moon
 description: Plaćajte bitcoinima gde god se prihvataju Visa kartice.
 ---
 

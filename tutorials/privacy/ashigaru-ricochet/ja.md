@@ -1,5 +1,5 @@
 ---
-name: 足軽 - リコシェ
+name: Ashigaru - Ricochet
 description: リコシェ取引の理解と利用
 ---
 ![cover ricochet](assets/cover.webp)

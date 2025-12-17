@@ -1,0 +1,8 @@
+question: Ưu điểm chính của việc sử dụng Taproot với MuSig2 để hoán đổi giữa các lớp so với HTLC SegWit v0 cũ là gì?
+answer: Các giao dịch hoán đổi hợp tác xuất hiện dưới dạng các giao dịch chữ ký đơn tiêu chuẩn, cung cấp sự riêng tư hoàn toàn và sử dụng không gian khối tối thiểu.
+wrong_answers:
+  - Taproot loại bỏ nhu cầu về khóa thời gian, giúp việc thay thế ổ cứng nhanh hơn và hiệu quả hơn so với các ổ HTLC thế hệ cũ.
+  - MuSig2 cho phép sử dụng nhiều khóa băm đồng thời, tạo điều kiện cho các thỏa thuận trao đổi đa bên phức tạp hơn.
+  - Việc hoán đổi Taproot có thể được hoàn tất mà không tiết lộ bất kỳ bí mật mã hóa nào, không giống như các HTLC truyền thống luôn làm lộ ảnh gốc.
+explanation: |
+  Taproot với MuSig2 đã cách mạng hóa tính bảo mật của HTLC thông qua việc tổng hợp khóa. Trong kịch bản hợp tác "thuận lợi", cả hai bên kết hợp các khóa của họ thành một khóa công khai tổng hợp duy nhất và cùng ký giao dịch. Điều này làm cho việc hoán đổi không thể phân biệt được với một khoản thanh toán thông thường, tiêu tốn không gian khối tối thiểu và không tiết lộ bất kỳ điều kiện hoán đổi nào. Các HTLC SegWit v0 cũ yêu cầu công bố toàn bộ logic kịch bản on-chain, khiến chúng dễ bị nhận dạng và tốn kém hơn. Các tùy chọn khác không chính xác: khóa thời gian vẫn rất cần thiết cho sự an toàn, nhiều khóa băm không phải là sự đổi mới chính và ảnh trước vẫn bị tiết lộ khi yêu cầu tiền.

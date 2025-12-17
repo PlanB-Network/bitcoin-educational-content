@@ -1,0 +1,8 @@
+question: Was ist die Hauptfolge, wenn bei der Ausgabe eines UTXO, der mehr Bitcoin als erforderlich enthält, vergessen wird, eine Änderungsausgabe einzubeziehen?
+answer: Der überschüssige Betrag wird automatisch zu einer Miner-Gebühr
+wrong_answers:
+  - Die Transaktion wird vom Netzwerk als ungültig zurückgewiesen
+  - "Der überschüssige Betrag wird an die ursprüngliche Absenderadresse zurückgeschickt"
+  - Der überschüssige Betrag bleibt im ursprünglichen UTXO gesperrt
+explanation: |
+  Im UTXO-Modell von Bitcoin werden die Transaktionsgebühren implizit als Differenz zwischen den gesamten Inputs und den gesamten Outputs berechnet (Gebühr = Summe(Inputs) - Summe(Outputs)). Wenn Sie ein UTXO ausgeben, müssen Sie es vollständig ausgeben - eine Teilausgabe ist nicht möglich. Wenn Sie nur einen Teil des Wertes eines UTXO ausgeben müssen, müssen Sie eine Änderungsausgabe erstellen, um den Rest zu erhalten. Wenn Sie vergessen, diese Wechselgeldausgabe zu erstellen, wird die nicht verrechnete Differenz zwischen Ein- und Ausgaben automatisch zur Bergwerksgebühr. Aus diesem Grund ist eine korrekte Konstruktion der Wechselgeldausgabe unerlässlich - ohne sie könnten Sie versehentlich enorme Gebühren an die Bergleute zahlen.

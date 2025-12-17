@@ -1,0 +1,8 @@
+question: Wenn ein Bitcoin wallet Blöcke nach eingehenden Zahlungen durchsucht, warum wird das Herunterladen ganzer Blöcke dem Anfordern einzelner Transaktionen von Netzwerk-Peers vorgezogen?
+answer: Das Herunterladen ganzer Blöcke bietet einen besseren Schutz der Privatsphäre, da nicht offengelegt wird, welche spezifischen Transaktionen oder Adressen das wallet überwachen möchte
+wrong_answers:
+  - Das Herunterladen ganzer Blöcke ist rechnerisch effizienter, da weniger kryptografische Hash-Operationen zur Überprüfung der Authentizität der Transaktion erforderlich sind
+  - Das Herunterladen ganzer Blöcke sorgt für eine schnellere Synchronisierung, da die Peers komprimierte Blockdaten anstelle einzelner Transaktionsantworten senden können
+  - Das Herunterladen ganzer Blöcke bietet mehr Sicherheit, da es dem wallet ermöglicht, den kompletten proof-of-work für jede Transaktion zu überprüfen
+explanation: |
+  Der wichtigste Vorteil des blockbasierten Abrufs ist der Datenschutz. Wenn ein wallet bestimmte Transaktionen anfordert, sendet er starke Signale über die Benutzeraktivität aus und verrät, welche Adressen zu diesem wallet gehören. Durch das Herunterladen ganzer Blöcke werden die tatsächlichen Interessen der wallet unter allen Blocktransaktionen verschleiert. Die falschen Antworten konzentrieren sich auf Effizienz-, Geschwindigkeits- oder Sicherheitsvorteile, die nicht die primäre Motivation sind - individuelle Transaktionsanfragen könnten theoretisch genauso sicher oder effizient sein, aber sie gefährden grundsätzlich die Privatsphäre, indem sie die Überwachungsmuster des wallet an Netzwerk-Peers preisgeben.

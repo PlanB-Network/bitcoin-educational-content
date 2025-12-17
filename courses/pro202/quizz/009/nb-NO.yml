@@ -1,0 +1,8 @@
+question: Hva er den spesifikke elliptiske kurvelikningen som brukes av Bitcoins secp256k1?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + 3
+  - y² = x³ + 5
+  - y² = x³ + 1
+explanation: |
+  Bitcoin bruker secp256k1-kurven definert av ligningen y² = x³ + 7 over et endelig felt. Denne spesifikke ligningen ble valgt fordi den bevarer symmetrien og den ikke-lineære oppførselen som er avgjørende for kryptografisk sikkerhet. Koeffisienten 7 er en del av den standardiserte secp256k1-spesifikasjonen og skiller den fra andre elliptiske kurver som kan bruke andre konstanter som 1, 3 eller 5.

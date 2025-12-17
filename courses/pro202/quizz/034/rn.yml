@@ -1,0 +1,8 @@
+question: Ni ikihe kintu kidasanzwe kigomba gushirwa muri P2SH ScriptSig kiyitandukanya n’ibintu bisanzwe bikoreshwa mu gucuruza?
+answer: Inyandiko yuzuye yo gucungura ubwayo hamwe n'amakuru yo gufungura
+wrong_answers:
+  - HASH160 y'inyandiko yo gucungura n'imfunguruzo za bose
+  - Imikono n'imfunguruzo za bose gusa ni vyo bikenewe kugira ngo umuntu yuzuze ivyangombwa
+  - Verisiyo ya byte na aderesi yo kwemeza P2SH
+explanation: |
+  Ivyinjira vya P2SH bisaba amakuru yo gufungura (imikono, n'ibindi) n'inyandiko yuzuye yo gucungura muri ScriptSig. Ivyo ni vyo bidasanzwe kuko inyandiko yo gucungura yari yihishije inyuma y’ibara ry’umubiri (hash) kandi ubu itegerezwa guhishurirwa kugira ngo yemezwe. Intambwe ya mbere yo kwemeza isuzuma ko HASH160(redeem_script) ihuye n’inyandiko iri muri scriptPubKey, hanyuma inyandiko yo gucungura irashirwa mu ngiro n’amakuru yo gufungura yatanzwe. Ayandi mahitamwo ntabwo ari meza: hash irasanzwe iri mu nyandikoPubKey y'umwimerere, imikono yonyene ntihagije ata nyandiko, kandi bytes za verisiyo zikoreshwa mu gushiramwo amaderesi, ntizikoreshe kwemeza.

@@ -1,0 +1,8 @@
+question: 什麼架構機制可讓 Breez SDK 在不依賴 federated peg-out 或集中式交換的情況下，執行 Liquid 至 Bitcoin 的傳輸？
+answer: 雙重交換機制，在兩條鏈上同時進行鎖定交易，其中寄件者要求 Bitcoin 資金，收件者要求 Liquid 資金
+wrong_answers:
+  - 單筆潛水交換，Bitcoin 資金會先被鎖定，然後再使用 Liquid 交易的「閃電」付款預設影像進行認領
+  - 反向海底交換架構，其中 Liquid Network 擔任中介橋樑，以驗證 Bitcoin mainchain 交易
+  - 由 Boltz 管理的聯邦多重簽章託管系統，使用時間鎖定合約協調 Liquid 和 Bitcoin 之間的原子交換。
+explanation: |
+  雙交換機制專為 Bitcoin 跨鏈轉移而設計，涉及 Liquid 和 Bitcoin 網路上同時進行的鎖定交易。這種無信任方式允許直接橋接，而無需 federated peg-out。其他選項不正確地描述了單向海底交換，歪曲了 Liquid Network 的作用，或不正確地建議依賴 SDK 明確避免的聯合系統。

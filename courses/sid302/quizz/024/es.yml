@@ -1,0 +1,8 @@
+question: En la plataforma de gestión de activos (AMP) de Liquid, ¿cuál es el principal mecanismo técnico que evita las acciones de cumplimiento de un único punto de fallo al tiempo que mantiene el control normativo sobre los activos tokenizados?
+answer: Autorización multifirma que requiere que varias partes aprueben acciones de cumplimiento como la congelación de fondos o la reemisión de tokens
+wrong_answers:
+  - Fichas de gobernanza Smart contract que permiten a la comunidad votar sobre todas las decisiones de cumplimiento y aplicación de la normativa
+  - Cuentas de garantía bloqueadas por tiempo que ejecutan automáticamente las acciones de cumplimiento una vez expirados los periodos de espera predeterminados
+  - Consenso criptográfico de prueba de participación en el que los validadores deben alcanzar un acuerdo mayoritario antes de ejecutar cualquier acción de cumplimiento
+explanation: |
+  AMP utiliza el control multifirma para garantizar que las acciones de cumplimiento requieran la autorización de varias partes, lo que impide que un solo empleado actúe unilateralmente. De este modo se crea un sistema de controles y equilibrios para las operaciones sensibles, al tiempo que se mantiene la supervisión reglamentaria exigida para los activos institucionales. Las respuestas incorrectas describen mecanismos que o bien no existen en AMP o bien serían inadecuados para el cumplimiento financiero regulado.

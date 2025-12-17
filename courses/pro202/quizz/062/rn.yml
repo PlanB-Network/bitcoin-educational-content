@@ -1,0 +1,8 @@
+question: Mu kirundo c’ivyabona c’ibikorwa vya P2WSH ku 2-of-3 multisig, ni kuki ikintu kitagira ikintu kigomba gushirwa hasi mu kirundo c’ivyabona?
+answer: Kugira ngo ushireho ikibazo ca CHECKMULTISIG kirya ikindi kintu c'ikirundo mu gihe c'ugushirwa mu ngiro
+wrong_answers:
+  - "Gutanga ikibanza c'umukono wa gatatu utakoreshejwe mu kwemeza 2-of-3 multisig"
+  - Kugira ngo utandukanye amakuru y'umukono n'inyandiko y'icabona kugira ngo ushobore gusesangura neza SegWit
+  - Kugira ngo umenye neza ko ikirundo c'ivyabona gifise umubare w'ibintu vy'ubwubatsi bwiza bw'igiti ca merkle
+explanation: |
+  CHECKMULTISIG opcode ifise ikibazo c'amateka aho itera ikintu kimwe c'inyongera mu kirundo kirenze ivyo ikwiye gukenera. Ivyo bigira ico bikoze ku bikorwa vyose vy’ubuhinga bwa multisig, harimwo na P2WSH. Igikoresho c'ubusa kirasubiza iki gikoko, kigatuma ibintu bisigaye (imikono n'inyandiko y'icabona) bishirwa neza kugira ngo vyemezwe. Ayandi mahitamwo ntabwo ari meza: imikono itakoreshejwe ntiserukirwa n'ibintu ataco bimaze, gusesangura ivyabona ntibisaba ibintu vy'ugutandukanya, kandi ibirundo vy'ivyabona ntibikeneye mbere n'ibara ry'ibintu ku bikorwa vya merkle.

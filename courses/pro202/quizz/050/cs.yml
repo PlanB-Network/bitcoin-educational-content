@@ -1,0 +1,8 @@
+question: Jaký je primární mechanismus, který uzel Bitcoin používá při prvním spuštění a připojení k síti, aby zjistil aktivní partnery?
+answer: Kontakty na pevně zakódované semínka DNS udržované vývojáři jádra pro příjem IP adres aktivních peerů
+wrong_answers:
+  - Vysílá zprávu o zjišťování na všechny IP adresy v předem definovaných rozsazích podsítí
+  - Připojí se k centrálnímu serveru registru, který udržuje seznam všech aktivních uzlů
+  - Používá protokol DHT (Distributed Hash Table) k vyhledávání vrstevníků pomocí směrování založeného na hashování
+explanation: |
+  Bitcoin používá jako zaváděcí mechanismus pevně zakódované semínka DNS, protože poskytuje decentralizovaný způsob vstupu nových uzlů do sítě bez závislosti na centrální autoritě. Semínka DNS jsou udržována vývojáři jádra a vracejí IP adresy aktuálně aktivních peerů. Po připojení mohou uzly pomocí příkazu getaddr zjišťovat další vrstevníky. Špatné odpovědi popisují centralizované přístupy nebo protokoly, které Bitcoin nepoužívá - v návrhu Bitcoin není žádný centrální registr, žádné vysílání podsítí ani zjišťování vrstevníků na základě DHT.

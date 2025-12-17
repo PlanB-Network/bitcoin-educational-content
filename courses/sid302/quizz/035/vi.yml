@@ -1,0 +1,8 @@
+question: Mục đích chính của quy trình ba bước Kết nối, Chuẩn bị và Thực thi trong giao diện nhà phát triển của Breez SDK là gì?
+answer: Chuẩn hóa các luồng tài chính phức tạp bằng cách đồng bộ hóa ví điện tử, tính toán tất cả các khoản phí trước và sau đó xây dựng các giao dịch.
+wrong_answers:
+  - Để thiết lập các kết nối sao lưu dự phòng trên nhiều nhà cung cấp hoán đổi trước khi bắt đầu bất kỳ thao tác nguyên tử nào.
+  - Để tạo ra các chữ ký mật mã riêng biệt cho mỗi mạng tham gia vào các giao dịch hoán đổi ngầm xuyên chuỗi.
+  - Để xác thực các thông tin thanh toán trước khi giải ngân tiền từ các cơ chế ký quỹ, dựa trên các hợp đồng có thời hạn nhất định.
+explanation: |
+  Mô hình Connect, Prepare, Execute đơn giản hóa quá trình phát triển bằng cách chia nhỏ các thao tác phức tạp thành các bước dễ quản lý: Connect khởi tạo ví và thiết lập kết nối giám sát, Prepare tính toán và hiển thị tất cả chi phí một cách minh bạch cho người dùng, và Execute xử lý việc xây dựng và phát sóng giao dịch thực tế. Sự tiêu chuẩn hóa này loại bỏ sự phức tạp tiềm ẩn của các giao dịch hoán đổi ngầm và các hoạt động xuyên chuỗi, giúp các nhà phát triển dễ dàng tích hợp chức năng Bitcoin mà không cần quản lý các chi tiết cấp thấp.

@@ -1,0 +1,8 @@
+question: Iyo node ya Bitcoin isaba imitwe y’amabuye ikoresheje itegeko rya getheaders, ni umubare ungana iki w’imitwe ishobora kugaruka mu nyishu imwe, kandi ni igiki gikurikira umutwe wose w’amabayiti 80?
+answer: Gushika ku mitwe 2000 irashobora kugaruka, imwe yose ikurikirwa n'igiharuro c'ibikorwa vy'ubuhendanyi ca zero
+wrong_answers:
+  - Gushika ku mitwe 1000 irashobora kugaruka, imwe yose ikurikiwe n’igiharuro nyaco c’ibikorwa nk’ihinduka
+  - Gushika ku mitwe 2000 irashobora kugaruka, imwe yose ikurikirwa n'umubare w'amakuru y'umutwe w'amabayiti 4
+  - Imitwe igera kuri 500 irashobora kugaruka, imwe yose ikurikirwa n’umuzi wa Merkle kugira ngo ugenzure
+explanation: |
+  Bitcoin's P2P protocol igabanya canecane inyishu z'aba getheaders ku mitwe 2000 kugira ngo ntihagire ama node menshi cane afise inyishu nyinshi. Buri mutwe ni bytes 80 nyavyo kandi ukurikirwa n'umwanya w'ibara ry'ibikorwa ushizwe kuri zero, kuko ubutumwa bw'imitwe gusa butarimwo ibikorwa vy'ukuri. Iyi nzira ituma habaho uguhuza neza uruzitiro aho amanode ashobora gukuraho ningoga no kugenzura imiterere y’uruzitiro rwa proof-of-work imbere yo gusaba amakuru yuzuye.

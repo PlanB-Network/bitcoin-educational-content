@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste consensusmechanisme dat de Liquid Network gebruikt?
+answer: Federale consensus
+wrong_answers:
+  - Proof-of-Work
+  - Bewijs van inname
+  - Gedelegeerd bewijs van afname
+explanation: |
+  De Liquid Network werkt met een Federated Consensus model, dat fundamenteel verschilt van het Proof-of-Work systeem van Bitcoin. In dit model treedt een geselecteerde groep van vijftien functionarissen op als blokondertekenaars die blokken produceren op een deterministische round-robin manier. Proof-of-Work is het consensusmechanisme van Bitcoin waarbij mining betrokken is, terwijl Proof-of-Stake en Delegated Proof-of-Stake consensusmechanismen zijn die gebruikt worden door andere blockchainnetwerken, maar niet door Liquid.

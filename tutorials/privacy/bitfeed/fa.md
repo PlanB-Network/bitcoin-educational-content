@@ -1,5 +1,5 @@
 ---
-name: بیت‌فید
+name: Bitfeed
 description: زنجیره پروتکل اصلی Bitcoin را بررسی کنید.
 ---
 

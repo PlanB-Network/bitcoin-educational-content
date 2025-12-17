@@ -1,0 +1,8 @@
+question: Jaký dvoufázový proces ověření musí proběhnout při výdaji výstupu P2SH, aby byla transakce považována za platnou?
+answer: Nejprve ověřte, zda HASH160 skriptu redeem odpovídá hash klíče scriptPubKey, a poté spusťte skript redeem s poskytnutými daty
+wrong_answers:
+  - Nejprve proveďte skript redeem se zadanými daty a poté ověřte, zda výsledný hash odpovídá klíči scriptPubKey
+  - Nejprve ověřte platnost všech podpisů proti jejich veřejným klíčům a poté zkontrolujte, zda se shoduje hash skriptu redeem
+  - Nejprve ověřte, že skript redeem obsahuje platné opcodes, a poté ověřte, že provedení skriptu vede k pravdivému výsledku
+explanation: |
+  Ověření P2SH vyžaduje specifický dvoufázový proces: nejprve se musí hash poskytnutého skriptu redeem shodovat s 20bajtovým hashem ve skriptPubKey (ověření HASH160) a teprve poté, co toto ověření projde, spustí síť samotný skript redeem s odemykacími daty. Tato konstrukce zajišťuje, že lze použít pouze správný skript pro vykoupení, přičemž skutečné podmínky utrácení zůstávají skryté, dokud nedojde k utracení. Ostatní možnosti popisují věrohodné, ale nesprávné ověřovací sekvence, které se neřídí skutečným protokolem P2SH.

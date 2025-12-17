@@ -1,0 +1,8 @@
+question: Hva skjer når man konstruerer et Merkle-tre fra transaksjoner hvis antallet hasher på et hvilket som helst nivå er oddetall?
+answer: Den siste hashen dupliseres for å skape et jevnt antall par for neste nivå
+wrong_answers:
+  - Den siste hashen overføres uendret til neste nivå uten sammenkobling
+  - Den siste hashen XORes med den første hashen på det aktuelle nivået for å fullføre sammenkoblingen
+  - Den siste hashen kombineres med en nullhash (alle nuller) for å lage det endelige paret
+explanation: |
+  Bitcoins Merkle-trekonstruksjon krever paring av hasher på hvert nivå. Når det finnes et oddetall, dupliserer protokollen spesifikt den siste hashen for å sikre riktig sammenkobling. Dette opprettholder treets binære struktur og sikrer deterministisk rotberegning. De andre alternativene ville bryte kompatibiliteten med Bitcoins konsensusregler og skape forskjellige Merkle-røtter for identiske transaksjonssett.

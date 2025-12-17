@@ -1,5 +1,5 @@
 ---
-name: Tự làm Spectre
+name: Specter DIY
 description: Hướng dẫn thiết lập Spectre DIY
 ---
 

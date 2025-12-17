@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Mật khẩu SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: Làm thế nào để thêm passphrase vào danh mục SeedSigner của tôi?
 ---
 

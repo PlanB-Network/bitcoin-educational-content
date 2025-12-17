@@ -1,0 +1,8 @@
+question: Lors de la dépense d'une sortie P2SH, quel processus de validation en deux étapes doit avoir lieu pour que la transaction soit considérée comme valide ?
+answer: Vérifier d'abord que HASH160 du script de rachat correspond au hachage de scriptPubKey, puis exécuter le script de rachat avec les données fournies
+wrong_answers:
+  - Exécutez d'abord le script de rachat avec les données fournies, puis vérifiez que le hachage obtenu correspond à la clé scriptPubKey
+  - Vérifiez d'abord que toutes les signatures sont valides par rapport à leurs clés publiques, puis vérifiez que le hachage du script de redémarrage correspond
+  - Confirmez d'abord que le script de rachat contient des opcodes valides, puis vérifiez que l'exécution du script produit un résultat correct
+explanation: |
+  La validation P2SH nécessite un processus spécifique en deux étapes : tout d'abord, le hachage du script de remboursement fourni doit correspondre au hachage de 20 octets dans le scriptPubKey (vérification HASH160), et ce n'est qu'après cette vérification que le réseau exécute le script de remboursement lui-même avec les données de déverrouillage. Cette conception garantit que seul le bon script de remboursement peut être utilisé tout en gardant les conditions de dépense réelles cachées jusqu'à ce que la dépense ait lieu. Les autres options décrivent des séquences de validation plausibles mais incorrectes qui ne suivent pas le protocole P2SH.

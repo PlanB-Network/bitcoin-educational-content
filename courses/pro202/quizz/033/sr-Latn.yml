@@ -1,0 +1,8 @@
+question: Kada se troši P2SH izlaz, koji dvostepeni proces validacije mora da se desi da bi transakcija bila smatrana validnom?
+answer: Prvo proveri da li se HASH160 skripta za otkup podudara sa hash-om scriptPubKey, zatim izvrši skriptu za otkup sa datim podacima
+wrong_answers:
+  - Prvo izvršite skriptu za otkup sa dostavljenim podacima, zatim proverite da li rezultujući heš odgovara scriptPubKey
+  - Prvo proverite da li su svi potpisi važeći u odnosu na njihove javne ključeve, zatim proverite da li se heš skripte za otkup podudara.
+  - Prvo potvrdite da skripta za otkup sadrži važeće opkodove, zatim proverite da izvršenje skripte daje tačan rezultat.
+explanation: |
+  P2SH validacija zahteva specifičan proces u dva koraka: prvo, heš datog redeem skripta mora odgovarati 20-bajtovnom hešu u scriptPubKey (verifikacija HASH160), i tek nakon što ova verifikacija prođe, mreža izvršava sam redeem skript sa podacima za otključavanje. Ovaj dizajn osigurava da se može koristiti samo ispravan redeem skript, dok stvarni uslovi trošenja ostaju skriveni dok se trošenje ne dogodi. Ostale opcije opisuju verodostojne, ali netačne sekvence validacije koje ne prate stvarni P2SH protokol.

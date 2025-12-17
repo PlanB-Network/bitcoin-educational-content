@@ -30,7 +30,7 @@ Selamat datang di kursus BTC101!
 
 Bitcoin adalah revolusi teknologi dan moneter, yang mampu membuat kita mempertanyakan hubungan kita dengan uang dan masyarakat. Faktanya, Bitcoin (disebut sebagai BTC) adalah mata uang yang **netral** dan **terdesentralisasi**, yang berarti tidak dikontrol oleh entitas atau institusi mana pun. Ini adalah sebuah inovasi yang lebih dari sekadar "mata uang internet": Bitcoin adalah protokol komputer (Bitcoin) dan unit moneter (bitcoin).
 
-Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "blockchain" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
+Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "[blockchain](https://planb.academy/resources/glossary/blockchain)" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
 
 **Sebuah kurikulum yang lengkap namun mudah diakses:**
 
@@ -128,7 +128,7 @@ Gambar di bawah ini dengan jelas menggambarkan perkembangan gerakan ini melalui 
 
 ![image](assets/id/005.webp)
 
-Dalam lingkungan yang mendukung inilah Satoshi Nakamoto yang misterius menerbitkan whitepaper Bitcoin pada tahun 2008. Dalam dokumen ini, ia menggabungkan beberapa ide dari gerakan cypherpunk, seperti proof of work dan stempel waktu kriptografi, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan sensor.
+Dalam lingkungan yang mendukung inilah Satoshi Nakamoto yang misterius menerbitkan whitepaper Bitcoin pada tahun 2008. Dalam dokumen ini, ia menggabungkan beberapa ide dari gerakan cypherpunk, seperti [proof of work](https://planb.academy/resources/glossary/proof-of-work) dan stempel waktu kriptografi, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan sensor.
 
 Namun, Bitcoin lebih dari sekadar itu: Bitcoin mewakili pencapaian cita-cita cypherpunk. Di luar teknologinya, Bitcoin melambangkan sebuah revolusi melawan sistem keuangan tradisional dan menawarkan sebuah alternatif berdasarkan transparansi, desentralisasi, dan kedaulatan individu.
 
@@ -372,7 +372,7 @@ Penciptaan bitcoin baru adalah hasil dari proses penambangan. Singkatnya, para p
 
 ![image](assets/id/022.webp)
 
-Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "halving"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
+Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "[halving](https://planb.academy/resources/glossary/halving)"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
 
 | Jumlah Halving | Tinggi Blok | Hadiah BTC Setelah Halving  | Perkiraan BTC yang Beredar Setelah Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -681,7 +681,7 @@ Sekarang kita telah membahas dasar-dasar dompet Bitcoin dan praktik terbaik untu
 
 ![image](assets/id/038.webp)
 
-Tanggal 31 Oktober 2008 menandai lahirnya teknologi keuangan baru yaitu Bitcoin. Pada hari ini, Satoshi Nakamoto yang tidak disebutkan namanya mempresentasikan inovasinya kepada dunia melalui sebuah email yang dikirim ke daftar e-mail cypherpunks, sebuah komunitas penggemar kriptografi yang didedikasikan untuk mempromosikan privasi di internet. Email ini berisi sebuah dokumen yang disebut "White Paper", yang mempresentasikan cara kerja Bitcoin.
+Tanggal 31 Oktober 2008 menandai lahirnya teknologi keuangan baru yaitu Bitcoin. Pada hari ini, Satoshi Nakamoto yang tidak disebutkan namanya mempresentasikan inovasinya kepada dunia melalui sebuah email yang dikirim ke daftar e-mail cypherpunks, sebuah komunitas penggemar kriptografi yang didedikasikan untuk mempromosikan privasi di internet. Email ini berisi sebuah dokumen yang disebut "[White Paper](https://planb.academy/resources/glossary/white-paper)", yang mempresentasikan cara kerja Bitcoin.
 
 Inisiatif ini tidak langsung menimbulkan antusiasme, mungkin karena kegagalan sebelumnya dalam upaya menciptakan sistem uang digital. Namun demikian, Buku Putih ini akhirnya menjadi referensi bagi para pengguna Bitcoin dan telah menjadi bahan perdebatan dalam ekosistem Bitcoin selama bertahun-tahun.
 
@@ -796,7 +796,7 @@ Node adalah elemen fundamental dalam arsitektur jaringan Bitcoin, karena node me
 - Mengirimkan informasi ke node lain
 - Menegakkan aturan protokol Bitcoin.
 
-Oleh karena itu, setiap perangkat yang menjalankan perangkat lunak Bitcoin, yang disebut Bitcoin node (sering kali menggunakan [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), berkontribusi pada desentralisasi jaringan.
+Oleh karena itu, setiap perangkat yang menjalankan perangkat lunak Bitcoin, yang disebut Bitcoin [node](https://planb.academy/resources/glossary/node) (sering kali menggunakan [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), berkontribusi pada desentralisasi jaringan.
 
 ![image](assets/id/050.webp)
 
@@ -838,7 +838,7 @@ Setelah kemenangan ini, node-node tersebut mengaktifkan pembaruan yang disebut S
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin ASIC untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
+**Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin [ASIC](https://planb.academy/resources/glossary/asic) untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
 
 ![image](assets/id/054.webp)
 
@@ -1044,7 +1044,9 @@ Ekonomi Bitcoin ada dan sedang berkembang di daerah-daerah tertentu di dunia, se
 
 Namun, di El Salvador dan di bagian lain dunia, semakin banyak individu, bisnis, dan organisasi yang menerima Bitcoin sebagai alat pembayaran untuk produk atau layanan mereka.
 
-![image](assets/id/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Sumber : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Selain itu, sebuah proyek open-source dan kolaboratif telah diluncurkan, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), untuk memfasilitasi penggunaan Bitcoin dalam transaksi sehari-hari. Platform ini mencantumkan semua pedagang yang menerima Bitcoin, serta berbagai komunitas Bitcoin di seluruh dunia, sehingga Anda dapat mengunjungi situs web mereka untuk menemukan ekosistem Bitcoin di sekitar Anda. Jadi, terlepas dari kesulitan dan keraguan, ada inisiatif seperti BTCMap yang berkontribusi untuk membuat ekonomi Bitcoin lebih mudah diakses dan nyaman bagi semua orang.
 
@@ -1200,85 +1202,199 @@ Jika Anda ingin memperluas pengetahuan Anda mengenai Bitcoin, inilah saat yang t
 
 > "Saya pikir Internet akan menjadi salah satu kekuatan utama untuk mengurangi peran pemerintah. Satu hal yang belum ada, namun akan segera dikembangkan, adalah e-cash yang dapat diandalkan - sebuah metode di mana di Internet Anda dapat mentransfer dana dari A ke B tanpa A mengetahui B atau B mengetahui A." - Prediksi Milton Friedman pada tahun 1999
 
-# Masa Depan Bitcoin: Lightning Network
+
+# Masa depan Bitcoin
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Pengantar Singkat ke Lightning Network
+## Jaringan Lightning: membayar dengan bitcoin secara cepat, dengan biaya rendah
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Setelah kita mengetahui dasar-dasar protokol Bitcoin, kami akan memperkenalkan jaringan pembayaran yang menggunakan protokol Bitcoin untuk memungkinkan transaksi secepat kilat: Lightning Network!
+Sekarang setelah Anda memahami dasar-dasar protokol Bitcoin, kita akan memperkenalkan jaringan pembayaran utama yang dibangun di atas Bitcoin: Lightning Network (sering disingkat "LN"). Tujuannya sederhana: memungkinkan pembayaran BTC dengan finalitas hampir instan, tanpa membebani blockchain, dan dengan biaya yang umumnya sangat rendah.
 
-Perlu diketahui bahwa penjelasan di bawah ini hanyalah gambaran umum, jadi, jika Anda ingin memahaminya lebih dalam, kami mengundang Anda untuk mengikuti kursus LNP201.
+### Blockchain tidak bisa melakukan segalanya
 
-### Singkatnya
-
-Lightning Network adalah sebuah teknologi revolusioner yang telah mengubah persepsi kita terhadap Bitcoin secara mendalam, karena teknologi ini mengatasi masalah skalabilitas Bitcoin.
-
-Untuk memahami Lightning Network sepenuhnya, sangat penting untuk memahami bagaimana Bitcoin berevolusi dan berkembang dalam lapisan-lapisan infrastruktur: lapisan pertama adalah blockchain, dan lapisan kedua adalah Lightning Network.
-
-![image](assets/id/080.webp)
-
-### Blockchain tidak dapat tumbuh tanpa batas waktu
-
-Lightning Network divalidasi dan diimplementasikan pada tahun 2017 untuk memecahkan masalah skalabilitas Bitcoin, karena memungkinkan transaksi Bitcoin yang instan dan berbiaya rendah.
-
-Masalah skalabilitas mengacu pada tantangan untuk mengimplementasikan sebuah sistem moneter yang mampu menyediakan jumlah transaksi yang terus meningkat per detiknya untuk menghadapi adopsi yang terus meningkat. Masalah ini berkaitan dengan trilema blockchain. Bayangkan sebuah segitiga dengan desentralisasi, keamanan, dan skalabilitas sebagai simpul-simpulnya.
+Blockchain Bitcoin dirancang agar dapat diverifikasi oleh sebanyak mungkin orang, tanpa izin dan tanpa kepercayaan. Persyaratan ini membawa batasan struktural: blockchain tidak dapat memproses jumlah transaksi yang tidak terbatas, karena blok harus tetap masuk akal untuk diunduh, disimpan, dan diverifikasi oleh node independen, tanpa harus berinvestasi pada perangkat keras yang terlalu mahal. Inilah kompromi yang sering dirangkum dalam trilema: desentralisasi, keamanan, dan skalabilitas. Sebuah sistem berbasis blockchain tidak dapat memaksimalkan ketiga properti ini secara bersamaan. Bitcoin memprioritaskan desentralisasi dan keamanan, yang secara alami membatasi throughput transaksi onchain yang memungkinkan.
 
 ![image](assets/id/081.webp)
 
-Menurutnya, protokol yang berdasarkan pada blockchain hanya dapat memenuhi dua dari tiga fitur ini. Dalam protokol Bitcoin, para pengembang telah membuat pilihan untuk mengutamakan desentralisasi dan keamanan. Di satu sisi, ukuran blok 1MB dan waktu antara dua blok (rata-rata 10 menit) memungkinkan untuk menjalankan sebuah node Bitcoin dengan biaya yang lebih rendah, mendukung desentralisasi. Di sisi lain, produksi blok melalui Proof-of-Work membuat penipuan dalam protokol menjadi sangat mahal, sekaligus memfasilitasi verifikasi oleh node jaringan dan mendukung keamanan. Akan tetapi, pilihan ini memberikan batasan pada jumlah rata-rata transaksi dalam sebuah blok, yang secara kasar setara dengan beberapa transaksi per detik. Jumlah ini tidak masuk akal jika dibandingkan dengan kapasitas komputasi prosesor pembayaran seperti VISA (1700/s), tetapi batas ini diperlukan untuk bertransaksi dengan Bitcoin dengan cara yang anti sensor dan tidak membutuhkan kepercayaan. Namun demikian, mereka yang mengembangkan Bitcoin telah memikirkan masalah ini sejak awal.
+Di Bitcoin, para pengembang membuat pilihan yang disengaja untuk memprioritaskan hal tersebut. Di satu sisi, ukuran blok yang dibatasi hingga 1 MB dan waktu rata-rata 10 menit antarblok memungkinkan menjalankan node Bitcoin dengan biaya rendah, yang mendorong desentralisasi jaringan. Di sisi lain, produksi blok melalui proof of work membuat setiap upaya penipuan menjadi sangat mahal, sekaligus memudahkan verifikasi oleh node dan memperkuat keamanan keseluruhan protokol.
 
-### Petir sebagai lapisan di atas
+Namun, pilihan-pilihan ini membawa satu kendala penting: jumlah transaksi yang dapat dimasukkan ke dalam setiap blok terbatas. Ini setara dengan hanya beberapa transaksi per detik. Angka ini sangat kecil dibandingkan dengan kapasitas sistem pembayaran terpusat seperti VISA (yang memiliki kapasitas maksimum teoretis sekitar 65.000 transaksi per detik), tetapi batasan ini adalah harga yang harus dibayar untuk memungkinkan transaksi tanpa sensor dan tanpa pihak ketiga tepercaya.
 
-Setelah melalui pertimbangan dan berbagai percobaan selama bertahun-tahun, protokol Lightning muncul. Dengan menggunakan sejumlah spesifikasi, protokol ini membangun sebuah jaringan pembayaran peer-to-peer dengan memanfaatkan keamanan dan kemampuan pemrograman protokol transaksi Bitcoin. Jaringan Lightning bertindak sebagai jaringan saluran pembayaran, memungkinkan transaksi instan dengan biaya rendah untuk pengirim, dan bahkan menciptakan rute pertukaran antara individu yang tidak memiliki koneksi saluran langsung.
+Secara konkret, ini berarti 2 hal yang sangat penting untuk penggunaan Bitcoin sehari-hari:
+* ketika permintaan ruang blok meningkat, biaya onchain dapat menjadi sangat tinggi;
+* pembayaran onchain memerlukan konfirmasi, yang tidak selalu cocok untuk pembelian sehari-hari.
 
-![image](assets/id/082.webp)
+Lightning Network justru merupakan jawaban atas permasalahan ini. Gagasan Lightning mengikuti pendekatan berlapis: Bitcoin tetap menjadi lapisan dasar (lapisan penyelesaian, kuat dan sangat aman), sementara Lightning berfungsi sebagai lapisan pembayaran cepat di atasnya.
 
-Layanan pengiriman uang tradisional seperti Western Union, bank sentral, Visa, dan Mastercard dapat menghilang jika mereka tidak mengadopsi teknologi Lightning Network, yang lebih efisien dan hemat biaya daripada sistem pembayaran saat ini. Faktanya, Lightning Network memungkinkan transaksi yang hampir tidak terbatas antara dua rekan yang berbagi saluran, hanya mengeluarkan biaya energi yang terkait dengan transaksi untuk mengumumkan pembuatan saluran, bukan pada setiap transaksi individu.
+![image](assets/id/080.webp)
+
+### Kanal pembayaran yang berjangkar pada Bitcoin
+
+Lightning bergantung pada kanal pembayaran dua arah. Sebuah kanal adalah hubungan teknis antara dua peserta, yang memungkinkan mereka bertukar sat secara offchain, yaitu tanpa mencatat setiap pembayaran di blockchain.
+
+Dari sudut pandang Bitcoin (onchain), membuka sebuah kanal berarti mengunci dana dalam sebuah transaksi khusus. Ini dapat dilihat sebagai bentuk escrow: dana dikunci sedemikian rupa sehingga hanya penutupan kanal yang valid yang dapat mendistribusikannya kembali.
+
+Dari sudut pandang Lightning, mekanisme yang sama ini menjadi sebuah kanal di mana kedua pihak dapat memperbarui status distribusi sat sebanyak yang mereka inginkan, hampir secara instan, dan tanpa harus mencatat setiap pembayaran di blockchain utama.
+
+Dengan demikian, mekanismenya adalah sebagai berikut:
+* pembukaan dan penutupan kanal Lightning adalah transaksi Bitcoin (dan karena itu dipublikasikan onchain);
+* pembayaran antara pembukaan dan penutupan adalah pembaruan offchain, yang tidak terlihat di blockchain utama.
 
 ![image](assets/id/083.webp)
 
-Transaksi diamankan melalui kriptografi dan secara tidak langsung melalui energi yang dikonsumsi oleh para penambang Bitcoin. Transaksi dapat dilakukan secara instan, tanpa batasan geografis, dengan biaya yang sangat rendah (seringkali kurang dari 0,5%).
+Dengan demikian, dua orang yang berbagi sebuah kanal Lightning dapat melakukan sejumlah besar pembayaran tanpa harus membuat transaksi onchain setiap kali. Di sini kita kembali melihat logika skalabilitas: blockchain dicadangkan untuk operasi yang jarang dan penting (pembukaan dan penutupan kanal, yaitu penyelesaian akhir), sementara pembayaran kecil perantara dipindahkan ke lapisan yang lebih efisien.
 
-Singkatnya, Lightning Network adalah sebuah usaha yang menjanjikan untuk menggunakan sistem pembayaran yang efisien untuk membeli dan menjual Bitcoin. Sudah ada banyak dompet Lightning yang tersedia, yang dapat Anda temukan di bagian tutorial kami atau melalui kursus Lightning Network.
+### Jaringan kanal yang saling terhubung
 
-Jika Anda ingin mberkenalan lebih jauh memahami semua cara kerja Lightning Network, kami sarankan untuk mengambil kursus yang sangat bagus ini oleh Fanis Michalakis tentang masalah ini:
+Lightning bukan sekadar kumpulan kanal yang terisolasi. Ini adalah sebuah jaringan: ribuan node saling terhubung melalui kanal, membentuk sebuah graf koneksi.
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+![image](assets/id/082.webp)
 
-## Kasus Penggunaan Jaringan Lightning
+Berkat jaringan ini, Anda dapat membayar seorang penerima bahkan jika Anda tidak memiliki kanal langsung dengannya, selama terdapat jalur kanal yang memungkinkan pembayaran tersebut dirutekan. Pembayaran tersebut kemudian melewati beberapa node perantara, dari satu hop ke hop berikutnya.
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+Di sinilah muncul konsep penting dalam Lightning: likuiditas. Kapasitas sebuah kanal adalah total dana yang terkunci di kanal tersebut, dan likuiditas adalah distribusi dana tersebut di antara kedua sisi kanal, dan dengan demikian arah di mana sat dapat mengalir. Dengan kata lain, sebuah kanal dapat memiliki kapasitas besar, namun tetap tidak dapat digunakan ke satu arah tertentu jika likuiditas berada di sisi yang salah. Keberhasilan pembayaran bergantung tidak hanya pada keberadaan jalur, tetapi juga pada likuiditas yang tersedia di sepanjang jalur tersebut.
 
-Seperti yang baru saja kita lihat, protokol Bitcoin, meskipun revolusioner, menghadapi tantangan yang signifikan dalam hal skalabilitas yang dibutuhkan untuk menangani semua transaksi harian kita. Untuk mengatasi masalah ini, Lightning Network diusulkan dan sejak saat itu berkembang menjadi beberapa implementasi yang berbeda, yang semuanya dapat dioperasikan:
+### Merutekan pembayaran tanpa mempercayai perantara
 
-- core Lightning oleh Blockstream
-- Eclair oleh Acinq
-- LND oleh Lightning strike
+Lightning dirancang untuk memungkinkan pembayaran melalui perantara tanpa harus mempercayai mereka. Untuk itu, protokol ini menggunakan kontrak pintar yang disebut HTLC (*Hashed Time-Locked Contracts*). Tanpa masuk ke semua detail, mekanisme umumnya adalah sebagai berikut:
+* pembayaran bergantung pada pengungkapan sebuah rahasia (preimage);
+* jika penerima akhir mengungkapkan rahasia tersebut, ia menerima dana, dan para perantara pada gilirannya dapat menerima apa yang menjadi hak mereka;
+* jika pembayaran gagal, batas waktu berakhir dan setiap pihak mendapatkan kembali dananya.
 
-Jaringan peer-to-peer ini bertujuan untuk memfasilitasi transaksi mikro (dengan nilai yang sangat rendah) yang sebelumnya tidak praktis karena biaya yang tinggi dan waktu konfirmasi yang lama pada blockchain Bitcoin.
+Cara kerja ini memberikan satu properti penting: pembayaran bersifat atomik. Entah berhasil sepenuhnya, atau gagal tanpa kerugian di tengah jalan.
 
-### Apa saja kasus penggunaan jaringan?
+Terakhir, Lightning mengintegrasikan mekanisme penalti: jika salah satu peserta mencoba berbuat curang dengan mempublikasikan status kanal lama (yang tidak lagi mencerminkan kenyataan), pihak lainnya dapat menghukumnya dan mengambil seluruh dana. Aturan ini sangat mendorong kejujuran, bahkan dalam lingkungan yang bersifat adversarial.
 
-Teknologi ini membuka pintu ke berbagai aplikasi potensial untuk Bitcoin yang sebelumnya tidak terjangkau karena adanya batasan-batasan yang diperlukan untuk memastikan keamanan dan desentralisasi Bitcoin. Di antara kasus-kasus penggunaan sehari-hari ini, kita dapat menyebutkan tagihan instan dalam perdagangan fisik dan online, streaming uang untuk pembayaran real time, dan donasi mikro untuk para pembuat konten. Dengan memungkinkan jaringan transaksi yang hampir instan, aman, dan berbiaya rendah (rata-rata kurang dari 0,5%), banyak model bisnis yang sebelumnya tidak terbayangkan dapat direalisasikan. Hal ini dimungkinkan karena Lightning Network beroperasi menggunakan satoshi (sats), unit terkecil dari Bitcoin.
+### Node Lightning, wallet Lightning: apa artinya
 
-![image](assets/id/084.webp)
+Pada Bitcoin onchain, sebuah wallet adalah perangkat lunak yang mengelola kunci dan membangun transaksi. Pada Lightning, situasinya lebih ambigu, karena penggunaan non-kustodial yang sesungguhnya bergantung pada sebuah node Lightning (meskipun node tersebut tersembunyi di balik antarmuka yang sederhana).
 
-Industri video game menawarkan contoh yang sangat menarik tentang bagaimana Lightning Network dapat digunakan untuk mengubah model bisnis yang sudah ada. Konsep "skin in the game" adalah ide yang baru-baru ini mendapatkan popularitas dalam konteks ini. Konsep ini pada dasarnya melibatkan keterlibatan finansial dalam hasil permainan. Faktanya, Lightning Network memungkinkan pemain untuk bertaruh dalam jumlah yang sangat kecil saat bermain game, seperti beberapa satoshi (sekitar sepersekian sen euro) untuk menetapkan taruhan yang merangsang persaingan sambil secara signifikan meningkatkan biaya penggunaan bot.
+Dalam praktiknya, ada dua kategori besar aplikasi untuk menggunakan Lightning:
+* Layanan kustodial: aplikasi menampilkan saldo kepada Anda, tetapi dana dikendalikan oleh penyedia layanan. Saldo Anda adalah catatan pembukuan dalam sistem mereka, seperti pada sebuah platform bursa;
+* Solusi non-kustodial: Anda benar-benar mengendalikan kunci dan kemampuan untuk memulihkan dana Anda. Ini bisa berupa aplikasi yang menyertakan sebuah node dengan pengelolaan minimal, sehingga menyederhanakan pengalaman pengguna (misalnya Phoenix, Zeus...), atau sebuah node Lightning penuh yang Anda kelola sepenuhnya.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Saat ini juga terdapat wallet self-custodial yang mampu menangani pembayaran Lightning secara tidak langsung, dengan mengandalkan atomic swap yang dipicu sesuai permintaan untuk setiap pembayaran masuk atau keluar (misalnya Bull Bitcoin Wallet, Aqua...). Wallet-wallet ini umumnya menggunakan sidechain Liquid sebagai lapisan penyelesaian (kita akan melihat apa artinya pada bab berikutnya).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Kasus penggunaan konkret: apa yang akhirnya dimungkinkan oleh Lightning
+
+Lightning membuka berbagai macam penggunaan yang sebelumnya tidak praktis, bahkan mustahil, hanya dengan Bitcoin onchain.
+
+- **Pembayaran sehari-hari (online dan fisik)**
+
+Untuk pembayaran di kasir atau pembelian online, Lightning memungkinkan finalitas hampir instan, dengan biaya yang umumnya rendah. Ini membuat bitcoin dapat digunakan untuk jumlah kecil, bahkan ketika blockchain utama sedang padat.
+
+- **Mikropembayaran dan streaming money**
+
+Kemampuan untuk mengirim jumlah yang sangat kecil membuka model ekonomi baru: pembayaran sesuai penggunaan, pembayaran per menit, donasi berulang, tip... Inilah gagasan "streaming money": membayar seiring dengan konsumsi nyata suatu konten atau layanan, alih-alih melalui langganan tetap.
+
+- **Kreator konten, podcast, dan donasi**
+
+Lightning sering digunakan untuk mikro-donasi atau mekanisme penghargaan. Aplikasi seperti Fountain atau Rumble menggambarkan logika ini dengan baik: pembayaran menjadi granular dan menyatu secara alami dengan pengalaman, alih-alih menjadi tindakan yang berat dan sesekali. Kami juga telah mengintegrasikan logika ini di Plan ₿ Academy, karena Anda dapat dengan mudah mengirim donasi kecil kepada pengajar favorit Anda sebagai bentuk terima kasih.
+
+- **Game dan ekonomi digital**
+
+Game video dan lingkungan digital secara alami cocok untuk mikrotransaksi: taruhan kecil, hadiah, objek virtual... Memperkenalkan insentif moneter kecil juga dapat meningkatkan biaya spam dan beberapa penyalahgunaan (bot), sambil tetap dapat diakses.
 
 ![image](assets/id/085.webp)
 
-Singkatnya, masa depan transaksi mikro dengan Bitcoin terlihat menjanjikan berkat inovasi seperti Lightning Network. Karena teknologi ini terus berkembang dan matang, kita bisa berharap untuk melihat aplikasi baru dan menarik muncul dalam waktu dekat.
+### Implementasi utama Lightning
 
-![image](assets/id/086.webp)
+Seperti halnya Bitcoin, Lightning adalah sebuah protokol, bukan satu perangkat lunak tunggal. Beberapa implementasi hidup berdampingan dan tetap saling interoperabel berkat spesifikasi bersama (BOLT):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* dll.
 
-Contoh lainnya adalah "money streaming": melalui Lightning Network, kita dapat melakukan transaksi mikro setiap menit (mungkin tanpa pihak ketiga yang tepercaya), yang membuka pintu untuk bereksperimen dengan model ekonomi di mana konsumen membayar konten berdasarkan konsumsi mereka yang sebenarnya. Bahkan dapat dibayangkan untuk menggunakan sistem ini untuk menyewa barang. Dalam sistem seperti itu, uang secara otomatis dibagi, berdasarkan persentase yang telah ditentukan sebelumnya, di antara kontributor yang berbeda untuk suatu layanan atau produk. Hal ini dapat merevolusi cara kita berpikir tentang model pembayaran: alih-alih membayar langganan bulanan untuk sebuah layanan, pengguna dapat dikenakan biaya per menit, atau bahkan per detik, untuk waktu yang mereka habiskan untuk menggunakan layanan tersebut. Model ekonomi seperti ini dapat memberikan implikasi yang besar bagi para pembuat konten, yang akan terdorong untuk menghasilkan konten berkualitas agar dapat menarik perhatian pengguna.
+### Lightning sebagai bagian dari evolusi Bitcoin
 
-![image](assets/id/087.webp)
+Lightning tidak menggantikan blockchain Bitcoin: ia melengkapinya. Blockchain tetap menjadi lapisan penyelesaian akhir, lambat tetapi sangat kuat. Lightning adalah lapisan pembayaran cepat, yang dirancang untuk penggunaan yang sering dan jumlah kecil.
 
-Kesimpulannya, Lightning Network membuka banyak kasus penggunaan yang menarik bagi pengguna Bitcoin. Model ekonomi dan peluang bisnis yang dihasilkan sangat banyak dan beragam, dan kami mendorong Anda untuk memeriksanya sendiri dengan mencoba aplikasi podcast [Fountain] (https://www.fountain.fm/), yang memungkinkan Anda untuk mendapatkan hadiah dengan mendengarkan podcast favorit Anda!
+Pada tahun 2025, Lightning lebih mudah diakses dibandingkan masa awalnya, berkat wallet dan layanan yang menyembunyikan sebagian kompleksitas. Namun, Lightning tetap memiliki kompromi: likuiditas, biaya onchain dari kanal, dan terkadang pertukaran antara kesederhanaan, kedaulatan, dan privasi.
+
+Jika Anda ingin memahami Lightning secara mendalam (kanal, likuiditas, routing, manajemen risiko), saya merekomendasikan kursus teoretis lengkap LNP 201 oleh Fanis Michalakis:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+Dan jika Anda ingin memulai petualangan menjalankan node Lightning Anda sendiri, kami juga memiliki kursus praktis LNP 202 yang secara khusus didedikasikan untuk topik ini:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Melampaui Lightning: protokol lain untuk mengembangkan Bitcoin
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+Seperti yang telah kita lihat pada bab-bab sebelumnya, Bitcoin dirancang sebagai lapisan dasar yang sangat kuat: sebuah buku besar publik yang sederhana dan aman, tetapi secara alami terbatas dalam kecepatan, kemampuan pemrograman, dan throughput pembayaran. Alih-alih memaksa lapisan ini untuk melakukan segalanya (seperti yang dilakukan pada Ethereum, misalnya), ekosistem Bitcoin secara bertahap mengadopsi pendekatan berlapis: blockchain berfungsi sebagai fondasi (penyelesaian akhir), sementara lapisan di atasnya menambahkan properti baru, seperti pembayaran yang lebih cepat, privasi yang lebih baik, atau penerbitan aset (stablecoin, sekuritas yang ditokenisasi...).
+
+Bitcoin tidak hanya berkembang dengan memodifikasi protokol dasarnya. Ia juga berkembang dengan membangun di atasnya, dengan solusi yang membuat kompromi berbeda tergantung pada tujuan yang dicari. Beberapa berfokus pada skalabilitas pembayaran, yang lain pada kemampuan pemrograman (dalam arti luas) dan penerbitan aset, dan yang lain lagi mencoba menggabungkan keduanya.
+
+Dalam bab ini, kami memperkenalkan empat protokol penting yang masing-masing menawarkan kemungkinan baru di Bitcoin: sidechain (terutama Liquid), Ark, RGB, dan Taproot Assets.
+
+### Sidechain: blockchain paralel yang terhubung ke Bitcoin
+
+Sidechain adalah blockchain yang terpisah dari Bitcoin, dirancang untuk beroperasi secara paralel dengan aturan dan mekanisme konsensusnya sendiri. Sidechain terhubung ke Bitcoin melalui mekanisme pengikatan dua arah (*2WP*) yang memungkinkan, dalam praktiknya, penggunaan bitcoin di sidechain dalam bentuk representatif (sering kali bitcoin yang dikunci di Bitcoin dan diciptakan kembali di sidechain), lalu kembali ke rantai utama.
+
+Keunggulan sidechain adalah kemampuannya menawarkan fungsi yang sulit dicapai langsung di Bitcoin: transaksi lebih cepat, fitur aset, privasi yang ditingkatkan, atau fleksibilitas pengembangan yang lebih besar. Sebagai gantinya, sidechain selalu membuat kompromi dibandingkan Bitcoin, terutama dalam hal model kepercayaan atau desentralisasi.
+
+Sidechain paling dikenal di Bitcoin kemungkinan besar adalah **Liquid**, yang dikembangkan oleh Blockstream. Liquid dirancang khusus untuk mempercepat beberapa penggunaan: transfer cepat antar platform, penyelesaian yang lebih sering, dan penerbitan aset (stablecoin, sekuritas...), dengan privasi yang ditingkatkan. Di Liquid, bitcoin yang digunakan disebut L-BTC: dirancang agar terikat 1 banding 1 dengan BTC, melalui mekanisme pengikatan dua arah.
+
+![image](assets/id/088.webp)
+
+Perbedaan utama dengan Bitcoin terletak pada model keamanan dan desentralisasi: Liquid tidak bergantung pada proof of work Bitcoin, melainkan pada sebuah federasi operator (kelompok yang teridentifikasi) yang memastikan produksi blok dan pengoperasian jembatan antara BTC dan L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: berbagi UTXO untuk mengurangi biaya dan meningkatkan pengalaman
+
+Ark merujuk pada sekumpulan proposal dan implementasi yang bertujuan meningkatkan skalabilitas Bitcoin dengan mengelompokkan banyak operasi pengguna ke dalam jumlah transaksi Bitcoin yang lebih sedikit. Idenya cukup sederhana: alih-alih membuat satu transaksi onchain per pengguna, dibuat satu transaksi onchain yang mewakili sebuah batch, lalu hak masing-masing berkembang terutama secara offchain, hingga saat penyelesaian akhir di Bitcoin diperlukan.
+
+Gagasan protokol lapisan kedua ini diperkenalkan oleh Burak pada Mei 2023. Seperti Lightning Network, Ark adalah sistem yang diterapkan di atas rantai utama Bitcoin. Ark memungkinkan pembayaran bitcoin secara offchain dengan cepat, anonim, dan berbiaya rendah. Dibandingkan Lightning, Ark tidak memerlukan likuiditas masuk untuk menerima pembayaran, sehingga secara signifikan meningkatkan pengalaman pengguna. Selain itu, Ark memberikan tingkat privasi yang mendekati transaksi coinjoin. Ark juga dapat bersifat non-interaktif jika covenant ditambahkan ke Bitcoin.
+
+Burak sering mengkritik kemampuan Lightning untuk diskalakan karena ketergantungannya pada rantai utama, dan menyarankan bahwa Ark secara teoretis dapat mengintegrasikan seluruh populasi dunia dalam self-custody. Meskipun Ark dapat dipandang sebagai protokol yang bersaing dengan Lightning Network, keduanya sebenarnya dapat hidup berdampingan, bahkan bersifat saling melengkapi.
+
+Ark tetap menjadi bidang yang sangat aktif namun masih muda: tujuannya menjanjikan (mengurangi jejak onchain per pengguna secara drastis), tetapi perlu diingat bahwa ini adalah arsitektur yang lebih kompleks, dengan asumsi dan risiko yang berbeda dari Bitcoin dan Lightning.
+
+### RGB: kontrak dan aset dengan validasi sisi klien
+
+RGB adalah sistem kontrak pintar dan aset di Bitcoin yang mengadopsi pendekatan yang sangat berbeda dari blockchain generalis. Gagasan utamanya adalah validasi sisi klien: alih-alih mempublikasikan status lengkap sebuah kontrak di blockchain global, para peserta menyimpan dan memvalidasi secara lokal riwayat yang relevan bagi mereka, sementara blockchain Bitcoin hanya berfungsi untuk menjangkar komitmen kriptografis dan mencegah double spend.
+
+Dengan kata lain:
+* blockchain Bitcoin berperan sebagai fondasi penanda waktu dan arbiter minimal;
+* data terperinci (aturan kontrak, status, transisi) beredar secara offchain di antara pihak-pihak terkait;
+* verifikasi dilakukan secara lokal, yang meningkatkan skalabilitas dan dapat meningkatkan privasi, karena tidak ada buku besar global dari semua aktivitas RGB yang terlihat oleh semua orang.
+
+![image](assets/id/089.webp)
+
+RGB dapat menjadi dasar untuk menerbitkan dan mengelola berbagai jenis aset: token (termasuk stablecoin), NFT, atau sekuritas digital, bahkan untuk membangun logika kontrak yang lebih kompleks, semuanya tanpa membebani lapisan dasar.
+
+Sisi negatifnya adalah pengelolaan data: jika Anda harus memvalidasi di sisi klien, Anda juga harus menyimpan dan mencadangkan dengan benar data yang membuktikan hak Anda.
+
+RGB adalah protokol yang telah dikembangkan selama bertahun-tahun. Perkembangannya bertahap, tetapi saat ini sudah ada aplikasi konkret yang memanfaatkan RGB. Untuk melangkah lebih jauh, kami menawarkan di Plan ₿ Academy sebuah kursus tingkat ahli yang merinci secara mendalam cara kerja protokol ini:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: menerbitkan aset di Bitcoin dan memindahkannya ke Lightning
+
+Taproot Assets (sebelumnya "Taro") adalah protokol yang dikembangkan oleh Lightning Labs, yang bertujuan memungkinkan penerbitan aset di Bitcoin, dengan kemungkinan untuk kemudian mentransfernya melalui jaringan Lightning untuk pertukaran yang cepat dan berbiaya rendah.
+
+Ini sering disebut sebagai salah satu elemen dalam narasi "programmable money" di Bitcoin: bukan karena Bitcoin menjadi komputer global, tetapi karena instrumen keuangan (aset) dapat ditumpangkan di atas fondasi Bitcoin, lalu diedarkan secara efisien melalui Lightning.
+
+### Bitcoin menjadi lebih kuat dengan membiarkan lapisan atas berinovasi
+
+Saat ini, gambaran paling akurat dari ekosistem Bitcoin bukanlah sebuah protokol yang kaku, maupun sebuah super blockchain yang melakukan segalanya seperti Ethereum. Sebaliknya, Bitcoin adalah sebuah fondasi yang secara sengaja konservatif, dikelilingi oleh lapisan dan protokol yang bereksperimen dan memungkinkan inovasi dengan pengambilan risiko yang minimal.
+
 
 ## Pil Merah atau Pil Biru?
 

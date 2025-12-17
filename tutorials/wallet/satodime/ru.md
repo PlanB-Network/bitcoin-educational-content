@@ -1,5 +1,5 @@
 ---
-name: Сатодиме
+name: Satodime
 description: Узнайте, как использовать Satodime с помощью мобильного приложения
 ---
 ![cover](assets/cover.webp)

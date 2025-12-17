@@ -1,5 +1,5 @@
 ---
-name: BIP-39 wachtwoordzin SeedOndertekenaar
+name: BIP-39 Passphrase SeedSigner
 description: Hoe voeg ik een passphrase toe aan mijn SeedSigner-portfolio?
 ---
 

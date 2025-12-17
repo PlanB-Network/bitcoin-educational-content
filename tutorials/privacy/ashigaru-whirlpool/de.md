@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Whirlpool Koinjoin
+name: Ashigaru - Whirlpool Coinjoin
 description: Wie kann ich in der Ashigaru-Anwendung Coinjoins erstellen?
 ---
 

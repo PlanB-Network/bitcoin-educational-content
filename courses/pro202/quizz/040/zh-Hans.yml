@@ -1,0 +1,8 @@
+question: 为什么现代 ASIC 矿工会修改 Coinbase 交易中的数据，而不是仅仅依靠区块头的 nonce 字段？
+answer: 4 字节 nonce 字段为现代 ASIC 提供的搜索空间不足，因此矿工修改 Coinbase 数据以更改 Merkle 根，并创建额外的搜索空间
+wrong_answers:
+  - 修改 Coinbase 交易可使矿工获得比标准补贴额更高的区块奖励。
+  - "Coinbase交易必须修改，以包含矿工的数字签名，用于区块验证"
+  - 更改 Coinbase 数据可让矿工绕过标准 proof-of-work 要求，从而降低计算难度
+explanation: |
+  现代 ASIC 可以快速耗尽 4 字节的 nonce 空间（2^32 种可能性），从而需要额外的搜索空间。通过修改 Coinbase 交易中的数据，矿工会改变交易的哈希值，从而改变区块头中的梅克尔根，有效地创造出数十亿个额外的 nonce 类值供尝试。这种技术被称为 "额外 nonce"，对于硬件远远超出原始 nonce 字段容量的现代 mining 操作至关重要。

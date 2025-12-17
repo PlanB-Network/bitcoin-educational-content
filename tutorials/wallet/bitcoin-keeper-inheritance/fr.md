@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Keeper - Plan de succession
+name: Bitcoin Keeper - Plan d’héritage
 description: Planifier la transmission de ses bitcoins avec Bitcoin Keeper
 ---
 

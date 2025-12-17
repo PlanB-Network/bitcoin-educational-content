@@ -1,0 +1,8 @@
+question: Jaki jest główny mechanizm techniczny w platformie zarządzania aktywami (AMP) Liquid, który zapobiega działaniom zgodnym z jednym punktem awarii przy jednoczesnym zachowaniu kontroli regulacyjnej nad aktywami tokenizowanymi?
+answer: Autoryzacja wielopodpisowa wymagająca wielu stron do zatwierdzenia działań zgodności, takich jak zamrożenie środków lub ponowne wydanie tokenów
+wrong_answers:
+  - Tokeny zarządzania Smart contract, które umożliwiają społeczności głosowanie nad wszystkimi decyzjami dotyczącymi zgodności i egzekwowania przepisów
+  - Rachunki depozytowe z blokadą czasową, które automatycznie wykonują działania w zakresie zgodności po upływie wcześniej określonych okresów oczekiwania
+  - Kryptograficzny konsensus proof-of-stake, w którym walidatorzy muszą osiągnąć porozumienie większościowe przed wykonaniem jakiejkolwiek akcji zgodności
+explanation: |
+  AMP wykorzystuje kontrolę wielu podpisów, aby zapewnić, że działania zgodne z przepisami wymagają autoryzacji od wielu stron, uniemożliwiając pojedynczemu pracownikowi jednostronne działanie. Tworzy to system kontroli i równowagi dla wrażliwych operacji przy jednoczesnym zachowaniu nadzoru regulacyjnego wymaganego dla aktywów instytucjonalnych. Błędne odpowiedzi opisują mechanizmy, które albo nie istnieją w AMP, albo byłyby nieodpowiednie dla regulowanej zgodności finansowej.

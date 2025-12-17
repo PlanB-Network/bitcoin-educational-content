@@ -1,5 +1,5 @@
 ---
-name: Blockstream-Explorer
+name: Blockstream Explorer
 description: Erkunden Sie die Hauptschicht von Bitcoin und Liquid Network
 ---
 

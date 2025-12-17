@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Parola SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: SeedSigner portföyüme nasıl passphrase ekleyebilirim?
 ---
 

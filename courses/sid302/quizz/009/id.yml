@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari Komitmen Pedersen dalam Elements' Confidential Transactions?
+answer: Untuk mengganti jumlah transaksi yang terlihat dengan komitmen kriptografi yang dapat divalidasi tanpa mengungkapkan nilai sebenarnya
+wrong_answers:
+  - Untuk generate pengidentifikasi heksadesimal 64-karakter yang unik untuk aset yang baru diterbitkan pada blockchain Elements
+  - Untuk mencegah double-spending dengan membuat bukti matematis bahwa nilai tersembunyi adalah bilangan bulat positif dalam rentang yang valid
+  - Untuk memungkinkan transfer Bitcoin dari rantai utama ke sidechain Elements melalui mekanisme pegging kriptografi
+explanation: |
+  Komitmen Pedersen adalah mekanisme kriptografi inti yang memungkinkan privasi dalam Confidential Transactions dengan mengganti jumlah yang terlihat dengan komitmen matematika. Karena sifat homomorfisnya, validator dapat memverifikasi bahwa input sama dengan output ditambah biaya tanpa melihat nilai sebenarnya. Range Proofs mencegah jumlah negatif, ID aset mengidentifikasi token, dan mekanisme pegging menangani transfer lintas rantai, tetapi tidak satu pun dari hal tersebut yang merupakan fungsi dari Pedersen Commitment secara khusus.

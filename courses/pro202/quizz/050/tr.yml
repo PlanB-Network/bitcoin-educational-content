@@ -1,0 +1,8 @@
+question: Bir Bitcoin düğümü önyükleme yaptığında ve ağa ilk kez katıldığında, aktif eşleri keşfetmek için kullandığı birincil mekanizma nedir?
+answer: Aktif eşlerin IP'lerini almak için çekirdek geliştiriciler tarafından tutulan sabit kodlanmış DNS tohumlarına başvurun
+wrong_answers:
+  - Önceden tanımlanmış alt ağ aralıklarındaki tüm IP adreslerine bir keşif mesajı yayınlar
+  - Tüm etkin düğümlerin listesini tutan merkezi bir kayıt sunucusuna bağlanır
+  - Hash tabanlı yönlendirme yoluyla eşleri bulmak için DHT (Dağıtılmış Hash Tablosu) protokolünü kullanır
+explanation: |
+  Bitcoin, önyükleme mekanizması olarak kodlanmış DNS tohumlarını kullanır, çünkü yeni düğümlerin merkezi bir otoriteye güvenmeden ağa girmesi için merkezi olmayan bir yol sağlar. DNS tohumları çekirdek geliştiriciler tarafından korunur ve o anda aktif olan eşlerin IP adreslerini döndürür. Düğümler bağlandıktan sonra getaddr komutunu kullanarak başka eşler bulabilir. Yanlış cevaplar, Bitcoin tarafından kullanılmayan merkezi yaklaşımları veya protokolleri tanımlamaktadır - Bitcoin'nin tasarımında merkezi kayıt defteri, alt ağ yayını ve DHT tabanlı eş keşfi yoktur.

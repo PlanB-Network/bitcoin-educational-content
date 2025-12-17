@@ -1,5 +1,5 @@
 ---
-name: केक Wallet
+name: Cake Wallet
 description: केक Wallet और साइलेंट पेमेंट्स के बारे में ट्यूटोरियल
 ---
 

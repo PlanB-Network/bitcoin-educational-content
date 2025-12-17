@@ -1,0 +1,8 @@
+question: Khi một nút Bitcoin yêu cầu tiêu đề khối bằng lệnh getheaders, số lượng tiêu đề tối đa có thể được trả về trong một phản hồi duy nhất là bao nhiêu, và nội dung nào theo sau mỗi tiêu đề 80 byte?
+answer: Có thể trả về tối đa 2000 tiêu đề, mỗi tiêu đề được theo sau bởi một số lượng giao dịch giả là không.
+wrong_answers:
+  - Có thể trả về tối đa 1000 tiêu đề, mỗi tiêu đề được theo sau bởi số lượng giao dịch thực tế dưới dạng biến thể.
+  - Có thể trả về tối đa 2000 tiêu đề, mỗi tiêu đề được theo sau bởi một mã kiểm tra 4 byte của dữ liệu tiêu đề.
+  - Có thể trả về tối đa 500 tiêu đề, mỗi tiêu đề được theo sau bởi mã băm gốc Merkle để xác minh.
+explanation: |
+  Giao thức P2P của Bitcoin giới hạn cụ thể các phản hồi getheaders ở mức tối đa 2000 header để ngăn chặn việc quá tải các node với lượng phản hồi khổng lồ. Mỗi header có kích thước chính xác 80 byte và được theo sau bởi một trường đếm giao dịch được đặt thành 0, vì các tin nhắn chỉ chứa header không bao gồm các giao dịch thực tế. Thiết kế này cho phép đồng bộ hóa chuỗi hiệu quả, trong đó các node có thể nhanh chóng tải xuống và xác minh cấu trúc chuỗi proof-of-work trước khi yêu cầu dữ liệu khối đầy đủ.

@@ -1,0 +1,8 @@
+question: Mikä on Breez Liquid SDK:n tapahtumakapasiteetin perusrajoitus, joka erottaa sen täydellisestä Lightning Network-solmusta?
+answer: Se ei voi suorittaa suoria Lightning-to-Lightning- tai Bitcoin-Bitcoin-tapahtumia, koska se toimii yksinomaan Liquid:n kanssa kotiasemana
+wrong_answers:
+  - Se ei pysty käsittelemään atomivaihtoja eri lohkoketjuverkkojen välillä, koska ketjujen välinen älysopimustuki puuttuu
+  - "Se ei voi käsitellä yli 0,1 BTC:n transaktioita Liquid Network:n sisäänrakennettujen transaktiokokorajoitusten vuoksi"
+  - Se ei voi toimia ilman Internet-yhteyttä, koska se vaatii jatkuvaa synkronointia keskitettyjen Breez-palvelimien kanssa
+explanation: |
+  SDK:ta kuvataan nimenomaisesti "puhtaasti Liquid-keskeiseksi työkaluksi", joka toimii Liquid:n kanssa "kotipesänä" Se tukee vain kolmea erityistä toimintoa: Liquid:sta Liquid:aan, Liquid:sta Lightningiin ja Liquid:sta Bitcoin:ään. Toisin kuin täysi Lightning-solmu, joka voi reitittää maksuja Lightning-kanavien välillä, Breez SDK ei voi suorittaa suoria Lightning-to-Lightning-transaktioita, joten se eroaa olennaisesti perinteisestä Lightning-infrastruktuurista.

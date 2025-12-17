@@ -1,8 +1,9 @@
-question: Vilken typ av nätverk skapar Lightning Network?
-answer: Ett nätverk av betalningskanaler.
+question: Vilket angreppssätt strukturerar den utveckling av Bitcoin som beskrivs i detta kapitel?
+answer: Skiktad utveckling
 wrong_answers:
-  - Ett nätverk av Mining-noder.
-  - Ett nätverk av Blockchain-noder.
-  - Ett nätverk av kryptovalutabörser.
-explanation: >-
-reviewed: true
+  - Monolitisk blockkedja
+  - Inbyggd sharding
+  - Generaliserad onchain-exekvering
+explanation: |
+  Bitcoin behåller ett enkelt och robust baslager, medan överliggande protokoll lägger till specifika funktioner.
+reviewed: false

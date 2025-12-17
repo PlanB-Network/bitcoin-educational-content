@@ -1,0 +1,8 @@
+question: Mekanisme spesifik apa yang memastikan bahwa node pra-SegWit menerima transaksi P2WPKH sebagai transaksi yang valid tanpa memahami aturan validasi saksi?
+answer: Node pra-SegWit menginterpretasikan skrip hash OP_0 + 20-byte sebagai output 'anyone-can-spend' yang tidak memerlukan verifikasi tanda tangan
+wrong_answers:
+  - Node pra-SegWit secara otomatis meneruskan transaksi P2WPKH ke node yang ditingkatkan untuk validasi saksi sebelum menerimanya
+  - Node Pra-SegWit mengenali pola P2WPKH dan melewatkan validasi sepenuhnya, memperlakukan semua transaksi saksi sebagai transaksi yang telah divalidasi sebelumnya
+  - Node pra-SegWit mengubah data saksi kembali ke format scriptSig tradisional menggunakan aturan transformasi kompatibilitas ke belakang
+explanation: |
+  Kejeniusan desain SegWit terletak pada eksploitasi bagaimana node pra-SegWit menangani pola skrip yang tidak dikenal. Ketika node-node yang lebih tua ini menemukan skrip P2WPKH (OP_0 diikuti oleh push 20-byte), mereka tidak mengenalinya sebagai program saksi khusus. Sebaliknya, mereka mengevaluasinya sebagai skrip standar yang meninggalkan OP_0 dan hash pada stack. Karena OP_0 dievaluasi menjadi false dalam sistem skrip Bitcoin, node pra-SegWit menginterpretasikannya sebagai kondisi 'anyone-can-spend' - yang berarti tidak ada verifikasi tanda tangan yang diperlukan dari sudut pandang mereka. Hal ini memungkinkan transaksi diterima ke dalam mempool dan blok mereka tanpa melanggar konsensus, sementara node yang sadar SegWit melakukan validasi kriptografi yang sebenarnya menggunakan data saksi.

@@ -1,5 +1,5 @@
 ---
-name: Giada fai da te
+name: Jade DIY
 description: Trasformate una scheda di sviluppo da 15 dollari in un hardware Bitcoin completamente funzionante wallet
 ---
 

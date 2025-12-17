@@ -1,0 +1,8 @@
+question: O que impede os utilizadores de criarem dinheiro a partir do nada no sistema Elements' Confidential Transactions?
+answer: Provas de intervalos Provas que provam matematicamente que os valores ocultos são números inteiros positivos dentro de intervalos válidos
+wrong_answers:
+  - Pedersen Compromissos que ligam criptograficamente os montantes das transacções a chaves públicas
+  - Validação do Registo de Activos que verifica todos os montantes das transacções em relação aos limites de activos registados
+  - Nós de consenso federado que desencriptam e verificam todos os montantes de transacções confidenciais
+explanation: |
+  As Range Proofs são o mecanismo criptográfico específico que impede os utilizadores de explorarem o sistema de transacções confidenciais utilizando números negativos ou montantes inválidos para criar dinheiro a partir do nada. Enquanto os Pedersen Commitments ocultam os montantes reais, as Range Proofs asseguram a integridade matemática provando que os valores ocultos estão dentro de intervalos legítimos. O Registo de Activos apenas mapeia IDs de activos para nomes legíveis por humanos e não valida montantes, e os nós federados não desencriptam transacções confidenciais - verificam-nas sem ver os valores reais.

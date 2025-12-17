@@ -1,5 +1,5 @@
 ---
-name: ランブル Wallet
+name: Rumble Wallet
 description: 経済的自由を通じて言論の自由を守るクリエイターたちに加わろう。
 ---
 

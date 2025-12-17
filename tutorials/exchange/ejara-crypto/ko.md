@@ -1,5 +1,5 @@
 ---
-name: Ejara 암호화
+name: Ejara Crypto
 description: 프랑스어권 아프리카에서 1000 CFA 프랑부터 비트코인을 보관, 구매 및 판매하세요
 ---
 

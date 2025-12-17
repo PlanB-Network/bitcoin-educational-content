@@ -1,0 +1,19 @@
+title: "Node Classification and Geographical Analysis of the Lightning Cryptocurrency Network"
+original_language: en
+authors:
+  - Philipp Zabka
+  - Klaus-Tycho Förster
+  - Stefan Schmid
+  - Christian Decker
+abstract: |
+  Off-chain networks provide an attractive solution to the scalability challenges faced by cryptocurrencies such as Bitcoin. While first interesting networks are emerging, we currently have relatively limited insights into the structure and distribution of these networks. Such knowledge, however is useful, when reasoning about possible performance improvements or the security of the network. For example, information about the different node types and implementations in the network can help when planning the distribution of critical software updates.
+  This paper reports on a large measurement study of Lightning, a leading off-chain network, considering recorded network messages over a period of more than two years. In particular, we present an approach and classification of the node types (LND, C-Lightning and Eclair) in the network, and find that we can determine the implementation of 99.9% of nodes in our data set. We also report on geographical aspects of the Lightning network, showing that proximity is less relevant, and that the Lightning network is particularly predominant in metropolitan areas.
+  As a contribution to the research community, we will release our experimental data together with this paper.
+publication_date: 2021-01-05
+paper_type: conference
+source: ICDCN
+topics:
+  - Payment Channel Networks
+  - Network Topology Analysis
+pdf_url: https://eprints.cs.univie.ac.at/6512/1/icdcn21-31.pdf
+id: d23e2ced-6acd-4cdb-aef1-be29b2b22408

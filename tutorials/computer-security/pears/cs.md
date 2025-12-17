@@ -1,5 +1,5 @@
 ---
-name: Hrušky
+name: Pears
 description: Jak mohu instalovat a používat aplikace v systému Pears?
 ---
 

@@ -1,0 +1,8 @@
+question: Bitcoin'ın zorluk ayarlama mekanizması, önceki 2016 bloklarının çıkarılmasının beklenen 2 hafta yerine tam 6 hafta sürdüğü bir senaryoyla karşılaşırsa, hangi ayarlama faktörü uygulanır?
+answer: Zorluk 4 kat azaltılacaktır (izin verilen maksimum azaltma)
+wrong_answers:
+  - Zorluk 3 kat azalacaktır (6 hafta ÷ 2 hafta)
+  - Aşırı düzeltmeyi önlemek için zorluk derecesi 2,5 kat azaltılacaktır
+  - Zorluk, zaman oranına bağlı olarak 6 kat azalacaktır
+explanation: |
+  Bitcoin'in zorluk ayarlaması, değişiklikleri her iki yönde de dört kat içinde sınırlayan yerleşik sınırlara sahiptir. Her ne kadar 6 hafta ÷ 2 hafta = 3, yani 3 kat azalma anlamına gelse de, protokol aşırı dalgalanmayı önlemek için ayarlamaları 4 kat ile sınırlamaktadır. Bu güvenlik mekanizması, blok zamanlamasını bozabilecek aşırı düzeltmeyi önleyerek mining yasakları veya ekipman arızaları gibi büyük hash oranı değişiklikleri sırasında ağ istikrarını sağlar.

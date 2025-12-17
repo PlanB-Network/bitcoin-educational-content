@@ -1,0 +1,8 @@
+question: Hva sikrer at begge parter i en cross-layer swap enten fullfører transaksjonen, eller at begge mislykkes uten å tape penger?
+answer: Den samme hashlåsen brukes på begge nettverkene, noe som skaper kryptografisk binding mellom swap-bena
+wrong_answers:
+  - Tidssperrer hindrer begge parter i å gjøre krav på penger før begge nettverkene har bekreftet transaksjonene
+  - MuSig2-nøkkelaggregering krever at begge parter signerer før penger kan flyttes
+  - "Taproots skriptbane reverserer automatisk transaksjoner hvis ett nettverk ikke fullføres"
+explanation: |
+  Den atomiske karakteren til bytter på tvers av lagene er avhengig av at det brukes identiske hashlåser i begge nettverkene. Når mottakeren avslører det hemmelige forhåndsbildet for å kreve penger på det ene laget, blir den samme hemmeligheten synlig og kan brukes av avsenderen til å kreve tilsvarende penger på det andre laget. Denne kryptografiske bindingen sikrer atomicitet - enten får begge parter pengene sine, eller så får ingen av dem det, noe som eliminerer motpartsrisikoen i tillitsløse bytteavtaler.

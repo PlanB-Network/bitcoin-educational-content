@@ -1,0 +1,8 @@
+question: Liquid'ın Varlık Yönetim Platformunda (AMP), tokenize varlıklar üzerinde düzenleyici kontrolü sürdürürken tek noktadan hata uyum eylemlerini önleyen birincil teknik mekanizma nedir?
+answer: Fonların dondurulması veya tokenların yeniden çıkarılması gibi uyumluluk eylemlerini onaylamak için birden fazla taraf gerektiren çoklu imza yetkilendirmesi
+wrong_answers:
+  - Tüm uyumluluk kararları ve düzenleyici yaptırımlar üzerinde topluluk oylamasına izin veren Smart contract yönetişim tokenleri
+  - Önceden belirlenmiş bekleme süreleri sona erdikten sonra uyum eylemlerini otomatik olarak yürüten zaman kilitli emanet hesapları
+  - Doğrulayıcıların herhangi bir uyum eylemi gerçekleştirmeden önce çoğunluk mutabakatına ulaşması gereken kriptografik hisse kanıtı mutabakatı
+explanation: |
+  AMP, uyumluluk eylemlerinin birden fazla tarafın yetkilendirmesini gerektirmesini sağlamak için çoklu imza kontrolü kullanır ve herhangi bir çalışanın tek taraflı hareket etmesini önler. Bu, kurumsal varlıklar için gereken düzenleyici gözetimi korurken hassas işlemler için bir kontrol ve denge sistemi oluşturur. Yanlış cevaplar AMP'de bulunmayan ya da düzenlenmiş finansal uyum için uygun olmayan mekanizmaları tanımlamaktadır.

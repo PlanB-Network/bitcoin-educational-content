@@ -1,0 +1,8 @@
+question: Faida kuu ya algoriti ya mara mbili na kuongeza kwa kuzidisha kwa scalar katika usimbaji fiche wa mviringo ni ipi?
+answer: Hupunguza ugumu wa hesabu kutoka kwa shughuli za O(n) hadi O(log n)
+wrong_answers:
+  - Huondoa hitaji la hesabu za moduli katika nyanja zenye kikomo
+  - Inabadilisha tatizo la logarithm tofauti kuwa suluhisho la wakati wa polinomial
+  - Inaruhusu hesabu ya moja kwa moja ya funguo za kibinafsi kutoka kwa funguo za umma
+explanation: |
+  Algoritimu ya mara mbili na kuongeza inaboresha ufanisi kwa kiasi kikubwa kwa kupunguza ugumu wa hesabu kutoka kwa nyongeza za mstari za O(n) kwenye shughuli za O(log n). Hii inafanya kazi kwa kuchanganua uwakilishi wa jozi wa scalar, kuongeza mara mbili nukta katika kila hatua, na kuongeza nukta ya jenereta tu wakati biti ni 1. Chaguzi zingine si sahihi: hesabu ya moduli bado inahitajika katika sehemu zenye kikomo, tatizo la logariti tofauti linabaki kuwa lisilowezekana kwa hesabu (ambalo ni muhimu kwa usalama), na funguo za kibinafsi haziwezi kuhesabiwa kutoka kwa funguo za umma bila kujali algoriti ya kuzidisha inayotumika.

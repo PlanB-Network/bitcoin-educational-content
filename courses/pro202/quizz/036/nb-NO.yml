@@ -1,0 +1,8 @@
+question: Hva skjer med personvernet til en P2SH-transaksjons utgiftsforhold over tid?
+answer: Forbruksbetingelsene forblir skjult frem til første gang du bruker dem, og blir deretter permanent synlige on-chain
+wrong_answers:
+  - Forbruksbetingelsene forblir permanent private, selv etter at flere transaksjoner er utført
+  - Utgiftsbetingelsene er umiddelbart synlige når P2SH-adressen først opprettes
+  - Forbruksbetingelsene blir midlertidig synlige under forbruket, men blir skjult igjen etterpå
+explanation: |
+  P2SH gir personvern ved å skjule de faktiske utgiftsbetingelsene (innløsningsskript) bak en hash i scriptPubKey. Bare hashen på 20 byte er synlig i utgangspunktet, noe som skjuler om det er multisig, timelock eller andre komplekse betingelser. Når P2SH-utgangen brukes for første gang, må imidlertid hele innløsningsskriptet avsløres on-chain for validering, noe som gjør utgiftsbetingelsene permanent synlige for alle nettverksdeltakere. Denne engangsavsløringen er avveiningen P2SH gjør mellom personvern og funksjonalitet.

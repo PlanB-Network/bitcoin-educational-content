@@ -1,0 +1,8 @@
+question: Šta se dešava kada reverzni swap podmornice ne uspe ili istekne u Breez SDK arhitekturi?
+answer: SDK automatski konstruira i emituje transakciju povraćaja kako bi vratio sredstva korisnikovom wallet
+wrong_answers:
+  - Davalac zamene ručno pokreće proces oporavka koji zahteva intervenciju korisnika u roku od 24 sata
+  - Sredstva ostaju trajno zaključana dok se veza Lightning Network ne obnovi.
+  - Korisnik mora kontaktirati Boltz podršku kako bi ručno pokrenuo federated peg-out transakciju.
+explanation: |
+  Breez SDK implementira Automatizovano Upravljanje Povratom kao kritični sigurnosni mehanizam. Kada zamene ne uspeju ili istekne vreme, SDK prati sva stanja zamene i automatski upravlja procesom oporavka bez intervencije korisnika. Ovo apstrahuje složenost vremenski zaključanih ugovora i osigurava da sredstva nikada nisu trajno izgubljena. Ostale opcije su netačne jer ili zahtevaju ručnu intervenciju, pretpostavljaju trajni gubitak sredstava, ili uključuju procese koji ne postoje u automatizovanom sistemu.

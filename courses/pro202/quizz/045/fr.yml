@@ -1,0 +1,8 @@
+question: Quelle est la principale raison pour laquelle le mécanisme d'ajustement de la difficulté de la Bitcoin limite les changements à un facteur de quatre au cours de chaque période d'ajustement du bloc 2016 ?
+answer: Pour éviter les oscillations extrêmes qui pourraient déstabiliser le réseau lorsque le taux de hachage change radicalement
+wrong_answers:
+  - Pour s'assurer que les mineurs disposent de suffisamment de temps pour mettre à niveau leur matériel avant que la difficulté n'augmente de manière significative
+  - Pour maintenir la compatibilité avec le champ d'horodatage de 32 bits qui n'est plus fiable lorsque les ajustements sont plus importants
+  - Pour éviter que le calendrier de réduction de moitié des subventions par catégorie ne soit perturbé par des changements rapides de difficultés
+explanation: |
+  Cette limite quadruple permet d'éviter les boucles de rétroaction dangereuses dans lesquelles des changements de difficulté extrêmes pourraient entraîner des variations importantes de la durée des blocs. Sans cette contrainte, une chute soudaine du taux de hachage pourrait déclencher des réductions massives de la difficulté, ce qui rendrait les blocs trop faciles et pourrait déstabiliser le consensus. À l'inverse, d'énormes augmentations pourraient rendre les blocs presque impossibles à exploiter. La limite garantit des ajustements progressifs et gérables qui maintiennent la stabilité du réseau même en cas de perturbations majeures telles que les interdictions mining, permettant au système de s'auto-corriger de manière prévisible sur plusieurs périodes d'ajustement plutôt que de créer des oscillations chaotiques.

@@ -1,5 +1,5 @@
 ---
-name: ज़ीउस स्वैप
+name: Zeus Swap
 description: On-Chain और Lightning Network बिटकॉइन के बीच गैर-कस्टोडियल Exchange सेवा
 ---
 

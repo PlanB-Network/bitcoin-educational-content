@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta, którą dowody Merkle zapewniają klientom SPV (Simplified Payment Verification) podczas weryfikacji włączenia transakcji?
+answer: Umożliwiają one weryfikację włączenia transakcji bez pobierania całego bloku, wymagając zaledwie kilkuset bajtów nawet w przypadku bloków z tysiącami transakcji
+wrong_answers:
+  - Eliminują one potrzebę weryfikacji skrótu bloku względem celu trudności, zmniejszając wymagania obliczeniowe dla lekkich klientów
+  - Zapewniają one dowód kryptograficzny, który zapobiega atakom double-spending poprzez walidację wszystkich danych wejściowych transakcji w bloku
+  - Umożliwiają one klientom SPV odtworzenie pełnej historii transakcji bez konieczności łączenia się z wieloma pełnymi węzłami jednocześnie
+explanation: |
+  Dowody Merkle'a wykorzystują właściwość logarytmicznego wzrostu drzew Merkle'a, umożliwiając klientom SPV weryfikację włączenia transakcji za pomocą tylko skrótów rodzeństwa wzdłuż ścieżki do korzenia. Wymaga to tylko kilkuset bajtów niezależnie od rozmiaru bloku, co czyni go praktycznym dla lekkich klientów. Błędne odpowiedzi mylą dowody Merkle z innymi mechanizmami Bitcoin - nie eliminują one weryfikacji trudności, nie zapobiegają bezpośrednio double-spending i nie rekonstruują historii transakcji.

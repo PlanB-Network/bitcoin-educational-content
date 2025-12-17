@@ -1,5 +1,5 @@
 ---
-name: 비트피드
+name: Bitfeed
 description: 주요 Bitcoin 프로토콜 체인을 살펴보세요.
 ---
 

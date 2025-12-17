@@ -1,0 +1,8 @@
+question: Vilken kryptografisk teknik använder Elements för att dölja transaktionsbelopp och samtidigt tillåta nätverksvalidering?
+answer: Pedersen Åtaganden
+wrong_answers:
+  - Merkle Tree Hashing
+  - Signaturer med elliptisk kurva
+  - SHA-256-kryptering
+explanation: |
+  Pedersen-åtaganden är den specifika kryptografiska teknik som används i Elements' Confidential Transactions för att dölja transaktionsbelopp. Dessa åtaganden ersätter synliga belopp med kryptografiska åtaganden som fortfarande kan verifieras matematiskt av validatorer utan att avslöja de faktiska värdena. Merkle Tree Hashing används för att organisera transaktionsdata i block, Elliptic Curve Signatures används för transaktionsauktorisering och SHA-256 är en hash-algoritm, men ingen av dessa döljer transaktionsbelopp samtidigt som valideringskapaciteten bibehålls som Pedersens åtaganden gör.

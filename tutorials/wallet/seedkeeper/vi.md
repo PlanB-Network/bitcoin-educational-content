@@ -1,5 +1,5 @@
 ---
-name: Người giữ hạt giống
+name: Seedkeeper
 description: Làm thế nào để sao lưu wallet Bitcoin của tôi bằng thẻ thông minh Seedkeeper?
 ---
 

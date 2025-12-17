@@ -635,7 +635,7 @@ Selline lähenemine tagab, et te ei sea oma rahalist heaolu ohtu, eriti turu lan
 ![image](assets/et/023.webp)
 
 
-Kui teie eelarve on kindlaks määratud, mõelge, kuidas soovite investeerida. Üks kõige algajasõbralikumaid ja laialdaselt soovitatud meetodeid on Dollar Cost Averaging (DCA), mille puhul ostetakse kindla koguse Bitcoin korrapäraselt (kord nädalas, kuus jne). See strateegia aitab ühtlustada teie keskmist sisenemishinda aja jooksul ja vähendab hinnakõikumiste emotsionaalset mõju. See on enamiku inimeste, eriti uustulnukate jaoks arukas lähenemine.
+Kui teie eelarve on kindlaks määratud, mõelge, kuidas soovite investeerida. Üks kõige algajasõbralikumaid ja laialdaselt soovitatud meetodeid on [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), mille puhul ostetakse kindla koguse Bitcoin korrapäraselt (kord nädalas, kuus jne). See strateegia aitab ühtlustada teie keskmist sisenemishinda aja jooksul ja vähendab hinnakõikumiste emotsionaalset mõju. See on enamiku inimeste, eriti uustulnukate jaoks arukas lähenemine.
 
 
 Siis küsige endalt: Milline on minu ajahorisont?
@@ -1007,7 +1007,7 @@ Kuigi see lähenemisviis on tehnilisem, pakub see kõige nõudlikumatele kasutaj
 #### Vastupidav piiriülene makseviis
 
 
-Tänu oma detsentraliseeritud olemusele töötab Bitcoin 24/7, mida ei mõjuta piirid ega ajavööndid. Piirkondades, kus traditsiooniline pangainfrastruktuur puudub, kasutatakse Bitcoin sageli kiire ja odava lahendusena raha saatmiseks või vastuvõtmiseks, ilma et oleks vaja kasutada kalleid vahendajaid. Kuigi tehingutasud võivad erineda sõltuvalt võrgu ülekoormusest, on need üldiselt palju madalamad kui pankade poolt rahvusvaheliste ülekannete eest võetavad tasud. Lisaks võimaldavad Layer-2 lahendused, nagu Lightning Network, veelgi kiiremaid ja odavamaid Bitcoin tehinguid.
+Tänu oma detsentraliseeritud olemusele töötab Bitcoin 24/7, mida ei mõjuta piirid ega ajavööndid. Piirkondades, kus traditsiooniline pangainfrastruktuur puudub, kasutatakse Bitcoin sageli kiire ja odava lahendusena raha saatmiseks või vastuvõtmiseks, ilma et oleks vaja kasutada kalleid vahendajaid. Kuigi tehingutasud võivad erineda sõltuvalt võrgu ülekoormusest, on need üldiselt palju madalamad kui pankade poolt rahvusvaheliste ülekannete eest võetavad tasud. Lisaks võimaldavad Layer-2 lahendused, nagu [Lightning Network](https://planb.academy/resources/glossary/lightning-network), veelgi kiiremaid ja odavamaid Bitcoin tehinguid.
 
 
 #### Väärtuse säilitamine
@@ -1538,7 +1538,7 @@ Bitcoin Wallet tööstus jaguneb mitmesse kategooriasse, millest igaüks vastab 
 
 
 
-- **Hardware Wallet Tootjad**: Need ettevõtted arendavad füüsilisi seadmeid, mis on ette nähtud võtmete turvaliseks säilitamiseks. Mõned neist on avatud lähtekoodiga, teised aga pakuvad eri funktsioonide ja turvatasemetega patenteeritud lahendusi. Märkimisväärsed nimed on Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Tootjad**: Need ettevõtted arendavad füüsilisi seadmeid, mis on ette nähtud võtmete turvaliseks säilitamiseks. Mõned neist on avatud lähtekoodiga, teised aga pakuvad eri funktsioonide ja turvatasemetega patenteeritud lahendusi. Märkimisväärsed nimed on Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
 - **Software Wallet arendajad**: Need ulatuvad ettevõtetest sõltumatute arendajateni, kes loovad mobiil- ja lauaarvutirakendusi. Nende pakkumised erinevad kasutajakogemuse, turvalisuse ja funktsioonide poolest. Näiteks Sparrow, Wizard Sardine, Galoy, Synonym ja Blockstream.
 - DIY (*Do It Yourself*) **rahakotid**: Need avatud lähtekoodiga lahendused on mõeldud edasijõudnud kasutajatele, kes soovivad täielikku kontrolli ja minimaalset sõltuvust kolmandatest osapooltest. Oma Wallet ehitamine vähendab usaldussõltuvust ja võib suurendada teie turvalisuse positsiooni. Märkimisväärsed DIY-variandid on Seedsigner ja Specter DIY.
 

@@ -1,0 +1,8 @@
+question: Co se děje s ochranou soukromí podmínek výdajů transakce P2SH v průběhu času?
+answer: Podmínky výdajů zůstávají skryté až do první útraty, poté se stanou trvale viditelnými on-chain
+wrong_answers:
+  - Podmínky výdajů zůstávají trvale soukromé i po provedení více transakcí
+  - Podmínky výdajů jsou viditelné okamžitě po prvním vytvoření adresy P2SH
+  - Výdajové podmínky se během výdajů dočasně zviditelní, ale poté jsou opět skryty
+explanation: |
+  P2SH zajišťuje soukromí tím, že skutečné podmínky výdajů (skript pro vyplacení) skrývá za hash v klíči scriptPubKey. Zpočátku je viditelný pouze 20bajtový hash, který skrývá, zda se jedná o multisig, časový zámek nebo jiné složité podmínky. Při prvním utracení výstupu P2SH však musí být odhalen celý skript redeem on-chain pro ověření, čímž se podmínky utracení stanou trvale viditelnými pro všechny účastníky sítě. Toto jednorázové odhalení je kompromisem, který P2SH činí mezi soukromím a funkčností.

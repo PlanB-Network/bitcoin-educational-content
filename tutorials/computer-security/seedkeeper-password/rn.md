@@ -1,5 +1,5 @@
 ---
-name: Umucungezi w'imbuto - Umucungerezi w'ijambobanga
+name: Seedkeeper - Muyobozi w'Ijambo ry'Ibanga
 description: Ni gute wobika amajambo y’ibanga yawe ukoresheje ikarita y’ubwenge ya Seedkeeper?
 ---
 

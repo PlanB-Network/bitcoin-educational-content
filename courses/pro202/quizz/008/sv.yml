@@ -1,0 +1,8 @@
+question: Vilken är den matematiska grunden som gör det diskreta logaritmproblemet beräkningsmässigt ogenomförbart i elliptisk kurvkryptografi?
+answer: Den oförutsägbara fördelningen av punkter vid generering av en cyklisk grupp genom upprepad punktaddition
+wrong_answers:
+  - Symmetriegenskap hos elliptiska kurvor som reflekterar punkter över x-axeln
+  - De modulära aritmetiska operationerna utförs i ändliga fält istället för i reella tal
+  - Det stora primtal som används som fältkarakteristik i kurvekvationen
+explanation: |
+  Det diskreta logaritmproblemets svårighet härrör från den oförutsägbara, icke-linjära fördelningen av punkter när man genererar en cyklisk grupp (G, 2G, 3G, ..., nG). Även om punkterna genereras sekventiellt verkar de utspridda och slumpmässiga, vilket gör det beräkningsmässigt ogenomförbart att bestämma skalären s från punkten P = sG. Även om symmetri, modulär aritmetik och stora primtal är viktiga egenskaper hos elliptiska kurvor skapar de inte direkt den envägsfunktion som möjliggör säker kryptografi med publik nyckel.

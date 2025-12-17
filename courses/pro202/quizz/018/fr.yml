@@ -1,0 +1,8 @@
+question: Dans le format d'encodage DER pour les signatures ECDSA, quelle est l'augmentation de taille typique entre les données brutes de la signature et la signature finale encodée ?
+answer: De 64 octets à environ 71-72 octets en raison de la surcharge de formatage DER
+wrong_answers:
+  - De 32 octets à environ 64 octets en raison de l'encodage des composants R et S
+  - De 64 octets à 128 octets exactement en raison du double encodage des éléments de la signature
+  - De 71 octets à environ 64 octets en raison de la compression des marqueurs de séquence
+explanation: |
+  L'encodage DER ajoute une surcharge structurelle aux signatures ECDSA par le biais de marqueurs de séquence (0x30), d'octets de longueur et de préfixes de composants (0x02). La signature ECDSA brute se compose de deux valeurs de 32 octets (R et S) totalisant 64 octets, mais le formatage DER l'étend à environ 71-72 octets. Cette inefficacité est l'une des raisons pour lesquelles le Bitcoin a ensuite adopté les signatures Schnorr dans le Taproot, qui utilisent des signatures fixes de 64 octets sans surcharge d'encodage.

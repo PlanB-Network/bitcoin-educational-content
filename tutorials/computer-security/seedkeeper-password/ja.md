@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - パスワード管理
+name: Seedkeeper - パスワードマネージャー
 description: シードキーパーのICカードでパスワードを保存するには？
 ---
 

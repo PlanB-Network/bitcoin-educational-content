@@ -1,10 +1,9 @@
-question: As taxas para transações na Lightning Network são extremamente baixas, frequentemente menos de...?
-answer: 0,5%.
+question: Que vantagem o Ark oferece em relação ao Lightning para a receção?
+answer: Não é necessária liquidez de entrada
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-  As taxas para transações na Lightning Network são extremamente baixas, frequentemente
-  menos de 0,5%.
-reviewed: true
+  - Finalidade imediata do pagamento
+  - Ausência de taxas de transação
+  - Não é necessário ter uma carteira
+explanation: |
+  O Ark permite receber pagamentos sem dispor previamente de liquidez de entrada.
+reviewed: false

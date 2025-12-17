@@ -1,0 +1,8 @@
+question: Was geschieht mit den ScriptSig-Feldern aller Eingaben während des Sighash-Erstellungsprozesses für die ältere ECDSA-Signaturprüfung?
+answer: Alle ScriptSig-Felder werden geleert, dann wird das ScriptSig der aktuellen Eingabe durch den entsprechenden ScriptPubKey ersetzt
+wrong_answers:
+  - Alle ScriptSig-Felder bleiben unverändert und werden in ihrer ursprünglichen Form in die Sighash-Berechnung einbezogen
+  - "Nur die ScriptSig der aktuellen Eingabe wird beibehalten, während die ScriptSig-Felder aller anderen Eingaben aus der Transaktion entfernt werden
+  - Alle ScriptSig-Felder werden durch ihre entsprechenden ScriptPubKey-Werte aus den referenzierten Ausgaben ersetzt
+explanation: |
+  Bei der Erstellung von Sighashs für ältere Transaktionen leert der Prozess zunächst alle ScriptSig-Felder und ersetzt dann nur die aktuelle Eingabe, die validiert wird, durch den entsprechenden ScriptPubKey der Ausgabe, die ausgegeben wird. Dadurch wird sichergestellt, dass die Signatur an die Ausgabebedingungen gebunden ist, ohne zirkuläre Abhängigkeiten zu schaffen, bei denen die Signaturen selbst signieren müssten. Die anderen Optionen sind nicht korrekt, da sie entweder die Signaturen an Ort und Stelle belassen (was logische Unmöglichkeiten schafft) oder alle Eingaben einheitlich ändern (was den Validierungskontext der aktuellen Eingabe nicht richtig isolieren würde).

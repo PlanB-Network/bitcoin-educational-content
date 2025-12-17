@@ -1,5 +1,5 @@
 ---
-name: Server LNbits
+name: LNbits Server
 description: Instalasi dan konfigurasi server LNbits yang dihosting sendiri di Ubuntu VPS dengan Phoenixd atau di Umbrel
 ---
 

@@ -1,0 +1,8 @@
+question: Qual è il motivo principale per cui le transazioni P2SH-wrapped SegWit utilizzano tre livelli di regole di convalida durante la verifica?
+answer: Per garantire la retrocompatibilità tra i nodi pre-BIP16, post-BIP16 e SegWit mantenendo il consenso
+wrong_answers:
+  - Triplicare la sicurezza richiedendo tre prove crittografiche separate prima di accettare la transazione
+  - Distribuire il carico di lavoro della convalida su diversi tipi di nodi per migliorare le prestazioni e la scalabilità della rete
+  - Prevenire gli attacchi double-spending convalidando i dati della stessa transazione attraverso tre metodi indipendenti
+explanation: |
+  Il P2SH-wrapped SegWit utilizza tre livelli di validazione specificamente per la retrocompatibilità: i nodi pre-BIP16 accettano il redeemScript come valido, i nodi post-BIP16 lo valutano lasciando OP_0 + hash in pila, e i nodi SegWit eseguono la validazione completa dei testimoni. Questo approccio a più livelli garantisce che tutti i tipi di nodi possano partecipare al consenso senza rompersi, a differenza delle risposte sbagliate che suggeriscono come motivazioni primarie la moltiplicazione della sicurezza, la distribuzione delle prestazioni o la prevenzione del doppio spreco.

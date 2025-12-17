@@ -635,7 +635,7 @@ Abordar a questão desta forma garante que não está a colocar em risco o seu b
 ![image](assets/pt/023.webp)
 
 
-Quando o seu orçamento estiver definido, pense na forma como quer investir. Um dos métodos mais fáceis para principiantes e amplamente recomendado é o Dollar Cost Averaging (DCA), comprando uma quantidade fixa de Bitcoin em intervalos regulares (semanais, mensais, etc.). Esta estratégia ajuda a suavizar o seu preço médio de entrada ao longo do tempo e reduz o impacto emocional das oscilações de preços. É uma abordagem inteligente para a maioria das pessoas, especialmente para os principiantes.
+Quando o seu orçamento estiver definido, pense na forma como quer investir. Um dos métodos mais fáceis para principiantes e amplamente recomendado é o [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), comprando uma quantidade fixa de Bitcoin em intervalos regulares (semanais, mensais, etc.). Esta estratégia ajuda a suavizar o seu preço médio de entrada ao longo do tempo e reduz o impacto emocional das oscilações de preços. É uma abordagem inteligente para a maioria das pessoas, especialmente para os principiantes.
 
 
 Depois, pergunte a si próprio: Qual é o meu horizonte temporal?
@@ -1007,7 +1007,7 @@ Embora esta abordagem seja mais técnica, oferece aos utilizadores mais exigente
 #### Um método de pagamento transfronteiriço resiliente
 
 
-Devido à sua natureza descentralizada, o Bitcoin funciona 24 horas por dia, 7 dias por semana, sem ser afetado por fronteiras ou fusos horários. Em regiões onde a infraestrutura bancária tradicional é inexistente, o Bitcoin é frequentemente usado como uma solução rápida e de baixo custo para enviar ou receber fundos sem depender de intermediários caros. Embora as taxas de transação possam variar com base no congestionamento da rede, são geralmente muito mais baixas do que as taxas cobradas pelos bancos para transferências internacionais. Além disso, as soluções Layer-2, como o Lightning Network, permitem transacções Bitcoin ainda mais rápidas e baratas.
+Devido à sua natureza descentralizada, o Bitcoin funciona 24 horas por dia, 7 dias por semana, sem ser afetado por fronteiras ou fusos horários. Em regiões onde a infraestrutura bancária tradicional é inexistente, o Bitcoin é frequentemente usado como uma solução rápida e de baixo custo para enviar ou receber fundos sem depender de intermediários caros. Embora as taxas de transação possam variar com base no congestionamento da rede, são geralmente muito mais baixas do que as taxas cobradas pelos bancos para transferências internacionais. Além disso, as soluções Layer-2, como o [Lightning Network](https://planb.academy/resources/glossary/lightning-network), permitem transacções Bitcoin ainda mais rápidas e baratas.
 
 
 #### Uma reserva de valor
@@ -1429,7 +1429,7 @@ As trocas desempenham um papel crítico no ecossistema do Bitcoin, atuando como 
 - levantamento fácil e gratuito de bitcoins para um Wallet pessoal.
 
 
-As bolsas que cumprem os regulamentos locais têm normalmente de seguir protocolos rigorosos **"Know Your Customer "** (KYC), exigindo que os utilizadores forneçam documentos de identificação antes de acederem aos serviços. Embora estes processos sejam concebidos para evitar actividades ilegais, podem comprometer a privacidade que o Bitcoin oferece inerentemente.
+As bolsas que cumprem os regulamentos locais têm normalmente de seguir protocolos rigorosos **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer) "** (KYC), exigindo que os utilizadores forneçam documentos de identificação antes de acederem aos serviços. Embora estes processos sejam concebidos para evitar actividades ilegais, podem comprometer a privacidade que o Bitcoin oferece inerentemente.
 
 
 ![image](assets/pt/058.webp)
@@ -1538,7 +1538,7 @@ A indústria Bitcoin Wallet está dividida em várias categorias, cada uma das q
 
 
 
-- **Fabricantes de Hardware Wallet**: Estas empresas desenvolvem dispositivos físicos concebidos para o armazenamento seguro de chaves. Algumas são de código aberto, enquanto outras oferecem soluções proprietárias com diferentes caraterísticas e níveis de segurança. Nomes notáveis incluem Ledger, Trezor, Coinkite, Foundation e Shiftcrypto.
+- **Fabricantes de [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Estas empresas desenvolvem dispositivos físicos concebidos para o armazenamento seguro de chaves. Algumas são de código aberto, enquanto outras oferecem soluções proprietárias com diferentes caraterísticas e níveis de segurança. Nomes notáveis incluem Ledger, Trezor, Coinkite, Foundation e Shiftcrypto.
 - **Programadores Software Wallet**: Estes vão desde empresas a programadores independentes que criam aplicações móveis e de ambiente de trabalho. As suas ofertas variam em termos de experiência do utilizador, segurança e funcionalidades. Os exemplos incluem Sparrow, Wizard Sardine, Galoy, Synonym e Blockstream.
 - Carteiras DIY (*Do It Yourself*): Estas soluções de código aberto foram concebidas para utilizadores avançados que pretendem um controlo total e uma dependência mínima de terceiros. Construir a sua própria Wallet reduz as dependências de confiança e pode aumentar a sua postura de segurança. As opções DIY notáveis incluem Seedsigner e Specter DIY.
 

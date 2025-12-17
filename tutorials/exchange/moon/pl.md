@@ -1,5 +1,5 @@
 ---
-name: Księżyc
+name: Moon
 description: Płać bitcoinami wszędzie tam, gdzie akceptowane są karty bankowe Visa.
 ---
 

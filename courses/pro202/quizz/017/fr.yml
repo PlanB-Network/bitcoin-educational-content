@@ -1,0 +1,8 @@
+question: Quelle exigence de sécurité critique doit être respectée lors de la génération du nonce K dans la création de la signature ECDSA ?
+answer: K doit être unique et imprévisible pour chaque signature afin d'éviter la compromission de la clé privée
+wrong_answers:
+  - K doit être dérivée de la clé publique pour garantir le bon fonctionnement de la vérification de la signature
+  - K doit être le même pour plusieurs signatures afin de maintenir la cohérence du processus de signature
+  - K doit être égal à la clé privée multipliée par le hachage du message pour des raisons d'exactitude mathématique
+explanation: |
+  Le nonce K doit être unique et imprévisible pour chaque signature, car la réutilisation de K ou le fait qu'il soit prévisible permet aux attaquants de récupérer la clé privée. Si le même K est utilisé deux fois avec des messages différents, une simple algèbre peut révéler la clé privée. Les implémentations modernes utilisent la génération déterministe de K (RFC 6979) pour éviter les défaillances des générateurs de nombres aléatoires tout en garantissant l'unicité. Les autres options sont incorrectes : K ne doit jamais être dérivée de la clé publique, ne doit jamais être réutilisée et ne doit jamais être égale à la clé privée multipliée par le hachage du message.

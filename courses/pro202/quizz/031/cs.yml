@@ -1,0 +1,8 @@
+question: Co se stane s poli ScriptSig všech vstupů během procesu konstrukce sighash pro starší ověření podpisu ECDSA?
+answer: Všechna pole ScriptSig jsou vyprázdněna, pak je ScriptSig aktuálního vstupu nahrazen odpovídajícím ScriptPubKey
+wrong_answers:
+  - Všechna pole ScriptSig zůstávají beze změny a jsou do výpočtu sighash zahrnuta v původní podobě
+  - "Pouze pole ScriptSig aktuálního vstupu je zachováno, zatímco pole ScriptSig všech ostatních vstupů jsou z transakce odstraněna."
+  - Všechna pole ScriptSig jsou nahrazena odpovídajícími hodnotami ScriptPubKey z odkazovaných výstupů
+explanation: |
+  Během konstrukce sighash pro starší transakce proces nejprve vyprázdní všechna pole ScriptSig a poté nahradí pouze aktuální vstup, který je ověřován, odpovídajícím klíčem ScriptPubKey z výstupu, který vydává. Tím je zajištěno, že se podpis zaváže k podmínkám výdeje, aniž by vznikaly kruhové závislosti, kdy by se podpisy musely podepisovat samy. Ostatní možnosti jsou nesprávné, protože buď ponechávají podpisy na místě (což vytváří logické nemožnosti), nebo upravují všechny vstupy jednotně (což by správně neizolovalo kontext validace aktuálního vstupu).

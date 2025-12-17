@@ -1,5 +1,5 @@
 ---
-name: Yeşim - Electrum
+name: Jade - Electrum
 description: Jade veya Jade Plus'ınızı Electrum (masaüstü) ile kullanma
 ---
 

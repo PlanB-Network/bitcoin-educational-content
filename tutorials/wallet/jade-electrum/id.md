@@ -1,5 +1,5 @@
 ---
-name: Giok - Electrum
+name: Jade - Electrum
 description: Cara menggunakan Jade atau Jade Plus Anda dengan Electrum (desktop)
 ---
 

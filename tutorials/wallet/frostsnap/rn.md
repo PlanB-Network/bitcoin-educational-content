@@ -1,5 +1,5 @@
 ---
-name: Igihuhusi
+name: Frostsnap
 description: Uburyo bwo gucungera umutekano buteye imbere bukoresheje amasezerano ya FROST
 ---
 

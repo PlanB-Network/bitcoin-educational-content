@@ -1,0 +1,8 @@
+question: Các nút Bitcoin phải xử lý thách thức chuyển đổi thứ tự byte cụ thể nào khi xây dựng và xác minh cây Merkle từ dữ liệu giao dịch?
+answer: Mã băm giao dịch phải được đảo ngược từ định dạng tuần tự little-endian sang big-endian để tính toán cây nội bộ, sau đó đảo ngược lại để lưu trữ.
+wrong_answers:
+  - Các tiêu đề khối phải được chuyển đổi từ big-endian sang little-endian trước khi tính toán gốc Merkle để phù hợp với định dạng truyền tải mạng.
+  - Gốc Merkle cuối cùng chỉ cần được chuyển đổi từ big-endian sang little-endian khi truyền đến các nút khác thông qua tin nhắn P2P.
+  - Mã định danh giao dịch được lưu trữ ở định dạng big-endian nhưng phải được chuyển đổi sang little-endian trước khi băm thành các cặp trong cây Merkle.
+explanation: |
+  Quá trình xây dựng cây Merkle của Bitcoin bao gồm một bước chuyển đổi thứ tự byte quan trọng. Mặc dù dữ liệu khối được tuần tự hóa sử dụng định dạng little-endian, nhưng quá trình tính toán cây Merkle nội bộ lại yêu cầu các hàm băm big-endian. Các nút phải đảo ngược các hàm băm giao dịch từ định dạng little-endian được tuần tự hóa sang big-endian trước khi xây dựng cây, sau đó đảo ngược gốc cuối cùng trở lại little-endian để lưu trữ trong tiêu đề khối. Việc chuyển đổi này rất cần thiết cho việc xác minh chính xác.

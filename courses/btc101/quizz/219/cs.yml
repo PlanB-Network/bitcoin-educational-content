@@ -1,10 +1,9 @@
-question: Jaký druh sítě vytváří Lightning Network?
-answer: Síť platebních kanálů.
+question: Jaký přístup strukturuje vývoj Bitcoinu popsaný v této kapitole?
+answer: Vývoj ve vrstvách
 wrong_answers:
-  - Síť těžebních uzlů.
-  - Síť blockchainových uzlů.
-  - Síť kryptoměnových burz.
-explanation: >-
-  Lightning Network funguje jako síť platebních kanálů, která umožňuje
-  okamžité transakce s nízkými poplatky pro odesílatele.
-reviewed: true
+  - Monolitický blockchain
+  - Nativní sharding
+  - Zobecněné onchain provádění
+explanation: |
+  Bitcoin si zachovává jednoduchou a robustní základní vrstvu, zatímco nadřazené protokoly přidávají specifické funkce.
+reviewed: false

@@ -153,7 +153,7 @@ Script phổ biến nhất yêu cầu một chữ ký với khóa riêng liên k
 
 ### UTXOs: Unspent Transaction Outputs
 
-Trên Bitcoin, thứ chúng ta thực sự trao đổi không phải là bitcoin trực tiếp, mà là **UTXOs** (_Unspent Transaction Outputs_), nghĩa là "đầu ra giao dịch chưa được chi tiêu".
+Trên Bitcoin, thứ chúng ta thực sự trao đổi không phải là bitcoin trực tiếp, mà là **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), nghĩa là "đầu ra giao dịch chưa được chi tiêu".
 
 Một UTXO là một phần của bitcoin có thể có bất kỳ giá trị nào, ví dụ, **2,000 bitcoins**, **8 bitcoins**, hoặc thậm chí **8,000 sats**. Mỗi UTXO được khóa bởi một script, và để chi tiêu nó, người ta phải thỏa mãn các điều kiện của script, thường là một chữ ký với khóa riêng tương ứng với một địa chỉ nhận cụ thể.
 
@@ -593,7 +593,7 @@ Trong chương này, chúng ta đã khám phá việc định tuyến thanh toá
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Trong chương này, chúng ta sẽ khám phá cách Lightning cho phép thanh toán di chuyển qua các nút trung gian mà không cần phải tin tưởng họ, nhờ vào **HTLC** (_Hợp Đồng Thời Gian Khóa Băm_). Những hợp đồng thông minh này đảm bảo rằng mỗi nút trung gian chỉ nhận được tiền từ kênh của mình nếu nó chuyển tiếp thanh toán cho người nhận cuối cùng, nếu không, thanh toán sẽ không được xác nhận.
+Trong chương này, chúng ta sẽ khám phá cách Lightning cho phép thanh toán di chuyển qua các nút trung gian mà không cần phải tin tưởng họ, nhờ vào **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hợp Đồng Thời Gian Khóa Băm_). Những hợp đồng thông minh này đảm bảo rằng mỗi nút trung gian chỉ nhận được tiền từ kênh của mình nếu nó chuyển tiếp thanh toán cho người nhận cuối cùng, nếu không, thanh toán sẽ không được xác nhận.
 
 Vấn đề đặt ra cho việc định tuyến thanh toán do đó là sự tin tưởng cần thiết ở các nút trung gian, và giữa chính các nút trung gian. Để minh họa điều này, hãy xem lại ví dụ mạng Lightning đơn giản của chúng ta với 3 nút và 2 kênh:
 

@@ -1,0 +1,8 @@
+question: Šta je konačno polje F(p) u kriptografskom sistemu Bitcoin?
+answer: Aritmetički sistem definisan prostim brojem p, koji sadrži elemente od 0 do p-1
+wrong_answers:
+  - Beskonačan skup brojeva korišćen za generisanje Bitcoin adresa i ključeva
+  - Matematičko polje koje sadrži sve realne brojeve između 0 i p-1 uključujući
+  - Kriptografska heš funkcija koja proizvodi izlaze tačno p bita dužine
+explanation: |
+  Konačno polje F(p) je specifično aritmetički sistem izgrađen oko prostog broja p koji sadrži tačno p elemenata: cele brojeve od 0 do p-1. Aspekt 'konačnosti' je ključan - nije beskonačan, i nije vezan za realne brojeve ili heš funkcije. Prosta polja osiguravaju da svaki nenulti element ima multiplikativni inverz, i sve aritmetičke operacije (sabiranje, oduzimanje, množenje) se obavljaju koristeći modulo p, zadržavajući rezultate unutar polja. Ova ograničena, predvidiva struktura je esencijalna za kriptografsku sigurnost Bitcoin.

@@ -1,0 +1,8 @@
+question: Điều gì phân biệt tài sản được quản lý với tài sản không được quản lý trong hệ thống tài sản gốc của Liquid?
+answer: Các tài sản được quản lý yêu cầu chữ ký thứ hai từ máy chủ ủy quyền trước khi có thể được chuyển giao, cho phép tuân thủ quy định KYC/AML.
+wrong_answers:
+  - Các tài sản được quản lý sử dụng hợp đồng thông minh, trong khi các tài sản không được quản lý sử dụng các lệnh gọi RPC đơn giản để phát hành.
+  - Các tài sản được quản lý được hỗ trợ bởi dự trữ Bitcoin, trong khi các tài sản không được quản lý chỉ tồn tại trên chuỗi phụ.
+  - Các tài sản được quản lý cần có sự chấp thuận của cơ quan có thẩm quyền để được tạo lập, trong khi các tài sản không được quản lý có thể được phát hành mà không cần sự cho phép.
+explanation: |
+  Trong kiến trúc của Liquid, cả tài sản được quản lý và không được quản lý đều có thể được phát hành mà không cần xin phép bằng cách sử dụng các lệnh gọi RPC đơn giản mà không cần hợp đồng thông minh. Sự khác biệt chính nằm ở cách thức di chuyển của chúng: tài sản được quản lý sử dụng Nền tảng Quản lý Tài sản (AMP) của Blockstream để đảm bảo tuân thủ bằng cách yêu cầu chữ ký ủy quyền bổ sung trước khi chuyển nhượng, trong khi tài sản không được quản lý có thể di chuyển tự do mà không có những hạn chế như vậy.

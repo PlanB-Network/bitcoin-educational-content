@@ -1,0 +1,8 @@
+question: Apa tujuan utama penggunaan hash160 (SHA-256 kemudian RIPEMD-160) ketika membuat alamat Bitcoin dari kunci publik?
+answer: Untuk menyembunyikan kunci publik hingga terjadi pengeluaran dan membuat alamat yang lebih pendek dan lebih mudah dikelola
+wrong_answers:
+  - Untuk mengenkripsi kunci pribadi dan mencegah akses tidak sah ke dana wallet
+  - Untuk generate tanda tangan digital yang diperlukan untuk validasi transaksi pada blockchain
+  - Untuk mengonversi titik kurva elips ke dalam format yang tepat untuk operasi secp256k1
+explanation: |
+  Hash160 memiliki beberapa fungsi penting dalam pembuatan alamat Bitcoin. Dengan melakukan hashing pada public key, ia membuat public key yang sebenarnya tetap tersembunyi hingga koin dibelanjakan, memberikan lapisan keamanan tambahan. Proses hashing juga secara signifikan mengurangi ukuran dari 33/65 byte menjadi hanya 20 byte, membuat alamat lebih mudah dikelola. Jawaban yang salah akan mengacaukan hal ini dengan enkripsi private key (yang tidak dilakukan), tanda tangan digital (yang menggunakan operasi kriptografi yang berbeda), atau pemformatan kurva (yang terjadi pada saat serialisasi SEC, bukan pada saat pembuatan alamat).

@@ -1,5 +1,5 @@
 ---
-name: 너드액스 감마
+name: NerdAxe Gamma
 description: NerdAxe 감마 구성 가이드
 ---
 

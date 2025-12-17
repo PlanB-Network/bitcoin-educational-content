@@ -1,0 +1,8 @@
+question: Milline konkreetne mehhanism tagab, et SegWit-eelsed sõlmed aktsepteerivad P2WPKH tehinguid kehtivana, ilma et nad mõistaksid tunnistajate valideerimiseeskirju?
+answer: SegWit-eelsed sõlmed tõlgendavad OP_0 + 20 baidi suurust hash-skripti kui "anyone-can-spend" väljundit, mis ei vaja allkirja kontrollimist
+wrong_answers:
+  - SegWit-eelsed sõlmed edastavad P2WPKH tehingud enne nende vastuvõtmist automaatselt uuendatud sõlmedele tunnistajate valideerimiseks
+  - SegWit-eelsed sõlmed tunnustavad P2WPKH mustrit ja jätavad valideerimise täielikult vahele, käsitledes kõiki tunnistajatehinguid eelvalideerituna
+  - SegWit-eelsed sõlmed teisendavad tunnistajate andmed tagasi traditsioonilisse scriptSig-vormingusse, kasutades tagasiulatuva ühilduvuse teisendusreegleid
+explanation: |
+  SegWit konstruktsiooni geniaalsus seisneb selles, et kasutatakse ära, kuidas SegWit-eelsed sõlmed käitlevad tundmatuid skriptimustreid. Kui need vanemad sõlmed puutuvad kokku P2WPKH skriptiga (OP_0, millele järgneb 20 baidi pikkune push), ei tunnista nad seda kui erilist tunnistajaprogrammi. Selle asemel hindavad nad seda kui tavalist skripti, mis jätab OP_0 ja hashi virna. Kuna Bitcoin skriptisüsteemis hinnatakse OP_0 valeks, tõlgendavad SegWit-eelsed sõlmed seda kui "anyone-can-spend" tingimust, mis tähendab, et nende seisukohast ei ole allkirja kontrollimine vajalik. See võimaldab tehingu aktsepteerida nende mempoolis ja plokkides ilma konsensust rikkumata, samal ajal kui SegWit teadlikud sõlmed teostavad tegeliku krüptograafilise valideerimise, kasutades tunnistaja andmeid.

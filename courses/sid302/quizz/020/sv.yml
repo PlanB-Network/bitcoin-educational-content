@@ -1,0 +1,8 @@
+question: Vad händer med nätverkskonfigurationen under Liquid:s övergångsprocess Dynamic Federation (Dynafed) när en funktionär behöver bytas ut?
+answer: Nätverket sänder ut en övergångstransaktion som följs av en överlappningsperiod på två veckor innan den nya konfigurationen tar över
+wrong_answers:
+  - Nätverket växlar omedelbart till den nya funktionärskonfigurationen efter att ha sänt ut övergångstransaktionen
+  - Alla funktionärer måste samtidigt rösta för att godkänna utbytet innan några konfigurationsändringar sker
+  - Nätverket kräver en hård fork och tillfällig nedstängning för att uppdatera funktionärslistan och starta om verksamheten
+explanation: |
+  Dynamic Federation gör det möjligt för Liquid att utvecklas utan hårda förgreningar genom en noggrant orkestrerad övergångsprocess. När en funktionär behöver bytas ut sänder nätverket ut en övergångstransaktion som signalerar den kommande förändringen. Detta följs av en obligatorisk överlappningsperiod på två veckor där både gamla och nya konfigurationer samexisterar, vilket säkerställer sömlös kontinuitet. De andra alternativen är felaktiga eftersom ett omedelbart byte skulle riskera instabilitet i nätverket, samtidig röstning inte är den mekanism som används och hårda gafflar är just vad Dynafed utformades för att undvika.

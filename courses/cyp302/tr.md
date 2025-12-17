@@ -681,18 +681,18 @@ Modulo işlemi kriptografide sıklıkla karşılaşılan bir işlemdir. Örnek o
 Kaydırma şifresindeki modulo operatörü, harflerin etrafını sarmasını sağlar, böylece tüm şifreli metin harfleri tanımlanır. Örnek olarak, "DOG" kelimesi üzerinde kaydırma şifresinin uygulanmasını düşünün.
 
 
-Bir anahtarı 17 değerine sahip olacak şekilde eşit olarak seçtiğinizi varsayalım. "O" harfi 15'e eşittir. Modulo işlemi olmadan, bu düz metin sayısının anahtarla toplanması 32'lik bir şifreli metin sayısına karşılık gelecektir. Ancak, İngiliz alfabesinde yalnızca 26 harf bulunduğundan, bu şifreli metin sayısı bir şifreli metin harfine dönüştürülemez. Modulo işlemi, şifreli metin sayısının aslında 6 olmasını sağlar ($32 \mod 26$ sonucu), bu da "G" şifreli metin harfine eşittir.
+Diyelim ki değeri $17$ olan bir anahtarı eşit olasılıkla seçtiniz. “O” harfi $14$ değerine karşılık gelir. Modulo işlemi olmadan, bu açık metin sayısının anahtarla toplanması $31$ değerinde bir şifreli metin sayısı üretirdi. Ancak İngilizce alfabe yalnızca $26$ harf içerdiğinden bu sayı bir şifre harfine dönüştürülemez. Modulo işlemi, şifreli metin sayısının aslında $5$ olduğunu garanti eder ($31 \mod 26$ sonucudur) ve bu sayı şifreli harf “F”ye karşılık gelir.
 
 
 Anahtar değeri 17 olan "DOG" kelimesinin tüm şifrelemesi aşağıdaki gibidir:
 
 
 
-- Mesaj = DOG = D,O,G = 3,15,6
+**Mesaj = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Herkes vardiya şifresinin nasıl çalıştığını sezgisel olarak anlayabilir ve muhtemelen kendisi de kullanabilir. Bununla birlikte, kriptografi bilginizi ilerletmek için, şemalar çok daha zor hale geleceğinden, formalizasyon konusunda daha rahat olmaya başlamak önemlidir. Bu nedenle, vardiya şifresi için adımlar resmileştirilmiştir.

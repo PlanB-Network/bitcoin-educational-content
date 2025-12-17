@@ -1,0 +1,8 @@
+question: Mu gihe c’ukwemeza ibikorwa vya Bitcoin, ni igiki urudodo rutegerezwa kugenzura kugira ngo rumenye neza ko inyungu yose yemerewe gukoresha neza umusaruro wayo?
+answer: ScriptSig itegerezwa gufungura neza ScriptPubKey ihuye iyo ikoreshejwe hamwe
+wrong_answers:
+  - "Umukono wa digitale w'inyungu ugomba guhura neza n'urufunguzo rwa bose rw'isohoka"
+  - Hash y'ugucuruza igomba kungana n'umuzi wa merkle ubitswe mu mutwe w'ibarabara
+  - Amafaranga y'injiza ategerezwa kuba menshi canke angana n'amafaranga y'isohoka akoreshwa
+explanation: |
+  Uburyo bw'inyandiko bwa Bitcoin busaba ko ScriptSig (inyandiko yo gufungura) y'inyungu yose itegerezwa gukora neza n'inyandiko y'isohoka ryerekanwa (inyandiko yo gufunga) kugira ngo itange igisubizo c'ukuri ku kirundo. Iyi nzira yo gushitsa inyandiko iremesha gukoresha amahera mu buryo buhinduka birenze guhuza umukono woroshe. Ayandi mahitamwo adondora ibisabwa vyo kwemeza bitari vyo - imikono ntikeneye guhura neza n'imfunguruzo zishizwemwo, ama hashes y'ibikorwa ntagereranywa n'imizi ya merkle mu gihe co kwemeza inyungu, kandi inyungu z'umuntu ku giti ciwe ntizikeneye kurenga ibisohoka vyazo (inyungu zose gusa zitegerezwa kurenga ibisohoka vyose).

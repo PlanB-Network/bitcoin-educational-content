@@ -1,0 +1,8 @@
+question: Quel est l'élément d'identité du groupe de la courbe elliptique utilisé pour les opérations d'addition de points ?
+answer: Le point à l'infini
+wrong_answers:
+  - Le point d'origine (0,0)
+  - Le point générateur G
+  - Le paramètre de courbe a
+explanation: |
+  Le point à l'infini sert d'élément d'identité dans les groupes de courbes elliptiques, ce qui signifie qu'en ajoutant n'importe quel point P au point à l'infini, on obtient P inchangé. Cela est analogue à la façon dont l'addition de zéro fonctionne en arithmétique normale. L'origine (0,0) n'est pas nécessairement sur la courbe, le point générateur G est utilisé pour créer des clés publiques, et le paramètre de courbe a n'est qu'un coefficient dans l'équation de la courbe, et non un élément d'identité.

@@ -1,5 +1,5 @@
 ---
-name: Specter Schreibtisch
+name: Specter Desktop
 description: Verwalten Sie Ihre Multi-Signatur-Bitcoin-Portfolios in völliger Souveränität mit Ihrem eigenen Knotenpunkt
 ---
 

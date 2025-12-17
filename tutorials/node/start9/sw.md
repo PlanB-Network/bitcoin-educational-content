@@ -1,5 +1,5 @@
 ---
-name: Anza9
+name: Start9
 
 description: Mafunzo kuhusu kusanidi seva ya kibinafsi ya Start9
 

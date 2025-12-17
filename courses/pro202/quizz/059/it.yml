@@ -1,0 +1,8 @@
+question: Nel contesto dei filtri a blocchi compatti (BIP158) per i light client che preservano la privacy, qual è il compromesso critico che li rende efficaci per la privacy wallet?
+answer: Possono produrre falsi positivi ma mai falsi negativi, consentendo ai client di scaricare blocchi potenzialmente irrilevanti senza rivelare indirizzi specifici
+wrong_answers:
+  - Possono produrre falsi negativi ma mai falsi positivi, assicurando che i clienti scarichino solo i blocchi contenenti le loro transazioni
+  - Eliminano sia i falsi positivi che i falsi negativi utilizzando un filtraggio deterministico basato sugli indirizzi wallet
+  - "Producono sia falsi positivi che falsi negativi in proporzioni uguali per offuscare i modelli di transazione reali del cliente"
+explanation: |
+  I filtri per blocchi compatti sono progettati con un modello di errore asimmetrico: possono indicare che un blocco contiene transazioni rilevanti quando non è così (falso positivo), ma non mancheranno mai un blocco che contiene effettivamente transazioni rilevanti (nessun falso negativo). Questa struttura è fondamentale perché i falsi negativi significherebbero perdere i pagamenti effettivi, mentre i falsi positivi comportano solo il download di blocchi inutili. Il tasso di falsi positivi garantisce la privacy perché costringe i clienti a scaricare alcuni blocchi irrilevanti, rendendo impossibile per gli osservatori determinare quali blocchi contengano effettivamente le transazioni del cliente.

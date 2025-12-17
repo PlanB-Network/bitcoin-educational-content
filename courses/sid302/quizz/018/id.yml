@@ -1,0 +1,8 @@
+question: Mekanisme kriptografi apa yang memungkinkan Liquid Network untuk memverifikasi bahwa input transaksi sama dengan output ditambah biaya tanpa mengungkapkan jumlah yang sebenarnya kepada publik?
+answer: Komitmen Pedersen dan Bukti Jangkauan
+wrong_answers:
+  - Pohon Merkle dan Tanda Tangan Digital
+  - Hash Kontrak Terkunci Waktu dan Multi-tanda tangan
+  - Tanda Tangan Schnorr dan Skrip Taproot
+explanation: |
+  Pedersen Commitments dan Range Proofs adalah primitif kriptografi spesifik yang memungkinkan Liquid Confidential Transactions untuk menyembunyikan jumlah sementara masih memungkinkan verifikasi matematis. Pedersen Commitments secara kriptografis mengikat nilai tanpa mengungkapkannya, sedangkan Range Proofs memastikan semua jumlah adalah bilangan bulat positif, mencegah pengguna untuk menciptakan uang melalui nilai negatif. Pilihan lainnya adalah alat kriptografi Bitcoin yang sah tetapi tidak memberikan kemampuan yang dibutuhkan untuk transaksi rahasia dimana jumlah tetap tersembunyi namun dapat diverifikasi.

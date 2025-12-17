@@ -1,5 +1,5 @@
 ---
-name: Mtunza Mbegu x Mshikaji Mbegu
+name: Seedkeeper x SeedSigner
 description: Je, ninawezaje kutumia Mtunza mbegu kwa SeedSigner yangu?
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Päron
+name: Pears
 description: Hur installerar och använder jag applikationer på Pears?
 ---
 

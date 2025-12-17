@@ -28,7 +28,7 @@ Trong BTC304, chúng ta sẽ xem xét tại sao việc xây dựng cộng đồn
 
 
 
-Chào mừng đến với BTC302!
+Chào mừng đến với BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Một mình, bạn có thể nhanh chóng khám phá một trong nhiều đườ
 
 
 
-## BTC302, Tiếp theo là gì
+## BTC 304, Tiếp theo là gì
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Trong khóa học BTC302 này, chúng tôi đã đi sâu vào chi tiết về cách thiết lập cộng đồng hoặc buổi gặp mặt, cũng như cách khởi chạy nhiều dự án khác nhau.
+Trong khóa học BTC 304 này, chúng tôi đã đi sâu vào chi tiết về cách thiết lập cộng đồng hoặc buổi gặp mặt, cũng như cách khởi chạy nhiều dự án khác nhau.
 
 
 Khi cộng đồng của bạn sẵn sàng thực hiện bước tiếp theo, **bạn có thể tạo một hiệp hội chính thức**.

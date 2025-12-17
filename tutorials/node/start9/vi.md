@@ -1,5 +1,5 @@
 ---
-name: Bắt đầu9
+name: Start9
 
 description: Hướng dẫn thiết lập máy chủ riêng Start9
 

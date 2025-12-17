@@ -1,0 +1,8 @@
+question: Koherentnost grupe osigurava da se tačke eliptičke krive mogu sabirati dosledno i predvidljivo u kriptografskim operacijama.
+answer: Tačke formiraju matematičku grupu sa zatvorenošću, asocijativnošću, identitetom i inverzima.
+wrong_answers:
+  - Tačke održavaju kontinuirane glatke krive koje čuvaju geometrijske odnose
+  - Tačke prate obrasce linearne progresije koji stvaraju predvidive sekvence
+  - Tačke koriste modularnu aritmetiku koja automatski sprečava računarske greške
+explanation: |
+  Tačke eliptičke krive formiraju matematičku grupu pod operacijom sabiranja, što znači da zadovoljavaju četiri osnovna svojstva: zatvorenost (sabiranje dve tačke daje drugu tačku na krivoj), asocijativnost (redosled operacija nije bitan), identitet (tačka u beskonačnosti deluje kao nula) i inverzi (svaka tačka ima refleksiju koja je poništava). Ova svojstva grupe omogućavaju da eliptička kriptografija funkcioniše pouzdano i omogućavaju operacije poput skalarne multiplikacije da se ponašaju konzistentno, bez obzira da li radimo sa glatkim realnim krivama ili diskretnim tačkama konačnih polja.

@@ -1,5 +1,5 @@
 ---
-name: Jahe Wallet
+name: Ginger Wallet
 description: Perangkat lunak Bitcoin wallet yang bersumber terbuka dan mandiri, fork dari Wasabi Wallet, yang mengintegrasikan Coinjoins
 ---
 ![cover](assets/cover.webp)

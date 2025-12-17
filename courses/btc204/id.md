@@ -66,7 +66,7 @@ Pada bagian ketiga dari kursus pelatihan ini, kita akan membahas hal-hal yang le
 
 ![BTC204](assets/id/003.webp)
 
-**Bagian 4: Memahami transaksi coinjoin**
+**Bagian 4: Memahami transaksi [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Bagaimana kita bisa membicarakan privasi di Bitcoin tanpa menyebutkan koin bersama? Di bagian 4, Anda akan mengetahui semua yang perlu Anda ketahui tentang metode pencampuran ini. Anda akan mempelajari apa itu coinjoin, sejarah dan tujuannya, serta berbagai jenis coinjoin yang ada. Terakhir, untuk pengguna yang lebih berpengalaman, kita akan melihat apa itu anonset dan entropi, dan bagaimana cara menghitungnya.
 
@@ -74,7 +74,7 @@ Bagaimana kita bisa membicarakan privasi di Bitcoin tanpa menyebutkan koin bersa
 
 **Bagian 5: Memahami tantangan teknik kerahasiaan tingkat lanjut lainnya**
 
-Pada bagian kelima, kita akan melihat semua teknik lain yang tersedia untuk melindungi privasi Anda di Bitcoin, selain coinjoin. Selama bertahun-tahun, para pengembang telah menunjukkan kreativitas yang luar biasa dalam mendesain alat yang didedikasikan untuk privasi. Kita akan melihat semua metode ini, seperti payjoin, transaksi kolaboratif, Coin Swap dan Atomic Swap, dengan merinci cara kerjanya, tujuan dan kelemahannya.
+Pada bagian kelima, kita akan melihat semua teknik lain yang tersedia untuk melindungi privasi Anda di Bitcoin, selain coinjoin. Selama bertahun-tahun, para pengembang telah menunjukkan kreativitas yang luar biasa dalam mendesain alat yang didedikasikan untuk privasi. Kita akan melihat semua metode ini, seperti [payjoin](https://planb.academy/resources/glossary/payjoin), transaksi kolaboratif, Coin Swap dan Atomic Swap, dengan merinci cara kerjanya, tujuan dan kelemahannya.
 
 Kita juga akan melihat privasi pada tingkat jaringan node dan penyebaran transaksi. Kita juga akan mendiskusikan berbagai protokol yang telah diusulkan selama bertahun-tahun untuk meningkatkan privasi pengguna Bitcoin, termasuk protokol alamat statis.
 
@@ -85,7 +85,7 @@ Siap menjelajahi seluk-beluk privasi di Bitcoin? Ayo mulai!
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Model UTXO Bitcoin
+## Model [UTXO](https://planb.academy/resources/glossary/utxo) Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -570,7 +570,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Pada yang terakhir, kita dapat melihat bahwa input no. 0 dan output no. 1 menggunakan skrip P2WPKH (SegWit V0), sementara output no. 0 menggunakan skrip P2PKH yang berbeda (Legacy).
 
-Pada awal tahun 2010-an, heuristik berdasarkan versi skrip ini relatif tidak membantu karena terbatasnya jenis skrip yang tersedia. Namun, seiring berjalannya waktu dan dengan pembaruan Bitcoin, semakin banyak jenis skrip yang diperkenalkan. Oleh karena itu, heuristik ini menjadi semakin relevan, karena dengan semakin banyaknya jenis skrip, pengguna terbagi ke dalam kelompok-kelompok yang lebih kecil, sehingga meningkatkan peluang untuk menerapkan heuristik penggunaan ulang versi internal ini. Untuk alasan ini, dari perspektif kerahasiaan saja, disarankan untuk memilih jenis skrip yang paling umum. Sebagai contoh, saat saya menulis baris-baris ini, skrip Taproot (`bc1p`) lebih jarang digunakan daripada skrip SegWit V0 (`bc1q`). Meskipun yang pertama menawarkan manfaat ekonomi dan kerahasiaan dalam konteks tertentu, untuk penggunaan tanda tangan tunggal yang lebih tradisional, mungkin masuk akal untuk tetap menggunakan standar yang lebih lama untuk alasan kerahasiaan, sampai standar baru lebih banyak diadopsi.
+Pada awal tahun 2010-an, heuristik berdasarkan versi skrip ini relatif tidak membantu karena terbatasnya jenis skrip yang tersedia. Namun, seiring berjalannya waktu dan dengan pembaruan Bitcoin, semakin banyak jenis skrip yang diperkenalkan. Oleh karena itu, heuristik ini menjadi semakin relevan, karena dengan semakin banyaknya jenis skrip, pengguna terbagi ke dalam kelompok-kelompok yang lebih kecil, sehingga meningkatkan peluang untuk menerapkan heuristik penggunaan ulang versi internal ini. Untuk alasan ini, dari perspektif kerahasiaan saja, disarankan untuk memilih jenis skrip yang paling umum. Sebagai contoh, saat saya menulis baris-baris ini, skrip [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) lebih jarang digunakan daripada skrip SegWit V0 (`bc1q`). Meskipun yang pertama menawarkan manfaat ekonomi dan kerahasiaan dalam konteks tertentu, untuk penggunaan tanda tangan tunggal yang lebih tradisional, mungkin masuk akal untuk tetap menggunakan standar yang lebih lama untuk alasan kerahasiaan, sampai standar baru lebih banyak diadopsi.
 
 ### Pembayaran angka bulat
 

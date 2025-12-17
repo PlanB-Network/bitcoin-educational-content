@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal consecuencia de olvidar incluir una salida de cambio al gastar una UTXO que contiene más Bitcoin de las necesarias?
+answer: El importe sobrante se convierte automáticamente en tasa minera
+wrong_answers:
+  - La transacción será rechazada por la red como no válida
+  - "El importe sobrante se devuelve a la dirección del remitente original"
+  - El importe sobrante permanece bloqueado en el UTXO original
+explanation: |
+  En el modelo UTXO de Bitcoin, las comisiones por transacción se calculan implícitamente como la diferencia entre el total de entradas y el total de salidas (comisión = suma(entradas) - suma(salidas)). Cuando se gasta una UTXO, debe gastarse en su totalidad - el gasto parcial es imposible. Si necesita gastar sólo una parte del valor de una UTXO, debe crear una salida de cambio para recibir el resto. Si se olvida de incluir esta salida de cambio, la diferencia no contabilizada entre entradas y salidas se convierte automáticamente en la tasa del minero. Por este motivo, es esencial crear una salida de cambio adecuada, ya que sin ella podrías pagar accidentalmente enormes comisiones a los mineros.

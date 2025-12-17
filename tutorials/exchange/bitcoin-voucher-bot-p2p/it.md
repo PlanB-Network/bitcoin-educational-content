@@ -36,7 +36,7 @@ Per prima cosa, se non lo hai già installato sul tuo smartphone, scarica Wallet
 
 Se non hai mai utilizzato Wallet of Satoshi e vuoi comprenderne il funzionamento, ti consiglio di seguire questo tutorial, così potrai attivarlo correttamente ed eseguire il backup in modo sicuro.
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Ora che il tuo wallet è pronto, puoi iniziare a inviare una piccola quantità di sats. Tieni presente che, per completare l’iscrizione alla piattaforma P2P (Peer-To-Peer), ti verranno richiesti 1000 sats come misura di controllo: questo serve a creare una barriera contro eventuali attacchi del tipo match fantasma (scam), impedendo che chiunque possa iscriversi senza alcun filtro anti spam.
 

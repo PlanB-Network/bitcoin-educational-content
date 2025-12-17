@@ -12,7 +12,7 @@ description: Une application de messagerie privée et décentralisée, basée su
 
 Les motivations derrière le lancement de la solution que nous vous proposons de découvrir dans ce tutoriel l'illustre parfaitement. Il s'agit de **White Noise** qui est née d'une nécessité. 
 
-Selon les propos de Max Hillebrand, son fondateur, Max Hillebrand à [Bitcoin Magazine](https://bitcoinmagazine.com/) : « Nous avons lancé ce projet faute d’alternatives ». « Les applications de chiffrement existantes sont inefficaces à grande échelle  : ajouter 100 personnes à une conversation de groupe ralentit considérablement le chiffrement. Les plateformes décentralisées ne proposent pas de messagerie privée. Quant au réseau de relais ouvert de Nostr, il permet à chacun de diffuser des idées, mais la protection des messages directs reste déplorablement insuffisante. Nous avons compris : pour protéger la liberté, il nous fallait fusionner ces systèmes. »
+Selon les propos de son fondateur, Max Hillebrand, rapportés par *Bitcoin Magazine* : « Nous avons lancé ce projet faute d’alternatives. » Il explique que « les applications de chiffrement existantes sont inefficaces à grande échelle : ajouter 100 personnes à une conversation de groupe ralentit considérablement le chiffrement. Les plateformes décentralisées, quant à elles, ne proposent pas de messagerie privée. Enfin, le réseau de relais ouvert de Nostr permet à chacun de diffuser des idées, mais la protection des messages directs y reste dramatiquement insuffisante. Nous l’avons compris : pour protéger la liberté, il fallait fusionner ces systèmes. »
 
 ## Qu'est ce que White Noise?
 
@@ -29,7 +29,7 @@ Tandis que le MLS (Messaging Layer Security), est un protocole de sécurité qui
 
 Voici un petit tableau comparatif entre White Noise et un certain nombre d'applications de messagerie les plus connues.
 
-| Points de comparaisons      | White noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
 | --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
 | Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
 | Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
@@ -40,11 +40,11 @@ Voici un petit tableau comparatif entre White Noise et un certain nombre d'appli
 | Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 
-## Débuter avec White noise
+## Débuter avec White Noise
 
-### Installation de White noise
+### Installation de White Noise
 
-Rendez-vous sur le [site web de White noise](https://www.whitenoise.chat/), puis cliquez sur **Download**.
+Rendez-vous sur le [site web de White Noise](https://www.whitenoise.chat/), puis cliquez sur **Download**.
 
 ![screen](assets/fr/03.webp)
 
@@ -98,13 +98,13 @@ Vous êtes redirigé vers **l'interface principale (écran d'accueil)** de White
 
 Sur l'interface principale, vous avez en haut de l’écran :
 
-1. dans le coin supérieur gauche, l'icône de profil qui est votre photo de profil en miniature, à défaut la première lettre de votre nom de profil. En cliquant dessus, vous accédez aux paramètres de votre compte. 
+Dans le coin supérieur gauche, l'icône de profil qui est votre photo de profil en miniature, à défaut la première lettre de votre nom de profil. En cliquant dessus, vous accédez aux paramètres de votre compte. 
 
 ![screen](assets/fr/12.webp)
 
 ![screen](assets/fr/13.webp)
 
-2. dans le coin supérieur droit, se trouve l'icône de l'interface de démarrage d'une nouvelle conversation. 
+Dans le coin supérieur droit, se trouve l'icône de l'interface de démarrage d'une nouvelle conversation. 
 
 ![screen](assets/fr/14.webp)
 
@@ -127,19 +127,19 @@ Juste en dessous, vous avez le bouton **Changer de compte** qui vous permet de v
 
 Ensuite, vous disposez d'une première section composée de quatre (4) sous-menus tels que :
 
-1. **Modifier le profil**
+- **Modifier le profil**
 
 Dans ce sous-menu, vous pouvez modifier le nom du profil, l'adresse Nostr (NIP-05)… N'oubliez pas de cliquer sur **Sauvegarder** afin d'enregistrer vos changements.
 
 ![screen](assets/fr/19.webp)
 
-2. **Clés du profil**
+- **Clés du profil**
 
 Ici, vous avez accès à vos clés publique et privée (secret). Comme vous le rappelle White Noise, votre clé privée n'est à divulguer sous aucun prétexte. 
 
 ![screen](assets/fr/20.webp)
 
-3. **Relais réseau**
+- **Relais réseau**
 
 Ajoutez ou supprimez dans ce sous-menu les **relais généraux** (relais définis pour une utilisation dans toutes vos applications Nostr), les **relais de boîte de réception** et les **relais de paquets de clés**. 
 
@@ -147,7 +147,7 @@ Pour le faire, tapez sur l'icône **poubelle** devant un relai pour le supprimer
 
 ![screen](assets/fr/21.webp)
 
-4. **Se déconnecter**
+- **Se déconnecter**
 
 Cliquez sur ce sous-menu pour déconnecter votre compte de l'application. Mais, rassurez-vous d'avoir correctement sauvegardé vos clés privées hors ligne sinon vous ne pourrez plus vous reconnecter ultérieurement.
 
@@ -201,7 +201,7 @@ Une fois qu'il accepte votre invitation, il peut maintenant vous répondre et vo
 
 En outre, dans une discussion, vous avez des fonctionnalités additionnelles.
 
-1. Vous pouvez faire un appui long sur un message spécifique pour faire apparaitre les options comme :
+Vous pouvez faire un appui long sur un message spécifique pour faire apparaitre les options comme :
 - réagir au message avec un émoji (1) ;
 - faire une **citation directe** pour répondre au message en appuyant sur **Répondre** (2) ;
 - copier le message en tapant sur **Copier** (3). 
@@ -212,7 +212,8 @@ En outre, dans une discussion, vous avez des fonctionnalités additionnelles.
 
 ![screen](assets/fr/31.webp)
 
-2. Vous pouvez faire des recherches dans une conversation.
+Vous pouvez faire des recherches dans une conversation.
+
 Cliquez sur l'avatar du correspondant en haut de l'écran pour accéder aux "informations de conversation" et tapez sur le bouton **Recherche dans la conversation**. 
 
 ![screen](assets/fr/32.webp)
@@ -278,7 +279,7 @@ Pour retirer un membre, depuis l'interface principale du groupe, tapez en haut s
 
 ### Envoi de fichiers multimédias
 
-Pour le moment, seules les photos peuvent être partagées entre utilisateurs sur White noise. Que vous soyez dans une conversation privée ou dans une conversation de groupe, pour le faire, vous devez : 
+Pour le moment, seules les photos peuvent être partagées entre utilisateurs sur White Noise. Que vous soyez dans une conversation privée ou dans une conversation de groupe, pour le faire, vous devez : 
 
 - appuyez sur le symbole **plus (+)** situé du côté gauche dans la zone de saisie de message texte.
 

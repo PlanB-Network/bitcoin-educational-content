@@ -125,10 +125,6 @@ This is a technical course designed for developers and operators who want to wor
 
 <isCourseReview>true</isCourseReview>
 
-## Final Exam
-<chapterId>3f3111c4-e250-4390-ad84-a7e6b98777f0</chapterId>
-
-<isCourseExam>true</isCourseExam>
 
 ## Conclusion
 <chapterId>8cb06b89-9773-4672-aca6-957c1b89fe2a</chapterId>

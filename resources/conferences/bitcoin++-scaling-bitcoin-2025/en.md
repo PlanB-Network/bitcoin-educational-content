@@ -5,21 +5,13 @@ description: Can bitcoin scale? It's a question we've been asking since the proj
 
 # bitcoin++ Stage 
 
-<<<<<<< HEAD
-## bitcoin++ Istanbul | Scaling Bitcoin Live Day 1
-=======
 ## Scaling Bitcoin Live Day 1
->>>>>>> ee2f7a0dc5 ([RESOURCES]fix titles on conference replays titles)
 
 ![video](https://youtu.be/gWWxDd3mhZc)
 
 Day 1 sets the stage with foundational talks, developer insights, and technical sessions that explore the building blocks of Bitcoin at scale. Expect deep dives into garbled circuits, zero-knowledge proofs, metaprotocols, and the projects pushing Bitcoin beyond its current limits.
 
-<<<<<<< HEAD
-## bitcoin++ Istanbul | Scaling Bitcoin Live Day 2
-=======
 ## Scaling Bitcoin Live Day 2
->>>>>>> ee2f7a0dc5 ([RESOURCES]fix titles on conference replays titles)
 
 ![video](https://youtu.be/S162rwnTVDs)
 

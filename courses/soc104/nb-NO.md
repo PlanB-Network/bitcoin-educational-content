@@ -2,11 +2,9 @@
 name: Hva er din politiske legning?
 goal: Forstå kompleksiteten i det moderne politiske spekteret for å identifisere din egen tendens og plassere de store ideologiske familiene utenfor høyre-venstre-skillet.
 objectives: 
-
-
   - Forståelse for at politisk typologi er mer nyansert enn en enkel høyre/venstre-akse
-  - Identifisere de to hoveddimensjonene som strukturerer det politiske spekteret: økonomiske temaer og samfunnsmessige temaer
-  - Karakteriser de fire viktigste politiske familiene: Libertarianere, sosialister, konservative, sentrumsorienterte
+  - Identifisere de to hoveddimensjonene som strukturerer det politiske spekteret
+  - Karakteriser de fire viktigste politiske familiene
   - Utforsker bitcoinernes posisjonering i det politiske spekteret
 
 

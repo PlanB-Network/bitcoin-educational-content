@@ -2,11 +2,9 @@
 name: Apa kecenderungan politik Anda?
 goal: Pahami kompleksitas spektrum politik modern untuk mengidentifikasi kecenderungan Anda sendiri dan menempatkan keluarga ideologi utama di luar perpecahan kiri-kanan.
 objectives: 
-
-
   - Memahami bahwa tipologi politik lebih bernuansa daripada sekadar sumbu kiri/kanan
-  - Mengidentifikasi dua dimensi utama yang menyusun spektrum politik: tema ekonomi dan tema sosial kemasyarakatan
-  - Mencirikan empat keluarga politik utama: Libertarian, Sosialis, Konservatif, Sentris
+  - Mengidentifikasi dua dimensi utama yang menyusun spektrum politik
+  - Mencirikan empat keluarga politik utama
   - Menjelajahi posisi bitcoiners dalam spektrum politik
 
 

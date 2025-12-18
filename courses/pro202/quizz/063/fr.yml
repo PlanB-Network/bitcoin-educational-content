@@ -2,7 +2,7 @@ question: Quelle est la principale propriété cryptographique qui permet aux fi
 answer: Ils peuvent produire des faux positifs mais jamais de faux négatifs lors de l'appariement des transactions
 wrong_answers:
   - Ils utilisent des preuves à connaissance nulle pour dissimuler les adresses demandées aux nœuds
-  - "Ils cryptent toutes les données de filtrage à l'aide de la clé publique du client afin d'éviter les écoutes clandestines
+  - "Ils cryptent toutes les données de filtrage à l'aide de la clé publique du client afin d'éviter les écoutes clandestines"
   - Ils randomisent l'ordre des hachages des transactions afin de dissimuler les schémas de dépenses aux observateurs
 explanation: |
   Les filtres de blocs compacts utilisent des structures de données probabilistes qui peuvent indiquer à tort une correspondance (faux positif) mais ne manqueront jamais une correspondance réelle (faux négatif). Cette propriété asymétrique est cruciale : les faux positifs n'entraînent que des téléchargements de blocs inutiles, tandis que les faux négatifs conduiraient les portefeuilles à ne pas effectuer de paiements. L'avantage en termes de protection de la vie privée découle de cette incertitude : les observateurs ne peuvent pas faire la distinction entre les vraies correspondances et les faux positifs, ce qui empêche de savoir quelles transactions appartiennent réellement à la wallet qui a fait la demande.

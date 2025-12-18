@@ -2,11 +2,9 @@
 name: None politike yawe wihebeye iki?
 goal: Tahura ukuntu politike y’ubu igoye kugira ngo umenye impengamiro yawe bwite maze ushire imiryango ikomeye y’ingengabitekerezo iri hirya y’amacakubiri y’ibubamfu n’iburyo.
 objectives: 
-
-
   - Gutahura ko ubwoko bwa politike bufise utunenge twinshi kuruta umurongo woroshe w'ibubamfu/iburyo
-  - Raba ingingo zibiri nyamukuru zitunganya urutonde rwa politike: insanganyamatsiko z’ubutunzi n’insanganyamatsiko z’imibano .
-  - Ibiranga imiryango ine nyamukuru ya politike: Abanyagihugu b’abanyagihugu, Abanyagihugu b’abanyagihugu, Abanyagihugu b’abanyagihugu
+  - Raba ingingo zibiri nyamukuru zitunganya urutonde rwa politike
+  - Ibiranga imiryango ine nyamukuru ya politike
   - Gutohoza aho aba bitcoiners bari mu rwego rwa politike
 
 

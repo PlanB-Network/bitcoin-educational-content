@@ -42,7 +42,7 @@ Iyi nyigisho igamije kubabwira inkuru y’iremwa rya Bitcoin mu buryo utigeze us
 **Incamake muri make**
 
 
-Bitcoin yahinguwe n’umuntu ku giti ciwe (canke umugwi) akoresheje izina ry’uruyeri Satoshi Nakamoto. Ku wa 31 Gitugutu 2008, yarashize ahabona urupapuro rwera rudondora akarorero kiwe biciye ku rutonde rw’ubutumwa rwo kuri Internet rutamenyekana. Ku wa 8 Mukakaro 2008, yarashize mu ngiro iciyumviro ciwe mu gusohora kode y’inkomoko y’iyo porogarama no gutanguza urubuga rwa Mining amabarabara ya mbere y’uruzitiro. Kubera ko yari afise icipfuzo co gukwegera abantu benshi cane, yarateje imbere ivyo yaremye biciye ku nzira zitandukanye zo guhanahana amakuru.
+Bitcoin yateguwe n’umuntu umwe (canke umugwi) yakoresha izina ry’urugero Satoshi Nakamoto. Ku wa 31 Gitugutu 2008, uwo muntu yashize ahabona igitabu cera gisigura uburyo bwiwe abicishije ku rutonde rw’ubutumwa bwa imeyili rutazwi cane kuri Internet. Ku wa 8 Nzero 2009, yashize mu ngiro iciyumviro ciwe mu gusohora kode y’inkomoko ya porogaramu no gutanguza urubuga biciye mu gucukura amabuye ya mbere y’uruhererekane. Afise intumbero yo gukwegera igitigiri gihambaye c’abakoresha, yamamaza ico yaremye biciye mu nzira zitandukanye zo gutumatumanako.
 
 
 Inyuma y’intango igoye, amaherezo ugutangura kw’iyi sisitemu kwabaye mu kwezi kwa Gitugutu 2009, igihe igice c’ivy’amakonti – citwa kandi Bitcoin – caronka igiciro. Ibikorwa vya mbere vy’ubudandaji vyatanguye kugaragara mu mwaka w’2010, bitangura n’ibikorwa vya Exchange vyashitse ku madolari. Ni muri ico gihe kandi Mining ifise ikarita y’ibishushanyo, ikora neza cane, yatanguye gukoreshwa, maze Exchange ya mbere y’ikintu ciza c’umubiri, cane cane pizza, iraba, hakurikijwe umugambi wa Laszlo Hanyecz.

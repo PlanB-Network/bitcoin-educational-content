@@ -2,11 +2,9 @@
 name: Nemam političko opredeljenje.
 goal: Razumite složenost modernog političkog spektra kako biste identifikovali sopstvenu sklonost i smestili glavne ideološke porodice izvan podele na levicu i desnicu.
 objectives: 
-
-
   - Razumevanje da je politička tipologija složenija od jednostavne levo/desno ose
-  - Identifikujte dve glavne dimenzije koje strukturiraju politički spektar: ekonomske teme i društvene teme
-  - Karakterizujte četiri glavne političke porodice: Libertarijanci, Socijalisti, Konzervativci, Centristi
+  - Identifikujte dve glavne dimenzije koje strukturiraju politički spektar
+  - Karakterizujte četiri glavne političke porodice
   - Istraživanje pozicioniranja bitkoinera na političkom spektru
 
 

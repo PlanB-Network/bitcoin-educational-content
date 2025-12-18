@@ -2,11 +2,9 @@
 name: Quan điểm chính trị của bạn là gì?
 goal: Hiểu được sự phức tạp của phổ chính trị hiện đại để xác định khuynh hướng của bản thân và đặt các nhóm tư tưởng chính trị lớn vượt ra ngoài sự phân chia tả-hữu.
 objectives: 
-
-
   - Hiểu rằng phân loại chính trị phức tạp hơn nhiều so với trục tả/hữu đơn giản.
-  - Xác định hai chiều chính cấu thành nên phổ chính trị: các chủ đề kinh tế và các chủ đề xã hội.
-  - Mô tả bốn trường phái chính trị chính: phái Tự do, phái Xã hội chủ nghĩa, phái Bảo thủ và phái Trung dung.
+  - Xác định hai chiều chính cấu thành nên phổ chính trị
+  - Mô tả bốn trường phái chính trị chính
   - Khám phá vị trí của những người ủng hộ Bitcoin trong phổ chính trị.
 
 

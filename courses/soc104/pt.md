@@ -2,11 +2,9 @@
 name: Qual é a sua tendência política?
 goal: Compreender a complexidade do espetro político moderno para identificar a sua própria tendência e situar as principais famílias ideológicas para além da divisão esquerda-direita.
 objectives: 
-
-
   - Compreender que a tipologia política é mais matizada do que um simples eixo esquerda/direita
-  - Identificar as duas principais dimensões que estruturam o espetro político: os temas económicos e os temas sociais
-  - Caracterizar as quatro principais famílias políticas: Libertários, Socialistas, Conservadores, Centristas
+  - Identificar as duas principais dimensões que estruturam o espetro político
+  - Caracterizar as quatro principais famílias políticas
   - Explorar o posicionamento dos bitcoiners no espetro político
 
 

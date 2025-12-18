@@ -2,11 +2,9 @@
 name: Wat is je politieke voorkeur?
 goal: Begrijp de complexiteit van het moderne politieke spectrum om je eigen neiging te identificeren en de belangrijkste ideologische families te situeren voorbij de scheidslijn tussen links en rechts.
 objectives: 
-
-
   - Begrijpen dat politieke typologie genuanceerder is dan een simpele links/rechts as
-  - De twee hoofddimensies identificeren die het politieke spectrum structureren: economische thema's en maatschappelijke thema's
-  - Karakteriseer de vier belangrijkste politieke families: Libertariërs, Socialisten, Conservatieven, Centristen
+  - De twee hoofddimensies identificeren die het politieke spectrum structureren
+  - Karakteriseer de vier belangrijkste politieke families
   - Onderzoek naar de positie van bitcoiners in het politieke spectrum
 
 

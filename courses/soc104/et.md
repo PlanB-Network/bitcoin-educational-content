@@ -2,14 +2,10 @@
 name: Milline on teie poliitiline suundumus?
 goal: Mõista kaasaegse poliitilise spektri keerukust, et tuvastada oma suundumus ja paigutada peamised ideoloogilised perekonnad väljapoole vasak-parempoolset lõhet.
 objectives: 
-
-
   - Mõistmine, et poliitiline tüpoloogia on nüansirikkam kui lihtne vasak/parempoolne telg
-  - Nimetage kaks peamist mõõdet, mis struktureerivad poliitilist spektrit: majanduslikud teemad ja ühiskondlikud teemad
-  - Iseloomustage nelja peamist poliitilist perekonda: Keskerakondlased, sotsialistid, konservatiivid, keskerakondlased
+  - Nimetage kaks peamist mõõdet, mis struktureerivad poliitilist spektrit
+  - Iseloomustage nelja peamist poliitilist perekonda
   - Uurides bitcoiners positsiooni poliitilises spektris
-
-
 
 ---
 

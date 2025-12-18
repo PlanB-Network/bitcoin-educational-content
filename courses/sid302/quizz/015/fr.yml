@@ -1,7 +1,7 @@
 question: Dans un réseau Taproot, quelles informations sont révélées au réseau Bitcoin lorsque l'échange échoue et que l'une des parties doit récupérer ses fonds par le biais de la voie contradictoire ?
 answer: Seule la branche spécifique de l'arbre de Merkle contenant les conditions de hachage/verrouillage temporel nécessaires à la récupération des fonds
 wrong_answers:
-  - "La logique complète du script, y compris tous les chemins d'exécution possibles et les clés publiques individuelles des deux parties
+  - "La logique complète du script, y compris tous les chemins d'exécution possibles et les clés publiques individuelles des deux parties"
   - Le secret de la pré-image et toutes les clés publiques agrégées utilisées dans le processus de combinaison de clés MuSig2
   - L'ensemble des termes du contrat HTLC, y compris les montants des swaps, les délais et les adresses de Lightning et de Liquid
 explanation: |

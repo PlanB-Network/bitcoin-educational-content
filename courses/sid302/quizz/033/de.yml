@@ -2,7 +2,7 @@ question: Was ist die grundlegende Einschränkung der Transaktionsmöglichkeiten
 answer: Er kann keine direkten Lightning-zu-Lightning- oder Bitcoin-zu-Bitcoin-Transaktionen durchführen, da er ausschließlich mit Liquid als Heimatbasis arbeitet
 wrong_answers:
   - Es kann keine Atomtauschgeschäfte zwischen verschiedenen Blockchain-Netzwerken abwickeln, da es keine Unterstützung für kettenübergreifende intelligente Verträge gibt
-  - "Er kann keine Transaktionen verarbeiten, die größer als 0,1 BTC sind, da der Liquid Network die Transaktionsgröße begrenzt
+  - "Er kann keine Transaktionen verarbeiten, die größer als 0,1 BTC sind, da der Liquid Network die Transaktionsgröße begrenzt"
   - Es kann nicht ohne Internetverbindung arbeiten, da es eine ständige Synchronisierung mit zentralen Breez-Servern erfordert
 explanation: |
   Das SDK wird ausdrücklich als "streng Liquid-zentriertes Tool" beschrieben, das mit Liquid als "Heimatbasis" arbeitet Es unterstützt nur drei spezifische Operationen: Liquid-zu-Liquid, Liquid-zu-Lightning und Liquid-zu-Bitcoin. Im Gegensatz zu einem vollständigen Lightning-Knoten, der Zahlungen zwischen Lightning-Kanälen weiterleiten kann, kann das Breez SDK keine direkten Lightning-zu-Lightning-Transaktionen durchführen und unterscheidet sich damit grundlegend von der traditionellen Lightning-Infrastruktur.

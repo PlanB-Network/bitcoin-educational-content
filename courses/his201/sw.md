@@ -31,7 +31,7 @@ Kozi hii inalenga kukuambia hadithi ya kuundwa kwa Bitcoin kwa njia ambayo hujaw
 
 ### Muhtasari mfupi
 
-Bitcoin iliundwa na mtu binafsi (au kikundi) kwa kutumia jina bandia la Satoshi Nakamoto. Mnamo Oktoba 31, 2008, alishiriki karatasi nyeupe inayoelezea mtindo wake kupitia orodha ya barua pepe isiyojulikana kwenye mtandao. Mnamo Januari 8, 2008, alitekeleza dhana yake kwa kuchapisha msimbo wa chanzo cha programu na kuzindua mtandao kwa Mining vitalu vya kwanza vya mnyororo. Akiwa na shauku ya kuvutia idadi kubwa ya watumiaji, alitangaza uundaji wake katika njia mbalimbali za mawasiliano.
+Bitcoin ilibuniwa na mtu binafsi (au kundi) aliyekuwa akitumia jina la bandia Satoshi Nakamoto. Tarehe 31 Oktoba 2008, alishiriki waraka mweupe unaoelezea mfano wake kupitia orodha ya usambazaji wa barua pepe isiyojulikana sana mtandaoni. Tarehe 8 Januari 2009, alitekeleza dhana yake kwa kuchapisha msimbo chanzo wa programu na kuzindua mtandao kupitia uchimbaji wa vitalu vya kwanza vya mnyororo. Akiwa na lengo la kuvutia idadi muhimu ya watumiaji, alitangaza uumbaji wake kupitia njia mbalimbali za mawasiliano.
 
 Baada ya kuanza kwa shida, uwekaji upya wa mfumo hatimaye ulifanyika Oktoba 2009, wakati kitengo cha akaunti - pia kinaitwa Bitcoin - kilipopata bei. Huduma za kwanza za mfanyabiashara zilianza kuonekana mwanzoni mwa 2010, kuanzia na huduma za Exchange zilizoingia kwenye dola. Ilikuwa pia wakati huu ambapo Mining yenye kadi ya graphics, yenye ufanisi zaidi, ilitekelezwa hapo awali, na ya kwanza ya Exchange kwa manufaa ya kimwili, hasa pizza, ilifanyika, kufuatia mpango wa Laszlo Hanyecz.
 

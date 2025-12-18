@@ -42,7 +42,7 @@ Bu kurs size Bitcoin'nin yaratılış hikayesini daha önce hiç okumadığını
 **Kısa Genel Bakış**
 
 
-Bitcoin, Satoshi Nakamoto takma adını kullanan bir kişi (veya bir grup) tarafından tasarlanmıştır. 31 Ekim 2008 tarihinde, internetteki belirsiz bir e-posta listesi aracılığıyla modelini açıklayan bir beyaz kağıt paylaştı. 8 Ocak 2008'de yazılımın kaynak kodunu yayınlayarak ve zincirin ilk bloklarını Mining ile başlatarak konseptini hayata geçirdi. Kritik sayıda kullanıcıyı çekmeye hevesli olarak, yaratımını çeşitli iletişim kanallarında tanıttı.
+Bitcoin, Satoshi Nakamoto takma adını kullanan bir birey (veya bir grup) tarafından tasarlandı. 31 Ekim 2008 tarihinde, söz konusu kişi modelini açıklayan bir teknik dokümanı internet üzerindeki nispeten bilinmeyen bir e-posta posta listesi aracılığıyla paylaştı. 8 Ocak 2009 tarihinde ise yazılımın kaynak kodunu yayımlayarak ve zincirin ilk bloklarını kazıyarak ağı başlatmak suretiyle kavramını hayata geçirdi. Kritik sayıda kullanıcıyı çekme kaygısıyla, eserini çeşitli iletişim kanalları üzerinden tanıttı.
 
 
 Zorlu bir başlangıçtan sonra, sistemin önyüklemesi nihayet Ekim 2009'da, Bitcoin olarak da adlandırılan hesap biriminin bir fiyat kazanmasıyla gerçekleşti. İlk tüccar hizmetleri 2010 yılında, dolara köprü kuran Exchange hizmetleriyle başlayarak ortaya çıkmaya başladı. Yine bu dönemde, Laszlo Hanyecz'in girişiminin ardından, daha verimli bir grafik kartına sahip Mining ilk kez uygulandı ve fiziksel bir mal, özellikle de bir pizza için ilk Exchange gerçekleşti.

@@ -6,20 +6,20 @@ objectives:
 
   - Comprender la arquitectura y el funcionamiento del protocolo TCP/IP
   - Explicar las diferencias, ventajas y limitaciones de IPv4 e IPv6
-  - Identificar y distinguir los distintos tipos de IP Address
+  - Identificar y distinguir los distintos tipos de direcciones IP
   - Configurar y verificar el direccionamiento IP en sistemas Unix/Linux
   - Utilizar las principales herramientas de diagnóstico para analizar y resolver problemas de red
 
 
 ---
 
-# Habilidades esenciales para navegar por el mundo de la PI
+# Habilidades esenciales para navegar por el mundo de la IP
 
 
 Sumérjase en el corazón del mundo IP y equípese con los conocimientos necesarios para comprender y gestionar eficazmente sus redes. En este curso aprenderás todo lo que necesitas saber sobre redes informáticas de forma clara y práctica.
 
 
-Aprenderá cómo funcionan las redes y el direccionamiento IP, a distinguir entre IPv4 e IPv6, a identificar y utilizar las distintas categorías Address y a comprender toda la importancia del protocolo TCP/IP y los vínculos que establece entre direcciones IP, direcciones físicas y nombres DNS.
+Aprenderá cómo funcionan las redes y el direccionamiento IP, a distinguir entre IPv4 e IPv6, a identificar y utilizar las distintas categorías de direcciones, y a comprender toda la importancia del protocolo TCP/IP y los vínculos que establece entre direcciones IP, direcciones físicas y nombres DNS.
 
 
 NET 302 está dirigido principalmente a estudiantes, usuarios de Linux o simplemente curiosos que deseen comprender los fundamentos de las redes y reforzar su autonomía en la gestión, resolución de problemas y optimización de infraestructuras.
@@ -66,13 +66,13 @@ En esta primera parte, sentaremos las bases explorando el concepto de red y la h
 ### Direccionamiento IPv4
 
 
-A continuación, pasaremos a un módulo dedicado al direccionamiento IPv4. Aprenderá cómo se utiliza IPv4 en la práctica, sus diferentes tipos de Address (privada, pública, broadcast, etc.), el papel fundamental del DNS, así como el funcionamiento de las direcciones Ethernet y del protocolo ARP. También descubrirá NAT (Network Address Translation) y los fundamentos de la configuración de redes.
+A continuación, pasaremos a un módulo dedicado al direccionamiento IPv4. Aprenderá cómo se utiliza IPv4 en la práctica, sus diferentes tipos de direcciones (privada, pública, broadcast, etc.), el papel fundamental del DNS, así como el funcionamiento de las direcciones Ethernet y del protocolo ARP. También descubrirá NAT (Network Address Translation) y los fundamentos de la configuración de redes.
 
 
 ### Direccionamiento IPv6
 
 
-La tercera parte se centra en el direccionamiento IPv6, necesario para Address las limitaciones de IPv4. Repasaremos sus normas y definiciones, Address Assignment dentro de una red local, Address gestión de bloques y la relación entre IPv6 y DNS.
+La tercera parte se centra en el direccionamiento IPv6, necesario para abordar las limitaciones de IPv4. Repasaremos sus estandares y definiciones, la asignación de direcciones (Address Assignment) dentro de una red local, la gestión de bloques de direcciones y la relación entre IPv6 y DNS.
 
 
 ### Herramientas de diagnóstico de red
@@ -121,10 +121,10 @@ Con el tiempo, se han desarrollado varias topologías clásicas para satisfacer 
 
 
 - red en anillo,
-- red de árboles,
-- red de autobuses,
-- red de estrellas,
-- red de malla.
+- red en árbol,
+- red en bus,
+- red en estrella,
+- red en malla.
 
 
 
@@ -142,7 +142,7 @@ La ventaja de esta disposición reside en la sencillez de su cableado y la ausen
 
 
 
-### Red de árboles
+### Red en árbol
 
 
 La red en árbol, o topología jerárquica, sigue el modelo de la estructura de un árbol genealógico. Consta de niveles sucesivos: un nodo raíz en la parte superior conecta con varios nodos de nivel inferior, que a su vez pueden conectar con otros nodos, y así sucesivamente.
@@ -156,7 +156,7 @@ Esta disposición jerárquica funciona especialmente bien en redes grandes que n
 
 
 
-### Red de autobuses
+### Red en bus
 
 
 En una topología de bus, todos los dispositivos comparten el mismo medio de transmisión, normalmente una línea coaxial o fibra óptica. Cada unidad está conectada de forma pasiva, es decir, no modifica activamente la señal, y puede enviar o recibir datos a través de este canal compartido.
@@ -170,7 +170,7 @@ La principal ventaja de la topología de bus es su bajo coste de instalación, g
 
 
 
-### Red de estrellas
+### Red en estrella
 
 
 La topología en estrella, también conocida como "hub and spoke", es la más común hoy en día, sobre todo en redes Ethernet domésticas y de oficina. En ella, todos los dispositivos se conectan a un único dispositivo central.
@@ -193,7 +193,7 @@ Esta disposición facilita la gestión y el mantenimiento: si falla un periféri
 La red mallada está diseñada para ofrecer la máxima redundancia: todos los dispositivos están conectados directamente entre sí. Esto garantiza la continuidad del servicio aunque fallen varios enlaces o dispositivos, ya que el tráfico puede redirigirse por rutas alternativas.
 
 
-La contrapartida es que el número de conexiones que hay que establecer aumenta rápidamente con el número de terminales. Para `N` puntos de conexión, se necesitan `N × (N-1) / 2` enlaces independientes, lo que hace que esta topología sea cara y compleja de desplegar. Por eso se utiliza principalmente en redes críticas que requieren una disponibilidad muy alta, como ciertas partes de Internet o sistemas industriales sensibles.
+La contrapartida es que el número de conexiones que hay que establecer aumenta rápidamente con el número de terminales. Para `N` puntos de conexión, se necesitan `N × (N-1) / 2` enlaces independientes, lo que hace que esta topología sea cara y compleja de desplegar. Por eso se utiliza principalmente en redes críticas que requieren una disponibilidad muy alta, como ciertas partes de internet o sistemas industriales sensibles.
 
 
 
@@ -204,7 +204,7 @@ La contrapartida es que el número de conexiones que hay que establecer aumenta 
 Existen otras variantes, como las redes grid o hipercubo, diseñadas para necesidades especializadas de computación distribuida o procesamiento paralelo.
 
 
-A escala mundial, Internet es una interconexión masiva de redes que utilizan topologías diversas, unificadas por un direccionamiento común (IPv4 e IPv6) y un conjunto de protocolos normalizados definidos por el IETF (*Internet Engineering Task Force*). Esta diversidad hace que Internet no siga una topología única: su estructura es flexible, escalable e independiente del esquema de direccionamiento lógico que la hace utilizable.
+A escala mundial, el internet es una interconexión masiva de redes que utilizan topologías diversas, unificadas por un direccionamiento común (IPv4 e IPv6) y un conjunto de protocolos normalizados definidos por el IETF (*Internet Engineering Task Force*). Esta diversidad hace que el internet no siga una topología única: su estructura es flexible, escalable e independiente del esquema de direccionamiento lógico que la hace utilizable.
 
 
 
@@ -224,10 +224,10 @@ Como parte de esta dinámica, ARPA financió a la Universidad de Berkeley para q
 **Nota**: en aquella época, los informáticos aún no disponían de Linux (que no aparecería hasta principios de los 90), ni de Minix, el sistema educativo diseñado por Andrew Tanenbaum.  Las principales opciones eran Unix o, a veces, mainframes propietarios como OpenVMS. Gracias a su flexibilidad y apertura, Unix fue decisivo para difundir los primeros conceptos de red.
 
 
-En sentido estricto, TCP/IP no es un único protocolo, sino un conjunto de protocolos construidos en torno a TCP e IP. Alcanzó la fama porque ofrecía un Interface de programación estandarizado para el intercambio de datos entre máquinas de una misma red. Este Interface, basado en primitivas denominadas "sockets", permitía crear conexiones fiables y flexibles al tiempo que integraba protocolos de aplicación esenciales.
+En sentido estricto, TCP/IP no es un único protocolo, sino un conjunto de protocolos construidos en torno a TCP e IP. Alcanzó la fama porque ofrecía una interfaz de programación estandarizado para el intercambio de datos entre máquinas de una misma red. Esta interfaz, basado en primitivas denominadas "sockets", permitía crear conexiones fiables y flexibles al tiempo que integraba protocolos de aplicación esenciales.
 
 
-ARPANET es, por tanto, la base histórica de la actual Internet. En efecto, Internet es una red mundial basada en el principio de la conmutación de paquetes, en la que la información circula utilizando un conjunto de protocolos normalizados que garantizan la compatibilidad y la interoperabilidad entre sistemas heterogéneos. Esta arquitectura abierta ha permitido el desarrollo y despliegue de innumerables servicios y aplicaciones, entre ellos:
+ARPANET es, por tanto, la base histórica de la actual Internet. En efecto, el internet es una red mundial basada en el principio de la conmutación de paquetes, en la que la información circula utilizando un conjunto de protocolos normalizados que garantizan la compatibilidad y la interoperabilidad entre sistemas heterogéneos. Esta arquitectura abierta ha permitido el desarrollo y despliegue de innumerables servicios y aplicaciones, entre ellos:
 
 
 - correos electrónicos,
@@ -244,7 +244,7 @@ Esta organización coordina las direcciones técnicas a través de dos estructur
 - **IETF** (_Internet Engineering Task Force_), que desarrolla, normaliza y documenta los protocolos operativos utilizados en Internet
 
 
-La distribución de los recursos de red (rangos IP Address, números de sistema autónomo, nombres de dominio raíz, etc.) está coordinada internacionalmente por **IANA/ICANN**. La gestión operativa depende de **RIR** (*Regional Internet Registries*): **RIPE NCC** (Europa, Oriente Medio, Asia Central), **ARIN**, **APNIC**, **LACNIC** y **AFRINIC**.
+La distribución de los recursos de red (rangos de direcciones IP, números de sistema autónomos, nombres de dominio raíz, etc.) está coordinada internacionalmente por **IANA/ICANN**. La gestión operativa depende de **RIR** (*Regional Internet Registries*): **RIPE NCC** (Europa, Oriente Medio, Asia Central), **ARIN**, **APNIC**, **LACNIC** y **AFRINIC**.
 
 
 Todas las especificaciones del protocolo TCP/IP se recogen en documentos denominados **RFC** (_Request For Comments_), que sirven como referencias técnicas autorizadas. Las RFC se actualizan y numeran continuamente para reflejar la evolución del conjunto de protocolos.

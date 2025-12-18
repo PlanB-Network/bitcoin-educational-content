@@ -1,4 +1,5 @@
-id: e17ee350-41d4-49fa-b270-29e4d26d22f8
+id: 569a9cfe-9e93-47c8-8649-e48eb469dac4
+test_only: true
 
 topic: protocol
 subtopic: sidechain
@@ -16,7 +17,7 @@ original_language: en
 
 proofreading:
   - language: en
-    last_contribution_date: 2025-12-21
+    last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - Asi0Flammeus

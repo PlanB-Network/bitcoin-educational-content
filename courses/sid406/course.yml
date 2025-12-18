@@ -1,10 +1,9 @@
-id: 569a9cfe-9e93-47c8-8649-e48eb469dac4
-test_only: true
+id: e17ee350-41d4-49fa-b270-29e4d26d22f8
 
 topic: protocol
 subtopic: sidechain
 type: practice
-level: advanced
+level: expert
 hours: 8
 
 professors_id:
@@ -17,7 +16,7 @@ original_language: en
 
 proofreading:
   - language: en
-    last_contribution_date: 2025-10-31
+    last_contribution_date: 2025-12-21
     urgency: 1
     contributor_names:
       - Asi0Flammeus

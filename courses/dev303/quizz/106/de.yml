@@ -1,8 +1,8 @@
 question: Welches grundlegende Konstruktionsprinzip ermöglicht es LDK, Lightning-fähige HSMs zu entwickeln, die auf intelligente Weise beurteilen können, ob es sich bei einer Transaktion um ein legitimes Zahlungsrouting oder um einen potenziell bösartigen Versuch handelt?
 answer: Die modulare Architektur von LDK ermöglicht die Extraktion spezifischer Transaktionssignierungs- und Verifizierungskomponenten unter Beibehaltung des Lightning-Protokollkontexts
 wrong_answers:
-  - "Das ereignisgesteuerte System von LDK kennzeichnet verdächtige Transaktionen automatisch durch maschinelle Lernalgorithmen, die in den Hauptprozess der Unterzeichnung integriert sind
-  - "Die Blockchain-Abstraktionsschicht von LDK ermöglicht die Erkennung von Betrug in Echtzeit durch den Abgleich aller Transaktionen mit Netzwerk-Klatschdaten
-  - "Das Peer-Management-System von LDK implementiert fortschrittliche kryptografische Signaturen, die von Natur aus zwischen legitimen und bösartigen Transaktionsmustern unterscheiden
+  - "Das ereignisgesteuerte System von LDK kennzeichnet verdächtige Transaktionen automatisch durch maschinelle Lernalgorithmen, die in den Hauptprozess der Unterzeichnung integriert sind"
+  - "Die Blockchain-Abstraktionsschicht von LDK ermöglicht die Erkennung von Betrug in Echtzeit durch den Abgleich aller Transaktionen mit Netzwerk-Klatschdaten"
+  - "Das Peer-Management-System von LDK implementiert fortschrittliche kryptografische Signaturen, die von Natur aus zwischen legitimen und bösartigen Transaktionsmustern unterscheiden"
 explanation: |
   Das modulare Design von LDK ermöglicht es Entwicklern, nur die Signier- und Verifizierungskomponenten zu extrahieren, während die Lightning-Protokollintelligenz erhalten bleibt, die für das Verständnis des Transaktionskontexts erforderlich ist. Dies ermöglicht es HSMs, fundierte Entscheidungen über die Weiterleitung von Zahlungen, Kanaloperationen und Sicherheitsbedrohungen zu treffen, anstatt Transaktionen blind zu signieren. Die falschen Antworten schreiben diese Fähigkeit fälschlicherweise der automatisierten Betrugserkennung, der Blockchain-Überwachung oder kryptografischen Signaturen zu. Tatsächlich ist es aber die Fähigkeit der modularen Architektur, das Protokollbewusstsein in isolierten Komponenten zu erhalten, die eine intelligente Transaktionsbewertung ermöglicht.

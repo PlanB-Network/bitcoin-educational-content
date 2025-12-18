@@ -1,5 +1,5 @@
 question: 如果需要修改结构实例，同时允许调用者保留所有权，Rust 方法应该使用哪种参数类型？
-answer: "&mut self
+answer: "&mut self"
 wrong_answers:
   - "&self"
   - 自我

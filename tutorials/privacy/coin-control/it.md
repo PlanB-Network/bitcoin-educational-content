@@ -16,7 +16,7 @@ Dovresti farlo. Se da una parte accumulare satoshi non-kyc è piuttosto semplice
 
 Spendere Bitcoin non è semplicemente trasferire valore a qualcun altro. 
 
-Consumando uno dei tuoi UTXO, devi soddisfare le condizioni imposte per la trasparenza del protocollo, hai lìobbligo di dimostrare che sei proprietario di quegli UTXO. Ti fai pertanto carico di:
+Consumando uno dei tuoi UTXO, devi soddisfare le condizioni imposte per la trasparenza del protocollo, hai l'obbligo di dimostrare che sei proprietario di quegli UTXO. Ti fai pertanto carico di:
 - esporre la tua chiave pubblica;
 - produrre una firma digitale.
 

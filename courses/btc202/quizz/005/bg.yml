@@ -2,7 +2,7 @@ question: Кой софтуер съчетава функциите на въз�
 answer: Bitcoin Core
 wrong_answers:
   - Sparrow wallet
-  - Ашигару
+  - Ashigaru
   - Wallet от Satoshi
 explanation: |
   За разлика от други софтуерни пакети, които са само софтуер за управление на портфейл, Bitcoin Core действа едновременно като възел и портфейл.

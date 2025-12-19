@@ -53,7 +53,7 @@ Lors du premier démarrage, macOS affichera un message de sécurité indiquant q
 
 ### Installation sur Linux
 
-Sur Linux, PearPass est proposé au format `.AppImage`, ce qui garantit une compatibilité large avec la majorité des distributions sans dépendances spécifiques. Téléchargez le fichier `.AppImage` depuis [la page officielle de téléchargement](https://pass.pears.com/download), puis lancez le directement par un double-clic.
+Sur Linux, PearPass est proposé au format `.AppImage`, ce qui garantit une compatibilité large avec la majorité des distributions sans dépendances spécifiques. Téléchargez le fichier `.AppImage` depuis [la page officielle de téléchargement](https://pass.pears.com/download), puis lancez-le directement par un double-clic.
 
 Selon votre environnement, il peut être nécessaire de rendre le fichier exécutable via les propriétés du fichier (clique droit) ou avec la commande `chmod +x`. Une fois autorisé, PearPass se lance comme une application autonome.
 
@@ -167,24 +167,86 @@ Sur mobile, la logique reste la même, bien que l’interface soit adaptée. Apr
 
 ## Comment organiser PearPass ?
 
+Nous l’avons vu dans les sections précédentes, PearPass permet de créer plusieurs vaults distincts. Cela permet de séparer différents usages et constitue un premier niveau d’organisation de votre gestionnaire de mots de passe. Depuis la page d’accueil, vous pouvez passer facilement d’un vault à un autre en cliquant sur la flèche située en haut à gauche de l’interface.
 
+18
 
+Une autre façon d’organiser vos mots de passe, à l’intérieur même d’un vault, consiste à créer des dossiers. Pour cela, dans la colonne de gauche de l’interface, cliquez sur le symbole `+` à côté de `All Folders`, puis indiquez le nom du dossier que vous souhaitez créer.
 
+19
 
+Vous pouvez ensuite y ranger les identifiants de votre choix, soit directement lors de la création d’un élément, soit ultérieurement en cliquant sur `Edit`. Il vous suffit alors de sélectionner, en haut à gauche du formulaire, le dossier souhaité.
 
+20
 
+Après avoir ouvert un élément, comme un identifiant, vous pouvez cliquer sur l’icône en forme d’étoile en haut à droite de l’interface afin de l’ajouter à vos favoris. Les favoris peuvent être retrouvés rapidement dans un dossier dédié, en plus de leur dossier de base.
 
+21
 
+Enfin, il y a une barre de recherche, située en haut de l’interface, qui vous permet de retrouver rapidement l’élément que vous recherchez, même si votre vault contient de nombreux identifiants.
 
+## Comment synchroniser PearPass sur mobile ?
 
+Maintenant que vous disposez d’un vault fonctionnel avec des éléments enregistrés sur votre ordinateur, vous allez probablement vouloir accéder à vos mots de passe depuis votre smartphone ou un autre appareil. PearPass permet de synchroniser votre gestionnaire sur plusieurs machines de manière sécurisée grâce à Pears. Voyons comment procéder.
 
+Pour commencer, sur la machine source (votre ordinateur par exemple), connectez-vous à votre vault à l’aide de votre mot de passe maître. Une fois sur la page d’accueil, cliquez sur le bouton `Add a Device`, situé en bas à droite de l’interface.
 
+23
 
+PearPass génère alors un lien d’invitation, également disponible sous forme de QR code, afin de synchroniser le vault sélectionné sur l’appareil de votre choix.
 
+24
 
+Si vous souhaitez effectuer cette synchronisation sur votre appareil mobile, commencez par installer l’application, puis lancez-la. Il vous sera demandé de créer un mot de passe maître pour votre gestionnaire sur mobile. Vous pouvez choisir d’utiliser le même que sur votre ordinateur ou un mot de passe différent. Dans tous les cas, suivez les mêmes recommandations : mot de passe fort, aléatoire et sauvegardé sur un support physique.
 
+25
 
+Vous pouvez ensuite activer l’authentification biométrique si vous le souhaitez, afin d’éviter d'avoir à saisir manuellement votre mot de passe maître à chaque déverrouillage sur mobile.
 
+26
 
+Renseignez à nouveau votre mot de passe maître, puis cliquez sur le bouton `Continue`.
 
+27
 
+Sélectionnez l’option `Load a vault`, puis cliquez sur `Scan QR Code` et scannez le QR code d’invitation affiché par PearPass sur votre machine source (l’ordinateur).
+
+28
+
+Vos vaults présents sur votre ordinateur et sur votre mobile sont désormais synchronisés. Chaque identifiant ajouté sur l’un des appareils sera enregistré de manière sécurisée et répliqué sur l’autre.
+
+29
+
+Sur mobile, vous pouvez également activer, si vous le souhaitez, le remplissage automatique des champs. Pour cela, rendez-vous dans `Settings > Advanced`, puis cliquez sur le bouton `Set as Default` dans la section `Autofill`.
+
+30
+
+## Comment synchroniser PearPass sur l'extension de navigateur ?
+
+Disposer d’un gestionnaire de mots de passe synchronisé entre son ordinateur et son smartphone est déjà très pratique, mais l’intégrer directement à son navigateur l’est encore davantage. Pour cela, commencez par [ajouter l’extension officielle PearPass à votre navigateur](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+
+31
+
+Depuis le logiciel PearPass installé sur votre machine en local, rendez-vous dans `Settings > Advanced`, puis activez l’option `Activate browser extension`.
+
+32
+
+PearPass génère alors un token d’appairage. Copiez-le.
+
+33
+
+Ouvrez ensuite l’extension PearPass dans votre navigateur, collez le token d’appairage, puis cliquez sur le bouton `Verify`, suivi de `Complete`.
+
+34
+
+Votre gestionnaire de mots de passe est désormais synchronisé avec l’extension de navigateur.
+
+35
+
+Vous pouvez maintenant l’utiliser pour vous connecter facilement à vos différents comptes sur le web.
+
+36
+
+Vous savez désormais comment utiliser le gestionnaire de mots de passe PearPass. Au-delà de cet outil, la sécurité numérique au quotidien repose sur le bon usage de solutions adaptées. Si vous souhaitez apprendre à mettre en place un environnement numérique personnel sécurisé, stable et efficace, je vous invite à découvrir notre formation dédiée à ce sujet :
+
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

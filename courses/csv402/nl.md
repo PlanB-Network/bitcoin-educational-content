@@ -4428,7 +4428,7 @@ Om over te stappen van deze Invoice:
 
 
 
-- Bob (die de tokens in zijn Stash heeft) heeft een Bitcoin Wallet. Hij moet een Bitcoin transactie voorbereiden (in de vorm van een PSBT, bijvoorbeeld `tx.PSBT`) die de UTXO's uitgeeft waar de benodigde RGB tokens zich bevinden, plus één UTXO voor valuta (Exchange);
+- Bob (die de tokens in zijn stash bewaart) beschikt over een Bitcoin-wallet. Hij moet een Bitcoin-transactie voorbereiden (in de vorm van een PSBT, bijv. `tx.psbt`) die de UTXO’s uitgeeft waarin de benodigde RGB-tokens zich bevinden, plus één UTXO voor wisselgeld (change);
 - Bob voert het volgende commando uit:
 
 

@@ -4401,7 +4401,7 @@ Aby przenieść z tego Invoice :
 
 
 
-- Bob (który posiada tokeny w swoim Stash) ma Bitcoin Wallet. Musi przygotować transakcję Bitcoin (w formie PSBT, np. `tx.PSBT`), która wydaje UTXO, gdzie znajdują się wymagane tokeny RGB, plus jeden UTXO na walutę (Exchange);
+- Bob (który przechowuje tokeny w swoim stashu) posiada portfel Bitcoin. Musi przygotować transakcję Bitcoin (w formie PSBT, np. `tx.psbt`), która wydaje UTXO, w których znajdują się wymagane tokeny RGB, oraz dodatkowy UTXO na resztę (change);
 - Bob wykonuje następujące polecenie:
 
 

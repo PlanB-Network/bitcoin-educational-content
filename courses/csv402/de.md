@@ -3199,7 +3199,7 @@ Sie kann über einen beliebigen Kanal (Text, QR-Code usw.) an Bob übermittelt w
 Um eine Überweisung gemäß dieser Rechnung vorzunehmen passiert folgendes:
 
 
-- Bob (der die Token in seinem Stash hat) hat eine Bitcoin-Wallet. Er muss eine Bitcoin-Transaktion vorbereiten (in Form einer PSBT, z.B. `tx.psbt`), die die UTXOs ausgibt, in denen sich die benötigten RGB-Token befinden, sowie einen UTXO für das Wechselgeld ([Change](https://planb.academy/resources/glossary/change)-Output);
+- Bob (der die Token in seinem Stash hält) verfügt über eine Bitcoin-Wallet. Er muss eine Bitcoin-Transaktion vorbereiten (in Form eines PSBT, z. B. `tx.psbt`), die die UTXOs ausgibt, in denen sich die erforderlichen RGB-Token befinden, sowie einen zusätzlichen UTXO für das Wechselgeld (change);
 - Bob führt den folgenden Befehl aus:
 
 ```bash

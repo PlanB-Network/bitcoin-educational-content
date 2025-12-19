@@ -1,4 +1,4 @@
-question: دستور `cargo new project_name` به‌طور خودکار به‌عنوان بخشی از ساختار پروژه موارد زیر را ایجاد می‌کند:
+question: دستور `cargo new project_name` به‌طور خودکار به‌عنوان بخشی از ساختار پروژه موارد زیر را ایجاد می‌کند
 answer: یک مخزن Git، فایل Cargo.toml، و فایل main.rs پایه با برنامه Hello World
 wrong_answers:
   - فقط یک فایل پیکربندی Cargo.toml و ساختار دایرکتوری منبع خالی

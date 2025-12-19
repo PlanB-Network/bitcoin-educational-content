@@ -1,6 +1,6 @@
 ---
 name: Bitaxe Open Source Mining Mastery
-goal: Boresha mfumo kamili wa ikolojia wa Bitaxe, kutoka kwa usanifu wa vifaa hadi ubinafsishaji wa hali ya juu na uboreshaji wa utendakazi
+goal: Boresha mfumo kamili wa ikolojia wa Bitaxe, kutoka kwa usanifu wa vifaa hadi exchange ya hali ya juu na uboreshaji wa utendakazi
 objectives: 
 
   - Elewa falsafa ya maunzi ya chanzo huria ya Bitcoin mining
@@ -37,7 +37,7 @@ Hakuna matumizi ya awali ya mining yanayohitajika, ingawa ujuzi wa kimsingi wa k
 <chapterId>1fac9579-0e1c-48e3-9bc5-e7a2960018c8</chapterId>
 
 
-Karibu kwenye kozi ya MIN 306 _**Bitaxe Open Source Mining Mastery**_, safari ya kina katika ulimwengu wa Bitaxe mining. Kozi hii imeundwa kwa ajili ya wale wanaotaka kuelewa, kujenga, na kuboresha maunzi yao wenyewe ya Bitaxe mining huku wakigundua misingi ya kifalsafa na kiufundi inayofanya mradi huu kuwa wa kipekee ndani ya mfumo ikolojia wa Bitcoin.
+Karibu kwenye kozi ya MIN 306 _**Bitaxe Open Source Mining Mastery**_, safari ya kina katika ulimwengu wa Bitaxe mining. Kozi hii imeundwa kwa ajili ya wale wanaotaka kuelewa, kujenga, na kuboresha hardware yao wenyewe ya Bitaxe mining huku wakigundua misingi ya kifalsafa na kiufundi inayofanya mradi huu kuwa wa kipekee ndani ya mfumo ikolojia wa Bitcoin.
 
 
 ### Kuelewa Bitaxe
@@ -55,7 +55,7 @@ Sehemu ya pili inaangazia mazingira ya programu, ikiwa na uwasilishaji wa kina w
 ### Jumuiya na Ushirikiano
 
 
-Sehemu ya tatu inaangazia kipengele cha ushirikiano cha mradi. Utachunguza falsafa ya chanzo-wazi inayotumika kwa usanidi wa maunzi na programu ya Bitaxe. Kupitia mazoezi ya vitendo, utajifunza jinsi ya kuchangia moja kwa moja kwenye msimbo wa chanzo, na pia utagundua _Public Pool_, jukwaa la jumuiya la kuunganisha nguvu za hesabu. Pia utajifunza jinsi ya kuiweka kwenye node ya Umbrel kwa ushirikiano wa ndani na huru.
+Sehemu ya tatu inaangazia kipengele cha ushirikiano cha mradi. Utachunguza falsafa ya chanzo-wazi inayotumika kwa usanidi wa hardware na programu ya Bitaxe. Kupitia mazoezi ya vitendo, utajifunza jinsi ya kuchangia moja kwa moja kwenye msimbo wa chanzo, na pia utagundua _Public Pool_, jukwaa la jumuiya la kuunganisha nguvu za hesabu. Pia utajifunza jinsi ya kuiweka kwenye node ya Umbrel kwa ushirikiano wa ndani na huru.
 
 
 ### Mkutano wa vifaa na utatuzi wa shida
@@ -93,7 +93,7 @@ Ingia moja kwa moja katika tukio hili la kiufundi - mustakabali wa Bitcoin minin
 
 :::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
-Mradi wa Bitaxe unawakilisha mabadiliko ya msingi katika ukuzaji wa Bitcoin Mining Hardware, na kuleta kanuni za chanzo wazi kwa tasnia inayotawaliwa na suluhisho za wamiliki. Mfululizo huu wa elimu unachunguza historia ya kina, uvumbuzi wa kiufundi, na mageuzi yanayoendeshwa na jumuiya ya Bitaxe, ukitoa maarifa kuhusu jinsi maono ya mhandisi mmoja yalivyobadilika na kuwa mfumo ikolojia unaostawi wa maunzi ya mining yaliyogatuliwa. Kupitia kukagua chimbuko la mradi, changamoto na mafanikio, tunapata ufahamu muhimu wa matatizo ya kiufundi ya ukuzaji wa ASIC na uwezo wa ushirikiano wa chanzo huria katika nafasi ya Bitcoin.
+Mradi wa Bitaxe unawakilisha mabadiliko ya msingi katika ukuzaji wa Bitcoin Mining Hardware, na kuleta kanuni za chanzo wazi kwa tasnia inayotawaliwa na suluhisho za wamiliki. Mfululizo huu wa elimu unachunguza historia ya kina, uvumbuzi wa kiufundi, na mageuzi yanayoendeshwa na jumuiya ya Bitaxe, ukitoa maarifa kuhusu jinsi maono ya mhandisi mmoja yalivyobadilika na kuwa mfumo ikolojia unaostawi wa hardware ya mining yaliyogatuliwa. Kupitia kukagua chimbuko la Lightning, changamoto na mafanikio, tunapata ufahamu muhimu wa matatizo ya kiufundi ya ukuzaji wa ASIC na uwezo wa ushirikiano wa chanzo huria katika nafasi ya Bitcoin.
 
 
 ### Hadithi ya Asili: Kutoka Ugunduzi wa Barabara ya Hariri hadi Maono ya Solar mining

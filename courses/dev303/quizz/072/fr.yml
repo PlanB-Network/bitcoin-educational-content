@@ -1,7 +1,7 @@
 question: Qu'est-ce qui distingue les erreurs de ressources d'exécution des erreurs d'entrée non valides et des erreurs logiques dans le développement d'applications Bitcoin ?
 answer: Les erreurs de ressources d'exécution se produisent lorsque des dépendances externes telles que des fichiers ou des connexions réseau ne sont pas disponibles, ce qui nécessite des corrections de l'environnement plutôt que des modifications du code
 wrong_answers:
-  - "Les erreurs de ressources au moment de l'exécution se produisent lorsque les paramètres de la fonction ne répondent pas aux exigences, ce qui indique des violations de contrat entre l'appelant et la fonction
+  - "Les erreurs de ressources au moment de l'exécution se produisent lorsque les paramètres de la fonction ne répondent pas aux exigences, ce qui indique des violations de contrat entre l'appelant et la fonction"
   - Les erreurs de ressources d'exécution représentent des bogues dans la mise en œuvre du programme qui nécessitent un débogage et une modification du code pour être résolus correctement
   - Les erreurs de ressources d'exécution se produisent lorsque le système de types ne parvient pas à détecter les incohérences, ce qui permet aux types de données incorrects de se propager dans le système
 explanation: |

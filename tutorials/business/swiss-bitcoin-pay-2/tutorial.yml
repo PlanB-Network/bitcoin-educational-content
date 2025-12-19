@@ -144,6 +144,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 5.09
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.43
 tags:
   - guides
   - business

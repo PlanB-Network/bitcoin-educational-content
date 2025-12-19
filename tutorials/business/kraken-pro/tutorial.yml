@@ -145,6 +145,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 3.14
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.13
 tags:
   - business
   - wallets

@@ -2,11 +2,9 @@
 name: Jaký je váš politický příklon?
 goal: Pochopit složitost moderního politického spektra, abyste mohli identifikovat své vlastní tendence a zařadit hlavní ideologické skupiny mimo dělení na levici a pravici.
 objectives: 
-
-
   - Pochopení toho, že politická typologie má více nuancí než jednoduchá osa levice/pravice
-  - Určete dva hlavní rozměry, které strukturují politické spektrum: ekonomická témata a společenská témata
-  - Charakterizujte čtyři hlavní politické rodiny: Rozdělte tyto politické skupiny: libertariáni, socialisté, konzervativci, centristé
+  - Určete dva hlavní rozměry, které strukturují politické spektrum
+  - Charakterizujte čtyři hlavní politické rodiny, Rozdělte tyto politické skupiny
   - Zkoumání postavení bitcoinářů v politickém spektru
 
 

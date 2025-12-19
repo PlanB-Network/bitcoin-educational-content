@@ -30,7 +30,7 @@ This course aims to tell you the story of Bitcoin's creation in a way you've nev
 
 **Brief Overview**
 
-Bitcoin was designed by an individual (or a group) using the pseudonym Satoshi Nakamoto. On October 31, 2008, he shared a white paper describing his model via an obscure email mailing list on the Internet. On January 8, 2009, he implemented his concept by publishing the software's source code and launching the network by mining the first blocks of the chain. Eager to attract a critical number of users, he promoted his creation across various communication channels.
+Bitcoin was designed by an individual (or a group) using the pseudonym Satoshi Nakamoto. On October 31, 2008, the latter shared a white paper describing his model via an obscure Internet email mailing list. On January 8, 2009, he put his concept into practice by publishing the software’s source code and launching the network through the mining of the first blocks of the chain. Keen to attract a critical mass of users, he promoted his creation through various communication channels.
 
 After a difficult start, the system's bootstrapping finally took place in October 2009, when the unit of account – also called bitcoin – gained a price. The first merchant services began to appear in 2010, starting with exchange services that bridged to the dollar. It was also around this time that mining with a graphics card (more efficient), was initially implemented, and the first exchange for a physical good, specifically a pizza, took place, following the initiative of Laszlo Hanyecz.
 

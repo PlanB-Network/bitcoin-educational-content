@@ -1,4 +1,4 @@
-question: Vilken kryptografisk mekanism i Blockstream AMP: s blindarkitektur möjliggör kryptering av tillgångsbelopp samtidigt som transaktionsvaliditetsverifiering upprätthålls?
+question: "Vilken kryptografisk mekanism i Blockstream AMP:s blindarkitektur möjliggör kryptering av tillgångsbelopp samtidigt som transaktionsvaliditetsverifiering upprätthålls?"
 answer: Elliptic Curve Diffie-Hellman-nyckelutbyte med räckviddsbevis som verifierar transaktionens giltighet utan att avslöja krypterade värden
 wrong_answers:
   - SNARKs med nollkännedom och åtaganden som döljer transaktionsbelopp samtidigt som beräkningsintegritet bevisas

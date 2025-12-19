@@ -2,14 +2,10 @@
 name: Vilken är din politiska inriktning?
 goal: Förstå komplexiteten i det moderna politiska spektrumet för att identifiera din egen tendens och placera de stora ideologiska familjerna bortom vänster-höger-skalan.
 objectives: 
-
-
   - Förståelse för att politisk typologi är mer nyanserad än en enkel vänster/höger-axel
-  - Identifiera de två huvuddimensioner som strukturerar det politiska spektrumet: ekonomiska teman och samhälleliga teman
-  - Karakterisera de fyra politiska huvudfamiljerna: Libertarianer, socialister, konservativa, centrister
+  - Identifiera de två huvuddimensioner som strukturerar det politiska spektrumet
+  - Karakterisera de fyra politiska huvudfamiljerna
   - Utforskar bitcoiners positionering i det politiska spektrumet
-
-
 
 ---
 

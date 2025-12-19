@@ -303,7 +303,7 @@ Da bi ispunila ove kriterijume, valuta se istorijski evoluirala kroz različite 
 Valute i dalje evoluiraju do danas, prilagođavajući svoje oblike kako bi zadovoljile različite slučajeve upotrebe. Kao što smo rekli, iako je zlato odličan čuvar vrednosti, više nije pogodno za trenutnu globalizovanu ekonomiju. Slično tome, fiducijarne valute kao što su dolar i evro su vrlo likvidne i lako prenosive jer su sada uglavnom digitalne, ali njihova vrednost je konstantno smanjena monetarnom inflacijom.
 
 
-S druge strane, Bitkoin predstavlja nove mogućnosti. Njegova svojstva, kao što je strogo ograničena ponuda, čine ga odličnim čuvarom vrednosti. Štaviše, kao neutralna internet valuta, služi kao održivo **sredstvo razmene** koje prevazilazi granice. Međutim, i dalje nije široko prihvaćen u trgovini danas, uprkos njegovom [stalnom usvajanju](https://btcmap.org/map).
+S druge strane, Bitcoin otvara nove perspektive. Njegova svojstva, naročito strogo ograničena ponuda, čine ga odličnim čuvarom vrednosti. Takođe, kao neutralna internet valuta, predstavlja održivo **sredstvo razmene**, sposobno da prevaziđe granice. Ipak, uprkos kontinuiranom usvajanju (što ilustruje [mapa BTCmap](https://btcmap.org/map)), danas još uvek nije široko prihvaćen u trgovini.
 
 
 ## Fiducijarne valute

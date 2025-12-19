@@ -217,7 +217,7 @@ För att uppfylla dessa kriterier har valutor historiskt sett utvecklats genom o
 
 Valutorna utvecklas än idag och anpassar sina former för att möta olika användningsområden. Guld är som sagt en utmärkt värdebevarare, men passar inte längre i dagens globaliserade ekonomi. På samma sätt är fiduciära valutor som dollar och euro mycket likvida och lätta att transportera eftersom de nu till största delen är digitala, men deras värde sänks ständigt av monetär inflation.
 
-Å andra sidan erbjuder Bitcoin nya möjligheter. Dess egenskaper, t.ex. den strikt begränsade tillgången, gör den till en utmärkt värdebevarare. Som en neutral internetvaluta fungerar den dessutom som ett livskraftigt **betalningsmedel** som överskrider gränser. Den är dock fortfarande inte allmänt accepterad i handeln idag, trots att den [ständigt används] (https://btcmap.org/map).
+Å andra sidan öppnar Bitcoin nya perspektiv. Dess egenskaper, särskilt ett strikt begränsat utbud, gör det till en utmärkt värdebevarare. Vidare utgör det, som en neutral internetvaluta, ett livskraftigt **bytesmedel** som kan överskrida gränser. Trots en fortlöpande adoption (vilket [BTCmap-kartan](https://btcmap.org/map) illustrerar) är det dock ännu inte allmänt accepterat inom handeln i dag.
 
 ## Fiduciära valutor
 

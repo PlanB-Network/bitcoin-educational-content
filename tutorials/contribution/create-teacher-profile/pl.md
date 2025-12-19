@@ -23,7 +23,7 @@ Najprostszym sposobem na utworzenie profilu nauczyciela w Plan ₿ Academy jest 
 ### 1 - Konfiguracja środowiska lokalnego
 
 
-Musisz mieć własny Fork z [repozytorium Plan ₿ Academy na GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Musisz mieć własny Fork z [repozytorium Plan ₿ Academy na GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Zsynchronizuj główną gałąź (`dev`) Fork z repozytorium źródłowym.
@@ -157,7 +157,7 @@ Początkującym polecam dokonanie modyfikacji bezpośrednio przez Interface w si
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Przejdź do [repozytorium Plan ₿ Academy GitHub poświęconego danym] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+Przejdź do [repozytorium Plan ₿ Academy GitHub poświęconego danym](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)
@@ -226,4 +226,4 @@ Twój PR będzie widoczny w zakładce "*Pull Request*" w głównym repozytorium 
 ![Image](assets/fr/12.webp)
 
 
-Jeśli napotkasz jakiekolwiek trudności techniczne w przesłaniu zmiany, nie wahaj się poprosić o pomoc na [naszej grupie Telegram poświęconej składkom] (https://t.me/PlanBNetwork_ContentBuilder). Dziękujemy bardzo!
+Jeśli napotkasz jakiekolwiek trudności techniczne w przesłaniu zmiany, nie wahaj się poprosić o pomoc na [naszej grupie Telegram poświęconej składkom](https://t.me/PlanBNetwork_ContentBuilder). Dziękujemy bardzo!

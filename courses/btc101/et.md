@@ -638,7 +638,7 @@ Saadaval on mitmesuguseid lahendusi: mõned neist on odavad, nagu näiteks "Bloc
 
 Selle esimese praktika kõrval on pärimisplaani koostamine oluline samm, et tagada teie bitcoinide nõuetekohane haldamine pärast teie surma. See plaan hõlmab käsitsi kirjutatud kirja, milles kirjeldate oma varade olemust, nende kasutusviise ja nende eest vastutavate usaldusisikute kontaktandmeid. Samuti on oluline arutada bitcoinide pärandamist notariga, et tagada maksukohustuse täitmine, isegi kui sellele isikule ei tohiks kunagi usaldada otseselt teie bitcoinide haldamist.
 
-Kui soovite oma bitcoinide pärimisplaani teemat põhjalikumalt uurida, soovitame lugeda Pamela Morgani raamatut [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) või registreeruda kursusele BTC102, kus anname juhiseid plaani koostamiseks.
+Kui soovite oma bitcoinide pärimisplaani teemat põhjalikumalt uurida, soovitame lugeda Pamela Morgani raamatut [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) või registreeruda kursusele BTC102, kus anname juhiseid plaani koostamiseks.
 
 ![image](assets/et/037.webp)
 
@@ -715,7 +715,7 @@ Foorumist sai kiiresti Bitcoini kasutajate eelistatud arutelupaik, nii et selles
 > "Valitsused on tublid, kui nad lõikavad keskmiselt pead maha
 > kontrollitud võrgud nagu Napster, kuid puhtad P2P-võrgud nagu
 > Gnutella ja Tor näivad end hoidvat." - Satoshi Nakamoto
-> Vaatamata Satoshi puudumisele jätkas Bitcoini arendamine: Bitcoini ajalugu kirjutatakse iga 10 minuti tagant ja protokoll toimib tänaseni nii, nagu see on ette nähtud. Hoolimata hirmust, ebakindlusest või kahtlustest liigub Bitcoin jätkuvalt edasi, kusjuures veebis on ta väga tugevalt kättesaadav. Tegelikult on Bitcoin selle [veebisaidi] (https://bitcoinuptime.com/) andmetel 99,988% ajast, mil see loodi, olnud toimiv ja töötanud ilma massiliste probleemideta.
+> Vaatamata Satoshi puudumisele jätkas Bitcoini arendamine: Bitcoini ajalugu kirjutatakse iga 10 minuti tagant ja protokoll toimib tänaseni nii, nagu see on ette nähtud. Hoolimata hirmust, ebakindlusest või kahtlustest liigub Bitcoin jätkuvalt edasi, kusjuures veebis on ta väga tugevalt kättesaadav. Tegelikult on Bitcoin selle [veebisaidi](https://bitcoinuptime.com/) andmetel 99,988% ajast, mil see loodi, olnud toimiv ja töötanud ilma massiliste probleemideta.
 
 Mõnede jaoks on Bitcoin määratletud kui seeneolend nagu [mütseel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), samas kui teised kirjeldavad seda kui [musta auku](https://dergigi.com/). Armastage või vihkake seda, Bitcoin jätkab oma pideva rütmiga (10 minutit ploki kohta) nagu uue rahasüsteemi südamelöök.
 
@@ -1047,7 +1047,7 @@ Siiski on El Salvadoris ja teistes maailma osades üha rohkem üksikisikuid, ett
 
 *Allikas : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
-Lisaks on käivitatud avatud lähtekoodiga ja koostööprojekt [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), et hõlbustada Bitcoini kasutamist igapäevastes tehingutes. Sellel platvormil on loetletud kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma, nii et võite külastada nende veebisaiti, et avastada Bitcoini ökosüsteemi enda ümber. Seega on vaatamata raskustele ja kõhklustele olemas sellised algatused nagu BTCMap, mis aitavad kaasa Bitcoini majanduse kättesaadavamaks ja mugavamaks muutmisele kõigi jaoks.
+Lisaks on käivitatud avatud lähtekoodiga ja koostööprojekt [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), et hõlbustada Bitcoini kasutamist igapäevastes tehingutes. Sellel platvormil on loetletud kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma, nii et võite külastada nende veebisaiti, et avastada Bitcoini ökosüsteemi enda ümber. Seega on vaatamata raskustele ja kõhklustele olemas sellised algatused nagu BTCMap, mis aitavad kaasa Bitcoini majanduse kättesaadavamaks ja mugavamaks muutmisele kõigi jaoks.
 
 ### Miks me peaksime selle ostmise asemel Bitcoini vastu võtma?
 

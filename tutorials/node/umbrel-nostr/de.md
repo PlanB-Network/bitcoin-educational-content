@@ -137,7 +137,7 @@ Auf dieser Seite fügen Sie die URL Ihres Umbrel-Relais ein, die Sie zuvor kopie
 
 
 
-**Verbindung:** noStrudel bietet Ihnen mehrere Verbindungsoptionen an. In unserem Fall wählen wir "Privater Schlüssel" und fügen Ihren zuvor generierten privaten Nostr-Schlüssel ein. Wenn Sie noch keinen Schlüssel haben, können Sie die Erweiterung [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) installieren, um Ihre Nostr-Schlüssel zu erstellen und/oder zu speichern und so sicherer mit den verschiedenen Nostr-Anwendungen zu kommunizieren.
+**Verbindung:** noStrudel bietet Ihnen mehrere Verbindungsoptionen an. In unserem Fall wählen wir "Privater Schlüssel" und fügen Ihren zuvor generierten privaten Nostr-Schlüssel ein. Wenn Sie noch keinen Schlüssel haben, können Sie die Erweiterung [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) installieren, um Ihre Nostr-Schlüssel zu erstellen und/oder zu speichern und so sicherer mit den verschiedenen Nostr-Anwendungen zu kommunizieren.
 
 
 

@@ -482,7 +482,7 @@ Deze voorbeelden kunnen gebruikt worden in discussies om uit te leggen waarom in
 ![image](assets/nl/023.webp)
 
 
-Omdat, zoals deze [thread] (https://twitter.com/saifedean/status/1673639779433590786) laat zien: Inflatie is alles behalve de schuld van centrale banken.
+Omdat, zoals deze [thread](https://twitter.com/saifedean/status/1673639779433590786) laat zien: Inflatie is alles behalve de schuld van centrale banken.
 
 
 

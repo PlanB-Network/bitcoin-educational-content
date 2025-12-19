@@ -465,5 +465,5 @@ Naho kwemera cane Bitcoin biguma ari ingorane isaba inyigisho n’igihe, ibikorw
 
 
 - [Umuco Wallet](https://umuco.sv) - Wallet ihuye n'umuravyo iraremeshwa
-- [Ibice] (Ibice) - Umuti wallet wiyakira
+- [Ibice](Ibice) - Umuti wallet wiyakira
 - [Ikarata Bolt isanzwe](https://github.com/boltcard) - Ivyerekeye ubuhinga bw'amakarata ya NFC

@@ -77,7 +77,7 @@ Självklart måste du ha tillgång till RoboSats! Det finns fyra huvudsakliga s�
 4. Din egen kund
 
 
-Om du inte känner till Tor-webbläsaren tidigare kan du läsa mer och ladda ner den [här] (https://www.torproject.org/download/).
+Om du inte känner till Tor-webbläsaren tidigare kan du läsa mer och ladda ner den [här](https://www.torproject.org/download/).
 
 
 En snabb notering för iOS-användare som vill komma åt RoboSats via Tor från sina telefoner. "Onion Browser" är inte Tor Browser. Använd istället Orbot + Safari och Orbot + DuckDuckGo.

@@ -45,7 +45,7 @@ Hieman edistyneempi konfiguraatio on Wallet:n Satoshi:n Point of Sale -ominaisuu
 ![image](assets/en/01.webp)
 
 
-Tämä on toinen kahdesta tavasta käyttää Point of Sale -toimintoa. Toinen tapa on oma [Wallet of Satoshi PoS-sovellus] (https://www.walletofsatoshi.com/pos.)
+Tämä on toinen kahdesta tavasta käyttää Point of Sale -toimintoa. Toinen tapa on oma [Wallet of Satoshi PoS-sovellus](https://www.walletofsatoshi.com/pos.)
 
 
 Point of Sale -ominaisuuden käytöstä on kolme etua:

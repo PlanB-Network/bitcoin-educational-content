@@ -149,7 +149,7 @@ Według oficjalnych statystyk, najczęściej używane modele obejmują różne u
 
 
 
-- Narzędzie Android Flash**: Użyj oficjalnego narzędzia Google [flash.android.com] (https://flash.android.com), aby łatwo przywrócić urządzenie Pixel do standardowego systemu Android z poziomu przeglądarki internetowej (wymagany Chrome/Edge)
+- Narzędzie Android Flash**: Użyj oficjalnego narzędzia Google [flash.android.com](https://flash.android.com), aby łatwo przywrócić urządzenie Pixel do standardowego systemu Android z poziomu przeglądarki internetowej (wymagany Chrome/Edge)
 - Alternatywa**: Obrazy fabryczne ręcznie z [developers.google.com/android/images](https://developers.google.com/android/images)
 
 

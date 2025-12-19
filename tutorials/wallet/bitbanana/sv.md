@@ -338,8 +338,8 @@ BitBanana är helt suverän och samlar inte in några uppgifter och äventyrar v
 
 
 - [BitBananas webbplats](https://bitbanana.app)
-- [Komplett dokumentation] (https://docs.bitbanana.app)
-- [GitHub-källkod] (https://github.com/michaelWuensch/BitBanana)
+- [Komplett dokumentation](https://docs.bitbanana.app)
+- [GitHub-källkod](https://github.com/michaelWuensch/BitBanana)
 
 
 
@@ -348,5 +348,5 @@ BitBanana är helt suverän och samlar inte in några uppgifter och äventyrar v
 
 
 
-- [Google Play Store] (https://play.google.com/store/apps/details?id=app.michaelwuensch.bitbanana)
-- [F-Cold] (https://f-droid.org/packages/app.michaelwuensch.bitbanana)
+- [Google Play Store](https://play.google.com/store/apps/details?id=app.michaelwuensch.bitbanana)
+- [F-Cold](https://f-droid.org/packages/app.michaelwuensch.bitbanana)

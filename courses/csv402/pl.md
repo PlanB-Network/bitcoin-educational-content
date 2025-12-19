@@ -57,7 +57,7 @@ Ostatnia sekcja jest prowadzona przez innych prelegentów, którzy prezentują k
 
 
 ---
-Ten kurs szkoleniowy pierwotnie wyrósł z dwutygodniowego zaawansowanego bootcampu programistycznego w Viareggio w Toskanii, zorganizowanego przez [Fulgur'Ventures] (https://fulgur.ventures/). Pierwszy tydzień, skoncentrowany na Rust i SDK, można znaleźć w tym innym kursie:
+Ten kurs szkoleniowy pierwotnie wyrósł z dwutygodniowego zaawansowanego bootcampu programistycznego w Viareggio w Toskanii, zorganizowanego przez [Fulgur'Ventures](https://fulgur.ventures/). Pierwszy tydzień, skoncentrowany na Rust i SDK, można znaleźć w tym innym kursie:
 
 
 https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
@@ -93,7 +93,7 @@ Pisemna wersja tego szkolenia została opracowana przy użyciu 2 głównych zaso
 
 
 - Filmy z seminarium Maxima Orlovsky'ego, Huntera Trujilo i Frederico Tengi na Lightning Bootcamp;
-- Dokumentacja RGB, której produkcja była sponsorowana przez [Bitfinex] (https://www.bitfinex.com/).
+- Dokumentacja RGB, której produkcja była sponsorowana przez [Bitfinex](https://www.bitfinex.com/).
 
 
 Gotowy do zanurzenia się w złożonym i fascynującym świecie RGB? Do dzieła!
@@ -912,13 +912,13 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-Ostatnią opcją jest użycie **Taproot** (wprowadzonego w BIP341) ze schematem *Tapret*. *Tapret* jest bardziej złożoną formą deterministycznego Commitment, która przynosi poprawę w zakresie śladu na Blockchain i poufności operacji Contract. Główną ideą jest ukrycie Commitment w części `Script Path Spend` transakcji [Taproot] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
+Ostatnią opcją jest użycie **Taproot** (wprowadzonego w BIP341) ze schematem *Tapret*. *Tapret* jest bardziej złożoną formą deterministycznego Commitment, która przynosi poprawę w zakresie śladu na Blockchain i poufności operacji Contract. Główną ideą jest ukrycie Commitment w części `Script Path Spend` transakcji [Taproot](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
 
-Przed opisaniem, w jaki sposób Commitment jest wstawiany do transakcji Taproot, przyjrzyjmy się **dokładnej formie** Commitment, która musi **imperatywnie** odpowiadać 64-bajtowemu ciągowi [skonstruowanemu] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) w następujący sposób:
+Przed opisaniem, w jaki sposób Commitment jest wstawiany do transakcji Taproot, przyjrzyjmy się **dokładnej formie** Commitment, która musi **imperatywnie** odpowiadać 64-bajtowemu ciągowi [skonstruowanemu](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) w następujący sposób:
 
 
 ```txt
@@ -1212,7 +1212,7 @@ gdzie `kofaktor` jest liczbą całkowitą, która zwiększa prawdopodobieństwo 
 - Jeśli nie uda nam się ustawić wszystkich kontraktów bez kolizji, zwiększamy `d` i zaczynamy od nowa.
 
 
-Celem jest uniknięcie zbyt wysokich drzew, przy jednoczesnym utrzymaniu ryzyka kolizji na minimalnym poziomie. Należy zauważyć, że zjawisko kolizji wynika z logiki rozkładu losowego, związanej z [Paradoksem rocznicowym] (https://en.wikipedia.org/wiki/Birthday_problem).
+Celem jest uniknięcie zbyt wysokich drzew, przy jednoczesnym utrzymaniu ryzyka kolizji na minimalnym poziomie. Należy zauważyć, że zjawisko kolizji wynika z logiki rozkładu losowego, związanej z [Paradoksem rocznicowym](https://en.wikipedia.org/wiki/Birthday_problem).
 
 
 #### Zamieszkane liście

@@ -623,11 +623,11 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Opsi terakhir adalah penggunaan **Taproot** (diperkenalkan dengan BIP341) dengan skema *Tapret*. *Tapret* adalah bentuk komitmen deterministik yang lebih kompleks, yang membawa peningkatan dalam hal jejak pada blockchain dan kerahasiaan untuk operasi kontrak. Ide utamanya adalah untuk menyembunyikan komitmen di bagian `Script Path Spend` dari [transaksi taproot] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+Opsi terakhir adalah penggunaan **Taproot** (diperkenalkan dengan BIP341) dengan skema *Tapret*. *Tapret* adalah bentuk komitmen deterministik yang lebih kompleks, yang membawa peningkatan dalam hal jejak pada blockchain dan kerahasiaan untuk operasi kontrak. Ide utamanya adalah untuk menyembunyikan komitmen di bagian `Script Path Spend` dari [transaksi taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
-Sebelum menjelaskan bagaimana komitmen dimasukkan ke dalam transaksi taproot, mari kita lihat **bentuk yang tepat** dari komitmen, yang harus **secara imperatif** sesuai dengan string 64-byte [constructed] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) sebagai berikut:
+Sebelum menjelaskan bagaimana komitmen dimasukkan ke dalam transaksi taproot, mari kita lihat **bentuk yang tepat** dari komitmen, yang harus **secara imperatif** sesuai dengan string 64-byte [constructed](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) sebagai berikut:
 
 ```txt
 64-byte_Tapret_Commitment =
@@ -660,8 +660,8 @@ Dalam kasus pertama ini, kita mulai dari kunci keluaran taproot (*Kunci Keluaran
 
 
 - `P`: kunci publik internal untuk _Key Path Spend_.
-- `G`: titik pembangkit kurva elips [secp256k1] (https://en.bitcoin.it/wiki/Secp256k1).
-- t = tH_TWEAK(P)` adalah faktor tweak, yang dihitung melalui hash yang ditandai (misalnya `SHA-256(SHA-256(TapTweak) || P)`), sesuai dengan [BIP86] (https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Ini membuktikan bahwa tidak ada skrip yang tersembunyi.
+- `G`: titik pembangkit kurva elips [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
+- t = tH_TWEAK(P)` adalah faktor tweak, yang dihitung melalui hash yang ditandai (misalnya `SHA-256(SHA-256(TapTweak) || P)`), sesuai dengan [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Ini membuktikan bahwa tidak ada skrip yang tersembunyi.
 
 Untuk menyertakan komitmen **Tapret**, tambahkan **Skrip Jalur Pengeluaran** dengan **skrip unik**, sebagai berikut:
 
@@ -809,7 +809,7 @@ Secara konkret, setiap _bundel transisi_ adalah milik kontrak tertentu. Semua in
 
 #### Hash Akar MPC
 
-Nilai yang sebenarnya ditulis secara on-chain (dalam `Opret` atau `Tapret`) disebut `mpc::Commitment`. Ini dihitung dalam bentuk [BIP-341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), menurut rumus :
+Nilai yang sebenarnya ditulis secara on-chain (dalam `Opret` atau `Tapret`) disebut `mpc::Commitment`. Ini dihitung dalam bentuk [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki), menurut rumus :
 
 ```txt
 mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
@@ -846,7 +846,7 @@ di mana `cofactor` adalah bilangan bulat yang meningkatkan probabilitas untuk me
 - Kami mencoba `cofactor` yang berbeda (hingga `w/2`, atau maksimum 500 untuk alasan performa);
 - Jika kita gagal memposisikan semua kontrak tanpa tabrakan, kita menambah `d` dan memulai lagi.
 
-Tujuannya adalah untuk menghindari pohon yang terlalu tinggi, sekaligus menjaga risiko tabrakan seminimal mungkin. Perlu diketahui bahwa fenomena tabrakan mengikuti logika distribusi acak, yang terkait dengan [Paradoks Hari Jadi] (https://en.wikipedia.org/wiki/Birthday_problem).
+Tujuannya adalah untuk menghindari pohon yang terlalu tinggi, sekaligus menjaga risiko tabrakan seminimal mungkin. Perlu diketahui bahwa fenomena tabrakan mengikuti logika distribusi acak, yang terkait dengan [Paradoks Hari Jadi](https://en.wikipedia.org/wiki/Birthday_problem).
 
 #### Daun yang dihuni
 
@@ -1813,7 +1813,7 @@ Implementasi Antarmuka adalah serangkaian deklarasi yang menghubungkan **Interfa
 
 #### Faktur
 
-Faktur berbentuk URL yang dikodekan dalam [base58] (https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), yang menyematkan data yang diperlukan untuk pembuatan **Transisi Status** (oleh pembayar). Dengan kata lain, faktur ini memungkinkan rekanan (*pembayar*) untuk membuat transisi yang sesuai untuk mentransfer aset atau memperbarui status kontrak.
+Faktur berbentuk URL yang dikodekan dalam [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), yang menyematkan data yang diperlukan untuk pembuatan **Transisi Status** (oleh pembayar). Dengan kata lain, faktur ini memungkinkan rekanan (*pembayar*) untuk membuat transisi yang sesuai untuk mentransfer aset atau memperbarui status kontrak.
 
 #### Jaringan Petir
 
@@ -1895,7 +1895,7 @@ State Transition adalah operasi yang mengubah status kontrak RGB ke status baru.
 
 #### Akar tunggang
 
-Mengacu pada format transaksi Segwit v1 Bitcoin, yang diperkenalkan oleh [BIP341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) dan [BIP342] (https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot meningkatkan kerahasiaan dan fleksibilitas skrip, khususnya dengan membuat transaksi menjadi lebih ringkas dan lebih sulit untuk dibedakan satu sama lain.
+Mengacu pada format transaksi Segwit v1 Bitcoin, yang diperkenalkan oleh [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) dan [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot meningkatkan kerahasiaan dan fleksibilitas skrip, khususnya dengan membuat transaksi menjadi lebih ringkas dan lebih sulit untuk dibedakan satu sama lain.
 
 #### Terminal Konsinyasi - Titik Akhir Konsinyasi
 
@@ -2313,7 +2313,7 @@ Tentu saja, tergantung pada tanggal Anda membaca kursus ini, antarmuka-antarmuka
 
 #### Contoh antarmuka
 
-Potongan kode Rust ini menunjukkan Antarmuka [RGB20] (https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (aset yang dapat dipertukarkan). Kode ini diambil dari file `rgb20.rs` dalam pustaka RGB standar. Mari kita lihat untuk memahami struktur Antarmuka dan bagaimana ia menyediakan jembatan antara, di satu sisi, logika bisnis (didefinisikan dalam Skema) dan, di sisi lain, fungsi yang terpapar ke dompet dan pengguna.
+Potongan kode Rust ini menunjukkan Antarmuka [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (aset yang dapat dipertukarkan). Kode ini diambil dari file `rgb20.rs` dalam pustaka RGB standar. Mari kita lihat untuk memahami struktur Antarmuka dan bagaimana ia menyediakan jembatan antara, di satu sisi, logika bisnis (didefinisikan dalam Skema) dan, di sisi lain, fungsi yang terpapar ke dompet dan pengguna.
 
 ```rust
 // ...
@@ -3391,7 +3391,7 @@ Dengan **RGB20**, kita mendefinisikan token yang dapat dipertukarkan pada Bitcoi
 
 ### Solusi Bitmask: dompet untuk RGB
 
-Untuk mengeksploitasi kemampuan RGB dalam praktiknya, proyek **DIBA** telah mendesain sebuah dompet yang disebut [Bitmask] (https://bitmask.app/). Idenya adalah untuk menyediakan alat berbasis Taproot yang tidak dikurung, yang dapat diakses sebagai aplikasi web atau ekstensi peramban. Bitmask mengelola aset RGB20 dan RGB21, dan mengintegrasikan berbagai mekanisme keamanan:
+Untuk mengeksploitasi kemampuan RGB dalam praktiknya, proyek **DIBA** telah mendesain sebuah dompet yang disebut [Bitmask](https://bitmask.app/). Idenya adalah untuk menyediakan alat berbasis Taproot yang tidak dikurung, yang dapat diakses sebagai aplikasi web atau ekstensi peramban. Bitmask mengelola aset RGB20 dan RGB21, dan mengintegrasikan berbagai mekanisme keamanan:
 
 
 - Kode inti ditulis dalam Rust, kemudian dikompilasi dalam WebAssembly untuk dijalankan dalam lingkungan JavaScript (React);

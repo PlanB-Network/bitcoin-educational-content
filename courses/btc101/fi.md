@@ -394,7 +394,7 @@ Kun louhijat ovat suorittaneet tämän tehtävän onnistuneesti, heidät palkita
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Käymme kaivostoiminnan käsitettä tarkemmin läpi [kaivostoimintaa koskevassa luvussa] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Käymme kaivostoiminnan käsitettä tarkemmin läpi [kaivostoimintaa koskevassa luvussa](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitaalisen niukkuuden takaaminen
 
@@ -636,7 +636,7 @@ Saatavilla on erilaisia ratkaisuja: jotkut niistä ovat edullisia, kuten "Blockm
 
 Tämän ensimmäisen käytännön ohella perintösuunnitelman laatiminen on ratkaiseva askel sen varmistamiseksi, että bitcoinisi ovat asianmukaisesti hallinnassa kuolemasi jälkeen. Tähän suunnitelmaan kuuluu kirjeen kirjoittaminen käsin, jossa hahmotat omaisuutesi luonteen, niiden käyttötavat ja niiden luotettavien henkilöiden yhteystiedot, joilla on vastuu niistä. On myös tärkeää keskustella bitcoinien perinnöstä notaarin kanssa verosäännösten noudattamisen varmistamiseksi, vaikka tälle henkilölle ei pitäisi koskaan uskoa suoraan bitcoiniesi hallintaa.
 
-Jos haluat perehtyä tarkemmin bitcoinien perintösuunnitelmaan, suosittelemme lukemaan Pamela Morganin kirjan [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) tai ilmoittautumaan BTC102-kurssille, jossa annamme ohjeita suunnitelman laatimiseen.
+Jos haluat perehtyä tarkemmin bitcoinien perintösuunnitelmaan, suosittelemme lukemaan Pamela Morganin kirjan [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) tai ilmoittautumaan BTC102-kurssille, jossa annamme ohjeita suunnitelman laatimiseen.
 
 ![image](assets/fi/037.webp)
 
@@ -713,7 +713,7 @@ Vuonna 2010, kun Bitcoin alkoi herättää huomiota tiedotusvälineissä, Satosh
 > "Hallitukset ovat hyviä katkaisemaan keskitetysti toimivan
 > napsterin kaltaiset valvotut verkot, mutta puhtaat P2P-verkot, kuten
 > Gnutella ja Tor näyttävät pitävän pintansa." - Satoshi Nakamoto
-> Satoshin poissaolosta huolimatta Bitcoinia kehitettiin edelleen: Bitcoinin historiaa kirjoitetaan 10 minuutin välein, ja protokolla toimii tänäkin päivänä tarkoitetulla tavalla. Kaikesta pelosta, epävarmuudesta tai epäilystä huolimatta Bitcoin jatkaa eteenpäin, ja sen saatavuus verkossa on erittäin vahva. Itse asiassa tämän [verkkosivuston] (https://bitcoinuptime.com/) mukaan Bitcoin on ollut toimiva ja toiminut ilman massiivisia ongelmia 99,988 prosenttia ajasta sen luomisesta lähtien.
+> Satoshin poissaolosta huolimatta Bitcoinia kehitettiin edelleen: Bitcoinin historiaa kirjoitetaan 10 minuutin välein, ja protokolla toimii tänäkin päivänä tarkoitetulla tavalla. Kaikesta pelosta, epävarmuudesta tai epäilystä huolimatta Bitcoin jatkaa eteenpäin, ja sen saatavuus verkossa on erittäin vahva. Itse asiassa tämän [verkkosivuston](https://bitcoinuptime.com/) mukaan Bitcoin on ollut toimiva ja toiminut ilman massiivisia ongelmia 99,988 prosenttia ajasta sen luomisesta lähtien.
 
 Joidenkin mielestä Bitcoin on määritelty sienimäiseksi kokonaisuudeksi, kuten [myseeli](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), kun taas toiset kuvaavat sitä [mustaksi aukoksi](https://dergigi.com/). Rakastetaan sitä tai vihataan sitä, Bitcoin jatkaa olemassaoloaan, ja sen jatkuva rytmi on 10 minuuttia lohkoa kohden kuin uuden rahajärjestelmän sydämen syke.
 
@@ -1046,7 +1046,7 @@ Siitä huolimatta El Salvadorissa ja muualla maailmassa yhä useammat yksilöt, 
 
 *Lähde : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
-Lisäksi on käynnistetty avoimen lähdekoodin ja yhteistyön hanke [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), jonka tarkoituksena on helpottaa Bitcoinin käyttöä jokapäiväisissä liiketoimissa. Tällä alustalla luetellaan kaikki kauppiaat, jotka hyväksyvät Bitcoinin, sekä erilaiset Bitcoin-yhteisöt eri puolilla maailmaa, joten voit vierailla heidän verkkosivustollaan tutustuaksesi ympärilläsi olevaan Bitcoin-ekosysteemiin. Vaikeuksista ja epäröinnistä huolimatta on siis olemassa BTCMapin kaltaisia aloitteita, jotka osaltaan tekevät Bitcoin-taloudesta helpommin lähestyttävää ja kätevämpää kaikille.
+Lisäksi on käynnistetty avoimen lähdekoodin ja yhteistyön hanke [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), jonka tarkoituksena on helpottaa Bitcoinin käyttöä jokapäiväisissä liiketoimissa. Tällä alustalla luetellaan kaikki kauppiaat, jotka hyväksyvät Bitcoinin, sekä erilaiset Bitcoin-yhteisöt eri puolilla maailmaa, joten voit vierailla heidän verkkosivustollaan tutustuaksesi ympärilläsi olevaan Bitcoin-ekosysteemiin. Vaikeuksista ja epäröinnistä huolimatta on siis olemassa BTCMapin kaltaisia aloitteita, jotka osaltaan tekevät Bitcoin-taloudesta helpommin lähestyttävää ja kätevämpää kaikille.
 
 ### Miksi meidän pitäisi hyväksyä Bitcoin sen sijaan, että ostaisimme sitä?
 

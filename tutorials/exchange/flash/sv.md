@@ -23,7 +23,7 @@ I den här handledningen tar vi en titt på Flash, en beninsk lösning som låte
 
 
 
-Flash är en Exchange-plattform som utvecklats av [BlockSolut] (https://bitcoinflash.xyz) och som är verksam i flera västafrikanska länder. Flashs huvuduppgift är att underlätta förvärv, Exchange och användning av Bitcoin i vardagen.
+Flash är en Exchange-plattform som utvecklats av [BlockSolut](https://bitcoinflash.xyz) och som är verksam i flera västafrikanska länder. Flashs huvuduppgift är att underlätta förvärv, Exchange och användning av Bitcoin i vardagen.
 
 
 Flash förlitar sig på Lightning Network, ett Bitcoin-överlägg, för att utföra Bitcoin-transaktioner säkert och smidigt, och visar sin community Bitcoin:s kraft i vardagen.

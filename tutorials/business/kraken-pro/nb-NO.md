@@ -16,7 +16,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Det første steget i å bruke Kraken til å administrere bedriftens økonomi er selvsagt å opprette en konto. Her skal vi ikke opprette en konto for enkeltpersoner, men en bedriftskonto, som ikke bare sikrer overholdelse av regelverket, men som også tilbyr spesialtilpassede funksjoner som regnskapseksport.
 
-Gå til den offisielle nettsiden [kraken.com] (https://www.kraken.com/) og klikk på "*Sign Up*"-knappen.
+Gå til den offisielle nettsiden [kraken.com](https://www.kraken.com/) og klikk på "*Sign Up*"-knappen.
 
 ![KRAKEN](assets/fr/01.webp)
 

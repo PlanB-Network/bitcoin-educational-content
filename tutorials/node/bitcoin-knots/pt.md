@@ -24,7 +24,7 @@ Há duas razões principais para utilizar um cliente alternativo como o Knots em
 
 ## Como é que instalo o Bitcoin Knots?
 
-Vá para [o site oficial do Bitcoin Knots] (https://bitcoinknots.org/#download) para descarregar a versão para o seu sistema operativo. Não se esqueça de descarregar a impressão digital e as assinaturas para verificar o software. Estes ficheiros também estão disponíveis [no repositório GitHub do Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
+Vá para [o site oficial do Bitcoin Knots](https://bitcoinknots.org/#download) para descarregar a versão para o seu sistema operativo. Não se esqueça de descarregar a impressão digital e as assinaturas para verificar o software. Estes ficheiros também estão disponíveis [no repositório GitHub do Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
 
 ![Image](assets/fr/02.webp)
 
@@ -248,7 +248,7 @@ Esta operação também pode ser efectuada através dos gráficos Bitcoin-QT do 
 
 ![Image](assets/fr/37.webp)
 
-Encontre o IP Address da máquina que aloja o Bitcoin Knots na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner] (https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
+Encontre o IP Address da máquina que aloja o Bitcoin Knots na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner](https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
 
 No ficheiro `Bitcoin.conf`, adicione as seguintes linhas, definindo `rpcbind=192.168.1.18` para corresponder ao IP Address do seu nó.
 

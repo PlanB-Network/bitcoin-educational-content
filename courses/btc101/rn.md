@@ -845,7 +845,7 @@ Amafaranga umuntu ashobora gusiga ku rugero runaka rw’umutekano ava ku muntu k
 Mu gusozera, gutunfga bwite amahera y’umuntu ni ikintu gihambaye kugira ngo umuntu agire ubwigenge bw’ivy’ubutunzi. Birahimirizwa gukoresha ingodo ngendanwa kugira ngo ukoreshe amahera y’umusi ku musi be n'iyindi ngodo idakoreshwakuri Internet, canke "Cold," Wallet y'icuma kugira ngo ubike amahera menshi. Ku rundi ruhande, ubucuruzi bukwiye kwiyumvira gukoresha uburyo bwo gusinya cane, canke "Multisig," kugira ngo umutekano wongerekane canke usabikanywe. Ni ngombwa kandi kwirinda ibikorwa vyo kubungabunga, bishobora gusubiramwo ubugoyagoye bumwebumwe bw’uburyo bw’ivy’ubutunzi bwa kera.
 
 
-Dufise ivyo mu muzirikanyi, ubu turashobora kuja mu gice gikurikira aho tuvuga biramvuye ingene twokora ingodo za Bitcoin . Ariko rero, nimba wipfuza kurushiriza gutohoza ivyerekeye umutekano, urashobora gusoma iyi [ngingo yanditswe na DarthCoin] (https://asi0.substack.com/p/Bitcoin).
+Dufise ivyo mu muzirikanyi, ubu turashobora kuja mu gice gikurikira aho tuvuga biramvuye ingene twokora ingodo za Bitcoin . Ariko rero, nimba wipfuza kurushiriza gutohoza ivyerekeye umutekano, urashobora gusoma iyi [ngingo yanditswe na DarthCoin](https://asi0.substack.com/p/Bitcoin).
 
 
 ## Gushinga Wallet
@@ -1034,7 +1034,7 @@ Ku wa 9 Nzero 2009, Satoshi yaratangaje ko izosohora igice ca Bitcoin 0.1.0. Hac
 
 Ukwizera Bitcoin vyarateye imbere vyihuse, bituma abantu benshi bayigerageza, batangura kuyiharirako, batorera umuti ibibazo, bongera bazirikana kuburanga bwayo , ubutunzi, be n’ubuhinga bwinyegeje inyuma. Abantu baragize inyota cane ku buryo Satoshi yashinze ihuriro rya BitcoinTalk ku wa 22 z'ukwicumi  narimwe 2009, kugira ngo bishobore kworohereza ubwo bwoko bw’inkuru.
 
-Iryo huriro ryacitse ahantu abakoresha Bitcoin bakunda kuganira, ku buryo ibimenyetso n’ibimenyetso bizwi cane bijanye na Bitcoin vyavutse muri ryo, nk’ikimenyetso ca Bitcoin (https://bitcointalk.org/index.php?topic=640). [HODL] (Iciyumviro=375643.0), canke mbere [Umusi wa Pizza](Iciyumviro=137.msg1195).
+Iryo huriro ryacitse ahantu abakoresha Bitcoin bakunda kuganira, ku buryo ibimenyetso n’ibimenyetso bizwi cane bijanye na Bitcoin vyavutse muri ryo, nk’ikimenyetso ca Bitcoin (https://bitcointalk.org/index.php?topic=640). [HODL](Iciyumviro=375643.0), canke mbere [Umusi wa Pizza](Iciyumviro=137.msg1195).
 
 
 **Wari ubizi?** Ku wa 22 z'ukwa Gatanu  2010, Laszlo Hanyecz yarakoze amateka mu gusaba kugura pizza zibiri ku 10.000 BTC: ni bwo bwa mbere Bitcoin yakoreshejwe mu kugura ibintu.
@@ -1065,7 +1065,7 @@ Ushaka kwiga vyinshi vyerekeye inyandiko za Satoshi Nakamoto, turaguhanura gusom
 ![image](assets/rn/044.webp)
 
 
-> "Ikibazo nyamukuru c'amafaranga asanzwe ni ukwizigira kwose gukenewe kugira ngo akore. Banki nkuru itegerezwa kwizigirwa kugira ngo ntiyigere igabanya amafaranga, ariko amateka y'amafaranga y'ubuhinga yuzuyemwo ukurenga kuri ukwo kwizigira. Amabanki ategerezwa kwizigirwa kugira ngo afate amahera yacu kandi ayayohereze mu buryo bw'ubuhinga bwa none, ariko arayagurisha mu buryo butari bwo" [Satoshi Nakamoto] (Ikigo ca Nakamoto.
+> "Ikibazo nyamukuru c'amafaranga asanzwe ni ukwizigira kwose gukenewe kugira ngo akore. Banki nkuru itegerezwa kwizigirwa kugira ngo ntiyigere igabanya amafaranga, ariko amateka y'amafaranga y'ubuhinga yuzuyemwo ukurenga kuri ukwo kwizigira. Amabanki ategerezwa kwizigirwa kugira ngo afate amahera yacu kandi ayayohereze mu buryo bw'ubuhinga bwa none, ariko arayagurisha mu buryo butari bwo" [Satoshi Nakamoto](Ikigo ca Nakamoto.
 
 None ko dufise amakuru, reka dusuzume ingene igikorwa co gucuruza Bitcoin gikora muri rusangi.
 

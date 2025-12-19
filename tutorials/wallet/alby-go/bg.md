@@ -34,7 +34,7 @@ description: Ръководство за мобилното приложение
 
 
 - iOS:** [Изтегляне от App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Изтегляне от Google Play] (https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- Android:** [Изтегляне от Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
 - ZapStore**
 
 

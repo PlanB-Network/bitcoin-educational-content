@@ -44,7 +44,7 @@ Om du har en internationell kundkrets har Bitcoin fördelen av att vara en globa
 För onlineföretag är Bitcoin också en effektiv metod för att ta emot fjärrbetalningar på ett säkert sätt utan att behöva gå via traditionella banksystem. Denna användning var faktiskt en av de ursprungliga avsikterna för Satoshi Nakamoto, uppfinnaren av Bitcoin, som beskrev det som "*Ett elektroniskt kontantsystem för peer-to-peer*".
 
 
-Slutligen kan integrationen av Bitcoin i ditt företag också vara en del av en marknadsföringsstrategi. Att acceptera BTC kan positionera ditt företag som innovativt, flexibelt och anpassat till tekniska utvecklingar, samtidigt som du öppnar upp dig för en ny marknad. Enligt [en studie av KPMG] (https://kpmg.com/fr/fr/home/media/press-releases/2024/03/web3-crypto-actifs-adan.html) äger 12% av fransmännen kryptovalutor, och en stor majoritet av dem innehar Bitcoin. Genom att acceptera detta betalningsmedel kan du attrahera denna kundkrets som vill spendera sina Sats, som annars kanske aldrig skulle ha besökt din verksamhet. Det är också ett bra sätt att göra sig känd för Generation Z.
+Slutligen kan integrationen av Bitcoin i ditt företag också vara en del av en marknadsföringsstrategi. Att acceptera BTC kan positionera ditt företag som innovativt, flexibelt och anpassat till tekniska utvecklingar, samtidigt som du öppnar upp dig för en ny marknad. Enligt [en studie av KPMG](https://kpmg.com/fr/fr/home/media/press-releases/2024/03/web3-crypto-actifs-adan.html) äger 12% av fransmännen kryptovalutor, och en stor majoritet av dem innehar Bitcoin. Genom att acceptera detta betalningsmedel kan du attrahera denna kundkrets som vill spendera sina Sats, som annars kanske aldrig skulle ha besökt din verksamhet. Det är också ett bra sätt att göra sig känd för Generation Z.
 
 
 Enligt min mening bör man se det som en möjlighet med låg risk att acceptera Bitcoin, vilket kan ha en betydande positiv inverkan på ditt företag. Om erfarenheten visar sig misslyckad kommer de uppkomna kostnaderna att förbli minimala. Huvudkostnaden ligger i den tid som behövs för att ställa in en lösning för att acceptera BTC, men som du kommer att upptäcka i denna handledning är det nu mycket enkelt och snabbt att uppnå.
@@ -67,7 +67,7 @@ Swiss Bitcoin Pay presenterar sig därmed som ett intressant alternativ mellan h
 ## Hur skapar jag ett schweiziskt Bitcoin Pay-konto?
 
 
-Besök [den officiella schweiziska Bitcoin Pay-webbplatsen] (https://swiss-Bitcoin-pay.ch/).
+Besök [den officiella schweiziska Bitcoin Pay-webbplatsen](https://swiss-Bitcoin-pay.ch/).
 
 ![SWISS BITCOIN PAY](assets/notext/01.webp)
 
@@ -144,7 +144,7 @@ Du kan redan nu komma åt betalningshanteraren i webbversion på följande webbp
 
 ![SWISS BITCOIN PAY](assets/notext/16.webp)
 
-Om du vill använda PoS på en smartphone eller surfplatta har du två alternativ: installera appen eller använda webbversionen direkt från din webbläsare. För det senare alternativet får du tillgång till din instrumentpanel genom att logga in på [den schweiziska Bitcoin Pay-webbplatsen] (https://dashboard.swiss-Bitcoin-pay.ch/signin).
+Om du vill använda PoS på en smartphone eller surfplatta har du två alternativ: installera appen eller använda webbversionen direkt från din webbläsare. För det senare alternativet får du tillgång till din instrumentpanel genom att logga in på [den schweiziska Bitcoin Pay-webbplatsen](https://dashboard.swiss-Bitcoin-pay.ch/signin).
 
 ![SWISS BITCOIN PAY](assets/notext/17.webp)
 
@@ -216,7 +216,7 @@ Eftersom jag hade valt alternativet att ta ut betalningar via en Lightning Addre
 ## Hur hanterar du ditt företag med Swiss Bitcoin Pay?
 
 
-För att hantera ditt företag mer exakt sker allt på din instrumentpanel. Besök [den officiella schweiziska Bitcoin Pay-webbplatsen] (https://swiss-Bitcoin-pay.ch/).
+För att hantera ditt företag mer exakt sker allt på din instrumentpanel. Besök [den officiella schweiziska Bitcoin Pay-webbplatsen](https://swiss-Bitcoin-pay.ch/).
 
 ![SWISS BITCOIN PAY](assets/notext/34.webp)
 

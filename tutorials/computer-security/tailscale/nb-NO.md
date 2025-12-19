@@ -169,7 +169,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-Dette skriptet vil legge til det offisielle Tailscale-depotet og installere pakken. Du kan også [manuelt legge til APT-repository] (https://pkgs.tailscale.com) eller bruke vanlige Snap- eller apt-pakker. Når den er installert, vil daemon `tailscaled` kjøre i bakgrunnen. Du må deretter **autentisere noden** (se Interface CLI vs web nedenfor). På andre distribusjoner (Fedora, Arch...) er pakken også tilgjengelig via standard repositories eller det universelle installasjonsskriptet. For en hodeløs server, bruk CLI: for eksempel `sudo tailscale up --auth-key <key>` hvis du bruker en forhåndsgenerert autentiseringsnøkkel, eller bare `tailscale up` for en interaktiv innlogging (som vil gi en URL du kan besøke for å autentisere enheten).
+Dette skriptet vil legge til det offisielle Tailscale-depotet og installere pakken. Du kan også [manuelt legge til APT-repository](https://pkgs.tailscale.com) eller bruke vanlige Snap- eller apt-pakker. Når den er installert, vil daemon `tailscaled` kjøre i bakgrunnen. Du må deretter **autentisere noden** (se Interface CLI vs web nedenfor). På andre distribusjoner (Fedora, Arch...) er pakken også tilgjengelig via standard repositories eller det universelle installasjonsskriptet. For en hodeløs server, bruk CLI: for eksempel `sudo tailscale up --auth-key <key>` hvis du bruker en forhåndsgenerert autentiseringsnøkkel, eller bare `tailscale up` for en interaktiv innlogging (som vil gi en URL du kan besøke for å autentisere enheten).
 
 
 
@@ -635,4 +635,4 @@ Tailscale er et viktig verktøy for selvhosting, takket være sin enkelhet og ef
 
 
 
-Tailscale tilbyr jevnlig nytt innhold og nye funksjoner. Ta en titt på deres [offisielle blogg] (https://tailscale.com/blog/) for de siste nyhetene og casestudiene.
+Tailscale tilbyr jevnlig nytt innhold og nye funksjoner. Ta en titt på deres [offisielle blogg](https://tailscale.com/blog/) for de siste nyhetene og casestudiene.

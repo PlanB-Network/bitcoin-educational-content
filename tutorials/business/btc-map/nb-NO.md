@@ -14,7 +14,7 @@ BTC Map er basert på OSM (OpenStreetMap), som i seg selv er et deltakende kartl
 
 
 
-Gå til [btcmap.org] (https://btcmap.org/):
+Gå til [btcmap.org](https://btcmap.org/):
 
 
 
@@ -27,10 +27,10 @@ Tilgjengelig på:
 
 
 
-- iOS via [AppStore] (https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android via [Play Store] (https://play.google.com/store/apps/details?id=org.btcmap.app)
-- [F-Droid] (https://f-droid.org/en/packages/org.btcmap/) Android-appkatalogen med åpen kildekode
-- ved å laste ned [apk android] (https://github.com/teambtcmap/btcmap-android/releases/latest) direkte fra prosjektets github
+- iOS via [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
+- Android via [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
+- [F-Droid](https://f-droid.org/en/packages/org.btcmap/) Android-appkatalogen med åpen kildekode
+- ved å laste ned [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) direkte fra prosjektets github
 - via webappen fra nettleseren din (vår oppfatning i dag)
 
 
@@ -247,7 +247,7 @@ Du vil umiddelbart legge merke til de oransjefargede områdene. Som du kan se, e
 
 
 
-BTC Map lar deg [legge til ditt eget samfunn] (https://btcmap.org/communities/add/), la oss ta en titt på det trinn for trinn:
+BTC Map lar deg [legge til ditt eget samfunn](https://btcmap.org/communities/add/), la oss ta en titt på det trinn for trinn:
 
 
 
@@ -274,7 +274,7 @@ BTC Map lar deg [legge til ditt eget samfunn] (https://btcmap.org/communities/ad
 
 
 
-[Denne siden] (https://btcmap.org/add-location/) viser deg hvordan du selv kan legge til en Bitcoin-kompatibel eiendomsoppføring ved hjelp av Open Street Map. Hvis du har problemer, finnes det et skjema du kan fylle ut, slik at noen andre kan opprette oppføringen for deg (dette kan ta flere uker). La oss ta en titt:
+[Denne siden](https://btcmap.org/add-location/) viser deg hvordan du selv kan legge til en Bitcoin-kompatibel eiendomsoppføring ved hjelp av Open Street Map. Hvis du har problemer, finnes det et skjema du kan fylle ut, slik at noen andre kan opprette oppføringen for deg (dette kan ta flere uker). La oss ta en titt:
 
 
 

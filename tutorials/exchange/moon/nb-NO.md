@@ -48,7 +48,7 @@ Med Moon har du en ekte bro mellom bitcoinsene dine og Visa-kortbetalingssysteme
 
 
 
-Gå til Moon's [offisielle plattform] (https://paywithmoon.com), klikk deretter på **"Registrer"**-knappen, pass den menneskelige bekreftelsen (CAPTCHA), og registrer deg deretter ved å skrive inn e-postadressen og passordet ditt.
+Gå til Moon's [offisielle plattform](https://paywithmoon.com), klikk deretter på **"Registrer"**-knappen, pass den menneskelige bekreftelsen (CAPTCHA), og registrer deg deretter ved å skrive inn e-postadressen og passordet ditt.
 
 
 

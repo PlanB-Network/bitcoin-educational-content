@@ -82,7 +82,7 @@ Uygulama doğrudan App Store veya Play Store'dan edinilebilir. Arama çubuğunda
 
 
 
-Jami'yi cihazınıza yüklemek için öncelikle resmi Jami web sitesini ziyaret etmeniz gerekir. Varsayılan olarak, site cihazınızın işletim sistemine karşılık gelen yazılımı görüntüler ve başlatmak için doğrudan indirme düğmesine tıklayabilirsiniz. Bununla birlikte, Windows çalıştırılabilir dosyasını doğrudan [indirme sayfası] (https://jami.net/download-jami-windows/) adresinden de indirebilirsiniz.
+Jami'yi cihazınıza yüklemek için öncelikle resmi Jami web sitesini ziyaret etmeniz gerekir. Varsayılan olarak, site cihazınızın işletim sistemine karşılık gelen yazılımı görüntüler ve başlatmak için doğrudan indirme düğmesine tıklayabilirsiniz. Bununla birlikte, Windows çalıştırılabilir dosyasını doğrudan [indirme sayfası](https://jami.net/download-jami-windows/) adresinden de indirebilirsiniz.
 
 
 
@@ -90,7 +90,7 @@ Jami'yi cihazınıza yüklemek için öncelikle resmi Jami web sitesini ziyaret 
 
 
 
-MacOS kullanıcıları için dosya [macOS indirme sayfası] (https://jami.net/download-jami-macos/) adresinden de temin edilebilir.
+MacOS kullanıcıları için dosya [macOS indirme sayfası](https://jami.net/download-jami-macos/) adresinden de temin edilebilir.
 
 
 
@@ -118,7 +118,7 @@ Jami'yi Linux'a yüklemek için en iyisi komut satırını kullanmaktır. Jami'n
 
 
 
-Dağıtımınızı seçtikten sonra sistemi kurabilirsiniz. Jami'yi Linux işletim sisteminizde çalıştırmak için gereken bağımlılıkları yüklemeniz gerekecektir. Komutlar doğrudan [bu sayfada] (https://jami.net/download-jami-linux/) mevcuttur.
+Dağıtımınızı seçtikten sonra sistemi kurabilirsiniz. Jami'yi Linux işletim sisteminizde çalıştırmak için gereken bağımlılıkları yüklemeniz gerekecektir. Komutlar doğrudan [bu sayfada](https://jami.net/download-jami-linux/) mevcuttur.
 
 
 

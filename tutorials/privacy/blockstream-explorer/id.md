@@ -7,11 +7,11 @@ description: Jelajahi lapisan utama Bitcoin dan Liquid Network
 
 
 
-Blockstream Explorer adalah sebuah proyek yang memfasilitasi eksplorasi transaksi dan status global protokol Bitcoin, serta [*sidechain*] (https://planb.academy/en/resources/glossary/sidechain) Liquid yang dikembangkan oleh perusahaan Blockstream.
+Blockstream Explorer adalah sebuah proyek yang memfasilitasi eksplorasi transaksi dan status global protokol Bitcoin, serta [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) Liquid yang dikembangkan oleh perusahaan Blockstream.
 
 
 
-Diprakarsai pada tahun 2014 oleh Blockstream, sebuah perusahaan yang didirikan oleh Adam Back, penjelajah [blockstream.info] (https://blockstream.info) bertujuan untuk menyediakan infrastruktur yang kuat untuk Bitcoin, menjamin interoperabilitas dan pelacakan transaksi antar lapisan (on-chain dan Liquid), sekaligus meningkatkan keamanan dan privasi pengguna.
+Diprakarsai pada tahun 2014 oleh Blockstream, sebuah perusahaan yang didirikan oleh Adam Back, penjelajah [blockstream.info](https://blockstream.info) bertujuan untuk menyediakan infrastruktur yang kuat untuk Bitcoin, menjamin interoperabilitas dan pelacakan transaksi antar lapisan (on-chain dan Liquid), sekaligus meningkatkan keamanan dan privasi pengguna.
 
 
 
@@ -91,7 +91,7 @@ Di bawah bagian detail ini, kita dapat menemukan semua transaksi yang termasuk d
 
 
 
-Transaksi pertama dalam blok disebut dengan **transaction coinbase**. Transaksi ini digunakan untuk mengalokasikan upah mining penambang (semua biaya yang terkait dengan transaksi yang termasuk dalam blok dan hibah blok). Bitcoin yang dihasilkan dari transaksi ini hanya dapat digunakan setelah 100 blok berturut-turut ditambang. Dengan kata lain, untuk dapat menggunakannya, penambang harus menunggu produksi blok **919430**. Hal ini dikenal sebagai [*"periode jatuh tempo"] (https://planb.academy/fr/resources/glossary/maturity-period).
+Transaksi pertama dalam blok disebut dengan **transaction coinbase**. Transaksi ini digunakan untuk mengalokasikan upah mining penambang (semua biaya yang terkait dengan transaksi yang termasuk dalam blok dan hibah blok). Bitcoin yang dihasilkan dari transaksi ini hanya dapat digunakan setelah 100 blok berturut-turut ditambang. Dengan kata lain, untuk dapat menggunakannya, penambang harus menunggu produksi blok **919430**. Hal ini dikenal sebagai [*"periode jatuh tempo"](https://planb.academy/fr/resources/glossary/maturity-period).
 
 
 
@@ -142,7 +142,7 @@ Dari halaman ini, Anda dapat mengetahui di blok mana transaksi tersebut dimasukk
 
 
 
-Liquid Network adalah [*sidechain*] (https://planb.academy/en/resources/glossary/sidechain) dan solusi open source level 2 untuk protokol Bitcoin. Secara khusus, ini memungkinkan transaksi bitcoin yang lebih cepat dan lebih rahasia.
+Liquid Network adalah [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) dan solusi open source level 2 untuk protokol Bitcoin. Secara khusus, ini memungkinkan transaksi bitcoin yang lebih cepat dan lebih rahasia.
 
 
 

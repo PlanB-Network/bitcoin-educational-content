@@ -399,4 +399,4 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Обяснителен видеоклип на френски език: [YouTube](https://youtu.be/ziwhv9KqVkM)
-- Ръководство за бързо стартиране: [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/)
+- Ръководство за бързо стартиране: [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/)

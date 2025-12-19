@@ -20,7 +20,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Kaynaklar/proje/` bölümündeki [PlanB'nin verilere ayrılmış GitHub deposu] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) adresine gidin:
+- Kaynaklar/proje/` bölümündeki [PlanB'nin verilere ayrılmış GitHub deposu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) adresine gidin:
 
 ![project](assets/02.webp)
 

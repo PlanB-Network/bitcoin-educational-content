@@ -54,7 +54,7 @@ Wallet wird ständig weiterentwickelt. Seien Sie also nicht überrascht, wenn Si
 
 
 
-- Zum Beispiel sind ab dem 19.07.2025 die Schaltflächen **"Kaufen / Verkaufen / Bezahlen "** sichtbar, aber in der Anwendung ausgegraut, da diese Optionen, die auf Exchange [bullbitcoin.com] (https://app.bullbitcoin.com/registration/orangepeel) verfügbar sind, bald für ein einheitliches Erlebnis integriert werden. Ihre Verwendung bleibt völlig optional. Viele andere Entwicklungen sind im Gange oder geplant: Multi-Wallet-Management, passphrase, Kompatibilität mit Hardware-Wallets...
+- Zum Beispiel sind ab dem 19.07.2025 die Schaltflächen **"Kaufen / Verkaufen / Bezahlen "** sichtbar, aber in der Anwendung ausgegraut, da diese Optionen, die auf Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel) verfügbar sind, bald für ein einheitliches Erlebnis integriert werden. Ihre Verwendung bleibt völlig optional. Viele andere Entwicklungen sind im Gange oder geplant: Multi-Wallet-Management, passphrase, Kompatibilität mit Hardware-Wallets...
 - Auf dem [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49) können Sie sich über aktuelle Themen und bevorstehende Entwicklungen informieren. Da das Projekt zu 100 % quelloffen und "öffentlich gebaut" ist, können Sie uns auch Ihre Vorschläge und alle Fehler, auf die Sie stoßen, schicken.
 
 
@@ -1170,7 +1170,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-[Erstellen Sie Ihr Konto] (https://app.bullbitcoin.com/registration/orangepeel) mit 0,25% Rabatt auf Bitcoin Einkäufe und Verkäufe.
+[Erstellen Sie Ihr Konto](https://app.bullbitcoin.com/registration/orangepeel) mit 0,25% Rabatt auf Bitcoin Einkäufe und Verkäufe.
 
 
 

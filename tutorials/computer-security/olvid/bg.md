@@ -60,7 +60,7 @@ Olvid е наличен за всички платформи. Можете да 
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=io.olvid.messenger);
+- [Google Play](https://play.google.com/store/apps/details?id=io.olvid.messenger);
 - [App Store](https://apps.apple.com/app/olvid/id1414865219);
 
 

@@ -819,7 +819,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 где :
 
 
-- `mpc_tag` - это тег: `urn:ubideco:mpc:commitment#2024-01-31`, выбранный в соответствии с [RGB tagging conventions] (https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
+- `mpc_tag` - это тег: `urn:ubideco:mpc:commitment#2024-01-31`, выбранный в соответствии с [RGB tagging conventions](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `depth` (1 байт) указывает глубину *MPC-дерева* ;
 - cofactor` (16 бит, в Little Endian) - параметр, используемый для повышения уникальности позиций, присвоенных каждому контракту в дереве;
 - `mpc::Root` - это корень *MPC Tree*, вычисляемый в соответствии с процессом, описанным в следующем разделе.

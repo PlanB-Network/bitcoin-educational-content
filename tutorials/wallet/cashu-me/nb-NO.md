@@ -60,7 +60,7 @@ Den kritiske avveiningen er "tillit": Selv om du kontrollerer selve tokens, må 
 
 > ...mynten driver Lightning-infrastrukturen og forvalter satoshiene for myntens ecash-brukere. Brukerne må stole på at mynten Redeem deres ecash når de ønsker å bytte til Lightning.
 
-- Cashu-dokumentasjon, [Generelle spørsmål om sikkerhet og personvern] (https://docs.cashu.space/faq#general-safety-and-privacy-questions)
+- Cashu-dokumentasjon, [Generelle spørsmål om sikkerhet og personvern](https://docs.cashu.space/faq#general-safety-and-privacy-questions)
 
 
 Dette gjør ecash til en depotløsning for selve Bitcoin, selv om du beholder full kontroll over tokens.
@@ -69,7 +69,7 @@ Dette gjør ecash til en depotløsning for selve Bitcoin, selv om du beholder fu
 ## 1️⃣ Førstegangsoppsett
 
 
-① Begynn med å besøke [Wallet.cashu.me] (https://Wallet.cashu.me) i nettleseren din. Siden Cashu.me er en `PWA`, trenger du ikke å laste den ned fra appbutikker, bare åpne nettstedet direkte i nettleseren din. For enklere tilgang kan du eventuelt installere den på enhetens startskjerm.
+① Begynn med å besøke [Wallet.cashu.me](https://Wallet.cashu.me) i nettleseren din. Siden Cashu.me er en `PWA`, trenger du ikke å laste den ned fra appbutikker, bare åpne nettstedet direkte i nettleseren din. For enklere tilgang kan du eventuelt installere den på enhetens startskjerm.
 
 
 for å installere PWA trykker du på menyknappen ⋮ i nettleseren og velger "Legg til på startskjermen". Når du har installert, lukker du nettleserfanen og starter Cashu.me fra enhetens startskjerm. På velkomstskjermen trykker du på `Neste` for å fortsette.
@@ -81,7 +81,7 @@ for å installere PWA trykker du på menyknappen ⋮ i nettleseren og velger "Le
 ![image](assets/en/01.webp)
 
 
-Når du har fullført oppsettet, må du koble deg til en `Mint`. Trykk på `ADD MINT` etterfulgt av `DISCOVER MINTS` for å se mynter anbefalt av Nostr-fellesskapet. For ytterligere verifisering kan du se mint-rangeringer på [bitcoinmints.com] (bitcoinmints.com).
+Når du har fullført oppsettet, må du koble deg til en `Mint`. Trykk på `ADD MINT` etterfulgt av `DISCOVER MINTS` for å se mynter anbefalt av Nostr-fellesskapet. For ytterligere verifisering kan du se mint-rangeringer på [bitcoinmints.com](bitcoinmints.com).
 
 
 Trykk deretter på "Klikk for å bla gjennom mints" for å se hele listen. Velg en mynte ved å kopiere URL-adressen, lime den inn i URL-feltet og gi den et gjenkjennelig navn. I dette eksempelet bruker vi
@@ -188,7 +188,7 @@ Utover kjernefunksjonaliteten for sending og mottak tilbyr Cashu.me kraftige til
 ### Nostr Wallet Connect
 
 
-Nostr Wallet Connect (`NWC`) endrer hvordan du samhandler med Nostr-applikasjoner ved å skape en sømløs forbindelse mellom din Wallet og sosiale apper. Denne protokollen gjør det mulig for applikasjoner som [Damus] (https://damus.io/) eller [Primal] (https://primal.net/home) å be om betalinger direkte gjennom Nostr-reléer uten at du trenger å forlate appen.
+Nostr Wallet Connect (`NWC`) endrer hvordan du samhandler med Nostr-applikasjoner ved å skape en sømløs forbindelse mellom din Wallet og sosiale apper. Denne protokollen gjør det mulig for applikasjoner som [Damus](https://damus.io/) eller [Primal](https://primal.net/home) å be om betalinger direkte gjennom Nostr-reléer uten at du trenger å forlate appen.
 
 
 For å sette opp `NWC` i Cashu.me:
@@ -209,13 +209,13 @@ For å sette opp `NWC` i Cashu.me:
 ### Lynet Address via npub.cash
 
 
-Cashu.me integreres med [npub.cash] (https://npub.cash/) for å gi deg en Lightning Address som fungerer sømløst med Nostr-protokollen. Her kan du registrere deg og kreve brukernavnet ditt ved å oppgi Nostr `nsec`, som koster 5000 Sats og støtter npub.cash-prosjektet, eller du kan bruke en hvilken som helst Nostr-publikumsnøkkel (`npub`) uten registrering.
+Cashu.me integreres med [npub.cash](https://npub.cash/) for å gi deg en Lightning Address som fungerer sømløst med Nostr-protokollen. Her kan du registrere deg og kreve brukernavnet ditt ved å oppgi Nostr `nsec`, som koster 5000 Sats og støtter npub.cash-prosjektet, eller du kan bruke en hvilken som helst Nostr-publikumsnøkkel (`npub`) uten registrering.
 
 
 Først går du til `Innstillinger` og trykker på `Aktiver` Lyn Address med npub.cash. Dette vil generate en npub.cash Address ved hjelp av en `npub`-streng avledet fra din Wallet seed frase som standard.
 
 
-Alternativt kan du gå til [denne nettsiden] (https://npub.cash/username) for å kreve et tilpasset brukernavn ved hjelp av din egen Nostr `nsec`, noe som gir deg et personlig Lightning Address som username@npub.cash.
+Alternativt kan du gå til [denne nettsiden](https://npub.cash/username) for å kreve et tilpasset brukernavn ved hjelp av din egen Nostr `nsec`, noe som gir deg et personlig Lightning Address som username@npub.cash.
 
 
 ![image](assets/en/11.webp)

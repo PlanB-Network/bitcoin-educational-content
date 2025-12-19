@@ -721,7 +721,7 @@ Chcete-li se o Satoshi Nakamotovi dozvědět více, doporučujeme přečíst si 
 
 ![image](assets/cs/044.webp)
 
-> "Základním problémem konvenční měny je důvěra, která je nutná k jejímu fungování. Je třeba důvěřovat centrální bance, že měnu neznehodnotí, ale historie fiat měn je plná porušení této důvěry. Bankám je třeba důvěřovat, že naše peníze budou držet a převádět elektronicky, ale ony je půjčují ve vlnách úvěrových bublin se sotva zlomkem v rezervě." - [Satoshi Nakamoto] (https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+> "Základním problémem konvenční měny je důvěra, která je nutná k jejímu fungování. Je třeba důvěřovat centrální bance, že měnu neznehodnotí, ale historie fiat měn je plná porušení této důvěry. Bankám je třeba důvěřovat, že naše peníze budou držet a převádět elektronicky, ale ony je půjčují ve vlnách úvěrových bublin se sotva zlomkem v rezervě." - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 > Nyní, když jsme se seznámili s některými souvislostmi, prozkoumejme, jak transakce s bitcoiny obecně probíhá.
 
 ## Transakce s bitcoiny

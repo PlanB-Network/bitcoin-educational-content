@@ -19,7 +19,7 @@ Zanim przejdziemy do poszczególnych kroków, wymieńmy niezbędny sprzęt do je
 
 - a [Lilygo T-display S3](https://lilygo.cc/products/t-display-s3)
 - a [USB-C power Supply](https://amzn.eu/d/gIOot90)
-- etui 3D: jeśli masz drukarkę 3D, możesz pobrać [plik 3D] (https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), w przeciwnym razie możesz go kupić w [sklepie internetowym Silexperience] (https://silexperience.company.site/NerdMiner_V2-p544379757).
+- etui 3D: jeśli masz drukarkę 3D, możesz pobrać [plik 3D](https://www.printables.com/model/501547-nerdminer-v2-click-case-w-buttons), w przeciwnym razie możesz go kupić w [sklepie internetowym Silexperience](https://silexperience.company.site/NerdMiner_V2-p544379757).
 - komputer PC z zainstalowaną przeglądarką Chrome
 - połączenie internetowe
 - a Bitcoin Address
@@ -33,7 +33,7 @@ Możesz również kupić wstępnie zmontowany zestaw NerdMiner od kilku sprzedaw
 - [BitMaker](https://bitronics.store/shop/)
 
 
-Najpierw zobaczymy, jak sflashować oprogramowanie na ESP-32 S3, a następnie zobaczymy, jak go zrestartować, aby zmienić sieć Wi-Fi. Te kroki są przeznaczone dla użytkowników systemu Windows, jeśli używasz systemu operacyjnego Linux, wykonaj [kroki wstępne] (#etapes-preliminaires-pour-utilisateurs-linux), aby umożliwić rozpoznanie ESP-32 S3 przez system.
+Najpierw zobaczymy, jak sflashować oprogramowanie na ESP-32 S3, a następnie zobaczymy, jak go zrestartować, aby zmienić sieć Wi-Fi. Te kroki są przeznaczone dla użytkowników systemu Windows, jeśli używasz systemu operacyjnego Linux, wykonaj [kroki wstępne](#etapes-preliminaires-pour-utilisateurs-linux), aby umożliwić rozpoznanie ESP-32 S3 przez system.
 
 
 **Instalacja oprogramowania NerdMiner_v2** jest znacznie uproszczona dzięki zastosowaniu webflashera.
@@ -42,7 +42,7 @@ Najpierw zobaczymy, jak sflashować oprogramowanie na ESP-32 S3, a następnie zo
 ## Krok 1: Przygotowanie aplikacji Webflasher
 
 
-Najpierw należy przejść do strony [online NM2 flasher] (https://bitmaker-hub.github.io/diyflasher/).
+Najpierw należy przejść do strony [online NM2 flasher](https://bitmaker-hub.github.io/diyflasher/).
 
 
 Następnie wybierz oprogramowanie sprzętowe odpowiadające ESP-32. W większości przypadków jest to oprogramowanie domyślne: T-Display S3. Następnie kliknij "Flash".
@@ -158,7 +158,7 @@ Oto kroki dla Chrome, aby wykryć port szeregowy w systemie Linux.
   - następnie wyloguj się i zaloguj ponownie jako ten użytkownik lub uruchom ponownie system, aby upewnić się, że zmiany grupy zostaną wprowadzone.
 
 
-Teraz, gdy ESP-32 jest rozpoznawany przez system, można wrócić do [pierwszego kroku] (#etape-1-preparation-du-webflasher) w celu instalacji oprogramowania.
+Teraz, gdy ESP-32 jest rozpoznawany przez system, można wrócić do [pierwszego kroku](#etape-1-preparation-du-webflasher) w celu instalacji oprogramowania.
 
 
 ## Wnioski

@@ -482,7 +482,7 @@ Izo ngero zirashobora gukoreshwa mu biganiro kugira ngo umuntu asigure igituma u
 ![image](assets/rn/023.webp)
 
 
-Kuko, nk’uko uru [rudodo] (https/safedean/status) rwerekana: Inflation ni vyose kiretse ikosa ry’amabanki akomeye.
+Kuko, nk’uko uru [rudodo](https/safedean/status) rwerekana: Inflation ni vyose kiretse ikosa ry’amabanki akomeye.
 
 
 
@@ -1421,7 +1421,7 @@ Iciyumviro nyamukuru ni uko hariho ingamba nyinshi zo gutsinda ugutera imbere kw
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 
-[Tora ivyo bitabo vyakozwe mu gitabu ca *Bitcoin Educational Toolkit* (navyo ushobora kubironka mu gice ca *Ibikoresho* co muri Plan ₿ Academy urubuga.] (urubuga rwa penpot.umugambi 4-4f081b21defb&igice=imigenderanire&urutonde=0&sangira-id=7154756b-3ebd-8040-8004-6475c2af5889&imigenderanire-uburyo=kwerekana-ku-gukanda)
+[Tora ivyo bitabo vyakozwe mu gitabu ca *Bitcoin Educational Toolkit* (navyo ushobora kubironka mu gice ca *Ibikoresho* co muri Plan ₿ Academy urubuga.](urubuga rwa penpot.umugambi 4-4f081b21defb&igice=imigenderanire&urutonde=0&sangira-id=7154756b-3ebd-8040-8004-6475c2af5889&imigenderanire-uburyo=kwerekana-ku-gukanda)
 
 
 ![image](assets/rn/068.webp)

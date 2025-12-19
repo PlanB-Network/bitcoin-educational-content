@@ -9,10 +9,10 @@ description: Was sind die wichtigen Faktoren, die beim Korrekturlesen an der Pla
 Willkommen zu diesem Tutorial über die **Richtlinien für das Korrekturlesen von Inhalten der Plan ₿ Academy**. Wir freuen uns, dass Sie unsere Mission teilen, Bitcoin-Materialien in so viele Sprachen wie möglich zu übersetzen, um den Menschen zu helfen, ein Bewusstsein dafür zu entwickeln, wie es funktioniert und wie es in ihrem täglichen Leben genutzt werden kann.
 
 
-Zunächst einmal haben Sie durch Ihre Mitarbeit an der Plan ₿ Academy [öffentliches Repository] (https://github.com/PlanB-Network/bitcoin-educational-content) die Möglichkeit, Tutorials zu schreiben, die vorhandenen Inhalte zu korrigieren oder sogar die Aufnahme einer neuen Sprache in die Plattform vorzuschlagen. Um mehr zu erfahren, treten Sie zunächst unserer [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) bei und schreiben Sie eine kurze Präsentation über sich und die Sprachen, die Sie sprechen.
+Zunächst einmal haben Sie durch Ihre Mitarbeit an der Plan ₿ Academy [öffentliches Repository](https://github.com/PlanB-Network/bitcoin-educational-content) die Möglichkeit, Tutorials zu schreiben, die vorhandenen Inhalte zu korrigieren oder sogar die Aufnahme einer neuen Sprache in die Plattform vorzuschlagen. Um mehr zu erfahren, treten Sie zunächst unserer [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) bei und schreiben Sie eine kurze Präsentation über sich und die Sprachen, die Sie sprechen.
 
 
-Das vorliegende Tutorial ist denjenigen gewidmet, die Inhalte Korrektur lesen wollen. Die meisten von ihnen wissen nicht viel über [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) oder die [Markdown-Sprache] (https://www.markdownguide.org/basic-syntax/), die wir innerhalb des Repositorys verwenden, daher ist es wichtig, einige Einblicke in die Schlüsselfaktoren dieser Aufgabe zu geben.
+Das vorliegende Tutorial ist denjenigen gewidmet, die Inhalte Korrektur lesen wollen. Die meisten von ihnen wissen nicht viel über [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) oder die [Markdown-Sprache](https://www.markdownguide.org/basic-syntax/), die wir innerhalb des Repositorys verwenden, daher ist es wichtig, einige Einblicke in die Schlüsselfaktoren dieser Aufgabe zu geben.
 
 
 Nachfolgend habe ich die häufigsten Probleme zusammengestellt, auf die Korrekturleser stoßen. Fühlen Sie sich frei, weitere Vorschläge zu machen, denn das kann anderen helfen, sich zu verbessern.
@@ -44,7 +44,7 @@ In diesem Sinne sind alle Mitwirkenden der Plan ₿ Academy Pädagogen!
 ## Die ersten Schritte vor dem Korrekturlesen an der Plan ₿ Academy
 
 
-Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Academy-Koordinator, der eine spezielle [Ausgabe] (https://github.com/orgs/PlanB-Network/projects/3) eröffnet. Wenn Sie den Link zum Thema erhalten, kommentieren Sie einfach, dass Sie mit dem Korrekturlesen dieses Inhalts beginnen**.
+Bevor Sie mit einer neuen Korrekturleseaufgabe beginnen, kündigen Sie sie in der [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) an oder informieren Sie Ihren Plan ₿ Academy-Koordinator, der eine spezielle [Ausgabe](https://github.com/orgs/PlanB-Network/projects/3) eröffnet. Wenn Sie den Link zum Thema erhalten, kommentieren Sie einfach, dass Sie mit dem Korrekturlesen dieses Inhalts beginnen**.
 
 
 Dieses System hilft dem Koordinator, den Fortschritt innerhalb des Repos zu verfolgen, und ermöglicht es, dass der Inhalt vom Korrekturleser "beansprucht" wird, um doppelte Arbeit durch jemand anderen zu verhindern.
@@ -60,7 +60,7 @@ Zuallererst sollten Sie **STETS daran denken, Ihr Projektarchiv auf dem "dev"-Zw
 
 
 
-Nach erfolgreicher Synchronisierung können Sie direkt auf den gewünschten Inhalt zugreifen und in einen neuen Zweig übertragen, wie in diesem [Tutorial] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) gezeigt. Andernfalls können Sie eine neue Verzweigung öffnen, in der Sie arbeiten möchten, indem Sie auf "Verzweigungen" klicken, wie unten gezeigt.
+Nach erfolgreicher Synchronisierung können Sie direkt auf den gewünschten Inhalt zugreifen und in einen neuen Zweig übertragen, wie in diesem [Tutorial](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) gezeigt. Andernfalls können Sie eine neue Verzweigung öffnen, in der Sie arbeiten möchten, indem Sie auf "Verzweigungen" klicken, wie unten gezeigt.
 
 
 
@@ -277,7 +277,7 @@ Nachfolgend finden Sie einige Beispiele für Formatierungsfragen, auf die Sie be
 ## Korrekturlesen von Tutorials
 
 
-Wenn Sie sich für das Korrekturlesen von Tutorials entscheiden, eröffnet der Koordinator ein spezielles Thema für den **gesamten Tutorial-Bereich**. Wenn Sie Ihre Aufgabe beendet haben, können Sie Ihren Fortschritt dokumentieren, indem Sie in der Ausgabe einen Kommentar mit einer Liste der überprüften Tutorials abgeben: Auf diese Weise schaffen Sie ein klares Nachverfolgungssystem für zukünftige Referenzen, was wichtig ist, da jeden Monat neue Inhalte hinzugefügt werden. Ein Beispiel für diesen Ansatz finden Sie [hier] (https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+Wenn Sie sich für das Korrekturlesen von Tutorials entscheiden, eröffnet der Koordinator ein spezielles Thema für den **gesamten Tutorial-Bereich**. Wenn Sie Ihre Aufgabe beendet haben, können Sie Ihren Fortschritt dokumentieren, indem Sie in der Ausgabe einen Kommentar mit einer Liste der überprüften Tutorials abgeben: Auf diese Weise schaffen Sie ein klares Nachverfolgungssystem für zukünftige Referenzen, was wichtig ist, da jeden Monat neue Inhalte hinzugefügt werden. Ein Beispiel für diesen Ansatz finden Sie [hier](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
 
 
 ![REVIEW](assets/en/13.webp)

@@ -96,13 +96,13 @@ Puedes usar Balena Etcher para hacer esto. Descárgalo aquí.
 
 Etcher es fácil de usar. Inserta tu tarjeta micro SD y flashea el software de Raspiblitz (archivo .img) en la tarjeta SD.
 
-![image] (assets/6.webp)
+![image](assets/6.webp)
 
-![image] (assets/7.webp)
+![image](assets/7.webp)
 
-![image]  (assets/8.webp)
+![image](assets/8.webp)
 
-![image] (assets/9.webp)
+![image](assets/9.webp)
 
 Una vez hecho, la unidad ya no es legible. Es posible que recibas un error del sistema operativo y la unidad desaparezca del escritorio. Retira la tarjeta.
 

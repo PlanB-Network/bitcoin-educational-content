@@ -41,7 +41,7 @@ Protons affärsmodell bygger på ett prenumerationssystem, vilket är betryggand
 Proton Drive erbjuder mycket mer än enkla lagringsalternativ; det gör det också möjligt att dela, redigera och samarbeta om dokument online med redigeringsverktyg, liknande Googles programvarusvit.
 
 
-När det gäller [prissättning] (https://proton.me/pricing) erbjuder den kostnadsfria versionen upp till 5 GB lagringsutrymme och innehåller grundläggande funktioner. För att utöka kapaciteten till 200 GB lagringsutrymme finns en särskild prenumeration på Proton Drive tillgänglig för 4 € per månad. Proton Unlimited-paketet, å andra sidan, erbjuder för 10 € per månad ett lagringsutrymme på upp till 500 GB på Proton Drive, förutom att inkludera alla Protons betaltjänster, till exempel VPN och lösenordshanterare, samt ytterligare fördelar med gratisverktyg (e-post och kalender).
+När det gäller [prissättning](https://proton.me/pricing) erbjuder den kostnadsfria versionen upp till 5 GB lagringsutrymme och innehåller grundläggande funktioner. För att utöka kapaciteten till 200 GB lagringsutrymme finns en särskild prenumeration på Proton Drive tillgänglig för 4 € per månad. Proton Unlimited-paketet, å andra sidan, erbjuder för 10 € per månad ett lagringsutrymme på upp till 500 GB på Proton Drive, förutom att inkludera alla Protons betaltjänster, till exempel VPN och lösenordshanterare, samt ytterligare fördelar med gratisverktyg (e-post och kalender).
 
 ![PROTON DRIVE](assets/notext/03.webp)
 

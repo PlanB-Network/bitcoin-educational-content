@@ -344,7 +344,7 @@ Em seguida, siga os passos 3 e 4 na secção macOS.
 
 
 
-Primeiro, instale o Rust via [rustup.rs] (https://rustup.rs/) e, em seguida, use o PowerShell :
+Primeiro, instale o Rust via [rustup.rs](https://rustup.rs/) e, em seguida, use o PowerShell :
 
 
 
@@ -368,7 +368,7 @@ Configuração idêntica: copie `.env-sample` para `.env` e preencha seus parâm
 
 
 
-**Passo 1**: Ir para a [página de lançamentos do GitHub] (https://github.com/MostroP2P/mobile/releases) e descarregar o ficheiro **app-release.apk** (aprox. 65 MB).
+**Passo 1**: Ir para a [página de lançamentos do GitHub](https://github.com/MostroP2P/mobile/releases) e descarregar o ficheiro **app-release.apk** (aprox. 65 MB).
 
 
 

@@ -87,7 +87,7 @@ Ente Auth zostało opracowane przez zespół stojący za Ente Photos, kompleksow
 
 
 
-Ente Auth jest dostępny na większości popularnych platform. Aplikację można pobrać z [oficjalnej strony internetowej] (https://ente.io/auth) lub z oficjalnych sklepów.
+Ente Auth jest dostępny na większości popularnych platform. Aplikację można pobrać z [oficjalnej strony internetowej](https://ente.io/auth) lub z oficjalnych sklepów.
 
 
 
@@ -109,7 +109,7 @@ Dostępnych jest kilka opcji:
 
 - **Sklep Google Play**: Wyszukaj "Ente Auth" dla klasycznej instalacji
 - **F-Droid**: Dostępne z katalogu aplikacji open-source dla systemu Android, z gwarancją sprawdzonej konstrukcji i braku zastrzeżonych treści
-- **Instalacja ręczna**: Pliki APK można pobrać z [strony GitHub projektu] (https://github.com/ente-io/auth/releases) ze zintegrowanymi powiadomieniami o nowych wersjach
+- **Instalacja ręczna**: Pliki APK można pobrać z [strony GitHub projektu](https://github.com/ente-io/auth/releases) ze zintegrowanymi powiadomieniami o nowych wersjach
 
 
 
@@ -350,7 +350,7 @@ Ente Auth oferuje kilka praktycznych funkcji:
 
 
 
-**Ikony automatyczne**: Każdy wpis może być zilustrowany logo serwisu, dzięki integracji pakietu ikon [Simple Icons] (https://simpleicons.org/).
+**Ikony automatyczne**: Każdy wpis może być zilustrowany logo serwisu, dzięki integracji pakietu ikon [Simple Icons](https://simpleicons.org/).
 
 
 

@@ -447,7 +447,7 @@ Trots att LibreWolf har vissa begränsningar (inga automatiska uppdateringar, be
 
 
 - [Sekretessguider](https://www.privacyguides.org/en/desktop-browsers/)
-- [Jämförande integritetstester] (https://privacytests.org)
+- [Jämförande integritetstester](https://privacytests.org)
 
 
 
@@ -456,5 +456,5 @@ Trots att LibreWolf har vissa begränsningar (inga automatiska uppdateringar, be
 
 
 
-- [Subreddit r/LibreWolf] (https://www.reddit.com/r/LibreWolf/)
-- [Canal Matrix LibreWolf] (https://matrix.to/#/#librewolf:matrix.org)
+- [Subreddit r/LibreWolf](https://www.reddit.com/r/LibreWolf/)
+- [Canal Matrix LibreWolf](https://matrix.to/#/#librewolf:matrix.org)

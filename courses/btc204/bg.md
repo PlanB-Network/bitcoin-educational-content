@@ -1481,7 +1481,7 @@ ___
 
 
 
-- Поредицата от четири статии, озаглавена: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), изготвена от Samourai Wallet през 2021 г;
+- Поредицата от четири статии, озаглавена: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), изготвена от Samourai Wallet през 2021 г;
 - Различните доклади на [OXT Research](https://medium.com/oxt-research), както и техният безплатен инструмент за анализ на блокчейна (за момента вече не е наличен след ареста на основателите на Samourai Wallet);
 - В по-общ план знанията ми идват от различни туитове и съдържание от [@LaurentMT](https://twitter.com/LaurentMT) и [@ErgoBTC](https://twitter.com/ErgoBTC);
 - Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), в който участвах в компанията на [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) и [@LaurentMT](https://twitter.com/LaurentMT).

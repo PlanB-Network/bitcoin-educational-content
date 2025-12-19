@@ -125,7 +125,7 @@ Niba wipfuza gukoresha ubuhinga bwo gucungera amakuru bwa Seedkeeper, biragaraga
 
 
 
-Muri iyi nyigisho, tuzosubiramwo igitabu cacu ca seed ku Mucungezi wacu w'Imbuto. Intambwe ya mbere ni ugushira iyo porogarama kuri mudasobwa yawe canke kuri telefone yawe. Kuri PC, uzokenera [gukuraho verisiyo nshasha ya Satochip-Utils](ibisohoka). Ku mbuga ngurukanabumenyi, porogarama ya Seedkeeper iraboneka ku [Iduka rya Google Play] (Iduka ry’Imbuto) be no kuri [Iduka ry’Imbuto rya Apple] (Iduka ry’Imbuto ry’Imbuto).
+Muri iyi nyigisho, tuzosubiramwo igitabu cacu ca seed ku Mucungezi wacu w'Imbuto. Intambwe ya mbere ni ugushira iyo porogarama kuri mudasobwa yawe canke kuri telefone yawe. Kuri PC, uzokenera [gukuraho verisiyo nshasha ya Satochip-Utils](ibisohoka). Ku mbuga ngurukanabumenyi, porogarama ya Seedkeeper iraboneka ku [Iduka rya Google Play](Iduka ry’Imbuto) be no kuri [Iduka ry’Imbuto rya Apple](Iduka ry’Imbuto ry’Imbuto).
 
 
 

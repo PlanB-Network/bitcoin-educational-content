@@ -60,7 +60,7 @@ Session ist auf allen Plattformen verfügbar. Sie können die Anwendung direkt a
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger);
-- [App Store] (https://apps.apple.com/us/app/session-private-messenger/id1470168868);
+- [App Store](https://apps.apple.com/us/app/session-private-messenger/id1470168868);
 - [F-Droid](https://fdroid.getsession.org/).
 
 
@@ -259,7 +259,7 @@ Sobald die Person Ihre Anfrage akzeptiert, wird ihr Benutzername angezeigt, und 
 
 
 
-Um Ihr Konto auf Ihrem Computer zu synchronisieren, müssen Sie die Software installieren. [Laden Sie sie von der offiziellen Website herunter] (https://getsession.org/download). Ich empfehle Ihnen, vor der Installation die Authentizität und Integrität der Software zu überprüfen.
+Um Ihr Konto auf Ihrem Computer zu synchronisieren, müssen Sie die Software installieren. [Laden Sie sie von der offiziellen Website herunter](https://getsession.org/download). Ich empfehle Ihnen, vor der Installation die Authentizität und Integrität der Software zu überprüfen.
 
 
 

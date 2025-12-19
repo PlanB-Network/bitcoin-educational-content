@@ -32,7 +32,7 @@ Et operativsystem (OS) er den viktigste programvaren som administrerer alle data
 ### 2. Last ned
 
 
-- Gå til [ubuntu.com/download] (https://ubuntu.com/download)
+- Gå til [ubuntu.com/download](https://ubuntu.com/download)
 - Velg den stabile versjonen (LTS anbefales)
 - Last ned ISO-bilde
 
@@ -45,7 +45,7 @@ Et operativsystem (OS) er den viktigste programvaren som administrerer alle data
 Du kan bruke flere verktøy, for eksempel Balena Etcher:
 
 
-- Last ned og installer [Balena Etcher] (https://etcher.balena.io/)
+- Last ned og installer [Balena Etcher](https://etcher.balena.io/)
 
 ![Page de téléchargement Balena Etcher](assets/fr/03.webp)
 

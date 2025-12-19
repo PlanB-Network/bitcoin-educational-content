@@ -89,7 +89,7 @@ Imbere yo gutangura gukoresha **Bull Bitcoin Mobile**, urabe neza ko ufise ibi b
 - [iOS](https://igerageza ry'indege.
  - Suzuma izina ry’umuhinguzi (Bull Bitcoin) kugira ngo wirinde amaporogarama y’ubuhendanyi.
  - Raba neza ko verisiyo yakuweho ihuye na verisiyo nshasha ihamye yerekanwa kuri GitHub.
- - Inka Bitcoin Telefone ngendanwa ni **inkomoko yuguruye**. Kugira ngo ubone kode: [BullBitcoin GitHub] (urubuga rwa Satoshi/imigambi/49)
+ - Inka Bitcoin Telefone ngendanwa ni **inkomoko yuguruye**. Kugira ngo ubone kode: [BullBitcoin GitHub](urubuga rwa Satoshi/imigambi/49)
 
 
 
@@ -179,7 +179,7 @@ Wallet BullBitcoin ifatanya n’abakozi ba Electrum ku buryo busanzwe: iya mbere
 
 
 
-Kugira ngo ubone ibanga ryinshi, urashobora gufatanya porogarama n’urudodo rwawe bwite rwa Bitcoin biciye ku murongo wa Electrum (amabwirizwa araboneka kuri [GitHub ya BullBitcoin] (https://github.com/orgs/SatoshiPortal/imigambi/49) ).
+Kugira ngo ubone ibanga ryinshi, urashobora gufatanya porogarama n’urudodo rwawe bwite rwa Bitcoin biciye ku murongo wa Electrum (amabwirizwa araboneka kuri [GitHub ya BullBitcoin](https://github.com/orgs/SatoshiPortal/imigambi/49) ).
 
 
 
@@ -1103,7 +1103,7 @@ Kugira ngo ukoreshe **Bull Bitcoin Mobile** mu buryo butekanye kandi bubereye, u
 - [abakozi@infashanyo.com](ubutumwa kuri:abakozi@infashanyo.com), **infashanyo@bullbitcoin.com** : imeyili y'infashanyo
 - [Urubuga rwemewe rwa Bull Bitcoin](https://bullbitcoin.com/): **Amakuru ku bikorwa vya Bull Bitcoin, gukora konti, gushika ku rubuga**
 - **Raba kode, iterambere n'ikarata y'inzira, ushiremwo umusanzu mu guteza imbere...**
-- [Konti X - Twitter Inka Bitcoin] (IkimasaBitcoin_)
+- [Konti X - Twitter Inka Bitcoin](IkimasaBitcoin_)
 - Telegram** itsinda rya Wallet telefone ngendanwa: ikiganiro c'itsinda n'abafasha, raba "Imiterere" urupapuro.
 
 

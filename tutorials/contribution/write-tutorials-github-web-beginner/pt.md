@@ -12,7 +12,7 @@ Já tem:
 
 
 - Escolha um tema para o seu tutorial;
-- Contactou a equipa do Plano ₿ Network através do [grupo Telegram] (https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
+- Contactou a equipa do Plano ₿ Network através do [grupo Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
 - Escolha as suas ferramentas de contribuição.
 
 Neste tutorial, veremos como adicionar seu tutorial ao Plan ₿ Academy usando a versão web do GitHub. Se você já domina o Git, este tutorial muito detalhado pode não ser necessário para você. Em vez disso, recomendo que você confira um desses outros 2 tutoriais, onde detalho as diretrizes a serem seguidas e as etapas para fazer alterações de um arquivo:
@@ -32,7 +32,7 @@ Pré-requisitos antes de iniciar o tutorial:
 
 
 - Ter uma [conta GitHub](https://github.com/signup);
-- Ter uma bifurcação do repositório de fontes do [Plano ₿ Rede] (https://github.com/PlanB-Network/bitcoin-educational-content);
+- Ter uma bifurcação do repositório de fontes do [Plano ₿ Rede](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Ter [um perfil de professor no Plan ₿ Academy](https://planb.academy/professors) (apenas se oferecer uma tutoria completa).
 
 Se precisar de ajuda para obter estes pré-requisitos, os meus outros tutoriais irão ajudá-lo:
@@ -321,7 +321,7 @@ A subpasta de idioma na pasta `/assets` (no meu exemplo: `/assets/en`) é utiliz
 
 Para nomear suas imagens, basta usar números correspondentes à ordem de aparecimento no tutorial, formatados com dois dígitos (ou três dígitos se o tutorial contiver mais de 99 imagens). Por exemplo, nomeie a primeira imagem como `01.webp`, a segunda como `02.webp`, e assim por diante.
 
-As suas imagens devem estar apenas no formato `.webp`. Se necessário, pode utilizar o [meu software de conversão de imagens] (https://github.com/LoicPandul/ImagesConverter).
+As suas imagens devem estar apenas no formato `.webp`. Se necessário, pode utilizar o [meu software de conversão de imagens](https://github.com/LoicPandul/ImagesConverter).
 
 ![GITHUB](assets/fr/32.webp)
 
@@ -354,7 +354,7 @@ Se pretender criar os seus próprios esquemas, certifique-se de que segue as dir
 
 **É imperativo que todos os elementos visuais integrados nos seus tutoriais estejam isentos de direitos de autor ou respeitem a licença do ficheiro fonte**. Por conseguinte, todos os diagramas publicados na Plan ₿ Academy são disponibilizados ao abrigo de uma licença CC-BY-SA, da mesma forma que o texto.
 
-**-> Dica:** Ao partilhar ficheiros em público, como imagens, é importante remover metadados supérfluos. Estes podem conter informações sensíveis, tais como dados de localização, datas de criação e detalhes do autor. Para proteger a sua privacidade, é uma boa ideia remover estes metadados. Para simplificar esta operação, pode utilizar ferramentas especializadas, como o [Exif Cleaner] (https://exifcleaner.com/), que lhe permite limpar os metadados de um documento com um simples arrastar e largar.
+**-> Dica:** Ao partilhar ficheiros em público, como imagens, é importante remover metadados supérfluos. Estes podem conter informações sensíveis, tais como dados de localização, datas de criação e detalhes do autor. Para proteger a sua privacidade, é uma boa ideia remover estes metadados. Para simplificar esta operação, pode utilizar ferramentas especializadas, como o [Exif Cleaner](https://exifcleaner.com/), que lhe permite limpar os metadados de um documento com um simples arrastar e largar.
 
 ## 9 - Propor o tutorial
 
@@ -390,4 +390,4 @@ Se pretender alterar a sua contribuição depois de já ter apresentado o seu RP
 - Se o seu PR ainda estiver aberto e ainda não tiver sido fundido, faça as alterações no mesmo ramo de trabalho. As alterações do commit serão adicionadas ao seu PR ainda aberto;
 - No caso de o seu PR já ter sido fundido com o ramo principal, terá de refazer o processo desde o início, criando um novo ramo e, em seguida, submetendo um novo PR. Certifique-se de que a sua bifurcação está sincronizada com o repositório de fontes da Plan ₿ Academy no ramo `dev` antes de prosseguir.
 
-Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições] (https://t.me/PlanBNetwork_ContentBuilder). Muito obrigado!
+Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições](https://t.me/PlanBNetwork_ContentBuilder). Muito obrigado!

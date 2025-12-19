@@ -1,0 +1,8 @@
+question: Ni ikosa irihe rikwiye gutuma haba ubwoba muri porogarama za Rust?
+answer: Amakosa adashobora gusubirwamwo yerekana amakosa yo gukora porogarama canke ibintu bidatekanye
+wrong_answers:
+  - Ihuriro ry'urubuga ryananiwe canke amakosa y'igihe kiva ku bikorwa vyo hanze
+  - Injiza y'umukoresha idakwiriye canke dosiye z'imiterere zibuze
+  - Dosiye ntiyabonetse amakosa canke uruhusha rwanse ibidasanzwe
+explanation: |
+  Ubwoba bukwiye gushirwa ku makosa adashobora gusubirwamwo aserukira amakosa yo gukora porogarama canke ibintu aho porogarama yinjiye mu gihe kitari ciza, nk’ugurenga ku mipaka y’urutonde canke ibibazo vy’umutekano w’ubwenge. Inyishu zitari zo zose zidondora amakosa ashobora gusubirwamwo - ukunanirwa kw'urubuga, ingorane z'inyungu z'abakoresha, n'ibibazo vy'uburyo bwa dosiye ni ibintu vyitezwe ko porogarama zishobora gukora neza hakoreshejwe ubwoko bw'Ibisubizo aho gusenyuka. Aya makosa ashobora gusubirwamwo atuma porogarama zikomeza gukora mu gushiramwo ubuhinga bukwiye bwo gutorera umuti amakosa.

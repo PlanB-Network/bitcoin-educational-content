@@ -1,5 +1,5 @@
 ---
-name: Ambiente de trabalho Specter
+name: Specter Desktop
 description: Gerir as suas carteiras Bitcoin multi-assinaturas em total soberania com o seu próprio nó
 ---
 
@@ -509,6 +509,6 @@ Embora a aplicação exija um investimento inicial em infraestrutura e aprendiza
 
 
 
-- [Grupo comunitário do Telegrama Specter] (https://t.me/spectersupport)
+- [Grupo comunitário do Telegrama Specter](https://t.me/spectersupport)
 - [Fórum de discussão do Reddit](https://reddit.com/r/specterdesktop/)
 - [Relatórios de erros do GitHub](https://github.com/cryptoadvance/specter-desktop/issues)

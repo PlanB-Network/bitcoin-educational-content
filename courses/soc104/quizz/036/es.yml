@@ -1,0 +1,8 @@
+question: Según Milton Friedman, ¿por qué los programas sociales para los pobres no suelen alcanzar sus objetivos?
+answer: Porque crean efectos perversos como la dependencia económica y las distorsiones del mercado
+wrong_answers:
+  - Porque sus padrinos carecen de buenas intenciones y generosidad hacia los necesitados
+  - Porque no tienen fondos suficientes para cubrir las necesidades reales
+  - Porque los beneficiarios no entienden cómo utilizar estos programas eficazmente
+explanation: |
+  Friedman señala que las políticas sociales, a pesar de sus generosas intenciones, suelen fracasar porque no tienen en cuenta el análisis riguroso de los incentivos y el comportamiento humanos. Estos programas crean efectos perversos imprevistos, como la dependencia económica o la distorsión del mercado, produciendo resultados contrarios a los objetivos iniciales.

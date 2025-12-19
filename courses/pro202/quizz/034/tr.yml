@@ -1,0 +1,8 @@
+question: Bir P2SH ScriptSig'de onu normal işlem girdilerinden ayıran hangi özel unsur bulunmalıdır?
+answer: Kilit açma verileriyle birlikte kurtarma komut dosyasının tamamı
+wrong_answers:
+  - Kurtarma betiğinin HASH160'ı ve açık anahtarlar
+  - Yalnızca koşulları karşılamak için gereken imzalar ve açık anahtarlar
+  - P2SH doğrulaması için sürüm baytı ve adres kodlaması
+explanation: |
+  P2SH girdileri hem kilit açma verilerini (imzalar vb.) hem de ScriptSig'deki tam kurtarma komut dosyasını gerektirir. Bu benzersiz bir durumdur çünkü kurtarma senaryosu daha önce bir hash'in arkasına gizlenmişti ve şimdi doğrulama için ortaya çıkarılmalıdır. İlk doğrulama adımı HASH160(redeem_script)'in scriptPubKey'deki hash ile eşleşip eşleşmediğini kontrol eder, ardından redeem script sağlanan kilit açma verileriyle yürütülür. Diğer seçenekler yanlıştır: karma zaten orijinal scriptPubKey'dedir, imzalar komut dosyası olmadan tek başına yeterli değildir ve sürüm baytları doğrulama için değil adres kodlaması için kullanılır.

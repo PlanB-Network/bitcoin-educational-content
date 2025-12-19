@@ -1,0 +1,8 @@
+question: Quelle est la principale différence entre les erreurs récupérables et les erreurs irrécupérables dans le système de gestion des erreurs de Rust ?
+answer: Les erreurs récupérables peuvent être traitées avec élégance, ce qui permet aux programmes de se poursuivre, tandis que les erreurs irrécupérables mettent fin au programme
+wrong_answers:
+  - Les erreurs récupérables utilisent la macro panic ! tandis que les erreurs irrécupérables utilisent l'énumération Result pour une gestion correcte des erreurs
+  - Les erreurs récupérables se produisent au moment de la compilation, tandis que les erreurs irrécupérables ne se produisent que pendant l'exécution du programme
+  - Les erreurs récupérables nécessitent de dérouler la pile, tandis que les erreurs non récupérables peuvent être ignorées par le code appelant
+explanation: |
+  Rust classe les erreurs selon que les programmes peuvent raisonnablement les récupérer. Les erreurs récupérables représentent des conditions d'échec attendues, telles que des fichiers manquants ou des problèmes de réseau, que les programmes peuvent traiter avec élégance en utilisant des types de résultats, ce qui permet à l'exécution de se poursuivre avec une gestion appropriée des erreurs. Les erreurs irrécupérables indiquent des problèmes fondamentaux tels que des violations de la sécurité de la mémoire ou des erreurs logiques pour lesquelles le programme ne peut pas continuer en toute sécurité, déclenchant des paniques qui mettent fin à l'exécution afin d'éviter toute corruption supplémentaire.

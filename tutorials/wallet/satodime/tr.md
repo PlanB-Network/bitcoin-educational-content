@@ -38,7 +38,7 @@ Satodime, bir **carte au porteur, önceden kayıt veya kimlik tespiti gerekmeksi
 
 
 
-Uygulama düzenli olarak gelişmektedir. Güncellemeler için Satochip web sitesini veya mağazalarını kontrol edin. Örneğin, yeni blok zincirleri veya satın alma işlevleri eklenebilir. Devam eden gelişmeler için [Satochip GitHub] (https://github.com/Toporin/Satodime-Applet) adresini kontrol edin.
+Uygulama düzenli olarak gelişmektedir. Güncellemeler için Satochip web sitesini veya mağazalarını kontrol edin. Örneğin, yeni blok zincirleri veya satın alma işlevleri eklenebilir. Devam eden gelişmeler için [Satochip GitHub](https://github.com/Toporin/Satodime-Applet) adresini kontrol edin.
 
 
 
@@ -124,7 +124,7 @@ Genel bir kural olarak, **aşağıdaki tüm işlemler Satodime kartının tarana
 - Uygulamada "*Ownership'i Al*" seçeneğine tıklayın.
 - İşlemi onaylayın: bu işlem benzersiz bir sahip anahtarı oluşturur.
 - Değişiklikleri uygulamak için haritayı tekrar tarayın.
-- Uyarı**: Bu adım geri döndürülemez. Lütfen [mülkiyet* ile ilgili makaleye] (https://satochip.io/satodime-ownership-explained/) bakınız.
+- Uyarı**: Bu adım geri döndürülemez. Lütfen [mülkiyet* ile ilgili makaleye](https://satochip.io/satodime-ownership-explained/) bakınız.
 
 
 
@@ -305,7 +305,7 @@ Satodime'a özel :
 
 
 
-[Plan ₿ Akademi] (https://planb.academy/) kendi kendine saklama, özel anahtarlar vb. hakkında eğitimler için.
+[Plan ₿ Akademi](https://planb.academy/) kendi kendine saklama, özel anahtarlar vb. hakkında eğitimler için.
 
 
 

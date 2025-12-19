@@ -1,0 +1,8 @@
+question: Apa yang memastikan bahwa kedua belah pihak dalam cross-layer swap berhasil menyelesaikan transaksi atau keduanya gagal tanpa kehilangan dana?
+answer: Kunci hash yang sama digunakan pada kedua jaringan, menciptakan pengikatan kriptografi antara kaki-kaki swap
+wrong_answers:
+  - Kunci waktu mencegah salah satu pihak untuk mengklaim dana hingga kedua jaringan mengkonfirmasi transaksi
+  - Agregasi kunci MuSig2 mengharuskan kedua belah pihak untuk menandatangani bersama sebelum dana dapat dipindahkan
+  - "Jalur skrip Taproot secara otomatis membalikkan transaksi jika satu jaringan gagal diselesaikan"
+explanation: |
+  Sifat atomik dari cross-layer swap bergantung pada penggunaan kunci hash yang identik di kedua jaringan. Ketika penerima mengungkapkan gambar rahasia untuk mengklaim dana pada satu lapisan, rahasia yang sama menjadi terlihat dan dapat digunakan oleh pengirim untuk mengklaim dana timbal balik pada lapisan lainnya. Pengikatan kriptografi ini memastikan keaslian - kedua belah pihak mendapatkan dana mereka atau tidak ada yang mendapatkannya, sehingga menghilangkan risiko mitra pengimbang dalam pertukaran tanpa kepercayaan.

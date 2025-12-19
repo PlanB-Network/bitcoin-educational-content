@@ -70,7 +70,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Ladda ner applikationen från [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/).
+- Ladda ner applikationen från [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
 - Följ installationsanvisningarna på din enhet.
 - Under installationen kommer du att bli ombedd att välja om du vill dela vissa uppgifter för att förbättra Peach-applikationen (bild 1)
 - På nästa skärm (bild 2) har du två alternativ:
@@ -398,5 +398,5 @@ För optimal säkerhet rekommenderar vi att du utför båda typerna av säkerhet
 
 
 
-- Förklarande video på franska: [YouTube] (https://youtu.be/ziwhv9KqVkM)
-- Snabbstartguide: [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/)
+- Förklarande video på franska: [YouTube](https://youtu.be/ziwhv9KqVkM)
+- Snabbstartguide: [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/)

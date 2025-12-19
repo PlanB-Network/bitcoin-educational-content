@@ -1,0 +1,8 @@
+question: Milline Lightning Network maksete põhipiirang tekitab wallet arendajatele ainulaadse väljakutse, mida on-chain Bitcoin tehingute puhul ei ole?
+answer: Välkmaksed eksisteerivad ainult ajutiste seisunditena maksekanalites ja neid ei salvestata püsivalt plokiahelas, mis nõuab kohandatud maksekorralduse jälgimissüsteeme
+wrong_answers:
+  - Välkmaksed nõuavad töötlemiseks oluliselt rohkem arvutusressursse kui on-chain tehingud, mis muudab mobiilse rakendamise ressursimahukaks
+  - Välkmakseid ei saa krüptograafiliselt kontrollida samamoodi nagu on-chain tehinguid, mis tekitab wallet rakendustes turvaauke
+  - Välkmakseid tuleb töödelda tsentraliseeritud marsruudisõlmede kaudu, mis muudab võimatuks tõeliselt mittekodanliku wallet arhitektuuri säilitamise
+explanation: |
+  Õige vastus määratleb Lightning- ja on-chain-maksete põhilise arhitektuurierinevuse. Bitcoin tehingud on plokiahelas püsivalt salvestatud, mis muudab maksekäigu otsimise lihtsaks plokiahela päringute kaudu. Lightning-maksed eksisteerivad aga ainult ajutiste kanalite seisunditena ja ei jäta püsivat plokiahela arvestust, sundides arendajaid rakendama kohandatud jälgimis- ja salvestussüsteeme. Valed vastused on valed, sest: Välkmaksed on arvutuslikult tõhusad (mitte ressursimahukad), neil säilib sama krüptograafiline turvalisus kui Bitcoin ja marsruutimine on detsentraliseeritud (mitte tsentraliseeritud).

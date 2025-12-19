@@ -1,5 +1,5 @@
 ---
-name: Makadaamia Wallet
+name: Macadamia Wallet
 description: Cashu mobiilne wallet anonüümsete ja kiirete BTC maksete tegemiseks
 ---
 

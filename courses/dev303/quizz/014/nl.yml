@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste verschil tussen een String en een string literal (&str) in Rust?
+answer: String beheert dynamisch toegewezen heapgeheugen en kan worden gewijzigd, terwijl &str een weergave is van onveranderlijke stringgegevens
+wrong_answers:
+  - String wordt opgeslagen op de stack terwijl &str wordt opgeslagen op de heap voor betere prestaties
+  - String kan alleen ASCII-tekens bevatten, terwijl &str alle Unicode-tekens kan bevatten
+  - String implementeert automatisch lenen terwijl &str een expliciete eigendomsoverdracht vereist
+explanation: |
+  String en &str vertegenwoordigen verschillende benaderingen van stringverwerking in Rust. String is een heap toegewezen, groeibaar stringtype dat eigenaar is van zijn gegevens en tijdens runtime gewijzigd kan worden. Daarentegen is &str (string slice) een onveranderlijke verwijzing naar stringgegevens, vaak verwijzend naar string-literalen die ingebed zijn in het binaire programma of slices van bestaande String-gegevens. Door dit onderscheid kan Rust optimaliseren voor zowel flexibiliteit (String voor dynamische inhoud) als efficiëntie (&str voor alleen-lezen toegang zonder toewijzing).

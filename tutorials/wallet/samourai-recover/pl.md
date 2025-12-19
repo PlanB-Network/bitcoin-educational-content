@@ -240,7 +240,7 @@ Jeśli używasz innego oprogramowania niż Sparrow, takiego jak Electrum, do odz
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Masz teraz dostęp do swoich bitcoinów na Sparrow. Jeśli potrzebujesz pomocy w korzystaniu ze Sparrow Wallet, możesz również zapoznać się z [naszym dedykowanym samouczkiem] (https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Masz teraz dostęp do swoich bitcoinów na Sparrow. Jeśli potrzebujesz pomocy w korzystaniu ze Sparrow Wallet, możesz również zapoznać się z [naszym dedykowanym samouczkiem](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Zalecam również ręczne zaimportowanie etykiet powiązanych z UTXO na Samourai. Umożliwi to późniejszą skuteczną kontrolę monet na Sparrow.
@@ -329,7 +329,7 @@ Jeśli używasz innego oprogramowania, takiego jak Electrum, aby odzyskać Samou
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Masz teraz dostęp do swoich bitcoinów na Sparrow. Jeśli potrzebujesz pomocy w korzystaniu ze Sparrow Wallet, możesz również zapoznać się z [naszym dedykowanym samouczkiem] (https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Masz teraz dostęp do swoich bitcoinów na Sparrow. Jeśli potrzebujesz pomocy w korzystaniu ze Sparrow Wallet, możesz również zapoznać się z [naszym dedykowanym samouczkiem](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 
 Zalecam również ręczne zaimportowanie etykiet powiązanych z UTXO na Samourai. Umożliwi to późniejszą skuteczną kontrolę monet na Sparrow.

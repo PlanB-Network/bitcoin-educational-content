@@ -42,7 +42,7 @@ Ne treba vam nikakvo tehničko ili dubinsko znanje pre nego što uzmete **Coinos
 
 
 
-Idite na vebsajt [Coinos] (https://coinos.io/) u vašem pregledaču i kliknite na **Start in seconds**.
+Idite na vebsajt [Coinos](https://coinos.io/) u vašem pregledaču i kliknite na **Start in seconds**.
 
 
 

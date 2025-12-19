@@ -1,0 +1,8 @@
+question: Minkä matemaattisen ominaisuuden vuoksi k-P-operaation kääntäminen elliptisellä käyrällä on laskennallisesti mahdotonta?
+answer: Diskreetin logaritmin ongelma
+wrong_answers:
+  - Modulaarinen aritmetiikka äärellisessä kentässä
+  - Piste äärettömässä -ominaisuus
+  - Käyrän yhtälö y² = x³ + 7
+explanation: |
+  Diskreetin logaritmin ongelma on matemaattinen perusta, joka tekee elliptisten käyrien salauksesta turvallista. Vaikka k-P:n laskeminen (skalaarikertolasku) on laskennallisesti helppoa, k:n löytäminen, kun P ja k-P on annettu, on äärimmäisen vaikeaa - tämä tunnetaan elliptisen käyrän diskreetin logaritmin ongelmana. Muut vaihtoehdot ovat tärkeitä matemaattisia komponentteja, mutta ne eivät muodosta tietoturvaestettä: äärellisen kentän aritmetiikka mahdollistaa operaatiot, piste äärettömyydessä toimii identiteettielementtinä ja käyrän yhtälö määrittelee rakenteen, mutta mikään näistä ei aiheuta sellaista laskennallista mahdottomuutta, joka suojaa Bitcoin:n kryptografista turvallisuutta.

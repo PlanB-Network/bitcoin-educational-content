@@ -20,7 +20,7 @@ Em termos de ligação, o Sparrow permite-lhe ligar-se ao seu próprio nó Bitco
 
 ## Instalar o Sparrow Wallet
 
-Aceda à [página oficial de transferência do Sparrow Wallet] (https://sparrowwallet.com/download/) e escolha a versão do software que corresponde ao seu sistema operativo.
+Aceda à [página oficial de transferência do Sparrow Wallet](https://sparrowwallet.com/download/) e escolha a versão do software que corresponde ao seu sistema operativo.
 
 ![Image](assets/fr/01.webp)
 
@@ -135,7 +135,7 @@ Esta operação também pode ser efectuada através do Bitcoin-QT Interface grá
 
 ![Image](assets/fr/12.webp)
 
-Encontre o IP Address da máquina que aloja o Bitcoin Core na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner] (https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
+Encontre o IP Address da máquina que aloja o Bitcoin Core na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner](https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
 
 No ficheiro `Bitcoin.conf`, adicione as seguintes linhas, definindo `rpcbind=192.168.1.18` para corresponder ao IP Address do seu nó.
 

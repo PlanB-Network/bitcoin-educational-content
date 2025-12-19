@@ -1,0 +1,8 @@
+question: Ni imvo nyamukuru iyihe ituma uburyo bwo guhindura ingorane bwa Bitcoin bugabanya amahinduka mu gihe c’incuro zine mu kiringo cose c’uguhindura c’amabarabara y’umwaka w’2016?
+answer: Kugira ngo wirinde uguhungabana gukomeye gushobora gutuma urubuga ruhungabana iyo igipimo ca hash gihindutse cane
+wrong_answers:
+  - Kugira ngo abacukuzi bashobore kuronka umwanya uhagije wo guhindura ibikoresho vyabo imbere y’uko ingorane zigwira cane .
+  - Kugira ngo ukomeze guhuza n'umwanya w'ikidodo c'igihe c'ibice 32 bihinduka ibidashobora kwizigirwa n'ihinduka rinini
+  - Kugira ngo urutonde rw'uguca igice c'infashanyo y'amabuye ntiruhungabanizwe n'amahinduka yihuta y'ingorane
+explanation: |
+  Igitigiri c’incuro zine kirabuza ibisubizo biteye akaga aho amahinduka y’ingorane nyinshi cane yoshobora gutuma habaho uguhinduka kw’ibikoko mu bihe vy’amabuye. Hatariho iyo nzitizi, ugutemba kw’igipimo ca hash gutunguranye kwoshobora gutuma habaho ukugabanya ingorane nyinshi, bigatuma amabuye yoroha cane kandi bishobora gutuma ukwiyumvikana guhungabana. Ku rundi ruhande, ukwongerekana gukomeye kwoshobora gutuma amabuye hafi adashoboka gucukurwa. Iryo tegeko rituma habaho uguhindura buhoro buhoro, gushobora gutunganirizwa, bigumya ugushikama kw’urubuga mbere no mu gihe c’ibihungabanya bikomeye nk’uguhagarika kwa mining, bikaba vyemerera urutonde kwikosora mu buryo bushobora gutegekanirwa mu bihe vyinshi vy’uguhindura aho gutuma habaho uguhungabana kw’akaduruvayo.

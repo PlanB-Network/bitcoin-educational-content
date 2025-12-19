@@ -85,7 +85,7 @@ Dess unika funktion? Orion är den **enda WebKit**-webbläsare som kan installer
 
 
 
-- Gå till [kagi.com/orion] (https://kagi.com/orion/)
+- Gå till [kagi.com/orion](https://kagi.com/orion/)
 - Klicka på "**Hämta Orion för macOS**"
 
 
@@ -660,8 +660,8 @@ Efter konfigurationen ska du testa din installation:
 
 
 - [Täck dina spår (EFF)](https://coveryourtracks.eff.org/) - Fingeravtryckstest
-- [DNS Leak Test] (https://www.dnsleaktest.com/) - Sök efter DNS-läckor
-- [BrowserLeaks] (https://browserleaks.com/) - Komplett uppsättning integritetstester
+- [DNS Leak Test](https://www.dnsleaktest.com/) - Sök efter DNS-läckor
+- [BrowserLeaks](https://browserleaks.com/) - Komplett uppsättning integritetstester
 
 
 
@@ -673,9 +673,9 @@ För maximalt skydd, se våra andra guider:
 
 
 
-- [Firefox-härdad] (https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avancerad konfiguration för flera plattformar
-- [Tor Browser] (https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullständig anonymitet på nätet
-- [Mullvad Browser] (https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maximalt skydd för fingeravtryck
+- [Firefox-härdad](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avancerad konfiguration för flera plattformar
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullständig anonymitet på nätet
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maximalt skydd för fingeravtryck
 
 
 

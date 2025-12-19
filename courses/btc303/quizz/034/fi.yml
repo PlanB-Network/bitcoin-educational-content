@@ -5,5 +5,5 @@ wrong_answers:
   - Transaktiomaksut poltetaan käsittelyn aikana, mikä vähentää vähitellen käytettävissä olevaa bitcoin-tarjontaa
   - "Bitcoin-protokolla lukitsee automaattisesti kolikot, jotka eivät ole liikkuneet pitkään aikaan, inflaation estämiseksi"
 explanation: |
-  Luvussa kerrotaan, että vaikka teoreettinen maksimi on noin 20 999 817 BTC:tä, todellinen käyttökelpoinen tarjonta on paljon pienempi inhimillisten virheiden ja hävikin vuoksi. Kadonneet yksityiset avaimet tekevät bitcoineista pysyvästi saavuttamattomissa olevia, lompakot varastetaan tai unohdetaan, ja kolikot lähetetään joskus virheellisiin osoitteisiin. Nämä tekijät aiheuttavat pysyvää tarjonnan vähenemistä, joka hyödyttää jäljellä olevia haltijoita, sillä Satoshi totesi, että kadonneet kolikot tekevät kaikkien muiden kolikoista arvokkaampia.
+  Vaikka teoreettinen enimmäismäärä on 20 999 999.9769 BTC, todellinen käytettävissä oleva tarjonta on huomattavasti pienempi inhimillisten virheiden ja menetysten vuoksi. Kadonneet yksityiset avaimet tekevät bitcoineista pysyvästi saavuttamattomia, lompakot varastetaan tai unohdetaan, ja kolikoita lähetetään joskus virheellisiin osoitteisiin. Nämä tekijät johtavat tarjonnan pysyvään vähenemiseen, josta jäljelle jääneet omistajat hyötyvät, kuten Satoshi totesi: kadonneet kolikot lisäävät muiden kolikoiden arvoa.
 reviewed: false

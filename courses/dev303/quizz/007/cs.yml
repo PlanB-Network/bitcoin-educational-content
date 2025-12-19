@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda použití příkazu `cargo check` při vývoji?
+answer: Provádí kontroly kompilace rychleji než úplné sestavení bez generování spustitelných souborů
+wrong_answers:
+  - Automaticky opravuje chyby kompilace a problémy se stylem kódu v projektu
+  - Stáhne a aktualizuje všechny závislosti projektu na jejich nejnovější verze
+  - Spustí váš program s informacemi o ladění a podrobným hlášením chyb
+explanation: |
+  Příkaz `cargo check` je určen k rychlému opakování vývoje, protože provádí všechny stejné kontroly kompilace jako `cargo build`, ale vynechává krok generování konečného spustitelného souboru. Díky tomu je výrazně rychlejší než úplné sestavení, když potřebujete pouze ověřit, zda se kód správně zkompiloval. Špatné odpovědi popisují funkčnost jiných nástrojů: `cargo update` zpracovává aktualizace závislostí a `cargo run` spouští programy s možností ladění.

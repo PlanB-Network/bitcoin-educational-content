@@ -1,11 +1,17 @@
 ---
-name: Mwezi
+name: Moon
 description: Lipa kwa bitcoins popote kadi za benki za Visa zinakubaliwa.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Sasisho la Desemba 2025: Tahadhari, **tangu mwanzo wa Desemba 2025, baadhi ya huduma za Moon hazipatikani tena**, hasa kadi za benki za Visa zinazoweza kuchajiwa tena. Bado hatujui kama kutopatikana huku ni kwa muda au ni kwa kudumu. Mafunzo haya yatasasishwa mara tu tutakapopata taarifa zaidi.*
+
+---
 
 Mwezi hukuruhusu kutumia fedha za siri kama bitcoin kununua kadi za Visa pepe na kadi za zawadi bila KYC, ambazo zinaweza kutumika kwa mamilioni ya wafanyabiashara mtandaoni, kama vile kadi ya kawaida ya benki. Kwa hivyo inatoa njia rahisi ya kutumia sats yako popote Visa inakubaliwa, bila kupitia jukwaa la kubadilishana.
 

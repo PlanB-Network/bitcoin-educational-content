@@ -1,0 +1,9 @@
+question: Eric Hughesin Cypherpunk-manifestin mukaan mikä peruslähestymistapa erottaa salakirjoittajat niistä, jotka vain toivovat yksityisyyden suojaa?
+answer: He kirjoittavat aktiivisesti koodia rakentaakseen salausjärjestelmiä sen sijaan, että odottaisivat instituutioiden tarjoavan yksityisyyden suojaa
+wrong_answers:
+  - Ne keskittyvät poliittiseen lobbaukseen ja oikeudellisiin uudistuksiin yksityisyyden perustuslaillisten oikeuksien luomiseksi
+  - Ne asettavat etusijalle yleisön valistamisen valvontariskeistä akateemisen tutkimuksen ja julkaisujen avulla
+  - Ne työskentelevät nykyisissä rahoituslaitoksissa ottaakseen asteittain käyttöön yksityisyyttä suojaavia tekniikoita
+explanation: |
+  Eric Hughes totesi nimenomaisesti, että "Cypherpunks write code" on heidän määrittelemänsä menetelmä. Manifestissa korostetaan, että salakirjoittajat eivät odota hallitusten, yritysten tai muiden organisaatioiden tarjoavan yksityisyyden suojaa.
+  Sen sijaan he ryhtyvät suoraan toimiin luomalla kryptografisia työkaluja ja hajautettuja järjestelmiä. Tästä aktiivisen rakentamisen lähestymistavasta passiivisen toivon tai institutionaalisen uudistuksen sijaan tuli perusta Bitcoin:n kaltaisille innovaatioille, jotka ilmentävät heidän filosofiaansa rakentaa vaihtoehtoisia järjestelmiä perinteisten valtarakenteiden ulkopuolelle.

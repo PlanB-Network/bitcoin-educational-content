@@ -1,0 +1,8 @@
+question: Mitä parametrityyppiä Rust-metodin pitäisi käyttää, jos sen on muutettava rakenteen instanssia ja sallittava soittajan säilyttää omistusoikeus?
+answer: "&mut self"
+wrong_answers:
+  - "&self"
+  - itse
+  - mut self
+explanation: |
+  Metodien, joiden on muutettava rakenteen instanssia ja sallittava soittajan säilyttää omistusoikeus, tulisi käyttää `&mut self` ensimmäistä parametria. Tämä luo muuttuvan viittauksen instanssiin, jolloin metodi voi muuttaa rakenteen kenttiä ottamatta omistusoikeutta pois soittajalta. `&self`:n käyttö sallisi vain instanssin lukemisen, `self` kuluttaisi instanssin kokonaan, ja `mut self` ei ole kelvollinen Rust-syntaksi metodin parametreille.

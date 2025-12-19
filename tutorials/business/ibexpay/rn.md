@@ -1,5 +1,5 @@
 ---
-name: Ibex kwishura
+name: IbexPay
 description: Wemere amahera yishurwa mu ma bitcoins maze uyahindure mu mafaranga yo mu gihugu.
 ---
 ![cover](assets/cover.webp)

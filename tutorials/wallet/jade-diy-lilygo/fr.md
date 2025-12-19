@@ -116,7 +116,7 @@ Cependant, les portefeuilles matériels présentent leurs propres risques. Vous 
 ## Que construisons-nous ?
 
 
-Nous prenons du matériel générique, le LilyGo T-Display, et nous flashons le micrologiciel Jade SDK dessus. Le [Jade Plus] (https://blockstream.com/jade/jade-plus/) est un wallet à code source ouvert, qui coûte généralement 150 dollars :
+Nous prenons du matériel générique, le LilyGo T-Display, et nous flashons le micrologiciel Jade SDK dessus. Le [Jade Plus](https://blockstream.com/jade/jade-plus/) est un wallet à code source ouvert, qui coûte généralement 150 dollars :
 
 
 ![image](assets/fr/02.webp)
@@ -153,7 +153,7 @@ Aujourd'hui, nous allons flasher leur firmware sur un matériel à 15$.
 ### Préparez votre dossier
 
 
-Vous avez deux options pour loger votre carte LilyGO T-Display : un boîtier imprimé en 3D ou le boîtier officiel LilyGO. Le boîtier imprimé peut être trouvé et imprimé à partir de [ce modèle] (https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Il offre une coque légère et personnalisable pour votre appareil.
+Vous avez deux options pour loger votre carte LilyGO T-Display : un boîtier imprimé en 3D ou le boîtier officiel LilyGO. Le boîtier imprimé peut être trouvé et imprimé à partir de [ce modèle](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Il offre une coque légère et personnalisable pour votre appareil.
 
 
 ![image](assets/fr/04.webp)
@@ -423,7 +423,7 @@ Blockstream Green est le logiciel qui permet de terminer la configuration de Jad
 
 
 
-- Procurez-vous l'application officielle de Blockstream - voici le lien vers cette application sur leur site web. Une fois sur le site, cliquez sur [Download now] (https://blockstream.com/app/).
+- Procurez-vous l'application officielle de Blockstream - voici le lien vers cette application sur leur site web. Une fois sur le site, cliquez sur [Download now](https://blockstream.com/app/).
 
 
 ![image](assets/fr/12.webp)

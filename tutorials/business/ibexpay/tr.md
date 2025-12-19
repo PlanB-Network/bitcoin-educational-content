@@ -14,7 +14,7 @@ Bitcoin'ı herkes için kullanılabilir hale getirmek, aynı zamanda kullanışl
 
 
 
-IbexPay, Lightning altyapı hizmetlerinde öncü olan IBEX tarafından geliştirilen bir platformdur. Bir hesap edinmek için IbexPay [resmi platform] (https://www.ibexpay.io/) adresine gidin ve "**Başlat**" düğmesine tıklayın.
+IbexPay, Lightning altyapı hizmetlerinde öncü olan IBEX tarafından geliştirilen bir platformdur. Bir hesap edinmek için IbexPay [resmi platform](https://www.ibexpay.io/) adresine gidin ve "**Başlat**" düğmesine tıklayın.
 
 
 

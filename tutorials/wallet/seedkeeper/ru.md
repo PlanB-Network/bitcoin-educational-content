@@ -1,5 +1,5 @@
 ---
-name: Хранитель семян
+name: Seedkeeper
 description: Как создать резервную копию wallet Bitcoin с помощью смарт-карты Seedkeeper?
 ---
 

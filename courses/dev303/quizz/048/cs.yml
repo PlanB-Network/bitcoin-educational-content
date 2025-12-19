@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel kombinace RC a RefCell při programování Rust?
+answer: Umožnit více vlastníkům sdílet a mutovat stejná data s kontrolami výpůjček za běhu
+wrong_answers:
+  - Přesunutí vynucování pravidel výpůjček z doby běhu zpět do doby kompilace pro zvýšení výkonu
+  - Vytvoření neměnných sdílených dat, ke kterým lze bezpečně přistupovat ve více vláknech
+  - Zabránění referenčním cyklům a únikům paměti při sdílení dat mezi více vlastníky
+explanation: |
+  RC<RefCell<T>> kombinuje počítání referencí pro sdílené vlastnictví s vnitřní mutabilitou pro mutace kontrolované za běhu. RC umožňuje více částem kódu vlastnit stejná data, zatímco RefCell umožňuje mutace prostřednictvím neměnných referencí kontrolou pravidel výpůjček za běhu. Ostatní možnosti jsou nesprávné: tento vzor ve skutečnosti přesouvá kontroly do doby běhu (nikoli do doby kompilace), vytváří mutovatelná (nikoli neměnná) sdílená data a může ve skutečnosti způsobit referenční cykly, místo aby jim zabránil.

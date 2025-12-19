@@ -1,5 +1,5 @@
 ---
-name: Zeus Wissel
+name: Zeus Swap
 description: Niet-custodiale Exchange dienst tussen On-Chain en Lightning Network bitcoins
 ---
 

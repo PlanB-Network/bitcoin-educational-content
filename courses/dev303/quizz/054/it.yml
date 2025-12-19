@@ -1,0 +1,8 @@
+question: In quale scenario RefCell sarebbe più appropriato per risolvere una restrizione di prestito in tempo di compilazione?
+answer: Quando si implementa un oggetto mock che ha bisogno di tracciare le modifiche allo stato interno attraverso un'interfaccia immutabile del tratto
+wrong_answers:
+  - Quando è necessario condividere i dati tra più thread e si richiede il conteggio atomico dei riferimenti
+  - Quando si vuole evitare l'overhead del runtime spostando tutti i controlli dei prestiti in tempo di compilazione
+  - Quando si creano riferimenti circolari tra strutture di dati che necessitano di una pulizia automatica della memoria
+explanation: |
+  RefCell è stato progettato per scenari di mutabilità interna in cui è necessario mutare i dati attraverso un riferimento immutabile, in particolare quando l'analisi statica del compilatore è troppo conservativa. Gli oggetti mock che implementano tratti con metodi immutabili, ma che hanno bisogno di tracciare lo stato interno, rappresentano un caso d'uso perfetto. Le altre opzioni non sono corrette: RefCell non è thread-safe, sposta il controllo a runtime (non a tempo di compilazione) e non risolve i problemi dei riferimenti circolari, anzi può contribuire a crearli se combinato con RC.

@@ -1,0 +1,8 @@
+question: Mitä kaksivaiheista validointiprosessia P2SH-tulostetta käytettäessä on suoritettava, jotta tapahtumaa voidaan pitää pätevänä?
+answer: Tarkista ensin, että lunastusskriptin HASH160 vastaa scriptPubKey-hashia, ja suorita sitten lunastusskripti annetuilla tiedoilla
+wrong_answers:
+  - Suorita ensin lunastusskripti annetuilla tiedoilla ja tarkista sitten, että tuloksena saatu hash vastaa scriptPubKey-avainta
+  - Tarkista ensin, että kaikki allekirjoitukset ovat kelvollisia niiden julkisia avaimia vastaan, ja tarkista sitten, että lunastusskriptin hash täsmää
+  - Varmista ensin, että lunastusskripti sisältää kelvollisia opcodeja, ja tarkista sitten, että skriptin suoritus tuottaa oikean tuloksen
+explanation: |
+  P2SH-validointi edellyttää erityistä kaksivaiheista prosessia: ensin toimitetun lunastusskriptin hash-arvon on vastattava scriptPubKey-avaimen 20 tavun hash-arvoa (HASH160-tarkistus), ja vasta kun tämä tarkistus on läpäisty, verkko suorittaa itse lunastusskriptin lukituksen avaamistietojen kanssa. Tämä rakenne varmistaa, että vain oikeaa lunastuskomentosarjaa voidaan käyttää, mutta samalla todelliset käyttöehdot pysyvät piilossa, kunnes käyttö tapahtuu. Muut vaihtoehdot kuvaavat uskottavia mutta virheellisiä validointisekvenssejä, jotka eivät noudata todellista P2SH-protokollaa.

@@ -25,7 +25,7 @@ Alby Browser Extension är ett lättviktigt och användarvänligt webbläsartill
 ### 🔄 Wallet Förvaltning
 
 
-- Ansluta olika Lightning-noder och plånböcker (t.ex. [Alby Hub] (https://albyhub.com/), LND, CLN, depåplånböcker).
+- Ansluta olika Lightning-noder och plånböcker (t.ex. [Alby Hub](https://albyhub.com/), LND, CLN, depåplånböcker).
 - Hantera och växla mellan anslutna plånböcker på ett enkelt sätt
 
 
@@ -45,7 +45,7 @@ Alby Browser Extension är ett lättviktigt och användarvänligt webbläsartill
 
 ### 🌐 Stöd för protokoll
 
-Fullständigt [WebLN] (https://www.webln.guide/) stöd för programmatiska betalningar och omfattande LNURL-stöd (-pay, -withdraw, -auth, etc.)
+Fullständigt [WebLN](https://www.webln.guide/) stöd för programmatiska betalningar och omfattande LNURL-stöd (-pay, -withdraw, -auth, etc.)
 
 
 ## 🌎 Kompatibilitet med webbläsare
@@ -60,7 +60,7 @@ Webbläsartillägget Alby är tillgängligt för:
 **Privatliv och säkerhet**: Alby Browser Extension är en självförvaltande applikation. Dina privata nycklar är säkert krypterade och lagrade på din enhet. Du behåller kontrollen över dina tillgångar och data.
 
 
-För de mest exakta och lättbegripliga instruktionerna, kolla in [Albys guider] (https://guides.getalby.com/user-guide/browser-extension)
+För de mest exakta och lättbegripliga instruktionerna, kolla in [Albys guider](https://guides.getalby.com/user-guide/browser-extension)
 
 
 ## Videohandledning
@@ -70,4 +70,4 @@ För de mest exakta och lättbegripliga instruktionerna, kolla in [Albys guider]
 
 ## 🐝 Om Alby
 
-[Alby] (https://getalby.com/) ger konsumenter och utvecklare tillgång till lättanvända Bitcoin-betalningsverktyg med öppen källkod överallt: på webben, i mobilappar och i den verkliga världen.
+[Alby](https://getalby.com/) ger konsumenter och utvecklare tillgång till lättanvända Bitcoin-betalningsverktyg med öppen källkod överallt: på webben, i mobilappar och i den verkliga världen.

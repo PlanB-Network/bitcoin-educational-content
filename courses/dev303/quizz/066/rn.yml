@@ -1,0 +1,8 @@
+question: Ni uruhe ruvange rw’ibiranga Rust rutuma rubereye canecane gutorera umuti kamere idashobora gusubirwamwo y’ibikorwa vya Bitcoin?
+answer: Uburyo bukomeye bufata amakosa mu gihe co gukora no gukingira ubugoyagoye bujanye n'ukwibuka
+wrong_answers:
+  - Kwandika bihinduka n'igenzura ry'igihe c'ibikorwa n'ugukusanya imyanda kwihuta ku gucunga ububiko
+  - Ubwoko bugoyagoya bufise uguhindura guhinduka n'uburongozi bw'ubwonko bw'amaboko kugira ngo bukore neza
+  - Gukoranya mu gihe nyene n'igihe co gukora neza no gusobanura amakosa kugira ngo ushobore guhinduranya
+explanation: |
+  Rust's static strong type system system ni ngirakamaro cane mu gutegura Bitcoin kuko ifata ubwoko budahuye n'amakosa y'ubwenge imbere y'uko porogarama ikora, igakingira ibibazo bishobora gutera ingaruka ku mahera y'abakoresha. Ivyo bisobanura ko amakosa aboneka mu gihe co gukoranya aho kuboneka mu gihe co gukora ibikorwa vy'ukuri. Ikindi, uburyo bw’ubwoko bwa Rust burakorana n’ubutunzi bw’ubwenge kandi bukarinda ubugoyagoye bujanye n’ubwonko nk’amakosa atagiramwo kabiri n’imimerere y’amarushanwa. Ivyo ni ngombwa ku bikorwa vya Bitcoin aho amakosa adashobora gusubirwamwo kandi ata bubasha bwo gusaba ko amafaranga asubizwa, bitandukanye n'uburyo bwa kera bwo gutanga amafaranga bufise uburyo bwo gusubiza amafaranga.

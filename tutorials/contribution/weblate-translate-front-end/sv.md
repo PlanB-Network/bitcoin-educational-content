@@ -15,7 +15,7 @@ I den här handledningen visar vi dig hur du enkelt kan bidra till översättnin
 - utbildningsinnehåll (handledning, kurser, resurser ...).
 
 
-För att översätta det pedagogiska innehållet använder vi [artificiell intelligens] (https://github.com/Asi0Flammeus/LLM-Translator). För att rätta till eventuella fel i dessa filer bjuder vi sedan in korrekturläsare att bidra. Om du vill korrekturläsa en del av innehållet kan du läsa följande handledning:
+För att översätta det pedagogiska innehållet använder vi [artificiell intelligens](https://github.com/Asi0Flammeus/LLM-Translator). För att rätta till eventuella fel i dessa filer bjuder vi sedan in korrekturläsare att bidra. Om du vill korrekturläsa en del av innehållet kan du läsa följande handledning:
 
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
@@ -23,7 +23,7 @@ https://planb.academy/tutorials/contribution/content/proofreading-review-tutoria
 Om du däremot är intresserad av att översätta webbplatsens statiska Elements (exklusive utbildningsinnehåll) har du kommit helt rätt! För att effektivt översätta frontend använder vi verktyget Weblate, som är mycket enkelt att använda och underlättar översättningen.
 
 
-Om du vill lägga till ett helt nytt språk i Plan ₿ Academy, se till att kontakta Plan ₿ Academy-teamet via vår [Telegramgrupp] (https://t.me/PlanBNetwork_ContentBuilder). Om du inte har telegram kan du skicka ett e-postmeddelande till mari@planb.network. Se till att skriva en liten presentation om vem du är och vilka språk du talar.
+Om du vill lägga till ett helt nytt språk i Plan ₿ Academy, se till att kontakta Plan ₿ Academy-teamet via vår [Telegramgrupp](https://t.me/PlanBNetwork_ContentBuilder). Om du inte har telegram kan du skicka ett e-postmeddelande till mari@planb.network. Se till att skriva en liten presentation om vem du är och vilka språk du talar.
 
 Våra medarbetare kommer att ge dig specifika instruktioner och öppna relaterade "issues" på Github för att samordna ditt arbete.
 
@@ -40,7 +40,7 @@ När du är redo att börja översätta kan du gå tillbaka till den här handle
 
 
 
-- Gå till [den självhostade Weblate för Plan ₿ Academy] (https://weblate.planb.network/):
+- Gå till [den självhostade Weblate för Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -174,4 +174,4 @@ När du är redo att börja översätta kan du gå tillbaka till den här handle
 ![weblate](assets/23.webp)
 
 
-Tack på förhand för ditt bidrag till översättningen av Plan ₿ Academy! Om du har några specifika frågor eller kommentarer till oss är du välkommen att kontakta oss via [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder).
+Tack på förhand för ditt bidrag till översättningen av Plan ₿ Academy! Om du har några specifika frågor eller kommentarer till oss är du välkommen att kontakta oss via [Telegramgruppen](https://t.me/PlanBNetwork_ContentBuilder).

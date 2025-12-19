@@ -1,0 +1,8 @@
+question: Jos Bitcoin:n vaikeusasteen säätömekanismi kohtaa skenaarion, jossa edellisen vuoden 2016 lohkojen louhinta kesti tasan 6 viikkoa odotetun 2 viikon sijasta, mitä korjauskerrointa sovellettaisiin?
+answer: Vaikeusastetta alennetaan 4-kertaiseksi (suurin sallittu vähennys)
+wrong_answers:
+  - Vaikeusaste pienenisi 3-kertaiseksi (6 viikkoa ÷ 2 viikkoa)
+  - Vaikeusastetta vähennettäisiin 2,5-kertaiseksi, jotta vältyttäisiin liialliselta korjaamiselta
+  - Vaikeusaste pienenisi 6-kertaiseksi aikasuhteen perusteella
+explanation: |
+  Bitcoin:n vaikeussäädössä on sisäänrakennetut rajoitukset, jotka rajoittavat muutokset nelinkertaisiksi kumpaankin suuntaan. Vaikka 6 viikkoa ÷ 2 viikkoa = 3, mikä viittaa 3-kertaiseen vähennykseen, protokolla rajoittaa mukautukset 4-kertaisiksi äärimmäisten heilahtelujen estämiseksi. Tämä turvamekanismi varmistaa verkon vakauden suurten hash-nopeuden muutosten, kuten mining:n kieltojen tai laitevikojen, aikana estämällä ylikorjaukset, jotka voisivat horjuttaa lohkojen ajoitusta.

@@ -1,5 +1,5 @@
 ---
-name: डोजो
+name: Dojo
 description: गोपनीयता और स्वायत्तता के लिए एक ओपन-सोर्स Bitcoin नोड
 ---
 

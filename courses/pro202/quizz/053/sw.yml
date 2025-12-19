@@ -1,0 +1,8 @@
+question: Ni changamoto gani maalum ya ubadilishaji wa endianness ambayo nodi za Bitcoin lazima zishughulikie wakati wa kujenga na kuthibitisha miti ya Merkle kutoka kwa data ya miamala?
+answer: Haraka za miamala lazima zibadilishwe kutoka umbizo la mfululizo la little-endian hadi big-endian kwa ajili ya hesabu ya ndani ya mti, kisha zirudishwe kwa ajili ya kuhifadhi.
+wrong_answers:
+  - Vichwa vya habari vya block lazima vibadilishwe kutoka big-endian hadi little-endian kabla ya kukokotoa mzizi wa Merkle ili ulingane na umbizo la uwasilishaji wa mtandao.
+  - Mzizi wa mwisho wa Merkle lazima ubadilishwe kutoka big-endian hadi little-endian tu wakati wa kusambaza kwenye nodi zingine kupitia ujumbe wa P2P.
+  - Vitambulisho vya miamala huhifadhiwa katika umbizo la big-endian lakini lazima vibadilishwe kuwa little-endian kabla ya jozi za hashing kwenye mti wa Merkle
+explanation: |
+  Ujenzi wa mti wa Merkle wa Bitcoin unahusisha hatua muhimu ya ubadilishaji wa endianness. Ingawa data ya vizuizi vilivyounganishwa hutumia umbizo la little-endian, hesabu ya ndani ya mti wa Merkle inahitaji vizuizi vya big-endian. Nodi lazima zibadilishe vizuizi vya miamala kutoka kwa umbizo lao la little-endian lililounganishwa hadi big-endian kabla ya ujenzi wa mti, kisha zibadilishe mzizi wa mwisho hadi little-endian kwa ajili ya kuhifadhi kwenye kichwa cha vizuizi. Ubadilishaji huu ni muhimu kwa uthibitisho sahihi.

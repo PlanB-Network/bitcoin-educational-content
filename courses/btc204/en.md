@@ -96,7 +96,7 @@ Bitcoin is first and foremost a currency, but do you actually know how BTC is re
 
 ### UTXOs on Bitcoin: what are they?
 
-The Bitcoin protocol is based on the UTXO model, which stands for "Unspent Transaction Output".
+The Bitcoin protocol is based on the [UTXO](https://planb.academy/resources/glossary/utxo) model, which stands for "Unspent Transaction Output".
 
 This model differs profoundly from traditional banking systems, which rely on a mechanism of accounts and balances to track financial flows. Indeed, in the banking system, individual balances are maintained in accounts associated with a specific identity. For example, when you buy bread from a baker, your bank simply debits the purchase amount from your account, reducing your balance, while the baker's account is credited with the same amount, increasing its balance. In this system, there is no notion of a link between the money entering your account and the money leaving it, apart from transaction records.
 
@@ -309,7 +309,7 @@ But since Bitcoin transactions are made public, it is still possible to establis
 
 ### Definition and operation
 
-Blockchain analysis is the practice of tracing the flow of bitcoins on the blockchain. Generally speaking, chain analysis is based on the observation of characteristics in samples of previous transactions. It then involves identifying these same characteristics in a transaction that we wish to analyze and deducing plausible interpretations from them. This problem-solving method, based on a practical approach to finding a satisfactory solution, is known as a "heuristic."
+[Blockchain analysis](https://planb.academy/resources/glossary/chain-analysis) is the practice of tracing the flow of bitcoins on the blockchain. Generally speaking, chain analysis is based on the observation of characteristics in samples of previous transactions. It then involves identifying these same characteristics in a transaction that we wish to analyze and deducing plausible interpretations from them. This problem-solving method, based on a practical approach to finding a satisfactory solution, is known as a "heuristic."
 
 In layman's terms, there are three main stages in chain analysis:
 
@@ -349,7 +349,7 @@ So we also need to be able to cope with blockchain analysis in our use of Bitcoi
 
 ![BTC204](assets/en/030.webp)
 
-What better way to counter blockchain analysis than to learn about the methods used in it? To enhance your Bitcoin privacy, it's essential to understand these methods. This will give you a better grasp of techniques such as coinjoin or payjoin (techniques we'll look at in the final parts of the course), and reduce the mistakes you might make.
+What better way to counter blockchain analysis than to learn about the methods used in it? To enhance your Bitcoin privacy, it's essential to understand these methods. This will give you a better grasp of techniques such as [coinjoin](https://planb.academy/resources/glossary/coinjoin) or [payjoin](https://planb.academy/resources/glossary/payjoin) (techniques we'll look at in the final parts of the course), and reduce the mistakes you might make.
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
@@ -640,7 +640,7 @@ The study of external heuristics means analyzing the similarities, patterns, and
 
 ### Address reuse
 
-This is one of the most well-known heuristics among Bitcoiners. Address reuse enables the establishment of a link between different transactions and UTXOs. It occurs when a Bitcoin receiving address is used several times.
+This is one of the most well-known heuristics among Bitcoiners. [Address reuse](https://planb.academy/resources/glossary/address-reuse) enables the establishment of a link between different transactions and UTXOs. It occurs when a Bitcoin receiving address is used several times.
 
 Thus, it is possible to exploit address reuse within the same transaction as an internal heuristic to identify the change (as we saw in the previous chapter). However, address reuse can also be used as an external heuristic to identify the uniqueness of an entity behind multiple transactions.
 
@@ -1073,7 +1073,7 @@ Technically, a Bitcoin receiving address does not "receive" bitcoins in the lite
 
 Bitcoin addresses come in different types, depending on the scripting model used. The first models, known as "Legacy", include the `P2PKH` (*Pay-to-PubKey-Hash*) and `P2SH` (*Pay-to-Script-Hash*) addresses. P2PKH addresses always begin with `1`, and P2SH with `3`. Although still secure, these formats are now obsolete, as they entail higher transaction costs and offer less confidentiality than the new standards.
 
-SegWit V0 (`P2WPKH` and `P2WSH`) and Taproot / SegWit V1 (`P2TR`) addresses represent modern formats. SegWit addresses start with `bc1q` and Taproot addresses, introduced in 2021, start with `bc1p`.
+SegWit V0 (`P2WPKH` and `P2WSH`) and [Taproot](https://planb.academy/resources/glossary/taproot) / SegWit V1 (`P2TR`) addresses represent modern formats. SegWit addresses start with `bc1q` and Taproot addresses, introduced in 2021, start with `bc1p`.
 
 For example, here is a Taproot reception address:
 
@@ -1612,7 +1612,7 @@ Let's examine a few additional best practices for enhancing your privacy on Bitc
 
 ### The complete knot
 
-Owning your bitcoins in self-custody is great, but using your own full node is even better! Here's why having your own node is crucial for fully sovereign use of Bitcoin:
+Owning your bitcoins in self-custody is great, but using your own [full node](https://planb.academy/resources/glossary/full-node) is even better! Here's why having your own node is crucial for fully sovereign use of Bitcoin:
 
 
 - **Resistance to censorship**: Your transactions cannot be blocked by anyone;

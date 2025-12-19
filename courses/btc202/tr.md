@@ -853,7 +853,7 @@ Bu en egemen ve esnek yaklaşımdır: tam olarak neyin çalıştığını, veril
 
 
 
-[Bitcoin core ağın ultra çoğunluk istemcisidir] (https://bitcoincore.org/). Blockchain'yi indirir, doğrular ve bakımını yapar, RPC/REST API'leri sağlar ve bir Wallet entegre edebilir. Standart araçları tercih ediyorsanız ve kendiniz hizmet ekleme konusunda rahat hissediyorsanız (Electrum sunucusu, explorer ve LND gibi), Core'u olduğu gibi kullanmanız daha iyi olacaktır.
+[Bitcoin core ağın ultra çoğunluk istemcisidir](https://bitcoincore.org/). Blockchain'yi indirir, doğrular ve bakımını yapar, RPC/REST API'leri sağlar ve bir Wallet entegre edebilir. Standart araçları tercih ediyorsanız ve kendiniz hizmet ekleme konusunda rahat hissediyorsanız (Electrum sunucusu, explorer ve LND gibi), Core'u olduğu gibi kullanmanız daha iyi olacaktır.
 
 
 
@@ -974,7 +974,7 @@ https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-[MyNode, yalnızca Bitcoin ve Lightning'e odaklanan bir dağıtımdır] (https://mynodebtc.com/), bir web Interface, bir uygulama pazarı ve tek tıklamayla yükseltmeler sunar. Kullanıma hazır donanım satın alabilir (*Model Two* 549 dolardan satılmaktadır) ya da MyNode'u kendi makinenize ücretsiz olarak kurabilirsiniz. Proje ayrıca yazılımın öncelikli destek ve gelişmiş özellikler içeren bir *Premium* sürümünü (94 $) sunmaktadır.
+[MyNode, yalnızca Bitcoin ve Lightning'e odaklanan bir dağıtımdır](https://mynodebtc.com/), bir web Interface, bir uygulama pazarı ve tek tıklamayla yükseltmeler sunar. Kullanıma hazır donanım satın alabilir (*Model Two* 549 dolardan satılmaktadır) ya da MyNode'u kendi makinenize ücretsiz olarak kurabilirsiniz. Proje ayrıca yazılımın öncelikli destek ve gelişmiş özellikler içeren bir *Premium* sürümünü (94 $) sunmaktadır.
 
 
 
@@ -1619,7 +1619,7 @@ UmbrelOS'u makinenize kurmadan önce, işletim sistemini içeren önyüklenebili
 
 
 
-USB anahtar aracılığıyla kurulum için [ISO görüntüsünü indirmek için resmi Umbrel web sitesine] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) gidin. X86_64 mimarisiyle uyumlu sürümü seçtiğinizden emin olun (`umbrelos-amd64-usb-installer.iso` adlı dosya). İmaj oldukça büyük olduğu için indirme işlemi biraz zaman alabilir.
+USB anahtar aracılığıyla kurulum için [ISO görüntüsünü indirmek için resmi Umbrel web sitesine](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) gidin. X86_64 mimarisiyle uyumlu sürümü seçtiğinizden emin olun (`umbrelos-amd64-usb-installer.iso` adlı dosya). İmaj oldukça büyük olduğu için indirme işlemi biraz zaman alabilir.
 
 
 
@@ -1633,7 +1633,7 @@ USB anahtar aracılığıyla kurulum için [ISO görüntüsünü indirmek için 
 
 
 
-Önyüklenebilir USB bellek oluşturmak için [Balena Etcher] (https://www.balena.io/etcher/) adlı basit, platformlar arası bir araç kullanacaksınız. İndirin ve bilgisayarınıza kurun.
+Önyüklenebilir USB bellek oluşturmak için [Balena Etcher](https://www.balena.io/etcher/) adlı basit, platformlar arası bir araç kullanacaksınız. İndirin ve bilgisayarınıza kurun.
 
 
 
@@ -2761,7 +2761,7 @@ Umbrel'inizde bir hata olması durumunda, önce UmbrelOS'un veya ilgili uygulama
 
 
 
-Sorun devam ederse, [Discord'larındaki Umbrel kullanıcı topluluğuna katılmanızı] (https://discord.gg/efNtFzqtdx) tavsiye ederim. Daha önce aynı zorlukla karşılaşmış ve bir çözüm bulmuş birileri olup olmadığını belirlemek için bir arama yaparak başlayın. Eğer yoksa, `general-support` kanalına bir mesaj gönderebilirsiniz. Ayrıca [Umbrel forumunu](https://community.umbrel.com/) da kullanabilirsiniz.
+Sorun devam ederse, [Discord'larındaki Umbrel kullanıcı topluluğuna katılmanızı](https://discord.gg/efNtFzqtdx) tavsiye ederim. Daha önce aynı zorlukla karşılaşmış ve bir çözüm bulmuş birileri olup olmadığını belirlemek için bir arama yaparak başlayın. Eğer yoksa, `general-support` kanalına bir mesaj gönderebilirsiniz. Ayrıca [Umbrel forumunu](https://community.umbrel.com/) da kullanabilirsiniz.
 
 
 
@@ -2908,7 +2908,7 @@ Bu durumda, yazılım _**DNS tohumlarını**_ sorgular. Bunlar, aktif olduğu va
 
 
 
-Vakaların büyük çoğunluğunda, *DNS tohumları* adımı diğer düğümlerle ilk bağlantıları kurmak için yeterlidir. İstisnai olarak, bu sunucular 60 saniye içinde yanıt vermezse, düğüm başka bir yönteme geçer: gW-569'un kodunda _tohum düğümlerinin_ [1.000'den fazla adresten oluşan statik bir liste] (https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) yerleşiktir ve düzenli olarak güncellenir. IP adresi elde etmenin ilk iki yöntemi başarısız olursa, bu son çözüm düğümün daha sonra yeni IP adresleri talep edebileceği bir ilk bağlantı kurar.
+Vakaların büyük çoğunluğunda, *DNS tohumları* adımı diğer düğümlerle ilk bağlantıları kurmak için yeterlidir. İstisnai olarak, bu sunucular 60 saniye içinde yanıt vermezse, düğüm başka bir yönteme geçer: gW-569'un kodunda _tohum düğümlerinin_ [1.000'den fazla adresten oluşan statik bir liste](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) yerleşiktir ve düzenli olarak güncellenir. IP adresi elde etmenin ilk iki yöntemi başarısız olursa, bu son çözüm düğümün daha sonra yeni IP adresleri talep edebileceği bir ilk bağlantı kurar.
 
 
 
@@ -3079,7 +3079,7 @@ UTXO setinin büyümesi, Bitcoin üzerindeki basit ödeme işlemlerinin yapısı
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-İşlemleri makul bir sürede doğrulamak için bir kısmının RAM'de tutulması gerektiğinden, UTXO seti bir Full node'un çalışmasını kademeli olarak çok maliyetli hale getirebilir. Bu sorunu çözmek için, başta [Utreexo] (https://planb.academy/resources/glossary/utreexo) olmak üzere birkaç öneri zaten mevcuttur.
+İşlemleri makul bir sürede doğrulamak için bir kısmının RAM'de tutulması gerektiğinden, UTXO seti bir Full node'un çalışmasını kademeli olarak çok maliyetli hale getirebilir. Bu sorunu çözmek için, başta [Utreexo](https://planb.academy/resources/glossary/utreexo) olmak üzere birkaç öneri zaten mevcuttur.
 
 
 
@@ -3882,7 +3882,7 @@ Son olarak, `Bitcoin.conf` dosyası da düğümünüz için erişim parametreler
 
 
 
-Artık yapılandırma parametrelerinin çoğunu listelemeyi bitirdik. Bu `Bitcoin.conf` dosyası düğümünüzün gerçek kontrol panelini oluşturur: ağ yapılandırmasını, Mempool yönetimini, disk ve bellek kullanımını, indekslemeyi ve genel yönetimi tanımlar. Bu dosya hakkında daha fazla bilgi edinmek ve ihtiyaçlarınıza uygun bir dosya oluşturmak isterseniz [Jameson Lopp's generator] (https://jlopp.github.io/Bitcoin-core-config-generator/) adresini kullanmanızı tavsiye ederim.
+Artık yapılandırma parametrelerinin çoğunu listelemeyi bitirdik. Bu `Bitcoin.conf` dosyası düğümünüzün gerçek kontrol panelini oluşturur: ağ yapılandırmasını, Mempool yönetimini, disk ve bellek kullanımını, indekslemeyi ve genel yönetimi tanımlar. Bu dosya hakkında daha fazla bilgi edinmek ve ihtiyaçlarınıza uygun bir dosya oluşturmak isterseniz [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/) adresini kullanmanızı tavsiye ederim.
 
 
 

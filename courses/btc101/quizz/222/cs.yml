@@ -1,9 +1,9 @@
-question: Jak jsou transakce na Lightning Network zabezpečeny?
-answer: Prostřednictvím kryptografie a nepřímo prostřednictvím energie spotřebované těžaři na Bitcoinu.
+question: Jaký je ústřední princip RGB?
+answer: Validace na straně klienta
 wrong_answers:
-  - Pouze prostřednictvím soukromých klíčů.
-  - Pouze prostřednictvím veřejných klíčů.
-  - Pouze prostřednictvím soukromých a veřejných klíčů.
-explanation: >-
-  Transakce na Lightning Network jsou zabezpečeny prostřednictvím kryptografie a nepřímo prostřednictvím energie spotřebované těžaři na Bitcoinu.
-reviewed: true
+  - Globální provádění na blockchainu
+  - Federovaný konsensus
+  - Proof-of-Work
+explanation: |
+  RGB je založeno na lokální validaci stavů, přičemž blockchain slouží pouze jako kryptografické ukotvení a ochrana proti dvojímu utrácení.
+reviewed: false

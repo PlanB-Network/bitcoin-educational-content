@@ -304,7 +304,7 @@ Estas três extensões trabalham em conjunto para criar um ecossistema coerente 
 
 
 
-O Mullvad Browser está disponível gratuitamente para Windows, macOS e Linux. Para o instalar, visite [o sítio Web oficial do Mullvad] (https://mullvad.net/browser).
+O Mullvad Browser está disponível gratuitamente para Windows, macOS e Linux. Para o instalar, visite [o sítio Web oficial do Mullvad](https://mullvad.net/browser).
 
 
 
@@ -557,10 +557,10 @@ Embora tenha algumas limitações (sem versão móvel, sessões não persistente
 
 
 
-- [Porque é que a privacidade é importante] (https://mullvad.net/en/why-privacy-matters/how-mass-surveillance-companies-collect-your-data)
+- [Porque é que a privacidade é importante](https://mullvad.net/en/why-privacy-matters/how-mass-surveillance-companies-collect-your-data)
 - [Tor sem Tor: conceito do navegador Mullvad](https://mullvad.net/en/browser/tor-without-tor)
-- [Como escolher um browser amigo da privacidade] (https://mullvad.net/en/browser/things-to-look-for-when-choosing-a-browser)
-- [Compreender a impressão digital do browser] (https://mullvad.net/en/browser/browser-fingerprinting)
+- [Como escolher um browser amigo da privacidade](https://mullvad.net/en/browser/things-to-look-for-when-choosing-a-browser)
+- [Compreender a impressão digital do browser](https://mullvad.net/en/browser/browser-fingerprinting)
 
 
 
@@ -570,7 +570,7 @@ Embora tenha algumas limitações (sem versão móvel, sessões não persistente
 
 
 - [Centro de ajuda do navegador Mullvad](https://mullvad.net/en/help/tag/mullvad-browser)
-- [Primeiros passos para a privacidade em linha] (https://mullvad.net/en/help/first-steps-towards-online-privacy)
+- [Primeiros passos para a privacidade em linha](https://mullvad.net/en/help/first-steps-towards-online-privacy)
 
 
 

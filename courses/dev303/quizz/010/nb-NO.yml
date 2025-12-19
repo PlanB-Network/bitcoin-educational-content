@@ -1,0 +1,8 @@
+question: Hva skjer med en variabel når eierskapet flyttes til en annen variabel i Rust?
+answer: Den opprinnelige variabelen blir ugyldig og kan ikke brukes lenger
+wrong_answers:
+  - Den opprinnelige variabelen blir en skrivebeskyttet referanse til dataene
+  - Begge variablene deler eierskap og kan endre dataene uavhengig av hverandre
+  - Den opprinnelige variabelen konverteres automatisk til en muterbar referanse
+explanation: |
+  Når eierskapet flyttes i Rust, blir den opprinnelige variabelen fullstendig ugyldig og kan ikke lenger brukes. Dette er en grunnleggende sikkerhetsfunksjon som forhindrer at flere variabler administrerer det samme heap-minnet, noe som kan føre til "use-after-free"-feil eller "double-free"-feil. Flyttingen overfører full kontroll til den nye variabelen, og kompilatoren vil produsere en feilmelding hvis du prøver å bruke den opprinnelige variabelen etter flyttingen. Dette skiller seg fra kopiering (der begge variablene forblir gyldige) og lån (der den opprinnelige eieren beholder eierskapet).

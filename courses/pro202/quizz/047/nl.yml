@@ -1,0 +1,8 @@
+question: Wat is de wiskundige formule die wordt gebruikt om de bloksubsidie te berekenen bij een gegeven blokhoogte h in het Bitcoin protocol?
+answer: subsidie = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - subsidie = 50_000_000_000 / (2^(h / 210_000))
+  - subsidie = 5_000_000_000 * (0,5^(h % 210_000))
+  - subsidie = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  De juiste formule maakt gebruik van bit-shifting operaties waarbij 5_000_000_000 staat voor 50 BTC in satoshis, en de right-shift operator >> effectief deelt door machten van 2. De floor division h // 210_000 bepaalt hoeveel halveringsperioden er zijn opgetreden. Het eerste foute antwoord gebruikt gewone deling in plaats van bit-shifting en begint met een onjuiste basiswaarde. Het tweede gebruikt modulo in plaats van bodemdeling, waardoor een cyclisch patroon ontstaat in plaats van een progressieve halvering. Het derde gebruikt modulo bewerkingen waardoor de halveringsteller elke 210.000 blokken gereset wordt in plaats van dat de halveringen in de loop van de tijd worden geaccumuleerd.

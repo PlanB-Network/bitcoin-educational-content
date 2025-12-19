@@ -1,0 +1,8 @@
+question: Qual è il meccanismo di sicurezza principale che garantisce che l'infrastruttura Greenlight non possa accedere ai fondi degli utenti nonostante l'hosting dei nodi Lightning nel cloud?
+answer: Le chiavi private non lasciano mai i dispositivi degli utenti e tutte le operazioni richiedono la firma attiva dell'applicazione
+wrong_answers:
+  - Portafogli multi-firma con shard di chiavi distribuiti su più provider cloud
+  - Moduli di sicurezza hardware che criptano tutte le transazioni prima dell'elaborazione in cloud
+  - Contratti intelligenti a tempo che restituiscono automaticamente i fondi in caso di accesso non autorizzato
+explanation: |
+  L'SDK Breez mantiene la sicurezza attraverso un'architettura trustless in cui le chiavi private rimangono esclusivamente sui dispositivi degli utenti. Sebbene Greenlight ospiti l'infrastruttura del nodo Lightning, non può eseguire alcuna operazione senza un'applicazione attivamente connessa che possa firmare transazioni e messaggi. Questo design garantisce che, anche se il nodo viene eseguito nel cloud, Greenlight non ha mai accesso alle chiavi degli utenti e non può spostare fondi senza l'esplicita autorizzazione dell'utente attraverso la sua applicazione locale. Le altre opzioni descrivono diversi meccanismi di sicurezza che non sono utilizzati in questa architettura.

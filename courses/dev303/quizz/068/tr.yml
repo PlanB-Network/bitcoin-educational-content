@@ -1,0 +1,8 @@
+question: Bitcoin uygulamaları geliştirirken Rust'in statik tipleme yaklaşımının dinamik tiplemeye göre birincil avantajı nedir?
+answer: Tür hataları dağıtımdan önce derleme zamanında yakalanır ve kullanıcı fonları işlenirken çalışma zamanı hataları önlenir
+wrong_answers:
+  - Statik yazım, blok zincirinde Bitcoin işlemlerini işlerken daha hızlı yürütme hızı sağlar
+  - "Dinamik yazım daha fazla bellek tahsisi gerektirir ve bu da Bitcoin'ün hafif düğüm gereksinimleriyle çelişir"
+  - Statik yazım, Bitcoin protokol uygulamaları ve akıllı sözleşmeler için otomatik kod üretimini mümkün kılar
+explanation: |
+  Rust'nın statik tipleme özelliği derleme sırasında tip uyuşmazlıklarını yakalayarak hataların yazılım oluşturulmadan veya dağıtılmadan önce çözülmesini sağlar. Bu, Bitcoin geliştirme için çok önemlidir çünkü yazılım gerçek kullanıcı fonlarını kullanmaya başladığında, çalışma zamanı tip hataları geri dönüşü olmayan mali kayıplara neden olabilir. Dinamik yazım, hataları yalnızca yürütme sırasında, potansiyel olarak kullanıcıların parası risk altındayken dağıtımdan sonra ortaya çıkarır. Diğer seçenekler yanlıştır çünkü statik yazımın birincil faydası yürütme hızı, bellek kullanımı ya da kod üretimi değil, derleme zamanı hatalarının önlenmesidir.

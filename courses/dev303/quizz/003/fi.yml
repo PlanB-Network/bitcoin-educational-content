@@ -1,0 +1,8 @@
+question: Mikä Cargo-komento suorittaa käännöksen tarkistukset ilman suoritettavan tiedoston luomista?
+answer: rahtitarkastus
+wrong_answers:
+  - rahtirakennus
+  - rahtijuoksu
+  - rahtitesti
+explanation: |
+  Komento 'cargo check' suorittaa kaikki käännöksen tarkistukset ja varmistaa, että koodisi käännetään oikein, mutta ei itse asiassa luo lopullista suoritettavaa tiedostoa. Tämä tekee siitä huomattavasti nopeamman kuin täydellisestä buildista, kun haluat vain tarkistaa koodin oikeellisuuden. Sitä vastoin komento 'cargo build' kääntää ja luo suoritettavat tiedostot, komento 'cargo run' sekä kääntää että suorittaa ohjelman ja komento 'cargo test' kääntää ja suorittaa testit.

@@ -1,0 +1,8 @@
+question: Koje bezbednosne aspekte treba imati na umu prilikom instalacije Rust koristeći Rustup?
+answer: Instalacija uključuje preuzimanje i izvršavanje skripte, iako koristi HTTPS i dolazi iz zvaničnih pouzdanih izvora.
+wrong_answers:
+  - Instalacija zahteva administratorske privilegije što stvara potencijalne ranjivosti sistema
+  - Stabilni alatni lanac sadrži eksperimentalne funkcije koje mogu imati neotkrivene sigurnosne nedostatke
+  - Proces instalacije automatski omogućava sve ciljeve kompilacije uključujući potencijalno nesigurne arhitekture
+explanation: |
+  Kada instalirate Rustup, preuzimate i izvršavate skriptu sa zvaničnog sajta Rust. Ovo koristi HTTPS za sigurnost transportnog sloja, a paketi dolaze iz pouzdanih izvora kao što je crates.io. Iako je ovo sigurno za većinu slučajeva upotrebe, neke organizacije sa strogim bezbednosnim politikama mogu preferirati menadžer paketa svoje distribucije, koji dodaje sopstvenu infrastrukturu za potpisivanje distribucije. Ostale opcije su netačne: Rustup se instalira u korisnikovom home direktorijumu bez potrebe za administratorskim privilegijama, stabilni alatni lanac specifično isključuje eksperimentalne funkcije, a ciljevi kompajliranja se dodaju zasebno i ne predstavljaju inherentne bezbednosne rizike.

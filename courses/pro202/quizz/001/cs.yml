@@ -1,0 +1,8 @@
+question: Co je konečné pole F(p) v kryptografickém systému Bitcoin?
+answer: Aritmetický systém definovaný prvočíslem p, který obsahuje prvky 0 až p-1
+wrong_answers:
+  - Nekonečná množina čísel, která se používá ke generování adres a klíčů Bitcoin
+  - Matematické pole obsahující všechna reálná čísla mezi 0 a p-1 včetně
+  - Kryptografická hašovací funkce, která dává výstupy o délce přesně p bitů
+explanation: |
+  Konečné pole F(p) je konkrétně aritmetický systém vytvořený kolem prvočísla p, který obsahuje přesně p prvků: celých čísel od 0 do p-1. Aspekt "konečný" je klíčový - není nekonečný a nejedná se o reálná čísla nebo hašovací funkce. Prvočíselné pole zajišťuje, že každý nenulový prvek má multiplikativní inverzní prvek, a všechny aritmetické operace (sčítání, odčítání, násobení) se obtékají pomocí modulo p, čímž se výsledky udržují uvnitř pole. Tato ohraničená a předvídatelná struktura je pro kryptografickou bezpečnost Bitcoin zásadní.

@@ -1,10 +1,9 @@
-question: Je, Lightning Network inawezesha nini?
-answer: Kufanya shughuli kati ya watu ambao hawana muunganisho wa moja kwa moja wa kituo.
+question: Bitcoin zinazotumika kwenye Liquid zinaitwaje?
+answer: L-BTC
 wrong_answers:
-  - Kuunda miunganisho ya kituo cha moja kwa moja tu na ubadilishanaji wa kati.
-  - Ili kuunda miunganisho ya vituo ambayo inahitaji uthibitisho mwingi kwa ununuzi wowote.
-  - Kuanzisha miunganisho ya moja kwa moja ya vituo ambayo imezuiliwa kwa miamala mikubwa pekee.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Lightning Network inafanya uwezekano wa kufanya shughuli kati ya
-  watu ambao hawana muunganisho wa moja kwa moja wa kituo.
-reviewed: true
+  Kwenye Liquid, bitcoin zinawakilishwa na L-BTC zilizounganishwa kwa uwiano wa 1 kwa 1 na BTC.
+reviewed: false

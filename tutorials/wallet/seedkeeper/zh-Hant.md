@@ -1,5 +1,5 @@
 ---
-name: 種子管理員
+name: Seedkeeper
 description: 如何使用 Seedkeeper 智慧卡備份我的 wallet Bitcoin？
 ---
 

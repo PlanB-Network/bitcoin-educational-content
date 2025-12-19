@@ -840,7 +840,7 @@ Bitcoin, Exchange'ün bir aracı olarak işlev gördüğünden, döngüsel bir e
 Bu, Mining makinelerinin çalıştırılmasından ödül kazanmayı içerir. Uzmanlaşmamış işletmeler için bu nispeten marjinal kalmaktadır. Size bilgisayar, ağ ve bakım satacak ya da kiralayacak aracılar vasıtasıyla katılabilirsiniz. Makinelere sahipseniz, bunları amortismana tabi varlıklar olarak muhasebeleştirebilirsiniz. Büyük ölçekte, yatırım getirisini dikkatli bir şekilde hesaplamanız gerekecektir çünkü pazar oldukça rekabetçidir ve başta elektrik olmak üzere maliyetlerin iyi tahmin edilmesini gerektirir.
 
 
-Mining yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Mining" bölümüne bakabilirsiniz] (https://planb.academy/tutorials/mining).
+Mining yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Mining" bölümüne bakabilirsiniz](https://planb.academy/tutorials/mining).
 
 
 
@@ -856,7 +856,7 @@ https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Exchange veya eşler arası bitcoin edinme yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Exchange" bölümüne bakabilirsiniz] (https://planb.academy/tutorials/exchange).
+Exchange veya eşler arası bitcoin edinme yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Exchange" bölümüne bakabilirsiniz](https://planb.academy/tutorials/exchange).
 
 
 ![BIZ101](assets/tr/012.webp)
@@ -1263,7 +1263,7 @@ Ellerinizi kirletmeye hazırsanız ve süreç üzerinde tam kontrol istiyorsanı
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
-Son olarak, fiziksel satış noktaları için bir tamamlayıcı olarak, [Bitcoinize PoS] (https://bitcoinize.com/) kurmayı düşünebilirsiniz.
+Son olarak, fiziksel satış noktaları için bir tamamlayıcı olarak, [Bitcoinize PoS](https://bitcoinize.com/) kurmayı düşünebilirsiniz.
 
 
 

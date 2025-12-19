@@ -1,0 +1,8 @@
+question: Dlaczego używanie funkcji expect() na zakodowanych wartościach, które wydają się być zweryfikowane przez kompilator, jest potencjalnie problematyczne w kodzie produkcyjnym?
+answer: Zakodowane na stałe wartości mogą ewoluować w czasie poprzez refaktoryzację, zamieniając poprzednio prawidłowe wartości w błędy wykonawcze
+wrong_answers:
+  - Kompilator nie może zweryfikować poprawności zakodowanych na stałe wartości w czasie kompilacji, przez co funkcja expect() jest niewiarygodna
+  - Zakodowane wartości zużywają więcej pamięci niż wartości dynamiczne, powodując problemy z wydajnością funkcji expect()
+  - Metoda expect() dodaje niepotrzebny narzut w porównaniu do unwrap(), gdy mamy do czynienia ze znanymi prawidłowymi wartościami
+explanation: |
+  Prawidłowa odpowiedź podkreśla krytyczny wniosek z rozdziału: nawet pozornie bezpieczne wartości zakodowane na stałe mogą z czasem stać się niebezpieczne. Przykład pokazuje, jak prawidłowy adres IP może zostać przekształcony w stałą, a następnie zmieniony na "localhost", łamiąc pierwotne założenie. Błędne odpowiedzi są nieprawidłowe, ponieważ: kompilator może zweryfikować zakodowane na stałe wartości w czasie kompilacji, zużycie pamięci nie jest problemem w przypadku funkcji expect(), a funkcja expect() nie ma znaczącego narzutu wydajności w porównaniu do funkcji unwrap().

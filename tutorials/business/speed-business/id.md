@@ -18,7 +18,7 @@ Adopsi Bitcoin di seluruh dunia didasarkan pada kasus penggunaan yang nyata dala
 
 
 
-[Speed Business] (https://www.tryspeed.com/) adalah platform yang dikembangkan oleh [Speed Wallet] (https://www.speed.app/) yang memungkinkan setiap pedagang untuk mengintegrasikan pembayaran Bitcoin dan stablecoin yang instan dan berbiaya rendah.
+[Speed Business](https://www.tryspeed.com/) adalah platform yang dikembangkan oleh [Speed Wallet](https://www.speed.app/) yang memungkinkan setiap pedagang untuk mengintegrasikan pembayaran Bitcoin dan stablecoin yang instan dan berbiaya rendah.
 
 
 

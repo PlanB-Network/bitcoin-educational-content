@@ -221,7 +221,7 @@ En yaygın komut dosyası, Address ile ilişkili özel anahtarla bir imza gerekt
 ### UTXO'lar: Harcanmamış İşlem Çıkışları
 
 
-Bitcoin'de, aslında Exchange doğrudan bitcoin değil, **UTXOs** (_Unspent Transaction Outputs_), yani "harcanmamış işlem çıktıları".
+Bitcoin'de, aslında Exchange doğrudan bitcoin değil, **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), yani "harcanmamış işlem çıktıları".
 
 
 Bir UTXO, herhangi bir değerde olabilen bir Bitcoin parçasıdır, örneğin **2.000 bitcoin**, **8 bitcoin** veya hatta **8.000 Sats**. Her UTXO bir komut dosyası tarafından kilitlenir ve harcamak için komut dosyasının koşullarını yerine getirmek gerekir, genellikle belirli bir alıcı Address'a karşılık gelen özel anahtarla bir imza.
@@ -431,7 +431,7 @@ Bu transferi doğrulamak için Alice ve Bob, çok-imzalı Address'tan Alice'ye *
 ### Transfer Süreci: Invoice
 
 
-Bob para almak istediğinde, Alice'ye 30.000 satoshis için bir **_invoice_** gönderir. Alice daha sonra kanal içinde transferi başlatarak bu Invoice'ya ödeme yapmaya devam eder. Gördüğümüz gibi, bu süreç yeni bir **Commitment Transaction**'in oluşturulmasına ve imzalanmasına dayanır.
+Bob para almak istediğinde, Alice'ye 30.000 satoshis için bir **_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_** gönderir. Alice daha sonra kanal içinde transferi başlatarak bu Invoice'ya ödeme yapmaya devam eder. Gördüğümüz gibi, bu süreç yeni bir **Commitment Transaction**'in oluşturulmasına ve imzalanmasına dayanır.
 
 
 Her bir Commitment Transaction, transferden sonra kanaldaki yeni fon dağılımını temsil eder. Bu örnekte, işlemden sonra Bob'de 30.000 satoshis ve Alice'de 100.000 satoshis bulunmaktadır. İki katılımcıdan biri bu Commitment Transaction'u Blockchain'te yayınlamaya karar verirse, kanalın kapanmasına neden olur ve fonlar bu son dağıtıma göre dağıtılır.
@@ -916,7 +916,7 @@ Bu bölümde, Lightning Network üzerinde ödeme yönlendirmesini inceledik. Anc
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Bu bölümde, Lightning'in **HTLC** (_Hashed Time-Locked Contracts_) sayesinde ödemelerin aracı düğümlere güvenmeye gerek kalmadan geçmesine nasıl izin verdiğini keşfedeceğiz. Bu akıllı sözleşmeler, her bir aracı düğümün ödemeyi yalnızca nihai alıcıya iletmesi durumunda kendi kanalından fon almasını sağlar, aksi takdirde ödeme doğrulanmaz.
+Bu bölümde, Lightning'in **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_) sayesinde ödemelerin aracı düğümlere güvenmeye gerek kalmadan geçmesine nasıl izin verdiğini keşfedeceğiz. Bu akıllı sözleşmeler, her bir aracı düğümün ödemeyi yalnızca nihai alıcıya iletmesi durumunda kendi kanalından fon almasını sağlar, aksi takdirde ödeme doğrulanmaz.
 
 
 Bu nedenle ödeme yönlendirmesi için ortaya çıkan sorun, aracı düğümlere ve aracı düğümlerin kendi aralarındaki gerekli güvendir. Bunu göstermek için 3 düğümlü ve 2 kanallı basitleştirilmiş Lightning Network örneğimizi tekrar ele alalım:
@@ -1447,7 +1447,7 @@ Alıcının satıcıya 30.000 Sats göndermek istediğini ve ödemenin yönlendi
 
 
 
-- **Üçgen açılış**: Kanalları işbirliği içinde açmak isteyen düğümler için platformlar mevcuttur ve her birinin anında gelen ve giden likiditeden yararlanmasına olanak tanır. Örneğin, [LightningNetwork+] (https://lightningnetwork.plus/) bu hizmeti sunmaktadır. Alice, Bob ve Suzie 100.000 Sats ile bir kanal açmak isterse, Alice'nin Bob'a, Bob'un Suzie'ye ve Suzie'nin Alice'ye bir kanal açması için bu platform üzerinde anlaşabilirler. Bu şekilde, her biri 100.000 Sats giden likiditeye ve 100.000 Sats gelen likiditeye sahip olurken, yalnızca 100.000 Sats'i kilitlemiş olur.
+- **Üçgen açılış**: Kanalları işbirliği içinde açmak isteyen düğümler için platformlar mevcuttur ve her birinin anında gelen ve giden likiditeden yararlanmasına olanak tanır. Örneğin, [LightningNetwork+](https://lightningnetwork.plus/) bu hizmeti sunmaktadır. Alice, Bob ve Suzie 100.000 Sats ile bir kanal açmak isterse, Alice'nin Bob'a, Bob'un Suzie'ye ve Suzie'nin Alice'ye bir kanal açması için bu platform üzerinde anlaşabilirler. Bu şekilde, her biri 100.000 Sats giden likiditeye ve 100.000 Sats gelen likiditeye sahip olurken, yalnızca 100.000 Sats'i kilitlemiş olur.
 
 
 ![LNP201](assets/en/073.webp)
@@ -1471,7 +1471,7 @@ Son olarak, hedefleri işlenen ödeme sayısını ve toplanan ücretleri en üst
 ### Loop Out Hizmeti
 
 
-Lightning Labs tarafından sunulan [Loop Out] (https://lightning.engineering/loop/) hizmeti, Bitcoin Blockchain'deki fonları geri alırken likiditenin kanalın karşı tarafına taşınmasına olanak tanır. Örneğin, Alice Lightning aracılığıyla bir döngü düğümüne 1 milyon satoshi gönderir ve bu düğüm de bu fonları On-Chain bitcoinleri olarak kendisine iade eder. Bu, kanalını her iki tarafta da 1 milyon satoshi ile dengeleyerek ödeme alma kapasitesini optimize eder.
+Lightning Labs tarafından sunulan [Loop Out](https://lightning.engineering/loop/) hizmeti, Bitcoin Blockchain'deki fonları geri alırken likiditenin kanalın karşı tarafına taşınmasına olanak tanır. Örneğin, Alice Lightning aracılığıyla bir döngü düğümüne 1 milyon satoshi gönderir ve bu düğüm de bu fonları On-Chain bitcoinleri olarak kendisine iade eder. Bu, kanalını her iki tarafta da 1 milyon satoshi ile dengeleyerek ödeme alma kapasitesini optimize eder.
 
 
 ![LNP201](assets/en/075.webp)
@@ -1524,7 +1524,7 @@ Bu eğitimin amacı size Lightning Network hakkında kapsamlı ve teknik bir anl
 - **Kanal Açma**: Kanalın oluşturulması, fonları 2/2 çoklu imza Address'te kilitleyen bir Bitcoin işlemi aracılığıyla yapılır. Bu para yatırma işlemi Blockchain üzerindeki Lightning kanalını temsil eder.
 
 
-![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction).
 
 ![LNP201](assets/en/077.webp)
 

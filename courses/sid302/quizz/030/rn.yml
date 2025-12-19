@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru y’uburyo bwo guhindura urufunguzo rwa ECDH mu nyubakwa ya Liquid ya Confidential Transactions?
+answer: Kugira ngo abarungitse bashobore gupfuka amafaranga n'ubwoko bw'itunga hakoreshejwe urufunguzo rwa bose rw'uwukira mu gihe batanga ibimenyamenya vy'urutonde bishobora kugenzurwa
+wrong_answers:
+  - Gushinga inzira z'itumanaho zitekanye hagati y'abakozi ba AMP n'abaguzi ba wallet mu gihe c'ugutanga uburenganzira bwo gukora
+  - Kugira ngo ureme amabanga asangiye y'iyandikisha ry'insobanuro y'imikono myinshi hagati y'amasakoshi n'ibikorwa remezo vya serveri ya AMP
+  - Ku mikono ya generate yerekana ko ari uwufise umutungo ataco ahishura amakuru y’ingenzi y’ibanga
+explanation: |
+  ECDH (Elliptic Curve Diffie-Hellman) urufunguzo rwo guhindura muri Liquid's Confidential Transactions rushoboza cane cane gutanga umutungo uzigama ubuzima bwite mu kwemerera abarungika gupfuka agaciro k'isohoka ry'ibikorwa bakoresheje urufunguzo rwa bose ruhuma rw'uwuronka. Ivyo bituma haba ibanga rusangi ry’uko uwuronka gusa ashobora gufungura akoresheje urufunguzo rwiwe rw’ibanga, mu gihe nyene atanga ibimenyamenya vy’urutonde bishobora gutuma abagenzura urubuga bagenzura ukuri kw’ibikorwa batabona amahera nyayo. Ayandi mahitamwo adondora nabi ECDH nk’ikora umutekano w’itumanaho, kwandika ibisobanuro, canke ibikorwa vy’ugushingira intahe ubuninahazwa, ivyo bikaba bikorwa n’uburyo butandukanye bwo gukingira amakuru mu bidukikije vya Liquid.

@@ -5,5 +5,5 @@ wrong_answers:
   - Phí giao dịch bị đốt trong quá trình xử lý, dần dần làm giảm nguồn cung bitcoin có sẵn
   - "Giao thức Bitcoin tự động khóa các đồng tiền không di chuyển trong thời gian dài để ngăn ngừa lạm phát"
 explanation: |
-  Chương này giải thích rằng mặc dù mức tối đa lý thuyết là khoảng 20.999.817 BTC, nhưng nguồn cung thực tế có thể sử dụng lại thấp hơn nhiều do lỗi của con người và mất mát. Việc mất khóa riêng tư khiến bitcoin vĩnh viễn không thể truy cập được, ví bị đánh cắp hoặc bị lãng quên, và đôi khi tiền được gửi đến các địa chỉ không hợp lệ. Những yếu tố này tạo ra sự sụt giảm nguồn cung vĩnh viễn, mang lại lợi ích cho những người nắm giữ còn lại, vì Satoshi đã lưu ý rằng việc mất tiền khiến tiền của mọi người khác có giá trị hơn.
+  Mặc dù mức tối đa lý thuyết là 20 999 999.9769 BTC, nguồn cung thực tế có thể sử dụng thấp hơn nhiều do lỗi con người và các khoản thất lạc. Các khóa riêng bị mất khiến bitcoin vĩnh viễn không thể truy cập, ví bị đánh cắp hoặc bị quên, và các đồng tiền đôi khi được gửi đến các địa chỉ không hợp lệ. Những yếu tố này dẫn đến sự suy giảm vĩnh viễn của nguồn cung, mang lại lợi ích cho những người nắm giữ còn lại, như Satoshi đã nhận xét: các đồng tiền bị mất làm tăng giá trị của các đồng tiền khác.
 reviewed: false

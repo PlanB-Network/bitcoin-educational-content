@@ -1,0 +1,8 @@
+question: Ni igiki kiba ku bijanye n’imiterere y’urubuga mu gihe c’ihinduka ry’Ishirahamwe ry’Igihugu ry’Igihugu (Dynafed) rya Liquid igihe umukozi akeneye gusubirwamwo?
+answer: Iryo shirahamwe ritangaza amakuru y’ihinduka rikurikiwe n’igihe c’indwi zibiri imbere y’uko iyo ntunganyo nshasha ifata .
+wrong_answers:
+  - Urubuga ruca ruhindukira ruja ku miterere mishasha y'imikorere inyuma yo gutangaza ibikorwa vy'uguhindura
+  - Abakozi bose bategerezwa gutora icarimwe kugira ngo bemeze uwusubirizwa imbere y'uko habaho amahinduka yose y'imiterere
+  - Urubuga rusaba fork ikomeye n'uguhagarika by'igihe gito kugira ngo ruhindure urutonde rw'ibikorwa no gusubira gutangura ibikorwa
+explanation: |
+  Dynamic Federation iremesha Liquid gutera imbere ata maforogo akomeye biciye mu nzira y’uguhinduka iteguwe neza. Iyo bikenewe gusubirizwa ibikorwa, urubuga ruratangaza igikorwa c’uguhindura kigaragaza ihinduka ririko riza. Ivyo bikurikirwa n’igihe c’indwi zibiri c’ugusangira aho imiterere ya kera n’imishasha yose iba kumwe, bikaba bituma haba ugukomeza ata nkomanzi. Ayandi mahitamwo ntabwo ari meza kuko guhindura ubwo nyene vyotuma urubuga rudashikama, gutora icarimwe si bwo buryo bukoreshwa, kandi amaforoko akomeye ni vyo Dynafed yagenewe kwirinda.

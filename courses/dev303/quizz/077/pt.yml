@@ -1,0 +1,8 @@
+question: O que acontece quando se chama lock() a um mutex em Rust e porque é que muitos programadores consideram aceitável não envolver esta operação?
+answer: Devolve um Resultado que pode falhar se outra thread entrar em pânico enquanto mantém o mutex, e o desempacotamento é aceitável porque não é possível lidar razoavelmente com erros de pânico de outras threads
+wrong_answers:
+  - Devolve uma Option que pode ser None se o mutex estiver ocupado, e o unwrapping é aceitável porque os mutexes ocupados devem causar o encerramento imediato do programa
+  - Devolve um Resultado que pode falhar devido à deteção de impasses, e o desempacotamento é aceitável porque os impasses indicam falhas fundamentais de conceção que devem entrar em pânico
+  - É sempre bem sucedida e devolve diretamente o lock guard, tornando desnecessário o unwrapping, uma vez que as operações mutex são garantidamente thread-safe no Rust
+explanation: |
+  Ao chamar lock() em um mutex, o Rust retorna um Result porque a operação pode falhar se outra thread entrar em pânico enquanto segura o mutex, deixando-o em um estado envenenado. Isso cria uma situação única onde seu código local recebe um erro para algo que aconteceu em um contexto de thread completamente diferente. Uma vez que não se pode razoavelmente lidar ou recuperar de um erro que se originou do pânico de outra thread, muitos desenvolvedores consideram aceitável abrir bloqueios de mutex, especialmente em bases de código sem pânico. As outras opções são incorrectas porque os mutexes não devolvem opções para estados ocupados, não têm deteção de deadlock incorporada que cause falhas nos resultados e a operação nem sempre é bem sucedida devido ao mecanismo de poison.

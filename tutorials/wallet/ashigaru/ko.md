@@ -1,5 +1,5 @@
 ---
-name: 아시가루
+name: Ashigaru
 description: 비트코인의 보안, 관리 및 혼합을 위한 사무라이 fork의 Wallet
 ---
 

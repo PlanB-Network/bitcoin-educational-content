@@ -1,0 +1,19 @@
+title: "Untraceable Electronic Cash (extended abstract)"
+original_language: en
+authors:
+  - David Chaum
+  - Amos Fiat
+  - Moni Naor
+abstract: |
+  This paper introduces a cryptographic scheme for electronic cash that achieves unconditional untraceability while preventing double-spending without requiring online verification for every transaction. Unlike previous electronic payment systems that either compromise privacy or require expensive online clearing, our approach allows users to withdraw electronic coins from a bank and spend them at merchants while maintaining complete anonymity—unless they attempt to spend the same coin twice.
+  The scheme employs a cut-and-choose protocol based on RSA signatures and collision-free functions. When withdrawing a coin, users engage in a blind signature protocol with the bank, creating k/2 signed components that together form one electronic coin. During payment, merchants challenge users to reveal specific information about half of these components randomly. If a coin is spent twice, the probability is high that different merchants will request complementary information, enabling the bank to extract the user's identity from the combined responses.
+  We present several extensions to the basic protocol: (1) a mechanism allowing the bank to provide incontestable proof of double-spending using digital signatures, protecting users from false accusations while maintaining unconditional privacy for honest users; (2) an efficient "electronic check" variant that enables variable-amount payments up to a predetermined limit with refundable differences; and (3) a blacklisting mechanism that allows the bank to invalidate all coins from a cheating user once double-spending is detected.
+  The protocols are practical and efficient compared to general zero-knowledge constructions, making them suitable for real-world deployment while providing strong privacy guarantees and fraud prevention capabilities that surpass both traditional credit cards and paper currency.
+paper_type: conference
+source: Springer
+topics:
+  - Anonymous Transaction Systems
+  - Double-Spending Prevention
+  - Privacy-Preserving Protocols
+pdf_url: https://chaum.com/wp-content/uploads/2021/12/Untraceable_Electronic_Cash.pdf
+id: 58c45256-7db5-4490-a155-fcca7a8d6b21

@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen kryptografinen ominaisuus, jonka ansiosta kompaktit lohkosuodattimet (BIP158) voivat tarjota yksityisyyden suojaa kevyille asiakkaille säilyttäen samalla täydellisen tarkkuuden?
+answer: Ne voivat tuottaa vääriä positiivisia tuloksia, mutta eivät koskaan vääriä negatiivisia tuloksia, kun ne vastaavat tapahtumia
+wrong_answers:
+  - Ne käyttävät nollatietotodistuksia piilottaakseen, mitä osoitteita solmuilta kysytään
+  - "Ne salaavat kaikki suodatintiedot asiakkaan julkisella avaimella salakuuntelun estämiseksi"
+  - Ne satunnaistavat transaktioiden hashien järjestyksen peittääkseen kulutuskuviot tarkkailijoilta
+explanation: |
+  Kompaktit lohkosuodattimet käyttävät todennäköisyyteen perustuvia tietorakenteita, jotka voivat osoittaa virheellisesti vastaavuuden (väärä positiivinen), mutta eivät koskaan jätä todellista vastaavuutta huomaamatta (väärä negatiivinen). Tämä epäsymmetrinen ominaisuus on ratkaisevan tärkeä: väärät positiiviset tulokset aiheuttavat vain tarpeettomia lohkolatauksia, kun taas väärät negatiiviset tulokset johtaisivat siihen, että lompakot jättäisivät maksut kokonaan suorittamatta. Yksityisyyden suojaan liittyvä hyöty syntyy tästä epävarmuudesta - tarkkailijat eivät voi erottaa aitoja osumia ja vääriä positiivisia tuloksia toisistaan, mikä peittää sen, mitkä transaktiot todella kuuluvat kysyvälle wallet:lle.

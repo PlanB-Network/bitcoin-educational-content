@@ -1,0 +1,8 @@
+question: Mis juhtub Bitcoin tehingu sisend- ja väljundisummade vahega?
+answer: Erinevus muutub automaatselt kaevuritele makstavaks tehingutasuks
+wrong_answers:
+  - "Erinevus tagastatakse saatja algsele aadressile kui muutus"
+  - Erinevus põletatakse ja eemaldatakse lõplikult ringlusest
+  - Erinevust hoitakse deposiidis kuni tehingu kinnitamiseni
+explanation: |
+  Bitcoin tasusüsteemis arvutatakse tasud kaudselt sisendite kogusummade ja väljundite kogusummade vahena (tasu = summa(sisendid) - summa(väljundid)). Iga väärtus, mida ei ole selgesõnaliselt väljundile määratud, muutub automaatselt kaevandamistasuks. Seetõttu on nõuetekohaste muutmisväljundite loomine kriitilise tähtsusega - kui te unustate suure UTXO kulutamisel muutmisväljundi lisada, muutub kogu ülejäänud summa kaevuri jaoks kalliks tasuks. Teised valikud on valed, sest Bitcoin ei loo automaatselt muutusväljundeid, ei põleta määramata väärtust ega kasuta tehinguerinevuste jaoks eskrumehhanisme.

@@ -7,12 +7,12 @@ description: Un gardien accessible par télégramme Wallet
 ![cover](assets/cover.webp)
 
 
-ce tutoriel a été rédigé par_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+ce tutoriel a été rédigé par_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Sats.Mobi
 
-SatsMobi est un Wallet qui fonctionne sur Telegram, avec toutes les fonctionnalités d'un Lightning Network (custodial) Wallet, plus une série de fonctionnalités très divertissantes. Il est issu d'un Fork du LightningTipBot, aujourd'hui abandonné, dont il a hérité de toutes les fonctionnalités tout en y ajoutant d'autres plus récentes, ce qui le rend plus moderne. Comme LNTipBot, Sats.Mobi adhère également à la philosophie de l'open-source. Le Wallet peut être configuré et géré indépendamment en le clonant à partir de ce [dépôt] (https://github.com/massmux/SatsMobiBot).
+SatsMobi est un Wallet qui fonctionne sur Telegram, avec toutes les fonctionnalités d'un Lightning Network (custodial) Wallet, plus une série de fonctionnalités très divertissantes. Il est issu d'un Fork du LightningTipBot, aujourd'hui abandonné, dont il a hérité de toutes les fonctionnalités tout en y ajoutant d'autres plus récentes, ce qui le rend plus moderne. Comme LNTipBot, Sats.Mobi adhère également à la philosophie de l'open-source. Le Wallet peut être configuré et géré indépendamment en le clonant à partir de ce [dépôt](https://github.com/massmux/SatsMobiBot).
 
 
 Si vous préférez l'utiliser simplement, démarrer une discussion sur Telegram révélera qu'il s'agit d'un robot.
@@ -20,7 +20,7 @@ Si vous préférez l'utiliser simplement, démarrer une discussion sur Telegram 
 
 ## Paramètres
 
-Dans la barre de recherche de Telegram, cherchez "satsmobi" et le lien vers le [bot] (@SatsMobiBot) apparaîtra.
+Dans la barre de recherche de Telegram, cherchez "satsmobi" et le lien vers le [bot](@SatsMobiBot) apparaîtra.
 
 
 **Attention** : Si vous n'êtes pas sûr de pouvoir effectuer une recherche via Telegram, accédez au bot en toute sécurité en utilisant le [lien] suivant (https://t.me/SatsMobiBot)
@@ -232,5 +232,5 @@ Si vous êtes à la recherche de portefeuilles Lightning Network non gardiens, n
 ### Documentation
 
 
-- [Github] (https://github.com/massmux/SatsMobiBot)
+- [Github](https://github.com/massmux/SatsMobiBot)
 - Playlist de [vidéos](https://www.youtube.com/results?search_query=Sats.mobi) demo

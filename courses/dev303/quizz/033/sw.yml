@@ -1,0 +1,8 @@
+question: Ni kigezo gani cha mazingira kinachoweza kuwekwa ili kuonyesha ufuatiliaji kamili wa mrundikano wa simu wakati hofu inapotokea katika Rust?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE ni kigezo sahihi cha mazingira kinachotoa taarifa za ziada za utatuzi wa matatizo kwa kuonyesha rundo kamili la simu lililosababisha hofu. Hii huwasaidia wasanidi programu kufuatilia hasa mfuatano wa simu za utendaji kazi uliosababisha hitilafu. Chaguo zingine (RUST_STACKTRACE, RUST_DEBUG_TRACE, na RUST_PANIC_TRACE) si vigezo halali vya mazingira vya Rust na havitatoa matokeo yoyote ya utatuzi wa matatizo wakati hofu inapotokea.

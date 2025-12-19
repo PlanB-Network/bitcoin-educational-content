@@ -1,5 +1,5 @@
 ---
-name: ブロックストリーム・エクスプローラー
+name: Blockstream Explorer
 description: BitcoinとLiquid Networkのメインレイヤーを探る
 ---
 

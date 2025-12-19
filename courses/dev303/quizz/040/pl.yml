@@ -1,0 +1,8 @@
+question: Co dzieje się z wnioskowaniem o typie zamknięcia, gdy zamknięcie jest wywoływane z określonymi typami?
+answer: Typy te stają się stałe dla tej instancji zamknięcia
+wrong_answers:
+  - Zamknięcie może nadal akceptować różne typy w przyszłych połączeniach
+  - Kompilator resetuje typy dla następnego wywołania funkcji
+  - Typy pozostają elastyczne i mogą się zmieniać w zależności od kontekstu
+explanation: |
+  W Rust zamknięcia korzystają z automatycznego wnioskowania o typie, ale ta elastyczność ma swoje ograniczenia. Po wywołaniu domknięcia z określonymi typami parametrów, kompilator blokuje te typy dla tej konkretnej instancji domknięcia. Oznacza to, że to samo zamknięcie nie może być później wywołane z innymi typami - staje się monomorfizowane do pierwszych napotkanych typów. Różni się to od funkcji generycznych, które mogą być wywoływane z różnymi typami, ponieważ każde wywołanie tworzy oddzielną instancję. Pozostałe opcje są niepoprawne, ponieważ sugerują ciągłą elastyczność, która nie istnieje po określeniu typów zamknięcia.

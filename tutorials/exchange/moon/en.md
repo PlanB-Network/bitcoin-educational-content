@@ -6,6 +6,12 @@ description: Pay in bitcoins wherever Visa bankcards are accepted.
 ![cover](assets/cover.webp)
 
 
+---
+
+⚠️ *December 2025 update: Attention, **since early December 2025, part of Moon’s services has no longer been available**, notably the reloadable Visa cards. We do not yet know whether this unavailability is temporary or permanent. This tutorial will be updated as soon as more information becomes available.*
+
+---
+
 Moon lets you use cryptocurrencies like bitcoin to purchase KYC-free virtual Visa cards and gift cards, which can be used at millions of online merchants, just like a traditional bank card. It thus offers a simple way to spend your sats wherever Visa is accepted, without going through an exchange platform.
 
 

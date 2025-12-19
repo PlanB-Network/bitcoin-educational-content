@@ -1,8 +1,9 @@
-question: Wat is het schaalbaarheidsprobleem van Bitcoin?
-answer: De uitdaging om een monetair systeem te implementeren dat een steeds groter aantal transacties per seconde kan uitvoeren naarmate het systeem wordt overgenomen.
+question: Welk mechanisme maakt Lightning-betalingen atomair?
+answer: HTLC
 wrong_answers:
-  - De moeilijkheid om Mining nieuwe Bitcoins te maken met een stijgende waarde na verloop van tijd.
-  - De volatiliteit van de prijs van Bitcoin die na elke Halving zal stijgen.
-  - Het gebrek aan regelgeving voor Bitcoin waardoor transacties illegaal worden.
-explanation: >-
-reviewed: true
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC’s koppelen de betaling aan het onthullen van een geheim en garanderen volledig succes of mislukking zonder verlies.
+reviewed: false

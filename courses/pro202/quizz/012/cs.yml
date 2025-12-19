@@ -1,0 +1,8 @@
+question: Jaká matematická vlastnost zajišťuje, že body eliptické křivky lze při kryptografických operacích sčítat konzistentně a předvídatelně?
+answer: Body tvoří matematickou grupu s uzavřeností, asociativitou, identitou a inverzí
+wrong_answers:
+  - Body zachovávají souvislé hladké křivky, které zachovávají geometrické vztahy
+  - Body se řídí lineárními vzorci, které vytvářejí předvídatelné sekvence
+  - Body používají modulární aritmetiku, která automaticky zabraňuje výpočetním chybám
+explanation: |
+  Body eliptických křivek tvoří matematickou grupu při sčítání, což znamená, že splňují čtyři základní vlastnosti: uzavřenost (sečtením dvou bodů vznikne další bod na křivce), asociativitu (na pořadí operací nezáleží), identitu (bod v nekonečnu se chová jako nula) a inverzi (každý bod má odraz, který ho ruší). Díky těmto skupinovým vlastnostem spolehlivě funguje kryptografie eliptických křivek a operace jako skalární násobení se chovají konzistentně bez ohledu na to, zda pracujeme s hladkými reálnými křivkami nebo s diskrétními body konečného pole.

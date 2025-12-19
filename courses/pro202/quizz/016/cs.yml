@@ -1,0 +1,8 @@
+question: Co se stane s rozdílem mezi částkami na vstupu a na výstupu v transakci Bitcoin?
+answer: Rozdíl se automaticky stává transakčním poplatkem placeným těžařům
+wrong_answers:
+  - "Rozdíl se vrací na původní adresu odesílatele jako změna"
+  - Rozdíl je spálen a trvale vyřazen z oběhu
+  - Rozdíl je držen v úschově až do potvrzení transakce
+explanation: |
+  V systému poplatků Bitcoin se poplatky vypočítávají implicitně jako rozdíl mezi celkovými částkami vstupů a celkovými částkami výstupů (poplatek = suma(vstupy) - suma(výstupy)). Každá hodnota, která není explicitně přiřazena výstupu, se automaticky stává poplatkem horníka. Proto je vytvoření správných výstupů změn kriticky důležité - pokud při utrácení velkého množství UTXO zapomenete zahrnout výstup změn, celý zbytek se pro těžaře stane drahým poplatkem. Ostatní možnosti jsou nesprávné, protože Bitcoin automaticky nevytváří změnové výstupy, nespálí nepřiřazenou hodnotu a nepoužívá mechanismy úschovy rozdílů transakcí.

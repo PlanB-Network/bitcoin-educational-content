@@ -1,0 +1,8 @@
+question: Nền tảng toán học nào khiến cho bài toán logarit rời rạc trở nên bất khả thi về mặt tính toán trong mật mã đường cong elip?
+answer: Sự phân bố điểm không thể dự đoán được khi tạo ra một nhóm tuần hoàn thông qua việc cộng điểm lặp đi lặp lại.
+wrong_answers:
+  - Tính chất đối xứng của đường cong elip phản chiếu các điểm qua trục x.
+  - Các phép toán số học modulo được thực hiện trên các trường hữu hạn thay vì số thực.
+  - Số nguyên tố lớn được sử dụng làm đặc trưng trường trong phương trình đường cong
+explanation: |
+  Khó khăn của bài toán logarit rời rạc bắt nguồn từ sự phân bố không thể dự đoán được và phi tuyến tính của các điểm khi tạo ra một nhóm tuần hoàn (G, 2G, 3G, ..., nG). Mặc dù các điểm được tạo ra theo trình tự, chúng lại xuất hiện rải rác và ngẫu nhiên, khiến việc xác định hằng số s từ điểm P = sG trở nên bất khả thi về mặt tính toán. Trong khi tính đối xứng, số học modulo và số nguyên tố lớn là những thuộc tính quan trọng của đường cong elliptic, chúng không trực tiếp tạo ra hàm một chiều cho phép mã hóa khóa công khai an toàn.

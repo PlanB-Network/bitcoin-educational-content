@@ -1,11 +1,17 @@
 ---
-name: Månen
+name: Moon
 description: Betal med bitcoins overalt der Visa-bankkort aksepteres.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Oppdatering desember 2025: Merk, **siden begynnelsen av desember 2025 er deler av Moons tjenester ikke lenger tilgjengelige**, særlig oppladbare Visa-bankkort. Vi vet ennå ikke om denne utilgjengeligheten er midlertidig eller permanent. Denne veiledningen vil bli oppdatert så snart vi har mer informasjon.*
+
+---
 
 Moon lar deg bruke kryptovalutaer som bitcoin til å kjøpe KYC-frie virtuelle Visa-kort og gavekort, som kan brukes hos millioner av nettbutikker, akkurat som et tradisjonelt bankkort. Det er dermed en enkel måte å bruke sats på overalt der Visa aksepteres, uten å gå gjennom en vekslingsplattform.
 
@@ -42,7 +48,7 @@ Med Moon har du en ekte bro mellom bitcoinsene dine og Visa-kortbetalingssysteme
 
 
 
-Gå til Moon's [offisielle plattform] (https://paywithmoon.com), klikk deretter på **"Registrer"**-knappen, pass den menneskelige bekreftelsen (CAPTCHA), og registrer deg deretter ved å skrive inn e-postadressen og passordet ditt.
+Gå til Moon's [offisielle plattform](https://paywithmoon.com), klikk deretter på **"Registrer"**-knappen, pass den menneskelige bekreftelsen (CAPTCHA), og registrer deg deretter ved å skrive inn e-postadressen og passordet ditt.
 
 
 

@@ -54,8 +54,8 @@ Wallet terus berkembang, jadi jangan kaget jika Anda menemukan perbedaan antara 
 
 
 
-- Misalnya, pada 19/07/2025, tombol **"Beli / Jual / Bayar "** terlihat tetapi berwarna abu-abu di aplikasi, karena opsi ini, tersedia di Exchange [bullbitcoin.com] (https://app.bullbitcoin.com/registration/orangepeel), akan segera diintegrasikan untuk pengalaman yang terpadu. Penggunaannya akan tetap sepenuhnya opsional. Banyak perkembangan lain yang sedang berlangsung atau direncanakan: manajemen multi-Wallet, passphrase, kompatibilitas dengan dompet perangkat keras ...
-- Di [BullBitcoin GitHub] (https://github.com/orgs/SatoshiPortal/projects/49), Anda dapat melihat topik-topik terkini dan perkembangan yang akan datang. Karena proyek ini 100% open-source dan "dibangun untuk umum", Anda juga dapat mengirimkan saran dan bug yang Anda temui kepada kami.
+- Misalnya, pada 19/07/2025, tombol **"Beli / Jual / Bayar "** terlihat tetapi berwarna abu-abu di aplikasi, karena opsi ini, tersedia di Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), akan segera diintegrasikan untuk pengalaman yang terpadu. Penggunaannya akan tetap sepenuhnya opsional. Banyak perkembangan lain yang sedang berlangsung atau direncanakan: manajemen multi-Wallet, passphrase, kompatibilitas dengan dompet perangkat keras ...
+- Di [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), Anda dapat melihat topik-topik terkini dan perkembangan yang akan datang. Karena proyek ini 100% open-source dan "dibangun untuk umum", Anda juga dapat mengirimkan saran dan bug yang Anda temui kepada kami.
 
 
 
@@ -179,7 +179,7 @@ BullBitcoin Wallet terhubung ke server Electrum secara default: yang pertama dik
 
 
 
-Untuk kerahasiaan yang lebih baik, Anda dapat menghubungkan aplikasi ke node Bitcoin Anda sendiri melalui server Electrum (instruksi tersedia di [BullBitcoin's GitHub] (https://github.com/orgs/SatoshiPortal/projects/49)).
+Untuk kerahasiaan yang lebih baik, Anda dapat menghubungkan aplikasi ke node Bitcoin Anda sendiri melalui server Electrum (instruksi tersedia di [BullBitcoin's GitHub](https://github.com/orgs/SatoshiPortal/projects/49)).
 
 
 
@@ -1112,7 +1112,7 @@ Untuk menggunakan **Bull Bitcoin Mobile** dengan aman dan efisien, ikuti rekomen
 
 - Penjelajah Blok: **Penjelajah Blok**
  - on chain: **[Mempool.space](https://Mempool.space/)**
- - Liquid: ** [Info Blockstream] (https://blockstream.info/Liquid) **
+ - Liquid: ** [Info Blockstream](https://blockstream.info/Liquid) **
  - Petir: **[1ML (Lightning Network)](https://1ml.com/)**
 
 
@@ -1170,7 +1170,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-[Buat akun Anda] (https://app.bullbitcoin.com/registration/orangepeel) dengan diskon 0,25% untuk pembelian dan penjualan Bitcoin.
+[Buat akun Anda](https://app.bullbitcoin.com/registration/orangepeel) dengan diskon 0,25% untuk pembelian dan penjualan Bitcoin.
 
 
 

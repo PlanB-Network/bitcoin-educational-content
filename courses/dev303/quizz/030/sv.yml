@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med Rust:s frågeteckenoperator (?) när den används med Result-typer?
+answer: För att automatiskt ta fram lyckade värden och returnera fel direkt från den aktuella funktionen
+wrong_answers:
+  - Konvertera alla Result-typer till Option-typer för enklare hantering av null
+  - Att automatiskt få panik med ett anpassat meddelande när något fel inträffar
+  - För att linda in framgångsrika värden i ett extra Resultat-lager för extra säkerhet
+explanation: |
+  Operatorn med frågetecken (?) är särskilt utformad för felfortplantning i Rust. När den tillämpas på ett resultat extraherar den success-värdet om operationen lyckades, vilket gör att koden kan fortsätta med det värdet. Men om ett fel inträffade returnerar operatorn ? omedelbart felet från den aktuella funktionen, vilket effektivt sprider det uppåt i anropsstacken. Detta eliminerar behovet av utförliga matchningsuttryck samtidigt som explicit felhanteringssemantik bibehålls. Operatorn kan endast användas i funktioner som returnerar Result-typer, vilket säkerställer korrekta felpropageringsmönster.

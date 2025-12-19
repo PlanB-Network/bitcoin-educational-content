@@ -1,0 +1,8 @@
+question: Kulingana na mfumo wa umiliki wa Rust, thamani inaweza kuwa na wamiliki wangapi wakati wowote?
+answer: Mmiliki mmoja tu
+wrong_answers:
+  - Wamiliki wengi wanaruhusiwa
+  - Upeo wa wamiliki wawili
+  - Hakuna wamiliki hadi wafikiwe
+explanation: |
+  Mfumo wa umiliki wa Rust unafanya kazi kwa sheria tatu za msingi, ya kwanza ikiwa kwamba kila thamani ina mmiliki mmoja haswa wakati wowote. Kanuni hii moja ya umiliki ni muhimu kwa usalama wa kumbukumbu kwa sababu inazuia sehemu nyingi za programu kujaribu kuweka kumbukumbu sawa au kurekebisha data kwa wakati mmoja. Kuwa na wamiliki wengi kungesababisha hitilafu na mbio za data baada ya matumizi, huku kutokuwa na wamiliki kumaanisha kuwa kumbukumbu haiwezi kusafishwa ipasavyo.

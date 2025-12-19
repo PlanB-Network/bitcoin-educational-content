@@ -105,7 +105,7 @@ Akan tetapi, dompet perangkat keras memperkenalkan ancaman mereka sendiri. Anda 
 
 
 
-- Entropi dan frasa seed:** wallet Anda hanya seaman keacakan yang melahirkannya. Kami akan mencampur generator angka acak perangkat dengan trik yang mudah digunakan manusia seperti lemparan dadu, mengubah entropi tersebut menjadi 12 atau 24 kata [frasa BIP39] (https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), dan meninggalkan ruangan dengan cadangan tertulis atau logam yang Anda percayai.
+- Entropi dan frasa seed:** wallet Anda hanya seaman keacakan yang melahirkannya. Kami akan mencampur generator angka acak perangkat dengan trik yang mudah digunakan manusia seperti lemparan dadu, mengubah entropi tersebut menjadi 12 atau 24 kata [frasa BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), dan meninggalkan ruangan dengan cadangan tertulis atau logam yang Anda percayai.
 - Kebersihan frasa kata sandi:** Perlakukan seed seperti kunci utama tabungan Anda. Jangan pernah mengetikkan kata-katanya di ponsel atau komputer-keylogger, tangkapan layar, dan cadangan awan dapat membocorkannya selamanya. Simpanlah frasa tersebut secara offline, simpan di suatu tempat yang hanya bisa diakses oleh Anda, dan latihlah untuk membacanya dengan lantang sebelum Anda pergi.
 - Elemen aman + mikrokontroler:** Bayangkan secure element sebagai lemari besi dan mikrokontroler sebagai otaknya. secure element menjaga kunci pribadi dengan ketahanan terhadap gangguan, sedangkan mikrokontroler menangani layar, tombol, dan logika firmware. Perhatikan bahwa dompet perangkat keras yang kami buat saat ini tidak memiliki secure element. Ini bukan berarti tidak aman, hanya saja tingkat proteksinya lebih rendah.
 - Memercayai firmware:** Firmware adalah sistem operasi yang tidak terlihat dari wallet. Selalu unduh dari rilis yang ditandai, periksa hash yang dipublikasikan, dan pahami bahwa build yang dapat direproduksi memungkinkan beberapa orang mengkompilasi kode yang sama dan menghasilkan biner yang sama persis. Jika checksum tidak cocok, Anda tidak perlu menandatangani.
@@ -132,7 +132,7 @@ Hari ini, kami akan mem-flash firmware mereka ke perangkat keras seharga $15.
 
 
 
-- LilyGO T-Display (16MB dengan cangkang, model K164)** - [Pesan langsung dari LilyGO] (https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) dengan harga sekitar $15. Papan ESP32 ini menyediakan tampilan, tombol, dan antarmuka USB yang mirip dengan Jade Plus dari Blockstream. ESP32 onboard juga menyertakan radio Wi-Fi dan Bluetooth; kami akan mengirimkan firmware yang membuat mereka dinonaktifkan, tetapi mereka membentuk model ancaman Anda karena kode berbahaya dapat menghidupkannya kembali.
+- LilyGO T-Display (16MB dengan cangkang, model K164)** - [Pesan langsung dari LilyGO](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) dengan harga sekitar $15. Papan ESP32 ini menyediakan tampilan, tombol, dan antarmuka USB yang mirip dengan Jade Plus dari Blockstream. ESP32 onboard juga menyertakan radio Wi-Fi dan Bluetooth; kami akan mengirimkan firmware yang membuat mereka dinonaktifkan, tetapi mereka membentuk model ancaman Anda karena kode berbahaya dapat menghidupkannya kembali.
 - Kabel USB-C** - Bawalah kabel berkemampuan data sehingga Anda dapat melakukan flash firmware dan menyalakan papan langsung dari laptop Anda (tidak masalah untuk penggunaan di kelas).
 
 
@@ -153,7 +153,7 @@ Hari ini, kami akan mem-flash firmware mereka ke perangkat keras seharga $15.
 ### Persiapkan Kasus Anda
 
 
-Anda memiliki dua pilihan untuk menempatkan papan T-Display LilyGO Anda: casing cetak 3D atau penutup resmi LilyGO. Casing cetak dapat ditemukan dan dicetak dari [model ini] (https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Casing ini menawarkan cangkang yang ringan dan dapat disesuaikan untuk perangkat Anda.
+Anda memiliki dua pilihan untuk menempatkan papan T-Display LilyGO Anda: casing cetak 3D atau penutup resmi LilyGO. Casing cetak dapat ditemukan dan dicetak dari [model ini](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Casing ini menawarkan cangkang yang ringan dan dapat disesuaikan untuk perangkat Anda.
 
 
 ![image](assets/fr/04.webp)
@@ -423,7 +423,7 @@ Blockstream Green adalah perangkat lunak untuk menyelesaikan pengaturan JadeDIY 
 
 
 
-- Dapatkan aplikasi resmi Blockstream - ini adalah tautan ke sana dari situs web mereka. Setelah Anda berada di sana, klik [Unduh sekarang] (https://blockstream.com/app/).
+- Dapatkan aplikasi resmi Blockstream - ini adalah tautan ke sana dari situs web mereka. Setelah Anda berada di sana, klik [Unduh sekarang](https://blockstream.com/app/).
 
 
 ![image](assets/fr/12.webp)

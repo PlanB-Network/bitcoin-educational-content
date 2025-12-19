@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Ijambobanga ry'Imbuto
+name: BIP-39 Passphrase SeedSigner
 description: Nokwongerako gute passphrase ku rutonde rwanje rwa SeedSigner?
 ---
 

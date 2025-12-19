@@ -1,0 +1,8 @@
+question: Sintaks pola makro mana yang akan cocok dengan nol atau lebih ekspresi yang dipisahkan oleh koma dalam makro yang mirip fungsi kustom?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Sintaks yang benar $($x:expr),* menggunakan pola pengulangan Rust di mana tanda dolar memperkenalkan grup pengulangan, $x:expr mencocokkan setiap ekspresi dengan penentu fragmen expr, tanda koma berfungsi sebagai pemisah antar ekspresi, dan tanda bintang (*) menunjukkan nol atau lebih pengulangan. Jawaban yang salah mengandung kesalahan sintaks: $($x:expr)*, menempatkan koma di luar grup pengulangan, $[x:expr],* menggunakan tanda kurung siku sebagai pengganti tanda kurung dan menghilangkan tanda dolar sebelum x, dan ${$x:expr},* menggunakan tanda kurung kurawal sebagai pengganti tanda kurung untuk grup pengulangan.

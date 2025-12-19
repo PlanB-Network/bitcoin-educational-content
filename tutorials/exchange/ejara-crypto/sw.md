@@ -644,7 +644,7 @@ Kwa kuzingatia kwamba lengo ni kuweka akiba kidijitali na kurahisisha kuwekeza k
 
 
 
-Unaweza kutuma swali moja kwa moja kwenye programu au uwasiliane na [usaidizi kwa wateja] (https://t.me/EjaraCSbot) walio na bidii sana kupitia Telegram.
+Unaweza kutuma swali moja kwa moja kwenye programu au uwasiliane na [usaidizi kwa wateja](https://t.me/EjaraCSbot) walio na bidii sana kupitia Telegram.
 
 
 

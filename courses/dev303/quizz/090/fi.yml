@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen rajoitus, jonka kehittäjien on kierrettävä, kun he käyttävät UniFFI:tä mobiilisovelluskehityksessä, joka edellyttää responsiivisia käyttöliittymiä?
+answer: UniFFI tukee vain synkronisia rajapintoja, joten kehittäjien on käsiteltävä asynkronisia operaatioita erillisten säikeistämismekanismien avulla
+wrong_answers:
+  - UniFFI ei pysty käsittelemään monimutkaisia tietotyyppejä, kuten enumeita ja structteja, mikä rajoittaa mobiilin API-rajapintojen monipuolisuutta
+  - UniFFI tuottaa sidoksia, jotka eivät ole muistiturvallisia yli kielirajojen, mikä edellyttää manuaalista muistinhallintaa
+  - UniFFI ei tue virheenkäsittelyn kääntämistä, mikä pakottaa kehittäjät toteuttamaan mukautetun poikkeuskäsittelyn kullakin kohdekielellä
+explanation: |
+  UniFFI:n merkittävin rajoitus on se, ettei se tue asynkronisia rajapintoja - kaikki luodut sidokset ovat synkronisia. Tämä aiheuttaa haasteita mobiilikehityksessä, jossa responsiiviset käyttöliittymät ovat kriittisiä, sillä kehittäjien on toteutettava omat säikeistämisratkaisunsa välttääkseen pääsäikeen tukkeutumisen. Väärät vastaukset ovat virheellisiä, koska UniFFI itse asiassa loistaa monimutkaisten tyyppien, kuten enumien ja rakenteiden, käsittelyssä, tarjoaa automaattisen muistiturvallisen marshaloinnin yli kielirajojen ja kehittyneen virheenkäsittelyn käännöksen, joka muuntaa Rust Result -tyypit kohdekielten natiivien poikkeusmallien mukaisiksi.

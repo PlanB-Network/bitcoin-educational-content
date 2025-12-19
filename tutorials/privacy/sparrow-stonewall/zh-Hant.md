@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - 石牆
+name: Sparrow Wallet - Stonewall
 description: 瞭解並使用 Sparrow 上的石牆交易
 ---
 

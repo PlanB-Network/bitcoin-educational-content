@@ -1,0 +1,8 @@
+question: Vilken typ av operation utför Rust som standard när du tilldelar en strängvariabel till en annan?
+answer: En flyttoperation som överför äganderätt och ogiltigförklarar källvariabeln
+wrong_answers:
+  - En djup kopia som duplicerar all heap-data för att skapa oberoende strängar
+  - En ytlig kopia som skapar två pekare till samma heapminne
+  - En referensskapelse som gör att båda variablerna kan dela skrivskyddad åtkomst
+explanation: |
+  Rust utför som standard en flyttoperation vid tilldelning av komplexa typer som String. Detta överför ägandet från källan till målvariabeln samtidigt som källan ogiltigförklaras, vilket förhindrar farliga scenarier där flera variabler kan modifiera samma heapminne. En djup kopia skulle vara ineffektiv för stora strängar, en ytlig kopia skulle skapa minnessäkerhetsproblem med flera pekare till samma data, och referensskapande kräver explicit syntax med operatorn ampersand.

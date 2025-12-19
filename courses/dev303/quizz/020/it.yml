@@ -1,0 +1,8 @@
+question: Qual è la differenza principale tra metodi e funzioni associate nelle strutture Rust?
+answer: I metodi prendono self come primo parametro, mentre le funzioni associate non lo fanno
+wrong_answers:
+  - I metodi sono pubblici per impostazione predefinita, mentre le funzioni associate sono private per impostazione predefinita
+  - I metodi possono solo leggere i dati, mentre le funzioni associate possono modificare i campi della struttura
+  - I metodi utilizzano la notazione a punti per le chiamate, mentre le funzioni associate utilizzano la notazione a freccia
+explanation: |
+  I metodi in Rust sono funzioni definite in un blocco impl che prendono una qualche forma di self come primo parametro (self, &self, o &mut self), consentendo loro di operare su istanze della struttura. Anche le funzioni associate sono definite in blocchi impl, ma non prendono self come parametro, rendendole simili ai metodi statici di altri linguaggi. Le funzioni associate sono chiamate con la sintassi dei due punti (Type::function_name()) e sono comunemente usate come costruttori, mentre i metodi sono chiamati sulle istanze con la notazione dei punti. Le altre opzioni non sono corrette, perché sia i metodi che le funzioni associate seguono le stesse regole di visibilità, entrambi possono essere progettati per modificare o leggere i dati, a seconda della loro implementazione, e le funzioni associate usano la sintassi dei doppi due punti, non la notazione a freccia.

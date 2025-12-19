@@ -1,0 +1,8 @@
+question: Wat is het fundamentele mechanisme dat SegWit in staat stelt om de blokcapaciteit te verhogen met behoud van achterwaartse compatibiliteit met knooppunten van voor SegWit?
+answer: Blokgewichtsysteem waarbij getuigegegevens met 75% worden verdisconteerd in capaciteitsberekeningen, waardoor tot 4 MB totale gegevens mogelijk zijn terwijl oudere nodes ≤1 MB zien
+wrong_answers:
+  - Compressiealgoritmen die de grootte van getuigengegevens vóór verzending met 75% verminderen, waardoor blokken onder 1 MB blijven voor alle nodes
+  - Dynamische aanpassing van de blokgrootte die de limieten verhoogt op basis van het SegWit transactiepercentage in elk blok
+  - Aparte getuigenisblokken alleen verzonden naar geüpgradede knooppunten, terwijl oudere knooppunten traditionele 1MB-blokken ontvangen
+explanation: |
+  SegWit gebruikt blokgewichtseenheden waarbij basis transactiegegevens tellen als 4 gewichtseenheden per byte, terwijl getuige gegevens tellen als 1 gewichtseenheid per byte. Deze korting van 75% maakt blokken tot 4 miljoen gewichtseenheden mogelijk (potentieel 4MB met alle getuigegegevens), terwijl legacy nodes nooit meer dan 1MB aan basis transactiegegevens te zien krijgen. De andere opties beschrijven niet-bestaande mechanismen - er is geen compressie, geen dynamische dimensionering en geen aparte bloktransmissie.

@@ -27,7 +27,7 @@ Infelizmente, o F-Droid não é uma aplicação disponível no iOS e contém mui
 
 
 
-Pode descarregar F-droid a partir do [site oficial] (https://f-droid.org/) em formato APK e instalá-lo manualmente no seu telemóvel Android.
+Pode descarregar F-droid a partir do [site oficial](https://f-droid.org/) em formato APK e instalá-lo manualmente no seu telemóvel Android.
 
 
 
@@ -167,7 +167,7 @@ Deve então preparar um ficheiro YAML (os metadados) que descreva a sua aplicaç
 
 
 
-Na secção **Desenvolvedores** da [documentação] (https://f-droid.org/en/docs/), encontrará todos os recursos de que necessita para publicar e manter as suas aplicações no F-Droid.
+Na secção **Desenvolvedores** da [documentação](https://f-droid.org/en/docs/), encontrará todos os recursos de que necessita para publicar e manter as suas aplicações no F-Droid.
 
 
 

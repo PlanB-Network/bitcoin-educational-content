@@ -26,7 +26,7 @@ Jeśli nigdy nie używałeś Bitcoin Lightning Network, zanim zaczniesz, [przecz
 
 
 
-- Na końcu tego przewodnika znajduje się specjalna sekcja z ["poradami i wskazówkami"] (https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Na końcu tego przewodnika znajduje się specjalna sekcja z ["poradami i wskazówkami"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
 
 
 
@@ -95,7 +95,7 @@ Możesz także kliknąć przycisk "Pokaż dziennik LND" (A), jeśli chcesz zobac
 B - Tutaj można uzyskać dostęp do wszystkich ustawień Blixt, a jest ich wiele! Blixt oferuje wiele bogatych funkcji i opcji do zarządzania węzłem LN jak profesjonalista. Wszystkie te opcje są szczegółowo wyjaśnione w "[Strona funkcji Blixt](https://blixtwallet.github.io/features#blixt-options) - Menu opcji".
 
 
-C - Tutaj znajduje się menu "Magic Drawer" [wyjaśnione szczegółowo tutaj] (https://blixtwallet.github.io/features#blixt-drawer). Tutaj jest "Onchain Wallet" (B), Lightning Channels (C), Kontakty, ikona statusu kanałów (A), Keysend (D).
+C - Tutaj znajduje się menu "Magic Drawer" [wyjaśnione szczegółowo tutaj](https://blixtwallet.github.io/features#blixt-drawer). Tutaj jest "Onchain Wallet" (B), Lightning Channels (C), Kontakty, ikona statusu kanałów (A), Keysend (D).
 
 
 ![blixt](assets/en/05.webp)
@@ -134,7 +134,7 @@ Address i wyświetlony komunikat powitalny znikną. Nie ma już potrzeby otwiera
 Nadszedł czas, aby przejść dalej, testując inne funkcje i opcje otwierania kanałów LN.
 
 
-Teraz otwórzmy kolejny kanał z innym peerem węzła. Społeczność Blixt stworzyła [listę dobrych węzłów do rozpoczęcia korzystania z Blixt] (https://github.com/hsjoberg/blixt-Wallet/issues/1033).
+Teraz otwórzmy kolejny kanał z innym peerem węzła. Społeczność Blixt stworzyła [listę dobrych węzłów do rozpoczęcia korzystania z Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033).
 
 
 **Procedura otwierania kanału LN w Blixt**
@@ -161,7 +161,7 @@ Otwórz Blixt i przejdź do górnej szuflady - Lightning Channels i kliknij przy
 Teraz kliknij kamerę (A), aby zeskanować kod QR ze strony Amboss, a szczegóły węzła zostaną wypełnione. Dodaj kwotę Sats dla wybranego kanału, a następnie wybierz stawkę opłaty za tx. Możesz pozostawić opcję automatyczną (B), aby uzyskać szybsze potwierdzenie, lub ustawić ją ręcznie, przesuwając przycisk. Możesz także długo nacisnąć numer i edytować go według własnego uznania.
 
 
-Nie umieszczaj mniej niż 1 sat/vbyte! Zwykle lepiej jest sprawdzić [Opłaty Mempool] (https://Mempool.space/) przed otwarciem kanału i wybrać dogodną opłatę.
+Nie umieszczaj mniej niż 1 sat/vbyte! Zwykle lepiej jest sprawdzić [Opłaty Mempool](https://Mempool.space/) przed otwarciem kanału i wybrać dogodną opłatę.
 
 
 Gotowe, teraz wystarczy kliknąć przycisk "otwórz kanał" i poczekać na 3 potwierdzenia, co zwykle zajmuje 30 minut (1 blok co około 10 minut).
@@ -198,7 +198,7 @@ Jakie więc masz opcje, jeśli chcesz otrzymywać więcej Sats niż LN?
 
 
 
-- Zamień trochę Sats z powrotem na swój onchain Wallet, korzystając z usługi wymiany podwodnej. W ten sposób nie wydajesz swoich Sats, ale oddajesz je z powrotem do swojego onchain Wallet. Szczegółowe informacje na temat niektórych metod można znaleźć na stronie [Blixt Guides Page] (https://blixtwallet.github.io/guides).
+- Zamień trochę Sats z powrotem na swój onchain Wallet, korzystając z usługi wymiany podwodnej. W ten sposób nie wydajesz swoich Sats, ale oddajesz je z powrotem do swojego onchain Wallet. Szczegółowe informacje na temat niektórych metod można znaleźć na stronie [Blixt Guides Page](https://blixtwallet.github.io/guides).
 
 
 
@@ -218,7 +218,7 @@ Oto kroki, aby aktywować otwarcie kanału Dunder:
 
 - Przejdź do Ustawień, w sekcji "Eksperymenty" aktywuj pole "Włącz Dunder LSP".
 - Gdy to zrobisz, wróć do sekcji "Lightning Network" i zobaczysz, że pojawiła się opcja "Ustaw serwer Dunder LSP". Tam domyślnie ustawiony jest "https://dunder.blixtwallet.com", ale można go zmienić na dowolnego innego dostawcę Dunder LSP Address. [Tutaj znajduje się lista społeczności Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033) z węzłami, które mogą zapewnić kanały Dudner LSP dla twojego Blixt.
-- Teraz możesz przejść do ekranu głównego i kliknąć przycisk "Odbierz". Następnie postępuj zgodnie z procedurą [wyjaśnioną w tym przewodniku] (https://blixtwallet.github.io/guides#guide-lsp).
+- Teraz możesz przejść do ekranu głównego i kliknąć przycisk "Odbierz". Następnie postępuj zgodnie z procedurą [wyjaśnioną w tym przewodniku](https://blixtwallet.github.io/guides#guide-lsp).
 
 
 OK, więc po potwierdzeniu kanału Dunder (zajmie to kilka minut) będziesz mieć 2 kanały LN: jeden otwarty początkowo z autopilotem (kanał A) i jeden z większą płynnością przychodzącą, otwarty z Dunder (kanał B).
@@ -251,7 +251,7 @@ Porozmawiajmy teraz o tym, jak przywrócić uszkodzony węzeł Blixt Wallet lub 
 ### OPCJA B - Przywrócenie Wallet
 
 
-W przeszłości napisałem dedykowany przewodnik na temat [jak przywrócić uszkodzony węzeł Umbrel] (https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), w którym wspomniałem również o metodzie użycia Blixt jako szybkiego procesu przywracania, przy użyciu pliku seed + channel.backup z Umbrel.
+W przeszłości napisałem dedykowany przewodnik na temat [jak przywrócić uszkodzony węzeł Umbrel](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), w którym wspomniałem również o metodzie użycia Blixt jako szybkiego procesu przywracania, przy użyciu pliku seed + channel.backup z Umbrel.
 
 
 Napisałem również przewodnik, jak przywrócić węzeł Blixt lub zmigrować Blixt na inne urządzenie, [tutaj](https://blixtwallet.github.io/faq#blixt-restore).
@@ -265,7 +265,7 @@ Wyjaśnijmy jednak ten proces w prostych krokach. Jak widać na powyższym obraz
 
 
 - górne pole to miejsce, w którym należy wpisać wszystkie 24 słowa z seed (stary / martwy węzeł)
-- na dole znajdują się dwie opcje przycisków, aby wstawić / przesłać plik channel.backup, wcześniej zapisany ze starego węzła Blixt/LND. Może to być plik lokalny (przesłany wcześniej do urządzenia) lub z dysku Google / zdalnej lokalizacji iCloud. Blixt ma tę opcję, aby zapisać kopię zapasową kanałów bezpośrednio na dysku Google / iCloud. Więcej szczegółów można znaleźć na stronie [Blixt Features Page] (https://blixtwallet.github.io/features#blixt-options).
+- na dole znajdują się dwie opcje przycisków, aby wstawić / przesłać plik channel.backup, wcześniej zapisany ze starego węzła Blixt/LND. Może to być plik lokalny (przesłany wcześniej do urządzenia) lub z dysku Google / zdalnej lokalizacji iCloud. Blixt ma tę opcję, aby zapisać kopię zapasową kanałów bezpośrednio na dysku Google / iCloud. Więcej szczegółów można znaleźć na stronie [Blixt Features Page](https://blixtwallet.github.io/features#blixt-options).
 
 
 Niemniej jednak, jeśli wcześniej nie miałeś żadnych otwartych kanałów LN, nie ma potrzeby przesyłania żadnego pliku channels.backup. Wystarczy wstawić 24 słowa seed i nacisnąć przycisk przywracania.
@@ -301,7 +301,7 @@ Dobrze będzie również sprawdzić i dodać, jeśli ich tam nie ma, poprzednie 
 ![blixt](assets/en/16.webp)
 
 
-Wewnątrz sekcji zobaczysz peerów, z którymi jesteś połączony w tym momencie i możesz dodać więcej, lepiej dodać tych, z którymi miałeś kanały wcześniej. Wystarczy przejść do [strony Amboss] (https://amboss.space/), wyszukać aliasy węzłów peer lub nodeID i zeskanować ich URI węzła.
+Wewnątrz sekcji zobaczysz peerów, z którymi jesteś połączony w tym momencie i możesz dodać więcej, lepiej dodać tych, z którymi miałeś kanały wcześniej. Wystarczy przejść do [strony Amboss](https://amboss.space/), wyszukać aliasy węzłów peer lub nodeID i zeskanować ich URI węzła.
 
 
 ![blixt](assets/en/17.webp)
@@ -348,7 +348,7 @@ W przypadku konieczności migracji istniejącego (działającego) węzła Blixt 
 - Na starym urządzeniu przejdź do "Ustawienia" - sekcja debugowania - "Kompaktuj bazę danych LND". Ten krok jest opcjonalny, ale zalecany, jeśli chcesz zmniejszyć rozmiar pliku channel.db. Zwykle jest on dość duży, w zależności od aktywności węzła. Spowoduje to ponowne uruchomienie Blixt i zmniejszenie rozmiaru pliku db.
 - Po ponownym uruchomieniu przejdź do "Ustawień" i zmień swój zwykły pseudonim na "Hampus". Spowoduje to aktywację ukrytych opcji, tylko dla zaawansowanych użytkowników.
 - Przejdź do sekcji "Debug", a zobaczysz nową opcję "Eksportuj plik channel.db". OSTRZEŻENIE! Po wykonaniu tego eksportu istniejący węzeł Blixt LN zostanie wyłączony na tym starym urządzeniu i wyeksportuje całą bazę danych węzła (channel.db) gotową do zaimportowania do nowego urządzenia.
-- Ten plik db zostanie zapisany w wyznaczonym folderze na starym urządzeniu (Dokumenty lub Pobrane) i stamtąd będzie musiał zostać przeniesiony na nowe urządzenie. Możesz użyć na przykład aplikacji [LocalSend FOSS] (https://github.com/localsend/localsend), aby przesłać plik bezpośrednio między urządzeniami.
+- Ten plik db zostanie zapisany w wyznaczonym folderze na starym urządzeniu (Dokumenty lub Pobrane) i stamtąd będzie musiał zostać przeniesiony na nowe urządzenie. Możesz użyć na przykład aplikacji [LocalSend FOSS](https://github.com/localsend/localsend), aby przesłać plik bezpośrednio między urządzeniami.
 - W tym momencie stary Blixt MUSI pozostać wyłączony. NIE OTWIERAJ GO PONOWNIE!
 - Po przeniesieniu pliku channel.db na nowe urządzenie, uruchom nową instalację Blixt i wybierz "Restore Wallet" na pierwszym ekranie.
 - Na przycisku z napisem "Wybierz plik SCB" należy długo nacisnąć (NIE klikać!), a następnie pojawi się opcja wyboru pliku channel.db, w którym zostanie on zapisany lokalnie w nowym urządzeniu. Jeśli po prostu naciśniesz ten przycisk, domyślnie zostanie użyty plik SCB (z zamkniętymi kanałami), nie działa to w przypadku pełnej kopii zapasowej kanałów na żywo.
@@ -403,7 +403,7 @@ Jest to kolejny przykład wysyłania do innej aplikacji Wallet, która obsługuj
 ### B - Lightning Box
 
 
-Począwszy od nowej wersji v0.6.9-420 [niedawno ogłoszonej] (https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420), Blixt wprowadził nową potężną funkcję dla Lightning Address w Blixt.
+Począwszy od nowej wersji v0.6.9-420 [niedawno ogłoszonej](https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420), Blixt wprowadził nową potężną funkcję dla Lightning Address w Blixt.
 
 
 Ta nowa funkcja jest opcjonalna i nie jest domyślnie włączona!
@@ -488,7 +488,7 @@ Wszystkie te problemy zaczynają się, ponieważ URZĄDZENIE NIE JEST WŁAŚCIWI
 
 
 
-- Oto mniej techniczne wyjaśnienie z [Bitcoin Magazine] (https://bitcoinmagazine.com/technical/why-Bitcoin-wallets-need-block-filters)
+- Oto mniej techniczne wyjaśnienie z [Bitcoin Magazine](https://bitcoinmagazine.com/technical/why-Bitcoin-wallets-need-block-filters)
 - Oto więcej zasobów technicznych z [Bitcoin Optech](https://bitcoinops.org/en/topics/compact-block-filters/)
 - Oto jak można aktywować Neutrino na własnym węźle domowym i obsługiwać filtry bloków dla węzła mobilnego, z [Docs Lightning Engineering](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core)
 
@@ -594,7 +594,7 @@ Szybkie rozwiązanie: Istnieje potężna opcja "utrzymania przy życiu" węzła 
 ### PRZYPADEK 3 - CHCĘ DOKONAĆ MIGRACJI NA INNE URZĄDZENIE
 
 
-OK, o tym scenariuszu napisałem obszerny przewodnik na [stronie FAQ] (https://blixtwallet.github.io/faq#blixt-restore): z 2 opcjami, szybką (spółdzielcze zamknięcie kanałów przed migracją) i wolną (wymuś zamknięcie kanałów, ponieważ stare urządzenie jest martwe).
+OK, o tym scenariuszu napisałem obszerny przewodnik na [stronie FAQ](https://blixtwallet.github.io/faq#blixt-restore): z 2 opcjami, szybką (spółdzielcze zamknięcie kanałów przed migracją) i wolną (wymuś zamknięcie kanałów, ponieważ stare urządzenie jest martwe).
 
 
 Chciałbym jednak powtórzyć tutaj kilka ważnych aspektów i dodać nową "tajną" procedurę.

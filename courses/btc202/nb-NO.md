@@ -853,7 +853,7 @@ Dette er den mest suverene og fleksible tilnærmingen: Du vet nøyaktig hva som 
 
 
 
-[Bitcoin core er nettverkets ultra-majoritetsklient] (https://bitcoincore.org/). Den laster ned, validerer og vedlikeholder Blockchain, tilbyr RPC/REST API-er og kan integrere en Wallet. Hvis du foretrekker standardverktøy og føler deg komfortabel med å legge til tjenester selv (for eksempel Electrum-server, explorer og LND), er det bedre å bruke Core som den er.
+[Bitcoin core er nettverkets ultra-majoritetsklient](https://bitcoincore.org/). Den laster ned, validerer og vedlikeholder Blockchain, tilbyr RPC/REST API-er og kan integrere en Wallet. Hvis du foretrekker standardverktøy og føler deg komfortabel med å legge til tjenester selv (for eksempel Electrum-server, explorer og LND), er det bedre å bruke Core som den er.
 
 
 
@@ -873,7 +873,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-[Bitcoin Knots er en Fork av Bitcoin core] (https://bitcoinknots.org/), vedlikeholdt av Luke Dashjr. Det er den viktigste alternative klienten til Core for implementering av Bitcoin-protokollen. Den er fullt kompatibel med resten av nettverket (den er på ingen måte en Hard Fork som Bitcoin Cash), men tilbyr likevel flere funksjoner, blant annet relépolicyalternativer som ikke finnes i Core, eller som brukes strengere som standard for å begrense det noen anser som spam.
+[Bitcoin Knots er en Fork av Bitcoin core](https://bitcoinknots.org/), vedlikeholdt av Luke Dashjr. Det er den viktigste alternative klienten til Core for implementering av Bitcoin-protokollen. Den er fullt kompatibel med resten av nettverket (den er på ingen måte en Hard Fork som Bitcoin Cash), men tilbyr likevel flere funksjoner, blant annet relépolicyalternativer som ikke finnes i Core, eller som brukes strengere som standard for å begrense det noen anser som spam.
 
 
 
@@ -992,7 +992,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-[RaspiBlitz er et 100% åpen kildekode-prosjekt] (https://docs.raspiblitz.org/) (MIT-lisens) for montering av en Bitcoin-node og en Lightning-node på en Raspberry Pi. Bare last ned avbildningen, start opp, og følg deretter veiviseren for å få en fungerende node-in-a-box på Raspberry Pi. Ferdigmonterte sett er også tilgjengelige fra tredjeparter, vanligvis mellom 300 og 400 dollar, avhengig av maskinvaren. RaspiBlitz tilbyr også en rekke tilleggsprogrammer som er enkle å installere.
+[RaspiBlitz er et 100% åpen kildekode-prosjekt](https://docs.raspiblitz.org/) (MIT-lisens) for montering av en Bitcoin-node og en Lightning-node på en Raspberry Pi. Bare last ned avbildningen, start opp, og følg deretter veiviseren for å få en fungerende node-in-a-box på Raspberry Pi. Ferdigmonterte sett er også tilgjengelige fra tredjeparter, vanligvis mellom 300 og 400 dollar, avhengig av maskinvaren. RaspiBlitz tilbyr også en rekke tilleggsprogrammer som er enkle å installere.
 
 
 
@@ -1010,7 +1010,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo er en personvernfokusert node-in-a-box] (https://wiki.ronindojo.io/en/home) som automatiserer distribusjonen av Samurai Dojo og Whirlpool, med en dedikert Interface og plugins som er spesielt utviklet for Samurai-økosystemet.
+[RoninDojo er en personvernfokusert node-in-a-box](https://wiki.ronindojo.io/en/home) som automatiserer distribusjonen av Samurai Dojo og Whirlpool, med en dedikert Interface og plugins som er spesielt utviklet for Samurai-økosystemet.
 
 
 
@@ -1032,7 +1032,7 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4
 
 
 
-En annen [node-in-a-box-løsning er Nodl] (https://www.nodl.eu/). Som med de foregående prosjektene kan du enten kjøpe den forhåndskonfigurerte maskinvaren (mellom € 599 og € 799, avhengig av modell) eller installere den selv i DIY-modus.
+En annen [node-in-a-box-løsning er Nodl](https://www.nodl.eu/). Som med de foregående prosjektene kan du enten kjøpe den forhåndskonfigurerte maskinvaren (mellom € 599 og € 799, avhengig av modell) eller installere den selv i DIY-modus.
 
 
 
@@ -1437,7 +1437,7 @@ Umbrel tilbyr to forskjellige tilnærminger:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): Dette er en bruksklar miniserver som er spesialdesignet og optimalisert for umbrelOS. Den er kompakt, lydløs, Ethernet-tilkoblet og utstyrt med en NVMe SSD (opptil 4 TB valgfritt), 16 GB RAM og en firekjerners CPU. Du bestiller den, plugger den inn og går til `umbrel.local`. Du kan ha en operativ Umbrel oppe og gå på få minutter. Det er plug-and-play-alternativet.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): Dette er en bruksklar miniserver som er spesialdesignet og optimalisert for umbrelOS. Den er kompakt, lydløs, Ethernet-tilkoblet og utstyrt med en NVMe SSD (opptil 4 TB valgfritt), 16 GB RAM og en firekjerners CPU. Du bestiller den, plugger den inn og går til `umbrel.local`. Du kan ha en operativ Umbrel oppe og gå på få minutter. Det er plug-and-play-alternativet.
 
 
 
@@ -1509,7 +1509,7 @@ Ved å distribuere applikasjoner i containere kan du forme Umbrel slik du ønske
 
 
 
-En av Umbrels viktigste fordeler i forhold til konkurrentene er det store og svært aktive brukerfellesskapet. Du kan nå dem hovedsakelig via [deres Discord] (https://discord.gg/efNtFzqtdx) og [deres nettforum] (https://community.umbrel.com/). Her finner du ikke bare praktiske råd, men fremfor alt løsninger for å løse problemer eller fikse feil. Det er et flott sted å starte, utvikle seg og til slutt hjelpe andre brukere, slik at du ikke blir stående alene med din Coin.
+En av Umbrels viktigste fordeler i forhold til konkurrentene er det store og svært aktive brukerfellesskapet. Du kan nå dem hovedsakelig via [deres Discord](https://discord.gg/efNtFzqtdx) og [deres nettforum](https://community.umbrel.com/). Her finner du ikke bare praktiske råd, men fremfor alt løsninger for å løse problemer eller fikse feil. Det er et flott sted å starte, utvikle seg og til slutt hjelpe andre brukere, slik at du ikke blir stående alene med din Coin.
 
 
 
@@ -1619,7 +1619,7 @@ Før du installerer UmbrelOS på maskinen din, må du opprette en oppstartbar US
 
 
 
-Gå til [det offisielle Umbrel-nettstedet for å laste ned ISO-bildet] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) for installasjon via USB-nøkkel. Sørg for at du velger den versjonen som er kompatibel med x86_64-arkitekturen (filen heter `umbrelos-amd64-usb-installer.iso`). Nedlastingen kan ta litt tid, da avbildningen er ganske stor.
+Gå til [det offisielle Umbrel-nettstedet for å laste ned ISO-bildet](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) for installasjon via USB-nøkkel. Sørg for at du velger den versjonen som er kompatibel med x86_64-arkitekturen (filen heter `umbrelos-amd64-usb-installer.iso`). Nedlastingen kan ta litt tid, da avbildningen er ganske stor.
 
 
 
@@ -1633,7 +1633,7 @@ Gå til [det offisielle Umbrel-nettstedet for å laste ned ISO-bildet] (https://
 
 
 
-For å lage en oppstartbar USB-minnepinne bruker du et enkelt, plattformuavhengig verktøy som heter [Balena Etcher] (https://www.balena.io/etcher/). Last ned og installer det på datamaskinen din.
+For å lage en oppstartbar USB-minnepinne bruker du et enkelt, plattformuavhengig verktøy som heter [Balena Etcher](https://www.balena.io/etcher/). Last ned og installer det på datamaskinen din.
 
 
 
@@ -2042,7 +2042,7 @@ Vær forsiktig så du ikke allokerer en verdi som er for stor for maskinen din. 
 
 
 
-For å finne ut mer om virkningen av parameteren `dbcache` på den innledende synkroniseringen, anbefaler jeg denne analysen av Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*] (https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
+For å finne ut mer om virkningen av parameteren `dbcache` på den innledende synkroniseringen, anbefaler jeg denne analysen av Jameson Lopp: [*Effects of DBcache Size on Bitcoin Node Sync Speed*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
 
 
 
@@ -2761,7 +2761,7 @@ Hvis det oppstår en feil på Umbrel, må du først generate en diagnostikkpakke
 
 
 
-Hvis problemet vedvarer, anbefaler jeg at du [blir med i Umbrel-brukerfellesskapet på deres Discord] (https://discord.gg/efNtFzqtdx). Begynn med å gjøre et søk for å finne ut om noen allerede har støtt på samme problem og funnet en løsning. Hvis ikke, kan du legge inn en melding i kanalen `general-support`. Du kan også bruke [Umbrel-forumet](https://community.umbrel.com/).
+Hvis problemet vedvarer, anbefaler jeg at du [blir med i Umbrel-brukerfellesskapet på deres Discord](https://discord.gg/efNtFzqtdx). Begynn med å gjøre et søk for å finne ut om noen allerede har støtt på samme problem og funnet en løsning. Hvis ikke, kan du legge inn en melding i kanalen `general-support`. Du kan også bruke [Umbrel-forumet](https://community.umbrel.com/).
 
 
 
@@ -2891,7 +2891,7 @@ Når noden starter på nytt etter å ha vært i bruk, forsøker Core først å k
 
 
 
-I dette tilfellet spør programvaren _**DNS seeds**_. Dette er [servere som vedlikeholdes av anerkjente økosystemutviklere] (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), som returnerer en liste over IP-adresser til antatt aktive noder. Disse adressene gjør det mulig for den nye noden å starte sine første tilkoblinger og be om de nødvendige dataene fra IBD-en. Her er listen over *DNS-frø* som er aktive til dags dato (august 2025):
+I dette tilfellet spør programvaren _**DNS seeds**_. Dette er [servere som vedlikeholdes av anerkjente økosystemutviklere](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), som returnerer en liste over IP-adresser til antatt aktive noder. Disse adressene gjør det mulig for den nye noden å starte sine første tilkoblinger og be om de nødvendige dataene fra IBD-en. Her er listen over *DNS-frø* som er aktive til dags dato (august 2025):
 
 
 
@@ -3079,7 +3079,7 @@ Veksten i UTXO-settet stammer også fra strukturen til enkle betalingstransaksjo
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Siden en del av den må oppbevares i RAM for å verifisere transaksjoner innen rimelig tid, kan UTXO-settet gradvis gjøre driften av en Full node for kostbar. Det finnes allerede noen få forslag for å løse dette problemet, blant annet [Utreexo] (https://planb.academy/resources/glossary/utreexo).
+Siden en del av den må oppbevares i RAM for å verifisere transaksjoner innen rimelig tid, kan UTXO-settet gradvis gjøre driften av en Full node for kostbar. Det finnes allerede noen få forslag for å løse dette problemet, blant annet [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3882,7 +3882,7 @@ Til slutt kan du i filen `Bitcoin.conf` også konfigurere tilgangsparametrene fo
 
 
 
-Vi er nå ferdige med å liste opp de fleste konfigurasjonsparametrene. Denne `Bitcoin.conf`-filen utgjør dermed det virkelige dashbordet for noden din: den definerer nettverkskonfigurasjon, Mempool-styring, disk- og minnebruk, indeksering og generell administrasjon. Hvis du vil lære mer om denne filen og lage en som er skreddersydd til dine behov, anbefaler jeg at du bruker [Jameson Lopps generator] (https://jlopp.github.io/Bitcoin-core-config-generator/).
+Vi er nå ferdige med å liste opp de fleste konfigurasjonsparametrene. Denne `Bitcoin.conf`-filen utgjør dermed det virkelige dashbordet for noden din: den definerer nettverkskonfigurasjon, Mempool-styring, disk- og minnebruk, indeksering og generell administrasjon. Hvis du vil lære mer om denne filen og lage en som er skreddersydd til dine behov, anbefaler jeg at du bruker [Jameson Lopps generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 

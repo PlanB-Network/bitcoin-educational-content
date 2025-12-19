@@ -1,0 +1,27 @@
+id: 2b3f73ed-0dab-4c3b-b561-667f3ebf4050
+project_id: 0f08cb03-1f6c-4c46-bcac-6d801d82faef
+
+category: peer-to-peer
+
+level: intermediate
+
+licence: CC-BY-SA-V4
+
+professor_id: 61afe93a-6e69-4846-a71f-c96e69f7a805
+
+tags:
+  - lightning
+  - personal-security
+  - cypherpunk
+
+license: CC-BY-SA-V4
+
+# Proofreading metadata
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2025-12-11
+    urgency: 1
+    contributor_names:
+      - SatoSats
+    reward: 1.9

@@ -1,5 +1,5 @@
 ---
-name: Старт9
+name: Start9
 
 description: Учебник по настройке частного сервера Start9
 

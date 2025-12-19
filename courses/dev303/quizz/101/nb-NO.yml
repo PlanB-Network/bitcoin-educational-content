@@ -1,0 +1,8 @@
+question: Hvilken spesifikk egenskap ved LDKs hendelsesstyrte arkitektur gjør det mulig for applikasjoner å opprettholde et rent skille mellom Lightning-protokollogikk og applikasjonsspesifikke svar?
+answer: Asynkrone varsler leveres for alle viktige operasjoner og tilstandsendringer, slik at egendefinerte hendelsesbehandlere kan implementeres uavhengig av hverandre
+wrong_answers:
+  - Synkrone tilbakekallinger utløses direkte i kanaladministratoren, noe som krever umiddelbar respons for å opprettholde protokollsamsvar
+  - Hendelsesbehandlere genereres automatisk basert på applikasjonskonfigurasjonen, noe som eliminerer behovet for tilpasset implementeringslogikk
+  - Alle hendelser settes i kø i en sentral buffer og behandles sekvensielt for å sikre at applikasjonen oppfører seg deterministisk
+explanation: |
+  LDKs hendelsessystem gir asynkrone varsler for alle Lightning-operasjoner, inkludert peer-tilkoblinger, betalinger og kanalendringer. Dette gjør det mulig for utviklere å implementere egendefinerte hendelseshåndterere som responderer på riktig måte, samtidig som de opprettholder en ren separasjon mellom LDKs kjernefunksjonalitet og applikasjonslogikk. De andre alternativene er feil fordi LDK ikke bruker synkrone tilbakeringinger som blokkerer protokolloperasjoner, ikke bruker auto-generate-håndterere og ikke håndhever sekvensiell behandling av hendelser.

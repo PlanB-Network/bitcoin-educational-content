@@ -1,0 +1,8 @@
+question: Jaki jest główny cel zobowiązań Pedersena w Elements' Confidential Transactions?
+answer: Zastąpienie widocznych kwot transakcji zobowiązaniami kryptograficznymi, które można zweryfikować bez ujawniania rzeczywistych wartości
+wrong_answers:
+  - Do generate unikalne 64-znakowe identyfikatory szesnastkowe dla nowo wyemitowanych aktywów w łańcuchu bloków Elements
+  - Aby zapobiec double-spending, tworząc matematyczne dowody na to, że ukryte wartości są dodatnimi liczbami całkowitymi w prawidłowych zakresach
+  - Umożliwienie transferu Bitcoin z głównego łańcucha do łańcuchów bocznych Elements poprzez kryptograficzne mechanizmy peggingowe
+explanation: |
+  Zobowiązania Pedersena to podstawowy mechanizm kryptograficzny, który zapewnia prywatność w Confidential Transactions poprzez zastąpienie widocznych kwot zobowiązaniami matematycznymi. Ze względu na ich homomorficzne właściwości, walidatory mogą zweryfikować, czy dane wejściowe są równe danym wyjściowym powiększonym o opłaty, bez oglądania rzeczywistych wartości. Range Proofs zapobiegają ujemnym kwotom, identyfikatory aktywów identyfikują tokeny, a mechanizmy peggingowe obsługują transfery międzyłańcuchowe, ale żadna z tych funkcji nie jest funkcją Pedersen Commitments.

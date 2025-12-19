@@ -1,14 +1,11 @@
-question: Kuna hatari gani ya kutumia Multisig Wallet?
-answer: Kutokuwa na ufikiaji wa funguo za kibinafsi za kutosha au vipengee vya chelezo.
+question: Ni njia gani ya kawaida ya kurejesha Wallet yako?
+answer: Inaingiza maneno yako ya Mnemonic kwenye programu yoyote ya Wallet.
 wrong_answers:
-  - Kuwa na ufikiaji wa funguo za kibinafsi za kutosha au vipengee vya chelezo.
-  - Kushiriki funguo zako za faragha na wahusika wengine.
-  - Kushiriki funguo zako za umma na wahusika wengine.
+  - Inahifadhi maneno yako ya Mnemonic katika faili ya dijitali.
+  - Kuandika maneno yako ya Mnemonic kwenye ubao mweupe.
+  - Kushiriki neno lako la Mnemonic na rafiki unayemwamini.
 explanation: |
-  Unapotumia Multisig Wallet, kila ufunguo wa kibinafsi wa
-  Multisig inapaswa kuhifadhiwa katika maeneo tofauti. Hii ni
-  kwa sababu Multisig inahitaji saini nyingi kubeba
-  nje ya shughuli, hivyo idadi fulani ya pochi ni
-  inahitajika. Kwa hivyo, kuhifadhi kila sehemu katika eneo tofauti
-  inaongeza Layer ya ziada ya usalama.
-reviewed: true
+  Mbinu ya kawaida ya kuweka nakala rudufu ya ufunguo wa faragha katika a
+  Bitcoin Wallet ni kwa kuingiza kifungu chako cha maneno cha Mnemonic katika chochote
+  Programu ya Wallet. Hii hukuruhusu kurejesha Wallet yako.
+reviewed: false

@@ -568,7 +568,7 @@ Međutim, ovo potiskivanje kamatnih stopa dolazi uz cenu: Čini kapital lakše d
 Ovaj čin balansiranja ne ide baš kako je planirano…
 
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Slika [Dug prema BDP-u](https://www.longtermtrends.net/us-debt-to-gdp/)
@@ -647,7 +647,7 @@ Figura: Performanse po klasi imovine ([Akcije](https://finance.yahoo.com/quote/%
 Sa ovim zaostajanjem plata za cenama imovine, svedočili smo jednom od najvećih prenosa bogatstva iz niže klase u višu klasu u novijoj istoriji.
 
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 Grafikon: Udeo ukupne [neto vrednosti](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
@@ -771,12 +771,12 @@ Ostali značajni Cypherpunks uključuju:
 
 
 
-- Timothy May:** Osnivač mejling liste Cypherpunks i pisao je opširno o kriptografiji i privatnosti tokom 90-ih i ranih 2000-ih. Njegovo pisanje postavilo je temelje za diskusije o digitalnoj privatnosti i elektronskim sistemima gotovine.
-- Eric Huges:** Još jedan od osnivača Cypherpunksa i koautor "A Cypherpunk's Manifesto," koji je naglašavao važnost privatnosti i anonimnosti u digitalnom dobu.
-- Whitfield Diffie i Martin Hellman:** Razvili su koncept kriptografije javnog ključa, revolucionirajući sigurnu internet komunikaciju.
-- Julian Assange:** Osnivač WikiLeaksa, koji objavljuje poverljive i osetljive informacije kako bi promovisao transparentnost i odgovornost.
-- Bram Cohen:** Kreirao BitTorrent, peer-to-peer protokol za deljenje fajlova koji je decentralizovao distribuciju sadržaja i omogućio brže preuzimanje.
-- John Gilmore:** Preduzetnik i libertarijanac koji je suosnivač Electronic Frontier Foundation (EFF) i zagovornik digitalnih prava i privatnosti na internetu.
+- **Timothy May:** Osnivač mejling liste Cypherpunks i pisao je opširno o kriptografiji i privatnosti tokom 90-ih i ranih 2000-ih. Njegovo pisanje postavilo je temelje za diskusije o digitalnoj privatnosti i elektronskim sistemima gotovine.
+- **Eric Huges:** Još jedan od osnivača Cypherpunksa i koautor "A Cypherpunk's Manifesto," koji je naglašavao važnost privatnosti i anonimnosti u digitalnom dobu.
+- **Whitfield Diffie i Martin Hellman:** Razvili su koncept kriptografije javnog ključa, revolucionirajući sigurnu internet komunikaciju.
+- **Julian Assange:** Osnivač WikiLeaksa, koji objavljuje poverljive i osetljive informacije kako bi promovisao transparentnost i odgovornost.
+- **Bram Cohen:** Kreirao BitTorrent, peer-to-peer protokol za deljenje fajlova koji je decentralizovao distribuciju sadržaja i omogućio brže preuzimanje.
+- **John Gilmore:** Preduzetnik i libertarijanac koji je suosnivač Electronic Frontier Foundation (EFF) i zagovornik digitalnih prava i privatnosti na internetu.
 
 
 ...i lista se nastavlja.
@@ -854,11 +854,11 @@ Da rezimiramo, Bitcoin je revolucionisao način na koji razmišljamo o novcu i v
 
 
 
-- Peer-to-Peer:** Bitcoin omogućava pojedincima da šalju i primaju uplate direktno bez potrebe za posrednicima, kao što su banke ili procesori plaćanja.
-- Decentralised:** Bitcoin funkcioniše na decentralizovanoj mreži, što znači da ne postoji centralna vlast ili kontrola nad valutom.
-- Sigurno:** Bitcoin transakcije su osigurane korišćenjem kriptografije, što otežava falsifikovanje ili Double-spending novčića.
-- Ograničeno u Supply i Deljivo:** Supply od Bitcoin je konačan—sa samo 21 milionom kovanica u opticaju—dok je istovremeno deljiv na osam decimalnih mesta, omogućavajući transakcije za delić centa. Ova oskudica je dizajnirana da daje vrednost valuti i sprečava inflaciju.
-- Psuedoanonymous:** Iako Bitcoin transakcije nisu potpuno anonimne, one nude nivo privatnosti i pseudonimnosti koji tradicionalne metode plaćanja ne pružaju.
+- **Peer-to-Peer:** Bitcoin omogućava pojedincima da šalju i primaju uplate direktno bez potrebe za posrednicima, kao što su banke ili procesori plaćanja.
+- **Decentralised:** Bitcoin funkcioniše na decentralizovanoj mreži, što znači da ne postoji centralna vlast ili kontrola nad valutom.
+- **Sigurno:** Bitcoin transakcije su osigurane korišćenjem kriptografije, što otežava falsifikovanje ili Double-spending novčića.
+- **Ograničeno u Supply i Deljivo:** Supply od Bitcoin je konačan—sa samo 21 milionom kovanica u opticaju—dok je istovremeno deljiv na osam decimalnih mesta, omogućavajući transakcije za delić centa. Ova oskudica je dizajnirana da daje vrednost valuti i sprečava inflaciju.
+- **Psuedoanonymous:** Iako Bitcoin transakcije nisu potpuno anonimne, one nude nivo privatnosti i pseudonimnosti koji tradicionalne metode plaćanja ne pružaju.
 
 
 Ove tačke zajedno znače da Bitcoin nudi svakome finansijsku privatnost, sigurnost i mogućnost globalnih transakcija uz minimalne naknade i trenje. Na kraju, Bitcoin je moćan alat za one koji traže veću ekonomsku slobodu i autonomiju. Ovo je promena igre za one koji traže sigurno sredstvo štednje, a kamoli za one koji žive pod autoritarnim režimima, doživljavaju hiperinflaciju, beže iz ratom razorenih zemalja ili šalju novac voljenima u inostranstvo. Kako Bitcoin nudi pristupačnu alternativu tradicionalnim metodama prenosa novca, ovo ostavlja više novca u rukama onih kojima je najpotrebniji. Sa Bitcoin, svako može postati sopstvena banka i preuzeti kontrolu nad svojom finansijskom budućnošću.
@@ -1039,9 +1039,9 @@ Iako su fiat valute podložne inflaciji i istorijski su dokazano gubile vrednost
 
 
 
-- Izdržljiv:** Bitcoin je digitalan i, stoga, nije podložan fizičkom oštećenju ili propadanju kao papirne ili metalne valute. Pored toga, njegova decentralizovana priroda osigurava da nema jedinstvenu tačku otkaza za napad.
-- Oskudno:** Supply od Bitcoin je strogo ograničen na 21 milion novčića, što ga čini inherentno oskudnim u poređenju sa fiat valutama, koje vlade mogu beskonačno štampati. Ovo ograničenje Supply znači da vrednost Bitcoin nije podložna istim inflatornim pritiscima kao fiat valute.
-- Nepromenljiv:** Bitcoin-ova Blockchain tehnologija osigurava da, kada je transakcija zabeležena na mreži, ne može biti promenjena ili izmenjena. Ovaj nivo nepromenljivosti nije moguć sa fiat valutama, koje beleže mnogo veću prevaru, falsifikovanje ili poništavanje transakcija.
+- **Izdržljiv:** Bitcoin je digitalan i, stoga, nije podložan fizičkom oštećenju ili propadanju kao papirne ili metalne valute. Pored toga, njegova decentralizovana priroda osigurava da nema jedinstvenu tačku otkaza za napad.
+- **Oskudno:** Supply od Bitcoin je strogo ograničen na 21 milion novčića, što ga čini inherentno oskudnim u poređenju sa fiat valutama, koje vlade mogu beskonačno štampati. Ovo ograničenje Supply znači da vrednost Bitcoin nije podložna istim inflatornim pritiscima kao fiat valute.
+- **Nepromenljiv:** Bitcoin-ova Blockchain tehnologija osigurava da, kada je transakcija zabeležena na mreži, ne može biti promenjena ili izmenjena. Ovaj nivo nepromenljivosti nije moguć sa fiat valutama, koje beleže mnogo veću prevaru, falsifikovanje ili poništavanje transakcija.
 
 
 #### Srednji Exchange
@@ -1051,9 +1051,9 @@ Iako Bitcoin još uvek nije globalno prihvaćen kao fiat valute, njegova peer-to
 
 
 
-- Prenosivo:** Bitcoin, kao digitalno, omogućava transfer bez granica i posrednika između pojedinaca, čineći ga pogodnim i pristupačnim sredstvom Exchange. Iako neke fiat valute takođe nude digitalna rešenja, oni u zemljama u razvoju ili ratom pogođenim zemljama mogu imati poteškoća u pristupu bankarskim uslugama koje ispunjavaju ovu potrebu. Decentralizovana priroda Bitcoin čini ga dostupnim svima sa internet vezom, pružajući održivu alternativu tradicionalnim bankarskim sistemima u oblastima sa ograničenim pristupom finansijskim uslugama.
-- Deljivost:** Ekstremna deljivost Bitcoin je jedna od njegovih ključnih prednosti kao valute. Sa svakim Bitcoin deljivim do osam decimalnih mesta, najmanja jedinica, Satoshi, vredi samo delić centa. U zavisnosti od metode transakcije, tj. Layer jedan ili dva, ovo čini Bitcoin veoma prilagodljivim za transakcije bilo koje veličine, od malih kupovina do velikih investicija.
-- Prihvaćeno:** Iako prihvatanje Bitcoin još uvek nije univerzalno, njegovo sve veće usvajanje od strane trgovaca, institucija i pojedinaca širom sveta sugeriše da postaje sve šire prihvaćeno kao legitiman oblik plaćanja.
+- **Prenosivo:** Bitcoin, kao digitalno, omogućava transfer bez granica i posrednika između pojedinaca, čineći ga pogodnim i pristupačnim sredstvom Exchange. Iako neke fiat valute takođe nude digitalna rešenja, oni u zemljama u razvoju ili ratom pogođenim zemljama mogu imati poteškoća u pristupu bankarskim uslugama koje ispunjavaju ovu potrebu. Decentralizovana priroda Bitcoin čini ga dostupnim svima sa internet vezom, pružajući održivu alternativu tradicionalnim bankarskim sistemima u oblastima sa ograničenim pristupom finansijskim uslugama.
+- **Deljivost:** Ekstremna deljivost Bitcoin je jedna od njegovih ključnih prednosti kao valute. Sa svakim Bitcoin deljivim do osam decimalnih mesta, najmanja jedinica, Satoshi, vredi samo delić centa. U zavisnosti od metode transakcije, tj. Layer jedan ili dva, ovo čini Bitcoin veoma prilagodljivim za transakcije bilo koje veličine, od malih kupovina do velikih investicija.
+- **Prihvaćeno:** Iako prihvatanje Bitcoin još uvek nije univerzalno, njegovo sve veće usvajanje od strane trgovaca, institucija i pojedinaca širom sveta sugeriše da postaje sve šire prihvaćeno kao legitiman oblik plaćanja.
 
 
 ### Jedinica obračuna
@@ -1063,7 +1063,7 @@ Kako je Bitcoin stekao priznanje kao sredstvo Exchange, brzo se popeo na lestvic
 
 
 
-- Fungible:** Svaki Bitcoin je neodvojiv od bilo kojeg drugog, što ga čini lako zamenljivim, što nije uvek slučaj sa fizičkim valutama koje mogu imati jedinstvene identifikatore ili biti različitog kvaliteta.
+- **Fungible:** Svaki Bitcoin je neodvojiv od bilo kojeg drugog, što ga čini lako zamenljivim, što nije uvek slučaj sa fizičkim valutama koje mogu imati jedinstvene identifikatore ili biti različitog kvaliteta.
 
 
 ### Imovina vs Mreža
@@ -1429,9 +1429,9 @@ Nakon pojave Tether-a, mnoge druge kompanije i inicijative pokrenule su slične 
 
 
 
-- Stablecoini podržani fiat valutama**, kao što je Tetherov USDt, podržani su tradicionalnim valutama poput američkog dolara ili evra, a njihova vrednost je direktno vezana za vrednost osnovne fiat valute.
-- Stablecoini podržani robom** su podržani robama poput zlata ili nafte, npr. Tetherov zlatni stablecoin, XAUt,
-- Algoritamski stabilni novčići** oslanjaju se na skup pravila ili algoritama kako bi održali svoju vrednost. Ipak, još uvek nismo videli da je čisto algoritamski stabilni novčić uspeo na tržištu.
+- **Stablecoini podržani fiat valutama**, kao što je Tetherov USDt, podržani su tradicionalnim valutama poput američkog dolara ili evra, a njihova vrednost je direktno vezana za vrednost osnovne fiat valute.
+- **Stablecoini podržani robom** su podržani robama poput zlata ili nafte, npr. Tetherov zlatni stablecoin, XAUt,
+- **Algoritamski stabilni novčići** oslanjaju se na skup pravila ili algoritama kako bi održali svoju vrednost. Ipak, još uvek nismo videli da je čisto algoritamski stabilni novčić uspeo na tržištu.
 
 
 U zaključku, kako naše društvo nastavlja da se razvija i tehnologija napreduje, tako se menja i naš odnos prema novcu. Od kovanica do digitalnih valuta, videli smo promenu u načinu na koji komuniciramo i obavljamo transakcije koristeći novac. Iako tradicionalni bankarski sistemi imaju svoja ograničenja, Tether, putem svog izbora stabilnih valuta, nudi potencijalno rešenje za ove izazove. Pružajući relativnu kratkoročnu stabilnost tradicionalnih valuta uz fleksibilnost i pristupačnost izvornih digitalnih valuta, njihove stabilne valute korisnicima nude veću kontrolu nad svojim novcem. Bilo da nemate pristup bankarskim uslugama, suočavate se sa prekomernim uticajem vlade ili jednostavno trebate da obavljate transakcije van radnog vremena tradicionalnih banaka, stabilne valute poput USDt mogu pružiti pouzdanu alternativu. Kao rezultat toga, brzo postaju sastavni deo našeg finansijskog sistema.
@@ -1680,10 +1680,10 @@ Evo uzorka koliko Western Union [naplaćuje](https://www.westernunion.com/conten
 
 
 
-- Kina:** 21,21 USD naknada + 2,60 USD Exchange gubitak stope (23,81% gubitak)
-- Kanada, SAD, Meksiko:** \$16.86 naknada + \$1.20 Exchange gubitak stope (18.06% gubitak)
-- UK, Albanija, Bosna, Srbija, Slovenija:** \$17.92 naknada + \$3.10 Exchange gubitak kursa (21.02% gubitak)
-- Okeanija i Jugoistočna Azija:** \$12.61 naknada + \$8.60 Exchange gubitak kursa (21.21% gubitak)
+- **Kina:** 21,21 USD naknada + 2,60 USD Exchange gubitak stope (23,81% gubitak)
+- **Kanada, SAD, Meksiko:** \$16.86 naknada + \$1.20 Exchange gubitak stope (18.06% gubitak)
+- **UK, Albanija, Bosna, Srbija, Slovenija:** \$17.92 naknada + \$3.10 Exchange gubitak kursa (21.02% gubitak)
+- **Okeanija i Jugoistočna Azija:** $12.61 naknada + $8.60 Exchange gubitak kursa (21.21% gubitak)
 
 Ovo je zapanjujuća količina novca koja je sada u rukama velikih američkih korporacija. I tu dolazi USDt, jer oni pružaju rešenje za problem visokih naknada za doznake.
 
@@ -1709,7 +1709,7 @@ Kao što je Adannina priča pokazala, inflacija je bolna stvarnost za bezbroj po
 Da ilustrujemo efekat dvocifrene inflacije, stopa inflacije od 10%, kakvu je Evropa iskusila u oktobru 2022, značila bi gubitak kupovne moći od 61,5% tokom deset godina.
 
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 
 _**Slika:** Uticaj inflacije na kupovnu [moć](https://anilsaidso.gumroad.com/)_
@@ -2138,7 +2138,7 @@ Međutim, sada proizvođači energije imaju način da iskoriste ovu zarobljenu e
 Na kraju, Bitcoin rudari su motivisani da traže jeftine izvore energije jer njihova zarada zavisi od troškova energije. Kao posledica toga, aktivno traže zarobljenu energiju ili druge oblike energije koji bi inače ostali neiskorišćeni. Jedan značajan primer je gas iz baklji, koji se oslobađa kada naftne kompanije izvlače naftu iz zemlje. Gas iz baklji je nusproizvod ovog procesa i obično se spaljuje zbog visokih troškova povezanih sa njegovim hvatanjem. Ova praksa, poznata kao spaljivanje, ne samo da rezultira protraćenom energijom već i oslobađa metan i razne druge gasove u atmosferu.
 
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 
 _**Slika:** Baklja [Gas](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
@@ -2351,10 +2351,10 @@ Međutim, poslednjih godina, Bitcoin se pojavio kao moćan alat za finansijsko o
 Dok je svet sa užasom posmatrao kako talibani preuzimaju kontrolu nad Avganistanom [1996](https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D) godine, ova mlada devojčica Roya živela je u srcu sukoba. Sa samo sedam godina, našla se usred previranja i neizvesnosti rata dok su talibani napadali i okupirali njen rodni grad. Uprkos opasnosti i nedaćama sa kojima se suočavala, uz činjenicu da nije mogla da ide u školu, Roya je odbijala da bude poražena. Umesto toga, okrenula se obrazovanju kao načinu da prevaziđe ograničenja koja su joj nametnuta okolnostima.
 
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
 
-\***Figura:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Figura:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
 
 
 Roya Mahboob je pionirka u oblasti tehnologije i preduzetništva u Avganistanu. Ne samo da je [imenovana](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) među 100 najuticajnijih ljudi na svetu prema magazinu TIME za 2013. godinu nakon što je "izgradila internet učionice u srednjim školama u Avganistanu." Takođe je osnovala Afghan Citadel Software Company 2010. godine, koja ima za cilj da "stvara poslove za nedavno diplomirane studente - posebno žene." A ako to nije bilo dovoljno, zatim je pokrenula Digital Citizen Fund. Ova neprofitna organizacija radi na osnaživanju žena i dece u zemljama u razvoju kroz tehnologiju.
@@ -2439,7 +2439,7 @@ Vlasnik kafića, Vijetnam
 „U mom kafiću u distriktu Binh Thanh, opslužujemo mladu klijentelu i povremene turiste, nudeći razne napitke, uključujući kafu, Soft pića i koktele. Tether je postao naše rešenje za obradu plaćanja od stranih kupaca koji nemaju lokalnu valutu ili bankovne račune. Iako su prodaje putem Tether-a trenutno male, pruža nam zgodan način da premostimo valutni jaz i ugodimo našim međunarodnim gostima. Kupci su često zadivljeni našom otvorenošću za prihvatanje kripto plaćanja, ostavljajući trajan utisak na njihovo iskustvo.“
 
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 
 Parvinee Ratchaphokhinpiti
 
@@ -2449,7 +2449,7 @@ U penziji, Tajland
 „USDt je revolucionisao moje međunarodne novčane transfere. Kao penzioner, ranije sam se oslanjao na spore bankovne doznake. Zahvaljujući USDt, sada mogu lako slati novac putem digitalnog sredstva Exchange. Moja sestra je primila sredstva za 30 minuta. Prednosti uštede vremena su neprocenjive, osiguravajući brze i jednostavne transakcije.“
 
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 
 Jamie Tran
 
@@ -2459,7 +2459,7 @@ Učitelj klavira, Vijetnam
 "Slanje novca mojim rođacima u inostranstvu bila je česta potreba, ali proces konverzije valuta na lokalnim menjačnicama pokazao se kao dugotrajan i skup. Da bih Address ove izazove, upoznao sam svoje rođake sa pogodnostima korišćenja USDt. Ova jednostavna promena omogućila je našoj porodici da uštedi značajno vreme i novac u našim finansijskim transakcijama. Sa USDt, sada uživamo u pojednostavljenim transferima u inostranstvo, osiguravajući efikasnu i isplativu podršku za naše voljene."
 
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 
 Roman
 
@@ -2469,7 +2469,7 @@ Ruski iseljenik koji živi u Vijetnamu
 „Živeći u Vijetnamu, često šaljem Tether svojim rođacima i rođacima u Rusiji. Slanje novca u inostranstvo putem Tether-a je bez problema u poređenju sa korišćenjem tradicionalnih bankarskih metoda. Nema poseta banci, overenih dokumenata ili objašnjenja. Bez ograničenja slanja, minimalnih naknada i brzih transakcija, sredstva se isporučuju u roku od nekoliko minuta.“
 
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 
 Luis Graterol
 
@@ -2479,7 +2479,7 @@ Audiovizuelni, Venecuela
 „Moje ime je Luis Graterol, i Tether mi je pomogao da osiguram svoju ušteđevinu na drugačiji način. U Venecueli patimo zbog visoke inflacije, i Tether je mnogo pomogao. Njegova upotrebljivost je jednostavna, i u mnogim slučajevima možete obavljati transakcije bez ikakvih naknada. USDt mi olakšava život! Takođe mi pomaže da edukujem i podstičem njegovu upotrebu u audiovizuelnim medijima; otkako sam otkrio njegovu jednostavnost, primam svoje isplate putem USDt, i izbegavam zamornu lokalnu fiat valutu koja pogađa mnoge od nas!“
 
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 
 Dubraska Villanloga
 
@@ -2489,7 +2489,7 @@ CEO Tu Cachapa Caricuao, Caracas, Venecuela
 „Ja sam iz Venecuele i vodim mali biznis dostave doručka. Tether USDt je bio održivo rešenje za problem fizičkog novca za mene. USDt mi je takođe pomogao sa mojim uštedama jer da sam držao poslovne račune u venecuelanskim bolivarima, ne bih mogao planirati unapred nabavku hrane zbog konstantne devalvacije.“
 
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 
 Marcela Romero
 
@@ -2499,7 +2499,7 @@ Marketing i PR Menadžer, Guanacaste, Kostarika
 „Pre nekoliko godina, preselila sam se u muževu zemlju. Zbog pandemije, suočila sam se sa jedinstvenom migracionom situacijom, što je rezultiralo dugim čekanjem na boravišnu dozvolu ili državljanstvo. Skoro tri godine nisam imala pristup bankovnom računu i nisam mogla legalno da radim u zemlji. Međutim, koristeći svoje sposobnosti za rad na mreži i primajući platu u USDt, nastavila sam svoju karijeru na daljinu sa međunarodnim kompanijama. Sa Tether-om, mogu trenutno da šaljem novac kući bez visokih naknada ili kašnjenja. Tether mi je omogućio da ostvarim svoje profesionalne ciljeve i održim finansijsku nezavisnost uprkos državnim ograničenjima.“
 
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 
 Simoneth Gomez
 
@@ -2509,7 +2509,7 @@ QA Engineer, Venecuela, living in Argentina
 „Ćao, zovem se Simoneth Gomez. Ja sam iz Venecuele, ali trenutno živim u Buenos Airesu, gde radim kao analitičar kvaliteta softvera. Kada sam došla u Argentinu, imala sam razdaljinu od 12 km između posla i mesta gde sam morala da menjam novac kako bih ga poslala svojoj porodici u Venecueli. Tako sam se upoznala sa USDt i počela da ga koristim jer umesto da idem tim putem za \$5 ili \$10 autobusom, mogla sam to da rešim sa svog stola za dva minuta.“
 
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 
 Carlos Caballero
 
@@ -2519,7 +2519,7 @@ Psiholog, Argentina
 „Tether je bio rešenje koje mi je omogućilo da nastavim da radim u svojoj profesiji tokom godina pandemije. Činjenica da je valuta vezana za dolar omogućava joj da ima međunarodnu referentnu vrednost. Njena stabilnost i sigurnost u odnosu na volatilnost drugih kriptovaluta je glavni razlog koji me je naveo da je izaberem.“
 
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 
 Heloisa Passos
 
@@ -2529,7 +2529,7 @@ CEO Sp4ce Games, Brazil
 "Radim na daljinu za međunarodne kompanije već oko pet godina, i većinu tog vremena sam patio zbog visokih kamatnih stopa nacionalnih banaka, koje naplaćuju veliki procenat za svaku međunarodnu doznaku, uz dodatno vreme čekanja za obradu uplata putem Swift sistema (oko 24 sata). Kada sam počeo primati platu u Tetheru, shvatio sam koliko vremena i novca sam počeo štedeti samo time što sam bio plaćen u USDt."
 
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 
 Samuel
 
@@ -2539,7 +2539,7 @@ Trading Company, Nigerija
 „Korišćenje USDt-a je uštedelo mnogo vremena našem poslovanju jer, kao nigerijska firma, dobijanje USD zahteva odlazak u banku, trošenje dragocenog vremena na popunjavanje formulara i čekanje satima za isplate ili transfere. Međutim, sa USDt-om, možemo ga Exchange za lokalnu valutu za manje od 5 minuta i izvršiti bilo koju transakciju koju imamo.“
 
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 
 Joshua
 
@@ -2549,7 +2549,7 @@ Student, Nigerija
 „Tether mi je pomogao na brojne načine. Zarađivanje u Tetheru mi je pomoglo da pobedim napetost zbog rastuće inflacije u zemlji, i pomoglo mi je da smanjim rasipnu potrošnju. Takođe, pomaže mojim uštedama da zadrže svoju vrednost jer nisam loše pogođen devalvacijom Naira.“
 
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 
 Esther
 

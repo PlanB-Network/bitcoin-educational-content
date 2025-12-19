@@ -17,7 +17,7 @@ U ovom vodiču pokrićemo proces kreiranja poslovnog naloga na Bitfinex-u, kupov
 Ako ste zainteresovani za temu integracije Bitcoin u vaše poslovanje, preporučio bih vam da otkrijete naš kompletan teorijski kurs obuke na tu temu:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Kreiranje Bitfinex naloga
 
@@ -37,12 +37,12 @@ Popunite potrebne informacije: unesite svoju poslovnu email adresu Address i zem
 Za savete o korišćenju i zaštiti jakih, jedinstvenih lozinki, pogledajte i ovaj vodič:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Sada ćemo konfigurisati 2FA da osiguramo nalog. Koristite aplikaciju za autentifikaciju na svom pametnom telefonu, kao što su Google Authenticator ili Authy na primer. Pronaći ćete vodič za ovaj alat ovde:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skenirajte QR kod pomoću svoje aplikacije i unesite 6 cifara koje su date.
 
@@ -116,11 +116,11 @@ Kada se prijavite, videćete navigacionu traku na vrhu Interface sa: "*Trading*"
 
 
 
-- Trgovanje**: "*klasično*" tržište gde možete postavljati naloge za kupovinu i prodaju kriptovaluta (uključujući Bitcoin) ;
-- OTC**: Over-The-Counter usluga za trgovanje velikim količinama direktno sa drugim igračem, van javnih knjiga naloga;
-- Finansiranje**: Oblast posvećena pozajmljivanju i maržinskom finansiranju;
-- Derivatives**: Sekcija za derivate (fjučersi, itd.), namenjena iskusnim trgovcima;
-- P2P**: Omogućava vam kupovinu ili prodaju kriptovaluta od drugih korisnika na peer-to-peer osnovi.
+- **Trgovanje**: "*klasično*" tržište gde možete postavljati naloge za kupovinu i prodaju kriptovaluta (uključujući Bitcoin) ;
+- **OTC**: Over-The-Counter usluga za trgovanje velikim količinama direktno sa drugim igračem, van javnih knjiga naloga;
+- **Finansiranje**: Oblast posvećena pozajmljivanju i maržinskom finansiranju;
+- **Derivatives**: Sekcija za derivate (fjučersi, itd.), namenjena iskusnim trgovcima;
+- **P2P**: Omogućava vam kupovinu ili prodaju kriptovaluta od drugih korisnika na peer-to-peer osnovi.
 
 
 Za standardnu upotrebu (kupovina/prodaja bitkoina, depoziti/isplate i upravljanje gotovinom), uglavnom ćete koristiti karticu "*Trading*", kao i odeljke "*Wallet*", "*Deposit*" i "*Withdraw*".
@@ -234,7 +234,7 @@ Bitfinex takođe nudi opcije depozita i povlačenja putem Lightning Network, omo
 Ako ste zainteresovani za Lightning Network, imamo i kompletan kurs obuke koji će vam pomoći da razumete kako funkcioniše:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Kupovina i prodaja bitkoina na Bitfinex-u
 
@@ -352,4 +352,4 @@ U zavisnosti od ciljeva i strukture vaše kompanije, korišćenje Bitfinex-a mo�
 Za detaljniji uvid u ovu temu, preporučujem ovaj sveobuhvatni kurs obuke o integraciji Bitcoin u poslovanje, koji detaljno pokriva dodavanje u tok gotovine, prihvatanje Bitcoin uplata i računovodstvo:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

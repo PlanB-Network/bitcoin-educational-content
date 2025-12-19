@@ -1,0 +1,9 @@
+question: Milline on Bitcoin core peamine alternatiivne rakendus?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin Sularaha
+  - BTCD
+  - Bcoin
+explanation: |
+  Luke Dashjr'i poolt välja töötatud Bitcoin Knots on Core'i Fork, mis pakub täiendavaid võimalusi ja konservatiivsemat nägemust.
+reviewed: true

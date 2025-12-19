@@ -1,0 +1,9 @@
+question: Hvilke selvbetjente applikasjoner kan installeres via Umbrel?
+answer: Nextcloud
+wrong_answers:
+  - Google Disk
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel tilbyr en App Store med tjenester for selvhosting, for eksempel Nextcloud, der du selv kan lagre og synkronisere filer.
+reviewed: true

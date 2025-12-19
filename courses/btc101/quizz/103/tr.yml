@@ -1,13 +1,11 @@
-question: Bitcoinleriniz için bir miras planı oluşturmanın amacı nedir?
-answer: Ölümünüzden sonra bitcoinlerinizin düzgün bir şekilde yönetileceğinden emin olmak için.
+question: Bitcoin güvenliği bağlamında Blockmit nedir?
+answer: Mnemonic ifadenizi bir parça çelik üzerine kazımak için düşük maliyetli bir çözüm.
 wrong_answers:
-  - Bitcoinlerinizden vergi almamak için.
-  - Bitcoinlerinizin değerini düşürmek için.
-  - Bitcoinlerinizin çalınmasını önlemek için.
+  - Aynı anda birden fazla işlemi imzalamak için bir tür Bitcoin Wallet.
+  - Evde bitcoin madenciliği yapmak için düşük maliyetli bir çözüm.
+  - UTXO'ları harcamak için birden fazla imza gerektiren bir Bitcoin Wallet türü.
 explanation: |
-  Bir miras planı, bitcoinlerinizin
-  ölümünüzden sonra düzgün bir şekilde yönetilir. Şunları içerebilir
-  varlıklarınızı ve erişimlerini detaylandıran el yazısı mektup
-  yöntemleri ve güvenilir kişilerin iletişim bilgileri
-  iletişime geçilecek.
+  Blockmit, ürünlerinizi kazımak için düşük maliyetli bir çözümdür
+  Çelik gibi dayanıklı bir malzeme üzerinde Mnemonic ibaresi, böylece
+  bitcoinlerinizi uzun vadede güvence altına almak.
 reviewed: true

@@ -1,13 +1,13 @@
-question: ¿Qué es la Declaración de la Independencia del Ciberespacio?
-answer: Un texto que afirma que el ciberespacio es un ámbito distinto del físico y no debería estar sujeto a las mismas leyes.
+question: ¿Por qué el oro se convirtió en el estándar de medio de intercambio?
+answer: Debido a su rareza, durabilidad y divisibilidad.
 wrong_answers:
-  - Una declaración que afirma la independencia de Bitcoin de los sistemas financieros tradicionales.
-  - Un texto que afirma que el ciberespacio debería ser controlado por la regulación gubernamental.
-  - Una declaración que aboga por la independencia del movimiento pirata de cualquier regulación.
+  - Debido a su abundancia, durabilidad e indivisibilidad.
+  - Debido a su rareza, perecibilidad y divisibilidad.
+  - Debido a su abundancia, perecibilidad e indivisibilidad.
 explanation: |
-  La Declaración de la Independencia del Ciberespacio fue
-  escrita por John Perry Barlow en 1996. Este documento afirma
-  que el ciberespacio es un ámbito distinto del físico,
-  por lo tanto, los gobiernos industriales no pueden imponer su
-  autoridad allí.
+  El oro se convirtió en el estándar de medio de intercambio debido a su
+  rareza, durabilidad y divisibilidad: su rareza evitaba
+  la devaluación causada por la producción; su durabilidad
+  aseguraba que no se erosionaría con el tiempo, y su divisibilidad
+  permitía su uso en transacciones de diferentes tamaños.
 reviewed: true

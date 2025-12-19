@@ -22,11 +22,11 @@ Täytä vaaditut tiedot: anna sähköpostiosoitteesi ja asuinmaasi. Valitse turv
 
 Vinkkejä vahvojen ja yksilöllisten salasanojen käyttöön ja suojaamiseen on myös tässä oppaassa :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Määritämme nyt 2FA:n tilin suojaamiseksi. Käytä älypuhelimessa olevaa todennussovellusta, kuten esimerkiksi Google Authenticatoria tai Authyta. Löydät ohjeen tästä työkalusta täältä :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skannaa QR-koodi sovelluksellasi ja syötä annetut 6 numeroa.
 
@@ -53,10 +53,10 @@ Tilisi on nyt luotu. Klikkaa "*Log in*" päästäksesi alustalle.
 Bitfinex soveltaa nykyisten säännösten mukaista todentamisprosessia (KYC). "Basic"-tilassa on mahdotonta tehdä talletuksia, nostoja tai liiketoimia, minkä vuoksi on välttämätöntä saada vähintään "Basic Plus" -varmistustaso tai tarvittaessa jopa "Intermediate" tai "Full" -varmistustaso:
 
 
-- Basic* on pelkkä näyttötila, jossa voit tarkastella alustaa suorittamatta mitään toimintoja;
-- Basic Plus* tarjoaa pääsyn tärkeimpiin toimintoihin, kuten spot-markkinatapahtumiin ja valittuihin talletus- ja nostovaihtoehtoihin;
-- Intermediate* avaa edistyneet palvelut, kuten marginaalikaupan, lainat, P2P- ja OTC-tapahtumat, ja tarjoaa lyhennetyt talletusajat;
-- Full* antaa sinulle pääsyn kansainvälisiin pankkisiirtoihin ja kaikkiin alustan ominaisuuksiin.
+- **Basic** on pelkkä näyttötila, jossa voit tarkastella alustaa suorittamatta mitään toimintoja;
+- **Basic Plus** tarjoaa pääsyn tärkeimpiin toimintoihin, kuten spot-markkinatapahtumiin ja valittuihin talletus- ja nostovaihtoehtoihin;
+- **Intermediate** avaa edistyneet palvelut, kuten marginaalikaupan, lainat, P2P- ja OTC-tapahtumat, ja tarjoaa lyhennetyt talletusajat;
+- **Full** antaa sinulle pääsyn kansainvälisiin pankkisiirtoihin ja kaikkiin alustan ominaisuuksiin.
 
 Kullakin tasolla tarvitaan lisäasiakirjoja todentamista varten. Useimmille käyttäjille riittää yleensä *Basic Plus*- tai *Intermediate*-tili.
 
@@ -79,11 +79,11 @@ Suorita vaiheet loppuun toimittamalla pyydetyt tiedot ja asiakirjat. Kun hakemuk
 Kun olet kirjautunut sisään, näet käyttöliittymän yläosassa navigointipalkin, jossa on: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", jne. Bitfinex tarjoaa laajan valikoiman toimintoja, kuten :
 
 
-- Kaupankäynti**: "*klassinen*" markkina, jossa voit tehdä tilauksia ostaa ja myydä kryptovaluuttoja (mukaan lukien bitcoin) ;
-- OTC**: Over-The-Counter-palvelu, jossa suurilla volyymeillä käydään kauppaa suoraan toisen toimijan kanssa julkisten tilauskirjojen ulkopuolella;
-- Rahoitus**: Luotonantoon ja marginaalirahoitukseen tarkoitettu alue;
-- Johdannaiset**: Johdannaisia (futuurit jne.) käsittelevä osio, joka on tarkoitettu kokeneille kauppiaille;
-- P2P**: Mahdollistaa kryptojen ostamisen tai myymisen muilta käyttäjiltä vertaisverkkopohjaisesti.
+- **Kaupankäynti**: "*klassinen*" markkina, jossa voit tehdä tilauksia ostaa ja myydä kryptovaluuttoja (mukaan lukien bitcoin) ;
+- **OTC**: Over-The-Counter-palvelu, jossa suurilla volyymeillä käydään kauppaa suoraan toisen toimijan kanssa julkisten tilauskirjojen ulkopuolella;
+- **Rahoitus**: Luotonantoon ja marginaalirahoitukseen tarkoitettu alue;
+- **Johdannaiset**: Johdannaisia (futuurit jne.) käsittelevä osio, joka on tarkoitettu kokeneille kauppiaille;
+- **P2P**: Mahdollistaa kryptojen ostamisen tai myymisen muilta käyttäjiltä vertaisverkkopohjaisesti.
 
 Tavalliseen käyttöön (bitcoinien ostaminen/myyminen ja talletukset/nostot) käytät pääasiassa "*Trading*"-välilehteä sekä "*Wallet*"-, "*Deposit*"- ja "*Withdraw*"-osioita.
 
@@ -167,9 +167,9 @@ Bitfinex tarjoaa myös talletus- ja nostovaihtoehtoja Lightning-verkon kautta, m
 
 Jos olet kiinnostunut Lightning-verkosta, meillä on myös täydellinen koulutus, jonka avulla voit ymmärtää, miten se toimii:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Kun olet ostanut ensimmäiset bitcoinisi, sinulla on tietenkin mahdollisuus jättää ne alustalle, mutta suosittelen lämpimästi niiden siirtämistä omaan lompakkoon omaan säilytykseen. Jos et vielä tiedä, miten Bitcoin-lompakkoa käytetään, pyydän sinua tutustumaan [Plan ₿ Networkin "Wallet"-osioon](https://planb.network/tutorials/wallet).
+Kun olet ostanut ensimmäiset bitcoinisi, sinulla on tietenkin mahdollisuus jättää ne alustalle, mutta suosittelen lämpimästi niiden siirtämistä omaan lompakkoon omaan säilytykseen. Jos et vielä tiedä, miten Bitcoin-lompakkoa käytetään, pyydän sinua tutustumaan [Plan ₿ Networkin "Wallet"-osioon](https://planb.academy/tutorials/wallet).
 
 ## 6 - Bitcoinien ostaminen ja myyminen Bitfinexissä
 

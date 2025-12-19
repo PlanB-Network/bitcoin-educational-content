@@ -1,0 +1,9 @@
+question: RGB에서 Bob이 State Transition 동안 자산을 받을 수 있도록 하는 핵심 요소는 무엇인가요?
+answer: Bob의 UTXO를 가리키는 새로운 Seal Definition
+wrong_answers:
+  - UTXO에 대한 참조가 없는 제어 트랜잭션
+  - Alice의 공개 성명
+  - Alice과 Bob가 공유하는 이중 서명
+explanation: |
+  Seal Definition은 자산을 Bob의 UTXO에 암호로 연결하여 그가 자산을 소유하고 있음을 확인합니다.
+reviewed: false

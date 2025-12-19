@@ -9,29 +9,29 @@ description: The ideal replacement for Windows and MacOS
 Elementary OS is an Ubuntu-based operating system, designed to be simple, fast and stable for many everyday uses. It represents a balanced Linux alternative to MacOS and Windows. Its fluid, intuitive and uncluttered graphical Interface makes it easy to learn, even for beginners. It also focuses on ergonomics, security and performance.
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Why choose Elementary OS
 
 
 
-- Simplicity and ease of use**: Elementary OS's graphical Interface is midway between those of MacOs and Windows. This familiarity makes it easy to adopt, even for inexperienced users.
+- **Simplicity and ease of use**: Elementary OS's graphical Interface is midway between those of MacOs and Windows. This familiarity makes it easy to adopt, even for inexperienced users.
 
 
 
-- Security**: Like most Linux distributions, Elementary OS benefits from a high level of security. Regular updates, rights management and the absence of common viruses make it a reliable system.
+- **Security**: Like most Linux distributions, Elementary OS benefits from a high level of security. Regular updates, rights management and the absence of common viruses make it a reliable system.
 
 
 
-- Speed**: Elementary OS is a lightweight distribution. It requires few resources, making it fast and suitable for computers with modest configurations.
+- **Speed**: Elementary OS is a lightweight distribution. It requires few resources, making it fast and suitable for computers with modest configurations.
 
 
 
-- Free**: The system is completely free. However, when you download it, you can make a donation to support the developers.
+- **Free**: The system is completely free. However, when you download it, you can make a donation to support the developers.
 
 
 
-- Active community**: The community around Elementary OS is diverse and responsive. If you run into difficulties, you can easily find help on the forums or social networks.
+- **Active community**: The community around Elementary OS is diverse and responsive. If you run into difficulties, you can easily find help on the forums or social networks.
 
 
 ## Installation and configuration
@@ -44,7 +44,7 @@ Before starting installation, please ensure that you have the following equipmen
 
 
 - A **USB key** of at least 12 GB
-- RAM** memory of at least 4 GB
+- **RAM** memory of at least 4 GB
 - A **hard disk of 20 GB** or more for comfortable use
 
 
@@ -283,4 +283,4 @@ This command installs **Git**, **Python 3**, **pip**, **compiler tools**, **wget
 Elementary OS is now up and running on your machine. Its philosophy of simplicity, lightness and elegance makes it an excellent choice for both personal and professional use. You get a stable, fluid and uncluttered system, ready to be customized according to your preferences. Whether for development, office use or day-to-day browsing, everything is in place to build an efficient, intuitive and pleasant working environment. Also check out our tutorial on Fedora, an equally simple, robust and modular Linux distribution.
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

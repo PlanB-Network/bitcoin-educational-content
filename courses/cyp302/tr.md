@@ -1,29 +1,18 @@
 ---
-name: Biçimsel Kriptografiye Giriş
+name: Modern kriptografinin temelleri
 goal: Kriptografi bilimine ve uygulamasına derinlemesine bir giriş.
-objectives: 
-
-  - Kriptografinin temel ve tarihsel kavramlarını anlamak için Beale şifrelerini ve modern kriptografik yöntemleri keşfedin.
-  - Kriptografinin altında yatan temel matematiksel kavramlarda ustalaşmak için sayı teorisi, gruplar ve alanları inceleyin.
-  - Simetrik kriptografik algoritmalar hakkında bilgi edinmek için RC4 akış şifresini ve 128 bit anahtarlı AES'yi inceleyin.
-  - Asimetrik kriptografiyi keşfetmek için RSA kriptosistemini, anahtar dağıtımını ve Hash işlevlerini inceleyin.
-
-
+objectives:
+- Kriptografinin temel ve tarihsel kavramlarını anlamak için Beale şifrelerini ve modern kriptografik yöntemleri keşfedin.
+- Kriptografinin altında yatan temel matematiksel kavramlarda ustalaşmak için sayı teorisi, gruplar ve alanları inceleyin.
+- Simetrik kriptografik algoritmalar hakkında bilgi edinmek için RC4 akış şifresini ve 128 bit anahtarlı AES'yi inceleyin.
+- Asimetrik kriptografiyi keşfetmek için RSA kriptosistemini, anahtar dağıtımını ve Hash işlevlerini inceleyin.
 ---
-# Kriptografiye derinlemesine dalış
+# Modern Kriptografiye Derinlemesine Bakış
 
+Bu kursta, modern kriptografinin temellerini ağır bir matematik geçmişi gerektirmeden açık ve anlaşılır bir şekilde ele alacağız. Bölümler boyunca, simetrik ve açık anahtarlı şifreleme, hash fonksiyonları, dijital imzalar, anahtar değişimi ve gerçek dünya protokolleri gibi temel fikirleri öğreneceksiniz. Bu süreçte, güvenli mesajlaşma, TLS, parola depolama ve kimlik doğrulama gibi pratik uygulamalarla noktaları birleştireceğiz.
 
-Kriptografi eğitiminde iyi bir orta yol sunan çok sayıda materyal bulmak zordur.
-
-
-Bir yanda, sadece matematik, mantık veya diğer bazı resmi disiplinlerde güçlü bir geçmişe sahip olanların gerçekten erişebileceği uzun, resmi incelemeler var. Öte yandan, en azından biraz meraklı olan herkes için gerçekten çok fazla ayrıntıyı gizleyen çok üst düzey tanıtımlar var.
-
-
-Kriptografiye giriş niteliğindeki bu kitap orta yolu yakalamayı amaçlamaktadır. Kriptografiye yeni başlayanlar için nispeten zorlayıcı ve ayrıntılı olsa da, tipik bir temel incelemenin tavşan deliği değildir.
-
-
+Materyal, her seviyeden öğrenci için tasarlanmıştır ve sezgiyi merakı tatmin edecek kadar teknik derinlikle dengeler. Odaklanmış, ilgi çekici bir yolculuk bekleyin. Sonunda, modern kriptografinin nasıl ve neden çalıştığını ve onu sorumlu bir şekilde nasıl kullanacağınızı anlayacaksınız.
 +++
-
 # Giriş
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
@@ -39,7 +28,7 @@ CYP302 kursuna hoş geldiniz!
 Bu kitap kriptografi bilimine ve uygulamasına derinlemesine bir giriş sunmaktadır. Mümkün olan yerlerde, materyalin biçimsel olarak açıklanmasından ziyade kavramsal olarak açıklanmasına odaklanmaktadır.
 
 
-Bu eğitim içeriği [JWBurgers] (https://github.com/JWBurgers/An_Introduction_to_Cryptography) kitabından ve reposundan uyarlanmıştır. Yazar, eğitim amaçlı kullanımına nezaketen izin vermiş olsa da, tüm fikri mülkiyet hakları orijinal yaratıcıya aittir.
+Bu eğitim içeriği [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography) kitabından ve reposundan uyarlanmıştır. Yazar, eğitim amaçlı kullanımına nezaketen izin vermiş olsa da, tüm fikri mülkiyet hakları orijinal yaratıcıya aittir.
 
 
 **Motivasyon ve hedefler**
@@ -81,7 +70,7 @@ Kitabın bu bölümlerindeki biçimsel ayrıntılarla gerçekten zorlanıyorsan�
 Bu kitabın şekillenmesinde en etkili kitap Jonathan Katz ve Yehuda Lindell'in _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015 adlı kitabı olmuştur. Bu kitaba eşlik eden bir kurs da Coursera'da "Cryptography" adıyla mevcuttur
 
 
-Bu kitaptaki genel bakışın oluşturulmasında yardımcı olan başlıca ek kaynaklar Simon Singh, _The Code Book_, Fourth Estate (Londra, 1999); Christof Paar ve Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) ve [Paar'ın "Introduction to Cryptography" adlı kitabına dayanan bir kurs] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); ve Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+Bu kitaptaki genel bakışın oluşturulmasında yardımcı olan başlıca ek kaynaklar Simon Singh, _The Code Book_, Fourth Estate (Londra, 1999); Christof Paar ve Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) ve [Paar'ın "Introduction to Cryptography" adlı kitabına dayanan bir kurs](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); ve Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 
 Bu kaynaklardan aldığım çok spesifik bilgi ve sonuçlara sadece atıfta bulunacağım, ancak burada onlara olan genel borçluluğumu kabul etmek istiyorum.
@@ -94,7 +83,7 @@ Bu girişten sonra kriptografi hakkında daha ileri düzeyde bilgi edinmek istey
 **Katkılar**
 
 
-Projeyi nasıl destekleyeceğinize dair bazı yönergeler için lütfen [depodaki katkı dosyasına] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) bir göz atın.
+Projeyi nasıl destekleyeceğinize dair bazı yönergeler için lütfen [depodaki katkı dosyasına](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) bir göz atın.
 
 
 
@@ -182,7 +171,7 @@ Hayatının sonuna yaklaşan Morriss, 1862 yılında kutuyu bir arkadaşına ver
 *Şekil 1: Beale şifreleme no. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -405,7 +394,7 @@ Kriptografi tartışmalarında, rastgele değişkenler genellikle gerçek dünya
 Bununla birlikte, kriptografi tartışmalarındaki rastgele değişkenler genellikle belirli bir doğal deneye karşı değil, doğru olasılık dağılımlarını verebilecek herhangi bir deneye karşı tanımlanır.
 
 
-Rastgele değişkenler kesikli veya sürekli olasılık dağılımlarına sahip olabilir. Kesikli olasılık dağılımına** sahip rastgele değişkenler, yani kesikli rastgele değişkenler, sonlu sayıda olası sonuca sahiptir. Şimdiye kadar verilen her iki örnekte de $X$ rastgele değişkeni kesikli idi.
+Rastgele değişkenler kesikli veya sürekli olasılık dağılımlarına sahip olabilir. **Kesikli olasılık dağılımına** sahip rastgele değişkenler, yani kesikli rastgele değişkenler, sonlu sayıda olası sonuca sahiptir. Şimdiye kadar verilen her iki örnekte de $X$ rastgele değişkeni kesikli idi.
 
 
 **Sürekli rastgele değişkenler** bunun yerine bir veya daha fazla aralıkta değerler alabilir. Örneğin, bir rastgele değişkenin örnekleme üzerine 0 ile 1 arasındaki herhangi bir gerçek değeri alacağını ve bu aralıktaki her gerçek sayının eşit olasılıkta olduğunu söyleyebilirsiniz. Bu aralık içinde sonsuz sayıda olası değer vardır.
@@ -424,10 +413,10 @@ Bir rastgele değişken için olası değerler ve ilişkili olasılıklar bir gr
 *Şekil 1: Rastgele değişken X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
-Şekil 1*'deki geniş çubuklar, $X$ rassal değişkeninin aslında sürekli olduğu anlamına gelmemektedir. Bunun yerine, çubuklar görsel olarak daha çekici olması için geniş tutulmuştur (sadece düz bir çizgi daha az sezgisel bir görselleştirme sağlar).
+Şekil 1'deki geniş çubuklar, $X$ rassal değişkeninin aslında sürekli olduğu anlamına gelmemektedir. Bunun yerine, çubuklar görsel olarak daha çekici olması için geniş tutulmuştur (sadece düz bir çizgi daha az sezgisel bir görselleştirme sağlar).
 
 
 
@@ -437,7 +426,7 @@ Bir rastgele değişken için olası değerler ve ilişkili olasılıklar bir gr
 "Rastgele değişken" ifadesinde "rastgele" terimi sadece "olasılıklı" anlamına gelir. Başka bir deyişle, değişkenin iki veya daha fazla olası sonucunun belirli olasılıklarla ortaya çıktığı anlamına gelir. Ancak bu sonuçların eşit olasılıklı olması gerekmez ("rastgele" terimi başka bağlamlarda gerçekten de bu anlama gelebilir).
 
 
-Tekdüze değişken** rastgele değişkenin özel bir durumudur. Hepsi eşit olasılığa sahip iki veya daha fazla değer alabilir. Şekil 1*'de gösterilen $X$ rastgele değişkeni, her iki olası sonuç da 0,5$ olasılıkla gerçekleştiği için açıkça tekdüze bir değişkendir. Bununla birlikte, tekdüze değişkenlerin örnekleri olmayan birçok rastgele değişken vardır.
+**Tekdüze değişken** rastgele değişkenin özel bir durumudur. Hepsi eşit olasılığa sahip iki veya daha fazla değer alabilir. **Şekil 1**'de gösterilen $X$ rastgele değişkeni, her iki olası sonuç da 0,5$ olasılıkla gerçekleştiği için açıkça tekdüze bir değişkendir. Bununla birlikte, tekdüze değişkenlerin örnekleri olmayan birçok rastgele değişken vardır.
 
 
 Örneğin, $Y$ rastgele değişkenini ele alalım. Bu değişken {1, 2, 3, 8, 10} sonuç kümesine ve aşağıdaki olasılık dağılımına sahiptir:
@@ -478,7 +467,7 @@ Y$'nin grafiksel bir tasviri *Şekil 2*'de verilmiştir.
 *Şekil 2: Rastgele değişken Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 Son bir örnek olarak, {1,3,7,11,12} sonuç kümesine ve aşağıdaki olasılık dağılımına sahip rastgele değişken Z'yi düşünün:
@@ -516,7 +505,7 @@ Bunu *Şekil 3*'de görebilirsiniz. Z rastgele değişkeni, Y'nin aksine, tekdü
 *Şekil 3: Rastgele değişken Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -620,7 +609,7 @@ Dolayısıyla, gerçek dünya bağlamında bir olayın "koşulsuz olasılığın
 ### Modulo
 
 
-Modulo işlemini** içeren en temel ifade şu şekildedir: $x \mod y$.
+Modulo işlemini içeren en temel ifade şu şekildedir: $x \mod y$.
 
 
 X$ değişkeni bölen, $y$ değişkeni ise bölen olarak adlandırılır. Pozitif bir bölen ve pozitif bir bölen ile bir modulo işlemi gerçekleştirmek için, sadece bölümden kalanı belirlersiniz.
@@ -675,7 +664,7 @@ Modulo işlemi kriptografide sıklıkla karşılaşılan bir işlemdir. Örnek o
 
 
 
-- K** anahtar uzayından düzgün bir $k$ anahtarı seçin, burada **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
+- **K** anahtar uzayından düzgün bir $k$ anahtarı seçin, burada **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
 - Bir $m \in \mathbf{M}$ mesajını aşağıdaki gibi şifreleyin:
     - M$'yi kendi içinde $m_0, m_1, \ldots, m_i, \ldots, m_l$ harflerine ayırın
     - Her $m_i$'yi *D*'ye göre bir sayıya dönüştürün
@@ -692,18 +681,18 @@ Modulo işlemi kriptografide sıklıkla karşılaşılan bir işlemdir. Örnek o
 Kaydırma şifresindeki modulo operatörü, harflerin etrafını sarmasını sağlar, böylece tüm şifreli metin harfleri tanımlanır. Örnek olarak, "DOG" kelimesi üzerinde kaydırma şifresinin uygulanmasını düşünün.
 
 
-Bir anahtarı 17 değerine sahip olacak şekilde eşit olarak seçtiğinizi varsayalım. "O" harfi 15'e eşittir. Modulo işlemi olmadan, bu düz metin sayısının anahtarla toplanması 32'lik bir şifreli metin sayısına karşılık gelecektir. Ancak, İngiliz alfabesinde yalnızca 26 harf bulunduğundan, bu şifreli metin sayısı bir şifreli metin harfine dönüştürülemez. Modulo işlemi, şifreli metin sayısının aslında 6 olmasını sağlar ($32 \mod 26$ sonucu), bu da "G" şifreli metin harfine eşittir.
+Diyelim ki değeri $17$ olan bir anahtarı eşit olasılıkla seçtiniz. “O” harfi $14$ değerine karşılık gelir. Modulo işlemi olmadan, bu açık metin sayısının anahtarla toplanması $31$ değerinde bir şifreli metin sayısı üretirdi. Ancak İngilizce alfabe yalnızca $26$ harf içerdiğinden bu sayı bir şifre harfine dönüştürülemez. Modulo işlemi, şifreli metin sayısının aslında $5$ olduğunu garanti eder ($31 \mod 26$ sonucudur) ve bu sayı şifreli harf “F”ye karşılık gelir.
 
 
 Anahtar değeri 17 olan "DOG" kelimesinin tüm şifrelemesi aşağıdaki gibidir:
 
 
 
-- Mesaj = DOG = D,O,G = 3,15,6
+**Mesaj = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Herkes vardiya şifresinin nasıl çalıştığını sezgisel olarak anlayabilir ve muhtemelen kendisi de kullanabilir. Bununla birlikte, kriptografi bilginizi ilerletmek için, şemalar çok daha zor hale geleceğinden, formalizasyon konusunda daha rahat olmaya başlamak önemlidir. Bu nedenle, vardiya şifresi için adımlar resmileştirilmiştir.
@@ -791,7 +780,7 @@ Başlangıç olarak, $n$ uzunluğundaki bir ikili dizgiye **rastgele** (veya **t
 Örneğin, uzunluğu 8 olan tüm ikili dizelerin kümesini varsayalım: $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (8 bitlik bir dizgiyi, her biri **nibble** olarak adlandırılan iki dörtlü halinde yazmak tipiktir) Bu dizge kümesine **$S_8$** diyelim.
 
 
-Yukarıdaki tanıma göre, 8 uzunluğundaki belirli bir ikili dizgiye rastgele (veya tekdüze) diyebiliriz, eğer **$S_8$** içindeki her dizgiye eşit seçilme olasılığı veren tekdüze bir $S$ değişkeninin örneklenmesinin sonucuysa. S_8$** kümesinin 2^8$ Elements içerdiği göz önüne alındığında, örnekleme sonucu seçilme olasılığının kümedeki her bir dize için 1$/2^8$ olması gerekir.
+Yukarıdaki tanıma göre, 8 uzunluğundaki belirli bir ikili dizgiye rastgele (veya tekdüze) diyebiliriz, eğer **$S_8$** içindeki her dizgiye eşit seçilme olasılığı veren tekdüze bir $S$ değişkeninin örneklenmesinin sonucuysa. **$S_8$** kümesinin **$2^8$** Elements içerdiği göz önüne alındığında, örnekleme sonucu seçilme olasılığının kümedeki her bir dize için **$1/2^8$** olması gerekir.
 
 
 Bir ikili dizginin rastgeleliğinin önemli bir yönü, seçildiği sürece referansla tanımlanmış olmasıdır. Bu nedenle, herhangi bir ikili dizginin biçimi kendi başına, seçimdeki rastgeleliği hakkında hiçbir şey ortaya koymaz.
@@ -864,13 +853,13 @@ Eğer sayılar teorisinin detaylarını hantal buluyorsanız, ilk seferde üst d
 ___
 
 
-Sayılar teorisini** tamsayıların ve tamsayılarla çalışan matematiksel fonksiyonların özelliklerinin incelenmesi olarak tanımlayabilirsiniz.
+**Sayılar teorisini** tamsayıların ve tamsayılarla çalışan matematiksel fonksiyonların özelliklerinin incelenmesi olarak tanımlayabilirsiniz.
 
 
 Örneğin, herhangi iki $a$ ve $N$ sayısının, en büyük ortak bölenleri 1'e eşitse **ortak asal** (veya **göreceli asal**) olduğunu düşünün. Şimdi belirli bir $N$ tamsayısı varsayalım. N$'den küçük kaç tamsayı $N$ ile eş asaldır? Bu sorunun yanıtları hakkında genel ifadeler kullanabilir miyiz? Bunlar sayılar kuramının yanıtlamaya çalıştığı tipik soru türleridir.
 
 
-Modern sayı teorisi soyut cebir araçlarına dayanır. Soyut cebir** alanı, analizin ana nesnelerinin cebirsel yapılar olarak bilinen soyut nesneler olduğu matematiğin bir alt disiplinidir. Bir **cebirsel yapı**, belirli aksiyomları karşılayan bir veya daha fazla işlemle birleştirilmiş bir Elements kümesidir. Cebirsel yapılar aracılığıyla matematikçiler, ayrıntılarından soyutlanarak belirli matematiksel problemler hakkında içgörü kazanabilirler.
+Modern sayı teorisi soyut cebir araçlarına dayanır. **Soyut cebir** alanı, analizin ana nesnelerinin cebirsel yapılar olarak bilinen soyut nesneler olduğu matematiğin bir alt disiplinidir. Bir **cebirsel yapı**, belirli aksiyomları karşılayan bir veya daha fazla işlemle birleştirilmiş bir Elements kümesidir. Cebirsel yapılar aracılığıyla matematikçiler, ayrıntılarından soyutlanarak belirli matematiksel problemler hakkında içgörü kazanabilirler.
 
 
 Soyut cebir alanı bazen modern cebir olarak da adlandırılır. Ayrıca **soyut matematik** (veya **saf matematik**) kavramıyla da karşılaşabilirsiniz. Bu son terim soyut cebire bir atıf değildir, daha ziyade matematiğin sadece potansiyel uygulamalar göz önünde bulundurularak değil, kendi iyiliği için incelenmesi anlamına gelir.
@@ -1218,7 +1207,7 @@ Anlaşıldığı üzere, kriptografide $2^m$ 'nin özellikle uygulanabilir uzant
 Yani **S** $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$ kümesi olacaktır. Kombinasyonlarının bir cisim olmasını sağlamak için bu Elements kümesi üzerinde hangi iki işlem tanımlanabilir?
 
 
-S** kümesi ($\circ$) üzerindeki ilk işlem standart polinom toplama modulo 2 olarak tanımlanabilir. Tek yapmanız gereken polinomları normalde yaptığınız gibi toplamak ve ardından elde edilen polinomun katsayılarının her birine modulo 2'yi uygulamaktır. İşte bazı örnekler:
+**S** kümesi ($\circ$) üzerindeki ilk işlem standart polinom toplama modulo 2 olarak tanımlanabilir. Tek yapmanız gereken polinomları normalde yaptığınız gibi toplamak ve ardından elde edilen polinomun katsayılarının her birine modulo 2'yi uygulamaktır. İşte bazı örnekler:
 
 
 
@@ -1230,7 +1219,7 @@ S** kümesi ($\circ$) üzerindeki ilk işlem standart polinom toplama modulo 2 o
 Alan oluşturmak için gerekli olan **S** ($\diamond$) kümesi üzerindeki ikinci işlem daha karmaşıktır. Bu bir tür çarpma işlemidir, ancak aritmetiğin standart çarpma işlemi değildir. Bunun yerine, her bir elemanı bir vektör olarak görmeli ve işlemi bu iki vektörün indirgenemez bir polinom modülünde çarpımı olarak anlamalısınız.
 
 
-İlk olarak indirgenemez polinom fikrine dönelim. İndirgenemez bir polinom** çarpanlarına ayrılamayan bir polinomdur (tıpkı bir asal sayının 1 ve asal sayının kendisi dışındaki bileşenlerine ayrılamaması gibi). Amaçlarımız doğrultusunda, tüm tam sayılar kümesine göre indirgenemeyen polinomlarla ilgileniyoruz. (Bazı polinomları tamsayılarla çarpanlarına ayıramasanız bile, örneğin reel veya karmaşık sayılarla çarpanlarına ayırabileceğinizi unutmayın)
+İlk olarak indirgenemez polinom fikrine dönelim. **İndirgenemez bir polinom** çarpanlarına ayrılamayan bir polinomdur (tıpkı bir asal sayının 1 ve asal sayının kendisi dışındaki bileşenlerine ayrılamaması gibi). Amaçlarımız doğrultusunda, tüm tam sayılar kümesine göre indirgenemeyen polinomlarla ilgileniyoruz. (Bazı polinomları tamsayılarla çarpanlarına ayıramasanız bile, örneğin reel veya karmaşık sayılarla çarpanlarına ayırabileceğinizi unutmayın)
 
 
 Örneğin, $x^2 - 3x + 2$ polinomunu düşünün. Bu, $(x - 1)(x - 2)$ olarak yeniden yazılabilir. Dolayısıyla, bu indirgenemez değildir. Şimdi $x^2 + 1$ polinomunu ele alalım. Sadece tamsayıları kullanarak bu ifadeyi daha fazla çarpanlarına ayırmanın bir yolu yoktur. Dolayısıyla, bu tamsayılara göre indirgenemez bir polinomdur.
@@ -1441,7 +1430,7 @@ Bob $M$ mesajını $T_0$ zamanında $K$ anahtarı ile şifreleyerek $C$ şifreli
 *Şekil 1: Uzayda gizlilik*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1449,7 +1438,7 @@ Bob $M$ mesajını $T_0$ zamanında $K$ anahtarı ile şifreleyerek $C$ şifreli
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1598,7 +1587,7 @@ Tipik bir XOR akış şifresi *Şekil 3*'te gösterilmiştir. İlk olarak $K$ ö
 *Şekil 3: Bir XOR akış şifresi*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 Bir şifreleme şemasının tam bir spesifikasyondan ziyade tipik olarak aynı çekirdek algoritma ile şifreleme için bir şablon olduğunu hatırlatmak isteriz. Buna bağlı olarak, bir akış şifresi tipik olarak farklı uzunluklarda anahtarlar kullanabileceğiniz bir şifreleme şablonudur. Anahtar uzunluğu, şemanın bazı küçük ayrıntılarını etkileyebilse de, temel biçimini etkilemeyecektir.
@@ -1716,7 +1705,7 @@ Bir blok şifrenin nasıl çalıştığına dair bir tasvir aşağıdaki *Şekil
 *Şekil 4: Bir blok şifre*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
 Bir blok şifre tek başına bir şifreleme şeması değildir. Ancak bir blok şifre, farklı şifreleme şemaları üretmek için çeşitli **çalışma modları** ile kullanılabilir. Bir çalışma modu basitçe blok şifrenin dışına bazı ek işlemler ekler.
@@ -1728,7 +1717,7 @@ Bunun nasıl çalıştığını göstermek için 128 bitlik bir giriş dizesi ve
 *Şekil 5: ECB moduna sahip bir blok şifre*
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 Blok şifreleme ile elektronik kod kitabı şifreleme işlemi aşağıdaki gibidir. Düz metin mesajınızı 128 bitlik bloklara bölüp bölemeyeceğinize bakın. Eğer değilse, mesaja **dolgu** ekleyin, böylece sonuç 128 bitlik blok boyutuna eşit olarak bölünebilir. Bu, şifreleme işlemi için kullanılan verilerinizdir.
@@ -1746,13 +1735,13 @@ Nispeten basit olmasına rağmen, elektronik kod kitabı moduna sahip bir blok �
 Bunun yerine, bir blok şifreden oluşturulan herhangi bir şifreleme şeması **olasılıksal** olmalıdır: yani, herhangi bir $M$ mesajının veya $M$'nin belirli bir parçasının şifrelenmesi genellikle her seferinde farklı bir sonuç vermelidir. [5]
 
 
-Şifreleme blok zincirleme modu** (**CBC modu**) muhtemelen bir blok şifreleme ile kullanılan en yaygın moddur. Kombinasyon, doğru yapılırsa, olasılıksal bir şifreleme şeması üretir. Bu çalışma modunun bir tasvirini aşağıdaki *Şekil 6*'da görebilirsiniz.
+Şifreleme blok zincirleme modu (**CBC modu**) muhtemelen bir blok şifreleme ile kullanılan en yaygın moddur. Kombinasyon, doğru yapılırsa, olasılıksal bir şifreleme şeması üretir. Bu çalışma modunun bir tasvirini aşağıdaki *Şekil 6*'da görebilirsiniz.
 
 
 *Şekil 6: CBC moduna sahip bir blok şifre*
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 Blok boyutunun yine 128 bit olduğunu varsayalım. Başlangıç olarak, orijinal düz metin mesajınızın gerekli dolguyu aldığından emin olmanız gerekir.
@@ -1776,7 +1765,7 @@ Son olarak, dikkatimizi **çıkış geri besleme moduna** (**OFB modu**) çevire
 *Şekil 7: OFB moduna sahip bir blok şifre*
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 OFB modu ile ayrıca bir başlatma vektörü seçersiniz. Ancak burada, ilk blok için, başlatma vektörü doğrudan anahtarınızla birlikte blok şifrelemeye eklenir. Ortaya çıkan 128 bit, daha sonra bir anahtar dizisi olarak ele alınır. Bu anahtar dizisi, bloğun şifreli metnini üretmek için düz metin ile XORlanır. Sonraki bloklar için, bir önceki bloğun anahtar dizisini blok şifreye girdi olarak kullanır ve adımları tekrarlarsınız.
@@ -1847,7 +1836,7 @@ Bu tartışmadan sonra artık *Şekil 8*'i anlamış olmalısınız. Simetrik ş
 *Şekil 8: Simetrik şifreleme şemalarına genel bakış*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1856,7 +1845,7 @@ Bu tartışmadan sonra artık *Şekil 8*'i anlamış olmalısınız. Simetrik ş
 <chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
 
 
-Şifreleme gizlilik ile ilgilidir. Ancak kriptografi aynı zamanda mesaj bütünlüğü, özgünlük ve inkar etmeme gibi daha geniş konularla da ilgilenir. Mesaj kimlik doğrulama kodları** (MAC'ler), iletişimde özgünlüğü ve bütünlüğü destekleyen simetrik anahtar şifreleme şemalarıdır.
+Şifreleme gizlilik ile ilgilidir. Ancak kriptografi aynı zamanda mesaj bütünlüğü, özgünlük ve inkar etmeme gibi daha geniş konularla da ilgilenir. **Mesaj kimlik doğrulama kodları** (MAC'ler), iletişimde özgünlüğü ve bütünlüğü destekleyen simetrik anahtar şifreleme şemalarıdır.
 
 
 İletişimde gizlilik dışında herhangi bir şeye neden ihtiyaç duyulur? Bob'nin Alice'e pratikte kırılamaz bir şifreleme kullanarak bir mesaj gönderdiğini varsayalım. Bu mesajı ele geçiren herhangi bir saldırgan mesajın içeriğine ilişkin önemli bir bilgi elde edemeyecektir. Ancak, saldırganın elinde hala en az iki saldırı vektörü daha vardır:
@@ -1882,10 +1871,10 @@ Süreç *Şekil 9*'da gösterilmiştir. Bir **MAC** (Mesaj Kimlik Doğrulama Kod
 *Şekil 9: Simetrik şifreleme şemalarına genel bakış*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
-Varoluşsal taklit edilemezlik** nedeniyle, bir saldırgan $M$ mesajını herhangi bir şekilde değiştiremez veya geçerli bir etikete sahip kendi mesajını oluşturamaz. Saldırgan, Bob ve Alice arasında aynı özel anahtarı kullanan birçok mesajın etiketlerini gözlemlese bile bu böyledir. Bir saldırgan en fazla Alice'in $M$ mesajını almasını engelleyebilir (kriptografinin Address'ün yapamayacağı bir sorun).
+**Varoluşsal taklit edilemezlik** nedeniyle, bir saldırgan $M$ mesajını herhangi bir şekilde değiştiremez veya geçerli bir etikete sahip kendi mesajını oluşturamaz. Saldırgan, Bob ve Alice arasında aynı özel anahtarı kullanan birçok mesajın etiketlerini gözlemlese bile bu böyledir. Bir saldırgan en fazla Alice'in $M$ mesajını almasını engelleyebilir (kriptografinin **Address'ün** yapamayacağı bir sorun).
 
 
 Bir MAC, bir mesajın gerçekten Bob tarafından oluşturulduğunu garanti eder. Bu özgünlük, otomatik olarak mesaj bütünlüğü anlamına gelir - yani, Bob bir mesaj yarattıysa, o zaman, ipso facto, bir saldırgan tarafından herhangi bir şekilde değiştirilmemiştir. Dolayısıyla, buradan itibaren, kimlik doğrulamaya yönelik herhangi bir kaygının otomatik olarak bütünlüğe yönelik bir kaygı anlamına geldiği anlaşılmalıdır.
@@ -1903,7 +1892,7 @@ Tartışmamda mesaj özgünlüğü ve bütünlüğü arasında bir ayrım yapmı
 Tipik olarak, iletişimde hem gizliliği hem de gerçekliği garanti etmek istersiniz ve bu nedenle şifreleme şemaları ve MAC şemaları genellikle birlikte kullanılır.
 
 
-Kimliği doğrulanmış bir şifreleme şeması**, şifrelemeyi MAC ile yüksek güvenlikli bir şekilde birleştiren bir şemadır. Özellikle, varoluşsal taklit edilemezlik standartlarının yanı sıra çok güçlü bir gizlilik kavramını, yani **seçilmiş şifreli metin saldırılarına** karşı dirençli bir gizlilik kavramını karşılaması gerekir. [7]
+Kimliği doğrulanmış bir **şifreleme şeması**, şifrelemeyi MAC ile yüksek güvenlikli bir şekilde birleştiren bir şemadır. Özellikle, varoluşsal taklit edilemezlik standartlarının yanı sıra çok güçlü bir gizlilik kavramını, yani **seçilmiş şifreli metin saldırılarına** karşı dirençli bir gizlilik kavramını karşılaması gerekir. [7]
 
 
 Bir şifreleme şemasının seçilmiş şifreli metin saldırılarına karşı dirençli olması için **malleability** standartlarını karşılaması gerekir: yani, bir saldırgan tarafından bir şifreli metinde yapılan herhangi bir değişiklik ya geçersiz bir şifreli metin ya da orijinaliyle hiçbir ilişkisi olmayan bir düz metne deşifre olan bir şifreli metin vermelidir. [8]
@@ -1930,7 +1919,7 @@ Alice şimdi ilk olarak $C$ şifreli metni ve $K_T$ anahtarı göz önüne alın
 *Şekil 10: Kimliği doğrulanmış bir şifreleme şeması*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 MAC'ler nasıl oluşturulur? MAC'ler birden fazla yöntemle oluşturulabilirken, bunları oluşturmanın yaygın ve etkili bir yolu **kriptografik Hash işlevleridir**.
@@ -1949,7 +1938,7 @@ Bir HMAC oluşturmak için kullanılabilecek bir Hash işlevleri paleti vardır.
 *Şekil 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **Notlar:**
@@ -2006,7 +1995,7 @@ Güvenli iletişim oturumlarının nasıl çalıştığını göstermek için yi
 *Şekil 12: Güvenli bir iletişim oturumu*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2072,14 +2061,14 @@ Diyelim ki **k** anahtarımızı $[14, 48, 9]$ olarak seçtik, böylece 3 bayt u
 
 
 
-- J** ve **i** değişkenlerini oluşturun
+- **J** ve **i** değişkenlerini oluşturun
 - J = 0$ değişkenini ayarlayın
 - 0'dan 7'ye kadar her $i$ için:
     - J = (j + S[i] + K[i]) \mod 8$ olarak ayarlayın
     - S[i]$ ve S[j]$'yi değiştirin
 
 
-S** dizisinin dönüşümü *Tablo 1* ile gösterilmiştir.
+**S** dizisinin dönüşümü *Tablo 1* ile gösterilmiştir.
 
 
 Başlangıç olarak **S**'nin başlangıç durumunu $[0, 1, 2, 3, 4, 5, 6, 7]$ olarak görebilirsiniz ve **j** için başlangıç değeri 0'dır. Bu, $[14, 48, 9, 14, 48, 9, 14, 48]$ anahtar dizisi kullanılarak dönüştürülecektir.
@@ -2088,7 +2077,7 @@ Başlangıç olarak **S**'nin başlangıç durumunu $[0, 1, 2, 3, 4, 5, 6, 7]$ o
 For döngüsü $i = 0$ ile başlar. Yukarıdaki sözde kodumuza göre, **j** 'nin yeni değeri 6 olur ($j = (j + S[0] + K[0]) \mod 8 = (0 + 0 + 14) \mod 8 = 6 \mod 8$). S[0]$ ve S[6]$ değiştirildiğinde, **S**'nin 1 turdan sonraki durumu $[6, 1, 2, 3, 4, 5, 0, 7]$ olur.
 
 
-Bir sonraki satırda, $i = 1$. Tekrar for döngüsüne girildiğinde, **j** 7 değerini alır ($j = (j + S[1] + K[1]) \mod 8 = (6 + 1 + 48) \mod 8 = 55 \mod 8 = 7 \mod 8$). S**'nin mevcut durumu olan $[6, 1, 2, 3, 4, 5, 0, 7]$ ile $S[1]$ ve $S[7]$'nin yer değiştirmesi, 2. turdan sonra $[6, 7, 2, 3, 4, 5, 0, 1]$ sonucunu verir.
+Bir sonraki satırda, $i = 1$. Tekrar for döngüsüne girildiğinde, **j** 7 değerini alır ($j = (j + S[1] + K[1]) \mod 8 = (6 + 1 + 48) \mod 8 = 55 \mod 8 = 7 \mod 8$). **S**'nin mevcut durumu olan $[6, 1, 2, 3, 4, 5, 0, 7]$ ile $S[1]$ ve $S[7]$'nin yer değiştirmesi, 2. turdan sonra $[6, 7, 2, 3, 4, 5, 0, 1]$ sonucunu verir.
 
 
 Bu işleme **S** dizisi için alttaki son satırı üretene kadar devam ediyoruz, $[6, 4, 1, 0, 3, 7, 5, 2]$.
@@ -2121,7 +2110,7 @@ Anahtar akışı aşağıdaki sözde kod tarafından üretilir:
 
 
 
-- J**, **i** ve **t** değişkenlerini oluşturun.
+- **J**, **i** ve **t** değişkenlerini oluşturun.
 - J = 0$ olarak ayarlayın.
 - Düz metnin her $i$'si için, $i = 1$'den başlayıp $i = 4$'e kadar, anahtar dizisinin her baytı aşağıdaki gibi üretilir:
     - $j = (j + S[i]) \mod 8$
@@ -2133,7 +2122,7 @@ Anahtar akışı aşağıdaki sözde kod tarafından üretilir:
 Hesaplamaları *Tablo 2*'den takip edebilirsiniz.
 
 
-S**'nin başlangıç durumu $S = [6, 4, 1, 0, 3, 7, 5, 2]$'dir. I = 1$ olarak ayarlandığında, **j** değeri 4 olur ($j = (j + S[i]) \mod 8 = (0 + 4) \mod 8 = 4$). Daha sonra $S[1]$ ve $S[4]$ değerlerini değiştirerek ikinci satırdaki **S** dönüşümünü elde ederiz, $[6, 3, 1, 0, 4, 7, 5, 2]$. Bu durumda **t** değeri 7'dir ($t = (S[i] + S[j]) \mod 8 = (3 + 4) \mod 8 = 7$). Son olarak, anahtar dizisi için bayt $S[7]$ veya 2'dir.
+**S**'nin başlangıç durumu $S = [6, 4, 1, 0, 3, 7, 5, 2]$'dir. $I = 1$ olarak ayarlandığında, **j** değeri 4 olur ($j = (j + S[i]) \mod 8 = (0 + 4) \mod 8 = 4$). Daha sonra $S[1]$ ve $S[4]$ değerlerini değiştirerek ikinci satırdaki **S** dönüşümünü elde ederiz, $[6, 3, 1, 0, 4, 7, 5, 2]$. Bu durumda **t** değeri 7'dir ($t = (S[i] + S[j]) \mod 8 = (3 + 4) \mod 8 = 7$). Son olarak, anahtar dizisi için bayt $S[7]$ veya 2'dir.
 
 
 Daha sonra aşağıdaki dört baytı elde edene kadar diğer baytları üretmeye devam ederiz: 2, 6, 3 ve 7. Bu baytların her biri daha sonra "SOUP" düz metninin her bir harfini şifrelemek için kullanılabilir.
@@ -2199,7 +2188,7 @@ Anahtara $K_0$ diyelim. Yukarıdaki parametrelerle yapı *Şekil 1*'deki gibi g�
 *Şekil 1: 128 bit anahtarlı AES-ECB*
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 Her 128 bitlik metin bloğu Rijndael şifreleme şemasında on turdan geçer. Bu, her tur için ayrı bir tur anahtarı gerektirir ($K_1$ ila $K_{10}$). Bunlar her tur için orijinal 128-bit $K_0$ anahtarından bir **anahtar genişletme algoritması** kullanılarak üretilir. Dolayısıyla, şifrelenecek her metin bloğu için orijinal $K_0$ anahtarının yanı sıra on ayrı tur anahtarı kullanacağız. Şifreleme gerektiren her 128 bitlik düz metin bloğu için aynı 11 anahtarın kullanıldığını unutmayın.
@@ -2219,7 +2208,7 @@ Anahtar genişletme algoritması uzun ve karmaşıktır. Üzerinde çalışmanı
 
 ---
 
-*n = {1,...,9} için *Round n:**
+**n = {1,...,9} için Round n:**
 
 
 - XOR $S_{n-1}$ ve $K_n$
@@ -2293,7 +2282,7 @@ Başlangıç olarak, 00 ile FF arasındaki her olası bayt elemanını 8 bitlik 
 Daha sonra, alandaki her olası öğe için **Nyberg S-Box** adı verilen bir kutu oluştururuz. Bu kutuda, her bayt **çarpımsal tersi** ile eşleştirilir (yani, çarpımları 1'e eşit olacak şekilde). Daha sonra bu değerleri Nyberg S-kutusundan Rijndael'in S-kutusuna **affine dönüşümü** kullanarak eşleriz.
 
 
-S** dizisi üzerindeki üçüncü işlem **shift rows** işlemidir. Bu işlem **S**'nin durumunu alır ve on altı baytın tümünü bir matriste listeler. Matrisin doldurulması sol üstten başlar ve yukarıdan aşağıya doğru ilerleyerek ve ardından her sütun doldurulduğunda bir sütunu sağa ve üste kaydırarak yoluna devam eder.
+**S** dizisi üzerindeki üçüncü işlem **shift rows** işlemidir. Bu işlem **S**'nin durumunu alır ve on altı baytın tümünü bir matriste listeler. Matrisin doldurulması sol üstten başlar ve yukarıdan aşağıya doğru ilerleyerek ve ardından her sütun doldurulduğunda bir sütunu sağa ve üste kaydırarak yoluna devam eder.
 
 
 S** matrisi oluşturulduktan sonra, dört satır kaydırılır. İlk satır aynı kalır. İkinci satır bir sola kaydırılır. Üçüncüsü iki sola kaydırılır. Dördüncü sıra üçü sola kaydırır. İşlemin bir örneği *Şekil 4*'da verilmiştir. S**'nin orijinal durumu üstte ve satır kaydırma işleminden sonra ortaya çıkan durum altta gösterilmiştir.
@@ -2314,7 +2303,7 @@ S** matrisi oluşturulduktan sonra, dört satır kaydırılır. İlk satır ayn�
 | 21   | D4   | 72   | 04   |
 
 
-Dördüncü adımda, **Galois alanları** tekrar ortaya çıkar. Başlamak için, **S** matrisinin her bir sütunu *Şekil 5*'da görülen 4 x 4 matrisinin sütunuyla çarpılır. Ancak bu normal matris çarpımı yerine, $x^8 + x^4 + x^3 + x + 1$ gibi indirgenemez bir polinomun** modulo vektör çarpımıdır. Elde edilen vektör katsayıları bir baytın tek tek bitlerini temsil eder.
+Dördüncü adımda, **Galois alanları** tekrar ortaya çıkar. Başlamak için, **S** matrisinin her bir sütunu *Şekil 5*'da görülen 4 x 4 matrisinin sütunuyla çarpılır. Ancak bu normal matris çarpımı yerine, $x^8 + x^4 + x^3 + x + 1$ gibi indirgenemez bir polinomun modulo vektör çarpımıdır. Elde edilen vektör katsayıları bir baytın tek tek bitlerini temsil eder.
 
 
 *Şekil 5: Karışım sütunları matrisi*
@@ -2326,7 +2315,7 @@ Dördüncü adımda, **Galois alanları** tekrar ortaya çıkar. Başlamak için
 | 01   | 01   | 02   | 03   |
 | 03   | 01   | 01   | 02   |
 
-S** matrisinin ilk sütununun yukarıdaki 4 x 4 matris ile çarpımı *Şekil 6*'daki sonucu verir.
+**S** matrisinin ilk sütununun yukarıdaki 4 x 4 matris ile çarpımı *Şekil 6*'daki sonucu verir.
 
 
 *Şekil 6: İlk sütunun çarpımı:*
@@ -2523,7 +2512,7 @@ Asimetrik kriptografide (ve Diffie Helmann anahtar Exchange) kullanılan trapdoo
 **Asal çarpanlara ayırma**, adından da anlaşılacağı üzere, bir tamsayının asal çarpanlarına ayrılmasını gerektirir. RSA problemi, asal çarpanlara ayırma ile ilgili en bilinen kriptosistem örneğidir.
 
 
-Ayrık logaritma problemi** döngüsel gruplarda ortaya çıkan bir problemdir. Belirli bir devirli grupta bir üreteç verildiğinde, üreteçten grupta başka bir eleman üretmek için gereken benzersiz üssün hesaplanmasını gerektirir.
+**Ayrık logaritma problemi** döngüsel gruplarda ortaya çıkan bir problemdir. Belirli bir devirli grupta bir üreteç verildiğinde, üreteçten grupta başka bir eleman üretmek için gereken benzersiz üssün hesaplanmasını gerektirir.
 
 
 Ayrık logaritma tabanlı şemalar iki ana tür döngüsel gruba dayanır: tam sayıların çarpımsal grupları ve eliptik eğriler üzerindeki noktaları içeren gruplar. "Kriptografide Yeni Yönelimler "de sunulan orijinal Diffie Helmann anahtarı Exchange, tam sayıların döngüsel çarpımsal grubuyla çalışır. Bitcoin'un dijital imza algoritması ve yakın zamanda tanıtılan Schnorr imza şemasının (2021) her ikisi de belirli bir eliptik eğri döngüsel grubu için ayrık logaritma problemine dayanmaktadır.
@@ -2574,7 +2563,7 @@ Daha sonraki bir noktada, Bob, Alice'ya bir $M$ mesajı yazmak ister. Hassas bil
 *Şekil 1: Asimetrik şifreleme*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2596,7 +2585,7 @@ Bob asma kilidi kilitleyebilse de, ne kendisi ne de kutuyu ele geçiren başka h
 Asimetrik şifreleme şeması kabaca bu sürecin dijital bir versiyonudur. Asma kilit açık anahtara benzer ve asma kilit anahtarı da özel anahtara benzer. Ancak asma kilit dijital olduğu için Alice'ün bunu kendisine gizli mesajlar göndermek isteyebilecek herkese dağıtması çok daha kolay ve masrafsızdır.
 
 
-Asimetrik ortamda kimlik doğrulama için **dijital imzalar** kullanırız. Dolayısıyla bunlar simetrik ortamdaki mesaj kimlik doğrulama kodlarıyla aynı işleve sahiptir. Dijital imzalara genel bir bakış *Şekil 2'de verilmiştir.
+Asimetrik ortamda kimlik doğrulama için **dijital imzalar** kullanırız. Dolayısıyla bunlar simetrik ortamdaki mesaj kimlik doğrulama kodlarıyla aynı işleve sahiptir. Dijital imzalara genel bir bakış *Şekil 2'de* verilmiştir.
 
 
 Bob ilk olarak açık anahtar ($K_P$) ve özel anahtardan ($K_S$) oluşan bir anahtar çifti oluşturur ve açık anahtarını dağıtır. Alice'e kimliği doğrulanmış bir mesaj göndermek istediğinde, önce $M$ mesajını ve özel anahtarını alarak bir **dijital imza** $D$ oluşturur. Bob daha sonra Alice'e mesajını dijital imza ile birlikte gönderir.
@@ -2611,7 +2600,7 @@ Dijital imza, adından da anlaşılacağı üzere, mektuplar, sözleşmeler vb. 
 *Şekil 2: Asimetrik kimlik doğrulama*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 
@@ -2730,7 +2719,7 @@ Bir Hash fonksiyonu $H$, $x$ ve $y$ olmak üzere $x \neq y$, ancak $H(x) = H(y)$
 
 2.	Ardından, içe aktardığınız açık anahtarları doğrulamanız gerekir. Atmanız gereken en az bir adım, bulduğunuz açık anahtarların diğer çeşitli yerlerde yayınlananlarla aynı olduğunu doğrulamaktır. Örneğin, açık anahtarlarını içe aktardığınız kişilerin kişisel web sayfalarına, Twitter sayfalarına veya Github sayfalarına başvurabilirsiniz. Genellikle açık anahtarların bu karşılaştırması, parmak izi olarak bilinen açık anahtarın kısa bir Hash'i karşılaştırılarak yapılır.
 
-3.	Ardından, Bitcoin core için çalıştırılabilir dosyayı [web sitelerinden] (www.bitcoincore.org) indirmeniz gerekir. Linux, Windows ve MAC işletim sistemleri için paketler mevcut olacaktır.
+3.	Ardından, Bitcoin core için çalıştırılabilir dosyayı [web sitelerinden](www.bitcoincore.org) indirmeniz gerekir. Linux, Windows ve MAC işletim sistemleri için paketler mevcut olacaktır.
 
 4.	Ardından, iki sürüm dosyasını bulmanız gerekir. İlki, indirdiğiniz yürütülebilir dosya için resmi SHA-256 Hash ile birlikte yayınlanan diğer tüm paketlerin karmalarını içerir. Başka bir sürüm dosyası, paket karmaları ile birlikte sürüm dosyası üzerinde çeşitli katkıda bulunanların imzalarını içerecektir. Bu sürüm dosyalarının her ikisi de Bitcoin core web sitesinde bulunmalıdır.
 
@@ -2938,7 +2927,7 @@ Ne yazık ki çarpanlara ayırma problemi asimetrik kriptografik şemalar için 
 RSA problemini anlamak için sayılar teorisinden bir dizi teorem ve önermeyi anlamamız gerekecektir. Bunlar bu bölümde üç alt bölümde sunulmuştur: (1) N mertebesi, (2) N modülünde ters çevrilebilirlik ve (3) Euler teoremi.
 
 
-Üç alt bölümdeki malzemenin bir kısmı *Bölüm 3'te zaten tanıtılmıştır. Ancak burada kolaylık sağlamak için o materyali yeniden ifade edeceğim.
+Üç alt bölümdeki malzemenin bir kısmı *Bölüm 3'te* zaten tanıtılmıştır. Ancak burada kolaylık sağlamak için o materyali yeniden ifade edeceğim.
 
 
 
@@ -2981,7 +2970,7 @@ $$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \c
 $$\phi(N) = 2^{1 - 1} \cdot (2 - 1) + 3^{3 - 1} \cdot (3 - 1) + 5^{1 - 1} \cdot (5 - 1) = 1 \cdot 1 + 9 \cdot 2 + 1 \cdot 4 = 1 + 18 + 4 = 23$$
 
 
-Şimdi $N$'nin $p$ ve $q$ olmak üzere iki asalın çarpımı olduğunu varsayalım. *o zaman yukarıdaki *Teorem 2**, $N$'nin sırasının aşağıdaki gibi olduğunu belirtir:
+Şimdi $N$'nin $p$ ve $q$ olmak üzere iki asalın çarpımı olduğunu varsayalım. O zaman yukarıdaki **Teorem 2**, $N$'nin sırasının aşağıdaki gibi olduğunu belirtir:
 
 
 $$p^{1 - 1} \cdot (p - 1) \cdot q^{1 - 1} \cdot (q - 1) = (p - 1) \cdot (q - 1)$$
@@ -3028,7 +3017,7 @@ Eğer $a \cdot b \mod N = 1 \mod N$ olacak şekilde en az bir $b$ tamsayısı va
 **Önerme 3**. Eğer $a$ tamsayısı $N$ modülünde ters çevrilebilir ise, $a$'nın tam bir pozitif tersi $N$'dan küçük olmalıdır. (Yani, $a$'nın bu tek tersi $\{1, \dots, N - 1\}$ kümesinden gelmelidir).
 
 
-Önerme 3**'ten $a$'nın tekil tersini $a^{-1}$ olarak gösterelim. A = 5$ ve $N = 11$ olduğu durum için, 5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$ olduğuna göre, $a^{-1} = 9$ olduğunu görebilirsiniz.
+Önerme 3'ten $a$'nın tekil tersini $a^{-1}$ olarak gösterelim. $A = 5$ ve $N = 11$ olduğu durum için, $5 \cdot 9 \mod 11 = 45 \mod 11 = 1 \mod 11$ olduğuna göre, $a^{-1} = 9$ olduğunu görebilirsiniz.
 
 
 Örneğimizdeki $a^{-1}$ için 9 değerini, $a$'nın diğer herhangi bir tersini modulo 11'e indirgeyerek de elde edebileceğinize dikkat edin. Örneğin, $20 \mod 11 = 31 \mod 11 = 9 \mod 11$. Dolayısıyla, bir $a > N$ tamsayısı $N$ modülünde ters çevrilebilir olduğunda, $a \mod N$ de $N$ modülünde ters çevrilebilir olmalıdır.
@@ -3102,7 +3091,7 @@ Dolayısıyla, Euler teoremi ve **Önermeler 5** kombinasyonu, bir dizi ifadeyi 
 Tıpkı $N$'nin $C_N$ kümesinin Elements'ini içeren bir $\phi(N)$ mertebesine sahip olması gibi, $\phi(N)$ tamsayısının da bir mertebeye ve bir eş asal sayılar kümesine sahip olması gerektiğini biliyoruz. Şimdi $\phi(N) = R$ olsun. O zaman $\phi(R)$ için de bir değer ve $C_R$ eş asallar kümesi olduğunu biliyoruz.
 
 
-Şimdi $C_R$ kümesinden bir $e$ tamsayısı seçtiğimizi varsayalım. Önerme 3**'ten biliyoruz ki bu $e$ tamsayısının $R$'den küçük sadece bir tek pozitif tersi vardır. Yani, $e$ 'nin $C_R$ kümesinden tek bir tersi vardır. Bu tersi $d$ olarak adlandıralım. Bir tersin tanımı göz önüne alındığında, bu $e \cdot d = 1 \mod R$ anlamına gelir.
+Şimdi $C_R$ kümesinden bir $e$ tamsayısı seçtiğimizi varsayalım. Önerme 3'ten biliyoruz ki bu $e$ tamsayısının $R$'den küçük sadece bir tek pozitif tersi vardır. Yani, $e$'nin $C_R$ kümesinden tek bir tersi vardır. Bu tersi $d$ olarak adlandıralım. Bir tersin tanımı göz önüne alındığında, bu $e \cdot d = 1 \mod R$ anlamına gelir.
 
 
 Bu sonucu orijinal $N$ tamsayımız hakkında bir açıklama yapmak için kullanabiliriz. Bu, **Önermeler 7**'de özetlenmiştir.

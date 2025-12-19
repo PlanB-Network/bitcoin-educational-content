@@ -1,14 +1,12 @@
-question: What is the role of money as a communication tool?
-answer: It allows value communication across space and time and without the need to trust a counterparty.
+question: What is the main advantage of fiat currencies?
+answer: They are easily divisible.
 wrong_answers:
-  - It allows value communication across space only and without the need to trust a counterparty.
-  - It allows value communication across time only and without the need to trust trust a counterparty.
-  - It allows value communication across space and time and with the need to trust a counterparty.
+  - They are controlled by a central party.
+  - They are not easily transportable.
+  - They are effective to hold value across time.
 explanation: |
-  Money as a communication tool allows communication across
-  space and time, as we transform our time and energy into an
-  asset that can be reused in the future without the risk of
-  devaluation. It also allows communication in a universal
-  common language, enabling two strangers to exchange, trade,
-  and agree on the value of things.
+  Fiat currencies, such as the dollar and the euro, are very
+  liquid and easily transportable because they are now mostly
+  digital. However, their value is constantly eroded by
+  monetary inflation.
 reviewed: true

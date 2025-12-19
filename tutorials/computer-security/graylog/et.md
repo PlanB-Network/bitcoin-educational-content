@@ -43,7 +43,7 @@ Graylog on analüüsi- ja jälgimisvahend, mis lihtsustab kahtlase käitumise ja
 
 
 
-**Märkus: tasuta versioon **Graylog Open** ei ole SIEM nagu Wazuh, eriti kuna sellel puuduvad tõelised sissetungi tuvastamise funktsioonid.
+**Märkus: tasuta versioon Graylog Open ei ole SIEM nagu Wazuh, eriti kuna sellel puuduvad tõelised sissetungi tuvastamise funktsioonid.**
 
 
 
@@ -57,9 +57,9 @@ Graylog on analüüsi- ja jälgimisvahend, mis lihtsustab kahtlase käitumise ja
 
 
 
-- MongoDB 7**, praegune soovituslik versioon Graylogi jaoks (minimaalselt 5.0.7, maksimaalselt 7.x)
-- OpenSearch**, Amazoni loodud avatud lähtekoodiga Fork Elasticsearchist (minimaalselt 1.1.x, maksimaalselt 2.15.x)
-- OpenJDK 17**
+- MongoDB **7**, praegune soovituslik versioon Graylogi jaoks (minimaalselt 5.0.7, maksimaalselt 7.x)
+- **OpenSearch**, Amazoni loodud avatud lähtekoodiga Fork Elasticsearchist (minimaalselt 1.1.x, maksimaalselt 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Märkus: **OpenSearchi paigaldamine on vabatahtlik**, kui kasutate selle asemel **Graylogi andmesõlme**.
+**Märkus:** OpenSearchi paigaldamine on vabatahtlik, kui kasutate selle asemel **Graylogi andmesõlme**.
 
 
 
@@ -279,14 +279,14 @@ See OpenSearchi konfiguratsioon on mõeldud ühe sõlme seadistamiseks. Siin on 
 
 
 
-- cluster.name: graylog**: see parameeter annab OpenSearchi klastrile nime "**graylog**".
-- node.name: ${HOSTNAME}**: sõlme nimi määratakse dünaamiliselt, et see vastaks kohaliku Linuxi masina nimele. Isegi kui meil on ainult üks sõlmpunkt, on oluline, et see saaks õige nime.
-- path.data: /var/lib/opensearch**: see tee määrab, kus OpenSearch salvestab oma andmeid kohalikul masinal, antud juhul "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: see tee määrab, kuhu OpenSearchi logifailid salvestatakse, siin "**/var/log/opensearch**".
-- discovery.type: single-node**: see parameeter määrab, et OpenSearch töötaks ühe sõlmega, seega valitakse valik "**single-node**".
-- network.host: 127.0.0.1**: see konfiguratsioon tagab, et OpenSearch kuulab ainult oma Interface kohalikku silmust, mis on piisav, kuna see on samas serveris kui Graylog.
-- action.auto_create_index: false**: automaatse indeksi loomise keelamisega ei loo OpenSearch automaatselt indeksit, kui dokument saadetakse ilma olemasoleva indeksita.
-- plugins.security.disabled: true**: see valik lülitab OpenSearchi turvaplugina välja, mis tähendab, et autentimist, juurdepääsu haldamist ja kommunikatsiooni krüpteerimist ei toimu. See seade säästab aega Graylogi seadistamisel, kuid seda tuleks vältida tootmises (vt [see lehekülg](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: see parameeter annab OpenSearchi klastrile nime "**graylog**".
+- node.name: ${HOSTNAME}: sõlme nimi määratakse dünaamiliselt, et see vastaks kohaliku Linuxi masina nimele. Isegi kui meil on ainult üks sõlmpunkt, on oluline, et see saaks õige nime.
+- path.data: /var/lib/opensearch: see tee määrab, kus OpenSearch salvestab oma andmeid kohalikul masinal, antud juhul "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: see tee määrab, kuhu OpenSearchi logifailid salvestatakse, siin "**/var/log/opensearch**".
+- discovery.type: single-node: see parameeter määrab, et OpenSearch töötaks ühe sõlmega, seega valitakse valik "**single-node**".
+- network.host: 127.0.0.1: see konfiguratsioon tagab, et OpenSearch kuulab ainult oma Interface kohalikku silmust, mis on piisav, kuna see on samas serveris kui Graylog.
+- **action.auto_create_index: false**: automaatse indeksi loomise keelamisega ei loo OpenSearch automaatselt indeksit, kui dokument saadetakse ilma olemasoleva indeksita.
+- **plugins.security.disabled: true**: see valik lülitab OpenSearchi turvaplugina välja, mis tähendab, et autentimist, juurdepääsu haldamist ja kommunikatsiooni krüpteerimist ei toimu. See seade säästab aega Graylogi seadistamisel, kuid seda tuleks vältida tootmises (vt [see lehekülg](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -350,7 +350,7 @@ Sulgege see fail pärast salvestamist.
 
 
 
-Lisaks peame kontrollima Linuxi tuuma parameetri "**max_map_count**" konfiguratsiooni. See määratleb protsessi kohta kaardistatud mälupiirkondade piiri, et rahuldada meie rakenduse vajadusi. **OpenSearch**, nagu ka Elasticsearch**, soovitab selle väärtuse seadmiseks "262144", et vältida mäluhaldusvigu.
+Lisaks peame kontrollima Linuxi tuuma parameetri **max_map_count** konfiguratsiooni. See määratleb protsessi kohta kaardistatud mälupiirkondade piiri, et rahuldada meie rakenduse vajadusi. **OpenSearch**, nagu ka **Elasticsearch**, soovitab selle väärtuse seadmiseks "262144", et vältida mäluhaldusvigu.
 
 
 
@@ -431,8 +431,8 @@ Alustame nende kahe valiku konfigureerimisest:
 
 
 
-- password_secret**: seda parameetrit kasutatakse võtme määratlemiseks, mida Graylog kasutab kasutajate paroolide salvestamise turvamiseks (soolamisvõtme vaimus). See võti peab olema **unikaalne** ja **juhuslik**.
-- root_password_sha2**: see parameeter vastab vaikimisi administraatori paroolile Graylogis. See on salvestatud Hash SHA-256 kujul.
+- **password_secret**: seda parameetrit kasutatakse võtme määratlemiseks, mida Graylog kasutab kasutajate paroolide salvestamise turvamiseks (soolamisvõtme vaimus). See võti peab olema **unikaalne** ja **juhuslik**.
+- **root_password_sha2**: see parameeter vastab vaikimisi administraatori paroolile Graylogis. See on salvestatud Hash SHA-256 kujul.
 
 
 
@@ -566,7 +566,7 @@ Seejärel pidite uuesti proovima ühendust kasutaja "**admin**" ja ajutise paroo
 
 
 
-**See ei ole enam nii. Kõik, mida peate tegema, on sisse logida oma admin-kontoga ja käsureal konfigureeritud parooliga
+**See ei ole enam nii. Kõik, mida peate tegema, on sisse logida oma admin-kontoga ja käsureal konfigureeritud parooliga**
 
 
 
@@ -574,7 +574,7 @@ Seejärel pidite uuesti proovima ühendust kasutaja "**admin**" ja ajutise paroo
 
 
 
-**Tervitan teid Graylogi Interface-sse!
+**Tervitan teid Graylogi Interface-sse!**
 
 
 
@@ -661,7 +661,7 @@ Uus sisend on loodud ja on nüüd aktiivne. Graylog saab nüüd vastu võtta Sys
 ![Image](assets/fr/018.webp)
 
 
-**Märkus: ühte sisendit saab kasutada mitme Linuxi masina logide salvestamiseks.
+**Märkus:** ühte sisendit saab kasutada mitme Linuxi masina logide salvestamiseks.
 
 
 
@@ -701,7 +701,7 @@ Uue voo loomiseks klõpsake Graylogi peamenüüs "**Streams**". Seejärel klõps
 
 
 
-**Hoiatus: Sellele voole vastavad sõnumid lisatakse ka "**Eelduvoog**", kui te ei vali valikut "**Eemalda vasted 'Vaikimisi voost'**".
+**Hoiatus: Sellele voole vastavad sõnumid lisatakse ka "Eelduvoog", kui te ei vali valikut "Eemalda vasted 'Vaikimisi voost'".**
 
 
 

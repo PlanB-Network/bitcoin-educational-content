@@ -90,7 +90,7 @@ Bunu kağıda yazabilir veya daha fazla güvenlik için yangından, selden veya 
 Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla bilgi için, özellikle de yeni başlayan biriyseniz, bu diğer öğreticiyi izlemenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Interface'in üst kısmında görüntülenen "*Wallet'unuzu kaydedin...*" mesajına tıklayın.
 
@@ -263,9 +263,9 @@ Tebrikler, artık Phoenix'i nasıl yapılandıracağınızı ve kullanacağını
 İşleri bir adım öteye taşımak için, kendi Lightning düğümünüzü başlatmaya yönelik bir başka yenilikçi ve kullanımı kolay çözüm olan Alby Hub hakkındaki bu eğitime göz atın:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Lightning Network'nin teknik çalışması hakkında daha fazla bilgi edinmek için Fanis Michalakis'in Plan ₿ Network ile ilgili mükemmel ücretsiz eğitimini bulabilirsiniz:
+Lightning Network'nin teknik çalışması hakkında daha fazla bilgi edinmek için Fanis Michalakis'in Plan ₿ Academy ile ilgili mükemmel ücretsiz eğitimini bulabilirsiniz:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -50,11 +50,11 @@ Oggi Jami è disponibile su molti sistemi. È rinomato per le sue prestazioni, l
 
 
 
-- È open-source e totalmente gratuito**, quindi potete utilizzarlo senza alcun costo.
-- Completo di funzioni utili**: questo software consente di sfruttare numerose opzioni, grazie alla possibilità di aggiungere facilmente plugin dallo store. È anche possibile creare le proprie estensioni per ottenere funzioni più adatte alle proprie esigenze.
-- Facile da usare e Interface intuitivo**: nonostante le numerose funzioni che Jami ha da offrire, è comunque molto semplice da utilizzare.
-- Forte sicurezza**: Jami incorpora un algoritmo di crittografia avanzato che garantisce la sicurezza delle vostre comunicazioni nel rispetto della vostra privacy.
-- Altamente accessibile e veloce**: offre una comunicazione facile anche quando la larghezza di banda è limitata, per una maggiore facilità d'uso.
+- È open-source e totalmente **gratuito**, quindi potete utilizzarlo senza alcun costo.
+- **Completo di funzioni utili**: questo software consente di sfruttare numerose opzioni, grazie alla possibilità di aggiungere facilmente plugin dallo store. È anche possibile creare le proprie estensioni per ottenere funzioni più adatte alle proprie esigenze.
+- **Facile da usare e Interface intuitivo**: nonostante le numerose funzioni che Jami ha da offrire, è comunque molto semplice da utilizzare.
+- **Forte sicurezza**: Jami incorpora un algoritmo di crittografia avanzato che garantisce la sicurezza delle vostre comunicazioni nel rispetto della vostra privacy.
+- **Altamente accessibile e veloce**: offre una comunicazione facile anche quando la larghezza di banda è limitata, per una maggiore facilità d'uso.
 
 
 
@@ -82,7 +82,7 @@ L'applicazione è disponibile direttamente su App Store o Play Store. È suffici
 
 
 
-Per installare Jami sul vostro dispositivo, dovete prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download] (https://jami.net/download-jami-windows/).
+Per installare Jami sul vostro dispositivo, dovete prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download](https://jami.net/download-jami-windows/).
 
 
 
@@ -140,7 +140,7 @@ Questo comando installa gli strumenti necessari per gestire le chiavi GPG (gnupg
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -312,7 +312,7 @@ Una volta inserita la password, il dispositivo si connetterà automaticamente al
 
 
 
-Una delle caratteristiche interessanti di Jami è la capacità di integrare nuove opzioni tramite estensioni (plugin). I plugin sono moduli nativi (C/C++); l'SDK fornisce strumenti e script (in particolare in Python) per la loro creazione. Alcuni plugin sono disponibili direttamente [qui] (https://jami.net/extensions/).
+Una delle caratteristiche interessanti di Jami è la capacità di integrare nuove opzioni tramite estensioni (plugin). I plugin sono moduli nativi (C/C++); l'SDK fornisce strumenti e script (in particolare in Python) per la loro creazione. Alcuni plugin sono disponibili direttamente [qui](https://jami.net/extensions/).
 
 
 
@@ -338,9 +338,9 @@ Jami offre anche **funzioni avanzate** per gli utenti che desiderano approfondir
 
 
 
-- Crea un punto di incontro**: Questa funzione consente di creare un **punto di incontro** per le comunicazioni, utile per organizzare sessioni o scambi sicuri tra più utenti.
-- Collegarsi a un server Jami**: È possibile collegare Jami a un **server Jami**, che può migliorare le prestazioni o la disponibilità delle comunicazioni, soprattutto in ambienti professionali.
-- Creare un account SIP**: È possibile creare un account **SIP** (Session Initiation Protocol), che consente di integrare Jami con i sistemi telefonici esistenti o di effettuare chiamate telefoniche.
+- **Crea un punto di incontro**: Questa funzione consente di creare un **punto di incontro** per le comunicazioni, utile per organizzare sessioni o scambi sicuri tra più utenti.
+- Collegarsi a un **server Jami**: È possibile collegare Jami a un **server Jami**, che può migliorare le prestazioni o la disponibilità delle comunicazioni, soprattutto in ambienti professionali.
+- Creare un account **SIP**: È possibile creare un account **SIP** (Session Initiation Protocol), che consente di integrare Jami con i sistemi telefonici esistenti o di effettuare chiamate telefoniche.
 
 
 
@@ -360,4 +360,4 @@ Scoprite Tox, un protocollo decentralizzato che combina la crittografia end-to-e
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

@@ -1,0 +1,9 @@
+question: 모든 장비를 하나의 중앙 지점에 연결하는 토폴로지는 무엇인가요?
+answer: 스타
+wrong_answers:
+  - 링
+  - 버스
+  - 메시
+explanation: |
+  스타 토폴로지에서는 각 장치가 중앙 장치에 연결되어 있어 관리 및 유지보수가 용이합니다.
+reviewed: false

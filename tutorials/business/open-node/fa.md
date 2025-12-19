@@ -1,5 +1,5 @@
 ---
-name: گره باز
+name: Open Node
 
 description: راه‌اندازی Open Node برای کسب‌وکار آنلاین شما
 

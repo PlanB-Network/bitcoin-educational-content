@@ -1,0 +1,9 @@
+question: Ni irihe tandukaniro ry’ingenzi hagati y’‘ugutangaza’ n’‘ugutangaza’ mu bijanye no gutorera umuti ingorane z’umutekano wa Bitcoin?
+answer: Gutangaza ni ukumenyesha uwugurisha mu mwiherero, mu gihe gutangaza ni ukumenyesha abashobora gutera ku mugaragaro ubugoyagoye .
+wrong_answers:
+  - Gutangaza ni ivy’ingorane zikomeye, mu gihe gutangaza ni ivy’ingorane zidakomeye zigoye gukoreshwa .
+  - Gutangaza birimwo kumenyesha abahinguzi ba Bitcoin Core, mu gihe gutangaza birimwo kumenyesha altcoin n’ayandi mashirahamwe y’ugushira mu ngiro .
+  - Gutangaza bisaba gukora ubwo nyene no gushiramwo ibice, mu gihe gutangaza bishobora gukosora buhoro buhoro biciye mu nzira isanzwe y’iterambere .
+explanation: |
+  Gregory Maxwell yarashimikiye kuri iryo tandukaniro rihambaye mu kiganiro co ku rutonde rw’abarungika ubutumwa. Gutangaza vyerekeye igikorwa co kumenyesha mu mwiherero abacungera porogarama (uwugurisha) ivyerekeye ubugoyagoye kugira ngo bashobore gukora ku gukosora. Ariko rero, gutangaza bisigura gutuma amakuru yerekeye ubugoyagoye amenyekana ku mugaragaro, ivyo bikaba bimenyesha neza abashobora gutera ivyerekeye iyo nzira. Iryo tandukaniro ni ngirakamaro cane kuko naho gutangaza amakuru bifasha gukingira urutonde, gutangaza imbere y’igihe birashobora gutera ingorane mu gutuma abakora ivy’ububisha bashobora gukoresha nabi ubwo bugoyagoye imbere y’uko habaho uburinzi bubereye.
+reviewed: false

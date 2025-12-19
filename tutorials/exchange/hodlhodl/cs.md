@@ -12,9 +12,8 @@ Hodl Hodl je decentralizovaná burza Bitcoinu, která klade důraz na kontrolu u
 
 https://hodlhodl.com/pages/faq_help
 
-## průvodce psaním:
+## Začněte svou cestu na Hodl Hodl
 
-Zahájení vaší cesty s HodlHodl: Postupný průvodce
 
 ![obrázek](assets/5.webp)
 
@@ -45,43 +44,43 @@ Abychom mohli začít s obchodováním BTC, musíte nejprve poskytnout svou BTC 
 
 Průvodce od Bitcoiner Q&A https://bitcoiner.guide/hodlhodl/
 
-1. Navštivte hodlhodl.com a vytvořte si účet. Jediné údaje, které potřebujete poskytnout, jsou uživatelské jméno a emailová adresa. Poté se dostanete na domovskou stránku.
+- Navštivte hodlhodl.com a vytvořte si účet. Jediné údaje, které potřebujete poskytnout, jsou uživatelské jméno a emailová adresa. Poté se dostanete na domovskou stránku.
 
 ![obrázek](assets/11.webp)
 
-2. Klikněte na ‘Koupit BTC’ v záhlaví webové stránky.
+- Klikněte na ‘Koupit BTC’ v záhlaví webové stránky.
 
 ![obrázek](assets/12.webp)
 
-3. Vyberte požadovaný typ a způsob platby. Zde můžete také specifikovat konkrétní částku, pokud je to nutné.
+- Vyberte požadovaný typ a způsob platby. Zde můžete také specifikovat konkrétní částku, pokud je to nutné.
 
 ![obrázek](assets/13.webp)
 
-4. Vyberte požadovanou nabídku. Poté můžete zkontrolovat detaily obchodu a také si přečíst zprávy o aktivitách a hodnoceních protistrany.
+- Vyberte požadovanou nabídku. Poté můžete zkontrolovat detaily obchodu a také si přečíst zprávy o aktivitách a hodnoceních protistrany.
 
 ![obrázek](assets/14.webp)
 
-5. Jakmile budete spokojeni, můžete specifikovat, kolik chcete koupit, zadat adresu, kam chcete bitcoin poslat, a potvrdit způsob platby inzerovaný prodávajícím. Klikněte na ‘Přijmout nabídku a vytvořit smlouvu’.
+- Jakmile budete spokojeni, můžete specifikovat, kolik chcete koupit, zadat adresu, kam chcete bitcoin poslat, a potvrdit způsob platby inzerovaný prodávajícím. Klikněte na ‘Přijmout nabídku a vytvořit smlouvu’.
 
 ![obrázek](assets/15.webp)
 
-6. Nyní máte vytvořenou smlouvu a potřebujete kliknout na ‘Generovat Escrow’, kde budete vyzváni k vytvoření platebního hesla. Platební heslo je šifrovací klíč pro párový klíč uživatele v escrow. Používá se k vkladu nebo uvolnění Bitcoinu do nebo z escrow.
+- Nyní máte vytvořenou smlouvu a potřebujete kliknout na ‘Generovat Escrow’, kde budete vyzváni k vytvoření platebního hesla. Platební heslo je šifrovací klíč pro párový klíč uživatele v escrow. Používá se k vkladu nebo uvolnění Bitcoinu do nebo z escrow.
 
 ![obrázek](assets/16.webp)
 
-7. Nyní musíte počkat, až prodávající vloží své bitcoiny do escrow peněženky. Po zahájení smlouvy můžete s prodávajícím komunikovat pomocí chatovacího okna na pravé straně stránky.
+- Nyní musíte počkat, až prodávající vloží své bitcoiny do escrow peněženky. Po zahájení smlouvy můžete s prodávajícím komunikovat pomocí chatovacího okna na pravé straně stránky.
 
 ![obrázek](assets/17.webp)
 
-8. Jakmile prodávající vloží své prostředky do escrow, uvidíte tuto obrazovku, která vás informuje, abyste neposílali své peníze, dokud nebude dostatečný počet potvrzení v blockchainu (to se liší v závislosti na podmínkách obchodu). Pokrok transakce vkladu prodávajícího můžete sledovat kliknutím na modrý odkaz ‘ID transakce vkladu’.
+- Jakmile prodávající vloží své prostředky do escrow, uvidíte tuto obrazovku, která vás informuje, abyste neposílali své peníze, dokud nebude dostatečný počet potvrzení v blockchainu (to se liší v závislosti na podmínkách obchodu). Pokrok transakce vkladu prodávajícího můžete sledovat kliknutím na modrý odkaz ‘ID transakce vkladu’.
 
 ![obrázek](assets/18.webp)
 
-9. Jakmile bude potvrzeno, budete o tom informováni a poté můžete poslat prostředky prodávajícímu na údaje, které vám poskytne. Jakmile to uděláte, klikněte na ‘Odeslal jsem platbu’.
+- Jakmile bude potvrzeno, budete o tom informováni a poté můžete poslat prostředky prodávajícímu na údaje, které vám poskytne. Jakmile to uděláte, klikněte na ‘Odeslal jsem platbu’.
 
 ![obrázek](assets/19.webp)
 
-10. Poté budete muset počkat, až prodávající potvrdí, že obdržel prostředky, v tom okamžiku budou bitcoiny uvolněny na adresu, kterou jste určili na začátku smlouvy. Také budete mít možnost hodnotit svého protějška.
+- Poté budete muset počkat, až prodávající potvrdí, že obdržel prostředky, v tom okamžiku budou bitcoiny uvolněny na adresu, kterou jste určili na začátku smlouvy. Také budete mít možnost hodnotit svého protějška.
 
 ![obrázek](assets/20.webp)
 

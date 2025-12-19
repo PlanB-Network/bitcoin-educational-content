@@ -1,9 +1,8 @@
-question: Kakva je bila dostupnost Bitkoin na mreži od 2009.?
-answer: 99.988%.
+question: Šta je Bitkoin Blockchain?
+answer: Javni i nepromenljivi Ledger (registar) svih Bitkoin transakcija.
 wrong_answers:
-  - 100%.
-  - 90,009%.
-  - 80.17%.
-explanation: |
-  Online dostupnost Bitkoin mreže je 99.988% od 2009.godine
+  - Privatni i promenljivi registar (zapis) svih Bitkoin transakcija.
+  - Javni i promenljivi registar svih Bitkoin transakcija.
+  - Privatni i nepromenljivi Ledger svih Bitkoin transakcija.
+explanation: >-
 reviewed: true

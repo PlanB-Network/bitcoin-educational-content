@@ -1,0 +1,9 @@
+question: full node 分散在 Bitcoin 中指的是什麼？
+answer: 區塊的驗證由使用者在網路邊緣執行，而非由可信賴的機構執行
+wrong_answers:
+  - 交易處理分散於多個 mining 池，而非單一實體
+  - Bitcoin 通訊協定規則由分散的核心開發人員小組決定
+  - 私密金鑰會儲存在多部裝置中，而非單一部 wallet
+explanation: |
+  Full node 去中心化是指區塊（礦工產生的資料）的驗證是在網路邊緣由運行自己節點的個人使用者進行，而不是依靠少數可信賴的機構來驗證交易。這與處理交易排序與處理的 miner decentralization 截然不同。其他選項混淆了 full node 分散與 mining 分配、治理結構或安全實務，但都沒有抓住由網路參與者進行分散式區塊驗證的核心概念。
+reviewed: false

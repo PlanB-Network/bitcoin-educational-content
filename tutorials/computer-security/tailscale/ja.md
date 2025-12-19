@@ -1,5 +1,5 @@
 ---
-name: テールスケール
+name: Tailscale
 description: 上級テールスケール・チュートリアル
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Tailscaleは、デバイス間に暗号化されたメッシュネットワー�
 
 
 
-**主な用途
+**主な用途**
 
 
 
@@ -72,7 +72,7 @@ WireGuardに基づき、各デバイスは独自の暗号鍵を生成する。�
 
 
 
-**制御プレーン管理、NATトラバーサル、DERPリレーなど、Tailscaleの内部構造の詳細については、公式ブログの優れた記事[How Tailscale Works](https://tailscale.com/blog/how-tailscale-works)をお勧めします。この記事では、Tailscaleを強力なものにしている技術的コンセプトについて詳しく説明しています。
+**制御プレーン管理、NATトラバーサル、DERPリレーなど、Tailscaleの内部構造の詳細については、公式ブログの優れた記事**[How Tailscale Works](https://tailscale.com/blog/how-tailscale-works)**をお勧めします。この記事では、Tailscaleを強力なものにしている技術的コンセプトについて詳しく説明しています。**
 
 
 
@@ -139,14 +139,14 @@ Tailscaleを利用するには、まずIDプロバイダー経由でアカウン
 
 
 
-- WindowsおよびmacOSの場合：** Tailscale公式ウェブサイトからグラフィカル・アプリケーションをダウンロードし、インストールするだけです（Windowsの場合は.msiファイル、Macの場合は.dmgファイル）。インストールすると、グラフィカルなInterfaceが起動し、Tailscaleアカウントに（ブラウザ経由で）接続してマシンを認証できます。
+- WindowsおよびmacOSの場合：**Tailscale公式ウェブサイトからグラフィカル・アプリケーションをダウンロードし、インストールするだけです（Windowsの場合は.msiファイル、Macの場合は.dmgファイル）。インストールすると、グラフィカルなInterfaceが起動し、Tailscaleアカウントに（ブラウザ経由で）接続してマシンを認証できます。**
 
 
 
 ![Connexion d'un appareil macOS](assets/fr/08.webp)
 
 
-*MacBookをテールネットに接続
+**MacBookをテールネットに接続**
 
 
 
@@ -159,7 +159,7 @@ Tailscaleを利用するには、まずIDプロバイダー経由でアカウン
 
 
 
-- Linux (Debian、Ubuntuなど):** いくつかの選択肢があります。最も簡単な方法は、公式のインストールスクリプトを実行することです：例えば、Debian/Ubuntuでは ：
+- Linux (Debian、Ubuntuなど): いくつかの選択肢があります。最も簡単な方法は、公式のインストールスクリプトを実行することです：例えば、Debian/Ubuntuでは：
 
 
 
@@ -175,13 +175,13 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-- ARMベースのシステム（Raspberry Piなど）の場合：** 一般的にLinuxを使用しているので、上記と同じアプローチ（スクリプトまたはパッケージ）。なお、TailscaleはARM32/ARM64アーキテクチャを問題なくサポートしています。多くのユーザーは、Raspberry Pi OSにapt経由でTailscaleをインストールするか、軽量ディストリビューション（DietPiなど）にインストールして、Piにどこからでもアクセスできるようにしています。
+- ARMベースのシステム（Raspberry Piなど）の場合： 一般的にLinuxを使用しているので、上記と同じアプローチ（スクリプトまたはパッケージ）。なお、TailscaleはARM32/ARM64アーキテクチャを問題なくサポートしています。多くのユーザーは、Raspberry Pi OSにapt経由でTailscaleをインストールするか、軽量ディストリビューション（DietPiなど）にインストールして、Piにどこからでもアクセスできるようにしています。
 
 
 
 
 
-- iOSとAndroid:** Tailscaleは**公式**モバイルアプリケーションを提供しています。App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) または [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android) から*Tailscale*をインストールしてください。
+- iOSとAndroid: **Tailscaleは公式モバイルアプリケーションを提供しています。** [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) または [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android) から *Tailscale* をインストールしてください。
 
 
 
@@ -199,7 +199,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-アプリがインストールされると、初回起動時に選択したプロバイダー（Google、Apple ID、Microsoftなど、Tailscaleで使用しているものによって異なる）を経由した認証が求められます。他のプラットフォームと同じ手順で、通常はOAuthウェブページにリダイレクトされます。その後、モバイルアプリがVPNを作成します（iOSの場合はVPN設定アドオンを受け入れる必要があります）。アプリはバックグラウンドで実行され、どこからでもテールネットにアクセスできるようになります。 *モバイルの場合、一度にアクティブにできるVPNは**1つだけなので、同時に別のVPNを接続していないことを確認してください。Androidでは、特定の用途（例えば、特定のアプリに対してTailscaleをアクティブにするプロファイル）を隔離したい場合、別の作業プロファイルを設定することができます。
+アプリがインストールされると、初回起動時に選択したプロバイダー（Google、Apple ID、Microsoftなど、Tailscaleで使用しているものによって異なる）を経由した認証が求められます。他のプラットフォームと同じ手順で、通常はOAuthウェブページにリダイレクトされます。その後、モバイルアプリがVPNを作成します（iOSの場合はVPN設定アドオンを受け入れる必要があります）。アプリはバックグラウンドで実行され、どこからでもテールネットにアクセスできるようになります。**モバイルの場合、一度にアクティブにできるVPNは1つだけなので、同時に別のVPNを接続していないことを確認してください。**Androidでは、特定の用途（例えば、特定のアプリに対してTailscaleをアクティブにするプロファイル）を隔離したい場合、別の作業プロファイルを設定することができます。
 
 
 
@@ -261,13 +261,13 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-- Interface Web (Admin Console)**: [https://login.tailscale.com](https://login.tailscale.com)からアクセスできるこのWebコンソールは、Tailscaleネットワークの中央ダッシュボードです。すべてのデバイス（*マシン*）、オンライン/オフラインのステータス、Tailscale IPアドレスなどが一覧表示されます。ここでは、**デバイス**の管理（名前の変更、キーの失効、経路の承認、ノードの無効化）、**ユーザ**の管理（組織のコンテキスト）、およびセキュリティルール（ACL）の定義ができます。また、MagicDNS、タグ、認証キー（自動デバイス追加用のgenerate以前の認証キー）などのグローバルオプションの設定もここで行います。Interfaceウェブは概要を把握し、コーディネーションサーバー経由で全ノードに反映される変更を適用するのに非常に便利です。 *例:* **サブネットルート**や**出口ノード**をアクティブにするには、コンソールをワンクリックします。
+- **Interface Web (Admin Console)**: [https://login.tailscale.com](https://login.tailscale.com)からアクセスできるこのWebコンソールは、Tailscaleネットワークの中央ダッシュボードです。すべてのデバイス（*マシン*）、オンライン/オフラインのステータス、Tailscale IPアドレスなどが一覧表示されます。ここでは、**デバイス**の管理（名前の変更、キーの失効、経路の承認、ノードの無効化）、**ユーザ**の管理（組織のコンテキスト）、およびセキュリティルール（ACL）の定義ができます。また、MagicDNS、タグ、認証キー（自動デバイス追加用のgenerate以前の認証キー）などのグローバルオプションの設定もここで行います。Interfaceウェブは概要を把握し、コーディネーションサーバー経由で全ノードに反映される変更を適用するのに非
 
 
 
 
 
-- Interfaceコマンドライン (CLI):** CLIでは、Tailscaleがインストールされたすべてのデバイスで`tailscale`コマンドが利用できます。このCLIでは、接続（`tailscale up`）、ステータスの検査（`tailscale status`でどのピアが接続されているかを確認）、デバッグ（`tailscale ping <ip>`）など、あらゆることをローカルで行うことができます。いくつかの機能は**CLI**だけのものであったり、より高度なものであったりします：
+- **Interfaceコマンドライン (CLI):** CLIでは、Tailscaleがインストールされたすべてのデバイスで`tailscale`コマンドが利用できます。このCLIでは、接続（`tailscale up`）、ステータスの検査（`tailscale status`でどのピアが接続されているかを確認）、デバッグ（`tailscale ping <ip>`）など、あらゆることをローカルで行うことができます。いくつかの機能は**CLI**だけのものであったり、より高度なものであったりします：
 
 
 
@@ -293,7 +293,7 @@ Umbrel は、人気のあるセルフホスティングプラットフォーム�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 UmbrelとTailscaleの併用は、特に興味深いユースケースです。Umbrelは、簡単にデプロイできるTailscaleモジュールをネイティブに統合しているからです。ここでは、TailscaleがUmbrelとどのように統合し、何をもたらすのかを紹介します：
 
@@ -305,7 +305,7 @@ UmbrelとTailscaleの併用は、特に興味深いユースケースです。Um
 
 
 
-- UmbrelへのTailscaleのインストール：** UmbrelのApp Storeには、公式Tailscaleアプリケーションがあります。インストールはこれ以上ないほど簡単です：
+- UmbrelへのTailscaleのインストール：**UmbrelのApp Storeには、公式Tailscaleアプリケーションがあります。インストールはこれ以上ないほど簡単です**：
 
 
 
@@ -379,15 +379,15 @@ UmbrelがTailscaleに接続されると、**まるでローカルネットワー
 
 
 
-- InterfaceメインUmbrel**：ブラウザで`http://100.x.y.z`と入力するだけで、Umbrelのダッシュボードにアクセスできます。
-- Bitcoinノード**：Bitcoinノードを遅延なく管理し、同期と統計を表示します。
-- Lightningノード**：ThunderHub、RTL、その他のLightning管理インターフェイスを即座に使用可能
-- Mempool**：Torの遅延なしでBitcoinのトランザクションとMempoolを表示する
-- noStrudel**：Umbrel上でホストされているNostrサービスにアクセスする。
+- InterfaceメインUmbrel：ブラウザで`http://100.x.y.z`と入力するだけで、**Umbrel**のダッシュボードにアクセスできます。
+- **Bitcoinノード**：Bitcoinノードを遅延なく管理し、同期と統計を表示します。
+- Lightningノード：**ThunderHub、RTL、その他のLightning管理インターフェイスを即座に使用可能**
+- **Mempool**：Torの遅延なしでBitcoinのトランザクションとMempoolを表示する
+- **noStrudel**：Umbrel上でホストされているNostrサービスにアクセスする。
 
 
 
-**外部ウォレットをTailscale経由でBitcoinまたはLightningノードに接続します。
+**外部ウォレットをTailscale経由でBitcoinまたはLightningノードに接続します。**
 
 
 
@@ -419,12 +419,12 @@ Sparrow walletとBitcoinノードのコンフィギュレーションガイド�
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 
-- ゼウス（ライトニング）**：この Wallet モバイル Lightning は、Umbrel 上の Lightning ノードに接続できます。.onion'としてエンドポイントを設定する代わりに、UmbrelのTailscale IPとLightning APIポートを設定するだけです。接続は Tor に比べて瞬時に行われます。
+- ゼウス（ライトニング）：この Wallet モバイル Lightning は、Umbrel 上の Lightning ノードに接続できます。.onion としてエンドポイントを設定する代わりに、UmbrelのTailscale IPとLightning APIポートを設定するだけです。接続は Tor に比べて瞬時に行われます。
 
 
 
@@ -439,13 +439,13 @@ Lightning ノードで Zeus を設定するには、詳細なチュートリア�
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Lightning Networkの詳細とUmbrelでの使用方法については、以下をご覧ください：
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 
@@ -483,7 +483,7 @@ Umbrel で Tailscale を使用することで、Umbrel をインターネット�
 
 ---
 
-このセクションの最後に、UmbrelにTailscaleを統合すると、ほんの数クリックで、**セルフホスティングノードのアクセシビリティ**が大幅に向上します。自宅にいるのと同じように、どこからでも、安全かつ効率的にUmbrelとそのサービスを管理できるようになります。これは、Tor の遅延に悩まされるリアルタイムアプリケーション (Lightning) や、シンプルなプライベート接続を探しているセルフホストにとって、特に有用なソリューションです。複雑なネットワーク設定をすることなく、ポート**を1つも公開することなく、Torを利用することができます。
+このセクションの最後に、UmbrelにTailscaleを統合すると、ほんの数クリックで、**セルフホスティングノードのアクセシビリティ**が大幅に向上します。自宅にいるのと同じように、どこからでも、安全かつ効率的にUmbrelとそのサービスを管理できるようになります。これは、Tor の遅延に悩まされるリアルタイムアプリケーション (Lightning) や、シンプルなプライベート接続を探しているセルフホストにとって、特に有用なソリューションです。複雑なネットワーク設定をすることなく、**ポートを1つも公開することなく**、Torを利用することができます。
 
 
 
@@ -507,7 +507,7 @@ Umbrel で Tailscale を使用することで、Umbrel をインターネット�
 
 
 
-**デバイス共有では、ネットワーク全体へのアクセスを許可することなく、特定のマシンへのアクセスを招待することができます。
+**デバイス共有では、ネットワーク全体へのアクセスを許可することなく、特定のマシンへのアクセスを招待することができます。**
 
 
 
@@ -531,7 +531,7 @@ Umbrel で Tailscale を使用することで、Umbrel をインターネット�
 
 
 
-**直接の競合として、ZeroTierはブロードキャスト／マルチキャストを可能にするLayer 2（Ethernet）で動作し、TailscaleはLayer 3（IP）で動作する。ZeroTierはネットワークの柔軟性が高く、Tailscaleはシンプルな使い方ができる。
+**直接の競合として、ZeroTierはブロードキャスト／マルチキャストを可能にするLayer 2（Ethernet）で動作し、TailscaleはLayer 3（IP）で動作する。ZeroTierはネットワークの柔軟性が高く、Tailscaleはシンプルな使い方ができる。**
 
 
 
@@ -539,7 +539,7 @@ Umbrel で Tailscale を使用することで、Umbrel をインターネット�
 
 
 
-**Tailscale は、WireGuard が手動で行う必要があるキーおよび接続管理をすべて自動化します。基本的には、WireGuard + 簡素化された管理Layerです。
+**Tailscale は、WireGuard が手動で行う必要があるキーおよび接続管理をすべて自動化します。基本的には、WireGuard + 簡素化された管理Layer です。**
 
 
 
@@ -557,8 +557,8 @@ Umbrel で Tailscale を使用することで、Umbrel をインターネット�
 
 
 
-- シンプルさとパフォーマンス** - 複雑なネットワーク設定なしで、すべてのプラットフォームにすばやくインストールできます。トラフィックは、WireGuard プロトコルのパフォーマンスと、スループットを制限する中央サーバーなしで、マシン間の最も直接的な経路（P2P メッシュ）をたどります。
-- セキュリティと柔軟性** - エンドツーエンドの暗号化、攻撃対象範囲の縮小、高度な機能（ACL、SSO/MFA認証）。NATの後ろや移動中でも動作し、サブネット・ルーターや出口ノードでネットワークをニーズに合わせて適応させることができます。
+- **シンプルさとパフォーマンス** - 複雑なネットワーク設定なしで、すべてのプラットフォームにすばやくインストールできます。トラフィックは、WireGuard プロトコルのパフォーマンスと、スループットを制限する中央サーバーなしで、マシン間の最も直接的な経路（P2P メッシュ）をたどります。
+- **セキュリティと柔軟性** - エンドツーエンドの暗号化、攻撃対象範囲の縮小、高度な機能（ACL、SSO/MFA認証）。NATの後ろや移動中でも動作し、サブネット・ルーターや出口ノードでネットワークをニーズに合わせて適応させることができます。
 
 
 
@@ -568,16 +568,16 @@ Umbrel で Tailscale を使用することで、Umbrel をインターネット�
 
 
 
-- 外部依存** - 標準バージョンでは、このサービスはTailscale Inc.のインフラに依存しています。この依存関係は、Headscale（セルフホスティングの代替）を使って回避することができます。
-- その他の制約** - 部分的にクローズドなソースコード、特定の高度な使用に対する無料版の制限、Layer 2（ブロードキャスト／マルチキャスト）のサポートなし、接続を確立するためにインターネットアクセスが必要。
+- **外部依存** - 標準バージョンでは、このサービスはTailscale Inc.のインフラに依存しています。この依存関係は、Headscale（セルフホスティングの代替）を使って回避することができます。
+- **その他の制約** - 部分的にクローズドなソースコード、特定の高度な使用に対する無料版の制限、Layer 2（ブロードキャスト／マルチキャスト）のサポートなし、接続を確立するためにインターネットアクセスが必要。
 
 
 
-**Tailscaleは、個人のセルフホストや小規模チーム、分散したリソースへのアクセスが必要な開発者、VPN初心者、モバイルユーザーに最適です。完全な制御を必要とする企業には、HeadscaleやWireGuardのような他のソリューションを直接利用するのが望ましいでしょう。
+**Tailscaleは、個人のセルフホストや小規模チーム、分散したリソースへのアクセスが必要な開発者、VPN初心者、モバイルユーザーに最適です。完全な制御を必要とする企業には、HeadscaleやWireGuardのような他のソリューションを直接利用するのが望ましいでしょう。**
 
 
 
-**完全なセルフホスティング、API、DevOps統合（Terraform）ならHeadscaleを、あるいはInnernet（似ているが完全なセルフホスティング）やNetmakerのような選択肢もある。
+**完全なセルフホスティング、API、DevOps統合（Terraform）ならHeadscaleを、あるいはInnernet（似ているが完全なセルフホスティング）やNetmakerのような選択肢もある。**
 
 
 
@@ -595,9 +595,9 @@ Tailscaleは、そのシンプルさと効率性のおかげで、プライベ�
 
 
 
-- Tailscaleドキュメントセンター**：[docs.tailscale.com](https://docs.tailscale.com) - 完全英語のドキュメント、インストールガイド、チュートリアル、テクニカルリファレンス。
-- Tailscaleの仕組み**：[Tailscaleの仕組み](https://tailscale.com/blog/how-tailscale-works) - Tailscaleの内部構造を説明する詳細な記事。
-- 変更履歴**：[tailscale.com/changelog](https://tailscale.com/changelog) - アップデートと新機能を追跡。
+- Tailscaleドキュメントセンター：[docs.tailscale.com](https://docs.tailscale.com) - 完全英語のドキュメント、インストールガイド、チュートリアル、テクニカルリファレンス。
+- **Tailscaleの仕組み**：[Tailscaleの仕組み](https://tailscale.com/blog/how-tailscale-works) - Tailscaleの内部構造を説明する詳細な記事。
+- 変更履歴：[tailscale.com/changelog](https://tailscale.com/changelog) - アップデートと新機能を追跡。
 
 
 
@@ -607,9 +607,9 @@ Tailscaleは、そのシンプルさと効率性のおかげで、プライベ�
 
 
 
-- Homelab**チュートリアル：[tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - セルフホスティングのための具体的なガイド。
-- イグジットノードの設定** ：[tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - 終了ノードの設定に関する詳細なガイド。
-- Taildrop**を使用します：[tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Tailscaleデバイス間でファイルを転送します。
+- **Homelab**チュートリアル：[tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - セルフホスティングのための具体的なガイド。
+- **イグジットノードの設定**：[tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - 終了ノードの設定に関する詳細なガイド。
+- **Taildrop**を使用します：[tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Tailscaleデバイス間でファイルを転送します。
 
 
 
@@ -619,7 +619,7 @@ Tailscaleは、そのシンプルさと効率性のおかげで、プライベ�
 
 
 
-- Tailscaleと他のソリューションとの比較**：[tailscale.com/compare](https://tailscale.com/compare) - 他のVPNおよびネットワークソリューション（ZeroTier、OpenVPNなど）との詳細な比較。
+- **Tailscaleと他のソリューションとの比較**：[tailscale.com/compare](https://tailscale.com/compare) - 他のVPNおよびネットワークソリューション（ZeroTier、OpenVPNなど）との詳細な比較。
 
 
 
@@ -629,9 +629,9 @@ Tailscaleは、そのシンプルさと効率性のおかげで、プライベ�
 
 
 
-- Reddit**：[r/Tailscale](https://www.reddit.com/r/tailscale/) - 議論、質問、フィードバック。
-- GitHub**：[github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - お客様のソースコードで、開発の追跡や問題の報告ができます。
-- Discord**：[discord.gg/tailscale](https://discord.gg/tailscale) - ユーザーと開発者のコミュニティ。
+- **Reddit**：[r/Tailscale](https://www.reddit.com/r/tailscale/) - 議論、質問、フィードバック。
+- **GitHub**：[github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - お客様のソースコードで、開発の追跡や問題の報告ができます。
+- **Discord**：[discord.gg/tailscale](https://discord.gg/tailscale) - ユーザーと開発者のコミュニティ。
 
 
 

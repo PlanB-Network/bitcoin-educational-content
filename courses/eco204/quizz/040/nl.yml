@@ -1,11 +1,11 @@
-question: Wat is Kagans criterium voor hyperinflatie?
+question: Wat is Cagans criterium voor hyperinflatie?
 answer: Een inflatie van 50% per maand.
 wrong_answers:
   - Een inflatie van 50% per jaar.
   - Een inflatie van 25% per maand.
   - Een inflatie van 25% per jaar.
 explanation: |
-  Het criterium van Kagan definieert hyperinflatie als een inflatie van 50%
+  Het criterium van Cagan definieert hyperinflatie als een inflatie van 50%
   per maand. Dit criterium kan soms leiden tot dubbelzinnige interpretaties, met
   jaren met een hoge inflatie, maar die niet voldoen aan de strikte definitie van hyperinflatie.
 reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - To automatically calculate the shortest path
 explanation: |
   Routing fees are used to compensate intermediary nodes that relay payments by offering their liquidity to enable the transfer of funds across the network.
-reviewed: false
+reviewed: true

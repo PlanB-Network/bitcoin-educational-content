@@ -1,9 +1,12 @@
-question: Koje su glavne karakteristike efektivne valute?
-answer: Zamenljivost, deljivost, likvidnost.
+question: Zašto Bitkoin danas nije široko prihvaćen u trgovini?
+answer: Zato što nije široko prihvaćen od strane pojedinaca.
 wrong_answers:
-  - zamenljivost, Deljivost, Kvarljivost.
-  - zamenljivost, Nedeljivost, Likvidnost.
-  - Nezamenljivost, Deljivost, Likvidnost.
+  - Zato što nije prenosiv.
+  - Zato što nije deljiv na male jedinice.
+  - Zato što nije likvidan.
 explanation: |
-  Efektivna valuta mora biti zamenljiva (zamenljiva bez gubitka vrednosti), deljiva (razdvojiva na manje delove radi olakšavanja transakcija različitih obima) i likvidna (lako konvertibilna u robu ili usluge).
+  Uprkos svojim svojstvima, kao što je strogo ograničena
+  ponuda, Bitkoin još uvek nije široko prihvaćen u trgovini
+  danas, zbog nedostatka usvajanja od strane pojedinaca, pa
+  trgovci nisu podstaknuti da ga prihvate.
 reviewed: true

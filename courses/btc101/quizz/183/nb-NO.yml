@@ -1,9 +1,9 @@
-question: Hva er en av grunnene til at Bitcoins pris kan falle med 10-20 eller til og med 50% i løpet av noen få dager?
-answer: Markedsvariasjoner og bullish og bearish markedsfaser.
+question: Hva er AMF?
+answer: Autorité des Marchés Financiers
 wrong_answers:
-  - Antall personer som bruker internett.
-  - Været.
-  - Prisen på gull.
+  - Amerikansk Valutafond
+  - Forening for Grubedriftsanlegg
+  - Automatisert Pengeflyt
 explanation: >-
-  Prisen på Bitcoin er ofte preget av betydelig volatilitet,
-  som kan påvirkes av markedsvariasjoner og bullish og bearish markedsfaser.
+  AMF, eller Autorité des Marchés Financiers, er en fransk organisasjon som regulerer plattformer hvor bitcoins kan kjøpes.
+reviewed: false

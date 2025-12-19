@@ -1,0 +1,8 @@
+question: Een ontwikkelaar wil de uitgifte van assets testen op Elements zonder externe afhankelijkheden of te wachten op blokbevestigingen - welke configuratie moet hij gebruiken?
+answer: Stel chain=elementsregtest in om een lokale testomgeving te maken met directe blokgeneratie
+wrong_answers:
+  - Stel chain=liquidv1 in om verbinding te maken met het hoofdnetwerk van Liquid om onmiddellijk te testen
+  - Gebruik het issueasset RPC commando met de --testmode vlag voor geïsoleerde ontwikkeling
+  - "Configureer chain=bitcoin-regtest om toegang te krijgen tot Elements functies in de testomgeving van Bitcoin"
+explanation: |
+  De elementsregtest configuratie creëert een lokale regressietestomgeving waar ontwikkelaars direct generate blokken kunnen genereren met commando's als generateblock, zodat ze de uitgifte van middelen en andere functies kunnen testen zonder te wachten op netwerkbevestigingen of afhankelijk te zijn van externe knooppunten. Door chain=liquidv1 in te stellen, wordt verbinding gemaakt met het Liquid productienetwerk, dat bloktijden van 1 minuut en externe afhankelijkheden heeft. Het issueasset commando heeft geen --testmode vlag, en bitcoin-regtest is voor Bitcoin Core, niet voor Elements functionaliteit.

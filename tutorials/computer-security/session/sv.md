@@ -59,13 +59,13 @@ Session är tillgänglig på alla plattformar. Du kan ladda ner applikationen di
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=network.loki.messenger);
-- [App Store] (https://apps.apple.com/us/app/session-private-messenger/id1470168868);
-- [F-Droid] (https://fdroid.getsession.org/).
+- [Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger);
+- [App Store](https://apps.apple.com/us/app/session-private-messenger/id1470168868);
+- [F-Droid](https://fdroid.getsession.org/).
 
 
 
-På Android är det också möjligt att [installera via APK] (https://github.com/session-foundation/session-android/releases).
+På Android är det också möjligt att [installera via APK](https://github.com/session-foundation/session-android/releases).
 
 
 
@@ -99,13 +99,13 @@ Du måste sedan välja mellan två olika sätt att hantera meddelanden:
 
 
 
-- Snabbläge ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: gör att du kan ta emot meddelanden i nära realtid tack vare de meddelandetjänster som tillhandahålls av Google eller Apple (beroende på ditt system). För att detta ska fungera överförs din IP Address och ett unikt meddelande-ID till Google eller Apple, och sessionskontots ID registreras också på en STF-server (via Tor). Detta läge innebär (visserligen minimal) exponering av metadata, men äventyrar inte meddelandets innehåll eller kontakter och gör det inte möjligt att spåra din faktiska aktivitet. Detta läge är därför mer effektivt när det gäller respons, men är beroende av en centraliserad infrastruktur och är något mindre effektivt när det gäller konfidentialitet.
+- Snabbläge (**Firebase Cloud Messaging/Apple Push Notification Service**): gör att du kan ta emot meddelanden i nära realtid tack vare de meddelandetjänster som tillhandahålls av Google eller Apple (beroende på ditt system). För att detta ska fungera överförs din IP Address och ett unikt meddelande-ID till Google eller Apple, och sessionskontots ID registreras också på en STF-server (via Tor). Detta läge innebär (visserligen minimal) exponering av metadata, men äventyrar inte meddelandets innehåll eller kontakter och gör det inte möjligt att spåra din faktiska aktivitet. Detta läge är därför mer effektivt när det gäller respons, men är beroende av en centraliserad infrastruktur och är något mindre effektivt när det gäller konfidentialitet.
 
 
 
 
 
-- Långsamt läge (*background polling*)**: Session-applikationen förblir aktiv i bakgrunden och pollar regelbundet nätverket efter nya meddelanden. Detta tillvägagångssätt garanterar större sekretess än det första, eftersom inga data överförs till tredjepartsservrar; varken Google, Apple eller STF:s servrar får någon information. Å andra sidan har detta läge två nackdelar: meddelanden kan försenas (upp till flera minuter) och energiförbrukningen är i allmänhet högre på grund av applikationsaktivitet i bakgrunden.
+- Långsamt läge (**background polling**): Session-applikationen förblir aktiv i bakgrunden och pollar regelbundet nätverket efter nya meddelanden. Detta tillvägagångssätt garanterar större sekretess än det första, eftersom inga data överförs till tredjepartsservrar; varken Google, Apple eller STF:s servrar får någon information. Å andra sidan har detta läge två nackdelar: meddelanden kan försenas (upp till flera minuter) och energiförbrukningen är i allmänhet högre på grund av applikationsaktivitet i bakgrunden.
 
 
 
@@ -145,7 +145,7 @@ Den här frasen fungerar på samma sätt som Mnemonic-fraserna som används i Bi
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Vänligen notera**: Till skillnad från Mnemonic-fraserna som används på Bitcoin-plånböcker, på Session, ** måste du absolut spara varje ord i sin helhet**. De första 4 bokstäverna räcker inte!
 
@@ -299,4 +299,4 @@ Jag rekommenderar också den här andra handledningen, där jag presenterar Thre
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

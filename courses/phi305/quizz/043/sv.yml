@@ -1,0 +1,9 @@
+question: Vem sa att "ondska är ingenting"?
+answer: Sokrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  det onda är ingenting" är en tanke som tillskrivs Sokrates och som tagits upp i den filosofiska traditionen. För Sokrates kommer ondskan från okunnighet; ingen gör något ont frivilligt om han verkligen vet vad som är gott.
+reviewed: false

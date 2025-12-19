@@ -1,0 +1,9 @@
+question: Düzenli işletim sistemi ve uygulama güncellemelerinin üç ana faydası nedir?
+answer: Güvenlik, güvenilirlik, işlevsellik
+wrong_answers:
+  - Hız, anonimlik, uyumluluk
+  - Güvenlik, bellek, depolama
+  - Gizlilik, işlevsellik, güvenilirlik
+explanation: |
+  Güncellemeler güvenlik açıklarına karşı güvenliği, evrimlerle ve yeni özelliklerle uyumluluğu ve sistem güvenilirliğini sağlar.
+reviewed: true

@@ -1,10 +1,11 @@
-question: Czym jest Manifest Cypherpunk?
-answer: Tekst napisany przez Erica Hughesa zapewniający, że prywatność jest prawem podstawowym.
+question: Jakie są główne cechy dobrze funkcjonującej waluty?
+answer: Wymienialna, podzielna, płynna.
 wrong_answers:
-  - Książka napisana przez Juliana Assange'a o przyszłości technologii.
-  - Dokument przedstawiający zasady Bitcoin.
-  - Manifest napisany przez Davida Chauma na temat znaczenia cyfrowej waluty.
+  - Wymienialna, podzielna, nietrwała.
+  - Wymienialna, niepodzielna, płynna.
+  - Niewymienialna, podzielna, płynna.
 explanation: |
-  Manifest Cypherpunk został napisany przez Erica Hughesa w 1993 roku
-  i stwierdza, że prywatność jest prawem podstawowym.
+  Dobrze funkcjonująca waluta musi być wymienialna
+  bez utraty wartości, podzielna na małe
+  części, aby ułatwić transakcje o różnych wielkościach oraz płynna (łatwo wymienialna na towary lub usługi).
 reviewed: true

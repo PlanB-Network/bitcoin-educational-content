@@ -1,0 +1,9 @@
+question: Który komponent jest zalecany do ochrony węzła w przypadku awarii zasilania?
+answer: Falownik
+wrong_answers:
+  - Druga karta graficzna
+  - Dodatkowy router
+  - Koncentrator USB
+explanation: |
+  Falownik zapobiega nagłym wyłączeniom w przypadku awarii zasilania i chroni stabilność węzła.
+reviewed: true

@@ -1,10 +1,9 @@
-question: Berapa biaya menjalankan node Bitcoin pada Raspberry Pi 4 dalam hal konsumsi listrik per tahun?
-answer: Sedikit kurang dari 10€ per tahun
+question: Apa hasil dari perang blok pada tahun 2017?
+answer: Pengguna dan node menolak perubahan yang diusulkan untuk meningkatkan ukuran blok, dan mengaktifkan pembaruan yang disebut SegWit
 wrong_answers:
-  - Sekitar 50€ per tahun
-  - Sekitar 100€ per tahun
-  - Sekitar 200€ per tahun
+  - Pengguna dan node menerima perubahan yang diusulkan untuk meningkatkan ukuran blok, dan mengaktifkan pembaruan yang disebut SegWit
+  - Pengguna dan node menolak perubahan yang diusulkan untuk meningkatkan ukuran blok, dan tidak mengaktifkan pembaruan apa pun
+  - Pengguna dan node menerima perubahan yang diusulkan untuk meningkatkan ukuran blok, dan tidak mengaktifkan pembaruan apa pun
 explanation: >-
-  Menjalankan node Bitcoin pada Raspberry Pi 4 membutuhkan biaya sedikit kurang dari\
-  10€ per tahun dalam hal konsumsi listrik.
+  Dalam perang blok pada tahun 2017, pengguna dan node berhasil menolak perubahan yang diusulkan untuk meningkatkan ukuran blok, dan mengaktifkan pembaruan yang disebut SegWit.
 reviewed: false

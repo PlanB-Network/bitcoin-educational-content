@@ -1,10 +1,10 @@
-question: Apa salah satu alasan Bitcoin bukan gelembung yang akan hilang?
-answer: Karena ini adalah mata uang yang sebenarnya digunakan di seluruh dunia.
+question: Apa satu faktor yang perlu dipertimbangkan ketika memilih solusi untuk menerima Bitcoin untuk bisnis Anda?
+answer: Volume transaksi yang diharapkan
 wrong_answers:
-  - Karena sebenarnya tidak digunakan di mana pun.
-  - Karena dikendalikan oleh otoritas pusat.
-  - Karena mudah dipalsukan.
+  - Warna logo Anda
+  - Jumlah karyawan
+  - Lokasi kantor pusat Anda
 explanation: >-
-  Bitcoin bukan gelembung yang akan hilang tetapi mata uang yang sebenarnya
-  digunakan di seluruh dunia.
+  Ketika memilih solusi untuk menerima Bitcoin untuk bisnis Anda, beberapa
+  faktor harus diperhitungkan, seperti volume transaksi yang diharapkan, anggaran yang dialokasikan, dan jenis bisnis (online atau fisik).
 reviewed: false

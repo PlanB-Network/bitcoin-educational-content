@@ -1,0 +1,9 @@
+question: ¿Qué aplicaciones de autoalojamiento pueden instalarse a través de Umbrel?
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel ofrece una App Store con servicios de autoalojamiento, como Nextcloud, para almacenar y sincronizar archivos por ti mismo.
+reviewed: true

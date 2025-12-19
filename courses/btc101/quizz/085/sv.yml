@@ -1,13 +1,13 @@
-question: Vad är en Hot Wallet?
-answer: En Bitcoin Wallet på din telefon eller dator som är ansluten till internet.
+question: Vad är den rekommenderade användningen av en Multisig Wallet?
+answer: Förvaring av stora mängder för företagsbruk.
 wrong_answers:
-  - En Wallet som är fysiskt Hot att röra vid.
-  - En Wallet som är populär bland Bitcoin-användare.
-  - En Wallet som rekommenderas för förvaring av stora mängder bitcoins.
+  - Förvaring av små mängder för personligt bruk.
+  - Lagring av medelstora belopp för icke-vinstdrivande ändamål.
+  - Förvaring av dagliga utgifter för individuellt bruk.
 explanation: |
-  En Hot Wallet är en term som används för att beskriva en Bitcoin Wallet
-  som lagras på en enhet med internetåtkomst, till exempel en
-  telefon eller dator. På så sätt är det lätt att genomföra
-  transaktioner, men det innebär också att Wallet är
-  potentiellt sårbar för hot online.
+  En Multisig Wallet rekommenderas för lagring av stora mängder
+  och för företagsanvändning eftersom det krävs flera
+  signaturer för att utföra en transaktion. Denna process ger en
+  gW-4 extra säkerhet, eftersom en enskild person inte kan
+  genomföra en transaktion utan godkännande från andra.
 reviewed: true

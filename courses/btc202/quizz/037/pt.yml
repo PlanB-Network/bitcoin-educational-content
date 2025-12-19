@@ -1,0 +1,9 @@
+question: Que tipo de máquina é apresentada como o melhor compromisso para um nó doméstico Bitcoin?
+answer: Um mini-PC do tipo NUC
+wrong_answers:
+  - Computador portátil
+  - Um supercomputador
+  - Uma consola de jogos
+explanation: |
+  Os mini-PC (NUC, Tiny, OptiPlex Micro...) têm um baixo consumo de energia, são fiáveis e fáceis de adaptar, o que os torna o compromisso ideal.
+reviewed: true

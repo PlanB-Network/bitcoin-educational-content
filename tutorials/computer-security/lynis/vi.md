@@ -22,7 +22,7 @@ ___
 
 
 
-**Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thực hiện kiểm tra bảo mật trên máy Linux bằng Lynis! Dành cho những ai chưa biết, **Lynis** là một tiện ích dòng lệnh nhỏ sẽ phân tích cấu hình máy chủ của bạn và đưa ra các đề xuất để **cải thiện bảo mật cho máy.**
+**Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thực hiện kiểm tra bảo mật trên máy Linux bằng Lynis! Dành cho những ai chưa biết, Lynis là một tiện ích dòng lệnh nhỏ sẽ phân tích cấu hình máy chủ của bạn và đưa ra các đề xuất để cải thiện bảo mật cho máy.**
 
 
 
@@ -321,10 +321,10 @@ Tiếp theo, Lynis sẽ liệt kê một tập hợp các điểm tương ứng 
 
 
 
-- Đỏ** dành cho Elements quan trọng hoặc các biện pháp tốt nhất không được tôn trọng (ví dụ: gói bị thiếu), tức là máy chủ của bạn không tôn trọng điểm này
-- Vàng** dành cho các đề xuất hoặc tuân thủ một phần khuyến nghị (giả sử việc tuân thủ một điểm được đánh dấu bằng màu này là một điểm cộng (không ưu tiên))
-- Green** dành cho những điểm mà cấu hình máy chủ của bạn tuân thủ
-- Trắng**, khi trung tính
+- **Đỏ** dành cho Elements quan trọng hoặc các biện pháp tốt nhất không được tôn trọng (ví dụ: gói bị thiếu), tức là máy chủ của bạn không tôn trọng điểm này
+- **Vàng** dành cho các đề xuất hoặc tuân thủ một phần khuyến nghị (giả sử việc tuân thủ một điểm được đánh dấu bằng màu này là một điểm cộng (không ưu tiên))
+- **Green** dành cho những điểm mà cấu hình máy chủ của bạn tuân thủ
+- **Trắng**, khi trung tính
 
 
 
@@ -604,10 +604,10 @@ Một số thông tin về các gói đã cài đặt:
 
 
 
-- Clamav** là một phần mềm diệt virus.
-- unattend-upgrades** sẽ cho phép bạn tự động quản lý các bản cập nhật và thậm chí khởi động lại máy hoặc tự động xóa các gói cũ, bạn có thể cấu hình đầy đủ.
-- rkhunter** là một chương trình chống rootkit có chức năng quét hệ thống tập tin của bạn.
-- Fail2ban** sẽ dựa trên các tệp nhật ký của bạn theo những gì bạn cung cấp cho nó để đọc và sẽ hoạt động với **iptables**, ví dụ như để cấm các địa chỉ IP cố gắng "tấn công thô bạo" máy chủ của bạn trong SSH.
+- **Clamav** là một phần mềm diệt virus.
+- **unattend-upgrades** sẽ cho phép bạn tự động quản lý các bản cập nhật và thậm chí khởi động lại máy hoặc tự động xóa các gói cũ, bạn có thể cấu hình đầy đủ.
+- **rkhunter** là một chương trình chống rootkit có chức năng quét hệ thống tập tin của bạn.
+- **Fail2ban** sẽ dựa trên các tệp nhật ký của bạn theo những gì bạn cung cấp cho nó để đọc và sẽ hoạt động với **iptables**, ví dụ như để cấm các địa chỉ IP cố gắng "tấn công thô bạo" máy chủ của bạn trong SSH.
 
 
 
@@ -820,7 +820,7 @@ Cuối cùng, đừng quên kiểm tra **điểm kiểm tra Lynis**! Chúng ta t
 
 
 
-**Nói cách khác, điểm càng cao càng tốt! Do đó, bạn cần cải thiện cấu hình để đạt được điểm cao nhất có thể, đồng thời cho phép máy tính và các dịch vụ được lưu trữ hoạt động bình thường (có nghĩa là thực hiện các bài kiểm tra chức năng).
+**Nói cách khác, điểm càng cao càng tốt! Do đó, bạn cần cải thiện cấu hình để đạt được điểm cao nhất có thể, đồng thời cho phép máy tính và các dịch vụ được lưu trữ hoạt động bình thường (có nghĩa là thực hiện các bài kiểm tra chức năng).**
 
 
 
@@ -892,8 +892,8 @@ Khi đã có cấu hình phù hợp về mặt bảo mật, bạn nên sử dụ
 
 
 
-Cuối cùng, bạn cũng có thể so sánh **Lynis** với các công cụ khác, hiện có rất nhiều. Nếu bạn muốn chuyển sang quản lý tập trung mà vẫn giữ được tính mở, tôi khuyên bạn nên sử dụng công cụ [Wazuh] (https://wazuh.com/).
+Cuối cùng, bạn cũng có thể so sánh **Lynis** với các công cụ khác, hiện có rất nhiều. Nếu bạn muốn chuyển sang quản lý tập trung mà vẫn giữ được tính mở, tôi khuyên bạn nên sử dụng công cụ [Wazuh](https://wazuh.com/).
 
 
 
-**Hướng dẫn này đã kết thúc, hãy vui vẻ cùng Lynis nhé!
+**Hướng dẫn này đã kết thúc, hãy vui vẻ cùng Lynis nhé!**

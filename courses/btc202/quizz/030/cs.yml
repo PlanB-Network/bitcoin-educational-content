@@ -1,0 +1,9 @@
+question: Jaká je hlavní výhoda uzlu v krabici oproti surové implementaci?
+answer: Snadná instalace a integrovaná správa aplikací
+wrong_answers:
+  - Přísnější ověřování pravidel konsensu
+  - Přímý přístup ke Blockchain bez úložiště
+  - Kompatibilita s jinou měnou než Bitcoin
+explanation: |
+  Uzel v krabici zjednodušuje instalaci a správu mnoha pomocných aplikací prostřednictvím jednotného rozhraní Interface.
+reviewed: true

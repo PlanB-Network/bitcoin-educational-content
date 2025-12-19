@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Stärk din säkerhet på nätet med Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Förutom U2F, som möjliggör tvåfaktorsautentisering, stöder Trezors även FI
 
 
 
-Förutom "lösenordslös*" funktionalitet möjliggör FIDO2 även tvåfaktorsautentisering på liknande sätt som U2F.
+Förutom "lösenordslös" funktionalitet möjliggör FIDO2 även tvåfaktorsautentisering på liknande sätt som U2F.
 
 
 
@@ -34,7 +34,7 @@ I den här guiden får du veta hur du aktiverar U2F eller FIDO2 för tvåfaktors
 
 
 
-**U2F är kompatibel med alla Trezor-modeller, men FIDO2 stöds endast av Safe 3, Safe 5 och Model T, inte Model One.
+**U2F är kompatibel med alla Trezor-modeller, men FIDO2 stöds endast av Safe 3, Safe 5 och Model T, inte Model One.**
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -353,4 +353,4 @@ Jag skulle också rekommendera den här andra handledningen, där vi tittar på 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

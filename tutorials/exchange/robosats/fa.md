@@ -1,5 +1,5 @@
 ---
-name: ربوساتس
+name: Robosats
 
 description: نحوه استفاده از Robosats
 ---

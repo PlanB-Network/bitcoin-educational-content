@@ -1,0 +1,10 @@
+question: 생성할 수 있는 비트코인의 최대 개수는 몇 개인가요?
+answer: 약 2,100만 대
+wrong_answers:
+  - 1,800만 대 이상
+  - 약 2,500만 대
+  - 약 3,000만 대
+explanation: |
+  Bitcoin의 생성은 다음과 같은 고정된 한도가 특징입니다
+  2100만 유닛으로 고정되어 있습니다.
+reviewed: true

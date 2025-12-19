@@ -1,0 +1,9 @@
+question: Hva er den primære tekniske forskjellen mellom Bitcoin Core's GitHub-repository og de tusenvis av andre kopiene av det samme repositoriet som distribueres globalt?
+answer: Det er ingen teknisk forskjell; det fungerer som et sosialt knutepunkt for utvikling av bekvemmeligheter
+wrong_answers:
+  - GitHub-arkivet inneholder kryptografiske signaturer som bekrefter at det er den offisielle versjonen
+  - GitHub-depotet har spesielle commit-privilegier som forhindrer uautoriserte endringer i kodebasen
+  - GitHub-arkivet har en hovednøkkel som validerer alle andre arkivkopier over hele verden
+explanation: |
+  Ifølge Jameson Lopps analyse, som er referert i kapittelet, er Bitcoin Core's GitHub-repository teknisk sett identisk med alle andre kopier. Dets betydning er rent sosial - det har blitt et samlingspunkt for koordinering av utviklingen. Depotet fungerer som en bekvemmelighet snarere enn som teknisk autoritet, og hvis det forsvant, ville et nytt samlingspunkt naturlig nok dukke opp. Dette viser Bitcoins desentraliserte natur, der ingen enkelt repositorium har teknisk overherredømme over andre.
+reviewed: false

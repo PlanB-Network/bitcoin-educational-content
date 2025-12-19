@@ -1,0 +1,9 @@
+question: Zgodnie z perspektywą Gregory'ego Maxwella dotyczącą oceny podatności na zagrożenia, jakie podejście powinni przyjąć programiści podczas oceny potencjalnego wpływu wykrytych błędów bezpieczeństwa?
+answer: Traktuj luki w zabezpieczeniach jako poważniejsze niż obecnie znane i zakładaj, że można je łatwo wykorzystać, nawet jeśli wydają się trudne do wykorzystania
+wrong_answers:
+  - Skupienie się wyłącznie na bezpośrednim obserwowalnym wpływie i kategoryzowanie luk w zabezpieczeniach w oparciu o znane obecnie metody ich wykorzystania
+  - Priorytetowe traktowanie luk w oparciu o ich złożoność techniczną i opóźnianie poprawek dla błędów, które wydają się teoretycznie trudne do wykorzystania
+  - Oceniać każdą lukę w zabezpieczeniach w oderwaniu od innych, nie biorąc pod uwagę tego, jak wiele drobnych błędów może łączyć się ze sobą, tworząc poważne zagrożenia dla bezpieczeństwa
+explanation: |
+  Maxwell twierdzi, że deweloperzy powinni traktować luki jako poważniejsze niż się wydają, ponieważ trudne do wykorzystania problemy mogą stać się trywialne dzięki odpowiedniej technice, a pozornie drobne problemy mogą eskalować w poważne zagrożenia. Podkreśla on, że proste błędy w wydajności mogą zostać wykorzystane do partycjonowania sieci i umożliwienia ataków double-spending. To konserwatywne podejście uznaje, że deweloperzy mogą początkowo nie rozumieć pełnego potencjału wykorzystania podatności, co sprawia, że rozsądnie jest zakładać najgorszy scenariusz, zamiast bagatelizować zagrożenie.
+reviewed: false

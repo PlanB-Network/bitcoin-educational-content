@@ -1,11 +1,9 @@
-question: Mikä on yksi tapa lieventää Bitcoinin volatiliteettia?
-answer: Taloudelliset suojaukset (stablecoin).
+question: Mitkä seuraavista ominaisuuksista edesauttoivat Bitcoinin käytön laajentumista pimeän verkon markkinapaikoilla, kuten Silk Road?
+answer: Sen hallitsemattomuus ja pseudonyymisyys.
 wrong_answers:
-  - Sijoittamalla kaikki rahasi Bitcoiniin.
-  - Markkinatrendien huomiotta jättäminen.
-  - Lisää Bitcoinin ostaminen, kun hinta laskee.
+  - Sen keskitetty hallinta.
+  - Sen jäljitettävyys ja hallittavuus.
+  - Sen puute pseudonyymisyydessä.
 explanation: >-
-  Bitcoinin volatiliteettia voidaan lieventää useilla ratkaisuilla, kuten
-  taloudellisilla suojauksilla (stablecoin), vahvalla pitkäaikaisella uskolla (hodling) tai yksinkertaisesti
-  olemalla sijoittamatta 100% rahoistaan Bitcoiniin ymmärtämättä asiasta mitään.
+  Bitcoinin käyttö laajeni pimeän verkon markkinapaikoille, kuten Silk Road, sen hallitsemattoman ja pseudonyymisen luonteen vuoksi.
 reviewed: true

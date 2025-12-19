@@ -1,5 +1,5 @@
 ---
-name: Kuyruk Ölçeği
+name: Tailscale
 description: Gelişmiş Tailscale eğitimi
 ---
 ![cover](assets/cover.webp)
@@ -72,7 +72,7 @@ Ancak bu mimari, ağ koordinasyonu için Tailscale Inc. şirketine bağımlıdı
 
 
 
-**Kontrol düzlemi yönetimi, NAT geçişi ve DERP röleleri dahil olmak üzere Tailscale'in iç işleyişinin ayrıntılı bir açıklaması için resmi blogdaki mükemmel makaleyi [How Tailscale Works] (https://tailscale.com/blog/how-tailscale-works) öneririz. Bu makale, Tailscale'i bu kadar güçlü kılan teknik kavramları derinlemesine açıklamaktadır.
+**Kontrol düzlemi yönetimi, NAT geçişi ve DERP röleleri dahil olmak üzere Tailscale'in iç işleyişinin ayrıntılı bir açıklaması için resmi blogdaki mükemmel makaleyi** [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) **öneririz. Bu makale, Tailscale'i bu kadar güçlü kılan teknik kavramları derinlemesine açıklamaktadır.**
 
 
 
@@ -139,7 +139,7 @@ Hesabınızı oluşturduktan sonra, Tailscale'i cihazlarınıza yükleyebilirsin
 
 
 
-- Windows ve macOS'ta:** Grafik uygulamayı resmi Tailscale web sitesinden indirin ve kurun (.msi dosyası Windows'ta, .dmg dosyası Mac'te). Uygulama yüklendikten sonra, makinenin kimliğini doğrulamak için Tailscale hesabınıza bağlanmanızı (bir tarayıcı aracılığıyla) sağlayan grafiksel bir Interface başlatır.
+- **Windows ve macOS'ta:** Grafik uygulamayı resmi Tailscale web sitesinden indirin ve kurun (.msi dosyası Windows'ta, .dmg dosyası Mac'te). Uygulama yüklendikten sonra, makinenin kimliğini doğrulamak için Tailscale hesabınıza bağlanmanızı (bir tarayıcı aracılığıyla) sağlayan grafiksel bir Interface başlatır.
 
 
 
@@ -159,7 +159,7 @@ Hesabınızı oluşturduktan sonra, Tailscale'i cihazlarınıza yükleyebilirsin
 
 
 
-- Linux'ta (Debian, Ubuntu, vb.):** Birkaç seçeneğiniz vardır. En basit yöntem resmi kurulum betiğini çalıştırmaktır: örneğin Debian/Ubuntu'da:
+- **Linux'ta (Debian, Ubuntu, vb.):** Birkaç seçeneğiniz vardır. En basit yöntem resmi kurulum betiğini çalıştırmaktır: örneğin Debian/Ubuntu'da:
 
 
 
@@ -169,19 +169,19 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-Bu betik resmi Tailscale deposunu ekleyecek ve paketi yükleyecektir. Ayrıca [APT deposunu manuel olarak ekleyebilir] (https://pkgs.tailscale.com) veya normal Snap veya apt paketlerini kullanabilirsiniz. Kurulduktan sonra, daemon `tailscaled` arka planda çalışacaktır. Daha sonra **düğümün kimliğini doğrulamanız** gerekecektir (aşağıdaki Interface CLI vs web bölümüne bakın). Diğer dağıtımlarda (Fedora, Arch...), paket standart depolar veya evrensel kurulum betiği aracılığıyla da kullanılabilir. Başsız bir sunucu için CLI kullanın: örneğin, önceden oluşturulmuş bir kimlik doğrulama anahtarı kullanıyorsanız `sudo tailscale up --auth-key <key>` veya etkileşimli bir oturum açma için sadece `tailscale up` (cihazın kimliğini doğrulamak için ziyaret edilecek bir URL sağlayacaktır).
+Bu betik resmi Tailscale deposunu ekleyecek ve paketi yükleyecektir. Ayrıca [APT deposunu manuel olarak ekleyebilir](https://pkgs.tailscale.com) veya normal Snap veya apt paketlerini kullanabilirsiniz. Kurulduktan sonra, daemon `tailscaled` arka planda çalışacaktır. Daha sonra **düğümün kimliğini doğrulamanız** gerekecektir (aşağıdaki Interface CLI vs web bölümüne bakın). Diğer dağıtımlarda (Fedora, Arch...), paket standart depolar veya evrensel kurulum betiği aracılığıyla da kullanılabilir. Başsız bir sunucu için CLI kullanın: örneğin, önceden oluşturulmuş bir kimlik doğrulama anahtarı kullanıyorsanız `sudo tailscale up --auth-key <key>` veya etkileşimli bir oturum açma için sadece `tailscale up` (cihazın kimliğini doğrulamak için ziyaret edilecek bir URL sağlayacaktır).
 
 
 
 
 
-- ARM tabanlı sistemlerde (Raspberry Pi, vb.):** Genellikle Linux kullanıyoruz, bu nedenle yukarıdaki ile aynı yaklaşım (komut dosyası veya paket). Tailscale'in ARM32/ARM64 mimarisini sorunsuz bir şekilde desteklediğini unutmayın. Birçok kullanıcı Tailscale'i apt aracılığıyla Raspberry Pi OS'ye veya Pi'lerine her yerden erişmek için hafif dağıtımlara (DietPi, vb.) yükler.
+- **ARM tabanlı sistemlerde (Raspberry Pi, vb.):** Genellikle Linux kullanıyoruz, bu nedenle yukarıdaki ile aynı yaklaşım (komut dosyası veya paket). Tailscale'in ARM32/ARM64 mimarisini sorunsuz bir şekilde desteklediğini unutmayın. Birçok kullanıcı Tailscale'i apt aracılığıyla Raspberry Pi OS'ye veya Pi'lerine her yerden erişmek için hafif dağıtımlara (DietPi, vb.) yükler.
 
 
 
 
 
-- IOS ve Android'de:** Tailscale **resmi** mobil uygulamalar sağlar. App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) veya [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android) üzerinden *Tailscale* yüklemeniz yeterlidir.
+- IOS ve Android'de: **Tailscale** **resmi** mobil uygulamalar sağlar. [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) veya [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android) üzerinden *Tailscale* yüklemeniz yeterlidir.
 
 
 
@@ -261,13 +261,13 @@ Web yönetim konsolu, bağlı tüm cihazlarınızı görüntülemenizi ve yönet
 
 
 
-- Interface Web (Yönetici Konsolu)**: [https://login.tailscale.com](https://login.tailscale.com) adresinden erişilebilen bu web konsolu, Tailscale ağınız için merkezi kontrol panelidir. Tüm cihazları (*Makineler*), çevrimiçi/çevrimdışı durumlarını, Tailscale IP adreslerini ve daha fazlasını listeler. Burada **cihazları yönetebilir** (yeniden adlandırabilir, anahtarların süresini uzatabilir, rotaları yetkilendirebilir, bir düğümü devre dışı bırakabilir), **kullanıcıları yönetebilir** (organizasyonel bağlamda) ve güvenlik kurallarını (ACL'ler) tanımlayabilirsiniz. Burası aynı zamanda MagicDNS, etiketler veya auth anahtarları (otomatik cihaz ekleme için generate öncesi auth anahtarları) gibi global seçenekleri yapılandırdığınız yerdir. Interface web, genel bir bakış elde etmek ve koordinasyon sunucusu aracılığıyla tüm düğümlere yayılacak değişiklikleri uygulamak için çok kullanışlıdır. *Örnek:* Bir **alt ağ rotasını** veya bir **çıkış düğümünü** etkinleştirmek, söz konusu düğüm kendini bu şekilde duyurduktan sonra konsolda tek bir tıklama ile yapılır.
+- **Interface Web (Yönetici Konsolu)**: [https://login.tailscale.com](https://login.tailscale.com) adresinden erişilebilen bu web konsolu, Tailscale ağınız için merkezi kontrol panelidir. Tüm cihazları (*Makineler*), çevrimiçi/çevrimdışı durumlarını, Tailscale IP adreslerini ve daha fazlasını listeler. Burada **cihazları yönetebilir** (yeniden adlandırabilir, anahtarların süresini uzatabilir, rotaları yetkilendirebilir, bir düğümü devre dışı bırakabilir), **kullanıcıları yönetebilir** (organizasyonel bağlamda) ve güvenlik kurallarını (ACL'ler) tanımlayabilirsiniz. Burası aynı zamanda MagicDNS, etiketler veya auth anahtarları (otomatik cihaz ekleme için generate öncesi auth anahtarları) gibi global seçenekleri yapılandırdığınız yerdir. Interface web
 
 
 
 
 
-- Interface komut satırı (CLI):** `tailscale` komutu, Tailscale'in kurulu olduğu her cihazda CLI'de mevcuttur. Bu CLI, yerel olarak her şeyi yapmanıza olanak tanır: bağlanma (`tailscale up`), durumu inceleme (hangi eşlerin bağlı olduğunu görmek için `tailscale status`), hata ayıklama (`tailscale ping <ip>`) vb. Hatta bazı özellikler **CLI'e özeldir** veya daha ileri düzeydedir, örneğin:
+- **Interface komut satırı (CLI):** `tailscale` komutu, Tailscale'in kurulu olduğu her cihazda CLI'de mevcuttur. Bu CLI, yerel olarak her şeyi yapmanıza olanak tanır: bağlanma (`tailscale up`), durumu inceleme (hangi eşlerin bağlı olduğunu görmek için `tailscale status`), hata ayıklama (`tailscale ping <ip>`) vb. Hatta bazı özellikler **CLI'e özeldir** veya daha ileri düzeydedir, örneğin:
 
 
 
@@ -293,7 +293,7 @@ Umbrel popüler bir kendi kendini barındırma platformudur (özellikle App Stor
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Umbrel ve Tailscale'i birlikte kullanmak, Umbrel'in dağıtımı kolay bir Tailscale modülünü yerel olarak entegre etmesi nedeniyle özellikle ilginç bir kullanım örneğidir. İşte Tailscale'in Umbrel ile nasıl entegre olduğu ve neler getirdiği:
 
@@ -305,7 +305,7 @@ Umbrel ve Tailscale'i birlikte kullanmak, Umbrel'in dağıtımı kolay bir Tails
 
 
 
-- Tailscale'i Umbrel'e Yükleme:** Umbrel'in App Store'da resmi bir Tailscale uygulaması vardır. Kurulum daha basit olamazdı:
+- **Tailscale'i Umbrel'e Yükleme:** Umbrel'in App Store'da resmi bir Tailscale uygulaması vardır. Kurulum daha basit olamazdı:
 
 
 
@@ -379,11 +379,11 @@ Erişim son derece basittir: `umbrel.local` (yalnızca yerel ağınızda çalı�
 
 
 
-- Interface ana Umbrel**: Tarayıcınızda `http://100.x.y.z` yazarak Umbrel kontrol panelinize erişin
-- Bitcoin düğümü**: Bitcoin düğümünüzü gecikme olmadan yönetin, senkronizasyonu ve istatistikleri görüntüleyin
-- Lightning Node**: Anında yanıt veren ThunderHub, RTL veya diğer Lightning yönetim arayüzlerini kullanın
-- Mempool**: Tor gecikmeleri olmadan Bitcoin işlemlerini ve Mempool'ü görüntüleyin
-- noStrudel**: Umbrel üzerinde barındırılan Nostr hizmetlerinize erişin
+- **Interface ana Umbrel**: Tarayıcınızda `http://100.x.y.z` yazarak Umbrel kontrol panelinize erişin
+- **Bitcoin düğümü**: Bitcoin düğümünüzü gecikme olmadan yönetin, senkronizasyonu ve istatistikleri görüntüleyin
+- **Lightning Node**: Anında yanıt veren ThunderHub, RTL veya diğer Lightning yönetim arayüzlerini kullanın
+- **Mempool**: Tor gecikmeleri olmadan Bitcoin işlemlerini ve Mempool'ü görüntüleyin
+- **noStrudel**: Umbrel üzerinde barındırılan Nostr hizmetlerinize erişin
 
 
 
@@ -397,7 +397,7 @@ Tailscale ayrıca diğer cihazlarda yüklü Bitcoin ve Lightning cüzdanlarını
 
 
 
-- Sparrow wallet (Bitcoin)**: Bu harici Wallet Bitcoin, Tailscale IP Address'i kullanarak doğrudan Umbrel'in Electrum sunucusuna bağlanabilir:
+- **Sparrow wallet (Bitcoin)**: Bu harici Wallet Bitcoin, Tailscale IP Address'i kullanarak doğrudan Umbrel'in Electrum sunucusuna bağlanabilir:
 
 
 
@@ -419,12 +419,12 @@ Sparrow wallet'i Bitcoin düğümünüzle yapılandırmaya yönelik eksiksiz kı
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 
-- Zeus (Yıldırım)**: Bu Wallet mobil Lightning, Umbrel üzerindeki Lightning düğümünüze bağlanabilir. Uç noktayı `.onion' olarak yapılandırmak yerine, Umbrel'inizin Tailscale IP'sini ve Lightning API bağlantı noktasını ayarlamanız yeterlidir. Bağlantı Tor'a kıyasla anlık olacaktır.
+- **Zeus (Yıldırım)**: Bu Wallet mobil Lightning, Umbrel üzerindeki Lightning düğümünüze bağlanabilir. Uç noktayı `.onion` olarak yapılandırmak yerine, Umbrel'inizin Tailscale IP'sini ve Lightning API bağlantı noktasını ayarlamanız yeterlidir. Bağlantı Tor'a kıyasla anlık olacaktır.
 
 
 
@@ -439,13 +439,13 @@ Zeus'u Lightning düğümünüzle yapılandırmak için ayrıntılı öğreticim
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 Lightning Network ve Umbrel'de nasıl çalıştığı hakkında daha fazla bilgi edinmek için şu adresi ziyaret edin:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 
@@ -507,7 +507,7 @@ Bu bölümü sonlandırmak için, Tailscale'i Umbrel'e entegre etmek sadece birk
 
 
 
-**Aygıt Paylaşımı, birine tüm ağınıza erişim izni vermeden belirli bir makineye erişmesi için davet etmenize olanak tanır.
+**Aygıt Paylaşımı**, birine tüm ağınıza erişim izni vermeden belirli bir makineye erişmesi için davet etmenize olanak tanır.
 
 
 
@@ -531,7 +531,7 @@ Bu bölümü sonlandırmak için, Tailscale'i Umbrel'e entegre etmek sadece birk
 
 
 
-**Doğrudan bir rakip olarak ZeroTier, Layer 2'de (Ethernet) çalışarak yayın/çok noktaya yayın sağlarken Tailscale, Layer 3'te (IP) çalışır. ZeroTier daha fazla ağ esnekliği sunarken, Tailscale kullanım kolaylığını tercih eder.
+**Doğrudan bir rakip olarak ZeroTier, Layer 2'de (Ethernet) çalışarak yayın/çok noktaya yayın sağlarken Tailscale, Layer 3'te (IP) çalışır. ZeroTier daha fazla ağ esnekliği sunarken, Tailscale kullanım kolaylığını tercih eder.**
 
 
 
@@ -557,8 +557,8 @@ Sonuç olarak, Tailscale kendisini kişisel kullanım ve küçük ekipler için 
 
 
 
-- Basitlik ve performans** - Karmaşık ağ yapılandırması olmadan tüm platformlarda hızlı kurulum. Trafik, WireGuard protokolünün performansı ile makineleriniz arasındaki en doğrudan yolu (P2P mesh) izler ve verimi sınırlayacak merkezi bir sunucu yoktur.
-- Güvenlik ve esneklik** - Uçtan uca şifreleme, azaltılmış saldırı yüzeyi ve gelişmiş özellikler (ACL, SSO/MFA kimlik doğrulama). Ağı ihtiyaçlarınıza göre uyarlamak için alt ağ yönlendiricileri ve çıkış düğümleri ile NAT'ların arkasında veya hareket halindeyken bile çalışır.
+- **Basitlik ve performans** - Karmaşık ağ yapılandırması olmadan tüm platformlarda hızlı kurulum. Trafik, WireGuard protokolünün performansı ile makineleriniz arasındaki en doğrudan yolu (P2P mesh) izler ve verimi sınırlayacak merkezi bir sunucu yoktur.
+- **Güvenlik ve esneklik** - Uçtan uca şifreleme, azaltılmış saldırı yüzeyi ve gelişmiş özellikler (ACL, SSO/MFA kimlik doğrulama). Ağı ihtiyaçlarınıza göre uyarlamak için alt ağ yönlendiricileri ve çıkış düğümleri ile NAT'ların arkasında veya hareket halindeyken bile çalışır.
 
 
 
@@ -568,16 +568,16 @@ Sonuç olarak, Tailscale kendisini kişisel kullanım ve küçük ekipler için 
 
 
 
-- Dış bağımlılık** - Standart sürümünde, hizmet Tailscale Inc. altyapısına dayanır. Bu bağımlılık Headscale (kendi kendine barındırma alternatifi) aracılığıyla atlanabilir.
-- Diğer kısıtlamalar** - Kısmen kapalı kaynak kodu, belirli gelişmiş kullanımlar için ücretsiz sürümün sınırlamaları, Layer 2 (yayın/multicast) için destek olmaması ve bağlantı kurmak için İnternet erişimine ihtiyaç duyulması.
+- **Dış bağımlılık** - Standart sürümünde, hizmet Tailscale Inc. altyapısına dayanır. Bu bağımlılık Headscale (kendi kendine barındırma alternatifi) aracılığıyla atlanabilir.
+- **Diğer kısıtlamalar** - Kısmen kapalı kaynak kodu, belirli gelişmiş kullanımlar için ücretsiz sürümün sınırlamaları, Layer 2 (yayın/multicast) için destek olmaması ve bağlantı kurmak için İnternet erişimine ihtiyaç duyulması.
 
 
 
-**Tailscale, bireysel kendi kendini barındıranlar ve küçük ekipler, dağınık kaynaklara erişime ihtiyaç duyan geliştiriciler, VPN'e yeni başlayanlar ve mobil kullanıcılar için idealdir. Tam kontrol gerektiren şirketler için doğrudan Headscale veya WireGuard gibi diğer çözümler tercih edilebilir.
+**Tailscale, bireysel kendi kendini barındıranlar ve küçük ekipler, dağınık kaynaklara erişime ihtiyaç duyan geliştiriciler, VPN'e yeni başlayanlar ve mobil kullanıcılar için idealdir.** Tam kontrol gerektiren şirketler için doğrudan Headscale veya WireGuard gibi diğer çözümler tercih edilebilir.
 
 
 
-**Tam kendi kendine barındırma, API ve DevOps entegrasyonları (Terraform) için Headscale'i veya Innernet (benzer ancak tamamen kendi kendine barındırılan) ve Netmaker gibi alternatifleri keşfedin.
+**Tam kendi kendine barındırma, API ve DevOps entegrasyonları (Terraform) için Headscale'i veya Innernet (benzer ancak tamamen kendi kendine barındırılan) ve Netmaker gibi alternatifleri keşfedin.**
 
 
 
@@ -595,9 +595,9 @@ Tailscale, basitliği ve verimliliği sayesinde kendi kendini barındırma için
 
 
 
-- Tailscale Dokümantasyon Merkezi**: [docs.tailscale.com](https://docs.tailscale.com) - Tam İngilizce belgeler, kurulum kılavuzları, öğreticiler ve teknik referanslar.
-- Tailscale nasıl çalışır**: [Tailscale Nasıl Çalışır](https://tailscale.com/blog/how-tailscale-works) - Tailscale'in iç işleyişini açıklayan ayrıntılı makale.
-- Değişiklik Günlüğü**: [tailscale.com/changelog](https://tailscale.com/changelog) - Güncellemeleri ve yeni özellikleri takip etme.
+- **Tailscale Dokümantasyon Merkezi**: [docs.tailscale.com](https://docs.tailscale.com) - Tam İngilizce belgeler, kurulum kılavuzları, öğreticiler ve teknik referanslar.
+- **Tailscale nasıl çalışır**: [Tailscale Nasıl Çalışır](https://tailscale.com/blog/how-tailscale-works) - Tailscale'in iç işleyişini açıklayan ayrıntılı makale.
+- **Değişiklik Günlüğü**: [tailscale.com/changelog](https://tailscale.com/changelog) - Güncellemeleri ve yeni özellikleri takip etme.
 
 
 
@@ -607,9 +607,9 @@ Tailscale, basitliği ve verimliliği sayesinde kendi kendini barındırma için
 
 
 
-- Homelab** eğitimleri: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Kendi kendine barındırma için özel kılavuzlar.
-- Bir Çıkış Düğümünü Yapılandırma**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Çıkış Düğümlerini yapılandırmak için ayrıntılı kılavuz.
-- Taildrop** kullanın: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Tailscale cihazları arasında dosya aktarın.
+- **Homelab** eğitimleri: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - Kendi kendine barındırma için özel kılavuzlar.
+- **Bir Çıkış Düğümünü Yapılandırma**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - Çıkış Düğümlerini yapılandırmak için ayrıntılı kılavuz.
+- **Taildrop** kullanın: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - Tailscale cihazları arasında dosya aktarın.
 
 
 
@@ -619,7 +619,7 @@ Tailscale, basitliği ve verimliliği sayesinde kendi kendini barındırma için
 
 
 
-- Tailscale diğer çözümlere karşı**: [tailscale.com/compare](https://tailscale.com/compare) - Diğer VPN ve ağ çözümleriyle (ZeroTier, OpenVPN, vb.) ayrıntılı karşılaştırmalar.
+- **Tailscale diğer çözümlere karşı**: [tailscale.com/compare](https://tailscale.com/compare) - Diğer VPN ve ağ çözümleriyle (ZeroTier, OpenVPN, vb.) ayrıntılı karşılaştırmalar.
 
 
 
@@ -629,10 +629,10 @@ Tailscale, basitliği ve verimliliği sayesinde kendi kendini barındırma için
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Tartışmalar, sorular ve geri bildirimler.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Müşteri kaynak kodu, geliştirmenin takip edileceği ve sorunların bildirileceği yer.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Kullanıcı ve geliştirici topluluğu.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - Tartışmalar, sorular ve geri bildirimler.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - Müşteri kaynak kodu, geliştirmenin takip edileceği ve sorunların bildirileceği yer.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - Kullanıcı ve geliştirici topluluğu.
 
 
 
-Tailscale düzenli olarak yeni içerik ve özellikler sunar. En son haberler ve vaka çalışmaları için [resmi bloglarına] (https://tailscale.com/blog/) göz atın.
+Tailscale düzenli olarak yeni içerik ve özellikler sunar. En son haberler ve vaka çalışmaları için [resmi bloglarına](https://tailscale.com/blog/) göz atın.

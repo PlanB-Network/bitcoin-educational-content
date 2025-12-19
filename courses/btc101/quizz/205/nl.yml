@@ -1,8 +1,12 @@
-question: Wat is een van de redenen waarom je je UTXO's af en toe in je portemonnee zou moeten consolideren?
-answer: Om onnodige kosten tijdens transacties te vermijden.
+question: Hoe beschrijft deze cursus Bitcoin?
+answer: Een multidisciplinair onderwerp.
 wrong_answers:
-  - Om de waarde van je bitcoins te verhogen.
-  - Om te voorkomen dat je bitcoins worden gestolen.
-  - Om ervoor te zorgen dat je bitcoins altijd beschikbaar zijn.
-explanation: >-
+  - Een eenvoudig onderwerp.
+  - Een fysiek onderwerp.
+  - Een eendisciplinair vak.
+explanation: |
+  Bitcoin wordt beschreven als een multidisciplinair onderwerp omdat
+  het vragen oproept met betrekking tot verschillende gebieden, waaronder
+  cryptografie, speltheorie, economie en monetair beleid,
+  computerwetenschap, filosofie, energie, wetten en regelgeving.
 reviewed: true

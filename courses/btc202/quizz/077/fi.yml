@@ -1,0 +1,9 @@
+question: Mitä tietokantaa käytetään blocks/index/-kohdassa lohkojen metatietojen tallentamiseen?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core käyttää LevelDB:tä lohkojen indeksointiin lohkoissa blocks/index/, mikä nopeuttaa hakua ja palvelua vertaisverkoille.
+reviewed: true

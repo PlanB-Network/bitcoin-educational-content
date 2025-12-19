@@ -1,0 +1,9 @@
+question: Uskoiko René Descartes vapaaseen tahtoon?
+answer: En koskaan.
+wrong_answers:
+  - Vain aikuisille.
+  - Vain jos olisimme opiskelleet filosofiaa.
+  - Tietyin edellytyksin.
+explanation: |
+  René Descartes ei koskaan uskonut vapaaseen tahtoon. Hän oli sitä mieltä, että kaikki tekomme määräytyvät edeltävien syiden perusteella, vaikka hän pyrki säilyttämään jonkinlaisen tahdonvapauden.
+reviewed: false

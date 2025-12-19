@@ -11,7 +11,7 @@ description: Bisq 2 kullanımı ve bitcoin alışverişi için eksiksiz kılavuz
 KYC içermeyen eşler arası (P2P) borsalar, kullanıcıların gizliliğini ve finansal özerkliğini korumak için çok önemlidir. Kimlik doğrulamasına ihtiyaç duymadan bireyler arasında doğrudan işlem yapılmasını sağlarlar ki bu da gizliliğe önem verenler için çok önemlidir. Teorik kavramları daha derinlemesine anlamak için BTC204 kursuna bir göz atın:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Bisq 2 nedir?
 
@@ -31,7 +31,7 @@ Bisq 2, 2024 yılında piyasaya sürülen popüler merkezi olmayan Bisq Exchange
 - BSQ'da zorunlu depozito ile rol sistemi
 
 
-Bu kılavuz sadece şu anda mevcut olan tek protokol olan "Bisq Easy" üzerine odaklanmaktadır. Bisq Easy, özellikle yeni Bitcoin kullanıcıları için tasarlanmıştır. Bu protokol, kullanıcıların merkezi olmayan eşler arası bir platformda fiat para birimleri karşılığında Bitcoin alıp satmalarını sağlar. İşlemler 600 USD eşdeğeri ile sınırlıdır (minimum 6 USD ile) ve Exchange güvenliği BTC satıcılarının itibarına dayanır. Bisq Easy'nin işlem ücreti veya teminat yatırma zorunluluğu yoktur. Bisq Easy'nin 600 USD (veya eşdeğeri) altındaki nakit alışverişleri için Bisq 1'in yerini alması bekleniyor.
+Bu rehber yalnızca şu anda mevcut olan tek protokol olan "Bisq Easy"ye odaklanmaktadır. Bisq Easy, yeni Bitcoin kullanıcıları için özel olarak tasarlanmıştır. Bu protokol, kullanıcıların merkeziyetsiz bir eşler arası platformda Bitcoin'i itibari para birimleriyle alıp satmalarına olanak tanır. İşlemler 600 ABD doları eşdeğeriyle (minimum 6 ABD doları) sınırlıdır ve ticaret güvenliği BTC satıcılarının itibarına dayanır. Bisq Easy'nin ticaret ücreti veya teminat gerekliliği yoktur. Bisq Easy'nin 600 ABD doları (veya eşdeğeri) altındaki itibari para işlemlerinde Bisq 1'in yerini alması beklenmektedir.
 
 
 **Ana özellikler:**
@@ -84,7 +84,7 @@ Bu kılavuz sadece şu anda mevcut olan tek protokol olan "Bisq Easy" üzerine o
 - Teklifi oluşturan kişi Exchange'in şartlarını tanımlar
 - Tüccarlar şartlar (ödeme yöntemi ve fiyat) üzerinde anlaştıktan sonra Exchange başlar
 - Satıcı banka bilgilerini alıcıya gönderir ve alıcı da Bitcoin Address bilgilerini satıcıya gönderir
-- Alıcı ödemeyi nakit olarak yapar ve satıcıya bildirir
+- Alıcı itibari para ile ödemeyi yapar ve satıcıyı bilgilendirir
 - Ödeme alındıktan sonra, satıcı bitcoinleri alıcının Address'ine gönderir
 - Alıcı bitcoinleri aldığında Exchange tamamlanmış olur
 
@@ -117,12 +117,12 @@ Bu kılavuz sadece şu anda mevcut olan tek protokol olan "Bisq Easy" üzerine o
 - İndirilen dosyanın gerçekliğini doğrulayın (şiddetle tavsiye edilir). İmza doğrulama ile ilgili ayrıntılı bir kılavuz için aşağıdaki eğitime bakın:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Sisteminize göre kurulum
 
 
-Lütfen işletim sisteminize uygun kurulum adımlarını izleyin. Kurulum sırasında herhangi bir zorlukla karşılaşırsanız, [resmi Bisq wiki] (https://bisq.wiki/Downloading_and_installing) adresindeki ayrıntılı kılavuza başvurabilirsiniz.
+Lütfen işletim sisteminize uygun kurulum adımlarını izleyin. Kurulum sırasında herhangi bir zorlukla karşılaşırsanız, [resmi Bisq wiki](https://bisq.wiki/Downloading_and_installing) adresindeki ayrıntılı kılavuza başvurabilirsiniz.
 
 
 ### 3. İlk başlangıç
@@ -180,7 +180,7 @@ Lütfen işletim sisteminize uygun kurulum adımlarını izleyin. Kurulum sıras
 **Veri yedekleme:**
 
 
-Bisq 1'in aksine, Bisq 2 şu anda bir Bitcoin Wallet'i entegre etmemektedir: bu nedenle işlemler kendi harici cüzdanlarınız aracılığıyla gerçekleştirilir. Bununla birlikte, Bisq 2 veri klasörünüzü düzenli olarak yedeklemenizi öneririz. Veri klasörünüzü bulmak için [resmi Bisq wiki] (https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory) adresine bakın.
+Bisq 1'in aksine, Bisq 2 şu anda bir Bitcoin Wallet'i entegre etmemektedir: bu nedenle işlemler kendi harici cüzdanlarınız aracılığıyla gerçekleştirilir. Bununla birlikte, Bisq 2 veri klasörünüzü düzenli olarak yedeklemenizi öneririz. Veri klasörünüzü bulmak için [resmi Bisq wiki](https://bisq.wiki/Backing_up_application_data#Back_up_the_entire_Bisq_data_directory) adresine bakın.
 
 
 **Kimlik yönetimi:**
@@ -472,11 +472,11 @@ Bir satıcı olarak Bisq'teki itibarınızı artırmak için düzenli işlemler 
 
 
 
-- Maksimum gizlilik**: KYC yok, Tor kullanımı
-- Merkezsizleştirme**: Merkezi sunucu yok
-- Güvenlik**: Açık kaynak, gözetim dışı kod
-- Sezgisel Interface**: Bisq 1'den daha basit
-- Esneklik**: Çoklu Exchange protokolleri
+- **Maksimum gizlilik**: KYC yok, Tor kullanımı
+- **Merkezsizleştirme**: Merkezi sunucu yok
+- **Güvenlik**: Açık kaynak, gözetim dışı kod
+- **Sezgisel Interface**: Bisq 1'den daha basit
+- **Esneklik**: Çoklu Exchange protokolleri
 
 
 ### Bisq 2 dezavantajları
@@ -484,12 +484,12 @@ Bir satıcı olarak Bisq'teki itibarınızı artırmak için düzenli işlemler 
 
 
 
-- Sınırlı likidite** (şimdilik) :
+- **Sınırlı likidite** (şimdilik) :
  - Başlangıç aşamasında yeni protokol
  - Birkaç satış teklifi mevcut
  - Alıcı bulmak için potansiyel olarak uzun bekleme süreleri
-- İşlem limitleri**: İşlem başına maksimum 600 USD (Bisq easy ile)
-- Sadece masaüstü**: Mobil uygulama yok
+- **İşlem limitleri**: İşlem başına maksimum 600 USD (Bisq easy ile)
+- **Sadece masaüstü**: Mobil uygulama yok
 
 
 ## Gelecek Protokolleri
@@ -500,16 +500,16 @@ Bisq Easy şu anda mevcut olan tek protokol olmasına rağmen, Bisq 2 için baş
 
 
 
-- Bisq Lightning**: Exchange üzerinde çok partili hesaplama kriptografisi kullanan bir emanet sistemine dayalı Lightning Network protokolü.
-- Bisq MuSig**: Ana protokolün Bisq 1'den Bisq 2'ye, 2'ye 2 Multisig kullanılarak, teminat depozitoları ile taşınması.
-- BSQ Takasları**: BSQ ve BTC arasında anlık atomik takaslar.
-- Liquid Swapları**: Atomik takaslar yoluyla Exchange üzerindeki varlıkların Liquid Network (USDT, BTC-L).
-- Monero Takasları**: Bitcoin ve Monero arasında atomik takaslar.
-- Liquid MuSig**: Multisig protokolünün daha düşük maliyet ve daha fazla gizlilik için L-BTC kullanan sürümü.
-- Denizaltı Takasları**: Lightning Network ve Bitcoin On-Chain üzerindeki Bitcoin arasındaki değişimler.
-- Stablecoin Takasları**: Bitcoin ve USD sabit coinleri arasında atomik değişimler.
-- Multisig Opsiyonları**: Bir On-Chain Multisig işleminde BTC blokajlı P2P satım ve alım opsiyonlarının oluşturulması.
-- Multisig Açık Sözleşmeler**: Arbitrajlı 2'ye 3 Multisig sistemi kullanarak özelleştirilmiş koşullu sözleşmelerin oluşturulmasını sağlar.
+- **Bisq Lightning**: Exchange üzerinde çok partili hesaplama kriptografisi kullanan bir emanet sistemine dayalı Lightning Network protokolü.
+- **Bisq MuSig**: Ana protokolün Bisq 1'den Bisq 2'ye, 2'ye 2 Multisig kullanılarak, teminat depozitoları ile taşınması.
+- **BSQ Takasları**: BSQ ve BTC arasında anlık atomik takaslar.
+- **Liquid Swapları**: Atomik takaslar yoluyla Exchange üzerindeki varlıkların Liquid Network (USDT, BTC-L).
+- **Monero Takasları**: Bitcoin ve Monero arasında atomik takaslar.
+- **Liquid MuSig**: Multisig protokolünün daha düşük maliyet ve daha fazla gizlilik için L-BTC kullanan sürümü.
+- **Denizaltı Takasları**: Lightning Network ve Bitcoin On-Chain üzerindeki Bitcoin arasındaki değişimler.
+- **Stablecoin Takasları**: Bitcoin ve USD sabit coinleri arasında atomik değişimler.
+- **Multisig Opsiyonları**: Bir On-Chain Multisig işleminde BTC blokajlı P2P satım ve alım opsiyonlarının oluşturulması.
+- **Multisig Açık Sözleşmeler**: Arbitrajlı 2'ye 3 Multisig sistemi kullanarak özelleştirilmiş koşullu sözleşmelerin oluşturulmasını sağlar.
 
 
 Bu protokoller şu anda geliştirilme aşamasındadır ve kullanıcılara özel ihtiyaçlarına göre daha fazla esneklik sunarak Bisq 2'ye aşamalı olarak entegre edilecektir.

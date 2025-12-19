@@ -5,5 +5,5 @@ wrong_answers:
   - Dodici
   - Sette
 explanation: |
-  Un Bitcoin può essere diviso fino all'ottava cifra decimale, con un'unità chiamata Satoshi o sat.
-reviewed: false
+  Un Bitcoin può essere diviso fino all'ottava cifra decimale, definendo un'unità chiamata Satoshi o sat.
+reviewed: true

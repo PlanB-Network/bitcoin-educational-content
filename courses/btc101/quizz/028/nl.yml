@@ -1,13 +1,9 @@
-question: Wat is het evolutiepad van de huidige valuta?
-answer: Ruwe steen -> Munt -> Bankbiljet -> Bankpas -> Blockchain -> Lightning Network
+question: Wat is de betekenis van fiatgeld?
+answer: Fiat-geld is geld dat waarde heeft omdat een overheid het onderhoudt en mensen vertrouwen hebben in de waarde ervan, in plaats van dat het gedekt wordt door een fysiek goed zoals goud.
 wrong_answers:
-  - Ruwe steen -> Munt -> Bankbiljet -> Blockchain -> Lightning Network
-  - Ruwe steen -> Munt -> Bankbiljet -> Bankpas -> Lightning Network
-  - Ruwe steen -> Munt -> Bankpas -> Bankbiljet -> Blockchain -> Lightning Network
+  - Fiat-geld is geld dat gedekt wordt door een fysiek goed, zoals goud of zilver, wat betekent dat de waarde ervan direct gekoppeld is aan de waarde van dat goed.
+  - Fiat-geld is een type cryptocurrency dat werkt op een gedecentraliseerd netwerk, waardoor peer-to-peer transacties mogelijk zijn zonder dat er een centrale autoriteit nodig is.
+  - Fiat-geld is geld dat geen intrinsieke waarde heeft en niet gebruikt kan worden voor transacties, waardoor het in wezen waardeloos is in de economie.
 explanation: |
-  Valuta is een technologie die met de tijd is geëvolueerd,
-  beginnend met ruwe stenen, veranderend
-  in metalen munten, dan in bankbiljetten, bankkaarten en
-  en uiteindelijk in peer-to-peer netwerken met het gebruik van de
-  Bitcoin Blockchain en de Lightning Network.
+  Fiat-geld is bij overheidsbesluit ingesteld als wettig betaalmiddel en de waarde ervan is niet afgeleid van een fysiek goed.
 reviewed: true

@@ -16,13 +16,13 @@ Ett operativsystem (OS) är den huvudsakliga programvaran som hanterar alla dato
 
 
 
-- Förbättrad säkerhet**: Linux-distributioner är välkända för sin säkerhet och robusthet
-- Ingen kostnad**: Ubuntu och de flesta Linux-distributioner är kostnadsfria
-- Stor gemenskap**: En grupp användare som är redo att hjälpa till via forum och handledning
-- Respekt för den personliga integriteten**: System med öppen källkod för ökad transparens
-- Enkelhet**: Användarvänlig Interface och enkel användning
-- Rikt ekosystem**: Omfattande katalog med programvara med öppen källkod
-- Regelbunden support**: Säkra uppdateringar från Canonical
+- **Förbättrad säkerhet**: Linux-distributioner är välkända för sin säkerhet och robusthet
+- **Ingen kostnad**: Ubuntu och de flesta Linux-distributioner är kostnadsfria
+- **Stor gemenskap**: En grupp användare som är redo att hjälpa till via forum och handledning
+- **Respekt för den personliga integriteten**: System med öppen källkod för ökad transparens
+- **Enkelhet**: Användarvänlig Interface och enkel användning
+- **Rikt ekosystem**: Omfattande katalog med programvara med öppen källkod
+- **Regelbunden support**: Säkra uppdateringar från Canonical
 
 
 ## Installation och konfiguration
@@ -45,7 +45,7 @@ Ett operativsystem (OS) är den huvudsakliga programvaran som hanterar alla dato
 
 
 
-- Gå till [ubuntu.com/download] (https://ubuntu.com/download)
+- Gå till [ubuntu.com/download](https://ubuntu.com/download)
 - Välj den stabila versionen (LTS rekommenderas)
 - Ladda ner ISO-bild
 
@@ -64,7 +64,7 @@ Du kan använda flera verktyg, till exempel Balena Etcher:
 
 
 
-- Ladda ner och installera [Balena Etcher] (https://etcher.balena.io/)
+- Ladda ner och installera [Balena Etcher](https://etcher.balena.io/)
 
 
 ![Page de téléchargement Balena Etcher](assets/fr/03.webp)
@@ -110,7 +110,7 @@ När du startar från USB-minnet ser du den här skärmen, där du kan starta Ub
 ![Écran de démarrage Ubuntu](assets/fr/06.webp)
 
 
-**Val av språk
+**Val av språk**
 
 
 Välj önskat språk för installation och system.
@@ -119,7 +119,7 @@ Välj önskat språk för installation och system.
 ![Sélection de la langue](assets/fr/07.webp)
 
 
-**Alternativ för tillgänglighet
+**Alternativ för tillgänglighet**
 
 
 Konfigurera tillgänglighetsalternativ om det behövs (skärmläsare, hög kontrast etc.).
@@ -128,7 +128,7 @@ Konfigurera tillgänglighetsalternativ om det behövs (skärmläsare, hög kontr
 ![Options d'accessibilité](assets/fr/08.webp)
 
 
-**Konfiguration av tangentbord
+**Konfiguration av tangentbord**
 
 
 Välj din tangentbordslayout. Ett testfält finns tillgängligt för att kontrollera att tangenterna motsvarar din konfiguration.
@@ -146,7 +146,7 @@ Anslut till ditt Wi-Fi-nätverk eller trådbundna nätverk för att ladda ner up
 ![Configuration réseau](assets/fr/10.webp)
 
 
-**Typ av installation
+**Typ av installation**
 
 
 Välj mellan "Try Ubuntu" (för att testa utan att installera) eller "Install Ubuntu".
@@ -155,7 +155,7 @@ Välj mellan "Try Ubuntu" (för att testa utan att installera) eller "Install Ub
 ![Choix du type d'installation](assets/fr/11.webp)
 
 
-**Installationsmetod
+**Installationsmetod**
 
 
 Välj interaktiv installation.
@@ -164,7 +164,7 @@ Välj interaktiv installation.
 ![Mode d'installation](assets/fr/12.webp)
 
 
-**Val av applikation
+**Val av applikation**
 
 
 Välj mellan standardinstallationen eller ett utökat urval av applikationer.
@@ -173,7 +173,7 @@ Välj mellan standardinstallationen eller ett utökat urval av applikationer.
 ![Sélection des applications](assets/fr/13.webp)
 
 
-**Applikationer från tredje part
+**Applikationer från tredje part**
 
 
 Bestäm om du vill installera ytterligare drivrutiner och proprietär programvara eller inte.
@@ -182,7 +182,7 @@ Bestäm om du vill installera ytterligare drivrutiner och proprietär programvar
 ![Installation applications tierces](assets/fr/14.webp)
 
 
-**Typ av partitionering
+**Typ av partitionering**
 
 
 Du har två huvudalternativ:
@@ -197,7 +197,7 @@ Du har två huvudalternativ:
 ![Choix du partitionnement](assets/fr/15.webp)
 
 
-**Skapande av användarkonto
+**Skapande av användarkonto**
 
 
 Ange ditt användarnamn och lösenord för ditt Ubuntu-konto.
@@ -206,7 +206,7 @@ Ange ditt användarnamn och lösenord för ditt Ubuntu-konto.
 ![Création du compte](assets/fr/16.webp)
 
 
-**Tidszon
+**Tidszon**
 
 
 Välj ditt geografiska område för att ställa in systemtiden.
@@ -240,7 +240,7 @@ Uppdatering av systemet är ett viktigt steg efter en ny installation. Du har tv
 - Följ anvisningarna på skärmen för att installera uppdateringarna
 
 
-**Alternativ 2: Via terminal
+**Alternativ 2: Via terminal**
 
 
 
@@ -273,7 +273,7 @@ sudo apt upgrade
 ### 5. Upptäcka grundläggande uppgifter
 
 
-**5.1 Surfa på Internet
+**5.1 Surfa på Internet**
 
 
 Som standard hittar du ofta Firefox i startfältet.
@@ -285,7 +285,7 @@ Starta Firefox och börja surfa.
 Andra webbläsare (Chrome, Brave, etc.) kan installeras via Software Manager eller via .deb-paket.
 
 
-**5.2 Ordbehandling
+**5.2 Ordbehandling**
 
 
 Ubuntu levereras med LibreOffice-paketet (Writer för ordbehandling).
@@ -297,7 +297,7 @@ Så här öppnar du den: Aktiviteter > Sök efter "LibreOffice Writer" eller kli
 Du kan skapa, redigera och spara dokument i en mängd olika format (inklusive .docx).
 
 
-**5.3 Installera program
+**5.3 Installera program**
 
 
 Programvaruhanterare (kallas "Ubuntu Software"): grafisk Interface för sökning och installation av program.
@@ -328,4 +328,4 @@ Nu är du redo att använda Ubuntu dagligen: säkra ditt system, surfa, göra ko
 För att ta säkerheten i ditt digitala liv ett steg längre rekommenderar vi att du tar en titt på vår krypterade meddelandetjänst, som är perfekt lämpad för att skydda din integritet och kompletterar din Ubuntu-installation:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

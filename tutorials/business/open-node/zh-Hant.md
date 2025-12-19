@@ -1,5 +1,5 @@
 ---
-name: 開放式節點
+name: Open Node
 
 description: 為您的線上業務設定 Open Node
 

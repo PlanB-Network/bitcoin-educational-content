@@ -1,0 +1,9 @@
+question: Ưu điểm của máy tính xách tay chuyên dụng so với máy tính mini là gì?
+answer: Pin của nó hoạt động như một bộ biến tần
+wrong_answers:
+  - Nó yên tĩnh hơn
+  - Nó kéo dài lâu hơn
+  - Nó tiêu thụ ít năng lượng hơn
+explanation: |
+  Pin của máy tính xách tay hoạt động như một UPS tự nhiên, ngăn ngừa tình trạng dừng đột ngột khi mất điện.
+reviewed: true

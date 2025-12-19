@@ -1,0 +1,9 @@
+question: 가상 디스크처럼 마운트할 수 있는 암호화된 컨테이너 파일을 만드는 데 사용할 수 있는 무료 크로스 플랫폼 소프트웨어에는 어떤 것이 있나요?
+answer: VeraCrypt
+wrong_answers:
+  - KeePassXC
+  - 동기화
+  - WinRAR
+explanation: |
+  VeraCrypt를 사용하면 모든 주요 OS에서 가상 디스크로 액세스할 수 있는 암호화된 컨테이너를 만들 수 있습니다.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - Empêcher toute transaction supplémentaire dans le canal
 explanation: |
   La clé de révocation permet à la partie lésée de récupérer l'intégralité des fonds en cas de tentative de tricherie par l'autre partie.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,9 @@
+question: 메시지 라우팅을 위한 중앙 서버가 없는 근본적으로 분산된 아키텍처를 제공하는 애플리케이션은 무엇인가요?
+answer: Keet
+wrong_answers:
+  - 텔레그램
+  - 신호
+  - Threema
+explanation: |
+  Keet는 중앙 서버 없이 모든 통신이 사용자 간에 직접 이루어지는 P2P 모델을 기반으로 하여 높은 복원력과 기밀성을 보장합니다.
+reviewed: false

@@ -1,0 +1,8 @@
+question: What is the critical difference between LDK's persistence layer design and traditional Lightning node data management that enables cross-platform deployment flexibility?
+answer: LDK provides abstract binary data blobs for storage while applications implement their own storage mechanisms
+wrong_answers:
+  - LDK uses standardized SQL databases while traditional nodes require custom file system implementations
+  - LDK automatically synchronizes data across multiple platforms while traditional nodes store data locally only
+  - LDK encrypts all persistence data by default while traditional nodes rely on application-level encryption
+explanation: |
+  LDK's persistence layer abstracts storage by providing applications with serialized binary data blobs that must be stored and retrieved reliably, while handling all the complexity of serializing Lightning channel states and network data internally. This allows applications to choose any storage solution (file systems, cloud storage, databases) that matches their platform requirements. Traditional Lightning nodes typically implement their own specific data management systems tied to particular storage mechanisms, making them less flexible across different deployment environments.

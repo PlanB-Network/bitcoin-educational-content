@@ -11,7 +11,7 @@ Jami ni programu isiyolipishwa ya programu huria ya kutuma ujumbe kutoka kwa wen
 
 
 
-Mnamo 2015, SFLPhone ilipewa jina la Gonga, na kuunganishwa kwa usanifu uliosambazwa ambao hauhitaji tena seva kuu. Mwaka uliofuata, Ring ilijiunga rasmi na mradi wa GNU, ikiimarisha uwekaji wake katika mfumo wa programu huria. Hatimaye, mnamo Desemba 2018, ili kuepuka kuchanganyikiwa na bidhaa za kibiashara kwa kutumia neno la Kiingereza "*Ring*", programu ilipitisha jina lake la sasa: Jami. Tangu wakati huo, imeendelea kubadilika kama jukwaa la mawasiliano lisilolipishwa, lililogatuliwa na linalofaa kwa faragha.
+Mnamo 2015, SFLPhone ilipewa jina la Gonga, na kuunganishwa kwa usanifu uliosambazwa ambao hauhitaji tena server kuu. Mwaka uliofuata, Ring ilijiunga rasmi na mradi wa GNU, ikiimarisha uwekaji wake katika mfumo wa programu huria. Hatimaye, mnamo Desemba 2018, ili kuepuka kuchanganyikiwa na bidhaa za kibiashara kwa kutumia neno la Kiingereza "*Ring*", programu ilipitisha jina lake la sasa: Jami. Tangu wakati huo, imeendelea kubadilika kama jukwaa la mawasiliano lisilolipishwa, lililogatuliwa na linalofaa kwa faragha.
 
 
 
@@ -50,11 +50,11 @@ Leo, Jami inapatikana kwenye mifumo mingi. Inasifika kwa utendakazi wake, wepesi
 
 
 
-- Ni programu huria na haina malipo kabisa**, kwa hivyo unaweza kuitumia bila gharama yoyote.
-- Kamilisha kwa vipengele muhimu**: programu hii hukuruhusu kuchukua fursa ya chaguo nyingi, kutokana na uwezo wa kuongeza programu jalizi kwa urahisi kutoka kwenye duka. Inawezekana hata kuunda viendelezi vyako vya vipengele vinavyofaa zaidi mahitaji yako.
-- Rahisi kutumia na Interface angavu**: licha ya vipengele vingi vinavyotolewa na Jami, bado ni rahisi sana kufahamu.
-- Usalama thabiti**: Jami inajumuisha algoriti ya hali ya juu ya usimbaji fiche ambayo inahakikisha usalama wa mawasiliano yako huku ikiheshimu faragha yako.
-- Inapatikana kwa kiwango cha juu na haraka**: inatoa mawasiliano rahisi hata wakati kipimo data ni chache, kwa ajili ya kuboresha urafiki wa mtumiaji.
+- Ni programu huria na haina malipo kabisa, kwa hivyo unaweza kuitumia bila gharama yoyote.
+- **Kamilisha kwa vipengele muhimu**: programu hii hukuruhusu kuchukua fursa ya chaguo nyingi, kutokana na uwezo wa kuongeza programu jalizi kwa urahisi kutoka kwenye duka. Inawezekana hata kuunda viendelezi vyako vya vipengele vinavyofaa zaidi mahitaji yako.
+- **Rahisi kutumia na Interface angavu**: licha ya vipengele vingi vinavyotolewa na Jami, bado ni rahisi sana kufahamu.
+- **Usalama thabiti**: Jami inajumuisha algoriti ya hali ya juu ya usimbaji fiche ambayo inahakikisha usalama wa mawasiliano yako huku ikiheshimu faragha yako.
+- **Inapatikana kwa kiwango cha juu na haraka**: inatoa mawasiliano rahisi hata wakati kipimo data ni chache, kwa ajili ya kuboresha urafiki wa mtumiaji.
 
 
 
@@ -140,7 +140,7 @@ Amri hii husakinisha zana zinazohitajika ili kudhibiti funguo za GPG (gnupg na d
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -338,9 +338,9 @@ Jami pia hutoa **vipengele vya hali ya juu** kwa watumiaji wanaotaka kwenda mbal
 
 
 
-- Unda mahali pa kukutana**: Kipengele hiki hukuruhusu kuunda **mahali pa kukutana** kwa mawasiliano yako, muhimu kwa kupanga vipindi salama au ubadilishanaji kati ya watumiaji kadhaa.
-- Unganisha kwenye seva ya Jami**: Unaweza kuunganisha Jami kwenye **seva ya Jami**, ambayo inaweza kuboresha utendakazi au upatikanaji wa mawasiliano, hasa katika mazingira ya kitaaluma.
-- Sanidi akaunti ya SIP**: Unaweza kusanidi **akaunti ya SIP** (Itifaki ya Kuanzisha Kipindi), kukuwezesha kuunganisha Jami na mifumo iliyopo ya simu au kupiga simu.
+- **Unda mahali pa kukutana**: Kipengele hiki hukuruhusu kuunda **mahali pa kukutana** kwa mawasiliano yako, muhimu kwa kupanga vipindi salama au exchange kati ya watumiaji kadhaa.
+- Unganisha kwenye seva ya Jami: Unaweza kuunganisha Jami kwenye **server ya Jami**, ambayo inaweza kuboresha utendakazi au upatikanaji wa mawasiliano, hasa katika mazingira ya kitaaluma.
+- **Sanidi akaunti ya SIP**: Unaweza kusanidi **akaunti ya SIP** (protocol ya Kuanzisha Kipindi), kukuwezesha kuunganisha Jami na mifumo iliyopo ya simu au kupiga simu.
 
 
 
@@ -356,8 +356,8 @@ Kwa kifupi, Jami ni suluhisho kamili, salama na linalonyumbulika la mawasiliano,
 
 
 
-Gundua Tox, itifaki iliyogatuliwa ambayo inachanganya usimbaji fiche kutoka mwanzo hadi mwisho (E2E), funguo za umma na algoriti nyingine nyingi ili kukupa mawasiliano bora zaidi ambayo hulinda usiri wako kupitia wateja wake mbalimbali.
+Gundua Tox, itifaki iliyogatuliwa inayochanganya usimbaji fiche kutoka mwanzo hadi mwisho (E2E), funguo za umma na algoriti mbalimbali ili kukupa mawasiliano salama na bora, huku ikilinda usiri wako kupitia wateja wake tofauti..
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

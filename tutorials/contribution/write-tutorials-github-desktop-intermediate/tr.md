@@ -1,6 +1,6 @@
 ---
 name: Katkı - GitHub Desktop ile Öğretici (Orta Düzey)
-description: GitHub Desktop kullanarak Plan ₿ Network'da bir öğretici önermek için eksiksiz kılavuz
+description: GitHub Desktop kullanarak Plan ₿ Academy'da bir öğretici önermek için eksiksiz kılavuz
 ---
 ![cover](assets/cover.webp)
 
@@ -8,33 +8,33 @@ description: GitHub Desktop kullanarak Plan ₿ Network'da bir öğretici önerm
 Yeni bir öğretici eklemeye ilişkin bu öğreticiyi takip etmeden önce, bazı ön adımları tamamlamış olmanız gerekir. Henüz yapmadıysanız, sizi önce bu giriş eğitimine bakmaya ve ardından buraya geri dönmeye davet ediyorum:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Zaten var:
 
 
 - Eğitiminizin temasını seçin;
-- Plan ₿ Network ekibiyle [Telegram grubu] (https://t.me/PlanBNetwork_ContentBuilder) veya paolo@planb.network üzerinden iletişime geçin;
+- Plan ₿ Academy ekibiyle [Telegram grubu](https://t.me/PlanBNetwork_ContentBuilder) veya paolo@planb.network üzerinden iletişime geçin;
 - Katkı araçlarınızı seçin.
 
 
-Bu eğitimde, GitHub Desktop ile yerel ortamınızı kurarak Plan ₿ Network'ye eğitiminizi nasıl ekleyeceğinizi göreceğiz. Git konusunda zaten yetkinseniz, bu çok ayrıntılı eğitim sizin için gerekli olmayabilir. Bunun yerine, ayrıntılı adım adım rehberlik olmadan yalnızca ana yönergeleri sunduğum bu diğer öğreticiye başvurmanızı tavsiye ederim:
+Bu eğitimde, GitHub Desktop ile yerel ortamınızı kurarak Plan ₿ Academy'ye eğitiminizi nasıl ekleyeceğinizi göreceğiz. Git konusunda zaten yetkinseniz, bu çok ayrıntılı eğitim sizin için gerekli olmayabilir. Bunun yerine, ayrıntılı adım adım rehberlik olmadan yalnızca ana yönergeleri sunduğum bu diğer öğreticiye başvurmanızı tavsiye ederim:
 
 
 
-- Deneyimli kullanıcılar**:
+- **Deneyimli kullanıcılar**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 Yerel ortamınızı kurmayı tercih etmiyorsanız, değişiklikleri doğrudan GitHub'ın web Interface'ü üzerinden yaptığımız, yeni başlayanlar için tasarlanmış bu diğer öğreticiyi izleyin:
 
 
 
-- Yeni Başlayanlar (web Interface)**:
+- **Yeni Başlayanlar (web Interface)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Ön Koşullar
 
@@ -56,21 +56,21 @@ Eğitime başlamadan önce önkoşullar:
 
 
 - Bir [GitHub hesabına] sahip olun (https://github.com/signup);
-- Fork kaynak deposunun] (https://github.com/PlanB-Network/Bitcoin-educational-content) bir Plan ₿ Network'ine sahip olun;
-- Plan ₿ Network'de bir profesör profiline sahip olun] (https://planb.network/professors) (yalnızca tam bir eğitim öneriyorsanız).
+- Fork kaynak deposunun] (https://github.com/PlanB-Network/Bitcoin-educational-content) bir Plan ₿ Academy'ine sahip olun;
+- Plan ₿ Academy'de bir profesör profiline sahip olun] (https://planb.academy/professors) (yalnızca tam bir eğitim öneriyorsanız).
 
 
 Bu önkoşulları elde etmek için yardıma ihtiyacınız varsa, diğer eğitimlerim size yardımcı olacaktır:
 
 
 
-Her şey yerli yerine oturduğunda ve yerel ortamınız Plan ₿ Network'un kendi Fork'unuzla düzgün bir şekilde ayarlandığında, öğreticiyi eklemeye başlayabilirsiniz.
+Her şey yerli yerine oturduğunda ve yerel ortamınız Plan ₿ Academy'un kendi Fork'unuzla düzgün bir şekilde ayarlandığında, öğreticiyi eklemeye başlayabilirsiniz.
 
 
 ## 1 - Yeni bir şube oluşturun
 
 
-Tarayıcınızı açın ve Fork deposunun Plan ₿ Network sayfasına gidin. Bu, GitHub'da oluşturduğunuz Fork'tür. Fork'ünüzün URL'si aşağıdaki gibi görünmelidir: `https://github.com/[kullanıcı adınız]/Bitcoin-educational-content`:
+Tarayıcınızı açın ve Fork deposunun Plan ₿ Academy sayfasına gidin. Bu, GitHub'da oluşturduğunuz Fork'tür. Fork'ünüzün URL'si aşağıdaki gibi görünmelidir: `https://github.com/[kullanıcı adınız]/Bitcoin-educational-content`:
 
 
 ![TUTO](assets/fr/03.webp)
@@ -106,7 +106,7 @@ Bu şubeye tıklayın, ardından `Yeni Şube` düğmesine tıklayın:
 ![TUTO](assets/fr/08.webp)
 
 
-Yeni dalın `PlanB-Network/Bitcoin-educational-content` adlı kaynak depoyu temel aldığından emin olun.
+Yeni dalın `Plan ₿ Academy/Bitcoin-educational-content` adlı kaynak depoyu temel aldığından emin olun.
 
 
 Branşınızı, her kelimeyi ayırmak için tire kullanarak, başlığın amacı hakkında net olacak şekilde adlandırın. Örneğin, amacımızın Sparrow wallet yazılımının kullanımı hakkında bir eğitim yazmak olduğunu varsayalım. Bu durumda, bu öğreticiyi yazmaya adanmış çalışma dalı şöyle adlandırılabilir: `tuto-Sparrow-Wallet-loic`. Uygun isim girildikten sonra, dalın oluşturulmasını onaylamak için `Dal oluştur`a tıklayın:
@@ -143,7 +143,7 @@ Makinenize yüklemeniz gerekir:
 - Python 3.8 veya üstü.
 
 
-Komut dosyasını kullanmak için, depolandığı klasöre gidin. Kod, Plan ₿ Network veri havuzunda şu yolda bulunur: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+Komut dosyasını kullanmak için, depolandığı klasöre gidin. Kod, Plan ₿ Academy veri havuzunda şu yolda bulunur: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 
 Klasöre girdikten sonra bağımlılıkları yükleyin:
@@ -203,7 +203,7 @@ Bu eylem, profesörünüzün UUID'sini ilgili alana otomatik olarak dolduracakt�
 Henüz bir profesör profiliniz yoksa, bu eğitime göz atın:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Ardından "Yeni Eğitim" düğmesine tıklayın.
 
@@ -229,7 +229,7 @@ Eğitiminiz için özel olarak oluşturulan dizin için bir ad seçin. Bu klasö
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-Proje_id`, [projeler listesinde] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) bulunan, eğitimde ele alınan aracın arkasındaki şirket veya kuruluşun UUID'sidir. Örneğin, Sparrow wallet ile ilgili bir eğitim için `project_id` dosyasını dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Network, Bitcoin veya ilgili projelerde aktif olan şirket ve kuruluşların bir veritabanını tutar. İlişkili `project_id` bilgisini ekleyerek içeriğinizi ilgili varlığa bağlamış olursunuz.
+Proje_id`, [projeler listesinde](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects) bulunan, eğitimde ele alınan aracın arkasındaki şirket veya kuruluşun UUID'sidir. Örneğin, Sparrow wallet ile ilgili bir eğitim için `project_id` dosyasını dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/Sparrow/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projelerde aktif olan şirket ve kuruluşların bir veritabanını tutar. İlişkili `project_id` bilgisini ekleyerek içeriğinizi ilgili varlığa bağlamış olursunuz.
 
 
 ***Güncelleme:*** Komut dosyasının yeni sürümünde, artık `proje_id`yi manuel olarak girmenize gerek yoktur. Projeyi adına göre bulmak ve ilgili `project_id`yi otomatik olarak almak için bir arama işlevi eklendi. Aramak için "Proje Adı" alanına proje adının baş harfini yazın, ardından açılır menüden istediğiniz şirketi seçin. Proje_id`si aşağıdaki alana otomatik olarak doldurulacaktır. Gerekirse manuel olarak da girebilirsiniz.
@@ -238,7 +238,7 @@ Proje_id`, [projeler listesinde] (https://github.com/PlanB-Network/Bitcoin-educa
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-Etiketler için, yalnızca [Plan ₿ Network etiket listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) seçerek eğitim içeriğinizle ilgili 2 veya 3 anahtar kelime seçin. Yazılım ayrıca açılır listeli bir anahtar kelime arama işlevi de sağlar.
+Etiketler için, yalnızca [Plan ₿ Academy etiket listesinden](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) seçerek eğitim içeriğinizle ilgili 2 veya 3 anahtar kelime seçin. Yazılım ayrıca açılır listeli bir anahtar kelime arama işlevi de sağlar.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -262,7 +262,7 @@ Bu Python betiği hakkında daha fazla bilgi için [README](https://github.com/P
 Dosya yöneticinizi açın ve deponuzun yerel klonunu temsil eden `Bitcoin-educational-content` klasörüne gidin. Bu klasörü genellikle `Documents\GitHub\Bitcoin-educational-content` altında bulmanız gerekir.
 
 
-Bu dizin içinde, öğreticinizi yerleştirmek için uygun alt klasörü bulmanız gerekecektir. Klasör organizasyonu Plan ₿ Network web sitesinin farklı bölümlerini yansıtmaktadır. Örneğimizde, Sparrow wallet hakkında bir eğitim eklemek istediğimizden, aşağıdaki yola gitmeliyiz: `Bitcoin-educational-content\tutorials\Wallet`, bu da web sitesindeki `Wallet` bölümüne karşılık gelir:
+Bu dizin içinde, öğreticinizi yerleştirmek için uygun alt klasörü bulmanız gerekecektir. Klasör organizasyonu Plan ₿ Academy web sitesinin farklı bölümlerini yansıtmaktadır. Örneğimizde, Sparrow wallet hakkında bir eğitim eklemek istediğimizden, aşağıdaki yola gitmeliyiz: `Bitcoin-educational-content\tutorials\Wallet`, bu da web sitesindeki `Wallet` bölümüne karşılık gelir:
 
 
 ![TUTO](assets/fr/12.webp)
@@ -340,23 +340,23 @@ reward:
 
 
 
-- id**: Öğreticiyi benzersiz bir şekilde tanımlayan bir UUID (_Universally Unique Identifier_). Bunu [çevrimiçi bir araç] (https://www.uuidgenerator.net/version4) kullanarak generate yapabilirsiniz. Tek gereklilik, platformdaki başka bir UUID ile çakışmayı önlemek için bu UUID'nin rastgele olmasıdır;
+- **id**: Öğreticiyi benzersiz bir şekilde tanımlayan bir UUID (*Universally Unique Identifier*). Bunu [çevrimiçi bir araç](https://www.uuidgenerator.net/version4) kullanarak generate yapabilirsiniz. Tek gereklilik, platformdaki başka bir UUID ile çakışmayı önlemek için bu UUID'nin rastgele olmasıdır;
 
 
 
-- project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Network, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
+- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
 
 
 
-- etiketler**: özel olarak [Plan ₿ Network etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **etiketler**: özel olarak [Plan ₿ Academy etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategori**: Plan ₿ Network web sitesi yapısına göre öğretici içeriğe karşılık gelen alt kategori (örneğin, cüzdanlar için: `masaüstü`, `donanım`, `mobil`, `yedekleme`);
+- **kategori**: Plan ₿ Academy web sitesi yapısına göre öğretici içeriğe karşılık gelen alt kategori (örneğin, cüzdanlar için: `masaüstü`, `donanım`, `mobil`, `yedekleme`);
 
 
 
-- seviye**: Öğreticinin zorluk seviyesi, aşağıdakiler arasından seçilir:
+- **seviye**: Öğreticinin zorluk seviyesi, aşağıdakiler arasından seçilir:
     - `başlangıç`
     - `intermediate`
     - `gelişmiş`
@@ -364,26 +364,26 @@ reward:
 
 
 
-- professor_id**: Profesör profilinizde] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
+- **professor_id**: Profesör profilinizde (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
 
 
 
-- original_language**: Öğreticinin orijinal dili (örneğin, `fr`, `en`, vb.);
+- **original_language**: Öğreticinin orijinal dili (örneğin, `fr`, `en`, vb.);
 
 
 
-- redaksiyon**: Düzeltme süreci hakkında bilgi. Kendi öğreticinizi düzeltmek ilk doğrulama olarak sayıldığından ilk bölümü tamamlayın:
-    - dil**: Düzeltme okumasının dil kodu (örneğin, `fr`, `en`, vb.).
-    - last_contribution_date**: Günün tarihi.
-    - aciliyet**: 1
-    - contributor_names**: GitHub kimliğiniz.
-    - ödül**: 0
+- **redaksiyon**: Düzeltme süreci hakkında bilgi. Kendi öğreticinizi düzeltmek ilk doğrulama olarak sayıldığından ilk bölümü tamamlayın:
+- **dil**: Düzeltme okumasının dil kodu (örneğin, `fr`, `en`, vb.).
+- **last_contribution_date**: Günün tarihi.
+- **aciliyet**: 1
+- **contributor_names**: GitHub kimliğiniz.
+- **ödül**: 0
 
 
 Öğretmen kimliğiniz hakkında daha fazla bilgi için lütfen ilgili eğitime bakın:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -501,7 +501,7 @@ Assets` klasöründeki dil alt klasörü, eğitiminize eşlik edecek diyagramlar
 Resimlerinizi adlandırmak için, öğreticideki görünüm sıralarına karşılık gelen numaraları iki basamaklı (veya öğreticiniz 99'dan fazla resim içeriyorsa üç basamaklı) olarak biçimlendirilmiş şekilde kullanın. Örneğin, ilk resminizi `01.webp`, ikincisini `02.webp` olarak adlandırın ve bu şekilde devam edin.
 
 
-Resimleriniz yalnızca `.webp` formatında olmalıdır. Gerekirse, [görüntü dönüştürme yazılımımı] (https://github.com/LoicPandul/ImagesConverter) kullanabilirsiniz.
+Resimleriniz yalnızca `.webp` formatında olmalıdır. Gerekirse, [görüntü dönüştürme yazılımımı](https://github.com/LoicPandul/ImagesConverter) kullanabilirsiniz.
 
 
 ![TUTO](assets/fr/26.webp)
@@ -518,19 +518,19 @@ Belgenize bir diyagram eklemek için aşağıdaki Markdown komutunu kullanın ve
 Baştaki ünlem işareti bunun bir resim olduğunu gösterir. Erişilebilirlik ve SEO'ya yardımcı olan alternatif metin parantezler arasına yerleştirilir. Son olarak, görsele giden yol parantezler arasında belirtilir.
 
 
-Kendi diyagramlarınızı oluşturmak isterseniz, görsel tutarlılığı sağlamak için Plan ₿ Network'in grafik tüzüğüne uyduğunuzdan emin olun:
+Kendi diyagramlarınızı oluşturmak isterseniz, görsel tutarlılığı sağlamak için Plan ₿ Academy'in grafik tüzüğüne uyduğunuzdan emin olun:
 
 
-- Yazı tipi**: IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) kullanın;
-- Renkler**:
+- **Yazı tipi**: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) kullanın;
+- **Renkler**:
  - Turuncu: #FF5C00
  - Siyah: #000000
  - Beyaz: #FFFFFF
 
 
-**Eğitimlerinize entegre edilen tüm görsellerin haklardan muaf olması veya kaynak dosyanın lisansına uyması zorunludur**. Ayrıca, Plan ₿ Network'da yayınlanan tüm diyagramlar, metinle aynı şekilde CC-BY-SA lisansı altında kullanıma sunulmaktadır.
+**Eğitimlerinize entegre edilen tüm görsellerin haklardan muaf olması veya kaynak dosyanın lisansına uyması zorunludur**. Ayrıca, Plan ₿ Academy'da yayınlanan tüm diyagramlar, metinle aynı şekilde CC-BY-SA lisansı altında kullanıma sunulmaktadır.
 
-**-> İpucu:** Görüntüler gibi dosyaları herkese açık olarak paylaşırken, gereksiz meta verileri kaldırmak önemlidir. Bunlar konum verileri, oluşturma tarihleri veya yazarla ilgili ayrıntılar gibi hassas bilgiler içerebilir. Gizliliğinizi korumak için bu meta verileri silmeniz önerilir. Bu işlemi basitleştirmek için, bir belgenin meta verilerinin basit bir sürükle-bırak yöntemiyle temizlenmesini sağlayan [Exif Cleaner] (https://exifcleaner.com/) gibi özel araçları kullanabilirsiniz.
+**-> İpucu:** Görüntüler gibi dosyaları herkese açık olarak paylaşırken, gereksiz meta verileri kaldırmak önemlidir. Bunlar konum verileri, oluşturma tarihleri veya yazarla ilgili ayrıntılar gibi hassas bilgiler içerebilir. Gizliliğinizi korumak için bu meta verileri silmeniz önerilir. Bu işlemi basitleştirmek için, bir belgenin meta verilerinin basit bir sürükle-bırak yöntemiyle temizlenmesini sağlayan [Exif Cleaner](https://exifcleaner.com/) gibi özel araçları kullanabilirsiniz.
 
 ## 7 - Eğitimi Kaydedin ve Gönderin
 
@@ -571,7 +571,7 @@ Yaptığınız değişikliklerin doğru olup olmadığını son bir kez kontrol 
 ![TUTO](assets/fr/32.webp)
 
 
-Çekme İsteği, şubenizdeki değişiklikleri Plan ₿ Network deposunun ana şubesine entegre etmek için yapılan bir taleptir ve bu da değişikliklerin birleştirilmeden önce gözden geçirilmesine ve tartışılmasına olanak tanır.
+Çekme İsteği, şubenizdeki değişiklikleri Plan ₿ Academy deposunun ana şubesine entegre etmek için yapılan bir taleptir ve bu da değişikliklerin birleştirilmeden önce gözden geçirilmesine ve tartışılmasına olanak tanır.
 
 
 GitHub'daki tarayıcınıza otomatik olarak Çekme İsteğinizin hazırlık sayfasına yönlendirileceksiniz:
@@ -584,7 +584,7 @@ Kaynak deposu ile birleştirmek istediğiniz değişiklikleri kısaca özetleyen
 ![TUTO](assets/fr/34.webp)
 
 
-PR'niz daha sonra ana Plan ₿ Network deposunun `Pull Request` sekmesinde görünür olacaktır. Tek yapmanız gereken, bir yöneticinin katkınızın birleştirilmesini onaylamak veya herhangi bir ek değişiklik talep etmek için sizinle iletişime geçmesini beklemektir.
+PR'niz daha sonra ana Plan ₿ Academy deposunun `Pull Request` sekmesinde görünür olacaktır. Tek yapmanız gereken, bir yöneticinin katkınızın birleştirilmesini onaylamak veya herhangi bir ek değişiklik talep etmek için sizinle iletişime geçmesini beklemektir.
 
 
 ![TUTO](assets/fr/35.webp)
@@ -606,7 +606,7 @@ PR'nizi gönderdikten sonra katkınızda değişiklik yapmak isterseniz, prosed�
 
 
 - PR'niz hala açıksa ve henüz birleştirilmediyse, aynı dalda kalarak değişiklikleri yerel olarak yapın. Değişiklikler tamamlandığında, hala açık olan PR'nize yeni bir commit eklemek için `Push origin` düğmesini kullanın;
-- PR'niz zaten ana dal ile birleştirildiyse, yeni bir dal oluşturarak ve ardından yeni bir PR göndererek süreci baştan başlatmanız gerekecektir. Devam etmeden önce yerel deponuzun Plan ₿ Network kaynak deposu ile senkronize olduğundan emin olun.
+- PR'niz zaten ana dal ile birleştirildiyse, yeni bir dal oluşturarak ve ardından yeni bir PR göndererek süreci baştan başlatmanız gerekecektir. Devam etmeden önce yerel deponuzun Plan ₿ Academy kaynak deposu ile senkronize olduğundan emin olun.
 
 
-Eğitiminizi gönderirken teknik zorluklarla karşılaşırsanız, [katkılar için özel Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) üzerinden yardım istemekten çekinmeyin. Teşekkürler!
+Eğitiminizi gönderirken teknik zorluklarla karşılaşırsanız, [katkılar için özel Telegram grubumuz](https://t.me/PlanBNetwork_ContentBuilder) üzerinden yardım istemekten çekinmeyin. Teşekkürler!

@@ -1,0 +1,9 @@
+question: Jaký je podle bezpečnostních expertů hlavní důvod toho, že výkonnostní chyby v Bitcoin mohou být potenciálně zneužity k vytvoření síťových oddílů?
+answer: Výkonnostní chyby mohou být strategicky rozmístěny tak, aby oddělily konkrétní těžaře a burzy od zbytku sítě, což umožňuje útoky typu double-spend
+wrong_answers:
+  - Chyby ve výkonu ovlivňují především dobu potvrzení transakcí, takže síť je pro obchodníky a uživatele nespolehlivá
+  - Chyby výkonu spotřebovávají nadměrné výpočetní zdroje, což nutí uzly k vypínání a snižuje decentralizaci sítě
+  - Chyby výkonu způsobují úniky paměti, které nakonec způsobí pád uzlů, což vede k dočasné nestabilitě sítě a snížení rychlosti hashování
+explanation: |
+  Gregory Maxwell výslovně varoval, že výkonnostní chyby lze při odborném nasazení využít ke strategickému rozdělení sítě - například k oddělení "těžaře A a burzy B" do jednoho oddílu, zatímco všichni ostatní přejdou do jiného, čímž se vytvoří podmínky pro útoky typu double-spend. To ukazuje, proč by se zdánlivě drobné problémy měly považovat za potenciálně závažné, protože mohou být využity jako zbraň sofistikovaným způsobem, který není okamžitě zřejmý.
+reviewed: false

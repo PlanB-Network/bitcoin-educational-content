@@ -20,7 +20,7 @@ Bu Wallet'in özelliği, alıcının e-posta Address'unu kullanarak bitcoin gön
 Proton Wallet'yi kullanmak için bir Proton hesabına ihtiyacınız var. Proton posta kutusu oluşturmaya adanmış bu eğitimin ilk adımlarını izleyerek ücretsiz olarak bir tane oluşturabilirsiniz (yalnızca "*Proton hesabı oluşturma*" bölümü). Hesabınız kurulduktan sonra, bu eğitimin geri kalanıyla devam edebilirsiniz.
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Proton Wallet'e bağlanın
 
@@ -100,7 +100,7 @@ Bunu bir kağıda yazabilirsiniz ya da daha fazla güvenlik için, yangından, s
 Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla bilgi için, özellikle de yeni başlayan biriyseniz, bu diğer öğreticiyi izlemenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Tabii ki, bu eğitimde yaptığımın aksine, bu kelimelerin fotoğrafını asla çekmemelisiniz.**_
 
@@ -141,7 +141,7 @@ Burası yeni bir Wallet'e bir BIP39 passphrase ekleyebileceğiniz yerdir.
 passphrase hakkındaki bilgilerinizi derinleştirmek için bu eğitimi tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Bitcoin alma
 
@@ -239,4 +239,4 @@ Tebrikler, artık Proton Wallet'i nasıl kuracağınızı ve kullanacağınızı
 Daha ileri gitmek için, Blockstream'in en yeni Hardware Wallet'ı Jade Plus hakkındaki bu öğreticiyi tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

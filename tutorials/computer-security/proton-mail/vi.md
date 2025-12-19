@@ -1,5 +1,5 @@
 ---
-name: Thư Proton
+name: Proton Mail
 description: Thiết lập hộp thư an toàn
 ---
 ![cover](assets/cover.webp)
@@ -90,7 +90,7 @@ Sử dụng trình quản lý mật khẩu là một giải pháp tuyệt vời.
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Sau đó quét mã QR bằng ứng dụng 2FA của bạn.
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Trong tab "*Ngôn ngữ và thời gian*" bạn có thể thay đổi ngôn ngữ và múi giờ của Interface.
 
@@ -306,7 +306,7 @@ Tab "*Bộ lọc*" cho phép bạn quản lý bộ lọc cho các email bạn nh
 
 
 
-Tab "Chuyển tiếp và trả lời tự động*" cho phép bạn quản lý việc chuyển tiếp và trả lời tự động cho email của mình.
+Tab "Chuyển tiếp và trả lời tự động" cho phép bạn quản lý việc chuyển tiếp và trả lời tự động cho email của mình.
 
 
 

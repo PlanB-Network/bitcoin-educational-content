@@ -14,7 +14,7 @@ U ovom vodiču pokrićemo proces kreiranja poslovnog naloga na Krakenu, kupovinu
 Ako ste zainteresovani za temu integracije Bitcoin u vaše poslovanje, takođe bih preporučio da otkrijete naš kompletan teorijski kurs obuke na tu temu:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Kreiranje korporativnog naloga na Kraken-u
 
@@ -87,8 +87,8 @@ Kada vaš nalog bude verifikovan, pristupićete platformi gde će vam biti ponu�
 
 
 
-- Kraken**: Pojednostavljena Interface ponuda sa osnovnom funkcionalnošću.
-- Kraken Pro**: Napredni Interface sa dodatnim funkcijama, posebno za trgovanje.
+- **Kraken**: Pojednostavljena Interface ponuda sa osnovnom funkcionalnošću.
+- **Kraken Pro**: Napredni Interface sa dodatnim funkcijama, posebno za trgovanje.
 
 
 Ako je vaš cilj isključivo kupovina i prodaja Bitcoin, odlučite se za pojednostavljeni Interface. Uvek ćete imati opciju prelaska na napredni Interface kasnije ako bude potrebno.
@@ -115,7 +115,7 @@ U opcijama za 2FA, možete izabrati da koristite fizički sigurnosni ključ kao 
 Za više informacija o tome kako koristiti ovu vrstu uređaja, pogledajte naš posvećeni vodič:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Druga opcija je korišćenje aplikacije za autentifikaciju kao što su Google Authenticator ili Authy. Ove aplikacije generate dinamički 6-cifreni kod koji ćete morati uneti svaki put kada se prijavljujete.
 
@@ -132,7 +132,7 @@ Da biste aktivirali ovu metodu, skenirajte QR kod pomoću aplikacije po vašem i
 Za više informacija o aplikacijama za autentifikaciju, možete takođe pogledati ovaj vodič:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ispod toga, takođe imate pristup naprednim podešavanjima, uključujući mogućnost postavljanja nekoliko različitih 2FA. Kraken nudi naprednu delegaciju sigurnosti putem 2FA. Ova funkcija vam omogućava da kreirate različite nivoe 2FA za razne akcije, kao što su prijava, validacija narudžbi i povlačenje sredstava. Ovo omogućava, na primer, da se računovođi omogući pristup određenim funkcionalnostima bez dozvole za povlačenje sredstava. Ovde su opcije:
 
@@ -233,9 +233,9 @@ Za ove transakcije, možete birati između različitih tipova naloga: *Market*, 
 
 
 
-- Tržište*: Omogućava trenutnu kupovinu po trenutnoj tržišnoj ceni;
-- Limit*: Omogućava vam da navedete kupovnu cenu, i nalog će biti izvršen samo ako tržišna cena dostigne ovaj iznos;
-- Stop-Loss*: Automatski prodaje kada cena dostigne određeni prag.
+- **Tržište**: Omogućava trenutnu kupovinu po trenutnoj tržišnoj ceni;
+- **Limit**: Omogućava vam da navedete kupovnu cenu, i nalog će biti izvršen samo ako tržišna cena dostigne ovaj iznos;
+- **Stop-Loss**: Automatski prodaje kada cena dostigne određeni prag.
 
 
 ## 7 - Upravljanje transakcijama i računovodstvo
@@ -320,4 +320,4 @@ U zavisnosti od ciljeva i strukture vaše kompanije, upotreba Krakena može vari
 Za detaljniji pregled ove teme, preporučujem ovaj sveobuhvatni kurs obuke o integraciji Bitcoin u poslovanje, koji detaljno pokriva dodavanje u tok gotovine, prihvatanje Bitcoin uplata i računovodstvo:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

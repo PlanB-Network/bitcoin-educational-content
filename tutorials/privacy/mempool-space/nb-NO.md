@@ -14,9 +14,9 @@ I Bitcoins tidlige dager var det nødvendig å kjøre en Bitcoin-node for å få
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Det er derfor satt i gang prosjekter for å utvide Bitcoin-fellesskapet og gjøre det mer tilgjengelig for alle som ikke eier en node og/eller ikke har de nødvendige tekniske ferdighetene.
 
@@ -46,13 +46,13 @@ Stadig mer utbredt bruk i økosystemet og det faktum at Mempool.space er åpen k
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Grunnleggende om Mempool.space
 
 
 
-Som nevnt ovenfor er [Mempool.space] (https://Mempool.space) en Bitcoin-protokollutforsker som lar deg overvåke transaksjonene dine og spredningen av dem i det valgte Bitcoin-nettverket i sanntid, fra en grafisk Interface.
+Som nevnt ovenfor er [Mempool.space](https://Mempool.space) en Bitcoin-protokollutforsker som lar deg overvåke transaksjonene dine og spredningen av dem i det valgte Bitcoin-nettverket i sanntid, fra en grafisk Interface.
 
 
 
@@ -64,10 +64,10 @@ I menylinjen finner du følgende nettverk:
 
 
 
-- Mainnet** : Det viktigste Bitcoin-nettverket der ekte Bitcoin-transaksjoner finner sted.
-- Signet**: Et testnettverk som bruker digitale signaturer til å validere blokker uten å kreve de samme ressursene som hovednettverket.
-- Testnet 3**: Et risikofritt test- og utviklingsnettverk på Bitcoin-protokollen.
-- Testnet 4** : Den nye versjonen av Testnet 3 gir større stabilitet og nye konsensusregler til testmiljøet.
+- **Mainnet**: Det viktigste Bitcoin-nettverket der ekte Bitcoin-transaksjoner finner sted.
+- **Signet**: Et testnettverk som bruker digitale signaturer til å validere blokker uten å kreve de samme ressursene som hovednettverket.
+- **Testnet 3**: Et risikofritt test- og utviklingsnettverk på Bitcoin-protokollen.
+- **Testnet 4**: Den nye versjonen av Testnet 3 gir større stabilitet og nye konsensusregler til testmiljøet.
 
 
 
@@ -142,9 +142,9 @@ På siden med transaksjonsdetaljer finner du generell informasjon om transaksjon
 
 
 
-- Status**: Bekreftet når den er lagt til i en blokk, ubekreftet når den venter i en Mempool.
-- Transaksjonsgebyrer**.
-- Anslått ankomsttid (ETA)** :  Den omtrentlige tiden det vil ta før transaksjonen din blir lagt til i en blokk. Den beregnes i henhold til forholdet som utgjør avgiftene knyttet til denne transaksjonen.
+- **Status**: Bekreftet når den er lagt til i en blokk, ubekreftet når den venter i en Mempool.
+- **Transaksjonsgebyrer**.
+- **Anslått ankomsttid (ETA)**: Den omtrentlige tiden det vil ta før transaksjonen din blir lagt til i en blokk. Den beregnes i henhold til forholdet som utgjør avgiftene knyttet til denne transaksjonen.
 
 
 
@@ -176,7 +176,7 @@ Oppdag de ulike Bitcoin-transaksjonsordningene for å forbedre konfidensialitete
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Gjør transaksjonene dine raskere
 
@@ -192,7 +192,7 @@ Heldigvis finnes det to metoder i Bitcoin-nettverket som gjør det mulig å få 
 
 
 
-- RBF** - Erstatning etter gebyr: En metode som lar deg bruke de samme posteringene som transaksjonen med lavt gebyr, men denne gangen ved å øke transaksjonsgebyret for å fremskynde valideringen. Den nye transaksjonen blir validert raskere og inkludert i en blokk, slik at transaksjonen med lav avgift blir ugyldig.
+- **RBF** - Erstatning etter gebyr: En metode som lar deg bruke de samme posteringene som transaksjonen med lavt gebyr, men denne gangen ved å øke transaksjonsgebyret for å fremskynde valideringen. Den nye transaksjonen blir validert raskere og inkludert i en blokk, slik at transaksjonen med lav avgift blir ugyldig.
 
 
 
@@ -200,11 +200,11 @@ Du kan utføre en gebyrerstatning med porteføljer som godtar denne mekanismen. 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent: En tilnærming inspirert av RBF, men på mottakersiden. Når transaksjonen der du er mottaker, blokkeres i en Mempool, har du muligheten til å bruke utgangene (UTXO) fra denne transaksjonen, til tross for at den ennå ikke er bekreftet, ved å allokere flere gebyrer til denne nye transaksjonen, slik at de gjennomsnittlige gebyrene - for transaksjonen der du er mottaker og den initierte transaksjonen - oppmuntrer utvinnere til å inkludere begge transaksjonene i en blokk.
+- **CPFP** - Child pay for parent: En tilnærming inspirert av RBF, men på mottakersiden. Når transaksjonen der du er mottaker, blokkeres i en Mempool, har du muligheten til å bruke utgangene (UTXO) fra denne transaksjonen, til tross for at den ennå ikke er bekreftet, ved å allokere flere gebyrer til denne nye transaksjonen, slik at de gjennomsnittlige gebyrene - for transaksjonen der du er mottaker og den initierte transaksjonen - oppmuntrer utvinnere til å inkludere begge transaksjonene i en blokk.
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Hvis alle disse begrepene virker litt for tekniske, anbefaler jeg at du [konsulterer ordlisten vår] (https://planb.network/resources/glossary), som inneholder definisjoner av alle faguttrykk knyttet til Bitcoin og økosystemet.
+Hvis alle disse begrepene virker litt for tekniske, anbefaler jeg at du [konsulterer ordlisten vår](https://planb.academy/resources/glossary), som inneholder definisjoner av alle faguttrykk knyttet til Bitcoin og økosystemet.
 
 
 
@@ -235,7 +235,7 @@ En Miner refererer til en person som administrerer en mine, dvs. en datamaskin s
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 miners er som "validatorer" som verifiserer og grupperer transaksjoner i blokker. For å legge til en ny blokk i Bitcoin-nettverket må de løse et komplisert matematisk puslespill (Proof-of-Work). Den første Miner som løser gåten, vinner en Bitcoin-belønning (blokktilskudd + avgifter for transaksjoner som er inkludert i blokken).
 
@@ -372,4 +372,4 @@ Nå som du har nådd slutten av reisen din på Mempool.space, kan du bli din ege
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

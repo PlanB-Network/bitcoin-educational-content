@@ -1,0 +1,9 @@
+question: Wie nennt man die Menge der Rechner, auf denen eine Bitcoin-Implementierung läuft und die miteinander verbunden sind?
+answer: Das Bitcoin-Netz
+wrong_answers:
+  - Das Bitcoin-Protokoll
+  - Bitcoin Währung
+  - Der Blockchain Bitcoin
+explanation: |
+  Das Bitcoin-Netz umfasst alle angeschlossenen Knoten, von denen jeder eine eigene Implementierung des Protokolls verwendet.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Какво е името на емблематичния талисман на Linux?
+answer: Смокинг
+wrong_answers:
+  - Дюк
+  - Beastie
+  - daemon
+explanation: |
+  Такс е официалният талисман на ядрото на Linux от 1996 г. насам, създаден от Лари Юинг.
+reviewed: false

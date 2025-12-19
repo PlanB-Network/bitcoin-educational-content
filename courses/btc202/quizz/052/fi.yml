@@ -1,0 +1,9 @@
+question: Mikä on Electrsin ja Fulcrumin suurin ero?
+answer: Electrs on kompaktimpi, Fulcrum on tehokkaampi
+wrong_answers:
+  - Electrs ei ole ilmainen, Fulcrum on ilmainen
+  - Fulcrum ei tue Electrum-protokollaa
+  - Electrs on patentoitu, Fulcrum on avointa lähdekoodia
+explanation: |
+  Electrs käyttää vähemmän levytilaa, kun taas Fulcrum vastaa pyyntöihin nopeammin mutta kuluttaa enemmän resursseja.
+reviewed: true

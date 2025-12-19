@@ -1,12 +1,12 @@
 ---
 name: Attakaï
 
-description: transforming an S9 into a home heating system
+description: Transformation of an S9 into a home heater
 ---
 
 ![cover](assets/cover.webp)
 
-# Attakai - making home mining possible and accessible!
+## Attakaï - home mining made possible and accessible!
 
 The "Attakaï" initiative explores Bitcoin mining using the generated heat. The guide offers solutions to make miners suitable for use as radiators in homes, providing more comfort and energy savings. Bitcoin automatically adjusts the mining difficulty and rewards miners for their work. However, the concentration of hashrate can pose risks to network neutrality. "Attakaï" provides a practical guide for retrofitting miners economically, allowing participants to reduce their electricity bills and be rewarded with sats without KYC.
 
@@ -32,7 +32,6 @@ Bitcoin and its proof of work stand out because they automatically adjust the mi
 
 In summary, an electric radiator and a Bitcoin miner both produce 1 kW of heat for 1 kW of electricity consumed. However, the miner also receives bitcoins as a reward. Regardless of the price of electricity, the price of bitcoin, or the competition of mining activity on the Bitcoin network, it is economically more advantageous to heat with a miner rather than an electric radiator.
 
-![Video presentation](https://youtu.be/gKoh44UCSnE)
 
 ### The added value for Bitcoin
 
@@ -66,40 +65,40 @@ The Antminer S9 comes in several variations (i, j) that bring minor modification
 
 The price of ASICs varies depending on many factors such as the price of bitcoin, network difficulty, machine efficiency, and electricity cost. Therefore, it is difficult to give an accurate estimate for purchasing a used machine. In February 2023, the expected price in France generally ranges between €100 and €200, but these prices are subject to change rapidly.
 
-![image](assets/guide-achat/1.webp)
+![image](assets/fr/001.webp)
 
 The Antminer S9 is composed of the following parts:
 
 - 3 hashboards where the chips that produce the hashing power are located
 
-![image](assets/guide-achat/2.webp)'
+![image](assets/fr/002.webp)'
 
 - A control board that includes a slot for an SD card, an Ethernet port, and connectors for hashboards and fans. This is the brain of your ASIC.
-  ![image](assets/guide-achat/3.webp)
+  ![image](assets/fr/003.webp)
 
 - 3 data cables that connect the hashboards to the control board.
 
-![image](assets/guide-achat/4.webp)
+![image](assets/fr/004.webp)
 
 - The power supply that operates on 220V and can be plugged in like a regular household appliance.
 
-![image](assets/guide-achat/5.webp)
+![image](assets/fr/005.webp)
 
 - 2 120mm fans.
 
-![image](assets/guide-achat/6.webp)
+![image](assets/fr/006.webp)
 
 - A male C13 cable.
 
-![image](assets/guide-achat/7.webp)
+![image](assets/fr/007.webp)
 
 When buying a used machine, it is important to check that all parts are included and functional. During the exchange, you should ask the seller to turn on the machine to verify its proper functioning. It is important to check that the device turns on correctly, and then check the internet connectivity by connecting an Ethernet cable and accessing the Bitmain connection interface via a web browser on the same local network. You can find this IP address by connecting to your internet router interface and looking for connected devices. This address should have the following format: 192.168.x.x
 
-![image](assets/guide-achat/8.webp)
+![image](assets/fr/008.webp)
 
 Also, check that the default credentials work (username: root, password: root). If the default credentials do not work, you will need to perform a machine reset.
 
-![image](assets/guide-achat/9.webp)
+![image](assets/fr/009.webp)
 
 Once connected, you should be able to see the status of each hashboard on the dashboard. If the miner is connected to a pool, you should see all the hashboards functioning. It is important to note that miners make a lot of noise, which is normal. Also, make sure the fans are functioning properly.
 
@@ -111,7 +110,7 @@ To summarize this guide in one sentence:
 
 ## Chapter 2: Buying Guide for Modification Parts
 
-![image](assets/piece/1.webp)
+![image](assets/fr/010.webp)
 
 ### How to transform your Antminer S9 into a silent and connected heater?
 
@@ -121,26 +120,26 @@ If you own an Antminer S9, you probably know how loud and bulky it can be. Howev
 
 The original fans of the Antminer S9 are too loud to use it as a heater. The solution is to replace them with quieter fans. Our team has tested several models from the Noctua brand and selected the Noctua NF-A14 iPPC-2000 PWM as the best compromise. Be sure to choose the 12V version of the fans. This 140mm fan can produce up to 1300W of heat while maintaining a theoretical noise level of 31 dB. To mount these 140mm fans, you will need a 140mm to 120mm adapter, which you can find on the DécouvreBitcoin store. We will also add 140mm protective grilles.
 
-![image](assets/piece/1.webp)
-![image](assets/piece/2.webp)
-![image](assets/piece/3.webp)
+![image](assets/fr/010.webp)
+![image](assets/fr/011.webp)
+![image](assets/fr/012.webp)
 
 The power supply fan is also quite noisy and needs to be replaced. We recommend the Noctua NF-A6x25 PWM. Note that the connectors of the Noctua fans are not the same as the original ones, so you will need a connector adapter to connect them. Two should be enough. Again, make sure to choose the 12V version of the fan.
 
-![image](assets/piece/4.webp)
-![image](assets/piece/5.webp)
+![image](assets/fr/013.webp)
+![image](assets/fr/014.webp)
 
 ### 2. Add a WIFI/Ethernet bridge
 
 Instead of using an Ethernet cable, you can connect your Antminer to WIFI by adding a WIFI/Ethernet bridge. We have selected the vonets vap11g-300 because it easily allows you to retrieve the WIFI signal from your Internet box and transmit it to your Antminer via Ethernet without creating a subnet. If you have electrical skills, you can power it directly with the Antminer's power supply without the need to add a USB charger. For this, you will need a female 5.5mmx2.1mm jack.
 
-![image](assets/piece/6.webp)
-![image](assets/piece/7.webp)
+![image](assets/fr/015.webp)
+![image](assets/fr/016.webp)
 
 ### 3. Optional: Add a smart plug
 
 If you want to turn on/off your Antminer from your smartphone and monitor its power consumption, you can add a smart plug. We tested the ANTELA plug in the 16A version, compatible with the smartlife application. This smart plug allows you to check the daily and monthly power consumption and connects directly to your Internet box via WIFI.
-![image](assets/piece/8.webp)
+![image](assets/fr/017.webp)
 
 **List of equipment and links:**
 
@@ -174,96 +173,96 @@ We will start by replacing the power supply fan.
 
 **Note**: First and foremost, before starting, make sure you have unplugged your miner to avoid any risk of electrocution.
 
-![image](assets/hardware/1.webp)
+![image](assets/fr/040.webp)
 
 We will start by replacing the power supply fan.
 
 First, remove the 6 screws on the side of the case that hold it closed. Once the screws are removed, gently open the case to remove the plastic cover that protects the components.
 
-![image](assets/hardware/2.webp)
-![image](assets/hardware/3.webp)'
+![image](assets/fr/041.webp)
+![image](assets/fr/042.webp)'
 Next, it is time to remove the original fan, taking care not to damage the other components. To do this, remove the screws holding it in place and gently peel off the white glue surrounding the connector. It is important to proceed delicately to avoid damaging the wires or connectors.
-![image](assets/hardware/4.webp)
+![image](assets/fr/043.webp)
 
 Once the original fan is removed, you will notice that the connectors of the new Noctua fan do not match those of the original fan. Indeed, the new fan has 3 wires, including a yellow wire that allows for speed control. However, this wire will not be used in this specific case. To connect the new fan, it is recommended to use a special adapter. However, it is important to note that this adapter can sometimes be difficult to find.
 
-![image](assets/hardware/5.webp)
+![image](assets/fr/044.webp)
 
 If you do not have this adapter, you can still proceed to connect the new fan using a wire nut. To do this, you will need to cut the cables of the old and new fan.
 
-![image](assets/hardware/6.webp)
-![image](assets/hardware/7.webp)
+![image](assets/fr/045.webp)
+![image](assets/fr/046.webp)
 
 On the new fan, use a cutter and carefully cut the contours of the main sheath at 1cm without cutting the sheaths of the cables below.
 
-![image](assets/hardware/8.webp)
+![image](assets/fr/047.webp)
 
 Then, by pulling the main sheath downwards, cut the sheaths of the red and black cables in the same way as before. And cut the yellow cable flush.
 
-![image](assets/hardware/9.webp)
+![image](assets/fr/048.webp)
 
 On the old fan, it is more delicate to cut the main sheath without damaging the sheaths of the red and black wires. For this, we used a needle that we slid between the main sheath and the red and black wires.
 
-![image](assets/hardware/10.webp)
-![image](assets/hardware/11.webp)
+![image](assets/fr/049.webp)
+![image](assets/fr/050.webp)
 
 Once the red and black wires are exposed, cut the sheaths carefully to avoid damaging the electrical wires.
 
-![image](assets/hardware/12.webp)
+![image](assets/fr/051.webp)
 
 Then, connect the cables with a wire nut, the black wire with the black and the red wire with the red. You can also add electrical tape.
 
-![image](assets/hardware/13.webp)
-![image](assets/hardware/14.webp)
+![image](assets/fr/052.webp)
+![image](assets/fr/053.webp)
 
 Once the connection is made, it is time to install the new Noctua fan with the grille and the old screws, the new screws that are in the box will be reused later. Make sure to place it with the correct orientation. You will notice an arrow on one side of the fan, indicating the direction of the airflow. It is important to place the fan so that this arrow points towards the inside of the case. Then, reconnect the fan.
-![image](assets/hardware/15.webp)
-![image](assets/hardware/16.webp)
+![image](assets/fr/054.webp)
+![image](assets/fr/055.webp)
 
 **Optional:** If you are skilled in electricity, you can directly add a female 5.5mm jack connector to the 12V power output, which will allow you to directly power the Vonet Wi-Fi bridge. However, if you are unsure of your electrical skills, it is best to use the USB connector with a smartphone charger to avoid any risk of short circuit or electrical damage.
 
-![image](assets/hardware/17.webp)
+![image](assets/fr/056.webp)
 
 Once the connections are made, make sure to place the plastic cover over the plastic casing and not inside.
 
-![image](assets/hardware/18.webp)
+![image](assets/fr/057.webp)
 
 Finally, put the casing cover back in place and screw the 6 screws on the sides to hold everything securely in place. And there you have it, your power supply casing is now equipped with a new fan.
 
 ### Replacement of the 2 main fans
 
-1. First, unplug the fans and unscrew them.
-   ![image](assets/hardware/19.webp)
+- First, unplug the fans and unscrew them.
+   ![image](assets/fr/058.webp)
 
-2. The connectors of the new Noctua fans do not match the original ones, but don't panic! Take out your cutter and carefully cut the small plastic tabs so that the connectors fit perfectly with your miner.
+- The connectors of the new Noctua fans do not match the original ones, but don't panic! Take out your cutter and carefully cut the small plastic tabs so that the connectors fit perfectly with your miner.
 
-![image](assets/hardware/20.webp)
-![image](assets/hardware/21.webp)
+![image](assets/fr/059.webp)
+![image](assets/fr/060.webp)
 
-3. It's time to install the 3D parts!
+- It's time to install the 3D parts!
    Attach them on both sides of the miner using the screws that you removed from the fans. Screw until the screw head goes into the 3D part and it is securely held in place. Be careful not to tighten too much, as you could deform the part and one of the screws may touch a capacitor! Then carefully cut the small plastic tabs so that the connectors fit perfectly with your miner.
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
-4. Now let's move on to the fans.
+- Now let's move on to the fans.
    Attach them to the 3D parts using the screws provided in the box. Pay attention to the direction of air flow, the arrows on the sides of the fans will indicate the direction to follow. Go from the Ethernet port side to the other side. See photo below.
 
-![image](assets/hardware/23.webp)
-![image](assets/hardware/24.webp)
-![image](assets/hardware/25.webp)
+![image](assets/fr/062.webp)
+![image](assets/fr/063.webp)
+![image](assets/fr/064.webp)
 
-5. Last step: plug in the fans and attach the grilles on top with the unused screws from the fan box. You only have 4, but 2 per grille in opposite corners will be enough. You can also look for other similar screws in a hardware store if needed.
+- Last step: plug in the fans and attach the grilles on top with the unused screws from the fan box. You only have 4, but 2 per grille in opposite corners will be enough. You can also look for other similar screws in a hardware store if needed.
 
-![image](assets/hardware/26.webp)
-![image](assets/hardware/27.webp)
+![image](assets/fr/065.webp)
+![image](assets/fr/066.webp)
 
 While waiting to be able to offer a sexier casing for your new heater, you can attach the case and the power supply together with electrician's cable ties.
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 And for the finishing touch, connect the Vonet bridge to the Ethernet port on its power supply. If you haven't done so already, you can follow this tutorial to set up your bridge.
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 And there you have it, congratulations! You have just replaced the entire mechanical part of your miner. You should now hear much less noise.
 
@@ -277,7 +276,7 @@ This method can be applied within 10 minutes after starting the miner.
 
 After turning on the miner for 2 minutes, please press the "Reset" button for 5 seconds, then release it. The miner will be restored to factory settings within 4 minutes and will automatically restart (there is no need to turn it off).
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 Restore via web side
 
@@ -289,7 +288,7 @@ For this part, we will assume that the machine is working, running, and its orig
 
 First, connect to your machine through your local network:
 
-![image](assets/software/2.webp)
+![image](assets/fr/019.webp)
 
 Once on the login page, you will need to log in to the ASIC using the default credentials:
 
@@ -300,11 +299,11 @@ Once on the login page, you will need to log in to the ASIC using the default cr
 
 The main operating system is relatively basic. With the 4 tabs: System, Miner Configuration, Miner Status, Network. In the Miner Configuration tab, you can configure up to 3 mining pools.
 
-![image](assets/software/3.webp)
+![image](assets/fr/020.webp)
 
 In the Miner Status tab, you can observe various information about the live operation of the ASIC. The hashrate expressed in GH/s, more detailed information about the pool, as well as details about the status of each hashboard and the fan speed in rotations/minute.
 
-![image](assets/software/4.webp)
+![image](assets/fr/021.webp)
 
 ### Braiins OS+
 
@@ -327,45 +326,45 @@ Installing Braiins OS+ directly on the memory of the Antminer
 
 Learn how to easily install Braiins OS+ directly on the memory of your Antminer using BOS toolbox, replacing the original operating system, through the detailed steps below. If you want to keep the original OS in parallel, you can install Braiins OS+ on an SD card.
 
-1. Power on your Antminer and connect it to your internet box.
-2. Download BOS toolbox Windows / Linux.
-3. Unzip the downloaded file and open the bos-toolbox.bat file, choose the language, and after a moment you will see this window:
-   ![image](assets/software/5.webp)
-4. Bos toolbox will allow you to easily find the IP address of your Antminer and install Braiins OS+. If you already know the IP address of your machine, you can skip to step 8. Otherwise, go to the scan tab.
-   ![image](assets/software/6.webp)
-5. Usually, on home networks, the IP address range is between 192.168.1.1 and 192.168.1.255, so enter "192.168.1.0/24" in the IP range field. If your network is different, please change these addresses. Then click on "Start".
-6. Attention, if the Antminer has a password, the detection will not work. If that's the case, the simplest solution is to perform a factory reset.
-7. You should see all the Antminers on your network, here the IP address is 192.168.1.37.
-   ![image](assets/software/7.webp)
-8. Click on Back, then go to the install tab, enter the previously found IP address in the Miner(s) field and "admin" (or "root") in the Password field, which is the default password, then click on "Start".
+- Power on your Antminer and connect it to your internet box.
+- Download BOS toolbox Windows / Linux.
+- Unzip the downloaded file and open the bos-toolbox.bat file, choose the language, and after a moment you will see this window:
+   ![image](assets/fr/022.webp)
+- Bos toolbox will allow you to easily find the IP address of your Antminer and install Braiins OS+. If you already know the IP address of your machine, you can skip to step 8. Otherwise, go to the scan tab.
+   ![image](assets/fr/023.webp)
+- Usually, on home networks, the IP address range is between 192.168.1.1 and 192.168.1.255, so enter "192.168.1.0/24" in the IP range field. If your network is different, please change these addresses. Then click on "Start".
+- Attention, if the Antminer has a password, the detection will not work. If that's the case, the simplest solution is to perform a factory reset.
+- You should see all the Antminers on your network, here the IP address is 192.168.1.37.
+   ![image](assets/fr/024.webp)
+- Click on Back, then go to the install tab, enter the previously found IP address in the Miner(s) field and "admin" (or "root") in the Password field, which is the default password, then click on "Start".
    If the installation does not work with "admin" or "root" as the password, it may be necessary to perform a factory reset and try again.
-   ![image](assets/software/8.webp)
-9. After a few moments, your Antminer will restart and you will be able to access the Braiins OS+ interface at the IP address in question, here 192.168.1.37, directly in the address bar of your browser. The default username is "root" and there is no default password.
-   ![image](assets/software/9.webp)
-   ![image](assets/software/10.webp)
+   ![image](assets/fr/025.webp)
+- After a few moments, your Antminer will restart and you will be able to access the Braiins OS+ interface at the IP address in question, here 192.168.1.37, directly in the address bar of your browser. The default username is "root" and there is no default password.
+   ![image](assets/fr/026.webp)
+   ![image](assets/fr/027.webp)
 
 Installing Braiins OS+ on an SD card is the second method, it uses the original interface of your Antminer. This method works for machines with an operating system dating from before 2019.
 
 ### Antminer Interface
 
-1. Download the new operating system to be installed.
-2. As in the previous section, connect to your machine through your local network.
-3. Go to the System tab and then Upgrade.
-4. Load the file you downloaded and flash the image.
+- Download the new operating system to be installed.
+- As in the previous section, connect to your machine through your local network.
+- Go to the System tab and then Upgrade.
+- Load the file you downloaded and flash the image.
 
-![image](assets/software/11.webp)
+![image](assets/fr/028.webp)
 
 ### Micro SD Card
 
 A second method allows you to use a micro SD card. This method only works with machines with an operating system dating from after 2019.
 
-1. Download the new operating system to be installed.
-2. Flash the downloaded image onto a micro SD card. For this, you can use Etcher. Simply copying the file to the micro SD card will not work.
-3. If you own an Antminer S9 and its variations (S9i, S9j), you will need to adjust jumpers to force your ASIC to boot from the file on the micro SD card instead of the NAND. If you have a different model, you can skip to part 4. The jumpers are located on the control board on the top part of the ASIC, near the Ethernet port. You will need to remove it by sliding it backwards. Once the jumper position is modified as shown in the images below BOOT FROM SD, you can reinsert the control board and reconnect the S9.
-   ![image](assets/software/12.webp)
-   ![image](assets/software/13.webp)
-4. Insert the micro SD card into the ASIC.
-5. Start the ASIC. If the automatic installation version was used, the new operating system will be installed automatically. The installation is complete when both LEDs light up at the same time. You can restart the ASIC and remove the micro SD card. If the other version was downloaded, you will need to leave the micro SD card inside the ASIC.
+- Download the new operating system to be installed.
+- Flash the downloaded image onto a micro SD card. For this, you can use Etcher. Simply copying the file to the micro SD card will not work.
+- If you own an Antminer S9 and its variations (S9i, S9j), you will need to adjust jumpers to force your ASIC to boot from the file on the micro SD card instead of the NAND. If you have a different model, you can skip to part 4. The jumpers are located on the control board on the top part of the ASIC, near the Ethernet port. You will need to remove it by sliding it backwards. Once the jumper position is modified as shown in the images below BOOT FROM SD, you can reinsert the control board and reconnect the S9.
+   ![image](assets/fr/029.webp)
+   ![image](assets/fr/030.webp)
+- Insert the micro SD card into the ASIC.
+- Start the ASIC. If the automatic installation version was used, the new operating system will be installed automatically. The installation is complete when both LEDs light up at the same time. You can restart the ASIC and remove the micro SD card. If the other version was downloaded, you will need to leave the micro SD card inside the ASIC.
 
 For more information on installation, you can visit this section of the Braiins website.
 
@@ -382,7 +381,7 @@ You will then be greeted by the Brains OS+ Dashboard.
 
 ### Dashboard
 
-![image](assets/software/14.webp)
+![image](assets/fr/031.webp)
 
 On this first page, you can observe the real-time performance of your machine.
 
@@ -390,7 +389,7 @@ On this first page, you can observe the real-time performance of your machine.
 - On the right, the real hashrate, average chip temperature, estimated efficiency in W/THs, and power consumption.
 - Below, the fan speed in percentage of maximum speed and the number of rotations per minute.
 
-![image](assets/software/15.webp)
+![image](assets/fr/032.webp)
 
 - Further down, you will find a detailed view of each hashboard. The average temperature of the board and the chips it contains, voltage, and frequency.
 - Details on the active mining pools in Pools.
@@ -399,17 +398,17 @@ On this first page, you can observe the real-time performance of your machine.
 
 ### Configuration
 
-![image](assets/software/16.webp)
+![image](assets/fr/033.webp)
 
 ### System
 
-![image](assets/software/17.webp)
+![image](assets/fr/034.webp)
 
 ### Quick actions
 
-![image](assets/software/18.webp)
+![image](assets/fr/035.webp)
 
-Configuring a pool
+## Pool Configuration
 
 One can imagine a mining pool as an agricultural cooperative. Farmers pool their production together to reduce the variance of supply and demand and thus obtain more stable income for their operation. A mining pool works in the same way, and the raw material pooled together are hashes. In fact, the discovery of a single valid hash allows the creation of a block and thus winning the coinbase or the reward, currently 3.125 BTC plus the transaction fees included in the block. If you mine alone, you will only be rewarded when you find a block. Being in competition against all other miners on the planet, you would have very little chance of winning this big lottery and you would still have to pay the fees associated with using your miner without any guarantee of success. Mining pools address this issue by pooling the computing power of several (thousands) of miners and sharing their rewards based on the percentage of participation in the pool's hashrate when a block is found. To visualize your chances of mining a block alone, you can use this tool. By entering the information of an Antminer S9, we can see that the chances of finding a hash that allows the creation of a block are 1 in 24,777,849 for each block or 1 in 172,068 per day. On average (with a constant hashrate and difficulty), it would take 471 years to find a block.
 
@@ -426,17 +425,17 @@ The reward model that interests us is PPS, which stands for "pay-per-share". Thi
 
 To configure a pool in Braiins 0S+, you will need to create an account in one of the pools of your choice. Here we will take the example of Linecoin:
 
-![image](assets/software/19.webp)
+![image](assets/fr/036.webp)
 
 Once your account is created, click on Connect To Pool
 
 Then copy the Stratum address as well as your username:
 
-![image](assets/software/20.webp)
+![image](assets/fr/037.webp)
 
 You can now return to the Braiins OS+ interface to enter these credentials. For the password, you can leave the field blank.
 
-![image](assets/software/21.webp)
+![image](assets/fr/038.webp)
 
 ### Overclocking and Underclocking
 
@@ -458,3 +457,5 @@ This puts an upper limit on the hash rate that a machine can have. Autotuning is
 The end result is a higher hash rate per watt of electricity, which means larger profit margins for miners. The reason why machines are not distributed with this type of software is that machine variance is undesirable, as customers want to know exactly what they are getting, and it is therefore a bad idea for manufacturers to sell a product that does not have consistent and predictable performance from one machine to another. Additionally, chip-level autotuning requires considerable development resources, as it is complex to implement. Manufacturers already spend a lot of resources developing their own firmwares. There are software solutions that allow for autotuning, such as Braiins OS+. In addition to improving ASIC performance by up to 20%.
 
 This guide has been created by DecouvreBitcoin, more info on MIN201 - credit Jim and Ajelex
+
+

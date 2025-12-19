@@ -137,11 +137,11 @@ Sada imate pristup softveru Interface.
 Pre nego što počnete, ako je vaš Ledger nov, uverite se da ste postavili PIN kod i sačuvali frazu za oporavak. Za ove početne korake vam nije potreban Ledger Live. Jednostavno povežite vaš Ledger putem USB kabla da biste ga napajali. Ako niste sigurni kako da nastavite sa ova dva koraka, možete se obratiti početku tutorijala specifičnog za vaš model:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## Korišćenje Bacca
 
@@ -197,4 +197,4 @@ Ako ste smatrali ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green
 Preporučujem vam da pogledate ovaj vodič o GnuPG-u, koji objašnjava kako proveriti integritet i autentičnost vašeg softvera pre nego što ga instalirate. Ovo je važna praksa, posebno kada instalirate Wallet upravljački softver kao što su Liana ili Sparrow :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

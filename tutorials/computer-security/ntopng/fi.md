@@ -160,9 +160,9 @@ Tässä näkyy 3 liitäntää:
 
 
 
-- Lo**: tämä on loopback Interface; se on virtuaalinen Interface, joka "silmukoi" laitteiden yli. Periaatteessa tätä Interface:a, jonka Address on 127.0.0.1 (vaikka mikä tahansa Address 127.0.0.0.0/8:ssa kelpaa, koska tämä alue on varattu tätä tarkoitusta varten), käytetään yhteydenottoon itse laitteeseen. Jos olet asentanut web-sivuston työasemallesi (esimerkiksi WAMPP:n avulla), olet luultavasti käyttänyt "*localhost*"-osoitetta Address:ää jossain vaiheessa näyttääksesi omalla koneellasi isännöidyn sivuston. Tämä isäntänimi liittyy Address:n 127.0.0.0.1:een ja siten Interface:n silmukkaverkkoon.
-- ens33**: tämä on ensimmäinen Interface:ni, joka sai Address:n DHCP:ltä
-- ens36**: toinen Interface
+- **Lo**: tämä on loopback Interface; se on virtuaalinen Interface, joka "silmukoi" laitteiden yli. Periaatteessa tätä Interface:a, jonka Address on 127.0.0.1 (vaikka mikä tahansa Address 127.0.0.0.0/8:ssa kelpaa, koska tämä alue on varattu tätä tarkoitusta varten), käytetään yhteydenottoon itse laitteeseen. Jos olet asentanut web-sivuston työasemallesi (esimerkiksi WAMPP:n avulla), olet luultavasti käyttänyt "*localhost*"-osoitetta Address:ää jossain vaiheessa näyttääksesi omalla koneellasi isännöidyn sivuston. Tämä isäntänimi liittyy Address:n 127.0.0.0.1:een ja siten Interface:n silmukkaverkkoon.
+- **ens33**: tämä on ensimmäinen Interface:ni, joka sai Address:n DHCP:ltä
+- **ens36**: toinen Interface
 
 
 
@@ -211,8 +211,8 @@ Seuraavassa on joitakin selityksiä näistä ensimmäisistä muutoksista:
 
 
 
-- auto *Interface***: käynnistää Interface:n automaattisesti järjestelmän käynnistyessä
-- iface *Interface* inet manual**: Interface:n käyttö ilman IP Address:tä. Kuten avainsana "static" määrittää staattisen IP Address:n tai "dhcp" käyttää dynaamista osoitteistusta
+- auto **Interface**: käynnistää Interface:n automaattisesti järjestelmän käynnistyessä
+- iface *Interface* inet **manual**: Interface:n käyttö ilman IP Address:tä. Kuten avainsana "static" määrittää staattisen IP Address:n tai "dhcp" käyttää dynaamista osoitteistusta
 
 
 
@@ -239,10 +239,10 @@ Seuraavassa on jälleen muutama selitys:
 
 
 
-- iface br0 inet static**: Tässä olen määritellyt Interface-siltani (*br0*) staattisen Address:n kanssa.
-- Address, verkkomassa, yhdyskäytävä**: piirilevyn osoitetiedot
-- bridge_ports**: siltaan sisällytettävät rajapinnat
-- bridge_stp**: Spanning Tree -protokollaa käytetään kytkimiä yhdistettäessä, jotta voidaan havaita redundantit linkit ja välttää silmukat. Koska silta voidaan asettaa kahden verkkopolun väliin, se voi olla silmukan lähde, minkä vuoksi tämä protokolla voidaan ottaa käyttöön. En tarvitse sitä täällä, joten poistan sen käytöstä.
+- **iface br0 inet static**: Tässä olen määritellyt Interface-siltani (*br0*) staattisen Address:n kanssa.
+- **Address, verkkomassa, yhdyskäytävä**: piirilevyn osoitetiedot
+- **bridge_ports**: siltaan sisällytettävät rajapinnat
+- **bridge_stp**: Spanning Tree -protokollaa käytetään kytkimiä yhdistettäessä, jotta voidaan havaita redundantit linkit ja välttää silmukat. Koska silta voidaan asettaa kahden verkkopolun väliin, se voi olla silmukan lähde, minkä vuoksi tämä protokolla voidaan ottaa käyttöön. En tarvitse sitä täällä, joten poistan sen käytöstä.
 
 
 
@@ -281,8 +281,8 @@ Oletusarvoisesti pakettilähteet sisältävät vain DFSG (*Debian Free Sotftware
 
 
 
-- contrib**: paketit, jotka sisältävät DFSG-yhteensopivia ohjelmistoja, mutta käyttävät riippuvuuksia, jotka eivät ole osa **main**-haaraa
-- non-free**: sisältää paketteja, jotka eivät ole DFSG-yhteensopivia
+- **contrib**: paketit, jotka sisältävät DFSG-yhteensopivia ohjelmistoja, mutta käyttävät riippuvuuksia, jotka eivät ole osa **main**-haaraa
+- **non-free**: sisältää paketteja, jotka eivät ole DFSG-yhteensopivia
 
 
 
@@ -442,7 +442,7 @@ Näytän, että käynnistän YouTube-videon isännälläni:
 
 
 
-**Liikenne tunnistettiin ja luokiteltiin välittömästi!
+**Liikenne tunnistettiin ja luokiteltiin välittömästi!**
 
 
 

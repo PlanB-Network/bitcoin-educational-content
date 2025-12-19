@@ -1,0 +1,9 @@
+question: CAP 트릴레마에서 고객 측 유효성 검사와 가용성 간의 절충점은 무엇인가요?
+answer: 각 참가자는 관련 데이터를 로컬에 보관해야 합니다
+wrong_answers:
+  - 데이터는 공개되며 전 세계에 자동으로 복제됩니다
+  - 가용성을 위해 희생된 일관성
+  - 상태 전환은 항상 Lightning에 게시됩니다
+explanation: |
+  Client-side Validation에서는 참가자가 직접 데이터를 관리해야 하므로 글로벌 가용성이 보장되지 않습니다.
+reviewed: false

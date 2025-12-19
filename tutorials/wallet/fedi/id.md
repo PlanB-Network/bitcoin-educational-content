@@ -33,23 +33,23 @@ Fedi Wallet adalah portofolio Bitcoin yang hadir dengan pendekatan baru untuk me
 
 
 
-- Kustodian**: Anda memutuskan untuk menempatkan kepercayaan Anda pada entitas eksternal, pengembang portofolio, yang akan menyimpan kata pemulihan untuk portofolio Anda untuk Anda. Anda tidak memiliki akses atau kemampuan untuk mengekspor portofolio Bitcoin Anda.
+- **Kustodian**: Anda memutuskan untuk menempatkan kepercayaan Anda pada entitas eksternal, pengembang portofolio, yang akan menyimpan kata pemulihan untuk portofolio Anda untuk Anda. Anda tidak memiliki akses atau kemampuan untuk mengekspor portofolio Bitcoin Anda.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- Kustodian mandiri**: Aplikasi ini memberi Anda akses ke kata pemulihan segera setelah Anda membuat Wallet Anda. Jadi, Anda dapat dengan bebas mengekspor bitcoin Anda ke Wallet yang paling sesuai untuk Anda.
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **Kustodian mandiri**: Aplikasi ini memberi Anda akses ke kata pemulihan segera setelah Anda membuat Wallet Anda. Jadi, Anda dapat dengan bebas mengekspor bitcoin Anda ke Wallet yang paling sesuai untuk Anda.
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Sebagai gantinya, Fedi Wallet menawarkan pendekatan federasi, yang memungkinkan Anda bergabung dengan sekelompok orang yang Anda percayai untuk mengelola kunci portofolio Anda. Anda dapat bergabung dengan federasi populer yang disarankan oleh Fedi, atau bergabung dengan federasi lokal di komunitas Anda dengan memindai kode QR atau menempelkan kode undangan federasi.
 
@@ -75,7 +75,7 @@ Cari tahu lebih lanjut tentang rekomendasi cadangan kata pemulihan kami:
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Untuk setiap federasi yang Anda ikuti, Fedi membedakan bitcoin Anda dengan membuat dompet terpisah.
 
@@ -103,7 +103,7 @@ Pada menu **Federasi**, gulir ke bawah ke federasi, lalu klik **Detail Federasi*
 
 
 
-- Menerima bitcoin di Fedi**: Pada halaman beranda, pilih federasi yang ingin Anda gunakan untuk menerima bitcoin, lalu klik tombol **Terima** untuk membuat Lightning Invoice dengan jumlah yang akan diterima.
+- Menerima bitcoin di **Fedi**: Pada halaman beranda, pilih federasi yang ingin Anda gunakan untuk menerima bitcoin, lalu klik tombol **Terima** untuk membuat Lightning Invoice dengan jumlah yang akan diterima.
 
 
 
@@ -113,7 +113,7 @@ Pada menu **Federasi**, gulir ke bawah ke federasi, lalu klik **Detail Federasi*
 
 
 
-- Kirim bitcoin**: Di halaman beranda, klik tombol **Kirim** untuk mengirim bitcoin ke Lightning Address, untuk membayar Invoice atau melakukan pembayaran offline.
+- **Kirim bitcoin**: Di halaman beranda, klik tombol **Kirim** untuk mengirim bitcoin ke Lightning Address, untuk membayar Invoice atau melakukan pembayaran offline.
 
 
 
@@ -141,7 +141,7 @@ Penerima Anda harus memindai kode QR yang dihasilkan untuk mengklaim satoshi.
 
 
 
-Pembayaran offline umumnya dilakukan dengan menggunakan [e-cash] (https://planb.network/resources/glossary/ecash-david-chaum). Transaksi disimpan di ponsel Anda, dan segera setelah Anda mengakses Internet, konfirmasi transaksi menjadi otomatis. Anda juga dapat mengonfirmasi pembayaran secara manual dengan mengklik **Konfirmasi transaksi**.
+Pembayaran offline umumnya dilakukan dengan menggunakan [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). Transaksi disimpan di ponsel Anda, dan segera setelah Anda mengakses Internet, konfirmasi transaksi menjadi otomatis. Anda juga dapat mengonfirmasi pembayaran secara manual dengan mengklik **Konfirmasi transaksi**.
 
 
 
@@ -191,7 +191,7 @@ Dalam menu **Mods**, Anda akan menemukan aplikasi seperti :
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ Anda baru saja mengikuti tur Fedi Wallet, sekarang Anda berada dalam posisi untu
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

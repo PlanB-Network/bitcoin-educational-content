@@ -1,9 +1,11 @@
-question: Vilken är den första fasen som inträffar i hyperinflationsfenomenet?
-answer: Förlorat förtroende för en valuta.
+question: Hur hög var inflationstakten i Ungern i juli 1946?
+answer: 41,900,000,000,000,000%
 wrong_answers:
-  - Valutakollaps och prishöjning.
-  - Penningtryckandets onda cirkel.
-  - En ny valuta växer fram.
+  - 207%
+  - 50%
+  - 100%
 explanation: |
-  Den första fasen i en hyperinflation är att förtroendet för en valuta försvinner.
+  Månaden med den högsta inflationen i Ungern var juli
+  1946, med en rekordhög prisinflation på
+  41,900,000,000,000,000%.
 reviewed: true

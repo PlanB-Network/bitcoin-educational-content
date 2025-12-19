@@ -1,5 +1,5 @@
 ---
-name: Signaal
+name: Signal
 description: Druk jezelf vrij uit
 ---
 ![cover](assets/cover.webp)
@@ -65,7 +65,7 @@ Signal is beschikbaar op alle platforms. Je kunt de applicatie rechtstreeks down
 
 
 
-Op Android is het ook mogelijk om [te installeren via APK] (https://github.com/signalapp/Signal-Android/releases).
+Op Android is het ook mogelijk om [te installeren via APK](https://github.com/signalapp/Signal-Android/releases).
 
 
 
@@ -273,4 +273,4 @@ Ik raad ook deze andere tutorial aan, waarin ik je kennis laat maken met Proton 
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -1,4 +1,4 @@
-question: Ni nini cha kipekee kuhusu michanganyiko katika Whirlpool ikilinganishwa na utekelezaji mwingine wa CoinJoin?
+question: Ni nini cha kipekee kuhusu mchanganyiko wa Whirlpool ikilinganishwa na utekelezaji mwingine wa CoinJoin?
 answer: Wako huru kabisa.
 wrong_answers:
   - Wanahitaji tu kulipa ada za Mining.
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Miseto ya Whirlpool hailipishwi 100%: hakuna ada za ziada za huduma au ada za Mining zinazohitajika.
   
-reviewed: false
+reviewed: true

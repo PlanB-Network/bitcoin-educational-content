@@ -1,9 +1,11 @@
-question: ¿Cómo asegura la red de Bitcoin que sea demasiado costoso actuar de manera maliciosa dentro del protocolo de Bitcoin?
-answer: A través de reglas del protocolo e incentivos económicos.
+question: ¿Qué ocurriría si un usuario de nodo decidiera seguir reglas diferentes que contradicen las reglas de consenso existentes?
+answer: El nodo ya no formará parte de la red Bitcoin.
 wrong_answers:
-  - A través de regulación estricta y supervisión.
-  - Mediante el uso de medidas de seguridad avanzadas.
-  - A través de la amenaza de acción legal.
-explanation: >-
-  La red de Bitcoin asegura que sea demasiado costoso actuar de manera maliciosa dentro del protocolo de Bitcoin a través de reglas del protocolo e incentivos económicos. Esto elimina la necesidad de confianza en cualquier paso de la transferencia de propiedad de bitcoin.
+  - El nodo se convertirá en parte de una red Bitcoin diferente.
+  - El nodo será penalizado por la red Bitcoin.
+  - El nodo será recompensado por la red Bitcoin.
+explanation: |
+  Si un usuario de nodo decidiera seguir otras reglas que
+  invalidan las reglas de consenso actuales, entonces este nodo
+  ya no formaría parte de la red Bitcoin.
 reviewed: true

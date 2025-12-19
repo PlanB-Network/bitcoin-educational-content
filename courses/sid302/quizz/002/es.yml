@@ -1,0 +1,8 @@
+question: ¿Con qué frecuencia se generan nuevos bloques en Liquid Network?
+answer: Cada minuto
+wrong_answers:
+  - Cada 10 minutos
+  - Cada 30 segundos
+  - Cada 5 minutos
+explanation: |
+  La Liquid Network produce bloques cada minuto de forma determinista y rotatoria, lo que resulta mucho más rápido y predecible que los intervalos probabilísticos de 10 minutos de la Bitcoin. Esta sincronización precisa de un minuto es fundamental para casos de uso de la red como el arbitraje y la liquidación rápida entre bolsas. Esta sincronización precisa de un minuto es fundamental para los casos de uso de la red, como el arbitraje y la liquidación rápida entre bolsas, ya que proporciona la velocidad necesaria para las operaciones comerciales institucionales.

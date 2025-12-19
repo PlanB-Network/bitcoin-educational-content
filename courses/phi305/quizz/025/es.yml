@@ -1,0 +1,9 @@
+question: ¿Creía René Descartes en el libre albedrío?
+answer: Nunca.
+wrong_answers:
+  - Sólo para adultos.
+  - Sólo si hubiéramos estudiado filosofía.
+  - Bajo ciertas condiciones.
+explanation: |
+  René Descartes nunca creyó en el libre albedrío. Sostuvo que todas nuestras acciones están determinadas por causas previas, aunque intentó preservar alguna forma de libertad de la voluntad.
+reviewed: false

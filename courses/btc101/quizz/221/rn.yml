@@ -1,11 +1,9 @@
-question: None Lightning Network ni iki?
-answer: Igikoresho co kwishura gikoresha umurongo wa Bitcoin kugira ngo bishobore gutanga amafaranga vyihuta nk’umuravyo.
+question: Ni akahe kamaro Ark itanga ugereranije na Lightning mu kwakira?
+answer: Nta bukene bw’amafaranga yinjira
 wrong_answers:
-  - Ubwoko bushasha bw’amahera y’ibanga.
-  - Ikoranabuhanga rishasha rya Blockchain rizosubirira Bitcoin muri kazoza.
-  - Uburyo bwo gukora Mining Bitcoin.
+  - Ukwemezwa kw’ishyura ako kanya
+  - Kubura amafaranga y’ikorwa
+  - Nta nkenerwa yo kugira ikofi
 explanation: |
-  Lightning Network ni urubuga rwo kwishura rukoresha
-  Bitcoin protocole kugira ngo bishobore gukora amafaranga yihuta. Si
-  amafaranga y’ibanga atandukanye, canke uburyo bwo gukoresha Mining Bitcoin.
-reviewed: true
+  Ark ituma umuntu yakira amahera atabanje kugira amafaranga yinjira.
+reviewed: false

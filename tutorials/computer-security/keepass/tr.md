@@ -24,7 +24,7 @@ Parola yöneticisi güçlü parolalar oluşturup bunları güvenli bir şekilde 
 
 Bu eğitimde, çevrimiçi güvenliğinizi artırmak için yerel bir parola yöneticisinin nasıl kurulacağını ve kullanılacağını öğreneceğiz. Burada size KeePass'ı tanıtacağım. Ancak, yeni başlayan biriyseniz ve birden fazla cihaz arasında senkronize olabilen bir çevrimiçi parola yöneticisine sahip olmak istiyorsanız, Bitwarden hakkındaki eğitimimizi takip etmenizi öneririm:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -45,7 +45,7 @@ KeePass varsayılan olarak Bitwarden gibi tarayıcı uzantılarının kullanım�
 KeePass, yüksek güvenlik standartlarına bağlı kalırken hem hafif hem de kullanımı kolay olacak şekilde tasarlanmıştır. Yazılım, kimlik bilgilerinizin en iyi şekilde korunması için veritabanınızı yerel olarak şifreler. KeePass aynı zamanda ANSSI (Fransız siber güvenlik otoritesi) tarafından onaylanmış tek şifre yöneticisidir.
 
 
-KeePass'ın en önemli avantajlarından biri esnekliğidir. Bilgisayara kurulum gerektirmeden USB bellek gibi birçok farklı şekilde kullanılabilir. Dahası, [eklenti ortamı] (https://keepass.info/plugins.html) sayesinde KeePass daha özel ihtiyaçları karşılamak için özelleştirilebilir.
+KeePass'ın en önemli avantajlarından biri esnekliğidir. Bilgisayara kurulum gerektirmeden USB bellek gibi birçok farklı şekilde kullanılabilir. Dahası, [eklenti ortamı](https://keepass.info/plugins.html) sayesinde KeePass daha özel ihtiyaçları karşılamak için özelleştirilebilir.
 
 ![KEEPASS](assets/notext/01.webp)
 

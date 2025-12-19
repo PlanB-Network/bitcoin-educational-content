@@ -1,0 +1,11 @@
+question: Hvem er cypherpunkene?
+answer: En gruppe mennesker som begynte å stille dype spørsmål ved rollen til personvern og frihet i den digitale tidsalderen.
+wrong_answers:
+  - En gruppe hackere som stjeler informasjon fra regjeringer.
+  - En gruppe mennesker som oppfant Bitcoin.
+  - En gruppe mennesker som er imot bruk av teknologi.
+explanation: |
+  Cypherpunkene er en gruppe individer som trodde at kryptografi
+  kunne tjene som et verktøy for å beskytte individuelle rettigheter mot inngrep fra regjeringer
+  og store selskaper.
+reviewed: true

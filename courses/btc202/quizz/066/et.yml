@@ -1,0 +1,9 @@
+question: Milliseid turvameetmeid on tungivalt soovitatav võtta, et kaitsta juurdepääsu teie Umbrelile?
+answer: Pikk parool ja 2FA aktiveerimine
+wrong_answers:
+  - Kahe SSD salvestusruumi
+  - Avatud RPC sadam tavatekstis
+  - Pikk parool ja SSH aktiveerimine
+explanation: |
+  Tugeva parooli ja kahefaktorilise autentimise (2FA) kombinatsioon kaitseb tõhusalt juurdepääsu Interface Umbrelile.
+reviewed: true

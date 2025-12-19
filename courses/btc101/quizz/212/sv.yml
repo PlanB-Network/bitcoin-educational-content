@@ -1,12 +1,10 @@
-question: Hur beskriver den här kursen Bitcoin?
-answer: Ett tvärvetenskapligt ämne.
+question: Vad säger den här kursen om framtiden för Bitcoin?
+answer: Det kommer inte att försvinna.
 wrong_answers:
-  - Ett enkelt ämne.
-  - Ett fysiskt ämne.
-  - Ett ämne med en enda disciplin.
+  - Den kommer att ersättas av en bättre teknik.
+  - Det kommer att förbjudas över hela världen.
+  - Den kommer att förlora sitt värde.
 explanation: |
-  Bitcoin beskrivs som ett tvärvetenskapligt ämne eftersom
-  det väcker frågor som rör olika områden, bland annat
-  kryptografi, spelteori, ekonomi och penningpolitik,
-  datavetenskap, filosofi, energi, lagar och regler.
+  Kurstexten antyder att Bitcoin inte kommer att
+  försvinna. Tvärtom, revolutionen har bara börjat.
 reviewed: true

@@ -1,0 +1,9 @@
+question: ¿De qué corriente filosófica es embajador Spinoza?
+answer: Racionalismo.
+wrong_answers:
+  - El movimiento romántico.
+  - Escolasticismo.
+  - Estructuralismo.
+explanation: |
+  Spinoza está considerado uno de los máximos exponentes del racionalismo del siglo XVII, junto a Descartes y Leibniz. Desarrolló una filosofía basada en la razón y la lógica, tratando de comprender el mundo a través de principios racionales en lugar de la fe o la tradición.
+reviewed: false

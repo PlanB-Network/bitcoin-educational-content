@@ -1,0 +1,8 @@
+question: Dalam proses verifikasi tanda tangan ECDSA, hubungan matematis apa yang harus benar agar tanda tangan dianggap sah?
+answer: Koordinat x dari UG + VP harus sama dengan R, di mana U = Z/S dan V = R/S
+wrong_answers:
+  - Koordinat y dari UG + VP harus sama dengan S, di mana U = R/Z dan V = S/Z
+  - Koordinat x dari KG + ZP harus sama dengan S, di mana K adalah nonce dan Z adalah hash
+  - Jumlah R + S harus sama dengan koordinat x dari titik kunci publik P
+explanation: |
+  Verifikasi ECDSA bekerja dengan merekonstruksi titik asli KG melalui persamaan UG + VP, di mana U = Z/S (hash dibagi S) dan V = R/S. Jika koordinat x dari titik yang direkonstruksi ini sama dengan R dari tanda tangan, verifikasi berhasil. Hubungan matematis ini memungkinkan verifikasi tanpa mengetahui kunci privat atau nonce K, karena aljabar merekonstruksi KG secara tidak langsung melalui kunci publik dan komponen tanda tangan.

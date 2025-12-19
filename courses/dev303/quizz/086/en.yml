@@ -1,0 +1,8 @@
+question: What is the primary purpose of the namespace declaration in a UniFFI UDL file?
+answer: To provide a container for functions that can be called directly without requiring object instantiation
+wrong_answers:
+  - To define the package structure and import dependencies for the generated language bindings
+  - To specify the target programming languages that will consume the Rust library through UniFFI
+  - To establish the memory management strategy for cross-language data marshaling operations
+explanation: |
+  The namespace in UniFFI's UDL serves as a container for standalone functions that can be invoked directly without creating objects first. These namespace functions typically handle simple operations that take values as parameters and return results. The other options are incorrect because: package structure and imports are handled by the binding generation process automatically, target languages are specified during the build process rather than in the UDL file, and memory management is handled transparently by UniFFI's runtime layer rather than being explicitly declared in namespaces.

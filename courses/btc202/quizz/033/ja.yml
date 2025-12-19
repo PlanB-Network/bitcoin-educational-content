@@ -1,0 +1,9 @@
+question: Bitcoin Knotsプロジェクトは誰が管理しているのですか？
+answer: ルーク・ダッシュJr
+wrong_answers:
+  - ギャビン・アンドレセン
+  - ウラジミール・J・ヴァン・デル・ラーン
+  - ピーテル・ウイユ
+explanation: |
+  Bitcoin KnotsはLuke Dashjrによって管理され、Bitcoin coreの主要な代替クライアントとして機能している。
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Sweeping.
 explanation: |
   CIOH is not applicable to transactions that adopt a collaborative pattern, because in this specific case, the inputs necessarily come from different entities.
-reviewed: false
+reviewed: true

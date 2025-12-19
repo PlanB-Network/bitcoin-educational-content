@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Spatz
+name: Jade Plus - Sparrow
 description: Erweiterte Konfiguration von Jade Plus mit Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -36,7 +36,7 @@ Jade Plus ist mit den meisten Portfolioverwaltungsprogrammen kompatibel. Hier is
 
 In diesem Tutorial richten wir eine erweiterte Konfiguration des Jade Plus mit der Desktop-Software Sparrow Wallet im QR-Code-Modus ein. Diese Konfiguration ist ideal für fortgeschrittene oder erfahrene Benutzer. Wenn Sie einen einfacheren Ansatz für Anfänger suchen, empfehle ich Ihnen einen Blick auf dieses Tutorial, in dem wir den Jade Plus mit Green Wallet über eine Bluetooth-Verbindung verwenden:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Das Sicherheitsmodell Jade Plus
 
@@ -91,7 +91,7 @@ Klicken Sie auf "*Setup Jade*".
 
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
-Wählen Sie "Erweiterte Einstellungen*".
+Wählen Sie "Erweiterte Einstellungen".
 
 ![Image](assets/fr/07.webp)
 
@@ -103,7 +103,7 @@ Klicken Sie auf die Schaltfläche "*Fortfahren*", um Ihre neue Wiederherstellung
 
 ![Image](assets/fr/09.webp)
 
-Ihr Jade Plus zeigt Ihre 12-Wort-Merkhilfe an. **Mit diesem Merksatz haben Sie uneingeschränkten Zugriff auf alle Ihre Bitcoins. Jeder, der im Besitz dieser Phrase ist, kann Ihr Geld stehlen, auch ohne physischen Zugang zu Ihrem Jade Plus. Die 12-Wort-Phrase stellt den Zugang zu Ihren Bitcoins im Falle von Verlust, Diebstahl oder Bruch Ihrer Jade wieder her. Es ist daher sehr wichtig, dass Sie sie sorgfältig aufbewahren und an einem sicheren Ort aufbewahren.
+Ihr Jade Plus zeigt Ihre 12-Wort-Merkhilfe an. **Mit diesem Merksatz haben Sie uneingeschränkten Zugriff auf alle Ihre Bitcoins. Jeder, der im Besitz dieser Phrase ist, kann Ihr Geld stehlen, auch ohne physischen Zugang zu Ihrem Jade Plus. Die 12-Wort-Phrase stellt den Zugang zu Ihren Bitcoins im Falle von Verlust, Diebstahl oder Bruch Ihrer Jade wieder her. Es ist daher sehr wichtig, dass Sie sie sorgfältig aufbewahren und an einem sicheren Ort aufbewahren.**
 
 Sie können die Gravur auf dem mitgelieferten Karton anbringen. Für zusätzliche Sicherheit empfehle ich, die Gravur auf einem Edelstahlsockel anzubringen, um sie vor Feuer, Überschwemmung oder Einsturz zu schützen.
 
@@ -111,9 +111,9 @@ Sie können die Gravur auf dem mitgelieferten Karton anbringen. Für zusätzlich
 
 Für weitere Informationen über die richtige Art und Weise, wie Sie Ihre mnemotechnische Phrase speichern und verwalten können, empfehle ich Ihnen, diese andere Anleitung zu lesen, insbesondere wenn Sie Anfänger sind:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorium tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht.**_
+natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorium tue. Dieses Musterportfolio wird nur im Testnet verwendet und am Ende des Tutoriums gelöscht.
 
 Klicken Sie auf den Pfeil auf der rechten Seite des Bildschirms, um die folgenden Wörter anzuzeigen.
 
@@ -195,7 +195,7 @@ Geben Sie Ihren PIN-Code ein.
 
 ![Image](assets/fr/39.webp)
 
-Gehen Sie dann auf [die Blockstream-Website] (https://jadefw.blockstream.com/pinqr/qrpin.html), um QR-Codes mit dem Orakel auszutauschen.
+Gehen Sie dann auf [die Blockstream-Website](https://jadefw.blockstream.com/pinqr/qrpin.html), um QR-Codes mit dem Orakel auszutauschen.
 
 ![Image](assets/fr/40.webp)
 
@@ -213,7 +213,7 @@ Klicken Sie auf "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Sie können die QR-Code-Basis verwenden, die in der Jade Plus Box enthalten ist. Wählen Sie das entsprechende Feld aus, je nachdem, ob Sie sich für einen Satz mit 12 oder 24 Wörtern entschieden haben. Sie können auch [die Vorlage von der Blockstream-Website drucken] (https://help.blockstream.com/hc/article_attachments/41928319071769).
+Sie können die QR-Code-Basis verwenden, die in der Jade Plus Box enthalten ist. Wählen Sie das entsprechende Feld aus, je nachdem, ob Sie sich für einen Satz mit 12 oder 24 Wörtern entschieden haben. Sie können auch [die Vorlage von der Blockstream-Website drucken](https://help.blockstream.com/hc/article_attachments/41928319071769).
 
 Ihr Jade Plus zeigt jeden Bereich Ihres QR-Codes an.
 
@@ -269,7 +269,7 @@ Eine BIP39-Passphrase ist ein optionales Passwort, das Sie frei wählen können 
 
 Bevor Sie diese Option auf Ihrem Jade Plus konfigurieren, empfehlen wir Ihnen dringend, diesen Artikel zu lesen, um die theoretische Funktionsweise der Passphrase vollständig zu verstehen und Fehler zu vermeiden, die zum Verlust Ihrer Bitcoins führen könnten:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Rufen Sie bei noch gesperrtem Jade (die Passphrase kann nur eingegeben werden, wenn das Gerät nicht entsperrt ist) das Menü "*Optionen*" auf.
 
@@ -314,7 +314,7 @@ Wenn Ihre Passphrase gültig ist, bestätigen Sie.
 
 Bitte beachten Sie, dass bei BIP39-Passphrasen zwischen Groß- und Kleinschreibung unterschieden wird. Wenn Sie eine Passphrase eingeben, die sich geringfügig von der ursprünglich konfigurierten unterscheidet, meldet Jade keinen Fehler, sondern leitet einen anderen Satz kryptografischer Schlüssel ab, der sich von dem in Ihrem ursprünglichen Portfolio unterscheidet.
 
-Daher ist es wichtig, dass Sie sich bei der Konfiguration den Fingerabdruck Ihres Hauptschlüssels notieren, den Sie in der unteren rechten Ecke des Bildschirms finden. Bei meiner Passphrase `PBN` lautet mein Hauptschlüssel-Fingerabdruck zum Beispiel `3AD1AE65`.
+Daher ist es wichtig, dass Sie sich bei der Konfiguration den Fingerabdruck Ihres Hauptschlüssels notieren, den Sie in der unteren rechten Ecke des Bildschirms finden. Bei meiner Passphrase `Plan ₿ Academy` lautet mein Hauptschlüssel-Fingerabdruck zum Beispiel `3AD1AE65`.
 
 ![Image](assets/fr/49.webp)
 
@@ -322,19 +322,19 @@ Jedes Mal, wenn Sie Ihre Jade mit Ihrer Passphrase entsperren, überprüfen Sie,
 
 Bevor Sie Ihre ersten Bitcoins in Ihrem Wallet erhalten, **empfehle ich Ihnen dringend, einen leeren Recovery-Test** durchzuführen. Notieren Sie sich einige Referenzinformationen, z. B. Ihre xpub- oder erste Empfangsadresse, und löschen Sie dann Ihre Geldbörse auf dem Jade Plus, solange sie noch leer ist (Optionen -> Gerät -> Werksreset). Versuchen Sie dann, Ihre Brieftasche mit Hilfe Ihrer Sicherungskopien der mnemonischen Phrase und einer Passphrase wiederherzustellen. Überprüfen Sie, ob die Cookie-Informationen, die nach der Wiederherstellung generiert werden, mit denen übereinstimmen, die Sie ursprünglich aufgeschrieben haben. Wenn dies der Fall ist, können Sie sicher sein, dass Ihre Sicherungskopien zuverlässig sind. Wenn Sie mehr darüber erfahren möchten, wie Sie eine Testwiederherstellung durchführen, sehen Sie sich diesen anderen Lehrgang an:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Konfigurieren der Brieftasche auf Sparrow Wallet
 
 In diesem Tutorial stelle ich eine fortgeschrittene Verwendung von Jade Plus mit Sparrow Wallet vor. Diese Hardware-Geldbörse ist jedoch mit vielen anderen Programmen kompatibel, wie Liana, Nunchuk, Specter, Green und Keeper. Diese Kompatibilitäten variieren in Bezug auf die Verbindungen: USB, Bluetooth oder QR-Code (siehe Tabelle in der Einleitung für Details).
 
-Beginnen Sie mit dem Herunterladen und Installieren von Sparrow Wallet [von der offiziellen Website] (https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies noch nicht getan haben.
+Beginnen Sie mit dem Herunterladen und Installieren von Sparrow Wallet [von der offiziellen Website](https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies noch nicht getan haben.
 
 ![Image](assets/fr/50.webp)
 
 Stellen Sie sicher, dass Sie die Echtheit und Integrität der Software vor der Installation überprüfen. Wenn Sie nicht wissen, wie man das macht, lesen Sie bitte diese Anleitung:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sobald Sparrow Wallet geöffnet ist, klicken Sie auf die Registerkarte "*Datei*" und dann auf "*New Wallet*".
 
@@ -452,4 +452,4 @@ Herzlichen Glückwunsch, Sie wissen jetzt, wie Sie den Jade Plus im QR-Modus ein
 
 Um weiter zu gehen, empfehle ich dieses andere Tutorial über den Jade Plus, wo wir ihn über Bluetooth mit der Green Mobile App konfigurieren:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

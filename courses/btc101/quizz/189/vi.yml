@@ -1,14 +1,11 @@
-question: Bitcoin giải quyết Vấn đề Tướng Byzantine như thế nào?
-answer: Thông qua việc sử dụng blockchain dựa trên Bằng chứng Công việc (Proof of Work) với độ khó thay đổi.
+question: Swiss Bitcoin Pay là gì?
+answer: Một giải pháp cho các nhà bán lẻ không chuyên để chấp nhận Bitcoin.
 wrong_answers:
-  - Thông qua việc sử dụng chữ ký số.
-  - Thông qua việc sử dụng sổ cái công cộng.
-  - Thông qua việc sử dụng thuật toán Bằng chứng Cổ phần (Proof of Stake).
+  - Một ngân hàng Thụy Sĩ chấp nhận Bitcoin.
+  - Một sàn giao dịch Bitcoin từ Thụy Sĩ.
+  - Một công ty khai thác hoạt động tại Thụy Sĩ.
 explanation: >-
-  Vấn đề Tướng Byzantine là một vấn đề cổ điển trong
-  tính toán phân tán, liên quan đến việc đạt được sự đồng thuận
-  trong một mạng lưới nơi một số nút có thể bị lỗi hoặc
-  có ý đồ xấu. Bitcoin giải quyết vấn đề này thông qua việc sử dụng một
-  blockchain dựa trên Bằng chứng Công việc, đảm bảo rằng tất cả
-  các nút đều đồng ý với trạng thái của lịch sử giao dịch.
+  Swiss Bitcoin Pay là một giải pháp cho các nhà bán lẻ không chuyên để chấp nhận Bitcoin.
+  Các giải pháp khác bao gồm OpenNode cho các doanh nghiệp trực tuyến đơn giản và BTCpay Server
+  cho các cơ cấu lớn hoặc những người đam mê Bitcoin.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Hva kan vi lære av Kopernikus?
+answer: At jorden kretser rundt solen.
+wrong_answers:
+  - At jorden er flat.
+  - At jorden er i sentrum av universet.
+  - At Euklids ligninger er feil.
+explanation: |
+  Nikolaus Kopernikus (1473-1543) er berømt for å ha påvist at jorden kretser rundt solen, noe som revolusjonerte vår oppfatning av universet. Denne oppdagelsen fikk stor innflytelse på moderne filosofi og rasjonalisme.
+reviewed: false

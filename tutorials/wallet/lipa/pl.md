@@ -14,7 +14,7 @@ Portfele Lightning, podobnie jak wszystkie portfele mobilne, są uważane za por
 Jeśli chcesz dowiedzieć się więcej o Lightning Network i zrozumieć, jak działa on od strony technicznej, polecam ci udział w tym kursie:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 W tym samouczku przyjrzymy się **Lipa**, prostemu i skutecznemu Lightning Wallet opracowanemu w Szwajcarii.
 
@@ -76,10 +76,10 @@ Następnie aplikacja prezentuje swoje główne funkcje poprzez serię ekranów w
 
 
 
-- Bezproblemowy odbiór płatności**: Użytkownicy mogą otrzymywać płatności Bitcoin nawet po zamknięciu aplikacji, co gwarantuje niezawodność i wygodę.
-- Adresy Lightning bez nadzoru**: Lipa obsługuje teraz niepowiernicze adresy Lightning, zwiększając prywatność i bezpieczeństwo, dając użytkownikom pełną kontrolę nad ich bitcoinami.
-- Kontrola nad danymi analitycznymi** : Mając na uwadze przejrzystość i poufność, użytkownicy mogą przeglądać rodzaje gromadzonych danych i wybierać preferencje dotyczące ich udostępniania.
-- Wysyłanie przez numer telefonu**: Nie potrzebujesz skomplikowanych adresów - po prostu wybierz kontakt, wprowadź kwotę i wyślij bitcoiny bezpośrednio na jego numer telefonu.
+- **Bezproblemowy odbiór płatności**: Użytkownicy mogą otrzymywać płatności Bitcoin nawet po zamknięciu aplikacji, co gwarantuje niezawodność i wygodę.
+- **Adresy Lightning bez nadzoru**: Lipa obsługuje teraz niepowiernicze adresy Lightning, zwiększając prywatność i bezpieczeństwo, dając użytkownikom pełną kontrolę nad ich bitcoinami.
+- **Kontrola nad danymi analitycznymi**: Mając na uwadze przejrzystość i poufność, użytkownicy mogą przeglądać rodzaje gromadzonych danych i wybierać preferencje dotyczące ich udostępniania.
+- **Wysyłanie przez numer telefonu**: Nie potrzebujesz skomplikowanych adresów - po prostu wybierz kontakt, wprowadź kwotę i wyślij bitcoiny bezpośrednio na jego numer telefonu.
 
 
 Aplikacja korzysta również z ciągłych ulepszeń w zakresie stabilności, bezpieczeństwa i niezawodności, aby zagwarantować optymalne wrażenia użytkownika.
@@ -96,10 +96,10 @@ Interface Lipa jest zorganizowany wokół 4 głównych zakładek dostępnych za 
 
 
 
-- Strona główna**: Wyświetla bieżące saldo i historię transakcji
-- Skaner**: Umożliwia skanowanie kodów QR w celu dokonywania płatności
-- Mapa**: Wyświetla interaktywną mapę firm akceptujących Bitcoin w Twojej okolicy
-- Ustawienia**: Dostęp do ustawień aplikacji, kopii zapasowych i preferencji
+- **Strona główna**: Wyświetla bieżące saldo i historię transakcji
+- **Skaner**: Umożliwia skanowanie kodów QR w celu dokonywania płatności
+- **Mapa**: Wyświetla interaktywną mapę firm akceptujących Bitcoin w Twojej okolicy
+- **Ustawienia**: Dostęp do ustawień aplikacji, kopii zapasowych i preferencji
 
 
 Dostęp do dodatkowego menu można uzyskać, przeciągając ekran główny w dół:
@@ -131,7 +131,7 @@ Aby wykonać kopię zapasową Wallet, przejdź do zakładki "Ustawienia" i wybie
 Aby uzyskać więcej informacji na temat prawidłowego tworzenia kopii zapasowych i zarządzania frazą odzyskiwania, zdecydowanie polecam zapoznanie się z tym innym samouczkiem, zwłaszcza jeśli jesteś początkującym:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Odbieranie bitcoinów
 

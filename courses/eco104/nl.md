@@ -463,10 +463,10 @@ Tijdens deze reis hebben we de fascinerende evolutie van geld onderzocht, van ru
 Zoals we hebben gezien, is het pad van de monetaire evolutie echter niet zonder uitdagingen geweest. De opkomst van het knippen van munten en valutamanipulatie, de beweging in de richting van centralisatie en weg van een algemeen geaccepteerd medium Exchange zijn slechts enkele voorbeelden van de obstakels die we onderweg tegenkwamen.
 
 
-Nu we naar de toekomst kijken, moeten we ons afvragen **hoe zal valutamanipulatie ons financiële welzijn blijven beïnvloeden?
+Nu we naar de toekomst kijken, moeten we ons afvragen **hoe zal valutamanipulatie ons financiële welzijn blijven beïnvloeden?**
 
 
-En hoewel het duidelijk is dat we gebruiksgemak als prioriteit hebben gesteld bij de overgang van ruilhandel naar goederen naar gedigitaliseerde valuta, **zouden we moeten heroverwegen welke eigenschappen we het meest waarderen in de perfecte vorm van geld?
+En hoewel het duidelijk is dat we gebruiksgemak als prioriteit hebben gesteld bij de overgang van ruilhandel naar goederen naar gedigitaliseerde valuta, **zouden we moeten heroverwegen welke eigenschappen we het meest waarderen in de perfecte vorm van geld?**
 
 
 Dit zijn complexe vragen die zorgvuldig overwogen en overwogen moeten worden. Eén ding is echter duidelijk: de toekomst van het geld ligt in onze handen. Wij hebben de macht om ons geld vorm te geven en ervoor te zorgen dat het de behoeften van de samenleving dient in plaats van alleen de uitgever of onze regeringen.
@@ -568,10 +568,10 @@ Deze verlaging van de rentetarieven heeft echter een prijs: kapitaal wordt gemak
 Deze evenwichtsoefening gaat niet helemaal zoals gepland..
 
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
-Figuur [Schuld vs BBP] (https://www.longtermtrends.net/us-debt-to-gdp/)
+Figuur [Schuld vs BBP](https://www.longtermtrends.net/us-debt-to-gdp/)
 
 
 Als we de schulden van de federale overheid, bedrijven en huishoudens bij elkaar optellen, komt het resultaat uit op een duizelingwekkende 63,14 biljoen dollar, in tegenstelling tot het Bruto Binnenlands Product (BBP) van de Verenigde Staten van 26,13 biljoen dollar. Dit betekent dat de VS een totale schuld/BBP-ratio heeft van 241%. Met andere woorden, voor elke 1 dollar BBP die wordt gegenereerd, is er maar liefst 2,41 dollar schuld.
@@ -647,10 +647,10 @@ Figuur: Performance per activaklasse ([Aandelen](https://finance.yahoo.com/quote
 Met deze achterstand tussen lonen en activaprijzen hebben we een van de grootste overdrachten van rijkdom gezien van de lagere klasse naar de hogere klasse in de recente geschiedenis
 
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
-Figuur: Aandeel in Totale [Netto Vermogen] (https://fred.stlouisfed.org/series/WFRBSN40188#0.)
+Figuur: Aandeel in Totale [Netto Vermogen](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
 
 
 ### Boem & Biezen
@@ -771,12 +771,12 @@ Andere opmerkelijke Cypherpunks zijn:
 
 
 
-- Timothy May:** Stichtend lid van de Cypherpunks mailinglijst en schreef veel over cryptografie en privacy in de jaren 90 en begin 2000. Zijn schrijven legde de basis voor discussies over digitale privacy en elektronische geldsystemen.
-- Eric Huges:** Een ander oprichtingslid van de Cypherpunks en co-auteur van "A Cypherpunk's Manifesto," waarin het belang van privacy en anonimiteit in het digitale tijdperk werd benadrukt.
-- Whitfield Diffie en Martin Hellman:** Ontwikkelden het concept van publiekesleutelcryptografie, waardoor veilige internetcommunicatie revolutionair werd verbeterd.
-- Julian Assange:** Oprichter van WikiLeaks, dat geheime en gevoelige informatie publiceert om transparantie en verantwoording te bevorderen.
-- Bram Cohen:** Maakte BitTorrent, een peer-to-peer protocol voor het delen van bestanden dat de distributie van inhoud decentraliseerde en snellere downloads mogelijk maakte.
-- John Gilmore:** Een ondernemer en libertair die medeoprichter was van de Electronic Frontier Foundation (EFF) en opkwam voor digitale rechten en online privacy.
+- **Timothy May:** Stichtend lid van de Cypherpunks mailinglijst en schreef veel over cryptografie en privacy in de jaren 90 en begin 2000. Zijn schrijven legde de basis voor discussies over digitale privacy en elektronische geldsystemen.
+- **Eric Huges:** Een ander oprichtingslid van de Cypherpunks en co-auteur van "A Cypherpunk's Manifesto," waarin het belang van privacy en anonimiteit in het digitale tijdperk werd benadrukt.
+- **Whitfield Diffie en Martin Hellman:** Ontwikkelden het concept van publiekesleutelcryptografie, waardoor veilige internetcommunicatie revolutionair werd verbeterd.
+- **Julian Assange:** Oprichter van WikiLeaks, dat geheime en gevoelige informatie publiceert om transparantie en verantwoording te bevorderen.
+- **Bram Cohen:** Maakte BitTorrent, een peer-to-peer protocol voor het delen van bestanden dat de distributie van inhoud decentraliseerde en snellere downloads mogelijk maakte.
+- **John Gilmore:** Een ondernemer en libertair die medeoprichter was van de Electronic Frontier Foundation (EFF) en opkwam voor digitale rechten en online privacy.
 
 
 ...en de lijst gaat maar door.
@@ -821,7 +821,7 @@ Hoe dan ook, laten we eens kijken naar de mythe en legende.
 Satoshi Nakamoto verscheen in 2008 op het internet met een revolutionair idee: peer-to-peer elektronisch geld. Hij deelde zijn visie in een [negen pagina's tellende paper](https://Bitcoin.org/Bitcoin.pdf) getiteld "Bitcoin: A Peer-to-Peer Electronic Cash System" met de Cypherpunk mailinglijst. Ondanks de aanvankelijke desinteresse van de meeste mailinglijstleden, wekte het idee genoeg nieuwsgierigheid op bij één lid, Hal Finney, die uiteindelijk contact opnam met Satoshi. Hal's betrokkenheid bij de ontwikkeling van Bitcoin bleek een keerpunt te zijn, waardoor meer mensen hun steun aanboden.
 
 
-Na twee jaar aan het project te hebben gewerkt, verdween Satoshi echter spoorloos, met [zijn laatste geloofwaardige communicatie] (https://plan99.net/~mike/Satoshi-emails/thread5.html) op 23 april 2011, waarin hij verklaarde dat hij "verder was gegaan met andere dingen"
+Na twee jaar aan het project te hebben gewerkt, verdween Satoshi echter spoorloos, met [zijn laatste geloofwaardige communicatie](https://plan99.net/~mike/Satoshi-emails/thread5.html) op 23 april 2011, waarin hij verklaarde dat hij "verder was gegaan met andere dingen"
 
 
 De mysterieuze verdwijning van Satoshi Nakamoto heeft geleid tot verschillende theorieën over waar hij heen ging. Sommigen speculeren dat hij vond dat hij had bereikt wat hij van plan was, terwijl anderen geloven dat hij zich ongemakkelijk voelde bij de aandacht die Bitcoin trok. In december [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), toen het WikiLeaks verboden werd om traditionele betalingsmethoden te gebruiken, wendde het zich tot Bitcoin voor financiering. Satoshi's bezorgdheid over de toegenomen aandacht voor Bitcoin en de mogelijke juridische gevolgen van het creëren van een valuta die gebruikt wordt om de geopolitieke belangen van de VS te verstoren, kunnen hem ertoe aangezet hebben een stap terug te doen. Het kan ook zijn dat hij zijn aandacht verlegde naar andere projecten, nog steeds bijdraagt aan Bitcoin onder andere namen, of zelfs overleden is.
@@ -854,11 +854,11 @@ Samengevat heeft Bitcoin een revolutie teweeggebracht in de manier waarop we ove
 
 
 
-- Peer-to-Peer:** Bitcoin stelt individuen in staat om direct betalingen te verzenden en te ontvangen zonder tussenpersonen, zoals banken of betalingsverwerkers.
-- Gedecentraliseerd:** Bitcoin werkt op een gedecentraliseerd netwerk, wat betekent dat er geen centrale autoriteit of controle is over de valuta.
-- Veilig:** Bitcoin-transacties zijn beveiligd met cryptografie, waardoor het vervalsen van Double-spending-munten moeilijk is.
-- Beperkt in Supply & Deelbaar:** De Supply van Bitcoin is eindig - met slechts 21 miljoen munten in omloop - en tegelijkertijd deelbaar tot acht decimale plaatsen, waardoor transacties voor een fractie van een cent mogelijk zijn. Deze schaarste is ontworpen om de munt waarde te geven en inflatie te voorkomen.
-- Psuedoanoniem:** Hoewel Bitcoin transacties niet volledig anoniem zijn, bieden ze een mate van privacy en pseudonimiteit die traditionele betaalmethoden niet bieden.
+- **Peer-to-Peer:** Bitcoin stelt individuen in staat om direct betalingen te verzenden en te ontvangen zonder tussenpersonen, zoals banken of betalingsverwerkers.
+- **Gedecentraliseerd:** Bitcoin werkt op een gedecentraliseerd netwerk, wat betekent dat er geen centrale autoriteit of controle is over de valuta.
+- **Veilig:** Bitcoin-transacties zijn beveiligd met cryptografie, waardoor het vervalsen van Double-spending-munten moeilijk is.
+- **Beperkt in Supply & Deelbaar:** De Supply van Bitcoin is eindig - met slechts 21 miljoen munten in omloop - en tegelijkertijd deelbaar tot acht decimale plaatsen, waardoor transacties voor een fractie van een cent mogelijk zijn. Deze schaarste is ontworpen om de munt waarde te geven en inflatie te voorkomen.
+- **Pseudoanoniem:** Hoewel Bitcoin transacties niet volledig anoniem zijn, bieden ze een mate van privacy en pseudonimiteit die traditionele betaalmethoden niet bieden.
 
 
 De combinatie van deze punten betekent dat Bitcoin iedereen financiële privacy, veiligheid en de mogelijkheid biedt om wereldwijd te handelen met minimale kosten en wrijving. Uiteindelijk is Bitcoin een krachtig hulpmiddel voor mensen die op zoek zijn naar meer economische vrijheid en autonomie. Dit is een game-changer voor mensen die op zoek zijn naar een veilig spaarmiddel, laat staan voor mensen die onder autoritaire regimes leven, hyperinflatie ervaren, oorlogsgeteisterde landen ontvluchten of geld overmaken naar geliefden in het buitenland. Omdat Bitcoin een betaalbaar alternatief biedt voor traditionele geldtransfermethoden, blijft er meer geld over in de handen van degenen die het het hardst nodig hebben. Met Bitcoin kan iedereen zijn eigen bank worden en controle nemen over zijn eigen financiële toekomst.
@@ -973,7 +973,7 @@ Miners nemen nu deze transacties, bundelen ze in een nieuw blok en nemen het teg
 Zodra de transactie is bevestigd, zou Bob nu de 0,00100000 Bitcoin in zijn Wallet moeten kunnen zien. Maar daar stopt het niet. De knooppunten controleren vervolgens of de Miner zijn werk goed heeft gedaan en of de transacties in dit nieuwe blok voldoen aan de regels die de knooppunten zijn overeengekomen. Als het blok daar niet in slaagt, wordt het nieuwe blok verworpen en verliest de Miner zijn Mining beloning.
 
 
-leuk weetje:** Zelfs nadat een Bitcoin transactie bevestigd is, bestaat de mogelijkheid van terugdraaien als knooppunten blokken weigeren. Echter, met elk nieuw blok dat na de transactie aan de Blockchain wordt toegevoegd, neemt de kans op terugdraaien exponentieel af. Om de veiligheid te vergroten, plaatsen exchanges en wallets vaak een hold op uw Bitcoin totdat er meerdere volgende blokken zijn toegevoegd - meestal drie tot zes. Dit beschermt fondsen en garandeert gemoedsrust bij transacties
+**leuk weetje:** Zelfs nadat een Bitcoin transactie bevestigd is, bestaat de mogelijkheid van terugdraaien als knooppunten blokken weigeren. Echter, met elk nieuw blok dat na de transactie aan de Blockchain wordt toegevoegd, neemt de kans op terugdraaien exponentieel af. Om de veiligheid te vergroten, plaatsen exchanges en wallets vaak een hold op uw Bitcoin totdat er meerdere volgende blokken zijn toegevoegd - meestal drie tot zes. Dit beschermt fondsen en garandeert gemoedsrust bij transacties
 
 
 **Conclusie**
@@ -1039,9 +1039,9 @@ Terwijl fiatvaluta's onderhevig zijn aan inflatie en historisch bewezen hebben i
 
 
 
-- Duurzaam:** Bitcoin is digitaal en daarom niet onderhevig aan fysieke schade of verval zoals papieren of metalen valuta. Bovendien zorgt het gedecentraliseerde karakter ervoor dat er geen enkel punt is waarop een aanval kan mislukken.
-- Schaars:** De Supply van Bitcoin is strikt gelimiteerd tot 21 miljoen munten, waardoor het inherent schaars is in vergelijking met fiatvaluta's, die overheden eindeloos kunnen drukken. Deze beperkte Supply betekent dat de waarde van Bitcoin niet onderhevig is aan dezelfde inflatoire druk als fiatvaluta's.
-- Onveranderlijk:** De Blockchain technologie van Bitcoin zorgt ervoor dat wanneer een transactie eenmaal is vastgelegd op het netwerk, deze niet kan worden veranderd of vervalst. Dit niveau van onveranderlijkheid is niet mogelijk met fiatvaluta's, die veel meer te maken hebben met fraude, vervalsing of het terugdraaien van transacties.
+- **Duurzaam:** Bitcoin is digitaal en daarom niet onderhevig aan fysieke schade of verval zoals papieren of metalen valuta. Bovendien zorgt het gedecentraliseerde karakter ervoor dat er geen enkel punt is waarop een aanval kan mislukken.
+- **Schaars:** De Supply van Bitcoin is strikt gelimiteerd tot 21 miljoen munten, waardoor het inherent schaars is in vergelijking met fiatvaluta's, die overheden eindeloos kunnen drukken. Deze beperkte Supply betekent dat de waarde van Bitcoin niet onderhevig is aan dezelfde inflatoire druk als fiatvaluta's.
+- **Onveranderlijk:** De Blockchain technologie van Bitcoin zorgt ervoor dat wanneer een transactie eenmaal is vastgelegd op het netwerk, deze niet kan worden veranderd of vervalst. Dit niveau van onveranderlijkheid is niet mogelijk met fiatvaluta's, die veel meer te maken hebben met fraude, vervalsing of het terugdraaien van transacties.
 
 
 #### Medium van Exchange
@@ -1051,9 +1051,9 @@ Hoewel Bitcoin nog niet zo wereldwijd geaccepteerd is als fiatvaluta's, maken he
 
 
 
-- Draagbaar:** Omdat Bitcoin digitaal is, is het mogelijk om zonder grenzen en zonder tussenpersonen geld over te maken tussen individuen, waardoor het een handig en toegankelijk Exchange medium is. Hoewel sommige fiatvaluta's ook digitale oplossingen bieden, kunnen mensen in ontwikkelingslanden of door oorlog verscheurde landen moeite hebben om toegang te krijgen tot bankdiensten die aan deze behoefte voldoen. Het gedecentraliseerde karakter van Bitcoin maakt het toegankelijk voor iedereen met een internetverbinding en biedt een haalbaar alternatief voor traditionele banksystemen in gebieden met beperkte toegang tot financiële diensten.
-- Deelbaar:** De extreme deelbaarheid van Bitcoin is een van de belangrijkste voordelen als valuta. Omdat elk Bitcoin deelbaar is tot acht decimale plaatsen, is de kleinste eenheid, een Satoshi, slechts een fractie van een cent waard. Afhankelijk van de transactiemethode, d.w.z. Layer één of twee, maakt dit Bitcoin zeer geschikt voor transacties van elke grootte, van kleine aankopen tot grote investeringen.
-- Geaccepteerd:** Hoewel de acceptatie van Bitcoin nog niet universeel is, suggereert de toenemende acceptatie door winkeliers, instellingen en individuen over de hele wereld dat het steeds breder geaccepteerd wordt als een legitieme vorm van betaling.
+- **Draagbaar:** Omdat Bitcoin digitaal is, is het mogelijk om zonder grenzen en zonder tussenpersonen geld over te maken tussen individuen, waardoor het een handig en toegankelijk Exchange medium is. Hoewel sommige fiatvaluta's ook digitale oplossingen bieden, kunnen mensen in ontwikkelingslanden of door oorlog verscheurde landen moeite hebben om toegang te krijgen tot bankdiensten die aan deze behoefte voldoen. Het gedecentraliseerde karakter van Bitcoin maakt het toegankelijk voor iedereen met een internetverbinding en biedt een haalbaar alternatief voor traditionele banksystemen in gebieden met beperkte toegang tot financiële diensten.
+- **Deelbaar:** De extreme deelbaarheid van Bitcoin is een van de belangrijkste voordelen als valuta. Omdat elk Bitcoin deelbaar is tot acht decimale plaatsen, is de kleinste eenheid, een Satoshi, slechts een fractie van een cent waard. Afhankelijk van de transactiemethode, d.w.z. Layer één of twee, maakt dit Bitcoin zeer geschikt voor transacties van elke grootte, van kleine aankopen tot grote investeringen.
+- **Geaccepteerd:** Hoewel de acceptatie van Bitcoin nog niet universeel is, suggereert de toenemende acceptatie door winkeliers, instellingen en individuen over de hele wereld dat het steeds breder geaccepteerd wordt als een legitieme vorm van betaling.
 
 
 ### Rekeneenheid
@@ -1063,7 +1063,7 @@ Nu Bitcoin erkenning heeft gekregen als een medium van Exchange, is het snel opg
 
 
 
-- Fungible:** Elke Bitcoin is niet te onderscheiden van andere, waardoor het gemakkelijk inwisselbaar is, wat niet altijd het geval is met fysieke valuta die unieke identificaties kunnen hebben of van wisselende kwaliteit zijn.
+- **Fungible:** Elke Bitcoin is niet te onderscheiden van andere, waardoor het gemakkelijk inwisselbaar is, wat niet altijd het geval is met fysieke valuta die unieke identificaties kunnen hebben of van wisselende kwaliteit zijn.
 
 
 ### Het bedrijfsmiddel vs. het netwerk
@@ -1084,7 +1084,7 @@ Als we fiatvaluta's bekijken vanuit het perspectief van "de activa" en "het netw
 #### **The Asset** - _De fiatvaluta's die we gebruiken als waardeopslag (bijv. US dollar, euro, yen, frank, pond sterling, etc.)._
 
 
-**Monetair beleid verwijst naar de maatregelen die een centrale bank neemt om de rentetarieven en de totale Supply hoeveelheid geld in omloop te beheren. Wanneer de centrale bank de rente verlaagt of de Supply van het geld verhoogt, injecteert ze nieuw geld in de economie, waardoor de waarde van de bestaande valuta in omloop verwatert. Dit resulteert in een vermindering van de koopkracht van de munt, waardoor inflatie ontstaat.
+**Monetair beleid** verwijst naar de maatregelen die een centrale bank neemt om de rentetarieven en de totale *Supply* hoeveelheid geld in omloop te beheren. Wanneer de centrale bank de rente verlaagt of de *Supply* van het geld verhoogt, injecteert ze nieuw geld in de economie, waardoor de waarde van de bestaande valuta in omloop verwatert. Dit resulteert in een vermindering van de koopkracht van de munt, waardoor inflatie ontstaat.
 
 
 **Governments oversee Fiscal Policy** - Fiscaal beleid heeft betrekking op overheidsacties die te maken hebben met belastingen en overheidsuitgaven. Als de overheid bijvoorbeeld besluit om de economie te stimuleren door de belastingen te verlagen en stimuleringscheques te geven, dan verhoogt dit het beschikbare inkomen van de bevolking, wat leidt tot hogere uitgaven. Deze hogere uitgaven kunnen de prijzen opdrijven, wat leidt tot inflatie en onze koopkracht na verloop van tijd verlaagt.
@@ -1120,7 +1120,7 @@ Bitcoin geeft winkeliers ongekende controle over hun transacties, waardoor ze tr
 #### Inflatie
 
 
-Eind 2022 kampte bijna [de helft van de wereld] (https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/#:~:text=Inflation%20is%20surging%20nearly%20everywhere,digit%20inflation%20rates%20or%20higher.) met een inflatie van twee cijfers, waardoor het een dringende zorg werd. Als de inflatie de komende tien jaar op dit niveau blijft, zal dit resulteren in een koopkrachtverlies van 65%. Bitcoin biedt nu echter iedereen een uitweg. Omdat het een echt schaars goed is, kan de waarde ervan niet worden uitgehold door Supply expansie, waardoor we kunnen ontsnappen aan de negatieve gevolgen van het debiteren van valuta.
+Eind 2022 kampte bijna [de helft van de wereld](https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/#:~:text=Inflation%20is%20surging%20nearly%20everywhere,digit%20inflation%20rates%20or%20higher.) met een inflatie van twee cijfers, waardoor het een dringende zorg werd. Als de inflatie de komende tien jaar op dit niveau blijft, zal dit resulteren in een koopkrachtverlies van 65%. Bitcoin biedt nu echter iedereen een uitweg. Omdat het een echt schaars goed is, kan de waarde ervan niet worden uitgehold door Supply expansie, waardoor we kunnen ontsnappen aan de negatieve gevolgen van het debiteren van valuta.
 
 
 #### Vluchten uit door oorlog verscheurde of instabiele landen
@@ -1168,7 +1168,7 @@ In dit gedeelte gaan we dieper in op de verschillende lagen van transacties, zow
 Bitcoin's Blockchain bestaat uit blokken, zoals de naam al zegt. Deze blokken hebben een theoretische maximale grootte van 4 megabyte. vanwege deze limiet is er een beperking op het aantal transacties dat Bitcoin per seconde kan verwerken, namelijk tussen de zeven en tien transacties per seconde (tps).
 
 
-Daarom kun je je afvragen: Hoe kan Bitcoin's Blockchain mogelijk concurreren met netwerken zoals Visa of Mastercard die transacties doen met [1.700 tps] (https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Daarom kun je je afvragen: Hoe kan Bitcoin's Blockchain mogelijk concurreren met netwerken zoals Visa of Mastercard die transacties doen met [1.700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 
 Het antwoord is eenvoudig. Het concurreert niet met hen.
@@ -1201,7 +1201,7 @@ Bitcoin Blockchain is een geweldig alternatief voor Layer één transacties. Hoe
 Maar ondanks de voordelen als Layer één oplossing, kan Bitcoin ook concurreren met Layer twee transactiemethoden. Er zijn technologieën gebouwd bovenop het Bitcoin netwerk, zoals Lightning, die gebruikers in staat stellen om bijna onmiddellijk en voor fracties van een cent transacties te doen. Deze technologieën kunnen worden gezien als Layer twee oplossingen voor het Bitcoin netwerk. Met dit in gedachten, net zoals ons traditionele monetaire systeem Layer één en twee transacties heeft, heeft Bitcoin dat ook.
 
 
-Als je op zoek bent naar een redelijk snelle (maar niet onmiddellijke), kosteneffectieve en veilige manier om een groot bedrag aan geld te versturen, dan is Bitcoin Layer je beste keuze. Als je bijna ogenblikkelijk en voor een fractie van een cent transacties wilt doen, kun je je aandacht beter richten op enkele technologieën die op Bitcoin zijn gebouwd, waaronder innovaties zoals [Lightning] (https://lightning.network/).
+Als je op zoek bent naar een redelijk snelle (maar niet onmiddellijke), kosteneffectieve en veilige manier om een groot bedrag aan geld te versturen, dan is Bitcoin Layer je beste keuze. Als je bijna ogenblikkelijk en voor een fractie van een cent transacties wilt doen, kun je je aandacht beter richten op enkele technologieën die op Bitcoin zijn gebouwd, waaronder innovaties zoals [Lightning](https://lightning.network/).
 
 
 Bitcoin Lightning Network is een Layer tweeschalige oplossing die bovenop de Bitcoin Layer is gebouwd. Het maakt bijna onmiddellijke transacties mogelijk met minimale kosten, waardoor microtransacties en kleine aankopen mogelijk worden.
@@ -1243,7 +1243,7 @@ Non-custodial wallets zijn een type Bitcoin Wallet waarbij jij de enige beheerde
 Niet-bewaard-portemonnees bieden een hoger niveau van veiligheid en privacy dan bewaarportemonnees, omdat jij de enige bent die verantwoordelijk is voor de veiligheid van je geld. Voorbeelden van niet-custodial wallets zijn hardware wallets zoals [Coldcard](https://store.coinkite.com/store/coldcard) en [Trezor](https://trezor.io/), dit zijn fysieke apparaten die je private keys offline opslaan en een extra Layer beveiliging bieden. Andere populaire niet-custodial wallets zijn software wallets zoals [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), en [Blockstream Green](https://blockstream.com/Green/), die kunnen worden gedownload en geïnstalleerd op je computer of mobiele apparaat.
 
 
-\*Hoewel we geen specifieke Wallet kunnen aanbevelen, raden we sterk aan om controle te nemen over je Bitcoin door zelfbehoud of gezamenlijk beheer, wat inhoudt dat je een Wallet kiest die past bij jouw behoeften en voorkeuren. Het is essentieel om grondig onderzoek te doen voordat u een Wallet kiest, om er zeker van te zijn dat deze voldoet aan uw beveiligings- en bruikbaarheidsvereisten._
+*Hoewel we geen specifieke Wallet kunnen aanbevelen, raden we sterk aan om controle te nemen over je Bitcoin door zelfbehoud of gezamenlijk beheer, wat inhoudt dat je een Wallet kiest die past bij jouw behoeften en voorkeuren. Het is essentieel om grondig onderzoek te doen voordat u een Wallet kiest, om er zeker van te zijn dat deze voldoet aan uw beveiligings- en bruikbaarheidsvereisten.*
 
 
 Hoewel bewaarportemonnees handig lijken, brengen ze aanzienlijke risico's met zich mee. Door het beheer van je private keys aan een derde partij te geven, geef je hen effectief controle over je fondsen. Als de custodian insolvent wordt, gehackt wordt of de deuren sluit, kun je de toegang tot je Bitcoin verliezen. En dit is al ontelbare keren gebeurd, met spraakmakende voorbeelden zoals de Mt. Gox en QuadrigaCX hacks die resulteerden in het verlies van klantenfondsen, of FTX, Voyager, BlockFi en Celsius die catastrofale faillissementen meemaakten, wat leidde tot het verlies van hun klantenfondsen. Vooral voor spaartegoeden is het van cruciaal belang om aan zelfbehoud te doen en verantwoordelijkheid te nemen voor het veiligstellen van je Bitcoin.
@@ -1362,7 +1362,7 @@ Gezien de digitale aard van Bitcoin, is het altijd open voor business, 24 uur pe
 Het is gemakkelijk om deze feiten over het hoofd te zien totdat je de cijfers gaat berekenen.
 
 
-Ten eerste wordt [een kwart] (https://www.worldbank.org/en/publication/globalfindex) van de mensen wereldwijd als niet-bankier beschouwd. Dat betekent dat er meer dan een miljard mensen zijn die niet digitaal kunnen handelen, laat staan veilig kunnen sparen.
+Ten eerste wordt [een kwart](https://www.worldbank.org/en/publication/globalfindex) van de mensen wereldwijd als niet-bankier beschouwd. Dat betekent dat er meer dan een miljard mensen zijn die niet digitaal kunnen handelen, laat staan veilig kunnen sparen.
 
 
 En ten tweede, als je bedenkt dat er 8760 uren per jaar zijn en dat de gemiddelde bank alleen van maandag tot en met zaterdag van 10.00 tot 17.00 uur werkt en op zon- en feestdagen gesloten is, dan is de gemiddelde bank slechts 2100 uur per jaar open. Dat is slechts 24% van de tijd!
@@ -1374,7 +1374,7 @@ Dus buiten de miljarden mensen die geen toegang hebben tot bankdiensten en onlin
 Om het nog erger te maken, zijn al onze fondsen onderworpen aan de beperkingen van het traditionele bankieren, tenzij we onze toevlucht nemen tot contanten. Dit houdt een aanzienlijk risico in voor het geval onze regering een al te strenge bankhervorming oplegt, zoals bleek tijdens het faillissement van de Griekse regering in 2015.
 
 
-Tijdens deze crisis werden banken gesloten, geldopnames bij geldautomaten werden beperkt tot slechts 67 dollar per dag en na dit alles nam de overheid nog steeds een aanzienlijk [deel] (https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) van de banktegoeden van particulieren op om hun onverantwoordelijke begroting te financieren.
+Tijdens deze crisis werden banken gesloten, geldopnames bij geldautomaten werden beperkt tot slechts 67 dollar per dag en na dit alles nam de overheid nog steeds een aanzienlijk [deel](https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) van de banktegoeden van particulieren op om hun onverantwoordelijke begroting te financieren.
 
 
 Hoewel contant geld een oplossing kan zijn voor een dergelijke crisis, is het vertrouwen op fysieke valuta in een wereld waar digitale transacties een noodzaak zijn geen levensvatbare oplossing voor de lange termijn.
@@ -1429,9 +1429,9 @@ Na de komst van Tether lanceerden veel andere bedrijven en initiatieven vergelij
 
 
 
-- Fiat-backed stablecoins**, zoals USDt van Tether, worden ondersteund door traditionele valuta zoals de Amerikaanse dollar of de euro, en hun waarde is direct gekoppeld aan de waarde van de onderliggende fiatvaluta.
-- Grondstoffen-gedekte stablecoins** worden gedekt door grondstoffen zoals goud of olie, bijvoorbeeld de gouden stablecoin van Tether, XAUt,
-- Algoritmische stablecoins** vertrouwen op een reeks regels of algoritmes om hun waarde te behouden. Dat gezegd hebbende, moeten we nog een puur algoritmische stablecoin succesvol zien worden op de markt.
+- **Fiat-backed stablecoins**, zoals USDt van Tether, worden ondersteund door traditionele valuta zoals de Amerikaanse dollar of de euro, en hun waarde is direct gekoppeld aan de waarde van de onderliggende fiatvaluta.
+- **Grondstoffen-gedekte stablecoins** worden gedekt door grondstoffen zoals goud of olie, bijvoorbeeld de gouden stablecoin van Tether, XAUt,
+- **Algoritmische stablecoins** vertrouwen op een reeks regels of algoritmes om hun waarde te behouden. Dat gezegd hebbende, moeten we nog een puur algoritmische stablecoin succesvol zien worden op de markt.
 
 
 Concluderend: naarmate onze samenleving zich blijft ontwikkelen en de technologie voortschrijdt, verandert ook onze relatie met geld. Van munten tot digitale valuta's, we hebben een verschuiving gezien in de manier waarop we omgaan met en transacties doen met geld. Terwijl traditionele banksystemen hun beperkingen hebben, biedt Tether, via zijn stabielecoinselectie, een potentiële oplossing voor deze uitdagingen. Door de relatieve kortetermijnstabiliteit van traditionele valuta's te combineren met de flexibiliteit en toegankelijkheid van native digitale valuta's, bieden hun stablecoins gebruikers meer controle over hun geld. Of u nu geen toegang hebt tot bankdiensten, te maken hebt met overheidsbemoeienis of gewoon buiten de traditionele bankuren moet handelen, stablecoins zoals USDt kunnen een betrouwbaar alternatief bieden. Hierdoor worden ze snel een integraal onderdeel van ons financiële systeem.
@@ -1449,7 +1449,7 @@ maak je geen zorgen als sommige van deze termen niet helemaal duidelijk zijn. We
 Stablecoins zijn een populair onderwerp geworden in de cryptocurrency wereld, omdat ze op korte termijn een minder volatiel alternatief bieden voor cryptocurrencies zoals Bitcoin. Zoals beschreven in de inleiding van deze module, zijn stablecoins digitale activa die gekoppeld zijn aan een stabiel activum zoals fiatvaluta of edelmetalen, ontworpen om een stabiele waarde te behouden. Laten we daarom de geschiedenis van stablecoins verkennen en enkele van de eerste stablecoins nader bekijken, waaronder USDt van Tether, de bekendste en meest gebruikte stablecoin.
 
 
-leuk weetje:** Op het moment van schrijven heeft Tether's USDt een dagelijks transactievolume van gemiddeld 20 miljard dollar. Dit overtreft Bitcoin's recente dagelijkse volume van 15 miljard dollar. Bovendien staat USDt op de derde plaats voor de grootste marktkapitalisatie achter Bitcoin en Ethereum._
+**leuk weetje:** Op het moment van schrijven heeft Tether's USDt een dagelijks transactievolume van gemiddeld 20 miljard dollar. Dit overtreft Bitcoin's recente dagelijkse volume van 15 miljard dollar. Bovendien staat USDt op de derde plaats voor de grootste marktkapitalisatie achter Bitcoin en Ethereum.
 
 
 Het idee van stablecoins gaat terug tot de begindagen van cryptocurrency, waarbij het concept van een stabiele asset-backed cryptocurrency in 2012 werd voorgesteld door het Mastercoin-project. Het was echter pas een paar jaar later dat stablecoins aan kracht wonnen, met projecten als Bitshares en NuBits die in 2014 werden gelanceerd.
@@ -1568,7 +1568,7 @@ Ten eerste biedt XAUt een handigere en toegankelijkere manier om in goud te inve
 Ten tweede staat het fractionele Ownership toe, wat het makkelijker maakt voor investeerders om kleinere hoeveelheden goud te kopen.
 
 
-**In de fysieke wereld zou het kopen van een hele ounce goud voor $1900 voor velen buiten bereik liggen. Maar 1/1000ste van een ounce goud is nu haalbaar door fractionalisering van de tokens. In het digitale rijk is een claim op een exemplaar van goud Dust haalbaar - iets wat in het fysieke rijk niet haalbaar is.
+**In de fysieke wereld zou het kopen van een hele ounce goud voor $1900 voor velen buiten bereik liggen. Maar 1/1000ste van een ounce goud is nu haalbaar door fractionalisering van de tokens. In het digitale rijk is een claim op een exemplaar van goud Dust haalbaar - iets wat in het fysieke rijk niet haalbaar is.**
 
 
 Ten slotte is XAUt vaak meer Liquid dan fysiek goud, wat betekent dat het gemakkelijk kan worden omgezet in fiat of Bitcoin, waardoor beleggers hun bezit snel kunnen liquideren als dat nodig is.
@@ -1665,7 +1665,7 @@ Je vraagt je waarschijnlijk af: Wat is hier het probleem?
 Geld terugsturen naar het buitenland via een geldtransferservice zoals Western Union is niet gratis. Het kost geld, en niet zomaar een beetje, een aanzienlijk bedrag.
 
 
-Het terugsturen van 100 US-dollar naar Tonga kost [12,61 US-dollar] (https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus een extra verlies van 8,60 US-dollar door het ongunstige Exchange tarief. Dit betekent dat meer dan 21% van het totale verstuurde bedrag naar Western Union gaat, een multinational. Als gevolg hiervan belandt een aanzienlijk bedrag dat in handen had kunnen komen van Tongaanse families die het verdienen, in de zakken van de geldtransactiekantoren.
+Het terugsturen van 100 US-dollar naar Tonga kost [12,61 US-dollar](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus een extra verlies van 8,60 US-dollar door het ongunstige Exchange tarief. Dit betekent dat meer dan 21% van het totale verstuurde bedrag naar Western Union gaat, een multinational. Als gevolg hiervan belandt een aanzienlijk bedrag dat in handen had kunnen komen van Tongaanse families die het verdienen, in de zakken van de geldtransactiekantoren.
 
 Kun je je de voordelen voorstellen van 21% extra inkomen?
 
@@ -1676,14 +1676,14 @@ Als je bedenkt dat het BBP van Tonga in 2021 [469](https://tradingeconomics.com/
 En als je dacht dat Tonga hierin alleen stond, dan heb je het mis.
 
 
-Hier is een voorbeeld van hoeveel Western Union [rekent] (https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) voor het versturen van 100 US dollar naar enkele andere prominente landen:
+Hier is een voorbeeld van hoeveel Western Union [rekent](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) voor het versturen van 100 US dollar naar enkele andere prominente landen:
 
 
 
-- China:** 21,21 US$ vergoeding + 2,60 US$ tariefverlies Exchange (23,81% verlies)
-- Canada, VS, Mexico:** 16,86 US$ vergoeding + 1,20 US$ tariefverlies Exchange (18,06% verlies)
-- UK, Albanië, Bosnië, Servië, Slovenië:** 17,92$ vergoeding + 3,10$ Exchange tariefverlies (21,02% verlies)
-- Oceanië en Zuidoost-Azië:** 12,61 US$ vergoeding + 8,60 US$ tariefverlies Exchange (21,21% verlies)
+- **China:** 21,21 US$ vergoeding + 2,60 US$ tariefverlies Exchange (23,81% verlies)
+- **Canada, VS, Mexico:** 16,86 US$ vergoeding + 1,20 US$ tariefverlies Exchange (18,06% verlies)
+- **UK, Albanië, Bosnië, Servië, Slovenië:** 17,92$ vergoeding + 3,10$ Exchange tariefverlies (21,02% verlies)
+- **Oceanië en Zuidoost-Azië:** 12,61 US$ vergoeding + 8,60 US$ tariefverlies Exchange (21,21% verlies)
 
 Dit is een duizelingwekkend bedrag dat nu in handen is van grote Amerikaanse bedrijven. En dit is waar USDt om de hoek komt kijken, want zij bieden een oplossing voor het probleem van de hoge overboekingskosten.
 
@@ -1709,7 +1709,7 @@ Zoals Adanna's verhaal laat zien, is inflatie een pijnlijke realiteit voor tallo
 Om het effect van een inflatie met dubbele cijfers te illustreren: een inflatie van 10%, zoals Europa in oktober 2022 ervaart, zou een koopkrachtverlies van 61,5% betekenen over een periode van tien jaar.
 
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 
 _**Figuur:** Inflatie-effect op koopkracht(https://anilsaidso.gumroad.com/)_
@@ -1898,10 +1898,10 @@ Tot slot is de totale marktwaarde van Bitcoin net iets minder dan 550 miljard do
 
 
 
-- Wereldwijde aandelenmarkt: [124,4 biljoen dollar] (https://www.sifma.org/resources/research/fact-book/)
+- Wereldwijde aandelenmarkt: [124,4 biljoen dollar](https://www.sifma.org/resources/research/fact-book/)
 - Wereldwijde vastrentende/obligatiemarkt: \126,9 biljoen dollar
-- Wereldwijde vastgoedmarkt: [326,5 biljoen dollar] (https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
-- Wereldwijde derivatenmarkt: Geschat op meer dan [\$1 quadrillion] (https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
+- Wereldwijde vastgoedmarkt: [326,5 biljoen dollar](https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
+- Wereldwijde derivatenmarkt: Geschat op meer dan [\$1 quadrillion](https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
 
 
 Al met al, als mensen Bitcoin een zeepbel noemen, dan ook niet:
@@ -1921,13 +1921,13 @@ Critici wijzen er vaak op dat de volatiliteit van Bitcoin het een slechte belegg
 Ten eerste, de Bitcoin volatiliteit is een Hot onderwerp van discussie en heeft ertoe geleid dat sommigen het actief bekritiseren vanwege de scherpe prijsschommelingen. Wij geloven dat dit een beperkte kijk is op volatiliteit, omdat volatiliteit de prijsbeweging van een actief meet, niet alleen de dalingen. Degenen die de moed hadden om Bitcoin vast te houden tijdens de schommelingen, zijn rijkelijk beloond. Neem bijvoorbeeld activa A en B. Activa A stijgen gemiddeld 10% per jaar met een afwijking van 15%, terwijl activa B 5% per jaar stijgt met een afwijking van 10%. Hoewel activa B een lagere volatiliteit heeft dan activa A, presteert activa A beter dan activa B op de lange termijn. Je moet bereid zijn om de volatiliteit te verdragen om de vruchten te plukken van de prijsbewegingen van Bitcoin. Bovendien kan de USD van dag tot dag minder volatiel zijn. Maar als je de munt de afgelopen 100 jaar hebt aangehouden, heb je [96%](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) van je koopkracht verloren.
 
 
-Ten tweede is volatiliteit een natuurlijk fenomeen als het gaat om technologische adoptie. Wanneer een nieuwe technologie wordt geïntroduceerd, is er onvermijdelijk onzekerheid en speculatie over het potentieel ervan, wat leidt tot prijsschommelingen. Kunstmatige intelligentie (AI) is een uitstekend voorbeeld van een zeer volatiele sector. Van [2021 tot 2022] (https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20miljard%20in%2021.) steeg de totale waarde van AI van $51 miljard naar $119 miljard. Ondanks de volatiliteit kunnen de voordelen van investeren in AI niet worden genegeerd. Van zelfrijdende auto's tot gepersonaliseerde gezondheidszorg, de potentiële toepassingen van AI zijn immens. Dus als je geïnteresseerd bent in AI, zou je de kansen die het biedt niet willen missen alleen vanwege de volatiliteit.
+Ten tweede is volatiliteit een natuurlijk fenomeen als het gaat om technologische adoptie. Wanneer een nieuwe technologie wordt geïntroduceerd, is er onvermijdelijk onzekerheid en speculatie over het potentieel ervan, wat leidt tot prijsschommelingen. Kunstmatige intelligentie (AI) is een uitstekend voorbeeld van een zeer volatiele sector. Van [2021 tot 2022](https://www.precedenceresearch.com/artificial-intelligence-market#:~:text=The%20global%20artificial%20intelligence%20(AI,USD%2051%20miljard%20in%2021.) steeg de totale waarde van AI van $51 miljard naar $119 miljard. Ondanks de volatiliteit kunnen de voordelen van investeren in AI niet worden genegeerd. Van zelfrijdende auto's tot gepersonaliseerde gezondheidszorg, de potentiële toepassingen van AI zijn immens. Dus als je geïnteresseerd bent in AI, zou je de kansen die het biedt niet willen missen alleen vanwege de volatiliteit.
 
 
 Bovendien is de volatiliteit van Bitcoin niet uniek. Traditionele financiële markten hebben ook te maken met fluctuaties in activaprijzen, zoals de aandelenmarkt, grondstoffenmarkt en zelfs valuta. In feite is de volatiliteit van Bitcoin aantoonbaar minder ernstig dan veel andere activa.
 
 
-Ten slotte gaat het argument dat Bitcoin buitensporig volatiel is voorbij aan een belangrijk aspect: de waardering is momenteel gekoppeld aan fiatvaluta. De waargenomen schommelingen in de waarde van Bitcoin worden voornamelijk veroorzaakt door de inherente instabiliteit van de onderliggende meeteenheid, zoals de dollar of andere valuta. Zoals Lawrence White treffend aangeeft in zijn boek [Better Money] (https://amzn.to/3NZnCTm), zijn deze prijsschommelingen grotendeels het gevolg van mensen die zich willen indekken tegen inflatie. Anders gezegd, in ons systeem van fractionele reserves dat geregeerd wordt door centrale banken, hebben de machthebbers de mogelijkheid om de Supply van het geld in omloop te veranderen. Als gevolg daarvan stijgen de activaprijzen wanneer ze monetair beleid voeren, zoals kwantitatieve versoepeling, en dalen de prijzen wanneer ze krapper worden. Dit whipsaw-effect is een bijproduct van een gecentraliseerd monetair systeem en creëert onzekerheid en instabiliteit op de financiële markten. Daarom is het beoordelen van de volatiliteit van Bitcoin op basis van het gedrag onder een fiatstandaard misleidend. In wezen benadrukt het alleen maar de inherente volatiliteit van fiatvaluta's.
+Ten slotte gaat het argument dat Bitcoin buitensporig volatiel is voorbij aan een belangrijk aspect: de waardering is momenteel gekoppeld aan fiatvaluta. De waargenomen schommelingen in de waarde van Bitcoin worden voornamelijk veroorzaakt door de inherente instabiliteit van de onderliggende meeteenheid, zoals de dollar of andere valuta. Zoals Lawrence White treffend aangeeft in zijn boek [Better Money](https://amzn.to/3NZnCTm), zijn deze prijsschommelingen grotendeels het gevolg van mensen die zich willen indekken tegen inflatie. Anders gezegd, in ons systeem van fractionele reserves dat geregeerd wordt door centrale banken, hebben de machthebbers de mogelijkheid om de Supply van het geld in omloop te veranderen. Als gevolg daarvan stijgen de activaprijzen wanneer ze monetair beleid voeren, zoals kwantitatieve versoepeling, en dalen de prijzen wanneer ze krapper worden. Dit whipsaw-effect is een bijproduct van een gecentraliseerd monetair systeem en creëert onzekerheid en instabiliteit op de financiële markten. Daarom is het beoordelen van de volatiliteit van Bitcoin op basis van het gedrag onder een fiatstandaard misleidend. In wezen benadrukt het alleen maar de inherente volatiliteit van fiatvaluta's.
 
 
 Daarentegen werkt Bitcoin op een gedecentraliseerd netwerk, waar Supply vastligt en niet gemanipuleerd kan worden door een centrale autoriteit. Hoewel dit betekent dat er op de korte termijn volatiliteit kan zijn, zal de schaarste en voorspelbaarheid van Supply van Bitcoin hoogstwaarschijnlijk de volatiliteit verminderen en de stabiliteit op de lange termijn vergroten.
@@ -2021,7 +2021,7 @@ Maar Bitcoin concurreert ook met Layer twee transactiemethoden, met technologie�
 Ondanks de vele onderzoeken die valse claims ontkrachten, wordt Bitcoin nog steeds vaak bekritiseerd als zijnde voornamelijk gebruikt voor illegale activiteiten. Nogmaals, dit kan niet verder van de waarheid zijn.
 
 
-Een [studie] (https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), uitgevoerd door de voormalige adjunct-directeur van de CIA, vond dat "brede generalisaties over het gebruik van Bitcoin in illegale financiering aanzienlijk worden overdreven." In feite is sinds 2016 minder dan 1% van het totale transactievolume van Bitcoin gebruikt voor illegale activiteiten. Ter vergelijking: "sommigen schatten de ondergrondse economie op 11% tot 12% van het Amerikaanse bruto binnenlands [product] (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," waarvan het grootste deel wordt gefaciliteerd met behulp van de Amerikaanse dollar.
+Een [studie](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), uitgevoerd door de voormalige adjunct-directeur van de CIA, vond dat "brede generalisaties over het gebruik van Bitcoin in illegale financiering aanzienlijk worden overdreven." In feite is sinds 2016 minder dan 1% van het totale transactievolume van Bitcoin gebruikt voor illegale activiteiten. Ter vergelijking: "sommigen schatten de ondergrondse economie op 11% tot 12% van het Amerikaanse bruto binnenlands [product](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," waarvan het grootste deel wordt gefaciliteerd met behulp van de Amerikaanse dollar.
 
 
 En volgens een rapport van Chainalysis in 2020 zijn illegale activiteiten slechts goed voor ongeveer [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) van alle Bitcoin transacties.
@@ -2084,7 +2084,7 @@ Met dit in gedachten willen we drie punten bespreken:
 3. **Eerlijke vergelijkingen:** Door het energieverbruik van Bitcoin te vergelijken met dat van andere sectoren, kunnen we een evenwichtiger perspectief krijgen en de geldigheid van de beweringen erover beoordelen.
 
 
-Maar laten we eerst de overduidelijke vraag beantwoorden: **Waarom verbruikt Bitcoin energie?
+Maar laten we eerst de overduidelijke vraag beantwoorden: **Waarom verbruikt Bitcoin energie?**
 
 
 Net zoals energie verbruikt wordt bij Mining fysiek goud, verbruiken Bitcoin mijnwerkers energie bij hun streven om Bitcoin te verwerven. Deze vereiste van echte energie verankert een anders ongrijpbaar digitaal goed in de fysieke wereld. Bovendien, met het enorme netwerk van mijnwerkers dat wereldwijd energie verbruikt om het Bitcoin netwerk te beveiligen, dient het energieverbruik om Bitcoin te verkrijgen als een krachtig verdedigingsmechanisme tegen centralisatie en ongepaste manipulatie. Om deze reden is het extreem moeilijk voor gecentraliseerde entiteiten om het netwerk te coöpteren of de regels in hun voordeel te manipuleren, omdat ze de talloze wereldwijd verspreide miners zouden moeten overtreffen.
@@ -2138,10 +2138,10 @@ Nu hebben energieproducenten echter een manier om te profiteren van deze gestran
 Ten slotte zijn Bitcoin mijnwerkers gemotiveerd om goedkope energiebronnen te zoeken, omdat hun winst afhangt van de energiekosten. Daarom gaan ze actief op zoek naar gestrande energie of andere vormen van energie die anders ongebruikt zouden blijven. Een opmerkelijk voorbeeld is afgefakkeld gas, dat vrijkomt wanneer aardoliemaatschappijen olie uit de grond halen. Afgefakkeld gas is een bijproduct van dit proces en wordt meestal verbrand vanwege de hoge kosten die gepaard gaan met het opvangen ervan. Deze praktijk, bekend als affakkelen, leidt niet alleen tot energieverspilling, maar zorgt er ook voor dat methaan en verschillende andere gassen vrijkomen in de atmosfeer.
 
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 
-_**Figuur:** Fakkel [Gas] (https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
+_**Figuur:** Fakkel [Gas](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
 
 Met Bitcoin hebben ingenieurs echter een manier bedacht om dit anders weggegooide aardgas te gebruiken door het om te zetten in energie om Bitcoin mijnwerkers van energie te voorzien. Deze doorbraak levert deze bedrijven niet alleen een extra inkomstenstroom op, maar heeft ook aanzienlijke voordelen voor het milieu. Door afgefakkeld gas om te zetten in generate elektriciteit voor Bitcoin Mining, kunnen deze bedrijven [emissies verminderen](https://batcoinz.com/quantifying-the-impact-of-using-stranded-methane-on-the-Bitcoin-network/) die anders de lucht die we inademen zouden vervuilen. In wezen is Bitcoin koolstofnegatief in dit scenario, omdat het een manier biedt om emissies te verminderen en productief gebruik te maken van eerder afgedankte energiebronnen.
@@ -2159,7 +2159,7 @@ En tot slot..
 We willen beginnen met te zeggen: **Alles verbruikt energie**, of we ons dat nu realiseren of niet. Zelfs een eenvoudige handeling, zoals hardlopen met je hond, vereist dat je jezelf en je harige metgezel van brandstof voorziet. Zowel jij als je hond verbruiken energie.
 
 
-Nu is het niet onze bedoeling om andere industrieën te bekritiseren voor hun energieverbruik, omdat, zoals hierboven besproken, energieverbruik de waarde aangeeft die mensen vinden in de geleverde diensten of producten. Het is echter essentieel om het energieverbruik van Bitcoin in perspectief te plaatsen. Overweeg de volgende [vergelijkingen] (https://bitcoinmagazine.com/business/Bitcoin-energy-use-compare-industry):
+Nu is het niet onze bedoeling om andere industrieën te bekritiseren voor hun energieverbruik, omdat, zoals hierboven besproken, energieverbruik de waarde aangeeft die mensen vinden in de geleverde diensten of producten. Het is echter essentieel om het energieverbruik van Bitcoin in perspectief te plaatsen. Overweeg de volgende [vergelijkingen](https://bitcoinmagazine.com/business/Bitcoin-energy-use-compare-industry):
 
 
 
@@ -2223,10 +2223,10 @@ Dit geldt echter niet voor alle stablecoins en veel stablecoins bieden niet deze
 Een ander veelgehoord punt van kritiek is dat stablecoins vaak niet volledig gedekt worden door contant geld, maar eerder door "liquide middelen" _Dit is de technische term voor cash en cash-achtige reserves die gemakkelijk omgezet kunnen worden in cash_. Het is echter belangrijk om twee punten in overweging te nemen:
 
 
-Ten eerste investeren emittenten van stablecoins vaak in kasequivalenten in plaats van contanten aan te houden, aangezien contanten een aanzienlijke impact kunnen hebben op de balans van de emittent van stablecoins. Met de huidige regelgeving voor banken zijn alle activa op de balans, zoals contant geld, onderhevig aan potentieel verlies in het geval van een faillissement, en de Federal Deposit Insurance Corporation (FDIC) biedt slechts verzekeringsdekking tot 250.000 USD, waarbij bedragen boven deze limiet risico lopen. Om dit risico te beperken, investeren stablecoins die gebruikers willen beschermen tegen onvoorziene gebeurtenissen vaak in schatkistpapier uitgegeven door de overheid. Door te investeren in activa zoals schatkistpapier, generate ze niet alleen een rendement, kunnen deze activa worden beschouwd als off-balance sheet effecten. Als gevolg hiervan kunnen uitgevers van stablecoins hun fondsen beschermen in het geval van een bankfaillissement, aangezien deze effecten kunnen worden teruggegeven aan de klant. Een overtuigende illustratie hiervan vond plaats in februari/maart 2023, waarbij Silicon Valley Bank (SVB) en Circle, het bedrijf achter de stablecoin USDC, betrokken waren. Op dat moment had Circle een aanzienlijk bedrag van [3,3 miljard dollar] (https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) in contanten gestort bij de SVB. En toen ging SVB failliet. Om een financiële ramp af te wenden, greep de FDIC in om Circle en andere getroffen bedrijven te redden door de ontbrekende fondsen te dekken. Dit is echter niet de standaard gang van zaken. Deze ongekende gebeurtenis was de eerste keer in de geschiedenis dat een dergelijke situatie zich voordeed. Zonder de interventie van de FDIC had Circle ook failliet kunnen gaan.
+Ten eerste investeren emittenten van stablecoins vaak in kasequivalenten in plaats van contanten aan te houden, aangezien contanten een aanzienlijke impact kunnen hebben op de balans van de emittent van stablecoins. Met de huidige regelgeving voor banken zijn alle activa op de balans, zoals contant geld, onderhevig aan potentieel verlies in het geval van een faillissement, en de Federal Deposit Insurance Corporation (FDIC) biedt slechts verzekeringsdekking tot 250.000 USD, waarbij bedragen boven deze limiet risico lopen. Om dit risico te beperken, investeren stablecoins die gebruikers willen beschermen tegen onvoorziene gebeurtenissen vaak in schatkistpapier uitgegeven door de overheid. Door te investeren in activa zoals schatkistpapier, generate ze niet alleen een rendement, kunnen deze activa worden beschouwd als off-balance sheet effecten. Als gevolg hiervan kunnen uitgevers van stablecoins hun fondsen beschermen in het geval van een bankfaillissement, aangezien deze effecten kunnen worden teruggegeven aan de klant. Een overtuigende illustratie hiervan vond plaats in februari/maart 2023, waarbij Silicon Valley Bank (SVB) en Circle, het bedrijf achter de stablecoin USDC, betrokken waren. Op dat moment had Circle een aanzienlijk bedrag van [3,3 miljard dollar](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) in contanten gestort bij de SVB. En toen ging SVB failliet. Om een financiële ramp af te wenden, greep de FDIC in om Circle en andere getroffen bedrijven te redden door de ontbrekende fondsen te dekken. Dit is echter niet de standaard gang van zaken. Deze ongekende gebeurtenis was de eerste keer in de geschiedenis dat een dergelijke situatie zich voordeed. Zonder de interventie van de FDIC had Circle ook failliet kunnen gaan.
 
 
-Ten tweede hebben we vaak kritiek op emittenten van stablecoins omdat ze investeren in niet-contante activa, maar ons bestaande banksysteem werkt op basis van fractionele reserves. Eenvoudig gezegd houden banken niet voldoende reserves aan om aan de opnameverzoeken van hun klanten te voldoen. Als een aanzienlijk deel van onze nationale bevolking hun deposito's zou opnemen, zou de banksector snel instorten. In feite is de reserveverplichting in de Verenigde Staten sinds 2020 vastgesteld op [nul] (https://www.federalreserve.gov/monetarypolicy/reservereq.htm), wat betekent dat banken niet verplicht zijn om **ZIJNE** deposito's van klanten aan te houden.
+Ten tweede hebben we vaak kritiek op emittenten van stablecoins omdat ze investeren in niet-contante activa, maar ons bestaande banksysteem werkt op basis van fractionele reserves. Eenvoudig gezegd houden banken niet voldoende reserves aan om aan de opnameverzoeken van hun klanten te voldoen. Als een aanzienlijk deel van onze nationale bevolking hun deposito's zou opnemen, zou de banksector snel instorten. In feite is de reserveverplichting in de Verenigde Staten sinds 2020 vastgesteld op [nul](https://www.federalreserve.gov/monetarypolicy/reservereq.htm), wat betekent dat banken niet verplicht zijn om **ZIJNE** deposito's van klanten aan te houden.
 
 
 We willen duidelijk zijn. Deze opmerking betekent niet dat we de bezorgdheid moeten negeren dat stablecoins kasreserves vervangen door activa die in waarde kunnen dalen, waardoor de stablecoin mogelijk destabiliseert. In plaats daarvan moeten we erkennen dat er met twee maten wordt gemeten tussen traditionele en moderne cryptografische financiering.
@@ -2268,10 +2268,10 @@ Kortom, de volgende keer dat een stablecoin boven of onder zijn beoogde prijs ha
 Bij het aanpakken van de misvatting dat stablecoins uw fondsen kunnen bevriezen vanwege hun gecentraliseerde aard, is het belangrijk om het onderscheid tussen gecentraliseerde en gedecentraliseerde entiteiten te benadrukken, elk met zijn eigen voor- en nadelen. Hoewel we een groot voorstander zijn van gedecentraliseerde activa zoals Bitcoin, betekent dit niet dat gecentraliseerde stablecoins geen waarde of voordelen hebben.
 
 
-Een van de belangrijkste voordelen van centralisatie is de mogelijkheid om in te grijpen wanneer dit in het belang is van de gebruikers en de algemene stabiliteit van het systeem. Hoewel het waar is dat uitgevers van stablecoins de mogelijkheid hebben om fondsen te bevriezen. In vrijwel alle gevallen wordt dit niet gebruikt als een kwaadaardige aanval op de stablecoin-houder. In plaats daarvan wordt het gebruikt in samenwerking met wetshandhaving om consumenten te beschermen. Een opmerkelijk voorbeeld is de FTX Exchange instorting. In samenwerking met wetshandhavers bevroor Tether USDt ter waarde van [46 miljoen] (https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) om consumentenfondsen te beschermen.
+Een van de belangrijkste voordelen van centralisatie is de mogelijkheid om in te grijpen wanneer dit in het belang is van de gebruikers en de algemene stabiliteit van het systeem. Hoewel het waar is dat uitgevers van stablecoins de mogelijkheid hebben om fondsen te bevriezen. In vrijwel alle gevallen wordt dit niet gebruikt als een kwaadaardige aanval op de stablecoin-houder. In plaats daarvan wordt het gebruikt in samenwerking met wetshandhaving om consumenten te beschermen. Een opmerkelijk voorbeeld is de FTX Exchange instorting. In samenwerking met wetshandhavers bevroor Tether USDt ter waarde van [46 miljoen](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) om consumentenfondsen te beschermen.
 
 
-Een ander voorbeeld dat de voordelen van gecentraliseerde interventie aantoont, deed zich voor na de [KuCoin hack] (https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) in september 2020. Tether bevroor ongeveer 35 miljoen USDt om te voorkomen dat hackers zouden profiteren van hun illegale activiteiten. Deze voorbeelden laten zien hoe gecentraliseerde stablecoins in bepaalde scenario's snel kunnen reageren op kwaadwillende actoren en de belangen van hun gebruikers kunnen beschermen.
+Een ander voorbeeld dat de voordelen van gecentraliseerde interventie aantoont, deed zich voor na de [KuCoin hack](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) in september 2020. Tether bevroor ongeveer 35 miljoen USDt om te voorkomen dat hackers zouden profiteren van hun illegale activiteiten. Deze voorbeelden laten zien hoe gecentraliseerde stablecoins in bepaalde scenario's snel kunnen reageren op kwaadwillende actoren en de belangen van hun gebruikers kunnen beschermen.
 
 
 Met dit in gedachten geven we prioriteit aan Bitcoin voor langetermijnsparen vanwege de afwezigheid van tussenpersonen of individuen die het netwerk kunnen coöpteren, maar gecentraliseerde stablecoins hebben nog steeds een aantal voordelen, bijvoorbeeld dat de gecentraliseerde aard van stablecoins het mogelijk maakt om fondsen te bevriezen, wat een waardevol instrument kan zijn bij het bestrijden van illegale activiteiten en het beschermen van gebruikers.
@@ -2351,10 +2351,10 @@ In de afgelopen jaren heeft Bitcoin zich echter ontpopt als een krachtig instrum
 Terwijl de wereld vol afschuw toekeek hoe de Taliban in [1996] de controle over Afghanistan overnamen (https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), leefde dit jonge meisje Roya in het hart van het conflict. Ze was pas zeven jaar oud en raakte verstrikt in de onrust en onzekerheid van de oorlog toen haar geboortestad werd binnengevallen en bezet door de Taliban. Ondanks het gevaar en de tegenslagen waarmee ze werd geconfronteerd, en ondanks het feit dat ze niet naar school kon, weigerde Roya zich te laten verslaan. In plaats daarvan wendde ze zich tot het onderwijs als een manier om de beperkingen die haar door haar omstandigheden werden opgelegd te overwinnen.
 
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
 
-\***Figuur:** [Roya Mahboob] (https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Figuur:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
 
 
 Roya Mahboob is een pionier op het gebied van technologie en ondernemerschap in Afghanistan. Ze werd niet alleen [uitgeroepen tot](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) tot de 100 meest invloedrijke mensen ter wereld van TIME Magazine voor 2013 na "het bouwen van internetklaslokalen in middelbare scholen in Afghanistan." In 2010 richtte ze ook het Afghaanse Citadel Software Company op, dat tot doel heeft "banen te creëren voor pas afgestudeerden - vooral vrouwen." En alsof dat nog niet genoeg was, richtte ze daarna het Digital Citizen Fund op. Deze non-profitorganisatie zet zich in voor de empowerment van vrouwen en kinderen in ontwikkelingslanden door middel van technologie.
@@ -2439,7 +2439,7 @@ Eigenaar van een café, Vietnam
 "In mijn café in het district Binh Thanh richten we ons op een jonge klantenkring en incidentele toeristen en bieden we een verscheidenheid aan dranken, waaronder koffie, Soft-drankjes en cocktails. Tether is onze go-to-oplossing geworden voor het verwerken van betalingen van buitenlandse klanten die geen lokale valuta of bankrekening hebben. Hoewel de verkoop via Tether op dit moment misschien klein is, biedt het ons een handige manier om de valutakloof te overbruggen en onze internationale klanten van dienst te zijn. Klanten zijn vaak verbaasd over onze openheid om cryptocurrency-betalingen te accepteren, wat een blijvende indruk achterlaat op hun ervaring."
 
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 
 Parvinee Ratchaphokhinpiti
 
@@ -2449,7 +2449,7 @@ Gepensioneerd, Thailand
 "USDt betekende een revolutie voor mijn internationale geldtransfers. Als gepensioneerde was ik afhankelijk van trage bankoverschrijvingen. Dankzij USDt kan ik nu moeiteloos geld versturen via een digitaal activum Exchange. Binnen 30 minuten ontving mijn zus het geld. De tijdbesparende voordelen zijn van onschatbare waarde en zorgen voor snelle en probleemloze transacties."
 
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 
 Jamie Tran
 
@@ -2459,7 +2459,7 @@ Pianoleraar, Vietnam
 "Geld sturen naar mijn familie in het buitenland was vaak nodig, maar het omwisselen van valuta bij lokale wisselkantoren bleek tijdrovend en duur te zijn. Om Address aan deze uitdagingen het hoofd te bieden, liet ik mijn familie kennismaken met het gemak van USDt. Door deze eenvoudige overstap heeft ons gezin veel tijd en geld kunnen besparen bij onze financiële transacties. Met USDt genieten we nu van gestroomlijnde overboekingen naar het buitenland, waardoor we onze dierbaren efficiënt en kosteneffectief kunnen ondersteunen."
 
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 
 Romeins
 
@@ -2469,7 +2469,7 @@ Russische expat woont in Vietnam
 "Ik woon in Vietnam en stuur regelmatig Tether naar mijn familie en neven in Rusland. Geld overmaken naar het buitenland met Tether is probleemloos in vergelijking met traditionele bankmethoden. Er zijn geen bankbezoeken, notariële documenten of uitleg nodig. Met geen verzendlimieten, minimale kosten en snelle transacties wordt het geld binnen enkele minuten overgemaakt."
 
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 
 Luis Graterol
 
@@ -2479,7 +2479,7 @@ Audiovisueel, Venezuela
 "Mijn naam is Luis Graterol, en Tether heeft me geholpen om mijn spaargeld op een andere manier veilig te stellen. In Venezuela lijden we onder de hoge inflatie, en Tether heeft veel geholpen. De gebruiksvriendelijkheid is eenvoudig en in veel gevallen kun je transacties doen zonder kosten. USDt maakt mijn leven gemakkelijker! Het helpt me ook om het gebruik ervan aan te moedigen in de audiovisuele media; sinds ik het gemak ervan ontdekt heb, ontvang ik mijn betalingen per USDt en bespaar ik de vervelende lokale fiat waar velen van ons mee te maken hebben!"
 
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 
 Dubraska Villanloga
 
@@ -2489,7 +2489,7 @@ CEO Tu Cachapa Caricuao, Caracas, Venezuela
 "Ik kom uit Venezuela en run een klein bedrijfje dat ontbijt bezorgt. Tether USDt is voor mij een haalbare oplossing geweest voor het probleem van fysiek geld. USDt heeft me ook geholpen met mijn spaargeld, want als ik mijn zakelijke rekeningen in de Venezolaanse bolivar had aangehouden, had ik niet vooruit kunnen plannen met de inkoop van levensmiddelen vanwege de constante devaluatie."
 
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 
 Marcela Romero
 
@@ -2499,7 +2499,7 @@ Marketing- en PR-manager, Guanacaste, Costa Rica
 "Een paar jaar geleden verhuisde ik naar het land van mijn man. Door de pandemie kreeg ik te maken met een unieke migratievoorwaarde, waardoor ik lang moest wachten op een verblijfsvergunning of staatsburgerschap. Bijna drie jaar lang had ik geen toegang tot een bankrekening en kon ik niet legaal in het land werken. Door gebruik te maken van mijn online werkmogelijkheden en mijn salaris in USDt te ontvangen, kon ik mijn carrière op afstand voortzetten bij internationale bedrijven. Met Tether kan ik onmiddellijk geld naar huis sturen zonder hoge kosten of vertragingen. Tether heeft me in staat gesteld om mijn professionele doelen na te streven en financiële onafhankelijkheid te behouden ondanks de beperkingen van de overheid."
 
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 
 Simoneth Gomez
 
@@ -2509,7 +2509,7 @@ QA Engineer, Venezuela, woonachtig in Argentinië
 "Hallo, mijn naam is Simoneth Gomez. Ik kom uit Venezuela, maar ik woon momenteel in Buenos Aires, waar ik werk als software kwaliteitsanalist. Toen ik naar Argentinië kwam, was de afstand tussen mijn werk en de plek waar ik geld moest wisselen om naar mijn familie in Venezuela te sturen 12 km. Dus maakte ik kennis met USDt en begon ik het te gebruiken, want in plaats van die route te moeten afleggen voor 5 of 10 dollar in de bus, kon ik het vanaf mijn bureau in twee minuten oplossen."
 
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 
 Carlos Caballero
 
@@ -2519,7 +2519,7 @@ Psycholoog, Argentinië
 "Tether is de oplossing die mij in staat heeft gesteld mijn werk voort te zetten tijdens de jaren van de pandemie. Het feit dat het een valuta is die verankerd is aan de dollar zorgt ervoor dat het een internationale referentiewaarde heeft. En de stabiliteit en veiligheid tegen de volatiliteit van andere cryptocurrencies is de belangrijkste reden waarom ik ervoor heb gekozen."
 
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 
 Heloisa Passos
 
@@ -2529,7 +2529,7 @@ CEO Sp4ce Games, Brazilië
 "Ik werk nu ongeveer vijf jaar op afstand voor internationale bedrijven, en het grootste deel van die tijd had ik te lijden onder de hoge rentetarieven van de nationale banken, die een hoog percentage aanrekenen voor elke internationale overschrijving, naast de wachttijd voor het afhandelen van betalingen via het Swift-systeem (ongeveer 24 uur). Toen ik mijn salaris in Tether begon te ontvangen, besefte ik hoeveel tijd en geld ik begon te besparen door gewoon in USDt betaald te worden."
 
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 
 Samuel
 
@@ -2539,7 +2539,7 @@ Handelsmaatschappij, Nigeria
 "Het gebruik van USDt heeft ons bedrijf veel tijd bespaard, want als Nigeriaans bedrijf moeten we om USD te krijgen naar onze bank gaan en kostbare tijd besteden aan het invullen van formulieren en uren in de rij staan om geld op te nemen of over te maken. Met USDt kunnen we echter in minder dan 5 minuten Exchange gebruiken voor lokale valuta en elke transactie uitvoeren die we maar willen."
 
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 
 Joshua
 
@@ -2549,7 +2549,7 @@ Student, Nigeria
 "Tether heeft me op verschillende manieren geholpen. Verdienen in Tether heeft me geholpen om de spanning van de stijgende inflatie in het land te overwinnen, en het heeft me geholpen om verspillende uitgaven te beperken. Ook helpt het mijn spaargeld zijn waarde te behouden, omdat ik niet zwaar getroffen word door de devaluatie van de Naira."
 
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 
 Esther
 

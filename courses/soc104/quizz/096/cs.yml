@@ -1,0 +1,9 @@
+question: Jakou hlavní metodu by podle manifestu Cypherpunk Erica Hughese měli šifranti používat k dosažení svých cílů v oblasti soukromí a svobody?
+answer: Psaní kódu pro vytváření kryptografických systémů, které činí politické rozdělení irelevantním
+wrong_answers:
+  - Lobbování u vlád, aby přijaly přísnější zákony a předpisy na ochranu soukromí
+  - Organizování masových protestů a kampaní občanské neposlušnosti proti sledování
+  - Vytváření vzdělávacích programů pro zvýšení povědomí veřejnosti o právech na digitální soukromí
+explanation: |
+  Eric Hughes výslovně uvedl, že "Cypherpunkeři píší kód" je jejich základní přístup. Manifest zdůrazňuje, že cypherpunkeři nenacházejí útěchu v nadějích a přáních, ale aktivně zasahují budováním anonymních systémů prostřednictvím kryptografie.
+  Tím se abstraktní myšlenky svobody mění v konkrétní ekonomickou a společenskou realitu, čímž se politické rozdělení stává svévolným a zbytečným. Ostatní možnosti představují tradiční politický aktivismus, který je v rozporu s cypherpunkovou filozofií technologických řešení namísto institucionálních reforem.

@@ -1,0 +1,9 @@
+question: Spinoza jaoks on Jumal?
+answer: Loodus.
+wrong_answers:
+  - Olend, kellel on kavatsus.
+  - Kellassepp.
+  - Fiktsioon.
+explanation: |
+  Spinoza jaoks on Jumal loodus (Deus sive Natura). Ta ei ole transtsendentne, personaalne olend, vaid ainulaadne, lõpmatu substants, mille kõik olemasolev on moodus või ilming.
+reviewed: false

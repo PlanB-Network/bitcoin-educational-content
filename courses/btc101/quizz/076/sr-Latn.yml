@@ -1,10 +1,12 @@
-question: Koja je uloga javnog ključa u Bitkoin novčaniku?
-answer: Koristi se za generate Bitkoin adrese i tako prima novac.
+question: Koja je analogija korišćena u ovom kursu da objasni kako možete primiti bitkoine bez omogućavanja pošiljaocu da ukrade vaša sredstva?
+answer: Poštansko sanduče.
 wrong_answers:
-  - Koristi se za šifrovanje Bitkoin transakcija.
-  - Koristi se za pristup Bitkoin novčaniku.
-  - Koristi se za pravljenje rezervne kopije Bitkoin novčanik.
+  - Bankovni račun.
+  - Sigurno.
+  - Kuća.
 explanation: |
-  Javni ključ se izvodi iz privatnog ključa i koristi se
-  za generisanje Bitkoin adrese kako bi se primio novac.
+  Analogija korišćena da objasni kako možete primiti Bitkoine
+  bez omogućavanja pošiljaocu da ukrade vaša sredstva je
+  poštansko sanduče. Ljudi u njega ubacuju novac, ali samo vi
+  možete da ga otvorite.
 reviewed: true

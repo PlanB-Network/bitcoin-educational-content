@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: Vytváření, zálohování a používání Bitcoinového soukromého klíče s zařízením Coldcard a Bitcoin Core
 ---

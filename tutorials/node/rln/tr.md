@@ -1,5 +1,5 @@
 ---
-name: RGB Yıldırım Düğümü
+name: RGB Lightning Node
 description: RGB uyumlu bir Lightning düğümünü RLN ile nasıl başlatabilirim?
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ Bu adım adım eğitimde, Regtest ortamında bir Lightning RGB düğümünün na
 Bitfinex'in RGB ekibi, eksiksiz bir teknoloji yığını geliştirerek RGB ekosistemini zenginleştirmek için 2022'den beri çalışıyor. Tek bir ticari ürün hedeflemek yerine, çabaları açık kaynaklı yazılım tuğlalarını kullanılabilir hale getirmeye, RGB protokol spesifikasyonlarına katkıda bulunmaya ve uygulama referansları oluşturmaya odaklanmıştır.
 
 
-Bitfinex'in RGB ekosistemine kayda değer katkıları arasında, Rust'te yazılmış ve karmaşık doğrulama ve katılım mekanizmalarını kapsülleyerek RGB uygulamalarının geliştirilmesini büyük ölçüde basitleştiren Kotlin ve Python'daki bağlamalar aracılığıyla erişilebilen [*RGBlib* kütüphanesi] (https://github.com/RGB-Tools/RGB-lib) bulunmaktadır.
+Bitfinex'in RGB ekosistemine kayda değer katkıları arasında, Rust'te yazılmış ve karmaşık doğrulama ve katılım mekanizmalarını kapsülleyerek RGB uygulamalarının geliştirilmesini büyük ölçüde basitleştiren Kotlin ve Python'daki bağlamalar aracılığıyla erişilebilen [*RGBlib* kütüphanesi](https://github.com/RGB-Tools/RGB-lib) bulunmaktadır.
 
 
 Bitfinex ekibi ayrıca Android'de kullanılabilen "[*Iris Wallet*](https://iriswallet.com/)" adlı bir RGB mobil Wallet tasarladı. Bu Wallet, RGB üzerinde *Client-side Validation* için off-chain veri alışverişlerini (*satışlar*) kolayca yönetmek üzere bir RGB proxy sunucusunun kullanımını entegre etmektedir.
@@ -45,7 +45,7 @@ Bir RGB Contract evrimsel bir durum makinesi gibi yapılandırılmıştır. Baş
 RGB protokolünün nasıl çalıştığı hakkında daha fazla bilgi edinmek için bu kapsamlı eğitim kursuna katılmanızı tavsiye ederim:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB uyumlu Lightning düğümü kurulumu
 
@@ -96,7 +96,7 @@ Bu komutun sonunda, `$CARGO_HOME/bin/` dizininizde bir `RGB-lightning-node` çal
 
 
 
-- Bir `bitcoind`** düğümü
+- Bir **bitcoind** düğümü
 
 
 Her RLN örneğinin On-Chain işlemlerini yayınlamak ve izlemek için `bitcoind` ile iletişim kurması gerekecektir. Kimlik doğrulama (giriş/parola) ve URL'nin (ana bilgisayar/port) daemon'e sağlanması gerekecektir.
@@ -104,7 +104,7 @@ Her RLN örneğinin On-Chain işlemlerini yayınlamak ve izlemek için `bitcoind
 
 
 
-- Bir indeksleyici** (Electrum veya Esplora)
+- Bir **indeksleyici** (Electrum veya Esplora)
 
 
 daemon, özellikle bir varlığın sabitlendiği UTXO'yi bulmak için On-Chain işlemlerini listeleyebilmeli ve keşfedebilmelidir. Electrum sunucunuzun veya Esplora'nın URL'sini belirtmeniz gerekir.
@@ -112,7 +112,7 @@ daemon, özellikle bir varlığın sabitlendiği UTXO'yi bulmak için On-Chain i
 
 
 
-- Bir RGB** proxy
+- Bir **RGB** proxy
 
 
 Proxy sunucusu, Lightning eşleri arasındaki Exchange RGB *atamalarını* basitleştirmek için bir bileşendir (isteğe bağlı, ancak şiddetle tavsiye edilir). Bir kez daha, bir URL belirtilmelidir.
@@ -302,7 +302,7 @@ Elbette siparişi uyarlayabilirsiniz. İşlemi onaylamak için bir :
 ```
 
 
-Şimdi bir RGB varlığı oluşturabiliriz. Komut, oluşturmak istediğiniz varlığın türüne ve parametrelerine bağlı olacaktır. Burada 1000 birimlik bir Supply ile "PBN" adında bir NIA (*Şişirilemeyen Varlık*) token oluşturuyorum. Hassasiyet' birimlerin bölünebilirliğini tanımlamanıza olanak tanır.
+Şimdi bir RGB varlığı oluşturabiliriz. Komut, oluşturmak istediğiniz varlığın türüne ve parametrelerine bağlı olacaktır. Burada 1000 birimlik bir Supply ile "Plan ₿ Academy" adında bir NIA (*Şişirilemeyen Varlık*) token oluşturuyorum. Hassasiyet' birimlerin bölünebilirliğini tanımlamanıza olanak tanır.
 
 
 ```bash
@@ -311,8 +311,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -360,7 +360,7 @@ Komut, node n°2'nin açık anahtarını döndürür:
 ![RLN](assets/fr/13.webp)
 
 
-Daha sonra, ilgili varlığı (`PBN`) belirterek kanalı açacağız. Openchannel` komutu, kanalın boyutunu satoshis cinsinden tanımlamanıza ve RGB varlığını dahil etmeyi seçmenize olanak tanır. Ne oluşturmak istediğinize bağlı, ancak benim durumumda komut :
+Daha sonra, ilgili varlığı (`Plan ₿ Academy`) belirterek kanalı açacağız. Openchannel` komutu, kanalın boyutunu satoshis cinsinden tanımlamanıza ve RGB varlığını dahil etmeyi seçmenize olanak tanır. Ne oluşturmak istediğinize bağlı, ancak benim durumumda komut :
 
 
 ```bash
@@ -408,7 +408,7 @@ Daha fazlasını burada bulabilirsiniz:
 ![RLN](assets/fr/15.webp)
 
 
-Lightning kanalı artık açıktır ve ayrıca n°1 düğümü tarafında 500 `PBN` jetonu içerir. Eğer n°2 düğümü `PBN` jetonlarını almak isterse, generate ve Invoice yapmalıdır. İşte nasıl yapılacağı:
+Lightning kanalı artık açıktır ve ayrıca n°1 düğümü tarafında 500 `Plan ₿ Academy` jetonu içerir. Eğer n°2 düğümü `Plan ₿ Academy` jetonlarını almak isterse, generate ve Invoice yapmalıdır. İşte nasıl yapılacağı:
 
 
 ```bash
@@ -445,7 +445,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RLN](assets/fr/16.webp)
 
 
-Şimdi bu Invoice'yi, `PBN` token ile gerekli nakdi tutan ilk düğümden ödeyeceğiz:
+Şimdi bu Invoice'yi, `Plan ₿ Academy` token ile gerekli nakdi tutan ilk düğümden ödeyeceğiz:
 
 
 ```bash
@@ -499,4 +499,4 @@ Bu öğreticiyi yararlı bulduysanız, aşağıya bir Green başparmağı koyars
 RGB Contract oluşturmak için LNP/BP derneği tarafından geliştirilen RGB CLI aracının nasıl kullanılacağını açıkladığım bu diğer öğreticiyi de tavsiye ederim:
 
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

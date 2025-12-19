@@ -1,0 +1,9 @@
+question: Jaký je rozdíl mezi Umbrel Home a umbrelOS?
+answer: Umbrel Home je předinstalovaný miniserver, umbrelOS si můžete nainstalovat sami
+wrong_answers:
+  - Umbrel Home je zdarma, umbrelOS ne
+  - Umbrel Home nepodporuje Bitcoin; umbrelOS ano
+  - Umbrel Home je open source, umbrelOS je proprietární
+explanation: |
+  Umbrel Home se prodává na klíč s již nainstalovaným systémem umbrelOS, zatímco systém umbrelOS si můžete nainstalovat sami na svůj vlastní hardware.
+reviewed: true

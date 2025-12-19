@@ -1,5 +1,5 @@
 ---
-name: بیت‌اسپندا
+name: BitSpenda
 description: سریع‌ترین راه برای تبدیل Bitcoin به پول موبایل.
 ---
 
@@ -98,9 +98,9 @@ description: سریع‌ترین راه برای تبدیل Bitcoin به پول 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa در کنیا
 
@@ -182,10 +182,10 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-- محرمانگی**: شما نیازی به ایجاد حساب کاربری در پلتفرم ندارید، نیازی به تأیید هویت خود ندارید، و نیازی به ارائه هیچ‌گونه اطلاعات شخصی ندارید.
-- آزادی**: شما می‌توانید از هر کشوری از BitSpenda برای انجام تراکنش‌ها به غنا، نیجریه و کنیا استفاده کنید.
-- سرعت**: تکیه بر پرداخت‌های Lightning به BitSpenda این امکان را داده است که زمان پردازش را کاهش داده و تراکنش‌ها را به صورت فوری انجام دهد.
-- شفافیت**: تمام تراکنش‌هایی که در BitSpenda انجام داده‌اید با شناسه‌های منحصربه‌فردی مرتبط هستند که به شما امکان می‌دهند تا پیشرفت این تراکنش‌ها را ردیابی و پیگیری کنید. همچنین می‌توانید از این شناسه‌ها برای تماس با [پشتیبانی برنامه در X](https://x.com/bitspenda) استفاده کنید.
+- **محرمانگی**: شما نیازی به ایجاد حساب کاربری در پلتفرم ندارید، نیازی به تأیید هویت خود ندارید، و نیازی به ارائه هیچ‌گونه اطلاعات شخصی ندارید.
+- **آزادی**: شما می‌توانید از هر کشوری از BitSpenda برای انجام تراکنش‌ها به غنا، نیجریه و کنیا استفاده کنید.
+- **سرعت**: تکیه بر پرداخت‌های Lightning به BitSpenda این امکان را داده است که زمان پردازش را کاهش داده و تراکنش‌ها را به صورت فوری انجام دهد.
+- **شفافیت**: تمام تراکنش‌هایی که در BitSpenda انجام داده‌اید با شناسه‌های منحصربه‌فردی مرتبط هستند که به شما امکان می‌دهند تا پیشرفت این تراکنش‌ها را ردیابی و پیگیری کنید. همچنین می‌توانید از این شناسه‌ها برای تماس با [پشتیبانی برنامه در X](https://x.com/bitspenda) استفاده کنید.
 
 
 
@@ -197,4 +197,4 @@ https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9e
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

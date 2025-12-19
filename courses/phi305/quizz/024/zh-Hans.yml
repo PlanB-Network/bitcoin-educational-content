@@ -1,0 +1,9 @@
+question: 学术是什么？
+answer: 中世纪哲学
+wrong_answers:
+  - 现代哲学
+  - 古老的哲学
+  - 无神论哲学
+explanation: |
+  经院哲学是一种中世纪哲学，旨在调和基督教信仰与亚里士多德哲学。在现代哲学出现之前，它在欧洲大学中占据主导地位。
+reviewed: false

@@ -1,9 +1,12 @@
-question: Ni ipi kati ya zifuatazo ambayo sio tabia ya Bitcoin?
-answer: Inadhibitiwa kwa urahisi.
+question: Je, ni mwaka gani uliotabiriwa kuwa uumbaji wa bitcoins utakoma?
+answer: 2140
 wrong_answers:
-  - Inasafirishwa papo hapo.
-  - Ina gharama kidogo za uthibitishaji.
-  - Ina sera ya fedha isiyobadilika.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoin ina sifa zote zinazohitajika ili kuwa sarafu bora na yenye afya: inayoweza kugawanywa, kusafirishwa papo hapo, isiyoweza kubatilishwa, gharama isiyo na maana ya uthibitishaji, na yenye sera ya fedha ambayo tayari imewekwa kwa karne kadhaa kuja na vitengo milioni 21.
+  Kutokana na utaratibu wa Halving, inaweza kuwa kihisabati
+  alitabiri kuwa uundaji wa bitcoins utakoma mnamo 2140,
+  wakati jumla ya idadi ya bitcoins inafikia kikomo chake cha 21
+  milioni.
 reviewed: true

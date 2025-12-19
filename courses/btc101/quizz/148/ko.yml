@@ -1,0 +1,8 @@
+question: Coinbase Transaction이란 무엇인가요?
+answer: Miner의 보상을 포함하는 블록의 첫 번째 트랜잭션입니다.
+wrong_answers:
+  - Exchange 코인베이스에서 수행된 거래입니다.
+  - 가장 높은 수수료가 포함된 블록의 두 번째 트랜잭션입니다.
+  - Miner가 보상을 받은 후 수행한 거래입니다.
+explanation: >-
+reviewed: true

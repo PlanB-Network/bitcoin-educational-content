@@ -1,13 +1,11 @@
-question: Cos'è il Piano di Accumulo Costante (PAC o Dollar Cost Average)?
-answer: Acquistare piccole quantità di Bitcoin a intervalli regolari.
+question: Cosa sono FOMO e FUD?
+answer: Emozioni che possono portare a decisioni impulsive e potenzialmente dannose.
 wrong_answers:
-  - Acquistare una grande quantità di Bitcoin in una sola volta.
-  - Acquistare Bitcoin solo quando il prezzo scende.
-  - Acquistare Bitcoin solo quando il prezzo sale.
-explanation: |
-  Il testo del corso spiega che la tecnica del Piano di Accumulo Costante
-  implica l'acquisto di piccole quantità di Bitcoin a
-  intervalli regolari. Questo metodo mitiga le fluttuazioni di prezzo
-  nel tempo e garantisce una crescita continua nella
-  quantità di Bitcoin posseduti.
-reviewed: true
+  - Tipi di wallet Bitcoin.
+  - Strategie per acquistare Bitcoin.
+  - Regolamentazioni relative a Bitcoin.
+explanation: >-
+  Il testo spiega che FOMO (Fear of Missing Out, o Paura di Essere Esclusi) e FUD (Fear, Uncertainity and Doubt, 
+  o Paura, Incertezza,  Dubbio) sono emozioni che possono portare a decisioni impulsive e potenzialmente dannose
+  quando si acquista Bitcoin.
+reviewed: vero

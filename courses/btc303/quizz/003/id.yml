@@ -1,0 +1,9 @@
+question: Masalah apa yang dipecahkan oleh Bitcoin yang tidak dapat diatasi oleh mata uang digital sebelumnya?
+answer: Masalah double-spending dengan cara yang terdesentralisasi
+wrong_answers:
+  - Masalah enkripsi dalam jaringan peer-to-peer
+  - Masalah penyimpanan untuk transaksi digital
+  - Masalah kecepatan dalam pembayaran online
+explanation: |
+  Terobosan Bitcoin adalah memecahkan masalah double-spending tanpa memerlukan otoritas pusat. Masalah double-spending adalah tantangan untuk mencegah seseorang membelanjakan koin digital yang sama dua kali. Mata uang digital sebelumnya gagal karena bergantung pada server pusat atau otoritas tepercaya, sehingga rentan terhadap penyensoran dan satu titik kegagalan. Bitcoin memecahkan masalah ini melalui server stempel waktu terdistribusi peer-to-peer yang menggunakan proof-of-work, yang memungkinkan jaringan untuk menyetujui pemesanan transaksi tanpa kontrol pusat.
+reviewed: false

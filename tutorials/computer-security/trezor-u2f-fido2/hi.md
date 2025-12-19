@@ -1,5 +1,5 @@
 ---
-name: ट्रेज़ोर U2F और FIDO2
+name: "Trezor U2F & FIDO2"
 description: ट्रेज़ोर के साथ अपनी ऑनलाइन सुरक्षा को मजबूत करें
 ---
 ![cover](assets/cover.webp)
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -353,4 +353,4 @@ trezorctl fido credentials add f1d00200a020a736356d0ceb7ce8b7655b39c399d8111b62
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

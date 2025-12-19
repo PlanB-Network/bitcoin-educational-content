@@ -1,0 +1,9 @@
+question: Bir Miner neden bir Bitcoin düğümüne ihtiyaç duyar?
+answer: Ağ ile etkileşim kurmak ve bloklarınızı dağıtmak için
+wrong_answers:
+  - generate dijital imzaları için
+  - Teslimat Address'ünüzü Coinbase Transaction'e girmek için
+  - Mining'in zorluğunu azaltmak için
+explanation: |
+  Madenciler ağ ile iletişim kurmak, bloklarını iletmek ve işlemleri almak için bir node kullanır.
+reviewed: true

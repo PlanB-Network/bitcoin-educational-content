@@ -101,9 +101,9 @@ U smislu IP adresa, ovo daje:
 
 
 
-- Kućna mreža**: 192.168.1.0/24
-- Korporativna mreža**: 192.168.100.0/24
-- WireGuard tunnel network**: 192.168.110.0/24
+- **Kućna mreža**: 192.168.1.0/24
+- **Korporativna mreža**: 192.168.100.0/24
+- **WireGuard tunnel network**: 192.168.110.0/24
 
 
 + IP Address Peera 1 (Windows) u tunelu: 192.168.110.2/24
@@ -117,7 +117,7 @@ To je sve što treba uraditi! Hajde da pređemo na konfiguraciju!
 
 
 
-**Napomena: po defaultu, WireGuard radi u UDP modu na **portu 51820**.
+**Napomena: po defaultu, WireGuard radi u UDP modu na portu 51820.**
 
 
 
@@ -219,10 +219,10 @@ Sekcija `[Interface]` se koristi za deklarisanje serverskog dela. Ovde su neke i
 
 
 
-- Address**: IP Address WireGuard-a Interface unutar VPN tunela (drugačija podmreža od udaljenog LAN-a)
-- SaveConfig**: konfiguracija se čuva (i zaštićena je) sve dok je Interface aktivan
-- ListenPort**: WireGuard-ov port za slušanje. U ovom slučaju, 51820 je podrazumevani port, ali ga možete prilagoditi po želji.
-- PrivateKey**: vrednost privatnog ključa našeg servera (*wg-private.key*)
+- **Address**: IP Address WireGuard-a Interface unutar VPN tunela (drugačija podmreža od udaljenog LAN-a)
+- **SaveConfig**: konfiguracija se čuva (i zaštićena je) sve dok je Interface aktivan
+- **ListenPort**: WireGuard-ov port za slušanje. U ovom slučaju, 51820 je podrazumevani port, ali ga možete prilagoditi po želji.
+- **PrivateKey**: vrednost privatnog ključa našeg servera (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Dodajte ove linije na kraj datoteke da **omogućite IP maskiranje na Interface e
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -523,15 +523,15 @@ Na slikama:
 
 
 
-**Nekoliko objašnjenja o [Peer] bloku:
+**Nekoliko objašnjenja o [Peer] bloku:**
 
 
 
 
 
-- PublicKey**: ovo je javni ključ WireGuard Debian 11 servera (možete dobiti njegovu vrednost pomoću "*sudo wg*" komande)
-- AllowedIPs**: ovo su IP adrese / podmreže dostupne putem ove WireGuard VPN mreže, u ovom slučaju podmreža specifična za moj WireGuard VPN (*192.168.110.0/24*) i moja udaljena LAN mreža (*192.168.100.0/24*)
-- Endpoint**: ovo je IP Address Debian 11 hosta, pošto je ovo naša WireGuard tačka povezivanja (moraćete da navedete javni IP Address)
+- **PublicKey**: ovo je javni ključ WireGuard Debian 11 servera (možete dobiti njegovu vrednost pomoću "*sudo wg*" komande)
+- **AllowedIPs**: ovo su IP adrese / podmreže dostupne putem ove WireGuard VPN mreže, u ovom slučaju podmreža specifična za moj WireGuard VPN (*192.168.110.0/24*) i moja udaljena LAN mreža (*192.168.100.0/24*)
+- **Endpoint**: ovo je IP Address Debian 11 hosta, pošto je ovo naša WireGuard tačka povezivanja (moraćete da navedete javni IP Address)
 
 
 
@@ -663,7 +663,7 @@ Sa mog udaljenog računara mogu pingovati IP Address mog Interface WireGuard na 
 
 
 
-Sa mog udaljenog računara povezanog na moj WireGuard VPN, uspeo sam da pristupim fajl serveru i prenesem fajl putem [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), da vidim brzinu prenosa. **Sa WireGuard-om, dostižem maksimalno oko 45 Mb/s, što je odlično, s obzirom da sam na WiFi-u.
+Sa mog udaljenog računara povezanog na moj WireGuard VPN, uspeo sam da pristupim fajl serveru i prenesem fajl putem [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), da vidim brzinu prenosa. **Sa WireGuard-om, dostižem maksimalno oko 45 Mb/s, što je odlično, s obzirom da sam na WiFi-u.**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Možete videti da ovo takođe omogućava opciju "**Kill switch*".
+Možete videti da ovo takođe omogućava opciju "**Kill switch**".
 
 
 
@@ -783,4 +783,4 @@ Dodatna dokumentacija:
 
 
 
-**Vaš WireGuard VPN je pokrenut i radi! Čestitamo!
+**Vaš WireGuard VPN je pokrenut i radi! Čestitamo!**

@@ -1,5 +1,5 @@
 ---
-name: Zeus eingebettet
+name: Zeus Embedded
 description: So verwenden Sie den Lightning Zeus Embedded Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,11 +13,11 @@ Die Anwendung verfügt aber auch über einen "eingebetteten Knoten".
 
 
 
-**Diese Facette der Anwendung werden wir in diesem Lernprogramm erforschen. Dies ermöglicht es jedem, seinen eigenen Blitzknoten auf dem Handy zu haben, ohne dass ein dedizierter Server erforderlich ist, so wie ACINQ seinen unglaublichen Wallet Blitz Phoenix anbietet.
+**Diese Facette der Anwendung werden wir in diesem Lernprogramm erforschen. Dies ermöglicht es jedem, seinen eigenen Blitzknoten auf dem Handy zu haben, ohne dass ein dedizierter Server erforderlich ist, so wie ACINQ seinen unglaublichen Wallet Blitz Phoenix anbietet.**
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Zur Erinnerung: Lightning ist ein Netzwerk, das parallel zu Bitcoin arbeitet und den Austausch von Bitcoins ermöglicht, ohne dass systematisch On-Chain-Transaktionen durchgeführt werden müssen. Das Ergebnis sind nahezu sofortige Transaktionen, ohne dass man 10 Minuten auf die Validierung eines Blocks warten muss. Dies ist besonders nützlich, wenn man einen Händler in der realen Welt bezahlen will. Darüber hinaus bietet Lightning ein bemerkenswertes Maß an **Vertraulichkeit**, das das Bitcoin-Netzwerk von Haus aus nicht besitzt*.
 
@@ -38,7 +38,7 @@ Andererseits glaube ich nicht, dass es derzeit für Anfänger geeignet ist, die 
 
 
 
-Rufen Sie [die Projektwebsite] (https://zeusln.com/) auf, um die Anwendung für das Betriebssystem Ihres Smartphones herunterzuladen:
+Rufen Sie [die Projektwebsite](https://zeusln.com/) auf, um die Anwendung für das Betriebssystem Ihres Smartphones herunterzuladen:
 
 
 
@@ -200,7 +200,7 @@ Für weitere Informationen über die richtige Art und Weise, Ihre Mnemonic Phras
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -215,7 +215,7 @@ Wenn Sie damit fertig sind, klicken Sie unten auf dem Bildschirm auf "ICH SICHER
 
 
 
-*der *Zeus Embedded** ist in erster Linie als eingebetteter Blitzknoten konzipiert, kann aber auch als Wallet On-Chain verwendet werden.
+**Der Zeus Embedded** ist in erster Linie als eingebetteter Blitzknoten konzipiert, kann aber auch als Wallet On-Chain verwendet werden.
 
 
 
@@ -248,7 +248,7 @@ Auf dem nächsten Bildschirm werden Sie aufgefordert, einen Kanal in Zusammenarb
 In diesem Tutorial wählen wir der Einfachheit halber diese Option, aber es ist durchaus möglich, Kanäle mit jedem Knoten im Netzwerk zu öffnen.
 
 
-Es ist sogar möglich, mehrere Kanäle in einer einzigen Transaktion zu öffnen, indem Sie "OPEN ADDITIONAL CHANNEL" auswählen. *Aber das werden wir uns in einer "fortgeschrittenen" Version des **Zeus Embedded**** Tutorials ansehen.
+Es ist sogar möglich, mehrere Kanäle in einer einzigen Transaktion zu öffnen, indem Sie "OPEN ADDITIONAL CHANNEL" auswählen. *Aber das werden wir uns in einer "fortgeschrittenen" Version des **Zeus Embedded** Tutorials ansehen.*
 
 
 
@@ -345,7 +345,7 @@ Mit Zeus können Sie dann einen Vermerk hinzufügen, um Ihre Zahlung zu beziffer
 
 
 
-Beachten Sie, dass im Gegensatz zu einem Wallet wie [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) bei Zeus die Route lokal berechnet und nicht an eine dritte Partei (ACINQ im Fall von Phoenix) delegiert wird. Sie sind also der Einzige, der den Empfänger der Zahlung kennt. Wir verlieren ein wenig an Effizienz (die Zahlungen dauern etwas länger, aber wir gewinnen viel in Bezug auf den Datenschutz).
+Beachten Sie, dass im Gegensatz zu einem Wallet wie [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) bei Zeus die Route lokal berechnet und nicht an eine dritte Partei (ACINQ im Fall von Phoenix) delegiert wird. Sie sind also der Einzige, der den Empfänger der Zahlung kennt. Wir verlieren ein wenig an Effizienz (die Zahlungen dauern etwas länger, aber wir gewinnen viel in Bezug auf den Datenschutz).
 
 
 
@@ -422,8 +422,8 @@ Herzlichen Glückwunsch, Sie sind jetzt bereit, Zeus Embedded zu benutzen, das m
 
 
 
-Um mehr über die technische Funktionsweise von Lightning Network zu erfahren, können Sie Fanis Michalakis' ausgezeichnete kostenlose Plan ₿ Network-Schulung nutzen:
+Um mehr über die technische Funktionsweise von Lightning Network zu erfahren, können Sie Fanis Michalakis' ausgezeichnete kostenlose Plan ₿ Academy-Schulung nutzen:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

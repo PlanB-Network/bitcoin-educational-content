@@ -1,5 +1,5 @@
 ---
-name: Pasaport Çekirdeği
+name: Passport Core
 description: Passport Hardware Wallet'ı manuel modda yapılandırma ve kullanma
 ---
 ![cover](assets/cover.webp)
@@ -32,7 +32,7 @@ Güvenli Wallet'nizi bir Passport üzerinde yönetmek için birkaç seçeneğini
 Eğer yeni başlayan biriyseniz, en kolay seçenek Passport'unuzu Foundation tarafından geliştirilen yerel Envoy uygulaması ile kullanmaktır. Envoy'u Passport'unuzla nasıl kullanacağınızı öğrenmek için bu diğer eğitime göz atın:
 
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Pasaportun Kutusundan Çıkarılması
 
@@ -203,7 +203,7 @@ Bunu yapmak için Passport kutunuzda bulunan MicroSD kartı (veya başka bir kar
 Cihazınıza yüklemeden önce, indirilen ürün yazılımının gerçekliğini ve bütünlüğünü kontrol etmenizi şiddetle tavsiye ederiz. Bu konuda yardıma ihtiyacınız varsa, bu eğiticiye başvurun :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 .bin` dosyasını kontrol ettikten sonra MicroSD'nize yerleştirin ve ardından Passport'a takın. Passport dosya gezgini açılacaktır. VN.N.N-passport.bin` dosyasını seçin.
 
@@ -301,9 +301,9 @@ Mnemonic ifadenizi görmek için onay düğmesine tıklayın.
 Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla bilgi için, özellikle de yeni başlayan biriyseniz, bu diğer öğreticiyi izlemenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.**_
+tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.
 
 
 Bu cümlenin fiziksel bir yedeğini alın.
@@ -430,7 +430,7 @@ Devam etmeden önce, dilerseniz bir BIP39 passphrase ekleyebilirsiniz. BIP39 pas
 Bu seçeneği Passport'unuzda yapılandırmadan önce, passphrase'in teorik işleyişini tam olarak anlamak ve bitcoinlerinizin kaybına yol açabilecek hatalardan kaçınmak için bu makaleyi okumanız şiddetle tavsiye edilir:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Etkinleştirmek için "*Daha Fazla*" menüsüne gidin ve "*passphrase'a Gir*" seçeneğine tıklayın.
 
@@ -462,7 +462,7 @@ passphrase'yı yazdıktan sonra kilidi her açtığınızda, bu onay ekranında 
 Wallet'nizdeki ilk bitcoinlerinizi almadan önce, **Boş bir kurtarma testi** yapmanızı şiddetle tavsiye ederim. Xpub'ınız veya ilk aldığınız Address gibi bazı referans bilgilerini not edin, ardından Wallet'nizi hala boşken Passport'tan silin (`Ayarlar -> Gelişmiş -> Passport'u Sil`). Ardından Mnemonic ifadesinin ve herhangi bir passphrase'un kağıt yedeklerini kullanarak Wallet'nizi geri yüklemeyi deneyin. Geri yüklemeden sonra oluşturulan çerez bilgilerinin başlangıçta yazdığınızla eşleşip eşleşmediğini kontrol edin. Eğer eşleşiyorsa, kağıt yedeklerinizin güvenilir olduğundan emin olabilirsiniz. Test kurtarma işleminin nasıl gerçekleştirileceği hakkında daha fazla bilgi edinmek için lütfen bu diğer eğitime başvurun:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -473,7 +473,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 Bu eğitimde size Passport'un Sparrow wallet ile gelişmiş bir kullanımını göstereceğim. Ancak, bu Hardware Wallet aynı zamanda Envoy (Foundation uygulaması), Keeper, BlueWallet, Nunchuk, Spectre ve diğerleri ile de uyumludur...
 
 
-Henüz yapmadıysanız, Sparrow wallet'yi [resmi web sitesinden] (https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
+Henüz yapmadıysanız, Sparrow wallet'yi [resmi web sitesinden](https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
 
 
 ![Image](assets/fr/54.webp)
@@ -482,7 +482,7 @@ Henüz yapmadıysanız, Sparrow wallet'yi [resmi web sitesinden] (https://sparro
 Kurulumdan önce yazılımın orijinalliğini ve bütünlüğünü kontrol ettiğinizden emin olun. Bunu nasıl yapacağınızı bilmiyorsanız, lütfen bu eğiticiye başvurun:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Sparrow wallet açıldığında, "*Dosya*" sekmesine ve ardından "*Yeni Wallet*" seçeneğine tıklayın.
 
@@ -712,4 +712,4 @@ Tebrikler, artık Passport'u nasıl yapılandıracağınızı ve kullanacağın�
 Daha fazla bilgi için Liana yazılımı hakkındaki eğitimimize bakın:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

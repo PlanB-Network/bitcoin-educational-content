@@ -1,0 +1,8 @@
+question: Bitcoin Wallet의 개인 키는 무엇인가요?
+answer: 거래에 서명할 수 있는 비밀 키입니다.
+wrong_answers:
+  - generate Bitcoin 주소에 사용되는 공개 키입니다.
+  - 필요 시 Wallet를 파괴할 수 있는 비밀 단어 목록입니다.
+  - Bitcoin 트랜잭션을 암호화하는 비밀 키입니다.
+explanation: >-
+reviewed: true

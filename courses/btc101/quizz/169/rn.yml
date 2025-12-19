@@ -1,12 +1,8 @@
-question: Ni gute protocole ya Bitcoin ihemba Miner aronka Hash ibereye ku bijanye n’ibarabara rikurikira?
-answer: N’impera isobanurwa n’amategeko y’uguhurizako, n’amahera ava mu bikorwa vyose bishizwe mu gice gifise akamaro.
+question: Ni igiki kidasanzwe kiranga umurongo wa Bitcoin?
+answer: Ikora ku rugero rw’isi yose, amasaha 24 ku musi, imisi 7 ku ndwi.
 wrong_answers:
-  - N’umubare udahinduka w’ama bitcoins adasobanurwa n’amategeko y’uguhurizako.
-  - N’ijanisha ry’amahera yose hamwe Bitcoin Supply n’amahera ava mu bikorwa vyose vyashizwe mu mabarabara yabanje.
-  - N’amahera ava mu bikorwa vyose vy’ubudandaji ari muri block ikora.
-explanation: |
-  Itegeko rya Bitcoin rihemba Miner abona ivyiza
-  Hash ku gice gikurikira gifise impembo igiciro caco ari 100.000.
-  bisobanurwa n’amategeko y’uguhurizako, hamwe n’amahera ava ku
-  ibikorwa vyose biri mu gice gifise akamaro.
+  - Ikora gusa mu masaha y’akazi.
+  - Igenzurwa n’ubutegetsi buhambaye.
+  - Ishobora gufatwa bitagoranye.
+explanation: >-
 reviewed: true

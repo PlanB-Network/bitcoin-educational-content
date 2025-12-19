@@ -1,13 +1,14 @@
-question: Wat is een Cold Wallet?
-answer: Een Wallet in een fysiek apparaat dat je sleutels opslaat en niet verbonden is met het internet.
+question: Wat moet je back-uppen als je een Wallet met een passphrase gebruikt?
+answer: Je moet een back-up maken van zowel de lijst van 12 of 24 woorden als je passphrase.
 wrong_answers:
-  - Een Wallet die fysiek Cold is om aan te raken.
-  - Een Wallet die niet populair is bij Bitcoin gebruikers.
-  - Een Wallet die wordt aanbevolen voor het opslaan van kleine hoeveelheden bitcoins.
+  - Je hoeft alleen een back-up te maken van de lijst van 12 of 24 woorden.
+  - Je hoeft alleen een back-up te maken van je passphrase.
+  - Je hoeft geen back-up te maken van de lijst van 12 of 24 woorden of van je passphrase.
 explanation: |
-  Een Cold Wallet is een term die wordt gebruikt om een Bitcoin Wallet te beschrijven
-  die opgeslagen is op een apparaat dat niet verbonden is met het
-  internet is aangesloten. Dit maakt het minder kwetsbaar voor online bedreigingen,
-  maar het betekent ook dat de Wallet minder toegankelijk is voor
-  dagelijkse transacties.
+  Wanneer je een Wallet met een passphrase gebruikt, moet je een back-up maken van
+  van zowel de lijst met 12 of 24 woorden als van je passphrase,
+  omdat de lijst met woorden en de passphrase beide
+  nodig zijn om weer toegang te krijgen tot uw geld in geval van
+  verlies van uw telefoon of computer. Zonder het een of het ander,
+  zijn de fondsen niet toegankelijk.
 reviewed: true

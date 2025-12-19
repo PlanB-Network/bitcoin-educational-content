@@ -1,0 +1,9 @@
+question: Zašto Miner treba Bitcoin čvor?
+answer: Da biste komunicirali sa mrežom i distribuirali svoje blokove
+wrong_answers:
+  - Za generate digitalne potpise
+  - Da unesete vašu isporuku Address u Coinbase Transaction
+  - Da se smanji težina Mining
+explanation: |
+  Rudari koriste čvor za komunikaciju sa mrežom, prenos svojih blokova i primanje transakcija.
+reviewed: true

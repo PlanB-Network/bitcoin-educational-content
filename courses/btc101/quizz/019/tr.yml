@@ -1,12 +1,13 @@
-question: Paranın üç kanonik işlevi nedir?
-answer: Değer deposu, Exchange aracı, Hesap birimi.
+question: Küreselleşmiş ve dijital bir dünyada altın neden iyi performans gösteremiyor?
+answer: Çünkü bölünebilir ve kolayca değiştirilebilir olması için merkezi bir varlığa ihtiyacı vardır.
 wrong_answers:
-  - Değer deposu, Exchange aracı, Üretim aracı.
-  - Değer deposu, Üretim aracı, Hesap birimi.
-  - Exchange aracı, Üretim araçları, Hesap birimi.
+  - Çünkü yeterince değerli değil.
+  - Çünkü yeterince nadir değil.
+  - Çünkü zamanla aşınıyor.
 explanation: |
-  Aristoteles'e göre para üç işleve hizmet eder
-  bir değer deposu, bir Exchange aracı ve bir birim
-  hesap. Günümüzde, Exchange işlevinin aracı
-  diğer ikisinden önce ana olarak kabul edilmektedir.
+  Altın küreselleşen ve dijitalleşen dünyaya ayak uyduramıyor
+  çünkü bölünebilir olması için merkezi bir varlığa ihtiyaç duyar ve
+  kolayca değiştirilebilir. Bu da onu şu alanlarda kullanmayı daha az pratik hale getirir
+  işlemlerin giderek dijitalleştiği bir dünya ve
+  merkezi olmayan.
 reviewed: true

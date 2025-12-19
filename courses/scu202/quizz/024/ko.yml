@@ -1,0 +1,9 @@
+question: Linux 데스크톱 환경의 주요 역할은 무엇인가요?
+answer: Interface 그래픽 제공
+wrong_answers:
+  - 시스템 시작 관리
+  - Linux 커널 컴파일하기
+  - 바이러스로부터 보호
+explanation: |
+  데스크톱 환경은 시각적 및 대화형 Elements(창, 메뉴, 아이콘, 패널 등)을 함께 그룹화하여 사용자가 시스템과 그래픽으로 상호 작용할 수 있도록 합니다.
+reviewed: false

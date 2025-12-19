@@ -1,0 +1,9 @@
+question: Welche Sicherheitsmaßnahmen werden bei der Einrichtung eines Umbrel-Kontos dringend empfohlen?
+answer: 2FA aktivieren
+wrong_answers:
+  - Passwort deaktivieren
+  - Verwendung eines PIN-Codes
+  - Alle Verbindungen deaktivieren
+explanation: |
+  Die 2FA bietet zusätzlichen Schutz und wird dringend empfohlen, insbesondere bei der Verwendung eines Lightning-Knotens oder bei sensiblem Self-Hosting.
+reviewed: true

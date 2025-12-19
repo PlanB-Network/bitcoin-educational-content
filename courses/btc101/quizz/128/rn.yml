@@ -1,11 +1,8 @@
-question: Iyo urema umugambi w’iragi, ni igiki kitari ngombwa ko ushiramwo?
-answer: Izina rya Bitcoin Wallet ukunda gukoresha.
+question: Ni igikorwa ikihe c’uguhindura ingorane mu murongo wa Bitcoin?
+answer: Bituma habaho ububiko bwongerwako kuri Blockchain hafi buri minota cumi.
 wrong_answers:
-  - Ikete ryanditswe n’ukuboko ririmwo urutonde rw’ibintu vyawe.
-  - Insobanuro y’ingene woronka amahera yawe.
-  - Amakuru y’abantu bizigira.
-explanation: |
-  gukora umugambi w’iragi ni intambwe ihambaye cane kugira ngo umenye neza ko amafaranga yawe azocungirwa neza inyuma y’urupfu rwawe. 
-  Iyi gahunda ishobora kubamwo ikete ryanditswe n’ukuboko ririmwo urutonde rw’ibintu vyawe, 
-  uburyo bashobora kuronka, n’amakuru y’abantu bizigira bo guhamagara .
+  - Ni co kigena igiciro ca Bitcoin.
+  - Igenzura umubare w’ama bitcoins ashobora gucukurwa muri Blockchain.
+  - Ni co kigena ubunini bw’ibuye.
+explanation: >-
 reviewed: true

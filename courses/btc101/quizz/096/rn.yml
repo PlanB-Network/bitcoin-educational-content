@@ -1,11 +1,13 @@
-question: Urufunguzo rw’ibanga akenshi rugereranywa n’uruhe muri Bitcoin Wallet?
-answer: Urutonde rw’amajambo 12 canke 24.
+question: Ni igiki gifise intumbero yo gukora umugambi w’iragi ry’ama bitcoins yawe?
+answer: Kugira ngo umenye neza ko ama bitcoins yawe azocungirwa neza inyuma y’urupfu rwawe.
 wrong_answers:
-  - Urutonde rw’amajambo 12 canke 48.
-  - Urutonde rw’amajambo 32.
-  - Urutonde rw’amajambo 64.
+  - Kugira ngo wirinde imisoro ku bitcoins zawe.
+  - Kugira ngo ugabanye agaciro k’ama bitcoins yawe.
+  - Kugira ngo ama bitcoins yawe ntiyibwe.
 explanation: |
-  Mu Bitcoin Wallet, urufunguzo rw'ibanga akenshi ruraserurwa
-  n’urutonde rw’amajambo 12 canke 24, azwi kandi ko ari interuro seed .
-  canke ijambo Mnemonic.
+  Itegeko ry’iragi rituma ama bitcoins yawe azoba .
+  n’ugucungera neza inyuma y’urupfu rwawe. Bishobora kubamwo
+  Ikete ryanditswe n'ukuboko ridondora ido n'ido ivy'umutungo wawe, uko ushobora kubironka
+  uburyo, n’amakuru y’abantu bizigira .
+  kugira ngo bamenyeshe.
 reviewed: true

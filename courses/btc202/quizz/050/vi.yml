@@ -1,0 +1,9 @@
+question: Electrs và Fulcrum sử dụng giao thức nào để kết nối ví?
+answer: Điện
+wrong_answers:
+  - RPC REST
+  - API JSON
+  - Lightning gRPC
+explanation: |
+  Các gói phần mềm này hiển thị máy chủ Electrum, tiêu chuẩn được sử dụng bởi nhiều ví như Sparrow hoặc Electrum Wallet.
+reviewed: true

@@ -1,11 +1,12 @@
-question: Il existe un cas historique d'un taux d'inflation quotidien équivalent à 100 % ; où et quand cela s'est-il produit ?
-answer: Au Zimbabwe, en 2007.
+question: Quel est le processus qui vérifie les transactions sur le réseau Bitcoin ?
+answer: Minage
 wrong_answers:
-  - En Hongrie, en 1945.
-  - En Chine, en 1940.
-  - Il s'agit en fait d'un cas irréaliste qui ne peut pas se produire.
+  - Fouille
+  - Récolte
+  - Culture
 explanation: |
-  Un taux d'inflation de 100 % par jour est un scénario réaliste qui
-  s'est produit au Zimbabwe en 2007, où la valeur de l'argent doublait
-  approximativement toutes les 24 heures.
+  Le processus qui vérifie les transactions sur le réseau
+  Bitcoin est appelé minage. Les mineurs effectuent une
+  tâche cryptographique et sont récompensés par l'émission
+  de nouveaux bitcoins.
 reviewed: true

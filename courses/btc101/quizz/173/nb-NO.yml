@@ -1,10 +1,10 @@
-question: Hva er en av grunnene til at Bitcoin er attraktivt for visse grupper?
-answer: Dets evne til å tilby løsninger som tillitsløs elektronisk kontanter, motstandsdyktighet mot sensur, eller en transparent og uforanderlig pengepolitikk.
+question: Hva er en av faktorene som gjør det vanskelig for finansmyndigheter å regulere Bitcoin?
+answer: Den opererer på en global skala, 24 timer i døgnet, 7 dager i uken.
 wrong_answers:
+  - Den kontrolleres av en sentral myndighet.
+  - Den brukes ikke noe sted i verden.
   - Det er lett å forfalske.
-  - Det er kontrollert av en sentral myndighet.
-  - Det er ikke pseudonymt.
 explanation: >-
-  Bitcoins desentraliserte natur, pseudonymitet og motstandsdyktighet mot sensur
-  gjør det attraktivt for grupper som teknofiler, cypherpunks, libertarianske, og
-  gullentusiaster.
+  Bitcoin-protokollen er unik ved at den opererer på en global skala,
+  24 timer i døgnet, 7 dager i uken, noe som gjør regulering vanskelig for finansmyndigheter.
+reviewed: false

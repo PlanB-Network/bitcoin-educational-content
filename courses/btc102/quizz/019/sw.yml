@@ -1,4 +1,4 @@
-question: Nani alichapisha Karatasi Nyeupe ya Bitcoin?
+question: Nani alichapisha white paper ya Bitcoin?
 answer: Satoshi Nakamoto
 wrong_answers:
   - David Chaum
@@ -6,4 +6,4 @@ wrong_answers:
   - Eric Hughes
 explanation: |
   White Paper ilichapishwa mwishoni mwa 2008 na Satoshi Nakamoto (jina bandia).
-reviewed: false
+reviewed: true

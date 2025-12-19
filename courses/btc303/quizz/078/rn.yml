@@ -1,0 +1,9 @@
+question: Dushingiye ku nzira yo gutangaza amakuru y’abantu bafise inshingano twavuganye, ni imvo nyamukuru iyihe ituma abahinguzi b’ibintu birinda guca bafata ingingo zitari nziza cane muri Bitcoin Core?
+answer: Kugira ngo igipande ubwaco ntikigaragaze kamere y’ubugoyagoye imbere y’uko gikoreshwa cane
+wrong_answers:
+  - Kugira ngo abahinguzi ba altcoin bashobore gushirwa mu ngiro ibintu vyabo bwite vyigenga mbere
+  - Kugira ngo bishobore gupima mu buryo bushitse mu bidengeri bitandukanye vya mining imbere yo gusohora ivyagezwe vyose vy'umutekano
+  - Kugira ngo ugume uhuye n'inyuma n'ama verisiyo ya kera adashobora gukorana n'ibintu vyihutirwa
+explanation: |
+  Inyishu ibereye irerekana ikintu gihambaye kidasanzwe mu gukosora umutekano: ugukosora ubwakwo gushobora kwerekana ubugoyagoye. Ico gice gishimika ku vy’uko abahinguzi bategerezwa kwiyoberanya neza ama patch kuko kuyasohora ubwo nyene vyoshobora guhishura ubugoyagoye bw’abatera imbere y’uko node nyinshi zikingirwa. Inyishu zitari zo, naho zishobora kwemerwa, ziserura nabi ivy’imbere: itangazo rya altcoin rishika inyuma y’ugushirwaho kw’urubuga rwa Bitcoin, igerageza ry’ikidengeri ca mining si ryo ry’intango ry’ibibazo bitagira akamaro, kandi uguhuza inyuma ntibitwara igihe c’ibipande vy’umutekano.
+reviewed: false

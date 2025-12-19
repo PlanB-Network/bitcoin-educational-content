@@ -1,0 +1,9 @@
+question: Secondo i requisiti della definizione di open source, cosa deve accadere quando il codice sorgente viene deliberatamente offuscato in una distribuzione di software open source?
+answer: Il codice sorgente deliberatamente offuscato viola i principi dell'open source e non è consentito
+wrong_answers:
+  - Il codice offuscato deve essere accompagnato da una documentazione dettagliata che ne spieghi la funzionalità
+  - Il codice offuscato è accettabile a condizione che vengano forniti anche i file binari compilati
+  - Il codice offuscato deve essere reso disponibile tramite un download separato con costi di riproduzione
+explanation: |
+  La definizione di open source afferma esplicitamente che "il codice sorgente deliberatamente offuscato non è consentito" Si tratta di un requisito fondamentale perché l'offuscamento impedisce un esame, una modifica e una comprensione significativi del codice, vanificando gli scopi principali del software open source. Il codice sorgente deve essere nella "forma preferita in cui un programmatore modificherebbe il programma", rendendo l'offuscamento incompatibile con i principi dell'open source, indipendentemente dalla documentazione o dai metodi di distribuzione.
+reviewed: false

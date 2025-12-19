@@ -1,8 +1,8 @@
-question: Ni ubuhe buryo bumwe bwo kuronka ama bitcoins ataco aguze?
-answer: Niwemere nk’uburyo bwo kwishura ibintu canke ibikorwa utanga.
+question: Ni ikihe kimwe mu bikorwa bifasha mu gutuma ubutunzi bwa Bitcoin bushikira kandi bubereye umuntu wese?
+answer: BTCikarata.
 wrong_answers:
-  - Bigurize umugenzi kandi ntuzokwigere ubisubiza.
-  - Batsinde mu gutora.
-  - Mubaronke mu nzira.
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLoteri.
 explanation: >-
 reviewed: true

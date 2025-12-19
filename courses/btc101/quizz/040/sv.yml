@@ -1,12 +1,12 @@
-question: Vilken är den strategi som centrala enheter använder för att devalvera en fiatvaluta?
-answer: De ökar den monetära massan med några procent varje år.
+question: Vad är hyperinflation?
+answer: En drastisk ökning av den monetära massan.
 wrong_answers:
-  - De minskar den monetära massan med några procent varje år.
-  - De håller dess monetära massa konstant jämfört med den ursprungliga massan.
-  - De får sin monetära massa att slumpmässigt fluktuera i jämförelse med den ursprungliga massan.
+  - En liten ökning av den monetära massan.
+  - En drastisk minskning av den monetära massan.
+  - En liten minskning av den monetära massan.
 explanation: |
-  Centrala enheter devalverar ofta en valuta genom att öka dess
-  monetära massan jämfört med den ursprungliga med några procent
-  varje år. Denna tysta devalvering motiveras ofta som
-  att den ligger i folkets intresse.
+  Hyperinflation är ett monetärt fenomen som kännetecknas av en
+  drastisk ökning av inflationen genom myndigheternas penningtryckning
+  av myndigheter, vilket leder till en fullständig förlust av
+  förtroende för en valuta.
 reviewed: true

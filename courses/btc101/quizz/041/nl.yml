@@ -1,13 +1,12 @@
-question: Wat is het gevolg van het drukken van geld?
-answer: Het leidt tot inflatie, waardoor de bevolking geleidelijk verarmt.
+question: Wat is het gevolg van hyperinflatie?
+answer: Een drastische daling van de waarde van de munt.
 wrong_answers:
-  - Het leidt tot deflatie, waardoor de bevolking geleidelijk rijker wordt.
-  - Het leidt tot een stabiele economie zonder inflatie of deflatie.
-  - Het leidt tot een daling van het geld Supply.
+  - Een kleine daling in de waarde van de valuta.
+  - Een drastische stijging van de waarde van de munt.
+  - Een kleine stijging in de waarde van de munteenheid.
 explanation: |
-  Monetaire druk, of het creëren van nieuw geld door centrale banken, leidt tot inflatie
-  leidt tot inflatie. Dit komt doordat de toename van
-  geld Supply de koopkracht van geld vermindert,
-  wat leidt tot hogere prijzen en een daling van de waarde van
-  spaargeld.
+  Door hyperinflatie hebben mensen snel een
+  het vertrouwen in de munt volledig verliezen, wat leidt tot
+  een drastische daling van de waarde in korte tijd
+  tijd.
 reviewed: true

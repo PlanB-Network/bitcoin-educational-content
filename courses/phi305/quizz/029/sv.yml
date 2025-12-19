@@ -1,0 +1,9 @@
+question: Vem är Ayn Rand?
+answer: Författaren till "La Grève" och "La Source Vive".
+wrong_answers:
+  - Spinozas följeslagare.
+  - Brittisk politiker.
+  - En romantisk författare.
+explanation: |
+  Ayn Rand (1905-1982) är författare till Atlas Shrugged och The Fountainhead. Hon utvecklade en filosofi som kallas objektivism, som förespråkar rationell individualism och kapitalism.
+reviewed: false

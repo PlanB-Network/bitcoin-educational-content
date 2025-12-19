@@ -1,0 +1,9 @@
+question: چه ساختار داده‌ای تراکنش‌ها را در یک بلاک خلاصه می‌کند؟
+answer: Merkle Tree
+wrong_answers:
+  - جدول Hash UTXO
+  - فایل peers.dat
+  - فرض کنید رجیستر utxo
+explanation: |
+  تراکنش‌های موجود در یک بلوک به یک Merkle Tree متعهد می‌شوند که ریشه آن در سرصفحه بلوک گنجانده شده است تا از یکپارچگی بلوک اطمینان حاصل شود.
+reviewed: true

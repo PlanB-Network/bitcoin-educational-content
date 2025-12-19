@@ -1,10 +1,12 @@
-question: Proč je Bitcoin považován za novou formu peněz?
-answer: Protože je to digitální peníze bez centrální entity.
+question: Jaká strategie je používána centrálními subjekty k devalvaci fiat měny?
+answer: Zvyšují měnovou masu o několik procent každý rok.
 wrong_answers:
-  - Protože je to digitální měna krytá zlatem.
-  - Protože je to měna, která vyžaduje bankovní blockchain.
-  - Protože to říká Federální rezervní systém.
+  - Sníží měnovou masu o několik procent každý rok.
+  - Udržují její měnovou masu konstantní ve srovnání s počáteční masou.
+  - Mají její měnovou masu náhodně kolísat ve srovnání s počáteční masou.
 explanation: |
-  Bitcoin lze považovat za novou formu peněz, jelikož vzniká
-  z peer-to-peer sítě bez centrální entity.
+  Centrální subjekty často devalvují měnu zvyšováním její
+  měnové masy ve srovnání s počáteční o několik procent
+  každý rok. Toto tiché devalvování je často odůvodňováno jako
+  v zájmu lidí.
 reviewed: true

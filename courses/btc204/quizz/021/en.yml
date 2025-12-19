@@ -5,5 +5,5 @@ wrong_answers:
   - Several UTXOs in input and 1 UTXO in output
   - 5 UTXOs in inputs and 5 UTXOs in outputs
 explanation: |
-  In a simplified payment, the user consumes one or more UTXOs as inputs to fulfill in outputs a payment UTXO and a change UTXO (thus 2 UTXOs).
-reviewed: false
+  In a simplified payment, the user consumes one or more UTXOs as inputs to fulfill, in outputs, a payment UTXO and a change UTXO (thus 2 UTXOs).
+reviewed: true

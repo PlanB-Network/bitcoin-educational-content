@@ -1,0 +1,9 @@
+question: Was ist der Hauptunterschied zwischen einer Rohimplementierung und einem Node-in-a-Box?
+answer: Das Vorhandensein eines Interface und integrierter Anwendungen
+wrong_answers:
+  - Kompatibilität der Netze
+  - Blockchain-Größe auf Festplatte gespeichert
+  - Das verwendete Protokoll und die Währung
+explanation: |
+  Bei einer Rohimplementierung wird nur die Knotensoftware installiert, während bei einem Node-in-a-Box ein Interface, ein App Store und integrierte Dienste hinzugefügt werden.
+reviewed: true

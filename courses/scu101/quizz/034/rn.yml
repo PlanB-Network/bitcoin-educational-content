@@ -1,11 +1,11 @@
-question: Ni ibihe bintu bibi bishobora kuba biri mu bimenyetso vyo kuri imeyili n’amashusho?
-answer: Porogaramu mbi
+question: Ni ibihe bintu bibi bishobora kuba biri mu bifatanijwe imeyiri be n’amashusho?
+answer: Porogarame mbi
 wrong_answers:
   - Ubutumwa budaciye mu mategeko
   - Amatangazo
   - Ibirimwo vyo kwamamaza
 explanation: |
-  Ivyo bifatanijwe na imeyili n’amashusho bishobora kubamwo ibintu bibi.
-  Ku bw’ivyo, ntukwiye gukura canke gufungura ibishizweko kuri .
-  abarungitse batazwi canke bakekwa.
+  Ivyo bifatanijwe na imeyiri n’amashusho bishobora kubamwo ibintu bibi.
+  Ku bw’ivyo, ntukwiye kuvoma canke kwugurura ibifatanijwe na imeyiri
+  birungitse nabantu utazi canke bateye amakenga.
 reviewed: true

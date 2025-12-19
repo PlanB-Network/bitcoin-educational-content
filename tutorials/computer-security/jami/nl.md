@@ -50,11 +50,11 @@ Tegenwoordig is Jami beschikbaar op veel systemen. Het staat bekend om zijn pres
 
 
 
-- Het is open-source en helemaal gratis**, dus je kunt het gratis gebruiken.
-- Compleet met handige functies**: met deze software kun je profiteren van talloze opties, dankzij de mogelijkheid om eenvoudig plugins toe te voegen vanuit de winkel. Het is zelfs mogelijk om je eigen extensies te maken voor functies die beter aansluiten bij jouw behoeften.
-- Gebruiksvriendelijk en Interface intuïtief**: ondanks de vele functies die Jami te bieden heeft, is het nog steeds heel eenvoudig om ermee aan de slag te gaan.
-- Sterke beveiliging**: Jami bevat een geavanceerd encryptie-algoritme dat de veiligheid van uw communicatie garandeert met respect voor uw privacy.
-- Zeer toegankelijk en snel**: het biedt gemakkelijke communicatie, zelfs wanneer de bandbreedte beperkt is, voor meer gebruiksvriendelijkheid.
+- Het is open-source en helemaal **gratis**, dus je kunt het gratis gebruiken.
+- **Compleet met handige functies**: met deze software kun je profiteren van talloze opties, dankzij de mogelijkheid om eenvoudig plugins toe te voegen vanuit de winkel. Het is zelfs mogelijk om je eigen extensies te maken voor functies die beter aansluiten bij jouw behoeften.
+- **Gebruiksvriendelijk en intuïtieve interface**: ondanks de vele functies die Jami te bieden heeft, is het nog steeds heel eenvoudig om ermee aan de slag te gaan.
+- **Sterke beveiliging**: Jami bevat een geavanceerd encryptie-algoritme dat de veiligheid van uw communicatie garandeert met respect voor uw privacy.
+- **Zeer toegankelijk en snel**: het biedt gemakkelijke communicatie, zelfs wanneer de bandbreedte beperkt is, voor meer gebruiksvriendelijkheid.
 
 
 
@@ -82,7 +82,7 @@ De applicatie is direct beschikbaar in de App Store of Play Store. Zoek ernaar i
 
 
 
-Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website bezoeken. Standaard toont de site de software die overeenkomt met het besturingssysteem van je apparaat en je kunt direct op de downloadknop klikken om het te starten. Je kunt het Windows-besturingsprogramma echter ook rechtstreeks downloaden van de [downloadpagina] (https://jami.net/download-jami-windows/).
+Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website bezoeken. Standaard toont de site de software die overeenkomt met het besturingssysteem van je apparaat en je kunt direct op de downloadknop klikken om het te starten. Je kunt het Windows-besturingsprogramma echter ook rechtstreeks downloaden van de [downloadpagina](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +90,7 @@ Om Jami op je apparaat te installeren, moet je eerst de officiële Jami website 
 
 
 
-Voor macOS-gebruikers is het bestand ook beschikbaar op [macOS downloadpagina] (https://jami.net/download-jami-macos/).
+Voor macOS-gebruikers is het bestand ook beschikbaar op [macOS downloadpagina](https://jami.net/download-jami-macos/).
 
 
 
@@ -118,7 +118,7 @@ Om Jami op Linux te installeren, kun je het beste de opdrachtregel gebruiken. He
 
 
 
-Zodra je je distributie hebt gekozen, kun je het systeem installeren. Je moet de afhankelijkheden installeren die nodig zijn om Jami op je Linux OS te draaien. De commando's zijn direct beschikbaar op [deze pagina] (https://jami.net/download-jami-linux/).
+Zodra je je distributie hebt gekozen, kun je het systeem installeren. Je moet de afhankelijkheden installeren die nodig zijn om Jami op je Linux OS te draaien. De commando's zijn direct beschikbaar op [deze pagina](https://jami.net/download-jami-linux/).
 
 
 
@@ -140,7 +140,7 @@ Dit commando installeert de gereedschappen die nodig zijn om GPG-sleutels (gnupg
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -312,7 +312,7 @@ Zodra het wachtwoord is ingevoerd, zal het apparaat automatisch verbinding maken
 
 
 
-Een interessante eigenschap van Jami is de mogelijkheid om nieuwe opties te integreren via extensies (plugins). Plugins zijn native modules (C/C++); de SDK biedt tools en scripts (met name in Python) om ze te helpen maken. Sommige plugins zijn direct beschikbaar [hier] (https://jami.net/extensions/).
+Een interessante eigenschap van Jami is de mogelijkheid om nieuwe opties te integreren via extensies (plugins). Plugins zijn native modules (C/C++); de SDK biedt tools en scripts (met name in Python) om ze te helpen maken. Sommige plugins zijn direct beschikbaar [hier](https://jami.net/extensions/).
 
 
 
@@ -338,9 +338,9 @@ Jami biedt ook **uitgebreide functies** voor gebruikers die verder willen gaan i
 
 
 
-- Maak een rendez-vous punt**: Met deze functie kun je een **rendez-vous punt** maken voor je communicatie, handig voor het organiseren van beveiligde sessies of uitwisselingen tussen verschillende gebruikers.
-- Verbinden met een Jami server**: U kunt Jami verbinden met een **Jami server**, wat de prestaties of beschikbaarheid van communicatie kan verbeteren, vooral in professionele omgevingen.
-- Een SIP-account** aanmaken: U kunt een **SIP account** (Session Initiation Protocol) aanmaken, zodat u Jami kunt integreren met bestaande telefoonsystemen of telefoongesprekken kunt voeren.
+- Maak een **rendez-vous punt**: Met deze functie kun je een **rendez-vous punt** maken voor je communicatie, handig voor het organiseren van beveiligde sessies of uitwisselingen tussen verschillende gebruikers.
+- **Verbinden met een Jami server**: U kunt Jami verbinden met een **Jami server**, wat de prestaties of beschikbaarheid van communicatie kan verbeteren, vooral in professionele omgevingen.
+- Een **SIP-account** aanmaken: U kunt een **SIP account** (Session Initiation Protocol) aanmaken, zodat u Jami kunt integreren met bestaande telefoonsystemen of telefoongesprekken kunt voeren.
 
 
 
@@ -360,4 +360,4 @@ Ontdek Tox, een gedecentraliseerd protocol dat end-to-end encryptie (E2E), publi
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

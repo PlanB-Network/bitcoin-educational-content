@@ -6,4 +6,4 @@ wrong_answers:
   - À indiquer une erreur d’adressage ou de connexion au routeur local
 explanation: |
   La notation 0.0.0.0 est utilisée localement pour désigner l’absence d’adresse ou l’écoute sur toutes les interfaces.
-reviewed: false
+reviewed: true 

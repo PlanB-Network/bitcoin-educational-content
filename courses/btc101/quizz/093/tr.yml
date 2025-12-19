@@ -1,14 +1,12 @@
-question: Bir Wallet'i bir passphrase ile kullanırken neleri yedeklemeniz gerekir?
-answer: Hem 12 veya 24 kelimelik listeyi hem de passphrase'nizi yedeklemeniz gerekir.
+question: Bir Wallet'de Mnemonic ifadesinin bulunmaması neyi gösterir?
+answer: Bu da Wallet'ün Bitcoin'nin uzun süreli depolanması için güvenli olmadığını göstermektedir.
 wrong_answers:
-  - Yalnızca 12 veya 24 kelimelik listeyi yedeklemeniz gerekir.
-  - Yalnızca passphrase'ünüzü yedeklemeniz gerekir.
-  - Ne 12 veya 24 kelimelik listeyi ne de passphrase'ünüzü yedeklemeniz gerekir.
+  - Wallet'ün tamamen güvenli olduğunu ve herhangi bir yedekleme gerektirmediğini gösterir.
+  - Bu, Wallet'in birçok farklı tahvili tutabileceği anlamına gelir.
+  - Bu, Wallet'nın cihazınız tarafından otomatik olarak yedeklendiğini gösterir.
 explanation: |
-  Bir Wallet'yı bir passphrase ile kullandığınızda, yedeklemeniz gerekir
-  hem 12 veya 24 kelimelik listeyi hem de passphrase'inizi,
-  çünkü kelime listesi ve passphrase'in her ikisi de
-  durumunda fonlarınıza yeniden erişim sağlamak için gerekli
-  telefonunuzun veya bilgisayarınızın kaybolması. Biri ya da diğeri olmadan,
-  fonlara erişilemez.
+  12 veya 24 kelimelik bir listenin olmaması, yani
+  Mnemonic ifadesi, bir Wallet'de sizi şu konuda uyarmalıdır
+  Wallet standart yedeklemeyi takip etmediği için güvenli değildir
+  prosedürler.
 reviewed: true

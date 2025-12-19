@@ -1,5 +1,5 @@
 ---
-name: Cold Kartica
+name: COLDCARD Mk
 
 description: Kreiranje, pravljenje rezervne kopije i korišćenje Bitcoin privatnog ključa sa Coldcard uređajem i Bitcoin Core
 ---
@@ -110,8 +110,8 @@ Pogledajte naše vodiče za instalaciju i konfiguraciju za Bitcoin Core:
 
 
 
-- Pokretanje sopstvenog čvora sa Bitcoin Core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
-- Konfigurisanje Tor-a za Bitcoin Core čvor:** https://agora256.com/configuration-tor-Bitcoin-core/
+- **Pokretanje sopstvenog čvora sa Bitcoin Core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
+- **Konfigurisanje Tor-a za Bitcoin Core čvor:** https://agora256.com/configuration-tor-Bitcoin-core/
 
 
 Prvo umetnite micro SD karticu u Coldcard, zatim izvezite Wallet za Bitcoin Core prateći ove korake: Advanced/Tools > Export Wallet > Bitcoin Core. Dva fajla će biti napisana na micro SD karticu: Bitcoin-core.sig & Bitcoin-core.txt. Umetnite micro SD karticu u računar gde je instaliran Bitcoin Core i otvorite .txt fajl. Videćete liniju "For Wallet with master key fingerprint." Proverite da li se osmo-karakterni XFP podudara sa onim koji ste zabeležili prilikom kreiranja vašeg privatnog ključa.'

@@ -20,10 +20,10 @@ Lynis est un outil open source proposé par l’entreprise CISOFY qui est spéci
 
 Il est utilisé pour différents usages :
 
-* Les audit de sécurité
+**Les audits de sécurité**
 * Les tests de conformité (PCI, HIPAA et SOX)
-* Le durcissement des configurations système
-* La détection de vulnérabilités
+**Le durcissement des configurations système**
+**La détection de vulnérabilités**
 
 Cet outil est très largement utilisé par plusieurs typologies d’utilisateurs, notamment les administrateurs système, les auditeurs informatiques et les pentesters. Pour les analyses, l’outil se base sur des standards tels que le **CIS Benchmark, NIST, NSA, OpenSCAP** et sur des recommandations officielles des guides **Debian, Gentoo, Red Hat**.
 
@@ -174,9 +174,9 @@ A la fin de l'audit, vous obtenez ceci (nous pouvons constater que **Lynis** a 
 Ensuite, Lynis va lister un ensemble de points correspondants à tout ce qu'il a vérifié sur notre système. Ceci est organisé par catégories, comme nous allons le voir. Il faut savoir également qu'un code couleur est utilisé pour mettre en évidence les recommandations :
 
 * **Rouge** pour les éléments critiques ou les bonnes pratiques non respectées (un paquet manquant, par exemple), c'est-à-dire que votre serveur ne respecte pas ce point
-* **Jaune** pour les suggestions ou le respect partiel de la recommandation (disons que c'est un plus de respecter un point mis en évidence avec cette couleur (non prioritaire)
-* **Vert** pour les points où la configuration de votre serveur est conforme
-* **Blanc**, lorsque c'est neutre
+**Jaune** pour les suggestions ou le respect partiel de la recommandation (disons que c'est un plus de respecter un point mis en évidence avec cette couleur (non prioritaire))
+**Vert** pour les points où la configuration de votre serveur est conforme
+**Blanc**, lorsque c'est neutre
 
 Ici, nous pouvons constater que Lynis nous recommande d’installer **fail2ban**:
 
@@ -258,19 +258,19 @@ Voyons ensemble quelques exemples de recommandations qui font directement échos
 
 ![Image](assets/fr/043.webp)
 
-* Par ailleurs, Lynis nous suggère d'installer le paquet **apt-listbugs** pour avoir des informations sur les bugs critiques lors des installations de package via **apt.**
+**Par ailleurs, Lynis nous suggère d'installer le paquet **apt-listbugs** pour avoir des informations sur les bugs critiques lors des installations de package via **apt**.**
 
 ![Image](assets/fr/041.webp)
 
-* L’outil nous propose d’installer **needrestart pour être en capacité** de voir quels sont les processus qui utilisent une vielle version de librairie et qui ont besoin d’être redémarré.
+L'outil nous propose d'installer **needrestart** pour être en capacité de voir quels sont les processus qui utilisent une vielle version de librairie et qui ont besoin d'être redémarré.
 
 ![Image](assets/fr/054.webp)
 
-* Cette suggestion, nous propose d’installer **fail2ban** pour bloquer automatiquement les hôtes qui commettent des échecs d’authentification (notamment du brute force).
+*Cette suggestion, nous propose d'installer **fail2ban** pour bloquer automatiquement les hôtes qui commettent des échecs d'authentification (notamment du brute force).*
 
 ![Image](assets/fr/044.webp)
 
-* Pour le durcissement des services système, il nous recommande d’exécuter la commande bleue pour chaque service de notre machine.
+*Pour le durcissement des services système, il nous recommande d'exécuter la commande bleue pour chaque service de notre machine.*
 
 ![Image](assets/fr/056.webp)
 
@@ -278,7 +278,7 @@ Voyons ensemble quelques exemples de recommandations qui font directement échos
 
 ![Image](assets/fr/031.webp)
 
-* Cette suggestion nous propose de mettre en place des valeurs minimales et maximales concernant l’âge d'un mot de passe. Cela va permettre entre autre d’assurer un changement régulier pour les passwords.
+**Cette suggestion nous propose de mettre en place des valeurs minimales et maximales concernant l'âge d'un mot de passe. Cela va permettre entre autre d'assurer un changement régulier pour les passwords.**
 
 ![Image](assets/fr/042.webp)
 
@@ -286,11 +286,11 @@ Voyons ensemble quelques exemples de recommandations qui font directement échos
 
 ![Image](assets/fr/047.webp)
 
-* Cette recommandation nous propose de désactiver le stockage USB et le firewire pour éviter les fuites de données
+**Cette recommandation nous propose de désactiver le stockage USB et le firewire pour éviter les fuites de données**
 
 ![Image](assets/fr/033.webp)
 
-* Pour répondre à cette recommandation, il vous suffit d’installer et de configurer **unnatended-upgrade** par exemple.
+*Pour répondre à cette recommandation, il vous suffit d'installer et de configurer **unattended-upgrade** par exemple.*
 
 ![Image](assets/fr/053.webp)
 
@@ -306,10 +306,10 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 Quelques informations sur les paquets installés :
 
-* **Clamav** est un antivirus.
-* **unattend-upgrades** va vous permettre de gérer vos mises à jour en automatique et même de reboot la machine ou de purger automatiquement les anciens packages , il est entièrement configurable.
-* **rkhunter** est un anti-rootkit qui va analyser votre système de fichier.
-* **Fail2ban**, lui va se baser sur vos fichiers de logs en fonction de ce que vous lui donner à lire et il va travailler avec **iptables**, par exemple pour bannir les adresses IP qui tentent de "brute forcer" votre serveur en SSH.
+**Clamav** est un antivirus.
+**unattend-upgrades** va vous permettre de gérer vos mises à jour en automatique et même de reboot la machine ou de purger automatiquement les anciens packages, il est entièrement configurable.
+**rkhunter** est un anti-rootkit qui va analyser votre système de fichier.
+**Fail2ban**, lui va se baser sur vos fichiers de logs en fonction de ce que vous lui donner à lire et il va travailler avec **iptables**, par exemple pour bannir les adresses IP qui tentent de "brute forcer" votre serveur en SSH.
 
 ### C. Recommandations pour SSH
 
@@ -327,29 +327,29 @@ Nous allons :
 
 * Changer le port pour la connexion SSH (on oublie le port par défaut, 22)
 * Augmenter le niveau de verbosité des logs, de **INFO à VERBOSE**
-* Définir le **LoginGraceTime** à **2 minutes**
+**Définir le LoginGraceTime à 2 minutes**
 
 Si au-delà de deux minutes les informations de connexions ne sont pas saisies, la connexion est coupée.
 
-* Activer le **strictModes**
+**Activer le strictMode**
 
 Indique si "sshd" doit contrôler les modes et le propriétaire des fichiers de l'utilisateur ainsi que du répertoire de base de l'utilisateur avant de valider une connexion. C'est normalement souhaitable, parce que quelque fois, les novices laissent accidentellement leur répertoire ou leurs fichiers en accès complet à tout le monde. Par défaut, "yes".
 
-* Définir **MaxAuthtries** à 3
+**Définir MaxAuthtries à 3**
 
 Cela représente le nombre d’échecs de tentative d’authentification, avant que la communication soit fermée.
 
-* Définir **MaxSessions** à 2
+**Définir MaxSessions à 2**
 
 Cela représente le nombre maximale de sessions simultanées.
 
-* Autoriser l’authentification par clef publique
+**Autoriser l'authentification par clef publique**
 
 ```
 PubkeyAuthentication yes
 ```
 
-* Conserver l’authentification par mot de passe :
+**Conserver l'authentification par mot de passe :**
 
 ```
 PasswordAuthentication yes
@@ -364,7 +364,7 @@ PermitRootLogin no
 
 Attention à bien avoir "**PermitRootLogin no", si c'est égal à "yes", c'est le "mal absolu"**.
 
-* Interdire la redirection des connexions TCP
+**Interdire la redirection des connexions TCP**
 
 ```
 AllowTcpForwarding no
@@ -372,7 +372,7 @@ AllowTcpForwarding no
 
 Indique si les redirections TCP sont permises, avec "oui" comme réglage par défaut. À noter : désactiver les redirections TCP ne renforce pas la sécurité si les utilisateurs ont accès à un interpréteur de commandes (shell), car ils peuvent toujours mettre en place leurs propres outils de redirection.
 
-* Interdire la redirection de X11
+**Interdire la redirection de X11**
 
 ```
 X11Forwarding no
@@ -380,7 +380,7 @@ X11Forwarding no
 
 Indique si les redirections X11 sont acceptées, avec "non" comme réglage par défaut. À noter : même si les redirections X11 sont désactivées, cela n'augmente pas la sécurité car les utilisateurs peuvent toujours mettre en place leurs propres redirecteurs. La redirection X11 est automatiquement désactivée si l'option **UseLogin** est sélectionnée.
 
-* Régler la temporisation de la communication entre le client et sshd
+**Régler la temporisation de la communication entre le client et sshd**
 
 ```
 ClientAliveInterval  300
@@ -394,7 +394,7 @@ ClientAliveCountMax 0
 
 D'après la [documentation (*man page*) de sshd](https://www.delafond.org/traducmanfr/man/man5/sshd_config.5.html), voici la signification de cette option : "Règle le nombre de messages de maintien de la connexion (voir ci-dessus) à envoyer sans réponse de la part du client pour **sshd**. Si ce seuil est atteint tandis que les messages de maintien de la connexion ont été envoyés, **sshd** déconnecte le client et termine la session. Il est important de noter que ces messages de maintien de la connexion sont très différents de l'option **KeepAlive** (ci-dessous). Les messages de maintien de la connexion sont envoyés par le tunnel chiffré, et par conséquent ne sont pas falsifiables. Le maintien de la connexion au niveau TCP activé par l'option **KeepAlive** est falsifiable. Le mécanisme de maintien de la connexion est intéressant quand le client ou le serveur ont besoin de savoir si la connexion est inactive."
 
-* Empêcher de divulguer des informations en désactivant le **motd, la bannière, le lastlog**
+**Empêcher de divulguer des informations en désactivant le motd, la bannière, le lastlog**
 
 ```
 PrintMotd no

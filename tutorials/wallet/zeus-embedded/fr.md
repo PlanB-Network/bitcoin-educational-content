@@ -7,9 +7,9 @@ description: Savoir utiliser le portefeuille Lightning Zeus Embedded
 ZEUS est initialement une application mobile de gestion de nœud lightning à distance, qui permet de piloter son nœud installé sur un serveur distant
 Mais l’application propose aussi un noeud Lightning Intégré ou “Embedded node” en anglais. 
 
-**C’est cette facette de l’application que nous explorerons dans ce tutoriel. Cela permet à n’importe qui d’avoir son propre noeud lightning sur mobile, sans avoir besoin d’un serveur dédié, à la manière de ce que propose ACINQ avec son incroyable wallet lightning Phoenix.
+**C'est cette facette de l'application que nous explorerons dans ce tutoriel. Cela permet à n'importe qui d'avoir son propre noeud lightning sur mobile, sans avoir besoin d'un serveur dédié, à la manière de ce que propose ACINQ avec son incroyable wallet lightning Phoenix.**
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Pour rappel Lightning est un réseau qui fonctionne en parallèle de celui de Bitcoin, et qui permet de manière astucieuse de s'échanger des bitcoins sans avoir à systématiquement réaliser des transactions on-chain. On arrive ainsi à réaliser des transactions quasi instantanées, plus besoin d'attendre 10 min qu'un bloc soit validé. Cela est particulièrement utile quand il s'agit de payer un commerçant dans le monde physique. De plus Lightning apporte un niveau de **confidentialité** remarquable que ne possède pas le réseau Bitcoin nativement*.
   
@@ -110,7 +110,7 @@ Vous pouvez les inscrire sur un papier, ou éventuellement, pour plus de sécuri
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase mnémonique, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -134,7 +134,7 @@ Une fois les fonds confirmés et crédités sur votre wallet, vous pouvez les ut
 
 Sur l'écran suivant, on vous propose d'ouvrir un canal en collaboration avec **"Olympus by Zeus"** qui est le LSP (Lightning Service Provider) privilégié par le wallet.
 Pour ce tutoriel nous choisirons cette option pour d'avantage de simplicité, mais il est parfaitement possible d'ouvrir des canaux avec n'importe quel noeud du réseau.
-Il est même possible d'ouvrir plusieurs canaux en une seule transaction en sélectionnant "OPEN ADDITIONAL CHANNEL". *Mais nous verrons éventuellement cela dans une éventuelle version"avancée" du tutoriel **Zeus Embedded****.
+Il est même possible d'ouvrir plusieurs canaux en une seule transaction en sélectionnant "OPEN ADDITIONAL CHANNEL". *Mais nous verrons éventuellement cela dans une éventuelle version "avancée" du tutoriel* **Zeus Embedded**.
 
 - Sélectionnez ensuite  le montant que vous souhaitez dédier à ce canal. Dans notre cas l'ensemble de nos fonds on-chain seront utilisés, nous activons donc le bouton "Use all possible funds".
 
@@ -187,7 +187,7 @@ Zeus vous permet ensuite d'ajouter une note pour libeller votre paiement, ou de 
 
 ![image](assets/fr/22.webp)
 
-A noter que contrairement à un wallet comme [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), avec Zeus le calcul de la route s'effectue en local et n'est pas délégué à un tier (ACINQ dans le cas de Phoenix). Ainsi vous êtes le seul à connaitre le destinataire du paiement. On perdra un peu d'efficience (paiement un peu plus longs à aboutir, mais on gagne énormément du point de vue de la vie privée).
+A noter que contrairement à un wallet comme [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), avec Zeus le calcul de la route s'effectue en local et n'est pas délégué à un tier (ACINQ dans le cas de Phoenix). Ainsi vous êtes le seul à connaitre le destinataire du paiement. On perdra un peu d'efficience (paiement un peu plus longs à aboutir, mais on gagne énormément du point de vue de la vie privée).
 
 
 
@@ -230,6 +230,6 @@ Bravo, vous êtes désormais en mesure d'utiliser par vous même Zeus Embedded, 
 
 
 
-Pour en savoir plus sur le fonctionnement technique du Lightning Network, vous pouvez retrouver l'excellente formation gratuite de Fanis Michalakis sur Plan ₿ Network :
+Pour en savoir plus sur le fonctionnement technique du Lightning Network, vous pouvez retrouver l'excellente formation gratuite de Fanis Michalakis sur Plan ₿ Academy :
  
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

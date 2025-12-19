@@ -1,5 +1,5 @@
 ---
-name: Trezor Shamir Yedekleme
+name: Trezor Shamir Backup
 description: Trezor'da tek paylaşımlı ve çok paylaşımlı Mnemonic ifadeleri
 ---
 ![cover](assets/cover.webp)
@@ -34,7 +34,7 @@ Tek paylaşımlı Yedekleme* ile bir Wallet oluşturmuş olan kullanıcılar, Wa
 
 
 
-Çok Paylaşımlı Yedekleme* Trezor Model T, Safe 3 ve Safe 5'te mevcuttur. Bu özellik Trezor Model One tarafından desteklenmez.
+Çok Paylaşımlı Yedekleme Trezor Model T, Safe 3 ve Safe 5'te mevcuttur. Bu özellik Trezor Model One tarafından desteklenmez.
 
 
 
@@ -85,11 +85,11 @@ Cihazınızın ilk kurulumu ile ilgili yardıma ihtiyacınız varsa, her Trezor 
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Yeni bir Wallet üzerinde
 
@@ -139,13 +139,13 @@ Mnemonic ifadelerinizi kaydetmenin ve yönetmenin doğru yolu hakkında daha faz
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Trezor'da, yapılandırmak istediğiniz toplam paylaşım sayısını seçin. En yaygın yapılandırmalar 2-de-3 ve 3-de-5'tir. Bu örnek için, 2-de-3 oluşturacağım, bu yüzden 3 paylaşım seçeceğim. Her paylaşım 20 kelimelik bir Mnemonic ifadesini temsil edecektir.
 
 
 
-*Safe 5 kullanıcıları için, ekranda "*Devam etmek için dokunun*" yazsa da, aslında onaylamak için yukarı kaydırmanız gerekecektir
+*Safe 5 kullanıcıları için, ekranda "Devam etmek için dokunun" yazsa da, aslında onaylamak için yukarı kaydırmanız gerekecektir*
 
 
 
@@ -173,7 +173,7 @@ Her bir paylaşımı ayrı bir ortama not etmenizi ve birkaçının aynı yerde 
 
 
 
-tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.**_
+tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.
 
 
 
@@ -273,7 +273,7 @@ Tebrikler, artık Trezor donanım cüzdanlarında Tek paylaşımlı ve Çok payl
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Bu eğitimi faydalı bulduysanız, aşağıya bir Green başparmak bırakırsanız minnettar olurum. Bu makaleyi sosyal ağlarınızda paylaşmaktan çekinmeyin. Çok teşekkür ederim!
 
@@ -287,4 +287,4 @@ Bu eğitimi faydalı bulduysanız, aşağıya bir Green başparmak bırakırsan�
 
 - [SLIP-0039: Mnemonic Kodları için Shamir'in Gizli Paylaşımı](https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
 - [Trezor'da Çok Paylaşımlı Yedekleme](https://trezor.io/learn/a/multi-share-backup-on-trezor);
-- [Wikipedia: Shamir'in gizli paylaşımı] (https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
+- [Wikipedia: Shamir'in gizli paylaşımı](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

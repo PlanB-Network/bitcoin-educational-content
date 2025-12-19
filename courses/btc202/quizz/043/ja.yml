@@ -1,0 +1,9 @@
+question: Umbrel HomeとumbrelOSの違いは何ですか？
+answer: Umbrel Homeはプリインストールされたミニサーバーで、umbrelOSは自分でインストールするものです。
+wrong_answers:
+  - Umbrel Homeは無料だが、umbrelOSは無料ではない
+  - Umbrel HomeはBitcoinをサポートしていません。
+  - Umbrel Homeはオープンソース、umbrelOSはプロプライエタリ
+explanation: |
+  Umbrel HomeはumbrelOSがインストール済みのターンキーで販売され、umbrelOSは自分のハードウェアにDIYでインストールできる。
+reviewed: true

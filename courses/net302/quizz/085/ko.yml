@@ -1,0 +1,9 @@
+question: 8.8.8.8로 전송되는 패킷이 어떤 Interface 및 게이트웨이를 통해 라우팅되는지 확인하는 데 사용할 수 있는 명령은 무엇인가요?
+answer: iP 경로 GET 8.8.8.8
+wrong_answers:
+  - ss route -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - nETSTAT -R 8.8.8.8
+explanation: |
+  ip route get <Address>은 패킷이 특정 목적지에 도달하기 위한 정확한 경로를 보여줍니다.
+reviewed: false

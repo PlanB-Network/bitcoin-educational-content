@@ -1,0 +1,9 @@
+question: Süzülme teorisine göre, kritik eşiğin aşılması neyi sağlar?
+answer: Ağ boyunca işlem yayılımı
+wrong_answers:
+  - Yeni bir bloğun hemen oluşturulması
+  - Düğümler tarafından otomatik maliyet bastırma
+  - Bir işlemin ağ tarafından engellenmesi
+explanation: |
+  Süzülme eşiği aşıldığında, bir işlem Bitcoin ağı boyunca neredeyse anında yayılır.
+reviewed: true

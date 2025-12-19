@@ -1,0 +1,9 @@
+question: Gregory Maxwelli analüüsi kohaselt, mis tekitab Bitcoin skaalamise aruteludes põhilise kompromissi, mis sunnib kasutajaid usaldusväärsete teenuste poole?
+answer: Nii liiga suur ressursikasutus, mis muudab valideerijate hinnad madalaks, kui ka liiga kallis juurdepääs plokiruumile vaidluste lahendamiseks
+wrong_answers:
+  - Konflikt tehingute läbilaskevõime suurendamise ja piisava mining kasumlikkuse säilitamise vahel eri suurusega reservide puhul
+  - Eraldiseisvate tunnistajate uuenduste rakendamise ja vanema wallet tarkvaraga tagasiulatuva ühilduvuse säilitamise vaheline pinge
+  - Konkurents teise kihi lahenduste ja on-chain skaleerivate lähenemisviiside vahel piiratud arendusressursside ja kogukonna toetuse pärast
+explanation: |
+  Maxwell tuvastas kahepoolse probleemi, mille puhul Bitcoin kaotab oma eelised mõlemas suunas: kui ressursside kasutamine on liiga suur võrreldes olemasoleva tehnoloogiaga, muutub valideerimine liiga kulukaks ja hindab kasutajad välja, kes peavad siis sõltuma usaldusväärsetest kolmandatest isikutest, selle asemel et iseseisvalt valideerida. Vastupidi, kui võimsus on liiga väike ja tehingumeetodid on ebatõhusad, muutub juurdepääs plokiahelale vaidluste lahendamiseks liiga kalliks, mis jällegi surub kasutajaid usaldusväärsete teenuste poole. See loob õrna tasakaalu, millega skaleerimislahendused peavad toime tulema.
+reviewed: false

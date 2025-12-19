@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Floriana BURNELA opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -42,7 +42,7 @@ Jeśli chcesz dowiedzieć się więcej, zapoznaj się z samouczkiem na temat Nma
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Rozpoczęcie pracy z Angry IP Scanner
 
@@ -84,8 +84,8 @@ Przy pierwszym uruchomieniu należy zapoznać się z instrukcjami w oknie "**Get
 
 
 
-- Feeder**: moduł odpowiedzialny za generowanie list adresów IP do skanowania, z losowego zakresu IP lub pliku z listą adresów IP.
-- Fetcher**: zestaw modułów do pobierania informacji o hostach w sieci. Istnieją na przykład pobieracze do wykrywania adresów MAC, skanowania portów, wykrywania nazw hostów lub wysyłania żądań HTTP.
+- **Feeder**: moduł odpowiedzialny za generowanie list adresów IP do skanowania, z losowego zakresu IP lub pliku z listą adresów IP.
+- **Fetcher**: zestaw modułów do pobierania informacji o hostach w sieci. Istnieją na przykład pobieracze do wykrywania adresów MAC, skanowania portów, wykrywania nazw hostów lub wysyłania żądań HTTP.
 
 
 
@@ -181,4 +181,4 @@ Jeśli chcesz używać **Nmap** z graficznym Interface, możesz użyć **aplikac
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

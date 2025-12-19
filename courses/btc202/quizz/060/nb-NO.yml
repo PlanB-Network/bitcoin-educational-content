@@ -1,0 +1,9 @@
+question: Hvilken rolle spiller et Nostr-relé installert på Umbrel?
+answer: Host publikasjonene dine lokalt
+wrong_answers:
+  - Sjekk Bitcoin-transaksjoner
+  - Opprett Nostr-kanaler med kontaktene dine
+  - Lokal sikkerhetskopiering av Blockchain Nostr
+explanation: |
+  Et Nostr-relé på Umbrel gjør det mulig å lagre data lokalt, noe som garanterer tilgjengelighet og suverenitet.
+reviewed: true

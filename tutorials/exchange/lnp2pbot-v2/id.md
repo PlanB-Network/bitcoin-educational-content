@@ -8,7 +8,7 @@ description: Panduan lengkap untuk LNP2PBot dan perdagangan bitcoin P2P
 
 Pertukaran peer-to-peer (P2P) yang bebas KYC sangat penting untuk menjaga kerahasiaan dan otonomi keuangan pengguna. Bursa ini memungkinkan transaksi langsung antar individu tanpa memerlukan verifikasi identitas, yang sangat penting bagi mereka yang menghargai privasi. Untuk pemahaman yang lebih mendalam mengenai konsep teoretis, lihatlah kursus BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Membeli dan menjual bitcoin secara peer-to-peer (P2P) adalah salah satu metode yang paling privat untuk memperoleh atau membuang bitcoin. LNP2PBot adalah bot Telegram sumber terbuka yang memfasilitasi pertukaran P2P di jaringan Lightning, memungkinkan transaksi yang cepat, murah, dan bebas KYC.
 
@@ -43,7 +43,7 @@ Mulailah dengan memasang dompet Lightning yang kompatibel. Berikut adalah rekome
 **Portofolio yang direkomendasikan**
 
 
-- (https://breez.technology)**:
+- **Breez** (https://breez.technology):
   - Sangat bagus untuk pemula
   - Antarmuka yang intuitif dan modern
   - Non-kustodian (Anda tetap memegang kendali atas dana Anda)
@@ -52,9 +52,9 @@ Mulailah dengan memasang dompet Lightning yang kompatibel. Berikut adalah rekome
 
 Di bawah ini adalah tautan ke tutorial untuk dompet ini:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Sederhana dan dapat diandalkan
   - Konfigurasi saluran otomatis
   - Dukungan asli untuk faktur BOLT11
@@ -63,9 +63,9 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Di bawah ini adalah tautan ke tutorial untuk dompet ini:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Lebih teknis tetapi sangat lengkap
   - Opsi konfigurasi lanjutan
   - Sempurna untuk pengguna berpengalaman
@@ -74,16 +74,16 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Di bawah ini adalah tautan ke tutorial untuk dompet ini:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Catatan penting tentang portofolio lainnya**
 
 ⚠️ **Penting**: Sebelum menjual satwa, pastikan portofolio Anda mendukung faktur "tahan", yang digunakan oleh bot sebagai sistem escrow.
 
 
-- Dompet Satoshi**: Berfungsi dengan baik untuk menerima satoshi, tetapi dapat mengalami penundaan dalam memperbarui saldo jika penjualan dibatalkan.
-- Muun**: Tidak disarankan karena pembayaran mungkin gagal karena batas biaya perutean bot (maksimum 0,2%).
-- Aqua**: Berfungsi untuk menerima sat, tetapi dapat mengalami penundaan yang lama (hingga 48 jam) untuk pembaruan saldo jika terjadi pembatalan penjualan.
+- **Dompet Satoshi**: Berfungsi dengan baik untuk menerima satoshi, tetapi dapat mengalami penundaan dalam memperbarui saldo jika penjualan dibatalkan.
+- **Muun**: Tidak disarankan karena pembayaran mungkin gagal karena batas biaya perutean bot (maksimum 0,2%).
+- **Aqua**: Berfungsi untuk menerima sat, tetapi dapat mengalami penundaan yang lama (hingga 48 jam) untuk pembaruan saldo jika terjadi pembatalan penjualan.
 
 💡 **Tip**: Untuk pengalaman yang optimal, pilihlah portofolio yang direkomendasikan (Breez, Phoenix atau Blixt).
 
@@ -153,7 +153,7 @@ Setelah faktur dikirim, bot akan menghubungkan Anda dengan penjual.
 
 Klik nama panggilan penjual untuk membuka saluran obrolan pribadi di mana Anda bisa bertukar detail pembayaran fiat.
 
-**5. Konfirmasi pembayaran
+**5. Konfirmasi pembayaran**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -246,17 +246,17 @@ Lnp2pbot memiliki beberapa kelebihan dan kekurangan dibandingkan solusi pertukar
 ### Keuntungan dari Lnp2pbot
 
 
-- Tidak diperlukan KYC**: Tidak seperti beberapa platform, Lnp2pbot tidak memerlukan verifikasi identitas, sehingga menjaga kerahasiaan pengguna.
-- Transaksi cepat**: Berkat jaringan Lightning, transaksi hampir seketika.
-- Biaya rendah**: Biaya transaksi lebih rendah dibandingkan dengan bursa tradisional.
-- Ketersediaan untuk perangkat seluler**: LNP2PBot dapat diakses melalui Telegram, sehingga mudah digunakan pada perangkat seluler.
-- Mudah digunakan** : Antarmuka Lnp2pbot yang intuitif membuatnya mudah digunakan, bahkan untuk pengguna yang kurang berpengalaman.
+- **Tidak diperlukan KYC**: Tidak seperti beberapa platform, Lnp2pbot tidak memerlukan verifikasi identitas, sehingga menjaga kerahasiaan pengguna.
+- **Transaksi cepat**: Berkat jaringan Lightning, transaksi hampir seketika.
+- **Biaya rendah**: Biaya transaksi lebih rendah dibandingkan dengan bursa tradisional.
+- **Ketersediaan untuk perangkat seluler**: LNP2PBot dapat diakses melalui Telegram, sehingga mudah digunakan pada perangkat seluler.
+- **Mudah digunakan**: Antarmuka Lnp2pbot yang intuitif membuatnya mudah digunakan, bahkan untuk pengguna yang kurang berpengalaman.
 
 ### Kekurangan dari Lnp2pbot
 
 
-- Ketergantungan pada Telegram**: Menggunakan Lnp2pbot membutuhkan akun Telegram, yang mungkin tidak cocok untuk semua pengguna.
-- Likuiditas yang lebih sedikit**: Dibandingkan dengan platform yang lebih mapan seperti Bisq, likuiditas bisa lebih terbatas.
+- **Ketergantungan pada Telegram**: Menggunakan Lnp2pbot membutuhkan akun Telegram, yang mungkin tidak cocok untuk semua pengguna.
+- **Likuiditas yang lebih sedikit**: Dibandingkan dengan platform yang lebih mapan seperti Bisq, likuiditas bisa lebih terbatas.
 
 Sebagai perbandingan, solusi seperti Bisq menawarkan likuiditas yang lebih besar dan antarmuka desktop, tetapi mungkin melibatkan biaya yang lebih tinggi dan waktu transaksi yang lebih lama. Sementara itu, HodlHodl dan Robosat, juga menawarkan perdagangan bebas KYC, tetapi dengan struktur biaya dan antarmuka yang berbeda.
 

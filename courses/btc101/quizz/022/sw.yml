@@ -1,10 +1,9 @@
-question: Kwa nini dhahabu ikawa njia ya kawaida ya Exchange?
-answer: Kwa sababu ya uhaba wake, uimara, na mgawanyiko.
+question: Kwa nini dhahabu si nyenzo ya kubebeka?
+answer: Kwa sababu ni mnene na nzito, na kuifanya iwe ngumu kubeba kwa idadi kubwa.
 wrong_answers:
-  - Kwa sababu ya wingi wake, uimara, na kutogawanyika.
-  - Kwa sababu ya uhaba wake, kuharibika, na mgawanyiko.
-  - Kutokana na wingi wake, kuharibika, na kutogawanyika.
+  - Kwa sababu ni ya thamani sana kuhamishwa.
+  - Kwa sababu haiwezi kutengenezwa kwa urahisi katika maumbo madogo.
+  - Kwa sababu ni Liquid kwenye joto la kawaida.
 explanation: |
-  Dhahabu ikawa kati ya kiwango cha Exchange kutokana na yake
-  rarity, durability, and divisibility: its rarity prevented
+  Dhahabu ni mnene na nzito, ambayo ina maana kwamba kubeba kiasi kikubwa inaweza kuwa changamoto kimwili. Uzito huu hufanya iwe rahisi kwa usafiri ikilinganishwa na nyenzo nyepesi.
 reviewed: true

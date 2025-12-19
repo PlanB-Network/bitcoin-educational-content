@@ -1,13 +1,8 @@
-question: Hoe zorgt het Bitcoin protocol ervoor dat het bestand is tegen censuur en veerkrachtig is?
-answer: Elke component van het protocol is geografisch verspreid over de hele wereld.
+question: Wat is de algemene trend van Bitcoin, gezien de beperkte Supply en het Halving proces?
+answer: Een algemene opwaartse trend.
 wrong_answers:
-  - Het maakt gebruik van een lokaal netwerk van nodes verspreid over Europa.
-  - Het gebruikt een complex algoritme om transacties te valideren.
-  - Het gebruikt een hoog niveau van versleuteling.
-explanation: |
-  Het Bitcoin protocol garandeert zijn censuurbestendigheid en
-  en veerkracht omdat elk onderdeel van het protocol
-  geografisch verdeeld is over de hele wereld. Bijvoorbeeld,
-  zijn er ongeveer 40.000 Bitcoin knooppunten verspreid over alle
-  continenten.
+  - Een algemene neerwaartse trend.
+  - Geen enkele trend.
+  - Een trend die wild schommelt zonder waarneembaar patroon.
+explanation: >-
 reviewed: true

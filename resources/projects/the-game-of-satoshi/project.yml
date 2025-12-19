@@ -1,0 +1,25 @@
+id: 23f3bf58-97bc-4d46-bba5-f88b2ffc1abc
+name: The Game of Satoshi
+
+links:
+  website: https://www.thegameofsatoshi.com
+  twitter: https://x.com/gameofsatoshi
+
+category: education
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-09-16
+    urgency: 1
+    contributor_names:
+      - jramos0
+    reward: 0
+ 
+tags:
+  - guides
+  - software
+  - easy-explain
+
+contributor_names:
+  - jramos0

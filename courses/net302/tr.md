@@ -90,7 +90,7 @@ Bilgisayar ağları dünyasına dalmaya hazır mısınız? Hadi başlayalım!
 **NOT**: Açıklamalar bir GNU/Linux CentOS 7 sistemine dayanmaktadır. Ancak, bir Debian ile bir CentOS sistemi karşılaştırıldığında ağ yapılandırmaları büyük ölçüde aynıdır. Bu yüzden herhangi bir ayrım yapmayacağız. Bir ayrım olduğunda, bunun önüne belirli bir logo ekleyeceğiz.
 
 
-**N.B.**: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe] (https://planb.network/resources/glossary) başvurunuz.
+**N.B.**: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe](https://planb.academy/resources/glossary) başvurunuz.
 
 
 
@@ -138,7 +138,7 @@ Bu düzenlemenin avantajı, kablolamanın basitliği ve herhangi bir merkezi eki
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/tr/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Bu hiyerarşik düzen, sorumlulukların net bir şekilde bölünmesi ve bölüml
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/tr/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Bus topolojisinin ana avantajı, basitleştirilmiş kablolama sayesinde düşük
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/tr/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Bu düzen yönetim ve bakımı kolaylaştırır: bir çevresel cihaz arızalanı
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/tr/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Buradaki değiş tokuş, kurulacak bağlantı sayısının terminal sayısıyla 
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/tr/005.webp)
 
 
 
@@ -240,8 +240,8 @@ Bu protokollerin yönetimi ve gelişimi ***Internet Mimarisi Kurulu*** (IAB) tar
 Bu organizasyon teknik yönelimleri iki ana yapı üzerinden koordine etmektedir:
 
 
-- IRTF** (_Internet Research Task Force_), protokol gelişimi ve iyileştirilmesi üzerine uzun vadeli araştırmalar yürütmektedir.
-- IETF** (_Internet Engineering Task Force_), İnternet üzerinde kullanılan operasyonel protokolleri geliştirir, standartlaştırır ve belgeler
+- **IRTF** (_Internet Research Task Force_), protokol gelişimi ve iyileştirilmesi üzerine uzun vadeli araştırmalar yürütmektedir.
+- **IETF** (_Internet Engineering Task Force_), İnternet üzerinde kullanılan operasyonel protokolleri geliştirir, standartlaştırır ve belgeler
 
 
 Ağ kaynaklarının (IP Address aralıkları, otonom sistem numaraları, kök alan adları, vb.) dağıtımı uluslararası olarak **IANA/ICANN** tarafından koordine edilir. Operasyonel yönetim şunlara dayanır: **RIR** (*Bölgesel İnternet Kayıt Kuruluşları*): **RIPE NCC** (Avrupa, Orta Doğu, Orta Asya), **ARIN**, **APNIC**, **LACNIC** ve **AFRINIC**.
@@ -263,7 +263,7 @@ TCP/IP modelinin dört katmanı şunlardır:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/tr/006.webp)
 
 
 
@@ -283,11 +283,11 @@ TCP/IP yığınının her bir Layer'i belirli hizmetler sunarak Address'ün fark
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## IPv5 QoS protokolü
 
@@ -354,9 +354,9 @@ Fiziksel düzeyde iletim, düğümler arasında noktadan noktaya bağlantılar k
 Üç ağ yapılandırması Elements bir paketin yoluna nasıl gönderileceğini belirler:
 
 
-- IP Address**: ağdaki hedef ana bilgisayarı benzersiz bir şekilde tanımlar.
-- Alt ağ maskesi**: Address'ün hangi kısmının ağı, hangi kısmının ana bilgisayarı tanımladığını belirtir ve mantıksal olarak alt ağlara bölünmeyi sağlar.
-- Ağ geçidi**: paketin harici bir ağa veya yerel ağın başka bir segmentine ulaşmak için geçmesi gereken ara yönlendiriciyi belirtir.
+- **IP Address**: ağdaki hedef ana bilgisayarı benzersiz bir şekilde tanımlar.
+- **Alt ağ maskesi**: Address'ün hangi kısmının ağı, hangi kısmının ana bilgisayarı tanımladığını belirtir ve mantıksal olarak alt ağlara bölünmeyi sağlar.
+- **Ağ geçidi**: paketin harici bir ağa veya yerel ağın başka bir segmentine ulaşmak için geçmesi gereken ara yönlendiriciyi belirtir.
 
 
 İnternette, veriler sürekli bir akış olarak akmaz, ancak **datagramlar** olarak gönderilir: her biri teslimat için gerekli tüm bilgilerle kapsüllenmiş bağımsız veri blokları. Bu, bilginin aynı alıcıya ulaşmak için farklı yollar izleyebilecek bağımsız birimlere bölündüğü **paket anahtarlama** ilkesidir.
@@ -381,16 +381,16 @@ Bir IP datagramının, iletim kapasitesi datagramın kendisinden daha küçük o
 Her ağ teknolojisi, donanım ve protokol özellikleri tarafından belirlenen kendi MTU'sunu uygular. Ortak değerler şunları içerir:
 
 
-- ARPANET**: 1000 bayt
-- Ethernet**: 1500 bayt
-- FDDI**: 4470 bayt
+- **ARPANET**: 1000 bayt
+- **Ethernet**: 1500 bayt
+- **FDDI**: 4470 bayt
 
 
 Bir datagram, geçmesi gereken bir ağ segmentinin MTU'sunu aştığında, yönlendirme ekipmanı onu sınıra uyan daha küçük **parçalara** böler. Bu genellikle yüksek MTU'lu bir ağdan daha düşük kapasiteli bir ağa geçerken olur. Örneğin, bir FDDI ağından gelen bir datagramın Ethernet segmenti üzerinden gönderilmeden önce parçalanması gerekebilir.
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/tr/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Bir mesaj gönderildiğinde, TCP/IP yığınının dört katmanından geçer. He
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/tr/008.webp)
 
 
 
@@ -442,21 +442,21 @@ Varışta işlem tersine döner: alıcı makine çerçeveyi Ağ Erişimi Layer'd
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/tr/009.webp)
 
 
 
 Her bir Layer'deki verilerin dönüşümü şu şekilde özetlenebilir:
 
 
-- Mesaj**: Uygulama Layer'teki bilgi bloğu.
-- Segment**: Aktarım Layer tarafından kapsüllendikten sonraki veri birimi.
-- Datagram**: İnternet Layer tarafından IP başlığının eklenmesinin ardından alınan biçim.
-- Çerçeve**: Ağ Erişim Layer tarafından fiziksel ortam üzerinden iletime hazır son blok.
+- **Mesaj**: Uygulama Layer'teki bilgi bloğu.
+- **Segment**: Aktarım Layer tarafından kapsüllendikten sonraki veri birimi.
+- **Datagram**: İnternet Layer tarafından IP başlığının eklenmesinin ardından alınan biçim.
+- **Çerçeve**: Ağ Erişim Layer tarafından fiziksel ortam üzerinden iletime hazır son blok.
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/tr/010.webp)
 
 
 
@@ -475,8 +475,8 @@ IPv4'te, bir IP Address **32 bit** üzerinde kodlanır ve bilinen N1.N2.N3.N4 fo
 Bir IP Address'ın iki bölümü vardır:
 
 
-- _netid_**: ana bilgisayarın ait olduğu ağı tanımlar
-- _hostid_**: bu ağ içindeki belirli bir ana bilgisayarı tanımlar
+- **netid**: ana bilgisayarın ait olduğu ağı tanımlar
+- **hostid**: bu ağ içindeki belirli bir ana bilgisayarı tanımlar
 
 Bu ayrım, küresel internetin mantıksal olarak birbirine bağlı birçok ağ şeklinde yapılandırılmasını sağlar.
 
@@ -507,16 +507,16 @@ Kullanılabilir adreslerin sayısı sınıflar arasında büyük farklılıklar 
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/tr/011.webp)
 
 
 
 Bazı Address aralıkları özel kullanım için ayrılmıştır ve asla doğrudan İnternet'e yönlendirilmez. Bunlar **özel adresler** olarak bilinir ve kuruluşların, işletmelerin veya evlerin içinde kullanılır ve genel İnternet'e ulaşmak için Address çevirisi, tipik olarak NAT (*Network Address Translation*) gerektirir. Bunlar şunlardır:
 
 
-- Sınıf A**: 10.0.0.0 ila 10.255.255.255 arası
-- Sınıf B**: 172.16.0.0 ile 172.31.255.255 arası
-- Sınıf C**: 192.168.0.0 ila 192.168.255.255 arası
+- **Sınıf A**: 10.0.0.0 ila 10.255.255.255 arası
+- **Sınıf B**: 172.16.0.0 ile 172.31.255.255 arası
+- **Sınıf C**: 192.168.0.0 ila 192.168.255.255 arası
 
 
 Özel bir Address'e sahip bir cihaz İnternet'e eriştiğinde, NAT özellikli bir yönlendirici veya ağ geçidi bunu geçerli bir genel Address ile değiştirir.
@@ -540,9 +540,9 @@ Address kullanımını optimize etmek ve karmaşık ağlar tasarlamak için **su
 Her sınıfın varsayılan bir maskesi vardır:
 
 
-- 255.a sınıfı için 0.0.0**,
-- 255.255.0.0** B sınıfı için,
-- 255.255.255.0** C sınıfı için.
+- 255.a sınıfı için 0.0.0.0,
+- **255.255.0.0** B sınıfı için,
+- 255.255.255.0 **C sınıfı için.**
 
 
 İyi bir ağ tasarımı temel bir kuralı takip eder: doğrudan iletişim kurması gereken cihazlar aynı ağda veya alt ağda olmalıdır. Bir ağı bölümlere ayırmak için, daha spesifik bir maske kullanarak bir ağı daha küçük alt ağlara bölen alt ağ oluşturmayı kullanırız.
@@ -561,7 +561,7 @@ Her biri 60 ana bilgisayara kadar 4 alt ağ istiyoruz.
 **Adım 2**: 2 ≥ 62'nin en yakın kuvvetini bulun. -> 2⁶ = 64.
 
 
-**Adım 3: Maskeyi ayarlayın. Netid_ bitlerini saklayın ve gerekli _hostid_ bitlerini ayırın. Dönüştürüldüğünde **255.255.255.192** değerini veren ikili bir maske elde ederiz.
+**Adım 3: Maskeyi ayarlayın. Netid bitlerini saklayın ve gerekli hostid bitlerini ayırın. Dönüştürüldüğünde** 255.255.255.192 **değerini veren ikili bir maske elde ederiz.**
 
 
 ```
@@ -585,7 +585,7 @@ Her biri 60 ana bilgisayara kadar 4 alt ağ istiyoruz.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/tr/012.webp)
 
 
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## TCP protokolü
 
@@ -662,7 +662,7 @@ https://planb.network/tutorials/computer-security/communication/angry-ip-scanner
 
 
 
-TCP protokolü** (_Transmission Control Protocol_) TCP/IP modelinin TRANSPORT Layer'sinde merkezi bir rol oynar. Uygulamalar ve Internet Layer arasında bir köprü görevi görür ve iki uzak makine arasında güvenilir veri aktarımı sağlar.
+**TCP protokolü** (_Transmission Control Protocol_) TCP/IP modelinin TRANSPORT Layer'sinde merkezi bir rol oynar. Uygulamalar ve Internet Layer arasında bir köprü görevi görür ve iki uzak makine arasında güvenilir veri aktarımı sağlar.
 
 IP protokolü paketleri teslimatı veya sırasını garanti etmeden basitçe gönderirken, TCP veri akışının bütünlüğünü ve tutarlılığını sağlar, kayıpsız, doğru sırada ve kopyasız olarak teslim eder.
 
@@ -680,7 +680,7 @@ TCP bağlantı yönelimli bir protokoldür, yani istemci ve sunucu arasında aç
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/tr/013.webp)
 
 
 
@@ -688,7 +688,7 @@ Güvenilirliği artırmak için TCP bir zamanlayıcı kullanır: bir segment gö
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/tr/014.webp)
 
 
 
@@ -711,7 +711,7 @@ Exchange sıra senkronizasyonu, iki kişinin iletişim kurmak için birbirini se
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/tr/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Pratik anlamda, kayan pencere, her bir segment onaylanmadan gönderici ve alıc�
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/tr/016.webp)
 
 
 
@@ -751,7 +751,7 @@ IP'nin esnek yönlendirmesi ile TCP'nin sıkı kontrolünü birleştiren bu hass
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/tr/017.webp)
 
 
 
@@ -787,20 +787,20 @@ Her bir Layer, bir altındakinin yetenekleri üzerine inşa edilir ve sırayla y
 Bu alışverişlerde iki temel husus geçerlidir:
 
 
-- Dikey yön**: bir Layer ile üstündeki veya altındaki arasındaki ilişki (Layer N'den Layer N+1'e veya tam tersi).
+- **Dikey yön**: bir Layer ile üstündeki veya altındaki arasındaki ilişki (Layer N'den Layer N+1'e veya tam tersi).
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/tr/018.webp)
 
 
 
 
-- Yatay yön**: uzak uygulamalar arasındaki etkileşim, yani bir **istemci** ile bir **sunucu** arasındaki diyalog, her iki yönde de.
+- **Yatay yön**: uzak uygulamalar arasındaki etkileşim, yani bir **istemci** ile bir **sunucu** arasındaki diyalog, her iki yönde de.
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/tr/019.webp)
 
 
 
@@ -810,10 +810,10 @@ Katmanlı mimari, her Layer'nın yalnızca kendi kapsamındaki bilgileri işleme
 **Hatırlatma**: Katmanlar arasında değiş tokuş edilen veri birimlerini tanımlamak için özel terminoloji kullanılır:
 
 
-- gW-67 Uygulaması için mesaj**,
-- taşıma Layer (TCP) için segment**,
-- i̇nternet Layer (IP) için datagram**,
-- ağ Erişimi Layer için çerçeve**.
+- gW-67 Uygulaması için mesaj,
+- taşıma Layer (TCP) için **segment**,
+- İnternet Layer (IP) için **datagram**,
+- **Ağ Erişimi Layer için çerçeve**.
 
 
 Aşağıdaki tablo TCP ve UDP bağlamları için terimleri özetlemektedir:
@@ -836,7 +836,7 @@ TCP/IP modeli, yatay yönü (dağıtık uygulamalar arasındaki iletişim) dikey
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/tr/020.webp)
 
 
 
@@ -885,8 +885,8 @@ IP Address, bir cihazdaki her **ağ Interface**'e atanan benzersiz bir sayısal 
 IP adresleri iki ana şekilde atanabilir:
 
 
-- Statik**: Cihaz üzerinde manuel olarak ayarlanır.
-- Dinamik**: Bir DHCP (_Dinamik Ana Bilgisayar Yapılandırma Protokolü_) sunucusu tarafından isteğe bağlı olarak otomatik olarak atanır. DHCP ağ yönetimini basitleştirir, manuel yapılandırma ihtiyacını ortadan kaldırırken rezervasyonlar ve kira süreleri aracılığıyla hassas kontrol sağlar.
+- **Statik**: Cihaz üzerinde manuel olarak ayarlanır.
+- **Dinamik**: Bir DHCP (_Dinamik Ana Bilgisayar Yapılandırma Protokolü_) sunucusu tarafından isteğe bağlı olarak otomatik olarak atanır. DHCP ağ yönetimini basitleştirir, manuel yapılandırma ihtiyacını ortadan kaldırırken rezervasyonlar ve kira süreleri aracılığıyla hassas kontrol sağlar.
 
 
 **IPv4** adresleri **32-bit** formatında **dört bayta** bölünmüş olarak yazılır. Her bayt 8 bit içerir ve 0 ila 255 arasında bir ondalık sayıyı temsil eder. 4 bayt, net ve okunaklı bir gösterim oluşturmak için noktalarla ayrılmıştır.
@@ -896,7 +896,7 @@ IP adresleri iki ana şekilde atanabilir:
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/tr/021.webp)
 
 
 
@@ -944,10 +944,10 @@ Yönlendiriciler bu adresleri okuyarak paketin hedefe ulaşana kadar gönderilec
 Bir IPv4 Address'nin iki bölümü vardır:
 
 
-- NetID**: ağı tanımlar
-- HostID**: bu ağ içindeki bir cihazı tanımlar
+- **NetID**: ağı tanımlar
+- **HostID**: bu ağ içindeki bir cihazı tanımlar
 
-Alt ağ maskesi** NetID'nin nerede bittiğini ve HostID'nin nerede başladığını belirler ve her bölüme kaç bit ait olduğunu belirtir. NetID ne kadar uzun olursa, olası alt ağların sayısı o kadar artar, ancak alt ağ başına ana bilgisayar sayısı da buna bağlı olarak azalır.
+**Alt ağ maskesi** NetID'nin nerede bittiğini ve HostID'nin nerede başladığını belirler ve her bölüme kaç bit ait olduğunu belirtir. NetID ne kadar uzun olursa, olası alt ağların sayısı o kadar artar, ancak alt ağ başına ana bilgisayar sayısı da buna bağlı olarak azalır.
 
 
 Başlangıçta, IPv4 ağları beş **sınıfa** ayrılmıştır: (A, B, C, D ve E). Her sınıf belirli bir NetID aralığına karşılık gelir ve sabit bir ayrıntı tanımlar:
@@ -972,20 +972,20 @@ Başlangıçta, IPv4 ağları beş **sınıfa** ayrılmıştır: (A, B, C, D ve 
 Özel Adresler:
 
 
-- Ağ Address**: Ağın kendisini tanımlar (yönlendirme tablolarında kullanılır).
-- Yayın Address**: Alt ağdaki tüm cihazlara aynı anda veri gönderir (tüm HostID bitleri 1 olarak ayarlanır).
+- **Ağ Address**: Ağın kendisini tanımlar (yönlendirme tablolarında kullanılır).
+- **Yayın Address**: Alt ağdaki tüm cihazlara aynı anda veri gönderir (tüm HostID bitleri 1 olarak ayarlanır).
 
 
 Aşağıdaki aralıklar dahili kullanım için ayrılmıştır:
 
 
-- 10.0.0.0/8** (Özel Sınıf A)
-- 127.0.0.0/8** (yerel geri döngü veya _loopback_)
-- 172.16.0.0 - 172.31.255.255** (özel B Sınıfı)
-- 192.168.0.0 - 192.168.255.255** (özel C Sınıfı)
+- **10.0.0.0/8** (Özel Sınıf A)
+- **127.0.0.0/8** (yerel geri döngü veya _loopback_)
+- 172.16.0.0 - 172.31.255.255 **(özel B Sınıfı)**
+- 192.168.0.0 - 192.168.255.255 **(özel C Sınıfı)**
 
 
-127.0.0.1** adresi ve daha genel olarak 127.0.0.0/8 aralığının tamamı dahili test için kullanılır: buraya gönderilen herhangi bir istek makineyi asla terk etmez. Bu, yerel bir ağ hizmetinin daha geniş bir ağı dahil etmeden çalışıp çalışmadığını kontrol etmek için kullanışlıdır.
+**127.0.0.1** adresi ve daha genel olarak 127.0.0.0/8 aralığının tamamı dahili test için kullanılır: buraya gönderilen herhangi bir istek makineyi asla terk etmez. Bu, yerel bir ağ hizmetinin daha geniş bir ağı dahil etmeden çalışıp çalışmadığını kontrol etmek için kullanışlıdır.
 
 
 Address alanını daha iyi kullanmak için, yöneticiler genellikle alt ağ maskelerini veya **CIDR** gösterimini (_Classless Inter-Domain Routing_) kullanarak ağları **alt ağlara** bölerler. CIDR daha hassas bir yönetim sağlar ve adreslerin boşa harcanmasını önlemeye yardımcı olur. Günümüzde CIDR, IP aralıklarına ince ayar yapmak ve yönlendirme tablolarının boyutunu azaltmak için gereklidir.
@@ -995,8 +995,8 @@ Modern ağlarda IP adreslemesi genellikle diğer tanımlayıcılarla eşleştiri
 
 
 
-- alan adı** bir **DNS** (_Domain Name System_) içinde kayıtlıdır: Sayısal bir IP Address'yı insan dostu bir adla ilişkilendirir.
-- MAC Address**: yerel aktarım için kullanılan ağ kartına kazınmış fiziksel bir tanımlayıcı (_Ethernet_). Bir IP paketinin fiziksel olarak iletilmesi gerektiğinde, ARP tablosu IP Address ile hedefin MAC Address'sini eşleştirir.
+- **alan adı** bir **DNS** (_Domain Name System_) içinde kayıtlıdır: Sayısal bir IP Address'yı insan dostu bir adla ilişkilendirir.
+- **MAC Address**: yerel aktarım için kullanılan ağ kartına kazınmış fiziksel bir tanımlayıcı (_Ethernet_). Bir IP paketinin fiziksel olarak iletilmesi gerektiğinde, ARP tablosu IP Address ile hedefin MAC Address'sini eşleştirir.
 
 
 IPv4 Address eksiklikleriyle başa çıkmak ve bir Layer güvenliği eklemek için, ağlar genellikle Address çevirisini (_NAT_) kullanır. NAT, birçok özel cihazın İnternet'e erişirken tek bir genel IP Address'i paylaşmasını sağlar.
@@ -1044,13 +1044,13 @@ Buna karşılık, genel adres sıkıntısına pratik bir yanıt olan özel IPv4 
 Bir başka özel kategori de **belirtilmemiş** adreslerdir. IPv4 gösterimi **0.0.0.0** veya IPv6 sürümü **::/128** "belirli bir Address yok" anlamına gelir. Böyle bir Address, bir ağ Address hedefi olarak geçersizdir, ancak bir ana bilgisayar tarafından yerel olarak "tüm arabirimler" veya "henüz atanmış Address yok" belirtmek için kullanılabilir. Bu, DHCP dinamik Assignment'de veya tüm sunucu arayüzlerini dinlemek için yaygındır.
 
 
-IPv6 ayrıca özel adreslemeyi de destekler, ancak standart genellikle birden fazla NAT katmanının istiflenmesini önlemek için genel adreslemeyi önerir. Fec0::/10** bloğunun **site-local adresleri** (_site-local_) tutarlılık ve güvenlik nedenleriyle **RFC 3879** tarafından kullanımdan kaldırılmıştır. Bunların yerini **fc00::/7** bloğunda bulunan **Benzersiz Yerel Adresler** (_ULA_) almıştır. ULA'lar, yerel benzersizliği sağlamak için rastgele oluşturulmuş 40 bitlik bir tanımlayıcı kullanarak temiz dahili yönlendirmeye sahip özel IPv6 ağlarının oluşturulmasına izin verir.
+IPv6 ayrıca özel adreslemeyi de destekler, ancak standart genellikle birden fazla NAT katmanının istiflenmesini önlemek için genel adreslemeyi önerir. **Fec0::/10** bloğunun **site-local adresleri** (*site-local*) tutarlılık ve güvenlik nedenleriyle **RFC 3879** tarafından kullanımdan kaldırılmıştır. Bunların yerini **fc00::/7** bloğunda bulunan **Benzersiz Yerel Adresler** (*ULA*) almıştır. ULA'lar, yerel benzersizliği sağlamak için rastgele oluşturulmuş 40 bitlik bir tanımlayıcı kullanarak temiz dahili yönlendirmeye sahip özel IPv6 ağlarının oluşturulmasına izin verir.
 
 
 IPv4'ün tükendiği 2011 yılında resmen teyit edildi. İnternet topluluğu, IPv4'ün ömrünü uzatmak için çeşitli stratejiler benimsedi:
 
 
-- IPv6**'ya kademeli geçiş
+- **IPv6'ya kademeli geçiş**
 - Yaygın **NAT** kullanımı
 - RIR'lerden gelen ve Address ihtiyaçlarının kesin gerekçelendirilmesini ve yönetimini gerektiren daha katı tahsis politikaları
 - Kullanılmayan veya gönüllü olarak iade edilen Address bloklarının şirketler tarafından geri alınması
@@ -1100,7 +1100,7 @@ DNS e-posta yönlendirmede de rol oynar. Örneğin, bir **MX** (_Mail Exchange_)
 Hiyerarşik, dağıtılmış yapısı sayesinde DNS, kullanıcıların uzun, teknik IP adresleri yerine net, akılda kalıcı alan adları aracılığıyla hizmetlere erişmesine olanak tanıyarak İnternet'in temel taşı olmaya devam etmektedir.
 
 
-Bir sonraki bölümde, başka bir temel kavramı keşfedeceğiz: *yerel ağların fiziksel Layer'unda veri iletimini sağlayan **MAC adresleri** olarak da bilinen *Ethernet adresleri**.
+Bir sonraki bölümde, başka bir temel kavramı keşfedeceğiz: *yerel ağların fiziksel Layer'unda veri iletimini sağlayan **MAC adresleri** olarak da bilinen **Ethernet adresleri***.
 
 
 
@@ -1183,7 +1183,7 @@ MAC Address ve IP Address'un tamamen farklı, ancak birbirini tamamlayan iki tan
 - MAC Address'in görsel örneği:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/tr/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ MAC Address ve IP Address'un tamamen farklı, ancak birbirini tamamlayan iki tan
 - Bir IP Address'nin görsel örneği:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/tr/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ IPv4 kıtlığını ele almanın yanı sıra NAT, dahili ve genel ağlar arasın
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/tr/024.webp)
 
 
 
@@ -1274,7 +1274,7 @@ NAT, özel ihtiyaçlara uyacak şekilde farklı şekillerde uygulanabilir. İki 
 **Uyarı:** Bu yöntem dahili ağı izole etse de, genel IP adresi sıkıntısını çözmez, çünkü hala açığa çıkarılacak makine sayısı kadar genel adrese ihtiyacınız vardır. Bu nedenle statik çeviri esas olarak belirli dahili kaynakların dışarıdan erişilebilir kalması gerektiğinde kullanılır (web sunucusu, posta sunucusu...).
 
 
-*öte yandan *Dinamik çeviri**, genel IP adreslerinden oluşan bir havuz kullanır. Dahili bir ana bilgisayar bir bağlantı başlattığında, yönlendirici bu genel adreslerden birini oturum süresince geçici olarak ana bilgisayarın özel Address'ine atar. Bağlantı 1'e 1'dir, ancak geçicidir: bağlantı sona erdiğinde, genel Address başka bir cihaz için kullanılabilir hale gelir. Bu nedenle Dinamik NAT, tüm makineler aynı anda çevrimiçi olmadığında gereken genel adres sayısını azaltır, ancak yine de en az maksimum eşzamanlı bağlantı sayısı kadar büyük bir harici adres bloğu gerektirir.
+Öte yandan **Dinamik çeviri**, genel IP adreslerinden oluşan bir havuz kullanır. Dahili bir ana bilgisayar bir bağlantı başlattığında, yönlendirici bu genel adreslerden birini oturum süresince geçici olarak ana bilgisayarın özel Address'ine atar. Bağlantı 1'e 1'dir, ancak geçicidir: bağlantı sona erdiğinde, genel Address başka bir cihaz için kullanılabilir hale gelir. Bu nedenle Dinamik NAT, tüm makineler aynı anda çevrimiçi olmadığında gereken genel adres sayısını azaltır, ancak yine de en az maksimum eşzamanlı bağlantı sayısı kadar büyük bir harici adres bloğu gerektirir.
 
 
 **NAT aşırı yüklemesi* veya *IP maskeleme* olarak da bilinen *Port çevirisi** (PAT) bir adım daha ileri gider: tüm özel cihazlar tek bir genel IP Address'u (veya çok az sayıda) paylaşır. Oturumları ayırt etmek için, ağ geçidi yalnızca kaynak Address'u değil, aynı zamanda kaynak bağlantı noktasını da değiştirir. Her *(özel Address, özel port)* çiftini benzersiz bir *(genel Address, genel port)* çiftine bağlayan bir tablo tutar. Bu NAT biçimi neredeyse tüm ev yönlendiricilerinde kullanılır ve düzinelerce cihazın (bilgisayarlar, akıllı telefonlar, bağlı nesneler, vb.) akıcı iletişimi korurken aynı genel IP Address'u paylaşmasına olanak tanır.
@@ -1331,7 +1331,7 @@ bunun pratikte nasıl işlediğini göstermek için aşağıdaki örneği ele al
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/tr/025.webp)
 
 
 
@@ -1379,11 +1379,11 @@ Bir sonraki bölümde, Linux altında IP Address yapılandırmasına ayrıntıl�
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Ağı `ip` ile nasıl yapılandırabilirim?
@@ -1402,7 +1402,7 @@ Ağ kurmanın teorik temellerini ele aldıktan ve IP adresleri, maskeler, yönle
 iP` bir IP Address atamanızı veya değiştirmenizi, bir maskeyi değiştirmenizi, bir Interface'ı başlatmanızı veya durdurmanızı veya herhangi bir zamanda durumunu kontrol etmenizi sağlar.
 
 
-*tüm arayüzleri (aktif olsun olmasın) görüntülemek için *TIPS:**: `ip addr show`
+**TIPS:** *tüm arayüzleri (aktif olsun olmasın) görüntülemek için* `ip addr show`
 
 
 Örnek: Statik bir Address atama ve Interface'yi etkinleştirme
@@ -1463,8 +1463,8 @@ ifdown eth2
 Yapılandırma dosyaları (RHEL benzeri):
 
 
-- /etc/sysconfig/network**: global ayarlar (NETWORKING, HOSTNAME, GATEWAY...).
-- ifcfg-**: her bir Interface'e özgü ayarlar.
+- **/etc/sysconfig/network**: global ayarlar (NETWORKING, HOSTNAME, GATEWAY...).
+- **ifcfg-**: her bir Interface'e özgü ayarlar.
 
 
 Statik örnek (ifcfg-eth0):
@@ -1500,7 +1500,7 @@ Profesyonel ortamlarda amaç, hizmet sürekliliğini garanti etmek ve/veya bant 
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/tr/026.webp)
 
 
 
@@ -1783,10 +1783,10 @@ Belirtilmemiş bir IPv6 Address `::` veya daha açık bir ifadeyle `::0.0.0.0` i
 Belirli IPv6 aralıkları açıkça ayrılmıştır ve genel adresler olarak kullanılmamalıdır. Bunların belirli teknik amaçları vardır:
 
 
-- `::/128`**: belirtilmemiş Address, hiçbir zaman kalıcı olarak bir cihaza atanmadı, ancak yapılandırma bekleyen bir makine tarafından kaynak Address olarak kullanıldı.
-- `::1/128`**: _loopback_ Address, IPv4`teki `127.0.0.1`in doğrudan eşdeğeridir ve bir makinenin Address`nin kendisine ulaşmasını sağlar.
-- 64:ff9b::/96`**: RFC 6052'de tanımlandığı gibi IPv4/IPv6 ara bağlantısını etkinleştirmek için protokol çeviricileri için ayrılmıştır.
-- `::ffff:0:0/96`**: genellikle uygulamalar tarafından dahili olarak kullanılan belirli bir IPv6 yapısında bir IPv4 Address'ü temsil etmek için uyumluluk bloğu.
+- `::/128`: belirtilmemiş Address, hiçbir zaman kalıcı olarak bir cihaza atanmadı, ancak yapılandırma bekleyen bir makine tarafından kaynak Address olarak kullanıldı.
+- `::1/128`: **_loopback_ Address**, IPv4'teki `127.0.0.1`'in doğrudan eşdeğeridir ve bir makinenin kendisine ulaşmasını sağlar.
+- **64:ff9b::/96**: RFC 6052'de tanımlandığı gibi IPv4/IPv6 ara bağlantısını etkinleştirmek için protokol çeviricileri için ayrılmıştır.
+- `::ffff:0:0/96`: genellikle uygulamalar tarafından dahili olarak kullanılan belirli bir IPv6 yapısında bir IPv4 Address'ü temsil etmek için uyumluluk bloğu.
 
 
 Bu bloklar birlikte çalışabilirliği garanti eder ve iki protokol sürümü arasında geçişi kolaylaştırır.
@@ -1801,9 +1801,9 @@ Küresel tek noktaya yayın adresleri, Address alanının yaklaşık 1/8'ini tem
 Bazı menzillerin belgelenmiş özel kullanımları vardır:
 
 
-- `2001:2::/48`**: Performans ve birlikte çalışabilirlik testleri için ayrılmıştır (RFC 5180).
-- `2001:db8::/32`**: Dokümantasyon ve örnekler için ayrılmıştır (RFC 3849).
-- `2002::/16`**: IPv6 trafiğinin bir IPv4 altyapısı üzerinden seyahat etmesini sağlayan 6to4 mekanizması için kullanılır (iki protokol arasındaki geçiş aşamasında yararlıdır).
+- `2001:2::/48`: **Performans ve birlikte çalışabilirlik testleri için ayrılmıştır (RFC 5180).**
+- `2001:db8::/32`: **Dokümantasyon ve örnekler için ayrılmıştır (RFC 3849).**
+- `2002::/16`: IPv6 trafiğinin bir IPv4 altyapısı üzerinden seyahat etmesini sağlayan 6to4 mekanizması için kullanılır (iki protokol arasındaki geçiş aşamasında yararlıdır).
 
 
 **Not:** küresel adreslerin büyük bir kısmı kullanılmadan kalmakta ve gelecekteki İnternet büyümesi için bir rezerv olarak hizmet vermektedir.
@@ -1954,7 +1954,7 @@ Otomatik yapılandırma için çeşitli yöntemler mevcuttur:
 İşte bir MAC Address'nın EUI-64'e nasıl dönüştürüleceğine dair bir örnek:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/tr/027.webp)
 
 
 
@@ -1964,8 +1964,8 @@ Bununla birlikte, cihaz takibiyle ilgili artan endişeler nedeniyle, modern işl
 IPv4'teki DHCP'de olduğu gibi, otomatik olarak atanan IPv6 adreslerinin DHCPv6 yönlendiricileri veya sunucuları tarafından tanımlanan iki yaşam süresi olabilir:
 
 
-- Tercih edilen ömür*: bu süreden sonra Address geçerli kalır, ancak artık yeni bağlantılar başlatmak için kullanılmaz;
-- Geçerli ömür*: bu süre sona erdiğinde Address, Interface yapılandırmasından tamamen kaldırılır.
+- Tercih edilen ömür: bu süreden sonra Address geçerli kalır, ancak artık yeni bağlantılar başlatmak için kullanılmaz;
+- Geçerli ömür: bu süre sona erdiğinde Address, Interface yapılandırmasından tamamen kaldırılır.
 
 
 Bu sistem, örneğin bir İSS'den diğerine sorunsuz bir geçiş sağlamak için ağ değişikliklerini dinamik olarak yönetmeyi mümkün kılar. Yönlendiriciler tarafından duyurulan ön ekin güncellenmesi ve DNS kayıtlarının paralel olarak ayarlanmasıyla, IPv6 geçişi fark edilebilir bir hizmet kesintisi olmadan gerçekleştirilebilir.
@@ -2092,7 +2092,7 @@ IPv6 tarafından tanımlanan farklı uzantı başlıklarına genel bir bakış.
 Bu başlık, eğer varsa, her zaman temel başlıktan hemen sonra yer alır. Genellikle yalnızca hedef düğüm tarafından işlenen diğer başlıkların aksine, paketin yolu boyunca her yönlendirici tarafından işlenmesi gereken bilgileri içerir. Tipik kullanımları arasında genel parametrelerin bildirilmesi veya paket ağda ilerlerken belirli işlem adımlarının talep edilmesi yer alır.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/tr/028.webp)
 
 
 #### Yönlendirme başlığı
@@ -2108,16 +2108,16 @@ Yönlendirme başlığı, paketin geçmesi gereken ara adreslerin bir listesini 
 Bu köklendirme başlığının ilk dört alanı şunlardır:
 
 
-- Sonraki Başlık**: sonraki başlığın türünü tanımlar;
-- Yönlendirme Türü**: yönlendirme yöntemini tanımlar (genellikle `0`);
-- Kalan segmentler**: geçilecek kalan segment sayısı ;
-- Address[n]**: ara adreslerin listesi.
+- **Sonraki Başlık**: sonraki başlığın türünü tanımlar;
+- **Yönlendirme Türü**: yönlendirme yöntemini tanımlar (genellikle `0`);
+- **Kalan segmentler**: geçilecek kalan segment sayısı ;
+- **Address[n]**: ara adreslerin listesi.
 
 
 "Kalan Segmentler" alanı kalan segmentlerin toplam sayısı ile başlar ve her atlamada bir azalır.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/tr/029.webp)
 
 
 #### Parçalama başlığı
@@ -2129,12 +2129,12 @@ IPv6'da, yönlendiricilerin de bunu yapabildiği IPv4'ün aksine, yalnızca kayn
 Parçalama başlığı aşağıdaki alanları içerir:
 
 
-- Kimlik**: yeniden birleştirme için benzersiz datagram tanımlayıcısı.
-- Parça Ofseti**: parçanın orijinal datagram içindeki konumu.
-- M bayrağı**: daha fazla parçanın takip edip etmediğini gösterir.
+- **Kimlik**: yeniden birleştirme için benzersiz datagram tanımlayıcısı.
+- **Parça Ofseti**: parçanın orijinal datagram içindeki konumu.
+- **M bayrağı**: daha fazla parçanın takip edip etmediğini gösterir.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/tr/030.webp)
 
 
 #### Kimlik doğrulama başlığı (AH)
@@ -2146,7 +2146,7 @@ Bu başlık, hem gönderenin gerçekliğini hem de verilerin bütünlüğünü d
 Hileli bir değişiklik girişimi durumunda, kimlik doğrulama kodu artık eşleşmez ve datagram reddedilebilir. Bu mekanizma aynı zamanda yetkisiz çoğaltmaları tespit ederek tekrar saldırılarına karşı da koruma sağlar.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/tr/031.webp)
 
 
 #### Hedef Seçenekleri Üstbilgisi
@@ -2158,7 +2158,7 @@ Bu başlık yalnızca datagramın son alıcısı için tasarlanmıştır. Ara y�
 Başlangıçta protokolde böyle bir seçenek tanımlanmamıştı. Ancak, bu başlık IPv6 tasarlanırken, gelecekteki uzantıların genel paket yapısını değiştirmeden eklenmesine izin vermek için tanıtıldı. Örneğin null seçeneği, yalnızca bellek hizalama amacıyla başlığı 8 baytın katları şeklinde doldurmak için kullanılır.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/tr/032.webp)
 
 
 IPv6 paket tasarımı, minimal bir temel başlık ile modüler uzantı başlıkları arasında net bir ayrım üzerine inşa edilmiştir. Bu mimari hem standart işlem performansını hem de protokolü geliştirmek ve güvenlik, karmaşık yönlendirme veya hizmet kalitesi mekanizmalarını entegre etmek için gereken esnekliği sağlarken gelecekteki altyapılarla uyumluluğu da korur.
@@ -2495,7 +2495,7 @@ Ortaya çıkan dosya daha sonra grafiksel bir araçta analiz edilebilir veya ba�
 Eskiden *Ethereal* olarak bilinen Wireshark, grafiksel bir Interface ile eksiksiz bir ağ analiz programıdır. Tcpdump`tan farklı olarak, protokol diseksiyonu, akış grafikleri, trafik istatistikleri ve etkileşimli filtreler dahil olmak üzere paketlerin yapılandırılmış, ayrıntılı görselleştirilmesini sağlar. Ayrıca `libpcap`e dayanır, yani `tcpdump` tarafından oluşturulan yakalama dosyalarını açabilir ve işleyebilir.
 
 
-Wireshark, Linux ve Windows dahil olmak üzere birçok işletim sisteminde kullanılabilir. Kurulumu, yakalama arayüzlerine erişmek için yönetici ayrıcalıkları gerektirir. Bir kez başlatıldığında, *Capture* menüsünden bir Interface ağı seçebilirsiniz. Başlat* düğmesine tıklandığında gerçek zamanlı paket kaydı başlar. Ekran üç bölmeye ayrılmıştır:
+Wireshark, Linux ve Windows dahil olmak üzere birçok işletim sisteminde kullanılabilir. Kurulumu, yakalama arayüzlerine erişmek için yönetici ayrıcalıkları gerektirir. Bir kez başlatıldığında, *Capture* menüsünden bir Interface ağı seçebilirsiniz. *Başlat* düğmesine tıklandığında gerçek zamanlı paket kaydı başlar. Ekran üç bölmeye ayrılmıştır:
 
 
 - yakalanan karelerin listesi ;
@@ -2504,7 +2504,7 @@ Wireshark, Linux ve Windows dahil olmak üzere birçok işletim sisteminde kulla
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/tr/033.webp)
 
 
 
@@ -2537,7 +2537,7 @@ Ethtool`un temel özelliklerinden biri, bir Interface'yi sorgulama ve mevcut öz
 - otomatik anlaşmanın etkin olup olmadığı;
 - bağlantı noktası türü (bakır, fiber, vb.);
 - bağlantı durumu (aktif veya değil) ;
-- wake-on-LAN* gibi gelişmiş özellikler için destek.
+- **wake-on-LAN** gibi gelişmiş özellikler için destek.
 
 
 Bu bilgi özellikle fiziksel bağlantı veya ana bilgisayarın ağ kartı ile bağlandığı ekipman (anahtar, yönlendirici vb.) arasındaki uyumsuz anlaşma ayarlarıyla ilgili sorunların teşhisi için kullanışlıdır.
@@ -2555,7 +2555,7 @@ Bu komut, CentOS veya RHEL tabanlı sistemlerde yaygın bir adlandırma kuralı 
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/tr/034.webp)
 
 
 
@@ -2571,7 +2571,7 @@ S` seçeneği aşağıdaki gibi parametreleri dinamik olarak yapılandırmak iç
 - bağlantı hızı (`speed`), açıkça ayarlanır (örneğin 1 Gbit/s için 1000) ;
 - dupleks modu (`duplex`), `half` veya `full`;
 - otomatik anlaşmayı etkinleştirme veya devre dışı bırakma (`autoneg`) ;
-- wake-on-LAN* (`wol`) etkinleştirilmesi;
+- **wake-on-LAN** (`wol`) etkinleştirilmesi;
 - liman tipi.
 
 
@@ -2727,13 +2727,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Her satır bir rotayı temsil eder. Anahtar alanlar şunları içerir:
 
 
-- default**: daha spesifik bir rota eşleşmediğinde kullanılan varsayılan rota.
-- via**: hedefe ulaşmak için kullanılan ağ geçidi.
-- dev**: kullanılan Interface ağı.
-- proto**: rotanın nasıl oluşturulduğu (manuel, DHCP, kernel, vb.).
-- metric**: rota maliyeti, birden fazla olası yola öncelik vermek için kullanılır.
-- scope**: rota kapsamı (örneğin, doğrudan bağlı bir rota için `link`).
-- src**: bu Interface üzerinde giden paketler için kullanılan kaynak IP Address.
+- **default**: daha spesifik bir rota eşleşmediğinde kullanılan varsayılan rota.
+- **via**: hedefe ulaşmak için kullanılan ağ geçidi.
+- **dev**: kullanılan Interface ağı.
+- **proto**: rotanın nasıl oluşturulduğu (manuel, DHCP, kernel, vb.).
+- **metric**: rota maliyeti, birden fazla olası yola öncelik vermek için kullanılır.
+- **scope**: rota kapsamı (örneğin, doğrudan bağlı bir rota için `link`).
+- **src**: bu Interface üzerinde giden paketler için kullanılan kaynak IP Address.
 
 
 #### Rota ekleme ve silme
@@ -3068,7 +3068,7 @@ host` özellikle komut satırı betiklerinde kullanıldığında hızlı kontrol
 Bir yerel ya da geniş alan ağını izlerken ya da güvenliğini sağlarken, aktif aygıtları ve açığa çıkardıkları hizmetleri tanımlamak çok önemlidir. İşte `nmap` (*Network Mapper*) aracının yaptığı da tam olarak budur.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Nmap` ile tanışın
 
@@ -3107,20 +3107,20 @@ Bu durumda, `192.168.0.0` ila `192.168.0.255` aralığındaki tüm ana bilgisaya
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/tr/035.webp)
 
 
 
 Bir yönetici çeşitli görevler için `nmap'a güvenebilir:
 
 
-- Aktif ana bilgisayarları tespit etme**: bir alt ağ içinde hangi makinelerin yanıt verdiğini belirleyin;
-- Hizmet envanteri**: yalnızca gerekli bağlantı noktalarının erişilebilir olmasını sağlayın (en az ayrıcalık ilkesi);
-- Uyumluluk kontrolü**: açık portları kuruluşun güvenlik politikasıyla karşılaştırın;
-- Güvenlik açığı önleme**: kritik makinelerde çalışan güvensiz veya güncel olmayan hizmetleri tespit edin.
+- **Aktif ana bilgisayarları tespit etme**: bir alt ağ içinde hangi makinelerin yanıt verdiğini belirleyin;
+- **Hizmet envanteri**: yalnızca gerekli bağlantı noktalarının erişilebilir olmasını sağlayın (en az ayrıcalık ilkesi);
+- **Uyumluluk kontrolü**: açık portları kuruluşun güvenlik politikasıyla karşılaştırın;
+- **Güvenlik açığı önleme**: kritik makinelerde çalışan güvensiz veya güncel olmayan hizmetleri tespit edin.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Süreç sorgulama araçları
 
@@ -3216,10 +3216,10 @@ Bu araçlar yöneticilere ağ sağlığını izlemek, trafiği analiz etmek, ba�
 Arayüzlere ve çerçevelere doğrudan görünürlük sağlayan araçlar:
 
 
-- arp / ip neigh**: IP-MAC ilişkilerini kontrol etmek veya düzeltmek için ARP/NDP önbelleğini inceleyin ve değiştirin;
-- tcpdump**: komut satırı paket yakalama, filtrelenebilir ve dışa aktarılabilir;
-- Wireshark**: derin protokol kod çözme ile grafiksel paket analizi;
-- ethtool**: Ethernet kartı fiziksel parametrelerini (hız, dupleks, WoL, vb.) sorgular ve ayarlar.
+- **arp / ip neigh**: IP-MAC ilişkilerini kontrol etmek veya düzeltmek için ARP/NDP önbelleğini inceleyin ve değiştirin;
+- **tcpdump**: komut satırı paket yakalama, filtrelenebilir ve dışa aktarılabilir;
+- **Wireshark**: derin protokol kod çözme ile grafiksel paket analizi;
+- **ethtool**: Ethernet kartı fiziksel parametrelerini (hız, dupleks, WoL, vb.) sorgular ve ayarlar.
 
 
 #### Ağ Layer
@@ -3228,10 +3228,10 @@ Arayüzlere ve çerçevelere doğrudan görünürlük sağlayan araçlar:
 IP bağlantısı, yönlendirme ve paket trafiğini değerlendirmek için araçlar:
 
 
-- ping**: ICMP ile erişilebilirliği test edin ve gecikme süresini ölçün;
-- ip route**: paket yollarını kontrol etmek için yönlendirme tablosunu inceleyin ve değiştirin;
-- traceroute**: bir hedefe giden rota boyunca yönlendiricilerin hop-by-hop tanımlanması;
-- ss**: TCP/UDP soketlerinin ve ilişkili süreçlerin ayrıntılı envanteri (netstat'ın halefi).
+- **ping**: ICMP ile erişilebilirliği test edin ve gecikme süresini ölçün;
+- **ip route**: paket yollarını kontrol etmek için yönlendirme tablosunu inceleyin ve değiştirin;
+- **traceroute**: bir hedefe giden rota boyunca yönlendiricilerin hop-by-hop tanımlanması;
+- **ss**: TCP/UDP soketlerinin ve ilişkili süreçlerin ayrıntılı envanteri (netstat'ın halefi).
 
 
 #### Taşıma ve Uygulama katmanları
@@ -3240,9 +3240,9 @@ IP bağlantısı, yönlendirme ve paket trafiğini değerlendirmek için araçla
 Hizmetleri ve süreçleri tanılamaya yönelik araçlar:
 
 
-- nslookup / dig / host**: Ad çözümlemesini doğrulamak ve kayıtları analiz etmek için DNS sorguları;
-- nmap**: saldırı yüzeyini değerlendirmek için açık portları ve maruz kalınan hizmetleri keşfedin;
-- lsof**: işlemler tarafından açılan dosyaları ve soketleri listeleyerek sistem ve ağ etkinliğini ilişkilendirir.
+- **nslookup / dig / host**: Ad çözümlemesini doğrulamak ve kayıtları analiz etmek için DNS sorguları;
+- **nmap**: saldırı yüzeyini değerlendirmek için açık portları ve maruz kalınan hizmetleri keşfedin;
+- **lsof**: işlemler tarafından açılan dosyaları ve soketleri listeleyerek sistem ve ağ etkinliğini ilişkilendirir.
 
 
 Her biri TCP/IP modelinin belirli bir aşamasıyla uyumlu olan bu araçlara hakim olmak, metodik bir yaklaşım sağlar: fiziksel Layer'den başlayarak yönlendirme ve uygulama hizmetlerine kadar. Bu uzmanlık zinciri, yöneticileri altyapılarını teşhis etme, güvenli hale getirme ve optimize etme konusunda donatarak hem ağ performansını hem de kullanılabilirliği sağlar.

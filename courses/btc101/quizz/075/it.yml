@@ -1,12 +1,9 @@
-question: Cos'è la frase mnemonica in un wallet Bitcoin?
-answer: Una lista di 12 o 24 parole che permette di accedere ai bitcoin.
+question: Qual è la tecnologia utilizzata per spendere fondi in modo sicuro utilizzando un wallet Bitcoin?
+answer: Crittografia a curva ellittica.
 wrong_answers:
-  - Una password scelta per accedere al wallet Bitcoin.
-  - Un codice per criptare le transazioni Bitcoin.
-  - Una frase segreta di recupero che distrugge il wallet Bitcoin in caso di necessità.
+  - Crittografia simmetrica.
+  - Crittografia quantistica.
+  - Crittografia RSA.
 explanation: |
-  Dal 2017, la chiave privata può essere codificata in una semplice lista
-  di 12 o 24 parole, chiamata frase mnemonica. Questa frase
-  è un backup del wallet Bitcoin, quindi permette di
-  accedere ai fondi utilizzando qualsiasi software/app che sia un wallet Bitcoin.
-reviewed: true
+  Per spendere Bitcoin, il proprietario deve utilizzare l'Algoritmo di Firma Digitale a Curve Ellittiche (ECDSA) per forgiare una firma per la propagazione di una transazione Bitcoin.
+reviewed: vero

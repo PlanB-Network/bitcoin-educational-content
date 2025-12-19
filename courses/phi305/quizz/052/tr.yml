@@ -1,0 +1,9 @@
+question: Cypherpunk manifestosunu kim yazdı?
+answer: Eric Hughes.
+wrong_answers:
+  - Timothy May.
+  - Satoshi Nakamoto.
+  - Milton Friedman.
+explanation: |
+  Eric Hughes, Cypherpunk Manifestosu'nun (1993) yazarıdır. Bu ufuk açıcı metin, dijital çağda mahremiyeti korumak için kriptografi kullanımını savunmaktadır.
+reviewed: false

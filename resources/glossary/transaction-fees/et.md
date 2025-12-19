@@ -22,4 +22,4 @@ Selles konkreetses näites oli tegemist F2Pooli kaevandamisbasseini direktori al
 
 Samuti on vaja kaaluda puhastuse piire. Suure ülekoormuse ajal puhastavad sõlmede mempoolid oma pooleliolevad tehingud, mis jäävad alla teatava künnise, et pidada kinni neile eraldatud RAMi piirist. Selle piiri valib kasutaja vabalt, kuid paljud jätavad Bitcoin Core'i vaikimisi väärtuseks 300 MB. Seda saab muuta failis `bitcoin.conf` parameetriga `maxmempool`.
 
-> ► *Inglise keeles nimetame seda "tehingutasuks"
+> ► *Inglise keeles nimetame seda "tehingutasuks"*

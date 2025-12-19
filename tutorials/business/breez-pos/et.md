@@ -1,77 +1,150 @@
 ---
-name: Breez müügipunkt
-
-description: Juhend, kuidas hakata Breez POS-i kasutades bitcoine vastu võtma
+name: Breez - POS
+description: Breez teeb bitcoin-maksete kogumise teie ettevõttele lihtsaks.
 ---
 
-![kaas](assets/cover.webp)
+![cover](assets/cover.webp)
 
-_See tekst pärineb Breez'i dokumentatsiooni veebilehelt: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
-## Mis on Breez POS?
 
-**Breez** on täisteenindusega, mittehoidmisõiguslik Lightning rakendus. Vaatame, mida see tähendab:
+Pärast COVID-19 pandeemiat on kontaktivabad digitaalsed maksed levinud isegi kõige väiksemates kauplustes. Selle aja jooksul on paljud ettevõtted avastanud bitcoini sularahalahenduste praktilisuse, mis võimaldab neil võtta vastu makseid üle kogu maailma. Siiski on need lahendused mõnikord raskesti kasutatavad või ei sobi väikestele ettevõtetele. Selles õpetuses vaatleme Breezi makseterminali, mis on lahendus, mis paistab silma oma kasutusmugavuse poolest, andes samas täieliku kontrolli bitcoinide haldamise üle.
 
-- **Lightning** on bitcoin'i maksevõrk, mis vähendab tehinguaegu minutitest millisekunditeni ja tehingutasusid mitmest dollarist mõne sendini või vähem. Lightning muudab bitcoin'i digitaalsest kullast digitaalseks valuutaks, säilitades samal ajal kõik eelised, mis teevad bitcoin'i suurepäraseks.
-- **Mittehoidmisõiguslik** tähendab, et Breez ei võta kasutajate raha oma valdusse. Paljud Lightning rakendused võtavad oma kasutajate raha valdusse. Nad on sisuliselt bitcoin'i pangad. Mittehoidmisõigusliku rakendusena nagu Breez, on kõik kasutajad omaenda pangad.
-- **Täisteenindus** tähendab, et Breez hoolitseb peaaegu kõigi tehniliste toimingute eest automaatselt ja taustal. Asjad nagu kanali loomine, sissetuleva likviidsuse ja marsruutimine jäävad varjatuks. (Kuid Breez on ka avatud lähtekoodiga, nii et need, kes on huvitatud tehnoloogia auditeerimisest, on teretulnud seda tegema!)
 
-**Breez POS** on lühend meie müügipunkti režiimist. Teisisõnu, Breez toimib nagu digitaalne kassaseade ettevõtetele ja kaupmeestele, kes soovivad vastu võtta Lightning makseid (lisaks selle "standard" režiimile, mis on nagu digitaalse versioon nahast rahakotist bitcoin'i jaoks, ja järgmise põlvkonna podcasti mängija). Vaatame nüüd, kuidas seadistada Breez'i oma ettevõtte Lightning kassaseadmeks.
 
-## Kuidas alustada Breez'iga?
+## Paigaldage Breez POS
 
-1. Esimene samm on rakenduse allalaadimine. See on saadaval Androidile ja iOS'ile (installige TestFlight ja klõpsake seadmest lingil).
-2. Breez saab end automaatselt varundada Google Drive'i, iCloud'i või mis tahes WebDav serverisse.
-   > Pange tähele, et iga seade käitab oma Lightning sõlme. Võite käitada POS režiimi nii paljudel seadmetel kui soovite, kuid saldod jäävad eraldi.
-3. Rakenduse avamisel klõpsake üleval vasakul asuval ikoonil, et leida Müügipunkti režiim.
 
-## POS seadistamine
 
-1. Klõpsake sellel ikoonil üleval vasakul ja seejärel Müügipunkt > POS Seaded.
+Breez POS on Breez wallet poolt pakutav iseteeninduse teenus. Selle teenuse kasulikkus seisneb selles, et kaupmehed saavad koguda makseid Bitcoin kaudu, jäädes samal ajal lihtsa kasutajaliidese juurde, mis on väga sarnane erinevate Lightning rahakottidega. Breez POS on saadaval [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) ja [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) allalaadimisplatvormidel.
 
-### Juhi Parool
 
-POS Seadetes on teil võimalus luua juhi parool. Juhi parool muudab Breez rakendusest väljaminevate maksete tegemise ilma loata võimatuks. Müügipersonal saab seadmest ainult makseid vastu võtta. Pange tähele, et kui kasutate seda võimalust, võiksite ka takistada juurdepääsu Breez'i varundusele, seega on soovitatav kasutada välist WebDav kontot (nt Nextcloud) selle kasutusjuhu jaoks.
 
-### Toote Nimekiri
+![download](assets/fr/01.webp)
 
-Toote nimekiri on müügiks olevate esemete kataloog ja nende hinnad. Tooteid saab nimekirja lisada kahel viisil:
 
-- Üksikute esemete sisestamiseks klõpsake peamises POS vaates üleval Items, seejärel paremal all "+" märgil. Siin saate sisestada ühe tüüpi eseme nime, hinna (näidatud teie valitud valuuta ekvivalendis) ja SKU (unikaalne sisemine identifikaator selle tüüpi eseme jaoks; see on valikuline).
-- Mitme eseme korraga sisestamiseks klõpsake vasakus ülanurgas kalkulaatori ikoonil, seejärel "Point of Sale" > "Preferences" > "POS Settings" ja seejärel klõpsake paremal asuvatel kolmel punktil "Items List" kõrval ja seejärel "Import from CSV". See võimaldab teil importida ettevalmistatud CSV-faili, mis sisaldab teie esemete nimesid, hindu ja SKU-sid.
-### Fiat Display
 
-Breez saadab ja võtab vastu ainult bitcoine ning enamiku Lightning'i tehingute puhul, mis kipuvad olema väiksemate summade jaoks, kuvatakse summat tavaliselt Satoshi'des, tuntud ka kui satsid (1 BTC = 100,000,000 satsi). Siiski leiavad paljud kaupmehed, et on praktiline näha (ja öelda klientidele) ostu väärtust kohalikus fiat-valuutas.
+![setup](assets/fr/12.webp)
 
-Peamises POS-vaates on praegu kuvatav valuuta nähtav paremal küljel (vaikimisi on SAT). Seal on ka teiste kuvatavate valuutade rippmenüü. Valuutade lisamiseks või eemaldamiseks sellest rippmenüüst klõpsake "Point of Sale" > "Preferences" > "Fiat Currencies". Seejärel märkige lihtsalt rippmenüüs soovitud valuutad ja eemaldage märge nende eest, mida soovite jätta välja.
 
-Kuvatavad väärtused pärinevad yadiost, austatud vahetuskursi andmete allikast, ja neid uuendatakse peaaegu reaalajas. Kuid pidage meeles: olenemata hetkel kuvatavast valuutaväärtusest, on makse ise bitcoinides.
 
-### Tellimuse Vormistamine
+⚠️ Oluline on märkida, et need rakendused on veel arendamisel ja nende funktsioonide kasutamisel võib esineda mõningaid vigu. Soovitame mõõdukat kasutamist.
 
-Tellimuse koostamiseks lisage esemeid esemete loendist või sisestage lihtsalt summa klaviatuuril. Seejärel klõpsake peamises POS-vaates ülaosas nupul "Charge". Seejärel näete QR-koodi, mida klient saab skannida oma Lightning-rakendusega, mida saate otse teisest rakendusest oma seadmes jagada või mida saate vajadusel kopeerida ja kleepida.
 
-Selle koodi skannimisel või jagatud/kleebitud arve klõpsamisel näeb klient oma Lightning-rakenduses arvet ja tal on võimalus see kohe maksta ja tehing lõpetada.
 
-Kui näete kaupmehe seadmes Breez-rakenduses animatsiooni "Payment approved!", saate klõpsata printeri ikoonil, et genereerida kliendile kviitung. Kviitungiprinteri kasutamiseks Androidis proovige kasutada seda draiverit. Pange tähele, et saate printida ka varasemaid tehinguid läbi "Transactions" ekraani.
+Selle rakendusega annab Breez teile täieliku kontrolli võrgu konfiguratsioonide ja tasu seadete üle, tagades samal ajal teie suveräänsuse oma bitcoinide haldamisel.
 
-### Müügiaruanne
 
-Oma müügi igapäevase/nädalase/kuise aruande vaatamiseks (raamatupidamise eesmärkidel või muul põhjusel) klõpsake ikoonil vasakus ülanurgas ja seejärel klõpsake "Transactions". Klõpsake aruande kuvamiseks aruande ikoonil ja valitud kuupäevavahemiku muutmiseks kalendri ikoonil.
 
-### Tehingute Eksportimine
+Breez wallet erinevaid võimalusi saate uurida, järgides meie allolevat õpetust. See samm aitab teil paremini mõista müügikoha ökosüsteemi ja võtta kasutusele parimad tavad, et tõhusalt kaitsta teie seed-ga seotud bitcoin'e.
 
-Breezis saadud maksete loendi vaatamiseks klõpsake ikoonil vasakus ülanurgas ja seejärel klõpsake "Transactions". Klõpsake paremal üleval asuvatel kolmel punktil ja seejärel "Export", et eksportida saabunud maksete loend CSV-vormingus. Loendi piiramiseks teatud ajavahemikuga klõpsake kalendri ikoonil, et määrata kuupäevavahemik.
 
-### Kviitungite Printimine
 
-Müügikviitungi printimiseks klõpsake maksekinnituse dialoogis paremal üleval printimise ikoonil. Või klõpsake ikoonil vasakus ülanurgas ja seejärel klõpsake "Transactions". Leidke printimiseks müük, avage see ja klõpsake paremal üleval printimise ikoonil.
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-> Märkus: kasutage selle draiveri abil printimiseks kaasaskantavat 58mm/80mm Bluetooth/USB termoprinterit.
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-## Tahan rohkem teada saada
 
-- Lisateabe saamiseks Lightning'i ja Breezi kohta vaadake meie [blogi](https://breez.technology/blog).
-- Rohkemate tehniliste näpunäidete saamiseks, kuidas rakendusest maksimumi võtta ja tavalisi toiminguid sooritada, vaadake meie [dokumentatsiooni](https://breez.technology/documentation).
-- Kui jääte hätta ega leia vastust ühestki meie abimaterjalist, leiate meid [Telegramist](https://t.me/breez_labs) või saatke meile [e-kiri](mailto:support@breez.technology).
-- Kui soovite näha mõningaid demonstratsioonivideosid Breez POS režiimi kasutamisest, mida on teinud meie fännid ja kasutajad, [siin](https://www.youtube.com/watch?v=xxxx) on üks suurepärane lühike video ja [siin](https://www.youtube.com/watch?v=xxxx) on pikem, üksikasjalikum video.
+## Breez POS-i kasutamine
+
+
+
+Selles õpetuses keskendume jaotisele "*Müügipunkt*", et aidata teil mõista, kuidas seda maksevahendina oma ettevõttesse integreerida.
+
+
+
+Müügipunkt on Breezi portfelli lahutamatu osa ja tugineb maksete kogumiseks peamiselt Lightning Network-le.
+
+
+
+Menüüs "*Müügipunkt*" on teil otsene liides maksete kogumiseks. See on jagatud kaheks osaks:
+
+
+
+### Otsearveldus
+
+
+
+Esimene osa on otsekorralduse klaviatuur. See kasutajaliides on mugav makse kogumiseks täies mahus, kui te teate oma kliendi ostude kogusummat või kui te ei vaja oma ettevõttes kindlat tootekataloogi (nt vabakutseliste teenuste puhul).
+
+
+
+![keyboard](assets/fr/02.webp)
+
+
+
+Breez POS-i esmakordseks kasutamiseks tuleb koguda üle 2500 satoshi (praeguse vahetuskursi järgi umbes 3 eurot). See summa, mis makstakse ainult esimesel väljamaksmisel, kujutab endast maksekanali loomise kulu, et saaksite suhelda teiste Lightning Network sõlmpunktidega ning saata ja vastu võtta satoshisid.
+
+
+
+![channel_fee](assets/fr/03.webp)
+
+
+### Tootekataloog
+
+
+
+Teine osa on tootekataloog. See kasutajaliides on ideaalne, kui teil on tootekataloog eelnevalt määratletud hindadega. Siin saate oma tooteid eelnevalt konfigureerida ja seejärel kasutada neid generate arvetes, et parandada oma kassatulude jälgitavust.
+
+
+
+![items](assets/fr/04.webp)
+
+
+
+Selles kasutajaliideses saate iga kirje käsitsi konfigureerida, klõpsates nupule "**Pluss**" ja seejärel määratledes selle kirje nime, hinna ja identifikaatori.
+
+
+
+![add_items](assets/fr/05.webp)
+
+
+
+Seejärel saate selle lisada ja määrata selle koguse, et koguda sellega seotud makse.
+
+
+
+Kui teie kataloog on üsna suur, võib toodete ükshaaval lisamine muutuda keeruliseks. Selleks saate jaotises **Preferences > Point of Sale Settings** menüüst "Item list" automaatselt importida ja eksportida oma tootenimekirja CSV-failidest.
+
+
+
+![import](assets/fr/07.webp)
+
+
+
+Samas jaotises saate määrata oma välkarvete kehtivusaja. Nüüdsest alates on teie klientidel kõikide arvete puhul "N" sekundit aega makse sooritamiseks, vastasel juhul peate uue Lightning-arve uuesti koostama.
+
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+
+Juhina saate tugevdada oma bitcoinide turvalisust, lisades salasõna, mida nõutakse kõigi teie wallet-st väljuvate maksete puhul. See funktsioon on eriti kasulik, kui te ei ole ainus, kes oma väljundit haldab.
+
+
+
+![manager](assets/fr/09.webp)
+
+
+
+Menüüst **Tehingud** leiad nimekirja kõigist sinu kogutud maksetest. Saate tulemusi filtreerida ka konkreetse ajavahemiku kohta, klõpsates nupule **Kalender**.
+
+
+
+![transactions](assets/fr/10.webp)
+
+
+
+Samuti saate vaadata päevakokkuvõtet oma müügist ja kogutud kogusummast, kui klõpsate nupule **Dokument**.
+
+
+
+![summary](assets/fr/11.webp)
+
+
+
+Nüüd on teil täielik ülevaade Breezi rakenduse pakutavast müügipunktist, et integreerida Bitcoin sujuvalt teie ettevõttesse. Kui leidsite selle õpetuse kasulikuks, siis soovitame meie õpetust be-BOPi kohta, mis on e-kaubanduse platvorm, mis võimaldab teil võtta makseid bitcoinides ja teenida oma äri rahaks.
+
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

@@ -18,7 +18,7 @@ Uma ***Rede Privada Virtual*** (VPN) é um sistema que permite criar uma ligaç�
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Com base neste princípio, o [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) é um serviço VPN de código aberto desenvolvido em 2020 pela Fundação Mozilla. Está disponível em:
 
@@ -71,7 +71,7 @@ Está disponível em mais de 30 países e dispõe de mais de 500 servidores enca
 
 
 
-Pode descarregar o [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) dependendo do seu sistema operativo. Neste tutorial, vamos dar uma vista de olhos ao Mozilla VPN no sistema operativo Windows.
+Pode descarregar o [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) dependendo do seu sistema operativo. Neste tutorial, vamos dar uma vista de olhos ao Mozilla VPN no sistema operativo Windows.
 
 
 
@@ -191,4 +191,4 @@ Agora está pronto para navegar na Internet de forma segura e confidencial. Se g
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

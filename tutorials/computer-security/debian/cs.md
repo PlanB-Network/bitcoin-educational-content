@@ -17,11 +17,11 @@ Debian je svobodná distribuce GNU/Linuxu, která je známá svou robustností a
 
 
 
-- Zdarma a otevřeně**: Debian je zcela otevřený, což zaručuje transparentnost a žádné licenční poplatky.
-- Stabilita a bezpečnost**: Každé vydání prochází důkladným testováním, díky čemuž je Debian jednou z nejspolehlivějších a nejbezpečnějších distribucí na trhu.
-- Aktivní komunita**: rozsáhlá komunita a rozsáhlá dokumentace jsou vám k dispozici, kdykoli je třeba.
-- Lehký a škálovatelný**: Debian můžete nainstalovat na počítače se skromnými zdroji při zachování dobrého výkonu.
-- Rozsáhlý katalog softwaru**: v repozitářích je k dispozici více než 50 000 oficiálních balíčků.
+- **Zdarma a otevřeně**: Debian je zcela otevřený, což zaručuje transparentnost a žádné licenční poplatky.
+- **Stabilita a bezpečnost**: Každé vydání prochází důkladným testováním, díky čemuž je Debian jednou z nejspolehlivějších a nejbezpečnějších distribucí na trhu.
+- **Aktivní komunita**: rozsáhlá komunita a rozsáhlá dokumentace jsou vám k dispozici, kdykoli je třeba.
+- **Lehký a škálovatelný**: Debian můžete nainstalovat na počítače se skromnými zdroji při zachování dobrého výkonu.
+- **Rozsáhlý katalog softwaru**: v repozitářích je k dispozici více než 50 000 oficiálních balíčků.
 
 
 
@@ -35,12 +35,12 @@ Debian nabízí několik desktopových prostředí, která vyhovují vašim pot�
 
 
 
-- GNOME**: moderní, intuitivní prostředí Interface, ideální pro začátečníky. Nabízí plynulé a snadno použitelné grafické menu pro přístup k aplikacím.
-- XFCE**: lehký a rychlý, ideální pro méně výkonné počítače.
-- KDE Plasma**: vysoce přizpůsobitelné prostředí se vzhledem podobným systému Windows.
-- Cinnamon**: jednoduchý a elegantní systém Interface inspirovaný systémem Windows.
-- LXDE / LXQt**: velmi lehký, vhodný pro starší počítače.
-- MATE**: jednoduchý a klasický, blízký starému GNOME.
+- **GNOME**: moderní, intuitivní prostředí Interface, ideální pro začátečníky. Nabízí plynulé a snadno použitelné grafické menu pro přístup k aplikacím.
+- **XFCE**: lehký a rychlý, ideální pro méně výkonné počítače.
+- **KDE Plasma**: vysoce přizpůsobitelné prostředí se vzhledem podobným systému Windows.
+- **Cinnamon**: jednoduchý a elegantní systém Interface inspirovaný systémem Windows.
+- **LXDE / LXQt**: velmi lehký, vhodný pro starší počítače.
+- **MATE**: jednoduchý a klasický, blízký starému GNOME.
 
 
 
@@ -61,9 +61,9 @@ Před zahájením instalace se ujistěte, že máte následující vybavení:
 
 
 
-- Klíč USB**: pro uložení spouštěcího obrazu ISO je třeba mít k dispozici minimálně 8 GB.
-- Paměť RAM (Random Access Memory)**: 4 GB pro bezproblémovou instalaci a provoz.
-- Místo na disku**: alespoň 15 GB volného místa pro systém a aktualizace.
+- **Klíč USB**: pro uložení spouštěcího obrazu ISO je třeba mít k dispozici minimálně 8 GB.
+- **Paměť RAM (Random Access Memory)**: 4 GB pro bezproblémovou instalaci a provoz.
+- **Místo na disku**: alespoň 15 GB volného místa pro systém a aktualizace.
 
 
 
@@ -77,9 +77,9 @@ Výběr obrazu Debianu závisí na architektuře procesoru:
 
 
 
-- AMD64**: stáhněte si "live hybrid" edici ze seznamu [download] (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- ARM64**: získejte obraz DVD z oficiálních stránek [Debianu] (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- Ostatní architektury**: najděte ISO odpovídající vaší architektuře [zde](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64**: stáhněte si "live hybrid" edici ze seznamu [download](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
+- **ARM64**: získejte obraz DVD z oficiálních stránek [Debianu](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
+- **Ostatní architektury**: najděte ISO odpovídající vaší architektuře [zde](https://debian.obspm.fr/debian-cd/12.11.0/).
 
 
 
@@ -96,7 +96,7 @@ Po stažení příslušného obrazu ISO přejděte k vytvoření instalačního 
 
 
 
-- Stáhněte si Balena Etcher** z [oficiální webové stránky](https://etcher.balena.io/), poté získejte binární soubor pro svůj systém a nainstalujte jej.
+- Stáhněte si **Balena Etcher** z [oficiální webové stránky](https://etcher.balena.io/), poté získejte binární soubor pro svůj systém a nainstalujte jej.
 
 
 
@@ -106,9 +106,9 @@ Po stažení příslušného obrazu ISO přejděte k vytvoření instalačního 
 
 
 
-- Spusťte Etcher**: otevřete software a vyberte dříve stažený obraz ISO Debianu.
-- Zvolte klíč USB**: jako cíl zadejte svůj klíč (8 GB+).
-- Spustit flash**: klikněte na **Flash!** a počkejte, až se proces dokončí.
+- Spusťte **Etcher**: otevřete software a vyberte dříve stažený obraz ISO Debianu.
+- Zvolte klíč **USB**: jako cíl zadejte svůj klíč (8 GB+).
+- Spustit flash: klikněte na **Flash!** a počkejte, až se proces dokončí.
 
 
 
@@ -133,10 +133,10 @@ Spuštění instalace z klíče USB:
 
 
 
-- Úplně vypněte** počítač.
-- Restartujte počítač** a poté přejděte do systému BIOS/UEFI okamžitým stisknutím kláves `ESC`, `F2`, `F11` (nebo vyhrazené klávesy v závislosti na značce).
+- **Úplně vypněte** počítač.
+- **Restartujte počítač** a poté přejděte do systému BIOS/UEFI okamžitým stisknutím kláves `ESC`, `F2`, `F11` (nebo vyhrazené klávesy v závislosti na značce).
 - Ve spouštěcí nabídce vyberte jako spouštěcí zařízení **klíč USB**.
-- Potvrzením** klávesou Enter spustíte obraz Debianu: dostanete se na uvítací obrazovku instalátoru.
+- Potvrzením klávesou **Enter** spustíte obraz Debianu: dostanete se na uvítací obrazovku instalátoru.
 
 
 
@@ -157,9 +157,9 @@ Při zavádění systému z paměti USB nabízí uvítací obrazovka Debianu ně
 
 
 
-- Live System**: spustí Debian bez instalace, ideální pro testování prostředí.
-- Spustit instalátor**: spustí instalaci přímo na disku Hard.
-- Rozšířené možnosti instalace**: umožňuje přístup k přizpůsobeným režimům instalace.
+- **Live System**: spustí Debian bez instalace, ideální pro testování prostředí.
+- **Spustit instalátor**: spustí instalaci přímo na disku Hard.
+- **Rozšířené možnosti instalace**: umožňuje přístup k přizpůsobeným režimům instalace.
 
 
 
@@ -173,7 +173,7 @@ Chcete-li prozkoumat Debian v živém režimu, vyberte možnost **Živý systém
 
 
 
-- Volba jazyka** (volitelné)
+- **Volba jazyka** (volitelné)
 
 
 
@@ -187,7 +187,7 @@ Ze seznamu vyberte hlavní jazyk systému Debian a klikněte na tlačítko OK.
 
 
 
-- Časové pásmo** (GMT)
+- **Časové pásmo** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Vyberte jazyk a rozložení klávesnice. Pomocí vestavěného testovacího pole
 
 
 
-- Vymazat disk**: pokud máte vyhrazený oddíl, tato možnost odstraní veškerý jeho obsah.
-- Ruční vytváření oddílů**: zvolte tuto možnost a vytvářejte, měňte velikost nebo odstraňujte oddíly podle potřeby.
+- **Vymazat disk**: pokud máte vyhrazený oddíl, tato možnost odstraní veškerý jeho obsah.
+- **Ruční vytváření oddílů**: zvolte tuto možnost a vytvářejte, měňte velikost nebo odstraňujte oddíly podle potřeby.
 
 
 
@@ -244,7 +244,7 @@ Zadejte své celé jméno, název účtu a silné heslo, abyste zajistili bezpe�
 
 
 
-- Shrnutí parametrů**
+- **Shrnutí parametrů**
 
 
 
@@ -272,7 +272,7 @@ Klepnutím na **Install** zahájíte kopírování souborů a konfiguraci systé
 
 
 
-- Restart**
+- **Restart**
 
 
 
@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 Váš systém Debian je nyní nainstalován a připraven k používání pro každodenní úkoly.
 
@@ -443,4 +443,4 @@ Chcete-li se dozvědět více o Debianu a obecněji o distribucích GNU/Linuxu, 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

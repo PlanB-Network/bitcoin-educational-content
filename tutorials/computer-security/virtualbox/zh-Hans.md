@@ -10,7 +10,7 @@ ___
 
 
 
-*本教程基于 Florian Burnel 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。
+*本教程基于 Florian Burnel 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文可能有改动。*
 
 
 
@@ -59,7 +59,7 @@ ___
 
 
 
-安装 VirtualBox** 非常简单，所有 Windows 版本的安装过程都一样。首先启动刚刚下载的 VirtualBox 可执行文件，然后点击 "**下一步**"。
+安装 **VirtualBox** 非常简单，所有 Windows 版本的安装过程都一样。首先启动刚刚下载的 VirtualBox 可执行文件，然后点击 "**下一步**"。
 
 
 
@@ -73,9 +73,9 @@ ___
 
 
 
-- VirtualBox USB 支持**，使 VirtualBox 支持 USB 设备
-- VirtualBox 桥接网络**以 "桥接 "模式集成网络支持（虚拟机可直接连接到本地网络）
-- VirtualBox 仅限主机网络** 在 "仅限主机 "模式下集成网络支持（在此模式下，虚拟机只能与 Windows 11 物理主机和其他虚拟机通信）。
+- VirtualBox USB 支持，使 VirtualBox 支持 USB 设备
+- VirtualBox 桥接网络**以 "桥接" 模式集成网络支持**（虚拟机可直接连接到本地网络）
+- **VirtualBox 仅限主机网络** 在 "仅限主机 "模式下集成网络支持（在此模式下，虚拟机只能与 Windows 11 物理主机和其他虚拟机通信）。
 
 
 
@@ -95,7 +95,7 @@ ___
 
 
 
-确认后，安装将开始...然后会出现 "**您是否要安装此设备软件？选中 "**始终信任甲骨文公司的软件**"选项，然后点击 "**安装**"。VirtualBox 实际上需要在计算机上安装几个驱动程序。
+确认后，安装将开始...然后会出现 "**您是否要安装此设备软件？**"选中 "**始终信任甲骨文公司的软件**"选项，然后点击 "**安装**"。VirtualBox 实际上需要在计算机上安装几个驱动程序。
 
 
 
@@ -165,10 +165,10 @@ ___
 
 
 
-- 设置**：常规 VirtualBox 配置（默认虚拟机文件夹、更新管理、语言、NAT 网络、扩展等）。
-- 导入**：以 OVF 格式导入虚拟设备
-- 导出**：以 OVF 格式导出现有虚拟机以创建虚拟设备
-- 添加**：以标准 VirtualBox 格式（.vbox）或 XML 格式将现有虚拟机添加到 VirtualBox 清单中
+- 设置：常规 VirtualBox 配置（默认虚拟机文件夹、更新管理、语言、NAT 网络、扩展等）。
+- 导入：以 OVF 格式导入虚拟设备
+- 导出：以 OVF 格式导出现有虚拟机以创建虚拟设备
+- 添加：以标准 VirtualBox 格式（.vbox）或 XML 格式将现有虚拟机添加到 VirtualBox 清单中
 
 
 
@@ -184,16 +184,16 @@ ___
 
 
 
-**请注意，VirtualBox 支持多种操作系统，包括 Windows、Linux 和 BSD。在本例中，我将为 Windows 11 创建一个虚拟机。需要填写几个字段：
+**请注意，VirtualBox 支持多种操作系统，包括 Windows、Linux 和 BSD。在本例中，我将为 Windows 11 创建一个虚拟机。需要填写几个字段：**
 
 
 
 
 
-- Name**：虚拟机名称（这是将在 VirtualBox 中显示的名称）
-- 机器文件夹**：存储虚拟机的位置，因为将在此位置创建一个带有虚拟机名称的子文件夹
-- 类型**：操作系统类型，取决于您要安装的操作系统
-- Version**：您希望安装的系统版本，在本例中为 Windows 11，因此为 "**Windows11_64**"。
+- **Name**：虚拟机名称（这是将在 VirtualBox 中显示的名称）
+- 机器文件夹：存储虚拟机的位置，因为将在此位置创建一个带有虚拟机名称的子文件夹
+- 类型：操作系统类型，取决于您要安装的操作系统
+- **Version**：您希望安装的系统版本，在本例中为 Windows 11，因此为 "**Windows11_64**"。
 
 
 
@@ -205,7 +205,7 @@ ___
 
 
 
-根据您在上一步中选择的操作系统，**VirtualBox 会推荐分配给虚拟机的资源**。在这里，我们讨论的是希望分配给虚拟机的内存。让我们假设为 4 GB，因为 Windows 11 确实推荐使用 4 GB，但如果资源不足，请指定使用 2 GB。 **继续
+根据您在上一步中选择的操作系统，**VirtualBox 会推荐分配给虚拟机的资源**。在这里，我们讨论的是希望分配给虚拟机的内存。让我们假设为 4 GB，因为 Windows 11 确实推荐使用 4 GB，但如果资源不足，请指定使用 2 GB。**继续**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox 支持三种不同格式的虚拟 Hard 磁盘，这是与 VMware 和 
 
 
 
-- VDI**，VirtualBox 官方格式
-- VHD**，这是 Hyper-V 的官方格式，不过现在更多使用的是新的 VHDX 格式
-- VMDX** 是 VMware 的官方格式，适用于 VMware Workstation 和 VMware ESXi。
+- **VDI**，VirtualBox 官方格式
+- **VHD**，这是 Hyper-V 的官方格式，不过现在更多使用的是新的 VHDX 格式
+- **VMDX** 是 VMware 的官方格式，适用于 VMware Workstation 和 VMware ESXi。
 
 
 
@@ -273,7 +273,7 @@ VirtualBox 支持三种不同格式的虚拟 Hard 磁盘，这是与 VMware 和 
 
 
 
-要安装 Windows 11 或其他任何系统，我们都需要安装源。大多数情况下，我们使用 ISO 格式的磁盘镜像来安装操作系统。 **有必要将 Windows 11 ISO 映像加载到虚拟机的虚拟 DVD 驱动器中
+要安装 Windows 11 或其他任何系统，我们都需要安装源。大多数情况下，我们使用 ISO 格式的磁盘镜像来安装操作系统。**有必要将 Windows 11 ISO 映像加载到虚拟机的虚拟 DVD 驱动器中**
 
 
 
@@ -333,7 +333,7 @@ VirtualBox 支持三种不同格式的虚拟 Hard 磁盘，这是与 VMware 和 
 
 
 
-**请随时查看配置菜单的其他部分。
+**请随时查看配置菜单的其他部分。**
 
 
 
@@ -360,7 +360,7 @@ AMD-V is disabled in the BIOS (or by the host OS)
 
 
 
-事实上，这是正常现象，因为我的计算机**未启用虚拟化功能！要纠正这个问题，您需要重新启动计算机，访问 BIOS 并启用虚拟化。
+事实上，这是正常现象，因为我的计算机**未启用虚拟化功能**！要纠正这个问题，您需要重新启动计算机，访问 BIOS 并启用虚拟化。
 
 
 
@@ -368,7 +368,7 @@ AMD-V is disabled in the BIOS (or by the host OS)
 
 
 
-无需等待，我重新启动计算机，按下 "SUPPR "键进入华硕主板的 BIOS**（按键可能因机器而异，例如可能是 F2）。要激活虚拟化，必须启用 "SVM 模式"。同样，不同主板、不同制造商的名称也会有所变化。请查找**AMD-V**（AMD CPU）或**Intel VT-x**（Intel CPU）功能。
+无需等待，我重新启动计算机，按下 "SUPPR "键进入华硕主板的 BIOS**（按键可能因机器而异，例如可能是 F2）**。要激活虚拟化，必须启用 "SVM 模式"。同样，不同主板、不同制造商的名称也会有所变化。请查找**AMD-V**（AMD CPU）或**Intel VT-x**（Intel CPU）功能。
 
 
 
@@ -390,10 +390,10 @@ AMD-V is disabled in the BIOS (or by the host OS)
 
 
 
-- 与虚拟机配置（内存、CPU 等）相对应的 VBOX** 文件（XML 格式）
-- VBOX-PREV** 文件是先前配置的备份
-- VDI** 文件对应动态模式下的虚拟 Hard 磁盘，因此目前只有 13 GB，而其最大容量为 64 GB。
-- NVRAM** 文件包含虚拟机的 BIOS 状态，相当于物理机的非易失性内存
+- 与虚拟机配置（内存、CPU 等）相对应的 **VBOX** 文件（XML 格式）
+- **VBOX-PREV** 文件是先前配置的备份
+- **VDI** 文件对应动态模式下的虚拟 Hard 磁盘，因此目前只有 13 GB，而其最大容量为 64 GB。
+- **NVRAM** 文件包含虚拟机的 BIOS 状态，相当于物理机的非易失性内存
 
 
 

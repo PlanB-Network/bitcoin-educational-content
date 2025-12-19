@@ -1,0 +1,9 @@
+question: Kdo udržuje projekt Bitcoin Knots?
+answer: Luke Dashjr
+wrong_answers:
+  - Gavin Andresen
+  - Wladimir J. Van Der Laan
+  - Pieter Wuille
+explanation: |
+  Bitcoin Knots spravuje Luke Dashjr a slouží jako primární alternativní klient pro Bitcoin core.
+reviewed: true

@@ -1,4 +1,4 @@
-question: Quel type de clé est utilisée pour verrouiller les UTXOs sur Bitcoin ?
+question: Quel type de clé est utilisé pour verrouiller les UTXOs sur Bitcoin ?
 answer: Clé publique
 wrong_answers:
   - Clé privée

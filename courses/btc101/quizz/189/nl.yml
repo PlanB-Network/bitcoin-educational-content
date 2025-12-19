@@ -1,8 +1,8 @@
-question: hoe lost Bitcoin het Byzantijnse Generaalsprobleem op?
-answer: Door het gebruik van een Blockchain gebaseerd op Proof of Work met een zwevende moeilijkheidsgraad.
+question: Wat is Zwitsers Bitcoin loon?
+answer: Een oplossing voor amateurwinkeliers om Bitcoin te accepteren.
 wrong_answers:
-  - Door het gebruik van digitale handtekeningen.
-  - Door het gebruik van een openbare Ledger.
-  - Door het gebruik van een Proof of Stake-algoritme.
+  - Een Zwitserse bank die Bitcoin accepteert.
+  - Een Bitcoin Exchange uit Zwitserland.
+  - Een Mining bedrijf dat in Zwitserland werkt.
 explanation: >-
 reviewed: true

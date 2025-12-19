@@ -1,0 +1,9 @@
+question: 글로벌 DNS가 등장하기 전에 로컬 확인에 역사적으로 사용된 파일은 무엇인가요?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  DNS가 널리 보급되기 전에는 이름 확인이 Unix/Linux 시스템에서 정적 /etc/hosts 파일에 의존했습니다.
+reviewed: false

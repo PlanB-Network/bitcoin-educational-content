@@ -1,0 +1,9 @@
+question: अम्ब्रेल पर उपलब्ध दो Lightning Network कार्यान्वयन क्या हैं?
+answer: LND और कोर लाइटनिंग
+wrong_answers:
+  - इलेक्ट्र्स और फुलक्रम
+  - Bitcoin core और Bitcoin Knots
+  - लाइटनिंग और थंडरहब की सवारी करें
+explanation: |
+  अम्ब्रेल आपको Lightning Network के कार्यान्वयन के रूप में LND और कोर लाइटनिंग के बीच चयन करने की सुविधा देता है।
+reviewed: true

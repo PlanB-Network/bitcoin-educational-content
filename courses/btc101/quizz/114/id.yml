@@ -1,10 +1,9 @@
-question: Kapan Bitcoin pertama kali diperkenalkan ke dunia?
-answer: 31 Oktober 2008
+question: Bagaimana ketersediaan online Bitcoin?
+answer: 99.988%
 wrong_answers:
-  - 3 Januari 2009
-  - 22 November 2009
-  - 12 Desember 2010
+  - 100%
+  - 90.009%
+  - 80.17%
 explanation: |
-  Bitcoin pertama kali diperkenalkan ke dunia pada 31 Oktober 2008, ketika Satoshi
-  Nakamoto mengirimkan sebuah email ke milis cypherpunk yang berisi White Paper Bitcoin.
+  Ketersediaan online Bitcoin adalah 99.988% sejak tahun 2009.
 reviewed: true

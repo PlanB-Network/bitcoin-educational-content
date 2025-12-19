@@ -1,5 +1,5 @@
 ---
-name: लेबलिंग UTXO
+name: Labelling UTXO
 description: अपने UTXO को सही तरीके से लेबल कैसे करें?
 ---
 ![cover](assets/cover.webp)

@@ -1,8 +1,10 @@
-question: Czym są FOMO i FUD?
-answer: Emocje, które mogą prowadzić do impulsywnego i potencjalnie szkodliwego podejmowania decyzji.
+question: Jaki jest główny cel rewolucji Bitcoina według tego kursu?
+answer: Stworzenie świata, w którym ludzka suwerenność jest prawem, prywatność jest domyślnie szanowana, a pieniędzmi się nie manipuluje.
 wrong_answers:
-  - Rodzaje portfeli Bitcoin.
-  - Strategie zakupu Bitcoin.
-  - Przepisy związane z Bitcoin.
-explanation: >-
+  - Stworzenie świata, w którym prywatność nie jest prawem człowieka, a banki manipulują pieniędzmi.
+  - Stworzenie świata, w którym rządy nie mają władzy, a społeczeństwo jest chaotyczne.
+  - Stworzenie świata, w którym fizyczne pieniądze są przestarzałe.
+explanation: |
+  Tekst tego kursu sugeruje, że głównym celem rewolucji Bitcoina
+  jest stworzenie świata, w którym ludzka suwerenność jest prawem, prywatność jest domyślnie szanowana, a pieniędzmi się nie manipuluje.
 reviewed: true

@@ -1,8 +1,11 @@
-question: Ni sababu gani moja kwa nini bei ya Bitcoin inaweza kushuka kwa 10%, 20%, au hata 50% katika siku chache tu?
-answer: Awamu za soko za bullish na za bei nafuu.
+question: AMF ni nini?
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - Idadi ya watu wanaotumia mtandao.
-  - Hali ya hewa.
-  - Bei ya dhahabu.
-explanation: >-
+  - Mfuko wa Fedha wa Marekani.
+  - Muungano wa Vifaa vya Mining.
+  - Mtiririko wa Pesa Kiotomatiki.
+explanation: |
+  AMF, au Autorité des Marchés Financiers, ni Mfaransa
+  shirika ambalo linasimamia majukwaa ambapo bitcoins zinaweza kuwa
+  kununuliwa.
 reviewed: true

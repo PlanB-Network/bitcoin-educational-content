@@ -1,10 +1,10 @@
-question: Hva er kostnaden ved å kjøre en Bitcoin-node på en Raspberry Pi 4 når det gjelder strømforbruk per år?
-answer: Litt mindre enn 10€ per år
+question: Hva var utfallet av blokk-krigen i 2017?
+answer: Brukere og noder avviste det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte en oppdatering kalt SegWit
 wrong_answers:
-  - Omtrent 50€ per år
-  - Omtrent 100€ per år
-  - Omtrent 200€ per år
+  - Brukere og noder godtok det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte en oppdatering kalt SegWit
+  - Brukere og noder avviste det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte ikke noen oppdateringer
+  - Brukere og noder godtok det foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte ikke noen oppdateringer
 explanation: >-
-  Å kjøre en Bitcoin-node på en Raspberry Pi 4 koster litt mindre enn\
-  10€ per år i form av strømforbruk.
+  I blokk-krigen i 2017, triumferte brukere og noder ved å avvise det
+  foreslåtte endringsforslaget for å øke blokkstørrelsen, og aktiverte en oppdatering kalt SegWit.
 reviewed: false

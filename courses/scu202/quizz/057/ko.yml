@@ -1,0 +1,9 @@
+question: 1995년에 자바스크립트를 도입한 브라우저는 무엇인가요?
+answer: 넷스케이프 네비게이터
+wrong_answers:
+  - 인터넷 익스플로러
+  - Firefox
+  - Safari
+explanation: |
+  넷스케이프 네비게이터는 1995년 브렌단 아이히가 개발한 자바스크립트 언어를 통합하여 웹 페이지에서 동적 상호 작용을 가능하게 했습니다.
+reviewed: false

@@ -1,4 +1,4 @@
-question: Kwenye mashine ya Linux, ni zana gani inaweza kuchanganua usalama wa mfumo na generate ripoti ya kina yenye mapendekezo?
+question: Kwenye mashine ya Linux, ni zana gani inaweza kuchanganua usalama wa mfumo na kuzalisha ripoti ya kina yenye mapendekezo?
 answer: Lynis
 wrong_answers:
   - GIMP
@@ -6,4 +6,4 @@ wrong_answers:
   - Synaptic
 explanation: |
   Lynis ni zana ya kina ya ukaguzi wa usalama kwa ajili ya Linux, ambayo huchanganua mfumo kwa udhaifu na usanidi usiofaa.
-reviewed: false
+reviewed: true

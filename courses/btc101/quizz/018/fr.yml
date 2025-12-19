@@ -1,13 +1,12 @@
-question: Quelles étaient les premières formes de monnaie ?
-answer: Des biens tels que les céréales et le bétail.
+question: Quel est le principal avantage du Bitcoin par rapport aux autres formes de monnaie ?
+answer: Il offre une excellente réserve de valeur en raison de son offre strictement limitée et de sa neutralité.
 wrong_answers:
-  - L'or et l'argent.
-  - Les billets de banque.
-  - Les actifs numériques.
+  - Il est indivisible et non-transportable.
+  - C'est un excellent exemple de monnaie qui subit l'inflation monétaire.
+  - Il est largement accepté dans le commerce par tous les commerçants du monde.
 explanation: |
-  Les premières formes de monnaie étaient souvent liées à des
-  biens essentiels tels que les céréales, le bétail et d'autres
-  marchandises. Cependant, ces biens présentaient des inconvénients
-  majeurs, tels que la périssabilité, rendant difficile leur
-  utilisation comme moyen d'épargne à long terme.
+  Le principal avantage du Bitcoin par rapport aux autres formes de monnaie
+  est qu'il offre une excellente réserve de valeur en raison de son
+  offre strictement limitée et de son absence de tiers de confiance. Cela
+  en fait un bon choix pour l'épargne à long terme.
 reviewed: true

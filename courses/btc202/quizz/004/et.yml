@@ -1,0 +1,9 @@
+question: Mis on Bitcoin-sõlm?
+answer: Arvuti, millel on Bitcoin protokolli rakendav tarkvara
+wrong_answers:
+  - Hardware Wallet, mis rakendab Bitcoin võrku
+  - Miner, mis toodab uusi plokke Bitcoin jaoks
+  - Bitcoin võrku ja tehingu kinnitamist haldav keskserver
+explanation: |
+  Bitcoin-sõlm on arvuti, millel töötab tarkvara, näiteks Bitcoin core, mis rakendab protokolli ja osaleb Bitcoin-võrgus.
+reviewed: true

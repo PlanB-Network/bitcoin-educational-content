@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Verbeter uw online beveiliging met Ledger
 ---
 ![cover](assets/cover.webp)
@@ -180,4 +180,4 @@ Ik raad ook deze andere tutorial aan, waarin we kijken naar een andere oplossing
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

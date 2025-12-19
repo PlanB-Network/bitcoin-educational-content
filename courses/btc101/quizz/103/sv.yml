@@ -1,13 +1,11 @@
-question: Vad är syftet med att skapa en arvsplan för dina bitcoins?
-answer: För att säkerställa att dina bitcoins kommer att hanteras korrekt efter din död.
+question: Vad är en Blockmit i samband med Bitcoin-säkerhet?
+answer: En lågkostnadslösning för att gravera din Mnemonic-fras på en stålbit.
 wrong_answers:
-  - För att undvika skatt på dina bitcoins.
-  - För att minska värdet på dina bitcoins.
-  - För att förhindra att dina bitcoins blir stulna.
+  - En typ av Bitcoin Wallet för att signera flera transaktioner samtidigt.
+  - En lågkostnadslösning för att bryta bitcoins hemma.
+  - En typ av Bitcoin Wallet som kräver flera signaturer för att spendera UTXO:er.
 explanation: |
-  En arvsplan säkerställer att dina bitcoins kommer att hanteras
-  hanteras på rätt sätt efter din död. Den kan innehålla ett
-  handskrivet brev som beskriver dina tillgångar, deras åtkomst
-  metoder och kontaktuppgifter till betrodda personer som ska
-  som ska kontaktas.
+  Blockmit är en lågkostnadslösning för att gravera din
+  Mnemonic-fras på ett resistent material som stål, och därmed
+  säkra dina bitcoins på lång sikt.
 reviewed: true

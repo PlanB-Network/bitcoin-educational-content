@@ -1,12 +1,10 @@
-question: Qual era il numero stimato di bitcoin in circolazione dopo il primo halving?
-answer: 10.500.000 BTC.
+question: Qual è il ruolo della chiave pubblica in un wallet Bitcoin?
+answer: Viene utilizzata per generare indirizzi e quindi ricevere bitcoin.
 wrong_answers:
-  - 5.250.000 BTC.
-  - 15.750.000 BTC.
-  - 21.000.000 BTC.
+  - Viene utilizzata per criptare le transazioni Bitcoin.
+  - Viene utilizzata per accedere al wallet.
+  - Viene utilizzata per fare il backup del wallet.
 explanation: |
-  Dopo il primo halving, che si è verificato al blocco numero
-  210.000, il numero stimato di bitcoin in circolazione
-  era di 10.500.000 BTC, che rappresenta la metà del numero totale di
-  bitcoin che saranno in circolazione.
-reviewed: true
+  La chiave pubblica deriva dalla chiave privata ed è utilizzata
+  per generare indirizzi Bitcoin al fine di ricevere fondi.
+reviewed: vero

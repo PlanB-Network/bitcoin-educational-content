@@ -1,0 +1,9 @@
+question: Mnemonic 구문에서 seed을 도출하는 데 사용되는 함수는 무엇인가요?
+answer: HMAC-SHA512를 사용한 PBKDF2
+wrong_answers:
+  - SHA256 단독
+  - 더블 SHA256
+  - AES-256
+explanation: |
+  seed는 Mnemonic 구문과 passphrase에서 HMAC-SHA512 및 2048 반복이 포함된 PBKDF2 함수를 사용하여 생성됩니다.
+reviewed: false

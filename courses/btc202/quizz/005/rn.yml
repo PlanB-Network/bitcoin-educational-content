@@ -1,0 +1,9 @@
+question: Ni iyihe porogarama ihuriza hamwe ibikorwa vya Full node na Wallet?
+answer: Bitcoin core.
+wrong_answers:
+  - Sparrow wallet.
+  - Ashigaru
+  - Wallet ya Satoshi.
+explanation: |
+  Bitcoin core ikora nka Full node na Wallet, itandukanye n’izindi porogarama, zikaba ari porogarama zo gucunga Wallet gusa.
+reviewed: true

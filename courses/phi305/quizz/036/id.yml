@@ -1,0 +1,9 @@
+question: Siapakah Gilles Deleuze?
+answer: Seorang guru filsafat dari tahun 80-an, dengan spesialisasi Spinoza.
+wrong_answers:
+  - Seorang politisi.
+  - Seorang ekonom liberal.
+  - Seorang penemu.
+explanation: |
+  Gilles Deleuze (1925-1995) adalah seorang profesor filsafat Prancis pada tahun 1980-an, dan seorang spesialis Spinoza yang terkenal. Bukunya Spinoza et le problème de l'expression (Spinoza dan masalah ekspresi) memperbaharui pembacaan kita terhadap Etika.
+reviewed: false

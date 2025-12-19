@@ -1,5 +1,5 @@
 ---
-name: Kızgın IP Tarayıcı
+name: Angry IP Scanner
 description: Ağınızı taramanın basit bir yolu
 ---
 ![cover](assets/cover.webp)
@@ -26,7 +26,7 @@ Bir Windows ağını bağlı makineler için hızlı ve kolay bir şekilde nası
 
 
 
-Bu araç bireyler tarafından **yerel ağlarını** taramak için kullanılabileceği gibi BT uzmanları tarafından da aynı amaçla kullanılabilir. Bu aracın çok pratik** olduğunun kanıtı, **bazı siber suç grupları** tarafından kurumsal ağları taramak için zaten kullanılmış olmasıdır (Nmap ile aynı şekilde). İyi bir örnek [fidye yazılımı grubu RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Hala sağlam bir yazılım parçasıdır, ancak diğer ağ ve güvenlik odaklı araçlarda olduğu gibi, kullanımı kötüye kullanılabilir.
+Bu araç bireyler tarafından **yerel ağlarını** taramak için kullanılabileceği gibi BT uzmanları tarafından da aynı amaçla kullanılabilir. Bu aracın **çok pratik** olduğunun kanıtı, **bazı siber suç grupları** tarafından kurumsal ağları taramak için zaten kullanılmış olmasıdır (Nmap ile aynı şekilde). İyi bir örnek [fidye yazılımı grubu RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Hala sağlam bir yazılım parçasıdır, ancak diğer ağ ve güvenlik odaklı araçlarda olduğu gibi, kullanımı kötüye kullanılabilir.
 
 
 
@@ -34,7 +34,7 @@ Burada, **Windows 11** üzerinde kullanacağız, ancak **Windows'un** diğer sü
 
 
 
-Nmap'ten daha az kapsamlı olan **Angry IP** Scanner, hızlı, temel bir ağ analizi için hala ilginçtir, ancak aynı zamanda herkesin erişebileceği bir yerde olduğu için. Ağa bağlı ana bilgisayarları tespit edecek** ve **ana bilgisayar adlarını** ve **açık bağlantı noktalarını** belirleyecektir.
+Nmap'ten daha az kapsamlı olan **Angry IP Scanner**, hızlı, temel bir ağ analizi için hala ilginçtir, ancak aynı zamanda herkesin erişebileceği bir yerde olduğu için. Ağa bağlı ana bilgisayarları tespit edecek ve **ana bilgisayar adlarını** ve **açık bağlantı noktalarını** belirleyecektir.
 
 
 
@@ -42,7 +42,7 @@ Daha ileri gitmek isterseniz, Nmap hakkındaki eğitime bakın:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Angry IP Scanner ile çalışmaya başlama
 
@@ -84,8 +84,8 @@ Kuruluma devam etmek için yürütülebilir dosyayı çalıştırın. Kurulum s�
 
 
 
-- Besleyici**: rastgele bir IP aralığından veya IP adreslerinin listesini içeren bir dosyadan taranacak IP adreslerinin listesini oluşturmaktan sorumlu modül.
-- Getirici**: ağdaki ana bilgisayarlar hakkında bilgi almak için bir dizi modül. Örneğin, MAC adreslerini tespit etmek, portları taramak, ana bilgisayar adlarını tespit etmek veya HTTP istekleri göndermek için getiriciler vardır.
+- **Besleyici**: rastgele bir IP aralığından veya IP adreslerinin listesini içeren bir dosyadan taranacak IP adreslerinin listesini oluşturmaktan sorumlu modül.
+- **Getirici**: ağdaki ana bilgisayarlar hakkında bilgi almak için bir dizi modül. Örneğin, MAC adreslerini tespit etmek, portları taramak, ana bilgisayar adlarını tespit etmek veya HTTP istekleri göndermek için getiriciler vardır.
 
 
 
@@ -125,7 +125,7 @@ Varsayılan olarak, **Angry IP Scanner** 3 portu tarayacaktır: **80** (HTTP), *
 
 
 
-Burada, "**Port seçimi**" seçeneği aracılığıyla port listesini değiştirebilirsiniz. Virgülle ayrılmış belirli bağlantı noktası numaralarını veya bağlantı noktası aralıklarını** belirtebilirsiniz. Aşağıdaki örnekte iki bağlantı noktası eklenmiştir: **445** (SMB) ve **389** (LDAP). 1'den 1000'e kadar olan bağlantı noktalarını taramak için "**1-1000**" girin. Bağlantı noktası taramalarının TCP, UDP veya her ikisinde de gerçekleştirilip gerçekleştirilmeyeceği belirtilmez.
+Burada, "**Port seçimi**" seçeneği aracılığıyla port listesini değiştirebilirsiniz. Virgülle ayrılmış belirli bağlantı noktası numaralarını veya bağlantı noktası aralıklarını belirtebilirsiniz. Aşağıdaki örnekte iki bağlantı noktası eklenmiştir: **445** (SMB) ve **389** (LDAP). 1'den 1000'e kadar olan bağlantı noktalarını taramak için "**1-1000**" girin. Bağlantı noktası taramalarının TCP, UDP veya her ikisinde de gerçekleştirilip gerçekleştirilmeyeceği belirtilmez.
 
 
 
@@ -181,4 +181,4 @@ Grafiksel bir Interface ile **Nmap** kullanmak isterseniz, **Zenmap uygulamasın
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

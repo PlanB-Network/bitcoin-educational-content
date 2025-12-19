@@ -1,5 +1,5 @@
 ---
-name: Paraply LND
+name: Umbrel LND
 description: Avansert veiledning om installasjon og konfigurering av Lightning Network Daemon (LND) på Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ For å installere Umbrel og konfigurere Bitcoin-noden din, anbefaler vi at du f�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Sørg for at Bitcoin-noden er oppdatert og fungerer som den skal, ettersom Lightning Network er avhengig av den for alle off-chain-transaksjoner.
 
@@ -57,7 +57,7 @@ For en fullstendig teoretisk innføring i Lightning Network anbefaler vi at du t
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Dette kurset gir deg en grundig innføring i de grunnleggende konseptene i Lightning Network, før du går videre til å øve med LND-noden din.
 
@@ -154,7 +154,7 @@ Du kan velge mellom å opprette en ny node eller å gjenopprette en node fra en 
 
 
 
-**Merk: På nyere versjoner av Umbrel gir installasjonen av Lightning-appen denne seed med 24 ord (det gjør ikke selve Umbrel-noden Bitcoin).
+**Merk:** På nyere versjoner av Umbrel gir installasjonen av Lightning-appen denne seed med 24 ord (det gjør ikke selve Umbrel-noden Bitcoin).
 
 
 
@@ -213,7 +213,7 @@ Når LND er oppe og går, kan du åpne din første Lightning-kanal. Slik finner 
 
 
 
-[Amboss.space] (https://amboss.space/) er en utforsker for å finne pålitelige noder for å åpne kanaler.
+[Amboss.space](https://amboss.space/) er en utforsker for å finne pålitelige noder for å åpne kanaler.
 
 
 
@@ -221,7 +221,7 @@ Når LND er oppe og går, kan du åpne din første Lightning-kanal. Slik finner 
 
 
 
-For eksempel er [ACINQ-noden] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) en anerkjent node med utmerket tilgjengelighet og likviditetsstatistikk.
+For eksempel er [ACINQ-noden](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) en anerkjent node med utmerket tilgjengelighet og likviditetsstatistikk.
 
 
 
@@ -229,7 +229,7 @@ For eksempel er [ACINQ-noden] (https://amboss.space/node/03864ef025fde8fb587d989
 
 
 
-For denne opplæringen åpner vi en kanal med [Swiss Bitcoin Pay] (https://amboss.space/node/03c181e13a09a649c13f60ea3ddbeefc66123c43280da8eebc19f54445f35173ca). Informasjonen som kreves for tilkobling (pubkey@ip:port) er gitt på deres Amboss-side.
+For denne opplæringen åpner vi en kanal med [Swiss Bitcoin Pay](https://amboss.space/node/03c181e13a09a649c13f60ea3ddbeefc66123c43280da8eebc19f54445f35173ca). Informasjonen som kreves for tilkobling (pubkey@ip:port) er gitt på deres Amboss-side.
 
 
 
@@ -454,9 +454,9 @@ Disse alternativene er ikke obligatoriske, og Tor + Zeus-løsningen fungerer bra
 
 
 > **Nyttige ressurser:**
-> - [Zeus Documentation - Umbrel Connection] (https://community.umbrel.com/t/zeus-LN-mobile/7619) - Offisiell guide til hvordan du kobler Zeus til Umbrel
+> - [Zeus Documentation - Umbrel Connection](https://community.umbrel.com/t/zeus-LN-mobile/7619) - Offisiell guide til hvordan du kobler Zeus til Umbrel
 > - [Zeus GitHub](https://github.com/ZeusLN/zeus) - Zeus-prosjektet med åpen kildekode
-> - [Umbrel Community - Tilkobling av Zeus via Tailscale] (https://community.umbrel.com/t/how-to-use-tailscale-with-umbrel/6782) - Guide til hvordan du kobler Zeus til Umbrel ved hjelp av Tailscale
+> - [Umbrel Community - Tilkobling av Zeus via Tailscale](https://community.umbrel.com/t/how-to-use-tailscale-with-umbrel/6782) - Guide til hvordan du kobler Zeus til Umbrel ved hjelp av Tailscale
 
 ## 5. Sikkerhet og beste praksis
 
@@ -496,11 +496,11 @@ Lightning Umbrel-noden krever to typer sikkerhetskopier:
 
 - Inneholder informasjon om Lightning-kanalen
 - Muliggjør tvungen stenging av kanaler i tilfelle krasj
-- Viktig:** Aldri lagre filen `channel.db` manuelt (risiko for bøter)
+- **Viktig:** Aldri lagre filen `channel.db` manuelt (risiko for bøter)
 
 
 
-**Manuell sikkerhetskopieringsprosedyre
+**Manuell sikkerhetskopieringsprosedyre**
 
 
 
@@ -613,17 +613,17 @@ Hvis du vil vite mer om hvordan du konfigurerer og bruker vakttårn, anbefaler v
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Annen beste praksis
 
 
 
 
 
-- Programvareoppdateringer:** Hold Umbrel og LND oppdatert (sikkerhetsoppdateringer)
-- Maskinvarebeskyttelse:** Bruk et stabilt system (Raspberry Pi med SSD, mini-PC) og en UPS
-- Nettverkssikkerhet:** Behold standard Tor-konfigurasjon, endre Umbrel-administratorpassordet (standard: "moneyprintergobrrr")
-- Kryptering:** Aktiver diskkryptering hvis mulig
+- **Programvareoppdateringer:** Hold Umbrel og LND oppdatert (sikkerhetsoppdateringer)
+- **Maskinvarebeskyttelse:** Bruk et stabilt system (Raspberry Pi med SSD, mini-PC) og en UPS
+- **Nettverkssikkerhet:** Behold standard Tor-konfigurasjon, endre Umbrel-administratorpassordet (standard: "moneyprintergobrrr")
+- **Kryptering:** Aktiver diskkryptering hvis mulig
 
 
 
@@ -691,10 +691,10 @@ RTL er en komplett "sveitserkniv" for administrasjon av en Lightning-node med en
 
 
 
-- Lightning Shell** : Kommandolinje (lncli) via nettleser
-- BTC RPC Explorer og Mempool** : Overvåking Blockchain
-- LNmetrics og Torq**: Analyse av rutingytelse
-- Amboss & 1ML**: "Sosial" administrasjon av noden din (aliaser, kontakter, nettverksanalyse)
+- **Lightning Shell**: Kommandolinje (lncli) via nettleser
+- **BTC RPC Explorer og Mempool**: Overvåking Blockchain
+- **LNmetrics og Torq**: Analyse av rutingytelse
+- **Amboss & 1ML**: "Sosial" administrasjon av noden din (aliaser, kontakter, nettverksanalyse)
 
 
 
@@ -709,7 +709,7 @@ Disse verktøyene kan installeres med bare noen få klikk via Umbrel App Store, 
 
 - [ThunderHub.io - Funksjoner](https://thunderhub.io) - Oversikt over ThunderHub-funksjoner
 - [Ride The Lightning (RTL) info](https://www.ridethelightning.info/) - RTL-dokumentasjon
-- [David Kaspar - Rebalance via ThunderHub] (https://blog.davidkaspar.com) - En praktisk guide til rebalansering
+- [David Kaspar - Rebalance via ThunderHub](https://blog.davidkaspar.com) - En praktisk guide til rebalansering
 - [Guide "Managing Lightning Nodes"](https://github.com/openoms/lightning-node-management) - Avansert dokumentasjon for strømbrukere
 
 

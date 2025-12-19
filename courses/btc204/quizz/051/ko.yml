@@ -1,0 +1,9 @@
+question: BIP47에 비해 자동 결제의 단점은 무엇인가요?
+answer: 수신기는 거의 전체 Blockchain을 스캔해야 합니다.
+wrong_answers:
+  - 발신자의 거래 수수료가 generate 높아집니다.
+  - 가능한 거래 횟수를 제한합니다.
+  - 익명성이 덜합니다.
+explanation: |
+  알림 거래에 앞서 Exchange에서 수신자는 표준을 준수하는 모든 Bitcoin 거래를 스캔하여 해당 거래로 전달된 결제를 찾아야 합니다.
+reviewed: true

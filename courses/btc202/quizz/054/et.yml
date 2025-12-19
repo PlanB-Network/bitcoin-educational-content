@@ -1,0 +1,9 @@
+question: Millise Bitcoin core versiooniga võeti kasutusele Ultraprune'i mudel?
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  Alates versioonist 0.8.0 ei kasuta Bitcoin core enam globaalset indeksit, vaid otse UTXO komplekti tänu Ultraprune'ile.
+reviewed: true

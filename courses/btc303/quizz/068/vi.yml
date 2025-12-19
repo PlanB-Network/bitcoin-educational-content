@@ -1,0 +1,9 @@
+question: Khi thợ đào kết nối với nhóm mining có băng thông và khả năng kết nối lớn hơn để tránh các khối cũ trong thời gian kích thước khối tăng lên, hậu quả tiêu cực chính đối với mạng Bitcoin là gì?
+answer: Nó làm giảm sự phân cấp của mining khi các thợ đào nhỏ hơn được đẩy về phía các nhóm lớn hơn với cơ sở hạ tầng vượt trội
+wrong_answers:
+  - Nó làm tăng độ khó tính toán của các phép toán mining khiến các khối trở nên khó giải hơn
+  - Nó tạo ra các khoản phí giao dịch bổ sung phải trả để duy trì kết nối mạng
+  - Nó làm giảm tổng tốc độ băm của mạng vì thợ đào dành tài nguyên cho kết nối thay vì mining
+explanation: |
+  Chương này giải thích rằng khi kích thước khối tăng, thời gian lan truyền cũng tăng, dẫn đến nhiều khối cũ hơn. Để tránh mất phần thưởng khối từ các khối cũ, thợ đào tìm kiếm các nhóm có băng thông và kết nối tốt hơn. Điều này thúc đẩy thợ đào hướng đến các nhóm lớn hơn, được kết nối tốt hơn, làm giảm tính phi tập trung của mining. Các lựa chọn khác là không chính xác: độ khó tự động điều chỉnh bất kể kết nối nhóm, chi phí kết nối không tạo thêm phí giao dịch, và thợ đào không giảm tỷ lệ băm khi tham gia các nhóm được kết nối tốt hơn.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Trong giao dịch hoán đổi tàu ngầm Lightning Send, yếu tố mã hóa cụ thể nào cho phép nhà cung cấp dịch vụ hoán đổi yêu cầu số tiền Liquid bị khóa sau khi thanh toán hóa đơn Lightning?
+answer: Ảnh chụp trước của giao dịch thanh toán Lightning đóng vai trò là khóa mã hóa để mở khóa số tiền Liquid được ký quỹ.
+wrong_answers:
+  - Chữ ký hợp đồng khóa thời gian băm được tạo ra trong giao dịch khóa Liquid ban đầu cung cấp quyền truy cập.
+  - Siêu dữ liệu kết nối WebSocket chứa khóa mở khóa cho phép giải ngân tiền cho nhà cung cấp.
+  - "Khóa riêng của nhà cung cấp dịch vụ hoán đổi sẽ tự động mở khóa số tiền ngay sau khi nhận được xác nhận thanh toán Lightning."
+explanation: |
+  Bản sao tiền thanh toán là biên lai mật mã chứng minh giao dịch thanh toán Lightning đã được hoàn tất thành công. Trong các giao dịch hoán đổi ngầm (submarine swap), bản sao tiền này đóng vai trò là khóa mở khóa cho số tiền Liquid được ký quỹ, đảm bảo tính nguyên tử - nhà cung cấp giao dịch hoán đổi chỉ có thể nhận được số tiền Liquid nếu họ thực sự đã thanh toán hóa đơn Lightning. Các tùy chọn khác mô tả các yếu tố mật mã chung chung không cung cấp bằng chứng thanh toán cụ thể cần thiết, hoặc các cơ chế không chính xác có thể làm tổn hại đến tính chất không cần tin tưởng của giao dịch hoán đổi nguyên tử.

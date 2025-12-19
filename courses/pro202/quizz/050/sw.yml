@@ -1,0 +1,8 @@
+question: Wakati nodi ya Bitcoin inapoanza na kujiunga na mtandao kwa mara ya kwanza, ni utaratibu gani mkuu unaotumia kugundua rika zinazofanya kazi?
+answer: Mbegu za DNS zilizosimbwa kwa njia ngumu zinazodumishwa na watengenezaji wakuu ili kupokea IP za wenzao wanaofanya kazi
+wrong_answers:
+  - Hutangaza ujumbe wa ugunduzi kwa anwani zote za IP katika safu za mtandao mdogo zilizofafanuliwa awali
+  - Huunganisha kwenye seva kuu ya usajili ambayo huhifadhi orodha ya nodi zote zinazotumika
+  - Hutumia itifaki ya DHT (Jedwali la Hash Lililosambazwa) ili kupata wenzao kupitia uelekezaji unaotegemea hashi
+explanation: |
+  Bitcoin hutumia mbegu za DNS zenye msimbo mgumu kama utaratibu wa bootstrap kwa sababu hutoa njia ya kugawanyika kwa nodi mpya kuingia kwenye mtandao bila kutegemea mamlaka kuu. Mbegu za DNS huhifadhiwa na watengenezaji wakuu na hurejesha anwani za IP za wenzao wanaofanya kazi kwa sasa. Mara tu zinapounganishwa, nodi zinaweza kutumia amri ya getaddr kugundua wenzao wengine. Majibu yasiyo sahihi yanaelezea mbinu au itifaki za kati ambazo hazijatumiwa na Bitcoin - hakuna sajili kuu, hakuna utangazaji wa mtandao mdogo, na hakuna ugunduzi wa wenzao unaotegemea DHT katika muundo wa Bitcoin.

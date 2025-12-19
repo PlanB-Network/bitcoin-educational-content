@@ -1,8 +1,8 @@
-question: Ni ibihe bintu bikurikira vyatumye Bitcoin ikoreshwa cane mu masoko y’urubuga rw’umwiza nka Silk Road?
-answer: Kamere yayo idashobora gucungera kandi ifise izina ry’ikinyoma.
+question: Bitcoin itorera umuti gute Ingorane y’Abajenerali b’Abanyabizantine?
+answer: Biciye mu gukoresha Blockchain ishingiye kuri Proof of Work ifise ingorane yo kureremba.
 wrong_answers:
-  - Ubugenzuzi bwayo bushingiye hagati.
-  - Ugukurikirana kwayo n’ukuntu ishobora kugenzurwa.
-  - Kubura izina ry’uruyeri ryayo.
+  - Biciye mu gukoresha imikono y’ubuhinga bwa none.
+  - Biciye mu gukoresha Ledger ya bose.
+  - Biciye mu gukoresha ubuhinga bw’Ikimenyamenya c’Igiti.
 explanation: >-
 reviewed: true

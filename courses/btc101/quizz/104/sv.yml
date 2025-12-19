@@ -1,12 +1,13 @@
-question: Vad är inte en Mnemonic-fras i samband med Bitcoin?
-answer: Ett lösenord för din Bitcoin Wallet.
+question: Vad står KYC för?
+answer: Känn din kund.
 wrong_answers:
-  - En lista med 12 ord från en viss ordbok.
-  - En lista med 24 ord från en viss ordbok.
-  - Hemligheten för att få tillgång till din Bitcoin-fond.
+  - Behåll dina kontanter.
+  - Knappa in dina koder.
+  - Vänligen lämna in överensstämmelse.
 explanation: |
-  En Mnemonic-fras i samband med Bitcoin är en lista med 12
-  eller 24 ord som gör att du kan återställa din Wallet på alla
-  Bitcoin Wallet applikation. Den som har tillgång till denna lista
-  kan också komma åt dina bitcoins.
+  KYC eller Know Your Customer avser det förfarande som
+  företag använder för att verifiera sina kunders identitet.
+  Detta görs vanligtvis för att säkerställa efterlevnad av
+  och för att förhindra olagliga aktiviteter som penningtvätt eller
+  penningtvätt eller bedrägeri.
 reviewed: true

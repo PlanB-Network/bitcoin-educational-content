@@ -1,11 +1,12 @@
-question: Hoe wordt het proces genoemd dat transacties op het Bitcoin netwerk verifieert?
-answer: Mining
+question: Wat is de frequentie van de moeilijkheidsaanpassing?
+answer: Elke 2016 blokken.
 wrong_answers:
-  - Graven
-  - Oogsten
-  - Landbouw
+  - Elke 1048 blokken.
+  - Elke 512 blokken.
+  - Elke 4032 blokken.
 explanation: |
-  Het proces dat transacties verifieert op het Bitcoin
-  netwerk wordt Mining genoemd. Miners voeren een cryptografische
-  taak en worden beloond met de uitgifte van nieuwe bitcoins.
+  De moeilijkheidsaanpassing is een mechanisme dat
+  elke 2016 blokken, of ongeveer twee weken, om ervoor te zorgen dat een
+  er gemiddeld elke tien minuten een nieuw blok wordt toegevoegd aan de Blockchain, ongeacht de globale Hashrate
+  gemiddeld, ongeacht de globale Hashrate.
 reviewed: true

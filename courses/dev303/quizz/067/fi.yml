@@ -1,0 +1,8 @@
+question: Miten Rust:n alustarajat ylittävä yhteensopivuus hyödyttää Bitcoin-sovelluskehitystä eri käyttöönottoympäristöissä?
+answer: Se mahdollistaa yhtenäistettyjen koodipohjien käytön mobiilialustoilla, WebAssemblyn avulla web-selaimissa ja perinteisissä käyttöjärjestelmissä
+wrong_answers:
+  - Se käsittelee automaattisesti kryptovaluuttojen valuuttakurssimuunnokset eri alueellisilla markkinoilla ja eri valuutoissa
+  - Se tarjoaa sisäänrakennetut lohkoketjujen synkronointiprotokollat, jotka toimivat identtisesti kaikissa verkkoarkkitehtuureissa
+  - Se tarjoaa natiivin integraation laitteistolompakoiden ja turvamoduulien kanssa kaikilla tuetuilla alustoilla
+explanation: |
+  Rust:n alustarajat ylittävien ominaisuuksien ansiosta kehittäjät voivat kirjoittaa Bitcoin-sovelluksia, joita voidaan käyttää erilaisissa ympäristöissä, kuten mobiililaitteissa (Android/iOS), verkkoselaimissa (WebAssembly-kääntämisen avulla) ja perinteisissä työpöytäkäyttöjärjestelmissä. Tästä monipuolisuudesta kertovat esimerkiksi Mutiny Wallet -projektit, jotka hyödyntävät Rust:n WebAssembly-tukea luodakseen Lightning-lompakoita, jotka toimivat suoraan selaimissa. Väärät vastaukset kuvaavat ominaisuuksia, jotka eivät liity alustarajat ylittävään yhteensopivuuteen - valuutan muuntaminen on sovellustason ominaisuus, lohkoketjuprotokollat ovat verkkokerroksen huolenaiheita, ja laitteistojen integrointi edellyttää erityisiä sovellusrajapintoja eikä yleistä alustarajat ylittävää tukea.

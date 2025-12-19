@@ -1,14 +1,14 @@
 ---
-name: Profesor Plan ₿ Network
-description: Kako da dodam ili izmenim svoj profil nastavnika na Plan ₿ Network?
+name: Profesor Plan ₿ Academy
+description: Kako da dodam ili izmenim svoj profil nastavnika na Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Ako planirate da doprinesete Plan ₿ Network pisanjem novog tutorijala ili kursa, biće vam potreban profil nastavnika. Ovaj profil će vam omogućiti da dobijete odgovarajuće kredite za sadržaj koji doprinosite platformi.
+Ako planirate da doprinesete Plan ₿ Academy pisanjem novog tutorijala ili kursa, biće vam potreban profil nastavnika. Ovaj profil će vam omogućiti da dobijete odgovarajuće kredite za sadržaj koji doprinosite platformi.
 
 
-Za one od vas koji su već bili uključeni u kreiranje edukativnog sadržaja na Plan ₿ Network, verovatno već imate profil nastavnika. Možete ga pronaći u folderu `/professors` [na našem GitHub repozitorijumu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Ako vaš profil već postoji, pronađite svoj login u `professor.yml` fajlu.
+Za one od vas koji su već bili uključeni u kreiranje edukativnog sadržaja na Plan ₿ Academy, verovatno već imate profil nastavnika. Možete ga pronaći u folderu `/professors` [na našem GitHub repozitorijumu](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Ako vaš profil već postoji, pronađite svoj login u `professor.yml` fajlu.
 
 
 Da biste izvršili izmene na svom profilu, idite na odeljak "Uredi profil nastavnika" na kraju ovog vodiča.
@@ -17,13 +17,13 @@ Da biste izvršili izmene na svom profilu, idite na odeljak "Uredi profil nastav
 ## Dodajte novog nastavnika pomoću našeg softvera
 
 
-Najlakši način da kreirate svoj profil nastavnika na Plan ₿ Network je korišćenje našeg integrisanog Python alata. Evo kako funkcioniše.
+Najlakši način da kreirate svoj profil nastavnika na Plan ₿ Academy je korišćenje našeg integrisanog Python alata. Evo kako funkcioniše.
 
 
 ### 1 - Konfigurišite vaše lokalno okruženje
 
 
-Morate imati svoj Fork iz [Plan ₿ Network repozitorijuma na GitHub-u](https://github.com/PlanB-Network/Bitcoin-educational-content).
+Morate imati svoj Fork iz [Plan ₿ Academy repozitorijuma na GitHub-u](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Sinhronizujte glavnu granu (`dev`) vašeg Fork sa izvornim repozitorijumom.
@@ -87,7 +87,7 @@ python3 main.py
 ```
 
 
-Jednom kada ste na početnoj stranici, unesite lokalnu putanju do kloniranog repozitorijuma, jezik na kojem pišete i vaš GitHub ID. Ako kreirate ovaj profil za nekog drugog i već imate profil Profesora, unesite vaš ID u polje "*PBN Professor's ID*". Ako kreirate svoj profil, još uvek nećete imati Profesorov ID, jer ste u procesu kreiranja, pa ostavite ovo polje prazno.
+Jednom kada ste na početnoj stranici, unesite lokalnu putanju do kloniranog repozitorijuma, jezik na kojem pišete i vaš GitHub ID. Ako kreirate ovaj profil za nekog drugog i već imate profil Profesora, unesite vaš ID u polje "*Plan ₿ Academy Professor's ID*". Ako kreirate svoj profil, još uvek nećete imati Profesorov ID, jer ste u procesu kreiranja, pa ostavite ovo polje prazno.
 
 
 Zatim kliknite na dugme "*New Professor*".
@@ -156,8 +156,8 @@ Ako ste savladali korišćenje Git-a, izmenite svoj profil nastavnika kreiranjem
 Za početnike, preporučujem da napravite izmene direktno putem GitHub-ovog Interface weba. Uverite se da imate GitHub nalog. Ako ne znate kako da ga kreirate, pratite ovaj vodič:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Idi na [Plan ₿ Network GitHub repozitorijum posvećen podacima](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Idi na [Plan ₿ Academy GitHub repozitorijum posvećen podacima](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)
@@ -184,7 +184,7 @@ Kada se nađete na datoteci koju želite izmeniti, kliknite na ikonu olovke.
 ![Image](assets/fr/06.webp)
 
 
-Ako već nemate Fork iz spremišta Plan ₿ Network, GitHub će vam predložiti da ga kreirate. Kliknite na "*Fork this repository*".
+Ako već nemate Fork iz spremišta Plan ₿ Academy, GitHub će vam predložiti da ga kreirate. Kliknite na "*Fork this repository*".
 
 
 ![Image](assets/fr/07.webp)
@@ -205,13 +205,13 @@ Unesite poruku koja opisuje vašu izmenu, a zatim izaberite "*Predloži izmene*"
 Prikaz sažetka vaših izmena će biti prikazan. Ako želite da napravite dodatne izmene na svom profilu, možete se vratiti u foldere i napraviti dodatne izmene. Kada završite, kliknite na "*Create pull request*".
 
 
-Zahtev za povlačenje je zahtev za integraciju izmena iz vaše grane u glavnu granu repozitorijuma Plan ₿ Network, omogućavajući pregled i diskusiju o izmenama pre nego što budu spojene.
+Zahtev za povlačenje je zahtev za integraciju izmena iz vaše grane u glavnu granu repozitorijuma Plan ₿ Academy, omogućavajući pregled i diskusiju o izmenama pre nego što budu spojene.
 
 
 ![Image](assets/fr/10.webp)
 
 
-Uverite se da je, na vrhu Interface, vaša radna grana spojena sa `dev` granom repozitorijuma Plan ₿ Network (koja je glavna grana).
+Uverite se da je, na vrhu Interface, vaša radna grana spojena sa `dev` granom repozitorijuma Plan ₿ Academy (koja je glavna grana).
 
 
 Unesite naslov koji ukratko rezimira izmene koje želite da spojite sa izvornim repozitorijumom. Dodajte kratak komentar koji opisuje ove izmene, zatim kliknite na Green "*Create pull request*" dugme da potvrdite zahtev za povlačenje:
@@ -220,7 +220,7 @@ Unesite naslov koji ukratko rezimira izmene koje želite da spojite sa izvornim 
 ![Image](assets/fr/11.webp)
 
 
-Vaš PR će tada biti vidljiv na kartici "*Pull Request*" glavnog repozitorijuma Plan ₿ Network. Sve što sada treba da uradite je da sačekate da administrator spoji vašu izmenu.
+Vaš PR će tada biti vidljiv na kartici "*Pull Request*" glavnog repozitorijuma Plan ₿ Academy. Sve što sada treba da uradite je da sačekate da administrator spoji vašu izmenu.
 
 
 ![Image](assets/fr/12.webp)

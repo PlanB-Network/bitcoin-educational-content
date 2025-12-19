@@ -6,4 +6,4 @@ wrong_answers:
   - sudo update-all
 explanation: |
   En Ubuntu (y Debian), el comando "sudo apt update && sudo apt upgrade" sincroniza la lista de paquetes e instala todas las actualizaciones disponibles.
-reviewed: false
+reviewed: true

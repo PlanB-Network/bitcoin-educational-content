@@ -20,7 +20,7 @@ Blitz Wallet er en Bitcoin selvbevarende Wallet med tilgjengelig kildekode (Open
 
 
 
-[Blitz Wallet] (https://blitz-Wallet.com/) er et mobilt Wallet tilgjengelig på Android (Play Store) og iOS (App Store).
+[Blitz Wallet](https://blitz-Wallet.com/) er et mobilt Wallet tilgjengelig på Android (Play Store) og iOS (App Store).
 
 
 
@@ -44,7 +44,7 @@ Her starter vi med å opprette en ny portefølje. Se nedenfor for våre anbefali
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**VIKTIG**: Disse 12/24 gjenopprettingsordene er avgjørende for å få tilgang til bitcoinsene dine. Hvis du mister dem, vil du ikke lenger være autorisert til å bruke bitcoinsene dine.
 
@@ -93,23 +93,23 @@ En av de spesielle egenskapene til Blitz Wallet er at den støtter forskjellige 
 
 
 
-- Lightning Network** : Et av Bitcoin-overlayene som lar deg utføre mikrotransaksjoner umiddelbart.
+- **Lightning Network**: Et av Bitcoin-overlayene som lar deg utføre mikrotransaksjoner umiddelbart.
 
 
 
 
 
-- Bitcoin Mainnet** : Hovedkjeden i Bitcoin-protokollen, egnet for transaksjoner med store verdier.
+- **Bitcoin Mainnet**: Hovedkjeden i Bitcoin-protokollen, egnet for transaksjoner med store verdier.
 
 
 
 
 
-- Liquid Network**: En parallellkjede til Bitcoin Mainnet utviklet av BlockStream som bruker Liquid Bitcoins til å utføre raske, Confidential Transactions.
+- **Liquid Network**: En parallellkjede til Bitcoin Mainnet utviklet av BlockStream som bruker Liquid Bitcoins til å utføre raske, Confidential Transactions.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Som standard vil alle transaksjonene dine være på Liquid Network, men med Blitz kan du velge hvilket nettverk du ønsker å motta satoshier på ved å klikke på knappen **Velg format**.
 
@@ -169,7 +169,7 @@ I tillegg til Bitcoin-overføringer tilbyr Blitz Wallet deg en butikk der du kan
 
 
 
-- Få tilgang til AI-tjenester**: Bruk generative modeller for kunstig intelligens som f.eks: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 og betal direkte i bitcoins.
+- **Få tilgang til AI-tjenester**: Bruk generative modeller for kunstig intelligens som f.eks: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 og betal direkte i bitcoins.
 
 
 
@@ -179,7 +179,7 @@ I tillegg til Bitcoin-overføringer tilbyr Blitz Wallet deg en butikk der du kan
 
 
 
-- Send tekstmeldinger hvor som helst i verden**: I Blitz-butikken har du tilgang til en GSM-tjeneste som lar deg sende tekstmeldinger anonymt hvor som helst i verden, med direkte fakturering i Bitcoin.
+- **Send tekstmeldinger hvor som helst i verden**: I Blitz-butikken har du tilgang til en GSM-tjeneste som lar deg sende tekstmeldinger anonymt hvor som helst i verden, med direkte fakturering i Bitcoin.
 
 
 
@@ -189,7 +189,7 @@ I tillegg til Bitcoin-overføringer tilbyr Blitz Wallet deg en butikk der du kan
 
 
 
-- Surf i total konfidensialitet**: Betal for et WireGuard VPN-abonnement (Virtual Private Network) i Wallet Blitz-butikken med dine bitcoins.
+- **Surf i total konfidensialitet**: Betal for et WireGuard VPN-abonnement (Virtual Private Network) i Wallet Blitz-butikken med dine bitcoins.
 
 
 
@@ -197,9 +197,9 @@ I tillegg til Bitcoin-overføringer tilbyr Blitz Wallet deg en butikk der du kan
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz bak kulissene: Vi går videre
 
@@ -221,7 +221,7 @@ Denne tilnærmingen er begrunnet i ønsket om å gjøre det enklere å starte op
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Du kan se fordelingen av saldoen din i menyen **Innstillinger>Saldoinfo**.
 
@@ -249,7 +249,7 @@ Ved å aktivere Lightning-modus, når hovedbetingelsen er oppfylt (saldo på 500
 
 
 
-- Ta imot Bitcoin i butikken din** :
+- **Ta imot Bitcoin i butikken din**:
 
 
 
@@ -269,5 +269,4 @@ Hvis denne veiledningen hjalp deg med å få grep om Blitz, er vi sikre på at d
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

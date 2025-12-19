@@ -50,11 +50,11 @@ Tänapäeval on Jami saadaval paljudes süsteemides. See on tuntud oma jõudluse
 
 
 
-- See on avatud lähtekoodiga ja täiesti tasuta**, nii et saate seda tasuta kasutada.
-- Täielik kasulikke funktsioone**: see tarkvara võimaldab teil kasutada arvukaid võimalusi tänu võimalusele lisada pistikprogramme hõlpsasti poest. On isegi võimalik luua omaenda laiendusi, et funktsioonid vastaksid paremini teie vajadustele.
-- Lihtne kasutada ja Interface intuitiivne**: hoolimata Jami paljudest funktsioonidest on selle kasutamine väga lihtne.
-- Tugev turvalisus**: Jami sisaldab täiustatud krüpteerimisalgoritmi, mis tagab teie side turvalisuse, austades samal ajal teie privaatsust.
-- Väga kättesaadav ja kiire**: see pakub lihtsat suhtlust isegi siis, kui ribalaius on piiratud, mis suurendab kasutajasõbralikkust.
+- See on avatud lähtekoodiga ja täiesti **tasuta**, nii et saate seda tasuta kasutada.
+- **Täielik kasulikke funktsioone**: see tarkvara võimaldab teil kasutada arvukaid võimalusi tänu võimalusele lisada pistikprogramme hõlpsasti poest. On isegi võimalik luua omaenda laiendusi, et funktsioonid vastaksid paremini teie vajadustele.
+- **Lihtne kasutada ja intuitiivne interface**: hoolimata Jami paljudest funktsioonidest on selle kasutamine väga lihtne.
+- **Tugev turvalisus**: Jami sisaldab täiustatud krüpteerimisalgoritmi, mis tagab teie side turvalisuse, austades samal ajal teie privaatsust.
+- **Väga kättesaadav ja kiire**: see pakub lihtsat suhtlust isegi siis, kui ribalaius on piiratud, mis suurendab kasutajasõbralikkust.
 
 
 
@@ -82,7 +82,7 @@ Rakendus on saadaval otse App Store'ist või Play Store'ist. Lihtsalt otsige sed
 
 
 
-Jami installimiseks oma seadmesse peate kõigepealt külastama Jami ametlikku veebisaiti. Vaikimisi kuvatakse saidil teie seadme operatsioonisüsteemile vastav tarkvara ja selle käivitamiseks saate klõpsata otse allalaadimisnupule. Te võite aga ka Windowsi käivitatava faili otse [allalaadimisleheküljelt] (https://jami.net/download-jami-windows/) alla laadida.
+Jami installimiseks oma seadmesse peate kõigepealt külastama Jami ametlikku veebisaiti. Vaikimisi kuvatakse saidil teie seadme operatsioonisüsteemile vastav tarkvara ja selle käivitamiseks saate klõpsata otse allalaadimisnupule. Te võite aga ka Windowsi käivitatava faili otse [allalaadimisleheküljelt](https://jami.net/download-jami-windows/) alla laadida.
 
 
 
@@ -140,7 +140,7 @@ See käsk installeerib GPG võtmete (gnupg ja dirmngr), SSL sertifikaatide (ca-c
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -338,9 +338,9 @@ Jami pakub ka **täiustatud funktsioone** kasutajatele, kes soovivad rakenduse k
 
 
 
-- Luua kohtumispaik**: See funktsioon võimaldab teil luua oma suhtluse jaoks **tänava**, mis on kasulik mitme kasutaja vaheliste turvaliste seansside või teabevahetuse korraldamiseks.
-- Ühendage Jami serveriga**: Saate ühendada Jami **Jami serveriga**, mis võib parandada side jõudlust või kättesaadavust, eriti professionaalsetes keskkondades.
-- Seadistage SIP-konto**: Saate luua **SIP-konto** (Session Initiation Protocol), mis võimaldab teil integreerida Jami olemasoleva telefonisüsteemiga või teha telefonikõnesid.
+- **Luua kohtumispaik**: See funktsioon võimaldab teil luua oma suhtluse jaoks **tänava**, mis on kasulik mitme kasutaja vaheliste turvaliste seansside või teabevahetuse korraldamiseks.
+- **Ühendage Jami serveriga**: Saate ühendada Jami **Jami serveriga**, mis võib parandada side jõudlust või kättesaadavust, eriti professionaalsetes keskkondades.
+- **Seadistage SIP-konto**: Saate luua **SIP-konto** (Session Initiation Protocol), mis võimaldab teil integreerida Jami olemasoleva telefonisüsteemiga või teha telefonikõnesid.
 
 
 
@@ -360,4 +360,4 @@ Avasta Tox, detsentraliseeritud protokoll, mis ühendab end-to-end krüpteerimis
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

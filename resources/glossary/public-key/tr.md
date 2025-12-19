@@ -5,4 +5,4 @@ term: KAMU ANAHTARI
 Açık anahtar, asimetrik kriptografide kullanılan bir unsurdur. Geri döndürülemez bir matematiksel fonksiyon kullanılarak özel anahtardan üretilir. Bitcoin'de açık anahtarlar, eliptik eğri ECDSA veya Schnorr dijital imza algoritmaları aracılığıyla ilişkili özel anahtarlarından türetilir. Özel anahtarın aksine, açık anahtar fonların güvenliğini tehlikeye atmadan serbestçe paylaşılabilir. Bitcoin protokolünde, açık anahtar bir Bitcoin Address oluşturmak için temel görevi görür ve daha sonra bir `scriptPubKey` kullanarak bir UTXO üzerinde harcama koşulları oluşturmak için kullanılır. Açık anahtarlar genellikle ana anahtarla veya genişletilmiş anahtarlarla (xpub...) karıştırılır. Ancak, bu Elements oldukça farklıdır.
 
 
-> ► *İngilizcede açık anahtar "public key" olarak adlandırılır Bu terim bazen "pubkey" veya "PK" olarak kısaltılır
+> ► *İngilizcede açık anahtar "public key" olarak adlandırılır. Bu terim bazen "pubkey" veya "PK" olarak kısaltılır.*

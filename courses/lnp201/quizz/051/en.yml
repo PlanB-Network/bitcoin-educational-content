@@ -6,4 +6,4 @@ wrong_answers:
   - A direct link with every other network node
 explanation: |
   The triangle opening technique allows each node to achieve balanced liquidity, both incoming and outgoing, by forming a loop of channels among several participants.
-reviewed: false
+reviewed: true

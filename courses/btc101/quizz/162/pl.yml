@@ -1,12 +1,12 @@
-question: Jaka jest rola górników w protokole Bitcoin?
-answer: Zabezpieczają one bieżącą i historyczną sieć.
+question: W jaki sposób protokół Bitcoin wynagradza górnika, który znajdzie ważny hasz dla kolejnego bloku?
+answer: Nagrodą określoną przez zasady konsensusu i opłatami ze wszystkich transakcji zawartych w ważnym bloku.
 wrong_answers:
-  - Regulują one cenę Bitcoin.
-  - Kontrolują oni Supply z Bitcoin.
-  - Zarządzają transakcjami między użytkownikami.
+  - Stałą ilością bitcoinów nieokreśloną przez zasady konsensusu.
+  - Procentem całkowitej podaży bitcoina i opłatami ze wszystkich transakcji zawartych w poprzednich blokach.
+  - Opłatami ze wszystkich transakcji zawartych w ważnym bloku.
 explanation: |
-  Górnicy w protokole Bitcoin zabezpieczają zarówno bieżącą, jak i
-  sieć historyczną. Nie regulują oni ceny
-  Bitcoin, nie kontrolują Supply ani nie zarządzają transakcjami
-  między użytkownikami.
+  Protokół Bitcoin wynagradza górnika, który znajdzie prawidłowy
+  hasz dla kolejnego bloku nagrodą, której kwota jest
+  określona przez zasady konsensusu oraz opłatami od
+  wszystkich transakcji zawartych w ważnym bloku.
 reviewed: true

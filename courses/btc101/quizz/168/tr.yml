@@ -1,8 +1,8 @@
-question: Bitcoin ekolojik geçişe potansiyel olarak nasıl yardımcı olabilir?
-answer: Green enerji kullanımını teşvik eder.
+question: Bitcoin'ın oynaklığını azaltmanın bir yolu nedir?
+answer: Finansal korumalar (sabit paralar).
 wrong_answers:
-  - Mal üretimini azaltır.
-  - Kaynakların tüketimini düzenler.
-  - Sadece sera gazlarının emisyonunu sınırlar.
+  - Tüm paranı Bitcoin'e yatırıyorsun.
+  - Pazar eğilimlerini göz ardı etmek.
+  - Fiyat düştüğünde daha fazla Bitcoin satın alacağım.
 explanation: >-
 reviewed: true

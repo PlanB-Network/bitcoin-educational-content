@@ -1,11 +1,10 @@
-question: Was ist ein Blockmit im Kontext der Bitcoin-Sicherheit?
-answer: Eine kostengünstige Lösung, um Ihre mnemonische Phrase auf ein Stück Stahl zu gravieren.
+question: Wann verschwand Satoshi Nakamoto?
+answer: Im Jahr 2010
 wrong_answers:
-  - Eine Art von Bitcoin-Wallet, um mehrere Transaktionen auf einmal zu signieren.
-  - Eine kostengünstige Lösung, um Bitcoins zu Hause zu minen.
-  - Eine Art von Bitcoin-Wallet, die mehrere Signaturen benötigt, um UTXOs auszugeben.
+  - Im Jahr 2008
+  - Im Jahr 2009
+  - Im Jahr 2023
 explanation: |
-  Der Blockmit ist eine kostengünstige Lösung, um Ihre
-  mnemonische Phrase auf einem widerstandsfähigen Material wie Stahl zu gravieren, und sichert
-  somit Ihre Bitcoins langfristig.
+  Satoshi Nakamoto verschwand im Jahr 2010 und überließ seine Schöpfung
+  der Gemeinschaft.
 reviewed: true

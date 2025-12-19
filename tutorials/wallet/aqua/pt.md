@@ -38,7 +38,7 @@ O primeiro passo é, obviamente, descarregar a aplicação Aqua. Aceda à sua lo
 - [Para a Apple](https://apps.apple.com/us/app/aqua-wallet/id6468594241).
 ![AQUA](assets/fr/04.webp)
 
-Para os utilizadores de Android, existe também a opção de instalar a aplicação através do ficheiro `.apk` [disponível no GitHub] (https://github.com/AquaWallet/aqua-wallet/releases).
+Para os utilizadores de Android, existe também a opção de instalar a aplicação através do ficheiro `.apk` [disponível no GitHub](https://github.com/AquaWallet/aqua-wallet/releases).
 
 ![AQUA](assets/fr/05.webp)
 
@@ -56,7 +56,7 @@ E voilà, o seu portefólio já está criado!
 
 ![AQUA](assets/fr/08.webp)
 
-Mas antes de mais, como esta é uma carteira de auto-custódia, é imperativo fazer um backup físico da sua mnemónica. **Esta mnemónica dá-lhe acesso total e sem restrições a todos os seus bitcoins. Qualquer pessoa na posse desta mnemónica pode roubar os seus fundos, mesmo sem acesso físico ao seu telefone.
+Mas antes de mais, como esta é uma carteira de auto-custódia, é imperativo fazer um backup físico da sua mnemónica. **Esta mnemónica dá-lhe acesso total e sem restrições a todos os seus bitcoins. Qualquer pessoa na posse desta mnemónica pode roubar os seus fundos, mesmo sem acesso físico ao seu telefone.**
 
 Permite-lhe restaurar o acesso aos seus bitcoins em caso de perda, roubo ou quebra do seu telemóvel. Por conseguinte, é muito importante guardá-la cuidadosamente num suporte físico (não digital) e armazená-la num local seguro. Pode escrevê-lo num pedaço de papel ou, para maior segurança, se se tratar de uma carteira grande, recomendo que o grave num suporte de aço inoxidável para o proteger do risco de incêndio, inundação ou desmoronamento (para uma carteira quente concebida para proteger uma pequena quantidade de bitcoins, uma simples cópia de segurança em papel é provavelmente suficiente).
 
@@ -74,7 +74,7 @@ No mesmo menu de definições, pode também alterar o idioma da aplicação e a 
 
 Antes de receberes os teus primeiros bitcoins na tua carteira, **aconselho-te vivamente a fazeres um teste de recuperação vazio**. Tome nota de algumas informações de referência, como o seu xpub ou o primeiro endereço de receção, e depois apague a sua carteira na aplicação Aqua enquanto ainda está vazia. Em seguida, tente restaurar a sua carteira na Aqua utilizando as suas cópias de segurança em papel. Verifique se as informações do cookie geradas após a restauração correspondem àquelas que você anotou originalmente. Se corresponder, pode ter a certeza de que as suas cópias de segurança em papel são fiáveis. Para saber mais sobre como efetuar uma recuperação de teste, consulte este outro tutorial:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Não é visível na minha tela porque estou usando um emulador, mas você também encontrará uma opção nas configurações para bloquear o aplicativo com um sistema de autenticação biométrica. Recomendo fortemente ativar essa segurança, pois sem ela qualquer pessoa com acesso ao seu telefone desbloqueado poderia roubar seus bitcoins. Você pode usar o Face ID no iOS ou sua impressão digital no Android. Se esses métodos falharem durante a autenticação, você ainda poderá acessar o aplicativo através do PIN do seu telefone.
 
@@ -190,5 +190,4 @@ Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Si
 
 Também recomendo que consulte este outro tutorial completo sobre a aplicação móvel Blockstream Green, que é outra solução interessante para configurar a sua carteira Liquid :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
-
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

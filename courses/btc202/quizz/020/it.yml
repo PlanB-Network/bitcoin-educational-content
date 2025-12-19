@@ -1,0 +1,9 @@
+question: Cosa succede se un blocco viola le regole del consenso?
+answer: Viene immediatamente rifiutato dai nodi
+wrong_answers:
+  - È conservato nel Mempool in attesa di convalida
+  - Viene trasmessa solo dai nodi che accettano altre regole
+  - È convalidato solo dai portafogli
+explanation: |
+  I nodi rifiutano sistematicamente qualsiasi blocco che non sia conforme alle regole del consenso.
+reviewed: true

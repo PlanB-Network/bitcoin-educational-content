@@ -2,23 +2,26 @@ id: c656a201-9587-4bf2-8cdb-acbd3c3631b4
 
 project_id: cb3e67d7-62bd-43ae-a81c-8e0533390d2c
 
+tags:
+  - wallets
+  - onchain
+  - guides
+
 category: backup
 
-level: advanced
+level: intermediate
 
-professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+licence: CC-BY-SA-V4
 
 # Proofreading metadata
 
-original_language: en
+original_language: fr
 proofreading:
-  - language: en
-    last_contribution_date: 2025-08-20
+  - language: fr
+    last_contribution_date: 2025-12-11
     urgency: 1
     contributor_names:
-      - PaoloFoti
-    reward: 1
-tags:
-  - wallets
-  - guides
-  - risks
+      - Pivii
+    reward: 2.13

@@ -1,0 +1,9 @@
+question: Wann fand der Blockgrößenkrieg statt?
+answer: Im Jahr 2017.
+wrong_answers:
+  - Im Jahr 2008.
+  - Im Jahr 2010.
+  - Im Jahr 2019.
+explanation: >-
+  Der Blockgrößenkrieg fand im Jahr 2017 statt. Dieser Konflikt stand zwischen den Akteuren, die Bitcoin durch Erhöhung der Blockgröße verändern wollten, um die Transaktionskapazität zu erhöhen, und jenen, die die Unabhängigkeit und Macht der Nutzer durch Beibehaltung der Größe bei 1 MB bewahren wollten.
+reviewed: true

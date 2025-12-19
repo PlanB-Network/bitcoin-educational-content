@@ -10,13 +10,13 @@ Möchten Sie die Wiederholung Ihrer Bitcoin-Konferenz auf der PlanB Netzwerkseit
 
 Wenn Sie jedoch eine Konferenz hinzufügen möchten, die in der Zukunft stattfinden wird, rate ich Ihnen, dieses andere Tutorial zu lesen, in dem wir erklären, wie man eine neue Veranstaltung auf der Seite hinzufügt.
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![Konferenz](assets/01.webp)
 - Zuerst müssen Sie ein Konto auf GitHub haben. Wenn Sie nicht wissen, wie man ein Konto erstellt, haben wir ein detailliertes Tutorial erstellt, um Sie zu führen.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) im Abschnitt `resources/conference/`:
@@ -69,7 +69,7 @@ tags:
 
 ![Konferenz](assets/09.webp)
 Wenn Sie noch keinen "*project*" Identifikator für Ihre Organisation haben, können Sie diesen hinzufügen, indem Sie diesem anderen Tutorial folgen.
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Sobald Sie die Änderungen an dieser Datei abgeschlossen haben, speichern Sie sie, indem Sie auf den `Commit changes...` Button klicken:
 ![Konferenz](assets/10.webp)
@@ -81,7 +81,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![Konferenz](assets/13.webp)
 - Klicken Sie oben rechts auf Ihr GitHub-Profilbild und dann auf `Your Repositories`:
 ![Konferenz](assets/14.webp)
-- Wählen Sie Ihren Fork des PlanB Network Repositories aus:
+- Wählen Sie Ihren Fork des Plan ₿ Academy Repositories aus:
 ![Konferenz](assets/15.webp)
 - Sie sollten eine Benachrichtigung am oberen Rand des Fensters mit Ihrem neuen Branch sehen. Er heißt wahrscheinlich `patch-1`. Klicken Sie darauf:
 ![Konferenz](assets/16.webp)
@@ -103,7 +103,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![Konferenz](assets/24.webp)
 - Klicken Sie auf den `Add file` Button und dann auf `Upload files`:
 ![Konferenz](assets/25.webp)
-- Eine neue Seite wird geöffnet. Ziehen Sie ein Bild, das Ihre Konferenz repräsentiert und auf der PlanB Network Seite angezeigt wird, per Drag-and-Drop hinein: ![Konferenz](assets/26.webp)
+- Eine neue Seite wird geöffnet. Ziehen Sie ein Bild, das Ihre Konferenz repräsentiert und auf der Plan ₿ Academy Seite angezeigt wird, per Drag-and-Drop hinein: ![Konferenz](assets/26.webp)
 - Es kann ein Logo, ein Thumbnail oder sogar ein Poster sein:
 ![Konferenz](assets/27.webp)
 - Sobald das Bild hochgeladen ist, überprüfen Sie, ob das Kästchen `Commit directly to the patch-1 branch` angekreuzt ist, dann klicken Sie auf `Commit changes`:
@@ -177,7 +177,7 @@ Sprecher: Satoshi Nakamoto
 ```
 
 ![Konferenz](assets/37.webp)
-- Füllen Sie zu Beginn Ihres Dokuments, im "Front Matter", das Feld `name:` mit dem Namen Ihrer Konferenz und dem Jahr der Wiederholungen aus. Im Feld `description:` schreiben Sie eine kurze Beschreibung Ihres Events in der Sprache der Datei. Zum Beispiel sollte für eine Datei namens `en.md` die Beschreibung auf Englisch sein. Das PlanB Network-Team wird sich um die Übersetzung Ihrer Beschreibung mit ihrem Modell kümmern.
+- Füllen Sie zu Beginn Ihres Dokuments, im "Front Matter", das Feld `name:` mit dem Namen Ihrer Konferenz und dem Jahr der Wiederholungen aus. Im Feld `description:` schreiben Sie eine kurze Beschreibung Ihres Events in der Sprache der Datei. Zum Beispiel sollte für eine Datei namens `en.md` die Beschreibung auf Englisch sein. Das Plan ₿ Academy-Team wird sich um die Übersetzung Ihrer Beschreibung mit ihrem Modell kümmern.
 - Überschriften erster Ebene, gekennzeichnet durch ein `#`, werden verwendet, um die Konferenz nach Szenen zu organisieren. Zum Beispiel `# Hauptbühne` für die Hauptbühne und `# Workshop-Raum` für eine Bühne, die Workshops gewidmet ist.
 
 - Überschriften zweiter Ebene, gekennzeichnet durch ein doppeltes `##`, werden verwendet, um die verschiedenen Wiederholungsvideos zu trennen. Wenn die Konferenzen kontinuierlich über einen halben Tag gefilmt wurden, geben Sie zum Beispiel `## Freitagvormittag` an. Wenn die Konferenzen einzeln gefilmt und ausgestrahlt wurden, benennen Sie die Konferenz direkt mit einer Überschrift zweiter Ebene.

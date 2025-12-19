@@ -1,12 +1,12 @@
-question: Koji je mehanizam koji osigurava da se novi blok dodaje u Blockchain svakih deset minuta?
-answer: Podešavanje težine.
+question: Koliki je bio procenjeni broj bitkoina u opticaju nakon prvog Halving-a?
+answer: 10.500.000 BTC.
 wrong_answers:
-  - Podešavanje brzine.
-  - Podešavanje vremena.
-  - Podešavanje bloka.
+  - 5,250,000 BTC.
+  - 15.750.000 BTC.
+  - 21,000,000 BTC.
 explanation: |
-  Mehanizam koji osigurava da se novi blok doda na
-  Blockchain svakih deset minuta je prilagođavanje težine.
-  Ovo prilagođavanje se dešava svakih 2016 blokova, ili otprilike
-  svake dve nedelje.
+  Nakon prvog Halving, koji se dogodio na visini bloka
+  210,000, procenjeni broj bitkoina u opticaju
+  bio je 10,500,000 BTC, što je polovina ukupnog broja
+  bitkoina koji će biti u opticaju.
 reviewed: true

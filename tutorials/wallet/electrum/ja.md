@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: 0からヒーローへの完全なElectrumガイド
+description: 完全なElectrumガイド、初心者から上級者まで
 ---
 
 ![cover](assets/cover.webp)
 
-Electrumについての説明
+以下にElectrumの説明ソースをいくつか示します:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "このガイドを見つけたとき、本当に驚きました。これを作成したArman the Parmanにおめでとうを言わなければなりません。できるだけ多くの言語に翻訳してここに掲載しないのはもったいないことです。正直、その人にチップをあげてください。" Rogzy
 

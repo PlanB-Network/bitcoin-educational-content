@@ -111,9 +111,9 @@ Standart bir dağıtım için:
 
 
 
-- minimum 1 GB RAM** (ek paketleri veya ZFS desteğini etkinleştirmek için 2 GB veya daha fazlası önerilir).
-- 8 GB disk alanı** (özellikle bir proxy önbelleği, IDS/IPS veya ayrıntılı günlükler yüklüyorsanız, daha gelişmiş yapılandırmalar için 20 GB veya daha fazlası tercih edilir).
-- En az iki sanal ağ arayüzü** (biri WAN için, diğeri LAN için). VirtualBox'ta, başlatmadan önce bunları VM ayarlarına ekleyin.
+- minimum 1 GB RAM (ek paketleri veya ZFS desteğini etkinleştirmek için **2 GB veya daha fazlası önerilir**).
+- **8 GB disk alanı** (özellikle bir proxy önbelleği, IDS/IPS veya ayrıntılı günlükler yüklüyorsanız, daha gelişmiş yapılandırmalar için 20 GB veya daha fazlası tercih edilir).
+- En az iki sanal ağ arayüzü (biri WAN için, diğeri LAN için). VirtualBox'ta, başlatmadan önce bunları VM ayarlarına ekleyin.
 
 
 
@@ -309,8 +309,8 @@ Oturum açma ekranı görünür. Varsayılan kimlik bilgileri:
 
 
 
-- Kullanıcı adı:** `admin`
-- Şifre:** `pfsense`
+- **Kullanıcı adı:** `admin`
+- **Şifre:** `pfsense`
 
 
 
@@ -389,7 +389,7 @@ Güvenlik duvarınızı dağıtmadan önce, en son:
 
 
 
-- Sistem > Güncelle** öğesine gidin.
+- **Sistem > Güncelle** öğesine gidin.
 - Güncelleme kanalını seçin (genellikle **Stable**).
 - Güncellemeleri kontrol edin ve uygulayın.
 
@@ -409,7 +409,7 @@ Herhangi bir büyük değişiklik yapmadan önce bir yedekleme politikası uygul
 
 
 
-- Diyagnostikler > Yedekleme ve Geri Yükleme** bölümüne gidin.
+- Diyagnostikler > **Yedekleme ve Geri Yükleme** bölümüne gidin.
 - Geçerli yapılandırmanın bir kopyasını indirin (`config.xml`).
 - Güvenli bir yerde saklayın (şifrelenmiş harici medya).
 
@@ -429,10 +429,10 @@ Görevinizi gönül rahatlığıyla sonlandırmak için:
 
 
 
-- Güvenlik duvarı kurallarını değiştirin**: pfSense varsayılan olarak LAN'da tüm giden trafiğe izin verir ve WAN'da gelen trafiği engeller. Bu kuralları gerektiği gibi ayarlayın.
-- Güvenli uzaktan erişimi yapılandırın**: Gerekirse, Interface web'e WAN'dan yalnızca VPN aracılığıyla veya IP kısıtlamalarıyla erişimi etkinleştirin.
-- Bildirimleri etkinleştir**: uyarıları (arızalar, güncellemeler, hatalar) almak için bir SMTP sunucusu yapılandırın.
-- Yararlı uzantıları yükleyin**: örneğin, IDS/IPS (Snort, Suricata), proxy (Squid), DNS filtreleme (pfBlockerNG).
+- **Güvenlik duvarı kurallarını değiştirin**: pfSense varsayılan olarak LAN'da tüm giden trafiğe izin verir ve WAN'da gelen trafiği engeller. Bu kuralları gerektiği gibi ayarlayın.
+- **Güvenli uzaktan erişimi yapılandırın**: Gerekirse, Interface web'e WAN'dan yalnızca VPN aracılığıyla veya IP kısıtlamalarıyla erişimi etkinleştirin.
+- **Bildirimleri etkinleştir**: uyarıları (arızalar, güncellemeler, hatalar) almak için bir SMTP sunucusu yapılandırın.
+- **Yararlı uzantıları yükleyin**: örneğin, IDS/IPS (Snort, Suricata), proxy (Squid), DNS filtreleme (pfBlockerNG).
 
 
 

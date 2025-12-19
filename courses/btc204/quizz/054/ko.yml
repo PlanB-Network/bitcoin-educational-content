@@ -1,0 +1,9 @@
+question: 수취인과 결제자 간에 공유된 비밀을 설정하기 위해 자동 결제에서 사용되는 암호화 알고리즘의 이름은 무엇인가요?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - DH
+  - SHA256
+explanation: |
+  자동 결제에서는 타원 곡선 디피-헬만(ECDH) 알고리즘을 사용하여 수신자의 스캔 키 쌍과 발신자 키 쌍의 합 사이의 공유 비밀을 설정하고 이를 통해 고유 결제 Address을 도출할 수 있습니다.
+reviewed: true

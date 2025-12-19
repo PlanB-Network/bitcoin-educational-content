@@ -1,7 +1,9 @@
 ---
-name: Bitcoin core (macOS & Windows)
+name: "Bitcoin Core (macOS & Windows)"
 description: Bitcoin core installeren op Mac of Windows
 ---
+
+![cover](assets/cover.webp)
 
 Bitcoin core installeren op je gewone computer kan, maar is niet ideaal. Als je het niet erg vindt om je computer 24/7 aan te laten staan, dan werkt dit prima. Als je de computer uit moet zetten, wordt het vervelend om elke keer te moeten wachten tot de software gesynchroniseerd is.
 
@@ -24,7 +26,7 @@ Je kunt een oude computer schoonvegen en die gebruiken als dedicated Bitcoin com
 Bitcoin core zal ongeveer 400 gigabyte aan data in beslag nemen op je schijf, en zal blijven groeien. Je kunt je interne schijf gebruiken, maar je kunt ook een externe Hard schijf aansluiten. Ik zal beide opties uitleggen. Idealiter gebruik je een solid-state drive. Als je een oude computer hebt, heeft die waarschijnlijk niet zo'n interne schijf. Koop gewoon een externe SSD van 1 of 2 terabyte en gebruik die. De gewone schijf zal waarschijnlijk wel werken, maar je kunt problemen krijgen en hij zal veel langzamer zijn.
 
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 
 ## Bitcoin core downloaden
@@ -36,19 +38,19 @@ Ga naar Bitcoin.org (zorg ervoor dat je niet naar Bitcoin.com gaat, dat is een s
 Eenmaal daar is het vreemd genoeg niet duidelijk waar je de software vandaan moet halen. Ga naar het resources menu en klik op "Bitcoin core", zoals hieronder getoond:
 
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 
 Dit brengt je naar de downloadpagina:
 
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 
 Klik op de oranje knop Download Bitcoin core:
 
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 
 Er zijn verschillende opties waaruit je kunt kiezen, afhankelijk van je computer. De eerste twee zijn relevant voor deze gids; kies Windows of Mac in de linkerbalk. Nadat je erop hebt geklikt, begint het downloaden, waarschijnlijk naar je Downloads-map.
@@ -60,7 +62,7 @@ Er zijn verschillende opties waaruit je kunt kiezen, afhankelijk van je computer
 Je hebt het bestand nodig dat de hashes van verschillende releases bevat. Dit bestand stond eerst op de downloadpagina van Bitcoin.org, maar is nu verplaatst naar bitcoincore.org/nl/download:
 
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 
 Je hebt het SHA256 binaire hashes bestand nodig. Dit bestand bevat de SHA256 hashes van de verschillende downloadpakketten van Bitcoin core.
@@ -96,7 +98,7 @@ Om dat te doen, zie mijn SHA256/gpg gids, en scroll ongeveer halverwege naar de 
 Ga terug naar de downloadpagina en haal het SHA256 Hash handtekeningenbestand op
 
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 
 Klik erop en sla het bestand op schijf op, bij voorkeur in de map Downloads.
@@ -146,7 +148,7 @@ Het eerste vermelde bestand is de exacte spelling van het handtekeningbestand. H
 Dit is de uitvoer die u zou moeten krijgen
 
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 
 Het is veilig om het WAARSCHUWING bericht te negeren - dat herinnert je er alleen maar aan dat je Wladimir niet hebt ontmoet bij een sleutel onderdeel en hem persoonlijk hebt gevraagd wat zijn publieke sleutel was, en vervolgens je computer hebt verteld om deze sleutel volledig te vertrouwen.
@@ -161,7 +163,7 @@ Als je dit bericht hebt gekregen, dan weet je nu dat er niet is geknoeid met het
 Je zou geen gedetailleerde instructies nodig moeten hebben over hoe je het programma installeert.
 
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 
 ## Bitcoin core uitvoeren
@@ -170,37 +172,37 @@ Je zou geen gedetailleerde instructies nodig moeten hebben over hoe je het progr
 Op een Mac krijg je misschien een waarschuwing (Apple is nog steeds anti-Bitcoin)
 
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 
 Klik op OK en open vervolgens je Systeemvoorkeuren
 
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 
 Klik op het pictogram Beveiliging en privacy:
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 
 Klik dan op "toch openen":
 
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 
 De foutmelding verschijnt opnieuw, maar deze keer is er een knop OPEN beschikbaar. Klik erop.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 
 Bitcoin core zou moeten laden en je krijgt een aantal opties te zien:
 
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 
 Hier kun je kiezen om het standaardpad te gebruiken waarnaar de Blockchain wordt gedownload, of je kunt je externe schijf kiezen. Ik raad aan om het standaardpad niet te veranderen als je de interne schijf gaat gebruiken, dat maakt het makkelijker om dingen in te stellen als je andere software installeert om met de Bitcoin core te communiceren.
@@ -212,7 +214,7 @@ Je kunt ervoor kiezen om een pruned node te gebruiken, dat bespaart ruimte, maar
 Zodra je bevestigt, zal de Blockchain beginnen met downloaden. Dit zal vele dagen duren.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 
 Je kunt de computer afsluiten en terugkomen om te downloaden als je wilt, het zal geen schade aanrichten.

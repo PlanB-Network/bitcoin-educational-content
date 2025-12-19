@@ -1,0 +1,9 @@
+question: Which backups are required to restore a Lightning node?
+answer: seed and SCB
+wrong_answers:
+  - seed and txindex file
+  - seed and public IP address
+  - seed and 2FA
+explanation: |
+  Restoring a Lightning node requires both seed and SCB (Static Channel Backup), without which channel funds cannot be recovered.
+reviewed: true

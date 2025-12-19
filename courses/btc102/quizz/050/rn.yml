@@ -1,9 +1,9 @@
-question: Ni umuti uwuhe usabwa kugira ngo umuntu ashobore kwishura Bitcoin ku giciro gito?
+question: Ni umuti uwuhe asabwa kugira ngo umuntu ashobore kuriha Bitcoin ku giciro gito?
 answer: Lightning Network.
 wrong_answers:
   - Hardware Wallet.
   - Konti ya banki
   - RGB Layer.
 explanation: |
-  Umuravyo ushoboza gucuruza vyihuta kandi bitazimvye ku musi ku musi. Ni igikoresho ciza cane ku muntu akoresha cane.
+  Umuravyo ushoboza gucuruza vyihuta kandi bitazimvye ku musi ku musi. Ni igikoresho ciza cane ku muntu akoresha kenshi kandi cane.
 reviewed: false

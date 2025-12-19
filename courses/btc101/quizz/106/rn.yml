@@ -1,11 +1,13 @@
-question: Ni kuki ari vyiza kwirinda gusiga Bitcoins zawe ku mbuga za Exchange?
-answer: Bashobora guterwa n’abanyaruyeri.
+question: Ni igiki kibuza abantu bose gukoresha Bitcoin Wallet imwe?
+answer: Abantu batandukanye barakeneye use-cases zitandukanye.
 wrong_answers:
-  - Ama platforms ya Exchange asaba amahera ataco amaze.
-  - Bitcoin iratakaza agaciro ku bibanza vya Exchange.
-  - Ivyuma vya Exchange si ikigo gitegekanijwe.
+  - Birazimvye gukoresha Bitcoin Wallet.
+  - Ni ibintu bitemewe gukoresha Bitcoin Wallet.
+  - Abantu ntibazokwigera bemeranya kw’izina ry’iyo Wallet.
 explanation: |
-  Ni vyiza ko wirinda gusiga Bitcoins zawe kuri Exchange.
-  platforms kuko zishobora gufatwa n'abasuma
-  ibitero.
+  Naho umuntu umwe yoshobora gushira imbere umutekano, uwundi yoshobora .
+  agaciro ukoresha-ubugenzi canke ibiranga vyihariye. Ni co gituma, a
+  Bitcoin Wallet imwe yoshobora kutaronka ivyo umuntu wese akeneye
+  ibisabwa, bikaba bikenewe ko haba Wallet nyinshi.
+  amahitamwo yo kubaho.
 reviewed: true

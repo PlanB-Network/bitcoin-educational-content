@@ -1,0 +1,8 @@
+question: Vilken grundläggande begränsning i UTXO-modellen kräver särskild hantering när Bitcoin används?
+answer: UTXO måste förbrukas i sin helhet och kan inte förbrukas delvis
+wrong_answers:
+  - UTXO kan bara användas en gång per block för att förhindra dubbla utgifter
+  - UTXO måste spenderas i kronologisk ordning baserat på skapelsetid
+  - UTXO kräver flera signaturer från olika nycklar för att vara giltiga
+explanation: |
+  UTXO-modellen har en grundläggande begränsning som innebär att outnyttjade transaktionsutgångar måste förbrukas helt och hållet - det finns ingen mekanism för partiella utgifter. När du behöver spendera mindre än hela UTXO-beloppet måste du skapa en transaktion som spenderar hela UTXO och inkluderar en ändringsutmatning tillbaka till dig själv för återstoden. De andra alternativen beskriver obefintliga begränsningar: UTXO:er kan spenderas flera gånger per block (olika UTXO:er), kräver inte kronologisk ordning och behöver vanligtvis bara en giltig signatur om de inte specifikt utformats som multisig.

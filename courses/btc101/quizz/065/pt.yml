@@ -1,12 +1,12 @@
-question: Quais princípios econômicos o Bitcoin segue?
-answer: Princípios da economia Austríaca.
+question: Quais são as três principais funções de uma carteira de Bitcoin?
+answer: Receber bitcoins, enviar bitcoins, protegê-los contra tentativas de hacking e roubo.
 wrong_answers:
-  - Princípios da economia Keynesiana.
-  - Princípios da economia Marxista.
-  - Princípios da economia Neoclássica.
+  - Armazenar bitcoins, enviar bitcoins, protegê-los contra tentativas de hacking e roubo.
+  - Permitir receber bitcoins, armazenar bitcoins, protegê-los contra tentativas de hacking e roubo.
+  - Permitir receber bitcoins, permitir enviar bitcoins, vender bitcoins.
 explanation: |
-  O Bitcoin segue os princípios da economia Austríaca.
-  Sua quantidade limitada e a falta de uma entidade central protegem-no
-  dos riscos inerentes de inflação que são vistos em
-  moedas tradicionais.
+  Uma carteira de Bitcoin é usada para interagir com a
+  rede Bitcoin. Suas três principais funções são permitir o recebimento
+  de bitcoins, permitir o envio de bitcoins e protegê-los contra
+  tentativas de hacking e roubo.
 reviewed: true

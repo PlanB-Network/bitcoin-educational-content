@@ -1,10 +1,11 @@
-question: Apa itu BTCMap?
-answer: Sebuah platform yang mencantumkan semua pedagang yang menerima Bitcoin
+question: Apa salah satu cara untuk memfasilitasi penggunaan Bitcoin dalam transaksi sehari-hari?
+answer: Daftarkan semua pedagang yang menerima Bitcoin
 wrong_answers:
-  - Sebuah peta dari semua tambang Bitcoin di dunia
-  - Sebuah peta dari semua bursa Bitcoin di dunia
-  - Sebuah peta dari semua pengguna Bitcoin di dunia
+  - Meningkatkan harga Bitcoin
+  - Mengurangi jumlah Bitcoin
+  - Membatasi penggunaan Bitcoin
 explanation: >-
-  BTCMap adalah proyek sumber terbuka dan kolaboratif yang mencantumkan semua
-  pedagang yang menerima Bitcoin serta berbagai komunitas Bitcoin di
-  seluruh dunia.
+  Salah satu cara untuk memfasilitasi penggunaan Bitcoin dalam transaksi sehari-hari adalah
+  dengan mendaftarkan semua pedagang yang menerima Bitcoin. Hal ini dapat dilakukan melalui platform
+  seperti BTCMap.
+reviewed: false

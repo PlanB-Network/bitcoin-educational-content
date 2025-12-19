@@ -1,13 +1,13 @@
-question: Ni intumbero nyamukuru iyihe yatumye Bitcoin iremwa?
-answer: Kugira ngo Leta itandukanye n’amahera.
+question: Ni ingaruka izihe uburyo bw’ivy’ubutunzi buriho ubu bushobora kugira ku bagize politike?
+answer: Ntibavyurirwa umutima wo guhindura cane, ivyo bikaba bituma iyo nzira ibandanya gushika aho ishobora gusenyuka.
 wrong_answers:
-  - Kugira ngo hakurweho ikigereranyo c’inzahabu.
-  - Kugira ngo amafaranga yihuta kandi ahenduke.
-  - Kugira ngo umuntu wese abe umutunzi.
+  - Bararemeshwa guhindura cane kugira ngo ntihagire ikintu gishobora gutera.
+  - Ntibaremeshwa gukomeza uko bari kugira ngo bashobore kwironsa ubutunzi bwabo bwite.
+  - Baravyurirwa umutima wo kwiyumvira ivy’igihe kirekire.
 explanation: |
-  Bitcoin yashinzwe n'intumbero yo gutandukanya Leta .
-  biva ku mahera. Ni inyishu y’ingorane z’urutonde rw’
-  uburyo bw’ivy’ubutunzi buriho ubu, aho Leta ifise .
-  kugenzura amahera Supply kandi ashobora kuyakoresha kugira ngo
-  akarusho k’umuntu bwite.
+  Uko abakora politike bungukirwa n’ivy’ubutunzi biriho ubu .
+  system, ntibavyurirwa umutima wo guhindura cane.
+  Ivyo bituma iyo sisitemu ibandanya inzira yayo gushika a .
+  implosion bishoboka, nk’uko urutonde rutunganijwe kandi
+  ry’uburenganzira kugira ngo ryirinde gusenyuka kwaryo bwite.
 reviewed: true

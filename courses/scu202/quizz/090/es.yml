@@ -6,4 +6,4 @@ wrong_answers:
   - 9050
 explanation: |
   El puerto 8333 es el puerto estándar utilizado por los nodos Bitcoin para las conexiones peer-to-peer con Mainnet.
-reviewed: false
+reviewed: true

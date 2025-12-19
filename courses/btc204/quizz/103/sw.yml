@@ -5,6 +5,6 @@ wrong_answers:
   - Kwa kuzidisha entropy halisi ya shughuli kwa idadi ya pembejeo na matokeo.
   - Kwa kulinganisha idadi ya pembejeo na idadi ya matokeo.
 explanation: |
-  Ufanisi wa shughuli huhesabiwa kwa kuondoa entropy ya juu kutoka kwa entropy halisi ya shughuli iliyochambuliwa.
+  Ufanisi wa shughuli uhesabiwa kwa kuondoa entropy ya juu kutoka kwa entropy halisi ya shughuli iliyochambuliwa.
   
-reviewed: false
+reviewed: true

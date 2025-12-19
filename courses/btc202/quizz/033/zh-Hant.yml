@@ -1,0 +1,9 @@
+question: 誰在維護 Bitcoin Knots 專案？
+answer: Luke Dashjr
+wrong_answers:
+  - Gavin Andresen
+  - Wladimir J. Van Der Laan
+  - Pieter Wuille
+explanation: |
+  Bitcoin Knots 由 Luke Dashjr 維護，是 Bitcoin core 的主要替代用戶端。
+reviewed: true

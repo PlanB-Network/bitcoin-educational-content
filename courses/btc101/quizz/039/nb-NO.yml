@@ -1,11 +1,12 @@
-question: Hva er hovedmålet med Bitcoin?
-answer: Å skille staten fra penger
+question: Hva er den potensielle innvirkningen av det nåværende finanssystemet på politiske aktører?
+answer: De er ikke motiverte til å gjøre radikale endringer, noe som tillater systemet å fortsette sitt løp til en mulig implosjon.
 wrong_answers:
-  - Å erstatte gull som den globale standarden
-  - Å gjøre transaksjoner raskere og billigere
-  - Å gjøre alle rike
+  - De er motiverte til å gjøre radikale endringer for å forhindre en mulig implosjon.
+  - De er ikke motiverte til å opprettholde status quo for å sikre sin egen rikdom.
+  - De er motiverte til å tenke langsiktig.
 explanation: |
-  Bitcoin ble skapt med målet om å skille staten fra penger.
-  Dette er som et svar på de systemiske utfordringene i det nåværende finanssystemet,
-  hvor staten har kontroll over pengetilførselen og kan manipulere den til sin fordel.
+  Siden politiske aktører drar nytte av det nåværende finanssystemet, er de
+  ikke motiverte til å gjøre radikale endringer. Dette tillater systemet å fortsette sitt
+  løp til en mulig implosjon, ettersom systemet er regulert og begrenset for
+  å unngå kollaps.
 reviewed: true

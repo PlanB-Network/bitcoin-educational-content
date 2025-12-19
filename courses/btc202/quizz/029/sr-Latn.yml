@@ -1,0 +1,9 @@
+question: Koja je glavna karakteristika Full node?
+answer: Preuzima i validira ceo Blockchain
+wrong_answers:
+  - Zadržava samo zaglavlja blokova
+  - Briše stare blokove nakon verifikacije
+  - To zavisi od drugog čvora za validaciju transakcija
+explanation: |
+  Full node zadržava ceo Blockchain i validira svaki blok i transakciju nezavisno.
+reviewed: true

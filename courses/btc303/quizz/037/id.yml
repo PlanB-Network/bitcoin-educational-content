@@ -1,0 +1,9 @@
+question: Apa masalah utama yang membuat upgrade Segwit berbeda dari upgrade Bitcoin sebelumnya?
+answer: Penambang tidak memberi sinyal dukungan meskipun ada dukungan pengguna yang luar biasa, menghambat proses aktivasi
+wrong_answers:
+  - Peningkatan ini membutuhkan fork keras alih-alih metode implementasi fork lunak yang biasa digunakan
+  - Bug teknis dalam kode Segwit mencegah penyebaran yang aman sampai bug tersebut diselesaikan
+  - Simpul-simpul ekonomi menolak peningkatan tersebut karena kekhawatiran akan peningkatan biaya transaksi
+explanation: |
+  Upgrade Segwit sangat unik karena menghadapi masalah koordinasi di mana terdapat dukungan yang sangat besar di antara para pengguna Bitcoin, tetapi para penambang menolak untuk memberikan sinyal dukungan untuk upgrade tersebut. Hal ini menciptakan situasi buntu di mana peningkatan tidak dapat diaktifkan melalui mekanisme fork lunak yang diaktifkan oleh penambang normal. Upgrade sebelumnya relatif tidak menimbulkan rasa sakit karena mendapat dukungan dari pengguna dan penambang. Situasi ini mengarah pada proposal User Activated Soft Forks (UASF) sebagai mekanisme aktivasi alternatif yang tidak bergantung pada sinyal penambang, yang menyoroti ketegangan antara pemangku kepentingan yang berbeda dalam ekosistem Bitcoin.
+reviewed: false

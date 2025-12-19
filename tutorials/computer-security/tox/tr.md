@@ -1,5 +1,5 @@
 ---
-name: Toksikoloji
+name: Tox
 description: Merkezi olmayan Tox protokolünde aracılar olmadan konuşmalar açın
 ---
 ![cover](assets/cover.webp)
@@ -50,7 +50,7 @@ Tox protokolünün kullandığı teknoloji, blok zincirleri gibi eşler arası a
 
 
 
-Tox protokolünü [Tox Chat sitesi] (https://tox.chat) adresinden indirebileceğiniz bir anlık mesajlaşma istemcisi aracılığıyla kullanabilirsiniz.
+Tox protokolünü [Tox Chat sitesi](https://tox.chat) adresinden indirebileceğiniz bir anlık mesajlaşma istemcisi aracılığıyla kullanabilirsiniz.
 
 
 
@@ -74,7 +74,7 @@ Tox protokolünü [Tox Chat sitesi] (https://tox.chat) adresinden indirebileceğ
 
 
 
-- qTox: Windows, Linux, MacOs'ta bulunan Qt Framework (C++) tabanlı [açık kaynak] (https://github.com/TokTok/qTox) adresinden bir Tox istemcisi.
+- qTox: Windows, Linux, MacOs'ta bulunan Qt Framework (C++) tabanlı [açık kaynak](https://github.com/TokTok/qTox) adresinden bir Tox istemcisi.
 
 
 
@@ -120,7 +120,7 @@ Tebrikler, Tox protokolüne yeni katıldınız. QTox yazılımında, kullanıcı
 
 
 
-Tox profil dosyanızı dışa aktarın, böylece profilinizin ve iletişim bilgilerinizin geri yüklemek için kullanabileceğiniz bir yedeğini almış olursunuz. Dışa Aktar** düğmesine tıklayın, ardından yedek dosyanızın yolunu seçin.
+Tox profil dosyanızı dışa aktarın, böylece profilinizin ve iletişim bilgilerinizin geri yüklemek için kullanabileceğiniz bir yedeğini almış olursunuz. **Dışa Aktar** düğmesine tıklayın, ardından yedek dosyanızın yolunu seçin.
 
 
 
@@ -128,7 +128,7 @@ Tox profil dosyanızı dışa aktarın, böylece profilinizin ve iletişim bilgi
 
 
 
-Daha fazla** menüsünden arkadaş ekleyin, kişileri içe aktarın ve aldığınız arkadaşlık isteklerini yönetin.
+**Daha fazla** menüsünden arkadaş ekleyin, kişileri içe aktarın ve aldığınız arkadaşlık isteklerini yönetin.
 
 
 
@@ -184,7 +184,7 @@ Tox istemciniz, anlık mesajlaşma uygulamaları tarafından sunulan tüm seçen
 
 
 
-Tox istemcileriniz ayrıca bir grup insanla tamamen merkezi olmayan bir şekilde iletişim kurmanızı sağlar: bunlara konferans denir. Gruplar** menüsünde yeni bir konferans oluşturun veya aldığınız konferanslara katılma davetlerinin listesine bakın.
+Tox istemcileriniz ayrıca bir grup insanla tamamen merkezi olmayan bir şekilde iletişim kurmanızı sağlar: bunlara konferans denir. **Gruplar** menüsünde yeni bir konferans oluşturun veya aldığınız konferanslara katılma davetlerinin listesine bakın.
 
 
 
@@ -192,7 +192,7 @@ Tox istemcileriniz ayrıca bir grup insanla tamamen merkezi olmayan bir şekilde
 
 
 
-Konferans oluşturulduktan sonra, arkadaşlarınızı Tox istemciniz üzerinden konferansa katılmaya davet edebilirsiniz. Arkadaş listenizde, davet etmek istediğiniz arkadaşınızın kullanıcı adına sağ tıklayın. Konferansa davet et** seçeneğine tıklayın, ardından oluşturduğunuz konferans adını seçin. Ayrıca **Yeni bir konferans oluştur** seçeneği ile dolaylı olarak bir konferans oluşturarak da bir arkadaşınızı davet edebilirsiniz.
+Konferans oluşturulduktan sonra, arkadaşlarınızı Tox istemciniz üzerinden konferansa katılmaya davet edebilirsiniz. Arkadaş listenizde, davet etmek istediğiniz arkadaşınızın kullanıcı adına sağ tıklayın. **Konferansa davet et** seçeneğine tıklayın, ardından oluşturduğunuz konferans adını seçin. Ayrıca **Yeni bir konferans oluştur** seçeneği ile dolaylı olarak bir konferans oluşturarak da bir arkadaşınızı davet edebilirsiniz.
 
 
 
@@ -208,7 +208,7 @@ Konferans oluşturulduktan sonra, arkadaşlarınızı Tox istemciniz üzerinden 
 
 
 
-Dosya aktarımları** menüsünde, gönderdiğiniz ve kişilerinizden aldığınız dosyaların bir geçmişini bulacaksınız.
+**Dosya aktarımları** menüsünde, gönderdiğiniz ve kişilerinizden aldığınız dosyaların bir geçmişini bulacaksınız.
 
 
 
@@ -254,13 +254,13 @@ Interface ayrıntılarından, alıcınıza verdiğiniz yetkileri yönetebilirsin
 
 
 
-Ayarlar** menüsünde Tox istemcinizin ayarlarını özelleştirebilirsiniz.
+**Ayarlar** menüsünde Tox istemcinizin ayarlarını özelleştirebilirsiniz.
 
 
 
 
 
-- Genel** bölümünde, Tox istemcinizin temel dilini değiştirin, dosya yedekleme yollarını ve otomatik olarak kabul edilecek maksimum dosya boyutunu tanımlayın.
+- **Genel** bölümünde, Tox istemcinizin temel dilini değiştirin, dosya yedekleme yollarını ve otomatik olarak kabul edilecek maksimum dosya boyutunu tanımlayın.
 
 
 
@@ -270,7 +270,7 @@ Ayarlar** menüsünde Tox istemcinizin ayarlarını özelleştirebilirsiniz.
 
 
 
-- Interface kullanıcısı** bölümünde, mesajlarınızın yazı tiplerini ve boyutlarını değiştirin. Tox istemcinizin temasını da değiştirebilirsiniz.
+- **Interface kullanıcısı** bölümünde, mesajlarınızın yazı tiplerini ve boyutlarını değiştirin. Tox istemcinizin temasını da değiştirebilirsiniz.
 
 
 
@@ -280,7 +280,7 @@ Ayarlar** menüsünde Tox istemcinizin ayarlarını özelleştirebilirsiniz.
 
 
 
-- Gizlilik** sekmesi, "Sohbet geçmişini tut" kutusunun işaretini kaldırarak geçici mesajlar tanımlamanıza olanak tanır. Ayrıca arkadaşlık istekleri tarafından spamlandığınızı fark ettiğinizde "generate rastgele NoSpam kodu" düğmesine tıklayarak Nospam kodunuzu değiştirebilirsiniz.
+- **Gizlilik** sekmesi, "Sohbet geçmişini tut" kutusunun işaretini kaldırarak geçici mesajlar tanımlamanıza olanak tanır. Ayrıca arkadaşlık istekleri tarafından spamlandığınızı fark ettiğinizde "generate rastgele NoSpam kodu" düğmesine tıklayarak Nospam kodunuzu değiştirebilirsiniz.
 
 
 
@@ -304,4 +304,4 @@ Tox'u keşfetmekten keyif aldıysanız ve gizliliğinizi güçlendirmek için na
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

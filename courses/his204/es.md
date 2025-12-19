@@ -1,35 +1,18 @@
 ---
 name: Los orígenes de la economía del laissez-faire
-goal: explorar los fundamentos del pensamiento económico liberal francés del siglo XVIII, centrándose en la doctrina del laissez-faire, sus principales pensadores y su influencia duradera.
-objectives: 
-
-
-  - Conozca a fondo los conceptos clave del pensamiento económico liberal francés y su evolución durante el siglo XVIII
-  - Comprender los argumentos de los pensadores franceses contra el intervencionismo estatal
-  - Evaluar el impacto de esta escuela francesa de pensamiento y su papel en la configuración del desarrollo de la economía política mundial
-  - Desarrollar una comprensión crítica de la continuidad histórica entre diferentes pensadores y sus teorías
-
-
+goal: Explore los fundamentos del pensamiento económico liberal del siglo XVIII, con énfasis en la doctrina del laissez-faire, sus principales pensadores y su influencia duradera.
+objectives:
+- Obtener una comprensión sólida de los conceptos clave del pensamiento económico liberal y cómo evolucionaron durante el siglo XVIII
+- Comprender los argumentos que los pensadores desarrollaron contra el intervencionismo estatal
+- Evaluar el impacto del pensamiento del laissez-faire en la configuración del desarrollo de la economía política global
+- Examinar la tensión entre teoría y práctica en la implementación de la economía liberal
 ---
-
 # Un viaje a la historia económica de la libertad
 
+Este curso explora el nacimiento de la ciencia económica en la Francia del siglo XVIII a través de la lente del laissez-faire. Descubrirás cómo los pensadores desafiaron el mercantilismo argumentando que el Estado debería proteger los derechos privados, pero nunca manipular los mercados mediante regulaciones.
 
-
-En la Francia de principios del siglo XVIII empezó a gestarse una nueva forma de concebir la economía. Surgió como respuesta al férreo control del Antiguo Régimen y giró en torno a una poderosa idea: *laissez-faire* - "dejar hacer".
-
-Se dice que la frase procede de una conversación entre un comerciante y el ministro Colbert. Cuando el ministro le preguntó: "¿Qué puede hacer el Gobierno para ayudar a su negocio?", el comerciante respondió: "Déjenos hacerlo a nosotros".
-
-
-Desde entonces, muchos pensadores empezaron a apoyar esta idea, creyendo que el papel del gobierno debería ser limitado. Debe proteger los derechos individuales, pero evitar intervenir en los asuntos económicos, por miedo a perturbarlo y destruirlo todo. En primer lugar, debe recaudar impuestos de manera justa y equitativa (Vauban, Boisguilbert). Después, debe abstenerse de manipular la moneda, devaluando su valor para financiarse a bajo coste (Cantillon tras el desastre de John Law; Dupont de Nemours antes del de los Assignats). Debe garantizar la libertad de trabajo, abolir los gremios y las regulaciones gravosas sobre la industria y el comercio, que obstaculizan el progreso económico (ideas apoyadas por d'Argenson, Gournay, los fisiócratas y Turgot).
-
-
-
-Por último, el Estado debe permitir la libre circulación de mercancías, lo que llevó a algunos a añadir al laissez-faire la expresión "laissez-passer", que permite a los consumidores comprar al mejor precio y favorece la paz y la fraternidad entre las naciones (Quesnay y los fisiócratas, Abad de Saint-Pierre). Al defender este ideal del laissez-faire, los economistas franceses del siglo XVIII sentaron las bases de la ciencia económica. Tras haber dominado su propia época, siguen teniendo el poder de guiar la nuestra.
-
-
+Aprenderás cómo los reformadores visionarios extendieron esta visión para exigir el libre comercio y la circulación irrestricta de bienes, sentando las bases intelectuales del capitalismo moderno. Al estudiar a estos economistas pioneros, comprenderás los principios atemporales que dieron forma a la economía política global y continúan influyendo en los debates políticos actuales. Únete ahora para dominar las ideas que construyeron la economía moderna.
 +++
-
 # Introducción
 
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>
@@ -88,7 +71,7 @@ Por último, veremos cómo se extendió el pensamiento económico liberal dentro
 En los albores del siglo XVIII, Francia se encontraba en una situación preocupante. Las poblaciones rurales apenas producían lo suficiente para sobrevivir y estaban sometidas a una fuerte presión fiscal.
 
 
-![image](assets/fr/001.webp)
+![image](assets/es/001.webp)
 
 
 
@@ -98,16 +81,16 @@ Los artesanos urbanos, encerrados en rígidos gremios, tenían dificultades para
 Pero, ¿cómo encontrar una solución a la enfermedad de la época? Todavía no existía una ciencia económica y, por tanto, no había una medicina especial que aplicar. Los principios de la política económica seguían aplicándose al azar, pasando de fases restrictivas a periodos más liberales. Ciertamente, tenemos modelos, referencias históricas a seguir. Entre ellos, *Sully*, ministro de Enrique IV, que abogó por la agricultura y promovió una mayor libertad de comercio dentro de Francia.
 
 
-![image](assets/fr/002.webp)
+![image](assets/es/002.webp)
 
 
-![image](assets/fr/003.webp)
+
 
 
 Pero entonces llegó Colbert, ministro de Luis XIV, que vaciló entre la regulación y la libertad, aunque finalmente impuso la regulación. A finales del siglo XVII, Colbert superó a Sully: los ministros invocaban ahora su legado e intentaban aplicar lo que, según ellos, eran sus máximas.
 
 
-![image](assets/fr/004.webp)
+![image](assets/es/003.webp)
 
 
 En la mente de los estadistas de finales del siglo XVII, las máximas de Colbert eran cuatro.
@@ -118,7 +101,7 @@ En la mente de los estadistas de finales del siglo XVII, las máximas de Colbert
 Había cientos de normas de este tipo, recopiladas en volúmenes específicos para cada tipo de industria. Sin embargo, a los ojos de los seguidores de Colbert, esto seguía siendo insuficiente: la industria, creían, también necesitaba ser supervisada por las corporaciones.
 
 
-![image](assets/fr/005.webp)
+![image](assets/es/004.webp)
 
 
 Quien deseaba ejercer un oficio debía pasar primero varios años como aprendiz, luego como oficial, antes de intentar alcanzar la categoría de maestro produciendo una "obra maestra" y pagando una cantidad considerable al gremio. Por tanto, la competencia dentro de cada oficio estaba estrictamente limitada.
@@ -128,7 +111,7 @@ Quien deseaba ejercer un oficio debía pasar primero varios años como aprendiz,
 (2) **El comercio es un juego de suma cero**. En materia de comercio, los discípulos de Colbert compartían los mismos prejuicios que los pueblos bárbaros de la Antigüedad. Según el ministro de Luis XIV, el comercio es "una guerra perpetua". ¿Por qué? La razón es sencilla: para Colbert y sus sucesores, cualquier aumento de riqueza para un país significaba el empobrecimiento de otro. En su opinión, no se podía permitir que los ingleses o los holandeses se enriquecieran, porque eso significaría que estaban robando la prosperidad de Francia.
 
 
-![image](assets/fr/006.webp)
+![image](assets/es/005.webp)
 
 
 Por tanto, había que prohibir o gravar fuertemente los productos de estos países, sin escrúpulos, porque el comercio es una guerra en la que sólo podemos desear la ruina de nuestros enemigos.
@@ -140,13 +123,13 @@ Por tanto, había que prohibir o gravar fuertemente los productos de estos país
 (3) **Cuando al Estado le falta dinero, recauda más impuestos**. Colbert y sus discípulos estaban lejos de creer que la riqueza de los contribuyentes fuera un recurso limitado. En su opinión, el gasto público nunca podía ser un problema, siempre que se recaudara lo suficiente. Y si el pueblo se rebelaba, era simplemente porque los ministros lo habían hecho mal, ya que, como señalaba cínicamente Colbert, "el arte de los impuestos consiste en desplumar a las ocas sin hacerlas gritar demasiado".
 
 
-![image](assets/fr/007.webp)
+![image](assets/es/006.webp)
 
 
 (4) **La riqueza es, ante todo, oro y plata**. Antes del nacimiento de la ciencia económica, muchos escritores seguían un dogma dominante sobre la naturaleza de la riqueza, lo que llegó a conocerse como *mercantilismo*. Colbert y sus sucesores continuaron por este camino. En resumen, los mercantilistas creían que el verdadero signo de la prosperidad de una nación era la acumulación de metales preciosos, plata y oro.
 
 
-![image](assets/fr/008.webp)
+![image](assets/es/007.webp)
 
 
 
@@ -171,28 +154,28 @@ Hoy, mientras la presión fiscal en nuestro país sigue creciendo, amenazando co
 El primero de estos reformadores fiscales, cronológicamente y por sus méritos, es el gran mariscal Sébastien Le Prestre Vauban, famoso constructor de plazas fuertes y ciudadelas.
 
 
-![image](assets/fr/009.webp)
+![image](assets/es/008.webp)
 
 
-![image](assets/fr/010.webp)
+
 
 
 Aunque tristemente lo hayamos olvidado, Vauban era algo más que un militar: era también un economista. Interesado por la suerte de los campesinos, propuso audaces reformas fiscales en 1695 (Projet de capitation - "el Proyecto de Capitación") y de nuevo en 1707 (Projet d'une Dime Royale - "el Diezmo Real"): sustituir la mayoría de los impuestos existentes por un impuesto proporcional a la renta, un impuesto plano antes de tiempo.
 
 
-![image](assets/fr/011.webp)
+![image](assets/es/009.webp)
 
 
 Vauban llegó a estas ideas por curiosidad. Era un gran observador, que se esforzaba por estudiar la vida social y la realidad económica con rigor, casi científicamente. Insistió especialmente en la necesidad de contar, mediante censos.
 
 
-![image](assets/fr/012.webp)
+![image](assets/es/010.webp)
 
 
 Su segundo gran mérito fue su conmovedora y honesta descripción de la miseria soportada por las masas. Escribió: "No nos engañemos; el corazón del reino está arruinado. Todo sufre, todo soporta, todo gime. Basta con mirar y examinar el corazón de las provincias, lo que encontraréis es aún peor que lo que estoy diciendo". Lejos de exagerar, las sombrías observaciones de Vauban eran un fiel reflejo de la vida de principios del siglo XVIII. Alexis de Tocqueville conocía bien estas ideas, y más tarde describiría el *Diezmo Real* de Vauban como "espantoso", porque era cierto.
 
 
-![image](assets/fr/013.webp)
+![image](assets/es/011.webp)
 
 
 El otro gran mérito de Vauban como economista fue proponer una profunda reforma fiscal destinada a erradicar, o al menos reducir la intensidad del mal que observaba y describía. Tenía razón: la economía francesa del Antiguo Régimen estaba paralizada por una fiscalidad desigual, inestable e ilegible.
@@ -203,7 +186,7 @@ A través de sus diversos escritos políticos y económicos, la ambición primor
 
 
 
-![image](assets/fr/014.webp)
+
 
 
 
@@ -235,7 +218,7 @@ Poco antes de su muerte, la idea de Vauban fue adoptada por los ministros de Lui
 Pocos economistas franceses del pasado gozan hoy de un reconocimiento en su patria a la altura de sus aportaciones, y Boisguilbert no es una excepción.
 
 
-![image](assets/fr/015.webp)
+![image](assets/es/012.webp)
 
 
 Poco apreciado por los lectores de su época, alejado de los círculos de poder por su carácter excéntrico y su pasión desbordante, Boisguilbert dejó poca huella en el siglo XVIII. Sin embargo, a principios del siglo pasado se ha producido un lento redescubrimiento de su obra.
@@ -248,10 +231,10 @@ Sin embargo, este redescubrimiento demuestra que estamos entrando en una especie
 (Pierre Le Pesant de) Boisguilbert nació en Ruán en 1646. Educado en Port-Royal (París), Boisguilbert inició una carrera literaria sin éxito antes de asumir diversas funciones, entre ellas la de Lugarteniente General de Ruán. Durante esta época escribió varios libros para defender sus ideas, entre ellos "Détail de la France" en 1695, que volvió a publicar al año siguiente con un título mucho más explícito: [*Francia arruinada bajo el reinado de Luis XIV, por quién y cómo, con los medios para restaurarla](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
-![image](assets/fr/016.webp)
+![image](assets/es/013.webp)
 
 
-![image](assets/fr/017.webp)
+
 
 
 Y ésta es la base de los libros de Boisguilbert: La pobreza francesa y sus causas.
@@ -274,7 +257,7 @@ En primer lugar, el pueblo ya no podía permitirse consumir artículos de primer
 La segunda razón de la miseria de Francia es que demasiados obstáculos impedían el libre comercio de mercancías, sobre todo agrícolas. Había derechos de aduana en las fronteras e incluso dentro del país, entre las distintas regiones, que paralizaban todo el comercio. Estas restricciones impedían el establecimiento de un precio de equilibrio y limitaban las oportunidades del mercado. En consecuencia, los campesinos no podían vivir de su producción, porque no podían vender de forma rentable y sufrían unos precios agrícolas poco remuneradores, una preocupación que sigue siendo muy pertinente hoy en día y que constituye el núcleo de la teoría de Boisguilbert. En cuanto a las restricciones comerciales, Boisguilbert abogaba por despejar los caminos, es decir, establecer el libre comercio.
 
 
-![image](assets/fr/018.webp)
+![image](assets/es/014.webp)
 
 
 Y la libertad es, en efecto, su conclusión final. "No se trata de actuar", dice, "sino simplemente de dejar de actuar como lo hacemos tan violentamente contra la naturaleza, que siempre tiende a la libertad y a la perfección". Todo irá bien, repite incansablemente, "siempre que dejemos que la naturaleza siga su curso, es decir, que le demos su libertad, y que nadie interfiera en este comercio salvo para ofrecer protección a todos e impedir la violencia".
@@ -295,19 +278,19 @@ Boisguilbert llegó a criticar a las "*almas buenas*", como él las llamaba, aqu
 Autor del "Ensayo sobre la naturaleza del comercio en general" (escrito hacia 1730 y publicado en 1755), Richard Cantillon está considerado uno de los pioneros de la ciencia económica moderna. En su Historia del pensamiento económico, el economista Murray Rothbard se refiere incluso a Cantillon como el fundador de la economía moderna.
 
 
-![image](assets/fr/019.webp)
+![image](assets/es/015.webp)
 
 
 Nacido en Irlanda, Richard Cantillon se instaló de joven en París y adquirió la nacionalidad francesa. Trabajó como banquero y amasó una fortuna durante la época de John Law.
 
 
-![image](assets/fr/020.webp)
+![image](assets/es/016.webp)
 
 
 Fue también en esta ocasión cuando comenzó a estudiar teoría económica. Hacia 1730, Cantillon compuso su Ensayo sobre la naturaleza del comercio en general.
 
 
-![image](assets/fr/021.webp)
+
 
 
 Este libro puede considerarse como uno de los primeros intentos de crear una teoría general de la economía. Cantillon se preocupa de identificar lo que él llama "leyes generales de la economía", las que están en la naturaleza de las cosas, y no en los hechos particulares de tal o cual país. Este enfoque fue revolucionario.
@@ -331,7 +314,7 @@ Tercer punto, la **divisa**.
 Como reacción a la experiencia de John Law, Cantillon explica lo que ocurre o debe ocurrir cuando la moneda carece de valor real.
 
 
-![image](assets/fr/022.webp)
+![image](assets/es/017.webp)
 
 
 Ve dos consecuencias principales en la sustitución de una moneda sin valor real como el papel moneda por una metálica. La primera consecuencia es lo que denomina "rechazo popular", es decir, una creciente desconfianza hacia el dinero sin valor. La segunda consecuencia es la inflación: el debilitamiento monetario encarece los bienes.
@@ -364,22 +347,22 @@ Con esta teoría sobre los efectos de la inflación, Cantillon nos proporciona r
 De todos los autores que hemos decidido incluir en el panteón de pensadores franceses del laissez-faire del siglo XVIII, el Abad de Saint-Pierre es sin duda el más olvidado.
 
 
-![image](assets/fr/023.webp)
+![image](assets/es/018.webp)
 
 
 Para ser justos, en parte es culpa suya. Escribió mucho, pero su estilo es Hard de leer y está lleno de repeticiones. Incluso Jean-Jacques Rousseau intentó resumir su obra: empezó a hacerlo, pero pronto abandonó la tarea, pues se dio cuenta de que estaba por encima de sus fuerzas. A mediados del siglo XIX, Gustave de Molinari le rindió homenaje publicando una obra exhaustiva sobre él, en la que rinde tributo al pacifista y economista que fue el abad de Saint-Pierre. Pero esto no bastó para sacarle del olvido, pues aún hoy permanece en él.
 
 
-![image](assets/fr/024.webp)
+![image](assets/es/019.webp)
 
 
-![image](assets/fr/025.webp)
+
 
 
 El Abad de Saint-Pierre escribió sobre economía, pero es más bien como pacifista como suele interesar. Es autor de un Proyecto de Paz Perpetua, anterior al conocido de Emmanuel Kant.
 
 
-![image](assets/fr/026.webp)
+![image](assets/es/020.webp)
 
 
 En esta obra sostenía que la guerra es destructiva, no sólo para quienes la pierden, sino también para los vencedores, e incluso para quienes no participan en ellas, ya que su comercio se ve afectado.
@@ -391,19 +374,19 @@ Para combatir el azote de la guerra, recomendó la creación de una especie de L
 También hay un episodio en la vida del Abad de Saint-Pierre que ilustra perfectamente la mentalidad crítica que subyace al movimiento francés del laissez-faire. Ingresó en la Academia Francesa en 1695, pero fue expulsado en 1718 por atreverse a criticar el reinado de Luis XIV. Se alineó así con figuras como Vauban y Boisguilbert, que también se habían atrevido a denunciar las miserias ocultas bajo el esplendor del reinado del Rey Sol.
 
 
-![image](assets/fr/027.webp)
+![image](assets/es/021.webp)
 
 
 El abad de Saint-Pierre argumentó que el reinado de Luis XIV, con su lujosa corte y su obsesión por la conquista militar, no era la marca de un rey virtuoso. Se niega a aceptar que Luis XIV merezca el título de "Luis el Grande".
 
 
-![image](assets/fr/028.webp)
+
 
 
 "Arruinar al prójimo y al pueblo al mismo tiempo no es grandeza", dijo. Esta postura ofendió profundamente a la Academia Francesa, que durante mucho tiempo se había preocupado de glorificar al rey en todas las formas literarias posibles. En consecuencia, votaron casi unánimemente su expulsión.
 
 
-![image](assets/fr/029.webp)
+![image](assets/es/022.webp)
 
 
 En cuanto al pensamiento económico, aplicó sistemáticamente el principio de utilidad, como haría más tarde Jeremy Bentham, y a menudo ofreció ideas acertadas. Para ser justos, todavía estaba influido por las ideas mercantilistas, de las que nadie se había desprendido del todo en aquella época.
@@ -414,7 +397,7 @@ Sin embargo, el Abad de Saint-Pierre hizo algunas observaciones acertadas sobre 
 
 > "Cuando se realiza una venta entre comerciantes, el vendedor sale ganando, y también el comprador; pues si no hubiera algún beneficio real o percibido por ambas partes, ni el vendedor vendería a tal o cual precio, ni el comprador, por su parte, compraría a tal precio".
 
-![image](assets/fr/030.webp)
+![image](assets/es/023.webp)
 
 
 También destacó, antes que Vincent de Gournay, el valor del trabajo y la importancia de mantenerlo atractivo. "Todo trabajo es difícil", escribió. "Y cuando un hombre ve que su trabajo no le paga nada, o no lo suficiente, se vuelve ocioso y no se molestará en realizar esfuerzos innecesarios". Más tarde, el marqués de Argenson, Vincent de Gournay y los fisiócratas se harían eco de este mismo argumento al criticar las regulaciones onerosas y los sistemas gremiales. Argumentaban que tales restricciones desalentaban a los trabajadores, causaban dificultades innecesarias y, a la larga, hacían que la ociosidad pareciera más atractiva que el esfuerzo productivo en tales condiciones.
@@ -430,13 +413,13 @@ También destacó, antes que Vincent de Gournay, el valor del trabajo y la impor
 El Marqués d'Argenson es un olvidado fundador de la doctrina del laissez-faire.
 
 
-![image](assets/fr/031.webp)
+![image](assets/es/024.webp)
 
 
 Redescubierta por August Oncken, autor de un libro sobre la doctrina del laissez-faire, laissez-passer, concluyó que d'Argenson desempeñó un papel fundamental en el nacimiento de esta idea.
 
 
-![image](assets/fr/032.webp)
+
 
 
 René-Louis Voyer, marqués de Argenson, nació en 1694. Comenzó su carrera política como asesor parlamentario y luego formó parte del Consejo de Estado.
@@ -445,7 +428,7 @@ René-Louis Voyer, marqués de Argenson, nació en 1694. Comenzó su carrera pol
 Treinta años antes que Adam Smith, d'Argenson ya defendía las ventajas de la división del trabajo y la especialización.
 
 
-![image](assets/fr/033.webp)
+![image](assets/es/025.webp)
 
 
 Criticó duramente las normativas que, a su juicio, intentaban cambiar las preferencias naturales de las distintas regiones. Por ejemplo, le desconcertaba que el gobierno quisiera producir telas y terciopelos en Tours, una ciudad pobre en aquella época, para igualar la calidad de los fabricados en la próspera Génova, famosa por sus artículos de lujo. Concluyó:
@@ -460,7 +443,7 @@ También reconoció otro de los principios centrales de Smith: la idea de que el
 Incluso antes que Adam Smith, comprendió que el interés propio conduce al interés general a través de la construcción de un orden natural espontáneo.
 
 
-![image](assets/fr/034.webp)
+![image](assets/es/026.webp)
 
 
 Comparó la sociedad con una colmena de abejas en la que cada insecto sigue su instinto. "De sus acciones", dijo precisamente, "resultó una gran acumulación para las necesidades de la pequeña sociedad; pero esto no se produjo por órdenes, ni por generales, que obligaron a cada individuo a seguir las opiniones de su líder". Esta es quizás la expresión más cercana en el pensamiento económico francés al famoso concepto de Adam Smith de la "mano invisible".
@@ -475,7 +458,7 @@ A decir verdad, le asombraba que a la gente le pareciera tan Hard entender, o m�
 A veces se desesperaba al ver lo poco que se entendían sus ideas.
 
 
-![image](assets/fr/035.webp)
+![image](assets/es/027.webp)
 
 
 El ideal de política económica que defendía era, pues, contrario a las tendencias de su época. Su ideal definía un papel esencialmente negativo para el Estado. "Todo lo que el comercio necesita es la eliminación de obstáculos. Sólo pide buenos jueces, castigo a los monopolios, protección igual para todos los ciudadanos, monedas estables y carreteras y canales". Esta fue la definición de un Estado mínimo, que se convertiría en uno de los fundamentos de la tradición francesa en economía política.
@@ -502,7 +485,7 @@ Sobre la cuestión del comercio de subsistencia, d'Argenson no tenía otra respu
 Vincent de Gournay fue uno de los primeros representantes del laissez-faire en Francia y uno de sus primeros defensores en la administración pública y en los círculos intelectuales. Por ello, merece mucho más reconocimiento en la historia del pensamiento económico del que suele recibir. He intentado destacar sus aportaciones en un libro reciente.
 
 
-![image](assets/fr/036.webp)
+![image](assets/es/028.webp)
 
 
 Nacido en el seno de una familia de comerciantes, Gournay se convirtió él mismo en un comerciante de éxito, amasando una considerable fortuna antes de conseguir un puesto en la administración francesa. En la Oficina de Comercio, fue un ferviente defensor de la libertad de trabajo y de comercio.
@@ -517,19 +500,19 @@ Lo que tenemos incluye:
 1. [Las observaciones](https://archive.org/details/traitessurlecomm0000chil) sobre la traducción de un libro del economista inglés Josiah Child;
 
 
-![image](assets/fr/037.webp)
+![image](assets/es/029.webp)
 
 
 2. "Observaciones" incluidas en el Examen de las ventajas e inconvenientes de la prohibición de tejidos estampados;
 
 
-![image](assets/fr/038.webp)
+
 
 
 3. "Observaciones sobre la Compañía de las Indias Orientales", anexo del abad Morellet a su Memoria sobre el estado actual de la Compañía de las Indias Orientales (1769);
 
 
-![image](assets/fr/039.webp)
+
 
 
 4. Y, sobre todo, varias memorias de su papel como Intendente de Comercio.
@@ -556,7 +539,7 @@ Por último, Gournay observa que los tipos de interés son más bajos en Inglate
 En todos estos puntos, Gournay desempeñó un papel clave en los debates intelectuales de mediados del siglo XVIII. Su defensa de la libertad económica precedió en una década a los fisiócratas y en veinte años a Adam Smith. Pero su influencia más duradera fue sobre Turgot. Gournay tomó bajo su protección al joven Turgot y le formó con sus ideas.
 
 
-![image](assets/fr/040.webp)
+![image](assets/es/030.webp)
 
 
 Años más tarde, Turgot, futuro ministro de Luis XVI, escribió un Éloge (elogio) en honor de su amigo tras su muerte. Y si Turgot nunca abrazó del todo la fisiocracia de François Quesnay, fue porque conservó un apego invencible a su primer maestro, Vincent de Gournay.
@@ -571,13 +554,13 @@ Años más tarde, Turgot, futuro ministro de Luis XVI, escribió un Éloge (elog
 Cuando se habla de los inicios de la ciencia económica, la historia tiende a destacar una primera escuela de pensamiento: los fisiócratas, liderados por François Quesnay y sus discípulos. Sin embargo, casi una década antes de su auge, hubo otro grupo menos formal pero igualmente importante, centrado en torno al economista Vincent de Gournay.
 
 
-![image](assets/fr/041.webp)
+![image](assets/es/031.webp)
 
 
 Como vimos en la parte anterior, a Gournay le fascinaba el ejemplo de naciones extranjeras como Inglaterra y Holanda. También admiraba a sus economistas, como Josiah Child, Johan de Witt y David Hume.
 
 
-![image](assets/fr/042.webp)
+![image](assets/es/032.webp)
 
 
 Esta admiración le llevó a traducir y encargar traducciones de sus escritos económicos.
@@ -593,14 +576,14 @@ Gracias a la colaboración de varios miembros del círculo de Gournay, muchos au
 - Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 ediciones en 4 años)
 
 
-![image](assets/fr/043.webp)
+![image](assets/es/033.webp)
 
 
 
 - Coyer's [Noblesse commerçante](https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (5 ediciones en 2 años)
 
 
-![image](assets/fr/044.webp)
+
 
 
 
@@ -613,7 +596,7 @@ El grupo también desempeñó un papel fundamental en la publicación de
 - [Ensayo sobre la naturaleza del comercio en general](https://archive.org/details/essayonnatureofc0000cant) de Richard Cantillon.
 
 
-![image](assets/fr/045.webp)
+![image](assets/es/034.webp)
 
 
 Este último libro, escrito hacia 1730, permaneció manuscrito tras la muerte del autor. Gournay, con la ayuda de sus amigos economistas, lo publicó en 1755. Según el abad Morellet, miembro del círculo, Gournay lo recomendó a todos los economistas que conocía.
@@ -622,13 +605,13 @@ Este último libro, escrito hacia 1730, permaneció manuscrito tras la muerte de
 La producción intelectual del círculo de Gournay tuvo una gran repercusión en la historia de las ideas. En este sentido, se les puede considerar los fundadores de la ciencia económica en Francia. Christine Théré, del INED, que ha estudiado la historia de las publicaciones económicas, ha constatado que entre 1750 y 1759 se publicaron nada menos que **349** obras sobre economía, frente a sólo **83** en toda la década anterior (1740-1749). Esta revolución de los años 1750 se debe en gran parte al círculo de Gournay.
 
 
-![image](assets/fr/046.webp)
+![image](assets/es/035.webp)
 
 
 Para difundir el gusto por las discusiones económicas entre la población francesa, Gournay y sus amigos se esforzaron por hacerlas accesibles a través de novelas. Tras el *Memoir on the Trades*, que criticaba a los gremios, Gournay y Cliquot-Blervache ayudaron a Gabriel-François Coyer a escribir una novela satírica corta titulada Chinki: [Un cuento cochinchino aplicable a otras naciones](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
-![image](assets/fr/047.webp)
+![image](assets/es/036.webp)
 
 
 La historia sigue al protagonista, Chinki, que se ve obligado a abandonar su tierra debido a los excesivos impuestos e intenta encontrar trabajo artesanal para sus hijos en la ciudad. Pero todos los oficios les están vedados debido a las abusivas regulaciones de los gremios, por lo que la historia retrata su creciente decepción a través de tonos humorísticos.
@@ -649,19 +632,19 @@ Y, en efecto, en la década de 1750, las cuestiones económicas se pusieron de m
 Francia ha conocido a dos hombres famosos llamados Mirabeau, un padre y un hijo, pero fue el hijo quien verdaderamente hizo historia. Tribuno revolucionario y una de las figuras centrales de los acontecimientos de la Revolución Francesa, siguió siendo famoso.
 
 
-![image](assets/fr/048.webp)
+![image](assets/es/037.webp)
 
 
 Por su talento y su lugar en la historia de Francia, hizo sombra a su padre, economista y pilar de la escuela de François Quesnay, que había sido su primer miembro ya en 1758.
 
 
-![image](assets/fr/049.webp)
+![image](assets/es/038.webp)
 
 
 De hecho, el marqués de Mirabeau ya había alcanzado una inmensa fama incluso antes de su adopción de la fisiocracia gracias a un libro titulado "El amigo de la humanidad. Tratado sobre la población [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Aunque la primera edición se publicó en 1756, se hizo famoso hacia 1757, un año antes de su encuentro con Quesnay.
 
 
-![image](assets/fr/050.webp)
+
 
 
 Entre 1757 y 1760 se publicaron más de 20 ediciones, lo que probablemente lo convierte en el libro de economía de más éxito de la historia. Algunos lectores llegaron a pensar que el libro había sido escrito por Montesquieu debido a su agudo razonamiento. El Delfín, padre del rey Luis XVI, llegó a afirmar que lo había memorizado. Durante un tiempo, fue el libro que todos leían en Versalles.
@@ -675,13 +658,13 @@ Hoy es un libro que ya no se lee, pero muchos siguen haciendo referencia a él. 
 Al principio de su carrera de economista, Mirabeau se inspiró en Richard Cantillon. Hacía 15 años que poseía un manuscrito del Ensayo sobre la naturaleza del comercio en general de Cantillon, que había analizado y comentado pacientemente.
 
 
-![image](assets/fr/051.webp)
+![image](assets/es/039.webp)
 
 
 L'Ami des Hommes fue concebido originalmente como un simple comentario sobre el Ensayo de Cantillon. Pero como Mirabeau tenía una mente un tanto ecléctica, es decir, francamente, un poco loca, se desvió rápidamente de su plan original. El libro se limita a tratar todas las cuestiones económicas que conocía, alejándose de vez en cuando de Cantillon. Es un libro difícil de leer, con un plan extraño y digresiones en cada capítulo. El propio Mirabeau admitió que era un caos y que su estilo era apocalíptico.
 
 
-![image](assets/fr/052.webp)
+
 
 
 A pesar del caos que supone, merece la pena destacar algunas ideas:
@@ -694,7 +677,7 @@ A pesar del caos que supone, merece la pena destacar algunas ideas:
 - Por último, defiende la libertad de comercio y la fraternidad de las naciones en paz.
 
 
-![image](assets/fr/053.webp)
+![image](assets/es/040.webp)
 
 
 Es Hard etiquetar las opiniones de Mirabeau como liberales o antiliberales. A menudo oscilaba, a veces sin darse cuenta, entre una visión y otra. Sin embargo, las ideas liberales dominaron con frecuencia sus escritos. Una de sus frases más famosas es:
@@ -705,7 +688,7 @@ Es Hard etiquetar las opiniones de Mirabeau como liberales o antiliberales. A me
 Con su mayor éxito a sus espaldas, Mirabeau fue cortejado. François Quesnay, que acababa de interesarse por la economía, le invitó a su entresuelo de Versalles.
 
 
-![image](assets/fr/054.webp)
+![image](assets/es/041.webp)
 
 
 Debatieron furiosamente y, finalmente, ocurrió algo que normalmente nunca sucede en los debates: Mirabeau admitió rotundamente que se había equivocado. Estuvo de acuerdo con las ideas de Quesnay y dijo que estaba dispuesto a difundirlas.
@@ -714,13 +697,13 @@ Debatieron furiosamente y, finalmente, ocurrió algo que normalmente nunca suced
 Juntos formaron el núcleo de lo que se convertiría en la escuela fisiocrática, reforzada por los reclutas regulares que aportaron. Poco después de la conversión de Mirabeau, Quesnay le pidió que defendiera sus ideas sobre la fiscalidad. Esto dio lugar a la ["Teoría de los impuestos"](https://archive.org/details/thoriedelimpot00mira), por la que Mirabeau fue enviado durante unos días a la prisión de Vincennes y luego exiliado a Bignon.
 
 
-![image](assets/fr/055.webp)
+![image](assets/es/042.webp)
 
 
 Mirabeau también desempeñó un papel crucial en el reclutamiento de nuevos miembros para la escuela de Quesnay. Incluso convenció al joven Dupont de Nemours.
 
 
-![image](assets/fr/056.webp)
+
 
 
 Fue también en casa de Mirabeau donde los fisiócratas se reunían todos los martes. Personalidades como Turgot y Adam Smith parecen haber asistido a estas reuniones una o varias veces.
@@ -738,13 +721,13 @@ Durante toda su vida, Mirabeau fue un escritor incansable. Es autor de numerosas
 François Quesnay es uno de los economistas franceses más famosos.
 
 
-![image](assets/fr/057.webp)
+![image](assets/es/043.webp)
 
 
 Su nombre figura en todos los manuales de economía y de historia del pensamiento económico. Se afirma que creó el "Tableau Économique" para representar esquemáticamente la economía, que fue el líder de la escuela fisiocrática, que se equivocó al creer que sólo la tierra es productiva y, por último, que Adam Smith vino a poner las cosas en su sitio. Así, más o menos, es como los manuales suelen resumir a François Quesnay.
 
 
-![image](assets/fr/058.webp)
+
 
 
 Reducirlo a esto es una lástima, porque Quesnay fue también el primer economista que intentó basar la defensa de la libertad económica en principios científicos. Fue uno de los economistas más escuchados e influyentes de su época. Además, fundó la fisiocracia, una doctrina mucho más rica que la idea simplista de que sólo la naturaleza produce riqueza, noción que a menudo se tergiversa.
@@ -762,7 +745,7 @@ Ganó fama en 1730, a los 36 años, por oponerse a la práctica común de la san
 En 1740 fue nombrado secretario de la Academia de Cirugía. En 1748, a la edad de 54 años, se convirtió en el médico personal de Madame de Pompadour y se trasladó a Versalles.
 
 
-![image](assets/fr/059.webp)
+![image](assets/es/044.webp)
 
 
 Estaba muy unido a Madame de Pompadour. Quesnay llegó a decir, en el momento en que se anunció la desgracia de la favorita, que no querría seguir siendo médico en Versalles sin ella:
@@ -776,13 +759,13 @@ Después publicó varios libros de medicina: Tratado de la supuración (1749), T
 A los 60 años, iniciado en los debates económicos de moda en la época, comienza a escribir sobre economía. En 1755, escribe los artículos "Los campesinos" y "El grano" para la *Encyclopédie*.
 
 
-![image](assets/fr/060.webp)
+![image](assets/es/045.webp)
 
 
 Se publicaron en 1757. Ese mismo año conoció al célebre Mirabeau y logró convertirlo a sus ideas económicas: había nacido el núcleo de la fisiocracia. Quesnay creó entonces el Tableau Économique, que se imprimió en las prensas reales, al parecer en presencia del propio rey en el castillo de Versalles. A partir de entonces, recibía regularmente a economistas y filósofos en su apartamento de Versalles, donde discutían libremente. Quesnay también contribuyó a la Teoría de la fiscalidad de Mirabeau, publicada en 1759.
 
 
-![image](assets/fr/061.webp)
+
 
 
 La censura no tardó en llegar. Mirabeau fue encarcelado y Quesnay amonestado. Después de eso, Quesnay se dio cuenta de que no podía publicar abiertamente y que necesitaría discípulos para difundir sus ideas.
@@ -799,13 +782,13 @@ Sin embargo, sus discípulos eran muy devotos y contribuyeron en gran medida a l
 Gracias al trabajo de sus colaboradores, sus ideas encontraron una plataforma: primero a través de periódicos como el *Journal of Agriculture* y el *Ephémérides du Citoyen*.
 
 
-![image](assets/fr/062.webp)
+![image](assets/es/046.webp)
 
 
 Luego, a través de los libros, no sólo los de sus discípulos, sino también una importante antología publicada en 1768 por Dupont de Nemours, titulada *Fisiocracia*.
 
 
-![image](assets/fr/063.webp)
+
 
 
 Este libro recogía las principales aportaciones de Quesnay. En él se expone el ideal económico del líder de los fisiócratas: un modelo de economía agraria en el que la ley garantiza a todos el derecho a la propiedad y la libertad de comercio.
@@ -829,10 +812,10 @@ La fisiocracia se puso de moda en Francia, e incluso en toda Europa, durante ape
 Sus orígenes se encuentran en la evolución de las ideas económicas durante la década de 1750. Varios autores contribuyeron a tender puentes entre Boisguilbert y lo que más tarde se conocería como fisiocracia. Como ya se ha dicho, Vincent de Gournay y su círculo de economistas están detrás de muchas publicaciones que introdujeron a los lectores franceses en el pensamiento económico extranjero y ayudaron a encender su pasión por la economía. Los fundamentos de la fisiocracia ya estaban presentes en libros como "Détail de la France" de Boisguilbert y ["Ensayo sobre la naturaleza del comercio en general"](https://archive.org/details/essaisurlanature0000cant) de Cantillon.
 
 
-![image](assets/fr/064.webp)
+![image](assets/es/047.webp)
 
 
-![image](assets/fr/065.webp)
+
 
 
 El concepto de laissez-faire tuvo varios defensores desde Boisguilbert, especialmente Vincent de Gournay y el marqués d'Argenson.
@@ -844,24 +827,24 @@ Lo que quedaba era convertir este conjunto de ideas en una doctrina coherente y 
 Así, en 1756, pudo comenzar la historia de la fisiocracia. François Quesnay, entonces cirujano convertido en médico personal de Madame de Pompadour, invitó a Mirabeau a Versalles para discutir ideas económicas.
 
 
-![image](assets/fr/066.webp)
+![image](assets/es/048.webp)
 
 
 Al final de la conversación, Mirabeau se muestra de acuerdo con las ideas de Quesnay. A partir de entonces, escribieron: Quesnay creó el *Tableau économique* (1758) para ilustrar el flujo de la riqueza en la economía, y juntos publicaron la Teoría de los impuestos (1759).
 
 
-![image](assets/fr/067.webp)
 
 
 
-![image](assets/fr/068.webp)
+
+
 
 
 Sus esfuerzos no fueron bien acogidos. En la corte, la reacción predominante fue la indiferencia. El Rey reconoció la inclinación de Quesnay por la teoría y le llamó cariñosamente "mi pensador". Pero aparte de ese cumplido, su trabajo no obtuvo ningún resultado. De hecho, su Teoría de los Impuestos ofendió a los administradores fiscales a los que criticaba, hasta el punto de que exigieron y consiguieron el encarcelamiento de Mirabeau. Madame de Pompadour acabó liberándolo, pero siguió viviendo en el exilio en su finca de Bignon durante unas semanas.
 
 
 
-![image](assets/fr/069.webp)
+![image](assets/es/049.webp)
 
 
 La primera mitad de la década de 1760 transcurre, pues, en un relativo silencio. Debido a su posición en Versalles, Quesnay se vio obligado a dejar de escribir, o al menos a no publicar nada bajo su propio nombre. Mirabeau, ya condenado en una ocasión, estaba advertido y era muy consciente de que el favorito del rey no podría protegerle eternamente.
@@ -871,7 +854,7 @@ La primera mitad de la década de 1760 transcurre, pues, en un relativo silencio
 Tras este breve silencio, los dos economistas empezaron a reclutar discípulos: era la única manera de popularizar sus ideas. En 1765, sus éxitos son notables. Dupont de Nemours, Abeille, Mercier de la Rivière, Le Trosne y Baudeau se unieron rápidamente a sus filas. Formaron escuela: tenían su propia revista, *Les Éphémérides du Citoyen*, e incluso se reunían todos los martes en casa de Mirabeau.
 
 
-![image](assets/fr/070.webp)
+![image](assets/es/050.webp)
 
 
 Entre 1765 y 1775, el grupo unido de los fisiócratas estuvo en la cima de su fama. El mundo literario y filosófico sólo tenía ojos para ellos, lo que permitió que sus ideas se difundieran amplia y rápidamente. La gente les llamaba "los economistas" o, más burlonamente, "la secta de los economistas". Independientemente del tono, su notoriedad era absoluta. En 1774, tras un viaje a Metz, M. de Vaublanc escribió en sus memorias su asombro: todo el mundo a su alrededor hablaba de economía y razonaba como los discípulos de Quesnay. "Estaba de moda", señala. "Todo el mundo era economista".
@@ -880,7 +863,7 @@ Entre 1765 y 1775, el grupo unido de los fisiócratas estuvo en la cima de su fa
 Sin embargo, hacia 1770, su popularidad empezó a decaer. El grupo experimentó sus primeras deserciones y su capacidad para resistir las críticas se debilitó. Condillac, Mably, Voltaire, Galiani, Linguet, Graslin, e incluso Adam Smith en Escocia, cuestionaron sus puntos de vista.
 
 
-![image](assets/fr/071.webp)
+![image](assets/es/051.webp)
 
 
 Su periódico dejó de publicarse con regularidad. Es el fin del periodo más activo del movimiento.
@@ -899,7 +882,7 @@ El término fisiocracia, que significa "gobierno por la naturaleza", fue acuñad
 
 
 
-![image](assets/fr/072.webp)
+![image](assets/es/052.webp)
 
 
 Se trata de una frase oscura. Ningún estudioso de Quesnay nos ha proporcionado su verdadero significado. Sin embargo, su sistema de pensamiento distaba mucho de ser oscuro. De hecho, estaba construido en torno a unos pocos principios muy claros, que esbozaremos aquí.
@@ -917,7 +900,7 @@ Sin embargo, es injusto criticar a los fisiócratas por dar una importancia desp
 
 
 
-![image](assets/fr/073.webp)
+![image](assets/es/053.webp)
 
 
 La idea de los fisiócratas es en realidad sutil. Según ellos, hay una diferencia entre producción y ganancia. El industrial y el comerciante pueden obtener beneficios, pero sólo el agricultor produce de verdad, porque la producción es la creación de material útil, más que la adición de utilidad a un material preexistente.
@@ -932,7 +915,7 @@ También debemos intentar comprender por qué rechazaban la industria y la artes
 Hoy, para insultar a alguien, decimos que no es demócrata. Aunque los historiadores perdonan a los fisiócratas su estricta visión de la productividad agrícola, no perdonan su oposición a la democracia, sobre todo porque vivieron durante el apogeo de las ideas de la Ilustración. Desde mediados del siglo XVIII hasta poco antes de la Revolución, los fisiócratas fueron considerados enemigos del progreso.
 
 
-![image](assets/fr/074.webp)
+![image](assets/es/054.webp)
 
 
 Tocqueville insistió en esta idea:
@@ -943,7 +926,7 @@ Tocqueville insistió en esta idea:
 Liberales en economía, los fisiócratas no lo eran en política. Quesnay escribe en sus *máximas*: "Que la autoridad soberana sea única y superior a todos los individuos de la sociedad y a todas las empresas injustas de los intereses privados" Y más adelante, en la misma máxima: "El sistema de frenos y contrapesos en el gobierno es una noción fatal, que sólo revela discordia entre los grandes y opresión de los pequeños".
 
 
-![image](assets/fr/075.webp)
+![image](assets/es/055.webp)
 
 
 Tocqueville señaló acertadamente que los fisiócratas rechazaban la democracia en cuanto veían sus formas. Se mostraban escépticos ante la democracia, que se convertiría en una constante de la economía política francesa, porque dista mucho de ser un sistema perfecto: permite potencialmente la opresión de las minorías por la mayoría y puede convertirse en una herramienta de usurpación, tiranía y expolio.
@@ -955,7 +938,7 @@ Tocqueville señaló acertadamente que los fisiócratas rechazaban la democracia
 Los fisiócratas creían que las personas debían poseer y conservar los resultados de su trabajo. En su opinión, los derechos de propiedad eran la base de la sociedad. Pensaban que el Estado tenía una misión principal: proteger la propiedad de las personas. Además, desde un punto de vista económico, los fisiócratas afirman que la inviolabilidad de la propiedad fomenta el trabajo y el esfuerzo y es una condición para el progreso económico.
 
 
-![image](assets/fr/076.webp)
+![image](assets/es/056.webp)
 
 
 Quesnay lo dijo simplemente:
@@ -973,7 +956,7 @@ En sus *Maxims* anteriormente citadas, Quesnay afirma:
 > Que haya completa libertad de comercio, pues la regulación más fiable, precisa y beneficiosa del comercio interior y exterior para la nación y el Estado reside en la plena libertad de competencia.
 
 
-![image](assets/fr/077.webp)
+![image](assets/es/057.webp)
 
 
 Los fisiócratas habían visto los perjuicios causados por la injerencia gubernamental, especialmente en el comercio de cereales. Hay que reconocer, dicen, que la autoridad nunca será capaz de gestionar el comercio tan bien como lo hacen los particulares, porque tendría que responder a cada necesidad y reaccionar a cada cambio en la demanda o en el Supply. Todo esto está muy por encima de las capacidades incluso del gobierno más sabio que se pueda concebir. Todo esto está muy por encima de las capacidades del gobierno más sabio que se pueda concebir. Por lo tanto, hay que dejar que las cosas sean y fluyan.
@@ -1007,7 +990,7 @@ La defensa de sus ideas, en libros, folletos y en su revista *Les Éphémérides
 En el extranjero, el éxito llegó muy pronto. En Alemania, el margrave de Baden se interesó por las ideas fisiocráticas y mantuvo una correspondencia regular con Mirabeau y Dupont de Nemours.
 
 
-![image](assets/fr/078.webp)
+![image](assets/es/058.webp)
 
 
 Encargó al economista Johann August Schlettwein, un fisiócrata convencido, que llevara a cabo una reforma fiscal y liberalizara el comercio de cereales. En abril de 1770 tuvo lugar un primer ensayo en el pequeño pueblo de Dietlingen. Al parecer, los aldeanos acogieron las medidas con entusiasmo, pero los funcionarios responsables no se mostraron muy partidarios, lo que retrasó una aplicación más amplia.
@@ -1016,13 +999,13 @@ Encargó al economista Johann August Schlettwein, un fisiócrata convencido, que
 En Rusia, Catalina II prepara una reforma legislativa y pide a Diderot que le envíe una mente brillante para ayudarla.
 
 
-![image](assets/fr/079.webp)
+![image](assets/es/059.webp)
 
 
 Impresionado por la lectura de [*El orden natural y esencial de las sociedades políticas*](https://archive.org/details/lordrenaturelete00mercuoft), publicado en 1767, le envió a su autor, el fisiócrata Mercier de la Rivière.
 
 
-![image](assets/fr/080.webp)
+
 
 
 
@@ -1035,33 +1018,33 @@ En Suecia, con Gustavo III, y en Italia, con Leopoldo de Toscana, los fisiócrat
 En Francia, los fisiócratas obtienen un éxito espectacular con el nombramiento de Turgot como Interventor General de Finanzas en 1774.
 
 
-![image](assets/fr/081.webp)
+![image](assets/es/060.webp)
 
 
 Consciente del declive de su fama, Turgot nunca se presentó como un fiel discípulo de los fisiócratas, ni tampoco como un enciclopedista, aunque lo era, y puesto que eran despreciados por los miembros del Clero. Una vez en el poder, Turgot promulgó seis famosos edictos que constituyeron el inicio de una aplicación práctica del programa fisiócrata: libertad de comercio, libertad de trabajo y fin de los monopolios.
 
 
 
-![image](assets/fr/082.webp)
+![image](assets/es/061.webp)
 
 
 En la época de la Revolución Francesa, los fisiócratas tenían menos seguidores. El marqués de Mirabeau murió el 13 de julio de 1789, todo un símbolo. Abeille se había marchado, pero Dupont de Nemours permaneció fiel. Nombrado miembro de la Asamblea, Dupont de Nemours llevó la voz de la fisiocracia y abogó por reformas económicas en favor de la propiedad Ownership y el libre comercio.
 
 
-![image](assets/fr/083.webp)
+![image](assets/es/062.webp)
 
 
 También luchó, sin éxito, contra los assignats. A pesar de este fracaso, el pensamiento fisiocrático siguió muy presente en el debate intelectual e influyó en los primeros logros de la Revolución. Como dijo Joseph Rambaud, todo lo que la Revolución hizo en favor de las libertades se debió a los fisiócratas.
 
 
-![image](assets/fr/084.webp)
+![image](assets/es/063.webp)
 
 
 
 Los fisiócratas también ejercieron una gran influencia en la historia del pensamiento económico. Adam Smith, que visitó Francia y conoció a muchos de ellos, se sintió profundamente influido por su obra. Incluso pensó en dedicar *La riqueza de las naciones* a Quesnay.
 
 
-![image](assets/fr/085.webp)
+
 
 
 Lamentablemente, Quesnay murió dos años antes de que se publicara el libro de Smith, y éste eliminó la dedicatoria. Aunque Smith no estaba de acuerdo con su idea de que sólo la agricultura era productiva, hizo suyos muchos de sus argumentos a favor del libre mercado y los trasladó a su propia obra.
@@ -1081,21 +1064,21 @@ En Estados Unidos conocemos la empresa DuPont, también conocida como "E.I. du P
 
 
 
-![image](assets/fr/086.webp)
+![image](assets/es/064.webp)
 
 
 Hoy tiene unas ventas de más de 35 billones de dólares y emplea a casi 65.000 personas en todo el mundo. Resulta que esta empresa está estrechamente ligada al destino de Samuel-Pierre Dupont de Nemours, economista francés de la escuela fisiocrática.
 
 
 
-![image](assets/fr/087.webp)
+
 
 
 Nacido en 1739, Dupont de Nemours se acercó a los fisiócratas a los 24 años. Por aquel entonces, aún estaba buscando su camino en la vida. Un día se encontró con un breve panfleto titulado La riqueza del Estado. Sus ideas económicas le parecieron disparatadas y escribió una respuesta crítica titulada Reflexiones sobre la riqueza del Estado, publicada en 1763. La obra fue bien recibida, y los lectores la elogiaron, diciendo cosas como: "¡Debes de ser discípulo de Mirabeau!" Irónicamente, Dupont ni siquiera sabía quién era Mirabeau.
 
 
 
-![image](assets/fr/088.webp)
+![image](assets/es/065.webp)
 
 
 Curioso, comienza a leer las obras de Mirabeau, *Amigo del Pueblo* y *Teoría de los Impuestos*. Conoce a Mirabeau y a François Quesnay, y se une a su escuela.
@@ -1104,7 +1087,7 @@ En 1765, Dupont recibe la oferta de ser redactor jefe del *Journal de l'agricult
 
 
 
-![image](assets/fr/089.webp)
+
 
 
 Había dos razones para ello: Mirabeau y Quesnay tenían que permanecer en silencio, y Dupont era visto como su estrella en ascenso.
@@ -1116,7 +1099,7 @@ Los miembros de la escuela fisiocrática coinciden en que Dupont de Nemours se c
 Dupont de Nemours siempre mantuvo su alta estima por Quesnay.
 
 
-![image](assets/fr/090.webp)
+![image](assets/es/066.webp)
 
 
 Más tarde diría: "No era más que un niño cuando Quesnay me tendió sus brazos; él me hizo un hombre" Fue Quesnay quien le convirtió en un economista importante en el panorama literario de la época.
@@ -1124,20 +1107,20 @@ Más tarde diría: "No era más que un niño cuando Quesnay me tendió sus brazo
 Tras el *Journal de l'agriculture, du commerce et des finances*, Dupont fue nombrado redactor jefe de *Les Éphémérides du Citoyen*, que se convirtió en el órgano oficial de los fisiócratas.
 
 
-![image](assets/fr/091.webp)
+
 
 
 Hizo de esta colección periódica un importante centro de teoría económica, apoyándola incluso durante el declive de los fisiócratas al escribir personalmente casi todos los volúmenes posteriores. Fue Dupont de Nemours, además, quien acuñó el término "fisiocracia", derivado de dos palabras griegas que significan "gobierno de la naturaleza". Utilizó este término para titular una colección de artículos de Quesnay publicada en 1768, y el término acabó imponiéndose en la historia. Se sabe que, entre ellos, los fisiócratas se llamaban "economistas", y así se les siguió llamando durante la Revolución.
 
 
 
-![image](assets/fr/092.webp)
+![image](assets/es/067.webp)
 
 
 Cuando Turgot ocupó brevemente el cargo de ministro de Finanzas de Francia, Dupont se convirtió en su consejero más cercano, el único fisiócrata con acceso a él, ya que Turgot mantenía las distancias con los demás.
 
 
-![image](assets/fr/093.webp)
+
 
 
 En la época de la Revolución, fue elegido por la bailía de Nemours y se encontró en la Asamblea, donde también estaba sentado otro Monsieur Dupont. Se le llamó entonces Dupont de Nemours, no porque fuera noble, sino simplemente para distinguir a ambos. El nombre, por supuesto, permaneció.
@@ -1146,14 +1129,14 @@ En la época de la Revolución, fue elegido por la bailía de Nemours y se encon
 Durante la Revolución, en agosto de 1792, tomó las armas para defender al rey en el palacio de las Tullerías contra la muchedumbre.
 
 
-![image](assets/fr/094.webp)
+![image](assets/es/068.webp)
 
 
 El Rey le dijo: "Monsieur Dupont, siempre le encontramos donde se le necesita" Tras escapar milagrosamente del Terror, condenado y a la espera de la guillotina pero salvado por la caída de Robespierre, fue empujado al exilio bajo Napoleón y encontró la felicidad en Estados Unidos, donde uno de sus hijos fundó, con la ayuda de su padre, la empresa Dupont.
 
 
 
-![image](assets/fr/095.webp)
+
 
 
 A pesar de su agitada vida, en la que publicó decenas de artículos, folletos y libros, sigue siendo relativamente poco conocido. Tal vez se debiera a que siguió siendo un fisiócrata acérrimo cuando la doctrina había pasado de moda. De hecho, como escribió Schumpeter, Dupont de Nemours se mantuvo fiel a la fisiocracia "a lo largo de una carrera en la que tuvo muchas oportunidades de renunciar a ella". Era un hombre de convicciones.
@@ -1175,14 +1158,14 @@ En el siglo XVIII surgió en Francia la economía como ciencia y la primera escu
 
 
 
-![image](assets/fr/096.webp)
+![image](assets/es/069.webp)
 
 
 El logro más famoso de la filosofía de la Ilustración es sin duda la *Encyclopédie* de Diderot y d'Alembert.
 
 
 
-![image](assets/fr/097.webp)
+
 
 
 Naturalmente, los artículos económicos fueron escritos por economistas. Para los primeros volúmenes, Diderot recurrió a Forbonnais, luego a economistas liberales: primero François Quesnay (que contribuyó con artículos como "Grains", "Fermiers", "Hommes" -este último inédito-), luego Turgot (que escribió "Foires et marchés"). Estos escritos son de gran importancia. En sus artículos, Quesnay sentó las bases de lo que se convertiría en la doctrina fisiocrática. Junto con su *Tableau économique*, siguen siendo sus obras más famosas. Turgot, aún joven en aquella época, desarrolló en su artículo la idea del laissez-faire, criticando la intervención del Estado en la organización del mercado.
@@ -1191,7 +1174,7 @@ Naturalmente, los artículos económicos fueron escritos por economistas. Para l
 En muchos otros artículos de la *Encyclopédie*, los filósofos, especialmente Diderot, defienden el ideal de libertad en todos los ámbitos: religión, política y economía.
 
 
-![image](assets/fr/098.webp)
+![image](assets/es/070.webp)
 
 
 La libertad de trabajo, especialmente en oposición al sistema gremial, fue un tema recurrente en varias entradas como Arts, Métier y Communauté.
@@ -1201,10 +1184,10 @@ La trayectoria de Diderot en teoría económica es curiosa. En la Encyclopédie,
 
 
 
-![image](assets/fr/099.webp)
+![image](assets/es/071.webp)
 
 
-![image](assets/fr/100.webp)
+
 
 
 Este libro se convertiría en el ataque más feroz jamás realizado contra las ideas fisiocráticas, asestando un duro golpe al movimiento. Más tarde, Diderot defendió a Galiani frente al abad Morellet, estrecho aliado de los fisiócratas, en su *Apología de Galiani*. Unos años más tarde, durante el ministerio de Turgot, se vio a Diderot aplaudiendo el establecimiento de la libertad de trabajo mediante la abolición de los gremios. En ese momento, Diderot, hijo de artesano, se encontró de acuerdo con los economistas liberales y escribió una carta mordaz a Galiani, quien afirmaba que la libertad del trabajo arruinaría la industria francesa en veinte o treinta años. A la luz de la Revolución Industrial, la historia sugiere lo contrario. Tras volver al bando de los economistas liberales, Diderot dejó de gozar de su confianza y permaneció aislado. Un momento muy revelador es una carta que envió a Dupont de Nemours en 1774, donde escribe:
@@ -1212,13 +1195,13 @@ Este libro se convertiría en el ataque más feroz jamás realizado contra las i
 
 > "Antes me tenías amistad; ahora ya no, porque estás tan ocupado que ya no tienes tiempo para querer a nadie".
 
-![image](assets/fr/101.webp)
+![image](assets/es/072.webp)
 
 
 Voltaire siguió un camino similar, marcado por la falta de coherencia en sus opiniones económicas. Admiraba a Vincent de Gournay, mantenía correspondencia con economistas (Dupont de Nemours y Turgot, entre otros) y apreciaba a los fisiócratas, sobre todo por sus elogios a la agricultura. Los alabó en una *Diatriba al autor de las Efemérides*. Sin embargo, más tarde criticó su idea de un impuesto único sobre la tierra en su obra satírica *El hombre de las cuarenta coronas*, que también suscitó una gran polémica. Por último, al igual que Diderot, celebró el ministerio de Turgot, calificándolo de edad de oro y alabando sus dos grandes decretos sobre la libertad de trabajo y el libre comercio.
 
 
-![image](assets/fr/102.webp)
+![image](assets/es/073.webp)
 
 
 Al final, la relación de los philosophes con el pensamiento económico es mixta. A pesar de sus alabanzas y críticas a las ideas económicas liberales, desempeñaron un papel en la incorporación de estas ideas al discurso intelectual más amplio de la Ilustración. De este modo, intencionadamente o no, contribuyeron a hacer avanzar la noción de laissez-faire hasta la Revolución.
@@ -1234,25 +1217,25 @@ En un famoso pasaje de su *Historia del pensamiento económico*, el economista e
 
 
 
-![image](assets/fr/103.webp)
+
 
 
 presentándolo como el mayor economista del siglo XVIII, junto con Cantillon.
 
 
-![image](assets/fr/104.webp)
+![image](assets/es/074.webp)
 
 
 ¿Cómo llegó Turgot a ser tan importante? Se debe a una combinación de tres factores clave. **En primer lugar, su prestigioso entorno familiar. Procedía de una larga estirpe de administradores reales, muchos de los cuales ocupaban altos cargos en el gobierno. **En segundo lugar, la edad de oro en la que nació y creció. Turgot tenía 21 años cuando Montesquieu publicó *L'Esprit des Lois*, y 24 cuando apareció el primer volumen de la *Encyclopédie*.
 
 
-![image](assets/fr/105.webp)
 
 
-![image](assets/fr/106.webp)
 
 
-Fue contemporáneo de los fisiócratas, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet y otros. **En tercer lugar, su precocidad intelectual. Siendo estudiante en la Sorbona, escribió a los 22 años una carta sobre el papel moneda, pronunció notables discursos y a los 24 compuso una lista de 52 obras por escribir.
+
+
+Fue contemporáneo de los fisiócratas, Voltaire, Diderot, d'Holbach, Adam Smith, Condorcet y otros. **En tercer lugar, su precocidad intelectual.** Siendo estudiante en la Sorbona, escribió a los 22 años una carta sobre el papel moneda, pronunció notables discursos y a los 24 compuso una lista de 52 obras por escribir.
 
 
 
@@ -1267,19 +1250,19 @@ Durante estos primeros años, tuvo como mentor a Vincent de Gournay, quien le ac
 
 
 
-![image](assets/fr/107.webp)
+![image](assets/es/075.webp)
 
 
 En 1767, siendo intendente, compuso un compendio de economía bajo el título de *Reflexiones sobre la formación y distribución de la riqueza*.
 
 
-![image](assets/fr/108.webp)
+
 
 
 División del trabajo, soberanía del consumidor, propiedad privada, papel del capital... se abordan prácticamente todos los grandes temas económicos. Muchos historiadores, la más reciente la historiadora Anne-Claire Hoyng, han señalado las similitudes entre esta obra de Turgot y *La riqueza de las naciones* de Adam Smith, publicada nueve años más tarde.
 
 
-![image](assets/fr/109.webp)
+![image](assets/es/076.webp)
 
 
 Turgot defendió la libertad del comercio de cereales en cartas al abad Terray, comunicadas más tarde al rey, pero la mitad de las cuales se han perdido. Escribía:
@@ -1290,7 +1273,7 @@ Turgot defendió la libertad del comercio de cereales en cartas al abad Terray, 
 > Si alguna vez ha habido un momento en que era necesaria la libertad más plena y absoluta, completamente libre de cualquier tipo de obstáculo, me atrevo a decir que es ahora, y que nunca ha sido menos oportuno considerar la posibilidad de dictar un reglamento sobre el comercio de cereales.
 
 
-![image](assets/fr/110.webp)
+
 
 
 En 1769, Turgot escribió el artículo Valor y dinero para el *Dictionnaire de Commerce* del abad Morellet, que finalmente nunca se publicó. Galiani ya había señalado que "el hombre es la medida común de todas las cosas", anticipando el análisis subjetivo que Turgot desarrollaría treinta años más tarde en este artículo, donde amplía y demuestra esta proposición.
@@ -1300,7 +1283,7 @@ En 1770, mucho antes que Bentham, Turgot escribió un memorándum en el que abog
 
 
 
-![image](assets/fr/111.webp)
+![image](assets/es/077.webp)
 
 
 "Es un error creer que el interés del dinero en el comercio deba ser fijado por las leyes de los príncipes", dice, "Es un precio corriente que se regula a sí mismo, como el de todas las demás mercancías", En defensa de esta posición, refuta la oposición de Aristóteles y de los Padres de la Iglesia.
@@ -1318,7 +1301,7 @@ Aquí encontramos una declaración muy clara de la doctrina del laissez-faire, a
 
 
 
-![image](assets/fr/112.webp)
+![image](assets/es/078.webp)
 
 
 ## Turgot, el reformador
@@ -1331,7 +1314,7 @@ Como hemos recordado brevemente en el capítulo anterior, Turgot era hijo de una
 
 
 
-![image](assets/fr/113.webp)
+![image](assets/es/079.webp)
 
 
 Su padre había sido preboste de los comerciantes de París y su abuelo, intendente. Tras sobresalir en sus estudios, el menor de los Turgot se propuso alcanzar al menos esas mismas cotas. Primero ejerció durante un tiempo de maître des requêtes, es decir, de enlace entre los intendentes y Versalles. Era un puesto prestigioso, para el que tuvo que obtener una exención especial por edad, pero Turgot aspiraba a más. La muerte de su mentor, Gournay, le animó aún más a aspirar a más, y solicitó ser nombrado intendente.
@@ -1346,19 +1329,19 @@ En Lemosín, los campesinos eran pobres y vivían en condiciones precarias, sobr
 
 
 
-![image](assets/fr/114.webp)
+![image](assets/es/080.webp)
 
 
 Como la región era tan pobre, no interesaba a los ministros. Esto dio a Turgot libertad para experimentar reformas. En Lemosín lleva a cabo tres grandes proyectos:
 
 
 
-- La redistribución del taille**, el impuesto personal (Turgot pretendía introducir la mayor objetividad posible en su evaluación).
-- La corvée**, una forma de impuesto pagado en mano de obra, en la que se obligaba a los campesinos a trabajar en la construcción de carreteras. Al recorrer la región, Turgot no tardó en darse cuenta del mal estado de las carreteras. Sustituyó la corvée por un impuesto monetario.
-- El reclutamiento de milicias**, ejércitos campesinos movilizados en tiempos de guerra.
+- La redistribución del **taille**, el impuesto personal (Turgot pretendía introducir la mayor objetividad posible en su evaluación).
+- La **corvée**, una forma de impuesto pagado en mano de obra, en la que se obligaba a los campesinos a trabajar en la construcción de carreteras. Al recorrer la región, Turgot no tardó en darse cuenta del mal estado de las carreteras. Sustituyó la **corvée** por un impuesto monetario.
+- El reclutamiento de **milicias**, ejércitos campesinos movilizados en tiempos de guerra.
 
 
-![image](assets/fr/115.webp)
+![image](assets/es/081.webp)
 
 
 Esto se hacía por sorteo, lo que provocaba miedo y violencia a causa de los fugitivos; Turgot sustituyó estas levas obligatorias por voluntarios remunerados.
@@ -1374,13 +1357,13 @@ Un mes más tarde, sin embargo, Turgot es nombrado Interventor General de Finanz
 Conocemos la carta en la que expuso sus principios a Luis XVI: "Nada de quiebras. Ninguna subida de impuestos. Ningún nuevo préstamo". Esta filosofía, que hoy los críticos podrían tachar de "rigor" inútil, pretendía salvar la monarquía.
 
 
-![image](assets/fr/116.webp)
+![image](assets/es/082.webp)
 
 
 Turgot prepara seis edictos reales para reformar la economía francesa.
 
 
-![image](assets/fr/117.webp)
+
 
 
 Fue la primera -y una de las últimas- vez que se concedió a un experto económico la libertad de reformar la economía de su país. Destacan tres edictos de Turgot: uno abolía el trabajo forzado (corvées), otro disolvía los gremios (corporaciones) y el tercero establecía el libre comercio de cereales.
@@ -1391,12 +1374,12 @@ Al acceder al ministerio, Turgot sabía que se enfrentaría a la resistencia de 
 
 > ¡Ah! ¡Qué noticias tan terribles he oído! ¿Qué será de nosotros? Estoy desolado Nunca nos recuperaremos de haber presenciado el nacimiento y la muerte de la edad de oro Este rayo ha golpeado tanto mi mente como mi corazón.
 
-![image](assets/fr/118.webp)
+![image](assets/es/083.webp)
 
 
 Desde entonces, muchos han sostenido que Francia es un país imposible de reformar. El fracaso de Turgot pareció confirmarlo: Había sido preparado por medio siglo de pensamiento económico liberal; contaba con el respaldo de los filósofos de la Ilustración; y el propio Rey, con poder absoluto, le apoyaba.
 
-![image](assets/fr/119.webp)
+
 
 
 Al final, los parlamentos y las clases privilegiadas se impusieron. Todo lo que el Rey pudo hacer fue lamentarse en privado: "Ahora veo que sólo Monsieur Turgot y yo nos preocupamos por el pueblo"
@@ -1411,7 +1394,7 @@ Al final, los parlamentos y las clases privilegiadas se impusieron. Todo lo que 
 Al igual que el mercantilismo, que es su manifestación práctica más evidente, el sofisma de Montaigne tardó mucho tiempo en desaparecer.
 
 
-![image](assets/fr/120.webp)
+![image](assets/es/084.webp)
 
 
 Ese sofisma es la idea de que el comercio y Exchange son juegos de suma cero. Lo que una parte gana en una transacción lo pierde necesariamente la otra. Sus partidarios sostienen que esto es cierto tanto entre individuos como entre naciones.
@@ -1420,7 +1403,7 @@ Ese sofisma es la idea de que el comercio y Exchange son juegos de suma cero. Lo
 El abad de Condillac desempeñó un papel fundamental en el desmantelamiento definitivo de esta falsa idea.
 
 
-![image](assets/fr/121.webp)
+
 
 
 "Definitivamente" es quizá una exageración, porque en el debate público, este sofisma reaparece con frecuencia. Tal vez por eso, además, Condillac sigue siendo un economista poco conocido. Aparte de los economistas austriacos, pocos han comprendido la importancia de su teoría del Exchange, ya nadie se interesa por él.
@@ -1429,7 +1412,7 @@ El abad de Condillac desempeñó un papel fundamental en el desmantelamiento def
 Para la mayoría de los historiadores del pensamiento económico, el año 1776 está marcado por la publicación de *La riqueza de las naciones*, que fundó la ciencia económica. Las quince lecciones que acabamos de terminar, en las que hemos estudiado la ciencia económica francesa anterior a Adam Smith, bastan para demostrar lo erróneo de esta concepción. En ese mismo año 1776, además, otro libro merece quizás más elogios de los historiadores que el de Adam Smith: fue escrito por Condillac y se titula simplemente [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
 
 
-![image](assets/fr/122.webp)
+![image](assets/es/085.webp)
 
 
 Para Condillac, si persiste el sofisma de la Exchange vista como un juego de suma cero, los fisiócratas tienen parte de culpa, porque sostienen que la Exchange es una relación de igualdad. Según Condillac, esto es falso: La Exchange es una relación desigual, en la que siempre se da menos para obtener más.
@@ -1448,7 +1431,7 @@ Condillac, por su parte, escribió:
 Sin embargo, la oposición es en gran medida de palabras. Ambos están de acuerdo en que cuando uno cambia un franco por un libro, el libro vale un franco, o el precio del libro es un franco.
 
 
-![image](assets/fr/123.webp)
+
 
 
 La diferencia radica en que Condillac afirma que, puesto que Exchange un franco por el libro, significa que para nosotros el valor del libro es superior al de nuestra moneda de un franco. Preferimos el libro a la moneda, y por eso hacemos el Exchange.
@@ -1466,7 +1449,7 @@ Para resumir la teoría de Condillac, se pueden enumerar tres proposiciones:
 Primera proposición: buscamos los bienes por su utilidad. Esto parece obvio, pero es un principio central de la ciencia económica que los hombres Exchange para adquirir utilidades, un punto que Jean-Baptiste Say también desarrolló perfectamente.
 
 
-![image](assets/fr/124.webp)
+![image](assets/es/086.webp)
 
 
 Segunda proposición: el valor preexiste y motiva los intercambios. El juicio subjetivo que cada persona hace de los bienes y servicios implica que esos mismos bienes y servicios tienen para ella un valor, que vale más o menos según la utilidad que parecen proporcionarle. Naturalmente, cada individuo juzga de forma diferente a otro, y el valor varía de una persona a otra.
@@ -1491,7 +1474,7 @@ Condorcet es sin duda el filósofo más economicista de la Ilustración.
 
 
 
-![image](assets/fr/125.webp)
+![image](assets/es/087.webp)
 
 
 Durante gran parte de su carrera, se dedicó a campos totalmente ajenos a la economía, y con razón, ya que su talento propició grandes avances en las ciencias en las que más se centró. Pero hacia 1770 se sintió atraído por las cuestiones económicas, quizá porque otros filósofos, sobre todo Voltaire y Diderot, no se molestaban en dedicarles su tiempo libre, y también porque se había hecho amigo de Turgot.
@@ -1506,7 +1489,7 @@ Estaba así preparado para defender la libertad cuando su amigo Turgot ascendió
 
 
 
-![image](assets/fr/126.webp)
+![image](assets/es/088.webp)
 
 
 A partir de entonces, la carrera de Condorcet dio un giro al entrar en el debate económico, apoyando incansablemente las reformas liberales del nuevo ministro. Partidario de la competencia y de la libertad de comercio, Condorcet abogó también por la abolición de las corvées (trabajos forzados), de los gremios y por una fiscalidad justa. Expresó públicamente estas convicciones siempre que se le presentó la oportunidad, haciéndolo con evidente entusiasmo; escribió extensamente y en una ocasión declaró en sus escritos: "Permítanme hablar de nuevo de la libertad de comercio; disfruto ocupándome de este tema"
@@ -1518,7 +1501,7 @@ Entre 1774 y 1776, durante el ministerio de Turgot, Condorcet realizó numerosas
 En sus [*Cartas sobre el comercio de cereales*](https://archive.org/details/bub_gb_hg8jFw-y6bwC), Condorcet expone varios puntos clave.
 
 
-![image](assets/fr/127.webp)
+![image](assets/es/089.webp)
 
 
 En primer lugar, los elevados precios de los cereales en aquella época no eran consecuencia del libre comercio, sino de las malas cosechas, y Condorcet lo demuestra claramente. A continuación, explica por qué el laissez-faire no sólo es apropiado, sino que es la única política adecuada, a pesar de los prejuicios populares. Estamos tan acostumbrados a que el Estado intervenga en el comercio de cereales que no hacer nada nos parece algo extraordinario y nuevo". Más adelante, añade: "Casi todo el mundo, especialmente los que ocupan cargos públicos, cree que nada ocurre por sí solo y que todo está perdido si el gobierno no interviene en todo". Condorcet recupera así los argumentos de los fisiócratas y de Turgot, mostrando la superioridad del librecambio sobre toda forma de intervencionismo.
@@ -1549,13 +1532,13 @@ Dupont de Nemours fue el discípulo más joven de François Quesnay, quien en un
 Dupont de Nemours redactó la lista de agravios para la bailía de Nemours.
 
 
-![image](assets/fr/128.webp)
+![image](assets/es/090.webp)
 
 
 Este fascinante documento contenía todas las quejas de los economistas liberales contra las restricciones comerciales, los monopolios y los ataques a la propiedad. Dupont de Nemours también fue elegido diputado a la Asamblea Nacional.
 
 
-![image](assets/fr/129.webp)
+
 
 Durante la Revolución, se convirtió en la voz del sentido común liberal, manteniéndose firme frente a la creciente marea de populismo y demagogia intervencionista, que acabó imponiéndose.
 
@@ -1564,7 +1547,7 @@ Ya en noviembre de 1789, cuando se hablaba de conceder el monopolio a la Caisse 
 
 
 
-![image](assets/fr/130.webp)
+![image](assets/es/091.webp)
 
 
 "Sería mejor", dice, "dejar el negocio bancario a las leyes del libre comercio". Y añade:
@@ -1582,11 +1565,11 @@ Esta propuesta fue rechazada.
 
 Ese mismo año, 1790, comenzaron los debates sobre la emisión de nuevo papel moneda para cubrir los gastos del gobierno.
 
-Dupont de Nemours se opuso firmemente y publicó un folleto titulado [*Effects of Assignats on the Price of Bread*] (https://archive.org/details/effetdesassignat00dupo). El título era acertado, ya que explicaba que la emisión de assignats conduciría inevitablemente a la inflación, un aumento de los precios de los productos básicos, incluido el pan.
+Dupont de Nemours se opuso firmemente y publicó un folleto titulado [*Effects of Assignats on the Price of Bread*](https://archive.org/details/effetdesassignat00dupo). El título era acertado, ya que explicaba que la emisión de assignats conduciría inevitablemente a la inflación, un aumento de los precios de los productos básicos, incluido el pan.
 
 
 
-![image](assets/fr/131.webp)
+![image](assets/es/092.webp)
 
 
 Firmó el panfleto como "amigo del pueblo". La obra causó un gran revuelo, ya que se preguntó a la Asamblea quién la había escrito. Dupont de Nemours se levantó entonces y admitió que era obra suya, afirmando que no se avergonzaba de utilizar el título de "amigo del pueblo" porque luchar contra los asignados era realmente servir al pueblo.
@@ -1595,7 +1578,7 @@ Una vez más, su consejo fue ignorado y se emitieron los assignats.
 
 
 
-![image](assets/fr/132.webp)
+![image](assets/es/093.webp)
 
 
 Todos conocemos el desastre que siguió, la ruina económica y el sufrimiento que padeció la gente, muchos de los cuales lo perdieron todo cuando las cesiones perdieron su valor y tuvieron que ser quemadas.
@@ -1627,40 +1610,40 @@ Boisguilbert afirma que las almas bienintencionadas que creen poder arreglarlo t
 
 
 
-![image](assets/fr/133.webp)
+![image](assets/es/094.webp)
 
 
 Cantillon insiste en que el dinero nunca debe manipularse con fines políticos. Permitir que el Estado maneje el dinero a su antojo es allanar el camino a un inmenso desorden financiero y económico.
 
 
 
-![image](assets/fr/134.webp)
+
 
 
 Vincent de Gournay afirma que una regulación excesiva del trabajo desalienta los esfuerzos de los obreros y artesanos, empujándolos hacia la pereza y la inactividad. Gracias a la libre competencia puede crecer la economía y prosperar una nación.
 
 
 
-![image](assets/fr/135.webp)
+
 
 
 El Marqués d'Argenson afirma que ningún gobierno es capaz de preverlo y medirlo todo y que, en consecuencia, hay que confiar en el interés propio de cada individuo.
 
 
 
-![image](assets/fr/136.webp)
+![image](assets/es/095.webp)
 
 
 Quesnay y los fisiócratas afirman que la propiedad privada es el fundamento de las sociedades humanas. Sin propiedad privada, el hombre pierde la motivación para esforzarse, para trabajar, ya que no puede disfrutar del fruto de su trabajo ni acumular nada.
 
 
-![image](assets/fr/137.webp)
+
 
 
 Condillac afirma que la Exchange es siempre mutuamente beneficiosa y que, por tanto, sin excepción, debe ser siempre libre. La única misión del Estado debe ser proteger la libertad y la propiedad.
 
 
-![image](assets/fr/138.webp)
+
 
 
 Todas estas ideas serían retomadas por los economistas del siglo XIX. Algunos, como Jean-Baptiste Say, darían a estas ideas una expresión científica a través de un riguroso *Tratado de Economía Política*. Otros, por el contrario, intentarían popularizar estas máximas fundamentales aventurándose en el terreno de los cuentos, las novelas y los relatos divertidos, como haría hábilmente Frédéric Bastiat.
@@ -1672,7 +1655,7 @@ Todas estas ideas serían retomadas por los economistas del siglo XIX. Algunos, 
 <chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
 
 
-**BIBLIOGRAFÍA SELECTIVA
+**BIBLIOGRAFÍA SELECTIVA**
 
 
 A continuación encontrará una selección de más de treinta escritos:

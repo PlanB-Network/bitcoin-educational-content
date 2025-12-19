@@ -1,13 +1,12 @@
-question: Wat waren de eerste vormen van valuta?
-answer: Goederen zoals graan en vee.
+question: Wat is het belangrijkste voordeel van Bitcoin ten opzichte van andere valuta?
+answer: Het biedt een uitstekende waardeopslag dankzij de strikt beperkte Supply en neutraliteit.
 wrong_answers:
-  - Goud en zilver.
-  - Aantekeningen op papier.
-  - Digitale activa.
+  - Het is ondeelbaar en niet transporteerbaar.
+  - Het is een goed voorbeeld van een valuta die lijdt onder monetaire inflatie.
+  - Het wordt algemeen geaccepteerd in de handel door alle kooplieden ter wereld.
 explanation: |
-  De eerste vormen van valuta waren vaak gekoppeld aan essentiële
-  goederen zoals graan, vee en andere grondstoffen.
-  Deze goederen hadden echter grote nadelen, zoals
-  bederfelijkheid, waardoor het moeilijk was om ze te gebruiken als
-  spaarmiddel voor de lange termijn.
+  Het belangrijkste voordeel van Bitcoin ten opzichte van andere valuta
+  is dat het een uitstekend waardebehoud biedt vanwege zijn
+  strikt beperkte Supply en het ontbreken van een betrouwbare partij. Dit
+  maakt het een goede keuze voor langetermijnsparen.
 reviewed: true

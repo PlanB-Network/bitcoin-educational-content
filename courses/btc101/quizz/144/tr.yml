@@ -1,8 +1,8 @@
-question: Her 10 dakikada 1 MB'lık 1 blok düşünüldüğünde, bir Bitcoin düğümünü çalıştırmak için bant genişliği gereksinimi nedir?
-answer: Aylık yaklaşık 5 GB.
+question: Proof of Work (POW) nedir?
+answer: Bitcoin protokolünün güvenlik mutabakatıdır.
 wrong_answers:
-  - Aylık yaklaşık 1GB.
-  - Aylık yaklaşık 10 GB.
-  - Aylık yaklaşık 20 GB.
+  - Yeni bitcoinler yaratma sürecidir.
+  - Bitcoin işlemlerini doğrulama yöntemidir.
+  - Bitcoin madenciliği için kullanılan algoritmadır.
 explanation: >-
 reviewed: true

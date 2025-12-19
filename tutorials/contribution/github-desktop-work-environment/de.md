@@ -12,13 +12,13 @@ Wenn Sie zum PlanB-Netzwerk beitragen möchten, müssen Sie GitHub verwenden, um
 
 Wenn Sie keine Ahnung haben, was GitHub ist, oder wenn Sie mehr über die technischen Begriffe im Zusammenhang mit Git und GitHub erfahren möchten, empfehle ich Ihnen, unseren einführenden Artikel zu lesen, um sich mit diesen Konzepten vertraut zu machen.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - Zunächst benötigen Sie natürlich ein GitHub-Konto. Wenn Sie bereits eines haben, können Sie sich anmelden, andernfalls können Sie unser Tutorial nutzen, um ein neues zu erstellen.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -44,15 +44,15 @@ Es gibt eine Vielzahl von Software, die speziell für das Bearbeiten von Markdow
 - Installieren Sie Obsidian, starten Sie die Software, wählen Sie Ihre Sprache und klicken Sie dann auf `Quick Start`: ![github-desktop](assets/8.webp)
 - Sie gelangen zur Obsidian-Software. Momentan haben Sie keine Dateien geöffnet: ![github-desktop](assets/9.webp)
 
-## Schritt 3: Forken Sie das PlanB Network Repository
+## Schritt 3: Forken Sie das Plan ₿ Academy Repository
 
-- Gehen Sie zum Datenrepository des PlanB Network unter folgender Adresse: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Gehen Sie zum Datenrepository des Plan ₿ Academy unter folgender Adresse: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Klicken Sie auf dieser Seite auf den `Fork`-Button oben rechts im Fenster: ![github-desktop](assets/11.webp)
 - Im Erstellungsmenü können Sie die Standardeinstellungen belassen. Stellen Sie sicher, dass das Kästchen `Copy the dev branch only` angekreuzt ist, und klicken Sie dann auf den `Create fork`-Button: ![github-desktop](assets/12.webp)
-- Sie gelangen dann zu Ihrem eigenen Fork des PlanB Network Repository: ![github-desktop](assets/13.webp)
+- Sie gelangen dann zu Ihrem eigenen Fork des Plan ₿ Academy Repository: ![github-desktop](assets/13.webp)
 Dieser Fork stellt ein separates Repository vom Original dar, obwohl es derzeit dieselben Daten enthält. Sie werden jetzt an diesem neuen Repository arbeiten.
 
-Wir haben gewissermaßen eine Kopie des PlanB Network-Quellrepositorys erstellt. Ihr Fork (die Kopie) und das Originalrepository werden sich nun unabhängig voneinander entwickeln. Im Originalrepository können andere Mitwirkende neue Daten hinzufügen, während Sie an Ihrem Fork eigene Änderungen vornehmen.
+Wir haben gewissermaßen eine Kopie des Plan ₿ Academy-Quellrepositorys erstellt. Ihr Fork (die Kopie) und das Originalrepository werden sich nun unabhängig voneinander entwickeln. Im Originalrepository können andere Mitwirkende neue Daten hinzufügen, während Sie an Ihrem Fork eigene Änderungen vornehmen.
 Um die Konsistenz zwischen diesen beiden Repositories zu wahren, wird es notwendig sein, sie regelmäßig zu synchronisieren, damit sie dieselben Informationen abrufen. Um Ihre Änderungen an das Quellrepository zu senden, werden Sie das, was man einen **Pull Request** nennt, verwenden. Und um Änderungen vom Quellrepository in Ihren Fork zu integrieren, werden Sie den Befehl **Sync fork** verwenden, der in der GitHub-Webinterface verfügbar ist.
 ![github-desktop](assets/14.webp)
 
@@ -66,7 +66,7 @@ Um die Konsistenz zwischen diesen beiden Repositories zu wahren, wird es notwend
 ![github-desktop](assets/17.webp)
 - Warten Sie, während GitHub Desktop Ihren Fork lokal klont:
 ![github-desktop](assets/18.webp)
-- Nachdem Sie das Repository geklont haben, bietet Ihnen die Software zwei Optionen an. Sie müssen die erste wählen: `To contribute to the parent project`. Diese Wahl ermöglicht es Ihnen, Ihre zukünftigen Arbeiten als Beitrag zum übergeordneten Projekt (`PlanB-Network/bitcoin-educational-content`) zu präsentieren und nicht ausschließlich als Modifikation Ihres persönlichen Forks (`[username]/bitcoin-educational-content`). Sobald die Option gewählt ist, klicken Sie auf `Continue`: ![github-desktop](assets/19.webp)
+- Nachdem Sie das Repository geklont haben, bietet Ihnen die Software zwei Optionen an. Sie müssen die erste wählen: `To contribute to the parent project`. Diese Wahl ermöglicht es Ihnen, Ihre zukünftigen Arbeiten als Beitrag zum übergeordneten Projekt (`Plan ₿ Academy/bitcoin-educational-content`) zu präsentieren und nicht ausschließlich als Modifikation Ihres persönlichen Forks (`[username]/bitcoin-educational-content`). Sobald die Option gewählt ist, klicken Sie auf `Continue`: ![github-desktop](assets/19.webp)
 - Ihr GitHub Desktop ist jetzt korrekt konfiguriert. Nun können Sie die Software im Hintergrund offen lassen, um den Modifikationen zu folgen, die wir vornehmen werden.
 ![github-desktop](assets/20.webp)
 Was wir in diesem Stadium erreicht haben, ist die Erstellung einer lokalen Kopie Ihres Repositories, die auf GitHub gehostet wird. Zur Erinnerung, dieses Repository ist ein Fork des Quell-Repositories des PlanB Netzwerks. Sie werden in der Lage sein, Modifikationen an dieser lokalen Kopie vorzunehmen, wie das Hinzufügen von Tutorials, Übersetzungen oder Korrekturen. Sobald diese Modifikationen gemacht sind, werden Sie den Befehl **Push origin** verwenden, um Ihre lokalen Modifikationen zu Ihrem auf GitHub gehosteten Fork zu senden.
@@ -97,6 +97,6 @@ Hierfür stehen Ihnen mehrere Optionen zur Verfügung. Obwohl das Standard-Notep
 - Installieren Sie eines dieser Programme und halten Sie es für Ihre zukünftigen Änderungen bereit. ![github-desktop](assets/26.webp)
 Herzlichen Glückwunsch! Ihre Arbeitsumgebung ist nun eingerichtet, um zum PlanB-Netzwerk beizutragen. Sie können jetzt unsere anderen spezifischen Tutorials für jeden Beitragstyp (Übersetzung, Korrekturlesen, Schreiben.
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..) erkunden.

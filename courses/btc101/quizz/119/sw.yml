@@ -1,11 +1,13 @@
-question: BitcoinTalk ni nini?
-answer: Mahali pa majadiliano kwa watumiaji wa Bitcoin.
+question: Muamala wa Bitcoin ni nini?
+answer: Uhamisho wa Ownership ya bitcoins, kwa kutumia cryptography.
 wrong_answers:
-  - Programu ya Bitcoin Mining.
-  - Bitcoin Wallet.
-  - Mkutano wa Bitcoin.
+  - Exchange ya kimwili ya bitcoins, kwa kutumia mthibitishaji.
+  - Uhamisho wa Ownership ya bitcoins, kwa kutumia Address ya kimwili.
+  - Uhamisho wa Ownership ya bitcoins, kwa kutumia barua pepe Address.
 explanation: |
-  Jukwaa la BitcoinTalk ni mahali pa majadiliano kwa Bitcoin
-  watumiaji. Iliundwa na Satoshi Nakamoto mnamo Novemba 22,
-  2009.
+  Muamala wa Bitcoin ni uhamisho wa kidijitali wa
+  Ownership ya bitcoins, kupitia matumizi ya Bitcoin Address
+  inayotokana na kriptografia ya Elliptic Curve. Hii
+  Address ni ya kipekee kwa Wallet ya mtu anayepokea
+  bitcoins.
 reviewed: true

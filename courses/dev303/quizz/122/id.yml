@@ -1,0 +1,8 @@
+question: Apa tantangan pemulihan paling kritis yang dihadapi pengguna saat dana mereka dikelola melalui arsitektur node Lightning berbasis cloud Greenlight?
+answer: Pengguna akan membutuhkan keahlian teknis untuk menjalankan node Core Lightning independen dan memulihkan status saluran tanpa infrastruktur Greenlight
+wrong_answers:
+  - "Pengguna kehilangan akses ke kunci pribadi mereka yang disimpan secara eksklusif di server Blockstream"
+  - "Status saluran dienkripsi menggunakan kunci milik Greenlight yang membuat pemulihan dana tidak mungkin dilakukan secara matematis"
+  - "Saluran petir secara otomatis kedaluwarsa setelah 30 hari tanpa layanan pemeliharaan berkelanjutan dari Greenlight"
+explanation: |
+  Jawaban yang benar menyoroti kompleksitas teknis pemulihan dana yang sebenarnya dalam arsitektur Greenlight. Walaupun pengguna tetap memiliki private key mereka, mengakses dana tanpa Greenlight memerlukan menjalankan node Core Lightning dan memulihkan status channel secara manual - sebuah proses yang tidak dapat dilakukan oleh sebagian besar pengguna. Jawaban yang salah adalah salah karena: pengguna mengontrol kunci pribadi mereka (tidak disimpan di server), status saluran menggunakan protokol Lightning standar (bukan enkripsi berpemilik), dan saluran Lightning tidak memiliki pengatur waktu kedaluwarsa otomatis yang terkait dengan penyedia layanan.

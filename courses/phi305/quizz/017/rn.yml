@@ -1,0 +1,9 @@
+question: Ni kamere zibiri izihe zigize Ikintu?
+answer: Ibintu n’ivyiyumviro.
+wrong_answers:
+  - Umunezero n’umubabaro.
+  - Imvo n’imvano n’ukwemera ibinyoma.
+  - Ivya kera n’ivya none.
+explanation: |
+  Ibintu bibiri vy’Ikintu dushobora kumenya ni ikintu (canke urugero) n’iciyumviro. Izo kamere zibiri ziserura akamaro katagira iherezo k’Ikintu mu mice ibiri itandukanye ariko idatandukanye.
+reviewed: false

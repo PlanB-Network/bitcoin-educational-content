@@ -1,0 +1,8 @@
+question: Wanneer een Bitcoin wallet blokken scant voor inkomende betalingen, waarom heeft het downloaden van hele blokken dan de voorkeur boven het opvragen van individuele transacties bij netwerkpeers?
+answer: Het downloaden van hele blokken biedt een betere privacybescherming, omdat niet onthuld wordt welke specifieke transacties of adressen de wallet in de gaten wil houden
+wrong_answers:
+  - Het downloaden van hele blokken is rekenkundig efficiënter omdat er minder cryptografische hashbewerkingen nodig zijn om de authenticiteit van de transactie te verifiëren
+  - Het downloaden van hele blokken zorgt voor snellere synchronisatie omdat peers gecomprimeerde blokgegevens kunnen sturen in plaats van individuele transactiereacties
+  - Het downloaden van hele blokken biedt een betere beveiliging, omdat het de wallet in staat stelt om de volledige proof-of-work te verifiëren voor elke transactie
+explanation: |
+  Privacy is het belangrijkste voordeel van blokgebaseerd opvragen. Wanneer een wallet specifieke transacties opvraagt, lekt het sterke signalen over gebruikersactiviteit en onthult het welke adressen bij die wallet horen. Het downloaden van hele blokken maskeert de werkelijke belangen van de wallet tussen alle bloktransacties. De verkeerde antwoorden richten zich op efficiëntie, snelheid of beveiligingsvoordelen die niet de primaire motivatie zijn - individuele transactieverzoeken zouden theoretisch net zo veilig of efficiënt kunnen zijn, maar ze compromitteren fundamenteel de privacy door de controlepatronen van de wallet te onthullen aan netwerkgenoten.

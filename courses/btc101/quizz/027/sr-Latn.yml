@@ -1,12 +1,9 @@
-question: Zašto Bitkoin danas nije široko prihvaćen u trgovini?
-answer: Zato što nije široko prihvaćen od strane pojedinaca.
+question: Koja je glavna prednost zlata kao valute?
+answer: Izuzetno je izdržljiv.
 wrong_answers:
-  - Zato što nije prenosiv.
-  - Zato što nije deljiv na male jedinice.
-  - Zato što nije likvidan.
+  - Lako je deljiv ili prenosiv na velike udaljenosti.
+  - To je lako proverljivo.
+  - Nije regulisano od strane vlade.
 explanation: |
-  Uprkos svojim svojstvima, kao što je strogo ograničena
-  ponuda, Bitkoin još uvek nije široko prihvaćen u trgovini
-  danas, zbog nedostatka usvajanja od strane pojedinaca, pa
-  trgovci nisu podstaknuti da ga prihvate.
+  Iako se ne može lako deliti ili transportovati na velike udaljenosti, zlato je veoma izdržljiv materijal, što ga čini dobrim čuvarom vrednosti. Zlatnici su se koristili kao valuta u prošlosti, ali ne bi služili istoj svrsi u današnjoj digitalnoj eri.
 reviewed: true

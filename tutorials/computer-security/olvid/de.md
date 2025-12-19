@@ -58,7 +58,7 @@ Olvid ist auf allen Plattformen verfügbar. Sie können die Anwendung direkt aus
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=io.olvid.messenger);
-- [App Store] (https://apps.apple.com/app/olvid/id1414865219);
+- [App Store](https://apps.apple.com/app/olvid/id1414865219);
 
 
 
@@ -246,4 +246,4 @@ Ich empfehle auch dieses andere Tutorial, in dem ich Ihnen Proton Mail vorstelle
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

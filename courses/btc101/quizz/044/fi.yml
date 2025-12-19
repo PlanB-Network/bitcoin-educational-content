@@ -1,10 +1,10 @@
-question: Mikä on mahdollinen seuraus äkillisestä arvonalennuksesta tai luottamuksen menetyksestä luottamusvaluutassa?
-answer: Hyperinflaatio.
+question: Mikä on 2% inflaation vaikutus ostovoimaan viiden vuoden aikana?
+answer: Menetät 10% ostovoimastasi.
 wrong_answers:
-  - Deflaatio.
-  - Vakaa talous.
-  - Valuutan arvon nousu.
+  - Menetät 2% ostovoimastasi.
+  - Menetät 5% ostovoimastasi.
+  - Menetät 20% ostovoimastasi.
 explanation: |
-  Äkillinen devalvaatio tai luottamuksen menetys luottamusvaluutassa voi johtaa hyperinflaatioon. Tämä on tilanne,
-  jossa tavaroiden ja palveluiden hinnat nousevat erittäin nopeasti, usein johtaen taloudelliseen epävakauteen.
+  2% inflaation myötä menetät vuosittain 2% ostovoimastasi,
+  mikä kertyy 10%; iin viiden vuoden aikana.
 reviewed: true

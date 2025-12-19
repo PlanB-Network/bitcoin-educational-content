@@ -1,0 +1,9 @@
+question: Vilket valfritt index kan aktiveras i Bitcoin core för att hitta en transaktion via dess txid?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - elektrumindex
+explanation: |
+  Alternativet txindex=1 används för att fråga efter en transaktion med hjälp av dess unika identifierare (txid).
+reviewed: true

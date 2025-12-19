@@ -1,9 +1,12 @@
-question: Mikä on Satoshi Nakamoton viimeisen tunnetun yksityisviestin päivämäärä sähköpostitse?
-answer: 23. huhtikuuta 2011.
+question: Mikä on Bitcoin-noodien maantieteellisen jakautumisen merkitys?
+answer: Se tekee käytännössä mahdottomaksi tuhota kaikkia lohkoketjun kopioita.
 wrong_answers:
-  - 12. joulukuuta 2010.
-  - 8. tammikuuta 2009.
-  - 31. lokakuuta 2008.
+  - Se määrittää Bitcoinin hinnan eri alueilla.
+  - Se vaikuttaa Bitcoin-siirtojen nopeuteen.
+  - Se määrittää, kuinka monta bitcoinia voidaan louhia alueella.
 explanation: |
-  Satoshi Nakamoton viimeisen tunnetun yksityisviestin päivämäärä sähköpostitse on 23. huhtikuuta 2011. Viesti lähetettiin kehittäjä Mike Hearnille.
+  Bitcoin-noodien maantieteellinen jakautuminen tekee
+  käytännössä mahdottomaksi tuhota kaikkia lohkoketjun
+  kopioita. Koska noodit ovat hajallaan, niiden fyysinen
+  takavarikointi on vaikeaa.
 reviewed: true

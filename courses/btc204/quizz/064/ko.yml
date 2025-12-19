@@ -1,0 +1,10 @@
+question: Bitcoin Wallet과 관련된 레이블은 어떻게 저장되나요?
+answer: Wallet 소프트웨어에 로컬로 설치됩니다.
+wrong_answers:
+  - 개발자가 제어하는 중앙 집중식 데이터베이스에서.
+  - Bitcoin Blockchain에서 OP_RETURN까지.
+  - 소프트웨어가 실행되는 동안에만 RAM에 저장됩니다.
+explanation: |
+  라벨은 Wallet 소프트웨어에 의해 로컬에 저장되며 Bitcoin 네트워크를 통해 전송되지 않습니다. 따라서 라벨링은 개인 관리 도구입니다.
+  
+reviewed: true

@@ -1,0 +1,8 @@
+question: Milline meetod võimaldab teil eraldada tulemuse väärtuse, esitades samal ajal vea korral kohandatud paanikasõnumi?
+answer: oodata
+wrong_answers:
+  - unwrap_or_else
+  - unwrap_with_message
+  - paanika_with
+explanation: |
+  Meetod expect on spetsiaalselt loodud selleks, et saada tulemuse väärtust "Success", võimaldades samal ajal esitada kohandatud paanikasõnumi, mis kuvatakse vea korral. See muudab vigade kõrvaldamise lihtsamaks võrreldes unwrapiga, mis kasutab üldist paanikasõnumit. Meetod unwrap_or_else ei tekita paanikat, vaid täidab vea ilmnemisel sulgemise. Teised valikud (unwrap_with_message ja panic_with) ei ole tegelikud Rust meetodid Result-tüüpide käsitlemiseks.

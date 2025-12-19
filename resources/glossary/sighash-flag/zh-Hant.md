@@ -32,4 +32,4 @@ Bitcoin 交易中的一個參數，它決定交易的哪些元件（輸入和輸
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`)：簽章適用於單一輸入，且僅適用於與此輸入具有相同索引的輸出。
 
 
-> ► *「SigHash」有時使用的同義詞是「Signature Hash Types」。
+> ► *「SigHash」有時使用的同義詞是「Signature Hash Types」*。

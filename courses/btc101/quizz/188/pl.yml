@@ -1,8 +1,8 @@
-question: Czym jest BTCMap?
-answer: Platforma zawierająca listę wszystkich sprzedawców akceptujących Bitcoin.
+question: Które z poniższych działań mogą pomóc tym, którzy chcą korzystać z Bitcoina w codziennym życiu?
+answer: Przygotowanie listy wszystkich sprzedawców, którzy akceptują Bitcoina.
 wrong_answers:
-  - Mapa wszystkich kopalni Bitcoin na świecie.
-  - Mapa wszystkich giełd Bitcoin na świecie.
-  - Mapa wszystkich użytkowników Bitcoin na świecie.
+  - Podniesienie ceny Bitcoin.
+  - Zmniejszenie liczby bitcoinów.
+  - Ograniczenie wykorzystania Bitcoina.
 explanation: >-
 reviewed: true

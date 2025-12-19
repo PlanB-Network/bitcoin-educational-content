@@ -8,6 +8,8 @@ wrong_answers:
   - L'entropie relative à chaque input ou output.
 
 explanation: |
-  Le score de Boltzmann indique la probabilité conditionnelle qu'un input spécifique soit relié à un output donné. C'est donc une mesure quantitative de la probabilité conditionnelle qu'une association entre un input et un output dans une transaction se produise, établie sur le ratio du nombre d'occurrences favorables de cet événement par rapport au nombre total d'occurrences possibles, dans un ensemble d'interprétations.
+  Le score de Boltzmann indique la probabilité conditionnelle qu'un input spécifique soit relié à un output donné. 
+  C'est donc une mesure quantitative de la probabilité conditionnelle qu'une association entre un input et un output dans une transaction se produise, 
+  établie sur le ratio du nombre d'occurrences favorables de cet événement par rapport au nombre total d'occurrences possibles, dans un ensemble d'interprétations.
 
-reviewed: false
+reviewed: true 

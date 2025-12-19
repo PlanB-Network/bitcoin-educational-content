@@ -160,9 +160,9 @@ Hier zie ik 3 interfaces:
 
 
 
-- Lo**: dit is de loopback Interface; het is een virtuele Interface die over de apparatuur "loopt". In principe wordt deze Interface, waarvan de Address 127.0.0.1 is (hoewel elke Address in 127.0.0.0/8 volstaat, omdat dit bereik voor dit doel gereserveerd is) gebruikt om contact te maken met de apparatuur zelf. Als je een website op je werkstation hebt geïnstalleerd (bijvoorbeeld met WAMPP), heb je waarschijnlijk ooit de "*localhost*" Address gebruikt om contact te maken met de apparatuur zelf Address gebruikt om de site op je eigen machine weer te geven. Deze hostnaam is geassocieerd met Address 127.0.0.1 en dus met de Interface loopback.
-- ens33**: dit is mijn eerste Interface, die hier een Address kreeg van mijn DHCP
-- ens36**: mijn tweede Interface
+- **Lo**: dit is de loopback Interface; het is een virtuele Interface die over de apparatuur "loopt". In principe wordt deze Interface, waarvan de Address 127.0.0.1 is (hoewel elke Address in 127.0.0.0/8 volstaat, omdat dit bereik voor dit doel gereserveerd is) gebruikt om contact te maken met de apparatuur zelf. Als je een website op je werkstation hebt geïnstalleerd (bijvoorbeeld met WAMPP), heb je waarschijnlijk ooit de "*localhost*" Address gebruikt om contact te maken met de apparatuur zelf Address gebruikt om de site op je eigen machine weer te geven. Deze hostnaam is geassocieerd met Address 127.0.0.1 en dus met de Interface loopback.
+- **ens33**: dit is mijn eerste Interface, die hier een Address kreeg van mijn DHCP
+- **ens36**: mijn tweede Interface
 
 
 
@@ -211,8 +211,8 @@ Hier volgen enkele verklaringen van deze eerste wijzigingen:
 
 
 
-- auto *Interface***: zal automatisch Interface "starten" bij het opstarten van het systeem
-- iface *Interface* inet manual**: om de Interface zonder IP Address te gebruiken. Zoals het sleutelwoord "static" om een statische IP Address te definiëren of "dhcp" om dynamische adressering te gebruiken
+- auto **Interface**: zal automatisch Interface "starten" bij het opstarten van het systeem
+- iface *Interface* inet **manual**: om de Interface zonder IP Address te gebruiken. Zoals het sleutelwoord "static" om een statische IP Address te definiëren of "dhcp" om dynamische adressering te gebruiken
 
 
 
@@ -239,10 +239,10 @@ Ook hier een paar verklaringen:
 
 
 
-- iface br0 inet static**: hier heb ik mijn Interface bridge (*br0*) met een statische Address gedefinieerd.
-- Address, netmask, gateway**: adresseringsinformatie voor de kaart
-- bridge_ports**: interfaces die in de bridge moeten worden opgenomen
-- bridge_stp**: het Spanning Tree protocol wordt gebruikt bij het onderling verbinden van schakelaars om redundante links te detecteren en lussen te vermijden. Aangezien een bridge kan worden ingevoegd tussen twee netwerkpaden, kan het de bron van een lus zijn, vandaar de mogelijkheid om dit protocol in te schakelen. Ik heb het hier niet nodig, dus ik schakel het uit.
+- iface br0 inet static: hier heb ik mijn Interface bridge (*br0*) met een statische Address gedefinieerd.
+- **Address, netmask, gateway**: adresseringsinformatie voor de kaart
+- **bridge_ports**: interfaces die in de bridge moeten worden opgenomen
+- **bridge_stp**: het Spanning Tree protocol wordt gebruikt bij het onderling verbinden van schakelaars om redundante links te detecteren en lussen te vermijden. Aangezien een bridge kan worden ingevoegd tussen twee netwerkpaden, kan het de bron van een lus zijn, vandaar de mogelijkheid om dit protocol in te schakelen. Ik heb het hier niet nodig, dus ik schakel het uit.
 
 
 
@@ -281,8 +281,8 @@ Standaard bevatten pakketbronnen alleen pakketten die voldoen aan de DFSG (*Debi
 
 
 
-- contrib**: pakketten die DFSG-conforme software bevatten, maar afhankelijkheden gebruiken die geen deel uitmaken van de **main** tak
-- non-free**: bevat pakketten die niet DFSG-compatibel zijn
+- **contrib**: pakketten die DFSG-conforme software bevatten, maar afhankelijkheden gebruiken die geen deel uitmaken van de **main** tak
+- **non-free**: bevat pakketten die niet DFSG-compatibel zijn
 
 
 
@@ -442,7 +442,7 @@ Om dit te demonstreren, start ik een YouTube-video op mijn host:
 
 
 
-**Het verkeer werd onmiddellijk herkend en gecategoriseerd!
+**Het verkeer werd onmiddellijk herkend en gecategoriseerd!**
 
 
 

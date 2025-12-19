@@ -1,8 +1,8 @@
-question: Koja je funkcija prilagođavanja težine u Bitkoin mreži?
-answer: Osigurava da se blok dodaje u Blockchain otprilike svakih deset minuta.
+question: Šta je obrezani čvor u kontekstu Bitkoina?
+answer: Čvor koji u memoriji čuva samo poslednjih N blokova.
 wrong_answers:
-  - Određuje cenu Bitkoina.
-  - Reguliše broj bitkoina koji se mogu iskopati u Blockchain-u.
-  - Određuje veličinu bloka.
+  - Čvor koji samo validira transakcije.
+  - Čvor koji samo prenosi informacije drugim čvorovima.
+  - Čvor koji samo sprovodi pravila Bitkoin protokola.
 explanation: >-
 reviewed: true

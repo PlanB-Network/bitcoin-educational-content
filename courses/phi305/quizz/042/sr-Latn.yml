@@ -1,0 +1,9 @@
+question: Ko je napisao "Ništa se ne dešava u prirodi što se može pripisati a
+answer: Spinoza.
+wrong_answers:
+  - Dekart.
+  - Njutn.
+  - Saint-Augustin.
+explanation: |
+  Spinoza je napisao: "Ništa se u prirodi ne dešava što se može pripisati poroku koji u njoj postoji". Ova fraza izražava ideju da je priroda savršena u svojoj vrsti, i da su nedostaci samo ljudske presude.
+reviewed: false

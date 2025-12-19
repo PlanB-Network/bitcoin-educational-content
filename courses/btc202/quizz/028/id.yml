@@ -1,0 +1,9 @@
+question: Apa yang membuat node pruned berbeda dari Full node?
+answer: Ini secara bertahap menghilangkan blok lama
+wrong_answers:
+  - Tidak memvalidasi transaksi lama
+  - Tidak dapat menyampaikan seluruh blok
+  - Ini tidak menyimpan salinan lokal Blockchain, hanya set UTXO
+explanation: |
+  Node pruned memvalidasi seluruh rantai, tetapi hanya menyimpan sebagian blok terbaru untuk membatasi penyimpanannya.
+reviewed: true

@@ -1,10 +1,8 @@
-question: Mis oli esimese väljalastud Bitcoin tarkvara versioon?
-answer: Bitcoin-0.1.0
+question: Mis on Bitcoin'i sõlme roll Bitcoin'i võrgustikus?
+answer: See tegeleb uute plokkide ja nendega kaasnevate tehingute valideerimisega.
 wrong_answers:
-  - Bitcoin-0.0.1
-  - Bitcoin-1.0.0
-  - Bitcoin-0.1.1
+  - See loob uusi Bitcoine.
+  - See reguleerib Bitcoini hinda.
+  - See haldab Bitcoini võrgustikku.
 explanation: >-
-  Esimene väljalastud Bitcoin tarkvara oli Bitcoin-0.1.0. Selle teatas
-  Satoshi Nakamoto 8. jaanuaril 2009.
-reviewed: true
+  Bitcoin'i sõlm Bitcoin'i võrgustikus tegeleb uute plokkide ja nendega kaasnevate tehingute valideerimisega. Just selle Bitcoin'i sõlmede võrgustiku kaudu on võrgustik tõeliselt detsentraliseeritud.

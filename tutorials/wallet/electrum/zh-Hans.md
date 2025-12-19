@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: 从零到英雄的Electrum完全指南
+description: 完整的Electrum指南，从零到高手
 ---
 
 ![封面](assets/cover.webp)
 
-Electrum的描述
+以下是Electrum的一些描述来源：
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "我必须说，当我遇到这个指南时我感到震惊。祝贺Arman the Parman完成了这个。如果不在这里托管并尽可能多地翻译成不同的语言，那将是一种遗憾。老实说，应该给那个家伙小费。" Rogzy
 

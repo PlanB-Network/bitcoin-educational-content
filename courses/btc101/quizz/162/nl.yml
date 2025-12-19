@@ -1,12 +1,12 @@
-question: Wat is de rol van miners in het Bitcoin protocol?
-answer: Ze beveiligen het huidige en het historische netwerk.
+question: Hoe beloont het Bitcoin protocol de Miner die een geldige Hash vindt voor het volgende blok?
+answer: Met een beloning die wordt bepaald door consensusregels en met de vergoedingen van alle transacties die zijn opgenomen in het geldige blok.
 wrong_answers:
-  - Ze regelen de prijs van Bitcoin.
-  - Ze controleren de Supply van Bitcoin.
-  - Ze beheren transacties tussen gebruikers.
+  - Met een vaste hoeveelheid bitcoins die niet wordt bepaald door consensusregels.
+  - Met een percentage van het totaal Bitcoin Supply en de vergoedingen van alle transacties uit de vorige blokken.
+  - Met de vergoedingen van alle transacties inbegrepen in het geldige blok.
 explanation: |
-  Mijnwerkers in het Bitcoin protocol beveiligen zowel het huidige als het
-  het historische netwerk. Ze regelen niet de prijs van
-  Bitcoin, controleren Supply niet en beheren geen transacties
-  tussen gebruikers.
+  Het Bitcoin protocol beloont de Miner die een geldige
+  Hash vindt voor het volgende blok met een beloning waarvan het bedrag wordt
+  bepaald door de consensusregels, samen met de vergoedingen van
+  alle transacties in het geldige blok.
 reviewed: true

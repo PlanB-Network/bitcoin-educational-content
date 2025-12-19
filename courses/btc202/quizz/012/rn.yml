@@ -1,0 +1,9 @@
+question: Ni iyihe ntambwe iri mu ruhara rw’umwana muto?
+answer: Kubaka inzu y’abakandida kuva kuri Mempool.
+wrong_answers:
+  - Kwemeza Blockchain yose kuva kuri Mempool.
+  - Rema aderesi za Bitcoin ku bakoresha
+  - Bika imfunguruzo z'ibanga z'amasakoshi
+explanation: |
+  Miner ahitamwo amafaranga muri Mempool maze yubaka umugwi w'abashaka gutora, uwo akagerageza kwemeza na Proof of Work.
+reviewed: true

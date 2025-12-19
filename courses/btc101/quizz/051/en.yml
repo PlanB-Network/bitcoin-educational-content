@@ -1,10 +1,11 @@
-question: What is the impact of 2% inflation on purchasing power over 5 years?
-answer: You lose 10% of your purchasing power.
+question: What happened to the Zimbabwean dollar in April 2009?
+answer: The Minister of Finance announced the suspension of the Zimbabwean dollar and authorized the use of different foreign currencies for trade.
 wrong_answers:
-  - You lose 2% of your purchasing power.
-  - You lose 5% of your purchasing power.
-  - You lose 20% of your purchasing power.
+  - The Zimbabwean dollar collapsed by over 72%.
+  - The government agreed to compensate war veterans for an amount equivalent to 450 million US dollars.
+  - The government had to resort to running the printing press.
 explanation: |
-  With 2% inflation, you lose 2% of your purchasing power
-  annually, which amounts to 10% over 5 years.
+  In April 2009, the Minister of Finance announced the
+  suspension of the Zimbabwean dollar and authorized the use
+  of different foreign currencies for trade.
 reviewed: true

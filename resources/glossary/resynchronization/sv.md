@@ -17,4 +17,4 @@ Resynkroniseringar kan få olika konsekvenser. För det första, om en användar
 På global systemnivå innebär resynkroniseringar dessutom ett slöseri med minrarnas beräkningskraft. När en split inträffar kommer vissa miners att vara on chain `A` och andra on chain `B`. Om kedja `B` till slut överges under en resynkronisering, är all beräkningskraft som används av gruvarbetarna på denna kedja per definition bortkastad. Om det sker för många resynkroniseringar i Bitcoin-nätverket minskar därför nätverkets övergripande säkerhet. Det är delvis därför som det kan vara farligt att öka blockstorleken eller minska intervallet mellan varje block (10 minuter).
 
 
-> ► *Vissa bitcoiners föredrar att använda "Orphan block" för att referera till ett block som löpt ut. Även om det är en anglicism, är en "omorganisation" eller en "reorg" i vanligt språkbruk ofta att föredra framför "resynkronisering"
+> ► *Vissa bitcoiners föredrar att använda "Orphan block" för att referera till ett block som löpt ut. Även om det är en anglicism, är en "omorganisation" eller en "reorg" i vanligt språkbruk ofta att föredra framför "resynkronisering"*

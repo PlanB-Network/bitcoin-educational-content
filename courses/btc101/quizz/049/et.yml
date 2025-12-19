@@ -1,9 +1,9 @@
-question: Mis on hüperinflatsiooni esimene faas?
-answer: Usalduse kaotus
+question: Mis oli inflatsioonimäär Ungaris juulis 1946?
+answer: 41,900,000,000,000,000%
 wrong_answers:
-  - Valuuta kokkukukkumine & hinnatõus
-  - Raha trükkimise nõiaring
-  - Uue valuuta teke
+  - 207%
+  - 50%
+  - 100%
 explanation: |
-  Hüperinflatsiooni esimene faas on usalduse kaotus valuuta vastu.
+  Kuu, mil Ungaris oli kõrgeim inflatsioon, oli juuli 1946, milles registreeriti rekordiline hinnainflatsioon 41,900,000,000,000,000%.
 reviewed: true

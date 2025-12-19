@@ -10,7 +10,7 @@ description: Как добавить новую книгу в сеть PlanB?
 ![book](assets/01.webp)
 - Во-первых, у вас должен быть аккаунт на GitHub. Если вы не знаете, как создать аккаунт, мы подготовили подробный учебник, который поможет вам.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Перейдите в [репозиторий GitHub PlanB, посвященный данным](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) в раздел `resources/books/`:
@@ -70,7 +70,7 @@ tags:
 ![book](assets/13.webp)
 - Нажмите на изображение вашего профиля GitHub в верхнем правом углу, затем на `Ваши репозитории`:
 ![book](assets/14.webp)
-- Выберите ваш форк репозитория PlanB Network:
+- Выберите ваш форк репозитория Plan ₿ Academy:
 ![book](assets/15.webp)
 - В верхней части окна вы должны увидеть уведомление о вашей новой ветке. Вероятно, она называется `patch-1`. Нажмите на нее:
 ![book](assets/16.webp)
@@ -92,7 +92,7 @@ tags:
 ![book](assets/24.webp)
 - Нажмите на кнопку `Добавить файл`, затем на `Загрузить файлы`:
 ![book](assets/25.webp)
-- Откроется новая страница. Перетащите изображение обложки вашей книги в область. Это изображение будет отображаться на сайте PlanB Network:
+- Откроется новая страница. Перетащите изображение обложки вашей книги в область. Это изображение будет отображаться на сайте Plan ₿ Academy:
 ![book](assets/26.webp)
 - Будьте внимательны, изображение должно быть в формате книги, чтобы лучше адаптироваться к нашему сайту, например:
 ![book](assets/27.webp)

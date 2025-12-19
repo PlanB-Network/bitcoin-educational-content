@@ -1,10 +1,11 @@
-question: Was ist eine der Hauptfragen, die bezüglich der Zukunft der Finanzen gestellt wird?
-answer: Wer sollte das von uns verwendete Geld halten, autorisieren und nachverfolgen?
+question: Was ist eine praktische Methode, um Bitcoins zu erhalten?
+answer: Durch den Kauf über regulierte oder unregulierte Plattformen.
 wrong_answers:
-  - Wie können wir Geld vollständig abschaffen?
-  - Wie können wir sicherstellen, dass jeder den gleichen Geldbetrag hat?
-  - Wie können wir Geld überflüssig machen?
-explanation: >-
-  Der Text wirft mehrere Fragen über die Zukunft der Finanzen auf, eine
-  davon ist, wer das von uns verwendete Geld halten, autorisieren und nachverfolgen sollte.
+  - Sie durch den Einsatz eines Laptops zu minen.
+  - Sie in der physischen Welt zu finden.
+  - Sie mit einer speziellen Software zu erstellen.
+explanation: |
+  Der Text erwähnt, dass Nutzer Bitcoins erhalten können,
+  indem sie diese für Handel akzeptieren oder durch den Kauf
+  über regulierte oder unregulierte Plattformen.
 reviewed: true

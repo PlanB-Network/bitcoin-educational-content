@@ -1,0 +1,9 @@
+question: Как называется "Белая книга" Satoshi Nakamoto, опубликованная в 2008 году?
+answer: Bitcoin Одноранговая система электронных денег
+wrong_answers:
+  - Bitcoin Децентрализованная система цифрового золота
+  - Bitcoin Будущее денег
+  - Bitcoin Платежная сеть на основе Blockchain
+explanation: |
+  В 2008 году была опубликована "Белая книга" Satoshi Накамото - Bitcoin A Peer-to-Peer Electronic Cash System.
+reviewed: true

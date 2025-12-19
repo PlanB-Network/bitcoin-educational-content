@@ -33,23 +33,23 @@ Fedi Wallet es una cartera Bitcoin que viene con un nuevo enfoque para guardar s
 
 
 
-- Custodios**: Usted decide depositar su confianza en una entidad externa, el desarrollador de carteras, que guardará por usted las palabras de recuperación de su cartera. Usted no tiene acceso ni la posibilidad de exportar su cartera Bitcoin.
+- **Custodios**: Usted decide depositar su confianza en una entidad externa, el desarrollador de carteras, que guardará por usted las palabras de recuperación de su cartera. Usted no tiene acceso ni la posibilidad de exportar su cartera Bitcoin.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- Autocustodias** : La aplicación te da acceso a las palabras de recuperación en cuanto creas tu Wallet. Así podrás exportar libremente tus bitcoins a la Wallet que más te convenga.
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **Autocustodias**: La aplicación te da acceso a las palabras de recuperación en cuanto creas tu Wallet. Así podrás exportar libremente tus bitcoins a la Wallet que más te convenga.
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 En su lugar, Fedi Wallet ofrece el enfoque de federación, que te permite unirte a un grupo de personas de confianza para gestionar las claves de tu cartera. Puedes unirte a una federación popular sugerida por Fedi, o unirte a la federación local de tu comunidad escaneando un código QR o pegando el código de invitación de la federación.
 
@@ -75,7 +75,7 @@ Obtenga más información sobre nuestras recomendaciones de copia de seguridad d
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Para cada federación a la que te unas, Fedi distingue tus bitcoins creando carteras separadas.
 
@@ -103,7 +103,7 @@ En el menú **Federaciones**, desplácese hasta una federación y haga clic en *
 
 
 
-- Recibir bitcoins en Fedi**: En la página de inicio, seleccione la federación que desea utilizar para recibir bitcoins y, a continuación, haga clic en el botón **Recibir** para crear un Invoice Lightning con una cantidad a recibir.
+- **Recibir bitcoins en Fedi**: En la página de inicio, seleccione la federación que desea utilizar para recibir bitcoins y, a continuación, haga clic en el botón **Recibir** para crear un Invoice Lightning con una cantidad a recibir.
 
 
 
@@ -113,7 +113,7 @@ En el menú **Federaciones**, desplácese hasta una federación y haga clic en *
 
 
 
-- Enviar bitcoins**: En la página de inicio, haz clic en el botón **Enviar** para enviar bitcoins a un Address de Lightning, para pagar a un Invoice o realizar un pago sin conexión.
+- **Enviar bitcoins**: En la página de inicio, haz clic en el botón **Enviar** para enviar bitcoins a un Address de Lightning, para pagar a un Invoice o realizar un pago sin conexión.
 
 
 
@@ -141,7 +141,7 @@ El destinatario deberá escanear el código QR generado para reclamar los satosh
 
 
 
-Los pagos sin conexión se realizan principalmente mediante [e-cash](https://planb.network/resources/glossary/ecash-david-chaum). La transacción se almacena en tu teléfono y, en cuanto accedes a Internet, la confirmación de la transacción es automática. También puede confirmar el pago manualmente haciendo clic en **Confirmar transacción**.
+Los pagos sin conexión se realizan principalmente mediante [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). La transacción se almacena en tu teléfono y, en cuanto accedes a Internet, la confirmación de la transacción es automática. También puede confirmar el pago manualmente haciendo clic en **Confirmar transacción**.
 
 
 
@@ -191,7 +191,7 @@ En el menú **Mods** encontrará aplicaciones como :
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ Acabas de hacer el recorrido Fedi Wallet, ahora estás en posición de aprovecha
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

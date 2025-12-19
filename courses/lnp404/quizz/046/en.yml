@@ -1,0 +1,8 @@
+question: What happens to the underlying Lightning channels and cryptographic keys when an LND Account is created within a Lightning Terminal deployment?
+answer: The primary LND node retains full custody of all keys and channels while the account functions as a virtual logic layer
+wrong_answers:
+  - "New Lightning channels are automatically opened and dedicated cryptographic keys are generated for the account's exclusive use"
+  - The account receives a proportional share of existing channels and a derived set of keys based on its allocated balance
+  - "Channels are temporarily locked to the account's balance allocation and keys are shared through a multi-signature scheme"
+explanation: |
+  LND Accounts are purely virtual constructs that operate as logic layers on top of existing infrastructure. The host LND node maintains complete control over all cryptographic material and channel management. Accounts don't fragment the node's capital or create new on-chain footprints - they simply track virtual balances and enforce access rules through macaroon-based permissions, allowing multiple users to share liquidity without duplicating infrastructure or compromising the node's unified channel management.

@@ -1,8 +1,8 @@
-question: None Hashrate ni iki?
-answer: Igitigiri c'imibare ya Hash igikoresho ca Mining gishobora gukora ku segonda kugira ngo gitorere umuti Proof of Work.
+question: Ni akamaro akahe k’ugukoresha inguvu muri Bitcoin Mining?
+answer: Inguvu zikoreshwa ni ngombwa kugira ngo amakuru ashobore gusohoka, ariko kugenzura amakuru birafise igiciro gitoyi cane. Uwo asymétrie ni wo utanga umutekano w’urubuga.
 wrong_answers:
-  - Umuvuduko igikoresho ca Mining gishobora gutorera umuti Proof of Work.
-  - Igitigiri cose c’abacukuzi bari mu murongo wa Bitcoin.
-  - Igitigiri cose c’ama bitcoins yacukuwe mu gukora umubare kanaka w’ibigeragezo ku segonda kugira ngo utore umuti wa Proof of Work.
+  - Igiciro c’inguvu ni ngombwa kugira ngo amashini ya ASIC akoreshwa muri Mining akoreshe ubushobozi, kandi kugenzura amakuru birafise igiciro kinini.
+  - Inguvu zikoreshwa ni ngombwa kugira ngo uruja n’uruza rwa Bitcoin rubeho, kandi ukugenzura amakuru birafise ibiciro bihinduka.
+  - Igiciro c’inguvu si ngombwa kugira ngo umuntu areme ama bitcoins mashasha.
 explanation: >-
-reviewed: true
+reviewed: false

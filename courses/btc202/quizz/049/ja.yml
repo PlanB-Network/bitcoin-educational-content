@@ -1,0 +1,9 @@
+question: Bitcoin coreのdbcacheパラメータのデフォルト値は？
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1ギガバイト
+  - 4ギガバイト
+explanation: |
+  デフォルトでは、Bitcoin coreは450MiB（472MB）をキャッシュに割り当てる。
+reviewed: true

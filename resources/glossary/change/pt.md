@@ -6,4 +6,4 @@ No contexto das transacções Bitcoin, refere-se ao UTXO criado com os fundos re
 
 ![](../../dictionnaire/assets/16.webp)
 
-> ► *Embora seja raramente utilizado, podemos também referir-nos a ele como "currency" (troco dado) para falar do troco
+> ► *Embora seja raramente utilizado, podemos também referir-nos a ele como "currency" (troco dado) para falar do troco*

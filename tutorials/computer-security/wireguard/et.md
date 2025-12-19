@@ -101,9 +101,9 @@ IP-aadresside osas annab see:
 
 
 
-- Koduvõrk**: 192.168.1.0/24
-- Ettevõtte võrgustik**: 192.168.100.0/24
-- WireGuard-tunnelivõrk**: 192.168.110.0/24
+- **Koduvõrk**: 192.168.1.0/24
+- **Ettevõtte võrgustik**: 192.168.100.0/24
+- **WireGuard-tunnelivõrk**: 192.168.110.0/24
 
 
 + Peer 1 (Windows) IP Address tunnelis: 192.168.110.2/24
@@ -117,7 +117,7 @@ See on kõik, mis vaja! Läheme konfigureerimise juurde!
 
 
 
-**Märkus: vaikimisi töötab WireGuard UDP-režiimis **port 51820**.
+**Märkus: vaikimisi töötab WireGuard UDP-režiimis port 51820.**
 
 
 
@@ -219,10 +219,10 @@ Sektsiooni `[Interface]` kasutatakse serveriosa deklareerimiseks. Siin on mõned
 
 
 
-- Address**: Interface WireGuardi IP Address VPN-tunnelis (erinev alamvõrgustik eemal asuvast LANist)
-- SaveConfig**: konfiguratsioon salvestatakse (ja kaitstakse) seni, kuni Interface on aktiivne
-- ListenPort**: WireGuard'i kuulav port. Antud juhul on vaikimisi port 51820, kuid võite seda kohandada
-- PrivateKey**: meie serveri privaatvõtme väärtus (*wg-private.key*)
+- **Address**: Interface WireGuard IP Address VPN-tunnelis (erinev alamvõrgustik eemal asuvast LANist)
+- **SaveConfig**: konfiguratsioon salvestatakse (ja kaitstakse) seni, kuni Interface on aktiivne
+- **ListenPort**: WireGuard'i kuulav port. Antud juhul on vaikimisi port 51820, kuid võite seda kohandada
+- **PrivateKey**: meie serveri privaatvõtme väärtus (*wg-private.key*)
 
 
 
@@ -372,7 +372,7 @@ Lisage need read faili lõppu, et **võimaldada IP masquerade Interface ens192**
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Alustage uue tunneli loomiseks tarkvara avamisega. Selleks klõpsake nupu "**Lis
 
 
 
-Avaneb konfiguratsiooniaken. Iga kord, kui luuakse uus tunneli konfiguratsioon, genereerib WireGuard selle konfiguratsiooni jaoks spetsiaalse privaatse/avaliku võtmepaari. **Selles konfiguratsioonis tuleb deklareerida "peer", st kaugserver:
+Avaneb konfiguratsiooniaken. Iga kord, kui luuakse uus tunneli konfiguratsioon, genereerib WireGuard selle konfiguratsiooni jaoks spetsiaalse privaatse/avaliku võtmepaari. **Selles konfiguratsioonis tuleb deklareerida "peer", st kaugserver:**
 
 
 
@@ -523,15 +523,15 @@ Piltidel:
 
 
 
-** Mõningad selgitused [Peer] ploki kohta:
+**Mõningad selgitused [Peer] ploki kohta:**
 
 
 
 
 
-- PublicKey**: see on WireGuard Debian 11 serveri avalik võti (selle väärtuse saate kätte käsuga "*sudo wg*")
-- AllowedIPs**: need on IP-aadressid / alamvõrgud, mis on kättesaadavad selle WireGuard VPN võrgu kaudu, käesoleval juhul minu WireGuard VPN-i (*192.168.110.0/24*) ja minu kauglokaalvõrgu (*192.168.100.0/24*) alamvõrk
-- Endpoint**: see on Debian 11 host'i IP Address, kuna see on meie WireGuard'i ühenduspunkt (peate määrama avaliku IP Address)
+- **PublicKey**: see on WireGuard Debian 11 serveri avalik võti (selle väärtuse saate kätte käsuga "*sudo wg*")
+- **AllowedIPs**: need on IP-aadressid / alamvõrgud, mis on kättesaadavad selle WireGuard VPN võrgu kaudu, käesoleval juhul minu WireGuard VPN-i (*192.168.110.0/24*) ja minu kauglokaalvõrgu (*192.168.100.0/24*) alamvõrk
+- **Endpoint**: see on Debian 11 host'i IP Address, kuna see on meie WireGuard'i ühenduspunkt (peate määrama avaliku IP Address)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Nüüd, kui konfiguratsioon on valmis, saame selle käivitada Windowsi arvutist. Selleks klõpsake "**WireGuard**" kliendis nupule "**Activate**": ühendus **muutub "Off"-st "On "**, kuid see ei tähenda, et see hakkab tööle. Kõik sõltub sellest, kas teie konfiguratsioon on õige või mitte. **Kui ühendus on loodud, suhtlevad meie kaks masinat Interface WireGuard'i kaudu, mis on konfigureeritud mõlemal poolel!
+Nüüd, kui konfiguratsioon on valmis, saame selle käivitada Windowsi arvutist. Selleks klõpsake **WireGuard** kliendis nupule **Activate**: ühendus muutub **Off**-st **On**, kuid see ei tähenda, et see hakkab tööle. Kõik sõltub sellest, kas teie konfiguratsioon on õige või mitte. **Kui ühendus on loodud, suhtlevad meie kaks masinat Interface WireGuard'i kaudu, mis on konfigureeritud mõlemal poolel!**
 
 
 
@@ -663,7 +663,7 @@ Ma saan oma kaugarvutist pingida oma Interface WireGuard'i IP Address serveripoo
 
 
 
-Oma kaugarvutist, mis on ühendatud minu WireGuard VPN-iga, sain juurdepääsu failiserverile ja edastada faili [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) kaudu, et näha ülekandekiirust. **WireGuardiga saavutan ma maksimaalselt umbes 45 Mb/s, mis on suurepärane, kuna ma olen WiFi võrgus
+Oma kaugarvutist, mis on ühendatud minu WireGuard VPN-iga, sain juurdepääsu failiserverile ja edastada faili [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) kaudu, et näha ülekandekiirust. **WireGuardiga saavutan ma maksimaalselt umbes 45 Mb/s, mis on suurepärane, kuna ma olen WiFi võrgus.**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Näete, et see võimaldab ka valikut "**Tapa lüliti*".
+Näete, et see võimaldab ka valikut "**Tapa lüliti**".
 
 
 
@@ -783,4 +783,4 @@ Täiendav dokumentatsioon:
 
 
 
-** Teie WireGuard VPN on käivitatud ja töötab! Palju õnne!
+**Teie WireGuard VPN on käivitatud ja töötab! Palju õnne!**

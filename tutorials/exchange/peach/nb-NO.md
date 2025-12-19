@@ -1,5 +1,5 @@
 ---
-name: Fersken
+name: Peach
 description: Komplett guide til bruk av Peach og veksling av bitcoins P2P
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ description: Komplett guide til bruk av Peach og veksling av bitcoins P2P
 
 KYC-frie peer-to-peer-børser (P2P) er avgjørende for å bevare brukernes konfidensialitet og økonomiske uavhengighet. De muliggjør direkte transaksjoner mellom enkeltpersoner uten behov for identitetsbekreftelse, noe som er avgjørende for de som verdsetter personvern. For en mer inngående forståelse av de teoretiske konseptene, ta en titt på BTC204-kurset:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Hva er fersken?
 
@@ -18,7 +18,7 @@ Peach er en P2P-utvekslingsplattform som lar brukerne kjøpe og selge bitcoins u
 
 ### 2. Personvern og datainnsamling
 
-**Hvilken informasjon samler Peach inn?
+**Hvilken informasjon samler Peach inn?**
 
 Peach bestreber seg på å lagre et absolutt minimum av data om brukerne. Her er en oversikt over dataene som lagres på serverne:
 
@@ -34,9 +34,9 @@ En hash er data som er gjort ugjenkjennelige, på samme måte som kryptering. De
 
 *For mer informasjon om hashing, kan du følge dette kurset:*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Hvem kan se betalingsopplysningene mine?
+**Hvem kan se betalingsopplysningene mine?**
 
 
 - Bare motparten din kan se betalingsopplysningene dine
@@ -50,7 +50,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ![Installation de Peach](assets/fr/01.webp)
 
 
-- Last ned applikasjonen fra [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/).
+- Last ned applikasjonen fra [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
 - Følg installasjonsinstruksjonene på enheten din.
 - Under installasjonen blir du bedt om å velge om du ønsker å dele visse data for å forbedre Peach-applikasjonen (bilde 1)
 - På det neste skjermbildet (bilde 2) har du to alternativer:
@@ -68,17 +68,17 @@ Peach-applikasjonen er organisert rundt fire hovedskjermbilder som er tilgjengel
 ![Navigation dans l'application](assets/fr/02.webp)
 
 
-- Hjem** : Hovedskjermen for kjøp og salg av bitcoins. Det er her du kan opprette nye transaksjoner og få tilgang til tilgjengelige tilbud.
-- Lommebok**: Din integrerte bitcoin-lommebok som lar deg :
+- **Hjem**: Hovedskjermen for kjøp og salg av bitcoins. Det er her du kan opprette nye transaksjoner og få tilgang til tilgjengelige tilbud.
+- **Lommebok**: Din integrerte bitcoin-lommebok som lar deg :
  - Sjekk saldoen din
  - Motta bitcoins
  - Send bitcoins
  - Se transaksjonshistorikken din
-- Handler** : Ditt senter for handelsadministrasjon hvor du finner :
+- **Handler**: Ditt senter for handelsadministrasjon hvor du finner :
  - Dine nåværende transaksjoner
  - En komplett historikk over utvekslingene dine
  - Status for hver transaksjon
-- Innstillinger** : Din kontokonfigurasjonshub for :
+- **Innstillinger**: Din kontokonfigurasjonshub for :
  - Administrer betalingsmåtene dine
  - Konfigurer sikkerhetskopiene dine
  - Tilpass preferansene dine
@@ -90,7 +90,7 @@ Peach-applikasjonen er organisert rundt fire hovedskjermbilder som er tilgjengel
 
 Få tilgang til betalingsmåter via fanen Innstillinger (bilde 8)
 
-**Online-betalinger
+**Online-betalinger**
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
@@ -149,7 +149,7 @@ Landspesifikke betalingssystemer :
 
 ### 4. Slik sikrer du porteføljen din
 
-**Forståelse av Peach-kontoen din
+**Forståelse av Peach-kontoen din**
 
 En Peach-konto er ikke en tradisjonell konto med innlogging og passord. Det er en fil som er lagret lokalt på telefonen din, noe som betyr at Peach ikke trenger å lagre dataene dine eller kjenne identiteten din: Du har kontrollen. Denne filen inneholder alle dataene dine, fra bitcoin-lommeboknøklene til betalingsinformasjonen din.
 
@@ -269,19 +269,19 @@ For optimal sikkerhet anbefaler vi at du utfører begge typer sikkerhetskopierin
 ### Fordeler med fersken
 
 
-- Ingen KYC kreves**: Bevarer brukernes konfidensialitet.
-- Ingen tilgang til bankopplysninger**: Peach har ikke tilgang til bankopplysningene dine eller identiteten din.
-- Intuitivt grensesnitt**: Enkelt å bruke for viderekomne brukere.
-- Åpen kildekode** : Kildekoden er offentlig og kan verifiseres av fellesskapet.
+- **Ingen KYC kreves**: Bevarer brukernes konfidensialitet.
+- **Ingen tilgang til bankopplysninger**: Peach har ikke tilgang til bankopplysningene dine eller identiteten din.
+- **Intuitivt grensesnitt**: Enkelt å bruke for viderekomne brukere.
+- **Åpen kildekode**: Kildekoden er offentlig og kan verifiseres av fellesskapet.
 
 ### Ulemper med fersken
 
 
-- Begrenset likviditet**: Mindre handelsvolum enn på mer etablerte plattformer.
-- Regulatorisk risiko** : Applikasjonen administreres av et sveitsisk selskap. Den er derfor underlagt sveitsisk regelverk, som kan utvikle seg og potensielt sensurere applikasjonen.
+- **Begrenset likviditet**: Mindre handelsvolum enn på mer etablerte plattformer.
+- **Regulatorisk risiko**: Applikasjonen administreres av et sveitsisk selskap. Den er derfor underlagt sveitsisk regelverk, som kan utvikle seg og potensielt sensurere applikasjonen.
 
 ## Nyttige ressurser
 
 
-- Fransk forklaringsvideo: [YouTube] (https://youtu.be/ziwhv9KqVkM)
-- Hurtigstartveiledning: [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/)
+- Fransk forklaringsvideo: [YouTube](https://youtu.be/ziwhv9KqVkM)
+- Hurtigstartveiledning: [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/)

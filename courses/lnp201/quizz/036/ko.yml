@@ -1,0 +1,9 @@
+question: HTLC 수령자가 자금을 받으려면 어떤 조건을 충족해야 하나요?
+answer: 결제를 잠금 해제하려면 비밀 번호(미리보기 이미지)를 제공해야 합니다.
+wrong_answers:
+  - 각 중개 노드의 라우팅 수수료를 수락해야 합니다.
+  - 새 Commitment Transaction에 서명해야 합니다.
+  - 타임록이 만료될 때까지 기다려야 자금을 회수할 수 있습니다.
+explanation: |
+  HTLC로 자금을 받으려면 수취인은 Hash으로 보호된 결제를 잠금 해제할 수 있는 특정 비밀을 제공해야 합니다.
+reviewed: true

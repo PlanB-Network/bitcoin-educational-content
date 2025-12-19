@@ -1,11 +1,9 @@
-question: ¿Cuál es el concepto de transmisión de dinero en el contexto de la Red Lightning?
-answer: Realizar micropagos continuos y en tiempo real.
+question: ¿Cuál es una posible implicación del avance de las tecnologías de IA?
+answer: Las tecnologías de IA provocarán la desaparición de más del 80% de los trabajos actuales.
 wrong_answers:
-  - Convertir Bitcoin en efectivo en una ubicación física usando un cajero automático.
-  - Transmitir contenido de audio o video por Bitcoin.
-  - Crear nuevos bitcoins a través de operaciones de minería que ocurren en tiempo real.
+  - Las tecnologías de IA destruirán todos los ordenadores.
+  - Las tecnologías de IA conducirán a una disminución de la inteligencia humana.
+  - Las tecnologías de IA causarán un colapso económico global.
 explanation: >-
-  Con la Red Lightning, podemos realizar microtransacciones cada minuto,
-  lo que abre la puerta a experimentar con modelos económicos donde los consumidores pagan por
-  contenido basado en lo que consumen.
+  El texto menciona que una posible implicación del avance de las tecnologías de IA es que más del 80% de los trabajos desaparecerán debido a la IA y la automatización.
 reviewed: true

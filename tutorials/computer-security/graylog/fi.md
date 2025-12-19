@@ -43,7 +43,7 @@ Graylog on analyysi- ja valvontatyökalu, joka helpottaa epäilyttävän käytt�
 
 
 
-**Huomaa: ilmainen versio, **Graylog Open**, ei ole SIEM, kuten Wazuh on, varsinkin kun siitä puuttuu todelliset tunkeutumisen havaitsemistoiminnot.
+**Huomaa: ilmainen versio, Graylog Open, ei ole SIEM, kuten Wazuh on, varsinkin kun siitä puuttuu todelliset tunkeutumisen havaitsemistoiminnot.**
 
 
 
@@ -57,9 +57,9 @@ Graylog on analyysi- ja valvontatyökalu, joka helpottaa epäilyttävän käytt�
 
 
 
-- MongoDB 7**, Graylogin nykyinen suositeltu versio (vähintään 5.0.7, enintään 7.x)
-- OpenSearch**, Amazonin luoma avoimen lähdekoodin Fork Elasticsearchista (vähintään 1.1.x, enintään 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, Graylogin nykyinen suositeltu versio (vähintään 5.0.7, enintään 7.x)
+- **OpenSearch**, Amazonin luoma avoimen lähdekoodin Fork Elasticsearchista (vähintään 1.1.x, enintään 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Huomaa: **OpenSearchin asennus on valinnainen**, jos käytät sen sijaan **Graylog Data Nodea**.
+**Huomaa:** OpenSearchin asennus on valinnainen, jos käytät sen sijaan **Graylog Data Nodea**.
 
 
 
@@ -232,7 +232,7 @@ sudo apt-get update
 
 
 
-Asenna sitten OpenSearch** ja huolehdi siitä, että **määrität oletussalasanan instanssisi Admin**-tilille. Tässä salasana on "**IT-Connect2024!**", mutta korvaa tämä arvo vahvalla salasanalla. **Vältä heikkoja salasanoja**, kuten "**P@ssword123**", ja käytä vähintään **8 merkkiä**, joissa on vähintään yksi merkki jokaista tyyppiä (pienaakkoset, isot kirjaimet, numerot ja erikoismerkit), muuten asennuksen lopussa tulee virhe. **Tämä on edellytys OpenSearch 2.12.**:sta lähtien
+Asenna sitten **OpenSearch** ja huolehdi siitä, että **määrität oletussalasanan instanssisi Admin-tilille**. Tässä salasana on "**IT-Connect2024!**", mutta korvaa tämä arvo vahvalla salasanalla. **Vältä heikkoja salasanoja**, kuten "**P@ssword123**", ja käytä vähintään **8 merkkiä**, joissa on vähintään yksi merkki jokaista tyyppiä (pienaakkoset, isot kirjaimet, numerot ja erikoismerkit), muuten asennuksen lopussa tulee virhe. **Tämä on edellytys OpenSearch 2.12:sta lähtien**.
 
 
 
@@ -279,14 +279,14 @@ Tämä OpenSearch-konfiguraatio on suunniteltu yhden solmun perustamiseen. Seura
 
 
 
-- cluster.name: graylog**: tämä parametri nimeää OpenSearch-klusterin nimellä "**graylog**".
-- node.name: ${HOSTNAME}**: solmun nimi asetetaan dynaamisesti vastaamaan paikallisen Linux-koneen nimeä. Vaikka meillä on vain yksi solmu, on tärkeää nimetä se oikein.
-- path.data: /var/lib/opensearch**: tämä polku määrittää, minne OpenSearch tallentaa tietonsa paikallisella koneella, tässä tapauksessa "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: tämä polku määrittelee, minne OpenSearchin lokitiedostot tallennetaan, tässä tapauksessa "**/var/log/opensearch**".
-- discovery.type: single-node**: tämä parametri määrittää OpenSearchin toimimaan yhden solmun kanssa, minkä vuoksi valitaan vaihtoehto "**single-node**".
-- network.host: 127.0.0.1**: tämä määritys varmistaa, että OpenSearch kuuntelee vain Interface:n paikallista silmukkaa, mikä riittää, koska se on samalla palvelimella kuin Graylog.
-- action.auto_create_index: false**: poistamalla automaattisen indeksin luomisen käytöstä OpenSearch ei luo automaattisesti indeksiä, kun dokumentti lähetetään ilman olemassa olevaa indeksiä.
-- plugins.security.disabled: true**: tämä vaihtoehto poistaa OpenSearchin tietoturva-lisäosan käytöstä, mikä tarkoittaa, että todennusta, pääsynhallintaa tai tiedonsiirron salausta ei käytetä. Tämä asetus säästää aikaa Graylogin käyttöönotossa, mutta sitä tulisi välttää tuotannossa (katso [tämä sivu](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: tämä parametri nimeää OpenSearch-klusterin nimellä "**graylog**".
+- node.name: ${HOSTNAME}: solmun nimi asetetaan dynaamisesti vastaamaan paikallisen Linux-koneen nimeä. Vaikka meillä on vain yksi solmu, on tärkeää nimetä se oikein.
+- path.data: /var/lib/opensearch: tämä polku määrittää, minne OpenSearch tallentaa tietonsa paikallisella koneella, tässä tapauksessa "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: tämä polku määrittelee, minne OpenSearchin lokitiedostot tallennetaan, tässä tapauksessa "**/var/log/opensearch**".
+- discovery.type: single-node: tämä parametri määrittää OpenSearchin toimimaan yhden solmun kanssa, minkä vuoksi valitaan vaihtoehto "**single-node**".
+- network.host: 127.0.0.1: tämä määritys varmistaa, että OpenSearch kuuntelee vain Interface:n paikallista silmukkaa, mikä riittää, koska se on samalla palvelimella kuin Graylog.
+- **action.auto_create_index: false**: poistamalla automaattisen indeksin luomisen käytöstä OpenSearch ei luo automaattisesti indeksiä, kun dokumentti lähetetään ilman olemassa olevaa indeksiä.
+- **plugins.security.disabled: true**: tämä vaihtoehto poistaa OpenSearchin tietoturva-lisäosan käytöstä, mikä tarkoittaa, että todennusta, pääsynhallintaa tai tiedonsiirron salausta ei käytetä. Tämä asetus säästää aikaa Graylogin käyttöönotossa, mutta sitä tulisi välttää tuotannossa (katso [tämä sivu](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -350,7 +350,7 @@ Sulje tämä tiedosto tallennuksen jälkeen.
 
 
 
-Lisäksi meidän on tarkistettava Linux-ytimen "**max_map_count**"-parametrin asetukset. Se määrittelee prosessikohtaisesti kartoitettujen muistialueiden rajan, jotta sovelluksemme tarpeet voidaan täyttää. **OpenSearch**, kuten Elasticsearch**, suosittelee tämän arvon asettamista arvoon "262144" muistinhallintavirheiden välttämiseksi.
+Lisäksi meidän on tarkistettava Linux-ytimen "**max_map_count**"-parametrin asetukset. Se määrittelee prosessikohtaisesti kartoitettujen muistialueiden rajan, jotta sovelluksemme tarpeet voidaan täyttää. **OpenSearch**, kuten **Elasticsearch**, suosittelee tämän arvon asettamista arvoon "262144" muistinhallintavirheiden välttämiseksi.
 
 
 
@@ -431,8 +431,8 @@ Aloitetaan määrittämällä nämä kaksi vaihtoehtoa:
 
 
 
-- password_secret**: tätä parametria käytetään määrittelemään avain, jota Graylog käyttää käyttäjien salasanojen tallentamisen suojaamiseen (suolausavaimen tapaan). Tämän avaimen on oltava **yksilöllinen** ja **sattumanvarainen**.
-- root_password_sha2**: tämä parametri vastaa Graylogin oletussalasanaa. Se tallennetaan Hash SHA-256 -muodossa.
+- **password_secret**: tätä parametria käytetään määrittelemään avain, jota Graylog käyttää käyttäjien salasanojen tallentamisen suojaamiseen (suolausavaimen tapaan). Tämän avaimen on oltava **yksilöllinen** ja **sattumanvarainen**.
+- **root_password_sha2**: tämä parametri vastaa Graylogin oletussalasanaa. Se tallennetaan Hash SHA-256 -muodossa.
 
 
 
@@ -566,7 +566,7 @@ Tämän jälkeen sinun piti yrittää uudelleen yhteyttä käyttäjällä "**adm
 
 
 
-**Tämä ei enää pidä paikkaansa. Sinun tarvitsee vain kirjautua sisään admin-tililläsi ja komentorivillä määritetyllä salasanalla
+**Tämä ei enää pidä paikkaansa. Sinun tarvitsee vain kirjautua sisään admin-tililläsi ja komentorivillä määritetyllä salasanalla.**
 
 
 
@@ -574,7 +574,7 @@ Tämän jälkeen sinun piti yrittää uudelleen yhteyttä käyttäjällä "**adm
 
 
 
-**Tervetuloa Graylogin Interface:aan!
+**Tervetuloa Graylogin Interface:aan!**
 
 
 
@@ -661,7 +661,7 @@ Uusi tulo on luotu ja on nyt aktiivinen. Graylog voi nyt vastaanottaa Syslog-lok
 ![Image](assets/fr/018.webp)
 
 
-**Huomaa: yhtä Inputia voidaan käyttää useiden Linux-koneiden lokien tallentamiseen.
+**Huomaa: yhtä Inputia voidaan käyttää useiden Linux-koneiden lokien tallentamiseen.**
 
 
 
@@ -701,7 +701,7 @@ Voit luoda uuden streamin napsauttamalla Graylogin päävalikossa kohtaa "**Stre
 
 
 
-**Huomaa: tätä virtaa vastaavat viestit sisällytetään myös "**Default Stream**"-virtaan, ellet valitse "**Remove matches from 'Default Stream'**"-vaihtoehtoa.
+**Huomaa: tätä virtaa vastaavat viestit sisällytetään myös "Default Stream"-virtaan, ellet valitse "Remove matches from 'Default Stream'"-vaihtoehtoa.**
 
 
 

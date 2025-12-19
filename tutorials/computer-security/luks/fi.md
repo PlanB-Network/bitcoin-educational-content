@@ -131,7 +131,7 @@ Poistamme nyt kaikki tiedot USB-tikulta. Toimenpide koostuu USB-tikkumme levytil
 
 
 
-**Varmista, että kohdistat oikeaan laitetiedostoon!
+**Varmista, että kohdistat oikeaan laitetiedostoon!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Tässä "`luksFormat`"-alakomento alustaa ja alustaa laitteen käyttämään LUKS-salausta. Sinua pyydetään vahvistamaan tämä toiminto kirjoittamalla `YES` suuraakkosin ja määrittele sitten *passphrase*. **Valitse vankka *passphrase* sen varmistamiseksi, että häviön sattuessa hyökkääjä ei voi löytää sitä brute-force-hyökkäyksillä.
+Tässä "`luksFormat`"-alakomento alustaa ja alustaa laitteen käyttämään LUKS-salausta. Sinua pyydetään vahvistamaan tämä toiminto kirjoittamalla `YES` suuraakkosin ja määrittele sitten *passphrase*. **Valitse vankka** *passphrase* **sen varmistamiseksi, että häviön sattuessa hyökkääjä ei voi löytää sitä brute-force-hyökkäyksillä.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Tässä kohdepaikka** on määritelty "**/dev/mappe/usbkey1**"**, miksi?
+**Tässä kohdepaikka** on määritelty "**/dev/mappe/usbkey1**", miksi?
 
 
 
@@ -268,7 +268,7 @@ sr0        11:0    1 1024M  0 rom
 
 
 
-**Via Interface graphic** **:**:**
+**Via Interface graphic:**
 
 
 

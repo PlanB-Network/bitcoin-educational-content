@@ -1,5 +1,5 @@
 ---
-name: Elektrum OP_RETURN
+name: Electrum OP_RETURN
 description: Electrum ile Blockchain Bitcoin üzerine bir mesaj kaydedin
 ---
 
@@ -22,7 +22,7 @@ Bu adım adım öğretici, Wallet Electrum kullanarak Blockchain Bitcoin üzerin
 - Bir bilgisayar (Windows, macOS veya Linux).
 - İnternet bağlantısı.
 - İşlem tutarını ve ücretlerini karşılamak için Wallet'nizde birkaç satoshi (Sats) veya bitcoin (BTC).
-- Bir metinden hex'e dönüştürücü (örneğin çevrimiçi bir site) veya [bu OP_RETURN komut dosyası oluşturucu] (https://resources.davidcoen.it/opreturnelectrum/) gibi özel bir araç.
+- Bir metinden hex'e dönüştürücü (örneğin çevrimiçi bir site) veya [bu OP_RETURN komut dosyası oluşturucu](https://resources.davidcoen.it/opreturnelectrum/) gibi özel bir araç.
 
 
 
@@ -53,7 +53,7 @@ Bu adım adım öğretici, Wallet Electrum kullanarak Blockchain Bitcoin üzerin
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Bu, Address resepsiyonunu gösterecektir:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Girmek istediğiniz mesajı seçin (örneğin `Teşekkürler Satoshi`). Not: OP_
 
 
 
-- insanlığımızın güzel bir ifadesini bırakır,*
-- pişman olabileceğiniz içerikler girmekten kaçının*
+- insanlığımızın güzel bir ifadesini bırakır,
+- pişman olabileceğiniz içerikler girmekten kaçının
 
 
 
@@ -164,7 +164,7 @@ Mesajınızı onaltılık sayıya dönüştürün :
 
 
 
-- Bir [çevrimiçi araç] (https://www.rapidtables.com/convert/number/ascii-to-hex.html) kullanabilirsiniz, ancak hassas verileri burada işlememeye dikkat edin (ilke olarak, Blockchain Bitcoin'te bir OP_RETURN aracılığıyla yayınlanması amaçlanan bilgiler herhangi bir gizlilik sorunu oluşturmaz);
+- Bir [çevrimiçi araç](https://www.rapidtables.com/convert/number/ascii-to-hex.html) kullanabilirsiniz, ancak hassas verileri burada işlememeye dikkat edin (ilke olarak, Blockchain Bitcoin'te bir OP_RETURN aracılığıyla yayınlanması amaçlanan bilgiler herhangi bir gizlilik sorunu oluşturmaz);
 - Daha fazla gizlilik için, dönüşümü küçük bir Python kullanarak yerel olarak gerçekleştirin:
 
 
@@ -208,9 +208,9 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-- Hedef Address**: Geçerli bir Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Aktarılan fonları kendinize iade etmek istiyorsanız, bu kendi Address'nız olabilir;
-- Aktarılan tutar**: işlemin tutarı, burada `0.00001` BTC. **Lütfen dikkat**: Electrum'da kullanılan birim BTC olduğundan, işlem komut dosyasında belirtilen miktar da Sats cinsinden değil BTC cinsinden ifade edilmelidir;
-- Kod OP_RETURN**: Önünde script(`OP_RETURN <messsage>), 0` bulunan onaltılık sayıya dönüştürülmüş mesaj. Burada, onaltılık sayıdaki mesaj için `5468616e6b73205361746f736869`.
+- **Hedef Address**: Geçerli bir Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Aktarılan fonları kendinize iade etmek istiyorsanız, bu kendi Address'nız olabilir;
+- **Aktarılan tutar**: işlemin tutarı, burada `0.00001` BTC. **Lütfen dikkat**: Electrum'da kullanılan birim BTC olduğundan, işlem komut dosyasında belirtilen miktar da Sats cinsinden değil BTC cinsinden ifade edilmelidir;
+- **Kod OP_RETURN**: Önünde script(`OP_RETURN <messsage>), 0` bulunan onaltılık sayıya dönüştürülmüş mesaj. Burada, onaltılık sayıdaki mesaj için `5468616e6b73205361746f736869`.
 
 
 

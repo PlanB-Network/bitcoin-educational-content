@@ -14,4 +14,4 @@ Onde:
 - $T$: O tempo total efetivo dos últimos 2016 blocos em segundos;
 - $1,209,600$: O tempo alvo em segundos para produzir 2016 blocos com um intervalo de 10 minutos entre cada um.
 
-> ► *Em francês, o termo "reciblage" é por vezes também utilizado para designar o ajustamento. Em inglês, é referido como "Difficulty Adjustment"
+> ► *Em francês, o termo "reciblage" é por vezes também utilizado para designar o ajustamento. Em inglês, é referido como "Difficulty Adjustment"*

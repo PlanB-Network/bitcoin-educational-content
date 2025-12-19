@@ -1,13 +1,9 @@
-question: Mikä on suositeltu käyttötarkoitus multisig-lompakolle?
-answer: Suurten summien säilyttäminen yrityskäyttöön.
+question: Mitä sinun tulisi tehdä, kun muistisanojesi sanat on kirjoitettu?
+answer: Tee toinen kopio ja säilytä se eri paikassa.
 wrong_answers:
-  - Pienten summien säilyttäminen henkilökohtaiseen käyttöön.
-  - Keskisuurten summien säilyttäminen voittoa tavoittelemattomaan käyttöön.
-  - Päivittäisten menojen säilyttäminen yksilön käyttöön.
+  - Jaa se luotettavan ystävän kanssa.
+  - Lähetä se itsellesi sähköpostitse.
+  - Säilytä se puhelimessasi.
 explanation: |
-  Multisig-lompakkoa suositellaan suurten summien säilyttämiseen
-  ja yrityskäyttöön, koska se vaatii useita
-  allekirjoituksia tapahtuman suorittamiseksi. Tämä prosessi lisää
-  ylimääräisen turvallisuustason, koska yksittäinen henkilö ei voi
-  suorittaa tapahtumaa ilman muiden hyväksyntää.
+  Kun muistisanojesi sanat on kirjoitettu, on suositeltavaa tehdä toinen kopio ja säilyttää se eri paikassa kuin ensimmäinen. Tämä tarjoaa varmuuskopion tapauksessa, jos ensimmäinen kopio katoaa tai sille sattuu vahinko.
 reviewed: true

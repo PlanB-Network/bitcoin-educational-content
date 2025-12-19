@@ -18,7 +18,7 @@ Una ***Virtual Private Network*** (VPN) è un sistema per creare un collegamento
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Sulla base di questo principio, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) è un servizio VPN open source sviluppato nel 2020 dalla Mozilla Foundation. È disponibile su:
 
@@ -191,4 +191,4 @@ Ora siete pronti a navigare in Internet in modo sicuro e riservato. Se questo tu
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

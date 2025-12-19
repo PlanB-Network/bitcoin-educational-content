@@ -6,4 +6,4 @@ wrong_answers:
   - 16 bits
 explanation: |
   Une adresse IPv4 est codée sur 32 bits, divisée en quatre octets de 8 bits chacun.
-reviewed: false
+reviewed: true 

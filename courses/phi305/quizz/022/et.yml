@@ -1,0 +1,9 @@
+question: Kas mõiste "masinloomad" on omistatud?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Masinloomade kontseptsioon on omistatud Descartes'ile. Selle teooria kohaselt on loomad keerulised automaadid, millel puudub hing või teadvus ja mis töötavad üksnes mehaaniliste põhimõtete alusel.
+reviewed: false

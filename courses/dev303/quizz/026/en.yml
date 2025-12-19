@@ -1,0 +1,8 @@
+question: What is the primary advantage of Rust enums being able to carry data within each variant?
+answer: It prevents mismatches between type indicators and associated data by bundling them together
+wrong_answers:
+  - It allows enums to automatically implement all standard traits without explicit declaration
+  - It enables enums to be used as generic parameters in any function or method
+  - It makes enums consume less memory than traditional structures with similar data
+explanation: |
+  Rust enums can attach data directly to each variant, which eliminates the common programming error of maintaining separate variables for type indicators and their associated data. This design ensures that the data always matches the variant, preventing inconsistencies that could lead to runtime errors. Unlike other languages where you might have a separate enum for the type and variables for the data, Rust bundles everything together, making it impossible for the type and data to become mismatched.

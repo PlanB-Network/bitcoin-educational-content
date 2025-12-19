@@ -63,18 +63,18 @@ Threema finns tillgänglig på alla plattformar. Du kan ladda ner applikationen 
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=ch.threema.app);
-- [F-Cold] (https://f-droid.org/en/packages/ch.threema.app.libre/);
-- [Huawei AppGallery] (https://appgallery.huawei.com/#/app/C103713829);
-- [App Store] (https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
+- [Google Play](https://play.google.com/store/apps/details?id=ch.threema.app);
+- [F-Cold](https://f-droid.org/en/packages/ch.threema.app.libre/);
+- [Huawei AppGallery](https://appgallery.huawei.com/#/app/C103713829);
+- [App Store](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
 
 
 
-På Android är det också möjligt att [installera via APK] (https://shop.threema.ch/en/download).
+På Android är det också möjligt att [installera via APK](https://shop.threema.ch/en/download).
 
 
 
-Det finns också [datorversioner] (https://threema.ch/download) (MacOS, Linux och Windows). Den här handledningen visar hur du synkroniserar dem.
+Det finns också [datorversioner](https://threema.ch/download) (MacOS, Linux och Windows). Den här handledningen visar hur du synkroniserar dem.
 
 
 
@@ -276,7 +276,7 @@ Här hittar du två alternativ för säkerhetskopiering av dina data:
 
 
 
-"Threema Safe* sparar all din kontoinformation, förutom dina konversationer, på Threemas servrar. Dessa uppgifter krypteras med det lösenord som du valde när du skapade ditt konto, vilket säkerställer att Threema inte har tillgång till dem. Säkerhetskopior görs automatiskt och regelbundet.
+"**Threema Safe** sparar all din kontoinformation, förutom dina konversationer, på Threemas servrar. Dessa uppgifter krypteras med det lösenord som du valde när du skapade ditt konto, vilket säkerställer att Threema inte har tillgång till dem. Säkerhetskopior görs automatiskt och regelbundet.
 
 
 
@@ -332,7 +332,7 @@ Här kan du anpassa din profil: lägga till ett foto, välja vem som kan se den 
 
 
 
-Om du vill komma åt dina konversationer på din dator kan du synkronisera ditt Threema-konto med den dedikerade programvaran. Ladda ner programvaran för ditt operativsystem [från den officiella webbplatsen] (https://threema.ch/en/download).
+Om du vill komma åt dina konversationer på din dator kan du synkronisera ditt Threema-konto med den dedikerade programvaran. Ladda ner programvaran för ditt operativsystem [från den officiella webbplatsen](https://threema.ch/en/download).
 
 
 
@@ -440,4 +440,4 @@ Jag rekommenderar också den här andra handledningen, där jag introducerar dig
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

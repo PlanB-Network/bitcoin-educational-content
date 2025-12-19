@@ -1,9 +1,10 @@
-question: Quale delle seguenti non è una caratteristica di Bitcoin?
-answer: È facilmente censurabile.
+question: In quale anno si prevede che cesserà l'emissione di bitcoin?
+answer: 2140
 wrong_answers:
-  - È istantaneamente trasportabile.
-  - Ha costi di verifica trascurabili.
-  - Ha una politica monetaria fissa.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoin possiede tutte le caratteristiche necessarie per essere una valuta efficiente e sana: divisibile, istantaneamente trasportabile, non censurabile, con costi di verifica trascurabili, e con una politica monetaria già stabilita per i secoli a venire con 21 milioni di unità.
+  A causa del meccanismo denominato halving, si può prevedere matematicamente che la creazione di bitcoin cesserà nel 2140,
+  quando il numero totale di bitcoin raggiungerà il suo limite di 21 milioni.
 reviewed: vero

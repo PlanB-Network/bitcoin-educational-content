@@ -10,7 +10,7 @@ ___
 
 
 
-*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。对原始内容进行了修改。
+*本教程基于 Florian BURNEL 在 [IT-Connect](https://www.it-connect.fr/) 上发表的原创内容。授权许可 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。对原始内容进行了修改。*
 
 
 
@@ -26,11 +26,11 @@ ___
 
 
 
-适用于**加密文件**，你可以用它来保护电脑、U盘中的**数据，也可以保护存储在云中的数据。例如，你可以加密数据并将其存储在**微软OneDrive、谷歌硬盘、iCloud或Dropbox**上。
+适用于**加密文件**，你可以用它来保护电脑、U盘中的**数据**，也可以保护存储在云中的数据。例如，你可以加密数据并将其存储在**微软OneDrive、谷歌硬盘、iCloud或Dropbox**上。
 
 
 
-当你需要与第三方**共享数据时，也可以使用它：有了 Picocrypt 和解密密钥，他们就能解密他们机器上的数据。因此，如果您的账户或电脑受到威胁，您的数据也会受到保护。
+当你需要与第三方**共享数据时，也可以使用它：有了 Picocrypt 和解密密钥，他们就能解密他们机器上的数据。因此，如果您的账户或电脑受到威胁，您的数据也会受到保护。**
 
 
 
@@ -44,7 +44,7 @@ ___
 
 
 
-PicoCrypt 完全**免费、开源**，适用于**Windows、**Linux**和**macOS**。在 Windows 上，您可以在自己的机器上安装，也可以使用便携版。
+PicoCrypt 完全**免费、开源**，适用于**Windows**、**Linux**和**macOS**。在 Windows 上，您可以在自己的机器上安装，也可以使用便携版。
 
 
 
@@ -52,7 +52,7 @@ PicoCrypt 完全**免费、开源**，适用于**Windows、**Linux**和**macOS**
 
 
 
-Picocrypt** 加密软件是其他知名解决方案的***替代方案，如**VeraCrypt**和**Cryptomator**（*设计用于云环境*的数据加密）或**AxCrypt**。顺便说一句，在 Picocrypt 的官方 GitHub 上，你可以找到与一些竞争对手的比较：
+**Picocrypt** 加密软件是其他知名解决方案的**替代方案**，如**VeraCrypt**和**Cryptomator**（*设计用于云环境的数据加密*）或**AxCrypt**。顺便说一句，在 Picocrypt 的官方 GitHub 上，你可以找到与一些竞争对手的比较：
 
 
 
@@ -84,12 +84,12 @@ Picocrypt 是一款**轻量级**软件，只有**3 MB**大小，而且无需安�
 
 
 
-- XChaCha20** 加密算法
+- **XChaCha20** 加密算法
 - 按键旁路功能 **Argon2**
 
 
 
-除了上述优点外，真正吸引人的是**它的易用性！
+除了上述优点外，真正吸引人的是**它的易用性**！
 
 
 
@@ -159,11 +159,11 @@ Picocrypt 是一款**轻量级**软件，只有**3 MB**大小，而且无需安�
 
 
 
-- 偏执模式**：使用 Picocrypt 提供的最高安全级别。该工具将使用多种级联加密算法（XChaCha20 和 Serpent）和 HMAC-SHA3 代替 BLAKE2b 进行数据验证。
-- Reed-Solomon**：执行 *Reed-Solomon* 纠错码，以便对损坏的数据进行纠错。这样就可以支持约 3% 的文件损坏级别。
-- 分割成块**或**分割成几个部分**：如果要加密一个大文件，可以要求 Picocrypt 将其分割成几个部分。这可能会使文件更容易传输。
-- 压缩文件**或**压缩文件**：压缩文件以减小加密文件的大小。
-- 删除的文件**或 **Fichiers supprimés**：删除源文件，只保留加密版本
+- **偏执模式**：使用 Picocrypt 提供的最高安全级别。该工具将使用多种级联加密算法（XChaCha20 和 Serpent）和 HMAC-SHA3 代替 BLAKE2b 进行数据验证。
+- **Reed-Solomon**：执行 *Reed-Solomon* 纠错码，以便对损坏的数据进行纠错。这样就可以支持约 3% 的文件损坏级别。
+- 分割成块**或**分割成几个部分：如果要加密一个大文件，可以要求 Picocrypt 将其分割成几个部分。这可能会使文件更容易传输。
+- 压缩文件**或**压缩文件夹：压缩文件以减小加密文件的大小。
+- 删除的文件**或** **Fichiers supprimés**：删除源文件，只保留加密版本
 
 
 
@@ -199,4 +199,4 @@ Picocrypt 是一款**轻量级**软件，只有**3 MB**大小，而且无需安�
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

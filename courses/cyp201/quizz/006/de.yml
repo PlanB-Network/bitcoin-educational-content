@@ -6,4 +6,4 @@ wrong_answers:
   - Die Anfangswerte der Variablen bleiben unverändert.
 explanation: |
   Jede Runde modifiziert die Zustandsvariablen unter Verwendung von Wörtern, Konstanten und logischen Operationen, um die Informationen zu verteilen.
-reviewed: false
+reviewed: true

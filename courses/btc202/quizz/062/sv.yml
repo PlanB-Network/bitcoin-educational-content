@@ -1,0 +1,9 @@
+question: Med vilken Umbrel-applikation kan du hantera din Lightning-nod med en avancerad Interface?
+answer: Ride The Lightning
+wrong_answers:
+  - BTCPay blixtnedslag
+  - Nostr Relay
+  - Bitfeed
+explanation: |
+  Ride The Lightning och ThunderHub erbjuder en komplett webbaserad Interface för att administrera en Lightning-nod.
+reviewed: true

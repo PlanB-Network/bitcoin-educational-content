@@ -1,11 +1,11 @@
-question: Quelle est une alternative recommandée à l'utilisation du papier pour stocker votre phrase mnémonique ?
-answer: La graver sur une plaque métallique.
+question: Pourquoi la confidentialité est-elle importante dans le contexte du Bitcoin ?
+answer: Pour minimiser le risque que vos fonds soient tracés.
 wrong_answers:
-  - La stocker dans un fichier numérique.
-  - L'écrire sur un tableau blanc.
-  - La sauvegarder comme un contact dans votre téléphone.
+  - Pour diminuer la valeur de vos bitcoins.
+  - Pour empêcher vos bitcoins d'être volés.
+  - Pour payer des impôts sur vos bitcoins.
 explanation: |
-  Une des alternatives recommandées au papier pour stocker
-  votre phrase mnémonique est de la graver sur une plaque métallique. Cette
-  solution est plus durable et résistante dans le temps.
+  La confidentialité est importante dans le contexte du Bitcoin pour minimiser
+  les risques que vos fonds soient tracés, ce qui peut faciliter
+  votre surveillance.
 reviewed: true

@@ -1,12 +1,9 @@
-question: Millä aloilla Bitcoin herättää kysymyksiä?
-answer: Kryptografia, peliteoria, taloustiede ja rahapolitiikka, tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.
+question: Mikä on Lightning Networkin päätavoite?
+answer: Mahdollistaa offchain-maksut, jotka ovat nopeita ja edullisia
 wrong_answers:
-  - Vain tietojenkäsittelytiede ja taloustiede
-  - Vain kryptografia ja peliteoria.
-  - Vain filosofia ja energia.
+  - Kasvattaa Bitcoin-lohkoketjun lohkokokoa
+  - Korvata Bitcoin-lohkoketju vähitellen tehokkaammalla järjestelmällä
+  - Tehdä louhintatiloista erittäin rikkaita
 explanation: |
-  Bitcoin on monitieteellinen aihe, joka herättää
-  kysymyksiä liittyen useille aloille, mukaan lukien
-  kryptografia, peliteoria, taloustiede ja rahapolitiikka,
-  tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.
-reviewed: true
+  Lightning Networkin tavoitteena on mahdollistaa lähes välittömät bitcoin-maksut pienillä kuluilla kuormittamatta päälohkoketjua.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F và FIDO2
+name: "Trezor U2F & FIDO2"
 description: Tăng cường bảo mật trực tuyến của bạn với Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Ngoài U2F, cho phép xác thực hai yếu tố, Trezor còn hỗ trợ FIDO2 (
 
 
 
-Ngoài chức năng "không cần mật khẩu*", FIDO2 còn cho phép xác thực hai yếu tố theo cách tương tự như U2F.
+Ngoài chức năng "không cần mật khẩu", FIDO2 còn cho phép xác thực hai yếu tố theo cách tương tự như U2F.
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -353,4 +353,4 @@ Tôi cũng muốn giới thiệu hướng dẫn khác này, trong đó chúng ta
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

@@ -1,5 +1,5 @@
 ---
-name: Payung
+name: Umbrel
 description: Temukan dan instal Umbrel - Node Bitcoin dan server rumah Anda
 ---
 
@@ -21,10 +21,10 @@ Node Bitcoin adalah komputer yang berpartisipasi dalam jaringan Bitcoin dengan m
 
 
 
-- Penyimpanan Blockchain**: Menyimpan salinan Blockchain Bitcoin yang lengkap dan terbaru
-- Verifikasi transaksi**: memvalidasi setiap transaksi dan blokir sesuai dengan aturan protokol
-- Penyebaran informasi**: Membagikan transaksi dan blok baru dengan node lain
-- Membangun konsensus**: Berkontribusi pada penerapan aturan jaringan
+- **Penyimpanan Blockchain**: Menyimpan salinan Blockchain Bitcoin yang lengkap dan terbaru
+- **Verifikasi transaksi**: memvalidasi setiap transaksi dan blokir sesuai dengan aturan protokol
+- **Penyebaran informasi**: Membagikan transaksi dan blok baru dengan node lain
+- **Membangun konsensus**: Berkontribusi pada penerapan aturan jaringan
 
 
 
@@ -34,11 +34,11 @@ Menjalankan node Bitcoin Anda sendiri merupakan langkah penting menuju kedaulata
 
 
 
-- Kerahasiaan**: Bagikan transaksi Anda tanpa mengungkapkan informasi Anda kepada pihak ketiga
-- Ketahanan terhadap sensor**: Tidak ada yang bisa menghentikan Anda menggunakan Bitcoin
-- Verifikasi independen**: Tidak perlu mempercayai node orang lain untuk memverifikasi transaksi Anda
-- Membangun konsensus**: Berkontribusi pada penerapan aturan jaringan Bitcoin
-- Dukungan jaringan**: Menjadi peserta aktif dalam distribusi dan desentralisasi jaringan
+- **Kerahasiaan**: Bagikan transaksi Anda tanpa mengungkapkan informasi Anda kepada pihak ketiga
+- **Ketahanan terhadap sensor**: Tidak ada yang bisa menghentikan Anda menggunakan Bitcoin
+- **Verifikasi independen**: Tidak perlu mempercayai node orang lain untuk memverifikasi transaksi Anda
+- **Membangun konsensus**: Berkontribusi pada penerapan aturan jaringan Bitcoin
+- **Dukungan jaringan**: Menjadi peserta aktif dalam distribusi dan desentralisasi jaringan
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS adalah versi sumber terbuka gratis dari sistem operasi Umbrel. Solusi f
 
 
 
-**Keterbatasan
+**Keterbatasan**
 
 
 
@@ -173,7 +173,7 @@ Tautan instalasi resmi :
 
 
 
-- [Instalasi pada Raspberry Pi 5] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- [Instalasi pada Raspberry Pi 5](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - [Instalasi pada sistem x86 (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-x86-Systems)
 - [Instalasi mesin virtual](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
 
@@ -225,7 +225,7 @@ Untuk instalasi ini, Anda memerlukan :
 
 
 
-*pemasangan *Balena Etcher**
+*pemasangan **Balena Etcher***
 
 
 
@@ -268,7 +268,7 @@ Untuk instalasi ini, Anda memerlukan :
 
 
 
-**Pemasangan kartu microSD
+**Pemasangan kartu microSD**
 
 
 
@@ -295,7 +295,7 @@ Untuk instalasi ini, Anda memerlukan :
 
 
 
-** Nyalakan
+**Nyalakan**
 
 
 
@@ -365,7 +365,7 @@ Setelah Umbrel Anda dijalankan dan dapat diakses melalui browser Anda, ikuti lan
 
 
 
-**Konfirmasi akun
+**Konfirmasi akun**
 
 
 
@@ -411,7 +411,7 @@ Setelah Umbrel Anda dijalankan dan dapat diakses melalui browser Anda, ikuti lan
 
 
 
-** Listrik *
+**Listrik**
 
 
 
@@ -581,7 +581,7 @@ Dengan aplikasi ini, Anda dapat memantau transaksi Anda secara efisien, memahami
 
 
 
-**Koneksi lokal
+**Koneksi lokal**
 
 
 
@@ -613,7 +613,7 @@ Dengan aplikasi ini, Anda dapat memantau transaksi Anda secara efisien, memahami
 
 
 
-**Akses ke parameter
+**Akses ke parameter**
 
 
 
@@ -628,7 +628,7 @@ Dengan aplikasi ini, Anda dapat memantau transaksi Anda secara efisien, memahami
 
 
 
-**Pilihan jenis koneksi
+**Pilihan jenis koneksi**
 
 
 
@@ -656,7 +656,7 @@ Sparrow menawarkan tiga mode koneksi:
 
 
 
-**Private Electrum***
+**Private Electrum**
 
 
 
@@ -666,7 +666,7 @@ Sparrow menawarkan tiga mode koneksi:
 
 
 
-*konfigurasi *Electrs**
+*konfigurasi* **Electrs**
 
 
 
@@ -678,7 +678,7 @@ Pada kedua kasus tersebut, biarkan opsi "Gunakan SSL" dan "Gunakan proxy" tidak 
 
 
 
-**Koneksi lokal
+**Koneksi lokal**
 
 
 Host: umbrel.local
@@ -708,7 +708,7 @@ Sambungan Tor diperlukan jika Anda ingin mengakses node Anda di luar jaringan lo
 Untuk informasi lebih lanjut mengenai perangkat lunak Sparrow Wallet, kami memiliki tutorial yang komprehensif:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Kesimpulan
 
 
@@ -739,8 +739,8 @@ Umbrel Anda sekarang siap digunakan. Anda berpartisipasi secara aktif dalam jari
 
 - [Bitcoin Core](https://Bitcoin.org/fr/)
 - [Electrs](https://github.com/romanz/electrs)
-- [Mempool] (https://Mempool.space)
-- [Sparrow Wallet] (https://sparrowwallet.com)
+- [Mempool](https://Mempool.space)
+- [Sparrow Wallet](https://sparrowwallet.com)
 
 
 

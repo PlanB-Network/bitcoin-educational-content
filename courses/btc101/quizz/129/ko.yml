@@ -1,0 +1,8 @@
+question: Bitcoin 프로토콜 내에서 악의적인 행동을 하기에는 너무 많은 비용이 든다는 것을 Bitcoin 네트워크는 어떻게 보장하나요?
+answer: 프로토콜 규칙과 경제적 인센티브를 통해
+wrong_answers:
+  - 엄격한 규제와 감독을 통해
+  - 고급 보안 조치를 사용합니다.
+  - 법적 조치의 위협을 통해.
+explanation: >-
+reviewed: true

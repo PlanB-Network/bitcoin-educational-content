@@ -5,13 +5,13 @@ description: Inasakinisha na kutumia Phoenix Wallet
 ![cover](assets/cover.webp)
 
 
-Phoenix ni mfumo wa kujilinda wa Umeme wa Wallet na nodi iliyotengenezwa na ACINQ, kampuni ya Ufaransa inayobobea katika suluhu za programu zinazotegemea Umeme. Tofauti na pochi za Umeme kama vile Wallet ya Satoshi, ambapo bitcoins hushikiliwa na watu wengine, Phoenix huwawezesha watumiaji kuhifadhi udhibiti kamili wa funguo zao za faragha.
+Phoenix ni mfumo wa kujilinda wa Lightning Wallet na node iliyotengenezwa na ACINQ, kampuni ya Ufaransa inayobobea katika suluhu za programu zinazotegemea Lightning. Tofauti na wallet za Lightning kama vile Wallet ya Satoshi, ambapo bitcoins hushikiliwa na watu wengine, Phoenix huwawezesha watumiaji kuhifadhi udhibiti kamili wa funguo zao za faragha.
 
 
-Phoenix hufanya kazi kama njia ya kweli ya Umeme iliyopachikwa kwenye simu yako, ikifungua kiotomatiki kituo kwa kutumia nodi ya Umeme ya ACINQ. Programu hii inategemea Umeme-KMP, utekelezaji wa jukwaa mtambuka wa Lightning Network huko Kotlin, ulioboreshwa kwa pochi za rununu. Tofauti na suluhisho zingine za nodi ya Umeme, Phoenix hurahisisha usimamizi. Mtumiaji hahitaji kushughulikia ufunguzi na kufunga chaneli, kuendesha nodi ya Bitcoin, au kudhibiti ukwasi kwenye Lightning Network. Phoenix inashughulikia shughuli hizi zote za kiufundi chinichini.
+Phoenix hufanya kazi kama njia ya kweli ya Umeme iliyopachikwa kwenye simu yako, ikifungua kiotomatiki kituo kwa kutumia nodi ya Umeme ya ACINQ. Programu hii inategemea Umeme-KMP, utekelezaji wa jukwaa mtambuka wa Lightning Network huko Kotlin, ulioboreshwa kwa pochi za rununu. Tofauti na suluhisho zingine za nodi ya Umeme, Phoenix hurahisisha usimamizi. Mtumiaji hahitaji kushughulikia ufunguzi na kufunga chaneli, kuendesha node ya Bitcoin, au kudhibiti ukwasi kwenye Lightning Network. Phoenix inashughulikia miamala hii yote ya kiufundi chinichini.
 
 
-Programu tumizi hii inachanganya urahisi wa utumiaji na urahisi wa pochi za Umeme za rununu na usalama na uhuru wa nodi ya Umeme ya kibinafsi. Phoenix huwezesha kutumia Lightning Network kwa usalama, kwa ufanisi na kwa uhuru, huku ikifurahia hali ya umiminifu na angavu ya mtumiaji.
+Programu tumizi hii inachanganya urahisi wa utumiaji wa wallet za Lightning za rununu na usalama na uhuru wa node ya Lightning ya kibinafsi. Phoenix huwezesha kutumia Lightning Network kwa usalama, kwa ufanisi na kwa uhuru, huku ikifurahia hali ya umiminifu na angavu ya mtumiaji.
 
 
 Kwa kurudi, ada fulani hutumika:
@@ -19,12 +19,12 @@ Kwa kurudi, ada fulani hutumika:
 
 
 
-- Kutuma kupitia Umeme kunagharimu 0.4% ya kiasi pamoja na 4 Sats;
+- Kutuma kupitia Lightning kunagharimu 0.4% ya kiasi pamoja na 4 Sats;
 - Ikiwa pesa taslimu inahitajika ili kupokea kupitia Umeme, 1% ya kiasi hicho hutozwa;
 - Kila kituo kinagharimu 1000 Sats kufungua.
 
 
-Kwa maoni yangu, Phoenix inawakilisha suluhisho bora la kati kati ya portfolios za Umeme zilizohifadhiwa na usimamizi wa mwongozo wa nodi ya Umeme. Programu hii inafaa vile vile kwa wanaoanza na watumiaji wa hali ya juu ambao hawapendi kushughulika na maelezo ya kudhibiti LND au Umeme wa Msingi. Wacha tujue jinsi ya kuitumia!
+Kwa maoni yangu, Phoenix inawakilisha suluhisho bora la kati kati ya wallet za Lightning zilizohifadhiwa na usimamizi wa mwongozo wa node ya Lightning. Programu hii inafaa vile vile kwa wanaoanza na watumiaji wa hali ya juu ambao hawapendi kushughulika na maelezo ya kudhibiti LND au Core Lightning. Wacha tujue jinsi ya kuitumia!
 
 
 ![Image](assets/fr/01.webp)
@@ -87,7 +87,7 @@ Unaweza kuiandika kwenye karatasi au, kwa usalama zaidi, kuichora kwenye chuma c
 Kwa maelezo zaidi kuhusu njia sahihi ya kuhifadhi na kudhibiti maneno yako ya Mnemonic, ninapendekeza sana kufuata mafunzo haya mengine, hasa ikiwa wewe ni mwanzilishi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Bofya kwenye ujumbe unaoonyeshwa juu ya Interface "*Hifadhi Wallet yako...*".
 
@@ -128,7 +128,7 @@ Katika menyu ya "*Onyesho*", unaweza kuchagua mandhari ya programu, madhehebu ya
 ![Image](assets/fr/12.webp)
 
 
-Katika "*Chaguo za malipo*", utapata mipangilio mbalimbali ya kina ya malipo ya umeme. Unaweza kuweka mipangilio chaguo-msingi.
+Katika "*Chaguo za malipo*", utapata mipangilio mbalimbali ya kina ya malipo ya Lightning. Unaweza kuweka mipangilio chaguo-msingi.
 
 
 ![Image](assets/fr/13.webp)
@@ -209,13 +209,13 @@ Kwa kubofya kitufe cha "*Hariri*", unaweza kuongeza maelezo ambayo yataonekana k
 ![Image](assets/fr/24.webp)
 
 
-Ankara za kawaida zilizotajwa hapo juu zinaweza kutumika mara moja tu. Kwa chaguo la malipo linaloweza kutumika tena, unaweza kutumia msimbo wako wa QR unaoweza kutumika tena, ambao ni toleo la BOLT12.
+Invoice za kawaida zilizotajwa hapo juu zinaweza kutumika mara moja tu. Kwa chaguo la malipo linaloweza kutumika tena, unaweza kutumia msimbo wako wa QR unaoweza kutumika tena, ambao ni toleo la BOLT12.
 
 
 ![Image](assets/fr/25.webp)
 
 
-Pindi ofa ya Invoice au BOLT12 itakapotatuliwa, muamala utaonekana kwenye Umeme Wallet yako.
+Pindi ofa ya Invoice au BOLT12 itakapotatuliwa, muamala utaonekana kwenye Lightning Wallet yako.
 
 
 ![Image](assets/fr/26.webp)
@@ -236,7 +236,7 @@ Chaguzi kadhaa zinapatikana kwako. Kwa kubofya "*Changanua msimbo wa QR*", unawe
 ![Image](assets/fr/28.webp)
 
 
-Unaweza pia kuingiza maelezo haya wewe mwenyewe kupitia kibodi kwenye sehemu iliyo juu ya Interface, au ingiza Umeme Address (BOLT12 au LNURL). Unaweza pia kubandika maelezo moja kwa moja kwa kutumia kitufe cha "*Bandika*".
+Unaweza pia kuingiza maelezo haya wewe mwenyewe kupitia kibodi kwenye sehemu iliyo juu ya Interface, au ingiza Lightning Address (BOLT12 au LNURL). Unaweza pia kubandika maelezo moja kwa moja kwa kutumia kitufe cha "*Bandika*".
 
 
 ![Image](assets/fr/29.webp)
@@ -260,9 +260,9 @@ Hongera, sasa unajua jinsi ya kusanidi na kutumia Phoenix. Ikiwa umepata mafunzo
 Ili kuchukua hatua zaidi, angalia mafunzo haya kwenye Alby Hub, suluhisho lingine bunifu na rahisi kutumia la kuzindua nodi yako ya Umeme:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Na ili kujua zaidi kuhusu utendakazi wa kiufundi wa Lightning Network, unaweza kupata mafunzo bora ya bure ya Fanis Michalakis kwenye Plan ₿ Network :
+Na ili kujua zaidi kuhusu utendakazi wa kiufundi wa Lightning Network, unaweza kupata mafunzo bora ya bure ya Fanis Michalakis kwenye Plan ₿ Academy :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

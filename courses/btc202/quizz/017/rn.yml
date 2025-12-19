@@ -1,0 +1,9 @@
+question: Ni ibihe bice bibiri vyatanzwe na Bitcoin core kuva kuri verisiyo 0.5?
+answer: Bitcoin-qt na bitcoind.
+wrong_answers:
+  - bitcoin-cli na Bitcoin-gui
+  - Bitcoin-Miner na Bitcoin-Wallet.
+  - Bitcoin-umutima na Bitcoin-urudodo
+explanation: |
+  Kuva kuri verisiyo 0.5, Bitcoin core irimwo igishushanyo c’ibara ry’umubiri (Bitcoin-qt) be n’ibara ry’umubiri ry’umurongo w’amabwirizwa (bitcoind).
+reviewed: true

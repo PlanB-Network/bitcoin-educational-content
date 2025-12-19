@@ -1,0 +1,8 @@
+question: When a Bitcoin node requests block headers using the getheaders command, what is the maximum number of headers that can be returned in a single response, and what follows each 80-byte header?
+answer: Up to 2000 headers can be returned, each followed by a dummy transaction count of zero
+wrong_answers:
+  - Up to 1000 headers can be returned, each followed by the actual transaction count as a varint
+  - Up to 2000 headers can be returned, each followed by a 4-byte checksum of the header data
+  - Up to 500 headers can be returned, each followed by the Merkle root hash for verification
+explanation: |
+  Bitcoin's P2P protocol specifically limits getheaders responses to a maximum of 2000 headers to prevent overwhelming nodes with massive responses. Each header is exactly 80 bytes and is followed by a transaction count field set to zero, since headers-only messages don't include actual transactions. This design allows efficient chain synchronization where nodes can quickly download and verify the proof-of-work chain structure before requesting full block data.

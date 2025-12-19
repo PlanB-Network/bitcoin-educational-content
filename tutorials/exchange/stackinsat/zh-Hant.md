@@ -1,5 +1,5 @@
 ---
-name: 堆疊衛星
+name: StackinSat
 
 description: 如何使用 Stackinsat
 ---

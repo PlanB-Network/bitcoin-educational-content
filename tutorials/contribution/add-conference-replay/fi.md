@@ -10,13 +10,13 @@ Haluatko lisätä Bitcoin-konferenssisi uusinnan PlanB-verkon sivustolle ja anta
 
 Jos kuitenkin haluat lisätä tulevaisuudessa tapahtuvan konferenssin, suosittelen lukemaan tämän toisen oppaan, jossa selitämme, kuinka lisätä uusi tapahtuma sivustolle.
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![konferenssi](assets/01.webp)
 - Ensimmäiseksi sinun on oltava tili GitHubissa. Jos et tiedä, kuinka luoda tiliä, olemme tehneet yksityiskohtaisen oppaan sinua varten.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Siirry [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) `resources/conference/`-osiossa:
@@ -69,7 +69,7 @@ tags:
 
 ![konferenssi](assets/09.webp)
 Jos organisaatiollasi ei vielä ole "*project*" tunnistetta, voit lisätä sen seuraamalla tätä toista opasta.
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Kun olet valmis tekemään muutoksia tähän tiedostoon, tallenna ne napsauttamalla `Commit changes...` -painiketta:
 ![konferenssi](assets/10.webp)
@@ -81,7 +81,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![konferenssi](assets/13.webp)
 - Napsauta GitHub-profiilikuvakettasi oikeassa yläkulmassa, sitten `Your Repositories`:
 ![konferenssi](assets/14.webp)
-- Valitse PlanB Network -repositoriosi forkki:
+- Valitse Plan ₿ Academy -repositoriosi forkki:
 ![konferenssi](assets/15.webp)
 - Sinun pitäisi nähdä ilmoitus ikkunan yläosassa uudesta haarastasi. Se on todennäköisesti nimeltään `patch-1`. Napsauta sitä:
 ![konferenssi](assets/16.webp)
@@ -103,7 +103,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![konferenssi](assets/24.webp)
 - Napsauta `Add file` -painiketta, sitten `Upload files`:
 ![konferenssi](assets/25.webp)
-- Uusi sivu avautuu. Vedä ja pudota kuva, joka edustaa konferenssiasi ja joka näytetään PlanB Network -sivustolla: ![konferenssi](assets/26.webp)
+- Uusi sivu avautuu. Vedä ja pudota kuva, joka edustaa konferenssiasi ja joka näytetään Plan ₿ Academy -sivustolla: ![konferenssi](assets/26.webp)
 - Se voi olla logo, pikkukuva tai jopa juliste:
 ![konferenssi](assets/27.webp)
 - Kun kuva on ladattu, tarkista, että `Commit directly to the patch-1 branch` -ruutu on valittuna, sitten napsauta `Commit changes`:
@@ -177,7 +177,7 @@ Puhuja: Satoshi Nakamoto
 ```
 
 ![konferenssi](assets/37.webp)
-- Dokumenttisi alussa "front matter" -osiossa, täytä `name:`-kenttä konferenssisi nimellä ja uusintojen vuodella. `description:`-kentässä kirjoita lyhyt kuvaus tapahtumastasi tiedoston kielen mukaisesti. Esimerkiksi tiedostolle nimeltä `en.md`, kuvaus tulisi olla englanniksi. PlanB Network -tiimi huolehtii kuvauksesi kääntämisestä käyttäen heidän malliaan.
+- Dokumenttisi alussa "front matter" -osiossa, täytä `name:`-kenttä konferenssisi nimellä ja uusintojen vuodella. `description:`-kentässä kirjoita lyhyt kuvaus tapahtumastasi tiedoston kielen mukaisesti. Esimerkiksi tiedostolle nimeltä `en.md`, kuvaus tulisi olla englanniksi. Plan ₿ Academy -tiimi huolehtii kuvauksesi kääntämisestä käyttäen heidän malliaan.
 - Ensimmäisen tason otsikot, merkitty `#`, käytetään konferenssin järjestämiseen kohtauksittain. Esimerkiksi `# Pääareena` pääareenalle ja `# Työpaja-alue` työpajoille omistetulle areenalle.
 
 - Toisen tason otsikot, merkitty kaksinkertaisella `##`, käytetään eri uusintavideoiden erotteluun. Jos konferenssit kuvattiin jatkuvasti puolen päivän ajan, merkitse esimerkiksi `## Perjantaiaamu`. Jos konferenssit kuvattiin ja lähetettiin erikseen, nimeä konferenssi suoraan toisen tason otsikolla.

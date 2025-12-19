@@ -24,25 +24,25 @@ Relai basitliği, erişilebilirliği ve uzun vadeli Bitcoin tasarrufuna odaklanm
 
 
 
-- Nerede Bulunur:** Uygulama hem App Store'da (iOS) hem de Google Play Store'da (Android) mevcuttur. "Relai" için arama yapın ve ücretsiz olarak indirin.
-- Hızlı Kurulum:** Kurulduktan sonra uygulamayı açın ve rehberli kurulum sürecini takip edin.
+- **Nerede Bulunur:** Uygulama hem App Store'da (iOS) hem de Google Play Store'da (Android) mevcuttur. "Relai" için arama yapın ve ücretsiz olarak indirin.
+- **Hızlı Kurulum:** Kurulduktan sonra uygulamayı açın ve rehberli kurulum sürecini takip edin.
 
 
 ### Adım 2: Hesabınızı Oluşturun
 
 
 
-- Zorunlu KYC:** Relai artık Müşterinizi Tanıyın (KYC) doğrulaması gerektiriyor. Geçerli bir kimlik belgesi ve Address kanıtı hazırlayın.
-- Doğrulama Süreci:** Belgelerinizi yükleyin, kimlik onayı için bir selfie çekin ve onay için bekleyin (genellikle 24 saat içinde).
-- Neden KYC?:** Finansal düzenlemelere uygunluğu sağlar ve tüm kullanıcılar için güvenliği artırır.
+- **Zorunlu KYC:** Relai artık Müşterinizi Tanıyın (KYC) doğrulaması gerektiriyor. Geçerli bir kimlik belgesi ve Address kanıtı hazırlayın.
+- **Doğrulama Süreci:** Belgelerinizi yükleyin, kimlik onayı için bir selfie çekin ve onay için bekleyin (genellikle 24 saat içinde).
+- **Neden KYC?:** Finansal düzenlemelere uygunluğu sağlar ve tüm kullanıcılar için güvenliği artırır.
 
 
 ### Adım 3: Wallet'inizi Güvenceye Alın
 
 
 
-- Kendi Kendine Velayet:** Relai velayetsiz bir Wallet sunar, yani özel anahtarlarınızı siz kontrol edersiniz.
-- Anahtarlarınızı Yedekleyin:** 12 kelimelik kurtarma cümlenizi kağıda yazın (dijital olarak değil) ve güvenli bir şekilde saklayın. Bu, telefonunuzun kaybolması veya çalınması durumunda paranıza erişmek için çok önemlidir.
+- **Kendi Kendine Velayet:** Relai velayetsiz bir Wallet sunar, yani özel anahtarlarınızı siz kontrol edersiniz.
+- **Anahtarlarınızı Yedekleyin:** 12 kelimelik kurtarma cümlenizi kağıda yazın (dijital olarak değil) ve güvenli bir şekilde saklayın. Bu, telefonunuzun kaybolması veya çalınması durumunda paranıza erişmek için çok önemlidir.
 
 
 ---
@@ -175,11 +175,11 @@ Relai geçerli ağ ücretlerini gösterecektir.
 
 
 
-- Kurtarma İfadenizi Güvende Tutun:** Çevrimdışı olarak saklayın ve kimseyle paylaşmayın.
-- Uygulama Güvenliğini Etkinleştirin:** Güçlü bir PIN veya biyometrik kimlik doğrulama kullanın.
-- Depolamayı Çeşitlendirin:** Büyük miktarlarda Bitcoin için bir Hardware Wallet kullanmayı düşünün.
-- Uygulamayı Düzenli Olarak Güncelleyin:** En son güvenlik yamaları ve özellikleriyle korunmaya devam edin.
-- Halka Açık Wi-Fi'den kaçının:** Wallet'ünüze yalnızca güvenli ağlardan erişin.
+- **Kurtarma İfadenizi Güvende Tutun:** Çevrimdışı olarak saklayın ve kimseyle paylaşmayın.
+- **Uygulama Güvenliğini Etkinleştirin:** Güçlü bir PIN veya biyometrik kimlik doğrulama kullanın.
+- **Depolamayı Çeşitlendirin:** Büyük miktarlarda Bitcoin için bir Hardware Wallet kullanmayı düşünün.
+- **Uygulamayı Düzenli Olarak Güncelleyin:** En son güvenlik yamaları ve özellikleriyle korunmaya devam edin.
+- **Halka Açık Wi-Fi'den kaçının:** Wallet'ünüze yalnızca güvenli ağlardan erişin.
 
 
 ---
@@ -191,10 +191,10 @@ Relai ayrıca Bitcoin'e yatırım yapmak isteyen işletmeleri de destekler. Öze
 
 
 
-- Özel Tasarruf Planları:** İş ihtiyaçlarına göre uyarlanmış planlar.
-- Çoklu Kullanıcı Erişimi:** Birden fazla ekip üyesinin hesabı güvenli bir şekilde yönetmesini sağlayın.
-- Geliştirilmiş Limitler:** Kişisel hesaplara kıyasla daha büyük miktarlarda yatırım yapın.
-- Özel Destek:** İşletmeler için öncelikli müşteri hizmetlerine erişin.
+- **Özel Tasarruf Planları:** İş ihtiyaçlarına göre uyarlanmış planlar.
+- **Çoklu Kullanıcı Erişimi:** Birden fazla ekip üyesinin hesabı güvenli bir şekilde yönetmesini sağlayın.
+- **Geliştirilmiş Limitler:** Kişisel hesaplara kıyasla daha büyük miktarlarda yatırım yapın.
+- **Özel Destek:** İşletmeler için öncelikli müşteri hizmetlerine erişin.
 
 
 Bir işletme hesabı oluşturmak için Relai'nin destek ekibiyle web siteleri üzerinden iletişime geçin.
@@ -209,9 +209,9 @@ Relai, arkadaşlarınızı uygulamayı kullanmaya davet ederek Bitcoin kazanabil
 
 
 
-- Yönlendirme Kodunuzu Paylaşın:** Her Relai kullanıcısı benzersiz bir yönlendirme kodu alır. Arkadaşlarınızla paylaşın.
-- Ücretlerin %10'unu kazanın:** Kodunuzu kullandıklarında arkadaşlarınızın işlemlerinden elde edilen ücretlerin %10'unu kazanacaksınız.
-- Pasif Bitcoin Geliri:** Arkadaşlarınız Relai'de işlem yapmaya devam ettikçe, siz de Bitcoin kazanmaya devam edeceksiniz. Hem siz hem de arkadaşlarınız için bir kazan-kazan.
+- **Yönlendirme Kodunuzu Paylaşın:** Her Relai kullanıcısı benzersiz bir yönlendirme kodu alır. Arkadaşlarınızla paylaşın.
+- **Ücretlerin %10'unu kazanın:** Kodunuzu kullandıklarında arkadaşlarınızın işlemlerinden elde edilen ücretlerin %10'unu kazanacaksınız.
+- **Pasif Bitcoin Geliri:** Arkadaşlarınız Relai'de işlem yapmaya devam ettikçe, siz de Bitcoin kazanmaya devam edeceksiniz. Hem siz hem de arkadaşlarınız için bir kazan-kazan.
 
 
 Kodunuzu bugün paylaşmaya başlayın ve Bitcoin yığınınızı zahmetsizce büyütün!
@@ -227,7 +227,7 @@ Kodunuzu bugün paylaşmaya başlayın ve Bitcoin yığınınızı zahmetsizce b
 
 
 - Relai, işlem başına %1 veya `REL361712` gibi bir yönlendirme kodu kullanırsanız %0,9 oranında rekabetçi bir ücret alır. Ücretler, siz bir satın alma işlemini onaylamadan önce şeffaf bir şekilde gösterilir.
-- Sıfır Ücret:** 100 € veya 100 CHF'ye kadar olan işlemler tamamen ücretsizdir.
+- **Sıfır Ücret:** 100 € veya 100 CHF'ye kadar olan işlemler tamamen ücretsizdir.
 
 
 ### Tasarruf Planımı Duraklatabilir miyim?

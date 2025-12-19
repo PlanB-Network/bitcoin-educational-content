@@ -11,7 +11,7 @@ La protezione delle informazioni personali nell'era digitale è una priorità as
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Come iniziare con PureOS
 
@@ -27,25 +27,25 @@ PureOS è un sistema operativo basato su Debian e sviluppato da Purism. PureOS �
 
 
 
-- Interface** semplice e intuitivo: GNOME offre un desktop Interface chiaro, progettato per essere facile da usare, anche per chi non è pratico della riga di comando.
+- **Interface semplice e intuitivo**: GNOME offre un desktop Interface chiaro, progettato per essere facile da usare, anche per chi non è pratico della riga di comando.
 
 
 
 
 
-- Gratuito**: come la maggior parte delle distribuzioni Linux, PureOS è completamente gratuito. Tuttavia, è disponibile un abbonamento mensile per sostenere gli sviluppatori.
+- **Gratuito**: come la maggior parte delle distribuzioni Linux, PureOS è completamente gratuito. Tuttavia, è disponibile un abbonamento mensile per sostenere gli sviluppatori.
 
 
 
 
 
-- Sicurezza e stabilità**: L'architettura e la modalità operativa di PureOS ne fanno una distribuzione altamente sicura, che garantisce la protezione dei dati e la stabilità del sistema.
+- **Sicurezza e stabilità**: L'architettura e la modalità operativa di PureOS ne fanno una distribuzione altamente sicura, che garantisce la protezione dei dati e la stabilità del sistema.
 
 
 
 
 
-- Documentazione e comunità attiva**: PureOS dispone di una documentazione chiara e accessibile e di una comunità impegnata e reattiva, che facilita la risoluzione dei problemi e l'apprendimento del sistema passo dopo passo.
+- **Documentazione e comunità attiva**: PureOS dispone di una documentazione chiara e accessibile e di una comunità impegnata e reattiva, che facilita la risoluzione dei problemi e l'apprendimento del sistema passo dopo passo.
 
 
 
@@ -64,7 +64,7 @@ L'installazione e la configurazione di PureOS sul computer richiedono le seguent
 
 
 
-Accedere al [sito web ufficiale di PureOS] (https://pureos.net/) e scaricare l'immagine ISO del sistema operativo in base all'architettura della propria macchina.
+Accedere al [sito web ufficiale di PureOS](https://pureos.net/) e scaricare l'immagine ISO del sistema operativo in base all'architettura della propria macchina.
 
 
 
@@ -181,7 +181,7 @@ Per il partizionamento del disco Hard sono disponibili due opzioni:
 
 
 
-- Cancella disco**: Per un'installazione completa di PureOS, cancellare tutti i dati preesistenti sul disco Hard.
+- **Cancella disco**: Per un'installazione completa di PureOS, cancellare tutti i dati preesistenti sul disco Hard.
 
 
 
@@ -191,7 +191,7 @@ Per il partizionamento del disco Hard sono disponibili due opzioni:
 
 
 
-- Partizione manuale** per creare partiture personalizzate
+- **Partizione manuale** per creare partiture personalizzate
 
 
 
@@ -260,7 +260,7 @@ Prima di iniziare a utilizzare PureOS, è essenziale aggiornare il sistema. Ques
 
 
 
-- Aggiornamento tramite grafica Interface**:
+- Aggiornamento tramite grafica **Interface**:
 
 
 Aprire l'applicazione **Software**, quindi accedere alla scheda **Aggiornamenti**. Gli aggiornamenti disponibili vengono visualizzati automaticamente. Fare clic su **Download**, quindi su **Install** una volta completato il download.
@@ -269,7 +269,7 @@ Aprire l'applicazione **Software**, quindi accedere alla scheda **Aggiornamenti*
 
 
 
-- Aggiornamento tramite terminale**:
+- **Aggiornamento tramite terminale**:
 
 
 Aprite il terminale e digitate il seguente comando per aggiornare l'elenco dei pacchetti disponibili:
@@ -331,9 +331,9 @@ PureOS include anche la suite per ufficio **LibreOffice**, che comprende:
 
 
 
-- Writer**: un elaboratore di testi completo per la creazione e la modifica di documenti.
-- Calc**: un potente programma di foglio elettronico per la gestione dei dati e dei calcoli.
-- Impress**: uno strumento per creare presentazioni professionali.
+- **Writer**: un elaboratore di testi completo per la creazione e la modifica di documenti.
+- **Calc**: un potente programma di foglio elettronico per la gestione dei dati e dei calcoli.
+- **Impress**: uno strumento per creare presentazioni professionali.
 
 
 
@@ -353,4 +353,4 @@ Scoprite il nostro corso per rafforzare la vostra sicurezza e proteggere la vost
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

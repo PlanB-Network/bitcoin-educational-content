@@ -1,0 +1,9 @@
+question: Millistest failidest konsulteerib sõlmpunkt kõigepealt, et leida oma vanad eakaaslased taaskäivitamisel?
+answer: anchors.dat ja peers.dat
+wrong_answers:
+  - Mempool.dat ja peers.dat
+  - Mempool.dat ja ip.dat
+  - ip.dat ja anchors.dat
+explanation: |
+  Bitcoin core konsulteerib esmalt anchors.dat (eelmised väljaminevad eakaaslased), seejärel peers.dat (tuntud Address raamat), et taastada ühendus.
+reviewed: true

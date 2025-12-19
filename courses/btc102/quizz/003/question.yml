@@ -23,10 +23,11 @@ proofreading:
     contributor_names:
     reward: 0.21
   - language: de
-    last_contribution_date:
+    last_contribution_date: '2025-10-31'
     urgency: 1
     contributor_names:
-    reward: 0.18
+      - ghub-user-180
+    reward: 0.09
   - language: en
     last_contribution_date:
     urgency: 1
@@ -53,10 +54,11 @@ proofreading:
     contributor_names:
     reward: 0.23
   - language: it
-    last_contribution_date:
+    last_contribution_date: '2025-10-31'
     urgency: 1
     contributor_names:
-    reward: 0.18
+      - f205sats
+    reward: 0.09
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -103,15 +105,17 @@ proofreading:
     contributor_names:
     reward: 0.29
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.21
+      - Arianebtc
+    reward: 0.1
   - language: vi
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.26
+      - Anh-La
+    reward: 0.13
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -127,3 +131,26 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.21
+  - language: tr
+    last_contribution_date: '2025-10-31'
+    urgency: 1
+    contributor_names:
+      - H5RV
+    reward: 0.12
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.23
+  - language: rn
+    last_contribution_date: '2025-12-04'
+    urgency: 1
+    contributor_names:
+      - barakana
+    reward: 0.13
+  - language: bg
+    last_contribution_date: '2025-12-04'
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 0.1

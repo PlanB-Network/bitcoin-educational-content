@@ -1,0 +1,9 @@
+question: Quem escreveu "Nada acontece na natureza que possa ser atribuído a um
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Foi Spinoza quem escreveu: "Nada acontece na natureza que possa ser atribuído a um vício nela existente". Esta frase exprime a ideia de que a natureza é perfeita no seu género, e que os defeitos são apenas juízos humanos.
+reviewed: false

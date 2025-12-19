@@ -1,0 +1,9 @@
+question: Apa perbedaan utama antara implementasi mentah dan node-in-a-box?
+answer: Kehadiran Interface dan aplikasi yang terintegrasi
+wrong_answers:
+  - Kompatibilitas jaringan
+  - Ukuran Blockchain yang disimpan pada disk
+  - Protokol dan mata uang yang digunakan
+explanation: |
+  Implementasi mentah hanya menginstal perangkat lunak node, sedangkan node-in-a-box menambahkan Interface, App Store, dan layanan terintegrasi.
+reviewed: true

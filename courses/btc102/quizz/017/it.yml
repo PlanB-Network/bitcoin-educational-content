@@ -1,9 +1,9 @@
-question: Quale termine si riferisce alla divisione programmata del sussidio Mining?
+question: Quale termine si riferisce alla divisione programmata del premio per il mining?
 answer: Halving
 wrong_answers:
   - Fork
   - Bisezione
   - Coinbase
 explanation: |
-  Halving si riferisce al Halving del sussidio Mining ogni 210.000 blocchi.
-reviewed: false
+  Halving si riferisce al dimezzamento del premio per il mining, programmato ogni 210.000 blocchi.
+reviewed: true

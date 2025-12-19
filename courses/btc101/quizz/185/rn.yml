@@ -1,8 +1,8 @@
-question: Ugereranije n’amahera ya fiat, Bitcoin ibonwa gute?
-answer: Nk’ubutunzi buhuye.
+question: OpenNode ni iki?
+answer: Umuti woroshe wo kuri internet ku bucuruzi bwo kwemera Bitcoin.
 wrong_answers:
-  - Nk’ubutunzi busubirira.
-  - Nk’ubutunzi bw’inganda.
-  - Nk’ubutunzi bw’ivyigwa vya gatatu.
+  - Ubwoko bw’urudodo rwa Bitcoin rukoreshwa icarimwe n’abakoresha benshi.
+  - Porogarama ya Bitcoin Mining ikoreshwa n’inkomoko yuguruye.
+  - Igikoresho ca Bitcoin Exchange.
 explanation: >-
 reviewed: true

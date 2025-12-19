@@ -1,0 +1,8 @@
+question: Trường hữu hạn F(p) trong hệ thống mật mã của Bitcoin là gì?
+answer: Một hệ thống số học được định nghĩa bởi một số nguyên tố p, chứa các phần tử từ 0 đến p-1.
+wrong_answers:
+  - Một tập hợp vô hạn các số được sử dụng để tạo địa chỉ và khóa Bitcoin.
+  - Một trường toán học chứa tất cả các số thực từ 0 đến p⁻¹ (bao gồm cả 0 và p⁻
+  - Một hàm băm mật mã tạo ra đầu ra có độ dài chính xác là p bit.
+explanation: |
+  Trường hữu hạn F(p) là một hệ thống số học được xây dựng xung quanh một số nguyên tố p, chứa chính xác p phần tử: các số nguyên từ 0 đến p-1. Khía cạnh 'hữu hạn' rất quan trọng - nó không phải là vô hạn, và nó không liên quan đến số thực hay hàm băm. Trường nguyên tố đảm bảo mọi phần tử khác 0 đều có nghịch đảo nhân, và tất cả các phép toán số học (cộng, trừ, nhân) đều được lặp lại bằng phép toán modulo p, giữ kết quả trong phạm vi trường. Cấu trúc có giới hạn và có thể dự đoán này là yếu tố thiết yếu cho tính bảo mật mật mã của Bitcoin.

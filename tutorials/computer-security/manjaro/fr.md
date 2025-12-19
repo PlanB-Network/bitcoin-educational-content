@@ -160,7 +160,7 @@ sudo pacman -S electrum  # Install Electrum
 
 Electrum vous permet de **recevoir et envoyer des bitcoins** facilement, tout en offrant des fonctionnalités avancées comme la gestion de plusieurs portefeuilles et la protection par phrase de récupération. Pour un guide complet sur l’utilisation d’Electrum, consultez notre tutoriel dédié qui explique comment créer un portefeuille, sécuriser vos fonds et effectuer des transactions.
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 ## Sécurisation de votre système Manjaro
 
@@ -207,4 +207,4 @@ Vous voilà maintenant prêt à utiliser Manjaro Linux sur votre machine. Grâce
 
 Manjaro allie **stabilité, rapidité et sécurité**, tout en restant **entièrement gratuit**, ce qui en fait un choix idéal pour les débutants comme pour les utilisateurs avancés. Prenez le temps d’explorer ses différentes fonctionnalités et personnaliser votre environnement pour qu’il corresponde parfaitement à vos besoins. Si vous souhaitez plus d'expertise et découvrir le système Arch Linux, notre tutoriel vous est fortement recommandé.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

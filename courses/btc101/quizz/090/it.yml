@@ -1,12 +1,11 @@
-question: Qual è l'uso consigliato per un wallet mobile?
-answer: Utilizzarlo per le spese quotidiane.
+question: Cosa succede se la nostra chiave privata viene rivelata a un terzo?
+answer: Il terzo può spendere i nostri bitcoin.
 wrong_answers:
-  - Conservare risparmi a lungo termine.
-  - Conservare risparmi a medio termine.
-  - Conservare grandi quantità di bitcoin.
+  - Il terzo può solo visualizzare la cronologia delle nostre transazioni.
+  - Il terzo può cambiare la nostra chiave privata.
+  - Il terzo può accedere alle nostre informazioni personali.
 explanation: |
-  Un wallet mobile è consigliato per le spese quotidiane perché
-  con esso è facile effettuare transazioni. Non è
-  consigliato per conservare grandi quantità o per risparmi a lungo
-  termine, perché è potenzialmente vulnerabile a minacce online.
+  Se la chiave privata viene rivelata a un terzo, i
+  fondi associati non sono più al sicuro, perché la chiave
+  privata permette l'accesso ai nostri fondi.
 reviewed: true

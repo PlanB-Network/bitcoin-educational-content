@@ -1,0 +1,8 @@
+question: What keyword is used to force a closure to take ownership of captured variables instead of borrowing them?
+answer: move
+wrong_answers:
+  - own
+  - capture
+  - take
+explanation: |
+  The `move` keyword is used before closure parameters to force the closure to take ownership of all captured variables from its environment. This is essential when the closure might outlive the scope where the variables were originally defined, such as when spawning threads. Without `move`, closures typically capture by the least restrictive method (immutable reference, then mutable reference, then ownership), but `move` overrides this automatic behavior to ensure ownership transfer. The other options (`own`, `capture`, `take`) are not valid Rust keywords for this purpose.

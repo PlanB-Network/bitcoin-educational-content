@@ -1,9 +1,12 @@
-question: Muri ibi bikurikira, ni ikihe kitari ikiranga Bitcoin?
-answer: Bica bicengera bitagoranye.
+question: Ni mu mwaka uwuhe bivugwa ko uguhingura ama bitcoins bizohagarara?
+answer: 2140
 wrong_answers:
-  - Ni ikintu gishobora gutwarwa ubwo nyene.
-  - Irafise amafaranga makeyi yo kugenzura.
-  - Irafise politike y’amahera idahinduka.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoin ifise ibiranga vyose bikenewe kugira ngo ibe ifaranga rikora neza kandi rifise amagara meza: rishobora kugabanywa, rishobora gutwarwa ubwo nyene, ridashobora gusuzumwa, rifise igiciro gitoyi co kugenzura, kandi rifise politike y’amahera imaze gushirwaho mu binjana n’ibindi bizoza n’amamiliyoni 21 y’amafaranga.
+  Kubera uburyo bwa Halving, bishobora kuba mu mibare
+  yaravuze ko uguhingura ama bitcoins bizohagarara muri 2140, 2014.
+  iyo umubare wose w’ama bitcoins ushitse ku rugero rwawo rwa 21 .
+  miliyoni.
 reviewed: true

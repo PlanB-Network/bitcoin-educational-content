@@ -17,12 +17,12 @@ In deze tutorial behandelen we het proces van het aanmaken van een zakelijke acc
 Als je geïnteresseerd bent in het onderwerp van het integreren van Bitcoin in je bedrijf, raad ik je ook aan om onze volledige theoretische training over dit onderwerp te ontdekken:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Een Bitfinex account aanmaken
 
 
-Ga naar [de officiële website van Bitfinex] (https://www.bitfinex.com/). Zoek en klik op de startpagina op de optie "*Sign Up*" om te beginnen met het aanmaken van uw account. In eerste instantie maakt u een standaardaccount zoals voor particulieren, de optie "*Corporate*" selecteert u later tijdens het verificatieproces.
+Ga naar [de officiële website van Bitfinex](https://www.bitfinex.com/). Zoek en klik op de startpagina op de optie "*Sign Up*" om te beginnen met het aanmaken van uw account. In eerste instantie maakt u een standaardaccount zoals voor particulieren, de optie "*Corporate*" selecteert u later tijdens het verificatieproces.
 
 
 ![BITFINEX](assets/fr/01.webp)
@@ -37,12 +37,12 @@ Vul de vereiste informatie in: voer uw zakelijke e-mailadres Address in en het l
 Voor tips over het gebruik en de beveiliging van sterke, unieke wachtwoorden, zie ook deze tutorial:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 We gaan nu de 2FA configureren om het account te beveiligen. Gebruik een authenticatietoepassing op je smartphone, zoals Google Authenticator of Authy. Je vindt een tutorial over deze tool hier:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scan de QR-code met je app en voer de 6 cijfers in.
 
@@ -116,11 +116,11 @@ Eenmaal ingelogd zie je bovenaan de Interface een navigatiebalk met: "*Trading*"
 
 
 
-- Handel**: "*klassieke*" markt waar je orders kunt plaatsen om cryptocurrencies (inclusief Bitcoin) te kopen en verkopen;
-- OTC**: Over-The-Counter dienst voor het rechtstreeks verhandelen van grote volumes met een andere speler, buiten de openbare orderboeken om;
-- Financiering**: Ruimte gewijd aan kredietverlening en marginfinanciering;
-- Derivaten**: Sectie voor derivaten (futures, etc.), bedoeld voor ervaren handelaren;
-- P2P**: Hiermee kun je crypto's van andere gebruikers kopen of verkopen op peer-to-peer basis.
+- **Handel**: "*klassieke*" markt waar je orders kunt plaatsen om cryptocurrencies (inclusief Bitcoin) te kopen en verkopen;
+- **OTC**: Over-The-Counter dienst voor het rechtstreeks verhandelen van grote volumes met een andere speler, buiten de openbare orderboeken om;
+- **Financiering**: Ruimte gewijd aan kredietverlening en marginfinanciering;
+- **Derivaten**: Sectie voor derivaten (futures, etc.), bedoeld voor ervaren handelaren;
+- **P2P**: Hiermee kun je crypto's van andere gebruikers kopen of verkopen op peer-to-peer basis.
 
 
 Voor standaardgebruik (bitcoins kopen/verkopen, stortingen/opnames en geldbeheer) zul je voornamelijk de tab "*Trading*" gebruiken, evenals de secties "*Wallet*", "*Deposit*" en "*Withdraw*".
@@ -234,7 +234,7 @@ Bitfinex biedt ook stortings- en opnamemogelijkheden via de Lightning Network, w
 Als je geïnteresseerd bent in de Lightning Network, hebben we ook een complete training om je te helpen begrijpen hoe het werkt:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Bitcoins kopen en verkopen op Bitfinex
 
@@ -352,4 +352,4 @@ Afhankelijk van de doelstellingen en structuur van uw bedrijf kan het gebruik va
 Voor een meer diepgaande kijk op dit onderwerp, raad ik deze uitgebreide training aan over het integreren van Bitcoin in bedrijven, die in detail ingaat op het toevoegen aan de cashflow, het accepteren van Bitcoin betalingen en de boekhouding:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

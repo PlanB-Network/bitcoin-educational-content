@@ -1,9 +1,10 @@
-question: Mis oli Zimbabwe inflatsioonimäär november 2008?
-answer: 79,600,000,000%
+question: Mis on käsklus, et kontrollida ringluses olevate bitcoinide hulka Bitcoin'i sõlmel?
+answer: bitcoin-cli gettxoutsetinfo
 wrong_answers:
-  - 796%
-  - 79,600,000,000,000,000%
-  - 100%
+  - bitcoin-cli getblockchaininfo
+  - bitcoin-cli getwalletinfo
+  - bitcoin-cli getnetworkinfo
 explanation: |
-  November 2008, Zimbabwe valuuta kuu inflatsioonimäär tõusis 79,600,000,000%-ni, mis viis Zimbabwe dollari väärtuse nullini.
+  Käsklus, et kontrollida ringluses olevate bitcoinide hulka Bitcoin'i sõlmel, on bitcoin-cli gettxoutsetinfo. See käsklus pakub läbipaistvust ja kontrollitavust,
+  tugevdades usaldust Bitcoin'i süsteemi vastu.
 reviewed: true

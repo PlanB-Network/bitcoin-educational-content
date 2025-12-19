@@ -17,13 +17,13 @@ Thunderbird on sähköpostisovellus, joka on tunnettu joustavuudestaan ja monipu
 
 
 
-- Ilmainen ja avoin lähdekoodi**: Toisin kuin monet muut viestisovellukset, Thunderbird on täysin ilmainen. Voit kuitenkin tukea kehittäjäyhteisöä lähettämällä heille lahjoituksen.
-- Intuitiivinen Interface ja helppo oppia**: Thunderbirdin konfigurointi on suurimmaksi osaksi suoraviivaista, joten sinun ei tarvitse huolehtia siitä.
-- Soveltuu useille sähköpostityypeille**: olipa kyseessä Gmail, Yahoo, Outlook tai jopa verkkotunnukseen liittyvät yrityssähköpostit, tämä postilaatikko on erittäin monipuolinen.
-- Monitili**: Thunderbirdin avulla voit muodostaa yhteyden useisiin sähköpostitileihin kerralla, jolloin voit helposti käyttää kaikkia viestejäsi.
-- Tehokkaat ominaisuudet ja skaalautuvuus**: Thunderbird tarjoaa oletusarvoisesti laajan valikoiman ominaisuuksia sähköpostitilien ja tapahtumakalenterin hallintaan. Sen avulla voit kuitenkin myös lisätä lisävaihtoehtoja monien saatavilla olevien laajennusten ansiosta.
-- Monialustainen**: Thunderbird on saatavilla useilla eri laitteilla (Android, Windows, Linux, macOS), joten pääset helposti käsiksi sähköposteihisi.
-- Turvallisuus**: Thunderbird on erittäin turvallinen sovellus, jonka avulla voit hyödyntää RSA:han tai ECC:hen (Elliptic Curve) perustuvaa päästä päähän -salausta, joka takaa tietojesi luottamuksellisuuden.
+- **Ilmainen ja avoin lähdekoodi**: Toisin kuin monet muut viestisovellukset, Thunderbird on täysin ilmainen. Voit kuitenkin tukea kehittäjäyhteisöä lähettämällä heille lahjoituksen.
+- **Intuitiivinen Interface ja helppo oppia**: Thunderbirdin konfigurointi on suurimmaksi osaksi suoraviivaista, joten sinun ei tarvitse huolehtia siitä.
+- **Soveltuu useille sähköpostityypeille**: olipa kyseessä Gmail, Yahoo, Outlook tai jopa verkkotunnukseen liittyvät yrityssähköpostit, tämä postilaatikko on erittäin monipuolinen.
+- **Monitili**: Thunderbirdin avulla voit muodostaa yhteyden useisiin sähköpostitileihin kerralla, jolloin voit helposti käyttää kaikkia viestejäsi.
+- **Tehokkaat ominaisuudet ja skaalautuvuus**: Thunderbird tarjoaa oletusarvoisesti laajan valikoiman ominaisuuksia sähköpostitilien ja tapahtumakalenterin hallintaan. Sen avulla voit kuitenkin myös lisätä lisävaihtoehtoja monien saatavilla olevien laajennusten ansiosta.
+- **Monialustainen**: Thunderbird on saatavilla useilla eri laitteilla (Android, Windows, Linux, macOS), joten pääset helposti käsiksi sähköposteihisi.
+- **Turvallisuus**: Thunderbird on erittäin turvallinen sovellus, jonka avulla voit hyödyntää RSA:han tai ECC:hen (Elliptic Curve) perustuvaa päästä päähän -salausta, joka takaa tietojesi luottamuksellisuuden.
 
 
 
@@ -59,8 +59,8 @@ Käynnistä ladattu suoritettava tiedosto Windowsissa aloittaaksesi asennuksen. 
 
 
 
-- Standard**: mahdollistaa suoran asennuksen ilman ennakkokonfigurointia.
-- Mukautettu**: voit valita asennuskansion ja sen, luodaanko työpöydän pikakuvakkeet.
+- **Standard**: mahdollistaa suoran asennuksen ilman ennakkokonfigurointia.
+- **Mukautettu**: voit valita asennuskansion ja sen, luodaanko työpöydän pikakuvakkeet.
 
 
 
@@ -213,4 +213,4 @@ Tutustu Proton Mail -oppaaseen, joka on päästä päähän salattu viestiratkai
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

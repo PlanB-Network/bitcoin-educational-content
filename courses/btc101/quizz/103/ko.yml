@@ -1,0 +1,11 @@
+question: Bitcoin 보안의 맥락에서 블록밋이란 무엇인가요?
+answer: 강철 조각에 Mnemonic 문구를 각인할 수 있는 저렴한 솔루션입니다.
+wrong_answers:
+  - 한 번에 여러 트랜잭션에 서명하는 Bitcoin Wallet의 한 유형입니다.
+  - 가정에서 비트코인을 채굴할 수 있는 저렴한 솔루션입니다.
+  - UTXO를 사용하려면 여러 서명이 필요한 Bitcoin Wallet의 한 유형입니다.
+explanation: |
+  블록밋은 저렴한 비용으로 강철과 같은 내구성 있는 소재에
+  Mnemonic 문구를 강철과 같은 내구성 있는 소재에 새겨서
+  장기적으로 비트코인을 보호할 수 있습니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Siapakah Santo Agustinus?
+answer: Salah satu Bapa Gereja.
+wrong_answers:
+  - Seorang filsuf dari masa Pencerahan.
+  - Seorang astronom.
+  - Seorang penemu.
+explanation: |
+  Santo Agustinus (354-430) adalah salah satu Bapa Gereja. Seorang filsuf dan teolog, ia sangat memengaruhi pemikiran Kristen Barat dengan karya-karyanya seperti 'Pengakuan Iman' dan 'Kota Allah'.
+reviewed: false

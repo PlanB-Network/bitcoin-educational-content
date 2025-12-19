@@ -1,0 +1,9 @@
+question: Vad är titeln på Satoshi Nakamotos vitbok som publicerades 2008?
+answer: Bitcoin Ett elektroniskt peer-to-peer-system för kontanter
+wrong_answers:
+  - Bitcoin Ett decentraliserat digitalt guldsystem
+  - Bitcoin Pengarnas framtid
+  - Bitcoin Ett Blockchain-baserat betalningsnätverk
+explanation: |
+  Satoshi Nakamotos vitbok, Bitcoin A Peer-to-Peer Electronic Cash System, publicerades 2008.
+reviewed: true

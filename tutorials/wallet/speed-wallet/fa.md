@@ -1,5 +1,5 @@
 ---
-name: سرعت Wallet
+name: Speed Wallet
 description: پرداخت و Exchange به بیت‌کوین و USDT به‌صورت فوری
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ description: پرداخت و Exchange به بیت‌کوین و USDT به‌صو
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## شروع به کار با Speed Wallet
 
@@ -63,7 +63,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-می‌توانید لینک‌های دانلود پلتفرم‌ها را در وب‌سایت رسمی [Speed Wallet] (https://speed.app) پیدا کنید.
+می‌توانید لینک‌های دانلود پلتفرم‌ها را در وب‌سایت رسمی [Speed Wallet](https://speed.app) پیدا کنید.
 
 
 
@@ -79,7 +79,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 برای انجام این کار، به تنظیمات برنامه بروید، سپس احراز هویت دوگانه و تأیید بیومتریک را فعال کنید.
 
@@ -143,7 +143,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- دریافت پرداخت‌ها در Speed Wallet :**
+- دریافت پرداخت‌ها در **Speed Wallet**:
 
 
 
@@ -161,7 +161,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- ارسال بیت‌کوین با Speed Wallet** :
+- ارسال بیت‌کوین با **Speed Wallet** :
 
 
 
@@ -191,7 +191,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- خرید Bitcoin با کارت اعتباری شما**: Speed Wallet خرید Bitcoin را با ارزهای فیاتی که هر روز استفاده می‌کنید آسان می‌کند. این شامل یک جمع‌کننده پرداخت است که به شما امکان می‌دهد بیت‌کوین‌ها را با کارت اعتباری خود پرداخت کنید.
+- **خرید Bitcoin با کارت اعتباری شما**: Speed Wallet خرید Bitcoin را با ارزهای فیاتی که هر روز استفاده می‌کنید آسان می‌کند. این شامل یک جمع‌کننده پرداخت است که به شما امکان می‌دهد بیت‌کوین‌ها را با کارت اعتباری خود پرداخت کنید.
 
 
 
@@ -201,13 +201,13 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- خرید Bitcoin از سایر ارزهای دیجیتال**: شما می‌توانید USDT، USDC خود را برای بیت‌کوین‌ها در Wallet خود و بالعکس Exchange کنید. از طریق این گزینه، Speed Wallet فرآیند خرید و فروش Bitcoin را بدون مراجعه به پلتفرم‌های خارجی Exchange ساده می‌کند. بنابراین می‌توانید با حداقل ۲۰,۰۰۰ ساتوشی، حدود ۲۰ دلار به نرخ فعلی، بدون ترک Speed Wallet خود معامله کنید.
+- **خرید Bitcoin از سایر ارزهای دیجیتال**: شما می‌توانید USDT، USDC خود را برای بیت‌کوین‌ها در Wallet خود و بالعکس Exchange کنید. از طریق این گزینه، Speed Wallet فرآیند خرید و فروش Bitcoin را بدون مراجعه به پلتفرم‌های خارجی Exchange ساده می‌کند. بنابراین می‌توانید با حداقل ۲۰,۰۰۰ ساتوشی، حدود ۲۰ دلار به نرخ فعلی، بدون ترک Speed Wallet خود معامله کنید.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## پاداش کسب کنید
 
@@ -327,7 +327,7 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet فقط برای موبایل نیست!
 
@@ -375,25 +375,25 @@ Speed Wallet تأکید ویژه‌ای بر ادغام و استفاده از B
 
 
 
-- پرداخت‌های آنلاین**: با این گزینه، می‌توانید Bitcoin را به عنوان یک روش پرداخت برای محصولات دیجیتال خود، از طریق لینک‌های پرداخت، صدور فاکتور و اشتراک‌ها بپذیرید.
+- **پرداخت‌های آنلاین**: با این گزینه، می‌توانید Bitcoin را به عنوان یک روش پرداخت برای محصولات دیجیتال خود، از طریق لینک‌های پرداخت، صدور فاکتور و اشتراک‌ها بپذیرید.
 
 
 
 
 
-- پرداخت‌های حضوری**: برای جمع‌آوری پرداخت‌ها در فروشگاه شما.
+- **پرداخت‌های حضوری**: برای جمع‌آوری پرداخت‌ها در فروشگاه شما.
 
 
 
 
 
-- پرداخت‌های فوری**: گزینه‌ای که به شما امکان می‌دهد بازپرداخت‌ها، برداشت‌ها، هزینه‌ها و فیش‌های حقوقی کارکنان را مستقیماً از Speed Business Interface مدیریت کنید.
+- **پرداخت‌های فوری**: گزینه‌ای که به شما امکان می‌دهد بازپرداخت‌ها، برداشت‌ها، هزینه‌ها و فیش‌های حقوقی کارکنان را مستقیماً از Speed Business Interface مدیریت کنید.
 
 
 
 
 
-- پرداخت‌های پلتفرم**: حساب Speed Business خود را به ابزارهای خارجی که برای انتقال و پرداخت به این پلتفرم‌ها استفاده می‌کنید، متصل کنید.
+- **پرداخت‌های پلتفرم**: حساب Speed Business خود را به ابزارهای خارجی که برای انتقال و پرداخت به این پلتفرم‌ها استفاده می‌کنید، متصل کنید.
 
 
 
@@ -401,4 +401,4 @@ Speed Wallet تأکید ویژه‌ای بر ادغام و استفاده از B
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

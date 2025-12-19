@@ -1,0 +1,9 @@
+question: Varför rekommenderas inte en hårddisk för en Bitcoin-nod?
+answer: Eftersom det avsevärt saktar ner IBD och allmän användning
+wrong_answers:
+  - Eftersom den inte kan lagra Blockchain-filer
+  - Eftersom den förbrukar för lite energi och riskerar att explodera
+  - Eftersom det inte är kompatibelt med Bitcoin core
+explanation: |
+  Mekaniska skivor begränsar prestandan, förlänger IBD avsevärt och slits snabbt ut under nodbelastning.
+reviewed: true

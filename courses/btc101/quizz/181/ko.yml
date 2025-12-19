@@ -1,0 +1,8 @@
+question: BTC맵이란 무엇인가요?
+answer: Bitcoin을 수락하는 모든 판매자를 나열하는 플랫폼입니다.
+wrong_answers:
+  - 전 세계의 모든 Bitcoin 지뢰 지도입니다.
+  - 전 세계 모든 Bitcoin 거래소 지도입니다.
+  - 전 세계 모든 Bitcoin 사용자의 지도입니다.
+explanation: >-
+reviewed: true

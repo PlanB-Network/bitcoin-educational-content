@@ -24,13 +24,13 @@ Le multisig est particulièrement adapté aux bitcoiners qui recherchent une sé
 
 Dans ce tutoriel, nous allons apprendre à créer et utiliser un portefeuille multisignature classique avec **Sparrow Wallet**. Si vous souhaitez créer un portefeuille multisignature personnalisé avec des timelocks, je vous recommande plutôt d'utiliser le logiciel Liana :
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 ## Prérequis
 
 Pour ce tutoriel, je vais vous montrer comment réaliser un multisig avec [le logiciel de gestion de portefeuille Sparrow Wallet](https://sparrowwallet.com/download/). Si vous n'avez pas encore installé ce logiciel, je vous invite à le faire dès maintenant. Si vous avez besoin d'aide, nous disposons également d'un tutoriel détaillé sur la configuration de Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
 Pour mettre en place un portefeuille multisignature, il vous faudra différents hardware wallets. Pour un multisig 2-de-3, par exemple, vous pourriez utiliser :
 - Un Trezor Model One ;
@@ -49,11 +49,11 @@ Il est judicieux d'utiliser des marques de hardware wallet différentes au sein 
 
 Avant de procéder à la configuration de votre portefeuille multisig, assurez-vous que chaque hardware wallet est correctement configuré (génération et sauvegarde de la phrase mnémonique, définition du code PIN). Pour des instructions détaillées, vous pouvez consulter nos tutoriels pour chaque hardware wallet, par exemple :
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Comme nous allons le voir plus tard dans ce tutoriel, il est également possible d'intégrer dans votre configuration multisig un facteur qui n'est pas associé à un hardware wallet, mais dont les clés privées sont conservées sur votre PC. Cette méthode est évidemment moins sécurisée que l'utilisation exclusive de hardware wallets, mais elle peut être pertinente dans certains cas. Par exemple, pour un multisig 2-de-3, vous pourriez opter pour deux hardware wallets et un software wallet.
 
@@ -189,13 +189,13 @@ Votre multisig est désormais correctement sauvegardé dans votre Coldcard. Si v
 
 Au-delà de la sauvegarde du *Descriptor*, n’oubliez pas de porter une attention toute particulière à la sauvegarde des phrases mnémoniques de chacun de vos dispositifs de signature. Si vous débutez, je vous recommande vivement de consulter cet autre tutoriel pour apprendre à les sauvegarder et les gérer correctement :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Avant de recevoir vos premiers bitcoins sur votre multisig, **je vous conseille vivement de réaliser un test de récupération à vide**. Notez une information de référence, telle que la première adresse de réception, puis réinitialisez vos hardware wallets tant que le portefeuille est encore vide. Ensuite, essayez de restaurer votre portefeuille multisig sur les hardware wallet en utilisant vos sauvegardes papier des phrase mnémonique, puis sur Sparrow en utilisant le *Descriptor*. Vérifiez que la première adresse générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables.
 
 Pour en savoir plus sur comment effectuer un test de récupération, je vous conseille de consulter cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Recevoir des bitcoins sur son multisig
 
@@ -313,4 +313,4 @@ Félicitations, vous savez dorénavant comment configurer et utiliser un portefe
 
 Pour aller plus loin, je vous recommande de consulter ce tutoriel sur une autre méthode pour augmenter la sécurité de votre portefeuille Bitcoin, la Passphrase BIP39 :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

@@ -1,10 +1,12 @@
-question: Qual é um dos riscos potenciais de deixar seus Bitcoins em uma plataforma de câmbio?
-answer: Os riscos de hacking e bloqueio de fundos.
+question: O que Milton Friedman previu em 1999?
+answer: O desenvolvimento de um e-cash confiável.
 wrong_answers:
-  - O risco da plataforma aumentar o preço do Bitcoin.
-  - O risco da plataforma controlar o fornecimento de Bitcoin.
-  - O risco do Bitcoin ser superado em preço por uma criptomoeda.
-explanation: >-
-  O texto menciona que deixar seus Bitcoins em uma plataforma de câmbio pode
-  expô-lo aos riscos de hacking e bloqueio de fundos.
+  - O fim do dinheiro físico.
+  - A ascensão do Bitcoin.
+  - O fim do controle governamental sobre o dinheiro.
+explanation: |
+  Milton Friedman, um economista renomado, previu em 1999
+  que um e-cash confiável seria desenvolvido em breve, um método
+  pelo qual na Internet você pode transferir fundos de A para B,
+  sem A conhecer B ou vice-versa.
 reviewed: true

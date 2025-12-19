@@ -1,0 +1,9 @@
+question: umbrelOSはどのライセンスで配布されていますか？
+answer: ポリフォーム 非商用 1.0
+wrong_answers:
+  - マサチューセッツ工科大学
+  - GPLv3
+  - アパッチ2.0
+explanation: |
+  umbrelOSはPolyForm Noncommercial 1.0ライセンスでリリースされており、個人的な使用は許可されていますが、商用利用は禁止されています。
+reviewed: true

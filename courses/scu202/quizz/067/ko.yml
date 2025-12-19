@@ -1,0 +1,9 @@
+question: 공용 와이파이 네트워크를 서핑할 때 VPN의 주요 목적은 무엇인가요?
+answer: 디바이스와 VPN 서버 간 트래픽 암호화
+wrong_answers:
+  - 인터넷 연결 익명화
+  - 업데이트 자동 설치
+  - generate 강력한 비밀번호
+explanation: |
+  VPN은 모든 네트워크 트래픽을 암호화하여 공용 와이파이와 같은 보안되지 않은 네트워크에서 데이터를 가로채지 못하도록 보호합니다.
+reviewed: false

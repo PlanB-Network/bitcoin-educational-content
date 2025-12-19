@@ -1,10 +1,12 @@
-question: Varför betraktas Bitcoin som en ny form av pengar?
-answer: Eftersom det är digitala pengar utan någon central enhet.
+question: Vilken är den strategi som centrala enheter använder för att devalvera en fiatvaluta?
+answer: De ökar den monetära massan med några procent varje år.
 wrong_answers:
-  - Eftersom det är en digital valuta som backas upp av guld.
-  - Eftersom det är en valuta som kräver banken Blockchain.
-  - För att Federal Reserve säger det.
+  - De minskar den monetära massan med några procent varje år.
+  - De håller dess monetära massa konstant jämfört med den ursprungliga massan.
+  - De får sin monetära massa att slumpmässigt fluktuera i jämförelse med den ursprungliga massan.
 explanation: |
-  Bitcoin kan ses som en ny form av pengar, eftersom de uppstår i ett
-  från ett peer-to-peer-nätverk utan någon central enhet.
+  Centrala enheter devalverar ofta en valuta genom att öka dess
+  monetära massan jämfört med den ursprungliga med några procent
+  varje år. Denna tysta devalvering motiveras ofta som
+  att den ligger i folkets intresse.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Is Immanuel Kant een filosoof?
+answer: Duits.
+wrong_answers:
+  - Engels.
+  - Pools.
+  - Nederlands.
+explanation: |
+  Immanuel Kant (1724-1804) was een Duitse filosoof die beschouwd wordt als een van de belangrijkste denkers van de Verlichting. Hij ontwikkelde een kritische filosofie die rationalisme en empirisme met elkaar probeerde te verzoenen.
+reviewed: false

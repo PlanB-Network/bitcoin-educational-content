@@ -1,0 +1,9 @@
+question: Hva mener Spinoza om tilfeldigheter?
+answer: Den finnes ikke.
+wrong_answers:
+  - Den finnes.
+  - Han sidestiller det med fatalisme.
+  - Han anser det som overtro.
+explanation: |
+  For Spinoza finnes det ikke noe slikt som tilfeldigheter. Alt i universet følger nødvendige og bestemte lover. Det som for oss fremstår som tilfeldigheter, er bare et resultat av vår uvitenhet om de egentlige årsakene.
+reviewed: false

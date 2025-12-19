@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: Configura tu VPN
+description: Configurar LN VPN con Lightning para una VPN anónima y a la carta
 ---
 
 ![image](assets/cover.webp)

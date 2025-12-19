@@ -1,0 +1,8 @@
+question: Hvorfor er "move fast and break things"-filosofien spesielt uegnet for Bitcoin-utvikling sammenlignet med tradisjonell programvareutvikling?
+answer: Bitcoin-transaksjoner er irreversible, og det finnes ingen sentral myndighet som kan inndrive midler fra feil
+wrong_answers:
+  - Bitcoin-utvikling krever raskere iterasjonssykluser enn tradisjonelle webapplikasjoner
+  - "Rusts kompilator forhindrer den raske prototypingen som trengs for blokkjedeinnovasjon"
+  - "Bitcoins åpne kildekode gjør det vanskeligere å fikse feil etter distribusjon"
+explanation: |
+  Det riktige svaret fremhever Bitcoins grunnleggende karakteristikk: Det desentraliserte systemet betyr at det ikke finnes noen myndighet å henvende seg til for å få pengene tilbake når transaksjonene er sendt ut. I motsetning til tradisjonelle finansielle systemer med regulatorisk beskyttelse og tilbakeføringsmekanismer, er Bitcoin-feil permanente og irreversible. De gale svarene misforstår kjernen i problemet - det handler ikke om utviklingshastighet, kompilatorbegrensninger eller utfordringer med åpen kildekode, men om den irreversible naturen til finansielle operasjoner i et desentralisert system der brukernes midler er i permanent fare.

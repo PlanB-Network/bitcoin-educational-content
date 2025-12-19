@@ -1,11 +1,10 @@
-question: Quais das seguintes ações podem ajudar aqueles que desejam usar Bitcoin no dia a dia?
-answer: Ter uma lista de todos os comerciantes que aceitam Bitcoin.
+question: Qual é uma das maneiras de adquirir bitcoins sem KYC?
+answer: Caixas eletrônicos de Bitcoin.
 wrong_answers:
-  - Aumentar o preço do Bitcoin.
-  - Diminuir o número de Bitcoins.
-  - Limitar o uso do Bitcoin.
-explanation: >-
-  Uma maneira de facilitar o uso do Bitcoin em transações cotidianas é
-  listar todos os comerciantes que aceitam Bitcoin. Isso pode ser feito através de plataformas
-  como o BTCMap.
+  - Plataformas de corretagem.
+  - Plataformas DCA.
+  - Transferências bancárias.
+explanation: |
+  O texto do curso menciona que existem várias maneiras de
+  adquirir Bitcoins sem KYC, uma das quais é através de Caixas eletrônicos de Bitcoin.
 reviewed: true

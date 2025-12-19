@@ -1,0 +1,8 @@
+question: Jaký zásadní problém řeší RC, který Box v systému vlastnictví Rust neřeší?
+answer: RC umožňuje vícenásobné vlastnictví stejných dat prostřednictvím počítání referencí
+wrong_answers:
+  - RC umožňuje rychlejší alokaci a dealokalizaci paměti než Box
+  - RC umožňuje automatickou správu paměti bez běhové režie
+  - RC umožňuje kontroly výpůjček při kompilaci, které Box nemůže provádět
+explanation: |
+  RC (Reference Counter) konkrétně řeší omezení modelu jediného vlastnictví Boxu tím, že umožňuje více částem kódu sdílet vlastnictví stejných dat současně. Box se řídí tradičními pravidly vlastnictví, podle nichž může data vlastnit vždy pouze jedna entita, což znemožňuje vytváření scénářů, jako jsou sdílené datové struktury, kde se na stejnou ocasní část odkazuje více seznamů. RC udržuje interní čítač, který sleduje odkazy, inkrementuje je při klonování a dekrementuje při vyřazení, přičemž paměť uvolňuje pouze tehdy, když počet dosáhne nuly. To umožňuje flexibilní vzory sdílení dat při zachování bezpečnosti paměti, což se zásadně liší od přístupu výhradního vlastnictví Boxu.

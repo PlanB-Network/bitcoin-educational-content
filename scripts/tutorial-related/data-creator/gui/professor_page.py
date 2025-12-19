@@ -1,3 +1,4 @@
+
 import os
 import re
 import uuid
@@ -28,8 +29,7 @@ class ProfessorPage(ctk.CTkFrame):
         # Retrieve any previously saved professor data
         professor_data = self.settings.get("professor_data", {})
         
-        # Configure the grid layout
-        for i in range(15):
+        for i in range(17):
             self.grid_rowconfigure(i, weight=1)
         for j in range(4):
             self.grid_columnconfigure(j, weight=1)
@@ -53,13 +53,28 @@ class ProfessorPage(ctk.CTkFrame):
         ctk.CTkEntry(self, textvariable=self.last_name_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Optional website and Twitter inputs
+        # Website / Twitter
         ctk.CTkLabel(self, text="Website (optional):", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
         self.website_var = ctk.StringVar(value=professor_data.get("website", ""))
         ctk.CTkEntry(self, textvariable=self.website_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         ctk.CTkLabel(self, text="Twitter / X (optional):", font=("Arial", 14)).grid(row=row, column=2, sticky="w", padx=10)
         self.twitter_var = ctk.StringVar(value=professor_data.get("twitter", ""))
         ctk.CTkEntry(self, textvariable=self.twitter_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
+        row += 1
+
+        # Nostr / LinkedIn
+        ctk.CTkLabel(self, text="Nostr (optional):", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
+        self.nostr_var = ctk.StringVar(value=professor_data.get("nostr", ""))
+        ctk.CTkEntry(self, textvariable=self.nostr_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
+        ctk.CTkLabel(self, text="LinkedIn (optional):", font=("Arial", 14)).grid(row=row, column=2, sticky="w", padx=10)
+        self.linkedin_var = ctk.StringVar(value=professor_data.get("linkedin", ""))
+        ctk.CTkEntry(self, textvariable=self.linkedin_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=3, padx=10, pady=5, sticky="ew")
+        row += 1
+
+        # GitHub
+        ctk.CTkLabel(self, text="GitHub (optional):", font=("Arial", 14)).grid(row=row, column=0, sticky="w", padx=10)
+        self.github_var = ctk.StringVar(value=professor_data.get("github", ""))
+        ctk.CTkEntry(self, textvariable=self.github_var, width=200, font=("Arial", 14, "bold")).grid(row=row, column=1, padx=10, pady=5, sticky="ew")
         row += 1
         
         # Optional lightning address input
@@ -123,7 +138,6 @@ class ProfessorPage(ctk.CTkFrame):
         ctk.CTkEntry(self, textvariable=self.short_bio_var, width=400, font=("Arial", 14, "bold")).grid(row=row, column=1, columnspan=3, padx=10, pady=5, sticky="ew")
         row += 1
         
-        # Buttons for creating the professor and going back
         button_frame = ctk.CTkFrame(self, fg_color="transparent")
         button_frame.grid(row=row, column=0, columnspan=4, pady=20, sticky="ew")
         ctk.CTkButton(button_frame, text="Create Professor", command=self.create_professor, font=("Arial", 14, "bold")).pack(side="left", padx=10, expand=True)
@@ -181,6 +195,9 @@ class ProfessorPage(ctk.CTkFrame):
             "last_name": self.last_name_var.get(),
             "website": self.website_var.get(),
             "twitter": self.twitter_var.get(),
+            "nostr": self.nostr_var.get(),
+            "linkedin": self.linkedin_var.get(),
+            "github": self.github_var.get(),
             "lightning": self.lightning_var.get(),
             "tag1": self.tag1_var.get(),
             "tag2": self.tag2_var.get(),
@@ -255,7 +272,10 @@ class ProfessorPage(ctk.CTkFrame):
                 website=self.website_var.get().strip(),
                 twitter=self.twitter_var.get().strip(),
                 lightning=self.lightning_var.get().strip(),
-                tags=tags
+                tags=tags,
+                nostr=self.nostr_var.get().strip(),
+                linkedin=self.linkedin_var.get().strip(),
+                github=self.github_var.get().strip()
             )
             yaml_file_path = os.path.join(new_folder, "professor.yml")
             write_file(yaml_file_path, yaml_content)

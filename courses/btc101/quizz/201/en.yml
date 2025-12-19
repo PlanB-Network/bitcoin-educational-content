@@ -1,12 +1,10 @@
-question: What is the purpose of KYC regulations?
-answer: To combat terrorism financing, tax evasion, and money laundering.
+question: What is one of the potential consequences of not following the regulations of your country when buying Bitcoin?
+answer: You may put yourself at risk.
 wrong_answers:
-  - To increase the price of Bitcoin and have the user pay more taxes.
-  - To control the supply of Bitcoin.
-  - To prevent people from buying Bitcoin.
+  - You may increase the price of Bitcoin.
+  - You may control the supply of Bitcoin.
+  - You may prevent others from buying Bitcoin.
 explanation: |
-  The course text explains that Know Your Customer (KYC)
-  regulations require users to provide identification to
-  combat terrorism financing, tax evasion, and money
-  laundering.
+  The course text mentions that not following the regulations
+  of your country when buying Bitcoin may put you at risk.
 reviewed: true

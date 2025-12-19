@@ -1,13 +1,13 @@
-question: Hot Wallet ni iki?
-answer: Bitcoin Wallet iri kuri telefone yawe canke kuri mudasobwa yawe ihuye na internet.
+question: Ni igiki gikenewe gukoresha Multisig Wallet?
+answer: Kubika amahera menshi kugira ngo akoreshwe n’amashirahamwe.
 wrong_answers:
-  - Wallet ariyo Hot ku mubiri yo gukorako.
-  - Wallet izwi cane mu bakoresha Bitcoin.
-  - Wallet igenewe kubika amafaranga menshi cane.
+  - Kubika utuntu dutoduto kugira ngo umuntu akoreshe.
+  - Kubika amafaranga ari hagati kugira ngo akoreshe ata nyungu.
+  - Kubika amahera y’umusi ku musi kugira ngo umuntu akoreshe.
 explanation: |
-  Hot Wallet ni ijambo rikoreshwa mu kudondora Bitcoin Wallet .
-  iyo ibitswe ku gikoresho gifise interineti, nk’akarorero .
-  telefone canke mudasobwa. Muri ubwo buryo, biroroshe gushitsa
-  amafaranga, ariko kandi bisigura ko Wallet ari .
-  bishobora gushikirwa n’iterabwoba ryo kuri Internet.
+  Multisig Wallet ni nziza kugira ngo ubike ibintu vyinshi .
+  kandi ku bijanye n’ikoreshwa ry’amashirahamwe kuko bisaba incuro nyinshi .
+  imikono kugira ngo ukore igikorwa. Iyi nzira yongerako
+  extra Layer y’umutekano, kuko umuntu umwe ntashobora
+  gukora igikorwa c’ubudandaji ata kwemererwa n’abandi.
 reviewed: true

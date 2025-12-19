@@ -3,7 +3,7 @@ answer: Often very high fees.
 wrong_answers:
   - Need for a fast internet connection.
   - Lack of support for local currencies.
-  - Transaction security not guaranteed.
+  - Transaction security is not guaranteed.
 explanation: |
   Buying bitcoins through ATMs is an interesting solution for user privacy, but their main disadvantage is that they often charge exorbitant fees.
-reviewed: false
+reviewed: true

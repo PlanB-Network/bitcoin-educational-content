@@ -36,7 +36,7 @@ El curso está compuesto por 3 sub-elementos diferentes que son:
 - Capítulo, definido por el nivel `## ` y útil para separar el contenido de la parte en varias páginas ya que en la Red PlanB cada capítulo se muestra en su propia página
 - Sección, definida por el nivel `### ` y útil para separar el Capítulo en subtemas para mayor claridad
 
-Estos tres objetos se utilizan para crear el currículo en la plataforma PBN. Aquí hay un ejemplo para [BTC101](https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966)
+Estos tres objetos se utilizan para crear el currículo en la plataforma Plan ₿ Academy. Aquí hay un ejemplo para [BTC101](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966)
 
 ![Currículo de BTC 101](./assets/es/btc101-curriculum.webp)
 
@@ -44,7 +44,7 @@ Puedes ver que aquí hemos utilizado 2 sintaxis del lenguaje Markdown para redir
 
 Puede que hayas notado que la imagen está en la subcarpeta `assets/es/`, es porque es una imagen que contiene texto en inglés que será traducido a otros idiomas. Si la imagen no contiene texto, debería estar en la subcarpeta `assets/no-txt/`.
 
-![Logo de PBN](./assets/no-txt/PBN-logo.webp)
+![Logo de Plan ₿ Academy](./assets/no-txt/PBN-logo.webp)
 
 Aunque todos los formatos de imagen son válidos, preferimos por razones de eficiencia de almacenamiento convertir cada imagen en formato `.webp`. Si no sabes cómo hacerlo, tenemos un script de python que hace el trabajo y nuestros revisores de código también podrían hacerlo mientras revisan tu PR.
 

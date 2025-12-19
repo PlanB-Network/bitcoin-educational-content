@@ -1,0 +1,9 @@
+question: 原始的 Bitcoin 軟體在 2009 年結合了什麼？
+answer: Wallet、弓形和小號
+wrong_answers:
+  - 節點、Miner 和 Block explorer
+  - Wallet、菜刀和 Miner
+  - Miner 和 Mining pool
+explanation: |
+  原始的 Bitcoin 軟體將 Wallet、節點和 Miner 功能整合到單一程式中。
+reviewed: true

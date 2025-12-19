@@ -1,10 +1,9 @@
-question: Apa akibat dari hiperinflasi?
-answer: Penurunan drastis dalam nilai mata uang
+question: Berapa kira-kira tingkat inflasi di Jerman pada Oktober 1923, saat puncak hiperinflasi?
+answer: 29.500%
 wrong_answers:
-  - Penurunan halus dalam nilai mata uang
-  - Peningkatan drastis dalam nilai mata uang
-  - Peningkatan halus dalam nilai mata uang
+  - 5.200%
+  - 76%
+  - 110%
 explanation: |
-  Karena hiperinflasi, individu secara cepat kehilangan kepercayaan terhadap mata uang
-  yang mengarah pada penurunan drastis dalam nilai mata uang dalam waktu singkat.
-reviewed: true
+  Bulan dengan tingkat inflasi tertinggi di Jerman adalah Oktober 1923, mencapai puncak sebesar 29.500%.
+reviewed: false

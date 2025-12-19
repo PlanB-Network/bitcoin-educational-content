@@ -1,0 +1,9 @@
+question: バージョン0.5以降、Bitcoin coreと一緒に配布されている2つのコンポーネントは？
+answer: Bitcoin-qtとbitcoind
+wrong_answers:
+  - bitcoin-cliとBitcoin-gui
+  - Bitcoin-MinerとBitcoin-Wallet
+  - BitcoinコアとBitcoinノード
+explanation: |
+  バージョン0.5以降、Bitcoin coreにはグラフィカルなInterface(Bitcoin-qt)とコマンドラインのInterface(bitcoind)があります。
+reviewed: true

@@ -1,0 +1,8 @@
+question: Qual caraterística representa closures que podem ser chamadas várias vezes sem alterar seu ambiente capturado?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCaptura
+explanation: |
+  Fn é a caraterística de fecho mais restritiva que representa fechos que podem ser chamados várias vezes sem alterar o seu ambiente capturado. Estes fechos apenas capturam por referência imutável e podem ser chamados em simultâneo de forma segura. FnOnce representa closures que só podem ser chamadas uma vez, enquanto FnMut representa closures que podem ser chamadas várias vezes, mas podem alterar o seu ambiente capturado. FnCapture não é uma caraterística real do Rust.

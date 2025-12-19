@@ -1,6 +1,6 @@
 ---
 name: Mchango - Mafunzo na GitHub Desktop (Ya kati)
-description: Mwongozo kamili wa kupendekeza mafunzo kwenye Plan ₿ Network kwa kutumia GitHub Desktop
+description: Mwongozo kamili wa kupendekeza mafunzo kwenye Plan ₿ Academy kwa kutumia GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
@@ -8,24 +8,24 @@ description: Mwongozo kamili wa kupendekeza mafunzo kwenye Plan ₿ Network kwa 
 Kabla ya kufuata mafunzo haya juu ya kuongeza mafunzo mapya, lazima uwe umekamilisha baadhi ya hatua za awali. Ikiwa bado haujafanya hivyo, ninakualika kwanza uangalie mafunzo haya ya utangulizi, kisha urudi hapa:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Tayari unayo:
 
 
 - Umechagua mada ya mafunzo yako;
-- Iliwasiliana na timu ya Plan ₿ Network kupitia [kundi la Telegram](https://t.me/PlanBNetwork_ContentBuilder) au paolo@planb.network;
+- Iliwasiliana na timu ya Plan ₿ Academy kupitia [kundi la Telegram](https://t.me/PlanBNetwork_ContentBuilder) au paolo@planb.network;
 - Umechagua zana zako za michango.
 
 
-Katika somo hili, tutaona jinsi ya kuongeza mafunzo yako kwenye Plan ₿ Network kwa kusanidi mazingira yako ya karibu na GitHub Desktop. Ikiwa tayari una ujuzi na Git, mafunzo haya ya kina yanaweza kuwa sio lazima kwako. Ningependa kupendekeza kushauriana na mafunzo haya mengine ambapo ninawasilisha miongozo kuu tu, bila mwongozo wa kina wa hatua kwa hatua:
+Katika somo hili, tutaona jinsi ya kuongeza mafunzo yako kwenye Plan ₿ Academy kwa kusanidi mazingira yako ya karibu na GitHub Desktop. Ikiwa tayari una ujuzi na Git, mafunzo haya ya kina yanaweza kuwa sio lazima kwako. Ningependa kupendekeza kushauriana na mafunzo haya mengine ambapo ninawasilisha miongozo kuu tu, bila mwongozo wa kina wa hatua kwa hatua:
 
 
 
 - **Watumiaji wenye uzoefu**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 Ikiwa hupendi kusanidi mazingira ya eneo lako, fuata mafunzo haya mengine yaliyoundwa kwa ajili ya wanaoanza, ambapo tunafanya mabadiliko moja kwa moja kupitia mtandao wa GitHub wa Interface:
 
@@ -34,7 +34,7 @@ Ikiwa hupendi kusanidi mazingira ya eneo lako, fuata mafunzo haya mengine yaliyo
 - **Wanaoanza (mtandao Interface)**:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Masharti
 
@@ -56,21 +56,21 @@ Masharti kabla ya kuanza mafunzo:
 
 
 - Kuwa na [akaunti ya GitHub](https://github.com/signup);
-- Kuwa na Fork ya [Plan ₿ Network chanzo hazina](https://github.com/PlanB-Network/Bitcoin-educational-content);
-- Kuwa na [wasifu wa profesa kwenye Plan ₿ Network](https://planb.network/professors) (ikiwa tu unapendekeza mafunzo kamili).
+- Kuwa na Fork ya [Plan ₿ Academy chanzo hazina](https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Kuwa na [wasifu wa profesa kwenye Plan ₿ Academy](https://planb.academy/professors) (ikiwa tu unapendekeza mafunzo kamili).
 
 
 Ikiwa unahitaji usaidizi kupata mahitaji haya ya lazima, mafunzo yangu mengine yatakusaidia:
 
 
 
-Mara tu kila kitu kitakapowekwa na mazingira ya eneo lako yamewekwa vizuri na Fork yako ya Plan ₿ Network, unaweza kuanza kuongeza mafunzo.
+Mara tu kila kitu kitakapowekwa na mazingira ya eneo lako yamewekwa vizuri na Fork yako ya Plan ₿ Academy, unaweza kuanza kuongeza mafunzo.
 
 
 ## 1 - Unda tawi jipya
 
 
-Fungua kivinjari chako na uelekee kwenye ukurasa wa Fork yako ya hazina ya Plan ₿ Network. Hii ndio Fork uliyoanzisha kwenye GitHub. URL ya Fork yako inapaswa kuonekana kama: `https://github.com/[your-username]/Bitcoin-educational-content`:
+Fungua kivinjari chako na uelekee kwenye ukurasa wa Fork yako ya hazina ya Plan ₿ Academy. Hii ndio Fork uliyoanzisha kwenye GitHub. URL ya Fork yako inapaswa kuonekana kama: `https://github.com/[your-username]/Bitcoin-educational-content`:
 
 
 ![TUTO](assets/fr/03.webp)
@@ -106,7 +106,7 @@ Bofya kwenye tawi hili, kisha ubofye kitufe cha `Tawi Jipya`:
 ![TUTO](assets/fr/08.webp)
 
 
-Hakikisha kuwa tawi jipya linatokana na hazina ya chanzo, yaani `PlanB-Network/Bitcoin-educational-content`.
+Hakikisha kuwa tawi jipya linatokana na hazina ya chanzo, yaani `Plan ₿ Academy/Bitcoin-educational-content`.
 
 
 Taja tawi lako kwa njia ambayo kichwa kiko wazi kuhusu madhumuni yake, kwa kutumia vistari kutenganisha kila neno. Kwa mfano, tuseme lengo letu ni kuandika mafunzo ya kutumia programu ya Sparrow Wallet. Katika hali hii, tawi linalofanya kazi lililojitolea kuandika mafunzo haya linaweza kutajwa: `tuto-sparrow-Wallet-loic`. Mara tu jina linalofaa likiingizwa, bofya kwenye `Unda tawi` ili kuthibitisha uundaji wa tawi:
@@ -143,7 +143,7 @@ Unahitaji kusakinisha kwenye mashine yako:
 - Chatu 3.8 au zaidi.
 
 
-Ili kutumia hati, nenda kwenye folda ambayo imehifadhiwa. Hati iko katika hazina ya data ya Plan ₿ Network kwenye njia: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+Ili kutumia hati, nenda kwenye folda ambayo imehifadhiwa. Hati iko katika hazina ya data ya Plan ₿ Academy kwenye njia: `Bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 
 Mara tu kwenye folda, sasisha utegemezi:
@@ -203,7 +203,7 @@ Kitendo hiki kitajaza kiotomatiki UUID ya profesa wako katika sehemu inayolingan
 Ikiwa bado huna wasifu wa profesa, angalia mafunzo haya:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 Kisha bofya kitufe cha "Mafunzo Mpya".
 
@@ -229,7 +229,7 @@ Chagua jina la saraka iliyoundwa mahsusi kwa mafunzo yako. Jina la folda hii lin
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-`project_id` ni UUID ya kampuni au shirika lililo nyuma ya zana iliyo katika mafunzo, inayopatikana [katika orodha ya miradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, kwa mafunzo kuhusu Sparrow Wallet, unaweza kupata `project_id` yake katika faili: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Maelezo haya yameongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yanayofanya kazi katika Bitcoin au miradi inayohusiana. Kwa kuongeza `id_ya_mradi` husika, unaunganisha maudhui yako na huluki husika.
+`project_id` ni UUID ya kampuni au shirika lililo nyuma ya zana iliyo katika mafunzo, inayopatikana [katika orodha ya miradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, kwa mafunzo kuhusu Sparrow Wallet, unaweza kupata `project_id` yake katika faili: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Maelezo haya yameongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yanayofanya kazi katika Bitcoin au miradi inayohusiana. Kwa kuongeza `id_ya_mradi` husika, unaunganisha maudhui yako na huluki husika.
 
 
 ***Sasisha:*** Katika toleo jipya la hati, hauhitaji tena kuweka wewe mwenyewe `kitambulisho_cha_mradi`. Kitendo cha kutafuta kimeongezwa ili kupata mradi kwa jina na kupata kiotomatiki `project_id` inayolingana. Andika mwanzo wa jina la mradi katika sehemu ya "Jina la Mradi" ili utafute, kisha uchague kampuni unayotaka kutoka kwenye menyu kunjuzi. `Project_id` itawekwa kiotomatiki katika sehemu iliyo hapa chini. Unaweza pia kuiingiza mwenyewe ikiwa inahitajika.
@@ -238,7 +238,7 @@ Chagua jina la saraka iliyoundwa mahsusi kwa mafunzo yako. Jina la folda hii lin
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-Kwa lebo, chagua maneno muhimu 2 au 3 yanayohusiana na maudhui yako ya mafunzo, ukichagua pekee kutoka [orodha ya lebo ya Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programu pia hutoa kazi ya utafutaji ya neno muhimu na orodha ya kushuka.
+Kwa lebo, chagua maneno muhimu 2 au 3 yanayohusiana na maudhui yako ya mafunzo, ukichagua pekee kutoka [orodha ya lebo ya Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programu pia hutoa kazi ya utafutaji ya neno muhimu na orodha ya kushuka.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -262,7 +262,7 @@ Kwa maelezo zaidi kuhusu hati hii ya Python, unaweza pia kuangalia [README](http
 Fungua kidhibiti chako cha faili na uende kwenye folda ya `Bitcoin-educational-content`, ambayo inawakilisha mshirika wa ndani wa hazina yako. Kwa kawaida unapaswa kuipata chini ya `Documents\GitHub\Bitcoin-educational-content`.
 
 
-Ndani ya saraka hii, utahitaji kupata folda ndogo inayofaa kwa kuweka mafunzo yako. Shirika la folda linaonyesha sehemu tofauti za tovuti ya Plan ₿ Network. Katika mfano wetu, kwa kuwa tunataka kuongeza mafunzo kuhusu Sparrow Wallet, tunapaswa kwenda kwenye njia ifuatayo: `Bitcoin-educational-content\tutorials\Wallet`, ambayo inalingana na sehemu ya `Wallet` kwenye tovuti:
+Ndani ya saraka hii, utahitaji kupata folda ndogo inayofaa kwa kuweka mafunzo yako. Shirika la folda linaonyesha sehemu tofauti za tovuti ya Plan ₿ Academy. Katika mfano wetu, kwa kuwa tunataka kuongeza mafunzo kuhusu Sparrow Wallet, tunapaswa kwenda kwenye njia ifuatayo: `Bitcoin-educational-content\tutorials\Wallet`, ambayo inalingana na sehemu ya `Wallet` kwenye tovuti:
 
 
 ![TUTO](assets/fr/12.webp)
@@ -344,15 +344,15 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Network ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
+- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
 
 
 
-- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwenye orodha ya lebo ya Plan ₿ Network](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwenye orodha ya lebo ya Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **kategoria**: Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Network (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
+- **kategoria**: Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Academy (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
 
 
 
@@ -383,7 +383,7 @@ Hapa kuna sehemu zinazohitajika:
 Kwa maelezo zaidi kuhusu kitambulisho chako cha mwalimu, tafadhali rejelea mafunzo yanayolingana:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -518,7 +518,7 @@ Ili kuingiza mchoro kwenye hati yako, tumia amri ifuatayo ya Markdown, hakikisha
 Sehemu ya mshangao mwanzoni inaonyesha kuwa ni taswira. Maandishi mbadala, ambayo yanasaidia katika ufikivu na SEO, yanawekwa kati ya mabano. Hatimaye, njia ya picha imeonyeshwa kati ya mabano.
 
 
-Iwapo ungependa kuunda michoro yako mwenyewe, hakikisha kuwa unafuata mkataba wa picha wa Plan ₿ Network ili kuhakikisha uthabiti wa kuona:
+Iwapo ungependa kuunda michoro yako mwenyewe, hakikisha kuwa unafuata mkataba wa picha wa Plan ₿ Academy ili kuhakikisha uthabiti wa kuona:
 
 
 - **Fonti**: Tumia [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
@@ -528,7 +528,7 @@ Iwapo ungependa kuunda michoro yako mwenyewe, hakikisha kuwa unafuata mkataba wa
  - Nyeupe: #FFFFFF
 
 
-**Ni muhimu kwamba taswira zote zilizojumuishwa kwenye mafunzo yako hazina haki au ziheshimu leseni ya faili chanzo**. Pia, michoro zote zilizochapishwa kwenye Plan ₿ Network zinapatikana chini ya leseni ya CC-BY-SA, kwa njia sawa na maandishi.
+**Ni muhimu kwamba taswira zote zilizojumuishwa kwenye mafunzo yako hazina haki au ziheshimu leseni ya faili chanzo**. Pia, michoro zote zilizochapishwa kwenye Plan ₿ Academy zinapatikana chini ya leseni ya CC-BY-SA, kwa njia sawa na maandishi.
 
 **-> Kidokezo:** Unaposhiriki faili hadharani, kama vile picha, ni muhimu kuondoa metadata yoyote isiyo ya lazima. Hii inaweza kuwa na taarifa nyeti, kama vile data ya eneo, tarehe za kuundwa au maelezo kuhusu mwandishi. Ili kulinda faragha yako, ni vyema kufuta metadata hii. Ili kurahisisha mchakato huu, unaweza kutumia zana maalum kama vile [Exif Cleaner](https://exifcleaner.com/), ambayo inaruhusu kusafisha metadata ya hati kupitia buruta na kudondosha rahisi.
 
@@ -571,7 +571,7 @@ Unaweza kuangalia mara ya mwisho kuwa marekebisho yako ni sahihi, kisha ubofye k
 ![TUTO](assets/fr/32.webp)
 
 
-Ombi la Kuvuta ni ombi linalofanywa ili kujumuisha mabadiliko kutoka kwa tawi lako hadi tawi kuu la hazina ya Plan ₿ Network, ambayo inaruhusu ukaguzi na majadiliano ya mabadiliko kabla ya kuunganishwa kwao.
+Ombi la Kuvuta ni ombi linalofanywa ili kujumuisha mabadiliko kutoka kwa tawi lako hadi tawi kuu la hazina ya Plan ₿ Academy, ambayo inaruhusu ukaguzi na majadiliano ya mabadiliko kabla ya kuunganishwa kwao.
 
 
 Utaelekezwa kiotomatiki kwa kivinjari chako kwenye GitHub hadi kwenye ukurasa wa utayarishaji wa Ombi lako la Kuvuta:
@@ -584,7 +584,7 @@ Onyesha kichwa ambacho kinatoa muhtasari wa mabadiliko unayotaka kuunganisha na 
 ![TUTO](assets/fr/34.webp)
 
 
-PR yako kisha itaonekana kwenye kichupo cha `Vuta Ombi` la hazina kuu ya Plan ₿ Network. Unachohitajika kufanya ni kusubiri hadi msimamizi awasiliane nawe ili kuthibitisha kuunganishwa kwa mchango wako au kuomba marekebisho yoyote ya ziada.
+PR yako kisha itaonekana kwenye kichupo cha `Vuta Ombi` la hazina kuu ya Plan ₿ Academy. Unachohitajika kufanya ni kusubiri hadi msimamizi awasiliane nawe ili kuthibitisha kuunganishwa kwa mchango wako au kuomba marekebisho yoyote ya ziada.
 
 
 ![TUTO](assets/fr/35.webp)
@@ -606,7 +606,7 @@ Ikiwa ungependa kufanya mabadiliko kwenye mchango wako baada ya kuwa tayari kuwa
 
 
 - Ikiwa PR yako bado imefunguliwa na bado haijaunganishwa, fanya mabadiliko ndani ya nchi ukiwa kwenye tawi moja. Mara tu marekebisho yamekamilika, tumia kitufe cha `Push origin` ili kuongeza ahadi mpya kwenye PR yako ambayo bado imefunguliwa;
-- Ikiwa PR yako tayari imeunganishwa na tawi kuu, utahitaji kuanza mchakato tena kwa kuunda tawi jipya, kisha kuwasilisha PR mpya. Hakikisha kwamba hazina yako ya ndani imesawazishwa na hazina ya chanzo cha Plan ₿ Network kabla ya kuendelea.
+- Ikiwa PR yako tayari imeunganishwa na tawi kuu, utahitaji kuanza mchakato tena kwa kuunda tawi jipya, kisha kuwasilisha PR mpya. Hakikisha kwamba hazina yako ya ndani imesawazishwa na hazina ya chanzo cha Plan ₿ Academy kabla ya kuendelea.
 
 
 Ukikumbana na matatizo ya kiufundi katika kuwasilisha mafunzo yako, usisite kuomba usaidizi kwenye [kikundi chetu maalum cha Telegram kwa michango](https://t.me/PlanBNetwork_ContentBuilder). Asante!

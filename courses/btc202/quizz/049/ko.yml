@@ -1,0 +1,9 @@
+question: Bitcoin core에서 dbcache 파라미터의 기본값은 무엇인가요?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1기가바이트
+  - 4기가바이트
+explanation: |
+  기본적으로 Bitcoin core은 캐시에 450MB(472MB)를 할당합니다.
+reviewed: true

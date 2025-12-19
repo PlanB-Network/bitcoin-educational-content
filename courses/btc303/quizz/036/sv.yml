@@ -1,0 +1,9 @@
+question: Vad är den viktigaste skillnaden mellan blockbidrag och transaktionsavgifter när det gäller vem som i slutändan bär kostnaden för Bitcoin:s nätverkssäkerhet?
+answer: Blocksubventionskostnaderna bärs av innehavarna genom monetär inflation, medan transaktionsavgifterna betalas av dem som spenderar
+wrong_answers:
+  - Blocksubventionskostnader betalas av gruvarbetare genom utrustningskostnader, medan transaktionsavgifter bärs av nodoperatörer
+  - Blocksubventionskostnaderna delas lika mellan alla nätverksdeltagare, medan transaktionsavgifterna endast påverkar stora institutioner
+  - Kostnader för blocksubventioner bärs av börser genom handelsavgifter, medan transaktionsavgifter betalas av wallet-leverantörer
+explanation: |
+  Som Paul Sztorc noterade är blocksubvention och transaktionsavgifter fundamentalt olika till sin natur. Blocksubventionen representerar skapandet av nya bitcoin, vilket späder ut det befintliga utbudet och effektivt kostar alla bitcoininnehavare genom monetär inflation. Transaktionsavgifter är däremot direkta betalningar som görs av användare som vill genomföra transaktioner, vilket innebär att spenderarna bär denna kostnad direkt. Kapitlet illustrerar denna övergång och visar hur säkerhetskostnaderna kommer att flyttas från innehavare till användare i takt med att blocksubventionen minskar över tid.
+reviewed: false

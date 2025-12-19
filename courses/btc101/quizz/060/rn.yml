@@ -1,11 +1,12 @@
-question: Ni igiki gikoreshwa mu kugenzura amafaranga akoreshwa ku rubuga rwa Bitcoin?
-answer: Mining.
+question: Ni incuro zingahe umuntu ahindura ingorane?
+answer: Buri 2016 amabuye.
 wrong_answers:
-  - Kwimba
-  - Kwimbura
-  - Uburimyi
+  - Imisi yose 1048.
+  - Imisi yose 512.
+  - Imisi yose 4032.
 explanation: |
-  Uburyo bugenzura amafaranga akoreshwa kuri Bitcoin.
-  urubuga rwitwa Mining. Abacukuzi b'amabuye y'agaciro bakora ubuhinga bwo gukingira amakuru
-  igikorwa kandi bagahembwa n’ugusohora ama bitcoins mashasha.
+  Guhindura ingorane ni uburyo bubaho .
+  buri 2016 blocks, canke nk’indwi zibiri, kugira ngo umuntu
+  block nshasha yongerwa kuri Blockchain buri minota cumi ku wa 10.00.
+  mwayeni, ata kuraba Hashrate y’isi yose.
 reviewed: true

@@ -1,11 +1,11 @@
 ---
-name: Bitcoin Rahakottide Sisemine Tööpõhimõte
+name: Bitcoin rahakoti arhitektuur
 goal: Sukelduda krüptograafilistesse põhimõtetesse, mis toetavad Bitcoin rahakotte.
 objectives:
-  - Määratleda teoreetilised mõisted, mis on vajalikud Bitcoinis kasutatavate krüptograafiliste algoritmide mõistmiseks.
-  - Täielikult mõista deterministliku ja hierarhilise rahakoti ehitust.
-  - Teada, kuidas tuvastada ja vähendada rahakoti haldamisega seotud riske.
-  - Mõista hash-funktsioonide, krüptograafiliste võtmete ja digitaalallkirjade põhimõtteid.
+- Määratleda teoreetilised mõisted, mis on vajalikud Bitcoinis kasutatavate krüptograafiliste algoritmide mõistmiseks.
+- Täielikult mõista deterministliku ja hierarhilise rahakoti ehitust.
+- Teada, kuidas tuvastada ja vähendada rahakoti haldamisega seotud riske.
+- Mõista hash-funktsioonide, krüptograafiliste võtmete ja digitaalallkirjade põhimõtteid.
 ---
 
 # Teekond Bitcoin Rahakottide Südamesse
@@ -28,29 +28,59 @@ Selge pedagoogiaga, üle 60 selgitava diagrammi ja konkreetsete näidetega, või
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 Tere tulemast CYP201 kursusele, kus me uurime põhjalikult HD Bitcoin rahakottide toimimist. See kursus on mõeldud kõigile, kes soovivad mõista Bitcoin'i kasutamise tehnilisi aluseid, olgu nad juhuslikud kasutajad, valgustatud entusiastid või tulevased eksperdid.
 
 Selle koolituse eesmärk on anda sulle võtmed igapäevaselt kasutatavate tööriistade meisterlikuks kasutamiseks. HD Bitcoin rahakotid, mis on sinu kasutajakogemuse südames, põhinevad mõnikord keerulistel kontseptsioonidel, mida me püüame muuta ligipääsetavaks. Koos demüstifitseerime need!
 
 Enne kui sukeldume Bitcoin rahakottide ehituse ja toimimise detailidesse, alustame mõne peatükiga krüptograafilistest primitiividest, mida on vaja järgneva jaoks teada.
-Alustame krüptograafilistest hash-funktsioonidest, mis on olulised nii rahakottide kui ka Bitcoin protokolli enda jaoks. Sa avastad nende peamised omadused, Bitcoinis kasutatavad spetsiifilised funktsioonid ja tehnilisemas peatükis õpid detailideni tundma hash-funktsioonide kuningannat: SHA256.
-![CYP201](assets/fr/010.webp)
+Alustame krüptograafilistest hash-funktsioonidest, mis on olulised nii rahakottide kui ka Bitcoin protokolli enda jaoks. Sa avastad nende peamised omadused, Bitcoinis kasutatavad spetsiifilised funktsioonid ja tehnilisemas peatükis õpid detailideni tundma hash-funktsioonide kuningannat: [SHA256](https://planb.academy/resources/glossary/sha256).
+![CYP201](assets/en/001.webp)
 
 Järgnevalt arutame digitaalallkirja algoritmide toimimist, mida sa iga päev oma UTXOde turvamiseks kasutad. Bitcoin kasutab kahte: ECDSA ja Schnorri protokolli. Sa õpid, millised matemaatilised primitiivid nende algoritmide aluseks on ja kuidas need tagavad tehingute turvalisuse.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 Kui meil on hea arusaam nendest krüptograafia elementidest, liigume lõpuks koolituse südamesse: deterministlikud ja hierarhilised rahakotid! Esiteks on jaotis pühendatud mnemoonilistele fraasidele, neile 12 või 24 sõna jadadele, mis võimaldavad sul luua ja taastada oma rahakotte. Sa avastad, kuidas neid sõnu genereeritakse entroopia allikast ja kuidas need lihtsustavad Bitcoin'i kasutamist.
 
-![CYP201](assets/fr/040.webp)
-Koolitus jätkub BIP39 paroolifraasi, seemne (mitte segi ajada mnemoonilise fraasiga), peamise ahelakoodi ja peamise võtme uurimisega. Vaatame üksikasjalikult, mis need elemendid on, nende vastavad rollid ja kuidas neid arvutatakse.
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/003.webp)
+Koolitus jätkub [BIP39](https://planb.academy/resources/glossary/bip0039) paroolifraasi, seemne (mitte segi ajada mnemoonilise fraasiga), peamise ahelakoodi ja peamise võtme uurimisega. Vaatame üksikasjalikult, mis need elemendid on, nende vastavad rollid ja kuidas neid arvutatakse.
+![CYP201](assets/en/004.webp)
 
 Lõpuks, alates peamisest võtmest, avastame, kuidas krüptograafilised võtmepaarid tuletatakse deterministlikul ja hierarhilisel viisil kuni vastuvõtvate aadressideni.
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 See koolitus võimaldab teil oma rahakoti tarkvara usaldusväärselt kasutada, samal ajal parandades teie oskusi riskide tuvastamiseks ja leevendamiseks. Valmistuge saama tõeliseks eksperdiks Bitcoin'i rahakottides!
+
+See tabel pakub teile tõlke peamistest ingliskeelsetest terminitest, mida kasutatakse, et hõlbustada skeemide ja tehniliste dokumentide mõistmist, mida kasutatakse CYP 201 kursuse raames.
+
+| Inglise         | Tõlge / Selgitus                                                                                   |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | Avaliku võtme räsi (kasutatakse Bitcoini aadressi loomiseks).                                       |
+| *public key*    | Avalik võti (kasutatakse vahendite vastuvõtmiseks, tuletatud privaatvõtmest).                       |
+| *signature*     | Digitaalallkiri (kryptograafiline tõend, et sõnum pärineb privaatvõtme omanikult).                  |
+| *scriptPubKey*  | Lukustusskript (määrab tingimused väljundi kulutamiseks).                                           |
+| *scriptSig*     | Avamisskript (annab andmed *scriptPubKey* rahuldamiseks).                                           |
+| *Stack*         | Pinu (andmestruktuur, mida kasutab *Bitcoin Script*).                                              |
+| *input*         | Tehingu sisend (viide eelmisele väljundile, mida kasutatakse allikana).                             |
+| *output*        | Tehingu väljund (määrab saaja ja summa).                                                            |
+| *transaction*   | Bitcoini tehing (sisendite ja väljundite kogum, mis kinnitab ülekande).                             |
+| *XOR*           | Loogikaoperaator "eksklusiivne VÕI", mida kasutatakse mõnes krüptograafilises skeemis.             |
+| *HMAC*          | Sõnumi autentimiskood, mis põhineb räsi ja salajase võtme kombinatsioonil.                          |
+| *ECDSA*         | Elliptilise kõvera digitaalallkirja algoritm.                                                       |
+| *hash*          | Räsi (unikaalne ja fikseeritud andmete sõrmejälg).                                                  |
+| *SigHash*       | Allkirja räsi tüüp (määrab, millised tehingu osad allkirjastatakse).                                |
+| *HD Wallet*     | Hierarhiline deterministlik rahakott (genereerib ühe seemne põhjal mitu võtit).                     |
+| *Random Number* | Juhuslik number (kasutatakse turvaliste privaatvõtmete genereerimiseks).                            |
+| *State*         | Oleku väärtus (vaheväärtus krüptograafilises protsessis).                                          |
+| *Entropy*       | Entroopia (juhuslikkuse mõõt, mida kasutatakse rahakoti seemnete genereerimiseks).                 |
+| *Mnemonic*      | Mnemoonika (sõnade jada, mis lihtsustab seemne varundamist ja taastamist).                          |
+| *Wordlist*      | Sõnastik (eelmääratud sõnade kogum, mida kasutatakse BIP39 mnemoonikute loomiseks).                 |
+| *Seed*          | Seeme (algväärtus, millest saab tuletada kõik HD rahakoti võtmed).                                  |
+| *Address*       | Bitcoini aadress (inimloetav identifikaator vahendite vastuvõtmiseks, tuletatud avalikust võtmest). |
+| *Leaf*          | Leht (lõppsõlm tuletuspuus).                                                                       |
 
 # Hash-funktsioonid
 
@@ -59,6 +89,8 @@ See koolitus võimaldab teil oma rahakoti tarkvara usaldusväärselt kasutada, s
 ## Hash-funktsioonide tutvustus
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 Esimest tüüpi krüptograafilised algoritmid, mida Bitcoinis kasutatakse, hõlmavad hash-funktsioone. Need mängivad olulist rolli protokolli erinevatel tasanditel, aga ka Bitcoin'i rahakottides. Vaatame koos, mis on hash-funktsioon ja milleks seda Bitcoinis kasutatakse.
 
@@ -73,7 +105,7 @@ Näiteks SHA256 hash-funktsioon toodab 256-bitise fikseeritud pikkusega hashi. S
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
 ```
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 ### Hash-funktsioonide omadused
 
@@ -90,7 +122,7 @@ Pöördumatus tähendab, et on lihtne arvutada räsi sisendandmetest, kuid vastu
 
 Antud näites on hashi `24f1b9…` saamine teades sisendit "_PlanB_" lihtne ja kiire. Kuid sõnumi "_PlanB_" leidmine teades ainult `24f1b9…` on võimatu.
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 Seega on võimatu leida eelkujutist $m$ hashi $h$ jaoks nii, et $h = \text{HASH}(m)$, kus $\text{HASH}$ on krüptograafiline hash-funktsioon.
 
@@ -109,7 +141,7 @@ Kui me teeme sisendis väga väikese muudatuse, kasutades seekord "_Planb_", sii
 bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 See omadus tagab, et isegi algse sõnumi väike muutmine on kohe tuvastatav, kuna see ei muuda ainult räsi väikest osa, vaid kogu räsi. See võib olla huvipakkuv erinevates valdkondades, et kontrollida sõnumite, tarkvara või isegi Bitcoin'i tehingute terviklikkust.
 
@@ -121,7 +153,7 @@ $$
 \text{HASH}(m_1) = \text{HASH}(m_2)
 $$
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 Tegelikkuses on matemaatiliselt paratamatu, et räsifunktsioonide jaoks eksisteerivad kokkupõrked, kuna sisendite suurus võib olla suurem kui väljundite suurus. Seda tuntakse Dirichlet'i sahtli põhimõttena: kui $n$ objekti jaotatakse $m$ sahtlisse, kusjuures $m < n$, siis vähemalt ühes sahtlis peab tingimata olema kaks või enam objekti. Räsifunktsiooni puhul kehtib see põhimõte, kuna võimalike sõnumite arv on (peaaegu) lõpmatu, samas kui võimalike räside arv on piiratud ($2^{256}$ SHA256 puhul).
 
@@ -137,7 +169,7 @@ $$
 $$
 
 Seega on teise eelkujutise kindlus mõnevõrra sarnane kokkupõrkekindlusega, välja arvatud see, et siin on rünnak raskem, kuna ründaja ei saa vabalt valida $m_1$.
-![CYP201](assets/fr/005.webp)
+![CYP201](assets/en/010.webp)
 
 ### Hash-funktsioonide rakendused Bitcoinis
 
@@ -167,6 +199,9 @@ Nüüd teate hashimisfunktsioonide olulisi põhitõdesid edasiseks. Järgmises p
 ## SHA256 sisemine toimimine
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
+
 Oleme varem näinud, et räsifunktsioonidel on olulised omadused, mis õigustavad nende kasutamist Bitcoinis. Vaatame nüüd nende räsifunktsioonide sisemisi mehhanisme, mis annavad neile need omadused, ja selleks pakun ma lahti võtta SHA256 toimimise.
 SHA256 ja SHA512 funktsioonid kuuluvad samasse SHA2 perekonda. Nende mehhanism põhineb spetsiifilisel konstruktsioonil, mida nimetatakse **Merkle-Damgårdi konstruktsiooniks**. RIPEMD160 kasutab samuti seda tüüpi konstruktsiooni.
 
@@ -229,7 +264,7 @@ Seda täite suurust lisatakse järgides bittäidet. Seega koosneb sõnum pärast
 - Bitt `1` järgneb mitmele bitile `0`, et moodustada bittäide;
 - 64-bitine esitus $M$ pikkusest, et moodustada suurusega täide.
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 ### Muutujate Algväärtustamine
 
@@ -344,7 +379,7 @@ $$
 
 Skeemiliselt võib paremale nihutamise operatsiooni näha nii:
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 Teine SHA256-s biti manipuleerimiseks kasutatav operatsioon on paremale ringikujuline rotatsioon, tähistatud $RotR_n(x)$, mis nihutab $x$ bitid paremale $n$ positsiooni võrra, sisestades nihutatud bitid stringi algusesse tagasi.
 Näiteks, $x = 101100001$ (üle 9 biti) ja $n = 4$ puhul:
 
@@ -354,7 +389,7 @@ $$
 
 Skeemiliselt võib paremale ringikujulise nihutamise operatsiooni näha nii:
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 ### Kompressioonifunktsioon
 
@@ -381,7 +416,7 @@ Sel juhul $x$ võrdub $W_{i-15}$ jaoks $\sigma_0(x)$ ja $W_{i-2}$ jaoks $\sigma_
 
 Kui oleme kõik sõnad $W_i$ meie 512-bitise tüki jaoks kindlaks määranud, võime liikuda edasi kompressioonifunktsiooni juurde, mis koosneb 64 vooru sooritamisest.
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 Iga vooru $i$ jaoks vahemikus 0 kuni 63 on meil kolm erinevat tüüpi sisendeid. Esiteks, $W_i$, mille oleme just kindlaks määranud, osaliselt koosnedes meie sõnumitükist $P_n$. Järgmiseks, 64 konstanti $K_i$. Lõpuks kasutame olekumuutujaid $A$, $B$, $C$, $D$, $E$, $F$, $G$ ja $H$, mis arenevad läbi räsiprotsessi ja muudetakse iga kompressioonifunktsiooni käigus. Siiski, esimese tüki $P_1$ jaoks kasutame eelnevalt antud algkonstante.
 Seejärel teostame oma sisenditega järgmised toimingud:
 
@@ -440,7 +475,7 @@ $$
 
 Järgnev diagramm esindab ühte vooru SHA256 tihendusfunktsioonis, nagu me just kirjeldasime:
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 - Nooled näitavad andmevoo suunda;
 - Kastid esindavad teostatud operatsioone;
@@ -520,6 +555,8 @@ Nüüd, kui oleme üksikasjalikult vaadelnud räsifunktsioonide toimimist, eriti
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 Bitcoinis rakendustasandil kasutatakse räsifunktsioonide kõrval krüptograafilisi tuletusalgoritme, et genereerida turvalisi andmeid algsetest sisenditest. Kuigi need algoritmid toetuvad räsifunktsioonidele, teenivad nad erinevaid eesmärke, eriti autentimise ja võtmegeneratsiooni osas. Need algoritmid säilitavad mõningaid räsifunktsioonide omadusi, nagu pöördumatuse, võltsimiskindluse ja kokkupõrkekindluse.
 
 Bitcoin rahakottides kasutatakse peamiselt kahte tuletusalgoritmi:
@@ -535,7 +572,7 @@ HMAC on krüptograafiline algoritm, mis arvutab autentimiskoodi, põhinedes räs
 
 Siin on selle üldine tööpõhimõte, kus $m$ on sisendsõnum ja $K$ salajane võti:
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 Uurime üksikasjalikumalt, mis toimub selles HMAC-SHA512 mustas kastis. HMAC-SHA512 funktsioon koos:
 
@@ -571,7 +608,7 @@ See võrrand jaguneb järgmisteks sammudeks:
 
 Need sammud võib kokku võtta skeemiliselt järgmiselt:
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 HMAC-i kasutatakse Bitcoinis märkimisväärselt võtmete tuletamiseks HD (Hierarhiliselt Deterministlikes) rahakottides (räägime sellest üksikasjalikumalt tulevates peatükkides) ja kui PBKDF2 komponenti.
 
@@ -593,7 +630,7 @@ PBKDF2 protsess on järgmine, kus:
 
 Skeemiliselt saab PBKDF2 esitada järgmiselt:
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 Sel peatükis oleme uurinud HMAC-SHA512 ja PBKDF2 funktsioone, mis kasutavad räsifunktsioone, et tagada võtmete tuletamise terviklikkus ja turvalisus Bitcoin protokollis. Järgmises osas vaatleme digitaalseid allkirju, teist krüptograafilist meetodit, mida Bitcoinis laialdaselt kasutatakse.
 
@@ -604,6 +641,8 @@ Sel peatükis oleme uurinud HMAC-SHA512 ja PBKDF2 funktsioone, mis kasutavad rä
 ## Digitaalsed Allkirjad ja Elliptilised Kõverad
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
+
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
 
 Teine krüptograafiline meetod, mida Bitcoinis kasutatakse, hõlmab digitaalse allkirja algoritme. Vaatleme, mida see endast kujutab ja kuidas see töötab.
 
@@ -617,7 +656,7 @@ See on Bitcoin'i põhitoimimine, kuid aja jooksul on see toiming muutunud keeruk
 Kasutaja, kes soovib teha Bitcoin'i tehingu, peab looma digitaalse allkirja kasutades oma privaatvõtit küsimuses oleva tehingu jaoks. Allkirja saavad kontrollida teised võrgu osalejad. Kui see on kehtiv, tähendab see, et tehingut alustav kasutaja on tõepoolest privaatvõtme omanik ja seega ka bitcoinide omanik, mida ta soovib kulutada. Teised kasutajad saavad seejärel tehingu aktsepteerida ja edasi levitada.
 Selle tulemusena peab kasutaja, kes omab bitcoine, mis on lukustatud avaliku võtmega, leidma viisi, kuidas turvaliselt hoida seda, mis võimaldab nende vahendite lukust avada: privaatvõti. Bitcoin'i rahakott on täpselt seade, mis võimaldab teil kõiki oma võtmeid hõlpsalt hoida ilma, et teised inimesed neile juurde pääseksid. Seega on see pigem võtmehoidja kui rahakott.
 
-Matemaatiline seos avaliku võtme ja privaatvõtme vahel, samuti võime teostada allkirja, et tõestada privaatvõtme omamist ilma seda paljastamata, on võimalik digitaalse allkirja algoritmi abil. Bitcoin'i protokollis kasutatakse 2 allkirja algoritmi: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) ja **Schnorri allkirja skeem**. ECDSA on digitaalse allkirja protokoll, mida on Bitcoin'is kasutatud selle algusest peale. Schnorr on Bitcoin'is uuem, kuna see tutvustati novembris 2021 Taprooti uuendusega.
+Matemaatiline seos avaliku võtme ja privaatvõtme vahel, samuti võime teostada allkirja, et tõestada privaatvõtme omamist ilma seda paljastamata, on võimalik digitaalse allkirja algoritmi abil. Bitcoin'i protokollis kasutatakse 2 allkirja algoritmi: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) ja **Schnorri allkirja skeem**. ECDSA on digitaalse allkirja protokoll, mida on Bitcoin'is kasutatud selle algusest peale. Schnorr on Bitcoin'is uuem, kuna see tutvustati novembris 2021 Taprooti uuendusega.
 Need kaks algoritmi on oma mehhanismides üsna sarnased. Mõlemad põhinevad elliptilise kõvera krüptograafial. Peamine erinevus nende kahe protokolli vahel seisneb allkirja struktuuris ja mõnedes spetsiifilistes matemaatilistes omadustes. Seega uurime nende algoritmide toimimist, alustades vanimast: ECDSA.
 
 ### Elliptilise Kõvera Krüptograafia
@@ -628,7 +667,7 @@ Elliptilise Kõvera Krüptograafia (ECC) on algoritmide kogum, mis kasutab krüp
 
 Siin on esitus elliptilisest kõverast reaalarvude väljal:
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 Iga elliptiline kõver on määratletud võrrandiga kujul:
 
@@ -647,7 +686,7 @@ y^2 = x^3 + 7
 $$
 
 Selle graafiline esitus reaalarvude väljal näeb välja selline:
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 Kuid krüptograafias töötame me lõplike arvude hulkadega. Täpsemalt töötame lõplikul väljal $\mathbb{F}_p$, mis on täisarvude välja modulo algarv $p$.
 **Definitsioon**: Algarv on loomulik täisarv, mis on suurem või võrdne 2-ga ja millel on ainult kaks erinevat positiivset täisarvu jagajat: 1 ja iseennast. Näiteks number 7 on algarv, kuna seda saab jagada ainult 1 ja 7-ga. Teisest küljest, number 8 ei ole algarv, kuna seda saab jagada 1, 2, 4 ja 8-ga.
 Bitcoini puhul kasutatav algarv $p$ lõpliku välja määratlemiseks on väga suur. See on valitud nii, et välja järk (st elementide arv $\mathbb{F}_p$-s) on piisavalt suur, et tagada krüptograafiline turvalisus.
@@ -672,7 +711,7 @@ $$
 
 Arvestades, et see kõver on määratletud lõplikul väljal $\mathbb{F}_p$, ei meenuta see enam pidevat kõverat, vaid pigem diskreetsete punktide hulka. Näiteks siin on, milline näeb välja Bitcoini kasutatav kõver väga väikese $p = 17$ korral:
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 Selles näites olen tahtlikult piiranud lõpliku välja $p = 17$-ga hariduslikel eesmärkidel, kuid tuleb ette kujutada, et Bitcoini kasutatav on tohutult suurem, peaaegu $2^{256}$.
 
@@ -682,11 +721,14 @@ Elliptiliste kõverate matemaatika lõplikel väljadel on analoogne reaalarvude 
 
 Kui soovite rohkem teada saada kaasaegse krüptograafia matemaatilistest alustest, soovitan samuti konsulteerida selle teise kursusega Plan ₿ võrgustikus:
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## Avaliku võtme arvutamine privaatvõtmest
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
+
 Nagu varem nähtud, põhinevad Bitcoini digitaalsed allkirja algoritmid privaat- ja avalike võtmete paaril, mis on matemaatiliselt seotud. Vaatame koos, mis see matemaatiline seos on ja kuidas neid genereeritakse.
 
 ### Privaatvõti
@@ -722,11 +764,11 @@ kus:
 
 Asjaolu, et see punkt $G$ on kõigile Bitcoin'i avalikele võtmetele ühine, võimaldab meil olla kindlad, et sama privaatvõti $k$ annab meile alati sama avaliku võtme $K$:
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 Selle operatsiooni peamine omadus on see, et see on ühesuunaline funktsioon. Avaliku võtme $K$ arvutamine on lihtne, teades privaatvõtit $k$ ja generaatorpunkti $G$, kuid privaatvõtme $k$ arvutamine, teades ainult avalikku võtit $K$ ja generaatorpunkti $G$, on praktiliselt võimatu. $k$ leidmine $K$ ja $G$ põhjal tähendab diskreetse logaritmi probleemi lahendamist elliptilistel kõveratel, mis on matemaatiliselt keeruline probleem, mille jaoks ei ole teada ühtegi efektiivset algoritmi. Isegi kõige võimsamad praegused arvutid ei suuda seda probleemi mõistliku aja jooksul lahendada.
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 ### Punkti Lisamine ja Kahekordistamine Elliptilistel Kõveratel
 
@@ -738,7 +780,7 @@ $$
 
 Graafiliselt saab seda esitada järgmiselt:
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 Punkti kahekordistamiseks, ehk operatsiooni $P + P$ jaoks, joonestame kõvera punktis $P$ puudutaja. See puudutaja lõikub kõveraga teises punktis $S'$. Seejärel võtame selle punkti peegelpildi x-telje suhtes, et saada punkt $S$, mis on kahekordistamise tulemus:
 
@@ -748,7 +790,7 @@ $$
 
 Graafiliselt on see näidatud järgmiselt:
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 Kasutades neid lisamise ja kahekordistamise operatsioone, saame teostada punkti skalaarset korrutamist täisarvuga $k$, tähistatuna $kP$, teostades korduvaid kahekordistamisi ja lisamisi.
 
@@ -763,7 +805,7 @@ Graafiliselt vastab see jada lisamistele ja kahekordistamistele:
 - Arvuta $2G$, kahekordistades $G$.
 - Arvuta $4G$, kahekordistades $2G$.
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 Kui soovime näiteks arvutada punkti $3G$, peame esmalt arvutama punkti $2G$, kahekordistades punkti $G$, seejärel lisame $G$ ja $2G$. $G$ ja $2G$ lisamiseks joonistame lihtsalt joone, mis ühendab neid kahte punkti, leiame elliptilise kõvera ja selle joone lõikepunktis unikaalse punkti $-3G$ ja seejärel määrame $3G$ kui $-3G$ vastandi.
 
@@ -778,7 +820,7 @@ $$
 $$
 
 Graafiliselt kujutataks seda järgmiselt:
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 
 ### Ühesuunaline Funktsioon
 
@@ -799,6 +841,8 @@ Muidugi, selles lihtsustatud näites, kus $k = 4$, oleks võimalik leida $k$ kat
 ## Allkirjastamine Privaatvõtmega
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 Nüüd, kui te teate, kuidas tuletada avalik võti privaatvõtmest, võite juba bitcoine vastu võtta, kasutades seda võtmepaari kulutamise tingimusena. Kuid kuidas neid kulutada? Bitcoinide kulutamiseks peate avama oma UTXO külge kinnitatud _scriptPubKey_, et tõestada, et olete selle legitiimne omanik. Selleks peate tootma allkirja $s$, mis vastab _scriptPubKey_-s olevale avalikule võtmele $K$, kasutades privaatvõtit $k$, mida algselt kasutati $K$ arvutamiseks. Digitaalne allkiri on seega vaieldamatu tõend, et olete privaatvõtme omanik, mis on seotud väidetava avaliku võtmega.
 
@@ -932,7 +976,7 @@ $$
 
 Allkirja genereerimise esimene samm on sõnumi räsimine. Kuid erinevalt ECDSA-st tehakse seda teiste väärtustega ja kasutatakse märgistatud räsi funktsiooni, et vältida kokkupõrkeid erinevates kontekstides. Märgistatud räsi funktsioon hõlmab lihtsalt suvalise sildi lisamist räsi funktsiooni sisenditele koos sõnumi andmetega.
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 Lisaks sõnumile edastatakse märgistatud funktsiooni ka avaliku võtme $K_x$ $x$ koordinaat, samuti punkt $R$, mis on arvutatud nontsist $r$ ($R=r \cdot G$), mis on ise iga allkirja jaoks unikaalne täisarv, arvutatud deterministlikult privaatvõtmest ja sõnumist, et vältida haavatavusi, mis on seotud nontsi korduvkasutusega. Nagu avaliku võtme puhul, säilitatakse kirjeldamiseks ainult nontsipunkti $R_x$ $x$ koordinaat.
 
@@ -998,11 +1042,11 @@ $$
 
 Schnorri allkirjade skeem pakub Bitcoinile mitmeid eeliseid võrreldes algse ECDSA algoritmiga. Esiteks võimaldab Schnorr võtmete ja allkirjade agregatsiooni. See tähendab, et mitu avalikku võtit saab ühendada üheks võtmeks.
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 Samamoodi saab mitu allkirja agregatsioonida üheks kehtivaks allkirjaks. Seega, multisignatuuri tehingu puhul saab osalejate rühm allkirjastada ühe allkirja ja ühe agregatud avaliku võtmega. See vähendab oluliselt võrgu salvestus- ja arvutuskulusid, kuna iga sõlm peab kontrollima ainult ühte allkirja.
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 Lisaks parandab allkirjade agregatsioon privaatsust. Schnorriga muutub võimatuks eristada multisignatuuri tehingut standardsest ühe allkirjaga tehingust. See homogeensus muudab ahela analüüsi raskemaks, kuna see piirab võimalust tuvastada rahakoti jälgi.
 Lõpuks pakub Schnorr ka partii kinnitamise võimalust. Mitme allkirja samaaegse kinnitamisega saavad sõlmed tõhusust, eriti plokkide puhul, mis sisaldavad palju tehinguid. See optimeerimine vähendab aega ja ressursse, mis on vajalikud ploki valideerimiseks. Lisaks ei ole Schnorri allkirjad muudetavad, erinevalt ECDSA abil loodud allkirjadest. See tähendab, et ründaja ei saa muuta kehtivat allkirja, et luua teine kehtiv allkirja sama sõnumi ja sama avaliku võtme jaoks. See haavatavus oli varem Bitcoinis olemas ja takistas Lightning Networki turvalist rakendamist. See probleem lahendati ECDSA jaoks SegWiti pehme kahvliga 2017. aastal, mis hõlmas allkirjade liigutamist tehingutest eraldi andmebaasi, et vältida nende muudetavust.
@@ -1016,6 +1060,8 @@ Tegelikult me ei tea, miks Satoshi seda ei valinud, kuid tõenäoline hüpotees 
 ## Sighash lipud
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
+
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
 
 Nagu eelmistes peatükkides oleme näinud, kasutatakse digitaalseid allkirju sageli sisendi skripti avamiseks. Allkirjastamisprotsessis on vajalik kaasata allkirjastatud andmed arvutusse, mida meie näidetes tähistatakse sõnumiga $m$. Kord allkirjastatud, ei saa neid andmeid muuta ilma allkirja kehtetuks muutmata. Tõepoolest, olgu tegemist ECDSA või Schnorriga, peab allkirja kontrollija oma arvutusse kaasama sama sõnumi $m$. Kui see erineb algsest sõnumist $m$, mida allkirjastaja kasutas, on tulemus vale ja allkirja peetakse kehtetuks. Öeldakse, et allkiri katab teatud andmed ja kaitseb neid omamoodi volitamata muudatuste eest.
 
@@ -1032,29 +1078,29 @@ Bitcoinis on esmajoones kolm põhilist sighash lippu:
 
 - `SIGHASH_ALL` (`0x01`): Allkiri kehtib kõigi tehingu sisendite ja väljundite kohta. Tehing on seega täielikult allkirja poolt kaetud ja seda ei saa enam muuta. `SIGHASH_ALL` on kõige sagedamini kasutatav sighash igapäevastes tehingutes, kui soovitakse lihtsalt tehingut teha, ilma et seda saaks muuta.
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 Kõigis selle peatüki diagrammides tähistab oranž värv allkirja poolt kaetud elemente, samas kui must värv näitab neid, mis ei ole kaetud.
 
 - `SIGHASH_NONE` (`0x02`): Allkiri hõlmab kõiki sisendeid, kuid ühtegi väljundit, võimaldades seega väljundite muutmist pärast allkirjastamist. Konkreetselt on see sarnane tühjale tšekile. Allkirjastaja avab sisendites UTXO-d, kuid jätab väljundite välja täielikult muudetavaks. Igaüks, kes teab seda tehingut, saab seega lisada oma valitud väljundi, näiteks määrates vastuvõtva aadressi sisendite poolt tarbitud vahendite kogumiseks, ja seejärel edastada tehingu bitcoinide taastamiseks. Sisendite omaniku allkiri ei muutu kehtetuks, kuna see hõlmab ainult sisendeid.
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 - `SIGHASH_SINGLE` (`0x03`): Allkiri hõlmab kõiki sisendeid ning ühte väljundit, mis vastab allkirjastatud sisendi indeksile. Näiteks, kui allkiri avab sisendi #0 _scriptPubKey_, siis hõlmab see ka väljundit #0. Allkiri kaitseb ka kõiki teisi sisendeid, mida ei saa enam muuta. Siiski võib igaüks lisada täiendava väljundi ilma allkirja kehtetuks muutmata, tingimusel, et väljundit #0, mis on ainus, mida see hõlmab, ei muudeta.
-  ![CYP201](assets/fr/028.webp)
+  ![CYP201](assets/en/033.webp)
 
 Lisaks nendele kolmele sighash lipule on olemas ka modifikaator `SIGHASH_ANYONECANPAY` (`0x80`). Seda modifikaatorit saab kombineerida põhilise sighash lipuga, et luua kolm uut sighash lippu:
 
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): Allkiri hõlmab ühte sisendit, kaasates kõik tehingu väljundid. See kombineeritud sighash lipp võimaldab näiteks korraldada ühisrahastuse tehingut. Korraldaja valmistab väljundi oma aadressi ja sihtsummaga ning iga investor saab seejärel lisada sisendeid selle väljundi rahastamiseks. Kui sisendites on kogutud piisavalt vahendeid väljundi rahuldamiseks, saab tehingu edastada.
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): Allkiri hõlmab ühte sisendit, ilma et see oleks seotud ühegi väljundiga;
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): Allkiri katab ühe sisendi ning väljundi, mille indeks on sama kui sellel sisendil. Näiteks, kui allkiri avab sisendi #3 _scriptPubKey_, katab see samuti väljundi #3. Ülejäänud tehingu saab muuta, nii teiste sisendite kui ka teiste väljundite osas.
-  ![CYP201](assets/fr/031.webp)
+  ![CYP201](assets/en/036.webp)
 
 ### Projektid uute Sighash-lippude lisamiseks
 
@@ -1062,14 +1108,14 @@ Praegu (2024) on Bitcoinis kasutatavad ainult eelmises jaotises tutvustatud sigh
 
 Need kaks sighash-lippu pakuksid Bitcoinile lisavõimalust: luua allkirju, mis ei kata ühtegi konkreetset tehingu sisendit.
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 See idee formuleeriti esialgu Joseph Pooni ja Thaddeus Dryja poolt Lightningi Valge Raamatus. Enne ümbernimetamist oli selle sighash-lipu nimi `SIGHASH_NOINPUT`.
 Kui see sighash-lipp integreeritakse Bitcoini, võimaldab see kasutada kovenantide, kuid see on ka kohustuslik eeltingimus Eltoo implementeerimiseks, mis on üldine protokoll teise kihi jaoks, mis määratleb, kuidas ühiselt hallata UTXO omandiõigust. Eltoo oli spetsiaalselt välja töötatud probleemide lahendamiseks, mis on seotud Lightningi kanalite oleku läbirääkimise mehhanismidega, st avamise ja sulgemise vahel.
 
 Et süvendada oma teadmisi Lightningi Võrgust, pärast CYP201 kursust, soovitan väga LNP201 kursust Fanis Michalakise poolt, mis katab teema üksikasjalikult:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Järgmises osas pakun avastada, kuidas töötab teie Bitcoin rahakoti aluseks olev mnemooniline fraas.
 
@@ -1080,6 +1126,8 @@ Järgmises osas pakun avastada, kuidas töötab teie Bitcoin rahakoti aluseks ol
 ## Bitcoini rahakottide areng
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 Nüüd, kui oleme uurinud räsifunktsioonide ja digitaalsete allkirjade toimimist, saame uurida, kuidas Bitcoini rahakotid toimivad. Eesmärk on ette kujutada, kuidas Bitcoini rahakott on üles ehitatud, kuidas see on jaotatud ja milliseid erinevaid teabeosi see kasutab. Rahakoti mehhanismide mõistmine võimaldab teil parandada oma Bitcoini kasutamist turvalisuse ja privaatsuse osas.
 
@@ -1094,7 +1142,7 @@ UTXO-d esindavad seega bitcoini fragmente erinevates suurustes, mida saab kuluta
 
 Bitcoinis esialgu kasutatud rahakotid olid JBOK (_Just a Bunch Of Keys_) rahakotid, mis grupeerisid koos eraldi ja omavahel seostamata privaatselt genereeritud võtmed. Need rahakotid töötasid lihtsal mudelil, kus iga privaatvõti võis avada unikaalse Bitcoini vastuvõtu aadressi.
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 Kui sooviti kasutada mitut privaatvõtit, oli vajalik teha sama palju varukoopiaid, et tagada fondidele juurdepääs probleemide korral seadmega, kus rahakott asub. Ühe privaatvõtme kasutamisel võib see rahakoti struktuur piisav, kuna piisab ühest varukoopiast. Siiski tekib probleem: Bitcoinis on tungivalt soovitatav mitte alati kasutada sama privaatvõtit. Tõepoolest, privaatvõti on seotud unikaalse aadressiga ja Bitcoini vastuvõtu aadressid on tavaliselt mõeldud ühekordseks kasutamiseks. Iga kord, kui saate vahendeid, peaksite genereerima uue tühja aadressi.
 
@@ -1102,12 +1150,12 @@ See piirang tuleneb Bitcoini privaatsusmudelist. Sama aadressi korduva kasutamis
 
 Bitcoini privaatsusmudeli kohta lisateabe saamiseks ja oma privaatsuse kaitsmise meetodite avastamiseks soovitan samuti jälgida minu BTC204 kursust Plan ₿ võrgustikus:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD Rahakotid (_Hierarchical Deterministic_)
 
 JBOK rahakottide piirangute lahendamiseks kasutati hiljem uut rahakoti struktuuri. 2012. aastal tutvustas Pieter Wuille täiustust BIP32-ga, mis tutvustab hierarhilisi deterministlikke rahakotte. HD rahakoti põhimõte on tuletada kõik privaatvõtmed ühest teabeallikast, mida nimetatakse seemneks, deterministlikul ja hierarhilisel viisil. See seeme genereeritakse juhuslikult rahakoti loomisel ja moodustab unikaalse varukoopia, mis võimaldab kõigi rahakoti privaatvõtmete taasloomist. Seega saab kasutaja genereerida väga suure hulga privaatvõtmeid, et vältida aadressi korduvkasutust ja säilitada oma privaatsust, vajades samal ajal teha ainult ühe varukoopia oma rahakotist seemne kaudu.
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 HD rahakottides toimub võtmete tuletamine vastavalt hierarhilisele struktuurile, mis võimaldab võtmeid korraldada tuletusalampiirkondadesse, iga alampiirkond omakorda edasi jaotatav, et hõlbustada fondide haldamist ja erinevate rahakottide tarkvara vahelist koostalitlusvõimet. Tänapäeval on see standard vastu võetud enamiku Bitcoini kasutajate poolt. Sel põhjusel uurime seda järgnevates peatükkides üksikasjalikult.
 
@@ -1122,6 +1170,9 @@ Järgnevates peatükkides uurime HD rahakottide sisemist tööd, sealhulgas võt
 ## Entroopia ja Juhuarv
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
+
 Kaasaegsed HD rahakotid (deterministlikud ja hierarhilised) tuginevad ühele algsele informatsioonitükile, mida nimetatakse "entroopiaks", et deterministlikult genereerida kogu rahakoti võtmete komplekt. See entroopia on pseudojuhuarv, mille kaose tase osaliselt määrab rahakoti turvalisuse.
 
 ### Entroopia Definitsioon
@@ -1139,7 +1190,7 @@ HD rahakoti jaoks kasutatav algne entroopia on üldjuhul 128 bitti või 256 bitt
 
 Enamikul juhtudel genereeritakse see juhuarv automaatselt rahakoti tarkvara poolt, kasutades PRNG-d (_Pseudo-Random Number Generator_). PRNG-d on algoritmide kategooria, mida kasutatakse numbrijadade genereerimiseks algseisundist, millel on omadused, mis lähenemiselt sarnanevad juhuarvuga, ilma et see tegelikult oleks. Hea PRNG peab omama omadusi nagu väljundi ühtlus, ettearvamatus ja vastupidavus ennustatavatele rünnakutele. Erinevalt tõelistest juhuarvugeneraatoritest (TRNG), on PRNG-d deterministlikud ja reprodutseeritavad.
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 Alternatiiviks on entroopia käsitsi genereerimine, mis pakub paremat kontrolli, kuid on ka palju riskantsem. Ma soovitan tungivalt mitte genereerida entroopiat oma HD rahakoti jaoks ise.
 
@@ -1148,6 +1199,9 @@ Järgmises peatükis näeme, kuidas me liigume juhuarvust 12 või 24 sõna mnemo
 ## Mnemooniline Fraas
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
+
 Mnemooniline fraas, mida nimetatakse ka "seemnefraasiks", "taastefraasiks", "salafraasiks" või "24-sõnaliseks fraasiks", on tavaliselt 12 või 24 sõnast koosnev jada, mis on genereeritud entroopiast. Seda kasutatakse HD rahakoti kõikide võtmete deterministlikuks tuletamiseks. See tähendab, et sellest fraasist on võimalik deterministlikult genereerida ja taasluua kõik Bitcoin rahakoti privaatsed ja avalikud võtmed ning seeläbi pääseda ligi sellega kaitstud vahenditele. Mnemoonilise fraasi eesmärk on pakkuda bitcoini varundamise ja taastamise vahendit, mis on nii turvaline kui ka lihtne kasutada. See viidi standarditesse sisse 2013. aastal BIP39-ga.
 Avastame koos, kuidas minna entroopiast mnemoonilise fraasini.
 
@@ -1171,7 +1225,7 @@ $$
 
 Kui kontrollsumma on arvutatud, liidetakse see entroopiaga, et saada pikendatud bittide jada, mida tähistatakse $\text{ENT} \Vert \text{CS}$ ("liitmine" tähendab järjestikku panemist).
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 ### Vastavus Entroopia ja Mnemoonilise Fraasi Vahel
 
@@ -1197,19 +1251,19 @@ $$
 
 ### Binaarjada Muundamine Mnemooniliseks Fraasiks
 
-Bittide jada $\text{ENT} \Vert \text{CS}$ jagatakse seejärel 11-bitisteks segmentideks. Iga 11-bitine segment, kui see on muundatud kümnendkohaks, vastab numbrile vahemikus 0 kuni 2047, mis määrab sõna positsiooni [2048 sõna standardiseeritud nimekirjas BIP39 poolt](https://github.com/Planb-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bittide jada $\text{ENT} \Vert \text{CS}$ jagatakse seejärel 11-bitisteks segmentideks. Iga 11-bitine segment, kui see on muundatud kümnendkohaks, vastab numbrile vahemikus 0 kuni 2047, mis määrab sõna positsiooni [2048 sõna standardiseeritud nimekirjas BIP39 poolt](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 Näiteks 128-bitise entroopia korral on kontrollsumma 4 bitti, seega kogu jada mõõdab 132 bitti. See jagatakse 12 segmendiks, millest igaüks on 11 bitti (oranžid bitid tähistavad kontrollsummat):
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 Iga segment teisendatakse seejärel kümnendarvuks, mis esindab sõna nimekirjas. Näiteks binaarne segment `01011010001` on kümnendsüsteemis võrdne arvuga `721`. Lisades 1, et viia see kooskõlla nimekirja indekseerimisega (mis algab 1-st, mitte 0-st), annab see sõna järjekorranumbri `722`, mis nimekirjas on "*focus*".
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 See vastavus korratakse iga 12 segmendi jaoks, et saada 12-sõnaline fraas.
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 ### BIP39 Sõnaloendi Omadused
 
@@ -1237,11 +1291,13 @@ Selle tulemusena ei paku 24-sõnalise fraasi valimine rahakotile lisakaitset, ku
 12-sõnaline fraas, mis pakub samuti 128-bitist turvalisust, on seega praegu piisav, et kaitsta teie bitcoine igasuguse varguskatse eest. Niikaua kui digitaalse allkirja algoritm ei muutu suuremate võtmete kasutamiseks või ei hakka sõltuma mõnest muust matemaatilisest probleemist peale ECDLP, jääb 24-sõnaline fraas üleliigseks. Pealegi suurendab pikem fraas kaotamise riski varundamise ajal: varukoopia, mis on kaks korda lühem, on alati lihtsamini hallatav.
 Et minna kaugemale ja õppida konkreetsemalt, kuidas käsitsi genereerida test-mnemoonilist fraasi, soovitan teil avastada seda õpetust:
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 Enne kui jätkame rahakoti tuletamist sellest mnemoonilisest fraasist, tutvustan teile järgmises peatükis BIP39 paroolilauset, kuna see mängib tuletamisprotsessis rolli ja on mnemoonilise fraasiga samal tasemel.
 ## Paroolilause
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 Nagu me just nägime, genereeritakse HD rahakotid tavaliselt 12 või 24 sõnast koosnevast mnemoonilisest fraasist. See fraas on väga oluline, kuna see võimaldab taastada kõik rahakoti võtmed juhul, kui selle füüsiline seade (näiteks riistvaraline rahakott) kaob. Siiski kujutab see endast ühtset rikkepunkti, sest kui see on kompromiteeritud, võib ründaja varastada kõik bitcoinid. Siin tulebki mängu BIP39 paroolilause.
 
@@ -1253,7 +1309,7 @@ Olge ettevaatlik, paroolilauset ei tohiks segi ajada teie riistvaralise rahakoti
 
 Paroolilause töötab koos mnemoonilise fraasiga, muutes seemne, millest võtmed genereeritakse. Seega, isegi kui keegi saab kätte teie 12 või 24-sõnalise fraasi, ei pääse nad ilma paroolilauseita teie vahenditele ligi. Paroolilause kasutamine loob sisuliselt uue rahakoti eristuvate võtmetega. Paroolilause muutmine (isegi veidi) genereerib erineva rahakoti.
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 ### Miks peaksite kasutama paroolilauset?
 
@@ -1266,7 +1322,7 @@ Lõpuks on paroolilause kasutamine huvitav, kui soovitakse kontrollida HD rahako
 Et paroolilause oleks tõhus, peab see olema piisavalt pikk ja juhuslik. Nagu tugeva parooli puhul, soovitan valida paroolilause, mis on võimalikult pikk ja juhuslik, sisaldades tähtede, numbrite ja sümbolite mitmekesisust, et muuta mis tahes jõuga ründamine võimatuks.
 On oluline ka see salafraas korralikult salvestada, samamoodi nagu mnemooniline fraas. **Selle kaotamine tähendab juurdepääsu kaotamist oma bitcoinidele**. Ma soovitan tungivalt mitte jätta seda ainult meelde, kuna see suurendab mõttetult kaotuse riski. Ideaalne on see üles kirjutada füüsilisele kandjale (paberile või metallile) eraldi mnemoonilisest fraasist. See varukoopia peab ilmselgelt olema hoitud erinevas kohas, kus teie mnemooniline fraas, et vältida mõlema samaaegset kompromiteerimist.
 
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 Järgmises jaotises avastame, kuidas neid kahte teie rahakoti aluseks olevat elementi — mnemoonilist fraasi ja salafraasi — kasutatakse võtmepaaride tuletamiseks, mida kasutatakse *scriptPubKey*'s, mis lukustavad teie UTXOsid.
 
@@ -1276,9 +1332,11 @@ Järgmises jaotises avastame, kuidas neid kahte teie rahakoti aluseks olevat ele
 ## Seemne ja Peavõtme Loomine
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
 
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
+
 Kui mnemooniline fraas ja valikuline salafraas on genereeritud, võib alata Bitcoin HD rahakoti tuletamise protsess. Mnemooniline fraas teisendatakse esmalt seemneks, mis on kõigi rahakoti võtmete aluseks.
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 ### HD Rahakoti Seeme
 
@@ -1301,7 +1359,7 @@ s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 
 $$
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 Seega mõjutab seemne väärtust mnemoonilise fraasi ja salafraasi väärtus. Salafraasi muutmisel saadakse erinev seeme. Siiski, sama mnemoonilise fraasi ja salafraasiga, genereeritakse alati sama seeme, kuna PBKDF2 on deterministlik funktsioon. See tagab, et samu võtmepaare saab meie varukoopiate kaudu taastada.
 
@@ -1340,7 +1398,7 @@ C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 
 $$
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 ### Meistervõtme ja Ahelakoodi Roll
 
@@ -1353,9 +1411,11 @@ Enne HD rahakoti tuletamise jätkamist järgmiste elementidega soovin ma järgmi
 ## Laiendatud Võtmed
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
+
 Laiendatud võti on lihtsalt võtme (olgu see siis privaatne või avalik) ja selle seotud ahelakoodi ühendus. See ahelakood on lastevõtmete tuletamiseks hädavajalik, sest ilma selleta on võimatu tuletada lastevõtmeid vanemvõtmest, kuid me uurime seda protsessi täpsemalt järgmises peatükis. Need laiendatud võtmed võimaldavad seega koondada kõik vajaliku teabe lastevõtmete tuletamiseks, lihtsustades seeläbi konto haldamist HD rahakotis.
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 Laiendatud võti koosneb kahest osast:
 - Koormus, mis sisaldab privaatset või avalikku võtit ning seotud ahelakoodi;
@@ -1378,7 +1438,7 @@ Edaspidi kasutame järgmist notatsiooni:
 - $K_{\text{CHD}}^h$: kõvastunud lapsavalik võti;
 - $k_{\text{CHD}}^h$: kõvastunud lapsprivaatvõti.
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 ### Laiendatud Võtme Konstruktsioon
 
@@ -1469,11 +1529,13 @@ Sel peatükis avastasime, et on olemas kahte tüüpi alamvõtmeid. Samuti õppis
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
+
 Bitcoin HD rahakottide alamvõtmepaaride tuletamine toetub hierarhilisele struktuurile, mis võimaldab genereerida suure hulga võtmeid, samal ajal korraldades neid paare erinevatesse rühmadesse harude kaudu. Iga vanemapaarist tuletatud alampaari saab kasutada otse _scriptPubKey_'s, et lukustada bitcoine, või kui lähtepunkti rohkemate alamvõtmete genereerimiseks, ja nii edasi, luues võtmete puu.
 
 Kõik need tuletised algavad peamise võtme ja peamise ahela koodiga, mis on esimesed vanemad sügavuse tasemel 0. Nad on omamoodi teie rahakoti võtmete Aadam ja Eeva, kõigi tuletatud võtmete ühised esivanemad.
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 Uurime, kuidas see deterministlik tuletamine töötab.
 
@@ -1494,7 +1556,7 @@ Iga lapse võtme tuletamine põhineb HMAC-SHA512 funktsioonil, millest rääkisi
 
 Kõigis meie arvutustes tähistab $\text{hash}$ HMAC-SHA512 funktsiooni väljundit.
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 #### Lapse privaatvõtme tuletamine vanema privaatvõtmest
 
@@ -1549,7 +1611,7 @@ $$
 
 Siin on skeemiline esitus kogu tuletusprotsessist:
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 **Tugevdatud lapse võtme** ($i \geq 2^{31}$) puhul on $\text{hash}$ arvutamine järgmine:
 
@@ -1597,7 +1659,7 @@ $$
 
 Siin on skeemiline esitus kogu tuletusprotsessist:
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 Näeme, et tavaline tuletamine ja tugevdatud tuletamine toimivad samal viisil, selle erinevusega: tavaline tuletamine kasutab HMAC funktsiooni sisendina vanema avalikku võtit, samal ajal kui tugevdatud tuletamine kasutab vanema privaatvõtit.
 
@@ -1654,7 +1716,7 @@ $$
 
 Siin on üldise tuletamise skeemiline esitus:
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 ### Vastavus lapse avalike ja privaatvõtmete vahel
 
@@ -1686,6 +1748,8 @@ Kokkuvõtteks, seni olete õppinud looma HD rahakoti põhielemente: mnemoonilist
 ## Rahakoti Struktuur ja Tuletamisteed
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
+
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
 
 HD rahakottide hierarhiline struktuur Bitcoinis võimaldab võtmepaaride organiseerimist mitmel viisil. Idee on tuletada peamisest privaatvõtmest ja peamisest ahelakoodist mitu sügavuse taset. Iga lisatud tase vastab lapse võtmepaari tuletamisele vanema võtmepaarist.
 
@@ -1730,7 +1794,7 @@ Sügavusel 3 määratletud iga konto struktureeritakse seejärel kahte ahelasse:
 
 **Sügavus 5: Aadressi Indeks (BIP32)**
 Lõpuks, sügavus 5 esindab rahakoti tuletamise viimast sammu. Kuigi tehniliselt on võimalik jätkata lõputult, peatuvad praegused standardid siin. Selles viimases sügavuses tuletatakse võtmepaarid, mida tegelikult kasutatakse UTXO-de lukustamiseks ja avamiseks. Iga indeks võimaldab eristada üksteisest võtmepaare: seega esimene vastuvõttev aadress kasutab indeksit $/0/$, teine indeksit $/1/$ ja nii edasi.
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 ### Tuletamisteede Notatsioon
 
@@ -1779,6 +1843,9 @@ Järgmises peatükis avastame, mis on "_väljundskripti kirjeldajad_" (output sc
 ## Väljundskripti kirjeldajad
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
+
 Teile on sageli öeldud, et mnemooniline fraas üksi on piisav, et taastada juurdepääs rahakotile. Tegelikkuses on asjad natuke keerulisemad. Eelmises peatükis vaatasime HD rahakoti tuletusstruktuuri ja võisite märgata, et see protsess on üsna keeruline. Tuletusteed ütlevad tarkvarale, millist suunda järgida kasutaja võtmete tuletamiseks. Kuid Bitcoin'i rahakoti taastamisel, kui neid teid ei teata, ei piisa ainult mnemoonilisest fraasist. See võimaldab saada peavõtme ja peamise ahelakoodi, kuid siis on vajalik teada indekseid, et jõuda lastevõtmeteni.
 
 Teoreetiliselt oleks vajalik salvestada mitte ainult meie rahakoti mnemooniline fraas, vaid ka kontodele, mida kasutame, viivad teed. Praktikas on sageli võimalik lastevõtmetele juurdepääs taastada ilma selle teabeta, eeldusel, et on järgitud standardeid. Testides iga standardit ükshaaval, on üldiselt võimalik bitcoine'idele juurdepääs taastada. Siiski ei ole see garanteeritud ja eriti keeruline algajatele. Lisaks, skriptitüüpide mitmekesistumise ja keerukamate konfiguratsioonide ilmnemisega võib see teave muutuda raskesti ekstrapoleeritavaks, muutes selle andmed privaatseks teabeks ja raskesti taastatavaks jõuga. Seetõttu on hiljuti tutvustatud uuendust, mis hakkab olema integreeritud teie lemmik rahakott tarkvarasse: _väljundskripti kirjeldajad_.
@@ -1824,29 +1891,33 @@ Nüüd teate kõike HD rahakoti toimimisest Bitcoinis ja võtmepaaride tuletamis
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 Vastuvõtu aadressid on teabe killud, mis on sisestatud _scriptPubKey_'sse, et lukustada äsja loodud UTXOsid. Lihtsalt öeldes on aadress mõeldud bitcoinide vastuvõtmiseks. Uurime nende toimimist seoses sellega, mida oleme eelmistes peatükkides õppinud.
 
 ### Bitcoinide Aadresside Roll Skriptides
 
 Nagu varem selgitatud, on tehingu eesmärk üle kanda bitcoinide omandiõigus sisenditest väljunditesse. See protsess hõlmab UTXOde tarbimist sisenditena, luues samal ajal uusi UTXOsid väljunditena. Neid UTXOsid kaitsevad skriptid, mis määratlevad vajalikud tingimused vahendite vabastamiseks.
 Kui kasutaja saab bitcoine, loob saatja väljundi UTXO ja lukustab selle _scriptPubKey_ abil. See skript sisaldab tavaliselt reegleid, mis täpsustavad allkirju ja avalikke võtmeid, mis on vajalikud selle UTXO avamiseks. Selle UTXO kulutamiseks uues tehingus peab kasutaja esitama nõutud teabe _scriptSig_ kaudu. _scriptSig_ täitmine koos _scriptPubKey_-ga peab tagastama "true" või `1`. Kui see tingimus on täidetud, saab UTXO kulutada uue UTXO loomiseks, mis omakorda lukustatakse uue _scriptPubKey_-ga, ja nii edasi.
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 Täpselt _scriptPubKey_-s leitakse vastuvõtvad aadressid. Siiski, nende kasutamine varieerub sõltuvalt kasutatavast skripti standardist. Siin on kokkuvõttev tabel teabest, mis sisaldub _scriptPubKey_-s vastavalt kasutatud standardile, samuti teabest, mida oodatakse _scriptSig_-s, et avada _scriptPubKey_.
 
-| Standard           | _scriptPubKey_                                              | _scriptSig_                     | _redeem script_  | _witness_                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ---------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                  |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                  |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Suvalised andmed |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                  | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                  | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>` | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>` | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                  | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                  | `<data pushes> <script> <control block>` |
 
-_Allikas: Bitcoin Core PR review club, 7. juuli 2021 - Gloria Zhao_
+
+| Standard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Suvalised andmed | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_Allikas: Bitcoin Core PR review klubi 7. juuli 2021 – Gloria Zhao_
 
 Skriptis kasutatavad operaatorid on mõeldud teabe manipuleerimiseks ja vajadusel selle võrdlemiseks või testimiseks. Võtame näiteks P2PKH skripti, mis on järgmine:
 
@@ -1865,33 +1936,33 @@ Antud näite skripti täitmine järgib seda protsessi:
 
 - Meil on _scriptSig_, _ScriptPubKey_ ja stack:
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 - _scriptSig_ lükatakse stackile:
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 - `OP_DUP` dubleerib stackil oleva _scriptSig_-is esitatud avaliku võtme:
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 - `OP_HASH160` tagastab just dubleeritud avaliku võtme räsi:
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 - `OP_PUSHBYTES_20 <pubKeyHash>` lükkab _scriptPubKey_-is sisalduva Bitcoini aadressi stackile:
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 - `OP_EQUALVERIFY` kontrollib, kas räsitud avalik võti vastab esitatud saaja aadressile:
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 `OP_CHECKSIG` kontrollib _scriptSig_-is sisalduvat allkirja kasutades avalikku võtit. See operatsioonikood teostab põhimõtteliselt allkirja kontrollimist, nagu kirjeldasime selle koolituse 3. osas:
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 - Kui stackil jääb alles `1`, siis on skript kehtiv:
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 Kokkuvõtteks, see skript võimaldab digitaalse allkirja abil kontrollida, et kasutaja, kes väidab end olevat selle UTXO omanik ja soovib seda kulutada, tõepoolest omab saaja aadressiga seotud privaatvõtit, mida kasutati selle UTXO loomisel.
 
@@ -1933,7 +2004,7 @@ Tehniliselt lukustab P2TR skript bitcoine unikaalse Schnorri avaliku võtmega, m
 
 P2TR pakub suurt paindlikkust, kuna see võimaldab bitcoine lukustada kas unikaalse avaliku võtmega, mitme valitud skriptiga või mõlemaga korraga. Selle Merkle puu struktuuri eelis on see, et tehingu ajal paljastatakse ainult kasutatud kulutamise skript, kuid kõik teised alternatiivsed skriptid jäävad saladuseks.
 
-![CYP201](assets/fr/063.webp)
+![CYP201](assets/en/068.webp)
 
 P2TR vastab versiooni 1 SegWit väljunditele, mis tähendab, et P2TR sisendite allkirjad salvestatakse tehingu _Witness_ sektsiooni, mitte _scriptSig_-i. P2TR aadressid kasutavad _bech32m_ kodeeringut ja algavad `bc1p`-ga, kuid need on üsna unikaalsed, kuna nende konstrueerimiseks ei kasutata räsi funktsiooni. Tegelikult esindavad nad otse avalikku võtit $Q$, mis on lihtsalt vormindatud metateabega. Seega on see skripti mudel lähedane P2PK-le.
 
@@ -1942,6 +2013,8 @@ Nüüd, kui oleme teooria läbi käinud, liigume praktika juurde! Järgmises pea
 ## Aadressi Tuletamine
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 Uurime koos, kuidas genereerida vastuvõtu aadress võtmepaarist, mis asub näiteks HD rahakoti sügavusel 5. Seda aadressi saab seejärel kasutada rahakotitarkvaras UTXO lukustamiseks.
 
@@ -1957,7 +2030,7 @@ Bitcoinis on avalik võti punkt $K$, mis asub elliptilisel kõveral. See on esit
 
 Siiski, elliptilistel kõveratel on sümmeetriaomadus x-telje suhtes: antud $x$ koordinaadi jaoks on $y$ jaoks võimalikud ainult kaks väärtust: $y$ ja $-y$. Need kaks punkti asuvad x-telje mõlemal küljel. Teisisõnu, kui me teame $x$, piisab sellest, kui määrata, kas $y$ on paaris või paaritu, et tuvastada täpne punkt kõveral.
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 
 Avaliku võtme kokkusurumiseks kodeeritakse ainult $x$, mis hõivab 256 bitti, ja lisatakse prefiks, et määrata $y$ paarsus. See meetod vähendab avaliku võtme suurust 264 bitini algse 520 asemel. Prefiks `0x02` näitab, et $y$ on paaris, ja prefiks `0x03` näitab, et $y$ on paaritu.
 Vaatame näidet, et paremini aru saada, kasutades toorest avalikku võtit kokkusurumata esituses:
@@ -2151,7 +2224,7 @@ Selle _bech32_ tähestiku eripära on see, et see sisaldab kõiki tähestiku ja 
 
 Kokkuvõtteks, siin on tuletusprotsess:
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 Nii tuletatakse P2WPKH (SegWit v0) vastuvõtu aadress võtmepaarist. Liikugem nüüd edasi P2TR (SegWit v1 / Taproot) aadresside juurde ja uurigem nende genereerimise protsessi.
 
@@ -2235,7 +2308,7 @@ Haru räsi \(\text{h}_{\text{branch}}\) arvutatakse kui märgistatud räsi funkt
 
 Seejärel jätkame tulemuste kaupa kaupa ühendamist, lastes need igal sammul läbi märgistatud räsi funktsiooni `TapBranch`, kuni saame Merkle'i puu juure:
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 Kui Merkle'i juur $h_{\text{root}}$ on arvutatud, saame arvutada tweak'i. Selleks ühendame rahakoti sisemise avaliku võtme $P$ juurega $h_{\text{root}}$ ja viime tulemuse läbi märgistatud räsifunktsiooni `TapTweak`:
 

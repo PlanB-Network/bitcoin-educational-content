@@ -7,10 +7,10 @@ description: Postavljanje vašeg Muun Wallet
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) je samostalni skrbnički Wallet za Bitcoin i lightning.
+[Muun](https://muun.com/) je samostalni novčanik za bitcoin i lightning.
 
 
-## video tutorijal
+## Video vodič
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
@@ -19,7 +19,7 @@ Muun (https://muun.com/) je samostalni skrbnički Wallet za Bitcoin i lightning.
 ## Muun Wallet - Complete User Guide
 
 
-Kompletan korisnički vodič (sa snimcima ekrana) za aplikaciju Muun; korisnički prijatnu mobilnu Bitcoin Wallet koja vam omogućava transakcije na Lightning Network.
+Potpuni korisnički vodič (sa snimcima ekrana) za Muun aplikaciju; korisnički prijatan mobilni Bitcoin novčanik koji vam omogućava transakcije na Lightning mreži.
 
 
 ![image](assets/0.5.webp)
@@ -182,19 +182,19 @@ Ovde je prevod uputstava:
 Ova hitna procedura će vam pomoći da povratite svoja sredstva ako ne možete koristiti Muun na svom uređaju.
 
 
-1. Pronađite svoj kod za oporavak
+- Pronađite svoj kod za oporavak
 
 
 Napisali ste ovaj kod na papiru pre nego što ste napravili svoj komplet za hitne slučajeve. Trebaće vam kasnije.
 
 
-2. Preuzmite alat za oporavak
+- Preuzmite alat za oporavak
 
 
 Idite na stranicu https://github.com/muun/recovery i preuzmite alat na svoj računar.
 
 
-3. Povratite svoja sredstva
+- Oporavite svoja sredstva
 
 
 Pokrenite alatku za oporavak i pratite korake. Alatka će preneti vaša sredstva na Bitcoin Address po vašem izboru.

@@ -1,5 +1,5 @@
 ---
-name: Sint IP-skanner
+name: Angry IP Scanner
 description: En enkel måte å skanne nettverket ditt på
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten
+*Denne opplæringen er basert på originalt innhold av Florian BURNEL publisert på [IT-Connect](https://www.it-connect.fr/). Lisens [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Det kan ha blitt gjort endringer i den opprinnelige teksten.*
 
 
 
@@ -26,7 +26,7 @@ Hvordan skanner du raskt og enkelt et Windows-nettverk etter tilkoblede maskiner
 
 
 
-Dette verktøyet kan brukes av privatpersoner til å **skanne det lokale nettverket**, men også av IT-profesjonelle til samme formål. Et bevis på at **dette verktøyet er veldig praktisk**, er at det allerede har blitt brukt av **noen nettkriminelle grupper** til å skanne bedriftsnettverk (på samme måte som Nmap). Et godt eksempel er [ransomware-gruppen RansomHub] (https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Det er fortsatt et godt stykke programvare, men som med andre nettverks- og sikkerhetsorienterte verktøy kan det misbrukes.
+Dette verktøyet kan brukes av privatpersoner til å **skanne det lokale nettverket**, men også av IT-profesjonelle til samme formål. Et bevis på at **dette verktøyet er veldig praktisk**, er at det allerede har blitt brukt av **noen nettkriminelle grupper** til å skanne bedriftsnettverk (på samme måte som Nmap). Et godt eksempel er [ransomware-gruppen RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Det er fortsatt et godt stykke programvare, men som med andre nettverks- og sikkerhetsorienterte verktøy kan det misbrukes.
 
 
 
@@ -42,7 +42,7 @@ Hvis du vil gå videre, kan du se veiledningen om Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Komme i gang med Angry IP Scanner
 
@@ -58,7 +58,7 @@ Du kan laste ned den nyeste versjonen av Angry IP Scanner fra programmets offisi
 
 
 
-- [Angry IP Scanner GitHub] (https://github.com/angryip/ipscan/releases/latest)
+- [Angry IP Scanner GitHub](https://github.com/angryip/ipscan/releases/latest)
 
 
 
@@ -84,8 +84,8 @@ Ved første gangs oppstart bør du ta deg tid til å lese instruksjonene i vindu
 
 
 
-- Feeder**: Modul som genererer lister over IP-adresser som skal skannes, fra et tilfeldig IP-område eller en fil med en liste over IP-adresser.
-- Fetcher**: et sett med moduler for å hente informasjon om verter i nettverket. Det finnes for eksempel hentere for å finne MAC-adresser, skanne porter, finne vertsnavn eller sende HTTP-forespørsler.
+- **Feeder**: Modul som genererer lister over IP-adresser som skal skannes, fra et tilfeldig IP-område eller en fil med en liste over IP-adresser.
+- **Fetcher**: et sett med moduler for å hente informasjon om verter i nettverket. Det finnes for eksempel hentere for å finne MAC-adresser, skanne porter, finne vertsnavn eller sende HTTP-forespørsler.
 
 
 
@@ -101,7 +101,7 @@ For å skanne et IP-undernett skriver du ganske enkelt inn **start IP Address** 
 
 
 
-Noen titalls sekunder senere vil resultatet være synlig i programvarens Interface. **For hver IP Address i det analyserte området ser du om Angry IP Scanner har oppdaget en host eller ikke, og det vises også et sammendrag på skjermen som angir antall aktive hosts (i dette tilfellet 6) og antall hosts med åpne porter.
+Noen titalls sekunder senere vil resultatet være synlig i programvarens Interface. **For hver IP Address i det analyserte området ser du om Angry IP Scanner har oppdaget en host eller ikke, og det vises også et sammendrag på skjermen som angir antall aktive hosts (i dette tilfellet 6) og antall hosts med åpne porter.**
 
 
 
@@ -181,4 +181,4 @@ Hvis du ønsker å bruke **Nmap** med en grafisk Interface, kan du bruke **Zenma
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

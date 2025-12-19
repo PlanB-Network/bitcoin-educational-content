@@ -1,10 +1,10 @@
 ---
-name: Wallet van Satoshi
+name: Wallet of Satoshi
 description: De eenvoudigste Wallet om mee te beginnen
 ---
 ![cover](assets/cover.webp)
 
-deze handleiding is geschreven door_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+deze handleiding is geschreven door_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Wallet van Satoshi downloaden, instellen en gebruiken
@@ -12,7 +12,7 @@ deze handleiding is geschreven door_ [Bitcoin Campus] (https://linktr.ee/bitcoin
 
 Wallet of Satoshi is een Lightning Network Wallet, bewarend en zeer eenvoudig te gebruiken.
 
-In het kader van de cursus [BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wordt het gebruikt voor Redeem Lightning Network vouchers.
+In het kader van de cursus [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wordt het gebruikt voor Redeem Lightning Network vouchers.
 
 
 **Onthoud altijd**: _niet je sleutels, niet je munten_
@@ -79,8 +79,8 @@ Wallet van Satoshi heeft een bericht verzonden naar de aangegeven e-mail inbox.
 In de mailbox vinden we twee woorden die we, herschreven, moeten invoeren in de ruimte die de app biedt.
 
 
-- activeer de vertaler niet: de woorden zijn en moeten in het Engels blijven**
-- herschrijf de twee woorden met aandacht voor hoofdletters/kleine letters**
+- activeer de vertaler niet: de woorden zijn en moeten in het Engels blijven
+- herschrijf de twee woorden met aandacht voor hoofdletters/kleine letters
 
 
 ![image](assets/it/10.webp)

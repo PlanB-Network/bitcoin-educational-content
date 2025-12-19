@@ -1,0 +1,8 @@
+question: Se il meccanismo di aggiustamento della difficoltà di Bitcoin incontra uno scenario in cui i precedenti blocchi del 2016 hanno richiesto esattamente 6 settimane per essere estratti invece delle 2 settimane previste, quale fattore di aggiustamento verrebbe applicato?
+answer: La difficoltà verrebbe ridotta di un fattore 4 (riduzione massima consentita)
+wrong_answers:
+  - La difficoltà si ridurrebbe di un fattore 3 (6 settimane ÷ 2 settimane)
+  - La difficoltà verrebbe ridotta di un fattore 2,5 per evitare una correzione eccessiva
+  - La difficoltà si ridurrebbe di un fattore 6 in base al rapporto di tempo
+explanation: |
+  L'aggiustamento della difficoltà di Bitcoin ha dei limiti incorporati che limitano le modifiche a un fattore di quattro in entrambe le direzioni. Anche se 6 settimane ÷ 2 settimane = 3, il che suggerisce una riduzione di 3 volte, il protocollo limita gli aggiustamenti a 4 volte per evitare una volatilità estrema. Questo meccanismo di sicurezza garantisce la stabilità della rete durante i grandi cambiamenti del tasso di hash, come i divieti del mining o i guasti alle apparecchiature, impedendo una correzione eccessiva che potrebbe destabilizzare la tempistica dei blocchi.

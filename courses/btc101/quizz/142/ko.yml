@@ -1,0 +1,10 @@
+question: Lightning Network이란 무엇인가요?
+answer: Bitcoin Blockchain을 기반으로 하는 인스턴트 Bitcoin 결제 네트워크입니다.
+wrong_answers:
+  - Bitcoin Blockchain과 별도의 Blockchain 네트워크입니다.
+  - Bitcoin 채굴자 네트워크.
+  - Bitcoin 거래소 네트워크.
+explanation: |
+  Lightning Network은 즉석 Bitcoin 결제 네트워크입니다
+  gW-9 Blockchain을 기반으로 합니다.
+reviewed: true

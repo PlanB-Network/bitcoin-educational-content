@@ -11,4 +11,4 @@ man brukar skilja på "naturliga bysantinska fel" och "avsiktliga bysantinska fe
 Autentisering, signering och konsensus med hjälp av kryptografiska medel och BFT-algoritmer (Byzantine Fault Tolerant) bidrar till att minska dessa problem.
 
 
-> ► *Byzantine failure hänvisar till problemet med de bysantinska generalerna, en metafor som handlar om ifrågasättandet av tillförlitligheten i överföringar och de inblandade parternas integritet
+> ► *Byzantine failure hänvisar till problemet med de bysantinska generalerna, en metafor som handlar om ifrågasättandet av tillförlitligheten i överföringar och de inblandade parternas integritet*

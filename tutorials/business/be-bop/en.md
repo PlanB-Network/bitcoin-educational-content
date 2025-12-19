@@ -47,10 +47,10 @@ You will need to configure a bucket and provide the following information:
 
 
 
-- S3_BUCKET**: bucket name
-- S3_ENDPOINT_URL**: access link to your S3 service
-- S3_KEY_ID** and S3_KEY_SECRET: your access codes
-- S3_REGION**: the region of your S3 service
+- **S3_BUCKET**: bucket name
+- **S3_ENDPOINT_URL**: access link to your S3 service
+- **S3_KEY_ID** and **S3_KEY_SECRET**: your access codes
+- **S3_REGION**: the region of your S3 service
 
 
 ### MongoDB database in ReplicaSet mode
@@ -71,8 +71,8 @@ You will need the following variables:
 
 
 
-- MONGODB_URL**: database connection address
-- MONGODB_DB**: database name
+- **MONGODB_URL**: database connection address
+- **MONGODB_DB**: database name
 
 
 ## Node.js environment
@@ -359,8 +359,8 @@ The **Top Bar** configuration lets you personalize your software's visual identi
 
 
 - In the `Brand name` field, enter the name of your company, organization or product. This name will appear at the top of the Interface and will represent your main visual identity.
-- Indicate the website title**: the title chosen should summarize the purpose of the platform. This title can appear in the header or in the browser tab.
-- Add Website description**: this is where you enter a brief description of your initiative. This description helps contextualize the tool for users and can also be used for SEO purposes.
+- **Indicate the website title**: the title chosen should summarize the purpose of the platform. This title can appear in the header or in the browser tab.
+- **Add Website description**: this is where you enter a brief description of your initiative. This description helps contextualize the tool for users and can also be used for SEO purposes.
 
 
 Once this information has been entered, the **Top Bar** will display a clear, professional and coherent presentation of your solution.
@@ -376,10 +376,10 @@ The Top Bar's `Links` section lets you add shortcuts to important pages in your 
 
 
 
-- Enter link name (Text)**: in the `Text` field, enter the name or label of the link as it will appear (e.g. Home, Contact, Help...).
-- Indicate link address (Url)**: in the `Url` field, enter the full address of the target page (internal or external).
-- Add other links if necessary**: each configuration line lets you add an additional link using the `Text` and `Url` fields.
-- Save links**: once all links have been entered, click on the "Add top bar link" button to save them.
+- **Enter link name (Text)**: in the `Text` field, enter the name or label of the link as it will appear (e.g. Home, Contact, Help...).
+- **Indicate link address (Url)**: in the `Url` field, enter the full address of the target page (internal or external).
+- **Add other links if necessary**: each configuration line lets you add an additional link using the `Text` and `Url` fields.
+- **Save links**: once all links have been entered, click on the "Add top bar link" button to save them.
 
 
 This configuration allows you to offer clear, fluid and accessible navigation through the different sections of your website or to complementary resources.
@@ -395,10 +395,10 @@ The **Navbar** section lets you configure your be-BOP's main navigation menu, us
 
 
 
-- Enter link name (`Text`)**: on the configuration line, start by filling in the `Text` field. This corresponds to the name of the link displayed in the navigation bar (examples: *Dashboard*, *Users*, *Settings*...).
-- Enter the link address (`Url`)**: next to the `Text` field, you'll find the `Url` field. In this field, enter the address of the page to which the link should redirect. This can be an internal route or a link to an external page.
-- Add multiple links if required**: below the first line, new `Text` and `Url` fields are available for adding as many links as required. Each line represents an additional navigation link.
-- Save links**: once you've entered all the elements, click on the `Add nav bar link` button to save and display the results in the navigation bar.
+- Enter link name (`Text`): on the configuration line, start by filling in the `Text` field. This corresponds to the name of the link displayed in the navigation bar (examples: *Dashboard*, *Users*, *Settings*...).
+- Enter the link address (`Url`): next to the `Text` field, you'll find the `Url` field. In this field, enter the address of the page to which the link should redirect. This can be an internal route or a link to an external page.
+- **Add multiple links if required**: below the first line, new `Text` and `Url` fields are available for adding as many links as required. Each line represents an additional navigation link.
+- **Save links**: once you've entered all the elements, click on the `Add nav bar link` button to save and display the results in the navigation bar.
 
 
 This configuration allows efficient structuring of access to different parts of the software, improving ergonomics and the user experience.
@@ -414,11 +414,11 @@ The **Footer** section lets you customize the footer of your software, adding us
 
 
 
-- Enable display of the "Powered by be-BOP "** label: activate the `Display Powered by be-BOP` button to display this label in the footer.
-- Enter the name of the link (`Text`)**: fill in the `Text` field, which corresponds to the wording of the link in the footer (examples: *Terms*, *Privacy*, *Contact*...).
-- Indicate link address (`Url`)**: in the `Url` field, enter the address of the target page (internal or external).
-- Add more links if required**: use the additional lines to create as many links as you like.
-- Save links**: click on the "Add footer link" button to save links.
+- Enable display of the "Powered by be-BOP" label: activate the `Display Powered by be-BOP` button to display this label in the footer.
+- Enter the name of the link (**Text**): fill in the **Text** field, which corresponds to the wording of the link in the footer (examples: *Terms*, *Privacy*, *Contact*...).
+- Indicate link address (`Url`): in the `Url` field, enter the address of the target page (internal or external).
+- **Add more links if required**: use the additional lines to create as many links as you like.
+- **Save links**: click on the "Add footer link" button to save links.
 
 
 ![footer](assets/fr/016.webp)
@@ -485,37 +485,37 @@ Accessible via `Admin > Identity` (or `Settings > Identity`), this section lets 
 
 
 
-- Business name**: official company name.
-- Business ID**: legal identifier or registration number (RCCM, SIRET...).
+- **Business name**: official company name.
+- **Business ID**: legal identifier or registration number (RCCM, SIRET...).
 
 
 #### Business address
 
 
 
-- Street**: postal address (street, number...).
-- Country**: country.
-- State**: province or region.
-- City**: city.
-- ZIP code**: postal code.
+- **Street**: postal address (street, number...).
+- **Country**: country.
+- **State**: province or region.
+- **City**: city.
+- **ZIP code**: postal code.
 
 
 #### Contact information
 
 
 
-- Email**: professional email address.
-- Phone**: company phone number.
+- **Email**: professional email address.
+- **Phone**: company phone number.
 
 
 #### Bank account
 
 
 
-- Account holder name**: name of the account holder.
-- Account holder Address**: holder's address.
-- IBAN**: International Bank Account Number.
-- BIC**: SWIFT/BIC code.
+- **Account holder name**: name of the account holder.
+- **Account holder Address**: holder's address.
+- **IBAN**: International Bank Account Number.
+- **BIC**: SWIFT/BIC code.
 
 
 ![bank-account](assets/fr/019.webp)
@@ -526,7 +526,7 @@ Accessible via `Admin > Identity` (or `Settings > Identity`), this section lets 
 
 
 - Click on `Fill with main shop informations` to pre-fill the data.
-- Very-top-right issuer information**: field for legal/tax information visible on invoices.
+- **Very-top-right issuer information**: field for legal/tax information visible on invoices.
 - Click `Update` to save changes.
 
 
@@ -561,9 +561,9 @@ Go to `Admin > Merch > Products` to add or modify a product. Fill in the followi
 
 
 
-- Product Name**: name of the product (e.g. *BOP T-shirt limited edition*).
-- Slug**: URL identifier without spaces (e.g. `tshirt-bop-edition-limitee`).
-- Alias** *(optional)*: useful for quick addition to the basket via a dedicated field.
+- **Product Name**: name of the product (e.g. *BOP T-shirt limited edition*).
+- **Slug**: URL identifier without spaces (e.g. `tshirt-bop-edition-limitee`).
+- **Alias** *(optional)*: useful for quick addition to the basket via a dedicated field.
 
 
 ![product-config](assets/fr/028.webp)
@@ -573,9 +573,9 @@ Go to `Admin > Merch > Products` to add or modify a product. Fill in the followi
 
 
 
-- Price Amount**: product price (e.g. `25.00`).
-- Price Currency**: currency (EUR, USD, BTC, etc.).
-- Special products**:
+- **Price Amount**: product price (e.g. `25.00`).
+- **Price Currency**: currency (EUR, USD, BTC, etc.).
+- **Special products**:
   - this is a free product.
   - this is a pay-what-you-want product.
 
@@ -584,14 +584,14 @@ Go to `Admin > Merch > Products` to add or modify a product. Fill in the followi
 
 
 
-- Single product (`standalone`)**: only one addition possible per order (e.g. donation, admission ticket).
-- Product with variations**:
+- **Single product (`standalone`)**: only one addition possible per order (e.g. donation, admission ticket).
+- **Product with variations**:
   - Don't check `Standalone`.
   - Check `Product has light variations (no stock difference)`.
   - Add:
-    - Name** (e.g. *Size*),
-    - Values** (e.g.: S, M, L, XL),
-    - Price differences** if applicable (e.g.: `+2 USD` for XL).
+- **Name** (e.g. *Size*),
+- **Values** (e.g.: S, M, L, XL),
+- **Price differences** if applicable (e.g.: `+2 USD` for XL).
 
 
 ![product-details](assets/fr/029.webp)
@@ -613,8 +613,8 @@ The system manages:
 
 
 
-- Reserved stock** → products in baskets not yet paid for
-- Stock sold** → products already purchased
+- **Reserved stock** → products in baskets not yet paid for
+- **Stock sold** → products already purchased
 
 
 **Basket reservation time**: When a customer adds a product to his basket, it is "reserved" for a limited time. You can modify this time in: `Admin > Config > Cart reservation` (value in minutes)
@@ -630,8 +630,8 @@ Check `The product has a physical component that will be shipped to the customer
 
 
 
-- Ticket**: tick if the product is a ticket for an event
-- Booking**: check if this is a reservation slot (e.g.: session, appointment)
+- **Ticket**: tick if the product is a ticket for an event
+- **Booking**: check if this is a reservation slot (e.g.: session, appointment)
 
 
 ![product-options](assets/fr/030.webp)
@@ -682,7 +682,7 @@ You can add other pages as required:
 - etc.
 
 
-**Tip: Click on each link or icon to modify the **content**, **title**, or **seo visibility** of each page.
+**Tip: Click on each link or icon to modify the content, title, or seo visibility of each page.**
 
 
 ### Layout and graphic elements
@@ -745,7 +745,7 @@ Also modifiable in `Pictures`, it allows you to display a **summary or slogan** 
 ### Integrating widgets into CMS pages
 
 
-Widgets** enrich your CMS pages with dynamic or visual elements.
+**Widgets** enrich your CMS pages with dynamic or visual elements.
 
 
 #### Widget creation
@@ -758,14 +758,14 @@ Examples of available widgets:
 
 
 
-- Challenges**: challenges or missions
-- Tags**: categories or keywords
-- Sliders**: image carousels
-- Specifications**: Specifications tables
-- Forms**: forms (contact, feedback, etc.)
-- Countdowns**: timers
-- Galleries**: image galleries
-- Leaderboards**: user rankings
+- **Challenges**: challenges or missions
+- **Tags**: categories or keywords
+- **Sliders**: image carousels
+- **Specifications**: Specifications tables
+- **Forms**: forms (contact, feedback, etc.)
+- **Countdowns**: timers
+- **Galleries**: image galleries
+- **Leaderboards**: user rankings
 
 
 ![widgets](assets/fr/033.webp)
@@ -886,9 +886,9 @@ The reports are divided into sections:
 
 
 
-- Order Detail**: number of orders, status (confirmed, cancelled, pending), evolution
-- Product Detail**: products sold, quantities, popular products
-- Payment Detail**: amounts collected, breakdown by payment method
+- **Order Detail**: number of orders, status (confirmed, cancelled, pending), evolution
+- **Product Detail**: products sold, quantities, popular products
+- **Payment Detail**: amounts collected, breakdown by payment method
 
 
 #### Data export
@@ -993,9 +993,9 @@ When creating or modifying a theme, you can define:
 
 
 
-- Colors**: for buttons, backgrounds, text, links, etc.
-- Fonts**: choice of typefaces for titles, paragraphs, menus
-- Graphic styles**: borders, margins, spacing, block shapes
+- **Colors**: for buttons, backgrounds, text, links, etc.
+- **Fonts**: choice of typefaces for titles, paragraphs, menus
+- **Graphic styles**: borders, margins, spacing, block shapes
 
 
 ### Customizable sections
@@ -1005,9 +1005,9 @@ Each part of the site can be adjusted independently:
 
 
 
-- Header**: top navigation bar
-- Body**: main content
-- Footer**: bottom of page
+- **Header**: top navigation bar
+- **Body**: main content
+- **Footer**: bottom of page
 
 
 **Note:** this granularity ensures consistency between the site's visuals and your brand's identity.
@@ -1043,8 +1043,8 @@ Each email (order confirmation, forgotten password, etc.) has:
 
 
 
-- Subject**: the subject of the email (e.g. "Your order has been validated")
-- HTML Body**: HTML content displayed in the email
+- **Subject**: the subject of the email (e.g. "Your order has been validated")
+- **HTML Body**: HTML content displayed in the email
 
 
 **Note:** you can insert text, images, links, etc., as required.
@@ -1093,9 +1093,9 @@ Complete the following fields:
 
 
 
-- Tag Name**: tag name displayed
-- Slug**: unique identifier (no spaces or accents)
-- Tag Family**: groups tags by category
+- **Tag Name**: tag name displayed
+- **Slug**: unique identifier (no spaces or accents)
+- **Tag Family**: groups tags by category
 
 
 ![targsconfig](assets/fr/040.webp)
@@ -1120,9 +1120,9 @@ These fields can be used to enrich a tag as if it were a content page:
 
 - Title
 - Subtitle
-- Short** content
-- Full content** (in French)
-- CTAs** (action buttons)
+- **Short** content
+- **Full content** (in French)
+- **CTAs** (action buttons)
 
 
 ### Using tags
@@ -1150,8 +1150,8 @@ To offer downloadable documents to your customers: `Admin > Merch > Files`
 2. Inform:
 
 
-   - File name** (e.g. *Installation guide*)
-   - File to upload** (PDF, image, Word...)
+- **File name** (e.g. *Installation guide*)
+- **File to upload** (PDF, image, Word...)
 
 
 **Note:** once added, the platform automatically generates a **permanent link**.
@@ -1164,7 +1164,7 @@ This link can then be inserted into:
 
 
 
-- CMS** page (as text link or button)
+- **CMS** page (as text link or button)
 - A **e-mail client** (via a template)
 - A **product sheet** (e.g. manual download)
 
@@ -1236,9 +1236,9 @@ Translation files are in JSON. You can:
 
 
 
-- Download** language files
-- Modify** existing texts
-- Add** your own translations
+- Download **language files**
+- **Modify** existing texts
+- Add **your own translations**
 
 
 Link to original files:
@@ -1268,9 +1268,9 @@ Each role contains:
 
 
 
-- write access**: write access
-- read access**: read access
-- forbidden access**: sections interdites
+- **write access**: write access
+- **read access**: read access
+- **forbidden access**: sections interdites
 
 
 #### User creation
@@ -1292,7 +1292,7 @@ Assign a previously defined role.
 ![pos-users](assets/fr/045.webp)
 
 
-Read-only** users will see menus in *italic* and will not be able to modify content.
+**Read-only** users will see menus in *italic* and will not be able to modify content.
 
 
 ## Point of Sale (POS) configuration
@@ -1344,8 +1344,8 @@ Two advanced options are available:
 
 
 
-- VAT exemption**: applicable on justification (NGOs, foreigners...)
-- Gift discount**: exceptional discount with compulsory comment
+- **VAT exemption**: applicable on justification (NGOs, foreigners...)
+- **Gift discount**: exceptional discount with compulsory comment
 
 
 #### Client-side display

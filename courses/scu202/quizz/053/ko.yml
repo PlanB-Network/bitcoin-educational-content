@@ -1,0 +1,9 @@
+question: 사진을 업로드할 때 메타데이터를 자동으로 삭제하는 플랫폼은 무엇인가요?
+answer: 신호
+wrong_answers:
+  - Gmail
+  - Outlook
+  - 블로그
+explanation: |
+  Signal(세션 및 기타 보안 메시징 서비스와 마찬가지로)은 공유 이미지의 메타데이터를 정리하여 사용자의 개인정보를 보호합니다.
+reviewed: false

@@ -1,12 +1,13 @@
-question: Je, si maneno ya Mnemonic katika muktadha wa Bitcoin?
-answer: Nenosiri la Bitcoin Wallet yako.
+question: KYC inasimamia nini?
+answer: Mjue Mteja wako.
 wrong_answers:
-  - Orodha ya maneno 12 kutoka kwa kamusi maalum.
-  - Orodha ya maneno 24 kutoka kwa kamusi maalum.
-  - Siri ya kufikia mfuko wako wa Bitcoin.
+  - Weka Pesa Yako.
+  - Weka Misimbo Yako.
+  - Fahamu Uzingatiaji wa Mazao.
 explanation: |
-  Kifungu cha maneno cha Mnemonic katika muktadha wa Bitcoin ni orodha ya 12
-  au maneno 24 ambayo hukuruhusu kurejesha Wallet yako yoyote
-  Bitcoin Wallet maombi. Yeyote anayeweza kufikia orodha hii
-  cal pia fikia bitcoins zako.
+  KYC au Mjue Mteja Wako inarejelea utaratibu ambao
+  biashara kupitisha ili kuthibitisha utambulisho wa wateja wao.
+  Hii kawaida hufanywa ili kuhakikisha kufuata
+  kanuni na kuzuia shughuli haramu kama vile pesa
+  utapeli au udanganyifu.
 reviewed: true

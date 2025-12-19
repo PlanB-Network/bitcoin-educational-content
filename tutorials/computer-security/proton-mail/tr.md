@@ -1,5 +1,5 @@
 ---
-name: Proton Posta
+name: Proton Mail
 description: Güvenli bir posta kutusu kurma
 ---
 ![cover](assets/cover.webp)
@@ -90,7 +90,7 @@ Bir parola yöneticisi kullanmak mükemmel bir uygulamadır. Şifrelerinizi ezbe
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Daha fazla bilgi için 2FA uygulamasının nasıl kullanılacağına ilişkin e�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 "*Dil ve saat*" sekmesinde Interface'nin dilini ve saat dilimini değiştirebilirsiniz.
 
@@ -306,7 +306,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-"Yönlendirme ve otomatik yanıt*" sekmesi, e-postalarınız için yönlendirme ve otomatik yanıtı yönetmenizi sağlar.
+"Yönlendirme ve otomatik yanıt" sekmesi, e-postalarınız için yönlendirme ve otomatik yanıtı yönetmenizi sağlar.
 
 
 

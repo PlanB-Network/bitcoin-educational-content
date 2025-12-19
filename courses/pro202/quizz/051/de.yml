@@ -1,0 +1,8 @@
+question: Aus welchen spezifischen Daten besteht in der P2P-Netznachrichtenstruktur von Bitcoin das 4-Byte-Prüfsummenfeld in jedem Nachrichtenumschlag?
+answer: Die ersten 4 Bytes des Hash256 der Nutzlast der Nachricht
+wrong_answers:
+  - Die ersten 4 Bytes des SHA256-Hashes des gesamten Nachrichtenumschlags
+  - Die ersten 4 Bytes des Hash256 des Befehlsfeldes, verkettet mit der Nutzlast
+  - Die ersten 4 Bytes des RIPEMD160-Hashes der Nutzlast der Nachricht
+explanation: |
+  Der P2P-Nachrichtenumschlag von Bitcoin verwendet einen speziellen Prüfsummenmechanismus, bei dem das 4-Byte-Prüfsummenfeld die ersten 4 Bytes des Hash256 enthält, der nur auf die Nutzdaten der Nachricht angewendet wird. Dies ermöglicht eine Integritätsprüfung der Nutzdaten während der Netzwerkübertragung. Die anderen Optionen sind falsch, da sie sich auf andere Hash-Funktionen (single SHA256, RIPEMD160) oder andere Eingabedaten (gesamter Umschlag, Befehl+Nutzdaten) beziehen als das, was Bitcoin in seinem Netzwerkprotokoll tatsächlich implementiert.

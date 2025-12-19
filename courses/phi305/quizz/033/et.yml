@@ -1,0 +1,9 @@
+question: Kas tulemuseks on struktuurne inflatsioon?
+answer: Raha suurenemine Supply.
+wrong_answers:
+  - Hinnatõusud
+  - Fiskaalpoliitika.
+  - Liberaalivastased meetmed.
+explanation: |
+  Struktuurne inflatsioon on raha Supply suurenemise tulemus. Kui ringluses oleva raha hulk suureneb kiiremini kui kaupade ja teenuste tootmine, toob see kaasa üldise hinnatõusu.
+reviewed: false

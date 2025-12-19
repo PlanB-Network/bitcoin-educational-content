@@ -1,78 +1,150 @@
 ---
-name: Breez ponto de vendas
-
-description: Guia para começar a aceitar bitcoin usando o Breez POS
+name: Breez - POS
+description: O Breez facilita a recolha de pagamentos em bitcoin para a sua empresa.
 ---
 
-![capa](assets/cover.webp)
+![cover](assets/cover.webp)
 
-_Este texto vem do site de documentação do Breez: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
-## O que é o Breez POS?
 
-**Breez** é um aplicativo completo e não custodial da Lightning. Vamos entender isso:
+Desde a pandemia de COVID-19, os pagamentos digitais sem contacto generalizaram-se, mesmo nas lojas mais pequenas. Durante este período, muitas empresas descobriram o carácter prático das soluções de bitcoin cash, que lhes permitem receber pagamentos de todo o mundo. No entanto, estas soluções são por vezes difíceis de utilizar ou pouco adaptadas às pequenas empresas. Neste tutorial, vamos analisar o terminal de pagamento Breez, uma solução que se destaca pela sua facilidade de utilização, ao mesmo tempo que lhe dá um controlo total sobre a gestão dos seus bitcoins.
 
-- **Lightning** é uma rede de pagamento de bitcoin que reduz o tempo de transação de minutos para milissegundos e as taxas de transação de vários dólares para alguns centavos ou menos. A Lightning transforma o bitcoin de ouro digital em moeda digital, preservando todos os benefícios que tornam o bitcoin ótimo.
-- **Não custodial** significa que o Breez não assume a posse do dinheiro dos usuários. Muitos aplicativos da Lightning assumem a posse do dinheiro de seus usuários. Eles são basicamente bancos de bitcoin. Com um aplicativo não custodial como o Breez, todos os usuários são seus próprios bancos.
-- **Completo** significa que o Breez cuida de quase todas as operações técnicas automaticamente e em segundo plano. Coisas como criação de canal, liquidez de entrada e roteamento permanecem ocultas. (Mas o Breez também é de código aberto, então aqueles interessados em auditar a tecnologia são bem-vindos a fazê-lo!)
 
-**Breez POS** é a abreviação do nosso modo de ponto de venda. Em outras palavras, o Breez funciona como uma caixa registradora digital para empresas e comerciantes que desejam aceitar pagamentos da Lightning (além de seu modo "padrão", que é como a versão digital de uma carteira de couro para bitcoin, e um player de podcast de próxima geração). Agora vamos ver como configurar o Breez como uma caixa registradora da Lightning para o seu negócio.
 
-## Como começar com o Breez?
+## Instalar o Breez POS
 
-1. O primeiro passo é baixar o aplicativo. Ele está disponível para Android e iOS (instale o TestFlight e clique no link do seu dispositivo).
-2. O Breez pode fazer backup automaticamente no Google Drive, iCloud ou em qualquer servidor WebDav.
-   > Observe que cada dispositivo executa seu próprio nó da Lightning. Você pode executar o modo POS em quantos dispositivos desejar, mas os saldos permanecerão separados.
-3. Com o aplicativo aberto, clique no ícone no canto superior esquerdo para encontrar o modo de Ponto de Venda.
 
-## Configurando o POS
 
-1. Clique nesse ícone no canto superior esquerdo e clique em Ponto de Venda > Configurações do POS.
+O Breez POS é um serviço de auto-custódia fornecido pelo Breez wallet. A utilidade deste serviço é permitir que os comerciantes recolham pagamentos através do Bitcoin, mantendo-se numa interface simples, muito semelhante às várias carteiras Lightning. O Breez POS está disponível nas plataformas de transferência [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) e [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
 
-### A Senha do Gerente
 
-Nas Configurações do POS, você tem a opção de criar uma senha do gerente. A senha do gerente torna impossível enviar pagamentos do aplicativo Breez sem autorização. A equipe de vendas só poderá receber pagamentos do dispositivo. Observe que, se você estiver usando essa opção, também poderá querer impedir o acesso ao backup do Breez, portanto, é recomendável usar uma conta externa do WebDav (por exemplo, Nextcloud) para esse caso de uso.
 
-### A Lista de Itens
+![download](assets/fr/01.webp)
 
-A lista de itens é um catálogo de itens à venda e seus preços. Existem duas maneiras de adicionar itens à lista:
 
-- Para inserir itens um de cada vez, clique em Itens perto do topo da visualização principal do POS e, em seguida, no sinal de "+" no canto inferior direito. Aqui você pode inserir o nome de um único tipo de item, o preço (exibido na moeda equivalente de sua escolha) e o SKU (um identificador interno exclusivo para esse tipo de item; é opcional).
-- Para inserir vários itens de uma vez, clique no ícone da calculadora no canto superior esquerdo, depois em Ponto de Venda > Preferências > Configurações do PDV e, em seguida, clique nos três pontos à direita da Lista de Itens e, depois, em Importar de CSV. Isso permitirá que você importe um arquivo CSV que você preparou antecipadamente contendo os nomes, preços e SKUs dos seus itens.
 
-### Tela de Moeda Fiat
+![setup](assets/fr/12.webp)
 
-O Breez envia e recebe apenas bitcoin e, para a maioria das transações no Lightning, que tendem a ser de quantias menores, a soma é geralmente exibida em Satoshis, também conhecidos como sats (1 BTC = 100.000.000 sats). No entanto, muitos comerciantes acham prático poder ver (e informar aos clientes) o valor da compra exibido na moeda fiat local.
 
-Na visualização principal do PDV, a moeda atualmente exibida é visível no lado direito (o padrão é SAT). Há também uma lista suspensa de outras moedas disponíveis para exibição. Para adicionar ou remover moedas desta lista suspensa, clique em Ponto de Venda > Preferências > Moedas Fiat. Em seguida, basta marcar as moedas que você gostaria de ter no seu menu suspenso e desmarcar aquelas que você gostaria de omitir.
 
-Os valores exibidos são provenientes do yadio, uma fonte respeitada de dados de taxa de câmbio, e são atualizados em tempo quase real. Mas lembre-se: independentemente do valor da moeda que está sendo exibido atualmente, o pagamento em si é em bitcoin.
+⚠️ É importante notar que estas aplicações ainda estão em desenvolvimento e que podem existir alguns erros na utilização das funcionalidades. Recomendamos uma utilização moderada.
 
-### Cobrando um Pedido
 
-Para compor o pedido, adicione itens da lista de itens ou simplesmente insira uma soma no teclado. Em seguida, clique em Cobrar no topo da visualização principal do PDV. Você verá um código QR que o cliente pode escanear com seu aplicativo Lightning, que você pode compartilhar diretamente de outro aplicativo em seu dispositivo ou que você pode copiar e colar onde for necessário.
 
-Ao escanear esse código ou clicar na fatura compartilhada/colada, o cliente verá a fatura em seu aplicativo Lightning e terá a opção de pagá-la e liquidar a transação imediatamente.
+Com esta aplicação, a Breez dá-lhe controlo total sobre as configurações de rede e definições de taxas, garantindo ao mesmo tempo a sua soberania na gestão dos seus bitcoins.
 
-Assim que você ver a animação Pagamento aprovado! no aplicativo Breez no dispositivo do comerciante, você pode clicar no ícone da impressora para gerar um recibo para o cliente. Para usar uma impressora de recibos no Android, tente usar este driver. Observe que você também pode imprimir transações anteriores por meio da tela de Transações.
 
-### Relatório de Vendas
 
-Para visualizar um relatório diário/semanal/mensal de suas vendas (para fins contábeis ou outros), clique no ícone no canto superior esquerdo e, em seguida, clique em Transações. Clique no ícone de Relatório para exibir o relatório e no ícone de Calendário para alterar o período de datas selecionado.
+Pode explorar as várias opções do Breez wallet seguindo o nosso tutorial abaixo. Este passo ajudá-lo-á a compreender melhor o ecossistema do ponto de venda e a adotar as melhores práticas para proteger eficazmente os bitcoins associados ao seu seed.
 
-### Exportando Transações
 
-Para visualizar uma lista dos pagamentos recebidos no Breez, clique no ícone no canto superior esquerdo e, em seguida, clique em Transações. Clique nos três pontos no canto superior direito e, em seguida, em Exportar para exportar uma lista de pagamentos recebidos no formato CSV. Para restringir a lista a um determinado período de tempo, clique no ícone do calendário para definir um intervalo de datas.
 
-### Imprimindo Recibos
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-Para imprimir um recibo de venda, clique no ícone de impressão no canto superior direito da caixa de diálogo de confirmação de pagamento. Alternativamente, clique no ícone no canto superior esquerdo e, em seguida, clique em Transações. Localize a venda a ser impressa, abra-a e clique no ícone de impressão no canto superior direito.
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-> Observação: use este driver para imprimir em uma impressora térmica portátil de 58mm/80mm Bluetooth/USB.
 
-## Quero aprender mais
+## Utilização do Breez POS
 
-- Para obter mais informações sobre o Lightning e o Breez, confira nosso [blog](https://breez.technology/blog).
-- Para obter mais dicas técnicas sobre como aproveitar ao máximo o aplicativo e realizar operações comuns, consulte nossa [documentação](https://breez.technology/documentation).
-- Se você ficar preso e não conseguir encontrar a resposta em nenhum de nossos materiais de ajuda, você pode nos encontrar no [Telegram](https://t.me/breez_labs) ou nos enviar um [email](mailto:support@breez.technology).
-- Se você quiser ver alguns vídeos de demonstração do modo Breez POS em ação feitos por nossos fãs e usuários, [aqui](https://www.youtube.com/watch?v=xxxx) está um ótimo vídeo curto, e [aqui](https://www.youtube.com/watch?v=xxxx) está um vídeo mais longo e detalhado.
+
+
+Neste tutorial, vamos centrar-nos na secção "*Ponto de venda*" para o ajudar a compreender como integrá-lo como meio de pagamento na sua empresa.
+
+
+
+O ponto de venda é uma parte integrante da carteira Breez e depende principalmente do Lightning Network para recolher os pagamentos.
+
+
+
+No menu "*Ponto de venda*", dispõe de uma interface direta para a cobrança de pagamentos. Está dividida em duas partes:
+
+
+
+### Débito direto
+
+
+
+A primeira parte é o teclado de débito direto. Esta interface é útil para cobrar um pagamento na totalidade quando conhece o total de compras dos seus clientes ou quando não necessita de um catálogo de produtos fixo na sua empresa (por exemplo, serviços freelance).
+
+
+
+![keyboard](assets/fr/02.webp)
+
+
+
+Para utilizar o POS Breez pela primeira vez, terá de receber um pagamento de mais de 2.500 satoshis (cerca de 3 euros à taxa de câmbio atual). Este montante, pago apenas no seu primeiro levantamento, representa o custo da criação de um canal de pagamento para que possa comunicar com outros nós Lightning Network e enviar e receber satoshis.
+
+
+
+![channel_fee](assets/fr/03.webp)
+
+
+### Catálogo de produtos
+
+
+
+A segunda parte é o catálogo de produtos. Esta interface é ideal quando se tem um catálogo de produtos com preços pré-definidos. Aqui pode pré-configurar os seus produtos e utilizá-los nas facturas generate para melhorar a rastreabilidade das suas receitas de caixa.
+
+
+
+![items](assets/fr/04.webp)
+
+
+
+Pode configurar manualmente cada item a partir desta interface, clicando no botão "**Mais**" e definindo o nome, o preço e um identificador para este item.
+
+
+
+![add_items](assets/fr/05.webp)
+
+
+
+Pode então adicioná-lo e definir a sua quantidade para cobrar o pagamento associado.
+
+
+
+Quando o seu catálogo é bastante grande, pode tornar-se complicado adicionar os seus produtos um a um. Para este efeito, na secção **Preferências > Definições do ponto de venda**, no menu "Lista de artigos", pode importar e exportar automaticamente a sua lista de artigos a partir de ficheiros CSV.
+
+
+
+![import](assets/fr/07.webp)
+
+
+
+Nesta mesma seção, você pode definir o período de validade de suas faturas do Lightning. A partir de agora, para todas as suas facturas, os seus clientes têm `N` segundos para efetuar o pagamento, caso contrário, terá de gerar novamente uma nova fatura Lightning.
+
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+
+Como gestor, pode reforçar a segurança das suas bitcoins adicionando uma palavra-passe que será necessária para todos os pagamentos efectuados a partir do seu wallet. Esta funcionalidade é particularmente útil quando não é o único a gerir o seu ponto de venda.
+
+
+
+![manager](assets/fr/09.webp)
+
+
+
+No menu **Transacções**, encontrará uma lista de todos os pagamentos que cobrou. Pode também filtrar os resultados por um período específico, clicando no botão **Calendário**.
+
+
+
+![transactions](assets/fr/10.webp)
+
+
+
+Pode também visualizar um resumo diário das suas vendas e o montante total cobrado clicando no botão **Documento**.
+
+
+
+![summary](assets/fr/11.webp)
+
+
+
+Agora tem uma noção completa do ponto de venda oferecido pela aplicação Breez para uma integração perfeita do Bitcoin no seu negócio. Se este tutorial lhe foi útil, recomendamos-lhe o nosso tutorial sobre o be-BOP, uma plataforma de comércio eletrónico que lhe permite aceitar pagamentos em bitcoins e rentabilizar o seu negócio.
+
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

@@ -1,9 +1,9 @@
-question: Tại sao nên chuyển tiền thường xuyên từ Hot Wallet sang Hardware Wallet?
+question: Tại sao nên chuyển tiền thường xuyên từ ví nóng sang ví lạnh?
 answer: Để giảm nguy cơ bị hack
 wrong_answers:
-  - Để tăng tính thanh khoản của Wallet
+  - Để tăng tính thanh khoản của ví
   - Để giảm phí giao dịch
   - Để tối ưu hóa quyền riêng tư của UTXO
 explanation: |
-  Việc chuyển sang Hardware Wallet sẽ bảo mật tiền bằng cách lưu trữ khóa riêng tư ngoại tuyến.
+  Việc chuyển sang ví lạnh sẽ bảo mật tiền bằng cách lưu trữ khóa riêng ngoại tuyến (offline).
 reviewed: false

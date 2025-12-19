@@ -1,10 +1,10 @@
-question: Apa yang ditunjukkan oleh ketiadaan frasa mnemonik dalam sebuah dompet?
-answer: Dompet tersebut tidak aman untuk penyimpanan jangka panjang
+question: Apa peran notaris dalam konteks warisan Bitcoin?
+answer: Untuk memastikan kepatuhan pajak
 wrong_answers:
-  - Dompet tersebut aman untuk penyimpanan jangka panjang
-  - Dompet tersebut tidak aman untuk penyimpanan jangka pendek
-  - Dompet tersebut tidak aman untuk pengeluaran
+  - Untuk mengelola bitcoin Anda setelah kematian Anda
+  - Untuk membuat rencana warisan Anda
+  - Untuk mengamankan bitcoin Anda
 explanation: |
-  Ketiadaan daftar 12 atau 24 kata, yaitu frasa mnemonik, dalam sebuah dompet harus membuat Anda sadar bahwa
-  dompet tersebut tidak aman karena tidak mengikuti prosedur cadangan standar.
-reviewed: true
+  Dalam konteks warisan Bitcoin, penting untuk mendiskusikan
+  warisan bitcoin dengan notaris untuk memastikan kepatuhan pajak.
+reviewed: false

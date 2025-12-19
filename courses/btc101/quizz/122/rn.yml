@@ -1,9 +1,8 @@
-question: Ni igiki cabaye ku rubuga rwa Bitcoin kuva mu 2009?
-answer: 99,988%.
+question: None Bitcoin Blockchain ni iki?
+answer: Ledger ya bose kandi idahinduka y’ibikorwa vyose vya Bitcoin.
 wrong_answers:
-  - 100%.
-  - 90,009%.
-  - 80,17%.
-explanation: |
-  Uguboneka kuri internet kwa Bitcoin ni 99.988% kuva mu 2009.
+  - Ledger y’ibanga kandi ihinduka y’ibikorwa vyose vya Bitcoin.
+  - Ledger ya bose kandi ihinduka y’ibikorwa vyose vya Bitcoin.
+  - Ledger y’ibanga kandi idahinduka y’ibikorwa vyose vya Bitcoin.
+explanation: >-
 reviewed: true

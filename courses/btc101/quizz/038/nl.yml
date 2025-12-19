@@ -1,12 +1,13 @@
-question: Wat is het maximale aantal Bitcoin eenheden dat ooit kan bestaan?
-answer: 21 miljoen.
+question: Wat is een belangrijk kenmerk van Bitcoin dat het onderscheidt van fiatvaluta's?
+answer: Het monetaire beleid wordt afgedwongen door een algemene consensus.
 wrong_answers:
-  - 3 biljoen.
-  - 100 miljoen.
-  - Er is geen limiet.
+  - Het kan in onbeperkte hoeveelheden worden gedrukt door centrale banken.
+  - Het wordt gedekt door een fysieke grondstof zoals goud of zilver.
+  - Het wordt gereguleerd door een centrale bank.
 explanation: |
-  De totale Supply van Bitcoin is gemaximeerd op 21 miljoen eenheden.
-  Dit is een belangrijk kenmerk van Bitcoin dat het onderscheidt
-  van fiduciaire valuta, die in onbeperkte hoeveelheden kunnen worden gedrukt door centrale banken
-  onbeperkte hoeveelheden gedrukt kunnen worden door centrale banken.
+  Vanwege de gedecentraliseerde en cryptografische aard,
+  Bitcoin kan niet vervalst worden en is beperkt tot 21 miljoen
+  eenheden. Dit is een belangrijk kenmerk dat het onderscheidt van
+  fiatvaluta's, die een monetair beleid volgen dat kan worden
+  kan worden veranderd door centrale banken.
 reviewed: true

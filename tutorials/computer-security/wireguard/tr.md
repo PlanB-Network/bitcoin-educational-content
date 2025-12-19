@@ -63,7 +63,7 @@ Bu girişi okuduktan sonra bu çözüme ikna oldunuz mu? Geriye kalan tek şey o
 
 
 
-WireGuard'ın kurulumuna ilişkin laboratuvarımı sunmadan önce, WireGuard'ı **iki uzak altyapıyı birbirine bağlamak için**, aynı zamanda **uzak bir istemciyi kurumsal ağ veya ev ağınız gibi bir altyapıya bağlamak için** kullanabileceğinizi bilmelisiniz. Bu, yakın zamanda "[Synology üzerinde OpenVPN] (https://www.it-connect.fr/tuto-vpn-configurer-openvpn-server-sur-un-nas-synology/)" eğitiminde gördüğümüz gibi OpenVPN ile aynı ruha sahiptir.
+WireGuard'ın kurulumuna ilişkin laboratuvarımı sunmadan önce, WireGuard'ı **iki uzak altyapıyı birbirine bağlamak için**, aynı zamanda **uzak bir istemciyi kurumsal ağ veya ev ağınız gibi bir altyapıya bağlamak için** kullanabileceğinizi bilmelisiniz. Bu, yakın zamanda "[Synology üzerinde OpenVPN](https://www.it-connect.fr/tuto-vpn-configurer-openvpn-server-sur-un-nas-synology/)" eğitiminde gördüğümüz gibi OpenVPN ile aynı ruha sahiptir.
 
 
 
@@ -101,9 +101,9 @@ IP adresleri açısından bu,:
 
 
 
-- Ev ağı**: 192.168.1.0/24
-- Kurumsal ağ**: 192.168.100.0/24
-- WireGuard tünel ağı**: 192.168.110.0/24
+- **Ev ağı**: 192.168.1.0/24
+- **Kurumsal ağ**: 192.168.100.0/24
+- **WireGuard tünel ağı**: 192.168.110.0/24
 
 
 + Tüneldeki Eş 1'in (Windows) IP Address'i: 192.168.110.2/24
@@ -117,7 +117,7 @@ Hepsi bu kadar! Hadi yapılandırmaya geçelim!
 
 
 
-**Not: WireGuard varsayılan olarak **port 51820** üzerinde UDP modunda çalışır.
+**Not:** WireGuard varsayılan olarak **port 51820** üzerinde UDP modunda çalışır.
 
 
 
@@ -161,7 +161,7 @@ WireGuard sunucu kısmı, yapılandırmayı yönetmek için yararlı komutlara e
 
 
 
-"wg "** komutunu kullanarak generate'e bir özel anahtar ve bir açık anahtar eklememiz gerekir: iki çift, yani sunucu ve bir istemci (aynı zamanda bir anahtar çiftine ihtiyaç duyacak olan) arasında kimlik doğrulama için gereklidir.
+"wg" **komutunu kullanarak generate'e bir özel anahtar ve bir açık anahtar eklememiz gerekir: iki çift, yani sunucu ve bir istemci (aynı zamanda bir anahtar çiftine ihtiyaç duyacak olan) arasında kimlik doğrulama için gereklidir.**
 
 
 
@@ -219,10 +219,10 @@ Bölüm `[Interface]` sunucu kısmını bildirmek için kullanılır. İşte baz
 
 
 
-- Address**: VPN tüneli içindeki Interface WireGuard'ın IP Address'i (uzak LAN'dan farklı alt ağ)
-- SaveConfig**: yapılandırma Interface etkin olduğu sürece saklanır (ve korunur)
-- ListenPort**: WireGuard'ın dinleme portu. Bu durumda, 51820 varsayılan bağlantı noktasıdır, ancak bunu özelleştirebilirsiniz
-- PrivateKey**: sunucumuzun özel anahtarının değeri (*wg-private.key*)
+- **Address**: VPN tüneli içindeki Interface WireGuard'ın IP Address'i (uzak LAN'dan farklı alt ağ)
+- **SaveConfig**: yapılandırma Interface etkin olduğu sürece saklanır (ve korunur)
+- **ListenPort**: WireGuard'ın dinleme portu. Bu durumda, 51820 varsayılan bağlantı noktasıdır, ancak bunu özelleştirebilirsiniz
+- **PrivateKey**: sunucumuzun özel anahtarının değeri (*wg-private.key*)
 
 
 
@@ -282,7 +282,7 @@ sudo systemctl enable wg-quick@wg0.service
 
 
 
-Debian 11 makinemizin **paketleri farklı ağlar arasında (bir yönlendirici gibi)**, yani VPN ağı ile yerel ağ arasında yönlendirebilmesi için [IP Yönlendirme] (https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/) özelliğini etkinleştirmemiz gerekir. Varsayılan olarak bu özellik devre dışıdır.
+Debian 11 makinemizin **paketleri farklı ağlar arasında (bir yönlendirici gibi)**, yani VPN ağı ile yerel ağ arasında yönlendirebilmesi için [IP Yönlendirme](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/) özelliğini etkinleştirmemiz gerekir. Varsayılan olarak bu özellik devre dışıdır.
 
 
 
@@ -372,7 +372,7 @@ Yerel güvenlik duvarımızın NAT tablosunun POSTROUTING dizesi içinde **Inter
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -475,7 +475,7 @@ Yeni bir tünel oluşturmak için yazılımı açarak başlayın. Bunu yapmak i�
 
 
 
-Bir yapılandırma penceresi açılacaktır. Her yeni tünel yapılandırması oluşturulduğunda, WireGuard bu yapılandırmaya özgü bir özel/genel anahtar çifti oluşturur. **Bu yapılandırmada, "eş", yani uzak sunucuyu bildirmemiz gerekir:
+Bir yapılandırma penceresi açılacaktır. Her yeni tünel yapılandırması oluşturulduğunda, WireGuard bu yapılandırmaya özgü bir özel/genel anahtar çifti oluşturur. **Bu yapılandırmada, "eş", yani uzak sunucuyu bildirmemiz gerekir:**
 
 
 
@@ -523,15 +523,15 @@ Resimlerde:
 
 
 
-**Peer] bloğu hakkında birkaç açıklama:
+**Peer bloğu hakkında birkaç açıklama:**
 
 
 
 
 
-- PublicKey**: WireGuard Debian 11 sunucusunun genel anahtarıdır ("*sudo wg*" komutu ile değerini elde edebilirsiniz)
-- AllowedIPs**: bunlar bu WireGuard VPN ağı üzerinden erişilebilen IP adresleri / alt ağlardır, bu durumda WireGuard VPN'ime (*192.168.110.0/24*) ve uzak LAN'ıma (*192.168.100.0/24*) özel alt ağ
-- Uç Nokta**: Bu, Debian 11 ana bilgisayarının IP Address'idir, çünkü bu bizim WireGuard bağlantı noktamızdır (genel IP Address'i belirtmeniz gerekir)
+- **PublicKey**: WireGuard Debian 11 sunucusunun genel anahtarıdır ("*sudo wg*" komutu ile değerini elde edebilirsiniz)
+- **AllowedIPs**: bunlar bu WireGuard VPN ağı üzerinden erişilebilen IP adresleri / alt ağlardır, bu durumda WireGuard VPN'ime (*192.168.110.0/24*) ve uzak LAN'ıma (*192.168.100.0/24*) özel alt ağ
+- **Uç Nokta**: Bu, Debian 11 ana bilgisayarının IP Address'idir, çünkü bu bizim WireGuard bağlantı noktamızdır (genel IP Address'i belirtmeniz gerekir)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Artık yapılandırma hazır olduğuna göre, Windows PC'den başlatabiliriz. Bunu yapmak için, "**WireGuard**" istemcisinde, "**Activate**" düğmesine tıklayın: bağlantı **"Off "dan "On "a** değişecektir, ancak bu çalışacağı anlamına gelmez. Her şey yapılandırmanızın doğru olup olmadığına bağlıdır. **Bağlantı kurulduğunda, iki makinemiz her iki tarafta yapılandırılmış Interface WireGuard aracılığıyla iletişim kurar!
+Artık yapılandırma hazır olduğuna göre, Windows PC'den başlatabiliriz. Bunu yapmak için, **WireGuard** istemcisinde, **Activate** düğmesine tıklayın: bağlantı **"Off"dan "On"a** değişecektir, ancak bu çalışacağı anlamına gelmez. Her şey yapılandırmanızın doğru olup olmadığına bağlıdır. **Bağlantı kurulduğunda, iki makinemiz her iki tarafta yapılandırılmış Interface WireGuard aracılığıyla iletişim kurar!**
 
 
 
@@ -663,7 +663,7 @@ Uzak bilgisayarımdan, sunucu tarafındaki Interface WireGuard'ımın IP Address
 
 
 
-WireGuard VPN'ime bağlı uzak bilgisayarımdan bir dosya sunucusuna erişip [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) üzerinden bir dosya aktarabildim ve aktarım hızını görebildim. **WireGuard ile en fazla 45 Mb/s hızına çıkabiliyorum ki bu da WiFi kullandığım için harika
+WireGuard VPN'ime bağlı uzak bilgisayarımdan bir dosya sunucusuna erişip [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) üzerinden bir dosya aktarabildim ve aktarım hızını görebildim. **WireGuard ile en fazla 45 Mb/s hızına çıkabiliyorum ki bu da WiFi kullandığım için harika**
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Bunun aynı zamanda "**Öldürme anahtarı*" seçeneğini de etkinleştirdiğini görebilirsiniz.
+Bunun aynı zamanda "**Öldürme anahtarı**" seçeneğini de etkinleştirdiğini görebilirsiniz.
 
 
 
@@ -783,4 +783,4 @@ Ek belgeler:
 
 
 
-**WireGuard VPN'iniz hazır ve çalışıyor! Tebrikler!
+**WireGuard VPN'iniz hazır ve çalışıyor! Tebrikler!**

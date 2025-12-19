@@ -1,9 +1,9 @@
-question: Bitcoin dünyasında kendi kendine velayet kavramı ne anlama geliyor?
-answer: Özel anahtarlarınızı kendiniz saklayın
+question: Bitcoin dünyasında kendin saklama (self custody) kavramı ne anlama gelir?
+answer: Özel anahtarlarınızı kendinizin saklaması
 wrong_answers:
-  - Anahtarlarınızı özel bir Exchange platformuna emanet edin
-  - Anahtarlarınızı bir yatırım bankasına emanet etmek
-  - Açık anahtarlarınızı kendiniz saklayın
+  - Anahtarlarınızı buna özel bir pazar yerine emanet etmeniz
+  - Anahtarlarınızı bir yatırım bankasına emanet etmeniz
+  - Açık anahtarlarınızı (public keys) kendinizin saklaması
 explanation: |
   Kendi kendine saklama, kullanıcının kendi özel anahtarları aracılığıyla bitcoinlerinin tam kontrolünü elinde tutmasını sağlar.
 reviewed: false

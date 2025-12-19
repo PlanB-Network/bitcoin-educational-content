@@ -1,0 +1,9 @@
+question: Koja je podrazumevana vrednost parametra dbcache u Bitcoin core?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Podrazumevano, Bitcoin core dodeljuje 450 MiB (472 MB) kešu.
+reviewed: true

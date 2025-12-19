@@ -1,10 +1,9 @@
-question: Jaka jest ostatnia faza zjawiska hiperinflacji?
-answer: Pojawia się nowa waluta.
+question: Jaka była stopa inflacji w Zimbabwe w listopadzie 2008 roku?
+answer: 79,600,000,000%
 wrong_answers:
-  - Utrata zaufania do waluty.
-  - Upadek waluty i wzrost cen.
-  - Błędne koło drukowania pieniędzy.
+  - 796%
+  - 79,600,000,000,000,000%
+  - 100%
 explanation: |
-  Końcowa faza hiperinflacji ma miejsce, gdy nowa waluta
-  waluta zostaje wprowadzona w miejsce starej.
+  W listopadzie 2008 r. miesięczna inflacja waluty Zimbabwe osiągnęła najwyższy poziom 79 600 000 000%, co spowodowało spadek wartości dolara zimbabweńskiego do 0.
 reviewed: true

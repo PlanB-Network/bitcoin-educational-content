@@ -1,0 +1,15 @@
+title: "Bitcoin Transaction Malleability and MtGox"
+original_language: en
+authors:
+  - Christian Decker
+  - Roger Wattenhofer
+abstract: |
+  In Bitcoin, transaction malleability describes the fact that the signatures that prove the ownership of bitcoins being transferred in a transaction do not provide any integrity guarantee for the signatures themselves. This allows an attacker to mount a malleability attack in which it intercepts, modifies, and rebroadcasts a transaction, causing the transaction issuer to believe that the original transaction was not confirmed. In February 2014 MtGox, once the largest Bitcoin exchange, closed and filed for bankruptcy claiming that attackers used malleability attacks to drain its accounts. In this work we use traces of the Bitcoin network for over a year preceding the filing to show that, while the problem is real, there was no widespread use of malleability attacks before the closure of MtGox.
+publication_date: 2014-03-26
+paper_type: conference
+source: ESORICS
+topics:
+  - Transaction Malleability
+  - Digital Signature Schemes
+pdf_url: https://arxiv.org/pdf/1403.6676v1
+id: d693dabe-2f65-4048-9ca2-5206684f9240

@@ -1,0 +1,9 @@
+question: ¿Es Spinoza un filósofo?
+answer: Del siglo XVII.
+wrong_answers:
+  - Del siglo XVI.
+  - Del siglo XVIII.
+  - Desde la antigüedad.
+explanation: |
+  Spinoza vivió entre 1632 y 1677, lo que le convierte en un filósofo del siglo XVII. Este periodo, conocido como la Edad de la Razón, fue testigo de la aparición del racionalismo moderno y de nuevos enfoques científicos para comprender el mundo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: あなたのミニPCにDustが蓄積されることによってもたらされる主なリスクは何ですか？
+answer: プロセッサー・スロットリング
+wrong_answers:
+  - Blockchainブロック削除
+  - ディスクの破損
+  - RAM容量の減少
+explanation: |
+  Dustは換気を妨げ、オーバーヒートを引き起こし、スロットリングを引き起こし、プロセッサーの効率を低下させる。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Šta čini pruned čvor drugačijim od Full node?
+answer: Postepeno eliminiše stare blokove
+wrong_answers:
+  - Ne potvrđuje starije transakcije
+  - Ne može prenositi cele blokove
+  - Ne čuva lokalnu kopiju Blockchain, samo skup UTXO
+explanation: |
+  pruned čvor validira ceo lanac, ali zadržava samo nedavni deo blokova kako bi ograničio svoju memoriju.
+reviewed: true

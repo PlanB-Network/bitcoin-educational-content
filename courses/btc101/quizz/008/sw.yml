@@ -1,11 +1,13 @@
-question: Inamaanisha nini kwa Bitcoin kuwa sarafu ya upande wowote?
-answer: Haidhibitiwi na chombo au taasisi yoyote.
+question: Azimio la Uhuru wa Mtandao wa Mtandao ni nini?
+answer: Maandishi yanayodai kuwa mtandao ni eneo tofauti na nyanja halisi na haipaswi kuwa chini ya sheria sawa.
 wrong_answers:
-  - Inadhibitiwa na chombo au taasisi moja.
-  - Inadhibitiwa na serikali.
-  - Inatumika tu kwa shughuli kubwa.
+  - Tamko linalosema uhuru wa Bitcoin kutoka kwa mifumo ya jadi ya kifedha.
+  - Maandishi yanayodai kwamba mtandao unapaswa kudhibitiwa na udhibiti wa serikali.
+  - Tamko ambalo linathibitisha uhuru wa harakati ya maharamia kutoka kwa kanuni yoyote.
 explanation: |
-  Bitcoin ni sarafu ya upande wowote, kumaanisha kuwa haidhibitiwi
-  na chombo au taasisi yoyote, kwa hivyo kila mtumiaji anayo sawa
-  haki. Hiki ni kipengele muhimu cha ugatuaji wake wa madaraka.
+  Azimio la Uhuru wa Cyberspace ilikuwa
+  iliyoandikwa na John Perry Barlow mwaka 1996. Hati hii inadai
+  kwamba mtandao ni eneo tofauti na la kimwili
+  nyanja, hivyo serikali za viwanda haziwezi kutekeleza yao
+  mamlaka hapo.
 reviewed: true

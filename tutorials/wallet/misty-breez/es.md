@@ -81,7 +81,7 @@ Aquí tienes algunos consejos sobre cómo hacer una copia de seguridad de tu fra
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Para hacer una copia de seguridad de sus frases, seleccione el menú **Preferencias > Seguridad** y, a continuación, la opción **Comprobar su frase de copia de seguridad**.
 
@@ -210,4 +210,4 @@ Para ir más lejos, también te recomiendo que descubras nuestro tutorial sobre 
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

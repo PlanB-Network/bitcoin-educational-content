@@ -1,0 +1,9 @@
+question: 거래의 On-Chain 추적성을 보호하기 위해 어떤 방법을 사용하나요?
+answer: CoinJoin 및 PayJoin 기술 사용
+wrong_answers:
+  - 동일한 수신 Address 재사용
+  - UTXO의 빈번한 통합
+  - 보관 Wallet에 입금하기
+explanation: |
+  코인조인 및 페이조인은 On-Chain 활동의 개인정보 보호를 개선하는 데 도움이 됩니다.
+reviewed: false

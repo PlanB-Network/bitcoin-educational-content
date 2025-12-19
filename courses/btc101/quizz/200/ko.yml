@@ -1,0 +1,8 @@
+question: Bitcoin을 Exchange 플랫폼에 방치할 경우 발생할 수 있는 잠재적 위험은 무엇인가요?
+answer: 해킹 및 자금 차단 위험.
+wrong_answers:
+  - 플랫폼이 Bitcoin의 가격을 인상할 위험이 있습니다.
+  - 플랫폼이 Bitcoin의 Supply를 제어할 위험이 있습니다.
+  - Bitcoin의 가격이 암호화폐에 의해 추월당할 위험이 있습니다.
+explanation: >-
+reviewed: true

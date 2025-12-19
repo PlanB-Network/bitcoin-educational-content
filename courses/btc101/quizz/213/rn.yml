@@ -1,12 +1,11 @@
-question: Ni iyihe ntumbero nyamukuru y’ihinduka rya Bitcoin hakurikijwe iyi nyigisho?
-answer: Gutuma haba isi aho ubusegaba bwa muntu ari uburenganzira, ubuzima bwite bwubahirizwa ku buryo busanzwe, kandi amahera ntakoreshwa nabi.
+question: Ni igiki iki cigwa kivuga ku bijanye n’urugero rwo kwiga ivyerekeye Bitcoin?
+answer: Biragoye gufata vyose icarimwe, rero fata umwanya wawe.
 wrong_answers:
-  - Gutuma haba isi aho ubuzima bwite atari uburenganzira bwa muntu, kandi amahera akakoreshwa nabi n’amabanki.
-  - Gutuma haba isi aho intwaro zitagira ububasha, kandi abantu bakaba ari akajagari.
-  - Guhingura isi aho amahera y’umubiri ataco amaze.
+  - Biroroshe kwiga vyose icarimwe.
+  - Ntibishoboka ko umuntu amenya vyose ku vyerekeye Bitcoin.
+  - Si ngombwa kwiga vyose ku vyerekeye Bitcoin.
 explanation: |
-  Ico canditswe c’inyigisho kivuga ko intumbero nyamukuru ya Bitcoin.
-  ihinduka ni uguhingura isi aho ubusegaba bwa muntu ari .
-  uburenganzira, ubuzima bwite bwubahirizwa ku buryo busanzwe, kandi amahera nta
-  gukoreshwa nabi.
+  Iryo shure rivuga ko hari vyinshi umuntu yokwihweza n’
+  Bitcoin ko bigoye gufata vyose ku .
+  rimwe, rero umuntu akwiye gufata umwanya wabo.
 reviewed: true

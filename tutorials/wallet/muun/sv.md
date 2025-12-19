@@ -7,10 +7,10 @@ description: Konfigurera din Muun Wallet
 ![cover](assets/cover.webp)
 
 
-Muun (https://muun.com/) är en självförvarare Wallet för Bitcoin och blixtar.
+[Muun](https://muun.com/) är en självförvarad plånbok för bitcoin och lightning.
 
 
-## videohandledning
+## Videoguide
 
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
@@ -19,7 +19,7 @@ Muun (https://muun.com/) är en självförvarare Wallet för Bitcoin och blixtar
 ## Muun Wallet - Komplett användarhandbok
 
 
-Komplett användarhandbok (med skärmdumpar) för Muun-applikationen; en användarvänlig mobil Bitcoin Wallet som gör att du kan göra transaktioner på Lightning Network.
+Komplett användarhandbok (med skärmbilder) för Muun-applikationen; en användarvänlig mobil Bitcoin-plånbok som gör att du kan genomföra transaktioner på Lightning-nätverket.
 
 
 ![image](assets/0.5.webp)
@@ -182,19 +182,19 @@ Här är en översättning av instruktionerna:
 Denna nödrutin hjälper dig att få tillbaka dina pengar om du inte kan använda Muun på din enhet.
 
 
-1. Hitta din återställningskod
+- Hitta din återställningskod
 
 
 Du skrev den här koden på ett papper innan du skapade din nödutrustning. Du kommer att behöva den senare.
 
 
-2. Ladda ner återställningsverktyget
+- Ladda ner återställningsverktyget
 
 
 Gå till sidan https://github.com/muun/recovery och ladda ner verktyget till din dator.
 
 
-3. Få tillbaka dina pengar
+- Återställ dina medel
 
 
 Kör återställningsverktyget och följ stegen. Verktyget kommer att överföra dina pengar till en Bitcoin Address som du väljer.

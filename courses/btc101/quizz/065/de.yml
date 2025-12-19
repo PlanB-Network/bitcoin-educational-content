@@ -1,12 +1,9 @@
-question: Mit welchen wirtschaftlichen Prinzipien stimmt Bitcoin überein?
-answer: Prinzipien der Österreichischen Schule der Nationalökonomie.
+question: Was sind die drei Hauptfunktionen eines Bitcoin-Wallets?
+answer: Bitcoins empfangen, Bitcoins senden, sie vor Hacking und Diebstahlversuchen sichern.
 wrong_answers:
-  - Prinzipien der Keynesianischen Ökonomie.
-  - Prinzipien der Marxistischen Ökonomie.
-  - Prinzipien der Neoklassischen Ökonomie.
+  - Bitcoins speichern, Bitcoins senden, sie vor Hacking und Diebstahlversuchen sichern.
+  - Das Empfangen von Bitcoins ermöglichen, Bitcoins speichern, sie vor Hacking und Diebstahlversuchen sichern.
+  - Das Empfangen von Bitcoins ermöglichen, das Senden von Bitcoins ermöglichen, Bitcoins verkaufen.
 explanation: |
-  Bitcoin stimmt mit den Prinzipien der Österreichischen Schule der Nationalökonomie überein.
-  Seine begrenzte Menge und das Fehlen einer zentralen Entität schützen es
-  vor den inhärenten Risiken der Inflation, die bei
-  traditionellen Währungen zu sehen sind.
+  Ein Bitcoin-Wallet wird verwendet, um mit dem Bitcoin-Netzwerk zu interagieren. Seine drei Hauptfunktionen sind das Empfangen von Bitcoins zu ermöglichen, das Senden von Bitcoins zu ermöglichen und sie vor Hacking und Diebstahlversuchen zu sichern.
 reviewed: true

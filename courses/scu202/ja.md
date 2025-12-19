@@ -156,7 +156,7 @@ ITセキュリティを完全にコントロールし、個人の主権を強化
 
 
 
-*注：コース中に聞き慣れない用語が出てきた場合は、[用語集](https://planb.network/resources/glossary)で定義を確認してください。
+**注：コース中に聞き慣れない用語が出てきた場合は、[用語集](https://planb.academy/resources/glossary)で定義を確認してください。**
 
 
 
@@ -179,7 +179,7 @@ SCU101コースは、ITの初心者および中級者を対象に、デジタル
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### 安全なオンライン・ブラウジング
 
@@ -576,7 +576,7 @@ Unixは、Multicsオペレーティング・システムの進化系であり、
 
 
 
-1970年代以降、Unixは研究用として発展し、1975年以降はAT&Tに課された独占禁止法上の制限のため、大学で広く配布されるようになりました。これは、BSD（*バークレー・ソフトウェア・ディストリビューション）ブランチが生まれたバークレーなど、多くの研究所での採用に有利だった。同時に、AT&Tは1980年代にUnixのマーケティングを開始し、互換性のないプロプライエタリなバージョン（System V、Xenix、SunOS、AIX、Solaris、HP-UXなど）の拡散を招いた。
+1970年代以降、Unixは研究用として発展し、1975年以降はAT&Tに課された独占禁止法上の制限のため、大学で広く配布されるようになりました。これは、BSD（**バークレー・ソフトウェア・ディストリビューション**）ブランチが生まれたバークレーなど、多くの研究所での採用に有利だった。同時に、AT&Tは1980年代にUnixのマーケティングを開始し、互換性のないプロプライエタリなバージョン（System V、Xenix、SunOS、AIX、Solaris、HP-UXなど）の拡散を招いた。
 
 
 
@@ -694,7 +694,7 @@ Linuxカーネルの物語は、1991年、当時フィンランドのヘルシ�
 
 
 
-*ソースナサニエル・ウェルチ
+**ソースナサニエル・ウェルチ**
 
 
 
@@ -747,11 +747,11 @@ Linuxディストリビューション（しばしば "*distro*"と略される�
 
 
 - ハードウェアと通信し、システムリソース（CPU、メモリ、ディスクなど）を管理する**Linuxカーネル**。
-- GRUB*のような**ブートローダー**でシステムを起動する。
+- **GRUB**のような**ブートローダー**でシステムを起動する。
 - ブート時にサービスを起動できるようにする **初期化システム** です： *systemd*、*OpenRC*、*SysV init*、またはディストリビューションの哲学的な選択による*runit*。
-- パッケージ管理システム**で、ソフトウェアのインストール、アップデート、削除ができます。最も一般的なものは、*APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) や *APK* (Alpine) です。
+- パッケージ管理システムで、ソフトウェアのインストール、アップデート、削除ができます。最も一般的なものは、*APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) や *APK* (Alpine) です。
 - 利用可能なアプリケーションの検証済みバージョンを集中管理するオンライン**ソフトウェア・リポジトリ**。
-- システムツール一式**（シェル、エディター、コンパイラー、ネットワークインターフェイスなど）と、多くの場合、設定済みのデスクトップ環境（*GNOME*、*KDE Plasma*、*XFCE*など）。
+- システムツール一式**（シェル、エディター、コンパイラー、ネットワークインターフェイスなど）**と、多くの場合、設定済みのデスクトップ環境（*GNOME*、*KDE Plasma*、*XFCE*など）。
 - 設定スクリプト、ドキュメント、場合によってはサポートサービス
 
 
@@ -848,7 +848,7 @@ Slackwareは、1990年代に最も広く使われるLinuxディストリビュ�
 
 
 
-- 1993年8月Debian**
+- 1993年8月**Debian**
 
 
 
@@ -872,7 +872,7 @@ Slackwareは、1990年代に最も広く使われるLinuxディストリビュ�
 
 
 
-*Debian 1.3 (1997)。出典Linux ディストリビューションアーカイブ
+*Debian 1.3 (1997)*。出典Linux ディストリビューションアーカイブ
 
 
 
@@ -902,7 +902,7 @@ Slackwareは、1990年代に最も広く使われるLinuxディストリビュ�
 
 
 
-*Bobヤングとマーク・ユーイング。カメラマン：キャンディス・キュージック/AP
+**Bobヤングとマーク・ユーイング。カメラマン：キャンディス・キュージック/AP**
 
 
 
@@ -974,7 +974,7 @@ Arch Linux ファミリーは、既製のディストリビューションとは
 
 Arch Linux は、インストールやメンテナンスの複雑さを受け入れつつも、環境を完全にコントロールしたい上級ユーザーを対象としています。この技術的な要件が、その使用を民主化することを目的としたいくつかの派生ディストリビューションの出現につながりました。
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 最もよく知られているのは Manjaro で、Arch の技術的基盤を維持しながら、シンプルなインストール、設定済みのデスクトップ環境、アップデートを安定させるために少し遅れたリリースサイクルを提供している。
 
@@ -1032,7 +1032,7 @@ DebianやRed Hatに比べるとコミュニティは小さいものの、Slackwa
 
 
 
-Linuxディストリビューション・ファミリーの詳細を知り、それぞれのブランチを視覚化するには、ウィキメディアのこの素晴らしく非常に包括的な図を参照することをお勧めします：[Linuxディストリビューション年表*](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)。
+Linuxディストリビューション・ファミリーの詳細を知り、それぞれのブランチを視覚化するには、ウィキメディアのこの素晴らしく非常に包括的な図を参照することをお勧めします：[Linuxディストリビューション年表](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)。
 
 
 
@@ -1050,7 +1050,7 @@ Linuxディストリビューションの選択は、あなたの特定のニー
 
 
 
-- Ubuntu**：
+- **Ubuntu**：
 
 
 
@@ -1062,11 +1062,11 @@ Canonicalによって開発され、2004年に発売されたUbuntuは、世界�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- Linux Mint**：
+- **Linux Mint**：
 
 
 
@@ -1074,7 +1074,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint はそのシンプルさ、デフォルトのマルチメディアコーデックの存在、よく設計され たアップデートツールで際立っています。一方で、Ubuntu のインフラに大きく依存しているため、Ubuntu の技術的な選択(特にカーネルとリポジトリレベル)に依存しています。Mint は技術的なバックグラウンドを持たないユーザや、すぐに使えるシス テムを求めているユーザに特に適しています。
 
@@ -1086,7 +1086,7 @@ Mint はそのシンプルさ、デフォルトのマルチメディアコーデ
 
 
 
-- ゾーリンOS**：
+- **ゾーリンOS**：
 
 
 
@@ -1104,11 +1104,11 @@ Mint はそのシンプルさ、デフォルトのマルチメディアコーデ
 
 
 
-- 初級OS**：
+- **初級OS**：
 
 2011年に発売されたelementary OSは、Ubuntuベースのディストリビューションで、Interfaceのデザインと一貫性に何よりも重点を置いている。macOSにインスパイアされたそのPantheonデスクトップ環境は、ミニマルでエレガントかつ流動的だ。しかし、このシステムは他のディストリビューションに比べてカスタマイズ性が低いままであり、一部の上級ユーザーはInterfaceの選択肢や意図的にロックダウンされた構造に制限を感じるかもしれません。日常的に使うシンプルで首尾一貫したシステムを探している、美的感覚に敏感なユーザーに適しています。
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- ポップ！OS**：
+- **ポップ！OS**：
 
 
 
@@ -1140,7 +1140,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Fedora** (Workstation または KDE Plasma)：
+- **Fedora** (Workstation または KDE Plasma)：
 
 
 
@@ -1151,10 +1151,10 @@ FedoraはRed Hatが支援するディストリビューションで、最新の�
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE**（TumbleweedまたはLeap）：
+- **openSUSE**（TumbleweedまたはLeap）：
 
 
 
@@ -1168,7 +1168,7 @@ openSUSEは、ローリングリリースまたは安定版ディストリビュ
 
 
 
-- Debian**：
+- **Debian**：
 
 
 
@@ -1179,10 +1179,10 @@ Debian には、*Stable* (非常に信頼できるが、古いソフトウェア
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**：
+- **Manjaro**：
 
 
 
@@ -1196,7 +1196,7 @@ Arch をベースにした Manjaro は Arch Linux を身近なものにします
 
 
 
-- Arch Linux**：
+- **Arch Linux**：
 
 
 
@@ -1208,11 +1208,11 @@ Arch Linux はミニマリストで継続的にアップデート可能なディ
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### 専門的な流通
 
-- Kali Linux**：
+- **Kali Linux**：
 
 Kali Linux は、侵入テストとセキュリティ監査用に設計された Debian ベースのディストリビューションです。何百ものペンテストツールが含まれています。このディストリビューションは、日常的に使用するメインシステムとしてはあまり適していません。
 
@@ -1224,7 +1224,7 @@ Kali Linux は、侵入テストとセキュリティ監査用に設計された
 
 
 
-- パロットOS**：
+- **パロットOS**：
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OSもDebianから派生したOSである。ペンテスト、攻撃的な
 
 
 
-- 尻尾**：
+- **尻尾**：
 
 
 
@@ -1246,7 +1246,7 @@ TailsはDebianベースのプライバシー重視のライブディストリビ
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **注意:** ライブディストリビューションとは、Hardディスクにインストールすることなく、USBメモリやCDから直接使用できるLinuxオペレーティングシステムのことです。
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**：
+- **Qubes OS**：
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OSはFedoraをベースにしており、Xen仮想化システムを使っ
 
 
 
-- BlackArch**である：
+- **BlackArch**である：
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch は Arch Linux (Debian の Kali のようなもの) のペンテスト
 
 
 
-- PureOS**：
+- **PureOS**：
 
 
 
@@ -1300,9 +1300,9 @@ PureOS は Purism によって開発された Debian 由来のディストリビ
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- Raspberry Pi OS**：
+- **Raspberry Pi OS**：
 
 Raspberry Pi OS（旧Raspbian）は、Raspberry Piマイクロコンピュータ用に最適化されたディストリビューションです。Debianをベースに、ARMアーキテクチャ向けに再コンパイルされたパッケージが含まれています。教育プロジェクトや電子テスト、小規模な個人サーバーなどに利用できます。
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS（旧Raspbian）は、Raspberry Piマイクロコンピュータ
 
 
 
-- Whonix**：
+- **Whonix**：
 
 
 
@@ -1326,7 +1326,7 @@ Whonix は、Debian と Tor ネットワークを 2VM アーキテクチャ (ゲ
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 このパノラマは、現在のLinuxディストリビューションのエコシステムの概要を提供し、あなたの技術的プロファイルと目的に最も適したディストリビューションを選択できるようにします。
 
@@ -1362,55 +1362,55 @@ Linuxディストリビューションのデスクトップ環境は、単一の
 
 
 
-- ウィンドウ・マネージャー**：ウィンドウの境界線を描画し、その配置、サイズ変更、トランジション効果を管理します。例えばMutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- ウィンドウ・マネージャー：ウィンドウの境界線を描画し、その配置、サイズ変更、トランジション効果を管理します。例えばMutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- ファイルマネージャー**：ディレクトリツリーをナビゲートし、ファイルのコピー、移動、削除を視覚的に行うことができます。例Nautilus (GNOME)、Dolphin (KDE)、Thunar (Xfce)。
+- **ファイルマネージャー**：ディレクトリツリーをナビゲートし、ファイルのコピー、移動、削除を視覚的に行うことができます。例Nautilus (GNOME)、Dolphin (KDE)、Thunar (Xfce)。
 
 
 
 
 
-- コンフィギュレーション・センター**：外観、壁紙、ユーザー管理、ネットワーク、周辺機器など、コマンドラインを介さずにシステム・パラメーターを変更できるツールのセット。
+- コンフィギュレーション・センター：外観、壁紙、ユーザー管理、ネットワーク、周辺機器など、コマンドラインを介さずにシステム・パラメーターを変更できるツールのセット。
 
 
 
 
 
-- システム・アプレット**：タスクバー（または「パネル」）にある小さなアイコンやインタラクティブ・モジュールで、サウンド・コントロール、バッテリー残量、ネットワーク接続、時計などです。
+- システム・アプレット：タスクバー（または「パネル」）にある小さなアイコンやインタラクティブ・モジュールで、サウンド・コントロール、バッテリー残量、ネットワーク接続、時計などです。
 
 
 
 
 
-- パネルまたはダッシュボード**：メインメニュー、システムアプレット、ショートカット、通知ゾーンなどを含む、多くの場合画面の上部または下部にある目に見えるバー。
+- パネルまたはダッシュボード：メインメニュー、システムアプレット、ショートカット、通知ゾーンなどを含む、多くの場合画面の上部または下部にある目に見えるバー。
 
 
 
 
 
-- セッションマネージャー**：起動時に実行され、ログイン画面を表示し、選択したグラフィカルセッションを起動する。例えばGDM (GNOME)、SDDM (KDE)、LightDM (Xfce)。
+- セッションマネージャー：起動時に実行され、ログイン画面を表示し、選択したグラフィカルセッションを起動する。例えばGDM (GNOME)、SDDM (KDE)、LightDM (Xfce)。
 
 
 
 
 
-- Notification manager**: システム通知（メッセージ、アラート、アップデートなど）の表示を管理します。例: dunst、Plasma-notifier、xfce4-notifyd。
+- **Notification manager**: システム通知（メッセージ、アラート、アップデートなど）の表示を管理します。例: dunst、Plasma-notifier、xfce4-notifyd。
 
 
 
 
 
-- X11 compositor (optional)**: ウィンドウマネージャが合成をサポートしていない環境で視覚効果 (影、透明度、アニメーション) を追加します。例: compton、picom。
+- **X11 compositor (optional)**: ウィンドウマネージャが合成をサポートしていない環境で視覚効果 (影、透明度、アニメーション) を追加します。例: compton、picom。
 
 
 
 
 
-- ディスプレイ・サーバー**：システム（カーネルとグラフィック・ドライバ経由）とグラフィック・アプリケーション間の通信を処理するソフトウェアです。画面にウィンドウを表示し、キーボードとマウスの入力を管理する。ディスプレイサーバーは多くの場合、デスクトップ環境の別のコンポーネントですが、ますます多くのシステムがWaylandを採用しています。Waylandは最新のプロトコルで、ディスプレイサーバーの役割をウィンドウマネージャー（GNOMEのMutterやKDEのKWinなど）が直接引き継ぐことができます。これは「Waylandコンポジティング」と呼ばれています。
+- ディスプレイ・サーバー：システム（カーネルとグラフィック・ドライバ経由）とグラフィック・アプリケーション間の通信を処理するソフトウェアです。画面にウィンドウを表示し、キーボードとマウスの入力を管理する。ディスプレイサーバーは多くの場合、デスクトップ環境の別のコンポーネントですが、ますます多くのシステムがWaylandを採用しています。Waylandは最新のプロトコルで、ディスプレイサーバーの役割をウィンドウマネージャー（GNOMEのMutterやKDEのKWinなど）が直接引き継ぐことができます。これは「**Waylandコンポジティング**」と呼ばれています。
 
 
 
@@ -1784,7 +1784,7 @@ Ubuntuを使う前に、マシンにインストールする必要がありま�
 
 
 
-- Windowsがプリインストールされたコンピュータをお持ちの場合、Windowsと一緒にUbuntuをインストールする（*「デュアルブート」*）か、現在のシステムを完全に置き換えることができます。 デュアルブート*を選択した場合、各起動時に起動するオペレーティングシステムを選択できます。これは、Windowsへのアクセスを維持しながらUbuntuをテストしたい場合に最適なソリューションです。
+- Windowsがプリインストールされたコンピュータをお持ちの場合、Windowsと一緒にUbuntuをインストールする（*「デュアルブート」*）か、現在のシステムを完全に置き換えることができます。 *デュアルブート*を選択した場合、各起動時に起動するオペレーティングシステムを選択できます。これは、Windowsへのアクセスを維持しながらUbuntuをテストしたい場合に最適なソリューションです。
 - オペレーティングシステムのない新しいマシンをお持ちの場合、メインシステムとしてUbuntuを直接インストールすることができます。
 
 
@@ -1877,7 +1877,7 @@ Ubuntuを起動すると、インストールウィザードがステップご�
 
 
 
-- Windowsと並行してのインストール（*デュアルブート*）***。
+- Windowsと並行してのインストール（*デュアルブート*）。
 
 
 
@@ -1938,7 +1938,7 @@ Ubuntuインストーラーの詳細については、こちらのチュート�
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 インストールが完了したら、プロンプトが表示されたらUSBキーを取り外し、再起動します。これでUbuntuがインストールされ、マシンで使用できるようになります。
 
@@ -2020,10 +2020,10 @@ Ubuntuでは、ソフトウェアは公式リポジトリのシステムを通�
 
 
 
-- main**: Canonicalによって公式に保守されているフリーソフトウェアです。例Firefox、LibreOffice、bash
-- restricted**: ハードウェアが正しく機能するために不可欠な、フリーではないソフトウェア。例NVIDIAドライバ、Wi-Fiファームウェア、プロプライエタリ・コーデック
-- universe**：コミュニティによって保守されているフリーソフトウェア。例GIMP、Inkscape、Audacity
-- multiverse**: ソフトウェアには法的制限（特許、フリーでないライセンス）があります。国によって入手方法が異なる場合があります。例：特定のオーディオ/ビデオコーデック、Steam
+- **main**: Canonicalによって公式に保守されているフリーソフトウェアです。例Firefox、LibreOffice、bash
+- **restricted**: ハードウェアが正しく機能するために不可欠な、フリーではないソフトウェア。例NVIDIAドライバ、Wi-Fiファームウェア、プロプライエタリ・コーデック
+- **universe**：コミュニティによって保守されているフリーソフトウェア。例GIMP、Inkscape、Audacity
+- **multiverse**: ソフトウェアには法的制限（特許、フリーでないライセンス）があります。国によって入手方法が異なる場合があります。例：特定のオーディオ/ビデオコーデック、Steam
 
 
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### オフィススイート
 
 
@@ -3114,13 +3114,13 @@ sudo snap install code --classic
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 最後に、本章の締めくくりとして、毎日守るべきベストプラクティスをいくつか紹介しよう：
 
@@ -3212,9 +3212,9 @@ Ubuntuの基本に関するこの章を読めば、日常使用に適した機�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 最後に、このパスワードは定期的に（3～6カ月ごとに）変更すること。特に、マシンを共有環境またはモバイル環境で使用する場合はなおさらだ。
 
@@ -3314,13 +3314,13 @@ UEFI を保護することは見落とされがちですが、高度な攻撃か
 - Linuxディストリビューションは、インストール時にこのオプションを選択しない限り、ディスクを自動的に暗号化しない。LUKSを使ってディスクを暗号化することができる。
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 どのような場合でも、復号化パスワードは強力で、システムパスワードとは区別し、安全なパスワードマネージャーに保存する必要があります。機密データの入った外付けディスクやUSBキーを使っている場合は、VeraCryptのようなツールで個別に暗号化することも検討しよう。
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### 最小特権の原則
 
@@ -3417,7 +3417,7 @@ Linuxでは、AppArmorやSELinuxのようなメカニズムによって、この
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 ITセキュリティの観点から見ると、仮想マシンの大きな利点の1つは、その区画化能力である。仮想マシンは、明示的にこれらのやり取りを設定しない限り、ファイル、プロセス、ネットワーク・アクセスをホスト・システムと共有しない。そのため、仮想マシンがマルウェアに感染したり、仮想マシン内で機密性の高いソフトウェアをテストしたりしても、影響はその仮想マシンに限定されます。隔離パラメータ（共有ディレクトリを持たない、USBデバイスを仮想マシンに渡さない...）が守られていれば、メイン・システムは無傷のままです。
 
@@ -3447,7 +3447,7 @@ VMを使えば、怪しいソフトウェアをテストすることができる
 
 
 
-**ウィンドウズ
+**ウィンドウズ**
 
 
 
@@ -3457,7 +3457,7 @@ VMを使えば、怪しいソフトウェアをテストすることができる
 
 
 
-**リナックス
+**リナックス**
 
 
 
@@ -3467,7 +3467,7 @@ VMを使えば、怪しいソフトウェアをテストすることができる
 
 
 
-**マックOS
+**マックOS**
 
 
 
@@ -3541,7 +3541,7 @@ OSベンダーは、これらの脆弱性を修正するためのセキュリテ
 
 
 
-- Windows* オペレーティングシステム
+- **Windows** オペレーティングシステム
 
 
 
@@ -3565,7 +3565,7 @@ Settings → Windows Update → Check for updates
 
 
 
-- Linux*オペレーティング・システム
+- **Linux**オペレーティング・システム
 
 
 
@@ -3618,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- MacOS*オペレーティングシステム
+- **MacOS**オペレーティングシステム
 
 
 
@@ -3654,25 +3654,25 @@ macOSは、同じメニューにある「*自動アップデート*」オプシ�
 
 
 
-- ウェブブラウザ*：未検証のコンテンツをリアルタイムで処理するため、攻撃の最前線にあり、特に攻撃対象領域が広い。さらに、個人データの保護においても中心的な役割を果たしている。そして何よりも、以前はローカルで使われていた多くのソフトウェア・アプリケーション（電子メール・クライアント、オフィス・スイート、メディア・プレーヤーなど）に取って代わる傾向がある。しかし、この点についてはSCU202コースの次のセクションで説明します；
+- ウェブブラウザ：未検証のコンテンツをリアルタイムで処理するため、攻撃の最前線にあり、特に攻撃対象領域が広い。さらに、個人データの保護においても中心的な役割を果たしている。そして何よりも、以前はローカルで使われていた多くのソフトウェア・アプリケーション（電子メール・クライアント、オフィス・スイート、メディア・プレーヤーなど）に取って代わる傾向がある。しかし、この点についてはSCU202コースの次のセクションで説明します；
 
 
 
 
 
-- メールクライアント*：外部ソースからの添付ファイルやリンクを受信するが、これらは制御不能であるため危険である；
+- メールクライアント：外部ソースからの添付ファイルやリンクを受信するが、これらは制御不能であるため危険である；
 
 
 
 
 
-- コミュニケーションツール*（TeamViewer、Zoom、Signal、Teams...）：その対話的な性質から、スパイ攻撃や遠隔操作の標的となる。電子メールクライアントと同じように、コミュニケーションツールもフィッシングや悪意のある添付ファイルの配布に利用される可能性があります；
+- コミュニケーションツール（TeamViewer、Zoom、Signal、Teams...）：その対話的な性質から、スパイ攻撃や遠隔操作の標的となる。電子メールクライアントと同じように、コミュニケーションツールもフィッシングや悪意のある添付ファイルの配布に利用される可能性があります；
 
 
 
 
 
-- アンチウイルス、ファイアウォール、その他の検出ソリューション*：これらのツールは、ファイル、プロセス、ネットワーク接続を継続的にスキャンするため、一般的に高い権限を享受しています。シグネチャ・ベースが古かったり、設定に不備があったり、ソフトウェア自体に脆弱性があったりすると、マルウェアが検出されなかったり、あるいは高い権限を得たりする可能性があります。
+- アンチウイルス、ファイアウォール、その他の検出ソリューション：これらのツールは、ファイル、プロセス、ネットワーク接続を継続的にスキャンするため、一般的に高い権限を享受しています。シグネチャ・ベースが古かったり、設定に不備があったり、ソフトウェア自体に脆弱性があったりすると、マルウェアが検出されなかったり、あるいは高い権限を得たりする可能性があります。
 
 
 
@@ -3855,7 +3855,7 @@ macOSでは主に2つの方法があります：*Launchpad*経由、または*Fi
 
 
 
-削除ボタンが表示されない場合は、アプリケーションがApp Storeからインストールされていません。この場合は、*Finder*を使用してください。アプリケーションが起動している場合は、まず終了してください。Finder*を開き、`/Applications`ディレクトリに移動し、削除したいアプリケーションを選択し、ゴミ箱に移動します。最後に、ゴミ箱を空にしてアンインストールを完了します。
+削除ボタンが表示されない場合は、アプリケーションがApp Storeからインストールされていません。この場合は、*Finder*を使用してください。アプリケーションが起動している場合は、まず終了してください。*Finder*を開き、`/Applications`ディレクトリに移動し、削除したいアプリケーションを選択し、ゴミ箱に移動します。最後に、ゴミ箱を空にしてアンインストールを完了します。
 
 
 
@@ -3893,7 +3893,7 @@ macOSでは主に2つの方法があります：*Launchpad*経由、または*Fi
 
 
 
-- Microsoft Defender*：Windowsでは、優れたアンチウイルスが基本的に必要である。何年もの間、システム内蔵のウイルス対策ソフトであるMicrosoft Defender（旧Windows Defender）は信頼性が低いとされ、代わりにサードパーティのソリューションが推奨されていた。しかし、このソフトウェアは時間の経過とともにかなり改善され、現在では個人で使用する基本的な保護を提供するには十分だと私は考えている。とはいえ、ウイルス対策ソフトの役割を過大評価してはならない。セキュリティを確保するのは、何よりもあなた自身のデジタル習慣なのだ。Defenderの利点の一つは、Windowsとのネイティブな統合です。リアルタイムの保護に加えて、毎週スケジュールしたり、定期的に手動で実行できる包括的なスキャンを提供します。
+- **Microsoft Defender**：Windowsでは、優れたアンチウイルスが基本的に必要である。何年もの間、システム内蔵のウイルス対策ソフトであるMicrosoft Defender（旧Windows Defender）は信頼性が低いとされ、代わりにサードパーティのソリューションが推奨されていた。しかし、このソフトウェアは時間の経過とともにかなり改善され、現在では個人で使用する基本的な保護を提供するには十分だと私は考えている。とはいえ、ウイルス対策ソフトの役割を過大評価してはならない。セキュリティを確保するのは、何よりもあなた自身のデジタル習慣なのだ。Defenderの利点の一つは、Windowsとのネイティブな統合です。リアルタイムの保護に加えて、毎週スケジュールしたり、定期的に手動で実行できる包括的なスキャンを提供します。
 
 
 
@@ -3903,12 +3903,12 @@ macOSでは主に2つの方法があります：*Launchpad*経由、または*Fi
 
 
 
-- Sysinternals Suite*：マイクロソフトが提供する、Windowsの診断、監視、トラブルシューティングのための、より高度なツールセットです。ここでは、このスイートの主なツールを紹介する：
-    - プロセスモニター*：アクティブなプロセス、ファイルアクセス、レジスタなどをリアルタイムで観察できる；
-    - Autoruns*：スタートアップ時に起動するすべてのプログラムを表示し、しつこいマルウェアや実行すべきでないアプリケーションを素早く検出するのに役立ちます；
-    - Process Explorer*: プロセスを監視し、不審な動作を検出します；
-    - TCPView*: アクティブなネットワーク接続の可視化（異常接続の検出）；
-    - Sigcheck*：ファイルのデジタル署名をチェックし、悪意のあるコードがないかどうかを確認する。
+- **Sysinternals Suite**：マイクロソフトが提供する、Windowsの診断、監視、トラブルシューティングのための、より高度なツールセットです。ここでは、このスイートの主なツールを紹介する：
+- プロセスモニター：アクティブなプロセス、ファイルアクセス、レジスタなどをリアルタイムで観察できる；
+- **Autoruns**：スタートアップ時に起動するすべてのプログラムを表示し、しつこいマルウェアや実行すべきでないアプリケーションを素早く検出するのに役立ちます；
+- **Process Explorer**: プロセスを監視し、不審な動作を検出します；
+- **TCPView**: アクティブなネットワーク接続の可視化（異常接続の検出）；
+- **Sigcheck**：ファイルのデジタル署名をチェックし、悪意のあるコードがないかどうかを確認する。
 
 
 
@@ -3918,7 +3918,7 @@ macOSでは主に2つの方法があります：*Launchpad*経由、または*Fi
 
 
 
-- GlassWire*：ネットワーク監視ツール。接続の送受信をリアルタイムで追跡し、異常なアクティビティを警告する。
+- **GlassWire**：ネットワーク監視ツール。接続の送受信をリアルタイムで追跡し、異常なアクティビティを警告する。
 
 
 
@@ -3936,7 +3936,7 @@ macOSでは主に2つの方法があります：*Launchpad*経由、または*Fi
 
 
 
-- Fail2ban*: (ブルートフォースSSHログインの試行など)失敗したアクセスのシステムログを監視する。不審な動作が検出されると、一時的に `iptables` 経由で問題の IP Address を禁止します；
+- **Fail2ban**: (ブルートフォースSSHログインの試行など)失敗したアクセスのシステムログを監視する。不審な動作が検出されると、一時的に `iptables` 経由で問題の IP Address を禁止します；
 
 
 
@@ -3946,14 +3946,14 @@ macOSでは主に2つの方法があります：*Launchpad*経由、または*Fi
 
 
 
-- Lynis*: システムの設定ミス、既知の弱点、ベストプラクティスからの逸脱を分析する包括的なセキュリティ監査ツール。セキュリティスコアと推奨事項を含む、読みやすいレポートを生成します。
+- **Lynis**: システムの設定ミス、既知の弱点、ベストプラクティスからの逸脱を分析する包括的なセキュリティ監査ツール。セキュリティスコアと推奨事項を含む、読みやすいレポートを生成します。
 
 
 
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### macOSの場合
 
@@ -3965,7 +3965,7 @@ macOSは、特にそのアプリケーション署名ポリシーと比較的閉
 
 
 
-- KnockKnock*: スタートアップ時に実行するように設定された全ての Elements (エージェント、デーモン、カーネルモジュール...) をスキャンし、潜在的に疑わしいもの、署名されていないもの、未知のものを識別します。これにより、システム上の悪意のある永続性を素早く特定することができます。
+- **KnockKnock**: スタートアップ時に実行するように設定された全ての Elements (エージェント、デーモン、カーネルモジュール...) をスキャンし、潜在的に疑わしいもの、署名されていないもの、未知のものを識別します。これにより、システム上の悪意のある永続性を素早く特定することができます。
 
 
 
@@ -4065,7 +4065,7 @@ macOSは、特にそのアプリケーション署名ポリシーと比較的閉
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### ソフトウェアの完全性と信頼性の検証
 
@@ -4469,7 +4469,7 @@ Aliceはノートパソコンにファイルを保存し、毎日使用してい
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 少なくとも2つの異なるメディア（内部ディスク、USBキー、リモートサーバー）に保存され、少なくとも1つのオフサイトコピー（クラウドサーバー）がある。
 
@@ -4549,20 +4549,20 @@ NASをお持ちの場合、*Syncthing*や*Rclone*のようなツールを使え�
 
 
 
-- Linux（Debian）*。
+- Linux（Debian）。
 
 
 
 Linuxでは、標準的なソリューションはLUKS（*Linux Unified Key Setup*）である。LUKSは、ほとんどのディストリビューションに統合されている暗号化ボリューム管理システムである。システムが最初にインストールされるとき、一般的にコンピュータのディスク全体を暗号化するよう促される。もちろん、このオプションを有効にすることを強くお勧めする。暗号化を有効にすると、システムは起動のたびに、OSがロードされる前であってもパスワードを要求するようになる。これにより、ディスクへの物理的なアクセスがセキュリティをバイパスできないようになる。
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 外付けディスクやUSBメモリを暗号化したい場合は、コマンドラインまたはグラフィカルなInterfaceから行うこともできます。ディスクをフォーマットする必要があるため、最初にバックアップを取らないと既存のデータはすべて失われます。
 
 
 
-**ターミナル経由
+**ターミナル経由**
 
 
 
@@ -4832,7 +4832,7 @@ Windowsでは、ネイティブのソリューションでディスクを暗号�
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4854,7 +4854,7 @@ FileVaultがアクティベートされると、パスワード紛失時の復�
 外部記憶媒体（Hardディスク、USBスティックなど）の場合、暗号化はディスクユーティリティを使用して実行されます。ボリュームを完全に再フォーマットする必要があります：
 
 - デバイスを選択し、"*削除*"をクリックする。
-- GUID*パーティション・テーブル」スキームを選択する。
+- **GUID パーティション・テーブル**スキームを選択する。
 - 次に、暗号化ファイルシステム形式（*APFS*または*Mac OS extended*）を選択します。
 - 強力なパスワードを選ぶ
 - 削除*"をクリックし、"*OK*"をクリックすれば暗号化は完了です。
@@ -4877,7 +4877,7 @@ FileVaultがアクティベートされると、パスワード紛失時の復�
 
 優れた代替手段はCryptomatorだ。このオープンソースソフトウェアを使えば、セーフを作成することができる。セーフとは、すべてのファイルが自動的に暗号化される特別なディレクトリのことだ。この金庫は、Dropbox、Google Drive、Nextcloudなどのクラウド・サービスと同期することができ、プロバイダーが暗号化されていないデータにアクセスすることはない。このアプリケーションは、AndroidやiOSを含むすべてのオペレーティング・システムで利用可能で、使用するのに特別な技術的スキルは必要ありません。
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 最後に、VeraCryptをコンテナモードで使用することも可能で、暗号化されたアーカイブとして機能するファイルを作成し、ディスクのようにマウントすることができます。
 
@@ -4934,7 +4934,7 @@ sudo apt install libimage-exiftool-perl
 
 
 
-- ステップ2：ファイルのメタデータを見る**（フランス語）
+- ステップ2：**ファイルのメタデータを見る**（フランス語）
 
 
 
@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-name.jpg`を実際のファイル名に置き換えてください。また、この画像を含むディレクトリに配置されていることを確認してください。例えば、`/Downloads`ディレクトリにSatoshiナカモト像の写真がある場合、以下のコマンドを実行することでメタデータを表示することができる：
+name.webp`を実際のファイル名に置き換えてください。また、この画像を含むディレクトリに配置されていることを確認してください。例えば、`/Downloads`ディレクトリにSatoshiナカモト像の写真がある場合、以下のコマンドを実行することでメタデータを表示することができる：
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-これはカレントディレクトリにあるすべてのJPEGファイルのメタデータを削除する。拡張子は必要に応じて変更できます（`*.png`, `*.pdf`...）。
+これはカレントディレクトリにあるすべてのJPEGファイルのメタデータを削除する。拡張子は必要に応じて変更できます（`*.webp`, `*.pdf`...）。
 
 
 
@@ -5580,9 +5580,9 @@ Tridentの後継となるEdgeHTMLは、パフォーマンスと互換性を向�
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### 勇敢
 
@@ -5680,7 +5680,7 @@ Blinkベースのブラウザーには、特定のユースケースを満たす
 
 
 
-- アーク** ：
+- **アーク**：
 
 
 
@@ -5698,7 +5698,7 @@ The Browser Companyによって開発された[Arc](https://arc.net/)は、ユ�
 
 
 
-- ポリパン** ：
+- **ポリパン** ：
 
 
 
@@ -5742,7 +5742,7 @@ Firefoxは、Blinkベースのブラウザにパフォーマンス面で若干�
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Torブラウザ
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 欠点は、パフォーマンスの大幅な低下（高レイテンシ）と特定のウェブサイトとの互換性の制限です。Tor Browserは、機密性の高い活動（ジャーナリズム、アクティビズム...）には理想的ですが、通常の日常的な使用にはあまり適していません。
 
@@ -5765,11 +5765,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 [Mullvad Browser](https://mullvad.net/en/browser)はTor FoundationとMullvad VPNのコラボレーションの成果です。Firefox ESRから派生したTorブラウザをベースにしています。Mullvad Browserはユーザーのプライバシーを最大化するように設計されています。デフォルトでは、フィンガープリンティング、トラッカー、サードパーティスクリプトに対する高度な保護が含まれています。
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Tor Browserが提供するセキュリティとプライバシー機能のほとんどを備えていますが、1つ違う点があります: Torネットワーク経由でトラフィックをリダイレクトしないことです。IP Addressのリークを避けるには、VPN（理想的にはMullvad VPN）と組み合わせて使用することができます。
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browserは、あなたが初心者であろうと上級者であろうと、あなたのプライバシーを心配するなら、優れたソリューションです。
 
@@ -5795,7 +5795,7 @@ Mullvad Browserは、あなたが初心者であろうと上級者であろう�
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### 禅ブラウザ
 
@@ -5813,7 +5813,7 @@ ZenはFirefoxの拡張機能もサポートしており、Mozillaアカウント
 
 Zen Browserは、自由で、革新的で、すっきりしていて、プライバシーを尊重するGeckoブラウジング環境を探しているなら、興味深い選択肢です。
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKitベースのブラウザ
 
@@ -5855,7 +5855,7 @@ Orionは、広告のない検索エンジンで知られるKagiチームによ�
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### レンダリングエンジンを持たないブラウザ
 
 
@@ -6035,9 +6035,9 @@ sudo apt update && sudo apt upgrade firefox
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 パスワード・マネージャーを使うことには多くの利点がある。多数のパスワードを記憶する必要がなくなるので日常生活が簡素化され、ユーザー自身という主な認証の弱点を最小限に抑えることができる。
 
@@ -6047,13 +6047,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### VPNの利用
 
@@ -6087,11 +6087,11 @@ VPNを利用するメリットはいくつかあります。安全でないネ�
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 知名度の高いVPNは避けるべきである。その積極的なマーケティングにもかかわらず、VPNは中央集権的な商業サービスであり、多くの場合、あまり保護されていない管轄区域に拠点を置いており、実際の技術的な運用について透明であることはほとんどありません。
 
@@ -6190,25 +6190,25 @@ Firefox、Chrome、Brave、Safari...といった最新のブラウザに搭載�
 
 
 
-- URLを分析する**：攻撃者はしばしばオリジナルに非常に近いアドレスを使用する（例：`micr0soft-support.com`、`paypal-verif.net`など）。また、Unicode文字を悪用して、視覚的に類似した文字を代用する者もいる。疑わしい接頭辞や接尾辞がなく、Addressが期待されるサイトに正確に対応していることを確認してください。
+- URLを分析する：攻撃者はしばしばオリジナルに非常に近いアドレスを使用する（例：`micr0soft-support.com`、`paypal-verif.net`など）。また、Unicode文字を悪用して、視覚的に類似した文字を代用する者もいる。疑わしい接頭辞や接尾辞がなく、Addressが期待されるサイトに正確に対応していることを確認してください。
 
 
 
 
 
-- 短縮リンクは避ける**：`bit.ly`や`t.co`などのサービスは、最終的なAddressを隠すことができる。短縮リンクを受け取ったら、疑うか、URL拡張サービスを使ってリンク先を確認しましょう。
+- **短縮リンクは避ける**：`bit.ly`や`t.co`などのサービスは、最終的なAddressを隠すことができる。短縮リンクを受け取ったら、疑うか、URL拡張サービスを使ってリンク先を確認しましょう。
 
 
 
 
 
-- 警戒心を煽るようなメッセージに注意**：フィッシングの手口は、しばしば強い感情（緊急性、脅威、報酬、好奇心...）を利用したものです。あなたの口座がブロックされそうだとか、小包が届かないとかいうメールは、当然疑わしいものです。
+- **警戒心を煽るようなメッセージに注意**：フィッシングの手口は、しばしば強い感情（緊急性、脅威、報酬、好奇心...）を利用したものです。あなたの口座がブロックされそうだとか、小包が届かないとかいうメールは、当然疑わしいものです。
 
 
 
 
 
-- 受信したリンク**を介して機密情報を送信しないでください：正規の機関は、電子メールやSMSでパスワードや認証コード、身分証明書のスキャン・コピーを要求することはありません。
+- 受信したリンクを介して機密情報を送信しないでください：正規の機関は、電子メールやSMSでパスワードや認証コード、身分証明書のスキャン・コピーを要求することはありません。
 
 
 
@@ -6218,7 +6218,7 @@ Firefox、Chrome、Brave、Safari...といった最新のブラウザに搭載�
 
 
 
-- ブックマーク**から重要なサイトにアクセス：
+- **ブックマーク**から重要なサイトにアクセス：
 
 
 
@@ -6250,7 +6250,7 @@ Firefox、Chrome、Brave、Safari...といった最新のブラウザに搭載�
 
 
 
-- SSL/TLS**証明書を検査する：
+- **SSL/TLS証明書を検査する：**
 
 
 
@@ -6302,13 +6302,13 @@ Addressバーの南京錠アイコンは、暗号化された接続を示しま�
 
 
 
-- 1つのブラウザで複数のプロファイルを作成する**：ブラウザによっては、履歴、セッション、拡張機能、設定をそれぞれ独立させたプロファイルを作成できるものもある。これは、複数のブラウザを使い分けるよりは若干制限の少ない解決策ですが、それでも効果的ではありません。
+- 1つのブラウザで複数のプロファイルを作成する：ブラウザによっては、履歴、セッション、拡張機能、設定をそれぞれ独立させたプロファイルを作成できるものもある。これは、複数のブラウザを使い分けるよりは若干制限の少ない解決策ですが、それでも効果的ではありません。
 
 
 
 
 
-- ビルトインコンテナ**を使う：Firefoxには[Multi-Account Containers]拡張機能(https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)が用意されており、ログインとクッキーを持つ別々のタブを開くことができます。また、特定のサイトを特定のコンテナに自動的に割り当てることで、開くたびに別々のサイトを開くことができます。
+- ビルトインコンテナを使う：Firefoxには[Multi-Account Containers]拡張機能(https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)が用意されており、ログインとクッキーを持つ別々のタブを開くことができます。また、特定のサイトを特定のコンテナに自動的に割り当てることで、開くたびに別々のサイトを開くことができます。
 
 
 
@@ -6318,7 +6318,7 @@ Addressバーの南京錠アイコンは、暗号化された接続を示しま�
 
 
 
-- 分離されたシステム環境を使用する**：特に機密性の高い用途では、仮想マシンやDockerコンテナ内でブラウザを実行し、メイン環境から完全に分離することもできます。
+- 分離されたシステム環境を使用する：特に機密性の高い用途では、仮想マシンやDockerコンテナ内でブラウザを実行し、メイン環境から完全に分離することもできます。
 
 
 
@@ -6626,7 +6626,7 @@ GrapheneOSはプロプライエタリなコンポーネントを一切統合し�
 Grapheneは最近のGoogle Pixel（Pixel 6、7、8、9）のみに対応している。
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### カリュコス
 
@@ -6806,7 +6806,7 @@ AndroidとiOSでは、きめ細かな権限管理が可能になった。アプ�
 #### 別のプロフェッショナル・プロフィールを使用する
 
 
-ワーク・プロファイル*は、アンドロイド（アンドロイド5.0以降）のネイティブ機能で、同じスマートフォン内に別のソフトウェア・パーティションを作成することができます。実際、このプロファイルは隔離されたコンテナとして機能する：このスペースに保存されたアプリケーション、アカウント、データは、パーソナル・プロファイル内のものと相互作用することはできません。この分離により、2つのスペース間のデータ漏洩が防止され、アプリケーションのアクセス権が制限される。この機能は企業内部で管理されることが多いが、アプリケーションを分離するために個人的に使用する方法もある。
+ワーク・プロファイルは、アンドロイド（アンドロイド5.0以降）のネイティブ機能で、同じスマートフォン内に別のソフトウェア・パーティションを作成することができます。実際、このプロファイルは隔離されたコンテナとして機能する：このスペースに保存されたアプリケーション、アカウント、データは、パーソナル・プロファイル内のものと相互作用することはできません。この分離により、2つのスペース間のデータ漏洩が防止され、アプリケーションのアクセス権が制限される。この機能は企業内部で管理されることが多いが、アプリケーションを分離するために個人的に使用する方法もある。
 
 
 ![Image](assets/fr/143.webp)
@@ -6842,11 +6842,11 @@ Wi-Fi、Bluetooth、NFC、GPS、モバイルネットワークなど、スマー
 自分の身を守るには、このような公共ネットワークを使わないようにするか、VPNを使うことです。VPNは、あなたのデバイスとリモート・サーバーの間に暗号化されたトンネルを作ります。このトンネルはあなたのデータをカプセル化し、傍受や変更を極めて困難にします。
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 自宅のWi-Fiネットワークについては、SCU202コースの最後のパートでお話しします。
 
@@ -6921,7 +6921,7 @@ NetGuardやRethinkDNSのような、デバイス上で直接ローカルファ�
 そのためには、外付けディスクや暗号化されたUSBキー（Veracryptなど）など、暗号化されたローカルソリューションを使用する必要があります。そうでない場合は、*Syncthing*や*Nextcloud*のようなセルフホスト・クラウド・ソリューションを使えば、アクセスや機密性を完全に管理しながら、個人サーバーにデータをバックアップすることができます。商用クラウド・サービス（Google Drive、iCloud...）とは異なり、これらのソリューションでは、あなたの情報が第三者にさらされることを大幅に制限することができます。
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### リモート・ワイピング
 
@@ -7019,7 +7019,7 @@ Signalは、最初から最大の機密性とセキュリティを提供する�
 要するに、Signalは非常に優れたメッセージング・ソリューションなのだが、残念ながら電話番号からの接続が必要なのだ。
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7042,7 @@ Telegramは、その人間工学と機能（公開チャンネル、ボット、
 そのためTelegramは、明確に保護されていない大半の会話の内容に技術的にアクセスすることができる。たとえ同社が政府当局に対して毅然とした態度をとっているとしても、テレグラムは、日常的に実用的とは言い難い「秘密のやりとり」を明示的に利用しない限り、機密や機微なやりとりに最適なソリューションではない。
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### スリーマ
 
@@ -7065,7 +7065,7 @@ Threemaのもう一つの重要な点は、そのビジネスモデルである�
 このメッセージング・ソリューションは優れていると思うが、最大の欠点はサーバーのソースコードがプロプライエタリなままであることだ。
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleXチャット
 
@@ -7088,7 +7088,7 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 セキュリティと機密性という点では、SimpleXは既存のメッセージングシステムよりもさらに進んでおり、メタデータを最小限に制限し、中央ディレクトリや一意の識別子への依存を排除しています。しかし、このアーキテクチャはユーザの利便性という点では多くの妥協を強いることになります。人間工学的に直感的でなかったり、最初の学習曲線が少し必要だったり、リレーサーバの可用性に依存したりします。
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### セッション
 
@@ -7105,7 +7105,7 @@ Oxen Privacy Tech Foundationが2020年に発表したSessionは、監視に直�
 Sessionクライアントとサーバーはオープンソースである。ソフトウェアはAndroid、iOS、Windows、macOS、Linuxで利用可能で、Bitcoinウォレットで使用されているのと同様のMnemonicフレーズを介してデバイス間で同期するオプションがある。このフレーズにより、ユーザーは自分のデータを排他的に管理することができるが、バックアップの面で大きな責任を負うことになる。
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### キート
 
@@ -7125,7 +7125,7 @@ Keetはすべての通信をエンドツーエンドで暗号化します。登�
 KeetはAndroid、iOS、Windows、macOS、Linuxで利用可能で、Mnemonicフレーズを使ってデバイス間で同期できる。
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### オルヴィド
 
@@ -7162,7 +7162,7 @@ Olvidには2つのバージョンがある：
 OlvidはAndroid、iOS、Windows、macOS、Linuxと互換性がある。人間工学に基づき、シンプルで親しみやすいデザインとなっている。このアプリケーションはまた、キーと連絡先の暗号化されたバックアップシステムを備えているので、新しいデバイスでアカウントを復元することができます。
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### 避けるべきメッセージング・アプリケーション
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobileは、Mozilla Foundationによって開発された人気の�
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [ツタ](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwardenは、利用可能な最も包括的なオープンソースのパス�
 Bitwardenのサーバーを使用することも、完全なコントロールのためにセルフホストすることもできます。そのInterfaceモバイルは、AndroidまたはiOSシステムにシームレスに統合され、明確かつ流動的です。
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePassは暗号化されたローカルファイルに基づいた歴史的な�
 iOS用の[KeePassium](https://keepassium.com/)もあります。これはAppleのエコシステムにうまく統合されたアプリケーションで、KeePassフォーマットと互換性があり、オープンソースです。KeePassクライアントのもう一つのiOS代替はStrongboxですが、このソフトウェアは数年間オープンソースではありません。
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [プロトン・パス](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ VPN（*Virtual Private Network*）は、インターネットトラフィック�
 Mullvadは、プライバシー保護の面で最高のVPNの一つです。メールもパスワードも必要ありません：アカウントはシンプルなランダム番号にリンクされています。支払いはビットコインまたは現金で行うことができます。モバイルクライアントはオープンソースで使いやすく、パワフルです。Mullvadはログを保持せず、ユーザーを追跡せず、定期的に独立したセキュリティ監査を公表しています。
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPNは、プライバシーに焦点を当てたもう一つの優れた代替手段です。シンプルで効率的なモバイルInterfaceを提供し、ログ収集がなく、匿名登録が可能です。ビットコインでの支払いも可能です。このアプリケーションには、VPN以外のトラフィックをすべてブロックするファイアウォールが組み込まれており、スマートフォンでは非常に便利です。クライアントはオープンソースです。
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [プロトンVPN](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegisは包括的なオープンソースのアプリケーションです。パ
 Ente Authは、エンドツーエンドで暗号化されたバックアップを持つ、最新のオープンソース、マルチプラットフォームソリューションです。モバイル、デスクトップ、ウェブ上で安全に2FAコードを同期することができます。また、クラウドバックアップやアカウント作成なしでオフラインで使用することもできます。
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Authは多くの追加機能を提供します：タグによる整理、各サービスのカスタマイズアイコン、メモ、お気に入り、統合検索、安全なチームコード共有。
 
 
@@ -7609,13 +7609,13 @@ Ente Authは多くの追加機能を提供します：タグによる整理、�
 Authyは複数のデバイス間で2FAの同期が可能で便利だが、アプリケーションはオープンソースではなく、登録には電話番号が必要である。しかし、初心者にとっては、特にクラウドバックアップ機能のおかげで、Google Authenticatorよりも完成度が高い。
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 パスワードマネージャー、2FA認証、VPNについてもっと知りたい方は、SCU-101コースの専用章を読むことをお勧めします：
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### 天気
 
@@ -7818,7 +7818,7 @@ Connect Youは、データ収集やサードパーティのクラウドとの強
 - [シンプルギャラリー](https://github.com/SimpleMobileTools/Simple-Gallery)
 
 
-Simple Galleryは、完全にオフラインで動作する最小限のオープンソースアプリケーションです。シンプルモバイルツールスイート*の一部です。それはあなたのデバイスからデータを離れることなく、あなたの画像を管理、並べ替え、表示、編集することができます。また、レタッチ、パスワード保護、削除したアイテムを復元するためのリサイクルゴミ箱などの機能も備えています。追跡も強制同期もありません：あなたの写真はあなたと一緒に残ります。
+Simple Galleryは、完全にオフラインで動作する最小限のオープンソースアプリケーションです。シンプルモバイルツールスイートの一部です。それはあなたのデバイスからデータを離れることなく、あなたの画像を管理、並べ替え、表示、編集することができます。また、レタッチ、パスワード保護、削除したアイテムを復元するためのリサイクルゴミ箱などの機能も備えています。追跡も強制同期もありません：あなたの写真はあなたと一緒に残ります。
 
 
 
@@ -8009,7 +8009,7 @@ F-Droidで利用可能で、完全にオープンソースであるChronoは、�
 ___
 
 
-⚠️ ***注意***：注意**：本章で紹介する選択肢は、ほとんどがオープンソースでプライバシ ー重視のものですが、限界やリスクがないわけではありません。中には、保守が終了したり、パッチが適用されていない脆弱性があったり、プロプライエタリになったり、あるいはマルウェアになる可能性があるものもあります。また、あなたの地域の司法管轄区では違法なものもあるかもしれない。私は2025年6月にこの章を書きましたが、その後、これらのアプリケーションの状況は変わっているかもしれません。
+⚠️ **注意**：本章で紹介する選択肢は、ほとんどがオープンソースでプライバシー重視のものですが、限界やリスクがないわけではありません。中には、保守が終了したり、パッチが適用されていない脆弱性があったり、プロプライエタリになったり、あるいはマルウェアになる可能性があるものもあります。また、あなたの地域の司法管轄区では違法なものもあるかもしれない。私は2025年6月にこの章を書きましたが、その後、これらのアプリケーションの状況は変わっているかもしれません。
 
 
 さらに、私は言及したすべてのツールのコードを個人的に監査したわけではないし、私の推奨は決して絶対的な保証とみなされるべきではない。したがって、これらのアプリケーションを使用する前に、各自で調査することが重要である。
@@ -8070,8 +8070,8 @@ ___
 
 
 
-- IP** (*インターネットプロトコル*) 接続された各デバイスを識別し、データパケットをルーティングする。
-- TCP** (*伝送制御プロトコル*) フローをセグメント化し、エラーをチェックし、セグメントを順番に戻す。
+- **IP** (*インターネットプロトコル*) 接続された各デバイスを識別し、データパケットをルーティングする。
+- **TCP** (*伝送制御プロトコル*) フローをセグメント化し、エラーをチェックし、セグメントを順番に戻す。
 
 
 → 信頼性がレイテンシーよりも重要でないリアルタイム用途（VoIP、DNS、ストリーミングなど）では、TCPの代わりにUDP（*User Datagram Protocol*）という別のトランスポート・プロトコルが使われることが多い。
@@ -8282,10 +8282,16 @@ Wi-Fiネットワークにアクセスした攻撃者は、このようなこと
 Wi-Fi 6、Wi-Fi 6E、Wi-Fi 7対応のルーターなら、速度が向上し、何よりも最新のセキュリティ技術にネイティブ対応している。逆に、非常に古い機器、特にソフトウェア・アップデートを受けなくなった機器には、パッチが適用されていない既知の脆弱性が含まれている可能性があります。そのため、たとえ正しく設定したとしても、ネットワーク全体にとってのリスクとなります。携帯電話やパソコンと比べると、ルーターは何年も使い続ける機器です。しかし、より最新の、よりセキュアなモデルのメリットを享受するためには、もっと定期的に買い換えるのがよいかもしれません。
 
 
+**注意**: 一般的な経験則として、ISP が提供するルーターには、重要な更新機能やカスタマイズ機能が欠けている場合があります。場合によっては、ISP がエンドユーザーの内部ネットワークに無制限にアクセスできることもあります。
+
 そのため、ルーターのファームウェアを計画的にアップデートしてください。これらのアップデートは、脆弱性を修正し、新しい機能を追加し、システム全体の安定性を向上させます。一部のメーカーは自動更新を提供していますが、いくつかのケースでは、ルータのInterface管理ツールを介して手動でチェックする必要があります.お使いの携帯電話、コンピュータ、オペレーティングシステムやソフトウェアと同様に、それは定期的にルータを更新することが重要です.あなたの毎週のルーチンの一部にすることができます - 毎週日曜日, 例えば - あなたがチェックし、最新の状態に保つために必要なすべての項目のリストを作成することによって.
 
 
-ルーターのメンテナンスが終了していても、ハードウェア的には正常に動作している場合は、次のような代替のオープンソースファームウェアをインストールすることができます：
+代替手段として、自動更新を有効にするか、少なくとも新しいファームウェア更新を自動スキャンするようにすることができます（手動で対応することを好む場合）。自動更新機能は依然としてセキュリティ上の脅威になり得ますが、ルーターのファームウェアを定期的に更新しないと、ローカルネットワークは公知の脆弱性にさらされます。
+
+**例**: 自分用のルーターを購入する際には、市場で長年ルーターを提供している確立された企業を探すのが良い場合があります。例えば、Fritz!Boxルーターはプラグアンドプレイの機器として長年の評判があり、家庭環境や小規模企業の両方での使用に適しています。彼らのソフトウェア更新ポリシーは通常数年間にわたります。
+
+ルーターがもはや保守されていないが、ハードウェア面では正常に動作している場合、次のような代替のオープンソースファームウェアをインストールできるかもしれません：
 
 
 
@@ -8293,13 +8299,15 @@ Wi-Fi 6、Wi-Fi 6E、Wi-Fi 7対応のルーターなら、速度が向上し、�
 - pfSense と OPNsense、x86 ファイアウォールとルーター用の FreeBSD ベースの (Unix ライクな) 2 つのシステム。
 
 
+**注意**: 一部のISPは、同時に世界中の多くの異なるISPにサービスを提供している単一の会社が製造した大量のルーターを顧客に供給しています。ルーターに代替ファームウェアの1つをインストールするために、他の誰かが既にその方法を発見していることがあるかもしれません、たとえ彼らが世界の反対側にいても。
+
 ![Image](assets/fr/196.webp)
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 これらのシステムは、ファイアウォール・ルール、送受信接続、ネットワーク・セグメンテーション（VLAN）、DNS管理などをより細かく制御できるが、上級ユーザー向けである。
 
@@ -8336,9 +8344,9 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 このパスワードは、長さ（40文字）、複雑さ（数字、小文字、大文字、記号）、ユニークさ（他で再利用されないこと）、ランダムさが求められます。generateにパスワードマネージャーを使用し、これらの認証情報を安全に保存することをお勧めします。
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 警告：ルーターの管理パスワード（設定へのアクセスを保護する）とWi-Fiパスワード（ワイヤレスネットワークへの接続を許可する）を混同しないでください。これらは2つの異なるElementsであり、どちらも変更する必要があります。
 
@@ -8356,37 +8364,37 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-- UPnP（*ユニバーサル・プラグ・アンド・プレイ*）**：
+- UPnP（*ユニバーサル・プラグ・アンド・プレイ*）：
 
 
 この機能を使用すると、ネットワーク上のデバイスがルーターにポートを自動的に開くように要求できるようになります。これにより、特定の用途（オンラインゲーム、接続されたカメラなど）が容易になる一方で、許可なくネットワーク設定を変更できる悪意のあるアプリケーションへの扉を開くことにもなります。UPnPは、意図せずに内部サービスが外部に公開される主な原因の1つです。
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**：
+- WPS (*Wi-Fi Protected Setup*)：
 
 
 もともと、パスワードを入力することなくWi-Fiにデバイスを接続することを簡単にするために設計されたこのシステムは、しばしば弱く、総当たりで簡単に攻撃されるPINコードに基づいている。無効にすることをお勧めする。
 
 
 
-- リモートアクセス(*リモート管理*)**：
+- リモートアクセス（*リモート管理*）：
 
 
 一部のルーターでは、インターネットを経由して外部から管理Interfaceに接続することができます。この機能は、ルーターの攻撃面を不当に増加させます。リモート管理の特別な必要がない限り、完全に無効にしてください。その場合でも、常にVPNを使用してください。
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- 時代遅れまたは安全でないプロトコル**：
+- **時代遅れまたは安全でないプロトコル**：
 
 
 Telnet、FTP、暗号化されていない HTTP、SMBv1 などのプレーンテキストのプロトコルを使用する管理サービスはすべて無効にしてください。 これらのプロトコルは、交換データの機密性も完全性も保証しておらず、マルウェアの標的になることがよくあります。ローカルまたはリモートアクセスが必要な場合は、HTTPS（暗号化されたInterface）、SSH、またはSFTP経由の接続のみを適宜使用してください。
 
 
 
-- Ping WAN / ICMP**：
+- Ping WAN / ICMP：
 
 
 ルーターの中には、外部から送られてくるICMPリクエストにデフォルトで応答するものがある（`ping`コマンド）。これにより、攻撃者はあなたのネットワークがアクティブでアクセス可能かどうかを確認することができる。必要ない場合は、ルーターのファイアウォールでこの応答を無効にしてください。
@@ -8475,15 +8483,15 @@ DNS (*Domain Name System*) は、人間が理解できるウェブアドレス (
 
 
 
-- DoH（*DNS over HTTPS*）**：DNSリクエストをHTTPSプロトコルでカプセル化し、従来の暗号化されたウェブ・トラフィックと区別できないようにする。
+- DoH（*DNS over HTTPS*）：DNSリクエストをHTTPSプロトコルでカプセル化し、従来の暗号化されたウェブ・トラフィックと区別できないようにする。
 
 
 
-- DoT（*DNS over TLS*）**：あなたのデバイスとDNSサーバーの間に特定の暗号化されたチャネルを作成します。
+- DoT（*DNS over TLS*）：あなたのデバイスとDNSサーバーの間に特定の暗号化されたチャネルを作成します。
 
 
 
-- DoQ (*DNS over QUIC*)**：UDPベースのQUICプロトコルでDNSリクエストを転送する。
+- DoQ (**DNS over QUIC**)：UDPベースのQUICプロトコルでDNSリクエストを転送する。
 
 
 現実的には、DNSの暗号化とサーバーの切り替えはさまざまなレベルで実装できる：
@@ -8497,7 +8505,7 @@ DNS (*Domain Name System*) は、人間が理解できるウェブアドレス (
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - オペレーティングシステムレベル：一部のOSは、暗号化DNSサポート（DoTまたはDoH）をネイティブに統合しており、システムのネットワークスタックを通過するすべてのDNSリクエストを保護します。しかし、これはコンピュータや電話全体を保護するものではありません：アプリケーションは、別のDNSリゾルバやプロトコルを使うように設定されていれば、この設定をバイパスすることができる。
 
 
@@ -8512,7 +8520,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 さらに一歩進んで、Pi-holeやAdGuard HomeなどのローカルDNSフィルタリングソリューションを設定することもできる。
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 これらのツールは、ネットワーク内の小さなDNSサーバーのように動作し、広告、ブラウザトラッカー、フィッシングや悪意のあるサイトをホストしていることが知られているドメインへのリクエストをブロックします。これらのツールは、独自のブロックリストを作成したり、接続されているデバイスに応じてフィルタリングをカスタマイズすることもできます。
 
@@ -8533,19 +8541,19 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 - ワイヤーガード最新、高速、軽量
 - OpenVPN: 古いが、非常に成熟しており、設定可能。
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 ここでは、WireGuardを使用した設定が簡単なVPNソリューション、Tailscaleの完全なチュートリアルを紹介します：
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 このVPNは、互換性のあるルーター、小型コンピューター（Raspberry Piなど）、または自宅の専用サーバーで直接ホストすることができます。また、任意のデバイスに直接クライアントとしてインストールすることもできます。
 
 しかし、VPNはリモートアクセスのためだけのものではない。外出先（公衆Wi-Fi、ホテル、大学など）でも、お使いのデバイスで一般的なVPNクライアントを使用して、すべての発信トラフィックを暗号化することができます。この場合、デバイスはサードパーティのVPNサーバー（商用またはセルフホスト）に接続し、VPNサーバーがインターネットへの接続を中継します。これにより、ISPからあなたの実際のIP Addressを隠し、ローカルスパイからデータを保護し、特定の形式の検閲を回避します。
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 最後に、ルーターに直接VPNを設定することも可能で、各デバイスにVPNクライアントをインストールすることなく、家庭内のすべてのデバイスを保護することができる。
 
@@ -8555,17 +8563,17 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 最初のステップは、セキュリティ・ログを一元化することである。ネットワークに接続されたすべてのデバイスは、接続、エラー、不審なアクティビティに関する情報を含むログを生成する。これらのログを個別に参照するよりも、グループ化、ソート、分析が可能なサーバーに送信することをお勧めする。GraylogやElastic Stack (ELK)などのソリューションでは、これらのログをグラフィカルなInterfaceに集約することができ、そこで特定のイベントを検索したり、アラートを作成したり、ネットワーク・アクティビティを可視化したりすることができる。
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 次に、Nmapなどで、ローカルネットワークのアクティブスキャンを定期的に実行する。これにより、ネットワーク上のすべてのデバイスと、それらが開いているポートの概要がわかる。未知のデバイスや通常とは異なるサービスが確認された場合、攻撃の兆候である可能性がある。
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 さらに進んで、IDS（侵入検知システム*）やIPS（侵入防御システム*）を導入することもできる。SuricataやSnortなどのこれらのツールは、リアルタイムでネットワークフローを監視し、既知の攻撃のシグネチャー（ポートスキャン、インジェクション、不審な接続など）を検出します。IDSは警告を発し、IPSは特定のアクションを自動的にブロックすることができる。
 
 最後に、帯域幅の消費を監視することも、異常な活動の良い指標となる。あるデバイスが突然、明確な理由もなく大量のデータを消費した場合、これは不正ダウンロード、データ漏えい、あるいは侵害されたデバイスを裏切る可能性がある。ntopngやvnStatなどのツールを使用すると、デバイスごとの送受信フローを表示できます。
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### バックアップと回復力
 
@@ -8598,3 +8606,4 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

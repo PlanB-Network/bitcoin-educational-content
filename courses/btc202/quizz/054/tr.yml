@@ -1,0 +1,9 @@
+question: Hangi Bitcoin core sürümü Ultraprune modelini tanıttı?
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  0.8.0 sürümünden bu yana, Bitcoin core artık küresel bir dizin kullanmıyor, ancak Ultraprune sayesinde doğrudan UTXO kümesini koruyor.
+reviewed: true

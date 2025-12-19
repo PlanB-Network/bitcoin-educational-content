@@ -1,0 +1,40 @@
+id: 8a6d2cba-ced8-11f0-833a-638aea8a47f1
+
+
+published_at: 2025-12-10
+
+topic: bitcoin
+subtopic: bitcoin
+
+type: theory
+level: intermediate
+hours: 3
+
+teaching_format: professor_led
+professors_id:
+  - de3c7e8e-cedf-11f0-82bd-b32e37c791e7
+
+format: inperson # online, inperson, hybrid
+address_city_country: Paris, France
+address_line_2: 3 rue de Montyon, 9eme arrondissement
+
+start_date: 2025-12-18 # update based on info
+end_date: 2025-12-19 # update based on info
+requires_payment: true # keep that one
+inperson_price_dollars: 0 # update based on info
+payment_expiration_date: 2025-12-19 # start_date - 1 day
+available_seats: 40 # update based on info
+paid_description: |
+  Ce séminaire aborde l’histoire immédiate pour éclairer la géopolitique de Bitcoin, en explorant ses dimensions monétaires, technologiques, énergétiques et stratégiques actuelles. 
+
+is_gdpr_compliance: true
+custom_tc_disclaimer: I accept that some information such as Username, Display Name and Email may be shared with the course instructor for course delivery purposes.
+
+original_language: fr # update based on info
+proofreading:
+  - language: fr # same as original_language
+    last_contribution_date: 2025-12-01 # same as today
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0.32

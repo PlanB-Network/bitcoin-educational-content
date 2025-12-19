@@ -13,12 +13,12 @@ description: Preserve your privacy and confidentiality.
 
 
 
-- Free**: Like most Linux distributions, Whonix is an open-source system licensed completely free of charge. It is developed in open source, with an active and transparent community.
-- Privacy, security and anonymity**: Whonix's main objective is to offer an ultra-secure environment, in which all your data is protected and your communications encrypted via the Tor network.
-- Easy to use**: Whonix offers an intuitive, pre-configured graphical Interface, suitable even for novice users. No need to be an expert to benefit from advanced protection.
-- Ideal environment for secure development**: Whonix lets you develop, test, audit or run programs without ever revealing your real IP address or exposing your browsing or network communication habits.
-- Disposable sessions and Live mode**: Whonix can be launched in Live mode or via disposable machines (e.g. via **Qubes OS**), enabling critical tasks to be carried out without leaving persistent traces once the session has ended.
-- Relatively simple installation**: Ready-to-use images are supplied for rapid installation in virtual machines (VirtualBox, KVM, Qubes). The system is documented and regularly updated.
+- **Free**: Like most Linux distributions, Whonix is an open-source system licensed completely free of charge. It is developed in open source, with an active and transparent community.
+- **Privacy, security and anonymity**: Whonix's main objective is to offer an ultra-secure environment, in which all your data is protected and your communications encrypted via the Tor network.
+- **Easy to use**: Whonix offers an intuitive, pre-configured graphical Interface, suitable even for novice users. No need to be an expert to benefit from advanced protection.
+- **Ideal environment for secure development**: Whonix lets you develop, test, audit or run programs without ever revealing your real IP address or exposing your browsing or network communication habits.
+- **Disposable sessions and Live mode**: Whonix can be launched in Live mode or via disposable machines (e.g. via **Qubes OS**), enabling critical tasks to be carried out without leaving persistent traces once the session has ended.
+- **Relatively simple installation**: Ready-to-use images are supplied for rapid installation in virtual machines (VirtualBox, KVM, Qubes). The system is documented and regularly updated.
 
 
 ## Installation and configuration
@@ -43,9 +43,9 @@ Here are the recommended specifications for a smooth and stable experience with 
 
 
 
-- Random Access Memory (RAM)**: a minimum of **8 GB** is strongly recommended. The more RAM you have, the more resources you can allocate to the virtual machines (Gateway and Workstation), improving performance.
+- **Random Access Memory (RAM)**: a minimum of **8 GB** is strongly recommended. The more RAM you have, the more resources you can allocate to the virtual machines (Gateway and Workstation), improving performance.
 - Available disk space**: please allow at least 30 GB of free disk space**. This includes the space required for the two virtual machines, system files and any data or snapshots.
-- Processor**: a processor with at least **4 physical cores** (8 logical threads) is recommended, especially if you want to run other services or tools in parallel.
+- **Processor**: a processor with at least **4 physical cores** (8 logical threads) is recommended, especially if you want to run other services or tools in parallel.
 
 
 ### Download Whonix
@@ -66,7 +66,7 @@ To run Whonix, you'll need a **hypervisor** like VirtualBox, Qubes or KVM.
 Once you've downloaded the file, install it as you would any other software. Accept the default options unless you have specific requirements. Are you lost? Check out our guide to using VirtualBox.
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Importing Whonix
 
 
@@ -170,7 +170,7 @@ sudo apt full-upgrade
 **Tor Browser** is Whonix's default web browser. It relies on the **Tor** network, which redirects your traffic through several relays around the world, making it virtually impossible to identify your real IP address.
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -178,7 +178,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 **Electrum** is a light and fast Bitcoin wallet, preinstalled on Whonix to let you manage **cryptocurrency transactions** anonymously. It doesn't download the whole Blockchain but uses remote servers to obtain the necessary information, making it much lighter than a full Wallet.
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix is more than just an operating system: it's a genuine **secure environment** designed to protect your anonymity, your privacy and your sensitive activities. Thanks to its Tor-based architecture, intelligent partitioning between Gateway and Workstation, and pre-installed tools such as Tor Browser, KeePassXC and Electrum, it offers a turnkey solution for anyone wishing to **browse anonymously**, **work securely** or **handle confidential data**.
 
@@ -186,4 +186,4 @@ Whonix is more than just an operating system: it's a genuine **secure environmen
 To strengthen your security on your Unix system, take a look at our tutorial on auditing your machine: check for security holes in your operating system and make sure your data isn't compromised.
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

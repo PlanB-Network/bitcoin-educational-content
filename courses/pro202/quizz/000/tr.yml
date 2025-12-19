@@ -1,0 +1,8 @@
+question: Bitcoin'ın secp256k1'i hangi eliptik eğri denklemini kullanıyor?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin özellikle y² = x³ + 7 basitleştirilmiş denklemine sahip secp256k1 eliptik eğrisini kullanır. Bu, a = 0 ve b = 7 olan genel eliptik eğri formu y² = x³ + ax + b'nin özel bir durumudur. Diğer seçenekler yanlıştır: y² = x³ + ax + b genel formdur ancak Bitcoin'in özel eğrisi değildir, y² = x³ + 5 yanlış sabiti kullanır ve y² = x³ + x + 7 yanlışlıkla secp256k1'de bulunmayan doğrusal bir x terimi içerir.

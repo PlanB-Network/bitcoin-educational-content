@@ -1,8 +1,8 @@
-question: Ni uburyo bumwe ubuhe bwo kwigerageza Lightning Network?
-answer: Mu kugerageza porogarama ya podcast yitwa Fountain.
+question: Ni ikihe kimwe mu bibazo nyamukuru bijanye n’ugucengera amakuru?
+answer: Bishobora gusenyura umwidegemvyo wo kuvuga n’uburenganzira bwo gukoranira hamwe.
 wrong_answers:
-  - Na Mining Bitcoin akoresheje mudasobwa y’umuntu ku giti ciwe.
-  - Mu kugura Bitcoin muri banki.
-  - Mu kurema amafaranga mashasha y’ivy’ubuhinga bwa none.
+  - Bishobora gutuma umwidegemvyo wo kuvuga ushirwa mu ngiro.
+  - Bishobora gutuma uburenganzira bwo gukoranira hamwe bushigikirwa cane.
+  - Bishobora gutuma ubuhinga bushasha bugabanuka.
 explanation: >-
 reviewed: true

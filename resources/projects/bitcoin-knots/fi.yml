@@ -1,4 +1,2 @@
 description: |
   Bitcoin Knots on Bitcoin-protokollan vaihtoehtoinen toteutus, joka on johdettu Bitcoin Core -protokollasta. Luke Dashjrin suunnittelema ja ylläpitämä Knots tarjoaa lisätoimintoja ja sääntömuutoksia, mutta on samalla yhteensopiva verkon muiden solmujen kanssa. Bitcoin Knotsia voidaan käyttää integroidun salkun hallintaan tai toimimaan yksinkertaisena, täydellisen validoinnin solmuna. Se tarjoaa kokeneille käyttäjille edistyneempää hallintaa erityisesti transaktioiden validoinnin ja konfiguroinnin osalta.
-contributor_names:
-  - LoicPandul

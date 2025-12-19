@@ -1,0 +1,8 @@
+question: Mis on Rust enumide peamine eelis, et nad suudavad kanda andmeid iga variandi piires?
+answer: See hoiab ära ebakõla tüübinäitajate ja nendega seotud andmete vahel, koondades need kokku
+wrong_answers:
+  - See võimaldab enumidel automaatselt rakendada kõiki standardseid tunnuseid ilma selgesõnalise deklareerimiseta
+  - See võimaldab kasutada enumeid üldiste parameetritena mis tahes funktsioonis või meetodis
+  - See paneb enumid tarbima vähem mälu kui traditsioonilised struktuurid sarnaste andmetega
+explanation: |
+  Rust enumid võivad lisada andmeid otse igale variandile, mis välistab tavalise programmeerimisvea, milleks on eraldi muutujate säilitamine tüübinäitajate ja nendega seotud andmete jaoks. Selline disain tagab, et andmed vastavad alati variandile, vältides vastuolusid, mis võivad põhjustada tööaegseid vigu. Erinevalt teistest keeltest, kus võib olla eraldi enum tüübi jaoks ja muutujad andmete jaoks, koondab Rust kõik kokku, mis muudab võimatuks tüübi ja andmete mittevastavuse.

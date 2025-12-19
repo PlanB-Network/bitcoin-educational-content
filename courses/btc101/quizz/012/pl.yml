@@ -1,12 +1,10 @@
-question: Kim są cypherpunks?
-answer: Grupa ludzi, którzy zaczęli głęboko kwestionować rolę prywatności i wolności w erze cyfrowej.
+question: Jakie są trzy kanoniczne funkcje pieniądza?
+answer: Środek przechowywania wartości, środek wymiany, jednostka rozliczeniowa.
 wrong_answers:
-  - Grupa hakerów, którzy wykradali informacje od rządów.
-  - Grupa ludzi, którzy wymyślili Bitcoin i inne kryptowaluty.
-  - Grupa ludzi, którzy sprzeciwiali się wykorzystaniu technologii.
+  - Środek przechowywania wartości, środek wymiany, środek produkcji.
+  - Środek przechowywania wartości, środek produkcji, jednostka rozliczeniowa.
+  - Środek wymiany, środek produkcji, jednostka rozliczeniowa.
 explanation: |
-  Cypherpunks to grupa osób, które wierzyły, że
-  że kryptografia może służyć jako narzędzie do ochrony
-  indywidualnych praw przed ingerencją rządów
-  i dużych korporacji.
+  Według Arystotelesa pieniądz pełni trzy funkcje: jest środkiem przechowywania wartości, środkiem wymiany i jednostką rozliczeniową. W dzisiejszych czasach funkcja środka wymiany jest
+  powszechnie uznawana za główną, przed dwiema pozostałymi.
 reviewed: true

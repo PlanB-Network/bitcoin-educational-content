@@ -1,11 +1,11 @@
-question: Was ist die Hauptfunktion von Knoten im Bitcoin-Netzwerk?
-answer: Eine Kopie der Bitcoin-Blockchain zu bewahren, Transaktionen zu validieren, Informationen an andere Knoten zu übermitteln und die Regeln des Bitcoin-Protokolls durchzusetzen.
+question: Worum ging es im Blockkrieg im Jahr 2017?
+answer: Ein Konflikt darüber, ob die Blockgröße erhöht werden sollte, um die Transaktionskapazität zu erweitern.
 wrong_answers:
-  - Eine Kopie der Bitcoin-Blockchain zu bewahren, Transaktionen zu validieren, Informationen an die Regierung zu übermitteln und die Regeln des Bitcoin-Protokolls zu ändern.
-  - Nur eine Kopie der Bitcoin-Blockchain zu bewahren.
-  - Nur Informationen an andere Knoten zu übermitteln.
-explanation: >-
-  Knoten im Bitcoin-Netzwerk erfüllen mehrere entscheidende Funktionen, einschließlich
-  der Bewahrung einer Kopie der Bitcoin-Blockchain, der Validierung von Transaktionen, der Übermittlung
-  von Informationen an andere Knoten und der Durchsetzung der Regeln des Bitcoin-Protokolls.
+  - Ein Konflikt darüber, ob die Blockgröße verringert werden sollte, um die Transaktionskapazität zu reduzieren.
+  - Ein Konflikt darüber, ob die Blockbelohnung erhöht werden sollte, um Miner zu incentivieren.
+  - Ein Konflikt darüber, ob die Blockbelohnung verringert werden sollte, um Miner zu disincentivieren.
+explanation: |
+  Der Blockkrieg im Jahr 2017 war ein Konflikt darüber, ob
+  Bitcoin durch Erhöhung der Blockgröße modifiziert werden sollte,
+  um die Transaktionskapazität zu erweitern.
 reviewed: true

@@ -1,11 +1,10 @@
-question: Jaké je jedno z rizik spojených s nákupem Bitcoinu?
-answer: Jeho cena může klesnout na 0.
+question: Na co byste měli myslet při výběru platformy pro DCA?
+answer: Dostupnost ve vaší zemi.
 wrong_answers:
-  - Může být snadno ukraden.
-  - Může být duplikován.
-  - Může být fyzicky ztracen.
+  - Barva loga platformy.
+  - Počet uživatelů na platformě.
+  - Stáří platformy.
 explanation: |
-  Text kurzu uvádí, že Bitcoin je vysoce volatilní
-  finanční aktivum a jeho cena může klesnout na 0, což je jedno
-  z rizik spojených s nákupem Bitcoinu.
+  Tento kurzovní text zmíní, že při výběru platformy pro DCA
+  je správná volba více závislá na její dostupnosti ve vaší zemi.
 reviewed: true

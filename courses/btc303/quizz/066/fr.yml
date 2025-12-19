@@ -1,0 +1,9 @@
+question: Dans le contexte du mining sans validation, quel est le principal risque de sécurité auquel les mineurs sont confrontés lorsqu'ils reportent la validation complète des blocs pour éviter les blocs périmés ?
+answer: Ils risquent de construire temporairement sur une blockchain invalide, en gaspillant de la puissance de calcul sur une chaîne qui finira par être rejetée
+wrong_answers:
+  - Ils risquent de voir leurs propres blocs rejetés par le réseau en raison d'une validation incomplète des transactions précédentes
+  - Ils risquent de perdre définitivement leurs récompenses mining, car la validation sans mining est considérée comme une violation du protocole
+  - Ils risquent de créer des attaques par double dépense parce qu'ils ne peuvent pas vérifier que les transactions entrantes sont légitimes
+explanation: |
+  Lorsque les mineurs pratiquent le mining sans validation, ils ne vérifient que le proof-of-work dans l'en-tête du bloc et démarrent immédiatement le mining par-dessus, tout en téléchargeant et en validant le bloc complet en parallèle. Le risque majeur est qu'ils construisent sur un bloc invalide, ce qui signifie que leur effort de calcul est gaspillé sur une branche de la chaîne de blocs qui sera rejetée une fois que le bloc invalide sera découvert. Cela nuit à la sécurité du réseau car une partie de la puissance de mining ne contribue pas à la chaîne valide la plus forte, qui est le mécanisme de sécurité fondamental de Bitcoin.
+reviewed: false

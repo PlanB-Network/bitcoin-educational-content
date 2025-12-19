@@ -1,0 +1,8 @@
+question: Ni tatizo gani kubwa ambalo utaratibu wa chaneli wa Breez SDK unaofanya kazi kwa wakati unaofaa hutatua ambalo utekelezaji wa jadi wa Lightning unapambana nalo?
+answer: Huunda kiotomatiki njia mpya zenye ukwasi wa kutosha unaoingia wakati malipo yanapofika, na hivyo kuondoa hitaji la watumiaji kudhibiti uwezo wa njia kwa mikono.
+wrong_answers:
+  - Huzuia kufungwa kwa nguvu kwa njia za chaneli kwa kusawazisha kiotomatiki fedha katika njia nyingi wakati moja inaposhindwa kujibu au inapopotea mtandaoni.
+  - Inapunguza ada za miamala kwa kuunganisha malipo mengi madogo katika shughuli kubwa za njia ambazo hushughulikiwa wakati wa saa za mtandao zisizo za kilele.
+  - Inaondoa hitaji la huduma za mnara wa watchtower kwa kuunda njia za muda ambazo huisha muda wake kiotomatiki baada ya malipo kukamilika kwa mafanikio.
+explanation: |
+  Utaratibu wa njia ya malipo kwa wakati unaofaa hushughulikia haswa changamoto ya usimamizi wa ukwasi wa Lightning ambapo fedha zinaweza kutiririka tu katika mwelekeo ambapo uwezo upo. Mtumiaji anapohitaji kupokea malipo lakini hana ukwasi wa kutosha unaoingia, LSP hufungua kiotomatiki njia mpya wakati malipo yanapofika, ikitokea bila usumbufu bila kuingilia kati kwa mtumiaji. Majibu yasiyo sahihi yanaelezea changamoto zingine za Lightning lakini sio tatizo maalum la ukwasi ambalo njia za malipo kwa wakati unaofaa hutatua.

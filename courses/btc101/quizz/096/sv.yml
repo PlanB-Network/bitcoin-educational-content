@@ -1,11 +1,13 @@
-question: Vad representeras den privata nyckeln ofta av i en Bitcoin Wallet?
-answer: En lista med 12 eller 24 ord.
+question: Vad är syftet med att skapa en arvsplan för dina bitcoins?
+answer: För att säkerställa att dina bitcoins kommer att hanteras korrekt efter din död.
 wrong_answers:
-  - En lista med 12 eller 48 ord.
-  - En lista med 32 ord.
-  - En lista med 64 ord.
+  - För att undvika skatt på dina bitcoins.
+  - För att minska värdet på dina bitcoins.
+  - För att förhindra att dina bitcoins blir stulna.
 explanation: |
-  I en Bitcoin Wallet representeras den privata nyckeln ofta av en
-  av en lista med 12 eller 24 ord, även känd som en seed-fras
-  eller Mnemonic-fras.
+  En arvsplan säkerställer att dina bitcoins kommer att hanteras
+  hanteras på rätt sätt efter din död. Den kan innehålla ett
+  handskrivet brev som beskriver dina tillgångar, deras åtkomst
+  metoder och kontaktuppgifter till betrodda personer som ska
+  som ska kontaktas.
 reviewed: true

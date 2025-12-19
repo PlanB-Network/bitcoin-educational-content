@@ -1,0 +1,9 @@
+question: Wodurch unterscheiden sich Online-Systeme wie Bitcoin grundlegend von physischen Systemen, wenn es um feindliche Bedrohungen geht?
+answer: Online-Systeme sind mit pseudonymen und anonymen Angreifern konfrontiert, die jede Schwachstelle ausnutzen können, ohne sichtbar zu sein oder erwischt zu werden
+wrong_answers:
+  - Online-Systeme haben komplexere kryptografische Algorithmen, die schwieriger auf Sicherheitsschwachstellen zu analysieren sind
+  - Physische Systeme können von den Strafverfolgungsbehörden geschützt werden, während Online-Systeme nur auf mathematischen Beweisen beruhen
+  - Online-Systeme verarbeiten Transaktionen schneller, was es für Angreifer einfacher macht, koordinierte Angriffe zu starten
+explanation: |
+  Der von Andrew Poelstra hervorgehobene Hauptunterschied besteht darin, dass sich physische Systeme auf die Strafverfolgung und die Sichtbarkeit der Gegner verlassen können, um Angriffe abzuschrecken, und dabei sogar einige Risiken wie das Abbrennen von Gebäuden in Kauf nehmen. Online-Systeme wie Bitcoin operieren jedoch in einer Umgebung, in der Angreifer pseudonym oder anonym agieren, sich von überall aus einloggen und Schwachstellen ausnutzen können, ohne identifiziert oder erwischt zu werden. Dieser grundlegende Unterschied bedeutet, dass alle bekannten Schwachstellen in Bitcoin behoben werden müssen, da sie unweigerlich von unsichtbaren Angreifern ausgenutzt werden, die keine Konsequenzen in der realen Welt befürchten müssen.
+reviewed: false

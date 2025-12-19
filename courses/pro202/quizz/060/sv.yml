@@ -1,0 +1,8 @@
+question: Vilken specifik mekanism säkerställer att pre-SegWit-noder accepterar P2WPKH-transaktioner som giltiga utan att förstå reglerna för vittnesvalidering?
+answer: Pre-SegWit-noder tolkar OP_0 + 20-byte hashskript som en "anyone-can-spend"-utdata som inte kräver någon signaturverifiering
+wrong_answers:
+  - Pre-SegWit-noder vidarebefordrar automatiskt P2WPKH-transaktioner till uppgraderade noder för vittnesvalidering innan de accepteras
+  - Pre-SegWit-noder känner igen P2WPKH-mönstret och hoppar över valideringen helt och hållet och behandlar alla vittnestransaktioner som förvaliderade
+  - Pre-SegWit-noder konverterar vittnesdata tillbaka till traditionellt scriptSig-format med hjälp av omvandlingsregler för bakåtkompatibilitet
+explanation: |
+  Det geniala med SegWit:s design ligger i att utnyttja hur noder före SegWit hanterar okända skriptmönster. När dessa äldre noder stöter på ett P2WPKH-skript (OP_0 följt av en 20-byte push) känner de inte igen det som ett speciellt vittnesprogram. Istället utvärderar de det som ett standardskript som lämnar OP_0 och hashen på stacken. Eftersom OP_0 utvärderas till false i Bitcoin:s skriptsystem tolkar noder före SegWit detta som ett "anyone-can-spend"-villkor - vilket innebär att ingen signaturverifiering krävs ur deras perspektiv. Detta gör att transaktionen kan accepteras i deras mempool och block utan att bryta konsensus, medan SegWit-medvetna noder utför den faktiska kryptografiska valideringen med hjälp av vittnesdata.

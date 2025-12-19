@@ -1,9 +1,9 @@
-question: Khóa học này gợi ý điều gì về tương lai của Bitcoin?
-answer: Nó sẽ không biến mất.
+question: Cách tiếp cận nào cấu trúc sự tiến hóa của Bitcoin được mô tả trong chương này?
+answer: Tiến hóa theo lớp
 wrong_answers:
-  - Nó sẽ bị thay thế bởi một công nghệ tốt hơn.
-  - Nó sẽ bị cấm trên toàn thế giới.
-  - Nó sẽ mất giá trị.
+  - Blockchain đơn khối
+  - Sharding gốc
+  - Thực thi onchain tổng quát
 explanation: |
-  Văn bản của khóa học gợi ý rằng Bitcoin sẽ không biến mất. Ngược lại, cuộc cách mạng mới chỉ bắt đầu.
-reviewed: true
+  Bitcoin giữ một lớp cơ sở đơn giản và vững chắc, trong khi các giao thức cấp cao hơn bổ sung các chức năng cụ thể.
+reviewed: false

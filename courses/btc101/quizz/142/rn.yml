@@ -1,8 +1,10 @@
-question: Node ya pruned ni ikihe mu bijanye na Bitcoin?
-answer: Igipfukisho kigumya gusa amabuye N ya nyuma mu ciyumviro.
+question: None Lightning Network ni iki?
+answer: Urubuga rwo kwishura Bitcoin rushingiye kuri Bitcoin Blockchain.
 wrong_answers:
-  - Igikoresho cemeza gusa amafaranga.
-  - Igikoresho gitanga amakuru gusa ku zindi nzira.
-  - Igikoresho gishitsa gusa amategeko y’umurongo wa Bitcoin.
-explanation: >-
+  - Igikoresho gitandukanye ca Blockchain n'ica Bitcoin Blockchain.
+  - Ihuriro ry’abacukuzi b’amabuye y’agaciro Bitcoin.
+  - Urubuga rw’amahinguriro ya Bitcoin.
+explanation: |
+  Lightning Network ni urubuga rwo kwishura Bitcoin
+  ivyo bishingiye kuri Bitcoin Blockchain.
 reviewed: true

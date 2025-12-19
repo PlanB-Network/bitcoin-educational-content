@@ -1,9 +1,9 @@
-question: Mis on üks võimalik tagajärg tehisintellekti tehnoloogiate arengule?
-answer: Üle 80% töökohtadest kaob tehisintellekti ja automatiseerimise tõttu.
+question: Mis on üks peamisi Bitcoini eeliseid inimestele, kellel ei ole pangakontot?
+answer: Bitcoin võimaldab võrdsust tehingutes, sõltumata teie sotsiaalsest staatusest või poliitilisest positsioonist.
 wrong_answers:
-  - Tehisintellekti tehnoloogiad muudavad inimesed tarbetuks.
-  - Tehisintellekti tehnoloogiad toovad kaasa inimintellekti languse.
-  - Tehisintellekti tehnoloogiad põhjustavad globaalse majanduskollapsi.
+  - Bitcoin võimaldab ebavõrdsust tehingutes.
+  - Bitcoin toob kasu ainult inimestele, kellel on pangakonto.
+  - Bitcoin toob kasu ainult inimestele, kellel on kõrge sotsiaalne staatus.
 explanation: >-
-  Tekstis mainitakse, et üks võimalik tagajärg tehisintellekti tehnoloogiate arengule on see, et üle 80% töökohtadest kaob tehisintellekti ja automatiseerimise tõttu.
+  Tekstis mainitakse, et maailmas on 2.4 miljardit inimest ilma pangakontota ja Bitcoin võimaldab võrdsust tehingutes, sõltumata teie sotsiaalsest staatusest või poliitilisest positsioonist.
 reviewed: false

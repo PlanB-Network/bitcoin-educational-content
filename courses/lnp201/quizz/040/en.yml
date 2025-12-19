@@ -6,4 +6,4 @@ wrong_answers:
   - Communicate directly with all intermediary nodes
 explanation: |
   The sending node is responsible for calculating the entire route to the recipient, as intermediary nodes only know their immediate neighbor.
-reviewed: false
+reviewed: true

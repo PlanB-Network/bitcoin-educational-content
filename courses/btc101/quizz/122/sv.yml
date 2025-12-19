@@ -1,9 +1,8 @@
-question: Hur stor har online-tillgängligheten för Bitcoin varit sedan 2009?
-answer: 99.988%.
+question: Vad är Bitcoin Blockchain?
+answer: En offentlig och oföränderlig Ledger av alla Bitcoin-transaktioner.
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
-explanation: |
-  Tillgängligheten online för Bitcoin är 99,988% sedan 2009.
+  - En privat och muterbar Ledger av alla Bitcoin-transaktioner.
+  - En offentlig och föränderlig Ledger av alla Bitcoin-transaktioner.
+  - En privat och oföränderlig Ledger av alla Bitcoin-transaktioner.
+explanation: >-
 reviewed: true

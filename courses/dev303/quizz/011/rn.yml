@@ -1,0 +1,8 @@
+question: Ni akamaro akahe nyamukuru k’uburyo bwa Rust bwo gukingira ubwonko mu gihe co gukoranya ibintu ugereranyije n’ugukorakoranya imyanda?
+answer: Bikuraho igihe co gukora n'uguhagarika ibikorwa bitamenyekana
+wrong_answers:
+  - Ikoresha ubwonko bwinshi ariko itanga umutekano mwiza .
+  - Bisaba kode nke kugira ngo wandike ariko bigenda buhoro kurusha gutoragura imyanda .
+  - Ibuza amakosa yose yo mu gihe co gukora ariko ikoresha CPU nyinshi mu gihe co gukora
+explanation: |
+  Uburyo bwa Rust bwo gukingira ubwonko mu gihe co gukoranya busesangura kode mu gihe co gukoranya kugira ngo ubone ko ubwonko butekanye ataco butwara igihe co gukora. Udakunze gukusanya imyanda bikoreshwa mu ndimi nka Java na Go, bizana amafaranga y’ibikorwa kandi bishobora gutuma habaho uguhagarara kutamenyekana mu gihe c’ugushirwa mu ngiro kwa porogarama, ubuhinga bwa Rust nta ngaruka bugira ku gihe co gukora. Ayandi mahitamwo ntabwo ari meza kuko Rust mu vy’ukuri ikoresha neza ubwonko (si vyinshi), ntigenda buhoro (igenda ningoga ata n’imwe igenzura igihe co gukora), kandi ntikoresha CPU nyinshi mu gihe co gukora (igikorwa gikorwa mu gihe co gukora compile).

@@ -1,8 +1,9 @@
-question: Koji je problem skalabilnosti Bitkoina?
-answer: Izazov implementacije monetarnog sistema sposobnog da obezbedi sve veći broj transakcija po sekundi kako se usvaja.
+question: Koji je centralni princip RGB-a?
+answer: Validacija na strani klijenta
 wrong_answers:
-  - Težina rudarenja novih Bitkoina sa sve većom vrednošću tokom vremena.
-  - Volatilnost cene Bitkoina koja će se povećati nakon svakog Halving-a.
-  - Nedostatak regulative za Bitkoin što će učiniti transakcije ilegalnim.
-explanation: >-
-reviewed: true
+  - Globalno izvršavanje na blokčejnu
+  - Federativni konsenzus
+  - Proof-of-Work
+explanation: |
+  RGB se oslanja na lokalnu validaciju stanja, dok blokčejn služi samo kao kriptografsko sidro i zaštita od dvostruke potrošnje.
+reviewed: false

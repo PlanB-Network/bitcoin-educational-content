@@ -1,8 +1,9 @@
-question: Mis on Bitcoin'i sõlme roll Bitcoin'i võrgustikus?
-answer: See tegeleb uute plokkide ja nendega kaasnevate tehingute valideerimisega.
+question: Mis on sõlmede peamine funktsioon Bitcoin'i võrgus?
+answer: Bitcoin'i plokiahela koopia hoidmine, tehingute valideerimine, informatsiooni edastamine teistele sõlmedele ja Bitcoin'i protokolli reeglite jõustamine.
 wrong_answers:
-  - See loob uusi Bitcoine.
-  - See reguleerib Bitcoini hinda.
-  - See haldab Bitcoini võrgustikku.
+  - Ainult tehingute valideerimine
+  - Ainult Bitcoin'i plokiahela koopia hoidmine
+  - Ainult informatsiooni edastamine teistele sõlmedele
 explanation: >-
-  Bitcoin'i sõlm Bitcoin'i võrgustikus tegeleb uute plokkide ja nendega kaasnevate tehingute valideerimisega. Just selle Bitcoin'i sõlmede võrgustiku kaudu on võrgustik tõeliselt detsentraliseeritud.
+  Sõlmed Bitcoin'i võrgus täidavad mitmeid kriitilisi funktsioone, sealhulgas hoiavad Bitcoin'i plokiahela koopiat, valideerivad tehinguid, edastavad informatsiooni teistele sõlmedele ja jõustavad Bitcoin'i protokolli reegleid.
+reviewed: false

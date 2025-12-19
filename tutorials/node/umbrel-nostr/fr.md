@@ -11,7 +11,7 @@ Umbrel est une plateforme open-source qui vous permet d'héberger facilement des
 
 Assurez-vous d'avoir installé Umbrel en suivant notre guide d'installation :
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Introduction à Nostr
 
@@ -156,7 +156,7 @@ Grâce à NWC, vos **paiements Lightning via Nostr** (zaps pour récompenser des
 
 Si vous souhaitez savoir comment configurer votre propre nœud Lightning sur Umbrel, je vous recommande de consulter cet autre tutoriel complet :
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Configuration avancée et sécurité
 

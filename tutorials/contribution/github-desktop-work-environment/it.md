@@ -5,22 +5,22 @@ description: Come configurare il tuo ambiente di lavoro locale?
 
 ![github](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e inseriti su GitHub, il che consente a chiunque di partecipare all'arricchimento della piattaforma. Si può contribuire in diversi modi: con la correzione dei testi esistenti, con il proofreading in altre lingue, con l'aggiornamento delle informazioni o la creazione di nuovi tutorial non ancora disponibili sul nostro sito.
+La missione di Plan ₿ Academy è fornire risorse educative di primo livello su Bitcoin in quante più lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e inseriti su GitHub, il che consente a chiunque di partecipare all'arricchimento della piattaforma. Si può contribuire in diversi modi: con la correzione dei testi esistenti, con il proofreading in altre lingue, con l'aggiornamento delle informazioni o la creazione di nuovi tutorial non ancora disponibili sul nostro sito.
 
-Se desideri contribuire su Plan ₿ Network, dovrai utilizzare GitHub per proporre modifiche. Per fare ciò, hai due opzioni:
+Se desideri contribuire su Plan ₿ Academy, dovrai utilizzare GitHub per proporre modifiche. Per fare ciò, hai due opzioni:
 
 - **Contribuire direttamente tramite l'interfaccia web di GitHub**: questo è il metodo più semplice. Se sei un principiante o se prevedi di intervenire in maniera limitata, questa opzione è probabilmente la migliore per te;
 
-- **Lavorare in locale utilizzando Git**: questo metodo è più adatto se prevedi di intervenire in modo regolare o aggiungere contenuti significativi su Plan ₿ Network. Anche se configurare il tuo ambiente Git locale sul computer può sembrare complesso all'inizio, questo approccio è più efficiente nel lungo termine. Consente una gestione più flessibile delle modifiche. Se questo approccio è nuovo per te, non preoccuparti, **in questo tutorial spieghiamo l'intero processo di configurazione del tuo ambiente** (promesso, non dovrai digitare alcuna riga di comando ^^).
+- **Lavorare in locale utilizzando Git**: questo metodo è più adatto se prevedi di intervenire in modo regolare o aggiungere contenuti significativi su Plan ₿ Academy. Anche se configurare il tuo ambiente Git locale sul computer può sembrare complesso all'inizio, questo approccio è più efficiente nel lungo termine. Consente una gestione più flessibile delle modifiche. Se questo approccio è nuovo per te, non preoccuparti, **in questo tutorial spieghiamo l'intero processo di configurazione del tuo ambiente** (promesso, non dovrai digitare alcuna riga di comando ^^).
 
 Se non hai idea di cosa sia GitHub, o se vuoi saperne di più sui termini tecnici relativi a Git e GitHub, ti consiglio di leggere il nostro tutorial introduttivo per familiarizzare con questi concetti.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Per iniziare, avrai ovviamente bisogno di un account GitHub. Se ne hai già uno, puoi accedervi. Altrimenti, puoi seguire il nostro tutorial per crearne uno nuovo.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 ## Passo 1: Installa GitHub Desktop
@@ -51,7 +51,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ## Passo 2: Installa Obsidian
 
-Passiamo ora all'installazione del software per scrivere contenuti. Qui, hai diverse opzioni. Avrai bisogno di un software che supporti la modifica dei file Markdown, poiché Plan ₿ Network utilizza questo formato per i file di testo nel suo repository.
+Passiamo ora all'installazione del software per scrivere contenuti. Qui, hai diverse opzioni. Avrai bisogno di un software che supporti la modifica dei file Markdown, poiché Plan ₿ Academy utilizza questo formato per i file di testo nel suo repository.
 Esistono molteplici software specializzati nella modifica di file Markdown, come Typora. Anche se non è l'ideale, è possibile anche scegliere un editor di codice, come Visual Studio Code (VSC) o Sublime Text. Tuttavia, come scrittore, preferisco utilizzare Obsidian. Vediamo insieme come installarlo e iniziare a usarlo.
 
 - Vai su https://obsidian.md/download e scarica il software:
@@ -66,9 +66,9 @@ Esistono molteplici software specializzati nella modifica di file Markdown, come
 
 ![github-desktop](assets/9.webp)
 
-## Passo 3: Fork del repository di Plan ₿ Network
+## Passo 3: Fork del repository di Plan ₿ Academy
 
-- Vai al repository di Plan ₿ Network al seguente indirizzo: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content):
+- Vai al repository di Plan ₿ Academy al seguente indirizzo: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content):
 
 ![github-desktop](assets/10.webp)
 
@@ -80,13 +80,13 @@ Esistono molteplici software specializzati nella modifica di file Markdown, come
 
 ![github-desktop](assets/12.webp)
 
-- Arriverai quindi al tuo fork del repository di Plan ₿ Network:
+- Arriverai quindi al tuo fork del repository di Plan ₿ Academy:
 
 ![github-desktop](assets/13.webp)
 
 Questo fork costituisce un repository separato dall'originale, anche se attualmente contiene gli stessi dati. Ora lavorerai solo qui.
 
-Abbiamo, in un certo senso, fatto una copia del repository sorgente di Plan ₿ Network. Il tuo fork (la copia) e il repository originale ora evolveranno indipendentemente l'uno dall'altro. Sul repository originale, altri contributors possono aggiungere nuovi dati, mentre tu, sul tuo fork, procederai con le tue modifiche.
+Abbiamo, in un certo senso, fatto una copia del repository sorgente di Plan ₿ Academy. Il tuo fork (la copia) e il repository originale ora evolveranno indipendentemente l'uno dall'altro. Sul repository originale, altri contributors possono aggiungere nuovi dati, mentre tu, sul tuo fork, procederai con le tue modifiche.
 Per mantenere la consistenza tra questi due repository, sarà necessario sincronizzarli periodicamente affinché recuperino le stesse informazioni. Per inviare le tue modifiche al repository sorgente, utilizzerai quella che si chiama **Pull Request**. E per integrare le modifiche dal repository sorgente nel tuo fork, utilizzerai il comando **Sync fork** disponibile sull'interfaccia web di GitHub.
 
 ![github-desktop](assets/14.webp)
@@ -109,7 +109,7 @@ Per mantenere la consistenza tra questi due repository, sarà necessario sincron
 
 ![github-desktop](assets/18.webp)
 
-- Dopo aver clonato il repository, il software ti offre due opzioni. Devi selezionare la prima: `To contribute to the parent project`. Questa scelta ti permetterà di presentare il tuo futuro lavoro come un contributo al progetto principale (`PlanB-Network/bitcoin-educational-content`), e non esclusivamente come una modifica del tuo fork personale (`[username]/bitcoin-educational-content`). Una volta scelta l'opzione, clicca su `Continue`:
+- Dopo aver clonato il repository, il software ti offre due opzioni. Devi selezionare la prima: `To contribute to the parent project`. Questa scelta ti permetterà di presentare il tuo futuro lavoro come un contributo al progetto principale (`Plan ₿ Academy/bitcoin-educational-content`), e non esclusivamente come una modifica del tuo fork personale (`[username]/bitcoin-educational-content`). Una volta scelta l'opzione, clicca su `Continue`:
 
 ![github-desktop](assets/19.webp)
 
@@ -117,9 +117,9 @@ Per mantenere la consistenza tra questi due repository, sarà necessario sincron
 
 ![github-desktop](assets/20.webp)
 
-Quello che abbiamo raggiunto in questa fase è la creazione di una copia locale del tuo repository, che è hostato su GitHub. Come promemoria, questo repository è un fork del repository sorgente di Plan ₿ Network. Sarai in grado di apportare modifiche a questa copia locale, aggiungendo tutorial, proofreading o correzioni. Una volta effettuate queste modifiche, utilizzerai il comando **Push origin** per inviare le tue modifiche in locale al tuo fork ospitato su GitHub.
+Quello che abbiamo raggiunto in questa fase è la creazione di una copia locale del tuo repository, che è hostato su GitHub. Come promemoria, questo repository è un fork del repository sorgente di Plan ₿ Academy. Sarai in grado di apportare modifiche a questa copia locale, aggiungendo tutorial, proofreading o correzioni. Una volta effettuate queste modifiche, utilizzerai il comando **Push origin** per inviare le tue modifiche in locale al tuo fork ospitato su GitHub.
 
-Puoi anche recuperare le modifiche dal fork, ad esempio, durante una sincronizzazione con il repository di Plan ₿ Network. Per questo, utilizzerai il comando **Fetch origin** per scaricare le modifiche sulla tua copia locale (il tuo clone), e poi il comando **Pull origin** per unirle al tuo lavoro. Questo ti permette di rimanere aggiornato sugli ultimi sviluppi del progetto contribuendo in modo efficace.
+Puoi anche recuperare le modifiche dal fork, ad esempio, durante una sincronizzazione con il repository di Plan ₿ Academy. Per questo, utilizzerai il comando **Fetch origin** per scaricare le modifiche sulla tua copia locale (il tuo clone), e poi il comando **Pull origin** per unirle al tuo lavoro. Questo ti permette di rimanere aggiornato sugli ultimi sviluppi del progetto contribuendo in modo efficace.
 
 ![github-desktop](assets/21.webp)
 
@@ -137,7 +137,7 @@ Puoi anche recuperare le modifiche dal fork, ad esempio, durante una sincronizza
 
 ![github-desktop](assets/24.webp)
 
--> **Attenzione**, è importante non scegliere la cartella `bitcoin-educational-content` quando si crea un nuovo caveau in Obsidian. Invece, seleziona la cartella principale, `GitHub`. Se selezioni la cartella `bitcoin-educational-content`, la cartella di configurazione `.obsidian`, contenente le tue impostazioni locali di Obsidian, verrà automaticamente integrata nel repository. Questo è ciò che vogliamo evitare, poiché non è necessario trasferire le tue configurazioni di Obsidian sul repository di Plan ₿ Network. Un'alternativa è aggiungere la cartella `.obsidian` al file `.gitignore`, ma questo metodo modificherebbe anche il file `.gitignore` del repository sorgente, il che non è desiderabile.
+-> **Attenzione**, è importante non scegliere la cartella `bitcoin-educational-content` quando si crea un nuovo caveau in Obsidian. Invece, seleziona la cartella principale, `GitHub`. Se selezioni la cartella `bitcoin-educational-content`, la cartella di configurazione `.obsidian`, contenente le tue impostazioni locali di Obsidian, verrà automaticamente integrata nel repository. Questo è ciò che vogliamo evitare, poiché non è necessario trasferire le tue configurazioni di Obsidian sul repository di Plan ₿ Academy. Un'alternativa è aggiungere la cartella `.obsidian` al file `.gitignore`, ma questo metodo modificherebbe anche il file `.gitignore` del repository sorgente, il che non è desiderabile.
 
 - Sul lato sinistro della finestra, puoi vedere l'albero dei file con i diversi repository GitHub che sono stati clonati localmente.
 - Cliccando sulle frecce accanto ai nomi delle cartelle, puoi espanderle per accedere alle sottocartelle dei repository e ai loro documenti:
@@ -148,7 +148,7 @@ Puoi anche recuperare le modifiche dal fork, ad esempio, durante una sincronizza
 
 ## Passo 6: Installa un Editor di Codice
 
-La maggior parte delle tue modifiche riguarderà file in formato Markdown (`.md`). Per modificare questi documenti, puoi utilizzare Obsidian, il software di cui abbiamo parlato in precedenza. Tuttavia, Plan ₿ Network utilizza altri formati di file, e dovrai modificarne alcuni.
+La maggior parte delle tue modifiche riguarderà file in formato Markdown (`.md`). Per modificare questi documenti, puoi utilizzare Obsidian, il software di cui abbiamo parlato in precedenza. Tuttavia, Plan ₿ Academy utilizza altri formati di file, e dovrai modificarne alcuni.
 
 Ad esempio, quando crei un nuovo tutorial, dovrai creare un file YAML (`.yml`) per inserire i tag del tuo tutorial, il suo titolo e il tuo ID insegnante. Obsidian non offre la possibilità di modificare questo tipo di file, quindi avrai bisogno di un editor di codice.
 
@@ -158,8 +158,8 @@ Per questo, hai diverse opzioni a disposizione. Sebbene il blocco note standard 
 
 ![github-desktop](assets/26.webp)
 
-Congratulazioni! Il tuo ambiente di lavoro è ora configurato per contribuire su Plan ₿ Network. Ora puoi esplorare i nostri altri tutorial specifici per ogni tipo di contributo (traduzione, proofreading, scrittura..):
+Congratulazioni! Il tuo ambiente di lavoro è ora configurato per contribuire su Plan ₿ Academy. Ora puoi esplorare i nostri altri tutorial specifici per ogni tipo di contributo (traduzione, proofreading, scrittura..):
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 

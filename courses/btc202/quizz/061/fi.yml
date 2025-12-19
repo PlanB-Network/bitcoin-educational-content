@@ -1,0 +1,9 @@
+question: Mikä on Tailscalen tärkein etu Toriin verrattuna Umbrelin etäkäytössä?
+answer: Nopeampi yhteys
+wrong_answers:
+  - WireGuardia vahvempi salaus
+  - Yhteensopivuus yritysten reitittimien kanssa
+  - Kyky käyttää Electrsia offline-tilassa
+explanation: |
+  Tailscale tarjoaa WireGuardin turvallisuuden, mutta clearnet-yhteyden nopeuden, toisin kuin Tor, joka on hitaampi.
+reviewed: true

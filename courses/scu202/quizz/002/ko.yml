@@ -1,0 +1,9 @@
+question: VPN의 주요 장점은 무엇인가요?
+answer: 인터넷 트래픽 암호화
+wrong_answers:
+  - 인터넷 연결 속도 향상
+  - 스토리지 용량 늘리기
+  - 통합 바이러스 백신
+explanation: |
+  VPN은 보안 터널을 생성하고 장치와 중개 서버 간의 교환을 암호화하여 기밀성을 강화합니다.
+reviewed: false

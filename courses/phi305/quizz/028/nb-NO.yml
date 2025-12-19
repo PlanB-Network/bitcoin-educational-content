@@ -1,0 +1,9 @@
+question: Hvem sitt motto er "tenk selv"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  å tenke selv" (sapere aude) er Immanuel Kants motto og opplysningstidens slagord. Det handler om å ha mot til å bruke sin egen forståelse uten å bli formyndet av andre.
+reviewed: false

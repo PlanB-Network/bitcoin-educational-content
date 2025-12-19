@@ -1,0 +1,9 @@
+question: Welke wetenschapper gelooft dat wiskunde de taal van het universum is?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Copernicus.
+explanation: |
+  Galileo is beroemd om zijn bewering dat "het boek van de natuur is geschreven in wiskundige taal". Deze visie heeft een grote invloed gehad op de moderne wetenschap en rationalistische filosofie, waaronder die van Spinoza.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Kimin sloganı "kendin için düşün"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  kendi adına düşünmek" (sapere aude) Immanuel Kant'ın sloganı ve Aydınlanma'nın parolasıdır. Bu, başkalarının vesayeti olmadan kendi anlayışını kullanma cesaretine sahip olmakla ilgilidir.
+reviewed: false

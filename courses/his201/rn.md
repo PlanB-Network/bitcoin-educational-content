@@ -32,7 +32,9 @@ Ego ni ko, iki cigwa gishingiye ku gishushanyo ca Satoshi Nakamoto, amajambo yiw
 
 <chapterId>85290407-1aa3-4cb4-890a-aed23441afb7</chapterId>
 
-Kaze mu nyigisho ya HIS201!
+:::video id=d1eddf56-279d-459a-9568-5674606f0fd1:::
+
+Murakaze mu nyigisho ya HIS201!
 
 Iyi nyigisho igamije kubabwira inkuru y’iremwa rya Bitcoin mu buryo utigeze usoma ahantu na hamwe. Naho yuzuyemwo ibintu vyinshi biryoshe kumva, kenshi irirengagizwa. Tuzokwihatira kuyidondora mu buryo bwose bugoranye, kuva aho yateguwe na Satoshi Nakamoto gushika aho yazimiye hakiri kare, akayihereza abantu.
 
@@ -101,9 +103,9 @@ Ibirimwo bivuye mu gitabu c’igifaransa [*L’Élégance de Bitcoin*](2024), ca
 
 - [*Igitabo ca Genesis*](ibicuruzwa/igitabu ca Genesis) ca Aaron van Wirdum, casohowe mu 2024;
 - [*Inzahabu y’Ikoranabuhanga*](Inzahabu y’Ikoranabuhanga-Abanyamiliyoni-44-Basubiye Guhingura/dp/006236250X) yasohowe na Nathaniel Popper, yasohowe mu 2014;
-- [*Igitabo ca Satoshi*](Igitabo ca Satoshi*] canditswe na Phil Champagne, casohowe mu mwaka w’2014;
+- [*Igitabo ca Satoshi*](Igitabo ca Satoshi) canditswe na Phil Champagne, casohowe mu mwaka w'2014;
 - [*Amahera y’Ikoranabuhanga*](ibitabu/igipfukisho gikomeye/9780691179490/amahera y’Ikoranabuhanga) yanditswe na Finn Brunton, yasohotse mu 2019;
-- [*Iyi mashini yica amabanga*] (iyi mashini yica amabanga) yanditswe na Andy Greenberg, yasohowe mu 2012.
+- [*Iyi mashini yica amabanga*](iyi mashini yica amabanga) yanditswe na Andy Greenberg, yasohowe mu 2012.
 
 
 Zirikana ko ku bijanye n’iyi nyigisho itari mu congereza, amajambo menshi yasubiwemwo ava mu congereza c’Abanyamerika kandi yahinduwe ku bw’ico kintu. Ijambo *Coin* muri rusangi rihindurwa ngo "unit" (kandi si "piece(ikingorongoro)") iyo ryerekeza ku unit y'ikonti.
@@ -120,6 +122,8 @@ Woba witeguye kumenya inkuru idasanzwe y’iremwa rya Bitcoin? Rero reka twinjir
 ## Amafaranga y'ubuhinga(ecash) bwa none: Amafaranga y'ubuhinga bwa Chaum
 
 <chapterId>e443d2ab-68ce-45c0-aec7-30b88d3acdc8</chapterId>
+
+:::video id=fe306046-2245-43a7-9144-6fbafda3205e:::
 
 
 Imbere yo gutangura mu nkuru nyayo y’iremwa rya Bitcoin na Satoshi Nakamoto, birabereye ko tuganira uko ikora. Dukemura ico kibazo mu ntambwe zitatu: iya mbere, tuzozana iciyumviro c’amahera y’ubuhinga bwa none (Chaumian digital cash) azwi cane yitwa *eCash*; hanyuma, tuzovuga ku mafaranga y’abikorera ku giti cabo ashingiye ku buryo buhurikiye hamwe nk’inzahabu y’ubuhinga bwa none; mu nyuma, tuzodondora ivyitegererezo vy’ubuhinga vyari vyiyumviriwe imbere y’uko hashirwa mu ngiro uburyo bukomeye bwo gutanga amakuru ari bwo Bitcoin.
@@ -148,32 +152,34 @@ Kugira ngo ico kibazo gitorerwe umuti, haciye hakorwa ubuhinga bwo gukingira ama
 Ubwo bwoko bw’ubuhinga bwo guhisha amakuru bufsaha gushira  mu bikorwa agapfindo ko kunyegeza amakuru hamwe n'intambbwe zo gushirako umukono. uko kunyegeza amakuru gukoresha urupfunguruzo rwa bose mu kunyegeza n'urupfunguruzo rw'ibanga mu guhishura amakuru. uwukoresha aronka impfunguruzo zibiri, ukubika impfunguruzo z'ibanga hama ugasangira imfunguruzo za bose  n’abo muhana ubutumwa kugira ngo bashobore kohereza ubutumwa. Ubwo bwoko bwo gupfuka amakete busa n’agasandugu k’ubutumwa uwuyakira akoresha kugira ngo yakire amakete, kandi ni we wenyene afise urufunguzo rwayo.
 
 
-![Asymmetric encryption](assets/en/01.webp)
+![Asymmetric encryption](assets/rn/001.webp)
 
 
 Ku rundi ruhande, imikono y’ubuhinga bwa none yizigira gukoresha urufunguzo rw’ibanga nk’urufunguzo rw’imikono, urufunguzo rwa bose na rwo nk’urufunguzo rwo kugenzura. Uwukoresha aratanga urufunguzo rubiri, agashira umukono ku butumwa akoresheje urufunguzo rw’ibanga, akaburungikira abo barungikira, na bo bakaba bashobora kugenzura ko ari ubw’ukuri bakoresheje urufunguzo rwa bose. ivyo, ntibazokwigera bakenera kumenya urufunguruzo rw’ibanga.
 
 
-![Digital signature](assets/en/02.webp)
+![Digital signature](assets/rn/002.webp)
 
 
-Abashakashatsi benshi bigenga bavumbuye ubuhinga bwo gukingira amakuru butagira aho bugarukira mu myaka ya 1970. Ariko rero, aba mbere bashikirije ivyo babonye ni Whitfield Diffie na Martin Hellman, abahinga babiri bo muri kaminuza ya Stanford mu bijanye n’ugukora amakuru y’ibanga. Mu kwezi kwa 11/1976, barasohoye urupapuro rwitwa "[Imirongo mishasha mu bijanye n'uguhindura amakuru]" mu kinyamakuru *IEEE Transactions on Information Theory*, rwadondora urufunguzo rwa Exchange rwo guhindura amakuru y'ibanga (rwagenewe) hamwe n’uburyo bwo gusinya mu buryo bwa digitale. Mu ntangamarara y’iki kinyamakuru, banditse bati:
+Ubusobe bwa kriptografi butangana bwatowe n’amatsinda menshi y’abaronderi mu myaka ya 70 ku buryo butandukanye. Ariko abambere kwerekana ivyo bari babonye ni Whitfield Diffie na Martin Hellman, abahinga babiri mu bijanye n’inyandikomvugo zo ku rugero rwa Stanford. Mu kwezi kw’icumi na kumwe 1976, barasohoye ikiganiro citwa « [New Directions in Cryptography](https://ee.stanford.edu/~hellman/publications/24.pdf) » mu kinyamakuru *IEEE Transactions on Information Theory*, aho basigura uburyo bwo guhanahana imfunguruzo (bwagenewe koherereza imfunguruzo z'ibanga ku bw’ikinyomvugo gikingiye) hamwe n’ukuntu bashira umukono w’ikoranabuhanga. Mu ntangamarara y’ico kiganiro, bari banditse bati:
 
 > "Uyu musi turi ku ruhande rw'ihinduka ry'ubuhinga bwo kunyegeza amakuru. Uguteza imbere ibikoresho vy'ubuhinga bwa none vyabukuye mu mipaka y'ubuhinga bwa none kandi bituma igiciro c'ibikoresho vy'ubuhinga bwa none kigabanuka aho bishobora gukoreshwa mu bikorwa vy'ubudandaji nk'ibikoresho vyo gutanga amafaranga kure n'ibikoresho bishasha vy'ubuhinga bwa none. kugabanya ivy'uko imihora y'ugukwiragiza amakuru itekanye na Supply ingana n'umukono wanditse Muri ico gihe nyene, iterambere ry'inyigisho mu vy'amakuru n'ubuhinga bwa mudasobwa ryerekana umuhango wo gutanga ubuhinga bwa kera butekanye, guhindura ubu buhinga bwa kera bukaba ubuhinga."
 
 Aha ni ifoto yo mu mwaka w’1977, yafashwe na Chuck Painter ku kinyamakuru ca Stanford. Muri ryo, urashobora kubona Whitfield Diffie (iburyo) na Martin Hellman (hagati). Umuntu ari ibubamfu ni umuhinga mu vy’ubuhinga bwa none yitwa Ralph Merkle, na we nyene yari ku ruhande rwo kuvumbura ivyo bintu nyene.
 
 
-![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/en/03.webp)
+![Ralph Merkle, Martin Hellman, and Whitfield Diffie in 1977](assets/rn/003.webp)
 
 
-Iyo ngingo ya Diffie na Hellman yarateguye inzira y’ubuhinga bushasha buzoza. Imwe muri izo yari iyo nzira ya RSA, yashizweho mu 1977 n'abahinga mu vy'ubuhinga bwa none Ronald Rivest, Adi Shamir, na Leonard Adleman (ni bo bayihaye amazina yabo) kandi ikaba yashizweko uburenganzira na MIT mu 1983. iyo sisteme ifasha kunyegeza amakuru n'ugishira imikono kubutumwa kubera uruhara rw’imfunguruzo. RSA yashikirijwe ku mugaragaro ku ncuro ya mbere mu [ngingo ya Martin Gardner] (https://simson.net/ref/1977/Gardner_RSA.pdf) yasohowe mu kinyamakuru *Scientific American* muri Myandagaro 1977, cari gifise umutwe uvuga ngo "Imikino y'Ibiharuro: Ubwoko bushasha bw'imyaka miliyoni kugira ngo umuntu ashobore kubimena."
+Iyo ngingo yanditswe na Diffie na Hellman yarateguye inzira y’ibintu vyinshi bishasha. Imwe muri izo yari iyo nzira ya RSA, yashizweho mu 1977 n'abahinga mu vy'ubuhinga bwa none Ronald Rivest, Adi Shamir, na Leonard Adleman (ni bo bayihaye amazina yabo) kandi ikaba yashizweko uburenganzira na MIT mu 1983. kubera uguhinduranya uruhara rw’imfunguruzo. RSA yashikirijwe ku mugaragaro ku ncuro ya mbere mu [ngingo ya Martin Gardner](https://simson.net/ref/1977/Gardner_RSA.pdf) yasohowe mu kinyamakuru *Scientific American* muri Myandagaro 1977, cari gifise umutwe uvuga ngo "Imikino y'Imibare: Ubwoko bushasha bw'imyaka miliyoni kugira ngo umuntu ashobore guca."
 
 
 Kuvumbura ubuhinga bwo gukingira amakuru(asymétrique cryptography) na vyo nyene vyatumye habaho ibikorwa vy’inzira imwe, ivyo bikaba vyatuma kubara ishusho (inzira iranguruye) no kuronka ishusho y’imbere y'igihe(imbere y'uko niyambere iboneka) (inzira inyuranye) igorana cane. Cane cane, vyatumye habaho ibikorwa vya mbere vy’ubuhinga bwa none Hash(kunyegeza amakuru), vyahinduye ubutumwa bufise urugero buhinduka bukaba ubutumwa bufise urugero budahinduka. Hagati y’umwaka wa 1989 n’uwa 1991, Ronald Rivest yarateguye ubuhinga bwinshi bwo gukora amakuru (MD2, MD4, na MD5) ku bwa MIT.
 
 
-Ibintu vy'ishimikiro vyo kunyegeza amakuru muri Bitcoin biva muri ubwo bushakashatsi. Igishushanyo c’umukono wa ECDSA, cemerera uruhusha rwo gukoresha amahera mu guhanahana vya kera, cashinzwe mu 1992 ku bwa NIST. Igikorwa kijanye n’ubuhinga bwa SHA-256 Hash, gikoreshwa ahantu henshi muri ivyo bikorwa canke muri urwo rugendo, carasohowe mu 2001 nk’igice c’ubuhinga bwa SHA-2 bwashizwe ahabona na NSA. Ushaka kumenya vyinshi kuri iyo nkuru, raba inyigisho [Crypto 301](../crypto301/fr.md) yashikirijwe na Loïc Morel.
+Igishushanyo c’ishimikiro c’ibanga Elements ca Bitcoin kiva muri ubwo bushakashatsi. Igishushanyo c’umukono wa ECDSA, cemerera uruhusha rwo gukoresha amahera y’ubudandaji bwa kera, cashinzwe mu 1992 ku bwa NIST. Igikorwa kijanye n’ubuhinga bwa SHA-256 Hash, gikoreshwa ahantu henshi muri iyo porotokole, carasohowe mu 2001 nk’igice c’ubuhinga bwa SHA-2 bwashizwe ahabona na NSA. Ushaka kumenya vyinshi kuri iyo nkuru, raba inyigisho CYP201 yashikirijwe na Loïc Morel.
+
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 ### Imikono y'impumyi n'amahera y'ubuhinga bwa none
@@ -182,12 +188,12 @@ Ibintu vy'ishimikiro vyo kunyegeza amakuru muri Bitcoin biva muri ubwo bushakash
 Iryo hinduka ry’ubuhinga bwo kunyegeza amakuru ryatumye kandi umusore David Chaum, umuhinga mu vy’ingurukanabumenyi wo mu Burengero bwa leta zunze ubumwa za amerika, ico gihe yari umunyeshure w’ubuhinga bwa doctorat muri Kaminuza ya Berkeley, agira ico akora. Yaciye yihuta gukunda cane gukingira ubuzima bwite kandi yari ahagaritse umutima cane ku bijanye n’akazoza k’umwidegemvyo n’ibanga mu kibano cariko kirarushiriza gukoresha ama mashini nyabwonko ku bwinshi.
 
 
-![David Chaum in the 90s](assets/en/04.webp)
+![David Chaum in the 90s](assets/rn/004.webp)
 
 David Chaum mu myaka ya 90 (isoko: [Elixxir])
 
 
-Mu [ngingo y'ishimikiro] yiwe, yasohowe mu 1985 mu kinyamakuru *Communications of the ACM:
+Mu [ngingo y'ishimikiro] yiwe, yasohowe mu 1985 mu kinyamakuru *Communications of the ACM*:
 
 > "Turashimika cane ku gushiraho ishirahamwe ry'amadosiye, aho inyabwonko zishobora gukoreshwa mu gukuramwo imibereho y'abantu, ingeso, aho bari canke aho baja, n'amashirahamwe bivuye ku makuru yashizwe hamwe mu bikorwa vy'uguhanahana vy'abaguzi vya minsi yose. Ugutahura neza nimba amakuru azoguma ari meza ku bijanye n'ugukoreshwa nabi n'abayabungabunga canke kuyakoresha bishobora kugira ingaruka ku bantu bose. bigatuma abantu bahindura inyifato zabo kandi mu buryo buboneka. uko amakuru afatirwa hamwe, amahirwe yo guhura n'ico kibazo aba menshi cane ararwira mu buryo buboneka.
 
@@ -211,7 +217,7 @@ Ku ruhande rw'ubuhinga, ubuhinga bwa eCash bushingiye ku nzira yo gusinya nk'imp
 Ngaka akarorero k’intambwe zitandukanye zijanye n’uguhingura no gusubiza igitabu c’i Chaum (kivuye muri *L’Élégance de Bitcoin*):
 
 
-![Creation and replacement of a Chaumian note](assets/en/05.webp)
+![Creation and replacement of a Chaumian note](assets/rn/005.webp)
 
 
 Ibikorwa (kimwe cose gihuye n’igikorwa c’imibare canke ugutanga amakuru) ni ibi bikurikira:
@@ -248,7 +254,7 @@ Ivyo vyose bisigura ko ata banki yo muri iyo sisitemu ishobora guhuza amahera n'
 Mu mwaka w’1990, David Chaum yashinze ishirahamwe ryitwa Digicash B.V., ry’i Amsterdam mu Buhorandi, kugira ngo ashire mu ngiro iciyumviro ciwe co gukoresha amahera y’ubuhinga bwa none. Iyo sosiyete ni yo yari ifise uburenganzira bwo gukora ivyo yahingura. Iciyo gihe, Interinete yari ikiri mu ntango (urubuga rwa web rwari rukiri mu nzira y’iterambere), kandi ubudandaji bwo kuri Interinete ntibwariho; rero, uburyo bwa eCash bwari akaryo gakomeye cane.
 
 
-![DigiCash Logo](assets/en/06.webp)
+![DigiCash Logo](assets/rn/006.webp)
 
 
 Ariko rero, si ishirahamwe rya David Chaum ryabanje kugerageza iyo nzira: aba cypherpunks ni bo bayishize mu ngiro batitaye ku kubahiriza iciyumviro ca Chaum ku bijanye n’uburenganzira bwo kuyikoresha kandi ntibasavye uruhusha rwo kubikora. Gutyo, umurongo w’itegeko witwa Magic Money warasabwe ku rutonde rw’abarungika ubutumwa ku wa 4 Ruhuhuma 1994, n’umuhinga mu vy’ubuhinga bw’ubuhinga bwa none atazwi yitwa Cypher Pr0duct. Iryo tegeko ryari rituma umuntu ashobora kurema amafaranga yiwe akoresheje server(urusenge) (rwa)ya email yakora nk’ibarabara ry’amahera ryitwa eCash. Aba cypherpunks bari barinezereje mu gukora ubwoko bwose bw’ibice vy’amakonti nk’ibimenyetso vy’ibinyoma, ibimenyetso vy’ibinyoma, DigiFrancs, na NexusBucks. Ariko rero, akamaro k’ivyo bimenyetso kari gatoyi cane, kandi uguhinduranya kwari guke cane.
@@ -256,7 +262,7 @@ Ariko rero, si ishirahamwe rya David Chaum ryabanje kugerageza iyo nzira: aba cy
 Ku ruhande rwa DigiCash, inyuma y’imyaka mikeyi y’iterambere, ikigereranyo cara [shikirijwe](https://chaum.com/wp-content/uploads/2022/01/05-27-94-Isi-ya mbere-y’isi yose yo kwishura amahera-ku-mudasobwa-ku-mudasobwa-ku-mudasobwa-mpuzamakungu ku 9 Gitugutu11. urubuga rw’isi yose rwo muri CERN i Geneve. Iyo sosiyete rero yarakoze igerageza kw'igenekerezo rya 19 Gitugutu uwo mwaka, isohora amafaranga yitwa "CyberBucks", ata yindi mafaranga yari ashigikiwe. Abacuruzi batandukanye baremeye CyberBucks nk’igice c’iryo gerageza. Aba cypherpunk na bo nyene barayifata, barayikoresha mu gukorana n’abandi vy’ukuri. Gutyo, CyberBucks yararonse agaciro kw’isoko. Ariko rero, ako gaciro karasenyutse igihe eCash yashirwa mu ngiro mu buryo bwa kera bwo gukoresha amabanki.
 
 
-![Photo (blurry) of the DigiCash team in 1995](assets/en/07.webp)
+![Photo (blurry) of the DigiCash team in 1995](assets/rn/007.webp)
 
 Ifoto (igaragara neza) y’umugwi wa DigiCash mu 1995: David Chaum ari ibubamfu cane (isoko: [Chaum.com])
 
@@ -292,6 +298,8 @@ Satoshi Nakamoto yaremye amafaranga ateye imbere cane kandi y'ibanga, amafaranga
 
 <chapterId>43035fa3-2805-4331-a6fb-070931d749cf</chapterId>
 
+:::video id=0f75ff53-ebf6-481c-9d1c-863fabb19a6a:::
+
 
 Mu gice ca mbere, twarabonyhe uburyo bwa mbere bw’amahera y’ubuhinga bwa none bwavuye mu kuza kwa Interinete n’ubuhinga bwa none bwo gukoresha amakuru y’ibanga: uburyo bwa eCash bwa David Chaum. Ico kigereranyo caragize ico gikoze cane kuri Satoshi Nakamoto kandi cari ikintu gihambaye mu nzira yatumye igera kuri Bitcoin. Ariko rero, inkuru y’inkomoko y’amahera y’ivy’ubuhinga bwa none ntihera kuri eCash; harimwo kandi n’igeragezwa ry’amahera yigenga akoresha Interinete, ryateguwe mu mpera z’imyaka ya 1990.
 
@@ -321,7 +329,7 @@ Ivyo vyaciye birushiriza kuba bigoye inyuma y’aho. Banki nkuru, yitwa Federal 
 Igihe uburenganzira bwo gutunga inzahabu bwakurwaho, n’iterambere rya Interinete ritangura mu myaka ya 1970, iciyumviro co gukoresha amafaranga y’abigenga carasubiye kuza. Ivyo ni ko vyagendeye Bernard von NotHaus, uwatanguje idolari ry’Umwidegemvyo mu 1998, iryo ryari rikaba ryari rishingiye ku nzahabu n’ifeza ryari gushobora gusangwa mu biceri vy’ifeza no mu biceri vy’amafaranga aserukira abantu. Ishirahamwe ridaharanira inyungu ryari rirongoye iyo nzira yitwa NORFED (ijambo ry’inyongera ry’Ishirahamwe ry’Igihugu ryo Gukuraho Itegeko ry’Igihugu ryerekeye Ivy’Imisoro n’Imisoro y’Igihugu). Kuva mu mwaka w’2003, idolari ry’Umwidegemvyo na ryo nyene ryaraboneka mu buryo bwa digitale, biciye ku buryo bwo gukoresha konti busa n’ubw’inzahabu y’ubuhinga bwa none (raba igice gikurikira). Uwo murongo wararonse urugero runaka rw’iterimbere. Uretse ibiceri vyari bigendagenda, mu bibanza vy’ububiko vya NORFED harimwo amadolari agera ku miriyoni 8 y’ivyuma vy’agaciro kugira ngo amafaranga ashobore guhindurwa, harimwo n’imiriyoni 6 yo gushigikira igice c’ivyuma.
 
 
-![2003 Silver Liberty Dollar](assets/en/08.webp)
+![2003 Silver Liberty Dollar](assets/rn/008.webp)
 
 Ibiceri cume vy'idolari ry’Umwidegemvyo (amadolari 10) ry’ifeza ryo mu 2003 (inkomoko: [Numista]
 
@@ -339,7 +347,7 @@ Ingingo ngenderwako yari iyo ko igice cose c’inzahabu y’ubuhinga bwa none co
 Ubuhinga bw'inzahabu y'ubuhinga bwa none bwakoresheje neza urubuga rwari rukiri ruto, cane cane urubuga rwa Netscape rwaherutse gusohoka. Buri mukiriya yari gushobora gushika kuri konti yiwe akoresheje urubuga, aho gukoresha porogarama yihariye. Muri ico gihe, iyo nzira yari ikora neza cane, ikoresha uburyo bwo gutanga amahera mu gihe nyaco bwisunga n’uguhererekanya amahera hagati y’amabanki. Ehe uko kohereza inzahabu y’ubuhinga bwa none yasa mu 2005 (ishusho ivuye mu [nyigisho] y’ico gihe):
 
 
-![Sending on e-gold in 2005](assets/en/09.webp)
+![Sending on e-gold in 2005](assets/rn/009.webp)
 
 
 Ubuhinga bwa e-gold bwararonse intsinzi nyinshi: igihe bwari ku rwego rwo hejuru mu 2006, [bwaremeje] amatoni 3,6, afise agaciro karenga miliyoni 80 z’amadolari. [yatunganijwe](yatunganijwe](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html) guhanahana kungana n' 75.000 ku musi, ku rugero rw’amadolari miliyari 3 ku mwaka, kandi yacungera amakonti arenga miliyoni 2,7.
@@ -356,7 +364,7 @@ Ibindi bikoresho vyaremwe bikurikije iyo nzira nyene. GoldMoney, yashinzwe na Ja
 Akandi karorero k’uburyo bwo gukoresha amafaranga yigenga agenzurwa ni Liberty Reserve, bwatuma abakoresha bashobora gutunga no gutanga amafaranga y’ubuhinga bwa none afise idolari ry’Amerika, amayero canke inzahabu. Arthur Budovsky, Umunyamerika akomoka muri Ukraine, na Vladimir Kats, Umurusiya yimukiye muri Saint-Pétersbourg, ni bo baremye iyo nzira. Mu mwaka w’2006, Arthur Budovsky yaragiye muri Kosta Rika, ico gihe habonwa ko ari heza cane mu gutanga amakori, aho yandikishije ishirahamwe ryiwe ryitwa Liberty Reserve S.A.
 
 
-![Liberty Reserve logo in 2009](assets/en/10.webp)
+![Liberty Reserve logo in 2009](assets/rn/010.webp)
 
 Ikimenyetso ca  Liberty Reserve mu mwaka w'2009 (inkomoko: [Wikimedia]
 
@@ -386,7 +394,7 @@ Imbono y’intango ya PayPal ryari ry’ihinduka, rihuye ku mbono ya Peter Thiel
 
 > "Ego cane, ivyo twita 'bibereye' ku bakoresha b'Abanyamerika bizoba ari ivy'agaciro ku bihugu biri mu nzira y'amajambere. vyinshi muri ivyo bihugu intwaro zikina vyihuta kandi zidatevye n'amafaranga yabo. Bakoresha ugutera imbere kw'ibiciro rimwe na rimwe bagagabanya agaciro k'amafaranga, nk'uko twabibonye mu Burusiya no mu bihugu vyinshi vyo muri Aziya y'amajepfo y'ubuseruko bitwara ubutunzi bwabo umwaka uheze. ntibazokwigera bagira akaryo ko kugurura konti yo hanze y’igihugu canke ngo bashobore kuronka amafaranga makeyi nk’amadolari y’Amerika. ku mafaranga yabo kuruta uko vyari bimeze mbere. Bizoba hafi bidashoboka ko intwaro zigira ibiturire zishobora kwiba ubutunzi bw'abantu bazo biciye mu buryo bwa kera kuko iyo bagerageje, abantu bazohindukira bakoreshe amadolari, amapawundi canke amayen, mu vy'ukuri bagata amafaranga y'aho hantu kugira ngo baronke ikintu gifise umutekano kuruta."
 
-![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/en/11.webp)
+![Peter Thiel on October 20, 1999, during his speech in Oakland, California for the Independent Institute](assets/rn/011.webp)
 
 Peter Thiel ku wa 20 Gitugutu 1999, mu gihe yariko aratanga ijambo i Oakland muri California ku bw’Ishirahamwe ryigenga (isoko: [Youtube]
 
@@ -408,6 +416,8 @@ Kubera ko uburyo bwo gukorana n’abandi bugoyagoya, abashigikiye umwidegemvyo, 
 
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
+:::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
+
 
 Bitcoin igereranywa n'amafaranga y'ubuhinga bwa none atagenzurwa. Mu kubigira, birarinda gukenera umuntu agira gatatu yizigirwa, ivyo bikaba vyoba ari ikintu kimwe co kunanirwa muri iyo nzira. Nk’uko vyerekanwa n’uburorero bwa eCash, amafaranga y’inzahabu y’ubuhinga bwa none, na Liberty Reserve, gushiramwo ubuhinga bufise umugambi wo kuba ubundi buryo bwo gusubirira uburyo busanzweho, bituma ata kabuza kugarwa.
 
@@ -423,7 +433,7 @@ Muri iki gice, tuzokwiga ukuntu ubuhinga butandukanye bw'ishimikiro bw'ibintu bw
 Mu myaka ya 1950, igihe inyabwonko zaza, ni ho haciye haboneka ubushobozi bwo kuzihuza. Uko ni ko imirongo ya mbere ya mudasobwa yashinzwe, bituma habaho uguteza imbere Interinete, "umurongo w'imirongo", mu myaka ya 1970. Ikibazo c’ibikoresho rusangi vy’izo nzira caravyutse ata kabuza. Ni co gituma umuhinga mu vy’ivyubuhinga bwa none w’Umupolonye w’Umunyamerika yitwa Paul Baran, mu kiganiro ciwe c’ishimikiro co mu 1964 (adondora uguhindura amapaki), yashize ahabona ubwoko butatu bw’imirongo: umurongo uri hagati, wizigiye urudodo rumwe; uruzitiro rwakwiragijwe, aho akarongo kose ari urudodo; urubuga rwigenga (rudakwiragijwe), rwizigiye urubuga rwiganyijwe rw’ibihimba vyinshi.
 
 
-![Centralized, decentralized, and distributed networks according to Paul Baran](assets/en/12.webp)
+![Centralized, decentralized, and distributed networks according to Paul Baran](assets/rn/012.webp)
 
 
 Ivyitegererezo bibiri vyiza bishobora gukurwa muri ivyo vyiyumviro: ivyitegererezo vy’umukiriya-na-server, aho umukozi wa hagati yishura ku bisabwa n’abaguzi, n’ivyitegererezo vy’urunganwe, aho urudodo rumwe rumwe rufise uruhara rumwe muri sisitemu. Iyi nzira ya nyuma yari ngirakamaro cane cane mu gusangira amadosiye mu myaka ya 2000, n’uguhingura BitTorrent n’izindi nzira zisa n’izo. Urubuga rwa Tor rwarashizwe ahantu hamwe, si urw’urunganwe gusa.
@@ -434,13 +444,13 @@ Ikibazo gihura n’abantu mu vy’ubwubatsi busanzwe ni ikibazo c’uguhurizako 
 Ikibazo kivugwa nk’ikigereranyo kirimwo abajenerali b’ingabo z’Ubwami bwa Bizansi, bagose igisagara c’umwansi n’ingabo zabo, bafise umugambi wo gutera kandi bashobora kuvugana gusa biciye ku ntumwa. Intumbero ni ukurondera ingamba (i.e., algorithme) zishobora gucungera ukuhaba kw’abahemu no kumenya ko abajenerali bose b’intahemuka bemeranya ku mugambi w’intambara kugira ngo igitero kigende neza. Aha niho hari ikigereranyo (isoko: *L'Élégance de Bitcoin*):
 
 
-![The Byzantine Generals Problem](assets/en/13.webp)
+![The Byzantine Generals Problem](assets/rn/013.webp)
 
 
 Gutorera umuti iki kibazo ni ikintu gihambaye ku mirongo itangazwa icungera igice ca konti. Mwene izo nzira zisaba ko abaje mu nama bemeranya ku Ownership y’ibice vy’amakonti, ni ukuvuga uwufise iki.
 
 
-Imbere ya Bitcoin, ingorane yatowe umuti n'ivyo bita "classic" ni ubuhinga vyasaba ko ama node amenyekana imbere y'igihe kandi ko abiri muri yo akaba ari ay'ukuri. Ico kizwi cane muri ivyo ni kumbure ubuhinga bwo guhurizako [PBFT] (ijambo ry’inyongera ry’ukwihanganira amakosa y’i Bizansi mu buryo bukora), bwateguwe na Miguel Castro na Barkoven Castro mu 1999. y’abaje mu nama kugira ngo bemeranye mu gucunga ibihumbi vy’ibisabwa ku segonda n’igihe co guhagarara kiri munsi ya milisegonda imwe.
+Imbere ya Bitcoin, ico kibazo cari kimaze gutorerwa umuti ntangere n'ibikorwa bigenga imibare bitwa « vya kera » vyasaba ko imfunzo zimenyekana imbere y'igihe kandi ko bibiri vya bitatu vyazo biba vyo. Igikorwa bigenga imibare kizwi cane muri vyo, ni [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) (igifatiro ca *Practical Byzantine Fault Tolerance*), cakozwe na Miguel Castro na Barbara Liskov mu 1999, cemerera umubare watanzwe w'abakoresha gushika ku mwumvikano mu gukora ibihumbi vy'ibisabwa ku segonda kimwe kandi kikabikora mu mwanya muto cane udafise n'umusegonda. 
 
 
 Hakoreshejwe ubuhinga bwo kwumvikana bwa Bitcoin, Satoshi Nakamoto yarabitorera umuti mu buryo bw’ibishoboka, bituma habaho ugukuraho inzitizi zimwe zimwe mu gutanga iherezo rikomeye ry’ibikorwa. Ku wa 13 Ugushyingo 2008, yanditse ko "uruzitiro rw'proof of work canke icemezo c' igikorwa ari umuti w'ingorane y'abajenerali b'Abanyabizantine."
@@ -456,7 +466,7 @@ Ariko rero, gushiramwo ikidodo c’igihe ni ngirakamaro canecane mw’isi y’ub
 Mu mwaka w’1991, ubuhinga bwo gushiramwo ikidodo c’igihe mu ibanga kandi butekanye bwashikirijwe na Stuart Haber na Scott Stornetta, abashakashatsi babiri bakorera mu gisata c’ivy’ivyitumatumanako bwa Bell Inc. Mu [mpapuro zabo](http://www.staroceans.org/e-book/Haber_Stornetta.pdf), zifise umutwe uvuga ngo "Uko woshira ikidodo c'igihe ku nyandiko y'ubuhinga bwa none", baradondora ingene igikorwa co gushiramwo ikidodo c'igihe cemewe coshobora gukoresha igikorwa c'inzira imwe (nk'igikorwa ca MD4 Hash co gusubiramwo ibanga) n'igikorwa co gusubiramwo ibanga ry'umukiriya icemezo. Cane cane, iciyumviro cari co gufatanya amakuru mu gushiramwo Timestamp ya kera mu gukoresha igikorwa c’inzira imwe.
 
 
-![Example of certified timestamping](assets/en/14.webp)
+![Example of certified timestamping](assets/rn/014.webp)
 
 Akarorero k'igihe cemejwe (inkomoko: [Wikimedia](https://ru.m.wikipedia.org/wiki/Dosiye:Ikimenyetso_c'igihe_cizewe.svg))
 
@@ -476,7 +486,7 @@ Iciyumviro ca Proof of Work cavuze kinasigurwa ubwa mbere mu 1992 n’abahinga m
 Hamwe n'umurindi munini w'imwmywkana rya interinete mu myaka ya 1990, ikibazo c’ubutumwa budakenewe carabaye igikomeye cane, harimwo no ku rutonde rw’abarungika ubutumwa ku ba cypherpunk. Ni co gituma iciyumviro ca Dwork na Naor [cashizwe mu ngiro] n’umusore w’Umwongereza Cypherpunk Adam Mu mwaka w’1997 hakoreshejwe Hashcash, ubuhinga butanga ibimenyamenya vyoroshe vy’igikorwa ca GW-1. Mu buryo butomoye, birimwo kurondera uguhuza kw’igice c’igikorwa ca Hash, ni ukuvuga kuronka ubutumwa bubiri bufise ikirenge butangura n’ibice vy’amakuru bimwe (iciyumviro: kuva kuri verisiyo 1.0 yasohotse mu 2002, birimwo kuzana uguhuza igice c’ikimenyetso c'ubusa fimeget gitangura na na igitigiri c'ibiharurro bibiri). Kubera ko igikorwa ca Hash ari ic’inzira imwe, ivyo bishobora gushikako gusa mu kugerageza ubushobozi butandukanye umuntu ku giti ciwe, ivyo bikaba bisaba gukoresha inguvu.
 
 
-![Adam Back in 2001](assets/en/15.webp)
+![Adam Back in 2001](assets/rn/015.webp)
 
 Adamu Back mu mwaka w’2001 (inkomoko: [ububiko bw’urubuga rwa Adamu Back])
 
@@ -503,24 +513,24 @@ Guhingura amafaranga vyari vyugururiye abaje muri iyo nama bose biciye kuri Proo
 
 Naho yari umunyabwenge cane, iciyumviro ca Wei Dai c’amahera ca b-money nticar gikora neza cose. Harimwo impungenge nyinshi, nk’ugushobora guterwa n’ibitero vya Sybil ku rubuga (umuntu wese yoshobora kwongerako ama node mashasha ku rubuga), gushiramwo urubuga hamwe mu gihe ama server yoba yaratoranijwe imbere y’igihe, n’ikibazo kijanye n’ituza ry’igice ca konti (ni nde ategeka ibiciro bishobora kubonwa kw'soko?).
 
-Inyuma y’aho isohokeye kuri urwo rutonde rwo kumenyekanisha, b-money yarafashe umutima y'ana cypherpunks, cane cane [uwa Adam Back]. Ariko rero, Wei Dai ntiyigeze ashira mu ngiro uburyo bwiwe, atari kubera gusa ko bitakora neza, ariko kandi kubera [ukutumvikana] hamwe n'abizera Crypto itagira itegeko rya Leta(https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu) Naho ari ukwo, b-money yaravuzwe mu gitabu cera ca Bitcoin, ivyo bikaba vyatumye iba imwe mu nzira zayibanjirije.
+Inyuma y’aho isohokeye kuri urwo rutonde, b-money yarafashe umutima w’abahinga mu vy’ubuhinga bwa none, cane cane [uwa Adam Back]. Ariko rero, Wei Dai ntiyigeze ashira mu ngiro ivyerekanwa vyiwe, atari kubera gusa ko bitakora neza, ariko kandi kubera [uguhemuka](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu) Naho ari ukwo, b-money yaravuzwe mu gitabu cera ca Bitcoin, ivyo bikaba vyatumye iba imwe mu nzira zayibanjirije.
 
 
-![Citation of b-money in the Bitcoin white paper](assets/en/16.webp)
+![Citation of b-money in the Bitcoin white paper](assets/rn/016.webp)
 
 
 ### Bit Gold: inzahabu y'ubuhinga bwa none imbere ya Bitcoin
 
 
-Iciyumviro ca kabiri cavuye mu vyiyumviro vy’aba cypherpunks ni iciyumviro ca « bit gold »  (inzahabu y’ibice), ico Nick Szabo yari yiyumviriye mu 1998. Yari umuhinga mu vy’ubuhinga bwa none w’Umunyamerika w’inkomoko ya Hongiriya yari amaze amezi atandatu akora nk’umujanama wa DigiCash. Cypherpunk, azwi cane mu gushinga intahe iciyumviro c'amasezerano y'ubwenge(smart contract) mu 1995.
+Umutako wa kabiri wavutse mu vyiyumviro vy'aba cypherpunks wari impapuro za zahabu (*bit gold*) zategekanijwe na Nick Szabo mu 1998. Uwo mugabo yari umuhinga mu vya mudasobwa w'umunyamerika avuka mu gihugu ca Hongriya, yari yarakoze canecane akazi ko kugira inama muri DigiCash mu mezi atandatu. Kubera yari umu cypherpunk, azwi kubera yashize ku mugaragaro ivyiyumviro vya *smart contract* mu 1995.
 
 
 Mu mwaka w’1994, Nick Szabo yarashizeho urutonde rw’abantu bigenga rwitwa libtech-l. Nk’uko izina ryayo rivyerekana, ryari rigamije kwakira ibiganiro ku buryo bwo kurondera ubwigenge, bikaba vyemeza ko umwidegemvyo w’umuntu ku giti ciwe ukingirwa ibitero vy’abategetsi. Abahinga mu vy’ubutunzi nka Wei Dai na Hal Finney bari bafise uburenganzira bwo kubironka, nk’uko nyene abahinga mu vy’ubutunzi Larry White na George Selgin, abashigikiye uguhiganwa kw’amahera y’abanya Hayeki be n’ugukoresha amabanki mu buryo bwo kwigenga.
 
 
-![Nick Szabo in 1997](assets/en/17.webp)
+![Nick Szabo in 1997](assets/rn/017.webp)
 
-Nick Szabo mu 1997 (isoko: [Adrien Chen] (ifoto/1))
+Nick Szabo mu 1997 (isoko: [Adrien Chen](ifoto/1))
 
 
 Nick Szabo mu ntango yaradondora iciyumviro ciwe ku rutonde rwa libtech-l imbere y’uko atanga [umugambi] w’urupapuro rwera ku rubuga rwiwe bwite mu 1999. Hanyuma ashira ahabona muri 2005 mu [ngingo](iyindi nkuru] yasohoye ku rubuga rwiwe rwitwa Unenumerated.
@@ -534,7 +544,7 @@ Ikintu nyamukuru cari muri urwo rutonde cari uko uguhingura amahera vyakorwa bic
 Isano riri hagati ya Bit gold na Bitcoin riratangaje. Ivyo bice bitatu bigize iyo sisiteme (ugukora ama proof of work, gushiramwo ikidodo cavyo, n’ugucungera igitabu c’itunga), vyari bitandukanye na bit gold, biboneka muri Bitcoin nk’iciyumviro kimwe: Blockchain. Ni co gituma benshi babona ko ari umugambi wa Bitcoin bagaca biyumvira ko Nick Szabo yoba ari Satoshi.
 
 
-Ariko rero, ivyo abo bagabo babiri vyari bitandukanye cane. Muri bit gold, uburyo ibice vy’inzahabu vy’ubuhinga bwa none vyakozwe vyasobanura ko atakintu gishobora kubisubirira mu buryo bungana, bisobanura ko bitashobora kuvangwa: vyategerezwa gusuzumwa kw’isoko ryo hanze ya sisiteme kugira ngo bikoreshwe nk’ishimikiro ry’igice c’ingero y’ukuri kimwe. Uburyo bwa  « bit gold » rero bwarateguwe nk’uburyo bwo kugenzura amafaranga no gucunga amafaranga y’ububiko bw'agaciro, aho akaba ariho amabanki yigenga yisunga ndetse anagenderako, nimba bishoboka, hakoreshejwe icogereranyo ca Chaumian. Gutyo, muri Ndamukiza 2008, mu . [Ivyiyumviro](urubuga.ububiko.org/urubuga/20171227190431/2008/04/amasoko-y’inzahabu-y’ibice. blog, Nick Szabo yari agisaba imfashanyo yo gushitsa iciyumviro ciwe. Ariko rero, iyo nzira y’ugushirwa mu ngiro ntiyigeze ibaho.
+Ariko rero, ivyiyumviro vy'abo bagabo babiri vyari bitandukanye. Muri bit gold, uburyo ibice vy'inzahabu za elegitoroniki vyakozwemo bwatuma bitaba imfungurane, ni ukuvuga ko bitashobora kuvangwa hagati yavyo: rero vyategerezwa gupimirwa ku isoko ryo hanze y'ubwo buryo kugira ngo bishobore gukoreshwa nk'ishingiro ry'umutwe wo kubara umwe w'ukuri. Uwo mutako wa bit gold rero wari watekerejwe nk'uburyo bwo kwishuza butuma bashobora gucunga ifaranga ry'ibigega rikenye, kandi hejuru yaryo hokwubakwa ubutunzi bwa banki bwigenga, bibaye bishoboka bakoresheje umutako wa Chaum. Mu Ndamukiza 2008, mu [bwishuro](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269) kuri blogi yiwe, Nick Szabo yaciye asaba imfashanyo kugira ngo ashire mu ngiro iciyumviro ciwe. Ariko rero, ico gikorwa co gushira mu ngiro ntikigeze kiba.
 
 
 ### RPOW: Proof of work bishobora gusubirwamwo
@@ -551,10 +561,10 @@ Serveri ni yo yari icungera ibimenyetso(token) vya Proof-of-Work bishobora gusub
 Aha niho hari ikigereranyo [cakozwe] cakozwe na Hal Finney ubwiwe:
 
 
-![Exchange in RPOW](assets/en/18.webp)
+![Exchange in RPOW](assets/rn/018.webp)
 
 
-Hal Finney ntiyateguye gusa iyo nzira, ahubwo ni we ubwiwe yayishize mu ngiro. Ku wa 15 Myandagaro 2004, [yamenyesheje] (https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) ko hazotangura gukoreshwa ubuhinga bwa RPOW ku rutonde rw’abarungika ubutumwa ku rubuga rwa cypherpunks, uretse no kwandika ingene bukora ku rubuga rwa cypherpunks. Yaciye [arayishikiriza](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) mu nama ya CodeCon 2005 yabereye i San Francisco, aho yavuganye ku gaciro gashobora gukoreshwa mu gutanga amakuru, kugira ngo GWme1 itegeko ry’ubutumwa butari bwo, ubudandaji mu mikino y’amasanamu, urusimbi rwo kuri Internet nka poker, no kurwanya ubusambanyi ku mirongo ngenderwako yo gusangira amadosiye nka BitTorrent.
+Hal Finney ntiyateguye gusa iyo nzira, ahubwo ni we ubwiwe yayishize mu ngiro. Ku wa 15 Myandagaro 2004, [yamenyesheje](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) ko hazotangura gukoreshwa ubuhinga bwa RPOW ku rutonde rw’abarungika ubutumwa ku rubuga rwa cypherpunks, uretse no kwandika ingene bukora ku rubuga rwa cypherpunks. Yaciye [arayishikiriza](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html) mu nama ya CodeCon 2005 yabereye i San Francisco, aho yavuganye ku gaciro gashobora gukoreshwa mu gutanga amakuru, kugira ngo GWme1 itegeko ry’ubutumwa butari bwo, ubudandaji mu mikino y’amasanamu, urusimbi rwo kuri Internet nka poker, no kurwanya ubusambanyi ku mirongo ngenderwako yo gusangira amadosiye nka BitTorrent.
 
 Ariko rero, RPOW yari ifise utunenge two mu mutima twoshobora gusigura igituma itashitse ku vyo yari yiteze:
 
@@ -573,9 +583,9 @@ Gutyo, ikoreshwa nyaryo rya RPOW ryari ry’inkuru z’ivya kera. Naho ari ukwo,
 Iyindi nzira izwi cane y’imbere ya Bitcoin, ariko ihambaye aha, ni uburyo bwo gutanga ingurane Ripple, bwakozwe n’umuhinga mu vy’ubuhinga bwo gutegura ibintu wo muri Kanada Ryan Fugger mu 2004. Uwo musore w’Umunyakanada yisunze iciyumviro c’ubudandaji bwa [guhanahana bwo mu karere system](LETS), ikintu yari yarabonye i Vancouver imbere y’uko akora umurongo wiwe. Yasohoye igitabu citwa Ripple [igitabu cera] ku wa 14 Ndamukiza 2004. Hanyuma aragishira mu ngiro biciye ku kimenyamenya c'iciyumviro citwa RipplePay. yemerewe abakoresha kwinjira bakoresheje email gusa Address.
 
 
-![Ryan Fugger circa 2010](assets/en/19.webp)
+![Ryan Fugger circa 2010](assets/rn/019.webp)
 
-Ryan Fugger nko mu mwaka w'2010 (isoko: [Ikibanza c'Ivy'Imibano] (Umuntu/Ryan-Fugger))
+Ryan Fugger nko mu mwaka w'2010 (isoko: [Ikibanza c'Ivy'Imibano](Umuntu/Ryan-Fugger))
 
 
 Iciyumviro ca Ripple cari gishingiye ku ciyumviro c’uko amahera ahanini agizwe nukwemera ideni., ni ukuvuga ingurane. Vyari ku bijanye no gushinga urubuga rw’uguhanahana hagati y'abantu babiri rwoba ari ubucuti bw’ingurane hagati y’abantu. Ivyishurwa vyaciye bikorwa mu gutanga urutonde rw’ingurane, abaje muri iyo nama bose bakaba bakora nk’abakozi bo mu mabanki baguranana amahera. Alice yari gushobora kuriha David amadolari 10 mu kugurana Bob amadolari 10, agasaba Bob ngo na we ngo agire nkuko kwa Carole. Carole na we nyene abigire nkuko kuri David: Konte ya David yashizwemwo amadolari 10 avuye mu kurema amahera kwa Alice. Uwo murongo wakora mu buryo bumwe canke ubundi mu n=buryo bwo kwimenyereza, ivyo bikaba bisigura izina ry’uwo mugambi.
@@ -616,6 +626,8 @@ Bitcoin rero ni yo ntumbero y'uburondezi bw'amahera yo kuri Interinete, amahera 
 
 <chapterId>3d141918-e9c2-46e8-8c03-2bb4eb9b2150</chapterId>
 
+:::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
+
 
 Tumaze kumenya aho Bitcoin yavuye, tuzokwibanda kuri kahise kayo. Ivyo vyarashikirijwe n'ingingo nyinshi, amasanamu menshi be n’ibiganiro vyinshi cane, ku buryo hafi y’aho vyacitse inkuru z’imigani zishinga intahe. Nk’uko twabibonye, ​​Bitcoin ntishobora gutandukanywa n’aho yaremewe; ni ko biri no ku bintu vyabaye mu myaka yayo ya mbere, ivyo bikaba vyatumye iba ico iri uno musi, n’imico yayo be n’amakosa yayo.
 
@@ -641,13 +653,13 @@ Kugira akwirikirane yemeze ko ikora neza, Satoshi [yashizeho porogarama] nk'akar
 ### Gutegura
 
 
-Muri Myandagaro 2008 niho Satoshi yafata ingingo yo kwitegurira gutanguza Bitcoin. Ku wa 18, yazigamye izina ry’indangarubuga Bitcoin.org biciye ku kigo kitazwi AnonymousSpeech (na [Netcoin.org] (Netcoin.org] (1573234325046558720), kumbure yari yarahisemwo izina ryiwe). Izina ry’indangarubuga ryoba ryakira urubuga nyamukuru rwa Bitcoin. Ariko rero, Satoshi ntiyashoboye kubika izina ry’indangarubuga Bitcoin.com, iryo zina ryari rifise [umunyabwenge] (https://mmalmi.github.io/Satoshi/#email-28) kandi ryari kuba [yakoreshejwe](yakoreshejwe](ikoreshwa] hagati y’umwaka wa 2009 n’uwa 2011 n’ishirahamwe ryitwa Bitcoin Ltd., ryihariye mu vy’ugutanga amahera make.
+Muri Myandagaro 2008 niho Satoshi yafata ingingo yo kwitegurira gutangura Bitcoin. Ku wa 18, yazigamye izina ry’indangarubuga Bitcoin.org biciye ku kigo kitazwi AnonymousSpeech (na [Netcoin.org](Netcoin.org] (1573234325046558720), kumbure yari yarahisemwo izina ryiwe). Izina ry’itongo ryoba ryakira urubuga nyamukuru rwa Bitcoin. Ariko rero, Satoshi ntiyashoboye kubika izina ry’indangarubuga Bitcoin.com, iryo zina ryari rifise [umunyabwenge](https://mmalmi.github.io/Satoshi/#email-28) kandi ryari kuba [yakoreshejwe](yakoreshejwe](ikoreshwa] hagati y’umwaka wa 2009 n’uwa 2011 n’ishirahamwe ryitwa Bitcoin Ltd., ryitaho ivy’ugutanga amahera make.
 
 
 Ku wa 20 Myandagaro, uwaremye Bitcoin [yarashikirije] Adam Back, mu kumurungikira ubutumwa kuri email amusaba impanuro ku buryo yovuga hashcash mu gitabu cera. Biragoye kutabona ivyo nk’urwitwazo rwo kumenya neza ko uwahinguye Hashcash amenya uburyo bwiwe bushasha.
 
 
-![Adam Back in 2012](assets/en/20.webp)
+![Adam Back in 2012](assets/rn/020.webp)
 
 Adamu Back mu mwaka w’2012 (inkomoko: [urubuga rwiwe bwite rwa Adamu Back]
 
@@ -669,7 +681,7 @@ Ku ruhande rwiwe, Satoshi araheza kwitegurira kugira ashire ahabona ivyo yavumbu
 ### Gusohoka kw'igitabu cera
 
 
-Ku wa 31 Gitugutu 2008, Satoshi Nakamoto yasohoye [verisiyo ya mbere c'igitabu cera](itunga/pdf/Bitcoin-20081003.pdf) ku rutonde rw'ubutumwa rwo kuri email rwerekeye ubuhinga bwo gukingira amakuru, rwitwa gusa "Urutonde rw'ubutumwa bwo gukingira amakuru." Uru rutonde rwacungiwe n’umuhinga mu gukora ama pororgarama Perry Metzger kuva mu 1996, [iremwa] ryayo, kandi rwari rwashizwe ku rubuga rwiwe bwite, Metdowd.com, kuva mu 1996. [2003] (Ubutumwa bw'amazi/ubuhinga bwo gukora amakuru y'ibanga/2003-Myandagaro/004484.html). Ni ryo rikurikira urutonde rw’aba cypherpunks, n’itandukaniro ry’uko rishobora gukorwako n'uburinganire bukomeye. Mu mwaka w’2008, benshi mu bahoze mu muhari wa cypherpunks, nka John Gilmore, Hal Finney na Len Sassaman, baracariko baravyitabira.
+Ku wa 31 Gitugutu 2008, Satoshi Nakamoto yasohoye [urupapuro rwa mbere rw'igitabu cera](itunga/pdf/Bitcoin-20081003.pdf) ku rutonde rw'ubutumwa rwo kuri imeyili rwerekeye ubuhinga bwo gukingira amakuru, rwitwa gusa "Urutonde rw'ubutumwa bwo gukingira amakuru." Uru rutonde rwacungiwe n’umuhinga mu bijanye n’ivy’ubuhinga Perry Metzger kuva mu 1996, [iremwa] ryayo, kandi rwari rwashizwe ku rubuga rwiwe bwite, Metdowd.com, kuva mu 1996. [2003](Ubutumwa bw'amazi/ubuhinga bwo gukora amakuru y'ibanga/2003-Myandagaro/004484.html). Ni ryo rikurikira urutonde rw’aba cypherpunks, n’itandukaniro ry’uko rishobora gukorwako uburinganire bukomeye. Mu mwaka w’2008, abantu benshi bahora ari abahinga mu vy’ubuhinga bwa none, nka John Gilmore, Hal Finney na Len Sassaman, baracariko baravyitabira.
 
 
 Muri [imeli](ubutumwa) yiwe yambere yandikiye urwo rutonde, Satoshi yanditse ati:
@@ -691,7 +703,7 @@ Iratanga kandi urutonde rw’ibintu nyamukuru vy'ubwo buryo:
 Muri email yiwe, ashiramwo uruja n’uruza rw’ico gitabu cera, kikaba gisanzwe kiri kuri Bitcoin.org. Iyi nyandiko ngufi y’impapuro 9, yerekanwa nk’ingingo y’ubuhinga, idondora ingene Bitcoin ikora mu buryo bw’ubuhinga kandi yibanda ku ngorane yo kuriha kuri interinete.
 
 
-![Title and summary of the first version of the white paper (October 2008)](assets/en/21.webp)
+![Title and summary of the first version of the white paper (October 2008)](assets/rn/021.webp)
 
 
 Satoshi yararonse inyishu nkeyi inyuma y’iryo tangazo, ariko benshi barakekeranya. Aranegurwa cane cane kubera ibintu bitatu:
@@ -709,7 +721,7 @@ Satoshi yararonse inyishu nkeyi inyuma y’iryo tangazo, ariko benshi barakekera
 Naho ugukekeranya ari co ciyumviro gihambaye kuri urwo rutonde, ntikisangirwa n’umuntu wese yiyandikishije kuri urwo rutonde rw’abarungika ubutumwa. Cane cane, umuntu umwe aratandukanye n’abandi kubera umunezero wabo: Hal Finney, afise icizere ku bijanye n’akazoza kandi atigeze areka iciyumviro c’amahera y’ubuhinga bwa none, naho nyene mu myaka ya 90 vyari vyananiwe. Yavuze (https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833) kuri ivyo haciye imyaka mikeyi yuko “abanyabwenge banje b’imvi z’ubuhinga bwa none [...] bakunda kuba abatavyemera” ariko ko “yari umuntu w’umunyaruyeri cane, yari umuntu w’umunyaruyeri cane”. ibiteye kubiri n'ivyo." (*original: "Nabonye ko abafise uburambe muvyo kunyegeza amakuru  (nari mfise imyaka 50) bakunda kutemera. Nari umuntu afise ivyiyumviro vyiza; nama nkunda ibanga, akabanga n'ibiteye ubwoba birimwo."*) Gutyo, ku wa 7 Ugushyingo, yanditse mu kinyamakuru kimwe. ku rutonde rw'uko "Bitcoin isa n'iciyumviro gitanga umuhango cane" kandi akagereranya ikigereranyo ca Satoshi na bit gold ya Nick Szabo. (*original: "Bitcoin isa n'iciyumviro gitanga umuhango cane."*)
 
 
-![Hal Finney in 2007](assets/en/22.webp)
+![Hal Finney in 2007](assets/rn/022.webp)
 
 Hal Finney muri 2007
 
@@ -726,10 +738,10 @@ Kubera iyo mpinduka y’ingorane, Bitcoin irashobora kugira politike y’amahera
 
 > "Ukwongerwa kw'ibiceri bishasha bihoraho bisa n'abacukuzi b'inzahabu bakoresha amahera kugira ngo bongere inzahabu mu gukoreshwa."
 
-Iyi ntungamubiri, yemejwe na Satoshi [ku rutonde rw’abarungika ubutumwa] be n’[mu makete yiwe bwite](mmalmi.github.io/GWnoes-2). Ku wa 9 Ugushyingo, [aranegura], ko "igikorwa co gukurikirana uwufise iki" (ni ukuvuga, Mining) kubera ko "yishuwe n'abasaba ko ata n'umwe ashobora gutera imbere" kandi ko "ata n'umwe ashobora gutera imbere" kandi ko " ntaco bimaze nk'ugutera imbere kw'ibiciro rimwe na rimwe kugira ngo ubutunzi buve mu gice kimwe c'amatora buje mu kindi." (*original: "mu nzira itegekanijwe igikorwa co gukurikirana uwufise ibiceri vyishyurwa na seigniorage, ivyo bikaba bisaba inflation. Ivyo si akaga kadashobora kwihanganirwa - inflation ishobora gutegekanirwa ntaco ishobora kwanka kuruta inflation igenda ihinduka rimwe na rimwe kugira ngo ubutunzi buve mu gice kimwe c'amatora buje mu kindi."*,) Furthermo [ibiharuro] (https://www.metzdowd.com/pipermail/cryptography/2008-Ugushyingo/014841.html) ko urudodo rwa Mining "rwirengagiza amahera yose rudakoresha" nta ngaruka mbi rugira, gutyo bikaba bigaragaza ingorane y'ugucengera. (*original: "Iyo node imwe iriko irirengagiza amafaranga yose ikoresha itavyitaho, nta ngaruka mbi igira."*)
+Iyi ntungamubiri, yemejwe na Satoshi [ku rutonde rw’abarungika ubutumwa] be n’[mu makete yiwe bwite](mmalmi.github.io/GWnoes-2). Ku wa 9 Ugushyingo, [aranegura], ko "igikorwa co gukurikirana uwufise iki" (ni ukuvuga, Mining) kubera ko "yishuwe n'abasaba ko ata n'umwe ashobora gutera imbere" kandi ko "ata n'umwe ashobora gutera imbere" kandi ko " ntaco bimaze nk'ugutera imbere kw'ibiciro rimwe na rimwe kugira ngo ubutunzi buve mu gice kimwe c'amatora buje mu kindi." (*original: "mu nzira itegekanijwe igikorwa co gukurikirana uwufise ibiceri vyishyurwa na seigniorage, ivyo bikaba bisaba inflation. Ivyo si akaga kadashobora kwihanganirwa - inflation ishobora gutegekanirwa ntaco ishobora kwanka kuruta inflation igenda ihinduka rimwe na rimwe kugira ngo ubutunzi buve mu gice kimwe c'amatora buje mu kindi."*,) Furthermo [ibiharuro](https://www.metzdowd.com/pipermail/cryptography/2008-Ugushyingo/014841.html) ko urudodo rwa Mining "rwirengagiza amahera yose rudakoresha" nta ngaruka mbi rugira, gutyo bikaba bigaragaza ingorane y'ugucengera. (*original: "Iyo node imwe iriko irirengagiza amafaranga yose ikoresha itavyitaho, nta ngaruka mbi igira."*)
 
 
-Ivyo bivugwa birashoboka ko vyatumye Satoshi abona ko yoshobora gushiramwo [uburyo bwo gutanga amahera y’ugucuruza] (https://www.metzdowd.com) butorera umuti izo ngorane zompi, mu gusubirira uguhingura ibice bishasha n’ [guhimiriza] abacukuzi b'amabuye y'agaciro "gushiramwo amafaranga yose bashobora kwishura." (*original: "nodes zogira insiguro yo gushiramwo amafaranga yose yishurwa zironka."*)
+Ivyo bivugwa birashoboka ko vyatumye Satoshi abona ko yoshobora gushiramwo [uburyo bwo gutanga amahera y’ugucuruza](https://www.metzdowd.com) butorera umuti izo ngorane zompi, mu gusubirira uguhingura ibice bishasha n’ [guhimiriza] abacukuzi b'amabuye y'agaciro "gushiramwo amafaranga yose bashobora kwishura." (*original: "nodes zogira insiguro yo gushiramwo amafaranga yose yishurwa zironka."*)
 
 
 Muri ico gihe nyene, ibibazo vy’abo yariko arayaga vyatumye asangira n’abandi kode y’inkomoko y’ico ciyumviro ciwe. Ku wa 16 Munyonyo, ikinyamakuru Satoshi cararungikiye iyo kode Hal Finney, James A. Donald na Ray Dillinger. Ku wa 17, mu kwishura James A. Donald ku rutonde rw'abamurungikiye, yanditse ko yamurungikiye "amadosiye nyamukuru," yari "ashobora kuboneka ku wuyasavye muri ico gihe.umwi merere: "Nagurungikiye amadosiye nyamukuru. aboneka ku wuyasavye muri iki gihe, azosohoka yose vuba Muri iki gice ca kode, cari [camenyeshejwe abantu bose muri 2013 na Ray Dillinger, uca ubona ibintu vyose nyamukuru bigize Bitcoin biri ngaha: blockchain ] tuvyita  Ibice vya Bitcoin birahari: Blockchain (ico gihe yari yitwa "uruhererekane rw'igihe(timechain)"), Proof of Work, uburyo bwo guserukira uduce (UTXO), ubushobozi bwo gukora porogarama, amafaranga akatwa kwirungikwa, na Halving.
@@ -763,7 +775,7 @@ Ku wa 8 Nzero 2009, isaha imwe n’iminota 27, Satoshi Nakamoto yarasohoye veris
 
 > "Turamenyesheje ugutangura kwa Bitcoin, ubuhinga bushasha bw'amahera y'ubuhunga bwa none bukoresha bwo guhanahana kwa babiri kugira hirindwe ugusohora kabiri. Burashizwe ahantu hamwe ata server canke ubuyobozi bukuru."
 
-Yavuze ko "porogaramu ikiri muri verisiyo ya alpha kandi iri mu gihe c'igerageza" kandi ko ata cizere c'uko uburyo bwa sisitemu butazosubira gutangura igihe kanaka iyo bibaye ngombwa.  Hari uburyo bubiri bwo kuronka Bitcoins: mu kwakira amahera y'uwundi muntu canke mu gukoresha ibiceri izana urunganwe rushasha ukoresheje CPU. Hari kandi uburyo bubiri bwo kurungika ama Bitcoins: gukoresha Aderesi IP y’uwuyakira canke biciye ku Bitcoin Address, ivyo bikaba bituma umuntu ashobora kurungika amahera atari mu nzira. Ubwa nyuma, iyo email idondora politike ya nyuma y’amahera ya Bitcoin, iyo tuzoyivugako mu kigabane gikurikira.
+Iryo tegeko ryasohowe rirakomeye cane kuruta uko ryashikirijwe kandi ryandikiwe gutegura Interface muri kazoza ryotuma habaho ibikorwa vyinshi kuruta gutanga amafaranga gusa. Satoshi vy’ukuri [yashizwemwo](https://plan99.net/~mike/Satoshi-emails/thread4.html) mu mukiriya ivy’ishimikiro vy’“isoko ry’uburyo bwa eBay” (*umwimerere: “isoko ry’uburyo bwa eBay ryubatswe mu mukiriya”*) ryo [could](https://umugambi99.net/~mike/Satoshi-emails/thread1.html) cane cane "gutuma vyoroha umuntu wese gutanga amafaranga Exchange" (*umwimerere: "vyorosha umuntu wese gutanga amafaranga Exchange*" Iryo tegeko kandi ririmwo [ibikorwa bimwebimwe](ibikorwa bimwebimwe] ataco uhinduye muri porogarama. Poker yo kuri Internet yariko iratera imbere cane muri Leta Zunze Ubumwe za Amerika kuva mu 2003 (bivuye ku "Moneymaker effect") ariko yaguye mu kaga k'uburyo bwo gucengera ivy'amahera inyuma y'aho hashikirijwe [Itegeko ry'Ugukina Urusimbi rwo kuri Internet ritemewe n'amategeko . Itegeko](ivyo-niba-poker-itari-igice-c’i-uigea-mu-2006) mu 2006, risobanura ivyo vyongeweko.
 
 Iryo tegeko ryasohowe rirakomeye cane kuruta uko ryashikirijwe kandi ryandikiwe gutegura Interface muri kazoza ryotuma habaho ibikorwa vyinshi kuruta gutanga amafaranga gusa. Satoshi vy’ukuri [yashizwemwo] (https://plan99.net/~mike/Satoshi-emails/thread4.html) mu mukiriya ivy’ishimikiro vy’“isoko ry’uburyo bwa eBay” (*umwimerere: “isoko ry’uburyo bwa eBay ryubatswe mu mukiriya”*) ryo [could](https://umugambi99.net/~mike/Satoshi-emails/thread1.html) cane cane "gutuma vyoroha umuntu wese gutanga amafaranga mu guhanahana" (*umwimerere: "vyorosha umuntu wese gutanga amafaranga yuguhanahana*" Iryo tegeko kandi ririmwo [ibikorwa bimwebimwe](ibikorwa bimwebimwe] ataco uhinduye muri porogarama. Poker yo kuri Interinete yariko iratera imbere cane muri Leta Zunze Ubumwe za Amerika kuva mu 2003 (bivuye ku "Moneymaker effect") ariko yaguye mu kaga k'uburyo bwo gucengera ivy'amahera inyuma y'aho hashikirijwe [Itegeko ry'Ugukina Urusimbi rwo kuri Interinete ritemewe n'amategeko . Itegeko](ivyo-niba-poker-itari-igice-c’i-uigea-mu-2006) mu 2006, risobanura ivyo vyongeweko.
 
@@ -773,15 +785,15 @@ Haciye amasaha makeyi iryo tangazo ritangajwe, mw’ijoro ryo kuva kw’igeneker
 
 Ivyo bimaze gushika, Satoshi aca yiyemeza kumenyesha abantu batandukanye yavuganye na bo ivyerekeye itangazo ryo kugurura. isaha ya 5:21 z’ijoro, yohereza [email] kuza kumenyesha Hal Finney ko ‘verisiyo 0.1 ya Bitcoin, iri kumwe n’idosiye ya EXE be n’icode yinkomoko yose, biri kuri Sourceforge’. Bukeye, yongera kuvugana na Adam Back na Wei Dai abicishije mu rwandiko rwa email rwihariye. Muri ayo makete yo hanyuma, yashizemwo canecane icandiko Hal Finney yari yanditse ku rutonde rwo gushirako amakuru, aho yavugamwo proof of work n’ifaranga y'ubuhinga bwa none.
 
-Ku wa 10 Mukakaro, Hal Finney yaragerageje gutanguza dosiye ya pororgramu ariko ahura n’ikibazo c’ubuhinga catumye inyabwonko yiwe ihagarara. Yaciye [ahamagara] Satoshi, Satoshi maze batangura kuvugana we kuri ico kibazo. Naho vyari bigoye, Hal Finney yarashoboye gutuma iyo porogarama ikora. Mw'ijoro ryo kuva kw’igenekerezo rya 10 gushika ku rya 11 Nzero, isaha indwi z’ijoro, yararonse block yiw yambere ([Block . 78](Mempool.space/block/00000000)) maze gutyo aronka ama BItcoin 50. Haciye isaha imwe, yarungitse [Ikete rishimishije] (https://www.metzdowd.com/pipermail/cryptography/2009-Munyonyo/015004.html) ku rutonde rw’ubutumwa rw’ubuhinga bwa Cryptography* aho yashimiye Satoshi ku gusohora verisiyo y’ururimi rwa alpha y’ubuhinga bwa none. Ubwa nyuma, isaha zitatu n'igice z'ijoro, yaravuze ivyo yiboneye kuri Twitter(X) (urubuga rwo gusangirirako amakuru rwari ruriko rurakura ico gihe) avuga ko "ariko aradakoresha \[B\]itcoin". Iyi ni tweet ya mbere yerekeye Bitcoin.
+Ku wa 10 Mukakaro, Hal Finney yaragerageje gutanguza dosiye y'ivyo bikoresho ariko ahura n'ikibazo c'ubuhinga catumye mudasobwa yiwe ihungabana. Ya **yashikirije** Satoshi Satoshi maze atangura guhanahana amakuru na we kuri ivyo. Naho vyari bigoye, Hal Finney yarashoboye gutuma iyo porogarama ikora. Mu ijoro ryo kuva kw'igenekerezo rya 10 gushika ku rya 11 Nzero, isaha imwe y'ijoro, yararonse ibaraza ryiwe rya mbere (**ibaraza . 78**](Mempool.space/block/00000000)) maze gutyo aronka amafaranga 50 y'ama bitcoins. Haciye isaha imwe, yarungitse **email ishimishije** (https://www.metzdowd.com/pipermail/cryptography/2009-Munyonyo/015004.html) ku rutonde rw'ubutumwa rw'ubuhinga bwa **Cryptography** aho
 
 
 Muri ivyo biganiro hagati ya Satoshi na Hal Finney, havuyemwo verisiyo 0.1.3, [yasohowe], kuwa 12 nzero naho vyasa naho ari nziza kurusha iyambere.  Satoshi na we nyene yafatiyeho ikiyago yagiranye na Hal Finney kugira ngo amuhe amafaranga y’ibiceri: [yaramurungikiye] 10 bitcoins biciye kuri IP yiwe Address mw’ijoro kuva kw’igenekerezo rya 11 gushika ku rya 12 Mukakaro, isaha icenda n’igice z’ijoro. Niryo rungika ryambere hagati y'abantu babiri kurii urwo rubuga
 
-Ariko Hal Finney si we wenyene yariko araraba Bitcoin ico gihe. Ivyo ni ko vyagendeye Dustin D. Trammell, umushakashatsi w’Umunyamerika mu vy’umutekano w'inyabwonko, uwo gihe yari afise ugushimishwa n’amahera y’ubuhinga bwa none (na canecane amafaranga y’ubuhinga bwa none yitwa Liberty Dollar), uwazanye Bitcoin biciye ku rutonde rw’abarungika ubutumwa. Ku wa 11 Mukakaro, akoresha iyo porogarama kuri imwe mu mashini yiwe y’akazi (ariko ntacukura [block] yiwe ya mbere 13 kubera ingorane y’ubuhinga). Mu ijoro ryo kuva ku wa 11 gushika ku wa 12 Nzero, arakorana cane na Satoshi, uwo [akavugana] na we mu misi ikurikira. Ku wa 15 Mukakaro, Dustin Trammell [yakiriye] (yakiriye] na we nyene.
+Ariko Hal Finney si we wenyene yariko aragerageza Bitcoin ico gihe. Ivyo ni ko vyagendeye Dustin D. Trammell, umushakashatsi w’Umunyamerika mu vy’umutekano wa orodinateri, uwo gihe yari afise ugushimishwa n’amahera y’ubuhinga bwa none (na canecane amafaranga y’ubuhinga bwa none yitwa Liberty Dollar), uwavumbuye Bitcoin biciye ku rutonde rw’abarungika ubutumwa. Ku wa 11 Mukakaro, akoresha iyo porogarama kuri imwe mu mashini yiwe y’akazi (ariko ntacukura [block] yiwe ya mbere 13 kubera ingorane y’ubuhinga). Mu ijoro ryo kuva ku wa 11 gushika ku wa 12 Nzero, arakorana cane na Satoshi, uwo [akavugana] na we mu misi ikurikira. Ku wa 15 Mukakaro, Dustin Trammell [yakiriye](yakiriye] na we nyene.
 
 
-![Dustin Trammell](assets/en/23.webp)
+![Dustin Trammell](assets/rn/023.webp)
 
 Dustin Trammell (inkomoko: [ububiko bw'urubuga rwa Dustin Trammell]
 
@@ -805,6 +817,8 @@ Ariko rero, ico gikorwa nticari gihagije, kandi vyasavye ko Satoshi ashikama aka
 
 <chapterId>28be3515-d9da-4d91-b7ff-f8691d51c562</chapterId>
 
+:::video id=c9691569-f026-460d-a08d-98fa54f1ce25:::
+
 
 Tumaze gusuzuma ingene Bitcoin yahinguwe kandi itanguzwa na Satoshi Nakamoto, reka tuje ku kuntu yashikirijwe ku mugaragaro. Inyuma y’aho ishiriwe ahabona mu ntango z’umwaka w’2009, yaratanguye gukora. Naho ari ukwo, hariho uturongo dukeyi two gutanga umuriro (Satoshi yaragize mining nyinshi cane ama block yari ahari), kandi ibikorwa vyasa nkaho bidahari (ibikorwa vy'uguhanahana 32 vy’ukuri vyabaye muri Mukakaro). Uwo mugambi wari ufise gusa urubuga rw’ishimikiro n’urubuga rwa SourceForge rwo kuronkerako porogarama. Vyongeye, uguhanahana amakuru ku bijanye na Bitcoin kwari gushingiye gusa ku rutonde rw’abarungika ubutumwa rwa Metzdowd Cryptography, hakurikijwe n’abantu amajana makeyi bakunda cane ubuhinga bwo guhisha amakuru.
 
@@ -818,7 +832,7 @@ Muri iki gice, turaza gusuzuma amategeko y’imico yavuye mu bikorwa vya Satoshi
 ### Block ya Genesis
 
 
-Ivyo vyatangujwe muri Mukakaro 2009 vyatumye Satoshi Nakamoto ashobora gushinga amategeko adahinduka y’iyo sisitemu. Nk’uko [azovyandika] (https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) mu nyuma, kamere ya Bitcoin ni uko, “igihe verisiyo 0.1 yasohotse,” igikorwa cayo c’ishimikiro cari “cibagigwe mu minsi yose gisigaje kubaho,” Bitume biba karahara muruganda ntibacura iterambere ry'iyo sisiteeme. (*original: "igihe verisiyo 0.1 yasohoka, umugambi nyamukuru hama ukibagigwe mu minsi yose gisigaje kubaho,”"*) Cane cane, ibice bibiri vy'ishimikiro bifise akamaro kanini mu vy'umuco: ibirimwo mu gice ca Genesis n'urugero rw'ibice miliyoni 21.
+Ivyo vyatangujwe muri Mukakaro 2009 vyatumye Satoshi Nakamoto ashobora gushinga amategeko adahinduka y’ivyo bikoresho. Nk’uko yari [kwandika](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611) mu nyuma, kamere ya Bitcoin ni uko, “igihe verisiyo 0.1 yasohotse,” igikorwa cayo c’ishimikiro cari “gishizwe mu mabuye kugira ngo ibintu vyose bibeho,” vyagutse. (*umwimerere: "igihe verisiyo 0.1 yasohoka, umugambi nyamukuru warashizwe mw'ibuye mu buzima bwayo bwose"*) Cane cane, Elements zibiri z'ishimikiro zifise akamaro kanini mu vy'umuco: ibirimwo mu gice ca Genesis n'urugero rw'ibice miliyoni 21.
 
 
 Block ya Genesis ni co gipande c’ishimikiro ca Bitcoin Blockchain, aho kigomba gukura. Ni co gituma rero, bishirwa mu nzira ikomeye muri porogarama. Imbere y’uko Satoshi itanguzwa, yubatse uruja n’uruza rwa mbere mu gukora Proof of Work isabwa no kuyishirako ikidodo c’isaha ku wa 3 Nzero 2009, isaha 18:15:05 UTC. Muri iyo block (kandi cane cane mu bijanye n’ugutanga impembo), yanditse ubutumwa bukurikira:
@@ -838,7 +852,7 @@ Uwo niwo mutwe w’inkuru yasohotse mu kinyamakuru c’Ubwongereza *The Times* k
 - Ku rundi ruhande, ryerekana mu buryo bw’ukugereranya mu ki Bitcoin ihagazeko mu kwerekeza ku bijanye n’amahera n’ivy’ubutunzi vyo muri ico gihe.
 
 
-![The Times: Chancellor on brink of second bailout for banks](assets/en/24.webp)
+![The Times: Chancellor on brink of second bailout for banks](assets/rn/024.webp)
 
 
 Iciyo gihe, isi yose yarashikiwe n’ingorane z’ubutunzi zatanguye mu 2007 igihe isaso y’amabanki y’ingurane zifitanye n'ugushobora kugira impanuka muri Leta Zunze Ubumwe za Amerika yasambuka. Inyuma y'ugusenyuka kw'ibanki ya  Lehman Brothers itariki 15 Nyakanga 2008.Leta zarafashije ibigo vy'ubutunzi kugira ngo ntibisubire gusenyuka, kandi amabanki akomeye yaragize uruhara mu kugabanya ivy’ubutunzi mu gushiramwo amahera mu masoko y’ivy’amafaranga. Ukwo gukoresha amahera ya Leta kwaremewe uwo musi kwatumye abanyagihugu batari bake bacika intege, bamenya ko mu vy’ukuri ubuhinga bwa banki ari ubw’inyungu zabo ubwabo hama ibihombo vyose bigafatirwa hamwe.
@@ -861,6 +875,7 @@ Ivyo bituma tugera ku kintu ca kabiri cashikirijwe na Satoshi ku musi uwo muhora
 
 Haciye imisi mikeyi, Hal Finney [yarasubije neza kuri iyo politike y'amahera ku rutonde rw'abarungika ubutumwa, ashimishijwe n'uko "uburyo bushobora gutunganirizwa gusa kugira ngo umuntu ashobore gukoresha igitigiri kinini." Mu rwandiko rwiwe rwa email, yagereranyije ko iyo Bitcoin iba "uburyo bwo kuriha bukoreshwa kandi bwiganje kw'isi yose," buri kimwe cose coba gifise "agaciro k'amadolari nk'imiliyoni 10." Yanditse ko "ubushobozi bwo gutanga ibice uno musi n'amasenti makeyi y'umwanya wo guharura" bushobora kuba "ikintu ciza cane." Naho uko kureranya koba gushobora gushikirizwa (kuko ishingiye ku gaciro ka Bitcoin koba kangana n’ubutunzi bwose bwo kw’isi yose), kuvyumva birabangamye.
 
+Kuwa 16 Mutarama, Satoshi yagarutse kuri iki ciyumviro c'« ishiganwa mu gihe kirekire » mu butumwa bwo kuri imeyili yatumye kuri urutonde rw'abo yatumira, aho yasigura ibijanye n'ugukoresha Bitcoin bishobora kuvamwo. Aca [avuga](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html) ko « vyoba ubwenge kugira duke gusa vyoshobora gukora » be n'uko « abantu benshi nibiyumvira kumwe, bizoba ubuhanuzi bwikwiza ». Yongeye [gushimangira](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) ivyo nyene haciye ukwezi, asigura ko umubare muto w'ibice ushobora guteza « uruziga rw'inyishu nziza » mu gusigura ko « uko abakoresha bava bagwira, niko agaciro kiyongera, bishobora gukurura abandi bakoresha bifuza guhiganirwa n'akaciro gushika ». Kubera iyo mpamvu, igice c'ubushimikiro kirahaba kuva aho umugambi utanguriye, mu mugambi wo gutanguza ubwo buryo.
 
 Ku wa 16 Nzero, Satoshi yasubiyemwo ico ciyumviro c'"ugushiramwo imitahe vy'igihe kirekire" muri email yasangiye n'urutonde rw'abarungika ubutumwa, aho yavuga uburwo canke igihe Bitcoin yokoreshwa. Yavuze ko "bishobora kuba bifise insiguro kugira ngo umuntu aronke bimwe mu vyo gufata. Iyo abantu benshi bahuriye ku ciyumviro, gitera kija mungiro nk'ubuhanuzi bwavuzwe kandi bugashika." [Yasubiyemwo] (https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562) ivyo vyiyumviro haciye ukwezi kumwe, asigura ko igitigiri gito c'ibice ushobora gutuma haba "uruzitiro rw'inyungu nziza" mu buryo bw'uko "uko abakoresha benshi bashobora kwongerekana, ni ko twongerera kuva ku gaciro kagenda karushirizaho kuduga." Gutyo, ikintu c’ukwiyumvira ku bintu kiriho kuva mu ntango, kigamije gutanguza iyo sisitemu.
 
@@ -881,9 +896,9 @@ Inyuma y’aho, muri iyo email nyene, Jonathan Thornburg aravuga ku ciyumviro c�
 Ubwa nyuma, ijambo rya nyuma ryavuzwe na John Gilmore, umunyamuhari akaba no mubashinze umuhari witwa cypherpunks akaba n’uwujejwe urutonde rwo gusohora rw'uwo muhari kuva mu 1992 gushika mu 1997. Mu rwandiko rwo kuri email yarungitse ku wa 25 Nzero, arashimika ku ngaruka zishobora guterwa z'igisata kubera Bitcoin. [yanditse](https://www.metzdowd.com/pipermail/cryptography/2009-Mukakaro/015042.html) ko “ikintu ca nyuma dukeneye ni ugushiraho uburyo bugenewe kumara ubushobozi bwo guharura buhari, bukoresha umuyagankuba kandi bugatanga umuyagankuba mutoyi wo kuri Interinete. Kugira dushobore gukora ama bitcoins make kugira turungika ama email canke ama spam" Satoshi [asubiza] mu mwiherero ko "vyoba ari ibiteye isoni guhitamwo hagati y'umwidegemvyo mu vy'ubutunzi no kubungabunga igisata." Yongerako ati: "Proof of Work ni co gisubizo conyene [yabonye] co gutuma ubuhinga bwo gutanga amahera bukora neza" kandi ko, naho bwoba bukoresha inguvu nyinshi, "bwoba bushobora gutakaza inguvu nke kuruta igikorwa ca banki gisanzwe gikoresha abakozi n'ubutunzi, basubiriza."
 
 
-![John Gilmore in 2007](assets/en/25.webp)
+![John Gilmore in 2007](assets/rn/025.webp)
 
-John Gilmore mu 2007 (isoko: [Flickr] (amafoto/35034362831))
+John Gilmore mu 2007 (isoko: [Flickr](amafoto/35034362831))
 
 
 Ku wa 27, Hal Finney [avuga] uburyo bwo kugabanya ugutakaza inguvu zijanye n’uguharura Proof of Work. Haciye isaha imwe, yanditse kuri Twitter(X) ati: “Yiyumvira ingene yogabanya ivyuka bihumanya ikirere biva ku gushirwa mu ngiro kwa Bitcoin.”
@@ -908,7 +923,7 @@ Ku wa 11 Ruhuhuma, Satoshi yarasohoye [ubutumwa bw’intangamarara](https://p [k
 
 [Ku mwidondoro wiwe] Avuga ko ari umugabo w’Umuyapani ku rubuga rwiwe, ariko ivyo si vyo nagato. ugushira ku gihe Interface muri 2011 vyarerekanye imyaka yiwe: imyaka 35, ivyo bikaba bisobanura ko yari afise imyaka 32 canke 33 mu 2009. Hanyuma, mu 2014, [vyaramenyekanye]. yari yerekanye itariki yihariye yavukiyeko: itariki 5 Ndamukiza 1975. Iyo tariki isa n’iyitagira akamaro, birashoboka ko ari iry’ugusobanura ibintu vyinshi ku bijanye n’ukubuza abanyamerika kugira inzahabu hagati ya 1933 na 1975 muri Leta Zunze Ubumwe za Amerika. Umusi wa 5 Ndamukiza ufitaniye isano n’umusi iyo nzira y’ububisha yashizweho n’[Itegeko Nshinga 6102](https://www.presidency.ucsb.edu/inyandiko/itegekonshingwa 6102 ribuza kwirundanya inzahabu inzahabuyashizweko umukono na Perezida. Franklin Delano Roosevelt ku wa 5 Ndamukiza 1933, kandi umwaka w’1975 uhuye n’ugukurwaho kwaryo n’ugushirwaho kw’Itegeko rya Leta 93-373. Ivyo birahambaye cane kuko iryo tegeko ryarangije urugero rw’inzahabu rwa kera (aho umuntu yashobora kuronka inzahabu mu guhanhana ku giciro c’amahera aserukira), ryemerera ugucika kw’agaciro k’idolari (biciye mw’Itegeko ry’Ibizigamirwa vy’Inzahabu mu 1934), kandi ryorosha gushinga urugero rw’inzahabu rureremba rwa Exchange we know the mo 1971.
 
-![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/en/26.webp)
+![Satoshi Nakamoto's profile on the P2P Foundation forum, captured on March 17, 2011](assets/rn/026.webp)
 
 
 Umwidondoro wa Satoshi Nakamoto ku nama y'ishirahamwe P2P Foundation ku wa 17 Ntwarante 2011 (inkomoko: [ihuriro ryafashwe]
@@ -919,7 +934,7 @@ Ivyo si vyo vyonyene bivuga ivyuma vy’agaciro biboneka mu bimenyeshamakuru vya
 
 > "Ku kibazo ca Sepp, vy'ukuri nta n'umwe yokora nk'ibanki nkuru canke ububiko bwa Leta Zunze Ubumwe za Amerika kugira ngo atunganye amahera atangwa uko abantu benshi bakoresha bagenda barakura. Ivyo vyari gusaba umuntu yizigirwa kugira ngo amenye agaciro, kuko ntazi uburyo bwo kumenya agaciro k'ibintu vy'ukuri. amahera atangwa kugira ngo ayishire ku kintu, amategeko yari gushobora gutegurwa kuri ivyo, ni nk'icuma c'agaciro."
 
-Satoshi Nakamoto na we nyene arakora cane ku rutonde rw’abarungika ubutumwa aho ahanahana ivyiyumviro na Martien van Steenbergen, umujanama w’Umuholandi mu bijanye n’uburongozi bw’imigambi. Ku wa 13 Ruhuhuma, aravuga ku ciyumviro c’uko Bitcoin ishobora gutegurwa be n’uko . [yanditse] (ububiko bw'ubushakashatsi/ububiko bw'ubushakashatsi/2009-Ruhuhuma/001362.htm kuri we)
+Satoshi Nakamoto na we nyene arakora cane ku rutonde rw’abarungika ubutumwa aho ahanahana ivyiyumviro na Martien van Steenbergen, umujanama w’Umuholandi mu bijanye n’uburongozi bw’imigambi. Ku wa 13 Ruhuhuma, aravuga ku ciyumviro c’uko Bitcoin ishobora gutegurwa be n’uko . [yanditse](ububiko bw'ubushakashatsi/ububiko bw'ubushakashatsi/2009-Ruhuhuma/001362.htm kuri we)
 
 
 > "Ndabona Bitcoin nk'ibuye ry'imfuruka, nk'intambwe ya mbere nimba ushaka gushirwa mu ngiro amafaranga y'imibano n'uguhanahana hagati y'abantu babiri nk'uko vyadondowe n'ivyiyumviro vya Marc \[Fawzi\] n'ibindi vyavuzwe ngaha. Ubwa mbere, amafaranga y'ishimikiro kandi asanzwe arakeneye gukora. Iyo amaze gushingwa, iyo ntambwe y'ubuhinga, vyoroshe.
@@ -932,13 +947,13 @@ Ivyo vyose vyerekana ko uwaremye Bitcoin arondera kwimenyereza abamutega amatwi 
 
 ### Mike Hearn hamwe n'imiliyoni 21
 
-Ingamba za Satoshi zo guhanahana amakuru ziriko ziratanga ivyamwa buhoro buhoro. Muri Ndamukiza 2009, abandi bantu baratanguye gukunda cane ubwo buhinga yazanye. Muri abo harimwo Mike Hearn, umuhinga mu vy’ubuhinga bw’amaporogarama w’Umwongereza akorera Google mu Busuwisi, amara umwanya wiwe w’ubusa akoresha ubuhinga bwa none. Yaciye akunda cane uburyo bwo kuriha mu buryo bwa digitale, cane cane Ripple, umugambi wa Ryan Fugger. Ni kuri Ripple Google Group nyene yumvise ivya Bitcoin biciye ku [biganiro] rwatanguye muri Ntwarante na Charles N. Wyble, umunyamerika akiri muto w’umuhinga mu vy’inyabwonko akaba n’umunyamigambi.
+Imigambi ya Satoshi yo kumenyesha urudandaza rwiwe igenda irashinga imizi buhorobuhoro. Mu kwezi kwa Ndamukiza 2009, abandi bantu batanguje kwitwararika ico kintu yiyumviriye. Uwo ni Mike Hearn, umuhinyanyuzi w'umwongereza w'imyaka 24, yakorera Google mu Buswise, akagira n'inyiyumviro z'ugukoresha ubuhinga bwa mudasobwa bw'ubuntu mu gihe ciwe c'ikiruhuko. Uwo mugabo yaciye yitwararika uburyo bwo kwishura bwo kuri interineti, na canecane Ripple, umugambi wa Ryan Fugger. Ni naho mu Google Group ya Ripple yumviye ivya Bitcoin biciye ku [kiganiro](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14) caciye gitangura mu kwezi kwa Ntwarante na Charles N. Wyble, umusore w'umuhinga mu vya mudasobwa n'umutanguza w'imirimo y'umunyamerika.
 
 
 Ku wa 12 Ndamukiza, Mike Hearn yarungikiye Satoshi ubutumwa, amubaza ibibazo vyinshi ku bijanye na Bitcoin. Yavuze ko "ari gake umuntu ahura n'ivyiyumviro vy'ihinduka vy'ukuri" kandi ntiyareste gucishamwo Ripple.
 
 
-![Mike Hearn](assets/en/27.webp)
+![Mike Hearn](assets/rn/027.webp)
 
 
 Mike Hearn na Satoshi Nakamoto baraganiriye ku bintu bitandukanye bijanye na Bitcoin, nk’ugupima, kuriha amahera makeyi, ingene iyo porogarama ikora be n’ukuntu ata n’umwe ariha. Cane cane, Mike Hearn yabajije Satoshi igituma yahisemwo igitigiri c'ama "miliyoni 24" (*sic*) ku gitifgiri cose w'ama bitcoins n'uko yoshobora kugabanywa. Satoshi yaciye atanga insobanuro ikurikira:
@@ -964,9 +979,9 @@ Ivyo Satoshi yavuga vyarateye umutima kandi umusore w'umunyeshure w’Umufinilan
 
 > "Ubwo buryo budatanga umwidondoro, kandi nta leta ishobora gutoza ikori canke kubuza amafaranga. Nta banki nkuru ishobora gutuma amafaranga agira agaciro gatoyi. Kwemera cane ubwo buryo bisa n'ikintu coshobora kugira ingaruka mbi ku bushobozi bwa Leta bwo kuvyaza umusaruro abanyagihugu bayo."
 
-![Martti Malmi in 2013](assets/en/28.webp)
+![Martti Malmi in 2013](assets/rn/028.webp)
 
-Martti Malmi mu 2013 (isoko: [Umunyabucuruzi] (Umunyabucuruzi-martti-malmi-ntiyahagaritse umutima-ku-vy’ukwidegemvya-2013-5))
+Martti Malmi mu 2013 (isoko: [Umunyabucuruzi](Umunyabucuruzi-martti-malmi-ntiyahagaritse umutima-ku-vy’ukwidegemvya-2013-5))
 
 
 Martti aca yohereza [email] kuri Satoshi avuga ko ari we yanditse iki canditswe, aho yanditse ko "yoshima gufasha muri Bitcoin" naho "ata bumenyi bwinshi afise mu bijanye n'iterambere." Satoshi Nakamoto arishura ku wa 2 Rusama, amubwira ko "ugutahura kwiwe kuri Bitcoin" ari "ukuri ku mahera."
@@ -1015,7 +1030,7 @@ Inyuma y’ibiganiro bimwebimwe ku bijanye n’umuti w’ubuhinga twofata, Martt
 Abakoresha ba mbere batangura kwiyandikisha mu ntango z’ukwezi kwakurikiye. Ku wa 9 Kigarama, [ubutumwa bwa mbere](https://bitcointalk.org/index.php?topic=12.msg40#msg40) bwashizweho n’uwundi muntu atari Satoshi buraboneka, ivyo bikaba vy’ukuri bitangura ibiganiro. Nk’akarorero, ng’iyi [ifoto] y’ihuriro ryo ku wa 29 Rusama 2010:
 
 
-![Screenshot of the Bitcoin forum from May 29, 2010](assets/en/29.webp)
+![Screenshot of the Bitcoin forum from May 29, 2010](assets/rn/029.webp)
 
 
 Iryo huriro rishasha ryatangujwe ryari akaryo ko gusohora [version 0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73) y’iyo porogarama, iyo Satoshi Nakamoto na Martti Malmi bari bamaze amezi bakorako, ikaba yakozwe ku wa 1 Kigarama. taskbar(umurongo w'ibikorwa), gutangura ubwavyo igihe co gutangura, n’ugukoresha imirongo myinshi ku bijanye n’uguhingura Mining. Iyi porogaramu nayo yarahinduwe kugira ngo ikoreshe Linux, bivuye ku ntererano ya Malmi n’ibigeragezo vyakozwe n’ishirahamwe rishasha ryitwa NewLibertyStandard (ivyo bizovugwa mu kigabane gikurikira).
@@ -1038,6 +1053,8 @@ Mu mpera z’umwaka w’2009, Bitcoin yasa n’uyiteguriye gukura. Iciyo gihe ny
 ## Gutangura kw'amafaranga y'ibanga(cryptocurrency)
 
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
+
+:::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
 
 
 Mu bice vyabanje, twabonye ingene Satoshi Nakamoto yashize mu ngiro iciyumviro ciwe, akagimenyesha kugira ngo Bitcoin imenyekane kw’isi yose. Ariko rero, si vyose vyari bimuvako: abantu na bo nyene bari bakeneye guha agaciro igice c’igitigiri kimwe ca konti. Kubera ko ivyo vyatuma abacukuzi b’amabuye y’agaciro bahembwa biciye ku mahera y’ugucuruza, abacuruzi bagahembwa biciye ku mafaranga arihishwa bivuye kumahera akatwa ku bikorwa vy'urungika, mwene ukwo gukenguruka kwari guhambaye kumutekano wa sisitemu.
@@ -1070,7 +1087,7 @@ Imvo ya kabiri ya Mining ni ivyiyumviro vy’ingengabitekerezo. Benshi mu bakore
 
 > "Ubuhinga bwa Bitcoin burahuye cane n'umuhari w'abanyamerika widegemvya, ushigikira isoko ry'ubwigenge ritagira aho imbibe kandi urwanya cane Leta, cane cane ku bijanye n'ububasha bwayo ku mafaranga ("[End The G](https://ru.wikipedia.org-wikiF/End_9). [arishura] Hal Finney mu kuvuga ko imvugo yiwe "ikwegera cane ivyiyumviro vy'abanyagihugu nimba dushobora kubisigura neza."
 
-Igituma ca gatatu catumye hafatwa ingingo yo gutangura Mining ni inyungu y’ugutekereza ku bintu. Nk’uko vyasiguwe mu kigabane ca mbere, politike y’amahera ya Bitcoin ni kimwe mu bintu nyamukuru biyigurisha. Nimba umubare w’ama bitcoins ariko arakoreshwa uzokwegera umubare udahinduka (imiliyoni 21), rero igiciro cayo coshobora kuba kinini cane uko abantu benshi binjira mu bukungu. Iyi mpamvu, cane cane, yemeza Dustin Trammell gutangura gukora ama bitcoins kare cane, nk’uko asangira na Satoshi mu [makete yabo bwite] (Satoshi_Nakamoto.zip):
+Igituma ca gatatu catumye hafatwa ingingo yo gutangura Mining ni inyungu y’ugutekereza ku bintu. Nk’uko vyasiguwe mu kigabane ca mbere, politike y’amahera ya Bitcoin ni kimwe mu bintu nyamukuru biyigurisha. Nimba umubare w’ama bitcoins ariko arakoreshwa uzokwegera umubare udahinduka (imiliyoni 21), rero igiciro cayo coshobora kuba kinini cane uko abantu benshi binjira mu bukungu. Iyi mpamvu, cane cane, yemeza Dustin Trammell gutangura gukora ama bitcoins kare cane, nk’uko asangira na Satoshi mu [makete yabo bwite](Satoshi_Nakamoto.zip):
 
 
 > "Iyi ni imwe mu mpamvu zatumye ntangura node ningoga cane. Sisitemu zanje nta kindi zikora cane iyo zitagira ico zikora, none kuki ntakora BitCoins? Kandi nimba zifise agaciro umusi umwe...? Ivyo vyoba ari bonus(akarusho)!"
@@ -1094,7 +1111,7 @@ Imvo zibiri za nyuma zirahambaye cane kuko zituma abantu baguma bacukura. Gutyo,
 Mu mpera z'ukwezi kwa Nzero 2009, umuntu umwe akoresheje izina ry'uruyeri NewLibertyStandard (tuzokwita NLS) yasanze Bitcoin. Agerageza porogarama aca atangura Mining. Igipande ca mbere akora ni [igipande 23.940]. Ni umukoresha wa Linux rero akoresha "emulator" Wine kugira ngo akoreshe iyo porogarama. Akunda cane umwidegemvyo wa politike n’ivyuma vy’agaciro, nk’uko bigaragazwa n’igishushanyo ciwe (avatar](https://bitcointalk.org/index.php?action=profile;u=26) kiri kuri iyo nama, kigaragaza Inkona y’Abanyamerika yanditsweko ijambo “umwidegemvyo”. Abona rero ko Bitcoin ingana n'inzahabu mw'isi y'ubuhinga bwa none: kuri [paji yiwe bwite]), yerekana Bitcoin nk'ikigereranyo co kuri inerinete "thekapaint.com/ amafaranga y'ubuhinga bwa none."
 
 
-![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/en/30.webp)
+![Avatar of NewLibertyStandard on the Bitcoin forum depicting an American Eagle](assets/rn/030.webp)
 
 
 Mu kwezi kwa Gitugutu 2009, hashinzwe igikorwa ca mbere c’ukuvunjisha amafaranga, kigatuma abantu bashobora guhindura amadolari yabo mu bitcoins, bitcoins zabo zigasubira mu madolari. Uwo muremyi yiyandikishije ku rubuga rwa Bitcoin kuri SourceForge maze amenyesha ko azofungura igikorwa ciwe ng’aho. Kugira ngo agereranye igipimo co kuvunjisha, yaciye ashingira ku giciro c’inguvu zikenewe kugira ngo umuntu aronke umuyagankuba, azirikanye igiciro c’umuyagankuba aho ari be n’ingene akora kenshi. Ku rubuga rwiwe, yanditse kuri uru rubuga rwiwe: [yanditse]
@@ -1105,7 +1122,7 @@ Mu kwezi kwa Gitugutu 2009, hashinzwe igikorwa ca mbere c’ukuvunjisha amafaran
 Aha niho hari ibiciro vyerekana uguhanahana vy’igikorwa ca NLS, navyo nyene vyasohowe kuri paji y’umuntu ku giti ciwe ya NLS:
 
 
-![Indicative exchange rates of the NLS service](assets/en/31.webp)
+![Indicative exchange rates of the NLS service](assets/rn/031.webp)
 
 
 Ivy’ugucuruza bishikirizwa biciye kuri email kuri newlibertystandard@gmail.com. Amadolari yoherezwa biciye kuri PayPal gusa, kandi amahera arasabwa kubera iyo nzira.
@@ -1139,7 +1156,7 @@ Ku wa 5 Ruhuhuma, NLS yaratanze igitekerezo ko Bitcoin, nk’ukuntu amadorare ac
 Ku wa 24 Ruhuhuma, Satoshi yaratunganije ikimenyetso c’ifaranga (inyuguti B nkuru iriko utwumirizo tubiri duca hejuru mu buryo bugororotse), bivyavyaye logo ya mbere yemewe ya Bitcoin
 
 
-![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/en/32.webp)
+![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/rn/032.webp)
 
 
 Buhorobuhoro, Bitcoin yaratanguiye kwemera. Ivyo ni vyo vyabaye ku muntu akoresha  yiyita SmokeTooMuch mu kwezi kwa kigarama 2009, yari aherutse gushika kandi [akamenyesha ko ariho] igikorwa citwa BTC 2 PSC. Ico gikorwa cahavuye [kuvugwa](https://mmalmi.github.io/Satoshi/#email-141) neza na Satoshi ku wa 4 Ruhuhuma 2010. Ivyo vyabaye no kuri NLS, ku wa 9 Ruhuhuma 2010. [yuguruyei] iduka ryiwe bwite ryo kuri internete, Liberty Swap Variety Shop, aho yatanga ibidodo n’ibimenyetso vyo kugurisha.
@@ -1156,20 +1173,21 @@ Kuvunjisha mw’idolari na vyo nyene vyarateye imbere, kandi mu mezi abiri, imbu
 - Bitcoin Isoko (bitcoinmarket.com), isoko ry’abantu bamwebamwe rikoresha PayPal [ryatangujwe] n’umuntu yitwa dwdollar ku wa 16 Ntwarante, kandi agira iterambere rikomeye imbere y'ukuivuka kwa Mt. Gox muri Mukakaro.
 
 
-![Later capture of the Bitcoin Market interface, August 26, 2011](assets/en/33.webp)
+![Later capture of the Bitcoin Market interface, August 26, 2011](assets/rn/033.webp)
 
-[Gufata] (/20110826231728/isoko/ubudandaji/)Interface y'isoko rya Bitcoin urubuga.org/urubuga(Myandagaro 2011)
+[Gufata](ububiko bw'urubuga.org/urubuga/20110826231728/isoko/ubudandaji/) ry'isoko rya Bitcoin Interface mu nyuma (Myandagaro 2011)
 
 
-[Ku wa 11 Ntwarante n’umuyobozi wa BitcoinFX]Urukino rwambere rwa poker muma bitcoins, rwugurura uko ugukorana gukomeye hagati y'inkino hamwe n'amahera y'ubuhinga bwa none. Uwo mukino utsindwa na dwdollar, uwuronka [600 BTC]
-.
-Ibindi bikorwa vyemera Bitcoin birasohoka, nk’ijwi ry’urubuga rwa IP [Link2VoIP] [Vekja.net](https://bitcointalk.org/index.php?insanganyamatsiko=30.msg1008#msg1008) ku wa 23 Ndamukiza, canke uwugurisha izina ry'urubuga [Privacy Shark](intangamarara y’ibikorwa bituma Martti Malmi amaherezo ashobora kwakira [urupapuro] (urupapuro] (urupapuro] rwerekana urutonde rw’abadandaza ku rubuga rwa Bitcoin.org.
+Ku wa 11 Ntwarante, urukino rwa mbere rwa poker rujanye n’amahera y’amahera [rutunganijwe] n’umuyobozi wa BitcoinFX, rutanguza ubucuti bukomeye buzoba hagati y’urukino rw’amahera n’amahera y’amahera. Uwo mukino utsindwa na dwdollar, uwuronka [600 BTC]
+
+
+Ibindi bikorwa vyemeza Bitcoin birasohoka, nk’ijwi ry’urubuga rwa IP [Link2VoIP] [Vekja.net](https://bitcointalk.org/index.php?insanganyamatsiko=30.msg1008#msg1008) ku wa 23 Ndamukiza, canke uwugurisha izina ry'urubuga [Privacy Shark](intangamarara y’ibikorwa bituma Martti Malmi amaherezo ashobora kwakira [urupapuro](urupapuro] (urupapuro] rwerekana urutonde rw’abadandaza ku rubuga rwa Bitcoin.org.
 
 
 Igikorwa kibanza co kubungabunga Bitcoin na co nyene kiraboneka: MyBitcoin, urubuga rwo ku rubuga rushoboza gukoresha amafaranga y’amahera y’amahera mu buryo bworoshe kandi butekanye, cane cane ku mbuga ngurukanabumenyi. Kubera iyo serivisi, abakoresha ntibakeneye gukuraho amakuru yose y’uruzitiro kugira ngo bohereze no kwakira amafaranga, eka mbere ntibakeneye kwizigamira ama bitcoins yabo bonyene mu kubika imfunguruzo zabo z’ibanga.
 
 
-![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/en/34.webp)
+![Logo of MyBitcoin from the archive of the site mybitcoin.com](assets/rn/034.webp)
 
 
 Iciyo gihe, ama wallets yoroshe (azwi nka "SPV") ntiyariho, ni co gituma Satoshi Nakamoto ubwiwe yabonye ko vyemewe gukoresha ubwo bwoko bwa porogarama, naho nyene iyo nkoresha yari iteye kubiri n'ingingo ngenderwako y'ugutandukanya abantu mu mutima wa Bitcoin. Ku wa 18 Rusama 2010, [yanditse] ku rubuga rw’ihuriro ati:
@@ -1214,6 +1232,8 @@ Ariko rero, ico kibazo nticigeze gitera ubwoba Satoshi, kuko yabona ko gutangura
 
 <chapterId>9cd228a4-58d3-46a3-9935-06098bafc954</chapterId>
 
+:::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
+
 
 Mu gice ca mbere, twasuzumye ingene Bitcoin yaje, ingene yamenyeshejwe abantu bose, n’ingene yatanguye mu vy’ubutunzi. Mu mpera z’umwaka w’2010, igihe ubudandaji bwa Bitcoin bwariko buratangura gutera imbere, Satoshi Nakamoto n’abantu bakeyi bamushigikiye bari biyemeje kuguma bafise urubeya. Igishimishije ni uko abandi bantu barifatanije n’ico gikorwa, cane cane Miner Laszlo Hanyecz n’umuhinguzi Gavin Andresen, bakaba bari bamenyekanye kubera ibikorwa vyabo.
 
@@ -1230,7 +1250,7 @@ Ukwo kwiyongera kw’abashaka Bitcoin kwari kumwe n’ukwiyongera buhoro buhoro 
 Satoshi Nakamoto yari ahagaritse umutima cane ku bijanye n’ukwo kwiyongera kw’ingorane kandi yaragumye afise [kahise] ku rubuga rwo gutangura muri Ruhuhuma 2010. Ehe uko vyari bimeze:
 
 
-![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/en/35.webp)
+![Evolution of the difficulty as described by Satoshi Nakamoto on the forum](assets/rn/035.webp)
 
 
 Naho hariho uwo munezero ku bijanye n’ukwiyongera kw’ububasha bwo guharura kurubuga, Satoshi yariko irondera kugabanya ubuhinga bwa Mining kugira ngo afashe kunganisha ibitangwa. Gushika ico gihe, abacukuzi y’agaciro barakoresha ibikoresho vyabo vy’ubuhinga bwa none (CPU) kugira ngo bakuremwo amahera mashasha y’ama bitcoins. Ariko rero, izo nzira zagaragaye ko zidakora neza mu gukora ibikorwa bisubiramwo, ugereranije n’ibikoresho bikora ibikoresho vy'inyabwonko (GPU), ivyo bikaba ari vyo vyiza cane muri ubwo bwoko bw’uguharura gusubiramwo. Ku bw’ivyo, abantu bose, harimwo na Satoshi ubwiwe, bari bazi ico gihe ko iyo nzira y’uguhinduka ataco yari gushobora gukora. Ku wa 19 Kigarama 2009, [yavuze] ati:
@@ -1238,10 +1258,10 @@ Naho hariho uwo munezero ku bijanye n’ukwiyongera kw’ububasha bwo guharura k
 "Twabwirizwa kugira amasezerano y'umugabo yo gusubiramwo isiganwa ry'intwaro za GPU igihe cose dushoboye kubera ineza y'urubuga. Biroroshe cane kuronka abakoresha bashasha ku rugero rwo kwihuta iyo badategerezwa kwiganyira ku bijanye n'ubuhinga bwa GPU n'uguhuza. Ni vyiza ingene umuntu wese afise CPU gusa ashobora guhangana n'abandi mu buryo bungana."
 
 
-Ariko rero, haciye amezi makeyi, iyo sandugu ya Pandora yaruguruwe. Uwutera ingorane ni Laszlo Hanyecz, umunyamerika w’imyaka 28 w’umuhinguzi w’ibintu, akomoka muri Hongiriya, aba muri Floride. Yavumbuye Bitcoin muri Ndamukiza 2010. Ku wa 9, [yaronse] 3.300 bitcoins zivuye muri NLS ku madolari nka 20, hanyuma bagerageza iyo sisitemu mu gutanga amafaranga makeyi. Ku wa 18, yaragerageje gutera urubuga ngo arwuzuze mu kugwiza guhanahana no kwakira akoresheje [Address ya bose] (Address] yiwe, ariko biranka urubuga rurirwanako.
+Ariko rero, haciye amezi makeyi, iyo sandugu ya Pandora yarafunguwe. Uwutera ingorane ni Laszlo Hanyecz, umunyamerika w’imyaka 28 w’umuhinguzi w’ibintu, akomoka muri Hongiriya, aba muri Floride. Yavumbuye Bitcoin muri Ndamukiza 2010. Ku wa 9, [yaronse] 3.300 bitcoins zivuye muri NLS ku madolari nka 20, hanyuma bagerageza iyo sisitemu mu gutanga amafaranga makeyi. Ku wa 18, yaragerageje gutera urubuga mu kugwiza amafaranga akoresheje [Address ya bose](Address] yiwe, ariko rwarahagaze.
 
 
-![Laszlo Hanyecz with his son in May 2018](assets/en/36.webp)
+![Laszlo Hanyecz with his son in May 2018](assets/rn/036.webp)
 
 Laszlo Hanyecz n’umuhungu wiwe muri Rusama 2018 (inkomoko: [Ikinyamakuru Telegraph]
 
@@ -1264,7 +1284,7 @@ Ukwo kwiyongera kwa Mining na kwo nyene kwaragize ingaruka zikomeye: Satoshi yar
 Ibikorwa vya Satoshi vya Mining birafise uburyo budasanzwe, bikaba bishoboka kumenya ama blocks ashobora kuba yasanze afise ibimenyetso bikeyi vy’ibinyoma. Umuhinga mu vy’ubuhinga bwa none yitwa Sergio Lerner yarashize ahabona ikigereranyo ca Mining mu 2013 maze acita ikigererzanyo ca Patoshi.
 
 
-![Patoshi Pattern between blocks 0 and 50,000](assets/en/37.webp)
+![Patoshi Pattern between blocks 0 and 50,000](assets/rn/037.webp)
 
 
 Ikigereranyo ca Patoshi kiri hagati y’ibice 0 n’ibice 50.000, nk’uko bigaragara ku rubuga [satoshiblocks.info](http://satoshiblocks.info/): akarongo kose gahuye n’igice. Imirongo y’ubururu ikozwe hisunzwe ama blocks  ya Satoshi, iyindi mirongo na yo igereranya ivyo abandi bacukuzi b’ama blocks bashoboye gukora.
@@ -1277,13 +1297,13 @@ miliyoni 21 yari yateguwe. Mu kiringo kinini c’umwaka w’2009, iyo nzira yari
 Kubera ko ubushobozi bwo gukoresha ubuhinga bwa none bwariyongereye mu mpera z’umwaka w’2009, igice c’ububasha bwo gukoresha ubuhinga bwa none bwo guharura bwa satoshi n’ububasha bwose bwo gukoresha ubuhinga bwa none caragabanutse buhorobuhoro. Yavuye kuri 75% muri Ntwarante 2009 ishika kuri 60% muri Nyakanga, hanyuma imanuka igera kuri 15% muri Kigarama, ishika kuri 0% muri Rusama. Aha hepfo hariho igishushanyo cakozwe na [Organofcorti] mu mwaka w’2014:
 
 
-![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/en/38.webp)
+![Estimation of the proportion of Satoshi's computing power relative to the total power between January 2009 and July 2010](assets/rn/038.webp)
 
 
 Ikindi kandi, ukugabanuka kw'ukuganza kwa Satoshi muri Mining si bukebuke gusa: aragabanya ibikorwa vyiwe muri ico kiringo nyene. Nkako, intumbero ya Satoshi yavuze ni uko umuntu wese yogira uruhara: ntacukure kugira aronke amahera gusa, ahubwo ni ukugira ngo abone ko urubuga rukora gushika inkurikizi zitanguye gukora. Gutyo, agabanya igipimo ciwe ca Hash (umubare w’ibiharuro bikorwa ku segonda yose) incuro zitatu muri iki kiringo ca Mining: incuro ya mbere kuva kuri 4,5 gushika kuri 2,5 MH/s muri Ruheshi 2009, ubwa kabiri kuva kuri 2,5 gushika kuri 1 MH/s mu kwezi kwa Gitugutu, ubwa gatatu na Here kuva kuri a/10. igicapo c’iterambere ry’igipimo ciwe ca Hash muri ico kiringo ([Igihimba c’umubiri](Igihimba c’umubiri c’umubiri.
 
 
-![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/en/39.webp)
+![Estimation of Satoshi's hash rate between January 2009 and May 2010](assets/rn/039.webp)
 
 
 Mining ya Satoshi rero ni iyo kwitaho abandi, nk’uko [Jameson Lopp abivuga](yari-Satoshi-umunyamwina-Miner/). Igihe azohagarika Mining ku wa 3 Rusama 2010 (ibarabara ryiwe rya nyuma ni [ibarabara 54.316] ni ikindi kintu gishitsweko mu guteza imbere buhoro buhoro Bitcoin: ugufata uburenganzira bwo kwemeza amasezerano n’abakozi b’ubutunzi.
@@ -1300,15 +1320,15 @@ Igikorwa c’ishimikiro kandi kigaragaza ukwezi kwa Ndamukiza 2010: ukugura ubwa
 Haciye imisi ine, ivyo bintu yasavye vyaremewe. Umusore umwe wo muri Californie yitwa Jeremy Sturdivant yaremeye uko kuguza ku rubuga rwa IRC rwo gutanga ubutumwa bwikibiriraho.
 
 
-![Jeremy Sturdivant in May 2018](assets/en/40.webp)
+![Jeremy Sturdivant in May 2018](assets/rn/040.webp)
 
-Jeremy Sturdivant muri Rusama 2018 (isoko: [Ikinyamakuru] (ubuhinga-22/22/05/2018/inkuru-y’imbere-inyuma y’ugugura-pizza-kuzwi cane-2010-Bitcoin-uyu musi/))
+Jeremy Sturdivant muri Rusama 2018 (isoko: [Ikinyamakuru](ubuhinga-22/22/05/2018/inkuru-y’imbere-inyuma y’ugugura-pizza-kuzwi cane-2010-Bitcoin-uyu musi/))
 
 
 Ku wa 22 Rusama, yasavye pizza zibiri za Papa John, zishikirizwa Laszlo i Jacksonville muri Floride. Yaronse bitcoins 10.000 ku giciro c’amadolari 44. Bitcoin Igiciro c’isoko. Aha niho hari ifoto y’izo pizza zibiri, [yahawe] na Laszlo ubwiwe:
 
 
-![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/en/41.webp)
+![Pizzas from Papa John's delivered to Laszlo Hanyecz on May 22, 2010](assets/rn/041.webp)
 
 
 Ivyo bisozera igura ryambere ry’ikintu gifadika n’amahera y’ama bitcoins, naho nyene ivyo ni kugura bitaziguye. Laszlo arashimirwa na [Martti Malmi], yandika ko "intambwe nini yatewe." NLS na yo yongerako [ikiganiro ciza](https://information=1197#msg1197) kuri ivyo.
@@ -1331,7 +1351,7 @@ Naho ari ukwo, ukwo kwongerekana kw’ububasha bwo kugura bw’amahera y’ama c
 Ico gihe kandi carabonye ukuza kw’umuntu w’agaciro muri kahise ka Bitcoin: Gavin Andresen, umuhinga mu vy’ubuhinga bw’ukubaka ama porogarama w’imyaka 44 yavukiye muri Ostraliya [yagizwe] umunyamerika muri 2004 aba Amherst muri Massachusetts ico gihe. Yagarutse avuye mu rugendo rwo muri Ostraliya kandi ata kazi afise mu gihe gito, yasanze Bitcoin mu mpera z’ukwezi kwa Gitugutu biciye ku [ngingo] ya Neil McAllister yashizwe ahabona ku kinyamakuru InfoWorld Iyi ngingo yerekanye umugambi wa Satoshi Nakamoto nk'"ubuhinga bushasha bw'isoko yuguruye."("open-source innovation.")
 
 
-![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/en/42.webp)
+![Profile photo of Gavin Andresen, taken in Townsville, Queensland, Australia](assets/rn/042.webp)
 
 Gavin Andresen i Townsville, muri Queensland, muri Ostraliya (inkomoko: [ububiko bwa CIO]
 
@@ -1343,12 +1363,12 @@ Kubera umunyamakenga kandi afise inyota yo kumenya vyinshi yaciye afata ingingo 
 
 Satoshi yarakiriye neza igihe iyo serivisi yatangura, naho nyene ataciye abibona ubwo nyene. Haciye indwi imwe, ku wa 18 Ruheshi, [yarakengurukiye] uwo muremyi mu kwandika ko ari “uguhitamwo kwiza cane ku mugambi wa mbere” kandi ko yari "yateguye gukora ikintu nk'ico nyene, iyo ata n’umwe yobikora. Igihe kuronka ama BTC 50 bizoba bigoye cane ku bakoresha kanaka, Bashasha baza bashobore kuronka ama cryptos ubwonyene".
 
-Ivyo Gavin Andresen yatanze ntiyahagarikiye aho. Yarashimishijwe cane n’ingene Bitcoin ikora maze afata ingingo yo gusuzuma iyo kode. [yabomye] (https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) uburyo bwo kwandika bushizwemwo muri porotokole, ikintu yihuse gusangira n’abandi ku rubuga. Yaseruye ubwoba afise ku bijanye n'ico kintu, kuko kigabanya umutekano wa sisitemu ("ugusobanuka ni umwansi w'umutekano") kandi kigatuma gutegura ugushirwa mu ngiro kwa porogarama ya kabiri bigorana cane. Satoshi [yasiguye] impamvu yo gushiramwo ubu buryo, iyo yise Script:
+Ivyo Gavin Andresen yatanze ntivyahagaze aho. Yarashimishijwe cane n’ingene Bitcoin ikora maze afata ingingo yo gucapura iyo kode. Ya [vumbuye](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606) uburyo bwo kwandika bushizwemwo muri porotokole, ikintu yihuse gusangira n’abandi ku rubuga. Yaseruye ubwoba afise ku bijanye n'ico kintu, kuko kigabanya umutekano wa sisitemu ("ugusobanuka ni umwansi w'umutekano") kandi kigatuma gutegura ugushirwa mu ngiro kwa porogarama ya kabiri bigorana cane. Satoshi [yasiguye] impamvu yo gushiramwo ubu buryo, iyo yise Script:
 
 
 > "Kamere ya Bitcoin ni uko igihe verisiyo 0.1 yasohoka, umugambi nyamukuru warashizweho. Niyompamvu nari nkeneye gukora kugire mfate mu minwe ibikorwa vyose(kurungika, kwakira) bishobok(...) Inyishu yari iyo gukoresha scripts, izana ingorane kugira ibice vy'ibikorwa bishobore kubonwa bikongera bigasuzumwa n'urubuga rw'ama node. Izo zikeneye gutahura ibikorwa kugira barabe ko uwurungika akwije ibisabwa."
 
-Gavin na we nyene yaragize uruhara mu gutegura porogarama mu [gushira mu ngiro] ubuhinga bwo gutangura ubwabwo ku bijanye n’ugutangura kw'ubwo buhinga kuri Linux, yibanda kuri API [harimwo guteza imbere verisiyo ya 0.3.3 [yarabihaw]) (https://bitcointalk.org/index.php, no kugira uruhara mu gushiraho urubuga rw’igerageza (urwo [yavyiyumviriye] ku wa 9 Ruheshi). Yariko ahanahana ivyiyumviro mu bwiherero na Satoshi, buhoro buhoro akagira ukuboko kwiwe kw’iburyo, kuko Martti Malmi yari [afise vyinshi akora] n’akazi kiwe gashasha k'umwanya wose.
+Gavin na we nyene yaragize uruhara mu gutegura porogarama mu [gushira mu ngiro] ubuhinga bwo gutangura ubwabwo ku bijanye n’ugutangura kwa Linux, yibanda kuri API (yoba [ashobora guhabwa icubahiro](https://bitcointalk.org/index.php n’ugutera imbere kwayo muri verisiyo 0.3.3), no kugira uruhara mu gushiraho urubuga rw’igerageza (urwo [yavyiyumviriye] ku wa 9 Ruheshi). Yari gukora ivyiyumviro vya Exchange mu bwiherero na Satoshi, buhoro buhoro akagira ukuboko kwiwe kw’iburyo, kuko Martti Malmi yari [afise vyinshi akora] n’akazi kiwe gashasha k’igihe cose.
 
 
 ### Impeshi yuzuye ibihe vy'ishimikiro
@@ -1363,6 +1383,8 @@ Ariko rero, mu mpera za Ruheshi, igikorwa co kuri iyo nzira cari caragumye ari g
 ## Irwirirana rikomeye ry'abakoresha urubuga
 
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
+
+:::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
 
 
 Mu ci ry’umwaka wa 2010, Uretse intango itera umwete, Bitcoin yari ishingiye ku mushinge ugoyagoya. Abacukuzi bari abahinga mu vyo gukoresha orodinateri zabo bwite. Hariho ibikorwa vy'ama serevisi nka mirongo ibiri bijanye na Bitcoin, kandi n'imbuga zo kuvunjisha zari nke cane., ibintu vyari bigiye guhinduka cane mu gice ca kabiri c’umwaka.
@@ -1403,7 +1425,7 @@ Abagize ihuriro benshi baratanga ivyiyumviro vyo kunoza iki canditswe. Satoshi [
 - Ku bijanye n'umuce w'uko sisiteme itamenyekana, avuga ko adashaka "gushira ahabona umuce w'ivyo 'bimenyekana'" kandi ko yari "yafise umugambi wo guhindura urubuga rw'intango" muri ivyo. (*original "Ntidushaka kurongora 'atazwi'. (Nari mfise insiguro yo guhindura urubuga rw'intango)"*)
 
 
-Mw' [ikete] (https://mmalmi.github.io/Satoshi/#email-197) ryandikiwe Martti Malmi amasaha makeyi aheze, Satoshi atanga imvo zibiri nyamukuru zo gusigura iyo ntumbero yo gufata minenerwe ukutamenyekana: akaga ku wukoresha n’ukuntu abantu bose babibona. Yandika ati:
+Mu [ikete](https://mmalmi.github.io/Satoshi/#email-197) ryandikiwe Martti Malmi amasaha makeyi aheze, Satoshi itanga imvo zibiri nyamukuru zo gusigura iyo ntumbero yo gufata minenerwe ukutamenyekana: akaga ku wukoresha n’ukuntu abantu bose babibona. Yandika ati:
 
 
 > "Ngira ngo dukwiye kugabanya ugushimika ku bijanye n'ukutamenyekana. Kubera ko ama aderesi ya Bitcoin azwi cane aho korungika kuri IP, ntidushobora gutanga iciyumviro c'uko vyose bihita bimenyekana. Birashoboka ko umuntu aba uwutamenyekana, kandi ikindi ijambo "kutamenyekana" rirateye amakenga ariko utegerezwa kwiyubara. kuvyerekeye ataco tubiteza imbere."
@@ -1424,7 +1446,7 @@ Ku wa 11 Mukakaro 2010, harasohotse igitabu casubiwemwo c’ikiganiro ca Bitcoin
 
 > "Ng’iri ikoranabuhanga rihindura cane ibintu : Bitcoin ni amafaranga ya digitale akora mu buryo bwa P2P ashingiye ku rubuga, ata banki nkuru iyagenzura kandi ata mafaranga y’inyongera yo kuyakoresha.Biciye ku ngingo ya proof of work, ama node akoresha ubushobozi bwo guharura bw’ama CPU yazo kugira ngo zironke ama bitcoins, hanyuma zigashikiriza ivyo zabonye  ku rubuga rwose. Isesengura ry’inguvu zikoreshwa ryerekana ko agaciro ka Bitcoin kw'isoko karenze gusumba agaciro k’inguvu zakoreshejwe mu kuyirema, ivyo bikerekana ko hari ugusaba gukomeye cane. Abagize umuryango bizeye ko ayo mafaranga azoguma ari kure y’ukugenzurwa n’igihugu na kimwe canke reta iyo ari yo yose."
 
-![Slashdot Logo in 2010](assets/en/43.webp)
+![Slashdot Logo in 2010](assets/rn/043.webp)
 
 
 Ico gitabu carabonywe, kandi abantu hafi 500 barashizeko amajambo mu misi mikeyi. Ku bwa Bitcoin, ivyo vyatumye abantu benshi cane baza kuri uwo muhora no ku rwa rubuga hwaniro. Ikoreshwa rya Blockchain ryarateye imbere cane: igitigiri c’ibikorwa vyakozwe kuri iyo nzira caraduze kiva kuri 42 ku wa 10 Nyakanga kija ku 1.641 ku wa 12, kigera ku 5.554 ku wa 14, kikaba ari igitigiri kinini kuruta ibindi vyose. Uwo murongo waragumyeho naho umuzigo wariko uragwira. Ku wa 14, umuhinga mu bijanye n’ivy’ubuhinga bwa none Gavin Andresen [yanditse] ku rubuga rw’ihuriro:
@@ -1444,7 +1466,7 @@ Iyindi ngaruka y’ukwinjira kw’abantu bava kuri Slashdot ni ububasha bwo guko
 Mu bamenye Bitcoin kubera Slashdot harimwo Jed McCaleb, umunyamerika w’imyaka 35, akaba n’umuhinga mu vy’ubuhinga bwo gukora porogarama, azwi cane mu gushinga no gutegura porogarama yo gusangira amadosiye n’abandi yitwa eDonkey2000 mu myaka ya 2000. Kubera ko yabonye ingorane zo kuronka Bitcoin mu kuvunja muma madolari, yaciye afata ingingo "ku ntumbero" yo guhingura isoko ryiza. Kugira ngo abikore, yasubiyemwo umwe mu migambi yiwe ya kera yateguye mu 2007:Magic The Gathering Online eXchange (MTGOX), urubuga rwari rwemereye kugura no kugurisha amakarata y’inkino rwo kuri Interinete *Magic The Gathering Online*. Yasubiye gukoresha izina ry'urubuga rw'uwo mugambi (mtgox.com), ryacitse izina ry'urubuga rushasha: Mt. Gox, rivugwa ngo "Mount Gox".
 
 
-![Jed McCaleb in 2013](assets/en/44.webp)
+![Jed McCaleb in 2013](assets/rn/044.webp)
 
 Jed McCaleb mu 2013 (inkomoko: Ariel Zambelich ku rubuga rwa [Wired]))
 
@@ -1452,12 +1474,12 @@ Jed McCaleb mu 2013 (inkomoko: Ariel Zambelich ku rubuga rwa [Wired]))
 Haciye indwi imwe, ku wa 18 Nyakanga, Jed McCaleb yaratanguje urubuga rwiwe rwao kuvunjisha maze [aratangaza] ku rubuga rw’ihuriro. Kubera ubuhinga bwiwe, yaratumye iyo nzira ikora nk’isoko ry’ubuhinga bwa none, nk’uko bimeze mu guhanahana amakuru kuri Interinete muri iki gihe. [Nk'uko yabivuze], yari itandukanye n'isoko rya Bitcoin kubera ko "yama iri kuri interineti, yikora," "urubuga rwari rwihuta kandi rwari rufise ubucuti bwihariye," kandi "Interface yari nziza cane." Ivyo vyatumye Mt. Gox yihuta kuba uburyo nyamukuru bwo kuronka Bitcoin, yishingira intahe nk’ikigereranyo c’ugutanga amadolari.
 
 
-![Interface of the Mt. Gox platform in February 2011](assets/en/45.webp)
+![Interface of the Mt. Gox platform in February 2011](assets/rn/045.webp)
 
 Interface y’urubuga rwa Mt. Gox muri Ruhuhuma 2011 (inkomoko: [ububiko bwa Mt. Gox]
 
 
-Mu ntango, iyo nzira yemera kwishura biciye kuri PayPal. Ariko rero, mu kwezi kwa Gitugutu 2010, inyuma y’aho abantu benshi cane basavye ko bamusubiza amahera yabo, PayPal yarabujije konti ya Jed McCaleb, ivyo bikaba vyatumye ahagarika amahera yashize kuri iyo nzira no kuyakuramwo amahera mu gihe gito. Haciye indwi nkeyi, [yaragaruye] amahera yarungikwa mu kwongerako Liberty Reserve nk’uburyo bwo kuriha. Hanyuma, yaremera kandi amahera yoherezwa biciye kuri [Paxum](Paxum](https. amadolari] (ACH) na [mu mayero] (insiguro=2515.msg34040#0)PA340).
+Mu ntango, iyo nzira yemera kwishura biciye kuri PayPal. Ariko rero, mu kwezi kwa Gitugutu 2010, inyuma y’aho abantu benshi cane basavye ko bamusubiza amahera, PayPal yarabujije konti ya Jed McCaleb, ivyo bikaba vyatumye ahagarika amahera yashize kuri iyo nzira no kuyakuramwo amahera mu gihe gito. Haciye indwi nkeyi, [yaragaruye] amahera yoherezwa mu kwongerako Liberty Reserve nk’uburyo bwo kwishura. Hanyuma, yaremera kandi amahera yoherezwa biciye kuri [Paxum](Paxum](https. amadolari] (ACH) na [mu mayero](insiguro=2515.msg34040#0)PA340).
 
 
 ### Ingaruka zituma Slashdotting yihuta
@@ -1471,6 +1493,8 @@ Mu mezi yakurikiye, ubuhinga, ubutunzi, n’iterambere rya Mining vyarateye imbe
 ## Ibibazo vya mbere vy'ubuhinga
 
 <chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+
+:::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
 
 Nk’uko vyavuzwe mu kigabane ca nyuma, uruja n’uruza rw’abakoresha bavuye kuri Slashdot ku wa 11 Nyakanga 2010, rwatumye abantu benshi bakunda umugambi wa Satoshi Nakamoto. Ikoreshwa ry’iyo nzira ryarateye imbere cane, kandi igipimo co kuvunja caraduze incuro cumi, nk’uko nyene ububasha bwo gukoresha ubuhinga bwa none bwari bugenewe iyo nzira. Gutyo, Bitcoin yarateye imbere cane mu ci.
@@ -1490,21 +1514,21 @@ Ariko rero, uwaremye Bitcoin ntariko arakora kuri kode gusa. Ashobora kwizigira 
 Ubwa nyuma, turashobora kuvuga Jeff Garzik (akoresheje izina ry’uruyeri jgarzik ku rubuga), umunyamerika w’umuhinga mu bijanye n’ubuhinga bwa none kandi atanga agacumu k'ubumwe mw’isi y’ubuhinga bwa none, cane cane mu bijanye n’ugukwiragiza Red Hat, akaba n’umuyoboke w’ishure ry’ubutunzi ryo muri Otirishiya. Yavumbuye Bitcoin biciye mu kiganiro co kuri Slashdot maze hafi ubwo nyene aca yinjira muri Bitcoin.
 
 
-![Jeff Garzik in 2013](assets/en/46.webp)
+![Jeff Garzik in 2013](assets/rn/046.webp)
 
-Jeff Garzik mu 2013 (isoko: [Benson Samweli] (kuvugana-na-Jeff-garzik/))
+Jeff Garzik mu 2013 (isoko: [Benson Samweli](kuvugana-na-Jeff-garzik/))
 
 
 Intumbero ya mbere ya Satoshi ni ugutuma porogarama n’imirongo ngenderwako biguma bitekanye, kugira ngo bishobore guhangana n’ukwiyongera kw’ikoreshwa ryavyo vuba. Bafatanije na Gavin Andresen, barihweza ibitero bitandukanye bishobora gushika (harimwo n’ibitero vyo kwanka gukora) maze bagaharanira gukosora utunenge twavumbuwe. Uko ni ko urutonde rw’ibibanza vyo gusuzuma rwongerwa ku wa 17 Nyakanga ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)), bikabuza uruzitiro gusubira kwandikwa imbere y’itariki kanaka y’igikorwa, kandi iciyumviro co ku wa 5 Nyakanga. ([v0.3.3]([v0.3.3])) kugira ngo utunganye uburyo bwo guhitamwo uruhererekane rwiza n’ibihimba.
 
 
-Gavin na Satoshi na bo nyene barakosoye ibibazo vyinshi. Igihambaye muri ivyo ni "1 RETURN bug," ubugoyagoye buri muri sisitemu y'inyandiko bwatumye bishoboka gukoresha amafaranga y'ama bitcoins avuye kuri Address iyo ari yo yose akoresheje inyandiko yihariye. ArtForz yatangaje iyo nzira y’ubugoyagoye ku wa 28 Nyakanga, aho gukoresha iyo nzira y’ubugoyagoye no kwitunga mu buryo bw’ubukerebutsi, yahisemwo gusangira ivyo yavumbuye na Satoshi na Gavin. Satoshi yaciye yihuta gushiramwo ivyo gukosora muri porogarama ([v0.3.6] ([v0.3.6]) maze asaba ko abakoresha bose basubiramwo. Gutyo, Bitcoin yararokotse ibintu vyari gushobora gutuma igira ingorane. MITRE yaje kwandika iyo nzira y’ubugoyagoye munsi y’ikimenyetso [CVE-2010-5141](CVE-2010-5141).
+Gavin na Satoshi barakosora kandi ibibazo bitari bike. Ikibazo kinini muri vyo ni « *1 RETURN bug* », ikintu gishobora kwangiza mu buryo bwa script butuma bishoboka gukoresha udu Bitcoins kuva ku kintu kibika hose kubera script idasanzwe. Ico kintu gishobora kwangiza cemeza na ArtForz ku wa 28 Mukakaro, aho gukoresha uwo mwenge ngo yikungahaze yihishe, yahisemwo kumenyesha ico kintu Satoshi na Gavin. Satoshi yahutse gushiramwo inyishu muri porogaramu ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) hanyuma agira inama abakoresha bose ko bogira ugushasha (upgrade). Bitcoin yaciye icika ingorane zikomeye. Ico kintu gishobora kwangiza kizorinda gisabishwa mu MITRE Corporation mu nyandiko [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141).
 
 
 Intumbero ya kabiri yari iyo gutuma iyo porogarama ikora neza mu guhindura ingene iyo porogarama ikora canke mu gutuma iyo porogarama ikora neza. Ni muri iki kiciro aho kwongerako amakode y'imikorere ya `OP_NOP` ku rutonde rw'inyandiko rw'imbere bigwa, vyakozwe mu buryo bw'ubute na Satoshi ku wa 29 Nyakanga (v0.3.6), n'ivyo [ibivugwa] vyonyene. Izo kode z'ibikorwa ni amabwirizwa ataco akora iyo ari mu nyandiko, ariko ntizihindura ubusa igikorwa. Ku bw’ivyo, umuntu arashobora guhindura inyifato y’ayo mabwirizwa ataco atuma inyandiko zidahuye n’iyindi verisiyo ya kera y’amaporotokole, ni co gituma Satoshi yavuze ivyo. Izo kode z'ibikorwa zoshobora kwemera cane cane ivyo vyokwitwa "amaforogo ya Soft" mu 2015 na 2016, mu guhindura amabwirizwa `OP_NOP2` na `OP_NOP3` mu `OP_CHECKLOCKTIMEVERIFY` na `OP_CHECKSIQUENCE`Bikwirikirana).
 
 
-Abacukuzi na bo nyene barasangira ivyo bavumbuye kugira ngo batere imbere, mu buryo butaziguye canke butaziguye, uruvyaro rwa bitcoins n’ubuhinga nyamukuru. Ica mbere, [ugutuma Laszlo akora neza] (ivyo Laszlo yakoze] vyashizwe muri porogarama ku wa 6 Nyakanga (v0.3.0). Hanyuma, [ububiko bw’ibintu] (ububiko bw’ibintu] (insiguro=501.msg5815#msg5815) bw’igikorwa ca SHA-256 Hash cakozwe na Nils Schneider be n’[ugutuma n’ivyo BlackEye yongereye kuri iyo porogarama ku wa 29 Nyakanga (v0.3.6). Ubwa nyuma, [uguhuza ibiharuro ku gikoresho kimwe](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722) vyashikirijwe na Nils Schneider (na none) vyari [vyuzuye] mu gitabu c’amategeko ku wa 15 Myandagaro (v0.3.10).
+Abacukuzi na bo nyene barasangira ivyo bavumbuye kugira ngo batere imbere, mu buryo butaziguye canke butaziguye, uruvyaro rwa bitcoins n’ubuhinga nyamukuru. Ica mbere, [ugutuma Laszlo akora neza](ivyo Laszlo yakoze] vyashizwe muri porogarama ku wa 6 Nyakanga (v0.3.0). Hanyuma, [ububiko bw’ibintu](ububiko bw’ibintu] (insiguro=501.msg5815#msg5815) bw’igikorwa ca SHA-256 Hash cakozwe na Nils Schneider be n’[ugutuma n’ivyo BlackEye yongereye kuri iyo porogarama ku wa 29 Nyakanga (v0.3.6). Ubwa nyuma, [uguhuza ibiharuro ku gikoresho kimwe](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722) vyashikirijwe na Nils Schneider (na none) vyari [vyuzuye] mu gitabu c’amategeko ku wa 15 Myandagaro (v0.3.10).
 
 
 Ivyo vyose bitera imbere bisigura ko Bitcoin iriko irakomera uko bukeye uko bwije mu bijanye n’ugukora kwa porogarama n’ugukora kwa Mining. Ariko rero, ikintu gitera ikimenyetso cane mu kibano kirahumanya mu buryo bumwe iyo nzira y’ubuhinga bushasha. Ico kintu c’ugusesagura agaciro cabaye muri Myandagaro, gica gihungabanya urubuga amasaha nk’icumi n’atanu.
@@ -1522,20 +1546,20 @@ Haciye isaha imwe, ingorane yabonyw na Jeff Garzik arayikosora hama, [aragabishi
 Ico gipande caratuma abacukuzi banka iyo nzira y’ubudandaji nk’iyitagira akamaro, bagashiraho irindi shami. block yambere c’iri shami ryabonetse isaha 23:53 z’ijoro.
 
 
-Bukeye mu gitondo, haciye igihe gitoyi isaha zibiri, iyo ntambara yarakemutse. Uruzitiro rwiza rwacitse rurerure kuruta urundi, ivyo bikaba vyasobanura ko utugingo ngengabuzima twose twategerezwa gukurikira urwo ruzitiro, yaba yashizeko igipande canke atari co. Ivyo vyatumye ibikorwa vy’urubuga bihungabana mu kiringo c’amasaha nka 15, ariko ukuntu abanyabubasha bavyakiriye vyari akarorero. Satoshi [yanditse] (insiguro=823.ubutumwa9734#ubutumwa9734) nk'isaha imwe y'ijoro:
+Bukeye mu gitondo, haciye igihe gitoyi isaha umunani z’ijoro, iyo ntambara yarakemutse. Uruzitiro rwiza rwacitse rurerure kuruta urundi, ivyo bikaba vyasobanura ko utugingo ngengabuzima twose twategerezwa gukurikira urwo ruzitiro, yaba yashizeko igipande canke atari co. Ivyo vyatumye ibikorwa vy’urubuga bihungabana mu kiringo c’amasaha nka 15, ariko ukuntu abanyabubasha bavyakiriye vyari akarorero. Satoshi [yanditse](insiguro=823.ubutumwa9734#ubutumwa9734) nk'isaha imwe y'ijoro:
 
 
 > "Bisa n'uko twarengeye uruzitiro rubi ahantu hafi 74689. &nbsp;0.3.9 n'ibindi bihimba vyo hasi vyamaze amasaha bishura n'umubare w'ibarabara ry'ubu. (...) Turashimira bose ku kwishura vyihuse!"
 
 ### Sisitemu yo kugabisha
 
-Inyuma yo kuvumbura ikibazo ca 1 RETURN muri Mukakaro, Satoshi Nakamoto yarakoze ibishoboka vyose kugira ngo akingire urubuga. Ku wa 3 Myandagaro, yongeyeko uburyo bwo kugabisha kuri porogarama ikora iyo chain icitse ([v0.3.8] Ariko rero, ubwo buryo bwagaragaye ko butagira akamaro mu kumenya ikibazo co kurenga kw'ubushobozi cadutse ku wa 15, bituma Satoshi yihutisha [umugambi wiwe] (https://bitcointalk.org/index.php?topic=823.msg9586#msg9586) kugira ngo akore uburyo buteye imbere kuruta.
+Amaze kuvumbura ikibazo ca 1 RETURN muri Nyakanga, Satoshi Nakamoto yarakoze ibishoboka vyose kugira ngo akingire urubuga impanuka. Ku wa 3 Myandagaro, yongeyeko uburyo bwo kugabisha kuri porogarama ikora iyo uruzitiro rwacitsemwo ibice ([v0.3.8] Ariko rero, ubwo buryo bwagaragaye ko butagira akamaro mu kumenya ikibazo c’ugusesagura agaciro cavutse ku wa 15, bituma Satoshi yihutisha [umugambi wiwe](https://bitcointalk.org/index.php?topic=823.msg9586#msg9586) kugira ngo akore uburyo buteye imbere kuruta.
 
 
-Mu misi yakurikiye ico kibazo, Satoshi rero yubatse uburyo bwiza bwo kugabisha bukomeye kurubuga, vyamufashoje kubera urupfunguruzo rwiwe bwite, kugabisha ama nodes mugihe habaye ikibazo c'ubuhinga, igahagarika ama komande makeya ya API.  Ku wa 22 Myandagaro, [yashize ahabona] ubuhinga bwiwe ku rubuga rw’ihuriro. Iryo tangazo ryatumye abanywanyi bagira umutima uhagaze, babonye ko muri iyo nzira hari ikintu co gushiramwo ibintu vyose hamwe n’ubugoyagoye Leta ishobora gucamwo. Satoshi [yasubije] (https://bitcointalk.org/index.php?topic=898.msg11074#msg11074) haciye imisi ibiri, yita ivyo vyiyumviro "ubunyabwoba" kandi asobanura ko iyo sisitemu ishobora guhagarara n'amaboko n'abakoresha kandi ko yoba ari ivy'akanya gatoyi uko biri kwose.
+Mu misi yakurikiye ivyo bintu, Satoshi rero yubatse uburyo bwiza bwo kugabisha ku rubuga, ivyo bikaba vyamufashije, afise urufunguzo rw’ibanga, kugabisha ama node iyo habaye ingorane z’ubuhinga no guhagarika amabwirizwa amwamwe ya API. Ku wa 22 Myandagaro, [yashize ahabona] ubuhinga bwiwe ku rubuga rw’ihuriro. Iryo tangazo ryatumye abanywanyi bagira amaganya, babonye ko muri iyo nzira hari ikintu co gushiramwo ibintu vyose hamwe n’ubugoyagoye Leta ishobora gukoresha. Satoshi [yasubije](yasubije] (https://bitcointalk.org/index.php?topic=898.msg11074#msg11074) haciye imisi ibiri, yita ivyo vyiyumviro "paranoid" kandi asobanura ko iyo sisitemu ishobora guhagarara n'amaboko n'abakoresha kandi ko yoba ari ivy'akanya gatoyi uko biri kwose.
 
 
-Ku wa 27 Myandagaro, uburyo bwo kugabisha bwashizwe muri porogarama ([v0.3.11] ([v0.3.11])). Ivyo guhagarika ibikorwa vyari [vyakuweho] (insiguro=2228.msg29479#msg29479) mu kwezi kwa kigarama. Mu myaka yakurikiye, iyo nzira yo kugabisha yarakoreshejwe incuro nyinshi, cane cane ku mpanuka Fork mu 2013, imbere y’uko [ikurwaho] burundu (https://Bitcoin.org/alert/2016-11-01-alert-retirement) muri porogarama muri 2017.
+Ku wa 27 Myandagaro, uburyo bwo kugabisha bwashizwe muri porogarama ([v0.3.11]([v0.3.11])). Ivyo guhagarika ibikorwa vyari [vyakuweho](insiguro=2228.msg29479#msg29479) mu kwezi kwa kigarama. Mu myaka yakurikiye, iyo nzira yo kugabisha yarakoreshejwe incuro nyinshi, cane cane ku mpanuka Fork mu 2013, imbere y’uko [ikurwaho] burundu (https://Bitcoin.org/alert/2016-11-01-alert-retirement) muri porogarama mu 2017.
 
 
 ### Aho ubunini bw'ama blocks bugarukira
@@ -1547,12 +1571,12 @@ Ikindi kintu c’inguvu zo gutuma iyo porotokole itera imbere no kuyigira ishobo
 Ibwo buhinga bwongeweko mu buryo bw'ibanga kuri kode ya Satoshi ku wa 15 Mukakaro mu buryo bw’igiharuro kidahinduka `MAX_BLOCK_SIZE` (v0.3.1), kikaba cashizwe kuri megabyte 1, 0 byte,0). Porogarama y’ugushirwa mu ngiro kw’itegeko [yakozwe] ku wa 7 Nzero n’uwaremye Bitcoin, na none ata n’itangazo ry’abantu bose ryavuye kuri we (v0.3.12). Yari itegekanije ko igipimo c'ubunini (na co nyene kigabanya igitigiri c'abakoresha umukono muma blocks) cotangura gukora kuva ku mabarabara 79.400. Ivyo vyakoreshejwe (vyabaye] ku musi wa 12 Nzero. amafaranga y’ubudandaji ku segonda, ivyo bikaba vyari bihagije cane kugira ngo bifashe mu gikorwa c’ubutunzi c’ico gihe, mbere n’inyuma y’ugucapura.
 
 
-Naho Satoshi itavuze ko hariho umupaka w’ubunini bw’ama blocks, abantu benshi barabonye ko uwo mupaka uri muri kode uko igihe kigenda kirarenga. Ivyo vyavuzwe rero kuva ku wa 12 Myandagaro n’umunyamuryango w’ihuriro avuga ururimi rw’ikirusiya akoresheje izina ry’uruyeri throughput [yavuze] (https://bitcointalk.org/index.php?topic=788.msg8873#msg8873), mu buryo bushimishije ko ata wundi murongo w’ijwi, (rero igitigiri w'ibikorwa biri muri yo) ni muto." Mu nyuma, ku wa 30 Nyakanga, ni Theymos [yerekanye] uwundi munywanyi ko "Bitcoin itazokwemera ama blocks arenga 1MB, rero twiyumvire ko ubunini bw'ibikorwa (ari buto). Bitcoin ishobora gusuzuma ibikorwa 4.629 brui minota 10 yose."
+Naho Satoshi itavuze ko hariho umupaka w’ubunini bw’amabuye, abantu benshi barabonye ko uri muri kode uko igihe kigenda kirarenga. Ivyo vyavuzwe rero kuva ku wa 12 Myandagaro n’umunyamuryango w’ihuriro avuga ururimi rw’ikirusiya akoresheje izina ry’uruyeri throughput [yavuze](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873), mu buryo bushimishije ko ata wundi murongo w’ijwi, (rero umubare w'ibikorwa biri muri yo) ni muto." Mu nyuma, ku wa 30 Nzero, ni Theymos [yerekanye] uwundi munywanyi ko "Bitcoin itazokwemera amabuye arenga 1MB, rero twiyumvire ko ubunini bwa (ather1) ari buto. Bitcoin ishobora gukora gusa amafaranga 4.629 mu minota 10 yose."
 
 Ubwa nyuma, ukubaho kw’ubu buhinga birahagarika umutima Jeff Garzik [amenyesha] ko “ahagaritse umutima cane ku bijanye n’ugushobora gutera imbere kuruta guhagarika ibikorwa vya Leta” kandi uwo [abaza] ingene bishoboka "kugurisha Bitcoin ku banyamitahe bakomeye, n'imipaka yubatswemwo n'umupaka w'ibikorwa 463 ku munota." Ku bw'ivyo, ku wa 3 Gitugutu, asaba ko hoba ikindi kintu ku rubuga rwo kwongera ubunini bw'ama blocks kugera kuri 7.168 MB kugira ngo "bihure n'igipimo c'ugucuruza ca PayPal." Theymos arishura ati: "Gukoresha iki gice bizokugirira akamaro n'abandi bakiriya ba Bitcoin." Ubu butumwa bwemejwe na Satoshi Nakamoto [ahamagarira] kudakoresha igipande kandi avuga ati: "Turashobora guhindura mu nyuma niyo vyaboneka ko bikenewe." Uwo nyene [aratomora] ivyiyumviro vyiwe umusi ukurikira mu kuyobora ingene yohindura mwene iyo porotokole.
 
 
-![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/en/47.webp)
+![Message from Satoshi Nakamoto describing an increase in the block size limit in 2010](assets/rn/047.webp)
 
 
 Iki kiganiro ni intango y’impari ku bijanye n’ugutera imbere, ivyo bikaba vyatumye haba intambara nyayo y’abanyagihugu hagati ya 2015 na 2017, izwi kw’izina ry’intambara y’ubunini bw'ama blocks.
@@ -1593,6 +1617,8 @@ Mu mezi yakurikiye, harabayeho iterambere mu vy’ubuhinga n'ivy’ubutunzi no m
 
 <chapterId>8e9899ca-e7a7-471b-8e69-847a56714d3b</chapterId>
 
+:::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
+
 
 Mu gice cabanje, twarize ingaruka zavuye ku gushira ahabona ikiganiro kuri Bitcoin kuri Slashdot (slashdotting) vyagize n’ingene Satoshi n’abafasha biwe bashoboye gutorera umuti ingorane z’ubuhinga za mbere. Munyuma, uwo mugambi wari waratsinze iyo imbogamizi zose kandi wari witeguriye kwakira abanywanyi bariko baragwira. Mu mpera z’umwaka w’2010 rero, ni co gihe Bitcoin yaroraniwe.
 
@@ -1605,22 +1631,22 @@ Ico gihe cari igihe c’inzahabu cane cane kuri Mining, aho habonetse iterambere
 Inyuma y’aho Bitcoin ivuye mu kintu citwa slashdotting mu kwezi kwa Mukakaro 2010, inyungu nyinshi z’amahera zaterwa n’ukwiyongera kw’igiciro cayo hamwe n’icizere c’uko izokomeza gukura mu kazoza, vyatumye abantu benshi bongera cane ibikorwa vyo kubyara (gukora) Bitcoin. Ni co gituma ubushobozi bwo guharura [ubushobozi bwa hash] bw’urubuga rwa Bitcoin bwiyongereye cane: bwavuye kuri 0,22 GH/s ku wa 11 Mukakaro, bugera kuri 2,78 GH/s ku wa 17 Mukakaro, hanyuma bugera kuri 5,79 GH/s ku wa 15 Myandagaro, bukabandanya bugera kuri 9,94 GH/s ku wa 19 Nyakanga, maze amaherezo bugashika kuri 12,58 GH/s ku wa 29 Nyakanga
 
 
-![Total network hash rate from July 11 to October 5, 2010](assets/en/48.webp)
+![Total network hash rate from July 11 to October 5, 2010](assets/rn/048.webp)
 
 Igitigiri cose c’urubuga Hash kuva kw’igenekerezo rya 11 Nyakanga gushika kw’igenekerezo rya 5 Gitugutu 2010 (isoko: [CoinWarz]
 
 
 Umucukuzi akomeye muriico gihe yari uwutunganya ama porogarama w'umudagi azwi kw’izina ry'uruyeri ArtForz. Amaze kumenya ivya Bitcoin biciye kuri Slashdot, yaciye yihuta kwinjira mu gutegura porogarama, amara umwanya munini ku muhora wa IRC #Bitcoin-dev. Cane cane, yarateguye ubuhinga bwiwe bwite bwa GPU Mining akoresheje OpenCL, akabukoresha n’ikarata ya CPU y'inyabwonko yiwe.
 
-Yatanguye kuronka ama bitcoins ku wa 19 Mukakaro, ku wa 25 Mukakaro, mu rudodo rwo gukora ubushakashatsi ku bakoresha ku bijanye n’ivyo bafise mu ma Bitcoin, ArtForz . [yavuze](https.archive.org/web/20151121004205/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) yari yararonse ama bitcoins 1.700 mu misi 6, ivyo bikaba bihuye n’ibice 4 kw'ijana vy'ubushobozi bwa hash. nka 80MH/s. Buhoro buhoro, yubatse itongo rinini rya Mining, ryagiye kwitwa "ArtFarm." Muri Myandagaro, itongo ryiwe [ryari ririmwo](ingene-artforz-yahinduye-amateka-ya-Bitcoin-Mining/) 6 ATI Radeon HD 5770s, bimufasha kwongerekana kuva ku wa 76 MH ku wa 40 MH/ kuwa 13 myandagaro.
+Yatanguye gukora ama bitcoins ku wa 19 Nyakanga, ku wa 25 Nyakanga, mu rudodo rwo gukora ubushakashatsi ku bakoresha ku bijanye n’ivyo bafise Bitcoin, ArtForz . [yavuze](https.archive.org/web/20151121004205/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617) yari yararonse amafaranga 1.700 mu misi 6, ivyo bikaba bihuye n’amafaranga y’amafaranga 1.700 y’amafaranga y’amafaranga y’amafaranga y’amafaranga. MH/s. Buhoro buhoro, yubatse itongo rinini rya Mining, ryari kwitwa "ArtFarm." Muri Myandagaro, itongo ryiwe [ryari ririmwo](ingene-artforz-yahinduye-amateka-ya-Bitcoin-Mining/) 6 ATI Radeon HD 5770s, bimufasha kwongerekana kuva ku wa 76 MH ku wa 40 MH/ Ubwa 13.
 
 
-![ArtForz's mining production between August and October 2010](assets/en/49.webp)
+![ArtForz's mining production between August and October 2010](assets/rn/049.webp)
 
 Kuronka ca Mining ca ArtForz hagati ya Myandagaro n'Ukwakira 2010 (isoko: Blackburn n'abandi, "[Ugukorana hagati y'umugwi utazwi warakingiye Bitcoin mu gihe c'ukunanirwa kw'ukwirinda ubugenduzi bwa leta](https://arxiv.org/pdf/2206.02871)")
 
 
-uko indwi zahera, ArtForz yahavuye iba kizigenza ibita ibice vyinshi vy’ububasha bwo gukoresha ubuhinga bwa none. Ku wa 2 Nyakanga, Umucukuzi puddinpop [yavuze] ko afise "nk'ama 12 5770s akoresheje umukiriya wiwe wa OpenCL" kandi ko afise "ama networks arenga 1Ghash/s. "nk'ibice 40 kw'ijana" vy'Ubushobozi bwa Hash." (*umwimerere: "ArtForz, kuri IRC, afise nk'abantu 12 canke barenga 5770 bakoresha umukiriya wiwe bwite wa OpenCL. Urubuga rwose ruriko rurakora ikintu kiri hafi y'amasaha 5-6Ghash/s, kandi ni we wenyene yavuze ko afise amasaha arenga 1Ghash/s."*) Ku wa 23 Nzero, ArtForz [yamenyeshejwe] (ububiko bw'urubuga.org/urubuga/20180118035138/2010/09/23#l1285234390.0) y'ugufata ra63s/W2ly bigereranya 20% vy’ivyo gukora hashing. Ku wa 3 Gitugutu, bavuze ko ArtForz "ifise 20 gushika kuri 30% vy'ubushobozi bwo gukoresha ubuhinga bwa none." (*umwimerere: "afise 20-30% vy'ububasha bwa CPU y'urubuga"*)
+Mu ndwi ziheze, ArtForz yaraje kugenzura igice kinini c’ububasha bwo gukoresha ubuhinga bwa none. Ku wa 2 Nzero, Miner puddinpop [yavuze] ko afise "nk'ama 12 5770s akoresheje umukiriya wiwe wa OpenCL" kandi ko afise "ama networks arenga 1% ya G. Ubushobozi bwa Hash." (*umwimerere: "ArtForz, kuri IRC, afise nk'abantu 12 canke barenga 5770 bakoresha umukiriya wiwe bwite wa OpenCL. Urubuga rwose ruriko rurakora ikintu kiri hafi y'amasaha 5-6Ghash/s, kandi ni we wenyene yavuze ko afise amasaha arenga 1Ghash/s."*) Ku wa 23 Nzero, ArtForz [yamenyeshejwe](ububiko bw'urubuga.org/urubuga/20180118035138/2010/09/23#l1285234390.0) y'ugufata ra63s/W2ly bigereranya 20% vy’ivyo gukora hashing. Ku wa 3 Gitugutu, bavuze ko ArtForz "ifise 20 gushika kuri 30% vy'ubushobozi bwo gukoresha ubuhinga bwa none." (*umwimerere: "afise 20-30% vy'ububasha bwa CPU y'urubuga"*)
 
 Ariko rero, abandi bantu bahinduye ubuhinga bwabo mu gihe c’izuba, baravyihutiye guhakana ico kibanza. Hanyuma, ArtForz buhoro buhoro yarahevye ibikorwa vya Mining kugira ngo yibande ku gutegura porogarama. Muri Myandagaro 2011, [yavuze] ko afise ubushobozi bwo gukoresha ubushozi butari munsi ya 1% bw’urubuga.
 
@@ -1634,9 +1660,9 @@ Mu mpera z’ici rya 2010, akarorero ka ArtForz karatumye abandi bacukuzi bihuti
 Ku wa 2 Nyakanga, Miner puddinpop [yasangira] igikoresho c’umukiriya wiwe Mining, akoresheje ubuhinga bukoresheje CUDA. Yashizemwo amafaranga 10% ku muntu wese azoyikoresha. Ubwo buryo ntibwakiriwe neza cane n’abagize ihuriro bari abashigikiye porogarama z’ubuntu.
 
 
-Ku wa 6 Nyakanga, akurikije iciyumviro c'umunyamuryango w'ihuriro, [yavuze] ko yoba "kumbure yiteguriye guhindura kode ngo ibe inkomoko yuguruye" iyo aronka "intererano ikomeye." Ku wa 15, Jeff Garzik yaratanze [igiciro] (ivyo) ku bijanye n’ivyo, asaba guha puddinpop amafaranga 10.000 y’ama bitcoins, ayo madolari yari nk’amadolari 600 ico gihe. Puddinpop yemeye: ugucuruza kwafashe [ikibanza] (ku rutonde rw’ibintu rwari ku rwego rwa algorithme, kandi rwari rwa algorithme) [yasohowe] [yasohowe] mu gihe c’uruhusha rw’ubuntu rwa puddinpop haciye igihe gito.
+Ku wa 6 Nzero, akurikije iciyumviro c'umunyamuryango w'ihuriro, [yavuze] ko yoba "kumbure yiteguriye guhindura kode ngo ibe inkomoko yuguruye" iyo aronka "intererano ikomeye." Ku wa 15, Jeff Garzik yaratanze [igiciro](ivyo) ku bijanye n’ivyo, asaba guha puddinpop amafaranga 10.000 y’ama bitcoins, ayo madolari yari nk’amadolari 600 ico gihe. Puddinpop yemeye: ugucuruza kwafashe [ikibanza](ku rutonde rw’ibintu rwari ku rwego rwa algorithme, kandi rwari rwa algorithme) [yasohowe](yasohowe] mu gihe c’uruhusha rw’ubuntu rwa puddinpop haciye igihe gito.
 
-Ibindi bipimo vyamenyeshejwe abantu bose nko muri ico gihe nyene. Ku wa 9 Nzero, umunyamuryango w’ihuriro yariko aragenda mw’izina rya nelisky [yasangiye] ubuhinga bwabo bwa Mining akoresheje CUDA. Ku wa 1 Gitugutu, umuntu yitwa m0mchil, yinjiye muri iyo nama muri Ruhuhuma, [yasohoye] "Gufungura CL Miner ku bantu benshi."
+Izindi algorithme nazo nyene zaciye zishirwa ahabona muri iyo nyene. Ku wa 9 Nyakanga, umwe mu bari ku rubuga yiyita nelisky [yasangije](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264) algorithme yiwe y'ugucukura Bitcoin akoresheje CUDA. Ku wa 1 Gitugutu, uwitwa Momchil Georgiev, yari yashitse ku rubuga mu kwezi kwa Ruhuhuma akoresha izina rya m0mchil, [yasohoye](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0) algorithme yiwe (POCLBM) ayita « umucukuzi wa OpenCL w'abantu bose ».
 
 
 Ivyo vyatumye abantu bafise ubuhinga bwinshi mu vy’ubuhinga bashobora  amafaranga menshi cane. Uretse ArtForz, Nils Schneider (tcatm) ni we yabaye umwe mu bacukuzi bakuru b’amabuye y’agaciro muri ico gihe. Ku wa 3 Gitugutu 2010, [yavuze] ko afise igipimo c’ugukora hashing c’amasegonda 983 MH/s gikozwe n’ibikoresho bitatu vy’ugukora ama CPU. Uwo mubare warakoze kuri Satoshi ubwiwe.
@@ -1648,7 +1674,7 @@ Ivyo vyatumye abantu bafise ubuhinga bwinshi mu vy’ubuhinga bashobora  amafara
 Ukwiyongera gukomeye kw’igipimo ca Hash kubera ubuhinga bwa Mining bwatumye gukora ama bitcoins afise processeur yo hagati bigorana, ivyo bikaba vyaciye birushiriza kugurwa. Nkako, ubushobozi bwo gutanga ama bitcoins bwaciye buvana cane n’ugutandukana, abantu bamwebamwe ntibashobora gutanga igice. Umuti w’iki kibazo ni ubufatanye Mining.
 
 
-Ku wa 1 Gitugutu, m0mchil [yasohotse] (yasohotse](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) yasanze ihinduka rya API rituma ama node y’abaguzi ashobora kugarura igice c’umukandida biciye ku gikorwa gishasha citwa if-6turwork7n. Yanditse ko iyo nzira "ifungura inzira abacukuzi bo hanze ba Bitcoin" kandi "ishobora gushinga abacukuzi benshi ku mukiriya umwe."
+Ku wa 1 Gitugutu, Momchil [yasohoye](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840) inyubako y’ibikorwa rusangi yemerera abakoresha kumenya ikibanza gikwiye gicukurirwamwo biciye ku kintu gishasha citwa `getwork` no gusubiza inyishu igaragaza ko bacukuye igihe inyishu ibonetse. Yanditse ko iyo ngene yakosowe « itangura inzira y’abacukuzi ba Bitcoin bo hanze » kandi « yemerera gutera abacukuzi batari bake ku mukoresha umwe ».
 
 Kuri uwo musi nyene, iciyumviro ca "pooled Mining" caravuzwe ku ncuro ya mbere n'umunyamuryango w'ihuriro mu rudodo rwitwa "Uko twotembagaza GPU". Ku wa 13 Gitugutu, puddinpop [yasavye] ikigereranyo c’ubwo bwoko. Ubushobozi bwo gukoresha ubuhinga bwa Miner bupimwa n'ubuhinga bwa meta-Hash, ari bwo bucapura bw'ububiko burimwo byte ya mbere ya buri bubiko Hash. Serveri irashobora rero kugenzura ko umukiriya akora ibara ryasobanuwe. Iyi nzira iragoye kandi [ntiyemera amakosa](insiguro=1458.msg17015#msg17015).
 
@@ -1662,24 +1688,24 @@ Ku wa 23 Munyonyo, verisiyo yahinduwe y’igikorwa ca `getwork` yongewe kuri [ko
 Ku wa 27 Munyonyo, umusore w’Umuceke yitwa Marek Palatinus, akoresheje izina ry’uruyeri ryitwa slush, [yasohoye] Mining" ku rubuga, ikigereranyo gikoresha `getwork` n'ubuhinga bwa Jeff Garzik. Ico kigereranyo gishingiye ku bimenyamenya vy’igice c’ibikorwa vyakozwe n’abacukuzi (pay-per-share). Bukeye, Satoshi Nakamoto [yemeje] ico ciyumviro.
 
 
-![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/en/50.webp)
+![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/rn/050.webp)
 
 Marek Palatinus (slush) mu nama y’umusi yabereye i Prague ku wa 11 Rusama 2013
 
 
-Ivyo bigereranyo bibiri vy’ugupima vyashizwe mu ngiro mu kwezi kwa kigarama. Imbere ya vyose, iciyumviro ca puddinpop carakoreshejwe ku wa 1 Kigarama n’uwukoresha incuro zibiri, uwo [yatumiye] abantu kugira ngo bahuze na server yiwe ya Mining. Uwo muhari [ryakoze] igice ca mbere (95.420) ku wa 4 Kigarama. Amaze gukora iyindi block haciye imisi mikeyi, server ya doublec [yarahagaze] ku wa 15. Iryo shirahamwe ryarafunze ubudasiba ku wa 17, kubera ukuza kw'ishirahamwe ry'abakozi ryiza cane: Bitcoin.cz Mining.
+Ubwo buryo bubiri bwo gukira bwoba bwashizwe mu ngiro mu kwezi kwa Kigarama. Ubwa mbere, inyiyumviro ya puddinpop yashizwe mu ngiro ku wa 1 Kigarama n'uwukoresha doublec, uwo [yatumiye](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859) abantu guhura na seriveri yiwe y'ugucukura Bitcoin. Uguhuriza hamwe gutyo [kwashikanye](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688) kuri Block ya mbere (95 420) ku wa 4 Kigarama. Inyuma yo gushikana ku yindi Block ikurikira inyuma y'imisi mike, seriveri ya doublec [yarahagaritswe](https://bluishcoder.co.nz/bitcoin-pool/) ku wa 15. Iyo serivisi yaciye ifunga imiryango burundu ku wa 17, kubera ugushingwa kw'abakora kimenyabose (cooperative) batagira uko bangana: BitcoinCZ Mining.
 
 
-Amaze gukora ubushakashatsi kuri irwo rubuga hwaniro, Marek Palatinus yaciye afata ingingo yo gushira mu ngiro uburyo bwiwe bwo gukorana Mining kandi cane cane akora ivyigwa ku rubuga rw’igerageza. Yarabonye kandi ko iyo server ishobora gushikirwa n’abacukuzi ba CPU (porogarama ya Jeff Garzik) n’abacukuzi ba GPU (abaguzi ba m0mchil na puddinpop).
+Inyuma yo gutora inkuru ku rubuga, Marek Palatinus yafashe ingingo yo gushira mu ngiro uburyo bwiwe bw’ugucukura Bitcoin n'ubwabo bakoresha uburyo bwa test. Agira kandi yemeze ko seriveri ishobora gukoreshwa n'abacukura bakoresheje CPU (bakoresha porogaramu ya Jeff Garzik) n'abacukura bakoresheje GPU (bakoresha porogaramu za Momchil na puddinpop).
 
 
-Mu ijoro ryo kuva ku wa 15 gushika ku wa 16 Kigarama, iyo koperative yaraheza [itanguzwa] na Marek Palatinus ku rubuga rwa mbere. Igipande ca mbere [cabonetse] (97.834) mu gitondo co ku wa 16. Mu nyuma, harasohotse n’ibindi bipande vyinshi. Ishirahamwe Mining ryahuye n’uguterimbere mu ntango: mu misi mikeyi, igipimo caryo ca Hash carashitse kuri 4 GH/s, 3,5% vy’inguvu zose z’uruja n’uruza.
+Mu ijoro ryo kuva ku wa 15 gushika ku wa 16 Kigarama, iyo koperative yaraheza [itanguzwa] na Marek Palatinus ku rubuga rwa mbere. Igipande ca mbere [cabonetse](97.834) mu gitondo co ku wa 16. Mu nyuma, harasohotse n’ibindi bipande vyinshi. Ishirahamwe Mining ryahuye n’uguterimbere mu ntango: mu misi mikeyi, igipimo caryo ca Hash carashitse kuri 4 GH/s, 3,5% vy’inguvu zose z’uruja n’uruza.
 
 
-Iryo shirahamwe ryobaye ikigereranyo muri Bitcoin Mining. Yari afise amazina menshi mu myaka: Bitcoin Pooled Mining (BPM), Bitcoin.cz Creator Mining, n’ubwa nyuma ivyerekeye iSlush Pool. Yacitse ikidengeri c'ubwonko muri Nzero 2022.
+Ubwo bucutsi buzoba imbonekarimwe mu bijanye n'ugucukura Bitcoin. Buzogira [amazina](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history) atari make mu myaka yose: Bitcoin Pooled Mining (BPM), BitcoinCZ Mining, be na Slush Pool, kubera uwabishinze. Mu Kigarama 2022, buzoca buhinduka Braiins Pool.
 
 
-![Logo of Slush's cooperative in September 2011](assets/en/51.webp)
+![Logo of Slush's cooperative in September 2011](assets/rn/051.webp)
 
 Igimangu c’ishirahamwe rya Slush muri Nzero 2011 (inkomoko: [ububiko]
 
@@ -1696,6 +1722,8 @@ Ariko rero, ugucukura si bwo bwonyene bwaroraniwe mu buryo bwa Mining. Vyari kan
 
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
 
+:::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
+
 
 Mu kigabane ca mbere, twarasuzumye ingene Mining yateye imbere mu gice ca kabiri c’umwaka w’2010. Mu mpera z’umwaka, iyo nzira yari yarashitse neza. Ariko rero, Mining si yo yonyene yari umuce wa Bitcoin waroraniwe: igisata(ico gisata) vyayo ni vyo vyaroraniwe.
 
@@ -1709,7 +1737,7 @@ Aha, tuzobanza Address intango y’ugushora Bitcoin hanze n’iterambere ry’im
 Bitcoin ni umugambi mpuzamakungu kandi, nk’uko biri, utegerezwa gushikira abantu benshi bashoboka hanze y'abavuga Icongereza. Ni co gituma umuryango [wahujwe](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259) watanguye muri Rusama 2010 guhindura urubuga rwa web rwaa porogarama Interface mu ndimi nyinshi. Igitaliyano, Ikidagi n’Igiholandi ni vyo vyari birimwo canecane.
 
 
-Ariko ivyo sivyo vyose. Martti Malmi yatanguye gushinga amahuriro matomato yerekeye abatari bavuga Icongereza mu mpera z’ukwezi kwa Mukakaro. Umuryango w’Abarusiya ni wo wa mbere washinze: hakurikijwe ubusabe bwa bitcoinex kanaka, ihuriro ritoyi ry’ivy’ubuhinga bwa none [raremewe] (https://bitcointalk.org/index.php?topic=151.msg6241#msg6241) ku wa 28 Mukakaro. threads](https://web.archive.org/web/20101018144227/20101018144227/http://www.Bitcoin.org:80/smf/index.php?board=11.0) zaremewe: Igitaliyano, Igiholandi, Igicata mu Kiyapani, n’Igitaliyani; Igisupanyoli mu kwezi kwa Nyakanga; n’ubwa nyuma n’ikidagi mu kwezi kwa Gitugutu. Ariko rero, nta mugwi n’umwe wari uhuye n’uw’Abarusiya, kandi ubutumwa bukeyi gusa ni bwo bwarungitswe.
+Ariko ivyo sivyo vyose. Martti Malmi yatanguye gushinga amahuriro matomato yerekeye abatari bavuga Icongereza mu mpera z’ukwezi kwa Nyakanga. Umuryango w’Abarusiya ni wo wa mbere washinze: hakurikijwe ubusabe bwa bitcoinex kanaka, ihuriro ritoyi ry’ivy’ubuhinga bwa none [raremewe](https://bitcointalk.org/index.php?topic=151.msg6241#msg6241) ku wa 28 Nyakanga. threads](https://web.archive.org/web/20101018144227/20101018144227/http://www.Bitcoin.org:80/smf/index.php?board=11.0) zaremewe: Igitaliyano, Igiholandi, Igicata mu Kiyapani, n’Igitaliyani; Igisupanyoli mu kwezi kwa Nzero; n’ubwa nyuma n’ikidagi mu kwezi kwa Gitugutu. Ariko rero, nta mugwi n’umwe wari uhuye n’uw’Abarusiya, kandi ubutumwa bukeyi gusa ni bwo bwarungitswe.
 
 
 Ni mu muryango w’Abafaransa ibintu vyahindutse, cane cane biciye ku bikorwa vy’umuntu umwe: Lucien Grondin, na we nyene azwi kw’izina ry’uruyeri rya Grondilu. Ku wa 26 Nzero, yaravumbuye Bitcoin, aca ahita agira igishika ku bijanye n’uwo mugambi. igihe kigiye bwije, yanditse [ku rubuga rwa IRC].
@@ -1720,20 +1748,20 @@ Ni mu muryango w’Abafaransa ibintu vyahindutse, cane cane biciye ku bikorwa vy
 Haciye imisi mikeyi, ku wa 30, yasohoye [Itangazo ku binyamakuru](https://linuxfr.org/amakuru) mu gifaransa kuri LinuxFr.org (DLFP). Iyi nkuru, ifise umutwe uvuga ngo "Urazi bitcoins?", birashoboka ko ari yo nkuru ya mbere yerekana Bitcoin yanditswe mu rurimi rwa Molière(french). Iyo ngingo yarashikiriye abantu benshi cane, abantu hafi 350 barayivugako. Aha niho hari agace ka mbere nk’uko [yabonetse] muri ico gihe:
 
 
-![Do you know about bitcoins?](assets/en/52.webp)
+![Do you know about bitcoins?](assets/rn/052.webp)
 
-Ingingo: Mbega murazi Bitcoin?
-Bitcoin ni ifaranga ryakozwe hakoreshejwe ubuhinga bwa none ryaremwe mu mwaka wa 2009 n’umuntu yiyise Satoshi Nakamoto. Iri faranga ritandukanye n’ayandi mafaranga ya elegitoronike kubera ko rikora ata buyobozi buri hagati, rikagenda mu buryo bwo guhana hagati y’abantu ubwabo (peer-to-peer), kandi rikoresheje ubuhinga bukomeye bwa cryptographie mu gukingira no kugenzura amahindu. Bitcoin ishingiye kuri porogarama yanditswe mu rurimi rwa C++, ikaba ikwiragizwa munsi y’uruhusha rw’ubuntu rwa MIT
+
+> **Ibitabo: Uzi bitcoin?** Bitcoin ni amafaranga y'ikoranabuhanga yatekerejwe mu 2009 n’uwitwa Satoshi Nakamoto. Aya mafaranga atandukanye n’andi mafaranga y’ikoranabuhanga kubera ko akora mu buryo butagira ugenga, peer-to-peer, kandi akoresha neza ibitekerezo by’ibanze by’ubwirinzi bwa mudasobwa. Akubiye mu porogaramu yanditswe muri C++ ikaba yasohowe ku ruhushya rwa MIT rw’ubuntu.
 
 Cane cane, iki kiganiro gikwegera umutima w’umuntu umwe yitwa Ploum, izina ryiwe ry’ukuri Lionel Dricot, umunyabubirigi w’imyaka 29, akaba ari umunyamakuru w’ivy’ubuhinga bwa none, akaba n’umuvugizi w’ubuhinga bwa none. Ku wa 25 Gitugutu, yarasohoye ingingo ku rubuga rwiwe, yitwa "Amahera y'abanyabwenge, amahera y'inkende?", aho avugira ko ubutegetsi bwo kugenzura hama anshigikira ivyiyumviro vya bitcoin. Benshi mu bakoresha interineti bavuga igifaransa bumvise ivyerekeye Bitcoin biciye muri ubwo buryo, harimwo [Amaury Séchet], umuteguzi w'ama porogarama yahavuye ahingura amafaranga Bitcoin cash muri 2017.
 
 
-![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/en/53.webp)
+![Lionel Dricot (Ploum) in 2012, then a candidate under the banner of the Pirate Party for the Belgian communal and provincial elections](assets/rn/053.webp)
 
 Lionel Dricot (Ploum) mu mwaka w’2012, ico gihe yari umukandida impande y'idarapo ry’umuhari w’abasuma mu matora y’amakomine n’ay’intara mu Bubirigi.
 
 
-Uwo musi nyene, Ploum yuguruye [ikiganiro] "Igifaransa" ku rubuga rwa Bitcoin. Ubutumwa buva ku bagize ihuriro bavuga igifaransa bwarongerekanye mu mezi yakurikiye. Ivyiza ni uko David François ([davout]), yanditswe ku wa 17 Gitugutu, akaba ari we azoshinga Bitcoin-Central, na Mark Karpelès ([MagicalTux]), yanditswe ku wa 7 Munyonyo kandi azoba nyen’urubuga rwa Mt. Gox, yari muri iyo nama. Yarabonye kandi uruhara rw’umuntu yitwa Jean-Luc azokugurura urubuga rwa [Bitcoin.fr](https://web.archive.org/web/20110107145746/) ku wa 23 Kigarama gushika ku wa 2019. [guteza imbere] (gutera imbere] (its: 1567. ubutumwa37524#ubutumwa37524) it muri Mukakaro. Ihuriro ry'igifaransa ryoheza ryaremewe na Martti Malmi kw'igenekerezo rya 1 Ruhuhuma 2011.
+Uwo musi nyene, Ploum yafunguye [urudodo rw'ibiganiro] "Igifaransa" ku rubuga rwa Bitcoin. Ubutumwa buva ku bagize ihuriro bavuga igifaransa bwarongerekanye mu mezi yakurikiye. Ivyiza ni uko David François ([davout]), yanditswe ku wa 17 Gitugutu, akaba ari we azoshinga Bitcoin-Central, na Mark Karpelès ([MagicalTux]), yanditswe ku wa 7 Ugushyingo kandi azoba nyen’urubuga rwa Mt. Gox, yari muri iyo nama. Yarabonye kandi uruhara rw’umuntu yitwa Jean-Luc yari gufungura urubuga [Bitcoin.fr](https://web.archive.org/web/20110107145746/) ku wa 23 Kigarama gushika ku wa 2019. [guteza imbere](gutera imbere] (its: 1567. ubutumwa37524#ubutumwa37524) it muri Mukakaro. Ihuriro ry'igifaransa ryoheza ryaremewe na Martti Malmi kw'igenekerezo rya 1 Ruhuhuma 2011.
 
 
 ### Iterambere ry'Itumatumatumanako(uguhana amakuru)
@@ -1741,21 +1769,21 @@ Uwo musi nyene, Ploum yuguruye [ikiganiro] "Igifaransa" ku rubuga rwa Bitcoin. U
 Uretse uguteza imbere imiryango y’indimi, Hari n'ubuhina bushasha mu buryo bukoreshwa mu guhanahana amakuru ku bijanye na Bitcoin. Ku wa 4 Gitugutu, umunya Australiya w’imyaka 38 akoresheje izina ry’uruyeri ryitwa noagendamarket [yatanguje] umugambi witwa BitcoinMedia. Guteza imbere Bitcoin mu guhingura ibirimwo no kubimenyekanisha mu bibanza bishobora gukwegera abantu ni co ciyumviro. Naho iyo ngingo itashitse ku co yari yiteze, irafise akamaro ko gutuma hakorwa amavidewo ya mbere avuga ivyerekeye Bitcoin. Videwo ya mbere y’uwo muhora, [yasohowe](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461) ku wa 5 Gitugutu, ni Inkuru y’Ugushakisha kuri Google, yakozwe hakoreshejwe igikoresho ca YouTube (raba ifoto iri musi). Ayandi mavidewo azokorwa hakoreshejwe Xtranormal, igikoresho coroshe co guhingura urutonde rw’amavidewo bivuye ku bimenyetso vyategekanijwe imbere y’igihe.
 
 
-![First video on Bitcoin (Google Search Story)](assets/en/54.webp)
+![First video on Bitcoin (Google Search Story)](assets/rn/054.webp)
 
 
 Ivyo bimenyetso vyerekeye Bitcoin biriko biragwira muri iki kiringo. Ivyo ni ko biri cane cane kuri Jon Matonis, afise urubuga *The Monetary Future* aho avuga ku mafaranga y’ubuhinga bwa none, ubuhinga bwo gukoresha amabanki ku buntu, n’ubuhinga bwo gukora amakuru y’ubuhinga bwa none. Yavumbuye Bitcoin muri Ntwarante maze [arahindura](ubutumwa-bwanje-bwa mbere-kuri-GW6#48) yatanguye kwandika kuri iyo nkuru. Mu kwezi kwa Gitugutu, arasohora [ingingo ya gatatu](https://themonetaryfuture.blogspot.com/2010/10/rally-in-Bitcoin.html) aho avuga ibijanye n’ukwiyongera kw’ibiciro, akavuga n’ibintu bishasha vyo mu bidukikije.
 
 
-![Profile picture of Jon Matonis in 2011](assets/en/55.webp)
+![Profile picture of Jon Matonis in 2011](assets/rn/055.webp)
 
 Ifoto ya Jon Matonis mu mwaka w'2011 (isoko: [Forbes]
 
 
-Muri iki gihe, ikimenyetso gishasha ca Bitcoin na co nyene carashikirijwe. Ku wa 1 Munyonyo, umunyamuryango w’ihuriro akoresheje izina ry’uruyeri bitboy [yasohowe] (https://bitcointalk.org/index.php?topic=1631.0) igishushanyo y'ibintu kugira ngo yerekane amafaranga y’ama cryptos(y'ubuhinga bwa none). Kimwe muri ivyo bintu ni ikimenyetso c’umuhondo gifise urudome B rurimwo uturongo kandi rukitse gatoya.
+Muri iki gihe, ikimenyetso gishasha ca Bitcoin na co nyene carashikirijwe. Ku wa 1 Ugushyingo, umunyamuryango w’ihuriro akoresheje izina ry’uruyeri bitboy [yasohowe](https://bitcointalk.org/index.php?topic=1631.0) igishushanyo Elements kugira ngo yerekane amafaranga y’ibanga. Imwe muri izo Elements ni ikimenyetso c’umuhondo gifise urudome B rwaciweko kandi rwinjiye gatoyi:
 
 
-![Bitcoin logo designed by bitboy, November 2010](assets/en/56.webp)
+![Bitcoin logo designed by bitboy, November 2010](assets/rn/056.webp)
 
 
 ### Ubutunzi buriko burakura
@@ -1765,7 +1793,7 @@ Ico kiringo kandi kirangwa n’iterambere ridasanzwe ry’ico gisata ku rugero r
 Ivyo vyose Elements bituma igiciro kiduga cane. Naho nyene ryahagaze hafi y’ibice 6¢ kuva mu kwezi kwa munani, ritangura kuduga mu ntango z’ukwezi kwa Gitugutu. Ija ku masantime 10, igashika ku masantime 20 mu mpera z’ukwezi. Ku wa 6 Munyonyo, rirenga ama santime 50, ivyo bikaba bitabura [gutera umunezero] abagize ihuriro.
 
 
-![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/en/57.webp)
+![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/rn/057.webp)
 
 Igiciro ca BTC hagati y’italiki 18 Mukakaro n’italiki 18 Gitugutu 2010, ku musozi Gox (isoko: [*Igihe kizoza c’amahera*](https://akazoza k’amahera.
 
@@ -1789,13 +1817,13 @@ Ikintu ca nyuma kigaragaza ko Bitcoin yateye imbere ni uko bamwebamwe barondeye 
 ### Electronic Frontier Foundation ryemera ama Bitcoin
 
 
-Mu mpera z'umwaka w'2010, ikintu gihambaye cabaye ni uko Electronic Frontier Foundation ryemeye Bitcoin. Iryo shirahamwe ni ishirahamwe mpuzamakungu ry’ugukingira umwidegemvyo kuri Interinete, ryashinzwe mu 1990 na Mitch Kapor, John Gilmore na John Perry Barlow. Ivyo vyari bihambaye canecane ku bantu ba mbere bakoresheje Bitcoin, bakaba bari aba cypherpunks mu mutima. Bari bafise umutima ukunze wo kwemera Bitcoin.
+Igikorwa gikomeye c'ukurangiza umwaka wa 2010 ni ukwakira Bitcoin na *Electronic Frontier Foundation*, umuryango mpuzamakungu w'ugukingira ubwisanzure kuri Internet, washinzwe mu 1990 na Mitch Kapor, John Gilmore na John Perry Barlow. Uno muryango urahambaye ku mitima y'aba mbere bari bakoresheje Bitcoin, aba cypherpunks mu mutima. Bipfuza rero ko uwo muryango wakira Bitcoin.
 
 
-![Logo of the Electronic Frontier Foundation](assets/en/58.webp)
+![Logo of the Electronic Frontier Foundation](assets/rn/058.webp)
 
 
-Ni umunyamuryango w’ihuriro yitwa Kiba yafashe ingingo ku wa 13 Myandagaro 2010, mu [gusaba](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) guhamagara EFF no gusaba ko bemera intererano, [vyakoranijwe] (ivy’ubuhinga bwa none) bivuye mu kibano. Ku bw’ivyo, yashizeho [konti](konti] kuri MyBitcoin aho yakoranirije ayo mahera kandi yipfuza gutanga uburenganzira bwo gushika muri EFF. Yarateguye email (yakosowe n’abanyagihugu) yohereje mu mpera z’ukwezi kwa munani.
+Ni umunyamuryango w’ihuriro yitwa Kiba yafashe ingingo ku wa 13 Myandagaro 2010, mu [gusaba](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021) guhamagara EFF no gusaba ko bemera intererano, [vyakoranijwe](ivy’ubuhinga bwa none) bivuye mu kibano. Ku bw’ivyo, yashizeho [konti](konti] kuri MyBitcoin aho yakoranirije ayo mahera kandi yipfuza gutanga uburenganzira bwo gushika muri EFF. Yarateguye email (yakosowe n’abanyagihugu) yohereje mu mpera z’ukwezi kwa munani.
 
 
 Uwugira kabiri wo muri iyo nama yaraje kumufasha haciye indwi zibiri, ata n’umwe yishuye. Uwo munywanyi akoresheje izina ry’uruyeri BrightAnarchist, yari azi nk'umwe mu bashinze iyo sosiyete maze abarungikira ubutumwa kuri e-mail ku wa 13 Nyakanga. Iyo nkuru yaciye ishikirizwa ishirahamwe.
@@ -1827,7 +1855,7 @@ Ikindi kandi, ariga iyo kode, iyo ataravye kuva itanguye, agaca abona ibikorwa v
 
 > "Iki nk'igikorwa giteye igomwe, naho nipfuza ko hoba hariho ibivurwa vyinshi. Narize cane cane init, main, script, n'ibindi bice vy'urubuga. Iyi ni imashini ikomeye cane."
 
-Haciye amasaha abiri, Satoshi [yarishuye] (insiguro=2188.ubutumwa29259#ubutumwa29259):
+Haciye amasaha abiri, Satoshi [inyishu](insiguro=2188.ubutumwa29259#ubutumwa29259):
 
 > "Ivyo bisigura vyinshi bivuye kuri wewe(Birankorako cane), Hal. Urakoze."
 
@@ -1842,6 +1870,8 @@ Mu mpera z’umwaka w’2010, igisata ca Bitcoin carateye imbere cane. Ivy’ugu
 ## Ukuzimangana kwa Satoshi
 
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>
+
+:::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
 
 Twarabonye ingene Bitcoin yafashe yaduze inyuma y’aho inkuru isohokeye kuri Slashdot muri Mukakaro 2010. Kubera iterambere ritandukanye mu bijanye n’ubuhinga bwa none, Mining, n’ubutunzi mu mpera z’umwaka, amaherezo uwo mugambi wari mu nzira. Ni co gituma ico kiringo cahuye n’igihe Satoshi Nakamoto yariko arasohoka buhoro buhoro.
@@ -1866,7 +1896,7 @@ Ariko rero, kode y’inkomoko ya Bitcoin iguma ari ubuntu, ku buryo umuntu wese 
 
 > "Satoshi yazanya ibiharuro vy'ibitangaza bivuye mu kirere gitoyi, kandi twese hamwe turashigikira iyo nzira. [...] Umunota Satoshi ikora ikintu c'ubusazi kidashigikirwa n'abanyagihugu ni igihe amategeko / urutonde rw'amategeko ruhinduka vy'ukuri."
 
-Gutyo, uruhara rwa Satoshi nk’umurongozi ntirubuza ko abantu bamunegura. Ni co gituma buhoro buhoro amahane aza mu kibano guhera mu kwezi kwa Nyakanga. Nk’akarorero, ukurwanya biravyuka mu gihe c’[ugushirwaho] kw’uburyo bwo kugabisha muri Myandagaro canke mu kwezi kwa 10745. [uguhindura](ihindura] (ihinduka] (ihinduka ry'ibikorwa) ry'igikorwa ca m0mchil `getwork` mu kwezi kwa 11. Intimba ku bijanye n’iyo ngingo y’ubutegetsi bw’igitugu rimwe na rimwe iraserurwa [mu buryo bugaragara cane](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-24.html#l-384) kuri IRC.
+Ubwo rero, ubuyobozi bwa Satoshi ntibubuza kunegura. Ni co gituma imikazo itangura kwiyongera muri uwo muryango guhera mu kwezi kwa Mukakaro. Ubona nk'uko abantu bataremera [igikorwa](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) c'ugutanga inkuru mu kwezi kwa Myandagaro canke [uguhinduka](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) kw'igikorwa ca `getwork` c aMomchil mu kwezi kwa Munyonyo. Iyo mikazo ituruka ku ngingo yo gutwara nk'udutwa rimwe na rimwe iragaragara [mu buryo bweruye](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384) kuri IRC.
 
 
 Gavin, ari hafi cane ya Satoshi ariko kandi akayaga n’abandi bategura, arabona neza ingorane iterwa n’ivyo bintu. Ku wa 27 Nzero 2010, kuri IRC, Gavin [yamenyesheje] ko yoshima "gushobora kwemeza \[Satoshi guhindura uburyo bwo gukorana." (*umwimerere: "Nipfuza gusa kumujijura ngo ahindure akaja ku buryo bwo guteza imbere ubufatanye."*) Mu kwezi kwa Gitugutu, Gavin [aronka](https://sourceforge.net/p/Bitcoin/code/165/) kwandika uburenganzira bwo gushika ku bubiko bwa SourceForge, akagira ibintu vyiza. Mu kwezi kwa kigarama, iyo ngorane yaratowe umuti igihe Satoshi yasohoka bukwi na bukwi inyuma y’aho ikibazo ca WikiLeaks kibonekeye.
@@ -1877,16 +1907,16 @@ Gavin, ari hafi cane ya Satoshi ariko kandi akayaga n’abandi bategura, arabona
 Ico catumye Satoshi igenda ni ikibazo ca WikiLeaks. WikiLeaks ni ishirahamwe ritagira aho rigarukira ryashinzwe na Cypherpunk Julian Assange mu 2006, rigamije guha ijwi abamenyesha amakuru n’abatanga amakuru mu gihe bariko barinda aho bava. Mu mwaka w’2010, izo nyandiko z’ibanga zahishuwe n’iryo shirahamwe ry’abanyagihugu zarashikirijwe n’ibinyamakuru bikomeye, zituma abantu benshi bavyiyumvira. Ivyo bihangayikishije cane cane ibikorwa birenze urugero vy’igisirikare ca Amerika, nk’ugupfa kw’abasivile n’ibikorwa vy’ugucumukura vyakozwe, muri Afghanistan (Afghan War Diary) no muri Iraki (Iraq War Logs).
 
 
-![WikiLeaks logo in November 2010](assets/en/59.webp)
+![WikiLeaks logo in November 2010](assets/rn/059.webp)
 
 
-Infashanyo WikiLeaks itanga ishingiye ahanini ku ntererano za bose, ni co gituma ishirahamwe ryizigira abajejwe kwishura kugira ngo baronke amahera kuri interinete. Ariko rero, hakurikijwe ivyo bimenyetso, abo bahuza barashirwako umukazo batinya ingene umugenzuzi azovyifatamwo. Ni co gituma ishirahamwe ry'ugutanga amahera kuri internet ryitwa Moneybookers [rihagarika] konti y'iryo shirahamwe ry'abanyagihugu ku wa 14 Gitugutu.
+Umutungo wa WikiLeaks ushingiye ahanini ku materano atangwa n'abantu bose, ku buryo uwo muryango ushingira ku bacunguzi b'amahera kugira ngo uronke amatara. Ariko rero, inyuma y'izo nkuru zagiye ahabona, umukazo warashizwe kuri abo bantu b'agatatu batinya uko abacunguzi b'amategeko bokwitwara. Ni co gituma ishirahamwe ry'ugurisha Moneybookers [ryahagaritse](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked) konti y'uwo muryango ku wa 14 Gitugutu.
 
 
 Ivyo bica bifungura inzira y’ubwami yo gukoresha Bitcoin, idashingiye ku muntu wa gatatu yizigirwa kandi yoshobora kunanira neza cane ugucengera ivy’amahera. Mu kwezi kwa 11, Amir Taaki, umwongereza w’imyaka 22 w’umunyairani akoresha izina ry’uruyeri ryitwa genjix, ni we yatanguje iyo nkuru ku bijanye n’ihuriro.
 
 
-![Amir Taaki in December 2012 in Bratislava](assets/en/60.webp)
+![Amir Taaki in December 2012 in Bratislava](assets/rn/060.webp)
 
 Amir Taaki mu kwezi kwa kigarama 2012 i Bratislava (isoko: [Mitch Altman]))
 
@@ -1909,7 +1939,8 @@ Haciye indwi nkeyi, ku wa 3 Kigarama, PayPal yafashe ingingo yo guhagarika konti
 ### Ugusohoka bukwi na bukwi kw'indege Satoshi
 
 
-Satoshi ntiyabishigikiye nagato Robert Horning kandi arwanya guteza imbere Bitcoin ku rubuga rwa WikiLeaks. Nk’uko amajambo yiwe n’ibikorwa vyiwe bivyemeza, aragira ubwitonzi bwinshi ku bijanye n’ubutegetsi bwa Leta, rimwe na rimwe akagera ku [bunyabwoba] (https://mmalmi.github.io/Satoshi/#email-158). Ku bw’ivyo, ku wa 5 Kigarama, aca [yishura] atakurya umunwa uwo arongoye ivyo bikorwa (https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999):
+Satoshi ntaco asangiye na Robert Horning kandi arwanya guteza imbere Bitcoin ku rubuga rwa WikiLeaks. Nk’uko amajambo yiwe n’ibikorwa vyiwe bivyemeza, aragira ubwitonzi bwinshi ku bijanye n’ubutegetsi bwa Leta, rimwe na rimwe akagera ku [paranoia](https://mmalmi.github.io/Satoshi/#email-158). Ku bw’ivyo, ku wa 5 Kigarama, aca yishura kuri uwo mutima mu [kwishura](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999) bimwe bikomeye ku murongozi mukuru:
+
 
 > "Oya, ntubisotore".
 >
@@ -1922,7 +1953,7 @@ Satoshi ntiyabishigikiye nagato Robert Horning kandi arwanya guteza imbere Bitco
 Mu misi ikurikira, haratunganijwe guhagarika amafaranga ahabwa aba WikiLeaks, harimwo Mastercard na Visa, ariko kandi na Western Union, Bank of America, n’abandi bafatanyabikorwa, ivyo bikaba [bitera ingorane](https://wikileaks.org/Banking-Blockade.html) [Bishira mukanya] ukubaho kw'ama shirahamwe ategamiye leta. Ico gitero gituma kwemera Bitcoin biba vyiza cane, kandi ico ciyumviro kirakwiragira mu buryo busanzwe.
 
 
-Ku wa 11 Kigarama, ingingo yerekana ko Bitcoin ishobora gukoreshwa na WikiLeaks [yasohowe] kurubuga rwa PC World, Rumwe mu mbuga zikomeye cane muri amerika mu bijanye n'amakuru y'ivy'ubuhinga bwa none. Iyo nkuru yanditswe n'umumenyeshamakuru [Keir Thomas], (https://www.keirthomas.com/ingene-natumye-uwo-muhungu-wa-Bitcoin-aja-kwihisha/), gifise umutwe uvuga ngo "Mbega ukumenja kw Wikileaks kwoshobora gutuma haba amafaranga mashasha y'ubuhinga bwa none?". Isandugu ya Pandora irafungurwa: ingingo ya PC World yasomwe n’abantu benshi, harimwo bishoboka ko ari abayobozi ba WikiLeaks, bituma iyo NGO yihweza ubu buryo bwo kwishura. Iyo nkuru iravugwa ningoga ku rubuga, kandi ingene umuremyi wa Bitcoin yavyifashemwo nta gukeka. We [yanditse] (Ikiganiro=2216.ubutumwa29280#ubutumwa29280):
+Ku wa 11 Kigarama, ingingo yerekana ko Bitcoin ishobora gukoreshwa na WikiLeaks [yasohowe] guharura. Ico canditswe, canditswe n'umunyamakuru [Keir Thomas](https://www.keirthomas.com/ingene-natumye-uwo-muhungu-wa-Bitcoin-aja-kwihisha/), gifise umutwe uvuga ngo "Mbega ikibazo ca Wikileaks coshobora gutuma haba amafaranga mashasha y'ubuhinga bwa none?". Isanduku ya Pandora irafungurwa: ingingo ya PC World izosomwa n’abantu benshi, harimwo bishoboka ko ari abayobozi ba WikiLeaks, bituma iyo NGO yihweza ubu buryo bwo kwishura. Iyo nkuru iravugwa ningoga ku rubuga, kandi ingene umuremyi wa Bitcoin yavyifashemwo nta gukeka. We [yanditse](Ikiganiro=2216.ubutumwa29280#ubutumwa29280):
 
 
 > "Vyari vyiza ko ivyo bimenyekana mu bundi buryo bwose. WikiLeaks yarateye urusenga rw'inzoka, kandi iyo nkoko iriko itujana aho turi."
@@ -1958,7 +1989,7 @@ Ku wa 26 Ndamukiza 2011, Satoshi yararungikiye Gavin [ubutumwa bwa nyuma](http:/
 
 > "Nifuza ko utoguma uvuga kuri jewe nk'umuntu w'igitutu w'akabanga, itangazamakuru rihindura ivyo mu mfuruka y'amahera y'abasuma. Kumbure ahubwo ubigire ku mugambi w'inkomoko yuguruye maze ushire hejuru abagufasha; birafasha kubatera intege."
 
-Aha, Satoshi yariko yerekeza ku [ngingo] (http.forbes.com/forbes/2011/0509) yasohowe ku rubuga rwa Forbes mu kwezi kwa 2011. umuntu afise umutima w’ubuzima bwite" (*umwimerere: "umuntu w’akabanga, afise umutima w’ubuzima bwite"*) kandi aho Bitcoin yashizwe ahabona nk’uburyo bwo kuronka ibiyayuramutwe bitemewe n’amategeko (vy’ukuri, ico ni co gihe urubuga rwa Silk Road rwatanguye kuroranirwa). Mu rwandiko yandikiye Gavin, Satoshi na we nyene yarashizeko urufunguzo rwo kugabisha, rwoshobora gukoreshwa mu kugabisha urubuga ku bibazo vy’ubuhinga.
+Aha, Satoshi yariko yerekeza ku [ngingo](http.forbes.com/forbes/2011/0509) yasohowe ku rubuga rwa Forbes mu kwezi kwa 2011. umuntu afise umutima w’ubuzima bwite" (*umwimerere: "umuntu w’akabanga, afise umutima w’ubuzima bwite"*) kandi aho Bitcoin yashizwe ahabona nk’uburyo bwo kuronka ibiyayuramutwe bitemewe n’amategeko (vy’ukuri, ico ni co gihe urubuga rwa Silk Road rwatanguye kuroranirwa). Mu rwandiko yandikiye Gavin, Satoshi na we nyene yarashizeko urufunguzo rwo kugabisha, rwoshobora gukoreshwa mu kugabisha urubuga ku bibazo vy’ubuhinga.
 
 
 Ubwa nyuma, mu ntango za Rusama, na we nyene yarasezeye Martti. Amajambo ya nyuma yabwiye umuntu wiwe wa mbere w’iburyo ni aya:
@@ -1969,7 +2000,7 @@ Ubwa nyuma, mu ntango za Rusama, na we nyene yarasezeye Martti. Amajambo ya nyum
 
 ### CIA, WikiLeaks, na EFF
 
-Ku wa 26 Ndamukiza 2011, Gavin Andresen yararungikiye indege Satoshi Nakamoto [imeli ya nyuma], iyo ndege ntiyayishuye. Muri iyo email, [yerekanye] (http://gavinandresen.ninja/imyaka-cumi n’imwe-iheze-uyu musi) ko yatumiwe na In-Q-Tel, ikigega c’abanyamerika gicungera CIA, kugira ngo yerekane Bitcoin. Yari azi neza ingene uru rugendo rwovyifatamwo, ariko afata ingingo yo kugenda uko biri kwose. Yarashingira intahe ingingo yiwe mu kwandikira Satoshi ati:
+Ku wa 26 Ndamukiza 2011, Gavin Andresen yararungikiye indege Satoshi Nakamoto [imeli ya nyuma], iyo ndege ntiyayishuye. Muri iyo email, [yerekanye](http://gavinandresen.ninja/imyaka-cumi n’imwe-iheze-uyu musi) ko yatumiwe na In-Q-Tel, ikigega c’abanyamerika gicungera CIA, kugira ngo yerekane Bitcoin. Yari azi neza ingene uru rugendo rwovyifatamwo generate, ariko afata ingingo yo kugenda uko biri kwose. Yarashingira intahe ingingo yiwe mu kwandikira Satoshi ati:
 
 
 > "Nizigiye ko mu kuvugana na bo, kandi ikiruta vyose, kwumviriza ibibazo vyabo, bazokwiyumvira Bitcoin nk'uko nanje mbibona- nk'amahera meza, akora neza, adashingiye ku vyipfuzo vya politike. Si nk'igikoresho c'isoko ry'umwirabura gikomeye cane."
@@ -2010,6 +2041,8 @@ Ivyo bice vy'ibanga bikikuje umuremyi wa Bitcoin vyavuzwe neza mu ncamake na Hal
 
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
+:::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
+
 
 Satoshi Nakamoto amaze kugenda, vyaciye biba ngombwa ko bagenda ata we bari kumwe. Igishimishije ni uko Bitcoin yari umugambi wuguruye umuntu wese yoshobora guterera agacumu k'ubumwe, rero ukuzimangana kw’uwawushinze ntikwari gusiguye ugupfa kw'umugambi. Nk’uko umuhinguzi Jeff Garzik yavyanditse muri Mukakaro 2010 (ku bijanye n’uko uwushinze iyo nkuru yoba atahari):
 
@@ -2034,7 +2067,7 @@ Guhuza ibikorwa na vyo nyene biratera imbere. Uretse ihuriro n'umurongo wa IRC #
 Ku wa 19 Nzero 2011, Amir Taaki [yatanguje] uburyo bw’Ivyiyumviro vy’Iterambere vy’Igihugu ca Bitcoin (Ivyiyumviro vy’Iterambere ry’Igihugu ca Bitcoin), bishingiye ku citegererezo ca P ururimi rwo gukora porogarama. Izo BIPs ni inyandiko zidondora ivyoshobora guhindurwa mu masezerano canke zitanga amakuru rusangi ku kibano. Adondora ingene ivyo bigenda biciye ku BIP-1, iyo BIP-2 ya Luke-Jr izosubirira mu nyuma. Ivyo vyiyumviro bitangura kwakirwa kuri [wiki ya Bitcoin](wiki.
 
 
-Mu burongozi bwa Gavin Andresen, harasohotse amaverisiyo menshi y’iyo porogarama mu mezi: [v0.3.20] (https. [v0.3.21] (insanganyamatsiko=6642.msg97074#msg97074) ku wa 27 Ndamukiza, [v0.3.22](intangamarara 5, [v0.3.23](igenekerezo rya 13 Ruheshi, n’igenekerezo rya 13 Ruheshi, n’i [v0.3.24](v0.3.24](https://bitcointalk.org/index.php?topic=27187.msg342270#msg342270) ku wa 8 Nyakanga. Ku wa 23 Nzero 2011, verisiyo nshasha nini, verisiyo 0.4, yarasohotse ku mugaragaro . [yasohotse](yasohotse](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446), mu buryo bw’ikigereranyo vyerekana ko ugukurikirana kw’iterambere kwariko kuragenda neza.
+Mu burongozi bwa Gavin Andresen, harasohotse amaverisiyo menshi y’iyo porogarama mu mezi: [v0.3.20](https. [v0.3.21](insanganyamatsiko=6642.msg97074#msg97074) ku wa 27 Ndamukiza, [v0.3.22](intangamarara 5, [v0.3.23](igenekerezo rya 13 Ruheshi, n’igenekerezo rya 13 Ruheshi, n’i [v0.3.24](v0.3.24](https://bitcointalk.org/index.php?topic=27187.msg342270#msg342270) ku wa 8 Nyakanga. Ku wa 23 Nzero 2011, verisiyo nshasha nini, verisiyo 0.4, yarasohotse ku mugaragaro . [yasohotse](yasohotse](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446), mu buryo bw’ikigereranyo vyerekana ko ugukurikirana kw’iterambere kwariko kuragenda neza.
 
 
 ### Urubuga, Ihuriro, na Wiki
@@ -2049,40 +2082,40 @@ Nk’uko twabibonye, ​​amaze kugenda, Satoshi yarahaye ububasha bwo kugenzur
 Kubera ukubura umwanya, Martti yaciye ategekwa gufunga buhoro buhoro urubuga rwiwe rwa guhanahana, BitcoinExchange. Yari ivuye ku murongo mu gihe c’ihinduka ry’umurongo mu kwezi kwa kigarama 2010. Mu kwezi kwa mbere, [yafashe ingingo] yo kutayikoresha. Mu ntango z’ukwezi kwa Myandagaro, [yagurishije] izina ry’urubuga ku mahera 250 y’ama bitcoins, angana n’amadolari 2.365 ico gihe. Iryo huriro ryoca risubira kuri Mt Gox.
 
 
-Ariko mbere na mbere ni uburongozi bw’urubuga Martti akeneye guha abandi. Mu mpera z’umwaka w’2010 no mu ntango z’umwaka w’2011, Bitcoin.org yarahuye n’abantu bamwebamwe. [ibibazo] (ivy'ubuhinga bwa none). Ku wa 28 Ntwarante, Martti [yashizeho] itangazo ku rubuga asaba imfashanyo y’ubuhinga kandi aronka inyishu nyinshi. Ivyo bikaba vyatumye urubuga rudashobora gusohoka ku rubuga n’abashitsi benshi cane.
+Ariko mbere na mbere ni uburongozi bw’urubuga Martti akeneye guha abandi. Mu mpera z’umwaka w’2010 no mu ntango z’umwaka w’2011, Bitcoin.org yarahuye n’abantu bamwebamwe. [ibibazo](ivy'ubuhinga bwa none). Ku wa 28 Ntwarante, Martti [yashizeho] itangazo ku rubuga asaba imfashanyo y’ubuhinga kandi aronka inyishu nyinshi. Ivyo bikaba vyatumye urubuga rudashobora gusohoka ku rubuga n’abashitsi benshi cane.
 
 
-Ivyo vyasa na vyo nyene vyarahindutse. Mu kwezi kwa kigarama 2010, urubuga rwari rukiri nk’urwo mu gihe ca Satoshi. Aha niho hari [ifoto] (urubuga.ububiko.org/urubuga/20101110005546/www.Bitcoin.org/) kuva ku wa 5 Kigarama:
+Ivyo vyasa na vyo nyene vyarahindutse. Mu kwezi kwa kigarama 2010, urubuga rwari rukiri nk’urwo mu gihe ca Satoshi. Aha niho hari [ifoto](urubuga.ububiko.org/urubuga/20101110005546/www.Bitcoin.org/) kuva ku wa 5 Kigarama:
 
 
-![Snapshot of Bitcoin.org from December 5, 2010](assets/en/61.webp)
+![Snapshot of Bitcoin.org from December 5, 2010](assets/rn/061.webp)
 
 
 Gutyo, ibara ryongereweko mu ntango z’umwaka wa 2011:
 
 
-![Snapshot of Bitcoin.org from February 16, 2011](assets/en/62.webp)
+![Snapshot of Bitcoin.org from February 16, 2011](assets/rn/062.webp)
 
 
-Muri Ndamukiza, urubuga rwahindutse kubera ugusubira guhingura [kwatunganijwe](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) n’abanyagihugu. Ehe uko [vyasa] (urubuga.ububiko.org/urubuga/20110411071904/) hanyuma:
+Muri Ndamukiza, urubuga rwahindutse kubera ugusubira guhingura [kwatunganijwe](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581) n’abanyagihugu. Ehe uko [vyasa](urubuga.ububiko.org/urubuga/20110411071904/) hanyuma:
 
 
-![Snapshot of Bitcoin.org from April 11, 2011](assets/en/63.webp)
+![Snapshot of Bitcoin.org from April 11, 2011](assets/rn/063.webp)
 
 
 Ubwa nyuma, muri Nzero 2011, hariho ihinduka rishasha [rakozwe] na Nils Schneider. Ububiko bushasha bwa GitHub bwararemwe ku bw’ico kintu. Iyi nzira yomara igihe kirekire: ntiyohindurwa gushika mu 2013. Ng'iyi (menya ko Bitcoin-the-software rero idondorwa nk'"umugambi w'inkomoko yuguruye utwawe n'abanyagihugu"):
 
 
-![Snapshot of Bitcoin.org from September 23, 2011](assets/en/64.webp)
+![Snapshot of Bitcoin.org from September 23, 2011](assets/rn/064.webp)
 
 
 Ku bijanye na wiki, mu ntango yari ishingiye kuri DokuWiki, moteri y’ubuntu yinjijwe mu rubuga. Ariko rero, mu kwezi kwa kigarama 2010, Mark Karpelès, umuhinga mu vy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga bw’ivy’ubuhinga. Iyi wiki ishingiye kuri moteri ya MediaWiki, iyo abona ko ari nziza cane kandi yoroshe gukoresha. Iciyumviro ca mbere si ugusubirira inyandiko zisanzweho, ariko, nk'uko Mark abivuga, gutegura "wiki idasanzwe, ishingiye ku kibano."
 
 
-Iyi wiki nshasha irasaba [Martti Malmi] (Iciyumviro=2321.msg30873#msg30873) na [Gavin Andresen](Iciyumviro=2321.msg30873), quick351msg3 bikaba biyigira wiki nyamukuru. Aha niho [ifoto](ifoto] yafashwe ku wa 21 Rusama:
+Iyi wiki nshasha irasaba [Martti Malmi](Iciyumviro=2321.msg30873#msg30873) na [Gavin Andresen](Iciyumviro=2321.msg30873), quick351msg3 bikaba biyigira wiki nyamukuru. Aha niho [ifoto](ifoto] yafashwe ku wa 21 Rusama:
 
 
-![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/en/65.webp)
+![Snapshot of the Bitcoin.it wiki on May 21, 2011](assets/rn/065.webp)
 
 
 Haciye imisi mikeyi itangujwe, urubuga rwitwa "wiki" ruri kuri paji y'intango ya Bitcoin.org [ibiharuro]. Ibirimwo biragenda biva muri verisiyo ya DokuWiki. Ku wa 31 Mukakaro, Martti [yerekanye] ku rubuga rw’ihuriro ko iyi ari wiki nshasha.
@@ -2090,7 +2123,7 @@ Haciye imisi mikeyi itangujwe, urubuga rwitwa "wiki" ruri kuri paji y'intango ya
 
 Ica gatatu ni ihuriro rya Bitcoin. Martti ni we arayirongora, ariko aca yihuta gutora abayirongora. Umwe muri bo ni Theymos (izina ryiwe ry’ukuri Michael Marquardt), aronka amabanga y’inyongera, cane cane gufasha mu gucunga iyo nama. Iryo huriro rikorera kuri moteri y’ihuriro ry’amamashini yoroshe kandi ntiryahinduye uko rigaragara mu myaka iheze. Ariko rero, URL yayo yarahindutse incuro zibiri. Ubwa mbere, ku wa 17 Rusama, ihuriro [rimuriwe] ku ihuriro.Bitcoin.org. Hanyuma, ku wa 1 Myandagaro, [rijanwa] mu kibanza gishasha co ku rwego rwo hejuru: bitcointalk.org. Mu myaka izoza, izokwitwa BitcoinTalk.
 
-Kubera ko agaciro k’amahera kariyongereye mu ci c’umwaka w’2011, Martti Malmi [yagurishije] igice kinini c’amahera yiwe y’ubuhinga bwa none kugira ngo yigurire inzu nziza hafi y’igisagara ca Helsinki. Hanyuma, [arasiga] akazi kiwe kugira ngo amare amezi makeyi mu Buyapani. Yahevye urubuga n’ihuriro, [aragenda] [bo] (bo] mu minwe ya Theymos n’umuntu umwe yitwa Cøbra, [vyasobanuwe](https://forum.Bitcoin.com/ama-mbaze-ikintu cose/ndi-m-martti-malmi-mbere-ya-Bitcoin-kandi-uwashinze-w'intango-amahuriro-y'ama-bitcointalk-org-ama-t2770.h Satoshi." Abo bagabo babiri borongoye hamwe izo nzira zompi mu myaka yakurikiye.
+Kubera ko agaciro k’amahera kariyongereye mu ci c’umwaka w’2011, Martti Malmi [yagurishije] igice kinini c’amahera yiwe y’ubuhinga bwa none kugira ngo yigurire inzu nziza hafi y’igisagara ca Helsinki. Hanyuma, [arasiga] akazi kiwe kugira ngo amare amezi makeyi mu Buyapani. Yahevye urubuga n’ihuriro, [aragenda] [bo](bo] mu minwe ya Theymos n’umuntu umwe yitwa Cøbra, [vyasobanuwe](https://forum.Bitcoin.com/ama-mbaze-ikintu cose/ndi-m-martti-malmi-mbere-ya-Bitcoin-kandi-uwashinze-w'intango-amahuriro-y'ama-bitcointalk-org-ama-t2770.h Satoshi." Abo bagabo babiri borongoye hamwe izo nzira zompi mu myaka yakurikiye.
 
 
 ### Inama n'amakoraniro
@@ -2099,9 +2132,9 @@ Kubera ko agaciro k’amahera kariyongereye mu ci c’umwaka w’2011, Martti Ma
 Ugusohoka kw’uwashinze n’ugukenera gukorana ntibigira ico bikoze ku ruhande rw’ubuhinga gusa ariko kandi biragira ico bikoze ku ruhande rw’imibano, ivyo bikaba bifasha gukomeza umuryango mu gutuma habaho amasano hagati y’abanywanyi. Ni co gituma amateraniro n'inama bitegurwa "mu buzima nyakuri." Ivyo birori kandi birafise akamaro ko kumenyekanisha Bitcoin ku bantu bashobora guhangana n’ibintu biri kuri Internet.
 
 
-Amakoraniro ya mbere y’abakoresha Bitcoin yatangujwe na Bruce Wagner, umunyamakuru w’ikinyamakuru [YouTube](https://www.youtube.com/@vlogwrap) co muri New York kirimwo impaka za televiziyo ku bijanye n’ubuhinga, aho yashinze ikiganiro citwa *Bitcoin ca mbere mu kwezi kwa Ndamukiza cane. ) i New York kw’igenekerezo rya 11 Kigarama 2010 (UTC). Hanyuma, inama y’ubwo bwoko nyene [yabaye] i Washington D.C. [vyateguwe] ku wa 5 Ruhuhuma 2011, i Zurich mu Busuwisi na Mike Hearn, hamwe na Christian Decker na Stefan Thomas (justmoon) bari kumwe na bo.
+Amakoraniro ya mbere y'abakoresha Bitcoin yatangujwe na Bruce Wagner, umunyamakuru w'ikinyamakuru [YouTube](https://www.youtube.com/@vlogwrap) co muri New York kirimwo impaka za televiziyo ku bijanye n'ubuhinga, aho yashinze ikiganiro citwa **Bitcoin ca mbere mu kwezi kwa Ndamukiza cane.** i New York kw'igenekerezo rya 11 Kigarama 2010 (UTC). Hanyuma, inama y'ubwo bwoko nyene **yabaye** i Washington D.C. **vyateguwe** ku wa 5 Ruhuhuma 2011, i Zurich mu Busuwisi na Mike Hearn, hamwe na Christian Decker na Stefan Thomas (justmoon) bari kumwe na bo.
 
-Ukwezi kwa kabiri kandi ni kwo kwerekana [ikiganiro ca mbere cafashwe amasanamu] (Ikiganiro ca Bitcoin), carongowe na Gavin Andresen ku wa 8 mu gihe c’umusi mukuru wateguwe mu gisagara ciwe c’amavukiro ca Amherst, muri Massachusetts. Ivyo biganiro vyiswe n’umuyobozi mushasha w’uwo mugambi birimwo indimi nyinshi Elements zoshobora kugaragaza uburyo amafaranga y’amahera azoshikirizwa mu myaka ikurikira.
+Ukwezi kwa kabiri kandi ni kwo kwerekana [ikiganiro ca mbere cafashwe amasanamu](Ikiganiro ca Bitcoin), carongowe na Gavin Andresen ku wa 8 mu gihe c’umusi mukuru wateguwe mu gisagara ciwe c’amavukiro ca Amherst, muri Massachusetts. Ivyo biganiro vyiswe n’umuyobozi mushasha w’uwo mugambi birimwo indimi nyinshi Elements zoshobora kugaragaza uburyo amafaranga y’amahera azoshikirizwa mu myaka ikurikira.
 
 
 :::id ya videwo = 92b9aa30-1479-4d4f-b57f-f07b660145f2::
@@ -2110,7 +2143,7 @@ Ukwezi kwa kabiri kandi ni kwo kwerekana [ikiganiro ca mbere cafashwe amasanamu]
 Naho ibintu vya mbere vyabaye muri Leta Zunze Ubumwe za Amerika, umuryango w’Abafaransa ntiwasigaye inyuma. Ku wa 25 Rusama, kugira ngo Gavin Andresen agendere i Paris, mu karere ka La Défense harateguwe ifunguro ry’umutaga, ryitabiriwe n’abantu bazwi cane nka Lucien Grondin, David François na Jon Matonis (na we nyene yariko aragendera).
 
 
-![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/en/66.webp)
+![Meeting at La Défense in Paris with Gavin Andresen, in a pink shirt](assets/rn/066.webp)
 
 Inama ya La Défense i Paris na Gavin Andresen, yambaye ishati y’ibara ry’agahama (inkomoko: [ububiko bw’ihuriro]
 
@@ -2118,7 +2151,7 @@ Inama ya La Défense i Paris na Gavin Andresen, yambaye ishati y’ibara ry’ag
 Haciye ukwezi kumwe, ku wa 15 Ruheshi, igikorwa ca mbere co gushikiriza abantu bose igitabu Bitcoin mu gifaransa [carabaye], na co nyene i Paris. Yarongowe na Renaud Lifchitz (nono2357), umuhinga mu vy’umutekano wo kuri internet akiri muto yari yaravumbuye Bitcoin umwaka umwe imbere y’aho. Ivyo [vyashikirijwe] vyari vyiza cane, kandi abantu bari baje bari beza cane ku buryo icumba cari cuzuye.
 
 
-![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/en/67.webp)
+![Bitcoin presentation by Renaud Lifchitz on June 15, 2011](assets/rn/067.webp)
 
 Bitcoin yashikirijwe na Renaud Lifchitz ku wa 15 Ruheshi 2011 (isoko: [ububiko bw'ihuriro]
 
@@ -2140,18 +2173,18 @@ Mu mpera z’umwaka, mu kwezi kwa 11, inama y’i Buraya [izoba] i Prague. Abazo
 Umwaka w’2011 na wo nyene wari umwaka ibinyamakuru vyarateye imbere cane. Urubanza rwa WikiLeaks n’ingingo yasohotse mu kinyamakuru PC World mu kwezi kwa kigarama vyakwegereye cane Bitcoin, ku buryo ubwoko bwose bw’ibinyamakuru bwatoraguye iyo nkuru. Hariho "ugushira akanyota kw'abamenyeshamakuru ku \[B\]itcoin," nk'uko vyanditswe na Gavin Andresen ico gihe.
 
 
-Ica mbere, amavidewo yerekeye iyo nkuru yaratanguye kwiyongera kuri YouTube. Ku wa 22 Ntwarante, ni ho hasohotse videwo ya mbere y’agaciro kanini yerekeye Bitcoin. Iyi videwo, yitwa "Bitcoin ni iki?", yakozwe na Stefan Thomas (justmoon) ashimiwe n'abanyagihugu. Yasohowe ku rubuga rwa WeUseCoins rwerekeye inyigisho no gukwiragiza amafaranga y’ivy’ubuhinga bwa none. Ayandi mavidewo y’intango yakozwe n’abantu bigenga yarakurikiyeho, nk’aya [ayo howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) muri Ndamukiza, [ayo Reason](yYTqvYqXRbY), canke [ayo Rocketboom] (mu kwezi kwa Ruheshi).
+Ica mbere, amavidewo yerekeye iyo nkuru yaratanguye kwiyongera kuri YouTube. Ku wa 22 Ntwarante, ni ho hasohotse videwo ya mbere y’agaciro kanini yerekeye Bitcoin. Iyi videwo, yitwa "Bitcoin ni iki?", yakozwe na Stefan Thomas (justmoon) ashimiwe n'abanyagihugu. Yasohowe ku rubuga rwa WeUseCoins rwerekeye inyigisho no gukwiragiza amafaranga y’ivy’ubuhinga bwa none. Ayandi mavidewo y’intango yakozwe n’abantu bigenga yarakurikiyeho, nk’aya [ayo howtovanish](https://www.youtube.com/watch?v=LSLByqTusaQ) muri Ndamukiza, [ayo Reason](yYTqvYqXRbY), canke [ayo Rocketboom](mu kwezi kwa Ruheshi).
 
 
 :::id ya videwo=6147a351-da80-4331-9d79-d3156889ac62:::
 
 
-Muri Ndamukiza, ikiganiro c’amahera y’ubuhinga bwa none caravuzwe n’ibinyamakuru bikomeye nk’ikinyamakuru [The Atlantic] (ingene wotangura-amahera yawe bwite/73327/), [Igihe Ikinyamakuru](2011/04/16/amahera-yo-ku rubuga-Bitcoin-yoshobora-gutera intambwe-intwaro/), na [Forbes](Ikinyamakuru-kinyamakuru-2011/0509/ubuhinga-bu-psylocybin-bitcoins-butanga-amafaranga-y'ibanga.html). Muri Rusama, uwo muhari warateye imbere cane, kandi Bitcoin yaravuzwe hafi hose, canecane muri [Wired . Ubwongereza](ububiko bw'urubuga/ububiko bw'amakuru/ububiko/2011-05/16/Bitcoin-P2P-amahera), ku [Slate](https://slate.com/business/2011/05/Bitcoin-kubera-iki-amafaranga-mashasha-y’ubuhinga bwa none-ari-akundwa-n’abanyagihugu-bakunda-ukwidegemvya-n’abanyavyaha.html), ku [Gizmodo](Bitcoin-5803124-ni iki), na [Ikoranabuhanga](Ikoranabuhanga](2011/05/20/Bitcoin-ven-n’iherezo-ry’amafaranga/).
+Muri Ndamukiza, ikiganiro c’amahera y’ubuhinga bwa none caravuzwe n’ibinyamakuru bikomeye nk’ikinyamakuru [The Atlantic](ingene wotangura-amahera yawe bwite/73327/), [Igihe Ikinyamakuru](2011/04/16/amahera-yo-ku rubuga-Bitcoin-yoshobora-gutera intambwe-intwaro/), na [Forbes](Ikinyamakuru-kinyamakuru-2011/0509/ubuhinga-bu-psylocybin-bitcoins-butanga-amafaranga-y'ibanga.html). Muri Rusama, uwo muhari warateye imbere cane, kandi Bitcoin yaravuzwe hafi hose, canecane muri [Wired . Ubwongereza](ububiko bw'urubuga/ububiko bw'amakuru/ububiko/2011-05/16/Bitcoin-P2P-amahera), ku [Slate](https://slate.com/business/2011/05/Bitcoin-kubera-iki-amafaranga-mashasha-y’ubuhinga bwa none-ari-akundwa-n’abanyagihugu-bakunda-ukwidegemvya-n’abanyavyaha.html), ku [Gizmodo](Bitcoin-5803124-ni iki), na [Ikoranabuhanga](Ikoranabuhanga](2011/05/20/Bitcoin-ven-n’iherezo-ry’amafaranga/).
 
 
-![Gavin Andresen in Forbes in April 2011](assets/en/68.webp)
+![Gavin Andresen in Forbes in April 2011](assets/rn/068.webp)
 
-Gavin Andresen mu kinyamakuru Forbes muri Ndamukiza 2011 (isoko: [Ikinyamakuru ububiko] (urubuga.ububiko.org/urubuga/20110502052302/urubuga-2011/0509/ubuhinga-psylocybin-bitcoins-gavin-andresen-amafaranga-y'ibanga.html)
+Gavin Andresen mu kinyamakuru Forbes muri Ndamukiza 2011 (isoko: [Ikinyamakuru ububiko](urubuga.ububiko.org/urubuga/20110502052302/urubuga-2011/0509/ubuhinga-psylocybin-bitcoins-gavin-andresen-amafaranga-y'ibanga.html)
 
 
 Radio na yo nyene yarakoreshwa mu kuganira ku mafaranga y’ivy’ubuhinga bwa none. Igice kimwe c'ikiganiro co kuri radiyo ya CBC yo muri Canada cari [cashizweho] ku wa 27 Ntwarante ku wa 2020 ku wa 2020 ku wa 2020. Gashyantare 27. Bitcoin na yo nyene yaravuzwe mu bice vyinshi vy’ikiganiro FreeTalkLive, ikiganiro gishingiye ku kwidegemvya muri Leta Zunze Ubumwe za Amerika. Cane cane, iyo nsiguro [yaraganiriweko] cane ku wa 16 Ntwarante 2011, mu gihe c’igenekerezo rya Sik. Ubwa nyuma, ku wa 24 Rusama, Bitcoin yari ikiganiro [kiganiro kigufi](ivyo ari vyo) kuri Radiyo y’Igihugu ya Leta Zunze Ubumwe za Amerika.
@@ -2166,7 +2199,7 @@ Abanyablog ku giti cabo na bo nyene baravyipfuza. Ivyo ni ko biri kuri Rick Falk
 Ugumenyekana kwa Bitcoin bisigura ko igiciro cayo kiduga cane. Naho yari yagabanutse ishika ku masenti 20 mu kwezi kwa kigarama 2010, yashitse ku rugero rumwe n’idolari ku wa 9 Ruhuhuma 2011. Ico gihe, Hal Finney [yavuze] intango y'ikintu gishasha gishobora guturika." Yari afise kamere nziza, nk’uko ivyo bikurikira bigenda vyihuta nk’umuravyo.
 
 
-![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/en/69.webp)
+![Photograph posted by jimbobway on the forum the day of parity with the dollar](assets/rn/069.webp)
 
 Ifoto yasohowe na jimbobway ku rubuga rw’ihuriro umusi w’uburinganire n’idolari (inkomoko: [Bitcointalk]
 
@@ -2174,9 +2207,9 @@ Ifoto yasohowe na jimbobway ku rubuga rw’ihuriro umusi w’uburinganire n’id
 Nkako, ububabare bw’ibinyamakuru bwo mu mpera z’umwaka buhorobuhoro buratuma haba ikintu c’ugutekereza ku bintu kitari bwigere kibaho. Amaze amezi menshi ahagaze hafi y’idolari rimwe, igiciro caraduze kigera ku madolari atatu mu mpera z’ukwezi kwa Ndamukiza. Muri Rusama, ni amadolari 8. Amaherezo, ku wa 8 Ruheshi, igiciro ca Bitcoin carashitse ku rugero rwo hejuru cane rw’amadolari 32 ku musozi Gox! Ukwo kwiyongera guhuye n’ukwiyongera kw’incuro 160 mu mezi atandatu.
 
 
-![Average price of BTC between January 1 and June 30, 2011](assets/en/70.webp)
+![Average price of BTC between January 1 and June 30, 2011](assets/rn/070.webp)
 
-Igiciro ca BTC hagati y’igenekerezo rya 1 Mukakaro n’igenekerezo rya 30 Ruheshi 2011 (isoko: [Bitbo.io] (https://ikirangamisi.bitbo.io/igiciro/))
+Igiciro ca BTC hagati y’igenekerezo rya 1 Mukakaro n’igenekerezo rya 30 Ruheshi 2011 (isoko: [Bitbo.io](https://ikirangamisi.bitbo.io/igiciro/))
 
 
 Birumvikana ko iyo nzira y’ugutekereza ku bintu yibutsa igihu c’ivy’ubutunzi, ni ukuvuga uguha agaciro karenze urugero igicuruzwa c’ivy’ubutunzi ugereranije n’agaciro kaco k’ishimikiro. Ku bijanye n’amafaranga nka Bitcoin, ni ivy’umunezero w’igihe gito utuma igiciro kiduga biteye ubwoba, hanyuma kigakurikirwa n’ugugabanuka cane bitewe n’ukubura ukwemera kw’abashasha bari muri iyo nama. Uko ni ko igiciro gihinduka [kidondora] 27, muri imwe mu nkuru za mbere z'urupfu za Bitcoin.

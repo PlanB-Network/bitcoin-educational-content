@@ -1,0 +1,8 @@
+question: Quel est le trait le plus basique que toutes les fermetures implémentent dans la hiérarchie des traits de fermeture de Rust ?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Itérateur
+explanation: |
+  FnOnce est le trait le plus basique que toutes les fermetures implémentent dans Rust. Il représente les fermetures qui peuvent être appelées au moins une fois, ce qui en fait la base de la hiérarchie des traits de fermeture. FnMut et Fn sont des traits plus restrictifs qui s'appuient sur FnOnce - FnMut permet des appels multiples avec mutation, tandis que Fn permet des appels multiples sans mutation. Iterator n'est pas lié aux traits de fermeture et est utilisé pour traiter des séquences de données.

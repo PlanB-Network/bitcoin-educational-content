@@ -6,20 +6,22 @@ address_line_2:
 address_line_3:
 language:
   - en
+  - vi
 links:
   website: https://www.bitcoinsaigon.org/
 
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date: 2025-07-02
+    last_contribution_date: 2025-11-15
     urgency: 1
     contributor_names: 
       - Anh-La
     reward: 0
 tags:
-  - guides
   - adoption
   - good-practice
+  - business
+  - meetup
 contributor_names:
   - Anh-La

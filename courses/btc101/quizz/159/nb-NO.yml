@@ -1,12 +1,10 @@
-question: Hva er betydningen av energikostnaden i Bitcoin-mining?
-answer: Energiforbruket er nødvendig for å produsere informasjonen, men verifisering av informasjon har en ubetydelig kostnad. Denne asymmetrien garanterer nettverkets sikkerhet.
+question: Hva er rollen til gruvearbeidere i forhold til kraftverk som ennå ikke er koblet til nettet?
+answer: De fungerer som en siste instans kjøper
 wrong_answers:
-  - Energikostnaden er nødvendig for å drive ASIC-maskinene som brukes i mining.
-  - Energikostnaden er nødvendig for å opprettholde Bitcoin-nettverket.
-  - Energikostnaden er nødvendig for å skape nye bitcoins.
+  - De forsyner kraftverkene med elektrisitet
+  - De kobler kraftverkene til nettet
+  - De regulerer prisen på elektrisitet
 explanation: >-
-  Energikostnaden i Bitcoin-mining er et avgjørende aspekt ved nettverkets
-  sikkerhet. Den høye energikostnaden ved mining gjør det ekstremt kostbart for en ondsinnet
-  aktør å manipulere blokkjeden, mens den lave kostnaden ved å verifisere transaksjoner
-  sikrer at hvem som helst kan delta i nettverket.
-reviewed: false
+  Gruvearbeidere fungerer som en siste instans kjøper for kraftverk som ennå ikke er koblet
+  til nettet. Dette lar kraftverkene sikre finansiering selv før de blir
+  koblet til det elektriske nettverket.

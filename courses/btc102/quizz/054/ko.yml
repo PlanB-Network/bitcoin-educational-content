@@ -1,0 +1,9 @@
+question: 활성 사용자의 주요 목표는 무엇인가요?
+answer: Bitcoin을 일일 결제 수단으로 사용하려면 다음과 같이 하세요
+wrong_answers:
+  - Bitcoin에 장기적으로 투자하려면 다음과 같이 하세요
+  - 점차적으로 사토시를 축적하려면
+  - 시장에 투기하려면
+explanation: |
+  활성 사용자는 Bitcoin를 일상 생활에 통합하여 거래를 하고 채택을 지원합니다.
+reviewed: false

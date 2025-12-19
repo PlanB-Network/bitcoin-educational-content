@@ -1,0 +1,9 @@
+question: Kdo je Gilles Deleuze?
+answer: Učitel filozofie z 80. let, specializující se na Spinozu.
+wrong_answers:
+  - Politik.
+  - Liberální ekonom.
+  - Vynálezce.
+explanation: |
+  Gilles Deleuze (1925-1995) byl v 80. letech 20. století francouzským profesorem filozofie a uznávaným odborníkem na Spinozu. Jeho kniha Spinoza et le problème de l'expression (Spinoza a problém výrazu) obnovila naše čtení Etiky.
+reviewed: false

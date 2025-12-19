@@ -1,9 +1,10 @@
-question: Apa keuntungan utama emas sebagai mata uang?
-answer: Sangat tahan lama
+question: Apa konsekuensi dari pencetakan uang?
+answer: Ini menyebabkan inflasi, yang secara bertahap membuat populasi miskin.
 wrong_answers:
-  - Mudah dibagi atau diangkut jarak jauh
-  - Mudah diverifikasi
-  - Tidak diatur oleh pemerintah
+  - Ini menyebabkan deflasi, yang secara bertahap membuat populasi kaya.
+  - Ini menyebabkan ekonomi stabil tanpa inflasi atau deflasi.
+  - Ini menyebabkan penurunan dalam pasokan uang.
 explanation: |
-  Meskipun emas tidak mudah dibagi atau diangkut jarak jauh, hal ini membuatnya menjadi penyimpan nilai yang baik, tetapi bukan mata uang umum saat ini.
+  Pencetakan uang, atau penciptaan uang baru oleh bank sentral, menyebabkan
+  inflasi. Ini karena peningkatan dalam pasokan uang mengurangi daya beli uang, menyebabkan harga-harga menjadi lebih tinggi dan penurunan dalam nilai tabungan.
 reviewed: true

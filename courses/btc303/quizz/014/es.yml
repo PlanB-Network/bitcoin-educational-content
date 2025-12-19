@@ -1,0 +1,9 @@
+question: ¿Qué problema con los sistemas financieros tradicionales identifica Satoshi Nakamoto en la introducción del libro blanco de Bitcoin?
+answer: Las entidades financieras no pueden evitar mediar en los litigios, lo que imposibilita por completo las transacciones no reversibles
+wrong_answers:
+  - Los bancos cobran comisiones excesivas que hacen que todas las transacciones electrónicas no sean rentables para los consumidores
+  - Las empresas de tarjetas de crédito se niegan a procesar pagos de bienes digitales y servicios en línea
+  - Las normativas gubernamentales impiden a las instituciones financieras operar a través de las fronteras internacionales
+explanation: |
+  Satoshi identifica específicamente que las instituciones financieras que actúan como terceros de confianza no pueden evitar mediar en las disputas, lo que impide completamente las transacciones no reversibles. Esto crea debilidades inherentes al modelo basado en la confianza, aumenta los costes por la mediación y obliga a los comerciantes a desconfiar de los clientes. Las demás opciones describen problemas diferentes que no se mencionan en el análisis de Satoshi sobre los sistemas de pago tradicionales.
+reviewed: false

@@ -1,11 +1,10 @@
-question: O que a ausência de uma frase mnemônica em uma carteira indica?
-answer: Indica que a carteira não é segura para armazenamento de longo prazo de Bitcoin.
+question: Qual é o papel de um notário no contexto da herança de Bitcoin?
+answer: Eles garantem a conformidade fiscal.
 wrong_answers:
-  - Indica que a carteira é totalmente segura e não requer nenhum backup.
-  - Significa que a carteira pode conter muitos tipos diferentes de títulos.
-  - Sugere que a carteira é automaticamente respaldada pelo seu dispositivo.
+  - Eles gerenciam seus bitcoins após sua morte.
+  - Eles modificam seu plano de herança.
+  - Eles seguram seus bitcoins em um cofre.
 explanation: |
-  A ausência de uma lista de 12 ou 24 palavras, que é a
-  frase mnemônica, em uma carteira deve alertá-lo de que a
-  carteira não é segura, pois não segue os procedimentos padrão de backup.
-reviewed: true
+  No contexto da herança de Bitcoin, é importante
+  discutir a herança de bitcoins com um notário para garantir
+  a conformidade fiscal.

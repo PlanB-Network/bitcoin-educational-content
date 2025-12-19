@@ -1,9 +1,12 @@
-question: Jaká je hlavní výhoda Bitcoinu pro jednotlivce žijící pod finančním útlakem nebo v diktátorských režimech?
-answer: Možnost uniknout cenzuře a bankovním omezením.
+question: Jak Bitcoinový protokol zajišťuje svou odolnost vůči cenzuře a odolnost?
+answer: Každá složka protokolu je geograficky distribuována po celém světě.
 wrong_answers:
-  - Používání stabilní měny, která má pevnou hodnotu.
-  - Umožnění anonymních transakcí.
-  - Získávání vysokých výnosů z investic.
-explanation: >-
-  Bitcoin nabízí formu finanční svobody únikem před cenzurou a bankovními omezeními. To je zvláště prospěšné pro jednotlivce žijící pod finančním útlakem nebo v diktátorském režimu.
+  - Využívá lokální síť uzlů distribuovaných v Evropě.
+  - Používá složitý algoritmus pro validaci transakcí.
+  - Používá vysokou úroveň šifrování.
+explanation: |
+  Bitcoinový protokol zajišťuje svou odolnost vůči cenzuře a
+  odolnost, protože každá jeho složka je geograficky distribuována
+  po celém světě. Například existuje přibližně 40 000 Bitcoinových
+  uzlů na všech kontinentech.
 reviewed: true

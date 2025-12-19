@@ -1,9 +1,11 @@
-question: Kakav je uticaj inflacije od 2% na kupovnu moć tokom 5 godina?
-answer: Gubite 10% svoje kupovne moći.
+question: Šta se dogodilo sa zimbabveanskim dolarom u aprilu 2009.?
+answer: Ministar finansija je najavio suspenziju zimbabveanskog dolara i odobrio upotrebu različitih stranih valuta za trgovinu.
 wrong_answers:
-  - Gubite 2% svoje kupovne moći.
-  - Gubite 5% svoje kupovne moći.
-  - Izgubiš 20% svoje kupovne moći.
+  - Zimbabveanski dolar je pao za preko 72%.
+  - Vlada je pristala da obešteti ratne veterane za iznos ekvivalentan 450 miliona američkih dolara.
+  - Vlada je morala pribegavati pokretanju štamparske prese.
 explanation: |
-  Sa inflacijom od 2%, godišnje gubite 2% svoje kupovne moći, što iznosi 10% tokom 5 godina.
+  U aprilu 2009. godine, ministar finansija je najavio
+  suspendovanje zimbabveanskog dolara i odobrio upotrebu
+  različitih stranih valuta za trgovinu.
 reviewed: true

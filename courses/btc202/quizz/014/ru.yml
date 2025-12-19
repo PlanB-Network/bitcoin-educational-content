@@ -1,0 +1,9 @@
+question: Что объединяло оригинальную программу Bitcoin в 2009 году?
+answer: Wallet, смычок и минор
+wrong_answers:
+  - Узел, Miner и Block explorer
+  - Wallet, вертолет и Miner
+  - Miner и Mining pool
+explanation: |
+  Оригинальное программное обеспечение Bitcoin объединило функции Wallet, узла и Miner в одну программу.
+reviewed: true

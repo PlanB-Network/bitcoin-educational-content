@@ -1,0 +1,9 @@
+question: 강좌를 제작해 주셔서 감사한 사람은 누구인가요?
+answer: 테오 모게네
+wrong_answers:
+  - 데스쿠프 Bitcoin
+  - 테오 볼로레
+  - 위의 항목에 해당하지 않음
+explanation: |
+  이 장에서는 이 강좌를 제작해 준 테오에게 감사를 표한다고 언급하고 있습니다.
+reviewed: true

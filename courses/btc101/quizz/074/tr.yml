@@ -1,12 +1,12 @@
-question: Bitcoinler nerede saklanıyor?
-answer: Bitcoin Blockchain'da.
+question: Bir Bitcoin Wallet seçerken, kişisel gözetim açısından kendinize sormanız gereken temel soru nedir?
+answer: Fonların sahibi siz misiniz yoksa paranızın kontrolünü üçüncü bir tarafa mı bırakıyorsunuz?
 wrong_answers:
-  - Bitcoin Wallet'te.
-  - Wallet'ün kurulu olduğu cihazda.
-  - Federal Rezerv kasasında.
+  - Wallet bir passphrase ile emniyete alındı mı?
+  - Wallet bitcoin almaya ve göndermeye izin veriyor mu?
+  - Wallet'imi başka bir kişiyle paylaşabilir miyim?
 explanation: |
-  Özel anahtarlarınız Wallet'inizde saklanıyor olsa da
-  bitcoinlerin kendileri aslında Bitcoin'da saklanır
-  Blockchain, halka açık dağıtılmış Ledger içinde
-  gW-6 eşler arası ağ.
+  Bir Bitcoin Wallet seçerken, temel soru şudur:
+  fonların sahibi siz misiniz yoksa fonların kontrolünü
+  paranızı üçüncü bir tarafa mı veriyorsunuz? Bunun nedeni paranın sahibinin
+  özel anahtar Bitcoin'lerin sahibidir.
 reviewed: true

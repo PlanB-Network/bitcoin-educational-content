@@ -1,5 +1,5 @@
 ---
-name: लिनक्स मिंट
+name: Linux Mint
 description: Bitcoin लेनदेन के लिए कंप्यूटर सेट अप करें।
 ---
 ![image](assets/cover.webp)

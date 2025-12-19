@@ -11,7 +11,7 @@ Zaštita ličnih podataka u digitalnom dobu je glavni prioritet za svakog korisn
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Početak sa PureOS-om
 
@@ -27,25 +27,25 @@ PureOS je operativni sistem zasnovan na Debianu koji je razvio Purism. PureOS je
 
 
 
-- Jednostavan, intuitivan Interface**: GNOME nudi jasan Interface desktop, dizajniran da bude jednostavan za korišćenje, čak i za ljude koji nisu sigurni u radu sa komandnom linijom.
+- **Jednostavan, intuitivan Interface**: GNOME nudi jasan Interface desktop, dizajniran da bude jednostavan za korišćenje, čak i za ljude koji nisu sigurni u radu sa komandnom linijom.
 
 
 
 
 
-- Besplatno**: kao većina Linux distribucija, PureOS je potpuno besplatan za korišćenje. Međutim, dostupna je mesečna pretplata za podršku programerima.
+- **Besplatno**: kao većina Linux distribucija, PureOS je potpuno besplatan za korišćenje. Međutim, dostupna je mesečna pretplata za podršku programerima.
 
 
 
 
 
-- Sigurnost i stabilnost**: Arhitektura i način rada PureOS-a čine ga veoma sigurnom distribucijom, garantujući zaštitu podataka i stabilnost sistema.
+- **Sigurnost i stabilnost**: Arhitektura i način rada PureOS-a čine ga veoma sigurnom distribucijom, garantujući zaštitu podataka i stabilnost sistema.
 
 
 
 
 
-- Dokumentacija i aktivna zajednica**: PureOS ima jasnu, pristupačnu dokumentaciju i posvećenu, odgovarajuću zajednicu, što olakšava rešavanje problema i učenje sistema korak po korak.
+- **Dokumentacija i aktivna zajednica**: PureOS ima jasnu, pristupačnu dokumentaciju i posvećenu, odgovarajuću zajednicu, što olakšava rešavanje problema i učenje sistema korak po korak.
 
 
 
@@ -181,7 +181,7 @@ Imate dve opcije za particionisanje vašeg Hard diska:
 
 
 
-- Obriši disk**: Za potpunu instalaciju PureOS-a, brišući sve prethodno postojeće podatke na vašem Hard disku.
+- **Obriši disk**: Za potpunu instalaciju PureOS-a, brišući sve prethodno postojeće podatke na vašem Hard disku.
 
 
 
@@ -191,7 +191,7 @@ Imate dve opcije za particionisanje vašeg Hard diska:
 
 
 
-- Ručna particija** za kreiranje sopstvenih rezultata
+- **Ručna particija** za kreiranje sopstvenih rezultata
 
 
 
@@ -260,7 +260,7 @@ Pre nego što počnete koristiti PureOS, važno je ažurirati vaš sistem. Ovo �
 
 
 
-- Ažuriranje putem Interface grafike**:
+- **Ažuriranje putem Interface grafike**:
 
 
 Otvorite aplikaciju **Software**, zatim idite na karticu **Updates**. Dostupna ažuriranja se automatski prikazuju. Kliknite na **Download**, zatim na **Install** kada se preuzimanje završi.
@@ -269,7 +269,7 @@ Otvorite aplikaciju **Software**, zatim idite na karticu **Updates**. Dostupna a
 
 
 
-- Ažuriranje putem terminala**:
+- **Ažuriranje putem terminala**:
 
 
 Otvorite terminal, zatim unesite sledeću komandu da ažurirate listu dostupnih paketa:
@@ -331,9 +331,9 @@ PureOS takođe uključuje kancelarijski paket **LibreOffice**, koji obuhvata:
 
 
 
-- Writer**: kompletan program za obradu teksta za kreiranje i uređivanje dokumenata.
-- Calc**: moćan program za proračunske tabele za upravljanje vašim podacima i proračunima.
-- Impress**: alat za kreiranje profesionalnih prezentacija.
+- **Writer**: kompletan program za obradu teksta za kreiranje i uređivanje dokumenata.
+- **Calc**: moćan program za proračunske tabele za upravljanje vašim podacima i proračunima.
+- **Impress**: alat za kreiranje profesionalnih prezentacija.
 
 
 
@@ -353,4 +353,4 @@ Otkrijte naš kurs o jačanju vaše sigurnosti i zaštiti vaše digitalne privat
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

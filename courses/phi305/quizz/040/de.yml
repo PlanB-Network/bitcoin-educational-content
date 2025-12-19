@@ -1,0 +1,9 @@
+question: Was ist scholastische Philosophie?
+answer: Eine christliche Philosophie des Mittelalters.
+wrong_answers:
+  - Eine politische Bewegung.
+  - Eine anarchistische Philosophie.
+  - Eine rationale Philosophie.
+explanation: |
+  Die scholastische Philosophie war eine christliche Philosophie des Mittelalters, die an den europäischen Universitäten dominierte. Sie versuchte, den christlichen Glauben mit der aristotelischen Philosophie in Einklang zu bringen.
+reviewed: false

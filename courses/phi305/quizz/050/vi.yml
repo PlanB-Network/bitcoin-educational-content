@@ -1,0 +1,9 @@
+question: Immanuel có phải là Kant không?
+answer: Một triết gia người Đức thời kỳ Khai sáng.
+wrong_answers:
+  - Một triết gia người Anh và là học trò của Newton
+  - Một triết gia thế kỷ 17.
+  - Một triết gia Cơ đốc giáo.
+explanation: |
+  Immanuel Kant (1724-1804) là một triết gia người Đức thuộc thời kỳ Khai sáng. Ông đã phát triển một triết lý phê phán có ảnh hưởng sâu sắc đến tư tưởng hiện đại, đặc biệt là với tác phẩm "Phê phán Lý tính Thuần túy".
+reviewed: false

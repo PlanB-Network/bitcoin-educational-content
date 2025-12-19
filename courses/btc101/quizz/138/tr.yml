@@ -1,8 +1,11 @@
-question: Bitcoin ağındaki düğümlerin birincil işlevi nedir?
-answer: Bitcoin Blockchain'in bir kopyasını muhafaza etmek, işlemleri doğrulamak, diğer düğümlere bilgi iletmek ve Bitcoin protokolünün kurallarını uygulamak.
+question: 2017'deki blok savaşı ne hakkındaydı?
+answer: İşlem kapasitesini artırmak için blok boyutunun artırılıp artırılmayacağı konusunda bir anlaşmazlık.
 wrong_answers:
-  - Bitcoin Blockchain'ün bir kopyasını muhafaza etmek, işlemleri doğrulamak, bilgileri devlete iletmek ve Bitcoin protokolünün kurallarını değiştirmek.
-  - Sadece Bitcoin Blockchain'in bir kopyasını muhafaza edin.
-  - Sadece diğer düğümlere bilgi iletir.
-explanation: >-
+  - İşlem kapasitesini azaltmak için blok boyutunun düşürülüp düşürülmeyeceği konusunda bir anlaşmazlık.
+  - Madencileri teşvik etmek için Block reward'ın artırılıp artırılmayacağı konusunda bir anlaşmazlık.
+  - Madencileri caydırmak için Block reward'in düşürülüp düşürülmeyeceği konusunda bir anlaşmazlık.
+explanation: |
+  2017'de yaşanan blok savaşı, bir blokun kurulup kurulmayacağına ilişkin bir çatışmaydı
+  genişletmek için blok boyutunu artırarak Bitcoin'yi değiştirin
+  işlem kapasitesi.
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Knuter
+name: Bitcoin Knots
 description: Hvordan starter jeg en node med den alternative Bitcoin Knots-klienten?
 ---
 ![cover](assets/cover.webp)
@@ -19,18 +19,18 @@ Alternativ programvare er imidlertid også tilgjengelig. Dette er ikke Altcoin-k
 Det er to hovedgrunner til å bruke en alternativ klient som Knots i stedet for Core:
 
 
-- Teknisk**: Disse klientene tilbyr ofte ulike alternativer til Core, særlig når det gjelder Mempool-administrasjon, ved å bestemme hvilke transaksjoner som skal aksepteres og kringkastes av noden din.
-- Policy**: Noen foretrekker å bruke alternative klienter som Knots av ikke-tekniske grunner, særlig for å støtte et alternativ til Core og dermed redusere Core-monopolet. Hvis Core noen gang skulle bli kompromittert, ville det være nyttig ikke bare å ha solide, godt vedlikeholdte alternative klienter, men også å vite hvordan man bruker dem. Andre bruker Knots i protestøyemed, fordi de har mistet tilliten til Core-utviklerne eller misliker hvordan majoritetsklienten administreres.
+- **Teknisk**: Disse klientene tilbyr ofte ulike alternativer til Core, særlig når det gjelder Mempool-administrasjon, ved å bestemme hvilke transaksjoner som skal aksepteres og kringkastes av noden din.
+- **Policy**: Noen foretrekker å bruke alternative klienter som Knots av ikke-tekniske grunner, særlig for å støtte et alternativ til Core og dermed redusere Core-monopolet. Hvis Core noen gang skulle bli kompromittert, ville det være nyttig ikke bare å ha solide, godt vedlikeholdte alternative klienter, men også å vite hvordan man bruker dem. Andre bruker Knots i protestøyemed, fordi de har mistet tilliten til Core-utviklerne eller misliker hvordan majoritetsklienten administreres.
 
 ## Hvordan installerer jeg Bitcoin-knuter?
 
-Gå til [det offisielle nettstedet til Bitcoin Knots] (https://bitcoinknots.org/#download) for å laste ned versjonen for operativsystemet ditt. Ikke glem å laste ned fingeravtrykk og signaturer for å verifisere programvaren. Disse filene er også tilgjengelige [på Bitcoin Knots GitHub-repository](https://github.com/bitcoinknots/Bitcoin).
+Gå til [det offisielle nettstedet til Bitcoin Knots](https://bitcoinknots.org/#download) for å laste ned versjonen for operativsystemet ditt. Ikke glem å laste ned fingeravtrykk og signaturer for å verifisere programvaren. Disse filene er også tilgjengelige [på Bitcoin Knots GitHub-repository](https://github.com/bitcoinknots/Bitcoin).
 
 ![Image](assets/fr/02.webp)
 
 Før du installerer programvaren på maskinen din, anbefaler vi på det sterkeste at du sjekker ektheten og integriteten. Hvis du ikke vet hvordan, kan du ta en titt på denne andre veiledningen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Når programvaren er bekreftet, installerer du den ved å følge trinnene som er angitt i installasjonspanelet.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Gi din Wallet et navn. Du kan også beskytte den med en passphrase BIP39 ved å 
 
 passphrase BIP39 er et valgfritt passord som du kan velge fritt, i tillegg til Mnemonic frasen din, for å øke sikkerheten til din Wallet. Før du konfigurerer denne funksjonen, anbefaler vi deg på det sterkeste å lese følgende artikkel, som forklarer i detalj hvordan passphrase fungerer i teorien, og hvordan du kan unngå feil som kan føre til permanent tap av dine bitcoins:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Hvis du har aktivert passphrase-alternativet, bør du velge et robust alternativ og lagre det nøye på ett eller flere sikre fysiske medier.
 
 ![Image](assets/fr/18.webp)
@@ -248,7 +248,7 @@ Denne operasjonen kan også utføres via Bitcoin-QTs Interface-grafikk. Gå til 
 
 ![Image](assets/fr/37.webp)
 
-Finn IP Address til maskinen som er vert for Bitcoin Knots i ditt lokale nettverk. For å gjøre dette kan du bruke et verktøy som [Angry IP Scanner] (https://angryip.org/). La oss for eksempel anta at IP Address til noden din er `192.168.1.18`.
+Finn IP Address til maskinen som er vert for Bitcoin Knots i ditt lokale nettverk. For å gjøre dette kan du bruke et verktøy som [Angry IP Scanner](https://angryip.org/). La oss for eksempel anta at IP Address til noden din er `192.168.1.18`.
 
 I filen `Bitcoin.conf` legger du til følgende linjer, og setter `rpcbind=192.168.1.18` til å samsvare med IP Address for noden din.
 
@@ -285,4 +285,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis d
 
 Jeg anbefaler også denne andre veiledningen, der jeg forklarer hvordan du setter opp din egen Lightning-node:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

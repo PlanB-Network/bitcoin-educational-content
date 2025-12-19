@@ -1,0 +1,9 @@
+question: Quando é que um nó pruned é um problema para um Wallet?
+answer: Ao restaurar um Wallet antigo
+wrong_answers:
+  - Ao criar uma nova receção Address
+  - Ao enviar uma transação recente
+  - Ao selecionar o montante da taxa
+explanation: |
+  Um nó pruned não retém blocos antigos, o que pode impedir que as transacções passadas sejam verificadas durante o restauro.
+reviewed: true

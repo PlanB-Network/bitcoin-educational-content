@@ -1,5 +1,5 @@
 ---
-name: बीटीसी मानचित्र
+name: BTC Map
 description: अपना Sats खर्च करने के लिए स्थान खोजें
 ---
 ![cover](assets/cover.webp)

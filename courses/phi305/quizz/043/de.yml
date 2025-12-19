@@ -1,0 +1,9 @@
+question: Wer hat gesagt "Das Böse ist nichts"?
+answer: Sokrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Descartes.
+explanation: |
+  das Böse ist nichts" ist ein Gedanke, der Sokrates zugeschrieben wird und in die philosophische Tradition eingegangen ist. Für Sokrates kommt das Böse aus der Unwissenheit; niemand tut freiwillig Böses, wenn er wirklich weiß, was gut ist.
+reviewed: false

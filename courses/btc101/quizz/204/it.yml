@@ -1,11 +1,9 @@
-question: Qual è uno degli aspetti da considerare nella scelta di Piano di Accumulo Costante?
-answer: La disponibilità nel proprio paese.
+question: Bitcoin costringe aziende, università, regolatori e individui a compiere una determinata azione. Quale?
+answer: A prenderlo in considerazione.
 wrong_answers:
-  - Il colore del logo della piattaforma.
-  - Il numero di utenti sulla piattaforma.
-  - L'età della piattaforma.
-explanation: |
-  Questo testo del corso menziona che, nella scelta di una
-  piattaforma PAC, la decisione giusta dipenderà maggiormente
-  dalla sua disponibilità nel proprio paese.
+  - Ignorarlo.
+  - Vietarlo.
+  - Criminalizzarlo.
+explanation: >-
+  L'ascesa di Bitcoin costringe aziende, università, regolatori e individui a prendere in considerazione questa nuova tecnologia. È necessario creare nuovi strumenti, adattare i servizi e continuare a innovare per garantire la loro sopravvivenza.
 reviewed: true

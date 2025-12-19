@@ -1,0 +1,8 @@
+question: Ni sababu gani kuu ya miamala ya SegWit iliyofungwa na P2SH hutumia tabaka tatu za sheria za uthibitishaji wakati wa uthibitishaji?
+answer: Ili kuhakikisha utangamano wa nyuma katika nodi za kabla ya BIP16, baada ya BIP16, na SegWit huku ikidumisha makubaliano
+wrong_answers:
+  - Kuongeza mara tatu usalama kwa kuhitaji uthibitisho tatu tofauti wa kriptografia kabla ya kukubali muamala
+  - Kusambaza mzigo wa kazi wa uthibitishaji katika aina tofauti za nodi ili kuboresha utendaji wa mtandao na uwezo wa kupanuka
+  - Ili kuzuia mashambulizi ya double-spending kwa kuthibitisha data sawa ya muamala kupitia njia tatu huru
+explanation: |
+  SegWit iliyofungwa na P2SH hutumia tabaka tatu za uthibitishaji mahsusi kwa utangamano wa nyuma: nodi za kabla ya BIP16 hukubali redemptionScript kama halali, nodi za baada ya BIP16 huitathmini na kuacha OP_0 + hash kwenye stack, na nodi za SegWit hufanya uthibitishaji kamili wa shahidi. Mbinu hii yenye tabaka inahakikisha aina zote za nodi zinaweza kushiriki katika makubaliano bila kuvunja, tofauti na majibu yasiyo sahihi ambayo yanaonyesha kuzidisha kwa usalama, usambazaji wa utendaji, au kuzuia matumizi mara mbili kama motisha kuu.

@@ -1,12 +1,11 @@
-question: Vad är risken med att dela den publika nyckeln för en Bitcoin Wallet?
-answer: Förlorad integritet.
+question: Vad bör vara den största oron när du äger Bitcoin?
+answer: Säkerheten för dina medel.
 wrong_answers:
-  - Förstör Bitcoin Wallet.
-  - Förlorar Bitcoins.
-  - Hackning av Bitcoin Wallet.
+  - Värdet av Bitcoin i dollar.
+  - Lagligheten i att äga bitcoins.
+  - Tillstånd att använda dina medel.
 explanation: |
-  Att dela med sig av den publika nyckeln innebär risker för integriteten, men inte
-  för säkerheten. Detta beror på att den publika nyckeln används för att
-  generate Bitcoin adresser och därmed ta emot pengar, men den
-  representerar inte Ownership av bitcoins.
+  När du äger bitcoins är det främsta problemet säkerheten
+  av dina medel. Detta beror på att Bitcoin, som alla andra former
+  valuta, kan stjälas eller förloras om den inte är ordentligt säkrad.
 reviewed: true

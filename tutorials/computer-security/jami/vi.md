@@ -50,11 +50,11 @@ Ngày nay, Jami có mặt trên nhiều hệ thống. Nó nổi tiếng với hi
 
 
 
-- Đây là phần mềm mã nguồn mở và hoàn toàn miễn phí**, vì vậy bạn có thể sử dụng mà không mất phí.
-- Đầy đủ các tính năng hữu ích**: phần mềm này cho phép bạn tận dụng nhiều tùy chọn, nhờ khả năng dễ dàng thêm plugin từ cửa hàng. Thậm chí bạn có thể tự tạo tiện ích mở rộng cho các tính năng phù hợp hơn với nhu cầu của mình.
-- Dễ sử dụng và Interface trực quan**: mặc dù Jami cung cấp nhiều tính năng nhưng vẫn rất dễ sử dụng.
-- Bảo mật mạnh mẽ**: Jami kết hợp thuật toán mã hóa tiên tiến đảm bảo an toàn cho thông tin liên lạc của bạn đồng thời tôn trọng quyền riêng tư của bạn.
-- Dễ truy cập và nhanh chóng**: cung cấp khả năng giao tiếp dễ dàng ngay cả khi băng thông bị hạn chế, giúp tăng cường tính thân thiện với người dùng.
+- Đây là phần mềm mã nguồn mở và **hoàn toàn miễn phí**, vì vậy bạn có thể sử dụng mà không mất phí.
+- **Đầy đủ các tính năng hữu ích**: phần mềm này cho phép bạn tận dụng nhiều tùy chọn, nhờ khả năng dễ dàng thêm plugin từ cửa hàng. Thậm chí bạn có thể tự tạo tiện ích mở rộng cho các tính năng phù hợp hơn với nhu cầu của mình.
+- **Dễ sử dụng và Interface trực quan**: mặc dù Jami cung cấp nhiều tính năng nhưng vẫn rất dễ sử dụng.
+- **Bảo mật mạnh mẽ**: Jami kết hợp thuật toán mã hóa tiên tiến đảm bảo an toàn cho thông tin liên lạc của bạn đồng thời tôn trọng quyền riêng tư của bạn.
+- **Dễ truy cập và nhanh chóng**: cung cấp khả năng giao tiếp dễ dàng ngay cả khi băng thông bị hạn chế, giúp tăng cường tính thân thiện với người dùng.
 
 
 
@@ -140,7 +140,7 @@ Lệnh này cài đặt các công cụ cần thiết để quản lý khóa GPG
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -338,9 +338,9 @@ Jami cũng cung cấp các **tính năng nâng cao** cho người dùng muốn t
 
 
 
-- Tạo điểm hẹn**: Tính năng này cho phép bạn tạo **điểm hẹn** để liên lạc, hữu ích khi tổ chức các phiên họp hoặc trao đổi an toàn giữa nhiều người dùng.
-- Kết nối với máy chủ Jami**: Bạn có thể kết nối Jami với **máy chủ Jami**, điều này có thể cải thiện hiệu suất hoặc tính khả dụng của thông tin liên lạc, đặc biệt là trong môi trường chuyên nghiệp.
-- Thiết lập tài khoản SIP**: Bạn có thể thiết lập **tài khoản SIP** (Giao thức khởi tạo phiên), cho phép bạn tích hợp Jami với các hệ thống điện thoại hiện có hoặc thực hiện cuộc gọi điện thoại.
+- **Tạo điểm hẹn**: Tính năng này cho phép bạn tạo **điểm hẹn** để liên lạc, hữu ích khi tổ chức các phiên họp hoặc trao đổi an toàn giữa nhiều người dùng.
+- **Kết nối với máy chủ Jami**: Bạn có thể kết nối Jami với **máy chủ Jami**, điều này có thể cải thiện hiệu suất hoặc tính khả dụng của thông tin liên lạc, đặc biệt là trong môi trường chuyên nghiệp.
+- **Thiết lập tài khoản SIP**: Bạn có thể thiết lập **tài khoản SIP** (Giao thức khởi tạo phiên), cho phép bạn tích hợp Jami với các hệ thống điện thoại hiện có hoặc thực hiện cuộc gọi điện thoại.
 
 
 
@@ -360,4 +360,4 @@ Khám phá Tox, một giao thức phi tập trung kết hợp mã hóa đầu cu
 
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

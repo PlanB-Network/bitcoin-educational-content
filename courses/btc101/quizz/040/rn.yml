@@ -1,12 +1,12 @@
-question: Ni ubuhe buryo inzego za leta zikoresha kugira ngo zigabanye agaciro k’amahera y’amahera?
-answer: Barongera amahera menshi n’ibice bikeyi kw’ijana buri mwaka.
+question: Inyungu nyinshi cane ni iki?
+answer: Ukwiyongera gukomeye kw’amahera menshi.
 wrong_answers:
-  - Bagabanya amahera menshi n’ibice bikeyi kw’ijana buri mwaka.
-  - Bigumya uburemere bwayo bw’amahera butahinduka ugereranije n’uburemere bwayo bwa mbere.
-  - Bafise uburemere bwayo bw’amahera buhinduka mu buryo butari bwo ugereranyije n’uburemere bwa mbere.
+  - Ukwongerekana gutoyi kw’amahera menshi.
+  - Igabanuka rikomeye ry’amahera menshi.
+  - Igabanuka gatoyi ry’amahera menshi.
 explanation: |
-  Inzego zikuru kenshi zigabanya agaciro k'ifaranga mu kwongera
-  amahera menshi ugereranyije n’ay’intango n’ibice bikeyi kw’ijana
-  buri mwaka. Ukwo gusenyura agaciro mu gacerere akenshi gushingira intahe nk’uko .
-  kuba mu nyungu z’abantu.
+  Inflation nyinshi cane ni ikintu c’amahera kirangwa n’
+  Ukwiyongera gukomeye kw'ibiciro biciye mu gucapura amafaranga
+  n’abategetsi, ivyo bikaba bituma umuntu atakaza burundu .
+  kwizigira amahera.
 reviewed: true

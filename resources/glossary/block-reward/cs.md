@@ -6,4 +6,4 @@ Celkový počet bitcoinů, které těžař obdrží, když najde platný blok bi
 
 Bloková odměna se rozděluje v rámci konkrétní transakce zvané "coinbase". Bitcoiny z ní vytěžené jsou automaticky uzamčeny na dobu 100 bloků. Tato doba se označuje jako doba splatnosti.
 
-> ►Anglický překlad je "Bloková odměna".*
+> ►Anglický překlad je "Bloková odměna".

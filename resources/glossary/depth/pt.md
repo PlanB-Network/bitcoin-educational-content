@@ -10,4 +10,4 @@ o objetivo (profundidade 1), o tipo de moeda (profundidade 2), a conta (profundi
 
 Para passar de uma profundidade para a seguinte, é utilizado um processo de derivação de um par de chaves pai para um par de chaves filho.
 
-> ► *O termo "piso de derivação" é por vezes também utilizado em vez de profundidade
+> ► *O termo "piso de derivação" é por vezes também utilizado em vez de profundidade*

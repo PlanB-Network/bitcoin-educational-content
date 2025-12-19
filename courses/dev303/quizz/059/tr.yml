@@ -1,0 +1,8 @@
+question: Özel tipler için özellikleri manuel olarak uygulamaya kıyasla #[derive(Debug)] gibi türetme makrolarını kullanmanın temel avantajı nedir?
+answer: Derleme zamanında tam özellik uygulamalarını otomatik olarak generate'a dönüştürür, basit kodu azaltır
+wrong_answers:
+  - Yürütme sırasında özellik yöntemi çağrılarını optimize ederek daha iyi çalışma zamanı performansı sağlarlar
+  - Özelliklerin aynı tür için farklı davranışlarla birden çok kez uygulanmasına izin verirler
+  - Program durumuna bağlı olarak çalışma zamanında değiştirilebilen dinamik özellik uygulamasına olanak sağlarlar
+explanation: |
+  Derive makroları, derleme sırasında otomatik olarak generate özellik uygulamalarını türetir ve tekrarlayan boilerplate kodunu manuel olarak yazma ihtiyacını ortadan kaldırır. Derive(Debug)] kullandığınızda, derleyici bu özellik için gerekli tüm biçimlendirme mantığını oluşturur. Yanlış cevaplar yanlıştır çünkü: türetme makroları çalışma zamanı performansını artırmaz (manuel olarak yazacağınız aynı kodu generate yaparlar), özellikler nasıl uygulandıklarına bakılmaksızın tür başına yalnızca bir kez uygulanabilir ve türetme makroları çalışma zamanı değişikliklerini etkinleştirmek yerine derleme zamanında statik kodu generate yapar.

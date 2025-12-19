@@ -25,10 +25,10 @@ Mezi vrstvami protokolu Bitcoin však přetrvával zásadní problém: interoper
 
 
 
-- on chain**: V hlavním řetězci Bitcoin, kde jsou transakce potvrzovány v průměru každých 10 minut, jsou transakční poplatky často vysoké, což nemusí nutně vyhovovat potřebám uživatelů;
-- Lightning Network**: Překrytí Bitcoin pro okamžité platby za nízké poplatky, což umožňuje používat Bitcoin pro denní platby;
-- Liquid Network**: překryvný nástroj pro Bitcoin vytvořený společností Blockstream, který umožňuje rychlé použití Confidential Transactions a použití dalších finančních nástrojů založených na Bitcoin;
-- RootStock**: Řešení pro vývoj chytrých smluv založených na protokolu Bitcoin.
+- **on chain**: V hlavním řetězci Bitcoin, kde jsou transakce potvrzovány v průměru každých 10 minut, jsou transakční poplatky často vysoké, což nemusí nutně vyhovovat potřebám uživatelů;
+- **Lightning Network**: Překrytí Bitcoin pro okamžité platby za nízké poplatky, což umožňuje používat Bitcoin pro denní platby;
+- **Liquid Network**: překryvný nástroj pro Bitcoin vytvořený společností Blockstream, který umožňuje rychlé použití Confidential Transactions a použití dalších finančních nástrojů založených na Bitcoin;
+- **RootStock**: Řešení pro vývoj chytrých smluv založených na protokolu Bitcoin.
 
 
 
@@ -54,7 +54,7 @@ Tímto způsobem si zachováváte trvalou vlastní péči o své bitcoiny a Exch
 
 
 
-Atomický Exchange pracuje s inteligentními smlouvami [HTLC](https://planb.network/resources/glossary/HTLC) (*Hashed Timelock Contract*). V tomto typu Contract je částka "uzamčena" v obousměrném kanálu a je zavedeno časové omezení, takže pokud transakce není dokončena do určité doby, zůstatek se vrátí vkladateli. Tento mechanismus používá platforma Boltz.
+Atomický Exchange pracuje s inteligentními smlouvami [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). V tomto typu Contract je částka "uzamčena" v obousměrném kanálu a je zavedeno časové omezení, takže pokud transakce není dokončena do určité doby, zůstatek se vrátí vkladateli. Tento mechanismus používá platforma Boltz.
 
 
 
@@ -116,9 +116,9 @@ Jakmile dokončíte základní konfigurace, vložte částku svého atomového �
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ Poté klikněte na tlačítko **Vytvořit atomovou Exchange** a pokračujte v pl
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Po provedení a potvrzení platby obdržíte automaticky odpovídající částku na účet Lightning Wallet.
 
@@ -188,6 +188,6 @@ Boltz nabízí vysokou úroveň důvěrnosti díky přístupu přes odkaz `.onio
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Nyní již znáte Boltz, jedinečnou platformu Exchange, která umožňuje interoperabilitu mezi různými vrstvami ekosystému Bitcoin.

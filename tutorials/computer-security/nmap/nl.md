@@ -61,9 +61,9 @@ Nmap heeft vele sterke punten:
 
 
 
-- Krachtig en flexibel**: Nmap kan grote netwerken scannen en geavanceerde detectietechnieken gebruiken. Het ondersteunt UDP, TCP, ICMP, IPv4 en IPv6 en kan versiedetectie, kwetsbaarheidsscans of protocol-specifieke interacties uitvoeren. De architectuur is modulair, met name dankzij NSE (Nmap Scripting Engine) scripts, die we later in deze tutorial zullen bekijken.
-- Gebruiksgemak**: officiële documentatie is overvloedig en van de hoogste kwaliteit. Er zijn ook talloze community resources beschikbaar om je op weg te helpen.
-- Populariteit en lange levensduur**: Nmap is al sinds 1998 een referentie op dit gebied. De huidige versie, op het moment van deze update, is 7.95. Hoewel er andere tools bestaan voor specifieke taken, blijft Nmap een must-have voor het in kaart brengen en analyseren van netwerken.
+- **Krachtig en flexibel**: Nmap kan grote netwerken scannen en geavanceerde detectietechnieken gebruiken. Het ondersteunt UDP, TCP, ICMP, IPv4 en IPv6 en kan versiedetectie, kwetsbaarheidsscans of protocol-specifieke interacties uitvoeren. De architectuur is modulair, met name dankzij NSE (Nmap Scripting Engine) scripts, die we later in deze tutorial zullen bekijken.
+- **Gebruiksgemak**: officiële documentatie is overvloedig en van de hoogste kwaliteit. Er zijn ook talloze community resources beschikbaar om je op weg te helpen.
+- **Populariteit en lange levensduur**: Nmap is al sinds 1998 een referentie op dit gebied. De huidige versie, op het moment van deze update, is 7.95. Hoewel er andere tools bestaan voor specifieke taken, blijft Nmap een must-have voor het in kaart brengen en analyseren van netwerken.
 
 
 
@@ -87,7 +87,7 @@ Hij verschijnt ook in andere cinematografische werken.
 
 
 
-**Feedback
+**Feedback**
 
 
 
@@ -165,7 +165,7 @@ In dit gedeelte kijken we naar de belangrijkste toepassingen van het netwerkscan
 
 
 
-Nmap kan gebruikt worden voor netwerkdiagnose en, in bredere zin, voor monitoring. Net zoals een ping gebruikt kan worden om te bepalen of twee hosts communiceren, kan Nmap gebruikt worden om snel te bepalen of een host actief is, of een bepaalde dienst operationeel is. Dankzij [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kunnen we precieze gegevens verkrijgen over de reactietijd van een host, de route die pakketten afleggen, de respons van een specifieke dienst, enzovoort.
+Nmap kan gebruikt worden voor netwerkdiagnose en, in bredere zin, voor monitoring. Net zoals een ping gebruikt kan worden om te bepalen of twee hosts communiceren, kan Nmap gebruikt worden om snel te bepalen of een host actief is, of een bepaalde dienst operationeel is. Dankzij [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kunnen we precieze gegevens verkrijgen over de reactietijd van een host, de route die pakketten afleggen, de respons van een specifieke dienst, enzovoort.
 
 
 
@@ -312,7 +312,7 @@ In deze sectie leren we hoe we de Nmap netwerkscan tool kunnen installeren op Li
 
 
 
-Nmap is oorspronkelijk ontworpen om op GNU/Linux besturingssystemen te draaien. Als gevolg hiervan, en dankzij zijn lange levensduur en populariteit, vind je het in alle officiële repositories van de grote Unix distributies. In deze tutorial gebruik ik een Debian-gebaseerd besturingssysteem [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Maar je kunt het op precies dezelfde manier gebruiken als een klassieke Debian, CentOS, Red Hat of wat dan ook!
+Nmap is oorspronkelijk ontworpen om op GNU/Linux besturingssystemen te draaien. Als gevolg hiervan, en dankzij zijn lange levensduur en populariteit, vind je het in alle officiële repositories van de grote Unix distributies. In deze tutorial gebruik ik een Debian-gebaseerd besturingssysteem [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Maar je kunt het op precies dezelfde manier gebruiken als een klassieke Debian, CentOS, Red Hat of wat dan ook!
 
 
 
@@ -485,25 +485,25 @@ Of het nu op Linux of Windows is, er zijn veel gevallen waarin Nmap je om bevoor
 
 
 
-- Construeren van "ruwe" netwerkpakketten**: Nmap is in staat om een breed scala aan scanmethodes uit te voeren, inclusief geavanceerde pakketmanipulatie en -constructie. Dit is bijvoorbeeld het geval wanneer we TCP SYN scans willen uitvoeren, die de klassieke _Three-way handshake_ van TCP uitwisselingen niet respecteren. Om dit te doen, moet Nmap andere functies gebruiken dan die van besturingssystemen, die alleen weten hoe ze goede praktijken in netwerkcommunicatie moeten respecteren (het doet een beroep op de "Npcap" en "libcap" bibliotheken hierboven). Omdat Nmap dingen niet op de "standaard" manier doet, is het in staat om bepaalde informatie over besturingssystemen, services en bepaalde kwetsbaarheden af te leiden.
+- Construeren van **"ruwe" netwerkpakketten**: Nmap is in staat om een breed scala aan scanmethodes uit te voeren, inclusief geavanceerde pakketmanipulatie en -constructie. Dit is bijvoorbeeld het geval wanneer we TCP SYN scans willen uitvoeren, die de klassieke *Three-way handshake* van TCP uitwisselingen niet respecteren. Om dit te doen, moet Nmap andere functies gebruiken dan die van besturingssystemen, die alleen weten hoe ze goede praktijken in netwerkcommunicatie moeten respecteren (het doet een beroep op de "Npcap" en "libcap" bibliotheken hierboven). Omdat Nmap dingen niet op de "standaard" manier doet, is het in staat om bepaalde informatie over besturingssystemen, services en bepaalde kwetsbaarheden af te leiden.
 
 
 
 
 
-- Luisteren naar netwerkverkeer**: sommige opties van Nmap vereisen dat het naar het netwerk luistert om bepaalde informatie op te halen. Deze actie wordt als gevoelig beschouwd op besturingssystemen, omdat het je ook toestaat om mee te luisteren met de communicatie van andere applicaties op het systeem. Net als Wireshark heeft Nmap hiervoor specifieke privileges nodig, die makkelijker te verkrijgen zijn door direct in een geprivilegieerde sessie te zitten.
+- **Luisteren naar netwerkverkeer**: sommige opties van Nmap vereisen dat het naar het netwerk luistert om bepaalde informatie op te halen. Deze actie wordt als gevoelig beschouwd op besturingssystemen, omdat het je ook toestaat om mee te luisteren met de communicatie van andere applicaties op het systeem. Net als Wireshark heeft Nmap hiervoor specifieke privileges nodig, die makkelijker te verkrijgen zijn door direct in een geprivilegieerde sessie te zitten.
 
 
 
 
 
-- Luisteren op geprivilegieerde poorten**: op besturingssystemen worden poorten van 0 tot 1024 (zowel TCP als UDP) geprivilegieerd genoemd, dat wil zeggen dat ze op de een of andere manier gereserveerd zijn voor zeer specifiek gebruik en daarom beschermd zijn. Hoewel dit tegenwoordig een enigszins verouderde reden is, is het nog steeds nodig om bepaalde privileges te hebben om op deze poorten te luisteren, wat Nmap mogelijk moet doen, afhankelijk van hoe het gebruikt zal worden.
+- **Luisteren op geprivilegieerde poorten**: op besturingssystemen worden poorten van 0 tot 1024 (zowel TCP als UDP) geprivilegieerd genoemd, dat wil zeggen dat ze op de een of andere manier gereserveerd zijn voor zeer specifiek gebruik en daarom beschermd zijn. Hoewel dit tegenwoordig een enigszins verouderde reden is, is het nog steeds nodig om bepaalde privileges te hebben om op deze poorten te luisteren, wat Nmap mogelijk moet doen, afhankelijk van hoe het gebruikt zal worden.
 
 
 
 
 
-- UDP-pakketten versturen:** Ook het luisteren naar een netwerktoepassing op UDP-poorten (een stateloos protocol) vereist privileges op besturingssystemen. Een bevoorrechte sessie is daarom nodig als u een UDP-scan wilt uitvoeren, waarvoor Nmap moet luisteren naar een antwoord om de antwoorden op zijn scans te analyseren.
+- **UDP-pakketten versturen:** Ook het luisteren naar een netwerktoepassing op UDP-poorten (een stateloos protocol) vereist privileges op besturingssystemen. Een bevoorrechte sessie is daarom nodig als u een UDP-scan wilt uitvoeren, waarvoor Nmap moet luisteren naar een antwoord om de antwoorden op zijn scans te analyseren.
 
 
 
@@ -551,7 +551,7 @@ Denk er vanaf nu aan om alleen hosts in een gecontroleerde omgeving te scannen w
 
 
 
-- Ter herinnering: [Wetboek van Strafrecht: Hoofdstuk III: Aanvallen op geautomatiseerde gegevensverwerkende systemen] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Ter herinnering: [Wetboek van Strafrecht: Hoofdstuk III: Aanvallen op geautomatiseerde gegevensverwerkende systemen](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -562,13 +562,13 @@ Denk er vanaf nu aan om alleen hosts in een gecontroleerde omgeving te scannen w
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Hacking training platform, Hack The Box biedt voortdurend kwetsbare systemen die je naar eigen inzicht kunt aanvallen. Er zijn enkele honderden systemen beschikbaar, maar een vernieuwde pool van 20 machines wordt het hele jaar door gratis aangeboden, met toegang via een OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hacking training platform, Hack The Box biedt voortdurend kwetsbare systemen die je naar eigen inzicht kunt aanvallen. Er zijn enkele honderden systemen beschikbaar, maar een vernieuwde pool van 20 machines wordt het hele jaar door gratis aangeboden, met toegang via een OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Dit platform biedt talloze opzettelijk kwetsbare systemen om te downloaden, die kunnen worden gebruikt via VirtualBox (ook een gratis oplossing) of andere middelen. Eenmaal gedownload is er geen VPN nodig - alles is lokaal.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Dit platform biedt talloze opzettelijk kwetsbare systemen om te downloaden, die kunnen worden gebruikt via VirtualBox (ook een gratis oplossing) of andere middelen. Eenmaal gedownload is er geen VPN nodig - alles is lokaal.
 
 
 
@@ -815,7 +815,7 @@ antwoord op een TCP SYN-pakket verzonden op poort 22, actief op het scandoel
 
 
 
-In de bovenstaande schermafbeelding zien we een TCP SYN/ACK pakket verzonden door de doelhost**. De poort is actief en stelt een service bloot. Nmap bevestigt de ontvangst van het antwoord en beëindigt dan de verbinding (TCP RST/ACK). **Zo wist hij dat poort TCP/22 actief was**.
+In de bovenstaande schermafbeelding zien we een TCP SYN/ACK pakket verzonden door de doelhost. De poort is actief en stelt een service bloot. Nmap bevestigt de ontvangst van het antwoord en beëindigt dan de verbinding (TCP RST/ACK). **Zo wist hij dat poort TCP/22 actief was**.
 
 
 
@@ -901,7 +901,7 @@ uDP pakketoverdracht en ICMP ontvangst (poort onbereikbaar) tijdens Nmap scan
 
 
 
-We kunnen op de bovenstaande schermafbeelding zien dat Nmap een groot aantal UDP pakketten verstuurt en als antwoord op de meeste pakketten een ICMP "Destination unreachable (Port unreachable)" pakket ontvangt. Dit is normaal, want het is het gepaste antwoord gedefinieerd door [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") wanneer een UDP poort onbereikbaar is:
+We kunnen op de bovenstaande schermafbeelding zien dat Nmap een groot aantal UDP pakketten verstuurt en als antwoord op de meeste pakketten een ICMP "Destination unreachable (Port unreachable)" pakket ontvangt. Dit is normaal, want het is het gepaste antwoord gedefinieerd door [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") wanneer een UDP poort onbereikbaar is:
 
 
 
@@ -976,7 +976,7 @@ Zoals we hebben gezien, kiest Nmap zelf het aantal en de poorten om te scannen a
 
 
 
-**Hoe worden deze poorten gekozen?
+**Hoe worden deze poorten gekozen?**
 
 
 
@@ -1060,7 +1060,7 @@ Ongeacht de volgorde, zal Nmap al deze poorten controleren, en alleen die op de 
 
 
 
-**Scan een reeks poorten
+**Scan een reeks poorten**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**TCP- en UDP-poort scannen
+**TCP- en UDP-poort scannen**
 
 
 
@@ -1134,7 +1134,7 @@ Dat is nog eens een interessante manier om je scans aan te passen!
 
 
 
-**Scan alle poorten
+**Scan alle poorten**
 
 
 
@@ -1347,7 +1347,7 @@ Maar er is meer aan de hand. Je kunt in de Wireshark capture hierboven zien dat 
 
 
 
-**Waarom TCP pakketten naar poorten sturen als onderdeel van netwerkontdekking?
+**Waarom TCP pakketten naar poorten sturen als onderdeel van netwerkontdekking?**
 
 
 
@@ -2165,31 +2165,31 @@ Laten we duidelijk zijn: Nmap is niet in staat om een volledige penetratietest v
 
 
 
-- Beperkte dekking**: hoewel de NSE-scripts van Nmap krachtig zijn, kan hun testdekking beperkt zijn in vergelijking met andere gespecialiseerde tools voor het opsporen van kwetsbaarheden. Sommige kwetsbaarheden worden mogelijk niet gedekt door de beschikbare NSE-scripts, zoals kwetsbaarheden in Active Directory, blootstelling van gevoelige gegevens of meer geavanceerde gevallen van kwetsbare webapplicaties.
+- **Beperkte dekking**: hoewel de NSE-scripts van Nmap krachtig zijn, kan hun testdekking beperkt zijn in vergelijking met andere gespecialiseerde tools voor het opsporen van kwetsbaarheden. Sommige kwetsbaarheden worden mogelijk niet gedekt door de beschikbare NSE-scripts, zoals kwetsbaarheden in Active Directory, blootstelling van gevoelige gegevens of meer geavanceerde gevallen van kwetsbare webapplicaties.
 
 
 
 
 
-- Complexiteit van de kwetsbaarheid**: bepaalde soorten kwetsbaarheden kunnen moeilijk te detecteren zijn met NSE-scripts vanwege hun complexiteit. Bijvoorbeeld, kwetsbaarheden die complexe interactie vereisen met een service op afstand kunnen mogelijk niet effectief worden gedetecteerd door Nmap (zoals in het geval van overmatige toestemmingen in een bestandsdeling of een fout in de toestemmingscontrole van een webtoepassing).
+- **Complexiteit van de kwetsbaarheid**: bepaalde soorten kwetsbaarheden kunnen moeilijk te detecteren zijn met NSE-scripts vanwege hun complexiteit. Bijvoorbeeld, kwetsbaarheden die complexe interactie vereisen met een service op afstand kunnen mogelijk niet effectief worden gedetecteerd door Nmap (zoals in het geval van overmatige toestemmingen in een bestandsdeling of een fout in de toestemmingscontrole van een webtoepassing).
 
 
 
 
 
-- Passieve detectie**: Nmap richt zich voornamelijk op actieve scans om kwetsbaarheden te detecteren, wat betekent dat het potentiële kwetsbaarheden niet effectief kan detecteren zonder een actieve verbinding met de doelhosts tot stand te brengen. Kwetsbaarheden die zich niet manifesteren tijdens een actieve scan kunnen daarom worden gemist (zoals in het geval van een code-injectie in een webapplicatie).
+- **Passieve detectie**: Nmap richt zich voornamelijk op actieve scans om kwetsbaarheden te detecteren, wat betekent dat het potentiële kwetsbaarheden niet effectief kan detecteren zonder een actieve verbinding met de doelhosts tot stand te brengen. Kwetsbaarheden die zich niet manifesteren tijdens een actieve scan kunnen daarom worden gemist (zoals in het geval van een code-injectie in een webapplicatie).
 
 
 
 
 
-- Afhankelijkheid van updates**: Nmap's [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) van NSE scripts is voortdurend in ontwikkeling, maar er kan een vertraging zitten tussen de ontdekking van een nieuwe kwetsbaarheid en de toevoeging van een bijbehorend script aan Nmap. Als gevolg daarvan is Nmap niet altijd up-to-date met de nieuwste kwetsbaarheden.
+- **Afhankelijkheid van updates**: Nmap's [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) van NSE scripts is voortdurend in ontwikkeling, maar er kan een vertraging zitten tussen de ontdekking van een nieuwe kwetsbaarheid en de toevoeging van een bijbehorend script aan Nmap. Als gevolg daarvan is Nmap niet altijd up-to-date met de nieuwste kwetsbaarheden.
 
 
 
 
 
-- Valse positieven en valse negatieven**: zoals bij elk beveiligingshulpmiddel kunnen de NSE-scripts van Nmap valse positieven (valse kwetsbaarheidswaarschuwingen) of valse negatieven (echte kwetsbaarheden die niet worden gedetecteerd) produceren. Dit is iets om in gedachten te houden bij het analyseren van Nmap resultaten.
+- **Valse positieven en valse negatieven**: zoals bij elk beveiligingshulpmiddel kunnen de NSE-scripts van Nmap valse positieven (valse kwetsbaarheidswaarschuwingen) of valse negatieven (echte kwetsbaarheden die niet worden gedetecteerd) produceren. Dit is iets om in gedachten te houden bij het analyseren van Nmap resultaten.
 
 
 
@@ -3385,7 +3385,7 @@ Voordat u een netwerk of systeem scant, moet u ervoor zorgen dat u de juiste aut
 
 
 
-- Ter herinnering: [Wetboek van Strafrecht: Hoofdstuk III: Aanvallen op geautomatiseerde gegevensverwerkende systemen] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Ter herinnering: [Wetboek van Strafrecht: Hoofdstuk III: Aanvallen op geautomatiseerde gegevensverwerkende systemen](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -3437,7 +3437,7 @@ Zoals we door deze tutorial heen hebben gezien, kan Nmap erg langdradig zijn op 
 
 
 
-Om incidenten te voorkomen, moet je het gedrag van Nmap onder de knie krijgen en weten hoe je het aanpast aan de context waarin het wordt gebruikt, door middel van de verschillende opties die in deze tutorial worden besproken. We zullen Nmap niet noodzakelijkerwijs op dezelfde manier gebruiken op een informatiesysteem met industriële [hardware] (https://www.it-connect.fr/actualites/actu-materiel/) als in een gebruikersnetwerk dat bestaat uit Windows systemen die beschermd worden door een lokale firewall of in een netwerkkern.
+Om incidenten te voorkomen, moet je het gedrag van Nmap onder de knie krijgen en weten hoe je het aanpast aan de context waarin het wordt gebruikt, door middel van de verschillende opties die in deze tutorial worden besproken. We zullen Nmap niet noodzakelijkerwijs op dezelfde manier gebruiken op een informatiesysteem met industriële [hardware](https://www.it-connect.fr/actualites/actu-materiel/) als in een gebruikersnetwerk dat bestaat uit Windows systemen die beschermd worden door een lokale firewall of in een netwerkkern.
 
 
 

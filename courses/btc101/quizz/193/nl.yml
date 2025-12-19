@@ -1,8 +1,12 @@
-question: Wat is een van de initiatieven die bijdragen aan het toegankelijker en gemakkelijker maken van de Bitcoin economie voor iedereen?
-answer: BTCMap.
+question: Wat is een spontane aankoop?
+answer: Bitcoin onmiddellijk kopen om meer bekendheid te krijgen.
 wrong_answers:
-  - Bitcoin Exchange.
-  - Bitcoin Mining.
-  - BTCLoterij.
-explanation: >-
+  - Regelmatig Bitcoin kopen.
+  - Bitcoin koop ik alleen als de prijs daalt.
+  - Bitcoin alleen kopen als de prijs stijgt.
+explanation: |
+  De cursustekst legt uit dat een spontane aankoop wordt
+  wordt gebruikt om direct in aanraking te komen met Bitcoin. Bijvoorbeeld,
+  kopen tijdens een crash of profiteren van een bonus
+  een bonus.
 reviewed: true

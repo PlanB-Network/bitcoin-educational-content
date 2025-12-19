@@ -1,0 +1,9 @@
+question: Která komponenta se doporučuje pro ochranu uzlu v případě výpadku napájení?
+answer: Střídač
+wrong_answers:
+  - Druhá grafická karta
+  - Další směrovač
+  - Rozbočovač USB
+explanation: |
+  Střídač zabraňuje náhlému vypnutí v případě výpadku napájení a chrání stabilitu uzlu.
+reviewed: true

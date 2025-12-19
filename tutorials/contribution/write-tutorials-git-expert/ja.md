@@ -6,7 +6,7 @@ description: プランのチュートリアルを提供する上級者向けガ�
 
 新しいチュートリアルを追加するためのこのチュートリアルに従う前に、いくつかの予備ステップを完了する必要があります。まだ完了していない場合は、まずこの入門チュートリアルをご覧ください：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 あなたはすでに持っている：
 
@@ -18,50 +18,50 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 このチュートリアルでは、Git の使用経験が豊富なユーザーを対象に、新しい Plan ₋ Network チュートリアルを提供するための重要なステップと重要なガイドラインを簡単にまとめます。Git や GitHub にあまりなじみがないのなら、以下の 2 つのチュートリアルを参考にすることをおすすめします：
 
 
-- 中級（GitHub Desktop）** ：
+- **中級（GitHub Desktop）**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
-- 初心者向け（ウェブインターフェース）** ：
+- **初心者向け（ウェブインターフェース）**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## 推奨ツール
 
 Markdownファイル編集用：
 
 
-- オブシディアン**（フリー、オープンソースではない）
-- マークテキスト**（無料、オープンソース）
-- Zettlr**（無料、オープンソース）
-- Typora** （有料、～15ユーロ、オープンソースではない）
+- **オブシディアン**（フリー、オープンソースではない）
+- **マークテキスト**（無料、オープンソース）
+- **Zettlr**（無料、オープンソース）
+- **Typora** （有料、～15ユーロ、オープンソースではない）
 
 ギットのために：
 
 
-- Git**（フリー、オープンソース）
-- GitHub Desktop** （無料、オープンソース）
-- ソースツリー**（無料、オープンソースではない）
+- **Git**（フリー、オープンソース）
+- **GitHub Desktop** （無料、オープンソース）
+- **ソースツリー**（無料、オープンソースではない）
 
 YAMLファイルの編集 ：
 
 
-- Visual Studio Code**（無料、オープンソース）
-- Sublime Text** （制限付きで無料、オープンソースではない）
+- **Visual Studio Code**（無料、オープンソース）
+- **Sublime Text** （制限付きで無料、オープンソースではない）
 
 ダイアグラムやビジュアルを作成する：
 
 
-- Canva**（無料、有料オプションあり、オープンソースではない）
-- Inkscape**（フリー、オープンソース）
-- Penpot**（無料、オープンソース）
+- **Canva**（無料、有料オプションあり、オープンソースではない）
+- **Inkscape**（フリー、オープンソース）
+- **Penpot**（無料、オープンソース）
 
 ## ワークフロー
 
 ### 1 - ローカル環境を設定する
 
 
-- GitHub 上の Plan ₿ Network リポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content) をフォークする必要があります。
+- GitHub 上の Plan ₿ Academy リポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content) をフォークする必要があります。
 - フォークのメインブランチ (`dev`) をソースリポジトリと同期させます。
 - ローカルのクローンを更新する。
 
@@ -166,11 +166,11 @@ proofreading:
 
 - **id**: チュートリアルを一意に識別する UUID (_Universally Unique Identifier_)。 [オンラインツール](https://www.uuidgenerator.net/version4)を使用して生成できます。 この UUID はランダムである必要があり、プラットフォーム上の他の UUID と競合しないことが条件です;
 
-- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Network は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
+- **project_id**: チュートリアルで紹介されているツールの背後にある企業または組織の UUID [プロジェクトのリストから](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。 たとえば、Green Wallet ソフトウェアに関するチュートリアルを作成している場合、この `project_id` は次のファイルにあります: `bitcoin-educational-content/resources/projects/blockstream/project.yml`。 Plan ₿ Academy は、Bitcoin または関連プロジェクトに取り組んでいるすべての企業および組織のデータベースを維持しているため、この情報はチュートリアルの YAML ファイルに追加されます。 チュートリアルに関連するエンティティの `project_id` を追加することで、2 つの要素間のリンクを作成できます;
 
-- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Network のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
+- **tags**: チュートリアルの内容に関連する 2 または 3 の適切なキーワード、[Plan ₿ Academy のタグリスト](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) からのみ選択可能;
 
-- **category**: Plan ₿ Network サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
+- **category**: Plan ₿ Academy サイトの構造に従った、チュートリアルの内容に対応するサブカテゴリ（例：ウォレットの場合：`desktop`、`hardware`、`mobile`、`backup`）;
 
 - **level**: チュートリアルの難易度レベル、以下から選択：
     - `beginner`
@@ -191,7 +191,7 @@ proofreading:
 
 教師IDの詳細については、対応するチュートリアルを参照してください：
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -281,7 +281,7 @@ git push origin tuto-green-wallet-loic
 ## コンテンツ作成基準
 
 
-- プラットフォームでサポートされているフォーマット** ：
+- **プラットフォームでサポートされているフォーマット**：
     - クラシックなMarkdown：リスト、リンク、画像、引用、太字、斜体など。
     - LaTeX（ブロックのみ、インライン不可）：`$$`で区切る。
     - インラインコード：シングル・バックティック付きの構文。
@@ -292,13 +292,13 @@ print("Hello, Bitcoin!")
 ```
 
 
-- イラストと図** ：
+- **イラストと図**：
     - すべての画像はWebP形式でなければなりません。必要であれば、この無料ツールを使って変換してください：[ImagesConverter](https://github.com/LoicPandul/ImagesConverter)。
     - ビジュアルに 2 桁または 3 桁の数字で名前をつけます （例：`001.webp`、`002.webp`）。
     - モバイルウォレットやハードウェアウォレットのチュートリアルには、モックアップを使いましょう。
     - 自作またはロイヤリティフリーのビジュアルのみを使用すること。
     - 関連性があり、質の高いものであることを確認してください。
-- グラフィック・チャーター** ：
+- **グラフィック・チャーター**：
     - フォント：[ルービック](https://fonts.google.com/specimen/IBM+Plex+Sans)。
     - カラーズプラン ȏ ネットワーク ：
         - オレンジ: `#FF5C00`

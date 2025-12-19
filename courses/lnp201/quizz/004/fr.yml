@@ -5,5 +5,5 @@ wrong_answers:
   - Des transactions en grandes quantités sans limite de volume
   - Des transactions entre différentes blockchains
 explanation: |
-  Le Lightning Network rend les transactions rapides et peu coûteuses grâce aux canaux de paiement hors chaîne, ce qui diffère des transactions régulières sur la blockchain.
-reviewed: false
+  Le Lightning Network rend les transactions rapides et peu coûteuses grâce aux canaux de paiement hors chaîne, ce qui diffère des transactions classiques sur la blockchain.
+reviewed: true

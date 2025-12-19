@@ -1,0 +1,9 @@
+question: Wat stelt het witboek van Satoshi Nakamoto voor?
+answer: Een gedecentraliseerd middel voor Exchange op het internet.
+wrong_answers:
+  - Een nieuw liberaal beleid.
+  - Een gecentraliseerd Exchange protocol.
+  - Een politiek programma.
+explanation: |
+  Satoshi Witboek Nakamoto presenteert Bitcoin als een gedecentraliseerd medium van Exchange op het internet. Het stelt een peer-to-peer elektronisch betalingssysteem voor zonder centrale autoriteit.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: تیلزکیل
+name: Tailscale
 description: آموزش پیشرفته Tailscale
 ---
 ![cover](assets/cover.webp)
@@ -139,7 +139,7 @@ Tailscale بر روی **بیشتر سیستم‌عامل‌های رایج** (و
 
 
 
-- در ویندوز و macOS:** به سادگی برنامه گرافیکی را از وب‌سایت رسمی Tailscale دانلود کرده و نصب کنید (فایل .msi در ویندوز، فایل .dmg در مک). پس از نصب، برنامه یک Interface گرافیکی راه‌اندازی می‌کند که به شما اجازه می‌دهد (از طریق مرورگر) به حساب Tailscale خود متصل شوید تا دستگاه را تأیید هویت کنید.
+- در ویندوز و macOS: به سادگی برنامه گرافیکی را از وب‌سایت رسمی Tailscale دانلود کرده و نصب کنید (فایل .msi در ویندوز، فایل .dmg در مک). پس از نصب، برنامه یک Interface گرافیکی راه‌اندازی می‌کند که به شما اجازه می‌دهد (از طریق مرورگر) به حساب Tailscale خود متصل شوید تا دستگاه را تأیید هویت کنید.
 
 
 
@@ -159,7 +159,7 @@ Tailscale بر روی **بیشتر سیستم‌عامل‌های رایج** (و
 
 
 
-- روی لینوکس (دبیان، اوبونتو، و غیره):** شما چندین گزینه دارید. ساده‌ترین روش اجرای اسکریپت نصب رسمی است: برای مثال، روی دبیان/اوبونتو:
+- روی لینوکس (دبیان، اوبونتو، و غیره): شما چندین گزینه دارید. ساده‌ترین روش اجرای اسکریپت نصب رسمی است: برای مثال، روی دبیان/اوبونتو:
 
 
 
@@ -175,13 +175,13 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-- در سیستم‌های مبتنی بر ARM (Raspberry Pi و غیره):** ما معمولاً از لینوکس استفاده می‌کنیم، بنابراین همان روش بالا (اسکریپت یا بسته) اعمال می‌شود. توجه داشته باشید که Tailscale از معماری ARM32/ARM64 بدون هیچ مشکلی پشتیبانی می‌کند. بسیاری از کاربران Tailscale را بر روی Raspberry Pi OS از طریق apt یا بر روی توزیع‌های سبک (DietPi و غیره) نصب می‌کنند تا به Pi خود در هر مکانی دسترسی داشته باشند.
+- در سیستم‌های مبتنی بر ARM (Raspberry Pi و غیره): ما معمولاً از لینوکس استفاده می‌کنیم، بنابراین همان روش بالا (اسکریپت یا بسته) اعمال می‌شود. توجه داشته باشید که Tailscale از معماری ARM32/ARM64 بدون هیچ مشکلی پشتیبانی می‌کند. بسیاری از کاربران Tailscale را بر روی Raspberry Pi OS از طریق apt یا بر روی توزیع‌های سبک (DietPi و غیره) نصب می‌کنند تا به Pi خود در هر مکانی دسترسی داشته باشند.
 
 
 
 
 
-- در iOS و Android:** Tailscale برنامه‌های موبایل **رسمی** ارائه می‌دهد. به سادگی *Tailscale* را از [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) یا [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android) نصب کنید.
+- در iOS و Android: **Tailscale** برنامه‌های موبایل **رسمی** ارائه می‌دهد. به سادگی *Tailscale* را از [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) یا [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android) نصب کنید.
 
 
 
@@ -261,13 +261,13 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-- Interface Web (Admin Console)**: قابل دسترسی در [https://login.tailscale.com](https://login.tailscale.com)، این کنسول وب داشبورد مرکزی برای شبکه Tailscale شما است. این کنسول تمامی دستگاه‌ها (*Machines*)، وضعیت آنلاین/آفلاین آن‌ها، آدرس‌های IP Tailscale و موارد دیگر را فهرست می‌کند. در اینجا می‌توانید **دستگاه‌ها را مدیریت کنید** (تغییر نام، انقضای کلیدها، مجوز مسیرها، غیرفعال کردن یک نود)، **کاربران را مدیریت کنید** (در یک زمینه سازمانی)، و قوانین امنیتی (ACLs) را تعریف کنید. اینجا همچنین جایی است که گزینه‌های جهانی مانند MagicDNS، برچسب‌ها یا کلیدهای احراز هویت (کلیدهای احراز هویت قبل از generate برای افزودن خودکار دستگاه) را پیکربندی می‌کنید. وب Interface برای دریافت یک نمای کلی و اعمال تغییراتی که از طریق سرور هماهنگی به تمامی نودها منتقل می‌شود، بسیار مفید است. *مثال:* فعال‌سازی یک **مسیر زیرشبکه** یا یک **نود خروجی** با یک کلیک در کنسول انجام می‌شود، زمانی که نود مورد نظر خود را به عنوان چنین اعلام کرده باشد.
+- **Interface Web (Admin Console)**: قابل دسترسی در [https://login.tailscale.com](https://login.tailscale.com)، این کنسول وب داشبورد مرکزی برای شبکه Tailscale شما است. این کنسول تمامی دستگاه‌ها (*Machines*)، وضعیت آنلاین/آفلاین آن‌ها، آدرس‌های IP Tailscale و موارد دیگر را فهرست می‌کند. در اینجا می‌توانید **دستگاه‌ها را مدیریت کنید** (تغییر نام، انقضای کلیدها، مجوز مسیرها، غیرفعال کردن یک نود)، **کاربران را مدیریت کنید** (در یک زمینه سازمانی)، و قوانین امنیتی (ACLs) را تعریف کنید. اینجا همچنین جایی است که گزینه‌های جهانی
 
 
 
 
 
-- خط فرمان Interface (CLI):** فرمان `tailscale` در CLI بر روی هر دستگاهی که Tailscale نصب شده است، در دسترس می‌باشد. این CLI به شما اجازه می‌دهد همه چیز را به صورت محلی انجام دهید: اتصال (`tailscale up`)، بررسی وضعیت (`tailscale status` برای مشاهده اینکه کدام همتایان متصل هستند)، اشکال‌زدایی (`tailscale ping <ip>`)، و غیره. برخی ویژگی‌ها حتی **منحصراً برای CLI** یا پیشرفته‌تر هستند، به عنوان مثال:
+- **خط فرمان Interface (CLI):** فرمان `tailscale` در CLI بر روی هر دستگاهی که Tailscale نصب شده است، در دسترس می‌باشد. این CLI به شما اجازه می‌دهد همه چیز را به صورت محلی انجام دهید: اتصال (`tailscale up`)، بررسی وضعیت (`tailscale status` برای مشاهده اینکه کدام همتایان متصل هستند)، اشکال‌زدایی (`tailscale ping <ip>`)، و غیره. برخی ویژگی‌ها حتی **منحصراً برای CLI** یا پیشرفته‌تر هستند، به عنوان مثال:
 
 
 
@@ -293,7 +293,7 @@ CLI در سرورهایی که فاقد گرافیک Interface هستند و ب�
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 استفاده از Umbrel و Tailscale با هم یک مورد استفاده جالب است، زیرا Umbrel به صورت بومی یک ماژول Tailscale که به راحتی قابل استقرار است را یکپارچه می‌کند. در اینجا نحوه یکپارچه‌سازی Tailscale با Umbrel و آنچه که به ارمغان می‌آورد آمده است:
 
@@ -305,7 +305,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- نصب Tailscale بر روی Umbrel:** Umbrel یک برنامه رسمی Tailscale در فروشگاه برنامه خود دارد. نصب آن نمی‌تواند ساده‌تر باشد:
+- **نصب Tailscale بر روی Umbrel:** Umbrel یک برنامه رسمی Tailscale در فروشگاه برنامه خود دارد. نصب آن نمی‌تواند ساده‌تر باشد:
 
 
 
@@ -379,11 +379,11 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Interface main Umbrel**: با تایپ کردن `http://100.x.y.z` در مرورگر خود به سادگی به داشبورد Umbrel خود دسترسی پیدا کنید.
-- گره Bitcoin**: گره Bitcoin خود را بدون تأخیر مدیریت کنید، همگام‌سازی و آمار را مشاهده کنید
-- گره لایتنینگ**: از ThunderHub، RTL یا سایر رابط‌های مدیریت لایتنینگ با پاسخگویی فوری استفاده کنید
-- Mempool**: مشاهده تراکنش‌های Bitcoin و Mempool بدون تأخیر Tor
-- noStrudel**: به خدمات Nostr خود که بر روی Umbrel میزبانی می‌شوند، دسترسی پیدا کنید
+- **Interface main Umbrel**: با تایپ کردن `http://100.x.y.z` در مرورگر خود به سادگی به داشبورد Umbrel خود دسترسی پیدا کنید.
+- **گره Bitcoin**: گره Bitcoin خود را بدون تأخیر مدیریت کنید، همگام‌سازی و آمار را مشاهده کنید
+- **گره لایتنینگ**: از ThunderHub، RTL یا سایر رابط‌های مدیریت لایتنینگ با پاسخگویی فوری استفاده کنید
+- **Mempool**: مشاهده تراکنش‌های Bitcoin و Mempool بدون تأخیر Tor
+- **noStrudel**: به خدمات Nostr خود که بر روی Umbrel میزبانی می‌شوند، دسترسی پیدا کنید
 
 
 
@@ -397,7 +397,7 @@ Tailscale همچنین به کیف پول‌های Bitcoin و Lightning شما �
 
 
 
-- Sparrow wallet (Bitcoin)**: این Bitcoin خارجی Wallet می‌تواند مستقیماً به سرور Electrum شما در Umbrel با استفاده از Tailscale IP Address متصل شود:
+- **Sparrow wallet (Bitcoin)**: این Bitcoin خارجی Wallet می‌تواند مستقیماً به سرور Electrum شما در Umbrel با استفاده از Tailscale IP Address متصل شود:
 
 
 
@@ -419,12 +419,12 @@ Tailscale همچنین به کیف پول‌های Bitcoin و Lightning شما �
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 
-- زئوس (رعد و برق)**: این Wallet موبایل رعد و برق می‌تواند به نود رعد و برق شما در Umbrel متصل شود. به جای پیکربندی نقطه پایانی به صورت `.onion'، به سادگی IP Tailscale از Umbrel خود و پورت API رعد و برق را تنظیم کنید. اتصال در مقایسه با Tor به صورت فوری خواهد بود.
+- **زئوس (رعد و برق)**: این Wallet موبایل رعد و برق می‌تواند به نود رعد و برق شما در Umbrel متصل شود. به جای پیکربندی نقطه پایانی به صورت `.onion`، به سادگی IP Tailscale از Umbrel خود و پورت API رعد و برق را تنظیم کنید. اتصال در مقایسه با Tor به صورت فوری خواهد بود.
 
 
 
@@ -439,13 +439,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 برای کسب اطلاعات بیشتر درباره Lightning Network و نحوه عملکرد آن بر روی Umbrel، به اینجا مراجعه کنید:
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 
@@ -483,7 +483,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 ---
 
-برای نتیجه‌گیری این بخش، ادغام Tailscale بر روی Umbrel تنها با چند کلیک انجام می‌شود و **به طور قابل توجهی دسترسی** به نود خودمیزبان شما را بهبود می‌بخشد. شما قادر خواهید بود Umbrel و خدمات آن را از هر جایی، به صورت امن و کارآمد، درست مانند زمانی که در خانه هستید، مدیریت کنید. این یک راه‌حل بسیار مفید برای برنامه‌های کاربردی بلادرنگ (Lightning) است که از تأخیر Tor رنج می‌برند، یا به طور کلی برای هر خودمیزبانی که به دنبال یک اتصال خصوصی ساده است. همه این‌ها بدون باز کردن حتی یک پورت** بر روی جعبه شما و بدون پیکربندی شبکه پیچیده انجام می‌شود.
+برای نتیجه‌گیری این بخش، ادغام Tailscale بر روی Umbrel تنها با چند کلیک انجام می‌شود و **به طور قابل توجهی دسترسی** به نود خودمیزبان شما را بهبود می‌بخشد. شما قادر خواهید بود Umbrel و خدمات آن را از هر جایی، به صورت امن و کارآمد، درست مانند زمانی که در خانه هستید، مدیریت کنید. این یک راه‌حل بسیار مفید برای برنامه‌های کاربردی بلادرنگ (Lightning) است که از تأخیر Tor رنج می‌برند، یا به طور کلی برای هر خودمیزبانی که به دنبال یک اتصال خصوصی ساده است. همه این‌ها بدون باز کردن حتی یک پورت بر روی جعبه شما و بدون
 
 
 
@@ -507,7 +507,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-**اشتراک‌گذاری دستگاه به شما این امکان را می‌دهد که فردی را دعوت کنید تا به یک دستگاه خاص دسترسی داشته باشد بدون اینکه به کل شبکه شما دسترسی پیدا کند.
+**اشتراک‌گذاری دستگاه به شما این امکان را می‌دهد که فردی را دعوت کنید تا به یک دستگاه خاص دسترسی داشته باشد بدون اینکه به کل شبکه شما دسترسی پیدا کند.**
 
 
 
@@ -531,7 +531,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-**به عنوان یک رقیب مستقیم، ZeroTier در Layer 2 (اترنت) فعالیت می‌کند و امکان پخش/چندپخشی را فراهم می‌کند، در حالی که Tailscale در Layer 3 (IP) فعالیت می‌کند. ZeroTier انعطاف‌پذیری شبکه بیشتری ارائه می‌دهد، در حالی که Tailscale سادگی استفاده را ترجیح می‌دهد.
+**به عنوان یک رقیب مستقیم، ZeroTier در Layer 2 (اترنت) فعالیت می‌کند و امکان پخش/چندپخشی را فراهم می‌کند، در حالی که Tailscale در Layer 3 (IP) فعالیت می‌کند. ZeroTier انعطاف‌پذیری شبکه بیشتری ارائه می‌دهد، در حالی که Tailscale سادگی استفاده را ترجیح می‌دهد.**
 
 
 
@@ -557,8 +557,8 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-- سادگی و عملکرد** - نصب سریع بر روی تمامی پلتفرم‌ها بدون پیکربندی پیچیده شبکه. ترافیک از مستقیم‌ترین مسیر بین ماشین‌های شما (مش P2P) پیروی می‌کند، با عملکرد پروتکل WireGuard و بدون سرور مرکزی برای محدود کردن توان عملیاتی.
-- امنیت و انعطاف‌پذیری** - رمزگذاری سرتاسری، کاهش سطح حمله، و ویژگی‌های پیشرفته (ACL، احراز هویت SSO/MFA). حتی در پشت NATها یا در حال حرکت کار می‌کند، با روترهای زیرشبکه و گره‌های خروجی برای تطبیق شبکه با نیازهای شما.
+- **سادگی و عملکرد** - نصب سریع بر روی تمامی پلتفرم‌ها بدون پیکربندی پیچیده شبکه. ترافیک از مستقیم‌ترین مسیر بین ماشین‌های شما (مش P2P) پیروی می‌کند، با عملکرد پروتکل WireGuard و بدون سرور مرکزی برای محدود کردن توان عملیاتی.
+- **امنیت و انعطاف‌پذیری** - رمزگذاری سرتاسری، کاهش سطح حمله، و ویژگی‌های پیشرفته (ACL، احراز هویت SSO/MFA). حتی در پشت NATها یا در حال حرکت کار می‌کند، با روترهای زیرشبکه و گره‌های خروجی برای تطبیق شبکه با نیازهای شما.
 
 
 
@@ -568,12 +568,12 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-- وابستگی خارجی** - در نسخه استاندارد، این سرویس به زیرساخت Tailscale Inc. متکی است. این وابستگی می‌تواند از طریق Headscale (گزینه میزبانی شخصی) دور زده شود.
-- محدودیت‌های دیگر** - کد منبع نیمه‌بسته، محدودیت‌های نسخه رایگان برای برخی استفاده‌های پیشرفته، عدم پشتیبانی از Layer 2 (پخش/چندپخشی)، و نیاز به دسترسی به اینترنت برای برقراری اتصالات.
+- **وابستگی خارجی** - در نسخه استاندارد، این سرویس به زیرساخت Tailscale Inc. متکی است. این وابستگی می‌تواند از طریق Headscale (گزینه میزبانی شخصی) دور زده شود.
+- **محدودیت‌های دیگر** - کد منبع نیمه‌بسته، محدودیت‌های نسخه رایگان برای برخی استفاده‌های پیشرفته، عدم پشتیبانی از Layer 2 (پخش/چندپخشی)، و نیاز به دسترسی به اینترنت برای برقراری اتصالات.
 
 
 
-**Tailscale برای میزبان‌های خودکار فردی و تیم‌های کوچک، توسعه‌دهندگانی که نیاز به دسترسی به منابع پراکنده دارند، مبتدیان VPN و کاربران موبایل ایده‌آل است. برای شرکت‌هایی که نیاز به کنترل کامل دارند، راه‌حل‌های دیگری مانند Headscale یا مستقیماً WireGuard ممکن است ترجیح داده شوند.
+**Tailscale برای میزبان‌های خودکار فردی و تیم‌های کوچک، توسعه‌دهندگانی که نیاز به دسترسی به منابع پراکنده دارند، مبتدیان VPN و کاربران موبایل ایده‌آل است. برای شرکت‌هایی که نیاز به کنترل کامل دارند، راه‌حل‌های دیگری مانند Headscale یا مستقیماً WireGuard ممکن است ترجیح داده شوند.**
 
 
 
@@ -595,9 +595,9 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-- مرکز مستندات Tailscale**: [docs.tailscale.com](https://docs.tailscale.com) - مستندات کامل به زبان انگلیسی، راهنماهای نصب، آموزش‌ها و مراجع فنی.
-- چگونه Tailscale کار می‌کند**: [چگونه Tailscale کار می‌کند](https://tailscale.com/blog/how-tailscale-works) - مقاله‌ای جامع که به توضیح عملکرد داخلی Tailscale می‌پردازد.
-- تغییرات**: [tailscale.com/changelog](https://tailscale.com/changelog) - پیگیری به‌روزرسانی‌ها و ویژگی‌های جدید.
+- **مرکز مستندات Tailscale**: [docs.tailscale.com](https://docs.tailscale.com) - مستندات کامل به زبان انگلیسی، راهنماهای نصب، آموزش‌ها و مراجع فنی.
+- **چگونه Tailscale کار می‌کند**: [چگونه Tailscale کار می‌کند](https://tailscale.com/blog/how-tailscale-works) - مقاله‌ای جامع که به توضیح عملکرد داخلی Tailscale می‌پردازد.
+- **تغییرات**: [tailscale.com/changelog](https://tailscale.com/changelog) - پیگیری به‌روزرسانی‌ها و ویژگی‌های جدید.
 
 
 
@@ -608,8 +608,8 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 - آموزش‌های **Homelab**: [tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - راهنماهای خاص برای میزبانی شخصی.
-- پیکربندی یک نود خروجی**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - راهنمای جامع برای پیکربندی نودهای خروجی.
-- از Taildrop استفاده کنید**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - انتقال فایل‌ها بین دستگاه‌های Tailscale.
+- **پیکربندی یک نود خروجی**: [tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - راهنمای جامع برای پیکربندی نودهای خروجی.
+- از **Taildrop استفاده کنید**: [tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - انتقال فایل‌ها بین دستگاه‌های Tailscale.
 
 
 
@@ -619,7 +619,7 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-- Tailscale در مقابل سایر راه‌حل‌ها**: [tailscale.com/compare](https://tailscale.com/compare) - مقایسه‌های دقیق با سایر راه‌حل‌های VPN و شبکه (ZeroTier، OpenVPN و غیره).
+- **Tailscale در مقابل سایر راه‌حل‌ها**: [tailscale.com/compare](https://tailscale.com/compare) - مقایسه‌های دقیق با سایر راه‌حل‌های VPN و شبکه (ZeroTier، OpenVPN و غیره).
 
 
 
@@ -629,9 +629,9 @@ https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-
 
 
 
-- Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - بحث‌ها، سوالات و بازخوردها.
-- GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - کد منبع مشتری، جایی برای پیگیری توسعه و گزارش مشکلات.
-- Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - جامعه‌ای از کاربران و توسعه‌دهندگان.
+- **Reddit**: [r/Tailscale](https://www.reddit.com/r/tailscale/) - بحث‌ها، سوالات و بازخوردها.
+- **GitHub**: [github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - کد منبع مشتری، جایی برای پیگیری توسعه و گزارش مشکلات.
+- **Discord**: [discord.gg/tailscale](https://discord.gg/tailscale) - جامعه‌ای از کاربران و توسعه‌دهندگان.
 
 
 

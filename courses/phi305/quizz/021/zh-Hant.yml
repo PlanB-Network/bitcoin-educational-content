@@ -1,0 +1,9 @@
+question: René Descartes？
+answer: 先於斯賓諾莎。
+wrong_answers:
+  - 是斯賓諾莎的繼承人。
+  - 是一位瑞士哲學家。
+  - 是一位無神論者哲學家。
+explanation: |
+  René Descartes (1596-1650) 早於 Spinoza，被認為是現代理性主義之父。斯賓諾莎受到笛卡爾的影響，但他所發展的哲學體系與笛卡爾主義有很大的不同。
+reviewed: false

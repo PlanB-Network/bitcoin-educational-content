@@ -1,9 +1,9 @@
-question: Kwa nini tunalipa ada katika Bitcoin?
-answer: Kuunda soko huria la kujumuisha miamala kwenye vitalu.
+question: Kulingana na mshindi wa Tuzo ya Nobel F.A Hayek, ni nini lazima kifanyike ili kuwa na pesa nzuri tena?
+answer: Tunaondoa jambo hilo mikononi mwa serikali.
 wrong_answers:
-  - Kuanzisha jinsi ya kuchimba Bitcoin.
-  - Kuwaacha matajiri walipe zaidi.
-  - Kuondoa serikali kwenye mtandao.
+  - Tunatoa jambo hilo kwa serikali bora.
+  - Tunatoa jambo hilo kwa serikali ya kimabavu.
+  - Tunaondoa jambo hilo mikononi mwa watu.
 explanation: |
-  Ada ni muhimu ili kuunda soko huria la kujumuisha miamala kwenye vitalu. Kwa kweli, block ina ukubwa wa 1 MB (ambayo ilipanuliwa hadi 4MB baada ya sasisho la SegWit), hivyo idadi ya shughuli ambazo zinaweza "kuingizwa" katika block ni mdogo kwa shughuli elfu chache kwa kila block.
+  Hayek anasema: "Siamini kwamba tunapaswa kuwa na pesa nzuri tena, kabla hatujaondoa jambo hilo mikononi mwa serikali. Ikiwa hatuwezi kuwaondoa kwa jeuri kutoka mikononi mwa serikali, tunachoweza kufanya ni kwa njia fulani ya ujanja au ya kuzunguka-zunguka kuanzisha kitu ambacho hawawezi kuacha."
 reviewed: true

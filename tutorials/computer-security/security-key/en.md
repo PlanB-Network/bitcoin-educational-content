@@ -10,7 +10,7 @@ Nowadays, two-factor authentication (2FA) has become essential for enhancing the
 
 In another tutorial, I explained how to set up and use a TOTP 2FA application:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Here, we will see how to use a physical security key as a second factor of authentication for all your accounts.
 

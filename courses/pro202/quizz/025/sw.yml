@@ -1,0 +1,8 @@
+question: Katika uthibitishaji wa miamala ya P2PKH, ni mfuatano gani maalum wa shughuli ambao ScriptPubKey hufanya ili kuthibitisha masharti ya matumizi?
+answer: Hunakili ufunguo wa umma, huharakisha, hulinganisha na hash iliyoainishwa, kisha huthibitisha sahihi
+wrong_answers:
+  - Huhamisha sahihi, hulinganisha na hashi ya ufunguo wa umma, kisha huthibitisha dhidi ya thamani iliyoainishwa
+  - Huthibitisha sahihi kwanza, kisha huhamisha ufunguo wa umma na kulinganisha na hash iliyoainishwa
+  - Huchanganya sahihi na ufunguo wa umma, huharakisha matokeo, kisha hulinganisha na hash iliyoainishwa
+explanation: |
+  ScriptPubKey ya P2PKH inafuata mfuatano maalum: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Hii inarudia ufunguo wa umma uliotolewa, inatumika SHA256 kisha RIPEMD160 hashing, inathibitisha matokeo yanalingana na hash iliyofanywa, na hatimaye huangalia sahihi. Chaguo zingine zinaelezea vibaya mpangilio wa shughuli au zinapendekeza sahihi za hashing badala ya funguo za umma, ambazo zingevunja mantiki ya uthibitisho.

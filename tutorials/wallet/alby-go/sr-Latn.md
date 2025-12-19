@@ -16,11 +16,11 @@ description: Vodič za mobilnu aplikaciju Alby Go
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(preporučeno)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(netestirano)*
-- Primal** *(netestirano)*
-- Minibits** *(netestirano)*
+- [Alby Hub](https://albyhub.com/) **(preporučeno)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(netestirano)*
+- **Primal** *(netestirano)*
+- **Minibits** *(netestirano)*
 
 
 Većina usluga sa omogućenim NWC bi trebalo da radi. Ako testirate novu, obavestite zajednicu o vašim rezultatima!
@@ -33,9 +33,9 @@ Dostupno na glavnim platformama:
 
 
 
-- iOS:** [Preuzmi sa App Store-a](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Preuzmi sa Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Preuzmi sa App Store-a](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Preuzmi sa Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 

@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin ist anfällig für Sybil-Attacken
   - Bitcoin ist deflationär
 explanation: |
-  Er [kritisierte](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin dafür, Elektrizität zu verbrauchen und Kohlendioxid (ein Treibhausgas) zu erzeugen.
-reviewed: false
+  Er [kritisierte](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html) Bitcoin dafür, Elektrizität zu verbrauchen und Kohlendioxid (ein Treibhausgas) zu erzeugen.
+reviewed: true

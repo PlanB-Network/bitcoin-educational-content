@@ -66,4 +66,4 @@ b2e00517
 
 Et olla kehtiv, peab plokil olema päis, mis pärast "SHA256d"-ga hashimist annab tulemuseks hashi, mis on väiksem või võrdne raskusastmega.
 
-> ► *Inglise keeles nimetatakse seda "Block Header"
+> ► *Inglise keeles nimetatakse seda "Block Header"*

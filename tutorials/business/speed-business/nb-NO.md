@@ -1,5 +1,5 @@
 ---
-name: Hastighet Wallet - PoS
+name: Speed Wallet - POS
 description: Integrer enkelt Bitcoin- og stablecoin-betalinger i virksomheten din
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Den verdensomspennende adopsjonen av Bitcoin er basert på konkrete brukstilfell
 
 
 
-[Speed Business] (https://www.tryspeed.com/) er en plattform utviklet av [Speed Wallet] (https://www.speed.app/) som gjør det mulig for alle selgere å integrere umiddelbare, rimelige Bitcoin- og stablecoin-betalinger.
+[Speed Business](https://www.tryspeed.com/) er en plattform utviklet av [Speed Wallet](https://www.speed.app/) som gjør det mulig for alle selgere å integrere umiddelbare, rimelige Bitcoin- og stablecoin-betalinger.
 
 
 
@@ -28,29 +28,29 @@ Speed har et bredt spekter av funksjoner for å dekke de økonomiske aspektene v
 
 
 
-- Konfigurasjon for nettbetaling**: Motta betalinger fra kundene dine uansett hvor de befinner seg, takket være nettstedet ditt.
+- **Konfigurasjon for nettbetaling**: Motta betalinger fra kundene dine uansett hvor de befinner seg, takket være nettstedet ditt.
 
 
 
 
 
-- Betalinger på stedet**: Ideell for butikker og virksomheter som tar imot kontanter i butikken.
+- **Betalinger på stedet**: Ideell for butikker og virksomheter som tar imot kontanter i butikken.
 
 
 
 
 
-- Uttak**: Ta ut eiendelene dine uten problemer og bruk bitcoins til å betale tilbake kunder og lønninger.
+- **Uttak**: Ta ut eiendelene dine uten problemer og bruk bitcoins til å betale tilbake kunder og lønninger.
 
 
 
 
 
-- Tilkobling til andre plattformer**: Bruker du eksterne verktøy for å administrere betalingene dine? Speed gir deg muligheten til å koble dem til plattformen, slik at du får et alt-i-ett-økosystem som gjenspeiler virksomheten din.
+- **Tilkobling til andre plattformer**: Bruker du eksterne verktøy for å administrere betalingene dine? Speed gir deg muligheten til å koble dem til plattformen, slik at du får et alt-i-ett-økosystem som gjenspeiler virksomheten din.
 
 
 
-Opprett kontoen din på [Speed] (https://app.tryspeed.com/register/), så begynner vi å sette opp betalinger for bedriften din.
+Opprett kontoen din på [Speed](https://app.tryspeed.com/register/), så begynner vi å sette opp betalinger for bedriften din.
 
 
 
@@ -94,13 +94,13 @@ Når du deaktiverer testmodus, må du konfigurere uttaksporteføljen din.
 
 
 
-Hvis du ennå ikke eier en Bitcoin og/eller Lightning Wallet, anbefaler vi at du tar en titt på våre [mobile lommebøker] veiledninger (https://planb.network/tutorials/wallet).
+Hvis du ennå ikke eier en Bitcoin og/eller Lightning Wallet, anbefaler vi at du tar en titt på våre [mobile lommebøker] veiledninger (https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **VIKTIG**: Når du konfigurerer porteføljen din, bør du velge typen **BTC (On-Chain)** når du mottar store beløp, i størrelsesorden tusenvis av euro, for å sikre pålitelig bekreftelse på Bitcoin, og typen **LN Address** når du ønsker å motta øyeblikkelige mikrobetalinger i virksomheten din.
 
@@ -265,13 +265,13 @@ I menyen **Send betalinger** finner du alle alternativene speed har å tilby for
 
 
 
-- Øyeblikkelige betalinger**: Med Instant Send-alternativet kan du sende bitcoins sikkert og umiddelbart fra selgerkontoen din.
+- **Øyeblikkelige betalinger**: Med Instant Send-alternativet kan du sende bitcoins sikkert og umiddelbart fra selgerkontoen din.
 
 
 
 
 
-- generate uttakslenker** som gjør det mulig for partnere og leverandører å få tilgang til betalingen på et senere tidspunkt uten at du trenger å være til stede på nettet.
+- generate **uttakslenker** som gjør det mulig for partnere og leverandører å få tilgang til betalingen på et senere tidspunkt uten at du trenger å være til stede på nettet.
 
 
 
@@ -289,7 +289,7 @@ I alternativet **Utbetalingslenker** oppretter du en ny uttakslenke og konfigure
 
 
 
-- Utbetalinger**: I menyen Utbetalinger kan du starte uttak fra Speed Business-saldoen din til din personlige Wallet.
+- **Utbetalinger**: I menyen Utbetalinger kan du starte uttak fra Speed Business-saldoen din til din personlige Wallet.
 
 
 
@@ -299,7 +299,7 @@ I alternativet **Utbetalingslenker** oppretter du en ny uttakslenke og konfigure
 
 
 
-- Rabatter**: Oppmuntre stamkundene dine ved å sette opp rabattalternativer for å opptjene bonuser.
+- **Rabatter**: Oppmuntre stamkundene dine ved å sette opp rabattalternativer for å opptjene bonuser.
 
 
 
@@ -371,7 +371,7 @@ I **Utviklere**-menyen oppretter du offentlige og private nøkler for å bruke S
 
 
 
-Finn den komplette [dokumentasjonen] (https://apidocs.tryspeed.com/reference/introduction) for bedre integrering av Speed Business.
+Finn den komplette [dokumentasjonen](https://apidocs.tryspeed.com/reference/introduction) for bedre integrering av Speed Business.
 
 
 
@@ -435,5 +435,4 @@ Du har fått en god forståelse av Speed, integrerer Bitcoin i virksomheten din 
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

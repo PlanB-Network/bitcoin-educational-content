@@ -1,0 +1,8 @@
+question: Vilken matematisk egenskap gör det beräkningsmässigt omöjligt att vända operationen k-P på en elliptisk kurva?
+answer: Det diskreta logaritmproblemet
+wrong_answers:
+  - Modulär aritmetik för ändliga fält
+  - Egenskapen punkt vid oändlighet
+  - Kurvans ekvation y² = x³ + 7
+explanation: |
+  Det diskreta logaritmproblemet är den matematiska grund som gör elliptisk kurvkryptografi säker. Att beräkna k-P (skalär multiplikation) är beräkningsmässigt enkelt, men att hitta k när P och k-P ges är extremt svårt - detta är känt som den elliptiska kurvans diskreta logaritmproblem. De andra alternativen är viktiga matematiska komponenter men utgör inte säkerhetsbarriären: aritmetik med ändliga fält möjliggör operationerna, punkten i oändligheten fungerar som identitetselement och kurvekvationen definierar strukturen, men inget av dessa skapar den beräkningsmässiga ogenomförbarhet som skyddar Bitcoin:s kryptografiska säkerhet.

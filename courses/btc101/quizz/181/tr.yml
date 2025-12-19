@@ -1,13 +1,8 @@
-question: Bitcoin'ın kendisini geleneksel pazara daha fazla entegre etmesinin bir yolu nedir?
-answer: Bitcoin ETF'lerin gelişi.
+question: BTCMap nedir?
+answer: Bitcoin kabul eden tüm tüccarları listeleyen bir platform.
 wrong_answers:
-  - Bitcoin'nin yasaklanması.
-  - Tüm kripto para birimlerinin ortadan kalkması.
-  - Bitcoin'ün oluşturulması.
-explanation: |
-  Bitcoin hayatta kalmaya ve daha da büyümeye devam ediyor
-  kendisini giderek daha fazla geleneksel
-  piyasa. Bitcoin ETF'lerin gelişi, daha net düzenlemeler,
-  ve depolama araçlarının daha iyi edinilmesi sadece bunu teşvik eder
-  trend.
+  - Dünyadaki tüm Bitcoin madenlerinin bir haritası.
+  - Dünyadaki tüm Bitcoin borsalarının bir haritası.
+  - Dünyadaki tüm Bitcoin kullanıcılarının bir haritası.
+explanation: >-
 reviewed: true

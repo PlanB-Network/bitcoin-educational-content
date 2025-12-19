@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Grønn
+name: Jade Plus - Green
 description: Konfigurer enkelt Jade Plus med Green
 ---
 ![cover](assets/cover.webp)
@@ -36,7 +36,7 @@ blueWallet | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
 
 I denne veiledningen setter vi opp og bruker Jade Plus med Blockstreams mobilapp Green Wallet via en Bluetooth-tilkobling. Dette oppsettet er ideelt for nybegynnere. Hvis du er ute etter en mer avansert tilnærming, anbefaler jeg at du tar en titt på denne veiledningen, der vi bruker Jade Plus med Sparrow Wallet i QR-kodemodus:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Sikkerhetsmodellen Jade Plus
 
@@ -101,7 +101,7 @@ Klikk på "*Fortsett*"-knappen for å vise den nye gjenopprettingsfrasen.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Jade Plus viser din 12-ord lange huskeregel. **Denne huskeregelen gir deg full, ubegrenset tilgang til alle bitcoinsene dine. Alle som er i besittelse av denne frasen kan stjele pengene dine, selv uten fysisk tilgang til din Jade Plus. Frasen på 12 ord gjenoppretter tilgangen til bitcoinsene dine i tilfelle tap, tyveri eller ødeleggelse av din Jade. Det er derfor svært viktig å lagre den nøye og oppbevare den på et sikkert sted.
+Jade Plus viser din 12-ord lange huskeregel. **Denne huskeregelen gir deg full, ubegrenset tilgang til alle bitcoinsene dine. Alle som er i besittelse av denne frasen kan stjele pengene dine, selv uten fysisk tilgang til din Jade Plus. Frasen på 12 ord gjenoppretter tilgangen til bitcoinsene dine i tilfelle tap, tyveri eller ødeleggelse av din Jade. Det er derfor svært viktig å lagre den nøye og oppbevare den på et sikkert sted.**
 
 Du kan skrive det på pappen som følger med i esken, eller for ekstra sikkerhet anbefaler jeg å gravere det på en sokkel i rustfritt stål for å beskytte det mot brann, oversvømmelse eller kollaps.
 
@@ -109,9 +109,9 @@ Du kan skrive det på pappen som følger med i esken, eller for ekstra sikkerhet
 
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Du må selvsagt aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen
+**Du må selvsagt aldri dele disse ordene på Internett, slik jeg gjør i denne veiledningen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen**
 
 Klikk på pilen til høyre på skjermen for å vise følgende ord.
 
@@ -125,11 +125,11 @@ Når du har lagret frasen din, ber Jade Plus deg om å bekrefte den. Velg riktig
 
 I denne veiledningen bruker vi Green Wallet-applikasjonen til å administrere lommeboken som ligger på Jade Plus. Denne metoden er spesielt egnet for nybegynnere. Hvis du ønsker å administrere Bitcoin-lommeboken din mer detaljert, kan du også bruke Sparrow Wallet, som vi vil dekke i en egen veiledning:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 For instruksjoner om hvordan du installerer og konfigurerer Blockstream Green-applikasjonen, se første del av denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Når du er inne på Blockstream Green-applikasjonen, klikker du på knappen "*Konfigurer en ny portefølje*".
 
@@ -207,7 +207,7 @@ Velg "*Standard*" hvis du ønsker å opprette en klassisk portefølje med én si
 
 Hvis du vil ha mer informasjon om "*2FA*"-alternativet, kan du følge denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Kontoen din er opprettet.
 
@@ -229,11 +229,11 @@ Skriv deretter inn PIN-koden på Jade, og du vil være tilkoblet igjen.
 
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
-Jade låses opp via Blockstreams "virtuelle sikre element" (se første del av denne veiledningen). Dette krever en Bluetooth-forbindelse med Green-applikasjonen. Hvis du støter på problemer med Bluetooth-tilkoblingen under opplåsingen, kan du prøve å koble fra og koble til de to enhetene på nytt. Hvis problemet vedvarer, kan du likevel låse opp Jade ved å velge alternativet "*QR Scan*" og følge instruksjonene som er tilgjengelige [på Blockstreams nettsted] (https://jadefw.blockstream.com/pinqr/index.html).
+Jade låses opp via Blockstreams "virtuelle sikre element" (se første del av denne veiledningen). Dette krever en Bluetooth-forbindelse med Green-applikasjonen. Hvis du støter på problemer med Bluetooth-tilkoblingen under opplåsingen, kan du prøve å koble fra og koble til de to enhetene på nytt. Hvis problemet vedvarer, kan du likevel låse opp Jade ved å velge alternativet "*QR Scan*" og følge instruksjonene som er tilgjengelige [på Blockstreams nettsted](https://jadefw.blockstream.com/pinqr/index.html).
 
 Før du mottar dine første bitcoins i lommeboken din, ** anbefaler jeg deg på det sterkeste å utføre en tom gjenopprettingstest**. Noter litt referanseinformasjon, for eksempel din xpub eller første mottaksadresse, og slett deretter lommeboken din i Green-appen og på Jade Plus mens den fortsatt er tom (`Options -> Device -> Factory Reset`). Prøv deretter å gjenopprette lommeboken din ved hjelp av papirsikkerhetskopiene av den mnemoniske frasen. Sjekk at cookie-informasjonen som genereres etter gjenopprettingen samsvarer med den du opprinnelig skrev ned. Hvis den gjør det, kan du være trygg på at papirsikkerhetskopiene dine er pålitelige. Hvis du vil vite mer om hvordan du utfører en testgjenoppretting, kan du lese denne andre veiledningen :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Motta bitcoins
 
@@ -267,7 +267,7 @@ Velg betalingsbeløpet.
 
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
-Nederst på skjermen kan du velge gebyrsats for denne transaksjonen. Du kan velge om du vil følge programmets anbefalinger eller tilpasse gebyrene selv. Jo høyere gebyret er i forhold til andre ventende transaksjoner, desto raskere vil transaksjonen bli behandlet. For informasjon om gebyrmarkedet, se [Mempool.space] (https://mempool.space/) i delen "*Transaksjonsgebyrer*".
+Nederst på skjermen kan du velge gebyrsats for denne transaksjonen. Du kan velge om du vil følge programmets anbefalinger eller tilpasse gebyrene selv. Jo høyere gebyret er i forhold til andre ventende transaksjoner, desto raskere vil transaksjonen bli behandlet. For informasjon om gebyrmarkedet, se [Mempool.space](https://mempool.space/) i delen "*Transaksjonsgebyrer*".
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
 
@@ -299,5 +299,6 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Jade Plus med Blockstre
 
 For å ta ting et skritt videre, anbefaler jeg denne veiledningen om Jade Plus, der vi konfigurerer den med Sparrow Wallet-programvaren i QR-modus. Du lærer også hvordan du bruker de avanserte innstillingene til maskinvarelommeboken din:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

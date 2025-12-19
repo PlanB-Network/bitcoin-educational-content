@@ -1,0 +1,9 @@
+question: Kas Immanuel Kant oli?
+answer: Saksa valgustusfilosoof.
+wrong_answers:
+  - Inglise filosoof ja Newtoni õpilane
+  - 17. sajandi filosoof.
+  - Kristlik filosoof.
+explanation: |
+  Immanuel Kant (1724-1804) oli saksa valgustusfilosoof. Ta töötas välja kriitilise filosoofia, mis mõjutas sügavalt kaasaegset mõtlemist, eelkõige oma "Puhta mõistuse kriitikaga".
+reviewed: false

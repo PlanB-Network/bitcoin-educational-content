@@ -73,15 +73,15 @@ Tando hukuruhusu kutumia bitcoins zako kununua chochote M-Pesa inaweza kununua n
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- Changanua ili Kulipa** :
+- **Changanua ili Kulipa** :
 
 
 
@@ -95,11 +95,11 @@ Kuchanganua ili kulipa ni mojawapo ya chaguo za malipo kiotomatiki za programu. 
 
 
 
-- Kutuma pesa Kenya** :
+- **Kutuma pesa Kenya** :
 
 
 
-Chaguo la Tando la kutuma pesa hukuwezesha kutuma pesa nchini Kenya kutoka popote duniani. Kwa hivyo unaweza kufanya miamala ya kuvuka mpaka na barani, bila ada kubwa, hadi Kenya ukitumia umeme wako wa Wallet.
+Chaguo la Tando la kutuma pesa hukuwezesha kutuma pesa nchini Kenya kutoka popote duniani. Kwa hivyo unaweza kufanya miamala ya kuvuka mipaka na barani, bila ada kubwa, hadi Kenya ukitumia umeme wako wa Wallet.
 
 
 
@@ -121,7 +121,7 @@ Lipa bili kutoka kwa Umeme Wallet yako na Tando itaibadilisha kuwa shilingi ya K
 
 
 
-- Lipa bili zako** :
+- **Lipa bili zako** :
 
 
 
@@ -135,7 +135,7 @@ Weka nambari ya Invoice unayotaka kulipa, kisha uendelee kulipa Umeme unaohusish
 
 
 
-- Kununua bidhaa** :
+- **Kununua bidhaa** :
 
 
 
@@ -159,4 +159,4 @@ Mipango zaidi na zaidi kama vile Tando inachipuka katika jumuiya za Kiafrika, gu
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

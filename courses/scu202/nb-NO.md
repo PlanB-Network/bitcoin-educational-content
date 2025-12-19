@@ -156,7 +156,7 @@ Er du klar til å ta full kontroll over IT-sikkerheten din, styrke din individue
 
 
 
-*NB: Hvis du støter på ukjente begreper i løpet av kurset, kan du slå opp i [ordlisten] (https://planb.network/resources/glossary) for definisjoner
+**NB:** Hvis du støter på ukjente begreper i løpet av kurset, kan du slå opp i [ordlisten](https://planb.academy/resources/glossary) for definisjoner
 
 
 
@@ -179,7 +179,7 @@ SCU101-kurset var et introduksjonskurs som skulle gi nybegynnere og viderekomne 
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Sikker surfing på nettet
 
@@ -403,7 +403,7 @@ Linux er fortsatt i mindretall på personlige datamaskiner (ca. 4 %), men domine
 
 
 
-*Kilde: April 2025: [StatCounter Global Stats - OS Market Share] (https://gs.statcounter.com/os-market-share/desktop/worldwide)*
+*Kilde: April 2025: [StatCounter Global Stats - OS Market Share](https://gs.statcounter.com/os-market-share/desktop/worldwide)*
 
 
 
@@ -694,7 +694,7 @@ Richard Stallman kritiserer åpent bruken av begrepet "åpen kildekode", som han
 
 
 
-*Kilde: Nathaniel Welch Nathaniel Welch
+*Kilde: Nathaniel Welch* Nathaniel Welch
 
 
 
@@ -746,7 +746,7 @@ Hver Linux-distribusjon inkluderer :
 
 
 
-- linux-kjernen**, som kommuniserer med maskinvaren og administrerer systemressurser (CPU, minne, disker osv.)
+- **linux-kjernen**, som kommuniserer med maskinvaren og administrerer systemressurser (CPU, minne, disker osv.)
 - en **bootloader**, for eksempel *GRUB*, for å starte systemet
 - et **initialiseringssystem** som gjør det mulig å starte tjenester ved oppstart: *systemd*, *OpenRC*, *SysV init* eller *runit*, avhengig av distribusjonens filosofiske valg
 - et **pakkehåndteringssystem**, som lar deg installere, oppdatere og fjerne programvare. De vanligste er *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) eller *APK* (Alpine)
@@ -794,7 +794,7 @@ Disse tidlige anstrengelsene markerte starten på Linux-distribusjonene:
 
 
 
-- Februar 1992: MCC Interim Linux**
+- Februar 1992: MCC Interim **Linux**
 
 
 
@@ -804,7 +804,7 @@ MCC Interim Linux ble utviklet ved University of Manchester og regnes som den al
 
 
 
-- Mai 1992: Softlanding Linux System (SLS)**
+- Mai 1992: Softlanding Linux System (SLS)
 
 
 
@@ -826,7 +826,7 @@ SLS eksisterer ikke lenger. Den siste kjente versjonen stammer fra slutten av 19
 
 
 
-- Juli 1993: Slackware**
+- Juli 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ Slackware vedlikeholdes fortsatt i dag, noe som gjør det til den eldste Linux-d
 
 
 
-- August 1993: Debian**
+- August 1993: **Debian**
 
 
 
@@ -872,7 +872,7 @@ Fra et teknisk synspunkt utmerket Debian seg fra starten av med kvaliteten på p
 
 
 
-*Debian 1.3 (1997). Kilde: The Linux Distribution Archive*: Linux-distribusjonsarkivet*
+*Debian 1.3 (1997). Kilde: The Linux Distribution Archive: Linux-distribusjonsarkivet*
 
 
 
@@ -886,7 +886,7 @@ Debian ble dermed en av de tekniske og ideologiske grunnpilarene i GNU/Linux-ver
 
 
 
-- 1994: Red Hat Linux**
+- 1994: **Red Hat Linux**
 
 
 
@@ -974,7 +974,7 @@ Denne tilnærmingen er basert på en *rullende utgivelsesmodell*, der pakkene op
 
 Arch Linux er først og fremst rettet mot avanserte brukere som ønsker total kontroll over miljøet sitt, samtidig som de aksepterer en viss kompleksitet i installasjon og vedlikehold. Dette tekniske kravet har ført til fremveksten av flere avledede distribusjoner som tar sikte på å demokratisere bruken.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 Den mest kjente er Manjaro, som beholder Archs tekniske base samtidig som den tilbyr forenklet installasjon, forhåndskonfigurerte skrivebordsmiljøer og en noe forsinket utgivelsessyklus for å stabilisere oppdateringene.
 
@@ -1032,7 +1032,7 @@ ChromeOS, operativsystemet som Google har utviklet for sine Chromebook-maskiner,
 
 
 
-For å finne ut mer om Linux-distribusjonsfamiliene og visualisere forgreningene til hver av dem, anbefaler jeg at du konsulterer dette utmerkede og svært omfattende diagrammet på Wikimedia: [*Linux Distribution Timeline*] (https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
+For å finne ut mer om Linux-distribusjonsfamiliene og visualisere forgreningene til hver av dem, anbefaler jeg at du konsulterer dette utmerkede og svært omfattende diagrammet på Wikimedia: [*Linux Distribution Timeline*](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
 
 
 
@@ -1050,7 +1050,7 @@ Valget av Linux-distribusjon avhenger av dine spesifikke behov, ditt tekniske ni
 
 
 
-- Ubuntu**:
+- **Ubuntu**:
 
 
 
@@ -1062,11 +1062,11 @@ Ubuntu er utviklet av Canonical og lansert i 2004, og er en av verdens mest popu
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- Linux Mint**:
+- **Linux Mint**:
 
 
 
@@ -1074,7 +1074,7 @@ Linux Mint ble lansert i 2006 og er en distribusjon avledet fra Ubuntu, designet
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 Mint skiller seg ut med sin enkelhet, tilstedeværelsen av multimediekodeker som standard og et veldesignet oppdateringsverktøy. På den annen side er det i stor grad avhengig av Ubuntus infrastruktur, noe som gjør det avhengig av Ubuntus tekniske valg (spesielt på kjerne- og arkivnivå). Mint egner seg spesielt godt for ikke-tekniske brukere, eller de som ønsker et system som er klart til bruk og ikke krever for mye læring.
 
@@ -1086,7 +1086,7 @@ Mint skiller seg ut med sin enkelhet, tilstedeværelsen av multimediekodeker som
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,11 +1104,11 @@ Installasjonen er enkel, viktig programvare er forhåndsinstallert, og "Lite"-ve
 
 
 
-- elementært operativsystem**:
+- **elementært operativsystem**:
 
 Elementary OS ble lansert i 2011 og er en Ubuntu-basert distribusjon som først og fremst fokuserer på design og konsistens i Interface. Skrivebordsmiljøet Pantheon, som er inspirert av macOS, er minimalistisk, elegant og flytende. Systemet er imidlertid mindre tilpasningsdyktig enn andre distribusjoner, og noen avanserte brukere kan føle seg begrenset av Interfaces valgmuligheter og den bevisst fastlåste strukturen. Den egner seg godt for estetisk sensitive brukere som er ute etter et enkelt, sammenhengende system til hverdagsbruk.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- **Pop!OS**:
 
 
 
@@ -1140,7 +1140,7 @@ Pop!OS er utviklet av det amerikanske selskapet System76, og er også basert på
 
 
 
-- Fedora** (arbeidsstasjon eller KDE Plasma):
+- **Fedora** (arbeidsstasjon eller KDE Plasma):
 
 
 
@@ -1151,10 +1151,10 @@ Fedora er en Red Hat-støttet distribusjon, orientert mot de nyeste teknologiene
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed eller Leap):
+- **openSUSE** (Tumbleweed eller Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE er tilgjengelig som en rullerende eller stabil distribusjon. Den har Ya
 
 
 
-- Debian**:
+- **Debian**:
 
 
 
@@ -1179,10 +1179,10 @@ Debian finnes i flere grener, inkludert *Stable* (svært pålitelig, men eldre p
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- **Manjaro**:
 
 
 
@@ -1196,7 +1196,7 @@ Manjaro er basert på Arch, og gjør Arch Linux tilgjengelig. Denne distribusjon
 
 
 
-- Arch Linux**:
+- **Arch Linux**:
 
 
 
@@ -1208,11 +1208,11 @@ Arch Linux er en minimalistisk, kontinuerlig oppdaterbar distribusjon som levere
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### Spesialisert distribusjon
 
-- Kali Linux**:
+- **Kali Linux**:
 
 Kali Linux er en Debian-basert distribusjon som er utviklet for penetrasjonstesting og sikkerhetsrevisjon. Den inneholder hundrevis av pentest-verktøy. Denne distribusjonen egner seg ikke som et hovedsystem for daglig bruk.
 
@@ -1224,7 +1224,7 @@ Kali Linux er en Debian-basert distribusjon som er utviklet for penetrasjonstest
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ Parrot OS er også avledet fra Debian. Den tilbyr et miljø for pentesting, offe
 
 
 
-- Haler**:
+- **Haler**:
 
 
 
@@ -1246,7 +1246,7 @@ Tails er en Debian-basert, personvernfokusert live-distribusjon. Alt går gjenno
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **Note:** En live-distribusjon er et Linux-operativsystem som kan brukes direkte fra en USB-pinne eller CD, uten installasjon på Hard-disken.
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ Qubes OS er basert på Fedora og bruker Xen-virtualiseringssystemet for å dele 
 
 
 
-- BlackArch**:
+- **BlackArch**:
 
 
 
@@ -1286,7 +1286,7 @@ BlackArch er en pentest-orientert utvidelse til Arch Linux (som Kali på Debian)
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1300,9 +1300,9 @@ PureOS er en Debian-avledet distribusjon utviklet av Purism, helt fri (FSF-godkj
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- Raspberry Pi OS**:
+- **Raspberry Pi OS**:
 
 Raspberry Pi OS (tidligere Raspbian) er en distribusjon optimalisert for Raspberry Pi-mikrodatamaskiner. Den er basert på Debian, med pakker som er rekompilert for ARM-arkitekturen. Den kan brukes til utdanningsprosjekter, elektronisk testing eller små personlige servere.
 
@@ -1314,7 +1314,7 @@ Raspberry Pi OS (tidligere Raspbian) er en distribusjon optimalisert for Raspber
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1326,7 +1326,7 @@ Whonix kombinerer Debian med Tor-nettverket i en to-VM-arkitektur (gateway + arb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Dette panoramaet gir deg en oversikt over det nåværende økosystemet for Linux-distribusjoner, slik at du kan velge den distribusjonen som passer best til din tekniske profil og dine mål.
 
@@ -1362,55 +1362,55 @@ Et skrivebordsmiljø i en Linux-distribusjon er ikke en enkelt applikasjon, men 
 
 
 
-- En vindusadministrator**: tegner vinduskanter, administrerer plassering, endring av størrelse og overgangseffekter... For eksempel Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **En vindusadministrator**: tegner vinduskanter, administrerer plassering, endring av størrelse og overgangseffekter... For eksempel Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- En filbehandler**: lar deg navigere gjennom katalogtreet og kopiere, flytte eller slette filer visuelt. Eksempler: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **En filbehandler**: lar deg navigere gjennom katalogtreet og kopiere, flytte eller slette filer visuelt. Eksempler: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Et konfigurasjonssenter**: Dette er et sett med verktøy som gjør det mulig for brukeren å endre systemparametere uten å gå via kommandolinjen: utseende, bakgrunn, brukeradministrasjon, nettverk, periferiutstyr...
+- **Et konfigurasjonssenter**: Dette er et sett med verktøy som gjør det mulig for brukeren å endre systemparametere uten å gå via kommandolinjen: utseende, bakgrunn, brukeradministrasjon, nettverk, periferiutstyr...
 
 
 
 
 
-- System-applets**: Dette er de små ikonene og interaktive modulene på oppgavelinjen (eller "panelet"), for eksempel lydkontroll, batterinivå, nettverkstilkobling, klokke...
+- **System-applets**: Dette er de små ikonene og interaktive modulene på oppgavelinjen (eller "panelet"), for eksempel lydkontroll, batterinivå, nettverkstilkobling, klokke...
 
 
 
 
 
-- Et panel eller dashbord**: en synlig linje, ofte øverst eller nederst på skjermen, som inneholder hovedmenyen, systemapplets, snarveier, varslingssone osv.
+- **Et panel eller dashbord**: en synlig linje, ofte øverst eller nederst på skjermen, som inneholder hovedmenyen, systemapplets, snarveier, varslingssone osv.
 
 
 
 
 
-- En øktadministrator**: Kjøres ved oppstart, viser påloggingsskjermen og starter den valgte grafiske økten. For eksempel: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **En øktadministrator**: Kjøres ved oppstart, viser påloggingsskjermen og starter den valgte grafiske økten. For eksempel: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Notification manager**: Administrerer visning av systemvarsler (meldinger, varsler, oppdateringer osv.). For eksempel: dunst, Plasma-notifier, xfce4-notifyd.
+- **Notification manager**: Administrerer visning av systemvarsler (meldinger, varsler, oppdateringer osv.). For eksempel: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 compositor (valgfritt)**: legger til visuelle effekter (skygger, gjennomsiktighet, animasjoner) i miljøer der vindushåndtereren ikke støtter compositing. For eksempel: compton, picom.
+- **X11 compositor (valgfritt)**: legger til visuelle effekter (skygger, gjennomsiktighet, animasjoner) i miljøer der vindushåndtereren ikke støtter compositing. For eksempel: compton, picom.
 
 
 
 
 
-- En skjermserver**: Dette er programvaren som håndterer kommunikasjonen mellom systemet (via kjernen og grafikkdriverne) og grafikkprogrammene. Den viser vinduer på skjermen og håndterer tastatur- og musinnganger. Skjermtjeneren er ofte en annen komponent i skrivebordsmiljøet, men stadig flere systemer tar i bruk Wayland, en moderne protokoll der skjermtjenerrollen kan overtas direkte av vindushåndtereren (f.eks. Mutter under GNOME eller KWin under KDE). Dette kalles da "Wayland compositing".
+- **En skjermserver**: Dette er programvaren som håndterer kommunikasjonen mellom systemet (via kjernen og grafikkdriverne) og grafikkprogrammene. Den viser vinduer på skjermen og håndterer tastatur- og musinnganger. Skjermtjeneren er ofte en annen komponent i skrivebordsmiljøet, men stadig flere systemer tar i bruk Wayland, en moderne protokoll der skjermtjenerrollen kan overtas direkte av vindushåndtereren (f.eks. Mutter under GNOME eller KWin under KDE). Dette kalles da "Wayland compositing".
 
 
 
@@ -1831,7 +1831,7 @@ For å installere Ubuntu på datamaskinen din, må du gjøre ISO-bildet oppstart
 
 
 
-Koble til en USB-minnepinne på minst 8 GB (vær oppmerksom på at innholdet slettes), og bruk deretter et verktøy som [BalenaEtcher] (https://www.balena.io/etcher) til å lage oppstartbare medier fra ISO-bildet. Bare velg ISO-filen, USB-nøkkelen og klikk på "*Flash*".
+Koble til en USB-minnepinne på minst 8 GB (vær oppmerksom på at innholdet slettes), og bruk deretter et verktøy som [BalenaEtcher](https://www.balena.io/etcher) til å lage oppstartbare medier fra ISO-bildet. Bare velg ISO-filen, USB-nøkkelen og klikk på "*Flash*".
 
 
 
@@ -1877,7 +1877,7 @@ Når du har startet Ubuntu, blir du guidet trinn for trinn i installasjonsveivis
 
 
 
-- Installasjon sammen med Windows (*dual boot*)**
+- Installasjon sammen med Windows (*dual boot*)
 
 
 
@@ -1902,7 +1902,7 @@ For å gjøre dette på riktig måte anbefaler jeg at du først oppretter en ikk
 
 
 
-- Komplett utskifting av vinduer**
+- **Komplett utskifting av vinduer**
 
 
 
@@ -1938,7 +1938,7 @@ Hvis du vil ha mer informasjon om Ubuntu-installasjonsprogrammet, kan du også l
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 Når installasjonen er fullført, fjerner du USB-nøkkelen når du blir bedt om det, og starter deretter på nytt. Ubuntu vil nå være installert og klar til bruk på maskinen din.
 
@@ -2020,10 +2020,10 @@ Hvert depot er delt inn i seksjoner. Som standard aktiverer Ubuntu fire hovedsek
 
 
 
-- main**: fri programvare som offisielt vedlikeholdes av Canonical. Eksempler: Firefox, LibreOffice, bash
-- begrenset**: ikke-fri programvare som er avgjørende for at maskinvaren skal fungere skikkelig. Eksempler på dette: NVIDIA-drivere, Wi-Fi-fastvare, proprietære kodeker
-- univers**: fri programvare som vedlikeholdes av fellesskapet. Eksempler: GIMP, Inkscape, Audacity
-- multiverse**: Programvare underlagt juridiske begrensninger (patenter, ikke-frie lisenser). Tilgjengeligheten kan variere fra land til land. Eksempler: visse lyd-/videokodeker, Steam
+- **main**: fri programvare som offisielt vedlikeholdes av Canonical. Eksempler: Firefox, LibreOffice, bash
+- **begrenset**: ikke-fri programvare som er avgjørende for at maskinvaren skal fungere skikkelig. Eksempler på dette: NVIDIA-drivere, Wi-Fi-fastvare, proprietære kodeker
+- **univers**: fri programvare som vedlikeholdes av fellesskapet. Eksempler: GIMP, Inkscape, Audacity
+- **multiverse**: Programvare underlagt juridiske begrensninger (patenter, ikke-frie lisenser). Tilgjengeligheten kan variere fra land til land. Eksempler: visse lyd-/videokodeker, Steam
 
 
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### Kontorpakke
 
 
@@ -3114,13 +3114,13 @@ I tillegg til disse få grunnleggende verktøyene anbefaler jeg også at du inst
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Til slutt i dette kapittelet vil vi gi deg noen tips om hva du bør gjøre i det daglige:
 
@@ -3212,9 +3212,9 @@ Et komplekst passord er vanskelig å huske. Jeg anbefaler derfor å bruke en pas
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Til slutt bør du endre passordet regelmessig - hver tredje til sjette måned - spesielt hvis maskinen brukes i delte eller mobile miljøer.
 
@@ -3314,13 +3314,13 @@ Et av de viktigste tiltakene du kan gjøre for å beskytte deg mot tyveri, er å
 - Linux-distribusjoner krypterer ikke disken automatisk, med mindre dette alternativet er valgt under installasjonen. Du kan bruke LUKS til å kryptere disken
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 I alle tilfeller må dekrypteringspassordet være sterkt, atskilt fra systempassordet og lagret i en sikker passordbehandling. Hvis du bruker en ekstern diskett eller USB-nøkkel som inneholder sensitive data, bør du også vurdere å kryptere dem enkeltvis med verktøy som VeraCrypt.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Prinsippet om minste privilegium
 
@@ -3417,7 +3417,7 @@ Denne teknologien er basert på en hypervisor, en programvare som håndterer opp
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 Når det gjelder IT-sikkerhet, er en av de store fordelene med virtuelle maskiner at de er avgrensede. En virtuell maskin deler ikke filer, prosesser eller nettverkstilgang med vertssystemet, med mindre du eksplisitt konfigurerer disse utvekslingene. Så hvis en virtuell maskin blir infisert av skadelig programvare, eller hvis du tester sensitiv programvare i den, forblir virkningen begrenset til den virtuelle maskinen: Hovedsystemet ditt forblir intakt, forutsatt at isolasjonsparametrene overholdes (ingen delte kataloger, ingen USB-enheter som sendes til den virtuelle maskinen...).
 
@@ -3543,6 +3543,8 @@ Selv om automatiske oppdateringer er aktivert på systemet ditt, er det likevel 
 
 - Windows*-operativsystem
 
+The line is already correctly formatted. The single asterisk (*) appears to be used as a literal character (likely a wildcard or bullet point) rather than as a Markdown formatting marker, so no correction is needed.
+
 
 
 Windows har en sentralisert oppdateringshåndtering kalt "Windows Update". Denne laster automatisk ned og installerer oppdateringer, sikkerhetsoppdateringer, enhetsdrivere og noen ganger til og med mikrokode for prosessoren.
@@ -3566,6 +3568,8 @@ Ikke glem å se etter valgfrie oppdateringer i den samme menyen.
 
 
 - Linux*-operativsystem
+
+The line is already correctly formatted. The single asterisk (*) after "Linux" appears to be intentional, likely indicating a footnote or special notation, and doesn't need to be balanced since it's not being used for italic formatting.
 
 
 
@@ -3618,7 +3622,7 @@ sudo pacman -Syu
 
 
 
-- MacOS*-operativsystem
+- MacOS-operativsystem
 
 
 
@@ -3654,25 +3658,25 @@ Noen programvarer er mer sensitive enn andre, fordi de samhandler direkte med om
 
 
 
-- Nettlesere*: De står i frontlinjen for angrep, ettersom de behandler ubekreftet innhold i sanntid og har en spesielt stor angrepsflate. I tillegg spiller de en sentral rolle når det gjelder å beskytte personopplysningene dine. Og fremfor alt har de en tendens til å erstatte mange programvarer som tidligere ble brukt lokalt (e-postklienter, kontorpakker, mediespillere...). Men dette kommer vi tilbake til i neste del av SCU202-kurset;
+- **Nettlesere**: De står i frontlinjen for angrep, ettersom de behandler ubekreftet innhold i sanntid og har en spesielt stor angrepsflate. I tillegg spiller de en sentral rolle når det gjelder å beskytte personopplysningene dine. Og fremfor alt har de en tendens til å erstatte mange programvarer som tidligere ble brukt lokalt (e-postklienter, kontorpakker, mediespillere...). Men dette kommer vi tilbake til i neste del av SCU202-kurset;
 
 
 
 
 
-- E-postklienter*: De mottar vedlegg eller lenker fra eksterne kilder som er ukontrollerbare og derfor risikable;
+- **E-postklienter**: De mottar vedlegg eller lenker fra eksterne kilder som er ukontrollerbare og derfor risikable;
 
 
 
 
 
-- Kommunikasjonsverktøy* (TeamViewer, Zoom, Signal, Teams ...): På grunn av deres interaktive natur er de mål for spionasjeangrep eller forsøk på fjernstyring. På samme måte som e-postklienter kan kommunikasjonsverktøy brukes som vektorer for phishing-forsøk eller distribusjon av ondsinnede vedlegg;
+- **Kommunikasjonsverktøy** (TeamViewer, Zoom, Signal, Teams ...): På grunn av deres interaktive natur er de mål for spionasjeangrep eller forsøk på fjernstyring. På samme måte som e-postklienter kan kommunikasjonsverktøy brukes som vektorer for phishing-forsøk eller distribusjon av ondsinnede vedlegg;
 
 
 
 
 
-- Antivirus, brannmur og andre deteksjonsløsninger*: Disse verktøyene har som regel utvidede privilegier, ettersom de kontinuerlig skanner filer, prosesser og nettverkstilkoblinger. En utdatert signaturbase, dårlig konfigurasjon eller en sårbarhet i selve programvaren kan gjøre det mulig for skadelig programvare å forbli uoppdaget, eller til og med få utvidede rettigheter.
+- Antivirus, brannmur og andre deteksjonsløsninger: Disse verktøyene har som regel utvidede privilegier, ettersom de kontinuerlig skanner filer, prosesser og nettverkstilkoblinger. En utdatert signaturbase, dårlig konfigurasjon eller en sårbarhet i selve programvaren kan gjøre det mulig for skadelig programvare å forbli uoppdaget, eller til og med få utvidede rettigheter.
 
 
 
@@ -3893,7 +3897,7 @@ Som vi så i forrige avsnitt, har Windows historisk sett vært mer utsatt for da
 
 
 
-- Microsoft Defender*: I Windows er et godt antivirusprogram en grunnleggende nødvendighet. I mange år ble Microsoft Defender (tidligere Windows Defender), systemets innebygde antivirusprogram, ansett som upålitelig, og tredjepartsløsninger ble anbefalt i stedet. Men denne programvaren har blitt betydelig bedre med tiden, og er nå, etter min mening, tilstrekkelig for å gi grunnleggende beskyttelse til personlig bruk. Når det er sagt, må vi ikke overvurdere antivirusprogramvarens rolle: Det er først og fremst din egen digitale praksis som sørger for sikkerheten din. En av fordelene med Defender er at den er integrert med Windows. I tillegg til sanntidsbeskyttelse tilbyr den omfattende skanninger som du kan planlegge ukentlig eller kjøre manuelt med jevne mellomrom.
+- **Microsoft Defender**: I Windows er et godt antivirusprogram en grunnleggende nødvendighet. I mange år ble Microsoft Defender (tidligere Windows Defender), systemets innebygde antivirusprogram, ansett som upålitelig, og tredjepartsløsninger ble anbefalt i stedet. Men denne programvaren har blitt betydelig bedre med tiden, og er nå, etter min mening, tilstrekkelig for å gi grunnleggende beskyttelse til personlig bruk. Når det er sagt, må vi ikke overvurdere antivirusprogramvarens rolle: Det er først og fremst din egen digitale praksis som sørger for sikkerheten din. En av fordelene med Defender er at den er integrert med Windows. I tillegg til sanntidsbeskyttelse tilbyr den omfattende skanninger som du kan planlegge ukentlig eller kjøre manuelt med jevne mellomrom.
 
 
 
@@ -3903,12 +3907,12 @@ Som vi så i forrige avsnitt, har Windows historisk sett vært mer utsatt for da
 
 
 
-- Sysinternals Suite*: Dette er et mye mer avansert sett med verktøy som Microsoft tilbyr for diagnostisering, overvåking og feilsøking av Windows. Her er de viktigste verktøyene i denne suiten:
-    - Process Monitor*: gjør det mulig å observere aktive prosesser, filtilganger, registre osv. i sanntid;
-    - Autoruns*: Viser alle programmer som startes ved oppstart, slik at du raskt kan oppdage vedvarende skadelig programvare eller programmer som ikke burde kjøre;
-    - Process Explorer*: overvåker prosesser og oppdager mistenkelig atferd;
-    - TCPView*: visualiserer aktive nettverkstilkoblinger (deteksjon av unormale tilkoblinger) ;
-    - Sigcheck*: sjekker digitale signaturer på filer for skadelig kode.
+- **Sysinternals Suite**: Dette er et mye mer avansert sett med verktøy som Microsoft tilbyr for diagnostisering, overvåking og feilsøking av Windows. Her er de viktigste verktøyene i denne suiten:
+- **Process Monitor**: gjør det mulig å observere aktive prosesser, filtilganger, registre osv. i sanntid;
+- **Autoruns**: Viser alle programmer som startes ved oppstart, slik at du raskt kan oppdage vedvarende skadelig programvare eller programmer som ikke burde kjøre;
+- **Process Explorer**: overvåker prosesser og oppdager mistenkelig atferd;
+- **TCPView**: visualiserer aktive nettverkstilkoblinger (deteksjon av unormale tilkoblinger) ;
+- **Sigcheck**: sjekker digitale signaturer på filer for skadelig kode.
 
 
 
@@ -3918,7 +3922,7 @@ Som vi så i forrige avsnitt, har Windows historisk sett vært mer utsatt for da
 
 
 
-- GlassWire*: et verktøy for nettverksovervåking. Det sporer innkommende og utgående tilkoblinger i sanntid, og varsler deg om uvanlig aktivitet.
+- **GlassWire**: et verktøy for nettverksovervåking. Det sporer innkommende og utgående tilkoblinger i sanntid, og varsler deg om uvanlig aktivitet.
 
 
 
@@ -3936,7 +3940,7 @@ På en godt vedlikeholdt Linux-maskin som brukes til personlige formål, er risi
 
 
 
-- Fail2ban*: overvåker systemlogger for mislykkede tilgangsforsøk (for eksempel SSH-påloggingsforsøk). Når mistenkelig oppførsel oppdages, utestenger den midlertidig den fornærmende IP Address via `iptables` ;
+- **Fail2ban**: overvåker systemlogger for mislykkede tilgangsforsøk (for eksempel SSH-påloggingsforsøk). Når mistenkelig oppførsel oppdages, utestenger den midlertidig den fornærmende IP Address via `iptables`;
 
 
 
@@ -3946,14 +3950,14 @@ På en godt vedlikeholdt Linux-maskin som brukes til personlige formål, er risi
 
 
 
-- Lynis*: et omfattende verktøy for sikkerhetsrevisjon som analyserer systemet ditt for feilkonfigurasjoner, kjente svakheter eller avvik fra beste praksis. Verktøyet genererer en lettlest rapport med en sikkerhetsscore og anbefalinger.
+- **Lynis**: et omfattende verktøy for sikkerhetsrevisjon som analyserer systemet ditt for feilkonfigurasjoner, kjente svakheter eller avvik fra beste praksis. Verktøyet genererer en lettlest rapport med en sikkerhetsscore og anbefalinger.
 
 
 
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### Under macOS
 
@@ -3965,7 +3969,7 @@ macOS er kjent for sin sikkerhet, særlig takket være retningslinjene for progr
 
 
 
-- KnockKnock*: skanner alle Elements som er konfigurert til å kjøre ved oppstart (agenter, daemoner, kjernemoduler...) og identifiserer de som er potensielt mistenkelige, usignerte eller ukjente. Det gjør at du raskt kan identifisere skadelig utholdenhet på systemet ditt.
+- **KnockKnock**: skanner alle Elements som er konfigurert til å kjøre ved oppstart (agenter, daemoner, kjernemoduler...) og identifiserer de som er potensielt mistenkelige, usignerte eller ukjente. Det gjør at du raskt kan identifisere skadelig utholdenhet på systemet ditt.
 
 
 
@@ -4061,11 +4065,11 @@ Dette systemet baserer seg på asymmetrisk kryptografi og verktøy som GnuPG (ko
 
 
 
-Hvis du vil lære mer om kryptografiske Hash-funksjoner og digitale signaturer, kan du ta gratiskurset CYP 201 som tilbys på Plan ₿ Network:
+Hvis du vil lære mer om kryptografiske Hash-funksjoner og digitale signaturer, kan du ta gratiskurset CYP 201 som tilbys på Plan ₿ Academy:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### Verifiser programvarens integritet og autentisitet
 
@@ -4113,7 +4117,7 @@ brew install gnupg
 
 
 
-Hvis du ikke har GPG for Windows, kan du installere [Gpg4win] (https://www.gpg4win.org/).
+Hvis du ikke har GPG for Windows, kan du installere [Gpg4win](https://www.gpg4win.org/).
 
 
 
@@ -4129,7 +4133,7 @@ For å komme i gang trenger du flere dokumenter knyttet til programvaren du øns
 
 
 
-Besøk den offisielle nettsiden til [Sparrow wallet i "_Download_"-delen] (https://sparrowwallet.com/download/). Hvis du ønsker å sjekke ut et annet program, kan du gå til nettstedet for det programmet.
+Besøk den offisielle nettsiden til [Sparrow wallet i "_Download_"-delen](https://sparrowwallet.com/download/). Hvis du ønsker å sjekke ut et annet program, kan du gå til nettstedet for det programmet.
 
 
 
@@ -4137,7 +4141,7 @@ Besøk den offisielle nettsiden til [Sparrow wallet i "_Download_"-delen] (https
 
 
 
-Du kan også gå [til prosjektets GitHub-repository] (https://github.com/sparrowwallet/Sparrow/releases).
+Du kan også gå [til prosjektets GitHub-repository](https://github.com/sparrowwallet/Sparrow/releases).
 
 
 
@@ -4177,7 +4181,7 @@ Til slutt trenger du utviklerens offentlige nøkkel for å verifisere PGP-signat
 
 
 
-Når det gjelder *Sparrow wallet*, kan du finne utviklerens offentlige nøkkel [Craig Raw på Keybase] (https://keybase.io/craigraw). For å laste den ned direkte fra terminalen, kjør følgende kommando:
+Når det gjelder *Sparrow wallet*, kan du finne utviklerens offentlige nøkkel [Craig Raw på Keybase](https://keybase.io/craigraw). For å laste den ned direkte fra terminalen, kjør følgende kommando:
 
 
 
@@ -4469,7 +4473,7 @@ Med denne konfigurasjonen er Alice allerede beskyttet mot mange vanlige trusler.
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Alice følger dermed 3-2-1-regelen: Den har tre kopier av filene sine (datamaskin, USB-nøkkel, nettsky), lagret på minst to forskjellige medier (intern disk, USB-nøkkel, ekstern server), med minst én ekstern kopi (nettskyserveren).
 
@@ -4549,14 +4553,14 @@ Full kryptering er som en lås: Så lenge passordet ikke er oppgitt, forblir dat
 
 
 
-- Linux (Debian)*
+- Linux (Debian)
 
 
 
 Under Linux er standardløsningen LUKS (*Linux Unified Key Setup*). LUKS er et kryptert volumhåndteringssystem som er integrert i de fleste distribusjoner. Når systemet installeres første gang, vil du som regel bli bedt om å kryptere hele datamaskinens disk. Jeg anbefaler selvfølgelig på det sterkeste at du aktiverer dette alternativet. Når kryptering er aktivert, vil systemet be om passordet ved hver oppstart, selv før operativsystemet lastes inn. Dette sikrer at fysisk tilgang til disken ikke kan omgå sikkerheten.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 Hvis du ønsker å kryptere en ekstern disk eller USB-minnepinne, kan dette også gjøres fra kommandolinjen eller via den grafiske Interface. Disken må formateres, så alle eksisterende data vil gå tapt hvis du ikke tar en sikkerhetskopi først.
 
@@ -4808,7 +4812,7 @@ Til slutt klikker du på den pilformede knappen øverst i høyre hjørne for å 
 
 
 
-- Windows:**
+- **Windows:**
 
 
 
@@ -4832,7 +4836,7 @@ Hvis du vil lære mer om denne løsningen, kan du se denne komplette veiledninge
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4854,7 +4858,7 @@ Når FileVault er aktivert, må du velge en gjenopprettingsmetode i tilfelle du 
 For eksterne lagringsmedier (Hard-disker, USB-minnepinner osv.) utføres krypteringen ved hjelp av diskverktøyet. Du må formatere volumet fullstendig på nytt:
 
 - Velg enheten, klikk på "*Delete*"
-- Velg "GUID* Partition Table"-skjemaet
+- Velg "GUID Partition Table"-skjemaet
 - Velg deretter et kryptert filsystemformat (*APFS* eller *Mac OS extended*)
 - Velg et sterkt passord
 - Klikk på "*Delete*" og deretter på "*OK*", og krypteringen er fullført
@@ -4877,7 +4881,7 @@ Denne protokollen er perfekt for sikker utveksling av sensitive filer med andre,
 
 Et utmerket alternativ er Cryptomator. Med denne programvaren med åpen kildekode kan du opprette en safe: en spesiell katalog der alle filer som legges inn, automatisk krypteres. Denne safen kan synkroniseres med skytjenester som Dropbox, Google Drive eller Nextcloud uten at leverandøren noen gang får tilgang til de ukrypterte dataene. Applikasjonen er tilgjengelig på alle operativsystemer, inkludert Android og iOS, og krever ingen spesielle tekniske ferdigheter for å brukes.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4889,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Til slutt er det også mulig å bruke VeraCrypt i container-modus, som oppretter en fil som fungerer som et kryptert arkiv som kan monteres som en disk.
 
@@ -4934,7 +4938,7 @@ Denne pakken installerer `exiftool`, som du deretter kan bruke direkte fra komma
 
 
 
-- Trinn 2: Visning av filmetadata** (på fransk)
+- Trinn 2: **Visning av filmetadata** (på fransk)
 
 
 
@@ -4943,18 +4947,18 @@ Hvis du vil vise alle metadataene i en fil, bruker du følgende kommando:
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-Erstatt `name.jpg` med det virkelige navnet på filen din. Sørg også for at du befinner deg i katalogen som inneholder dette bildet. Hvis jeg for eksempel har et bilde av Satoshi Nakamoto-statuen i katalogen `/Downloads`, kan jeg vise metadataene ved å kjøre følgende kommando:
+Erstatt `name.webp` med det virkelige navnet på filen din. Sørg også for at du befinner deg i katalogen som inneholder dette bildet. Hvis jeg for eksempel har et bilde av Satoshi Nakamoto-statuen i katalogen `/Downloads`, kan jeg vise metadataene ved å kjøre følgende kommando:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4995,7 @@ Bruk kommandoen for å slette alle unødvendige metadata fra en fil:
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5017,7 @@ Hvis du ikke vil beholde originalen, kan du slette den med kommandoen:
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5041,12 @@ Hvis du har flere filer som skal behandles i samme katalog, kan du bruke en gene
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-Dette sletter metadataene til alle JPEG-filer i den aktuelle katalogen. Du kan tilpasse filtypen etter dine behov (`*.png`, `*.pdf`...).
+Dette sletter metadataene til alle JPEG-filer i den aktuelle katalogen. Du kan tilpasse filtypen etter dine behov (`*.webp`, `*.pdf`...).
 
 
 
@@ -5110,7 +5114,7 @@ mat2 ~/Downloads/*
 
 
 
-På Windows og macOS finnes det flere metoder for å fjerne metadata fra dokumentene dine. Etter min mening er det enkleste å bruke programvaren med åpen kildekode [ExifCleaner] (https://exifcleaner.com/). Dette lettvektsverktøyet har en grafisk Interface og kan håndtere de fleste filformater ved å dra og slippe. Ved å slippe en eller flere filer på Interface fjerner programvaren automatisk unødvendige metadata og erstatter de opprinnelige filene i samme katalog. ExifCleaner er tilgjengelig for Windows, macOS og Linux.
+På Windows og macOS finnes det flere metoder for å fjerne metadata fra dokumentene dine. Etter min mening er det enkleste å bruke programvaren med åpen kildekode [ExifCleaner](https://exifcleaner.com/). Dette lettvektsverktøyet har en grafisk Interface og kan håndtere de fleste filformater ved å dra og slippe. Ved å slippe en eller flere filer på Interface fjerner programvaren automatisk unødvendige metadata og erstatter de opprinnelige filene i samme katalog. ExifCleaner er tilgjengelig for Windows, macOS og Linux.
 
 
 
@@ -5556,7 +5560,7 @@ Målet med dette kapittelet er å hjelpe deg med å velge den nettleseren som pa
 
 
 
-[Chrome] (https://www.google.com/chrome/) drar nytte av rask og kontinuerlig utvikling, først og fremst ledet av Google. Den er anerkjent for sin høye ytelse, hastighet, brede kompatibilitet med moderne webstandarder og en god integrering av Googles tjenester.
+[Chrome](https://www.google.com/chrome/) drar nytte av rask og kontinuerlig utvikling, først og fremst ledet av Google. Den er anerkjent for sin høye ytelse, hastighet, brede kompatibilitet med moderne webstandarder og en god integrering av Googles tjenester.
 
 
 
@@ -5580,9 +5584,9 @@ Så jeg vil ikke anbefale å bruke Google Chrome, verken privat eller profesjone
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### Modig
 
@@ -5642,7 +5646,7 @@ Hvis du vil sjekke om nettleserens fingeravtrykk gjør deg unik eller om du smel
 
 
 
-[Vivaldi] (https://vivaldi.com/), grunnlagt av den tidligere administrerende direktøren i Opera, retter seg mot avanserte brukere som ønsker en dypere personalisering og avanserte funksjoner som sidepaneler, en avansert faneadministrator og integrert notatskriving.
+[Vivaldi](https://vivaldi.com/), grunnlagt av den tidligere administrerende direktøren i Opera, retter seg mot avanserte brukere som ønsker en dypere personalisering og avanserte funksjoner som sidepaneler, en avansert faneadministrator og integrert notatskriving.
 
 
 
@@ -5658,7 +5662,7 @@ Når det gjelder sikkerhet, har Vivaldi flere funksjoner for blokkering av spore
 
 
 
-[Opera] (https://www.opera.com/) er en gammel nettleser som har eksistert siden 1995. Den bruker nå Blink etter å ha forlatt sin proprietære motor (*Presto*). Den har en moderne Interface og noen innovative funksjoner.
+[Opera](https://www.opera.com/) er en gammel nettleser som har eksistert siden 1995. Den bruker nå Blink etter å ha forlatt sin proprietære motor (*Presto*). Den har en moderne Interface og noen innovative funksjoner.
 
 
 
@@ -5680,7 +5684,7 @@ Blink-baserte nettlesere omfatter også en rekke mer marginale nettlesere, ofte 
 
 
 
-- Arc** :
+- **Arc**:
 
 
 
@@ -5698,11 +5702,11 @@ Fra et teknisk synspunkt er Arc basert på Chromium, men er fortsatt proprietær
 
 
 
-- Polypan** :
+- **Polypan** :
 
 
 
-[Polypane] (https://polypane.app/) er spesielt rettet mot frontend-utviklere og UX-designere. Hovedfunksjonen er å vise flere forekomster av det samme nettstedet samtidig på forskjellige skjermoppløsninger, for å teste den *responsive* oppførselen til en Interface i sanntid. Den tilbyr også tilgjengelighetsverktøy, HTML/CSS-validatorer, simulatorer for fargeblindhet og ytelsesmålinger.
+[Polypane](https://polypane.app/) er spesielt rettet mot frontend-utviklere og UX-designere. Hovedfunksjonen er å vise flere forekomster av det samme nettstedet samtidig på forskjellige skjermoppløsninger, for å teste den *responsive* oppførselen til en Interface i sanntid. Den tilbyr også tilgjengelighetsverktøy, HTML/CSS-validatorer, simulatorer for fargeblindhet og ytelsesmålinger.
 
 
 
@@ -5722,7 +5726,7 @@ Polypane er en proprietær, betalt nettleser basert på Chromium, noe som gjør 
 
 
 
-[Firefox] (https://www.mozilla.org/firefox/new/) er den mest fremtredende nettleseren som bruker Gecko-gjengivelsesmotoren. Firefox er utviklet av Mozilla Foundation, og skiller seg ut med sine klare retningslinjer for personvern: forbedret sporingsbeskyttelse, avanserte alternativer for blokkering av tredjeparts informasjonskapsler, isolerte fanebeholdere og integrering av sikkerhetsfokuserte utvidelser.
+[Firefox](https://www.mozilla.org/firefox/new/) er den mest fremtredende nettleseren som bruker Gecko-gjengivelsesmotoren. Firefox er utviklet av Mozilla Foundation, og skiller seg ut med sine klare retningslinjer for personvern: forbedret sporingsbeskyttelse, avanserte alternativer for blokkering av tredjeparts informasjonskapsler, isolerte fanebeholdere og integrering av sikkerhetsfokuserte utvidelser.
 
 
 
@@ -5742,16 +5746,16 @@ Firefox er fortsatt en referanse for sikkerhet og personvern, til tross for at d
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### Tor-nettleser
 
 
 
-[Tor Browser] (https://www.torproject.org/download/) er en nettleser basert på Firefox ESR. Det er en av de mest robuste løsningene for anonymitet på nettet. Den omdirigerer trafikken gjennom Tor-nettverket, slik at det ikke er noen direkte forbindelse mellom brukeren og nettdestinasjonen.
+[Tor Browser](https://www.torproject.org/download/) er en nettleser basert på Firefox ESR. Det er en av de mest robuste løsningene for anonymitet på nettet. Den omdirigerer trafikken gjennom Tor-nettverket, slik at det ikke er noen direkte forbindelse mellom brukeren og nettdestinasjonen.
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Ulempen er en betydelig reduksjon i ytelse (høy ventetid) og begrenset kompatibilitet med visse nettsteder. Tor Browser er ideell for sensitive aktiviteter (journalistikk, aktivisme...), men mindre egnet til vanlig hverdagsbruk.
 
@@ -5763,13 +5767,13 @@ Ulempen er en betydelig reduksjon i ytelse (høy ventetid) og begrenset kompatib
 
 #### Mullvad nettleser
 
-[Mullvad Browser] (https://mullvad.net/en/browser) er resultatet av et samarbeid mellom Tor Foundation og Mullvad VPN. Den er basert på Tor-nettleseren, som i sin tur er avledet fra Firefox ESR. Mullvad Browser er utviklet for å maksimere brukernes personvern. Som standard inkluderer den avansert beskyttelse mot fingeravtrykk, sporere og tredjepartsskript.
+[Mullvad Browser](https://mullvad.net/en/browser) er resultatet av et samarbeid mellom Tor Foundation og Mullvad VPN. Den er basert på Tor-nettleseren, som i sin tur er avledet fra Firefox ESR. Mullvad Browser er utviklet for å maksimere brukernes personvern. Som standard inkluderer den avansert beskyttelse mot fingeravtrykk, sporere og tredjepartsskript.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 Den har de fleste av sikkerhets- og personvernfunksjonene som Tor Browser tilbyr, med én forskjell: Den omdirigerer ikke trafikk via Tor-nettverket. For å unngå IP Address-lekkasjer kan du bruke den i kombinasjon med et VPN (ideelt sett Mullvad VPN).
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Mullvad Browser er en utmerket løsning for deg som er opptatt av personvernet ditt, enten du er nybegynner eller avansert bruker.
 
@@ -5795,11 +5799,11 @@ Som standard aktiverer LibreWolf Firefox' avanserte sikkerhetsinnstillinger (for
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### Zen-nettleser
 
-[Zen Browser] (https://zen-browser.app/) er en gratis nettleser med åpen kildekode basert på Firefox (Gecko-motor), lansert i 2024. Målet er å tilby en moderne, elegant, svært tilpasningsdyktig og fremfor alt personvernsentrert nettleseropplevelse, uten avhengighet av Chromium.
+[Zen Browser](https://zen-browser.app/) er en gratis nettleser med åpen kildekode basert på Firefox (Gecko-motor), lansert i 2024. Målet er å tilby en moderne, elegant, svært tilpasningsdyktig og fremfor alt personvernsentrert nettleseropplevelse, uten avhengighet av Chromium.
 
 Zen skiller seg ut med sin radikale tilnærming til Interface og brukervennlighet, i stor grad inspirert av Arc-nettleseren, men frigjort fra den ved hjelp av åpen kildekode og Gecko-motoren. Den inkluderer :
 
@@ -5813,7 +5817,7 @@ Når det gjelder sikkerhet og personvern, har Zen innebygd blokkering av tredjep
 
 Zen Browser er et interessant alternativ hvis du er på utkikk etter et Gecko-nettlesingsmiljø som er gratis, innovativt, ryddig og som respekterer personvernet ditt.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### WebKit-baserte nettlesere
 
@@ -5835,7 +5839,7 @@ Her fokuserer vi på nettlesere på datamaskiner, men det er viktig å merke seg
 
 
 
-Et interessant alternativ til Safari er [Orion] (https://kagi.com/orion/), en moderne nettleser som er utviklet eksklusivt for Apples økosystem, og som også er basert på WebKit. Målet er å tilby et raskt, lett og personvernvennlig alternativ, uten å gå på kompromiss med avanserte funksjoner.
+Et interessant alternativ til Safari er [Orion](https://kagi.com/orion/), en moderne nettleser som er utviklet eksklusivt for Apples økosystem, og som også er basert på WebKit. Målet er å tilby et raskt, lett og personvernvennlig alternativ, uten å gå på kompromiss med avanserte funksjoner.
 
 
 
@@ -5855,12 +5859,12 @@ Orion er i sin helhet utviklet av Kagi-teamet (kjent for sin reklamefrie søkemo
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### Nettlesere uten gjengivelsesmotorer
 
 
 
-Til slutt vil jeg avslutte denne oversikten med et langt mindre kjent og svært marginalt alternativ: nettlesere i tekstmodus, hvorav den mest kjente er [Lynx Browser] (https://lynx.invisible-island.net/).
+Til slutt vil jeg avslutte denne oversikten med et langt mindre kjent og svært marginalt alternativ: nettlesere i tekstmodus, hvorav den mest kjente er [Lynx Browser](https://lynx.invisible-island.net/).
 
 
 
@@ -6035,9 +6039,9 @@ En passordbehandler genererer og lagrer sterke passord på en sikker måte, slik
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Å bruke en passordbehandler har en rekke fordeler: Det forenkler hverdagen din ved å eliminere behovet for å huske en rekke passord, og det minimerer den største svakheten ved autentisering: brukeren selv.
 
@@ -6047,13 +6051,13 @@ Når det gjelder autentisering, må bruken av en passordbehandler suppleres med 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Bruk av VPN
 
@@ -6087,11 +6091,11 @@ Et godt VPN bør ha klare retningslinjer mot loggføring, tilby moderne teknolog
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Høyprofilerte VPN-tjenester bør unngås. Til tross for aggressiv markedsføring er de fortsatt sentraliserte kommersielle tjenester, ofte basert i mindre beskyttende jurisdiksjoner, og de er sjelden åpne om den faktiske tekniske driften.
 
@@ -6190,25 +6194,25 @@ For å unngå disse angrepene når du surfer på nettet, er det viktig å følge
 
 
 
-- Analyser URL-adressen**: Angriperne bruker ofte adresser som ligger svært nær originalen (f.eks. `micr0soft-support.com`, `paypal-verif.net`, osv.). Noen erstatter også visuelt like tegn, og utnytter Unicode-tegn. Kontroller at Address samsvarer nøyaktig med det forventede nettstedet, uten mistenkelige prefikser eller suffikser.
+- **Analyser URL-adressen**: Angriperne bruker ofte adresser som ligger svært nær originalen (f.eks. `micr0soft-support.com`, `paypal-verif.net`, osv.). Noen erstatter også visuelt like tegn, og utnytter Unicode-tegn. Kontroller at Address samsvarer nøyaktig med det forventede nettstedet, uten mistenkelige prefikser eller suffikser.
 
 
 
 
 
-- Unngå forkortede lenker**: Tjenester som `bit.ly` eller `t.co` kan maskere den endelige Address. Hvis du mottar en forkortet lenke, bør du være mistenksom eller bruke en URL-utvidelsestjeneste for å sjekke destinasjonen.
+- Unngå forkortede lenker: Tjenester som `bit.ly` eller `t.co` kan maskere den endelige Address. Hvis du mottar en forkortet lenke, bør du være mistenksom eller bruke en URL-utvidelsestjeneste for å sjekke destinasjonen.
 
 
 
 
 
-- Pass deg for alarmerende meldinger**: phishing-forsøk utnytter ofte sterke følelser (haster, trussel, belønning, nysgjerrighet...). En e-post som hevder at kontoen din er i ferd med å bli sperret eller at en pakke ikke kan leveres, er naturligvis mistenkelig.
+- **Pass deg for alarmerende meldinger**: phishing-forsøk utnytter ofte sterke følelser (haster, trussel, belønning, nysgjerrighet...). En e-post som hevder at kontoen din er i ferd med å bli sperret eller at en pakke ikke kan leveres, er naturligvis mistenkelig.
 
 
 
 
 
-- Send aldri sensitiv informasjon via en mottatt lenke**: En seriøs institusjon vil aldri be deg om passord, autentiseringskode eller en skannet kopi av ID-en din via en enkel e-post eller SMS.
+- **Send aldri sensitiv informasjon via en mottatt lenke**: En seriøs institusjon vil aldri be deg om passord, autentiseringskode eller en skannet kopi av ID-en din via en enkel e-post eller SMS.
 
 
 
@@ -6218,7 +6222,7 @@ Og her er noen forebyggende tiltak du kan implementere direkte i nettleseren din
 
 
 
-- Få tilgang til viktige nettsteder via bokmerkene dine**:
+- Få tilgang til viktige nettsteder via **bokmerkene dine**:
 
 
 
@@ -6232,7 +6236,7 @@ Har du fått en e-post fra skattekontoret med en lenke? Ikke klikk på den. Gå 
 
 
 
-- Respekter god autentiseringspraksis** :
+- **Respekter god autentiseringspraksis**:
 
 
 
@@ -6250,7 +6254,7 @@ I tillegg til disse tiltakene kan bruk av en god passordbehandler som nettleseru
 
 
 
-- Inspiser SSL/TLS**-sertifikater:
+- Inspiser **SSL/TLS-sertifikater**:
 
 
 
@@ -6296,19 +6300,19 @@ Målet er enkelt: å forhindre at en hendelse som involverer en spesifikk aktivi
 
 
 
-- Bruk flere forskjellige nettlesere**: for eksempel Firefox til privat bruk, Tor eller Mullvad til sensitive aktiviteter og Chromium til profesjonelle oppgaver. Hver nettleser bruker sin egen lagringsinstans, noe som isolerer informasjonskapsler, økter og utvidelser fullstendig. Dette gjør det også mulig å skreddersy nettleserinnstillingene til dine spesifikke bruksområder.
+- **Bruk flere forskjellige nettlesere**: for eksempel Firefox til privat bruk, Tor eller Mullvad til sensitive aktiviteter og Chromium til profesjonelle oppgaver. Hver nettleser bruker sin egen lagringsinstans, noe som isolerer informasjonskapsler, økter og utvidelser fullstendig. Dette gjør det også mulig å skreddersy nettleserinnstillingene til dine spesifikke bruksområder.
 
 
 
 
 
-- Opprett flere profiler i én og samme nettleser**: Noen nettlesere lar deg opprette uavhengige profiler, hver med sin egen historikk, økter, utvidelser og innstillinger. Dette er en litt mindre restriktiv løsning enn å bruke flere separate nettlesere, men er likevel mindre effektivt.
+- **Opprett flere profiler i én og samme nettleser**: Noen nettlesere lar deg opprette uavhengige profiler, hver med sin egen historikk, økter, utvidelser og innstillinger. Dette er en litt mindre restriktiv løsning enn å bruke flere separate nettlesere, men er likevel mindre effektivt.
 
 
 
 
 
-- Bruk innebygde containere**: Firefox tilbyr utvidelsen [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), som lar deg åpne separate faner med hver sin innlogging og egne informasjonskapsler. Du kan også automatisk tilordne bestemte nettsteder til en bestemt container, slik at de holdes atskilt hver gang de åpnes.
+- Bruk innebygde containere: Firefox tilbyr utvidelsen [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), som lar deg åpne separate faner med hver sin innlogging og egne informasjonskapsler. Du kan også automatisk tilordne bestemte nettsteder til en bestemt container, slik at de holdes atskilt hver gang de åpnes.
 
 
 
@@ -6318,7 +6322,7 @@ Målet er enkelt: å forhindre at en hendelse som involverer en spesifikk aktivi
 
 
 
-- Bruk et isolert systemmiljø**: For spesielt sensitive bruksområder kan du også kjøre nettleseren i en virtuell maskin eller Docker-container, for å holde den helt atskilt fra hovedmiljøet ditt.
+- **Bruk et isolert systemmiljø**: For spesielt sensitive bruksområder kan du også kjøre nettleseren i en virtuell maskin eller Docker-container, for å holde den helt atskilt fra hovedmiljøet ditt.
 
 
 
@@ -6421,10 +6425,10 @@ For å begrense denne sporingen anbefaler vi at du velger søkemotorer som respe
 
 
 
-- [Startside] (https://www.startpage.com/);
-- [Kagi Search] (https://kagi.com/);
-- [Qwant] (https://www.qwant.com/);
-- [Mojeek] (https://www.mojeek.com/);
+- [Startside](https://www.startpage.com/);
+- [Kagi Search](https://kagi.com/);
+- [Qwant](https://www.qwant.com/);
+- [Mojeek](https://www.mojeek.com/);
 - [SearXNG](https://docs.searxng.org/) (som kan være selvbetjent).
 
 
@@ -6605,7 +6609,7 @@ Noen produsenter forbyr eller kompliserer denne operasjonen, eller til og med de
 #### GrapheneOS
 
 
-[GrapheneOS] (https://grapheneos.org/) er en forbedret AOSP ROM, designet for å tilby et høyere sikkerhetsnivå enn standard Android. Den er utviklet av et uavhengig team og revidert av eksperter. Graphene implementerer avanserte sikkerhetsmekanismer, inkludert:
+[GrapheneOS](https://grapheneos.org/) er en forbedret AOSP ROM, designet for å tilby et høyere sikkerhetsnivå enn standard Android. Den er utviklet av et uavhengig team og revidert av eksperter. Graphene implementerer avanserte sikkerhetsmekanismer, inkludert:
 
 
 
@@ -6626,12 +6630,12 @@ GrapheneOS integrerer ingen proprietære komponenter. Du står fritt til å legg
 Graphene er kun kompatibel med nyere Google Pixels (Pixel 6, 7, 8 og 9).
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### CalyxOS
 
 
-[CalyxOS] (https://calyxos.org/) er et mellomliggende system som tar sikte på å forene personvern, sikkerhet og kompatibilitet med daglig bruk. Det er også basert på AOSP, med sikkerhetsforbedringer. Det spesielle med CalyxOS er den valgfrie integreringen av MicroG, en gratis reimplementering av Google-tjenester. Dette gjør det mulig å kjøre de fleste Android-applikasjoner som er avhengige av Google-tjenester, uten å måtte gå gjennom offisielle proprietære binære filer.
+[CalyxOS](https://calyxos.org/) er et mellomliggende system som tar sikte på å forene personvern, sikkerhet og kompatibilitet med daglig bruk. Det er også basert på AOSP, med sikkerhetsforbedringer. Det spesielle med CalyxOS er den valgfrie integreringen av MicroG, en gratis reimplementering av Google-tjenester. Dette gjør det mulig å kjøre de fleste Android-applikasjoner som er avhengige av Google-tjenester, uten å måtte gå gjennom offisielle proprietære binære filer.
 
 
 CalyxOS tilbyr også forhåndsinstallerte applikasjoner (Signal, F-Droid, Aurora Store, integrert VPN ...), og en fin Interface. Det er enkelt å installere via et grafisk verktøy for Pixel-brukere. Calyx er hovedsakelig kompatibel med Google Pixels, men også noen Fairphone- og Motorola-modeller.
@@ -6643,7 +6647,7 @@ CalyxOS tilbyr også forhåndsinstallerte applikasjoner (Signal, F-Droid, Aurora
 #### LineageOS
 
 
-[LineageOS] (https://lineageos.org/), etterfølgeren til CyanogenMod, er den mest kompatible alternative ROM-en. Den støtter flere hundre modeller, takket være et stort fellesskap av bidragsytere. Basert på AOSP, legger den vekt på tilpasning, enkelhet og bruksfrihet.
+[LineageOS](https://lineageos.org/), etterfølgeren til CyanogenMod, er den mest kompatible alternative ROM-en. Den støtter flere hundre modeller, takket være et stort fellesskap av bidragsytere. Basert på AOSP, legger den vekt på tilpasning, enkelhet og bruksfrihet.
 
 
 LineageOS gir deg et Android-system uten produsentoverlegg, uten bloatware, full rettighetsadministrasjon, enkel oppdatering og en strømlinjeformet Interface. Du kan legge til Google-tjenester eller velge 100 % gratis bruk.
@@ -6842,11 +6846,11 @@ Offentlige Wi-Fi-nettverk, for eksempel på kafeer, hoteller eller i offentlig t
 For å beskytte deg selv kan du ganske enkelt unngå å bruke disse offentlige nettverkene, eller bruke et VPN, som oppretter en kryptert tunnel mellom enheten din og en ekstern server. Denne tunnelen kapsler inn dataene dine, noe som gjør det ekstremt vanskelig å avskjære eller endre dem.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 Når det gjelder Wi-Fi-nettverket hjemme, skal vi snakke om det i siste del av SCU 202-kurset.
 
@@ -6921,7 +6925,7 @@ Regelmessig sikkerhetskopiering av dataene på smarttelefonen din er svært vikt
 For å oppnå dette bør du bruke krypterte lokale løsninger, for eksempel en ekstern disk eller en kryptert USB-nøkkel (f.eks. med Veracrypt). Hvis du ikke klarer det, kan du bruke selvbetjente skyløsninger som *Syncthing* eller *Nextcloud*, slik at du kan sikkerhetskopiere dataene dine på en personlig server, samtidig som du beholder full kontroll over tilgang og konfidensialitet. I motsetning til kommersielle skytjenester (Google Drive, iCloud ...) begrenser disse løsningene eksponeringen av informasjonen din for tredjeparter betraktelig.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### Ekstern tørking
 
@@ -7019,7 +7023,7 @@ Signal har imidlertid et svakt punkt når det gjelder anonymitet: Applikasjonen 
 Kort sagt er Signal en veldig god meldingsløsning, men dessverre krever den en tilkobling fra et telefonnummer.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### WhatsApp
 
@@ -7042,7 +7046,7 @@ Telegram er en veldig populær meldingstjeneste takket være ergonomien og funks
 Telegram kan derfor teknisk sett få tilgang til innholdet i de fleste samtaler som ikke er eksplisitt beskyttet. Selv om selskapet har en fast holdning til myndighetene, er Telegram ikke en optimal løsning for konfidensielle eller sensitive utvekslinger, med mindre du eksplisitt bruker de "hemmelige utvekslingene", som er langt mindre praktiske i det daglige.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### Threema
 
@@ -7065,7 +7069,7 @@ Et annet viktig aspekt ved Threema er forretningsmodellen: applikasjonen er ikke
 Jeg synes denne meldingsløsningen er utmerket, men den største ulempen er at kildekoden til serverne fortsatt er proprietær.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX Chat
 
@@ -7088,7 +7092,7 @@ Kontakter legges til via midlertidige lenker eller statiske adresser (permanente
 Når det gjelder sikkerhet og konfidensialitet, går SimpleX lenger enn de fleste eksisterende meldingssystemer ved å begrense metadata til et minimum og eliminere enhver avhengighet av en sentral katalog eller unik identifikator. Denne arkitekturen innebærer imidlertid en rekke kompromisser når det gjelder brukervennlighet: til tider mindre intuitiv ergonomi, behov for en liten innlæringskurve og avhengighet av tilgjengeligheten til relay-servere.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### Sesjon
 
@@ -7105,7 +7109,7 @@ Teknisk sett implementerer Session ende-til-ende-kryptering for meldinger, filer
 Session-klienten og -serveren er basert på åpen kildekode. Programvaren er tilgjengelig på Android, iOS, Windows, macOS og Linux, med mulighet for å synkronisere mellom enheter via Mnemonic-frasen som ligner på den som brukes i Bitcoin-lommebøker. Denne frasen gir brukeren eksklusiv kontroll over dataene sine, men pålegger også et betydelig ansvar når det gjelder sikkerhetskopiering.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### Keet
 
@@ -7125,7 +7129,7 @@ På den annen side, selv om noen komponenter (kryptografi og nettverk) er publis
 Keet er tilgjengelig på Android, iOS, Windows, macOS og Linux, og kan synkroniseres mellom enheter ved hjelp av en Mnemonic-frase.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### Olvid
 
@@ -7162,7 +7166,7 @@ Programmet er sertifisert av ANSSI (*Agence Nationale de la Sécurité des Syst�
 Olvid er kompatibel med Android, iOS, Windows, macOS og Linux. Ergonomien er enkel og tilgjengelig. Programmet har også et kryptert backupsystem for nøkler og kontakter, slik at du kan gjenopprette en konto på en ny enhet.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### Meldingsapplikasjoner du bør unngå
 
@@ -7240,7 +7244,7 @@ FairEmail er en omfattende, sikkerhetsorientert Android-applikasjon. Den støtte
 
 
 
-- [K-9 Mail] (https://k9mail.app)
+- [K-9 Mail](https://k9mail.app)
 
 
 K-9 Mail er en Android-e-postklient med åpen kildekode, som nylig ble integrert i Mozillas Thunderbird-økosystem. Den støtter flere kontoer, PGP-kryptering via OpenKeychain og fungerer uten en mellomliggende server.
@@ -7250,7 +7254,7 @@ K-9 Mail er en Android-e-postklient med åpen kildekode, som nylig ble integrert
 
 
 
-- [Thunderbird Mobile] (https://www.thunderbird.net/mobile/)
+- [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
 
 
 Thunderbird Mobile er mobilversjonen av den populære e-postklienten med åpen kildekode, utviklet av Mozilla Foundation. I tråd med prosjektets filosofi legger applikasjonen vekt på konfidensialitet, åpenhet i koden og fravær av påtrengende telemetri. Thunderbird Mobile er basert på K-9 Mail-applikasjonen, som er den offisielle etterfølgeren på Android. Den har avansert administrasjon av IMAP- og POP-kontoer, e-postkryptering (via OpenPGP) og en enkel og effektiv Interface.
@@ -7260,7 +7264,7 @@ Thunderbird Mobile er mobilversjonen av den populære e-postklienten med åpen k
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7271,7 +7275,7 @@ Tuta (tidligere "*Tutanota*") tilbyr en komplett ende-til-ende-kryptert e-postl�
 
 
 
-- [Proton Mail] (https://proton.me/mail)
+- [Proton Mail](https://proton.me/mail)
 
 
 Proton Mail er en sikker, sveitsisk-basert meldingstjeneste som tilbyr innebygd ende-til-ende-kryptering mellom Proton-brukere. Mobilapplikasjonen er åpen kildekode, reklamefri og samler ikke inn personopplysninger ved registrering. Proton Mail støtter kun Proton-kontoer, men tillater kryptert sending selv til eksterne adresser via et passord.
@@ -7290,10 +7294,10 @@ Her er noen forslag når du skal velge e-postleverandør:
 
 
 
-- [Proton Mail] (https://proton.me/mail)
+- [Proton Mail](https://proton.me/mail)
 - [Tuta](https://tuta.com/)
 - [Postkasse](https://mailbox.org/)
-- [Disroot] (https://disroot.org/)
+- [Disroot](https://disroot.org/)
 - [Mailfence](https://mailfence.com/)
 
 
@@ -7307,10 +7311,10 @@ De fleste klassiske kartapplikasjoner, som Google Maps, Waze eller Citymapper, s
 
 
 
-- [Organiske kart] (https://organicmaps.app/)
+- [Organiske kart](https://organicmaps.app/)
 
 
-Organic Maps er et gratis offline navigasjonsprogram. Den er basert på data fra [OpenStreetMap] (https://www.openstreetmap.org), en åpen, samarbeidende database. Du laster ned kartene over de regionene du er interessert i, og navigerer deretter uten nettverk.
+Organic Maps er et gratis offline navigasjonsprogram. Den er basert på data fra [OpenStreetMap](https://www.openstreetmap.org), en åpen, samarbeidende database. Du laster ned kartene over de regionene du er interessert i, og navigerer deretter uten nettverk.
 
 
 Den inneholder ingen reklame, sporing eller datainnsamling. Appen er spesielt godt egnet for reiser til fots, på sykkel eller i bil, og Interface er enkel, rask og distraksjonsfri.
@@ -7377,7 +7381,7 @@ Tjenester som Google Drive eller Dropbox lagrer filene dine på eksterne servere
 
 
 
-- [Nextcloud] (https://nextcloud.com/)
+- [Nextcloud](https://nextcloud.com/)
 
 
 Nextcloud er en personlig nettskyløsning med åpen kildekode som du kan være vert for selv eller bruke via en pålitelig leverandør. Med Nextcloud kan du synkronisere, dele og redigere filene dine fra smarttelefonen din, samtidig som du beholder full kontroll over lagringen.
@@ -7390,7 +7394,7 @@ På Android kan du installere den offisielle Nextcloud-mobilappen for å få til
 
 
 
-- [Materialfiler] (https://github.com/zhanghai/MaterialFiles)
+- [Materialfiler](https://github.com/zhanghai/MaterialFiles)
 
 
 Material Files er en filbehandler med åpen kildekode som er lett og oversiktlig. Den lar deg bla gjennom, flytte, kopiere eller slette filer lokalt på Android-enheten din.
@@ -7422,7 +7426,7 @@ Etar er en enkel, effektiv og fullstendig åpen kildekode-kalender. Den kan kjø
 
 
 
-- [Enkel kalender] (https://simplemobiletools.com/simplecalendar/)
+- [Enkel kalender](https://simplemobiletools.com/simplecalendar/)
 
 
 Denne applikasjonen er en del av "*Simple Mobile Tools*"-pakken. Den krever ingen konto eller nettverkstilgang, noe som gjør den ideell for bruk helt offline. Du kan legge til hendelser, angi påminnelser og organisere visningene etter dag, uke eller måned. I likhet med resten av suiten er Simple Calendar reklamefri, sporingsfri og 100 % åpen kildekode.
@@ -7461,7 +7465,7 @@ Programmer som Evernote, Google Keep eller OneNote brukes til å fange opp ideer
 
 
 
-- [Quillpad] (https://quillpad.github.io/)
+- [Quillpad](https://quillpad.github.io/)
 
 
 Quillpad er et lettvektsprogram som er utviklet spesielt for Markdown-notater. Du kan kryptere notatene dine, organisere innholdet etter tagger og farger og legge til påminnelser. Alt fungerer uten konto eller tilkobling, og data forblir lagret på enheten din. De kan også lagres kryptert på pCloud.
@@ -7471,7 +7475,7 @@ Quillpad er et lettvektsprogram som er utviklet spesielt for Markdown-notater. D
 
 
 
-- [Joplin] (https://joplinapp.org/)
+- [Joplin](https://joplinapp.org/)
 
 
 Joplin er en mer omfattende løsning, som tilbyr synkronisering av krypterte notater via kompatible tjenester som Nextcloud, Dropbox eller WebDAV. Du kan håndtere enkle eller strukturerte notater (i Markdown), klassifisere dokumentene dine og til og med importere filvedlegg.
@@ -7502,10 +7506,10 @@ Bitwarden er en av de mest omfattende passordbehandlerne med åpen kildekode som
 Du kan bruke Bitwardens servere, eller selv hoste den hvis du vil ha full kontroll. Interface-mobilen er oversiktlig og flytende, med sømløs integrering i Android- eller iOS-systemet.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
-- [KeePassDX] (https://www.keepassdx.com/)
+- [KeePassDX](https://www.keepassdx.com/)
 
 
 KeePass er en historisk passordadministrator basert på krypterte lokale filer. På mobilen er KeePassDX en utmerket Android-implementering som er kompatibel med alle KeePass-databaser. Den fungerer offline, uten en sky, noe som gjør den til en god løsning for de som ønsker å beholde dataene sine 100 % lokalt.
@@ -7514,13 +7518,13 @@ KeePass er en historisk passordadministrator basert på krypterte lokale filer. 
 ![Image](assets/fr/172.webp)
 
 
-Det finnes også [KeePassium] (https://keepassium.com/) for iOS, en velintegrert applikasjon i Apples økosystem, kompatibel med KeePass-formatet og med åpen kildekode. Et annet iOS-alternativ for en KeePass-klient er Strongbox, men denne programvaren har ikke vært åpen kildekode på flere år.
+Det finnes også [KeePassium](https://keepassium.com/) for iOS, en velintegrert applikasjon i Apples økosystem, kompatibel med KeePass-formatet og med åpen kildekode. Et annet iOS-alternativ for en KeePass-klient er Strongbox, men denne programvaren har ikke vært åpen kildekode på flere år.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
-- [Proton Pass] (https://proton.me/pass)
+- [Proton Pass](https://proton.me/pass)
 
 
 Proton Pass er lansert av Proton-teamet (kjent for blant annet Proton Mail og Proton Drive), og kombinerer brukervennlighet, ende-til-ende-kryptering og en personvernvennlig sveitsisk infrastruktur. Mobilapplikasjonen er intuitiv, lar deg legge til sikre notater og støtter automatisk utfylling. Det er et utmerket alternativ for deg som ønsker en nøkkelferdig løsning uten å bekymre deg for teknisk administrasjon.
@@ -7548,7 +7552,7 @@ Men ikke alle VPN-tjenester er like gode. Populære tjenester som NordVPN eller 
 Mullvad er et av de beste VPN-tjenestene når det gjelder personvern. Det krever ingen e-post eller passord: Kontoen din er knyttet til et enkelt tilfeldig nummer. Betaling kan gjøres i bitcoins eller kontanter. Mobilklienten er åpen kildekode, enkel å bruke og kraftig. Mullvad fører ingen logger, sporer ikke brukerne sine og publiserer jevnlig uavhengige sikkerhetsrevisjoner.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,10 +7561,10 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN er et annet utmerket alternativ med fokus på personvern. De tilbyr en enkel og effektiv mobil Interface, ingen loggføring og tillater anonym registrering. Du kan også betale i bitcoins. Programmet har en brannmur som blokkerer all trafikk som ikke er VPN-trafikk, noe som kan være svært nyttig på en smarttelefon. Klientene er åpen kildekode.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
-- [Proton VPN] (https://protonvpn.com/)
+- [Proton VPN](https://protonvpn.com/)
 
 
 Dette VPN-et er utviklet av Proton-teamet, og tilbyr en gratis, reklamefri plan. Proton VPN er basert i Sveits, er underlagt strenge personvernlover og publiserer regelmessige revisjoner. Deres klienter er også åpen kildekode.
@@ -7579,7 +7583,7 @@ Tofaktorautentisering (2FA) er en ekstra Layer av sikkerhet i tillegg til passor
 
 
 
-- [Aegis Authenticator] (https://getaegis.app/)
+- [Aegis Authenticator](https://getaegis.app/)
 
 
 Aegis er et omfattende program med åpen kildekode. Den krypterer 2FA-databasen din med et passord, tilbyr eksporterbare sikkerhetskopier (også krypterte) og lar deg sortere kontoene dine etter katalog. Interface er oversiktlig, moderne og enkel å gjenopprette på en ny enhet, så lenge du har sikkerhetskopifilen og det tilhørende passordet.
@@ -7595,7 +7599,7 @@ Aegis er et omfattende program med åpen kildekode. Den krypterer 2FA-databasen 
 Ente Auth er en moderne løsning med åpen kildekode og flere plattformer, med ende-til-ende-krypterte sikkerhetskopier. Den lar deg synkronisere 2FA-kodene dine på en sikker måte på mobil, datamaskin og nett. Du kan også bruke den offline, uten sikkerhetskopiering i skyen eller kontoopprettelse.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth tilbyr mange tilleggsfunksjoner: Organisering etter tagger, tilpassede ikoner for hver tjeneste, notater, favoritter, integrert søk, sikker deling av teamkoder.
 
 
@@ -7603,19 +7607,19 @@ Ente Auth tilbyr mange tilleggsfunksjoner: Organisering etter tagger, tilpassede
 
 
 
-- [Authy] (https://www.authy.com/)
+- [Authy](https://www.authy.com/)
 
 
 Authy tilbyr 2FA-synkronisering på tvers av flere enheter, noe som kan være praktisk, men applikasjonen er ikke åpen kildekode og krever et telefonnummer for registrering. For nybegynnere er det imidlertid mer komplett enn Google Authenticator, spesielt takket være sikkerhetskopieringsfunksjonen i skyen.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 Hvis du vil vite mer om passordadministratorer, 2FA-autentisering og VPN-er, anbefaler jeg at du leser de dedikerte kapitlene i SCU-101-kurset:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Været
 
@@ -7627,7 +7631,7 @@ Klassiske værapplikasjoner som AccuWeather eller Météo France samler ofte inn
 
 
 
-- [Geometrisk vær] (https://github.com/WangDaYeeeeee/GeometricWeather)
+- [Geometrisk vær](https://github.com/WangDaYeeeeee/GeometricWeather)
 
 
 Geometric Weather tilbyr detaljerte prognoser og tilpassbare widgeter, alt uten reklame eller påtrengende datainnsamling. Koden er åpen kildekode. Programmet støtter flere værleverandører.
@@ -7637,7 +7641,7 @@ Geometric Weather tilbyr detaljerte prognoser og tilpassbare widgeter, alt uten 
 
 
 
-- [Prognoza] (https://github.com/davidtakac/prognoza)
+- [Prognoza](https://github.com/davidtakac/prognoza)
 
 
 Prognoza er en minimalistisk applikasjon som går rett på sak: Visning av aktuelt vær og prognoser. Den tilbyr flere widgets. Prognoza er reklamefri, sporingsfri og krever ingen unødvendig autorisasjon.
@@ -7647,7 +7651,7 @@ Prognoza er en minimalistisk applikasjon som går rett på sak: Visning av aktue
 
 
 
-- [Forecastie] (https://github.com/martykan/forecastie)
+- [Forecastie](https://github.com/martykan/forecastie)
 
 
 Enkel værapplikasjon, basert på OpenWeatherMap, åpen kildekode, konfigurerbar, med widgets.
@@ -7669,7 +7673,7 @@ Populære plattformer som Spotify eller YouTube tilbyr en sømløs brukeroppleve
 
 
 
-- [LibreTube] (https://libretube.dev/)
+- [LibreTube](https://libretube.dev/)
 
 
 LibreTube er en Android-applikasjon som lar deg se YouTube-videoer uten at Google sporer deg. Alle forespørsler omdirigeres via en Piped-proxyserver, som anonymiserer tilgangen til videoer. Interface er moderne, rask og reklamefri. Applikasjonen krever ingen Google-konto, og lar deg anonymt abonnere på kanaler eller opprette lokale spillelister.
@@ -7686,7 +7690,7 @@ NewPipe er en annen alternativ YouTube-klient. Den er lett, reklamefri, sporings
 
 
 
-- [VLC Android] (https://www.videolan.org/vlc/download-android.html)
+- [VLC Android](https://www.videolan.org/vlc/download-android.html)
 
 
 Den populære mediespilleren VLC er også tilgjengelig på Android. Den støtter et bredt spekter av lyd- og videoformater, og lar deg spille av filer lokalt eller over et nettverk, helt uten reklame eller datainnsamling. Det er en utmerket løsning for å administrere ditt eget multimediebibliotek lokalt, uten tilkobling til en tredjepartstjeneste.
@@ -7696,7 +7700,7 @@ Den populære mediespilleren VLC er også tilgjengelig på Android. Den støtter
 
 
 
-- [Funkwhale] (https://funkwhale.audio/):
+- [Funkwhale](https://funkwhale.audio/):
 
 
 Funkwhale er en desentralisert plattform for deling og lytting til musikk, med kompatible klienter.
@@ -7767,7 +7771,7 @@ F-Droid er en applikasjonskatalog med utelukkende åpen kildekode. All tilgjenge
 
 
 
-- [Aurora Store] (https://auroraoss.com/)
+- [Aurora Store](https://auroraoss.com/)
 
 
 Aurora Store gir deg tilgang til Google Play Store-katalogen anonymt, uten en Google-konto. Det er en gratis klient som samhandler direkte med Googles servere, mens du maskerer identiteten din via en generisk konto. Det er en verdifull løsning for å fortsette å bruke visse nødvendige proprietære: Applikasjoner, samtidig som du unngår Google Play-telemetri.
@@ -7783,7 +7787,7 @@ Selv om Google News-applikasjonen er praktisk og personlig, er den avhengig av e
 
 
 
-- [Nyheter] (https://github.com/bubelov/news)
+- [Nyheter](https://github.com/bubelov/news)
 
 
 Applikasjonen *News*, utviklet av Bubelov, tilbyr en radikalt annerledes tilnærming. Det er en minimalistisk RSS-leser, designet for å lese nyheter uten trackere, reklame eller ugjennomsiktige anbefalingsalgoritmer. Du kan manuelt velge kilder (presse, blogger, podcaster, uavhengige medier osv.), noe som garanterer en nøytral og privat leseopplevelse. Designet er ryddig, feeds oppdateres automatisk, og ingen data sendes videre til tredjeparter.
@@ -7799,7 +7803,7 @@ Google Kontakter, i likhet med mange standardapplikasjoner på Android, synkroni
 
 
 
-- [Connect You] (https://github.com/you-apps/ConnectYou)
+- [Connect You](https://github.com/you-apps/ConnectYou)
 
 
 Connect You er et lett og oversiktlig alternativ med åpen kildekode, utviklet for deg som ønsker å administrere kontaktene dine lokalt, uten datainnsamling eller tvungen synkronisering med en tredjepartssky. Det tilbyr en intuitiv Interface, gjør det enkelt å sortere, søke og redigere oppføringene dine, og kan integreres med CalDAV-tjenester hvis du bruker en egen kontaktserver (for eksempel via Nextcloud).
@@ -7815,7 +7819,7 @@ Google Foto er flott for automatisk lagring av bilder i skyen, organisering av d
 
 
 
-- [Enkelt galleri] (https://github.com/SimpleMobileTools/Simple-Gallery)
+- [Enkelt galleri](https://github.com/SimpleMobileTools/Simple-Gallery)
 
 
 Simple Gallery er en minimalistisk åpen kildekode-applikasjon som fungerer helt offline. Det er en del av *Simple Mobile Tools*-pakken. Du kan administrere, sortere, vise og redigere bildene dine uten at noen data forlater enheten. Den har også retusjering, passordbeskyttelse og en søppelbøtte for å gjenopprette slettede elementer. Ingen sporing, ingen tvungen synkronisering: Bildene dine blir hos deg.
@@ -7842,7 +7846,7 @@ Ente Photos er en tjeneste med åpen kildekode (klienter + servere) for automati
 
 
 
-- [Stingle Photos] (https://stingle.org/)
+- [Stingle Photos](https://stingle.org/)
 
 
 Stingle er både et fotogalleri og en kameraapplikasjon, kombinert med en kryptert backuptjeneste. I likhet med Ente er bildene beskyttet av ende-til-ende-kryptering. Du kan bruke skytjenesten deres (1 GB gratis) eller selv være vert for Stingle-serveren for full kontroll. Interface er enkel, uten annonser eller sporere.
@@ -7861,14 +7865,14 @@ Adobe Acrobat Reader, som er mye brukt til å lese eller kommentere PDF-dokument
 
 
 
-- [MuPDF Viewer] (https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
+- [MuPDF Viewer](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
 
 
 MuPDF Viewer er en ultralett, rask og fullstendig åpen kildekodebasert PDF-leser. Den bruker svært få ressurser. Selv om den ikke tilbyr avanserte funksjoner som kommentering eller signering, gjør den jobben sin perfekt: Den viser dokumentene dine uten å spionere.
 
 
 
-- [MJ PDF Reader] (https://gitlab.com/mudlej_android/mj_pdf_reader)
+- [MJ PDF Reader](https://gitlab.com/mudlej_android/mj_pdf_reader)
 
 
 MJ PDF Reader er et enkelt program med åpen kildekode som lar deg lese PDF-filer uten reklame eller tilkobling til en nettkonto.
@@ -7903,7 +7907,7 @@ Google Translate er referanseindeksen for automatisk oversettelse, men bruken av
 
 
 
-- [TranslateYou] (https://github.com/you-apps/TranslateYou)
+- [TranslateYou](https://github.com/you-apps/TranslateYou)
 
 
 TranslateYou er et oversettelsesprogram med åpen kildekode som respekterer brukernes personvern. Det fungerer som en Interface for ulike oversettelsesmotorer (LibreTranslate, LingvaTranslate, Mozhi, DeepL osv.), og lar deg velge en tjeneste som ikke utnytter dataene dine.
@@ -7947,13 +7951,13 @@ Quick Share er nå standard på Android. Denne programvaren, som opprinnelig ble
 
 
 
-- [Snapdrop] (https://github.com/SnapDrop/snapdrop)
+- [Snapdrop](https://github.com/SnapDrop/snapdrop)
 
 
 Snapdrop er et gratis alternativ med åpen kildekode som ikke krever noen installasjon. Med Snapdrop kan du dele filer mellom enheter som er koblet til samme lokale nettverk, ganske enkelt via en nettleser. Overføringen skjer direkte (peer-to-peer), og data går aldri via en ekstern server.
 
 
-Et interessant alternativ er [PairDrop] (https://github.com/schlagmichdoch/pairdrop) (en Fork av Snapdrop), som tilbyr noen ekstra funksjoner.
+Et interessant alternativ er [PairDrop](https://github.com/schlagmichdoch/pairdrop) (en Fork av Snapdrop), som tilbyr noen ekstra funksjoner.
 
 
 
@@ -7996,7 +8000,7 @@ Openreads er et åpen kildekode-alternativ for personvernvennlig lesesporing. Me
 
 
 
-- [Chrono] (https://github.com/vicolo-dev/chrono)
+- [Chrono](https://github.com/vicolo-dev/chrono)
 
 
 Chrono er tilgjengelig på F-Droid og har helt åpen kildekode, og tilbyr en moderne, ryddig Interface uten reklame eller datainnsamling. Den lar deg lage tilpassbare alarmer: Repetisjon i henhold til bestemte dager eller datointervaller, valg av lyd, progressiv intensitet, vibrasjon eller til og med oppgaver som skal utføres for å deaktivere alarmen (løse en beregning, lese en tekst på nytt osv.).
@@ -8070,8 +8074,8 @@ Internett-infrastrukturen er hovedsakelig basert på to protokoller:
 
 
 
-- IP** (*Internet Protocol*) Identifiserer hver tilkoblet enhet og ruter datapakker.
-- TCP** (*Transmission Control Protocol*) Segmenterer flyten, sjekker for feil og setter segmentene tilbake i riktig rekkefølge.
+- **IP** (*Internet Protocol*) Identifiserer hver tilkoblet enhet og ruter datapakker.
+- **TCP** (*Transmission Control Protocol*) Segmenterer flyten, sjekker for feil og setter segmentene tilbake i riktig rekkefølge.
 
 
 → For sanntidsbruk der pålitelighet er mindre viktig enn ventetid (VoIP, DNS, strømming osv.), brukes ofte en annen transportprotokoll i stedet for TCP: UDP (*User Datagram Protocol*).
@@ -8098,21 +8102,21 @@ Internett kan derfor oppsummeres som et enormt desentralisert nettverk, basert p
 I de fleste moderne hjem får man tilgang til Internett via en sentral enhet som fungerer som modem og ruter. Navnet på denne enheten varierer fra land til land (i Frankrike kalles den en "Internet Box"). Det er denne multifunksjonelle enheten som leveres av Internett-leverandøren, som kobler deg til resten av Internett-nettverket.
 
 
-→ *ISP = Internett-leverandør
+→ *ISP = Internett-leverandør*
 
 
 Denne enheten kombinerer to hovedfunksjoner:
 
 
 
-- Modemets rolle**
+- Modemets **rolle**
 
 
 Modemet (forkortelse for "*modulator-demodulator*") er den komponenten som kobler ISP-nettverket til hjemmet ditt. Den omformer de elektriske eller optiske signalene som mottas (via fiberoptikk, koaksialkabel, ADSL eller mobilnettet) til digitale signaler som kan forstås av enhetene dine. Omvendt konverterer den dataene fra utstyret ditt til et format som kan overføres via operatørens infrastruktur. Dette trinnet er avgjørende for at hjemmenettverket skal kunne kommunisere med Internett.
 
 
 
-- Ruterens rolle**
+- **Ruterens rolle**
 
 
 Ruteren er hjertet i det lokale nettverket ditt. Den distribuerer Internett-tilkoblingen til alle enhetene dine: Datamaskiner, smarttelefoner, tilkoblede objekter, skrivere osv. Den tildeler hver av dem en lokal IP Address (forskjellig fra din offentlige IP som er synlig på Internett). Ruteren organiserer deretter innkommende og utgående trafikk, og sørger for at data når frem til riktig enhet. Den kan også integrere en brannmur, filtrere nettverkspakker eller administrere regler for portvideresending. NAT maskerer det lokale nettverket for Internett ved å bruke én offentlig IP Address til å representere alle enhetene dine. Bare ruteren vet hvilken lokal enhet som initierte hvilken forespørsel.
@@ -8267,7 +8271,7 @@ Som vi oppdaget i forrige kapittel, er det svært viktig å sikre hjemmenettverk
 Etter å ha gjennomgått de teoretiske grunnprinsippene, vil dette kapittelet veilede deg gjennom klare, praktiske og effektive trinn for å forbedre sikkerheten i det lokale nettverket.
 
 
-*Merk: Informasjonen som gis her er generell, ettersom Plan ₿ Network er rettet mot et internasjonalt publikum. Avhengig av lokale forhold og Internett-leverandøren din, kan det hende at visse beste fremgangsmåter ikke er nevnt her, eller at de gjelder på en annen måte*
+*Merk: Informasjonen som gis her er generell, ettersom Plan ₿ Academy er rettet mot et internasjonalt publikum. Avhengig av lokale forhold og Internett-leverandøren din, kan det hende at visse beste fremgangsmåter ikke er nevnt her, eller at de gjelder på en annen måte*
 
 
 ### Velge og sikre nettverksutstyret ditt
@@ -8282,10 +8286,16 @@ Det er viktig å velge moderne utstyr som vedlikeholdes av produsenten, og som o
 En Wi-Fi 6-, Wi-Fi 6E- eller Wi-Fi 7-kompatibel ruter gir deg bedre hastigheter og, fremfor alt, støtte for moderne sikkerhetsteknologi. Svært gammelt utstyr, spesielt utstyr som ikke lenger mottar programvareoppdateringer, kan derimot inneholde kjente sårbarheter som ikke er oppdatert. De utgjør derfor en risiko for hele nettverket ditt, selv om du konfigurerer dem riktig. Sammenlignet med mobiltelefoner eller datamaskiner er rutere utstyr som vi gjerne beholder i mange år. Det kan imidlertid være lurt å bytte dem ut med jevne mellomrom for å dra nytte av en mer moderne og sikker modell.
 
 
+**Merk**: Som en tommelfingerregel kan rutere levert av internettleverandører mangle den essensielle oppdateringsfunksjonen samt tilpasningsmuligheter. I noen tilfeller kan leverandørene også ha ubegrenset tilgang til sluttbrukerens interne nettverk.
+
 Sørg derfor for at du systematisk oppdaterer ruterens fastvare. Disse oppdateringene retter opp sårbarheter, legger til nye funksjoner og forbedrer den generelle systemstabiliteten. Noen produsenter tilbyr automatiske oppdateringer, men i noen tilfeller må du sjekke manuelt via ruterens Interface-administrasjonsverktøy. På samme måte som med telefonen, datamaskinen, operativsystemet og programvaren er det viktig å oppdatere ruteren regelmessig. Du kan gjøre dette til en del av den ukentlige rutinen din - for eksempel hver søndag - ved å lage en liste over alle elementene du trenger å sjekke og holde oppdatert.
 
 
-Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer som den skal fra et maskinvaresynspunkt, kan du installere en alternativ fastvare med åpen kildekode, f.eks:
+Alternativt kan du aktivere automatiske oppdateringer eller i det minste automatisk skanning etter nye firmwareoppdateringer hvis du foretrekker å handle manuelt. Selv om automatisk oppdatering-funksjonen fortsatt kan utgjøre en sikkerhetstrussel, vil manglende regelmessig oppdatering av ruterenes firmware eksponere ditt lokale nettverk for offentlig kjente sårbarheter.
+
+**Eksempel**: Når du kjøper din egen ruter, kan det være en god idé å se etter etablerte firmaer i bransjen som har levert rutere på markedet i lang tid. For eksempel har Fritz!Box-rutere et langvarig rykte som plug-and-play-enheter, godt egnet for bruk både i familier og i små selskaper. Deres policy for programvareoppdateringer strekker seg vanligvis over flere år.
+
+Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer korrekt fra et maskinvaresynspunkt, kan du kanskje installere en alternativ åpen kildekode-firmware, som:
 
 
 
@@ -8293,13 +8303,15 @@ Hvis ruteren din ikke lenger vedlikeholdes, men fortsatt fungerer som den skal f
 - pfSense og OPNsense, to FreeBSD-baserte (Unix-lignende) systemer for x86-brannmurer og -rutere
 
 
+**Merk**: Noen ISP-er leverer kundene sine bulkroutere produsert av ett selskap som samtidig leverer mange forskjellige ISP-er rundt om i verden. Du kan oppdage at for å installere en av de alternative firmware-ene på ruteren har noen andre kanskje allerede funnet ut hvordan man gjør det, selv om de er på andre siden av verden.
+
 ![Image](assets/fr/196.webp)
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 Disse systemene muliggjør finere kontroll av brannmurregler, utgående og innkommende tilkoblinger, nettverkssegmentering (VLAN) og DNS-administrasjon, men er mer rettet mot avanserte brukere.
 
@@ -8336,9 +8348,9 @@ Det er derfor viktig at du endrer identifikatorene dine umiddelbart etter at du 
 Passordet må være langt (40 tegn), komplekst (tall, små bokstaver, store bokstaver og symboler), unikt (kan ikke gjenbrukes andre steder) og tilfeldig. Jeg anbefaler selvsagt å bruke en passordadministrator for å generate og lagre disse opplysningene på en sikker måte.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Advarsel: Ikke forveksle ruterens administrasjonspassord (som beskytter tilgangen til konfigurasjonen) med Wi-Fi-passordet (som gjør det mulig å koble seg til det trådløse nettverket). Dette er to forskjellige Elements, og begge må endres.
 
@@ -8356,37 +8368,37 @@ Noen funksjoner bør unngås eller systematisk deaktiveres:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 Denne funksjonen gjør det mulig for enhetene i nettverket å be ruteren om å åpne porter automatisk. Selv om dette gjør det enklere å bruke visse funksjoner (nettspill, tilkoblede kameraer osv.), åpner det også døren for ondsinnede programmer som kan endre nettverkskonfigurasjonen uten din tillatelse. UPnP er en av hovedårsakene til utilsiktet eksponering av interne tjenester for omverdenen.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- WPS (*Wi-Fi Protected Setup*):
 
 
 Dette systemet ble opprinnelig utviklet for å gjøre det enklere å koble enheter til Wi-Fi uten å oppgi passord, men er basert på en PIN-kode som ofte er svak og lett kan angripes med brute force. Jeg anbefaler deg å deaktivere det.
 
 
 
-- Ekstern tilgang (*Remote Management*)**:
+- Ekstern tilgang (**Remote Management**):
 
 
 Noen rutere lar deg koble deg til administrasjonen Interface fra utsiden, via Internett. Denne funksjonen øker ruterens angrepsflate på en urimelig måte. Deaktiver den helt, med mindre du har et spesifikt behov for fjernadministrasjon. Selv da bør du alltid bruke et VPN.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Foreldede eller usikre protokoller**:
+- **Foreldede eller usikre protokoller**:
 
 
 Deaktiver alle administrasjonstjenester som bruker klartekstprotokoller som Telnet, FTP, ukryptert HTTP eller SMBv1. Disse protokollene sikrer verken konfidensialitet eller integritet for utvekslede data, og de er ofte mål for skadelig programvare. Hvis du trenger lokal eller ekstern tilgang, bør du kun bruke tilkoblinger via HTTPS (kryptert Interface), SSH eller SFTP, alt etter hva som er hensiktsmessig.
 
 
 
-- Ping WAN / ICMP**:
+- Ping WAN / ICMP:
 
 
 Noen rutere svarer som standard på ICMP-forespørsler som sendes fra utsiden (`ping`-kommando). Dette gjør det mulig for en angriper å sjekke at nettverket ditt er aktivt og tilgjengelig. Hvis du ikke trenger det, kan du deaktivere denne responsen i ruterens brannmur.
@@ -8453,19 +8465,19 @@ Hvis du vil forbedre personvernet og blokkere uønsket innhold helt fra roten, k
 
 
 
-- [Quad9] (https://quad9.net/): Inkluderer blokkeringslister for ondsinnede domener og lagrer ingen langtidslogger over navn
+- [Quad9](https://quad9.net/): Inkluderer blokkeringslister for ondsinnede domener og lagrer ingen langtidslogger over navn
 
 
 
-- [Cloudflare DNS] (https://www.cloudflare.com/application-services/products/dns/): Rask og forpliktet til en streng policy mot loggføring
+- [Cloudflare DNS](https://www.cloudflare.com/application-services/products/dns/): Rask og forpliktet til en streng policy mot loggføring
 
 
 
-- [NextDNS] (https://nextdns.io/): Svært tilpasningsdyktig, med avanserte filtrerings- og statistikkfunksjoner
+- [NextDNS](https://nextdns.io/): Svært tilpasningsdyktig, med avanserte filtrerings- og statistikkfunksjoner
 
 
 
-- [AdGuard DNS] (https://adguard-dns.io/): Enkel å konfigurere, med alternativer for annonseblokkering og sporing
+- [AdGuard DNS](https://adguard-dns.io/): Enkel å konfigurere, med alternativer for annonseblokkering og sporing
 
 
 ![Image](assets/fr/199.webp)
@@ -8475,15 +8487,15 @@ Deretter aktiverer du en krypteringsprotokoll for DNS-spørringer for å forhind
 
 
 
-- DoH (*DNS over HTTPS*)**: Kapsler inn DNS-forespørsler i HTTPS-protokollen, slik at de ikke kan skilles fra vanlig kryptert nettrafikk
+- DoH (*DNS over HTTPS*): Kapsler inn DNS-forespørsler i HTTPS-protokollen, slik at de ikke kan skilles fra vanlig kryptert nettrafikk
 
 
 
-- DoT (*DNS over TLS*)**: Oppretter en spesifikk kryptert kanal mellom enheten din og DNS-serveren
+- DoT (**DNS over TLS**): Oppretter en spesifikk kryptert kanal mellom enheten din og DNS-serveren
 
 
 
-- DoQ (*DNS over QUIC*)**: Transporterer DNS-forespørsler via den UDP-baserte QUIC-protokollen
+- DoQ (**DNS over QUIC**): Transporterer DNS-forespørsler via den UDP-baserte QUIC-protokollen
 
 
 I praksis kan DNS-kryptering og serverbytte implementeres på ulike nivåer:
@@ -8497,7 +8509,7 @@ I praksis kan DNS-kryptering og serverbytte implementeres på ulike nivåer:
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - På operativsystemnivå: Noen operativsystemer har innebygd støtte for kryptert DNS (DoT eller DoH), noe som sikrer alle DNS-forespørsler som går gjennom systemets nettverksstack. Dette sikrer imidlertid ikke hele datamaskinen eller telefonen: Programmer kan omgå denne innstillingen hvis de er konfigurert til å bruke en annen DNS-resolver eller -protokoll.
 
 
@@ -8512,7 +8524,7 @@ Det er heller ikke alltid at modemrutere som leveres av Internett-leverandøren,
 Hvis du vil gå et skritt videre, kan du også sette opp en lokal DNS-filtreringsløsning, for eksempel Pi-hole eller AdGuard Home.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 Disse verktøyene fungerer som en liten DNS-server i nettverket ditt, og blokkerer forespørsler til domener som er kjent for å inneholde reklame, nettlesersporere, phishing eller ondsinnede nettsteder. Med disse verktøyene kan du også lage dine egne blokkeringslister eller tilpasse filtreringen etter hvilke enheter som er tilkoblet.
 
@@ -8533,19 +8545,19 @@ De to hovedløsningene for privatkunder er
 - WireGuard: Moderne, rask og lett
 - OpenVPN: Eldre, men svært modent og konfigurerbart
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 Her er en komplett veiledning om Tailscale, en VPN-løsning som er enkel å konfigurere og som bruker WireGuard:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 Du kan være vert for dette VPN-et direkte på en kompatibel ruter, på en liten datamaskin (for eksempel en Raspberry Pi) eller på en dedikert server hjemme. Du kan også installere det som en klient direkte på en hvilken som helst enhet.
 
 Men et VPN er ikke bare for ekstern tilgang. Du kan også bruke en klassisk VPN-klient på enhetene dine for å kryptere all utgående trafikk, selv når du er borte fra hjemmet (offentlig Wi-Fi, hotell, universitet osv.). I dette tilfellet kobler enheten din til en tredjeparts VPN-server (kommersiell eller egenutviklet), som deretter videresender forbindelsene dine til Internett. Dette skjuler din virkelige IP Address fra Internett-leverandøren, beskytter dataene dine mot lokal spionasje og unngår visse former for sensur.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 Til slutt er det også mulig å sette opp et VPN direkte på ruteren din, slik at du kan beskytte alle enhetene i hjemmet uten å måtte installere en VPN-klient på hver av dem.
 
@@ -8555,17 +8567,17 @@ Når nettverket er riktig konfigurert og segmentert, er det viktig å gå lenger
 
 Det første steget er å sentralisere sikkerhetsloggene. Alle enheter som er koblet til nettverket, genererer logger som inneholder informasjon om tilkoblinger, feil eller mistenkelig aktivitet. I stedet for å konsultere disse loggene hver for seg, anbefaler jeg å sende dem til en server som kan gruppere, sortere og analysere dem. Med løsninger som Graylog eller Elastic Stack (ELK) kan du samle disse loggene i en grafisk Interface der du kan søke etter spesifikke hendelser, opprette varsler eller visualisere nettverksaktivitet.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 Deretter bør du utføre regelmessige aktive skanninger av det lokale nettverket, for eksempel med Nmap. Da får du oversikt over alle enhetene i nettverket og hvilke porter de har åpnet. Hvis du oppdager en ukjent enhet eller en uvanlig tjeneste, kan dette være tegn på et angrep.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 Hvis du vil gå enda lenger, kan du installere et IDS (*Intrusion Detection System*), eller til og med et IPS (*Intrusion Prevention System*). Disse verktøyene, for eksempel Suricata eller Snort, overvåker nettverksstrømmer i sanntid og oppdager signaturer på kjente angrep (portskanninger, injeksjoner, mistenkelige tilkoblinger osv.). IDS advarer, mens IPS automatisk kan blokkere visse handlinger.
 
 Til slutt er overvåking av båndbreddeforbruket også en god indikator på unormal aktivitet. Hvis en enhet plutselig bruker mye data uten noen åpenbar grunn, kan dette tyde på uautorisert nedlasting, datalekkasje eller til og med en kompromittert enhet. Med verktøy som ntopng eller vnStat kan du se innkommende og utgående datastrømmer per enhet.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sikkerhetskopiering og robusthet
 
@@ -8598,3 +8610,4 @@ Ved å følge disse få trinnene kan du bygge et robust og sikkert nettverksmilj
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

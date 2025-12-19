@@ -1,0 +1,9 @@
+question: 라이트닝 트랜잭션에서 LNURL의 역할은 무엇인가요?
+answer: 노드와 Lightning 애플리케이션 간의 상호 작용을 단순화하기 위해
+wrong_answers:
+  - 각 결제에 대한 채널 생성 촉진
+  - 결제 정보의 기밀성 보장
+  - 거래 수수료 자동 계산
+explanation: |
+  LNURL은 노드와 라이트닝 애플리케이션 간의 인출 및 결제 등의 상호작용을 간소화하도록 설계된 통신 프로토콜입니다.
+reviewed: true

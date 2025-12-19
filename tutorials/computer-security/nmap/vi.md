@@ -1,5 +1,5 @@
 ---
-name: Bản đồ Nmap
+name: Nmap
 description: Master Nmap để lập bản đồ mạng và quét lỗ hổng
 ---
 
@@ -61,9 +61,9 @@ Nmap có nhiều điểm mạnh:
 
 
 
-- Mạnh mẽ và linh hoạt**: Nmap có thể quét các mạng lớn và sử dụng các kỹ thuật phát hiện tiên tiến. Nó hỗ trợ UDP, TCP, ICMP, IPv4 và IPv6, đồng thời có thể thực hiện phát hiện phiên bản, quét lỗ hổng hoặc tương tác theo giao thức cụ thể. Kiến trúc của nó được thiết kế theo dạng mô-đun, đặc biệt là nhờ các tập lệnh NSE (Nmap Scripting Engine), mà chúng ta sẽ tìm hiểu sau trong hướng dẫn này.
-- Dễ sử dụng**: tài liệu chính thức rất phong phú và chất lượng cao. Ngoài ra còn có nhiều tài nguyên cộng đồng để giúp bạn bắt đầu.
-- Độ phổ biến và tuổi thọ**: Nmap đã là một công cụ tham khảo trong lĩnh vực này kể từ năm 1998. Phiên bản hiện tại, tại thời điểm cập nhật này, là 7.95. Mặc dù có nhiều công cụ khác cho các tác vụ cụ thể, Nmap vẫn là công cụ không thể thiếu cho việc lập bản đồ và phân tích mạng.
+- **Mạnh mẽ và linh hoạt**: Nmap có thể quét các mạng lớn và sử dụng các kỹ thuật phát hiện tiên tiến. Nó hỗ trợ UDP, TCP, ICMP, IPv4 và IPv6, đồng thời có thể thực hiện phát hiện phiên bản, quét lỗ hổng hoặc tương tác theo giao thức cụ thể. Kiến trúc của nó được thiết kế theo dạng mô-đun, đặc biệt là nhờ các tập lệnh NSE (Nmap Scripting Engine), mà chúng ta sẽ tìm hiểu sau trong hướng dẫn này.
+- **Dễ sử dụng**: tài liệu chính thức rất phong phú và chất lượng cao. Ngoài ra còn có nhiều tài nguyên cộng đồng để giúp bạn bắt đầu.
+- **Độ phổ biến và tuổi thọ**: Nmap đã là một công cụ tham khảo trong lĩnh vực này kể từ năm 1998. Phiên bản hiện tại, tại thời điểm cập nhật này, là 7.95. Mặc dù có nhiều công cụ khác cho các tác vụ cụ thể, Nmap vẫn là công cụ không thể thiếu cho việc lập bản đồ và phân tích mạng.
 
 
 
@@ -87,7 +87,7 @@ ma trận: Cảnh được tải lại có Nmap
 
 
 
-**Nhận xét
+**Nhận xét**
 
 
 
@@ -433,7 +433,7 @@ cài đặt thư viện "Npcap" khi cài đặt Nmap trên Windows
 
 
 
-Tương tự như Linux, bạn có thể xác thực Nmap đã được cài đặt bằng cách mở Dấu nhắc lệnh hoặc thiết bị đầu cuối [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") và nhập lệnh sau:
+Tương tự như Linux, bạn có thể xác thực Nmap đã được cài đặt bằng cách mở Dấu nhắc lệnh hoặc thiết bị đầu cuối [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") và nhập lệnh sau:
 
 
 
@@ -485,25 +485,25 @@ Dù trên Linux hay Windows, có nhiều trường hợp Nmap sẽ yêu cầu b�
 
 
 
-- Xây dựng các gói tin mạng "thô"**: Nmap có khả năng thực hiện nhiều phương pháp quét, bao gồm cả việc xử lý và xây dựng gói tin nâng cao. Ví dụ, trường hợp này xảy ra khi chúng ta muốn thực hiện quét TCP SYN, vốn không tuân thủ cơ chế bắt tay ba bước cổ điển của các trao đổi TCP. Để làm được điều này, Nmap cần sử dụng các hàm khác ngoài các hàm gốc của hệ điều hành, vốn chỉ biết cách tuân thủ các thông lệ tốt trong giao tiếp mạng (nó gọi đến các thư viện "Npcap" và "libcap" đã đề cập ở trên). Chính vì Nmap không hoạt động theo cách "chuẩn" nên nó có thể suy ra một số thông tin nhất định về hệ điều hành, dịch vụ và một số lỗ hổng bảo mật.
+- **Xây dựng các gói tin mạng "thô"**: Nmap có khả năng thực hiện nhiều phương pháp quét, bao gồm cả việc xử lý và xây dựng gói tin nâng cao. Ví dụ, trường hợp này xảy ra khi chúng ta muốn thực hiện quét TCP SYN, vốn không tuân thủ cơ chế bắt tay ba bước cổ điển của các trao đổi TCP. Để làm được điều này, Nmap cần sử dụng các hàm khác ngoài các hàm gốc của hệ điều hành, vốn chỉ biết cách tuân thủ các thông lệ tốt trong giao tiếp mạng (nó gọi đến các thư viện "Npcap" và "libcap" đã đề cập ở trên). Chính vì Nmap không hoạt động theo cách "chuẩn" nên nó có thể suy ra một số thông tin nhất định về hệ
 
 
 
 
 
-- Nghe lưu lượng mạng**: một số tùy chọn của Nmap yêu cầu nó phải nghe lưu lượng mạng để thu thập thông tin nhất định. Thao tác này được coi là nhạy cảm trên các hệ điều hành, vì nó cũng cho phép bạn nghe lén các giao tiếp của các ứng dụng khác trên hệ thống. Cũng giống như Wireshark, Nmap cần các đặc quyền cụ thể để thực hiện việc này, và việc này dễ dàng hơn khi bạn đang ở trong một phiên làm việc đặc quyền.
+- **Nghe lưu lượng mạng**: một số tùy chọn của Nmap yêu cầu nó phải nghe lưu lượng mạng để thu thập thông tin nhất định. Thao tác này được coi là nhạy cảm trên các hệ điều hành, vì nó cũng cho phép bạn nghe lén các giao tiếp của các ứng dụng khác trên hệ thống. Cũng giống như Wireshark, Nmap cần các đặc quyền cụ thể để thực hiện việc này, và việc này dễ dàng hơn khi bạn đang ở trong một phiên làm việc đặc quyền.
 
 
 
 
 
-- Nghe trên các cổng đặc quyền**: trên các hệ điều hành, các cổng từ 0 đến 1024 (cả TCP và UDP) được coi là đặc quyền, tức là chúng được dành riêng cho các mục đích sử dụng rất cụ thể và do đó được bảo vệ. Mặc dù lý do này đã lỗi thời ngày nay, nhưng vẫn cần có một số đặc quyền nhất định để nghe trên các cổng này, và Nmap có thể phải làm điều này tùy thuộc vào cách sử dụng.
+- **Nghe trên các cổng đặc quyền**: trên các hệ điều hành, các cổng từ 0 đến 1024 (cả TCP và UDP) được coi là đặc quyền, tức là chúng được dành riêng cho các mục đích sử dụng rất cụ thể và do đó được bảo vệ. Mặc dù lý do này đã lỗi thời ngày nay, nhưng vẫn cần có một số đặc quyền nhất định để nghe trên các cổng này, và Nmap có thể phải làm điều này tùy thuộc vào cách sử dụng.
 
 
 
 
 
-- Gửi gói tin UDP:** Tương tự, việc lắng nghe một ứng dụng mạng trên các cổng UDP (một giao thức không trạng thái) yêu cầu quyền đặc quyền trên hệ điều hành. Do đó, cần có một phiên đặc quyền nếu bạn muốn thực hiện quét UDP, trong đó Nmap sẽ phải lắng nghe phản hồi để phân tích các phản hồi cho các lần quét của nó.
+- Gửi gói tin UDP: Tương tự, việc lắng nghe một ứng dụng mạng trên các cổng UDP (một giao thức không trạng thái) yêu cầu quyền đặc quyền trên hệ điều hành. Do đó, cần có một phiên đặc quyền nếu bạn muốn thực hiện quét UDP, trong đó Nmap sẽ phải lắng nghe phản hồi để phân tích các phản hồi cho các lần quét của nó.
 
 
 
@@ -562,13 +562,13 @@ Từ bây giờ, hãy nhớ chỉ quét các máy chủ trong môi trường đ�
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Nền tảng đào tạo hack, Hack The Box liên tục cung cấp các hệ thống dễ bị tấn công để bạn tùy ý tấn công. Có hàng trăm hệ thống, nhưng một nhóm 20 máy mới được cung cấp miễn phí quanh năm, với quyền truy cập thông qua VPN OpenVPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Nền tảng đào tạo hack, Hack The Box liên tục cung cấp các hệ thống dễ bị tấn công để bạn tùy ý tấn công. Có hàng trăm hệ thống, nhưng một nhóm 20 máy mới được cung cấp miễn phí quanh năm, với quyền truy cập thông qua VPN OpenVPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Nền tảng này cung cấp nhiều hệ thống dễ bị tấn công để tải xuống, có thể sử dụng thông qua VirtualBox (cũng là một giải pháp miễn phí) hoặc các phương tiện khác. Sau khi tải xuống, không cần VPN - mọi thứ đều được thực hiện cục bộ.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Nền tảng này cung cấp nhiều hệ thống dễ bị tấn công để tải xuống, có thể sử dụng thông qua VirtualBox (cũng là một giải pháp miễn phí) hoặc các phương tiện khác. Sau khi tải xuống, không cần VPN - mọi thứ đều được thực hiện cục bộ.
 
 
 
@@ -815,7 +815,7 @@ phản hồi cho gói tin TCP SYN được gửi trên cổng 22, đang hoạt �
 
 
 
-Trong ảnh chụp màn hình ở trên, chúng ta thấy một gói tin TCP SYN/ACK được gửi bởi máy chủ đích**. Cổng đang hoạt động và hiển thị một dịch vụ. Nmap xác nhận đã nhận được phản hồi, sau đó chấm dứt kết nối (TCP RST/ACK). **Đây là cách nó biết rằng cổng TCP/22 đang hoạt động**.
+Trong ảnh chụp màn hình ở trên, chúng ta thấy một gói tin TCP SYN/ACK được gửi bởi máy chủ đích. Cổng đang hoạt động và hiển thị một dịch vụ. Nmap xác nhận đã nhận được phản hồi, sau đó chấm dứt kết nối (TCP RST/ACK). **Đây là cách nó biết rằng cổng TCP/22 đang hoạt động**.
 
 
 
@@ -976,7 +976,7 @@ Như chúng ta đã thấy, Nmap tự động chọn số lượng và cổng đ
 
 
 
-**Những cổng này được chọn như thế nào?
+**Những cổng này được chọn như thế nào?**
 
 
 
@@ -1060,7 +1060,7 @@ Bất kể thứ tự nào, Nmap sẽ kiểm tra tất cả các cổng này, v�
 
 
 
-**Quét một loạt các cổng
+**Quét một loạt các cổng**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Quét cổng TCP và UDP
+**Quét cổng TCP và UDP**
 
 
 
@@ -1134,7 +1134,7 @@ Trong ví dụ cuối cùng này, bạn sẽ thấy sự hiện diện của "U:
 
 
 
-**Quét tất cả các cổng
+**Quét tất cả các cổng**
 
 
 
@@ -1347,7 +1347,7 @@ Nhưng còn hơn thế nữa. Bạn có thể thấy trong ảnh chụp Wireshar
 
 
 
-**Tại sao lại gửi các gói tin TCP đến các cổng như một phần của quá trình khám phá mạng?
+**Tại sao lại gửi các gói tin TCP đến các cổng như một phần của quá trình khám phá mạng?**
 
 
 
@@ -2165,31 +2165,31 @@ Cần nói rõ: Nmap không có khả năng thực hiện kiểm tra xâm nhập
 
 
 
-- Phạm vi bao phủ hạn chế**: Mặc dù các tập lệnh NSE của Nmap rất mạnh mẽ, phạm vi kiểm tra của chúng có thể bị hạn chế so với các công cụ phát hiện lỗ hổng chuyên dụng khác. Một số lỗ hổng có thể không được các tập lệnh NSE hiện có bao phủ, chẳng hạn như lỗ hổng Active Directory, rò rỉ dữ liệu nhạy cảm hoặc các trường hợp ứng dụng web dễ bị tấn công phức tạp hơn.
+- **Phạm vi bao phủ hạn chế**: Mặc dù các tập lệnh NSE của Nmap rất mạnh mẽ, phạm vi kiểm tra của chúng có thể bị hạn chế so với các công cụ phát hiện lỗ hổng chuyên dụng khác. Một số lỗ hổng có thể không được các tập lệnh NSE hiện có bao phủ, chẳng hạn như lỗ hổng Active Directory, rò rỉ dữ liệu nhạy cảm hoặc các trường hợp ứng dụng web dễ bị tấn công phức tạp hơn.
 
 
 
 
 
-- Độ phức tạp của lỗ hổng**: một số loại lỗ hổng có thể khó phát hiện bằng các tập lệnh NSE do tính phức tạp của chúng. Ví dụ, các lỗ hổng đòi hỏi tương tác phức tạp với dịch vụ từ xa có thể không được Nmap phát hiện hiệu quả (như trong trường hợp cấp quá nhiều quyền trong chia sẻ tệp hoặc lỗi kiểm soát quyền trong ứng dụng web).
+- **Độ phức tạp của lỗ hổng**: một số loại lỗ hổng có thể khó phát hiện bằng các tập lệnh NSE do tính phức tạp của chúng. Ví dụ, các lỗ hổng đòi hỏi tương tác phức tạp với dịch vụ từ xa có thể không được Nmap phát hiện hiệu quả (như trong trường hợp cấp quá nhiều quyền trong chia sẻ tệp hoặc lỗi kiểm soát quyền trong ứng dụng web).
 
 
 
 
 
-- Phát hiện thụ động**: Nmap chủ yếu tập trung vào quét chủ động để phát hiện lỗ hổng, nghĩa là nó có thể không phát hiện hiệu quả các lỗ hổng tiềm ẩn nếu không thiết lập kết nối chủ động với máy chủ mục tiêu. Do đó, các lỗ hổng không tự biểu hiện trong quá trình quét chủ động có thể bị bỏ sót (như trường hợp chèn mã độc vào ứng dụng web).
+- **Phát hiện thụ động**: Nmap chủ yếu tập trung vào quét chủ động để phát hiện lỗ hổng, nghĩa là nó có thể không phát hiện hiệu quả các lỗ hổng tiềm ẩn nếu không thiết lập kết nối chủ động với máy chủ mục tiêu. Do đó, các lỗ hổng không tự biểu hiện trong quá trình quét chủ động có thể bị bỏ sót (như trường hợp chèn mã độc vào ứng dụng web).
 
 
 
 
 
-- Phụ thuộc vào các bản cập nhật**: [Cơ sở dữ liệu](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) của Nmap về các tập lệnh NSE liên tục được cập nhật, nhưng có thể có độ trễ giữa thời điểm phát hiện ra lỗ hổng mới và thời điểm thêm tập lệnh tương ứng vào Nmap. Do đó, Nmap có thể không phải lúc nào cũng được cập nhật với các lỗ hổng mới nhất.
+- **Phụ thuộc vào các bản cập nhật**: [Cơ sở dữ liệu](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) của Nmap về các tập lệnh NSE liên tục được cập nhật, nhưng có thể có độ trễ giữa thời điểm phát hiện ra lỗ hổng mới và thời điểm thêm tập lệnh tương ứng vào Nmap. Do đó, Nmap có thể không phải lúc nào cũng được cập nhật với các lỗ hổng mới nhất.
 
 
 
 
 
-- Kết quả dương tính giả và kết quả âm tính giả**: Giống như bất kỳ công cụ bảo mật nào, các tập lệnh NSE của Nmap có thể tạo ra kết quả dương tính giả (cảnh báo lỗ hổng bảo mật giả) hoặc kết quả âm tính giả (lỗ hổng thực sự không được phát hiện). Đây là điều cần lưu ý khi phân tích kết quả Nmap.
+- **Kết quả dương tính giả và kết quả âm tính giả**: Giống như bất kỳ công cụ bảo mật nào, các tập lệnh NSE của Nmap có thể tạo ra kết quả dương tính giả (cảnh báo lỗ hổng bảo mật giả) hoặc kết quả âm tính giả (lỗ hổng thực sự không được phát hiện). Đây là điều cần lưu ý khi phân tích kết quả Nmap.
 
 
 
@@ -2198,7 +2198,7 @@ Vì vậy, điều quan trọng là phải hiểu Nmap làm được gì và kh�
 
 
 
-Cho dù bạn là quản trị viên hệ thống mạng, kỹ sư bảo mật hay thậm chí là CISO, việc sử dụng Nmap sẽ cung cấp cho bạn cái nhìn tổng quan về tình trạng bảo mật của một hệ thống thông tin. Đây là bước đầu tiên quan trọng trong việc bảo mật hệ thống, có thể được đội ngũ CNTT thực hiện thường xuyên. Tuy nhiên, nó không thể thay thế sự can thiệp và tư vấn của các chuyên gia [an ninh mạng] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), những người có khả năng phát hiện điểm yếu toàn diện hơn nhiều so với Nmap.
+Cho dù bạn là quản trị viên hệ thống mạng, kỹ sư bảo mật hay thậm chí là CISO, việc sử dụng Nmap sẽ cung cấp cho bạn cái nhìn tổng quan về tình trạng bảo mật của một hệ thống thông tin. Đây là bước đầu tiên quan trọng trong việc bảo mật hệ thống, có thể được đội ngũ CNTT thực hiện thường xuyên. Tuy nhiên, nó không thể thay thế sự can thiệp và tư vấn của các chuyên gia [an ninh mạng](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), những người có khả năng phát hiện điểm yếu toàn diện hơn nhiều so với Nmap.
 
 
 
@@ -2973,7 +2973,7 @@ Khả năng lưu kết quả quét Nmap dưới dạng XML giúp dữ liệu tư
 
 
 
-Tôi sẽ đề cập đến một số công cụ tấn công mà không đi sâu vào chi tiết cách sử dụng hoặc cách thức hoạt động của chúng. Tôi giả định rằng người đọc đã quen thuộc với cách sử dụng cơ bản và đã vận hành thành thạo. Phần này sẽ đặc biệt hữu ích cho các chuyên gia [an ninh mạng] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), những người đang được đào tạo hoặc những người đã quyết định tìm hiểu sâu hơn về chủ đề này.
+Tôi sẽ đề cập đến một số công cụ tấn công mà không đi sâu vào chi tiết cách sử dụng hoặc cách thức hoạt động của chúng. Tôi giả định rằng người đọc đã quen thuộc với cách sử dụng cơ bản và đã vận hành thành thạo. Phần này sẽ đặc biệt hữu ích cho các chuyên gia [an ninh mạng](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), những người đang được đào tạo hoặc những người đã quyết định tìm hiểu sâu hơn về chủ đề này.
 
 
 
@@ -3062,7 +3062,7 @@ danh sách các dịch vụ được nhập từ tệp XML vào cơ sở dữ li
 
 
 
-Cuối cùng, chúng ta có thể nhanh chóng và dễ dàng tái sử dụng dữ liệu này trong một mô-đun nhờ tùy chọn `-R`, tùy chọn này sẽ "chuyển đổi" danh sách các dịch vụ thu được làm đầu vào cho chỉ thị `RHOSTS`, được sử dụng để chỉ định mục tiêu tấn công. Dưới đây là một ví dụ với mô-đun `ssh_login`, cho phép bạn thực hiện một cuộc tấn công brute force vào các dịch vụ [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Cuối cùng, chúng ta có thể nhanh chóng và dễ dàng tái sử dụng dữ liệu này trong một mô-đun nhờ tùy chọn `-R`, tùy chọn này sẽ "chuyển đổi" danh sách các dịch vụ thu được làm đầu vào cho chỉ thị `RHOSTS`, được sử dụng để chỉ định mục tiêu tấn công. Dưới đây là một ví dụ với mô-đun `ssh_login`, cho phép bạn thực hiện một cuộc tấn công brute force vào các dịch vụ [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 
@@ -3394,7 +3394,7 @@ Trước khi quét mạng hoặc hệ thống, hãy đảm bảo bạn đã đư
 
 
 
-Kết quả do Nmap tạo ra có thể được coi là nhạy cảm, đặc biệt khi chúng chứa thông tin về các điểm yếu trong hệ thống thông tin có thể bị kẻ tấn công khai thác. Tuy nhiên, kết quả cũng có thể bị coi là nhạy cảm khi liên quan đến các hệ thống không phải ai cũng có thể truy cập (ví dụ: hệ thống thông tin nhạy cảm, công nghiệp, y tế hoặc [dự phòng] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
+Kết quả do Nmap tạo ra có thể được coi là nhạy cảm, đặc biệt khi chúng chứa thông tin về các điểm yếu trong hệ thống thông tin có thể bị kẻ tấn công khai thác. Tuy nhiên, kết quả cũng có thể bị coi là nhạy cảm khi liên quan đến các hệ thống không phải ai cũng có thể truy cập (ví dụ: hệ thống thông tin nhạy cảm, công nghiệp, y tế hoặc [dự phòng](https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
 
 
 

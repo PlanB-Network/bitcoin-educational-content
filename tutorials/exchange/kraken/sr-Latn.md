@@ -22,7 +22,7 @@ U ovom vodiču pokazaćemo vam kako da koristite Kraken kao pojedinac. Ako imate
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Kreirajte Kraken nalog
 
@@ -164,7 +164,7 @@ Zatim vam se nude dve opcije za 2FA, ili "passkey", koji vam omogućava autentif
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Nakon što odaberete metodu koja vam najviše odgovara, konačno smo spremni da uplatimo novac za kupovinu naših prvih satoshija.
 
@@ -329,7 +329,7 @@ Ako ste zainteresovani za Lightning Network, imamo i kompletan kurs obuke koji �
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

@@ -1,0 +1,9 @@
+question: ジル・ドゥルーズとは？
+answer: 80年代からの哲学教師で、専門はスピノザ。
+wrong_answers:
+  - 政治家だ。
+  - リベラルな経済学者。
+  - 発明家だ。
+explanation: |
+  ジル・ドゥルーズ（1925-1995）は1980年代に活躍したフランスの哲学教授で、スピノザの専門家として知られる。彼の著書『スピノザと表現の問題』（Spinoza et le problemlème de l'expression）は、『倫理学』の読解を刷新した。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Co Spinoza sądzi o przypadku?
+answer: Nie istnieje.
+wrong_answers:
+  - Istnieje.
+  - Utożsamia to z fatalizmem.
+  - Uważa to za przesąd.
+explanation: |
+  Dla Spinozy nie ma czegoś takiego jak przypadek. Wszystko we wszechświecie podlega koniecznym i zdeterminowanym prawom. To, co jawi się nam jako przypadek, jest jedynie wynikiem naszej niewiedzy o prawdziwych przyczynach.
+reviewed: false

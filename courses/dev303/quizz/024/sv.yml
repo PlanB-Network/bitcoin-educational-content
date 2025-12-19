@@ -1,0 +1,8 @@
+question: Vilken syntax används för att komma åt det första fältet i en tupelstruktur i Rust?
+answer: Punktnotation med index 0 (t.ex. instance.0)
+wrong_answers:
+  - Hakparenteser med index 0 (t.ex. instance[0])
+  - Pilnotation med index 0 (t.ex. instans->0)
+  - Dubbla kolon med index 0 (t.ex. instance::0)
+explanation: |
+  Tupelstrukturer i Rust använder punktnotation följt av fältindex för att komma åt sina icke namngivna fält. Det första fältet nås med .0, det andra med .1 och så vidare. Detta skiljer sig från matriser eller vektorer som använder hakparenteser, och till skillnad från C++ som använder pilnotation för pekare. Syntaxen med dubbla kolon är reserverad för associerade funktioner och namespacing, inte för fältåtkomst.

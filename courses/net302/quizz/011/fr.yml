@@ -6,4 +6,4 @@ wrong_answers:
   - Il contient des défaillances de sécurité des paquets
 explanation: |
   IPv5 n’a connu qu’une mise en œuvre expérimentale, n’a pas été généralisé et a été supplanté par la transition vers IPv6.
-reviewed: false
+reviewed: true 

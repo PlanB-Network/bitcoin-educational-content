@@ -1,0 +1,8 @@
+question: What is the fundamental difference between LDK's blockchain integration approach and traditional Lightning nodes regarding resource-constrained environments?
+answer: LDK provides a filtering-based abstraction that allows applications to implement monitoring through lightweight data sources like Electrum servers
+wrong_answers:
+  - LDK requires full blockchain synchronization but optimizes storage through compressed block headers and transaction pruning mechanisms
+  - LDK implements a custom blockchain protocol that reduces bandwidth by maintaining only channel-relevant transactions in memory
+  - LDK uses a hybrid consensus mechanism that validates only Lightning-related transactions while ignoring standard Bitcoin operations
+explanation: |
+  LDK's blockchain integration is designed with two modes: full block mode for resource-rich environments and filtering-based mode for constrained environments. The filtering approach allows LDK to communicate its monitoring needs through abstract interfaces, requesting surveillance of specific transactions, UTXOs, or script patterns. Applications can then implement this monitoring using lightweight sources like Electrum servers or block explorers, dramatically reducing bandwidth and storage requirements compared to full blockchain synchronization. This abstraction enables mobile wallets and web applications to maintain Lightning functionality without the resource overhead that traditional Lightning nodes require.

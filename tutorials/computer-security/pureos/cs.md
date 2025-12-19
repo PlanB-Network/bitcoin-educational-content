@@ -11,7 +11,7 @@ Ochrana osobních údajů v digitálním věku je pro každého uživatele inter
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Začínáme se systémem PureOS
 
@@ -27,25 +27,25 @@ PureOS je operační systém založený na Debianu, který vyvinula společnost 
 
 
 
-- Jednoduché a intuitivní ovládání Interface**: GNOME nabízí přehledné prostředí Interface, které je navrženo tak, aby se snadno používalo i lidem, kteří nemají zkušenosti s příkazovým řádkem.
+- Jednoduché a intuitivní ovládání **Interface**: GNOME nabízí přehledné prostředí Interface, které je navrženo tak, aby se snadno používalo i lidem, kteří nemají zkušenosti s příkazovým řádkem.
 
 
 
 
 
-- Zdarma**: stejně jako většina linuxových distribucí je i PureOS zcela zdarma. Na podporu vývojářů je však k dispozici měsíční předplatné.
+- **Zdarma**: stejně jako většina linuxových distribucí je i PureOS zcela zdarma. Na podporu vývojářů je však k dispozici měsíční předplatné.
 
 
 
 
 
-- Bezpečnost a stabilita**: Díky architektuře a provoznímu režimu je PureOS vysoce bezpečnou distribucí, která zaručuje ochranu dat a stabilitu systému.
+- **Bezpečnost a stabilita**: Díky architektuře a provoznímu režimu je PureOS vysoce bezpečnou distribucí, která zaručuje ochranu dat a stabilitu systému.
 
 
 
 
 
-- Dokumentace a aktivní komunita**: PureOS má přehlednou a přístupnou dokumentaci a aktivní komunitu, která usnadňuje řešení problémů a postupné učení se systému.
+- **Dokumentace a aktivní komunita**: PureOS má přehlednou a přístupnou dokumentaci a aktivní komunitu, která usnadňuje řešení problémů a postupné učení se systému.
 
 
 
@@ -181,7 +181,7 @@ Pro rozdělení disku Hard máte dvě možnosti:
 
 
 
-- Vymazat disk**: Pro kompletní instalaci PureOS smažte všechna již existující data na disku Hard.
+- **Vymazat disk**: Pro kompletní instalaci PureOS smažte všechna již existující data na disku Hard.
 
 
 
@@ -191,7 +191,7 @@ Pro rozdělení disku Hard máte dvě možnosti:
 
 
 
-- Ruční rozdělení** pro vytvoření vlastních skóre
+- **Ruční rozdělení** pro vytvoření vlastních skóre
 
 
 
@@ -260,7 +260,7 @@ Před zahájením používání systému PureOS je nutné systém aktualizovat. 
 
 
 
-- Aktualizace prostřednictvím grafiky Interface**:
+- Aktualizace prostřednictvím grafiky **Interface**:
 
 
 Otevřete aplikaci **Software** a přejděte na kartu **Aktualizace**. Automaticky se zobrazí dostupné aktualizace. Klikněte na tlačítko **Stáhnout** a po dokončení stahování na tlačítko **Instalace**.
@@ -269,7 +269,7 @@ Otevřete aplikaci **Software** a přejděte na kartu **Aktualizace**. Automatic
 
 
 
-- Aktualizace přes terminál**:
+- **Aktualizace přes terminál**:
 
 
 Otevřete terminál a zadejte následující příkaz pro aktualizaci seznamu dostupných balíčků:
@@ -331,9 +331,9 @@ PureOS obsahuje také kancelářský balík **LibreOffice**, který zahrnuje:
 
 
 
-- Writer**: kompletní textový procesor pro vytváření a úpravy dokumentů.
-- Calc**: výkonný tabulkový procesor pro správu dat a výpočtů.
-- Impress**: nástroj pro vytváření profesionálních prezentací.
+- **Writer**: kompletní textový procesor pro vytváření a úpravy dokumentů.
+- **Calc**: výkonný tabulkový procesor pro správu dat a výpočtů.
+- **Impress**: nástroj pro vytváření profesionálních prezentací.
 
 
 
@@ -353,4 +353,4 @@ Objevte náš kurz o posílení zabezpečení a ochraně digitálního soukromí
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

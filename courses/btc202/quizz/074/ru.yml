@@ -1,0 +1,9 @@
+question: Какая структура данных суммирует транзакции в блоке?
+answer: Merkle Tree
+wrong_answers:
+  - Таблица Hash UTXO
+  - Файл peers.dat
+  - Регистр assumeutxo
+explanation: |
+  Транзакции в блоке фиксируются в Merkle Tree, корень которого включен в заголовок блока для обеспечения целостности блока.
+reviewed: true

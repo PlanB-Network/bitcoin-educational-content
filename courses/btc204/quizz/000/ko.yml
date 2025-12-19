@@ -1,0 +1,9 @@
+question: 약어 UTXO는 영어로 무엇을 의미하나요?
+answer: 미사용 거래 출력
+wrong_answers:
+  - 통합 트랜잭션 출력
+  - 사용자 거래 전용
+  - 유틸리티 token Exchange 옵션
+explanation: |
+  UTXO은 아직 지출되지 않은 거래의 결과물입니다.
+reviewed: true

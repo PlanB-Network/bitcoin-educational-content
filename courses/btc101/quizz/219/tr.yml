@@ -1,10 +1,9 @@
-question: Bu kurs Bitcoin'ın geleceği hakkında ne düşündürüyor?
-answer: Yok olmayacak.
+question: Bu bölümde tanımlanan Bitcoin evrimini hangi yaklaşım yapılandırır?
+answer: Katmanlı evrim
 wrong_answers:
-  - Daha iyi bir teknoloji ile değiştirilecektir.
-  - Dünya çapında yasaklanacaktır.
-  - Değerini kaybedecektir.
+  - Monolitik blokzincir
+  - Yerel sharding
+  - Genelleştirilmiş onchain yürütme
 explanation: |
-  Kurs metninde Bitcoin'in aşağıdaki konuları ele almayacağı belirtilmektedir
-  kayboldu. Aksine, devrim daha yeni başladı.
-reviewed: true
+  Bitcoin basit ve sağlam bir temel katmanı korurken, üst protokoller belirli işlevler ekler.
+reviewed: false

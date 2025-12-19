@@ -1,0 +1,9 @@
+question: Thành phần nào được khuyến nghị để bảo vệ một nút trong trường hợp mất điện?
+answer: Một bộ biến tần
+wrong_answers:
+  - Một card đồ họa thứ hai
+  - Một bộ định tuyến bổ sung
+  - Một hub USB
+explanation: |
+  Bộ biến tần ngăn ngừa tình trạng tắt máy đột ngột khi mất điện và bảo vệ sự ổn định của nút.
+reviewed: true

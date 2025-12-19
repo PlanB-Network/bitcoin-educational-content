@@ -1,0 +1,9 @@
+question: None porogarama ya Bitcoin y’intango yahuje iki mu 2009?
+answer: Wallet, umuheto, n’umuto
+wrong_answers:
+  - Node, Miner, na Block explorer.
+  - Wallet, igikoresho co gucapura, na Miner.
+  - Miner na Mining pool.
+explanation: |
+  Porogarama y’intango ya Bitcoin yashize hamwe ibikorwa vya Wallet, node, na Miner muri porogarama imwe.
+reviewed: true

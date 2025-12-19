@@ -22,7 +22,7 @@ ___
 
 
 
-**Selles õpetuses õpime, kuidas teha Linuxi masina turvaauditit Lynise abil! Neile, kes ei tea **Lynis't,** on väike käsurea utiliit, mis analüüsib teie serveri konfiguratsiooni ja annab soovitusi **masinate turvalisuse parandamiseks**
+**Selles õpetuses õpime, kuidas teha Linuxi masina turvaauditit Lynise abil! Neile, kes ei tea **Lynis't**, on väike käsurea utiliit, mis analüüsib teie serveri konfiguratsiooni ja annab soovitusi **masinate turvalisuse parandamiseks**.**
 
 
 
@@ -321,10 +321,10 @@ Järgnevalt loetleb Lynis punktid, mis vastavad kõigele, mida ta on meie süste
 
 
 
-- Punane** kriitilise Elements või parimate tavade mittejärgimise korral (näiteks puuduv pakett), st teie server ei järgi seda punkti
-- Kollane** soovituste või soovituse osalise täitmise puhul (ütleme, et selle värviga esile tõstetud punkti täitmine on plussiks (mitteprioriteetne))
-- Green** punktide puhul, kus teie serveri konfiguratsioon on vastavuses
-- Valge**, kui see on neutraalne
+- **Punane** kriitilise Elements või parimate tavade mittejärgimise korral (näiteks puuduv pakett), st teie server ei järgi seda punkti
+- **Kollane** soovituste või soovituse osalise täitmise puhul (ütleme, et selle värviga esile tõstetud punkti täitmine on plussiks (mitteprioriteetne))
+- **Green** punktide puhul, kus teie serveri konfiguratsioon on vastavuses
+- **Valge**, kui see on neutraalne
 
 
 
@@ -604,10 +604,10 @@ Mõned andmed paigaldatud pakettide kohta:
 
 
 
-- Clamav** on viirusetõrje.
-- unattend-upgrades** võimaldab teil hallata oma uuendusi automaatselt ja isegi taaskäivitada masinat või automaatselt puhastada vanu pakette, see on täielikult konfigureeritav.
-- rkhunter** on rootkitide vastane programm, mis skaneerib teie failisüsteemi.
-- Fail2ban** tugineb teie logifailidele vastavalt sellele, mida annate talle lugeda, ja töötab koos **iptablesiga**, et keelata näiteks IP-aadressid, mis üritavad teie serverit SSH-süsteemis "brute force'i" kasutada.
+- **Clamav** on viirusetõrje.
+- **unattend-upgrades** võimaldab teil hallata oma uuendusi automaatselt ja isegi taaskäivitada masinat või automaatselt puhastada vanu pakette, see on täielikult konfigureeritav.
+- **rkhunter** on rootkitide vastane programm, mis skaneerib teie failisüsteemi.
+- **Fail2ban** tugineb teie logifailidele vastavalt sellele, mida annate talle lugeda, ja töötab koos **iptablesiga**, et keelata näiteks IP-aadressid, mis üritavad teie serverit SSH-süsteemis "brute force'i" kasutada.
 
 
 
@@ -820,7 +820,7 @@ Lõpuks, ärme unusta kontrollida **Lynise auditi skoori**! Näeme, et **Minu Ha
 
 
 
-**Teisisõnu, mida kõrgem tulemus, seda parem! Seetõttu peate töötama oma konfiguratsiooni kallal, et saavutada võimalikult kõrge skoor, võimaldades samal ajal oma masina ja hostitud teenuste normaalset toimimist (mis tähendab funktsionaalsete testide läbiviimist).
+**Teisisõnu, mida kõrgem tulemus, seda parem!** Seetõttu peate töötama oma konfiguratsiooni kallal, et saavutada võimalikult kõrge skoor, võimaldades samal ajal oma masina ja hostitud teenuste normaalset toimimist (mis tähendab funktsionaalsete testide läbiviimist).
 
 
 
@@ -896,4 +896,4 @@ Lõpuks saate võrrelda **Lynist** ka teiste vahenditega, mida on mitmeid. Kui s
 
 
 
-**See õpetus on lõppenud, lõbutsege koos Lynisega!
+**See õpetus on lõppenud, lõbutsege koos Lynisega!**

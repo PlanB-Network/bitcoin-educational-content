@@ -1,0 +1,9 @@
+question: 최신 Linux 배포판에서 arp를 대체하는 최신 도구는 무엇인가요?
+answer: iP 이웃
+wrong_answers:
+  - ifconfig
+  - 추적 경로
+  - 경로
+explanation: |
+  iproute2 제품군의 ip neigh는 최신 Linux에서 IP/MAC 연결을 관리하기 위해 arp를 대체합니다.
+reviewed: false

@@ -1,11 +1,12 @@
-question: Jaká analogie je v tomto kurzu použita k vysvětlení, jak můžete přijímat bitcoiny bez toho, aby odesílatel mohl ukrást vaše prostředky?
-answer: Poštovní schránka.
+question: Jaké je doporučené využití mobilní peněženky?
+answer: Ukládání běžných výdajů.
 wrong_answers:
-  - Bankovní účet.
-  - Trezor.
-  - Dům.
+  - Ukládání dlouhodobých úspor.
+  - Ukládání střednědobých úspor.
+  - Ukládání velkých částek.
 explanation: |
-  Analogie použitá k vysvětlení, jak můžete přijímat bitcoiny
-  bez toho, aby odesílatel mohl ukrást vaše prostředky, je
-  poštovní schránka. Lidé do ní vkládají peníze, ale otevřít ji můžete jen vy.
+  Mobilní peněženka je doporučena pro běžné výdaje, protože
+  s ní je snadné provádět transakce. Nicméně, není doporučena
+  pro ukládání velkých částek nebo pro dlouhodobé úspory, jelikož
+  je potenciálně zranitelná vůči online hrozbám.
 reviewed: true

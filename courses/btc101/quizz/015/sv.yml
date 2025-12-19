@@ -1,13 +1,13 @@
-question: Vad är Cyberspace självständighetsförklaring?
-answer: En text som hävdar att cyberrymden är en annan sfär än den fysiska och inte bör omfattas av samma lagar.
+question: Varför blev guld standardmedium för Exchange?
+answer: På grund av dess sällsynthet, hållbarhet och delbarhet.
 wrong_answers:
-  - En deklaration som anger Bitcoin:s oberoende från traditionella finansiella system.
-  - En text som hävdar att cyberspace bör kontrolleras genom statliga regleringar.
-  - En deklaration som garanterar att piratrörelsen är oberoende av alla regleringar.
+  - På grund av dess överflöd, hållbarhet och odelbarhet.
+  - På grund av dess sällsynthet, förgänglighet och delbarhet.
+  - På grund av dess överflöd, förgänglighet och odelbarhet.
 explanation: |
-  Cyberspace självständighetsförklaring skrevs av John Perry
-  skrevs av John Perry Barlow 1996. I detta dokument hävdas
-  att cyberrymden är ett område som skiljer sig från den fysiska sfären
-  fysiska sfären, så att industriella regeringar inte kan genomdriva sin
-  auktoritet där.
+  Guld blev standardmedium för Exchange på grund av dess
+  sällsynthet, hållbarhet och delbarhet: dess sällsynthet förhindrade
+  devalvering orsakad av produktion; dess hållbarhet
+  att det inte skulle erodera över tiden, och dess delbarhet
+  möjliggjorde användning i transaktioner av olika storlekar.
 reviewed: true

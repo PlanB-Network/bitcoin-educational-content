@@ -1,12 +1,12 @@
 question: Was sind die empfohlenen Praktiken für optimale Sicherheit mit starker Authentifizierung?
-answer: Verwenden Sie eine sichere E-Mail-Adresse, einen sicheren Passwortmanager und setzen Sie auf 2FA mit YubiKeys.
+answer: Verwende eine sichere E-Mail-Adresse, einen sicheren Passwortmanager und nutze 2FA mit YubiKeys.
 wrong_answers:
-  - Verwenden Sie ein gemeinsames Passwort für alle Konten und vermeiden Sie 2FA
-  - Verwenden Sie ein einfaches Passwort und verlassen Sie sich auf biometrische Daten für 2FA
-  - Verwenden Sie eine sichere E-Mail-Adresse, aber meiden Sie Passwortmanager und 2FA
+  - Verwende ein gemeinsames Passwort für alle Konten und vermeide 2FA
+  - Verwende ein einfaches Passwort und verlasse dich auf biometrische Daten für 2FA
+  - Verwende eine sichere E-Mail-Adresse, aber meide Passwortmanager und 2FA
 explanation: |
   Für optimale Sicherheit wird empfohlen, eine sichere
-  E-Mail-Adresse, einen sicheren Passwortmanager zu verwenden und 2FA
-  mit YubiKeys zu adoptieren. Es ist auch ratsam, zwei
+  E-Mail-Adresse, einen sicheren Passwortmanager und 2FA
+  mit YubiKeys zu nutzen. Es ist auch ratsam, zwei
   YubiKeys zu kaufen, um Verlust oder Diebstahl zu antizipieren.
 reviewed: true

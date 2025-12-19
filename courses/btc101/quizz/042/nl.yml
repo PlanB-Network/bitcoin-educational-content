@@ -1,13 +1,9 @@
-question: Wat is een mogelijk nadeel van CBDC's (Central Bank Digital Currencies)?
-answer: Ze kunnen de financiële vrijheid van individuen belemmeren en autoritair misbruik in de hand werken.
+question: Wat is de eerste fase die optreedt bij hyperinflatie?
+answer: Verlies van vertrouwen in een valuta.
 wrong_answers:
-  - Ze kunnen leiden tot een daling van het geld Supply.
-  - Ze zouden kunnen leiden tot een daling van de waarde van Bitcoin.
-  - Ze kunnen leiden tot een daling van de waarde van goud.
+  - Valuta stort in en prijzen stijgen.
+  - De vicieuze cirkel van het bijdrukken van geld.
+  - Er ontstaat een nieuwe valuta.
 explanation: |
-  Digitale valuta's van centrale banken (CBDC's) kunnen mogelijk
-  de financiële vrijheid van individuen belemmeren en autoritair misbruik
-  autoritair misbruik in de hand werken. Dit komt omdat ze een
-  centraal geplande economie zouden bieden, waarbij de centrale bank
-  die nog meer controle heeft over het geld Supply.
+  De eerste fase van hyperinflatie is het verlies van vertrouwen in een munt.
 reviewed: true

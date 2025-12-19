@@ -3,7 +3,7 @@ name: RGB
 description: Inleiding en aanmaken van activa op RGB
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 
 ## inleiding

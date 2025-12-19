@@ -1,12 +1,9 @@
-question: Milton Friedman 在 1999 年預測了什麼？
-answer: 開發可靠的電子現金。
+question: 以下哪一項 Lightning 操作會被記錄在鏈上？
+answer: 通道開啟
 wrong_answers:
-  - 實體貨幣的消亡。
-  - Bitcoin 的崛起。
-  - 政府對貨幣控制的終結。
+  - 中間支付
+  - 狀態更新
+  - 多跳路由
 explanation: |
-  著名經濟學家 Milton Friedman 在 1999 年預言
-  可靠的電子現金將很快被開發出來，這種方法
-  在網際網路上，您可以將資金從 A 轉帳到 B、
-  A 不知道 B，反之亦然。
-reviewed: true
+  只有 Lightning 通道的開啟與關閉才對應於發佈在區塊鏈上的比特幣交易。
+reviewed: false

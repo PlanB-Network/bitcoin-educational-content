@@ -1,0 +1,9 @@
+question: Mida me saame Kopernikuselt õppida?
+answer: Et Maa pöörleb ümber Päikese.
+wrong_answers:
+  - Et Maa on lame.
+  - Et Maa on Universumi keskmes.
+  - Et Eukleidese võrrandid on valed.
+explanation: |
+  Nikolaus Kopernik (1473-1543) on kuulus selle poolest, et ta tõestas, et Maa pöörleb ümber Päikese, mis muutis meie arusaama universumist. See avastus avaldas sügavat mõju kaasaegsele filosoofiale ja ratsionalismile.
+reviewed: false

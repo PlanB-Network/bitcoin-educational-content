@@ -1,9 +1,12 @@
-question: Co se stalo se zimbabwským dolarem v dubnu 2009?
-answer: Ministr financí oznámil pozastavení zimbabwského dolaru a povolil použití různých zahraničních měn pro obchod.
+question: S jakými ekonomickými principy je Bitcoin v souladu?
+answer: Principy rakouské ekonomie.
 wrong_answers:
-  - Zimbabwský dolar se propadl o více než 72%.
-  - Vláda souhlasila s kompenzací válečných veteránů v hodnotě ekvivalentní 450 milionům amerických dolarů.
-  - Vláda musela sáhnout k spuštění tiskových strojů.
+  - Principy keynesovské ekonomie.
+  - Principy marxistické ekonomie.
+  - Principy neoklasické ekonomie.
 explanation: |
-  V dubnu 2009 ministr financí oznámil pozastavení zimbabwského dolaru a povolil použití různých zahraničních měn pro obchod.
+  Bitcoin je v souladu s principy rakouské ekonomie.
+  Jeho omezené množství a absence centrální entity ho
+  chrání před vrozenými riziky inflace, která je vidět
+  u tradičních měn.
 reviewed: true

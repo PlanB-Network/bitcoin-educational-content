@@ -1,12 +1,8 @@
-question: 何謂自發性購買？
-answer: 立即購買 Bitcoin 以獲得曝光率。
+question: 將您的 Bitcoin 留在 Exchange 平台上的潛在風險之一是什麼？
+answer: 黑客入侵和資金封鎖的風險。
 wrong_answers:
-  - 定期購買 Bitcoin。
-  - 降價時才購買 Bitcoin。
-  - 只有在價格上升時才購買 Bitcoin。
-explanation: |
-  課程內容說明，自發購買是
-  用來立即接觸 Bitcoin。例如
-  它可能是指在暴跌時購買或利用
-  紅利。
+  - 平台提高 Bitcoin 價格的風險。
+  - 平台控制 Bitcoin 的 Supply 的風險。
+  - Bitcoin 價格被加密貨幣超越的風險。
+explanation: >-
 reviewed: true

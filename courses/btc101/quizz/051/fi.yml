@@ -1,10 +1,9 @@
-question: Mikä on 2% inflaation vaikutus ostovoimaan viiden vuoden aikana?
-answer: Menetät 10% ostovoimastasi.
+question: Mitä tapahtui Zimbabwen dollarille huhtikuussa 2009?
+answer: Rahoitusministeri ilmoitti Zimbabwen dollarin käytön keskeyttämisestä ja salli eri ulkomaisten valuuttojen käytön kaupankäynnissä.
 wrong_answers:
-  - Menetät 2% ostovoimastasi.
-  - Menetät 5% ostovoimastasi.
-  - Menetät 20% ostovoimastasi.
+  - Zimbabwen dollari romahti yli 72%.
+  - Hallitus suostui korvaamaan sotaveteraaneille summan, joka vastaa 450 miljoonaa Yhdysvaltain dollaria.
+  - Hallituksen oli turvauduttava painokoneen käyttöön.
 explanation: |
-  2% inflaation myötä menetät vuosittain 2% ostovoimastasi,
-  mikä kertyy 10%; iin viiden vuoden aikana.
+  Huhtikuussa 2009 rahoitusministeri ilmoitti Zimbabwen dollarin käytön keskeyttämisestä ja salli eri ulkomaisten valuuttojen käytön kaupankäynnissä.
 reviewed: true

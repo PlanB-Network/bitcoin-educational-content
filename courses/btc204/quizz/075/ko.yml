@@ -1,0 +1,10 @@
+question: CoinJoin 거래의 주요 목표는 무엇인가요?
+answer: Coin의 역사를 새로 쓰다.
+wrong_answers:
+  - 거래 수수료를 줄이려면.
+  - 비트코인을 탐지할 수 없게 만들기 위해.
+  - 확인 속도를 높이려면.
+explanation: |
+  CoinJoin 거래의 목표는 Coin의 기록을 깨는 것입니다. 이 기술은 일반적인 생각과 달리 영구적인 익명성을 제공하지 않으며, 비트코인의 추적을 완전히 차단하지도 않습니다. CoinJoin는 CoinJoin 거래가 이루어진 지점에서만 기록을 중단하는 것을 목표로 합니다.
+  
+reviewed: true

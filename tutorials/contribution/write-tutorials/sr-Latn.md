@@ -1,14 +1,14 @@
 ---
 name: Doprinos - Tutorijali
-description: Kako da pošaljem novi sadržaj na Plan ₿ Network?
+description: Kako da pošaljem novi sadržaj na Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Misija Plan ₿ Network je da učini vodeće obrazovne resurse o Bitcoin dostupnim na što više jezika. Sav sadržaj objavljen na sajtu je otvorenog koda i hostovan na GitHub-u, što svakome daje priliku da učestvuje u obogaćivanju platforme. Doprinosi mogu imati različite oblike: ispravka i lektura postojećih tekstova, prevođenje na druge jezike, ažuriranje informacija ili čak kreiranje novih tutorijala koji još nisu dostupni na našem sajtu.
+Misija Plan ₿ Academy je da učini vodeće obrazovne resurse o Bitcoin dostupnim na što više jezika. Sav sadržaj objavljen na sajtu je otvorenog koda i hostovan na GitHub-u, što svakome daje priliku da učestvuje u obogaćivanju platforme. Doprinosi mogu imati različite oblike: ispravka i lektura postojećih tekstova, prevođenje na druge jezike, ažuriranje informacija ili čak kreiranje novih tutorijala koji još nisu dostupni na našem sajtu.
 
 
-U ovom vodiču ćemo pogledati kako dodati novi sadržaj, kao što je vodič ili kurs, na Plan ₿ Network platformu.
+U ovom vodiču ćemo pogledati kako dodati novi sadržaj, kao što je vodič ili kurs, na Plan ₿ Academy platformu.
 
 
 ## Koja je razlika između tutorijala i kursa?
@@ -20,7 +20,7 @@ Dva glavna dela naše platforme su kursevi i tutorijali. Kursevi pružaju teorij
 Kursevi su prirodno duži i strukturisaniji od tutorijala. Trebalo bi da istraže određenu temu vezanu za Bitcoin ili njegov ekosistem u dubini, preciznosti i detaljima.
 
 
-[Otkrijte Plan ₿ Network kurseve](https://planb.network/courses)
+[Otkrijte Plan ₿ Academy kurseve](https://planb.academy/courses)
 
 
 ![TUTO](assets/fr/37.webp)
@@ -29,7 +29,7 @@ Kursevi su prirodno duži i strukturisaniji od tutorijala. Trebalo bi da istraž
 Tutorijali su generalno kraći. Namenjeni su kao vodiči korak-po-korak o tome kako izvršiti određeni zadatak vezan za Bitcoin, uz slike kao podršku.
 
 
-[Otkrijte Plan ₿ Network tutorijale](https://planb.network/tutorials)
+[Otkrijte Plan ₿ Academy tutorijale](https://planb.academy/tutorials)
 
 
 ![TUTO](assets/fr/38.webp)
@@ -50,7 +50,7 @@ U svojoj poruci, molimo vas da se ukratko predstavite i opišete svoju ideju za 
 ## Kako da pošaljem novi vodič?
 
 
-Da biste dodali novi tutorijal na Plan ₿ Network, to možete učiniti direktno na GitHub-u podnošenjem Pull Request-a. U tutorijalu ispod i pratećim tutorijalima, vodim vas korak-po-korak kroz ovaj proces i informišem vas o smernicama koje treba pratiti kako biste osigurali kompatibilnost vašeg tutorijala sa platformom, uz održavanje jasne istorije doprinosa.
+Da biste dodali novi tutorijal na Plan ₿ Academy, to možete učiniti direktno na GitHub-u podnošenjem Pull Request-a. U tutorijalu ispod i pratećim tutorijalima, vodim vas korak-po-korak kroz ovaj proces i informišem vas o smernicama koje treba pratiti kako biste osigurali kompatibilnost vašeg tutorijala sa platformom, uz održavanje jasne istorije doprinosa.
 
 
 ## 1 - Izaberite temu za vaš vodič
@@ -69,7 +69,7 @@ Prvenstveno tražimo tutorijale o alatima povezanim sa Bitcoin ili njegovim ekos
 - Poverljivost.
 
 
-Pored ovih tema koje se posebno odnose na Bitcoin, Plan ₿ Network takođe traži doprinose na teme koje naglašavaju individualni suverenitet, kao što su:
+Pored ovih tema koje se posebno odnose na Bitcoin, Plan ₿ Academy takođe traži doprinose na teme koje naglašavaju individualni suverenitet, kao što su:
 
 
 
@@ -87,13 +87,13 @@ Pored ovih tema koje se posebno odnose na Bitcoin, Plan ₿ Network takođe tra�
 Na primer, trenutno imamo tutorijale o Tails, Nostr i GrapheneOS. Ovi alati nisu direktno povezani sa Bitcoin, ali su sistemi koji bi mogli biti od interesa za nas kao deo kretanja ka suverenitetu u digitalnom svetu. Ovi sadržaji mogu biti integrisani u potkategoriju odeljka "Ostalo".
 
 
-Možete ili dizajnirati tutorijal od nule, ili uzeti tutorijal prethodno objavljen na vašem sajtu (pod uslovom da posedujete autorska prava) i podeliti ga na Plan ₿ Network takođe, dodajući link ka originalnom članku.
+Možete ili dizajnirati tutorijal od nule, ili uzeti tutorijal prethodno objavljen na vašem sajtu (pod uslovom da posedujete autorska prava) i podeliti ga na Plan ₿ Academy takođe, dodajući link ka originalnom članku.
 
 
-Koji god da izaberete, imajte na umu da je sav sadržaj objavljen na Plan ₿ Network licenciran pod slobodnom [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licencom. Ova licenca ovlašćuje svakoga da kopira i, potencijalno, modifikuje vaš sadržaj, pod jedinim uslovom da se originalni izvor propisno navede.
+Koji god da izaberete, imajte na umu da je sav sadržaj objavljen na Plan ₿ Academy licenciran pod slobodnom [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) licencom. Ova licenca ovlašćuje svakoga da kopira i, potencijalno, modifikuje vaš sadržaj, pod jedinim uslovom da se originalni izvor propisno navede.
 
 
-## 2 - Kontaktirajte Plan ₿ Network tim
+## 2 - Kontaktirajte Plan ₿ Academy tim
 
 
 Kada odaberete temu za svoj vodič, sledeći korak je da nas obavestite o svojoj nameri da dodate ovaj sadržaj na platformu. Najlakši način, ako imate Telegram nalog, je da se [pridružite našoj grupi](https://t.me/PlanBNetwork_ContentBuilder).
@@ -114,26 +114,26 @@ paolo@planb.network
 ## 3 - Odabir pravih alata za doprinos
 
 
-Da biste doprineli Plan ₿ Network, imate 3 opcije u zavisnosti od vašeg nivoa iskustva sa GitHub-om:
+Da biste doprineli Plan ₿ Academy, imate 3 opcije u zavisnosti od vašeg nivoa iskustva sa GitHub-om:
 
 
 
 
-- Iskusni korisnici**: Nastavite sa svojim uobičajenim metodama i jednostavno se posavetujte sa kratkim vodičem ispod koji rezimira strukturu datoteka repozitorijuma Plan ₿ Network, specifične zahteve i metod rada:
+- **Iskusni korisnici**: Nastavite sa svojim uobičajenim metodama i jednostavno se posavetujte sa kratkim vodičem ispod koji rezimira strukturu datoteka repozitorijuma Plan ₿ Academy, specifične zahteve i metod rada:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 
 
-- Intermediate (GitHub Desktop)**: Ako niste upoznati sa korišćenjem Git-a, prva opcija je da lako postavite sopstveno lokalno okruženje za doprinos Plan ₿ Network. Ovaj pristup se preporučuje za značajne doprinose, kao što je pisanje kompletnog tutorijala. Da biste to uradili, pratite korak-po-korak tutorijal ispod:
+- **Intermediate (GitHub Desktop)**: Ako niste upoznati sa korišćenjem Git-a, prva opcija je da lako postavite sopstveno lokalno okruženje za doprinos Plan ₿ Academy. Ovaj pristup se preporučuje za značajne doprinose, kao što je pisanje kompletnog tutorijala. Da biste to uradili, pratite korak-po-korak tutorijal ispod:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Početnici (web Interface)**: Takođe možete odlučiti da koristite GitHub-ov web Interface direktno, bez potrebe za postavljanjem kompletnog lokalnog okruženja. Ova metoda se može razmotriti za manje doprinose. Međutim, za veće doprinose, kao što je dodavanje potpuno novog tutorijala, ova opcija može biti složenija nego postavljanje lokalnog okruženja. Objasniću kako to uraditi u ovom tutorijalu:
+- **Početnici (web Interface)**: Takođe možete odlučiti da koristite GitHub-ov web Interface direktno, bez potrebe za postavljanjem kompletnog lokalnog okruženja. Ova metoda se može razmotriti za manje doprinose. Međutim, za veće doprinose, kao što je dodavanje potpuno novog tutorijala, ova opcija može biti složenija nego postavljanje lokalnog okruženja. Objasniću kako to uraditi u ovom tutorijalu:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
-Izaberite jednu od ove tri opcije u skladu sa vašim nivoom znanja, zatim počnite pisati vaš prvi Plan ₿ Network vodič!
+Izaberite jednu od ove tri opcije u skladu sa vašim nivoom znanja, zatim počnite pisati vaš prvi Plan ₿ Academy vodič!

@@ -1,0 +1,9 @@
+question: Was ist der Unterschied zwischen Konsensregeln und Relaisregeln?
+answer: Der Konsens legt die Gültigkeit fest und leitet die Verbreitung von Transaktionen weiter
+wrong_answers:
+  - Konsens definiert Gebühren, Relais definiert Adressen
+  - Konsens verwaltet Blockchain, Relais verwaltet private Schlüssel
+  - Konsens wählt Miner, Relais wählt Händler
+explanation: |
+  Die Konsensregeln bestimmen, was in Bitcoin gültig ist, während die Relaisregeln die Transaktionen zwischen den Knoten verwalten.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Oni bi trebalo da mogu da pogode sadržaj poruke
 explanation: |
   U dobro dizajniranom simetričnom šifarskom sistemu, napadač koji presretne šifrovanu poruku ne bi trebalo da bude u mogućnosti da zaključi relevantne informacije o sadržaju poruke bez ključa za dešifrovanje.
-reviewed: false
+reviewed: true

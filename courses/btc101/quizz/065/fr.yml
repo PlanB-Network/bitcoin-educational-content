@@ -1,12 +1,9 @@
-question: Quels principes économiques Bitcoin respecte-t-il ?
-answer: Principes de l'économie autrichienne.
+question: Quelles sont les trois principales fonctions d'un portefeuille Bitcoin ?
+answer: Recevoir des bitcoins, envoyer des bitcoins, les sécuriser contre les tentatives de piratage et de vol.
 wrong_answers:
-  - Principes de l'économie keynésienne.
-  - Principes de l'économie marxiste.
-  - Principes de l'économie néoclassique.
+  - Stocker des bitcoins, envoyer des bitcoins, les sécuriser contre les tentatives de piratage et de vol.
+  - Recevoir des bitcoins, stocker des bitcoins, les sécuriser contre les tentatives de piratage et de vol.
+  - Recevoir des bitcoins, envoyer des bitcoins, vendre des bitcoins.
 explanation: |
-  Bitcoin s'aligne sur les principes de l'économie autrichienne.
-  Sa quantité limitée et l'absence d'entité centrale le protègent
-  des risques inhérents d'inflation que l'on observe dans
-  les monnaies traditionnelles.
+  Un portefeuille Bitcoin est utilisé pour interagir avec le réseau Bitcoin. Ses trois principales fonctions sont de permettre de recevoir des bitcoins, d'envoyer des bitcoins, et de les sécuriser contre les tentatives de piratage et de vol.
 reviewed: true

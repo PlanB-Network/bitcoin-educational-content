@@ -7,12 +7,12 @@ description: A Telegramm-zugänglicher verwahrter Wallet
 ![cover](assets/cover.webp)
 
 
-dieses Tutorium wurde geschrieben von_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+dieses Tutorium wurde geschrieben von_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Sats.Mobi
 
-SatsMobi ist ein Wallet, der auf Telegram läuft und alle Funktionen eines Lightning Network (custodial) Wallet sowie eine Reihe von sehr unterhaltsamen Funktionen bietet. Er ist aus einem Fork des inzwischen eingestellten LightningTipBot entstanden und hat alle seine Funktionen geerbt, aber auch aktuellere hinzugefügt, wodurch er moderner geworden ist. Wie der LNTipBot folgt auch der Sats.Mobi der Open-Source-Philosophie. Der Wallet kann unabhängig konfiguriert und verwaltet werden, indem man ihn aus diesem [Repository] (https://github.com/massmux/SatsMobiBot) klont.
+SatsMobi ist ein Wallet, der auf Telegram läuft und alle Funktionen eines Lightning Network (custodial) Wallet sowie eine Reihe von sehr unterhaltsamen Funktionen bietet. Er ist aus einem Fork des inzwischen eingestellten LightningTipBot entstanden und hat alle seine Funktionen geerbt, aber auch aktuellere hinzugefügt, wodurch er moderner geworden ist. Wie der LNTipBot folgt auch der Sats.Mobi der Open-Source-Philosophie. Der Wallet kann unabhängig konfiguriert und verwaltet werden, indem man ihn aus diesem [Repository](https://github.com/massmux/SatsMobiBot) klont.
 
 
 Wenn Sie ihn einfach nur benutzen möchten, können Sie einen Chat auf Telegram starten, um zu sehen, dass es sich um einen Bot handelt.
@@ -93,7 +93,7 @@ Obwohl Sats ein äußerst wertvolles Gut sind, von dem man sich nicht leichtfert
 ### Bezahlen einer Invoice
 
 
-Der einfachste Weg, einen Invoice zu bezahlen, ist, die Nachrichtenzeichenfolge `lnbc1xxxxx` zu kopieren und sie in die Nachrichtenleiste einzufügen, nachdem Sie den Befehl _/pay_ eingegeben haben. **Die korrekte Syntax erfordert, dass nach dem Befehl ein Leerzeichen steht.
+Der einfachste Weg, einen Invoice zu bezahlen, ist, die Nachrichtenzeichenfolge `lnbc1xxxxx` zu kopieren und sie in die Nachrichtenleiste einzufügen, nachdem Sie den Befehl _/pay_ eingegeben haben. **Die korrekte Syntax erfordert, dass nach dem Befehl ein Leerzeichen steht.**
 
 
 ![image](assets/it/11.webp)

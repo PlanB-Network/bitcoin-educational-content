@@ -1,9 +1,9 @@
-question: Why is scarcity considered an important property of a good currency?
-answer: Because limited supply protects its value from being diluted by overproduction.
+question: Tại sao tính khan hiếm được coi là một đặc tính quan trọng của một loại tiền tệ tốt?
+answer: Bởi vì nguồn cung hạn chế giúp bảo vệ giá trị của nó khỏi bị pha loãng do sản xuất quá mức.
 wrong_answers:
-  - Because it ensures that everyone can easily mint their own currency.
-  - Because it makes it harder for the currency to be recognized.
-  - Because it discourages the use of currency in long-distance trade.
+  - Bởi vì nó đảm bảo rằng mọi người đều có thể dễ dàng đúc tiền của riêng mình.
+  - Bởi vì nó khiến cho đồng tiền khó được nhận dạng hơn.
+  - Bởi vì nó làm giảm việc sử dụng tiền tệ trong giao dịch đường dài.
 explanation: |
-  A currency with controlled scarcity maintains its purchasing power over time. Without scarcity, excessive issuance could lead to inflation, eroding the currency’s value.
-reviewed: false
+  Một loại tiền tệ có sự khan hiếm được kiểm soát sẽ duy trì sức mua theo thời gian. Nếu không có sự khan hiếm, việc phát hành quá mức có thể dẫn đến lạm phát, làm xói mòn giá trị của đồng tiền.
+reviewed: true

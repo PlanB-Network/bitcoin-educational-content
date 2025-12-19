@@ -1,0 +1,8 @@
+question: Hva er hovedformålet med ECDH-nøkkelutvekslingsmekanismen i Liquids Confidential Transactions-arkitektur?
+answer: Å gjøre det mulig for avsendere å kryptere beløp og typer eiendeler ved hjelp av mottakerens offentlige nøkkel, samtidig som det genereres verifiserbare bevis for rekkevidde
+wrong_answers:
+  - For å etablere sikre kommunikasjonskanaler mellom AMP-servere og wallet-klienter under transaksjonsautorisasjonsprosesser
+  - For å opprette delte hemmeligheter for registrering av multisignaturbeskrivelser mellom lommebøker og AMP-serverinfrastrukturen
+  - Til generate kryptografiske signaturer som beviser eierskap til eiendeler uten å avsløre den underliggende private nøkkelinformasjonen
+explanation: |
+  ECDH (Elliptic Curve Diffie-Hellman)-nøkkelutveksling i Liquids Confidential Transactions muliggjør spesifikt personvernbevarende verdioverføringer ved å la avsendere kryptere transaksjonens utgangsverdier ved hjelp av mottakerens offentlige blinding-nøkkel. Dette skaper en delt hemmelighet som bare mottakeren kan dekryptere med sin private blinding-nøkkel, samtidig som det genererer rekkeviddebevis som gjør det mulig for nettverksvalidatorer å verifisere transaksjonens gyldighet uten å se de faktiske beløpene. De andre alternativene beskriver ECDH feilaktig som en funksjon for kommunikasjonssikkerhet, deskriptorregistrering eller eierskapsbevis, som håndteres av ulike kryptografiske mekanismer i Liquid-økosystemet.

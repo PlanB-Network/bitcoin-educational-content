@@ -1,5 +1,5 @@
 ---
-name: Wallet या Satoshi - बिक्री केंद्र
+name: Wallet of Satoshi - POS
 description: अपने व्यवसाय में Lightning Network के माध्यम से Bitcoin को अपनाएं।
 ---
 
@@ -18,7 +18,7 @@ Bitcoin इकोसिस्टम में, Satoshi में से Wallet, 
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 दुनिया भर के समुदायों में Bitcoin को अपनाने में सुविधा प्रदान करने के लिए, Satoshi के Wallet ने एक बिक्री केन्द्र भी स्थापित किया है, ताकि उपयोगकर्ताओं को अपने समुदाय में Bitcoin के साथ वस्तुओं और सेवाओं की खरीद-बिक्री करने के लिए एक प्रमाणित उपयोग खोजने के लिए प्रोत्साहित किया जा सके।
 
@@ -174,16 +174,16 @@ Wallet या Satoshi POS एप्लिकेशन के प्रत्य�
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 और यदि आप छोटे और मध्यम आकार के व्यवसायों के लिए उपयुक्त पूर्ण PoS की तलाश कर रहे हैं, तो मैं स्विस Bitcoin पे की भी सिफारिश करता हूं:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 अंत में, व्यवसायों के लिए Bitcoin भुगतान और नकदी प्रवाह की मूल बातें सीखने के लिए हमारा संपूर्ण प्रशिक्षण पाठ्यक्रम खोजें:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

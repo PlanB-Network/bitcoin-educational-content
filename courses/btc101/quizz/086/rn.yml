@@ -1,13 +1,14 @@
-question: Cold Wallet ni iki?
-answer: Wallet iri mu gikoresho c’umubiri kibika imfunguruzo zawe kandi kidahuye na internet.
+question: Ni igiki ukeneye gukora backup iyo ukoresha Wallet iri kumwe na passphrase?
+answer: Ukeneye gukora backup y'urutonde rw'amajambo 12 canke 24 be na passphrase yawe.
 wrong_answers:
-  - Wallet ariyo Cold ku mubiri yo gukorako.
-  - Wallet idakundwa n’abakoresha Bitcoin.
-  - Wallet igenewe kubika amafaranga makeyi y’ama bitcoins.
+  - Ukeneye gusa gukora backup y’urutonde rw’amajambo 12 canke 24.
+  - Ukeneye gusa gukora backup ya passphrase yawe.
+  - Ntukeneye gukora backup y’urutonde rw’amajambo 12 canke 24 canke passphrase yawe.
 explanation: |
-  Cold Wallet ni ijambo rikoreshwa mu kudondora Bitcoin Wallet.
-  iyo ibitswe ku gikoresho kitahuye n’ivyo .
-  interineti. Ivyo bituma idashobora gushikirwa n’iterabwoba ryo kuri Internet,
-  ariko kandi bisigura ko Wallet idashobora gushikwako cane ku 2019.
-  ibikorwa vy’umusi ku musi.
+  Iyo ukoresheje Wallet iri kumwe na passphrase, ukeneye gukora backup .
+  ivyo bibiri urutonde rw’amajambo 12 canke 24 be n’urupapuro rwawe rwa passphrase, .
+  kuko urutonde rw’amajambo na passphrase vyose ni .
+  birakenewe kugira ngo wongere ubone amahera yawe mu gihe
+  gutakaza telefone yawe canke mudasobwa yawe. Ata kimwe canke ikindi, .
+  amafaranga ntashobora gushikwako.
 reviewed: true

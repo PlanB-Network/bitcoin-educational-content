@@ -188,4 +188,4 @@ Vexl 可讓您加入俱樂部，在那裡您可以與更多人一起 Exchange，
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

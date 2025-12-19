@@ -16,21 +16,21 @@ Relai zeichnet sich durch seine Einfachheit, Zugänglichkeit und den Fokus auf l
 ### Schritt 1: Laden Sie die Relai-App herunter
 
 
-- Wo man sie findet:** Die App ist sowohl im App Store (iOS) als auch im Google Play Store (Android) erhältlich. Suchen Sie nach "Relai" und laden Sie sie kostenlos herunter.
-- Schnelleinrichtung:** Nach der Installation öffnen Sie die App und folgen Sie der Anleitung zur Einrichtung.
+- **Wo man sie findet:** Die App ist sowohl im App Store (iOS) als auch im Google Play Store (Android) erhältlich. Suchen Sie nach "Relai" und laden Sie sie kostenlos herunter.
+- **Schnelleinrichtung:** Nach der Installation öffnen Sie die App und folgen Sie der Anleitung zur Einrichtung.
 
 ### Schritt 2: Erstellen Sie Ihr Konto
 
 
-- Obligatorisches KYC:** Relai verlangt jetzt eine KYC-Verifizierung (Know Your Customer). Bereiten Sie ein gültiges Ausweisdokument und einen Adressnachweis vor.
-- Überprüfungsprozess:** Laden Sie Ihre Dokumente hoch, machen Sie ein Selfie zur Identitätsbestätigung und warten Sie auf die Genehmigung (in der Regel innerhalb von 24 Stunden).
-- Warum KYC?:** Es gewährleistet die Einhaltung von Finanzvorschriften und erhöht die Sicherheit für alle Benutzer.
+- **Obligatorisches KYC:** Relai verlangt jetzt eine KYC-Verifizierung (Know Your Customer). Bereiten Sie ein gültiges Ausweisdokument und einen Adressnachweis vor.
+- **Überprüfungsprozess:** Laden Sie Ihre Dokumente hoch, machen Sie ein Selfie zur Identitätsbestätigung und warten Sie auf die Genehmigung (in der Regel innerhalb von 24 Stunden).
+- **Warum KYC?** Es gewährleistet die Einhaltung von Finanzvorschriften und erhöht die Sicherheit für alle Benutzer.
 
 ### Schritt 3: Sichern Sie Ihr Portemonnaie
 
 
-- Self-Custody:** Relai bietet eine nicht-verwahrende Wallet, d.h. Sie kontrollieren Ihre privaten Schlüssel.
-- Sichern Sie Ihre Schlüssel:** Schreiben Sie Ihre 12-Wörter-Wiederherstellungsphrase auf Papier (nicht digital) und bewahren Sie sie sicher auf. Dies ist entscheidend für den Zugriff auf Ihr Guthaben, wenn Ihr Telefon verloren geht oder gestohlen wird.
+- **Self-Custody:** Relai bietet eine nicht-verwahrende Wallet, d.h. Sie kontrollieren Ihre privaten Schlüssel.
+- **Sichern Sie Ihre Schlüssel:** Schreiben Sie Ihre 12-Wörter-Wiederherstellungsphrase auf Papier (nicht digital) und bewahren Sie sie sicher auf. Dies ist entscheidend für den Zugriff auf Ihr Guthaben, wenn Ihr Telefon verloren geht oder gestohlen wird.
 
 ---
 ## Wie man einen Bitcoin-Sparplan erstellt
@@ -123,11 +123,11 @@ Relai zeigt die geltenden Netzgebühren an.
 ## Tipps für eine sichere Bitcoin-Verwaltung
 
 
-- Bewahren Sie Ihre Wiederherstellungsphrase sicher auf:** Speichern Sie sie offline und geben Sie sie nicht an Dritte weiter.
-- Aktivieren Sie die App-Sicherheit:** Verwenden Sie eine starke PIN oder biometrische Authentifizierung.
-- Diversifizierung der Speicherung:** Erwägen Sie die Verwendung einer Hardware-Wallet für große Bitcoin-Mengen.
-- Regelmäßige Updates der App:** Bleiben Sie mit den neuesten Sicherheitspatches und Funktionen geschützt.
-- Vermeiden Sie öffentliches Wi-Fi:** Greifen Sie nur in sicheren Netzwerken auf Ihr Portemonnaie zu.
+- **Bewahren Sie Ihre Wiederherstellungsphrase sicher auf:** Speichern Sie sie offline und geben Sie sie nicht an Dritte weiter.
+- **Aktivieren Sie die App-Sicherheit:** Verwenden Sie eine starke PIN oder biometrische Authentifizierung.
+- **Diversifizierung der Speicherung:** Erwägen Sie die Verwendung einer Hardware-Wallet für große Bitcoin-Mengen.
+- **Regelmäßige Updates der App:** Bleiben Sie mit den neuesten Sicherheitspatches und Funktionen geschützt.
+- **Vermeiden Sie öffentliches Wi-Fi:** Greifen Sie nur in sicheren Netzwerken auf Ihr Portemonnaie zu.
 
 ---
 ## Relai Geschäftskonten
@@ -135,10 +135,10 @@ Relai zeigt die geltenden Netzgebühren an.
 Relai unterstützt auch Unternehmen, die in Bitcoin investieren möchten. Die Funktionen umfassen:
 
 
-- Maßgeschneiderte Sparpläne:** Maßgeschneiderte Pläne für die Bedürfnisse des Unternehmens.
-- Multi-User-Zugang:** Ermöglichen Sie mehreren Teammitgliedern die sichere Verwaltung des Kontos.
-- Erhöhte Limits:** Legen Sie im Vergleich zu persönlichen Konten höhere Beträge an.
-- Dedizierter Support:** Zugang zum vorrangigen Kundendienst für Unternehmen.
+- **Maßgeschneiderte Sparpläne:** Maßgeschneiderte Pläne für die Bedürfnisse des Unternehmens.
+- **Multi-User-Zugang:** Ermöglichen Sie mehreren Teammitgliedern die sichere Verwaltung des Kontos.
+- **Erhöhte Limits:** Legen Sie im Vergleich zu persönlichen Konten höhere Beträge an.
+- **Dedizierter Support:** Zugang zum vorrangigen Kundendienst für Unternehmen.
 
 Um ein Geschäftskonto einzurichten, wenden Sie sich bitte an das Support-Team von Relai auf der Website.
 
@@ -148,9 +148,9 @@ Um ein Geschäftskonto einzurichten, wenden Sie sich bitte an das Support-Team v
 Relai bietet ein spannendes Empfehlungsprogramm, bei dem Sie Bitcoin verdienen können, indem Sie Ihre Freunde zur Nutzung der App einladen. So funktioniert es:
 
 
-- Teilen Sie Ihren Empfehlungscode:** Jeder Relai-Benutzer erhält einen einzigartigen Empfehlungscode. Teilen Sie ihn mit Ihren Freunden.
-- Verdienen Sie 10 % der Gebühren:** Sie erhalten 10 % der Gebühren von den Transaktionen Ihrer Freunde, wenn diese Ihren Code verwenden.
-- Passives Bitcoin-Einkommen:** Wenn Ihre Freunde weiterhin auf Relai handeln, verdienen Sie weiterhin Bitcoin. Es ist ein Gewinn für beide, für Sie und Ihre Freunde.
+- Teilen Sie Ihren Empfehlungscode: Jeder Relai-Benutzer erhält einen einzigartigen Empfehlungscode. Teilen Sie ihn mit Ihren Freunden.
+- **Verdienen Sie 10 % der Gebühren:** Sie erhalten 10 % der Gebühren von den Transaktionen Ihrer Freunde, wenn diese Ihren Code verwenden.
+- **Passives Bitcoin-Einkommen:** Wenn Ihre Freunde weiterhin auf Relai handeln, verdienen Sie weiterhin Bitcoin. Es ist ein Gewinn für beide, für Sie und Ihre Freunde.
 
 Beginnen Sie noch heute damit, Ihren Code zu teilen und Ihren Bitcoin-Stack mühelos zu erweitern!
 
@@ -161,7 +161,7 @@ Beginnen Sie noch heute damit, Ihren Code zu teilen und Ihren Bitcoin-Stack müh
 
 
 - Relai erhebt eine wettbewerbsfähige Gebühr von 1 % pro Transaktion oder 0,9 %, wenn Sie einen Empfehlungscode wie `REL361712` verwenden. Die Gebühren werden transparent angezeigt, bevor Sie einen Kauf bestätigen.
-- Keine Gebühren:** Transaktionen bis zu 100 € oder 100 CHF sind völlig gebührenfrei.
+- **Keine Gebühren:** Transaktionen bis zu 100 € oder 100 CHF sind völlig gebührenfrei.
 
 ### Kann ich meinen Sparplan aussetzen?
 

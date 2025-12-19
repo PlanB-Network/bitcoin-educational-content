@@ -1,5 +1,5 @@
 ---
-name: 使用 Elements 和 Liquid Network 建構
+name: 透過 Elements 和 Liquid Network 進行構建
 goal: 學習使用 Elements 開放原始碼 Blockchain 平台及其主要功能進行開發
 objectives: 
 

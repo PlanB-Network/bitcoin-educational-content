@@ -1,11 +1,8 @@
-question: Ni igiki co gukoresha node ya Bitcoin kuri Raspberry Pi 4 mu bijanye n’amashanyarazi akoreshwa ku mwaka (kuva mu 2023)?
-answer: Mutoyi gatoyi 10€ ku mwaka.
+question: None intambara y’amabuye yo mu 2017 yavuyemwo iki?
+answer: Abakoresha n'ibihimba banse ihinduka ry'ivyo kwongera ubunini bw'ibarabara, maze bashiraho ihinduka ryitwa SegWit.
 wrong_answers:
-  - Ivyo birenze gatoyi 50€ ku mwaka.
-  - Ivyo bishika munsi gato y’ama€ 100 ku mwaka.
-  - Nk’ama€ 200 ku mwaka.
-explanation: |
-  Gukoresha urudodo rwa Bitcoin kuri Raspberry Pi 4 bitwara amahera makeyi .
-  munsi ya 10€ ku mwaka mu bijanye n'umuyagankuba
-  kuva muri 2023.
+  - Abakoresha n'ibihimba vy'umubiri bemeye ihinduka ry'ivyo bikorwa kugira ngo bongere ubunini bw'ibarabara, maze bashiraho ihinduka ryitwa SegWit.
+  - Abakoresha n'ibihimba banse ihinduka ryari ritegekanijwe kugira ngo bongere ubunini bw'ibarabara, kandi ntibakoresheje ihinduka ryose.
+  - Abakoresha n'ibihimba vy'umubiri bemeye ihinduka ryasabwe kugira ngo bongere ubunini bw'ibarabara, kandi ntibakoresheje ihinduka ryose.
+explanation: >-
 reviewed: true

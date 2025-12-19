@@ -1,0 +1,8 @@
+question: Koja je primarna svrha korišćenja hash160 (SHA-256 zatim RIPEMD-160) prilikom kreiranja Bitcoin adresa iz javnih ključeva?
+answer: Da sakrijete javni ključ dok se ne dogodi trošenje i kreirate kraće, lakše upravljive adrese
+wrong_answers:
+  - Da biste šifrovali privatni ključ i sprečili neovlašćen pristup sredstvima wallet
+  - Za generate digitalni potpis potreban za validaciju transakcije na blockchainu
+  - Da biste konvertovali tačke eliptičke krive u odgovarajući format za operacije secp256k1
+explanation: |
+  Hash160 služi za više važnih funkcija u kreiranju Bitcoin adresa. Haširanjem javnog ključa, stvarni javni ključ ostaje skriven dok se novčići ne potroše, pružajući dodatni sloj sigurnosti. Haširanje takođe značajno smanjuje veličinu sa 33/65 bajtova na samo 20 bajtova, čineći adrese lakšim za upravljanje. Pogrešni odgovori ovo mešaju sa enkripcijom privatnog ključa (što se ne radi), digitalnim potpisima (koji koriste različite kriptografske operacije) ili formatiranjem krive (što se dešava tokom SEC serijalizacije, a ne prilikom kreiranja adrese).

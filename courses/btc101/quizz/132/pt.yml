@@ -1,12 +1,10 @@
-question: Qual é a importância da distribuição geográfica dos nós do Bitcoin?
-answer: Torna praticamente impossível destruir todas as cópias do blockchain.
+question: Qual é o número aproximado de nós distribuídos pelo globo até setembro de 2023?
+answer: 45.000 nós.
 wrong_answers:
-  - Determina o preço do Bitcoin em diferentes regiões.
-  - Afeta a velocidade das transações do Bitcoin.
-  - Determina o número de bitcoins que podem ser minerados em uma região.
-explanation: |
-  A distribuição geográfica dos nós do Bitcoin torna
-  praticamente impossível destruir todas as cópias do
-  blockchain. Como os nós estão espalhados, é difícil
-  apreender fisicamente todos eles.
+  - 10.000 nós.
+  - 100.000 nós.
+  - 500.000 nós.
+explanation: >-
+  Até setembro de 2023, existem aproximadamente 45.000 nós distribuídos
+  pelo globo.
 reviewed: true

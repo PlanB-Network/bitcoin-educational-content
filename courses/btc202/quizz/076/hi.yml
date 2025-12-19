@@ -1,0 +1,9 @@
+question: Bitcoin core में डिफ़ॉल्ट Mempool आकार सीमा क्या है?
+answer: 300 एमबी
+wrong_answers:
+  - 256 एमबी
+  - 512 एमबी
+  - 1024 एमबी
+explanation: |
+  डिफ़ॉल्ट रूप से, Bitcoin core, Mempool को 300 MB तक सीमित कर देता है। इससे ज़्यादा होने पर, यह कम लाभदायक लेनदेन को हटा देता है।
+reviewed: true

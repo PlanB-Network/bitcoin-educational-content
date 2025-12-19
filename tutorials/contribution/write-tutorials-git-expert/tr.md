@@ -1,6 +1,6 @@
 ---
 name: Katkı - Git eğitimi (ileri düzey)
-description: İleri düzey kullanıcılar için Git ile Plan ₿ Network hakkında bir eğitim sunan kılavuz
+description: İleri düzey kullanıcılar için Git ile Plan ₿ Academy hakkında bir eğitim sunan kılavuz
 ---
 ![cover](assets/cover.webp)
 
@@ -8,31 +8,31 @@ description: İleri düzey kullanıcılar için Git ile Plan ₿ Network hakkın
 Yeni bir öğretici eklemeye ilişkin bu öğreticiyi takip etmeden önce, birkaç ön adımı tamamlamış olmanız gerekir. Henüz yapmadıysanız, lütfen önce bu giriş eğitimine bir göz atın, ardından buraya geri dönün:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Sende zaten var:
 
 
 
 - Eğitiminiz için bir tema seçin;
-- Plan ₿ Network ekibiyle [Telegram grubu] (https://t.me/PlanBNetwork_ContentBuilder) veya paolo@planb.network üzerinden iletişime geçin;
+- Plan ₿ Academy ekibiyle [Telegram grubu](https://t.me/PlanBNetwork_ContentBuilder) veya paolo@planb.network üzerinden iletişime geçin;
 - Katkı araçlarınızı seçin.
 
 
-Deneyimli Git kullanıcılarına yönelik bu eğitimde, yeni bir Plan ₿ Network eğitimi sunmak için temel adımları ve temel yönergeleri kısaca özetleyeceğiz. Git ve GitHub'a aşina değilseniz, bunun yerine sizi adım adım ilerletecek daha ayrıntılı diğer 2 öğreticiden birini izlemenizi tavsiye ederim:
+Deneyimli Git kullanıcılarına yönelik bu eğitimde, yeni bir Plan ₿ Academy eğitimi sunmak için temel adımları ve temel yönergeleri kısaca özetleyeceğiz. Git ve GitHub'a aşina değilseniz, bunun yerine sizi adım adım ilerletecek daha ayrıntılı diğer 2 öğreticiden birini izlemenizi tavsiye ederim:
 
 
 
 - Orta Düzey (GitHub Masaüstü):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - Yeni Başlayanlar (web Interface):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Önerilen araçlar
 
@@ -80,7 +80,7 @@ Diyagramlar ve görseller oluşturmak için:
 
 
 
-- GitHub'daki Fork deposundan] (https://github.com/PlanB-Network/Bitcoin-educational-content) kendi Plan ₿ Network'ünüze sahip olmalısınız.
+- GitHub'daki Fork deposundan] (https://github.com/PlanB-Network/Bitcoin-educational-content) kendi Plan ₿ Academy'ünüze sahip olmalısınız.
 - Fork'nizin ana dalını (`dev`) kaynak deposu ile senkronize edin.
 - Yerel klonunuzu güncelleyin.
 
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Eğitim belgelerini ekleyin
 
 
-***Not:*** [Python GUI betiğimi] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) kullanarak 3. ve 4. adımları otomatikleştirebilirsiniz. Doğrudan yerel klonunuzdaki klasöründen çalıştırın, ardından GUI'deki gerekli alanları doldurun. Nasıl kurulacağı ve kullanılacağı hakkında daha fazla bilgi için [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) adresine bakın.
+***Not:*** [Python GUI betiğimi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) kullanarak 3. ve 4. adımları otomatikleştirebilirsiniz. Doğrudan yerel klonunuzdaki klasöründen çalıştırın, ardından GUI'deki gerekli alanları doldurun. Nasıl kurulacağı ve kullanılacağı hakkında daha fazla bilgi için [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) adresine bakın.
 
 
 Manuel olarak yapmayı tercih ederseniz, aşağıdaki adımları izleyin:
@@ -209,23 +209,23 @@ reward:
 
 
 
-- id**: Öğreticiyi benzersiz bir şekilde tanımlayan bir UUID (_Universally Unique Identifier_). Bunu [çevrimiçi bir araç] (https://www.uuidgenerator.net/version4) kullanarak generate yapabilirsiniz. Tek gereklilik, platformdaki başka bir UUID ile çakışmayı önlemek için bu UUID'nin rastgele olmasıdır;
+- **id**: Öğreticiyi benzersiz bir şekilde tanımlayan bir UUID (*Universally Unique Identifier*). Bunu [çevrimiçi bir araç](https://www.uuidgenerator.net/version4) kullanarak generate yapabilirsiniz. Tek gereklilik, platformdaki başka bir UUID ile çakışmayı önlemek için bu UUID'nin rastgele olmasıdır;
 
 
 
-- project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Network, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
+- **project_id**: Eğitimde sunulan aracın arkasındaki şirket veya kuruluşun UUID'si [proje listesinden](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Örneğin, Green Wallet yazılımı hakkında bir eğitim oluşturuyorsanız, bu `project_id`yi aşağıdaki dosyada bulabilirsiniz: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Bu bilgi öğreticinizin YAML dosyasına eklenir çünkü Plan ₿ Academy, Bitcoin veya ilgili projeler üzerinde faaliyet gösteren tüm şirket ve kuruluşların bir veritabanını tutar. Öğreticinize bağlı varlığın `project_id` bilgisini ekleyerek, iki Elements arasında bir bağlantı oluşturursunuz;
 
 
 
-- etiketler**: özel olarak [Plan ₿ Network etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **etiketler**: özel olarak [Plan ₿ Academy etiket listesinden] seçilen, eğitim içeriğiyle ilgili 2 veya 3 anahtar kelime (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- kategori**: Plan ₿ Network web sitesi yapısına göre öğretici içeriğe karşılık gelen alt kategori (örneğin, cüzdanlar için: `masaüstü`, `donanım`, `mobil`, `yedekleme`);
+- **kategori**: Plan ₿ Academy web sitesi yapısına göre öğretici içeriğe karşılık gelen alt kategori (örneğin, cüzdanlar için: `masaüstü`, `donanım`, `mobil`, `yedekleme`);
 
 
 
-- seviye**: Öğreticinin zorluk seviyesi, aşağıdakiler arasından seçilir:
+- **seviye**: Öğreticinin zorluk seviyesi, aşağıdakiler arasından seçilir:
     - `başlangıç`
     - `intermediate`
     - `gelişmiş`
@@ -233,26 +233,26 @@ reward:
 
 
 
-- professor_id**: Profesör profilinizde] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
+- **professor_id**: Profesör profilinizde (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors) görüntülenen `profesör_id`niz (UUID);
 
 
 
-- original_language**: Öğreticinin orijinal dili (örneğin, `fr`, `en`, vb.);
+- **original_language**: Öğreticinin orijinal dili (örneğin, `fr`, `en`, vb.);
 
 
 
-- redaksiyon**: Düzeltme süreci hakkında bilgi. Kendi öğreticinizi düzeltmek ilk doğrulama olarak sayıldığından ilk bölümü tamamlayın:
-    - dil**: Düzeltme okumasının dil kodu (örneğin, `fr`, `en`, vb.).
-    - last_contribution_date**: Günün tarihi.
-    - aciliyet**: 1
-    - contributor_names**: GitHub kimliğiniz.
-    - ödül**: 0
+- **redaksiyon**: Düzeltme süreci hakkında bilgi. Kendi öğreticinizi düzeltmek ilk doğrulama olarak sayıldığından ilk bölümü tamamlayın:
+- **dil**: Düzeltme okumasının dil kodu (örneğin, `fr`, `en`, vb.).
+- **last_contribution_date**: Günün tarihi.
+- **aciliyet**: 1
+- **contributor_names**: GitHub kimliğiniz.
+- **ödül**: 0
 
 
 Öğretmen kimliğiniz hakkında daha fazla bilgi için lütfen ilgili eğitime bakın:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -361,7 +361,7 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Platformda desteklenen biçimlendirme**:
+- Platformda desteklenen **biçimlendirme**:
     - Klasik Markdown: listeler, bağlantılar, resimler, alıntılar, kalın, italik vb.
     - LaTeX (yalnızca blok, satır içi değil): `$$` ile sınırlandırılmıştır.
     - Satır içi kod: Tek bir backtick içeren sözdizimi.
@@ -374,18 +374,18 @@ print("Hello, Bitcoin!")
 
 
 
-- Çizimler ve diyagramlar**:
+- **Çizimler ve diyagramlar**:
     - Tüm görseller WebP formatında olmalıdır. Gerekirse dönüştürmek için bu ücretsiz aracı kullanın: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Görselleri 2 veya 3 rakamla adlandırın (örneğin `001.webp`, `002.webp`).
     - Mobil veya Hardware Wallet eğitimleri için maketler kullanın.
     - Yalnızca kendi oluşturduğunuz veya telifsiz görselleri kullanın.
     - İlgili ve yüksek kaliteli olduklarından emin olun.
-- Grafik tüzük**:
+- **Grafik tüzük**:
     - Yazı tipi: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Renkler Plan ₿ Network:
+    - Renkler Plan ₿ Academy:
         - Turuncu: `#FF5C00`
         - Siyah: `#000000`
         - Beyaz: `#FFFFFF`
 
 
-Öğreticinizi gönderirken teknik zorluklar yaşıyorsanız, lütfen [katkılar için özel Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) üzerinden yardım istemekten çekinmeyin. Çok teşekkür ederim!
+Öğreticinizi gönderirken teknik zorluklar yaşıyorsanız, lütfen [katkılar için özel Telegram grubumuz](https://t.me/PlanBNetwork_ContentBuilder) üzerinden yardım istemekten çekinmeyin. Çok teşekkür ederim!

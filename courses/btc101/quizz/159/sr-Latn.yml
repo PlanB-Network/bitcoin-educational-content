@@ -1,8 +1,12 @@
-question: Koji je značaj potrošnje energije u Bitkoin rudarenju?
-answer: Potrošnja energije je neophodna za proizvodnju informacija, ali verifikacija informacija ima zanemarljiv trošak. Ova asimetrija garantuje sigurnost mreže.
+question: Šta rudari mogu učiniti za one elektrane koje još nisu povezane na mrežu?
+answer: Oni mogu delovati kao kupac poslednje instance.
 wrong_answers:
-  - Trošak energije je neophodan za napajanje ASIC mašina korišćenih u rudarenju, a verifikacija informacija ima visoke troškove.
-  - Potrošnja energije je neophodna za održavanje Bitkoin mreže, a verifikacija informacija ima promenljive troškove.
-  - Trošak energije nije neophodan za kreiranje novih bitkoina.
-explanation: >-
-reviewed: false
+  - Oni mogu obezbediti elektranama električnu energiju.
+  - Oni mogu povezati elektrane na mrežu.
+  - Oni mogu regulisati cenu električne energije.
+explanation: |
+  Rudari mogu delovati kao kupci poslednjeg utočišta za elektrane koje
+  još nisu povezane na mrežu. Ovo omogućava elektranama
+  da obezbede finansiranje čak i pre nego što budu povezane na
+  električnu mrežu.
+reviewed: true

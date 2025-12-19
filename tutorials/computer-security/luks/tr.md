@@ -131,7 +131,7 @@ Benim örneğimde, USB anahtarım "**/dev/sdb**" içinde yer almaktadır. "**/de
 
 
 
-**Doğru cihaz dosyasını hedeflediğinizden emin olun!
+**Doğru cihaz dosyasını hedeflediğinizden emin olun!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Burada, "`luksFormat`" alt komutu cihazı LUKS şifrelemesini kullanacak şekilde başlatır ve biçimlendirir. Büyük harflerle `Evet` yazarak bu işlemi onaylamanız istenir, ardından bir *passphrase* tanımlayın. **Kayıp durumunda saldırganın kaba kuvvet saldırıları yoluyla bunu keşfedemeyeceğinden emin olmak için sağlam bir *passphrase* seçin.
+Burada, "`luksFormat`" alt komutu cihazı LUKS şifrelemesini kullanacak şekilde başlatır ve biçimlendirir. Büyük harflerle `Evet` yazarak bu işlemi onaylamanız istenir, ardından bir *passphrase* tanımlayın. **Kayıp durumunda saldırganın kaba kuvvet saldırıları yoluyla bunu keşfedemeyeceğinden emin olmak için sağlam bir** *passphrase* **seçin.**
 
 
 
@@ -237,7 +237,7 @@ done
 
 
 
-**Burada, hedef konum** "**/dev/mappe/usbkey1**"** olarak belirtilmiş, neden?
+**Burada, hedef konum** "**/dev/mappe/usbkey1**" **olarak belirtilmiş, neden?**
 
 
 

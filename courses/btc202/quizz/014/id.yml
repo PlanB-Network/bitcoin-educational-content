@@ -1,0 +1,9 @@
+question: Apa yang digabungkan oleh perangkat lunak Bitcoin asli pada tahun 2009?
+answer: Wallet, busur, dan minor
+wrong_answers:
+  - Node, Miner, dan Block explorer
+  - Wallet, helikopter, dan Miner
+  - Miner dan Mining pool
+explanation: |
+  Perangkat lunak Bitcoin asli mengintegrasikan fungsi Wallet, node, dan Miner ke dalam satu program.
+reviewed: true

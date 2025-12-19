@@ -1,0 +1,11 @@
+question: Je, ni sifa gani kuu mbili za Bitcoin?
+answer: Bitcoin ni itifaki ya kompyuta na kitengo cha fedha.
+wrong_answers:
+  - Bitcoin ni sarafu halisi na Wallet ya kidijitali.
+  - Bitcoin ni aina ya hisa na aina ya bondi.
+  - Bitcoin ni sarafu ya serikali kuu na iliyogatuliwa.
+explanation: |
+  Bitcoin ni itifaki ya kompyuta inayotumia teknolojia
+  kama kriptografia na Blockchain, na pia pesa
+  kitengo ambacho kinatumika kwa shughuli.
+reviewed: true

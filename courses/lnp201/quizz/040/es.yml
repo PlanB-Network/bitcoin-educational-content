@@ -6,4 +6,4 @@ wrong_answers:
   - Comunicarse directamente con todos los nodos intermediarios
 explanation: |
   El nodo emisor es responsable de calcular toda la ruta hasta el destinatario, ya que los nodos intermediarios solo conocen a su vecino inmediato.
-reviewed: false
+reviewed: true

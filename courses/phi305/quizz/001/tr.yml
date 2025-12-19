@@ -1,0 +1,9 @@
+question: Spinoza bir filozof mu?
+answer: 17. yüzyıldan.
+wrong_answers:
+  - 16. yüzyıldan.
+  - 18. yüzyıldan.
+  - Antik çağlardan.
+explanation: |
+  Spinoza 1632'den 1677'ye kadar yaşamıştır ve bu onu 17. yüzyılın filozoflarından biri yapmaktadır. Akıl Çağı olarak bilinen bu dönem, modern rasyonalizmin ve dünyayı anlamaya yönelik yeni bilimsel yaklaşımların ortaya çıkışına tanıklık etmiştir.
+reviewed: false

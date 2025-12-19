@@ -1,0 +1,39 @@
+id: f698a810-b95c-11f0-b928-17f3d8ffafe4
+
+published_at: 2025-11-04
+
+topic: mining
+subtopic: energy
+
+type: theory
+level: beginner
+hours: 3
+
+teaching_format: professor_led
+professors_id:
+  - 625b6fc8-b959-11f0-9a93-032089096ea3
+
+format: inperson # online, inperson, hybrid
+address_city_country: Paris, France
+address_line_2: 3 rue de Montyon, 9eme arrondissement
+
+start_date: 2025-11-27 # update based on info
+end_date: 2025-11-27 # update based on info
+requires_payment: true # keep that one
+inperson_price_dollars: 0 # update based on info
+payment_expiration_date: 2025-11-28 # start_date - 1 day
+available_seats: 50 # update based on info
+paid_description: |
+  Ce séminaire explore les fondements thermodynamiques de Bitcoin, expliquant les concepts d'énergie, d'entropie, de valeur et de rareté. Il aborde également les enjeux de décentralisation et de confidentialité dans la transition numérique, ainsi que la vision de Friedrich Hayek sur la concurrence des monnaies face au monopole de la monnaie fiat.
+
+is_gdpr_compliance: true
+custom_tc_disclaimer: I accept that some information such as Username, Display Name and Email may be shared with the course instructor for course delivery purposes.
+
+original_language: fr # update based on info
+proofreading:
+  - language: fr # same as original_language
+    last_contribution_date: 2025-11-04 # same as today
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0.48

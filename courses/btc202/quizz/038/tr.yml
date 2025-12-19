@@ -1,0 +1,9 @@
+question: Bitcoin düğümü için neden bir HDD önerilmiyor?
+answer: İBH ve genel kullanımı önemli ölçüde yavaşlattığı için
+wrong_answers:
+  - Çünkü Blockchain dosyalarını depolayamaz
+  - Çünkü çok az enerji tüketiyor ve patlama riski taşıyor
+  - Çünkü Bitcoin core ile uyumsuzdur
+explanation: |
+  Mekanik diskler performansı sınırlar, IBD'yi önemli ölçüde uzatır ve düğüm yükü altında hızla aşınır.
+reviewed: true

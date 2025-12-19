@@ -1,0 +1,9 @@
+question: RPC 연결에 해당하는 Sparrow wallet 서버 옵션은 무엇인가요?
+answer: Bitcoin core
+wrong_answers:
+  - 공용 서버
+  - 프라이빗 일렉트럼
+  - 원격 API
+explanation: |
+  Sparrow에서 Bitcoin core 옵션은 RPC를 통해 노드에 직접 연결하는 것에 해당합니다.
+reviewed: true

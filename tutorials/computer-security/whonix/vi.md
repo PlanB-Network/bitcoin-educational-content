@@ -17,12 +17,12 @@ description: Bảo vệ sự riêng tư và bảo mật của bạn.
 
 
 
-- Miễn phí**: Giống như hầu hết các bản phân phối Linux, Whonix là một hệ thống mã nguồn mở được cấp phép hoàn toàn miễn phí. Nó được phát triển theo mã nguồn mở, với một cộng đồng năng động và minh bạch.
-- Quyền riêng tư, bảo mật và ẩn danh**: Mục tiêu chính của Whonix là cung cấp một môi trường cực kỳ an toàn, trong đó mọi dữ liệu của bạn được bảo vệ và thông tin liên lạc của bạn được mã hóa thông qua mạng Tor.
-- Dễ sử dụng**: Whonix cung cấp giao diện đồ họa trực quan, được cấu hình sẵn, phù hợp ngay cả với người dùng mới. Không cần phải là chuyên gia để tận hưởng khả năng bảo vệ nâng cao.
-- Môi trường lý tưởng cho phát triển an toàn**: Whonix cho phép bạn phát triển, thử nghiệm, kiểm tra hoặc chạy chương trình mà không cần tiết lộ IP thực của Address hoặc thói quen duyệt web hoặc giao tiếp mạng của bạn.
-- Phiên dùng một lần và chế độ Trực tiếp**: Whonix có thể được khởi chạy ở chế độ Trực tiếp hoặc thông qua các máy dùng một lần (ví dụ: thông qua **Qubes OS**), cho phép thực hiện các tác vụ quan trọng mà không để lại dấu vết lâu dài sau khi phiên kết thúc.
-- Cài đặt tương đối đơn giản**: Các hình ảnh sẵn sàng sử dụng được cung cấp để cài đặt nhanh chóng trên các máy ảo (VirtualBox, KVM, Qubes). Hệ thống được ghi chép và cập nhật thường xuyên.
+- **Miễn phí**: Giống như hầu hết các bản phân phối Linux, Whonix là một hệ thống mã nguồn mở được cấp phép hoàn toàn miễn phí. Nó được phát triển theo mã nguồn mở, với một cộng đồng năng động và minh bạch.
+- **Quyền riêng tư, bảo mật và ẩn danh**: Mục tiêu chính của Whonix là cung cấp một môi trường cực kỳ an toàn, trong đó mọi dữ liệu của bạn được bảo vệ và thông tin liên lạc của bạn được mã hóa thông qua mạng Tor.
+- **Dễ sử dụng**: Whonix cung cấp giao diện đồ họa trực quan, được cấu hình sẵn, phù hợp ngay cả với người dùng mới. Không cần phải là chuyên gia để tận hưởng khả năng bảo vệ nâng cao.
+- **Môi trường lý tưởng cho phát triển an toàn**: Whonix cho phép bạn phát triển, thử nghiệm, kiểm tra hoặc chạy chương trình mà không cần tiết lộ IP thực của Address hoặc thói quen duyệt web hoặc giao tiếp mạng của bạn.
+- **Phiên dùng một lần và chế độ Trực tiếp**: Whonix có thể được khởi chạy ở chế độ Trực tiếp hoặc thông qua các máy dùng một lần (ví dụ: thông qua **Qubes OS**), cho phép thực hiện các tác vụ quan trọng mà không để lại dấu vết lâu dài sau khi phiên kết thúc.
+- **Cài đặt tương đối đơn giản**: Các hình ảnh sẵn sàng sử dụng được cung cấp để cài đặt nhanh chóng trên các máy ảo (VirtualBox, KVM, Qubes). Hệ thống được ghi chép và cập nhật thường xuyên.
 
 
 
@@ -56,9 +56,9 @@ Sau đây là thông số kỹ thuật được đề xuất để có trải ng
 
 
 
-- Bộ nhớ Truy cập Ngẫu nhiên (RAM)**: khuyến nghị tối thiểu **8 GB**. RAM càng nhiều, bạn càng có thể phân bổ nhiều tài nguyên hơn cho các máy ảo (Gateway và Workstation), giúp cải thiện hiệu suất.
+- **Bộ nhớ Truy cập Ngẫu nhiên (RAM)**: khuyến nghị tối thiểu **8 GB**. RAM càng nhiều, bạn càng có thể phân bổ nhiều tài nguyên hơn cho các máy ảo (Gateway và Workstation), giúp cải thiện hiệu suất.
 - Dung lượng đĩa trống**: vui lòng chừa ít nhất 30 GB dung lượng đĩa trống**. Dung lượng này bao gồm dung lượng cần thiết cho hai máy ảo, tệp hệ thống và bất kỳ dữ liệu hoặc ảnh chụp nhanh nào.
-- Bộ xử lý**: nên sử dụng bộ xử lý có ít nhất **4 lõi vật lý** (8 luồng logic), đặc biệt nếu bạn muốn chạy các dịch vụ hoặc công cụ khác song song.
+- **Bộ xử lý**: nên sử dụng bộ xử lý có ít nhất **4 lõi vật lý** (8 luồng logic), đặc biệt nếu bạn muốn chạy các dịch vụ hoặc công cụ khác song song.
 
 
 
@@ -86,7 +86,7 @@ Sau khi tải xuống tệp, hãy cài đặt nó như bất kỳ phần mềm n
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Nhập Whonix
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix không chỉ là một hệ điều hành: nó là một **môi trường bảo mật** thực sự được thiết kế để bảo vệ tính ẩn danh, quyền riêng tư và các hoạt động nhạy cảm của bạn. Nhờ kiến trúc dựa trên Tor, phân vùng thông minh giữa Cổng và Máy trạm, cùng các công cụ được cài đặt sẵn như Trình duyệt Tor, KeePassXC và Electrum, Whonix cung cấp giải pháp trọn gói cho bất kỳ ai muốn **duyệt web ẩn danh**, **làm việc an toàn** hoặc **xử lý dữ liệu bí mật**.
 
@@ -244,4 +244,4 @@ Whonix không chỉ là một hệ điều hành: nó là một **môi trường
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

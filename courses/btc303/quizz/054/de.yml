@@ -1,0 +1,9 @@
+question: Welches Hauptmerkmal des Entwicklungsprozesses von Bitcoin macht es besonders anfällig für Infiltrationstaktiken, die in Sabotagehandbüchern für den Krieg beschrieben werden?
+answer: Die Bitcoin-Entwicklung steht jedem offen, der sich daran beteiligen möchte, ohne Gatekeeper
+wrong_answers:
+  - Die Bitcoin-Entwicklung stützt sich auf eine kleine Gruppe von vertrauenswürdigen Kernbetreuern
+  - Bitcoin-Entwicklung erfordert formale Regierungsgenehmigung für größere Änderungen
+  - Die Bitcoin-Entwicklung verwendet Closed-Source-Code, der externe Beiträge einschränkt
+explanation: |
+  Der offene Entwicklungsprozess von Bitcoin ist zwar eine seiner größten Stärken in Bezug auf Dezentralisierung und Transparenz, schafft aber auch eine Anfälligkeit für die Infiltration durch Angreifer. Da jeder an den Diskussionen teilnehmen, Änderungen vorschlagen und sich am Überprüfungsprozess beteiligen kann, ohne eine Genehmigung oder einen Berechtigungsnachweis zu benötigen, können engagierte Angreifer diese Offenheit ausnutzen. Sie können den Fortschritt durch endlose Bedenken zu irrelevanten Themen abwürgen, um präzise Formulierungen feilschen, abgeschlossene Diskussionen wiederholen oder "soziale Sybil-Angriffe" mit mehreren gefälschten Identitäten durchführen, um einen falschen Eindruck von Widerstand zu erwecken. Diese Offenheit steht in krassem Gegensatz zu geschlossenen Entwicklungsmodellen, bei denen es Torwächter oder Genehmigungsverfahren gibt, die schlechte Akteure herausfiltern könnten.
+reviewed: false

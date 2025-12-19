@@ -1,8 +1,8 @@
-question: Vad innebär begreppet penningströmning i samband med Lightning Network?
-answer: Gör kontinuerliga mikrobetalningar i realtid.
+question: Vad är en potentiell konsekvens av utvecklingen av AI-teknik?
+answer: AI-teknik kommer att leda till att över 80% av dagens jobb försvinner.
 wrong_answers:
-  - Omvandla Bitcoin till kontanter på en fysisk plats med hjälp av en bankomat.
-  - Streaming av ljud- eller videoinnehåll för Bitcoin.
-  - Skapande av nya bitcoins genom Mining-operationer som sker i realtid.
+  - AI-teknik kommer att förstöra alla datorer.
+  - AI-teknik kommer att leda till en minskning av den mänskliga intelligensen.
+  - AI-teknik kommer att orsaka en global ekonomisk kollaps.
 explanation: >-
 reviewed: true

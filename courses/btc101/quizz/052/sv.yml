@@ -1,10 +1,9 @@
-question: Hur påverkas köpkraften av en inflation på 20% under 3 år?
-answer: Du förlorar 50 procent av din köpkraft.
+question: Vilket av följande är inte en Bitcoin-karaktäristik?
+answer: Det blir lätt censurerat.
 wrong_answers:
-  - Du förlorar 100 % av din köpkraft.
-  - Du förlorar 60 procent av din köpkraft.
-  - Du förlorar 30 procent av din köpkraft.
+  - Den är omedelbart transportabel.
+  - Den har försumbara kostnader för verifiering.
+  - Den har en fast penningpolitik.
 explanation: |
-  Med 20% inflation förlorar du nästan hälften av din köpkraft på
-  köpkraft på 3 år.
+  Bitcoin har alla nödvändiga egenskaper för att vara en effektiv och hälsosam valuta: delbar, omedelbart transporterbar, ocensoriserbar, försumbar kostnad för verifiering och med en penningpolitik som redan är fastställd för århundraden framöver med 21 miljoner enheter.
 reviewed: true

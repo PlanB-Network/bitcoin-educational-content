@@ -1,11 +1,9 @@
-question: Bitcoin dünyaya ilk kez ne zaman sunuldu?
-answer: 31 Ekim 2008.
+question: Kuruluşundan bu yana, Bitcoin ağı yüzde kaç süreyle işlevsel olmuştur?
+answer: 99.988%.
 wrong_answers:
-  - 3 Ocak 2009.
-  - 22 Kasım 2009.
-  - 12 Aralık 2010.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Bitcoin ilk olarak 31 Ekim'de dünyaya tanıtıldı,
-  2008, Satoshi Nakamoto Cypherpunk'e bir e-posta gönderdiğinde
-  gW-2 Beyaz Kitabını içeren e-posta listesi.
+  Bitcoin'in çevrimiçi kullanılabilirliği 2009'dan bu yana %99,988'dir.
 reviewed: true

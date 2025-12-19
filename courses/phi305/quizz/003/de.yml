@@ -1,0 +1,9 @@
+question: Das Land, in dem Spinoza lebte und sein Werk schrieb, ist?
+answer: Die Vereinigten Provinzen.
+wrong_answers:
+  - Frankreich.
+  - Großbritannien.
+  - Schweden.
+explanation: |
+  Spinoza lebte und schrieb sein gesamtes Werk in den Vereinigten Provinzen (den heutigen Niederlanden), die zu jener Zeit ein Zufluchtsort für Freidenker und religiöse Minderheiten waren, die anderswo in Europa verfolgt wurden.
+reviewed: false

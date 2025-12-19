@@ -1,11 +1,9 @@
-question: Was können Miner für Kraftwerke tun, die noch nicht an das Netz angeschlossen sind?
-answer: Sie können als Käufer in letzter Instanz fungieren.
+question: Was ist einer der Gründe, warum Bitcoin für bestimmte Gruppen attraktiv ist?
+answer: Seine Fähigkeit, Lösungen wie vertrauensloses elektronisches Bargeld, Widerstand gegen Zensur oder eine transparente und unveränderliche Geldpolitik anzubieten.
 wrong_answers:
-  - Sie können Kraftwerken mit Elektrizität versorgen.
-  - Sie können Kraftwerke an das Netz anschließen.
-  - Sie können den Preis für Elektrizität regulieren.
-explanation: |
-  Miner können als Käufer in letzter Instanz für Kraftwerke agieren,
-  die noch nicht an das Netz angeschlossen sind. Dies ermöglicht es Kraftwerken,
-  Finanzierungen zu sichern, selbst bevor sie mit dem elektrischen Netzwerk verbunden sind.
+  - Es ist leicht zu fälschen und kann Lösungen schaffen, um mit einem einfachen Klick mehr Geld zu erhalten.
+  - Es wird von einer zentralen Autorität kontrolliert, die Kapital frei an die Nutzer verteilt.
+  - Es ist nicht pseudonym, sodass jeder Nutzer gut bekannt und vertrauenswürdig ist.
+explanation: >-
+  Die dezentrale Natur von Bitcoin, die Pseudonymität und der Widerstand gegen Zensur machen es für Gruppen wie Technikbegeisterte, Cypherpunks, Libertäre und Goldenthusiasten attraktiv.
 reviewed: true

@@ -1,10 +1,12 @@
-question: ¿Cuál es el papel de la clave pública en una cartera de Bitcoin?
-answer: Se utiliza para generar direcciones de Bitcoin y así recibir dinero.
+question: ¿Cuál es la analogía utilizada en este curso para explicar cómo puedes recibir bitcoins sin permitir que el remitente robe tus fondos?
+answer: Un buzón de correo.
 wrong_answers:
-  - Se utiliza para encriptar transacciones de Bitcoin.
-  - Se utiliza para acceder a la cartera de Bitcoin.
-  - Se utiliza para hacer una copia de seguridad de la cartera de Bitcoin.
+  - Una cuenta bancaria.
+  - Una caja fuerte.
+  - Una casa.
 explanation: |
-  La clave pública se deriva de la clave privada y se utiliza
-  para generar direcciones de Bitcoin con el fin de recibir dinero.
+  La analogía utilizada para explicar cómo puedes recibir Bitcoins
+  sin permitir que el remitente robe tus fondos es un
+  buzón de correo. La gente deposita dinero en él, pero tú eres el único
+  que puede abrirlo.
 reviewed: true

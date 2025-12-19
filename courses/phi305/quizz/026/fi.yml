@@ -1,0 +1,9 @@
+question: Kuka luulee, että ihminen voi pikemminkin häiritä luontoa kuin alistua sen alaisuuteen?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Descartes uskoi, että ihminen voi pikemminkin häiritä luontoa kuin käydä sen läpi. Tämä dualistinen näkemys asettaa ihmisen luontoa vastaan ja esittää, että voimme nousta luonnonlakien yläpuolelle tahtomme avulla.
+reviewed: false

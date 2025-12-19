@@ -1,11 +1,9 @@
-question: Apa keuntungan utama Bitcoin dibandingkan dengan bentuk mata uang lainnya?
-answer: Ini menawarkan penyimpanan nilai yang sangat baik karena pasokannya yang sangat terbatas dan neutalitasnya.
+question: Bagaimana uang yang sehat dapat diciptakan?
+answer: Uang adalah fenomena sosial alami yang harus muncul dari pasar dan konsensus sukarela
 wrong_answers:
-  - Ini tidak dapat dibagi dan dapat diangkut
-  - Ini tunduk pada inflasi moneter
-  - Ini secara luas diterima dalam perdagangan
-explanation: |
-  Keuntungan utama Bitcoin dibandingkan dengan bentuk mata uang lainnya adalah bahwa itu
-  menawarkan penyimpanan nilai yang sangat baik karena pasokannya yang sangat terbatas dan ketiadaan pihak yang dipercaya. Ini membuat
-  itu pilihan yang baik untuk tabungan jangka panjang.
+  - Pemerintah memaksakannya melalui undang-undang
+  - Manusia menggunakan kekerasan dan paksaan untuk memaksa orang lain menerima uang mereka
+  - Uang yang sehat tidak dapat diciptakan
+explanation: >-
+  Uang yang sehat adalah fenomena sosial alami yang harus muncul dari pasar dan konsensus sukarela. Tidak ada manusia atau kelompok manusia yang dapat menciptakan uang.
 reviewed: true

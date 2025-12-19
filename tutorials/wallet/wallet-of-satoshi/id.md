@@ -1,5 +1,5 @@
 ---
-name: Wallet dari Satoshi
+name: Wallet of Satoshi
 description: Kustodian Wallet paling sederhana untuk memulai
 ---
 ![cover](assets/cover.webp)
@@ -12,7 +12,7 @@ tutorial ini ditulis oleh_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 Wallet dari Satoshi adalah Lightning Network Wallet, kustodian, dan sangat mudah digunakan.
 
-Untuk keperluan kursus [BTC105 - Menemukan Sekarang] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), voucher ini digunakan untuk Redeem Lightning Network.
+Untuk keperluan kursus [BTC105 - Menemukan Sekarang](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), voucher ini digunakan untuk Redeem Lightning Network.
 
 
 **Selalu ingat**: _bukan kunci Anda, bukan koin Anda_
@@ -79,8 +79,8 @@ Wallet dari Satoshi telah mengirim pesan ke kotak masuk email yang ditunjukkan.
 Di kotak surat, kita akan menemukan dua kata, yang harus kita masukkan, menulis ulang, di tempat yang disediakan oleh aplikasi.
 
 
-- jangan aktifkan penerjemah: kata-kata harus tetap dalam bahasa Inggris**
-- tulis ulang kedua kata tersebut dengan memperhatikan huruf besar/huruf kecil**
+- jangan aktifkan penerjemah: kata-kata harus tetap dalam bahasa Inggris
+- tulis ulang kedua kata tersebut dengan memperhatikan huruf besar/huruf kecil
 
 
 ![image](assets/it/10.webp)

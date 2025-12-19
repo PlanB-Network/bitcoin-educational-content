@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto'nun Beyaz Kitabı ne sunuyor?
+answer: İnternet üzerinde merkezi olmayan bir Exchange aracı.
+wrong_answers:
+  - Yeni bir liberal politika.
+  - Merkezi bir Exchange protokolü.
+  - Siyasi bir program.
+explanation: |
+  Satoshi Beyaz Kitap Nakamoto, Bitcoin'ü İnternet üzerinde Exchange'ün merkezi olmayan bir ortamı olarak sunar. Merkezi otoritesi olmayan eşler arası bir elektronik ödeme sistemi önermektedir.
+reviewed: false

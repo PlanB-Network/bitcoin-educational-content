@@ -6,18 +6,18 @@ description: Vodič za postavljanje vašeg RaspiBlitz-a
 ![image](assets/0.webp)
 
 
-RaspiBlitz je uradi-sam Lightning Node (LND i/ili Core Lightning) koji radi zajedno sa Bitcoin-Fullnode na RaspberryPi (1TB SSD) i lepim ekranom za jednostavno podešavanje i praćenje.
+RaspiBlitz je uradi-sam Lightning Node (LND i/ili Core Lightning) koji radi zajedno sa Bitcoin kompletnim node-om na RaspberryPi (1TB SSD) i lepim ekranom za jednostavno podešavanje i praćenje.
 
 
-RaspiBlitz je prvenstveno namenjen učenju kako da pokrenete svoj čvor decentralizovano od kuće - jer: Nije tvoj čvor, nisu tvoja pravila. Otkrijte i razvijajte rastući ekosistem Lightning Network tako što ćete postati njegov punopravni deo. Napravite ga kao deo radionice ili kao vikend projekat sami.
+RaspiBlitz je prvenstveno namenjen učenju kako da pokrenete svoj čvor decentralizovano od kuće - jer: Nije tvoj čvor, nisu tvoja pravila. Otkrijte i razvijajte rastući ekosistem unutar Lightning mreže tako što ćete postati njegov punopravni deo. Napravite ga sami kao deo radionice ili kao vikend projekat.
 
 
 ![video](https://youtu.be/DTHlSPMz3ns)
 
-RASPIBLITZ - Kako pokrenuti Lightning i Bitcoin Full node po BTC sesiji
+RASPIBLITZ - Kako pokrenuti Lightning i Bitcoin kompletni node po BTC sesiji
 
 
-# Parmanov Vodič za Postavljanje Raspiblitz-a
+# Parmanov vodič za postavljanje Raspiblitz-a
 
 
 Raspiblitz je odličan sistem za pokretanje Bitcoin noda i povezanih aplikacija. Preporučujem ovo i MyNode nod većini korisnika (idealno imati dva noda radi redundanse). Jedna velika prednost je to što je Raspiblitz nod „Free Open Source Software“, za razliku od MyNode ili Umbrel. [Zašto je to važno? Vlad Costa objašnjava.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Takođe možete pokrenuti Raspiblitz preko WiFi veze umesto ethernet – evo [dopunskog vodiča](https://armantheparman.com/headless-wifi/) za to. (Nisam pronašao način da ovo uradim sa MyNode).
@@ -57,7 +57,7 @@ Napomena: Ovo je pogrešan Hard drajv: Ovo je prenosivi eksterni Hard drajv. Nij
 ![image](assets/1.webp)
 
 
-Ovo je pravi tip za dobiti:
+Ovo je pravi tip za uzeti:
 
 
 ![image](assets/2.webp)
@@ -110,9 +110,9 @@ shasum -a 256 xxxxxxxxxxxxxx
 gde je `xxxxxxxxxxxxxx` naziv fajla koji ste upravo preuzeli. Ako niste u direktorijumu gde se taj fajl nalazi, morate uneti punu putanju.
 
 
-Računar razmišlja oko 20 sekundi. Proverite da li izlazna hash datoteka odgovara onoj preuzetoj sa vebsajta u prethodnom koraku. Ako je identična, možete nastaviti.
+Računar razmišlja oko 20 sekundi. Proveri da li se dobijeni heš fajla poklapa sa onim koji si preuzeo/la sa sajta u prethodnom koraku. Ako je identična, možete nastaviti.
 
-Prozori
+Windows
 
 
 Otvorite komandnu liniju i idite do mesta gde je datoteka preuzeta, i unesite ovu komandu:
@@ -165,7 +165,7 @@ Delovi (kućište nije prikazano):
 ![image](assets/11.webp)
 
 
-Povežite ethernet kabl i USB konektor Hard drajva (još ne napajanje). Izbegavajte povezivanje na plave USB portove u centru. Oni su USB 3. Koristite USB 2 port, iako drajv može biti sposoban za USB 3 (pouzdanije je).
+Povežite ethernet kabl i USB konektor hard diska (još ne napajanje). Izbegavajte povezivanje na plave USB portove u centru. Oni su USB 3. Koristite USB 2 port, iako drajv može biti sposoban za USB 3 (pouzdanije je).
 
 
 ![image](assets/12.webp)
@@ -183,7 +183,7 @@ Konačno, povežite napajanje:
 ![image](assets/14.webp)
 
 
-## Korak 6: Pronađite IP Address od Pi
+## Korak 6: Pronađite IP adresu od Pi
 
 
 Nikada vam nije potreban monitor sa Raspiblitz-om. Međutim, potreban vam je drugi računar na kućnoj mreži. Ako vaš Pi nije povezan putem eterneta, a želite da se oslonite na WiFi, pronalaženje IP adrese zahteva određene računarske veštine. Ne mogu vam pomoći, izvinite. Potrebna vam je ethernet veza. (Problem dolazi od potrebe za pristupom monitoru i operativnom sistemu kako biste povezali WiFi i uneli lozinku.)
@@ -198,10 +198,10 @@ Ukucao sam 192.168.0.1 u pregledač (uputstva koja su došla uz moj ruter), prij
 Pronalaženje IP-a je ključno.
 
 
-**Napomena:** možete koristiti terminal na Mac ili Linux mašini da pronađete IP Address svih uređaja povezanih putem Ethernet-a na kućnoj mreži koristeći komandu “arp -a”. Izlaz nije tako lep kao ono što će ruter prikazati, ali sve informacije koje su vam potrebne su tu. Ako nije očigledno koji je Pi, koristite metodu pokušaja i greške.
+**Napomena:** možete koristiti terminal na Mac ili Linux mašini da pronađete IP adresu svih uređaja povezanih putem Ethernet-a na kućnoj mreži koristeći komandu “arp -a”. Izlaz nije tako lep kao ono što će ruter prikazati, ali sve informacije koje su vam potrebne su tu. Ako nije očigledno koji je Pi, koristite metodu pokušaja i greške.
 
 
-## Korak 7: SSH u Pi
+## Korak 7: SSH veza ka Pi
 
 
 Zapamti da ubaciš SD karticu u Pi pre nego što ga uključiš. Sačekaj nekoliko minuta, a zatim na drugom Linux/Mac uređaju otvori terminal.
@@ -224,7 +224,7 @@ Prvi put kada to uradite, ili kad god promenite OS Pi-a zamenom SD kartice, mož
 ![image](assets/15.webp)
 
 
-Način da to popravite je da odete do mesta gde se nalazi datoteka „known_hosts“ (to vam piše u poruci o grešci) i da je obrišete. Komanda je "rm known_hosts"
+Način da to popravite je da odete do direktorijuma gde se nalazi datoteka „known_hosts“ (to vam piše u poruci o grešci) i da je obrišete. Komanda je "rm known_hosts"
 
 
 Zatim, ponovite ssh komandu da se prijavite. Ovo će se desiti…
@@ -233,16 +233,15 @@ Zatim, ponovite ssh komandu da se prijavite. Ovo će se desiti…
 ![image](assets/16.webp)
 
 
-Da
+Upiši "yes" (punu reč, ne samo y) da bi nastavio.
 
 
-Ako bude uspešno, bićete upitani za lozinku. Ovo nije za vaš računar, već za raspiblitz. Generička lozinka je "raspiblitz", a kasnije ćete je promeniti. Prozor terminala će postati plav i imaćete opcije menija kao stari DOS meniji. Krećite se pomoću strelica ili miša.
-
+Ako bude uspešno, bićete upitani za lozinku. Ovo nije za vaš računar, već za raspiblitz. Generička lozinka je "raspiblitz", a kasnije ćete je promeniti. Prozor terminala će poprimiti plavu boju, a na ekranu će se pojaviti meni opcije nalik onima iz starih DOS sistema.
 
 ![image](assets/17.webp)
 
 
-Pratite uputstva, postavite svoje lozinke, a zatim će detektovati vaš Hard drajv i dati vam opciju da ga formatirate ako je potrebno.
+Pratite uputstva, postavite svoje lozinke, a zatim će detektovati vaš hard disk i dati vam opciju da ga formatirate ako je potrebno.
 
 
 Zatim će vam biti postavljeno pitanje da li želite da kopirate Blockchain podatke iz drugog izvora ili da ih ponovo preuzmete. Kopiranje je proces učenja i uputstva su prilično dobra, i dobro ih je imati pri ruci….
@@ -257,16 +256,16 @@ Jednostavan, ali sporiji način je preuzimanje čitavog lanca ispočetka…
 ![image](assets/19.webp)
 
 
-Puno teksta će se brzo pojaviti na ekranu terminala. Možda ćete ga pomešati sa procesom preuzimanja Blockchain, ali meni izgleda kao da generiše privatni ključ za komunikaciju.
+Puno teksta će se brzo pojaviti na ekranu terminala. Možda ćete ga pomešati sa procesom preuzimanja Blockchain-a, ali meni izgleda kao da generiše privatni ključ za komunikaciju.
 
 
-Zatim se pojavljuju opcije osvetljenja.
+Zatim se pojavljuju opcije za Lightning.
 
 
 ![image](assets/20.webp)
 
 
-Napravite novu lozinku za zaključavanje vašeg osvetljenja Wallet, zatim će biti kreiran novi Wallet i dobićete 24 reči koje treba da zapišete…
+Napravite novu lozinku za zaključavanje vašeg Lightning novčanika, zatim će biti kreiran novi novčanik i dobićete 24 reči koje treba da zapišete…
 
 
 ![image](assets/21.webp)
@@ -281,7 +280,7 @@ Nakon toga, nekoliko minuta tekst se pomera niz terminalski prozor. Zatim…
 ![image](assets/22.webp)
 
 
-Bićete odjavljeni iz ssh sesije. Ponovo se prijavite, ovog puta sa vašom novom lozinkom, lozinkom A. Kada se prijavite, bićete upitani za lozinku C da otključate vaš lightning Wallet.
+Bićete odjavljeni iz ssh sesije. Ponovo se prijavite, ovog puta sa vašom novom lozinkom, lozinkom A. Kada se prijavite, bićete upitani za lozinku C da otključate vaš lightning novčanik.
 
 
 Sada čekamo. Vidimo se za 2 nedelje. Možeš zatvoriti terminal, to ne utiče na Pi, to je samo komunikacioni prozor.

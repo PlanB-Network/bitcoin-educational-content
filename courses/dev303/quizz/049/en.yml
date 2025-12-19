@@ -1,0 +1,8 @@
+question: What fundamental problem does RC solve that Box cannot handle in Rust's ownership system?
+answer: RC enables multiple ownership of the same data through reference counting
+wrong_answers:
+  - RC provides faster memory allocation and deallocation than Box
+  - RC allows automatic memory management without any runtime overhead
+  - RC enables compile-time borrowing checks that Box cannot perform
+explanation: |
+  RC (Reference Counter) specifically addresses the limitation of Box's single ownership model by allowing multiple parts of code to share ownership of the same data simultaneously. Box follows traditional ownership rules where only one entity can own data at a time, making it impossible to create scenarios like shared data structures where multiple lists reference the same tail portion. RC maintains an internal counter that tracks references, incrementing when cloned and decrementing when dropped, only freeing memory when the count reaches zero. This enables flexible data sharing patterns while maintaining memory safety, which is fundamentally different from Box's exclusive ownership approach.

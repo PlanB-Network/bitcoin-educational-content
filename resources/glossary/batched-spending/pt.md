@@ -6,4 +6,4 @@ Os gastos em lote são uma técnica de gastos utilizada principalmente por entid
 
 ![](../../dictionnaire/assets/8.webp)
 
-> ► *Em francês, "batched spending" pode ser traduzido como "dépense groupée"
+> ► *Em francês, "batched spending" pode ser traduzido como "dépense groupée"*

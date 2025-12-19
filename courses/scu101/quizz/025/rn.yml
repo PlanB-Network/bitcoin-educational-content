@@ -1,9 +1,9 @@
-question: Ni igiki gikenewe co kubika ijambobanga ry’ugushiramwo amakuru?
-answer: Wandike ijambo banga ku mpapuro kugira ngo uribike ahantu heza.
+question: Ni igiki gikwiye gukora kugirango ubike ijambo ry'ibanga ryo  kunyegeza amakuru?
+answer: Wandike ijambo ry'ibanga ku rupapuro kugira ngo uribike ahantu heza atankomanzi.
 wrong_answers:
-  - Bika ijambobanga muri dosiye y’inyandiko iri kuri mudasobwa.
-  - Sangira ijambobanga n’abagenzi wizigira.
-  - Koresha ijambobanga rusangi ryoroshe kwibuka.
+  - Bika ijambobanga muri dosiye y’inyandiko iri mu nyabwonko yawe.
+  - Sangiza ijambo ry'ibanga n’abagenzi wizera.
+  - Koresha ijambo ry'ibanga rusangi ryoroshe kwibuka.
 explanation: |
-  Ni vyiza ko wandika ijambobanga ryo gupfuka amakuru ku mpapuro, ukaribika ahantu hatagira inkomanzi. Ivyo bizotuma umuntu adatakaza uburenganzira bwo kuronka amakuru yashizwe mu mfuruka.
+  Ni vyiza ko wandika ijambo ry'ibanga ryo kunyegeza amakuru ku rupapuro, ukaribika ahantu heza atankomanzi. Ivyo bizotuma umuntu adatakaza uburenganzira bwo kuronka amakuru yanyegejwe.
 reviewed: true

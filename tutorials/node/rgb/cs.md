@@ -3,7 +3,7 @@ name: RGB
 description: Úvod a tvorba aktiv na RGB
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 ## Úvod
 

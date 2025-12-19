@@ -1,0 +1,9 @@
+question: Qual foi a principal questão que tornou a atualização Segwit diferente das anteriores actualizações Bitcoin?
+answer: Os mineiros não sinalizaram o apoio, apesar do apoio esmagador dos utilizadores, o que atrasou o processo de ativação
+wrong_answers:
+  - A atualização exigiu um fork rígido em vez do habitual método de implementação do fork flexível
+  - Os erros técnicos no código Segwit impediram uma implementação segura até serem resolvidos
+  - Os nós económicos rejeitaram a atualização devido a preocupações com o aumento das taxas de transação
+explanation: |
+  A atualização do Segwit foi única porque enfrentou um problema de coordenação em que havia um apoio esmagador entre os utilizadores do Bitcoin, mas os mineiros recusaram-se a sinalizar o apoio à atualização. Isto criou uma situação de impasse em que a atualização não podia ser activada através do mecanismo normal de soft fork ativado pelos mineiros. As actualizações anteriores tinham sido relativamente fáceis porque tinham o apoio dos utilizadores e dos mineiros. Esta situação levou à proposta de User Activated Soft Forks (UASF) como um mecanismo de ativação alternativo que não dependia da sinalização do mineiro, destacando a tensão entre diferentes partes interessadas no ecossistema Bitcoin.
+reviewed: false

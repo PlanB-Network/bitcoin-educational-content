@@ -1,5 +1,5 @@
 ---
-name: Blockstream 應用程式 - Liquid
+name: Blockstream App - Liquid
 description: 如何設定 Blockstream App 和使用 Liquid Network
 ---
 ![cover](assets/cover.webp)
@@ -26,8 +26,8 @@ description: 如何設定 Blockstream App 和使用 Liquid Network
 
 
 
-- 初學者**：希望透過整合 Liquid Network 的直覺式行動應用程式管理比特幣的使用者。
-- 中級使用者**：尋求瞭解 onchain 功能和隱私權選項（如 Tor 或 SPV）的人。
+- 初學者：希望透過整合 Liquid Network 的直覺式行動應用程式管理比特幣的使用者。
+- 中級使用者：尋求瞭解 onchain 功能和隱私權選項（如 Tor 或 SPV）的人。
 
 
 
@@ -50,19 +50,19 @@ Sidechain 是與 Bitcoin 並行運作的獨立 Blockchain，使用稱為 **雙�
 
 
 
-- (1) Peg-in**：比特幣 (BTC) 被 Liquid 聯盟鎖定在主 Blockchain 上。作為回報，在 Blockchain Liquid 上發行等量的 Liquid 比特幣 (L-BTC)，以確保兩個鏈之間的平價，並發送給使用者。
+- (1) **Peg-in**：比特幣 (BTC) 被 Liquid 聯盟鎖定在主 Blockchain 上。作為回報，在 Blockchain Liquid 上發行等量的 Liquid 比特幣 (L-BTC)，以確保兩個鏈之間的平價，並發送給使用者。
 
 
 
 
 
-- (2) 獨立交易** ：根據使用者需求，交易可同時、獨立地在主 Blockchain (BTC) 和 Sidechain Liquid (L-BTC) 上執行。
+- (2) **獨立交易**：根據使用者需求，交易可同時、獨立地在主 Blockchain (BTC) 和 Sidechain Liquid (L-BTC) 上執行。
 
 
 
 
 
-- (3) Peg-out**：使用者將 Liquid-Bitcoins (L-BTC) 傳回給 Liquid 聯盟。聯盟隨後會在主 Blockchain 上解鎖等額的比特幣 (BTC) 並將其轉給使用者。
+- (3) **Peg-out**：使用者將 Liquid-Bitcoins (L-BTC) 傳回給 Liquid 聯盟。聯盟隨後會在主 Blockchain 上解鎖等額的比特幣 (BTC) 並將其轉給使用者。
 
 
 
@@ -80,15 +80,15 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- 速度**：Liquid 上的交易確認時間約為 **1分鐘**，而上鏈交易則需 10 分鐘或更長時間，這都歸功於由驗證者聯盟每分鐘產生的區塊。
-- 加強保密性**：Liquid 使用 **Confidential Transactions**，可隱藏轉移的資產金額和類型，使交易更加隱密（雖然地址仍然可見）。
-- 低費用** ：Liquid 上的交易費用通常較低，非常適合經常轉帳或小額交易。
-- 多種資產**：除了 L-BTC 之外，Liquid 還支援發行其他數位資產，例如穩定幣或代幣，以供特定應用程式使用。
-- 使用案例**：Liquid 特別適用於跨平台交換、快速付款或需要智慧型契約的應用程式，同時仍與 Bitcoin 的安全性相連。
+- **速度**：Liquid 上的交易確認時間約為 **1分鐘**，而上鏈交易則需 10 分鐘或更長時間，這都歸功於由驗證者聯盟每分鐘產生的區塊。
+- 加強保密性：Liquid 使用 **Confidential Transactions**，可隱藏轉移的資產金額和類型，使交易更加隱密（雖然地址仍然可見）。
+- **低費用**：Liquid 上的交易費用通常較低，非常適合經常轉帳或小額交易。
+- 多種資產：除了 L-BTC 之外，Liquid 還支援發行其他數位資產，例如穩定幣或代幣，以供特定應用程式使用。
+- 使用案例：Liquid 特別適用於跨平台交換、快速付款或需要智慧型契約的應用程式，同時仍與 Bitcoin 的安全性相連。
 
 
 
-**註： 本教學著重於透過 Blockstream App 使用 Liquid。若要深入瞭解 Liquid Network，您可在附錄中找到相關資源。
+**註：** 本教學著重於透過 Blockstream App 使用 Liquid。若要深入瞭解 Liquid Network，您可在附錄中找到相關資源。
 
 
 
@@ -98,14 +98,14 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- Hot Wallet**、**Software Wallet**、**Wallet mobile**、**Software Wallet**：都是安裝在智慧型手機、電腦或任何連線至網際網路的裝置上的應用程式名稱，可讓 Bitcoin Wallet 的私人金鑰得到管理與安全保護。
-- 硬體錢包**（也稱為 **Cold錢包**）會離線隔離金鑰，與此不同的是，軟體錢包是在連線環境中運作，因此更容易受到網路攻擊。
+- **Hot Wallet**、**Software Wallet**、**Wallet mobile**、**Software Wallet**：都是安裝在智慧型手機、電腦或任何連線至網際網路的裝置上的應用程式名稱，可讓 Bitcoin Wallet 的私人金鑰得到管理與安全保護。
+- 硬體錢包**（也稱為**Cold錢包**）**會離線隔離金鑰，與此不同的是，軟體錢包是在連線環境中運作，因此更容易受到網路攻擊。
 
 
 
 
 
-- 建議用途** ：
+- **建議用途**：
     - 非常適合管理中等數量的 Bitcoin，尤其是日常交易。
     - 適合初學者或資產有限的使用者，對他們來說，Hardware Wallet 似乎是多餘的。
 
@@ -113,7 +113,7 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- 限制**：較不適合儲存大筆資金或長期儲蓄。在這種情況下，請選擇 Hardware Wallet。
+- 限制：較不適合儲存大筆資金或長期儲蓄。在這種情況下，請選擇 **Hardware Wallet**。
 
 
 
@@ -124,15 +124,15 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- Blockstream App** 是一款手機（iOS、Android）和桌面應用程式，用於管理 Liquid Network 上的 Bitcoin 錢包和資產。於 2016 年被 [Blockstream](https://blockstream.com/) 收購，之前的名稱為 *Green Address*，之後改名為 *Blockstream Green*。
-- 主要功能** ：
-    - Blockchain Bitcoin 上的 Onchain** 交易。
+- **Blockstream App** 是一款手機（iOS、Android）和桌面應用程式，用於管理 Liquid Network 上的 Bitcoin 錢包和資產。於 2016 年被 [Blockstream](https://blockstream.com/) 收購，之前的名稱為 *Green Address*，之後改名為 *Blockstream Green*。
+- **主要功能**：
+- Blockchain Bitcoin 上的 **Onchain** 交易。
     - 在 **Liquid** 網路上進行交易 (Sidechain 用於快速、機密的交換)。
-    - Watch-only** 投資組合，用於監控無法存取鑰匙的基金。
+- **Watch-only** 投資組合，用於監控無法存取鑰匙的基金。
     - 隱私權選項：透過**Tor**連線、透過 Electrum 連線至**個人節點**，或透過**SPV**驗證以減少對第三方節點的依賴。
     - 功能 **Replace-by-fee (RBF)** 加速未確認的交易。
-- 相容性**：整合硬體錢包，例如 **Blockstream Jade**。
-- Interface**：初學者可直覺操作，專家可使用進階選項。
+- **相容性**：整合硬體錢包，例如 **Blockstream Jade**。
+- **Interface**：初學者可直覺操作，專家可使用進階選項。
 - 注意**：本指南著重於 onchain 的使用。附錄中的其他教程涵蓋 Onchain、Watch-Only 和桌面版。
 
 
@@ -148,12 +148,12 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- 適用於 Android** ：
+- 適用於 **Android** ：
     - 從 Google Play 商店下載 [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet)。
     - 替代方案：透過 [Blockstream 官方 GitHub](https://github.com/Blockstream/green_android) 上提供的 APK 檔安裝。
-- 適用於 iOS** ：
+- 適用於 **iOS** ：
     - 從 App Store 下載 [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590)。
-- 注意**：請務必從官方來源下載，以避免詐騙性應用程式。
+- 注意**：請務必從官方來源下載，以避免詐騙性應用程式。**
 
 
 
@@ -163,7 +163,7 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- 主畫面**：首次開啟時，應用程式會顯示沒有設定 Wallet 的畫面。建立或匯入的組合稍後會出現在這裡。
+- 主畫面：首次開啟時，應用程式會顯示沒有設定 Wallet 的畫面。建立或匯入的組合稍後會出現在這裡。
 
 
 
@@ -173,7 +173,7 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- 自訂設定**：點選「應用程式設定」，調整下列選項，點選「儲存」，重新啟動應用程式並建立您的投資組合。
+- 自訂設定：點選「應用程式設定」，調整下列選項，點選「儲存」，重新啟動應用程式並建立您的投資組合。
 
 
 
@@ -187,7 +187,7 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- 功能**：停用螢幕截圖、隱藏工作管理員中的應用程式預覽，以及在手機鎖定時鎖定存取權限。
+- **功能**：停用螢幕截圖、隱藏工作管理員中的應用程式預覽，以及在手機鎖定時鎖定存取權限。
 - 為什麼？保護您的資料，防止未經授權的實體存取或螢幕擷取惡意軟體。
 
 
@@ -198,10 +198,10 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- 功能**：透過 **Tor** 路由網路流量，這是一個匿名網路，會加密您的連線。
+- 功能：透過 **Tor** 路由網路流量，這是一個匿名網路，會加密您的連線。
 - 為什麼？隱藏您的 IP Address 並保護您的隱私，如果您不信任您的網路 (例如公共 Wi-Fi)，這是您的理想選擇。
-- 缺點**：可能會因為加密而導致應用程式變慢。
-- 建議**：如果保密性是優先考量，請啟動 Tor，但請測試連線速度。
+- 缺點：可能會因為加密而導致應用程式變慢。
+- 建議：如果保密性是優先考量，請啟動 **Tor**，但請測試連線速度。
 
 
 
@@ -211,10 +211,10 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- 功能**：透過 **Electrum 伺服器**，將應用程式連接到您自己的 ** 完整 Bitcoin 節點**。
+- 功能：透過 **Electrum 伺服器**，將應用程式連接到您自己的**完整 Bitcoin 節點**。
 - 為什麼？提供對 Blockchain 資料的完全控制，消除對 Blockstream 伺服器的依賴。
-- 先決條件**：已設定的 Bitcoin 節點。
-- 建議**：希望擁有最大主權的進階使用者。
+- **先決條件**：已設定的 Bitcoin 節點。
+- 建議：希望擁有最大主權的進階使用者。
 
 
 
@@ -224,10 +224,10 @@ Liquid 依賴**聯盟**可信賴的參與者（交易所、認可的 Bitcoin 公
 
 
 
-- 功能**：使用 ** 簡化付款驗證 (SPV)** 直接驗證某些 Blockchain 資料，而無需下載整個鏈。
+- 功能：使用**簡化付款驗證 (SPV)**直接驗證某些 Blockchain 資料，而無需下載整個鏈。
 - 為什麼？減少對 Blockstream 預設節點的依賴，同時保持行動裝置的輕量級。
-- 缺點**：安全性不如 Full node，因為它依賴第三方節點提供某些資訊。
-- 建議**：如果您無法使用個人節點，但偏好使用 Full node 以獲得最佳安全性，請啟動 SPV。
+- 缺點：安全性不如 Full node，因為它依賴第三方節點提供某些資訊。
+- 建議：如果您無法使用個人節點，但偏好使用 Full node 以獲得最佳安全性，請啟動 **SPV**。
 
 
 
@@ -329,9 +329,9 @@ seed 12 字短語將會顯示，供您儲存。
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3.檢查 seed 句子
 
@@ -346,7 +346,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 在 Wallet 首頁畫面，點選「設定」標籤，然後點選「Wallet 詳細資料」，複製 zPub ( [擴充公開金鑰](https://planb.network/fr/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602))：
+- 在 Wallet 首頁畫面，點選「設定」標籤，然後點選「Wallet 詳細資料」，複製 zPub ( [擴充公開金鑰](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f))：
 
 
 
@@ -370,7 +370,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.4.確保存取應用程式的安全
 
@@ -434,7 +434,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-- 選項** ：
+- **選項**：
  - (1) 按一下箭頭，選擇與此 seed 句子連結的另一個新 Address。
     - (2) 您也可以按一下右上方的三個圓點，然後按一下「位址清單」，從已使用/顯示的位址中選擇一個 Address。
     - (3) 若要要求特定金額，請按一下右上方的三個圓點，選擇「要求金額」，然後輸入所需金額。QR 將會更新，Address 將被 Bitcoin 付款 URI 取代。
@@ -468,10 +468,10 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-- 輸入詳細資料** ：
+- **輸入詳細資料**：
     - (1) 貼上收件人的 **Address 或掃描 QR 代碼，輸入收件人的 **Address。
     - (2) 檢查資產和資金寄送的帳戶。
-    - (3) 指出要傳送的**金額。您可以選擇單位：L-BTC, L-satoshis, USD, ...
+- (3) 指出要傳送的**金額**。您可以選擇單位：L-BTC, L-satoshis, USD, ...
 
 
 
@@ -481,7 +481,7 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-- 檢查** ：
+- **檢查**：
     - 檢查摘要螢幕上的 Address、金額和費用。
     - Address 錯誤可能導致不可挽回的資金損失。提防修改剪貼板的惡意軟體。
 
@@ -493,8 +493,8 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-- 確認**：滑動「傳送」按鈕簽署並分發交易。
-- 跟進**：在 Wallet 「交易」標籤中，交易顯示為「未確認」，然後是「已確認」，最後是「已完成」：
+- 確認：滑動「傳送」按鈕簽署並分發交易。
+- 跟進：在 Wallet 「交易」標籤中，交易顯示為「未確認」，然後是「已確認」，最後是「已完成」：
 
 
 
@@ -521,19 +521,19 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 在「Watch Only」模式下匯入並追蹤 Wallet
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 桌上型電腦版本
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 
@@ -547,19 +547,19 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- 保護您的復原短語** ：
+- **保護您的復原短語**：
  - 教學：儲存您的 Mnemonic 樂句
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
-- 使用安全認證** ：
+
+
+- 使用**安全認證**：
  - 啟動**強大 PIN**或**生物辨識驗證** (指紋或臉部辨識) 以保護對應用程式的存取。
  - 切勿分享您的 PIN 碼或生物辨識資料。
 
@@ -567,7 +567,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 保護您的隱私** ：
+- **保護您的隱私**：
  - generate 為每個 onchain 接收提供一個新的 Address，或 Liquid 限制在 Blockchain 上追蹤。
  - 啟動「Enhanced Privacy」、「Tor」和「SPV」功能。
  - 為了獲得最大的保密性，請透過 Electrum 伺服器將您的 Wallet 連接到您自己的 Bitcoin 節點，而不要使用公共節點
@@ -576,23 +576,23 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 選擇最適合您需求的網路** ：
- - Onchain**：長期託管或大額交易的首選 (費用相較於金額可忽略不计)。
- - Liquid**：用於快速、低成本的傳輸，並加強保密性。
- - 閃電**：選擇即時、低成本的小額轉帳。
+- 選擇最適合您需求的**網路**：
+- **Onchain**：長期託管或大額交易的首選 (費用相較於金額可忽略不计)。
+- **Liquid**：用於快速、低成本的傳輸，並加強保密性。
+- **閃電**：選擇即時、低成本的小額轉帳。
 
 
 
 
 
-- 請務必檢查送貨地址** ：
+- 請務必檢查送貨地址：
  - 在發送資金之前，請仔細檢查 Address。發送至錯誤的 Address 的資金將永久丟失。使用複製/貼上或 QR 代碼掃描，切勿手抄/修改 Address。
 
 
 
 
 
-- 優化成本** ：
+- **優化成本**：
  - 對於 onchain 交易，根據緊急程度和網路擁塞情況選擇適當的費用 (慢、中、快)。
  - 少量使用 Liquid，或 Lightning。
 
@@ -611,10 +611,10 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 官方連結：**
- - [官方網站](https://blockstream.com/)**
- - [行動應用程式支援](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)**：文件與聊天
- - [GitHub](https://github.com/Blockstream/green_android)**
+- 官方連結：
+- [官方網站](https://blockstream.com/)
+- [行動應用程式支援](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/)：**文件與聊天**
+- [GitHub](https://github.com/Blockstream/green_android)
 
 
 
@@ -629,32 +629,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 學習與教程：** ** [Plan ₿ Network](https://planb.network/)** ：
+- 學習與教程：**[Plan ₿ Academy](https://planb.academy/)**：
  - 保護您的復原短語
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
-
-
-- Liquid Network** ：
- - [詞彙](https://planb.network/fr/resources/glossary/Liquid-network)**
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+- **Liquid Network**：
+- [詞彙](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
 
-- Lightning Network** ：
- - [詞彙](https://planb.network/fr/resources/glossary/lightning-network)**
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+- **Lightning Network**：
+- [詞彙](https://planb.academy/fr/resources/glossary/lightning-network)
+
+
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

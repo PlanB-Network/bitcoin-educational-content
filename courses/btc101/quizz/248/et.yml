@@ -1,9 +1,9 @@
-question: Mis on üks peamisi Bitcoin'i omadusi?
-answer: Seda saab vahetada üle kogu maailma ilma ühegi asutuse loata.
+question: Mis on üks peamisi põhjuseid, miks Bitcoin loodi?
+answer: Pakkuda katset muuta finantssüsteemi.
 wrong_answers:
-  - Seda saab kasutada ainult valitud inimeste poolt.
-  - Selle kasutamiseks on vajalik keskasutuse luba.
-  - Seda saab kasutada ainult teatud riikides.
+  - Pakkuda katset kaotada raha.
+  - Pakkuda katset luua uut tüüpi AI tehnoloogiat.
+  - Pakkuda katset kontrollida maailma rahvastikku.
 explanation: >-
-  Tekstis mainitakse, et Bitcoin on pseudonüümne ja seda saab vahetada üle kogu maailma ilma ühegi asutuse loata.
+  Tekstis mainitakse, et Satoshi lõi Bitcoini 2008. aastal, et pakkuda katset muuta finantssüsteemi.
 reviewed: false

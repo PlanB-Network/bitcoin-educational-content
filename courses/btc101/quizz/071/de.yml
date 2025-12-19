@@ -1,11 +1,12 @@
-question: In welchem Jahr wird das 7. Halving stattfinden?
-answer: 2036
+question: Welche dieser Optionen ist falsch bezüglich des Verlusts des Geräts, auf dem Sie Ihre Bitcoin-Wallet haben?
+answer: Sie können Ihre Wallet wiederherstellen und Ihre Bitcoins ausgeben, indem Sie Ihr Passwort zurücksetzen.
 wrong_answers:
-  - 2032
-  - 2028
-  - 2048
+  - Sie verlieren alle Ihre Bitcoins, wenn Sie die mnemonische Phrase nicht haben.
+  - Sie können mit Ihren öffentlichen Schlüsseln überprüfen, dass Ihre Bitcoins nicht ausgegeben wurden.
+  - Sie können Ihre Wallet wiederherstellen und Ihre Bitcoins mit der mnemonischen Phrase ausgeben.
 explanation: |
-  Das 7. Halving sollte im Jahr 2036 stattfinden, und die geschätzte
-  Anzahl von Bitcoin im Umlauf wird 20.835.937,5 betragen,
-  was ungefähr 99,22% der Gesamtversorgung entsprechen wird.
+  Der Verlust des Geräts, auf dem Sie Ihre Wallet haben, bedeutet nicht
+  notwendigerweise den Verlust Ihrer Bitcoins. Was es Ihnen ermöglicht,
+  Ihre Wallet wiederherzustellen und Ihre Bitcoins auszugeben, ist die
+  mnemonische Phrase.
 reviewed: true

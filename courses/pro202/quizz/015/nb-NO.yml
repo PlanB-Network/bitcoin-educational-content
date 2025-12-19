@@ -1,0 +1,8 @@
+question: Hva skjer med de aritmetiske operasjonene når elliptiske kurver defineres over endelige felt i stedet for reelle tall?
+answer: Alle operasjoner bruker modulær aritmetikk, samtidig som de samme algebraiske reglene opprettholdes
+wrong_answers:
+  - Formlene for punktaddering må skrives helt om for diskret matematikk
+  - Beregningene av helningen blir udefinerte på grunn av punktenes diskrete natur
+  - Alle algebraiske regler endres fundamentalt for å ta hensyn til strukturen i det endelige feltet
+explanation: |
+  Når elliptiske kurver flyttes fra reelle tall til endelige felt, forblir den underliggende algebraiske strukturen og reglene identiske - det er bare aritmetikken som endres til modulær aritmetikk. Alle punktadopsjonsformler, helningsberegninger og geometriske forhold fungerer på nøyaktig samme måte, men alle beregninger utføres modulo p. Denne bevaringen av algebraiske regler, samtidig som bare det aritmetiske grunnlaget endres, er det som gjør elliptiske kurver i endelige felt så effektive for kryptografi, fordi de opprettholder alle de matematiske egenskapene som trengs, samtidig som de skaper den diskrete, uforutsigbare oppførselen som er avgjørende for sikkerheten.

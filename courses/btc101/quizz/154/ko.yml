@@ -1,0 +1,8 @@
+question: Bitcoin Mining의 환경 비용에 대한 주요 우려 사항은 무엇인가요?
+answer: 에너지 소비량.
+wrong_answers:
+  - ASIC 생산.
+  - ASIC의 재활용.
+  - 전기 요금입니다.
+explanation: >-
+reviewed: true

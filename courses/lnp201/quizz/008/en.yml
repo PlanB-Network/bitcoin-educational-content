@@ -6,4 +6,4 @@ wrong_answers:
   - It is used only to send funds to public addresses.
 explanation: |
   A 2/2 multisignature address requires the signatures of both parties involved for the funds to be spent, which is used for the security of Lightning channels.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vad är determinism?
+answer: En världsbild där det varken finns tillfälligheter eller slump.
+wrong_answers:
+  - En världsbild som bestäms av Gud.
+  - En form av ateism.
+  - En vidskepelse.
+explanation: |
+  Determinism är en världsbild där det varken finns tillfälligheter eller slump. Varje händelse är en nödvändig följd av tidigare orsaker, enligt oföränderliga naturlagar.
+reviewed: false

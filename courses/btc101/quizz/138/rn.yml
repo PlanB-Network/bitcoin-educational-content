@@ -1,8 +1,11 @@
-question: Ni igiki gikorwa nyamukuru c’ibihimba vyo mu murongo wa Bitcoin?
-answer: Kubungabunga kopi ya Bitcoin Blockchain, kwemeza amafaranga, gutanga amakuru ku zindi nzira, no gukurikiza amategeko y’amasezerano ya Bitcoin.
+question: Intambara ya block yo muri 2017 yari ivuga iki?
+answer: Intambara ku bijanye no kwongera ubunini bw’ibarabara kugira ngo ubushobozi bwo gukorana bube bwinshi.
 wrong_answers:
-  - Gucungera kopi ya Bitcoin Blockchain, kwemeza amafaranga, gutanga amakuru kuri leta, no guhindura amategeko y’amasezerano ya Bitcoin.
-  - Gukomeza gusa kopi ya Bitcoin Blockchain.
-  - Gutanga amakuru ku zindi nzira gusa.
-explanation: >-
+  - Intambara ku bijanye no kugabanya ubunini bw’ibarabara kugira ngo ubushobozi bwo gukora bugabanuke.
+  - Intambara ku vyerekeye nimba bokwongerera Block reward kugira ngo abacukuzi b’amabuye y’agaciro batere intege.
+  - Intambara y’uko bogabanya Block reward kugira ngo abacukuzi ntibavyure umutima.
+explanation: |
+  Intambara y’amabuye yo mu 2017 yari intambara ku vyerekeye nimba
+  guhindura Bitcoin mu kwongera ubunini bw'ibarabara kugira ngo wagure
+  ubushobozi bwo gukora ibikorwa.
 reviewed: true

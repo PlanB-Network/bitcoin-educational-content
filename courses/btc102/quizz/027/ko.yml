@@ -1,0 +1,9 @@
+question: 2025년 Bitcoin core에는 몇 명의 유지 관리자가 있나요?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  2025년에는 5명의 관리자가 있습니다: 헤나디 스테파노프, 마이클 포드, 아바 차우, 글로리아 자오, 라이언 오프스키입니다.
+reviewed: false

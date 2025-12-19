@@ -1,0 +1,9 @@
+question: Millised on Sparrow kolm serverivalikut?
+answer: Avalik server, Bitcoin core, privaatne Electrum
+wrong_answers:
+  - RPC Direct, VPN, Tor
+  - Full node, kerge sõlme, mobiilne sõlme
+  - Core RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow pakub kolme serveri valikut: Avalik server, Bitcoin core (RPC) ja Private Electrum.
+reviewed: true

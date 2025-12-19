@@ -1,9 +1,9 @@
 question: Was ist das Hauptziel des paranoiden Bitcoiners?
-answer: Zum Schutz ihrer Privatsphäre
+answer: Schutz der Privatsphäre
 wrong_answers:
-  - Um schnell Satoshis zu sammeln
+  - Schnell Satoshis sammeln
   - Maximierung der Handelsgewinne
-  - Um ihre Bitcoins langfristig zu halten
+  - Bitcoins langfristig halten
 explanation: |
   Der paranoide Bitcoiner versucht in erster Linie, jede Rückverfolgbarkeit seiner Transaktionen und seiner Identität zu vermeiden.
 reviewed: false

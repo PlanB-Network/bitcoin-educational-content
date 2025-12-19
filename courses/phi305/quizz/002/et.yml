@@ -1,0 +1,9 @@
+question: Spinoza filosoofia eesmärk on?
+answer: Vabaduse saavutamine.
+wrong_answers:
+  - Teaduslikud teadmised.
+  - Ajaloolised teadmised.
+  - Filosoofilised ja moraalsed teadmised.
+explanation: |
+  Spinoza filosoofia lõppeesmärk on saavutada vabadus teadmiste ja mõistmise kaudu. Tema jaoks tuleneb tõeline vabadus meid määravate põhjuste mõistmisest ja vajalikkuse ratsionaalsest aktsepteerimisest.
+reviewed: false

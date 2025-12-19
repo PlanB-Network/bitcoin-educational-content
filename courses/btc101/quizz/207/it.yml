@@ -1,10 +1,12 @@
-question: Qual è uno dei potenziali rischi nel lasciare i propri Bitcoin su un exchange?
-answer: I rischi di hacking e blocco dei fondi.
+question: Cosa predisse Milton Friedman nel 1999?
+answer: Lo sviluppo di un e-cash affidabile.
 wrong_answers:
-  - Il rischio che la piattaforma aumenti il prezzo di Bitcoin.
-  - Il rischio che la piattaforma controlli l'offerta di Bitcoin.
-  - Il rischio che Bitcoin venga superato nel prezzo da una criptovaluta.
-explanation: >-
-  Il testo menziona che lasciare i propri Bitcoin su un exchange può
-  esporre a rischi di hacking e blocco dei fondi.
-reviewed: true
+  - La scomparsa del denaro fisico.
+  - L'ascesa di Bitcoin.
+  - La fine del controllo governativo sul denaro.
+explanation: |
+  Milton Friedman, un rinomato economista, predisse nel 1999
+  che sarebbe stato sviluppato presto un e-cash affidabile, un metodo
+  mediante il quale su Internet si sarebbero potuti trasferire fondi da A a B,
+  senza che A conosca B o viceversa.
+reviewed: vero

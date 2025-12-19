@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med Rust:s enumtyp Option<T>?
+answer: För att på ett säkert sätt representera värden som kanske eller kanske inte finns, vilket förhindrar nollpekarfel
+wrong_answers:
+  - Att lagra flera olika datatyper i en enda variabel utan typkontroll
+  - Så här skapar du valfria parametrar i funktionsdefinitioner som kan hoppas över under anrop
+  - Att tillhandahålla ett sätt att returnera flera möjliga feltyper från en enda funktion
+explanation: |
+  Option<T>-enumet fungerar som Rust:s lösning på problem med nollpekare genom att tvinga fram explicit hantering av saknade värden. Den har två varianter: Some(T) för närvarande värden och None för frånvarande värden. Kompilatorn kräver att du kontrollerar vilken variant du har innan du använder värdet, vilket förhindrar körtidsfel. I de felaktiga svaren förväxlas Option med andra begrepp: unioner/varianter (första), standardparametrar (andra) och resultattyper för felhantering (tredje).

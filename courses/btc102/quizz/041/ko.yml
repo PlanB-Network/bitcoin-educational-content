@@ -1,0 +1,9 @@
+question: 유통되는 비트코인의 대략적인 최대 Supply은 얼마인가요?
+answer: 2,100만
+wrong_answers:
+  - 1,000만
+  - 4,700만
+  - 1억 5천만
+explanation: |
+  Bitcoin은 약 2,100만 비트코인의 한정된 Supply를 보유하도록 프로그래밍되어 있습니다.
+reviewed: false

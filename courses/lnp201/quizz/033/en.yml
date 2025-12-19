@@ -6,4 +6,4 @@ wrong_answers:
   - To send funds to all nodes on the path simultaneously
 explanation: |
   Onion routing means that each intermediate node only knows the previous and the next node, thus preserving the confidentiality of the final recipient.
-reviewed: false
+reviewed: true

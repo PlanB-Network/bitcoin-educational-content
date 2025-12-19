@@ -1,0 +1,8 @@
+question: Koja je primarna arhitektonska prednost slojevitog pristupa UniFFI-ja prilikom integracije Rust biblioteka sa ciljnim jezicima kao što su Swift ili Kotlin?
+answer: Sloj povezivanja upravlja prevođenjem tipova i upravljanjem memorijom dok predstavlja potpuno izvorni interfejs ciljanom jeziku
+wrong_answers:
+  - UDL datoteka automatski kompajlira Rust kod u bajtkod koji može da se izvršava direktno na mobilnim platformama bez prevođenja
+  - Rust bibliotečki kod se automatski prepisuje u sintaksi ciljanog jezika kako bi se eliminisali svi pozivi stranih funkcija interfejsa
+  - Aplikacije ciljnog jezika direktno pristupaju Rust memorijskim strukturama putem deljenih pokazivača kako bi se izbeglo opterećenje prebacivanja podataka.
+explanation: |
+  Arhitektura UniFFI-ja stvara razdvajanje gde generisani kod za povezivanje deluje kao sloj za prevođenje između ciljanog jezika i Rust. Ovaj sloj obrađuje složeno marshaling/unmarshaling tipova podataka, bezbedno upravlja memorijom preko jezičkih granica i obezbeđuje rukovanje greškama u skladu sa konvencijama ciljanog jezika. Druge opcije su netačne jer UniFFI ne kompajlira u bajtkod (generiše povezivanja), ne prepisuje Rust kod na drugim jezicima (održava originalnu Rust implementaciju) i ne koristi pristup deljenoj memoriji (bezbedno maršalira podatke preko granica).

@@ -1,0 +1,9 @@
+question: Bitcoin 개발 메일링 리스트가 생성된 날짜는 언제인가요?
+answer: 2011년 6월 12일
+wrong_answers:
+  - 2011년 1월 13일
+  - 2011년 3월 7일
+  - 2011년 9월 19일
+explanation: |
+  개발자 제프 가직이 만든 이 포럼은 Bitcoin의 변경 사항에 대한 공식적인 논의를 위해 만들어졌습니다.
+reviewed: true

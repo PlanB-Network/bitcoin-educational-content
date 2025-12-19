@@ -1,8 +1,10 @@
-question: Šta je obrezani čvor u kontekstu Bitkoina?
-answer: Čvor koji u memoriji čuva samo poslednjih N blokova.
+question: Šta je Lightning mreža?
+answer: Mreža za instant plaćanja bitkoinom zasnovana na Bitkoin Blockchain-u.
 wrong_answers:
-  - Čvor koji samo validira transakcije.
-  - Čvor koji samo prenosi informacije drugim čvorovima.
-  - Čvor koji samo sprovodi pravila Bitkoin protokola.
-explanation: >-
+  - Posebna Blockchain mreža od Bitkoin Blockchain.
+  - Mreža Bitkoin rudara.
+  - Mreža Bitkoin razmena.
+explanation: |
+  Lightning mreža je instant Bitkoin platna mreža
+  koja se zasniva na Bitkoin Blockchain-u.
 reviewed: true

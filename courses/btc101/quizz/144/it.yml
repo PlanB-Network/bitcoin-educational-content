@@ -1,8 +1,11 @@
-question: Qual è il requisito di banda per eseguire un nodo Bitcoin, considerando 1 blocco di 1MB ogni 10 minuti?
-answer: Circa 5GB al mese.
+question: Cos'è la Proof of Work (POW)?
+answer: È il consenso di sicurezza del protocollo Bitcoin.
 wrong_answers:
-  - Circa 1GB al mese.
-  - Circa 10GB al mese.
-  - Circa 20GB al mese.
-explanation: Considerando 1 blocco di 1MB ogni 10 minuti, eseguire un nodo Bitcoin richiede circa 5GB al mese di banda.
-reviewed: vero
+  - È il processo di creazione di nuovi bitcoin.
+  - È il metodo di verifica delle transazioni Bitcoin.
+  - È l'algoritmo utilizzato per minare i bitcoin.
+explanation: >-
+  La Proof of Work è un algoritmo di consenso utilizzato nella rete Bitcoin
+  per validare le transazioni e creare nuovi blocchi. Richiede ai miner di risolvere problemi
+  matematici complessi, garantendo la sicurezza e l'integrità della rete.
+reviewed: true

@@ -10,4 +10,4 @@ A distribuição retrospetiva, por outro lado, é o rácio entre o anonimato ret
 
 Estes dois indicadores são utilizados para avaliar a eficácia da mistura da sua peça relativamente ao potencial oferecido pelo pool. Um spread prospetivo baixo, como 5%, indica uma margem significativa para possíveis melhorias através de misturas adicionais. Por outro lado, um spread prospetivo elevado, como 97%, significa que pouco anonset adicional pode ser obtido com coinjoins adicionais.
 
-> ► *Em inglês, "spread" poderia ser traduzido como "taxa de difusão" ou "taxa de propagação"
+> ► *Em inglês, "spread" poderia ser traduzido como "taxa de difusão" ou "taxa de propagação"*

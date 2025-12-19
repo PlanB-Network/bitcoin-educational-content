@@ -1,11 +1,9 @@
-question: Mengapa Bitcoin belum banyak diterima dalam perdagangan saat ini?
-answer: Karena belum banyak diadopsi oleh individu
+question: Apa keuntungan utama emas sebagai mata uang?
+answer: Sangat tahan lama
 wrong_answers:
-  - Karena tidak dapat dipindahkan
-  - Karena tidak dapat dibagi
-  - Karena tidak likuid
+  - Mudah dibagi atau diangkut jarak jauh
+  - Mudah diverifikasi
+  - Tidak diatur oleh pemerintah
 explanation: |
-  Meskipun memiliki sifat-sifat seperti pasokan yang sangat terbatas, Bitcoin
-  masih belum banyak diterima dalam perdagangan saat ini. Hal ini disebabkan oleh kurangnya
-  adopsi oleh individu, menciptakan situasi yang memakan diri sendiri karena pedagang juga merupakan individu.
+  Meskipun emas tidak mudah dibagi atau diangkut jarak jauh, hal ini membuatnya menjadi penyimpan nilai yang baik, tetapi bukan mata uang umum saat ini.
 reviewed: true

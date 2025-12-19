@@ -1,0 +1,9 @@
+question: Jaki jest najprostszy sposób na połączenie mobilnego Wallet z Electrs przez Umbrel?
+answer: Zeskanuj kod QR Tor
+wrong_answers:
+  - Pobieranie pliku cookie
+  - Import klucza prywatnego
+  - Skopiuj plik Wallet.dat
+explanation: |
+  Umbrel umożliwia bezpośrednie zeskanowanie kodu QR Tora dostarczonego przez Electrs w celu skonfigurowania połączenia mobilnego.
+reviewed: true

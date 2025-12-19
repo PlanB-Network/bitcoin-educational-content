@@ -1,0 +1,9 @@
+question: Ni nde yari umucungerezi mukuru wa nyuma wa Bitcoin core imbere y’uko uwo murimo ukurwaho mu 2023?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavini Andresen
+  - Piteri Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan niwe yari afise iyo nshingano kuva mu mwaka w’2014 gushika mu mwaka w’2023, akurikiye Gavin Andresen, akaba yari imbere y’uko iyo nshingano ihagarara.
+reviewed: true

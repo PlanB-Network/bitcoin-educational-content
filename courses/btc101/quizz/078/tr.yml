@@ -1,12 +1,13 @@
-question: Bitcoin Wallet'inizin bulunduğu cihazı kaybetmekle ilgili bu seçeneklerden hangisi yanlıştır?
-answer: Şifrenizi sıfırlayarak Wallet'ünüzü yeniden oluşturabilir ve Bitcoin'nizi harcayabilirsiniz.
+question: Hot Wallet nedir?
+answer: Telefonunuzda veya internete bağlı bilgisayarınızda bir Bitcoin Wallet.
 wrong_answers:
-  - Mnemonic ifadesine sahip değilseniz tüm Bitcoin'lerinizi kaybedersiniz.
-  - Açık anahtarlarınızla bitcoinlerinizin harcanmadığını doğrulayabilirsiniz.
-  - Wallet'nizi yeniden oluşturabilir ve Bitcoin'nızı Mnemonic ifadesini kullanarak harcayabilirsiniz.
+  - Dokunulduğunda fiziksel olarak Hot olan bir Wallet.
+  - Bitcoin kullanıcıları arasında popüler olan bir Wallet.
+  - Büyük miktarlarda bitcoin depolamak için önerilen bir Wallet.
 explanation: |
-  Wallet'unuzun bulunduğu cihazı kaybetmeniz
-  mutlaka Bitcoin'lerinizin kaybı anlamına gelir. Size ne sağlar
-  gW-10'unuzu yeniden yaratmak ve Bitcoin'unuzu harcamak için
-  Mnemonic cümlesi.
+  Hot Wallet, Bitcoin Wallet'u tanımlamak için kullanılan bir terimdir
+  gibi internet erişimi olan bir cihazda depolanan
+  telefon veya bilgisayar. Bu şekilde, yürütmek kolaydır
+  işlemler, ancak aynı zamanda Wallet'un
+  potansiyel olarak çevrimiçi tehditlere karşı savunmasızdır.
 reviewed: true

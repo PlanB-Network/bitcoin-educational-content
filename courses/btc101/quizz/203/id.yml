@@ -1,11 +1,10 @@
-question: Apa yang harus Anda lakukan setelah membeli Bitcoin di platform pertukaran?
-answer: Tarik Bitcoin ke dompet Anda.
+question: Negara mana yang telah mendeklarasikan Bitcoin sebagai alat pembayaran yang sah?
+answer: El Salvador
 wrong_answers:
-  - Biarkan saja di platform tersebut.
-  - Jual segera.
-  - Transfer ke platform lain.
+  - Amerika Serikat
+  - Cina
+  - India
 explanation: >-
-  Teks ini menyarankan bahwa setelah membeli Bitcoin, disarankan untuk segera
-  menarik Bitcoin dari platform pertukaran untuk meminimalisir risiko peretasan
-  dan pemblokiran dana.
+  El Salvador telah mengambil langkah berani dengan mengadopsi Bitcoin secara keseluruhan,
+  mendeklarasikannya sebagai alat pembayaran yang sah.
 reviewed: false

@@ -1,114 +1,150 @@
 ---
-name: Breez försäljningsställe
-
-description: Guide för att börja acceptera Bitcoin med Breez POS
+name: Breez - POS
+description: Breez gör det enkelt att samla in bitcoinbetalningar för ditt företag.
 ---
 
 ![cover](assets/cover.webp)
 
-_Den här texten kommer från webbplatsen för Breez-dokumentation: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
 
-## Vad är Breez POS?
+Sedan covid-19-pandemin har kontaktlösa digitala betalningar blivit vanliga, även i de minsta butikerna. Under denna period har många företag upptäckt hur praktiskt det är med bitcoin cash-lösningar som gör det möjligt för dem att ta emot betalningar från hela världen. Dessa lösningar är dock ibland svåra att använda eller olämpliga för små företag. I den här handledningen tittar vi på Breez betalterminal, en lösning som sticker ut för sin användarvänlighet, samtidigt som den ger dig total kontroll över hanteringen av dina bitcoins.
 
 
-**Breez** är en fullservice, icke-vårdnadshavande blixtapp. Låt oss bryta ner det:
 
+## Installera Breez POS
 
 
-- Lightning** är ett Bitcoin-betalningsnätverk som minskar transaktionstiderna från minuter till millisekunder och transaktionsavgifterna från flera dollar till några cent eller mindre. Lightning förvandlar Bitcoin från digitalt guld till digital valuta samtidigt som alla de fördelar som gör Bitcoin fantastiskt bevaras.
-- Non-custodial** innebär att Breez inte tar användarnas pengar i besittning. Många Lightning-appar tar sina användares pengar i besittning. De är i princip Bitcoin-banker. Med en icke-vårdnadshavande app som Breez är alla användare sina egna banker.
-- Fullservice** innebär att Breez tar hand om nästan alla tekniska operationer automatiskt och i bakgrunden. Saker som skapande av kanaler, inkommande likviditet och routing stannar under huven. (Men Breez är också öppen källkod, så de som är intresserade av att granska tekniken är välkomna att göra det!)
 
+Breez POS är en självförvaltande tjänst som tillhandahålls av Breez wallet. Syftet med denna tjänst är att göra det möjligt för handlare att samla in betalningar via Bitcoin samtidigt som de behåller ett enkelt gränssnitt, mycket likt de olika Lightning-plånböckerna. Breez POS finns tillgängligt på nedladdningsplattformarna [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) och [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
 
-**Breez POS** är en förkortning för vårt försäljningsställeläge. Med andra ord fungerar Breez som ett digitalt kassaregister för företag och handlare som vill acceptera Lightning-betalningar (utöver sitt "standard"-läge, som är som den digitala versionen av en Wallet i läder för Bitcoin och en nästa generations podcastspelare). Låt oss nu titta på hur du ställer in Breez som ett Lightning-kassaregister för ditt företag.
 
 
-## Hur kommer man igång med Breez?
+![download](assets/fr/01.webp)
 
 
-1. Det första steget är att ladda ner appen. Den finns tillgänglig för Android och iOS (installera TestFlight och klicka på länken från din enhet).
 
-2. Breez kan säkerhetskopiera sig själv automatiskt till Google Drive, iCloud eller någon WebDav-server.
+![setup](assets/fr/12.webp)
 
-** Notera:** varje enhet kör sin egen Lightning-nod. Du kan köra POS-läge på så många enheter som du vill, men saldona förblir separata.
 
-3. När appen är öppen klickar du på ikonen längst upp till vänster för att hitta Point of Sale-läget.
 
+⚠️ Det är viktigt att notera att dessa applikationer fortfarande är under utveckling och att det kan förekomma vissa fel i användningen av funktionerna. Vi rekommenderar måttlig användning.
 
-## Inställning av POS
 
 
-För att ställa in POS klickar du på ikonen längst upp till vänster och sedan på Point of Sale > POS-inställningar.
+Med denna applikation ger Breez dig fullständig kontroll över nätverkskonfigurationer och avgiftsinställningar, samtidigt som du garanterar din suveränitet i hanteringen av dina bitcoins.
 
 
-### Chefens lösenord
 
+Du kan utforska de olika Breez wallet-alternativen genom att följa vår handledning nedan. Detta steg hjälper dig att bättre förstå ekosystemet för försäljningsställen och anta bästa praxis för att effektivt säkra bitcoins som är associerade med din seed.
 
-I POS-inställningarna har du möjlighet att skapa ett lösenord för chefen. Lösenordet för chefen gör det omöjligt att skicka utgående betalningar från Breez-appen utan tillstånd. Säljpersonal kommer endast att kunna ta emot betalningar från enheten. Observera att om du använder det här alternativet kanske du också vill förhindra åtkomst till Breez backup, så att använda ett externt WebDav-konto (t.ex. Nextcloud) rekommenderas för detta användningsfall.
 
 
-### Föremålslistan
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Artikelförteckningen är en katalog över artiklar som är till salu och deras priser. Det finns två sätt att lägga till artiklar i listan:
 
+## Använda Breez POS
 
 
-- Om du vill ange artiklar en i taget klickar du på Artiklar längst upp i POS-huvudvyn och sedan på "+"-tecknet längst ned till höger. Här kan du ange namnet på en enskild typ av artikel, priset (visas i den valuta du väljer) och SKU (en unik intern identifierare för den typen av artikel; den är valfri).
-- Om du vill ange många artiklar samtidigt klickar du på kalkylatorikonen längst upp till vänster, sedan på Point of Sale > Preferences > POS Settings och sedan på de tre punkterna till höger om Items List och sedan på Import from CSV. Då kan du importera en CSV-fil som du har förberett i förväg och som innehåller namn, priser och SKU:er för dina artiklar.
 
+I den här handledningen fokuserar vi på avsnittet "*Point-of-Sale*" för att hjälpa dig att förstå hur du integrerar det som ett betalningsmedel i ditt företag.
 
-### Fiat Display
 
 
-Breez skickar och tar bara emot Bitcoin, och för de flesta transaktioner på Lightning, som tenderar att vara för mindre belopp, visas summan vanligtvis i Satoshis, även känt som Sats (1 BTC = 100 000 000 Sats). Många handlare tycker dock att det är praktiskt att kunna se (och berätta för kunderna) värdet av köpet i den lokala fiatvalutan.
+Försäljningsstället är en integrerad del av Breez-portföljen och förlitar sig främst på Lightning Network för att samla in betalningar.
 
 
-I POS-huvudvyn visas den valuta som för närvarande visas till höger (standard är SAT). Det finns också en rullgardinslista med andra valutor som kan visas. Om du vill lägga till eller ta bort valutor från den här rullgardinslistan klickar du på Point of Sale > Preferences > Fiat Currencies. Markera sedan de valutor som du vill ha i rullgardinsmenyn och avmarkera dem som du inte vill ha med.
 
+I menyn "*Point of Sale*" har du ett direkt gränssnitt för att ta emot betalningar. Det är indelat i två delar:
 
-De värden som visas kommer från yadio, en respekterad källa för Exchange-ränteuppgifter, och de uppdateras nästan i realtid. Men kom ihåg: oavsett vilket valutavärde som för närvarande visas, är själva betalningen i Bitcoin.
 
 
-### Debitering av en order
+### Direktdebitering
 
 
-För att komponera ordern kan du antingen lägga till artiklar från artikellistan eller helt enkelt ange en summa i knappsatsen. Klicka sedan på Charge högst upp i POS-huvudvyn. Du kommer då att se en QR-kod som kunden kan skanna med sin Lightning-app, som du kan dela direkt från en annan app på din enhet eller som du kan kopiera och klistra in där det behövs.
 
+Den första delen är tangentbordet för direktdebitering. Det här gränssnittet är praktiskt för att samla in en betalning i sin helhet när du känner till dina kunders totala inköp, eller när du inte behöver en fast produktkatalog i ditt företag (t.ex. frilanstjänster).
 
-När kunden skannar koden eller klickar på den delade/klistrade Invoice:an ser kunden Invoice:an i sin Lightning-app och har möjlighet att betala den och reglera transaktionen omedelbart.
 
 
-När du ser animationen Betalning godkänd! i Breez-appen på handlarens enhet kan du klicka på skrivarikonen för att generate ett kvitto till kunden. Om du vill använda en kvittoskrivare i Android kan du prova att använda den här drivrutinen. Observera att du också kan skriva ut tidigare transaktioner via skärmen Transaktioner.
+![keyboard](assets/fr/02.webp)
 
 
-### Försäljningsrapport
 
+För att använda Breez POS för första gången måste du betala över 2 500 satoshis (cirka 3 euro enligt dagens växelkurs). Detta belopp, som endast betalas vid din första utbetalning, motsvarar kostnaden för att skapa en betalningskanal så att du kan kommunicera med andra Lightning Network-noder och skicka och ta emot satoshis.
 
-Om du vill visa en daglig, veckovis och/eller månatlig rapport över din försäljning (för bokföringsändamål eller annat) klickar du på ikonen längst upp till vänster och sedan på Transaktioner. Klicka på rapportikonen för att visa rapporten och på kalenderikonen för att ändra det valda datumintervallet.
 
 
-### Exportera transaktioner
+![channel_fee](assets/fr/03.webp)
 
 
-För att se en lista över de betalningar som mottagits i Breez, klicka på ikonen längst upp till vänster och klicka sedan på Transaktioner. Klicka på de tre prickarna uppe till höger och sedan på Export för att exportera en lista över inkommande betalningar i CSV-format. Om du vill begränsa listan till en viss tidsperiod klickar du på kalenderikonen för att ange ett datumintervall.
+### Produktkatalog
 
 
-### Skriva ut kvitton
 
+Den andra delen är produktkatalogen. Det här gränssnittet är perfekt när du har en produktkatalog med fördefinierade priser. Här kan du förkonfigurera dina produkter och sedan använda dem till generate-fakturor för att förbättra spårbarheten för dina kassakvitton.
 
-Om du vill skriva ut ett försäljningskvitto klickar du på utskriftsikonen längst upp till höger i dialogrutan för betalningsbekräftelse. Alternativt kan du klicka på ikonen längst upp till vänster och sedan klicka på Transaktioner. Leta reda på försäljningen som ska skrivas ut, öppna den och klicka på utskriftsikonen uppe till höger.
 
 
-**Använd den här drivrutinen för att skriva ut på en bärbar 58 mm/80 mm Bluetooth/USB-termoskrivare.
+![items](assets/fr/04.webp)
 
 
-## Jag vill lära mig mer
 
+Du kan manuellt konfigurera varje artikel från detta gränssnitt genom att klicka på knappen "**Plus**" och sedan definiera namn, pris och en identifierare för denna artikel.
 
 
-- För mer information om Lightning and Breez, besök vår [blogg](https://breez.technology/blog).
-- Mer tekniska tips om hur du får ut mesta möjliga av appen och utför vanliga åtgärder finns i vår [dokumentation] (https://breez.technology/documentation).
-- Om du kör fast och inte hittar svaret i någon av våra hjälplitteraturer kan du nå oss på [Telegram] (https://t.me/breez_labs) eller skicka ett [e-postmeddelande] (mailto:support@breez.technology).
-- Om du vill se några demonstrationsvideor av Breez POS-läget i aktion gjorda av våra fans och användare, [här](https://www.youtube.com/watch?v=xxxx) är en bra kort video, och [här](https://www.youtube.com/watch?v=xxxx) är en längre, mer detaljerad video.
+
+![add_items](assets/fr/05.webp)
+
+
+
+Du kan sedan lägga till den och definiera dess kvantitet för att samla in den tillhörande betalningen.
+
+
+
+När din katalog är ganska stor kan det bli komplicerat att lägga till dina produkter en efter en. För detta ändamål kan du i avsnittet **Preferences > Point of Sale Settings**, från menyn "Artikelförteckning", automatiskt importera och exportera din artikelförteckning från CSV-filer.
+
+
+
+![import](assets/fr/07.webp)
+
+
+
+I samma avsnitt kan du definiera giltighetstiden för dina Lightning-fakturor. Från och med nu har dina kunder `N` sekunder på sig att betala för alla dina fakturor, annars måste du skapa en ny Lightning-faktura.
+
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+
+Som chef kan du stärka säkerheten för dina bitcoins genom att lägga till ett lösenord som kommer att krävas för alla utgående betalningar från din wallet. Den här funktionen är särskilt användbar när du inte är den enda som hanterar ditt uttag.
+
+
+
+![manager](assets/fr/09.webp)
+
+
+
+I menyn **Transactions** hittar du en lista över alla betalningar som du har samlat in. Du kan också filtrera resultaten för en viss period genom att klicka på knappen **Calendar**.
+
+
+
+![transactions](assets/fr/10.webp)
+
+
+
+Du kan också se en daglig sammanfattning av din försäljning och det totala beloppet som samlats in genom att klicka på knappen **Document**.
+
+
+
+![summary](assets/fr/11.webp)
+
+
+
+Du har nu en fullständig förståelse för den kassa som erbjuds av Breez-applikationen för sömlös integrering av Bitcoin i ditt företag. Om du tyckte att denna handledning var användbar rekommenderar vi vår handledning om be-BOP, en e-handelsplattform som låter dig ta emot betalningar i bitcoins och tjäna pengar på ditt företag.
+
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

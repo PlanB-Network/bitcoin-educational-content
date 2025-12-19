@@ -1,0 +1,9 @@
+question: Quale componente è consigliato per proteggere un nodo in caso di interruzione dell'alimentazione?
+answer: Un inverter
+wrong_answers:
+  - Una seconda scheda grafica
+  - Un router aggiuntivo
+  - Un hub USB
+explanation: |
+  Un inverter impedisce arresti improvvisi in caso di interruzione dell'alimentazione e protegge la stabilità del nodo.
+reviewed: true

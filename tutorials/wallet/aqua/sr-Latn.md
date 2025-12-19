@@ -111,7 +111,7 @@ U istom meniju postavki, možete takođe promeniti jezik aplikacije i fiat valut
 Pre nego što primite svoje prve bitkoine u vaš Wallet, **snažno vam savetujem da izvršite test praznog oporavka**. Zabeležite neke referentne informacije, kao što su vaš xpub ili prvo primanje Address, zatim obrišite vaš Wallet na Aqua aplikaciji dok je još uvek prazan. Zatim pokušajte da obnovite vaš Wallet na Aqua koristeći vaše papirne rezervne kopije. Proverite da li informacije o kolačićima generisane nakon obnove odgovaraju onima koje ste prvobitno zapisali. Ako odgovaraju, možete biti sigurni da su vaše papirne rezervne kopije pouzdane. Da biste saznali više o tome kako izvršiti test oporavka, molimo vas da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Ne možete to videti na mom ekranu jer koristim emulator, ali u podešavanjima ćete pronaći opciju za zaključavanje aplikacije pomoću biometrijskog sistema autentifikacije. Toplo preporučujem da omogućite ovu sigurnosnu funkciju jer, bez nje, bilo ko ko ima pristup vašem otključanom telefonu mogao bi da ukrade vaše bitkoine. Možete koristiti Face ID na iOS-u ili otisak prsta na Androidu. Ako ove metode zakažu tokom autentifikacije, i dalje možete pristupiti aplikaciji koristeći PIN kod vašeg telefona.
 
@@ -284,4 +284,4 @@ Ako ste našli ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green p
 Takođe vam preporučujem da pogledate ovaj drugi sveobuhvatni vodič o mobilnoj aplikaciji Blockstream Green, koja je još jedno zanimljivo rešenje za postavljanje vašeg Liquid Wallet :
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a

@@ -1,0 +1,9 @@
+question: Kiedy użytkownik musi zainstalować indeksator?
+answer: Aby uruchomić Block explorer
+wrong_answers:
+  - Dla samych bloków Mining
+  - Aby aktywować Lightning Network
+  - Aby podpisać transakcje
+explanation: |
+  Indeksator staje się niezbędny do zaawansowanych zastosowań, takich jak lokalny eksplorator.
+reviewed: true

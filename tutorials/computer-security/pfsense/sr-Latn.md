@@ -111,9 +111,9 @@ Za standardno raspoređivanje, preporučujemo:
 
 
 
-- 1 GB RAM** minimum (preporučeno je 2 GB ili više za omogućavanje dodatnih paketa ili podrške za ZFS).
-- 8 GB disk prostora** (20 GB ili više je poželjno za naprednije konfiguracije, posebno ako instalirate proxy keš, IDS/IPS ili detaljne logove).
-- Najmanje dva virtuelna mrežna interfejsa** (jedan za WAN, jedan za LAN). U VirtualBox-u, dodajte ih u podešavanja VM-a pre pokretanja.
+- 1 GB RAM minimum (preporučeno je **2 GB ili više** za omogućavanje dodatnih paketa ili podrške za ZFS).
+- 8 GB disk prostora (20 GB ili više je poželjno za naprednije konfiguracije, posebno ako instalirate proxy keš, IDS/IPS ili detaljne logove).
+- Najmanje dva virtuelna mrežna interfejsa (jedan za WAN, jedan za LAN). U VirtualBox-u, dodajte ih u podešavanja VM-a pre pokretanja.
 
 
 
@@ -309,8 +309,8 @@ Pojavljuje se ekran za prijavu. Podrazumevane akreditive su:
 
 
 
-- Korisničko ime:** `admin`
-- Lozinka:** `pfsense`
+- **Korisničko ime:** `admin`
+- **Lozinka:** `pfsense`
 
 
 
@@ -429,10 +429,10 @@ Da završite svoje raspoređivanje s mirom u duši:
 
 
 
-- Izmeni pravila vatrozida**: po podrazumevanim postavkama, pfSense dozvoljava sav odlazni saobraćaj na LAN-u i blokira dolazni saobraćaj na WAN-u. Prilagodi ova pravila prema potrebi.
-- Konfigurišite siguran daljinski pristup**: ako je potrebno, omogućite pristup Interface webu sa WAN-a samo putem VPN-a ili sa IP ograničenjima.
-- Omogući obaveštenja**: konfiguriši SMTP server za primanje upozorenja (neuspesi, ažuriranja, greške).
-- Instalirajte korisne ekstenzije**: na primer, IDS/IPS (Snort, Suricata), proxy (Squid), DNS filtriranje (pfBlockerNG).
+- **Izmeni pravila vatrozida**: po podrazumevanim postavkama, pfSense dozvoljava sav odlazni saobraćaj na LAN-u i blokira dolazni saobraćaj na WAN-u. Prilagodi ova pravila prema potrebi.
+- **Konfigurišite siguran daljinski pristup**: ako je potrebno, omogućite pristup Interface webu sa WAN-a samo putem VPN-a ili sa IP ograničenjima.
+- **Omogući obaveštenja**: konfiguriši SMTP server za primanje upozorenja (neuspesi, ažuriranja, greške).
+- Instalirajte korisne ekstenzije: na primer, IDS/IPS (Snort, Suricata), proxy (Squid), DNS filtriranje (pfBlockerNG).
 
 
 

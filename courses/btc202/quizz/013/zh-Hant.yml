@@ -1,0 +1,9 @@
+question: 現今使用何種設備來有效率地開採 Bitcoin？
+answer: ASIC
+wrong_answers:
+  - 經典 CPU
+  - GPU
+  - FPGA
+explanation: |
+  今天，Bitcoin Mining 使用 ASIC 進行。這些是 SHA-256 演算法的專用晶片。
+reviewed: true

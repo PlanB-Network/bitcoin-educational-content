@@ -12,7 +12,8 @@ _Mafunzo haya yameandikwa na_ [Kampasi ya Bitcoin](https://linktr.ee/bitcoincamp
 
 ## Sats.Mobi
 
-SatsMobi ni Wallet inayofanya kazi kwenye Telegram, inayoangazia utendaji wote wa Lightning Network (uhifadhi) Wallet, pamoja na mfululizo wa vipengele vya kuburudisha sana. Ilitoka kwa Fork ya LightningTipBot ambayo haitumiwi sasa, ikirithi sifa zake zote huku ikiongeza za sasa zaidi, na hivyo kuifanya kuwa ya kisasa zaidi. Kama vile LNTipBot, Sats.Mobi pia inakumbatia falsafa ya chanzo huria. Wallet inaweza kusanidiwa na kudhibitiwa kwa kujitegemea kwa kuiiga kutoka kwa [hazina] (https://github.com/massmux/SatsMobiBot).
+SatsMobi ni Wallet inayofanya kazi ndani ya Telegram, inayoangazia utendaji kamili wa Wallet ya Lightning Network (ya kuhifadhi), pamoja na mfululizo wa elementi za kuburudisha sana. Imetokana na Fork ya LightningTipBot ambayo haitumiki tena, ikirithi sifa zake zote huku ikiongeza element za kisasa zaidi, na hivyo kuifanya kuwa ya kisasa zaidi. Kama LNTipBot, SatsMobi pia inakumbatia falsafa ya chanzo huria. Wallet hii inaweza kusanidiwa na kudhibitiwa kwa kujitegemea kwa kuiiga kutoka kwa [hazina].
+ (https://github.com/massmux/SatsMobiBot).
 
 
 Ikiwa unapendelea kuitumia kwa urahisi, kuanzisha gumzo kwenye Telegraph kutaonyesha kuwa ni roboti.
@@ -47,19 +48,19 @@ Sasa chagua _/help_ kati ya amri kuu.
 ![image](assets/it/04.webp)
 
 
-Sats.Mobi inatukaribisha kwa kutuonyesha ujumbe, ikiorodhesha utendakazi wote kuu. Baada ya kuanza, bot pia iliunda LN Address, iliyounganishwa na mpini uliochaguliwa kwenye Telegraph (ambayo ni ya kipekee kwa chaguo-msingi). Amri za kutuma na kupokea Sats na Wallet hii zinaonekana, pamoja na kazi zingine tutaona baadaye. Inafurahisha pia kuangalia menyu ya _/advanced_
+Sats.Mobi inatukaribisha kwa kutuonyesha ujumbe unaoainisha utendakazi wake mkuu. Baada ya kuanza, bot huunda pia LN Address inayohusishwa na mpini uliochaguliwa kwenye Telegram (ambayo ni ya kipekee kwa chaguo-msingi). Amri za kutuma na kupokea Sats kupitia Wallet hii zinaonekana wazi, pamoja na kazi nyingine tutakazochunguza baadaye. Inavutia pia kuangalia menyu ya _/advanced_.
 
 
 ![image](assets/it/05.webp)
 
 
-Inafahamika kuwa Sats.Mobi pia iliunda LN Address isiyojulikana, ili itumike kupata faragha. Boti inafanya kazi na amri: bonyeza tu kwenye neno linalolingana, au chapa kufyeka "/" kwenye upau wa ujumbe, ikifuatiwa na amri unayotaka kutekeleza. Hata kama Wallet imeundwa hivi punde, chagua kwa mfano _/transactions_
+Inafahamika kuwa Sats.Mobi pia iliunda LN Address isiyojulikana, ili itumike kupata faragha. Boti inafanya kazi na amri: bonyeza tu kwenye neno linalolingana, au chapa kufyeka "/" kwenye upau wa ujumbe, ikifuatiwa na amri unayotaka kutekeleza. Hata kama Wallet imeundwa hivi punde, chagua kwa mfano _/transactions_.
 
 
 ![image](assets/it/06.webp)
 
 
-Amri hii inaonyesha orodha ya shughuli za hivi karibuni, katika kesi hii ni sawa na sifuri.
+Amri hii inaonyesha orodha ya miamala za hivi karibuni, katika kesi hii ni sawa na sifuri.
 
 
 ![image](assets/it/07.webp)
@@ -67,7 +68,8 @@ Amri hii inaonyesha orodha ya shughuli za hivi karibuni, katika kesi hii ni sawa
 
 ## Inapokea Sats
 
-Amri ya kuunda Invoice na kupokea Sats ni _/ ankara_. Sats.Mobi inafanya kazi pekee katika Satoshi, kitengo kidogo zaidi cha Bitcoin; kwa hiyo, ili kuunda Invoice, ni muhimu kuandika kiasi katika Sats kwenye bar ya ujumbe na kisha kuituma kwenye mazungumzo na bot.
+Amri ya kuunda Invoice ya kupokea Sats ni _/ankara_. Sats.Mobi hutumia Satoshi pekee—kitengo kidogo zaidi cha Bitcoin. Kwa hivyo, ili kuunda Invoice, andika kiasi cha Sats unachotaka kupokea kwenye upau wa ujumbe kisha kitume moja kwa moja kwenye mazungumzo na bot.
+
 
 ![image](assets/it/08.webp)
 
@@ -87,7 +89,7 @@ Baada ya muda mchache wa kusubiri Invoice kutayarishwa, inapatikana kama maandis
 ## Inatuma Sats
 
 
-Ingawa Sats ni mali ya thamani sana, ambayo mtu hatakiwi kuiacha kwa urahisi, Sats.Mobi hufanya sehemu hii kuvutia, kufanya majaribio mafupi (yaani, miamala kadhaa ya majaribio) haitakuwa tatizo.
+Ingawa Sats ni mali ya thamani sana, ambayo mtu hatakikani kuiacha kwa urahisi, Sats.Mobi hufanya sehemu hii kuvutia, kufanya majaribio mafupi (yaani, miamala kadhaa ya majaribio) haitakuwa tatizo.
 
 
 ### Kulipa Invoice
@@ -105,10 +107,11 @@ Wallet hutuma ujumbe kuomba uthibitisho. Kwa kubofya _Pay_, Invoice inalipwa.
 ![image](assets/it/12.webp)
 
 
-Sats.Mobi inaweza kutegemea nodi ya Umeme yenye ufanisi na iliyounganishwa vyema, ni mara chache sana malipo hushindwa kwa sababu huwa inafanikiwa kupata uelekezaji sahihi.
+Sats.Mobi hutegemea node ya Lightning yenye ufanisi na iliyounganishwa vyema, hivyo ni nadra sana kuona malipo yakishindwa, kwa kuwa kawaida hupata mwelekeo sahihi kwa haraka.
 
 
 ### Kulipa kwa raha kutoka kwa rununu
+
 
 
 Kuvinjari kwenye Telegram, Sats.Mobi inapatikana pia kwenye simu ya mkononi. Kazi rahisi zaidi ya kulipa na simu ni skanning msimbo wa QR, lakini Wallet hii haina kwa kubuni, kwa kuwa sio programu ya kujitegemea lakini iko kwenye mtandao wa kijamii. Kwa hivyo Sats.Mobi imeratibiwa kuwezesha utumiaji wa simu kadiri inavyowezekana: inaweza kusimbua picha, kama picha iliyopigwa ya msimbo wa QR wa Invoice unayotaka kulipa.
@@ -120,7 +123,7 @@ Tuseme, kwa mfano, unataka kulipa Invoice ya 50 Sats.
 ![image](assets/it/20.webp)
 
 
-Hii inapoonyeshwa kwetu, tunaweza kupiga picha ya msimbo wa QR unaohusiana.
+Mara tu msimbo wa QR unapojitokeza, tunaweza kupiga picha yake ili kuitumia baadaye tunapotaka kulipa.
 
 
 ![image](assets/it/21.webp)
@@ -137,7 +140,7 @@ Mara baada ya kuchaguliwa, tunaituma kwa bot:
 
 ![image](assets/it/23.webp)
 
-Sats.Mobi inasimbua picha na **inawasilisha ombi la malipo mara moja**, ikiwa na maelezo sahihi. Gumzo linaomba uthibitisho, ili kuendelea lazima ubonyeze _/pay_
+Sats.Mobi husoma picha na **kuwasilisha ombi la malipo papo hapo**, likiwa na maelezo sahihi ya Invoice. Kisha, bot huomba uthibitisho wa malipo—ili kuendelea, bonyeza _/pay_.
 
 ![image](assets/it/24.webp)
 
@@ -148,7 +151,7 @@ Tafadhali subiri kidogo ili kuruhusu malipo kuchakatwa.
 ![image](assets/it/25.webp)
 
 
-Invoice kwa 50 Sats imelipwa, matokeo yaliyopatikana bila matumizi ya kamera na kazi yake ya skanning jumuishi.
+Invoice ya 50 Sats imelipwa, na matokeo haya yamepatikana bila kutumia kamera au element yake ya scanning ya moja kwa moja.
 
 
 ### Sats.Mobi katika Vikundi vya Telegraph
@@ -157,9 +160,9 @@ Invoice kwa 50 Sats imelipwa, matokeo yaliyopatikana bila matumizi ya kamera na 
 ![image](assets/it/27.webp)
 
 
-Miongoni mwa vipengele vilivyoifanya LNTipBot kuwa maarufu na ambayo Sats.Mobi inaleta kwenye Telegram, ni kile kinachofanya uzoefu kuwa wa kufurahisha na mwingiliano kwa wanachama katika kikundi.
+Miongoni mwa elements zilizofanya LNTipBot kuwa maarufu—na ambazo Sats.Mobi inaleta ndani ya Telegram—ni zile zinazofanya matumizi ya kikundi yawe ya kufurahisha na ya mwingiliano kwa wanachama.
 
-Wamiliki wanaweza kualika roboti ijiunge na gumzo la kikundi kisha kuteua Sats.Mobi kama msimamizi. Kuanzia wakati huo na kuendelea, furaha huanza, kwa sababu washiriki wanaweza kuanza kuwatuza watumiaji wengine kwa mchango wao kwenye kikundi.
+Wamiliki wa vikundi wanaweza kualika bot ijiunge na gumzo la kikundi, kisha wamteue Sats.Mobi kama msimamizi. Kuanzia hapo, furaha huanza, kwani washiriki wanaweza kuanza kuwatuza watumiaji wengine kwa michango yao ndani ya kikundi.
 
 
 - _/tip_ inaongeza kidokezo kwa kujibu ujumbe;
@@ -171,19 +174,19 @@ Wamiliki wanaweza kualika roboti ijiunge na gumzo la kikundi kisha kuteua Sats.M
 Kila moja ya amri hizi ina syntax yake, ambayo inaelezwa katika orodha kuu ya amri.
 
 
-Na ikiwa sisi sio wamiliki wa kikundi? Hakuna tatizo: muulize tu mwanzilishi kualika Sats.Mobi, iongeze kama msimamizi wa kikundi, na uko tayari!
+Na ikiwa wewe si mmiliki wa kikundi? Hakuna tatizo—muombe tu mwanzilishi wa kikundi amwalike Sats.Mobi na amuongeze kama msimamizi wa kikundi, kisha uko tayari kuanza!
 
 
 ## Sehemu ya Uuzaji (POS)
 
 
-Sats.Mobi inapozinduliwa kwa mara ya kwanza, roboti pia hutengeneza kipengele kingine kwa ajili ya mtumiaji: **POS**. "Kifaa" huwashwa na mtumiaji kwa amri _/pos_ au kwa kubofya kitufe kinachohusiana kutoka kwenye kiweko kilicho chini kulia. Kwa kweli, POS ni programu ya wavuti, ambayo hufungua kama kiibukizi kwenye gumzo la Telegraph
+Sats.Mobi inapozinduliwa kwa mara ya kwanza, roboti pia hutengeneza element ingine kwa ajili ya mtumiaji: **POS**. "Kifaa" huwashwa na mtumiaji kwa amri _/pos_ au kwa kubofya kitufe kinachohusiana kutoka kwenye kiweko kilicho chini kulia. Kwa kweli, POS ni programu ya wavuti, ambayo hufungua kama kiibukizi kwenye gumzo la Telegraph
 
 
 ![image](assets/it/14.webp)
 
 
-Interface huonyesha kishikio cha kibinafsi cha Telegramu kwenye sehemu ya juu kushoto na inatumika kama POS zote zinavyotumika: kwa kuandika kiasi kwenye vitufe. Hebu tuseme sasa tunataka kukusanya senti 21 za euro kwa huduma. Kwa kujua kwamba Sats.Mobi inadhibiti Sats pekee, si rahisi kufanya ubadilishaji kichwani mwako. Kinyume chake, POS inaonyesha euro kama kitengo cha akaunti, ikionyesha wakati huo huo sawa katika Satoshi.
+Interface huonyesha kishikio chako cha kibinafsi cha Telegram kwenye sehemu ya juu kushoto, na hufanya kazi kama POS nyingine yoyote: kwa kuingiza kiasi kupitia vitufe. Hebu tuseme sasa unataka kukusanya senti 21 za euro kwa huduma fulani. Kwa kuwa Sats.Mobi inashughulikia Sats pekee, si rahisi kufanya ubadilishaji huo kichwani. Badala yake, POS huonyesha euro kama kitengo cha akaunti, huku ikionyesha thamani hiyo hiyo kwa wakati mmoja katika Satoshi.
 
 
 ![image](assets/it/15.webp)
@@ -207,10 +210,10 @@ Pia inaonyeshwa vizuri kwenye skrini ya simu ya rununu:
 ![image](assets/it/19.webp)
 
 
-## Vipengele vya Ziada
+## Elements za Ziada
 
 
-Kuna vipengele vingine vinavyokamilisha utoaji wa Sats.Mobi Wallet, ambayo, kama tulivyoona, inapanua dhana ya Wallet zaidi ya shughuli za kupokea na kutuma malipo:
+Kuna element nyingine zinazokamilisha utoaji wa Sats.Mobi Wallet, ambayo, kama tulivyoona, inapanua dhana ya Wallet zaidi ya shughuli za kupokea na kutuma malipo.
 
 
 - _/nostr_: kuunganisha Wallet kwa mtumiaji wako wa Nostr ili kupokea zaps;
@@ -222,15 +225,13 @@ Kuna vipengele vingine vinavyokamilisha utoaji wa Sats.Mobi Wallet, ambayo, kama
 
 ## Hitimisho
 
-Sats.Mobi ni Wallet ya kupendeza na ya kufurahisha kutumia, ambayo inarejesha uzoefu uliokuwa nao na LNTipBot kwa kutumia utendaji wa juu zaidi wa LNBits. Hata hivyo, ni muhimu kukumbuka kuwa **ni huduma ya ulezi**. Kwa hiyo, inapaswa kutumika kushikilia Sats chache sana, sio Wallet kuu kwa fedha zako za Lightning Network. Pia kuna kikomo cha uwezo wa ndani, sawa na 500,000 Sats, kikomo ambacho kinashauriwa kisichozidi.
+Sats.Mobi ni Wallet ya kupendeza na ya kufurahisha kutumia, inayorejesha uzoefu wa LNTipBot kwa kutumia utendaji wa juu zaidi kutoka LNBits. Hata hivyo, ni muhimu kukumbuka kuwa ni **huduma ya ulezi**. Kwa hivyo, inafaa kutumika kushikilia Sats chache tu, na haifai kuwa Wallet yako kuu kwa fedha za Lightning Network. Pia kuna kikomo cha uwezo wa ndani, ambacho ni takribani 500,000 Sats—kiasi ambacho kinashauriwa kisizidi.
 
 
-Ikiwa unatafuta pochi zisizo za ulinzi za Lightning Network, hakika ni vyema kutazama bidhaa nyingine.
-
+Ikiwa unatafuta Wallet zisizo za ulezi za Lightning Network, hakika ni vyema kuangalia chaguo nyingine mbadala.
 
 ---
 ### Nyaraka
-
 
 - [Github](https://github.com/massmux/SatsMobiBot)
 - Orodha ya kucheza ya [video](https://www.youtube.com/results?search_query=Sats.mobi) onyesho

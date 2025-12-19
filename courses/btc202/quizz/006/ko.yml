@@ -1,0 +1,9 @@
+question: 단일 Wallet을 Bitcoin 네트워크 참여자로 간주하지 않는 이유는 무엇인가요?
+answer: 트랜잭션이나 블록의 유효성을 검사하지 않기 때문에
+wrong_answers:
+  - 개인 키를 generate로 만들 수 없기 때문에
+  - Bitcoin 주소를 생성할 수 없기 때문입니다
+  - 판매 또는 주소의 유효성을 검사하지 않기 때문에
+explanation: |
+  Wallet는 블록과 트랜잭션의 유효성을 직접 검증하지 않으며, 키만 관리하고 나머지는 노드에 의존합니다.
+reviewed: true

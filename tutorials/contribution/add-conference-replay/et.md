@@ -8,9 +8,9 @@ PlanB missiooniks on pakkuda tipptasemel haridusressursse Bitcoin'i kohta võima
 
 Kas soovite lisada oma Bitcoin'i konverentsi korduse PlanB võrgustiku saidile ja anda sellele üritusele nähtavust, kuid ei tea, kuidas? See õpetus on teile!
 
-Kui aga soovite lisada tulevikus toimuva konverentsi, soovitan teil [lugeda seda teist õpetust](https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097), milles selgitame, kuidas saidile uut üritust lisada.
+Kui aga soovite lisada tulevikus toimuva konverentsi, soovitan teil [lugeda seda teist õpetust](https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097), milles selgitame, kuidas saidile uut üritust lisada.
 ![konverents](assets/01.webp)
-- Esiteks peate omama kontot GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
+- Esiteks peate omama kontot GitHub'is. Kui te ei tea, kuidas kontot luua, oleme teinud [üksikasjaliku õpetuse, mis juhendab teid](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c).
 - Minge [PlanB-le pühendatud GitHub'i andmerepositooriumisse](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) jaotisesse `resources/conference/`:
 ![konverents](assets/02.webp)
 - Klõpsake paremal üleval nupul `Add file`, seejärel `Create new file`:
@@ -60,7 +60,7 @@ tags:
 ```
 
 ![konverents](assets/09.webp)
-Kui teie organisatsioonil ei ole veel "*project*" identifikaatorit, saate selle lisada [järgides seda teist õpetust](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
+Kui teie organisatsioonil ei ole veel "*project*" identifikaatorit, saate selle lisada [järgides seda teist õpetust](https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d).
 - Kui olete selle faili muutmisega lõpetanud, salvestage muudatused, klõpsates nupul `Commit changes...`:
 ![konverents](assets/10.webp)
 - Lisage oma muudatustele pealkiri, samuti lühike description:
@@ -167,7 +167,7 @@ Esineja: Satoshi Nakamoto
 ```
 
 ![konverents](assets/37.webp)
-- Dokumendi alguses, "front matter" osas, täitke `name:` väli teie konverentsi nime ja korduste aastaga. `description:` väljal kirjutage oma sündmuse lühikirjeldus faili keeles. Näiteks faili `en.md` puhul peaks kirjeldus olema inglise keeles. PlanB Network meeskond hoolitseb teie kirjelduse tõlkimise eest kasutades nende mudelit.
+- Dokumendi alguses, "front matter" osas, täitke `name:` väli teie konverentsi nime ja korduste aastaga. `description:` väljal kirjutage oma sündmuse lühikirjeldus faili keeles. Näiteks faili `en.md` puhul peaks kirjeldus olema inglise keeles. Plan ₿ Academy meeskond hoolitseb teie kirjelduse tõlkimise eest kasutades nende mudelit.
 - Esimese taseme pealkirjad, mida tähistatakse `#`-ga, kasutatakse konverentsi stseenide kaupa korraldamiseks. Näiteks `# Pealava` pealava jaoks ja `# Töötuba` töötubadele pühendatud lava jaoks.
 
 - Teise taseme pealkirjad, mida tähistatakse kahekordse `##`-ga, kasutatakse erinevate kordusvideote eraldamiseks. Kui konverentse filmiti pidevalt pool päeva, näidake näiteks `## Reede hommik`. Kui konverentse filmiti ja edastati individuaalselt, nimetage konverents otse teise taseme pealkirjaga.

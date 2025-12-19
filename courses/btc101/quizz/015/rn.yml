@@ -1,13 +1,13 @@
-question: Itangazo ry’Ukwikukira kw’Ikibanza c’Ikoranabuhanga ni irihe?
-answer: Icanditswe cemeza ko ikirere co kuri Internet ari ikibanza gitandukanye n’ikirere c’umubiri kandi ko kitakwiye gukurikizwa n’amategeko amwe.
+question: Ni kuki inzahabu yacitse igikoresho gisanzwe co gukoresha Exchange?
+answer: Kubera ukuntu ari gake, ukuramba, n’ukuntu bishobora kugabanywa.
 wrong_answers:
-  - Itangazo rivuga ko Bitcoin yigenga ku mice y’ivy’ubutunzi ya kera.
-  - Icanditswe cemeza ko urubuga rwa interineti rukwiye kugenzurwa n’amategeko ya leta.
-  - Itangazo ryemeza ko umuhari w’abasuma w’amato wigenga ku mategeko yose.
+  - Kubera ubwinshi bwayo, ukuramba kwayo, n’ukudashobora kugabanywa.
+  - Kubera ko ari gake, ko yononekara, kandi ko igabanywa.
+  - Kubera ubwinshi bwayo, ukubora kwayo, n’ukudashobora kugabanywa.
 explanation: |
-  Itangazo ry’Ukwikukira kw’Ivy’Ikoranabuhanga ryari 1990.
-  yanditswe na John Perry Barlow mu 1996. Iyi nyandiko yemeza ko .
-  ko ikibanza co kuri interineti ari ikibanza gitandukanye n’ikibanza c’umubiri .
-  n’uruzitiro, rero intwaro z’inganda ntizishobora gushitsa amategeko yazo .
-  ubukuru ng’aho.
+  Inzahabu yacitse igikoresho gisanzwe ca Exchange kubera .
+  ubuke, uburamba, n’ugucapura: ubuke bwavyo bwabujijwe
+  ugucika kw’agaciro bitewe n’uguhingura; uburambe bwayo
+  yarabonye ko itazosenyuka uko igihe kigenda kirarenga, be n’uko yoshobora kugabanywa .
+  yemerewe gukoreshwa mu bikorwa vy’ubudandaji vy’ubunini butandukanye.
 reviewed: true

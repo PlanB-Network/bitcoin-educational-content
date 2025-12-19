@@ -1,11 +1,9 @@
-question: Apa tujuan dari Proof of Work dalam jaringan Bitcoin?
-answer: Proof of Work memastikan kebenaran informasi tanpa adanya pihak ketiga yang dipercaya.
+question: Bagaimana protokol Bitcoin memastikan bahwa waktu rata-rata antara dua blok tetap konstan?
+answer: Kesulitan menemukan hash yang valid disesuaikan setiap 2016 blok
 wrong_answers:
-  - Proof of Work digunakan untuk menciptakan bitcoin baru.
-  - Proof of Work digunakan untuk memverifikasi transaksi Bitcoin.
-  - Proof of Work digunakan untuk mengamankan jaringan Bitcoin.
+  - Jumlah penambang diatur
+  - Ukuran blok disesuaikan
+  - Hadiah untuk menemukan hash yang valid ditingkatkan
 explanation: >-
-  Proof of Work adalah algoritma konsensus yang digunakan dalam jaringan Bitcoin
-  untuk memvalidasi transaksi dan menciptakan blok baru. Ini mengharuskan penambang untuk menyelesaikan masalah matematika yang kompleks,
-  yang memastikan keaslian informasi dalam jaringan tanpa perlu adanya pihak ketiga yang dipercaya.
+  Protokol Bitcoin memastikan bahwa waktu rata-rata antara dua blok tetap konstan dengan menyesuaikan kesulitan menemukan hash yang valid setiap 2016 blok. Hal ini terjadi terlepas dari jumlah penambang dan kekuatan komputasi mereka.
 reviewed: false

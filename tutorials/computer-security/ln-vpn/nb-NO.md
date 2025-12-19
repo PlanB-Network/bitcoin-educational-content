@@ -1,7 +1,7 @@
 ---
 name: LN VPN
 
-description: Sett opp din VPN
+description: Konfigurer LN VPN med Lightning for en anonym og skreddersydd VPN
 ---
 
 ![bilde](assets/cover.webp)

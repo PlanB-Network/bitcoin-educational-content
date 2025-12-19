@@ -1,5 +1,5 @@
 ---
-name: बिटकिट Wallet
+name: Bitkit Wallet
 
 description: अपना स्व-संरक्षित On-Chain और लाइटनिंग Wallet सेट अप करें
 ---

@@ -11,7 +11,7 @@ Het beschermen van persoonlijke informatie in het digitale tijdperk is een toppr
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Aan de slag met PureOS
 
@@ -27,25 +27,25 @@ PureOS is een op Debian gebaseerd besturingssysteem, ontwikkeld door Purism. Pur
 
 
 
-- Eenvoudig, intuïtief Interface**: GNOME biedt een duidelijke Interface desktop, ontworpen om eenvoudig te gebruiken te zijn, zelfs voor mensen die niet vertrouwd zijn met de commandoregel.
+- **Eenvoudig, intuïtief Interface**: GNOME biedt een duidelijke desktop interface, ontworpen om eenvoudig te gebruiken te zijn, zelfs voor mensen die niet vertrouwd zijn met de commandoregel.
 
 
 
 
 
-- Gratis**: net als de meeste Linux-distributies is PureOS volledig gratis te gebruiken. Er is echter een maandelijks abonnement beschikbaar om ontwikkelaars te ondersteunen.
+- **Gratis**: net als de meeste Linux-distributies is PureOS volledig gratis te gebruiken. Er is echter een maandelijks abonnement beschikbaar om ontwikkelaars te ondersteunen.
 
 
 
 
 
-- Beveiliging en stabiliteit**: De architectuur en besturingsmodus van PureOS maken het een zeer veilige distributie, die gegevensbescherming en systeemstabiliteit garandeert.
+- **Beveiliging en stabiliteit**: De architectuur en besturingsmodus van PureOS maken het een zeer veilige distributie, die gegevensbescherming en systeemstabiliteit garandeert.
 
 
 
 
 
-- Documentatie en actieve gemeenschap**: PureOS heeft duidelijke, toegankelijke documentatie en een betrokken, responsieve community, waardoor het eenvoudig is om problemen op te lossen en het systeem stap voor stap te leren.
+- **Documentatie en actieve gemeenschap**: PureOS heeft duidelijke, toegankelijke documentatie en een betrokken, responsieve community, waardoor het eenvoudig is om problemen op te lossen en het systeem stap voor stap te leren.
 
 
 
@@ -68,7 +68,7 @@ Ga naar de [PureOS official website](https://pureos.net/) en download vervolgens
 
 
 
-Om PureOS te installeren, moet je een opstartbare USB-sleutel maken met flashsoftware zoals [Balena Etcher] (https://www.balena.io/etcher).
+Om PureOS te installeren, moet je een opstartbare USB-sleutel maken met flashsoftware zoals [Balena Etcher](https://www.balena.io/etcher).
 
 
 
@@ -181,7 +181,7 @@ Je hebt twee opties om je Hard schijf te partitioneren:
 
 
 
-- Wis schijf**: Voor een volledige installatie van PureOS, waarbij alle reeds bestaande gegevens op je Hard schijf worden gewist.
+- **Wis schijf**: Voor een volledige installatie van PureOS, waarbij alle reeds bestaande gegevens op je Hard schijf worden gewist.
 
 
 
@@ -191,7 +191,7 @@ Je hebt twee opties om je Hard schijf te partitioneren:
 
 
 
-- Handmatig partitioneren** om je eigen scores te maken
+- **Handmatig partitioneren** om je eigen scores te maken
 
 
 
@@ -260,7 +260,7 @@ Voordat je PureOS gaat gebruiken, is het essentieel om je systeem bij te werken.
 
 
 
-- Update via Interface grafiek**:
+- Update via Interface grafiek:
 
 
 Open de toepassing **Software** en ga vervolgens naar het tabblad **Updates**. Beschikbare updates worden automatisch weergegeven. Klik op **Download** en vervolgens op **Installeer** zodra het downloaden is voltooid.
@@ -269,7 +269,7 @@ Open de toepassing **Software** en ga vervolgens naar het tabblad **Updates**. B
 
 
 
-- Update via terminal**:
+- **Update via terminal**:
 
 
 Open de terminal en voer het volgende commando in om de lijst met beschikbare pakketten bij te werken:
@@ -331,9 +331,9 @@ PureOS bevat ook de **LibreOffice** office suite, die:
 
 
 
-- Writer**: een complete tekstverwerker voor het maken en bewerken van documenten.
-- Calc**: een krachtig spreadsheetprogramma voor het beheren van je gegevens en berekeningen.
-- Impress**: een hulpmiddel om professionele presentaties te maken.
+- **Writer**: een complete tekstverwerker voor het maken en bewerken van documenten.
+- **Calc**: een krachtig spreadsheetprogramma voor het beheren van je gegevens en berekeningen.
+- **Impress**: een hulpmiddel om professionele presentaties te maken.
 
 
 
@@ -353,4 +353,4 @@ Ontdek onze cursus over het versterken van je beveiliging en het beschermen van 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -1,0 +1,9 @@
+question: Kto powiedział, że "zło jest niczym"?
+answer: Sokrates.
+wrong_answers:
+  - Leibnitz.
+  - Spinoza.
+  - Kartezjusz.
+explanation: |
+  zło jest niczym" to idea przypisywana Sokratesowi i przejęta przez tradycję filozoficzną. Dla Sokratesa zło pochodzi z niewiedzy; nikt nie czyni zła dobrowolnie, jeśli naprawdę wie, co jest dobre.
+reviewed: false

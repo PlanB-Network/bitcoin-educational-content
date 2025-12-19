@@ -1,5 +1,5 @@
 ---
-name: Mapa BTC
+name: BTC Map
 description: Znajdź miejsca, w których możesz spędzić Sats
 ---
 ![cover](assets/cover.webp)
@@ -247,7 +247,7 @@ Natychmiast zauważysz pomarańczowe obszary. Jak widać, są to różne społec
 
 
 
-BTC Map umożliwia [dodanie własnej społeczności] (https://btcmap.org/communities/add/), przyjrzyjmy się temu krok po kroku:
+BTC Map umożliwia [dodanie własnej społeczności](https://btcmap.org/communities/add/), przyjrzyjmy się temu krok po kroku:
 
 
 

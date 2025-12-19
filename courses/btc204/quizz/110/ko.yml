@@ -1,0 +1,10 @@
+question: 스톤월 거래란 무엇인가요?
+answer: 미니 CoinJoin이 아니면서 미니 CoinJoin을 모방하는 거래
+wrong_answers:
+  - 미니 CoinJoin 형태의 결제 거래
+  - 세 명의 참가자가 참여하는 공동 거래
+  - 수신자가 입력에 참여하는 트랜잭션입니다
+explanation: |
+  스톤월은 실제로는 하나가 아니지만 두 당사자 간의 미니 CoinJoin를 시뮬레이션하여 지출 중 사용자 프라이버시를 강화하도록 설계된 특정 형태의 Bitcoin 거래입니다.
+  
+reviewed: true

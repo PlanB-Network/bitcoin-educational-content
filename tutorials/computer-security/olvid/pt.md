@@ -1,5 +1,5 @@
 ---
-name: Olvido
+name: Olvid
 description: Mensagens privadas para todos
 ---
 ![cover](assets/cover.webp)
@@ -64,7 +64,7 @@ O Olvid está disponível em todas as plataformas. Pode descarregar a aplicaçã
 
 
 
-No Android, também é possível [instalar via APK] (https://www.olvid.io/download/).
+No Android, também é possível [instalar via APK](https://www.olvid.io/download/).
 
 
 
@@ -248,4 +248,4 @@ Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma 
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

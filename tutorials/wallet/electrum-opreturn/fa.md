@@ -1,5 +1,5 @@
 ---
-name: الکتروم OP_RETURN
+name: Electrum OP_RETURN
 description: یک پیام را بر روی Blockchain Bitcoin با Electrum ثبت کنید.
 ---
 
@@ -53,7 +53,7 @@ description: یک پیام را بر روی Blockchain Bitcoin با Electrum ث�
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-- یک بیان زیبا از انسانیت ما به جا بگذارید،*
-- از وارد کردن محتوایی که ممکن است پشیمان شوید خودداری کنید*
+- یک بیان زیبا از انسانیت ما به جا بگذارید،
+- از وارد کردن محتوایی که ممکن است پشیمان شوید خودداری کنید
 
 
 
@@ -208,9 +208,9 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-- مقصد Address**: یک Bitcoin Address معتبر. اینجا، `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. این می‌تواند Address خودتان باشد، اگر بخواهید وجوه منتقل شده را به خودتان بازگردانید؛
-- مبلغ انتقال‌یافته**: مبلغ تراکنش، در اینجا `0.00001` BTC. **لطفاً توجه داشته باشید**: از آنجا که واحد مورد استفاده در Electrum، BTC است، مبلغ ذکر شده در اسکریپت تراکنش نیز باید به BTC بیان شود، و نه به Sats؛
-- اسکریپت OP_RETURN**: پیام به صورت هگزادسیمال تبدیل شده و با اسکریپت(`OP_RETURN <messsage>), 0` پیشوند می‌شود. در اینجا، `5468616e6b73205361746f736869` برای پیام به صورت هگزادسیمال است.
+- **مقصد Address**: یک Bitcoin Address معتبر. اینجا، `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. این می‌تواند Address خودتان باشد، اگر بخواهید وجوه منتقل شده را به خودتان بازگردانید؛
+- **مبلغ انتقال‌یافته**: مبلغ تراکنش، در اینجا `0.00001` BTC. **لطفاً توجه داشته باشید**: از آنجا که واحد مورد استفاده در Electrum، BTC است، مبلغ ذکر شده در اسکریپت تراکنش نیز باید به BTC بیان شود، و نه به Sats؛
+- اسکریپت **OP_RETURN**: پیام به صورت هگزادسیمال تبدیل شده و با اسکریپت(`OP_RETURN <messsage>), 0` پیشوند می‌شود. در اینجا، `5468616e6b73205361746f736869` برای پیام به صورت هگزادسیمال است.
 
 
 
@@ -218,7 +218,7 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-نکته: از ابزار [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) برای generate اسکریپت به‌صورت خودکار استفاده کنید. حتی اگر این ابزار پیشنهاد دهد که مقدار را به BTC وارد کنید، واحد را در Electrum تنظیم‌شده نگه دارید.
+نکته: از ابزار [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) برای generate اسکریپت به‌صورت خودکار استفاده کنید. حتی اگر این ابزار پیشنهاد دهد که مقدار را به BTC وارد کنید، واحد را در Electrum تنظیم‌شده نگه دارید.
 
 
 

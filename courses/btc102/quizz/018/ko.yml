@@ -1,0 +1,9 @@
+question: Bitcoin의 Genesis 블록은 몇 년에 생성되었나요?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Blockchain의 첫 번째 블록인 Genesis 블록은 2009년 1월에 채굴되었습니다.
+reviewed: false

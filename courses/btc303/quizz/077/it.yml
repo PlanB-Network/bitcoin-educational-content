@@ -1,0 +1,9 @@
+question: Qual è la distinzione chiave tra "divulgazione" e "pubblicazione" nel contesto della gestione delle vulnerabilità di sicurezza Bitcoin?
+answer: Divulgazione significa informare il fornitore privatamente, mentre pubblicazione significa rendere nota la vulnerabilità ai potenziali attaccanti pubblicamente
+wrong_answers:
+  - La divulgazione riguarda le vulnerabilità critiche, mentre la pubblicazione riguarda le vulnerabilità non critiche, più difficili da sfruttare
+  - La divulgazione comporta la notifica agli sviluppatori del Bitcoin Core, mentre la pubblicazione comporta l'informazione dei team di implementazione di altcoin e di altri prodotti
+  - La divulgazione richiede un'azione immediata e l'applicazione di patch, mentre la pubblicazione consente di apportare correzioni graduali attraverso il normale flusso di sviluppo
+explanation: |
+  Gregory Maxwell ha sottolineato questa distinzione cruciale nella discussione della mailing list. La divulgazione si riferisce all'atto responsabile di informare privatamente i manutentori del software (il fornitore) di una vulnerabilità in modo che possano lavorare a una correzione. Pubblicare, invece, significa rendere pubbliche le informazioni sulla vulnerabilità, informando così i potenziali aggressori dell'exploit. Questa distinzione è fondamentale perché mentre la divulgazione aiuta a proteggere il sistema, la pubblicazione prematura può causare danni consentendo ad attori malintenzionati di sfruttare la vulnerabilità prima che siano state predisposte difese adeguate.
+reviewed: false

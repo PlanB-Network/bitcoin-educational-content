@@ -1,9 +1,9 @@
-question: Hva er en potensiell ulempe med digitale valutaer utstedt av sentralbanker (CBDC-er)?
-answer: De kan hindre individuell økonomisk frihet og legge til rette for autoritære overgrep.
+question: Hva er den første fasen av hyperinflasjon?
+answer: Tap av tillit
 wrong_answers:
-  - De kan føre til en reduksjon i pengemengden.
-  - De kan føre til en reduksjon i verdien av Bitcoin.
-  - De kan føre til en reduksjon i verdien av gull.
+  - Valutakollaps og prisøkning
+  - Den onde sirkelen av pengetrykking
+  - En ny valuta dukker opp
 explanation: |
-  Digitale valutaer utstedt av sentralbanker (CBDC-er) kan potensielt hindre individuell økonomisk frihet og legge til rette for autoritære overgrep. Dette er fordi de ville tilby en mer sentralt planlagt økonomi, med sentralbanken som har enda mer kontroll over pengemengden.
+  Den første fasen av hyperinflasjon er tapet av tillit til en valuta.
 reviewed: true

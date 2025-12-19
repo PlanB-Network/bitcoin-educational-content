@@ -22,7 +22,7 @@ Voit hallita turvallista lompakkoasi Passportissa useilla eri vaihtoehdoilla. T�
 
 Jos olet aloittelija, helpoin vaihtoehto on käyttää Passportia Foundationin kehittämän Envoy-sovelluksen kanssa. Jos haluat tietää, miten Envoy-sovellusta käytetään Passportin kanssa, katso tämä toinen opetusohjelma :
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Passin avaaminen
 
@@ -79,7 +79,7 @@ Seuraavaksi tarkistat laitteesi. Tämä vahvistaa passisi aitouden ja varmistaa,
 
 ![Image](assets/fr/08.webp)
 
-Mene [viralliselle varmennussivustolle] (https://validate.foundationdevices.com/) ja valitse "*Passi*".
+Mene [viralliselle varmennussivustolle](https://validate.foundationdevices.com/) ja valitse "*Passi*".
 
 ![Image](assets/fr/09.webp)
 
@@ -141,7 +141,7 @@ Käytä tähän Passport-pakkauksen mukana toimitettua MicroSD-korttia (tai tois
 
 Ennen kuin asennat sen laitteeseesi, suosittelemme, että tarkistat ladatun laiteohjelmiston aitouden ja eheyden. Jos tarvitset apua tässä, katso tätä ohjetta :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Kun olet tarkistanut `.bin`-tiedoston, aseta se MicroSD-muistikortille ja aseta se sitten Passportiin. Passportin tiedostoetsintä avautuu. Valitse tiedosto `vN.N.N.N-passport.bin`.
 
@@ -207,9 +207,9 @@ Napsauta vahvistuspainiketta nähdäksesi muistisääntösi.
 
 Jos haluat lisätietoa siitä, miten muistisääntöjä tallennetaan ja hallitaan oikein, suosittelen seuraamaan tätä toista opetusohjelmaa, varsinkin jos olet aloittelija:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.**_
+näitä sanoja ei tietenkään saa koskaan jakaa internetissä, kuten minä teen tässä ohjeessa. Tätä esimerkkisalkkua käytetään vain Testnetissä, ja se poistetaan opetusohjelman päätyttyä.
 
 Tee fyysinen varmuuskopio tästä lauseesta.
 
@@ -294,7 +294,7 @@ Ennen kuin jatkat, voit halutessasi lisätä BIP39-salasanan. BIP39-salalause on
 
 Ennen kuin määrität tämän vaihtoehdon Passportissasi, on erittäin suositeltavaa, että luet tämän artikkelin, jotta ymmärrät täysin salasanan teoreettisen toiminnan ja vältät virheet, jotka voivat johtaa bitcoinien menettämiseen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Voit aktivoida sen menemällä "*Lisää*"-valikkoon ja napsauttamalla "*Enter Passphrase*".
 
@@ -306,7 +306,7 @@ Kirjoita salasana aA1-näppäimistöllä ja varmista, että tallennat sen yhden 
 
 Huomaa, että BIP39-salasanat ovat isojen ja pienten kirjainten suhteen herkkiä. Jos syötät hieman erilaisen salasanan kuin alun perin määritetty, Passport ei ilmoita virheestä, vaan se muodostaa toisen salausavaimenpaketin, joka ei ole alkuperäisen lompakkosi avainten joukossa.
 
-Siksi on tärkeää, että kirjaat konfiguroinnin yhteydessä jonnekin muistiin pääavaimen sormenjäljen, jonka saat seuraavassa vaiheessa. Esimerkiksi salasanalla `Plan B Network` pääavaimeni sormenjälki on `745D526B`.
+Siksi on tärkeää, että kirjaat konfiguroinnin yhteydessä jonnekin muistiin pääavaimen sormenjäljen, jonka saat seuraavassa vaiheessa. Esimerkiksi salasanalla `Plan ₿ Academy` pääavaimeni sormenjälki on `745D526B`.
 
 ![Image](assets/fr/52.webp)
 
@@ -316,7 +316,7 @@ Tarkista joka kerta, kun avaat lukituksen kirjoitettuasi salasanan, tästä vahv
 
 Ennen kuin saat ensimmäiset bitcoinit lompakkoosi, **suositan sinua tekemään tyhjän palautustestin**. Merkitse muistiin joitakin viitetietoja, kuten xpub- tai ensimmäinen vastaanottava osoitteesi, ja poista lompakkosi Passportista, kun se on vielä tyhjä (`Asetukset -> Lisäasetukset -> Poista Passportti`). Yritä sitten palauttaa lompakkosi käyttämällä paperisia varmuuskopioita muistilausekkeesta ja mahdollisesta salasanasta. Tarkista, että palautuksen jälkeen luodut evästetiedot vastaavat alun perin kirjoittamiasi tietoja. Jos ne täsmäävät, voit olla varma, että paperiset varmuuskopiot ovat luotettavia. Jos haluat lisätietoja testipalautuksen suorittamisesta, tutustu tähän toiseen opetusohjelmaan :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -330,7 +330,7 @@ Aloita lataamalla ja asentamalla Sparrow Wallet [virallisilta verkkosivuilta](ht
 
 Varmista ohjelmiston aitous ja eheys ennen asennusta. Jos et tiedä, miten tämä tehdään, tutustu tähän ohjeeseen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Kun Sparrow Wallet on avattu, napsauta välilehteä "*File*" ja sitten "*New Wallet*".
 
@@ -484,5 +484,4 @@ Onneksi olkoon, tiedät nyt, miten Passportin asetukset määritetään ja miten
 
 Lisätietoja on Liana-ohjelmiston oppaassa:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
-
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

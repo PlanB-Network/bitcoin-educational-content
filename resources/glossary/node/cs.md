@@ -6,4 +6,4 @@ V síti Bitcoin je uzel (anglicky "node") počítač, na kterém běží klient 
 
 V Bitcoinu existuje několik typů uzlů, včetně plných uzlů a lehkých uzlů. Plné uzly uchovávají kompletní kopii blockchainu, ověřují všechny transakce a bloky podle pravidel konsensu a aktivně se podílejí na šíření transakcí a bloků v síti. Naproti tomu lehké uzly neboli uzly SPV (*Simple Payment Verification*) uchovávají pouze hlavičky bloků a při získávání informací o transakcích se spoléhají na plné uzly.
 
-> ►Někteří také rozlišují tzv. "ořezané uzly" (v angličtině "pruned node"). Jedná se o úplné uzly, které stahují a ověřují všechny bloky z bloku Genesis, ale v paměti uchovávají pouze nejnovější bloky.*
+> ►Někteří také rozlišují tzv. "ořezané uzly" (v angličtině "pruned node"). Jedná se o úplné uzly, které stahují a ověřují všechny bloky z bloku Genesis, ale v paměti uchovávají pouze nejnovější bloky.

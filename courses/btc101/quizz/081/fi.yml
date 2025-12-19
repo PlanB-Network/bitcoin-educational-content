@@ -1,10 +1,9 @@
-question: Mikä on keskeinen kysymys itsellesi valitessasi Bitcoin-lompakkoa omistajuuden näkökulmasta?
-answer: Oletko varojen omistaja vai jätätkö rahasi kolmannen osapuolen hallintaan?
+question: Mikä on pääasiallinen riski käyttäessäsi säilytyspalvelua bitcoinejesi säilyttämiseen?
+answer: Luotettu kolmas osapuoli voi rajoittaa pääsyäsi varoihisi milloin tahansa.
 wrong_answers:
-  - Onko lompakko suojattu salasanalla?
-  - Salliiko lompakko bitcoinien vastaanottamisen ja lähettämisen?
-  - Voinko jakaa lompakkoni toisen henkilön kanssa?
-explanation: |
-  Bitcoin-lompakkoa valittaessa keskeinen kysymys on:
-  oletko varojen omistaja vai jätätkö rahasi kolmannen osapuolen hallintaan? Tämä johtuu siitä, että yksityisen avaimen haltija on Bitcoinien omistaja.
+  - Luotettu kolmas osapuoli voi milloin tahansa nostaa bitcoiniesi arvoa.
+  - Luotettu kolmas osapuoli voi milloin tahansa laskea bitcoiniesi arvoa.
+  - Luotettu kolmas osapuoli ei voi milloin tahansa kopioida bitcoinejasi.
+explanation: >-
+  Kun käytät säilytyspalvelua bitcoiniesi säilyttämiseen, et ole bitcoiniesi ainoa haltija. Tämä tarkoittaa, että luotettu kolmas osapuoli voi milloin tahansa rajoittaa pääsyäsi varoihisi, antaen sinulle saman tason taloudellista suvereniteettia kuin perinteisessä pankkijärjestelmässä.
 reviewed: true

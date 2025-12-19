@@ -1,5 +1,5 @@
 ---
-name: F-Cold
+name: F-Droid
 description: Katalogen over gratis applikasjoner med åpen kildekode.
 ---
 
@@ -27,7 +27,7 @@ F-Droid er dessverre ikke et program som er tilgjengelig på iOS, og inneholder 
 
 
 
-Du kan laste ned F-droid fra [det offisielle nettstedet] (https://f-droid.org/) i APK-format og installere det manuelt på Android-telefonen din.
+Du kan laste ned F-droid fra [det offisielle nettstedet](https://f-droid.org/) i APK-format og installere det manuelt på Android-telefonen din.
 
 
 
@@ -100,7 +100,7 @@ Finn ut mer i vår Thunderbird-veiledning:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid gir deg all den informasjonen du trenger for å avgjøre om bruken av en applikasjon beskytter dataene dine og forbedrer personvernet ditt. Skann alle applikasjonene du ønsker å bruke, og klikk deretter på **Install**-knappen for å laste ned og installere applikasjonen.
 
@@ -163,7 +163,7 @@ F-Droid er et Open Source-prosjekt som oppfordrer til å bidra til applikasjoner
 Applikasjonen din må være åpen kildekode, med kildekoden offentlig tilgjengelig på for eksempel GitHub eller GitLab.
 
 
-Du må deretter utarbeide en YAML-fil (metadataene) som beskriver applikasjonen din, inkludert all informasjon og alle tillatelser som kreves for å bruke den, i henhold til [metadatamalen] (https://f-droid.org/docs/Build_Metadata_Reference/) som er foreslått av F-Droid.
+Du må deretter utarbeide en YAML-fil (metadataene) som beskriver applikasjonen din, inkludert all informasjon og alle tillatelser som kreves for å bruke den, i henhold til [metadatamalen](https://f-droid.org/docs/Build_Metadata_Reference/) som er foreslått av F-Droid.
 
 
 
@@ -187,4 +187,4 @@ Hvis du likte denne veiledningen, kan du lese mer om kurset vårt i IT-sikkerhet
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

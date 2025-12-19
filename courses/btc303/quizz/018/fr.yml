@@ -1,0 +1,9 @@
+question: Qu'est-ce que la propriété sans confiance du Bitcoin élimine spécifiquement dans les transactions numériques ?
+answer: Tiers de confiance pour le traitement et la validation des transactions
+wrong_answers:
+  - Composants matériels et logiciels pour faire fonctionner les nœuds Bitcoin
+  - Algorithmes cryptographiques pour sécuriser les clés privées et les signatures
+  - Mécanismes de consensus en réseau pour s'accorder sur les blocs valides
+explanation: |
+  La propriété sans confiance du Bitcoin élimine spécifiquement le besoin de tiers de confiance comme les banques ou les institutions financières pour traiter et valider les transactions. Comme l'explique Satoshi Nakamoto dans le livre blanc du Bitcoin, le commerce traditionnel s'appuie sur des institutions financières qui servent d'intermédiaires de confiance, mais la conception du Bitcoin permet au système de fonctionner correctement sans aucune partie de confiance grâce à son mécanisme de consensus décentralisé. Les autres options représentent des composants techniques essentiels dont le Bitcoin a toujours besoin - vous avez toujours besoin de matériel/logiciel pour participer, la sécurité cryptographique reste fondamentale et le consensus du réseau est la façon dont le Bitcoin parvient à l'absence de confiance plutôt que quelque chose qu'il élimine.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Por qué el tamaño del conjunto UTXO tiende a crecer estructuralmente con el tiempo?
+answer: Cada pago crea generalmente dos nuevos UTXOs
+wrong_answers:
+  - Los pagos convencionales no consumen UTXO
+  - Cada Fork multiplica el número de UTXO existentes
+  - El número de bitcoins que se pueden crear es infinito
+explanation: |
+  Una transacción de pago consume una UTXO y a menudo recrea dos (pago + Exchange), inflando el tamaño total del conjunto.
+reviewed: true

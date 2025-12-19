@@ -124,12 +124,12 @@ m / 86' / 0' / 0' /
 另一方面，如果您使用 passphrase，請確保不要將其寫在與您的 Mnemonic 詞組相同的媒介上。passphrase 的目的是在您的 Wallet 被盜時保護您的 Wallet。要瞭解有關如何使用 passphrase 的更多資訊，請參閱本補充教學：
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 當您將 Mnemonic 詞組儲存至實體媒體後，強烈建議您在新建立的 Wallet 仍為空時進行復原測試。此測試包括寫下一則資訊樣本，故意刪除空的 Wallet，然後僅使用 Mnemonic 短語的實體備份嘗試還原。這可讓您檢查您的備份是否完整且沒有輸入錯誤。這也可讓您熟悉還原過程。如此一來，如果您將來需要進行復原，您就可以準備得更充分，並避免在真實情況下初次嘗試時的壓力。要瞭解有關如何進行此測試的更多資訊，請參閱此其他教程 ：
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 最後，還有備份數量的問題。這個選擇完全取決於您的個人情況。限制備份份數，例如在媒體上只寫一次您的 Mnemonic 詞組，可以降低盜竊風險，但會增加遺失風險。相反地，複製數份可降低遺失的風險，但卻會增加盜竊的風險。因此，您必須根據自己的需求找出適當的平衡點，並決定您認為最適當的複本數量。
 
@@ -170,9 +170,9 @@ https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 為了更進一步並進一步強化您的安全策略，我建議您學習 Bitcoin Wallet 的技術運作。透過瞭解各種 Elements 的互動方式，以及它們的重要性和影響，您就能在充分意識到相關風險的情況下，微調您的安全策略。特別是，如果您在技術層級上瞭解 Mnemonic 詞組所能實現的功能，您就能隨時間調整記錄、儲存和管理的方式。
 
 
-這就是我邀請您參加 Plan ₿ Network 提供的免費 CYP201 培訓課程的原因。該培訓課程詳細解釋了 Bitcoin 電子錢包的所有工作原理，使您能夠掌握有效保護資金的必要技術：
+這就是我邀請您參加 Plan ₿ Academy 提供的免費 CYP201 培訓課程的原因。該培訓課程詳細解釋了 Bitcoin 電子錢包的所有工作原理，使您能夠掌握有效保護資金的必要技術：
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 如果您覺得本教學有用，請在下方留下 Green 的拇指。歡迎在您的社交網路分享這篇文章。非常感謝

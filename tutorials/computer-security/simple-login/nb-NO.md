@@ -1,5 +1,5 @@
 ---
-name: Enkel innlogging
+name: Simple Login
 description: Identitet beskyttet med alias
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Når man bruker sin personlige e-post Address for hver innlogging, er det lett �
 Utviklere av åpen kildekode-verktøy har laget en rekke applikasjonssuiter, nettopp for å få brukerne til å få tilbake litt av personvernet: De vil fortsatt logge inn, men ved hjelp av et alias i stedet for verktøyet som avslører deres private identitet.
 
 
-Den enkleste av dem jeg personlig har prøvd og fortsatt tester, er [Simple Login] (https://simplelogin.io/).
+Den enkleste, blant dem jeg personlig har prøvd og fortsatt tester, er nettopp [Simple Login](https://simplelogin.io/).
 
 
 ## Alias
@@ -99,7 +99,7 @@ Hvis du legger til en ny Address, spesielt hvis den tilhører Proton-leverandør
 ![image](assets/it/12.webp)
 
 
-**Det er bedre å få tilgang til e-postboksen -> kopier lenken for bekreftelse og lim den inn i URL-linjen -> og få bekreftelsen uten å avsløre passordet
+**Det er bedre å få tilgang til e-postboksen -> kopier lenken for bekreftelse og lim den inn i URL-linjen -> og få bekreftelsen uten å avsløre passordet**
 
 
 ![image](assets/it/13.webp)

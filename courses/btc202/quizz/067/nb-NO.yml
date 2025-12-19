@@ -1,0 +1,9 @@
+question: Hvilke sikkerhetskopier kreves for å gjenopprette en Lightning-node?
+answer: seed og SCB
+wrong_answers:
+  - seed og txindex-filen
+  - seed og offentlig IP Address
+  - seed og 2FA
+explanation: |
+  Gjenoppretting av en Lightning-node krever både seed og SCB (Static Channel Backup), og uten disse kan ikke kanalfondene gjenopprettes.
+reviewed: true

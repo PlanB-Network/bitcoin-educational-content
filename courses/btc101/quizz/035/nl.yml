@@ -1,9 +1,13 @@
-question: Wat is de betekenis van fiatgeld?
-answer: Fiat-geld is geld dat waarde heeft omdat een overheid het onderhoudt en mensen vertrouwen hebben in de waarde ervan, in plaats van dat het gedekt wordt door een fysiek goed zoals goud.
+question: Wat is een mogelijk nadeel van CBDC's (Central Bank Digital Currencies)?
+answer: Ze kunnen de financiële vrijheid van individuen belemmeren en autoritair misbruik in de hand werken.
 wrong_answers:
-  - Fiat-geld is geld dat gedekt wordt door een fysiek goed, zoals goud of zilver, wat betekent dat de waarde ervan direct gekoppeld is aan de waarde van dat goed.
-  - Fiat-geld is een type cryptocurrency dat werkt op een gedecentraliseerd netwerk, waardoor peer-to-peer transacties mogelijk zijn zonder dat er een centrale autoriteit nodig is.
-  - Fiat-geld is geld dat geen intrinsieke waarde heeft en niet gebruikt kan worden voor transacties, waardoor het in wezen waardeloos is in de economie.
+  - Ze kunnen leiden tot een daling van het geld Supply.
+  - Ze zouden kunnen leiden tot een daling van de waarde van Bitcoin.
+  - Ze kunnen leiden tot een daling van de waarde van goud.
 explanation: |
-  Fiat-geld is bij overheidsbesluit ingesteld als wettig betaalmiddel en de waarde ervan is niet afgeleid van een fysiek goed.
+  Digitale valuta's van centrale banken (CBDC's) kunnen mogelijk
+  de financiële vrijheid van individuen belemmeren en autoritair misbruik
+  autoritair misbruik in de hand werken. Dit komt omdat ze een
+  centraal geplande economie zouden bieden, waarbij de centrale bank
+  die nog meer controle heeft over het geld Supply.
 reviewed: true

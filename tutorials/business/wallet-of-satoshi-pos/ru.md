@@ -1,5 +1,5 @@
 ---
-name: Wallet из Satoshi - торговая точка
+name: Wallet of Satoshi - POS
 description: Внедрите Bitcoin через Lightning Network в свой бизнес.
 ---
 
@@ -18,7 +18,7 @@ description: Внедрите Bitcoin через Lightning Network в свой �
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Чтобы облегчить принятие Bitcoin в сообществах по всему миру, Wallet из Satoshi также создал пункт продажи, чтобы поощрить пользователей найти проверенное применение в своем сообществе: покупать и продавать товары и услуги с помощью Bitcoin.
 
@@ -174,16 +174,16 @@ Wallet of Satoshi предлагает решения Bitcoin не только 
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 А если вы ищете полноценный PoS, подходящий для малого и среднего бизнеса, я также рекомендую швейцарский Bitcoin Pay:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Наконец, найдите наш полный учебный курс, чтобы научиться основам оплаты Bitcoin и движения денежных средств для бизнеса:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

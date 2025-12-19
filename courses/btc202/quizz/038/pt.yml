@@ -1,0 +1,9 @@
+question: Por que razão não é recomendada uma unidade de disco rígido para um nó Bitcoin?
+answer: Porque abranda significativamente a IBD e a utilização geral
+wrong_answers:
+  - Porque não pode armazenar ficheiros Blockchain
+  - Porque consome muito pouca energia e corre o risco de explodir
+  - Porque é incompatível com o Bitcoin core
+explanation: |
+  Os discos mecânicos limitam o desempenho, prolongam significativamente o IBD e desgastam-se rapidamente sob a carga do nó.
+reviewed: true

@@ -1,9 +1,11 @@
 ---
-name: LAPP Bitcoin
-description: İlk LApp'inizi geliştirmek için öğretici
+name: Lightning App
+description: İlk Lightning Uygulamanızı (LAPP) geliştirmek için eğitim
 ---
 
-İlk lightning uygulamanızı kodlamayı öğrenin
+![cover](assets/cover.webp)
+
+## İlk lightning uygulamanızı kodlamayı öğrenin
 
 
 Gereksinimler:
@@ -27,6 +29,8 @@ Lightning uygulamamızı oluşturmak için aşağıdaki teknolojileri kullanaca�
 - Web sunucumuz için Express
 - Ön yüzümüz için pug şablonları + bootstrap
 
+
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## İşletim sistemi
 

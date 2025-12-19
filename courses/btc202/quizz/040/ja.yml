@@ -1,0 +1,9 @@
+question: 最も活発なアンブレルのコミュニティはどこですか？
+answer: Discordとオンラインフォーラムについて
+wrong_answers:
+  - インスタグラム
+  - リンクトインとオンライン・フォーラムについて
+  - IRCにて
+explanation: |
+  Umbrelには、Discordやオンラインフォーラムで非常に活発なコミュニティがあり、ユーザーはExchangeヘルプやサポートを受けることができる。
+reviewed: true

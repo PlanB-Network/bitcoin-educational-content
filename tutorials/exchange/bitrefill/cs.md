@@ -6,7 +6,7 @@ description: Jak nakupovat zboží a služby za BTC pomocí Bitrefill?
 
 Ačkoliv je Bitcoin primárně považován za prostředek uchování hodnoty, zůstává měnou, jejíž užitečnost spočívá v její schopnosti přecházet z ruky do ruky. Pokud obchodníci ve vašem okolí přijímají Bitcoin jako platební metodu, máte možnost utrácet jej přímo u nich. Bohužel, tato praxe ještě není rozšířená a většina obchodníků zatím BTC nepřijímá nativně.
 
-Nejlepším řešením zůstává "oranžová pilulka" pro místní obchodníky, aby je přiměla přijímat Bitcoin, vysvětlením výhod tohoto systému. Můžete využít tutoriály dostupné v sekci ["*merchants*"](https://planb.network/tutorials/merchant) na našem webu jako podporu. Tato strategie může být účinná u malých nezávislých obchodníků, ale u velkých národních řetězců se ukazuje jako složitější, jelikož kontakty na místě obvykle nejsou ti, kdo rozhodují o platebních metodách.
+Nejlepším řešením zůstává "oranžová pilulka" pro místní obchodníky, aby je přiměla přijímat Bitcoin, vysvětlením výhod tohoto systému. Můžete využít tutoriály dostupné v sekci ["*merchants*"](https://planb.academy/tutorials/merchant) na našem webu jako podporu. Tato strategie může být účinná u malých nezávislých obchodníků, ale u velkých národních řetězců se ukazuje jako složitější, jelikož kontakty na místě obvykle nejsou ti, kdo rozhodují o platebních metodách.
 
 Dokud čekáme na masivnější přijetí těmito řetězci, můžete své bitcoiny utratit pomocí zprostředkující platební metody: dárkových karet. A to je přesně to, co Bitrefill nabízí.
 
@@ -28,9 +28,9 @@ Zadejte emailovou adresu. Pokud si přejete udržet svůj účet anonymní, ujis
 ![BITREFILL](assets/notext/05.webp)
 Pokud se chcete dozvědět, jak snadno vytvořit bezpečnou emailovou schránku a jak spravovat vaše hesla, doporučuji konzultovat tyto 2 další tutoriály:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Poté klikněte na tlačítko "*Create account*".
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ V sekci "*Dvoufaktorové ověření*" klikněte na tlačítko "*Povolit*" a post
 ![BITREFILL](assets/notext/13.webp)
 Pokud se chcete dozvědět více o tom, jak používat dvoufaktorové ověření pro zabezpečení vašich online účtů, doporučuji objevit tento další tutoriál:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Jak koupit dárkovou kartu v BTC na Bitrefill?
 
@@ -88,4 +88,4 @@ A to je vše, nyní víte, jak utrácet vaše bitcoiny bez KYC u hlavních maloo
 
 Pokud si přejete přispět k popularizaci Bitcoinu a povzbudit nezávislého obchodníka k adopci této platební metody, doporučuji se poradit s naším kompletním tutoriálem na Swiss Bitcoin Pay. Jedná se o všestranné řešení pro procesory BTC plateb, snadno se instaluje a spravuje na denní bázi:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

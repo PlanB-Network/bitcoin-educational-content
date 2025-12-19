@@ -1,12 +1,13 @@
-question: Ni ibikorwa ibihe bitatu amahera akora?
-answer: Ububiko bw’agaciro, Uburinganire bwa Exchange, Igice ca konti.
+question: Ni kuki inzahabu idashobora gukora neza mw’isi y’isi yose n’iy’ubuhinga bwa none?
+answer: Kuko rikeneye ikintu nyamukuru kugira ngo rigabanuke kandi rihindurwe bitagoranye.
 wrong_answers:
-  - Ububiko bw’agaciro, Uburinganire bwa Exchange, Uburyo bwo gukora.
-  - Ububiko bw’agaciro, Uburyo bwo gukora, Igice c’ibara.
-  - Uburyo bwo gukora Exchange, Uburyo bwo gukora, Igice c’ikonti.
+  - Kuko nta gaciro bihagije bifise.
+  - Kuko si gake bihagije.
+  - Kubera ko rigenda risenyuka uko igihe kigenda kirarenga.
 explanation: |
-  Nk’uko Aristote abivuga, amahera akora ibikorwa bitatu: ni .
-  ububiko bw’agaciro, umurongo wa Exchange, n’igice ca .
-  ishirahamwe. Muri iki gihe, uburyo bwo gukoresha Exchange ni .
-  yemewe cane ko ari yo nyamukuru, imbere y’izindi zibiri.
+  Inzahabu ntishobora gukurikirana isi y'isi yose n'iy'ubuhinga bwa none .
+  kuko rikeneye ikintu nyamukuru kugira ngo ribe rishobora kugabanywa kandi .
+  bishobora guhindurwa bitagoranye. Ivyo bituma bidashoboka cane gukoresha mu .
+  isi aho amafaranga agenda arushirizaho gukoreshwa mu buryo bwa digitale kandi
+  ry’inzego zitandukanye.
 reviewed: true

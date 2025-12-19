@@ -365,7 +365,7 @@ Kuitenkin tämän korkotason laskun hintana on: Se tekee pääomasta helpommin s
 
 Tämä tasapainoakti ei ole sujunut aivan suunnitelmien mukaan…
 
-![kuva](assets/1.webp)
+![kuva](assets/en/001.webp)
 
 Kuva [Velka vs BKT](https://www.longtermtrends.net/us-debt-to-gdp/)
 
@@ -415,7 +415,7 @@ Kuva: Suorituskyky Omaisuusluokittain ([Osakkeet](https://finance.yahoo.com/quot
 
 Tämän palkkojen jälkeenjääneisyyden omaisuuserien hintoihin verrattuna olemme nähneet yhden suurimmista varallisuuden siirroista alaluokalta yläluokalle viime aikoina
 
-![kuva](assets/2.webp)
+![kuva](assets/en/002.webp)
 
 Kuva: Kokonaisen [Nettoarvon](https://fred.stlouisfed.org/series/WFRBSN40188#0.) jakautuminen
 
@@ -794,7 +794,7 @@ Hallitsemattomat lompakot ovat Bitcoin-lompakon tyyppi, jossa olet varojesi aino
 
 Hallitsemattomat lompakot tarjoavat korkeamman turvallisuuden ja yksityisyyden tason kuin hallinnoivat lompakot, koska vain sinä olet vastuussa varojesi turvallisuudesta. Esimerkkejä hallitsemattomista lompakoista ovat laitteistolompakot kuten [Coldcard](https://store.coinkite.com/store/coldcard) ja [Trezor](https://trezor.io/), jotka ovat fyysisiä laitteita, jotka säilyttävät yksityiset avaimet offline-tilassa ja tarjoavat ylimääräisen turvallisuustason. Muita suosittuja hallitsemattomia lompakoita ovat ohjelmistolompakot kuten [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), ja [Blockstream Green](https://blockstream.com/green/), jotka voidaan ladata ja asentaa tietokoneellesi tai mobiililaitteeseesi.
 
-\*_Vaikka emme voi suositella tiettyä lompakkoa, suosittelemme voimakkaasti ottamaan hallinnan bitcoineistasi itsehallinnan tai yhteishallinnan kautta, mikä tarkoittaa sopivan lompakon valitsemista tarpeidesi ja mieltymystesi mukaan. On olennaista tehdä perusteellista tutkimusta ennen lompakon valintaa varmistaaksesi, että se vastaa turvallisuus- ja käytettävyysvaatimuksiasi._
+**Vaikka emme voi suositella tiettyä lompakkoa, suosittelemme voimakkaasti ottamaan hallinnan bitcoineistasi itsehallinnan tai yhteishallinnan kautta, mikä tarkoittaa sopivan lompakon valitsemista tarpeidesi ja mieltymystesi mukaan. On olennaista tehdä perusteellista tutkimusta ennen lompakon valintaa varmistaaksesi, että se vastaa turvallisuus- ja käytettävyysvaatimuksiasi.**
 Vaikka säilytyspalveluita tarjoavat lompakot saattavat vaikuttaa käteviltä, niihin liittyy merkittäviä riskejä. Antamalla yksityisten avaintesi hallinnan kolmannelle osapuolelle, annat käytännössä heille valvonnan varoistasi. Jos säilyttäjä tulee maksukyvyttömäksi, joutuu hakkeroinnin kohteeksi tai lopettaa toimintansa, saatat menettää pääsyn bitcoineihisi. Ja tällaista on tapahtunut lukemattomia kertoja, korkean profiilin esimerkkeinä ovat Mt. Goxin ja QuadrigaCX:n hakkeroinnit, jotka johtivat asiakkaiden varojen menetyksiin, tai FTX, Voyager, BlockFi ja Celsius, jotka kokivat katastrofaalisia maksukyvyttömyyksiä, johtaen asiakkaiden varojen menetyksiin. Erityisesti säästöjen kohdalla on ratkaisevan tärkeää harjoittaa itsehallintaa ja ottaa vastuu bitcoiniesi turvaamisesta.
 
 #### Turvallisuusvinkkejä
@@ -1088,7 +1088,7 @@ Kuten Adannan tarina osoitti, inflaatio on kivulias todellisuus lukemattomille i
 
 Kaksinumeroisen inflaation vaikutuksen havainnollistamiseksi 10 %:n inflaatioaste, kuten Euroopassa lokakuussa 2022, tarkoittaisi 61,5 %:n ostovoiman menetystä kymmenessä vuodessa.
 
-![kuva](assets/3.webp)
+![kuva](assets/en/003.webp)
 
 _**Kuva:** Inflaation vaikutus ostovoimaan_
 
@@ -1336,7 +1336,7 @@ Nyt energiantuottajilla on kuitenkin keino hyödyntää tätä muutoin hukkaan m
 
 Lopuksi, Bitcoin-louhijat ovat motivoituneita etsimään edullisia energialähteitä, koska heidän voittonsa riippuvat energian hinnasta. Tämän seurauksena he aktiivisesti etsivät käyttämätöntä energiaa tai muita energiamuotoja, jotka muuten jäisivät hyödyntämättä. Yksi merkittävä esimerkki on kaasunpoltto, joka vapautuu, kun öljy-yhtiöt uuttavat öljyä maasta. Kaasunpoltto on tämän prosessin sivutuote ja sitä poltetaan yleensä korkeiden talteenottokustannusten vuoksi. Tämä käytäntö, tunnetaan nimellä poltto, ei ainoastaan johda energian hukkaamiseen, vaan vapauttaa myös metaania ja erilaisia muita kaasuja ilmakehään.
 
-![kuva](assets/4.webp)
+![kuva](assets/en/004.webp)
 
 _**Kuva:** Kaasunpoltto [Gas](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
 
@@ -1469,9 +1469,9 @@ Viime vuosina Bitcoin on kuitenkin noussut voimakkaaksi välineeksi taloudellise
 
 Kun maailma kauhistuneena seurasi, kuinka Taliban otti Afganistanin hallintaansa vuonna [1996](https://bitcoinmagazine.com/culture/bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), tämä nuori tyttö Roya eli konfliktin keskellä. Vain seitsemänvuotiaana hän joutui sotkuisen ja epävarman sodan pyörteisiin, kun hänen kotikaupunkinsa valloitti ja miehitti Taliban. Vaikka vaara ja vastoinkäymiset koettelivat häntä, ja lisäksi hän ei päässyt kouluun, Roya kieltäytyi antautumasta. Sen sijaan hän kääntyi koulutuksen puoleen voittaakseen olosuhteidensa asettamat rajoitukset.
 
-![kuva](assets/5.webp)
+![kuva](assets/en/005.webp)
 
-\***Kuva:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Kuva:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-bitcoin-to-empower-women/?sh=df9cbbb59724)
 Roya Mahboob on uranuurtaja Afganistanin teknologia- ja yrittäjyyskentällä. Hän ei ainoastaan saanut [nimeä](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) TIME-lehden Maailman 100 vaikutusvaltaisimman ihmisen joukkoon vuonna 2013 "rakentamalla internet-luokkahuoneita Afganistanin lukioihin", vaan hän myös perusti Afghan Citadel Software Companyn vuonna 2010, jonka tavoitteena on "luoda työpaikkoja vastavalmistuneille yliopisto-opiskelijoille - erityisesti naisille." Ja jos tämä ei vielä riittänyt, hän perusti myöhemmin Digital Citizen Fundin. Tämä voittoa tavoittelematon organisaatio työskentelee naisten ja lasten voimaannuttamiseksi kehitysmaissa teknologian avulla.
 
 Matkansa aikana Roya ei kuitenkaan ollut yksin. Bitcoin on osoittautunut korvaamattomaksi työkaluksi hänen tehtävässään voimaannuttaa naisia. Lukuisista esteistä huolimatta, mukaan lukien lailliset esteet, jotka estävät naisia työskentelemästä ja avaamasta pankkitilejä, Roya oli päättänyt löytää tavan maksaa yhteistyössä toimiville naisille.
@@ -1526,71 +1526,71 @@ Kahvilan omistaja, Vietnam
 
 "Kahvilassani Binh Thanhin alueella palvelemme nuorta asiakaskuntaa ja satunnaisia turisteja, tarjoten erilaisia juomia, kuten kahvia, virvoitusjuomia ja cocktaileja. Tether on tullut go-to-ratkaisuksemme käsitellä maksuja ulkomaisilta asiakkailta, joilta puuttuu paikallista valuuttaa tai pankkitilejä. Vaikka Tetherin kautta tapahtuvat myynnit ovat tällä hetkellä pieniä, se tarjoaa kätevän tavan ylittää valuuttakuilu ja majoittaa kansainvälisiä asiakkaitamme. Asiakkaat ovat usein hämmästyneitä avoimuudestamme hyväksyä kryptovaluuttamaksuja, jättäen pysyvän vaikutelman heidän kokemukseensa."
 
-![kuva](assets/6.webp)
+![kuva](assets/en/006.webp)
 Parvinee Ratchaphokhinpiti
 Eläkeläinen, Thaimaa
 
 “USDt mullisti kansainväliset rahansiirtoni. Eläkeläisenä olin aiemmin riippuvainen hitaista pankkisiirroista. Kiitos USDt:n, voin nyt lähettää rahaa vaivattomasti digitaalisen omaisuuden vaihdon kautta. 30 minuutin sisällä siskoni sai varat. Aikaa säästävät hyödyt ovat korvaamattomia, varmistaen nopeat ja vaivattomat transaktiot.”
 
-![kuva](assets/7.webp)
+![kuva](assets/en/007.webp)
 Jamie Tran
 Pianonsoiton opettaja, Vietnam
 
 "Rahan lähettäminen ulkomaille sukulaisilleni on ollut usein tarpeen, mutta valuuttojen vaihtaminen paikallisissa vaihtopisteissä osoittautui sekä aikaa vieväksi että kalliiksi. Näiden haasteiden ratkaisemiseksi esittelin sukulaisilleni USDt:n käytön mukavuuden. Tämä yksinkertainen muutos on mahdollistanut perheellemme merkittävän ajan ja rahan säästön taloudellisissa transaktioissamme. USDt:n avulla nautimme nyt sujuvista ulkomaan siirroista, varmistaen tehokkaan ja kustannustehokkaan tuen rakkaillemme."
 
-![kuva](assets/8.webp)
+![kuva](assets/en/008.webp)
 Roman
 Venäläinen expat, joka asuu Vietnamissa
 
 "Vietnamissa asuessani lähetän usein Tetheriä sukulaisilleni ja serkuilleni Venäjälle. Rahojen siirtäminen ulkomaille Tetherin avulla on vaivatonta verrattuna perinteisiin pankkimenetelmiin. Ei pankkikäyntejä, notarisoituja asiakirjoja tai selityksiä tarvita. Ilman lähetysrajoja, minimaalisilla maksuilla ja nopeilla transaktioilla, varat toimitetaan minuuteissa.”
 
-![kuva](assets/9.webp)
+![kuva](assets/en/009.webp)
 Luis Graterol
 Audiovisuaalinen, Venezuela
 
 "Nimeni on Luis Graterol, ja Tether auttoi minua turvaamaan säästöni toisella tavalla. Venezuelassa kärsimme korkeasta inflaatiosta, ja Tether on auttanut paljon. Sen käytettävyys on yksinkertainen, ja monissa tapauksissa voit tehdä transaktioita ilman mitään maksuja. USDt tekee elämästäni helpompaa! Se auttaa myös minua opettamaan ja kannustamaan sen käyttöön audiovisuaalisessa mediassa; sen helppouden löydettyäni vastaanotan maksuni USDt:nä, ja säästän vaivalloisen paikallisen fiat-valuutan, joka vaikuttaa moniin meistä!”
 
-![kuva](assets/10.webp)
+![kuva](assets/en/010.webp)
 Dubraska Villanloga
 Toimitusjohtaja, Tu Cachapa Caricuao, Caracas, Venezuela
 "Olen kotoisin Venezuelasta ja pyöritän pientä aamiaistoimitusliiketoimintaa. Tether USDt on ollut toimiva ratkaisu käteisen rahan ongelmaan minulle. USDt on myös auttanut minua säästöissäni, sillä jos olisin pitänyt yritykseni tilejä Venezuelan Bolivarissa, en olisi voinut suunnitella etukäteen ruoan hankintaa jatkuvan arvon alenemisen vuoksi."
-![kuva](assets/11.webp)
+![kuva](assets/en/011.webp)
 Marcela Romero
 Markkinointi- ja PR-päällikkö, Guanacaste, Costa Rica
 
 "Muutama vuosi sitten muutin aviomieheni maahan. Pandemian vuoksi kohtasin ainutlaatuisen maahanmuuttotilanteen, mikä johti pitkään odotukseen asuinpaikan tai kansalaisuuden saamiseksi. Lähes kolmen vuoden ajan minulla ei ollut pääsyä pankkitiliin enkä voinut työskennellä laillisesti maassa. Kuitenkin hyödyntämällä online-työskentelykykyjäni ja vastaanottamalla palkkani USDt:ssä, jatkoin uraani etänä kansainvälisten yritysten kanssa. Tetherin avulla voin lähettää rahaa kotiin välittömästi ilman suuria kuluja tai viivästyksiä. Tether on mahdollistanut ammatillisten tavoitteideni tavoittelun ja taloudellisen riippumattomuuden ylläpitämisen hallituksen rajoituksista huolimatta."
 
-![kuva](assets/12.webp)
+![kuva](assets/en/012.webp)
 Simoneth Gomez
 QA-insinööri, Venezuela, asuu Argentiinassa
 
 "Hei, nimeni on Simoneth Gomez. Olen kotoisin Venezuelasta, mutta asun tällä hetkellä Buenos Airesissa, missä työskentelen ohjelmiston laadunvalvojana. Kun saavuin Argentiinaan, minulla oli 12 km:n matka työpaikaltani paikkaan, jossa minun piti vaihtaa rahaa lähettääkseni sitä perheelleni Venezuelassa. Niinpä tutustuin USDt:hen ja aloin käyttää sitä, sillä sen sijaan, että olisin joutunut matkustamaan tuon matkan bussilla 5 tai 10 dollaria vastaan, pystyin hoitamaan sen työpöydältäni kahdessa minuutissa"
 
-![kuva](assets/13.webp)
+![kuva](assets/en/013.webp)
 Carlos Caballero
 Psykologi, Argentiina
 
 "Tether on ollut ratkaisu, joka on mahdollistanut minun jatkaa työskentelyä ammatissani pandemian vuosina. Sen, että se on valuutta, joka on sidottu dollariin, mahdollistaa sen, että sillä on kansainvälinen vertailuarvo. Sen vakaus ja turvallisuus muihin kryptovaluuttoihin verrattuna on pääsyy, miksi valitsin sen."
 
-![kuva](assets/14.webp)
+![kuva](assets/en/014.webp)
 Heloisa Passos
 Toimitusjohtaja, Sp4ce Games, Brasilia
 
 "Olen työskennellyt etänä kansainvälisille yrityksille noin viiden vuoden ajan, ja suurimman osan ajasta kärsin kansallisten pankkien korkeista korkoista, jotka veloittavat suuren prosenttiosuuden jokaisesta kansainvälisestä rahansiirrosta, lisäksi Swift-järjestelmän kautta maksujen selvittämiseen kuluu aikaa (noin 24 tuntia). Kun aloin vastaanottaa palkkani Tetherissä, tajusin, kuinka paljon aikaa ja rahaa aloin säästää vain saamalla palkkani USDt:ssä."
 
-![kuva](assets/15.webp)
+![kuva](assets/en/015.webp)
 Samuel
 Kauppayhtiö, Nigeria
 
 "USDt:n käyttö on säästänyt yrityksellemme paljon aikaa, sillä nigerialaisena yrityksenä USD:n saaminen vaatii käyntiä pankissamme samalla kun käytämme arvokasta aikaa lomakkeiden täyttämiseen ja jonottamiseen tuntikausia tehdäksemme nostoja tai siirtoja. USDt:n avulla voimme kuitenkin vaihtaa sen paikalliseen valuuttaan alle viidessä minuutissa ja toteuttaa mahdolliset transaktiomme."
 
-![kuva](assets/16.webp)
+![kuva](assets/en/016.webp)
 Joshua
 Opiskelija, Nigeria
 
 "Tether on auttanut minua monin tavoin. Tetherissä ansaitseminen on auttanut minua selviytymään maan nousevan inflaation aiheuttamasta paineesta, ja se on auttanut minua vähentämään turhaa kulutusta. Lisäksi se auttaa säästöjäni säilyttämään arvonsa, sillä en kärsi Nairan arvon alenemisesta pahasti."
 
-![kuva](assets/17.webp)
+![kuva](assets/en/017.webp)
 Esther
 HR-toimisto, Nigeria
 HR-alalla meillä on paljon ihmisiä maksettavana eri maissa. Emme yksinkertaisesti voi maksaa kaikille heidän kansallisessa valuutassaan. Tether USDt:n avulla voimme maksaa kaikille riippumatta heidän kansallisuudestaan ja siitä, missä he työskentelevät, ja he voivat vaihtaa USDt:n itse milloin haluavat.

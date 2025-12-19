@@ -1,10 +1,11 @@
-question: Mikä on notaarin rooli Bitcoin-perinnön yhteydessä?
-answer: He varmistavat verotuksen noudattamisen.
+question: Milloin Bitcoin esiteltiin maailmalle ensimmäistä kertaa?
+answer: 31. lokakuuta 2008.
 wrong_answers:
-  - He hallinnoivat bitcoinejasi kuolemasi jälkeen.
-  - He muokkaavat perintösuunnitelmaasi.
-  - He turvaavat bitcoinejasi tallelokeroon.
+  - 3. tammikuuta 2009.
+  - 22. marraskuuta 2009.
+  - 12. joulukuuta 2010.
 explanation: |
-  Bitcoin-perinnön yhteydessä on tärkeää
-  keskustella bitcoinejen perimisestä notaarin kanssa varmistaakseen
-  verotuksen noudattamisen.
+  Bitcoin esiteltiin maailmalle ensimmäistä kertaa 31. lokakuuta
+  2008, kun Satoshi Nakamoto lähetti sähköpostin cypherpunk
+  postituslistalle sisältäen Bitcoinin White Paperin.
+reviewed: true

@@ -1,9 +1,11 @@
-question: Hva ville skje hvis en bruker bestemmer seg for å følge andre regler som ugyldiggjør de nåværende konsensusreglene?
-answer: Noden vil ikke lenger være en del av Bitcoin-nettverket
+question: Hva er rollen til gruvearbeidere i Bitcoin-nettverket?
+answer: Gruvearbeidere sikrer nettverket og legger til transaksjoner i blokkene.
 wrong_answers:
-  - Noden vil bli en del av et annet Bitcoin-nettverk
-  - Noden vil bli straffet av Bitcoin-nettverket
-  - Noden vil bli belønnet av Bitcoin-nettverket
+  - Gruvearbeidere skaper nye bitcoins.
+  - Gruvearbeidere verifiserer identiteten til Bitcoin-brukere.
+  - Gruvearbeidere setter prisen på Bitcoin.
 explanation: >-
-  Hvis en bruker bestemmer seg for å følge andre regler som ugyldiggjør de nåværende konsensusreglene, vil denne noden ikke lenger være en del av Bitcoin-nettverket.
+  Gruvearbeidere bruker sin beregningskraft til å løse komplekse matematiske problemer,
+  som lar dem legge til nye transaksjoner i blokkjeden. Denne prosessen sikrer
+  nettverket og opprettholder dets integritet.
 reviewed: false

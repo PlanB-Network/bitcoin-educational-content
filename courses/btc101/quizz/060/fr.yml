@@ -1,12 +1,11 @@
-question: Quel est le processus qui vérifie les transactions sur le réseau Bitcoin ?
-answer: Minage
+question: Quelle est la fréquence de l'ajustement de la difficulté ?
+answer: Tous les 2016 blocs.
 wrong_answers:
-  - Fouille
-  - Récolte
-  - Culture
+  - Tous les 1048 blocs.
+  - Tous les 512 blocs.
+  - Tous les 4032 blocs.
 explanation: |
-  Le processus qui vérifie les transactions sur le réseau
-  Bitcoin est appelé minage. Les mineurs effectuent une
-  tâche cryptographique et sont récompensés par l'émission
-  de nouveaux bitcoins.
+  L'ajustement de la difficulté est un mécanisme qui a lieu
+  tous les 2016 blocs, soit environ toutes les deux semaines, pour garantir qu'un
+  nouveau bloc soit ajouté à la blockchain toutes les dix minutes en moyenne, indépendamment du hashrate global.
 reviewed: true

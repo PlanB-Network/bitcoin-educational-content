@@ -1,12 +1,12 @@
-question: ¿Con qué principios económicos se alinea Bitcoin?
-answer: Principios de la economía austriaca.
+question: ¿Cuáles son las tres funciones principales de un monedero de Bitcoin?
+answer: Recibir bitcoins, enviar bitcoins, protegerlos contra intentos de hackeo y robo.
 wrong_answers:
-  - Principios de la economía keynesiana.
-  - Principios de la economía marxista.
-  - Principios de la economía neoclásica.
+  - Almacenar bitcoins, enviar bitcoins, protegerlos contra intentos de hackeo y robo.
+  - Permitir recibir bitcoins, almacenar bitcoins, protegerlos contra intentos de hackeo y robo.
+  - Permitir recibir bitcoins, permitir enviar bitcoins, vender bitcoins.
 explanation: |
-  Bitcoin se alinea con los principios de la economía austriaca.
-  Su cantidad limitada y la falta de una entidad central lo protegen
-  de los riesgos inherentes de inflación que se ven en
-  las monedas tradicionales.
+  Un monedero de Bitcoin se utiliza para interactuar con la
+  red de Bitcoin. Sus tres funciones principales son permitir recibir
+  bitcoins, permitir enviar bitcoins y protegerlos contra
+  intentos de hackeo y robo.
 reviewed: true

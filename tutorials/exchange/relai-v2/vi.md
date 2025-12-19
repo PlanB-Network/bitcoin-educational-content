@@ -16,21 +16,21 @@ Relai stands out for its simplicity, accessibility, and focus on long-term Bitco
 ### Step 1: Download the Relai App
 
 
-- Where to Find It:** The app is available on both the App Store (iOS) and Google Play Store (Android). Search for “Relai” and download it for free.
-- Quick Setup:** Once installed, open the app and follow the guided setup process.
+- **Where to Find It:** The app is available on both the App Store (iOS) and Google Play Store (Android). Search for "Relai" and download it for free.
+- **Quick Setup:** Once installed, open the app and follow the guided setup process.
 
 ### Step 2: Create Your Account
 
 
-- Mandatory KYC:** Relai now requires a Know Your Customer (KYC) verification. Prepare a valid ID document and proof of address.
-- Verification Process:** Upload your documents, take a selfie for identity confirmation, and wait for approval (typically within 24 hours).
-- Why KYC?:** It ensures compliance with financial regulations and enhances security for all users.
+- **Mandatory KYC:** Relai now requires a Know Your Customer (KYC) verification. Prepare a valid ID document and proof of address.
+- **Verification Process:** Upload your documents, take a selfie for identity confirmation, and wait for approval (typically within 24 hours).
+- **Why KYC?** It ensures compliance with financial regulations and enhances security for all users.
 
 ### Step 3: Secure Your Wallet
 
 
-- Self-Custody:** Relai offers a non-custodial wallet, meaning you control your private keys.
-- Backup Your Keys:** Write down your 12-word recovery phrase on paper (not digitally) and store it securely. This is crucial for accessing your funds if your phone is lost or stolen.
+- **Self-Custody:** Relai offers a non-custodial wallet, meaning you control your private keys.
+- **Backup Your Keys:** Write down your 12-word recovery phrase on paper (not digitally) and store it securely. This is crucial for accessing your funds if your phone is lost or stolen.
 
 ---
 ## How to Create a Bitcoin Savings Plan
@@ -123,11 +123,11 @@ Relai will display the applicable network fees.
 ## Tips for Secure Bitcoin Management
 
 
-- Keep Your Recovery Phrase Safe:** Store it offline and avoid sharing it with anyone.
-- Enable App Security:** Use a strong PIN or biometric authentication.
-- Diversify Storage:** Consider using a hardware wallet for large amounts of Bitcoin.
-- Regularly Update the App:** Stay protected with the latest security patches and features.
-- Avoid Public Wi-Fi:** Only access your wallet on secure networks.
+- **Keep Your Recovery Phrase Safe:** Store it offline and avoid sharing it with anyone.
+- **Enable App Security:** Use a strong PIN or biometric authentication.
+- **Diversify Storage:** Consider using a hardware wallet for large amounts of Bitcoin.
+- **Regularly Update the App:** Stay protected with the latest security patches and features.
+- **Avoid Public Wi-Fi:** Only access your wallet on secure networks.
 
 ---
 ## Relai Business Accounts
@@ -135,10 +135,10 @@ Relai will display the applicable network fees.
 Relai also supports businesses looking to invest in Bitcoin. Features include:
 
 
-- Custom Savings Plans:** Tailored plans to suit business needs.
-- Multi-User Access:** Enable multiple team members to manage the account securely.
-- Enhanced Limits:** Invest larger amounts compared to personal accounts.
-- Dedicated Support:** Access priority customer service for businesses.
+- **Custom Savings Plans:** Tailored plans to suit business needs.
+- **Multi-User Access:** Enable multiple team members to manage the account securely.
+- **Enhanced Limits:** Invest larger amounts compared to personal accounts.
+- **Dedicated Support:** Access priority customer service for businesses.
 
 To set up a business account, contact Relai’s support team through their website.
 
@@ -148,9 +148,9 @@ To set up a business account, contact Relai’s support team through their websi
 Relai offers an exciting referral program where you can earn Bitcoin by inviting your friends to use the app. Here’s how it works:
 
 
-- Share Your Referral Code:** Each Relai user gets a unique referral code. Share it with your friends.
-- Earn 10% of Fees:** You’ll earn 10% of the fees from your friends’ transactions when they use your code.
-- Passive Bitcoin Income:** As your friends continue to trade on Relai, you’ll keep earning Bitcoin. It’s a win-win for both you and your friends.
+- **Share Your Referral Code:** Each Relai user gets a unique referral code. Share it with your friends.
+- **Earn 10% of Fees:** You'll earn 10% of the fees from your friends' transactions when they use your code.
+- **Passive Bitcoin Income:** As your friends continue to trade on Relai, you'll keep earning Bitcoin. It's a win-win for both you and your friends.
 
 Start sharing your code today and grow your Bitcoin stack effortlessly!
 
@@ -161,7 +161,7 @@ Start sharing your code today and grow your Bitcoin stack effortlessly!
 
 
 - Relai charges a competitive fee of 1% per transaction, or 0.9% if you use a referral code like `REL361712`. Fees are transparently displayed before you confirm a purchase.
-- Zero Fees:** Transactions up to €100 or CHF 100 are completely fee-free.
+- **Zero Fees:** Transactions up to €100 or CHF 100 are completely fee-free.
 
 ### Can I Pause My Savings Plan?
 

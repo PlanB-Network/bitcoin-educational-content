@@ -1,0 +1,26 @@
+id: 4bcf4f08-4205-4314-9c28-dd18273dce73
+name: Frostsnap
+
+links:
+  website: https://frostsnap.com/
+  twitter: https://x.com/FrostsnapTech
+
+category: wallet
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - wallets
+  - hardware
+  - personal-security
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-03
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

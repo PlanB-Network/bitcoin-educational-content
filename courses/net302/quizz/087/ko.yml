@@ -1,0 +1,9 @@
+question: 패킷이 IP 대상에 도달하기 위해 이동한 경로를 보여주는 명령은 무엇인가요?
+answer: 추적 경로
+wrong_answers:
+  - ss
+  - arp
+  - tcpdump
+explanation: |
+  추적 라우트는 발신자와 대상 사이의 각 중간 라우터를 TTL을 사용하여 표시합니다.
+reviewed: false

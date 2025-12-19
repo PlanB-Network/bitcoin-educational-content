@@ -42,39 +42,39 @@ Here are some of OPNsense's key features:
 
 
 
-- Firewall and NAT**: OPNsense provides advanced stateful firewall functionality with stateful filtering, as well as network address translation (NAT) capabilities.
+- **Firewall and NAT**: OPNsense provides advanced stateful firewall functionality with stateful filtering, as well as network address translation (NAT) capabilities.
 
 
 
-- DNS/DHCP**: OPNsense can be configured to manage DNS and DHCP services on the network. It can act as a DHCP server, but can also be used as a DNS resolver for machines on the local network. Dnsmasq is also integrated by default.
+- **DNS/DHCP**: OPNsense can be configured to manage DNS and DHCP services on the network. It can act as a DHCP server, but can also be used as a DNS resolver for machines on the local network. Dnsmasq is also integrated by default.
 
 
 
-- VPN**: OPNsense supports several VPN protocols, including IPsec, OpenVPN and WireGuard, enabling secure connections for remote access to mobile workstations or site interconnection.
+- **VPN**: OPNsense supports several VPN protocols, including IPsec, OpenVPN and WireGuard, enabling secure connections for remote access to mobile workstations or site interconnection.
 
 
 
-- Web proxy**: OPNsense includes a web proxy to control and filter Internet access. It can also be used to filter content and manage network access.
+- **Web proxy**: OPNsense includes a web proxy to control and filter Internet access. It can also be used to filter content and manage network access.
 
 
 
-- Bandwidth management (QoS)**: OPNsense offers Quality of Service (QoS) management features to prioritize network traffic and better manage network bandwidth.
+- **Bandwidth management (QoS)**: OPNsense offers Quality of Service (QoS) management features to prioritize network traffic and better manage network bandwidth.
 
 
 
-- Captive portal**: this feature lets you manage user access to the network via an authentication page (local base, vouchers, etc.). It is a feature commonly deployed for public Wi-Fi networks.
+- **Captive portal**: this feature lets you manage user access to the network via an authentication page (local base, vouchers, etc.). It is a feature commonly deployed for public Wi-Fi networks.
 
 
 
-- IDS/IPS**: OPNsense integrates Suricata to offer intrusion detection and prevention (IDS/IPS) functions to protect the network against attacks.
+- **IDS/IPS**: OPNsense integrates Suricata to offer intrusion detection and prevention (IDS/IPS) functions to protect the network against attacks.
 
 
 
-- High availability (CARP)**: OPNsense supports CARP (*Common Address Redundancy Protocol*) for high availability between multiple OPNsense firewalls, ensuring that service remains active even in the event of hardware failure.
+- **High availability (CARP)**: OPNsense supports CARP (*Common Address Redundancy Protocol*) for high availability between multiple OPNsense firewalls, ensuring that service remains active even in the event of hardware failure.
 
 
 
-- Reporting and Monitoring**: OPNsense provides real-time reporting and monitoring tools to track network performance (with NetFlow) and detect potential problems, thanks to the creation of logs. This includes graphics. The Monit tool is integrated into OPNsense and enables supervision of the firewall itself.
+- **Reporting and Monitoring**: OPNsense provides real-time reporting and monitoring tools to track network performance (with NetFlow) and detect potential problems, thanks to the creation of logs. This includes graphics. The Monit tool is integrated into OPNsense and enables supervision of the firewall itself.
 
 
 ### B. Additional packages
@@ -131,11 +131,11 @@ Our goal is to
 
 
 
-- Create an internal virtual network (192.168.10.0/24 - LAN)**, which can access the Internet via the OPNsense firewall. For production use, this could be your local network, cable and/or Wi-Fi.
-- Activate and configure NAT** so that VMs in the internal virtual network can access the Internet
-- Activate and configure the DHCP server on OPNsense** to distribute an IP configuration to future machines connected to the internal virtual network
-- Configure the firewall** to allow only outgoing LAN to WAN flows in HTTP (80) and HTTPS (443).
-- Configure the firewall** to allow the virtual LAN to use OPNsense as a DNS resolver (53).
+- Create an internal virtual network (192.168.10.0/24 - LAN), which can access the Internet via the OPNsense firewall. For production use, this could be your local network, cable and/or Wi-Fi.
+- Activate and configure **NAT** so that VMs in the internal virtual network can access the Internet
+- Activate and configure the DHCP server on **OPNsense** to distribute an IP configuration to future machines connected to the internal virtual network
+- Configure the **firewall** to allow only outgoing LAN to WAN flows in HTTP (80) and HTTPS (443).
+- Configure the **firewall** to allow the virtual LAN to use OPNsense as a DNS resolver (53).
 
 
 If you are using the Hyper-V platform, this will give you the following representation:
@@ -190,7 +190,7 @@ Then you'll come to a Interface similar to the one below. Log in with login "**i
 ![Image](assets/fr/026.webp)
 
 
-A new wizard appears on the screen. The first step is to select the keyboard layout corresponding to your configuration. For an AZERTY keyboard, select the option "**French (accent keys)**" from the list, then double-click**.
+A new wizard appears on the screen. The first step is to select the keyboard layout corresponding to your configuration. For an AZERTY keyboard, select the option **"French (accent keys)"** from the list, then double-click.
 
 
 ![Image](assets/fr/027.webp)
@@ -284,7 +284,7 @@ pfctl -d
 ### E. Access to the OPNsense Interface management system
 
 
-The OPNsense Administration Interface can be accessed via HTTPS, using the IP address of the LAN** Interface (or the WAN). Your browser will take you to a login page. Log in with the "root" account and password you selected earlier.
+The OPNsense Administration Interface can be accessed via HTTPS, using the IP address of the **LAN** Interface (or the WAN). Your browser will take you to a login page. Log in with the "root" account and password you selected earlier.
 
 
 ![Image](assets/fr/034.webp)
@@ -423,7 +423,7 @@ This gives the following result:
 ![Image](assets/fr/044.webp)
 
 
-All that remains is to click on "**Apply changes**" to switch the new firewall rules over to production. **Please note that all flows that are not explicitly authorized will be blocked by default
+All that remains is to click on "**Apply changes**" to switch the new firewall rules over to production. **Please note that all flows that are not explicitly authorized will be blocked by default.**
 
 
 The LAN machine can access the Internet, using HTTP and HTTPS. All other protocols will be blocked.

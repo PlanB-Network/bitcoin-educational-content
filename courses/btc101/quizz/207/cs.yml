@@ -1,9 +1,12 @@
-question: Jaké je jedno z potenciálních rizik ponechání vašeho Bitcoinu na burzovní platformě?
-answer: Rizika hackování a blokování prostředků.
+question: Co předpověděl Milton Friedman v roce 1999?
+answer: Vývoj spolehlivého elektronického peněžního systému (e-cash).
 wrong_answers:
-  - Riziko, že platforma zvýší cenu Bitcoinu.
-  - Riziko, že platforma bude kontrolovat nabídku Bitcoinu.
-  - Riziko, že Bitcoin bude v ceně překonán jinou kryptoměnou.
-explanation: >-
-  Text uvádí, že ponechání vašeho Bitcoinu na burzovní platformě vás může vystavit rizikům hackování a blokování prostředků.
+  - Zánik fyzických peněz.
+  - Nástup Bitcoinu.
+  - Konec vládní kontroly nad penězi.
+explanation: |
+  Milton Friedman, renomovaný ekonom, předpověděl v roce 1999,
+  že brzy bude vyvinut spolehlivý elektronický peněžní systém (e-cash), metoda,
+  pomocí které můžete na internetu převádět finanční prostředky z bodu A do bodu B,
+  aniž by A znal B nebo naopak.
 reviewed: true

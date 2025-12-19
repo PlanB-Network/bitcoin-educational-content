@@ -1,13 +1,10 @@
-question: ¿Cuál es uno de los beneficios potenciales de la Red Lightning para los creadores de contenido?
-answer: Serían incentivados a producir contenido de buena calidad para retener la atención de los usuarios.
+question: ¿Cuál es una de las principales preguntas planteadas respecto al futuro de las finanzas?
+answer: ¿Quién debería poseer, autorizar y rastrear el dinero que usamos?
 wrong_answers:
-  - Podrían cobrar más por su contenido.
-  - Podrían alcanzar una audiencia más amplia.
-  - Podrían producir contenido más rápidamente para retener la atención de los usuarios.
-explanation: |
-  Con la Red Lightning, los creadores de contenido serían
-  incentivados a producir contenido de buena calidad para retener
-  la atención de los usuarios. Los usuarios, a su vez, solo pagarían por el
-  contenido que consumen, eliminando así las tarifas de suscripción
-  por adelantado.
+  - ¿Cómo podemos eliminar el dinero por completo?
+  - ¿Cómo podemos asegurar que todos tengan la misma cantidad de dinero?
+  - ¿Cómo podemos hacer el dinero obsoleto?
+explanation: >-
+  El texto plantea varias preguntas sobre el futuro de las finanzas, una de
+  las cuales es quién debería poseer, autorizar y rastrear el dinero que usamos.
 reviewed: true

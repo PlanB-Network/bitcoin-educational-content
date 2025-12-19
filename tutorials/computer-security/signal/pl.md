@@ -1,5 +1,5 @@
 ---
-name: Sygnał
+name: Signal
 description: Swobodne wyrażanie siebie
 ---
 ![cover](assets/cover.webp)
@@ -65,7 +65,7 @@ Signal jest dostępny na wszystkich platformach. Aplikację można pobrać bezpo
 
 
 
-W systemie Android możliwa jest również [instalacja przez APK] (https://github.com/signalapp/Signal-Android/releases).
+W systemie Android możliwa jest również [instalacja przez APK](https://github.com/signalapp/Signal-Android/releases).
 
 
 
@@ -273,4 +273,4 @@ Polecam również ten samouczek, w którym przedstawiam Proton Mail, znacznie ba
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -1,11 +1,12 @@
-question: Özel anahtarınız üçüncü bir tarafa ifşa edilirse ne olur?
-answer: Üçüncü taraf bitcoinlerinizi harcayabilir.
+question: Bitcoin bağlamında bir Mnemonic ifadesi olmayan nedir?
+answer: Bitcoin Wallet'ünüz için bir parola.
 wrong_answers:
-  - Üçüncü taraf yalnızca işlem geçmişinizi görüntüleyebilir.
-  - Üçüncü taraf özel anahtarınızı değiştirebilir.
-  - Üçüncü taraf kişisel bilgilerinize erişebilir.
+  - Belirli bir sözlükten 12 kelimelik bir liste.
+  - Belirli bir sözlükten 24 kelimelik bir liste.
+  - Bitcoin fonunuza erişmenin sırrı.
 explanation: |
-  Özel anahtarınız üçüncü bir tarafa ifşa edilirse
-  ilgili fonlar artık güvenli değildir, çünkü özel sektör
-  anahtarı fonlarınıza erişmelerini sağlar.
+  Bitcoin bağlamında bir Mnemonic ifadesi, 12 ifadeden oluşan bir listedir
+  veya Wallet'nizi herhangi bir zamanda geri yüklemenizi sağlayan 24 kelime
+  Bitcoin Wallet uygulaması. Bu listeye erişimi olan herkes
+  cal ayrıca bitcoinlerinize de erişebilir.
 reviewed: true

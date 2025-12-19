@@ -1,10 +1,10 @@
-question: ¿Cuándo desapareció Satoshi Nakamoto?
-answer: En 2010
+question: ¿Cuál es la versión del primer software de Bitcoin que se lanzó?
+answer: Bitcoin-0.1.0.
 wrong_answers:
-  - En 2008
-  - En 2009
-  - En 2023
-explanation: |
-  Satoshi Nakamoto desapareció en 2010, dejando su creación
-  en manos de la comunidad.
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
+explanation: >-
+  El primer software de Bitcoin que se lanzó fue Bitcoin-0.1.0. Fue anunciado
+  por Satoshi Nakamoto el 8 de enero de 2009.
 reviewed: true

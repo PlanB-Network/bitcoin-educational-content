@@ -1,13 +1,12 @@
-question: ¿Cuál de las siguientes no es una ventaja de Bitcoin como moneda?
-answer: Se utiliza para pagar impuestos.
+question: ¿Cuál es el número máximo de unidades de Bitcoin que pueden existir?
+answer: 21 millones.
 wrong_answers:
-  - Es divisible.
-  - Es transportable.
-  - No requiere permisos.
+  - 3 billones.
+  - 100 millones.
+  - No hay límite.
 explanation: |
-  Bitcoin, debido a sus propiedades como su divisibilidad,
-  verificabilidad, aspecto sin necesidad de permisos y transportabilidad,
-  ofrece un excelente almacenamiento de valor. Además, como una moneda neutral
-  de internet, representa un buen medio de intercambio
-  que no conoce fronteras.
+  El suministro total de Bitcoin está limitado a 21 millones de unidades.
+  Esta es una característica clave de Bitcoin que lo diferencia
+  de las monedas fiduciarias, las cuales pueden ser impresas en
+  cantidades ilimitadas por los bancos centrales.
 reviewed: true

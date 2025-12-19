@@ -1,10 +1,9 @@
-question: Jaký je dopad 2% inflace na kupní sílu za 5 let?
-answer: Ztratíte 10% vaší kupní síly.
+question: Co se stalo se zimbabwským dolarem v dubnu 2009?
+answer: Ministr financí oznámil pozastavení zimbabwského dolaru a povolil použití různých zahraničních měn pro obchod.
 wrong_answers:
-  - Ztratíte 2% vaší kupní síly.
-  - Ztratíte 5% vaší kupní síly.
-  - Ztratíte 20% vaší kupní síly.
+  - Zimbabwský dolar se propadl o více než 72%.
+  - Vláda souhlasila s kompenzací válečných veteránů v hodnotě ekvivalentní 450 milionům amerických dolarů.
+  - Vláda musela sáhnout k spuštění tiskových strojů.
 explanation: |
-  S 2% inflací ztrácíte každý rok 2% vaší kupní síly,
-  což za 5 let činí 10%.
+  V dubnu 2009 ministr financí oznámil pozastavení zimbabwského dolaru a povolil použití různých zahraničních měn pro obchod.
 reviewed: true

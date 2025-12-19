@@ -1,0 +1,9 @@
+question: 데비안과 우분투에서 사용하는 패키지 관리자는 무엇인가요?
+answer: APT
+wrong_answers:
+  - RPM
+  - 팩맨
+  - Zypper
+explanation: |
+  데비안과 우분투는 .deb 형식을 기반으로 하는 APT 패키지 관리자를 사용하여 소프트웨어 설치 및 업데이트를 관리합니다.
+reviewed: false

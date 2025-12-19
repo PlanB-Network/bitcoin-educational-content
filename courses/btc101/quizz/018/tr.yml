@@ -1,13 +1,12 @@
-question: İlk para birimleri nelerdi?
-answer: Tahıl ve canlı hayvan gibi mallar.
+question: Bitcoin'ın diğer para birimlerine göre temel avantajı nedir?
+answer: Kesinlikle sınırlı Supply ve tarafsızlığı nedeniyle mükemmel bir değer deposu sunar.
 wrong_answers:
-  - Altın ve gümüş.
-  - Kağıt notlar.
-  - Dijital varlıklar.
+  - Bölünemez ve taşınamaz.
+  - Parasal enflasyona maruz kalan para birimine harika bir örnektir.
+  - Dünyadaki tüm tüccarlar tarafından ticarette yaygın olarak kabul edilmektedir.
 explanation: |
-  İlk para birimleri genellikle temel ihtiyaçlarla bağlantılıydı
-  tahıl, canlı hayvan ve diğer emtia gibi mallar.
-  Ancak, bu malların aşağıdaki gibi önemli dezavantajları vardı
-  bozulabilirlik, bunların bir gıda maddesi olarak kullanılmasını zorlaştırır
-  uzun vadeli tasarruf aracı.
+  Bitcoin'nin diğer para birimlerine göre temel avantajı
+  nedeniyle mükemmel bir değer deposu sunmasıdır
+  kesinlikle sınırlı Supply ve güvenilir taraf eksikliği. Bu
+  uzun vadeli tasarruflar için iyi bir seçimdir.
 reviewed: true

@@ -7,7 +7,7 @@ description: Master Nmap do mapowania sieci i skanowania luk w zabezpieczeniach
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści Mickaela Dorigny'ego opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Wprowadzono zmiany w oryginalnym tekście
+*Ten samouczek jest oparty na oryginalnej treści Mickaela Dorigny'ego opublikowanej na stronie [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Wprowadzono zmiany w oryginalnym tekście.*
 
 
 
@@ -61,9 +61,9 @@ Nmap ma wiele mocnych stron:
 
 
 
-- Potężny i elastyczny**: Nmap może skanować duże sieci i korzystać z zaawansowanych technik wykrywania. Obsługuje protokoły UDP, TCP, ICMP, IPv4 i IPv6 i może wykonywać wykrywanie wersji, skanowanie luk w zabezpieczeniach lub interakcje specyficzne dla protokołu. Jego architektura jest modułowa, w szczególności dzięki skryptom NSE (Nmap Scripting Engine), którym przyjrzymy się w dalszej części tego samouczka.
-- Łatwość użytkowania**: oficjalna dokumentacja jest bogata i najwyższej jakości. Dostępne są również liczne zasoby społecznościowe, które pomogą Ci rozpocząć pracę.
-- Popularność i długowieczność**: Nmap jest punktem odniesienia w swojej dziedzinie od 1998 roku. Aktualna wersja, w momencie tej aktualizacji, to 7.95. Chociaż istnieją inne narzędzia do określonych zadań, Nmap pozostaje niezbędnym narzędziem do mapowania i analizy sieci.
+- **Potężny i elastyczny**: Nmap może skanować duże sieci i korzystać z zaawansowanych technik wykrywania. Obsługuje protokoły UDP, TCP, ICMP, IPv4 i IPv6 i może wykonywać wykrywanie wersji, skanowanie luk w zabezpieczeniach lub interakcje specyficzne dla protokołu. Jego architektura jest modułowa, w szczególności dzięki skryptom NSE (Nmap Scripting Engine), którym przyjrzymy się w dalszej części tego samouczka.
+- **Łatwość użytkowania**: oficjalna dokumentacja jest bogata i najwyższej jakości. Dostępne są również liczne zasoby społecznościowe, które pomogą Ci rozpocząć pracę.
+- **Popularność i długowieczność**: Nmap jest punktem odniesienia w swojej dziedzinie od 1998 roku. Aktualna wersja, w momencie tej aktualizacji, to 7.95. Chociaż istnieją inne narzędzia do określonych zadań, Nmap pozostaje niezbędnym narzędziem do mapowania i analizy sieci.
 
 
 
@@ -87,7 +87,7 @@ Pojawia się także w innych filmach.
 
 
 
-**Informacje zwrotne
+**Informacje zwrotne**
 
 
 
@@ -165,7 +165,7 @@ W tej sekcji przyjrzymy się głównym zastosowaniom narzędzia do skanowania si
 
 
 
-Nmap może być używany do diagnostyki sieci i, szerzej, do monitorowania. W ten sam sposób, w jaki ping może być użyty do określenia, czy dwa hosty się komunikują, Nmap może być użyty do szybkiego określenia, czy host jest aktywny lub czy dana usługa działa. Dzięki [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") możemy uzyskać dokładne dane dotyczące czasu odpowiedzi hosta, trasy przebytej przez pakiety, odpowiedzi wykonanej przez określoną usługę itp.
+Nmap może być używany do diagnostyki sieci i, szerzej, do monitorowania. W ten sam sposób, w jaki ping może być użyty do określenia, czy dwa hosty się komunikują, Nmap może być użyty do szybkiego określenia, czy host jest aktywny lub czy dana usługa działa. Dzięki [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") możemy uzyskać dokładne dane dotyczące czasu odpowiedzi hosta, trasy przebytej przez pakiety, odpowiedzi wykonanej przez określoną usługę itp.
 
 
 
@@ -312,7 +312,7 @@ W tej sekcji dowiemy się, jak zainstalować narzędzie do skanowania sieci Nmap
 
 
 
-Nmap został pierwotnie zaprojektowany do pracy w systemach operacyjnych GNU/Linux. W rezultacie, dzięki swojej długowieczności i popularności, można go znaleźć we wszystkich oficjalnych repozytoriach głównych dystrybucji systemu Unix. W tym poradniku będę używał systemu operacyjnego opartego na Debianie [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Ale możesz go używać w dokładnie taki sam sposób z klasycznego Debiana, CentOS, Red Hat lub czegokolwiek innego!
+Nmap został pierwotnie zaprojektowany do pracy w systemach operacyjnych GNU/Linux. W rezultacie, dzięki swojej długowieczności i popularności, można go znaleźć we wszystkich oficjalnych repozytoriach głównych dystrybucji systemu Unix. W tym poradniku będę używał systemu operacyjnego opartego na Debianie [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Ale możesz go używać w dokładnie taki sam sposób z klasycznego Debiana, CentOS, Red Hat lub czegokolwiek innego!
 
 
 
@@ -433,7 +433,7 @@ Jest to biblioteka, na której opiera się Nmap do zarządzania komunikacją sie
 
 
 
-Podobnie jak w przypadku systemu Linux, można sprawdzić, czy Nmap jest zainstalowany, otwierając wiersz polecenia lub terminal [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") i wpisując następujące polecenie:
+Podobnie jak w przypadku systemu Linux, można sprawdzić, czy Nmap jest zainstalowany, otwierając wiersz polecenia lub terminal [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") i wpisując następujące polecenie:
 
 
 
@@ -485,25 +485,25 @@ Zarówno w systemie Linux, jak i Windows, istnieje wiele przypadków, w których
 
 
 
-- Konstruowanie "surowych" pakietów sieciowych**: Nmap jest zdolny do szerokiego zakresu metod skanowania, w tym zaawansowanej manipulacji i konstrukcji pakietów. Dzieje się tak na przykład, gdy chcemy wykonać skanowanie TCP SYN, które nie respektuje klasycznego _Three-way handshake_ wymiany TCP. Aby to zrobić, Nmap musi użyć funkcji innych niż te natywne dla systemów operacyjnych, które wiedzą tylko, jak przestrzegać dobrych praktyk w komunikacji sieciowej (wywołuje biblioteki "Npcap" i "libcap" widoczne powyżej). To właśnie dlatego, że Nmap nie robi rzeczy w "standardowy" sposób, jest w stanie wywnioskować pewne informacje o systemach operacyjnych, usługach i niektórych podatnościach.
+- Konstruowanie "surowych" pakietów sieciowych: Nmap jest zdolny do szerokiego zakresu metod skanowania, w tym zaawansowanej manipulacji i konstrukcji pakietów. Dzieje się tak na przykład, gdy chcemy wykonać skanowanie TCP SYN, które nie respektuje klasycznego *Three-way handshake* wymiany TCP. Aby to zrobić, Nmap musi użyć funkcji innych niż te natywne dla systemów operacyjnych, które wiedzą tylko, jak przestrzegać dobrych praktyk w komunikacji sieciowej (wywołuje biblioteki "Npcap" i "libcap" widoczne powyżej). To właśnie dlatego, że Nmap nie robi rzeczy w "standardowy" sposób, jest w stanie wywnioskować pewne informacje o systemach operacyjnych, usługach i niektórych podatnościach.
 
 
 
 
 
-- Nasłuchiwanie ruchu sieciowego**: niektóre opcje Nmapa wymagają nasłuchiwania sieci w celu uzyskania określonych informacji. Ta czynność jest uważana za wrażliwą w systemach operacyjnych, ponieważ pozwala również na podsłuchiwanie komunikacji innych aplikacji w systemie. Podobnie jak Wireshark, Nmap potrzebuje do tego określonych uprawnień, które łatwiej uzyskać będąc bezpośrednio w sesji uprzywilejowanej.
+- **Nasłuchiwanie ruchu sieciowego**: niektóre opcje Nmapa wymagają nasłuchiwania sieci w celu uzyskania określonych informacji. Ta czynność jest uważana za wrażliwą w systemach operacyjnych, ponieważ pozwala również na podsłuchiwanie komunikacji innych aplikacji w systemie. Podobnie jak Wireshark, Nmap potrzebuje do tego określonych uprawnień, które łatwiej uzyskać będąc bezpośrednio w sesji uprzywilejowanej.
 
 
 
 
 
-- Nasłuchiwanie na portach uprzywilejowanych**: w systemach operacyjnych porty od 0 do 1024 (zarówno TCP, jak i UDP) są uważane za uprzywilejowane, tj. są w jakiś sposób zarezerwowane dla bardzo konkretnych zastosowań i dlatego są chronione. Chociaż jest to obecnie nieco przestarzały powód, nadal konieczne jest posiadanie pewnych uprawnień do nasłuchiwania na tych portach, co Nmap może być zmuszony zrobić w zależności od tego, jak będzie używany.
+- **Nasłuchiwanie na portach uprzywilejowanych**: w systemach operacyjnych porty od 0 do 1024 (zarówno TCP, jak i UDP) są uważane za uprzywilejowane, tj. są w jakiś sposób zarezerwowane dla bardzo konkretnych zastosowań i dlatego są chronione. Chociaż jest to obecnie nieco przestarzały powód, nadal konieczne jest posiadanie pewnych uprawnień do nasłuchiwania na tych portach, co Nmap może być zmuszony zrobić w zależności od tego, jak będzie używany.
 
 
 
 
 
-- Wysyłanie pakietów UDP:** Podobnie, nasłuchiwanie aplikacji sieciowej na portach UDP (protokół bezstanowy) wymaga uprawnień uprzywilejowanych w systemach operacyjnych. Uprzywilejowana sesja będzie zatem wymagana, jeśli chcesz wykonać skanowanie UDP, dla którego Nmap będzie musiał nasłuchiwać odpowiedzi, aby przeanalizować odpowiedzi na swoje skany.
+- **Wysyłanie pakietów UDP:** Podobnie, nasłuchiwanie aplikacji sieciowej na portach UDP (protokół bezstanowy) wymaga uprawnień uprzywilejowanych w systemach operacyjnych. Uprzywilejowana sesja będzie zatem wymagana, jeśli chcesz wykonać skanowanie UDP, dla którego Nmap będzie musiał nasłuchiwać odpowiedzi, aby przeanalizować odpowiedzi na swoje skany.
 
 
 
@@ -562,13 +562,13 @@ Od teraz pamiętaj, aby skanować tylko hosty w kontrolowanym środowisku, do kt
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Platforma szkoleniowa dla hakerów, Hack The Box stale udostępnia podatne na ataki systemy. Dostępnych jest kilkaset systemów, ale odnowiona pula 20 maszyn jest oferowana bezpłatnie przez cały rok, z dostępem przez OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Platforma szkoleniowa dla hakerów, Hack The Box stale udostępnia podatne na ataki systemy. Dostępnych jest kilkaset systemów, ale odnowiona pula 20 maszyn jest oferowana bezpłatnie przez cały rok, z dostępem przez OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Platforma ta oferuje wiele celowo podatnych na ataki systemów do pobrania, z których można korzystać za pośrednictwem VirtualBox (również darmowe rozwiązanie) lub w inny sposób. Po pobraniu nie ma potrzeby korzystania z VPN - wszystko odbywa się lokalnie.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Platforma ta oferuje wiele celowo podatnych na ataki systemów do pobrania, z których można korzystać za pośrednictwem VirtualBox (również darmowe rozwiązanie) lub w inny sposób. Po pobraniu nie ma potrzeby korzystania z VPN - wszystko odbywa się lokalnie.
 
 
 
@@ -815,7 +815,7 @@ odpowiedź na pakiet TCP SYN wysłany na port 22, aktywny na celu skanowania
 
 
 
-Na powyższym zrzucie ekranu widzimy pakiet TCP SYN/ACK wysłany przez host docelowy**. Port jest aktywny i udostępnia usługę. Nmap potwierdza otrzymanie odpowiedzi, a następnie kończy połączenie (TCP RST/ACK). **W ten sposób wiadomo, że port TCP/22 był aktywny**.
+Na powyższym zrzucie ekranu widzimy pakiet TCP SYN/ACK wysłany przez host docelowy. Port jest aktywny i udostępnia usługę. Nmap potwierdza otrzymanie odpowiedzi, a następnie kończy połączenie (TCP RST/ACK). **W ten sposób wiadomo, że port TCP/22 był aktywny**.
 
 
 
@@ -901,7 +901,7 @@ transmisja pakietów uDP i odbiór ICMP (port nieosiągalny) podczas skanowania 
 
 
 
-Na powyższym zrzucie ekranu widzimy, że Nmap wysyła dużą liczbę pakietów UDP, a w odpowiedzi na większość z nich otrzymuje pakiet ICMP "Destination unreachable (Port unreachable)". Jest to normalne, ponieważ jest to odpowiednia odpowiedź zdefiniowana przez [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122"), gdy port UDP jest nieosiągalny:
+Na powyższym zrzucie ekranu widzimy, że Nmap wysyła dużą liczbę pakietów UDP, a w odpowiedzi na większość z nich otrzymuje pakiet ICMP "Destination unreachable (Port unreachable)". Jest to normalne, ponieważ jest to odpowiednia odpowiedź zdefiniowana przez [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122"), gdy port UDP jest nieosiągalny:
 
 
 
@@ -976,7 +976,7 @@ Jak widzieliśmy, Nmap sam wybiera numer i porty do skanowania, jeśli nie okre�
 
 
 
-**Jak wybierane są te porty?
+**Jak wybierane są te porty?**
 
 
 
@@ -1060,7 +1060,7 @@ Niezależnie od kolejności, Nmap sprawdzi wszystkie te porty i tylko te na doce
 
 
 
-**Skanowanie szeregu portów
+**Skanowanie szeregu portów**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Skanowanie portów TCP i UDP
+**Skanowanie portów TCP i UDP**
 
 
 
@@ -1134,7 +1134,7 @@ To ciekawy sposób na personalizację skanów!
 
 
 
-**Skanowanie wszystkich portów
+**Skanowanie wszystkich portów**
 
 
 
@@ -1174,7 +1174,7 @@ To drugie potrwa dłużej, zwłaszcza w przypadku UDP, ale na pewno nie pominies
 
 
 
-*Uwaga: Opcja "-p-" jest zalecaną metodą skanowania wszystkich portów TCP. W przypadku skanowania UDP zaleca się ograniczenie liczby portów ze względu na wydajność, ponieważ pełne skanowanie wszystkich portów UDP może zająć bardzo dużo czasu
+*Uwaga: Opcja "-p-" jest zalecaną metodą skanowania wszystkich portów TCP. W przypadku skanowania UDP zaleca się ograniczenie liczby portów ze względu na wydajność, ponieważ pełne skanowanie wszystkich portów UDP może zająć bardzo dużo czasu.*
 
 
 
@@ -1347,7 +1347,7 @@ Ale jest w tym coś więcej. Na powyższym zrzucie Wireshark widać, że pakiety
 
 
 
-**Po co wysyłać pakiety TCP na porty w ramach wykrywania sieci?
+**Po co wysyłać pakiety TCP na porty w ramach wykrywania sieci?**
 
 
 
@@ -2165,31 +2165,31 @@ Postawmy sprawę jasno: Nmap nie jest w stanie przeprowadzić pełnego testu pen
 
 
 
-- Ograniczony zasięg**: chociaż skrypty NSE Nmap są potężne, ich zasięg testowy może być ograniczony w porównaniu z innymi wyspecjalizowanymi narzędziami do wykrywania podatności. Niektóre podatności mogą nie być objęte dostępnymi skryptami NSE, takimi jak podatności Active Directory, narażenie wrażliwych danych lub bardziej zaawansowane przypadki podatnych aplikacji internetowych.
+- **Ograniczony zasięg**: chociaż skrypty NSE Nmap są potężne, ich zasięg testowy może być ograniczony w porównaniu z innymi wyspecjalizowanymi narzędziami do wykrywania podatności. Niektóre podatności mogą nie być objęte dostępnymi skryptami NSE, takimi jak podatności Active Directory, narażenie wrażliwych danych lub bardziej zaawansowane przypadki podatnych aplikacji internetowych.
 
 
 
 
 
-- Złożoność podatności**: niektóre typy podatności mogą być trudne do wykrycia za pomocą skryptów NSE ze względu na ich złożoność. Na przykład podatności wymagające złożonej interakcji ze zdalną usługą mogą nie zostać skutecznie wykryte przez Nmap (jak w przypadku nadmiernych uprawnień w udziale plików lub błędu kontroli uprawnień w aplikacji internetowej).
+- **Złożoność podatności**: niektóre typy podatności mogą być trudne do wykrycia za pomocą skryptów NSE ze względu na ich złożoność. Na przykład podatności wymagające złożonej interakcji ze zdalną usługą mogą nie zostać skutecznie wykryte przez Nmap (jak w przypadku nadmiernych uprawnień w udziale plików lub błędu kontroli uprawnień w aplikacji internetowej).
 
 
 
 
 
-- Wykrywanie pasywne**: Nmap koncentruje się głównie na aktywnym skanowaniu w celu wykrycia luk w zabezpieczeniach, co oznacza, że może nie wykrywać skutecznie potencjalnych luk w zabezpieczeniach bez nawiązania aktywnego połączenia z hostami docelowymi. Podatności, które nie ujawniają się podczas aktywnego skanowania, mogą zatem zostać pominięte (jak w przypadku wstrzyknięcia kodu w aplikacji internetowej).
+- **Wykrywanie pasywne**: Nmap koncentruje się głównie na aktywnym skanowaniu w celu wykrycia luk w zabezpieczeniach, co oznacza, że może nie wykrywać skutecznie potencjalnych luk w zabezpieczeniach bez nawiązania aktywnego połączenia z hostami docelowymi. Podatności, które nie ujawniają się podczas aktywnego skanowania, mogą zatem zostać pominięte (jak w przypadku wstrzyknięcia kodu w aplikacji internetowej).
 
 
 
 
 
-- Zależność od aktualizacji**: [Baza danych](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) skryptów NSE Nmapa stale się rozwija, ale może wystąpić opóźnienie między odkryciem nowej luki a dodaniem odpowiedniego skryptu do Nmapa. W rezultacie Nmap może nie zawsze być na bieżąco z najnowszymi lukami.
+- **Zależność od aktualizacji**: [Baza danych](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) skryptów NSE Nmapa stale się rozwija, ale może wystąpić opóźnienie między odkryciem nowej luki a dodaniem odpowiedniego skryptu do Nmapa. W rezultacie Nmap może nie zawsze być na bieżąco z najnowszymi lukami.
 
 
 
 
 
-- Fałszywe alarmy i fałszywe alarmy negatywne**: jak w przypadku każdego narzędzia bezpieczeństwa, skrypty NSE Nmap mogą generować fałszywe alarmy (fałszywe alarmy o podatnościach) lub fałszywe alarmy negatywne (niewykryte podatności). Należy o tym pamiętać podczas analizowania wyników Nmap.
+- **Fałszywe alarmy i fałszywe alarmy negatywne**: jak w przypadku każdego narzędzia bezpieczeństwa, skrypty NSE Nmap mogą generować fałszywe alarmy (fałszywe alarmy o podatnościach) lub fałszywe alarmy negatywne (niewykryte podatności). Należy o tym pamiętać podczas analizowania wyników Nmap.
 
 
 
@@ -2198,7 +2198,7 @@ Dlatego ważne jest, aby zrozumieć, co Nmap robi, a czego nie robi, a także wi
 
 
 
-Niezależnie od tego, czy jesteś administratorem systemu sieciowego, inżynierem bezpieczeństwa, czy nawet CISO, korzystanie z Nmap daje przegląd stanu bezpieczeństwa systemu informatycznego. Jest to ważny pierwszy krok w zabezpieczaniu systemu, który może być regularnie przeprowadzany przez zespół IT. Nie powinien on jednak zastępować interwencji i porad ekspertów [cyberbezpieczeństwa] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), którzy będą w stanie odkryć słabości znacznie bardziej kompleksowo niż Nmap.
+Niezależnie od tego, czy jesteś administratorem systemu sieciowego, inżynierem bezpieczeństwa, czy nawet CISO, korzystanie z Nmap daje przegląd stanu bezpieczeństwa systemu informatycznego. Jest to ważny pierwszy krok w zabezpieczaniu systemu, który może być regularnie przeprowadzany przez zespół IT. Nie powinien on jednak zastępować interwencji i porad ekspertów [cyberbezpieczeństwa](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), którzy będą w stanie odkryć słabości znacznie bardziej kompleksowo niż Nmap.
 
 
 
@@ -2973,7 +2973,7 @@ Możliwość zapisywania wyników skanowania Nmap w formacie XML sprawia, że da
 
 
 
-Zamierzam wspomnieć o kilku narzędziach ofensywnych bez szczegółowego opisywania sposobu ich użycia lub działania. Zakładam, że czytelnik jest zaznajomiony z ich podstawowym zastosowaniem i że już działają. Ta sekcja będzie szczególnie interesująca dla profesjonalistów [cyberbezpieczeństwa] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), osób szkolących się lub tych, którzy zdecydowali się zagłębić w ten temat.
+Zamierzam wspomnieć o kilku narzędziach ofensywnych bez szczegółowego opisywania sposobu ich użycia lub działania. Zakładam, że czytelnik jest zaznajomiony z ich podstawowym zastosowaniem i że już działają. Ta sekcja będzie szczególnie interesująca dla profesjonalistów [cyberbezpieczeństwa](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), osób szkolących się lub tych, którzy zdecydowali się zagłębić w ten temat.
 
 
 
@@ -3062,7 +3062,7 @@ lista usług zaimportowanych z pliku XML do bazy danych Metasploit
 
 
 
-Wreszcie, możemy szybko i łatwo ponownie wykorzystać te dane w module dzięki opcji `-R`, która "przekonwertuje" listę usług uzyskanych jako dane wejściowe dla dyrektywy `RHOSTS`, która służy do określenia celów ataku, który ma zostać przeprowadzony. Oto przykład z modułem `ssh_login`, który umożliwia przeprowadzenie ataku brute force na usługi [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Wreszcie, możemy szybko i łatwo ponownie wykorzystać te dane w module dzięki opcji `-R`, która "przekonwertuje" listę usług uzyskanych jako dane wejściowe dla dyrektywy `RHOSTS`, która służy do określenia celów ataku, który ma zostać przeprowadzony. Oto przykład z modułem `ssh_login`, który umożliwia przeprowadzenie ataku brute force na usługi [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 

@@ -1,0 +1,9 @@
+question: Mbega ni inyigisho?
+answer: Filozofiya yo mu kinjana ca mbere.
+wrong_answers:
+  - Filozofiya y’iki gihe.
+  - Filozofiya ya kera.
+  - Filozofiya y’abatemera Imana.
+explanation: |
+  Ivyigwa vy’abahinga vyari filozofiya yo mu kinjana ca mbere yashaka guhuza ukwizera kwa gikirisu n’ubuhinga bwa Aristote. Yari iganje muri kaminuza zo mu Buraya imbere y’uko filozofiya yo muri iki gihe ivuka.
+reviewed: false

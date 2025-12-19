@@ -1,8 +1,13 @@
-question: Bitcoin 網路中的 Proof of Work 有何用途？
-answer: Proof of Work 可確保資訊的真實性，而無需信任第三方。
+question: Bitcoin 通訊協定如何在建立兩個區塊之間維持一致的平均時間？
+answer: 找到有效 Hash 的難度每 2016 年區塊調整一次。
 wrong_answers:
-  - Proof of Work 用於透過信任第三方來創造新的 bitcoins。
-  - Proof of Work 透過信任第三方來驗證 Bitcoin 交易。
-  - Proof of Work 用於變更 Bitcoin 通訊協定，而不需信任第三方。
-explanation: >-
+  - 礦工數目規範為固定數目。
+  - 區塊的大小調整為 10 MB。
+  - 找到有效 Hash 的獎勵增加了。
+explanation: |
+  Bitcoin 協定透過調整難度，確保兩個區塊之間的平均時間保持不變。
+  間的平均時間保持不變。
+  每隔 2016 個區塊找到一個有效的 Hash。此事件發生
+  不論礦工數目及他們的計算
+  能力。
 reviewed: true

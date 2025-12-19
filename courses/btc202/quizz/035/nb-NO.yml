@@ -1,0 +1,9 @@
+question: Hvilken komponent anbefales for å beskytte en node i tilfelle strømbrudd?
+answer: En omformer
+wrong_answers:
+  - Et ekstra grafikkort
+  - En ekstra ruter
+  - En USB-hub
+explanation: |
+  En inverter forhindrer plutselige nedstengninger i tilfelle strømbrudd og beskytter nodens stabilitet.
+reviewed: true

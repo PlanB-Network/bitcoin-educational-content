@@ -1,0 +1,9 @@
+question: Qual è la funzione principale di un nodo Bitcoin?
+answer: Salvare Blockchain e convalidare transazioni e blocchi
+wrong_answers:
+  - Memorizzare le chiavi private e creare transazioni
+  - Creare nuovi indirizzi per gli utenti
+  - Convertire i bitcoin in valute fiat
+explanation: |
+  Un nodo Bitcoin mantiene una copia del Blockchain e partecipa alla convalida e alla trasmissione di transazioni e blocchi.
+reviewed: true

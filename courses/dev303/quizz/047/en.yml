@@ -1,0 +1,8 @@
+question: What is the primary difference between how Rust normally enforces borrowing rules and how RefCell enforces them?
+answer: Rust normally enforces borrowing rules at compile time, while RefCell enforces them at runtime
+wrong_answers:
+  - Rust normally allows multiple mutable references, while RefCell restricts them to one
+  - Rust normally uses reference counting for safety, while RefCell uses static analysis
+  - Rust normally requires explicit memory management, while RefCell handles it automatically
+explanation: |
+  RefCell's key innovation is moving borrowing rule enforcement from compile time to runtime. Normal Rust references are checked by the compiler during compilation to ensure safety, but RefCell performs these same checks while the program is running. This allows RefCell to provide interior mutability in situations where the compiler's static analysis is too conservative, but comes with the trade-off of potential runtime panics if borrowing rules are violated. The other options incorrectly describe Rust's fundamental safety mechanisms or RefCell's actual behavior.

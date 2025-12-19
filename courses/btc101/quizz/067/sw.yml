@@ -1,12 +1,12 @@
-question: Je, ni mzunguko gani wa kurekebisha ugumu?
-answer: Kila 2016 vitalu.
+question: Je, bitcoins zimehifadhiwa wapi?
+answer: Katika Bitcoin Blockchain.
 wrong_answers:
-  - Kila vitalu 1048.
-  - Kila vitalu 512.
-  - Kila vitalu 4032.
+  - Katika Bitcoin Wallet.
+  - Kwenye kifaa ambapo Wallet imewekwa.
+  - Katika hifadhi ya Shirikisho.
 explanation: |
-  Marekebisho ya ugumu ni utaratibu unaofanyika
-  kila vitalu vya 2016, au karibu wiki mbili, ili kuhakikisha kwamba a
-  block mpya huongezwa kwa Blockchain kila baada ya dakika kumi
-  wastani, bila kujali Hashrate ya kimataifa.
+  Ingawa funguo zako za kibinafsi zimehifadhiwa kwenye Wallet yako, the
+  bitcoins zenyewe zimehifadhiwa kwenye Bitcoin
+  Blockchain, ambayo ni ya umma iliyosambazwa Ledger ndani
+  mtandao wa rika-kwa-rika wa Bitcoin.
 reviewed: true

@@ -36,7 +36,7 @@ blueWallet | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 | 🟢 | 🔴 | 🟢 |
 
 I denne veiledningen setter vi opp en avansert konfigurasjon av Jade Plus med Sparrow Wallet-programvaren i QR-kodemodus. Denne konfigurasjonen er ideell for viderekomne eller erfarne brukere. Hvis du er ute etter en enklere tilnærming for nybegynnere, anbefaler jeg at du tar en titt på denne veiledningen der vi bruker Jade Plus med Green Wallet via en Bluetooth-tilkobling:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Sikkerhetsmodellen Jade Plus
 
@@ -91,7 +91,7 @@ Klikk på "*Setup Jade*".
 
 ![JADE-PLUS-SPARROW](assets/fr/06.webp)
 
-Velg "Avansert oppsett*".
+Velg "Avansert oppsett".
 
 ![Image](assets/fr/07.webp)
 
@@ -103,7 +103,7 @@ Klikk på "*Fortsett*"-knappen for å vise den nye gjenopprettingsfrasen.
 
 ![Image](assets/fr/09.webp)
 
-Jade Plus viser din 12-ord lange huskeregel. **Denne huskeregelen gir deg full, ubegrenset tilgang til alle bitcoinsene dine. Alle som er i besittelse av denne frasen kan stjele pengene dine, selv uten fysisk tilgang til din Jade Plus. Frasen på 12 ord gjenoppretter tilgangen til bitcoinsene dine i tilfelle tap, tyveri eller ødeleggelse av din Jade. Det er derfor svært viktig å lagre den nøye og oppbevare den på et sikkert sted.
+Jade Plus viser din 12-ord lange huskeregel. **Denne huskeregelen gir deg full, ubegrenset tilgang til alle bitcoinsene dine. Alle som er i besittelse av denne frasen kan stjele pengene dine, selv uten fysisk tilgang til din Jade Plus. Frasen på 12 ord gjenoppretter tilgangen til bitcoinsene dine i tilfelle tap, tyveri eller ødeleggelse av din Jade. Det er derfor svært viktig å lagre den nøye og oppbevare den på et sikkert sted.**
 
 Du kan skrive det på pappen som følger med i esken, eller for ekstra sikkerhet anbefaler jeg å gravere det på en sokkel i rustfritt stål for å beskytte det mot brann, oversvømmelse eller kollaps.
 
@@ -111,7 +111,7 @@ Du kan skrive det på pappen som følger med i esken, eller for ekstra sikkerhet
 
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne opplæringen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen
 
@@ -195,7 +195,7 @@ Tast inn PIN-koden din.
 
 ![Image](assets/fr/39.webp)
 
-Gå deretter til [Blockstreams nettsted] (https://jadefw.blockstream.com/pinqr/qrpin.html) for å utveksle QR-koder med oraklet.
+Gå deretter til [Blockstreams nettsted](https://jadefw.blockstream.com/pinqr/qrpin.html) for å utveksle QR-koder med oraklet.
 
 ![Image](assets/fr/40.webp)
 
@@ -213,7 +213,7 @@ Klikk på "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Du kan bruke QR-kodebasen som følger med i Jade Plus-boksen. Velg riktig boks avhengig av om du har valgt en setning på 12 eller 24 ord. Du kan også [skrive ut malen fra Blockstreams nettsted] (https://help.blockstream.com/hc/article_attachments/41928319071769).
+Du kan bruke QR-kodebasen som følger med i Jade Plus-boksen. Velg riktig boks avhengig av om du har valgt en setning på 12 eller 24 ord. Du kan også [skrive ut malen fra Blockstreams nettsted](https://help.blockstream.com/hc/article_attachments/41928319071769).
 
 Jade Plus vil vise hver sone i QR-koden din.
 
@@ -269,7 +269,7 @@ En BIP39-passordfrase er et valgfritt passord som du kan velge fritt, og som leg
 
 Før du konfigurerer dette alternativet på din Jade Plus, anbefales det på det sterkeste at du leser denne artikkelen for å forstå den teoretiske bruken av passordfrasen og unngå feil som kan føre til tap av dine bitcoins :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Når Jade fortsatt er låst (passordfrasen kan bare legges inn når enheten ikke er låst opp), åpner du menyen "*Options*".
 
@@ -314,7 +314,7 @@ Hvis passordfrasen er gyldig, bekrefter du.
 
 Vær oppmerksom på at BIP39-passordfraser er følsomme for store og små bokstaver og skrivefeil. Hvis du skriver inn en passordfrase som er litt annerledes enn den som opprinnelig ble konfigurert, vil Jade ikke rapportere en feil, men vil utlede et annet sett med kryptografiske nøkler som ikke vil være de i den opprinnelige porteføljen din.
 
-Det er derfor viktig at du noterer deg hovednøkkelens fingeravtrykk når du konfigurerer, som du finner nederst i høyre hjørne på skjermen. For eksempel, med passordfrasen `PBN`, er hovednøkkelfingeravtrykket mitt `3AD1AE65`.
+Det er derfor viktig at du noterer deg hovednøkkelens fingeravtrykk når du konfigurerer, som du finner nederst i høyre hjørne på skjermen. For eksempel, med passordfrasen `Plan ₿ Academy`, er hovednøkkelfingeravtrykket mitt `3AD1AE65`.
 
 ![Image](assets/fr/49.webp)
 
@@ -322,19 +322,19 @@ Hver gang du låser opp Jade med passordfrasen din, må du kontrollere at finger
 
 Før du mottar dine første bitcoins i lommeboken din, ** anbefaler jeg deg på det sterkeste å utføre en tom gjenopprettingstest**. Noter litt referanseinformasjon, for eksempel din xpub eller første mottaksadresse, og slett deretter lommeboken på Jade Plus mens den fortsatt er tom (`Options -> Device -> Factory Reset`). Prøv deretter å gjenopprette lommeboken din ved hjelp av papirsikkerhetskopiene av den mnemoniske frasen og en eventuell passordfrase. Sjekk at cookie-informasjonen som genereres etter gjenopprettingen samsvarer med den du opprinnelig skrev ned. Hvis den gjør det, kan du være sikker på at papirsikkerhetskopiene dine er pålitelige. Hvis du vil vite mer om hvordan du gjennomfører en testgjenoppretting, kan du ta en titt på denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Konfigurere lommeboken på Sparrow Wallet
 
 I denne veiledningen presenterer jeg en avansert bruk av Jade Plus ved hjelp av Sparrow Wallet. Denne maskinvarelommeboken er imidlertid kompatibel med mange andre programmer, for eksempel Liana, Nunchuk, Specter, Green og Keeper. Kompatibiliteten varierer når det gjelder tilkoblinger: USB, Bluetooth eller QR-kode (se tabellen i innledningen for detaljer).
 
-Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettstedet] (https://sparrowwallet.com/) på datamaskinen din, hvis du ikke allerede har gjort det.
+Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettstedet](https://sparrowwallet.com/) på datamaskinen din, hvis du ikke allerede har gjort det.
 
 ![Image](assets/fr/50.webp)
 
 Sørg for å kontrollere ektheten og integriteten til programvaren før du installerer den. Hvis du ikke vet hvordan du gjør dette, kan du se denne veiledningen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Når Sparrow Wallet er åpen, klikker du på "*File*"-fanen og deretter på "*New Wallet*".
 
@@ -452,4 +452,4 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Jade Plus i QR-modus. H
 
 Hvis du vil gå videre, anbefaler jeg denne andre veiledningen om Jade Plus, der vi konfigurerer den via Bluetooth med Green-mobilappen:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

@@ -5,9 +5,9 @@ answer: Coinjoin allows you to maintain full control over your funds.
 wrong_answers:
   - Coinjoin requires the temporary relinquishment of custody of the funds.
   - Mixers are safer than coinjoins.
-  - Mixers provide a better quality mixing.
+  - Mixers provide a better quality of mixing.
 
 explanation: |
   The main disadvantage of mixers compared to coinjoins is that they require the user to give up custody of their funds during the mixing process, which exposes them to theft risks.
 
-reviewed: false
+reviewed: true

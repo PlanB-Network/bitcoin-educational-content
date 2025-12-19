@@ -1,0 +1,10 @@
+question: Whirlpool에서 트랜잭션 Tx0의 주요 역할은 무엇인가요?
+answer: UTXO를 균등화합니다.
+wrong_answers:
+  - 첫 번째 믹스를 수행합니다.
+  - 풀에서 UTXO를 제거하려면 다음과 같이 하세요.
+  - 혼합된 UTXO를 사용하려면.
+explanation: |
+  Tx0는 믹싱의 균질성을 보장하기 위해 선택한 풀의 양에 해당하는 단위로 분할하여 CoinJoin용 UTXO를 준비하고 균등화하는 것을 목표로 합니다.
+  
+reviewed: true

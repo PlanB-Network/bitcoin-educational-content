@@ -1,0 +1,9 @@
+question: Ni ibihe bikoresho bibiri vya Lightning Network biboneka kuri Umbrel?
+answer: LND n'umuravyo w'ishimikiro
+wrong_answers:
+  - Amashanyarazi n'Igikoresho
+  - Bitcoin core na Bitcoin Knots.
+  - Gutwara umuravyo n'inkuba
+explanation: |
+  Umutaka ushobora kugufasha guhitamwo hagati ya LND na Core Lightning nk'ugushirwa mu ngiro kwa Lightning Network.
+reviewed: true

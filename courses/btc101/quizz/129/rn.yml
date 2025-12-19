@@ -1,8 +1,8 @@
-question: None Bitcoin Blockchain ni iki?
-answer: Ledger ya bose kandi idahinduka y’ibikorwa vyose vya Bitcoin.
+question: Ni gute urubuga rwa Bitcoin rukora kugira ngo rube ruzimvye cane kugira ngo rukore nabi mu gihe c’amasezerano ya Bitcoin?
+answer: Biciye mu mategeko y’amasezerano n’inzego z’ubutunzi.
 wrong_answers:
-  - Ledger y’ibanga kandi ihinduka y’ibikorwa vyose vya Bitcoin.
-  - Ledger ya bose kandi ihinduka y’ibikorwa vyose vya Bitcoin.
-  - Ledger y’ibanga kandi idahinduka y’ibikorwa vyose vya Bitcoin.
+  - Biciye mu gutegeka no kugenzura bikomeye.
+  - Biciye mu gukoresha ingingo z’umutekano ziteye imbere.
+  - Biciye mu gutera ubwoba ko azocirwa urubanza.
 explanation: >-
 reviewed: true

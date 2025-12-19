@@ -6,4 +6,4 @@ wrong_answers:
   - Because they are more often rejected by the Bitcoin network nodes.
 explanation: |
   If the total group of transactions with the same script type in which we are hiding is small, we are more easily identifiable than in a very large group of transactions.
-reviewed: false
+reviewed: true

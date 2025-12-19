@@ -1,11 +1,9 @@
-question: Hva er statusen til Bitcoin i noen land?
-answer: Forbudt og kriminalisert
+question: Hvilken risiko løper en Lightning-node som publiserer en gammel kanaltilstand?
+answer: En straff
 wrong_answers:
-  - Fullstendig adoptert
-  - Delvis adoptert
-  - Uregulert
-explanation: >-
-  Teksten nevner at noen land har forbudt og kriminalisert
-  bruken av Bitcoin, noe som bidrar til kompleksiteten rundt adopsjonen av Bitcoin basert på kulturer,
-  epoker, og nasjoner.
+  - En advarsel
+  - Ekstra gruvegebyrer
+  - En midlertidig frysing
+explanation: |
+  Protokollen fastsetter en avskrekkende straff som gjør det mulig for den andre parten å hente tilbake alle midlene.
 reviewed: false

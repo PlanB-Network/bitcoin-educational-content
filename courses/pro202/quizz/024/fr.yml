@@ -1,0 +1,8 @@
+question: Quelle est la principale raison pour laquelle les puzzles de script reposant uniquement sur des données publiques sans contrôle de signature sont vulnérables dans le Bitcoin ?
+answer: Les mineurs peuvent copier la solution à partir du pool de mémoire et rediriger le paiement vers eux-mêmes
+wrong_answers:
+  - L'exécution du script devient non déterministe entre les différents nœuds du réseau
+  - Le temps de validation des transactions augmente de façon quadratique avec la complexité du puzzle
+  - Le modèle d'exécution basé sur la pile ne permet pas de traiter en toute sécurité les opérations mathématiques complexes
+explanation: |
+  Les puzzles scriptés qui s'appuient uniquement sur des données publiques (comme les problèmes mathématiques ou les pré-images de hachage) sans vérification de la signature sont vulnérables au minage en amont. Une fois qu'une solution valide apparaît dans le pool de mémoire, n'importe quel mineur peut l'observer, copier la solution et créer sa propre transaction en redirigeant le paiement vers son adresse. C'est la raison pour laquelle les contrats Bitcoin du monde réel incluent presque toujours des contrôles de signature - les signatures lient la solution à une partie spécifique et empêchent les autres de voler le paiement, préservant ainsi des incitations appropriées pour les résolveurs de puzzles.

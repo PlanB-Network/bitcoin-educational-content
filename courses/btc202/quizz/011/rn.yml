@@ -1,0 +1,9 @@
+question: Ni kuki Miner ikeneye urudodo rwa Bitcoin?
+answer: Gukorana n'urubuga no gukwiragiza amabuye yawe
+wrong_answers:
+  - Ku mikono ya generate
+  - Kugira ngo winjize Address yawe yo gutanga muri Coinbase Transaction.
+  - Kugira ngo ugabanye ingorane za Mining.
+explanation: |
+  Abacukuzi bakoresha urudodo kugira ngo bavugane n’urubuga, barungike amabuye yabo, kandi baronke amafaranga.
+reviewed: true

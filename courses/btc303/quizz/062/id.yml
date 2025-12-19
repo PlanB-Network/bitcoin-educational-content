@@ -1,0 +1,9 @@
+question: Menurut definisi sumber terbuka, apa hubungan yang diperlukan antara karya turunan dan persyaratan lisensinya dibandingkan dengan perangkat lunak asli?
+answer: Karya turunan harus diizinkan untuk didistribusikan di bawah persyaratan yang sama dengan lisensi perangkat lunak aslinya
+wrong_answers:
+  - Karya turunan harus didistribusikan di bawah persyaratan lisensi yang lebih ketat daripada perangkat lunak asli
+  - Karya turunan harus dirilis di bawah lisensi yang sama sekali berbeda yang tidak sesuai dengan aslinya
+  - Karya turunan hanya dapat didistribusikan di bawah lisensi hak milik yang mewajibkan pembayaran royalti
+explanation: |
+  Definisi open source secara eksplisit menyatakan bahwa 'lisensi harus mengizinkan modifikasi dan karya turunan, dan harus mengizinkan mereka untuk didistribusikan di bawah persyaratan yang sama dengan lisensi perangkat lunak asli Hal ini memastikan bahwa karya turunan mempertahankan kebebasan yang sama dengan karya aslinya, mencegah seseorang mengambil kode sumber terbuka dan menjadikannya hak milik. Opsi lain melanggar prinsip dasar ini dengan membatasi kebebasan atau mengubah kompatibilitas lisensi.
+reviewed: false

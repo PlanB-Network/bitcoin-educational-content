@@ -1,0 +1,9 @@
+question: Milline Umbreli rakendus võimaldab teil hallata oma Lightning-sõlme täiustatud Interface abil?
+answer: Ride The Lightning
+wrong_answers:
+  - BTCPay välk
+  - Nostr relee
+  - Bitfeed
+explanation: |
+  Ride The Lightning ja ThunderHub pakuvad Lightning-sõlme haldamiseks täielikku veebipõhist Interface.
+reviewed: true

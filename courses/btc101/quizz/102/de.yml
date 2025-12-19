@@ -1,12 +1,11 @@
-question: Was ist eine Methode, um Ihre Bitcoins langfristig zu sichern?
-answer: Das Gravieren Ihrer mnemonischen Phrase auf einem widerstandsfähigen Material wie Stahl.
+question: Was ist die Bedeutung der individuellen Verantwortung bei Bitcoin?
+answer: Sie ist entscheidend, weil Sie für die Backups verantwortlich sind.
 wrong_answers:
-  - Sie in einem Hot Wallet aufzubewahren.
-  - Sie auf einer Handelsplattform zu belassen.
-  - Ihre mnemonische Phrase mit einem Arbeitskollegen zu teilen.
+  - Sie ist wesentlich, weil Sie Bitcoins minen müssen.
+  - Es ist wesentlich, Bitcoins zu kaufen.
+  - Sie ist entscheidend, weil Sie für das Design des Wallets verantwortlich sind.
 explanation: |
-  Das Gravieren Ihrer mnemonischen Phrase auf einem widerstandsfähigen Material wie
-  Stahl schafft eine physische Sicherung Ihrer Schlüssel, die
-  sowohl gegen Wasserschäden als auch Feuer resistent ist, und sichert somit Ihre
-  Bitcoins langfristig.
+  Bei Bitcoin geht finanzielle Souveränität Hand in Hand mit
+  individueller Verantwortung, da man seine Gelder selbst verwahren muss,
+  indem man empfohlene Backup-Verfahren befolgt.
 reviewed: true

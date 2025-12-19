@@ -6,7 +6,7 @@ description: Osta ja myy bitcoineja Bitstack-sovelluksessa
 
 Bitstack on ranskalainen bitcoin-sijoitusalusta, jota AMF sääntelee PSAN. Se tarjoaa Android- ja iOS-käyttöjärjestelmiin saatavilla olevan sovelluksen, jolla bitcoinien ostaminen ja myyminen on helppoa.
 
-Bitstackin erottaa muista sen automaattinen pyöristysjärjestelmä, joka synkronoi käyttäjän pankkitilin ja muuntaa päivittäisten menojen aikana veloitetun summan ja sitä seuraavan korkeamman euron välisen erotuksen suoraan bitcoineiksi. Tämä menetelmä helpottaa *Dollar Cost Averaging* (DCA) -menetelmän soveltamista, mikä mahdollistaa satoshien asteittaisen ja kivuttoman kertymisen. Tämän omaperäisen ominaisuuden lisäksi alusta tarjoaa myös klassisen DCA-järjestelmän, jossa on automaattiset sijoitukset sekä spot-ostot ja -myynnit.
+Bitstackin erottaa sen automaattinen pyöristyssysteemi, joka synkronoi käyttäjän pankkitilin muuntaakseen päivittäisten menojen ja seuraavan euron välisen erotuksen suoraan bitcoineiksi. Tämä menetelmä helpottaa *Dollar Cost Averaging* (DCA) -strategian soveltamista mahdollistamalla satoshien asteittaisen ja kivuttoman kertymisen. Tämän ainutlaatuisen ominaisuuden lisäksi alusta tarjoaa myös perinteisen DCA-järjestelmän automaattisilla sijoituksilla sekä kertaluonteisia ostoja ja myyntejä.
 
 ![Image](assets/fr/01.webp)
 
@@ -51,9 +51,9 @@ Valitse vahva salasana, jolla varmistat tilisi käytön, ja napsauta sitten "*Ja
 
 ![Image](assets/fr/06.webp)
 
-Salasanojen turvalliseen päivittäiseen hallintaan suositellaan erittäin suositeltavaa salasanahallintaohjelman käyttöä. Plan ₿ Network -verkkopalvelusta löydät useita oppaita parhaista olemassa olevista ratkaisuista, kuten Bitwardenista :
+Salasanojen turvalliseen päivittäiseen hallintaan suositellaan erittäin suositeltavaa salasanahallintaohjelman käyttöä. Plan ₿ Academy -verkkopalvelusta löydät useita oppaita parhaista olemassa olevista ratkaisuista, kuten Bitwardenista :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Tämän jälkeen sinua pyydetään vahvistamaan henkilöllisyytesi (KYC). Ranskan säännösten mukaisesti sinua pyydetään antamaan henkilötietosi ja todistamaan henkilöllisyytesi. Täytä ruutuihin sukunimesi, etunimesi ja syntymäaikasi.
 
@@ -110,7 +110,7 @@ Kuten johdannossa mainittiin, Bitstack tarjoaa 3 tapaa sijoittaa Bitcoiniin:
 - Toistuvien ostojen konfigurointi (RPC) ;
 - Menojen automaattinen pyöristäminen.
 
-### Ostaminen käteisellä
+### Tee kertaluonteinen ostos
 
 Jos haluat ostaa bitcoineja kertaluonteisesti markkinahintaan, klikkaa "*Osta*".
 
@@ -126,7 +126,7 @@ Tapahtumasi on nyt vahvistettu.
 
 ### DCA:n perustaminen
 
-Dollarikustannusten keskiarvoistaminen* (DCA) on houkutteleva sijoitusstrategia bitcoinin keräämiseen ja samalla sen volatiliteettiin liittyvien riskien vähentämiseen. Ostamalla säännöllisesti kiinteän määrän hinnasta riippumatta voit tasoittaa hankintakustannuksia ja välttää impulsiivista päätöksentekoa. DCA auttaa vähentämään käyttäytymiseen liittyviä ennakkoluuloja, kuten pelkoa tilaisuuden menettämisestä tai paniikkia hinnan laskiessa, ja mahdollistaa näin ollen bitcoin-säästöjesi hallinnan seesteisellä ja kurinalaisella tavalla.
+Dollarikustannusten keskiarvoistaminen (DCA) on houkutteleva sijoitusstrategia bitcoinin keräämiseen ja samalla sen volatiliteettiin liittyvien riskien vähentämiseen. Ostamalla säännöllisesti kiinteän määrän hinnasta riippumatta voit tasoittaa hankintakustannuksia ja välttää impulsiivista päätöksentekoa. DCA auttaa vähentämään käyttäytymiseen liittyviä ennakkoluuloja, kuten pelkoa tilaisuuden menettämisestä tai paniikkia hinnan laskiessa, ja mahdollistaa näin ollen bitcoin-säästöjesi hallinnan seesteisellä ja kurinalaisella tavalla.
 
 Jos haluat määrittää toistuvan oston (DCA) Bitstackissa, siirry etusivun "*Säästöt*"-osioon ja valitse "*Kertaostot*". Paina sitten "*Jatka*".
 
@@ -184,7 +184,7 @@ Määritä tapahtuman prioriteetti. Jos haluat tehdä maksuttoman noston, valits
 
 ![Image](assets/fr/32.webp)
 
-Jos et tiedä, miten omaisuudenhoitosalkku toimii, tarjoamme opetusohjelmia useimmista saatavilla olevista ratkaisuista [Plan ₿ Networkin "*Lompakko*"-osiossa](https://planb.network/tutorials/wallet).
+Jos et tiedä, miten omaisuudenhoitosalkku toimii, tarjoamme opetusohjelmia useimmista saatavilla olevista ratkaisuista [Plan ₿ Networkin "*Lompakko*"-osiossa](https://planb.academy/tutorials/wallet).
 
 ## Bitcoinin myyminen
 

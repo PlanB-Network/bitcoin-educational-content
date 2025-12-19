@@ -1,0 +1,9 @@
+question: 與 blkNNNN.dat 一起儲存的 revNNNN.dat 檔案有何用途？
+answer: 還原重組時設定的 UTXO
+wrong_answers:
+  - 恢復 Hard Fork 時設定的 UTXO
+  - 在 Hard Fork 期間恢復 Mempool
+  - 在重組期間恢復 Mempool
+explanation: |
+  每個 revNNNN.dat 包含撤銷區塊對 UTXO 集影響所需的資料，讓重組管理變得更容易。
+reviewed: true

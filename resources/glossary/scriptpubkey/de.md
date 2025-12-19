@@ -18,4 +18,4 @@ Die entsprechende `scriptSig` wäre:
 
 ![](../../dictionnaire/assets/35.webp)
 
-> ► *Diese Schrift wird im Englischen manchmal auch als "locking script" bezeichnet
+> ► *Diese Schrift wird im Englischen manchmal auch als "locking script" bezeichnet*

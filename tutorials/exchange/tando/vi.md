@@ -73,15 +73,15 @@ Tando cho phép bạn sử dụng Bitcoin để mua bất cứ thứ gì M-Pesa 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- Quét để thanh toán** :
+- **Quét để thanh toán**:
 
 
 
@@ -95,7 +95,7 @@ Quét để thanh toán là một trong những tùy chọn thanh toán tự đ�
 
 
 
-- Gửi tiền tới Kenya**:
+- Gửi tiền tới **Kenya**:
 
 
 
@@ -121,7 +121,7 @@ Thanh toán hóa đơn từ Lightning Wallet và Tando sẽ chuyển đổi hóa
 
 
 
-- Thanh toán hóa đơn của bạn**:
+- **Thanh toán hóa đơn của bạn**:
 
 
 
@@ -135,7 +135,7 @@ Nhập số thẻ Invoice mà bạn muốn thanh toán, sau đó tiến hành th
 
 
 
-- Mua hàng** :
+- **Mua hàng** :
 
 
 
@@ -159,4 +159,4 @@ Ngày càng có nhiều sáng kiến như Tando xuất hiện trong cộng đồ
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

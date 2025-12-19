@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Förbättra din online-säkerhet med Ledger
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ I den här guiden visar vi hur du aktiverar U2F och FIDO2 för tvåfaktorsautent
 
 
 
-**U2F och FIDO2 stöds på alla Ledger-enheter som är utrustade med den senaste firmware: från version 2.1.0 för Nano X och Nano S classic, och från version 1.1.0 för Nano S Plus. Stax- och Flex-modellerna är kompatibla.
+**U2F och FIDO2 stöds på alla Ledger-enheter som är utrustade med den senaste firmware: från version 2.1.0 för Nano X och Nano S classic, och från version 1.1.0 för Nano S Plus. Stax- och Flex-modellerna är kompatibla.**
 
 
 
@@ -46,7 +46,7 @@ Anslut din Ledger till din dator och lås upp den.
 
 
 
-För att installera applikationen, öppna programvaran [Ledger Live] (https://www.Ledger.com/Ledger-live) och gå sedan till fliken "*My Ledger*". Leta reda på applikationen "*Security Key*" och installera den på din enhet.
+För att installera applikationen, öppna programvaran [Ledger Live](https://www.Ledger.com/Ledger-live) och gå sedan till fliken "*My Ledger*". Leta reda på applikationen "*Security Key*" och installera den på din enhet.
 
 
 
@@ -180,4 +180,4 @@ Jag skulle också rekommendera den här andra handledningen, där vi tittar på 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

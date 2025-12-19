@@ -1,10 +1,9 @@
-question: What does this course suggest about the future of Bitcoin?
-answer: It is not going to disappear.
+question: Which approach structures the evolution of Bitcoin described in this chapter?
+answer: Layered evolution
 wrong_answers:
-  - It will be replaced by a better technology.
-  - It will be banned worldwide.
-  - It will lose its value.
+  - Monolithic blockchain
+  - Native sharding
+  - Generalized onchain execution
 explanation: |
-  The course text suggests that Bitcoin is not going to
-  disappear. On the contrary, the revolution has just begun.
-reviewed: true
+  Bitcoin retains a simple and robust base layer, while higher-level protocols add specific functionalities.
+reviewed: false

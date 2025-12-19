@@ -20,7 +20,7 @@ Etter mer enn fire år med utvikling og bruk er den nå klar til å prøves ut i
 ## Last ned
 
 
-Det første trinnet er definitivt å bestemme hvor du skal laste ned appen. Gå til [official site] (https://nunchuk.io/), der du finner litt dokumentasjon (ikke mye, men det er en begynnelse), en presentasjon av funksjonene samt, mot slutten av siden, alle nedlastingslenkene.
+Det første trinnet er definitivt å bestemme hvor du skal laste ned appen. Gå til [official site](https://nunchuk.io/), der du finner litt dokumentasjon (ikke mye, men det er en begynnelse), en presentasjon av funksjonene samt, mot slutten av siden, alle nedlastingslenkene.
 
 
 
@@ -98,7 +98,7 @@ I vinduet som dukker opp, finner du felter som skal "fylles ut": Velg _Browse_-k
 Du kan finne veiledningen til Sparrow wallet for å laste ned denne Software Wallet
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Deretter kan du overføre .apk-filen fra datamaskinen til telefonen
 
@@ -276,7 +276,7 @@ Gi nøkkelen et navn, og trykk på _Continue_.
 
 
 
-På slutten av disse trinnene vil du bli spurt om du vil legge til en [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) til Mnemonic-frasen din. Hvis du ikke har den nødvendige kunnskapen om hvordan du bruker passphrase, sørger for sikkerhetskopiering eller hvordan det fungerer, anbefaler jeg at du velger _Jeg trenger ikke en passordfrase_.
+På slutten av disse trinnene vil du bli spurt om du vil legge til en [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) til Mnemonic-frasen din. Hvis du ikke har den nødvendige kunnskapen om hvordan du bruker passphrase, sørger for sikkerhetskopiering eller hvordan det fungerer, anbefaler jeg at du velger _Jeg trenger ikke en passordfrase_.
 
 
 
@@ -394,7 +394,7 @@ Du befinner deg i _Home_, der du ser den nyopprettede Wallet som rapporterer sal
 
 
 - Med linseikonet øverst i høyre hjørne kan du gjøre et transaksjonssøk;
-- `View Wallet config` gir tilgang til konfigurasjonsmenyen, der du kan redigere navnet på Wallet og aktivere avanserte alternativer, øverst til høyre (som du ikke kan få skjermbilder av). Her kan du eksportere Wallet-konfigurasjonen, etiketter, erstatte taster, endre [gap limit] (https://planb.network/en/resources/glossary/gap-limit) og mer.
+- `View Wallet config` gir tilgang til konfigurasjonsmenyen, der du kan redigere navnet på Wallet og aktivere avanserte alternativer, øverst til høyre (som du ikke kan få skjermbilder av). Her kan du eksportere Wallet-konfigurasjonen, etiketter, erstatte taster, endre [gap limit](https://planb.academy/en/resources/glossary/gap-limit) og mer.
 
 
 

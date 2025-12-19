@@ -1,0 +1,9 @@
+question: RGB는 디지털 세계에 어떤 역사적 개념을 적용하나요?
+answer: 무기명 상품
+wrong_answers:
+  - 중앙 집중식 데이터베이스
+  - 검증 없는 피어 투 피어 네트워크
+  - 모든 사람이 액세스할 수 있는 오픈 레지스터
+explanation: |
+  RGB은 무기명 증서의 개념을 디지털로 전환한 제품입니다.
+reviewed: false

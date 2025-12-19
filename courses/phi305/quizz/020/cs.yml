@@ -1,0 +1,9 @@
+question: Co se můžeme naučit od Koperníka?
+answer: Že Země obíhá kolem Slunce.
+wrong_answers:
+  - Že je Země placatá.
+  - Země je středem vesmíru.
+  - Že Euklidovy rovnice jsou chybné.
+explanation: |
+  Mikuláš Koperník (1473-1543) se proslavil tím, že dokázal, že Země obíhá kolem Slunce, čímž převrátil naši představu o vesmíru. Tento objev měl zásadní vliv na moderní filozofii a racionalismus.
+reviewed: false

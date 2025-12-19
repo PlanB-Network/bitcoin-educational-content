@@ -20,11 +20,11 @@ Nach mehr als 4 Jahren der Entwicklung und Nutzung ist es nun bereit, in großem
 ## Herunterladen
 
 
-Der erste Schritt ist definitiv die Entscheidung, wo Sie die App herunterladen können. Gehen Sie auf die [offizielle Website] (https://nunchuk.io/), wo Sie einige Dokumentationen (nicht viel, aber ein Anfang), die Präsentation der Funktionen und am Ende der Seite alle Download-Links finden.
+Der erste Schritt ist definitiv die Entscheidung, wo Sie die App herunterladen können. Gehen Sie auf die [offizielle Website](https://nunchuk.io/), wo Sie einige Dokumentationen (nicht viel, aber ein Anfang), die Präsentation der Funktionen und am Ende der Seite alle Download-Links finden.
 
 
 
-📌 In diesem Tutorial zeige ich euch, wie ihr Software Wallet aus dem Github-Repository herunterladet und wie ihr die Version vor der Installation auf eurem Handy überprüft. **Die folgende Prozedur kann nur von deinem Computer aus durchgeführt werden, daher empfehle ich dir, all diese Schritte von deinem Desktop oder Laptop aus zu machen und - nach allen Überprüfungen - die `.apk` Datei auf dein Handy zu übertragen.
+📌 In diesem Tutorial zeige ich euch, wie ihr Software Wallet aus dem Github-Repository herunterladet und wie ihr die Version vor der Installation auf eurem Handy überprüft. **Die folgende Prozedur kann nur von deinem Computer aus durchgeführt werden, daher empfehle ich dir, all diese Schritte von deinem Desktop oder Laptop aus zu machen und - nach allen Überprüfungen - die `.apk` Datei auf dein Handy zu übertragen.**
 
 
 
@@ -98,7 +98,7 @@ In dem sich öffnenden Fenster finden Sie Felder zum "Ausfüllen": Wählen Sie d
 Sie können den Leitfaden zu Sparrow wallet finden, um diesen Software Wallet herunterzuladen
 
 
-https://planb.network/en/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Sie können dann die "apk"-Datei von Ihrem Computer auf Ihr Handy übertragen
 
@@ -276,7 +276,7 @@ Benennen Sie Ihren Schlüssel und drücken Sie _Fortfahren_.
 
 
 
-Am Ende dieser Schritte werden Sie gefragt, ob Sie einen [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) zu Ihrem Mnemonic-Satz hinzufügen möchten. Wenn Sie nicht wissen, wie man passphrase benutzt, wie man es sichert oder wie es funktioniert, empfehle ich Ihnen, _Ich brauche keine Passphrase_ zu wählen.
+Am Ende dieser Schritte werden Sie gefragt, ob Sie einen [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) zu Ihrem Mnemonic-Satz hinzufügen möchten. Wenn Sie nicht wissen, wie man passphrase benutzt, wie man es sichert oder wie es funktioniert, empfehle ich Ihnen, _Ich brauche keine Passphrase_ zu wählen.
 
 
 
@@ -394,7 +394,7 @@ Sie befinden sich in _Home_, wo Sie das neu erstellte Wallet sehen, das den Kont
 
 
 - Über das Linsensymbol in der oberen rechten Ecke können Sie eine Transaktionssuche durchführen;
-- gW-35-Konfiguration anzeigen" ermöglicht den Zugriff auf das Konfigurationsmenü, in dem Sie den Namen des Wallet bearbeiten und die erweiterten Optionen oben rechts aktivieren können (von denen Sie keine Bildschirmfotos erhalten können). Hier können Sie die Wallet-Konfiguration exportieren, Beschriftungen vornehmen, Tasten ersetzen, die [Lückengrenze] (https://planb.network/en/resources/glossary/gap-limit) ändern und mehr.
+- gW-35-Konfiguration anzeigen" ermöglicht den Zugriff auf das Konfigurationsmenü, in dem Sie den Namen des Wallet bearbeiten und die erweiterten Optionen oben rechts aktivieren können (von denen Sie keine Bildschirmfotos erhalten können). Hier können Sie die Wallet-Konfiguration exportieren, Beschriftungen vornehmen, Tasten ersetzen, die [Lückengrenze](https://planb.academy/en/resources/glossary/gap-limit) ändern und mehr.
 
 
 

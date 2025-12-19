@@ -1,0 +1,9 @@
+question: Bitcoin Wallet 的主要功能是什麼？
+answer: 儲存和管理私人密碼匙
+wrong_answers:
+  - 儲存及管理完整的 Blockchain
+  - 檢查區塊有效性
+  - 中繼網路交易
+explanation: |
+  Bitcoin Wallet 管理使比特幣得以使用的私人金鑰，但不執行節點的功能。
+reviewed: true

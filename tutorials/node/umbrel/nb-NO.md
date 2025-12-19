@@ -1,5 +1,5 @@
 ---
-name: Paraply
+name: Umbrel
 description: Oppdag og installer Umbrel - din Bitcoin-node og hjemmeserver
 ---
 
@@ -21,10 +21,10 @@ En Bitcoin-node er en datamaskin som deltar i Bitcoin-nettverket ved å kjøre B
 
 
 
-- Blockchain-lagring**: Opprettholder en komplett, oppdatert kopi av Blockchain Bitcoin
-- Transaksjonsverifisering**: validerer hver transaksjon og blokk i henhold til protokollreglene
-- Formidling av informasjon**: Deler nye transaksjoner og blokker med andre noder
-- Skaper konsensus**: Bidrar til anvendelsen av nettverksregler
+- **Blockchain-lagring**: Opprettholder en komplett, oppdatert kopi av Blockchain Bitcoin
+- **Transaksjonsverifisering**: validerer hver transaksjon og blokk i henhold til protokollreglene
+- **Formidling av informasjon**: Deler nye transaksjoner og blokker med andre noder
+- **Skaper konsensus**: Bidrar til anvendelsen av nettverksregler
 
 
 
@@ -34,11 +34,11 @@ En Bitcoin-node er en datamaskin som deltar i Bitcoin-nettverket ved å kjøre B
 
 
 
-- Konfidensialitet**: Del transaksjonene dine uten å avsløre informasjonen din til tredjeparter
-- Motstand mot sensur**: Ingen kan hindre deg i å bruke Bitcoin
-- Uavhengig verifisering**: Du trenger ikke å stole på andres noder for å verifisere transaksjonene dine
-- Bygge konsensus**: Bidra til anvendelsen av Bitcoin-nettverksreglene
-- Nettverksstøtte**: Bli en aktiv deltaker i nettverksdistribusjon og desentralisering
+- **Konfidensialitet**: Del transaksjonene dine uten å avsløre informasjonen din til tredjeparter
+- **Motstand mot sensur**: Ingen kan hindre deg i å bruke Bitcoin
+- **Uavhengig verifisering**: Du trenger ikke å stole på andres noder for å verifisere transaksjonene dine
+- **Bygge konsensus**: Bidra til anvendelsen av Bitcoin-nettverksreglene
+- **Nettverksstøtte**: Bli en aktiv deltaker i nettverksdistribusjon og desentralisering
 
 
 
@@ -144,7 +144,7 @@ UmbrelOS er den gratis, åpen kildekode-versjonen av Umbrel-operativsystemet. Me
 
 
 
-**Begrensninger
+**Begrensninger**
 
 
 
@@ -173,9 +173,9 @@ Offisielle installasjonslenker :
 
 
 
-- [Installasjon på Raspberry Pi 5] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- [Installasjon på Raspberry Pi 5](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - [Installasjon på x86-systemer (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-x86-Systems)
-- [Installasjon av virtuell maskin] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
+- [Installasjon av virtuell maskin](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
 
 
 
@@ -220,7 +220,7 @@ For denne installasjonen trenger du :
 
 
 
-- Besøk [offisiell nettside] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- Besøk [offisiell nettside](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Last ned den nyeste versjonen av UmbrelOS for Raspberry Pi 5
 
 
@@ -234,7 +234,7 @@ For denne installasjonen trenger du :
 
 
 
-- Last ned og installer [Balena Etcher] (https://www.balena.io/etcher/) på datamaskinen din
+- Last ned og installer [Balena Etcher](https://www.balena.io/etcher/) på datamaskinen din
 
 
 
@@ -268,7 +268,7 @@ For denne installasjonen trenger du :
 
 
 
-**installasjon av microSD-kort
+**Installasjon av microSD-kort**
 
 
 
@@ -295,7 +295,7 @@ For denne installasjonen trenger du :
 
 
 
-**Slå på
+**Slå på**
 
 
 
@@ -365,7 +365,7 @@ Når Umbrel er startet og tilgjengelig via nettleseren, følger du disse trinnen
 
 
 
-**Kontobekreftelse
+**Kontobekreftelse**
 
 
 
@@ -581,7 +581,7 @@ Med denne applikasjonen kan du effektivt overvåke transaksjonene dine, forstå 
 
 
 
-**Lokal tilkobling
+**Lokal tilkobling**
 
 
 
@@ -613,7 +613,7 @@ Med denne applikasjonen kan du effektivt overvåke transaksjonene dine, forstå 
 
 
 
-**Tilgang til parametere
+**Tilgang til parametere**
 
 
 
@@ -628,7 +628,7 @@ Med denne applikasjonen kan du effektivt overvåke transaksjonene dine, forstå 
 
 
 
-**Valg av tilkoblingstype
+**Valg av tilkoblingstype**
 
 
 
@@ -678,7 +678,7 @@ I begge tilfeller må du la alternativene "Bruk SSL" og "Bruk proxy" være avmer
 
 
 
-**Lokal tilkobling
+**Lokal tilkobling**
 
 
 Vert: umbrel.local
@@ -708,7 +708,7 @@ Tor-tilkoblingen er nødvendig hvis du vil ha tilgang til noden utenfor det loka
 Hvis du vil ha mer informasjon om Sparrow Wallet-programvaren, har vi en omfattende veiledning :
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Konklusjon
 
 
@@ -727,8 +727,8 @@ Umbrel er nå klar til bruk. Du deltar aktivt i Bitcoin-nettverket samtidig som 
 
 
 - [Offisielt Umbrel-nettsted](https://umbrel.com)
-- [Umbrel-dokumentasjon] (https://github.com/getumbrel/umbrel/wiki)
-- [App Store Umbrel] (https://apps.umbrel.com)
+- [Umbrel-dokumentasjon](https://github.com/getumbrel/umbrel/wiki)
+- [App Store Umbrel](https://apps.umbrel.com)
 
 
 
@@ -737,7 +737,7 @@ Umbrel er nå klar til bruk. Du deltar aktivt i Bitcoin-nettverket samtidig som 
 
 
 
-- [Bitcoin Core] (https://Bitcoin.org/fr/)
+- [Bitcoin Core](https://Bitcoin.org/fr/)
 - [Electrs](https://github.com/romanz/electrs)
 - [Mempool](https://Mempool.space)
 - [Sparrow Wallet](https://sparrowwallet.com)
@@ -750,5 +750,5 @@ Umbrel er nå klar til bruk. Du deltar aktivt i Bitcoin-nettverket samtidig som 
 
 
 - [Forum Umbrel](https://community.getumbrel.com)
-- [GitHub Umbrel] (https://github.com/getumbrel)
-- [Twitter Umbrel] (https://twitter.com/umbrel)
+- [GitHub Umbrel](https://github.com/getumbrel)
+- [Twitter Umbrel](https://twitter.com/umbrel)

@@ -1,9 +1,9 @@
-question: ビットコインにおける個人の責任の重要性は何ですか？
-answer: バックアップを管理する責任があるため、それが非常に重要です。
+question: 最初に記録されたBitcoin取引は何ですか？
+answer: Satoshi NakamotoとHal Finneyの間の10 BTCの取引です。
 wrong_answers:
-  - ビットコインを採掘する必要があるため、それが本質的に重要です。
-  - ビットコインを購入することが本質的に重要です。
-  - ウォレットのテーマを管理する責任があるため、それが非常に重要です。
+  - 2つのピザのための10,000 BTCの取引。
+  - Satoshi NakamotoとHal Finneyの間の1 BTCの取引。
+  - Laszlo HanyeczとHal Finneyの間の10,000 BTCの取引。
 explanation: |
-  ビットコインでは、金融の主権は個人の責任と密接に関連しています。なぜなら、推奨されるバックアップ手順に従って自分の資金を自己管理する必要があるからです。
+  最初に記録されたBitcoin取引は、Satoshi NakamotoとHal Finneyの間の10 BTCの取引でした。
 reviewed: true

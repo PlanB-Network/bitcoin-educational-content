@@ -1,0 +1,9 @@
+question: 저비용 Bitcoin 결제에 권장되는 솔루션은 무엇인가요?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - 은행 계좌
+  - RGB Layer
+explanation: |
+  Lightning을 사용하면 일일 구매 시 빠르고 저렴한 비용으로 거래할 수 있습니다. 활동적인 사용자에게 이상적인 도구입니다.
+reviewed: false

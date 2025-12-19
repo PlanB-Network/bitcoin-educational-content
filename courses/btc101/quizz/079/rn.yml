@@ -1,11 +1,13 @@
-question: Woshobora gute gukomeza umutekano w’imbere y’igihe wa Bitcoin Wallet yawe?
-answer: Mu kwongerako passphrase kuri Bitcoin yawe Wallet.
+question: Cold Wallet ni iki?
+answer: Wallet iri mu gikoresho c’umubiri kibika imfunguruzo zawe kandi kidahuye na internet.
 wrong_answers:
-  - Mu kwongerako urufunguzo rwa kabiri rw'ibanga kuri Bitcoin Wallet yawe.
-  - Mu kwongerako urufunguzo rwa kabiri rwa bose kuri Bitcoin Wallet yawe.
-  - Mu kwongerako ijambo rya kabiri rya Mnemonic kuri Bitcoin Wallet yawe.
+  - Wallet ariyo Cold ku mubiri yo gukorako.
+  - Wallet idakundwa n’abakoresha Bitcoin.
+  - Wallet igenewe kubika amafaranga makeyi y’ama bitcoins.
 explanation: |
-  Niba utanyuzwe n’umutekano w’ivyawe
-  Bitcoin Wallet, urashobora kwama uyikomeza mu kwongerako .
-  passphrase ku Bitcoin yawe Wallet.
+  Cold Wallet ni ijambo rikoreshwa mu kudondora Bitcoin Wallet.
+  iyo ibitswe ku gikoresho kitahuye n’ivyo .
+  interineti. Ivyo bituma idashobora gushikirwa n’iterabwoba ryo kuri Internet,
+  ariko kandi bisigura ko Wallet idashobora gushikwako cane ku 2019.
+  ibikorwa vy’umusi ku musi.
 reviewed: true

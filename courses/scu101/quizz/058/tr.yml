@@ -5,6 +5,6 @@ wrong_answers:
   - Excel, PowerPoint, Word
   - AutoCAD, SolidWorks, Revit
 explanation: |
-  Bu bölümde Wireshark, Metasploit ve Nmap'in bazı özellikleri sıralanmaktadır
-  siber güvenlikte kullanılan araçlar.
+  Bu bölüm Wireshark, Metasploit ve Nmap gibi siber güvenlikte kullanılan araçların 
+  bazı özellikleri sıralanmaktadır.
 reviewed: true

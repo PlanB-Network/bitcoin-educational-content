@@ -1,0 +1,8 @@
+question: Trong quá trình xác thực giao dịch Bitcoin, một nút cần kiểm tra những gì để đảm bảo mỗi đầu vào được ủy quyền hợp lệ để chi tiêu đầu ra được tham chiếu của nó?
+answer: Khi được thực thi đồng thời, ScriptSig phải mở khóa thành công ScriptPubKey tương ứng.
+wrong_answers:
+  - "Chữ ký số của dữ liệu đầu vào phải khớp chính xác với khóa công khai được nhúng trong dữ liệu đầu ra."
+  - Mã băm giao dịch phải bằng với mã gốc Merkle được lưu trữ trong tiêu đề khối được tham chiếu.
+  - Số tiền đầu vào phải lớn hơn hoặc bằng số tiền đầu ra được chi tiêu.
+explanation: |
+  Hệ thống kịch bản của Bitcoin yêu cầu ScriptSig (kịch bản mở khóa) của mỗi đầu vào phải được thực thi thành công với ScriptPubKey (kịch bản khóa) của đầu ra được tham chiếu để tạo ra kết quả đúng trên ngăn xếp. Mô hình thực thi kịch bản này cho phép các điều kiện chi tiêu linh hoạt hơn là chỉ đơn giản là khớp chữ ký. Các tùy chọn khác mô tả các yêu cầu xác thực không chính xác - chữ ký không cần phải khớp chính xác với các khóa được nhúng, hàm băm giao dịch không được so sánh với các gốc Merkle trong quá trình xác thực đầu vào và các đầu vào riêng lẻ không cần phải vượt quá đầu ra của chúng (chỉ tổng đầu vào mới phải vượt quá tổng đầu ra).

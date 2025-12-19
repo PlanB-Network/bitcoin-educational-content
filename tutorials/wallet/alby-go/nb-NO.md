@@ -16,11 +16,11 @@ description: Veiledning for Alby Go-mobilappen
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(anbefalt)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(uprøvd)*
-- Primal** *(uprøvd)*
-- Minibits** *(uprøvd)*
+- [Alby Hub](https://albyhub.com/) **(anbefalt)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(uprøvd)*
+- **Primal** *(uprøvd)*
+- **Minibits** *(uprøvd)*
 
 
 De fleste NWC-aktiverte tjenester bør fungere. Hvis du tester en ny tjeneste, kan du informere fellesskapet om resultatene!
@@ -33,9 +33,9 @@ Tilgjengelig på de største plattformene:
 
 
 
-- iOS:** [Last ned fra App Store] (https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Last ned fra Google Play] (https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Last ned fra App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Last ned fra Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ Ingen oppblåsthet. Ikke noe mas. Lynrask.
 - 🧷 Legg til, fjern og eksporter lommebøker
 
 
-**Trenger du hjelp?
+**Trenger du hjelp?**
 
 Besøk getalby.com for support og oppdateringer.

@@ -1,0 +1,9 @@
+question: Wie hoch ist die Standardanzahl der ausgehenden Verbindungen, die ein Bitcoin core-Knoten unterhält?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core unterhält standardmäßig 10 ausgehende Verbindungen (8 Full-Relay und 2 Block-Relay-Only).
+reviewed: true

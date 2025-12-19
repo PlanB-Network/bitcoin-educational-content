@@ -1,9 +1,9 @@
 question: Ni ingorane iyihe ikomeye iterwa n’ugutangaza amakuru menshi cane mu mugambi w’iragi?
 answer: Ivyago vy'ubusuma
 wrong_answers:
-  - Ivyago vyo gutakaza
+  - Ivyago vyo kwiba 
   - Ivyago vyo gutakaza agaciro
-  - Ivyago vy'amabwirizwa
+  - Ivyago vyo kugenzurwa
 explanation: |
   Amakuru menshi cane arashobora gutuma abantu b’abanyaruyeri boroherwa no gukora iyo baronse uburenganzira bwo gushika ku mugambi wawe w’iragi.
 reviewed: false

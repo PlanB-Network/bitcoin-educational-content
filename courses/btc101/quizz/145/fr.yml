@@ -1,11 +1,11 @@
-question: De quoi traitait la guerre des blocs en 2017 ?
-answer: Un conflit sur la question de savoir s'il fallait augmenter la taille des blocs pour étendre la capacité de transaction.
+question: Qu'est-ce que le HashRate ?
+answer: Le nombre de calculs de hachage qu'un dispositif de minage peut effectuer par seconde pour résoudre la Preuve de Travail.
 wrong_answers:
-  - Un conflit sur la question de savoir s'il fallait réduire la taille des blocs pour diminuer la capacité de transaction.
-  - Un conflit sur la question de savoir s'il fallait augmenter la récompense de bloc pour inciter les mineurs.
-  - Un conflit sur la question de savoir s'il fallait diminuer la récompense de bloc pour décourager les mineurs.
-explanation: |
-  La guerre des blocs en 2017 était un conflit sur la question de savoir s'il fallait
-  modifier Bitcoin en augmentant la taille des blocs pour étendre
-  la capacité de transaction.
+  - La vitesse à laquelle un dispositif de minage peut résoudre la Preuve de Travail.
+  - Le nombre total de mineurs dans le réseau Bitcoin.
+  - La quantité totale de bitcoins minés en effectuant un certain nombre de tentatives par seconde pour résoudre la Preuve de Travail.
+explanation: >-
+  Le HashRate fait référence au nombre total de tentatives que les mineurs font
+  par seconde pour résoudre la Preuve de Travail. C'est une mesure de la puissance de calcul
+  du réseau Bitcoin.
 reviewed: true

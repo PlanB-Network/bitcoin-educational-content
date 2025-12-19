@@ -1,5 +1,5 @@
 ---
-name: Kiirus Wallet
+name: Speed Wallet
 description: Maksta ja Exchange bitcoinides ja USDT-s kohe
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ Selles õpetuses tutvustame teile kõiki neid aspekte, et muuta teie kogemus Spe
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Alustamine Speed Wallet-ga
 
@@ -79,7 +79,7 @@ Speed Wallet nõuab kasutajakonto loomist. Saate selle luua oma Google'i kontolt
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Kui teie konto on loodud, soovitame teil luua topeltautentimise süsteemi või P
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Selleks minge rakenduse seadistustesse, seejärel aktiveerige topeltautentimine ja biomeetriline kontroll.
 
@@ -161,7 +161,7 @@ Võite ka lihtsalt kasutada oma Lightning Address, kui soovite anda saatjale pai
 
 
 
-- Bitcoinide saatmine Speed Wallet** :
+- **Bitcoinide saatmine Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Valikud **Ostmine** ja **Vahetus** võimaldavad sul Exchange bitcoin'i teiste Sp
 
 
 
-- Osta Bitcoin krediitkaardiga**: Wallet: Speed Wallet on lihtne omandada Bitcoin fiatvaluutadest, mida kasutate iga päev. See sisaldab makseagregaatorit, mis võimaldab teil krediitkaardiga bitcoine maksta.
+- **Osta Bitcoin krediitkaardiga**: Wallet: Speed Wallet on lihtne omandada Bitcoin fiatvaluutadest, mida kasutate iga päev. See sisaldab makseagregaatorit, mis võimaldab teil krediitkaardiga bitcoine maksta.
 
 
 
@@ -201,13 +201,13 @@ Valikud **Ostmine** ja **Vahetus** võimaldavad sul Exchange bitcoin'i teiste Sp
 
 
 
-- Osta Bitcoin teistest krüptovaluutadest**: USDT, USDC bitcoinide eest oma Wallet ja vastupidi. Selle võimaluse kaudu lihtsustab Speed Wallet Bitcoin ostmise ja müümise protsessi, viitamata välistele Exchange platvormidele. Seega saate kaubelda juba 20 000 satoshiga, mis on praeguse kursi järgi umbes 20 dollarit, ilma Speed Wallet-st lahkumata.
+- **Osta Bitcoin teistest krüptovaluutadest**: USDT, USDC bitcoinide eest oma Wallet ja vastupidi. Selle võimaluse kaudu lihtsustab Speed Wallet Bitcoin ostmise ja müümise protsessi, viitamata välistele Exchange platvormidele. Seega saate kaubelda juba 20 000 satoshiga, mis on praeguse kursi järgi umbes 20 dollarit, ilma Speed Wallet-st lahkumata.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Vaadake allpool meie õpetust, kuidas Bitrefilliga alustada.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Teenida preemiaid
 
@@ -327,13 +327,13 @@ Lehel **Wallet** valiku **Settings** jaotises **Mini Apps** saate kohandada ja h
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Kiirus Wallet ei ole ainult mobiilile!
 
 
 
-Lisaks mobiilirakendusele pakub Speed Wallet ka [Chrome Web extension] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), mille saate turvaliste tehingute tegemiseks lisada oma arvuti Google Chrome'i brauserisse.
+Lisaks mobiilirakendusele pakub Speed Wallet ka [Chrome Web extension](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), mille saate turvaliste tehingute tegemiseks lisada oma arvuti Google Chrome'i brauserisse.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet paneb erilist rõhku Bitcoin ja stabiilse mündi integreerimisele j
 
 
 
-Alates [Speed Business] (https://www.tryspeed.com/) on teil Bitcoin vastuvõtmiseks ühtne makseagregaator, mida saate kasutada oma kaupluses, nii veebis kui ka füüsilises kaupluses.
+Alates [Speed Business](https://www.tryspeed.com/) on teil Bitcoin vastuvõtmiseks ühtne makseagregaator, mida saate kasutada oma kaupluses, nii veebis kui ka füüsilises kaupluses.
 
 
 
@@ -375,25 +375,25 @@ Peamiselt keskendudes maksetele, leiate järgmised võimalused:
 
 
 
-- Online-maksed**: Selle valikuga saate oma digitaalsete toodete eest maksevahendina vastu võtta Bitcoin makselinkide, arvete ja tellimuste kaudu.
+- **Online-maksed**: Selle valikuga saate oma digitaalsete toodete eest maksevahendina vastu võtta Bitcoin makselinkide, arvete ja tellimuste kaudu.
 
 
 
 
 
-- Kohapealsed maksed**: Maksete kogumiseks teie kaupluses.
+- **Kohapealsed maksed**: Maksete kogumiseks teie kaupluses.
 
 
 
 
 
-- Kohesed maksed**: Võimalus, mis võimaldab teil hallata tagasimakseid, väljamakseid, kulusid ja töötajate palgalehti otse Speed Business Interface-st.
+- **Kohesed maksed**: Võimalus, mis võimaldab teil hallata tagasimakseid, väljamakseid, kulusid ja töötajate palgalehti otse Speed Business Interface-st.
 
 
 
 
 
-- Platvormi maksed**: Ühendage oma Speed Businessi konto väliste vahenditega, mida kasutate ülekannete ja maksete tegemiseks nendele platvormidele.
+- **Platvormi maksed**: Ühendage oma Speed Businessi konto väliste vahenditega, mida kasutate ülekannete ja maksete tegemiseks nendele platvormidele.
 
 
 
@@ -401,4 +401,4 @@ Olete jõudnud meie Speed Wallet õpetuse lõppu. Kui leidsite selle õpetuse ka
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

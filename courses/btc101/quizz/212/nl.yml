@@ -1,12 +1,10 @@
-question: Hoe beschrijft deze cursus Bitcoin?
-answer: Een multidisciplinair onderwerp.
+question: Wat suggereert deze cursus over de toekomst van Bitcoin?
+answer: Het zal niet verdwijnen.
 wrong_answers:
-  - Een eenvoudig onderwerp.
-  - Een fysiek onderwerp.
-  - Een eendisciplinair vak.
+  - Het zal worden vervangen door een betere technologie.
+  - Het zal wereldwijd verboden worden.
+  - Het zal zijn waarde verliezen.
 explanation: |
-  Bitcoin wordt beschreven als een multidisciplinair onderwerp omdat
-  het vragen oproept met betrekking tot verschillende gebieden, waaronder
-  cryptografie, speltheorie, economie en monetair beleid,
-  computerwetenschap, filosofie, energie, wetten en regelgeving.
+  De cursustekst suggereert dat Bitcoin niet zal
+  verdwijnt. Integendeel, de revolutie is net begonnen.
 reviewed: true

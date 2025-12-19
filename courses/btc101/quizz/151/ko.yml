@@ -1,0 +1,8 @@
+question: Bitcoin 네트워크에서 Proof of Work의 목적은 무엇인가요?
+answer: Proof of Work는 제3자를 신뢰하지 않고도 정보의 진실성을 보장합니다.
+wrong_answers:
+  - Proof of Work는 제3자를 신뢰하여 새로운 비트코인을 생성하는 데 사용됩니다.
+  - Proof of Work는 제3자를 신뢰하여 Bitcoin 거래를 확인하는 데 사용됩니다.
+  - Proof of Work은 제3자를 신뢰하지 않고 Bitcoin 프로토콜을 변경하는 데 사용됩니다.
+explanation: >-
+reviewed: true

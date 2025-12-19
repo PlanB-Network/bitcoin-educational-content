@@ -1,5 +1,5 @@
 ---
-name: İlköğretim İşletim Sistemi
+name: Elementary OS
 description: Windows ve MacOS için ideal yedek
 ---
 
@@ -11,7 +11,7 @@ Elementary OS, birçok günlük kullanım için basit, hızlı ve kararlı olaca
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Neden Elementary OS'yi seçmelisiniz
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Basitlik ve kullanım kolaylığı**: Elementary OS'nin grafiksel Interface'i, MacOs ve Windows'unkilerin ortasındadır. Bu aşinalık, deneyimsiz kullanıcılar için bile benimsenmesini kolaylaştırır.
+- **Basitlik ve kullanım kolaylığı**: Elementary OS'nin grafiksel Interface'i, MacOs ve Windows'unkilerin ortasındadır. Bu aşinalık, deneyimsiz kullanıcılar için bile benimsenmesini kolaylaştırır.
 
 
 
 
 
-- Güvenlik**: Çoğu Linux dağıtımı gibi Elementary OS de yüksek güvenlik seviyesinden faydalanır. Düzenli güncellemeler, hak yönetimi ve yaygın virüslerin bulunmaması onu güvenilir bir sistem haline getirir.
+- **Güvenlik**: Çoğu Linux dağıtımı gibi Elementary OS de yüksek güvenlik seviyesinden faydalanır. Düzenli güncellemeler, hak yönetimi ve yaygın virüslerin bulunmaması onu güvenilir bir sistem haline getirir.
 
 
 
 
 
-- Hız**: Elementary OS hafif bir dağıtımdır. Az kaynak gerektirir, bu da onu hızlı ve mütevazı yapılandırmalara sahip bilgisayarlar için uygun hale getirir.
+- **Hız**: Elementary OS hafif bir dağıtımdır. Az kaynak gerektirir, bu da onu hızlı ve mütevazı yapılandırmalara sahip bilgisayarlar için uygun hale getirir.
 
 
 
 
 
-- Ücretsiz**: Sistem tamamen ücretsizdir. Ancak, indirdiğinizde geliştiricileri desteklemek için bağışta bulunabilirsiniz.
+- **Ücretsiz**: Sistem tamamen ücretsizdir. Ancak, indirdiğinizde geliştiricileri desteklemek için bağışta bulunabilirsiniz.
 
 
 
 
 
-- Aktif topluluk**: Elementary OS etrafındaki topluluk çeşitli ve duyarlıdır. Zorluklarla karşılaşırsanız, forumlarda veya sosyal ağlarda kolayca yardım bulabilirsiniz.
+- **Aktif topluluk**: Elementary OS etrafındaki topluluk çeşitli ve duyarlıdır. Zorluklarla karşılaşırsanız, forumlarda veya sosyal ağlarda kolayca yardım bulabilirsiniz.
 
 
 
@@ -61,7 +61,7 @@ Kuruluma başlamadan önce lütfen aşağıdaki ekipmana sahip olduğunuzdan emi
 
 
 - En az 12 GB'lık bir **USB anahtarı**
-- En az 4 GB RAM** bellek
+- En az 4 GB **RAM** bellek
 - Rahat kullanım için 20 GB** veya daha büyük bir **Hard diski
 
 
@@ -70,7 +70,7 @@ Kuruluma başlamadan önce lütfen aşağıdaki ekipmana sahip olduğunuzdan emi
 
 
 
-Resmi işletim sistemi web sitesine [elementary] (https://elementary.io/) gidin ve projeyi desteklemek için bir miktar seçin. Bu adım isteğe bağlıdır.
+Resmi işletim sistemi web sitesine [elementary](https://elementary.io/) gidin ve projeyi desteklemek için bir miktar seçin. Bu adım isteğe bağlıdır.
 
 
 ISO görüntüsünü ücretsiz olarak indirmek isterseniz, **"Diğer "** alanına 0 girin ve sistem ISO görüntüsünü indirmeye başlayın.
@@ -316,7 +316,7 @@ Uzun süreli kullanımdan önce, sistemi en son yamalarla güncellemek önemlidi
 
 
 
-AppCenter'a** girin ve sağ üst köşedeki güncelleme simgesine tıklayın. Güncellemelerin listelenmesini bekleyin, ardından yüklemeyi başlatmak için **"Tümünü Güncelle "** seçeneğine tıklayın.
+AppCenter'a girin ve sağ üst köşedeki güncelleme simgesine tıklayın. Güncellemelerin listelenmesini bekleyin, ardından yüklemeyi başlatmak için **"Tümünü Güncelle"** seçeneğine tıklayın.
 
 
 
@@ -380,4 +380,4 @@ Elementary OS artık makinenizde çalışır durumda. Basitlik, hafiflik ve zara
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

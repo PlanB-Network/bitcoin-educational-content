@@ -1,11 +1,13 @@
-question: Wat betekent het voor Bitcoin om een neutrale valuta te zijn?
-answer: Het wordt door geen enkele entiteit of instelling gecontroleerd.
+question: Wat is de Onafhankelijkheidsverklaring van Cyberspace?
+answer: Een tekst die beweert dat cyberspace een ander domein is dan de fysieke sfeer en niet aan dezelfde wetten moet worden onderworpen.
 wrong_answers:
-  - Het wordt gecontroleerd door een enkele entiteit of instelling.
-  - Het wordt gereguleerd door de overheid.
-  - Het wordt alleen gebruikt voor grote transacties.
+  - Een verklaring dat Bitcoin onafhankelijk is van traditionele financiële systemen.
+  - Een tekst die beweert dat cyberspace moet worden gecontroleerd door overheidsregulering.
+  - Een verklaring die staat voor de onafhankelijkheid van de piratenbeweging van elke regelgeving.
 explanation: |
-  Bitcoin is een neutrale valuta, wat betekent dat het niet wordt gecontroleerd
-  door geen enkele entiteit of instelling, dus elke gebruiker heeft dezelfde
-  rechten. Dit is een belangrijk aspect van de decentralisatie.
+  De Onafhankelijkheidsverklaring van Cyberspace werd
+  geschreven door John Perry Barlow in 1996. Dit document stelt
+  dat cyberspace een aparte ruimte is ten opzichte van de fysieke
+  gebied is, zodat industriële overheden daar hun
+  autoriteit daar niet kunnen afdwingen.
 reviewed: true

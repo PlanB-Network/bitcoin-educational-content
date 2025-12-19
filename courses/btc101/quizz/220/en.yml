@@ -1,11 +1,9 @@
-question: What does this course suggest about the pace of learning about Bitcoin?
-answer: It is complicated to assimilate everything at once, so take your time.
+question: Which mechanism links a sidechain to Bitcoin?
+answer: Two-way peg
 wrong_answers:
-  - It is easy to learn everything at once.
-  - It is impossible to learn everything about Bitcoin.
-  - It is unnecessary to learn everything about Bitcoin.
+  - Payment channel
+  - Proof of Stake
+  - Sharding
 explanation: |
-  The course suggests that there is so much to explore with
-  Bitcoin that it is complicated to assimilate everything at
-  once, so one should take their time.
-reviewed: true
+  The two-way peg mechanism allows BTC to be locked on Bitcoin and represented on the sidechain.
+reviewed: false

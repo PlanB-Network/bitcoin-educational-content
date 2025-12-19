@@ -1,0 +1,9 @@
+question: Šta čini Bitcoin-ovu obradu transakcija otpornom na cenzuru?
+answer: Redosled transakcija obavlja se kolektivno od strane dinamičkog skupa rudara kojem se svako može pridružiti ili napustiti
+wrong_answers:
+  - Validacija transakcija je šifrovana korišćenjem naprednih kriptografskih protokola koje vlade ne mogu razbiti.
+  - Evidencija transakcija se čuva na više rezervnih servera koje kontrolišu različite pouzdane organizacije.
+  - Naknade za transakcije se automatski prilagođavaju kako bi se sprečili ekonomski napadi centralizovanih vlasti.
+explanation: |
+  Bitcoin postiže otpornost na cenzuru kroz decentralizaciju rudara, gde se redosled transakcija sprovodi kolektivno od strane svih rudara koji odluče da učestvuju. Ovo stvara dinamičan sistem gde svako može slobodno da se pridruži ili napusti mining proces, eliminišući bilo koju tačku kontrole koja bi mogla biti pod pritiskom da cenzuriše transakcije. Pogrešni odgovori opisuju tehničke karakteristike, pouzdane strane ili ekonomske mehanizme koji ne rešavaju suštinsko pitanje decentralizovane kontrole nad obradom transakcija.
+reviewed: false

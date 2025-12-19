@@ -11,4 +11,4 @@ Düğümlerin çoğunun Bitcoin core'de belirlenen varsayılan konfigürasyonlar
 Örneğin, hiçbir ücret tahsis etmeyen bir işlem hem mutabakat kurallarına göre geçerlidir hem de standart değildir çünkü `minRelayTxFee` parametresi için Bitcoin core'in varsayılan politikası `0.00001`dir (BTC/kB cinsinden).
 
 
-> ► *"Mempool kuralları" terimi bazen standardizasyon kurallarını ifade etmek için de kullanılır
+> ► *"Mempool kuralları" terimi bazen standardizasyon kurallarını ifade etmek için de kullanılır*

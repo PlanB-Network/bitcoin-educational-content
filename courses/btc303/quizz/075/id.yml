@@ -1,0 +1,9 @@
+question: Menurut perspektif Gregory Maxwell tentang penilaian tingkat keparahan kerentanan, pendekatan apa yang harus dilakukan oleh pengembang saat mengevaluasi dampak potensial dari masalah keamanan yang ditemukan?
+answer: Perlakukan kerentanan sebagai lebih parah dari yang diketahui saat ini dan asumsikan bahwa kerentanan tersebut dapat dengan mudah dieksploitasi meskipun terlihat sulit untuk dieksploitasi
+wrong_answers:
+  - Fokus hanya pada dampak langsung yang dapat diamati dan kategorikan kerentanan berdasarkan metode eksploitasi yang diketahui saat ini
+  - Memprioritaskan kerentanan berdasarkan kompleksitas teknisnya dan menunda perbaikan untuk masalah yang secara teoritis sulit dieksploitasi
+  - Mengevaluasi setiap kerentanan secara terpisah tanpa mempertimbangkan bagaimana beberapa masalah kecil dapat digabungkan untuk menciptakan risiko keamanan yang besar
+explanation: |
+  Maxwell berpendapat bahwa pengembang harus memperlakukan kerentanan lebih parah daripada yang terlihat karena masalah yang sulit dieksploitasi dapat menjadi sepele dengan teknik yang tepat, dan masalah yang tampaknya kecil dapat meningkat menjadi ancaman serius. Dia menekankan bahwa bug kinerja sederhana dapat digunakan untuk mempartisi jaringan dan memungkinkan serangan double-spending. Pendekatan konservatif ini mengakui bahwa pengembang pada awalnya mungkin tidak memahami potensi eksploitasi penuh dari suatu kerentanan, sehingga lebih bijaksana untuk mengasumsikan skenario terburuk daripada meremehkan ancaman.
+reviewed: false

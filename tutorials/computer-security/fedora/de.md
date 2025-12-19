@@ -40,25 +40,25 @@ Unter der Vielzahl der verfügbaren Linux-Distributionen sticht Fedora vor allem
 
 
 
-- Modularität**: Da Fedora mit verschiedenen Prozessorarchitekturen kompatibel ist, kann es auf den meisten Computern installiert werden, auch auf solchen mit geringer Leistung, und passt sich perfekt an Ihre Bedürfnisse an.
+- **Modularität**: Da Fedora mit verschiedenen Prozessorarchitekturen kompatibel ist, kann es auf den meisten Computern installiert werden, auch auf solchen mit geringer Leistung, und passt sich perfekt an Ihre Bedürfnisse an.
 
 
 
 
 
-- Ein einfaches, intuitives Interface**: Fedora kombiniert ein modernes grafisches Interface mit einem leistungsstarken Kommandozeilen-Interface, wodurch es für alle Profile einfach zu bedienen ist.
+- **Ein einfaches, intuitives Interface**: Fedora kombiniert ein modernes grafisches Interface mit einem leistungsstarken Kommandozeilen-Interface, wodurch es für alle Profile einfach zu bedienen ist.
 
 
 
 
 
-- Kernel-Stabilität**: Fedora basiert auf Red Hat und ist bekannt für die Zuverlässigkeit seiner Updates, insbesondere der Kernel-Updates, die dank der kostenlosen Beiträge einer großen Community ohne größere Fehler durchgeführt werden.
+- **Kernel-Stabilität**: Fedora basiert auf Red Hat und ist bekannt für die Zuverlässigkeit seiner Updates, insbesondere der Kernel-Updates, die dank der kostenlosen Beiträge einer großen Community ohne größere Fehler durchgeführt werden.
 
 
 
 
 
-- Schnelle, einfache Installation**: Mit einer Image-Größe von nur 3 GB ist die Installation schnell und einfach, auch auf Rechnern mit begrenzten Ressourcen.
+- **Schnelle, einfache Installation**: Mit einer Image-Größe von nur 3 GB ist die Installation schnell und einfach, auch auf Rechnern mit begrenzten Ressourcen.
 
 
 
@@ -72,19 +72,19 @@ Abhängig von Ihrem Profil und Ihrer Nutzung bietet Fedora Editionen, die Ihren 
 
 
 
-- Fedora Workstation**: Diese Edition ist ideal für den privaten und/oder professionellen Einsatz auf Ihren Computern und enthält allgemeine Dienstprogramme wie Browser, eine Office-Suite (Texteditoren) und Software zur Medienwiedergabe.
+- **Fedora Workstation**: Diese Edition ist ideal für den privaten und/oder professionellen Einsatz auf Ihren Computern und enthält allgemeine Dienstprogramme wie Browser, eine Office-Suite (Texteditoren) und Software zur Medienwiedergabe.
 
 
 
 
 
-- Fedora Server**: Diese Edition ist der Serververwaltung gewidmet. Fedora Server enthält eine Vielzahl von Tools, die Ihnen bei der Bereitstellung und Verwaltung von Servern in Ihrem eigenen Umfang helfen.
+- **Fedora Server**: Diese Edition ist der Serververwaltung gewidmet. Fedora Server enthält eine Vielzahl von Tools, die Ihnen bei der Bereitstellung und Verwaltung von Servern in Ihrem eigenen Umfang helfen.
 
 
 
 
 
-- Fedora CoreOS**: Möchten Sie Cloud-Anwendungen einfach ausführen und bereitstellen? Fedora CoreOS ist die Edition, die Ihnen die Werkzeuge zum Erstellen und Verwalten von Images, z. B. mit Docker und Kubernetes, bietet.
+- **Fedora CoreOS**: Möchten Sie Cloud-Anwendungen einfach ausführen und bereitstellen? Fedora CoreOS ist die Edition, die Ihnen die Werkzeuge zum Erstellen und Verwalten von Images, z. B. mit Docker und Kubernetes, bietet.
 
 
 
@@ -103,7 +103,7 @@ Die Installation von Fedora Workstation erfordert die folgende Hardwarekonfigura
 
 - Ein USB-Stick mit mindestens **8 GB** zum Booten des Betriebssystems.
 - Mindestens **40 GB freier Speicherplatz** auf der Hard-Festplatte Ihres Computers.
-- 4 GB RAM** für ein reibungsloses Erlebnis.
+- 4 GB **RAM** für ein reibungsloses Erlebnis.
 
 
 
@@ -126,7 +126,7 @@ Sie können die [Fedora Workstation] Edition (https://fedoraproject.org/fr/works
 
 
 
-Um Fedora zu installieren, müssen Sie einen bootfähigen USB-Stick mit einer Software wie [Balena Etcher] (https://etcher.balena.io/) erstellen.
+Um Fedora zu installieren, müssen Sie einen bootfähigen USB-Stick mit einer Software wie [Balena Etcher](https://etcher.balena.io/) erstellen.
 
 
 
@@ -156,7 +156,7 @@ Schalten Sie Ihren Computer ein und rufen Sie das BIOS während des Starts auf, 
 
 
 
-Wählen Sie in den Boot-Optionen Ihren USB-Stick als primäres Boot-Gerät aus. Wenn Sie diese Auswahl bestätigen, wird Ihr Computer neu gestartet und das Fedora-Installationsprogramm** auf dem USB-Stick wird automatisch gestartet.
+Wählen Sie in den Boot-Optionen Ihren USB-Stick als primäres Boot-Gerät aus. Wenn Sie diese Auswahl bestätigen, wird Ihr Computer neu gestartet und das **Fedora-Installationsprogramm** auf dem USB-Stick wird automatisch gestartet.
 
 
 
@@ -169,7 +169,7 @@ In diesem Stadium haben Sie die folgenden Möglichkeiten:
 
 
 
-- Medium testen**: Mit dieser Option können Sie die Integrität des USB-Sticks überprüfen und sicherstellen, dass alle für eine korrekte Installation erforderlichen Abhängigkeiten vorhanden sind. Dies ist ein optionaler Schritt, der jedoch empfohlen wird, wenn Sie Zweifel am USB-Stick haben.
+- **Medium testen**: Mit dieser Option können Sie die Integrität des USB-Sticks überprüfen und sicherstellen, dass alle für eine korrekte Installation erforderlichen Abhängigkeiten vorhanden sind. Dies ist ein optionaler Schritt, der jedoch empfohlen wird, wenn Sie Zweifel am USB-Stick haben.
 
 
 
@@ -183,7 +183,7 @@ In diesem Stadium haben Sie die folgenden Möglichkeiten:
 
 
 
-- Fedora starten**: Damit wird Fedora im "Live"-Modus gestartet, ohne Installation.
+- **Fedora starten**: Damit wird Fedora im "Live"-Modus gestartet, ohne Installation.
 
 
 
@@ -368,9 +368,9 @@ Fedora enthält standardmäßig die Office-Suite **LibreOffice**, die mehrere n�
 
 
 
-- Writer** für die Textverarbeitung.
-- Calc** für Tabellenkalkulationen.
-- Impress** zum Erstellen von Präsentationen.
+- **Writer** für die Textverarbeitung.
+- **Calc** für Tabellenkalkulationen.
+- **Impress** zum Erstellen von Präsentationen.
 
 
 ## Installation von Anwendungen
@@ -441,4 +441,4 @@ Jetzt ist Ihr Fedora-System auf dem neuesten Stand und bereit für alle Ihre tä
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

@@ -1,12 +1,9 @@
-question: Qual è il legame tra Bitcoin e il il futuro della tecnologia e della società?
-answer: Bitcoin è una rivoluzione tecnologica che consente lo scambio di valore senza alcuna terza parte fidata.
+question: Qual è una delle principali caratteristiche del protocollo Bitcoin?
+answer: È neutrale nei confronti di tutti i suoi utenti.
 wrong_answers:
-  - Bitcoin è una forma di tecnologia AI che consente alle persone di scambiare informazioni tramite un server centrale.
-  - Bitcoin è uno strumento per controllare la popolazione mondiale, consentendo l'eliminazione della povertà.
-  - Bitcoin è un metodo per i governi di tracciare le transazioni finanziarie dei loro cittadini.
-explanation: |
-  Il testo spiega che Bitcoin, come internet per i mezzi
-  di comunicazione, è una rivoluzione tecnologica che
-  crea la possibilità di nuove modalità di organizzazione su larga scala,
-  portandoci la possibilità di scambiare valore senza alcuna terza parte fidata.
+  - Favorisce certi utenti rispetto ad altri.
+  - È di parte verso certi utenti.
+  - porta beneficio solo ad un gruppo selezionato di utenti.
+explanation: >-
+  Il testo menziona che il protocollo Bitcoin è neutrale nei confronti di tutti i suoi utenti.
 reviewed: vero

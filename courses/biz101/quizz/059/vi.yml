@@ -1,9 +1,9 @@
-question: Which two wallet types are considered in the Starter profile?
-answer: Custodial and non-custodial Lightning wallets
+question: Hai loại wallet nào được coi là có trong hồ sơ Starter?
+answer: Ví Lightning lưu ký và không lưu ký
 wrong_answers:
-  - Hot and cold storage Bitcoin wallets
-  - Multisig and paper Bitcoin wallets
-  - Hardware and brain Lightning wallets
+  - Ví Hot và ví lưu trữ lạnh Bitcoin
+  - Ví Multisig và ví giấy Bitcoin
+  - Phần cứng và não Ví Lightning
 explanation: |
-  The Starter profile uses either custodial or non-custodial Lightning wallets.
-reviewed: false
+  Hồ sơ Starter sử dụng ví Lightning lưu ký hoặc không lưu ký.
+reviewed: true

@@ -1,11 +1,11 @@
-question: AMF nedir?
-answer: Autorité des Marchés Financiers.
+question: Bitcoin satın almanın risklerinden biri nedir?
+answer: Fiyatı 0'a kadar düşebilir.
 wrong_answers:
-  - Amerikan Para Fonu.
-  - Mining Tesisleri Birliği.
-  - Otomatik Para Akışı.
+  - Kolayca çalınabilir.
+  - Çoğaltılabilir.
+  - Fiziksel olarak kaybolabilir.
 explanation: |
-  AMF veya Autorité des Marchés Financiers, bir Fransız
-  bitcoinlerin satılabileceği platformları düzenleyen kuruluş
-  aldım.
+  Kurs metninde Bitcoin'in oldukça uçucu bir madde olduğundan bahsedilmektedir
+  finansal varlıktır ve fiyatı 0'a düşebilir, bu da bir
+  gW-1'in satın alınmasıyla ilgili riskler.
 reviewed: true

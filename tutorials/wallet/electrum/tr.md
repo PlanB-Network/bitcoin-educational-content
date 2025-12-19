@@ -1,19 +1,19 @@
 ---
-name: Elektrum
+name: Electrum
 
-description: Tam Elektrum Kılavuzu, 0'dan kahramana
+description: Tam Electrum Rehberi, sıfırdan uzmana
 ---
 
 ![cover](assets/cover.webp)
 
 
-Aşağıda Electrum için birkaç açıklama kaynağı bulun:
+Aşağıda Electrum için birkaç açıklama kaynağı bulabilirsiniz:
 
 
 
 - [X](https://twitter.com/ElectrumWallet)
-- [Electrum web sitesi](https://electrum.org/)
-- [Electrum belgeleri](https://electrum.readthedocs.io/)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 İşte Rogzy'nin bu eğitim hakkında düşündükleri:
@@ -533,7 +533,7 @@ Bazen, her şeyi doğru yapmanıza rağmen, görünüşe göre, bağlanmayı red
 - Electrum'un ve düğüm yazılımınızın daha yeni bir sürümüne yükseltin;
 - ".electrum" dizinindeki önbellek klasörünü silmeyi deneyin;
 - Ağ ayarlarında bağlantı noktasını 50002'den 50001'e değiştirmeyi deneyin;
-- Alternatif olarak Tor kullanarak bağlanmak için [bu kılavuzu] (https://armantheparman.com/tor/) kullanın;
+- Alternatif olarak Tor kullanarak bağlanmak için [bu kılavuzu](https://armantheparman.com/tor/) kullanın;
 - Electrum Server'ı düğüme yeniden yükleyin.
 
 
@@ -673,7 +673,7 @@ Bu, bir seferde yalnızca 1 Address sunan diğer bazı cüzdanlardan çok farkl�
 Bu Wallet'ü oluştururken seed ifadesini girdiğiniz için, Electrum her bir adresin özel anahtarına sahiptir ve bu adreslerden harcama yapmak mümkündür.
 
 
-Ayrıca "değişim adresleri" olarak adlandırılan sarı adresler olduğunu da unutmayın - Bunlar sadece farklı bir matematiksel daldan başka bir adres kümesidir (bunlardan 4,3 milyar tane daha vardır). Wallet tarafından fazla fonları otomatik olarak Wallet'ye değişim olarak geri göndermek için kullanılırlar. Örneğin, 1.5 Bitcoin alır ve 0.5'ini bir tüccara harcarsanız, kalan 1.0'ın bir yere gitmesi gerekir. Wallet'niz bunu bir sonraki boş sarı para üstü Address'e harcayacaktır - aksi takdirde Miner'e gider! Bu konuda daha fazla bilgi için (UTXO'lar) bkz. ![bu kılavuz] (https://armantheparman.com/UTXO/).
+Ayrıca "değişim adresleri" olarak adlandırılan sarı adresler olduğunu da unutmayın - Bunlar sadece farklı bir matematiksel daldan başka bir adres kümesidir (bunlardan 4,3 milyar tane daha vardır). Wallet tarafından fazla fonları otomatik olarak Wallet'ye değişim olarak geri göndermek için kullanılırlar. Örneğin, 1.5 Bitcoin alır ve 0.5'ini bir tüccara harcarsanız, kalan 1.0'ın bir yere gitmesi gerekir. Wallet'niz bunu bir sonraki boş sarı para üstü Address'e harcayacaktır - aksi takdirde Miner'e gider! Bu konuda daha fazla bilgi için (UTXO'lar) bkz. ![bu kılavuz](https://armantheparman.com/UTXO/).
 
 
 Ardından, Ian Colman özel anahtar web sitesine geri dönün ve seed'ı girin (bir tane oluşturmak yerine). Aşağıda özel ve açık anahtar bilgilerinin değiştiğini göreceksiniz; aşağıdaki her şey sayfanın yukarısındaki şeylere bağlıdır.

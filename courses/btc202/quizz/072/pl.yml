@@ -1,0 +1,9 @@
+question: Jakiego mechanizmu można użyć do załadowania migawki zestawu UTXO, aby węzeł szybko stał się użyteczny?
+answer: assumeutxo
+wrong_answers:
+  - assumechainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo ładuje migawkę zestawu UTXO, aby szybko uruchomić węzeł, jednocześnie odbudowując kompletny zestaw UTXO w tle.
+reviewed: true

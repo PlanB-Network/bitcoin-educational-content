@@ -1,0 +1,9 @@
+question: Welk mechanisme zorgt ervoor dat de Bitcoin leveringslimiet wordt afgedwongen zonder dat er vertrouwen nodig is in een centrale autoriteit?
+answer: Volledige nodes met verificatiecode die automatisch blokken met ongeldige coinbase transacties weigert
+wrong_answers:
+  - Een gedistribueerd consensusalgoritme dat goedkeuring van de meerderheid vereist voor wijzigingen in het aanbod
+  - Cryptografische proof-of-work die het aanmaken van overtollige munten mathematisch voorkomt
+  - Netwerkvalidators die via een democratisch proces stemmen over de geldigheid van transacties
+explanation: |
+  De leveringslimiet van Bitcoin wordt afgedwongen door volledige knooppunten die een verificatiecode uitvoeren om de coinbase transactie van elk blok te controleren aan de hand van de consensusregels. Zelfs als sommige nodes kwaadaardig worden en ongeldige blokken met buitensporige beloningen accepteren, zullen eerlijke nodes deze gewoon negeren en doorgaan met de geldige keten. Dit creëert een vertrouwensloos systeem waarbij je geen enkel individu of autoriteit hoeft te vertrouwen - je hoeft alleen code te draaien die verifieert of de regels worden gevolgd, waardoor het netwerk collectief veilig is tegen pogingen tot aanbodinflatie.
+reviewed: false

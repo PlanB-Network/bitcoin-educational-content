@@ -1,4 +1,4 @@
-question: "Seal Definition" ni iki mu bijanye n'ivyo RGB Assignment ivuga?
+question: Seal Definition ni iki mu bijanye n'ivyo RGB Assignment ivuga?
 answer: Ivyo bivugwa ku UTXO ishinga Ownership ya Owned State.
 wrong_answers:
   - Itsinda ry’amakuru yahanahanwa hagati y’ababuranyi, hakurikijwe Client-side Validation.

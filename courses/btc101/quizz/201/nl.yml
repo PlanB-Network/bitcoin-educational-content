@@ -1,12 +1,10 @@
-question: Wat is het doel van KYC-regelgeving?
-answer: Terrorismefinanciering, belastingontduiking en witwassen bestrijden.
+question: Wat is een van de mogelijke gevolgen van het niet volgen van de voorschriften van uw land bij het kopen van Bitcoin?
+answer: Je kunt jezelf in gevaar brengen.
 wrong_answers:
-  - Om de prijs van Bitcoin te verhogen en de gebruiker meer belasting te laten betalen.
-  - Om de Supply van Bitcoin te controleren.
-  - Om te voorkomen dat mensen Bitcoin kopen.
+  - Je mag de prijs van Bitcoin verhogen.
+  - Je mag de Supply van Bitcoin controleren.
+  - Je kunt voorkomen dat anderen Bitcoin kopen.
 explanation: |
-  De cursustekst legt uit dat de KYC-regelgeving (Know Your Customer)
-  regelgeving vereist dat gebruikers zich identificeren om
-  financiering van terrorisme, belastingontduiking en het
-  witwassen.
+  De cursustekst vermeldt dat het niet volgen van de voorschriften
+  van uw land bij het kopen van Bitcoin u in gevaar kan brengen.
 reviewed: true

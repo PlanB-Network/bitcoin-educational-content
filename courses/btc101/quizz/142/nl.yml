@@ -1,8 +1,10 @@
-question: Wat is een gesnoeide node in de context van Bitcoin?
-answer: Een knooppunt dat alleen de laatste N blokken in het geheugen bewaart.
+question: Wat is de Lightning Network?
+answer: Een instant Bitcoin betalingsnetwerk gebaseerd op de Bitcoin Blockchain.
 wrong_answers:
-  - Een knooppunt dat alleen transacties valideert.
-  - Een knooppunt dat alleen informatie verzendt naar andere knooppunten.
-  - Een knooppunt dat alleen de regels van het Bitcoin protocol afdwingt.
-explanation: >-
+  - Een gescheiden Blockchain netwerk van Bitcoin Blockchain.
+  - Een netwerk van Bitcoin mijnwerkers.
+  - Een netwerk van Bitcoin uitwisselingen.
+explanation: |
+  De Lightning Network is een instant Bitcoin betalingsnetwerk
+  dat is gebaseerd op de Bitcoin Blockchain.
 reviewed: true

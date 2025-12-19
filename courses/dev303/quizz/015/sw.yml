@@ -1,0 +1,8 @@
+question: Ni utaratibu gani mkuu ambao Rust hutumia kuzuia hitilafu zinazohusiana na kumbukumbu kama vile matumizi-baada-ya-kutotumia na kufurika kwa bafa?
+answer: Uchambuzi tuli uliofanywa kikamilifu wakati wa kukusanya
+wrong_answers:
+  - Mkusanyiko wa takataka za wakati wa utekelezaji kwa kusafisha kumbukumbu kiotomatiki
+  - Ukaguzi wa kumbukumbu unaobadilika wakati wa utekelezaji wa programu
+  - Usimamizi wa kumbukumbu kwa mikono na simu za ugawaji dhahiri
+explanation: |
+  Rust huzuia hitilafu zinazohusiana na kumbukumbu kupitia uchanganuzi tuli unaofanywa kikamilifu wakati wa kukusanya, ambapo mkusanyaji huchunguza msimbo chanzo na kubaini kwa uhakika kama shughuli za kumbukumbu ni salama. Hii inatofautiana na ukusanyaji wa takataka (unaotumiwa na Java/Go) ambao huanzisha gharama ya uendeshaji wa muda, ukaguzi wa nguvu unaohitaji uthibitishaji wa muda wa uendeshaji, na usimamizi wa kumbukumbu wa mikono (unaotumiwa na C/C++) ambao unategemea nidhamu ya programu. Mbinu ya mkusanyiko wa muda wa Rust inahakikisha usalama wa kumbukumbu bila gharama za uendeshaji wa muda au kusitishwa kusikotabirika.

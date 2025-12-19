@@ -1,0 +1,9 @@
+question: Mis on Bitcoin Wallet peamine funktsioon?
+answer: Privaatvõtmete säilitamine ja haldamine
+wrong_answers:
+  - Täieliku Blockchain salvestamine ja haldamine
+  - Kontrollida ploki kehtivust
+  - Releevõrgu tehingud
+explanation: |
+  Bitcoin Wallet haldab privaatvõtmeid, mis võimaldavad bitcoinide kulutamist, kuid ei täida sõlme funktsioone.
+reviewed: true

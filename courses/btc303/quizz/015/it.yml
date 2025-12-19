@@ -1,0 +1,9 @@
+question: Cosa succede quando gli utenti affidano la verifica delle transazioni Bitcoin a terzi invece di gestire i propri nodi completi?
+answer: La decentralizzazione di Bitcoin si indebolisce perché un numero minore di persone applica le regole della rete in modo indipendente
+wrong_answers:
+  - Le transazioni Bitcoin diventano più rapide ed efficienti per tutti i partecipanti alla rete
+  - La rete Bitcoin crea automaticamente altri nodi mining per compensare la convalida persa
+  - I servizi di terze parti acquisiscono la capacità di creare nuovi bitcoin oltre il normale programma di emissione
+explanation: |
+  Quando gli utenti non gestiscono i propri nodi completi, esternalizzano il loro potere di applicare le regole di Bitcoin ad altri. Questo indebolisce la decentralizzazione di Bitcoin perché un numero minore di parti indipendenti convalida transazioni e blocchi. Come spiega David Harding, questo crea una situazione in cui un piccolo numero di minatori e di fornitori di servizi potrebbe potenzialmente modificare le regole di Bitcoin per gli utenti non verificatori, mentre questi ultimi non sarebbero in grado di effettuare transazioni con persone che gestiscono nodi di convalida completi che rifiutano tali modifiche alle regole.
+reviewed: false

@@ -1,13 +1,14 @@
-question: Šta je Cold Wallet (hladni novčanik)?
-answer: Novčanik u fizičkom uređaju koji čuva vaše ključeve i nije povezan na internet.
+question: Šta treba da bekapujete kada koristite novčanika sa passphrase-om?
+answer: Morate napraviti rezervnu kopiju i liste od 12 ili 24 reči i vašeg passphrase-a.
 wrong_answers:
-  - Novčanik koji je fizički Cold (hladan) na dodir.
-  - Novčanik koji nije popularan među korisnicima Bitkoina.
-  - Novčanik koji se preporučuje za čuvanje malih količina bitkoina.
+  - Morate napraviti rezervnu kopiju liste od 12 ili 24 reči.
+  - Treba da napravite rezervnu kopiju samo vašeg passphrase-a.
+  - Ne treba da pravite rezervnu kopiju liste od 12 ili 24 reči niti vašeg passphrase-a.
 explanation: |
-  A Cold Wallet (hladni novčanik) je termin koji se koristi za opisivanje Bitkoin novčanika
-  koji je uskladišten na uređaju koji nije povezan na
-  internet. To ga čini manje podložnim online pretnjama,
-  ali takođe znači da je novčanik manje dostupan za
-  dnevne transakcije.
+  Kada koristite novčanika sa passphrase-om, potrebno je da napravite rezervnu kopiju
+  i liste od 12 ili 24 reči i vašeg passphrase-a,
+  jer su lista reči i passphrase oba
+  neophodni za ponovno dobijanje pristupa vašim sredstvima u slučaju
+  gubitka telefona ili računara. Bez jednog ili drugog,
+  sredstva su nedostupna.
 reviewed: true

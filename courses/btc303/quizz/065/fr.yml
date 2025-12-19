@@ -1,0 +1,9 @@
+question: Quelle est la principale raison pour laquelle l'augmentation de la taille des blocs entraîne une plus grande probabilité de blocs périmés dans Bitcoin mining ?
+answer: Les blocs plus importants prennent plus de temps à se propager et à être validés sur le réseau, ce qui crée des fenêtres plus longues pendant lesquelles les mineurs travaillent sur les conseils périmés de la blockchain
+wrong_answers:
+  - Les blocs plus importants nécessitent plus de puissance de calcul pour être exploités, ce qui oblige les mineurs à passer plus de temps à trouver des solutions proof-of-work valables
+  - L'augmentation de la taille des blocs réduit l'efficacité du mécanisme d'ajustement de la difficulté, ce qui entraîne des intervalles de temps imprévisibles entre les blocs
+  - Les blocs plus grands créent davantage de conflits de transaction entre les blocs concurrents, ce qui rend plus difficile la détermination du bloc qui doit être accepté
+explanation: |
+  La bonne réponse identifie le mécanisme de base des blocs périmés. Lorsque les blocs sont plus volumineux, leur transfert entre les nœuds nécessite davantage de bande passante et leur validation prend plus de temps. Au cours de cette période de propagation prolongée, plusieurs mineurs peuvent trouver des blocs concurrents à la même hauteur puisqu'ils n'ont pas encore reçu le dernier bloc. Cela crée une situation de course où un seul bloc peut finalement être accepté, ce qui rend les autres périmés. Les mauvaises réponses confondent ce problème de propagation avec la difficulté du mining, les mécanismes de consensus ou les conflits de transaction, qui sont des préoccupations distinctes du problème de synchronisation à l'origine des blocs périmés.
+reviewed: false

@@ -61,9 +61,9 @@ Die Stärken von Nmap sind vielfältig:
 
 
 
-- Leistungsstark und flexibel**: Nmap kann große Netzwerke scannen und fortschrittliche Erkennungstechniken verwenden. Es unterstützt UDP, TCP, ICMP, IPv4 und IPv6 und kann Versionserkennung, Schwachstellen-Scans oder protokollspezifische Interaktionen durchführen. Seine Architektur ist modular, vor allem dank der NSE-Skripte (Nmap Scripting Engine), auf die wir später in diesem Tutorial eingehen werden.
-- Benutzerfreundlichkeit**: Die offizielle Dokumentation ist umfangreich und von höchster Qualität. Außerdem stehen zahlreiche Community-Ressourcen zur Verfügung, um Ihnen den Einstieg zu erleichtern.
-- Beliebtheit und Langlebigkeit**: Nmap ist seit 1998 eine Referenz in seinem Bereich. Die aktuelle Version, zum Zeitpunkt dieser Aktualisierung, ist 7.95. Obwohl es andere Tools für bestimmte Aufgaben gibt, ist Nmap nach wie vor ein unverzichtbares Werkzeug für die Netzwerkabbildung und -analyse.
+- **Leistungsstark und flexibel**: Nmap kann große Netzwerke scannen und fortschrittliche Erkennungstechniken verwenden. Es unterstützt UDP, TCP, ICMP, IPv4 und IPv6 und kann Versionserkennung, Schwachstellen-Scans oder protokollspezifische Interaktionen durchführen. Seine Architektur ist modular, vor allem dank der NSE-Skripte (Nmap Scripting Engine), auf die wir später in diesem Tutorial eingehen werden.
+- **Benutzerfreundlichkeit**: Die offizielle Dokumentation ist umfangreich und von höchster Qualität. Außerdem stehen zahlreiche Community-Ressourcen zur Verfügung, um Ihnen den Einstieg zu erleichtern.
+- **Beliebtheit und Langlebigkeit**: Nmap ist seit 1998 eine Referenz in seinem Bereich. Die aktuelle Version, zum Zeitpunkt dieser Aktualisierung, ist 7.95. Obwohl es andere Tools für bestimmte Aufgaben gibt, ist Nmap nach wie vor ein unverzichtbares Werkzeug für die Netzwerkabbildung und -analyse.
 
 
 
@@ -87,7 +87,7 @@ Er tritt auch in anderen Kinofilmen auf.
 
 
 
-**Feedback
+**Feedback**
 
 
 
@@ -165,7 +165,7 @@ In diesem Abschnitt werfen wir einen Blick auf die Hauptanwendungen des Netzwerk
 
 
 
-Nmap kann für die Netzwerkdiagnose und - im weiteren Sinne - für die Überwachung verwendet werden. Genauso wie man mit einem Ping feststellen kann, ob zwei Hosts miteinander kommunizieren, kann man mit Nmap schnell feststellen, ob ein Host aktiv ist oder ob ein bestimmter Dienst in Betrieb ist. Dank [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kann man genaue Daten über die Antwortzeit eines Hosts, den Weg, den die Pakete nehmen, die Antwort eines bestimmten Dienstes usw. erhalten.
+Nmap kann für die Netzwerkdiagnose und - im weiteren Sinne - für die Überwachung verwendet werden. Genauso wie man mit einem Ping feststellen kann, ob zwei Hosts miteinander kommunizieren, kann man mit Nmap schnell feststellen, ob ein Host aktiv ist oder ob ein bestimmter Dienst in Betrieb ist. Dank [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") kann man genaue Daten über die Antwortzeit eines Hosts, den Weg, den die Pakete nehmen, die Antwort eines bestimmten Dienstes usw. erhalten.
 
 
 
@@ -183,7 +183,7 @@ nmap --open -p 80 192.168.1.18
 
 
 
-*Verwenden Sie Nmap, um den Status eines Webdienstes von einem entfernten Server abzurufen
+*Verwenden Sie Nmap, um den Status eines Webdienstes von einem entfernten Server abzurufen*
 
 
 
@@ -209,7 +209,7 @@ nmap -sn 192.168.1.0/24
 
 
 
-*Hinweis: Die Option "sP" ist veraltet und wurde durch "sn" ersetzt
+*Hinweis: Die Option "sP" ist veraltet und wurde durch "sn" ersetzt*
 
 
 
@@ -312,7 +312,7 @@ In diesem Abschnitt lernen wir, wie man das Netzwerk-Scan-Tool Nmap unter Linux 
 
 
 
-Nmap wurde ursprünglich für den Einsatz auf GNU/Linux-Betriebssystemen entwickelt. Daher und dank seiner Langlebigkeit und Beliebtheit finden Sie es in allen offiziellen Repositories der großen Unix-Distributionen. In diesem Tutorial verwende ich ein Debian-basiertes Betriebssystem [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Aber Sie können es auf genau die gleiche Weise von einem klassischen Debian, CentOS, Red Hat oder was auch immer verwenden!
+Nmap wurde ursprünglich für den Einsatz auf GNU/Linux-Betriebssystemen entwickelt. Daher und dank seiner Langlebigkeit und Beliebtheit finden Sie es in allen offiziellen Repositories der großen Unix-Distributionen. In diesem Tutorial verwende ich ein Debian-basiertes Betriebssystem [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Aber Sie können es auf genau die gleiche Weise von einem klassischen Debian, CentOS, Red Hat oder was auch immer verwenden!
 
 
 
@@ -485,25 +485,25 @@ Ob unter Linux oder Windows, es gibt viele Fälle, in denen Nmap Sie um privileg
 
 
 
-- Konstruieren von "rohen" Netzwerkpaketen**: Nmap ist in der Lage, eine breite Palette von Scan-Methoden anzuwenden, einschließlich fortgeschrittener Paketmanipulation und -konstruktion. Das ist z.B. der Fall, wenn wir TCP-SYN-Scans durchführen wollen, die das klassische _Three-way handshake_ des TCP-Austauschs nicht respektieren. Um das zu tun, muss Nmap andere Funktionen als die von Betriebssystemen benutzen, die nur wissen, wie man gute Praktiken in der Netzwerkkommunikation respektiert (es greift auf die oben genannten Bibliotheken "Npcap" und "libcap" zurück). Weil Nmap nicht auf die "normale" Weise vorgeht, kann es bestimmte Informationen über Betriebssysteme, Dienste und bestimmte Schwachstellen ableiten.
+- Konstruieren von "rohen" Netzwerkpaketen: Nmap ist in der Lage, eine breite Palette von Scan-Methoden anzuwenden, einschließlich fortgeschrittener Paketmanipulation und -konstruktion. Das ist z.B. der Fall, wenn wir TCP-SYN-Scans durchführen wollen, die das klassische *Three-way handshake* des TCP-Austauschs nicht respektieren. Um das zu tun, muss Nmap andere Funktionen als die von Betriebssystemen benutzen, die nur wissen, wie man gute Praktiken in der Netzwerkkommunikation respektiert (es greift auf die oben genannten Bibliotheken "Npcap" und "libcap" zurück). Weil Nmap nicht auf die "normale" Weise vorgeht, kann es bestimmte Informationen über Betriebssysteme, Dienste und bestimmte Schwachstellen ableiten.
 
 
 
 
 
-- Den Netzwerkverkehr abhören**: Einige der Optionen von Nmap erfordern, dass es das Netzwerk abhört, um bestimmte Informationen zu erhalten. Diese Aktion gilt auf Betriebssystemen als sensibel, da sie es Ihnen auch ermöglicht, die Kommunikation anderer Anwendungen auf dem System abzuhören. Genau wie Wireshark benötigt Nmap dazu bestimmte Rechte, die man leichter erhält, wenn man sich direkt in einer privilegierten Sitzung befindet.
+- **Den Netzwerkverkehr abhören**: Einige der Optionen von Nmap erfordern, dass es das Netzwerk abhört, um bestimmte Informationen zu erhalten. Diese Aktion gilt auf Betriebssystemen als sensibel, da sie es Ihnen auch ermöglicht, die Kommunikation anderer Anwendungen auf dem System abzuhören. Genau wie Wireshark benötigt Nmap dazu bestimmte Rechte, die man leichter erhält, wenn man sich direkt in einer privilegierten Sitzung befindet.
 
 
 
 
 
-- Lauschen auf privilegierten Ports**: Auf Betriebssystemen gelten die Ports von 0 bis 1024 (TCP und UDP) als privilegiert, d.h. sie sind irgendwie für ganz bestimmte Zwecke reserviert und daher geschützt. Obwohl dieser Grund heute etwas veraltet ist, ist es immer noch notwendig, bestimmte Privilegien zu haben, um auf diesen Ports zu lauschen, was Nmap je nach Verwendungszweck tun muss.
+- **Lauschen auf privilegierten Ports**: Auf Betriebssystemen gelten die Ports von 0 bis 1024 (TCP und UDP) als privilegiert, d.h. sie sind irgendwie für ganz bestimmte Zwecke reserviert und daher geschützt. Obwohl dieser Grund heute etwas veraltet ist, ist es immer noch notwendig, bestimmte Privilegien zu haben, um auf diesen Ports zu lauschen, was Nmap je nach Verwendungszweck tun muss.
 
 
 
 
 
-- Senden von UDP-Paketen:** Auch das Abhören einer Netzwerkanwendung auf UDP-Ports (ein zustandsloses Protokoll) erfordert privilegierte Rechte auf Betriebssystemen. Daher ist eine privilegierte Sitzung erforderlich, wenn Sie einen UDP-Scan durchführen wollen, bei dem Nmap auf eine Antwort warten muss, um die Antworten auf seine Scans zu analysieren.
+- **Senden von UDP-Paketen:** Auch das Abhören einer Netzwerkanwendung auf UDP-Ports (ein zustandsloses Protokoll) erfordert privilegierte Rechte auf Betriebssystemen. Daher ist eine privilegierte Sitzung erforderlich, wenn Sie einen UDP-Scan durchführen wollen, bei dem Nmap auf eine Antwort warten muss, um die Antworten auf seine Scans zu analysieren.
 
 
 
@@ -562,18 +562,18 @@ Denken Sie daran, von nun an nur noch Hosts in einer kontrollierten Umgebung zu 
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Die Hacking-Trainingsplattform "Hack The Box" stellt ständig verwundbare Systeme zur Verfügung, die Sie nach Belieben angreifen können. Es stehen mehrere hundert Systeme zur Verfügung, aber ein erneuter Pool von 20 Maschinen wird das ganze Jahr über kostenlos angeboten, mit Zugang über ein OpenVPN-VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Die Hacking-Trainingsplattform "Hack The Box" stellt ständig verwundbare Systeme zur Verfügung, die Sie nach Belieben angreifen können. Es stehen mehrere hundert Systeme zur Verfügung, aber ein erneuter Pool von 20 Maschinen wird das ganze Jahr über kostenlos angeboten, mit Zugang über ein OpenVPN-VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Diese Plattform bietet zahlreiche absichtlich verwundbare Systeme zum Download an, die über VirtualBox (ebenfalls eine kostenlose Lösung) oder auf andere Weise genutzt werden können. Nach dem Download ist kein VPN erforderlich - alles ist lokal.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): **Diese Plattform bietet zahlreiche absichtlich verwundbare Systeme zum Download an, die über VirtualBox (ebenfalls eine kostenlose Lösung) oder auf andere Weise genutzt werden können. Nach dem Download ist kein VPN erforderlich - alles ist lokal.**
 
 
 
 
-Es steht Ihnen auch frei, eine virtuelle Maschine** auf Ihrem bevorzugten Betriebssystem zu erstellen und dort verschiedene Dienste als Testziele zu installieren. Der Vorteil dabei ist, dass Sie auch sehen können, was auf der Serverseite während eines Scans passiert, insbesondere mit Wireshark, und dass Sie bei fortgeschritteneren Tests auch die lokale Firewall im Blick haben.
+Es steht Ihnen auch frei, eine **virtuelle Maschine** auf Ihrem bevorzugten Betriebssystem zu erstellen und dort verschiedene Dienste als Testziele zu installieren. Der Vorteil dabei ist, dass Sie auch sehen können, was auf der Serverseite während eines Scans passiert, insbesondere mit Wireshark, und dass Sie bei fortgeschritteneren Tests auch die lokale Firewall im Blick haben.
 
 
 
@@ -815,7 +815,7 @@ antwort auf ein TCP SYN-Paket, das an Port 22 gesendet wird, aktiv auf dem Scan-
 
 
 
-Im obigen Screenshot sehen wir ein TCP SYN/ACK-Paket, das vom Zielhost** gesendet wurde. Der Port ist aktiv und stellt einen Dienst zur Verfügung. Nmap bestätigt den Empfang der Antwort und trennt dann die Verbindung (TCP RST/ACK). **So wusste es, dass der Port TCP/22 aktiv war**.
+Im obigen Screenshot sehen wir ein TCP SYN/ACK-Paket, das vom **Zielhost** gesendet wurde. Der Port ist aktiv und stellt einen Dienst zur Verfügung. Nmap bestätigt den Empfang der Antwort und trennt dann die Verbindung (TCP RST/ACK). **So wusste es, dass der Port TCP/22 aktiv war**.
 
 
 
@@ -901,7 +901,7 @@ Der einzige wirkliche Unterschied beim Scannen von UDP ist, dass Nmap nicht auf 
 
 
 
-Auf dem obigen Screenshot ist zu sehen, dass Nmap eine große Anzahl von UDP-Paketen sendet und für die meisten von ihnen ein ICMP-Paket "Destination unreachable (Port unreachable)" als Antwort erhält. Das ist normal, denn es ist die angemessene Antwort, die in [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") definiert ist, wenn ein UDP-Port unerreichbar ist:
+Auf dem obigen Screenshot ist zu sehen, dass Nmap eine große Anzahl von UDP-Paketen sendet und für die meisten von ihnen ein ICMP-Paket "Destination unreachable (Port unreachable)" als Antwort erhält. Das ist normal, denn es ist die angemessene Antwort, die in [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") definiert ist, wenn ein UDP-Port unerreichbar ist:
 
 
 
@@ -976,7 +976,7 @@ Wie wir gesehen haben, wählt Nmap selbst die Anzahl und die Ports aus, die gesc
 
 
 
-**Wie werden diese Häfen ausgewählt?
+**Wie werden diese Häfen ausgewählt?**
 
 
 
@@ -1060,7 +1060,7 @@ Unabhängig von der Reihenfolge prüft Nmap alle diese Ports, und nur die auf de
 
 
 
-**Scannen einer Reihe von Ports
+**Scannen einer Reihe von Ports**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**TCP- und UDP-Port-Scannen
+**TCP- und UDP-Port-Scannen**
 
 
 
@@ -1134,7 +1134,7 @@ Das ist ein interessanter Weg, um Ihre Scans zu individualisieren!
 
 
 
-**Scannen aller Ports
+**Scannen aller Ports**
 
 
 
@@ -1347,7 +1347,7 @@ Aber es steckt noch mehr dahinter. In der obigen Wireshark-Aufnahme können Sie 
 
 
 
-**Warum TCP-Pakete an Ports als Teil der Netzwerkerkennung senden?
+**Warum TCP-Pakete an Ports als Teil der Netzwerkerkennung senden?**
 
 
 
@@ -2165,31 +2165,31 @@ Um es klar zu sagen: Nmap ist nicht in der Lage, einen vollständigen Penetratio
 
 
 
-- Begrenzte Abdeckung**: Obwohl die NSE-Skripte von Nmap leistungsstark sind, kann ihre Testabdeckung im Vergleich zu anderen spezialisierten Tools zur Erkennung von Schwachstellen begrenzt sein. Einige Schwachstellen werden von den verfügbaren NSE-Skripten möglicherweise nicht abgedeckt, z. B. Schwachstellen in Active Directory, die Offenlegung sensibler Daten oder fortgeschrittene Fälle von anfälligen Webanwendungen.
+- **Begrenzte Abdeckung**: Obwohl die NSE-Skripte von Nmap leistungsstark sind, kann ihre Testabdeckung im Vergleich zu anderen spezialisierten Tools zur Erkennung von Schwachstellen begrenzt sein. Einige Schwachstellen werden von den verfügbaren NSE-Skripten möglicherweise nicht abgedeckt, z. B. Schwachstellen in Active Directory, die Offenlegung sensibler Daten oder fortgeschrittene Fälle von anfälligen Webanwendungen.
 
 
 
 
 
-- Komplexität der Schwachstelle**: Bestimmte Arten von Schwachstellen können aufgrund ihrer Komplexität mit NSE-Skripten schwer aufzuspüren sein. Zum Beispiel können Sicherheitslücken, die eine komplexe Interaktion mit einem Remote-Dienst erfordern, von Nmap nicht effektiv erkannt werden (wie im Fall von übermäßigen Berechtigungen in einer Dateifreigabe oder einem Fehler in der Berechtigungskontrolle in einer Webanwendung).
+- **Komplexität der Schwachstelle**: Bestimmte Arten von Schwachstellen können aufgrund ihrer Komplexität mit NSE-Skripten schwer aufzuspüren sein. Zum Beispiel können Sicherheitslücken, die eine komplexe Interaktion mit einem Remote-Dienst erfordern, von Nmap nicht effektiv erkannt werden (wie im Fall von übermäßigen Berechtigungen in einer Dateifreigabe oder einem Fehler in der Berechtigungskontrolle in einer Webanwendung).
 
 
 
 
 
-- Passive Erkennung**: Nmap konzentriert sich beim Aufspüren von Schwachstellen hauptsächlich auf aktive Scans, was bedeutet, dass es potenzielle Schwachstellen möglicherweise nicht effektiv aufspürt, wenn keine aktive Verbindung zu den Zielhosts hergestellt wird. Schwachstellen, die sich bei einem aktiven Scan nicht zeigen, können daher übersehen werden (wie im Fall einer Code-Injektion in eine Web-Anwendung).
+- **Passive Erkennung**: Nmap konzentriert sich beim Aufspüren von Schwachstellen hauptsächlich auf aktive Scans, was bedeutet, dass es potenzielle Schwachstellen möglicherweise nicht effektiv aufspürt, wenn keine aktive Verbindung zu den Zielhosts hergestellt wird. Schwachstellen, die sich bei einem aktiven Scan nicht zeigen, können daher übersehen werden (wie im Fall einer Code-Injektion in eine Web-Anwendung).
 
 
 
 
 
-- Abhängigkeit von Updates**: Die [Datenbank](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) von Nmap mit NSE-Skripten wird ständig weiterentwickelt, aber es kann eine Verzögerung zwischen der Entdeckung einer neuen Sicherheitslücke und dem Hinzufügen eines entsprechenden Skripts zu Nmap geben. Daher ist Nmap möglicherweise nicht immer auf dem neuesten Stand, was die neuesten Sicherheitslücken angeht.
+- **Abhängigkeit von Updates**: Die [Datenbank](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) von Nmap mit NSE-Skripten wird ständig weiterentwickelt, aber es kann eine Verzögerung zwischen der Entdeckung einer neuen Sicherheitslücke und dem Hinzufügen eines entsprechenden Skripts zu Nmap geben. Daher ist Nmap möglicherweise nicht immer auf dem neuesten Stand, was die neuesten Sicherheitslücken angeht.
 
 
 
 
 
-- Falsch-Positive und Falsch-Negative**: Wie bei jedem Sicherheitstool können die NSE-Skripte von Nmap falsch-positive Ergebnisse (falsche Warnungen vor Sicherheitslücken) oder falsch-negative Ergebnisse (echte Sicherheitslücken, die nicht entdeckt wurden) liefern. Das sollte man bei der Analyse der Nmap-Ergebnisse bedenken.
+- **Falsch-Positive und Falsch-Negative**: Wie bei jedem Sicherheitstool können die NSE-Skripte von Nmap falsch-positive Ergebnisse (falsche Warnungen vor Sicherheitslücken) oder falsch-negative Ergebnisse (echte Sicherheitslücken, die nicht entdeckt wurden) liefern. Das sollte man bei der Analyse der Nmap-Ergebnisse bedenken.
 
 
 
@@ -2989,7 +2989,7 @@ Metasploit ist ein Exploit- und Angriffs-Framework. Es ist eine kostenlose Lösu
 
 
 
-Insbesondere kann dieses bekannte und weit verbreitete Betriebssystem mit einer postgreSQL [Datenbank] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) arbeiten, in der Hosts, Ports, Dienste, Authentifizierungsinformationen und mehr gespeichert werden.
+Insbesondere kann dieses bekannte und weit verbreitete Betriebssystem mit einer postgreSQL [Datenbank](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) arbeiten, in der Hosts, Ports, Dienste, Authentifizierungsinformationen und mehr gespeichert werden.
 
 
 
@@ -3398,7 +3398,7 @@ Die von Nmap erzeugten Ergebnisse können als sensibel angesehen werden, insbeso
 
 
 
-Wir haben auch gesehen, dass die NSE-Scanergebnisse von [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) je nach den verwendeten NSE-Skripten auch Identifikatoren enthalten können.
+Wir haben auch gesehen, dass die NSE-Scanergebnisse von [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) je nach den verwendeten NSE-Skripten auch Identifikatoren enthalten können.
 
 
 
@@ -3437,7 +3437,7 @@ Wie wir in diesem Lernprogramm gesehen haben, kann Nmap auf Netzwerkebene sehr a
 
 
 
-Um Zwischenfälle zu vermeiden, müssen Sie das Verhalten von Nmap beherrschen und wissen, wie Sie es mit Hilfe der verschiedenen Optionen, die in diesem Tutorial besprochen werden, an den Kontext anpassen können, in dem es benutzt wird. Wir werden Nmap in einem Informationssystem mit industrieller [Hardware] (https://www.it-connect.fr/actualites/actu-materiel/) nicht unbedingt auf dieselbe Weise einsetzen wie in einem Benutzernetz, das aus Windows-Systemen besteht, die durch eine lokale Firewall geschützt sind, oder in einem Netzwerkkern.
+Um Zwischenfälle zu vermeiden, müssen Sie das Verhalten von Nmap beherrschen und wissen, wie Sie es mit Hilfe der verschiedenen Optionen, die in diesem Tutorial besprochen werden, an den Kontext anpassen können, in dem es benutzt wird. Wir werden Nmap in einem Informationssystem mit industrieller [Hardware](https://www.it-connect.fr/actualites/actu-materiel/) nicht unbedingt auf dieselbe Weise einsetzen wie in einem Benutzernetz, das aus Windows-Systemen besteht, die durch eine lokale Firewall geschützt sind, oder in einem Netzwerkkern.
 
 
 

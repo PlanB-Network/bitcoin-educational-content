@@ -1,0 +1,9 @@
+question: Mida tähendab finalism Spinoza jaoks?
+answer: Asjade mõju eksitamine nende põhjustega.
+wrong_answers:
+  - Fatalismi uskumine.
+  - Arvan, et kõik on läbi.
+  - Filosoof.
+explanation: |
+  Spinoza jaoks tähendab finalism seda, et asjade tagajärgi peetakse ekslikult nende põhjusteks. See tähendab, et nähtusi seletatakse pigem nende oletatavate tulemuste kui nende tegelike põhjuste abil, mis on arutlusviga.
+reviewed: false

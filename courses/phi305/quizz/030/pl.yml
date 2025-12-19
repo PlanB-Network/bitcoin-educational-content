@@ -1,0 +1,9 @@
+question: Kto powiedział, że "człowiek nie jest imperium w imperium"?
+answer: Spinoza.
+wrong_answers:
+  - Kartezjusz.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  To Spinoza twierdził, że "człowiek nie jest imperium w imperium". To zdanie wyraża ideę, że człowiek nie jest oddzielony od natury, ale jest jej integralną częścią, podlegającą tym samym prawom.
+reviewed: false

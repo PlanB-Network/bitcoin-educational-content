@@ -1,0 +1,9 @@
+question: 키 식별이란 무엇인가요?
+answer: 사용자 신원의 한 측면을 On-Chain 활동과 연관시키는 기능입니다.
+wrong_answers:
+  - 각각의 새로운 On-Chain 트랜잭션에 공개 키를 할당하는 프로세스입니다.
+  - 입력의 일반적인 Ownership 휴리스틱을 통해 On-Chain 트랜잭션을 추적하는 기능입니다.
+  - 공개 키가 개인 키에서 파생되는 과정입니다.
+explanation: |
+  키 식별에는 사용자 신원의 한 측면을 On-Chain 활동과 연결하는 것이 포함됩니다.
+reviewed: true

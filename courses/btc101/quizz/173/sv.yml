@@ -1,8 +1,8 @@
-question: Vad är en av anledningarna till att Bitcoin är attraktivt för vissa grupper?
-answer: Dess förmåga att erbjuda lösningar som elektroniska Trustless-kontanter, motståndskraft mot censur eller en transparent och oföränderlig penningpolitik.
+question: Vilken är en faktor som gör det svårt för finansiella myndigheter att reglera Bitcoin?
+answer: Den verkar på global nivå, 24 timmar om dygnet, 7 dagar i veckan.
 wrong_answers:
-  - Den är lätt att förfalska och kan skapa lösningar för att ta emot mer pengar med ett enkelt klick.
-  - Den styrs av en central myndighet som fritt fördelar kapital till användarna.
-  - Det är inte pseudonymt, så varje användare är välkänd och betrodd.
+  - Den styrs av en central myndighet.
+  - Det används inte någonstans i världen.
+  - Den är lätt att förfalska.
 explanation: >-
 reviewed: true

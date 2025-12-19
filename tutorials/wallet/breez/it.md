@@ -86,7 +86,7 @@ Seguire quindi le istruzioni per confermare il backup e collegare l'account di b
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **IMPORTANTE**: Per aggiungere un ulteriore Layer di sicurezza al Breez Wallet, è possibile definire un codice PIN e impostarlo per autenticare che l'accesso al Wallet è autorizzato.
 
@@ -103,9 +103,9 @@ Breez offre tre opzioni:
 
 
 
-- Ricezione tramite fulmine o ID** Invoice: generate e Invoice e pagamento.
-- Ricevere tramite un Bitcoin Address**: Ricevere bitcoin con transazioni sulla rete principale Bitcoin.
-- Acquistare Bitcoin**: Breez incorpora un modo per ottenere Bitcoin direttamente dalle valute fiat.
+- Ricezione tramite fulmine o ID **Invoice**: generate e Invoice e pagamento.
+- **Ricevere tramite un Bitcoin Address**: Ricevere bitcoin con transazioni sulla rete principale Bitcoin.
+- **Acquistare Bitcoin**: Breez incorpora un modo per ottenere Bitcoin direttamente dalle valute fiat.
 
 
 
@@ -139,9 +139,9 @@ Breez offre tre opzioni per l'invio di bitcoin.
 
 
 
-- Incollare il Invoice o l'ID utente**: Pagare un fulmine Invoice.
-- Connettersi per pagare**: Creare una sessione e invitare il destinatario a unirsi alla sessione per inviare bitcoin.
-- Inviare a BTC Address**: Transazione sulla rete principale Bitcoin.
+- Incollare il **Invoice** o l'**ID utente**: Pagare un fulmine Invoice.
+- **Connettersi per pagare**: Creare una sessione e invitare il destinatario a unirsi alla sessione per inviare bitcoin.
+- **Inviare a BTC Address**: Transazione sulla rete principale Bitcoin.
 
 
 
@@ -169,7 +169,7 @@ Troverete servizi utili direttamente nell'applicazione.
 
 
 
-- Ascoltare i podcast**: Breez è un lettore di podcast 2.0 che vi permette di sostenere i creatori che amate con le donazioni Bitcoin.
+- **Ascoltare i podcast**: Breez è un lettore di podcast 2.0 che vi permette di sostenere i creatori che amate con le donazioni Bitcoin.
 
 
 Dal menu, selezionare **Podcast**, quindi trovare, scoprire e ascoltare i propri creatori di contenuti preferiti.
@@ -186,7 +186,7 @@ Sostenete il lavoro dei creatori di contenuti che amate facendo delle donazioni.
 
 
 
-- Un punto vendita**: Breez si adatta perfettamente alla vostra attività, permettendovi di gestire un punto vendita all'interno dell'applicazione. Potrete gestire l'inventario del vostro negozio, ricevere i pagamenti dai vostri clienti e stampare le fatture generate per ogni acquisto effettuato. Inoltre, è possibile trovare le valute locali nella moltitudine di valute supportate da Breez.
+- **Un punto vendita**: Breez si adatta perfettamente alla vostra attività, permettendovi di gestire un punto vendita all'interno dell'applicazione. Potrete gestire l'inventario del vostro negozio, ricevere i pagamenti dai vostri clienti e stampare le fatture generate per ogni acquisto effettuato. Inoltre, è possibile trovare le valute locali nella moltitudine di valute supportate da Breez.
 
 
 
@@ -210,7 +210,7 @@ Una volta completato l'inventario, potrete facilmente acquistare i prodotti Invo
 
 
 
-- Accesso a servizi di terzi**: Breez integra servizi di terze parti che consentono di intraprendere ulteriori azioni senza dover lasciare il portafoglio. Questi includono Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
+- **Accesso a servizi di terzi**: Breez integra servizi di terze parti che consentono di intraprendere ulteriori azioni senza dover lasciare il portafoglio. Questi includono Bitrefill, LN Markets, Wavlake, Fold, Fixed Float, The Bitcoin Company, Azteco, Boltz, Geyser, Lightsats, SMS Sats, LN.PIZZA, LNCAL.
 
 
 ![apps](assets/fr/16.webp)

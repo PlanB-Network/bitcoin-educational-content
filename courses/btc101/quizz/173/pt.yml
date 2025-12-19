@@ -1,11 +1,9 @@
-question: Qual é uma das razões pelas quais o Bitcoin é atraente para certos grupos?
-answer: Sua capacidade de oferecer soluções como dinheiro eletrônico sem necessidade de confiança mútua, resistência à censura, ou política monetária transparente e imutável.
+question: Qual é um fator que dificulta a regulação do Bitcoin pelas autoridades financeiras?
+answer: Opera em escala global, 24 horas por dia, 7 dias por semana.
 wrong_answers:
-  - É fácil de falsificar e pode criar soluções para receber mais dinheiro com um simples clique.
-  - É controlado por uma autoridade central que distribui capital livremente para os usuários.
-  - Não é pseudônimo, então cada usuário é bem conhecido e confiável.
+  - É controlado por uma autoridade central.
+  - Não é usado em lugar nenhum do mundo.
+  - É fácil de falsificar.
 explanation: >-
-  A natureza descentralizada do Bitcoin, pseudonimato e resistência à censura
-  tornam-no atraente para grupos como tecnófilos, ciferpunks, libertários e
-  entusiastas do ouro.
+  O protocolo Bitcoin é único pois opera em escala global, 24 horas por dia, 7 dias por semana, tornando a regulação difícil para as autoridades financeiras.
 reviewed: true

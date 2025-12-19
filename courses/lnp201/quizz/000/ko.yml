@@ -1,0 +1,9 @@
+question: Lightning Network의 주요 목표는 무엇인가요?
+answer: 빠르고 저렴한 결제가 가능하도록 Bitcoin의 확장성을 개선하려면 다음과 같이 하세요
+wrong_answers:
+  - Bitcoin Blockchain에서 거래 수수료 제거
+  - 고액 결제를 위한 Bitcoin 대체 결제 수단 만들기
+  - 서로 다른 암호화폐 간의 교환 간소화
+explanation: |
+  Lightning Network는 off-chain 결제 채널을 통해 빠르고 저렴한 거래를 가능하게 함으로써 Bitcoin의 확장성을 향상시키는 것을 목표로 합니다.
+reviewed: true

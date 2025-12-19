@@ -1,5 +1,5 @@
 ---
-name: Mfumo wa Uendeshaji wa Msingi
+name: Elementary OS
 description: Uingizwaji bora wa Windows na MacOS
 ---
 
@@ -11,7 +11,7 @@ Elementary OS ni mfumo wa uendeshaji unaotegemea Ubuntu, iliyoundwa kuwa rahisi,
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Kwa nini uchague Mfumo wa Uendeshaji wa Msingi
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Urahisi na urahisi wa kutumia**: Mchoro wa Interface wa Elementary OS uko katikati kati ya MacO na Windows. Uzoefu huu hurahisisha kutumia, hata kwa watumiaji wasio na uzoefu.
+- **Urahisi na urahisi wa kutumia**: Mchoro wa Interface wa Elementary OS uko katikati kati ya MacO na Windows. Uzoefu huu hurahisisha kutumia, hata kwa watumiaji wasio na uzoefu.
 
 
 
 
 
-- Usalama**: Kama ugawaji mwingi wa Linux, Mfumo wa Uendeshaji wa Msingi hufaidika na kiwango cha juu cha usalama. Sasisho za mara kwa mara, usimamizi wa haki na kutokuwepo kwa virusi vya kawaida hufanya mfumo wa kuaminika.
+- **Usalama**: Kama ugawaji mwingi wa Linux, Mfumo wa Uendeshaji wa Msingi hufaidika na kiwango cha juu cha usalama. Sasisho za mara kwa mara, usimamizi wa haki na kutokuwepo kwa virusi vya kawaida hufanya mfumo wa kuaminika.
 
 
 
 
 
-- Kasi**: Mfumo wa Uendeshaji wa Msingi ni usambazaji mwepesi. Inahitaji rasilimali chache, na kuifanya iwe ya haraka na inayofaa kwa kompyuta zilizo na usanidi wa kawaida.
+- **Kasi**: Mfumo wa Uendeshaji wa Msingi ni usambazaji mwepesi. Inahitaji rasilimali chache, na kuifanya iwe ya haraka na inayofaa kwa kompyuta zilizo na usanidi wa kawaida.
 
 
 
 
 
-- Bure**: Mfumo ni bure kabisa. Hata hivyo, unapoipakua, unaweza kutoa mchango ili kusaidia wasanidi programu.
+- **Bure**: Mfumo ni bure kabisa. Hata hivyo, unapoipakua, unaweza kutoa mchango ili kusaidia wasanidi programu.
 
 
 
 
 
-- Jumuiya inayotumika**: Jumuiya inayozunguka Mfumo wa Uendeshaji wa Msingi ni tofauti na inaitikia. Ikiwa unapata shida, unaweza kupata msaada kwa urahisi kwenye vikao au mitandao ya kijamii.
+- **Jumuiya inayotumika**: Jumuiya inayozunguka Mfumo wa Uendeshaji wa Msingi ni tofauti na inaitikia. Ikiwa unapata shida, unaweza kupata msaada kwa urahisi kwenye vikao au mitandao ya kijamii.
 
 
 
@@ -61,8 +61,8 @@ Kabla ya kuanza ufungaji, hakikisha kuwa una vifaa vifuatavyo:
 
 
 - ** Kitufe cha USB** cha angalau GB 12
-- Kumbukumbu ya RAM** ya angalau GB 4
-- **Diski ya Hard ya GB 20** au zaidi kwa matumizi ya starehe
+- Kumbukumbu ya **RAM** ya angalau GB 4
+- **Hard disk ya GB 20** au zaidi kwa matumizi ya starehe
 
 
 
@@ -233,7 +233,7 @@ Kabla ya kuzindua usakinishaji, unaweza kuidhinisha usakinishaji wa kiotomatiki 
 
 
 
-Mara baada ya kumaliza, bofya kitufe cha **ingiza ** ili kuanzisha upya, kisha uondoe kitufe cha USB kwa wakati unaofaa ili kuepuka kuanzisha upya usakinishaji.
+Mara baada ya kumaliza, bofya kitufe cha **ingiza** ili kuanzisha upya, kisha uondoe kitufe cha USB kwa wakati unaofaa ili kuepuka kuanzisha upya usakinishaji.
 
 
 
@@ -281,7 +281,7 @@ Hakikisha mpangilio wa kibodi ndio unaotaka.
 
 
 
-Husisha akaunti ya mtumiaji na mfumo wako wa uendeshaji kwa kufafanua jina la mtumiaji na kisha kupata ufikiaji wa data yako kwa nenosiri la alphanumeric la angalau vibambo na alama 20.
+Husisha akaunti ya mtumiaji na mfumo wako wa uendeshaji kwa kufafanua jina la mtumiaji, kisha upate ufikiaji wa data yako kwa nenosiri la alphanumeric lenye angalau herufi 20.
 
 
 
@@ -376,8 +376,8 @@ Amri hii husakinisha **Git**, **Python 3**, **pip**, **zana za mkusanyaji**, **w
 
 
 
-Mfumo wa Uendeshaji wa Msingi sasa umeanza kutumika kwenye mashine yako. Falsafa yake ya unyenyekevu, wepesi na uzuri hufanya kuwa chaguo bora kwa matumizi ya kibinafsi na ya kitaaluma. Unapata mfumo thabiti, wa majimaji na usio na vitu vingi, tayari kubinafsishwa kulingana na matakwa yako. Iwe ni kwa ajili ya maendeleo, matumizi ya ofisi au kuvinjari kila siku, kila kitu kiko tayari kujenga mazingira bora, angavu na ya kufurahisha ya kufanyia kazi. Pia angalia mafunzo yetu juu ya Fedora, usambazaji rahisi, thabiti na wa kawaida wa Linux.
+Mfumo wa Uendeshaji wa Msingi sasa umeanza kutumika kwenye mashine yako. Falsafa yake ya unyenyekevu, wepesi, na uzuri hufanya iwe chaguo bora kwa matumizi ya kibinafsi na ya kitaaluma. Unapata mfumo thabiti, wa majimaji, na usio na vitu vingi, tayari kubinafsishwa kulingana na matakwa yako. Iwe ni kwa ajili ya maendeleo, matumizi ya ofisi, au kuvinjari kila siku, kila kitu kiko tayari kuunda mazingira bora, angavu, na ya kufurahisha ya kufanya kazi. Pia angalia mafunzo yetu kuhusu Fedora, usambazaji rahisi, thabiti, na wa kawaida wa Linux.
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

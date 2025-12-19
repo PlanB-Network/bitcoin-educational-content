@@ -18,7 +18,7 @@ Keet, tüm iletişimleri uçtan uca şifreler ve hiçbir kişisel veri istemez. 
 
 
 
-Şu anda (Nisan 2025), Keet tamamen açık kaynaklı değildir. Kaynak kodunun bir kısmı, özellikle kriptografik ve ağ bileşenleri olmak üzere [Holepunch'ın GitHub deposunda] (https://github.com/holepunchto) mevcuttur, ancak istemci Interface henüz mevcut değildir. Ancak Holepunch, eninde sonunda tüm uygulamayı açık kaynaklı hale getirme niyetini açıkladı. Bu öğreticiyi ne zaman keşfettiğinize bağlı olarak, bu çoktan yapılmış olabilir.
+Şu anda (Nisan 2025), Keet tamamen açık kaynaklı değildir. Kaynak kodunun bir kısmı, özellikle kriptografik ve ağ bileşenleri olmak üzere [Holepunch'ın GitHub deposunda](https://github.com/holepunchto) mevcuttur, ancak istemci Interface henüz mevcut değildir. Ancak Holepunch, eninde sonunda tüm uygulamayı açık kaynaklı hale getirme niyetini açıkladı. Bu öğreticiyi ne zaman keşfettiğinize bağlı olarak, bu çoktan yapılmış olabilir.
 
 
 
@@ -65,7 +65,7 @@ Android'de [APK ile yüklemek](https://github.com/holepunchto/keet-mobile-releas
 
 
 
-Bu eğitimde mobil versiyona odaklanacağız, ancak [bilgisayar versiyonlarının da mevcut olduğunu] (https://keet.io/) (MacOS, Linux ve Windows) lütfen unutmayın. Hesabınızı birden fazla cihazda senkronize etmeniz de mümkündür.
+Bu eğitimde mobil versiyona odaklanacağız, ancak [bilgisayar versiyonlarının da mevcut olduğunu](https://keet.io/) (MacOS, Linux ve Windows) lütfen unutmayın. Hesabınızı birden fazla cihazda senkronize etmeniz de mümkündür.
 
 
 
@@ -333,4 +333,4 @@ Size Gmail'e çok daha gizlilik dostu bir alternatif olan Proton Mail'i tanıtt�
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

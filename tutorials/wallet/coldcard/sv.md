@@ -1,5 +1,5 @@
 ---
-name: Cold-kort
+name: COLDCARD Mk
 
 description: Skapa, säkerhetskopiera och använda en privat Bitcoin-nyckel med en Coldcard-enhet och Bitcoin Core
 ---
@@ -110,8 +110,8 @@ Se våra installations- och konfigurationsguider för Bitcoin Core:
 
 
 
-- Kör din egen nod med Bitcoin Core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
-- Konfigurera Tor för en Bitcoin Core-nod:** https://agora256.com/configuration-tor-Bitcoin-core/
+- **Kör din egen nod med Bitcoin Core:** https://agora256.com/faire-tourner-son-propre-noeud-avec-Bitcoin-core/
+- **Konfigurera Tor för en Bitcoin Core-nod:** https://agora256.com/configuration-tor-Bitcoin-core/
 
 
 Sätt först i ett micro SD-kort i Coldcard och exportera sedan Wallet till Bitcoin Core genom att följa dessa steg: Avancerat/Verktyg > Exportera Wallet > Bitcoin Core. Två filer kommer att skrivas till micro SD-kortet: Bitcoin-core.sig & Bitcoin-core.txt. Sätt i micro SD-kortet i den dator där Bitcoin Core är installerat och öppna .txt-filen. Du kommer att se raden "För Wallet med huvudnyckelns fingeravtryck." Kontrollera att den åtta tecken långa XFP:n matchar den du noterade när du skapade din privata nyckel
@@ -134,7 +134,7 @@ I den .txt-fil som genererades av Coldcard tidigare kopierar du nu raden som bö
 Om svaret innehåller "message": "Avståndsbeskrivare ska inte ha en etikett", radera posten "etikett": "Coldcard xxxx0000" i den kopierade raden från .txt-filen och klistra sedan in hela raden igen i Bitcoin Core-konsolen.
 
 
-Om det behövs kan du hitta lite hjälp [här] (https://github.com/Coldcard/firmware/blob/master/docs/Bitcoin-core-usage.md) på Coldcard Github.
+Om det behövs kan du hitta lite hjälp [här](https://github.com/Coldcard/firmware/blob/master/docs/Bitcoin-core-usage.md) på Coldcard Github.
 
 
 ## Validering av Wallet-import i Bitcoin-kärnan

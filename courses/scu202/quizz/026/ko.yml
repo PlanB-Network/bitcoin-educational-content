@@ -1,0 +1,9 @@
+question: 숨겨진 파일을 포함하여 폴더의 자세한 내용을 표시하는 명령은 무엇인가요?
+answer: ls -lah
+wrong_answers:
+  - show-folder
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah"는 숨겨진 파일(점으로 시작)을 포함하여 파일과 폴더를 자세히 표시합니다.
+reviewed: false

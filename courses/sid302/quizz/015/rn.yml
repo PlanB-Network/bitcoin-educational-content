@@ -1,0 +1,8 @@
+question: Mu HTLC ikoreshwa na Taproot, ni amakuru ayahe ahishurirwa urubuga rwa Bitcoin iyo swap inaniwe kandi uruhande rumwe rukeneye gusubirana amahera yabo biciye mu nzira y’abansi?
+answer: Ishami ry'igiti ca Merkle ryonyene ririmwo ivyangombwa vy'ugufunga hash/time bikenewe kugira ngo amafaranga asubiremwo
+wrong_answers:
+  - "Inyandiko yuzuye harimwo inzira zose zishoboka zo gukora n'imfunguruzo za bose z'impande zompi"
+  - Ibanga ry'ishusho y'imbere n'imfunguruzo zose za bose zikoreshwa mu nzira yo gukoranya imfunguruzo za MuSig2
+  - Amasezerano yose ya HTLC harimwo amahera yo guhindura, igihe, n’amaderesi yose ya Lightning na Liquid
+explanation: |
+  Taproot itunganya ibintu vya HTLC mu giti ca Merkle, bikaba vyemerera guhishurirwa mu buryo butoranijwe. Iyo ubufatanye butashoboka, ishami ryihariye rikenewe kugira ngo ryemeze uburenganzira bwo gusubirana amahera ni ryo ryonyene rimenyekana, mu gihe ibindi bintu vyerekeye amasezerano biguma vyihishijwe. Ivyo bitandukanye n’ivya HTLC vya kera vyagaragaje inyandiko zishitse, kandi bitandukanye n’ibibazo vy’ubufatanye aho ata makuru y’inyandiko ahishurirwa na gato.

@@ -1,0 +1,9 @@
+question: Bob(수신자)가 Contract로 받는 RGB Consignment에는 어떤 구성 요소가 포함되어 있나요?
+answer: Genesis, Schema, Interface 및 Interface Implementation
+wrong_answers:
+  - Genesis, Schema, 전환 및 확장
+  - Schema, Interface, 시그니처 및 PSBT
+  - Genesis, Interface, PSBT 및 역사
+explanation: |
+  RGB의 Consignment에는 Contract를 검증하는 데 필요한 모든 데이터를 제공하는 Genesis, Schema, Interface 및 Interface Implementation이 포함되어 있습니다.
+reviewed: false

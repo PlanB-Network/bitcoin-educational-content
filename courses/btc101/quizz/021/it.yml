@@ -1,10 +1,13 @@
-question: Qual è uno degli svantaggi dell'oro come forma di denaro?
-answer: Non è facilmente divisibile.
+question: Qual è il percorso evolutivo della valuta di oggi?
+answer: Pietra grezza -> Moneta -> Banconota -> Carta di credito/debito -> Blockchain -> Lightning Network
 wrong_answers:
-  - Non mantiene il suo valore nello spazio.
-  - Si erode nel tempo.
-  - È facile da produrre.
+  - Pietra grezza -> Moneta -> Banconota -> Blockchain -> Lightning Network
+  - Pietra grezza -> Moneta -> Banconota -> Carta di credito/debito -> Lightning Network
+  - Pietra grezza -> Moneta -> Carta di credito/debito -> Banconota -> Blockchain -> Lightning Network
 explanation: |
-  Uno degli svantaggi principali dell'oro come forma di denaro è
-  la difficoltà di dividerlo in piccole unità all'occorrenza, il che lo rende meno pratico da usare.
-reviewed: vero
+  La valuta è una tecnologia che si è evoluta nel tempo,
+  partendo dalla rappresentazione tramite pietre grezze, passando
+  alle monete metalliche, poi alle banconote, alle carte di credito/debito, e
+  infine alle reti peer-to-peer con l'uso della blockchain di Bitcoin
+  e di Lightning Network.
+reviewed: true

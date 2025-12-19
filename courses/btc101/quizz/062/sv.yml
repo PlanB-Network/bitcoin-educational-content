@@ -1,12 +1,12 @@
-question: Vad är det för mekanism som säkerställer att ett nytt block läggs till i Blockchain var tionde minut?
-answer: Justering av svårighetsgrad.
+question: Vad var det uppskattade antalet bitcoins i omlopp efter den första Halving?
+answer: 10.500.000 BTC.
 wrong_answers:
-  - Justering av hastighet.
-  - Tidsjustering.
-  - Blockjustering.
+  - 5 250 000 BTC.
+  - 15.750.000 BTC.
+  - 21.000.000 BTC.
 explanation: |
-  Den mekanism som säkerställer att ett nytt block läggs till i
-  Blockchain var tionde minut är svårighetsjusteringen.
-  Denna justering sker vart 2016:e block, eller cirka
-  två veckor.
+  Efter den första Halving, som inträffade vid blockhöjd
+  210.000, det uppskattade antalet bitcoins i omlopp
+  var 10 500 000 BTC, vilket är hälften av det totala antalet
+  bitcoins som kommer att vara i omlopp.
 reviewed: true

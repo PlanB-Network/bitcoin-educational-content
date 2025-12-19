@@ -1,10 +1,12 @@
-question: Qual é a recompensa em BTC após o quarto halving?
-answer: 3.125 BTC.
+question: Qual é o risco de compartilhar a chave pública de uma carteira Bitcoin?
+answer: Perder a privacidade.
 wrong_answers:
-  - 1.5625 BTC.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - Destruir a carteira Bitcoin.
+  - Perder os Bitcoins.
+  - Hackear a carteira Bitcoin.
 explanation: |
-  Após o quarto halving, que ocorre na altura do bloco
-  840,000, a recompensa por mineração em BTC é de 3.125 BTC.
+  Compartilhar a chave pública envolve riscos para a privacidade, mas não
+  para a segurança. Isso ocorre porque a chave pública é usada para
+  gerar endereços Bitcoin e, assim, receber dinheiro, mas ela
+  não representa a propriedade dos Bitcoins.
 reviewed: true

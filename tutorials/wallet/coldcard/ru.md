@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: Создание, резервное копирование и использование приватного ключа Bitcoin с помощью устройства Coldcard и Bitcoin Core
 ---

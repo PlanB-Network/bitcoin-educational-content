@@ -1,11 +1,11 @@
-question: Hva ligner adopsjonskurven til Bitcoin på?
-answer: En S-kurve
+question: Hva er statusen til Bitcoin i noen land?
+answer: Forbudt og kriminalisert
 wrong_answers:
-  - En U-kurve
-  - En V-kurve
-  - En W-kurve
+  - Fullstendig adoptert
+  - Delvis adoptert
+  - Uregulert
 explanation: >-
-  Adopsjonen av Bitcoin, som med enhver ny teknologi, følger en S-kurve.
-  Dette er et vanlig mønster for adopsjon av nye teknologier, hvor adopsjonen starter
-  sakte, deretter akselererer før den bremser ned når metning er nådd.
+  Teksten nevner at noen land har forbudt og kriminalisert
+  bruken av Bitcoin, noe som bidrar til kompleksiteten rundt adopsjonen av Bitcoin basert på kulturer,
+  epoker, og nasjoner.
 reviewed: false

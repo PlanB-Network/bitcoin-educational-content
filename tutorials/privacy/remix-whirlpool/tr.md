@@ -18,7 +18,7 @@ _Bu eğitim yalnızca eğitim ve bilgilendirme amaçlıdır. Bu araçların suç
 
 > *Paralarınızın geride bıraktığı bağı kırın*
 
-Bu bana sıkça sorulan bir soru. **Whirlpool ile eş birleştirmeler yaparken, tatmin edici sonuçlar elde etmek için kaç remiks yapılmalıdır?
+Bu bana sıkça sorulan bir soru. **Whirlpool ile eş birleştirmeler yaparken, tatmin edici sonuçlar elde etmek için kaç remiks yapılmalıdır?**
 
 
 CoinJoin'nın amacı, Coin'nizi bir grup ayırt edilemeyen madeni parayla karıştırarak makul bir inkar edilebilirlik sunmaktır. Bu işlemin amacı hem geçmişten günümüze hem de günümüzden geçmişe olan izlenebilirlik bağlantılarını kırmaktır. Başka bir deyişle, CoinJoin döngülerinin girişindeki ilk işleminizi bilen bir analist, remiks döngülerinin çıkışındaki UTXO'inizi kesin olarak belirleyememelidir (giriş döngülerinden çıkış döngülerine analiz).
@@ -47,7 +47,7 @@ Bu göstergenin adı "geriye dönük anonset" veya "geriye dönük metrikler "di
 
 ![backward anonset](assets/en/6.webp)
 
-Bu göstergelerin hesaplama yöntemi hakkında daha fazla bilgi edinmek için bu konudaki [Twitter başlığımı] (https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) okumanızı tavsiye ederim. Ayrıca PlanB Ağı hakkında daha kapsamlı bir makale hazırlıyoruz.
+Bu göstergelerin hesaplama yöntemi hakkında daha fazla bilgi edinmek için bu konudaki [Twitter başlığımı](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) okumanızı tavsiye ederim. Ayrıca PlanB Ağı hakkında daha kapsamlı bir makale hazırlıyoruz.
 
 
 Belirli bir remiks sayısı beklediğiniz için verilen cevabın tatmin edici görünmediğinin farkındayım ve sizi belgelere yönlendiriyorum. Bunun nedeni, remiks sayısının CoinJoin döngülerinde kazanılan anonimliği değerlendirmek için güvenilir olmayan bir gösterge olmasıdır. Bu nedenle, mutlak ve evrensel bir güvenlik eşiği olarak sabit bir remiks sayısı tanımlamak mümkün değildir.
@@ -80,7 +80,7 @@ Bu nedenle Whirlpool kullanımının özellikle `HODL -> Karıştır -> Harca ->
 Umarım bu cevap Whirlpool modeline biraz ışık tutmuştur. Bitcoin'ta coinjoins'in nasıl çalıştığı hakkında daha fazla bilgi edinmek istiyorsanız, bu konudaki kapsamlı makalemi okumanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Harici kaynaklar:**
 

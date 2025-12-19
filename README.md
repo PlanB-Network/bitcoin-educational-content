@@ -1,16 +1,16 @@
 <div align="center">
-  <a href="https://planb.network">
+  <a href="https://planb.academy">
     <picture>
       <source srcset="docs/assets/black_and_orange_gradient.png" media="(prefers-color-scheme: light)">
-      <source srcset="docs/assets/horizontal_logo.png" media="(prefers-color-scheme: dark)">
-      <img src="docs/assets/black_and_orange_gradient.png" alt="PBN Logo" width="37%">
+      <source srcset="docs/assets/white_and_orange_gradient.png" media="(prefers-color-scheme: dark)">
+      <img src="docs/assets/black_and_orange_gradient.png" alt="Plan ₿ Academy Logo" width="37%">
     </picture>
   </a>
 </div>
 
 <div align="center">
   <h1 style="margin-top: 0;"></h1>
-    <a href="https://planb.network/">
+    <a href="https://planb.academy/">
     <img alt="Website" src="https://img.shields.io/website?up_message=online&down_message=offline&url=https%3A%2F%2Fstart9.com&logo=website&label=%F0%9F%8C%90%20Website&color=ff5c00">
   </a>
   <a href="https://twitter.com/planb_network">
@@ -30,22 +30,22 @@
 <br />
 <div align="center">
   <h3>
-    Welcome to the Plan ₿ Network Content Repo!
+    Welcome to the Plan ₿ Academy Content Repo!
   </h3>
   <p>
-    Welcome to the Plan ₿ Network Content Repo! If you are here, there's a chance you want to contribute to this larger-than-us project, which aims at consolidating the first multilingual and open-source e-learning platform focused on Bitcoin.
+    Welcome to the Plan ₿ Academy Content Repo! If you are here, there's a chance you want to contribute to this larger-than-us project, which aims at consolidating the first multilingual and open-source e-learning platform focused on Bitcoin.
   </p>
 </div>
 <br />
 <p align="center">
-  <a href="https://planb.network">
-    <img src="docs/assets/PBN-banner.png" alt="P₿N banner" width="100%">
+  <a href="https://planb.academy">
+    <img src="docs/assets/PBA-banner.png" alt="P₿A banner" width="100%">
   </a></p>
 <br />
 
 ---
 
-If you're just lost on GitHub, visit our [website](https://planb.network) to learn more about Bitcoin.
+If you're just lost on GitHub, visit our [website](https://planb.academy) to learn more about Bitcoin.
 
 However, we hope you're here to contribute, so here we will present the inner workings of this content management system and how you can assist us -- either by adding new material or translating/proofreading content in your language.
 
@@ -53,11 +53,11 @@ Thank you for your time, involvement, and effort in this project. Here, we belie
 
 # Why do we do it?
 
-Plan ₿ Network was born from our belief in the transformative power of Bitcoin to create a decentralized future. We are inspired by the Cypherpunk Manifesto, which emphasizes the importance of knowledge as the foundation of freedom and change. Our ultimate goal is to empower individuals all over the world with the knowledge they have been deprived of, in order to revolutionize the world.
+Plan ₿ Academy was born from our belief in the transformative power of Bitcoin to create a decentralized future. We are inspired by the Cypherpunk Manifesto, which emphasizes the importance of knowledge as the foundation of freedom and change. Our ultimate goal is to empower individuals all over the world with the knowledge they have been deprived of, in order to revolutionize the world.
 
 # How does it work?
 
-Plan ₿ Network helps communities worldwide get organized to provide better education. The platform develops the necessary tools to achieve this goal through the [online academy](https://planb.network/courses), the [tutorials portal](https://planb.network/tutorials), and the [resource portal](https://planb.network/resources).
+Plan ₿ Academy helps communities worldwide get organized to provide better education. The platform develops the necessary tools to achieve this goal through the [online academy](https://planb.academy/courses), the [tutorials portal](https://planb.academy/tutorials), and the [resource portal](https://planb.academy/resources).
 
 Before getting onto the platform, contents are published here, in this repository, as a central public
 place for Bitcoin Education. Any piece of content is specifically formatted to
@@ -96,19 +96,19 @@ If you want to learn more about it, go have a [look here](#why-value-4-value-PoW
 
 # How can you contribute?
 
-Bitcoin is for everyone, and so is Plan ₿ Network, which means that everyone who has a specific talent can contribute to the growth of the network. Whether you are a nerdy, super coder or a social media influencer, your knowledge and skills are essential to spread Bitcoin knowledge across the world.
+Bitcoin is for everyone, and so is Plan ₿ Academy, which means that everyone who has a specific talent can contribute to the growth of the network. Whether you are a nerdy, super coder or a social media influencer, your knowledge and skills are essential to spread Bitcoin knowledge across the world.
 
 ## Be a node of the network
 
-Another way to contribute might be to become a Plan ₿ Network Node. A node is a Bitcoin community that has a physical hub and wants to move to the next step to accelerate local Bitcoin adoption! There are no requirements regarding the size of its community: what is important is its dedication and the Proof-of-Work already done for the local peers.
+Another way to contribute might be to become a Plan ₿ Academy Node. A node is a Bitcoin community that has a physical hub and wants to move to the next step to accelerate local Bitcoin adoption! There are no requirements regarding the size of its community: what is important is its dedication and the Proof-of-Work already done for the local peers.
 
-At Plan ₿ Network, we aim to improve the Bitcoin education ecosystem by providing the right tools to educate others and create local projects. So, by becoming a node, your community will get access to a large range of resources, services, special training, and more.
+At Plan ₿ Academy, we aim to improve the Bitcoin education ecosystem by providing the right tools to educate others and create local projects. So, by becoming a node, your community will get access to a large range of resources, services, special training, and more.
 
-If you want your community to be a reference in the Bitcoin world, learn more about how to become a node [here](https://planb.network/en/node-network).
+If you want your community to be a reference in the Bitcoin world, learn more about how to become a node [here](https://planb.academy/en/node-network).
 
 ## Be a Bitcoin Educator
 
-If you have created some Bitcoin educational content, whether in the form of a video, book, podcast, blog, or even an entire course, Plan ₿ Network will grant you the right visibility on our global platform. We can provide the tools to translate your teaching materials and share them with people who speak many different languages.
+If you have created some Bitcoin educational content, whether in the form of a video, book, podcast, blog, or even an entire course, Plan ₿ Academy will grant you the right visibility on our global platform. We can provide the tools to translate your teaching materials and share them with people who speak many different languages.
 
 As an educator, your role is crucial. In fact, without your dedication and passion, Bitcoin only remains a piece of information. Instead, we want people to understand that Bitcoin is precious and the knowledge of it will pass through generations.
 
@@ -129,19 +129,19 @@ Literally EVERY LANGUAGE is needed!
 
 The image above displays the percentage of static elements on our website that have been translated, per language. Feel free to reach out if you want to add your language to the platform!
 
-### How to add a new language on PBN
+### How to add a new language on Plan ₿ Academy
 
 If you are enthusiastic about this initiative and you would like to help us, please add your local language to the github repo and the website. Kindly follow the following steps:
 
 1. Join the [Contributors TG group](https://t.me/PlanBNetwork_ContentBuilder) and present the languages you speak.
 2. You will be contacted by our team member and maybe added to a specific group dedicated to one language.
-3. The first step will be to [add the new language](https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86) on the Weblate app (an account on Weblate is required).
-4. Then, you can [start translating the static elements](https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
+3. The first step will be to [add the new language](https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86) on the Weblate app (an account on Weblate is required).
+4. Then, you can [start translating the static elements](https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295) of the website.
 5. When you finish, go back to the [TG group](https://t.me/PlanBNetwork_ContentBuilder) or reach out to the translation coordinator to inform them you have completed the task.
 6. Thanks to the [LLM-Translator](https://github.com/Asi0Flammeus/LLM-Translator), or other tools, we will translate the BTC101 course to benchmark with you the automatic translation accuracy.
-7. [Start proofreading](https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) BTC101 on GitHub (an account on GitHub is required) in the corresponding language after the approval of the coordinator.
+7. [Start proofreading](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017) BTC101 on GitHub (an account on GitHub is required) in the corresponding language after the approval of the coordinator.
 8. After you finish and we merge the PR, we will send you the reward in sats for both contributions, using a Lightning Network invoice or LN address.
-9. If the automatic translation is good enough, we will translate all the educational content of Plan ₿ Network and publish it on the website.
+9. If the automatic translation is good enough, we will translate all the educational content of Plan ₿ Academy and publish it on the website.
 10. Then, anyone will be able to choose any content in that language to proofread and receive the associated reward.
 
 # Why do we use the value-4-value PoW model?
@@ -175,7 +175,7 @@ If you believe you are one of them, [reach out](https://t.me/PlanBNetwork_Conten
 
 <br />
 <p align="center">
-  <a href="https://planb.network">
+  <a href="https://planb.academy">
     <img src="docs/assets/doing-my-part.jpg" alt="Doing my Part meme" width="75%">
   </a></p>
 <br />

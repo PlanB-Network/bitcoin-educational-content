@@ -1,13 +1,10 @@
-question: Hva ville konsekvensene være hvis blokkene var 100 ganger tyngre?
-answer: Å kjøre en Bitcoin-node ville ikke være tilgjengelig for gjennomsnittspersonen, noe som kompromitterer desentraliseringen av protokollen og uforanderligheten av transaksjoner og konsensusregler.
+question: Hva er rollen til ASICs i Bitcoin-mining?
+answer: ASICs er maskiner designet utelukkende for å anvende SHA256-algoritmen i miningprosessen.
 wrong_answers:
-  - Å kjøre en Bitcoin-node ville være mer tilgjengelig for gjennomsnittspersonen, noe som forbedrer desentraliseringen av protokollen og uforanderligheten av transaksjoner og konsensusregler.
-  - Transaksjonskapasiteten til nettverket ville reduseres.
-  - Blokkbelønningen for gruvearbeidere ville øke.
-explanation: |
-  Hvis blokkene var 100 ganger tyngre, ville kjøring av en Bitcoin-node kreve
-  en 50TB harddisk, en båndbredde på over 500GB/måned, og maskinvare i stand til å validere
-  hundretusener av transaksjoner på mindre enn 10 minutter. Dette ville gjøre kjøring
-  av en Bitcoin-node utilgjengelig for gjennomsnittspersonen, noe som kompromitterer desentraliseringen
-  av protokollen og uforanderligheten av transaksjoner og konsensusregler.
-reviewed: false
+  - ASICs brukes til å verifisere Bitcoin-transaksjoner.
+  - ASICs brukes til å skape nye bitcoins.
+  - ASICs brukes til å sikre Bitcoin-nettverket.
+explanation: >-
+  ASICs (Application-Specific Integrated Circuits) er spesialisert maskinvare
+  designet spesifikt for Bitcoin-mining. De er optimalisert for å utføre SHA256-
+  hashfunksjonen, som er det matematiske problemet minerne må løse i Proof of Work.

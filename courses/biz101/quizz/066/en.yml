@@ -5,5 +5,5 @@ wrong_answers:
   - Open Node
   - Swiss Bitcoin Pay
 explanation: |
-  Be-BOP is as an option for those who desire an integrated online e-store that facilitates Bitcoin payments.
-reviewed: false
+  Be-BOP is an option for those who desire an integrated online e-store that facilitates Bitcoin payments.
+reviewed: true

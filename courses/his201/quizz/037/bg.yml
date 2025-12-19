@@ -1,0 +1,9 @@
+question: Коя услуга за обмен, създадена през март 2010 г., беше най-популярна преди появата на Mt. Gox през юли?
+answer: Пазар Bitcoin
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Този peer-to-peer пазар, използващ PayPal, беше стартиран на 16 март 2010 г. от лице, известно като dwdollar, и беше основната платформа преди Mt. Gox.
+reviewed: true

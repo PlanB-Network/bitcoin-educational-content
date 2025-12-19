@@ -1,0 +1,9 @@
+question: 스위스 Bitcoin Pay 솔루션이 Essential 프로필의 소규모 비즈니스에 특히 적합한 기능은 무엇인가요?
+answer: 사용자 친화적인 PoS 앱
+wrong_answers:
+  - 고급 다중 통화 거래 기능
+  - 멀티 시그니처 Wallet 관리
+  - 완전한 Blockchain 분석 통합
+explanation: |
+  Swiss Bitcoin Pay는 일상적인 작업을 간소화하는 간단한 PoS Interface로 설계되었습니다.
+reviewed: true

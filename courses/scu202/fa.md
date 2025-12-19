@@ -156,7 +156,7 @@ objectives:
 
 
 
-*توجه: اگر در طول دوره با هرگونه اصطلاح ناآشنا مواجه شدید، لطفاً برای تعاریف به [واژه‌نامه](https://planb.network/resources/glossary) مراجعه کنید.
+*توجه: اگر در طول دوره با هرگونه اصطلاح ناآشنا مواجه شدید، لطفاً برای تعاریف به [واژه‌نامه](https://planb.academy/resources/glossary) مراجعه کنید.*
 
 
 
@@ -179,7 +179,7 @@ objectives:
 
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### مرور ایمن آنلاین
 
@@ -694,7 +694,7 @@ GNU به سرعت مجموعه‌ای از ابزارهای ضروری را بر
 
 
 
-*منبع: ناتانیل ولچ
+**منبع: ناتانیل ولچ**
 
 
 
@@ -794,7 +794,7 @@ GNU به سرعت مجموعه‌ای از ابزارهای ضروری را بر
 
 
 
-- فوریه 1992: MCC Interim Linux**
+- فوریه 1992: **MCC Interim Linux**
 
 
 
@@ -804,7 +804,7 @@ GNU به سرعت مجموعه‌ای از ابزارهای ضروری را بر
 
 
 
-- مه ۱۹۹۲: سیستم لینوکس سافت‌لندینگ (SLS)**
+- مه ۱۹۹۲: سیستم لینوکس سافت‌لندینگ (SLS)
 
 
 
@@ -826,7 +826,7 @@ SLS دیگر وجود ندارد. آخرین نسخه شناخته شده آن �
 
 
 
-- ژوئیه 1993: Slackware**
+- ژوئیه 1993: **Slackware**
 
 
 
@@ -848,7 +848,7 @@ SLS دیگر وجود ندارد. آخرین نسخه شناخته شده آن �
 
 
 
-- اوت 1993: Debian**
+- اوت 1993: **Debian**
 
 
 
@@ -886,7 +886,7 @@ SLS دیگر وجود ندارد. آخرین نسخه شناخته شده آن �
 
 
 
-- ۱۹۹۴: Red Hat Linux**
+- ۱۹۹۴: **Red Hat Linux**
 
 
 
@@ -974,7 +974,7 @@ SLS دیگر وجود ندارد. آخرین نسخه شناخته شده آن �
 
 آرچ لینوکس در درجه اول برای کاربران پیشرفته‌ای طراحی شده است که می‌خواهند کنترل کامل بر محیط خود داشته باشند، در حالی که پیچیدگی خاصی در نصب و نگهداری را می‌پذیرند. این نیاز فنی منجر به ظهور چندین توزیع مشتق شده است که هدف آن‌ها دموکراتیزه کردن استفاده از آن است.
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 بهترین شناخته‌شده مانجارو است که پایه فنی آرچ را حفظ می‌کند و در عین حال نصب ساده‌تر، محیط‌های دسکتاپ از پیش پیکربندی‌شده و چرخه انتشار کمی تأخیر یافته برای تثبیت به‌روزرسانی‌ها را ارائه می‌دهد.
 
@@ -1050,7 +1050,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 
 
-- اوبونتو**:
+- **اوبونتو**:
 
 
 
@@ -1062,11 +1062,11 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 
-- لینوکس مینت**:
+- **لینوکس مینت**:
 
 
 
@@ -1074,7 +1074,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
 نعناع به دلیل سادگی، حضور پیش‌فرض کدک‌های چندرسانه‌ای و ابزار به‌روزرسانی خوب طراحی‌شده، برجسته است. از سوی دیگر، به شدت به زیرساخت اوبونتو متکی است و این امر آن را به انتخاب‌های فنی اوبونتو وابسته می‌کند (به‌ویژه در سطح هسته و مخزن). نعناع به‌ویژه برای کاربران غیر فنی یا کسانی که یک سیستم آماده به کار می‌خواهند که نیاز به یادگیری زیادی ندارد، مناسب است.
 
@@ -1086,7 +1086,7 @@ https://planb.network/tutorials/computer-security/operating-system/linux-mint-da
 
 
 
-- Zorin OS**:
+- **Zorin OS**:
 
 
 
@@ -1104,11 +1104,11 @@ https://planb.network/tutorials/computer-security/operating-system/linux-mint-da
 
 
 
-- elementary OS**:
+- **elementary OS**:
 
 در سال 2011 راه‌اندازی شد، elementary OS یک توزیع مبتنی بر اوبونتو است که بیش از همه بر طراحی و سازگاری Interface تمرکز دارد. محیط دسکتاپ Pantheon آن، که از macOS الهام گرفته شده، مینیمالیستی، زیبا و روان است. با این حال، سیستم کمتر از سایر توزیع‌ها قابل سفارشی‌سازی است و برخی از کاربران پیشرفته ممکن است به دلیل انتخاب‌های Interface و ساختار عمداً قفل‌شده آن احساس محدودیت کنند. این سیستم برای کاربرانی که به زیبایی حساس هستند و به دنبال یک سیستم ساده و منسجم برای استفاده روزمره هستند، بسیار مناسب است.
 
-https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
+https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
 
 
@@ -1118,7 +1118,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- پاپ!‌اواس**:
+- پاپ!‌اواس:
 
 
 
@@ -1140,7 +1140,7 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- فدورا** (ایستگاه کاری یا KDE Plasma):
+- **فدورا** (ایستگاه کاری یا KDE Plasma):
 
 
 
@@ -1151,10 +1151,10 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 ![Image](assets/fr/025.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed یا Leap):
+- **openSUSE** (Tumbleweed یا Leap):
 
 
 
@@ -1168,7 +1168,7 @@ openSUSE به عنوان یک نسخه رولینگ یا توزیع پایدار
 
 
 
-- دبیان**:
+- **دبیان**:
 
 
 
@@ -1179,10 +1179,10 @@ openSUSE به عنوان یک نسخه رولینگ یا توزیع پایدار
 ![Image](assets/fr/027.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- مانجارو**:
+- **مانجارو**:
 
 
 
@@ -1196,7 +1196,7 @@ https://planb.network/tutorials/computer-security/operating-system/debian-d09a57
 
 
 
-- آرچ لینوکس**:
+- **آرچ لینوکس**:
 
 
 
@@ -1208,11 +1208,11 @@ https://planb.network/tutorials/computer-security/operating-system/debian-d09a57
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
+https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
 #### توزیع تخصصی
 
-- کالی لینوکس**:
+- **کالی لینوکس**:
 
 کالی لینوکس یک توزیع مبتنی بر دبیان است که برای تست نفوذ و ممیزی امنیتی طراحی شده است. این شامل صدها ابزار تست نفوذ است. این توزیع واقعاً به عنوان یک سیستم اصلی برای استفاده روزمره مناسب نیست.
 
@@ -1224,7 +1224,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 
 
-- Parrot OS**:
+- **Parrot OS**:
 
 
 
@@ -1238,7 +1238,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 
 
-- دم‌ها**:
+- **دم‌ها**:
 
 
 
@@ -1246,7 +1246,7 @@ https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
+https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
 → **توجه:** یک توزیع زنده یک سیستم‌عامل لینوکس است که می‌تواند مستقیماً از یک USB یا CD استفاده شود، بدون نصب بر روی دیسک Hard.
 
@@ -1258,7 +1258,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- **Qubes OS**:
 
 
 
@@ -1272,7 +1272,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- بلک‌آرچ**:
+- **بلک‌آرچ**:
 
 
 
@@ -1286,7 +1286,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- PureOS**:
+- **PureOS**:
 
 
 
@@ -1300,9 +1300,9 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
+https://planb.academy/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- سیستم‌عامل Raspberry Pi**:
+- سیستم‌عامل **Raspberry Pi**:
 
 سیستم‌عامل Raspberry Pi (که قبلاً به نام Raspbian شناخته می‌شد) یک توزیع بهینه‌سازی شده برای میکروکامپیوترهای Raspberry Pi است. این سیستم‌عامل بر پایه Debian است و بسته‌های آن برای معماری ARM بازکامپایل شده‌اند. می‌توان از آن برای پروژه‌های آموزشی، تست‌های الکترونیکی یا سرورهای شخصی کوچک استفاده کرد.
 
@@ -1314,7 +1314,7 @@ https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5f
 
 
 
-- Whonix**:
+- **Whonix**:
 
 
 
@@ -1326,7 +1326,7 @@ Whonix دبیان را با شبکه تور در یک معماری دو ماشی
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 این پانوراما به شما نمای کلی از اکوسیستم فعلی توزیع‌های لینوکس را ارائه می‌دهد و به شما امکان می‌دهد توزیعی را انتخاب کنید که به بهترین وجه با پروفایل فنی و اهداف شما سازگار است.
 
@@ -1362,55 +1362,55 @@ https://planb.network/tutorials/computer-security/operating-system/whonix-06f917
 
 
 
-- مدیر پنجره**: مرزهای پنجره را ترسیم می‌کند، مکان‌یابی، تغییر اندازه و افکت‌های انتقال آن‌ها را مدیریت می‌کند... برای مثال: Mutter (GNOME)، KWin (KDE Plasma)، Xfwm (Xfce).
+- **مدیر پنجره**: مرزهای پنجره را ترسیم می‌کند، مکان‌یابی، تغییر اندازه و افکت‌های انتقال آن‌ها را مدیریت می‌کند... برای مثال: Mutter (GNOME)، KWin (KDE Plasma)، Xfwm (Xfce).
 
 
 
 
 
-- یک مدیر فایل**: به شما امکان می‌دهد تا به صورت بصری درخت دایرکتوری را مرور کنید، فایل‌ها را کپی، جابجا یا حذف کنید. مثال‌ها: Nautilus (GNOME)، Dolphin (KDE)، Thunar (Xfce).
+- **یک مدیر فایل**: به شما امکان می‌دهد تا به صورت بصری درخت دایرکتوری را مرور کنید، فایل‌ها را کپی، جابجا یا حذف کنید. مثال‌ها: Nautilus (GNOME)، Dolphin (KDE)، Thunar (Xfce).
 
 
 
 
 
-- یک مرکز پیکربندی**: این یک مجموعه ابزار است که به کاربر امکان می‌دهد پارامترهای سیستم را بدون استفاده از خط فرمان تغییر دهد: ظاهر، تصویر زمینه، مدیریت کاربران، شبکه، دستگاه‌های جانبی...
+- یک **مرکز پیکربندی**: این یک مجموعه ابزار است که به کاربر امکان می‌دهد پارامترهای سیستم را بدون استفاده از خط فرمان تغییر دهد: ظاهر، تصویر زمینه، مدیریت کاربران، شبکه، دستگاه‌های جانبی...
 
 
 
 
 
-- برنامه‌های کوچک سیستم**: این‌ها آیکون‌ها و ماژول‌های تعاملی کوچکی در نوار وظیفه (یا "پنل") هستند، مانند کنترل صدا، سطح باتری، اتصال شبکه، ساعت...
+- **برنامه‌های کوچک سیستم**: این‌ها آیکون‌ها و ماژول‌های تعاملی کوچکی در نوار وظیفه (یا "پنل") هستند، مانند کنترل صدا، سطح باتری، اتصال شبکه، ساعت...
 
 
 
 
 
-- یک پانل یا داشبورد**: یک نوار قابل مشاهده، اغلب در بالای یا پایین صفحه نمایش، که شامل منوی اصلی، اپلت‌های سیستم، میانبرها، منطقه اعلان و غیره است.
+- **یک پانل یا داشبورد**: یک نوار قابل مشاهده، اغلب در بالای یا پایین صفحه نمایش، که شامل منوی اصلی، اپلت‌های سیستم، میانبرها، منطقه اعلان و غیره است.
 
 
 
 
 
-- مدیر جلسه**: در زمان راه‌اندازی اجرا می‌شود، صفحه ورود را نمایش می‌دهد و جلسه گرافیکی انتخاب‌شده را راه‌اندازی می‌کند. برای مثال: GDM (GNOME)، SDDM (KDE)، LightDM (Xfce).
+- **مدیر جلسه**: در زمان راه‌اندازی اجرا می‌شود، صفحه ورود را نمایش می‌دهد و جلسه گرافیکی انتخاب‌شده را راه‌اندازی می‌کند. برای مثال: GDM (GNOME)، SDDM (KDE)، LightDM (Xfce).
 
 
 
 
 
-- مدیر اعلان**: نمایش اعلان‌های سیستم (پیام‌ها، هشدارها، به‌روزرسانی‌ها، و غیره) را مدیریت می‌کند. برای مثال: dunst، Plasma-notifier، xfce4-notifyd.
+- **مدیر اعلان**: نمایش اعلان‌های سیستم (پیام‌ها، هشدارها، به‌روزرسانی‌ها، و غیره) را مدیریت می‌کند. برای مثال: dunst، Plasma-notifier، xfce4-notifyd.
 
 
 
 
 
-- ترکیب‌کننده X11 (اختیاری)**: جلوه‌های بصری (سایه‌ها، شفافیت، انیمیشن‌ها) را در محیط‌هایی که مدیر پنجره از ترکیب‌بندی پشتیبانی نمی‌کند، اضافه می‌کند. برای مثال: compton، picom.
+- **ترکیب‌کننده X11 (اختیاری)**: جلوه‌های بصری (سایه‌ها، شفافیت، انیمیشن‌ها) را در محیط‌هایی که مدیر پنجره از ترکیب‌بندی پشتیبانی نمی‌کند، اضافه می‌کند. برای مثال: compton، picom.
 
 
 
 
 
-- یک سرور نمایش**: این نرم‌افزار ارتباط بین سیستم (از طریق کرنل و درایورهای گرافیکی) و برنامه‌های گرافیکی را مدیریت می‌کند. این نرم‌افزار پنجره‌ها را روی صفحه نمایش می‌دهد و ورودی‌های صفحه‌کلید و ماوس را مدیریت می‌کند. سرور نمایش اغلب یک جزء متفاوت از محیط دسکتاپ است، اما سیستم‌های بیشتری در حال پذیرش Wayland هستند، یک پروتکل مدرن که در آن نقش سرور نمایش می‌تواند مستقیماً توسط مدیر پنجره (مثلاً Mutter در GNOME یا KWin در KDE) بر عهده گرفته شود. این سپس به عنوان "ترکیب Wayland" شناخته می‌شود.
+- **یک سرور نمایش**: این نرم‌افزار ارتباط بین سیستم (از طریق کرنل و درایورهای گرافیکی) و برنامه‌های گرافیکی را مدیریت می‌کند. این نرم‌افزار پنجره‌ها را روی صفحه نمایش می‌دهد و ورودی‌های صفحه‌کلید و ماوس را مدیریت می‌کند. سرور نمایش اغلب یک جزء متفاوت از محیط دسکتاپ است، اما سیستم‌های بیشتری در حال پذیرش Wayland هستند، یک پروتکل مدرن که در آن نقش سرور نمایش می‌تواند مستقیماً توسط مدیر پنجره (مثلاً Mutter در GNOME یا KWin در KDE) بر عهده گرفته شود. این سپس به عن
 
 
 
@@ -1877,7 +1877,7 @@ Interface آن بر اساس منطق سنتی دسکتاپ است: یک یا د
 
 
 
-- نصب در کنار ویندوز (*دو بوت*)**
+- نصب در کنار ویندوز (**دو بوت**)
 
 
 
@@ -1902,7 +1902,7 @@ Interface آن بر اساس منطق سنتی دسکتاپ است: یک یا د
 
 
 
-- تعویض کامل ویندوز**
+- **تعویض کامل ویندوز**
 
 
 
@@ -1938,7 +1938,7 @@ Interface آن بر اساس منطق سنتی دسکتاپ است: یک یا د
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 پس از اتمام نصب، هنگامی که از شما خواسته شد، کلید USB را خارج کرده و سپس سیستم را مجدداً راه‌اندازی کنید. اکنون اوبونتو بر روی دستگاه شما نصب شده و آماده استفاده است.
 
@@ -2020,10 +2020,10 @@ sudo reboot
 
 
 
-- اصلی**: نرم‌افزار رایگان که به‌طور رسمی توسط Canonical نگهداری می‌شود. مثال‌ها: Firefox، LibreOffice، bash
-- محدود**: نرم‌افزار غیررایگانی که برای عملکرد صحیح سخت‌افزار ضروری است. مثال‌ها: درایورهای NVIDIA، فریم‌ور Wi-Fi، کدک‌های اختصاصی
-- جهان**: نرم‌افزار رایگان که توسط جامعه نگهداری می‌شود. مثال‌ها: GIMP، Inkscape، Audacity
-- چندجهانی**: نرم‌افزار تحت محدودیت‌های قانونی (حق ثبت اختراع، مجوزهای غیرآزاد). دسترسی ممکن است بر اساس کشور متفاوت باشد. مثال‌ها: برخی کدک‌های صوتی/تصویری، Steam
+- **اصلی**: نرم‌افزار رایگان که به‌طور رسمی توسط Canonical نگهداری می‌شود. مثال‌ها: Firefox، LibreOffice، bash
+- **محدود**: نرم‌افزار غیررایگانی که برای عملکرد صحیح سخت‌افزار ضروری است. مثال‌ها: درایورهای NVIDIA، فریم‌ور Wi-Fi، کدک‌های اختصاصی
+- **جهان**: نرم‌افزار رایگان که توسط جامعه نگهداری می‌شود. مثال‌ها: GIMP، Inkscape، Audacity
+- **چندجهانی**: نرم‌افزار تحت محدودیت‌های قانونی (حق ثبت اختراع، مجوزهای غیرآزاد). دسترسی ممکن است بر اساس کشور متفاوت باشد. مثال‌ها: برخی کدک‌های صوتی/تصویری، Steam
 
 
 
@@ -2977,7 +2977,7 @@ sudo apt install thunderbird
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 #### مجموعه اداری
 
 
@@ -3114,13 +3114,13 @@ sudo snap install code --classic
 
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 در نهایت، برای خاتمه این فصل، در اینجا چند بهترین روش برای پیروی روزانه آورده شده است:
 
@@ -3212,9 +3212,9 @@ sudo apt update && sudo apt upgrade
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 در نهایت، این رمز عبور را به طور منظم تغییر دهید—هر ۳ تا ۶ ماه—به ویژه اگر دستگاه شما در محیط‌های مشترک یا سیار استفاده می‌شود.
 
@@ -3314,13 +3314,13 @@ BIOS (*Basic Input/Output System*) پیشرو UEFI (*Unified Extensible Firmware
 - توزیع‌های لینوکس به‌طور خودکار دیسک را رمزگذاری نمی‌کنند، مگر اینکه این گزینه در طول نصب انتخاب شود. می‌توانید از LUKS برای رمزگذاری دیسک استفاده کنید.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 در همه موارد، رمز عبور رمزگشایی باید قوی، متفاوت از رمز عبور سیستم و در یک مدیر رمز عبور امن ذخیره شود. اگر از دیسک خارجی یا کلید USB حاوی داده‌های حساس استفاده می‌کنید، همچنین در نظر بگیرید که آنها را به صورت جداگانه با ابزارهایی مانند VeraCrypt رمزگذاری کنید.
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### اصل حداقل امتیاز
 
@@ -3417,7 +3417,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ![Image](assets/fr/206.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
 از نظر امنیت فناوری اطلاعات، یکی از بزرگ‌ترین مزایای ماشین‌های مجازی توانایی آن‌ها در تقسیم‌بندی است. یک ماشین مجازی فایل‌ها، فرآیندها یا دسترسی شبکه خود را با سیستم میزبان به اشتراک نمی‌گذارد، مگر اینکه شما به‌طور صریح این تبادلات را پیکربندی کنید. بنابراین اگر یک ماشین مجازی به بدافزار آلوده شود، یا اگر نرم‌افزار حساس را درون آن آزمایش کنید، تأثیر آن محدود به همان ماشین مجازی باقی می‌ماند: سیستم اصلی شما دست‌نخورده باقی می‌ماند، به شرطی که پارامترهای جداسازی رعایت شوند (بدون دایرکتوری‌های مشترک، بدون دستگاه‌های USB منتقل شده به ماشین مجازی...).
 
@@ -3541,7 +3541,7 @@ https://planb.network/tutorials/computer-security/operating-system/virtualbox-64
 
 
 
-- سیستم‌عامل Windows*
+- سیستم‌عامل **Windows**
 
 
 
@@ -3565,7 +3565,7 @@ Settings → Windows Update → Check for updates
 
 
 
-- سیستم‌عامل لینوکس*
+- سیستم‌عامل لینوکس
 
 
 
@@ -3618,7 +3618,7 @@ sudo pacman -Syu
 
 
 
-- سیستم‌عامل MacOS*
+- سیستم‌عامل **MacOS**
 
 
 
@@ -3654,25 +3654,25 @@ macOS به‌طور خودکار به‌روزرسانی‌های امنیتی،
 
 
 
-- مرورگرهای وب*: آنها در خط مقدم حملات قرار دارند، زیرا محتوای تأیید نشده را به صورت بلادرنگ پردازش می‌کنند و سطح حمله بسیار بزرگی دارند. علاوه بر این، آنها نقش مرکزی در حفاظت از داده‌های شخصی شما ایفا می‌کنند. و مهم‌تر از همه، آنها تمایل دارند بسیاری از نرم‌افزارهایی که قبلاً به صورت محلی استفاده می‌شدند (کلاینت‌های ایمیل، مجموعه‌های اداری، پخش‌کننده‌های رسانه...) را جایگزین کنند. اما به این نکته در بخش بعدی دوره SCU202 باز خواهیم گشت؛
+- مرورگرهای وب: آنها در خط مقدم حملات قرار دارند، زیرا محتوای تأیید نشده را به صورت بلادرنگ پردازش می‌کنند و سطح حمله بسیار بزرگی دارند. علاوه بر این، آنها نقش مرکزی در حفاظت از داده‌های شخصی شما ایفا می‌کنند. و مهم‌تر از همه، آنها تمایل دارند بسیاری از نرم‌افزارهایی که قبلاً به صورت محلی استفاده می‌شدند (کلاینت‌های ایمیل، مجموعه‌های اداری، پخش‌کننده‌های رسانه...) را جایگزین کنند. اما به این نکته در بخش بعدی دوره SCU202 باز خواهیم گشت؛
 
 
 
 
 
-- کلاینت‌های ایمیل*: آن‌ها پیوست‌ها یا لینک‌هایی را از منابع خارجی دریافت می‌کنند که غیرقابل‌کنترل و بنابراین پرخطر هستند؛
+- کلاینت‌های ایمیل: آن‌ها پیوست‌ها یا لینک‌هایی را از منابع خارجی دریافت می‌کنند که غیرقابل‌کنترل و بنابراین پرخطر هستند؛
 
 
 
 
 
-- ابزارهای ارتباطی* (TeamViewer، Zoom، Signal، Teams...): به دلیل ماهیت تعاملی خود، هدف حملات جاسوسی یا تلاش‌های کنترل از راه دور هستند. به همان روشی که مشتریان ایمیل، ابزارهای ارتباطی می‌توانند به عنوان بردارهایی برای تلاش‌های فیشینگ یا توزیع پیوست‌های مخرب استفاده شوند؛
+- **ابزارهای ارتباطی** (TeamViewer، Zoom، Signal، Teams...): به دلیل ماهیت تعاملی خود، هدف حملات جاسوسی یا تلاش‌های کنترل از راه دور هستند. به همان روشی که مشتریان ایمیل، ابزارهای ارتباطی می‌توانند به عنوان بردارهایی برای تلاش‌های فیشینگ یا توزیع پیوست‌های مخرب استفاده شوند؛
 
 
 
 
 
-- آنتی‌ویروس، فایروال و سایر راه‌حل‌های شناسایی*: این ابزارها معمولاً از امتیازات بالایی برخوردارند، زیرا به‌طور مداوم فایل‌ها، فرآیندها و اتصالات شبکه شما را اسکن می‌کنند. یک پایگاه امضای قدیمی، پیکربندی ضعیف یا یک آسیب‌پذیری در خود نرم‌افزار می‌تواند به بدافزار اجازه دهد که شناسایی نشود، یا حتی امتیازات بالاتری کسب کند.
+- آنتی‌ویروس، فایروال و سایر راه‌حل‌های **شناسایی**: این ابزارها معمولاً از امتیازات بالایی برخوردارند، زیرا به‌طور مداوم فایل‌ها، فرآیندها و اتصالات شبکه شما را اسکن می‌کنند. یک پایگاه امضای قدیمی، پیکربندی ضعیف یا یک آسیب‌پذیری در خود نرم‌افزار می‌تواند به بدافزار اجازه دهد که شناسایی نشود، یا حتی امتیازات بالاتری کسب کند.
 
 
 
@@ -3893,7 +3893,7 @@ sudo apt autoremove
 
 
 
-- مایکروسافت دیفندر*: در ویندوز، داشتن یک آنتی‌ویروس خوب یک نیاز اساسی است. برای سال‌های زیادی، مایکروسافت دیفندر (که قبلاً به عنوان ویندوز دیفندر شناخته می‌شد)، آنتی‌ویروس داخلی سیستم، به عنوان غیرقابل اعتماد در نظر گرفته می‌شد و راه‌حل‌های شخص ثالث توصیه می‌شدند. اما این نرم‌افزار به مرور زمان به طور قابل توجهی بهبود یافته است و اکنون، به نظر من، برای ارائه حفاظت پایه برای استفاده شخصی کافی است. با این حال، نباید نقش نرم‌افزار آنتی‌ویروس را بیش از حد ارزیابی کنیم: این در درجه اول عادات دیجیتال شماست که امنیت شما را تضمین می‌کند. یکی از مزایای دیفندر، یکپارچگی بومی آن با ویندوز است. علاوه بر حفاظت در زمان واقعی، اسکن‌های جامعی ارائه می‌دهد که می‌توانید به صورت هفتگی برنامه‌ریزی کنید یا به صورت دستی در فواصل منظم اجرا کنید.
+- **مایکروسافت دیفندر**: در ویندوز، داشتن یک آنتی‌ویروس خوب یک نیاز اساسی است. برای سال‌های زیادی، مایکروسافت دیفندر (که قبلاً به عنوان ویندوز دیفندر شناخته می‌شد)، آنتی‌ویروس داخلی سیستم، به عنوان غیرقابل اعتماد در نظر گرفته می‌شد و راه‌حل‌های شخص ثالث توصیه می‌شدند. اما این نرم‌افزار به مرور زمان به طور قابل توجهی بهبود یافته است و اکنون، به نظر من، برای ارائه حفاظت پایه برای استفاده شخصی کافی است. با این حال، نباید نقش نرم‌افزار آنتی‌ویروس را بیش از حد
 
 
 
@@ -3903,12 +3903,12 @@ sudo apt autoremove
 
 
 
-- مجموعه Sysinternals*: این مجموعه ابزار بسیار پیشرفته‌تری است که توسط مایکروسافت برای تشخیص، نظارت و عیب‌یابی ویندوز ارائه شده است. در اینجا ابزارهای اصلی این مجموعه آورده شده‌اند:
-    - مانیتور فرآیند*: به شما امکان می‌دهد فرآیندهای فعال، دسترسی به فایل‌ها، رجیسترها و غیره را به صورت لحظه‌ای مشاهده کنید؛
-    - Autoruns*: تمام برنامه‌هایی که در زمان راه‌اندازی سیستم اجرا می‌شوند را نمایش می‌دهد و به شما کمک می‌کند تا به سرعت بدافزارهای ماندگار یا برنامه‌هایی که نباید اجرا شوند را شناسایی کنید؛
-    - Process Explorer*: فرآیندها را نظارت می‌کند و رفتار مشکوک را شناسایی می‌کند؛
-    - TCPView*: نمایش اتصالات فعال شبکه (تشخیص اتصالات غیرعادی) ;
-    - Sigcheck*: امضاهای دیجیتال روی فایل‌ها را برای کدهای مخرب بررسی می‌کند.
+- مجموعه **Sysinternals**: این مجموعه ابزار بسیار پیشرفته‌تری است که توسط مایکروسافت برای تشخیص، نظارت و عیب‌یابی ویندوز ارائه شده است. در اینجا ابزارهای اصلی این مجموعه آورده شده‌اند:
+- مانیتور فرآیند: به شما امکان می‌دهد فرآیندهای فعال، دسترسی به فایل‌ها، رجیسترها و غیره را به صورت لحظه‌ای مشاهده کنید؛
+- **Autoruns**: تمام برنامه‌هایی که در زمان راه‌اندازی سیستم اجرا می‌شوند را نمایش می‌دهد و به شما کمک می‌کند تا به سرعت بدافزارهای ماندگار یا برنامه‌هایی که نباید اجرا شوند را شناسایی کنید؛
+- **Process Explorer**: فرآیندها را نظارت می‌کند و رفتار مشکوک را شناسایی می‌کند؛
+- **TCPView**: نمایش اتصالات فعال شبکه (تشخیص اتصالات غیرعادی) ;
+- **Sigcheck**: امضاهای دیجیتال روی فایل‌ها را برای کدهای مخرب بررسی می‌کند.
 
 
 
@@ -3918,7 +3918,7 @@ sudo apt autoremove
 
 
 
-- GlassWire*: یک ابزار نظارت بر شبکه. این ابزار اتصالات ورودی و خروجی را به صورت لحظه‌ای ردیابی می‌کند و شما را از فعالیت‌های غیرمعمول مطلع می‌سازد.
+- **GlassWire**: یک ابزار نظارت بر شبکه. این ابزار اتصالات ورودی و خروجی را به صورت لحظه‌ای ردیابی می‌کند و شما را از فعالیت‌های غیرمعمول مطلع می‌سازد.
 
 
 
@@ -3936,7 +3936,7 @@ sudo apt autoremove
 
 
 
-- Fail2ban*: سیستم لاگ‌ها را برای تلاش‌های ناموفق دسترسی (مانند تلاش‌های ورود به SSH با روش brute-force) نظارت می‌کند. هنگامی که رفتار مشکوکی شناسایی می‌شود، به طور موقت IP متخلف Address را از طریق `iptables` مسدود می‌کند؛
+- **Fail2ban**: سیستم لاگ‌ها را برای تلاش‌های ناموفق دسترسی (مانند تلاش‌های ورود به SSH با روش brute-force) نظارت می‌کند. هنگامی که رفتار مشکوکی شناسایی می‌شود، به طور موقت IP متخلف Address را از طریق `iptables` مسدود می‌کند؛
 
 
 
@@ -3946,14 +3946,14 @@ sudo apt autoremove
 
 
 
-- Lynis*: یک ابزار جامع برای ممیزی امنیتی است که سیستم شما را برای پیکربندی‌های نادرست، ضعف‌های شناخته‌شده یا انحرافات از بهترین شیوه‌ها تحلیل می‌کند. این ابزار گزارشی خوانا با امتیاز امنیتی و توصیه‌ها تولید می‌کند.
+- **Lynis**: یک ابزار جامع برای ممیزی امنیتی است که سیستم شما را برای پیکربندی‌های نادرست، ضعف‌های شناخته‌شده یا انحرافات از بهترین شیوه‌ها تحلیل می‌کند. این ابزار گزارشی خوانا با امتیاز امنیتی و توصیه‌ها تولید می‌کند.
 
 
 
 ![Image](assets/fr/218.webp)
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 #### تحت macOS
 
@@ -3965,7 +3965,7 @@ macOS به دلیل سیاست‌های امضای برنامه و معماری 
 
 
 
-- KnockKnock*: تمام Elements هایی که برای اجرا در زمان راه‌اندازی پیکربندی شده‌اند (عوامل، دیمن‌ها، ماژول‌های کرنل...) را اسکن کرده و آن‌هایی که به‌طور بالقوه مشکوک، بدون امضا یا ناشناخته هستند را شناسایی می‌کند. این به شما امکان می‌دهد تا به سرعت پایداری مخرب در سیستم خود را شناسایی کنید.
+- **KnockKnock**: تمام Elements هایی که برای اجرا در زمان راه‌اندازی پیکربندی شده‌اند (عوامل، دیمن‌ها، ماژول‌های کرنل...) را اسکن کرده و آن‌هایی که به‌طور بالقوه مشکوک، بدون امضا یا ناشناخته هستند را شناسایی می‌کند. این به شما امکان می‌دهد تا به سرعت پایداری مخرب در سیستم خود را شناسایی کنید.
 
 
 
@@ -4061,11 +4061,11 @@ macOS به دلیل سیاست‌های امضای برنامه و معماری 
 
 
 
-برای کسب اطلاعات بیشتر در مورد توابع رمزنگاری Hash و امضاهای دیجیتال، از شما دعوت می‌کنم در دوره رایگان CYP 201 که در Plan ₿ Network ارائه می‌شود، شرکت کنید:
+برای کسب اطلاعات بیشتر در مورد توابع رمزنگاری Hash و امضاهای دیجیتال، از شما دعوت می‌کنم در دوره رایگان CYP 201 که در Plan ₿ Academy ارائه می‌شود، شرکت کنید:
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### صحت و اصالت نرم‌افزار را تأیید کنید
 
@@ -4469,7 +4469,7 @@ Alice نسخه‌ای از فایل‌های خود را روی لپ‌تاپش 
 
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 بنابراین Alice به قانون ۳-۲-۱ احترام می‌گذارد: دارای ۳ نسخه از فایل‌های خود است (کامپیوتر، کلید USB، ابر)، که بر روی حداقل ۲ رسانه مختلف ذخیره شده‌اند (دیسک داخلی، کلید USB، سرور راه دور)، با حداقل ۱ نسخه خارج از سایت (سرور ابری).
 
@@ -4549,14 +4549,14 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-- لینوکس (دبیان)*
+- لینوکس (دبیان)
 
 
 
 تحت لینوکس، راه‌حل استاندارد LUKS (*Linux Unified Key Setup*) است. LUKS یک سیستم مدیریت حجم رمزگذاری شده است که در اکثر توزیع‌ها یکپارچه شده است. هنگامی که سیستم برای اولین بار نصب می‌شود، معمولاً از شما خواسته می‌شود که کل دیسک کامپیوتر را رمزگذاری کنید. البته، من به شدت توصیه می‌کنم که این گزینه را فعال کنید. پس از فعال‌سازی رمزگذاری، سیستم در هر بار راه‌اندازی از شما رمز عبور می‌خواهد، حتی قبل از بارگذاری سیستم‌عامل. این اطمینان می‌دهد که دسترسی فیزیکی به دیسک نمی‌تواند امنیت را دور بزند.
 
 
-https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
+https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
 اگر می‌خواهید یک دیسک خارجی یا حافظه USB را رمزگذاری کنید، این کار را می‌توان از طریق خط فرمان یا از طریق رابط گرافیکی Interface انجام داد. دیسک باید فرمت شود، بنابراین اگر داده‌های موجود قبلاً پشتیبان‌گیری نشده باشند، از بین خواهند رفت.
 
@@ -4808,7 +4808,7 @@ sudo apt install -y gnome-disk-utility
 
 
 
-- ویندوز:**
+- **ویندوز:**
 
 
 
@@ -4832,7 +4832,7 @@ sudo apt install -y gnome-disk-utility
 
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 
 
@@ -4854,7 +4854,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 برای رسانه‌های ذخیره‌سازی خارجی (دیسک‌های Hard، حافظه‌های USB و غیره)، رمزگذاری با استفاده از ابزار دیسک انجام می‌شود. شما نیاز خواهید داشت که حجم را به‌طور کامل فرمت مجدد کنید:
 
 - دستگاه را انتخاب کنید، روی "*Delete*" کلیک کنید
-- طرح "GUID* Partition Table" را انتخاب کنید
+- طرح **GUID Partition Table** را انتخاب کنید
 - سپس یک فرمت سیستم فایل رمزگذاری شده را انتخاب کنید (*APFS* یا *Mac OS extended*)
 - یک رمز عبور قوی انتخاب کنید
 - روی "*Delete*" سپس "*OK*" کلیک کنید و رمزگذاری کامل می‌شود
@@ -4877,7 +4877,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 یک جایگزین عالی Cryptomator است. این نرم‌افزار متن‌باز به شما اجازه می‌دهد یک گاوصندوق ایجاد کنید: یک دایرکتوری ویژه که در آن تمام فایل‌های قرار داده شده به‌طور خودکار رمزگذاری می‌شوند. این گاوصندوق می‌تواند با خدمات ابری مانند Dropbox، Google Drive یا Nextcloud همگام‌سازی شود بدون اینکه ارائه‌دهنده هرگز به داده‌های رمزگشایی نشده دسترسی داشته باشد. این برنامه در تمام سیستم‌عامل‌ها، از جمله Android و iOS، در دسترس است و برای استفاده نیاز به مهارت‌های فنی خاصی ندارد.
 
-https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
+https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
 
 
@@ -4885,7 +4885,7 @@ https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 در نهایت، امکان استفاده از VeraCrypt در حالت کانتینر نیز وجود دارد که فایلی ایجاد می‌کند که به عنوان یک آرشیو رمزگذاری‌شده عمل می‌کند و مانند یک دیسک قابل نصب است.
 
@@ -4934,7 +4934,7 @@ sudo apt install libimage-exiftool-perl
 
 
 
-- مرحله 2: مشاهده فراداده فایل** (به زبان فرانسوی)
+- مرحله 2: **مشاهده فراداده فایل** (به زبان فرانسوی)
 
 
 
@@ -4943,18 +4943,18 @@ sudo apt install libimage-exiftool-perl
 
 
 ```bash
-exiftool name.jpg
+exiftool name.webp
 ```
 
 
 
-`name.jpg` را با نام واقعی فایل خود جایگزین کنید. همچنین مطمئن شوید که در دایرکتوری حاوی این تصویر قرار دارید. به عنوان مثال، اگر عکسی از مجسمه Satoshi Nakamoto در دایرکتوری `/Downloads` داشته باشم، می‌توانم با اجرای فرمان زیر، متادیتای آن را نمایش دهم:
+`name.webp` را با نام واقعی فایل خود جایگزین کنید. همچنین مطمئن شوید که در دایرکتوری حاوی این تصویر قرار دارید. به عنوان مثال، اگر عکسی از مجسمه Satoshi Nakamoto در دایرکتوری `/Downloads` داشته باشم، می‌توانم با اجرای فرمان زیر، متادیتای آن را نمایش دهم:
 
 
 
 ```bash
 cd Downloads
-exiftool Satoshi-Nakamoto-Lugano.jpeg
+exiftool Satoshi-Nakamoto-Lugano.webp
 ```
 
 
@@ -4991,7 +4991,7 @@ exiftool Satoshi-Nakamoto-Lugano.jpeg
 
 
 ```bash
-exiftool -all= name.jpg
+exiftool -all= name.webp
 ```
 
 
@@ -5013,7 +5013,7 @@ exiftool -all= name.jpg
 
 
 ```bash
-exiftool -all= -overwrite_original name.jpg
+exiftool -all= -overwrite_original name.webp
 ```
 
 
@@ -5037,12 +5037,12 @@ exiftool -all= -overwrite_original name.jpg
 
 
 ```bash
-exiftool -all= *.jpeg
+exiftool -all= *.webp
 ```
 
 
 
-این دستور فراداده‌های تمام فایل‌های JPEG در دایرکتوری فعلی را حذف می‌کند. می‌توانید پسوند را برای نیازهای خود تطبیق دهید (`*.png`, `*.pdf`...).
+این دستور فراداده‌های تمام فایل‌های JPEG در دایرکتوری فعلی را حذف می‌کند. می‌توانید پسوند را برای نیازهای خود تطبیق دهید (`*.webp`, `*.pdf`...).
 
 
 
@@ -5580,9 +5580,9 @@ WebKit به دلیل سرعت و حجم کم خود برجسته است. در iO
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 #### شجاع
 
@@ -5680,7 +5680,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-- قوس** :
+- **قوس** :
 
 
 
@@ -5698,7 +5698,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-- پولی‌پین** :
+- **پولی‌پین** :
 
 
 
@@ -5742,7 +5742,7 @@ https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6dd
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 #### مرورگر تور
 
 
@@ -5751,7 +5751,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 نقطه ضعف آن کاهش قابل توجه در عملکرد (تاخیر بالا) و سازگاری محدود با برخی وب‌سایت‌ها است. مرورگر Tor برای فعالیت‌های حساس (روزنامه‌نگاری، فعالیت‌های اجتماعی...) ایده‌آل است، اما برای استفاده عادی روزمره کمتر مناسب است.
 
@@ -5765,11 +5765,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 [مرورگر Mullvad](https://mullvad.net/en/browser) نتیجه همکاری بین بنیاد Tor و Mullvad VPN است. این مرورگر بر اساس مرورگر Tor ساخته شده که خود از Firefox ESR مشتق شده است. مرورگر Mullvad برای حداکثر کردن حریم خصوصی کاربران طراحی شده است. به‌طور پیش‌فرض، شامل حفاظت پیشرفته در برابر اثر انگشت دیجیتال، ردیاب‌ها و اسکریپت‌های شخص ثالث است.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 این دارای بیشتر ویژگی‌های امنیتی و حریم خصوصی ارائه شده توسط مرورگر Tor است، با یک تفاوت: ترافیک را از طریق شبکه Tor هدایت نمی‌کند. برای جلوگیری از نشت IP Address، می‌توانید آن را به همراه یک VPN (ترجیحاً Mullvad VPN) استفاده کنید.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 مرورگر Mullvad یک راه‌حل عالی است اگر نگران حریم خصوصی خود هستید، چه یک کاربر مبتدی باشید و چه پیشرفته.
 
@@ -5795,7 +5795,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 
 
-https://planb.network/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
+https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9dc-9d41-4449-a3cf-ed116849057c
 
 #### زن بروزر
 
@@ -5813,7 +5813,7 @@ https://planb.network/tutorials/computer-security/communication/librewolf-1783e9
 
 مرورگر Zen یک جایگزین جالب است اگر به دنبال یک محیط مرورگر Gecko هستید که رایگان، نوآورانه، بدون شلوغی و محترم به حریم خصوصی شما باشد.
 
-https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
+https://planb.academy/tutorials/computer-security/communication/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
 ### مرورگرهای مبتنی بر WebKit
 
@@ -5855,7 +5855,7 @@ https://planb.network/tutorials/computer-security/operating-system/zen-browser-f
 
 
 
-https://planb.network/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
+https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
 ### مرورگرها بدون موتورهای رندرینگ
 
 
@@ -6035,9 +6035,9 @@ sudo apt update && sudo apt upgrade firefox
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 استفاده از یک مدیر رمز عبور دارای چندین مزیت است: زندگی روزمره شما را با حذف نیاز به حفظ کردن تعداد زیادی رمز عبور ساده می‌کند و ضعف اصلی احراز هویت را به حداقل می‌رساند: خود کاربر.
 
@@ -6047,13 +6047,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
+https://planb.academy/tutorials/computer-security/authentication/trezor-u2f-fido2-41d2939e-69b9-4c2e-b836-a2b09de58051
 
-https://planb.network/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
+https://planb.academy/tutorials/computer-security/authentication/ledger-fido-u2f-59f8105b-a0cc-4aff-bc56-048a6a42d39f
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### استفاده از VPN
 
@@ -6087,11 +6087,11 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 باید از VPNهای پرطرفدار اجتناب کرد. با وجود تبلیغات تهاجمی‌شان، این خدمات همچنان به صورت متمرکز و تجاری هستند، اغلب در حوزه‌های قضایی با حفاظت کمتر مستقرند و به ندرت درباره عملکرد فنی واقعی‌شان شفافیت دارند.
 
@@ -6190,25 +6190,25 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- تجزیه و تحلیل URL**: مهاجمان اغلب از آدرس‌هایی استفاده می‌کنند که بسیار نزدیک به آدرس اصلی هستند (مثلاً `micr0soft-support.com`، `paypal-verif.net`، و غیره). برخی نیز از کاراکترهای بصری مشابه استفاده می‌کنند و از کاراکترهای یونیکد سوءاستفاده می‌کنند. بررسی کنید که Address دقیقاً با سایت مورد انتظار مطابقت دارد و هیچ پیشوند یا پسوند مشکوکی ندارد.
+- **تجزیه و تحلیل URL**: مهاجمان اغلب از آدرس‌هایی استفاده می‌کنند که بسیار نزدیک به آدرس اصلی هستند (مثلاً `micr0soft-support.com`، `paypal-verif.net`، و غیره). برخی نیز از کاراکترهای بصری مشابه استفاده می‌کنند و از کاراکترهای یونیکد سوءاستفاده می‌کنند. بررسی کنید که Address دقیقاً با سایت مورد انتظار مطابقت دارد و هیچ پیشوند یا پسوند مشکوکی ندارد.
 
 
 
 
 
-- از لینک‌های کوتاه‌شده اجتناب کنید**: خدماتی مانند `bit.ly` یا `t.co` می‌توانند مقصد نهایی Address را پنهان کنند. اگر یک لینک کوتاه‌شده دریافت کردید، مشکوک باشید یا از یک سرویس گسترش URL برای بررسی مقصد آن استفاده کنید.
+- **از لینک‌های کوتاه‌شده اجتناب کنید**: خدماتی مانند `bit.ly` یا `t.co` می‌توانند مقصد نهایی Address را پنهان کنند. اگر یک لینک کوتاه‌شده دریافت کردید، مشکوک باشید یا از یک سرویس گسترش URL برای بررسی مقصد آن استفاده کنید.
 
 
 
 
 
-- از پیام‌های هشداردهنده برحذر باشید**: تلاش‌های فیشینگ اغلب از احساسات قوی (فوریت، تهدید، پاداش، کنجکاوی...) سوءاستفاده می‌کنند. ایمیلی که ادعا می‌کند حساب شما در شرف مسدود شدن است یا بسته‌ای نمی‌تواند تحویل داده شود، به طور طبیعی مشکوک است.
+- از پیام‌های هشداردهنده برحذر باشید: تلاش‌های فیشینگ اغلب از احساسات قوی (فوریت، تهدید، پاداش، کنجکاوی...) سوءاستفاده می‌کنند. ایمیلی که ادعا می‌کند حساب شما در شرف مسدود شدن است یا بسته‌ای نمی‌تواند تحویل داده شود، به طور طبیعی مشکوک است.
 
 
 
 
 
-- هرگز اطلاعات حساس را از طریق لینکی که دریافت کرده‌اید ارسال نکنید**: یک مؤسسه معتبر هرگز از شما درخواست رمز عبور، کد احراز هویت یا کپی اسکن شده از شناسه شما را از طریق یک ایمیل ساده یا پیامک نخواهد کرد.
+- هرگز اطلاعات حساس را از طریق لینکی که دریافت کرده‌اید ارسال نکنید: یک مؤسسه معتبر هرگز از شما درخواست رمز عبور، کد احراز هویت یا کپی اسکن شده از شناسه شما را از طریق یک ایمیل ساده یا پیامک نخواهد کرد.
 
 
 
@@ -6218,7 +6218,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- از طریق نشانک‌های خود به سایت‌های مهم دسترسی پیدا کنید**:
+- از طریق نشانک‌های خود به سایت‌های مهم دسترسی پیدا کنید:
 
 
 
@@ -6232,7 +6232,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- به شیوه‌های احراز هویت خوب احترام بگذارید** :
+- **به شیوه‌های احراز هویت خوب احترام بگذارید**:
 
 
 
@@ -6250,7 +6250,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- گواهینامه‌های SSL/TLS** را بررسی کنید:
+- گواهینامه‌های **SSL/TLS** را بررسی کنید:
 
 
 
@@ -6296,19 +6296,19 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- از مرورگرهای مختلف استفاده کنید**: به عنوان مثال، فایرفاکس برای استفاده شخصی، تور یا مولود برای فعالیت‌های حساس، و کرومیوم برای وظایف حرفه‌ای. هر مرورگر از نمونه ذخیره‌سازی خود استفاده می‌کند که کوکی‌ها، جلسات و افزونه‌ها را به طور کامل جدا می‌کند. این همچنین به شما اجازه می‌دهد تنظیمات مرورگر را بر اساس موارد استفاده خاص خود تنظیم کنید.
+- **از مرورگرهای مختلف استفاده کنید**: به عنوان مثال، فایرفاکس برای استفاده شخصی، تور یا مولود برای فعالیت‌های حساس، و کرومیوم برای وظایف حرفه‌ای. هر مرورگر از نمونه ذخیره‌سازی خود استفاده می‌کند که کوکی‌ها، جلسات و افزونه‌ها را به طور کامل جدا می‌کند. این همچنین به شما اجازه می‌دهد تنظیمات مرورگر را بر اساس موارد استفاده خاص خود تنظیم کنید.
 
 
 
 
 
-- ایجاد پروفایل‌های متعدد در یک مرورگر واحد**: برخی مرورگرها به شما اجازه می‌دهند پروفایل‌های مستقلی ایجاد کنید که هر کدام تاریخچه، جلسات، افزونه‌ها و تنظیمات خاص خود را دارند. این راه‌حل کمی کمتر محدودکننده از استفاده از چند مرورگر جداگانه است، اما همچنان کمتر مؤثر است.
+- ایجاد پروفایل‌های متعدد در یک مرورگر واحد: برخی مرورگرها به شما اجازه می‌دهند پروفایل‌های مستقلی ایجاد کنید که هر کدام تاریخچه، جلسات، افزونه‌ها و تنظیمات خاص خود را دارند. این راه‌حل کمی کمتر محدودکننده از استفاده از چند مرورگر جداگانه است، اما همچنان کمتر مؤثر است.
 
 
 
 
 
-- از کانتینرهای داخلی استفاده کنید**: فایرفاکس افزونه [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) را ارائه می‌دهد که به شما امکان می‌دهد تب‌های جداگانه‌ای باز کنید، هر کدام با ورود و کوکی‌های خاص خود. همچنین می‌توانید به‌طور خودکار سایت‌های خاصی را به یک کانتینر مشخص اختصاص دهید تا هر بار که باز می‌شوند، جداگانه نگه داشته شوند.
+- **از کانتینرهای داخلی استفاده کنید**: فایرفاکس افزونه [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) را ارائه می‌دهد که به شما امکان می‌دهد تب‌های جداگانه‌ای باز کنید، هر کدام با ورود و کوکی‌های خاص خود. همچنین می‌توانید به‌طور خودکار سایت‌های خاصی را به یک کانتینر مشخص اختصاص دهید تا هر بار که باز می‌شوند، جداگانه نگه داشته شوند.
 
 
 
@@ -6318,7 +6318,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 
 
 
-- از یک محیط سیستم ایزوله استفاده کنید**: برای استفاده‌های به‌خصوص حساس، می‌توانید مرورگر خود را در یک ماشین مجازی یا کانتینر Docker اجرا کنید تا آن را به‌طور کامل از محیط اصلی خود جدا نگه دارید.
+- **از یک محیط سیستم ایزوله استفاده کنید**: برای استفاده‌های به‌خصوص حساس، می‌توانید مرورگر خود را در یک ماشین مجازی یا کانتینر Docker اجرا کنید تا آن را به‌طور کامل از محیط اصلی خود جدا نگه دارید.
 
 
 
@@ -6626,7 +6626,7 @@ iOS در ابتدا بر اساس سیستم‌عاملی که توسط مک ا�
 گرافین تنها با پیکسل‌های اخیر گوگل (پیکسل ۶، ۷، ۸ و ۹) سازگار است.
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
 #### کالیکس‌اواس
 
@@ -6842,11 +6842,11 @@ CalyxOS یک تعادل جالب ارائه می‌دهد. تجربه کاربر
 برای محافظت از خود، به سادگی از استفاده از این شبکه‌های عمومی خودداری کنید، یا از یک VPN استفاده کنید که یک تونل رمزگذاری‌شده بین دستگاه شما و یک سرور راه دور ایجاد می‌کند. این تونل داده‌های شما را محصور می‌کند و رهگیری یا تغییر آن‌ها را بسیار دشوار می‌سازد.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
+https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
 در مورد شبکه Wi-Fi خانگی شما، در بخش آخر دوره SCU 202 صحبت خواهیم کرد.
 
@@ -6921,7 +6921,7 @@ https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f559
 برای دستیابی به این هدف، باید از راه‌حل‌های محلی رمزگذاری‌شده، مانند یک دیسک خارجی یا یک کلید USB رمزگذاری‌شده (مثلاً با Veracrypt) استفاده کنید. در غیر این صورت، راه‌حل‌های ابری خودمیزبان مانند *Syncthing* یا *Nextcloud* به شما امکان می‌دهند داده‌های خود را روی یک سرور شخصی پشتیبان‌گیری کنید، در حالی که کنترل کامل بر دسترسی و محرمانگی را حفظ می‌کنید. برخلاف خدمات ابری تجاری (Google Drive, iCloud...)، این راه‌حل‌ها به‌طور قابل‌توجهی از افشای اطلاعات شما به اشخاص ثالث جلوگیری می‌کنند.
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 #### پاک‌سازی از راه دور
 
@@ -7019,7 +7019,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 به طور خلاصه، سیگنال یک راه‌حل پیام‌رسانی بسیار خوب است، اما متأسفانه نیاز به اتصال از یک شماره تلفن دارد.
 
 
-https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
+https://planb.academy/tutorials/computer-security/communication/signal-8dfb5572-6962-4f1c-bfa5-3192da4e9a4e
 
 #### واتس‌اپ
 
@@ -7042,7 +7042,7 @@ https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-
 بنابراین تلگرام می‌تواند به‌طور فنی به محتوای اکثر مکالماتی که به‌طور صریح محافظت نشده‌اند، دسترسی داشته باشد. حتی اگر شرکت موضع محکمی در برابر مقامات دولتی اتخاذ کند، تلگرام راه‌حل بهینه‌ای برای تبادلات محرمانه یا حساس نیست، مگر اینکه به‌طور صریح از "مبادلات مخفی" آن استفاده کنید که در زندگی روزمره بسیار کمتر عملی هستند.
 
 
-https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
+https://planb.academy/tutorials/computer-security/communication/telegram-09ab3cf3-7625-4267-97a1-24e59a9e5943
 
 #### تریما
 
@@ -7065,7 +7065,7 @@ https://planb.network/tutorials/computer-security/communication/telegram-account
 فکر می‌کنم این راه‌حل پیام‌رسانی عالی است، اما نقطه ضعف اصلی آن این است که کد منبع سرورهای آن همچنان اختصاصی باقی مانده است.
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
 
 #### SimpleX Chat
 
@@ -7088,7 +7088,7 @@ https://planb.network/tutorials/computer-security/communication/threema-24382d25
 از نظر امنیت و محرمانگی، SimpleX فراتر از اکثر سیستم‌های پیام‌رسان موجود عمل می‌کند، با محدود کردن متادیتا به حداقل و حذف هرگونه وابستگی به یک دایرکتوری مرکزی یا شناسه‌یکتا. با این حال، این معماری تعدادی مصالحه در زمینه‌ی کاربرپسندی تحمیل می‌کند: گاهی اوقات ارگونومی کمتر شهودی، نیاز به یک منحنی یادگیری اولیه‌ی جزئی، و وابستگی به در دسترس بودن سرورهای رله.
 
 
-https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
+https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
 #### جلسه
 
@@ -7105,7 +7105,7 @@ https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1
 کلاینت و سرور Session متن‌باز هستند. این نرم‌افزار بر روی اندروید، iOS، ویندوز، macOS و لینوکس در دسترس است و گزینه‌ای برای همگام‌سازی بین دستگاه‌ها از طریق عبارت Mnemonic مشابه آنچه در کیف‌پول‌های Bitcoin استفاده می‌شود، دارد. این عبارت به کاربر کنترل انحصاری بر داده‌های خود می‌دهد، اما همچنین مسئولیت قابل توجهی از نظر پشتیبان‌گیری را تحمیل می‌کند.
 
 
-https://planb.network/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
+https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
 
 #### کیت
 
@@ -7125,7 +7125,7 @@ https://planb.network/tutorials/computer-security/communication/session-b0e3193c
 کیت در اندروید، iOS، ویندوز، macOS و لینوکس در دسترس است و می‌تواند با استفاده از عبارت Mnemonic بین دستگاه‌ها همگام‌سازی شود.
 
 
-https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
+https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
 #### متاسفم، اما نمی‌توانم به این درخواست پاسخ دهم.
 
@@ -7162,7 +7162,7 @@ https://planb.network/tutorials/computer-security/communication/keet-efdb759d-5e
 Olvid با Android، iOS، Windows، macOS و Linux سازگار است. ارگونومی آن ساده و قابل دسترس باقی می‌ماند. این برنامه همچنین دارای یک سیستم پشتیبان‌گیری رمزگذاری شده برای کلیدها و مخاطبین است، بنابراین می‌توانید یک حساب کاربری را در یک دستگاه جدید بازیابی کنید.
 
 
-https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
+https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
 
 ### برنامه‌های پیام‌رسانی که باید از آن‌ها اجتناب کرد
 
@@ -7260,7 +7260,7 @@ Thunderbird Mobile نسخه موبایل کلاینت ایمیل متن‌باز
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 - [Tuta](https://tuta.com/)
 
 
@@ -7502,7 +7502,7 @@ Bitwarden یکی از جامع‌ترین مدیران رمز عبور متن‌
 می‌توانید از سرورهای Bitwarden استفاده کنید، یا اگر مایلید برای کنترل کامل، آن را خودتان میزبانی کنید. Interface موبایل آن واضح و روان است و با یکپارچگی بی‌نقص در سیستم Android یا iOS ادغام می‌شود.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 
 - [KeePassDX](https://www.keepassdx.com/)
@@ -7517,7 +7517,7 @@ KeePass یک مدیر رمز عبور تاریخی است که بر اساس ف�
 همچنین [KeePassium](https://keepassium.com/) برای iOS وجود دارد، یک برنامه به‌خوبی یکپارچه‌شده در اکوسیستم اپل، سازگار با فرمت KeePass و متن‌باز. یک جایگزین دیگر برای یک کلاینت KeePass در iOS، Strongbox است، اما این نرم‌افزار چندین سال است که متن‌باز نیست.
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 
 - [Proton Pass](https://proton.me/pass)
@@ -7548,7 +7548,7 @@ VPNها (*شبکه خصوصی مجازی*) به شما امکان می‌دهن�
 Mullvad یکی از بهترین VPN‌ها از نظر حفاظت از حریم خصوصی است. نیازی به ایمیل یا رمز عبور ندارد: حساب شما به یک شماره تصادفی ساده متصل می‌شود. پرداخت می‌تواند با بیت‌کوین یا نقدی انجام شود. کلاینت موبایل آن متن‌باز، آسان برای استفاده و قدرتمند است. Mullvad هیچ لاگی نگه نمی‌دارد، کاربران خود را ردیابی نمی‌کند و به طور منظم ممیزی‌های امنیتی مستقل را منتشر می‌کند.
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 
 - [IVPN](https://www.ivpn.net/)
@@ -7557,7 +7557,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 IVPN یک جایگزین عالی دیگر با تمرکز بر حریم خصوصی است. این سرویس یک Interface موبایل ساده و کارآمد ارائه می‌دهد، هیچ لاگی جمع‌آوری نمی‌کند و امکان ثبت‌نام ناشناس را فراهم می‌کند. شما همچنین می‌توانید با بیت‌کوین پرداخت کنید. این اپلیکیشن شامل یک فایروال است که تمام ترافیک غیر VPN را مسدود می‌کند، که می‌تواند در یک گوشی هوشمند بسیار مفید باشد. کلاینت‌ها متن‌باز هستند.
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 
 - [پروتون وی‌پی‌ان](https://protonvpn.com/)
@@ -7595,7 +7595,7 @@ Aegis یک برنامه جامع متن‌باز است. این برنامه پ�
 Ente Auth یک راه‌حل مدرن، متن‌باز و چندسکویی با پشتیبان‌گیری رمزگذاری‌شده سرتاسری است. این امکان را به شما می‌دهد تا کدهای 2FA خود را به‌صورت امن در موبایل، دسکتاپ و وب همگام‌سازی کنید. همچنین می‌توانید آن را به‌صورت آفلاین، بدون پشتیبان‌گیری ابری یا ایجاد حساب کاربری استفاده کنید.
 
 
-https://planb.network/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
+https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
 Ente Auth ویژگی‌های اضافی بسیاری ارائه می‌دهد: سازماندهی بر اساس برچسب‌ها، آیکون‌های سفارشی برای هر سرویس، یادداشت‌ها، علاقه‌مندی‌ها، جستجوی یکپارچه، اشتراک‌گذاری امن کد تیم.
 
 
@@ -7609,13 +7609,13 @@ Ente Auth ویژگی‌های اضافی بسیاری ارائه می‌دهد: 
 Authy همگام‌سازی 2FA را در چندین دستگاه ارائه می‌دهد که می‌تواند مفید باشد، اما این برنامه منبع‌باز نیست و برای ثبت‌نام به شماره تلفن نیاز دارد. با این حال، برای مبتدیان، به لطف به‌ویژه به عملکرد پشتیبان‌گیری ابری، کامل‌تر از Google Authenticator است.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
+https://planb.academy/tutorials/computer-security/authentication/proton-authenticator-047ca2eb-a922-4e0e-8f75-1b89d23951ae
 اگر مایلید اطلاعات بیشتری درباره مدیران رمز عبور، احراز هویت 2FA و VPNها کسب کنید، توصیه می‌کنم فصل‌های اختصاصی در دوره SCU-101 را مطالعه کنید:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### آب و هوا
 
@@ -8071,7 +8071,7 @@ ___
 
 
 - پروتکل اینترنت (**IP**) هر دستگاه متصل را شناسایی کرده و بسته‌های داده را مسیریابی می‌کند.
-- TCP** (*پروتکل کنترل انتقال*) جریان را بخش‌بندی می‌کند، خطاها را بررسی می‌کند و بخش‌ها را به ترتیب صحیح قرار می‌دهد.
+- **TCP** (*پروتکل کنترل انتقال*) جریان را بخش‌بندی می‌کند، خطاها را بررسی می‌کند و بخش‌ها را به ترتیب صحیح قرار می‌دهد.
 
 
 → برای استفاده‌های بلادرنگ که در آن‌ها قابلیت اطمینان کمتر از تأخیر اهمیت دارد (مانند VoIP، DNS، استریمینگ و غیره)، اغلب به جای TCP از پروتکل انتقال دیگری استفاده می‌شود: UDP (*User Datagram Protocol*).
@@ -8105,14 +8105,14 @@ ___
 
 
 
-- نقش مودم**
+- **نقش مودم**
 
 
 مودم (مخفف "*مدولاتور-دمودولاتور*") بخشی است که شبکه ISP شما را به خانه‌تان متصل می‌کند. این دستگاه سیگنال‌های الکتریکی یا نوری دریافتی (از طریق فیبر نوری، کابل کواکسیال، ADSL یا شبکه موبایل) را به سیگنال‌های دیجیتالی تبدیل می‌کند که توسط دستگاه‌های شما قابل فهم باشند. برعکس، داده‌ها را از تجهیزات شما به فرمتی تبدیل می‌کند که بتواند از طریق زیرساخت اپراتور منتقل شود. این مرحله ضروری است تا شبکه خانگی شما بتواند با اینترنت ارتباط برقرار کند.
 
 
 
-- نقش روتر**
+- **نقش روتر**
 
 
 روتر قلب شبکه محلی شماست. این دستگاه اتصال اینترنت را به تمام دستگاه‌های شما توزیع می‌کند: کامپیوترها، گوشی‌های هوشمند، اشیاء متصل، چاپگرها و غیره. به هر یک از آن‌ها یک IP محلی Address اختصاص می‌دهد (متفاوت از IP عمومی شما که در اینترنت قابل مشاهده است). سپس روتر ترافیک ورودی و خروجی را سازماندهی می‌کند و اطمینان حاصل می‌کند که داده‌ها به دستگاه صحیح می‌رسند. همچنین می‌تواند یک فایروال را یکپارچه کند، بسته‌های شبکه را فیلتر کند یا قوانین انتقال پورت را مدیریت کند. NAT شبکه محلی شما را از دید اینترنت مخفی می‌کند و از یک IP عمومی Address برای نمایندگی تمام دستگاه‌های شما استفاده می‌کند. تنها روتر می‌داند که کدام دستگاه محلی کدام درخواست را آغاز کرده است.
@@ -8267,7 +8267,7 @@ ___
 پس از مرور مبانی نظری، این فصل شما را از طریق مراحل واضح، عملی و مؤثر برای افزایش امنیت شبکه محلی خود راهنمایی خواهد کرد.
 
 
-*لطفاً توجه داشته باشید: اطلاعات ارائه شده در اینجا کلی است، زیرا Plan ₿ Network برای مخاطبان بین‌المللی طراحی شده است. بسته به شرایط محلی شما و ارائه‌دهنده خدمات اینترنتی‌تان، ممکن است برخی از بهترین روش‌ها در اینجا ذکر نشده باشند یا به شکل متفاوتی اعمال شوند.*
+*لطفاً توجه داشته باشید: اطلاعات ارائه شده در اینجا کلی است، زیرا Plan ₿ Academy برای مخاطبان بین‌المللی طراحی شده است. بسته به شرایط محلی شما و ارائه‌دهنده خدمات اینترنتی‌تان، ممکن است برخی از بهترین روش‌ها در اینجا ذکر نشده باشند یا به شکل متفاوتی اعمال شوند.*
 
 
 ### انتخاب و ایمن‌سازی تجهیزات شبکه خود
@@ -8282,10 +8282,16 @@ ___
 یک روتر سازگار با Wi-Fi 6، Wi-Fi 6E یا Wi-Fi 7 به شما سرعت‌های بهبود یافته و مهم‌تر از همه، پشتیبانی بومی از فناوری‌های امنیتی مدرن را ارائه می‌دهد. برعکس، تجهیزات بسیار قدیمی، به ویژه آن‌هایی که دیگر به‌روزرسانی‌های نرم‌افزاری دریافت نمی‌کنند، ممکن است حاوی آسیب‌پذیری‌های شناخته شده و بدون وصله باشند. بنابراین، آن‌ها برای کل شبکه شما یک ریسک محسوب می‌شوند، حتی اگر آن‌ها را به درستی پیکربندی کنید. در مقایسه با تلفن‌های همراه یا کامپیوترها، روترها تجهیزاتی هستند که ما تمایل داریم برای سال‌های زیادی نگه داریم. با این حال، ممکن است ایده خوبی باشد که آن‌ها را به طور منظم‌تر تعویض کنیم تا از یک مدل مدرن‌تر و امن‌تر بهره‌مند شویم.
 
 
+**توجه**: به طور کلی، روترهایی که توسط ارائه‌دهندگان خدمات اینترنت ارائه می‌شوند ممکن است فاقد قابلیت به‌روزرسانی ضروری و همچنین امکانات شخصی‌سازی باشند. در برخی موارد، ارائه‌دهندگان خدمات اینترنت ممکن است دسترسی نامحدودی به شبکه داخلی کاربر نهایی داشته باشند.
+
 بنابراین مطمئن شوید که سیستماتیک فریمور روتر خود را به‌روزرسانی کنید. این به‌روزرسانی‌ها آسیب‌پذیری‌ها را اصلاح می‌کنند، ویژگی‌های جدید اضافه می‌کنند و پایداری کلی سیستم را بهبود می‌بخشند. برخی از تولیدکنندگان به‌روزرسانی‌های خودکار ارائه می‌دهند، اما در برخی موارد باید به‌صورت دستی از طریق ابزار مدیریت Interface روتر خود بررسی کنید. همانند تلفن، کامپیوتر، سیستم‌عامل و نرم‌افزار خود، مهم است که روتر خود را به‌طور منظم به‌روزرسانی کنید. می‌توانید این کار را به بخشی از برنامه هفتگی خود تبدیل کنید - به عنوان مثال هر یکشنبه - با تهیه لیستی از تمام مواردی که باید بررسی و به‌روز نگه دارید.
 
 
-اگر روتر شما دیگر نگهداری نمی‌شود اما از نظر سخت‌افزاری همچنان به‌درستی کار می‌کند، می‌توانید یک فریمور متن‌باز جایگزین نصب کنید، مانند:
+به‌طور جایگزین می‌توانید به‌روزرسانی‌های خودکار را فعال کنید یا دست‌کم اسکن خودکار برای به‌روزرسانی‌های جدید firmware را روشن کنید اگر ترجیح می‌دهید به‌صورت دستی عمل کنید. در حالی که ویژگی به‌روزرسانی خودکار ممکن است همچنان تهدید امنیتی ایجاد کند، عدم به‌روزرسانی منظم firmware روتر شبکه محلی شما را در برابر آسیب‌پذیری‌های عمومی شناخته‌شده در معرض خطر قرار می‌دهد.
+
+**نمونه**: هنگام خرید روتر خود، ممکن است ایده خوبی باشد که به دنبال شرکت‌های تثبیت‌شده در این صنعت باشید که برای مدت طولانی روتر ارائه کرده‌اند. برای مثال، روترهای Fritz!Box سابقه‌ای طولانی به‌عنوان دستگاه‌های plug-and-play دارند که برای استفاده در محیط خانواده و شرکت‌های کوچک مناسب‌اند. سیاست به‌روزرسانی نرم‌افزار آن‌ها معمولاً برای چندین سال ادامه می‌یابد.
+
+اگر روتر شما دیگر نگهداری نمی‌شود اما از نظر سخت‌افزاری هنوز به درستی کار می‌کند، ممکن است بتوانید firmware متن‌باز جایگزین نصب کنید، مانند:
 
 
 
@@ -8293,18 +8299,20 @@ ___
 - pfSense و OPNsense، دو سیستم مبتنی بر FreeBSD (مشابه یونیکس) برای فایروال‌ها و روترهای x86
 
 
+**توجه**: برخی از ارائه‌دهندگان خدمات اینترنت (ISP) روترهای عمده‌ای را از یک شرکت واحد به مشتریان خود می‌دهند که همان شرکت هم‌زمان به بسیاری از ISPهای مختلف در سراسر جهان خدمات می‌دهد. ممکن است ببینید که برای نصب یکی از سیستم‌عامل‌های جایگزین روی روتر، شخص دیگری قبلاً راه انجام این کار را کشف کرده باشد، حتی اگر او در آن سوی جهان باشد.
+
 ![Image](assets/fr/196.webp)
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 این سیستم‌ها کنترل دقیق‌تری بر قوانین فایروال، اتصالات خروجی و ورودی، تقسیم‌بندی شبکه (VLANها) و مدیریت DNS فراهم می‌کنند، اما بیشتر برای کاربران پیشرفته طراحی شده‌اند.
 
 
-**در مجموع، من توصیه می‌کنم**:
+**برای جمع‌بندی، توصیه می‌کنم**:
 
 
 
@@ -8336,9 +8344,9 @@ https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea
 این رمز عبور باید طولانی (۴۰ کاراکتر)، پیچیده (شامل اعداد، حروف کوچک، حروف بزرگ و نمادها)، منحصر به فرد (عدم استفاده مجدد در جای دیگر) و تصادفی باشد. من به وضوح توصیه می‌کنم از یک مدیر رمز عبور برای generate استفاده کنید و این اعتبارنامه‌ها را به‌طور امن ذخیره کنید.
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 هشدار: رمز عبور مدیریت روتر (که از دسترسی به تنظیمات آن محافظت می‌کند) را با رمز عبور Wi-Fi (که به شما اجازه اتصال به شبکه بی‌سیم را می‌دهد) اشتباه نگیرید. این‌ها دو Elements متفاوت هستند و هر دو نیاز به تغییر دارند.
 
@@ -8356,37 +8364,37 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- UPnP (**Universal Plug and Play**):
 
 
 این عملکرد به دستگاه‌های موجود در شبکه شما امکان می‌دهد تا به صورت خودکار از روتر بخواهند که پورت‌ها را باز کند. در حالی که این امر استفاده‌های خاصی (بازی‌های آنلاین، دوربین‌های متصل، و غیره) را تسهیل می‌کند، همچنین در را به روی برنامه‌های مخربی که قادر به تغییر پیکربندی شبکه بدون اجازه شما هستند، باز می‌کند. UPnP یکی از دلایل اصلی افشای ناخواسته خدمات داخلی به دنیای خارج است.
 
 
 
-- WPS (*Wi-Fi Protected Setup*)**:
+- WPS (*Wi-Fi Protected Setup*):
 
 
 این سیستم که در اصل برای ساده‌سازی اتصال دستگاه‌ها به وای‌فای بدون وارد کردن رمز عبور طراحی شده است، بر اساس یک کد PIN است که اغلب ضعیف و به راحتی توسط حملات جستجوی فراگیر مورد حمله قرار می‌گیرد. توصیه می‌کنم آن را غیرفعال کنید.
 
 
 
-- دسترسی از راه دور (*مدیریت از راه دور*)**:
+- دسترسی از راه دور (**مدیریت از راه دور**):
 
 
 برخی از روترها به شما اجازه می‌دهند تا از طریق اینترنت به مدیریت Interface آنها از بیرون متصل شوید. این ویژگی به طور غیرمنطقی سطح حمله روتر شما را افزایش می‌دهد. آن را به طور کامل غیرفعال کنید، مگر اینکه نیاز خاصی به مدیریت از راه دور داشته باشید. حتی در آن صورت، همیشه از یک VPN استفاده کنید.
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- پروتکل‌های منسوخ یا ناامن**:
+- **پروتکل‌های منسوخ یا ناامن**:
 
 
 هرگونه خدمات مدیریتی که از پروتکل‌های متنی ساده مانند Telnet، FTP، HTTP بدون رمزگذاری یا SMBv1 استفاده می‌کنند را غیرفعال کنید. این پروتکل‌ها نه محرمانگی و نه یکپارچگی داده‌های مبادله شده را تضمین می‌کنند و اغلب هدف بدافزارها قرار می‌گیرند. اگر به دسترسی محلی یا از راه دور نیاز دارید، فقط از اتصالات از طریق HTTPS (رمزگذاری شده Interface)، SSH یا SFTP، به صورت مناسب استفاده کنید.
 
 
 
-- پینگ WAN / ICMP**:
+- پینگ WAN / ICMP:
 
 
 برخی از روترها به طور پیش‌فرض به درخواست‌های ICMP که از بیرون ارسال می‌شوند (`ping` command) پاسخ می‌دهند. این امر به یک مهاجم اجازه می‌دهد تا بررسی کند که شبکه شما فعال و قابل دسترسی است. اگر به آن نیازی ندارید، این پاسخ را در فایروال روتر غیرفعال کنید.
@@ -8475,15 +8483,15 @@ DNS (*سیستم نام دامنه*) سرویسی در اینترنت است ک�
 
 
 
-- DoH (*DNS over HTTPS*)**: درخواست‌های DNS را در پروتکل HTTPS محصور می‌کند و آن‌ها را از ترافیک وب رمزگذاری‌شده معمولی غیرقابل تشخیص می‌سازد.
+- **DoH (*DNS over HTTPS*)**: درخواست‌های DNS را در پروتکل HTTPS محصور می‌کند و آن‌ها را از ترافیک وب رمزگذاری‌شده معمولی غیرقابل تشخیص می‌سازد.
 
 
 
-- DoT (*DNS over TLS*)**: یک کانال رمزگذاری‌شده خاص بین دستگاه شما و سرور DNS ایجاد می‌کند
+- DoT (**DNS over TLS**): یک کانال رمزگذاری‌شده خاص بین دستگاه شما و سرور DNS ایجاد می‌کند
 
 
 
-- DoQ (*DNS over QUIC*)**: درخواست‌های DNS را از طریق پروتکل QUIC مبتنی بر UDP منتقل می‌کند
+- **DoQ (*DNS over QUIC*)**: درخواست‌های DNS را از طریق پروتکل QUIC مبتنی بر UDP منتقل می‌کند
 
 
 از نظر عملی، رمزگذاری DNS و تغییر سرور می‌تواند در سطوح مختلفی پیاده‌سازی شود:
@@ -8497,7 +8505,7 @@ DNS (*سیستم نام دامنه*) سرویسی در اینترنت است ک�
 
 
 
-https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
+https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
 - در سطح سیستم‌عامل: برخی از سیستم‌عامل‌ها به‌طور بومی از پشتیبانی DNS رمزگذاری‌شده (DoT یا DoH) برخوردارند که تمامی درخواست‌های DNS عبوری از پشته شبکه سیستم را ایمن می‌کند. با این حال، این امر کل کامپیوتر یا تلفن را ایمن نمی‌کند: برنامه‌ها می‌توانند این تنظیم را دور بزنند اگر به گونه‌ای تنظیم شده باشند که از یک حل‌کننده DNS یا پروتکل متفاوت استفاده کنند.
 
 
@@ -8512,7 +8520,7 @@ https://planb.network/tutorials/computer-security/communication/firefox-11814cec
 برای پیشرفت بیشتر، می‌توانید یک راه‌حل فیلتر کردن DNS محلی مانند Pi-hole یا AdGuard Home راه‌اندازی کنید.
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
 این ابزارها مانند یک سرور DNS کوچک در داخل شبکه شما عمل می‌کنند و درخواست‌ها به دامنه‌هایی که به میزبانی تبلیغات، ردیاب‌های مرورگر، فیشینگ یا سایت‌های مخرب معروف هستند را مسدود می‌کنند. این ابزارها همچنین به شما اجازه می‌دهند تا لیست‌های مسدودسازی خود را ایجاد کرده یا فیلترینگ را بر اساس دستگاه‌های متصل سفارشی کنید.
 
@@ -8533,19 +8541,19 @@ https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5
 - WireGuard: مدرن، سریع و سبک
 - OpenVPN: قدیمی‌تر، اما بسیار بالغ و قابل تنظیم
 
-https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
+https://planb.academy/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
 در اینجا یک آموزش کامل درباره Tailscale، یک راه‌حل VPN با پیکربندی آسان که از WireGuard استفاده می‌کند، آورده شده است:
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 می‌توانید این VPN را مستقیماً روی یک روتر سازگار، روی یک کامپیوتر کوچک (مانند Raspberry Pi) یا روی یک سرور اختصاصی در خانه میزبانی کنید. همچنین می‌توانید آن را به‌عنوان یک کلاینت مستقیماً روی هر دستگاهی نصب کنید.
 
 اما یک VPN فقط برای دسترسی از راه دور نیست. شما همچنین می‌توانید از یک کلاینت کلاسیک VPN بر روی دستگاه‌های خود استفاده کنید تا تمام ترافیک خروجی خود را رمزگذاری کنید، حتی زمانی که دور از خانه هستید (وای‌فای عمومی، هتل، دانشگاه و غیره). در این حالت، دستگاه شما به یک سرور VPN شخص ثالث (تجاری یا خودمیزبان) متصل می‌شود که سپس اتصالات شما را به اینترنت منتقل می‌کند. این کار آدرس IP واقعی شما Address را از ISP پنهان می‌کند، داده‌های شما را از جاسوسی محلی محافظت می‌کند و از برخی اشکال سانسور جلوگیری می‌کند.
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 در نهایت، این امکان وجود دارد که یک VPN را مستقیماً روی روتر خود تنظیم کنید، که به شما اجازه می‌دهد تا بدون نیاز به نصب کلاینت VPN بر روی هر یک از دستگاه‌ها، از تمامی دستگاه‌های خانه خود محافظت کنید.
 
@@ -8555,17 +8563,17 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 اولین گام متمرکز کردن لاگ‌های امنیتی است. هر دستگاهی که به شبکه متصل می‌شود، لاگ‌هایی تولید می‌کند که حاوی اطلاعاتی درباره‌ی اتصالات، خطاها یا فعالیت‌های مشکوک است. به جای بررسی این لاگ‌ها به صورت جداگانه، توصیه می‌کنم آن‌ها را به سروری ارسال کنید که قادر به گروه‌بندی، مرتب‌سازی و تحلیل آن‌ها باشد. راه‌حل‌هایی مانند Graylog یا Elastic Stack (ELK) به شما امکان می‌دهند این لاگ‌ها را در یک Interface گرافیکی جمع‌آوری کنید، جایی که می‌توانید به جستجوی رویدادهای خاص بپردازید، هشدار ایجاد کنید یا فعالیت شبکه را به صورت بصری مشاهده کنید.
 
-https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
+https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
 سپس، اسکن‌های فعال منظم از شبکه محلی خود انجام دهید، به عنوان مثال با Nmap. این کار به شما نمای کلی از تمام دستگاه‌های موجود در شبکه و پورت‌هایی که باز کرده‌اند، می‌دهد. اگر دستگاه ناشناخته یا سرویس غیرمعمولی را شناسایی کردید، این می‌تواند نشانه‌ای از یک حمله باشد.
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 برای پیشروی بیشتر، می‌توانید یک IDS (*سیستم تشخیص نفوذ*) یا حتی یک IPS (*سیستم جلوگیری از نفوذ*) نصب کنید. این ابزارها، مانند Suricata یا Snort، جریان‌های شبکه را به صورت لحظه‌ای نظارت کرده و امضاهای حملات شناخته شده (اسکن پورت، تزریقات، اتصالات مشکوک و غیره) را تشخیص می‌دهند. IDS هشدار می‌دهد، در حالی که IPS می‌تواند به طور خودکار برخی اقدامات را مسدود کند.
 
 در نهایت، نظارت بر مصرف پهنای باند نیز شاخص خوبی از فعالیت‌های غیرعادی است. اگر یک دستگاه به طور ناگهانی و بدون دلیل مشخصی مقدار زیادی داده مصرف کند، این ممکن است نشان‌دهنده یک دانلود غیرمجاز، نشت داده یا حتی یک دستگاه به خطر افتاده باشد. ابزارهایی مانند ntopng یا vnStat به شما امکان می‌دهند جریان‌های ورودی و خروجی را بر اساس دستگاه مشاهده کنید.
 
-https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
+https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### پشتیبان‌گیری و تاب‌آوری
 
@@ -8598,3 +8606,4 @@ https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35
 <chapterId>4186cd39-6320-43a0-ba2c-ceaac42d2d37</chapterId>
 
 <isCourseConclusion>true</isCourseConclusion>
+

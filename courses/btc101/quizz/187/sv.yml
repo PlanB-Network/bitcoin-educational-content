@@ -1,8 +1,12 @@
-question: Vad är en fördel med att acceptera Bitcoin som handlare?
-answer: Motstånd mot censur.
+question: Vad är ett verktyg för att acceptera Bitcoin för stora organisationer eller passionerade Bitcoin-entusiaster?
+answer: BTCpay Server.
 wrong_answers:
-  - Höjda transaktionsavgifter.
-  - Skydd mot deflation.
-  - Finansiell begränsning.
-explanation: >-
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server är ett verktyg för att acceptera Bitcoin för stora
+  strukturer eller passionerade bitcoinare. Andra lösningar
+  inkluderar OpenNode för enkla onlineföretag och schweiziska
+  Bitcoin Pay för amatörhandlare.
 reviewed: true

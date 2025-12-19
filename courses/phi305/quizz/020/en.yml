@@ -1,0 +1,9 @@
+question: What can we learn from Copernicus?
+answer: That the Earth revolves around the Sun.
+wrong_answers:
+  - That the Earth is flat.
+  - That the Earth is at the center of the Universe.
+  - That Euclid's equations are wrong.
+explanation: |
+  Nicolas Copernicus (1473-1543) is famous for having demonstrated that the Earth revolves around the Sun, revolutionizing our conception of the universe. This discovery had a profound influence on modern philosophy and rationalism.
+reviewed: false

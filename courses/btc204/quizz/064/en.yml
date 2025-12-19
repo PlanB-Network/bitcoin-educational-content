@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Labels are stored locally by the wallet software and are never transmitted over the Bitcoin network. Labeling is thus a personal management tool.
 
-reviewed: false
+reviewed: true

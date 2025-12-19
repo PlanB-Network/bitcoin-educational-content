@@ -1,14 +1,12 @@
-question: Qual è il ruolo del denaro come strumento di comunicazione?
-answer: Permette la comunicazione del valore attraverso lo spazio e il tempo senza la necessità di fidarsi di una controparte.
+question: Qual è il principale vantaggio delle valute fiat?
+answer: Sono facilmente divisibili.
 wrong_answers:
-  - Permette la comunicazione del valore solo attraverso lo spazio e senza la necessità di fidarsi di una controparte.
-  - Permette la comunicazione del valore solo attraverso il tempo e senza la necessità di fidarsi di una controparte.
-  - Permette la comunicazione del valore attraverso lo spazio e il tempo con la necessità di fidarsi di una controparte.
+  - Sono controllate da una parte centrale.
+  - Non sono facilmente trasportabili.
+  - Sono efficaci nel mantenere il valore nel tempo.
 explanation: |
-  Il denaro come strumento di comunicazione permette la comunicazione attraverso
-  lo spazio e il tempo, poiché trasformiamo il nostro tempo e la nostra energia in un
-  bene che può essere riutilizzato in futuro senza il rischio di
-  svalutazione. Permette anche la comunicazione in un linguaggio comune universale,
-  consentendo a due sconosciuti di scambiare, commerciare,
-  e concordare sul valore delle cose.
+  Le valute fiat, come il dollaro e l'euro, sono molto
+  liquide e facilmente trasportabili perché ora sono per lo più
+  digitali. Tuttavia, il loro valore è costantemente eroso dall'
+  inflazione monetaria.
 reviewed: true

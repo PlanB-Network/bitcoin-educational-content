@@ -1,11 +1,12 @@
-question: Điều nào sau đây không phải là một lợi ích của Bitcoin như một loại tiền tệ?
-answer: Nó được sử dụng để thanh toán thuế.
+question: Số lượng đơn vị Bitcoin tối đa có thể tồn tại là bao nhiêu?
+answer: 21 triệu.
 wrong_answers:
-  - Nó có thể chia nhỏ.
-  - Nó có thể vận chuyển.
-  - Nó không cần phép.
+  - 3 nghìn tỷ.
+  - 100 triệu.
+  - Không có giới hạn.
 explanation: |
-  Bitcoin, nhờ vào các đặc tính như khả năng chia nhỏ,
-  khả năng xác minh, tính không cần phép và khả năng vận chuyển,
-  cung cấp một phương tiện lưu trữ giá trị xuất sắc. Hơn nữa, với tư cách là một đồng tiền trung lập trên internet, nó đại diện cho một phương tiện trao đổi tốt không biết đến biên giới.
+  Tổng nguồn cung Bitcoin được giới hạn ở 21 triệu đơn vị.
+  Đây là một đặc điểm quan trọng của Bitcoin giúp nó khác biệt
+  so với các đồng tiền tệ thông thường, có thể được in
+  không giới hạn bởi các ngân hàng trung ương.
 reviewed: true

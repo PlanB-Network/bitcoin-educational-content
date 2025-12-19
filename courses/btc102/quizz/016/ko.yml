@@ -1,0 +1,9 @@
+question: Bitcoin을 소수점 이하 몇 자리까지 나눌 수 있나요?
+answer: 여덟
+wrong_answers:
+  - 여섯
+  - 열두
+  - 일곱
+explanation: |
+  Bitcoin은 소수점 8번째 자리까지 나눌 수 있으며, 하나의 단위를 Satoshi 또는 sat라고 합니다.
+reviewed: false

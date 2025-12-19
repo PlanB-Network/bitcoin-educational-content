@@ -1,0 +1,9 @@
+question: Che cos'è la filosofia scolastica?
+answer: Una filosofia cristiana del Medioevo.
+wrong_answers:
+  - Un movimento politico.
+  - Una filosofia anarchica.
+  - Una filosofia razionale.
+explanation: |
+  La filosofia scolastica è stata una filosofia cristiana del Medioevo che ha dominato le università europee. Essa cercava di armonizzare la fede cristiana con la filosofia aristotelica.
+reviewed: false

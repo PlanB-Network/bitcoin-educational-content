@@ -52,10 +52,10 @@ LibreWolf mira a massimizzare la protezione contro il tracciamento e il fingerpr
 
 
 
-- Eliminare tutta la telemetria e la raccolta dati** in Firefox
-- Disabilitare le funzioni che vanno contro la libertà dell'utente**, come i moduli DRM proprietari
-- Applicare le impostazioni di privacy/sicurezza** e le patch specifiche fin dall'inizio
-- Lo sviluppo comunitario garantisce trasparenza e indipendenza** dagli interessi commerciali
+- Eliminare tutta la **telemetria e la raccolta dati** in Firefox
+- Disabilitare le funzioni che vanno contro la libertà dell'utente, come i moduli DRM proprietari
+- Applicare le **impostazioni di privacy/sicurezza** e le patch specifiche fin dall'inizio
+- Lo sviluppo comunitario garantisce trasparenza e **indipendenza** dagli interessi commerciali
 
 
 
@@ -71,11 +71,11 @@ Fin dall'inizio, LibreWolf offre una serie di funzioni orientate alla privacy:
 
 
 
-**A differenza di Chrome o Firefox, che inviano determinate statistiche di utilizzo, LibreWolf non raccoglie assolutamente nulla dalla vostra navigazione. Nessun rapporto sugli arresti anomali, nessuno studio sugli utenti, nessun suggerimento sponsorizzato.
+**A differenza di Chrome o Firefox, che inviano determinate statistiche di utilizzo, LibreWolf non raccoglie assolutamente nulla dalla vostra navigazione. Nessun rapporto sugli arresti anomali, nessuno studio sugli utenti, nessun suggerimento sponsorizzato.**
 
 
 
-**LibreWolf integra in modo nativo l'estensione uBlock Origin, uno dei migliori bloccatori di annunci e tracker sul mercato. Per impostazione predefinita, LibreWolf filtra in modo aggressivo tutto ciò che potrebbe tracciare l'utente online (annunci invadenti, script di tracciamento, criptovalute Mining).
+**LibreWolf integra in modo nativo l'estensione uBlock Origin, uno dei migliori bloccatori di annunci e tracker sul mercato. Per impostazione predefinita, LibreWolf filtra in modo aggressivo tutto ciò che potrebbe tracciare l'utente online (annunci invadenti, script di tracciamento, criptovalute Mining).**
 
 
 
@@ -90,7 +90,7 @@ Fin dall'inizio, LibreWolf offre una serie di funzioni orientate alla privacy:
 ![LIBREWOLF](assets/fr/07.webp)
 
 
-*Pagina di prova EFF [Cover Your Tracks](https://coveryourtracks.eff.org/) con il pulsante TEST YOUR BROWSER. Questa pagina viene utilizzata per valutare la protezione contro i tracker e le impronte digitali
+*Pagina di prova EFF* [Cover Your Tracks](https://coveryourtracks.eff.org/) con il pulsante TEST YOUR BROWSER. Questa pagina viene utilizzata per valutare la protezione contro i tracker e le impronte digitali
 
 
 
@@ -101,7 +101,7 @@ Fin dall'inizio, LibreWolf offre una serie di funzioni orientate alla privacy:
 
 
 
-**LibreWolf attiva per impostazione predefinita impostazioni di sicurezza rigorose. La Protezione avanzata dal tracciamento di Firefox viene portata al livello severo per bloccare migliaia di tracker, cookie di terze parti e contenuti dannosi. Attiva inoltre l'isolamento dei siti e dei cookie (*Total Cookie Protection*) per suddividere i dati per ogni dominio e limita WebRTC (limitando i *candidati ICE* e l'instradamento tramite proxy quando è presente un proxy) per ridurre il rischio di fuga di dati IP Address.
+**LibreWolf attiva per impostazione predefinita impostazioni di sicurezza rigorose. La Protezione avanzata dal tracciamento di Firefox viene portata al livello severo per bloccare migliaia di tracker, cookie di terze parti e contenuti dannosi. Attiva inoltre l'isolamento dei siti e dei cookie (*Total Cookie Protection*) per suddividere i dati per ogni dominio e limita WebRTC (limitando i *candidati ICE* e l'instradamento tramite proxy quando è presente un proxy) per ridurre il rischio di fuga di dati IP Address.**
 
 
 
@@ -119,37 +119,37 @@ Fin dall'inizio, LibreWolf offre una serie di funzioni orientate alla privacy:
 
 
 
-- Nessuna telemetria o connessione indesiderata:** LibreWolf non trasmette dati di utilizzo, garantendo il totale rispetto della vostra privacy.
+- **Nessuna telemetria o connessione indesiderata:** LibreWolf non trasmette dati di utilizzo, garantendo il totale rispetto della vostra privacy.
 
 
 
 
 
-- Open-source e basato sulla comunità:** Il progetto è al 100% open-source e gestito da volontari. Questa indipendenza garantisce che nessun modello pubblicitario possa influenzare lo sviluppo.
+- **Open-source e basato sulla comunità:** Il progetto è al 100% open-source e gestito da volontari. Questa indipendenza garantisce che nessun modello pubblicitario possa influenzare lo sviluppo.
 
 
 
 
 
-- Preconfigurato per la privacy:** LibreWolf vi fa risparmiare tempo prezioso: non c'è bisogno di passare ore a modificare le impostazioni di Firefox, è già tutto pronto.
+- **Preconfigurato per la privacy:** LibreWolf vi fa risparmiare tempo prezioso: non c'è bisogno di passare ore a modificare le impostazioni di Firefox, è già tutto pronto.
 
 
 
 
 
-- Ad blocker/tracker nativo:** uBlock Origin è integrato di serie, quindi non dovrete fare nulla per proteggervi da annunci e bug.
+- **Ad blocker/tracker nativo:** uBlock Origin è integrato di serie, quindi non dovrete fare nulla per proteggervi da annunci e bug.
 
 
 
 
 
-- Eccellente protezione anti-fingerprinting:** Grazie a RFP e alle numerose impostazioni sulla privacy, LibreWolf riduce drasticamente la vostra impronta digitale unica sul web.
+- **Eccellente protezione anti-fingerprinting:** Grazie a RFP e alle numerose impostazioni sulla privacy, LibreWolf riduce drasticamente la vostra impronta digitale unica sul web.
 
 
 
 
 
-- Prestazioni migliorate e leggerezza:** Rimuovendo la telemetria e alcune funzioni non essenziali, LibreWolf può essere leggermente più veloce e meno avido di energia rispetto a Firefox standard.
+- **Prestazioni migliorate e leggerezza:** Rimuovendo la telemetria e alcune funzioni non essenziali, LibreWolf può essere leggermente più veloce e meno avido di energia rispetto a Firefox standard.
 
 
 
@@ -159,31 +159,31 @@ Fin dall'inizio, LibreWolf offre una serie di funzioni orientate alla privacy:
 
 
 
-- Nessun aggiornamento automatico integrato:** LibreWolf non si aggiorna da solo. Spetta all'utente installare le nuove versioni non appena vengono rilasciate, per rimanere al sicuro.
+- **Nessun aggiornamento automatico integrato:** LibreWolf non si aggiorna da solo. Spetta all'utente installare le nuove versioni non appena vengono rilasciate, per rimanere al sicuro.
 
 
 
 
 
-- Compatibilità ridotta con alcuni servizi:** A causa delle sue impostazioni molto rigide, LibreWolf potrebbe incontrare problemi su alcuni siti web. Le piattaforme di streaming Netflix e Disney+ non funzioneranno, poiché LibreWolf disattiva il DRM Widevine per impostazione predefinita.
+- **Compatibilità ridotta con alcuni servizi:** A causa delle sue impostazioni molto rigide, LibreWolf potrebbe incontrare problemi su alcuni siti web. Le piattaforme di streaming Netflix e Disney+ non funzioneranno, poiché LibreWolf disattiva il DRM Widevine per impostazione predefinita.
 
 
 
 
 
-- Nessuna rete anonima integrata:** a differenza di Tor Browser, LibreWolf non instrada il traffico tramite Tor o una VPN. Se avete bisogno dell'anonimato di rete, dovrete configurare manualmente un proxy/VPN.
+- **Nessuna rete anonima integrata:** a differenza di Tor Browser, LibreWolf non instrada il traffico tramite Tor o una VPN. Se avete bisogno dell'anonimato di rete, dovrete configurare manualmente un proxy/VPN.
 
 
 
 
 
-- Cookie e sessioni non persistenti (default):** Per motivi di riservatezza, LibreWolf cancella i cookie, la cronologia e i dati del sito ogni volta che si chiude il browser. Sarà necessario accedere nuovamente ai propri account ad ogni accesso.
+- **Cookie e sessioni non persistenti (default):** Per motivi di riservatezza, LibreWolf cancella i cookie, la cronologia e i dati del sito ogni volta che si chiude il browser. Sarà necessario accedere nuovamente ai propri account ad ogni accesso.
 
 
 
 
 
-- Nessuna versione mobile o sincronizzazione cloud:** LibreWolf è disponibile solo su desktop (Windows, Linux, macOS). Non esiste un'applicazione mobile e quindi non è possibile sincronizzare gli account o i segnalibri tramite cloud.
+- Nessuna versione mobile o sincronizzazione cloud: LibreWolf è disponibile solo su desktop (Windows, Linux, macOS). Non esiste un'applicazione mobile e quindi non è possibile sincronizzare gli account o i segnalibri tramite cloud.
 
 
 
@@ -241,8 +241,8 @@ Scaricare il programma di installazione (.exe) dal sito ufficiale o utilizzare i
 
 
 
-- Chocolatey:** `choco install librewolf`
-- WinGet:** `winget install librewolf`
+- **Chocolatey:** `choco install librewolf`
+- **WinGet:** `winget install librewolf`
 
 
 
@@ -265,7 +265,7 @@ Al primo avvio, noterete la familiare Interface di Firefox, ma più spoglia: la 
 ![LIBREWOLF](assets/fr/04.webp)
 
 
-*Pagina iniziale di LibreWolf con estensioni e menu. Una freccia blu in alto a destra indica l'icona del menu (tre barre orizzontali)
+*Pagina iniziale di LibreWolf con estensioni e menu. Una freccia blu in alto a destra indica l'icona del menu (tre barre orizzontali)*
 
 
 
@@ -325,8 +325,8 @@ In linea di principio, LibreWolf scoraggia l'aggiunta di estensioni non necessar
 
 
 
-- Firefox Multi-Account Containers** (di Mozilla) per la navigazione a compartimenti stagni
-- Decentraleyes** o **LocalCDN** per servire localmente le librerie comuni
+- **Firefox Multi-Account Containers** (di Mozilla) per la navigazione a compartimenti stagni
+- **Decentraleyes** o **LocalCDN** per servire localmente le librerie comuni
 
 
 
@@ -402,7 +402,7 @@ LibreWolf fa parte della "cassetta degli attrezzi" dei browser orientati alla pr
 
 
 
-**Brave utilizza il codice di Chrome/Chromium e integra un modello di business attraverso un programma pubblicitario opzionale. LibreWolf, essendo un Fork comunitario per Firefox, mantiene l'ecosistema libero di Mozilla e non ha legami con Google.
+**Brave utilizza il codice di Chrome/Chromium e integra un modello di business attraverso un programma pubblicitario opzionale. LibreWolf, essendo un Fork comunitario per Firefox, mantiene l'ecosistema libero di Mozilla e non ha legami con Google.**
 
 
 

@@ -1,0 +1,8 @@
+question: Rust'in Cargo aracılığıyla birleştirilmiş araç ekosistemi, Bitcoin geliştirme için C++ gibi eski dillerde kullanılan yaklaşımdan nasıl farklıdır?
+answer: Cargo, tek bir araçta standartlaştırılmış bağımlılık yönetimi, oluşturma, test etme ve dokümantasyon sağlayarak parçalanmayı ortadan kaldırır
+wrong_answers:
+  - Cargo yalnızca bellek güvenliği doğrulamasına odaklanırken, C++ araçları derleme hızı optimizasyonuna öncelik verir
+  - C++ entegre geliştirme ortamları sağlarken, Cargo birden fazla ayrı aracın manuel olarak yapılandırılmasını gerektirir
+  - Cargo yalnızca Bitcoin'ye özgü kütüphaneleri desteklerken, C++ araçları genel amaçlı finansal uygulamalarla çalışır
+explanation: |
+  Rust'ün Cargo'su, tüm temel geliştirme görevlerini tek, standartlaştırılmış bir araç aracılığıyla ele alan proje yönetimine yönelik birleşik bir yaklaşımı temsil eder. Bu, C++'da görülen ve bağımlılık yönetimi, oluşturma ve test için birden fazla rakip aracın projeler arasında tutarsızlık yarattığı parçalanma sorununu ortadan kaldırır. Bitcoin geliştirme için bu standardizasyon çok önemlidir çünkü tutarlı derleme süreçleri, güvenilir bağımlılık çözümü ve farklı projeler ve ekipler arasında tek tip kod kalitesi kontrolleri sağlayarak güvenliği tehlikeye atabilecek yapılandırmayla ilgili hata riskini azaltır.

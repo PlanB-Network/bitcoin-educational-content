@@ -6,4 +6,4 @@ wrong_answers:
   - The round output is a reserve address.
 explanation: |
   When faced with a simple payment pattern (1 input and 2 outputs), if one of the outputs spends a round amount, then it represents the payment. It thus leaves the possession of the input user.
-reviewed: false
+reviewed: true

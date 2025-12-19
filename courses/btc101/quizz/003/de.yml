@@ -1,13 +1,12 @@
-question: Was ist der Zweck dieses Bitcoin-Kurses?
-answer: Einige allgemeine monetäre Aspekte von Bitcoin vorzustellen, wie man es verwendet und seine Zukunft.
+question: Was ist der Hauptfokus dieses Bitcoin-Kurses?
+answer: Die monetären Aspekte von Bitcoin.
 wrong_answers:
-  - Vorstellen, wie man Bitcoin minen kann.
-  - Vorstellen, wie man Bitcoin reguliert.
-  - Vorstellen, wie man ein neues Bitcoin-Protokoll erstellt.
+  - Die Programmieraspekte von Bitcoin.
+  - Die ökologischen Auswirkungen von Bitcoin.
+  - Die regulatorischen Aspekte von Bitcoin.
 explanation: |
-  Der Zweck dieses Bitcoin-Kurses ist es, die
-  allgemeinen monetären Eigenschaften von Bitcoin zu diskutieren, einschließlich wie
-  man Bitcoins kauft und verkauft, sie sicher in digitalen
-  Wallets aufbewahrt und für Transaktionen verwendet. Es zielt auch darauf ab,
-  die Zukunft von Bitcoin zu erkunden.
+  Dieser Bitcoin-Kurs konzentriert sich auf die monetären Aspekte
+  von Bitcoin, einschließlich wie man Bitcoins kauft und verkauft, sie sicher
+  in digitalen Geldbörsen aufbewahrt und für
+  Transaktionen verwendet.
 reviewed: true

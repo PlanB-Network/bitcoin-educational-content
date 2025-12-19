@@ -1,12 +1,13 @@
-question: Ni kuki Bitcoin itemerwa cane mu vy’ubudandaji muri iki gihe?
-answer: Kuko n’abantu ku giti cabo ntibavyemera cane.
+question: Ni akamaro akahe nyamukuru k’inzahabu nk’amahera?
+answer: Ni ikintu gikomeye cane.
 wrong_answers:
-  - Kuko ntabwo ari ikintu co gutwara.
-  - Kuko ntirigabanywamwo utugingo ngengabuzima dutoduto.
-  - Kuko si Liquid.
+  - Biroroshe gucapura canke gutwara ku rugendo rurerure.
+  - Biroroshe kugenzura.
+  - Ntibitegekanijwe na leta.
 explanation: |
-  Naho ifise imiterere, nk’aho ifise imipaka idasanzwe .
-  Supply, Bitcoin n’ubu ntivyemerwa cane mu bucuruzi .
-  uno musi, kubera ukuntu abantu ku giti cabo batavyemera, rero .
-  abacuruzi ntibaremeshwa kuvyemera.
+  Naho bidashobora gucapura canke gutwarwa bitagoranye ku .
+  ingendo ndende, inzahabu ni ikintu gikomeye cane, kikaba
+  bituma iba nziza ububiko bw’agaciro. Ibiceri vy’inzahabu vyakoreshwa nk’
+  amafaranga yo mu bihe vya kera, ariko ntibari gukora kimwe .
+  intumbero mu gihe c’ubuhinga bwa none.
 reviewed: true

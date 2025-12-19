@@ -1,12 +1,11 @@
-question: Hvorfor kan ikke alle bruke den samme Bitcoin-lommeboken?
-answer: Fordi ulike individer betyr ulike bruksområder.
+question: Når ble Bitcoin brukt for første gang til å kjøpe fysiske varer?
+answer: Da Laszlo Hanyecz kjøpte 2 pizzaer for 10 000 BTC
 wrong_answers:
-  - Fordi det er dyrt å bruke en Bitcoin-lommebok
-  - Fordi det er ulovlig å bruke en Bitcoin-lommebok
-  - Fordi folk aldri vil bli enige om navnet på en slik lommebok
+  - Da Hal Finney kjøpte en bil for 100 000 BTC
+  - Da Satoshi Nakamoto kjøpte et hus for 1 000 000 000 BTC
+  - Ingen av alternativene
 explanation: |
-  Mens én person kanskje prioriterer sikkerhet, kan en annen verdsette 
-  brukervennlighet eller spesifikke funksjoner. Derfor kan ikke én enkelt 
-  Bitcoin-lommebok dekke alles behov, noe som gjør det nødvendig 
-  med flere lommebokalternativer.
+  Første gang Bitcoin ble brukt til å kjøpe fysiske varer var da
+  Laszlo Hanyecz kjøpte 2 pizzaer for 10 000 BTC, den 22.05.2010, som nå
+  er kjent som Pizza Day
 reviewed: true

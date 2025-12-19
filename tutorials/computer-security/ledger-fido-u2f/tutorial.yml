@@ -101,10 +101,11 @@ proofreading:
       - Sanja22B
     reward: 1.31
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 2.62
+      - Tinnah924
+    reward: 1.31
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -135,3 +136,18 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.62
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.25
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.25
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.88

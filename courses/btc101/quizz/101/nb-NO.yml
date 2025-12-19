@@ -1,11 +1,10 @@
-question: Hva er den standard metoden for å ta sikkerhetskopi av den private nøkkelen i en Bitcoin-lommebok?
-answer: Å skrive inn din mnemoniske frase i hvilken som helst lommebokprogramvare
+question: Hva er formålet med en Bitcoin-lommebok?
+answer: Å lagre privat nøkkel for å utføre transaksjoner med bitcoins
 wrong_answers:
-  - Å lagre din mnemoniske frase i en digital fil
-  - Å skrive din mnemoniske frase på en whiteboard
-  - Å dele din mnemoniske frase med en betrodd venn
+  - Å bruke enhetens ressurser til å utvinne bitcoins
+  - Å kjøpe bitcoins med offentlig nøkkel
+  - Å lagre bitcoins på en enhet
 explanation: |
-  Den standard metoden for å ta sikkerhetskopi av den private nøkkelen i en Bitcoin-lommebok
-  er ved å skrive inn din mnemoniske frase i hvilken som helst lommebokprogramvare. Dette lar deg
-  gjenopprette lommeboken din.
+  Bitcoin-lommebøker er programvare som lar deg lagre de private nøklene som
+  gjør det mulig for deg å utføre transaksjoner med dine bitcoins.
 reviewed: true

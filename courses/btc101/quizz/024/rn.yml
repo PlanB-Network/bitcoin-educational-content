@@ -1,13 +1,13 @@
-question: Ni ikihe kibazo nyamukuru c’amahera ya fiat?
-answer: Agaciro kavyo kaguma gasenyuka kubera ugutera imbere kw’amahera.
+question: Ni ikihe muri ibi bikurikira kitari akamaro ka Bitcoin nk’ifaranga?
+answer: Ikoreshwa mu kwishura imisoro.
 wrong_answers:
-  - Ntivyoroshe gutwara.
-  - Agaciro kavyo kaguma gashimwa n’ugutera imbere kw’amahera.
-  - Ntibigabanywa.
+  - Ni ikintu gishobora kugabanywa.
+  - Ni ikintu gishobora gutwarwa.
+  - Ni ukutagira uruhusha.
 explanation: |
-  Intambamyi nyamukuru y’amahera y’amahera, nk’ayo
-  idolari n’iyero, ni uko agaciro kavyo kaguma .
-  n’ugusenyuka kw’amahera. Ivyo biva ku .
-  ugutakaza agaciro bitewe n’inzego zizigenzura (umwami,
-  banki nkuru, umwami w’abami, umunyagitugu).
+  Bitcoin, kubera imiterere yayo nk’ugucapura kwayo,
+  gusuzuma, uruhusha rudafise uruhusha n'ugutwara,
+  itanga ububiko bwiza cane bw’agaciro. Vyongeye, nk’umuntu atagira aho abogamiye .
+  amafaranga yo kuri internet, aserukira uburyo bwiza bwo gukoresha Exchange.
+  iyo nta mipaka izi.
 reviewed: true

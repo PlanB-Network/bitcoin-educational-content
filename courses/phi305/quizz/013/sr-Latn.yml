@@ -1,0 +1,9 @@
+question: Šta je etologija?
+answer: Nauka o načinima postojanja.
+wrong_answers:
+  - Prirodna nauka.
+  - Mehanička nauka.
+  - Derivat astrologije.
+explanation: |
+  Etologija je nauka o bivanju, o ponašanju. Za Spinozu i Deleza, to je proučavanje onoga što telo može da uradi, njegovih afekata i sposobnosti za akciju i strast.
+reviewed: false

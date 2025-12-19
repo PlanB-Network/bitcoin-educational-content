@@ -27,20 +27,22 @@ proofreading:
       - Asi0Flammeus
     reward: 2.77
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 5.54
+      - Salgraphics
+    reward: 2.77
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 7.35
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 5.54
+      - JosephQuaye
+    reward: 2.77
   - language: it
     last_contribution_date:
     urgency: 1
@@ -124,6 +126,26 @@ proofreading:
     contributor_names:
     reward: 5.54
   - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.35
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.16
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.16
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.98
+  - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:

@@ -1,0 +1,9 @@
+question: 2009년 10월에 Bitcoin과 달러 사이에 최초의 Exchange 서비스를 구축한 사람은 누구인가요?
+answer: 뉴리버티스탠다드
+wrong_answers:
+  - sirius-m
+  - dwdollar
+  - SmokeTooMuch
+explanation: |
+  이 서비스는 이메일을 통해 교환을 협상하고 PayPal을 통해 결제하는 초보적인 수준이었습니다. Exchange 요금은 뉴리버티스탠다드의 자체 Mining 비용을 기준으로 했습니다.
+reviewed: true

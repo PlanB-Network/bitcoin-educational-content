@@ -1,11 +1,13 @@
-question: Làm thế nào bạn có thể tăng cường bảo mật mặc định cho ví Bitcoin của mình?
-answer: Bằng cách thêm một cụm mật khẩu vào ví Bitcoin của bạn.
+question: Ví lạnh là gì?
+answer: Một ví trong một thiết bị vật lý lưu trữ các khóa của bạn và không được kết nối với internet.
 wrong_answers:
-  - Bằng cách thêm một khóa riêng thứ hai vào ví Bitcoin của bạn.
-  - Bằng cách thêm một khóa công khai thứ hai vào ví Bitcoin của bạn.
-  - Bằng cách thêm một cụm từ ghi nhớ thứ hai vào ví Bitcoin của bạn.
+  - Một ví mà khi chạm vào cảm thấy lạnh.
+  - Một ví không phổ biến trong số người dùng Bitcoin.
+  - Một ví được khuyên dùng để lưu trữ một lượng nhỏ bitcoin.
 explanation: |
-  Nếu bạn không hài lòng với mức độ bảo mật mặc định của
-  ví Bitcoin của mình, bạn luôn có thể tăng cường nó bằng cách thêm một
-  cụm mật khẩu vào ví Bitcoin của bạn.
+  Ví lạnh là thuật ngữ được dùng để mô tả một ví Bitcoin
+  được lưu trữ trên một thiết bị không kết nối với
+  internet. Điều này làm cho nó ít dễ bị đe dọa trực tuyến,
+  nhưng cũng có nghĩa là ví ít được truy cập hơn cho
+  các giao dịch hàng ngày.
 reviewed: true

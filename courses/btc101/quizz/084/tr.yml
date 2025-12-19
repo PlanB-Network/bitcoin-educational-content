@@ -1,11 +1,13 @@
-question: Bitcoin'a sahip olduğunuzda temel endişeniz ne olmalıdır?
-answer: Fonlarınızın güvenliği.
+question: Çevrimdışı veya Cold, fiziksel Wallet'ın önerilen kullanımı nedir?
+answer: Büyük miktarlarda depolama.
 wrong_answers:
-  - Bitcoin'in dolar cinsinden değeri.
-  - Bitcoin sahibi olmanın yasallığı.
-  - Fonlarınızı harcama izni.
+  - Günlük harcamaların saklanması.
+  - Küçük miktarların saklanması.
+  - Kısa vadeli birikimlerin saklanması.
 explanation: |
-  Bitcoin sahibi olduğunuzda, öncelikli endişe güvenliktir
-  fonlarınızın. Bunun nedeni, Bitcoin'nin diğer tüm formlar gibi
-  para birimi, uygun şekilde güvence altına alınmazsa çalınabilir veya kaybolabilir.
+  Çevrimdışı veya Cold, fiziksel Wallet aşağıdakiler için önerilir
+  daha az hassas olduğu için büyük miktarlarda depolamak
+  gW-4 cüzdanlarına göre çevrimiçi tehditler. Ancak, bu değil
+  daha az olduğu için günlük harcamalar için önerilir
+  günlük işlemler için erişilebilir.
 reviewed: true

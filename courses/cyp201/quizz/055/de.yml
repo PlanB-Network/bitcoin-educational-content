@@ -6,4 +6,4 @@ wrong_answers:
   - Vier Teile zu je 128 Bits
 explanation: |
   Die Ausgabe von HMAC-SHA512 wird in zwei Teile unterteilt: den Master-Privatschlüssel (256 Bits) und den Master-Chain-Code (256 Bits).
-reviewed: false
+reviewed: true

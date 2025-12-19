@@ -1,0 +1,9 @@
+question: Kes oli Bernardin de Saint-Pierre?
+answer: Pariisi loodusmuuseumi direktor 19. sajandi alguses.
+wrong_answers:
+  - Louis XIV minister.
+  - Prantsuse filosoof.
+  - Terroristlik revolutsionäär.
+explanation: |
+  Bernardin de Saint-Pierre (1737-1814) oli 19. sajandi alguses Pariisi Jardin des Plantes'i (loodusmuuseum) direktor. Ta on kõige paremini tuntud oma romaani "Paul et Virginie" ja looduskirjelduste poolest.
+reviewed: false

@@ -27,7 +27,7 @@ Para instalar Umbrel y configurar tu nodo Bitcoin, te recomendamos que sigas nue
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Asegúrate de que tu nodo Bitcoin está actualizado y funciona correctamente, ya que Lightning Network depende de él para todas las transacciones de off-chain.
 
@@ -57,7 +57,7 @@ Para una introducción teórica completa a Lightning Network, te recomendamos qu
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Este curso te proporcionará una base completa de los conceptos fundamentales de Lightning Network, antes de pasar a la práctica con tu nodo LND.
 
@@ -454,7 +454,7 @@ Estas opciones no son obligatorias, y la solución Tor + Zeus funciona bien en l
 
 
 
-> **Recursos útiles
+> **Recursos útiles**
 > - [Documentación de Zeus - Conexión a Umbrel](https://community.umbrel.com/t/zeus-LN-mobile/7619) - Guía oficial para conectar Zeus a Umbrel
 > - [Zeus GitHub](https://github.com/ZeusLN/zeus) - Proyecto de código abierto Zeus
 > - [Umbrel Community - Connecting Zeus via Tailscale](https://community.umbrel.com/t/how-to-use-tailscale-with-umbrel/6782) - Guía para conectar Zeus a Umbrel usando Tailscale
@@ -471,7 +471,7 @@ La gestión de un nodo Lightning autoalojado requiere una especial atención a l
 
 
 
-**Tipos esenciales de copias de seguridad
+**Tipos esenciales de copias de seguridad**
 
 
 
@@ -490,18 +490,18 @@ Tu nodo Lightning Umbrel requiere dos tipos de copias de seguridad:
 
 
 
-*archivo *Static Channel Backup (SCB)**
+**archivo Static Channel Backup (SCB)**
 
 
 
 
 - Contiene información sobre el canal de Lightning
 - Permite el cierre forzado del canal en caso de colisión
-- Importante:** Nunca guardes el archivo `channel.db` manualmente (riesgo de sanciones)
+- **Importante:** Nunca guardes el archivo `channel.db` manualmente (riesgo de sanciones)
 
 
 
-**Procedimiento de copia de seguridad manual
+**Procedimiento de copia de seguridad manual**
 
 
 
@@ -521,7 +521,7 @@ Para guardar tus canales manualmente:
 
 
 
-**Sistema de copia de seguridad automática
+**Sistema de copia de seguridad automática**
 
 
 
@@ -529,7 +529,7 @@ Umbrel cuenta con un sofisticado sistema de copia de seguridad automática que g
 
 
 
-*Protección de datos
+**Protección de datos**
 
 
 
@@ -614,7 +614,7 @@ Para saber más sobre la configuración y el uso de las torres de vigilancia, te
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 
 ### Otras buenas prácticas
 
@@ -622,7 +622,7 @@ https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5
 - **Actualizaciones de software:** Mantener Umbrel y LND al día (correcciones de seguridad)
 - **Protección del hardware:** Utiliza un sistema estable (Raspberry Pi con SSD, mini-PC) y un SAI
 - **Seguridad de la red:** Mantener configuración Tor por defecto, cambiar contraseña admin Umbrel (por defecto: "moneyprintergobrrr")
-- Cifrado:** Activa el cifrado de disco si es posible
+- **Cifrado:** Activa el cifrado de disco si es posible
 
 
 
@@ -690,10 +690,10 @@ RTL es una completa "navaja suiza" para administrar un nodo Lightning con un enf
 
 
 
-- Lightning Shell**: Línea de comandos (lncli) a través del navegador
-- Explorador BTC RPC y Mempool**: Supervisión Blockchain
-- LNmetrics y Torq**: Análisis del rendimiento de las rutas
-- Amboss y 1ML**: gestión "social" de tu nodo (alias, contactos, análisis de redes)
+- **Lightning Shell**: Línea de comandos (lncli) a través del navegador
+- **Explorador BTC RPC y Mempool**: Supervisión Blockchain
+- **LNmetrics y Torq**: Análisis del rendimiento de las rutas
+- **Amboss y 1ML**: gestión "social" de tu nodo (alias, contactos, análisis de redes)
 
 
 

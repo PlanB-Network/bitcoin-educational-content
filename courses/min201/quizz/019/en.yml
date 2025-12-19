@@ -1,5 +1,5 @@
 question: What is the significance of the Lightning Network in the context of Bitcoin mining?
-answer: The Lightning Network has the potential to significantly reduce transaction fees, thereby impacting miners' income.
+answer: The Lightning Network has the potential to significantly reduce transaction fees, thereby impacting the income of miners.
 wrong_answers:
   - The Lightning Network increases the block size, thereby increasing miners' income.
   - The Lightning Network reduces the energy consumption of Bitcoin mining.

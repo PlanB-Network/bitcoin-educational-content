@@ -1,11 +1,11 @@
-question: Hvilke av disse er ikke en fordel med Bitcoin som valuta?
-answer: Den brukes til å betale skatter
+question: Hva er det maksimale antallet Bitcoin-enheter som noensinne kan eksistere?
+answer: 21 millioner
 wrong_answers:
-  - Den er delelig
-  - Den er transportabel
-  - Det er tillatelsesfri penger
-explanation: >-
-  Bitcoin, på grunn av sine egenskaper som delelighet, verifiserbarhet, tillatelsesfrihet og transportabilitet, tilbyr
-  en utmerket verdioppbevaring. Videre, som en nøytral internettvaluta, representerer den
-  et godt byttemiddel som ikke kjenner noen grenser.
+  - 3 billioner
+  - 100 millioner
+  - Det er ingen grense
+explanation: |
+  Det totale tilbudet av Bitcoin er begrenset til 21 millioner enheter. Dette er en
+  nøkkelfunksjon ved Bitcoin som skiller den fra fiatvalutaer, som kan
+  trykkes i ubegrensede mengder av sentralbanker.
 reviewed: true

@@ -1,8 +1,8 @@
-question: 2017 年加密貨幣世界的重大事件是什麼？
-answer: 推出數以千計的首次代幣發行 (ICO)。
+question: Bitcoin 不是會消失的泡沫的原因之一是什麼？
+answer: 因為它是一種實際上在世界各地都在使用的貨幣。
 wrong_answers:
-  - 禁用 Bitcoin。
-  - 創建 Bitcoin。
-  - 所有加密貨幣的消失。
+  - 因為實際上沒有在任何地方使用。
+  - 因為它是由中央機關控制的。
+  - 因為它很容易偽造。
 explanation: >-
 reviewed: true

@@ -33,7 +33,7 @@ Since Blitz Wallet is a self-holding wallet of Bitcoin, you can choose to create
 Here, we're starting with the creation of a new wallet. See below for our recommendations on backing up your backup phrases.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**IMPORTANT**: These 12 / 24 recovery words are essential for access to your bitcoins. If you lose them, you will no longer be authorized to spend your bitcoins.
 
@@ -70,18 +70,18 @@ One of the special features of Blitz Wallet is that it supports different networ
 
 
 
-- Lightning Network** : One of the Bitcoin overlays that lets you perform microtransactions instantly.
+- **Lightning Network**: One of the Bitcoin overlays that lets you perform microtransactions instantly.
 
 
 
-- Bitcoin Mainnet** : The main chain of the Bitcoin protocol, suitable for large-value transactions.
+- **Bitcoin Mainnet**: The main chain of the Bitcoin protocol, suitable for large-value transactions.
 
 
 
-- Liquid Network**: A parallel chain to Bitcoin Mainnet developed by BlockStream that uses Liquid Bitcoins to carry out fast, confidential transactions.
+- **Liquid Network**: A parallel chain to Bitcoin Mainnet developed by BlockStream that uses Liquid Bitcoins to carry out fast, confidential transactions.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 By default, all your transactions will be on Liquid Network, but Blitz lets you define the network on which you wish to receive satoshis by clicking on the **Choose format** button.
 
@@ -126,29 +126,29 @@ In addition to bitcoin transfer operations, Blitz Wallet offers you a store wher
 
 
 
-- Access AI services**: Use generative artificial intelligence models such as: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 and pay directly in bitcoins.
+- **Access AI services**: Use generative artificial intelligence models such as: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 and pay directly in bitcoins.
 
 
 ![ia-credits](assets/fr/06.webp)
 
 
 
-- Send text messages anywhere in the world**: In the Blitz store, you have access to a GSM service that lets you send text messages anonymously anywhere in the world, with direct billing in Bitcoin.
+- **Send text messages anywhere in the world**: In the Blitz store, you have access to a GSM service that lets you send text messages anonymously anywhere in the world, with direct billing in Bitcoin.
 
 
 ![sms-credit](assets/fr/07.webp)
 
 
 
-- Surf in total confidentiality**: Pay for a WireGuard VPN (Virtual Private Network) subscription in the Wallet Blitz store with your bitcoins.
+- **Surf in total confidentiality**: Pay for a WireGuard VPN (Virtual Private Network) subscription in the Wallet Blitz store with your bitcoins.
 
 
 ![wireguard](assets/fr/08.webp)
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz behind the scenes: Going further
 
@@ -165,7 +165,7 @@ Blitz uses Liquid Network microexchanges to present your balance in Satoshi when
 This approach is justified by the desire to facilitate the start-up experience and help new users to carry out transactions on Lightning Network with small amounts as simply as possible.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 You can see the breakdown of your balance in the menu **Settings>Balance Info**.
 
@@ -186,7 +186,7 @@ By activating Lightning mode, once the main condition has been met (balance of 5
 
 
 
-- Accept Bitcoin in your shop** :
+- **Accept Bitcoin in your shop**:
 
 
 The integration of Bitcoin payments in shops is still in the experimental phase with Blitz Wallet. We recommend that you use it sparingly.
@@ -201,5 +201,4 @@ In the **Settings>Point-of-sale** menu, you can set the unique identifier associ
 If this tutorial helped you get to grips with Blitz, we're sure you'll enjoy the Muun wallet tutorial just as much. Discover Muun, a simple wallet just as powerful as Bitcoin.
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
-
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

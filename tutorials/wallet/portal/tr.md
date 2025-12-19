@@ -98,7 +98,7 @@ Bunu bir kağıda yazabilirsiniz veya daha fazla güvenlik için, yangından, se
 Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla bilgi için, özellikle de yeni başlayan biriyseniz, bu diğer öğreticiyi izlemenizi şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Tabii ki, benim bu eğitimde yaptığım gibi, bu kelimeleri asla internette paylaşmamalısınız. Bu örnek Wallet sadece Testnet üzerinde kullanılacak ve eğitimin sonunda silinecektir.**_
 
@@ -340,4 +340,4 @@ Tebrikler, artık Portal'ı kullanmayı öğrendiniz! Bu öğreticiyi faydalı b
 Daha fazla bilgi edinmek için HD cüzdanların nasıl çalıştığına dair eksiksiz eğitim kursumuza göz atın:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

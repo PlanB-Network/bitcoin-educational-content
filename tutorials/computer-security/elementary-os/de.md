@@ -1,5 +1,5 @@
 ---
-name: Elementare OS
+name: Elementary OS
 description: Der ideale Ersatz für Windows und MacOS
 ---
 
@@ -11,7 +11,7 @@ Elementary OS ist ein auf Ubuntu basierendes Betriebssystem, das für viele allt
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Warum Elementary OS wählen?
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Einfachheit und Benutzerfreundlichkeit**: Das grafische Interface von Elementary OS liegt in der Mitte zwischen dem von Mac OS und Windows. Diese Vertrautheit macht es auch für unerfahrene Benutzer leicht zu übernehmen.
+- **Einfachheit und Benutzerfreundlichkeit**: Das grafische Interface von Elementary OS liegt in der Mitte zwischen dem von Mac OS und Windows. Diese Vertrautheit macht es auch für unerfahrene Benutzer leicht zu übernehmen.
 
 
 
 
 
-- Sicherheit**: Wie die meisten Linux-Distributionen profitiert auch Elementary OS von einem hohen Sicherheitsniveau. Regelmäßige Updates, Rechteverwaltung und das Fehlen gängiger Viren machen es zu einem zuverlässigen System.
+- **Sicherheit**: Wie die meisten Linux-Distributionen profitiert auch Elementary OS von einem hohen Sicherheitsniveau. Regelmäßige Updates, Rechteverwaltung und das Fehlen gängiger Viren machen es zu einem zuverlässigen System.
 
 
 
 
 
-- Geschwindigkeit**: Elementary OS ist eine leichtgewichtige Distribution. Es benötigt nur wenige Ressourcen, wodurch es schnell und für Computer mit bescheidenen Konfigurationen geeignet ist.
+- **Geschwindigkeit**: Elementary OS ist eine leichtgewichtige Distribution. Es benötigt nur wenige Ressourcen, wodurch es schnell und für Computer mit bescheidenen Konfigurationen geeignet ist.
 
 
 
 
 
-- Kostenlos**: Das System ist völlig kostenlos. Wenn Sie es herunterladen, können Sie jedoch eine Spende machen, um die Entwickler zu unterstützen.
+- **Kostenlos**: Das System ist völlig kostenlos. Wenn Sie es herunterladen, können Sie jedoch eine Spende machen, um die Entwickler zu unterstützen.
 
 
 
 
 
-- Aktive Gemeinschaft**: Die Gemeinschaft rund um Elementary OS ist vielfältig und hilfsbereit. Wenn Sie auf Schwierigkeiten stoßen, können Sie in den Foren oder sozialen Netzwerken leicht Hilfe finden.
+- **Aktive Gemeinschaft**: Die Gemeinschaft rund um Elementary OS ist vielfältig und hilfsbereit. Wenn Sie auf Schwierigkeiten stoßen, können Sie in den Foren oder sozialen Netzwerken leicht Hilfe finden.
 
 
 
@@ -61,7 +61,7 @@ Bevor Sie mit der Installation beginnen, vergewissern Sie sich bitte, dass Sie �
 
 
 - Ein **USB-Stick** mit mindestens 12 GB
-- RAM**-Speicher von mindestens 4 GB
+- **RAM-Speicher** von mindestens 4 GB
 - Eine **Hard-Festplatte mit 20 GB** oder mehr für eine komfortable Nutzung
 
 
@@ -70,7 +70,7 @@ Bevor Sie mit der Installation beginnen, vergewissern Sie sich bitte, dass Sie �
 
 
 
-Besuchen Sie die offizielle Website des Betriebssystems [elementar] (https://elementary.io/) und wählen Sie einen Betrag zur Unterstützung des Projekts. Dieser Schritt ist freiwillig.
+Besuchen Sie die offizielle Website des Betriebssystems [elementar](https://elementary.io/) und wählen Sie einen Betrag zur Unterstützung des Projekts. Dieser Schritt ist freiwillig.
 
 
 Wenn Sie das ISO-Abbild kostenlos herunterladen möchten, geben Sie in das Feld **"Andere "** eine 0 ein und beginnen Sie mit dem Herunterladen des ISO-Abbilds des Systems.
@@ -89,7 +89,7 @@ Sobald Sie das ISO-Image heruntergeladen haben, müssen Sie es auf einem USB-Sti
 
 
 
-Laden Sie eine Software wie [Balena Etcher] (https://etcher.balena.io/) oder ein ähnliches Programm herunter und starten Sie die Software.
+Laden Sie eine Software wie [Balena Etcher](https://etcher.balena.io/) oder ein ähnliches Programm herunter und starten Sie die Software.
 
 
 Wählen Sie das zuvor heruntergeladene **Elementary OS** ISO-Image aus und legen Sie Ihren USB-Stick als Ziel fest.
@@ -380,4 +380,4 @@ Elementary OS ist jetzt auf Ihrem Computer installiert und läuft. Seine Philoso
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

@@ -1,0 +1,9 @@
+question: Kulingana na Leseni ya MIT ambayo Bitcoin Core inasambazwa, ni kizuizi gani kilichopo kuhusu usambazaji wa kazi zinazotokana?
+answer: Kazi zinazotolewa lazima zisambazwe chini ya masharti sawa na leseni ya programu asili
+wrong_answers:
+  - Kazi zinazotokana haziwezi kuuzwa kibiashara na lazima zisambazwe bila malipo
+  - Kazi zinazotokana zinahitaji ruhusa ya maandishi wazi kutoka kwa wasanidi wa Bitcoin Core kabla ya usambazaji
+  - Kazi zinazotokana lazima zijumuishe chapa asili ya Bitcoin Core na haziwezi kubadilishwa jina au kubadilishwa chapa
+explanation: |
+  Leseni ya MIT inahitaji kazi zinazotolewa zisambazwe chini ya masharti ya leseni sawa na programu asilia, kuhakikisha asili ya chanzo huria imehifadhiwa. Hii haikatazi uuzaji wa kibiashara (jibu lisilo sahihi la 1), hauhitaji ruhusa kutoka kwa wasanidi programu (jibu lisilo sahihi 2), na haiamuru kuweka chapa asili (jibu lisilo sahihi la 3). Leseni inasema mahsusi kuwa marekebisho na kazi zinazotokana lazima ziruhusiwe chini ya masharti sawa, kudumisha muundo usio na kibali wa ukuzaji unaowezesha uvumbuzi kama Lightning Network na minyororo ya kando.
+reviewed: false

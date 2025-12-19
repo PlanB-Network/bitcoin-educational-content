@@ -1,12 +1,12 @@
 ---
-name: Juhend Plan ₿ Network platvormi kohalikuks kasutamiseks
-description: Kuidas saab Plan ₿ Network kohalikus keskkonnas käivitada, et testida minu sisulist panust või haridusliku sisu korrektuuri/ülevaatust Plan ₿ Network-l?
+name: Juhend Plan ₿ Academy platvormi kohalikuks kasutamiseks
+description: Kuidas saab Plan ₿ Academy kohalikus keskkonnas käivitada, et testida minu sisulist panust või haridusliku sisu korrektuuri/ülevaatust Plan ₿ Academy-l?
 ---
 ![github](assets/cover.webp)
 
 ## Kokkuvõttes
 
-See õpetus annab samm-sammult juhiseid Bitcoin õpihaldussüsteemi seadistamiseks Plan ₿ Network-st oma kohalikul masinal, kasutades Dockerit, dummy võtmeid ja kohandatud repositooriumi konfiguratsioone.
+See õpetus annab samm-sammult juhiseid Bitcoin õpihaldussüsteemi seadistamiseks Plan ₿ Academy-st oma kohalikul masinal, kasutades Dockerit, dummy võtmeid ja kohandatud repositooriumi konfiguratsioone.
 
 Kui sa ei saanud ülaltoodud osast aru, siis ära muretse - see õpetus on mõeldud just sulle!
 
@@ -105,7 +105,7 @@ Kui konteinerid on käivitatud, pääsete frontendile aadressil:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Märkus: rakendus laadib automaatselt uuesti, kui muudate mis tahes lähtefaile.
 
@@ -141,7 +141,7 @@ siis jälle:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Kohandage hoidlat (valikuline)**
 

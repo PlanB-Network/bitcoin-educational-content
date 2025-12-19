@@ -1,0 +1,9 @@
+question: Jaký byl konkrétní problém s měkkými vidlicemi BIP66 fork, které Shaolinfry uvedl jako důkaz proti měkkým vidlicím aktivovaným horníky?
+answer: 95 % hashrate signalizovalo připravenost, ale asi polovina z nich ve skutečnosti neověřovala aktualizovaná pravidla a těžila na neplatném bloku
+wrong_answers:
+  - Těžaři odmítli signalizovat podporu navzdory obrovské poptávce uživatelů, což způsobilo, že se aktualizace zastavila na neurčito
+  - Malé procento těžařů vetovalo aktualizaci pro celou síť, přestože většina uživatelů ji podpořila
+  - Upgrade způsobil trvalé rozdělení řetězce, protože se těžaři a uživatelé neshodli na implementačních detailech
+explanation: |
+  Incident BIP66 odhalil kritickou chybu soft forků aktivovaných těžaři: signalizace připravenosti nezaručuje skutečnou validaci. Přestože 95 % těžařů signalizovalo, že jsou na aktualizaci připraveni, přibližně polovina z nich nová pravidla řádně nevalidovala a omylem těžila na neplatném bloku. To ukázalo, že signalizace síly hashe může být zavádějící a nezaručuje správnou implementaci, což byl jeden z klíčových argumentů Shaolinfryho pro návrh uživatelsky aktivovaných vidlic Soft jako spolehlivějšího mechanismu upgradu.
+reviewed: false

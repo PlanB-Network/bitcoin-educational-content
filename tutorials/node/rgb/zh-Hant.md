@@ -3,7 +3,7 @@ name: RGB
 description: RGB 上的介紹與資產建立
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 
 ## 引言

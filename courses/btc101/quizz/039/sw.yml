@@ -1,13 +1,13 @@
-question: Je, lengo kuu la kuundwa kwa Bitcoin ni lipi?
-answer: Kutenganisha serikali na pesa.
+question: Je, mfumo wa sasa wa kifedha unaweza kuwa na athari gani kwa watendaji wa kisiasa?
+answer: Hawana motisha ya kufanya mabadiliko makubwa, kuruhusu mfumo kuendelea na mkondo wake hadi uwezekano wa kutokea.
 wrong_answers:
-  - Ili kuondokana na kiwango cha dhahabu.
-  - Kufanya miamala haraka na kwa bei nafuu.
-  - Kufanya kila mtu kuwa tajiri.
+  - Wanahamasishwa kufanya mabadiliko makubwa ili kuzuia uwezekano wa kutokea.
+  - Hawana motisha ya kudumisha hali iliyopo ili kuhakikisha utajiri wao wenyewe.
+  - Wanahamasishwa kufikiria kwa muda mrefu.
 explanation: |
-  Bitcoin iliundwa kwa lengo la kutenganisha Jimbo
-  kutoka kwa pesa. Ni majibu ya changamoto za kimfumo za
-  mfumo wa sasa wa fedha, ambapo Serikali ina kamili
-  kudhibiti juu ya pesa Supply na inaweza kuibadilisha kuwa yake
-  faida mwenyewe.
+  Huku wahusika wa kisiasa wakinufaika na fedha za sasa
+  mfumo, hawana motisha ya kufanya mabadiliko makubwa.
+  Hii inaruhusu mfumo kuendelea na mkondo wake hadi a
+  uwezekano wa implosion, kama mfumo umewekwa na
+  kuzuiliwa ili kuepuka kuanguka kwake yenyewe.
 reviewed: true

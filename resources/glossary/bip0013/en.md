@@ -2,4 +2,4 @@
 term: BIP0013
 ---
 
-Introduces a standardized method for creating P2SH addresses. BIP13 specifies the P2SH address format, which starts with the prefix `3`, and includes the hash of a script rather than the hash of a public key. This type of address will remain the preferred standard for multisig wallets for a long time.
+This BIP Introduces a standardized method for creating P2SH addresses. BIP13 defined the P2SH address format, which starts with the prefix `3`, and contains the hash of a redeem script rather than the hash of a public key. This format became the preferred standard for multisignature wallets for many years.

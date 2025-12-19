@@ -1,10 +1,11 @@
-question: Berapa frekuensi penyesuaian kesulitan?
-answer: Setiap 2016 blok
+question: Di mana sebenarnya bitcoin disimpan?
+answer: Di blockchain Bitcoin
 wrong_answers:
-  - Setiap 1048 blok
-  - Setiap 512 blok
-  - Setiap 4032 blok
+  - Di dompet Bitcoin
+  - Di perangkat tempat dompet itu terpasang
+  - Di cadangan federal
 explanation: |
-  Penyesuaian kesulitan adalah mekanisme yang terjadi setiap
-  2016 blok, atau sekitar dua minggu, untuk memastikan bahwa, rata-rata, sebuah blok baru ditambahkan
-  ke blockchain setiap sepuluh menit terlepas dari hashrate global.
+  Meskipun kunci privat Anda disimpan di dalam dompet Anda, bitcoin itu sendiri
+  sebenarnya disimpan di blockchain Bitcoin, yang merupakan buku besar terdistribusi publik
+  dalam jaringan peer-to-peer Bitcoin.
+reviewed: true

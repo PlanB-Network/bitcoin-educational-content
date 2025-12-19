@@ -1,13 +1,10 @@
-question: Je, ni kipengele gani muhimu cha Bitcoin ambacho kinaitofautisha na sarafu za fiat?
-answer: Sera yake ya fedha inatekelezwa na makubaliano ya jumla.
+question: Ni nini athari ya mfumuko wa bei wa 20% kwenye nguvu ya ununuzi kwa miaka 3?
+answer: Unapoteza 50% ya uwezo wako wa kununua.
 wrong_answers:
-  - Inaweza kuchapishwa kwa kiasi cha ukomo na benki kuu.
-  - Inasaidiwa na bidhaa halisi kama dhahabu au fedha.
-  - Inadhibitiwa na benki kuu.
+  - Unapoteza 100% ya uwezo wako wa kununua.
+  - Unapoteza 60% ya uwezo wako wa kununua.
+  - Unapoteza 30% ya uwezo wako wa kununua.
 explanation: |
-  Kwa sababu ya ugatuzi wake na asili ya kriptografia,
-  Bitcoin haiwezi kughushiwa na imezuiwa kwa milioni 21
-  vitengo. Hiki ni kipengele muhimu kinachoitofautisha nayo
-  fedha za fiat, ambazo hufuata sera ya fedha ambayo inaweza kuwa
-  kubadilishwa na benki kuu.
+  Kwa mfumuko wa bei wa 20%, unapoteza karibu nusu ya ununuzi wako
+  nguvu katika miaka 3.
 reviewed: true

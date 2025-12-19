@@ -1,11 +1,10 @@
-question: Mis on hüperinflatsioon?
-answer: Drastiline suurenemine rahamassis
+question: Mis on hüperinflatsiooni teine faas?
+answer: Valuuta kokkuvarisemine & hinnatõus.
 wrong_answers:
-  - Tagasihoidlik suurenemine rahamassis
-  - Drastiline vähenemine rahamassis
-  - Tagasihoidlik vähenemine rahamassis
+  - Usalduse kaotus.
+  - Raha trükkimise nõiaring.
+  - Uue valuuta teke.
 explanation: |
-  Hüperinflatsioon on rahandusnähtus,
-  see iseloomustab drastilist inflatsiooni suurenemist raha trükkimise kaudu võimude poolt,
-  mis viib täieliku usalduse kaotamiseni valuutas
+  Hüperinflatsiooni teine faas on valuuta kokkuvarisemine & hinnatõus,
+  just pärast Usalduse Kaotuse Faasi.
 reviewed: true

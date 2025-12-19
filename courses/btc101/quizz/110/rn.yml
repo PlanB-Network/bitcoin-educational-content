@@ -1,11 +1,10 @@
-question: Blockmit ni iki mu bijanye n’umutekano wa Bitcoin?
-answer: Umuti w’igiciro gito wo gucapura ijambo ryawe rya Mnemonic ku gipande c’icuma.
+question: None Satoshi Nakamoto yazimiye ryari?
+answer: Muri 2010
 wrong_answers:
-  - Ubwoko bwa Bitcoin Wallet bwo gusinyana amasezerano menshi icarimwe.
-  - Umuti w’igiciro gito wo gucukura ama bitcoins muhira.
-  - Ubwoko bwa Bitcoin Wallet busaba amasinya menshi kugira ngo umuntu akoreshe UTXO.
+  - Muri 2008
+  - Muri 2009
+  - Muri 2023
 explanation: |
-  Blockmit ni umuti w’igiciro gito wo gucapura .
-  Mnemonic phrase ku kintu gikomeye nk’icuma, gutyo
-  gukingira ama bitcoins yawe mu gihe kirekire.
+  Satoshi Nakamoto yazimiye mu 2010, asiga ivyo yaremye .
+  mu maboko y’abanyagihugu.
 reviewed: true

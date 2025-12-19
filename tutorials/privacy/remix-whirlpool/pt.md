@@ -31,7 +31,7 @@ Esse indicador, chamado de "anonset prospectivo" em francês, "forward anonset" 
 Em segundo lugar, outro indicador pode ser calculado para avaliar a resistência de sua moeda a uma análise do presente para o passado. Ao conhecer sua UTXO no final dos ciclos, esse indicador determina o número de transações Tx0 potenciais que poderiam ter constituído sua entrada nos ciclos de coinjoin (análise do final para o início dos ciclos). Esse indicador mede o quão difícil é para um analista rastrear a origem de sua moeda depois que ela passou por coinjoins.![Fontes prováveis na entrada](assets/pt/5.webp)
 O nome desse indicador é "anonset retrospectivo" ou "métricas retrospectivas". Em francês, gosto de chamá-lo de "anonset rétrospectif". No diagrama abaixo, isso corresponde a todas as bolhas laranjas Tx0:
 ![anonset retrospectivo](assets/pt/6.webp)
-Para saber mais sobre o método de cálculo desses indicadores, recomendo ler [meu tópico no Twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) sobre esse assunto. Também estamos preparando um artigo mais abrangente na PlanB Network.
+Para saber mais sobre o método de cálculo desses indicadores, recomendo ler [meu tópico no Twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) sobre esse assunto. Também estamos preparando um artigo mais abrangente na Plan ₿ Academy.
 Estou ciente de que a resposta fornecida pode parecer insatisfatória, pois você esperava um número específico de remixes, e estou direcionando você para a documentação. A razão para isso é que o número de remixes não é um indicador confiável para avaliar o anonimato obtido em ciclos de coinjoin. Portanto, não é possível definir um número fixo de remixes como um limite de segurança absoluto e universal.
 
 É verdade que cada remix adicional da sua transação aumenta seus conjuntos de anonimato. No entanto, é importante entender que são principalmente os remixes realizados por seus pares que contribuem para o crescimento do seu anonset prospectivo. Com o modelo Whirlpool, sua transação pode alcançar níveis consideráveis de anonset prospectivo com apenas dois ou três ciclos de coinjoin, exclusivamente por meio da atividade de pares envolvidos em coinjoins anteriores.
@@ -51,10 +51,11 @@ Ele exibe uma pontuação retrospectiva de `34.593` e uma pontuação prospectiv
 
 Espero que esta resposta tenha esclarecido um pouco o modelo Whirlpool. Se você quiser saber mais sobre como os coinjoins funcionam no Bitcoin, recomendo a leitura do meu artigo abrangente sobre esse tópico: 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Recursos externos:**
 - Samourai Wallet Whirlpool
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.
+

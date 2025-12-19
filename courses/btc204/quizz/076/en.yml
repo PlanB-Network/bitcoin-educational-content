@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   The coinjoin transaction is a collaborative transaction in which multiple users mix their coins.
 
-reviewed: false
+reviewed: true

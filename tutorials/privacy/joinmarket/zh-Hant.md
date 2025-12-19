@@ -1,5 +1,5 @@
 ---
-name: 加入市場
+name: JoinMarket
 
 description: 如何使用 JoinMarket 透過指令行做 CoinJoin over Bitcoin 的指南與教學
 ---

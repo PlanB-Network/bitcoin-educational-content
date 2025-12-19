@@ -1,31 +1,31 @@
 ---
 name: Đóng góp - Hướng dẫn với GitHub Desktop (Trung cấp)
-description: Hướng dẫn đầy đủ để đề xuất hướng dẫn về Plan ₿ Network bằng GitHub Desktop
+description: Hướng dẫn đầy đủ để đề xuất hướng dẫn về Plan ₿ Academy bằng GitHub Desktop
 ---
 ![cover](assets/cover.webp)
 
 Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn phải hoàn thành một số bước sơ bộ. Nếu bạn chưa làm như vậy, tôi mời bạn tham khảo hướng dẫn giới thiệu này trước, sau đó quay lại đây:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 Bạn đã có:
 
 
 - Chọn chủ đề cho bài hướng dẫn của bạn;
-- Đã liên hệ với nhóm Plan ₿ Network qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc paolo@planb.network;
+- Đã liên hệ với nhóm Plan ₿ Academy qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc paolo@planb.network;
 - Chọn công cụ đóng góp của bạn.
 
-Trong hướng dẫn này, chúng ta sẽ xem cách thêm hướng dẫn của bạn vào Plan ₿ Network bằng cách thiết lập môi trường cục bộ của bạn với GitHub Desktop. Nếu bạn đã thành thạo với Git, hướng dẫn rất chi tiết này có thể không cần thiết đối với bạn. Tôi khuyên bạn nên tham khảo hướng dẫn khác này, trong đó tôi chỉ trình bày các hướng dẫn chính, không có hướng dẫn từng bước chi tiết:
+Trong hướng dẫn này, chúng ta sẽ xem cách thêm hướng dẫn của bạn vào Plan ₿ Academy bằng cách thiết lập môi trường cục bộ của bạn với GitHub Desktop. Nếu bạn đã thành thạo với Git, hướng dẫn rất chi tiết này có thể không cần thiết đối với bạn. Tôi khuyên bạn nên tham khảo hướng dẫn khác này, trong đó tôi chỉ trình bày các hướng dẫn chính, không có hướng dẫn từng bước chi tiết:
 
 
-- Người dùng có kinh nghiệm**:
+- **Người dùng có kinh nghiệm**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
+https://planb.academy/tutorials/contribution/content/write-tutorials-git-expert-0ce1e490-c28f-4c51-b7e0-9a6ac9728410
 Nếu bạn không muốn thiết lập môi trường cục bộ, hãy làm theo hướng dẫn này dành cho người mới bắt đầu, trong đó chúng tôi thực hiện các thay đổi trực tiếp thông qua giao diện web của GitHub:
 
 
-- Người mới bắt đầu (giao diện web)**:
+- **Người mới bắt đầu (giao diện web)**:
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 ## Điều kiện tiên quyết
 
 Phần mềm cần thiết để thực hiện hướng dẫn này:
@@ -41,18 +41,18 @@ Phần mềm cần thiết để thực hiện hướng dẫn này:
 
 
 - Có [tài khoản GitHub](https://github.com/signup);
-- Có một nhánh của [Kho lưu trữ nguồn Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content);
-- Có [hồ sơ giáo sư trên Plan₿ Network](https://planb.network/professors) (chỉ khi bạn đề xuất một bài hướng dẫn đầy đủ).
+- Có một nhánh của [Kho lưu trữ nguồn Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Có [hồ sơ giáo sư trên Plan ₿ Academy](https://planb.academy/professors) (chỉ khi bạn đề xuất một bài hướng dẫn đầy đủ).
 
 Nếu bạn cần trợ giúp để đạt được các điều kiện tiên quyết này, các hướng dẫn khác của tôi sẽ hỗ trợ bạn:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Khi mọi thứ đã sẵn sàng và môi trường cục bộ của bạn được thiết lập đúng cách với nhánh Plan ₿ Network của riêng bạn, bạn có thể bắt đầu thêm phần hướng dẫn.
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Khi mọi thứ đã sẵn sàng và môi trường cục bộ của bạn được thiết lập đúng cách với nhánh Plan ₿ Academy của riêng bạn, bạn có thể bắt đầu thêm phần hướng dẫn.
 
 
 ## 1 - Tạo một nhánh mới
 
-Mở trình duyệt của bạn và đi đến trang fork của bạn trong kho lưu trữ Plan ₿ Network. Đây là fork bạn đã thiết lập trên GitHub. URL của fork của bạn sẽ trông giống như sau: `https://github.com/[your-username]/bitcoin-educational-content`:
+Mở trình duyệt của bạn và đi đến trang fork của bạn trong kho lưu trữ Plan ₿ Academy. Đây là fork bạn đã thiết lập trên GitHub. URL của fork của bạn sẽ trông giống như sau: `https://github.com/[your-username]/bitcoin-educational-content`:
 
 ![TUTO](assets/fr/03.webp)
 
@@ -76,7 +76,7 @@ Nhấp vào nhánh này, sau đó nhấp vào nút `Nhánh mới`:
 
 ![TUTO](assets/fr/08.webp)
 
-Đảm bảo rằng nhánh mới dựa trên kho lưu trữ nguồn, cụ thể là `PlanB-Network/bitcoin-educational-content`.
+Đảm bảo rằng nhánh mới dựa trên kho lưu trữ nguồn, cụ thể là `Plan ₿ Academy/bitcoin-educational-content`.
 
 Đặt tên cho nhánh của bạn theo cách mà tiêu đề nêu rõ mục đích của nó, sử dụng dấu gạch ngang để phân tách từng từ. Ví dụ, giả sử mục tiêu của chúng ta là viết hướng dẫn sử dụng phần mềm Sparrow Wallet. Trong trường hợp này, nhánh làm việc dành riêng để viết hướng dẫn này có thể được đặt tên là: `tuto-sparrow-wallet-loic`. Sau khi nhập tên phù hợp, hãy nhấp vào `Create branch` để xác nhận việc tạo nhánh:
 
@@ -103,7 +103,7 @@ Bạn cần cài đặt trên máy của mình:
 
 - Python 3.8 trở lên.
 
-Để sử dụng tập lệnh, hãy điều hướng đến thư mục lưu trữ tập lệnh. Tập lệnh nằm trong kho dữ liệu Plan ₿ Network tại đường dẫn: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
+Để sử dụng tập lệnh, hãy điều hướng đến thư mục lưu trữ tập lệnh. Tập lệnh nằm trong kho dữ liệu Plan ₿ Academy tại đường dẫn: `bitcoin-educational-content/scripts/tutorial-related/data-creator`.
 
 Khi đã vào thư mục, hãy cài đặt các phần phụ thuộc:
 
@@ -144,7 +144,7 @@ Hành động này sẽ tự động điền UUID giáo sư của bạn vào tr�
 
 Nếu bạn chưa có hồ sơ giáo sư, hãy xem hướng dẫn này:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 Sau đó nhấp vào nút "Hướng dẫn mới".
 
 ![DATA-CREATOR-PY](assets/fr/42.webp)
@@ -161,13 +161,13 @@ Chọn tên cho thư mục được tạo riêng cho hướng dẫn của bạn.
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-`project_id` là UUID của công ty hoặc tổ chức đứng sau công cụ được đề cập trong hướng dẫn, có sẵn [trong danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, đối với hướng dẫn về Sparrow Wallet, bạn có thể tìm thấy `project_id` của nó trong tệp: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Network duy trì cơ sở dữ liệu về các công ty và tổ chức hoạt động trong Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` được liên kết, bạn liên kết nội dung của mình với thực thể có liên quan.
+`project_id` là UUID của công ty hoặc tổ chức đứng sau công cụ được đề cập trong hướng dẫn, có sẵn [trong danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, đối với hướng dẫn về Sparrow Wallet, bạn có thể tìm thấy `project_id` của nó trong tệp: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về các công ty và tổ chức hoạt động trong Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` được liên kết, bạn liên kết nội dung của mình với thực thể có liên quan.
 
 ***Cập nhật:*** Trong phiên bản mới của tập lệnh, bạn không cần phải nhập thủ công `project_id` nữa. Một chức năng tìm kiếm đã được thêm vào để tìm dự án theo tên và tự động lấy `project_id` tương ứng. Nhập phần đầu của tên dự án vào trường "Project Name" để tìm kiếm, sau đó chọn công ty mong muốn từ menu thả xuống. `project_id` sẽ tự động được điền vào trường bên dưới. Bạn cũng có thể nhập thủ công nếu cần.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Đối với thẻ, hãy chọn 2 hoặc 3 từ khóa có liên quan đến nội dung hướng dẫn của bạn, chỉ chọn từ [danh sách thẻ Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Phần mềm này cũng cung cấp chức năng tìm kiếm từ khóa với danh sách thả xuống.
+Đối với thẻ, hãy chọn 2 hoặc 3 từ khóa có liên quan đến nội dung hướng dẫn của bạn, chỉ chọn từ [danh sách thẻ Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Phần mềm này cũng cung cấp chức năng tìm kiếm từ khóa với danh sách thả xuống.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -183,7 +183,7 @@ Bây giờ bạn có thể bỏ qua phần phụ "Without my Python script" cũn
 
 Mở trình quản lý tệp của bạn và điều hướng đến thư mục `bitcoin-educational-content`, thư mục này đại diện cho bản sao cục bộ của kho lưu trữ của bạn. Bạn thường sẽ tìm thấy nó trong `Documents\GitHub\bitcoin-educational-content`.
 
-Trong thư mục này, bạn sẽ cần xác định vị trí thư mục con thích hợp để đặt hướng dẫn của mình. Tổ chức thư mục phản ánh các phần khác nhau của trang web Plan ₿ Network. Trong ví dụ của chúng tôi, vì chúng tôi muốn thêm hướng dẫn về Sparrow Wallet, chúng tôi nên điều hướng đến đường dẫn sau: `bitcoin-educational-content\tutorials\wallet`, tương ứng với phần `WALLET` trên trang web:
+Trong thư mục này, bạn sẽ cần xác định vị trí thư mục con thích hợp để đặt hướng dẫn của mình. Tổ chức thư mục phản ánh các phần khác nhau của trang web Plan ₿ Academy. Trong ví dụ của chúng tôi, vì chúng tôi muốn thêm hướng dẫn về Sparrow Wallet, chúng tôi nên điều hướng đến đường dẫn sau: `bitcoin-educational-content\tutorials\wallet`, tương ứng với phần `WALLET` trên trang web:
 
 ![TUTO](assets/fr/12.webp)
 
@@ -250,11 +250,11 @@ Dưới đây là các trường bắt buộc:
 
 - **id**: Một UUID (_Universally Unique Identifier_) cho phép xác định duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Điều kiện duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với một UUID khác trên nền tảng;
 
-- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Network duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
+- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
 
-- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Network (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Academy (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
 
 - **level**: Mức độ khó của hướng dẫn, được chọn từ:
     - `beginner`
@@ -275,7 +275,7 @@ Dưới đây là các trường bắt buộc:
 
 Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -378,16 +378,16 @@ Hình ảnh của bạn phải ở định dạng `.webp`. Nếu cần, bạn c�
 
 Dấu chấm than ở đầu cho biết đó là hình ảnh. Văn bản thay thế, hỗ trợ khả năng truy cập và SEO, được đặt giữa các dấu ngoặc. Cuối cùng, đường dẫn đến hình ảnh được chỉ ra giữa các dấu ngoặc đơn.
 
-Nếu bạn muốn tạo sơ đồ của riêng mình, hãy đảm bảo tuân thủ điều lệ đồ họa của Plan ₿ Network để đảm bảo tính nhất quán về mặt hình ảnh:
+Nếu bạn muốn tạo sơ đồ của riêng mình, hãy đảm bảo tuân thủ điều lệ đồ họa của Plan ₿ Academy để đảm bảo tính nhất quán về mặt hình ảnh:
 
 
-- Phông chữ**: Sử dụng [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
-- Màu sắc**:
+- **Phông chữ**: Sử dụng [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans);
+- **Màu sắc**:
  - Màu cam: #FF5C00
  - Đen: #000000
  - Trắng: #FFFFFF
 
-**Điều bắt buộc là tất cả hình ảnh tích hợp vào hướng dẫn của bạn phải không có bản quyền hoặc tôn trọng giấy phép của tệp nguồn**. Ngoài ra, tất cả các sơ đồ được xuất bản trên Plan ₿ Network đều được cung cấp theo giấy phép CC-BY-SA, theo cùng cách như văn bản.
+**Điều bắt buộc là tất cả hình ảnh tích hợp vào hướng dẫn của bạn phải không có bản quyền hoặc tôn trọng giấy phép của tệp nguồn**. Ngoài ra, tất cả các sơ đồ được xuất bản trên Plan ₿ Academy đều được cung cấp theo giấy phép CC-BY-SA, theo cùng cách như văn bản.
 
 **-> Mẹo:** Khi chia sẻ tệp công khai, chẳng hạn như hình ảnh, điều quan trọng là phải xóa mọi siêu dữ liệu không cần thiết. Những siêu dữ liệu này có thể chứa thông tin nhạy cảm, như dữ liệu vị trí, ngày tạo hoặc thông tin chi tiết về tác giả. Để bảo vệ quyền riêng tư của bạn, bạn nên xóa siêu dữ liệu này. Để đơn giản hóa quy trình này, bạn có thể sử dụng các công cụ chuyên dụng như [Exif Cleaner](https://exifcleaner.com/), cho phép dọn dẹp siêu dữ liệu của tài liệu thông qua thao tác kéo và thả đơn giản.
 
@@ -417,7 +417,7 @@ Bạn có thể kiểm tra lại lần cuối để đảm bảo rằng các s�
 
 ![TUTO](assets/fr/32.webp)
 
-Yêu cầu kéo là yêu cầu được thực hiện để tích hợp các thay đổi từ nhánh của bạn vào nhánh chính của kho lưu trữ Plan ₿ Network, cho phép xem xét và thảo luận về các thay đổi trước khi chúng được hợp nhất.
+Yêu cầu kéo là yêu cầu được thực hiện để tích hợp các thay đổi từ nhánh của bạn vào nhánh chính của kho lưu trữ Plan ₿ Academy, cho phép xem xét và thảo luận về các thay đổi trước khi chúng được hợp nhất.
 
 Bạn sẽ được tự động chuyển hướng đến trình duyệt của mình trên GitHub tới trang chuẩn bị cho Yêu cầu kéo của bạn:
 
@@ -427,7 +427,7 @@ Chỉ ra một tiêu đề tóm tắt ngắn gọn những thay đổi bạn mu�
 
 ![TUTO](assets/fr/34.webp)
 
-PR của bạn sau đó sẽ hiển thị trong tab `Pull Request` của kho lưu trữ Plan ₿ Network chính. Tất cả những gì bạn phải làm là đợi cho đến khi quản trị viên liên hệ với bạn để xác nhận việc hợp nhất đóng góp của bạn hoặc yêu cầu bất kỳ sửa đổi bổ sung nào.
+PR của bạn sau đó sẽ hiển thị trong tab `Pull Request` của kho lưu trữ Plan ₿ Academy chính. Tất cả những gì bạn phải làm là đợi cho đến khi quản trị viên liên hệ với bạn để xác nhận việc hợp nhất đóng góp của bạn hoặc yêu cầu bất kỳ sửa đổi bổ sung nào.
 
 ![TUTO](assets/fr/35.webp)
 
@@ -443,8 +443,7 @@ Nếu bạn muốn thay đổi nội dung đóng góp của mình sau khi đã n
 
 
 - Nếu PR của bạn vẫn mở và chưa được hợp nhất, hãy thực hiện các thay đổi cục bộ trong khi vẫn ở cùng một nhánh. Sau khi các sửa đổi được hoàn tất, hãy sử dụng nút `Push origin` để thêm một cam kết mới vào PR vẫn mở của bạn;
-- Nếu PR của bạn đã được hợp nhất với nhánh chính, bạn sẽ cần bắt đầu lại quy trình bằng cách tạo nhánh mới, sau đó gửi PR mới. Đảm bảo rằng kho lưu trữ cục bộ của bạn được đồng bộ hóa với kho lưu trữ nguồn Plan ₿ Network trước khi tiếp tục.
+- Nếu PR của bạn đã được hợp nhất với nhánh chính, bạn sẽ cần bắt đầu lại quy trình bằng cách tạo nhánh mới, sau đó gửi PR mới. Đảm bảo rằng kho lưu trữ cục bộ của bạn được đồng bộ hóa với kho lưu trữ nguồn Plan ₿ Academy trước khi tiếp tục.
 
 Nếu bạn gặp khó khăn về mặt kỹ thuật khi gửi bài hướng dẫn, đừng ngần ngại yêu cầu trợ giúp trên [nhóm Telegram chuyên dụng của chúng tôi để đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Cảm ơn bạn!
-
 

@@ -70,7 +70,7 @@ ECO104 kursuna hoş geldiniz!
 **Biz öyle bir dünyada yaşıyoruz ki:**
 
 
-i̇nsanların sadece [%20'si] (https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) "demokratik olarak özgür" kabul edilen toplumlarda yaşamaktadır Ancak, bu ayrıcalıklı kesimde bile, dondurulmuş banka hesaplarından sansüre kadar insan hakları ihlalleri giderek yaygınlaşıyor. Geriye kalan %80 ise kendilerini otoriter yönetimlerin tecavüzüyle boğuşurken buluyor. Sadece yirmi yıl önce, dünya nüfusunun neredeyse yarısı en temel özgürlüklerden yararlanıyordu.
+i̇nsanların sadece [%20'si](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) "demokratik olarak özgür" kabul edilen toplumlarda yaşamaktadır Ancak, bu ayrıcalıklı kesimde bile, dondurulmuş banka hesaplarından sansüre kadar insan hakları ihlalleri giderek yaygınlaşıyor. Geriye kalan %80 ise kendilerini otoriter yönetimlerin tecavüzüyle boğuşurken buluyor. Sadece yirmi yıl önce, dünya nüfusunun neredeyse yarısı en temel özgürlüklerden yararlanıyordu.
 
 
 ● [1.4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.) dünya çapında milyar yetişkin bankasız kalırken, sayısız diğer yetişkin de sınırlı bankacılık hizmetleriyle kısıtlı kalmaktadır.
@@ -79,7 +79,7 @@ i̇nsanların sadece [%20'si] (https://freedomhouse.org/sites/default/files/2022
 2022](https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/) sonunda, dünyanın neredeyse yarısı çift haneli enflasyon oranlarıyla karşı karşıya kaldı ve Hard ile kazanılan paranın değerini aşındırdı. Bunu bir perspektife oturtmak gerekirse, on yıl boyunca %10'luk bir enflasyon oranıyla, satın alma gücünüzün %65'ini kaybedersiniz.
 
 
-bu türden sürekli enflasyon dönemleri olmasa bile, tartışmasız en güçlü küresel para birimi olan ABD Doları, son yüzyılda [%96] (https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) satın alma gücü kaybına tanık olmuştur.
+bu türden sürekli enflasyon dönemleri olmasa bile, tartışmasız en güçlü küresel para birimi olan ABD Doları, son yüzyılda [%96](https://www.visualcapitalist.com/purchasing-power-of-the-u-s-dollar-over-time/) satın alma gücü kaybına tanık olmuştur.
 
 
 Bunlar küresel ekonomik ortamımızın acı gerçeklerinden bazılarıdır. Finansal sistemlerimiz, nüfusun çoğunluğunun ihtiyaçlarını karşılamakta ne yazık ki yetersiz kalmaktadır. Bu sistemler eşitsizliği sürdürmekte, birçok kişiyi dışlamakta ve küresel olarak milyarlarca insanı güçsüzleştirmektedir.
@@ -234,7 +234,7 @@ Paranın mal ve hizmet alım satımında etkili bir aracı olabilmesi için öyl
 **Bölünebilir: ** Bu, iyi bir Exchange aracının kritik bir özelliğidir ve paranın farklı büyüklükteki işlemleri kolaylaştırmak için daha küçük birimlere bölünebilme yeteneğini ifade eder. Örneğin, sadece büyük kupürler halinde paramız olsaydı küçük alışverişler yapmak zor olurdu. Bölünebilirlik, işlem boyutundan bağımsız olarak tam ödeme yapmamızı sağlayarak parayı günlük yaşamda daha kullanışlı ve pratik hale getirir. Esasen, bir para birimi ne kadar bölünebilir olursa, bireylerin kullanması ve işlem yapması o kadar kolay olur.
 
 
-**Kabul edilebilirlikten bahsettiğimizde, belirli bir para biçiminin yaygın olarak kabul edilip edilmediğine atıfta bulunuyoruz. Bu, insanların bu para biçimini mal ve hizmetler için bir Exchange aracı olarak kabul etmeye ve kullanmaya istekli oldukları anlamına gelir. Bir para birimi yaygın olarak kabul görüyorsa, mal ve hizmet alıp satmak için ortak bir para birimi olduğundan, insanların ticaret yapması daha kolay hale gelir. Bir para birimi ne kadar yaygın kabul görürse, daha fazla insan onu kullanmaya istekli olacağından o kadar değerli hale gelir. Tersine, bir para birimi yaygın olarak kabul görmezse, insanlar onu bir Exchange aracı olarak kabul etmekte tereddüt edeceğinden değerini kaybeder.
+**Kabul edilebilirlikten bahsettiğimizde, belirli bir para biçiminin yaygın olarak kabul edilip edilmediğine atıfta bulunuyoruz. Bu, insanların bu para biçimini mal ve hizmetler için bir Exchange aracı olarak kabul etmeye ve kullanmaya istekli oldukları anlamına gelir. Bir para birimi yaygın olarak kabul görüyorsa, mal ve hizmet alıp satmak için ortak bir para birimi olduğundan, insanların ticaret yapması daha kolay hale gelir. Bir para birimi ne kadar yaygın kabul görürse, daha fazla insan onu kullanmaya istekli olacağından o kadar değerli hale gelir. Tersine, bir para birimi yaygın olarak kabul görmezse, insanlar onu bir Exchange aracı olarak kabul etmekte tereddüt edeceğinden değerini kaybeder.**
 
 
 #### Hesap Birimi
@@ -273,7 +273,7 @@ Peki kullandığımız para nasıl evrim geçirerek bugün hayatımızın vazge�
 _**Kısa bir not:** Bu bölümün paranın evriminin kronolojik bir anlatımı olmadığını vurgulamak önemlidir. Bunun yerine, daha çok farklı para biçimlerinin yükselişi ve düşüşü üzerine eğitici bir yolculuktur. Bu Exchange araçlarının birçoğu aynı anda var olmuştur ve bazıları bugün hala bir şekilde, biçimde veya formda varlığını sürdürmektedir._
 
 
-Bu girişi okuduktan sonra merak edebilirsiniz: **Para neden zaman içinde evrim geçirmeli ve değişmelidir?
+Bu girişi okuduktan sonra merak edebilirsiniz: **Para neden zaman içinde evrim geçirmeli ve değişmelidir?**
 
 
 Cevap basit: toplum ve teknoloji ilerledikçe ihtiyaçlarımız ve isteklerimiz de değişiyor. İhtiyaçlarımız ve isteklerimiz değiştikçe, parayı nasıl kullandığımız ve ona nasıl değer verdiğimiz de değişiyor. Örneğin, eski zamanlarda insanlar Exchange mal ve hizmetlerini takas yoluyla temin ediyorlardı, ancak toplumlar daha karmaşık hale geldikçe, standart ve taşınabilir bir para birimine ihtiyaç duyulduğu anlaşıldı. Bu da madeni paraların geliştirilmesine yol açmış, daha sonra bunların yerini kağıt para ve son zamanlarda da dijital para birimleri almıştır. Paranın her iterasyonunun artıları ve eksileri vardır ve teknoloji ve toplum gelişmeye devam ettikçe, parayı nasıl kullandığımız ve değer verdiğimiz konusunda büyük olasılıkla daha fazla değişiklik göreceğiz.
@@ -334,7 +334,7 @@ Takas ticaretteki zayıflığını göstermeye başladıkça, hem bireyler hem d
 Önceden tanımlanmış bir Exchange aracı seçmenin en güzel yanı, toplulukların az bulunan ve bozulmayan bir şey seçebilmeleriydi, bu da onu daha dayanıklı bir değer deposu haline getiriyordu. Cam boncuklar, tuz ve deniz kabukları gibi şeyler sayıldıkları, oldukça dayanıklı oldukları ve çuvallarda taşınabildikleri için hızla rağbet görmeye başladı. Özellikle tuz, diğer şeylerin yanı sıra etleri iyileştirmek gibi bir faydası olduğu için popülerdi.
 
 
-Ancak seyahat kolaylaştıkça dünya açılmaya başladı ve insanlar bir bölgede kıt olan kaynakların diğer bölgelerde bol olduğunu fark etti. Bu durum sömürüye, Supply'in seyrelmesine yol açtı ve köle ticareti gibi olayları tetikledi. Örneğin, Afrika'yı keşfeden Avrupalı yerleşimciler, yerel toplulukların cam boncukları bir para biçimi olarak kullandığını gördüler. Avrupa'da cam üretiminin kolaylığı nedeniyle şaşkınlığa uğrayan yerleşimciler, bu boncuklardan büyük miktarlarda Afrika'ya getirerek değerlerini sulandırdılar. Hatta bazıları bu seyreltmenin, Afrika ekonomisinin çöküşüne katkıda bulunan [köle ticaretini] (https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f) ateşleyen tetikleyicilerden biri olduğunu iddia eder.
+Ancak seyahat kolaylaştıkça dünya açılmaya başladı ve insanlar bir bölgede kıt olan kaynakların diğer bölgelerde bol olduğunu fark etti. Bu durum sömürüye, Supply'in seyrelmesine yol açtı ve köle ticareti gibi olayları tetikledi. Örneğin, Afrika'yı keşfeden Avrupalı yerleşimciler, yerel toplulukların cam boncukları bir para biçimi olarak kullandığını gördüler. Avrupa'da cam üretiminin kolaylığı nedeniyle şaşkınlığa uğrayan yerleşimciler, bu boncuklardan büyük miktarlarda Afrika'ya getirerek değerlerini sulandırdılar. Hatta bazıları bu seyreltmenin, Afrika ekonomisinin çöküşüne katkıda bulunan [köle ticaretini](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f) ateşleyen tetikleyicilerden biri olduğunu iddia eder.
 
 
 Genel olarak emtia parası, yaygın olarak kabul gören standart bir Exchange aracı sağladığı için ticaretin ve ticaretin gelişmesinde önemli bir rol oynamıştır. Ancak toplumlar daha da geliştikçe, daha kullanışlı ve bölünebilir başka para biçimleri ortaya çıkmaya başladı.
@@ -433,7 +433,7 @@ Bitcoin, bir kriptografın çok sevdiğimiz parasal metallerin yeni ve geliştir
 Bitcoin'ü gerçekten benzersiz kılan şey, dijital bir taşıyıcı araç olmasıdır, yani aracılara veya güvenilir üçüncü taraflara ihtiyaç yoktur. Para politikası ekosisteme katılanlar tarafından kontrol edilir, bu da önceki para türlerinde olduğu gibi sulandırılmasını veya kurcalanmasını imkansız hale getirir. Bitcoin hükümetlerin ve merkez bankalarının kontrolü dışında var olduğundan, manipüle edilemediği için alternatif bir para sistemi olarak hızla yaygınlaşmaktadır.
 
 
-Bitcoin, başlangıcından bu yana parasal bir mal olarak kabul görmeye ve benimsenmeye devam etmiştir. Aslında, şu anda yılda [%137] (https://www.benzinga.com/markets/cryptocurrency/22/03/26114752/raoul-pal-declares-crypto-is-growing-far-faster-than-the-internet-says-Bitcoin-could-reach) oranında büyürken, aynı yaştaki internetin büyümesi için %76'ya kıyasla. Son yıllarda başka kripto para birimleri piyasaya sürülmüş olsa da, hiçbiri Bitcoin'in üstün bir parasal mal olma statüsüne meydan okuyamadı.
+Bitcoin, başlangıcından bu yana parasal bir mal olarak kabul görmeye ve benimsenmeye devam etmiştir. Aslında, şu anda yılda [%137](https://www.benzinga.com/markets/cryptocurrency/22/03/26114752/raoul-pal-declares-crypto-is-growing-far-faster-than-the-internet-says-Bitcoin-could-reach) oranında büyürken, aynı yaştaki internetin büyümesi için %76'ya kıyasla. Son yıllarda başka kripto para birimleri piyasaya sürülmüş olsa da, hiçbiri Bitcoin'in üstün bir parasal mal olma statüsüne meydan okuyamadı.
 
 
 Bazı muhalifler Bitcoin'nın yavaş olduğunu, işlem yapmanın pahalı olduğunu ve enerji israfına yol açtığını iddia ediyor, ancak bu kadar çabuk yargılamayalım. Peki ya size Bitcoin'nın para ve değer hakkındaki düşüncelerimizde bir paradigma değişikliğini temsil ettiğini söylesek?
@@ -463,10 +463,10 @@ Bu yolculuk boyunca paranın büyüleyici evrimini araştırdık ve takastan gü
 Ancak, gördüğümüz gibi, parasal evrimin yolu zorluklardan geçmedi. Coin kırpma ve para manipülasyonunun yükselişi, merkezileşmeye doğru ve genel kabul gören Exchange ortamından uzaklaşma, yol boyunca karşılaştığımız engellerden sadece birkaç örnektir.
 
 
-Geleceğe doğru ilerlerken kendimize şu soruyu sormalıyız: **kur manipülasyonu mali refahımızı nasıl etkilemeye devam edecek?
+Geleceğe doğru ilerlerken kendimize şu soruyu sormalıyız: **kur manipülasyonu mali refahımızı nasıl etkilemeye devam edecek?**
 
 
-Takastan emtiaya ve dijitalleştirilmiş para birimlerine geçerken kullanım kolaylığına öncelik verdiğimiz açık olsa da, **mükemmel para biçiminde en çok hangi özelliklere değer verdiğimizi yeniden düşünmeli miyiz?
+Takastan emtiaya ve dijitalleştirilmiş para birimlerine geçerken kullanım kolaylığına öncelik verdiğimiz açık olsa da, **mükemmel para biçiminde en çok hangi özelliklere değer verdiğimizi yeniden düşünmeli miyiz?**
 
 
 Bunlar, üzerinde dikkatle düşünülmesi ve kafa yorulması gereken karmaşık sorulardır. Ancak açık olan bir şey var ki o da paranın geleceğinin bizim ellerimizde olduğudur. Paramızı şekillendirme gücüne sahibiz ve paranın sadece parayı çıkaran kuruluşa ya da hükümetlerimize değil, toplumun ihtiyaçlarına hizmet etmesini sağlayabiliriz.
@@ -496,7 +496,7 @@ Günümüzde merkez bankaları, hazinenin yanı sıra, temelde paranın ve paras
 Merkez bankaları müdahalede bulunmaya karar verdiklerinde, havadan para basabilseler de değer yaratamazlar. Yeni basılan bu paranın bir değeri olması için, değerinin önceki para sahiplerinden gelmesi gerekir.
 
 
-**Supply parasını bir pizza olarak düşünün ve dört dilime bölündüğünü hayal edin. Supply parasını iki katına çıkarmak pizza miktarını iki katına çıkarmakla eşdeğer olmayacaktır. Bunun yerine, bu dört dilimi ikiye bölerek sekiz dilim oluşturmakla eşdeğer olacaktır. Ek bir pizza kazanmış olmayız. Sadece her biri daha küçük boyutta olan daha fazla dilimimiz olur.
+**Supply parasını bir pizza olarak düşünün ve dört dilime bölündüğünü hayal edin. Supply parasını iki katına çıkarmak pizza miktarını iki katına çıkarmakla eşdeğer olmayacaktır. Bunun yerine, bu dört dilimi ikiye bölerek sekiz dilim oluşturmakla eşdeğer olacaktır. Ek bir pizza kazanmış olmayız. Sadece her biri daha küçük boyutta olan daha fazla dilimimiz olur.**
 
 
 Daha fazla para bastığımızda, halihazırda var olan paranın değerini düşürmüş oluruz.
@@ -568,7 +568,7 @@ Ancak faiz oranlarındaki bu baskılamanın bir bedeli var: Sermayeyi daha kolay
 Bu dengeleme işi pek de planlandığı gibi gitmiyor
 
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Şekil [Borç ve GSYİH](https://www.longtermtrends.net/us-debt-to-gdp/)
@@ -628,7 +628,7 @@ Sosyal medyada ve haberlerde sürekli olarak yer alan, küresel ölçekte artan 
 2. Aşırı borç yükümüz nedeniyle hükümetler faiz oranlarını baskılamaya teşvik edilmektedir. Bunu yaparken de borç tüketimi, özellikle servet sahibi olanlar için daha cazip hale geliyor. Sermaye maliyeti bu kadar ucuz olduğunda, insanlar imkanlarının ötesinde borçlanarak varlıklara daha fazla sermaye akıtıyor ve fiyatları yükseltiyor. Bu, varlık sahipleri için harika bir durum; ancak fiyatlar, emlak merdivenine çıkmaya ya da finans piyasalarına adım atmaya çalışanlar için giderek daha ulaşılmaz hale geliyor. Basit bir kural olarak, faiz oranları düştükçe varlık fiyatları artar, çünkü sermaye daha serbestçe kullanılabilir.
 
 
-**Bu enflasyon servet eşitsizliğini nasıl artırıyor? Üst sınıfın varlık tuttuğu ve alt sınıfın para tutma eğiliminde olduğu düşünüldüğünde, paranın satın alma gücü azaldıkça ve varlıkların maliyeti giderek arttıkça, giderek daha fazla elde edilemez hale geldikçe, ortaya çıkan şey daha büyük bir servet eşitsizliğidir. Bu durum aşağıdaki "Şekil X "te görülebilir. Ücretlere kıyasla varlıkların değer kazanmasında önemli bir fark olduğunu fark edeceksiniz.
+**Bu enflasyon servet eşitsizliğini nasıl artırıyor?** Üst sınıfın varlık tuttuğu ve alt sınıfın para tutma eğiliminde olduğu düşünüldüğünde, paranın satın alma gücü azaldıkça ve varlıkların maliyeti giderek arttıkça, giderek daha fazla elde edilemez hale geldikçe, ortaya çıkan şey daha büyük bir servet eşitsizliğidir. Bu durum aşağıdaki "Şekil X"te görülebilir. Ücretlere kıyasla varlıkların değer kazanmasında önemli bir fark olduğunu fark edeceksiniz.
 
 
 **Varlık Sınıfına Göre Performans**
@@ -647,7 +647,7 @@ Sosyal medyada ve haberlerde sürekli olarak yer alan, küresel ölçekte artan 
 Ücretlerin varlık fiyatlarının gerisinde kalmasıyla birlikte, yakın tarihte alt sınıftan üst sınıfa en büyük servet transferlerinden birine şahit olduk
 
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 Şekil: Toplam [Net Değer] Payı (https://fred.stlouisfed.org/series/WFRBSN40188#0.)
@@ -771,12 +771,12 @@ Diğer önemli Cypherpunk'lar şunlardır:
 
 
 
-- Timothy May:** Cypherpunks posta listesinin kurucu üyesidir ve 90'lar boyunca ve 2000'lerin başında kriptografi ve gizlilik üzerine kapsamlı yazılar yazmıştır. Yazıları dijital gizlilik ve elektronik para sistemleri üzerine tartışmalara zemin hazırlamıştır.
-- Eric Huges:** Cypherpunks'ın bir diğer kurucu üyesi ve dijital çağda gizlilik ve anonimliğin önemini vurgulayan "A Cypherpunk's Manifesto "nun ortak yazarı.
-- Whitfield Diffie ve Martin Hellman:** Açık anahtarlı kriptografi kavramını geliştirerek güvenli internet iletişiminde devrim yarattılar.
-- Julian Assange:** Şeffaflık ve hesap verebilirliği teşvik etmek için gizli ve hassas bilgileri yayınlayan WikiLeaks'in kurucusu.
-- Bram Cohen:** İçerik dağıtımını merkezsizleştiren ve daha hızlı indirme sağlayan eşler arası dosya paylaşım protokolü BitTorrent'i yarattı.
-- John Gilmore:** Electronic Frontier Foundation'ın (EFF) kurucularından olan ve dijital hakları ve çevrimiçi gizliliği savunan bir girişimci ve özgürlükçü.
+- **Timothy May:** Cypherpunks posta listesinin kurucu üyesidir ve 90'lar boyunca ve 2000'lerin başında kriptografi ve gizlilik üzerine kapsamlı yazılar yazmıştır. Yazıları dijital gizlilik ve elektronik para sistemleri üzerine tartışmalara zemin hazırlamıştır.
+- **Eric Hughes:** Cypherpunks'ın bir diğer kurucu üyesi ve dijital çağda gizlilik ve anonimliğin önemini vurgulayan "A Cypherpunk's Manifesto"nun ortak yazarı.
+- **Whitfield Diffie ve Martin Hellman:** Açık anahtarlı kriptografi kavramını geliştirerek güvenli internet iletişiminde devrim yarattılar.
+- **Julian Assange:** Şeffaflık ve hesap verebilirliği teşvik etmek için gizli ve hassas bilgileri yayınlayan WikiLeaks'in kurucusu.
+- **Bram Cohen:** İçerik dağıtımını merkezsizleştiren ve daha hızlı indirme sağlayan eşler arası dosya paylaşım protokolü BitTorrent'i yarattı.
+- **John Gilmore:** Electronic Frontier Foundation'ın (EFF) kurucularından olan ve dijital hakları ve çevrimiçi gizliliği savunan bir girişimci ve özgürlükçü.
 
 
 ...ve liste uzayıp gidiyor.
@@ -818,13 +818,13 @@ Bitcoin yıkıcı potansiyeli ve benzersiz teknolojisiyle milyonların aklını 
 Her iki durumda da, efsane ve mitlere bir göz atalım.
 
 
-Satoshi Nakamoto 2008 yılında devrim niteliğinde bir fikirle internette ortaya çıktı: eşler arası elektronik nakit. Vizyonunu "Bitcoin: Eşler Arası Elektronik Nakit Sistemi" başlıklı [dokuz sayfalık bir makalede] (https://Bitcoin.org/Bitcoin.pdf) Cypherpunk posta listesiyle paylaştı. Çoğu e-posta listesi üyesinin başlangıçtaki ilgisizliğine rağmen, bu fikir bir üyede, sonunda Satoshi'e ulaşan Hal Finney'de yeterince merak uyandırdı. Hal'in Bitcoin'un geliştirilmesine katılımı bir dönüm noktası oldu ve daha fazla kişinin destek vermesine yol açtı.
+Satoshi Nakamoto 2008 yılında devrim niteliğinde bir fikirle internette ortaya çıktı: eşler arası elektronik nakit. Vizyonunu "Bitcoin: Eşler Arası Elektronik Nakit Sistemi" başlıklı [dokuz sayfalık bir makalede](https://Bitcoin.org/Bitcoin.pdf) Cypherpunk posta listesiyle paylaştı. Çoğu e-posta listesi üyesinin başlangıçtaki ilgisizliğine rağmen, bu fikir bir üyede, sonunda Satoshi'e ulaşan Hal Finney'de yeterince merak uyandırdı. Hal'in Bitcoin'un geliştirilmesine katılımı bir dönüm noktası oldu ve daha fazla kişinin destek vermesine yol açtı.
 
 
-Ancak, proje üzerinde iki yıl çalıştıktan sonra Satoshi, 23 Nisan 2011'de [son güvenilir iletişimi] (https://plan99.net/~mike/Satoshi-emails/thread5.html) ile "başka şeylere geçtiğini" belirterek iz bırakmadan ortadan kayboldu
+Ancak, proje üzerinde iki yıl çalıştıktan sonra Satoshi, 23 Nisan 2011'de [son güvenilir iletişimi](https://plan99.net/~mike/Satoshi-emails/thread5.html) ile "başka şeylere geçtiğini" belirterek iz bırakmadan ortadan kayboldu
 
 
-Satoshi Nakamoto'nun gizemli bir şekilde ortadan kaybolması, nereye gittiği konusunda çeşitli teorilerin ortaya atılmasına neden oldu. Bazıları, yapmak istediği şeyi başardığını düşündüğünü söylerken, diğerleri Bitcoin'ün çektiği ilgiden rahatsız olduğuna inanmaktadır. Aralık ayında [2010] (https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), WikiLeaks'in geleneksel ödeme yöntemlerini kullanması yasaklandığında, finansman için Bitcoin'e başvurdu. Satoshi'ün Bitcoin üzerindeki artan ilgi ve ABD'nin jeopolitik çıkarlarına müdahale etmek için kullanılan bir para birimi yaratmanın potansiyel yasal sonuçları hakkındaki endişeleri onu geri adım atmaya itmiş olabilir. Alternatif olarak, odağını başka projelere kaydırmış olabilir, başka isimler altında Bitcoin'e katkıda bulunmaya devam ediyor olabilir veya hatta vefat etmiş olabilir.
+Satoshi Nakamoto'nun gizemli bir şekilde ortadan kaybolması, nereye gittiği konusunda çeşitli teorilerin ortaya atılmasına neden oldu. Bazıları, yapmak istediği şeyi başardığını düşündüğünü söylerken, diğerleri Bitcoin'ün çektiği ilgiden rahatsız olduğuna inanmaktadır. Aralık ayında [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), WikiLeaks'in geleneksel ödeme yöntemlerini kullanması yasaklandığında, finansman için Bitcoin'e başvurdu. Satoshi'ün Bitcoin üzerindeki artan ilgi ve ABD'nin jeopolitik çıkarlarına müdahale etmek için kullanılan bir para birimi yaratmanın potansiyel yasal sonuçları hakkındaki endişeleri onu geri adım atmaya itmiş olabilir. Alternatif olarak, odağını başka projelere kaydırmış olabilir, başka isimler altında Bitcoin'e katkıda bulunmaya devam ediyor olabilir veya hatta vefat etmiş olabilir.
 
 
 Satoshi'nın kim olduğunu bilmesek de, Bitcoin'in arkasındaki niyetleri hakkında daha net bir resme sahibiz. Bitcoin'i 2008 Küresel Finansal Krizine ve bunun sonucunda geleneksel bankacılık sistemlerine ve devlet kontrolündeki para birimlerine duyulan güvensizliğe bir yanıt olarak yarattı.
@@ -854,11 +854,11 @@ Satoshi'nin gizemi Bitcoin'un tarihine entrika katarken, tartışamayacağımız
 
 
 
-- Peer-to-Peer:** Bitcoin, bireylerin bankalar veya ödeme işlemcileri gibi aracılara ihtiyaç duymadan doğrudan ödeme göndermesine ve almasına olanak tanır.
-- Merkezi olmayan:** Bitcoin merkezi olmayan bir ağ üzerinde çalışır, yani para birimi üzerinde merkezi bir otorite veya kontrol yoktur.
-- Güvenli:** Bitcoin işlemleri kriptografi kullanılarak güvence altına alınmıştır, bu da sahteciliği veya Double-spending madeni paralarını zorlaştırır.
-- Supply'de Sınırlı ve Bölünebilir:** Bitcoin'nın Supply'si sonludur - var olan sadece 21 milyon madeni para ile - aynı zamanda sekiz ondalık basamağa bölünebilir ve bir sentin bir kısmı için işlem yapılmasını sağlar. Bu kıtlık, para birimine değer kazandırmak ve enflasyonu önlemek için tasarlanmıştır.
-- Psuedoanonymous:** Bitcoin işlemleri tamamen anonim olmamakla birlikte, geleneksel ödeme yöntemlerinin sunmadığı bir gizlilik ve takma ad düzeyi sunar.
+- **Peer-to-Peer:** Bitcoin, bireylerin bankalar veya ödeme işlemcileri gibi aracılara ihtiyaç duymadan doğrudan ödeme göndermesine ve almasına olanak tanır.
+- **Merkezi olmayan:** Bitcoin merkezi olmayan bir ağ üzerinde çalışır, yani para birimi üzerinde merkezi bir otorite veya kontrol yoktur.
+- **Güvenli:** Bitcoin işlemleri kriptografi kullanılarak güvence altına alınmıştır, bu da sahteciliği veya Double-spending madeni paralarını zorlaştırır.
+- **Supply'de Sınırlı ve Bölünebilir:** Bitcoin'nın Supply'si sonludur - var olan sadece 21 milyon madeni para ile - aynı zamanda sekiz ondalık basamağa bölünebilir ve bir sentin bir kısmı için işlem yapılmasını sağlar. Bu kıtlık, para birimine değer kazandırmak ve enflasyonu önlemek için tasarlanmıştır.
+- **Psuedoanonymous:** Bitcoin işlemleri tamamen anonim olmamakla birlikte, geleneksel ödeme yöntemlerinin sunmadığı bir gizlilik ve takma ad düzeyi sunar.
 
 
 Bu noktalar bir araya geldiğinde, Bitcoin'un herkese finansal gizlilik, güvenlik ve minimum ücret ve sürtünme ile küresel olarak işlem yapma olanağı sunduğu anlamına gelir. Sonuç olarak Bitcoin, daha fazla ekonomik özgürlük ve özerklik arayanlar için güçlü bir araçtır. Bu, otoriter rejimler altında yaşamak, hiperenflasyon yaşamak, savaştan zarar görmüş ülkelerden kaçmak veya yurtdışındaki sevdiklerine para göndermek bir yana, güvenli bir tasarruf aracı arayanlar için oyunun kurallarını değiştiren bir araçtır. Bitcoin geleneksel para transferi yöntemlerine uygun fiyatlı bir alternatif sunduğundan, en çok ihtiyacı olanların eline daha fazla para geçmesini sağlar. Bitcoin ile herkes kendi bankası olabilir ve kendi finansal geleceğinin kontrolünü eline alabilir.
@@ -1039,9 +1039,9 @@ Birinci Modülden hatırlarsanız, paranın hem işlevlerine hem de özellikleri
 
 
 
-- Dayanıklı:** Bitcoin dijitaldir ve bu nedenle kağıt veya metal para birimleri gibi fiziksel hasara veya çürümeye maruz kalmaz. Ek olarak, merkezi olmayan yapısı, bir saldırı için tek bir başarısızlık noktası olmamasını sağlar.
-- Kıt: ** Bitcoin'in Supply'u kesinlikle 21 milyon jetonla sınırlıdır, bu da hükümetlerin sonsuza kadar basabileceği fiat para birimlerine kıyasla doğal olarak kıt olmasını sağlar. Bu sınırlı Supply, Bitcoin'in değerinin itibari para birimleriyle aynı enflasyonist baskılara maruz kalmadığı anlamına gelir.
-- Değişmezlik:** Bitcoin'in Blockchain teknolojisi, bir işlem ağa kaydedildikten sonra değiştirilememesini veya kurcalanamamasını sağlar. Bu düzeyde bir değişmezlik, çok daha fazla dolandırıcılık, sahtecilik veya işlemlerin tersine çevrilmesi ile karşılaşılan itibari para birimlerinde mümkün değildir.
+- **Dayanıklı:** Bitcoin dijitaldir ve bu nedenle kağıt veya metal para birimleri gibi fiziksel hasara veya çürümeye maruz kalmaz. Ek olarak, merkezi olmayan yapısı, bir saldırı için tek bir başarısızlık noktası olmamasını sağlar.
+- Kıt: **Bitcoin'in Supply'u kesinlikle 21 milyon jetonla sınırlıdır, bu da hükümetlerin sonsuza kadar basabileceği fiat para birimlerine kıyasla doğal olarak kıt olmasını sağlar.** Bu sınırlı Supply, Bitcoin'in değerinin itibari para birimleriyle aynı enflasyonist baskılara maruz kalmadığı anlamına gelir.
+- **Değişmezlik:** Bitcoin'in Blockchain teknolojisi, bir işlem ağa kaydedildikten sonra değiştirilememesini veya kurcalanamamasını sağlar. Bu düzeyde bir değişmezlik, çok daha fazla dolandırıcılık, sahtecilik veya işlemlerin tersine çevrilmesi ile karşılaşılan itibari para birimlerinde mümkün değildir.
 
 
 #### Exchange'nin ortamı
@@ -1051,9 +1051,9 @@ Bitcoin henüz itibari para birimleri kadar küresel çapta kabul görmese de, e
 
 
 
-- Taşınabilir:** Dijital olan Bitcoin, bireyler arasında sınırsız ve aracısız transferlere olanak tanıyarak Exchange'i kullanışlı ve erişilebilir bir araç haline getirir. Bazı itibari para birimleri de dijital çözümler sunarken, gelişmekte olan veya savaştan zarar görmüş ülkelerdeki kişiler bu ihtiyacı karşılayan bankacılık hizmetlerine erişmekte zorlanabilirler. Bitcoin'nın merkezi olmayan yapısı, onu internet bağlantısı olan herkes için erişilebilir kılmakta ve finansal hizmetlere sınırlı erişimi olan bölgelerde geleneksel bankacılık sistemlerine uygulanabilir bir alternatif sunmaktadır.
-- Bölünebilirlik:** Bitcoin'nin aşırı bölünebilirliği, bir para birimi olarak en önemli avantajlarından biridir. Her bir Bitcoin sekiz ondalık basamağa kadar bölünebilirken, en küçük birim olan bir Satoshi bir sentin sadece bir kesri değerindedir. İşlem yapma yöntemine bağlı olarak, yani Layer bir veya iki, bu Bitcoin'yi küçük alımlardan büyük yatırımlara kadar her boyuttaki işleme son derece uyarlanabilir hale getirir.
-- Kabul Edilenler:** Bitcoin'ün kabulü henüz evrensel olmasa da, dünyanın dört bir yanındaki tüccarlar, kurumlar ve bireyler tarafından giderek daha fazla benimsenmesi, meşru bir ödeme şekli olarak daha yaygın bir şekilde kabul edildiğini göstermektedir.
+- **Taşınabilir:** Dijital olan Bitcoin, bireyler arasında sınırsız ve aracısız transferlere olanak tanıyarak Exchange'i kullanışlı ve erişilebilir bir araç haline getirir. Bazı itibari para birimleri de dijital çözümler sunarken, gelişmekte olan veya savaştan zarar görmüş ülkelerdeki kişiler bu ihtiyacı karşılayan bankacılık hizmetlerine erişmekte zorlanabilirler. Bitcoin'nın merkezi olmayan yapısı, onu internet bağlantısı olan herkes için erişilebilir kılmakta ve finansal hizmetlere sınırlı erişimi olan bölgelerde geleneksel bankacılık sistemlerine uygulanabilir bir alternatif sunmaktadır.
+- **Bölünebilirlik:** Bitcoin'nin aşırı bölünebilirliği, bir para birimi olarak en önemli avantajlarından biridir. Her bir Bitcoin sekiz ondalık basamağa kadar bölünebilirken, en küçük birim olan bir Satoshi bir sentin sadece bir kesri değerindedir. İşlem yapma yöntemine bağlı olarak, yani Layer bir veya iki, bu Bitcoin'yi küçük alımlardan büyük yatırımlara kadar her boyuttaki işleme son derece uyarlanabilir hale getirir.
+- **Kabul Edilenler:** Bitcoin'ün kabulü henüz evrensel olmasa da, dünyanın dört bir yanındaki tüccarlar, kurumlar ve bireyler tarafından giderek daha fazla benimsenmesi, meşru bir ödeme şekli olarak daha yaygın bir şekilde kabul edildiğini göstermektedir.
 
 
 ### Hesap Birimi
@@ -1063,7 +1063,7 @@ Bitcoin, Exchange'in bir aracı olarak tanınmaya başladıkça, fiat para birim
 
 
 
-- Değiştirilebilir:** Her bir Bitcoin diğerlerinden ayırt edilemez, bu da kolayca değiştirilebilir olmasını sağlar; bu, benzersiz tanımlayıcılara sahip olabilen veya farklı kalitede olabilen fiziksel para birimleri için her zaman geçerli değildir.
+- **Değiştirilebilir:** Her bir Bitcoin diğerlerinden ayırt edilemez, bu da kolayca değiştirilebilir olmasını sağlar; bu, benzersiz tanımlayıcılara sahip olabilen veya farklı kalitede olabilen fiziksel para birimleri için her zaman geçerli değildir.
 
 
 ### Varlık vs Ağ
@@ -1168,7 +1168,7 @@ Bu bölümde, ister fiat ister Bitcoin olsun, işlem yapmanın farklı katmanlar
 Bitcoin'un Blockchain'u adından da anlaşılacağı gibi bloklardan oluşur. Bu blokların teorik olarak maksimum boyutu 4 megabayttır. bu sınır nedeniyle, Bitcoin'un saniyede yedi ila on işlem (tps) arasında olmak üzere saniyede kaç işlem gerçekleştirebileceği konusunda bir kısıtlama vardır.
 
 
-Bu nedenle merak edebilirsiniz: Bitcoin'nin Blockchain'i [1,700 tps] (https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44) hızında işlem yapan Visa veya Mastercard gibi ağlarla nasıl rekabet edebilir?
+Bu nedenle merak edebilirsiniz: Bitcoin'nin Blockchain'i [1,700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44) hızında işlem yapan Visa veya Mastercard gibi ağlarla nasıl rekabet edebilir?
 
 
 Cevap basit. Onlarla rekabet etmiyor.
@@ -1192,7 +1192,7 @@ Herhangi bir para sistemi incelendiğinde, genellikle işlem yapmanın farklı y
 **Layer Two:** Bu Layer tipik olarak daha küçük değerli yüksek hacimli işlemleri içerir ve saniyede birçok işlemin işlenmesini sağlar. Daha hızlı ve daha ucuz işlemler sağlar, ücretler genellikle işlem değerinin %1-3'ü civarındadır. Geleneksel para sistemindeki Layer iki işlemlerinin yaygın örnekleri kredi ve banka kartı ödemeleri, çevrimiçi ödeme hizmetleri ve hediye kartı işlemleridir.
 
 
-**Bitcoin Blockchain, Layer bir ve Layer iki işlemlerinin neresinde yer alıyor?
+**Bitcoin Blockchain, Layer bir ve Layer iki işlemlerinin neresinde yer alıyor?**
 
 
 Bitcoin Blockchain, Layer one işlemlerine harika bir alternatiftir. Layer iki Visa ödemesinin hızını yakalayamasa da, yüksek değerli işlemleri geleneksel Layer bir yöntemlerinin hız ve maliyetinin çok altında gerçekleştirebilir. Dahası, Bitcoin izinsiz ve Trustless bir şekilde çalışır, yani işlemler aracılar olmadan gerçekleştirilebilir.
@@ -1201,7 +1201,7 @@ Bitcoin Blockchain, Layer one işlemlerine harika bir alternatiftir. Layer iki V
 Ancak Layer tek çözüm olarak avantajlarına rağmen Bitcoin, Layer iki işlem yöntemiyle de rekabet edebilir. Lightning gibi Bitcoin ağının üzerine inşa edilen ve kullanıcıların neredeyse anında ve bir sentin kesirleri için işlem yapmasını sağlayan teknolojiler vardır. Bu teknolojiler Bitcoin ağı için Layer iki çözüm olarak düşünülebilir. Bunu akılda tutarak, tıpkı geleneksel para sistemimizin Layer bir ve iki işlemlerine sahip olması gibi, Bitcoin de öyle.
 
 
-Büyük miktarda para göndermenin makul ölçüde hızlı (ancak anında değil), uygun maliyetli ve güvenli bir yolunu arıyorsanız, Bitcoin Layer one en iyi seçeneğinizdir. Öte yandan, neredeyse anında ve bir sentin kesirleri için işlem yapmak istiyorsanız, dikkatinizi [Lightning] (https://lightning.network/) gibi yenilikleri içeren Bitcoin üzerine inşa edilmiş bazı teknolojilere yöneltmek isteyeceksiniz.
+Büyük miktarda para göndermenin makul ölçüde hızlı (ancak anında değil), uygun maliyetli ve güvenli bir yolunu arıyorsanız, Bitcoin Layer one en iyi seçeneğinizdir. Öte yandan, neredeyse anında ve bir sentin kesirleri için işlem yapmak istiyorsanız, dikkatinizi [Lightning](https://lightning.network/) gibi yenilikleri içeren Bitcoin üzerine inşa edilmiş bazı teknolojilere yöneltmek isteyeceksiniz.
 
 
 Bitcoin Lightning Network, Bitcoin Layer'ün üzerine inşa edilmiş bir Layer iki ölçeklendirme çözümüdür. Minimum ücretlerle neredeyse anında işlem yapılmasına olanak tanıyarak mikro işlemleri ve küçük satın alımları mümkün kılar.
@@ -1243,7 +1243,7 @@ Gözetim dışı cüzdanlar, fonlarınızın tek sorumlusu olduğunuz bir Bitcoi
 Gözetim dışı cüzdanlar, fonlarınızın güvenliğinden yalnızca siz sorumlu olduğunuz için gözetim cüzdanlarına göre daha yüksek düzeyde güvenlik ve gizlilik sunar. Gözetim dışı cüzdanlara örnek olarak [Coldcard](https://store.coinkite.com/store/coldcard) ve [Trezor](https://trezor.io/) gibi donanım cüzdanları verilebilir; bunlar özel anahtarlarınızı çevrimdışı olarak saklayan ve ekstra bir Layer güvenliği sağlayan fiziksel cihazlardır. Diğer popüler gözetim dışı cüzdanlar ise [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) ve [Blockstream Green](https://blockstream.com/Green/) gibi bilgisayarınıza veya mobil cihazınıza indirip kurabileceğiniz yazılım cüzdanlarıdır.
 
 
-\*_Belirli bir Wallet öneremesek de, ihtiyaçlarınıza ve tercihlerinize uygun bir Wallet seçmeyi içeren kendi kendine velayet veya ortak velayet yoluyla Bitcoin'inizin kontrolünü ele almanızı şiddetle tavsiye ederiz. Güvenlik ve kullanılabilirlik gereksinimlerinize uygun olduğundan emin olmak için bir Wallet'a karar vermeden önce kapsamlı bir araştırma yapmanız çok önemlidir._
+*Belirli bir Wallet öneremesek de, ihtiyaçlarınıza ve tercihlerinize uygun bir Wallet seçmeyi içeren kendi kendine velayet veya ortak velayet yoluyla Bitcoin'inizin kontrolünü ele almanızı şiddetle tavsiye ederiz. Güvenlik ve kullanılabilirlik gereksinimlerinize uygun olduğundan emin olmak için bir Wallet'a karar vermeden önce kapsamlı bir araştırma yapmanız çok önemlidir.*
 
 
 Saklama cüzdanları kullanışlı görünse de önemli riskleri de beraberinde getirir. Özel anahtarlarınızın velayetini üçüncü bir tarafa vererek, fonlarınız üzerindeki kontrolü etkin bir şekilde onlara vermiş olursunuz. Eğer emanetçi iflas eder, saldırıya uğrar ya da kapanırsa, Bitcoin'inize erişiminizi kaybedebilirsiniz. Bu durum, müşteri fonlarının kaybıyla sonuçlanan Mt. Gox ve QuadrigaCX hack'leri ya da FTX, Voyager, BlockFi ve Celsius'un müşteri fonlarının kaybına yol açan feci iflaslar yaşaması gibi yüksek profilli örneklerle sayısız kez gerçekleşmiştir. Özellikle tasarruflar için, öz saklama uygulamak ve Bitcoin'inizi korumak için sorumluluk almak çok önemlidir.
@@ -1279,7 +1279,7 @@ Ve eğer bir Exchange kullanıyorsanız:
 2. Mümkün olduğunda iki faktörlü kimlik doğrulamayı (2FA) etkinleştirin. Bu, şifrenize ek olarak telefonunuzdan veya donanım cihazınızdan bir kod gerektirerek ekstra bir Layer güvenlik ekler.
 
 
-Hala emin değilseniz, YouTube'da [BTCsessions] (https://www.youtube.com/c/BTCSessions) adresinden Ben'e göz atmanızı şiddetle tavsiye ederiz.
+Hala emin değilseniz, YouTube'da [BTCsessions](https://www.youtube.com/c/BTCSessions) adresinden Ben'e göz atmanızı şiddetle tavsiye ederiz.
 
 
 Unutmayın, büyük güç büyük sorumluluk getirir ve Bitcoin'ünüzü doğru bir şekilde güvence altına almak için zaman ayırmak finansal geleceğinizi korumak için çok önemlidir.
@@ -1298,7 +1298,7 @@ Bitcoin dünyasını daha fazla keşfetmekle ilgileniyorsanız, birçok seçenek
 
 2. **Mining:** Mining, Bitcoin ağına katkıda bulunmanın ve potansiyel olarak Bitcoin kazanmanın başka bir yoludur. Bir düğüm çalıştırmaktan biraz daha fazla kaynak gerektirse ve eskisi kadar kârlı olmasa da, Mining ağın teknik yönleriyle ilgilenenler için ödüllendirici bir etkinliktir.
 
-3. **Geliştirme:** Yazılım geliştirme konusunda deneyiminiz varsa ve Bitcoin'un geliştirilmesine katkıda bulunmakla ilgileniyorsanız, Bitcoin'un [GitHub] (https://github.com/Bitcoin/Bitcoin) deposu harika bir başlangıç noktasıdır.
+3. **Geliştirme:** Yazılım geliştirme konusunda deneyiminiz varsa ve Bitcoin'un geliştirilmesine katkıda bulunmakla ilgileniyorsanız, Bitcoin'un [GitHub](https://github.com/Bitcoin/Bitcoin) deposu harika bir başlangıç noktasıdır.
 
 
 İlgi alanlarınız ne olursa olsun, Bitcoin hakkında daha fazla bilgi edinmenize ve dahil olmanıza yardımcı olacak birçok kaynak mevcuttur.
@@ -1362,7 +1362,7 @@ Bitcoin'nın dijital yapısı göz önüne alındığında, her zaman iş için 
 Rakamları hesaplamaya başlayana kadar bu gerçekleri gözden kaçırmak kolaydır.
 
 
-İlk olarak, küresel olarak bireylerin [dörtte biri] (https://www.worldbank.org/en/publication/globalfindex) bankasız olarak kabul edilmektedir. Bu, bırakın güvenli bir şekilde tasarruf etmeyi, dijital olarak işlem yapamayan bir milyardan fazla kişi olduğu anlamına geliyor.
+İlk olarak, küresel olarak bireylerin [dörtte biri](https://www.worldbank.org/en/publication/globalfindex) bankasız olarak kabul edilmektedir. Bu, bırakın güvenli bir şekilde tasarruf etmeyi, dijital olarak işlem yapamayan bir milyardan fazla kişi olduğu anlamına geliyor.
 
 
 İkinci olarak, yılda 8760 saat hizmet verildiği ve ortalama bir bankanın sadece pazartesiden cumartesiye sabah 10'dan akşam 5'e kadar çalıştığı ve pazar günleri ile resmi tatillerde kapalı olduğu düşünüldüğünde, ortalama bir banka yılda sadece 2100 saat açık kalmaktadır. Bu da zamanın sadece %24'ü demek!
@@ -1374,7 +1374,7 @@ Dolayısıyla, bankacılık hizmetlerine ve yardım gerektirmeyen çevrimiçi ba
 Daha da kötüsü, nakde başvurmadığımız sürece tüm fonlarımız geleneksel bankacılığın kısıtlamalarına tabidir. Bu durum, Yunan hükümetinin 2015'teki iflası sırasında görüldüğü gibi, hükümetimizin zorlayıcı bir bankacılık reformu dayatması halinde önemli bir risk oluşturmaktadır.
 
 
-Bu kriz sırasında bankalar kapatıldı, ATM'lerden para çekme işlemleri günde sadece \67$ ile sınırlandırıldı ve tüm bunlara rağmen hükümet mali sorumsuzluğunu finanse etmek için bireylerin banka mevduatlarının önemli bir [kısmını] (https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) çekmeye devam etti.
+Bu kriz sırasında bankalar kapatıldı, ATM'lerden para çekme işlemleri günde sadece \67$ ile sınırlandırıldı ve tüm bunlara rağmen hükümet mali sorumsuzluğunu finanse etmek için bireylerin banka mevduatlarının önemli bir [kısmını](https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) çekmeye devam etti.
 
 
 Nakit para böyle bir krize geçici bir çözüm sağlayabilirken, dijital işlemlerin bir zorunluluk olduğu bir dünyada fiziksel para birimine güvenmek uzun vadede geçerli bir çözüm değildir.
@@ -1429,9 +1429,9 @@ Tether'in ortaya çıkmasından sonra, diğer birçok şirket ve girişim benzer
 
 
 
-- Tether'in USDt'si gibi itibari para destekli sabit coinler**, ABD doları veya Euro gibi geleneksel para birimleriyle desteklenir ve değerleri doğrudan temel itibari para biriminin değerine bağlıdır.
-- Emtia destekli sabit coinler** altın veya petrol gibi emtialarla desteklenir, örneğin Tether'in altın sabit coini XAUt,
-- Algoritmik sabit coinler** değerlerini korumak için bir dizi kurala veya algoritmaya dayanır. Bununla birlikte, tamamen algoritmik bir sabit coinin piyasada başarılı olduğunu henüz görmedik.
+- **Tether'in USDt'si gibi itibari para destekli sabit coinler**, ABD doları veya Euro gibi geleneksel para birimleriyle desteklenir ve değerleri doğrudan temel itibari para biriminin değerine bağlıdır.
+- **Emtia destekli sabit coinler** altın veya petrol gibi emtialarla desteklenir, örneğin Tether'in altın sabit coini XAUt,
+- **Algoritmik sabit coinler** değerlerini korumak için bir dizi kurala veya algoritmaya dayanır. Bununla birlikte, tamamen algoritmik bir sabit coinin piyasada başarılı olduğunu henüz görmedik.
 
 
 Sonuç olarak, toplumumuz gelişmeye devam ettikçe ve teknoloji ilerledikçe, parayla olan ilişkimiz de gelişiyor. Madeni paralardan dijital para birimlerine kadar, para ile etkileşim ve işlem yapma şeklimizde bir değişim gördük. Geleneksel bankacılık sistemlerinin sınırlamaları olsa da, Tether, stablecoin seçimi yoluyla bu zorluklara potansiyel bir çözüm sunuyor. Geleneksel para birimlerinin göreceli kısa vadeli istikrarını yerel dijital para birimlerinin esnekliği ve erişilebilirliği ile sağlayarak, sabit coinleri kullanıcılara paraları üzerinde daha fazla kontrol sunuyor. İster bankacılık hizmetlerine erişiminiz olmasın, ister hükümetin aşırı müdahalesiyle karşılaşın ya da sadece geleneksel bankacılık saatleri dışında işlem yapmanız gerekiyor olsun, USDt gibi sabit coinler güvenilir bir alternatif sağlayabilir. Sonuç olarak, hızla finansal sistemimizin ayrılmaz bir parçası haline geliyorlar.
@@ -1449,7 +1449,7 @@ _**Yan Not:** Bu terimlerden bazıları tam olarak anlam ifade etmiyorsa endişe
 Stablecoinler, Bitcoin gibi kripto paralara kısa vadede daha az değişken bir alternatif sunarak kripto para dünyasında popüler bir konu haline gelmiştir. Bu modülün giriş bölümünde ayrıntılı olarak açıklandığı üzere sabit coinler, itibari para birimi veya değerli metaller gibi istikrarlı bir varlığa sabitlenen ve istikrarlı bir değeri korumak için tasarlanmış dijital varlıklardır. Bu nedenle, stabilcoinlerin tarihini inceleyelim ve en iyi bilinen ve yaygın olarak kullanılan stabilcoin olan Tether'in USDt'si de dahil olmak üzere ilk stabilcoinlerden bazılarına daha yakından bakalım.
 
 
-eğlenceli Bilgi:** Bu yazının yazıldığı sırada, Tether'in USDt'si günlük işlem hacminde ortalama \20 milyar $'dır. Bu, Bitcoin'in son günlük 15 milyar dolarlık hacmini aşıyor. Ayrıca USDt, Bitcoin ve Ethereum'un ardından en büyük piyasa değeri için üçüncü sırada yer alıyor._
+**eğlenceli Bilgi:** Bu yazının yazıldığı sırada, Tether'in USDt'si günlük işlem hacminde ortalama 20 milyar $'dır. Bu, Bitcoin'in son günlük 15 milyar dolarlık hacmini aşıyor. Ayrıca USDt, Bitcoin ve Ethereum'un ardından en büyük piyasa değeri için üçüncü sırada yer alıyor.
 
 
 Sabit coin fikri kripto para biriminin ilk günlerine dayanmaktadır. 2012 yılında Mastercoin projesi tarafından varlık destekli sabit bir kripto para birimi kavramı ortaya atılmıştır. Ancak, 2014 yılında Bitshares ve NuBits gibi projelerin piyasaya sürülmesiyle stabilcoinler birkaç yıl sonra ivme kazandı.
@@ -1476,7 +1476,7 @@ Ancak, eleştirmenler hala Tether'in dolaşımdaki tüm USDt'yi desteklemek içi
 Bununla birlikte, bu tartışmalar ve rezervleriyle ilgili sorular karşısında USDt, başlangıcından bu yana fiyat istikrarını korumayı başardı. Sonuç olarak, diğerleri ortaya çıkmış ve pazar payı için rekabet etmiş olsa bile, piyasadaki en popüler stabilcoin olmaya devam etmektedir. Günümüzde, her biri istikrarlı bir değeri korumak için kendine özgü bir mekanizmaya sahip olan çok sayıda sabit coin mevcuttur.
 
 
-Ayrıca, stabilcoin piyasası büyüdükçe, Tether talebe ayak uydurmak için erişimini genişletti. Başlangıçta Tether, Omni "metaprotokolünü" kullanarak yalnızca Bitcoin Blockchain üzerinde USDt teklif etti, ancak pazar büyüdükçe ve On-Chain ölçeklenebilirlik sorunları daha belirgin hale geldikçe, Ethereum, Tron, Algorand ve diğerleri dahil olmak üzere diğer kripto para birimlerinin blok zincirlerinde USDt temsilleri [sunmaya] (https://tether.to/en/transparency/) başladı. Bugün, [RGB](https://www.rgbfaq.com/faq/what-is-RGB) ve [Pear Credit](https://tether.to/en/tether-holepunch-and-synonym-launch-pear-credit-a-P2P-credit-system/) aracılığıyla Tether'in sabit coinlerini bir kez daha Bitcoin'in üzerine eklemek için aktif araştırma ve geliştirme çalışmaları devam etmektedir. Tether ayrıca euro, yen ve Çin yuanı gibi farklı fiat para birimlerine sabitlenmiş yeni stabilcoin ürünleri de piyasaya sürdü.
+Ayrıca, stabilcoin piyasası büyüdükçe, Tether talebe ayak uydurmak için erişimini genişletti. Başlangıçta Tether, Omni "metaprotokolünü" kullanarak yalnızca Bitcoin Blockchain üzerinde USDt teklif etti, ancak pazar büyüdükçe ve On-Chain ölçeklenebilirlik sorunları daha belirgin hale geldikçe, Ethereum, Tron, Algorand ve diğerleri dahil olmak üzere diğer kripto para birimlerinin blok zincirlerinde USDt temsilleri [sunmaya](https://tether.to/en/transparency/) başladı. Bugün, [RGB](https://www.rgbfaq.com/faq/what-is-RGB) ve [Pear Credit](https://tether.to/en/tether-holepunch-and-synonym-launch-pear-credit-a-P2P-credit-system/) aracılığıyla Tether'in sabit coinlerini bir kez daha Bitcoin'in üzerine eklemek için aktif araştırma ve geliştirme çalışmaları devam etmektedir. Tether ayrıca euro, yen ve Çin yuanı gibi farklı fiat para birimlerine sabitlenmiş yeni stabilcoin ürünleri de piyasaya sürdü.
 
 
 Sonuç olarak, stabilcoinler başlangıcından bu yana uzun bir yol kat etmiştir. BitUSD ve NuBits'in ilk günlerinden Tether ürünlerinin ana akım popülerliğine ve diğer stabilcoinlerin ortaya çıkışına kadar, stabilcoin piyasası hızla gelişti. Tether'i çevreleyen tartışmalar, stabilcoin ihraç edenlerin şeffaflığı ve hesap verebilirliği konusunda endişeleri artırırken, stabilcoin piyasası büyümeye devam ederek Bitcoin'e küresel ve esnek bir köprü sunuyor. Ancak bu kolaylık, artan merkezileşme ve güvene dayanma pahasına gelmektedir.
@@ -1491,7 +1491,7 @@ Sonuç olarak, stabilcoinler başlangıcından bu yana uzun bir yol kat etmişti
 Şimdiye kadar açıkça görülmesi gerektiği gibi, bir stablecoin, temel bir pegged asset'ye dayalı olarak istikrarlı bir değeri korumak için tasarlanmış bir dijital token türüdür. Bu varlıklar fiat para birimi, değerli metaller, emtialar veya bunların bir kombinasyonunu (örneğin fiat para birimlerinden oluşan bir sepet) içerebilir.
 
 
-USDt gibi bir stablecoin'in amacı, yalnızca diğer kripto para birimlerinin değil, 2012 ile 2022 yılları arasında satın alma gücünün [%97'sini] (https://www.statista.com/statistics/316750/inflation-rate-in-argentina/) kaybeden Arjantin pezosu gibi diğer fiat para birimlerinin yaşadığı dalgalanmaya kıyasla nispeten istikrarlı bir dijital değer deposu sağlamaktır.
+USDt gibi bir stablecoin'in amacı, yalnızca diğer kripto para birimlerinin değil, 2012 ile 2022 yılları arasında satın alma gücünün [%97'sini](https://www.statista.com/statistics/316750/inflation-rate-in-argentina/) kaybeden Arjantin pezosu gibi diğer fiat para birimlerinin yaşadığı dalgalanmaya kıyasla nispeten istikrarlı bir dijital değer deposu sağlamaktır.
 
 
 Esasen bir stablecoin, geleneksel varlıklar ile Bitcoin arasında bir köprü görevi görerek kullanıcıların daha fazla güven ve öngörülebilirlikle işlem yapmasını sağlar.
@@ -1530,7 +1530,7 @@ Her ne kadar bu kurumların çoğu, güvenilir olduklarından emin olmak için s
 Örneğin, bu sabit coinler yalnızca merkezi bir ihraççıya değil, aynı zamanda rezervlerde tutulan para birimini yönetmek için finansal kurumlara da dayandığından, bu kuruluşlardan herhangi birinin başarısız olması durumunda, sabit coinin değerinde bir düşüş ve halkın ihraççıya olan güvenini kaybetme potansiyeli vardır.
 
 
-USDt'den sonra en popüler ikinci stabilcoin olan USDC'yi düşünün. Mart 2023'te Silicon Valley Bank [çöktüğünde] (https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank), USDC geçici olarak USD'ye 1:1 sabitlemesini kaybetti ve [\$0,88] (https://www.coingecko.com/en/coins/usd-Coin) kadar düşük işlem gördü. Bu, bir gecede %12'lik bir satın alma gücü kaybı anlamına geliyor ki bu da fiyatının sabit olması gereken bir şey için endişe verici.
+USDt'den sonra en popüler ikinci stabilcoin olan USDC'yi düşünün. Mart 2023'te Silicon Valley Bank [çöktüğünde](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank), USDC geçici olarak USD'ye 1:1 sabitlemesini kaybetti ve [\$0,88](https://www.coingecko.com/en/coins/usd-Coin) kadar düşük işlem gördü. Bu, bir gecede %12'lik bir satın alma gücü kaybı anlamına geliyor ki bu da fiyatının sabit olması gereken bir şey için endişe verici.
 
 Fiyattaki bu düşüşün arkasındaki neden, USDC'yi ihraç eden Circle'ın rezervlerinin bir kısmını Silicon Valley Bank'ta tutmasıydı. Sonuç olarak, insanlar bunu fark ettiklerinde, Circle'ın tüm itfa taleplerini karşılayamayacağı korkusuyla USDC varlıklarını satmaya başladılar. Neyse ki Circle için Federal Rezerv ve Federal Mevduat Sigorta Kurumu (FDIC) müdahale etti ve bankanın tüm mevduatlarını garanti altına aldı. Bu, Circle'ın rezervlerini kaybetmeyeceği anlamına geliyordu ve USDC hızla \$1'e yükseldi. Ancak, USDC'yi geçmişin bir kalıntısı olarak bırakarak kolayca başka bir yöne gidebilirdi. Bunu akılda tutarak, yatırım veya alım satım yapmayı seçmeden önce mevcut farklı sabit coinleri araştırmak önemlidir.
 
@@ -1568,7 +1568,7 @@ Bunun ışığında, artan karşı taraf riski için Exchange'da XAUt, fiziksel 
 İkinci olarak, kesirli Ownership'ye izin vererek yatırımcıların daha küçük miktarlarda altın satın almasını kolaylaştırır.
 
 
-**Fiziksel dünyada, 1900$ karşılığında bir ons altın satın almak pek çok kişi için ulaşılamaz olacaktır. Ancak bir ons altının 1/1000'i artık tokenlerin parçalanması yoluyla elde edilebilir. Dijital alemde, fiziksel alemde mümkün olmayan bir şey olan bir altın Dust spekti üzerinde hak iddia edilebilir.
+**Fiziksel dünyada, 1900$ karşılığında bir ons altın satın almak pek çok kişi için ulaşılamaz olacaktır. Ancak bir ons altının 1/1000'i artık tokenlerin parçalanması yoluyla elde edilebilir. Dijital alemde, fiziksel alemde mümkün olmayan bir şey olan bir altın Dust spekti üzerinde hak iddia edilebilir.**
 
 
 Son olarak, XAUt genellikle fiziksel altından daha fazla Liquid'tır, bu da kolayca fiat veya Bitcoin'a dönüştürülebileceği anlamına gelir ve yatırımcıların gerektiğinde varlıklarını hızlı bir şekilde likide etmelerini sağlar.
@@ -1622,7 +1622,7 @@ Sabit coinler "istikrarlı" yapıları nedeniyle genellikle güvenli kabul edils
 <chapterId>a6806b45-b92e-5791-8f5f-804098a522b2</chapterId>
 
 
-Son 70 yılda satın alma gücünün şaşırtıcı bir şekilde [%99,5] (https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) kaybeden CFA Frangı'nın mevcut tek para birimi olduğu kırsal bir Afrika köyünde yaşayan genç bir kadın olan Adanna ile tanışın - tasarruf etmeyi imkansız hale getiriyor.
+Son 70 yılda satın alma gücünün şaşırtıcı bir şekilde [%99,5](https://bitcoinmagazine.com/culture/Bitcoin-a-currency-of-decolonization) kaybeden CFA Frangı'nın mevcut tek para birimi olduğu kırsal bir Afrika köyünde yaşayan genç bir kadın olan Adanna ile tanışın - tasarruf etmeyi imkansız hale getiriyor.
 
 
 Adanna'nın parası üzerinde kontrol sahibi olma fikri her zaman ilgisini çekmiştir, ancak bu yakın zamana kadar imkânsız bir hayal olarak kalmıştır. Kullandığı para birimi, halkının çıkarlarını düşünmediğini gösteren kişiler tarafından denetleniyor ve kırsal konumu bankacılık hizmetlerine erişimini kısıtlıyor. Sonuç olarak, Adanna'nın fiziksel nakit paraya güvenmekten başka çaresi yok, bu da onu satın alma gücünün azalmasına ek olarak hırsızlık ve kayıplara karşı savunmasız bırakıyor.
@@ -1665,7 +1665,7 @@ Muhtemelen merak ediyorsunuzdur: Buradaki sorun nedir?
 Western Union gibi bir para transferi hizmeti aracılığıyla yurtdışına para göndermek ücretsiz değildir. Paraya mal olur ve sadece biraz değil, önemli bir miktar.
 
 
-100 ABD dolarının Tonga'ya geri gönderilmesi [\$12.61] (https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) maliyetine ve elverişsiz Exchange kuru nedeniyle \$8.60 ek kayba yol açmaktadır. Bu da gönderilen toplam tutarın %21'inden fazlasının çok uluslu bir şirket olan Western Union'a gittiği anlamına gelmektedir. Sonuç olarak, hak eden Tongalı ailelerin eline geçebilecek önemli bir meblağ, para transferi hizmeti sağlayıcısının cebine giriyor.
+100 ABD dolarının Tonga'ya geri gönderilmesi [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) maliyetine ve elverişsiz Exchange kuru nedeniyle \$8.60 ek kayba yol açmaktadır. Bu da gönderilen toplam tutarın %21'inden fazlasının çok uluslu bir şirket olan Western Union'a gittiği anlamına gelmektedir. Sonuç olarak, hak eden Tongalı ailelerin eline geçebilecek önemli bir meblağ, para transferi hizmeti sağlayıcısının cebine giriyor.
 
 Gelirinize fazladan %21'lik bir ekleme yapmanın faydalarını hayal edebiliyor musunuz?
 
@@ -1676,14 +1676,14 @@ Ayrıca, Tonga'nın GSYH'sinin 2021 yılında [\$469](https://tradingeconomics.c
 Tonga'nın bu konuda yalnız olduğunu düşünüyorsanız, bir daha düşünün.
 
 
-İşte Western Union'ın diğer bazı önde gelen ülkelere \100 ABD doları göndermek için ne kadar [ücret] (https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) aldığına dair bir örnek:
+İşte Western Union'ın diğer bazı önde gelen ülkelere \100 ABD doları göndermek için ne kadar [ücret](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) aldığına dair bir örnek:
 
 
 
-- Çin:** \$21,21 ücret + \$2,60 Exchange oran kaybı (%23,81 kayıp)
-- Kanada, ABD, Meksika:** \$16,86 ücret + \$1,20 Exchange oran kaybı (%18,06 kayıp)
-- Birleşik Krallık, Arnavutluk, Bosna, Sırbistan, Slovenya:** \$17,92 ücret + \$3,10 Exchange oran kaybı (%21,02 kayıp)
-- Okyanusya ve Güneydoğu Asya:** \$12,61 ücret + \$8,60 Exchange oran kaybı (%21,21 kayıp)
+- **Çin:** $21,21 ücret + $2,60 Exchange oran kaybı (%23,81 kayıp)
+- **Kanada, ABD, Meksika:** $16,86 ücret + $1,20 Exchange oran kaybı (%18,06 kayıp)
+- **Birleşik Krallık, Arnavutluk, Bosna, Sırbistan, Slovenya:** $17,92 ücret + $3,10 Exchange oran kaybı (%21,02 kayıp)
+- **Okyanusya ve Güneydoğu Asya:** $12,61 ücret + $8,60 Exchange oran kaybı (%21,21 kayıp)
 
 Bu, şu anda büyük ABD şirketlerinin elinde bulunan şaşırtıcı miktarda bir paradır. İşte USDt bu noktada devreye giriyor ve yüksek havale ücretleri sorununa bir çözüm sunuyor.
 
@@ -1709,7 +1709,7 @@ Adanna'nın hikayesinin de gösterdiği gibi, enflasyon dünya çapında sayıs�
 Çift haneli enflasyonun etkisini göstermek için, Ekim 2022'de Avrupa'nın yaşadığı gibi %10'luk bir enflasyon oranı, on yıl içinde satın alma gücünde %61,5'lik bir kayıp anlamına gelecektir.
 
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 
 _**Şekil:** Enflasyonun Satın Alma [Gücü] Üzerindeki Etkisi (https://anilsaidso.gumroad.com/)_
@@ -1927,7 +1927,7 @@ Eleştirmenler sıklıkla Bitcoin'nin volatilitesinin onu kötü bir yatırım s
 Ayrıca, Bitcoin'un oynaklığı benzersiz değildir. Geleneksel finans piyasalarında da borsa, emtia piyasası ve hatta para birimleri gibi varlık fiyatlarında dalgalanmalar yaşanmaktadır. Aslında, Bitcoin'un oynaklığı diğer birçok varlığa göre tartışmasız daha az şiddetlidir.
 
 
-Son olarak, Bitcoin'in aşırı değişken olduğu iddiası önemli bir hususu göz ardı etmektedir: Bitcoin'in değeri şu anda itibari para birimine bağlıdır. Bitcoin'in değerinde gözlemlenen dalgalanmalar, öncelikle dolar veya diğer para birimleri gibi temel ölçü biriminin doğasında var olan istikrarsızlıktan kaynaklanmaktadır. Lawrence White'ın [Better Money] (https://amzn.to/3NZnCTm) adlı kitabında uygun bir şekilde belirttiği gibi, bu fiyat dalgalanmaları büyük ölçüde insanların enflasyona karşı korunma arayışından kaynaklanmaktadır. Başka bir deyişle, merkez bankaları tarafından yönetilen kısmi rezerv sistemimizde, iktidar konumunda olanlar dolaşımdaki paranın Supply'sini değiştirme kapasitesine sahiptir. Sonuç olarak, parasal genişleme gibi para politikaları uyguladıklarında varlık fiyatları yükselmekte, sıkılaştırdıklarında ise fiyatlar düşmektedir. Bu kamçı etkisi, merkezi bir para sisteminin yan ürünüdür ve finansal piyasalarda belirsizlik ve istikrarsızlık yaratır. Sonuç olarak, Bitcoin'in volatilitesini fiat standardı altındaki davranışına göre değerlendirmek yanıltıcıdır. Özünde, sadece itibari para birimlerinin doğasında var olan oynaklığı vurgulamaktadır.
+Son olarak, Bitcoin'in aşırı değişken olduğu iddiası önemli bir hususu göz ardı etmektedir: Bitcoin'in değeri şu anda itibari para birimine bağlıdır. Bitcoin'in değerinde gözlemlenen dalgalanmalar, öncelikle dolar veya diğer para birimleri gibi temel ölçü biriminin doğasında var olan istikrarsızlıktan kaynaklanmaktadır. Lawrence White'ın [Better Money](https://amzn.to/3NZnCTm) adlı kitabında uygun bir şekilde belirttiği gibi, bu fiyat dalgalanmaları büyük ölçüde insanların enflasyona karşı korunma arayışından kaynaklanmaktadır. Başka bir deyişle, merkez bankaları tarafından yönetilen kısmi rezerv sistemimizde, iktidar konumunda olanlar dolaşımdaki paranın Supply'sini değiştirme kapasitesine sahiptir. Sonuç olarak, parasal genişleme gibi para politikaları uyguladıklarında varlık fiyatları yükselmekte, sıkılaştırdıklarında ise fiyatlar düşmektedir. Bu kamçı etkisi, merkezi bir para sisteminin yan ürünüdür ve finansal piyasalarda belirsizlik ve istikrarsızlık yaratır. Sonuç olarak, Bitcoin'in volatilitesini fiat standardı altındaki davranışına göre değerlendirmek yanıltıcıdır. Özünde, sadece itibari para birimlerinin doğasında var olan oynaklığı vurgulamaktadır.
 
 
 Buna karşılık Bitcoin, Supply'ün sabit olduğu ve merkezi bir otorite tarafından manipüle edilemediği merkezi olmayan bir ağ üzerinde çalışmaktadır. Bu, kısa vadede dalgalanma olabileceği anlamına gelse de, Bitcoin'ün Supply'ünün azlığı ve öngörülebilirliği büyük olasılıkla dalgalanmayı azaltacak ve uzun vadede istikrarı artıracaktır.
@@ -2021,7 +2021,7 @@ Ancak Bitcoin, Layer'in üzerine inşa edilen Lightning gibi teknolojilerle Laye
 Yanlış iddiaları çürüten çok sayıda çalışmaya rağmen, Bitcoin hala sıklıkla öncelikle yasadışı faaliyetler için kullanıldığı yönünde eleştirilmektedir. Bir kez daha, bu gerçeklerden daha uzak olamazdı.
 
 
-CIA'in eski direktör yardımcısı tarafından yürütülen bir [çalışma] (https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), "Bitcoin'in yasadışı finansmanda kullanımına ilişkin geniş genellemelerin önemli ölçüde abartıldığını" ortaya koymuştur Aslında 2016'dan bu yana Bitcoin'in toplam işlem hacminin %1'inden daha azı yasadışı faaliyetler için kullanılmıştır. Buna kıyasla, "bazıları yeraltı ekonomisinin ABD gayrisafi yurtiçi [hasılasının] %11 ila %12'sini oluşturduğunu belirtmektedir (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)" ve bunun büyük bir kısmı ABD doları kullanılarak gerçekleştirilmektedir.
+CIA'in eski direktör yardımcısı tarafından yürütülen bir [çalışma](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), "Bitcoin'in yasadışı finansmanda kullanımına ilişkin geniş genellemelerin önemli ölçüde abartıldığını" ortaya koymuştur Aslında 2016'dan bu yana Bitcoin'in toplam işlem hacminin %1'inden daha azı yasadışı faaliyetler için kullanılmıştır. Buna kıyasla, "bazıları yeraltı ekonomisinin ABD gayrisafi yurtiçi [hasılasının] %11 ila %12'sini oluşturduğunu belirtmektedir (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)" ve bunun büyük bir kısmı ABD doları kullanılarak gerçekleştirilmektedir.
 
 
 Chainalysis tarafından 2020 yılında yayınlanan bir rapora göre, yasadışı faaliyetler tüm Bitcoin işlemlerinin yalnızca [%0,34'ünü] oluşturmaktadır (https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf).
@@ -2084,7 +2084,7 @@ Bunu akılda tutarak, üç noktayı tartışmak istiyoruz:
 3. **Adil Karşılaştırmalar:** Bitcoin'in enerji kullanımını diğer sektörlerle karşılaştırarak daha dengeli bir bakış açısı kazanabilir ve aleyhindeki iddiaların geçerliliğini değerlendirebiliriz.
 
 
-Ama önce, göze batan soruyu yanıtlayalım: **Bitcoin neden enerji tüketiyor?
+Ama önce, göze batan soruyu yanıtlayalım: **Bitcoin neden enerji tüketiyor?**
 
 
 Mining fiziksel altın için enerji tüketilmesine benzer şekilde, Bitcoin madencileri de Bitcoin elde etmek için enerji tüketmektedir. Gerçek dünyadaki bu enerji gereksinimi, aksi takdirde maddi olmayan bir dijital varlığı fiziksel dünyaya bağlar. Dahası, Bitcoin ağını güvence altına almak için küresel olarak enerji harcayan geniş madenci ağıyla, Bitcoin elde etmek için enerji tüketimi, merkezileşmeye ve gereksiz manipülasyona karşı güçlü bir savunma mekanizması görevi görür. Bu nedenle, küresel olarak dağıtılmış sayısız madenciyle rekabet etmek zorunda kalacakları için merkezi varlıkların ağı ele geçirmesi veya kuralları kendi lehlerine manipüle etmesi son derece zordur.
@@ -2138,7 +2138,7 @@ Ancak artık enerji üreticileri, aksi takdirde boşa gidecek olan bu atıl ener
 Son olarak, Bitcoin madencileri kârları enerji maliyetine bağlı olduğu için ucuz enerji kaynakları aramaya motive olmuşlardır. Sonuç olarak, aktif olarak karaya oturmuş enerjiyi veya aksi takdirde kullanılmayacak olan diğer enerji türlerini ararlar. Kayda değer bir örnek, petrol şirketleri yerden petrol çıkardıklarında açığa çıkan parlama gazıdır. Flare gazı bu sürecin bir yan ürünüdür ve yakalanmasıyla ilgili yüksek maliyet nedeniyle genellikle yakılır. Flaring olarak bilinen bu uygulama sadece enerji israfına yol açmakla kalmaz, aynı zamanda atmosfere metan ve diğer çeşitli gazların salınmasına da neden olur.
 
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 
 _**Şekil:** Flare [Gaz](https://arstechnica.com/science/2022/09/oil-industry-flaring-less-effective-than-thought-study/)_
@@ -2147,7 +2147,7 @@ _**Şekil:** Flare [Gaz](https://arstechnica.com/science/2022/09/oil-industry-fl
 Ancak Bitcoin ile mühendisler, aksi takdirde boşa harcanacak olan bu doğal gazı Bitcoin madencilerine güç sağlayacak enerjiye dönüştürerek kullanmanın bir yolunu bulmuşlardır. Bu buluş sadece bu şirketler için ek bir gelir akışı sağlamakla kalmıyor, aynı zamanda önemli çevresel faydalar da sağlıyor. Bu şirketler, Bitcoin Mining için parlama gazını generate elektriğine dönüştürerek, aksi takdirde soluduğumuz havayı kirletecek olan [emisyonları azaltabilir](https://batcoinz.com/quantifying-the-impact-of-using-stranded-methane-on-the-Bitcoin-network/). Özünde, Bitcoin bu senaryoda emisyonları azaltma ve daha önce atılmış enerji kaynaklarını verimli bir şekilde kullanma aracı sunarak karbon-negatiftir.
 
 
-Sonuç olarak, Bitcoin madencilerinin genellikle yenilenebilir enerjiyi tercih eden uygun maliyetli enerji kaynakları aramaya teşvik edildiği göz önüne alındığında, Bitcoin endüstriler ve hatta ülkeler arasında [en sürdürülebilir] (https://bitcoinminingcouncil.com/wp-content/uploads/2021/07/2021.07.01-BMC-Q2-2021-Materials.pdf) enerji karışımlarından birine sahiptir. Dolayısıyla, bir dahaki sefere birisi Bitcoin'nin çevresel ayak iziyle ilgili endişelerini dile getirdiğinde, Bitcoin'nin sürdürülebilir enerji uygulamalarının ön saflarında yer aldığı gerçeğiyle güvenle karşı koyabilirsiniz.
+Sonuç olarak, Bitcoin madencilerinin genellikle yenilenebilir enerjiyi tercih eden uygun maliyetli enerji kaynakları aramaya teşvik edildiği göz önüne alındığında, Bitcoin endüstriler ve hatta ülkeler arasında [en sürdürülebilir](https://bitcoinminingcouncil.com/wp-content/uploads/2021/07/2021.07.01-BMC-Q2-2021-Materials.pdf) enerji karışımlarından birine sahiptir. Dolayısıyla, bir dahaki sefere birisi Bitcoin'nin çevresel ayak iziyle ilgili endişelerini dile getirdiğinde, Bitcoin'nin sürdürülebilir enerji uygulamalarının ön saflarında yer aldığı gerçeğiyle güvenle karşı koyabilirsiniz.
 
 
 Ve son olarak
@@ -2156,14 +2156,14 @@ Ve son olarak
 #### Adil Karşılaştırmalar
 
 
-Şunu söyleyerek başlamak istiyoruz: *farkında olsak da olmasak da *Her şey enerji tüketir**. Köpeğinizle koşmak gibi basit bir eylem bile, hem kendinize hem de tüylü dostunuza yakıt sağlamanızı gerektirir. Hem siz hem de köpeğiniz enerji tüketicisisiniz.
+Şunu söyleyerek başlamak istiyoruz: *farkında olsak da olmasak da* **Her şey enerji tüketir**. Köpeğinizle koşmak gibi basit bir eylem bile, hem kendinize hem de tüylü dostunuza yakıt sağlamanızı gerektirir. Hem siz hem de köpeğiniz enerji tüketicisisiniz.
 
 
 Amacımız diğer sektörleri enerji tüketimleri nedeniyle eleştirmek değildir, çünkü yukarıda da belirtildiği gibi enerji kullanımı insanların sunulan hizmet veya ürünlerde bulduğu değeri ifade etmektedir. Ancak, Bitcoin'in enerji kullanımını bir perspektife oturtmak önemlidir. Aşağıdaki [karşılaştırmaları] göz önünde bulundurun (https://bitcoinmagazine.com/business/Bitcoin-energy-use-compare-industry):
 
 
 
-- Çamaşır makineleri Bitcoin'ye göre [%18] (https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) daha fazla enerji tüketir.
+- Çamaşır makineleri Bitcoin'ye göre [%18](https://energypedia.info/wiki/The_Overall_Worldwide_Saving_Potential_from_Domestic_Washing_Machines#:~:text=Today%2C%20840%20million%20domestic%20washing,about%2019%20km3%20of%20water.) daha fazla enerji tüketir.
 - Altın Mining ve mücevher üretimi Bitcoin'e göre on kat daha fazla enerji tüketmektedir.
 - Deniz taşımacılığı Bitcoin'e göre 51 kat daha fazla enerji tüketmektedir.
 - Finans ve sigorta sektörü Bitcoin'dan 62 kat daha fazla enerji tüketmektedir.
@@ -2226,7 +2226,7 @@ Bir başka yaygın eleştiri de sabit coinlerin genellikle tam olarak nakitle de
 İlk olarak, stabilcoin ihraççıları genellikle nakit tutmak yerine nakit eşdeğerlerine yatırım yapar, çünkü nakit, stabilcoin ihraççısının bilançosunu önemli ölçüde etkileyebilir. Mevcut bankacılık düzenlemelerine göre, nakit gibi tüm bilanço varlıkları iflas durumunda potansiyel kayba maruz kalmaktadır ve Federal Mevduat Sigorta Kurumu (FDIC) yalnızca 250.000 ABD dolarına kadar sigorta teminatı sağlamaktadır ve bu limiti aşan tutarlar risk altındadır. Bu riski azaltmak için, kullanıcıları öngörülemeyen olaylara karşı korumayı amaçlayan sabit coinler genellikle devlet tarafından ihraç edilen hazine bonolarına yatırım yapar. Hazine bonoları gibi varlıklara yatırım yaparak, yalnızca generate getirisi elde etmekle kalmazlar, aynı zamanda bu varlıklar bilanço dışı menkul kıymetler olarak kabul edilebilir. Sonuç olarak, stablecoin ihraççıları, bu menkul kıymetler müşteriye iade edilebileceğinden, banka iflası durumunda fonlarını koruyabilirler. Bunun ilgi çekici bir örneği Şubat/Mart 2023'te, Silicon Valley Bank (SVB) ve stablecoin USDC'nin arkasındaki şirket olan Circle'ın katılımıyla gerçekleşti. O dönemde Circle'ın SVB'ye yatırılmış önemli miktarda [\$3.3 milyar](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) nakit parası vardı. Ve sonra SVB iflas etti. Finansal bir felaketi önlemek için FDIC, Circle'ı ve etkilenen diğer şirketleri kurtarmak için kayıp fonları karşılayarak müdahale etti. Ancak bu standart bir hareket tarzı değildir. Bu eşi benzeri görülmemiş olay, tarihte ilk kez böyle bir durumun ortaya çıkmasına işaret ediyordu. FDIC'nin müdahalesi olmasaydı, Circle da iflasla karşı karşıya kalabilirdi.
 
 
-İkinci olarak, stabilcoin ihraççılarını gayri nakdi varlıklara yatırım yaptıkları için sık sık eleştiriyoruz, ancak mevcut bankacılık sistemimiz kısmi rezerv esasına göre çalışıyor. Basit bir ifadeyle, bankalar müşterilerinin para çekme taleplerini karşılamak için yeterli rezerv tutmazlar. Ulusal nüfusumuzun önemli bir kısmı mevduatlarını çekecek olsa, bankacılık sektörü hızla çökecektir. Aslında, 2020'den bu yana, Amerika Birleşik Devletleri'ndeki rezerv zorunluluğu [sıfır] (https://www.federalreserve.gov/monetarypolicy/reservereq.htm) olarak belirlenmiştir, yani bankalar **HİÇBİR** müşteri mevduatını tutmak zorunda değildir.
+İkinci olarak, stabilcoin ihraççılarını gayri nakdi varlıklara yatırım yaptıkları için sık sık eleştiriyoruz, ancak mevcut bankacılık sistemimiz kısmi rezerv esasına göre çalışıyor. Basit bir ifadeyle, bankalar müşterilerinin para çekme taleplerini karşılamak için yeterli rezerv tutmazlar. Ulusal nüfusumuzun önemli bir kısmı mevduatlarını çekecek olsa, bankacılık sektörü hızla çökecektir. Aslında, 2020'den bu yana, Amerika Birleşik Devletleri'ndeki rezerv zorunluluğu [sıfır](https://www.federalreserve.gov/monetarypolicy/reservereq.htm) olarak belirlenmiştir, yani bankalar **HİÇBİR** müşteri mevduatını tutmak zorunda değildir.
 
 
 Açık olmak istiyoruz. Bu gözlem, sabit coinlerin nakit rezervlerini değer kaybedebilecek varlıklarla ikame ederek sabit coinin istikrarını bozabileceği yönündeki endişeleri göz ardı etmemiz gerektiği anlamına gelmez. Bunun yerine, geleneksel ve modern kriptografik finans arasındaki çifte standardı kabul etmeliyiz.
@@ -2268,10 +2268,10 @@ Bunun ışığında, fiyat oynaklığı Tether gibi sabit coin çıkaranların e
 Sabit coinlerin merkezi yapıları nedeniyle fonlarınızı dondurabileceği yönündeki yanlış kanıya değinirken, her biri kendi avantaj ve dezavantajlarına sahip olan merkezi ve merkezi olmayan varlıklar arasındaki ayrımı vurgulamak önemlidir. Bitcoin gibi merkezi olmayan varlıkları güçlü bir şekilde savunuyor olsak da bu, merkezi sabit coinlerin değeri veya faydası olmadığı anlamına gelmez.
 
 
-Merkezileşmenin başlıca avantajlarından biri, kullanıcıların çıkarına ve sistemin genel istikrarına en uygun olduğunda müdahale etme yeteneğidir. Doğru olmasına rağmen, sabit coin ihraç edenlerin fonları dondurma potansiyeli vardır. Esasen tüm durumlarda, bu stabilcoin sahibine yönelik kötü niyetli bir saldırı olarak kullanılmaz. Bunun yerine, tüketicileri korumak için kolluk kuvvetleri ile birlikte kullanılır. Kayda değer bir örnek FTX Exchange çöküşü vakasıdır. Kolluk kuvvetleriyle işbirliği içinde Tether, tüketici fonlarını korumak için [\46 milyon $] (https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) değerinde USDt'yi dondurdu.
+Merkezileşmenin başlıca avantajlarından biri, kullanıcıların çıkarına ve sistemin genel istikrarına en uygun olduğunda müdahale etme yeteneğidir. Doğru olmasına rağmen, sabit coin ihraç edenlerin fonları dondurma potansiyeli vardır. Esasen tüm durumlarda, bu stabilcoin sahibine yönelik kötü niyetli bir saldırı olarak kullanılmaz. Bunun yerine, tüketicileri korumak için kolluk kuvvetleri ile birlikte kullanılır. Kayda değer bir örnek FTX Exchange çöküşü vakasıdır. Kolluk kuvvetleriyle işbirliği içinde Tether, tüketici fonlarını korumak için [\46 milyon $](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) değerinde USDt'yi dondurdu.
 
 
-Merkezi müdahalenin faydalarını gösteren bir başka örnek de Eylül 2020'deki [KuCoin hack] (https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) olayından sonra yaşandı. Tether, bilgisayar korsanlarının yasa dışı faaliyetlerinden kâr elde etmelerini önlemek için yaklaşık 35 milyon USDt değerinde parayı dondurdu. Bu örnekler, merkezi sabit coinlerin belirli senaryolarda kötü niyetli aktörlere nasıl hızlı bir şekilde yanıt verebileceğini ve kullanıcılarının çıkarlarını nasıl koruyabileceğini vurgulamaktadır.
+Merkezi müdahalenin faydalarını gösteren bir başka örnek de Eylül 2020'deki [KuCoin hack](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) olayından sonra yaşandı. Tether, bilgisayar korsanlarının yasa dışı faaliyetlerinden kâr elde etmelerini önlemek için yaklaşık 35 milyon USDt değerinde parayı dondurdu. Bu örnekler, merkezi sabit coinlerin belirli senaryolarda kötü niyetli aktörlere nasıl hızlı bir şekilde yanıt verebileceğini ve kullanıcılarının çıkarlarını nasıl koruyabileceğini vurgulamaktadır.
 
 
 Bunu akılda tutarak, aracıların veya ağı ortaklaşa kullanabilecek bireylerin olmaması nedeniyle uzun vadeli tasarruflar için Bitcoin'e öncelik versek de, merkezi sabit coinlerin hala çeşitli faydaları vardır; örneğin, sabit coinlerin merkezi yapısı fonların potansiyel olarak dondurulmasına izin verirken, bu özellik yasadışı faaliyetlerle mücadelede ve kullanıcıları korumada değerli bir araç olabilir.
@@ -2345,19 +2345,19 @@ Bitcoin'ün kadınların hayatını nasıl dönüştürdüğüne dair bir örne�
 Afganistan onlarca yıldır çatışmalarla boğuşan bir ülke ve ülkedeki kadınların durumu özellikle vahim. Taliban'ın 1996'dan 2001'e kadar hüküm süren baskıcı rejimi, kadınların eğitim ve çalışma hakkı da dahil olmak üzere temel haklarını ellerinden almıştır. Taliban'ın düşüşünden sonra bile Afganistan'daki kadınlar, eğitim ve istihdam olanaklarına sınırlı erişim ve mali bağımsızlık eksikliği gibi önemli zorluklarla karşılaşmaya devam etmektedir.
 
 
-Bununla birlikte, son yıllarda Bitcoin, özellikle genellikle marjinalize edilen kadınlar için finansal güçlendirme için güçlü bir araç olarak ortaya çıkmıştır. Bitcoin'in potansiyelinden faydalanan kişilerden biri, ülkesindeki kadınların finansal hizmetlere erişmelerine ve itibarlarını yeniden kazanmalarına yardımcı olmak için dijital para birimini kullanan Afgan bir girişimci olan [Roya Mahboob] (https://twitter.com/royamahboob).
+Bununla birlikte, son yıllarda Bitcoin, özellikle genellikle marjinalize edilen kadınlar için finansal güçlendirme için güçlü bir araç olarak ortaya çıkmıştır. Bitcoin'in potansiyelinden faydalanan kişilerden biri, ülkesindeki kadınların finansal hizmetlere erişmelerine ve itibarlarını yeniden kazanmalarına yardımcı olmak için dijital para birimini kullanan Afgan bir girişimci olan [Roya Mahboob](https://twitter.com/royamahboob).
 
 
 Dünya, Taliban'ın [1996](https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D) yılında Afganistan'ın kontrolünü ele geçirmesini dehşet içinde izlerken, bu genç kız Roya çatışmanın tam ortasında yaşıyordu. Henüz yedi yaşındayken, memleketi Taliban tarafından istila ve işgal edilince kendini savaşın kargaşa ve belirsizliğinin içinde buldu. Karşılaştığı tehlike ve zorluklara, üstelik okula gidememesine rağmen Roya yenilmeyi reddetti. Bunun yerine, içinde bulunduğu koşulların kendisine dayattığı sınırlamaların üstesinden gelmenin bir yolu olarak eğitime yöneldi.
 
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
 
-\***Figür:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
+**Figür:** [Roya Mahboob](https://www.forbes.com/sites/emilydrewry/2017/08/31/seat-of-power-episode-4-roya-mahboob-on-using-Bitcoin-to-empower-women/?sh=df9cbbb59724)
 
 
-Roya Mahboob Afganistan'da teknoloji ve girişimcilik alanında öncü bir isim. "Afganistan'daki liselerde internet sınıfları kurduktan" sonra TIME Dergisi'nin 2013 yılı için Dünyanın En Etkili 100 Kişisi [olarak] (https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) seçilmekle kalmadı Ayrıca 2010 yılında "yeni üniversite mezunlarına - özellikle de kadınlara - iş yaratmayı" amaçlayan Afgan Citadel Yazılım Şirketi'ni kurdu Bu da yetmezmiş gibi daha sonra Digital Citizen Fund'ı kurdu. Kâr amacı gütmeyen bu kuruluş, gelişmekte olan ülkelerdeki kadın ve çocukları teknoloji yoluyla güçlendirmek için çalışıyor.
+Roya Mahboob Afganistan'da teknoloji ve girişimcilik alanında öncü bir isim. "Afganistan'daki liselerde internet sınıfları kurduktan" sonra TIME Dergisi'nin 2013 yılı için Dünyanın En Etkili 100 Kişisi [olarak](https://www.wto.org/english/thewto_e/acc_e/01_b_roya_mahboob_bio.pdf) seçilmekle kalmadı Ayrıca 2010 yılında "yeni üniversite mezunlarına - özellikle de kadınlara - iş yaratmayı" amaçlayan Afgan Citadel Yazılım Şirketi'ni kurdu Bu da yetmezmiş gibi daha sonra Digital Citizen Fund'ı kurdu. Kâr amacı gütmeyen bu kuruluş, gelişmekte olan ülkelerdeki kadın ve çocukları teknoloji yoluyla güçlendirmek için çalışıyor.
 
 
 Ancak bu yolculuk boyunca Roya yalnız değildi. Bitcoin, kadınları güçlendirme misyonunda paha biçilmez bir araç olduğunu kanıtladı. Roya, kadınların çalışmasını ve banka hesabı açmasını engelleyen yasal engeller de dahil olmak üzere çok sayıda engelle karşılaşmasına rağmen, kendisiyle birlikte çalışan kadınlara ödeme yapmanın bir yolunu bulmaya kararlıydı.
@@ -2439,7 +2439,7 @@ A Cafe Sahibi, Vietnam
 "Binh Thanh bölgesindeki kafemde, kahve, Soft içecekleri ve kokteyller dahil olmak üzere çeşitli içecekler sunarak genç bir müşteri kitlesine ve ara sıra turistlere hitap ediyoruz. Tether, yerel para birimi veya banka hesabı olmayan yabancı müşterilerin ödemelerini işlemek için başvurduğumuz bir çözüm haline geldi. Tether aracılığıyla yapılan satışlar şu anda küçük olsa da, bize para birimi açığını kapatmak ve uluslararası müşterilerimizi ağırlamak için uygun bir yol sağlıyor. Müşterilerimiz kripto para ödemelerini kabul etme konusundaki açıklığımıza genellikle şaşırıyor ve deneyimleri üzerinde kalıcı bir izlenim bırakıyorlar."
 
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 
 Parvinee Ratchaphokhinpiti
 
@@ -2449,7 +2449,7 @@ Emekli, Tayland
 "USDt uluslararası para transferlerimde devrim yarattı. Bir emekli olarak eskiden yavaş banka havalelerine güvenirdim. USDt sayesinde artık dijital bir varlık olan Exchange aracılığıyla zahmetsizce para gönderebiliyorum. Kız kardeşim 30 dakika içinde parayı aldı. Zaman kazandıran avantajlar paha biçilemez, hızlı ve sorunsuz işlemler sağlıyor."
 
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 
 Jamie Tran
 
@@ -2459,7 +2459,7 @@ Piyano Öğretmeni, Vietnam
 "Yurtdışındaki akrabalarıma para göndermek sık sık ihtiyaç duyduğum bir şeydi, ancak yerel borsalarda para birimlerini dönüştürme süreci hem zaman alıcı hem de pahalı oluyordu. Bu zorlukları aşmak için akrabalarımı USDt kullanmanın rahatlığıyla tanıştırdım. Bu basit değişim, ailemizin finansal işlemlerimizde önemli ölçüde zaman ve para tasarrufu yapmasını sağladı. USDt ile artık yurtdışı transferlerimizi kolaylaştırıyor, sevdiklerimize verimli ve uygun maliyetli destek sağlıyoruz."
 
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 
 Roman
 
@@ -2469,7 +2469,7 @@ Vietnam'da Yaşayan Rus Gurbetçi
 "Vietnam'da yaşadığım için Rusya'daki akrabalarıma ve kuzenlerime sık sık Tether gönderiyorum. Tether ile yurtdışına para transferi yapmak, geleneksel bankacılık yöntemlerini kullanmaya kıyasla sorunsuz. Banka ziyaretleri, noter onaylı belgeler veya açıklamalar gerekmiyor. Gönderme limiti olmaması, minimum ücret ve hızlı işlemler sayesinde para dakikalar içinde teslim ediliyor."
 
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 
 Luis Graterol
 
@@ -2479,7 +2479,7 @@ Görsel-İşitsel, Venezuela
 "Benim adım Luis Graterol ve Tether birikimlerimi başka bir şekilde güvence altına almama yardımcı oldu. Venezuela'da yüksek enflasyon nedeniyle acı çekiyoruz ve Tether çok yardımcı oldu. Kullanılabilirliği basit ve çoğu durumda herhangi bir ücret ödemeden işlem yapabiliyorsunuz. USDt hayatımı kolaylaştırıyor! Ayrıca görsel-işitsel medyada eğitim vermeme ve kullanımını teşvik etmeme de yardımcı oluyor; kolaylığını keşfettiğimden beri ödemelerimi USDt ile alıyorum ve çoğumuzu etkileyen sıkıcı yerel fiattan kurtuluyorum!"
 
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 
 Dubraska Villanloga
 
@@ -2489,7 +2489,7 @@ CEO Tu Cachapa Caricuao, Karakas, Venezuela
 "Venezuela'dan geliyorum ve küçük bir kahvaltı dağıtım işi yürütüyorum. Tether USDt benim için fiziksel nakit sorunu için uygun bir çözüm oldu. USDt tasarruflarım konusunda da bana yardımcı oldu çünkü işletme hesaplarımı Venezuela Bolivarı cinsinden tutsaydım, sürekli devalüasyon nedeniyle gıda tedarikimi önceden planlayamazdım."
 
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 
 Marcela Romero
 
@@ -2499,7 +2499,7 @@ Pazarlama ve Halkla İlişkiler Müdürü, Guanacaste, Kosta Rika
 "Birkaç yıl önce eşimin ülkesine taşındım. Pandemi nedeniyle, ikamet veya vatandaşlık için uzun süre beklememle sonuçlanan benzersiz bir göçmenlik durumuyla karşı karşıya kaldım. Yaklaşık üç yıl boyunca bir banka hesabına erişimim yoktu ve ülkede yasal olarak çalışamadım. Ancak, çevrimiçi çalışma yeteneklerimden yararlanarak ve maaşımı USDt olarak alarak, kariyerime uluslararası şirketlerle uzaktan devam ettim. Tether ile yüksek ücretler veya gecikmeler olmadan anında eve para gönderebiliyorum. Tether, hükümetin kısıtlamalarına rağmen profesyonel hedeflerimin peşinden gitmemi ve finansal bağımsızlığımı korumamı sağladı."
 
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 
 Simoneth Gomez
 
@@ -2509,7 +2509,7 @@ QA Mühendisi, Venezuela, Arjantin'de yaşıyor
 "Merhaba, benim adım Simoneth Gomez. Venezuelalıyım ama şu anda Buenos Aires'te yaşıyorum ve burada yazılım kalite analisti olarak çalışıyorum. Arjantin'e geldiğimde, Venezuela'daki aileme göndermek için para bozdurmam gereken yer ile işim arasında 12 km'lik bir mesafe vardı. Bu yüzden USDt ile tanıştım ve kullanmaya başladım çünkü otobüste \$5 veya \$10'a o yolu gitmek zorunda kalmak yerine, masamdan iki dakika içinde çözebildim."
 
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 
 Carlos Caballero
 
@@ -2519,7 +2519,7 @@ Psikolog, Arjantin
 "Tether, pandemi yıllarında mesleğimde çalışmaya devam etmemi sağlayan çözüm oldu. Dolara bağlı bir para birimi olması, uluslararası bir referans değerine sahip olmasını sağlıyor. Diğer kripto para birimlerinin oynaklığına karşı istikrarı ve güvenliği de onu seçmemdeki ana neden."
 
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 
 Heloisa Passos
 
@@ -2529,7 +2529,7 @@ CEO Sp4ce Games, Brezilya
 "Yaklaşık beş yıldır uluslararası şirketler için uzaktan çalışıyorum ve bu sürenin çoğunda, yapılan her uluslararası havale için büyük bir yüzde oranı talep eden ulusal bankaların yüksek faiz oranlarının yanı sıra Swift sistemi aracılığıyla ödemelerin takas edilmesi için bekleme süresinden (yaklaşık 24 saat) muzdarip oldum. Maaşımı Tether olarak almaya başladığımda, sadece USDt cinsinden ödeme alarak ne kadar zaman ve para tasarrufu yaptığımı fark ettim."
 
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 
 Samuel
 
@@ -2539,7 +2539,7 @@ Ticaret Şirketi, Nijerya
 "USDt kullanmak işletmemize çok zaman kazandırdı çünkü Nijeryalı bir işletme olarak USD almak için bankamıza gitmek, form doldurmak ve para çekmek ya da transfer yapmak için saatlerce kuyrukta beklemek gerekiyor. Ancak USDt ile 5 dakikadan kısa bir süre içinde yerel para birimi için Exchange yapabilir ve herhangi bir işlem gerçekleştirebiliriz."
 
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 
 Joshua
 
@@ -2549,7 +2549,7 @@ Joshua
 "Tether bana birçok yönden yardımcı oldu. Tether'da kazanmak ülkedeki yükselen enflasyonun yarattığı gerilimi yenmeme yardımcı oldu ve savurgan harcamalarımı azaltmama yardımcı oldu. Ayrıca, Naira'nın devalüasyonundan kötü etkilenmediğim için tasarruflarımın değerini korumasına yardımcı oluyor."
 
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 
 Esther
 

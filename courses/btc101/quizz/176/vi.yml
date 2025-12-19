@@ -1,10 +1,9 @@
-question: Đặc điểm độc đáo của giao thức Bitcoin là gì?
-answer: Nó hoạt động trên quy mô toàn cầu, 24 giờ một ngày, 7 ngày một tuần.
+question: Lý do gì khiến giá Bitcoin có thể giảm 10%, 20% hoặc thậm chí 50% chỉ trong vài ngày?
+answer: Giai đoạn thị trường tăng giá và giảm giá.
 wrong_answers:
-  - Nó chỉ hoạt động trong giờ hành chính.
-  - Nó được kiểm soát bởi một cơ quan trung ương.
-  - Nó có thể bị hack một cách dễ dàng.
+  - Số lượng người sử dụng internet.
+  - Thời tiết.
+  - Giá của vàng.
 explanation: >-
-  Giao thức Bitcoin độc đáo ở chỗ nó hoạt động trên quy mô toàn cầu,
-  24 giờ một ngày, 7 ngày một tuần, làm cho việc quản lý trở nên khó khăn đối với các cơ quan tài chính.
+  Giá của Bitcoin thường xuyên biến động mạnh, có thể bị ảnh hưởng bởi các biến động thị trường và giai đoạn thị trường tăng giá và giảm giá.
 reviewed: true

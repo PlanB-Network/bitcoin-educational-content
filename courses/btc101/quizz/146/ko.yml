@@ -1,0 +1,8 @@
+question: Bitcoin Mining에서 난이도 조정의 목적은 무엇인가요?
+answer: 참가자 수에 따라 글로벌 Mining 게임의 밸런스를 재조정합니다.
+wrong_answers:
+  - Mining의 보상이 증가합니다.
+  - 유통되는 비트코인의 수가 줄어듭니다.
+  - Bitcoin 네트워크의 보안을 강화합니다.
+explanation: >-
+reviewed: true

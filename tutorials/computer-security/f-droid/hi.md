@@ -1,5 +1,5 @@
 ---
-name: एफ-जीडब्ल्यू-0
+name: F-Droid
 description: निःशुल्क एवं मुक्त स्रोत अनुप्रयोगों की सूची।
 ---
 
@@ -100,7 +100,7 @@ F-Droid एक एप्लिकेशन और टूल स्टोर ह�
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid आपको वह सारी जानकारी देता है जिसकी आपको यह तय करने के लिए ज़रूरत है कि किसी एप्लिकेशन का इस्तेमाल आपके डेटा की सुरक्षा करता है या आपकी गोपनीयता को बढ़ाता है। उन सभी एप्लिकेशन को स्कैन करें जिनका आप इस्तेमाल करना चाहते हैं, फिर अपना एप्लिकेशन डाउनलोड और इंस्टॉल करने के लिए **इंस्टॉल** बटन पर क्लिक करें।
 
@@ -187,4 +187,4 @@ F-Droid आधिकारिक स्रोत कोड और संकल�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

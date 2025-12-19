@@ -1,0 +1,9 @@
+question: Volgens de analyse van Gregory Maxwell, wat creëert de fundamentele afweging die gebruikers dwingt in de richting van vertrouwde diensten in Bitcoin schalingsdiscussies?
+answer: Zowel een buitensporig hoog gebruik van hulpbronnen, waardoor validators worden uitgesloten, als een buitensporig dure toegang tot blokruimte voor geschillenbeslechting
+wrong_answers:
+  - Het conflict tussen het verhogen van de transactiedoorvoer en het behouden van voldoende winstgevendheid van mining over verschillende poolgroottes
+  - De spanning tussen het implementeren van gescheiden getuige-upgrades en het behouden van achterwaartse compatibiliteit met oudere wallet software
+  - De concurrentie tussen laag-twee oplossingen en on-chain schaalbenaderingen voor beperkte ontwikkelingsmiddelen en steun van de gemeenschap
+explanation: |
+  Maxwell identificeerde een tweezijdig probleem waarbij Bitcoin zijn voordelen in beide richtingen verliest: als het gebruik van middelen te hoog is in verhouding tot de beschikbare technologie, wordt validatie te duur en worden gebruikers weggeconcurreerd die dan moeten vertrouwen op vertrouwde derde partijen in plaats van zelfstandig te valideren. Omgekeerd, als de capaciteit te laag is en de transactiemethoden inefficiënt, wordt toegang tot de blockchain voor geschillenbeslechting onbetaalbaar, waardoor gebruikers opnieuw naar vertrouwde diensten worden geduwd. Dit creëert een delicaat evenwicht waar oplossingen voor schaalvergroting doorheen moeten navigeren.
+reviewed: false

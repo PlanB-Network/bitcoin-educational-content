@@ -3,7 +3,7 @@ name: RGB
 description: Utangulizi na uundaji wa mali kwenye RGB
 ---
 
-![RGB vs Ethereum](assets/0.webp)
+![cover](assets/cover.webp)
 
 
 ## utangulizi

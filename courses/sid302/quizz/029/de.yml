@@ -1,0 +1,8 @@
+question: Welchen grundlegenden Kompromiss müssen Anleger akzeptieren, wenn sie sich an Blockstream AMP-Asset-Ökosystemen im Vergleich zu Standard-Liquid Network-Transaktionen beteiligen?
+answer: Vollständige Einsicht in die Bestände und die Transaktionshistorie des Emittenten trotz Wahrung der Privatsphäre gegenüber anderen Nutzern
+wrong_answers:
+  - Höhere Transaktionsgebühren aufgrund des zusätzlichen Rechenaufwands, der für mitunterzeichnende Autorisierungsmechanismen erforderlich ist
+  - Geringere Transaktionsgeschwindigkeit, da alle Überweisungen vor der Bestätigung durch zentralisierte Compliance-Server validiert werden müssen
+  - Eingeschränkte Übertragbarkeit von Vermögenswerten, da AMP-Tokens nur an vorab genehmigte Wallets innerhalb desselben Rechtsraums gesendet werden können
+explanation: |
+  Die richtige Antwort beschreibt den Kernkompromiss von AMP in Bezug auf die Privatsphäre: Während Confidential Transactions die Privatsphäre von Nutzer zu Nutzer aufrechterhält, ermöglichen AMP-Assets den Emittenten eine vollständige unblinded-Transparenz zur Einhaltung von Vorschriften. Die falschen Antworten beschreiben eher operative Einschränkungen (Gebühren, Geschwindigkeit, Übertragbarkeit) als den grundlegenden Transparenzkompromiss, der AMP vom vollständig vertraulichen Liquid-Standardmodell unterscheidet.

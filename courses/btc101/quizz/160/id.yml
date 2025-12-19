@@ -1,12 +1,9 @@
-question: Apa yang terjadi dalam serangan 51% pada jaringan Bitcoin?
-answer: Seorang agen memiliki lebih dari setengah dari hashrate dan dapat mencoba untuk memodifikasi blockchain.
+question: Apa kritik utama terhadap sistem keuangan saat ini terkait dengan lingkungan?
+answer: Mendorong konsumsi berlebihan dan utang
 wrong_answers:
-  - Seorang agen mendapatkan kontrol lebih dari setengah dari bitcoin yang beredar.
-  - Seorang agen mendapatkan kontrol lebih dari setengah dari node dalam jaringan Bitcoin.
-  - Seorang agen mendapatkan kontrol lebih dari setengah dari kolam penambangan dalam jaringan Bitcoin.
+  - Mendorong penggunaan bahan bakar fosil
+  - Tidak berinvestasi dalam energi terbarukan
+  - Tidak mengatur produksi barang
 explanation: >-
-  Dalam serangan 51%, seorang agen dengan lebih dari setengah hashrate jaringan
-  berpotensi dapat memanipulasi blockchain dengan menciptakan rantai blok alternatif.
-  Namun, serangan seperti itu akan sangat mahal dan tidak mungkin menguntungkan,
-  membuatnya menjadi skenario yang tidak mungkin terjadi.
+  Sistem keuangan saat ini dikritik karena mendorong konsumsi berlebihan dan utang, yang menimbulkan masalah lingkungan yang serius. Hal ini disebabkan oleh akses mudah ke kredit, penerbitan uang oleh bank, dan penggunaan perbankan cadangan fraksional.
 reviewed: false

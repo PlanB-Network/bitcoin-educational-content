@@ -1,12 +1,10 @@
-question: Inyungu nyinshi cane ni iki?
-answer: Ukwiyongera gukomeye kw’amahera menshi.
+question: Ni igice ca kabiri c’ikintu c’ugutera imbere cane kw’ibiciro ni ikihe?
+answer: Amafaranga arasenyuka & igiciro kiduga.
 wrong_answers:
-  - Ukwongerekana gutoyi kw’amahera menshi.
-  - Igabanuka rikomeye ry’amahera menshi.
-  - Igabanuka gatoyi ry’amahera menshi.
+  - Gutakaza Icizigiro.
+  - Uruziga rw’ububisha rwo gucapura amahera.
+  - Ifaranga rishasha rirasohoka.
 explanation: |
-  Inflation nyinshi cane ni ikintu c’amahera kirangwa n’
-  Ukwiyongera gukomeye kw'ibiciro biciye mu gucapura amafaranga
-  n’abategetsi, ivyo bikaba bituma umuntu atakaza burundu .
-  kwizigira amahera.
+  Icigwa ca kabiri c'ugutera imbere kw'ibiciro ni ugusenyuka kw'amahera &
+  igiciro kiduga, inyuma gato y’Iciciro co Gutakaza Icizigiro.
 reviewed: true

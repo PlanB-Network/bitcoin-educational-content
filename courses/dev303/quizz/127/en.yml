@@ -1,0 +1,8 @@
+question: What fundamental limitation of Lightning Network payments creates a unique challenge for wallet developers that does not exist with on-chain Bitcoin transactions?
+answer: Lightning payments exist only as temporary states within payment channels and are not permanently recorded on the blockchain, requiring custom payment history tracking systems
+wrong_answers:
+  - Lightning payments require significantly more computational resources to process than on-chain transactions, making mobile implementation resource-intensive
+  - Lightning payments cannot be verified cryptographically in the same way as on-chain transactions, creating security vulnerabilities for wallet implementations
+  - Lightning payments must be processed through centralized routing nodes, making it impossible to maintain truly non-custodial wallet architecture
+explanation: |
+  The correct answer identifies the core architectural difference between Lightning and on-chain payments. On-chain Bitcoin transactions are permanently recorded on the blockchain, making payment history retrieval straightforward through blockchain queries. Lightning payments, however, exist only as temporary channel states and leave no permanent blockchain record, forcing developers to implement custom tracking and storage systems. The wrong answers are incorrect because: Lightning payments are computationally efficient (not resource-intensive), they maintain the same cryptographic security as Bitcoin, and routing is decentralized (not centralized).

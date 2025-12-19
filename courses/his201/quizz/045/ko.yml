@@ -1,0 +1,9 @@
+question: 2010년 7월에 Bitcoin을 알리는 데 크게 기여한 웹사이트의 이름은 무엇인가요?
+answer: 슬래시닷
+wrong_answers:
+  - 해커뉴스
+  - 스택 오버플로
+  - Reddit
+explanation: |
+  2010년 7월 11일, 테피는 이 인기 사이트에 Bitcoin에 대한 프레젠테이션을 게시했고, 이는 엄청난 사용자 유입으로 이어졌습니다.
+reviewed: true

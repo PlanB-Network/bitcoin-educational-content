@@ -1,0 +1,9 @@
+question: 2010년 3월에 만들어진 Exchange 서비스 중 7월에 마운트곡스가 등장하기 전까지 가장 인기가 많았던 것은 무엇인가요?
+answer: Bitcoin 마켓
+wrong_answers:
+  - 비트코인FX
+  - 비트코인 거래소
+  - 마이비트코인
+explanation: |
+  페이팔을 사용하는 이 P2P 마켓플레이스는 2010년 3월 16일에 dwdollar라는 개인에 의해 시작되었으며, 마운트곡스 이전의 주요 플랫폼이었습니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Dlaczego Miner potrzebuje węzła Bitcoin?
+answer: Aby wchodzić w interakcje z siecią i dystrybuować swoje bloki
+wrong_answers:
+  - Do podpisów cyfrowych generate
+  - Aby wprowadzić dostawę Address do Coinbase Transaction
+  - Aby zmniejszyć trudność Mining
+explanation: |
+  Górnicy używają węzła do komunikacji z siecią, przesyłania swoich bloków i odbierania transakcji.
+reviewed: true

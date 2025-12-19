@@ -1,9 +1,9 @@
-question: Apa yang disimbolkan oleh Bitcoin di luar teknologinya?
-answer: Sebuah revolusi terhadap sistem keuangan tradisional dan alternatif yang berbasis pada transparansi, desentralisasi, dan kedaulatan individu.
+question: Apa kelemahan utama dari mata uang fiat?
+answer: Nilainya terus tergerus oleh inflasi moneter
 wrong_answers:
-  - Bentuk baru mata uang digital yang lebih efisien daripada mata uang tradisional.
-  - Cara bagi individu untuk mendapatkan uang melalui penambangan.
-  - Alat bagi kriminal untuk melakukan transaksi ilegal.
+  - Mereka tidak mudah untuk dibawa
+  - Nilainya terus meningkat karena inflasi moneter
+  - Mereka tidak dapat dibagi
 explanation: |
-  Di luar teknologinya, Bitcoin mensimbolkan sebuah revolusi terhadap sistem keuangan tradisional karena protokolnya menerapkan sistem moneter baru tanpa entitas pusat.
+  Kelemahan utama dari mata uang fiat, seperti dolar dan euro, adalah nilai mereka yang terus tergerus oleh inflasi moneter. Hal ini disebabkan oleh entitas yang mengendalikannya (raja, bank sentral, kaisar, diktator) yang terus menurunkan nilai mereka.
 reviewed: true

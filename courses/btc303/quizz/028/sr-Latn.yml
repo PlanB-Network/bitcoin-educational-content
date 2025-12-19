@@ -1,0 +1,9 @@
+question: Koja je primarna zabrinutost u vezi sa fee sniping-om kada se Bitcoin-ova blok subvencija približava nuli?
+answer: Rudari mogu smatrati da je isplativije prepisati prethodne blokove sa visokim naknadama nego mining nove blokove.
+wrong_answers:
+  - Naknade za transakcije postat će preskupe da bi ih obični korisnici mogli priuštiti za Bitcoin transakcije
+  - Ukupna ponuda Bitcoin premašiće 21 milion zbog povećanih podsticaja za mining
+  - Rudari će potpuno zaustaviti mining jer same naknade za transakcije ne mogu pokriti troškove električne energije
+explanation: |
+  Fee sniping se dešava kada rudari pokušavaju ponovo da rudare prethodne blokove koji su sadržali transakcije sa visokim naknadama, umesto da pošteno produžavaju lanac. Ovo postaje ekonomski racionalno kada naknade u prethodnom bloku značajno premašuju one u trenutnom mempool-u. Iako je verovatnoća uspeha manja nego kod poštenog mining, potencijalna nagrada može biti mnogo veća. Ovo ponašanje je posebno zabrinjavajuće jer može stvoriti efekat lavine gde više rudara učestvuje u nepoštenim praksama, što na kraju ugrožava sigurnosni model Bitcoin kada se subvencije za blokove smanje.
+reviewed: false

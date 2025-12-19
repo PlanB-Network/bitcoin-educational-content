@@ -1,0 +1,9 @@
+question: 버스 토폴로지에서 가장 큰 장점은 무엇인가요?
+answer: 저렴한 설치 비용
+wrong_answers:
+  - 높은 중복성
+  - 짧은 지연 시간
+  - 고가용성
+explanation: |
+  버스는 단일 물리적 매체에 의존하기 때문에 설치 비용은 낮추지만 단일 장애 지점이 발생합니다.
+reviewed: false

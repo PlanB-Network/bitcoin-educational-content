@@ -1,0 +1,21 @@
+id: 1f265a96-01ba-4b18-9e0e-de586cac3c08
+start_date: 2025-10-28 17:30:00
+end_date: 2025-11-02 12:00:00
+timezone: Asia/Kolkata
+address_city_country: Goa, India
+project_id: 5cffb254-278e-4d87-a4d6-4efe5a538dde
+name: "Bitshala BOSS (Bitcoin Open Source Software) Summit "
+type: workshop
+description: |
+  "3 days of Bitcoin OSS Designers & developers, sharing demos,
+  projects, workshops, sessions and actively working on active github repos and
+  figma.
+
+  Includes Bitplebs Summit Pass (sat, 1st Nov)."
+language:
+  - en
+links:
+  website: https://luma.com/bitplebsboss
+tags:
+  - software
+  - development

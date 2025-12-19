@@ -1,0 +1,9 @@
+question: Welk fundamenteel kenmerk onderscheidt de definitie van Bitcoin schaalvergroting in het boek van veelgebruikte alternatieve definities in de Bitcoin ruimte?
+answer: Het vereist expliciet het handhaven van censuurbestendigheid als beperking terwijl de gebruikscapaciteit wordt verhoogd
+wrong_answers:
+  - Het richt zich uitsluitend op het verhogen van de doorvoer van blockchain-transacties in plaats van efficiëntieverbeteringen
+  - Het geeft prioriteit aan de ontwikkeling van een gelaagde architectuur boven wijzigingen aan het basis blockchainprotocol
+  - Het legt de nadruk op het verminderen van de rekenvereisten voor knooppunten in plaats van het uitbreiden van de netwerkcapaciteit
+explanation: |
+  Het boek definieert schalen als "het verhogen van de gebruikscapaciteit van Bitcoin zonder de censuurbestendigheid in gevaar te brengen", wat expliciet de beperking van censuurbestendigheid inhoudt. Dit onderscheidt het van andere definities die zich alleen richten op het vergroten van de transactiecapaciteit, efficiëntieverbeteringen of gelaagde systemen zonder rekening te houden met het behoud van de fundamentele eigenschappen van Bitcoin. De eis van censuurbestendigheid zorgt ervoor dat schaalbare oplossingen de kernwaarde van Bitcoin niet ondermijnen, namelijk een vertrouwensloos, gedecentraliseerd systeem dat niet gecontroleerd kan worden door een enkele entiteit.
+reviewed: false

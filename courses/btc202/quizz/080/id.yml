@@ -1,0 +1,9 @@
+question: Berapa nilai default dari parameter maxconnections di Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections membatasi jumlah total koneksi yang masuk dan keluar. Nilai standarnya adalah 125.
+reviewed: true

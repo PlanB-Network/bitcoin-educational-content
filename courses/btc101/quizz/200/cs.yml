@@ -1,12 +1,9 @@
-question: Co je impulzivní nákup?
-answer: Okamžitý nákup Bitcoinu pro získání expozice.
+question: Jaké je jedno z potenciálních rizik ponechání vašeho Bitcoinu na burzovní platformě?
+answer: Rizika hackování a blokování prostředků.
 wrong_answers:
-  - Nákup Bitcoinu v pravidelných intervalech.
-  - Nákup Bitcoinu pouze když cena klesne.
-  - Nákup Bitcoinu pouze když cena stoupne.
-explanation: |
-  Text kurzu vysvětluje, že impulzivní nákup je
-  použit k okamžitému získání expozice vůči Bitcoinu. Například,
-  to může znamenat nákup během pádu ceny nebo využití
-  bonusu.
+  - Riziko, že platforma zvýší cenu Bitcoinu.
+  - Riziko, že platforma bude kontrolovat nabídku Bitcoinu.
+  - Riziko, že Bitcoin bude v ceně překonán jinou kryptoměnou.
+explanation: >-
+  Text uvádí, že ponechání vašeho Bitcoinu na burzovní platformě vás může vystavit rizikům hackování a blokování prostředků.
 reviewed: true

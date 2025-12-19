@@ -1,5 +1,5 @@
 ---
-name: Jade Plus - Hijau
+name: Jade Plus - Green
 description: Konfigurasikan Jade Plus dengan mudah dengan Green
 ---
 ![cover](assets/cover.webp)
@@ -36,7 +36,7 @@ electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 | 🔴 |
 
 Dalam tutorial ini, kita akan mengatur dan menggunakan Jade Plus dengan aplikasi seluler Green Wallet Blockstream melalui koneksi Bluetooth. Pengaturan ini sangat ideal untuk pemula. Jika Anda mencari pendekatan yang lebih canggih, saya sarankan Anda melihat tutorial ini di mana kita menggunakan Jade Plus dengan Sparrow Wallet dalam mode kode QR:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 ## Model keamanan Jade Plus
 
@@ -101,7 +101,7 @@ Klik tombol "*Lanjutkan*" untuk menampilkan frasa pemulihan baru Anda.
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Jade Plus Anda akan menampilkan frasa mnemonik 12 kata. **Mnemonik ini memberikan Anda akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Jade Plus Anda. Frasa 12 kata ini akan mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Jade Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di lokasi yang aman.
+Jade Plus Anda akan menampilkan frasa mnemonik 12 kata. **Mnemonik ini memberikan Anda akses penuh dan tidak terbatas ke semua bitcoin Anda. Siapa pun yang memiliki frasa ini dapat mencuri dana Anda, bahkan tanpa akses fisik ke Jade Plus Anda. Frasa 12 kata ini akan mengembalikan akses ke bitcoin Anda jika terjadi kehilangan, pencurian, atau kerusakan pada Jade Anda. Oleh karena itu, sangat penting untuk menyimpannya dengan hati-hati dan menyimpannya di lokasi yang aman.**
 
 Anda bisa menuliskannya pada karton yang disertakan dalam kotak, atau untuk keamanan tambahan, saya sarankan untuk mengukirnya pada dasar baja tahan karat untuk melindunginya dari kebakaran, banjir atau keruntuhan.
 
@@ -109,9 +109,9 @@ Anda bisa menuliskannya pada karton yang disertakan dalam kotak, atau untuk keam
 
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-***Tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial
+**Tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial**
 
 Klik panah di sebelah kanan layar untuk menampilkan kata-kata berikut.
 
@@ -125,11 +125,11 @@ Setelah Anda menyimpan frasa, Jade Plus akan meminta Anda untuk mengonfirmasinya
 
 Dalam tutorial ini, kita akan menggunakan aplikasi Green Wallet untuk mengelola dompet yang dihosting di Jade Plus. Metode ini sangat cocok untuk pemula. Jika Anda ingin mengelola dompet Bitcoin Anda secara lebih detail, Anda juga bisa menggunakan Sparrow Wallet, yang akan kita bahas dalam tutorial terpisah:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 Untuk petunjuk tentang cara menginstal dan menyiapkan aplikasi Blockstream Green, silakan lihat bagian pertama dari tutorial ini:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 Setelah berada di aplikasi Blockstream Green, klik tombol "*Konfigurasi portofolio baru*".
 
@@ -207,7 +207,7 @@ Pilih "*Standard*" jika Anda ingin membuat portofolio single-sig klasik.
 
 Untuk informasi lebih lanjut tentang opsi "*2FA*", Anda dapat mengikuti tutorial lainnya:
 
-https://planb.network/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
+https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
 Akun Anda telah dibuat.
 
@@ -229,11 +229,11 @@ Kemudian masukkan kode PIN pada Jade Anda, dan Anda akan terhubung kembali.
 
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
-Jade Anda dibuka kuncinya melalui "elemen aman virtual" Blockstream (lihat bagian pertama tutorial ini). Hal ini memerlukan koneksi Bluetooth dengan aplikasi Green. Jika Anda mengalami kesulitan dengan koneksi Bluetooth saat membuka kunci, coba pisahkan dan hubungkan kembali kedua perangkat. Jika masalah masih berlanjut, Anda masih dapat membuka kunci Jade Anda dengan memilih opsi "*QR Scan*" dan mengikuti petunjuk yang tersedia [di situs web Blockstream] (https://jadefw.blockstream.com/pinqr/index.html).
+Jade Anda dibuka kuncinya melalui "elemen aman virtual" Blockstream (lihat bagian pertama tutorial ini). Hal ini memerlukan koneksi Bluetooth dengan aplikasi Green. Jika Anda mengalami kesulitan dengan koneksi Bluetooth saat membuka kunci, coba pisahkan dan hubungkan kembali kedua perangkat. Jika masalah masih berlanjut, Anda masih dapat membuka kunci Jade Anda dengan memilih opsi "*QR Scan*" dan mengikuti petunjuk yang tersedia [di situs web Blockstream](https://jadefw.blockstream.com/pinqr/index.html).
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di aplikasi Green dan di Jade Plus ketika masih kosong (`Options -> Device -> Factory Reset`). Kemudian coba pulihkan dompet Anda menggunakan cadangan kertas dari frasa mnemonik. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tuliskan sebelumnya. Jika sesuai, Anda dapat yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut mengenai cara melakukan pemulihan uji coba, silakan baca tutorial lainnya:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Menerima bitcoin
 
@@ -267,7 +267,7 @@ Pilih jumlah pembayaran.
 
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
-Di bagian bawah layar, Anda dapat memilih tarif biaya untuk transaksi ini. Anda dapat memilih untuk mengikuti rekomendasi aplikasi atau menyesuaikan biaya Anda. Semakin tinggi biaya dalam kaitannya dengan transaksi tertunda lainnya, semakin cepat transaksi Anda akan diproses. Untuk informasi pasar biaya, silakan kunjungi [Mempool.space] (https://mempool.space/) di bagian "*Biaya Transaksi*".
+Di bagian bawah layar, Anda dapat memilih tarif biaya untuk transaksi ini. Anda dapat memilih untuk mengikuti rekomendasi aplikasi atau menyesuaikan biaya Anda. Semakin tinggi biaya dalam kaitannya dengan transaksi tertunda lainnya, semakin cepat transaksi Anda akan diproses. Untuk informasi pasar biaya, silakan kunjungi [Mempool.space](https://mempool.space/) di bagian "*Biaya Transaksi*".
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
 
@@ -299,5 +299,6 @@ Selamat, sekarang Anda sudah mengetahui cara mengatur dan menggunakan Jade Plus 
 
 Untuk melangkah lebih jauh, saya merekomendasikan tutorial tentang Jade Plus ini, di mana kita mengonfigurasikannya dengan perangkat lunak Sparrow Wallet dalam mode QR. Anda juga akan mempelajari cara menggunakan pengaturan lanjutan dari dompet perangkat keras Anda:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+
 

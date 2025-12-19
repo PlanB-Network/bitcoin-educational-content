@@ -1,0 +1,9 @@
+question: Lý do chính để cài đặt Block explorer cục bộ như Mempool.Space trên Umbrel là gì?
+answer: Bảo vệ tính bảo mật và sử dụng dữ liệu từ nút của riêng bạn
+wrong_answers:
+  - Tăng tốc quá trình đồng bộ hóa Bitcoin core ban đầu
+  - Tăng dung lượng lưu trữ có sẵn cho các khối
+  - Nhận kênh Lightning
+explanation: |
+  Block explorer cục bộ ngăn chặn rò rỉ IP và dựa vào dữ liệu đã được xác thực của bạn, đảm bảo tính bảo mật và độ tin cậy.
+reviewed: true

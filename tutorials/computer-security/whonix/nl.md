@@ -17,12 +17,12 @@ description: Behoud je privacy en vertrouwelijkheid.
 
 
 
-- Gratis**: Net als de meeste Linux-distributies is Whonix een open-source systeem met een volledig gratis licentie. Het is ontwikkeld in open source, met een actieve en transparante gemeenschap.
-- Privacy, veiligheid en anonimiteit**: De belangrijkste doelstelling van Whonix is het bieden van een ultraveilige omgeving, waarin al je gegevens worden beschermd en je communicatie wordt versleuteld via het Tor-netwerk.
-- Gebruiksvriendelijk**: Whonix biedt een intuïtieve, vooraf geconfigureerde grafische Interface, die zelfs geschikt is voor beginnende gebruikers. Je hoeft geen expert te zijn om te profiteren van geavanceerde bescherming.
-- Ideale omgeving voor veilige ontwikkeling**: Met Whonix kun je programma's ontwikkelen, testen, controleren of uitvoeren zonder ooit je echte IP Address te onthullen of je surf- of netwerkcommunicatiegewoonten bloot te leggen.
-- Wegwerpsessies en Live-modus**: Whonix kan worden gestart in Live-modus of via wegwerpmachines (bijvoorbeeld via **Qubes OS**), zodat kritieke taken kunnen worden uitgevoerd zonder persistente sporen achter te laten zodra de sessie is beëindigd.
-- Relatief eenvoudige installatie**: Er worden kant-en-klare images geleverd voor een snelle installatie in virtuele machines (VirtualBox, KVM, Qubes). Het systeem is gedocumenteerd en wordt regelmatig bijgewerkt.
+- **Gratis**: Net als de meeste Linux-distributies is Whonix een open-source systeem met een volledig gratis licentie. Het is ontwikkeld in open source, met een actieve en transparante gemeenschap.
+- **Privacy, veiligheid en anonimiteit**: De belangrijkste doelstelling van Whonix is het bieden van een ultraveilige omgeving, waarin al je gegevens worden beschermd en je communicatie wordt versleuteld via het Tor-netwerk.
+- **Gebruiksvriendelijk**: Whonix biedt een intuïtieve, vooraf geconfigureerde grafische Interface, die zelfs geschikt is voor beginnende gebruikers. Je hoeft geen expert te zijn om te profiteren van geavanceerde bescherming.
+- **Ideale omgeving voor veilige ontwikkeling**: Met Whonix kun je programma's ontwikkelen, testen, controleren of uitvoeren zonder ooit je echte IP Address te onthullen of je surf- of netwerkcommunicatiegewoonten bloot te leggen.
+- **Wegwerpsessies en Live-modus**: Whonix kan worden gestart in Live-modus of via wegwerpmachines (bijvoorbeeld via **Qubes OS**), zodat kritieke taken kunnen worden uitgevoerd zonder persistente sporen achter te laten zodra de sessie is beëindigd.
+- **Relatief eenvoudige installatie**: Er worden kant-en-klare images geleverd voor een snelle installatie in virtuele machines (VirtualBox, KVM, Qubes). Het systeem is gedocumenteerd en wordt regelmatig bijgewerkt.
 
 
 
@@ -56,9 +56,9 @@ Hier zijn de aanbevolen specificaties voor een soepele en stabiele ervaring met 
 
 
 
-- Random Access Memory (RAM)**: een minimum van **8 GB** wordt sterk aanbevolen. Hoe meer RAM je hebt, hoe meer bronnen je kunt toewijzen aan de virtuele machines (Gateway en Workstation), waardoor de prestaties verbeteren.
+- **Random Access Memory (RAM)**: een minimum van **8 GB** wordt sterk aanbevolen. Hoe meer RAM je hebt, hoe meer bronnen je kunt toewijzen aan de virtuele machines (Gateway en Workstation), waardoor de prestaties verbeteren.
 - Beschikbare schijfruimte**: zorg voor ten minste 30 GB vrije schijfruimte**. Dit is inclusief de ruimte die nodig is voor de twee virtuele machines, systeembestanden en eventuele gegevens of snapshots.
-- Processor**: een processor met ten minste **4 fysieke cores** (8 logische threads) wordt aanbevolen, vooral als je andere services of tools parallel wilt draaien.
+- **Processor**: een processor met ten minste **4 fysieke cores** (8 logische threads) wordt aanbevolen, vooral als je andere services of tools parallel wilt draaien.
 
 
 
@@ -66,7 +66,7 @@ Hier zijn de aanbevolen specificaties voor een soepele en stabiele ervaring met 
 
 
 
-Whonix is verkrijgbaar in verschillende edities, afhankelijk van het type omgeving waarin je het wilt gebruiken. Voor de meeste gebruikers (Windows, Linux of MacOs) is de VirtualBox editie het makkelijkst op te zetten. Je kunt het image rechtstreeks downloaden van [de officiële website] (https://www.whonix.org/wiki/VirtualBox).
+Whonix is verkrijgbaar in verschillende edities, afhankelijk van het type omgeving waarin je het wilt gebruiken. Voor de meeste gebruikers (Windows, Linux of MacOs) is de VirtualBox editie het makkelijkst op te zetten. Je kunt het image rechtstreeks downloaden van [de officiële website](https://www.whonix.org/wiki/VirtualBox).
 
 
 
@@ -86,7 +86,7 @@ Zodra je het bestand hebt gedownload, installeer je het zoals je met elke andere
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Whonix importeren
 
 
@@ -224,7 +224,7 @@ sudo apt full-upgrade
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
@@ -234,7 +234,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix is meer dan alleen een besturingssysteem: het is een echte **veilige omgeving** ontworpen om je anonimiteit, je privacy en je gevoelige activiteiten te beschermen. Dankzij de Tor-gebaseerde architectuur, intelligente partitionering tussen Gateway en Workstation en voorgeïnstalleerde tools zoals Tor Browser, KeePassXC en Electrum, biedt het een kant-en-klare oplossing voor iedereen die anoniem wil surfen**, **veilig wil werken** of **vertrouwelijke gegevens** wil verwerken**.
 
@@ -244,4 +244,4 @@ Om je beveiliging op je Unix-systeem te versterken, kun je onze tutorial over he
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

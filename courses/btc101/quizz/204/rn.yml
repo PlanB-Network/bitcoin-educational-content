@@ -1,11 +1,8 @@
-question: Ni ikihe kimwe mu bintu ukwiye kwitwararika igihe uhitamwo urubuga rwa DCA?
-answer: Kuboneka mu gihugu cawe.
+question: Ni igikorwa ikihe Bitcoin ihatira amashirahamwe, amashure makuru, abajejwe gucungera amategeko, n’abantu ku giti cabo gukora?
+answer: Kugira ngo babishire mu muzirikanyi.
 wrong_answers:
-  - Ibara ry’ikimenyetso c’urubuga.
-  - Igitigiri c’abakoresha kuri iyo nzira.
-  - Imyaka y’ibarabara.
-explanation: |
-  Iki canditswe c’amashure kivuga ko iyo uhisemwo DCA .
-  urubuga, uguhitamwo kwiza kuzovana cane n’ivyo .
-  kuboneka mu gihugu cawe.
+  - Kugira ngo uvyirengagize.
+  - Kugira ngo babibuze.
+  - Kugira ngo bibe icaha.
+explanation: >-
 reviewed: true

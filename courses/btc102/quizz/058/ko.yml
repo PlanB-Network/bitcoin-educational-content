@@ -1,0 +1,9 @@
+question: 편집증 사용자에게 권장되는 Cold 스토리지 솔루션은 무엇인가요?
+answer: 에어 갭 또는 DIY Hardware Wallet
+wrong_answers:
+  - 모바일 Hot Wallet
+  - Exchange 플랫폼의 커스터디 서비스
+  - 범용 비공개 소스 Hardware Wallet
+explanation: |
+  편집증적인 사용자는 노출 위험을 최소화하기 위해 오픈 소스 솔루션이 있는 오프라인 스토리지를 선호합니다.
+reviewed: false

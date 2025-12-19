@@ -8,4 +8,4 @@ Im allgemeinen Sprachgebrauch bezieht sich der Begriff "verwaister Block" jedoch
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ich persönlich bevorzuge den Begriff "verwaister Block" für einen Block ohne Elternteil und den Begriff "veralteter Block" für einen Block, der kein Kind hat. Ich finde dies logischer und verständlicher, auch wenn die Mehrheit der Bitcoiner dieser Verwendung nicht folgt.*
+> ich persönlich bevorzuge den Begriff "verwaister Block" für einen Block ohne Elternteil und den Begriff "veralteter Block" für einen Block, der kein Kind hat. Ich finde dies logischer und verständlicher, auch wenn die Mehrheit der Bitcoiner dieser Verwendung nicht folgt.

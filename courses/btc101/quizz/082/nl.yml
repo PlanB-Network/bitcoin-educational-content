@@ -1,11 +1,13 @@
-question: Wat is de technologie die wordt gebruikt om veilig geld uit te geven met een Bitcoin Wallet?
-answer: Elliptische curve cryptografie.
+question: Wat is het risico om de beveiliging en toegankelijkheid van je bitcoins te ingewikkeld te maken?
+answer: Je kunt jezelf beschadigen als je de back-ups portemonnees verkeerd gebruikt.
 wrong_answers:
-  - Symmetrische cryptografie.
-  - Kwantumcryptografie.
-  - RSA-cryptografie.
+  - Je kunt jezelf verwonden als je de fysieke portemonnees verkeerd hanteert.
+  - Je kunt jezelf beschadigen als je de digitale portemonnees verkeerd gebruikt.
+  - Je kunt jezelf verwonden als je de Multisig portemonnees verkeerd gebruikt.
 explanation: |
-  Voor het uitgeven van Bitcoins moet de eigenaar Elliptic Curve
-  Digitale Handtekening Algoritme (ECDSA) om een handtekening te vervalsen
-  voor de verspreiding van een Bitcoin transactie.
+  Het te ingewikkeld maken van de beveiliging en toegankelijkheid van uw
+  bitcoins kan je schade berokkenen als je bijvoorbeeld de
+  back-ups van je portemonnees. Dit komt omdat eenvoudige back-up
+  procedures cruciaal zijn om weer toegang te krijgen tot je geld
+  in geval van verlies van je telefoon of computer.
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Istunto
+name: Session
 description: Lähetä salattuja viestejä, ei metatietoja
 ---
 ![cover](assets/cover.webp)
@@ -99,13 +99,13 @@ Tämän jälkeen sinun on valittava kahden ilmoituksenhallintatilan välillä:
 
 
 
-- Nopea tila ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: voit vastaanottaa viesti-ilmoituksia lähes reaaliajassa Googlen tai Applen (järjestelmästäsi riippuen) tarjoamien ilmoituspalvelujen ansiosta. Jotta tämä toimisi, IP Address ja yksilöllinen ilmoitustunnus lähetetään Googlelle tai Applelle, ja istuntotilin tunnus rekisteröidään myös STF-palvelimelle (Torin kautta). Tässä tilassa metatietoja paljastuu (tosin vain vähän), mutta se ei vaaranna viestien sisältöä tai yhteystietoja, eikä todellista toimintaasi voida jäljittää. Tämä tila on siis tehokkaampi reagointikyvyn kannalta, mutta se on riippuvainen keskitetystä infrastruktuurista ja hieman tehottomampi luottamuksellisuuden kannalta.
+- Nopea tila (**Firebase Cloud Messaging/Apple Push Notification Service**): voit vastaanottaa viesti-ilmoituksia lähes reaaliajassa Googlen tai Applen (järjestelmästäsi riippuen) tarjoamien ilmoituspalvelujen ansiosta. Jotta tämä toimisi, IP Address ja yksilöllinen ilmoitustunnus lähetetään Googlelle tai Applelle, ja istuntotilin tunnus rekisteröidään myös STF-palvelimelle (Torin kautta). Tässä tilassa metatietoja paljastuu (tosin vain vähän), mutta se ei vaaranna viestien sisältöä tai yhteystietoja, eikä todellista toimintaasi voida jäljittää. Tämä tila on siis tehokkaampi reagointikyvyn kannalta, mutta se on riippuvainen keskitetystä infrastruktuurista ja hieman tehottomampi luottamuksellisuuden kannalta.
 
 
 
 
 
-- Hidas tila (*taustakysely*)**: istuntosovellus pysyy aktiivisena taustalla ja kyselee säännöllisesti verkosta uusia viestejä. Tämä toimintatapa takaa luottamuksellisemman tiedonsiirron kuin ensimmäinen toimintatapa, sillä tietoja ei välitetä kolmannen osapuolen palvelimille; Google, Apple tai STF-palvelimet eivät saa mitään tietoja. Toisaalta tässä tilassa on kaksi haittaa: ilmoitukset voivat viivästyä (jopa useita minuutteja), ja energiankulutus on yleensä suurempi, koska sovellus toimii taustalla.
+- Hidas tila (**taustakysely**): istuntosovellus pysyy aktiivisena taustalla ja kyselee säännöllisesti verkosta uusia viestejä. Tämä toimintatapa takaa luottamuksellisemman tiedonsiirron kuin ensimmäinen toimintatapa, sillä tietoja ei välitetä kolmannen osapuolen palvelimille; Google, Apple tai STF-palvelimet eivät saa mitään tietoja. Toisaalta tässä tilassa on kaksi haittaa: ilmoitukset voivat viivästyä (jopa useita minuutteja), ja energiankulutus on yleensä suurempi, koska sovellus toimii taustalla.
 
 
 
@@ -145,7 +145,7 @@ Tämä lause toimii samalla tavalla kuin Bitcoin-salkuissa käytetyt Mnemonic-la
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Huomaa**: Toisin kuin Bitcoin-salkuissa käytetyt Mnemonic-lauseet, Session-salkussa **jokainen sana on ehdottomasti tallennettava kokonaisuudessaan**. Neljä ensimmäistä kirjainta ei riitä!
 
@@ -171,7 +171,7 @@ Pääset sovellusasetuksiin napsauttamalla Interface:n vasemmassa yläkulmassa o
 
 
 
-Valikossa "*Hälytys*" voit valita "*Nopea tila*" ja "Hidas tila*" (katso oppaan aiemmat osat). Voit myös mukauttaa ilmoituksia mieltymystesi mukaan.
+Valikossa "*Hälytys*" voit valita "*Nopea tila*" ja "*Hidas tila*" (katso oppaan aiemmat osat). Voit myös mukauttaa ilmoituksia mieltymystesi mukaan.
 
 
 
@@ -299,4 +299,4 @@ Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen Threeman, toisen
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

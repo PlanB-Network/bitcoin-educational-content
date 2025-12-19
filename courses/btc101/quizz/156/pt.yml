@@ -1,11 +1,10 @@
-question: Qual é o propósito das pools de mineração?
-answer: As pools de mineração permitem que os mineradores juntem seus recursos computacionais e recebam recompensas menores, mas mais regulares.
+question: Qual é o tempo médio entre a criação de dois blocos no protocolo Bitcoin?
+answer: 10 minutos.
 wrong_answers:
-  - As pools de mineração são usadas para aumentar o HashRate da rede Bitcoin como um todo.
-  - As pools de mineração são usadas para diminuir a dificuldade da mineração.
-  - As pools de mineração são usadas para aumentar a recompensa pela mineração.
+  - 5 minutos.
+  - 15 minutos.
+  - 20 minutos.
 explanation: >-
-  As pools de mineração são grupos de mineradores que combinam seu poder computacional
-  para aumentar suas chances de minerar um bloco. Ao juntarem seus recursos, eles podem
-  minerar blocos mais frequentemente e receber recompensas menores, mas mais regulares.
+  Em média, um bloco é criado a cada 10 minutos no protocolo Bitcoin.
+  Esse tempo permanece constante, independentemente do número de mineradores e de seu poder de computação.
 reviewed: true

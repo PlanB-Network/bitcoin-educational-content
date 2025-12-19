@@ -1,0 +1,9 @@
+question: D'après le chapitre, que se passe-t-il lorsque vous êtes négligent avec vos propres pratiques en matière de protection de la vie privée dans le cadre de Bitcoin ?
+answer: Il peut également porter atteinte à la vie privée des autres utilisateurs de Bitcoin
+wrong_answers:
+  - Elle n'affecte que vos propres transactions et n'a pas d'impact sur les autres
+  - Il rend l'ensemble du réseau Bitcoin plus sûr pour tout le monde
+  - Il contribue à améliorer l'anonymat général du système Bitcoin
+explanation: |
+  La protection de la vie privée dans Bitcoin est interconnectée entre les utilisateurs. Lorsqu'une personne néglige ses pratiques en matière de protection de la vie privée, cela peut avoir un impact négatif sur la vie privée des autres utilisateurs avec lesquels elle effectue des transactions. En effet, les modèles de transaction, le regroupement d'adresses et d'autres techniques d'analyse de la blockchain peuvent révéler des informations sur plusieurs parties impliquées dans les transactions. Le chapitre souligne que les mesures de protection de la vie privée que vous prenez ne vous protègent pas seulement vous-même - elles contribuent également à protéger l'ensemble de la communauté Bitcoin, faisant de la protection de la vie privée une responsabilité collective plutôt qu'une simple préoccupation individuelle.
+reviewed: false

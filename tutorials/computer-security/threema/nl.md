@@ -70,7 +70,7 @@ Threema is beschikbaar op alle platforms. Je kunt de applicatie rechtstreeks dow
 
 
 
-Op Android is het ook mogelijk om [te installeren via APK] (https://shop.threema.ch/en/download).
+Op Android is het ook mogelijk om [te installeren via APK](https://shop.threema.ch/en/download).
 
 
 
@@ -276,7 +276,7 @@ Hier vindt u twee opties voor het maken van back-ups van uw gegevens:
 
 
 
-"Threema Safe* bewaart al je accountgegevens, behalve je gesprekken, op de servers van Threema. Deze gegevens worden versleuteld met het wachtwoord dat je hebt gekozen toen je je account aanmaakte, zodat Threema er geen toegang toe heeft. Back-ups worden automatisch en regelmatig gemaakt.
+"**Threema Safe** bewaart al je accountgegevens, behalve je gesprekken, op de servers van Threema. Deze gegevens worden versleuteld met het wachtwoord dat je hebt gekozen toen je je account aanmaakte, zodat Threema er geen toegang toe heeft. Back-ups worden automatisch en regelmatig gemaakt.
 
 
 
@@ -332,7 +332,7 @@ Hier kunt u uw profiel aanpassen: een foto toevoegen, kiezen wie het kan zien of
 
 
 
-Als je toegang wilt tot je gesprekken op je pc, kun je je Threema-account synchroniseren met de speciale software. Download de software voor jouw besturingssysteem [van de officiële website] (https://threema.ch/en/download).
+Als je toegang wilt tot je gesprekken op je pc, kun je je Threema-account synchroniseren met de speciale software. Download de software voor jouw besturingssysteem [van de officiële website](https://threema.ch/en/download).
 
 
 
@@ -440,4 +440,4 @@ Ik raad ook deze andere tutorial aan, waarin ik je kennis laat maken met Proton 
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

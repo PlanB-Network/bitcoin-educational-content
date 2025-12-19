@@ -1,13 +1,9 @@
-question: Ni iyihe nzira y’iterambere ry’amahera y’ubu?
-answer: Ibuye ry'agaciro -> Coin -> Ikete -> Ikarata ya banki -> Blockchain -> Lightning Network.
+question: None amahera ya fiat asobanura iki?
+answer: Amafaranga ya Fiat ni amafaranga afise agaciro kuko Leta irayabungabunga kandi abantu bafise ukwizera mu gaciro kayo, aho gushigikirwa n’ikintu gifatika nk’inzahabu.
 wrong_answers:
-  - Ibuye ry'agaciro -> Coin -> Igipapuro c'amahera -> Blockchain -> Lightning Network.
-  - Ibuye ry'agaciro -> Coin -> Ikete -> Ikarata ya banki -> Lightning Network.
-  - Ibuye ry'agaciro -> Coin -> Ikarata ya banki -> Igipapuro ca banki -> Blockchain -> Lightning Network.
+  - Amahera ya Fiat ni amafaranga ashigikiwe n’ikintu gifatika, nk’inzahabu canke ifeza, bisobanura ko agaciro kayo gafitaniye isano n’agaciro k’ico kintu.
+  - Amahera ya Fiat ni ubwoko bw’amahera y’ibanga akora ku rubuga rwegerejwe, atuma umuntu ashobora gukorana n’abandi ataco akeneye ubutegetsi bukuru.
+  - Amafaranga ya Fiat ni amafaranga atagira agaciro k’imbere kandi adashobora gukoreshwa mu gucuruza, ivyo bikaba bituma mu vy’ukuri ata gaciro afise mu bukungu.
 explanation: |
-  Amafaranga ni ubuhinga bwateye imbere uko igihe kigenda kirarenga,
-  guhera ku guserukirwa n’amabuye atagira ibara, guhinduka .
-  mu biceri vy’ivyuma, hanyuma mu bice vy’amahera, mu makarita ya banki, no mu .
-  amaherezo mu mihora y’urunganwe n’urunganwe hakoreshejwe
-  Bitcoin Blockchain na Lightning Network.
+  Amahera ya fiat ashirwaho nk’amahera yemewe n’amategeko biciye ku itegeko rya leta, kandi agaciro kayo ntikava ku kintu na kimwe gifatika.
 reviewed: true

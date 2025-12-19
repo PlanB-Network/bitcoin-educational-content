@@ -23,7 +23,7 @@ Urządzenia te są sprzedawane albo jako dodatkowy grzejnik w przypadku **Avalon
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Należy pamiętać, że różnica w cenie w porównaniu z tradycyjnymi grzejnikami o równoważnej mocy w zdecydowanej większości przypadków nie pozwala na osiągnięcie zysku finansowego. Satoshi generowane przez Mining nigdy nie zrekompensują tej różnicy w cenie, chyba że masz dostęp do darmowej (nadwyżki) lub bardzo taniej energii elektrycznej.
 
@@ -181,9 +181,9 @@ Aby uzyskać więcej informacji na temat łączenia się z Mining pool, zapoznaj
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Podsumowując, potrzebujemy
 
@@ -358,4 +358,4 @@ Aby dowiedzieć się więcej, zapoznaj się z naszym samouczkiem na temat mniejs
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

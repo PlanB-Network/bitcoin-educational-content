@@ -1,5 +1,5 @@
 ---
-name: فلش
+name: Flash
 description: خرید بیت‌کوین از 100 فرانک CFA با استفاده از قدرت لایتنینگ.
 ---
 
@@ -39,8 +39,8 @@ description: خرید بیت‌کوین از 100 فرانک CFA با استفا�
 
 
 
-- فلشX**: Exchange بیت‌کوین با پول موبایل.
-- فلش‌پیمنت**: از Bitcoin برای خدمات روزمره استفاده کنید.
+- **فلشX**: Exchange بیت‌کوین با پول موبایل.
+- **فلش‌پیمنت**: از Bitcoin برای خدمات روزمره استفاده کنید.
 
 
 
@@ -73,9 +73,9 @@ Bitcoin با فراهم کردن دسترسی آزاد به یک سیستم ما
 
 
 
-- بنین**: MTN Benin، Moov Benin، Celtiis.
-- توگو** : Moov Togo.
-- بورکینافاسو**: نارنجی.
+- **بنین**: MTN Benin، Moov Benin، Celtiis.
+- **توگو** : Moov Togo.
+- **بورکینافاسو**: نارنجی.
 
 
 
@@ -110,7 +110,7 @@ Bitcoin با فراهم کردن دسترسی آزاد به یک سیستم ما
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 انجام یک تراکنش در Flash به طور متوسط 5 تا 10 دقیقه طول می‌کشد تا بیت‌کوین‌های خود را در Lightning Wallet دریافت کنید.
 
@@ -157,10 +157,10 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- واحدهای **GSM؛
-- بسته‌های اینترنت**؛
-- فراخوانی بسته‌ها**؛
-- ترکیبی از بسته تماس و اینترنت**.
+- واحدهای **GSM**؛
+- بسته‌های اینترنت؛
+- فراخوانی **بسته‌ها**؛
+- ترکیبی از بسته **تماس و اینترنت**.
 
 
 
@@ -202,5 +202,4 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

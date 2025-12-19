@@ -1,0 +1,9 @@
+question: Sparrow'da mevcut olan üç sunucu seçeneği nelerdir?
+answer: Genel Sunucu, Bitcoin core, Özel Electrum
+wrong_answers:
+  - RPC Direct, VPN, Tor
+  - Full node, Hafif Düğüm, Mobil Düğüm
+  - Core RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow üç sunucu seçeneği sunar: Genel Sunucu, Bitcoin core (RPC) ve Özel Electrum.
+reviewed: true

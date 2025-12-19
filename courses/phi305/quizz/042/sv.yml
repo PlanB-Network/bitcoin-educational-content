@@ -1,0 +1,9 @@
+question: Vem skrev "Ingenting händer i naturen som kan tillskrivas en
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Det var Spinoza som skrev: "Ingenting händer i naturen som kan hänföras till en last som finns i den". Denna fras uttrycker tanken att naturen är perfekt i sitt slag och att defekter endast är mänskliga bedömningar.
+reviewed: false

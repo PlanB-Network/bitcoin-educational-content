@@ -1,26 +1,18 @@
 ---
-name: Introduktion till österrikisk ekonomi
-goal: Upptäck den österrikiska skolan inom ekonomiskt tänkande. Studera deras syn på samhället och makro-/mikroekonomiska realiteter.
-objectives: 
-
-  - Ett alternativ till keynesianismen
-  - Betydelsen av Hard-valutan
-  - Varför och hur skapas våra ekonomiska cykler?
-  - Varför har centralbankerna blivit galna?
-
+name: Grunderna i den österrikiska ekonomiska skolan
+goal: Upptäck österrikisk ekonomi som ett alternativt ramverk för att analysera marknader och individuellt beslutsfattande
+objectives:
+- Analysera funktionerna hos pengar, kredit och centralbankssystem
+- Tillämpa subjektiv värdeteori och tidspreferens på marknadsbeteende
+- Förstå den österrikiska konjunkturteorin och dess orsaker
+- Jämföra österrikisk metodologi med mainstream ekonomiska tillvägagångssätt
 ---
+# Resan till den österrikiska ekonomin
 
-# En resa in i ekonomin
+Har du någonsin undrat varför vissa ekonomer tänker annorlunda om marknader, frihet och mänskligt beteende? Österrikisk ekonomi erbjuder ett uppfriskande perspektiv som placerar dig i hjärtat av ekonomiskt tänkande. Istället för tung matematik och abstrakta modeller fokuserar detta tillvägagångssätt på logik, mänskliga val och hur riktiga människor fattar beslut i sina dagliga liv. Det är ekonomi genom frihetens, rationalitetens och personliga handlingens lins.
 
-
-Välkommen till Théo Mogenets kurs! Han har en passion för ekonomi, historia, litteratur, statsvetenskap och teknik och har bestämt sig för att dela med sig av sina kunskaper om österrikisk ekonomi. Denna gren, som är mindre känd inom nationalekonomin, bygger på mänsklig rationalitet och fria aktörers beteende. Mindre intensiv i matematik, det är en fråga om logik och sociala studier framför allt.
-
-
-Denna tankeskola har redan flera århundraden på nacken och har ett helt panorama av författare, tankar och ekonomer bakom sig. Stora namn inom nationalekonomin som Hayek, Rothbard, Mises, Bastiat eller Menger har länge försvarat denna rörelse. I motsats till dagens allestädes närvarande keynesianism sätter den österrikiska skolan individen tillbaka i centrum för ekvationen med ett mer liberalt, kapitalistiskt och till och med anarkistiskt synsätt.
-
-
+Denna tankeskola har format debatter i århundraden, tack vare inflytelserika tänkare som Hayek, Mises och Bastiat. Medan den keynesianska mainstream-ekonomin dominerar dagens politiska diskussioner, ställer den österrikiska traditionen andra frågor: Vad händer när vi prioriterar individuell frihet? Hur fungerar fria marknader egentligen när människor är fria att välja? Om du är nyfiken på alternativa sätt att tänka om marknader, samhälle och frihet, är detta din chans att utforska idéer som du inte hittar i standardläroböcker.
 +++
-
 # Inledning
 
 
@@ -96,7 +88,7 @@ När ett finansinstitut har en banklicens innebär det i princip att de skulder 
 När du köper huset ger du din bankman i uppdrag att överföra pengar till säljarens konto. Om säljarens konto finns i en annan bank meddelar din bankman motsvarande bankman i det andra institutet så att säljarens konto krediteras i enlighet med detta, samtidigt som ditt konto debiteras med motsvarande belopp.
 
 
-![image](assets/en/01.webp)
+![image](assets/sv/001.webp)
 
 
 Figur 1: Penningskapande som bokföringsposter
@@ -123,7 +115,7 @@ Denna gåta gav upphov till de moderna centralbankerna. Under 1800-talet hotades
 Förutom att upprätthålla finansiell stabilitet ansvarar centralbankerna för att fastställa de viktigaste styrräntorna. Dessa räntor avgör till vilken kostnad banker med tillstånd kan låna pengar från centralbanken, vilket i princip definierar likviditetskostnaden för de finansinstitut som spelar en avgörande roll för utlåningen i våra ekonomier. Därför fungerar dessa räntor som ett riktmärke för hela det finansiella systemet. Som privatperson kan de räntor som du betalar på ditt bolån delas upp i styrräntan och bankens marginal.
 
 
-![image](assets/en/02.webp)
+![image](assets/sv/002.webp)
 
 
 Figur 2: Lehman Brothers konkurs (2008-09-15)
@@ -135,7 +127,7 @@ Under den stora finanskrisen 2008 gick den stora investmentbanken Lehman Brother
 Även om dessa åtgärder förhindrade en våg av konkurser gjorde de inte mycket för att lindra den efterföljande ekonomiska avmattningen. Miljontals människor förlorade sina jobb och hem, konsumtionen sjönk kraftigt, företag gick omkull och bankerna gjorde stora förluster. Trots historiskt låga räntor var det få som var villiga att låna, vilket resulterade i en ond cirkel där den initiala minskningen av konsumtion och investeringar förstärktes. Centralbankerna tog därför ytterligare steg genom att införa kvantitativa lättnader (QE). Dessa program innebar att centralbankerna köpte statsobligationer och värdepapper med säkerhet i bostadslån från affärsbanker med centralbankens reserver.
 
 
-![image](assets/en/03.webp)
+![image](assets/sv/003.webp)
 
 
 Figur 3: Räntenivåer i de största ekonomierna / Källa: ECB
@@ -150,7 +142,7 @@ I motsats till vad många förväntade sig ledde QE-programmen inte till någon 
 Icke desto mindre kan en viktig ekonomisk princip dras från denna episod: när nya pengar skapas gynnar det till en början de som är närmast källan till pengarna, på bekostnad av de som är längre bort. Denna ekonomiska insikt går tillbaka till 1700-talet då Richard Cantillon beskrev den i sin "Essay on the Nature of Commerce in General" Den kallas numera i dagligt tal för "Cantillon-effekten".
 
 
-![image](assets/en/04.webp)
+![image](assets/sv/004.webp)
 
 
 Figur 4: Cantilloneffekten i ett nötskal / Källa: River Financial
@@ -162,7 +154,7 @@ I det här fallet fick bankirer, bankdirektörer, aktie- och obligationsägare, 
 I grund och botten är systemet skevt. Banker är i sig instabila, men om de går omkull kan det äventyra hela ekonomin. Denna moraliska risk gör att bankdirektörer tar överdrivna risker för att maximera bankens intäkter, i vetskap om att centralbanken i slutändan kommer att rädda dem och skjuta över kostnaden på skattebetalarna. I sådana scenarier skapar centralbankerna förutsättningar för en massiv överföring av köpkraft från hårt arbetande individer och sparare till tillgångsägare och personer med koppling till det finansiella systemet, vilket innebär att processen för att skapa välstånd kopplas bort från ackumulering av välstånd.
 
 
-![image](assets/en/05.webp)
+![image](assets/sv/005.webp)
 
 
 Figur 5: Förmögenhetsfördelning i Kina + Europa + USA / Källa: OECD
@@ -177,7 +169,7 @@ Under långa perioder med nollräntepolitik (ZIRP) har bankerna begränsade möj
 En annan oavsiktlig konsekvens av ZIRP är att den uppmuntrar regeringar att spendera stora summor. Eftersom regeringar inte har några lånekostnader och kan förlita sig på att centralbankerna köper deras obligationer genom QE-program har de ett naturligt incitament att spendera så mycket som möjligt, särskilt i demokratiska sammanhang där utgifter kan ge röster. Denna tendens bortser ofta från de långsiktiga konsekvenserna av en sådan finanspolitisk slösaktighet, vilket har lett till en betydande ökning av de offentliga skuldnivåerna i de utvecklade ekonomierna sedan den globala finanskrisen (GFC).
 
 
-![image](assets/en/06.webp)
+![image](assets/sv/006.webp)
 
 
 Figur 6: Offentlig och privat skuldsättning i % av BNP (Världen, viktat med BNP per land) / Källa IMF
@@ -234,7 +226,7 @@ Sådana frågor har sysselsatt ekonomer och filosofer i många århundraden och 
 Efter att fysiokraternas teori om markvärdet, som hävdade att allt värde kom från marken, hade motbevisats av de klassiska ekonomernas arbetsvärdeteori, som hävdade att värdet på en vara härrörde från mängden arbete som lades ned på dess produktion, var det marginalvärdeteorins tur att ersätta den senare. Under 1870-talet, efter Marx, den siste av de klassiska ekonomerna, uppstod nästan samtidigt tre nya ekonomiska skolor kring marginalvärdeteorin: Lausanne-skolan med Léon Walras, den moderna eller neoklassiska skolan med William Stanley Jevons och den österrikiska skolan med Carl Menger. Denna revolution inom värdeteorin innebar en betydande förnyelse av det ekonomiska tänkandet.
 
 
-![image](assets/en/07.webp)
+![image](assets/sv/007.webp)
 
 
 Från vänster till höger: William Stanley Jevons, Carl Menger, Léon Walras
@@ -249,7 +241,7 @@ Det är vanligt att framställa dessa tre skolors marginalism som likartad. Walr
 ### Subjektivt värde
 
 
-![image](assets/en/08.webp)
+![image](assets/sv/008.webp)
 
 
 Den österrikiske ekonomen tillbakavisar Adam Smiths efterföljares uppfattning och överger tanken att värdet på en vara kommer från den mängd arbete som används i produktionen, till förmån för uppfattningen att dess värde bestäms av individen, som i varje sammanhang utför en mental värderingshandling avseende en specifik mängd av en vara eller tjänst. Detta intellektuella språng som Menger gör utmanar objektiviteten i värdet: för honom är värdet inte en objektiv egenskap hos varor, utan bara resultatet av den relation som individen har till varan: "värdet existerar inte utanför det mänskliga medvetandet"
@@ -285,7 +277,7 @@ Denna subjektiva uppfattning om värde, som förstås som en psykologisk relatio
 ### Fördelningen av arbete
 
 
-![image](assets/en/09.webp)
+![image](assets/sv/009.webp)
 
 
 Besök på en nagelfabrik, Léonard Defrance (1700-talet)
@@ -380,7 +372,7 @@ Detta spel illustrerar ett problem som ofta uppstår i verkligheten: i avsaknad 
 ### Pengar för att lösa samordningsproblem
 
 
-![image](assets/en/10.webp)
+![image](assets/sv/010.webp)
 
 
 Detta problem har mindre inverkan i små gemenskaper (t.ex. familj, vänkretsar) eftersom alla i sådana fall känner varandra direkt, vilket gör det möjligt att komma ihåg varandras bidrag. Om man antar att det kostar att lämna gemenskapen (desertering) är ett ryktessystem som bygger på enskilda agenters minne oftast tillräckligt för att undvika de fallgropar som fångarnas dilemma innebär.
@@ -410,7 +402,7 @@ Under den förciviliserade tiden fanns inte dessa tekniker. Våra förfäder var
 ### Dubbelt sammanträffande av önskemål och säljbarhet
 
 
-![image](assets/en/11.webp)
+![image](assets/sv/011.webp)
 
 
 Pengar kan ses som den lösning som våra förfäder upptäckte för att lösa det som ekonomer kallar problemet med "dubbel samstämmighet av behov". Detta problem har tre dimensioner: rumslig, tidsmässig och mellanmänsklig.
@@ -479,7 +471,7 @@ Denna subjektiva bedömning av värdet av framtida varor jämfört med nutida va
 Detta koncept med relativ värdering av framtida varor i förhållande till nuvarande varor är roten till fenomenet ränta. I en ekonomi med omanipulerade kapitalmarknader bestäms referensräntorna (som anses vara riskfria från fallissemang) i skärningspunkten mellan kapitalets Supply och efterfrågan. Dessa räntor representerar därför hela ekonomins tidspreferenser: en ökning av räntan beror på en relativ ökning av efterfrågan på kapital jämfört med Supply, vilket tyder på högre tidspreferenser. Omvänt beror en sänkning av räntorna på en ökning av sparandet, vilket är en ökning av kapitalets Supply, vilket indikerar en minskning av tidspreferenserna.
 
 
-![image](assets/en/12.webp)
+![image](assets/sv/012.webp)
 
 
 I en ekonomi där räntorna inte manipuleras av centralbanken tenderar vi att se en uppåtlutande avkastningskurva: ju längre löptid på skulden, desto högre ränta. Den motsatta situationen kan inte uppstå eftersom det skulle innebära att framtiden är säkrare än nutiden, vilket är en logisk omöjlighet.
@@ -491,7 +483,7 @@ Begreppet tidspreferens och hur vi uttrycker vår egen tidspreferens genom konsu
 ### Kapitalteori
 
 
-![image](assets/en/13.webp)
+![image](assets/sv/013.webp)
 
 
 I början av den här kursen såg vi att varor enligt Carl Menger endast betraktas som ekonomiska varor (värderade) eftersom de fungerar som medel för att uppnå mål som individer väljer och värdesätter. Enligt detta synsätt kretsar all ekonomisk analys kring konsumtion eftersom det i slutändan är det motiverande målet bakom all ekonomisk aktivitet. För Menger är därför utgångspunkten för den ekonomiska analysen konsumtionsvaror, eller slutprodukter, eftersom de utgör det yttersta syftet med ekonomisk aktivitet. Alla andra varor i ekonomin, som vi kan kalla "insatsvaror", har bara ett värde eftersom de gör det möjligt för individer att skaffa dessa konsumtionsvaror: de är varor som används i produktionen av andra varor.
@@ -515,7 +507,7 @@ På grund av att mänskligt handlande är sekventiellt får dessa intertemporala
 För att illustrera denna punkt, låt oss återgå till det exempel som Böhm-Bawerk ger i sitt verk "Kapital och ränta":
 
 
-![image](assets/en/14.webp)
+![image](assets/sv/014.webp)
 
 
 Eugen von Böhm-Bawerk (1851-1914)
@@ -524,7 +516,7 @@ Eugen von Böhm-Bawerk (1851-1914)
 ### Robinson Crusoe och Production Detour/Roundabout:
 
 
-![image](assets/en/15.webp)
+![image](assets/sv/015.webp)
 
 
 Robinson Crusoe Landgångsförråd från vraket, John Alexander Gilfillan (1793-1864)
@@ -560,7 +552,7 @@ Som nämndes i det första kapitlet har centralbankerna manipulerat räntorna i 
 Detta illustreras perfekt av diagrammet nedan: långa räntor är lägre än korta räntor. För det första är detta helt ologiskt, eftersom det skulle innebära att framtiden är säkrare än nutiden. För det andra är det motiverat att fråga sig vilka konsekvenser det får för kapitalallokeringen: om alla har incitament att agera som om det fanns gott om sparande, medan spararna inte finns någonstans eftersom de inte belönas för sitt sparande, vilka konsekvenser kan detta få för ekonomin?
 
 
-![image](assets/en/16.webp)
+![image](assets/sv/016.webp)
 
 
 Detta är vad vi kommer att ta reda på i nästa kapitel som ägnas åt den österrikiska teorin om konjunkturcykeln!
@@ -605,7 +597,7 @@ För att så tydligt som möjligt beskriva detta fenomen med felkoordinering i t
 För att underlätta vår förklaring återgår vi till Mengers varuklassificering och representerar produktionsstrukturen i ett diagram som består av ett godtyckligt antal steg:
 
 
-![image](assets/en/17.webp)
+![image](assets/sv/017.webp)
 
 
 I ovanstående diagram passerar de ursprungliga resurserna genom olika produktionssteg och genomgår omvandlingar som för dem närmare de slutliga konsumtionsvarorna (genom interaktion med de ursprungliga produktionsfaktorerna: tid, mark, arbete). Höjden på triangelns högra sida representerar schematiskt BNP eftersom den anger summan av alla konsumtionsvaror som säljs under en period. Gapet mellan varje stapel motsvarar det mervärde (i monetära termer) som genereras av varje steg i processen. Denna skillnad kan också ses som den inkomst som är förknippad med varje steg (intäkter - kostnader).
@@ -617,7 +609,7 @@ Om de ekonomiska aktörerna på aggregerad nivå ökar sitt sparande kommer män
 Vi får då en utökad produktionsstruktur, en förändring som kvalitativt kan beskrivas med följande diagram:
 
 
-![image](assets/en/18.webp)
+![image](assets/sv/018.webp)
 
 
 Här har det monetära värdet på efterfrågade konsumtionsvaror minskat, vilket frigör resurser för att skapa ytterligare ett produktionssteg. I detta scenario där räntesänkningen är en följd av minskad konsumtion, dvs. ökat sparande, förblir triangelns area, som representerar mängden pengar i omlopp, oförändrad. Förändringen av produktionsstrukturen (förlängningen) är helt enkelt resultatet av en överföring av köpkraft från en del av strukturen till en annan.
@@ -641,7 +633,7 @@ Med lägre räntor kan entreprenörer låna mer resurser och därmed skapa produ
 Observera att detta är en helt logisk följd av kreditexpansionen. I den mån bankerna producerar fiduciary media genom att bevilja lån bör man naturligtvis förvänta sig att den totala köpkraften ökar.
 
 
-![image](assets/en/19.webp)
+![image](assets/sv/019.webp)
 
 
 När krediter kommer in i ekonomin genom lån till entreprenörer bör vi se en ökning av vinsterna i produktionssektorer som ligger långt från konsumtionen och en minskning av de relativa vinsterna i sektorer som ligger närmare konsumtionen. Den högre lönsamheten leder sedan till en omfördelning av kapital till dessa nya, mer kapitalintensiva faser (varvsindustri, fordonsindustri, byggnadsindustri, avancerad teknik etc.) och till minskade investeringar i sektorer som ligger närmare konsumtionen.
@@ -665,7 +657,7 @@ En sådan anpassning kan ses som en period under vilken underkonsumtion och unde
 Tyvärr avbryts denna depressiva mekanism ofta av den politiska makten och centralbanker som försöker "stimulera" ekonomin genom underskott och lätt penningpolitik.
 
 
-![image](assets/en/20.webp)
+![image](assets/sv/020.webp)
 
 
 För både monetarister och keynesianer är orsaken till depressionen otillräcklig aggregerad efterfrågan, så ingen av dem uppmärksammar utvecklingen av relativpriserna, vilket, som vi har sett, är kärnan i problemet. De tror därför att en återhämtning kommer att ske genom att man stimulerar kreditexpansion (sänker räntorna) och använder statens underskottskapacitet för att öka efterfrågan. På kort sikt kan sådana åtgärder tyckas ge de önskade effekterna: underskottet stöder utgifterna, medan räntesänkningen leder till högre tillgångspriser, vilket i sin tur uppmuntrar tillgångsinnehavarna att öka sina utgifter. Denna stimulans avtar dock så småningom, medan det strukturella problemet kvarstår eller till och med förvärras när felallokeringen av kapital fortsätter tack vare artificiellt låga räntor.
@@ -724,7 +716,7 @@ Med sin artikel introducerade Mises en ny dimension i debatten. Med bortseende f
 ### Förklaring till omöjligheten med ekonomisk kalkylering
 
 
-![image](assets/en/21.webp)
+![image](assets/sv/021.webp)
 
 
 De flesta missuppfattningar om Mises argument härrör från en missuppfattning av de roller som ledar- och entreprenörsklasserna spelar i en kapitalistisk ekonomi. Mises avfärdade aldrig chefers förmåga att utforma effektiva produktionsplaner inom sina egna verksamheter. Istället betonade han betydelsen av entreprenörer och aktieägare, som i egenskap av ägare av produktionsmedlen fördelar kapital mellan olika branscher och därigenom skapar priser som fungerar som input i chefernas ekonomiska kalkyler.
@@ -751,7 +743,7 @@ Denna process är avgörande eftersom den bekräftar eller underkänner effektiv
 Ur detta perspektiv kommer en centralplanerad ekonomi oundvikligen att drabbas av felallokering av kapital. På kort till medellång sikt kan sådana felallokeringar gå obemärkta förbi eftersom det inte finns några marknadspriser eller konkurser som avslöjar dem. Men på grund av avsaknaden av återkoppling (priser) och omfördelningsmekanismer (konkurser) kommer felen att ackumuleras tills slöseriet blir uppenbart genom en betydande försämring av levnadsvillkoren.
 
 
-![image](assets/en/22.webp)
+![image](assets/sv/022.webp)
 
 
 ### Det österrikiska perspektivet och andra ekonomiska skolors misslyckanden
@@ -766,7 +758,7 @@ Trots dessa imponerande prognoser och många empiriska bevis på att det är om�
 ### Den österrikiska konjunkturcykelteorin som ett specifikt fall av omöjligheten att göra ekonomiska beräkningar under socialismen
 
 
-![image](assets/en/23.webp)
+![image](assets/sv/023.webp)
 
 
 I ett tidigare kapitel belyste vi dynamiken i överinvesteringar och felallokering av kapital till följd av centralbankernas räntemanipulation. I grund och botten kan det vi förklarade ses som ett specifikt fall av omöjligheten att göra ekonomiska beräkningar under socialismen, tillämpat på penningmarknaderna. När priserna fastställs utanför sina marknadsvärden uppmuntras entreprenörer och kapitalfördelare att göra investeringar som inte kan upprätthållas på lång sikt på grund av brist på besparingar. Genom att ingripa i prissystemet skapar centrala planerare (i det här fallet centralbanker) en felaktig samordning mellan ekonomiska aktörer. I det här fallet innebär den intertemporala felkoordineringen överinvesteringar i investeringsvaror av högre rang och underinvesteringar i investeringsvaror av lägre rang, vilket är ett specifikt uttryck för felallokering av kapital mellan olika branscher.

@@ -1,0 +1,9 @@
+question: Ai là người viết bản tuyên ngôn Cypherpunk?
+answer: Eric Hughes.
+wrong_answers:
+  - Timothy May.
+  - Satoshi Nakamoto.
+  - Milton Friedman.
+explanation: |
+  Eric Hughes là tác giả của Tuyên ngôn Cypherpunk (1993). Văn bản quan trọng này bảo vệ việc sử dụng mật mã để bảo vệ quyền riêng tư trong thời đại kỹ thuật số.
+reviewed: false

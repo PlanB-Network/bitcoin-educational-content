@@ -1,5 +1,5 @@
 ---
-name: Portál
+name: Portal
 description: Konfigurace a používání hardwarové peněženky TwentyTwo-Devices Portál
 ---
 ![cover](assets/cover.webp)
@@ -66,9 +66,9 @@ Můžete jej vyrýt na kus papíru nebo pro větší bezpečnost doporučuji vyr
 
 Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.**_
+samozřejmě nesmíte tato slova nikdy sdílet na internetu, jako to dělám já v tomto návodu. Toto ukázkové portfolio bude použito pouze na Testnetu a na konci tutoriálu bude smazáno.
 
 Chcete-li přejít k dalším slovům, stiskněte pevně tlačítko na portálu. Ujistěte se, že jste na tlačítko položili celý prst a několik sekund ho drželi, aby byla interakce správně rozpoznána.
 
@@ -228,4 +228,4 @@ Gratuluji, nyní jste se naučili používat Portál! Pokud pro vás byl tento n
 
 Chcete-li se dozvědět více, podívejte se na naše kompletní školení o tom, jak fungují portfolia HD:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

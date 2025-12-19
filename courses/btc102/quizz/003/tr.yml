@@ -1,9 +1,9 @@
-question: Kripto para alanında Pump and Dump ne anlama geliyor?
+question: Kripto para alanında Pump and Dump (pompala ve boşalt) ne anlama geliyor?
 answer: Bir varlığın zirvede satılması için bir kampanya aracılığıyla manipüle edilmesi
 wrong_answers:
   - Bir varlığı hiç satmadan fiyatını desteklemek için büyük miktarda satın almak
   - Karşıt işlemler yoluyla piyasayı uzun vadede istikrara kavuşturmak
-  - Varlığa uzun vadeli maruz kalmak için yinelenen alımlar yapmak
+  - Varlığa uzun vadeli yatırım yapmak için yeniden alımlar yapmak
 explanation: |
   Bu hileli teknik, kritik bir anda satış yapmak ve değerin düşmesine neden olmak için fiyatın yapay olarak şişirilmesini içerir.
 reviewed: false

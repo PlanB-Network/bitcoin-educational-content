@@ -1,11 +1,10 @@
-question: Mis on multisig rahakott?
-answer: Rahakottide kogum, mis nõuab tehingu sooritamiseks mitut allkirja
+question: Mis on multisig rahakoti kasutamise risk?
+answer: Mitte omada piisavalt erinevaid osi multisig varukoopiast
 wrong_answers:
-  - Rahakott, mis nõuab tehingu sooritamiseks ühte allkirja
-  - Rahakott, mis ei nõua tehingu sooritamiseks ühtegi allkirja
-  - Rahakott, mis nõuab tehingu sooritamiseks füüsilist allkirja
+  - Omada piisavalt erinevaid osi multisig varukoopiast
+  - Jagada võtmeid teiste osapooltega
+  - Mitte jagada võtmeid teiste osapooltega
 explanation: |
-  Multisig rahakott on Bitcoin'i rahakoti tüüp, mis nõuab tehingu sooritamiseks mitut
-  allkirja. See lisab lisakihi turvalisust, kuna see tähendab, et üksikisik ei saa
-  tehingut sooritada ilma teiste nõusolekuta.
+  Multisig rahakoti kasutamisel tuleks iga multisigi osa hoida erinevates asukohtades. See on seetõttu, et multisig nõuab tehingu sooritamiseks mitme allkirja olemasolu, seega on vajalik teatud arv rahakotte, ja iga osa hoidmine erinevas asukohas lisab
+  lisaturvalisuse kihi.
 reviewed: true

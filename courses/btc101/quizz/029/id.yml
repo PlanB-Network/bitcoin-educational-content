@@ -1,9 +1,11 @@
-question: Apa keuntungan utama emas dibandingkan bentuk mata uang lainnya?
-answer: Kelangkaan alaminya membuatnya berharga, sementara sifat kimianya memungkinkan untuk tidak terkikis seiring waktu
+question: Apa yang dimaksud dengan istilah fidusiari dalam konteks mata uang?
+answer: Ini merujuk pada mata uang yang tidak memiliki nilai intrinsik dan bergantung pada kepercayaan pada institusi yang mengaturnya.
 wrong_answers:
-  - Mudah dibagi dan diangkut
-  - Tunduk pada inflasi moneter
-  - Diterima secara luas dalam perdagangan
+  - Ini merujuk pada mata uang yang didukung oleh emas.
+  - Ini merujuk pada mata uang yang hanya digunakan untuk transaksi fidusiari.
+  - Ini merujuk pada mata uang yang hanya digunakan di dalam institusi tertentu.
 explanation: |
-  Keuntungan utama emas dibandingkan bentuk mata uang lainnya adalah kelangkaan alaminya, yang membuatnya berharga, dan sifat kimianya, yang memungkinkan untuk tidak terkikis seiring waktu.
+  Mata uang fidusiari adalah mata uang yang tidak didukung oleh komoditas fisik
+  seperti emas atau perak. Nilai mereka berasal dari kepercayaan dan keyakinan orang
+  pada institusi yang menerbitkan dan mengaturnya.
 reviewed: true

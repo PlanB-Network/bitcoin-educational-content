@@ -6,4 +6,4 @@ wrong_answers:
   - Garantiza que el fichero está completo y no ha sido modificado
 explanation: |
   La firma PGP, validada mediante la clave pública del desarrollador, garantiza que el archivo autenticado procede de la fuente original.
-reviewed: false
+reviewed: true

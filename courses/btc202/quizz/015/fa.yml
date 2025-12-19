@@ -1,0 +1,9 @@
+question: جایگزین اصلی پیاده‌سازی Bitcoin core چیست؟
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin نقدی
+  - بی‌تی‌سی‌دی
+  - بکوین
+explanation: |
+  Bitcoin Knots، توسعه‌یافته توسط لوک دش‌جونیور، یک Fork از Core است که گزینه‌های اضافی و دیدگاهی محافظه‌کارانه‌تر ارائه می‌دهد.
+reviewed: true

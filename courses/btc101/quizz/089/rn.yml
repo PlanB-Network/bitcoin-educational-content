@@ -1,13 +1,11 @@
-question: Ni ikihe kibazo co gutera ingorane cane umutekano n’ugushikira amafaranga yawe ya bitcoins?
-answer: Ushobora kwigirira nabi iyo ukoresheje nabi ama wallets y’inyuma.
+question: Urufunguzo rw’ibanga akenshi rugereranywa n’uruhe muri Bitcoin Wallet?
+answer: Urutonde rw’amajambo 12 canke 24.
 wrong_answers:
-  - Ushobora kwigirira nabi iyo ukoresheje nabi amasakoshi y’umubiri.
-  - Ushobora kwigirira nabi iyo ukoresheje nabi ama wallets ya digitale.
-  - Ushobora kwigirira nabi iyo ukoresheje nabi ama wallet ya Multisig.
+  - Urutonde rw’amajambo 12 canke 48.
+  - Urutonde rw’amajambo 32.
+  - Urutonde rw’amajambo 64.
 explanation: |
-  Gutera ingorane cane umutekano n’uburyo bwo kuronka
-  bitcoins zishobora kukugirira nabi iyo, nk’akarorero, ukoresheje nabi
-  ama backups y’amasakoshi yawe. Ivyo ni kubera ko gusubiza inyuma vyoroshe
-  Uburyo bwo kubikora ni ngirakamaro kugira ngo usubire kuronka amahera yawe
-  mu gihe woba watakaje telefone yawe canke mudasobwa yawe.
+  Mu Bitcoin Wallet, urufunguzo rw'ibanga akenshi ruraserurwa
+  n’urutonde rw’amajambo 12 canke 24, azwi kandi ko ari interuro seed .
+  canke ijambo Mnemonic.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Hva er det som gjør nettbaserte systemer som Bitcoin fundamentalt annerledes enn fysiske systemer når det gjelder trusler fra fiender?
+answer: Nettbaserte systemer står overfor pseudonyme og anonyme motstandere som kan utnytte enhver svakhet uten å være synlige eller bli oppdaget
+wrong_answers:
+  - Online-systemer har mer komplekse kryptografiske algoritmer som er vanskeligere å analysere for å avdekke sikkerhetshull
+  - Fysiske systemer kan beskyttes av politiet, mens nettbaserte systemer kun er avhengige av matematiske bevis
+  - Nettbaserte systemer behandler transaksjoner raskere, noe som gjør det lettere for motstandere å iverksette koordinerte angrep
+explanation: |
+  Andrew Poelstra fremhever at fysiske systemer kan stole på at politiet og motstanderne er synlige for å avskrekke angrep, og til og med akseptere en viss risiko, for eksempel at bygninger blir brent ned. Nettbaserte systemer som Bitcoin opererer imidlertid i et miljø der motstanderne kan opptre pseudonymt eller anonymt, koble seg til hvor som helst og utnytte svakheter uten å bli identifisert eller tatt. Denne grunnleggende forskjellen betyr at alle kjente svakheter i Bitcoin må utbedres, ettersom de uunngåelig vil bli utnyttet av usynlige motstandere som ikke får noen konsekvenser i den virkelige verden.
+reviewed: false

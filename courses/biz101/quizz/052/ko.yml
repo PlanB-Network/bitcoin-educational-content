@@ -1,0 +1,9 @@
+question: 이 과정에서 설명하는 일반적인 Bitcoin 트랜잭션 CSV 파일에 명시적으로 문서화되지 않은 세부 사항은 무엇인가요?
+answer: 사용된 스크립트 유형
+wrong_answers:
+  - 거래 날짜
+  - 이에 상응하는 법정 화폐 가치
+  - Bitcoin 주소 관련 사항
+explanation: |
+  일반적인 Bitcoin 거래 CSV 파일에는 일반적으로 날짜, 금액, 법정 화폐 등가물, Bitcoin 주소가 언급되지만 사용된 스크립트 유형은 언급되지 않습니다.
+reviewed: true

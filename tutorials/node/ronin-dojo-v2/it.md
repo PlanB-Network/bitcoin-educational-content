@@ -4,7 +4,7 @@ description: Installazione del tuo nodo Bitcoin RoninDojo v2 su Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, alcune funzionalità di RoninDojo, come Whirlpool, non sono più operative. Tuttavia, è possibile che questi strumenti possano essere rimessi in servizio o rilanciati in modo diverso nelle prossime settimane. Inoltre, poiché il codice di RoninDojo era ospitato sul GitLab di Samourai, che è stato anch'esso sequestrato, attualmente non è possibile scaricare il codice a distanza. I team di RoninDojo stanno probabilmente lavorando alla ripubblicazione del codice.*
+**ATTENZIONE:** In seguito all'arresto dei fondatori di Samourai Wallet e al sequestro dei loro server il 24 aprile, alcune funzionalità di RoninDojo, come Whirlpool, non sono più operative. Tuttavia, è possibile che questi strumenti possano essere rimessi in servizio o rilanciati in modo diverso nelle prossime settimane. Inoltre, poiché il codice di RoninDojo era ospitato sul GitLab di Samourai, che è stato anch'esso sequestrato, attualmente non è possibile scaricare il codice a distanza. I team di RoninDojo stanno probabilmente lavorando alla ripubblicazione del codice.*
 
 _Stiamo seguendo da vicino l'evoluzione di questo caso così come gli sviluppi relativi agli strumenti associati. Siate certi che aggiorneremo questo tutorial non appena saranno disponibili nuove informazioni._
 
@@ -12,11 +12,11 @@ _Questo tutorial è fornito solo a scopo educativo e informativo. Non approviamo
 
 ---
 
-> "*Usa Bitcoin con privacy.*"
+> Usa Bitcoin con privacy.
 
 In un tutorial precedente, avevamo già spiegato la procedura per installare e utilizzare RoninDojo v1. Tuttavia, nell'ultimo anno, i team di RoninDojo hanno lanciato la versione 2 della loro implementazione, che ha segnato un punto di svolta significativo nell'architettura del software. Infatti, si sono allontanati dalla distribuzione Linux Manjaro a favore di Debian. Di conseguenza, non offrono più un'immagine pre-configurata per l'installazione automatica su Raspberry Pi. Ma esiste ancora un metodo per procedere con un'installazione manuale. Questo è quello che ho usato per il mio nodo, e da allora, RoninDojo v2 ha funzionato meravigliosamente sul mio Raspberry Pi 4. Offro quindi un nuovo tutorial su come installare manualmente RoninDojo v2 su Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -211,7 +211,7 @@ Una volta sulla homepage di RoninUI, ti verrà chiesto di iniziare la configuraz
 
 ![Iniziamo](assets/notext/25.webp)
 
-A questo punto, RoninUI ti presenta la tua password `root`. È essenziale tenerla al sicuro. Puoi optare per un backup fisico, su carta, o salvarla in un [gestore di password](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+A questo punto, RoninUI ti presenta la tua password `root`. È essenziale tenerla al sicuro. Puoi optare per un backup fisico, su carta, o salvarla in un [gestore di password](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![password root](assets/notext/26.webp)
 
@@ -245,7 +245,7 @@ Ti verrà chiesto di confermare la password dell'utente. Inseriscila e convalida
 Congratulazioni! Il tuo nodo RoninDojo v2 è ora configurato e pronto all'uso. Inizierà il suo IBD (*Initial Block Download*), procedendo con il download e la verifica della blockchain di Bitcoin a partire dal blocco Genesis. Questo passaggio comporta il recupero di tutte le transazioni Bitcoin effettuate dal 3 gennaio 2009 e richiede del tempo. Una volta che la blockchain è completamente scaricata, l'indicizzatore procederà a comprimere il database. La durata dell'IBD può variare notevolmente. Il tuo nodo RoninDojo sarà completamente operativo una volta completato questo processo.
 **Se stai migrando da un vecchio nodo RoninDojo v1** a questa nuova versione seguendo questa guida e mantenendo lo stesso SSD, il tuo nodo dovrebbe automaticamente rilevare e riutilizzare i dati esistenti sul disco, risparmiandoti la necessità di eseguire nuovamente l'IBD. In questo caso, dovrai solo attendere che il tuo nodo si risincronizzi con gli ultimi blocchi.
 
-### Passo 8: "veth* fix"
+### Passo 8: **veth fix**
 Se incontri un bug con il tuo RoninDojo v2 su Raspberry Pi, dove dopo un'installazione senza problemi, il tuo nodo diventa improvvisamente irraggiungibile via SSH ma si riprende dopo un semplice riavvio, allora devi seguire questo passo 8. Questo bug comune può essere facilmente risolto con una soluzione sviluppata dalla comunità: il "_veth fix_". Questa piccola correzione rimedia definitivamente alle disconnessioni improvvise. Ecco come applicarla.
 
 Apri un nuovo terminale sul tuo computer personale e stabilisci una connessione SSH con il tuo nodo utilizzando il seguente comando:
@@ -256,7 +256,7 @@ Se, ad esempio, l'indirizzo IP del tuo nodo è `192.168.1.40`, il comando approp
 
 Ti verrà chiesto di inserire la password utente. Inseriscila e premi `invio` per convalidare. Accederai quindi all'interfaccia RoninCLI. Usa le frecce della tua tastiera per navigare fino all'opzione `Exit RoninDojo` e premi `invio` per selezionarla.
 
-A questo punto, ti trovi sul terminale del tuo nodo, con un prompt dei comandi simile a: `ronindojo@RoninDojo:~ $`. Per applicare il veth* fix, digita il seguente comando e premi `invio`: 
+A questo punto, ti trovi sul terminale del tuo nodo, con un prompt dei comandi simile a: `ronindojo@RoninDojo:~ $`. Per applicare il **veth fix**, digita il seguente comando e premi `invio`:
 `sudo nano /etc/dhcpcd.conf`
 
 Conferma nuovamente la tua password e premi `invio`.
@@ -325,7 +325,7 @@ Un tutorial dettagliato è in preparazione per guidarti passo dopo passo attrave
 
 Per una comprensione più approfondita del coinjoin e del suo utilizzo su Bitcoin, ti invito anche a consultare questo altro articolo: Understanding and using coinjoin on Bitcoin, dove dettaglio tutto ciò che devi sapere su questa tecnica.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Utilizzo di Whirlpool Stat Tool (WST)
 
@@ -333,7 +333,7 @@ Dopo aver eseguito coinjoins con Whirlpool, è utile valutare con precisione il 
 
 Per approfondire la tua comprensione dei meccanismi di calcolo di questi anonset, ti consiglio di leggere l'articolo: REMIX - WHIRLPOOL, che dettaglia il funzionamento di questi indici.
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 
@@ -513,3 +513,4 @@ Ecco fatto! Grazie per aver seguito questo tutorial fino alla fine. Se ti è pia
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

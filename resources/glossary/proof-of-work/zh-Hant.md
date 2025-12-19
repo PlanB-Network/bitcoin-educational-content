@@ -11,4 +11,4 @@ term: Proof of Work
 每找到一個有效的區塊，礦工所做的這些工作就會得到獎勵。勝出的 Miner 會獲得金錢獎勵，包括區塊補貼 (無中生有的新比特幣)，以及交易費用。如今，Proof of Work 對 Bitcoin 的難度已經到了 Mining 需要大量計算能力才能成功贏得區塊的地步。因此，通常需要有專門的電子晶片來執行 `SHA256d`，稱為 ASIC，並參與 Mining 池。
 
 
-> ► *在英文中，它被稱為 "Proof-of-Work「，有時簡稱為 」PoW"。
+> ► *在英文中，它被稱為 "Proof-of-Work"，有時簡稱為 "PoW"。*

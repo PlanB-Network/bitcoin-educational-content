@@ -1,0 +1,9 @@
+question: Bitcoin'da ademi merkeziyetçiliğin iki önemli yönü nedir?
+answer: Miner ademi merkeziyetçilik ve full node ademi merkeziyetçilik
+wrong_answers:
+  - İşlem desantralizasyonu ve wallet desantralizasyonu
+  - Ağ merkezsizleştirmesi ve protokol merkezsizleştirmesi
+  - Kullanıcı ademi merkeziyeti ve geliştirici ademi merkeziyeti
+explanation: |
+  Bitcoin'nın ademi merkeziyetçiliğinin iki temel bileşeni vardır: madenci ademi merkeziyetçiliği ve full node ademi merkeziyetçiliği. Miner ademi merkeziyetçilik, işlem işleme ve sıralamanın tek bir varlık tarafından değil, serbestçe katılıp ayrılabilen dinamik bir madenci kolektifi tarafından kontrol edildiği anlamına gelir. Full node ademi merkeziyetçilik, blokların doğrulanmasının güvenilir otoriteler tarafından değil, ağın uç noktasında kullanıcıların kendileri tarafından gerçekleştirilmesini ifade eder. Bu iki unsur sansüre karşı direnç sağlamak için birlikte çalışır: madenciler merkezi işlem sıralamasını önlerken, tam düğümler blok zincirinin güvene dayalı olmayan bir şekilde doğrulanmasını sağlar.
+reviewed: false

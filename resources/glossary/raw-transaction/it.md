@@ -14,4 +14,4 @@ Una transazione Bitcoin costruita e firmata, esistente nella sua forma binaria. 
 
 La cosiddetta "transazione *raw*" rappresenta i dati grezzi che vengono passati due volte attraverso la funzione di hash SHA256 per generare il TXID della transazione. Questi dati vengono poi utilizzati nell'albero di Merkle del blocco per integrare la transazione nella blockchain.
 
-> questo concetto viene talvolta chiamato anche "transazione serializzata". In francese, questi termini potrebbero essere tradotti rispettivamente come "transazione bruta" e "transazione sérialisée "*
+> questo concetto viene talvolta chiamato anche "transazione serializzata". In francese, questi termini potrebbero essere tradotti rispettivamente come "transazione bruta" e "transazione sérialisée"

@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   A large anonset indicates a high level of anonymity, as it becomes difficult to distinguish a specific UTXO within the homogeneous set.
 
-reviewed: false
+reviewed: true

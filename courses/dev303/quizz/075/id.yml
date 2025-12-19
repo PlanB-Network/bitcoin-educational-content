@@ -1,0 +1,8 @@
+question: Apa keuntungan utama menggunakan metode map() dan map_err() pada tipe Result dibandingkan dengan pola penanganan kesalahan coba-tangkap tradisional?
+answer: Mereka memungkinkan rantai operasi gaya fungsional sambil menjaga penanganan kesalahan dekat dengan operasi yang dapat gagal
+wrong_answers:
+  - Mereka secara otomatis mengonversi semua jenis kesalahan menjadi pesan string untuk memudahkan debugging dan tampilan pengguna
+  - Mereka menghilangkan kebutuhan akan operator tanda tanya dengan menyediakan mekanisme propagasi kesalahan bawaan
+  - Mereka mencegah kondisi panik dengan membungkus semua operasi yang berpotensi gagal dalam wadah Hasil yang aman
+explanation: |
+  Metode map() dan map_err() memungkinkan penanganan kesalahan gaya fungsional di mana Anda dapat merantai operasi dan mengubah nilai atau kesalahan tepat pada titik di mana mereka terjadi. Hal ini membuat logika penanganan kesalahan tetap dekat dengan operasi yang bisa gagal, tidak seperti blok try-catch di mana penanganan kesalahan dipisahkan dari operasi yang sebenarnya. Pilihan lain tidak benar: metode map tidak mengubah kesalahan menjadi string (itu adalah peran yang lain), mereka bekerja bersama operator tanda tanya daripada menggantikannya, dan mereka tidak mencegah kepanikan melainkan menyediakan penanganan kesalahan terstruktur untuk Hasil.

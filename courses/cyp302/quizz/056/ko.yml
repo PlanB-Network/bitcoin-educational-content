@@ -1,0 +1,9 @@
+question: 추상 대수학의 기초가 되는 대수 구조는 어떤 유형인가요?
+answer: 그룹
+wrong_answers:
+  - 필드
+  - 링
+  - 매트릭스
+explanation: |
+  그룹은 추상대수의 기초가 되는 기본적인 대수 구조로, Elements 집합과 특정 속성을 존중하는 이진 연산으로 정의됩니다.
+reviewed: false

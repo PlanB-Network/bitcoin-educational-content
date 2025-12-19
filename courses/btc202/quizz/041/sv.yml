@@ -1,0 +1,9 @@
+question: Vilka självhanterande applikationer kan installeras via Umbrel?
+answer: Nästa moln
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel erbjuder en App Store med tjänster för självhosting, till exempel Nextcloud, för att själv lagra och synkronisera filer.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: クリプトメーター
+name: Cryptomator
 description: クラウドでファイルを暗号化
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*このチュートリアルは[IT-Connect](https://www.it-connect.fr/)に掲載されたFlorian BURNEL氏のオリジナルコンテンツに基づいています。ライセンス[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文に変更が加えられている可能性があります。
+*このチュートリアルは[IT-Connect](https://www.it-connect.fr/)に掲載されたFlorian BURNEL氏のオリジナルコンテンツに基づいています。ライセンス[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)。原文に変更が加えられている可能性があります。*
 
 
 
@@ -42,7 +42,7 @@ Cryptomatorは、他のアプリケーション、特に別の記事で紹介し
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 クリプトメーターのアプリケーションは、**Windows**（exe / msi）、**Linux**、**macOS、**だけでなく、**Android**と**iOS**でもご利用いただけます。アンドロイド・アプリケーションは有料です（14.99ユーロ）。
 
@@ -52,7 +52,7 @@ https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-4
 
 
 
-*注***：この記事ではオンライン・ストレージ・サービスを例にしているが、Cryptomatorはローカル・ディスク、外付けディスク、NAS上のデータも暗号化できる。特に制限はありません。
+**注**：この記事ではオンライン・ストレージ・サービスを例にしているが、Cryptomatorはローカル・ディスク、外付けディスク、NAS上のデータも暗号化できる。特に制限はありません。
 
 
 
@@ -114,11 +114,11 @@ https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-4
 
 
 
-次に、**暗号化キー**に対応するパスワードを定義する必要があります。このパスワードにより、**クリプトメーター金庫のロックを解除**し、データにアクセスすることができます。 **このパスワードを紛失すると、データへのアクセスができなくなります。最後に、"**Yes, better safe than sorry**"オプションにチェックを入れることで、[BitLocker]リカバリーキー(https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/)と同じ精神で、**バックアップキー**を作成するオプションがあります。これはお勧めですが、このバックアップ・キーを OneDrive のルートに保存しないでください！
+次に、**暗号化キー**に対応するパスワードを定義する必要があります。このパスワードにより、**クリプトメーター金庫のロックを解除**し、データにアクセスすることができます。**このパスワードを紛失すると、データへのアクセスができなくなります。**最後に、**"Yes, better safe than sorry"**オプションにチェックを入れることで、[BitLocker]リカバリーキー(https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/)と同じ精神で、**バックアップキー**を作成するオプションがあります。これはお勧めですが、このバックアップ・キーを OneDrive のルートに保存しないでください！
 
 
 
-金庫の作成**」をクリックする。
+金庫の作成をクリックする。
 
 
 
@@ -146,7 +146,7 @@ https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-4
 
 
 
-金庫とそのデータにアクセスし、**既存のデータを読んだり**新しいデータを追加したり**するには、**ロックを解除**する必要があります。Cryptomatorは既知の金庫をリストアップします。IT-Connectの金庫が表示されるので、それを選択して "**Unlock**"をクリックします。
+金庫とそのデータにアクセスし、**既存のデータを読んだり**新しいデータを追加したりするには、**ロックを解除**する必要があります。Cryptomatorは既知の金庫をリストアップします。IT-Connectの金庫が表示されるので、それを選択して "**Unlock**"をクリックします。
 
 
 
@@ -170,7 +170,7 @@ https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-4
 
 
 
-OneDrive側では、Cryptomatorの保管庫を直接閲覧することはできません。データ（ファイル名も内容も）を見ることはできません。つまり、通常のOneDriveのショートカットを使ってCryptomatorの保管庫にデータを追加する必要はありません。 **Cryptomatorの仮想ドライブを使用してデータを追加する必要があります。
+OneDrive側では、Cryptomatorの保管庫を直接閲覧することはできません。データ（ファイル名も内容も）を見ることはできません。つまり、通常のOneDriveのショートカットを使ってCryptomatorの保管庫にデータを追加する必要はありません。**Cryptomatorの仮想ドライブを使用してデータを追加する必要があります。**
 
 
 
@@ -182,11 +182,11 @@ OneDrive側では、Cryptomatorの保管庫を直接閲覧することはでき�
 
 
 
-金庫の設定は "**暗号化ボリュームのオプション**"ボタンからアクセスでき（ロックされている場合）、パスワード金庫と同じように非アクティブ時の自動ロックを有効にします。起動時に暗号化ボリュームのロックを解除**"オプションは、その名の通り、あなたの介入なしにドライブのロックを解除し、仮想ドライブをマウントします。セキュリティ上の理由から、このオプションの有効化は避けた方がよいでしょう。
+金庫の設定は "**暗号化ボリュームのオプション**"ボタンからアクセスでき（ロックされている場合）、パスワード金庫と同じように非アクティブ時の自動ロックを有効にします。"**起動時に暗号化ボリュームのロックを解除**"オプションは、その名の通り、あなたの介入なしにドライブのロックを解除し、仮想ドライブをマウントします。セキュリティ上の理由から、このオプションの有効化は避けた方がよいでしょう。
 
 
 
-Mounting**」タブで、読み取り専用にマウントするか、特定のレターを割り当てるかを決めることもできる。
+**Mounting**」タブで、読み取り専用にマウントするか、特定のレターを割り当てるかを決めることもできる。
 
 
 

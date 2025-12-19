@@ -1,0 +1,9 @@
+question: Które rozwiązanie typu node-in-a-box jest obecnie liderem na rynku?
+answer: Parasol
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel jest najpopularniejszym rozwiązaniem typu node-in-a-box, dzięki łatwości instalacji i bogatemu App Store.
+reviewed: true

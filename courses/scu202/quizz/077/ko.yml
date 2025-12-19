@@ -1,0 +1,9 @@
+question: Android용 쉘터 애플리케이션이란 무엇인가요?
+answer: 격리된 프로필을 만들어 용도 분할
+wrong_answers:
+  - 모든 휴대폰 데이터 자동 암호화
+  - 원치 않는 전화 차단
+  - Play 스토어 외부에 애플리케이션 설치
+explanation: |
+  쉘터에서는 작업 프로필 기능을 사용하여 격리된 공간에서 애플리케이션과 데이터를 분리할 수 있습니다.
+reviewed: false

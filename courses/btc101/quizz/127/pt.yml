@@ -1,12 +1,12 @@
-question: Qual é o propósito das taxas de transação nas transações de Bitcoin?
-answer: Elas são um incentivo para os mineradores incluírem a transação no bloco seguinte.
+question: O que é um hash válido no contexto da mineração de blocos na rede Bitcoin?
+answer: Uma impressão digital única associada ao bloco, composta por 256 caracteres.
 wrong_answers:
-  - São um imposto imposto pelo governo.
-  - São uma taxa cobrada pela rede Bitcoin pelo uso de seus serviços.
-  - São uma taxa cobrada pelo provedor da carteira.
+  - Um código único usado para acessar o bloco.
+  - Uma senha única necessária para minerar o bloco.
+  - Um identificador único para o minerador que minerou o bloco.
 explanation: |
-  As taxas de transação nas transações de Bitcoin servem como um
-  incentivo para os mineradores incluírem a transação no próximo
-  bloco. As taxas criam um mercado livre para a inclusão de
-  transações nos blocos.
+  No contexto da mineração de blocos na rede Bitcoin, um
+  hash válido é uma impressão digital única associada ao
+  bloco, composta por 256 caracteres. A validade deste
+  hash depende da dificuldade da rede Bitcoin.
 reviewed: true

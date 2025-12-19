@@ -15,4 +15,4 @@ OP_CHECKMULTISIG
 ```
 
 
-> ► *Wszystkie te kody operacyjne są czasami również nazywane OP_PUSHNUM_N
+> ► *Wszystkie te kody operacyjne są czasami również nazywane OP_PUSHNUM_N*

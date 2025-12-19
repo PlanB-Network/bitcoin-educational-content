@@ -69,7 +69,7 @@ Android'de [APK ile yüklemek](https://www.olvid.io/download/) de mümkündür.
 
 
 
-Bu eğitimde mobil versiyona odaklanacağız, ancak [bilgisayar versiyonlarının da mevcut olduğunu] (https://www.olvid.io/download/) (MacOS, Linux ve Windows) lütfen unutmayın. Ücretli sürümü seçerseniz, hesabınızı birden fazla cihazda senkronize edebileceksiniz.
+Bu eğitimde mobil versiyona odaklanacağız, ancak [bilgisayar versiyonlarının da mevcut olduğunu](https://www.olvid.io/download/) (MacOS, Linux ve Windows) lütfen unutmayın. Ücretli sürümü seçerseniz, hesabınızı birden fazla cihazda senkronize edebileceksiniz.
 
 
 
@@ -251,4 +251,4 @@ Size Gmail'e çok daha gizlilik dostu bir alternatif olan Proton Mail'i tanıtt�
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

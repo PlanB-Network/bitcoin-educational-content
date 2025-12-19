@@ -1,0 +1,9 @@
+question: 비밀번호 관리자의 주요 기능은 무엇인가요?
+answer: 비밀번호 저장, generate 및 정리.
+wrong_answers:
+  - 바이러스를 분석하고 제거하세요.
+  - 개인 문서를 백업하고 정리하세요.
+  - 연결 속도를 최적화하세요.
+explanation: |
+  필수 기능에는 비밀번호 저장, 생성, 정리가 포함됩니다.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - By closing and reopening the channel after each transaction
 explanation: |
   Each transaction within the channel updates the channel's state with a new commitment transaction, reflecting the current distribution of funds between the two participants.
-reviewed: false
+reviewed: true

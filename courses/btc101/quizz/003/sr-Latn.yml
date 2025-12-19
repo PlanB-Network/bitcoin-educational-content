@@ -1,9 +1,9 @@
-question: Zašto plaćamo naknade u Bitkoinu?
-answer: Da se stvori slobodno tržište za uključivanje transakcija u blokove.
+question: Prema dobitniku Nobelove nagrade F.A. Hayek-u, šta se mora desiti da bismo ponovo imali dobar novac?
+answer: Mi uzimamo stvar iz ruku vlade.
 wrong_answers:
-  - Da uvedemo kako da se kopa Bitkoin.
-  - Da bogati ljudi plaćaju više.
-  - Da isključe vlade iz mreže.
+  - Dajemo stvar boljoj vladi.
+  - Dajemo stvar autoritarnom režimu.
+  - Mi uzimamo stvar iz ruku ljudi.
 explanation: |
-  Naknade su ključne za stvaranje slobodnog tržišta za uključivanje transakcija u blokove. Zapravo, blok ima veličinu od 1 MB (što je prošireno na 4 MB nakon SegWit ažuriranja), tako da je broj transakcija koje mogu biti "ubačene" u blok ograničen na nekoliko hiljada transakcija po bloku.
+  Hayek kaže: "Ne verujem da ćemo ikada ponovo imati dobar novac, pre nego što stvar izvadimo iz ruku vlade. Ako ih ne možemo nasilno izvaditi iz ruku vlade, sve što možemo učiniti je da na neki lukav ili zaobilazan način uvedemo nešto što ne mogu zaustaviti."
 reviewed: true

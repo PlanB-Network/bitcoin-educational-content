@@ -1,8 +1,9 @@
-question: Wanneer vond de block size war plaats?
-answer: In 2017.
+question: Waarom betalen we vergoedingen in Bitcoin?
+answer: Een vrije markt creëren voor het opnemen van transacties in blokken.
 wrong_answers:
-  - In 2008.
-  - In 2010.
-  - In 2019.
-explanation: >-
+  - Laten zien hoe je Bitcoin kunt ontginnen.
+  - Om rijke mensen meer te laten betalen.
+  - Overheden uitsluiten van het netwerk.
+explanation: |
+  Vergoedingen zijn essentieel om een vrije markt te creëren voor het opnemen van transacties in blokken. In feite heeft een blok een grootte van 1 MB (die werd uitgebreid naar 4 MB na de SegWit update), dus het aantal transacties dat in een blok kan worden "geplaatst" is beperkt tot een paar duizend transacties per blok.
 reviewed: true

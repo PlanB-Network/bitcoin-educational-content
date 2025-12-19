@@ -1,5 +1,5 @@
 ---
-name: Nodi Bitcoin
+name: Bitcoin Knots
 description: Come si lancia un nodo con il client alternativo Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ Tuttavia, è disponibile anche un software alternativo. Non si tratta di nodi co
 Ci sono due ragioni principali per utilizzare un client alternativo come Knots invece di Core:
 
 
-- Tecnico**: Questi client offrono spesso diverse opzioni al Core, in particolare in termini di gestione del Mempool, determinando quali transazioni vengono accettate e trasmesse dal nodo.
-- Politica**: Alcune persone preferiscono usare client alternativi come Knots per ragioni non tecniche, in particolare per supportare un'alternativa a Core e quindi ridurre il suo monopolio. Se Core fosse mai compromesso, sarebbe utile non solo avere client alternativi solidi e ben mantenuti, ma anche sapere come usarli. Altri usano Knots per protesta, perché hanno perso fiducia negli sviluppatori di Core o disapprovano la gestione del client di maggioranza.
+- **Tecnico**: Questi client offrono spesso diverse opzioni al Core, in particolare in termini di gestione del Mempool, determinando quali transazioni vengono accettate e trasmesse dal nodo.
+- **Politica**: Alcune persone preferiscono usare client alternativi come Knots per ragioni non tecniche, in particolare per supportare un'alternativa a Core e quindi ridurre il suo monopolio. Se Core fosse mai compromesso, sarebbe utile non solo avere client alternativi solidi e ben mantenuti, ma anche sapere come usarli. Altri usano Knots per protesta, perché hanno perso fiducia negli sviluppatori di Core o disapprovano la gestione del client di maggioranza.
 
 ## Come si installano i nodi Bitcoin?
 
@@ -30,7 +30,7 @@ Andate su [il sito ufficiale di Bitcoin Knots](https://bitcoinknots.org/#downloa
 
 Prima di installare il software sul vostro computer, vi consigliamo di verificarne l'autenticità e l'integrità. Se non sapete come fare, date un'occhiata a quest'altra guida:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Una volta verificato il software, installarlo seguendo i passaggi indicati nel pannello di installazione.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Assegnate un nome al vostro Wallet. È inoltre possibile proteggerlo con un pass
 
 La passphrase BIP39 è una password opzionale che potete scegliere liberamente, in aggiunta alla vostra frase Mnemonic, per aumentare la sicurezza della vostra Wallet. Prima di configurare questa funzione, vi consigliamo vivamente di leggere il seguente articolo, che spiega in dettaglio il funzionamento teorico del passphrase e come evitare errori che potrebbero portare alla perdita permanente dei vostri bitcoin:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Se avete attivato l'opzione passphrase, sceglietene una robusta e salvatela con cura su uno o più supporti fisici sicuri.
 
 ![Image](assets/fr/18.webp)
@@ -218,7 +218,7 @@ Quindi accedere al software di gestione del portafoglio (ad esempio Sparrow Wall
 
 |**Windows**|%APPDATA%\Bitcoin|
 
-|**{\i}Linux {\i}~/.Bitcoin}
+|**Linux ~/.Bitcoin**
 
 ![Image](assets/fr/35.webp)
 
@@ -242,7 +242,7 @@ Dopo aver modificato il file, assicuratevi di salvarlo nella cartella appropriat
 
 |**Windows**|%APPDATA%\Bitcoin|
 
-|**{\i}Linux {\i}~/.Bitcoin}
+|**Linux ~/.Bitcoin**
 
 Questa operazione può essere eseguita anche tramite la grafica Bitcoin-QT di Interface. Accedere al menu "*Impostazioni*", quindi "*Opzioni...*", e attivare l'opzione "*Abilita server RPC*" selezionando la casella corrispondente. Se il file `Bitcoin.conf` non esiste, è possibile crearlo direttamente da questo Interface facendo clic su "*Apri file di configurazione*".
 
@@ -285,4 +285,4 @@ Se avete trovato utile questa esercitazione, vi sarei molto grato se lasciaste u
 
 Raccomando anche quest'altro tutorial in cui spiego come impostare il proprio nodo Lightning:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

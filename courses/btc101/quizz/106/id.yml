@@ -1,10 +1,9 @@
-question: Mengapa disarankan untuk menghindari menyimpan Bitcoin Anda di platform pertukaran?
-answer: Mereka dapat rentan terhadap serangan peretas
+question: Mengapa tidak semua orang bisa menggunakan Dompet Bitcoin yang sama?
+answer: Karena kebutuhan setiap individu berbeda-beda.
 wrong_answers:
-  - Platform pertukaran membebankan biaya acak
-  - Bitcoin kehilangan nilai di platform pertukaran
-  - Platform pertukaran bukanlah institusi yang diatur
+  - Karena menggunakan Dompet Bitcoin itu mahal
+  - Karena menggunakan Dompet Bitcoin itu ilegal
+  - Karena orang-orang tidak akan pernah sepakat tentang nama dompet tersebut
 explanation: |
-  Disarankan untuk menghindari menyimpan Bitcoin Anda di platform pertukaran
-  karena mereka dapat rentan terhadap serangan peretas.
+  Sementara satu orang mungkin mengutamakan keamanan, orang lain mungkin menghargai kemudahan penggunaan atau fitur khusus. Oleh karena itu, satu Dompet Bitcoin mungkin tidak dapat memenuhi kebutuhan semua orang, membuatnya perlu untuk adanya berbagai pilihan dompet.
 reviewed: true

@@ -12,7 +12,7 @@ Dans ce tutoriel, nous allons découvrir le processus de création d’un compte
 
 Si ce sujet de l'intégration du bitcoin à votre entreprise vous intéresse, je vous conseille également de découvrir notre formation théorique complète sur ce sujet :
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Création d’un compte sur Bitfinex
 
@@ -26,11 +26,11 @@ Complétez les informations requises : indiquez votre adresse email professionne
 
 Pour des conseils sur l'utilisation et la sauvegarde de mots de passe forts et uniques, consultez également ce tutoriel :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nous allons à présent configurer le 2FA pour sécuriser le compte. Utilisez une application d'authentification sur votre smartphone, telle que Google Authenticator ou Authy par exemple. Vous trouverez un tutoriel sur cet outil ici :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scannez le QR code avec votre application et entrez les 6 chiffres fournis.
 
@@ -156,7 +156,7 @@ Bitfinex offre aussi des options de dépôt et de retrait via le Lightning Netwo
 
 Si le Lightning Network vous intéresse, nous avons également une formation complète pour comprendre son fonctionnement :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Achat et vente de bitcoins sur Bitfinex
 
@@ -233,5 +233,5 @@ En fonction des objectifs et de la structure de votre entreprise, l'utilisation 
 
 Pour approfondir ce sujet, je vous recommande de consulter cette formation complète sur l'intégration du bitcoin aux entreprises, qui couvre dans le détail l'ajout en trésorerie, l'acceptation des paiements en bitcoins, et la comptabilité :
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 

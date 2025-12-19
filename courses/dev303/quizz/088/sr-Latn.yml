@@ -1,0 +1,8 @@
+question: Koji osnovni izazov u razvoju na više platformi UniFFI rešava kada se radi sa Rust bibliotekama?
+answer: Potrebno je ručno kreirati prilagođeni kod za povezivanje za svaki ciljni jezik prilikom izlaganja niskonivelnog FFI-ja Rust
+wrong_answers:
+  - Nemogućnost Rust da se kompajlira u izvorne binarne datoteke koje mogu da rade na više operativnih sistema
+  - Nedostatak garancija bezbednosti memorije kada Rust kod komunicira sa jezicima koji koriste sakupljanje smeća
+  - "Performansni trošak uveden prilikom prevođenja Rust modela vlasništva na jezike sa brojanjem referenci"
+explanation: |
+  UniFFI specifično rešava problem ručnog pisanja koda za povezivanje za svaki ciljni jezik. Kada Rust kompajlira u binarni izlaz, proizvodi Foreign Function Interface (FFI) koji je niskog nivoa i izazovan za direktnu upotrebu iz jezika višeg nivoa. Tradicionalno, programeri su morali da pišu prilagođeni kod za povezivanje za svaki ciljni jezik (Python, Swift, Kotlin, itd.), stvarajući značajne prepreke za usvajanje. UniFFI eliminiše ovu redundanciju automatskim generisanjem ovih veza kroz svoj UDL sistem specifikacija.

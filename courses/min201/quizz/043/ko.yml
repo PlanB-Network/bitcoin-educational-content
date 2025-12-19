@@ -1,0 +1,14 @@
+question: Bitcoin Mining의 맥락에서 Hash 요금이 아니라 보상이 아니라는 속담의 의미는 무엇인가요?
+answer: Hashrate을 제어하지 않으면 Mining 보상을 제어할 수 없습니다.
+wrong_answers:
+  - Hashrate가 높지 않으면 보상을 받을 수 없습니다.
+  - Bitcoin를 소유하지 않은 경우 보상을 받을 수 없습니다.
+  - Mining 머신이 없는 경우 보상을 받을 수 없습니다.
+explanation: |
+  Hashrate이 없으면 보상도 없다는 격언도 비슷합니다
+  암호화폐 세계에서 잘 알려진 격언과 비슷합니다,
+  열쇠가 아니라 비트코인이 아닙니다. 이는 다음과 같은 의미입니다
+  gW-8을 통제하지 못하면 Mining
+  보상을 통제할 수 없다는 뜻입니다. 이는 Mining의 보상이 다음과 같이
+  gW-8에 정비례하기 때문입니다.
+reviewed: true

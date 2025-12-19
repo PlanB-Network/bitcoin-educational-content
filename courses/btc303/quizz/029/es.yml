@@ -1,0 +1,9 @@
+question: Según los cálculos de Pieter Wuille, ¿cuál es la cantidad teórica máxima de Bitcoin que existirá una vez acuñadas todas las monedas?
+answer: 20.999.999,9769 BTC
+wrong_answers:
+  - 21.000.000,0000 BTC exactamente
+  - 20.999.817,3131 BTC
+  - 20.500.000,0000 BTC aproximadamente
+explanation: |
+  Pieter Wuille ha calculado que la oferta máxima teórica es de 20.999.999,9769 BTC, ligeramente inferior a los 21 millones citados habitualmente. Esto se debe al programa específico de reducción a la mitad y al redondeo del código de Bitcoin. La cifra de 21 millones es una aproximación redondeada. La cifra de 21 millones es una aproximación redondeada. La cifra de 20.999.817,3131 representa el suministro real en circulación después de contabilizar las monedas perdidas y los errores de mining hasta un bloque específico, no el máximo teórico.
+reviewed: false

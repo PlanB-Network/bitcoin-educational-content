@@ -1,5 +1,5 @@
 id: e461d9e5-a687-421b-8aa8-75dc3493e144
-author: Jörg Guido Hulsamn
+author: Jörg Guido Hülsmann
 level: advanced
 original_language: en
 proofreading:
@@ -119,6 +119,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.55
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.66
 tags:
   - finance
   - historical

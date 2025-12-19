@@ -1,9 +1,9 @@
-question: Quale attore principale progetta ASIC per Bitcoin Mining?
+question: Quale player principale progetta ASIC per il mining di Bitcoin?
 answer: Bitmain
 wrong_answers:
   - Trezor
   - Ledger
   - Fonderia USA
 explanation: |
-  Bitmain è uno dei principali produttori di hardware specializzato per Bitcoin Mining.
-reviewed: false
+  Bitmain è uno dei principali produttori di hardware specializzato per il mining di Bitcoin.
+reviewed: true

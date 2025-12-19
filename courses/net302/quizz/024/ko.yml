@@ -1,0 +1,9 @@
+question: TCP/IP 모델에서 TCP 프로토콜의 주요 역할은 무엇인가요?
+answer: 안정적이고 질서 있는 데이터 전송 보장
+wrong_answers:
+  - 네트워크 통신 암호화
+  - 머신에 IP 주소 할당
+  - 물리적 수준에서 데이터그램 조각화
+explanation: |
+  TCP는 무결성을 확인하고, 질서를 유지하며, 손실 시 복구를 처리하여 안정적인 데이터 전송을 보장합니다.
+reviewed: false

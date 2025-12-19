@@ -1,0 +1,9 @@
+question: Immanuel Kant era?
+answer: Filósofo alemão do Iluminismo.
+wrong_answers:
+  - Filósofo inglês e discípulo de Newton
+  - Filósofo do século XVII.
+  - Um filósofo cristão.
+explanation: |
+  Immanuel Kant (1724-1804) foi um filósofo alemão do Iluminismo. Desenvolveu uma filosofia crítica que influenciou profundamente o pensamento moderno, nomeadamente com a sua "Crítica da Razão Pura".
+reviewed: false

@@ -1,9 +1,0 @@
-question: Koja je jedna od glavnih prednosti Bitkoina za ljude bez bankovnog računa?
-answer: Bitkoin omogućava jednakost u transakcijama, bez obzira na vaš društveni status ili političku poziciju.
-wrong_answers:
-  - Bitkoin omogućava nejednakost u transakcijama, nagrađujući najbogatije korisnike.
-  - Bitkoin koristi samo osobama sa bankovnim računom i levičarskom političkom pozicijom.
-  - Bitkoin koristi samo ljudima sa visokim društvenim statusom.
-explanation: |
-  Tekst pominje da u svetu postoji 2,4 milijarde ljudi bez bankovnog računa, a Bitkoin omogućava jednakost u transakcijama, bez obzira na njihov društveni status ili političku poziciju.
-reviewed: true

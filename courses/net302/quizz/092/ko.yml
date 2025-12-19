@@ -1,0 +1,9 @@
+question: 일반적으로 Linux 시스템에서 DNS 서버는 어디에 구성되나요?
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/네트워크/인터페이스
+  - /etc/hosts.allow
+explanation: |
+  Etc/resolv.conf 파일은 이름 확인을 위한 DNS 서버와 검색 도메인을 지정합니다.
+reviewed: false

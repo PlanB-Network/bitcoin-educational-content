@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Strengthen your online security with Trezor
 ---
 ![cover](assets/cover.webp)
@@ -17,7 +17,7 @@ This method is based on asymmetrical cryptography: no secret data is transmitted
 In addition to U2F, which enables two-factor authentication, Trezors also support FIDO2 (*Fast IDentity Online 2.0*), an evolution of U2F. This is a standardized authentication protocol from 2018, which extends the logic of U2F and aims to completely replace passwords. It is based on two components: *WebAuthn* (browser side) and *CTAP2* (physical key side). FIDO2 enables "passwordless" authentication: users identify themselves solely via their Trezor device, which acts as a unique cryptographic token, with no additional password. This protocol is now compatible with a number of online services, particularly those geared towards the enterprise.
 
 
-In addition to "passwordless*" functionality, FIDO2 also enables two-factor authentication in a similar way to U2F.
+In addition to "passwordless" functionality, FIDO2 also enables two-factor authentication in a similar way to U2F.
 
 
 FIDO2 also introduces the notion of resident credentials, i.e. identifiers stored directly in the Trezor, which include both the private key enabling connection and the user's identification information. This mechanism enables truly password-free authentication: simply plug in your Trezor and confirm access, without entering either ID or password. Conversely, non-resident credentials, which are more conventional, store only the private key in the device; the user ID remains stored on the server side, and must therefore be entered at each connection. We'll look at how to save them with your Trezor later on.
@@ -220,7 +220,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -270,4 +270,4 @@ Congratulations, you're now up to speed on using your Trezor with U2F and FIDO2!
 I'd also recommend this other tutorial, in which we look at another solution for U2F and FIDO2 authentication:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

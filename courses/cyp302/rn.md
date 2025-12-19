@@ -1,29 +1,18 @@
 ---
-name: Intangamarara y'ubuhinga bwo gukingira amakuru
+name: Imishingi y'ikoranabuhanga rya kriptografiya rya none
 goal: Intangamarara y’ivy’ubuhinga n’imigenzo y’ubuhinga bwo gukingira amakuru.
-objectives: 
-
-  - Gutohoza amajambo y’ibanga ya Beale n’uburyo bwo gukora amakuru y’ubuhinga bwa none kugira ngo utahure ivyiyumviro vy’ishimikiro n’ivy’amateka vy’ubuhinga bwo gukora amakuru.
-  - Injira mu vyiyumviro vy’imibare, imigwi, n’ivyigwa kugira ngo umenye neza ivyiyumviro nyamukuru vy’imibare bishingiye ku buhinga bwo gukingira amakuru.
-  - Iga RC4 stream cipher na AES n’urufunguzo rw’ibice 128 kugira ngo umenye ivyerekeye ubuhinga bwo gukingira amakuru buhuye.
-  - Itohoza ry’ubuhinga bwa RSA, ugukwirakwiza urufunguzo, n’ibikorwa vya Hash kugira ngo utohoze ubuhinga bwo gukingira butaringaniye.
-
-
+objectives:
+- Gutohoza amajambo y’ibanga ya Beale n’uburyo bwo gukora amakuru y’ubuhinga bwa none kugira ngo utahure ivyiyumviro vy’ishimikiro n’ivy’amateka vy’ubuhinga bwo gukora amakuru.
+- Injira mu vyiyumviro vy’imibare, imigwi, n’ivyigwa kugira ngo umenye neza ivyiyumviro nyamukuru vy’imibare bishingiye ku buhinga bwo gukingira amakuru.
+- Iga RC4 stream cipher na AES n’urufunguzo rw’ibice 128 kugira ngo umenye ivyerekeye ubuhinga bwo gukingira amakuru buhuye.
+- Itohoza ry’ubuhinga bwa RSA, ugukwirakwiza urufunguzo, n’ibikorwa vya Hash kugira ngo utohoze ubuhinga bwo gukingira butaringaniye.
 ---
-# Kwisuka cane mu vy'ubuhinga bwo gukingira amakuru
+# Kwibandanya mu buryo bw'inyuma bwo gushira ibanga
 
+Muri iki gisomo, tuzasuzuma ibintu by'ingenzi by'uburyo bw'inyuma bwo gushira ibanga mu buryo busobanutse kandi bworoshye, nta mahugurwa akomeye y'imibare akenewe. Mu bice byose, uziga ibitekerezo ngenderwako nko gushira ibanga ku buryo bw'urufunguzo rumwe n'urw'abantu, imikorere ya hash, umukono wa digitale, guhanahana urufunguzo, n'amahame y'ukuri. Mu nzira, tuzahuza utudomo ku bikorwa bifatika nko kohereza ubutumwa bwizewe, TLS, kubika ijambo ry'ibanga, no kwemeza umwirondoro.
 
-Biragoye kuronka ibikoresho vyinshi bitanga ikibanza ciza co hagati mu nyigisho y’ubuhinga bwo gukingira amakuru.
-
-
-Ku ruhande rumwe, hariho ibitabu birebire kandi bimenyerewe, mu vy’ukuri bishobora gushikirwa gusa n’abafise ubumenyi bukomeye mu vy’imibare, mu vy’ubwenge canke mu yindi nyigisho izwi. Ku rundi ruhande, hariho intangamarara zo ku rugero rwo hejuru cane zihisha vy’ukuri ibintu vyinshi cane ku muntu wese afise n’imiburiburi ugushaka kumenya.
-
-
-Iyi ntangamarara y’ubuhinga bwo gukingira amakuru irondera gufata ahantu hagati. Naho vyoba bigoye kandi bifise ido n’ido ku muntu wese mushasha mu vy’ubuhinga bwo gupfuka amakuru, si co kinogo c’inkwavu c’igitabu c’ishimikiro gisanzwe.
-
-
+Ibikubiye mu gisomo byateguwe abiga ku rwego rwose kandi biringaniza ubwenge hamwe n'ubujyakuzimu buhagije bwo guhaza amatsiko. Teganya urugendo rwibanze kandi rushimishije. Igihe kirangiye, uzumva uburyo n'impamvu uburyo bw'inyuma bwo gushira ibanga bukora n'uko ubukoresha mu buryo bwizewe.
 +++
-
 # Imenyekanisha
 
 <partId>bbed2f46-d64c-5fb5-b892-d726032f2494</partId>
@@ -182,7 +171,7 @@ Ushobora kubona igisomwa ca kabiri c'ibanga mu *Ishusho ya 2* iri musi. [2] Uruf
 *Ishusho ya 1: Igiharuro ca Beale no. 2*
 
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 
 
@@ -223,7 +212,7 @@ Itandukaniro rihambaye ryo kuguma mu muzirikanyi ni, rero, hagati ya **umugambi 
 Insanganyamatsiko z’ubunyankamugayo n’ukuri zirahambaye nk’uko nyene ibanga rihambaye. Uburyo bwacu bwo guhanahana amakuru bwo muri iki gihe ntibwoshobora gukora ata n’ivyemezo ku bijanye n’ubunyankamugayo n’ukuri kw’ivy’itumanaho. Kudahakana na vyo nyene ni ikintu gihambaye, nk’amasezerano y’ubuhinga bwa none, ariko ntibikenewe cane mu bikorwa vy’ubuhinga bwa none kuruta ibanga, ubunyankamugayo, n’ukuri.
 
 
-Ubwa kabiri, imigambi ya kera yo gupfuka amakuru nk’iyo Beale ciphers yama irimwo urufunguzo rumwe rwasangiwe n’ababifisemwo uruhara bose. Ariko rero, imigambi myinshi y’ubuhinga bwa none y’ubuhinga bwa none ntikoresha urufunguzo rumwe gusa, ahubwo rufise urufunguzo rubiri: **urufunguzo rw’ibanga** n’urufunguzo rwa bose**. Naho ivya mbere bikwiye kuguma ari ivy’ibanga mu bikorwa vyose, ivya nyuma ni ubumenyi bwa bose (ni co gituma, amazina yabo). Mu bijanye n’ugupfuka, urufunguzo rwa bose rurashobora gukoreshwa mu gupfuka ubutumwa, mu gihe urufunguzo rw’ibanga rushobora gukoreshwa mu gufungura.
+Ubwa kabiri, imigambi ya kera yo gupfuka amakuru nk'iyo Beale ciphers yama irimwo urufunguzo rumwe rwasangiwe n'ababifisemwo uruhara bose. Ariko rero, imigambi myinshi y'ubuhinga bwa none y'ubuhinga bwa none ntikoresha urufunguzo rumwe gusa, ahubwo rufise urufunguzo rubiri: **urufunguzo rw'ibanga** n'**urufunguzo rwa bose**. Naho ivya mbere bikwiye kuguma ari ivy'ibanga mu bikorwa vyose, ivya nyuma ni ubumenyi bwa bose (ni co gituma, amazina yabo). Mu bijanye n'ugupfuka, urufunguzo rwa bose rurashobora gukoreshwa mu gupfuka ubutumwa, mu gihe urufunguzo rw'ibanga rushobora gukoreshwa mu gufungura.
 
 
 Ishami ry’ubuhinga bwo gukingira amakuru rikorana n’imigambi aho abafise uruhara bose basangira urufunguzo rumwe rizwi nka **ubuhinga bwo gukingira amakuru buringaniye**. Urufunguzo rumwe muri uwo mugambi akenshi rwitwa **urufunguzo rw’ibanga** (canke urufunguzo rw’ibanga). Ishami ry'ubuhinga bwo gukingira amakuru rikorana n'imigambi isaba urufunguzo rw'ibanga n'urwa bose rizwi nka **ubuhinga bwo gukingira amakuru butaringaniye**. Aya mashami rimwe na rimwe yitwa kandi **urufunguzo rw’ibanga** na **urufunguzo rwa bose**, uko bigenda (naho ivyo bishobora gutuma habaho urujijo, kuko imigambi y’urufunguzo rwa bose na yo nyene ifise urufunguzo rw’ibanga).
@@ -337,7 +326,7 @@ Igice gikurikira kivuga ibijanye n’inyigisho y’imibare, iyo na yo ikaba ari 
 Ihinduka ry'imburakimazi rigaragazwa n'urudome rudakomeye, rukomeye. Rero, nk’akarorero, twovuga ivyerekeye umuhinduzi w’imburakimazi $X$, umuhinduzi w’imburakimazi $Y$, canke umuhinduzi w’imburakimazi $Z$. Iyi ni yo notation nzokoresha kandi kuva ngaha gushika hanze.
 
 
-**Ihinduka ry'imburakimazi** rishobora gufata agaciro kabiri canke garenga gashoboka, umwe wese afise ubushobozi bumwe bumwe bwiza. Ivyiza bishoboka biri mu rutonde rw'ibisubizo**.
+**Ihinduka ry'imburakimazi** rishobora gufata agaciro kabiri canke garenga gashoboka, umwe wese afise ubushobozi bumwe bumwe bwiza. Ivyiza bishoboka biri mu rutonde rw'ibisubizo.
 
 
 Igihe cose **sample** umuhinduzi w'imburakimazi, ukura agaciro kanaka kuva ku ngaruka zayo hakurikijwe ibishoboka vyasobanuwe.
@@ -424,7 +413,7 @@ Ivyiza bishoboka n'ibishoboka bifitaniye isano n'umuhinduzi w'imburakimazi bisho
 *Ishusho 1: Ihinduka ry'impfagusa X*
 
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 
 Ivyo bipande vyagutse biri mu *Igishushanyo 1* biragaragara ko bidasobanura ko umuhinduzi w’imburakimazi $X$ mu vy’ukuri abandanya. Ahubwo, iyo mirongo irakorwa mu buryo bwagutse kugira ngo umuntu abone neza (umurongo gusa ugororotse uratuma umuntu abona neza cane).
@@ -478,7 +467,7 @@ Igishushanyo c' $Y$ kiraboneka mu *Ishusho ya 2*.
 *Ishusho ya 2: Ihinduka ry'impfagusa Y*
 
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 
 Ku karorero ka nyuma, rimbura umuhinduzi w’imburakimazi Z. Ufise umugwi w’ivyavuyemwo {1,3,7,11,12} n’ugusangira kw’ibishoboka bikurikira:
@@ -516,7 +505,7 @@ Ushobora kuyibona yerekanwa ku *Ishusho ya 3*. Ihinduka ry’imburakimazi Z ni, 
 *Ishusho ya 3: Ihinduka ry'impfagusa Z*
 
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 
 
@@ -692,18 +681,18 @@ Reka tubanze tubisigure. Twibaze ko inkoranyamagambo *D* ingana inyuguti zose z�
 Igikoresho ca modulo mu gipfukisho c'ihinduka kiratuma amajambo azunguruka, kugira ngo amajambo yose y'igipfukisho asobanurwe. Kugira ngo tubone akarorero, rimbura ukuntu ijambo “IMBWA” rikoreshwa.
 
 
-Twibaze ko wahisemwo urufunguzo mu buryo bumwe kugira ngo rugire agaciro ka 17. Urudome “O” rungana na 15. Hatariho igikorwa ca modulo, kwongerako uwo mubare w’inyandiko rusangi n’urufunguzo vyoba ari umubare w’inyandiko y’ibanga 32. Ariko rero, uwo mubare w’inyandiko y’ibanga ntushobora guhindurwa urudome rw’ibanga nk’uko albet2 gusa. Igikorwa kijanye n’igikorwa ca modulo kigaragaza ko umubare w’inyandiko y’ibanga ari 6 mu vy’ukuri (igisubizo ca $32 \mod 26$), kingana n’urudome rw’inyandiko y’ibanga “G”.
+Dufate ko wahisemo igufunguzo rifise agaciro ka $17$. Inyuguti “O” ingana na $14$. Ni hatabayeho igikorwa ca modulo, guteranya ino n’umubare w’inyandiko isanzwe n’igufunguzo vyotanga umubare w’inyandiko ibishe $31$. Ariko uwo mubare ntiwoshobora guhinduka inyuguti ibishe, kuko inyuguti z’icongereza ari $26$ gusa. Igikorwa ca modulo kiratanga ko umubare w’inyandiko ibishe ari $5$ (ingaruka za $31 \mod 26$), bingana n’inyuguti ibishe “F”.
 
 
 Ijambo “IMBWA” ryose rifise agaciro k’urufunguzo rwa 17 ni iri:
 
 
 
-- Ubutumwa = IMBWA = D,O,G = 3,15,6.
+**Ubutumwa = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \uburyo 26] = [(20) \uburyo 26] = 20 = U$
-- $c_1 = [(15 + 17) \uburyo 26] = [(32) \uburyo 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \uburyo 26] = [(23) \uburyo 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Umuntu wese arashobora gutahura neza ingene shift cipher ikora kandi kumbure akayikoresha we nyene. Ariko rero, kugira ngo utere imbere mu bumenyi bwawe mu vy’ubuhinga bwo gukingira amakuru, birahambaye ko utangura kumenya neza ivy’ugushiramwo amakuru mu buryo butegekanijwe, kuko imigambi izorushiriza kugorana. Ni co gituma intambwe z’uguhindura cipher zari zategekanijwe.
@@ -975,7 +964,7 @@ x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
 
-(umubare munini w'intango uri munsi ya $2^{256}$). $x$-coordinate ni urufunguzo rw'ibanga kandi $y$-coordinate ni urufunguzo rwawe rwa bose.
+(umubare munini w'intango uri munsi ya $2^{256}$)
 
 
 Ibikorwa muri Bitcoin mu bisanzwe birimwo gufunga ibisohoka ku rufunguzo rumwe canke nyinshi za bose mu buryo bumwe. Agaciro kava muri ivyo bikorwa gashobora rero gufungurwa hakoreshejwe imikono ya digitale n’imfunguruzo z’ibanga zihuye.
@@ -1340,7 +1329,7 @@ Kugira ngo uronke ibindi biganiro ku vyerekeye inyigisho y’imibare yo muri iki
 **Ivyiyumviro:**
 
 
-[3] Raba [Ividewo yo kuri YouTube] (v=NOMUnMuxDZY&feature=youtu.be)
+[3] Raba [Ividewo yo kuri YouTube](v=NOMUnMuxDZY&feature=youtu.be)
 
 
 [4] Socratique, [Igitabu c'Aligebra](https://www.socratique.com/ikiganiro/igitabu-c'Aligebra)
@@ -1441,7 +1430,7 @@ Bob ipfuka ubutumwa $M$ ku gihe $T_0$ n'urufunguzo $K$ kugira ngo ivemwo inyandi
 *Ishusho ya 1: Ibanga mu kirere*
 
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 
 
@@ -1449,7 +1438,7 @@ Bob ipfuka ubutumwa $M$ ku gihe $T_0$ n'urufunguzo $K$ kugira ngo ivemwo inyandi
 
 
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 
 
@@ -1598,7 +1587,7 @@ Igiharuro c'umugezi wa XOR kigaragara mu *Ishusho 3*. Ubanza gufata urufunguzo r
 *Ishusho ya 3: Igiharuro c'umugezi wa XOR*
 
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
 Nimwibuke ko umugambi wo gushiramwo amakuru ari nk'akarorero k'ugushiramwo amakuru n'ubuhinga bumwe, aho kuba ivyerekeye nyavyo. Mu kwagura, uruzi cipher ni nk'akarorero k'ububiko aho ushobora gukoresha imfunguruzo z'uburebure butandukanye. Naho uburebure bw’urufunguzo bushobora kugira ico bukoze ku bintu bimwebimwe bitobito vyo muri uwo mugambi, ntibuzogira ico bukoze ku buryo bwawo bw’ingenzi.
@@ -1610,7 +1599,7 @@ Igiharuro c’uguhindura ni akarorero k’igiharuro c’uruzi coroshe cane kandi
 Akandi karorero kazwi cane k’uruzitiro rw’umugezi ni **uruzitiro rwa Vigenere**, inyuma ya Blaise de Vigenere yaruteye imbere bimwe bishitse mu mpera z’ikinjana ca 16 (naho abandi bari barakoze ibikorwa vyinshi vy’imbere y’aho). Ni akarorero k'**inyuguti nyinshi zo gusubirira inyuguti**: umugambi wo gupfuka aho inyuguti z'inyuguti z'ikimenyetso c'inyandiko rusangi zihinduka bivanye n'aho ziri mu nyandiko. Mu buryo butandukanye n’inyandiko y’inyandiko y’inyandiko imwe, ibimenyetso vy’inyandiko y’inyandiko bishobora gufatanywa n’ikimenyetso c’inyandiko y’inyandiko yoroshe kirenze kimwe.
 
 
-Uko ubuhinga bwo gushiramwo amakuru bwagenda burakundwa cane mu Buraya bwo mu gihe c’Ivugurura, ni ko n’ugusesangura amakuru**—ni ukuvuga gucapura amajambo y’ibanga—cane cane, hakoreshejwe **ugusesangura incuro**. Iryo rya nyuma rikoresha imibare idasanzwe mu rurimi rwacu kugira ngo rimene amajambo y’ibanga, kandi ryavumbuwe n’intiti z’ikinyaarabu zisanzwe ziri mu kinjana ca cenda. Ni ubuhinga bukora neza cane cane ku nyandiko ndende. Kandi mbere n’ibiharuro vy’inyuguti imwe vy’ubuhinga bwa none ntivyari bigihagije ku bijanye n’ugusesangura incuro mu myaka ya 1700 mu Buraya, cane cane mu vy’igisirikare no mu vy’umutekano. Uko igiharuro ca Vigenere catanga iterambere rikomeye mu bijanye n’umutekano, carakunzwe cane muri ico kiringo kandi carakwiragiye cane mu mpera z’imyaka ya 1700.
+Uko ubuhinga bwo gushiramwo amakuru bwagenda burakundwa cane mu Buraya bwo mu gihe c'Ivugurura, ni ko n'ugusesangura amakuru—ni ukuvuga gucapura amajambo y'ibanga—cane cane, hakoreshejwe **ugusesangura incuro**. Iryo rya nyuma rikoresha imibare idasanzwe mu rurimi rwacu kugira ngo rimene amajambo y'ibanga, kandi ryavumbuwe n'intiti z'ikinyaarabu zisanzwe ziri mu kinjana ca cenda. Ni ubuhinga bukora neza cane cane ku nyandiko ndende. Kandi mbere n'ibiharuro vy'inyuguti imwe vy'ubuhinga bwa none ntivyari bigihagije ku bijanye n'ugusesangura incuro mu myaka ya 1700 mu Buraya, cane cane mu vy'igisirikare no mu vy'umutekano. Uko igiharuro ca Vigenere catanga iterambere rikomeye mu bijanye n'umutekano
 
 
 Mu kuvuga mu buryo butamenyerewe, umugambi wo gupfuka amakuru ukora gutya:
@@ -1716,10 +1705,10 @@ Igishushanyo c'ingene block cipher ikora gishobora kubonwa ku *Ishusho ya 4* iri
 *Ishusho ya 4: Igiharuro c'ibarabara*
 
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
-Igiharuro c’amabuye ubwaco si umugambi wo gupfuka. Ariko block cipher ishobora gukoreshwa n'uburyo butandukanye bwo gukora** kugira ngo haboneke imigambi itandukanye yo gupfuka. Uburyo bwo gukora bwongerako gusa ibindi bikorwa hanze y'ibanga ry'ibarabara.
+Igiharuro c'amabuye ubwaco si umugambi wo gupfuka. Ariko block cipher ishobora gukoreshwa n'uburyo butandukanye bwo gukora kugira ngo haboneke imigambi itandukanye yo gupfuka. Uburyo bwo gukora bwongerako gusa ibindi bikorwa hanze y'ibanga ry'ibarabara.
 
 
 Kugira ngo tubone ingene ivyo bikora, dufate ko hariho urufunguzo rw’ibanga (BC) rusaba urudodo rw’injiza rw’ibice 128 n’urufunguzo rw’ibanga rw’ibice 128. Igishushanyo ca 5 kiri musi kirerekana ingene iyo cipher y’ibarabara ishobora gukoreshwa n’**uburyo bw’igitabu c’amakode y’ubuhinga bwa none** (**uburyo bwa ECB**) kugira ngo haboneke umugambi wo gupfuka. (Imirongo y’uruzitiro iri iburyo yerekana ko ushobora gusubiramwo iyo nzira igihe cose bikenewe).
@@ -1728,7 +1717,7 @@ Kugira ngo tubone ingene ivyo bikora, dufate ko hariho urufunguzo rw’ibanga (B
 *Ishusho ya 5: Igiharuro c'ibarabara gifise uburyo bwa ECB*
 
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 
 Uburyo bwo gupfuka igitabu c’amakode y’ubuhinga bwa none hakoreshejwe ubuhinga bwa block cipher ni ubu. Raba nimba ushobora gucapura ubutumwa bwawe bw’inyandiko rusangi mu bice vy’ibice 128. Niba atarivyo, wongereko **padding** ku butumwa, kugira ngo igisubizo gishobore kugabanywa neza n'ubunini bw'ibice 128. Aya ni amakuru yawe akoreshwa mu nzira yo gushiramwo amakuru.
@@ -1752,7 +1741,7 @@ Ahubwo, umugambi wose wo gupfuka wubakiwe mu gipfukisho c'amabuye ukwiye kuba **
 *Ishusho ya 6: Igishushanyo c'ububiko gifise uburyo bwa CBC*
 
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
 Twibaze ko ubunini bw’ibarabara ari 128 bits. Rero kugira ngo utangure, wosubira gukenera kwizigira ko ubutumwa bwawe bw’intango bwo mu nyandiko zisanzwe buronka ivyiza bikenewe.
@@ -1776,7 +1765,7 @@ Ubwa nyuma, reka twibande kuri **uburyo bwo gutanga inyishu** (**uburyo bwa OFB*
 *Ishusho ya 7: Igishushanyo c'ibarabara gifise uburyo bwa OFB*
 
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
 Na OFB mode uhitamwo kandi umurongo w'intango. Ariko hano, ku gice ca mbere, umurongo w'intango winjira mu gice c'ibanga n'urufunguzo rwawe. Ivyo biva muri 128-bits rero, bifatwa nk’urufunguzo. Uyu murongo w'urufunguzo ni XORed n'inyandiko rusangi kugira ngo uvemwo inyandiko y'ibanga y'ibarabara. Ku bice bikurikira, ukoresha urufunguzo ruva ku gice c'imbere nk'inyungu mu gice c'inyuma maze ugasubiramwo intambwe.
@@ -1847,7 +1836,7 @@ Muri iki kiganiro, ubu rero mukwiye gutahura *Igishushanyo ca 8*. Itanga icegera
 *Igishushanyo ca 8: Incamake y'imigambi y'ugushiramwo amakuru y'uburinganire*
 
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 
 
@@ -1882,7 +1871,7 @@ Ivyo bigenda vyerekanywe ku *Ishusho ya 9*. Kugira ngo bakoreshe **MAC** (Kode y
 *Igishushanyo ca 9: Incamake y'imigambi y'ugushiramwo amakuru y'uburinganire*
 
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 
 Kubera **ukudashobora guhindurwa**, uwutera ntashobora guhindura ubutumwa $M$ mu buryo ubwo ari bwo bwose canke ngo areme ubutumwa bwiwe bwite bufise ikimenyetso gibereye. Ivyo ni ko biri, naho uwutera yoba yihweje ama tags y’ubutumwa bwinshi buri hagati ya Bob na Alice bukoresha urufunguzo rumwe rw’ibanga. Ivyinshi, uwutera yoshobora kubuza Alice kwakira ubutumwa $M$ (ikibazo cryptography idashobora Address).
@@ -1903,7 +1892,7 @@ Naho nashizeho itandukaniro hagati y’ukuri kw’ubutumwa n’ubunyankamugayo m
 Mu bisanzwe, woshima kwemeza ibanga n’ukuri mu guhanahana amakuru kandi, rero, imigambi yo gushiramwo amakuru n’imigambi ya MAC ikoreshwa hamwe.
 
 
-**Igishushanyo co gushiramwo amakuru yemejwe** ni igishushanyo gifatanya amakuru na MAC mu buryo butekanye cane. Mu buryo bwihariye, ritegerezwa guhura n’ingingo mfatirwako z’ukudashobora guhindurwa kw’ubuzima hamwe n’iciyumviro gikomeye cane c’ibanga, ni ukuvuga ikintu gishobora guhangana n’ibitero vy’amajambo yatoranijwe**. [7]
+**Igishushanyo co gushiramwo amakuru yemejwe** ni igishushanyo gifatanya amakuru na MAC mu buryo butekanye cane. Mu buryo bwihariye, ritegerezwa guhura n'ingingo mfatirwako z'ukudashobora guhindurwa kw'ubuzima hamwe n'iciyumviro gikomeye cane c'ibanga, ni ukuvuga ikintu gishobora guhangana n'ibitero vy'amajambo yatoranijwe. [7]
 
 
 Kugira ngo umugambi wo gupfuka ushobore guhangana n’ibitero vy’inyandiko zitoranijwe, utegerezwa guhura n’ingingo mfatirwako z’**ukudashobora guhinduka**: ni ukuvuga ko uguhindura kwose kw’inyandiko y’ibanga n’umuterabwoba gukwiye gutanga inyandiko y’ibanga idafise akamaro canke ishobora gukuraho inyandiko y’ibanga idafitaniye isano n’inyandiko y’umwimerere. [8]
@@ -1930,7 +1919,7 @@ Alice ubu ibanza gusuzuma nimba ikimenyetso gifise akamaro gihawe inyandiko y'ib
 *Ishusho ya 10: Umugambi wo gupfuka amakuru yemejwe*
 
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 
 None ama MAC aremwa gute? Naho MACs zishobora kuremwa biciye mu buryo bwinshi, uburyo busanzwe kandi bukora neza bwo kuziremwa ni biciye mu **imikorere ya Hash y’ubuhinga bwa none**.
@@ -1949,7 +1938,7 @@ Hariho paleti y’ibikorwa vya Hash bishobora gukoreshwa mu guhingura HMAC. Ikor
 *Ishusho ya 11: HMAC*
 
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 
 **Ivyiyumviro:**
@@ -2006,7 +1995,7 @@ Igihe co guhanahana amakuru gitangura na Bob yohereza ubutumwa bw'ibanga $C_{0,B
 *Ishusho ya 12: Igihe co guhanahana amakuru mu mutekano*
 
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 
 
@@ -2199,7 +2188,7 @@ Reka twite urufunguzo $K_0$. Ubwubatsi bufise ivyo bipimo biri hejuru, rero, bus
 *Ishusho ya 1: AES-ECB ifise urufunguzo rw'ibice 128*
 
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 
 Igipande cose c’inyandiko c’ibice 128 gica mu bice cumi mu mugambi wo gupfuka amakuru wa Rijndael. Ivyo bisaba urufunguzo rw'uruziga rwitandukanye ku ruzitiro rwose ($K_1$ gushika kuri $K_{10}$). Ivyo bikoreshwa ku nzira yose bivuye ku rufunguzo rw'intango rw'ibice 128 $K_0$ hakoreshejwe **urufunguzo rwo kwagura algorithm**. Ni co gituma, ku gice cose c’inyandiko kizoshirwa mu nzira, tuzokoresha urufunguzo rw’intango $K_0$ hamwe n’urufunguzo cumi rutandukanye rw’uruziga. Zirikana ko izo mfunguruzo nyene 11 zikoreshwa ku gice cose c’inyandiko y’ibice 128 gisaba gushirwamwo amakuru.
@@ -2446,7 +2435,7 @@ Rero, Jim’s Sporting Goods yobwirizwa kubika imfunguruzo zibiri ku mukiriya we
 - Umukiriya wese wa Jim’s Sporting Goods yobwirizwa kubika neza imfunguruzo zibiri i muhira. Gutakaza n’ubusuma bizoba, bisaba ko haba ugusubiramwo uguhinduranya urufunguruzo. Abakiriya bobwirizwa kandi guca muri iyo nzira ku yandi maduka yose yo kuri Internet canke ayandi mashirahamwe bipfuza kuvugana no gukorana na yo biciye kuri Internet.
 
 
-Izo ngorane zibiri nyamukuru twahejeje kudondora zari ivyiyumviro vy’ishimikiro cane gushika mu mpera z’imyaka ya 1970. Zari zizwi nk’**ingorane yo gukwiragiza urufunguzo** n’ingorane y’uburongozi bw’urufunguzo**, uko zikurikirana.
+Izo ngorane zibiri nyamukuru twahejeje kudondora zari ivyiyumviro vy'ishimikiro cane gushika mu mpera z'imyaka ya 1970. Zari zizwi nk'**ingorane yo gukwiragiza urufunguzo** n'**ingorane y'uburongozi bw'urufunguzo**, uko zikurikirana.
 
 
 Birumvikana ko izo ngorane zari zama zihari, kandi kenshi zatuma umuntu agira umutwe mu bihe vya kera. Nk’akarorero, ingabo z’igisirikare zobwirizwa kwama zitanga ibitabu birimwo imfunguruzo kugira ngo zishobore kuvugana n’abakozi bo mu gisirikare ata nkomanzi, ivyo bikaba vyari gushobora gutwara ingorane nyinshi be n’amahera menshi. Ariko izo ngorane zariko zirarushiriza kuba mbi uko isi yariko iratera imbere mu bijanye n’uguhanahana amakuru ku ntambwe ndende, ku mbuga ngurukanabumenyi, cane cane ku bigo bitagira Leta.
@@ -2574,7 +2563,7 @@ Mu nyuma, Bob ashaka kwandika ubutumwa $M$ kuri Alice. Kubera ko harimwo amakuru
 *Ishusho ya 1: Ububiko budahuye*
 
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 
 
@@ -2611,7 +2600,7 @@ Umukono wa digitale ni, nk’uko izina ryawo rivyerekana neza, ungana n’umukon
 *Ishusho ya 2: Ivyemezo bitaringaniye*
 
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 
 
@@ -3011,7 +3000,7 @@ $$C_{119} = \{1, 2, \utudomo 6, 8 \utudomo 13, 15, 16, 18, \utudomo 33, 35 \utud
 ### Uguhinduka modulo N
 
 
-Turashobora kuvuga ko umubare wose $a$ ari **umubare N$ uhinduka, iyo hariho n’imiburiburi umubare wose $b$ ku buryo $a \cdot b \mod N = 1 \mod N$. Umubare wose nk'uwo $b$ witwa **inverse** (canke **inverse y'ugukubita**) ya $a$ igabanywa na modulo $N$.
+Turashobora kuvuga ko umubare wose $a$ ari **umubare N** uhinduka, iyo hariho n'imiburiburi umubare wose $b$ ku buryo $a \cdot b \mod N = 1 \mod N$. Umubare wose nk'uwo $b$ witwa **inverse** (canke **inverse y'ugukubita**) ya $a$ igabanywa na modulo $N$.
 
 
 Twibaze nk’akarorero ko $a = 5$ na $N = 11$. Hariho imibare myinshi yuzuye ushobora gukubita 5, kugira ngo $5 \cdot b \mod 11 = 1 \mod 11$. Rimbura, nk'akarorero, imibare 20 na 31. Biroroshe kubona ko iyo mibare yose ari inverses ya 5 ku kugabanya modulo 11.
@@ -3078,7 +3067,7 @@ Igikurikira, ukoresheje igikorwa ca Euler’s Phi, **Iciyumviro ca 2**, urashobo
 **Iciyumviro ca 5**. $\phi(a \cdot b) = \phi(a) \cdot \cdot \phi(b)$ ku mibare yose nziza $a$ na $b$.
 
 
-Ntituzokwerekana igituma ari ukwo biri. Ariko gusa menya ko umaze kubona ibimenyamenya vy’ico ciyumviro kubera ko $\phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ igihe $p$ na $q$ ari ibiharuro vy’intango, nk’uko bivugwa muri **Iciyumviro 2.
+Ntituzokwerekana igituma ari ukwo biri. Ariko gusa menya ko umaze kubona ibimenyamenya vy'ico ciyumviro kubera ko $\phi(p \cdot q) = \phi(p) \cdot \phi(q) = (p - 1) \cdot (q - 1)$ igihe $p$ na $q$ ari ibiharuro vy'intango, nk'uko bivugwa muri **Iciyumviro 2**.
 
 
 Iciyumviro ca Euler gifatanijwe n’**Iciyumviro ca 5** gifise insiguro zihambaye. Raba ibiba, nk'akarorero, mu mvugo zikurikira, aho $a$ na $N$ ari coprimes.

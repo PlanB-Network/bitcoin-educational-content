@@ -1,0 +1,9 @@
+question: Que nome damos ao conjunto de máquinas que executam uma implementação Bitcoin e estão ligadas entre si?
+answer: A rede Bitcoin
+wrong_answers:
+  - O protocolo Bitcoin
+  - Moeda Bitcoin
+  - O Blockchain Bitcoin
+explanation: |
+  A rede Bitcoin inclui todos os nós conectados, cada um executando uma implementação distinta do protocolo.
+reviewed: true

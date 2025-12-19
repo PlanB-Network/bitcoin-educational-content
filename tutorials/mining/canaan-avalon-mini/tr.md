@@ -23,7 +23,7 @@ Bu cihazlar, **Avalon Nano 3S (140W)** örneğinde olduğu gibi yardımcı ısı
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Lütfen eşdeğer güce sahip geleneksel ısıtıcılarla aradaki fiyat farkının, çoğu durumda finansal bir kâr elde etmenize izin vermediğini unutmayın. Bedava (ihtiyaç fazlası) veya çok ucuz elektriğe erişiminiz olmadığı sürece, Mining'un faaliyeti ile üretilen satoshiler bu fiyat farkını asla telafi etmeyecektir.
 
@@ -181,9 +181,9 @@ Bir Mining pool'e nasıl bağlanılacağı hakkında daha fazla ayrıntı için 
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Özetlemek gerekirse, şunlara ihtiyacımız var
 
@@ -358,4 +358,4 @@ Daha fazla bilgi edinmek için Avalon'un daha küçük versiyonu olan Nano 3S ha
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

@@ -1,5 +1,5 @@
 ---
-name: Fleš
+name: Flash
 description: Kupite bitkoine od 100 CFA franaka zahvaljujući snazi Lightning-a.
 ---
 
@@ -39,8 +39,8 @@ Postoje dve glavne usluge koje platforma nudi:
 
 
 
-- FlashX**: Exchange bitcoina sa mobilnim novcem.
-- FlashPayment**: Koristite Bitcoin za svakodnevne usluge.
+- **FlashX**: Exchange bitcoina sa mobilnim novcem.
+- **FlashPayment**: Koristite Bitcoin za svakodnevne usluge.
 
 
 
@@ -73,9 +73,9 @@ Flash obavlja svoje transakcije koristeći lokalni Mobilni Novac. U zavisnosti o
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Narandžasta.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Narandžasta.
 
 
 
@@ -110,7 +110,7 @@ Nastavite sa plaćanjem, zatim unesite svoj Lightning Address da biste validiral
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Izvršenje transakcije na Flash-u će vam u proseku trajati od 5 do 10 minuta da primite svoje bitkoine na vaš Lightning Wallet.
 
@@ -157,10 +157,10 @@ Pored kupovine i prodaje bitkoina, Flash nudi svojoj zajednici kontekstualnu upo
 
 
 
-- GSM** jedinice;
-- Internet paketi**;
-- Pozivanje paketa**;
-- Kombinacija paketa za pozive i Internet**.
+- **GSM** jedinice;
+- Internet paketi;
+- Pozivanje paketa **java.util**;
+- Kombinacija paketa za pozive i Internet.
 
 
 
@@ -202,5 +202,4 @@ Ako ste smatrali da vam je ovaj vodič pomogao da se upoznate sa Flash-om, molim
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
-
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

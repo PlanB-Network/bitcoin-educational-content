@@ -1,5 +1,5 @@
 ---
-name: Alby Tarayıcı Uzantısı
+name: Alby
 
 description: Bitcoin ve Lightning Network için tarayıcı uzantısı
 ---

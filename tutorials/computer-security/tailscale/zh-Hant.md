@@ -1,5 +1,5 @@
 ---
-name: 尾尺
+name: Tailscale
 description: Tailscale 進階教學
 ---
 ![cover](assets/cover.webp)
@@ -72,7 +72,7 @@ Tailscale 是下一代 VPN，可在您的裝置之間建立加密的網狀網路
 
 
 
-**若要詳細解釋 Tailscale 的內部運作，包括控制平面管理、NAT 穿透和 DERP 中繼，我們推薦官方部落格上的優秀文章 [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works)。這篇文章深入解釋了讓 Tailscale 如此強大的技術概念。
+**若要詳細解釋 Tailscale 的內部運作，包括控制平面管理、NAT 穿透和 DERP 中繼，我們推薦官方部落格上的優秀文章** [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works)**。這篇文章深入解釋了讓 Tailscale 如此強大的技術概念。**
 
 
 
@@ -80,7 +80,7 @@ Tailscale 是下一代 VPN，可在您的裝置之間建立加密的網狀網路
 
 
 
-Tailscale 可在最常見的**作業系統 (Windows、macOS、Linux、iOS、Android) 上執行。據說在所有平台上安裝都非常「快速簡單」。讓我們先來看看 Interface 以及如何建立帳號，然後再看看不同環境的安裝程序。
+Tailscale 可在最常見的**作業系統 (Windows、macOS、Linux、iOS、Android)** 上執行。據說在所有平台上安裝都非常「快速簡單」。讓我們先來看看 Interface 以及如何建立帳號，然後再看看不同環境的安裝程序。
 
 
 
@@ -139,7 +139,7 @@ Tailscale 可在最常見的**作業系統 (Windows、macOS、Linux、iOS、Andr
 
 
 
-- 在 Windows 和 macOS 上：** 只需從 Tailscale 官方網站下載圖形化應用程式並安裝（Windows 上為 .msi 檔案，Mac 上為 .dmg 檔案）。安裝完成後，應用程式會啟動圖形 Interface，讓您 (透過瀏覽器) 連線至 Tailscale 帳戶以驗證機器。
+- 在 Windows 和 macOS 上：只需從 Tailscale 官方網站下載圖形化應用程式並安裝（Windows 上為 .msi 檔案，Mac 上為 .dmg 檔案）。安裝完成後，應用程式會啟動圖形 Interface，讓您 (透過瀏覽器) 連線至 Tailscale 帳戶以驗證機器。
 
 
 
@@ -159,7 +159,7 @@ Tailscale 可在最常見的**作業系統 (Windows、macOS、Linux、iOS、Andr
 
 
 
-- 在 Linux (Debian、Ubuntu 等)：** 您有幾種選擇。最簡單的方法是執行官方安裝腳本：例如，在 Debian/Ubuntu ：
+- 在 Linux (Debian、Ubuntu 等)：**您有幾種選擇。最簡單的方法是執行官方安裝腳本：例如，在 Debian/Ubuntu：**
 
 
 
@@ -175,13 +175,13 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-- 在以 ARM 為基礎的系統 (Raspberry Pi 等)：** 我們一般使用 Linux，所以方法與上述相同 (腳本或套件)。請注意，Tailscale 支援 ARM32/ARM64 架構沒有任何問題。許多使用者透過 apt 將 Tailscale 安裝在 Raspberry Pi OS 上，或安裝在輕量級發行版 (DietPi 等) 上，以便隨處存取他們的 Pi。
+- 在以 ARM 為基礎的系統 (Raspberry Pi 等)：**我們一般使用 Linux，所以方法與上述相同 (腳本或套件)。請注意，Tailscale 支援 ARM32/ARM64 架構沒有任何問題。許多使用者透過 apt 將 Tailscale 安裝在 Raspberry Pi OS 上，或安裝在輕量級發行版 (DietPi 等) 上，以便隨處存取他們的 Pi。**
 
 
 
 
 
-- 在 iOS 和 Android 上：** Tailscale 提供**官方**行動應用程式。只要從 [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) 或 [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android) 安裝 *Tailscale* 即可。
+- 在 iOS 和 Android 上：**Tailscale 提供官方行動應用程式**。只要從 [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) 或 [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android) 安裝 *Tailscale* 即可。
 
 
 
@@ -199,7 +199,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 
 
 
-安裝應用程式後，第一次啟動時會要求您透過選擇的提供者（Google、Apple ID、Microsoft 等，視您使用的 Tailscale 類型而定）進行驗證 - 這與其他平台上的程序相同，通常會重定向至 OAuth 網頁。之後，行動應用程式會建立 VPN（在 iOS 上，您需要接受 VPN 配置附加元件）。之後，應用程式就可以在背景執行，讓您可以從任何地方存取您的 tailnet。 *請注意：* 在行動裝置上，您一次只能有**個有效的 VPN - 因此請確定您沒有同時連線其他 VPN，否則 Tailscale 無法建立自己的 VPN。在 Android 上，如果您想要隔離某些用途 (例如：在特定應用程式中使用 Tailscale 的設定檔)，您可以設定獨立的工作設定檔。
+安裝應用程式後，第一次啟動時會要求您透過選擇的提供者（Google、Apple ID、Microsoft 等，視您使用的 Tailscale 類型而定）進行驗證 - 這與其他平台上的程序相同，通常會重定向至 OAuth 網頁。之後，行動應用程式會建立 VPN（在 iOS 上，您需要接受 VPN 配置附加元件）。之後，應用程式就可以在背景執行，讓您可以從任何地方存取您的 tailnet。**請注意：**在行動裝置上，您一次只能有**一**個有效的 VPN - 因此請確定您沒有同時連線其他 VPN，否則 Tailscale 無法建立自己的 VPN。在 Android 上，如果您想要隔離某些用途 (例如：在特定應用程式中使用 Tailscale 的設定檔)，您可以設定獨立的工作設定檔。
 
 
 
@@ -261,7 +261,7 @@ Web 管理主控台可讓您檢視和管理所有連接的裝置：
 
 
 
-- Interface Web (管理主控台)**：可從 [https://login.tailscale.com](https://login.tailscale.com)存取，此 Web 主控台是 Tailscale 網路的中央儀表板。它會列出所有裝置 (*機器*)、它們的線上/離線狀態、它們的 Tailscale IP 位址等等。在這裡，您可以**管理裝置** (重新命名、金鑰過期、授權路由、停用節點)、**管理使用者** (在組織情境中)，以及定義安全性規則 (ACL)。這也是您設定 MagicDNS、標籤或授權金鑰（generate 之前的授權金鑰，用於自動新增裝置）等全局選項的地方。Interface Web 非常方便您取得總覽，並套用將透過協調伺服器傳播到所有節點的變更。 *範例：* 啟動**子網路路由**或**退出節點**只需在主控台上按一下即可完成，只要相關節點宣佈自己是這樣的即可。
+- Interface Web (管理主控台)：可從 [https://login.tailscale.com](https://login.tailscale.com)存取，此 Web 主控台是 Tailscale 網路的中央儀表板。它會列出所有裝置 (*機器*)、它們的線上/離線狀態、它們的 Tailscale IP 位址等等。在這裡，您可以**管理裝置** (重新命名、金鑰過期、授權路由、停用節點)、**管理使用者** (在組織情境中)，以及定義安全性規則 (ACL)。這也是您設定 MagicDNS、標籤或授權金鑰（generate 之前的授權金鑰，用於自動新增裝置）等全局選項的地方。Interface Web 非常方便您取得總覽，並套用將透過協調伺服器傳播到所有節點的變更。*範例：*啟動**子網路路由**或**退出節點**只需在主控台上按一下
 
 
 
@@ -293,7 +293,7 @@ Umbrel 是一個廣受歡迎的自助託管平台（主要用於 Bitcoin/Lightni
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 將 Umbrel 和 Tailscale 搭配使用是一個特別有趣的使用個案，因為 Umbrel 原生整合了一個容易部署的 Tailscale 模組。以下是 Tailscale 如何與 Umbrel 整合及其帶來的效益：
 
@@ -305,7 +305,7 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- 在 Umbrel 上安裝 Tailscale：** Umbrel 在其 App Store 中擁有官方的 Tailscale 應用程式。安裝再簡單不過：
+- 在 Umbrel 上安裝 Tailscale：**Umbrel 在其 App Store 中擁有官方的 Tailscale 應用程式。安裝再簡單不過：**
 
 
 
@@ -379,11 +379,11 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-- Interface 主 Umbrel**：只需在瀏覽器中輸入 `http://100.x.y.z` 即可存取您的 Umbrel 面板
-- Bitcoin 節點**：無延遲地管理您的 Bitcoin 節點、檢視同步與統計資料
-- Lightning 節點**：使用 ThunderHub、RTL 或其他 Lightning 管理介面，可立即回應
-- Mempool**：查看 Bitcoin 交易和 Mempool 無 Tor 延遲
-- noStrudel**：存取您託管在 Umbrel 上的 Nostr 服務
+- Interface 主 **Umbrel**：只需在瀏覽器中輸入 `http://100.x.y.z` 即可存取您的 Umbrel 面板
+- Bitcoin 節點：無延遲地管理您的 Bitcoin 節點、檢視同步與統計資料
+- Lightning 節點：使用 ThunderHub、RTL 或其他 Lightning 管理介面，可立即回應
+- **Mempool**：查看 Bitcoin 交易和 Mempool 無 Tor 延遲
+- **noStrudel**：存取您託管在 Umbrel 上的 Nostr 服務
 
 
 
@@ -397,7 +397,7 @@ Tailscale 還能讓您安裝在其他裝置上的 Bitcoin 和 Lightning 錢包�
 
 
 
-- Sparrow wallet (Bitcoin)**：此外部 Wallet Bitcoin 可以使用 Tailscale IP Address 直接連接到您 Umbrel 的 Electrum 伺服器：
+- **Sparrow wallet (Bitcoin)**：此外部 Wallet Bitcoin 可以使用 Tailscale IP Address 直接連接到您 Umbrel 的 Electrum 伺服器：
 
 
 
@@ -419,12 +419,12 @@ Tailscale 還能讓您安裝在其他裝置上的 Bitcoin 和 Lightning 錢包�
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 
-- 宙斯（閃電）**：這個 Wallet Mobile Lightning 可以連接到您 Umbrel 上的 Lightning 節點。只需設定您 Umbrel 的 Tailscale IP 和 Lightning API 連接埠，而無需設定端點為 `.onion'。與 Tor 相比，連線將會是瞬間的。
+- 宙斯（閃電）：這個 Wallet Mobile Lightning 可以連接到您 Umbrel 上的 Lightning 節點。只需設定您 Umbrel 的 Tailscale IP 和 Lightning API 連接埠，而無需設定端點為 `.onion`。與 Tor 相比，連線將會是瞬間的。
 
 
 
@@ -439,13 +439,13 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 若要瞭解更多關於 Lightning Network 及其如何在 Umbrel 上運作的資訊，請造訪 ：
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 
@@ -483,7 +483,7 @@ Tailscale 通常提供**更快速、低延遲**的連線，因為流量會直接
 
 ---
 
-在本節的最後，在 Umbrel 上整合 Tailscale 只需幾下點擊，就能**大的改善您自託管節點的存取**。您可以從任何地方安全且有效率地管理 Umbrel 及其服務，就像在家一樣。這對於受 Tor 延遲影響的即時應用程式 (Lightning) 來說是一個特別有用的解決方案，對於任何尋求簡單私人連線的自主存儲器來說也是如此。這一切都不需要暴露您電腦上的任何一個連接埠**，也不需要複雜的網路設定。
+在本節的最後，在 Umbrel 上整合 Tailscale 只需幾下點擊，就能**大大改善您自託管節點的存取**。您可以從任何地方安全且有效率地管理 Umbrel 及其服務，就像在家一樣。這對於受 Tor 延遲影響的即時應用程式 (Lightning) 來說是一個特別有用的解決方案，對於任何尋求簡單私人連線的自主存儲器來說也是如此。這一切都不需要暴露您電腦上的任何一個連接埠，也不需要複雜的網路設定。
 
 
 
@@ -507,7 +507,7 @@ Tailscale 通常提供**更快速、低延遲**的連線，因為流量會直接
 
 
 
-**Device Sharing 可讓您邀請他人存取特定的機器，而不會讓他們存取您的整個網路。
+**Device Sharing** 可讓您邀請他人存取特定的機器，而不會讓他們存取您的整個網路。
 
 
 
@@ -531,7 +531,7 @@ Tailscale 通常提供**更快速、低延遲**的連線，因為流量會直接
 
 
 
-**作為直接競爭對手，ZeroTier 運作於 Layer 2 (乙太網路)，支援廣播/群播，而 Tailscale 運作於 Layer 3 (IP)。ZeroTier 提供更大的網路彈性，而 Tailscale 則偏向於簡單易用。
+**作為直接競爭對手，ZeroTier 運作於 Layer 2 (乙太網路)，支援廣播/群播，而 Tailscale 運作於 Layer 3 (IP)。ZeroTier 提供更大的網路彈性，而 Tailscale 則偏向於簡單易用。**
 
 
 
@@ -557,8 +557,8 @@ Tailscale 通常提供**更快速、低延遲**的連線，因為流量會直接
 
 
 
-- 簡易與效能** - 可在所有平台上快速安裝，無須複雜的網路設定。流量遵循您的機器之間最直接的路徑 (P2P 網狀)，具有 WireGuard 通訊協定的效能，且無中央伺服器限制吞吐量。
-- 安全性與彈性** - 端對端加密、降低攻擊面，以及進階功能 (ACL、SSO/MFA 認證)。即使在 NAT 後面或移動中也能運作，搭配子網路路由器和出口節點，讓網路符合您的需求。
+- **簡易與效能** - 可在所有平台上快速安裝，無須複雜的網路設定。流量遵循您的機器之間最直接的路徑 (P2P 網狀)，具有 WireGuard 通訊協定的效能，且無中央伺服器限制吞吐量。
+- **安全性與彈性** - 端對端加密、降低攻擊面，以及進階功能 (ACL、SSO/MFA 認證)。即使在 NAT 後面或移動中也能運作，搭配子網路路由器和出口節點，讓網路符合您的需求。
 
 
 
@@ -568,16 +568,16 @@ Tailscale 通常提供**更快速、低延遲**的連線，因為流量會直接
 
 
 
-- 外部依賴性** - 在標準版本中，服務依賴於 Tailscale Inc.此依賴可透過 Headscale (自我託管替代方案) 繞過。
-- 其他限制** - 部分封閉原始碼、免費版本對某些進階用途的限制、不支援 Layer 2 (廣播/群播)，以及需要網際網路存取才能建立連線。
+- **外部依賴性** - 在標準版本中，服務依賴於 Tailscale Inc.此依賴可透過 Headscale (自我託管替代方案) 繞過。
+- **其他限制** - 部分封閉原始碼、免費版本對某些進階用途的限制、不支援 Layer 2 (廣播/群播)，以及需要網際網路存取才能建立連線。
 
 
 
-**Tailscale 是個人自助主機和小型團隊、需要存取分散資源的開發人員、VPN 初學者和行動使用者的理想選擇。對於需要完全控制的公司，其他解決方案如 Headscale 或直接使用 WireGuard 可能會比較好。
+**Tailscale 是個人自助主機和小型團隊、需要存取分散資源的開發人員、VPN 初學者和行動使用者的理想選擇。對於需要完全控制的公司，其他解決方案如 Headscale 或直接使用 WireGuard 可能會比較好。**
 
 
 
-**探索 Headscale 的完全自助託管、API 和 DevOps 整合 (Terraform)，或 Innernet（類似但完全自助託管）和 Netmaker 等替代方案。
+**探索 Headscale 的完全自助託管、API 和 DevOps 整合 (Terraform)，或 Innernet（類似但完全自助託管）和 Netmaker 等替代方案。**
 
 
 
@@ -595,9 +595,9 @@ Tailscale 是自我託管的必要工具，因為它簡單又有效率，讓您�
 
 
 
-- Tailscale 文件中心**：[docs.tailscale.com](https://docs.tailscale.com) - 完整的英文說明文件、安裝指南、教學和技術參考。
-- Tailscale 如何運作**：[How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - 詳細說明 Tailscale 內部運作的文章。
-- Changelog**：[tailscale.com/changelog](https://tailscale.com/changelog) - 追蹤更新與新功能。
+- **Tailscale 文件中心**：[docs.tailscale.com](https://docs.tailscale.com) - 完整的英文說明文件、安裝指南、教學和技術參考。
+- Tailscale 如何運作：[How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) - 詳細說明 Tailscale 內部運作的文章。
+- **Changelog**：[tailscale.com/changelog](https://tailscale.com/changelog) - 追蹤更新與新功能。
 
 
 
@@ -607,9 +607,9 @@ Tailscale 是自我託管的必要工具，因為它簡單又有效率，讓您�
 
 
 
-- Homelab** 教學：[tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - 自我託管的特定指南。
-- 設定出口節點** ：[tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - 配置退出節點的詳細指南。
-- 使用 Taildrop**：[tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - 在 Tailscale 裝置之間傳輸檔案。
+- **Homelab** 教學：[tailscale.com/kb/1310/homelab](https://tailscale.com/kb/1310/homelab) - 自我託管的特定指南。
+- 設定出口節點：[tailscale.com/kb/1103/exit-nodes](https://tailscale.com/kb/1103/exit-nodes) - 配置退出節點的詳細指南。
+- 使用 **Taildrop**：[tailscale.com/kb/1106/taildrop](https://tailscale.com/kb/1106/taildrop) - 在 Tailscale 裝置之間傳輸檔案。
 
 
 
@@ -619,7 +619,7 @@ Tailscale 是自我託管的必要工具，因為它簡單又有效率，讓您�
 
 
 
-- Tailscale 與其他解決方案的比較**：[tailscale.com/compare](https://tailscale.com/compare) - 與其他 VPN 和網路解決方案 (ZeroTier、OpenVPN 等) 的詳細比較。
+- **Tailscale 與其他解決方案的比較**：[tailscale.com/compare](https://tailscale.com/compare) - 與其他 VPN 和網路解決方案 (ZeroTier、OpenVPN 等) 的詳細比較。
 
 
 
@@ -629,9 +629,9 @@ Tailscale 是自我託管的必要工具，因為它簡單又有效率，讓您�
 
 
 
-- Reddit**：[r/Tailscale](https://www.reddit.com/r/tailscale/) - 討論、問題與回饋。
-- GitHub**：[github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - 客戶原始碼，在此追蹤開發並報告問題。
-- Discord**：[discord.gg/tailscale](https://discord.gg/tailscale) - 使用者和開發人員的社群。
+- **Reddit**：[r/Tailscale](https://www.reddit.com/r/tailscale/) - 討論、問題與回饋。
+- **GitHub**：[github.com/tailscale/tailscale](https://github.com/tailscale/tailscale) - 客戶原始碼，在此追蹤開發並報告問題。
+- **Discord**：[discord.gg/tailscale](https://discord.gg/tailscale) - 使用者和開發人員的社群。
 
 
 

@@ -1,0 +1,11 @@
+question: Czym są pieniądze Wei Dai'a?
+answer: Pomysłem anonimowej waluty cyfrowej, w której wykrywanie oszustw było przeprowadzane przez społeczność oceniających, a nie przez organ centralny.
+wrong_answers:
+  - Walutą cyfrową, która była powszechnie używana przed Bitcoinem i była kontrolowana przez grupę cypherpunków.
+  - Formą cyfrowego pieniądza stworzoną przez CIA i wykorzystywaną przez wojsko.
+  - Walutą cyfrową, która została stworzona przez Wei Dai'a jako konkurent Bitcoina, aby była bardziej skalowalna.
+explanation: |
+  B-money Wei Dai'a było pomysłem na anonimową walutę cyfrową bez podmiotu centralnego, która w dużym stopniu zainspirowała
+  stworzenie Bitcoina. Projekt ten jest cytowany w białej księdze Bitcoina.
+  whitepaper.
+reviewed: true

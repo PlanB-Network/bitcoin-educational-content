@@ -1,5 +1,5 @@
 ---
-name: Elementaarne operatsioonisüsteem
+name: Elementary OS
 description: Ideaalne asendaja Windowsile ja MacOSile
 ---
 
@@ -11,7 +11,7 @@ Elementary OS on Ubuntu-põhine operatsioonisüsteem, mis on loodud lihtsaks, ki
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Miks valida Elementary OS
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Lihtsus ja kasutusmugavus**: Elementary OS-i graafiline Interface on MacOs ja Windows'i graafilise Interface vahel. See tuttavlikkus muudab selle hõlpsasti kasutatavaks ka kogenematuile kasutajatele.
+- **Lihtsus ja kasutusmugavus**: Elementary OS-i graafiline Interface on MacOs ja Windows'i graafilise Interface vahel. See tuttavlikkus muudab selle hõlpsasti kasutatavaks ka kogenematuile kasutajatele.
 
 
 
 
 
-- Turvalisus**: Nagu enamik Linuxi distributsioone, on ka Elementary OSil kõrge turvalisuse tase. Regulaarsed uuendused, õiguste haldamine ja tavaliste viiruste puudumine teevad sellest usaldusväärse süsteemi.
+- **Turvalisus**: Nagu enamik Linuxi distributsioone, on ka Elementary OSil kõrge turvalisuse tase. Regulaarsed uuendused, õiguste haldamine ja tavaliste viiruste puudumine teevad sellest usaldusväärse süsteemi.
 
 
 
 
 
-- Kiirus**: Elementary OS on kerge distributsioon. See nõuab vähe ressursse, mistõttu on see kiire ja sobib tagasihoidliku konfiguratsiooniga arvutitele.
+- **Kiirus**: Elementary OS on kerge distributsioon. See nõuab vähe ressursse, mistõttu on see kiire ja sobib tagasihoidliku konfiguratsiooniga arvutitele.
 
 
 
 
 
-- Tasuta**: Süsteem on täiesti tasuta. Kuid kui te seda alla laadite, võite teha annetuse, et toetada arendajaid.
+- **Tasuta**: Süsteem on täiesti tasuta. Kuid kui te seda alla laadite, võite teha annetuse, et toetada arendajaid.
 
 
 
 
 
-- Aktiivne kogukond**: Elementaarse operatsioonisüsteemi ümbritsev kogukond on mitmekesine ja tundlik. Kui teil tekib raskusi, võite kergesti leida abi foorumitest või sotsiaalvõrgustikest.
+- **Aktiivne kogukond**: Elementaarse operatsioonisüsteemi ümbritsev kogukond on mitmekesine ja tundlik. Kui teil tekib raskusi, võite kergesti leida abi foorumitest või sotsiaalvõrgustikest.
 
 
 
@@ -61,7 +61,7 @@ Enne paigaldamise alustamist veenduge, et teil on olemas järgmised seadmed:
 
 
 - Vähemalt 12 GB suurune **USB-võti**
-- RAM** mälu vähemalt 4 GB
+- **RAM** mälu vähemalt 4 GB
 - **Hard ketas mahuga 20 GB** või rohkem mugavaks kasutamiseks
 
 
@@ -380,4 +380,4 @@ Elementaarne operatsioonisüsteem on nüüd teie masinas käivitatud ja töötab
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

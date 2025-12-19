@@ -1,12 +1,9 @@
-question: Šta je Multisig novčanik?
-answer: Skup novčanika koji zahteva više potpisa za obavljanje transakcije.
+question: Kakvi su rizici korišćenja Multisig novčanika?
+answer: Nemanje pristupa dovoljnim brojem pojedinačnih privatnih ključeva ili rezervnih komponenti.
 wrong_answers:
-  - Novčanik koji zahteva jedan potpis za obavljanje transakcije.
-  - Novčanik koji ne zahteva potpise za obavljanje transakcije.
-  - Novčanik koji zahteva fizički potpis za obavljanje transakcije.
+  - Imati pristup dovoljnom broju pojedinačnih privatnih ključeva ili rezervnih komponenti.
+  - Deljenje vaših privatnih ključeva sa drugim stranama.
+  - Deljenje vaših javnih ključeva sa drugim stranama.
 explanation: |
-  Multisig novčanik je tip BitKoin novčanikA koji zahteva
-  višestruke potpise za obavljanje transakcije. Ovo dodaje
-  dodatni sloj sigurnosti, jer znači da jedna osoba
-  ne može obaviti transakciju bez odobrenja drugih.
+  Kada koristite Multisig novčanik, svaki privatni ključ Multisig treba biti pohranjen na različitim lokacijama. To je zato što Multisig zahteva više potpisa za obavljanje transakcije, pa je potreban određeni broj novčanika. Dakle, pohranjivanje svakog dela na različitoj lokaciji dodaje dodatni nivo sigurnosti.
 reviewed: true

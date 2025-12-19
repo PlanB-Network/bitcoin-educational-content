@@ -1,0 +1,9 @@
+question: Internet Explorer 버전 4부터 사용되어 2000년대 초반 시장을 지배한 렌더링 엔진은 무엇인가요?
+answer: 트라이던트
+wrong_answers:
+  - Gecko
+  - WebKit
+  - Blink
+explanation: |
+  Microsoft에서 개발한 트라이던트는 1997년 Internet Explorer 4.0과 함께 도입되어 Internet Explorer가 사실상 독점하던 시기에 웹을 지배했습니다.
+reviewed: false

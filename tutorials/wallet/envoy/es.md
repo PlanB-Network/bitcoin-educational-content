@@ -1,5 +1,5 @@
 ---
-name: Enviado
+name: Envoy
 description: Configuración y uso de un pasaporte con la aplicación Envoy
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ En este tutorial, dirigido a usuarios principiantes e intermedios, vamos a descu
 
 Si eres un usuario avanzado y quieres explorar funciones más complejas, te recomiendo que eches un vistazo a este otro tutorial en el que configuramos Passport con Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Unboxing del Passport
 
@@ -170,7 +170,7 @@ Para ello, utiliza la tarjeta MicroSD incluida en la caja de tu Passport (u otra
 
 Antes de instalarlo en tu dispositivo, te aconsejamos encarecidamente que compruebes la autenticidad e integridad del firmware descargado. Si necesitas ayuda para ello, consulta este tutorial :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Con la aplicación Envoy
 
@@ -254,9 +254,9 @@ Haga clic en el botón de confirmación para ver su frase mnemotécnica.
 
 Para más información sobre la forma correcta de guardar y gestionar tu frase mnemotécnica, te recomiendo encarecidamente que sigas este otro tutorial, especialmente si eres principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.**_
+por supuesto, nunca debes compartir estas palabras en Internet, como hago yo en este tutorial. Esta cartera de muestra sólo se utilizará en Testnet y se eliminará al final del tutorial.
 
 Haga una copia de seguridad física de esta frase.
 
@@ -303,7 +303,7 @@ La interfaz de tu Passport tiene tres menús principales:
 
 Para navegar entre estos menús, utilice las flechas izquierda y derecha del pad direccional.
 
-### *Menú "Cuenta
+### *Menú "Cuenta"*
 
 En el menú "*Cuenta*" encontrarás las principales funciones de tu monedero Bitcoin. Puedes firmar una transacción a través de la cámara o del puerto MicroSD.
 
@@ -457,4 +457,4 @@ Enhorabuena, ahora ya sabe cómo configurar y utilizar Passport con la aplicaci�
 
 Para más información, consulte nuestro tutorial sobre el software Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

@@ -6,4 +6,4 @@ wrong_answers:
   - La collecte des données, le tirage au sort et la dénonciation.
 explanation: |
   L'analyse de chaîne consiste d'abord à avoir accès aux données de la blockchain Bitcoin, puis à tenter de repérer des caractéristiques sur ces données et enfin à émettre des interprétations vraisemblables.
-reviewed: false
+reviewed: true 

@@ -6,4 +6,4 @@ wrong_answers:
   - Store all Bitcoin on a public website with a simple password
 explanation: |
   After buying Bitcoin, moving it to a self-custody wallet ensures the business has direct control over its funds. While third-party custodians can be convenient, self-custody aligns with Bitcoin’s principle of financial sovereignty.
-reviewed: false
+reviewed: true

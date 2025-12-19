@@ -19,7 +19,7 @@ Kurulum kılavuzumuzu takip ederek Umbrel'i yüklediğinizden emin olun:
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Nostr'a Giriş
 
@@ -69,7 +69,7 @@ Umbrel aracılığıyla Interface web'ini göreceksiniz: temel bilgileri ve her 
 
 
 
-**Umbrel rölenizden yararlanmak için :
+**Umbrel rölenizden yararlanmak için:**
 
 
 
@@ -209,9 +209,9 @@ _Snort_'tan Interface şunları sunar :
 
 
 - Notlarınız, başlık altındaki tartışmalar veya genel akış arasında gezinmek için bir **Postalar/Görüşmeler/Global** ekranı
-- Bildirimler**, **Mesajlar** (DM), **Arama**, **Profil**, vb. için sekmeler.
+- **Bildirimler**, **Mesajlar** (DM), **Arama**, **Profil**, vb. için sekmeler.
 - Yeni bir not yayınlamak için bir **+** veya _Yaz_ düğmesi
-- Aboneliklerin (takip eden)** ve **listelerin** yönetimi
+- **Aboneliklerin (takip eden)** ve **listelerin** yönetimi
 - Röle eklemek/kaldırmak ve kullanılabilirliklerini takip etmek için röle yönetim menüsü
 
 
@@ -224,7 +224,7 @@ _Snort_'tan Interface şunları sunar :
 
 
 
-**Nostr Wallet Connect (NWC)**, Lightning ödemeleri yapmak için (örneğin, içeriği "beğenmek" için mikro ödemeler olan _zaps_ göndermek) Umbrel (Lightning)** düğümünüzü uyumlu Nostr uygulamalarına bağlayan bir uygulamadır. Bu eğitimde, doğrudan Interface'ten ödeme yapmak için noStrudel'i Lightning düğümünüze nasıl bağlayacağınıza bakacağız.
+**Nostr Wallet Connect (NWC)**, Lightning ödemeleri yapmak için (örneğin, içeriği "beğenmek" için mikro ödemeler olan _zaps_ göndermek) Umbrel **(Lightning) düğümünüzü** uyumlu Nostr uygulamalarına bağlayan bir uygulamadır. Bu eğitimde, doğrudan Interface'ten ödeme yapmak için noStrudel'i Lightning düğümünüze nasıl bağlayacağınıza bakacağız.
 
 
 
@@ -306,7 +306,7 @@ Umbrel üzerinde kendi Lightning düğümünüzü nasıl kuracağınızı öğre
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 ## Gelişmiş yapılandırma ve güvenlik
 
@@ -326,7 +326,7 @@ Güvenlik nedeniyle, Umbrel'inize varsayılan olarak yalnızca yerel ağınızda
 
 
 
-- Tor üzerinden erişim:** Umbrel, Interface web ve uygulamaları için otomatik olarak bir **Tor hizmeti (.onion)** yapılandırır. Bu, Interface Umbrel'e (_noStrudel_ veya _Snort_ dahil) Tor tarayıcısını kullanarak, genel IP'nizi açığa çıkarmadan her yerden erişebileceğiniz anlamına gelir. tor, Umbrel hizmetlerinize yerel ağınızın dışından, cihazınızı İnternet'e maruz bırakmadan erişmek için kullanılır ([Sisteminize Tor Kurun - Kılavuzlar - Umbrel Topluluğu](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww))._ Bu seçeneği kullanmak için Umbrel ayarlarına gidin ve Umbrel'inizin .onion URL'sini alın (veya sağlanan QR kodunu tarayın). Bir Tor tarayıcısında, bu .onion Address'e erişin: yerel olarak aynı Interface'yi alacaksınız. Daha sonra Nostr uygulamalarınızı tıpkı evinizdeki gibi kullanabilirsiniz.
+- **Tor üzerinden erişim:** Umbrel, Interface web ve uygulamaları için otomatik olarak bir **Tor hizmeti (.onion)** yapılandırır. Bu, Interface Umbrel'e (*noStrudel* veya *Snort* dahil) Tor tarayıcısını kullanarak, genel IP'nizi açığa çıkarmadan her yerden erişebileceğiniz anlamına gelir. tor, Umbrel hizmetlerinize yerel ağınızın dışından, cihazınızı İnternet'e maruz bırakmadan erişmek için kullanılır ([Sisteminize Tor Kurun - Kılavuzlar - Umbrel Topluluğu](https://community.umbrel.com/t/setup-tor-on-your-system/7509#:~:text=Official%20website%3A%20https%3A%2F%2Fwww)). Bu seçeneği kullanmak için Umbrel ayarlarına gidin ve Umbrel'inizin .onion URL'sini alın (veya sağlanan QR kodunu tarayın). Bir Tor
 
 
 **Tor üzerinden Nostr aktarıcısı:** Nostr aktarıcınızın müşterileriniz (veya yetkili arkadaşlarınız) tarafından Tor üzerinden erişilebilir olmasını istiyorsanız, bu mümkündür. Umbrel, aktarıcının .onion Address'ünü doğrudan sağlamaz, ancak 4848 numaralı bağlantı noktasında çalıştığından, ya :
@@ -341,13 +341,13 @@ Güvenlik nedeniyle, Umbrel'inize varsayılan olarak yalnızca yerel ağınızda
 
 
 
-    - Veya** 4848 numaralı bağlantı noktasını ayrı bir onion hizmeti olarak açığa çıkarın. Bu, Umbrel'deki Tor yapılandırmasıyla uğraşmayı gerektirir (SSH konusunda rahat olan ileri düzey kullanıcılar için ayrılmıştır). Alternatif olarak, Umbrel'e yönlendiren başka bir sunucuda bir **Tor tüneli** düşünebilirsiniz: ancak kişisel kullanım için Tailscale kullanmak en kolay yoldur.
+- **Veya** 4848 numaralı bağlantı noktasını ayrı bir onion hizmeti olarak açığa çıkarın. Bu, Umbrel'deki Tor yapılandırmasıyla uğraşmayı gerektirir (SSH konusunda rahat olan ileri düzey kullanıcılar için ayrılmıştır). Alternatif olarak, Umbrel'e yönlendiren başka bir sunucuda bir **Tor tüneli** düşünebilirsiniz: ancak kişisel kullanım için Tailscale kullanmak en kolay yoldur.
 
 
 
 
 
-- Tailscale üzerinden erişim:** [Tailscale](https://tailscale.com/), cihazlarınız ve Umbrel arasında sanal bir özel ağ oluşturan bir örgü VPN çözümüdür. Avantajı: sanki bir LAN'daymışsınız gibi çalışır, ancak İnternet üzerinden, şifreli ve karmaşık yapılandırma olmadan. **Tailscale, Umbrel'inize ağ konumundan bağımsız olarak sabit bir IP ve özel bir alan adı atar ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. Pratikte, Tailscale'i Umbrel'e (Umbrel App Store'dan, _Networking_ kategorisinden) **ve** cihazlarınıza (mobil, PC...) yükledikten sonra, Umbrel'e `100.x.y.z` (Tailscale IP) gibi bir Address veya `umbrel.tailnet123.ts.net` gibi bir ad aracılığıyla erişebileceksiniz.
+- Tailscale üzerinden erişim: **[Tailscale](https://tailscale.com/), cihazlarınız ve Umbrel arasında sanal bir özel ağ oluşturan bir örgü VPN çözümüdür. Avantajı: sanki bir LAN'daymışsınız gibi çalışır, ancak İnternet üzerinden, şifreli ve karmaşık yapılandırma olmadan.** **Tailscale, Umbrel'inize ağ konumundan bağımsız olarak sabit bir IP ve özel bir alan adı atar** ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard)). Pratikte, Tailscale'i Umbrel'e (Umbrel App Store'dan, *Networking* kategorisinden) **ve** cihazlarınıza (mobil, PC...) yükledikten sonra, Umbrel'e `100.x.y.z` (Tailscale IP)
 
 
 nostr_ için Tailscale son derece kullanışlıdır: cep telefonunuz, eğer Tailscale aktifse, `ws://umbrel:4848` adresine (MagicDNS sayesinde) veya doğrudan Tailscale IP'sine ve 4848 numaralı bağlantı noktasına bağlanarak aktarıcıyı kullanabilecektir. Damus veya Amethyst gibi istemciler Umbrel'inizi aynı yerel ağdaymış gibi görecektir. **İpucu:** IP'yi ezberlemek yerine `umbrel` ana bilgisayar adını kullanmak için Tailscale'de **MagicDNS** seçeneğini etkinleştirin. Bu, hareket halindeyken bile aktarıcınıza sorunsuz bir bağlantı sağlar ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
@@ -358,7 +358,7 @@ Dahası, Tailscale Interface Umbrel'e (ve dolayısıyla _noStrudel/Snort_ web is
 
 
 
-**Not: Tor ve Tailscale birbirini dışlamaz. Anonimleştirilmiş erişim veya belirli hizmetler için Tor'u etkin tutabilir ve basitliği için Tailscale'i günlük olarak kullanabilirsiniz. Her iki durumda da yönlendiricinizde bir bağlantı noktası açmanız gerekmez, bu da güvenliği güçlendirir.
+**Not:** Tor ve Tailscale birbirini dışlamaz. Anonimleştirilmiş erişim veya belirli hizmetler için Tor'u etkin tutabilir ve basitliği için Tailscale'i günlük olarak kullanabilirsiniz. Her iki durumda da yönlendiricinizde bir bağlantı noktası açmanız gerekmez, bu da güvenliği güçlendirir.
 
 
 
@@ -372,31 +372,31 @@ Umbrel'de bir Nostr aktarıcısı barındırıyorsanız, özellikle de gelişmi�
 
 
 
-- Özel veya kısıtlı aktarıcı:** Varsayılan olarak, Umbrel aktarıcınız özeldir (herkese açık değildir) ve yalnızca Tailscale veya LAN'ınız üzerinden erişirseniz, yabancılar için erişilemez kalacaktır. **Bağlantıyı gizli tutun ** Diğer kullanıcıları gönüllü olarak barındırmak istemiyorsanız, bunu herkese açık Nostr ağlarında yayınlamayın, bu tamamen başka bir konudur (moderasyon, bant genişliği vb.). Kişisel kullanım için, erişimi kendinizle ve gerekirse birkaç güvenilir arkadaşınız ve ailenizle sınırlandırmanızı öneririz.
+- Özel veya kısıtlı aktarıcı: Varsayılan olarak, Umbrel aktarıcınız özeldir (herkese açık değildir) ve yalnızca Tailscale veya LAN'ınız üzerinden erişirseniz, yabancılar için erişilemez kalacaktır. **Bağlantıyı gizli tutun** Diğer kullanıcıları gönüllü olarak barındırmak istemiyorsanız, bunu herkese açık Nostr ağlarında yayınlamayın, bu tamamen başka bir konudur (moderasyon, bant genişliği vb.). Kişisel kullanım için, erişimi kendinizle ve gerekirse birkaç güvenilir arkadaşınız ve ailenizle sınırlandırmanızı öneririz.
 
 
 
 
 
-- Beyaz Liste / Auth**: Nostr-rs-relay uygulaması bir **NIP-42** kimlik doğrulama mekanizmasının yanı sıra açık anahtarların _beyaz listelerini_ destekler. Bu seçenekleri etkinleştirerek, aktarıcınızı **sadece belirli anahtarlar (sizinki)** tarafından imzalanmış olayları kabul edecek veya istemcilerin yayınlamak için kimlik doğrulaması yapması gerekecek şekilde kısıtlayabilirsiniz. bunu ayarlamak, Umbrel'deki aktarıcının `config.toml` yapılandırma dosyasını düzenlemeyi gerektirir (Docker konteynerinde SSH aracılığıyla)._ Bu gelişmiş bir manipülasyondur, ancak örneğin izin verilen reklamları listeleyebilirsiniz (`pubkey_whitelist`). Bu şekilde, birisi aktarıcınızı keşfetse bile, listede yer almıyorsa orada herhangi bir şey yayınlayamaz.
+- Beyaz Liste / Auth: Nostr-rs-relay uygulaması bir **NIP-42** kimlik doğrulama mekanizmasının yanı sıra açık anahtarların *beyaz listelerini* destekler. Bu seçenekleri etkinleştirerek, aktarıcınızı **sadece belirli anahtarlar (sizinki)** tarafından imzalanmış olayları kabul edecek veya istemcilerin yayınlamak için kimlik doğrulaması yapması gerekecek şekilde kısıtlayabilirsiniz. Bunu ayarlamak, Umbrel'deki aktarıcının `config.toml` yapılandırma dosyasını düzenlemeyi gerektirir (Docker konteynerinde SSH aracılığıyla). *Bu gelişmiş bir manipülasyondur, ancak örneğin izin verilen reklamları listeleyebilirsiniz* (`pubkey_whitelist`). Bu şekilde, birisi aktarıcınızı keşfetse bile, listede yer almıyorsa orada herhangi bir şey yayınlayamaz.
 
 
 
 
 
-- Güncellemeler ve bakım:** Umbrel ve _Nostr Relay_ uygulamanızı güncel tutun. Güncellemeler performans iyileştirmeleri (örn. daha iyi spam işleme) ve güvenlik düzeltmeleri içerebilir. Umbrel'de, _Nostr Relay_ güncellemeleri için App Store'u düzenli olarak kontrol edin ve gerektiğinde bunları uygulayın.
+- **Güncellemeler ve bakım:** Umbrel ve *Nostr Relay* uygulamanızı güncel tutun. Güncellemeler performans iyileştirmeleri (örn. daha iyi spam işleme) ve güvenlik düzeltmeleri içerebilir. Umbrel'de, *Nostr Relay* güncellemeleri için App Store'u düzenli olarak kontrol edin ve gerektiğinde bunları uygulayın.
 
 
 
 
 
-- İzleme ve limitler:** Rölenizin nasıl kullanıldığına dikkat edin. Başkalarına açarsanız, bir röle hızla çok fazla veri biriktirebileceğinden, Umbrel'inizdeki yüke (CPU / RAM depolama) dikkat edin. nostr-rs-relay yapılandırılabilir **hız ve depolama limitleri** sunar (yapılandırmadaki `limits`, örneğin saniyedeki olay sayısı, maksimum olay boyutu, eski olayların temizlenmesi ...). Özel kullanım için muhtemelen bunlara dokunmanız gerekmeyecektir, ancak ihtiyacınız olursa bu parametrelerin var olduğunu unutmayın ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
+- **İzleme ve limitler:** Rölenizin nasıl kullanıldığına dikkat edin. Başkalarına açarsanız, bir röle hızla çok fazla veri biriktirebileceğinden, Umbrel'inizdeki yüke (CPU / RAM depolama) dikkat edin. nostr-rs-relay yapılandırılabilir **hız ve depolama limitleri** sunar (yapılandırmadaki `limits`, örneğin saniyedeki olay sayısı, maksimum olay boyutu, eski olayların temizlenmesi ...). Özel kullanım için muhtemelen bunlara dokunmanız gerekmeyecektir, ancak ihtiyacınız olursa bu parametrelerin var olduğunu unutmayın ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)).
 
 
 
 
 
-- Nostr anahtarlarının güvenliğini sağlamak:** Bu noktadan daha önce bahsedilmişti, ancak çok önemlidir: Nostr özel anahtarlarınızı asla tam olarak güvenmediğiniz bir Interface'a girmeyin. Bunun yerine, hassas eylemleri imzalamak için tarayıcı uzantılarını veya harici cihazları (ayrı telefonlardaki Nostr _signers_ gibi) kullanın. Umbrel'de, _Snort_ ve _noStrudel_ gibi web istemcileriniz NIP-07 aracılığıyla gizli anahtarınızı bilmeden çalışabilir. Konfor ve güvenliği birleştirmek için bu fırsattan yararlanın.
+- **Nostr anahtarlarının güvenliğini sağlamak:** Bu noktadan daha önce bahsedilmişti, ancak çok önemlidir: Nostr özel anahtarlarınızı asla tam olarak güvenmediğiniz bir Interface'a girmeyin. Bunun yerine, hassas eylemleri imzalamak için tarayıcı uzantılarını veya harici cihazları (ayrı telefonlardaki Nostr *signers* gibi) kullanın. Umbrel'de, *Snort* ve *noStrudel* gibi web istemcileriniz NIP-07 aracılığıyla gizli anahtarınızı bilmeden çalışabilir. Konfor ve güvenliği birleştirmek için bu fırsattan yararlanın.
 
 
 

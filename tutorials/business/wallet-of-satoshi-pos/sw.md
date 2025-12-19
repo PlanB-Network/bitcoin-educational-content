@@ -1,5 +1,5 @@
 ---
-name: Wallet ya Satoshi - Sehemu ya Uuzaji
+name: Wallet of Satoshi - POS
 description: Pata Bitcoin kupitia Lightning Network katika biashara yako.
 ---
 
@@ -14,11 +14,11 @@ Kuchanganya uwezo wa Lightning Network na utumiaji mzuri ili kukubali Bitcoin ka
 
 
 
-Ndani ya mfumo ikolojia wa Bitcoin, Wallet ya Satoshi inapendekezwa Wallet ili kuanza na malipo ya Radi. Licha ya ukweli kwamba huna umiliki kamili wa bitcoins zako (kujitunza), Wallet ya Satoshi inatoa uzoefu mzuri wa kuanza na Bitcoin kwa kiasi kidogo kwa kutumia Lightning Network Layer. Ikiwa hii ndiyo matumizi yako ya kwanza na Wallet hii, tunapendekeza mafunzo yetu ya Kuanza.
+Ndani ya mfumo ikolojia wa Bitcoin, Wallet ya Satoshi inapendekezwa Wallet ili kuanza na malipo ya Lightning. Licha ya ukweli kwamba huna umiliki kamili wa bitcoins zako (kujitunza), Wallet ya Satoshi inatoa uzoefu mzuri wa kuanza na Bitcoin kwa kiasi kidogo kwa kutumia Lightning Network Layer. Ikiwa hii ndiyo matumizi yako ya kwanza na Wallet hii, tunapendekeza mafunzo yetu ya Kuanza.
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Ili kuwezesha kupitishwa kwa Bitcoin katika jumuiya kote ulimwenguni, Wallet ya Satoshi pia imeanzisha Maeneo ya Uuzaji ili kuwahimiza watumiaji kupata matumizi yaliyothibitishwa katika jumuiya yao: kununua na kuuza bidhaa na huduma kwa Bitcoin.
 
@@ -73,7 +73,7 @@ Ili kupanga vyema eneo lako la mauzo, unaweza kusanidi bidhaa ulizo nazo kwenye 
 
 
 
-Unaweza kuchagua bidhaa nyingi kwa generate a Lightning Invoice ili mteja wako alipe. Kwa kuchanganya chaguo za Kibodi na Bidhaa, unaweza kuunda Invoice isiyo imefumwa kwa bidhaa ndani na nje ya orodha yako.
+Unaweza kuchagua bidhaa nyingi kwa kuzalisha  Lightning Invoice ili mteja wako alipe. Kwa kuchanganya chaguo za Kibodi na Bidhaa, unaweza kuunda Invoice isiyo imefumwa kwa bidhaa ndani na nje ya orodha yako.
 
 
 
@@ -81,7 +81,7 @@ Unaweza kuchagua bidhaa nyingi kwa generate a Lightning Invoice ili mteja wako a
 
 
 
-Bofya kitufe cha **Chaji** ili generate a Lightning Invoice inayohusishwa na ununuzi wa mteja wako. Mteja wako ataweza kulipa bili yake papo hapo kutoka kwa Lightning Wallet yake au kwa kadi yake ya Bolt kupitia NFC.
+Bofya kitufe cha **charge** ili kuzalisha  Lightning Invoice inayohusishwa na ununuzi wa mteja wako. Mteja wako ataweza kulipa bili yake papo hapo kutoka kwa Lightning Wallet yake au kwa kadi yake ya Bolt kupitia NFC.
 
 
 
@@ -105,7 +105,7 @@ Kuwa na uzoefu usio na mshono na sehemu ya mauzo pia inamaanisha kupata usanidi 
 
 
 
-Katika menyu ya Wallet ya Satoshi, chagua sarafu yako ya ndani kutoka kwenye orodha ya sarafu zinazotumika, ili kusanidi bidhaa zako katika vitengo vya sarafu unavyovifahamu.
+Katika menyu ya Wallet of Satoshi, chagua sarafu yako ya ndani kutoka kwenye orodha ya sarafu zinazotumika, ili kusanidi bidhaa zako katika vitengo vya sarafu unavyovifahamu.
 
 
 
@@ -162,7 +162,7 @@ Wafanyikazi wako basi wanastahiki kupokea malipo ya Bitcoin kwenye duka lako. Wa
 
 
 
-Kila mtumiaji wa Wallet ya programu ya Satoshi POS ana historia ya malipo ya kibinafsi ya ankara za Lightning ambazo wameunda kwenye programu.
+Kila mtumiaji wa Wallet ya programu ya Satoshi POS ana historia ya malipo ya kibinafsi ya invoices za Lightning ambazo wameunda kwenye programu.
 
 
 
@@ -174,16 +174,16 @@ Sasa una zana ya kukubali Bitcoin katika biashara yako kwa dakika chache tu. Iki
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 Na ikiwa unatafuta PoS kamili inayofaa kwa biashara ndogo na za kati, pia ninapendekeza Uswisi Bitcoin Pay:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Hatimaye, pata kozi yetu kamili ya mafunzo ili kujifunza misingi ya malipo ya Bitcoin na mtiririko wa pesa kwa biashara:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

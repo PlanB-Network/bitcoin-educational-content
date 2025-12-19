@@ -1,0 +1,9 @@
+question: Immanuel Kant mıydı?
+answer: Aydınlanma döneminin Alman filozofu.
+wrong_answers:
+  - İngiliz filozof ve Newton'un öğrencisi
+  - 17. yüzyılda yaşamış bir filozof.
+  - Hristiyan bir filozof.
+explanation: |
+  Immanuel Kant (1724-1804) Aydınlanma döneminin Alman filozofudur. Özellikle 'Saf Aklın Eleştirisi' ile modern düşünceyi derinden etkileyen eleştirel bir felsefe geliştirmiştir.
+reviewed: false

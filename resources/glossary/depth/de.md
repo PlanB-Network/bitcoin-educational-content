@@ -10,4 +10,4 @@ den Zweck (Tiefe 1), die Art der Währung (Tiefe 2), das Konto (Tiefe 3), den Ke
 
 Um von einer Tiefe zur nächsten zu gelangen, wird ein Ableitungsprozess von einem Paar übergeordneter Schlüssel zu einem Paar untergeordneter Schlüssel verwendet.
 
-> ► *Der Begriff "Ableitungsboden" wird manchmal auch anstelle von Tiefe verwendet
+> ► *Der Begriff "Ableitungsboden" wird manchmal auch anstelle von Tiefe verwendet*

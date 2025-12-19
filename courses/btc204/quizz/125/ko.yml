@@ -1,0 +1,10 @@
+question: 코인스왑의 주요 목표는 무엇인가요?
+answer: 비트코인 Ownership을 몰래 전송하려면 다음과 같이 하세요
+wrong_answers:
+  - 거래 속도 향상
+  - 비트코인 믹스
+  - 비밀리에 Exchange과 Altcoin를 Bitcoin에 적용합니다
+explanation: |
+  코인스왑은 스마트 컨트랙트를 활용하여 두 사용자 간의 Bitcoin Ownership 전송을 용이하게 하여 신뢰가 필요하지 않으며 이 전송이 Blockchain에서 보이지 않도록 합니다.
+  
+reviewed: true

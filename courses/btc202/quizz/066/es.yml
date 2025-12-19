@@ -1,0 +1,9 @@
+question: ¿Qué medidas de seguridad se recomiendan encarecidamente para proteger el acceso a tu Umbrel?
+answer: Contraseña larga y activación 2FA
+wrong_answers:
+  - Almacenamiento SSD doble
+  - Abrir puerto RPC en texto plano
+  - Contraseña larga y activación SSH
+explanation: |
+  La combinación de una contraseña segura y la autenticación de dos factores (2FA) protege eficazmente el acceso a la Interface Umbrel.
+reviewed: true

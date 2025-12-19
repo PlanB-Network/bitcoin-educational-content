@@ -1,0 +1,9 @@
+question: Čiji je moto "think for yourself"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  "misliti svojom glavom" (sapere aude) je moto Immanuela Kanta i parola prosvetiteljstva. Radi se o tome da se ima hrabrosti koristiti vlastito razumevanje bez tutorstva drugih.
+reviewed: false

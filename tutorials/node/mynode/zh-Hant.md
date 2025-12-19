@@ -1,5 +1,5 @@
 ---
-name: 我的節點
+name: My Node
 description: 設定您的 Bitcoin MyNode
 ---
 

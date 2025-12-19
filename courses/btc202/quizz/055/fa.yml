@@ -1,0 +1,9 @@
+question: سه گزینه سرور موجود در Sparrow چیست؟
+answer: سرور عمومی، Bitcoin core، الکتروم خصوصی
+wrong_answers:
+  - RPC مستقیم، VPN، Tor
+  - Full node، نود سبک، نود موبایل
+  - هسته RPC، لایتنینگ، ElectrumX
+explanation: |
+  Sparrow سه گزینه سرور ارائه می‌دهد: سرور عمومی، Bitcoin core (RPC)، و الکتروم خصوصی.
+reviewed: true

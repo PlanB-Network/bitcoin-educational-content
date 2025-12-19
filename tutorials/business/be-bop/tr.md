@@ -24,7 +24,7 @@ Bu eğitimde sizi adım adım:
 - İlk online mağazanızı **be-BOP** ile oluşturun
 - Vitrininizi ve ürünlerinizi kişiselleştirin
 - Mevcut ödeme yöntemlerini yapılandırın
-- Be-BOP** ile etkin online satış için en iyi uygulamaları anlayın
+- **Be-BOP** ile etkin online satış için en iyi uygulamaları anlayın
 
 
 
@@ -62,10 +62,10 @@ Bir kova yapılandırmanız ve aşağıdaki bilgileri sağlamanız gerekecektir:
 
 
 
-- S3_BUCKET**: kova adı
-- S3_ENDPOINT_URL**: S3 hizmetinize erişim bağlantısı
-- S3_KEY_ID** ve S3_KEY_SECRET: erişim kodlarınız
-- S3_REGION**: S3 hizmetinizin bölgesi
+- **S3_BUCKET**: kova adı
+- **S3_ENDPOINT_URL**: S3 hizmetinize erişim bağlantısı
+- **S3_KEY_ID** ve **S3_KEY_SECRET**: erişim kodlarınız
+- **S3_REGION**: S3 hizmetinizin bölgesi
 
 
 
@@ -84,7 +84,7 @@ be-BOP, mağaza, kullanıcı, ürün ve diğer verileri depolamak için MongoDB 
 
 
 - MongoDB'yi yerel olarak **ReplicaSet modu etkin** olarak yükleyin
-- MongoDB Atlas** gibi çevrimiçi bir hizmet kullanın
+- **MongoDB Atlas** gibi çevrimiçi bir hizmet kullanın
 
 
 
@@ -94,8 +94,8 @@ Aşağıdaki değişkenlere ihtiyacınız olacak:
 
 
 
-- MONGODB_URL**: veritabanı bağlantısı Address
-- MONGODB_DB**: veritabanı adı
+- **MONGODB_URL**: veritabanı bağlantısı Address
+- **MONGODB_DB**: veritabanı adı
 
 
 
@@ -103,7 +103,7 @@ Aşağıdaki değişkenlere ihtiyacınız olacak:
 
 
 
-be-BOP Node.js ile çalışır. Node.js** sürüm 18 veya daha yüksek ve **Corepack** etkin olduğundan emin olun (pnpm gibi paket yöneticilerini yönetmek için gereklidir). Çalıştırılacak komut `corepack enable`
+be-BOP Node.js ile çalışır. **Node.js** sürüm 18 veya daha yüksek ve **Corepack** etkin olduğundan emin olun (pnpm gibi paket yöneticilerini yönetmek için gereklidir). Çalıştırılacak komut `corepack enable`
 
 
 
@@ -249,7 +249,7 @@ be-BOP, Bitcoin ödemelerini doğrudan Blockchain (On-Chain) üzerinden basit ve
 
 
 
-- Ödeme Ayarları** menüsüne gidin
+- **Ödeme Ayarları** menüsüne gidin
 - On-Chain ödeme parametrelerine erişmek için **Bitcoin Nodeless** üzerine tıklayın.
 - Aşağıdaki alanları doldurun:
 
@@ -389,7 +389,7 @@ be-BOP ayrıca en popüler çevrimiçi ödeme platformlarından biri olan **Stri
 
 - Stripe kontrol panelinde sağlanan **gizli anahtarı** girin.
 - Stripe tarafından da sağlanan **Genel Anahtar** alanını doldurun.
-- Ana para birimini** seçin.
+- **Ana para birimini** seçin.
 - Yapılandırmayı kaydedin, ardından `Kaydet` seçeneğine tıklayın.
 
 
@@ -412,9 +412,9 @@ be-BOP ayrıca en popüler çevrimiçi ödeme platformlarından biri olan **Stri
 
 
 
-- Ana para birimini** seçin (`Ana para birimi`)
+- **Ana para birimini** seçin (`Ana para birimi`)
 - Seçiniz `İkincil para birimi
-- Referans para birimini** tanımlayın (`Fiyat referans para birimi`)
+- Referans para birimini tanımlayın (`Fiyat referans para birimi`)
 - Muhasebe para birimini belirtiniz
 
 
@@ -455,7 +455,7 @@ Yazılım, uluslararası bir kitleye uyum sağlamak ve kullanıcı deneyimini ge
 
 
 
-**be-BOP** tasarımcılara bir web sitesi tasarlamak için ihtiyaç duydukları tüm araçları sağlar. İlk adım, ayarlardan `/Admin > Merch > Layout` bölümünü açmaktır. Üst Çubuğu**, **Navbar** ve **Alt Çubuğu** yapılandırarak başlayın.
+**be-BOP** tasarımcılara bir web sitesi tasarlamak için ihtiyaç duydukları tüm araçları sağlar. İlk adım, ayarlardan `/Admin > Merch > Layout` bölümünü açmaktır. **Üst Çubuğu**, **Navbar** ve **Alt Çubuğu** yapılandırarak başlayın.
 
 
 
@@ -463,7 +463,7 @@ Yazılım, uluslararası bir kitleye uyum sağlamak ve kullanıcı deneyimini ge
 
 
 
-Üst Çubuk** yapılandırması, önemli bilgileri doğrudan Interface'ın ilk satırında görüntüleyerek yazılımınızın görsel kimliğini kişiselleştirmenizi sağlar. Bu, marka tanınırlığını güçlendirir ve kullanıcılar için net bir bağlam sağlar.
+**Üst Çubuk** yapılandırması, önemli bilgileri doğrudan Interface'ın ilk satırında görüntüleyerek yazılımınızın görsel kimliğini kişiselleştirmenizi sağlar. Bu, marka tanınırlığını güçlendirir ve kullanıcılar için net bir bağlam sağlar.
 
 
 
@@ -474,8 +474,8 @@ Yazılım, uluslararası bir kitleye uyum sağlamak ve kullanıcı deneyimini ge
 
 
 - Marka adı` alanına şirketinizin, kuruluşunuzun veya ürününüzün adını girin. Bu isim Interface'in üst kısmında görünecek ve ana görsel kimliğinizi temsil edecektir.
-- Web sitesi başlığını belirtin**: seçilen başlık platformun amacını özetlemelidir. Bu başlık başlıkta veya tarayıcı sekmesinde görünebilir.
-- Web sitesi açıklaması ekle**: Burası girişiminizin kısa bir açıklamasını girdiğiniz yerdir. Bu açıklama, aracı kullanıcılar için bağlamsallaştırmaya yardımcı olur ve SEO amacıyla da kullanılabilir.
+- **Web sitesi başlığını belirtin**: seçilen başlık platformun amacını özetlemelidir. Bu başlık başlıkta veya tarayıcı sekmesinde görünebilir.
+- **Web sitesi açıklaması ekle**: Burası girişiminizin kısa bir açıklamasını girdiğiniz yerdir. Bu açıklama, aracı kullanıcılar için bağlamsallaştırmaya yardımcı olur ve SEO amacıyla da kullanılabilir.
 
 
 
@@ -497,10 +497,10 @@ Bu bilgiler girildikten sonra **Üst Çubuk** çözümünüzün net, profesyonel
 
 
 
-- Bağlantı adını girin (Metin)**: `Metin` alanına, görüneceği şekilde bağlantının adını veya etiketini girin (örneğin, Ana Sayfa, İletişim, Yardım...).
-- Address (Url)** bağlantısını belirtin: `Url` alanına hedef sayfanın (dahili veya harici) tam Address'sini girin.
-- Gerekirse başka bağlantılar ekleyin**: her yapılandırma satırı `Text` ve `Url` alanlarını kullanarak ek bir bağlantı eklemenizi sağlar.
-- Bağlantıları kaydet**: tüm bağlantılar girildikten sonra, bunları kaydetmek için "Üst çubuk bağlantısı ekle" düğmesine tıklayın.
+- **Bağlantı adını girin (Metin)**: `Metin` alanına, görüneceği şekilde bağlantının adını veya etiketini girin (örneğin, Ana Sayfa, İletişim, Yardım...).
+- **Address (Url)** bağlantısını belirtin: `Url` alanına hedef sayfanın (dahili veya harici) tam Address'sini girin.
+- **Gerekirse başka bağlantılar ekleyin**: her yapılandırma satırı `Text` ve `Url` alanlarını kullanarak ek bir bağlantı eklemenizi sağlar.
+- **Bağlantıları kaydet**: tüm bağlantılar girildikten sonra, bunları kaydetmek için "Üst çubuk bağlantısı ekle" düğmesine tıklayın.
 
 
 
@@ -516,16 +516,16 @@ Bu yapılandırma, web sitenizin farklı bölümlerinde veya tamamlayıcı kayna
 
 
 
-Navbar** bölümü be-BOP'unuzun genellikle Interface'ün yan veya üst kısmında bulunan ana navigasyon menüsünü yapılandırmanızı sağlar. Bu menü kullanıcıları uygulamanın çeşitli sayfalarına ve işlevlerine yönlendirir. Bağlantı yapılandırması basit ve sezgiseldir. İşte nasıl çalıştığı:
+**Navbar** bölümü be-BOP'unuzun genellikle Interface'ün yan veya üst kısmında bulunan ana navigasyon menüsünü yapılandırmanızı sağlar. Bu menü kullanıcıları uygulamanın çeşitli sayfalarına ve işlevlerine yönlendirir. Bağlantı yapılandırması basit ve sezgiseldir. İşte nasıl çalıştığı:
 
 
 
 
 
-- Bağlantı adını girin (`Metin`)**: yapılandırma satırında, `Metin` alanını doldurarak başlayın. Bu, gezinti çubuğunda görüntülenen bağlantının adına karşılık gelir (örnekler: *Dashboard*, *Users*, *Settings*...).
-- Bağlantı Address'ü (`Url`)** girin: `Metin` alanının yanında `Url` alanını bulacaksınız. Bu alana, bağlantının yönlendirilmesi gereken sayfanın Address'ünü girin. Bu, dahili bir rota veya harici bir sayfaya giden bir bağlantı olabilir.
-- Gerekirse birden fazla bağlantı ekleyin**: İlk satırın altında, gerektiği kadar bağlantı eklemek için yeni `Text` ve `Url` alanları mevcuttur. Her satır ek bir navigasyon bağlantısını temsil eder.
-- Bağlantıları kaydet**: Tüm Elements'i girdikten sonra, sonuçları kaydetmek ve gezinti çubuğunda görüntülemek için `Nav çubuğu bağlantısı ekle` düğmesine tıklayın.
+- **Bağlantı adını girin (`Metin`)**: yapılandırma satırında, `Metin` alanını doldurarak başlayın. Bu, gezinti çubuğunda görüntülenen bağlantının adına karşılık gelir (örnekler: *Dashboard*, *Users*, *Settings*...).
+- Bağlantı Address'ü (`Url`) girin: `Metin` alanının yanında `Url` alanını bulacaksınız. Bu alana, bağlantının yönlendirilmesi gereken sayfanın Address'ünü girin. Bu, dahili bir rota veya harici bir sayfaya giden bir bağlantı olabilir.
+- **Gerekirse birden fazla bağlantı ekleyin**: İlk satırın altında, gerektiği kadar bağlantı eklemek için yeni `Text` ve `Url` alanları mevcuttur. Her satır ek bir navigasyon bağlantısını temsil eder.
+- **Bağlantıları kaydet**: Tüm Elements'i girdikten sonra, sonuçları kaydetmek ve gezinti çubuğunda görüntülemek için `Nav çubuğu bağlantısı ekle` düğmesine tıklayın.
 
 
 
@@ -541,17 +541,17 @@ Bu yapılandırma, yazılımın farklı bölümlerine erişimin verimli bir şek
 
 
 
-Altbilgi** bölümü, faydalı bilgiler veya bağlantılar ekleyerek yazılımınızın altbilgisini özelleştirmenizi sağlar. Bağlantıları yapılandırmadan önce, belirli bir seçeneği etkinleştirerek başlayın:
+**Altbilgi** bölümü, faydalı bilgiler veya bağlantılar ekleyerek yazılımınızın altbilgisini özelleştirmenizi sağlar. Bağlantıları yapılandırmadan önce, belirli bir seçeneği etkinleştirerek başlayın:
 
 
 
 
 
-- "Powered by be-BOP "** etiketinin görüntülenmesini etkinleştirin: bu etiketi altbilgide görüntülemek için `Display Powered by be-BOP` düğmesini etkinleştirin.
-- Bağlantının adını girin (`Metin`)**: altbilgideki bağlantının ifadesine karşılık gelen `Metin` alanını doldurun (örnekler: *Şartlar*, *Gizlilik*, *İletişim*...).
-- Bağlantı Address'yı belirtin (`Url`)**: `Url` alanına hedef sayfanın Address'sını girin (dahili veya harici).
-- Gerekirse daha fazla bağlantı ekleyin**: istediğiniz kadar bağlantı oluşturmak için ek satırları kullanın.
-- Bağlantıları kaydet**: bağlantıları kaydetmek için "Altbilgi bağlantısı ekle" düğmesine tıklayın.
+- "Powered by be-BOP" etiketinin görüntülenmesini etkinleştirin: bu etiketi altbilgide görüntülemek için `Display Powered by be-BOP` düğmesini etkinleştirin.
+- Bağlantının adını girin (**Metin**): altbilgideki bağlantının ifadesine karşılık gelen `Metin` alanını doldurun (örnekler: *Şartlar*, *Gizlilik*, *İletişim*...).
+- **Bağlantı Address'yı belirtin (`Url`)**: `Url` alanına hedef sayfanın Address'sını girin (dahili veya harici).
+- Gerekirse daha fazla bağlantı ekleyin: istediğiniz kadar bağlantı oluşturmak için ek satırları kullanın.
+- **Bağlantıları kaydet**: bağlantıları kaydetmek için "Altbilgi bağlantısı ekle" düğmesine tıklayın.
 
 
 
@@ -641,8 +641,8 @@ Yönetici > Kimlik (veya Ayarlar > Kimlik) üzerinden erişilebilen bu bölüm, 
 
 
 
-- İşletme adı**: resmi şirket adı.
-- İşletme Kimliği**: yasal tanımlayıcı veya kayıt numarası (RCCM, SIRET...).
+- **İşletme adı**: resmi şirket adı.
+- **İşletme Kimliği**: yasal tanımlayıcı veya kayıt numarası (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ Yönetici > Kimlik (veya Ayarlar > Kimlik) üzerinden erişilebilen bu bölüm, 
 
 
 
-- Sokak**: posta Address (sokak, numara...).
-- Ülke**: ülke.
-- Eyalet**: il veya bölge.
-- Şehir**: şehir.
-- Posta kodu**: posta kodu.
+- **Sokak**: posta Address (sokak, numara...).
+- **Ülke**: ülke.
+- **Eyalet**: il veya bölge.
+- **Şehir**: şehir.
+- **Posta kodu**: posta kodu.
 
 
 
@@ -666,8 +666,8 @@ Yönetici > Kimlik (veya Ayarlar > Kimlik) üzerinden erişilebilen bu bölüm, 
 
 
 
-- E-posta**: profesyonel e-posta Address.
-- Telefon**: şirket telefon numarası.
+- **E-posta**: profesyonel e-posta Address.
+- **Telefon**: şirket telefon numarası.
 
 
 
@@ -677,10 +677,10 @@ Yönetici > Kimlik (veya Ayarlar > Kimlik) üzerinden erişilebilen bu bölüm, 
 
 
 
-- Hesap sahibi adı**: hesap sahibinin adı.
-- Hesap sahibi Address**: hesap sahibinin Address'i.
-- IBAN**: Uluslararası Banka Hesap Numarası.
-- BIC**: SWIFT/BIC kodu.
+- **Hesap sahibi adı**: hesap sahibinin adı.
+- **Hesap sahibi Address**: hesap sahibinin Address'i.
+- **IBAN**: Uluslararası Banka Hesap Numarası.
+- **BIC**: SWIFT/BIC kodu.
 
 
 
@@ -695,7 +695,7 @@ Yönetici > Kimlik (veya Ayarlar > Kimlik) üzerinden erişilebilen bu bölüm, 
 
 
 - Verileri önceden doldurmak için `Ana mağaza bilgileriyle doldur` seçeneğine tıklayın.
-- Çok üst-sağ düzenleyici bilgileri**: faturalarda görünen yasal/vergi bilgileri için alan.
+- **Çok üst-sağ düzenleyici bilgileri**: faturalarda görünen yasal/vergi bilgileri için alan.
 - Değişiklikleri kaydetmek için `Güncelle` düğmesine tıklayın.
 
 
@@ -742,9 +742,9 @@ Bir ürün eklemek veya değiştirmek için `Admin > Merch > Products` bölümü
 
 
 
-- Ürün Adı**: ürünün adı (örneğin *BOP T-shirt limited edition*).
-- Slug**: Boşluksuz URL tanımlayıcısı (örneğin `tshirt-bop-edition-limitee`).
-- Takma ad** *(isteğe bağlı)*: özel bir alan aracılığıyla sepete hızlı ekleme yapmak için kullanışlıdır.
+- **Ürün Adı**: ürünün adı (örneğin *BOP T-shirt limited edition*).
+- **Slug**: Boşluksuz URL tanımlayıcısı (örneğin `tshirt-bop-edition-limitee`).
+- **Takma ad** *(isteğe bağlı)*: özel bir alan aracılığıyla sepete hızlı ekleme yapmak için kullanışlıdır.
 
 
 
@@ -758,9 +758,9 @@ Bir ürün eklemek veya değiştirmek için `Admin > Merch > Products` bölümü
 
 
 
-- Fiyat Tutarı**: ürün fiyatı (örneğin `25,00`).
-- Fiyat Para Birimi**: para birimi (EUR, USD, BTC, vb.).
-- Özel ürünler**:
+- **Fiyat Tutarı**: ürün fiyatı (örneğin `25,00`).
+- **Fiyat Para Birimi**: para birimi (EUR, USD, BTC, vb.).
+- **Özel ürünler**:
   - bu ücretsi̇z bi̇r üründür.
   - bu bi̇r i̇stedi̇ği̇ni̇ öde ürünüdür.
 
@@ -772,14 +772,14 @@ Bir ürün eklemek veya değiştirmek için `Admin > Merch > Products` bölümü
 
 
 
-- Tek ürün (`standalone`)**: sipariş başına yalnızca bir ekleme mümkündür (örn. bağış, giriş bileti).
-- Varyasyonlu ürün**:
+- **Tek ürün (`standalone`)**: sipariş başına yalnızca bir ekleme mümkündür (örn. bağış, giriş bileti).
+- **Varyasyonlu ürün**:
   - Standalone'u kontrol etme.
   - Üründe hafif farklılıklar var (stok farkı yok)` seçeneğini işaretleyin.
   - Ekle:
-    - İsim** (örneğin *Boyut*),
-    - Değerler** (örneğin: S, M, L, XL),
-    - Varsa fiyat farkları** (örneğin: XL için `+2 USD`).
+- **İsim** (örneğin *Boyut*),
+- **Değerler** (örneğin: S, M, L, XL),
+- Varsa **fiyat farkları** (örneğin: XL için `+2 USD`).
 
 
 
@@ -809,8 +809,8 @@ Sistem yönetir:
 
 
 
-- Rezerve stok** → henüz ödemesi yapılmamış sepetlerdeki ürünler
-- Satılan stok** → halihazırda satın alınmış ürünler
+- **Rezerve stok** → henüz ödemesi yapılmamış sepetlerdeki ürünler
+- **Satılan stok** → halihazırda satın alınmış ürünler
 
 
 
@@ -832,8 +832,8 @@ Sistem yönetir:
 
 
 
-- Bilet**: ürün bir etkinlik için bilet ise işaretleyin
-- Rezervasyon**: bunun bir rezervasyon yuvası olup olmadığını kontrol edin (örneğin: oturum, randevu)
+- **Bilet**: ürün bir etkinlik için bilet ise işaretleyin
+- **Rezervasyon**: bunun bir rezervasyon yuvası olup olmadığını kontrol edin (örneğin: oturum, randevu)
 
 
 
@@ -898,7 +898,7 @@ Gerektiğinde başka sayfalar da ekleyebilirsiniz:
 
 
 
-**İpucu: Her bir sayfanın **içeriğini**, **başlığını** veya **seo görünürlüğünü** değiştirmek için her bir bağlantıya veya simgeye tıklayın.
+**İpucu: Her bir sayfanın içeriğini, başlığını veya seo görünürlüğünü değiştirmek için her bir bağlantıya veya simgeye tıklayın.**
 
 
 
@@ -962,7 +962,7 @@ Yapabilirsin:
 
 
 
-- Ana logoyu** değiştirin
+- Ana logoyu değiştirin
 - Düzeni değiştirin veya ekleyin **images**
 
 
@@ -983,7 +983,7 @@ Ayrıca `Resimler` bölümünde değiştirilebilir, temaya bağlı olarak üstbi
 
 
 
-Widget'lar** CMS sayfalarınızı dinamik veya görsel Elements ile zenginleştirir.
+**Widget'lar** CMS sayfalarınızı dinamik veya görsel Elements ile zenginleştirir.
 
 
 
@@ -1001,14 +1001,14 @@ Kullanılabilir widget örnekleri:
 
 
 
-- Challenges**: zorluklar veya görevler
-- Etiketler**: kategoriler veya anahtar kelimeler
-- Kaydırıcılar**: görüntü karuselleri
-- Teknik Özellikler**: Teknik özellikler tabloları
-- Formlar**: formlar (iletişim, geri bildirim, vb.)
-- Geri sayımlar**: zamanlayıcılar
-- Galeriler**: resim galerileri
-- Lider tabloları**: kullanıcı sıralamaları
+- **Challenges**: zorluklar veya görevler
+- **Etiketler**: kategoriler veya anahtar kelimeler
+- **Kaydırıcılar**: görüntü karuselleri
+- **Teknik Özellikler**: Teknik özellikler tabloları
+- **Formlar**: formlar (iletişim, geri bildirim, vb.)
+- **Geri sayımlar**: zamanlayıcılar
+- **Galeriler**: resim galerileri
+- **Lider tabloları**: kullanıcı sıralamaları
 
 
 
@@ -1128,7 +1128,7 @@ Yapabilirsin:
 
 - Siparişi onayla (beklemedeyse)
 - Bir siparişi iptal etme (bir sorun veya müşteri talebi durumunda)
-- Etiket** ekleyin (dahili organizasyon için)
+- **Etiket** ekleyin (dahili organizasyon için)
 - Danışın / **iç notlar** ekleyin
 
 
@@ -1166,9 +1166,9 @@ Raporlar bölümlere ayrılmıştır:
 
 
 
-- Sipariş Detayı**: sipariş sayısı, durum (onaylandı, iptal edildi, beklemede), evrim
-- Ürün Detayı**: satılan ürünler, miktarlar, popüler ürünler
-- Ödeme Detayı**: tahsil edilen tutarlar, ödeme yöntemine göre dağılım
+- **Sipariş Detayı**: sipariş sayısı, durum (onaylandı, iptal edildi, beklemede), evrim
+- **Ürün Detayı**: satılan ürünler, miktarlar, popüler ürünler
+- **Ödeme Detayı**: tahsil edilen tutarlar, ödeme yöntemine göre dağılım
 
 
 
@@ -1310,9 +1310,9 @@ Bir tema oluştururken veya değiştirirken,:
 
 
 
-- Renkler**: düğmeler, arka planlar, metin, bağlantılar vb. için.
-- Yazı tipleri**: başlıklar, paragraflar, menüler için yazı tipi seçimi
-- Grafik stilleri**: kenarlıklar, kenar boşlukları, aralıklar, blok şekilleri
+- **Renkler**: düğmeler, arka planlar, metin, bağlantılar vb. için.
+- **Yazı tipleri**: başlıklar, paragraflar, menüler için yazı tipi seçimi
+- **Grafik stilleri**: kenarlıklar, kenar boşlukları, aralıklar, blok şekilleri
 
 
 
@@ -1326,9 +1326,9 @@ Sitenin her bir bölümü bağımsız olarak ayarlanabilir:
 
 
 
-- Başlık**: üst gezinme çubuğu
-- Gövde**: ana içerik
-- Altbilgi**: sayfanın altı
+- **Başlık**: üst gezinme çubuğu
+- **Gövde**: ana içerik
+- **Altbilgi**: sayfanın altı
 
 
 
@@ -1346,7 +1346,7 @@ Tema yapılandırıldıktan sonra:
 
 
 
-- Kaydet** üzerine tıklayın
+- **Kaydet** üzerine tıklayın
 - Mağazanın **ana teması** olarak etkinleştirin
 
 
@@ -1377,8 +1377,8 @@ Her e-posta (sipariş onayı, unutulan şifre vb.):
 
 
 
-- Konu**: e-postanın konusu (örneğin, "Siparişiniz onaylandı")
-- HTML Gövde**: E-postada görüntülenen HTML içeriği
+- **Konu**: e-postanın konusu (örneğin, "Siparişiniz onaylandı")
+- **HTML Gövde**: E-postada görüntülenen HTML içeriği
 
 
 
@@ -1413,7 +1413,7 @@ E-postaları dinamik hale getirmek için aşağıdaki gibi değişkenler ekleyin
 
 
 - Mobil cihazlarda kolay okunabilmesi için **duyarlı** e-postalar oluşturun
-- Eylem düğmeleri** ekleyin (ödeme, indirme, sipariş takibi)
+- **Eylem düğmeleri** ekleyin (ödeme, indirme, sipariş takibi)
 - E-postalarınızı yayınlamadan önce kendinize göndererek test edin
 
 
@@ -1444,9 +1444,9 @@ Aşağıdaki alanları doldurun:
 
 
 
-- Etiket Adı**: görüntülenen etiket adı
-- Slug**: benzersiz tanımlayıcı (boşluk veya aksan yok)
-- Etiket Ailesi**: etiketleri kategoriye göre gruplar
+- **Etiket Adı**: görüntülenen etiket adı
+- **Slug**: benzersiz tanımlayıcı (boşluk veya aksan yok)
+- **Etiket Ailesi**: etiketleri kategoriye göre gruplar
 
 
 
@@ -1479,9 +1479,9 @@ Bu alanlar, bir etiketi bir içerik sayfasıymış gibi zenginleştirmek için k
 
 - Başlık
 - Altyazı
-- Kısa** içerik
-- Tam içerik** (Fransızca)
-- CTA'lar** (eylem düğmeleri)
+- **Kısa** içerik
+- **Tam içerik** (Fransızca)
+- **CTA'lar** (eylem düğmeleri)
 
 
 
@@ -1512,7 +1512,7 @@ Müşterilerinize indirilebilir belgeler sunmak için: `Admin > Merch > Files`
 
 
 
-1. Yeni dosya** üzerine tıklayın
+1. **Yeni dosya** üzerine tıklayın
 
 
 2. Bilgilendir:
@@ -1520,8 +1520,8 @@ Müşterilerinize indirilebilir belgeler sunmak için: `Admin > Merch > Files`
 
 
 
-   - Dosya adı** (örn. *Kurulum kılavuzu*)
-   - Yüklenecek dosya** (PDF, resim, Word...)
+- **Dosya adı** (örn. *Kurulum kılavuzu*)
+- **Yüklenecek dosya** (PDF, resim, Word...)
 
 
 
@@ -1539,7 +1539,7 @@ Bu bağlantı daha sonra:
 
 
 
-- CMS** sayfası (metin bağlantısı veya düğme olarak)
+- **CMS** sayfası (metin bağlantısı veya düğme olarak)
 - Bir **e-posta istemcisi** (bir şablon aracılığıyla)
 - Bir **ürün sayfası** (örn. kılavuz indirme)
 
@@ -1582,7 +1582,7 @@ Platform, otomatik bir bot aracılığıyla **Nostr** protokolü ile gelişmiş 
 
 
 
-- İlk kullanıcı etkileşiminde** otomatik bir mesajı etkinleştirin
+- İlk kullanıcı etkileşiminde **otomatik bir mesajı etkinleştirin**
 - İçin idealdir:
   - Hizmetinizi sunma
   - Yararlı bir bağlantı gönderin (örn. SSS, iletişim, sipariş)
@@ -1596,7 +1596,7 @@ Platform, otomatik bir bot aracılığıyla **Nostr** protokolü ile gelişmiş 
 
 
 - Bir **logo** ve bir **genel ad** ekleyin
-- Doğrulanmış bir web alanına bağlantı**
+- Doğrulanmış bir web alanına bağlantı
 - Nostr kimliğinizin güvenilirliğini ve tanınırlığını artırır
 
 
@@ -1608,8 +1608,8 @@ Platform, otomatik bir bot aracılığıyla **Nostr** protokolü ile gelişmiş 
 
 
 - Size **sipariş onayları** gönderiliyor
-- Olaylara otomatik yanıt (örn. yeni sipariş)**
-- Merkezi olmayan bir müşteri etkileşimi yaratmak**
+- Olaylara otomatik yanıt (örn. yeni sipariş)
+- **Merkezi olmayan bir müşteri etkileşimi yaratmak**
 
 
 
@@ -1635,9 +1635,9 @@ Bunu yapmak için şuraya gidin: `Ayarlar > Dil`
 
 
 
-- İndir** dil dosyaları
-- Mevcut metinleri değiştirin**
-- Kendi çevirilerinizi ekleyin**
+- **İndir** dil dosyaları
+- **Mevcut metinleri değiştirin**
+- **Kendi çevirilerinizi ekleyin**
 
 
 
@@ -1678,9 +1678,9 @@ Her rol şunları içerir:
 
 
 
-- yazma erişimi**: yazma erişimi
-- okuma erişimi**: okuma erişimi
-- yasak eri̇şi̇m**: bölümler arasi
+- **yazma erişimi**: yazma erişimi
+- **okuma erişimi**: okuma erişimi
+- **yasak erişim**: bölümler arası
 
 
 
@@ -1709,7 +1709,7 @@ Aynı menüde `Yönetici > Ayarlar > ARM`, ile bir kullanıcı ekleyin:
 
 
 
-Salt okunur** kullanıcılar menüleri *italik* olarak görecek ve içeriği değiştiremeyecektir.
+**Salt okunur** kullanıcılar menüleri *italik* olarak görecek ve içeriği değiştiremeyecektir.
 
 
 
@@ -1779,8 +1779,8 @@ POS destekleri:
 
 
 
-- KDV muafiyeti**: gerekçelendirmede uygulanabilir (STK'lar, yabancılar...)
-- Hediye indirimi**: zorunlu yorum ile istisnai indirim
+- **KDV muafiyeti**: gerekçelendirmede uygulanabilir (STK'lar, yabancılar...)
+- **Hediye indirimi**: zorunlu yorum ile istisnai indirim
 
 
 

@@ -1,10 +1,9 @@
-question: Ni izihe ndimi zimwe zimwe zikoreshwa mu bijanye n’umutekano wo kuri Internet?
-answer: Inyuguti, C, Java
+question: Ni izihe ndimi zimwe zimwe zo kwandika porogarame zikoreshwa mu bijanye n’umutekano wo kuri interineti?
+answer: Python, C, Java
 wrong_answers:
-  - HTML, CSS, inyandiko ya Java
+  - HTML, CSS, JavaScript
   - Yihuta, Kotlin, Rubi
   - PHP, Perl, Lua
 explanation: |
-  Ikigabane kivuga Python, C, na Java nk'imwe mu
-  indimi zo gukora porogarama zikoreshwa mu bijanye n’umutekano wo kuri Internet.
+  Igice kivuga Python, C, na Java nka zimwe mu ndimi zo kwandika porogarame zikoreshwa mu bijanye n’umutekano wo kuri interineti.
 reviewed: true

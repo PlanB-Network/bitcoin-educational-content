@@ -1,11 +1,9 @@
-question: Kuidas võib Bitcoin potentsiaalselt aidata ökoloogilisel üleminekul?
-answer: See soodustab rohelise energia kasutamist
+question: Mis on üks viis leevendada Bitcoini volatiilsust?
+answer: Finantsilised riskimaandused (stablecoinid)
 wrong_answers:
-  - See vähendab kaupade tootmist
-  - See reguleerib ressursside tarbimist
-  - See piirab kasvuhoonegaaside heidet
+  - Kogu oma raha investeerimine Bitcoini.
+  - Turutrendide eiramine.
+  - Rohkem Bitcoini ostmise, kui selle hind langeb.
 explanation: >-
-  Bitcoin soodustab rohelise energia kasutamist, mis võib potentsiaalselt aidata
-  ökoloogilisel üleminekul. Näiteks naftapuuraukudes põlevad leegid, mis põletavad
-  metaani, et vältida saastamist, võivad kustuda Bitcoin'i kaevurite poolt.
+  Bitcoini volatiilsust saab leevendada mitmete lahendustega, nagu finantsilised riskimaandused (stablecoinid), tugev pikaajaline usk (hodling) või lihtsalt mitte panustada 100% oma rahast Bitcoini, ilma midagi aru saamata.
 reviewed: false

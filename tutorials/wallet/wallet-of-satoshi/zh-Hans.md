@@ -1,5 +1,5 @@
 ---
-name: Satoshi 的 Wallet
+name: Wallet of Satoshi
 description: 最简单的托管 Wallet 开始使用
 ---
 ![cover](assets/cover.webp)
@@ -12,7 +12,7 @@ _本教程由_ [Bitcoin 校园](https://linktr.ee/bitcoincampus_) 编写
 
 Satoshi 的 Wallet 是 Lightning Network 的 Wallet，具有监护功能，使用非常简单。
 
-就课程[BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)而言，它用于 Redeem Lightning Network 凭证。
+就课程[BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)而言，它用于 Redeem Lightning Network 凭证。
 
 
 **永远记住**：不是你的钥匙，也不是你的硬币_
@@ -79,8 +79,8 @@ Satoshi 的 Wallet 已向指定的电子邮件收件箱发送信息。
 在邮箱中，我们会发现两个单词，我们需要在应用程序提供的空白处输入并改写这两个单词。
 
 
-- 请勿启动翻译器：这些词语仍然是英语**
-- 重写这两个词，注意大写/小写**
+- 请勿启动翻译器：这些词语仍然是英语
+- 重写这两个词，注意大写/小写
 
 
 ![image](assets/it/10.webp)

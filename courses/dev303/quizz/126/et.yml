@@ -1,0 +1,8 @@
+question: Milline on Breez SDK arvamusliku disainifilosoofia peamine tehniline tagajärg võrreldes LDK üldise tööriistakomplekti lähenemisviisiga Lightning wallet arendamiseks?
+answer: See võimaldab oluliste teenuste, näiteks LSP-funktsioonide otsest integreerimist SDK-s endas, võimaldades koheselt makseid vastu võtta ilma kanali käsitsi seadistamiseta
+wrong_answers:
+  - See nõuab arendajatelt madalama taseme võrguprotokollide ja maksete marsruutimise algoritmide rakendamist võrreldes üldiste Lightning-raamatukogude kasutamisega
+  - See sunnib wallet rakendusi tegelema võrgugraafi sünkroniseerimise ja ankurdatud väljundite haldamisega sõltumata aluseks olevast Lightningi rakendusest
+  - See eeldab LNURL-i toetuse ja vahetuskursiteenuste kohandatud rakendamist, kuna arvamusega SDK-d ei saa sisaldada kolmanda osapoole integratsioone
+explanation: |
+  Breez SDK arvamuslik disain on suunatud spetsiaalselt wallet rakendustele, võimaldades integreerida olulised teenused, nagu LSP-funktsioonid, otse SDK-sse. See on teravas vastuolus LDK üldise lähenemisviisiga, mis nõuab, et arendajad rakendaksid need teenused eraldi. Integratsioon võimaldab sujuvat kasutajakogemust, näiteks uute rahakottide kohene maksete vastuvõtmine, samas kui LDK lai rakendusala tähendab, et arendajad peavad need wallet-spetsiifilised funktsioonid nullist üles ehitama, mis suurendab oluliselt arenduse keerukust ja turuleviimise aega.

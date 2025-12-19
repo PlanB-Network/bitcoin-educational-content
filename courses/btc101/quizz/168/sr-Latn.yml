@@ -1,8 +1,8 @@
-question: Kako Bitkoin potencijalno može pomoći u ekološkoj tranziciji?
-answer: Promoviše upotrebu zelene energije.
+question: Koji je jedan način da se ublaži volatilnost Bitkoina?
+answer: Finansijski hedžovi (stablecoins).
 wrong_answers:
-  - Smanjuje proizvodnju robe.
-  - Reguliše potrošnju resursa.
-  - Ograničava emisiju samo gasova sa efektom staklene bašte.
+  - Ulaganje celog vašeg novca u Bitkoin.
+  - Ignorisanje tržišnih trendova.
+  - Kupujem više Bitkoina kada cena padne.
 explanation: >-
 reviewed: true

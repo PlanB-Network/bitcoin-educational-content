@@ -6,4 +6,4 @@ wrong_answers:
   - Sin bloqueo
 explanation: |
   Las contraseñas alfanuméricas ofrecen la mejor resistencia a los intentos de acceso no autorizado, a diferencia de los esquemas gráficos o biométricos.
-reviewed: false
+reviewed: true

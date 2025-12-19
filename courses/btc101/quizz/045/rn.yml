@@ -1,13 +1,10 @@
-question: Ni ikihe kintu nyamukuru kiranga Bitcoin kiyitandukanya n’amahera ya fiat?
-answer: Politike yayo y’amahera ishirwa mu ngiro n’uguhurizako rusangi.
+question: Ni ingaruka izihe inflation ya 20% ku bushobozi bwo kugura mu myaka 3?
+answer: Utakaza 50% vy’ubushobozi bwo kugura.
 wrong_answers:
-  - Ishobora gucapwa mu bwinshi butagira aho bugarukira n’amabanki akomeye.
-  - Ishigikiwe n’ikintu gifatika nk’inzahabu canke ifeza.
-  - Igenzurwa na banki nkuru.
+  - Utakaza 100% vy’ubushobozi bwo kugura.
+  - Utakaza 60% vy’ubushobozi bwo kugura.
+  - Utakaza 30% vy’ubushobozi bwo kugura.
 explanation: |
-  Kubera ko ari ahantu hatandukanye kandi hakaba harimwo ubuhinga bwo gukingira amakuru,
-  Bitcoin ntishobora kwihenda kandi igarukira ku miliyoni 21 .
-  ibice. Ico ni ikintu nyamukuru kiyitandukanya n’
-  amafaranga y’amahera, akurikiza politike y’amahera ishobora kuba
-  vyahinduwe n’amabanki akomeye.
+  Iyo ufise 20% vy’inflation, uratakaza hafi igice c’ivyo ugura
+  ububasha mu myaka 3.
 reviewed: true

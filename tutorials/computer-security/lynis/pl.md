@@ -10,7 +10,7 @@ ___
 
 
 
-*Ten samouczek jest oparty na oryginalnej treści autorstwa Fares CHELLOUG opublikowanej na [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany
+*Ten samouczek jest oparty na oryginalnej treści autorstwa Fares CHELLOUG opublikowanej na [IT-Connect](https://www.it-connect.fr/). Licencja [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). W oryginalnym tekście mogły zostać wprowadzone zmiany.*
 
 
 
@@ -22,7 +22,7 @@ ___
 
 
 
-**W tym poradniku nauczymy się jak przeprowadzić audyt bezpieczeństwa na maszynie z systemem Linux przy użyciu Lynis! Dla tych z was, którzy nie znają **Lynis,** jest to małe narzędzie wiersza poleceń, które przeanalizuje konfigurację twojego serwera i wyda zalecenia dotyczące **poprawy bezpieczeństwa twojej maszyny**
+**W tym poradniku nauczymy się jak przeprowadzić audyt bezpieczeństwa na maszynie z systemem Linux przy użyciu Lynis!** Dla tych z was, którzy nie znają **Lynis**, jest to małe narzędzie wiersza poleceń, które przeanalizuje konfigurację twojego serwera i wyda zalecenia dotyczące **poprawy bezpieczeństwa twojej maszyny**.
 
 
 
@@ -321,10 +321,10 @@ Następnie Lynis wymieni zestaw punktów odpowiadających wszystkiemu, co sprawd
 
 
 
-- Czerwony** dla krytycznego Elements lub nieprzestrzegania najlepszych praktyk (na przykład brakujący pakiet), tj. serwer nie przestrzega tego punktu
-- Żółty** dla sugestii lub częściowej zgodności z zaleceniem (powiedzmy, że plusem jest zgodność z punktem wyróżnionym tym kolorem (niepriorytetowym))
-- Green** dla punktów, w których konfiguracja serwera jest zgodna
-- Biały**, gdy neutralny
+- **Czerwony** dla krytycznego Elements lub nieprzestrzegania najlepszych praktyk (na przykład brakujący pakiet), tj. serwer nie przestrzega tego punktu
+- **Żółty** dla sugestii lub częściowej zgodności z zaleceniem (powiedzmy, że plusem jest zgodność z punktem wyróżnionym tym kolorem (niepriorytetowym))
+- **Green** dla punktów, w których konfiguracja serwera jest zgodna
+- **Biały**, gdy neutralny
 
 
 
@@ -604,10 +604,10 @@ Niektóre informacje o zainstalowanych pakietach:
 
 
 
-- Clamav** to program antywirusowy.
-- unattend-upgrades** umożliwia automatyczne zarządzanie aktualizacjami, a nawet ponowne uruchomienie komputera lub automatyczne usuwanie starych pakietów, jest w pełni konfigurowalny.
-- rkhunter** to antyrootkit, który skanuje system plików.
-- Fail2ban** będzie bazował na plikach dziennika zgodnie z tym, co dasz mu do odczytu i będzie współpracował z **iptables**, na przykład w celu zablokowania adresów IP, które próbują "brute force" twojego serwera w SSH.
+- **Clamav** to program antywirusowy.
+- **unattend-upgrades** umożliwia automatyczne zarządzanie aktualizacjami, a nawet ponowne uruchomienie komputera lub automatyczne usuwanie starych pakietów, jest w pełni konfigurowalny.
+- **rkhunter** to antyrootkit, który skanuje system plików.
+- **Fail2ban** będzie bazował na plikach dziennika zgodnie z tym, co dasz mu do odczytu i będzie współpracował z **iptables**, na przykład w celu zablokowania adresów IP, które próbują "brute force" twojego serwera w SSH.
 
 
 
@@ -820,7 +820,7 @@ Na koniec nie zapomnijmy sprawdzić **wyniku audytu Lynis**! Widzimy, że **mój
 
 
 
-**Innymi słowy, im wyższy wynik, tym lepiej! Dlatego należy pracować nad konfiguracją, aby osiągnąć jak najwyższy wynik, jednocześnie umożliwiając normalne działanie maszyny i hostowanych usług (co oznacza przeprowadzanie testów funkcjonalnych).
+**Innymi słowy, im wyższy wynik, tym lepiej! Dlatego należy pracować nad konfiguracją, aby osiągnąć jak najwyższy wynik, jednocześnie umożliwiając normalne działanie maszyny i hostowanych usług (co oznacza przeprowadzanie testów funkcjonalnych).**
 
 
 
@@ -892,8 +892,8 @@ Nie zapomnij o komunikacji z zespołami przed wdrożeniem: musisz sprawić, by z
 
 
 
-Wreszcie, można również porównać **Lynis** z innymi narzędziami, których jest kilka. Jeśli chcesz przejść do scentralizowanego zarządzania, pozostając przy otwartym oprogramowaniu, polecam narzędzie [Wazuh] (https://wazuh.com/).
+Wreszcie, można również porównać **Lynis** z innymi narzędziami, których jest kilka. Jeśli chcesz przejść do scentralizowanego zarządzania, pozostając przy otwartym oprogramowaniu, polecam narzędzie [Wazuh](https://wazuh.com/).
 
 
 
-**Tutorial dobiegł końca, miłej zabawy z Lynis!
+**Tutorial dobiegł końca, miłej zabawy z Lynis!**

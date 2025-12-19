@@ -1,11 +1,12 @@
-question: Wann wurde Bitcoin das erste Mal verwendet, um physische Güter zu kaufen?
-answer: Als Laszlo Hanyecz 2 Pizzen für 10.000 BTC kaufte.
+question: Was ist der Zweck von Transaktionsgebühren bei Bitcoin-Transaktionen?
+answer: Sie sind ein Anreiz für Miner, die Transaktion im folgenden Block einzuschließen.
 wrong_answers:
-  - Als Hal Finney ein Auto für 100.000 BTC kaufte.
-  - Als Satoshi Nakamoto ein Haus für 1.000.000.000 BTC kaufte.
-  - Keine der anderen Optionen.
+  - Sie sind eine Steuer, die von der Regierung auferlegt wird.
+  - Sie sind eine Gebühr, die vom Bitcoin-Netzwerk für die Nutzung seiner Dienste erhoben wird.
+  - Sie sind eine Gebühr, die vom Wallet-Anbieter berechnet wird.
 explanation: |
-  Das erste Mal, dass Bitcoin verwendet wurde, um physische
-  Güter zu kaufen, war, als Laszlo Hanyecz 2 Pizzen für 10.000
-  BTC am 22.05.2010 kaufte, was heute als Pizza Day bekannt ist.
+  Transaktionsgebühren bei Bitcoin-Transaktionen dienen als
+  Anreiz für Miner, die Transaktion im nächsten
+  Block einzuschließen. Die Gebühren schaffen einen freien Markt für das Einbeziehen von
+  Transaktionen in Blöcke.
 reviewed: true

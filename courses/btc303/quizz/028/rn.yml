@@ -1,0 +1,9 @@
+question: Ni igiki gihambaye cane mu bijanye no gufata amafaranga iyo infashanyo ya Bitcoin yegereje zero?
+answer: Abacukuzi boshobora kubona ko ari vyiza gusubira kwandika amabuye ya kera afise amahera menshi aho kwandika amabuye mashasha ya mining .
+wrong_answers:
+  - Amafaranga yo gukoresha azoba azimvye cane ku bakoresha badasiba kugira ngo bashobore gukoresha Bitcoin
+  - Igitigiri cose c’ama Bitcoin kizorenga miliyoni 21 kubera inzego z’inzego za mining zizokwongerwa .
+  - Abacukuzi bazohagarika mining burundu kuko amafaranga y’ugucuruza yonyene ntashobora kwishura amafaranga y’amashanyarazi .
+explanation: |
+  Fee sniping ibaho iyo abacukuzi bagerageza gusubira gucukura amabuye y’imbere yarimwo amafaranga menshi aho kwagura uruzitiro ata buryarya. Ivyo bica biba vyiza mu vy’ubutunzi iyo amafaranga yo mu gice c’imbere arenze cane ayo mu gice c’ubu. Naho ubushobozi bwo kuroranirwa buri hasi kuruta mining y’ukuri, impembo ishobora gushikako irashobora kuba nini cane. Iyi nyifato irababaje cane kuko ishobora gutuma habaho ingaruka zikomeye aho abacukuzi benshi bakora ibikorwa vy’ubuhemu, amaherezo bikaba bitera ubwoba uburyo bwo gucungera umutekano bwa Bitcoin iyo infashanyo z’amabuye y’agaciro zigabanutse.
+reviewed: false

@@ -1,12 +1,11 @@
-question: Ni ibihe bikorwa bitatu nyamukuru Bitcoin Wallet ikora?
-answer: Kwakira ama bitcoins, kohereza ama bitcoins, kuyakingira ubusuma n’ubusuma.
+question: Woshobora gute gukomeza umutekano w’imbere y’igihe wa Bitcoin Wallet yawe?
+answer: Mu kwongerako passphrase kuri Bitcoin yawe Wallet.
 wrong_answers:
-  - Bika ama bitcoins, wohereze ama bitcoins, uyakingire ku bijanye n’ugutera n’ugushaka kwiba.
-  - Kwemera kwakira ama bitcoins, kubika ama bitcoins, kuyakingira ubusuma n’ukugerageza kwiba.
-  - Kwemera kwakira ama bitcoins, kwemera kohereza ama bitcoins, kugurisha ama bitcoins.
+  - Mu kwongerako urufunguzo rwa kabiri rw'ibanga kuri Bitcoin Wallet yawe.
+  - Mu kwongerako urufunguzo rwa kabiri rwa bose kuri Bitcoin Wallet yawe.
+  - Mu kwongerako ijambo rya kabiri rya Mnemonic kuri Bitcoin Wallet yawe.
 explanation: |
-  Igikoresho ca Bitcoin Wallet gikoreshwa mu gukorana n’igikoresho ca Bitcoin.
-  umuhora. Inshingano zayo zitatu nyamukuru ni ugutuma umuntu ashobora kwakira .
-  bitcoins, kwemera kohereza bitcoins, no kuzikingira
-  gutera ivyatsi n’ukugerageza kwiba.
+  Niba utanyuzwe n’umutekano w’ivyawe
+  Bitcoin Wallet, urashobora kwama uyikomeza mu kwongerako .
+  passphrase ku Bitcoin yawe Wallet.
 reviewed: true

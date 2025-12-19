@@ -84,9 +84,9 @@ For a standard deployment, we recommend:
 
 
 
-- 1 GB RAM** minimum (2 GB or more is recommended to enable additional packages or ZFS support).
-- 8 GB disk space** (20 GB or more is preferable for more advanced configurations, especially if you're installing a proxy cache, IDS/IPS or detailed logs).
-- At least two virtual network interfaces** (one for the WAN, one for the LAN). In VirtualBox, add them to the VM settings before startup.
+- 1 GB RAM minimum (**2 GB or more is recommended to enable additional packages or ZFS support**).
+- 8 GB disk space (20 GB or more is preferable for more advanced configurations, especially if you're installing a proxy cache, IDS/IPS or detailed logs).
+- At least two virtual network interfaces (one for the WAN, one for the LAN). In VirtualBox, add them to the VM settings before startup.
 
 
 ### 2. Installer startup
@@ -232,8 +232,8 @@ In your browser, go to the address indicated by the console (by default `https:/
 The login screen appears. The default credentials are:
 
 
-- User name:** `admin`
-- Password:** `pfsense`
+- **User name:** `admin`
+- **Password:** `pfsense`
 
 
 These identifiers will be modified during the initial configuration wizard.
@@ -321,10 +321,10 @@ To end your deployment with peace of mind:
 
 
 
-- Modify firewall rules**: by default, pfSense allows all outgoing traffic on the LAN and blocks incoming traffic on the WAN. Adjust these rules as required.
-- Configure secure remote access**: if required, enable access to Interface web from the WAN only via VPN or with IP restrictions.
-- Enable notifications**: configure an SMTP server to receive alerts (failures, updates, errors).
-- Install useful extensions**: for example, IDS/IPS (Snort, Suricata), proxy (Squid), DNS filtering (pfBlockerNG).
+- **Modify firewall rules**: by default, pfSense allows all outgoing traffic on the LAN and blocks incoming traffic on the WAN. Adjust these rules as required.
+- **Configure secure remote access**: if required, enable access to Interface web from the WAN only via VPN or with IP restrictions.
+- **Enable notifications**: configure an SMTP server to receive alerts (failures, updates, errors).
+- Install useful **extensions**: for example, IDS/IPS (Snort, Suricata), proxy (Squid), DNS filtering (pfBlockerNG).
 
 
 Your pfSense firewall is now up and running, ready to protect your network. Thanks to its flexibility and active community, you have a powerful, scalable tool that can adapt to your future needs (multi-WAN, VLAN, site-to-site VPN, captive portal, etc.).

@@ -1,0 +1,9 @@
+question: blkNNNNN.datと一緒に保存されているrevNNNNN.datファイルの目的は何ですか？
+answer: 再編成時に設定されたUTXOを復元する
+wrong_answers:
+  - Hard Fork中に設定されたUTXOのリストア
+  - Hard Forkの間にMempoolを復旧させる
+  - 組織再編時のMempoolの復元
+explanation: |
+  各revNNNNN.datには、UTXOセットでブロックの影響を元に戻すのに必要なデータが含まれており、再編成の管理が容易になる。
+reviewed: true

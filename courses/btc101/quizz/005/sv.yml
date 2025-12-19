@@ -1,0 +1,12 @@
+question: Vilka är cypherpunkarna?
+answer: En grupp människor som började ifrågasätta integriteten och frihetens roll i den digitala tidsåldern.
+wrong_answers:
+  - En grupp hackare som stal information från regeringar.
+  - En grupp människor som uppfann Bitcoin och andra kryptovalutor.
+  - En grupp människor som motsatte sig användningen av teknik.
+explanation: |
+  Cypherpunkarna är en grupp individer som trodde att
+  att kryptografi kan fungera som ett verktyg för att skydda
+  individuella rättigheter mot inblandning av regeringar
+  och stora företag.
+reviewed: true

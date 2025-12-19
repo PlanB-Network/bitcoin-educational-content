@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoinize PoS
 explanation: |
   BTC Pay Server is highlighted in the course as the core open-source solution for Professional setups due to its extensive integration options and control.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Per Spinoza, Dio è?
+answer: Natura.
+wrong_answers:
+  - Un essere dotato di intenzione.
+  - Un orologiaio.
+  - Narrativa.
+explanation: |
+  Per Spinoza, Dio è Natura (Deus sive Natura). Non è un essere trascendente e personale, ma la sostanza unica e infinita di cui tutto ciò che esiste è una modalità o manifestazione.
+reviewed: false

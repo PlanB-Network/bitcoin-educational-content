@@ -1,10 +1,9 @@
-question: Bagaimana penambang diberi kompensasi untuk pekerjaan mereka?
-answer: Penambang diberi kompensasi melalui hadiah yang termasuk dalam blok dan melalui biaya transaksi.
+question: Apa peran penambang dalam protokol Bitcoin?
+answer: Mereka mengamankan jaringan saat ini dan historis
 wrong_answers:
-  - Penambang dibayar oleh jaringan Bitcoin.
-  - Penambang menerima gaji tetap untuk pekerjaan mereka.
-  - Penambang diberi kompensasi dengan bitcoin baru.
+  - Mereka mengatur harga Bitcoin
+  - Mereka mengontrol pasokan Bitcoin
+  - Mereka mengelola transaksi antar pengguna
 explanation: >-
-  Ketika seorang penambang berhasil menambang sebuah blok, mereka menerima hadiah berupa bitcoin baru. Hadiah ini termasuk dalam blok yang mereka tambang. Selain itu,
-  penambang juga menerima biaya transaksi dari transaksi yang termasuk dalam blok tersebut.
+  Penambang dalam protokol Bitcoin mengamankan baik jaringan saat ini maupun historis. Mereka tidak mengatur harga Bitcoin, mengontrol pasokannya, atau mengelola transaksi antar pengguna.
 reviewed: false

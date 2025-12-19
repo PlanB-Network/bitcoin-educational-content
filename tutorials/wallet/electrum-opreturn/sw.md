@@ -1,5 +1,5 @@
 ---
-name: Elektroni OP_RETURN
+name: Electrum OP_RETURN
 description: Sajili ujumbe kwenye Blockchain Bitcoin ukitumia Electrum
 ---
 
@@ -53,7 +53,7 @@ Mafunzo haya ya hatua kwa hatua yanakuonyesha jinsi ya kuandika ujumbe kwenye Bl
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Hii itaonyesha mapokezi ya Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Chagua ujumbe unaotaka kuingiza (k.m. `Asante Satoshi`). Kumbuka: Ujumbe wa OP_R
 
 
 
-- acha mwonekano mzuri wa ubinadamu wetu,*
-- epuka kuingiza maudhui ambayo unaweza kujutia*
+- acha mwonekano mzuri wa ubinadamu wetu,
+- epuka kuingiza maudhui ambayo unaweza kujutia
 
 
 
@@ -208,9 +208,9 @@ ambayo inaundwa na:
 
 
 
-- Lengwa Address**: Bitcoin Address halali. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Hii inaweza kuwa Address yako mwenyewe, ikiwa ungependa kurejesha fedha zilizohamishwa kwako mwenyewe;
-- Kiasi kilichohamishwa**: kiasi cha muamala, hapa `0.00001` BTC. **Tafadhali kumbuka**: kwa kuwa kitengo kinachotumiwa katika Electrum ni BTC, kiasi kilichoonyeshwa katika hati ya shughuli lazima pia kionyeshwe katika BTC, na si katika Sats;
-- Hati OP_RETURN**: Ujumbe uliogeuzwa kuwa heksadesimali ukitanguliwa na hati(`OP_RETURN <ujumbe>), 0`. Hapa, `5468616e6b73205361746f736869` kwa ujumbe katika hexadecimal.
+- **Lengwa Address**: Bitcoin Address halali. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Hii inaweza kuwa Address yako mwenyewe, ikiwa ungependa kurejesha fedha zilizohamishwa kwako mwenyewe;
+- **Kiasi kilichohamishwa**: kiasi cha muamala, hapa `0.00001` BTC. **Tafadhali kumbuka**: kwa kuwa kitengo kinachotumiwa katika Electrum ni BTC, kiasi kilichoonyeshwa katika hati ya shughuli lazima pia kionyeshwe katika BTC, na si katika Sats;
+- Hati **OP_RETURN**: Ujumbe uliogeuzwa kuwa heksadesimali ukitanguliwa na hati(`OP_RETURN <ujumbe>`), 0. Hapa, `5468616e6b73205361746f736869` kwa ujumbe katika hexadecimal.
 
 
 
@@ -218,7 +218,7 @@ ambayo inaundwa na:
 
 
 
-Kidokezo: Tumia zana ya [OP_RETURN Jenereta] (https://resources.davidcoen.it/opreturnelectrum/) ili generate hati kiotomatiki. Hata kama zana hii inapendekeza kuweka kiasi katika BTC, kuweka kitengo kimesanidiwa katika Electrum.
+Kidokezo: Tumia zana ya [OP_RETURN Jenereta](https://resources.davidcoen.it/opreturnelectrum/) ili generate hati kiotomatiki. Hata kama zana hii inapendekeza kuweka kiasi katika BTC, kuweka kitengo kimesanidiwa katika Electrum.
 
 
 

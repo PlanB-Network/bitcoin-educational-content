@@ -1,5 +1,5 @@
 ---
-name: 位元堆疊
+name: Bitstack
 description: 在 Bitstack 應用程式上買賣比特幣
 ---
 ![cover](assets/cover.webp)
@@ -8,7 +8,7 @@ description: 在 Bitstack 應用程式上買賣比特幣
 Bitstack 是法國的 Bitcoin 投資平台，由 AMF 監管 PSAN。它提供 Android 和 iOS 應用程式，方便買賣 Bitcoin。
 
 
-Bitstack 的與眾不同之處在於它的自動四捨五入系統，該系統與用戶的銀行帳戶同步，將用戶日常消費時扣除的金額與下一個較高的歐元之間的差額直接轉換為比特幣。這種方法有助於 *Dollar Cost Averaging* (DCA) 的應用，使 Satoshis 逐步、無痛地累積。除了這個獨創的功能外，平台也提供經典的 DCA 系統自動投資，以及現貨買賣。
+Bitstack 的特點在於其自動進位系統，該系統會同步使用者的銀行帳戶，將日常支出金額與下一個歐元之間的差額直接轉換為比特幣。此方法有助於應用 *Dollar Cost Averaging*（DCA），使得聰能夠逐步且無痛地累積。除了這一原創功能外，該平台還提供具備自動投資的傳統 DCA 系統，以及單次買賣功能。
 
 
 ![Image](assets/fr/01.webp)
@@ -73,10 +73,10 @@ Bitstack 的交易費用根據最近 30 天的交易量而有所不同：
 ![Image](assets/fr/06.webp)
 
 
-為了日常安全的密碼管理，強烈建議使用密碼管理器。在 Plan ₿ Network 上，您可以找到一些關於現有最佳解決方案的教學，例如 Bitwarden ：
+為了日常安全的密碼管理，強烈建議使用密碼管理器。在 Plan ₿ Academy 上，您可以找到一些關於現有最佳解決方案的教學，例如 Bitwarden ：
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 然後，您會被要求驗證身份 (KYC)。根據法國法規，您將被要求提供您的個人詳細資料和身份證明。在方框中填入您的姓氏、名字和出生日期。
 
@@ -160,7 +160,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 - 支出使用自動四捨五入。
 
 
-### 以現金購買
+### 進行一次性購買
 
 
 要以市價一次性購買比特幣，只需點擊「*購買*」。
@@ -184,7 +184,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 ### 設定 DCA
 
 
-美元成本平均法* (DCA) 是一種極具吸引力的投資策略，可在累積 Bitcoin 的同時，降低其波動所帶來的風險。不論價格如何，定期購入固定金額，即可平滑購入成本，避免衝動性決策。DCA 有助於減少行為偏差，例如害怕錯失機會或在價格下跌時感到恐慌，從而使您能夠以寧靜和規律的方式管理 Bitcoin 儲蓄。
+美元成本平均法 (DCA) 是一種極具吸引力的投資策略，可在累積 Bitcoin 的同時，降低其波動所帶來的風險。不論價格如何，定期購入固定金額，即可平滑購入成本，避免衝動性決策。DCA 有助於減少行為偏差，例如害怕錯失機會或在價格下跌時感到恐慌，從而使您能夠以寧靜和規律的方式管理 Bitcoin 儲蓄。
 
 
 若要在 Bitstack 上設定定期購買 (DCA)，請前往首頁的「*儲值*」部分，然後選擇「*定期*」。然後按「*繼續*」。
@@ -271,7 +271,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 ![Image](assets/fr/32.webp)
 
 
-如果您不熟悉自保管 Wallet 的運作方式，我們提供大部分解決方案的教學[Plan ₿ Network 上的「*Wallet*」部分](https://planb.network/tutorials/wallet)。
+如果您不熟悉自保管 Wallet 的運作方式，我們提供大部分解決方案的教學[Plan ₿ Academy 上的「*Wallet*」部分](https://planb.academy/tutorials/wallet)。
 
 
 ## 銷售 Bitcoin

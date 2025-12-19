@@ -1,12 +1,10 @@
-question: Koliki je bio procenjeni broj bitkoina u opticaju nakon prvog Halving-a?
-answer: 10.500.000 BTC.
+question: Koja je uloga javnog ključa u Bitkoin novčaniku?
+answer: Koristi se za generate Bitkoin adrese i tako prima novac.
 wrong_answers:
-  - 5,250,000 BTC.
-  - 15.750.000 BTC.
-  - 21,000,000 BTC.
+  - Koristi se za šifrovanje Bitkoin transakcija.
+  - Koristi se za pristup Bitkoin novčaniku.
+  - Koristi se za pravljenje rezervne kopije Bitkoin novčanik.
 explanation: |
-  Nakon prvog Halving, koji se dogodio na visini bloka
-  210,000, procenjeni broj bitkoina u opticaju
-  bio je 10,500,000 BTC, što je polovina ukupnog broja
-  bitkoina koji će biti u opticaju.
+  Javni ključ se izvodi iz privatnog ključa i koristi se
+  za generisanje Bitkoin adrese kako bi se primio novac.
 reviewed: true

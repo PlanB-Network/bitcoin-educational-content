@@ -1,0 +1,9 @@
+question: 롤링 릴리스 배포의 주요 장점은 무엇인가요?
+answer: 최신 소프트웨어 사용
+wrong_answers:
+  - Windows와의 호환성 향상
+  - Interface 그래픽이 없는 환경
+  - 필수 영업 지원
+explanation: |
+  롤링 릴리스는 지속적인 소프트웨어 업데이트를 통합하여 최신 버전에 영구적으로 액세스할 수 있도록 합니다.
+reviewed: false

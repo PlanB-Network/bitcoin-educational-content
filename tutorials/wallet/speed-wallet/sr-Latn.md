@@ -1,5 +1,5 @@
 ---
-name: Brzina Wallet
+name: Speed Wallet
 description: Platite i Exchange u bitkoinima i USDT odmah
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ U ovom vodiču, provesti ćemo vas kroz svaki od ovih aspekata kako bismo vaše 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Početak sa Speed Wallet
 
@@ -79,7 +79,7 @@ Speed Wallet zahteva kreiranje korisničkog naloga. Možete ga kreirati putem sv
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Kada vaš nalog bude kreiran, preporučujemo da postavite sistem dvostruke auten
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Da biste to uradili, idite na postavke aplikacije, zatim aktivirajte dvostruku autentifikaciju i biometrijsku verifikaciju.
 
@@ -161,7 +161,7 @@ Takođe možete jednostavno koristiti svoj Lightning Address kada želite da svo
 
 
 
-- Pošalji bitkoine sa Speed Wallet** :
+- Pošalji bitkoine sa **Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Opcije **Buy** i **Swap** omogućavaju vam da Exchange bitcoina za druge valute 
 
 
 
-- Kupite Bitcoin kreditnom karticom**: Speed Wallet olakšava nabavku Bitcoin iz fiat valuta koje koristite svakodnevno. Uključuje agregator plaćanja koji vam omogućava da platite bitkoine svojom kreditnom karticom.
+- **Kupite Bitcoin kreditnom karticom**: Speed Wallet olakšava nabavku Bitcoin iz fiat valuta koje koristite svakodnevno. Uključuje agregator plaćanja koji vam omogućava da platite bitkoine svojom kreditnom karticom.
 
 
 
@@ -201,13 +201,13 @@ Opcije **Buy** i **Swap** omogućavaju vam da Exchange bitcoina za druge valute 
 
 
 
-- Kupite Bitcoin od drugih kriptovaluta**: Možete Exchange svoj USDT, USDC za bitkoine u svom Wallet i obrnuto. Kroz ovu opciju, Speed Wallet pojednostavljuje proces kupovine i prodaje Bitcoin bez upućivanja na spoljne Exchange platforme. Tako možete trgovati za samo 20,000 satoshija, što je oko $20 po trenutnom kursu, bez napuštanja vašeg Speed Wallet.
+- **Kupite Bitcoin od drugih kriptovaluta**: Možete Exchange svoj USDT, USDC za bitkoine u svom Wallet i obrnuto. Kroz ovu opciju, Speed Wallet pojednostavljuje proces kupovine i prodaje Bitcoin bez upućivanja na spoljne Exchange platforme. Tako možete trgovati za samo 20,000 satoshija, što je oko $20 po trenutnom kursu, bez napuštanja vašeg Speed Wallet.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Pogledajte naš vodič o tome kako započeti sa Bitrefill-om ispod.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Zaradite nagrade
 
@@ -327,7 +327,7 @@ U opciji **Settings** na stranici **Wallet**, odeljak **Mini Apps** vam omoguća
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet nije samo za mobilne uređaje!
 
@@ -375,25 +375,25 @@ U suštini fokusiran na plaćanja, naći ćete sledeće opcije:
 
 
 
-- Online payments**: Sa ovom opcijom, možete prihvatiti Bitcoin kao sredstvo plaćanja za vaše digitalne proizvode, putem linkova za plaćanje, fakturisanja i pretplata.
+- **Online payments**: Sa ovom opcijom, možete prihvatiti Bitcoin kao sredstvo plaćanja za vaše digitalne proizvode, putem linkova za plaćanje, fakturisanja i pretplata.
 
 
 
 
 
-- Plaćanja na licu mesta**: Za prikupljanje uplata u vašoj prodavnici.
+- **Plaćanja na licu mesta**: Za prikupljanje uplata u vašoj prodavnici.
 
 
 
 
 
-- Instant payments**: Opcija koja vam omogućava upravljanje nadoknadama, povlačenjima, troškovima i platnim listama zaposlenih direktno iz Speed Business Interface.
+- **Instant payments**: Opcija koja vam omogućava upravljanje nadoknadama, povlačenjima, troškovima i platnim listama zaposlenih direktno iz Speed Business Interface.
 
 
 
 
 
-- Platform payments**: Povežite svoj Speed Business račun sa spoljnim alatima koje koristite za obavljanje transfera i plaćanja na ovim platformama.
+- **Platform payments**: Povežite svoj Speed Business račun sa spoljnim alatima koje koristite za obavljanje transfera i plaćanja na ovim platformama.
 
 
 
@@ -401,4 +401,4 @@ Stigli ste do kraja našeg Speed Wallet vodiča. Ako ste smatrali da je ovaj vod
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

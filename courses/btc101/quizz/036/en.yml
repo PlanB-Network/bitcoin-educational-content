@@ -1,12 +1,12 @@
-question: What does the term fiduciary mean in the context of currencies?
-answer: It refers to currencies that are only valuable because of the trust in the central institution that regulates them.
+question: What is the historical path followed by institutions in the introduction of fiat currencies?
+answer: Leaders centralize gold and introduce a new currency equivalent to gold in value, which is then gradually devalued.
 wrong_answers:
-  - It refers to currencies that are backed by gold and are issued by small commercial banks.
-  - It refers to currencies that are only valuable for fiduciary transactions.
-  - It refers to currencies that are only used within a specific institution.
+  - Leaders introduce a new currency backed by gold, which is then gradually increased in value.
+  - Leaders introduce a new currency with no intrinsic value, which is then gradually increased in value.
+  - Leaders introduce a new currency backed by a basket of commodities, which is then kept stable in value.
 explanation: |
-  Fiduciary currencies are not backed by a physical commodity
-  like gold or silver. Their value is derived from the trust
-  and confidence people have in the institutions that issue
-  and regulate them.
+  Historically, leaders have centralized gold and introduced
+  a new currency equivalent in value to gold. This new
+  currency is then gradually devalued, often under the guise
+  of being in the interest of the people.
 reviewed: true

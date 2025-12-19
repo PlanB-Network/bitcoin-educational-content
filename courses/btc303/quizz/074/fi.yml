@@ -1,0 +1,9 @@
+question: Mikä on ensisijainen tarkoitus sillä, että kokeneet kehittäjät tarkistavat haavoittuvuuskorjauksen ilman, että heille on ilmoitettu kyseisestä haavoittuvuudesta?
+answer: Testaamaan, peittääkö korjaustiedosto haavoittuvuuden riittävästi mahdollisilta hyökkääjiltä
+wrong_answers:
+  - "Varmistaaksemme, että korjaus ei tuo uusia virheitä koodipohjaan"
+  - Tarkistetaan, että korjauksessa noudatetaan asianmukaisia koodausstandardeja ja -käytäntöjä
+  - Vahvistetaan, että korjaus parantaa suorituskykyä riittävästi
+explanation: |
+  Vastuullisen julkistamiskäytännön mukaan kehittäjät testaavat, onko korjaus naamioitu tarpeeksi hyvin, antamalla sen kokeneille kehittäjille, joille ei ole kerrottu haavoittuvuudesta, ja pyytämällä heitä tunnistamaan, mitä se korjaa. Jos nämä asiantuntijat eivät havaitse haavoittuvuutta, vaikka tietävät, että korjaus korjaa sen, se on todennäköisesti hyvin piilotettu mahdollisilta hyökkääjiltä. Tämä on ratkaisevan tärkeää, koska korjaukset voivat itsessään paljastaa haavoittuvuuksia, jotka voivat mahdollistaa niiden ilkivaltaisen hyväksikäytön. Vaikka muut vaihtoehdot ovatkin tärkeitä koodin tarkistuksen osa-alueita, ne eivät ole tämän haavoittuvuuksien hallintaan liittyvän käytännön ensisijainen tarkoitus.
+reviewed: false

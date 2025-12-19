@@ -1,0 +1,9 @@
+question: 디피-헬만 키 Exchange의 기반이 되는 수학적 개념은 무엇인가요?
+answer: 백도어가 있는 단방향 기능
+wrong_answers:
+  - 역 지수 함수
+  - 암호화 Hash 알고리즘
+  - 간소화된 모듈식 분할
+explanation: |
+  Diffie-Hellman은 한 방향으로 계산하기는 쉽지만 백도어라고 하는 비밀 정보 없이는 되돌리기가 사실상 불가능한 단방향 함수에 의존합니다.
+reviewed: false

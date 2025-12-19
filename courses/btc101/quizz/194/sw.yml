@@ -1,12 +1,12 @@
-question: Ni zana gani moja ya kukubali Bitcoin kwa mashirika makubwa au wapenda Bitcoin wenye shauku?
-answer: Seva ya BTCpay.
+question: Madhumuni ya kanuni za KYC ni nini?
+answer: Ili kupambana na ufadhili wa ugaidi, ukwepaji kodi, na utakatishaji fedha.
 wrong_answers:
-  - Bitcoin Wallet.
-  - Bitcoin Exchange.
-  - BTCpay Mining.
+  - Ili kuongeza bei ya Bitcoin na kumfanya mtumiaji alipe kodi zaidi.
+  - Ili kudhibiti Supply ya Bitcoin.
+  - Ili kuzuia watu kununua Bitcoin.
 explanation: |
-  Seva ya BTCpay ni zana ya kukubali Bitcoin kwa kubwa
-  miundo au bitcoiners wenye shauku. Suluhu zingine
-  ni pamoja na OpenNode kwa biashara rahisi za mtandaoni na Uswisi
-  Bitcoin Lipa kwa wauzaji mahiri.
+  Maandishi ya kozi yanaeleza kuwa Jua Mteja Wako (KYC)
+  kanuni zinahitaji watumiaji kutoa kitambulisho kwa
+  kupambana na ufadhili wa ugaidi, ukwepaji kodi, na pesa
+  ufujaji.
 reviewed: true

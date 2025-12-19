@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Maximum entropy refers to the highest entropy that a specific transaction structure can theoretically achieve.
 
-reviewed: false
+reviewed: true

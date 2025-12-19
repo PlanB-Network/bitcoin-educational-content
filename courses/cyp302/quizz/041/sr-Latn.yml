@@ -6,4 +6,4 @@ wrong_answers:
   - Asocijativni element
 explanation: |
   Identitetni element grupe je jedinstveni element koji, kada se primeni na drugi element, ostavlja ga nepromenjenim. Na primer, u grupi celih brojeva pod operacijom sabiranja, identitetni element je 0.
-reviewed: false
+reviewed: true

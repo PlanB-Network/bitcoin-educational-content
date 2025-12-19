@@ -1,0 +1,8 @@
+question: Que se passe-t-il lors de la construction d'un arbre de Merkle à partir de transactions si le nombre de hachages à n'importe quel niveau est impair ?
+answer: Le dernier hachage est dupliqué afin de créer un nombre pair de paires pour le niveau suivant
+wrong_answers:
+  - Le dernier hachage est reporté tel quel au niveau suivant, sans appariement
+  - Le dernier hachage est mis en rapport XOR avec le premier hachage de ce niveau pour compléter l'appariement
+  - Le dernier hachage est combiné avec un hachage nul (tous les zéros) pour créer la paire finale
+explanation: |
+  La construction de l'arbre de Merkle de Bitcoin nécessite l'appariement des hachages à chaque niveau. Lorsqu'un nombre impair existe, le protocole duplique spécifiquement le dernier hachage pour garantir un appariement correct. Cela permet de maintenir la structure binaire de l'arbre et de garantir un calcul déterministe de la racine. Les autres options rompraient la compatibilité avec les règles de consensus du Bitcoin et créeraient des racines de Merkle différentes pour des ensembles de transactions identiques.

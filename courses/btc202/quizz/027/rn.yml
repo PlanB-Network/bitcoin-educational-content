@@ -1,0 +1,9 @@
+question: Ni igiki kidasanzwe ku node ya SPV?
+answer: Igumya gusa imitwe y'amabuye
+wrong_answers:
+  - Igumya Blockchain yose kuva ku gice ca Genesis .
+  - Ibika gusa amabuye aherutse
+  - Igumya gusa UTXO set, si Blockchain.
+explanation: |
+  Igikoresho ca SPV kigenzura ibikorwa biciye ku mitwe y’amabuye n’ibimenyamenya vya Merkle, ata kubika amakuru yose.
+reviewed: true

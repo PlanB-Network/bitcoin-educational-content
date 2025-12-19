@@ -1,11 +1,8 @@
-question: Vad är en av de saker du bör tänka på när du väljer en DCA-plattform?
-answer: Tillgänglighet i ditt land.
+question: Vilka åtgärder tvingar Bitcoin företag, universitet, tillsynsmyndigheter och privatpersoner att vidta?
+answer: För att ta hänsyn till det.
 wrong_answers:
-  - Färgen på plattformens logotyp.
-  - Antalet användare på plattformen.
-  - Plattformens ålder.
-explanation: |
-  I den här kurstexten nämns att när man väljer en DCA
-  plattform beror det rätta valet mer på dess tillgänglighet
-  tillgänglighet i ditt land.
+  - Att ignorera det.
+  - Att förbjuda det.
+  - Att kriminalisera det.
+explanation: >-
 reviewed: true

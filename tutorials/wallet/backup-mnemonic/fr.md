@@ -82,11 +82,11 @@ Vous pouvez également enrichir votre sauvegarde avec des informations suppléme
 
 En revanche, si vous utilisez une passphrase, évitez absolument de la noter sur le même support que votre phrase mnémonique. La passphrase a précisément pour rôle de protéger votre portefeuille en cas de vol de cette dernière. Pour en savoir davantage sur l’utilisation de la passphrase, je vous invite à consulter ce tutoriel complémentaire :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Une fois votre phrase mnémonique sauvegardée sur un support physique, il est fortement recommandé d’effectuer un test de récupération tant que votre portefeuille nouvellement créé est encore vide. Ce test consiste à noter une information témoin, à supprimer volontairement le portefeuille vide, puis à essayer de le restaurer en utilisant uniquement votre sauvegarde physique de la phrase mnémonique. Cela vous permet de vérifier que votre sauvegarde est complète et sans erreur de saisie. Vous pourrez également vous familiariser avec le processus de récupération. Ainsi, en cas de récupération dans le futur, vous serez mieux préparé et éviterez le stress d’une première tentative en situation réelle. Pour en savoir plus sur la réalisation de ce test, consultez cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Enfin, se pose également la question du nombre de sauvegardes. Ce choix dépend entièrement de votre situation personnelle. Limiter le nombre de copies, par exemple en ne notant votre phrase mnémonique qu’une seule fois sur un support, réduit le risque de vol, mais augmente le risque de perte. À l’inverse, réaliser plusieurs copies diminue le risque de perte, mais accroît celui de vol. Il vous appartient donc de trouver un équilibre adapté à vos besoins et de déterminer le nombre de copies qui vous semble le plus approprié.
 
@@ -114,8 +114,8 @@ Enfin, la gestion de la phrase mnémonique soulève également la question de la
 
 Pour aller plus loin et renforcer encore davantage votre stratégie de sécurisation, je vous recommande d’apprendre le fonctionnement technique de votre portefeuille Bitcoin. En comprenant comment interagissent ses différents éléments, ainsi que leur importance et leurs implications, vous serez en mesure d’affiner votre stratégie de sécurisation en ayant pleinement conscience des risques. En particulier, si vous comprenez au niveau technique ce que permet la phrase mnémonique, vous pourrez ajuster la manière dont vous la notez, la stockez et la gérez au fil du temps.
 
-C’est pourquoi je vous invite à suivre la formation gratuite CYP201 proposée sur Plan ₿ Network. Cette formation explique en détail tous les rouages des portefeuilles Bitcoin, ce qui vous permet de maîtriser les aspects techniques essentiels pour sécuriser efficacement vos fonds :
+C’est pourquoi je vous invite à suivre la formation gratuite CYP201 proposée sur Plan ₿ Academy. Cette formation explique en détail tous les rouages des portefeuilles Bitcoin, ce qui vous permet de maîtriser les aspects techniques essentiels pour sécuriser efficacement vos fonds :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !

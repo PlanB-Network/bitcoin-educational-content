@@ -1,0 +1,9 @@
+question: ¿Bajo qué licencia se distribuye umbrelOS?
+answer: PolyForm no comercial 1.0
+wrong_answers:
+  - MIT
+  - GPLv3
+  - Apache 2.0
+explanation: |
+  umbrelOS se publica bajo la licencia PolyForm Noncommercial 1.0, que permite el uso personal pero prohíbe el uso comercial.
+reviewed: true

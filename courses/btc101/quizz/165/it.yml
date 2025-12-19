@@ -1,13 +1,13 @@
-question: Come mantiene il protocollo Bitcoin un tempo medio costante tra la creazione di due blocchi?
-answer: La difficoltà nel trovare un hash valido si aggiusta ogni 2016 blocchi.
+question: Qual è la principale differenza tra l'economia keynesiana e l'economia austriaca riguardo al sistema monetario?
+answer: L'economia keynesiana non prende in considerazione gli aspetti temporali e dinamici delle situazioni e delle risorse.
 wrong_answers:
-  - Il numero di miner è regolato a un numero fisso.
-  - La dimensione dei blocchi è aggiustata a 10 megabyte.
-  - La ricompensa per aver trovato un hash valido è aumentata.
-explanation: |
-  Il protocollo Bitcoin assicura che il tempo medio tra
-  due blocchi rimanga costante aggiustando la difficoltà di
-  trovare un hash valido ogni 2016 blocchi. Questo evento avviene
-  indipendentemente dal numero di miner e dalla loro potenza
-  di calcolo.
+  - L'economia keynesiana promuove il consumo eccessivo di valute.
+  - L'economia keynesiana riconosce la scarsità di situazioni e risorse.
+  - L'economia keynesiana incoraggia l'inflazione.
+explanation: >-
+  La principale differenza tra le idee dell'economia keynesiana e dell'economia
+  austriaca in relazione al sistema monetario è che l'economia keynesiana non
+  prende in considerazione gli aspetti temporali e dinamici delle situazioni e delle risorse.
+  In altre parole, una valuta illimitata non può riflettere efficacemente le risorse limitate
+  del nostro pianeta.
 reviewed: true

@@ -1,11 +1,9 @@
-question: Jaké jsou náklady na provoz Bitcoinového uzlu na Raspberry Pi 4 z hlediska spotřeby elektřiny za rok (k roku 2023)?
-answer: Trochu méně než 10€ za rok.
+question: Jaký byl výsledek války o bloky v roce 2017?
+answer: Uživatelé a uzly odmítli navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit.
 wrong_answers:
-  - Trochu více než 50€ za rok.
-  - Trochu méně než 100€ za rok.
-  - Přibližně 200€ za rok.
-explanation: |
-  Provoz Bitcoinového uzlu na Raspberry Pi 4 stojí trochu
-  méně než 10€ za rok z hlediska spotřeby elektřiny
-  k roku 2023.
+  - Uživatelé a uzly přijali navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit.
+  - Uživatelé a uzly odmítli navrhovanou změnu zvětšení velikosti bloku a neaktivovali žádné aktualizace.
+  - Uživatelé a uzly přijali navrhovanou změnu zvětšení velikosti bloku a neaktivovali žádné aktualizace.
+explanation: >-
+  Během války o bloky v roce 2017 uživatelé a uzly zvítězili tím, že odmítli navrhovanou změnu zvětšení velikosti bloku a aktivovali aktualizaci nazvanou SegWit.
 reviewed: true

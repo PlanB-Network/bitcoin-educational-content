@@ -1,0 +1,9 @@
+question: Apa konsekuensi utama ketika permintaan pull request Bitcoin Core membutuhkan waktu yang sangat lama sebelum digabungkan ke repositori oleh pengelola?
+answer: Hal ini mengindikasikan kurangnya jumlah peninjau yang tersedia untuk mengevaluasi perubahan kode yang diusulkan
+wrong_answers:
+  - "Hal ini menunjukkan bahwa pengelola sengaja memperlambat proses pengembangan Bitcoin"
+  - "Hal ini menunjukkan bahwa perubahan yang diusulkan pada dasarnya tidak sesuai dengan aturan konsensus Bitcoin"
+  - "Hal ini menunjukkan bahwa platform GitHub memiliki keterbatasan teknis untuk menangani basis kode Bitcoin"
+explanation: |
+  Menurut isi bab ini, pull request membutuhkan waktu lama untuk digabungkan terutama karena kurangnya tinjauan, yang berasal dari peninjau yang tidak mencukupi daripada halangan dari pengelola atau masalah teknis. Proses peninjauan sangat penting untuk keamanan Bitcoin, karena memastikan kualitas kode dan mencegah perubahan berbahaya. Hambatan ini terjadi karena peninjauan kode kriptografi yang kompleks membutuhkan keahlian dan waktu, membuat peninjau yang memenuhi syarat menjadi sumber daya yang langka dalam proses pengembangan.
+reviewed: false

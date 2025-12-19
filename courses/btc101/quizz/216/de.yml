@@ -1,12 +1,9 @@
-question: Was ist der Status von Bitcoin in El Salvador?
-answer: Gesetzliches Zahlungsmittel.
+question: Welches Risiko geht ein Lightning-Knoten ein, der einen alten Kanalzustand veröffentlicht?
+answer: Eine Strafe
 wrong_answers:
-  - Kriminalisiert.
-  - Unbekannt.
-  - Unreguliert.
+  - Eine Verwarnung
+  - Zusätzliche Mining-Gebühren
+  - Eine vorübergehende Sperre
 explanation: |
-  Der Kursinhalt erwähnt, dass einige Länder die Verwendung von Bitcoin verboten
-  und kriminalisiert haben, was die Komplexität der Bitcoin-Adoption basierend auf Kulturen, Epochen und
-  Nationen erhöht. El Salvador war jedoch mutig genug, es
-  als gesetzliches Zahlungsmittel zu adoptieren.
-reviewed: true
+  Das Protokoll sieht eine abschreckende Strafe vor, die es der anderen Partei ermöglicht, sämtliche Mittel zurückzuerlangen.
+reviewed: false

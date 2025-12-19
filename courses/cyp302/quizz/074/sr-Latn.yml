@@ -6,4 +6,4 @@ wrong_answers:
   - Reč postaje ZHA
 explanation: |
   Sa ključem 7, svako slovo reči CAT pomera se za 7 pozicija u abecedi, što proizvodi šifrovanu reč JHA.
-reviewed: false
+reviewed: true

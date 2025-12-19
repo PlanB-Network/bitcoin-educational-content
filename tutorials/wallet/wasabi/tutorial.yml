@@ -4,6 +4,8 @@ level: advanced
 
 category: desktop
 
+professor_id: 2e1b5182-567e-453a-af29-36009340ff02
+
 project_id: 41814f1c-858b-4d96-9d7a-2ea5e5cd0ecf
 original_language: en
 proofreading:
@@ -99,10 +101,11 @@ proofreading:
     contributor_names:
     reward: 0.28
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 0.28
+      - Tinnah924
+    reward: 0.14
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -123,7 +126,28 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.28
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.32
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.32
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.37
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.28
 tags:
+  - hardware-wallet-ready
   - privacy
   - wallets
   - guides

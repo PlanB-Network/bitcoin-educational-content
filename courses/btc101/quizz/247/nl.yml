@@ -1,8 +1,11 @@
-question: Wat is een van de belangrijkste vragen over de toekomst van financiën?
-answer: Wie moet het geld dat we gebruiken bewaren, autoriseren en traceren?
+question: Wat is een praktische manier om Bitcoins te verkrijgen?
+answer: Ze kopen via gereguleerde of niet-gereguleerde platforms.
 wrong_answers:
-  - Hoe kunnen we geld helemaal uitbannen?
-  - Hoe kunnen we ervoor zorgen dat iedereen evenveel geld heeft?
-  - Hoe kunnen we geld overbodig maken?
-explanation: >-
+  - Mining ze met een laptop.
+  - Ze vinden in de fysieke wereld.
+  - Maak ze met speciale software.
+explanation: |
+  De tekst vermeldt dat gebruikers Bitcoins kunnen verkrijgen door
+  door ze te accepteren voor handel of door ze te kopen via
+  gereguleerde of niet-gereguleerde platforms.
 reviewed: true

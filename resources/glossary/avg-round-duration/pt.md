@@ -8,7 +8,7 @@ A duração média da ronda é um indicador utilizado para estimar o tempo que d
 200 * 4 = 800
 ```
 
-Assumindo que, em média, são necessários 1 milhão de acções para encontrar um bloco válido, a *Duração média da ronda* da pool seria de 1250 segundos ou cerca de 21 minutos. Round Duration* do pool seria de 1.250 segundos, ou cerca de 21 minutos:
+Assumindo que, em média, são necessários 1 milhão de acções para encontrar um bloco válido, a **Duração média da ronda** da pool seria de 1250 segundos ou cerca de 21 minutos. **Round Duration** do pool seria de 1.250 segundos, ou cerca de 21 minutos:
 
 ```text
 1,000,000 / 800 = 1,250

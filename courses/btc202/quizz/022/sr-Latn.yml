@@ -1,0 +1,9 @@
+question: Prema teoriji perkolacije, šta osigurava prekoračenje kritičnog praga?
+answer: Propagacija transakcije kroz mrežu
+wrong_answers:
+  - Trenutno kreiranje novog bloka
+  - Automatsko suzbijanje troškova pomoću čvorova
+  - Blokiranje transakcije od strane mreže
+explanation: |
+  Jednom kada je prag perkolacije premašen, transakcija se širi gotovo trenutno kroz Bitcoin mrežu.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Which Cargo command performs compilation checks without generating an executable file?
+answer: cargo check
+wrong_answers:
+  - cargo build
+  - cargo run
+  - cargo test
+explanation: |
+  The 'cargo check' command performs all compilation checks and verifies that your code compiles correctly without actually generating the final executable file. This makes it significantly faster than a full build when you simply want to verify code correctness. In contrast, 'cargo build' compiles and generates executable files, 'cargo run' both builds and executes the program, and 'cargo test' compiles and runs tests.

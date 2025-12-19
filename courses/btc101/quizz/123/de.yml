@@ -1,11 +1,11 @@
-question: Was ist die Blocknummer der ersten Bitcoin-Transaktion?
-answer: Block 170.
+question: Warum ist die Anzahl der Bestätigungen bei einer Bitcoin-Transaktion wichtig?
+answer: Je mehr Bestätigungen eine Transaktion hat, desto unveränderlicher wird sie.
 wrong_answers:
-  - Block 1.
-  - Block 17.
-  - Block 1700.
-explanation: |
-  Die erste Bitcoin-Transaktion, bei der es sich um eine Transaktion von
-  10 BTC zwischen Satoshi Nakamoto und Hal Finney handelte, ist in
-  Block 170 aufgezeichnet.
+  - Je mehr Bestätigungen eine Transaktion hat, desto wertvoller wird sie.
+  - Je mehr Bestätigungen eine Transaktion hat, desto schneller wird sie verarbeitet.
+  - Je mehr Bestätigungen eine Transaktion hat, desto weniger sicher ist sie.
+explanation: >-
+  Die Anzahl der Bestätigungen bei einer Bitcoin-Transaktion zeigt an, wie viele
+  Blöcke auf den Block, der die Transaktion enthält, abgebaut wurden. Je mehr
+  Bestätigungen eine Transaktion hat, desto unveränderlicher wird sie.
 reviewed: true

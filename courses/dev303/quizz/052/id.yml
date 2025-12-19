@@ -1,0 +1,8 @@
+question: Apa perbedaan utama antara bagaimana pelanggaran peminjaman ditangani dengan referensi Rust biasa dan RefCell?
+answer: Referensi biasa menyebabkan kesalahan waktu kompilasi sementara RefCell menyebabkan kepanikan waktu proses
+wrong_answers:
+  - Referensi biasa menyebabkan kepanikan saat runtime sementara RefCell menyebabkan kesalahan waktu kompilasi
+  - Referensi reguler memungkinkan beberapa peminjaman yang dapat diubah sementara RefCell memberlakukan akses tunggal yang dapat diubah
+  - Referensi biasa memerlukan anotasi seumur hidup secara eksplisit sementara RefCell menggunakan pembersihan otomatis
+explanation: |
+  RefCell memindahkan penegakan aturan peminjaman Rust dari waktu kompilasi ke waktu proses. Sementara kompiler secara statis menganalisis referensi reguler dan mencegah pelanggaran peminjaman sebelum program dijalankan, RefCell melakukan pemeriksaan keamanan yang sama selama eksekusi program. Hal ini memungkinkan RefCell untuk mem-bypass batasan konservatif kompiler dalam kasus-kasus di mana programmer tahu bahwa kode tersebut aman, tetapi pelanggaran mengakibatkan kepanikan saat runtime, bukan kegagalan kompilasi.

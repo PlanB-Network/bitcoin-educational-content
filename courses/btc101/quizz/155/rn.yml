@@ -1,8 +1,12 @@
-question: None Coinbase Transaction ni iki?
-answer: Igikorwa ca mbere c’ibarabara kirimwo impembo ya Miner.
+question: Ni uruhara uruhe abacukuzi bafise mu masezerano ya Bitcoin?
+answer: Bacungera uruja n’uruza rw’ubu n’urw’amateka.
 wrong_answers:
-  - Ibikorwa vy’ugucuruza vyakozwe ku rubuga rwa Exchange Coinbase.
-  - Igikorwa kigira kabiri c’ibarabara kirimwo amafaranga menshi cane.
-  - Ibikorwa vy’ubudandaji bikorwa na Miner amaze kwakira impembo.
-explanation: >-
+  - Ni bo batunganya igiciro ca Bitcoin.
+  - Ni bo bagenzura Supply ya Bitcoin.
+  - Bacungera amafaranga hagati y’abakoresha.
+explanation: |
+  Abacukuzi bo mu masezerano ya Bitcoin baracungera ubu be n’ubu
+  urusobe rw’amateka. Ntibatunganya igiciro c’
+  Bitcoin, igenzura Supply yayo, canke ngo igenzure amafaranga
+  hagati y’abakoresha.
 reviewed: true

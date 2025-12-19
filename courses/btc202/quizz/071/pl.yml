@@ -1,0 +1,9 @@
+question: Które pliki są najpierw sprawdzane przez węzeł w celu znalezienia starych urządzeń równorzędnych po ponownym uruchomieniu?
+answer: anchors.dat i peers.dat
+wrong_answers:
+  - Mempool.dat i peers.dat
+  - Mempool.dat i ip.dat
+  - ip.dat i anchors.dat
+explanation: |
+  Bitcoin core najpierw sprawdza anchors.dat (poprzednie wychodzące urządzenia równorzędne), a następnie peers.dat (znana książka Address), aby ponownie nawiązać połączenie.
+reviewed: true

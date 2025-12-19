@@ -1,0 +1,9 @@
+question: RGB 호환 라이트닝 노드를 실행하는 데 필요한 주요 구성 요소는 무엇인가요?
+answer: bitcoind, 인덱서 및 RGB 프록시 서버
+wrong_answers:
+  - Lightning 노드, 인덱서 및 IPFS 서버
+  - 모바일 RGB, Wallet 프록시 서버, bitcoind
+  - 웹 클라이언트, 인덱서 및 RGB 프록시 서버
+explanation: |
+  RGB 지원 라이트닝 노드를 실행하려면 Bitcoin Blockchain과 상호작용할 bitcoind 노드, On-Chain 트랜잭션을 채굴할 인덱서, 피어 간의 Exchange 위탁을 용이하게 하는 RGB 프록시 서버가 필요합니다.
+reviewed: false

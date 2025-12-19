@@ -1,0 +1,9 @@
+question: Mbega ugutera imbere kw’imibumbe ni co kivamwo?
+answer: Ukwongerekana kw’amahera Supply.
+wrong_answers:
+  - Ibiciro vyiyongereye
+  - Politike y’ivy’ubutunzi.
+  - Ingingo zirwanya uburenganzira.
+explanation: |
+  Inyungu y’ibiciro ni ingaruka y’ukwiyongera kw’amahera Supply. Iyo amafaranga ari mu nzira yiyongera cane kuruta uko ibintu n’ibikorwa bikoreshwa, ivyo bituma ibiciro muri rusangi vyiyongera.
+reviewed: false

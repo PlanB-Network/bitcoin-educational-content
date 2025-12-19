@@ -2,15 +2,15 @@
 term: ANONSETS (ANONYMITY SETS)
 ---
 
-Anonsets serve as indicators to assess the privacy level of a particular UTXO. More specifically, they measure the number of indistinguishable UTXOs within the set that includes the coin under study. Since a group of identical UTXOs is required, anonsets are generally calculated within a cycle of coinjoins. They allow, where appropriate, to judge the quality of the coinjoins. A large anonset means an increased level of anonymity, as it becomes difficult to distinguish a specific UTXO within the set. There are two types of anonsets:
-* The prospective anonymity set;
-* The retrospective anonymity set.
+Anonsets are indicators used to assess the privacy level of a specific UTXO. More precisely, they measure how many indistinguishable UTXOs exist within the set that includes the coin under study. Since a group of identical UTXOs is required, anonsets are generally calculated within a coinjoins round. They are helpful in evaluating the quality of a CoinJoin, with larger anonymity sets indicating greater anonymity, making it harder to trace or isolate a specific UTXO within the group. There are two types of anonsets:
+**Forward Anonset**
+**Backward Anonset**
 
-The first indicates the size of the group among which the studied UTXO is hidden, knowing the UTXO at input. This indicator allows measuring the resistance of the coin's privacy against an analysis from past to present (input to output). In English, the name of this indicator is “*forward anonset*,” or “*forward-looking metrics*.”
+The first indicates the size of the group among which the analyzed output UTXO is hidden, given the input UTXO. It evaluates the coin's privacy against analysis that moves from past to present (input → output). In English, the name of this indicator is “*forward anonset*,” or “*forward-looking metrics*.”
 
 ![](../../dictionnaire/assets/39.webp)
 
-The second indicates the number of possible sources for a given coin, knowing the UTXO at output. This indicator allows measuring the resistance of the coin's privacy against an analysis from present to past (output to input). In English, the name of this indicator is “*backward anonset*,” or “*backward-looking metrics*.”
+The second indicates the number of possible sources for a given coin, given the output UTXO. It assesses privacy against analysis that moves from present to past (output → input). In English, the name of this indicator is “*backward anonset*,” or “*backward-looking metrics*.”
 
 ![](../../dictionnaire/assets/40.webp)
 

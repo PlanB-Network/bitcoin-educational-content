@@ -17,10 +17,10 @@ Arch Linux to dystrybucja znana ze swojej solidności, wydajności i możliwośc
 
 
 
-- Wolne i otwarte oprogramowanie**: Podobnie jak większość dystrybucji Linuksa, Arch Linux jest całkowicie darmowy. Nie ma żadnych opłat licencyjnych, co czyni go doskonałym wyborem dla studentów, freelancerów lub entuzjastów.
-- Filozofia KISS**: Arch został zaprojektowany tak, aby był prosty, lekki i wydajny. Zapewnia tylko to, co niezbędne, umożliwiając budowanie środowiska à la carte.
-- Menedżer pakietów Pacman**: Pacman to szybki, niezawodny i dobrze zaprojektowany menedżer pakietów. Umożliwia wydajną instalację i aktualizację oprogramowania oraz precyzyjnie zarządza zależnościami.
-- Kompleksowa dokumentacja i aktywna społeczność**: [Arch Wiki](https://wiki.archlinux.org) jest prawdopodobnie jedną z najlepszych dokumentacji technicznych w świecie Linuksa. To kopalnia złota dla zrozumienia tego, co robisz. Społeczność, składająca się głównie z doświadczonych profili, jest bardzo aktywna i może ci pomóc, jeśli utkniesz, pod warunkiem, że wcześniej zrobiłeś trochę badań.
+- **Wolne i otwarte oprogramowanie**: Podobnie jak większość dystrybucji Linuksa, Arch Linux jest całkowicie darmowy. Nie ma żadnych opłat licencyjnych, co czyni go doskonałym wyborem dla studentów, freelancerów lub entuzjastów.
+- **Filozofia KISS**: Arch został zaprojektowany tak, aby był prosty, lekki i wydajny. Zapewnia tylko to, co niezbędne, umożliwiając budowanie środowiska à la carte.
+- **Menedżer pakietów Pacman**: Pacman to szybki, niezawodny i dobrze zaprojektowany menedżer pakietów. Umożliwia wydajną instalację i aktualizację oprogramowania oraz precyzyjnie zarządza zależnościami.
+- **Kompleksowa dokumentacja i aktywna społeczność**: [Arch Wiki](https://wiki.archlinux.org) jest prawdopodobnie jedną z najlepszych dokumentacji technicznych w świecie Linuksa. To kopalnia złota dla zrozumienia tego, co robisz. Społeczność, składająca się głównie z doświadczonych profili, jest bardzo aktywna i może ci pomóc, jeśli utkniesz, pod warunkiem, że wcześniej zrobiłeś trochę badań.
 
 
 
@@ -39,7 +39,7 @@ Wymagane materiały:
 
 
 - Klucz USB o pojemności co najmniej **8 GB**
-- minimum 2 GB** pamięci RAM
+- minimum 2 GB **pamięci RAM**
 - Komputer z co najmniej 20 GB wolnego miejsca na dysku
 
 
@@ -58,7 +58,7 @@ Od 2017 roku Arch Linux nie obsługuje już architektur 32-bitowych. Dostępne s
 
 
 
-- Odwiedź [oficjalną stronę internetową] (https://mir.archlinux.fr/iso/latest/), aby pobrać najnowszą oficjalną wersję obrazu ISO.
+- Odwiedź [oficjalną stronę internetową](https://mir.archlinux.fr/iso/latest/), aby pobrać najnowszą oficjalną wersję obrazu ISO.
 
 
 
@@ -72,7 +72,7 @@ Aby utworzyć bootowalną pamięć flash USB, można użyć narzędzia takiego j
 
 
 
-- Pobierz Balena Etcher z [oficjalnej strony internetowej] (https://etcher.balena.io).
+- Pobierz Balena Etcher z [oficjalnej strony internetowej](https://etcher.balena.io).
 - Uruchom oprogramowanie i wybierz obraz ISO systemu Arch Linux.
 - Wybierz klucz USB jako urządzenie docelowe.
 - Kliknij **Flash**, aby rozpocząć tworzenie klucza rozruchowego.
@@ -261,7 +261,7 @@ Wybierz **GPT** jeśli jesteś w UEFI, **DOS** jeśli jesteś w BIOS.
 
 
 
-- W trybie UEFI**
+- W trybie **UEFI**
 
 
 
@@ -294,7 +294,7 @@ Wybierz **Write**, wpisz **yes**, a następnie **Quit**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -778,6 +778,6 @@ Jeśli podobało ci się rozpoczęcie pracy z Arch Linux, pokochasz nasz samoucz
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

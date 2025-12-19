@@ -1,5 +1,5 @@
 ---
-name: टैपसिग्नर
+name: Tapsigner
 description: नंचुक के साथ टैपसाइनर सेट करना और उपयोग करना
 ---
 ![cover](assets/cover.webp)

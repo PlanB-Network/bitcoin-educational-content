@@ -1,0 +1,10 @@
+question: Apa peran penambang dalam jaringan Bitcoin?
+answer: Penambang sangat penting untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin.
+wrong_answers:
+  - Penambang bertanggung jawab untuk mengatur harga Bitcoin.
+  - Penambang bertanggung jawab untuk membuat dompet Bitcoin.
+  - Penambang bertanggung jawab untuk mengontrol protokol Bitcoin.
+explanation: >-
+  Penambang memainkan peran krusial dalam jaringan Bitcoin karena mereka bertanggung jawab
+  untuk menciptakan bitcoin baru dan mengamankan jaringan Bitcoin dengan mengkonsumsi listrik untuk hashing sebuah blok transaksi.
+reviewed: true

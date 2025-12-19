@@ -1,0 +1,8 @@
+question: Koja je najznačajnija prednost korišćenja tipova Result i Option u odnosu na panic za rukovanje greškama u produkcijskom Rust kodu?
+answer: Oni primoravaju eksplicitno priznavanje potencijalnih neuspeha i omogućavaju graciozan oporavak od grešaka.
+wrong_answers:
+  - Oni pružaju bolje performanse izbegavanjem razmotavanja steka tokom grešaka
+  - Automatski konvertuju sve tipove grešaka u string poruke radi lakšeg otklanjanja grešaka.
+  - Oni eliminišu potrebu za propagacijom grešaka tako što obrađuju greške na mestu gde dođe do greške.
+explanation: |
+  Rezultat i opcioni tipovi čine rukovanje greškama eksplicitnim i oporavljivim tako što primoravaju programere da priznaju da operacije mogu da ne uspeju i pružaju mehanizme za graciozno rukovanje tim neuspesima. Za razliku od panike, koja odmah prekida izvršenje, ovi tipovi omogućavaju programima da nastave sa radom i odgovaraju na odgovarajući način na greške. Pogrešni odgovori pogrešno predstavljaju njihove sposobnosti: performanse nisu njihova primarna prednost, oni automatski ne konvertuju greške u stringove (to je osobina anyhow biblioteke), i zapravo olakšavaju, a ne eliminišu, propagaciju grešaka kroz operatore kao što je ?.

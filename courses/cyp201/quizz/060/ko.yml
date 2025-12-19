@@ -1,0 +1,9 @@
+question: Zpub 접두사에는 어떤 유형의 키가 연결되나요?
+answer: SegWit V0의 Mainnet에 대한 확장 공개 키
+wrong_answers:
+  - Mainnet의 SegWit V1용 확장 개인 키
+  - Testnet의 레거시용 확장 공개 키
+  - Testnet에서 SegWit V2를 위한 확장 공개 키
+explanation: |
+  Zpub 접두사는 Mainnet에서 SegWit V0 스크립트를 위한 확장 공개 키를 나타냅니다.
+reviewed: false

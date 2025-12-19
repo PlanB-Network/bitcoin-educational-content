@@ -1,0 +1,9 @@
+question: کدام پایگاه داده در blocks/index/ برای ذخیره‌سازی متادیتای بلاک استفاده می‌شود؟
+answer: لِوِل‌دی‌بی
+wrong_answers:
+  - اس‌کیو‌الایت
+  - RocksDB
+  - برکلی DB
+explanation: |
+  ‏Bitcoin core از LevelDB در مسیر blocks/index/ برای ایندکس‌گذاری بلاک‌ها استفاده می‌کند و جستجو و خدمات‌دهی به همتایان را تسریع می‌بخشد.
+reviewed: true

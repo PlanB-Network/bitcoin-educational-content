@@ -1,0 +1,9 @@
+question: Warum nimmt der Umfang des UTXO-Satzes mit der Zeit strukturell zu?
+answer: Mit jeder Zahlung werden im Allgemeinen zwei neue UTXOs geschaffen
+wrong_answers:
+  - Konventionelle Zahlungen verbrauchen keine UTXO an Input
+  - Jeder Fork vervielfacht die Anzahl der vorhandenen UTXOs
+  - Die Anzahl der Bitcoins, die erzeugt werden können, ist unbegrenzt
+explanation: |
+  Eine Zahlungstransaktion verbraucht einen UTXO und erzeugt oft zwei neue (Zahlung + Exchange), was die Gesamtgröße des Satzes aufbläht.
+reviewed: true

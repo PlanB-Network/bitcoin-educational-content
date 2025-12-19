@@ -1,11 +1,13 @@
-question: Bitcoin'lerinizi Exchange platformlarında bırakmaktan kaçınmanız neden tavsiye edilir?
-answer: Hacker saldırılarına karşı hassas olabilirler.
+question: Herkesin aynı Bitcoin Wallet'i kullanmasını engelleyen nedir?
+answer: Farklı bireylerin farklı kullanım durumlarına ihtiyacı vardır.
 wrong_answers:
-  - Exchange platformları rastgele ücretler almaktadır.
-  - Bitcoin, Exchange platformlarında değer kaybeder.
-  - Exchange platformları düzenlenmiş bir kurum değildir.
+  - Bitcoin Wallet kullanmak pahalıdır.
+  - Bitcoin Wallet kullanmak yasa dışıdır.
+  - İnsanlar böyle bir Wallet'nın adı üzerinde asla anlaşamayacaklar.
 explanation: |
-  Bitcoin'lerinizi Exchange üzerinde bırakmaktan kaçınmanız tavsiye edilir
-  platformlar çünkü bilgisayar korsanlarına karşı hassas olabilirler
-  saldırılar.
+  Bir kişi güvenliğe öncelik verirken, bir başkası
+  kullanıcı dostluğuna veya belirli özelliklere değer verir. Dolayısıyla, bir
+  tek Bitcoin Wallet herkesin zevkine hitap etmeyebilir
+  gereksinimleri, birden fazla Wallet için gerekli hale getirir
+  seçeneklerinin mevcut olması.
 reviewed: true

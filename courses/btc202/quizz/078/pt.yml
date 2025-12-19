@@ -1,0 +1,9 @@
+question: Qual é a finalidade dos ficheiros revNNNNN.dat armazenados juntamente com blkNNNNN.dat?
+answer: Restaurar o conjunto UTXO durante a reorganização
+wrong_answers:
+  - Restaurar o UTXO definido durante um Hard Fork
+  - Restaurar o Mempool durante o Hard Fork
+  - Restaurar o Mempool durante uma reorganização
+explanation: |
+  Cada revNNNNNN.dat contém os dados necessários para anular os efeitos de um bloco no conjunto UTXO, facilitando a gestão das reorganizações.
+reviewed: true

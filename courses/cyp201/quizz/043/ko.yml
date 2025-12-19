@@ -1,0 +1,9 @@
+question: 24단어 Mnemonic 구문에는 몇 비트의 엔트로피가 사용되나요?
+answer: 256비트
+wrong_answers:
+  - 128비트
+  - 512비트
+  - 64비트
+explanation: |
+  24단어 Mnemonic 구문은 256비트 엔트로피를 기반으로 하여 매우 높은 보안을 보장합니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal característica de un Full node?
+answer: Descarga y valida toda la Blockchain
+wrong_answers:
+  - Conserva sólo las cabeceras de bloque
+  - Elimina los bloques antiguos tras la verificación
+  - Depende de otro nodo para validar las transacciones
+explanation: |
+  La Full node conserva toda la Blockchain y valida cada bloque y transacción de forma independiente.
+reviewed: true

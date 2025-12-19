@@ -20,7 +20,7 @@ _Bu eğitim yalnızca eğitim ve bilgilendirme amaçlıdır. Bu araçların suç
 
 Önceki bir eğitimde, RoninDojo v1'i kurma ve kullanma prosedürünü zaten açıklamıştık. Ancak, geçen yıl RoninDojo ekipleri, yazılımın mimarisinde önemli bir dönüm noktası olan uygulamalarının 2. sürümünü yayınladılar. Gerçekten de, Debian lehine Linux Manjaro dağıtımından uzaklaştılar. Sonuç olarak, artık Raspberry Pi'ye otomatik kurulum için önceden yapılandırılmış bir görüntü sunmuyorlar. Ancak manuel kurulumla devam etmek için hala bir yöntem var. Ben kendi node'um için bu yöntemi kullandım ve o zamandan beri RoninDojo v2 Raspberry Pi 4'ümde harika bir şekilde çalışıyor. Bu nedenle, RoninDojo v2'nin Raspberry Pi'ye manuel olarak nasıl kurulacağına dair yeni bir eğitim sunuyorum.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 ## İçindekiler:
 
@@ -37,7 +37,7 @@ https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Dojo başlangıçta Bitcoin'e dayanan ve Samourai Bitcoin core ekipleri tarafından geliştirilen tam bir Wallet düğüm uygulamasıdır. Bu çözüm herhangi bir ekipmana kurulabilir. Diğer Çekirdek uygulamalarının aksine Dojo, Samourai Wallet'nın Android uygulama ortamıyla entegre olacak şekilde özel olarak optimize edilmiştir. RoninDojo ise bir Dojo'nun ve diğer çeşitli tamamlayıcı araçların kurulumunu ve yönetimini kolaylaştırmak için tasarlanmış bir yardımcı programdır. Kısacası RoninDojo, kurulumunu ve yönetimini basitleştirirken çok sayıda ek aracı entegre ederek Dojo'nun temel uygulamasını zenginleştirir.
 
 
-Ronin ayrıca "*Tanto*" olarak adlandırılan [kutu içinde düğüm çözümü] (https://ronindojo.io/en/products), RoninDojo'nun kendi ekipleri tarafından bir araya getirilmiş bir sisteme zaten yüklenmiş olduğu bir cihaz sunmaktadır. Tanto ücretli bir seçenektir ve teknik komplikasyonlardan kaçınmayı tercih edenler için ilginç olabilir. Ancak RoninDojo'nun kaynak kodu açık olduğundan, kendi donanımınıza yerleştirmek de mümkündür. Daha ekonomik olan bu alternatif, yine de bu eğitimde ele alacağımız bazı ek manipülasyonlar gerektirir.
+Ronin ayrıca "*Tanto*" olarak adlandırılan [kutu içinde düğüm çözümü](https://ronindojo.io/en/products), RoninDojo'nun kendi ekipleri tarafından bir araya getirilmiş bir sisteme zaten yüklenmiş olduğu bir cihaz sunmaktadır. Tanto ücretli bir seçenektir ve teknik komplikasyonlardan kaçınmayı tercih edenler için ilginç olabilir. Ancak RoninDojo'nun kaynak kodu açık olduğundan, kendi donanımınıza yerleştirmek de mümkündür. Daha ekonomik olan bu alternatif, yine de bu eğitimde ele alacağımız bazı ek manipülasyonlar gerektirir.
 
 RoninDojo bir Dojo'dur, bu nedenle mümkün olan en iyi CoinJoin deneyimini sağlamak için Whirlpool CLI'un Bitcoin düğümünüze kolayca entegre edilmesini sağlar. Whirlpool CLI ile, kişisel bilgisayarınızın açık kalmasına gerek kalmadan, haftanın 7 günü, günün 24 saati bitcoinlerinizi sürekli olarak yeniden karıştırmak mümkün hale gelir.
 
@@ -56,7 +56,7 @@ Umbrel tarafından sunulan genel işlevlere veya Lightning Network ile ilgili i�
 
 ## RoninDojo v2'yi yüklemek için hangi donanımı seçmeliyim?
 
-RoninDojo, yazılımının [RockPro64] (https://ronindojo.io/en/download) üzerine otomatik kurulumu için bir görüntü sunmaktadır. Ancak, bizim eğitimimiz Raspberry Pi 4'e manuel kurulum prosedürüne odaklanmaktadır. Raspberry Pi 5 yakın zamanda piyasaya sürülmüş olmasına ve bu öğreticinin teorik olarak bu yeni modelle uyumlu olması gerekmesine rağmen, henüz kişisel olarak test etme şansım olmadı ve topluluktan herhangi bir geri bildirim bulamadım. Pi 5'i ve uyumlu bileşenleri edinir edinmez, sizi bilgilendirmek için bu öğreticiyi güncelleyeceğim. Bu arada, benim node'umda mükemmel çalıştığı için Pi 4'e öncelik vermenizi öneririm.
+RoninDojo, yazılımının [RockPro64](https://ronindojo.io/en/download) üzerine otomatik kurulumu için bir görüntü sunmaktadır. Ancak, bizim eğitimimiz Raspberry Pi 4'e manuel kurulum prosedürüne odaklanmaktadır. Raspberry Pi 5 yakın zamanda piyasaya sürülmüş olmasına ve bu öğreticinin teorik olarak bu yeni modelle uyumlu olması gerekmesine rağmen, henüz kişisel olarak test etme şansım olmadı ve topluluktan herhangi bir geri bildirim bulamadım. Pi 5'i ve uyumlu bileşenleri edinir edinmez, sizi bilgilendirmek için bu öğreticiyi güncelleyeceğim. Bu arada, benim node'umda mükemmel çalıştığı için Pi 4'e öncelik vermenizi öneririm.
 
 Kendi adıma, RoninDojo'yu 8 GB RAM ile donatılmış bir Raspberry Pi üzerinde çalıştırıyorum. Bazı topluluk üyeleri yalnızca 4 GB RAM'e sahip cihazlarda çalıştırmayı başarmış olsa da, bu yapılandırmayı kendim test etmedim. Aradaki küçük fiyat farkı göz önüne alındığında, 8 GB RAM versiyonunu tercih etmek akıllıca görünüyor. Bu, Raspberry Pi'nizi gelecekte başka kullanımlar için yeniden kullanmayı planlıyorsanız da yararlı olabilir.
 
@@ -333,7 +333,7 @@ RoninUI ana sayfasına girdiğinizde, kurulumu başlatmanız istenecektir. Bunu 
 ![lets start](assets/notext/25.webp)
 
 
-Bu aşamada RoninUI size `root` şifrenizi sunar. Bunu güvende tutmak çok önemlidir. Fiziksel bir yedekleme, kağıt üzerinde veya bir [şifre yöneticisi] (https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) içinde kaydetmeyi tercih edebilirsiniz.
+Bu aşamada RoninUI size `root` şifrenizi sunar. Bunu güvende tutmak çok önemlidir. Fiziksel bir yedekleme, kağıt üzerinde veya bir [şifre yöneticisi](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) içinde kaydetmeyi tercih edebilirsiniz.
 
 
 ![root password](assets/notext/26.webp)
@@ -391,7 +391,7 @@ Tebrikler! RoninDojo v2 düğümünüz artık yapılandırıldı ve kullanıma h
 **Eğer eski bir RoninDojo v1 node'undan** aynı SSD'yi koruyarak bu öğretici ile bu yeni sürüme geçiş yapıyorsanız, node'unuz diskteki mevcut verileri otomatik olarak algılamalı ve yeniden kullanmalı, böylece IBD'yi tekrar gerçekleştirme zorunluluğundan kurtulmalısınız. Bu durumda, düğümünüzün en son bloklarla yeniden senkronize olmasını beklemeniz yeterli olacaktır.
 
 
-### Adım 8: "veth* düzeltmesi"
+### Adım 8: "veth düzeltmesi"
 
 Raspberry Pi üzerindeki RoninDojo v2'nizde, sorunsuz bir kurulumdan sonra düğümünüzün aniden SSH üzerinden erişilemez hale geldiği ancak basit bir yeniden başlatmadan sonra düzeldiği bir hatayla karşılaşırsanız, bu adımı 8 izlemeniz gerekir. Bu yaygın hata, topluluk tarafından geliştirilen bir çözümle kolayca düzeltilebilir: "_veth fix_". Bu küçük düzeltme, ani bağlantı kesilmelerini kalıcı olarak giderir. İşte nasıl uygulanacağı.
 
@@ -409,7 +409,7 @@ Kişisel bilgisayarınızda yeni bir terminal açın ve aşağıdaki komutu kull
 Kullanıcı şifresini girmeniz istenecektir. Şifreyi girin ve doğrulamak için `enter` tuşuna basın. Daha sonra RoninCLI Interface'e erişeceksiniz. Klavyenizin oklarını kullanarak `Exit RoninDojo` seçeneğine gidin ve seçmek için `enter` tuşuna basın.
 
 
-Bu noktada, node'unuzun terminalindesiniz ve şuna benzer bir komut istemine sahipsiniz: `ronindojo@RoninDojo:~ $`. Veth* düzeltmesini uygulamak için aşağıdaki komutu yazın ve `enter` tuşuna basın:
+Bu noktada, node'unuzun terminalindesiniz ve şuna benzer bir komut istemine sahipsiniz: `ronindojo@RoninDojo:~ $`. **Veth** düzeltmesini uygulamak için aşağıdaki komutu yazın ve `enter` tuşuna basın:
 
 `sudo nano /etc/dhcpcd.conf`
 
@@ -484,7 +484,7 @@ Ronin Dojo'nuzu kurmadan önce zaten bir Samourai Wallet'ünüz varsa, Wallet'ü
 
 ### Kendi Mempool.space Block explorer'inizi kullanma
 
-Bir Block explorer, Bitcoin Blockchain'den gelen ham bilgileri yapılandırılmış ve kolayca okunabilir bir formata dönüştürür. Mempool.space* gibi araçlarla, işlemleri analiz etmek, belirli adresleri aramak ve hatta ağın mempool'larının ortalama ücret oranlarına gerçek zamanlı olarak danışmak mümkündür.
+Bir Block explorer, Bitcoin Blockchain'den gelen ham bilgileri yapılandırılmış ve kolayca okunabilir bir formata dönüştürür. **Mempool.space** gibi araçlarla, işlemleri analiz etmek, belirli adresleri aramak ve hatta ağın mempool'larının ortalama ücret oranlarına gerçek zamanlı olarak danışmak mümkündür.
 
 
 Bununla birlikte, çevrimiçi blok kaşiflerini kullanmak gizliliğiniz için riskler oluşturur ve üçüncü taraflarca sağlanan verilere güvenmeyi gerektirir. Gerçekten de, bu hizmetleri kendi düğümünüzden geçmeden kullanarak, işlemlerinizle ilgili bilgileri yanlışlıkla ifşa edebilirsiniz ve site sahibi tarafından sunulan bilgilerin doğruluğuna güvenmeniz gerekir.
@@ -532,7 +532,7 @@ Samourai Wallet ve RoninDojo v2 ile coinjoining sürecinde size A'dan Z'ye adım
 CoinJoin'i ve Bitcoin'da kullanımını daha iyi anlamak için sizi bu diğer makaleye de bakmaya davet ediyorum: CoinJoin'i Bitcoin üzerinde anlamak ve kullanmak, bu teknik hakkında bilmeniz gereken her şeyi detaylandırıyorum.
 
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Whirlpool İstatistik Aracını (WST) Kullanma
 
@@ -543,7 +543,7 @@ Whirlpool ile coinjoins gerçekleştirdikten sonra, karışık UTXO'larınız i�
 Bu anons setlerinin hesaplama mekanizmalarını daha iyi anlamak için makaleyi okumanızı tavsiye ederim: Bu endekslerin işleyişini detaylandıran REMIX - Whirlpool.
 
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 
@@ -746,7 +746,7 @@ Burada, her bir çıktının 0 numaralı girdiden gelme olasılığının %100 o
 Örneğin, Whirlpool tipi bir CoinJoin işlemi hiçbir deterministik bağlantı sunmaz ve bu nedenle %0'lık bir gösterge ve oran gösterir. Öte yandan, incelenen ikinci işlemimizde (bir girdi ve iki çıktı ile) gösterge 2 olarak ayarlanmış ve oran %100'e ulaşmıştır. Dolayısıyla, boş bir gösterge, girdiler ve çıktılar arasında doğrudan ve tartışılmaz bağlantıların olmaması sayesinde mükemmel gizliliğe işaret etmektedir.
 
 
-**RoninDojo'da Boltzmann Hesaplayıcısına nasıl erişilir?
+**RoninDojo'da Boltzmann Hesaplayıcısına nasıl erişilir?**
 
 Boltzmann Hesaplayıcı* aracına erişmek için RoninCLI'ye gidin. Bunu yapmak için, kişisel bilgisayarınızda bir terminal açın ve aşağıdaki komutu kullanarak düğümünüzle bir SSH bağlantısı kurun: `SSH ronindojo@[IP]`
 
@@ -807,9 +807,9 @@ Tüm işlemlerin düzgün bir şekilde listelendiğinden emin olun. Kullanılan 
 Bu aracın ötesinde, RoninUI'nin `Bakım' sekmesi diğer yararlı özelliklerle doludur:
 
 
-- İşlem Aracı*: Belirli bir işlemin detaylarının incelenmesini sağlar;
-- Address Aracı*: Belirli bir Address'nın Dojo'nuz tarafından izlenmesinin onaylanmasını sağlar;
-- Blokları Yeniden Tara*: Düğümünüzü belirli bir blok aralığında yeni bir tarama yapmaya zorlar.
+- **İşlem Aracı**: Belirli bir işlemin detaylarının incelenmesini sağlar;
+- **Address Aracı**: Belirli bir Address'nın Dojo'nuz tarafından izlenmesinin onaylanmasını sağlar;
+- **Blokları Yeniden Tara**: Düğümünüzü belirli bir blok aralığında yeni bir tarama yapmaya zorlar.
 
 
 "Push Tx" sekmesi, RoninUI'nin Bitcoin ağında imzalı bir işlemin yayınlanmasını sağlayan bir başka ilginç özelliğidir. İşlem onaltılık biçimde girilmelidir.

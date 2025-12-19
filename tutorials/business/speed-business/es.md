@@ -1,5 +1,5 @@
 ---
-name: Velocidad Wallet - PoS
+name: Speed Wallet - POS
 description: Integre fácilmente los pagos Bitcoin y stablecoin en su empresa
 ---
 ![cover](assets/cover.webp)
@@ -28,25 +28,25 @@ Speed dispone de una amplia gama de funciones para cubrir los aspectos financier
 
 
 
-- Configuración de pago en línea**: Reciba los pagos de sus clientes estén donde estén, gracias a su página web.
+- **Configuración de pago en línea**: Reciba los pagos de sus clientes estén donde estén, gracias a su página web.
 
 
 
 
 
-- Pagos in situ**: Ideal para tiendas y comercios que cobran en efectivo en la tienda.
+- **Pagos in situ**: Ideal para tiendas y comercios que cobran en efectivo en la tienda.
 
 
 
 
 
-- Retiradas**: Retira tus activos sin problemas y utiliza tus bitcoins para pagar a tus clientes y salarios.
+- **Retiradas**: Retira tus activos sin problemas y utiliza tus bitcoins para pagar a tus clientes y salarios.
 
 
 
 
 
-- Conexión con otras plataformas**: ¿Utiliza herramientas externas para gestionar sus pagos? Speed le ofrece la posibilidad de conectarlas a su plataforma, para un ecosistema todo en uno que refleje su negocio.
+- **Conexión con otras plataformas**: ¿Utiliza herramientas externas para gestionar sus pagos? Speed le ofrece la posibilidad de conectarlas a su plataforma, para un ecosistema todo en uno que refleje su negocio.
 
 
 
@@ -94,13 +94,13 @@ Cuando desactive el modo de prueba, deberá configurar su cartera de retirada.
 
 
 
-Si aún no tienes una Bitcoin y/o una Lightning Wallet, te recomendamos que eches un vistazo a nuestros tutoriales sobre [monederos móviles](https://planb.network/tutorials/wallet).
+Si aún no tienes una Bitcoin y/o una Lightning Wallet, te recomendamos que eches un vistazo a nuestros tutoriales sobre [monederos móviles](https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **IMPORTANTE**: Cuando configure su cartera, elija el tipo **BTC (On-Chain)** cuando reciba grandes cantidades, del orden de miles de euros, para garantizar una confirmación fiable en Bitcoin, y el tipo **LN Address** cuando desee recibir micropagos instantáneos en su negocio.
 
@@ -265,13 +265,13 @@ En el menú **Enviar pagos**, encontrará todas las opciones de transferencia de
 
 
 
-- Pagos instantáneos**: Con la opción de envío instantáneo, envíe bitcoins de forma segura al instante desde su cuenta de comerciante.
+- **Pagos instantáneos**: Con la opción de envío instantáneo, envíe bitcoins de forma segura al instante desde su cuenta de comerciante.
 
 
 
 
 
-- generate enlaces de retirada** para permitir a sus socios y proveedores acceder a su pago en una fecha posterior sin necesidad de su presencia en línea.
+- generate **enlaces de retirada** para permitir a sus socios y proveedores acceder a su pago en una fecha posterior sin necesidad de su presencia en línea.
 
 
 
@@ -289,7 +289,7 @@ En la opción **Enlaces de retirada**, cree un nuevo enlace de retirada y, a con
 
 
 
-- Pagos**: En el menú Pagos, inicie retiros de su saldo de Speed Business a su Wallet personal.
+- **Pagos**: En el menú Pagos, inicie retiros de su saldo de Speed Business a su Wallet personal.
 
 
 
@@ -299,7 +299,7 @@ En la opción **Enlaces de retirada**, cree un nuevo enlace de retirada y, a con
 
 
 
-- Descuentos**: Incentive a sus clientes habituales estableciendo opciones de reembolso para obtener bonificaciones.
+- **Descuentos**: Incentive a sus clientes habituales estableciendo opciones de reembolso para obtener bonificaciones.
 
 
 
@@ -435,5 +435,4 @@ Ya tiene un buen conocimiento de Speed, integre Bitcoin en su negocio y desarrol
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
-
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

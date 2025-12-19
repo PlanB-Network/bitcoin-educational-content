@@ -1,11 +1,11 @@
-question: Mining ödülünün yarıya indirildiği etkinliğin adı nedir?
-answer: Halving
+question: Mining için ödül ne sıklıkla yarıya indirilir?
+answer: Her 210.000 blokta bir.
 wrong_answers:
-  - İkiye katlama
-  - Çeyrekleme
-  - Üçe katlama
+  - Her 120.000 blokta bir.
+  - Her 540.000 blokta bir.
+  - Her 2.100.000 blokta bir.
 explanation: |
-  Mining için ödülün yarıya indirildiği olaya
-  Halving. Bu olay, parasal ihraç eğrisine bir
-  merdiven benzeri bir şekil.
+  Mining için ödül her 210.000'de bir yarıya düşecek şekilde programlanmıştır
+  blokları, yaklaşık olarak her dört yılda bir: bir etkinlik
+  gW-1 olarak bilinir.
 reviewed: true

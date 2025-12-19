@@ -1,0 +1,9 @@
+question: Кои са двата основни компонента на състоянието на интелигентен договор в RGB?
+answer: Global State и притежавани държави
+wrong_answers:
+  - Commitment и Genesis
+  - Seal Definition и State Transition
+  - Valency и Contract Rights
+explanation: |
+  Global State съдържа публични данни, докато притежаваните държави са свързани с конкретни притежатели чрез UTXO.
+reviewed: false

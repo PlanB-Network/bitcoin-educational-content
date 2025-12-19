@@ -53,13 +53,13 @@ Sajt automatski detektuje vaš sistem i predlaže odgovarajući link:
 
 
 
-- Windows:** .exe instalacioni program za Windows 10/11 (x64 i ARM64 verzije)
-- macOS:** Kompatibilna .dmg disk slika za Intel i Apple Silicon (macOS Monterey i noviji)
-- Linux:** Nekoliko dostupnih opcija:
-  - Flatpak** (preporučeno): `flatpak install flathub app.zen_browser.Zen`
-  - AppImage**: Prenosivo, direktno izvršno
-  - Arhiva tar.gz**: Da se ekstrahuje ručno
-  - AUR** (Arch Linux): Zen-browser paket
+- **Windows:** .exe instalacioni program za Windows 10/11 (x64 i ARM64 verzije)
+- **macOS:** Kompatibilna .dmg disk slika za Intel i Apple Silicon (macOS Monterey i noviji)
+- **Linux:** Nekoliko dostupnih opcija:
+- **Flatpak** (preporučeno): `flatpak install flathub app.zen_browser.Zen`
+- **AppImage**: Prenosivo, direktno izvršno
+- **Arhiva tar.gz**: Da se ekstrahuje ručno
+- **AUR** (Arch Linux): Zen-browser paket
 
 
 
@@ -96,9 +96,9 @@ Sajt automatski detektuje vaš sistem i predlaže odgovarajući link:
 
 
 
-- Flatpak:** Automatska instalacija putem upravitelja paketa
-- AppImage:** `chmod +x ZenBrowser.AppImage` zatim dvokliknite
-- tar.gz:** Izdvojite i pokrenite izvršnu datoteku zen-browser
+- **Flatpak:** Automatska instalacija putem upravitelja paketa
+- **AppImage:** `chmod +x ZenBrowser.AppImage` zatim dvokliknite
+- **tar.gz:** Izdvojite i pokrenite izvršnu datoteku zen-browser
 
 
 
@@ -188,10 +188,10 @@ Zen Browser nativno integriše snažne zaštite privatnosti:
 
 
 
-- Poboljšano praćenje protiv praćenja:** Automatsko blokiranje tragača, kolačića trećih strana i skripti za otisak prsta
-- Telemetrija onemogućena:** Nema slanja podataka na spoljne servere
-- DNS preko HTTPS-a:** Šifrujte vaše DNS zahteve kako biste sprečili nadgledanje
-- Smanjena zavisnost od Google-a:** Zen Browser uklanja većinu veza sa Google servisima, iako neke mogu ostati (sigurno pregledanje, ažuriranja)
+- **Poboljšano praćenje protiv praćenja:** Automatsko blokiranje tragača, kolačića trećih strana i skripti za otisak prsta
+- **Telemetrija onemogućena:** Nema slanja podataka na spoljne servere
+- **DNS preko HTTPS-a:** Šifrujte vaše DNS zahteve kako biste sprečili nadgledanje
+- **Smanjena zavisnost od Google-a:** Zen Browser uklanja većinu veza sa Google servisima, iako neke mogu ostati (sigurno pregledanje, ažuriranja)
 
 
 
@@ -209,13 +209,13 @@ Zen nudi jedinstveni ekosistem prilagođavanja sa **Zen Mods**: galerijom tema i
 
 
 
-- SuperPins** ⭐: Pretvorite zakačene kartice u stilizovana dugmad za profesionalniji Interface izgled
-- Kohezija**: Dosledan, transparentan stil koji ujedinjuje URL traku, bočnu traku i obeleživače
-- Bolja traka za pretragu**: Premješta traku za pretragu na vrh radi poboljšane ergonomije
-- Bočna traka se širi na prelazak miša**: Automatsko širenje bočne trake na prelazak miša, maksimizira prostor na ekranu
-- Bolje Isključene Kartice**: Optimizuje upravljanje memorijom sa vizuelnim pokazateljima za neaktivne kartice
-- Očišćena URL traka**: Interface pročišćena Address traka, uklanja suvišne Elements
-- Transparent Zen**: elegantni efekti transparentnosti sa glatkim animacijama
+- **SuperPins** ⭐: Pretvorite zakačene kartice u stilizovana dugmad za profesionalniji Interface izgled
+- **Kohezija**: Dosledan, transparentan stil koji ujedinjuje URL traku, bočnu traku i obeleživače
+- **Bolja traka za pretragu**: Premješta traku za pretragu na vrh radi poboljšane ergonomije
+- **Bočna traka se širi na prelazak miša**: Automatsko širenje bočne trake na prelazak miša, maksimizira prostor na ekranu
+- **Bolje Isključene Kartice**: Optimizuje upravljanje memorijom sa vizuelnim pokazateljima za neaktivne kartice
+- **Očišćena URL traka**: Interface pročišćena Address traka, uklanja suvišne Elements
+- **Transparent Zen**: elegantni efekti transparentnosti sa glatkim animacijama
 
 
 
@@ -272,8 +272,8 @@ Zen Mods nisu ograničeni samo na vizuelne teme: neki modifikuju ponašanje Inte
 
 
 
-- Maksimalna personalizacija** = Optimalno korisničko iskustvo ALI jedinstven, lako prepoznatljiv otisak
-- Podrazumevana konfiguracija** = Češći otisak, ALI manje personalizovano iskustvo
+- **Maksimalna personalizacija** = Optimalno korisničko iskustvo ALI jedinstven, lako prepoznatljiv otisak
+- **Podrazumevana konfiguracija** = Češći otisak, ALI manje personalizovano iskustvo
 
 
 
@@ -295,11 +295,11 @@ Zen Browser je izabrao korisničko iskustvo umesto savršene anonimnosti. Ako va
 
 
 
-- Privatnost po dizajnu:** Aktivna zaštita protiv praćenja, telemetrija onemogućena, bez prikupljanja podataka
-- Inovativni Interface:** Vertikalne kartice, radni prostori, Split View dramatično poboljšavaju produktivnost
-- Brza ažuriranja:** Sinhronizacija sa Firefox-om za manje od 72 sata za sigurnosne zakrpe
-- Napredna prilagođavanja:** Teme zajednice, fino podešavanje, kompatibilnost sa Firefox ekstenzijama
-- Otvoreni kod i zajednica:** Transparentan kod, kolaborativni razvoj, nezavisnost od velike tehnologije
+- **Privatnost po dizajnu:** Aktivna zaštita protiv praćenja, telemetrija onemogućena, bez prikupljanja podataka
+- **Inovativni Interface:** Vertikalne kartice, radni prostori, Split View dramatično poboljšavaju produktivnost
+- **Brza ažuriranja:** Sinhronizacija sa Firefox-om za manje od 72 sata za sigurnosne zakrpe
+- **Napredna prilagođavanja:** Teme zajednice, fino podešavanje, kompatibilnost sa Firefox ekstenzijama
+- **Otvoreni kod i zajednica:** Transparentan kod, kolaborativni razvoj, nezavisnost od velike tehnologije
 
 
 
@@ -309,10 +309,10 @@ Zen Browser je izabrao korisničko iskustvo umesto savršene anonimnosti. Ako va
 
 
 
-- Nema mobilne verzije:** Dostupno samo na računarima (Windows, macOS, Linux)
-- DRM nekompatibilnost:** Netflix, Disney+, Spotify i druge streaming usluge trenutno ne rade
-- Mladi projekat:** Mali tim, podrška zajednice, povremene greške
-- Kriva učenja:** Interface različit, zahteva prilagođavanje za one naviknute na horizontalne kartice
+- **Nema mobilne verzije:** Dostupno samo na računarima (Windows, macOS, Linux)
+- **DRM nekompatibilnost:** Netflix, Disney+, Spotify i druge streaming usluge trenutno ne rade
+- **Mladi projekat:** Mali tim, podrška zajednice, povremene greške
+- **Kriva učenja:** Interface različit, zahteva prilagođavanje za one naviknute na horizontalne kartice
 
 
 
@@ -348,7 +348,7 @@ Od samog početka, Zen Browser primenjuje konfiguraciju visoke privatnosti koja 
 
 
 
-- Stroga zaštita protiv praćenja:** Podrazumevano aktiviran "Standardni" nivo, blokira:
+- **Stroga zaštita protiv praćenja:** Podrazumevano aktiviran "Standardni" nivo, blokira:
   - Kolačići za praćenje između sajtova i superkolačići
   - Skripte za praćenje oglasa (Google Analytics, Facebook Pixel, itd.)
   - Kriptominters koji koriste vaš CPU za Miner kriptovalute
@@ -358,10 +358,10 @@ Od samog početka, Zen Browser primenjuje konfiguraciju visoke privatnosti koja 
 
 
 
-- Total cookie isolation:** First Party Isolation sprečava jednu lokaciju da čita kolačiće druge lokacije
-- Telemetrija uglavnom onemogućena:** Većina prikupljanja podataka je uklonjena, iako neke veze sa Mozilla/Google uslugama mogu ostati i zahtevati dodatnu ručnu konfiguraciju
-- Siguran DNS po podrazumevanoj vrednosti:** DNS-preko-HTTPS omogućen da spreči špijuniranje vaših zahteva
-- HTTPS-Only omogućeno:** Forsiraj šifrovane veze na svim sajtovima
+- **Total cookie isolation:** First Party Isolation sprečava jednu lokaciju da čita kolačiće druge lokacije
+- **Telemetrija uglavnom onemogućena:** Većina prikupljanja podataka je uklonjena, iako neke veze sa Mozilla/Google uslugama mogu ostati i zahtevati dodatnu ručnu konfiguraciju
+- Siguran DNS po podrazumevanoj vrednosti: **DNS-preko-HTTPS omogućen da spreči špijuniranje vaših zahteva**
+- **HTTPS-Only omogućeno:** Forsiraj šifrovane veze na svim sajtovima
 
 
 
@@ -426,11 +426,11 @@ Podešavanja > Pretraga > Podrazumevani pretraživač:
 
 
 
-- DuckDuckGo**: Bez profilisanja, bez filter mehura, neutralni rezultati
-- Startpage**: anonimizovani Google rezultati, sa sedištem u Holandiji (RGPD)
-- Searx**: Decentralizovani metapretraživač, bez logova, otvorenog koda
-- Brave Search**: Nezavisni indeks, nije od Google-a
-- Izbegavajte**: Google, Bing, Yahoo (masovno prikupljanje podataka)
+- **DuckDuckGo**: Bez profilisanja, bez filter mehura, neutralni rezultati
+- **Startpage**: anonimizovani Google rezultati, sa sedištem u Holandiji (RGPD)
+- **Searx**: Decentralizovani metapretraživač, bez logova, otvorenog koda
+- **Brave Search**: Nezavisni indeks, nije od Google-a
+- **Izbegavajte**: Google, Bing, Yahoo (masovno prikupljanje podataka)
 
 
 
@@ -464,8 +464,8 @@ Podešavanja > Privatnost i bezbednost > DNS preko HTTPS (dno stranice)
 
 - Kontrolišete kada ćete koristiti sigurni DNS i birate provajdera
 - Koristi izabranog provajdera sa povratkom na DNS sistem ako je potrebno
-- Podrazumevani provajder:** Cloudflare (brzi, anonimizovani logovi)
-- Alternative:** Pređite na Quad9, NextDNS u zavisnosti od dostupnosti
+- **Podrazumevani provajder:** Cloudflare (brzi, anonimizovani logovi)
+- **Alternative:** Pređite na Quad9, NextDNS u zavisnosti od dostupnosti
 
 
 
@@ -476,7 +476,7 @@ Podešavanja > Privatnost i bezbednost > DNS preko HTTPS (dno stranice)
 
 - Zen **uvek** koristi samo siguran DNS
 - Upozorenje o bezbednosti pre korišćenja DNS sistema
-- Upozorenje:** Sajtovi se možda neće učitati ako bezbedni DNS nije dostupan
+- **Upozorenje:** Sajtovi se možda neće učitati ako bezbedni DNS nije dostupan
 
 
 
@@ -501,10 +501,10 @@ Podešavanja > Privatnost i bezbednost > Dozvole:
 
 
 
-- Lokacija**: Blok (osim usluga kartica)
-- Kamera/Mikrofon**: Blokiraj (autorizuj od slučaja do slučaja)
-- Obaveštenja**: Blokiraj (sprečava neželjenu poštu)
-- Automatska reprodukcija**: Blokiraj audio i video
+- **Lokacija**: Blok (osim usluga kartica)
+- **Kamera/Mikrofon**: Blokiraj (autorizuj od slučaja do slučaja)
+- **Obaveštenja**: Blokiraj (sprečava neželjenu poštu)
+- **Automatska reprodukcija**: Blokiraj audio i video
 
 
 
@@ -517,7 +517,7 @@ Podešavanja > Privatnost i bezbednost > Dozvole:
 
 
 
-- uBlock Origin**: Najefikasniji blokator oglasa i praćenja
+- **uBlock Origin**: Najefikasniji blokator oglasa i praćenja
   - Preporučene liste: EasyList, EasyPrivacy, Peter Lowe's Ad and tracking server list
   - Napredni režim za iskusne korisnike
 
@@ -525,9 +525,9 @@ Podešavanja > Privatnost i bezbednost > Dozvole:
 
 
 
-- ClearURLs**: Briše parametre za praćenje u URL-ovima (utm_source, fbclid, itd.)
-- Cookie AutoDelete**: automatski briše kolačiće i podatke pretraživanja kada se kartica zatvori
-- Decentraleyes**: Služi JS bibliotekama lokalno kako bi se izbegli Google/Cloudflare CDN-ovi
+- **ClearURLs**: Briše parametre za praćenje u URL-ovima (utm_source, fbclid, itd.)
+- **Cookie AutoDelete**: automatski briše kolačiće i podatke pretraživanja kada se kartica zatvori
+- **Decentraleyes**: Služi JS bibliotekama lokalno kako bi se izbegli Google/Cloudflare CDN-ovi
 
 
 
@@ -536,9 +536,9 @@ Podešavanja > Privatnost i bezbednost > Dozvole:
 
 
 
-- NoScript**: Granularna kontrola JavaScript-a (može pokvariti mnoge sajtove)
-- Privatni Jazavac** (EFF): Detekcija tragača na osnovu ponašanja
-- Privremeni Kontejneri**: Izolujte svaku karticu u zasebnom kontejneru
+- **NoScript**: Granularna kontrola JavaScript-a (može pokvariti mnoge sajtove)
+- **Privatni Jazavac** (EFF): Detekcija tragača na osnovu ponašanja
+- **Privremeni Kontejneri**: Izolujte svaku karticu u zasebnom kontejneru
 
 
 
@@ -550,7 +550,7 @@ Podešavanja > Privatnost i bezbednost > Dozvole:
 
 
 
-DRM-ovi (Digital Rights Management)** su tehnologije zaštite koje šifriraju digitalni sadržaj kako bi se sprečilo kopiranje. Oni zahtevaju vlasnički modul pregledača (kao što je **Google Widevine**) za dešifrovanje i čitanje zaštićenih medija.
+**DRM-ovi (Digital Rights Management)** su tehnologije zaštite koje šifriraju digitalni sadržaj kako bi se sprečilo kopiranje. Oni zahtevaju vlasnički modul pregledača (kao što je **Google Widevine**) za dešifrovanje i čitanje zaštićenih medija.
 
 
 
@@ -559,9 +559,9 @@ DRM-ovi (Digital Rights Management)** su tehnologije zaštite koje šifriraju di
 
 
 
-- Video streaming:** Netflix, Disney+, HBO Max, Amazon Prime Video
-- Premium music:** Spotify Premium, YouTube Music, Deezer
-- Online training:** Udemy, Coursera (zaštićeni videozapisi)
+- **Video streaming:** Netflix, Disney+, HBO Max, Amazon Prime Video
+- **Premium music:** Spotify Premium, YouTube Music, Deezer
+- **Online training:** Udemy, Coursera (zaštićeni videozapisi)
 
 
 
@@ -666,8 +666,8 @@ Besplatni YouTube, Twitch, Vimeo, sajtovi sa vestima, društvene mreže, podcast
 
 
 
-- Split View**: Izaberite nekoliko kartica > desni klik > "Podeli x kartica"
-- Pogled**: Alt + klik na link za pregled
+- **Split View**: Izaberite nekoliko kartica > desni klik > "Podeli x kartica"
+- **Pogled**: Alt + klik na link za pregled
 
 
 
@@ -691,11 +691,11 @@ Besplatni YouTube, Twitch, Vimeo, sajtovi sa vestima, društvene mreže, podcast
 
 
 
-- Organizujte svoje prostore**: Kreirajte tematske prostore (Rad, Gledanje, Lično)
-- Koristite zakačene kartice**: Za vaše najposećenije sajtove
-- Iskoristite Split View**: Idealno za multitasking na velikim ekranima
-- Budite u toku**: Redovno proveravajte ažuriranja
-- Istražite Zen Mods**: prilagodite izgled prema svom ukusu
+- **Organizujte svoje prostore**: Kreirajte tematske prostore (Rad, Gledanje, Lično)
+- Koristite zakačene kartice: Za vaše najposećenije sajtove
+- Iskoristite **Split View**: Idealno za multitasking na velikim ekranima
+- **Budite u toku**: Redovno proveravajte ažuriranja
+- Istražite **Zen Mods**: prilagodite izgled prema svom ukusu
 
 
 

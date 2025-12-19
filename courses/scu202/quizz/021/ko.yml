@@ -1,0 +1,9 @@
+question: 데스크톱 환경에서 파일과 폴더를 시각적으로 탐색하는 데 사용되는 구성 요소는 무엇인가요?
+answer: 파일 관리자
+wrong_answers:
+  - 세션 관리자
+  - Composer X11
+  - 패키지 관리자
+explanation: |
+  노틸러스, 돌핀, 투나르와 같은 파일 관리자를 사용하면 그래픽 Interface을 통해 파일과 폴더를 관리할 수 있습니다.
+reviewed: false

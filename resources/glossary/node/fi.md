@@ -6,4 +6,4 @@ Bitcoin-verkossa solmu (englanniksi "node") on tietokone, joka käyttää Bitcoi
 
 Bitcoinissa on useita erilaisia solmuja, kuten täyssolmuja ja kevyitä solmuja. Täydelliset solmut säilyttävät täydellisen kopion lohkoketjusta, tarkistavat kaikki transaktiot ja lohkot konsensussääntöjen mukaisesti ja osallistuvat aktiivisesti transaktioiden ja lohkojen levittämiseen verkossa. Kevyet solmut eli SPV-solmut (*Simple Payment Verification*) säilyttävät vain lohkojen otsikot ja ovat riippuvaisia täysistä solmuista saadakseen transaktiotiedot.
 
-> ► *Jotkut erottavat toisistaan myös niin sanotut "karsitut solmut" ("pruned node" englanniksi). Nämä ovat täysiä solmuja, jotka lataavat ja tarkistavat kaikki lohkot Genesis-lohkosta, mutta pitävät muistissa vain viimeisimmät lohkot.* *
+> ► *Jotkut erottavat toisistaan myös niin sanotut "karsitut solmut" ("pruned node" englanniksi). Nämä ovat täysiä solmuja, jotka lataavat ja tarkistavat kaikki lohkot Genesis-lohkosta, mutta pitävät muistissa vain viimeisimmät lohkot.*

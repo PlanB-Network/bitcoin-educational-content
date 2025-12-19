@@ -1,12 +1,12 @@
-question: Apa itu dompet multisig?
-answer: Sebuah set dompet yang memerlukan beberapa tanda tangan untuk melakukan transaksi
+question: Apa risiko menggunakan dompet multisig?
+answer: Tidak memiliki akses ke cukup bagian terpisah dari cadangan multisig
 wrong_answers:
-  - Dompet yang memerlukan satu tanda tangan untuk melakukan transaksi
-  - Dompet yang tidak memerlukan tanda tangan untuk melakukan transaksi
-  - Dompet yang memerlukan tanda tangan fisik untuk melakukan transaksi
+  - Memiliki akses ke cukup bagian terpisah dari cadangan multisig
+  - Berbagi kunci dengan pihak lain
+  - Tidak berbagi kunci dengan pihak lain
 explanation: |
-  Dompet multisig adalah jenis dompet Bitcoin yang memerlukan beberapa
-  tanda tangan untuk melakukan transaksi. Ini menambahkan lapisan keamanan tambahan, karena
-  berarti bahwa satu orang tidak dapat melakukan transaksi tanpa persetujuan dari
-  orang lain.
+  Ketika Anda menggunakan dompet multisig, setiap bagian dari multisig harus disimpan
+  di lokasi yang berbeda. Ini karena multisig memerlukan beberapa tanda tangan
+  untuk melakukan transaksi sehingga sejumlah dompet diperlukan, dan menyimpan setiap bagian di lokasi yang berbeda menambahkan
+  lapisan keamanan tambahan.
 reviewed: true

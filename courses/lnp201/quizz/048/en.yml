@@ -6,4 +6,4 @@ wrong_answers:
   - The funds are directly credited without additional security
 explanation: |
   Keysend allows the sender to generate a secret embedded in the HTLCs, enabling the recipient to unlock the funds without having issued an invoice.
-reviewed: false
+reviewed: true

@@ -49,7 +49,7 @@ By default, the Minibits mint is enabled when you start the app. However, one of
 ## 3️⃣ Creating a Backup
 
 Backup is arguably the most critical step in the entire setup process. To access the Backup options, navigate to `Settings`-> `Backup` Here you'll find two essential options:
-1. `Your seed phrase` which contains `12 words` that allows you to recover your ecash balance in case of device loss. This seed phrase is your master key to all ecash across all mints you've added. Write it down on physical medium (paper or metal) and store it securely in multiple locations. Never store your seed phrase digitally where it could be compromised. Consider visiting this [tutorial](https://planb.network/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) for best practices for safeguarding your wallet.
+1. `Your seed phrase` which contains `12 words` that allows you to recover your ecash balance in case of device loss. This seed phrase is your master key to all ecash across all mints you've added. Write it down on physical medium (paper or metal) and store it securely in multiple locations. Never store your seed phrase digitally where it could be compromised. Consider visiting this [tutorial](https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) for best practices for safeguarding your wallet.
 2. `Wallet backup` which contains a long backup string.
 
 **Attention**: You will still need your seed phrase when using this backup to recover your wallet.

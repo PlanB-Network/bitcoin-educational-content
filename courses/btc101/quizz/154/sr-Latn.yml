@@ -1,9 +1,8 @@
-question: Koja je uloga ASIC-ova u Bitkoin rudarenju?
-answer: ASIC-ovi su mašine dizajnirane isključivo za primenu SHA256 algoritma u procesu rudarenja.
+question: Koja je glavna zabrinutost u vezi sa ekološkim troškovima Bitkoin rudarenja?
+answer: Potrošnja energije.
 wrong_answers:
-  - ASIC-ovi se koriste za verifikaciju Bitkoin transakcija primenom SHA256 algoritma u procesu verifikacije.
-  - ASIC-ovi se koriste za proizvoljno kreiranje novih bitkoina.
-  - ASIC-ovi se koriste za osiguranje Bitkoin mreže.
-explanation: |
-  ASIC-i (Application-Specific Integrated Circuits) su specijalizovani hardver dizajniran posebno za Bitkoin rudarenje. Oni su optimizovani za obavljanje SHA256 heš funkcije, što je matematički problem koji rudari moraju rešiti u procesu Proof of Work.
+  - Proizvodnja ASIC-ova.
+  - Reciklaža ASIC-ova.
+  - Cena električne energije.
+explanation: >-
 reviewed: true

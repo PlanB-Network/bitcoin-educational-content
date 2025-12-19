@@ -1,0 +1,9 @@
+question: RGB의 핵심 원칙은 무엇입니까?
+answer: 클라이언트 측 검증
+wrong_answers:
+  - 블록체인에서의 전역 실행
+  - 연합 합의
+  - Proof-of-Work
+explanation: |
+  RGB는 상태의 로컬 검증에 기반하며, 블록체인은 암호학적 앵커와 이중 지불 방지 수단으로만 사용됩니다.
+reviewed: false

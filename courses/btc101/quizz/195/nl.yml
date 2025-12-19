@@ -1,8 +1,10 @@
-question: Welke van de volgende acties kunnen mensen helpen die Bitcoin in het dagelijks leven willen gebruiken?
-answer: Zorg voor een lijst van alle winkeliers die Bitcoin accepteren.
+question: Wat is een van de manieren om bitcoins te verwerven zonder KYC?
+answer: Bitcoin geldautomaten.
 wrong_answers:
-  - Verhoog de prijs van Bitcoin.
-  - Verlaag het aantal Bitcoins.
-  - Beperk het gebruik van Bitcoin.
-explanation: >-
+  - Brokerplatforms.
+  - DCA-platforms.
+  - Bankoverschrijvingen.
+explanation: |
+  De cursustekst vermeldt dat er verschillende manieren zijn om
+  bitcoins te verkrijgen zonder KYC, waaronder Bitcoin geldautomaten.
 reviewed: true

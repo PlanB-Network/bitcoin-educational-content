@@ -1,0 +1,9 @@
+question: Mikä on vastuullisen tiedonantokehyksen mukaan ensisijainen strateginen syy siihen, että altcoin-kehittäjille tarjotaan haavoittuvuuskorjauksia vasta sen jälkeen, kun korjaukset on otettu laajasti käyttöön Bitcoin-verkossa?
+answer: Jotta hyökkääjät eivät voisi hyödyntää samaa haavoittuvuutta Bitcoin:ssä, kun altcoineja korjataan
+wrong_answers:
+  - "Bitcoin:n kilpailuedun säilyttäminen vaihtoehtoisiin kryptovaluuttatoteutuksiin nähden"
+  - Varmistaaksemme, että altcoin-kehittäjillä on riittävästi aikaa ymmärtää ja toteuttaa korjaukset asianmukaisesti, -
+  - Välttääksemme oikeudellisia vastuukysymyksiä, joita voisi aiheutua ennenaikaisesta julkistamisesta kolmansille osapuolille
+explanation: |
+  Ajoitusstrategia heijastaa turvallisuus etusijalla -lähestymistapaa, jossa Bitcoin:n verkko on suojattava ennen muiden auttamista. Jos altcoineista ilmoitettaisiin samanaikaisesti, hyökkääjät voisivat tutkia altcoin-toteutuksia tai hyödyntää niitä haavoittuvuuden ymmärtämiseksi ja sitten mahdollisesti hyökätä Bitcoin:n solmuja vastaan, jotka eivät ole vielä päivittäneet. Peräkkäinen lähestymistapa varmistaa Bitcoin:n laajan suojauksen ennen avun laajentamista muihin verkkoihin, mikä minimoi haavoittuvuuden hyväksikäytön ikkunan koko ekosysteemissä.
+reviewed: false

@@ -1,11 +1,11 @@
-question: Jaké jsou dvě hlavní charakteristiky Bitcoinu?
-answer: Bitcoin je jak počítačový protokol, tak měnová jednotka.
+question: Co znamená, že Bitcoin je neutrální měna?
+answer: Není kontrolován žádnou entitou nebo institucí.
 wrong_answers:
-  - Bitcoin je jak fyzická měna, tak digitální peněženka.
-  - Bitcoin je jak typ akcie, tak typ dluhopisu.
-  - Bitcoin je jak centralizovaná, tak decentralizovaná měna.
+  - Je kontrolován jednou entitou nebo institucí.
+  - Je regulován vládou.
+  - Používá se pouze pro velké transakce.
 explanation: |
-  Bitcoin je jak počítačový protokol, který využívá technologie
-  jako kryptografie a blockchain, také měnová
-  jednotka, která se používá pro transakce.
+  Bitcoin je neutrální měna, což znamená, že není kontrolován
+  žádnou entitou nebo institucí, takže každý uživatel má stejná
+  práva. To je klíčový aspekt jeho decentralizace.
 reviewed: true

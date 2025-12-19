@@ -1,5 +1,5 @@
 ---
-name: 费迪
+name: Fedi
 description: 您的 Bitcoin 超级 Wallet 由社区提供动力
 ---
 
@@ -37,19 +37,19 @@ Fedi Wallet 是一种 Bitcoin 作品集，它采用了一种新方法来保存�
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- 自我监护** ：一旦您创建了 Wallet，应用程序就会为您提供恢复字样。因此，您可以自由地将比特币导出到最适合您的 Wallet。
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **自我监护**：一旦您创建了 Wallet，应用程序就会为您提供恢复字样。因此，您可以自由地将比特币导出到最适合您的 Wallet。
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 相反，Fedi Wallet 提供了联盟方式，让您可以加入一个您信任的小组来管理您的投资组合密钥。您可以加入 Fedi 推荐的流行联盟，也可以通过扫描二维码或粘贴联盟邀请码加入所在社区的本地联盟。
 
@@ -75,7 +75,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 对于您加入的每个联盟，Fedi 都会通过创建单独的钱包来区分您的比特币。
 
@@ -103,7 +103,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- 在 Fedi 上接收比特币**：在主页上选择您想用来接收比特币的联盟，然后点击**接收**按钮，创建一个闪电 Invoice 并输入要接收的金额。
+- 在 Fedi 上接收比特币：在主页上选择您想用来接收比特币的联盟，然后点击**接收**按钮，创建一个闪电 Invoice 并输入要接收的金额。
 
 
 
@@ -113,7 +113,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- 发送比特币**：在主页上，点击**发送**按钮，向闪电 Address 发送比特币，向 Invoice 支付比特币或进行离线支付。
+- 发送比特币：在主页上，点击**发送**按钮，向闪电 Address 发送比特币，向 Invoice 支付比特币或进行离线支付。
 
 
 
@@ -141,7 +141,7 @@ Fedi Wallet 的特色之一是可以离线发送。您不再需要 Wi-Fi 或良�
 
 
 
-离线支付主要使用 [电子现金](https://planb.network/resources/glossary/ecash-david-chaum)。交易会存储在您的手机中，只要您上网，交易就会自动确认。您也可以点击**确认交易**，手动确认付款。
+离线支付主要使用 [电子现金](https://planb.academy/resources/glossary/ecash-david-chaum)。交易会存储在您的手机中，只要您上网，交易就会自动确认。您也可以点击**确认交易**，手动确认付款。
 
 
 
@@ -191,7 +191,7 @@ Fedi 的模块化菜单可让您找到社区使用的最佳应用程序。
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

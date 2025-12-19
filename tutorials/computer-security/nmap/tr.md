@@ -61,9 +61,9 @@ Nmap'in güçlü yönleri çoktur:
 
 
 
-- Güçlü ve esnek**: Nmap büyük ağları tarayabilir ve gelişmiş algılama teknikleri kullanabilir. UDP, TCP, ICMP, IPv4 ve IPv6'yı destekler ve sürüm tespiti, güvenlik açığı taramaları veya protokole özgü etkileşimler gerçekleştirebilir. Mimarisi modülerdir, özellikle bu eğitimin ilerleyen bölümlerinde inceleyeceğimiz NSE (Nmap Scripting Engine) komut dosyaları sayesinde.
-- Kullanım kolaylığı**: resmi belgeler bol miktarda ve en yüksek kalitede. Başlamanıza yardımcı olacak çok sayıda topluluk kaynağı da mevcuttur.
-- Popülerlik ve uzun ömürlülük**: Nmap 1998'den beri kendi alanında bir referans olmuştur. Bu güncelleme sırasında geçerli sürüm 7.95'tir. Belirli görevler için başka araçlar mevcut olsa da, Nmap ağ haritalama ve analizi için sahip olunması gereken bir araç olmaya devam etmektedir.
+- **Güçlü ve esnek**: Nmap büyük ağları tarayabilir ve gelişmiş algılama teknikleri kullanabilir. UDP, TCP, ICMP, IPv4 ve IPv6'yı destekler ve sürüm tespiti, güvenlik açığı taramaları veya protokole özgü etkileşimler gerçekleştirebilir. Mimarisi modülerdir, özellikle bu eğitimin ilerleyen bölümlerinde inceleyeceğimiz NSE (Nmap Scripting Engine) komut dosyaları sayesinde.
+- **Kullanım kolaylığı**: resmi belgeler bol miktarda ve en yüksek kalitede. Başlamanıza yardımcı olacak çok sayıda topluluk kaynağı da mevcuttur.
+- **Popülerlik ve uzun ömürlülük**: Nmap 1998'den beri kendi alanında bir referans olmuştur. Bu güncelleme sırasında geçerli sürüm 7.95'tir. Belirli görevler için başka araçlar mevcut olsa da, Nmap ağ haritalama ve analizi için sahip olunması gereken bir araç olmaya devam etmektedir.
 
 
 
@@ -87,7 +87,7 @@ Ayrıca başka sinematografik çalışmalarda da yer alır.
 
 
 
-**Geri bildirim
+**Geri bildirim**
 
 
 
@@ -312,7 +312,7 @@ Bu bölümde, Nmap ağ tarama aracının Linux ve Windows işletim sistemlerine 
 
 
 
-Nmap başlangıçta GNU/Linux işletim sistemlerinde çalışmak üzere tasarlanmıştır. Sonuç olarak, uzun ömürlülüğü ve popülerliği sayesinde, onu büyük Unix dağıtımlarının tüm resmi depolarında bulabilirsiniz. Bu eğitimde Debian tabanlı bir işletim sistemi [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux") kullanacağım. Ancak klasik bir Debian, CentOS, Red Hat ya da her neyse aynı şekilde kullanabilirsiniz!
+Nmap başlangıçta GNU/Linux işletim sistemlerinde çalışmak üzere tasarlanmıştır. Sonuç olarak, uzun ömürlülüğü ve popülerliği sayesinde, onu büyük Unix dağıtımlarının tüm resmi depolarında bulabilirsiniz. Bu eğitimde Debian tabanlı bir işletim sistemi [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux") kullanacağım. Ancak klasik bir Debian, CentOS, Red Hat ya da her neyse aynı şekilde kullanabilirsiniz!
 
 
 
@@ -463,7 +463,7 @@ Nmap artık Windows'ta yüklü. Bu öğreticiyi takip ederek Linux'ta olduğu gi
 
 
 
-Ancak bu arada, Nmap kullanırken, **sistem üzerinde yükseltilmiş yerel ayrıcalıklara sahip olmak gerekli midir? **Duruma göre değişir**.
+Ancak bu arada, Nmap kullanırken, **sistem üzerinde yükseltilmiş yerel ayrıcalıklara sahip olmak gerekli midir?** **Duruma göre değişir**.
 
 
 
@@ -485,25 +485,25 @@ nmap seçenekleri kök hakları gerektirdiğinde Linux altında hata mesajı._
 
 
 
-- "Ham" ağ paketleri oluşturma**: Nmap, gelişmiş paket manipülasyonu ve yapımı da dahil olmak üzere çok çeşitli tarama yöntemlerine sahiptir. Örneğin, TCP alışverişlerinin klasik _Üç yönlü el sıkışması_ kuralına uymayan TCP SYN taramaları gerçekleştirmek istediğimizde durum böyledir. Bunu yapmak için, Nmap'in sadece ağ iletişiminde iyi uygulamalara nasıl saygı gösterileceğini bilen işletim sistemlerinin yerel işlevlerinden başka işlevler kullanması gerekir (yukarıda görülen "Npcap" ve "libcap" kütüphanelerini çağırır). Nmap işleri "standart" şekilde yapmadığı için işletim sistemleri, hizmetler ve belirli güvenlik açıkları hakkında belirli bilgileri çıkarabilmektedir.
+- **"Ham" ağ paketleri oluşturma**: Nmap, gelişmiş paket manipülasyonu ve yapımı da dahil olmak üzere çok çeşitli tarama yöntemlerine sahiptir. Örneğin, TCP alışverişlerinin klasik *Üç yönlü el sıkışması* kuralına uymayan TCP SYN taramaları gerçekleştirmek istediğimizde durum böyledir. Bunu yapmak için, Nmap'in sadece ağ iletişiminde iyi uygulamalara nasıl saygı gösterileceğini bilen işletim sistemlerinin yerel işlevlerinden başka işlevler kullanması gerekir (yukarıda görülen "Npcap" ve "libcap" kütüphanelerini çağırır). Nmap işleri "standart" şekilde yapmadığı için işletim sistemleri, hizmetler ve belirli güvenlik açıkları hakkında belirli bilgileri çıkarabilmektedir.
 
 
 
 
 
-- Ağ trafiğini dinle**: Nmap'in bazı seçenekleri, belirli bilgileri almak için ağı dinlemesini gerektirir. Bu eylem işletim sistemlerinde hassas olarak kabul edilir, çünkü sistemdeki diğer uygulamaların iletişimini dinlemenize de izin verir. Tıpkı Wireshark gibi, Nmap'in de bunu yapmak için belirli ayrıcalıklara ihtiyacı vardır ve bu ayrıcalıkları doğrudan ayrıcalıklı bir oturumda bulunarak elde etmek daha kolaydır.
+- **Ağ trafiğini dinle**: Nmap'in bazı seçenekleri, belirli bilgileri almak için ağı dinlemesini gerektirir. Bu eylem işletim sistemlerinde hassas olarak kabul edilir, çünkü sistemdeki diğer uygulamaların iletişimini dinlemenize de izin verir. Tıpkı Wireshark gibi, Nmap'in de bunu yapmak için belirli ayrıcalıklara ihtiyacı vardır ve bu ayrıcalıkları doğrudan ayrıcalıklı bir oturumda bulunarak elde etmek daha kolaydır.
 
 
 
 
 
-- Ayrıcalıklı bağlantı noktalarında dinleme**: işletim sistemlerinde, 0'dan 1024'e kadar olan bağlantı noktalarının (TCP'nin yanı sıra UDP) ayrıcalıklı olduğu söylenir, yani bir şekilde çok özel kullanımlar için ayrılmışlardır ve bu nedenle korunurlar. Her ne kadar günümüzde bu biraz geçersiz bir neden olsa da, bu bağlantı noktalarını dinlemek için hala belirli ayrıcalıklara sahip olmak gerekir; Nmap'in nasıl kullanılacağına bağlı olarak bunu yapması gerekebilir.
+- **Ayrıcalıklı bağlantı noktalarında dinleme**: işletim sistemlerinde, 0'dan 1024'e kadar olan bağlantı noktalarının (TCP'nin yanı sıra UDP) ayrıcalıklı olduğu söylenir, yani bir şekilde çok özel kullanımlar için ayrılmışlardır ve bu nedenle korunurlar. Her ne kadar günümüzde bu biraz geçersiz bir neden olsa da, bu bağlantı noktalarını dinlemek için hala belirli ayrıcalıklara sahip olmak gerekir; Nmap'in nasıl kullanılacağına bağlı olarak bunu yapması gerekebilir.
 
 
 
 
 
-- UDP paketleri gönderme:** Benzer şekilde, UDP bağlantı noktalarında (durum bilgisi olmayan bir protokol) bir ağ uygulamasını dinlemek, işletim sistemlerinde ayrıcalıklı haklar gerektirir. Bu nedenle, Nmap'in taramalarına verilen yanıtları analiz etmek için bir yanıt dinlemek zorunda kalacağı bir UDP taraması gerçekleştirmek istiyorsanız ayrıcalıklı bir oturum gerekecektir.
+- **UDP paketleri gönderme:** Benzer şekilde, UDP bağlantı noktalarında (durum bilgisi olmayan bir protokol) bir ağ uygulamasını dinlemek, işletim sistemlerinde ayrıcalıklı haklar gerektirir. Bu nedenle, Nmap'in taramalarına verilen yanıtları analiz etmek için bir yanıt dinlemek zorunda kalacağı bir UDP taraması gerçekleştirmek istiyorsanız ayrıcalıklı bir oturum gerekecektir.
 
 
 
@@ -551,7 +551,7 @@ Bu bölümde, Nmap ağ tarama aracını kullanarak ilk port taramalarımızı na
 
 
 
-- Bir hatırlatma olarak: [Ceza Kanunu: Bölüm III: Otomatik bilgi işlem sistemlerine saldırılar] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Bir hatırlatma olarak: [Ceza Kanunu: Bölüm III: Otomatik bilgi işlem sistemlerine saldırılar](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -562,13 +562,13 @@ Bu bölümde, Nmap ağ tarama aracını kullanarak ilk port taramalarımızı na
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")**: Hacking eğitim platformu Hack The Box, uygun gördüğünüz şekilde saldırmanız için sürekli olarak savunmasız sistemler sağlar. Birkaç yüz sistem mevcuttur, ancak 20 makineden oluşan yenilenmiş bir havuz, bir OpenVPN VPN aracılığıyla erişim ile tüm yıl boyunca ücretsiz olarak sunulmaktadır.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hacking eğitim platformu Hack The Box, uygun gördüğünüz şekilde saldırmanız için sürekli olarak savunmasız sistemler sağlar. Birkaç yüz sistem mevcuttur, ancak 20 makineden oluşan yenilenmiş bir havuz, bir OpenVPN VPN aracılığıyla erişim ile tüm yıl boyunca ücretsiz olarak sunulmaktadır.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")**: Bu platform, VirtualBox (aynı zamanda ücretsiz bir çözüm) veya diğer yollarla kullanılabilen, indirilmek üzere çok sayıda kasıtlı olarak savunmasız sistem sunmaktadır. İndirildikten sonra VPN'e gerek yoktur - her şey yereldir.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Bu platform, VirtualBox (aynı zamanda ücretsiz bir çözüm) veya diğer yollarla kullanılabilen, indirilmek üzere çok sayıda kasıtlı olarak savunmasız sistem sunmaktadır. İndirildikten sonra VPN'e gerek yoktur - her şey yereldir.
 
 
 
@@ -815,7 +815,7 @@ tarama hedefinde etkin olan 22 numaralı bağlantı noktasına gönderilen bir T
 
 
 
-Yukarıdaki ekran görüntüsünde, hedef ana bilgisayar** tarafından gönderilen bir TCP SYN/ACK paketi görüyoruz. Bağlantı noktası aktiftir ve bir hizmet sunar. Nmap yanıtın alındığını onaylar, ardından bağlantıyı sonlandırır (TCP RST/ACK). **TCP/22 portunun aktif olduğunu bu şekilde biliyordu**.
+Yukarıdaki ekran görüntüsünde, **hedef ana bilgisayar** tarafından gönderilen bir TCP SYN/ACK paketi görüyoruz. Bağlantı noktası aktiftir ve bir hizmet sunar. Nmap yanıtın alındığını onaylar, ardından bağlantıyı sonlandırır (TCP RST/ACK). **TCP/22 portunun aktif olduğunu bu şekilde biliyordu**.
 
 
 
@@ -901,7 +901,7 @@ nmap taraması sırasında uDP paket iletimi ve ICMP alımı (bağlantı noktas�
 
 
 
-Yukarıdaki ekran görüntüsünde Nmap'in çok sayıda UDP paketi göndereceğini ve bunların çoğu için yanıt olarak bir ICMP "Hedefe ulaşılamıyor (Port ulaşılamıyor)" paketi alacağını görebiliriz. Bu normaldir, çünkü bir UDP portuna ulaşılamadığında [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") tarafından tanımlanan uygun yanıttır:
+Yukarıdaki ekran görüntüsünde Nmap'in çok sayıda UDP paketi göndereceğini ve bunların çoğu için yanıt olarak bir ICMP "Hedefe ulaşılamıyor (Port ulaşılamıyor)" paketi alacağını görebiliriz. Bu normaldir, çünkü bir UDP portuna ulaşılamadığında [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") tarafından tanımlanan uygun yanıttır:
 
 
 
@@ -976,7 +976,7 @@ Gördüğümüz gibi, herhangi bir seçenek belirtmezseniz taranacak numara ve p
 
 
 
-**Bu limanlar nasıl seçiliyor?
+**Bu limanlar nasıl seçiliyor?**
 
 
 
@@ -1060,7 +1060,7 @@ Sırası ne olursa olsun, Nmap tüm bu bağlantı noktalarını ve yalnızca hed
 
 
 
-**Bir dizi bağlantı noktasını tarayın
+**Bir dizi bağlantı noktasını tarayın**
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**TCP ve UDP port taraması
+**TCP ve UDP port taraması**
 
 
 
@@ -1134,7 +1134,7 @@ Bu son örnekte bir UDP portunu belirtmek için "U:" ve bir TCP portunu belirtme
 
 
 
-**Tüm bağlantı noktalarını tara
+**Tüm bağlantı noktalarını tara**
 
 
 
@@ -1347,7 +1347,7 @@ Ama bundan daha fazlası var. Yukarıdaki Wireshark yakalamasında, taranacak a�
 
 
 
-**Ağ keşfinin bir parçası olarak neden portlara TCP paketleri gönderilir?
+**Ağ keşfinin bir parçası olarak neden portlara TCP paketleri gönderilir?**
 
 
 
@@ -1636,7 +1636,7 @@ Bu bölümde, taranan ana bilgisayarlar tarafından kullanılan hizmetlerin ve i
 
 
 
-Bu eğitimin önceki bölümlerinde gördüğümüz gibi, Nmap varsayılan olarak taradığı ve açık olarak kabul ettiği portlarda hangi servisin açık olduğuna bakmaz. Dolayısıyla, TCP/22 bağlantı noktasındaki bir web hizmetini dinliyorsanız, Nmap bunu açık olarak rapor etmeye devam edecektir, ancak bir `SSH` hizmeti olarak. Bunun nedeni, bir port/protokol ile bir hizmetin adı (`/etc/services/` dosyası) arasında bir ilişki aramak için sisteminizde yerel olarak bulunan bir [veritabanı] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) kullanmasıdır.
+Bu eğitimin önceki bölümlerinde gördüğümüz gibi, Nmap varsayılan olarak taradığı ve açık olarak kabul ettiği portlarda hangi servisin açık olduğuna bakmaz. Dolayısıyla, TCP/22 bağlantı noktasındaki bir web hizmetini dinliyorsanız, Nmap bunu açık olarak rapor etmeye devam edecektir, ancak bir `SSH` hizmeti olarak. Bunun nedeni, bir port/protokol ile bir hizmetin adı (`/etc/services/` dosyası) arasında bir ilişki aramak için sisteminizde yerel olarak bulunan bir [veritabanı](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) kullanmasıdır.
 
 
 
@@ -2165,31 +2165,31 @@ Açık olalım: Nmap, bilgi sisteminizin tam bir sızma testini gerçekleştirme
 
 
 
-- Sınırlı kapsam**: Nmap'in NSE komut dosyaları güçlü olmasına rağmen, test kapsamları diğer özel güvenlik açığı keşif araçlarına kıyasla sınırlı olabilir. Active Directory güvenlik açıkları, hassas verilerin açığa çıkması veya daha gelişmiş güvenlik açığı olan web uygulamaları gibi bazı güvenlik açıkları mevcut NSE komut dosyaları tarafından kapsanmayabilir.
+- **Sınırlı kapsam**: Nmap'in NSE komut dosyaları güçlü olmasına rağmen, test kapsamları diğer özel güvenlik açığı keşif araçlarına kıyasla sınırlı olabilir. Active Directory güvenlik açıkları, hassas verilerin açığa çıkması veya daha gelişmiş güvenlik açığı olan web uygulamaları gibi bazı güvenlik açıkları mevcut NSE komut dosyaları tarafından kapsanmayabilir.
 
 
 
 
 
-- Güvenlik açığı karmaşıklığı**: belirli güvenlik açığı türlerinin karmaşıklıkları nedeniyle NSE komut dosyaları kullanılarak tespit edilmesi zor olabilir. Örneğin, uzak bir hizmetle karmaşık etkileşim gerektiren güvenlik açıkları Nmap tarafından etkili bir şekilde tespit edilemeyebilir (bir dosya paylaşımındaki aşırı izinler veya bir web uygulamasındaki izin kontrolü açığı gibi).
+- **Güvenlik açığı karmaşıklığı**: belirli güvenlik açığı türlerinin karmaşıklıkları nedeniyle NSE komut dosyaları kullanılarak tespit edilmesi zor olabilir. Örneğin, uzak bir hizmetle karmaşık etkileşim gerektiren güvenlik açıkları Nmap tarafından etkili bir şekilde tespit edilemeyebilir (bir dosya paylaşımındaki aşırı izinler veya bir web uygulamasındaki izin kontrolü açığı gibi).
 
 
 
 
 
-- Pasif algılama**: Nmap, güvenlik açıklarını tespit etmek için öncelikle aktif taramalara odaklanır, bu da hedef ana bilgisayarlarla aktif bir bağlantı kurmadan potansiyel güvenlik açıklarını etkili bir şekilde tespit edemeyebileceği anlamına gelir. Bu nedenle, aktif bir tarama sırasında kendini göstermeyen güvenlik açıkları gözden kaçabilir (bir web uygulamasında kod enjeksiyonu durumunda olduğu gibi).
+- **Pasif algılama**: Nmap, güvenlik açıklarını tespit etmek için öncelikle aktif taramalara odaklanır, bu da hedef ana bilgisayarlarla aktif bir bağlantı kurmadan potansiyel güvenlik açıklarını etkili bir şekilde tespit edemeyebileceği anlamına gelir. Bu nedenle, aktif bir tarama sırasında kendini göstermeyen güvenlik açıkları gözden kaçabilir (bir web uygulamasında kod enjeksiyonu durumunda olduğu gibi).
 
 
 
 
 
-- Güncellemelere bağımlılık**: Nmap'in NSE komut dosyalarının [veritabanı] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) sürekli olarak gelişmektedir, ancak yeni bir güvenlik açığının keşfedilmesi ile ilgili bir komut dosyasının Nmap'e eklenmesi arasında bir gecikme olabilir. Sonuç olarak, Nmap her zaman en son güvenlik açıkları ile güncel olmayabilir.
+- **Güncellemelere bağımlılık**: Nmap'in NSE komut dosyalarının [veritabanı](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) sürekli olarak gelişmektedir, ancak yeni bir güvenlik açığının keşfedilmesi ile ilgili bir komut dosyasının Nmap'e eklenmesi arasında bir gecikme olabilir. Sonuç olarak, Nmap her zaman en son güvenlik açıkları ile güncel olmayabilir.
 
 
 
 
 
-- Yanlış pozitifler ve yanlış negatifler**: Her güvenlik aracında olduğu gibi, Nmap'in NSE komut dosyaları yanlış pozitifler (yanlış güvenlik açığı uyarıları) veya yanlış negatifler (tespit edilmeyen gerçek güvenlik açıkları) üretebilir. Bu, Nmap sonuçlarını analiz ederken akılda tutulması gereken bir konudur.
+- **Yanlış pozitifler ve yanlış negatifler**: Her güvenlik aracında olduğu gibi, Nmap'in NSE komut dosyaları yanlış pozitifler (yanlış güvenlik açığı uyarıları) veya yanlış negatifler (tespit edilmeyen gerçek güvenlik açıkları) üretebilir. Bu, Nmap sonuçlarını analiz ederken akılda tutulması gereken bir konudur.
 
 
 
@@ -2989,7 +2989,7 @@ Metasploit bir istismar ve saldırı çerçevesidir. Ücretsiz bir çözümdür 
 
 
 
-Özellikle, bu iyi bilinen ve yaygın olarak kullanılan işletim çerçevesi, ana bilgisayarların, bağlantı noktalarının, hizmetlerin, kimlik doğrulama bilgilerinin ve daha fazlasının depolandığı bir postgreSQL [veritabanı] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) ile çalışabilir.
+Özellikle, bu iyi bilinen ve yaygın olarak kullanılan işletim çerçevesi, ana bilgisayarların, bağlantı noktalarının, hizmetlerin, kimlik doğrulama bilgilerinin ve daha fazlasının depolandığı bir postgreSQL [veritabanı](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) ile çalışabilir.
 
 
 
@@ -3385,7 +3385,7 @@ Bir ağı veya sistemi taramadan önce, uygun yetkileri aldığınızdan emin ol
 
 
 
-- Bir hatırlatma olarak: [Ceza Kanunu: Bölüm III: Otomatik bilgi işlem sistemlerine saldırılar] (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
+- Bir hatırlatma olarak: [Ceza Kanunu: Bölüm III: Otomatik bilgi işlem sistemlerine saldırılar](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000030939438/)
 
 
 
@@ -3437,7 +3437,7 @@ Bu eğitim boyunca gördüğümüz gibi, Nmap ağ düzeyinde çok ayrıntılı o
 
 
 
-Herhangi bir olaydan kaçınmak için, Nmap'in davranışına hakim olmanız ve bu eğitimde tartışılan çeşitli seçenekler aracılığıyla onu kullanıldığı bağlama nasıl uyarlayacağınızı bilmeniz gerekir. Nmap'i endüstriyel [donanım] (https://www.it-connect.fr/actualites/actu-materiel/) içeren bir bilgi sisteminde, yerel bir güvenlik duvarı tarafından korunan Windows sistemlerinden oluşan bir kullanıcı ağında veya bir ağ çekirdeğinde aynı şekilde kullanmamız gerekmeyecektir.
+Herhangi bir olaydan kaçınmak için, Nmap'in davranışına hakim olmanız ve bu eğitimde tartışılan çeşitli seçenekler aracılığıyla onu kullanıldığı bağlama nasıl uyarlayacağınızı bilmeniz gerekir. Nmap'i endüstriyel [donanım](https://www.it-connect.fr/actualites/actu-materiel/) içeren bir bilgi sisteminde, yerel bir güvenlik duvarı tarafından korunan Windows sistemlerinden oluşan bir kullanıcı ağında veya bir ağ çekirdeğinde aynı şekilde kullanmamız gerekmeyecektir.
 
 
 
@@ -3521,7 +3521,7 @@ Buradaki fikir, bu yöntemlerden bazılarını açıklamak, farklılıklarını,
 
 
 
-İnceleyeceğimiz ilk TCP tarama türü `Yarı Açık Tarama` olarak da bilinen `TCP SYN Taraması`dır. İlk port taramalarımızdan sonra yaptığımız ağ taramalarını hatırlarsanız, bu, root haklarıyla çalıştırıldığında [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) tarafından varsayılan olarak kullanılan tarama türüdür.
+İnceleyeceğimiz ilk TCP tarama türü `Yarı Açık Tarama` olarak da bilinen `TCP SYN Taraması`dır. İlk port taramalarımızdan sonra yaptığımız ağ taramalarını hatırlarsanız, bu, root haklarıyla çalıştırıldığında [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) tarafından varsayılan olarak kullanılan tarama türüdür.
 
 
 

@@ -22,7 +22,7 @@ ___
 
 
 
-**Tässä ohjeessa opettelemme, miten Linux-koneen tietoturvatarkastus tehdään Lynisin avulla! Niille teistä, jotka eivät tunne **Lynistä,** se on pieni komentorivin apuohjelma, joka analysoi palvelimesi kokoonpanon ja antaa suosituksia koneesi tietoturvan **parantamiseksi.**
+**Tässä ohjeessa opettelemme, miten Linux-koneen tietoturvatarkastus tehdään Lynisin avulla! Niille teistä, jotka eivät tunne Lynistä,** se on pieni komentorivin apuohjelma, joka analysoi palvelimesi kokoonpanon ja antaa suosituksia koneesi tietoturvan **parantamiseksi.**
 
 
 
@@ -321,10 +321,10 @@ Seuraavaksi Lynis luettelee joukon kohtia, jotka vastaavat kaikkea sitä, mitä 
 
 
 
-- Punainen**, kun kriittistä Elements:tä tai parhaita käytäntöjä ei noudateta (esimerkiksi puuttuva paketti), eli palvelimesi ei noudata tätä kohtaa
-- Keltainen** suosituksen ehdotuksille tai osittaiselle noudattamiselle (sanotaan, että tällä värillä korostetun kohdan noudattaminen on plussaa (ei-prioriteetti))
-- Green** kohdissa, joissa palvelinkokoonpano on vaatimustenmukainen
-- Valkoinen**, kun neutraali
+- **Punainen**, kun kriittistä Elements:tä tai parhaita käytäntöjä ei noudateta (esimerkiksi puuttuva paketti), eli palvelimesi ei noudata tätä kohtaa
+- **Keltainen** suosituksen ehdotuksille tai osittaiselle noudattamiselle (sanotaan, että tällä värillä korostetun kohdan noudattaminen on plussaa (ei-prioriteetti))
+- **Green** kohdissa, joissa palvelinkokoonpano on vaatimustenmukainen
+- **Valkoinen**, kun neutraali
 
 
 
@@ -336,7 +336,7 @@ Täältä näemme, että Lynis suosittelee **fail2ban**-asennusta:
 
 
 
-Osiossa "**Boot and services**" (käynnistys ja palvelut**) näemme, että *systemd:n* kautta tapahtuvaa palvelusuojausta voitaisiin parantaa. Positiivista on, että Grub2 on läsnä eikä ongelmia ole:
+Osiossa "**Boot and services**" (käynnistys ja palvelut) näemme, että *systemd:n* kautta tapahtuvaa palvelusuojausta voitaisiin parantaa. Positiivista on, että Grub2 on läsnä eikä ongelmia ole:
 
 
 
@@ -604,10 +604,10 @@ Joitakin tietoja asennetuista paketeista:
 
 
 
-- Clamav** on virustorjuntaohjelma.
-- unattend-upgrades** mahdollistaa päivitysten automaattisen hallinnan ja jopa koneen uudelleenkäynnistyksen tai vanhojen pakettien automaattisen poistamisen, se on täysin konfiguroitavissa.
-- rkhunter** on anti-rootkit, joka skannaa tiedostojärjestelmän.
-- Fail2ban** käyttää lokitiedostojasi sen mukaan, mitä annat sen lukea, ja se toimii **iptables**:n kanssa esimerkiksi kieltääkseen IP-osoitteet, jotka yrittävät "murtaa" palvelimesi SSH:lla.
+- **Clamav** on virustorjuntaohjelma.
+- **unattend-upgrades** mahdollistaa päivitysten automaattisen hallinnan ja jopa koneen uudelleenkäynnistyksen tai vanhojen pakettien automaattisen poistamisen, se on täysin konfiguroitavissa.
+- **rkhunter** on anti-rootkit, joka skannaa tiedostojärjestelmän.
+- **Fail2ban** käyttää lokitiedostojasi sen mukaan, mitä annat sen lukea, ja se toimii **iptables**:n kanssa esimerkiksi kieltääkseen IP-osoitteet, jotka yrittävät "murtaa" palvelimesi SSH:lla.
 
 
 
@@ -820,7 +820,7 @@ Kuvissa tämä antaa:
 
 
 
-**Mikä korkeampi pistemäärä, sen parempi! Sinun on siis parannettava kokoonpanoasi, jotta saavutat mahdollisimman korkean pistemäärän, mutta samalla koneesi ja isännöidyt palvelut voivat toimia normaalisti (mikä tarkoittaa toiminnallisten testien suorittamista).
+**Mitä korkeampi pistemäärä, sen parempi!** Sinun on siis parannettava kokoonpanoasi, jotta saavutat mahdollisimman korkean pistemäärän, mutta samalla koneesi ja isännöidyt palvelut voivat toimia normaalisti (mikä tarkoittaa toiminnallisten testien suorittamista).
 
 
 
@@ -896,4 +896,4 @@ Lopuksi voit myös verrata **Lynistä** muihin työkaluihin, joita on useita. Jo
 
 
 
-**Tämä opetusohjelma on ohi, pidä hauskaa Lynisin kanssa!
+**Tämä opetusohjelma on ohi, pidä hauskaa Lynisin kanssa!**

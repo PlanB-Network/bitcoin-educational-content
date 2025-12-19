@@ -1,0 +1,9 @@
+question: MAC Address을 인위적으로 수정하는 행위란 무엇인가요?
+answer: MAC 스푸핑
+wrong_answers:
+  - MAC 피싱
+  - MAC 스니핑
+  - Mac 키로깅
+explanation: |
+  MAC 스푸핑은 개인 정보 보호 또는 제한을 우회하기 위해 네트워크 Interface의 하드웨어 Address를 변경하는 행위입니다.
+reviewed: false

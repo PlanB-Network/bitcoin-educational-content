@@ -1,5 +1,5 @@
 ---
-name: 公牛 Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: 了解如何使用 Wallet Bull Bitcoin
 ---
 
@@ -15,7 +15,7 @@ description: 了解如何使用 Wallet Bull Bitcoin
 
 
 
-*由**[Bull Bitcoin](https://www.bullbitcoin.com/)** ([create account](https://app.bullbitcoin.com/registration/orangepeel))开发的**Bull Bitcoin Mobile**是一款**自我保管**的Bitcoin Wallet，这意味着您可以完全控制自己的私钥，从而完全控制自己的资金，而无需依赖第三方。该 Wallet 是开源的，根植于 Cypherpunk 理念，集简单性、保密性和跨网络交换及 PayJoin 支持等高级功能于一身。它可以让你在三个网络上管理你的比特币： **Bitcoin onchain**、**Liquid** 和 **Lightning**，每个网络都为特定用途量身定制。
+由**[Bull Bitcoin](https://www.bullbitcoin.com/)** ([create account](https://app.bullbitcoin.com/registration/orangepeel))开发的**Bull Bitcoin Mobile**是一款**自我保管**的Bitcoin Wallet，这意味着您可以完全控制自己的私钥，从而完全控制自己的资金，而无需依赖第三方。该 Wallet 是开源的，根植于 Cypherpunk 理念，集简单性、保密性和跨网络交换及 PayJoin 支持等高级功能于一身。它可以让你在三个网络上管理你的比特币： **Bitcoin onchain**、**Liquid** 和 **Lightning**，每个网络都为特定用途量身定制。
 
 
 
@@ -29,13 +29,13 @@ Wallet 应对了一个重大挑战：Bitcoin 网络收费不适合小额支付�
 
 
 
-- Bitcoin 网络（onchain）**：中长期存储 UTXO 和大额交易的理想选择，其费用按比例计算可忽略不计。
-- Liquid Network**：专为快速（约 2 分钟）、更保密（隐藏金额）、低成本交易而设计，非常适合小额积累或保护您的隐私。
-- 闪电**网络：针对即时、低成本支付进行了优化，适合中小型日常交易。
+- Bitcoin 网络（onchain）：中长期存储 UTXO 和大额交易的理想选择，其费用按比例计算可忽略不计。
+- **Liquid Network**：专为快速（约 2 分钟）、更保密（隐藏金额）、低成本交易而设计，非常适合小额积累或保护您的隐私。
+- 闪电**网络**：针对即时、低成本支付进行了优化，适合中小型日常交易。
 
 
 
-以 Bull Bitcoin Mobile 为例，您可以在**Liquid**或**Lightning**投资组合中积累少量资金，然后，一旦达到相当可观的金额，您就可以.Liquid**或**Lightning**投资组合中积累更多资金：
+以 Bull Bitcoin Mobile 为例，您可以在**Liquid**或**Lightning**投资组合中积累少量资金，然后，一旦达到相当可观的金额，您就可以在**Liquid**或**Lightning**投资组合中积累更多资金：
 
 
 
@@ -70,10 +70,10 @@ Wallet 在不断发展，因此如果您发现本教程与您的最新应用程�
 
 
 
-- 兼容智能手机**：iOS**（iPhone 或 iPad）或安卓**设备
+- 兼容智能手机：**iOS**（iPhone 或 iPad）或**安卓设备**
 - 互联网连接
-- 安全备份介质**：在纸张或金属上写下你的**恢复短语**（12 个字），并将其存放在安全的地方。
-- 基本知识**：对 Bitcoin 概念（地址、交易、费用）有起码的了解是有用的，不过本教程会为初学者解释每个步骤。
+- 安全备份介质：在纸张或金属上写下你的**恢复短语**（12 个字），并将其存放在安全的地方。
+- **基本知识**：对 Bitcoin 概念（地址、交易、费用）有起码的了解是有用的，不过本教程会为初学者解释每个步骤。
 
 
 
@@ -83,10 +83,10 @@ Wallet 在不断发展，因此如果您发现本教程与您的最新应用程�
 
 
 
-- 下载申请表** ：
- - [Google Play 商店](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** 从安卓设备的应用程序商店下载
- - [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) 直接下载安卓设备的 APK**
- - [iOS](https://testflight.apple.com/join/FJbE4JPN)** 通过 TestFlight 为苹果设备下载
+- **下载申请表**：
+- [Google Play 商店](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) 从安卓设备的应用程序商店下载
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) 直接下载安卓设备的 **APK**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) 通过 TestFlight 为苹果设备下载
  - 检查开发人员的姓名（Bull Bitcoin），避免出现欺诈性申请。
  - 确保下载的版本与 GitHub 上显示的最新稳定版本一致。
  - Bull Bitcoin Mobile 是**开源**。查看代码：[BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ Wallet 在不断发展，因此如果您发现本教程与您的最新应用程�
 
 
 
- - 安全 Bitcoin' Wallet**：用于 Bitcoin 网络（链上）的交易
- - 即时支付的 Wallet**：用于 Liquid 和 Lightning 网络上的即时交易
+- 安全 **Bitcoin Wallet**：用于 Bitcoin 网络（链上）的交易
+- 即时支付的 **Wallet**：用于 Liquid 和 Lightning 网络上的即时交易
 
 
 
@@ -151,9 +151,9 @@ Wallet 在不断发展，因此如果您发现本教程与您的最新应用程�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 3.3 确保访问安全 ：
 
@@ -194,8 +194,8 @@ Wallet BullBitcoin 默认连接到 Electrum 服务器：第一个服务器由 Bu
 
 
   - 长期保护**Bitcoin（onchain）** 网络、
-  - Liquid**网络，实现更快、更多的Confidential Transactions、
-  - 闪电**网络进行即时、低额支付。
+- **Liquid网络**，实现更快、更多的Confidential Transactions、
+- 闪电**网络**进行即时、低额支付。
 
 
 
@@ -241,7 +241,7 @@ Wallet BullBitcoin 默认连接到 Electrum 服务器：第一个服务器由 Bu
 
 
 - 这样就可以访问可选的高级参数。您可以指定 ：
- - 以 BTC、Sats 或法定货币表示的***金额。
+- 以 BTC、Sats 或法定货币表示的**金额**。
  - 在 URI / QR 码副本中附上**个人说明**。
  - 激活 **PayJoin**（详见附录 3），通过合并发件人和收件人条目提高保密性。
 
@@ -249,7 +249,7 @@ Wallet BullBitcoin 默认连接到 Electrum 服务器：第一个服务器由 Bu
 
 
 
-- 自动生成 URI 的示例** ：
+- **自动生成 URI 的示例**：
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- 使用**：复制 URI 与发件人共享，或让他扫描二维码。
+- 使用**复制 URI 与发件人共享，或让他扫描二维码**。
 
 
 
@@ -297,7 +297,7 @@ bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
 
 
 
-- 使用**：复制 Address 与发件人共享，或让他扫描二维码。
+- 使用**复制**：复制 Address 与发件人共享，或让他扫描二维码。
 
 
 
@@ -308,7 +308,7 @@ bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
 
 
 - 为什么每次交易都要使用新的 Address？这样可以**保护您的隐私**，防止多笔付款被链接到同一个 Address，并限制在 Blockchain 上进行跟踪的可能性。
- - 默认情况下，公牛 Bitcoin 会自动生成一个未使用的 Address.**。
+- 默认情况下，公牛 Bitcoin 会自动生成一个未使用的 Address。
  - 点击屏幕下方的**"新建 Address"**，即可强制创建新的 Address。
  - 您的所有地址都与 seed 短语相关联：无论您使用多少个地址，您的投资组合都将显示单一余额，并可在发货时自动合并资金。
 
@@ -316,7 +316,7 @@ bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq
 
 
 
-- 提示：始终使用公牛 Bitcoin 提供的新 Address**，除非您有特殊需要（如接收捐赠的公共 Address）。
+- 提示：始终使用公牛 Bitcoin 提供的新 **Address**，除非您有特殊需要（如接收捐赠的公共 Address）。
 
 
 
@@ -412,29 +412,29 @@ liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xh
 
 
 
-- 机制**：公牛 Bitcoin Wallet 是一款能够通过 "闪电 "进行支付和接收的 Wallet。通过**Boltz**自动交换，通过闪电收到的资金将存储在**Liquid**网络（Wallet即时支付中）。这使您能够与 Lightning 进行互动，而无需管理流动性渠道，同时保持自我保管。
+- 机制：公牛 Bitcoin Wallet 是一款能够通过 "闪电 "进行支付和接收的 Wallet。通过 **Boltz** 自动交换，通过闪电收到的资金将存储在 **Liquid** 网络（Wallet即时支付中）。这使您能够与 Lightning 进行互动，而无需管理流动性渠道，同时保持自我保管。
 
 
 
 
 
-- 限制：**
- - 购买 generate 和 Invoice 时，最低金额**为 100 星（截至 2025 年 7 月 19 日）。
- - 您支付的费用**将从发件人发送的金额中扣除，这与使用 Wallet Lightning native 接收不同，在后者中，只有发件人在发送金额之外支付转账费用。截至 2025 年 7 月 19 日，47 Sats 将从发送金额中扣除。
+- 限制：
+- 购买 generate 和 Invoice 时，最低金额**为 100 星**（截至 2025 年 7 月 19 日）。
+- 您支付的费用**将从发件人发送的金额中扣除，这与使用 Wallet Lightning native 接收不同，在后者中，只有发件人在发送金额之外支付转账费用**。截至 2025 年 7 月 19 日，47 Sats 将从发送金额中扣除。
 
 
 
 
 
-- 福利** ：
- - 自我监护**：您的资金仍由您控制，存储在 Liquid Network 上。
- - 没有高昂的链上费用**：存储在 Liquid 上可避免为开通闪电通道或增加流动性而支付高昂的链上存款费用。当 Liquid 上积累的金额足以支付相关费用时，您可以稍后再进行这些操作。
+- **福利**：
+- **自我监护**：您的资金仍由您控制，存储在 Liquid Network 上。
+- 没有高昂的链上费用：存储在 Liquid 上可避免为开通闪电通道或增加流动性而支付高昂的链上存款费用。当 Liquid 上积累的金额足以支付相关费用时，您可以稍后再进行这些操作。
 
 
 
 
 
-- 提示：** 如果发送方有 Wallet Bull Bitcoin，请直接使用 Liquid Network，以避免交换费
+- 提示：**如果发送方有 Wallet Bull Bitcoin，请直接使用 Liquid Network，以避免交换费**
 
 
 
@@ -456,13 +456,13 @@ liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xh
 
 
 
-- Invoice 有效期：** 闪电 Invoice 的有效期为**12 小时**。过期作废，不能再支付。必须生成新的 Invoice。
+- Invoice 有效期：**闪电 Invoice 的有效期为 12 小时**。过期作废，不能再支付。必须生成新的 Invoice。
 
 
 
 
 
-- 使用**：复制 Invoice 与发件人共享，或让他扫描二维码。
+- 使用**复制**：复制 Invoice 与发件人共享，或让他扫描二维码。
 
 
 
@@ -563,27 +563,27 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A
 
 
 
-- 费用**：您可以选择 ：
-  - 您的交易执行速度**和相关费用都会估算出来。
-  - 以绝对费用（总费用，单位为卫星）或相对费用（每字节费用）模式计算费用**，并估算您的交易速度
+- 费用：您可以选择：
+- 您的交易执行速度和相关费用都会估算出来。
+- 以绝对费用（总费用，单位为卫星）或相对费用（每字节费用）模式计算费用，并估算您的交易速度
 
 
 
 
 
-- 高级设置** ：
+- **高级设置**：
 
 
 
 
 
- - Replace-by-fee (RBF)** ：默认情况下已激活，该功能通过支付更高的费用来加快交易速度（详见附录 4）。
+- **Replace-by-fee (RBF)**：默认情况下已激活，该功能通过支付更高的费用来加快交易速度（详见附录 4）。
 
 
 
 
 
- - 手动选择 UTXO**：如果您的资金存储在多个不同的 Wallet 地址，您可以选择发送资金的地址。为什么要这样做？随着 Bitcoin 的采用率越来越高，转账费用也在增加。从多个地址发送小额资金比从单个 Address 发送资金更贵，但现在这样做可以避免日后费用更高时再这样做。这就是所谓的**UTXO 合并**。
+- 手动选择 UTXO：如果您的资金存储在多个不同的 Wallet 地址，您可以选择发送资金的地址。为什么要这样做？随着 Bitcoin 的采用率越来越高，转账费用也在增加。从多个地址发送小额资金比从单个 Address 发送资金更贵，但现在这样做可以避免日后费用更高时再这样做。这就是所谓的 **UTXO 合并**。
 
 
 
@@ -593,7 +593,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=0.000006&pj=HTTPS%3A
 
 
 
-- 使用 PayJoin** 发送：如果提供 URI 的收件人已激活该功能，例如 ：
+- 使用 **PayJoin** 发送：如果提供 URI 的收件人已激活该功能，例如：
 
 
 
@@ -679,7 +679,7 @@ liquidnetwork:lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xh
 
 
 
-- 费用**：与交易的复杂程度成比例，一般按 0.1 Sat/vB 计算，即简单交易为 20-40 Satoshis（7/22/2025 时为 33 Sats）。
+- 费用：与交易的复杂程度成比例，一般按 0.1 Sat/vB 计算，即简单交易为 20-40 Satoshis（7/22/2025 时为 33 Sats）。
 
 
 
@@ -750,29 +750,29 @@ lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8
 
 
 
-- 机制**：资金从**即时支付 Wallet** (Liquid)中提取，并通过**Liquid → Lightning** 与**Boltz**的交换进行转换。
+- 机制：资金从**即时支付 Wallet** (Liquid)中提取，并通过**Liquid → Lightning** 与**Boltz**的交换进行转换。
 
 
 
 
 
-- 限制：**
- - 最低**量高于 Wallet 闪电本机（见上文）
- - 支出**加 Liquid → 通过 Boltz 进行闪电交换
+- 限制：
+- 最低**量高于 Wallet 闪电本机**（见上文）
+- 支出**加** Liquid → 通过 Boltz 进行闪电交换
 
 
 
 
 
-- 福利** ：
- - 自我监管**：您的资金仍在您的控制之下，存储在 Liquid Network 上，如有需要，可通过 "闪电 "转账
- - 没有高昂的链上费用**：存储在 Liquid 上，为您节省了开通闪电通道或增加流动性所需的高昂链上存款费用。当 Liquid 上积累的金额足以支付相关费用时，您可以稍后再进行这些操作。
+- **福利**：
+- 自我监管：您的资金仍在您的控制之下，存储在 Liquid Network 上，如有需要，可通过 "闪电" 转账
+- 没有高昂的链上费用：存储在 Liquid 上，为您节省了开通闪电通道或增加流动性所需的高昂链上存款费用。当 Liquid 上积累的金额足以支付相关费用时，您可以稍后再进行这些操作。
 
 
 
 
 
-- 提示：** 如果收件人有 Wallet Bull Bitcoin，请直接使用 Liquid Network，以避免交换成本
+- 提示：**如果收件人有 Wallet Bull Bitcoin，请直接使用 Liquid Network，以避免交换成本**
 
 
 
@@ -793,7 +793,7 @@ lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8
 
 
 
-*通过**Bull Bitcoin Mobile**，可轻松跟踪您在**Bitcoin（onchain）**、**Liquid**和**Lightning**网络上的交易。历史记录可通过两种方式访问，并显示每类交易的详细信息。您也可以使用外部区块浏览器查看您的交易。
+通过**Bull Bitcoin Mobile**，可轻松跟踪您在**Bitcoin（onchain）**、**Liquid**和**Lightning**网络上的交易。历史记录可通过两种方式访问，并显示每类交易的详细信息。您也可以使用外部区块浏览器查看您的交易。
 
 
 
@@ -815,9 +815,9 @@ lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8
 
 
 
-- 通过专用网页** ：
+- 通过专用网页：
  - 在主屏幕上，点击**历史符号**（时钟图标或类似图标）。
- - 访问列出所有交易的页面，可按操作类型进行筛选： **发送**、接收**、交换**、PayJoin**、卖出**、买入**（注：卖出和买入正在开发中，2025 年 7 月 20 日暂时不可用）。
+- 访问列出所有交易的页面，可按操作类型进行筛选：**发送**、**接收**、**交换**、**PayJoin**、**卖出**、**买入**（注：卖出和买入正在开发中，2025 年 7 月 20 日暂时不可用）。
 
 
 
@@ -864,57 +864,57 @@ lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8
 
 
 
-- Wallet 备份**：显示用于安全备份的组合恢复短语。有关管理和存储恢复短语的最佳做法，请参阅第 3 节 "组合创建"。
+- **Wallet 备份**：显示用于安全备份的组合恢复短语。有关管理和存储恢复短语的最佳做法，请参阅第 3 节 "组合创建"。
 
 
 
 
 
-- Wallet 详情** ：
- - Pubkey**：与 Wallet 相关联的公开密钥，用于 generate Bitcoin 接收地址。
- - 派生路径**：用于从私人密钥获取 generate Wallet 地址的派生路径。
+- **Wallet 详情**：
+- **Pubkey**：与 Wallet 相关联的公开密钥，用于 generate Bitcoin 接收地址。
+- 派生路径：用于从私人密钥获取 **generate Wallet** 地址的派生路径。
 
 
 
 
 
-- Electrum 服务器（Bitcoin 节点）**：建立与定制的 Bitcoin 节点的连接，用于链上交易。
+- Electrum 服务器（Bitcoin 节点）：建立与定制的 Bitcoin 节点的连接，用于链上交易。
 
 
 
 
 
-- PIN 码**：激活和/或修改安全密码，以保护对应用程序和 Wallet 功能的访问。
+- **PIN 码**：激活和/或修改安全密码，以保护对应用程序和 Wallet 功能的访问。
 
 
 
 
 
-- 货币**：选择以 BTC 或 Sats 以及默认法定货币（美元、欧元等）显示金额。
+- **货币**：选择以 BTC 或 Sats 以及默认法定货币（美元、欧元等）显示金额。
 
 
 
 
 
-- 自动交换设置**：自动交换 "功能允许您自动将您的 BTC 从**即时支付 Wallet (Liquid)** 转至您的**Bitcoin On-Chain** Wallet，只要金额达到您认为足以支付交易费的阈值。
+- 自动交换设置：**自动交换**功能允许您自动将您的 BTC 从**即时支付 Wallet (Liquid)** 转至您的**Bitcoin On-Chain** Wallet，只要金额达到您认为足以支付交易费的阈值。
 
 
 
 
 
-- 日志**：可查看活动日志，这些日志可与技术支持共享，以方便故障排除。
+- 日志：可查看活动日志，这些日志可与技术支持共享，以方便故障排除。
 
 
 
 
 
-- Telegram 访问支持** ：直接链接到官方 Telegram 频道，为用户提供帮助。
+- **Telegram 访问支持**：直接链接到官方 Telegram 频道，为用户提供帮助。
 
 
 
 
 
-- Github 访问** ：链接到[Bull Bitcoin Github 代码库](https://github.com/SatoshiPortal) 以查看开放源代码或报告问题。
+- Github 访问：链接到[Bull Bitcoin Github 代码库](https://github.com/SatoshiPortal) 以查看开放源代码或报告问题。
 
 
 
@@ -956,7 +956,7 @@ lnbc210n1p58hhk6bullbitcoint4a9jq34dmrmcrursjmw3wjf8elz0nxtdsw9pscqzyssp52jg9dm8
 
 
 
-- 接收**（Address Supply）：PayJoin 默认已启用。
+- 接收**地址供应**（Address Supply）：PayJoin 默认已启用。
 - 发送** ：例如，Wallet 会自动检测 PayJoin URI 并对交易进行相应配置：
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- 增强保密性**：PayJoin 使交易中所有条目均属于单一实体的假设失效。有了 PayJoin，输入来自发送方和接收方，从而打破了这一假设。
-- 金额屏蔽** ：实际交换金额不直接显示在输出中。它是根据接收方的 UTXO 入站和出站之间的差额计算出来的，从而使分析具有误导性。
+- 增强保密性：PayJoin 使交易中所有条目均属于单一实体的假设失效。有了 PayJoin，输入来自发送方和接收方，从而打破了这一假设。
+- **金额屏蔽**：实际交换金额不直接显示在输出中。它是根据接收方的 UTXO 入站和出站之间的差额计算出来的，从而使分析具有误导性。
 
 
 
@@ -994,8 +994,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [术语表](https://planb.network/fr/resources/glossary/PayJoin)
-- Chapitre [Les transactions PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
+- [术语表](https://planb.academy/fr/resources/glossary/payjoin)
+- Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [术语表](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [术语表](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1038,15 +1038,15 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- 确保您的恢复短语** ：
- - 教程：[Save your Mnemonic phrase](https://planb.network/fr/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
+- 确保您的恢复短语**安全**：
+ - 教程：[Save your Mnemonic phrase](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+ - Cours [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
 
 
 
-- 使用安全验证** ：
+- 使用**安全验证**：
  - 激活**强密码**或**生物认证**（指纹或面部识别），以保护对应用程序的访问。
  - 切勿共享您的 PIN 码或生物识别数据。
 
@@ -1054,7 +1054,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- 保护您的隐私** ：
+- **保护您的隐私**：
  - generate 为每个链上或 Liquid 接收创建一个新的 Address，以限制对 Blockchain 的跟踪。
  - 有条件时使用 PayJoin，以提高链上发送量的保密性
  - 为了最大限度地保密，请通过 Electrum 服务器将您的 Wallet 连接到您自己的 Bitcoin 节点，而不要使用公共节点
@@ -1063,23 +1063,23 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- 选择最适合您需求的网络** ：
- - Onchain**：长期托管或大额交易的首选（费用与金额相比可忽略不计）。
- - Liquid***：用于快速、低成本传输，保密性更强。
- - 闪电**：选择即时、低成本的小额转账。如果您是两个 Wallet Bull Bitcoin 用户，请选择 Liquid，以避免通过 Boltz 的闪电 <> Liquid 掉期费用。
+- 选择最适合您需求的**网络**：
+- **Onchain**：长期托管或大额交易的首选（费用与金额相比可忽略不计）。
+- **Liquid**：用于快速、低成本传输，保密性更强。
+- **闪电**：选择即时、低成本的小额转账。如果您是两个 Wallet Bull Bitcoin 用户，请选择 Liquid，以避免通过 Boltz 的闪电 <> Liquid 掉期费用。
 
 
 
 
 
-- 请务必检查送货地址** ：
+- 请务必检查**送货地址**：
  - 汇款前，请仔细检查 Address。发送到错误 Address 的资金将永远丢失。使用复制/粘贴或二维码扫描，切勿手工复制/修改 Address。
 
 
 
 
 
-- 优化成本** ：
+- **优化成本**：
  - 对于链上交易，根据紧急程度和网络拥塞情况选择适当的收费（慢、中、快）。
  - 少量使用 Liquid 或 Lightning。
  - 如果预计需要加快确认速度，请为链上装运激活 Replace-by-fee (RBF) （见附录 4）。
@@ -1099,18 +1099,18 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- 官方链接和支持：**
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : 支持电子邮件
- - [Bull Bitcoin 官方网站](https://bullbitcoin.com/) :** 有关 Bull Bitcoin 服务、创建账户、访问应用程序的信息
- - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** 查看代码、演进和路线图，为开发做出贡献...
- - [Account X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
- - Wallet 移动电话的 Telegram** 群组：与支持人员群聊，请参见 "设置 "页面。
+- 官方链接和支持：
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : 支持电子邮件
+- [Bull Bitcoin 官方网站](https://bullbitcoin.com/)：有关 Bull Bitcoin 服务、创建账户、访问应用程序的信息
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile)：查看代码、演进和路线图，为开发做出贡献...
+- [Account X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
+- **Wallet 移动电话的 Telegram** 群组：与支持人员群聊，请参见 "设置 "页面。
 
 
 
 
 
-- 街区探险家：**
+- 街区探险家：
  - on chain ： **[Mempool.space](https://Mempool.space/)**
  - Liquid ： **[Blockstream Info](https://blockstream.info/Liquid)**
  - 闪电 **[1ML (Lightning Network)](https://1ml.com/)**
@@ -1119,39 +1119,39 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- 学习和教程：** ** [Plan ₿ Network](https://planb.network/)** ：
+- 学习和教程：**[Plan ₿ Academy](https://planb.academy/)**：
  - 保护您的恢复短语
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
-
-
-- Liquid Network** ：
- - [词汇](https://planb.network/resources/glossary/Liquid-network)**
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+- **Liquid Network**：
+- [词汇](https://planb.academy/resources/glossary/liquid-network)
+
+
+
+
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 
-- Lightning Network** ：
- - [词汇](https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**：
+- [词汇](https://planb.academy/resources/glossary/lightning-network)
 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 ### A5.公牛 Bitcoin
@@ -1184,31 +1184,31 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-- 独家关注 Bitcoin** ：该平台实现了去中心化、抗审查货币的愿景。
+- 独家关注 **Bitcoin** ：该平台实现了去中心化、抗审查货币的愿景。
 
 
 
 
 
-- 非托管** ：用户将资金汇入自己的投资组合，从而保留对比特币的完全控制权。
+- **非托管**：用户将资金汇入自己的投资组合，从而保留对比特币的完全控制权。
 
 
 
 
 
-- 保密性**：最大限度减少个人数据收集，999 美元以下的交易可选择免 KYC 购买。数据受相关法规（加拿大 FINTRAC、法国 AMF）保护。
+- **保密性**：最大限度减少个人数据收集，999 美元以下的交易可选择免 KYC 购买。数据受相关法规（加拿大 FINTRAC、法国 AMF）保护。
 
 
 
 
 
-- 透明**：无隐藏费用，成本包含在价差（买卖价格之间的差额）中。
+- **透明**：无隐藏费用，成本包含在价差（买卖价格之间的差额）中。
 
 
 
 
 
-- 金融主权**：Bitcoin 号公牛提倡独立于传统银行系统和中央机构。
+- **金融主权**：Bitcoin 号公牛提倡独立于传统银行系统和中央机构。
 
 
 
@@ -1218,19 +1218,19 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-- 法币存款** ：用户可以在指定的加拿大邮局通过银行转账或现金/借记卡为公牛 Bitcoin 账户存入法定货币（加元、欧元等）。
+- **法币存款**：用户可以在指定的加拿大邮局通过银行转账或现金/借记卡为公牛 Bitcoin 账户存入法定货币（加元、欧元等）。
 
 
 
 
 
-- 购买 Bitcoin** ：用户可以购买 Bitcoin，直接发送到他们的非存款组合中，保证对资金的完全控制。
+- 购买 **Bitcoin** ：用户可以购买 Bitcoin，直接发送到他们的非存款组合中，保证对资金的完全控制。
 
 
 
 
 
-- 定期购买 Bitcoin**：公牛 Bitcoin 提供定期自动循环购买服务（DCA - 美元成本平均法），利用您的可用余额，将比特币直接转移到用户控制的 Wallet，减少价格波动的影响。
+- 定期购买 **Bitcoin**：公牛 Bitcoin 提供定期自动循环购买服务（DCA - 美元成本平均法），利用您的可用余额，将比特币直接转移到用户控制的 Wallet，减少价格波动的影响。
 
 
 
@@ -1241,37 +1241,37 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-- 以固定价格买入 Bitcoin 的 "限价订单 "**：允许您以用户预先指定的价格买入 Bitcoin，当公牛 Bitcoin 指数价格达到或低于设定限价时，限价自动执行。
+- 以固定价格买入 Bitcoin 的 **"限价订单"**：允许您以用户预先指定的价格买入 Bitcoin，当公牛 Bitcoin 指数价格达到或低于设定限价时，限价自动执行。
 
 
 
 
 
-- 出售 Bitcoin**：用户可以出售比特币，并通过银行或 SEPA 转账将资金以法定货币直接存入自己的银行账户。
+- 出售 **Bitcoin**：用户可以出售比特币，并通过银行或 SEPA 转账将资金以法定货币直接存入自己的银行账户。
 
 
 
 
 
-- 第三方支付**：Bull Bitcoin 可以让用户用比特币向银行账户发送法币，对收款人完全透明。
+- 第三方支付：Bull Bitcoin 可以让用户用比特币向银行账户发送法币，对收款人完全透明。
 
 
 
 
 
-- 公牛 Bitcoin Prime**：公牛 Bitcoin Prime 是专为高净值客户和企业客户提供的高级服务，可提供定制解决方案和高级支持。其中包括享受费用减免、专职账户经理和量身定制的企业服务。这项服务面向寻求深入专业知识和优先待遇的机构、专业交易商和企业客户。
+- 公牛 **Bitcoin Prime**：公牛 Bitcoin Prime 是专为高净值客户和企业客户提供的高级服务，可提供定制解决方案和高级支持。其中包括享受费用减免、专职账户经理和量身定制的企业服务。这项服务面向寻求深入专业知识和优先待遇的机构、专业交易商和企业客户。
 
 
 
 
 
-- 移动 Wallet**：公牛 Bitcoin 提供开源的自托管移动 Wallet，可在 Android 和 iOS 上使用，支持链上交易、Liquid 和 Lightning Network 交易。
+- 移动 **Wallet**：公牛 Bitcoin 提供开源的自托管移动 Wallet，可在 Android 和 iOS 上使用，支持链上交易、Liquid 和 Lightning Network 交易。
 
 
 
 
 
-- 教育支持**：免费指南和个性化辅导，帮助用户创建、保护和管理自己的 Bitcoin 投资组合，加强财务自主性。
+- 教育支持：免费指南和个性化辅导，帮助用户创建、保护和管理自己的 Bitcoin 投资组合，加强财务自主性。
 
 
 
@@ -1281,10 +1281,10 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-- 监管**：公牛 Bitcoin 已在加拿大 FINTRAC 和法国 AMF 注册，符合 KYC/AML 要求。
+- 监管：公牛 Bitcoin 已在加拿大 FINTRAC 和法国 AMF 注册，符合 KYC/AML 要求。
 
 
 
 
 
-- 安全**：使用安全的投资组合和离线存储建议。个人数据托管在公牛的 Bitcoin 基础设施上，该基础设施 100% 自托管，不依赖任何第三方。
+- **安全**：使用安全的投资组合和离线存储建议。个人数据托管在公牛的 Bitcoin 基础设施上，该基础设施 100% 自托管，不依赖任何第三方。

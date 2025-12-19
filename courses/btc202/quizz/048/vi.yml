@@ -1,0 +1,9 @@
+question: Lệnh nào sẽ lấy IP cục bộ Address của Umbrel nếu truy cập qua umbrel.local không thành công?
+answer: tên máy chủ -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  Trong trường hợp phát hiện sự cố, bạn có thể sử dụng lệnh hostname -I trên máy Umbrel để tìm ra IP cục bộ của máy đó.
+reviewed: true

@@ -1,8 +1,12 @@
-question: Yayınlanan ilk Bitcoin yazılımının sürümü nedir?
-answer: Bitcoin-0.1.0.
+question: Bitcoin ağında bir Bitcoin düğümünün rolü nedir?
+answer: Yeni blokları ve dahil edilen işlemleri doğrular.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
+  - Yeni Bitcoinler yaratır ve bunları bloklara yerleştirir.
+  - Bitcoin'in fiyatını düzenler.
+  - Bitcoin ağını yönetir.
+explanation: |
+  Bitcoin ağındaki bir Bitcoin düğümü şu işlemleri gerçekleştirir
+  yeni blokların ve dahil edilen işlemlerin doğrulanması. Bu
+  gW-3 düğümlerinden oluşan bu ağ, onu gerçekten
+  merkezi olmayan.
 reviewed: true

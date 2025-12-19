@@ -1,0 +1,10 @@
+question: 이 3가지 프로토콜 중 CoinJoin의 구현이 아닌 프로토콜은 무엇인가요?
+answer: 연쇄 분석.
+wrong_answers:
+  - JoinMarket.
+  - 와비사비.
+  - Whirlpool.
+explanation: |
+  체인널리시스는 Blockchain 분석 회사이기 때문에 CoinJoin를 구현하지 않습니다.
+  
+reviewed: true

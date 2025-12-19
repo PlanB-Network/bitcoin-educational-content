@@ -1,0 +1,8 @@
+question: Tantangan konversi endianness spesifik apa yang harus ditangani oleh node Bitcoin ketika membangun dan memverifikasi pohon Merkle dari data transaksi?
+answer: Hash transaksi harus dibalik dari format serialisasi little-endian ke big-endian untuk komputasi pohon internal, kemudian dibalik kembali untuk penyimpanan
+wrong_answers:
+  - Header blok harus dikonversi dari big-endian ke little-endian sebelum menghitung akar Merkle agar sesuai dengan format transmisi jaringan
+  - Akar Merkle terakhir harus dikonversi dari big-endian ke little-endian hanya ketika mentransmisikan ke node lain melalui pesan P2P
+  - ID transaksi disimpan dalam format big-endian tetapi harus dikonversi ke little-endian sebelum melakukan hashing pasangan di pohon Merkle
+explanation: |
+  Konstruksi pohon Merkle Bitcoin melibatkan langkah konversi endian yang sangat penting. Walaupun data blok yang diserialisasikan menggunakan format little-endian, komputasi pohon Merkle internal membutuhkan hash big-endian. Node harus membalikkan hash transaksi dari format little-endian yang diserialisasikan ke big-endian sebelum konstruksi pohon, kemudian membalikkan akar akhir kembali ke little-endian untuk disimpan di header blok. Konversi ini sangat penting untuk verifikasi yang tepat.

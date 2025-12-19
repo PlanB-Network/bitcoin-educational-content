@@ -6,4 +6,4 @@ wrong_answers:
   - Bob reçoit automatiquement les fonds dans le canal
 explanation: |
   Sans la signature de Bob sur la transaction de retrait, Alice ne peut pas garantir la récupération de ses fonds en cas de problème, ce qui pose un risque de perte.
-reviewed: false
+reviewed: true 

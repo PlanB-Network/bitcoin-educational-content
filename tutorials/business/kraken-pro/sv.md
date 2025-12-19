@@ -14,7 +14,7 @@ I denna handledning kommer vi att täcka processen för att skapa ett Kraken-fö
 Om du är intresserad av att integrera Bitcoin i ditt företag rekommenderar jag också att du tar del av vår kompletta teoretiska utbildning i ämnet:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Skapa ett företagskonto för Kraken
 
@@ -22,7 +22,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 Det första steget i att använda Kraken för att hantera ditt företags ekonomi är naturligtvis att skapa ett konto. Här ska vi inte skapa ett konto för privatpersoner utan ett företagskonto, som inte bara säkerställer regelefterlevnad utan också erbjuder specialanpassade funktioner som redovisningsexport.
 
 
-Gå till den officiella webbplatsen [kraken.com] (https://www.kraken.com/) och klicka på knappen "*Sign Up*".
+Gå till den officiella webbplatsen [kraken.com](https://www.kraken.com/) och klicka på knappen "*Sign Up*".
 
 
 ![KRAKEN](assets/fr/01.webp)
@@ -87,8 +87,8 @@ När ditt konto har verifierats kommer du att få tillgång till plattformen dä
 
 
 
-- Kraken**: En förenklad Interface med viktiga funktioner.
-- Kraken Pro**: En avancerad Interface med ytterligare funktioner, särskilt för handel.
+- **Kraken**: En förenklad Interface med viktiga funktioner.
+- **Kraken Pro**: En avancerad Interface med ytterligare funktioner, särskilt för handel.
 
 
 Om ditt mål enbart är att köpa och sälja Bitcoin ska du välja den förenklade Interface. Du kommer alltid att ha möjlighet att byta till den avancerade Interface senare om det behövs.
@@ -115,7 +115,7 @@ I 2FA-alternativen kan du välja att använda en fysisk säkerhetsnyckel som en 
 För mer information om hur du använder den här typen av enhet, se vår dedikerade handledning:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Det andra alternativet är att använda en autentiseringsapplikation som Google Authenticator eller Authy. Dessa applikationer generate en dynamisk 6-siffrig kod som du måste ange varje gång du loggar in.
 
@@ -132,14 +132,14 @@ För att aktivera denna metod, skanna QR-koden med den applikation du väljer p�
 För mer information om autentiseringsapplikationer kan du också läsa denna handledning:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Därunder har du också tillgång till avancerade inställningar, inklusive möjligheten att ställa in flera olika 2FA. Kraken erbjuder avancerad säkerhetsdelegering via 2FA. Med den här funktionen kan du skapa olika 2FA-nivåer för olika åtgärder, till exempel inloggning, ordervalidering och fonduttag. Detta gör det möjligt att till exempel ge en revisor tillgång till vissa funktioner utan att tillåta honom eller henne att ta ut pengar. Här är alternativen:
 
 
 
 
-- Huvudnyckeln** fungerar som en återställningsmekanism som ska användas om du inte kan komma åt din vanliga 2FA-metod för att logga in;
+- **Huvudnyckeln** fungerar som en återställningsmekanism som ska användas om du inte kan komma åt din vanliga 2FA-metod för att logga in;
 - **2FA för finansiering** kräver ytterligare autentisering för alla uttagstransaktioner eller när du skapar en insättning Address, vilket stärker säkerheten för dina medel;
 - Med **2FA för handel** införs en 2FA för varje transaktion som utförs på kontot.
 
@@ -233,9 +233,9 @@ För dessa transaktioner kan du välja mellan olika ordertyper: *Marknad*, *Limi
 
 
 
-- Marknad*: Tillåter omedelbart köp till aktuellt marknadspris;
-- Begränsa*: Låter dig ange ett inköpspris, och ordern kommer endast att utföras om marknadspriset når detta belopp;
-- Stop-Loss*: Säljer automatiskt när kursen når ett visst tröskelvärde.
+- **Marknad**: Tillåter omedelbart köp till aktuellt marknadspris;
+- **Begränsa**: Låter dig ange ett inköpspris, och ordern kommer endast att utföras om marknadspriset når detta belopp;
+- **Stop-Loss**: Säljer automatiskt när kursen når ett visst tröskelvärde.
 
 
 ## 7 - Transaktionshantering och redovisning
@@ -320,4 +320,4 @@ Beroende på ditt företags mål och struktur kan användningen av Kraken varier
 För en mer djupgående titt på detta ämne rekommenderar jag denna omfattande utbildningskurs om att integrera Bitcoin i företag, som i detalj täcker att lägga till kassaflöde, acceptera Bitcoin-betalningar och redovisning:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

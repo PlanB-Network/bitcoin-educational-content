@@ -1,5 +1,5 @@
 ---
-name: BTC-kartta
+name: BTC Map
 description: Etsi paikkoja, joissa voit viettää Sats
 ---
 ![cover](assets/cover.webp)
@@ -247,7 +247,7 @@ Huomaat heti oranssin väriset alueet. Kuten näet, nämä ovat eri Bitcoin-yhte
 
 
 
-BTC Mapin avulla voit [lisätä oman yhteisön] (https://btcmap.org/communities/add/), katsotaanpa sitä askel askeleelta:
+BTC Mapin avulla voit [lisätä oman yhteisön](https://btcmap.org/communities/add/), katsotaanpa sitä askel askeleelta:
 
 
 

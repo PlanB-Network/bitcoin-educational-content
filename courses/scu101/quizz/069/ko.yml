@@ -1,0 +1,9 @@
+question: DOH(DNS over HTTPS) 및 DOT(DNS over TLS) 사용의 장점은 무엇인가요?
+answer: DNS 연결을 암호화하여 개인 정보 보호 및 보안을 강화하고 중간자 공격을 방지합니다.
+wrong_answers:
+  - 인터넷 연결 속도가 빨라집니다.
+  - 모든 광고를 차단합니다.
+  - 차단된 웹사이트에 대한 액세스를 허용합니다.
+explanation: |
+  DOH(DNS over HTTPS) 및 DOT(DNS over TLS)는 DNS 연결을 암호화하여 개인 정보 보호 및 보안을 강화합니다. 이러한 프로토콜은 보안이 강화되어 기업에서 널리 사용되며 Windows, Android 및 iPhone에서 기본적으로 지원됩니다. 중간자 공격을 방지하여 개인 정보 보호 및 보안을 향상시킵니다.
+reviewed: true

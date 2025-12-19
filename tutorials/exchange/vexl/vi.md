@@ -188,4 +188,4 @@ Giờ đây, bạn có thể bắt đầu giao dịch bitcoin ẩn danh và an t
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

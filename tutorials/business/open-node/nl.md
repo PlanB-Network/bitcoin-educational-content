@@ -1,5 +1,5 @@
 ---
-name: Open knooppunt
+name: Open Node
 
 description: Open Node instellen voor uw online bedrijf
 

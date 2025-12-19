@@ -1,10 +1,9 @@
-question: Siapa itu cypherpunks?
-answer: Sebuah kelompok orang yang mulai mempertanyakan secara mendalam peran privasi dan kebebasan di era digital.
+question: Apa tiga fungsi utama dari uang?
+answer: Penyimpan nilai, Alat tukar, Satuan hitung
 wrong_answers:
-  - Sebuah kelompok peretas yang mencuri informasi dari pemerintah.
-  - Sebuah kelompok orang yang menciptakan Bitcoin.
-  - Sebuah kelompok orang yang menentang penggunaan teknologi.
+  - Penyimpan nilai, Alat tukar, Sarana produksi
+  - Penyimpan nilai, Sarana produksi, Satuan hitung
+  - Alat tukar, Sarana produksi, Satuan hitung
 explanation: |
-  Cypherpunks adalah kelompok individu yang percaya bahwa kriptografi
-  dapat berfungsi sebagai alat untuk melindungi hak individu dari gangguan pemerintah
-  dan korporasi besar.
+  Menurut Aristoteles, uang memiliki tiga fungsi: sebagai penyimpan nilai, alat tukar, dan satuan hitung. Meskipun saat ini, secara luas diakui bahwa fungsi alat tukar mendahului dua fungsi lainnya.
+reviewed: true

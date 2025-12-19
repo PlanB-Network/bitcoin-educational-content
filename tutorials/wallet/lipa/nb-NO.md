@@ -10,7 +10,7 @@ Lynlommebøker, som alle mobile lommebøker, regnes som "varme" lommebøker ford
 
 Hvis du vil lære mer om Lightning-nettverket og forstå hvordan det fungerer rent teknisk, anbefaler jeg at du tar dette kurset:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 I denne veiledningen tar vi en titt på **Lipa**, en enkel og effektiv lynlommebok utviklet i Sveits.
 
@@ -31,7 +31,7 @@ Viktige funksjoner inkluderer:
 Det første trinnet er å laste ned Lipa-appen. For øyeblikket er den bare tilgjengelig på iOS :
 
 
-- [For Apple] (https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- [For Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
 
 Android-versjonen er under utvikling og vil snart være tilgjengelig.
 
@@ -52,10 +52,10 @@ Når du har valgt et alternativ, ber programmet deg om å aktivere varslinger. D
 Deretter presenteres programmets hovedfunksjoner gjennom en rekke introduksjonsskjermbilder:
 
 
-- Sømløs betalingskvittering**: Brukere kan motta Bitcoin-betalinger selv når applikasjonen er lukket, noe som garanterer pålitelighet og bekvemmelighet.
-- Lightning-adresser uten frihetsberøvelse**: Lipa støtter nå ikke-frihetsberøvende Lightning-adresser, noe som forbedrer personvernet og sikkerheten ved å gi brukerne full kontroll over bitcoinsene sine.
-- Kontroll over analysedata** : Med åpenhet og konfidensialitet i høysetet kan brukerne se hvilke typer data som samles inn, og velge hvilke data de ønsker å dele.
-- Send via telefonnummer**: Ingen behov for komplekse adresser - bare velg en kontakt, angi beløpet, og send bitcoins direkte til telefonnummeret deres.
+- **Sømløs betalingskvittering**: Brukere kan motta Bitcoin-betalinger selv når applikasjonen er lukket, noe som garanterer pålitelighet og bekvemmelighet.
+- **Lightning-adresser uten frihetsberøvelse**: Lipa støtter nå ikke-frihetsberøvende Lightning-adresser, noe som forbedrer personvernet og sikkerheten ved å gi brukerne full kontroll over bitcoinsene sine.
+- **Kontroll over analysedata**: Med åpenhet og konfidensialitet i høysetet kan brukerne se hvilke typer data som samles inn, og velge hvilke data de ønsker å dele.
+- **Send via telefonnummer**: Ingen behov for komplekse adresser - bare velg en kontakt, angi beløpet, og send bitcoins direkte til telefonnummeret deres.
 
 Applikasjonen drar også nytte av kontinuerlige forbedringer når det gjelder stabilitet, sikkerhet og pålitelighet, for å garantere en optimal brukeropplevelse.
 
@@ -66,10 +66,10 @@ Lipas grensesnitt er organisert rundt fire hovedfaner som er tilgjengelige via n
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Hjem**: Viser din nåværende saldo og transaksjonshistorikk
-- Skanner**: Lar deg skanne QR-koder for å foreta betalinger
-- Kart**: Viser et interaktivt kart over Bitcoin-aksepterende virksomheter i ditt område
-- Innstillinger**: Tilgang til programinnstillinger, sikkerhetskopiering og preferanser
+- **Hjem**: Viser din nåværende saldo og transaksjonshistorikk
+- **Skanner**: Lar deg skanne QR-koder for å foreta betalinger
+- **Kart**: Viser et interaktivt kart over Bitcoin-aksepterende virksomheter i ditt område
+- **Innstillinger**: Tilgang til programinnstillinger, sikkerhetskopiering og preferanser
 
 Du får tilgang til en ekstra meny ved å trekke ned startskjermen:
 
@@ -91,7 +91,7 @@ For å sikkerhetskopiere lommeboken din, gå til "Innstillinger" -fanen og velg 
 
 Hvis du vil ha mer informasjon om hvordan du sikkerhetskopierer og administrerer gjenopprettingsfrasen din på riktig måte, anbefaler jeg på det sterkeste å følge denne andre veiledningen, spesielt hvis du er nybegynner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Motta bitcoins
 
@@ -158,5 +158,5 @@ Lipa er et utmerket valg for å komme i gang med Lightning-nettverket, og egner 
 ## Ressurser
 
 
-- [Lipas offisielle nettside] (https://lipa.swiss/)
-- [Lipa-støtte] (https://getlipa.atlassian.net/servicedesk/customer/portal/1)
+- [Lipas offisielle nettside](https://lipa.swiss/)
+- [Lipa-støtte](https://getlipa.atlassian.net/servicedesk/customer/portal/1)

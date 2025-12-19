@@ -1,0 +1,9 @@
+question: 로컬 네트워크의 IPv6 Address에서 사용되는 네트워크 접두사의 일반적인 크기는 얼마인가요?
+answer: 64비트
+wrong_answers:
+  - 32비트
+  - 48비트
+  - 8비트
+explanation: |
+  IPv6 Address의 첫 64비트는 일반적으로 서브넷 접두사 용도로 예약되어 있습니다.
+reviewed: false

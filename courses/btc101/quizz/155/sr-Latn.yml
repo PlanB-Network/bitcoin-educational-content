@@ -1,8 +1,12 @@
-question: Šta je Coinbase transakcija?
-answer: Prva transakcija bloka koja uključuje nagradu rudaru.
+question: Koja je uloga rudara u Bitkoin protokolu?
+answer: Oni osiguravaju trenutnu i istorijsku mrežu.
 wrong_answers:
-  - Transakcija izvršena na menjačnici Coinbase.
-  - Druga transakcija bloka koja uključuje najviše naknade.
-  - Transakcija koju obavlja rudar nakon što primi nagradu.
-explanation: >-
+  - Oni regulišu cenu Bitkoina.
+  - Oni kontrolišu ponudu Bitkoina.
+  - Oni upravljaju transakcijama između korisnika.
+explanation: |
+  Rudari u Bitkoin protokolu osiguravaju i trenutnu i
+  istorijsku mrežu. Oni ne regulišu cenu
+  Bitkoina, ne kontrolišu njegovu ponudu, niti upravljaju transakcijama
+  između korisnika.
 reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Cuál fue la principal crítica planteada en la primera respuesta por correo electrónico al anuncio de Satoshi Nakamoto del libro blanco Bitcoin en la lista de correo Cryptography?
+answer: El sistema propuesto no parecía ajustarse al tamaño requerido
+wrong_answers:
+  - Los algoritmos criptográficos utilizados no eran suficientemente seguros para las aplicaciones financieras
+  - La arquitectura peer-to-peer haría el sistema vulnerable a los ataques de red
+  - El mecanismo de consenso consumiría demasiada energía computacional para ser práctico
+explanation: |
+  La primera frase de la primera respuesta por correo electrónico al anuncio del libro blanco de Bitcoin de Satoshi afirmaba específicamente que "no parece escalar al tamaño requerido" Esto demuestra que la preocupación por la escalabilidad existía desde los primeros debates públicos sobre Bitcoin, incluso antes de que la red se pusiera en marcha. Las otras opciones, aunque son preocupaciones potencialmente válidas para un sistema de criptomoneda, no fueron el centro de esa respuesta inicial, que identificó inmediatamente la escalabilidad como el principal problema de la propuesta de Satoshi.
+reviewed: false

@@ -1,11 +1,9 @@
-question: Jaký je jeden ze způsobů, jak získat bitcoiny bez jejich kupování?
-answer: Přijmout je jako platidlo za produkty nebo služby, které nabízíte.
+question: Jaká je jedna z iniciativ, která přispívá k tomu, aby byla ekonomika Bitcoinu přístupnější a pohodlnější pro všechny?
+answer: BTCMap.
 wrong_answers:
-  - Půjčit si je od přítele a nikdy je nevrátit.
-  - Vyhrát je v loterii.
-  - Najít je na ulici.
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
 explanation: >-
-  Jedním ze způsobů, jak získat bitcoiny bez jejich kupování, je přijmout je jako
-  platidlo za produkty nebo služby, které nabízíte. To vám umožňuje získat
-  bitcoiny prostřednictvím vaší práce.
+  BTCMap je jednou z iniciativ, která přispívá k tomu, aby byla ekonomika Bitcoinu přístupnější a pohodlnější pro všechny. Jedná se o otevřený a spolupracující projekt, který seznamuje všechny obchodníky přijímající Bitcoin, stejně jako různé komunity Bitcoinu po celém světě.
 reviewed: true

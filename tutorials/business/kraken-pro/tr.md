@@ -14,7 +14,7 @@ Bu eğitimde, bir Kraken işletme hesabı oluşturma, bitcoin satın alma ve sat
 Bitcoin'ü işletmenize entegre etme konusuyla ilgileniyorsanız, konuyla ilgili eksiksiz teorik eğitim kursumuzu keşfetmenizi de tavsiye ederim:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Kraken kurumsal hesabı oluşturma
 
@@ -22,7 +22,7 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 Şirketinizin finansmanını yönetmek için Kraken'i kullanmanın ilk adımı elbette bir hesap oluşturmaktır. Burada, bireyler için bir hesap oluşturmayacağız, ancak yalnızca mevzuata uygunluğu sağlamakla kalmayıp aynı zamanda muhasebe dışa aktarımı gibi özel olarak uyarlanmış özellikler sunan kurumsal bir hesap oluşturacağız.
 
 
-Resmi web sitesine [kraken.com] (https://www.kraken.com/) gidin ve "*Kayıt Ol*" düğmesine tıklayın.
+Resmi web sitesine [kraken.com](https://www.kraken.com/) gidin ve "*Kayıt Ol*" düğmesine tıklayın.
 
 
 ![KRAKEN](assets/fr/01.webp)
@@ -87,8 +87,8 @@ Hesabınız doğrulandıktan sonra, size iki arayüzün sunulacağı platforma e
 
 
 
-- Kraken**: Temel işlevsellik sunan basitleştirilmiş bir Interface.
-- Kraken Pro**: Özellikle ticaret için ek özelliklere sahip gelişmiş bir Interface.
+- **Kraken**: Temel işlevsellik sunan basitleştirilmiş bir Interface.
+- **Kraken Pro**: Özellikle ticaret için ek özelliklere sahip gelişmiş bir Interface.
 
 
 Amacınız yalnızca Bitcoin alıp satmaksa, basitleştirilmiş Interface'yi tercih edin. Gerekirse daha sonra gelişmiş Interface'ye geçme seçeneğiniz her zaman olacaktır.
@@ -115,7 +115,7 @@ Hesap simgesine gidin ve "*Güvenlik*" üzerine tıklayın.
 Bu tür bir cihazın nasıl kullanılacağı hakkında daha fazla bilgi için özel eğitimimize bakın:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Diğer seçenek ise Google Authenticator veya Authy gibi bir kimlik doğrulama uygulaması kullanmaktır. Bu uygulamalar generate her oturum açtığınızda girmeniz gereken 6 haneli dinamik bir koddur.
 
@@ -132,14 +132,14 @@ Bu yöntemi etkinleştirmek için, akıllı telefonunuzda seçtiğiniz uygulama 
 Kimlik doğrulama uygulamaları hakkında daha fazla bilgi için bu eğitime de başvurabilirsiniz:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Altında, birkaç farklı 2FA ayarlama yeteneği de dahil olmak üzere gelişmiş ayarlara da erişebilirsiniz. Kraken, 2FA aracılığıyla gelişmiş güvenlik delegasyonu sunar. Bu özellik, giriş, sipariş doğrulama ve fon çekme gibi çeşitli eylemler için farklı 2FA seviyeleri oluşturmanıza olanak tanır. Bu, örneğin, bir muhasebeciye para çekmesine izin vermeden belirli işlevlere erişim vermeyi mümkün kılar. İşte seçenekler:
 
 
 
 
-- Ana anahtar**, oturum açmak için normal 2FA yönteminize erişemediğinizde kullanılacak bir kurtarma mekanizması görevi görür;
+- **Ana anahtar**, oturum açmak için normal 2FA yönteminize erişemediğinizde kullanılacak bir kurtarma mekanizması görevi görür;
 - Finansman için **2FA**, tüm para çekme işlemleri için veya bir Address depozitosu oluştururken ek kimlik doğrulaması gerektirir, böylece paranızın güvenliğini güçlendirir;
 - Ticaret için **2FA**, hesapta gerçekleştirilen her işlem için bir 2FA uygular.
 
@@ -233,9 +233,9 @@ Bu işlemler için farklı emir türleri arasından seçim yapabilirsiniz: *Piya
 
 
 
-- Piyasa*: Mevcut piyasa fiyatından anında satın almaya izin verir;
-- Limit*: Bir satın alma fiyatı belirlemenizi sağlar ve emir yalnızca piyasa fiyatı bu tutara ulaştığında gerçekleştirilir;
-- Stop-Loss*: Fiyat belirli bir eşiğe ulaştığında otomatik olarak satış yapar.
+- **Piyasa**: Mevcut piyasa fiyatından anında satın almaya izin verir;
+- **Limit**: Bir satın alma fiyatı belirlemenizi sağlar ve emir yalnızca piyasa fiyatı bu tutara ulaştığında gerçekleştirilir;
+- **Stop-Loss**: Fiyat belirli bir eşiğe ulaştığında otomatik olarak satış yapar.
 
 
 ## 7 - İşlem yönetimi ve muhasebe
@@ -320,4 +320,4 @@ Daha sonra durumunuz için gerekli tüm ayrıntıları belirtebilirsiniz:
 Bu konuya daha derinlemesine bir bakış için, nakit akışına ekleme, Bitcoin ödemelerini kabul etme ve muhasebeyi ayrıntılı olarak ele alan Bitcoin'u işletmelere entegre etme konusundaki bu kapsamlı eğitim kursunu tavsiye ederim:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

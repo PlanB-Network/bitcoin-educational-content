@@ -31,7 +31,7 @@ Secondement, un autre indicateur peut être calculé pour évaluer la résistanc
 ![Sources probables en entrée](assets/fr/5.webp)
 Le nom de cet indicateur est « *backward anonset* », ou « *backward-looking metrics* ». En français, j'aime bien nommer cela « anonset rétrospectif ». Sur le schéma ci-dessous, cela correspond à toutes les bulles orange Tx0 :
 ![backward anonset](assets/fr/6.webp)
-Pour en savoir plus sur la méthode de calcul de ces indicateurs, je vous conseille de lire [mon thread twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) sur ce sujet. Nous préparons également un article plus complet sur PlanB Network.
+Pour en savoir plus sur la méthode de calcul de ces indicateurs, je vous conseille de lire [mon thread twitter](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) sur ce sujet. Nous préparons également un article plus complet sur Plan ₿ Academy.
 
 Je suis conscient que la réponse fournie peut sembler insatisfaisante, car vous espériez un chiffre défini pour le nombre de remix, et je vous oriente vers de la documentation. La raison en est que le nombre de remix constitue un indicateur peu fiable pour évaluer l'anonymat gagné sur des cycles de coinjoins. Il n'est donc pas possible de définir un nombre fixe de remix comme seuil de sécurité absolu et universel.
 
@@ -52,7 +52,7 @@ Elle affiche ainsi un score rétrospectif de `34 593` et un score prospectif de 
 C'est la raison pour laquelle je considère l'utilisation de Whirlpool comme particulièrement pertinente dans une stratégie `Hodl -> Mix -> Spend -> Replace`. À mon avis, la démarche la plus logique consiste à conserver l'essentiel de son épargne en bitcoins dans un cold wallet, tout en maintenant en permanence un certain nombre de pièces en coinjoin sur Samourai pour pouvoir couvrir les dépenses quotidiennes. Une fois les bitcoins issus des coinjoins dépensés, ils sont remplacés par de nouveaux, afin de revenir au seuil de pièces en mix que l'on a défini. Cette méthode permet de se libérer de la préoccupation des anonsets de nos UTXO, tout en rendant le délai nécessaire à l'efficacité des coinjoins bien moins contraignant.
 
 J'espère que cette réponse vous aura éclairé sur le modèle de Whirlpool. Si vous souhaitez en savoir plus sur le fonctionnement des coinjoins sur Bitcoin, je vous conseille de lire mon article complet sur ce sujet :
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **Ressources externes :** 
 - Samourai Wallet Whirlpool

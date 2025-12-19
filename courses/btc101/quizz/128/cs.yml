@@ -1,11 +1,9 @@
-question: Co není nutné zahrnout do plánu dědictví?
-answer: Název Bitcoinové peněženky, kterou obvykle používáte.
+question: Jaká je funkce úpravy obtížnosti v síti Bitcoin?
+answer: Zajišťuje, že blok je přidán do blockchainu přibližně každých deset minut.
 wrong_answers:
-  - Ručně psaný dopis se seznamem vašich aktiv.
-  - Popis, jak získat přístup k vašim finančním prostředkům.
-  - Kontaktní informace důvěryhodných osob.
-explanation: |
-  Vytvoření plánu dědictví je klíčovým krokem k zajištění, že vaše bitcoiny budou po vaší smrti správně spravovány.
-  Tento plán může zahrnovat ručně psaný dopis se seznamem vašich aktiv,
-  metody přístupu k nim a kontaktní informace důvěryhodných osob, které mají být kontaktovány.
+  - Určuje cenu Bitcoinu.
+  - Reguluje počet bitcoinů, které mohou být vytěženy v blockchainu.
+  - Určuje velikost bloku.
+explanation: >-
+  Úprava obtížnosti v síti Bitcoin zajišťuje, že blok je přidán přibližně každých deset minut. To je součástí pravidel protokolu sítě Bitcoin.
 reviewed: true

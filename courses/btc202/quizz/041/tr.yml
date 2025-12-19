@@ -1,0 +1,9 @@
+question: Umbrel aracılığıyla hangi kendi kendini barındıran uygulamalar kurulabilir?
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel, dosyaları kendiniz depolamak ve senkronize etmek için Nextcloud gibi kendi kendine barındırma hizmetlerine sahip bir Uygulama Mağazası sunar.
+reviewed: true

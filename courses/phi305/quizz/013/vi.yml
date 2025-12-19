@@ -1,0 +1,9 @@
+question: Tập tính học là gì?
+answer: Một khoa học về cách tồn tại.
+wrong_answers:
+  - Một môn khoa học tự nhiên.
+  - Một ngành khoa học cơ khí.
+  - Một sản phẩm phái sinh của chiêm tinh học.
+explanation: |
+  Tập tính học là khoa học về sự tồn tại, về hành vi. Đối với Spinoza và Deleuze, đó là nghiên cứu về những gì một cơ thể có thể làm, về cảm xúc và khả năng hành động và đam mê của nó.
+reviewed: false

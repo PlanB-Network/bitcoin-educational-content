@@ -1,0 +1,9 @@
+question: Bitcoin 節點在本機保留什麼資料庫來追蹤未使用的輸出？
+answer: UTXO 套裝
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Wallet 歷史
+explanation: |
+  節點保留 UTXO 集，也就是可供未來交易使用的未使用輸出集。
+reviewed: true

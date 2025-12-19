@@ -1,0 +1,9 @@
+question: 간편결제 거래에서 입력과 2개의 출력 중 하나에 동일한 Address이 사용되는 경우, 어떤 출력이 변경 사항을 나타낼 가능성이 높습니까?
+answer: 입력과 동일한 Address을 사용하는 것입니다.
+wrong_answers:
+  - 가장 최근의 Address를 사용하는 것입니다.
+  - 입력과 다른 Address를 가진 것.
+  - 알 수 없는 Address를 가진 사람.
+explanation: |
+  동일한 트랜잭션 내에서 Address 재사용이 발생하는 경우, 사용자가 여전히 관련 UTXO을 보유하고 있다고 가정하는 것이 합리적입니다. 따라서 입력과 동일한 Address를 사용한 출력은 변경의 결과일 가능성이 높습니다.
+reviewed: true

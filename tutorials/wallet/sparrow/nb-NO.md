@@ -1,5 +1,5 @@
 ---
-name: Spurv Wallet
+name: Sparrow Wallet
 description: Installere, konfigurere og bruke Sparrow Wallet
 ---
 ![cover](assets/cover.webp)
@@ -20,13 +20,13 @@ Når det gjelder tilkobling, lar Sparrow deg koble deg til din egen Bitcoin-node
 
 ## Installer Sparrow Wallet
 
-Gå til [den offisielle nedlastingssiden for Sparrow Wallet] (https://sparrowwallet.com/download/) og velg programvareversjonen som passer til operativsystemet ditt.
+Gå til [den offisielle nedlastingssiden for Sparrow Wallet](https://sparrowwallet.com/download/) og velg programvareversjonen som passer til operativsystemet ditt.
 
 ![Image](assets/fr/01.webp)
 
 Det er viktig å kontrollere programvarens integritet og autentisitet før du installerer den. Hvis du ikke vet hvordan du gjør dette, finner du en fullstendig veiledning her :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Når Sparrow er installert, kan du hoppe over de innledende forklaringsskjermene og gå rett til skjermbildet for tilkoblingsadministrasjon.
 
@@ -69,9 +69,9 @@ Vær oppmerksom på at hvis du bruker en beskåret Bitcoin Core-node, vil du ikk
 
 For å konfigurere en Bitcoin Core-node kan du se en av følgende veiledninger, avhengig av operativsystemet ditt:
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Gå til fanen "*Bitcoin Core*" på Sparrow.
 
@@ -135,7 +135,7 @@ Denne operasjonen kan også utføres via den grafiske Interface Bitcoin-QT Inter
 
 ![Image](assets/fr/12.webp)
 
-Finn IP Address til maskinen som er vert for Bitcoin Core i ditt lokale nettverk. For å gjøre dette kan du bruke et verktøy som [Angry IP Scanner] (https://angryip.org/). La oss for eksempel anta at IP Address på noden din er `192.168.1.18`.
+Finn IP Address til maskinen som er vert for Bitcoin Core i ditt lokale nettverk. For å gjøre dette kan du bruke et verktøy som [Angry IP Scanner](https://angryip.org/). La oss for eksempel anta at IP Address på noden din er `192.168.1.18`.
 
 I filen `Bitcoin.conf` legger du til følgende linjer, og setter `rpcbind=192.168.1.18` til å samsvare med IP Address på noden din.
 
@@ -220,7 +220,7 @@ Du kan gravere den på papir eller, for ekstra sikkerhet, gravere den på rustfr
 
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer Mnemonic frasen din, anbefaler jeg på det sterkeste å følge denne andre veiledningen, spesielt hvis du er nybegynner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -228,7 +228,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Du kan også velge å legge til en passphrase BIP39 ved å klikke på "*Bruk passphrase*"-boksen. Advarsel: Det kan være svært nyttig å bruke en passphrase, men hvis du ikke forstår hvordan den fungerer, kan det være svært risikabelt. Derfor anbefaler jeg deg på det sterkeste å lese denne korte teoretiske artikkelen om emnet:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Når du har lagret Mnemonic og eventuelle passphrase på et fysisk medium, klikker du på "*Bekreft sikkerhetskopiering*".
 
@@ -264,7 +264,7 @@ Det finnes to hovedmåter å koble Hardware Wallet til Sparrow på:
 
 Sparrow støtter alle disse kommunikasjonsmetodene og er kompatibel med de fleste maskinvarelommebøker på markedet.
 
-I denne veiledningen bruker jeg en Ledger Nano S med kabel, men fremgangsmåten er den samme i Air-Gap-modus. Du finner detaljer som er spesifikke for din Hardware Wallet i den dedikerte veiledningen om Plan ₿ Network.
+I denne veiledningen bruker jeg en Ledger Nano S med kabel, men fremgangsmåten er den samme i Air-Gap-modus. Du finner detaljer som er spesifikke for din Hardware Wallet i den dedikerte veiledningen om Plan ₿ Academy.
 
 Før du starter, må du kontrollere at Wallet allerede er konfigurert på Hardware Wallet. Hvis du bruker en kablet tilkobling, kobler du den til datamaskinen via kabelen.
 
@@ -326,13 +326,13 @@ Hvis du bruker en Hardware Wallet, er det svært viktig å sjekke Address på en
 
 ![Image](assets/fr/44.webp)
 
-For Hardware Wallet Air-Gap-brukere varierer Address-verifiseringen avhengig av enhetsmodell. Se den dedikerte Plan ₿ Network-veiledningen for nøyaktige instruksjoner.
+For Hardware Wallet Air-Gap-brukere varierer Address-verifiseringen avhengig av enhetsmodell. Se den dedikerte Plan ₿ Academy-veiledningen for nøyaktige instruksjoner.
 
 Når transaksjonen har blitt sendt av betaleren, vises den under fanen "*Transaksjoner*". Du kan klikke på den for å få mer informasjon, for eksempel txid.
 
 ![Image](assets/fr/45.webp)
 
-Under fanen "*Adresser*" finner du en liste over alle innboksadressene dine. Du kan se om de allerede er brukt, og om det er lagt til en etikett. *"*Mottak*"-adressene er de Sparrow viser når du klikker på "*Mottak*", og de er beregnet på innkommende betalinger. "*Change*"-adressene brukes til Exchange i transaksjonene dine, dvs. for å få tilbake den ubrukte delen av UTXO-ene dine i inngående betalinger.
+Under fanen **Adresser** finner du en liste over alle innboksadressene dine. Du kan se om de allerede er brukt, og om det er lagt til en etikett. **Mottak**-adressene er de Sparrow viser når du klikker på **Mottak**, og de er beregnet på innkommende betalinger. **Change**-adressene brukes til Exchange i transaksjonene dine, dvs. for å få tilbake den ubrukte delen av UTXO-ene dine i inngående betalinger.
 
 ![Image](assets/fr/46.webp)
 
@@ -380,7 +380,7 @@ Dette tar deg til en side med detaljer om Elements for transaksjonen din. Kontro
 
 Det er viktig å beholde standard Sighash. For å forstå hvorfor, kan du ta en titt på dette kurset, der jeg forklarer alt du trenger å vite om Sighash:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 På det neste skjermbildet varierer alternativene avhengig av hvilken type Wallet du bruker:
 
@@ -460,4 +460,4 @@ Hvis du synes denne veiledningen var nyttig, vil jeg være veldig takknemlig hvi
 
 Jeg anbefaler også denne andre veiledningen, der jeg forklarer hvordan du konfigurerer Hardware Wallet COLDCARD Q med Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

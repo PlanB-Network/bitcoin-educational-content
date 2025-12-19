@@ -6,4 +6,4 @@ wrong_answers:
   - Šifruje poruku
 explanation: |
   U simetričnoj šemi šifrovanja, algoritam za generisanje ključeva proizvodi privatni ključ, koji će zatim biti korišćen za šifrovanje i dešifrovanje poruka.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - 3 000 sats
 explanation: |
   Les frais d'une transaction représentent la différence entre le total des inputs et le total des outputs. C'est ce qu'il reste après avoir consommé tous les inputs et créé tous les outputs. Le calcul est donc ; frais = (5000x2) - (3000x3) = 10000 - 9000 = 1000.
-reviewed: false
+reviewed: true 

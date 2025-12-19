@@ -1,7 +1,7 @@
 question: Sisteminizi ve yazılımınızı düzenli olarak güncellemek neden önemlidir?
 answer: Bilinen güvenlik açıklarını düzeltmek için
 wrong_answers:
-  - Bilgisayar hızını artırmak ve böylece siber saldırılara daha hızlı yanıt vermek
+  - Bilgisayar hızını artırmak ve böylece siber saldırılara daha hızlı yanıt vermek için
   - Bilgisayar korsanlığı özellikleri eklemek için
   - Bitcoin ile video oyunu uyumluluğunu optimize etmek için
 explanation: |

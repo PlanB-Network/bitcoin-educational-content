@@ -1,0 +1,25 @@
+id: 9ff9c612-c035-4ac1-a49a-d23fbbd31aa8
+start_date: 2025-10-26 09:00:00
+end_date: 2025-10-26 12:30:00
+timezone: Europe/Zurich
+address_city_country: Lugano, Switzerland
+address_line_2: Lugano, Ticino
+address_line_3:
+name: Gamma Summit Lugano 2025
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  "The Gamma Summit, hosted by Thalex and Bitfinex Derivatives, is an exclusive half-day event dedicated to in-depth discussions on Bitcoin options and futures, volatility, hedging, market making, and liquidity. Topics as "The forces that shape BTC volatility and its implications for asset allocation" will be debated."
+language:
+  - en
+  - it
+links:
+  website: https://www.bitcoinrunners.org/lugano25/
+  replay_url:
+  live_url:
+tags:
+  - adoption
+  - business
+  - market-trends

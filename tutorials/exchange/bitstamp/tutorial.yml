@@ -4,6 +4,8 @@ level: intermediate
 
 category: centralized
 
+professor_id: 2e1b5182-567e-453a-af29-36009340ff02
+
 project_id: c028a416-60f5-4522-ae7e-5a3fdbb50c2a
 original_language: en
 proofreading:
@@ -24,20 +26,22 @@ proofreading:
       - Asi0Flammeus
     reward: 0.11
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.22
+      - Salgraphics
+    reward: 0.11
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.26
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.22
+      - marshal-opsource
+    reward: 0.11
   - language: it
     last_contribution_date:
     urgency: 1
@@ -120,6 +124,26 @@ proofreading:
     contributor_names:
     reward: 0.22
   - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.3
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.3
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.34
+  - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:

@@ -14,4 +14,4 @@ Bu hedef her 2016 blokta bir (yaklaşık iki haftada bir), "ayarlama" adı veril
 ![](../../dictionnaire/assets/34.webp)
 
 
-> ► *Zorluk hedefi bazen "zorluk faktörü" olarak da adlandırılır Uzantı olarak, blok başlıklarındaki kodlamasıyla "nBits" terimiyle ifade edilebilir
+> ► *Zorluk hedefi bazen "zorluk faktörü" olarak da adlandırılır.* Uzantı olarak, blok başlıklarındaki kodlamasıyla "nBits" terimiyle ifade edilebilir

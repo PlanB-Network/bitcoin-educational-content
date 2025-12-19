@@ -1,5 +1,5 @@
 ---
-name: تندو
+name: Tando
 description: Bitcoin را در هر جای کنیا خرج کنید.
 ---
 
@@ -73,15 +73,15 @@ description: Bitcoin را در هر جای کنیا خرج کنید.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- اسکن کنید تا پرداخت کنید** :
+- **اسکن کنید تا پرداخت کنید** :
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- ارسال پول به کنیا** :
+- **ارسال پول به کنیا** :
 
 
 
@@ -121,7 +121,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- صورتحساب‌های خود را پرداخت کنید** :
+- **صورتحساب‌های خود را پرداخت کنید** :
 
 
 
@@ -135,7 +135,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- خرید کالا** :
+- **خرید کالا** :
 
 
 
@@ -159,4 +159,4 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

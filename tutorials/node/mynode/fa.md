@@ -1,5 +1,5 @@
 ---
-name: گره من
+name: My Node
 description: راه‌اندازی Bitcoin MyNode خود را انجام دهید
 ---
 

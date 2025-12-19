@@ -1,0 +1,9 @@
+question: 결정론적 Bitcoin 약정의 주요 목적은 무엇인가요?
+answer: 트랜잭션에 하나의 Commitment이 삽입되었는지 확인합니다
+wrong_answers:
+  - Bitcoin 거래 구조 간소화
+  - RGB 트랜잭션 비용 절감
+  - RGB 다중 서명 생성 최적화
+explanation: |
+  Bitcoin 결정적 약정은 숨겨진 경쟁 약정을 피하기 위해 단일 Commitment가 트랜잭션에 삽입되도록 보장합니다.
+reviewed: false

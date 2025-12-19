@@ -1,0 +1,8 @@
+question: What does the unwrap method do when called on a Result type in Rust?
+answer: Extracts the success value but panics if an error occurs
+wrong_answers:
+  - Returns None if an error occurs and Some if successful
+  - Converts the error into a warning message and continues execution
+  - Automatically propagates the error to the calling function
+explanation: |
+  The unwrap method extracts the success value from a Result but causes the program to panic if an error occurs. This makes it useful for quick prototyping or situations where you're confident an operation will succeed. The other options describe different behaviors: returning None/Some describes Option types, converting errors to warnings isn't a standard Rust pattern, and automatic error propagation is what the question mark operator (?) does, not unwrap.

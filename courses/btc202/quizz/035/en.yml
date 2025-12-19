@@ -1,0 +1,9 @@
+question: Which component is recommended to protect a node in the event of a power failure?
+answer: An inverter
+wrong_answers:
+  - A second graphics card
+  - An additional router
+  - A USB hub
+explanation: |
+  An inverter prevents sudden shutdowns in the event of a power failure and protects the node's stability.
+reviewed: true

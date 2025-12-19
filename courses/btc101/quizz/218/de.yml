@@ -1,11 +1,9 @@
-question: Wie wird die Art der Bitcoin-Adoption in diesem Kurs beschrieben?
-answer: Viral.
+question: Warum kann ein Lightning-Kanal in eine Richtung unbrauchbar sein?
+answer: Nicht genügend Liquidität
 wrong_answers:
-  - Langsam und stetig.
-  - Schnell und unkontrollierbar.
-  - Sporadisch und unvorhersehbar.
+  - Zu neuer Block
+  - Abgelaufener HTLC
+  - Nicht synchronisierter Knoten
 explanation: |
-  Der Kurstext beschreibt die Adoption von Bitcoin als viral,
-  was darauf hindeutet, dass sie sich schnell und weit von einer
-  Person zur anderen verbreitet, ähnlich wie ein Virus, aber ein guter. 
-reviewed: true
+  Selbst bei großer Kapazität ermöglicht ein Kanal eine Zahlung nur, wenn sich auf der richtigen Seite genügend Liquidität befindet.
+reviewed: false

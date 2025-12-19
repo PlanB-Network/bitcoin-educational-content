@@ -1,12 +1,12 @@
-question: Quelles sont les principales caractéristiques d'une monnaie efficace ?
-answer: Fongible, Divisible, Liquide.
+question: Pourquoi le bitcoin n'est-il pas largement accepté dans le commerce aujourd'hui ?
+answer: Parce qu'il n'est pas largement adopté par les individus.
 wrong_answers:
-  - Fongible, Divisible, Périssable.
-  - Fongible, Indivisible, Liquide.
-  - Non-fongible, Divisible, Liquide.
+  - Parce qu'il n'est pas transportable.
+  - Parce qu'il n'est pas divisible en petites unités.
+  - Parce qu'il n'est pas liquide.
 explanation: |
-  Une monnaie efficace doit être fongible (interchangeable
-  sans perte de valeur), divisible (séparable en petites
-  parties pour faciliter les transactions de différents volumes), et
-  liquide (facilement convertible en biens ou services).
+  Malgré ses propriétés, telles que son offre strictement limitée,
+  le bitcoin n'est toujours pas largement accepté dans le commerce
+  aujourd'hui, en raison du manque d'adoption par les individus, donc
+  les commerçants ne sont pas encouragés à l'accepter.
 reviewed: true

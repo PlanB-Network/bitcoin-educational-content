@@ -1,13 +1,11 @@
-question: ¿Qué es una plataforma DCA?
-answer: Un servicio que permite a los usuarios invertir una cantidad fija de dinero en un activo a intervalos regulares.
+question: ¿Cuál es una de las principales características de Bitcoin?
+answer: Se puede intercambiar en cualquier parte del mundo sin ninguna autorización de ninguna entidad.
 wrong_answers:
-  - Un tipo de intercambio de criptomonedas que solo permite el comercio de Bitcoin.
-  - Un servicio financiero que proporciona préstamos a inversores para el comercio con margen.
-  - Una herramienta de software que rastrea los precios de las acciones en tiempo real sin ninguna característica de inversión.
+  - Solo puede ser utilizado por un grupo selecto de personas.
+  - Requiere autorización de una autoridad central para ser utilizado.
+  - Solo puede ser utilizado en ciertos países.
 explanation: |
-  Una plataforma DCA se refiere a una plataforma que facilita
-  el Promedio de Costo en Dólares (DCA, por sus siglas en inglés), una estrategia de inversión donde
-  un individuo invierte una cantidad fija de dinero en un
-  activo particular a intervalos regulares, independientemente del
-  precio del activo.
+  El texto menciona que Bitcoin es pseudónimo y puede ser
+  intercambiado en cualquier parte del mundo sin la autorización
+  de ninguna entidad.
 reviewed: true

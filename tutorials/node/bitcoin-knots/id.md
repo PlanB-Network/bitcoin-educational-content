@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Knot
+name: Bitcoin Knots
 description: Bagaimana cara meluncurkan simpul dengan klien alternatif Bitcoin Knot?
 ---
 ![cover](assets/cover.webp)
@@ -19,18 +19,18 @@ Namun, perangkat lunak alternatif juga tersedia. Ini bukan node yang terhubung d
 Ada dua alasan utama untuk menggunakan klien alternatif seperti Knot daripada Core:
 
 
-- Teknis**: Klien-klien ini sering kali menawarkan opsi yang berbeda dengan Core, terutama dalam hal manajemen Mempool, dengan menentukan transaksi mana yang diterima dan disiarkan oleh node Anda.
-- Kebijakan**: Beberapa orang lebih suka menggunakan klien alternatif seperti Knot untuk alasan non-teknis, terutama untuk mendukung alternatif dari Core dan dengan demikian mengurangi monopoli Core. Jika Core mengalami gangguan, akan sangat berguna untuk memiliki klien alternatif yang solid dan terpelihara dengan baik, tetapi juga mengetahui cara menggunakannya. Orang lain menggunakan Knot untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak setuju dengan manajemen klien mayoritas.
+- **Teknis**: Klien-klien ini sering kali menawarkan opsi yang berbeda dengan Core, terutama dalam hal manajemen Mempool, dengan menentukan transaksi mana yang diterima dan disiarkan oleh node Anda.
+- **Kebijakan**: Beberapa orang lebih suka menggunakan klien alternatif seperti Knot untuk alasan non-teknis, terutama untuk mendukung alternatif dari Core dan dengan demikian mengurangi monopoli Core. Jika Core mengalami gangguan, akan sangat berguna untuk memiliki klien alternatif yang solid dan terpelihara dengan baik, tetapi juga mengetahui cara menggunakannya. Orang lain menggunakan Knot untuk tujuan protes, karena mereka telah kehilangan kepercayaan pada pengembang Core atau tidak setuju dengan manajemen klien mayoritas.
 
 ## Bagaimana cara memasang Bitcoin Knot?
 
-Kunjungi [situs web resmi Bitcoin Knot] (https://bitcoinknots.org/#download) untuk mengunduh versi untuk sistem operasi Anda. Jangan lupa untuk mengunduh sidik jari dan tanda tangan untuk memverifikasi perangkat lunak. File-file ini juga tersedia [di repositori GitHub Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
+Kunjungi [situs web resmi Bitcoin Knot](https://bitcoinknots.org/#download) untuk mengunduh versi untuk sistem operasi Anda. Jangan lupa untuk mengunduh sidik jari dan tanda tangan untuk memverifikasi perangkat lunak. File-file ini juga tersedia [di repositori GitHub Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
 
 ![Image](assets/fr/02.webp)
 
 Sebelum menginstal perangkat lunak pada komputer Anda, kami sangat menyarankan agar Anda memeriksa keaslian dan integritasnya. Jika Anda tidak tahu caranya, lihatlah tutorial lain ini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Setelah perangkat lunak diverifikasi, instal perangkat lunak dengan mengikuti langkah-langkah yang ditunjukkan pada panel instalasi.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Berikan nama pada Wallet Anda. Anda juga dapat melindunginya dengan passphrase B
 
 passphrase BIP39 adalah kata sandi opsional yang dapat Anda pilih secara bebas, selain frasa Mnemonic, untuk meningkatkan keamanan Wallet Anda. Sebelum mengonfigurasi fitur ini, kami sangat menyarankan Anda untuk membaca artikel berikut ini, yang menjelaskan secara detail cara kerja passphrase secara teori, dan cara menghindari kesalahan yang dapat menyebabkan hilangnya bitcoin Anda secara permanen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Jika Anda telah mengaktifkan opsi passphrase, pilihlah yang kuat dan simpanlah dengan hati-hati pada satu atau beberapa media fisik yang aman.
 
 ![Image](assets/fr/18.webp)
@@ -248,7 +248,7 @@ Operasi ini juga dapat dilakukan melalui grafik Bitcoin-QT Interface. Buka menu 
 
 ![Image](assets/fr/37.webp)
 
-Temukan IP Address dari mesin yang menghosting Bitcoin Knot di jaringan lokal Anda. Untuk melakukan ini, Anda dapat menggunakan alat seperti [Angry IP Scanner] (https://angryip.org/). Mari kita asumsikan, untuk kepentingan argumen, bahwa IP Address dari node Anda adalah `192.168.1.18`.
+Temukan IP Address dari mesin yang menghosting Bitcoin Knot di jaringan lokal Anda. Untuk melakukan ini, Anda dapat menggunakan alat seperti [Angry IP Scanner](https://angryip.org/). Mari kita asumsikan, untuk kepentingan argumen, bahwa IP Address dari node Anda adalah `192.168.1.18`.
 
 Pada berkas `Bitcoin.conf`, tambahkan baris berikut, atur `rpcbind=192.168.1.18` untuk mencocokkan IP Address node Anda.
 
@@ -285,4 +285,4 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 Saya juga merekomendasikan tutorial lain yang menjelaskan cara menyiapkan simpul Lightning Anda sendiri:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

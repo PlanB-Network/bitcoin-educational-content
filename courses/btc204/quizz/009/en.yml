@@ -5,5 +5,5 @@ wrong_answers:
   - The emission rights and the security premiums.
   - The mining dividends and the network taxes.
 explanation: |
-  When a miner finds a valid block, they are entitled to a reward composed of, on one hand, the block subsidy, and on the other hand, the fees of the transactions they have included in their block.
-reviewed: false
+  When a miner finds a valid block, they are entitled to a reward composed of, on the one hand, the block subsidy and, on the other hand, the transaction fees included in their block.
+reviewed: true

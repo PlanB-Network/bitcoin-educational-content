@@ -1,12 +1,10 @@
-question: ¿Cuál es el camino histórico seguido por las instituciones en la introducción de las monedas fiduciarias?
-answer: Los líderes centralizan el oro e introducen una nueva moneda equivalente en valor al oro, que luego es gradualmente devaluada.
+question: ¿Cuál es la fase final del fenómeno de la hiperinflación?
+answer: Surge una nueva moneda.
 wrong_answers:
-  - Los líderes introducen una nueva moneda respaldada por oro, que luego es gradualmente incrementada en valor.
-  - Los líderes introducen una nueva moneda sin valor intrínseco, que luego es gradualmente incrementada en valor.
-  - Los líderes introducen una nueva moneda respaldada por una cesta de commodities, que luego se mantiene estable en valor.
+  - Pérdida de confianza.
+  - Colapso de la moneda y aumento de precios.
+  - El círculo vicioso de la impresión de dinero.
 explanation: |
-  Históricamente, los líderes han centralizado el oro e introducido
-  una nueva moneda equivalente en valor al oro. Esta nueva
-  moneda es luego gradualmente devaluada, a menudo bajo la apariencia
-  de ser en interés del pueblo.
+  La fase final de la hiperinflación ocurre cuando se introduce una nueva
+  moneda para reemplazar a la antigua.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Welcher Befehl ruft die lokale IP Address Ihres Umbrel ab, wenn der Zugriff über umbrel.local fehlschlägt?
+answer: hostname -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  Im Falle von Erkennungsproblemen können Sie den Befehl hostname -I auf dem Umbrel-Rechner verwenden, um seine lokale IP herauszufinden.
+reviewed: true

@@ -1,0 +1,9 @@
+question: BitcoinノードにHDDを推奨しないのはなぜですか？
+answer: IBDと一般的な使用を大幅に遅らせるからだ
+wrong_answers:
+  - Blockchainファイルを保存できないため
+  - エネルギー消費量が少なすぎ、爆発する危険性があるからだ
+  - Bitcoin coreと互換性がないため
+explanation: |
+  メカニカル・ディスクは性能を制限し、IBDを著しく長くし、ノード負荷ですぐに摩耗する。
+reviewed: true

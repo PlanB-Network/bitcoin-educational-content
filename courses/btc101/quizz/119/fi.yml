@@ -1,10 +1,12 @@
-question: Mikä on BitcoinTalk?
-answer: Keskustelupaikka Bitcoin-käyttäjille.
+question: Mikä on Bitcoin-siirto?
+answer: Omistajuuden siirto bitcoineista käyttäen kryptografiaa.
 wrong_answers:
-  - Bitcoin-louhintaohjelmisto.
-  - Bitcoin-lompakko.
-  - Bitcoin-konferenssi.
+  - Fyysinen vaihto bitcoineista, käyttäen notaaria.
+  - Omistajuuden siirto bitcoineista, käyttäen fyysistä osoitetta.
+  - Omistajuuden siirto bitcoineista, käyttäen sähköpostiosoitetta.
 explanation: |
-  BitcoinTalk-foorumi on keskustelupaikka Bitcoin-käyttäjille.
-  Sen loi Satoshi Nakamoto 22. marraskuuta 2009.
+  Bitcoin-siirto on digitaalinen omistajuuden siirto bitcoineista,
+  käyttäen Bitcoin-osoitetta, joka on johdettu Elliptisen käyrän
+  kryptografian avulla. Tämä osoite on uniikki henkilön lompakolle,
+  joka vastaanottaa bitcoinit.
 reviewed: true

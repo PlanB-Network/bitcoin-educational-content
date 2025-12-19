@@ -1,0 +1,9 @@
+question: Milline distributsioon sobib kõige paremini Raspberry Pi jaoks, kuna see on eriti kerge?
+answer: RaspiBlitz
+wrong_answers:
+  - Vihmavarju
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitz on optimeeritud Raspberry Pi jaoks ja jääb kergeks, erinevalt Umbrelist, mis on muutunud nende masinate jaoks liiga raskeks.
+reviewed: true

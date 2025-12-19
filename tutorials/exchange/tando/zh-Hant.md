@@ -73,15 +73,15 @@ Tando 可讓您使用比特幣購買任何 M-Pesa 可以在肯亞購買的東西
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- 掃描付款** ：
+- **掃描付款**：
 
 
 
@@ -95,7 +95,7 @@ https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e
 
 
 
-- 寄錢到肯亞** ：
+- **寄錢到肯亞**：
 
 
 
@@ -121,7 +121,7 @@ Tando 的匯款選項可讓您從世界任何地方匯款到肯亞。因此，�
 
 
 
-- 支付您的帳單** ：
+- **支付您的帳單**：
 
 
 
@@ -135,7 +135,7 @@ Tando 的匯款選項可讓您從世界任何地方匯款到肯亞。因此，�
 
 
 
-- 購買商品** ：
+- **購買商品**：
 
 
 
@@ -159,4 +159,4 @@ Tando 的匯款選項可讓您從世界任何地方匯款到肯亞。因此，�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

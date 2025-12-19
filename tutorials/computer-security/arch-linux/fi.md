@@ -17,10 +17,10 @@ Arch Linux on jakelu, joka on tunnettu vankkuudestaan, suorituskyvystään ja mu
 
 
 
-- Ilmainen ja avoin lähdekoodi**: Kuten useimmat Linux-jakelut, Arch Linux on täysin ilmainen. Lisenssimaksuja ei ole, joten se on erinomainen valinta opiskelijoille, freelancereille tai harrastajille.
-- KISS**-filosofia: Arch on suunniteltu yksinkertaiseksi, kevyeksi ja tehokkaaksi. Se tarjoaa vain välttämättömät asiat, joten voit rakentaa ympäristösi à la carte.
-- Pacman**-paketinhallinta: Pacman on nopea, luotettava ja hyvin suunniteltu paketinhallintaohjelma. Se mahdollistaa ohjelmistojen tehokkaan asentamisen ja päivittämisen ja hallitsee riippuvuudet tarkasti.
-- Kattava dokumentaatio ja aktiivinen yhteisö**: [Arch Wiki](https://wiki.archlinux.org) on luultavasti yksi Linux-maailman parhaista teknisistä dokumentaatiosta. Se on kultakaivos sen ymmärtämiseen, mitä olet tekemässä. Yhteisö, joka koostuu enimmäkseen kokeneista profiileista, on hyvin aktiivinen ja voi auttaa sinua, jos jäät jumiin, edellyttäen, että olet tehnyt hieman tutkimusta etukäteen.
+- **Ilmainen ja avoin lähdekoodi**: Kuten useimmat Linux-jakelut, Arch Linux on täysin ilmainen. Lisenssimaksuja ei ole, joten se on erinomainen valinta opiskelijoille, freelancereille tai harrastajille.
+- **KISS-filosofia**: Arch on suunniteltu yksinkertaiseksi, kevyeksi ja tehokkaaksi. Se tarjoaa vain välttämättömät asiat, joten voit rakentaa ympäristösi à la carte.
+- **Pacman-paketinhallinta**: Pacman on nopea, luotettava ja hyvin suunniteltu paketinhallintaohjelma. Se mahdollistaa ohjelmistojen tehokkaan asentamisen ja päivittämisen ja hallitsee riippuvuudet tarkasti.
+- **Kattava dokumentaatio ja aktiivinen yhteisö**: [Arch Wiki](https://wiki.archlinux.org) on luultavasti yksi Linux-maailman parhaista teknisistä dokumentaatiosta. Se on kultakaivos sen ymmärtämiseen, mitä olet tekemässä. Yhteisö, joka koostuu enimmäkseen kokeneista profiileista, on hyvin aktiivinen ja voi auttaa sinua, jos jäät jumiin, edellyttäen, että olet tehnyt hieman tutkimusta etukäteen.
 
 
 
@@ -39,7 +39,7 @@ Tarvittavat materiaalit:
 
 
 - Vähintään **8 Gt:n kokoinen USB-tikku**
-- vähintään 2 GB** RAM-muistia
+- vähintään **2 GB** RAM-muistia
 - Tietokone, jossa on vähintään 20 Gt vapaata levytilaa
 
 
@@ -261,7 +261,7 @@ Valitse **GPT**, jos olet UEFI:ssä, **DOS**, jos olet BIOS:ssa.
 
 
 
-- UEFI**-tilassa
+- **UEFI**-tilassa
 
 
 
@@ -294,7 +294,7 @@ Valitse **Kirjoita**, kirjoita **Kyllä** ja sitten **Lopeta**.
 
 
 
-- UEFI**:
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS**:
+- **BIOS**:
 
 
 
@@ -778,6 +778,6 @@ Jos olet nauttinut Arch Linuxin käytön aloittamisesta, rakastat varmasti opast
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

@@ -1,12 +1,9 @@
-question: Wat is het gevolg van hyperinflatie?
-answer: Een drastische daling van de waarde van de munt.
+question: Wat was bij benadering de inflatie in Duitsland in oktober 1923 op het hoogtepunt van de hyperinflatie?
+answer: 29,500%
 wrong_answers:
-  - Een kleine daling in de waarde van de valuta.
-  - Een drastische stijging van de waarde van de munt.
-  - Een kleine stijging in de waarde van de munteenheid.
+  - 5,200%
+  - 76%
+  - 110%
 explanation: |
-  Door hyperinflatie hebben mensen snel een
-  het vertrouwen in de munt volledig verliezen, wat leidt tot
-  een drastische daling van de waarde in korte tijd
-  tijd.
-reviewed: true
+  De maand met de hoogste inflatie in Duitsland was oktober 1923, met een piek van 29.500%.
+reviewed: false

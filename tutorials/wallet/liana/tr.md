@@ -43,7 +43,7 @@ Bu işlem, aşağıdakiler de dahil olmak üzere çeşitli konfigürasyonları a
 
 
 
-- Kullanıcının ölümü halinde varislerin fonları geri almasını sağlayan bir veraset (veya miras) planı. Bu konuda daha fazla bilgi için BTC102 kursunun [bölüm 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) bölümünü okumanızı tavsiye ederiz.
+- Kullanıcının ölümü halinde varislerin fonları geri almasını sağlayan bir veraset (veya miras) planı. Bu konuda daha fazla bilgi için BTC102 kursunun [bölüm 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) bölümünü okumanızı tavsiye ederiz.
 - Kurtarma süresine sahip güçlendirilmiş bir yedekleme, kullanıcıya ilgili gizli ifadeyi saklamak zorunda kalmadan ve örneğin bir hırsızlık sırasında çalınması riskini almadan Wallet'sını kullanma imkanı verir.
 - Bitcoin ile başlayan insanlar için bir güvenlik ağı: kendi Wallet'lerini yönetecekler ve "vasileri" (örneğin bir akraba) belirli bir süre sonra fonlarını geri alma hakkını saklı tutacak.
 - Bir şirketin ortakları gibi bir veya daha fazla katılımcının ortadan kaybolmasıyla başa çıkmak için zaman içinde azaltılmış gereksinimlere sahip çok taraflı bir imza şeması (*Multisig*).
@@ -69,13 +69,13 @@ Bu eğitimde, bir halefiyet planı oluşturacağız. Kullanacağız :
 - Günlük harcamalar için bir Ledger Nano S Plus;
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 
 - Fonları geri almak için kullanılan bir Blockstream Jade;
 
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 
 - Wallet Descriptor'i saklamak için iki depolama ortamı (USB bellekler);
@@ -86,7 +86,7 @@ https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Kurulum ve yapılandırma
 
 
-Resmi Wizardsardine web sitesini ziyaret edin ve Liana'ü https://wizardsardine.com/Liana/ adresinden indirin. Ayrıca yazılımın orijinalliğini kontrol edebileceğiniz en son sürümü [GitHub deposundan] (https://github.com/wizardsardine/Liana/releases) indirebilirsiniz. Bu eğitimde kullanılan sürüm 0.9'dur.
+Resmi Wizardsardine web sitesini ziyaret edin ve Liana'ü https://wizardsardine.com/Liana/ adresinden indirin. Ayrıca yazılımın orijinalliğini kontrol edebileceğiniz en son sürümü [GitHub deposundan](https://github.com/wizardsardine/Liana/releases) indirebilirsiniz. Bu eğitimde kullanılan sürüm 0.9'dur.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -95,7 +95,7 @@ Resmi Wizardsardine web sitesini ziyaret edin ve Liana'ü https://wizardsardine.
 Kurulumdan önce yazılımın orijinalliğini ve bütünlüğünü manuel olarak nasıl doğrulayacağınızı öğrenmek için bu eğitime başvurmanızı öneririz:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Yazılımı makinenize kurun ve başlatın. Wallet'ünüzü yapılandırmak için "*Yeni bir Liana Wallet* oluştur" seçeneğini seçin.
 
@@ -286,7 +286,7 @@ Para gönderildikten sonra, işlem ana ekranda görünür (önce onaylanmamış,
 Bitcoin'te kullanılan UTXO temsil modelini daha iyi anlamak için Loïc Morel tarafından yazılan Bitcoin'te gizlilik konulu kursun ilk bölümüne başvurabilirsiniz:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Cari harcamalar
 
@@ -366,7 +366,7 @@ Onaylandıktan sonra Coin'iniz güvende! Bir sonraki son kullanma tarihine kadar
 Liana Wallet'ten fonları kurtarırken iki durumdan biriyle karşı karşıya kalabilirsiniz. Yazılımın yüklü olduğu bilgisayara erişiminiz olabilir, bu durumda tek yapmanız gereken onu açmaktır (gelişmiş yedekleme modelinde bu gerçekleşecektir). Ancak, bu bilgisayara erişiminiz olmayabilir, bu nedenle burada sıfırdan başlayacağız. Kurtarma prosedürünün her iki durumda da aynı olduğunu unutmayın.
 
 
-Başlamak için Liana'yı [resmi Wizardsardine web sitesinden] (https://wizardsardine.com/Liana/) veya yazılımın orijinalliğini kontrol edebileceğiniz [GitHub deposundan] (https://github.com/wizardsardine/Liana/releases) indirin. Yazılımı kurun ve çalıştırın. Bizim durumumuzda kullanılan sürüm 0.9'dur, bu nedenle görseller değişmiş olabilir. Karşılama ekranında "Mevcut bir Liana Wallet ekle" seçeneğini seçin.
+Başlamak için Liana'yı [resmi Wizardsardine web sitesinden](https://wizardsardine.com/Liana/) veya yazılımın orijinalliğini kontrol edebileceğiniz [GitHub deposundan](https://github.com/wizardsardine/Liana/releases) indirin. Yazılımı kurun ve çalıştırın. Bizim durumumuzda kullanılan sürüm 0.9'dur, bu nedenle görseller değişmiş olabilir. Karşılama ekranında "Mevcut bir Liana Wallet ekle" seçeneğini seçin.
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)
@@ -455,7 +455,7 @@ Ardından "*Yayın*" seçeneğine tıklayarak ağ üzerinden yayınlayın.
 ## Bonus: Descriptor analizi
 
 
-Descriptor, bir dizi adresi kapsamlı bir şekilde tanımlayan, insan tarafından okunabilir bir karakter dizisidir. Gelişmiş bir Wallet'un parçalarını (UTXO) almak için bir dizi temel bilgiyi birleştirir. Descriptor'in yazım şekli, Andrew Poelstra, Pieter Wuille ve Sanket Kanjalkar tarafından 2019 yılında geliştirilen komut dosyası dili olan [Miniscript syntax] (https://bitbox.swiss/blog/understanding-Bitcoin-miniscript-part-2/)'a dayanmaktadır.
+Descriptor, bir dizi adresi kapsamlı bir şekilde tanımlayan, insan tarafından okunabilir bir karakter dizisidir. Gelişmiş bir Wallet'un parçalarını (UTXO) almak için bir dizi temel bilgiyi birleştirir. Descriptor'in yazım şekli, Andrew Poelstra, Pieter Wuille ve Sanket Kanjalkar tarafından 2019 yılında geliştirilen komut dosyası dili olan [Miniscript syntax](https://bitbox.swiss/blog/understanding-Bitcoin-miniscript-part-2/)'a dayanmaktadır.
 
 
 Bu karakter dizisinin neden önemli olduğunu daha iyi anlamak için örneğimizdeki Descriptor'yi analiz edelim, yani :
@@ -472,7 +472,7 @@ Bu Descriptor'ten aşağıdaki bilgiler çıkarılabilir:
 
 
 - wsh` (*witness script Hash*'in kısaltması): Bu, oluşturulan işlemsel çıktı türüdür. Eğer Taproot kullanmayı seçmiş olsaydık, tanımlayıcı `tr` olacaktı.
-- veya_d`: Bu, masrafın kabul edilmesi için aşağıdaki iki* koşuldan birinin karşılanması gerektiğini belirten mantıksal bir işleçtir (`_d` belirli bir sözdizimini belirtir).
+- veya_d`: Bu, masrafın kabul edilmesi için aşağıdaki **iki** koşuldan birinin karşılanması gerektiğini belirten mantıksal bir işleçtir (`_d` belirli bir sözdizimini belirtir).
 - pk` (*açık anahtarın* kısaltması): Bu işleç, verilen bir imzayı aşağıdaki açık anahtarla karşılaştırır ve cevabı Boolean (DOĞRU veya YANLIŞ) olarak verir.
 - `[3689a8e7/48'/0'/0'/2']`: Bu öğe, ana Hardware Wallet (bu durumda Nano S Plus) için ana anahtarın *parmak izini* ve bağlantılı genişletilmiş özel anahtara (diğer tüm özel anahtarların türetildiği) giden türetme yolunu içerir.
 - `xpub6FKY ... WQa`: Bu, ana Hardware Wallet'ye (burada Nano S Plus) bağlı genişletilmiş açık anahtardır
@@ -495,7 +495,7 @@ Bu Wallet tarafından oluşturulan komut dosyaları aşağıdaki şekli alacakt�
 ```
 
 
-Bitcoin Wallet'inizin güvenliği de nasıl çalıştığını anlamanıza bağlı olduğundan, Plan ₿ Network hakkındaki bu ücretsiz eğitim kursunu alarak deterministik ve hiyerarşik cüzdanların mekanizmalarını derinlemesine incelemenizi öneririm:
+Bitcoin Wallet'inizin güvenliği de nasıl çalıştığını anlamanıza bağlı olduğundan, Plan ₿ Academy hakkındaki bu ücretsiz eğitim kursunu alarak deterministik ve hiyerarşik cüzdanların mekanizmalarını derinlemesine incelemenizi öneririm:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

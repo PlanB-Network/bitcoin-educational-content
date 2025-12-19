@@ -1,0 +1,10 @@
+question: 다음 중 화폐의 세 가지 필수 기능 중 하나가 아닌 것은 무엇인가요?
+answer: 에너지원
+wrong_answers:
+  - 가치 저장소
+  - Exchange의 매체
+  - 계정 단위
+explanation: |
+  화폐의 세 가지 필수 기능은 가치 저장, Exchange의 매체,
+  그리고 계좌 단위입니다. 에너지의 원천은 화폐의 기능이 아닙니다.
+reviewed: true

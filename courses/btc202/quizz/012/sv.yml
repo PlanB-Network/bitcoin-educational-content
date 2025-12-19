@@ -1,0 +1,9 @@
+question: Vilket steg är en del av en minderårigs roll?
+answer: Bygga ett kandidatblock från Mempool
+wrong_answers:
+  - Validera hela Blockchain från Mempool
+  - Skapa Bitcoin-adresser för användare
+  - Lagra privata nycklar för plånböcker
+explanation: |
+  En Miner väljer transaktioner från Mempool och bygger ett kandidatblock som han försöker validera med Proof of Work.
+reviewed: true

@@ -5,5 +5,5 @@ wrong_answers:
   - A simplified payment
   - A collaborative transaction
 explanation: |
-  The interpretation of this pattern is that we are dealing with a batched spend. This structure allows entities such as exchange platforms to save on fees by grouping their expenses into a single transaction.
-reviewed: false
+  The interpretation of this pattern is that we are dealing with a batched spend. This structure enables entities, such as exchange platforms, to save on fees by consolidating their expenses into a single transaction.
+reviewed: true

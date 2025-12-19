@@ -1,11 +1,13 @@
-question: Ni igiki gikwiye kuba ikintu nyamukuru co kwitwararika iyo ufise Bitcoin?
-answer: Umutekano w’amahera yawe.
+question: Ni igiki gikenewe gukoresha Wallet itari mu murongo, canke Cold, y’umubiri?
+answer: Kubika ibintu vyinshi.
 wrong_answers:
-  - Agaciro ka Bitcoin mu madolari.
-  - Ivyemewe n’amategeko vyo kugira ama bitcoins.
-  - Uruhusha rwo gukoresha amahera yawe.
+  - Kubika amahera y’umusi ku musi.
+  - Kubika utuntu dutoduto.
+  - Kubika amahera y’igihe gito.
 explanation: |
-  Iyo ufise ama bitcoins, ikintu nyamukuru kiguhagaritse umutima ni umutekano .
-  y’amahera yawe. Ivyo ni kubera ko Bitcoin, cokimwe n’iyindi nzira yose .
-  y’amahera, ashobora kwibwa canke gutakazwa iyo ataco akora neza.
+  Igitabu kitari ku murongo, canke Cold, Wallet y’umubiri ni co gikenewe ku
+  kubika ibintu vyinshi kuko bidashobora gushikirwa n’ibintu vyinshi .
+  iterabwoba ryo kuri internet kuruta amasakoshi ya Hot. Ariko rero, si ko biri .
+  biraremeshwa ku mafaranga y'umusi kuko ari make
+  n’ivyo umuntu ashobora gukoresha ku musi ku musi.
 reviewed: true

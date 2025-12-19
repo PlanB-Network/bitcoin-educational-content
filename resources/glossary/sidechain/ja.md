@@ -5,4 +5,4 @@ term: サイドシャイン
 
 サイドチェーンの概念は当初、2014年にAdam Back、Matt Corallo、Luke Dashjr、Mark Friedenbach、Gregory Maxwell、Andrew Miller、Andrew Poelstra、Jorge Timon、Pieter Wuilleによって紹介された。現在、ビットコインで最も有名なサイドチェーンはLiquidとRSK（Rootstock）である。しかし、これらはライトニング・ネットワークのような異なるモデルを持つ他のオーバーレイ・ソリューションに比べると、まだあまり使われていない。
 
-> フランス語では "chaîne latérale "または "chaîne parallèle "*と呼ばれる。
+> フランス語では "chaîne latérale" または "chaîne parallèle" と呼ばれる。

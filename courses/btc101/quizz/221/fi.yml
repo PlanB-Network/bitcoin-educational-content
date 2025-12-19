@@ -1,9 +1,9 @@
-question: Mikä on Lightning-verkko?
-answer: Maksuverkko, joka käyttää Bitcoin-protokollaa mahdollistaakseen salamannopeat transaktiot.
+question: Minkä edun Ark tarjoaa Lightningiin verrattuna maksujen vastaanottamisessa?
+answer: Sisääntulevaa likviditeettiä ei tarvita
 wrong_answers:
-  - Uudenlainen kryptovaluutta.
-  - Uusi lohkoketjuteknologia, joka korvaa Bitcoinin tulevaisuudessa.
-  - Menetelmä Bitcoinin louhimiseen.
+  - Maksun välitön lopullisuus
+  - Ei transaktiomaksuja
+  - Lompakkoa ei tarvita
 explanation: |
-  Lightning-verkko on maksuverkko, joka käyttää Bitcoin-protokollaa nopeiden transaktioiden mahdollistamiseen. Se ei ole erillinen kryptovaluutta, eikä menetelmä Bitcoinin louhimiseen.
-reviewed: true
+  Ark mahdollistaa maksujen vastaanottamisen ilman etukäteen saatavilla olevaa sisääntulevaa likviditeettiä.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce uzlu Bitcoin?
+answer: Uložení Blockchain a ověření transakcí a bloků
+wrong_answers:
+  - Ukládání soukromých klíčů a vytváření transakcí
+  - Vytváření nových adres pro uživatele
+  - Převod bitcoinů na fiat měny
+explanation: |
+  Uzel Bitcoin udržuje kopii uzlu Blockchain a podílí se na ověřování a předávání transakcí a bloků.
+reviewed: true

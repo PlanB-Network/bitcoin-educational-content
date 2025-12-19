@@ -1,5 +1,5 @@
 ---
-name: Cold Card
+name: COLDCARD Mk
 
 description: Opprette, sikkerhetskopiere og bruke en Bitcoin privatnøkkel med en Coldcard-enhet og Bitcoin Core
 ---

@@ -1,0 +1,9 @@
+question: Ni sababu gani kuu kwa nini usambazaji halisi wa mzunguko wa Bitcoin utakuwa chini sana kuliko upeo wa kinadharia wa takriban milioni 21 za BTC?
+answer: Funguo za kibinafsi zilizopotea, wizi wa wallet, na sarafu zilizotumwa kwa anwani zisizo sahihi huondoa kabisa bitcoins kutoka kwa mzunguko.
+wrong_answers:
+  - Marekebisho ya ugumu wa Mining hupunguza kiotomati usambazaji wa jumla ili kudumisha uhaba kwa muda
+  - Ada za ununuzi huchomwa wakati wa usindikaji, hatua kwa hatua kupungua kwa usambazaji wa bitcoin unaopatikana
+  - "Itifaki ya Bitcoin hufunga kiotomatiki sarafu ambazo hazijasogea kwa muda mrefu ili kuzuia mfumuko wa bei"
+explanation: |
+  Ingawa kiwango cha juu cha kinadharia ni 20 999 999.9769 BTC, usambazaji halisi unaoweza kutumika ni mdogo zaidi kutokana na makosa ya kibinadamu na hasara. Funguo binafsi zilizopotea hufanya bitcoin zisifikiwe kabisa, pochi huibiwa au kusahaulika, na sarafu wakati mwingine hutumwa kwenye anwani zisizo halali. Sababu hizi husababisha upungufu wa kudumu wa usambazaji ambao huwanufaisha wamiliki waliobaki, kama Satoshi alivyoeleza: sarafu zilizopotea huongeza thamani ya sarafu za wengine.
+reviewed: false

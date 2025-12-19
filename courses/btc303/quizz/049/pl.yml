@@ -1,0 +1,9 @@
+question: Jaki jest główny powód, dla którego należy zająć się wszystkimi znanymi słabościami Bitcoin, zamiast akceptować pewien poziom ryzyka?
+answer: Bitcoin działa w pseudonimowym środowisku online, w którym przeciwnicy mogą wykorzystywać słabości bez bycia złapanym lub pociągniętym do odpowiedzialności
+wrong_answers:
+  - "Formalny model bezpieczeństwa Bitcoin wymaga matematycznego dowodu, że wszystkie potencjalne wektory ataku zostały wyeliminowane"
+  - Rozproszony charakter Bitcoin oznacza, że nawet niewielkie słabości mogą kaskadowo doprowadzić do awarii całego systemu we wszystkich węzłach
+  - "Stała podaż Bitcoin sprawia, że absorbowanie strat z udanych ataków jest ekonomicznie niewykonalne, w przeciwieństwie do tradycyjnych systemów finansowych"
+explanation: |
+  Prawidłowa odpowiedź odzwierciedla kluczowe spostrzeżenie Andrew Poelstry dotyczące systemów online w porównaniu z systemami fizycznymi. W przeciwieństwie do budynków, w których akceptujemy pewne ryzyko i polegamy na organach ścigania, Bitcoin działa w pseudonimowym środowisku, w którym atakujący mogą działać bez widoczności i konsekwencji. Ta fundamentalna różnica oznacza, że każda znana słabość zostanie nieuchronnie wykorzystana, co sprawia, że kompleksowe zabezpieczenia są niezbędne, a nie opcjonalne zarządzanie ryzykiem.
+reviewed: false

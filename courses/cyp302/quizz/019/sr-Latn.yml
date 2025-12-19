@@ -6,4 +6,4 @@ wrong_answers:
   - Odnosi se samo na kontinuirane varijable.
 explanation: |
   Bajesova teorema omogućava izračunavanje verovatnoće događaja A pod uslovom B preokretanjem verovatnoća i suštinska je u teoriji verovatnoće.
-reviewed: false
+reviewed: true

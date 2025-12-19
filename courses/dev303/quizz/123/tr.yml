@@ -1,0 +1,8 @@
+question: Breez SDK'nın yeni kullanıcılar için geleneksel Lightning Network manuel kanal açma engelini ortadan kaldırmasını sağlayan birincil mimari avantaj nedir?
+answer: wallet kurulumu üzerine gelen likiditeyi otomatik olarak sağlayan entegre Yıldırım Hizmet Sağlayıcısı (LSP) işlevi
+wrong_answers:
+  - Kullanıcı müdahalesi olmadan on-chain Bitcoin'ü Lightning kanallarına dönüştüren yerleşik denizaltı takas hizmetleri
+  - Greenlight tarafından yönetilen ve talebe göre kullanıcılara dinamik olarak tahsis edilen önceden finanse edilmiş kanal havuzları
+  - Anında kanal oluşturmak için yeni cüzdanları yüksek likiditeye sahip düğümlere bağlayan otomatik eş keşif mekanizmaları
+explanation: |
+  Breez SDK'nın entegre LSP işlevi, kullanıcılar wallet'i kurduklarında otomatik olarak gelen likidite sağlayarak manuel kanal açma engelini ortadan kaldırmak için özel olarak tasarlanmıştır. Bu, teknik kurulum olmadan anında ödeme alımına olanak tanır. Denizaltı takasları katman dönüşümünü ele alır ancak ilk kanal hazırlığını ele almaz. Önceden fonlanmış havuzlar ve eş keşfi, Breez'nın kullandığı mekanizmalar değildir - bunun yerine LSP entegrasyonu, yeni kullanıcıların ödemeleri hemen alabilmesi için gerekli gelen kapasiteyi doğrudan sağlar.

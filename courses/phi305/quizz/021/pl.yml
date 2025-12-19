@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Poprzedza Spinozę.
+wrong_answers:
+  - Jest spadkobiercą Spinozy.
+  - Jest szwajcarskim filozofem.
+  - Jest ateistycznym filozofem.
+explanation: |
+  René Descartes (1596-1650) wyprzedził Spinozę i jest uważany za ojca współczesnego racjonalizmu. Spinoza był pod wpływem Kartezjusza, ale opracował system filozoficzny, który znacznie odbiegał od kartezjanizmu.
+reviewed: false

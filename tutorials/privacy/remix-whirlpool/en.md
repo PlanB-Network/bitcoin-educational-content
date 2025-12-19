@@ -30,7 +30,7 @@ This indicator, called "prospective anonset" in French, "forward anonset" in Eng
 Secondly, another indicator can be calculated to evaluate the resistance of your piece to an analysis from the present to the past. By knowing your UTXO at the end of cycles, this indicator determines the number of potential Tx0 transactions that could have constituted your input in the coinjoin cycles (analysis from the end to the beginning of the cycles). This indicator measures how difficult it is for an analyst to trace the origin of your piece after it has gone through coinjoins.![Probable sources at input](assets/en/5.webp)
 The name of this indicator is "backward anonset" or "backward-looking metrics". In French, I like to call it "anonset rétrospectif". In the diagram below, this corresponds to all the orange Tx0 bubbles:
 ![backward anonset](assets/en/6.webp)
-To learn more about the calculation method for these indicators, I recommend reading [my Twitter thread](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) on this topic. We are also preparing a more comprehensive article on the PlanB Network.
+To learn more about the calculation method for these indicators, I recommend reading [my Twitter thread](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) on this topic. We are also preparing a more comprehensive article on the Plan ₿ Academy.
 
 I am aware that the provided answer may seem unsatisfactory as you were hoping for a specific number of remixes, and I am directing you to documentation. The reason for this is that the number of remixes is an unreliable indicator for evaluating the anonymity gained in coinjoin cycles. Therefore, it is not possible to define a fixed number of remixes as an absolute and universal security threshold.
 
@@ -50,10 +50,11 @@ That is why I consider the use of Whirlpool to be particularly relevant in a `Ho
 
 I hope this answer has shed some light on the Whirlpool model. If you want to learn more about how coinjoins work on Bitcoin, I recommend reading my comprehensive article on this topic:
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 **External resources:**
 - Samourai Wallet Whirlpool
 - https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923
 - https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/diving-head-first-into-whirlpool-anonymity-sets-4156a54b0bc7.
+

@@ -1,0 +1,9 @@
+question: Jaki jest główny powód, dla którego zwiększanie rozmiarów bloków prowadzi do wyższego prawdopodobieństwa nieaktualnych bloków w Bitcoin mining?
+answer: Większe bloki wymagają więcej czasu na propagację i walidację w sieci, tworząc dłuższe okna, w których górnicy pracują nad nieaktualnymi wskazówkami blockchain
+wrong_answers:
+  - Większe bloki wymagają większej mocy obliczeniowej do wydobycia, co powoduje, że górnicy spędzają więcej czasu na znajdowaniu prawidłowych rozwiązań proof-of-work
+  - "Zwiększone rozmiary bloków zmniejszają skuteczność mechanizmu dostosowywania trudności, prowadząc do nieprzewidywalnych interwałów czasowych bloków"
+  - Większe bloki powodują więcej konfliktów transakcyjnych między konkurującymi blokami, co utrudnia określenie, który blok powinien zostać zaakceptowany
+explanation: |
+  Prawidłowa odpowiedź identyfikuje podstawowy mechanizm stojący za nieaktualnymi blokami. Gdy bloki są większe, wymagają większej przepustowości do przesyłania między węzłami i więcej czasu na walidację. Podczas tego wydłużonego okresu propagacji wielu górników może znaleźć konkurencyjne bloki na tej samej wysokości, ponieważ nie otrzymali jeszcze najnowszego bloku. Tworzy to warunek wyścigu, w którym tylko jeden blok może zostać ostatecznie zaakceptowany, przez co pozostałe stają się nieaktualne. Błędne odpowiedzi mylą kwestię propagacji z trudnościami mining, mechanizmami konsensusu lub konfliktami transakcyjnymi, które są odrębnymi kwestiami od problemu czasowego, który powoduje nieaktualne bloki.
+reviewed: false

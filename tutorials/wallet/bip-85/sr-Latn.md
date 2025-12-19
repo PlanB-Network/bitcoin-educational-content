@@ -91,9 +91,9 @@ BIP-85 vam omogućava da kreirate više Bitcoin portfolija iz jedne seed osnovne
 
 
 
-- Scenario**: Koristite "Hot Wallet" Wallet (instaliran na uređaju povezanom na Internet), za dnevne transakcije.
-- Rešenje BIP-85**: Kreirate seed sekundarnu frazu posvećenu ovom portfoliju.
-- Prednost nad BIP-32**: Ne morate da uvozite seed primarnu frazu na vaš telefon, smanjujući rizik od hakovanja. Samo je seed sekundarna fraza ugrožena, štiteći vaše druge novčanike. Sa BIP-32, morate koristiti seed glavnu frazu i putanju zaobići, izlažući sva vaša sredstva.
+- **Scenario**: Koristite "Hot Wallet" Wallet (instaliran na uređaju povezanom na Internet), za dnevne transakcije.
+- **Rešenje BIP-85**: Kreirate seed sekundarnu frazu posvećenu ovom portfoliju.
+- **Prednost nad BIP-32**: Ne morate da uvozite seed primarnu frazu na vaš telefon, smanjujući rizik od hakovanja. Samo je seed sekundarna fraza ugrožena, štiteći vaše druge novčanike. Sa BIP-32, morate koristiti seed glavnu frazu i putanju zaobići, izlažući sva vaša sredstva.
 
 
 
@@ -103,9 +103,9 @@ BIP-85 vam omogućava da kreirate više Bitcoin portfolija iz jedne seed osnovne
 
 
 
-- Scenario**: Postavili ste Bitcoin Wallet za nekoga bliskog vama (npr. vašu majku), dok ste u mogućnosti da ga povratite ako ga izgube.
-- Rešenje BIP-85**: Kreirate posvećenu seed sekundarnu rečenicu i delite samo ovu.
-- Prednost nad BIP-32**: Sa BIP-32, kreiranje naloga za voljenu osobu zahteva ili deljenje vaše glavne seed fraze, rizikujući sva vaša sredstva i komplikujući upravljanje za vašu voljenu osobu (upravljanje granajućim putanjama), ili kreiranje nove seed fraze koju treba sačuvati pored vaše glavne seed fraze.
+- **Scenario**: Postavili ste Bitcoin Wallet za nekoga bliskog vama (npr. vašu majku), dok ste u mogućnosti da ga povratite ako ga izgube.
+- **Rešenje BIP-85**: Kreirate posvećenu seed sekundarnu rečenicu i delite samo ovu.
+- **Prednost nad BIP-32**: Sa BIP-32, kreiranje naloga za voljenu osobu zahteva ili deljenje vaše glavne seed fraze, rizikujući sva vaša sredstva i komplikujući upravljanje za vašu voljenu osobu (upravljanje granajućim putanjama), ili kreiranje nove seed fraze koju treba sačuvati pored vaše glavne seed fraze.
 
 
 
@@ -115,9 +115,9 @@ BIP-85 vam omogućava da kreirate više Bitcoin portfolija iz jedne seed osnovne
 
 
 
-- Scenario**: Razdvajate svoje bitkoine za različite svrhe (npr. dugoročna štednja, sredstva bez KYC).
-- Rešenje BIP-85**: Kreirate seed sekundarne fraze posvećene svakom cilju.
-- Prednost nad BIP-32**: Sa BIP-32, svi nalozi dele istu seed frazu, što komplikuje upravljanje u portfeljima trećih strana zahtevajući da se upravlja derivacionim putanjama kao što je `m/44'/0'/0'`. Pored toga, nije moguće dodeliti poseban nalog po uređaju (npr. "štednja na Coldcard", "dnevno na mobilnom", "odmor na Trezor"). BIP-85 dodeljuje jedinstvenu sekundarnu seed frazu po cilju, što je lako identifikovati i uvesti zasebno na svakom uređaju.
+- **Scenario**: Razdvajate svoje bitkoine za različite svrhe (npr. dugoročna štednja, sredstva bez KYC).
+- **Rešenje BIP-85**: Kreirate seed sekundarne fraze posvećene svakom cilju.
+- Prednost nad **BIP-32**: Sa BIP-32, svi nalozi dele istu seed frazu, što komplikuje upravljanje u portfeljima trećih strana zahtevajući da se upravlja derivacionim putanjama kao što je `m/44'/0'/0'`. Pored toga, nije moguće dodeliti poseban nalog po uređaju (npr. "štednja na Coldcard", "dnevno na mobilnom", "odmor na Trezor"). BIP-85 dodeljuje jedinstvenu sekundarnu seed frazu po cilju, što je lako identifikovati i uvesti zasebno na svakom uređaju.
 
 
 
@@ -127,9 +127,9 @@ BIP-85 vam omogućava da kreirate više Bitcoin portfolija iz jedne seed osnovne
 
 
 
-- Scenario**: Trebate privremeni portfolio za jednokratnu transakciju ili za očuvanje poverljivosti (npr.: mešanje sredstava, interakcija sa Exchange KYC, itd.).
-- Rešenje BIP-85**: Kreirate seed sekundarnu rečenicu, koristite je za transakciju, a zatim je uništite ako je potrebno, znajući da se može regenerisati.
-- Prednost nad BIP-32**: Sa BIP-32, privremeni račun zavisi od seed glavne rečenice, izlažući sva vaša sredstva ako bude ugrožena.
+- **Scenario**: Trebate privremeni portfolio za jednokratnu transakciju ili za očuvanje poverljivosti (npr.: mešanje sredstava, interakcija sa Exchange KYC, itd.).
+- **Rešenje BIP-85**: Kreirate seed sekundarnu rečenicu, koristite je za transakciju, a zatim je uništite ako je potrebno, znajući da se može regenerisati.
+- **Prednost nad BIP-32**: Sa BIP-32, privremeni račun zavisi od seed glavne rečenice, izlažući sva vaša sredstva ako bude ugrožena.
 
 
 
@@ -141,7 +141,7 @@ BIP-85 vam omogućava da kreirate više Bitcoin portfolija iz jedne seed osnovne
 
 
 
-- Hardware** (opciono)
+- **Hardware** (opciono)
  - Coldcard Mk4 ili Q1
  - MicroSD kartica
 
@@ -158,7 +158,7 @@ BIP-85 vam omogućava da kreirate više Bitcoin portfolija iz jedne seed osnovne
 
 
 
-- Kompatibilan** softver
+- **Kompatibilan** softver
  - Sparrow wallet (računar, samo za gledanje ili napredno upravljanje)
  - Nunchuck (mobilni, za više potpisa)
  - BlueWallet (mobilni)
@@ -168,7 +168,7 @@ BIP-85 vam omogućava da kreirate više Bitcoin portfolija iz jedne seed osnovne
 
 
 
-- 3.4 Coldcard** konfiguracija
+- 3.4 **Coldcard** konfiguracija
  - Inicijalizujte seed rečenicu od 24 reči na Coldcard-u.
  - Opcionalno: Dodajte passphrase za osiguranje pristupa BIP-85 granama.
  - Aktiviraj korisne opcije: NFC (za izvoz), onemogući USB na bateriji (sigurnost).
@@ -197,7 +197,7 @@ Uključite svoj Coldcard, unesite svoj PIN kod.
 
 
 
-- 1. Ako ste primenili passphrase na vaš glavni seed:**
+- 1. Ako ste primenili passphrase na vaš glavni seed:
  - Sa početnog ekrana idite na `passphrase`.
     - Izaberite `Add Word` i unesite svoju lozinku.
     - Pritisnite `Apply`.
@@ -207,7 +207,7 @@ Uključite svoj Coldcard, unesite svoj PIN kod.
 
 
 
-- 2. Idi na BIP-85** meni
+- 2. Idi na **BIP-85** meni
  - Sa početnog ekrana idite na `Napredno > Izvedi seed B85`
  - Pročitajte upozorenje i potvrdite.
 
@@ -246,7 +246,7 @@ Odaberite format fraze seed: 12, 18 ili 24 reči. Proverite broj reči prihvaće
 
 
 
-- 5. Zabeleži ili izvezi seed sekundarnu rečenicu**
+- 5. Zabeleži ili izvezi seed sekundarnu rečenicu
 
 
 ColdCard sada prikazuje novu seed sekundarnu rečenicu. Možete :
@@ -415,13 +415,13 @@ Više resursa u dodacima.
 
 
 
-- [BEEP](https://planb.network/resources/glossary/bip)
-- [BIP-32](https://planb.network/resources/glossary/bip0032)
-- [BIP-39](https://planb.network/resources/glossary/bip0039)
-- [BIP-85](https://planb.network/resources/glossary/bip0085)
-- [seed fraza](https://planb.network/resources/glossary/recovery-phrase)
-- [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [BEEP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [seed fraza](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 
@@ -430,18 +430,18 @@ Više resursa u dodacima.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ### A.3 Razumevanje passphrase BIP39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Kako funkcionišu Bitcoin portfoliji
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

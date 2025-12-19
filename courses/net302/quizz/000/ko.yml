@@ -1,0 +1,9 @@
+question: IT에서 네트워크의 근본적인 역할은 무엇인가요?
+answer: 데이터 Exchange 사용
+wrong_answers:
+  - 컴퓨터 메모리 늘리기
+  - 백업 복사본 만들기
+  - 컴퓨터 장비의 Exchange 활성화
+explanation: |
+  네트워크는 여러 장치를 연결하여 정보의 유통과 Exchange를 허용합니다.
+reviewed: false

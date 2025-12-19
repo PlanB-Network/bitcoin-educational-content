@@ -1,12 +1,11 @@
-question: Jaká je hlavní výhoda Bitcoinu oproti jiným formám měny?
-answer: Nabízí vynikající uchování hodnoty díky svému striktně omezenému množství a neutralitě.
+question: Jak je vytvořena zdravá měna?
+answer: Zdravá měna musí přirozeně vzniknout na trhu a z dobrovolného konsensu.
 wrong_answers:
-  - Je nedělitelný a nepřenosný.
-  - Je skvělým příkladem měny, která trpí měnovou inflací.
-  - Je široce přijímán v obchodě všemi obchodníky na světě.
+  - Zdravá měna musí být vynucena vládou prostřednictvím vydávání měnových zákonů.
+  - Zdravá měna musí být vnucena společnostmi použitím násilí.
+  - Zdravá měna nemůže být vytvořena.
 explanation: |
-  Hlavní výhoda Bitcoinu oproti jiným formám měny
-  spočívá v tom, že nabízí vynikající uchování hodnoty díky svému
-  striktně omezenému množství a absenci důvěryhodné strany. To
-  z něj činí dobrou volbu pro dlouhodobé spoření.
+  Zdravá měna je přirozený sociální fenomén, který musí vzniknout
+  z trhu a z dobrovolného konsensu. Žádný člověk nebo
+  skupina lidí nemůže vytvořit měnu.
 reviewed: true

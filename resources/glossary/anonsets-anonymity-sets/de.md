@@ -16,4 +16,4 @@ Der zweite Indikator gibt die Anzahl der möglichen Quellen für eine bestimmte 
 
 ![](../../dictionnaire/assets/40.webp)
 
-> im Französischen ist es allgemein üblich, den Begriff "anonset" zu verwenden Er könnte jedoch auch mit "ensemble d'anonymat" oder "potentiel d'anonymat" übersetzt werden Sowohl im Englischen als auch im Französischen wird manchmal auch der Begriff "score" für Anonsets verwendet (prospective score und retrospective score).*
+> im Französischen ist es allgemein üblich, den Begriff "anonset" zu verwenden Er könnte jedoch auch mit "ensemble d'anonymat" oder "potentiel d'anonymat" übersetzt werden Sowohl im Englischen als auch im Französischen wird manchmal auch der Begriff "score" für Anonsets verwendet (prospective score und retrospective score).

@@ -1,0 +1,9 @@
+question: Miten Spinoza määrittelee vihan?
+answer: Suru, joka liittyy ajatukseen ulkoisesta syystä.
+wrong_answers:
+  - Ulkoisen syyn ajatukseen liittyvä ilo.
+  - Syyllisyyden tunne.
+  - Vastoin intuitiivista tunnetta.
+explanation: |
+  Spinoza määrittelee vihan suruksi, joka liittyy ajatukseen ulkoisesta syystä. Se on negatiivinen affekti, joka vähentää toimintakykyämme ja kahlitsee meidät siihen, mitä vihaamme.
+reviewed: false

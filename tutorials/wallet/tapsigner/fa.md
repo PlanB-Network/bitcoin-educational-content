@@ -1,5 +1,5 @@
 ---
-name: تپساینر
+name: Tapsigner
 description: راه‌اندازی و استفاده از یک Tapsigner با Nunchuk
 ---
 ![cover](assets/cover.webp)

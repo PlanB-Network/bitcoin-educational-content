@@ -1,0 +1,9 @@
+question: Jakie są dwa główne aspekty decentralizacji w Bitcoin?
+answer: Decentralizacja Miner i decentralizacja full node
+wrong_answers:
+  - Decentralizacja transakcji i decentralizacja wallet
+  - Decentralizacja sieci i decentralizacja protokołów
+  - Decentralizacja użytkowników i decentralizacja deweloperów
+explanation: |
+  Decentralizacja Bitcoin ma dwa kluczowe elementy: decentralizację górników i decentralizację full node. Decentralizacja Miner oznacza, że przetwarzanie i zamawianie transakcji nie jest kontrolowane przez żaden pojedynczy podmiot, ale raczej przez dynamiczny kolektyw górników, którzy mogą swobodnie dołączać lub odchodzić. Decentralizacja Full node odnosi się do walidacji bloków przeprowadzanej na brzegu sieci przez samych użytkowników, a nie przez zaufane władze. Te dwa aspekty współpracują ze sobą, aby osiągnąć odporność na cenzurę - górnicy zapobiegają scentralizowanemu zamawianiu transakcji, podczas gdy pełne węzły zapewniają pozbawioną zaufania walidację łańcucha bloków.
+reviewed: false

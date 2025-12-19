@@ -10,7 +10,7 @@ Blitz-Geldbörsen gelten wie alle mobilen Geldbörsen als "heiße" Geldbörsen, 
 
 Wenn Sie mehr über das Lightning-Netzwerk erfahren möchten und verstehen wollen, wie es technisch funktioniert, empfehle ich Ihnen diesen Kurs:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In diesem Tutorial werfen wir einen Blick auf **Lipa**, eine einfache und effektive Lightning-Wallet, die in der Schweiz entwickelt wurde.
 
@@ -31,7 +31,7 @@ Die wichtigsten Merkmale sind:
 Der erste Schritt besteht darin, die Lipa-App herunterzuladen. Im Moment ist sie nur auf iOS verfügbar:
 
 
-- [Für Apple] (https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- [Für Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
 
 Die Android-Version befindet sich derzeit in der Entwicklung und wird bald verfügbar sein.
 
@@ -52,10 +52,10 @@ Sobald Sie Ihre Option gewählt haben, fordert die Anwendung Sie auf, Benachrich
 Die Anwendung stellt dann ihre Hauptfunktionen über eine Reihe von Einführungsbildschirmen vor:
 
 
-- Nahtloser Zahlungseingang**: Nutzer können Bitcoin-Zahlungen empfangen, auch wenn die Anwendung geschlossen ist, was Zuverlässigkeit und Komfort garantiert.
-- Nicht-kustodiale Lightning-Adressen**: Lipa unterstützt jetzt nicht-verwahrende Lightning-Adressen, was den Datenschutz und die Sicherheit erhöht, da die Nutzer die volle Kontrolle über ihre Bitcoins haben.
-- Kontrolle über analytische Daten** : Da Transparenz und Vertraulichkeit an erster Stelle stehen, können die Nutzer die Art der erfassten Daten einsehen und ihre Präferenzen für die Weitergabe festlegen.
-- Senden Sie über Ihre Telefonnummer**: Sie brauchen keine komplexen Adressen - wählen Sie einfach einen Kontakt aus, geben Sie den Betrag ein und senden Sie Bitcoins direkt an dessen Telefonnummer.
+- **Nahtloser Zahlungseingang**: Nutzer können Bitcoin-Zahlungen empfangen, auch wenn die Anwendung geschlossen ist, was Zuverlässigkeit und Komfort garantiert.
+- **Nicht-kustodiale Lightning-Adressen**: Lipa unterstützt jetzt nicht-verwahrende Lightning-Adressen, was den Datenschutz und die Sicherheit erhöht, da die Nutzer die volle Kontrolle über ihre Bitcoins haben.
+- **Kontrolle über analytische Daten**: Da Transparenz und Vertraulichkeit an erster Stelle stehen, können die Nutzer die Art der erfassten Daten einsehen und ihre Präferenzen für die Weitergabe festlegen.
+- Senden Sie über Ihre Telefonnummer: Sie brauchen keine komplexen Adressen - wählen Sie einfach einen Kontakt aus, geben Sie den Betrag ein und senden Sie Bitcoins direkt an dessen Telefonnummer.
 
 Die Anwendung profitiert außerdem von kontinuierlichen Verbesserungen in Bezug auf Stabilität, Sicherheit und Zuverlässigkeit, um eine optimale Nutzererfahrung zu gewährleisten.
 
@@ -66,10 +66,10 @@ Die Benutzeroberfläche von Lipa ist in 4 Hauptregisterkarten unterteilt, die ü
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Startseite**: Zeigt Ihren aktuellen Kontostand und die Transaktionshistorie an
-- Scanner**: Ermöglicht das Scannen von QR-Codes zur Durchführung von Zahlungen
-- Karte**: Zeigt eine interaktive Karte mit Bitcoin-akzeptierenden Unternehmen in Ihrer Nähe an
-- Einstellungen**: Zugriff auf Anwendungseinstellungen, Backup und Präferenzen
+- **Startseite**: Zeigt Ihren aktuellen Kontostand und die Transaktionshistorie an
+- **Scanner**: Ermöglicht das Scannen von QR-Codes zur Durchführung von Zahlungen
+- **Karte**: Zeigt eine interaktive Karte mit Bitcoin-akzeptierenden Unternehmen in Ihrer Nähe an
+- **Einstellungen**: Zugriff auf Anwendungseinstellungen, Backup und Präferenzen
 
 Ein zusätzliches Menü kann durch Herunterziehen des Startbildschirms aufgerufen werden:
 
@@ -91,7 +91,7 @@ Um Ihre Brieftasche zu sichern, gehen Sie auf die Registerkarte "Einstellungen" 
 
 Für weitere Informationen darüber, wie Sie Ihre Wiederherstellungsphrase richtig sichern und verwalten, empfehle ich Ihnen diesen anderen Lehrgang, besonders wenn Sie Anfänger sind:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Bitcoins erhalten
 

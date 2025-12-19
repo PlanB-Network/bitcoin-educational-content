@@ -1,0 +1,9 @@
+question: TCP에서 다단계 연결 설정 절차의 이름은 무엇인가요?
+answer: 3자 핸드셰이크
+wrong_answers:
+  - 4방향 핸드셰이크
+  - 슬라이딩 창
+  - 체크섬 프로세스
+explanation: |
+  3자 핸드셰이크는 페이로드 데이터의 Exchange 이전에 클라이언트와 서버 간의 시퀀스 번호를 동기화합니다.
+reviewed: false

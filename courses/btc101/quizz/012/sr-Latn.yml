@@ -1,12 +1,11 @@
-question: Ko su Cypherpunks?
-answer: Grupa ljudi koja je počela duboko preispitivati ulogu privatnosti i slobode u digitalnom dobu.
+question: Koje su tri kanonske funkcije novca?
+answer: Sredstvo očuvanja vrednosti, Sredstvo razmene, Obračunska jedinica.
 wrong_answers:
-  - Grupa hakera koja je ukrala informacije od vlada.
-  - Grupa ljudi koja je izumila Bitkoin i druge kriptovalute.
-  - Grupa ljudi koja se protivila upotrebi tehnologije.
+  - Sredstvo očuvanja vrednosti, Sredstvo razmene, Sredstvo proizvodnje.
+  - Sredstvo očuvanja vrednosti, Sredstvo proizvodnje, Obračunska jedinica.
+  - Sredstvo razmene, Sredstva za proizvodnju, Obračunska jedinica.
 explanation: |
-  Cypherpunks su grupa pojedinaca koji su verovali
-  da kriptografija može služiti kao alat za zaštitu
-  pojedinačnih prava protiv mešanja vlada
-  i velikih korporacija.
+  Prema Aristotelu, novac služi tri funkcije: on je
+  sredstvo očuvanja vrednosti, sredstvo razmene i jedinica
+  računa. Danas se funkcija sredstva razmene široko prepoznaje kao glavna, pre ostale dve.
 reviewed: true

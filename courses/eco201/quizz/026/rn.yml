@@ -1,11 +1,11 @@
-question: None ikintu ciza gifise salability nyinshi bisobanura iki?
-answer: Bikwiye kwipfuzwa n’abantu benshi bishobotse, kenshi na kenshi.
+question: None bisiguriki kukidandazwa(bien) gufita abaguzi benshi nukuvuga abakirondera benshi?
+answer: vyitwa ko kiba kironderwa n'abantu benshi cane bashoboka, kandi akenshi.
 wrong_answers:
-  - Bikwiye kwipfuzwa n’abantu bakeyi, kenshi na kenshi.
-  - Bikwiye kwipfuzwa n’abantu benshi bishobotse, bimwe mu bihe.
-  - Bikwiye kwipfuzwa n’abantu bakeyi, bimwe mu bihe.
+  - bitegerezwa kwipfuzwa n’abantu bakeyi, kenshi.
+  - Bitegerezwa kwipfuzwa n’abantu benshi bishoboka, rimwe na rimwe.
+  - Bitegerezwa kwipfuzwa n’abantu bakeyi, rimwe na rimwe.
 explanation: |
-  Ivyiza bigurishwa cane ni ivyo abantu benshi bipfuza .
-  kandi bishobora guhindurwa bitagoranye n’ibindi bintu canke ibikorwa.
-  Ivyo bituma ribereye gukoreshwa nk’amahera.
+  Ibidandazwa bigurishwa cane ni ivyo abantu benshi bipfuza .
+  kandi bishobora gukabishwa bitagoranye n’ibindi bintu canke ibikorwa.
+  Ivyo bituma amahera aba ariyo abereye gukora.
 reviewed: true

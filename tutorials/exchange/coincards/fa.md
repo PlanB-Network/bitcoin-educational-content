@@ -1,5 +1,5 @@
 ---
-name: کوین‌کارت‌ها
+name: Coincards
 description: چگونه می‌توانم کالا و خدمات را با بیت‌کوین از طریق Coincards خریداری کنم؟
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ description: چگونه می‌توانم کالا و خدمات را با بی�
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 کوین‌کارتز طیف گسترده‌ای از انتخاب‌ها را ارائه می‌دهد، از خرده‌فروشی تا فست‌فود، پلتفرم‌های استریم، بازی‌های آنلاین، سایت‌های تجارت الکترونیک و بیشتر...
 
@@ -67,7 +67,7 @@ Coincards متعهد به حفظ حریم خصوصی شما است. آنها ب�
 
 
 
-مجموعه‌ای از آموزش‌ها در مورد پورتفولیوهای اصلی لایتنینگ (Phoenix، Breez، BitKit، Zeus...) را می‌توانید اینجا پیدا کنید: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+مجموعه‌ای از آموزش‌ها در مورد پورتفولیوهای اصلی لایتنینگ (Phoenix، Breez، BitKit، Zeus...) را می‌توانید اینجا پیدا کنید: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Coincards متعهد به حفظ حریم خصوصی شما است. آنها ب�
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## چگونه می‌توانم یک کارت هدیه BTC در Coincards بخرم؟
 
@@ -244,4 +244,4 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

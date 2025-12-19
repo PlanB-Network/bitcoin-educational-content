@@ -1,9 +1,9 @@
-question: Ni igiki gikomeye Bitcoin ifise mu vya politike?
-answer: Kugabanya ubugenzuzi bwa Leta ku mahera
+question: Ni uruhe ruhara rukomeye bitcoin igira muri politike?
+answer: Kugabanya ubugenduzi reta igira mu vy'amahera
 wrong_answers:
   - Kwongerekana kw'amabanki
-  - Guteza imbere ugutera imbere kw'ibiciro
-  - Gukomeza amabwirizwa agenga ivy'imari
+  - Korohereza amafaranga guta agaciro
+  - Gukomeza amabwirizwa agenga ivy'amafaranga
 explanation: |
-  Bitcoin ni ubundi buryo bugoyagoya ububasha bw’inzego za Leta ku mahera biciye mu gucapura no gucengera amafaranga.
+  Bitcoin ni ubundi buryo bwaka ububasha inzego za reta ku mahera biciye mu gucapura no gucengera amafaranga.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Кой софтуер с отворен код обикновено се използва като референтен за DNS сървъри?
+answer: BIND
+wrong_answers:
+  - Apache
+  - Калмари
+  - Samba
+explanation: |
+  BIND (Berkeley Internet Name Domain) е референтната реализация с отворен код, използвана от повечето DNS сървъри в света.
+reviewed: false

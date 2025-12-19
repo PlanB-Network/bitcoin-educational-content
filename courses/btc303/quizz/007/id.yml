@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan desentralisasi full node dalam Bitcoin?
+answer: Validasi blok dilakukan di tepi jaringan oleh pengguna, bukan oleh otoritas tepercaya
+wrong_answers:
+  - Pemrosesan transaksi didistribusikan di antara beberapa pool mining daripada satu entitas tunggal
+  - Aturan protokol Bitcoin diputuskan oleh kelompok pengembang inti yang terdistribusi
+  - Kunci pribadi disimpan di beberapa perangkat, bukan di satu wallet
+explanation: |
+  Desentralisasi Full node berarti bahwa validasi blok (data yang dihasilkan penambang) terjadi di tepi jaringan oleh pengguna individu yang menjalankan node mereka sendiri, daripada bergantung pada beberapa otoritas tepercaya untuk memverifikasi transaksi. Ini berbeda dengan desentralisasi penambang, yang berhubungan dengan pemesanan dan pemrosesan transaksi. Opsi lainnya membingungkan desentralisasi full node dengan distribusi mining, struktur tata kelola, atau praktik keamanan, tetapi tidak ada yang menangkap konsep inti dari validasi blok terdistribusi oleh peserta jaringan.
+reviewed: false

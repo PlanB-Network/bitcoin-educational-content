@@ -1,0 +1,9 @@
+question: Da li je Spinozina porodica?
+answer: Jevrejski.
+wrong_answers:
+  - Katolički.
+  - Protestant.
+  - Ateista.
+explanation: |
+  Spinozina porodica bila je jevrejska. Njegovi roditelji bili su portugalski Jevreji koji su pobegli od inkvizicije i nastanili se u Amsterdamu, gde je postojala velika sefardska jevrejska zajednica.
+reviewed: false

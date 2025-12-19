@@ -1,13 +1,9 @@
-question: ¿Por qué el oro se convirtió en el estándar de medio de intercambio?
-answer: Debido a su rareza, durabilidad y divisibilidad.
+question: ¿Por qué el oro no es un material portátil?
+answer: Porque es denso y pesado, lo que lo hace incómodo de llevar en grandes cantidades.
 wrong_answers:
-  - Debido a su abundancia, durabilidad e indivisibilidad.
-  - Debido a su rareza, perecibilidad y divisibilidad.
-  - Debido a su abundancia, perecibilidad e indivisibilidad.
+  - Porque es demasiado valioso para ser movido.
+  - Porque no se puede moldear fácilmente en formas más pequeñas.
+  - Porque es un líquido a temperatura ambiente.
 explanation: |
-  El oro se convirtió en el estándar de medio de intercambio debido a su
-  rareza, durabilidad y divisibilidad: su rareza evitaba
-  la devaluación causada por la producción; su durabilidad
-  aseguraba que no se erosionaría con el tiempo, y su divisibilidad
-  permitía su uso en transacciones de diferentes tamaños.
+  El oro es denso y pesado, lo que significa que llevar grandes cantidades de él puede ser físicamente desafiante. Este peso lo hace menos conveniente para el transporte en comparación con materiales más ligeros.
 reviewed: true

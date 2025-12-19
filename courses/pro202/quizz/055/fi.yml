@@ -1,0 +1,8 @@
+question: Kun Bitcoin-solmu pyytää lohko-otsakkeita getheaders-komennolla, mikä on yksittäisessä vastauksessa palautettavien otsakkeiden enimmäismäärä ja mitä kunkin 80 tavun otsakkeen jälkeen seuraa?
+answer: Palautettavia otsikoita voi olla enintään 2000, ja jokaisen otsikon jälkeen on nollan suuruinen tyhjä tapahtumaluku
+wrong_answers:
+  - Jopa 1000 otsikkoa voidaan palauttaa, ja jokaista otsikkoa seuraa varsinainen transaktioiden määrä varint-arvona
+  - Jopa 2000 otsikkoa voidaan palauttaa, ja jokaista otsikkotietoa seuraa 4 tavun tarkistussumma
+  - Jopa 500 otsikkoa voidaan palauttaa, ja jokaista otsikkoa seuraa Merkle-juurihash todentamista varten
+explanation: |
+  Bitcoin:n P2P-protokolla rajoittaa getheaders-vastausten enimmäismäärän 2000 otsikkoon, jotta solmuja ei ylikuormitettaisi massiivisilla vastauksilla. Kukin otsikko on tasan 80 tavua, ja sen jälkeen on nollaksi asetettu transaktioiden lukumääräkenttä, koska pelkät otsikkoviestit eivät sisällä varsinaisia transaktioita. Tämä rakenne mahdollistaa tehokkaan ketjusynkronoinnin, jossa solmut voivat nopeasti ladata ja tarkistaa proof-of-work-ketjun rakenteen ennen kuin ne pyytävät täydet lohkotiedot.

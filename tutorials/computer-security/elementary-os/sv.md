@@ -1,5 +1,5 @@
 ---
-name: Elementär OS
+name: Elementary OS
 description: Den perfekta ersättaren för Windows och MacOS
 ---
 
@@ -11,7 +11,7 @@ Elementary OS är ett Ubuntu-baserat operativsystem som är utformat för att va
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Varför välja Elementary OS
 
@@ -19,31 +19,31 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Enkelhet och användarvänlighet**: Elementary OS:s grafiska Interface ligger mitt emellan MacOs och Windows. Detta gör det lätt att använda, även för oerfarna användare.
+- **Enkelhet och användarvänlighet**: Elementary OS:s grafiska Interface ligger mitt emellan MacOs och Windows. Detta gör det lätt att använda, även för oerfarna användare.
 
 
 
 
 
-- Säkerhet**: Liksom de flesta Linux-distributioner har Elementary OS en hög säkerhetsnivå. Regelbundna uppdateringar, rättighetshantering och avsaknad av vanliga virus gör det till ett pålitligt system.
+- **Säkerhet**: Liksom de flesta Linux-distributioner har Elementary OS en hög säkerhetsnivå. Regelbundna uppdateringar, rättighetshantering och avsaknad av vanliga virus gör det till ett pålitligt system.
 
 
 
 
 
-- Hastighet**: Elementary OS är en lättviktig distribution. Den kräver få resurser, vilket gör den snabb och lämplig för datorer med blygsamma konfigurationer.
+- **Hastighet**: Elementary OS är en lättviktig distribution. Den kräver få resurser, vilket gör den snabb och lämplig för datorer med blygsamma konfigurationer.
 
 
 
 
 
-- Gratis**: Systemet är helt gratis. När du laddar ner det kan du dock göra en donation för att stödja utvecklarna.
+- **Gratis**: Systemet är helt gratis. När du laddar ner det kan du dock göra en donation för att stödja utvecklarna.
 
 
 
 
 
-- Aktiv gemenskap**: Gemenskapen kring Elementary OS är mångsidig och lyhörd. Om du stöter på problem kan du enkelt hitta hjälp i forumet eller på sociala nätverk.
+- **Aktiv gemenskap**: Gemenskapen kring Elementary OS är mångsidig och lyhörd. Om du stöter på problem kan du enkelt hitta hjälp i forumet eller på sociala nätverk.
 
 
 
@@ -61,7 +61,7 @@ Innan du påbörjar installationen ska du se till att du har följande utrustnin
 
 
 - En **USB-nyckel** på minst 12 GB
-- RAM-minne** på minst 4 GB
+- **RAM-minne** på minst 4 GB
 - En **Hard-disk på 20 GB** eller mer för bekväm användning
 
 
@@ -70,7 +70,7 @@ Innan du påbörjar installationen ska du se till att du har följande utrustnin
 
 
 
-Gå till operativsystemets officiella webbplats [elementary] (https://elementary.io/) och välj ett belopp för att stödja projektet. Detta steg är valfritt.
+Gå till operativsystemets officiella webbplats [elementary](https://elementary.io/) och välj ett belopp för att stödja projektet. Detta steg är valfritt.
 
 
 Om du vill hämta ISO-imagen utan kostnad anger du 0 i fältet **"Other"** och börjar hämta ISO-imagen för systemet.
@@ -89,7 +89,7 @@ När du har hämtat ISO-bilden måste du göra den startbar på ett USB-minne f�
 
 
 
-Ladda ner programvara som [Balena Etcher] (https://etcher.balena.io/) eller ett liknande verktyg och starta sedan programvaran.
+Ladda ner programvara som [Balena Etcher](https://etcher.balena.io/) eller ett liknande verktyg och starta sedan programvaran.
 
 
 Välj den tidigare nedladdade **Elementary OS** ISO-imagen och ange din USB-nyckel som mål.
@@ -380,4 +380,4 @@ Elementary OS är nu igång på din dator. Dess filosofi om enkelhet, lätthet o
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

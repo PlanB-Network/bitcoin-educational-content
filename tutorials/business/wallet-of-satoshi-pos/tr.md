@@ -1,5 +1,5 @@
 ---
-name: Wallet of Satoshi - Satış Noktası
+name: Wallet of Satoshi - POS
 description: İşletmenizde Lightning Network aracılığıyla Bitcoin'ü benimseyin.
 ---
 
@@ -18,7 +18,7 @@ Bitcoin ekosistemi içinde, Wallet of Satoshi, Lightning ödemelerine başlamak 
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Bitcoin'ün dünyanın dört bir yanındaki topluluklarda benimsenmesini kolaylaştırmak için Satoshi'ün Wallet'i, kullanıcıları kendi topluluklarında kanıtlanmış bir kullanım alanı bulmaya teşvik etmek için bir Satış Noktası da kurdu: Bitcoin ile mal ve hizmet alım satımı.
 
@@ -57,7 +57,7 @@ Uygulamada, menüye erişin, ardından satış noktasına erişmek için **Point
 
 
 
-Klavye** bölümü altında, ürün tutarını girerek ve daha iyi izlenebilirlik için bir not ekleyerek doğrudan Invoice satın alımları yapabilirsiniz.
+**Klavye** bölümü altında, ürün tutarını girerek ve daha iyi izlenebilirlik için bir not ekleyerek doğrudan Invoice satın alımları yapabilirsiniz.
 
 
 
@@ -89,7 +89,7 @@ Müşterinizin satın alımıyla ilişkili bir Lightning Invoice'ü generate yap
 
 
 
-Geçmiş** menüsünde, satış noktanızda oluşturduğunuz her bir Invoice için ödemelerin bir listesini bulacaksınız. Bu geçmiş, satış noktası dışında yaptığınız ve aldığınız tüm ödemeleri listeleyen Wallet of Satoshi hesabınızın varsayılan geçmişinden farklıdır.
+**Geçmiş** menüsünde, satış noktanızda oluşturduğunuz her bir Invoice için ödemelerin bir listesini bulacaksınız. Bu geçmiş, satış noktası dışında yaptığınız ve aldığınız tüm ödemeleri listeleyen Wallet of Satoshi hesabınızın varsayılan geçmişinden farklıdır.
 
 
 
@@ -174,16 +174,16 @@ Artık işletmenizde Bitcoin'i sadece birkaç dakika içinde kabul etmek için b
 
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 Küçük ve orta ölçekli işletmeler için uygun eksiksiz bir PoS arıyorsanız, Swiss Bitcoin Pay'i de tavsiye ederim:
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Son olarak, işletmeler için Bitcoin ödeme ve nakit akışının temellerini öğrenmek için eksiksiz eğitim kursumuzu bulun:
 
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

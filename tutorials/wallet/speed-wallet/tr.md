@@ -1,5 +1,5 @@
 ---
-name: Hız Wallet
+name: Speed Wallet
 description: Bitcoins ve USDT ile anında ödeme ve Exchange
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ Bu eğitimde, Speed Wallet ile deneyiminizi mümkün olduğunca kolaylaştırmak
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Speed Wallet ile çalışmaya başlama
 
@@ -79,7 +79,7 @@ Speed Wallet bir kullanıcı hesabı oluşturulmasını gerektirir. Google hesab
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Hesabınız oluşturulduktan sonra, ikili kimlik doğrulama sistemi veya PIN/biy
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Bunu yapmak için uygulama ayarlarına gidin, ardından ikili kimlik doğrulama ve biyometrik doğrulamayı etkinleştirin.
 
@@ -111,7 +111,7 @@ Bitcoin cüzdanları ile zaten deneyiminiz varsa, hiç adım atmamış olmayacak
 
 
 
-Wallet** ana sayfasında, :
+**Wallet** ana sayfasında, :
 
 
 
@@ -147,7 +147,7 @@ Wallet** ana sayfasında, :
 
 
 
-Al** düğmesine tıklayın, ardından almak istediğiniz Layer'u ve Invoice'unuzu göndericinizle paylaşmak için işlem tutarını seçin.
+**Al** düğmesine tıklayın, ardından almak istediğiniz Layer'u ve Invoice'unuzu göndericinizle paylaşmak için işlem tutarını seçin.
 
 
 
@@ -161,11 +161,11 @@ Göndericinize işlem tutarını tanımlama esnekliği vermek istediğinizde Lig
 
 
 
-- Speed Wallet** ile bitcoin gönderin:
+- **Speed Wallet** ile bitcoin gönderin:
 
 
 
-Gönder** düğmesinden, alıcınızın Lightning Address, Lightning Invoice veya Bitcoin (Mainnet) Address'ünü kullanarak bitcoin gönderebilirsiniz.
+**Gönder** düğmesinden, alıcınızın Lightning Address, Lightning Invoice veya Bitcoin (Mainnet) Address'ünü kullanarak bitcoin gönderebilirsiniz.
 
 
 
@@ -185,13 +185,13 @@ Speed Wallet'nin ilk özelliklerinden biri, uygulamadan çıkmadan Exchange ve E
 
 
 
-Buy** ve **Swap** seçenekleri Speed'de bulunan diğer para birimleri karşılığında Exchange bitcoin almanızı sağlar.
+**Buy** ve **Swap** seçenekleri Speed'de bulunan diğer para birimleri karşılığında Exchange bitcoin almanızı sağlar.
 
 
 
 
 
-- Kredi kartınızla Bitcoin satın alın**: Speed Wallet, her gün kullandığınız fiat para birimlerinden Bitcoin edinmeyi kolaylaştırır. Kredi kartınızla bitcoin ödemenizi sağlayan bir ödeme toplayıcı içerir.
+- **Kredi kartınızla Bitcoin satın alın**: Speed Wallet, her gün kullandığınız fiat para birimlerinden Bitcoin edinmeyi kolaylaştırır. Kredi kartınızla bitcoin ödemenizi sağlayan bir ödeme toplayıcı içerir.
 
 
 
@@ -201,13 +201,13 @@ Buy** ve **Swap** seçenekleri Speed'de bulunan diğer para birimleri karşılı
 
 
 
-- Diğer kripto para birimlerinden Bitcoin satın alın**: USDT'nizi, USDC'nizi Exchange'nızdaki bitcoinler için Wallet veya tam tersi yapabilirsiniz. Bu seçenek sayesinde Speed Wallet, harici Bitcoin platformlarına başvurmadan Exchange satın alma ve satma sürecini basitleştirir. Böylece Speed Wallet'inizden ayrılmadan 20.000 satoshi gibi düşük bir fiyata, yani şu anki kurla yaklaşık 20$'a işlem yapabilirsiniz.
+- Diğer kripto para birimlerinden Bitcoin satın alın: USDT'nizi, USDC'nizi Exchange'nızdaki bitcoinler için Wallet veya tam tersi yapabilirsiniz. Bu seçenek sayesinde Speed Wallet, harici Bitcoin platformlarına başvurmadan Exchange satın alma ve satma sürecini basitleştirir. Böylece Speed Wallet'inizden ayrılmadan 20.000 satoshi gibi düşük bir fiyata, yani şu anki kurla yaklaşık 20$'a işlem yapabilirsiniz.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -221,7 +221,7 @@ https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d
 
 
 
-Uygulamalar** menüsünde çok sayıda platform, oyun, indirim teklifi, hizmet ve aynı zamanda görevleri yerine getirerek bitcoin kazanabileceğiniz platformlar bulabilirsiniz.
+**Uygulamalar** menüsünde çok sayıda platform, oyun, indirim teklifi, hizmet ve aynı zamanda görevleri yerine getirerek bitcoin kazanabileceğiniz platformlar bulabilirsiniz.
 
 
 
@@ -237,7 +237,7 @@ Böylece, Speed Wallet'ten, örneğin AirBtc ile Bitcoin üzerinden ödeme yapar
 
 
 
-Teklifler** alt bölümünde, oyun platformları tarafından sunulan ilk para yatırma indirimleri hakkında bilgi edinin.
+**Teklifler** alt bölümünde, oyun platformları tarafından sunulan ilk para yatırma indirimleri hakkında bilgi edinin.
 
 
 
@@ -245,7 +245,7 @@ Teklifler** alt bölümünde, oyun platformları tarafından sunulan ilk para ya
 
 
 
-Kazan** bölümünde, görevleri yerine getirerek satoshis kazanmak için kullanabileceğiniz platformları bulacaksınız.
+**Kazan** bölümünde, görevleri yerine getirerek satoshis kazanmak için kullanabileceğiniz platformları bulacaksınız.
 
 
 
@@ -253,7 +253,7 @@ Kazan** bölümünde, görevleri yerine getirerek satoshis kazanmak için kullan
 
 
 
-Alışveriş** menüsünde, sizi bölgenizde ve diğer her yerde mevcut olan dijital hizmetlere (hediye kartları, telefon kontörleri vb.) daha da yaklaştıran Bitrefill'i bulacaksınız.
+**Alışveriş** menüsünde, sizi bölgenizde ve diğer her yerde mevcut olan dijital hizmetlere (hediye kartları, telefon kontörleri vb.) daha da yaklaştıran Bitrefill'i bulacaksınız.
 
 
 
@@ -265,7 +265,7 @@ Bitrefill'i kullanmaya nasıl başlayacağınıza ilişkin eğitimimize aşağı
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Ödüller kazanın
 
@@ -319,7 +319,7 @@ Gördüğünüz gibi Speed Wallet, Bitcoin'i gerçek hayattaki durumlarda günl�
 
 
 
-Wallet** sayfasındaki **Ayarlar** seçeneğinde, **Mini Uygulamalar** bölümü eklediğiniz tüm uygulamaları özelleştirmenize ve yönetmenize olanak tanır.
+**Wallet** sayfasındaki **Ayarlar** seçeneğinde, **Mini Uygulamalar** bölümü eklediğiniz tüm uygulamaları özelleştirmenize ve yönetmenize olanak tanır.
 
 
 
@@ -327,13 +327,13 @@ Wallet** sayfasındaki **Ayarlar** seçeneğinde, **Mini Uygulamalar** bölümü
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet sadece Mobil cihazlar için değildir!
 
 
 
-Mobil uygulamaya ek olarak Speed Wallet, güvenli işlemler için bilgisayarınızın Google Chrome tarayıcısına ekleyebileceğiniz bir [Chrome Web uzantısı] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) da sunmaktadır.
+Mobil uygulamaya ek olarak Speed Wallet, güvenli işlemler için bilgisayarınızın Google Chrome tarayıcısına ekleyebileceğiniz bir [Chrome Web uzantısı](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) da sunmaktadır.
 
 
 
@@ -375,25 +375,25 @@ Esas olarak ödemelere odaklanan aşağıdaki seçenekleri bulacaksınız:
 
 
 
-- Çevrimiçi ödemeler**: Bu seçenekle, ödeme bağlantıları, faturalama ve abonelikler yoluyla dijital ürünleriniz için bir ödeme aracı olarak Bitcoin'u kabul edebilirsiniz.
+- **Çevrimiçi ödemeler**: Bu seçenekle, ödeme bağlantıları, faturalama ve abonelikler yoluyla dijital ürünleriniz için bir ödeme aracı olarak Bitcoin'u kabul edebilirsiniz.
 
 
 
 
 
-- Yerinde ödemeler**: Mağazanızda ödeme toplamak için.
+- **Yerinde ödemeler**: Mağazanızda ödeme toplamak için.
 
 
 
 
 
-- Anında ödemeler**: Geri ödemeleri, para çekme işlemlerini, masrafları ve çalışan maaş bordrolarını doğrudan Speed Business Interface'ten yönetmenizi sağlayan bir seçenek.
+- **Anında ödemeler**: Geri ödemeleri, para çekme işlemlerini, masrafları ve çalışan maaş bordrolarını doğrudan Speed Business Interface'ten yönetmenizi sağlayan bir seçenek.
 
 
 
 
 
-- Platform ödemeleri**: Speed Business hesabınızı bu platformlara transfer ve ödeme yapmak için kullandığınız harici araçlara bağlayın.
+- **Platform ödemeleri**: Speed Business hesabınızı bu platformlara transfer ve ödeme yapmak için kullandığınız harici araçlara bağlayın.
 
 
 
@@ -401,4 +401,4 @@ Speed Wallet eğitimimizin sonuna geldiniz. Bu eğitimi faydalı bulduysanız, l
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

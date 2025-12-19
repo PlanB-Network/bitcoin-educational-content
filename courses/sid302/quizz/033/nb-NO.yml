@@ -1,0 +1,8 @@
+question: Hva er den grunnleggende begrensningen i Breez Liquid SDKs transaksjonsfunksjoner som skiller den fra en full Lightning Network-node?
+answer: Den kan ikke utføre direkte Lightning-til-Lightning- eller Bitcoin-til-Bitcoin-transaksjoner, ettersom den utelukkende opererer med Liquid som sin hjemmebase
+wrong_answers:
+  - Den kan ikke håndtere atombytter mellom ulike blokkjedenettverk på grunn av manglende støtte for smartkontrakter på tvers av kjeder
+  - "Den kan ikke behandle transaksjoner som er større enn 0,1 BTC på grunn av Liquid Networks innebygde transaksjonsstørrelsesbegrensninger"
+  - Den kan ikke fungere uten internettforbindelse fordi den krever konstant synkronisering med sentraliserte Breez-servere
+explanation: |
+  SDK-en er eksplisitt beskrevet som "et Liquid-sentrisk verktøy" som opererer med Liquid som sin "hjemmebase" Den støtter bare tre spesifikke operasjoner: Liquid-til-Liquid, Liquid-til-Lightning og Liquid-til-Bitcoin. I motsetning til en full Lightning-node som kan rute betalinger mellom Lightning-kanaler, kan ikke Breez SDK utføre direkte Lightning-til-Lightning-transaksjoner, noe som gjør den fundamentalt forskjellig fra tradisjonell Lightning-infrastruktur.

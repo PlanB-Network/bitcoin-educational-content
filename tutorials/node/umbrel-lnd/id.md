@@ -1,5 +1,5 @@
 ---
-name: Payung LND
+name: Umbrel LND
 description: Tutorial lanjutan tentang cara menginstal dan mengonfigurasi Lightning Network Daemon (LND) pada Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ Untuk menginstal Umbrel dan mengonfigurasi node Bitcoin Anda, kami sarankan Anda
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Pastikan node Bitcoin Anda sudah diperbarui dan berfungsi dengan baik, karena Lightning Network bergantung pada node ini untuk semua transaksi off-chain.
 
@@ -57,7 +57,7 @@ Untuk pengenalan teoretis yang lengkap mengenai Lightning Network, kami sarankan
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Kursus ini akan memberi Anda dasar yang menyeluruh dalam konsep dasar Lightning Network, sebelum melanjutkan ke praktik dengan node LND Anda.
 
@@ -154,7 +154,7 @@ Anda dapat memilih antara membuat simpul baru atau memulihkan simpul dari cadang
 
 
 
-**Catatan: Pada versi terbaru Umbrel, instalasi aplikasi Lightning menyediakan seed 24 kata ini (simpul Bitcoin Umbrel itu sendiri tidak).
+**Catatan: Pada versi terbaru Umbrel, instalasi aplikasi Lightning menyediakan seed 24 kata ini (simpul Bitcoin Umbrel itu sendiri tidak).**
 
 
 
@@ -198,7 +198,7 @@ Opsi-opsi ini sangat penting untuk keamanan dan manajemen node Lightning Anda. P
 - [Komunitas Umbrel](https://community.umbrel.com) - Forum diskusi bagi pengguna untuk berbagi masalah dan solusi mengenai Umbrel dan ekosistemnya
 
 
-> - [Umbrel App Store - Lightning Node (LND)] (https://apps.umbrel.com/app/lightning) - Deskripsi fitur aplikasi Lightning Node di Umbrel
+> - [Umbrel App Store - Lightning Node (LND)](https://apps.umbrel.com/app/lightning) - Deskripsi fitur aplikasi Lightning Node di Umbrel
 > - [LND Docs - Quickstart](https://docs.lightning.engineering/lightning-network-tools/LND/run-LND) - Dokumentasi resmi LND
 
 ### 4.2 Membuka saluran Lightning
@@ -221,7 +221,7 @@ Setelah LND aktif dan berjalan, Anda dapat membuka saluran Lightning pertama And
 
 
 
-Sebagai contoh, [ACINQ node] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) adalah sebuah node yang diakui dengan statistik ketersediaan dan likuiditas yang sangat baik.
+Sebagai contoh, [ACINQ node](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) adalah sebuah node yang diakui dengan statistik ketersediaan dan likuiditas yang sangat baik.
 
 
 
@@ -489,18 +489,18 @@ Node Lightning Umbrel Anda memerlukan dua jenis cadangan:
 
 
 
-*file *Cadangan Saluran Statis (SCB) **
+**file Cadangan Saluran Statis (SCB)**
 
 
 
 
 - Berisi informasi saluran Lightning
 - Memungkinkan penutupan saluran secara paksa jika terjadi kerusakan
-- Penting:** Jangan pernah menyimpan file `channel.db` secara manual (berisiko terkena penalti)
+- **Penting:** Jangan pernah menyimpan file `channel.db` secara manual (berisiko terkena penalti)
 
 
 
-**Prosedur pencadangan manual
+**Prosedur pencadangan manual**
 
 
 
@@ -520,7 +520,7 @@ Untuk menyimpan saluran Anda secara manual :
 
 
 
-*sistem pencadangan otomatis *Umbrel**
+*sistem pencadangan otomatis* **Umbrel**
 
 
 
@@ -598,7 +598,7 @@ Idealnya, biarkan simpul Anda online sesering mungkin. Dalam kasus ketidakhadira
 
 
 
-*konfigurasi *Watchtower:**
+**konfigurasi Watchtower:**
 
 
 
@@ -613,17 +613,17 @@ Untuk mengetahui lebih lanjut tentang cara mengonfigurasi dan menggunakan menara
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Praktik terbaik lainnya
 
 
 
 
 
-- Pembaruan perangkat lunak:** Selalu perbarui Umbrel dan LND (perbaikan keamanan)
-- Perlindungan perangkat keras:** Gunakan sistem yang stabil (Raspberry Pi dengan SSD, mini-PC) dan UPS
-- Keamanan jaringan:** Pertahankan konfigurasi Tor default, ubah kata sandi admin Umbrel (default: "moneyprintergobrrr")
-- Enkripsi:** Aktifkan enkripsi disk jika memungkinkan
+- **Pembaruan perangkat lunak:** Selalu perbarui Umbrel dan LND (perbaikan keamanan)
+- **Perlindungan perangkat keras:** Gunakan sistem yang stabil (Raspberry Pi dengan SSD, mini-PC) dan UPS
+- **Keamanan jaringan:** Pertahankan konfigurasi Tor default, ubah kata sandi admin Umbrel (default: "moneyprintergobrrr")
+- **Enkripsi:** Aktifkan enkripsi disk jika memungkinkan
 
 
 
@@ -691,10 +691,10 @@ RTL adalah "pisau tentara Swiss" yang lengkap untuk mengelola simpul Lightning d
 
 
 
-- Cangkang Petir** : Baris perintah (lncli) melalui browser
-- BTC RPC Explorer & Mempool**: Memantau Blockchain
-- LNmetrics & Torq**: Analisis kinerja perutean
-- Amboss & 1ML**: manajemen "sosial" dari node Anda (alias, kontak, analisis jaringan)
+- **Cangkang Petir** : Baris perintah (lncli) melalui browser
+- **BTC RPC Explorer & Mempool**: Memantau Blockchain
+- **LNmetrics & Torq**: Analisis kinerja perutean
+- **Amboss & 1ML**: manajemen "sosial" dari node Anda (alias, kontak, analisis jaringan)
 
 
 
@@ -707,7 +707,7 @@ Alat-alat ini dapat diinstal hanya dalam beberapa klik melalui Umbrel App Store,
 
 
 
-- [ThunderHub.io - Fitur] (https://thunderhub.io) - Ikhtisar fitur ThunderHub
+- [ThunderHub.io - Fitur](https://thunderhub.io) - Ikhtisar fitur ThunderHub
 - [Info Ride The Lightning (RTL)](https://www.ridethelightning.info/) - Dokumentasi RTL
 - [David Kaspar - Rebalance via ThunderHub](https://blog.davidkaspar.com) - Panduan praktis untuk menyeimbangkan kembali
 - [Panduan "Mengelola Simpul Petir"](https://github.com/openoms/lightning-node-management) - Dokumentasi lanjutan untuk pengguna daya

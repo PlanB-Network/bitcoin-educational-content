@@ -1,0 +1,9 @@
+question: Welche Art von Systemen kann auf der vertrauenslosen Basisschicht von Bitcoin nach dem beschriebenen Sicherheitsmodell aufgebaut werden?
+answer: Es können sowohl vertrauenslose als auch vertrauenswürdige Systeme darauf aufgebaut werden
+wrong_answers:
+  - Nur vertrauenslose Systeme können darauf aufgebaut werden
+  - Es können nur vertrauenswürdige Systeme darauf aufgebaut werden
+  - Es können keine zusätzlichen Systeme darauf aufgebaut werden
+explanation: |
+  Die vertrauenslose Basisschicht von Bitcoin bietet eine Grundlage, auf der verschiedene Arten von Systemen flexibel aufgebaut werden können. Wie Matt Corallo erläuterte, kann man zwar keine vertrauenslosen Systeme auf vertrauenswürdigen Systemen aufbauen, aber man kann vertrauenswürdige Systeme (wie z. B. Geldbörsen) auf vertrauenslosen Systemen aufbauen. Das bedeutet, dass die vertrauenswürdige Grundlage von Bitcoin sowohl vertrauenswürdige Anwendungen als auch vertrauenswürdige Dienste unterstützt und den Systementwicklern die Freiheit gibt, geeignete Kompromisse zu wählen, ohne diese Kompromisse allen anderen Nutzern der Basisschicht aufzuzwingen.
+reviewed: false

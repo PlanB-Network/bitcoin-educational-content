@@ -1,5 +1,5 @@
 ---
-name: Bò đực Bitcoin Wallet
+name: Bull Bitcoin Wallet
 description: Tìm hiểu cách sử dụng Wallet Bull Bitcoin
 ---
 
@@ -29,9 +29,9 @@ Wallet giải quyết một thách thức lớn: Phí mạng Bitcoin không phù
 
 
 
-- Mạng Bitcoin (trên chuỗi)**: Lý tưởng để lưu trữ UTXO và các giao dịch có giá trị lớn trong thời gian trung và dài hạn, trong đó phí không đáng kể.
-- Liquid Network**: Được thiết kế để thực hiện giao dịch nhanh chóng (~2 phút), bảo mật hơn (số tiền ẩn), chi phí thấp, hoàn hảo để tích lũy số tiền nhỏ hoặc bảo vệ quyền riêng tư của bạn.
-- Mạng Lightning**: Được tối ưu hóa cho các khoản thanh toán tức thời, chi phí thấp, phù hợp với các giao dịch hàng ngày có giá trị từ nhỏ đến trung bình.
+- **Mạng Bitcoin (trên chuỗi)**: Lý tưởng để lưu trữ UTXO và các giao dịch có giá trị lớn trong thời gian trung và dài hạn, trong đó phí không đáng kể.
+- **Liquid Network**: Được thiết kế để thực hiện giao dịch nhanh chóng (~2 phút), bảo mật hơn (số tiền ẩn), chi phí thấp, hoàn hảo để tích lũy số tiền nhỏ hoặc bảo vệ quyền riêng tư của bạn.
+- **Mạng Lightning**: Được tối ưu hóa cho các khoản thanh toán tức thời, chi phí thấp, phù hợp với các giao dịch hàng ngày có giá trị từ nhỏ đến trung bình.
 
 
 
@@ -70,10 +70,10 @@ Trước khi bắt đầu sử dụng **Bull Bitcoin Mobile**, hãy đảm bảo
 
 
 
-- Điện thoại thông minh tương thích**: Thiết bị **iOS** (iPhone hoặc iPad) hoặc **Android**
+- **Điện thoại thông minh tương thích**: Thiết bị **iOS** (iPhone hoặc iPad) hoặc **Android**
 - Kết nối Internet
-- Phương tiện sao lưu an toàn**: Viết **cụm từ khôi phục** (12 từ) ra giấy hoặc kim loại và cất giữ ở nơi an toàn.
-- Kiến thức cơ bản**: Cần hiểu biết tối thiểu về các khái niệm Bitcoin (địa chỉ, giao dịch, phí), mặc dù hướng dẫn này giải thích từng bước cho người mới bắt đầu.
+- **Phương tiện sao lưu an toàn**: Viết **cụm từ khôi phục** (12 từ) ra giấy hoặc kim loại và cất giữ ở nơi an toàn.
+- **Kiến thức cơ bản**: Cần hiểu biết tối thiểu về các khái niệm Bitcoin (địa chỉ, giao dịch, phí), mặc dù hướng dẫn này giải thích từng bước cho người mới bắt đầu.
 
 
 
@@ -83,10 +83,10 @@ Trước khi bắt đầu sử dụng **Bull Bitcoin Mobile**, hãy đảm bảo
 
 
 
-- Tải ứng dụng**:
- - [Cửa hàng Google Play](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share)** Tải xuống từ cửa hàng ứng dụng cho thiết bị Android
- - [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) Tải xuống APK trực tiếp cho thiết bị Android**
- - [iOS](https://testflight.apple.com/join/FJbE4JPN)** Tải xuống qua TestFlight cho các thiết bị Apple
+- **Tải ứng dụng**:
+- [Cửa hàng Google Play](https://play.google.com/store/apps/details?id=com.bullbitcoin.mobile&pcampaignid=web_share) **Tải xuống từ cửa hàng ứng dụng cho thiết bị Android**
+- [GitHub](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) **Tải xuống APK trực tiếp cho thiết bị Android**
+- [iOS](https://testflight.apple.com/join/FJbE4JPN) **Tải xuống qua TestFlight cho các thiết bị Apple**
  - Kiểm tra tên nhà phát triển (Bull Bitcoin) để tránh các ứng dụng gian lận.
  - Đảm bảo rằng phiên bản đã tải xuống tương ứng với phiên bản ổn định mới nhất được chỉ định trên GitHub.
  - Bull Bitcoin Mobile là **mã nguồn mở**. Để xem mã: [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49)
@@ -113,8 +113,8 @@ Trước khi bắt đầu sử dụng **Bull Bitcoin Mobile**, hãy đảm bảo
 
 
 
- - Bitcoin' Wallet** an toàn: Dành cho các giao dịch trên mạng Bitcoin (trên chuỗi)
- - Wallet** của Instant Payments: Dành cho các giao dịch tức thì trên mạng Liquid và Lightning
+- **Bitcoin Wallet** an toàn: Dành cho các giao dịch trên mạng Bitcoin (trên chuỗi)
+- **Wallet** của Instant Payments: Dành cho các giao dịch tức thì trên mạng Liquid và Lightning
 
 
 
@@ -151,9 +151,9 @@ Nếu không, hãy nhấp vào "**Tạo Wallet mới**":
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 3.3 Bảo mật quyền truy cập:
 
@@ -249,7 +249,7 @@ Trên màn hình chính, bạn có thể:
 
 
 
-- Ví dụ về URI được tạo tự động**:
+- Ví dụ về URI được tạo tự động:
 
 
 
@@ -261,7 +261,7 @@ bitcoin:bc1qyv76arrcu7bullbitcoin9mgugjvcgelcjfcycjq?amount=2.1e-7&message=Exemp
 
 
 
-- Cách sử dụng**: Sao chép URI để chia sẻ với người gửi hoặc để họ quét mã QR.
+- **Cách sử dụng**: Sao chép URI để chia sẻ với người gửi hoặc để họ quét mã QR.
 
 
 
@@ -297,7 +297,7 @@ Ngay cả khi bạn nhập số tiền hoặc ghi chú, chúng sẽ không đư�
 
 
 
-- Cách sử dụng**: Sao chép Address để chia sẻ với người gửi hoặc để họ quét mã QR.
+- **Cách sử dụng**: Sao chép Address để chia sẻ với người gửi hoặc để họ quét mã QR.
 
 
 
@@ -308,7 +308,7 @@ Ngay cả khi bạn nhập số tiền hoặc ghi chú, chúng sẽ không đư�
 
 
 - Tại sao lại sử dụng mã Address mới cho mỗi giao dịch? Mã này **bảo vệ quyền riêng tư của bạn** bằng cách ngăn chặn nhiều khoản thanh toán được liên kết đến cùng một mã Address và hạn chế khả năng theo dõi trên mã Blockchain.
- - Theo mặc định, Bull Bitcoin sẽ tự động tạo ra một Address chưa sử dụng.**
+- Theo mặc định, Bull Bitcoin sẽ tự động tạo ra một Address chưa sử dụng.
  - Bạn có thể buộc tạo Address mới bằng cách nhấp vào **"Address mới"** ở cuối màn hình.
  - Tất cả các địa chỉ của bạn đều được liên kết với cụm từ seed: bất kể bạn sử dụng bao nhiêu địa chỉ, danh mục đầu tư của bạn sẽ hiển thị một số dư duy nhất và có thể tự động hợp nhất tiền khi giao dịch được thực hiện.
 
@@ -316,7 +316,7 @@ Ngay cả khi bạn nhập số tiền hoặc ghi chú, chúng sẽ không đư�
 
 
 
-- Mẹo: Luôn sử dụng Address** mới do Bull Bitcoin cung cấp, trừ khi bạn có nhu cầu cụ thể (ví dụ: Address công cộng để nhận tiền quyên góp).
+- Mẹo: Luôn sử dụng **Address** mới do Bull Bitcoin cung cấp, trừ khi bạn có nhu cầu cụ thể (ví dụ: Address công cộng để nhận tiền quyên góp).
 
 
 
@@ -412,29 +412,29 @@ Trên màn hình chính, bạn có thể:
 
 
 
-- Cơ chế**: Bull Bitcoin Wallet là Wallet cho phép thực hiện và nhận thanh toán qua Lightning. Tiền nhận được qua Lightning được lưu trữ trên mạng **Liquid** (trong Wallet Instant Payments) nhờ tính năng hoán đổi tự động qua **Boltz**. Điều này cho phép bạn tương tác với Lightning mà không cần phải quản lý các kênh thanh khoản, đồng thời vẫn tự quản lý.
+- **Cơ chế**: Bull Bitcoin Wallet là Wallet cho phép thực hiện và nhận thanh toán qua Lightning. Tiền nhận được qua Lightning được lưu trữ trên mạng **Liquid** (trong Wallet Instant Payments) nhờ tính năng hoán đổi tự động qua **Boltz**. Điều này cho phép bạn tương tác với Lightning mà không cần phải quản lý các kênh thanh khoản, đồng thời vẫn tự quản lý.
 
 
 
 
 
-- Giới hạn:**
- - Số tiền tối thiểu** là 100 satoshi (tính đến ngày 19/07/2025) khi bạn generate Invoice.
- - Bạn trả phí**, số tiền này sẽ được khấu trừ vào số tiền người gửi gửi, không giống như khi nhận bằng Wallet Lightning native, khi đó người gửi chỉ phải trả phí chuyển tiền ngoài số tiền đã gửi. Tính đến ngày 19/07/2025, 47 Sats đã được khấu trừ vào số tiền đã gửi.
+- **Giới hạn:**
+- Số tiền tối thiểu **là 100 satoshi** (tính đến ngày 19/07/2025) khi bạn generate Invoice.
+- Bạn trả phí, số tiền này sẽ được khấu trừ vào số tiền người gửi gửi, không giống như khi nhận bằng Wallet Lightning native, khi đó người gửi chỉ phải trả phí chuyển tiền ngoài số tiền đã gửi. Tính đến ngày 19/07/2025, 47 Sats đã được khấu trừ vào số tiền đã gửi.
 
 
 
 
 
-- Những lợi ích** :
- - Tự quản lý**: Tiền của bạn vẫn nằm trong tầm kiểm soát của bạn và được lưu trữ trên Liquid Network.
- - Không có phí onchain cao**: Lưu trữ trên Liquid giúp bạn tránh được chi phí nạp onchain tốn kém để mở kênh Lightning hoặc bổ sung thanh khoản. Các thao tác này có thể được thực hiện sau, khi số tiền tích lũy trên Liquid đủ bù đắp chi phí.
+- **Những lợi ích**:
+- **Tự quản lý**: Tiền của bạn vẫn nằm trong tầm kiểm soát của bạn và được lưu trữ trên Liquid Network.
+- **Không có phí onchain cao**: Lưu trữ trên Liquid giúp bạn tránh được chi phí nạp onchain tốn kém để mở kênh Lightning hoặc bổ sung thanh khoản. Các thao tác này có thể được thực hiện sau, khi số tiền tích lũy trên Liquid đủ bù đắp chi phí.
 
 
 
 
 
-- Mẹo:** Nếu người gửi có Wallet Bull Bitcoin, hãy sử dụng trực tiếp Liquid Network để tránh phí hoán đổi
+- **Mẹo:** Nếu người gửi có Wallet Bull Bitcoin, hãy sử dụng trực tiếp Liquid Network để tránh phí hoán đổi
 
 
 
@@ -456,13 +456,13 @@ Trên màn hình chính, bạn có thể:
 
 
 
-- Hiệu lực của Invoice:** Thẻ Lightning Invoice có hiệu lực trong **12 giờ**. Sau thời gian này, thẻ sẽ hết hạn và không thể thanh toán được nữa. Bạn phải tạo thẻ Invoice mới.
+- **Hiệu lực của Invoice:** Thẻ Lightning Invoice có hiệu lực trong **12 giờ**. Sau thời gian này, thẻ sẽ hết hạn và không thể thanh toán được nữa. Bạn phải tạo thẻ Invoice mới.
 
 
 
 
 
-- Cách sử dụng**: Sao chép Invoice để chia sẻ với người gửi hoặc để họ quét mã QR.
+- **Cách sử dụng**: Sao chép Invoice để chia sẻ với người gửi hoặc để họ quét mã QR.
 
 
 
@@ -563,27 +563,27 @@ Sau đó, bạn có thể điều chỉnh các thông số:
 
 
 
-- Phí**: Bạn có thể chọn:
-  - Tốc độ thực hiện** của giao dịch của bạn và các khoản phí liên quan sẽ được ước tính
-  - Phí** ở chế độ Phí tuyệt đối (tổng phí tính bằng satoshi) hoặc Phí tương đối (phí cho mỗi byte) và tốc độ giao dịch của bạn sẽ được ước tính
+- **Phí**: Bạn có thể chọn:
+- **Tốc độ thực hiện** của giao dịch của bạn và các khoản phí liên quan sẽ được ước tính
+- **Phí** ở chế độ Phí tuyệt đối (tổng phí tính bằng satoshi) hoặc Phí tương đối (phí cho mỗi byte) và tốc độ giao dịch của bạn sẽ được ước tính
 
 
 
 
 
-- Cài đặt nâng cao**:
+- **Cài đặt nâng cao**:
 
 
 
 
 
- - Replace-by-fee (RBF)**: Được kích hoạt theo mặc định, chức năng này tăng tốc giao dịch bằng cách trả phí cao hơn (xem Phụ lục 4 để biết chi tiết).
+- **Replace-by-fee (RBF)**: Được kích hoạt theo mặc định, chức năng này tăng tốc giao dịch bằng cách trả phí cao hơn (xem Phụ lục 4 để biết chi tiết).
 
 
 
 
 
- - Chọn thủ công UTXO**: Nếu tiền của bạn được lưu trữ tại nhiều địa chỉ Wallet khác nhau, bạn có thể chọn địa chỉ để gửi tiền. Tại sao bạn nên làm điều này? Với việc Bitcoin ngày càng được sử dụng rộng rãi, phí chuyển tiền đang tăng lên. Gửi tiền từ nhiều địa chỉ với số tiền nhỏ sẽ tốn kém hơn so với gửi từ một địa chỉ Address, nhưng việc thực hiện ngay bây giờ sẽ giúp bạn tránh phải thực hiện sau này, khi phí sẽ còn cao hơn nữa. Điều này được gọi là **hợp nhất UTXO**.
+- Chọn thủ công **UTXO**: Nếu tiền của bạn được lưu trữ tại nhiều địa chỉ Wallet khác nhau, bạn có thể chọn địa chỉ để gửi tiền. Tại sao bạn nên làm điều này? Với việc Bitcoin ngày càng được sử dụng rộng rãi, phí chuyển tiền đang tăng lên. Gửi tiền từ nhiều địa chỉ với số tiền nhỏ sẽ tốn kém hơn so với gửi từ một địa chỉ Address, nhưng việc thực hiện ngay bây giờ sẽ giúp bạn tránh phải thực hiện sau này, khi phí sẽ còn cao hơn nữa. Điều này được gọi là **hợp nhất UTXO**.
 
 
 
@@ -593,7 +593,7 @@ Sau đó, bạn có thể điều chỉnh các thông số:
 
 
 
-- Gửi với PayJoin**: Nếu chức năng đã được kích hoạt bởi người nhận cung cấp URI, ví dụ:
+- **Gửi với PayJoin**: Nếu chức năng đã được kích hoạt bởi người nhận cung cấp URI, ví dụ:
 
 
 
@@ -679,7 +679,7 @@ Hãy dành thời gian kiểm tra tất cả các thông số, đặc biệt là
 
 
 
-- Phí**: Tỷ lệ thuận với độ phức tạp của giao dịch, thường là 0,1 sat/vB, tức là 20-40 satoshi cho một giao dịch đơn giản (33 Sats vào ngày 22/07/2025).
+- **Phí**: Tỷ lệ thuận với độ phức tạp của giao dịch, thường là 0,1 sat/vB, tức là 20-40 satoshi cho một giao dịch đơn giản (33 Sats vào ngày 22/07/2025).
 
 
 
@@ -750,29 +750,29 @@ Lưu ý: số tiền phải lớn hơn 21 Sats vào ngày 23/07/2025
 
 
 
-- Cơ chế**: Tiền được rút từ **Thanh toán tức thì Wallet** (Liquid) và được chuyển đổi thông qua giao dịch hoán đổi **Liquid → Lightning** với **Boltz**.
+- **Cơ chế**: Tiền được rút từ **Thanh toán tức thì Wallet** (Liquid) và được chuyển đổi thông qua giao dịch hoán đổi **Liquid → Lightning** với **Boltz**.
 
 
 
 
 
-- Giới hạn:**
- - Số tiền tối thiểu** cao hơn Wallet Lightning native (xem ở trên)
- - Chi phí** cộng với Liquid → Trao đổi sét qua Boltz
+- **Giới hạn:**
+- Số tiền tối thiểu cao hơn **Wallet Lightning native** (xem ở trên)
+- **Chi phí** cộng với Liquid → Trao đổi sét qua Boltz
 
 
 
 
 
-- Những lợi ích** :
- - Tự quản lý**: Tiền của bạn vẫn nằm trong tầm kiểm soát của bạn, được lưu trữ trên Liquid Network và có thể chuyển qua Lightning nếu cần
- - Không có phí onchain cao**: Lưu trữ trên Liquid giúp bạn tiết kiệm chi phí nạp onchain để mở kênh Lightning hoặc bổ sung thanh khoản. Các thao tác này có thể được thực hiện sau, khi số tiền tích lũy trên Liquid đủ bù đắp chi phí.
+- **Những lợi ích**:
+- **Tự quản lý**: Tiền của bạn vẫn nằm trong tầm kiểm soát của bạn, được lưu trữ trên Liquid Network và có thể chuyển qua Lightning nếu cần
+- **Không có phí onchain cao**: Lưu trữ trên Liquid giúp bạn tiết kiệm chi phí nạp onchain để mở kênh Lightning hoặc bổ sung thanh khoản. Các thao tác này có thể được thực hiện sau, khi số tiền tích lũy trên Liquid đủ bù đắp chi phí.
 
 
 
 
 
-- Mẹo:** Nếu người nhận có Wallet Bull Bitcoin, hãy sử dụng trực tiếp Liquid Network để tránh chi phí hoán đổi
+- **Mẹo:** Nếu người nhận có Wallet Bull Bitcoin, hãy sử dụng trực tiếp Liquid Network để tránh chi phí hoán đổi
 
 
 
@@ -803,7 +803,7 @@ Hãy dành thời gian kiểm tra tất cả các thông số, đặc biệt là
 
 
 
-- Qua màn hình chính**:
+- Qua màn hình chính:
  - Nhấp vào **Secure Bitcoin Wallet** để xem các giao dịch **trên chuỗi** hoặc vào **Instant Payments Wallet** cho các giao dịch **Liquid** và **Lightning**.
  - Lịch sử được hiển thị ngay bên dưới tổng danh mục đầu tư, được lọc theo loại Wallet đã chọn.
 
@@ -815,7 +815,7 @@ Hãy dành thời gian kiểm tra tất cả các thông số, đặc biệt là
 
 
 
-- Thông qua trang chuyên dụng**:
+- Thông qua trang chuyên dụng:
  - Trên màn hình chính, nhấp vào **biểu tượng lịch sử** (biểu tượng đồng hồ hoặc biểu tượng tương tự).
  - Truy cập trang liệt kê tất cả các giao dịch, với bộ lọc theo loại hành động: **Gửi**, **Nhận**, **Hoán đổi**, **PayJoin**, **Bán**, **Mua** (lưu ý: Bán và Mua đang được phát triển và không khả dụng tại thời điểm này, ngày 20 tháng 7 năm 2025).
 
@@ -864,57 +864,57 @@ Có thể truy cập trang "Cài đặt" trực tiếp từ trang chủ ứng d�
 
 
 
-- Wallet Sao lưu**: Hiển thị cụm từ khôi phục của danh mục đầu tư để sao lưu an toàn. Xem phần 3 về tạo danh mục đầu tư để biết các phương pháp hay nhất trong việc quản lý và lưu trữ cụm từ khôi phục.
+- **Wallet Sao lưu**: Hiển thị cụm từ khôi phục của danh mục đầu tư để sao lưu an toàn. Xem phần 3 về tạo danh mục đầu tư để biết các phương pháp hay nhất trong việc quản lý và lưu trữ cụm từ khôi phục.
 
 
 
 
 
-- Chi tiết Wallet**:
- - Pubkey**: Khóa công khai liên kết với Wallet, được sử dụng cho địa chỉ tiếp nhận generate Bitcoin.
- - Đường dẫn phái sinh**: Đường dẫn phái sinh được sử dụng để lấy địa chỉ generate Wallet từ khóa riêng.
+- Chi tiết **Wallet**:
+- **Pubkey**: Khóa công khai liên kết với Wallet, được sử dụng cho địa chỉ tiếp nhận generate Bitcoin.
+- **Đường dẫn phái sinh**: Đường dẫn phái sinh được sử dụng để lấy địa chỉ generate Wallet từ khóa riêng.
 
 
 
 
 
-- Electrum Server (Nút Bitcoin)**: Thiết lập kết nối tới nút Bitcoin tùy chỉnh cho các giao dịch trên chuỗi.
+- **Electrum Server (Nút Bitcoin)**: Thiết lập kết nối tới nút Bitcoin tùy chỉnh cho các giao dịch trên chuỗi.
 
 
 
 
 
-- Mã PIN**: Kích hoạt và/hoặc sửa đổi mã bảo mật để bảo vệ quyền truy cập vào ứng dụng và các chức năng của Wallet.
+- **Mã PIN**: Kích hoạt và/hoặc sửa đổi mã bảo mật để bảo vệ quyền truy cập vào ứng dụng và các chức năng của Wallet.
 
 
 
 
 
-- Tiền tệ**: Chọn hiển thị số tiền theo BTC hoặc Sats và loại tiền tệ fiat mặc định (đô la, euro, v.v.).
+- **Tiền tệ**: Chọn hiển thị số tiền theo BTC hoặc Sats và loại tiền tệ fiat mặc định (đô la, euro, v.v.).
 
 
 
 
 
-- Cài đặt hoán đổi tự động**: Chức năng _Hoán đổi tự động_ cho phép bạn tự động chuyển BTC từ **Thanh toán tức thì Wallet (Liquid)** sang **Bitcoin On-Chain** Wallet của bạn ngay khi số tiền đạt đến ngưỡng mà bạn cho là đủ cao để biện minh cho phí giao dịch.
+- **Cài đặt hoán đổi tự động**: Chức năng *Hoán đổi tự động* cho phép bạn tự động chuyển BTC từ **Thanh toán tức thì Wallet (Liquid)** sang **Bitcoin On-Chain** Wallet của bạn ngay khi số tiền đạt đến ngưỡng mà bạn cho là đủ cao để biện minh cho phí giao dịch.
 
 
 
 
 
-- Nhật ký**: Nhật ký hoạt động có thể xem được, có thể chia sẻ với bộ phận hỗ trợ kỹ thuật để hỗ trợ khắc phục sự cố.
+- **Nhật ký**: Nhật ký hoạt động có thể xem được, có thể chia sẻ với bộ phận hỗ trợ kỹ thuật để hỗ trợ khắc phục sự cố.
 
 
 
 
 
-- Truy cập Telegram để được hỗ trợ**: Liên kết trực tiếp đến kênh Telegram chính thức để được hỗ trợ người dùng.
+- **Truy cập Telegram để được hỗ trợ**: Liên kết trực tiếp đến kênh Telegram chính thức để được hỗ trợ người dùng.
 
 
 
 
 
-- Truy cập Github**: Liên kết đến [Kho lưu trữ Github Bull Bitcoin](https://github.com/SatoshiPortal) để xem mã nguồn mở hoặc báo cáo sự cố.
+- **Truy cập Github**: Liên kết đến [Kho lưu trữ Github Bull Bitcoin](https://github.com/SatoshiPortal) để xem mã nguồn mở hoặc báo cáo sự cố.
 
 
 
@@ -956,8 +956,8 @@ Có thể truy cập trang "Cài đặt" trực tiếp từ trang chủ ứng d�
 
 
 
-- Nhận** (Address Supply): PayJoin được bật theo mặc định.
-- Gửi**: Wallet tự động phát hiện URI PayJoin và cấu hình giao dịch cho phù hợp, ví dụ:
+- **Nhận** (Address Supply): PayJoin được bật theo mặc định.
+- **Gửi**: Wallet tự động phát hiện URI PayJoin và cấu hình giao dịch cho phù hợp, ví dụ:
 
 
 
@@ -973,8 +973,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Tính bảo mật được cải thiện**: PayJoin vô hiệu hóa giả định rằng tất cả các mục nhập trong một giao dịch đều thuộc về một thực thể duy nhất. Với PayJoin, dữ liệu đầu vào đến từ cả bên gửi và bên nhận, phá vỡ giả định này.
-- Che giấu số tiền**: Số tiền thực tế được trao đổi không hiển thị trực tiếp trong kết quả đầu ra. Số tiền này được tính bằng chênh lệch giữa số tiền UTXO đến và đi của người nhận, khiến việc phân tích bị sai lệch.
+- **Tính bảo mật được cải thiện**: PayJoin vô hiệu hóa giả định rằng tất cả các mục nhập trong một giao dịch đều thuộc về một thực thể duy nhất. Với PayJoin, dữ liệu đầu vào đến từ cả bên gửi và bên nhận, phá vỡ giả định này.
+- **Che giấu số tiền**: Số tiền thực tế được trao đổi không hiển thị trực tiếp trong kết quả đầu ra. Số tiền này được tính bằng chênh lệch giữa số tiền UTXO đến và đi của người nhận, khiến việc phân tích bị sai lệch.
 
 
 
@@ -994,8 +994,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Thuật ngữ](https://planb.network/fr/resources/glossary/PayJoin)
-- Chapitre [Les giao dịch PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
+- [Thuật ngữ](https://planb.academy/fr/resources/glossary/payjoin)
+- Chapitre [Les giao dịch PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Thuật ngữ](https://planb.network/fr/resources/glossary/RBF-replacebyfee)
+- [Thuật ngữ](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -1038,15 +1038,15 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Bảo mật cụm từ khôi phục của bạn**:
- - Hướng dẫn: [Lưu cụm từ Mnemonic của bạn](https://planb.network/fr/tutorials/Wallet/backup/backup-Mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - Cours [La cụm từ mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
+- **Bảo mật cụm từ khôi phục của bạn**:
+ - Hướng dẫn: [Lưu cụm từ Mnemonic của bạn](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+ - Cours [La cụm từ mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
 
 
 
-- Sử dụng xác thực an toàn**:
+- **Sử dụng xác thực an toàn**:
  - Kích hoạt **mã PIN mạnh** hoặc **xác thực sinh trắc học** (nhận dạng dấu vân tay hoặc khuôn mặt) để bảo vệ quyền truy cập vào ứng dụng.
  - Không bao giờ chia sẻ mã PIN hoặc dữ liệu sinh trắc học của bạn.
 
@@ -1054,7 +1054,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Bảo vệ quyền riêng tư của bạn** :
+- **Bảo vệ quyền riêng tư của bạn**:
  - generate là Address mới cho mỗi lần tiếp nhận trên chuỗi hoặc Liquid để hạn chế theo dõi trên Blockchain.
  - Sử dụng PayJoin khi có thể để tăng tính bảo mật liên quan đến số tiền được gửi trên chuỗi
  - Để bảo mật tối đa, hãy kết nối Wallet của bạn với nút Bitcoin của riêng bạn thông qua máy chủ Electrum thay vì sử dụng nút công khai
@@ -1063,23 +1063,23 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Chọn mạng phù hợp nhất với nhu cầu của bạn**:
- - Onchain**: Được ưu tiên cho việc lưu ký dài hạn hoặc giao dịch có giá trị lớn (phí không đáng kể so với số tiền).
- - Liquid**: Sử dụng để chuyển tiền nhanh chóng, chi phí thấp với tính bảo mật cao.
- - Lightning**: Chọn chuyển khoản tức thời, chi phí thấp cho số tiền nhỏ. Nếu bạn có hai người dùng Wallet Bull Bitcoin, hãy chọn Liquid để tránh phí hoán đổi Lightning <> Liquid qua Boltz.
+- **Chọn mạng phù hợp nhất với nhu cầu của bạn**:
+- **Onchain**: Được ưu tiên cho việc lưu ký dài hạn hoặc giao dịch có giá trị lớn (phí không đáng kể so với số tiền).
+- **Liquid**: Sử dụng để chuyển tiền nhanh chóng, chi phí thấp với tính bảo mật cao.
+- **Lightning**: Chọn chuyển khoản tức thời, chi phí thấp cho số tiền nhỏ. Nếu bạn có hai người dùng Wallet Bull Bitcoin, hãy chọn Liquid để tránh phí hoán đổi Lightning <> Liquid qua Boltz.
 
 
 
 
 
-- Luôn kiểm tra địa chỉ giao hàng**:
+- **Luôn kiểm tra địa chỉ giao hàng**:
  - Trước khi gửi tiền, vui lòng kiểm tra kỹ Address. Tiền gửi sai địa chỉ Address sẽ bị mất vĩnh viễn. Vui lòng sử dụng chức năng sao chép/dán hoặc quét mã QR, tuyệt đối không sao chép/sửa đổi Address bằng tay.
 
 
 
 
 
-- Tối ưu hóa chi phí**:
+- **Tối ưu hóa chi phí**:
  - Đối với các giao dịch trên chuỗi, hãy chọn mức phí phù hợp (chậm, trung bình, nhanh) tùy theo mức độ khẩn cấp và tắc nghẽn mạng.
  - Sử dụng Liquid hoặc Lightning cho số lượng nhỏ.
  - Kích hoạt Replace-by-fee (RBF) (xem Phụ lục 4) cho các lô hàng trên chuỗi nếu bạn dự đoán cần đẩy nhanh quá trình xác nhận.
@@ -1099,18 +1099,18 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Liên kết chính thức và hỗ trợ:**
- - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com)**, support@bullbitcoin.com : email hỗ trợ
- - [Trang web chính thức của Bull Bitcoin](https://bullbitcoin.com/) :** Thông tin về các dịch vụ của Bull Bitcoin, cách tạo tài khoản, cách truy cập ứng dụng
- - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile) :** Xem mã, quá trình phát triển và lộ trình, đóng góp vào quá trình phát triển...
- - [Tài khoản X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)**
- - Nhóm Telegram** dành cho thiết bị di động Wallet: trò chuyện nhóm với bộ phận hỗ trợ, xem trang "Cài đặt".
+- Liên kết chính thức và hỗ trợ:
+- [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : email hỗ trợ
+- [Trang web chính thức của Bull Bitcoin](https://bullbitcoin.com/): **Thông tin về các dịch vụ của Bull Bitcoin, cách tạo tài khoản, cách truy cập ứng dụng**
+- [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): **Xem mã, quá trình phát triển và lộ trình, đóng góp vào quá trình phát triển...**
+- [Tài khoản X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
+- Nhóm **Telegram** dành cho thiết bị di động Wallet: trò chuyện nhóm với bộ phận hỗ trợ, xem trang "Cài đặt".
 
 
 
 
 
-- Trình khám phá khối :**
+- Trình khám phá khối:
  - on chain: **[Mempool.space](https://Mempool.space/)**
  - Liquid : **[Thông tin về dòng khối](https://blockstream.info/Liquid)**
  - Sét: **[1ML (Lightning Network)](https://1ml.com/)**
@@ -1119,39 +1119,39 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- Học tập và hướng dẫn:** **[Plan ₿ Network](https://planb.network/)** :
+- Học tập và hướng dẫn: **[Plan ₿ Academy](https://planb.academy/)**
  - Bảo mật cụm từ khôi phục của bạn
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
-
-
-
-
-- Liquid Network** :
- - [Thuật ngữ](https://planb.network/resources/glossary/Liquid-network)**
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+- **Liquid Network** :
+- [Thuật ngữ](https://planb.academy/resources/glossary/liquid-network)
+
+
+
+
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 
-- Lightning Network** :
- - [Thuật ngữ](https://planb.network/resources/glossary/lightning-network)**
+- **Lightning Network**:
+- [Thuật ngữ](https://planb.academy/resources/glossary/lightning-network)
 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 ### A5. Bò Bitcoin
@@ -1184,31 +1184,31 @@ Bull Bitcoin nổi bật với các nguyên tắc Commitment đến Cypherpunk v
 
 
 
-- Tập trung độc quyền vào Bitcoin**: Nền tảng này đúng với tầm nhìn về một loại tiền tệ phi tập trung, chống kiểm duyệt.
+- **Tập trung độc quyền vào Bitcoin**: Nền tảng này đúng với tầm nhìn về một loại tiền tệ phi tập trung, chống kiểm duyệt.
 
 
 
 
 
-- Không phải người giám hộ**: Người dùng vẫn giữ toàn quyền kiểm soát Bitcoin của mình bằng cách gửi tiền vào danh mục đầu tư của riêng họ.
+- **Không phải người giám hộ**: Người dùng vẫn giữ toàn quyền kiểm soát Bitcoin của mình bằng cách gửi tiền vào danh mục đầu tư của riêng họ.
 
 
 
 
 
-- Bảo mật**: Giảm thiểu việc thu thập dữ liệu cá nhân, với các tùy chọn mua hàng không cần KYC cho các giao dịch dưới 999 USD. Dữ liệu được bảo vệ theo quy định (FINTRAC tại Canada, AMF tại Pháp).
+- **Bảo mật**: Giảm thiểu việc thu thập dữ liệu cá nhân, với các tùy chọn mua hàng không cần KYC cho các giao dịch dưới 999 USD. Dữ liệu được bảo vệ theo quy định (FINTRAC tại Canada, AMF tại Pháp).
 
 
 
 
 
-- Tính minh bạch**: Không có phí ẩn, chi phí đã được bao gồm trong chênh lệch giá (chênh lệch giữa giá mua và giá bán).
+- **Tính minh bạch**: Không có phí ẩn, chi phí đã được bao gồm trong chênh lệch giá (chênh lệch giữa giá mua và giá bán).
 
 
 
 
 
-- Chủ quyền tài chính**: Bull Bitcoin thúc đẩy sự độc lập khỏi hệ thống ngân hàng truyền thống và các tổ chức tập trung.
+- **Chủ quyền tài chính**: Bull Bitcoin thúc đẩy sự độc lập khỏi hệ thống ngân hàng truyền thống và các tổ chức tập trung.
 
 
 
@@ -1218,19 +1218,19 @@ Bull Bitcoin nổi bật với các nguyên tắc Commitment đến Cypherpunk v
 
 
 
-- Tiền gửi bằng tiền pháp định**: Người dùng có thể nạp tiền vào tài khoản Bull Bitcoin của mình bằng tiền pháp định (CAD, EUR, v.v.) thông qua chuyển khoản ngân hàng hoặc tiền mặt/thẻ ghi nợ tại các bưu điện Canada được chọn.
+- **Tiền gửi bằng tiền pháp định**: Người dùng có thể nạp tiền vào tài khoản Bull Bitcoin của mình bằng tiền pháp định (CAD, EUR, v.v.) thông qua chuyển khoản ngân hàng hoặc tiền mặt/thẻ ghi nợ tại các bưu điện Canada được chọn.
 
 
 
 
 
-- Mua Bitcoin**: Người dùng có thể mua Bitcoin được gửi trực tiếp vào danh mục đầu tư không lưu ký của họ, đảm bảo quyền kiểm soát hoàn toàn đối với tiền của họ.
+- **Mua Bitcoin**: Người dùng có thể mua Bitcoin được gửi trực tiếp vào danh mục đầu tư không lưu ký của họ, đảm bảo quyền kiểm soát hoàn toàn đối với tiền của họ.
 
 
 
 
 
-- Giao dịch mua Bitcoin theo lịch trình**: Bull Bitcoin cung cấp dịch vụ mua hàng định kỳ tự động (DCA - Trung bình chi phí bằng đô la) theo các khoảng thời gian đều đặn, sử dụng số dư khả dụng của bạn, với việc chuyển Bitcoin trực tiếp đến Wallet do người dùng kiểm soát, giúp giảm tác động của biến động giá.
+- **Giao dịch mua Bitcoin theo lịch trình**: Bull Bitcoin cung cấp dịch vụ mua hàng định kỳ tự động (DCA - Trung bình chi phí bằng đô la) theo các khoảng thời gian đều đặn, sử dụng số dư khả dụng của bạn, với việc chuyển Bitcoin trực tiếp đến Wallet do người dùng kiểm soát, giúp giảm tác động của biến động giá.
 
 
 
@@ -1241,37 +1241,37 @@ Lưu ý rằng tùy chọn "Mua Tự Động" cho phép bạn chuyển đổi ti
 
 
 
-- Mua Bitcoin với mức giá cố định 'Lệnh giới hạn'**: Cho phép bạn mua Bitcoin với mức giá do người dùng chỉ định trước, lệnh này sẽ tự động được thực hiện khi giá chỉ số Bull Bitcoin đạt hoặc giảm xuống dưới mức giới hạn đã đặt.
+- Mua Bitcoin với mức giá cố định **'Lệnh giới hạn'**: Cho phép bạn mua Bitcoin với mức giá do người dùng chỉ định trước, lệnh này sẽ tự động được thực hiện khi giá chỉ số Bull Bitcoin đạt hoặc giảm xuống dưới mức giới hạn đã đặt.
 
 
 
 
 
-- Bán Bitcoin**: Người dùng có thể bán Bitcoin của mình và nhận tiền bằng tiền pháp định trực tiếp vào tài khoản ngân hàng thông qua chuyển khoản ngân hàng hoặc SEPA.
+- **Bán Bitcoin**: Người dùng có thể bán Bitcoin của mình và nhận tiền bằng tiền pháp định trực tiếp vào tài khoản ngân hàng thông qua chuyển khoản ngân hàng hoặc SEPA.
 
 
 
 
 
-- Thanh toán của bên thứ ba**: Bull Bitcoin cho phép người dùng gửi tiền pháp định vào tài khoản ngân hàng từ Bitcoin của họ, hoàn toàn minh bạch với người nhận.
+- **Thanh toán của bên thứ ba**: Bull Bitcoin cho phép người dùng gửi tiền pháp định vào tài khoản ngân hàng từ Bitcoin của họ, hoàn toàn minh bạch với người nhận.
 
 
 
 
 
-- Bull Bitcoin Prime**: Bull Bitcoin Prime là dịch vụ cao cấp dành cho khách hàng doanh nghiệp và khách hàng có giá trị tài sản ròng cao, cung cấp các giải pháp tùy chỉnh và hỗ trợ cao cấp. Dịch vụ này bao gồm quyền truy cập vào mức phí ưu đãi, quản lý tài khoản chuyên dụng và các dịch vụ doanh nghiệp được thiết kế riêng. Dịch vụ này hướng đến các tổ chức, nhà giao dịch chuyên nghiệp và khách hàng doanh nghiệp đang tìm kiếm chuyên môn sâu rộng và dịch vụ ưu tiên.
+- **Bull Bitcoin Prime**: Bull Bitcoin Prime là dịch vụ cao cấp dành cho khách hàng doanh nghiệp và khách hàng có giá trị tài sản ròng cao, cung cấp các giải pháp tùy chỉnh và hỗ trợ cao cấp. Dịch vụ này bao gồm quyền truy cập vào mức phí ưu đãi, quản lý tài khoản chuyên dụng và các dịch vụ doanh nghiệp được thiết kế riêng. Dịch vụ này hướng đến các tổ chức, nhà giao dịch chuyên nghiệp và khách hàng doanh nghiệp đang tìm kiếm chuyên môn sâu rộng và dịch vụ ưu tiên.
 
 
 
 
 
-- Mobile Wallet**: Bull Bitcoin cung cấp Wallet di động mã nguồn mở, tự quản lý, có sẵn trên Android và iOS, hỗ trợ các giao dịch onchain, Liquid và Lightning Network.
+- **Mobile Wallet**: Bull Bitcoin cung cấp Wallet di động mã nguồn mở, tự quản lý, có sẵn trên Android và iOS, hỗ trợ các giao dịch onchain, Liquid và Lightning Network.
 
 
 
 
 
-- Hỗ trợ giáo dục**: Hướng dẫn miễn phí và hướng dẫn cá nhân hóa giúp người dùng tạo, bảo mật và quản lý danh mục đầu tư Bitcoin của mình, củng cố quyền tự chủ về tài chính.
+- **Hỗ trợ giáo dục**: Hướng dẫn miễn phí và hướng dẫn cá nhân hóa giúp người dùng tạo, bảo mật và quản lý danh mục đầu tư Bitcoin của mình, củng cố quyền tự chủ về tài chính.
 
 
 
@@ -1281,10 +1281,10 @@ Lưu ý rằng tùy chọn "Mua Tự Động" cho phép bạn chuyển đổi ti
 
 
 
-- Quy định**: Đã đăng ký với FINTRAC (Canada) và AMF (Pháp), Bull Bitcoin tuân thủ các yêu cầu KYC/AML.
+- **Quy định**: Đã đăng ký với FINTRAC (Canada) và AMF (Pháp), Bull Bitcoin tuân thủ các yêu cầu KYC/AML.
 
 
 
 
 
-- Bảo mật**: Sử dụng danh mục đầu tư an toàn và các khuyến nghị lưu trữ ngoại tuyến. Dữ liệu cá nhân được lưu trữ trên cơ sở hạ tầng Bitcoin của Bull, hoàn toàn tự lưu trữ và không phụ thuộc vào bất kỳ bên thứ ba nào.
+- **Bảo mật**: Sử dụng danh mục đầu tư an toàn và các khuyến nghị lưu trữ ngoại tuyến. Dữ liệu cá nhân được lưu trữ trên cơ sở hạ tầng Bitcoin của Bull, hoàn toàn tự lưu trữ và không phụ thuộc vào bất kỳ bên thứ ba nào.

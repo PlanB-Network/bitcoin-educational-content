@@ -24,7 +24,7 @@ Parola yöneticisi güçlü parolalar oluşturup bunları güvenli bir şekilde 
 
 Bu eğitimde, çevrimiçi güvenliğinizi artırmak için bir parola yöneticisinin nasıl kurulacağını ve kullanılacağını keşfedeceğiz. Size Bitwarden'ı tanıtacağım ve başka bir derste KeePass adlı başka bir çözümü inceleyeceğiz.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Uyarı: Bir parola yöneticisi parolaları saklamak için harikadır, ancak **Bitcoin Wallet'ünüzün Mnemonic cümlesini asla içinde saklamamalısınız!** Unutmayın, bir Mnemonic cümlesi yalnızca bir kağıt parçası veya metal gibi fiziksel bir biçimde kaydedilmelidir.
 
@@ -117,9 +117,9 @@ Her şeyden önce, parola yöneticinizin güvenliğini sağlamak için iki fakt�
 Bu 2FA cihazlarını nasıl kuracağınızdan ve kullanacağınızdan emin değilseniz, bu diğer 2 öğreticiyi takip etmenizi öneririm:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Bunu yapmak için, "*Ayarlar*" menüsündeki "*Güvenlik*" sekmesine gidin.
 
@@ -177,7 +177,7 @@ Açılan formda, kaydedilecek öğenin niteliğini belirleyerek başlayın. Otur
 
 ![BITWARDEN](assets/notext/26.webp)
 
-"*Adı*" alanına kimlik bilgileriniz için açıklayıcı bir ad girin. Bu, özellikle çok sayıda parolanız varsa, parolalarınızı aramanızı ve düzenlemenizi kolaylaştıracaktır. Örneğin, PlanB Network sitesi için kimlik bilgilerinizi kaydetmek istiyorsanız, bu öğeyi gelecekteki aramalarınız sırasında hemen tanınmasını sağlayacak şekilde adlandırabilirsiniz.
+"*Adı*" alanına kimlik bilgileriniz için açıklayıcı bir ad girin. Bu, özellikle çok sayıda parolanız varsa, parolalarınızı aramanızı ve düzenlemenizi kolaylaştıracaktır. Örneğin, Plan ₿ Academy sitesi için kimlik bilgilerinizi kaydetmek istiyorsanız, bu öğeyi gelecekteki aramalarınız sırasında hemen tanınmasını sağlayacak şekilde adlandırabilirsiniz.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -235,7 +235,7 @@ Klasörünüz artık yöneticinizde görünür.
 
 ![BITWARDEN](assets/notext/41.webp)
 
-Daha önce yaptığımız gibi, bir tanımlayıcıyı oluştururken veya mevcut bir tanımlayıcıyı değiştirerek ona bir klasör atayabilirsiniz. Örneğin, PlanB Network için tanımlayıcıma tıklayarak, onu "*Bitcoin*" klasöründe sınıflandırmayı seçebilirim.
+Daha önce yaptığımız gibi, bir tanımlayıcıyı oluştururken veya mevcut bir tanımlayıcıyı değiştirerek ona bir klasör atayabilirsiniz. Örneğin, Plan ₿ Academy için tanımlayıcıma tıklayarak, onu "*Bitcoin*" klasöründe sınıflandırmayı seçebilirim.
 
 ![BITWARDEN](assets/notext/42.webp)
 
@@ -304,7 +304,7 @@ Artık tarayıcı uzantısı aracılığıyla Bitwarden yöneticinize bağlısı
 ![BITWARDEN](assets/notext/51.webp)
 
 
-Örneğin, PlanB Network sitesine geri dönüp hesabıma giriş yapmaya çalışırsam, tarayıcıya entegre Bitwarden uzantısının giriş alanlarını tanıdığını ve daha önce kaydettiğim tanımlayıcıyı seçmemi otomatik olarak sunduğunu görebilirsiniz.
+Örneğin, Plan ₿ Academy sitesine geri dönüp hesabıma giriş yapmaya çalışırsam, tarayıcıya entegre Bitwarden uzantısının giriş alanlarını tanıdığını ve daha önce kaydettiğim tanımlayıcıyı seçmemi otomatik olarak sunduğunu görebilirsiniz.
 
 
 ![BITWARDEN](assets/notext/52.webp)
@@ -313,7 +313,7 @@ Bu tanımlayıcıyı seçersem, Bitwarden giriş alanlarını benim için doldur
 
 ![BITWARDEN](assets/notext/53.webp)
 
-Uzantı ayrıca yeni hesapların oluşturulmasını tespit etmek için tasarlanmıştır. Örneğin, PlanB Network'te yeni bir hesap oluştururken, Bitwarden otomatik olarak yeni tanımlayıcıyı kaydetmeyi önerir.
+Uzantı ayrıca yeni hesapların oluşturulmasını tespit etmek için tasarlanmıştır. Örneğin, Plan ₿ Academy'te yeni bir hesap oluştururken, Bitwarden otomatik olarak yeni tanımlayıcıyı kaydetmeyi önerir.
 
 ![BITWARDEN](assets/notext/54.webp)
 
@@ -332,7 +332,7 @@ Ardından, uzantı kimlik bilgilerimizi web sitesindeki uygun alanlara otomatik 
 ## Bitwarden yazılımı nasıl kullanılır?
 
 
-Bitwarden masaüstü yazılımını yüklemek için [indirme sayfasına] (https://bitwarden.com/download/#downloads-desktop) giderek başlayın. İşletim sisteminize karşılık gelen sürümü seçin ve indirin.
+Bitwarden masaüstü yazılımını yüklemek için [indirme sayfasına](https://bitwarden.com/download/#downloads-desktop) giderek başlayın. İşletim sisteminize karşılık gelen sürümü seçin ve indirin.
 
 ![BITWARDEN](assets/notext/58.webp)
 

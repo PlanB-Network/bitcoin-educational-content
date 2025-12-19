@@ -6,4 +6,4 @@ Blockchain navržený tak, aby fungoval paralelně s hlavním blockchainem Bitco
 
 Koncept sidechainu původně představili v roce 2014 Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon a Pieter Wuille. V současné době jsou nejznámějšími sidechainy v Bitcoinu Liquid a RSK (Rootstock). Ty však zůstávají mnohem méně používané ve srovnání s jinými překryvnými řešeními s odlišným modelem, jako je Lightning Network.
 
-> ► Ve francouzštině se označuje jako "chaîne latérale" nebo "chaîne parallèle".*
+> ► Ve francouzštině se označuje jako "chaîne latérale" nebo "chaîne parallèle".

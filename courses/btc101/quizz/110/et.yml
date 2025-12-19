@@ -1,9 +1,9 @@
-question: Mis on Blockmit Bitcoin'i turvalisuse kontekstis?
-answer: Madalakululine lahendus oma mnemoonilise fraasi terasele graveerimiseks
+question: Millal Satoshi Nakamoto kadus?
+answer: 2010. aastal
 wrong_answers:
-  - Bitcoin'i rahakott, mis võimaldab korraga allkirjastada mitu tehingut
-  - Madalakululine lahendus bitcoinide kaevandamiseks kodus
-  - Bitcoin'i rahakott, mis nõuab bitcoinide kulutamiseks mitme allkirja olemasolu
+  - 2008. aastal
+  - 2009. aastal
+  - 2023. aastal
 explanation: |
-  Blockmit on madalakululine lahendus oma mnemoonilise fraasi graveerimiseks vastupidavale materjalile nagu teras, tagades seeläbi oma bitcoinide pikaajalise turvalisuse.
+  Satoshi Nakamoto kadus 2010. aastal, jättes oma loomingu kogukonna hoolde.
 reviewed: true

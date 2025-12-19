@@ -1,0 +1,9 @@
+question: Vilken typ av utrustning används idag för att bryta Bitcoin på ett effektivt sätt?
+answer: ASIC
+wrong_answers:
+  - Klassisk CPU
+  - GPU
+  - FPGA
+explanation: |
+  Idag utförs Bitcoin Mining med hjälp av ASICs. Dessa är specialiserade chip för SHA-256-algoritmen.
+reviewed: true

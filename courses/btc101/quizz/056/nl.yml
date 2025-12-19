@@ -1,11 +1,12 @@
-question: Wat was de inflatie in Hongarije in juli 1946?
-answer: 41,900,000,000,000,000%
+question: Wat is het wiskundige concept dat gebaseerd is op menselijke rationaliteit en gebruikt wordt in Bitcoin?
+answer: Speltheorie.
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Waarschijnlijkheidstheorie.
+  - Getaltheorie.
+  - Theorie van verzamelingen.
 explanation: |
-  De maand met de hoogste inflatie in Hongarije was juli
-  1946, met een record prijsinflatie van
-  41,900,000,000,000,000%.
+  Speltheorie is een wiskundig concept dat gebaseerd is op
+  menselijke rationaliteit. In Bitcoin worden protocolwijzigingen
+  afgedwongen door gebruikers, waardoor elke wijziging aan het Bitcoin
+  protocol zeer complex.
 reviewed: true

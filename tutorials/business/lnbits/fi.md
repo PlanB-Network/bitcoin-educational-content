@@ -43,7 +43,7 @@ LNbitit rakentajille: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits
 
 # Joitakin perusasioita
 
-LNbits perustuu LNURL-protokollaan, mikä tarkoittaa, että pyynnöt ovat voimassa kahdessa muodossa: joko https:// clearnet-linkkinä (itse allekirjoitettuja varmenteita ei sallita) tai http:// v2/v3 onion-linkkinä. Jotta voit tarjota LNbits-palveluja, kuten LNURLp/w QR-koodeja tai NFC-kortteja, joita voidaan käyttää luonnossa, sinun on avattava LNbits clearnetiin (https).
+LNbits perustuu LNURL-protokollaan, mikä tarkoittaa, että pyynnöt ovat voimassa kahdessa muodossa: joko https://clearnet-linkkinä (itse allekirjoitettuja varmenteita ei sallita) tai http://v2/v3 onion-linkkinä. Jotta voit tarjota LNbits-palveluja, kuten LNURLp/w QR-koodeja tai NFC-kortteja, joita voidaan käyttää luonnossa, sinun on avattava LNbits clearnetiin (https).
 
 Ennen kuin asennat LNbitsin, varmista, että olet lukenut ja ymmärtänyt seuraavat yleiset oppaat siitä, mikä LNbits on ja mitä mahdollisuuksia se avaa sinulle.
 
@@ -450,7 +450,7 @@ Kun olet uusi rakentamaan, aloita tästä [MakerBits-esittelyt](https://www.yout
 ### TÄRKEÄÄ:
 
 
-- LNbits perustuu LNURL-protokollaan, jonka pyynnöt ovat voimassa kahdessa muodossa: joko https:// clearnet-linkkinä (itse allekirjoitettuja varmenteita ei sallita) tai http:// v2/v3 onion-linkkinä. Jotta voit tarjota LNbits-palveluja, kuten LNURLp/w QR-koodeja tai NFC-kortteja, joita voidaan käyttää luonnossa, sinun on avattava LNbits clearnetiin (https).
+- LNbits perustuu LNURL-protokollaan, jonka pyynnöt ovat voimassa kahdessa muodossa: joko https://clearnet-linkkinä (itse allekirjoitettuja varmenteita ei sallita) tai http://v2/v3 onion-linkkinä. Jotta voit tarjota LNbits-palveluja, kuten LNURLp/w QR-koodeja tai NFC-kortteja, joita voidaan käyttää luonnossa, sinun on avattava LNbits clearnetiin (https).
 - Käytä esp32:n virtalähteenä vain DATA-kaapeleita. Kaikki kaapelit eivät tue dataa esp:n virransyötön lisäksi. Et olisi ensimmäinen, jos esp:n mukana tullut kaapeli on pelkkää virtaa käyttävä kaapeli
 - Varmista, että USB-keskusta ei käytetä, jos siihen on liitetty muita laitteita. Tämä voi johtaa outoihin vaikutuksiin, joita on vaikea korjata (esim. ei käynnisty tai pysähtyy).
 - Toteuttaaksesi esp-projekteja MacOS:n kanssa tarvitset UART-siltaohjaimen. Jos sinulla on ongelmia ajurin kanssa Mac- tai Linux-järjestelmissä, löydät ne täältä tai, jos kyseessä on TTGO-näyttö, tästä. Jos olet windowsissa ja sinulla on ongelmia yhteyden muodostamisessa, varmista, että lataat VANHEMMAN version 11.1.0, koska uudempi ei toimi! Löydät myös sarjapäätteen täältä, jolla voit tarkistaa yhteyden - aseta baudinopeudeksi 115200.

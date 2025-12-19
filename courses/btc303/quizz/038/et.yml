@@ -1,0 +1,9 @@
+question: Mis eristab peatüki kohaselt Bitcoin konsensusreeglite muudatustes pehmet fork kõvast fork-st?
+answer: Pehme fork on täielikult ühilduv (nii edasi- kui ka tagasiühilduv), samas kui kõva fork on ainult tagasiühilduv
+wrong_answers:
+  - Pehme fork nõuab kaevurite signalisatsiooni aktiveerimist, samas kui kõva fork kasutab lipu päeva aktiveerimist
+  - Pehme fork muudab olemasolevaid opkoode, samas kui kõva fork lisab ainult uusi opkoode nagu OP_NOP1-OP_NOP10
+  - Pehmet fork saab rakendada salaja kommitites, samas kui kõva fork nõuab avalikku teadaannet
+explanation: |
+  Peatükis on selgelt määratletud ühilduvuse tüübid: edasiühilduvus võimaldab vanal tarkvaral töödelda uusi andmeid, ignoreerides tundmatuid osi, samas kui tagasiühilduvus võimaldab uuel tarkvaral töödelda vanu andmeid. Pehme fork säilitab mõlemad ühilduvuse tüübid, muutes selle täielikult ühilduvaks. Kõva fork säilitab ainult tagasiulatuva ühilduvuse, mis tähendab, et uus tarkvara saab töödelda vanu andmeid, kuid vana tarkvara ei saa töödelda uuendatud süsteemi uusi andmeid. See erinevus on oluline Bitcoin uuendamismehhanismide mõistmiseks ja selleks, et mõista, miks eelistatakse võrgu harmoonia säilitamiseks pehmeid hargnemisi.
+reviewed: false

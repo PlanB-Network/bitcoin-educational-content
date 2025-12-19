@@ -1,10 +1,9 @@
-question: Was ist die letzte Phase des Hyperinflationsphänomens?
-answer: Eine neue Währung entsteht.
+question: Wie hoch war die Inflationsrate in Simbabwe im November 2008?
+answer: 79.600.000.000%
 wrong_answers:
-  - Verlust des Vertrauens.
-  - Währungszusammenbruch & Preisanstieg.
-  - Der Teufelskreis des Gelddruckens.
+  - 796%
+  - 79.600.000.000.000.000%
+  - 100%
 explanation: |
-  Die letzte Phase der Hyperinflation tritt ein, wenn eine neue
-  Währung eingeführt wird, um die alte zu ersetzen.
+  Im November 2008 erreichte die monatliche Inflationsrate der simbabwischen Währung einen Höhepunkt von 79.600.000.000%, was den Wert des simbabwischen Dollars auf 0 drückte.
 reviewed: true

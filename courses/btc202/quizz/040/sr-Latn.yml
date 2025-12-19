@@ -1,0 +1,9 @@
+question: Gde je najaktivnija Umbrel zajednica?
+answer: Na Discordu i online forumu
+wrong_answers:
+  - Na Instagramu
+  - Na LinkedIn-u i online forumu
+  - Na IRC
+explanation: |
+  Umbrel ima veoma aktivnu zajednicu na Discordu i na svom online forumu, gde korisnici Exchange pomažu i pružaju podršku.
+reviewed: true

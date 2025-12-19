@@ -1,0 +1,9 @@
+question: Khái niệm "động vật máy móc" có phải do ai đưa ra không?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Khái niệm động vật máy móc được cho là của Descartes. Theo lý thuyết này, động vật là những cỗ máy phức tạp, không có linh hồn hay ý thức, hoạt động hoàn toàn dựa trên các nguyên lý cơ học.
+reviewed: false

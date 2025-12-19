@@ -1,12 +1,12 @@
 ---
-name: 比特栈
+name: Bitstack
 description: 在 Bitstack 应用程序上买卖比特币
 ---
 ![cover](assets/cover.webp)
 
 Bitstack 是法国的一个比特币投资平台，受 AMF 的 PSAN 监管。该平台提供安卓和 iOS 应用程序，方便用户买卖比特币。
 
-Bitstack 的与众不同之处在于它的自动四舍五入系统，该系统会同步用户的银行账户，将日常支出中扣除的金额与下一个较高欧元之间的差额直接转换为比特币。这种方法有助于应用 "美元成本平均法"（DCA），从而实现逐步、无痛地积累比特币。除这一独创功能外，该平台还提供自动投资的经典 DCA 系统以及现货买卖功能。
+Bitstack 的独特之处在于其自动舍入系统，该系统会同步用户的银行账户，将日常支出金额与下一个欧元之间的差额直接转换为比特币。此方法有助于应用 *Dollar Cost Averaging*（DCA），从而实现逐步且无痛的聪累积。除了这一独特功能外，该平台还提供带有自动投资的经典 DCA 系统，以及一次性买卖功能。
 
 ![Image](assets/fr/01.webp)
 
@@ -51,9 +51,9 @@ Bitstack 的交易费用根据过去 30 天的交易量而有所不同：
 
 ![Image](assets/fr/06.webp)
 
-为确保日常密码管理的安全性，强烈建议使用密码管理器。在 Plan ₿ Network 上，您可以找到一些关于现有最佳解决方案的教程，如 Bitwarden ：
+为确保日常密码管理的安全性，强烈建议使用密码管理器。在 Plan ₿ Academy 上，您可以找到一些关于现有最佳解决方案的教程，如 Bitwarden ：
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 然后，您将被要求验证身份（KYC）。根据法国的规定，您需要提供个人资料和身份证明。在方框内填写您的姓氏、名字和出生日期。
 
@@ -110,7 +110,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 - 循环采购配置 (RPC) ；
 - 费用自动四舍五入。
 
-### 用现金购买
+### 进行一次性购买
 
 要按市价一次性购买比特币，只需点击 "*购买*"。
 
@@ -126,7 +126,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 ### 设置 DCA
 
-美元成本平均法* (DCA) 是一种极具吸引力的投资策略，既能积累比特币，又能降低与比特币波动相关的风险。通过定期购买固定数量的比特币，无论价格如何，都可以平摊购买成本，避免冲动决策。DCA 有助于减少行为偏差，如害怕错失良机或在价格下跌时产生恐慌，从而使您能够以一种平静而严谨的方式管理您的比特币储蓄。
+美元成本平均法 (DCA) 是一种极具吸引力的投资策略，既能积累比特币，又能降低与比特币波动相关的风险。通过定期购买固定数量的比特币，无论价格如何，都可以平摊购买成本，避免冲动决策。DCA 有助于减少行为偏差，如害怕错失良机或在价格下跌时产生恐慌，从而使您能够以一种平静而严谨的方式管理您的比特币储蓄。
 
 要在 Bitstack 上设置定期购买 (DCA)，请进入主页的 "*储蓄*"部分并选择 "*定期*"。然后按 "*继续*"。
 
@@ -184,7 +184,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 ![Image](assets/fr/32.webp)
 
-如果您不熟悉自我托管投资组合的运作方式，我们提供了大多数解决方案的教程[在计划₿ 网络的 "*钱包*"部分](https://planb.network/tutorials/wallet)。
+如果您不熟悉自我托管投资组合的运作方式，我们提供了大多数解决方案的教程[在计划₿ 网络的 "*钱包*"部分](https://planb.academy/tutorials/wallet)。
 
 ## 出售比特币
 

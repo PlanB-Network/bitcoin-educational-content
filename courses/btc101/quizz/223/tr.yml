@@ -1,11 +1,9 @@
-question: Blockchain trilemması nedir?
-answer: Blockchain'e dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinden yalnızca ikisini karşılayabilir.
+question: Liquid üzerinde kullanılan bitcoinlere ne ad verilir?
+answer: L-BTC
 wrong_answers:
-  - Blockchain'ye dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinden yalnızca birini karşılayabilir.
-  - Blockchain'e dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinin tümünü karşılayabilir.
-  - Blockchain'e dayalı bir protokol, ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik kriterlerinin hiçbirini karşılayamaz.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Blockchain trilemması, bir devlet kurumunun
-  gW-5'e dayalı protokol, aşağıdaki kriterlerden yalnızca ikisini karşılayabilir
-  ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik.
-reviewed: true
+  Liquid üzerinde bitcoinler, BTC’ye 1’e 1 oranında sabitlenmiş L-BTC olarak temsil edilir.
+reviewed: false

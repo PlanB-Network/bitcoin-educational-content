@@ -1,12 +1,10 @@
-question: İtibari para birimlerinin kullanılmaya başlanmasında kurumların izlediği tarihsel yol nedir?
-answer: Liderler altını merkezileştirir ve değer olarak altına eşdeğer yeni bir para birimi çıkarır, daha sonra bu para kademeli olarak devalüe edilir.
+question: Hiperenflasyon olgusunda ortaya çıkan son aşama nedir?
+answer: Yeni bir para birimi ortaya çıkıyor.
 wrong_answers:
-  - Liderler altınla desteklenen yeni bir para birimi çıkarır ve bu para biriminin değeri kademeli olarak artırılır.
-  - Liderler, gerçek değeri olmayan yeni bir para birimi ortaya koyar ve bu para biriminin değeri kademeli olarak artırılır.
-  - Liderler, bir emtia sepeti ile desteklenen ve daha sonra değeri sabit tutulan yeni bir para birimi ortaya koyarlar.
+  - Para birimine olan güven kaybı.
+  - Para birimi çöküşü ve fiyat artışı.
+  - Para basmanın kısır döngüsü.
 explanation: |
-  Tarihsel olarak, liderler altını merkezileştirmiş ve
-  değer olarak altına eşdeğer yeni bir para birimi. Bu yeni
-  para birimi daha sonra, genellikle aşağıdaki kisveler altında, kademeli olarak devalüe edilir
-  halkın çıkarlarına uygun olması.
+  Hiperenflasyonun son aşaması, yeni bir enflasyon dalgası ortaya çıktığında gerçekleşir
+  para birimi eskisinin yerini almak üzere tanıtıldı.
 reviewed: true

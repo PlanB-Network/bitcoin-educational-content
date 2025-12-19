@@ -13,11 +13,11 @@ Ancak uygulamada bir de "Gömülü düğüm" bulunmaktadır.
 
 
 
-**Bu eğitimde keşfedeceğimiz uygulamanın bu yönüdür. Bu, ACINQ'nun inanılmaz Wallet yıldırım Phoenix'ini sunduğu gibi, herkesin özel bir sunucuya ihtiyaç duymadan mobil cihazlarda kendi yıldırım düğümüne sahip olmasını sağlar.
+**Bu eğitimde keşfedeceğimiz uygulamanın bu yönüdür.** Bu, ACINQ'nun inanılmaz Wallet yıldırım Phoenix'ini sunduğu gibi, herkesin özel bir sunucuya ihtiyaç duymadan mobil cihazlarda kendi yıldırım düğümüne sahip olmasını sağlar.
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Hatırlatmak gerekirse Lightning, Bitcoin ile paralel çalışan bir ağdır ve On-Chain işlemlerini sistematik olarak gerçekleştirmek zorunda kalmadan bitcoinlerin takas edilmesini sağlar. Sonuç, bir bloğun doğrulanması için 10 dakika beklemeye gerek kalmadan neredeyse anlık işlemlerdir. Bu özellikle fiziksel dünyada bir tüccara ödeme yaparken kullanışlıdır. Dahası, Lightning, Bitcoin ağının yerel olarak sahip olmadığı dikkate değer bir **gizlilik** düzeyi sağlar*.
 
@@ -38,7 +38,7 @@ Kısacası, bu **potansiyel olarak** cypherpunk'ların hayallerindeki Wallet cep
 
 
 
-Akıllı telefonunuzun işletim sistemi için uygulamayı indirmek üzere [proje web sitesine] (https://zeusln.com/) gidin:
+Akıllı telefonunuzun işletim sistemi için uygulamayı indirmek üzere [proje web sitesine](https://zeusln.com/) gidin:
 
 
 
@@ -200,7 +200,7 @@ Mnemonic ifadenizi kaydetmenin ve yönetmenin doğru yolu hakkında daha fazla b
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -248,7 +248,7 @@ Bir sonraki ekranda, Wallet tarafından tercih edilen LSP (Yıldırım Hizmet Sa
 Bu eğitimde, basitlik adına bu seçeneği seçeceğiz, ancak ağdaki herhangi bir düğümle kanal açmak tamamen mümkündür.
 
 
-"EK KANAL AÇ" seçeneğini seçerek tek bir işlemde birden fazla kanal açmak bile mümkündür. *Ancak bunu **Zeus Embedded**** eğitiminin "gelişmiş" bir versiyonunda inceleyeceğiz.
+"EK KANAL AÇ" seçeneğini seçerek tek bir işlemde birden fazla kanal açmak bile mümkündür. *Ancak bunu **Zeus Embedded** eğitiminin "gelişmiş" bir versiyonunda inceleyeceğiz.*
 
 
 
@@ -345,7 +345,7 @@ Zeus daha sonra ödemenizi ifade etmek için bir not eklemenize veya satoshileri
 
 
 
-Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) gibi bir Wallet'un aksine, Zeus ile rotanın yerel olarak hesaplandığını ve üçüncü bir tarafa (Phoenix durumunda ACINQ) devredilmediğini unutmayın. Yani ödemenin alıcısını bilen tek kişi sizsiniz. Biraz verimlilik kaybederiz (ödemelerin tamamlanması biraz daha uzun sürer, ancak gizlilik açısından çok şey kazanırız).
+Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)) gibi bir Wallet'un aksine, Zeus ile rotanın yerel olarak hesaplandığını ve üçüncü bir tarafa (Phoenix durumunda ACINQ) devredilmediğini unutmayın. Yani ödemenin alıcısını bilen tek kişi sizsiniz. Biraz verimlilik kaybederiz (ödemelerin tamamlanması biraz daha uzun sürer, ancak gizlilik açısından çok şey kazanırız).
 
 
 
@@ -422,8 +422,8 @@ Tebrikler, artık piyasadaki en gelişmiş özelliklere sahip Wallet mobil aydı
 
 
 
-Lightning Network'ün teknik çalışması hakkında daha fazla bilgi edinmek için Fanis Michalakis'in mükemmel ücretsiz Plan ₿ Network eğitimini bulabilirsiniz:
+Lightning Network'ün teknik çalışması hakkında daha fazla bilgi edinmek için Fanis Michalakis'in mükemmel ücretsiz Plan ₿ Academy eğitimini bulabilirsiniz:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

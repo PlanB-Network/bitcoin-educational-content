@@ -1,0 +1,9 @@
+question: Lightning Network의 맥락에서 "RGB State Transition"은 무엇을 의미하나요?
+answer: Commitment 트랜잭션에 통합된 업데이트된 RGB 자산 할당
+wrong_answers:
+  - Multisig 2/2 온체인의 새로운 상태
+  - 펀딩 거래에 통합된 RGB 자산 배분 업데이트
+  - On-Chain 유효성 검사 스크립트가 HTLC로 대체됨
+explanation: |
+  RGB State Transition는 Commitment 트랜잭션을 사용하여 채널에서 RGB 자산의 배포를 업데이트합니다.
+reviewed: false

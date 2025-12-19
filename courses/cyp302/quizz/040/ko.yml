@@ -1,0 +1,9 @@
+question: 이진 연산을 가진 집합 S가 그룹이 되려면 어떤 기본 조건을 만족해야 하나요?
+answer: 폐쇄 조건
+wrong_answers:
+  - 정류성 조건
+  - 대칭 조건
+  - 배포성 조건
+explanation: |
+  이진 연산을 하는 집합 S가 그룹을 형성하려면 몇 가지 조건을 만족해야 하는데, 첫 번째는 닫힘 조건으로, S의 두 Elements 사이의 연산은 S의 원소를 산출해야 합니다.
+reviewed: false

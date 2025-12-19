@@ -14,4 +14,4 @@ Dove:
 - $T$: Il tempo totale effettivo degli ultimi 2016 blocchi in secondi;
 - $1,209,600$: Il tempo target in secondi per produrre 2016 blocchi con un intervallo di 10 minuti tra l'uno e l'altro.
 
-> *In francese, il termine "reciblage" è talvolta utilizzato anche per indicare l'aggiustamento. In inglese si parla di "Difficulty Adjustment"
+> *In francese, il termine "reciblage" è talvolta utilizzato anche per indicare l'aggiustamento. In inglese si parla di "Difficulty Adjustment"*

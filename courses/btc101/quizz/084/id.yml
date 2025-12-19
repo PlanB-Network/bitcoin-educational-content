@@ -1,11 +1,9 @@
-question: Apa yang harus menjadi perhatian utama ketika Anda memiliki bitcoin?
-answer: Keamanan dana Anda
+question: Apa penggunaan yang direkomendasikan untuk dompet fisik offline, atau cold?
+answer: Untuk menyimpan jumlah yang lebih besar
 wrong_answers:
-  - Nilai dalam dolar dari bitcoin Anda
-  - Legalitas memiliki bitcoin
-  - Izin untuk menghabiskan bitcoin Anda
+  - Untuk pengeluaran sehari-hari
+  - Untuk jumlah kecil
+  - Untuk tabungan jangka pendek
 explanation: |
-  Ketika Anda memiliki bitcoin, perhatian utama adalah keamanan dana Anda.
-  Ini karena bitcoin, seperti bentuk mata uang lainnya, dapat dicuri atau hilang
-  jika tidak diamankan dengan baik.
+  Dompet fisik offline, atau cold, direkomendasikan untuk menyimpan jumlah yang lebih besar karena lebih sedikit rentan terhadap ancaman online. Namun, tidak direkomendasikan untuk pengeluaran sehari-hari karena kurang mudah diakses untuk transaksi sehari-hari.
 reviewed: true

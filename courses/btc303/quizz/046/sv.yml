@@ -1,0 +1,9 @@
+question: Vad är det som gör att onlinesystem som Bitcoin skiljer sig fundamentalt från fysiska system när det gäller antagonistiska hot?
+answer: Onlinesystem möter pseudonyma och anonyma motståndare som kan utnyttja alla svagheter utan att synas eller fångas upp
+wrong_answers:
+  - Onlinesystem har mer komplexa kryptografiska algoritmer som är svårare att analysera för att upptäcka säkerhetsbrister
+  - Fysiska system kan skyddas av brottsbekämpande myndigheter medan onlinesystem endast förlitar sig på matematiska bevis
+  - Online-system hanterar transaktioner snabbare, vilket gör det lättare för motståndare att genomföra samordnade attacker
+explanation: |
+  Den viktigaste skillnaden som Andrew Poelstra lyfter fram är att fysiska system kan förlita sig på brottsbekämpning och att motståndarna är synliga för att avskräcka från attacker, och till och med acceptera vissa risker som att byggnader bränns ned. Onlinesystem som Bitcoin verkar dock i en miljö där motståndare kan agera pseudonymt eller anonymt, ansluta från var som helst och utnyttja svagheter utan att identifieras eller fångas. Denna grundläggande skillnad innebär att alla kända svagheter i Bitcoin måste åtgärdas, eftersom de oundvikligen kommer att utnyttjas av osynliga motståndare som inte får några konsekvenser i den verkliga världen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quem pensa que o homem pode perturbar a Natureza em vez de estar sujeito a ela?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Descartes acreditava que o homem pode perturbar a Natureza em vez de a submeter. Esta visão dualista coloca o homem contra a natureza e sugere que podemos superar as leis naturais através da nossa vontade.
+reviewed: false

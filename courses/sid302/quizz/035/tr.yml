@@ -1,0 +1,8 @@
+question: Breez SDK'nın geliştirici arayüzündeki üç adımlı Bağlan, Hazırla ve Yürüt sürecinin temel amacı nedir?
+answer: Cüzdanları senkronize ederek, tüm ücretleri önceden hesaplayarak ve ardından işlemleri oluşturarak karmaşık finansal akışları standartlaştırmak
+wrong_answers:
+  - Herhangi bir atomik işlem başlatmadan önce birden fazla takas sağlayıcısı arasında yedek yedek bağlantılar kurmak için
+  - Zincirler arası denizaltı takas işlemlerine dahil olan her ağ için ayrı kriptografik imzalar oluşturmak
+  - Emanet mekanizmalarından fonları serbest bırakmadan önce zaman kilitli sözleşmelere karşı ödeme ön görüntülerini doğrulamak
+explanation: |
+  Connect, Prepare, Execute modeli karmaşık işlemleri yönetilebilir adımlara bölerek geliştirmeyi basitleştirir: Connect cüzdanları başlatır ve izleme bağlantıları kurar, Prepare tüm maliyetleri hesaplar ve kullanıcılara şeffaf bir şekilde gösterir ve Execute gerçek işlem oluşturma ve yayınlama işlemlerini gerçekleştirir. Bu standardizasyon, denizaltı takaslarının ve çapraz zincir işlemlerinin altında yatan karmaşıklığı soyutlayarak geliştiricilerin düşük seviyeli ayrıntıları yönetmeden Bitcoin işlevselliğini entegre etmelerini kolaylaştırır.

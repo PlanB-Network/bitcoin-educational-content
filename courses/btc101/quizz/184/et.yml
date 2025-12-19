@@ -1,9 +1,10 @@
-question: Mis on üks põhjustest, miks Bitcoin ei ole mull, mis kaob?
-answer: Kuna see on valuuta, mida tegelikult kasutatakse kõikjal maailmas.
+question: Mis on üks tegur, mida arvestada, kui valite lahendust Bitcoin'i vastuvõtmiseks oma ettevõttes?
+answer: Eeldatav tehingute maht
 wrong_answers:
-  - Kuna seda tegelikult ei kasutata kusagil.
-  - Kuna seda kontrollib keskne autoriteet.
-  - Kuna seda on lihtne võltsida.
+  - Teie logo värv
+  - Töötajate arv
+  - Peakontori asukoht
 explanation: >-
-  Bitcoin ei ole mull, mis kaob, vaid valuuta, mida tegelikult kasutatakse kõikjal maailmas.
+  Bitcoin'i vastuvõtmise lahenduse valimisel oma ettevõttes tuleb arvesse võtta mitmeid
+  tegureid, nagu eeldatav tehingute maht, eraldatud eelarve ja ettevõtte tüüp (online või füüsiline).
 reviewed: false

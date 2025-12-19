@@ -80,6 +80,109 @@ En plus de ces méthodes d’installation classiques, il est également possible
 
 Une fois PearPass installé sur une ou plusieurs plateformes, vous pouvez passer à la configuration initiale. Dans ce tutoriel, nous commencerons par configurer le logiciel sur desktop, puis nous le synchroniserons avec l’extension de navigateur et l’application mobile.
 
+## Comment créer un coffre-fort sur PearPass ?
+
+Lors du premier lancement de PearPass sur ordinateur, l’application vous guide à travers deux étapes : la définition de votre mot de passe maître, puis la création de votre premier coffre-fort.
+
+### Définir le mot de passe maître
+
+Au premier démarrage de l’application sur desktop, cliquez sur le bouton `Skip` puis `Continue` afin de parcourir l’écran d’introduction et d’atteindre l’étape de configuration du mot de passe maître.
+
+06
+
+Vient ensuite l'étape importante du choix de votre mot de passe maître. Comme nous l'avons vu dans l'introduction, ce mot de passe est très important, car il vous donne accès à tous vos autres mots de passe sauvegardés sur le gestionnaire. Techniquement, il sert à dériver les clés cryptographiques utilisées pour chiffrer vos données.
+
+Le mot de passe maître comporte deux risques principaux : la perte et la compromission. Si vous perdez l’accès à ce mot de passe, vous ne pourrez plus accéder à vos identifiants. En effet, PearPass ne conserve jamais votre mot de passe maître : **s’il est perdu, vos identifiants le sont définitivement**. Il n’existe aucun mécanisme de récupération. À l’inverse, si ce mot de passe est compromis et qu’un attaquant obtient l’accès à l’un de vos appareils, il pourra accéder à l’intégralité de vos comptes.
+
+Pour limiter le risque de perte, vous pouvez effectuer une sauvegarde physique de votre mot de passe maître, par exemple sur papier, et la conserver dans un lieu sécurisé. Idéalement, scellez cette sauvegarde dans une enveloppe afin de pouvoir vérifier périodiquement qu’elle n’a pas été consultée. En revanche, ne réalisez jamais de sauvegarde numérique de ce mot de passe.
+
+Pour réduire le risque de compromission, votre mot de passe maître doit être fort. Il doit être le plus long possible, inclure une grande diversité de caractères et être choisi de manière réellement aléatoire. En 2025, les recommandations minimales évoquent au moins 13 caractères comprenant des lettres minuscules et majuscules, des chiffres et des symboles, à condition que le mot de passe soit aléatoire. Toutefois, je vous recommande plutôt un mot de passe d’au moins 20 caractères, voire davantage, avec tous les types de caractères, afin d’assurer un niveau de sécurité plus durable.
+
+Saisissez votre mot de passe maître dans le champ prévu, confirmez-le une seconde fois, puis cliquez sur le bouton `Continue`.
+
+07
+
+Vous êtes alors redirigé vers l’écran de connexion : saisissez votre mot de passe maître pour vérifier que tout fonctionne correctement.
+
+08
+
+### Créer votre premier coffre-fort
+
+Une fois connecté, PearPass vous propose de créer votre premier coffre-fort. Un coffre-fort est un conteneur chiffré dans lequel sont stockés vos mots de passe, identifiants, notes sécurisées et autres informations. Chaque coffre-fort est isolé et peut être identifié par un nom distinct, ce qui permet d’organiser vos données selon vos usages (personnel, professionnel, projets spécifiques...).
+
+Cliquez sur le bouton `Create a new vault`.
+
+09
+
+Choisissez un nom pour ce coffre-fort, puis cliquez de nouveau sur `Create a new vault` pour finaliser la création.
+
+10
+
+Votre coffre-fort est immédiatement prêt à l’emploi. Vous pouvez dès à présent commencer à y ajouter des mots de passe, des identifiants ou des notes sécurisées.
+
+11
+
+## Comment ajouter un identifiant sur PearPass ?
+
+Une fois votre coffre-fort créé, vous pouvez commencer à y enregistrer vos éléments. PearPass prend en charge l’enregistrement de nombreux types d’éléments :
+- identifiant de connexion à un site ou à un service ;
+- identité : vos informations personnelles pour remplir rapidement des formulaires, mais aussi stocker des documents d’identité directement dans PearPass ;
+- carte bancaire : vos numéros de carte pour payer plus rapidement lors de vos achats en ligne ;
+- Wi-Fi : les mots de passe de vos réseaux Wi-Fi ;
+- PassPhrase : phrase secrète composée de plusieurs mots (attention : je vous déconseille fortement de l’utiliser pour des phrases mnémoniques de wallet Bitcoin) ;
+- note : création de notes sécurisées ;
+- custom : cette fonctionnalité permet de créer un type d’élément personnalisé, adapté à vos besoins spécifiques.
+
+Commencez par ouvrir PearPass et connectez-vous à l’aide de votre mot de passe maître.
+
+12
+
+Sélectionnez le coffre-fort dans lequel vous souhaitez enregistrer cet identifiant.
+
+13
+
+Sur la page d’accueil, cliquez ensuite sur le bouton permettant d’ajouter un nouvel élément, en fonction du type d’information que vous souhaitez enregistrer. Dans mon cas, je veux ajouter un identifiant pour mon compte sur le site web de Plan ₿ Academy : je clique donc sur le bouton `Create a Login`.
+
+14
+
+Après avoir sélectionné le type d’élément à ajouter, un formulaire s’affiche et vous permet de renseigner les informations associées au service concerné. Selon vos besoins, vous pouvez indiquer le nom du service, l’identifiant de connexion, le mot de passe et, si besoin, l’adresse du site web et des notes complémentaires.
+
+PearPass intègre également un générateur de mots de passe, qui permet de créer un mot de passe fort directement depuis le formulaire. Pour l’utiliser, cliquez sur l’icône représentant trois petits points dans le champ `Password`, choisissez la longueur souhaitée, puis cliquez sur `Insert password`.
+
+Une fois l’ensemble des champs renseignés, cliquez sur le bouton `Save` afin d’enregistrer l’identifiant dans le coffre-fort.
+
+15
+
+L’identifiant est désormais enregistré. Il apparaît dans la liste des éléments du coffre-fort sélectionné et peut être consulté en cliquant dessus.
+
+16
+
+Vous pouvez facilement modifier un élément en cliquant dessus, puis sur le bouton `Edit`. Il est également possible de le supprimer en cliquant sur les trois petits points en haut à droite de l’interface, puis sur `Delete element`.
+
+22
+
+Sur mobile, la logique reste la même, bien que l’interface soit adaptée. Après vous être connecté, sélectionnez le coffre-fort souhaité, choisissez le type d’élément à créer via l’option `Create a Login`, renseignez les informations nécessaires, puis validez en appuyant sur `Save`.
+
+17
+
+## Comment organiser PearPass ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

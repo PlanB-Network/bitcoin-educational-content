@@ -161,7 +161,7 @@ Vous pouvez facilement modifier un élément en cliquant dessus, puis sur le bou
 
 22
 
-Sur mobile, la logique reste la même, bien que l’interface soit adaptée. Après vous être connecté, sélectionnez le coffre-fort souhaité, choisissez le type d’élément à créer via l’option `Create a Login`, renseignez les informations nécessaires, puis validez en appuyant sur `Save`.
+Sur mobile, la logique reste la même, bien que l’interface soit adaptée. Après vous être connecté, sélectionnez le coffre-fort souhaité, tapez sur le bouton `+`, choisissez le type d’élément à créer, puis renseignez les informations nécessaires.
 
 17
 

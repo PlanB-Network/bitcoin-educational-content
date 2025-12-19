@@ -1,0 +1,9 @@
+question: Hayek'in dağınık bilgi teorisine göre, merkezi olarak planlanmış ekonomiler serbest piyasa sistemlerine kıyasla neden etkin kaynak tahsisini başaramamaktadır?
+answer: Merkezi planlamacılar, sadece bireysel piyasa katılımcılarının kendi özel ihtiyaçları, tercihleri ve koşulları hakkında sahip oldukları parçalı ve yerel bilgiye erişemezler
+wrong_answers:
+  - Merkezi planlamacılar, optimum kaynak tahsisi için gereken tüm ekonomik verileri işlemek için gerekli hesaplama gücünden ve gelişmiş algoritmalardan yoksundur
+  - Merkezi planlamacılar doğaları gereği yozlaşmış ve çıkarcıdır; kişisel kazançlarını toplumun bütününün refahından üstün tutarlar
+  - Merkezi planlamacılar ideolojik olarak önyargılıdır ve üstün verimliliklerini kabul etseler bile piyasa temelli çözümleri uygulamayı reddederler
+explanation: |
+  Hayek'in dağınık bilgi hakkındaki temel kavrayışı, bireysel tercihler, yerel koşullar ve öznel değerlemeler hakkındaki bilginin milyonlarca birey arasında yalnızca parçalanmış bir biçimde var olduğunu ortaya koymaktadır. Bu bilgi merkezi olarak toplanamaz ya da bir araya getirilemez çünkü zımni, sürekli değişen ve çoğu zaman çelişkili bir yapıdadır. Serbest piyasalar bunu, bu dağınık bilgiyi gönüllü mübadeleler yoluyla kendiliğinden koordine eden fiyat mekanizması yoluyla çözer.
+  Diğer seçenekler, etkin koordinasyon için gerekli dağınık bilgiye hiçbir merkezi otoritenin sahip olamayacağı şeklindeki temel epistemolojik sorun yerine yanlış bir şekilde teknik sınırlamalara, ahlaki başarısızlıklara veya ideolojik önyargılara odaklanmaktadır.

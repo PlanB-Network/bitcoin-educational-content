@@ -1,0 +1,9 @@
+question: John Rawls'un 'örtüşen uzlaşma' kavramını diğer siyasi uzlaşma yaklaşımlarından ayıran nedir?
+answer: Farklı temel inançlara sahip vatandaşlar, farklı dünya görüşlerini korurken ortak adalet ilkeleri üzerinde anlaşabilirler
+wrong_answers:
+  - Siyasi uyum için tüm vatandaşlar kişisel inançlarını terk ederek tek bir devlet ideolojisini benimsemelidir
+  - Siyasi uzlaşı, herhangi bir işbirliğinden önce tüm ahlaki ve felsefi sorular üzerinde tam bir anlaşma gerektirir
+  - Sıradan vatandaşlar gerekli rasyonel kapasiteye sahip olmadığından, adil ilkeleri yalnızca teknik uzmanlar belirleyebilir
+explanation: |
+  Rawls'un örtüşen uzlaşısı, birbiriyle uyuşmayan dini, felsefi ya da ahlaki doktrinlere sahip insanların yine de ortak siyasi adalet ilkelerinde nasıl birleşebileceğini göstererek merkezci felsefenin özünü ortaya koyar.
+  Herkes bu ilkeleri kendi perspektifinden, kimsenin temel inançlarını terk etmesini gerektirmeden onaylar. Bu, ideolojik tekdüzelik talep eden totaliter yaklaşımlardan, tam bir ahlaki mutabakat gerektiren mükemmeliyetçi teorilerden veya uzman yönetimi lehine vatandaş katılımını dışlayan teknokratik modellerden farklıdır.

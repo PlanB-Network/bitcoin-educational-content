@@ -1,7 +1,7 @@
 question: Qu'advient-il de la différence entre les montants d'entrée et les montants de sortie dans une opération Bitcoin ?
 answer: La différence devient automatiquement la commission de transaction payée aux mineurs
 wrong_answers:
-  - "La différence est renvoyée à l'adresse d'origine de l'expéditeur en tant que changement
+  - "La différence est renvoyée à l'adresse d'origine de l'expéditeur en tant que changement"
   - La différence est brûlée et définitivement retirée de la circulation
   - La différence est bloquée jusqu'à ce que la transaction soit confirmée
 explanation: |

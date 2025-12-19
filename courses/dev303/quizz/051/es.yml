@@ -1,0 +1,8 @@
+question: Cuando se utiliza RefCell en un entorno multihilo, ¿cuál es la principal preocupación en materia de seguridad?
+answer: RefCell no es thread-safe y causará un comportamiento indefinido si se accede desde múltiples threads
+wrong_answers:
+  - RefCell sincronizará automáticamente el acceso entre subprocesos, pero con una importante sobrecarga de rendimiento
+  - RefCell entrará en pánico en tiempo de ejecución cuando varios subprocesos intenten acceder a ella simultáneamente
+  - RefCell se bloqueará cuando varios subprocesos intenten tomar prestados los mismos datos simultáneamente
+explanation: |
+  RefCell está diseñado exclusivamente para escenarios de un único subproceso y carece de mecanismos de sincronización de subprocesos. A diferencia de las alternativas seguras para subprocesos como Mutex, RefCell no realiza operaciones atómicas ni bloqueos, lo que hace que el acceso simultáneo desde varios subprocesos provoque un comportamiento indefinido y posibles carreras de datos. Las comprobaciones de préstamo en tiempo de ejecución que realiza RefCell no son seguras para los subprocesos y pueden verse alteradas por el acceso simultáneo, lo que provoca violaciones de la seguridad de la memoria que Rust normalmente evita.

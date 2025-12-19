@@ -1,0 +1,8 @@
+question: Lightning'in benimsenmesiyle ilgili hangi temel içgörü, Breez'ın tek bir mobil uygulama oluşturmaktan bir SDK mimarisi geliştirmeye geçmesine neden oldu?
+answer: Mobil uygulama ekosistemi, uygulamalar arasında kolay iletişim kurulmasını sağlamıyor ve özel uygulamaların ortak Lightning altyapısından yararlanmasını engelliyor
+wrong_answers:
+  - Mobil cihazlar, Lightning düğümlerini güvenilir bir şekilde çalıştırmak için yeterli hesaplama gücünden yoksundur ve düzgün çalışması için bulut tabanlı altyapı gerektirir
+  - Mevzuata uyumluluk, Lightning işlevselliğinin bireysel mobil uygulamalara dağıtılmak yerine SDK'larda merkezileştirilmesini gerektirir
+  - Kullanıcı deneyimi araştırması, tüketicilerin Lightning ödemelerinin bireysel uygulamalar yerine üçüncü taraf hizmetler tarafından yönetilmesini tercih ettiğini gösterdi
+explanation: |
+  Doğru cevap, orijinal Breez uygulamasıyla keşfedilen temel mimari sınırlamayı tanımlar: mobil ekosistemler, uygulamalar arası kolay iletişime izin vermez ve geliştiricileri Lightning altyapısını paylaşan özel uygulamalar oluşturmak yerine tüm Lightning özelliklerini tek bir uygulamada oluşturmaya zorlar. Bu içgörü, birden fazla uygulamanın aynı Lightning düğümüne bağlanmasını sağlayan SDK yaklaşımına yol açtı. Yanlış cevaplar teknik sınırlamalara, mevzuat sorunlarına veya kullanıcı tercihlerine odaklanır, ancak SDK modeline stratejik geçişi sağlayan temel mimari içgörü bunlar değildi.

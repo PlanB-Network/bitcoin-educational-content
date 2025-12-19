@@ -1,0 +1,8 @@
+question: Lorsqu'une macro utilise le motif `$($x:expr),*` dans sa définition, que fait ce motif ?
+answer: Il correspond à zéro ou plusieurs expressions séparées par des virgules, ce qui permet d'établir des listes d'arguments de longueur variable
+wrong_answers:
+  - Il fait correspondre exactement une expression et répète l'expansion de la macro plusieurs fois
+  - Il correspond à un nombre quelconque de définitions de types séparées par des points-virgules pour la génération de code
+  - Elle crée une boucle qui exécute la macro au moment de l'exécution avec différentes valeurs d'expression
+explanation: |
+  Le motif `$($x:expr),*` utilise la syntaxe de répétition des macros de Rust où le quantificateur `*` signifie 'zéro ou plus', `$x:expr` capture chaque expression, et la virgule spécifie le séparateur entre les expressions. Cela permet à des macros comme `vec!` d'accepter n'importe quel nombre d'arguments : `vec ![1, 2, 3]` ou `vec ![]`. Les autres options sont incorrectes parce que : le motif gère plusieurs expressions et non une seule, il correspond spécifiquement à des expressions et non à des définitions de type et utilise des virgules et non des points-virgules, et les macros s'exécutent à la compilation lors de la génération du code et non à l'exécution.

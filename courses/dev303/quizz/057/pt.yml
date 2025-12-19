@@ -1,0 +1,8 @@
+question: Qual é o principal objetivo do ponto de exclamação (!) que se segue ao nome de uma macro no Rust?
+answer: Serve como um indicador visual de que a geração de código em tempo de compilação está a ocorrer em vez de uma chamada de função em tempo de execução
+wrong_answers:
+  - Indica que a macro entrará em pânico se receber parâmetros de entrada inválidos durante a execução
+  - Marca a macro como insegura e exige o reconhecimento explícito de potenciais problemas de segurança da memória
+  - Especifica que a macro devolve um tipo de Resultado que deve ser tratado com controlo de erros
+explanation: |
+  O ponto de exclamação na sintaxe de macro do Rust é uma escolha deliberada de design que distingue visualmente macros de funções. Quando você vê `println!()` ou `vec![]`, o `!` imediatamente sinaliza que ocorrerá uma expansão de código em tempo de compilação, e não uma chamada de função em tempo de execução. Esta distinção é crucial porque as macros operam de forma fundamentalmente diferente das funções - elas generate código durante a compilação através da correspondência de padrões e expansão. As respostas erradas confundem isso com comportamentos em tempo de execução como pânico, operações inseguras ou tratamento de erros, mas o ponto de exclamação indica especificamente a natureza de metaprogramação em tempo de compilação das macros.

@@ -1,0 +1,8 @@
+question: Mitä unwrap-metodi tekee, kun sitä kutsutaan Result-tyypille Rust:ssa?
+answer: Poimii onnistuneen arvon, mutta hätääntyy, jos tapahtuu virhe
+wrong_answers:
+  - Palauttaa None, jos tapahtuu virhe, ja Some, jos onnistuu
+  - Muuntaa virheen varoitusviestiksi ja jatkaa suoritusta
+  - Välittää virheen automaattisesti kutsuvalle funktiolle
+explanation: |
+  Unwrap-menetelmä poimii Resultin onnistumisarvon, mutta aiheuttaa ohjelman paniikin, jos tapahtuu virhe. Tämä tekee siitä hyödyllisen nopeassa prototyyppien luomisessa tai tilanteissa, joissa olet varma, että toiminto onnistuu. Muut vaihtoehdot kuvaavat erilaisia käyttäytymismalleja: None/Some-palauttaminen kuvaa Option-tyyppejä, virheiden muuntaminen varoituksiksi ei ole Rust:n vakiomalli, ja automaattinen virheiden leviäminen tapahtuu kysymysmerkkioperaattorilla (?), ei unwrap-menetelmällä.

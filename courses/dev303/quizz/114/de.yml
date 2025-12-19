@@ -1,0 +1,8 @@
+question: Was ist der primäre Sicherheitsmechanismus, der sicherstellt, dass die Greenlight-Infrastruktur nicht auf die Gelder der Nutzer zugreifen kann, obwohl Lightning-Knoten in der Cloud gehostet werden?
+answer: Private Schlüssel verlassen nie das Gerät des Benutzers und alle Vorgänge erfordern eine aktive Anwendungssignierung
+wrong_answers:
+  - Geldbörsen mit mehreren Signaturen und verteilten Schlüsselsplittern über mehrere Cloud-Anbieter hinweg
+  - Hardware-Sicherheitsmodule, die alle Transaktionen vor der Cloud-Verarbeitung verschlüsseln
+  - Zeitgesperrte Smart Contracts, die bei unbefugtem Zugriff automatisch Gelder zurückgeben
+explanation: |
+  Das Breez SDK gewährleistet die Sicherheit durch eine vertrauenslose Architektur, bei der die privaten Schlüssel ausschließlich auf den Benutzergeräten verbleiben. Greenlight hostet zwar die Infrastruktur des Lightning-Knotens, kann aber ohne eine aktiv verbundene Anwendung, die Transaktionen und Nachrichten signieren kann, keine Operationen durchführen. Dieses Design stellt sicher, dass, obwohl der Knoten in der Cloud läuft, Greenlight niemals Zugang zu den Benutzerschlüsseln hat und keine Gelder ohne ausdrückliche Autorisierung durch die lokale Anwendung des Benutzers bewegen kann. Die anderen Optionen beschreiben verschiedene Sicherheitsmechanismen, die in dieser Architektur nicht verwendet werden.

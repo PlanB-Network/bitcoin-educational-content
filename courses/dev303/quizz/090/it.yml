@@ -1,0 +1,8 @@
+question: Qual è la principale limitazione che gli sviluppatori devono superare quando utilizzano UniFFI per lo sviluppo di applicazioni mobili che richiedono interfacce utente responsive?
+answer: UniFFI supporta solo interfacce sincrone, richiedendo agli sviluppatori di gestire le operazioni asincrone attraverso meccanismi di threading separati
+wrong_answers:
+  - UniFFI non è in grado di gestire tipi di dati complessi come enum e struct, limitando la ricchezza delle interfacce mobili API
+  - UniFFI genera binding che non sono a prova di memoria attraverso i confini linguistici, richiedendo una gestione manuale della memoria
+  - UniFFI non supporta la traduzione della gestione degli errori, costringendo gli sviluppatori a implementare una gestione personalizzata delle eccezioni in ogni lingua di destinazione
+explanation: |
+  Il limite più significativo di UniFFI è la mancanza di supporto per le interfacce asincrone: tutti i binding generati sono sincroni. Questo crea problemi per lo sviluppo mobile, dove le interfacce utente reattive sono fondamentali, in quanto gli sviluppatori devono implementare le proprie soluzioni di threading per evitare di bloccare il thread principale. Le risposte sbagliate sono errate, perché UniFFI eccelle nella gestione di tipi complessi come enum e struct, fornisce un marshalling automatico a prova di memoria attraverso i confini linguistici e dispone di una sofisticata traduzione della gestione degli errori che converte i tipi di risultato Rust in modelli di eccezione nativi per i linguaggi di destinazione.

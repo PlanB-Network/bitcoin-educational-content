@@ -1,0 +1,8 @@
+question: Mikä on väitteiden ensisijainen rooli Bitcoin-sovelluskehityksessä Rust:n parhaiden käytäntöjen mukaisesti?
+answer: Virheiden havaitseminen testauksen aikana, ohjelman varhainen epäonnistuminen ongelmien ilmaantuessa ja ohjelmoijan oletusten dokumentointi
+wrong_answers:
+  - Käsitellä ajoaikaisia resurssivirheitä, kuten tiedostojen käyttöhäiriöitä ja verkkoyhteysongelmia, sujuvasti
+  - Kääntää matalan tason kirjastovirheet korkean tason sovellusvirheiksi, joita käyttäjät voivat ymmärtää ja joiden perusteella he voivat toimia
+  - Estääksesi virheelliset syöttövirheet rajoittamalla toimintoparametrit siten, että ne hyväksyvät arvoja vain kelvollisten alueiden sisällä
+explanation: |
+  Väittämät palvelevat kolmea kriittistä tehtävää vankassa Bitcoin -ohjelmistokehityksessä: ne havaitsevat virheet testausvaiheessa, varmistavat, että ohjelmat epäonnistuvat varhaisessa vaiheessa, kun perusoletuksia rikotaan (mikä helpottaa virheenkorjausta), ja toimivat suoritettavissa olevana dokumentaationa, joka kuvaa ohjelmoijan odotukset ohjelman tilasta. Muissa vaihtoehdoissa kuvataan erilaisia virheenkäsittelystrategioita - ulkoisten resurssien vikaantumisten suotuisa käsittely, virheiden kääntäminen abstraktiokerrosten välillä ja syötteiden validointi - jotka ovat tärkeitä, mutta eroavat väitteiden erityisroolista ohjelman sisäisten oletusten todentamisessa.

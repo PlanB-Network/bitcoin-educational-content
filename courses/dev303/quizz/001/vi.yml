@@ -1,0 +1,8 @@
+question: Mục đích chính của Rustup trong hệ sinh thái phát triển Rust là gì?
+answer: Một hệ thống quản lý chuỗi công cụ toàn diện để cài đặt và quản lý Rust
+wrong_answers:
+  - Trình quản lý gói để xử lý các phụ thuộc trong các dự án Rust
+  - Một công cụ kiểm tra cú pháp nâng cao, phân tích mã nguồn và đưa ra các đề xuất cải tiến.
+  - Một hệ thống xây dựng biên dịch các chương trình Rust và quản lý cấu trúc dự án.
+explanation: |
+  Rustup được thiết kế đặc biệt như một hệ thống quản lý chuỗi công cụ, xử lý việc cài đặt, cập nhật và quản lý Rust trên nhiều dự án và nền tảng khác nhau. Trong khi Cargo đóng vai trò là trình quản lý gói và hệ thống xây dựng cho các dự án Rust, và Clippy hoạt động như một công cụ kiểm tra cú pháp để phân tích mã, Rustup hoạt động ở cấp độ cao hơn bằng cách quản lý toàn bộ môi trường phát triển Rust. Nó cho phép các nhà phát triển cài đặt các phiên bản Rust khác nhau, quản lý các mục tiêu biên dịch cho các nền tảng khác nhau và dễ dàng cập nhật lên các bản phát hành Rust mới bằng các lệnh đơn giản như 'rustup update'.

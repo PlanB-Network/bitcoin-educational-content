@@ -1,0 +1,8 @@
+question: Met welke methode kun je een waarde uit een Resultaat halen en tegelijkertijd een aangepast paniekbericht geven als er een fout optreedt?
+answer: verwacht
+wrong_answers:
+  - unwrap_of_else
+  - unwrap_met_boodschap
+  - paniek_met
+explanation: |
+  De expect methode is speciaal ontworpen om de succeswaarde uit een Result te halen, terwijl je de mogelijkheid hebt om een aangepast paniekbericht op te geven dat wordt weergegeven als er een fout optreedt. Dit maakt debuggen eenvoudiger in vergelijking met unwrap, dat een algemene panic-boodschap gebruikt. De unwrap_or_else methode panikeert niet, maar voert in plaats daarvan een afsluiting uit wanneer er een fout optreedt. De andere opties (unwrap_with_message en panic_with) zijn geen echte Rust methodes voor het afhandelen van Result types.

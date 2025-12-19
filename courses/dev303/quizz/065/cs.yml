@@ -1,0 +1,8 @@
+question: Proč je filosofie "rychlého pohybu a rozbíjení věcí" ve srovnání s tradičním vývojem softwaru pro Bitcoin obzvláště nevhodná?
+answer: Transakce Bitcoin jsou nevratné a neexistuje žádný centrální orgán, který by mohl vymáhat prostředky z chyb
+wrong_answers:
+  - Vývoj Bitcoin vyžaduje rychlejší iterační cykly než tradiční webové aplikace
+  - "Překladač Rust zabraňuje rychlému vytváření prototypů potřebných pro inovace blockchainu"
+  - "Otevřený zdrojový kód Bitcoin ztěžuje opravu chyb po nasazení."
+explanation: |
+  Správná odpověď zdůrazňuje základní vlastnost Bitcoin: jeho decentralizovaná povaha znamená, že neexistuje žádný orgán, na který by se dalo obrátit s žádostí o navrácení prostředků po odvysílání transakcí. Na rozdíl od tradičních finančních systémů s regulační ochranou a mechanismy zpětného účtování jsou chyby Bitcoin trvalé a nevratné. Špatné odpovědi špatně chápou podstatu problému - nejde o rychlost vývoje, omezení kompilátoru nebo problémy s otevřeným zdrojovým kódem, ale o nevratnou povahu finančních operací v decentralizovaném systému, kde jsou prostředky uživatelů trvale ohroženy.

@@ -1,0 +1,8 @@
+question: Quel est le principal avantage de l'utilisation de macros derive comme #[derive(Debug)] par rapport à l'implémentation manuelle de traits pour les types personnalisés ?
+answer: Ils implémentent automatiquement les traits generate complets au moment de la compilation, réduisant ainsi le code de type "boilerplate"
+wrong_answers:
+  - Ils offrent de meilleures performances d'exécution en optimisant les appels de méthodes de traits pendant l'exécution
+  - Ils permettent d'implémenter des traits plusieurs fois pour le même type avec des comportements différents
+  - Ils permettent la mise en œuvre de traits dynamiques qui peuvent être modifiés au moment de l'exécution en fonction de l'état du programme
+explanation: |
+  Les macros derive génèrent automatiquement les implémentations des traits generate lors de la compilation, éliminant ainsi le besoin d'écrire manuellement du code répétitif de type "boilerplate". Lorsque vous utilisez #[derive(Debug)], le compilateur génère toute la logique de formatage nécessaire pour ce trait. Les mauvaises réponses sont incorrectes car : les macros derive n'améliorent pas les performances d'exécution (elles generate le même code que vous écririez manuellement), les traits ne peuvent être implémentés qu'une seule fois par type indépendamment de la façon dont ils sont implémentés, et les macros derive generate le code statique au moment de la compilation plutôt que de permettre des modifications au moment de l'exécution.

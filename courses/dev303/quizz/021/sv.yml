@@ -1,0 +1,8 @@
+question: Vilken parametertyp ska en Rust-metod använda om den behöver modifiera strukturinstansen samtidigt som den som anropar behåller äganderätten?
+answer: "&mut self"
+wrong_answers:
+  - "&själv"
+  - själv
+  - mut själv
+explanation: |
+  Metoder som behöver ändra en strukturinstans samtidigt som den som anropar behåller äganderätten bör använda `&mut self` som sin första parameter. Detta skapar en mutabel referens till instansen, vilket gör det möjligt för metoden att ändra strukturens fält utan att ta bort äganderätten från den som anropar. Att använda `&self` skulle bara tillåta läsning av instansen, `self` skulle konsumera instansen helt och hållet, och `mut self` är inte giltig Rust-syntax för metodparametrar.

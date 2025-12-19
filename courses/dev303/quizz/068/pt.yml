@@ -1,0 +1,8 @@
+question: Qual é a principal vantagem da abordagem de tipagem estática do Rust em relação à tipagem dinâmica no desenvolvimento de aplicações Bitcoin?
+answer: Os erros de tipo são detectados em tempo de compilação antes da implementação, evitando falhas de tempo de execução ao tratar fundos do utilizador
+wrong_answers:
+  - A tipagem estática permite uma velocidade de execução mais rápida ao processar transacções Bitcoin na cadeia de blocos
+  - "A digitação dinâmica requer mais alocação de memória, o que entra em conflito com os requisitos do nó leve do Bitcoin"
+  - A tipagem estática permite a geração automática de código para implementações do protocolo Bitcoin e contratos inteligentes
+explanation: |
+  A tipagem estática do Rust detecta incompatibilidades de tipo durante a compilação, garantindo que os erros são resolvidos antes de o software poder ser construído ou implementado. Isto é crucial para o desenvolvimento do Bitcoin porque, quando o software estiver a lidar com fundos reais dos utilizadores, os erros de tipo em tempo de execução podem causar perdas financeiras irreversíveis. A tipagem dinâmica apenas revela erros durante a execução, potencialmente após a implementação, quando o dinheiro dos utilizadores está em risco. As outras opções estão incorrectas porque o principal benefício da tipagem estática não é a velocidade de execução, a utilização de memória ou a geração de código, mas sim a prevenção de erros em tempo de compilação.

@@ -1,0 +1,8 @@
+question: Millist võtmesõna kasutatakse selleks, et sundida sulgemist võtma omandiõigus hõivatud muutujatele, selle asemel et neid laenata?
+answer: liikuda
+wrong_answers:
+  - oma
+  - lüüa
+  - võtta
+explanation: |
+  Võtmesõna `move` kasutatakse enne sulgemisparameetreid, et sundida sulgemist võtma enda kätte kõik hõivatud muutujad oma keskkonnast. See on oluline, kui sulgemine võib ületada algselt defineeritud muutujate ulatuse, näiteks kui luuakse niidid. Ilma `move'-ita võtavad sulgurid tavaliselt kinni kõige vähem piirava meetodi järgi (muutumatu viide, siis muutuv viide, siis omandiõigus), kuid `move` tühistab selle automaatse käitumise, et tagada omandiõiguse üleandmine. Teised valikud (`own`, `capture`, `take`) ei ole selleks otstarbeks Rust võtmesõnad.

@@ -1,0 +1,8 @@
+question: Was passiert mit der Inferenz von Schließungstypen, wenn eine Schließung mit bestimmten Typen aufgerufen wird?
+answer: Diese Typen werden für diese Abschlussinstanz festgelegt
+wrong_answers:
+  - Die Schließung kann auch in Zukunft verschiedene Arten von Aufrufen akzeptieren
+  - Der Compiler setzt die Typen für den nächsten Funktionsaufruf zurück
+  - Die Typen bleiben flexibel und können sich je nach Kontext ändern
+explanation: |
+  In Rust profitieren Closures von der automatischen Typinferenz, aber diese Flexibilität hat Grenzen. Sobald eine Closure mit bestimmten Parametertypen aufgerufen wird, sperrt der Compiler diese Typen für diese spezielle Closure-Instanz ein. Das bedeutet, dass dieselbe Closure später nicht mehr mit anderen Typen aufgerufen werden kann - sie wird zu den ersten Typen monomorphisiert, auf die sie trifft. Dies unterscheidet sich von generischen Funktionen, die mit verschiedenen Typen aufgerufen werden können, da jeder Aufruf eine separate Instanziierung erzeugt. Die anderen Optionen sind nicht korrekt, da sie eine fortlaufende Flexibilität suggerieren, die nicht mehr gegeben ist, sobald die Typen der Schließung festgelegt sind.

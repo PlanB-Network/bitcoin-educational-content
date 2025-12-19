@@ -1,0 +1,28 @@
+id: 569a9cfe-9e93-47c8-8649-e48eb469dac4
+test_only: true
+
+topic: protocol
+subtopic: sidechain
+type: practice
+level: expert
+hours: 8
+
+professors_id:
+  - 7668500c-ed9e-44f2-bdbf-b05a66415742
+
+
+published_at: 2025-12-21
+# Proofreading metadata
+original_language: en
+
+proofreading:
+  - language: en
+    last_contribution_date: 2025-10-31
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 1
+tags:
+  - sidechains
+  - technical-analysis
+  - protocols

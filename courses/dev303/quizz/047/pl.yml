@@ -1,0 +1,8 @@
+question: Jaka jest główna różnica między tym, jak Rust normalnie egzekwuje zasady wypożyczania, a tym, jak egzekwuje je RefCell?
+answer: Rust zwykle wymusza reguły zapożyczeń w czasie kompilacji, podczas gdy RefCell wymusza je w czasie wykonywania
+wrong_answers:
+  - Rust normalnie zezwala na wiele zmiennych referencji, podczas gdy RefCell ogranicza je do jednej
+  - Rust zwykle wykorzystuje zliczanie referencji w celu zapewnienia bezpieczeństwa, podczas gdy RefCell wykorzystuje analizę statyczną
+  - Rust zwykle wymaga jawnego zarządzania pamięcią, podczas gdy RefCell obsługuje to automatycznie
+explanation: |
+  Kluczową innowacją RefCell jest przeniesienie egzekwowania reguł zapożyczeń z czasu kompilacji do czasu wykonywania programu. Normalne referencje Rust są sprawdzane przez kompilator podczas kompilacji w celu zapewnienia bezpieczeństwa, ale RefCell wykonuje te same kontrole podczas działania programu. Pozwala to RefCell na zapewnienie wewnętrznej mutowalności w sytuacjach, w których analiza statyczna kompilatora jest zbyt konserwatywna, ale wiąże się z kompromisem w postaci potencjalnej paniki w czasie wykonywania, jeśli reguły pożyczania zostaną naruszone. Pozostałe opcje niepoprawnie opisują podstawowe mechanizmy bezpieczeństwa Rust lub rzeczywiste zachowanie RefCell.

@@ -1,0 +1,8 @@
+question: Jaký je hlavní architektonický kompromis, který sada Breez SDK dělá, aby dosáhla zjednodušené integrace s Lightningem při zachování principů neúřední správy?
+answer: Uživatelé se vzdávají části soukromí, protože Greenlight může sledovat stavy kanálů a informace o směrování, ale zachovává si plnou kontrolu nad soukromými klíči a přístupem k fondům
+wrong_answers:
+  - Uživatelé musí společnosti Greenlight svěřit částečnou úschovu finančních prostředků výměnou za automatizovanou správu kanálů a snížení provozní složitosti
+  - Vývojáři ztrácejí přístup k pokročilým funkcím Lightning, jako jsou vlastní směrování a zásady kanálů, výměnou za zjednodušenou integraci API a podporu napříč platformami
+  - Aplikace obětují možnosti zpracování plateb v reálném čase výměnou za lepší zabezpečení díky cloudovému ověřování všech transakcí Lightning
+explanation: |
+  Architektura sady Breez SDK představuje pečlivě promyšlený kompromis mezi ochranou soukromí a použitelností. Zatímco Greenlight může sledovat stavy kanálů a informace o směrování (což snižuje soukromí), uživatelé si zachovávají plnou kontrolu nad svými soukromými klíči, které nikdy neopustí jejich zařízení. Tím je zajištěno, že k finančním prostředkům nelze přistupovat bez autorizace uživatele, čímž je zachován základní princip neomezeného přístupu. Nesprávné odpovědi nesprávně naznačují úschovu prostředků, omezení funkcí nebo zpoždění zpracování - nic z toho není skutečným kompromisem v návrhu SDK.

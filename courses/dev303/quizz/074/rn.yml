@@ -1,0 +1,8 @@
+question: Ni igiki gihambaye mu gukoresha ububiko bw’ibitabu bwa anyhow mu gutorera umuti amakosa mu gutegura ububiko bw’ibitabu bwa Rust?
+answer: Ihindura amakosa yose mu butumwa bw'urudodo, ibuza abaguzi kwishura mu buryo bwa porogarama ku makosa atandukanye
+wrong_answers:
+  - Ikora gusa n'ubwoko bw'Ibisubizo kandi ntishobora gukorana n'ubwoko bw'Ihitamwo, bikagabanya akamaro kayo mu bihe bivanze
+  - Bisaba guhindura ikosa ry'amaboko ku bwoko bwose bw'ikosa, bikaba bituma rigira amajambo menshi kuruta uko bisanzwe bikoreshwa
+  - Ihita igira ubwoba ku bwoko bumwe bumwe bw’amakosa, bikaba bituma idakwiriye kode y’ububiko bw’ibitabu
+explanation: |
+  Intambamyi nyamukuru y'ububiko bw'ibitabo mu guteza imbere ububiko bw'ibitabo ni uko mu vy'ukuri bushira amakosa yose mu bimenyetso vy'imirongo, bugatakaza amakuru y'amakosa atunganijwe abaguzi b'ibitabo bakeneye kugira ngo bafate ingingo zijanye n'iporogarama. Naho uko biri kwose bihambaye mu kworohereza amakosa yo gukoresha ku bikorwa vy’abakoresha aho amakosa yerekanwa cane, amasomero arakeneye gutanga ubwoko bw’amakosa bwihariye butuma abaguzi bashobora gutandukanya uburyo butandukanye bwo kunanirwa (nk’amakosa y’injiza atagira akamaro n’amakosa y’igihe co gukora) no kwishura neza. Ibindi bihitamwo ntibibereye: uko biri kwose bikora neza n'ubwoko bwompi bw'Igisubizo n'Ihitamwo, mu vy'ukuri bigabanya amajambo menshi biciye mu guhindura ubwavyo, kandi ntibitera ubwoba.

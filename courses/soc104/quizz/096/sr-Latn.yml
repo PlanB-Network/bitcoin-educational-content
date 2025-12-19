@@ -1,0 +1,9 @@
+question: Prema Eric Hughesovom Cypherpunk Manifestu, primarna metoda koju bi sajferpankeri trebali koristiti za postizanje svojih ciljeva privatnosti i slobode je korišćenje kriptografije.
+answer: Pisanje koda za izgradnju kriptografskih sistema koji čine političke podele nebitnim
+wrong_answers:
+  - Lobiranje vlada da usvoje jače zakone i propise o zaštiti privatnosti
+  - Organizovanje masovnih protesta i kampanja građanske neposlušnosti protiv nadzora
+  - Kreiranje obrazovnih programa za podizanje svesti javnosti o pravima na digitalnu privatnost
+explanation: |
+  Eric Hughes je eksplicitno naveo 'Cypherpunks pišu kod' kao njihov fundamentalni pristup. Manifest naglašava da cypherpunks ne nalaze utehu u nadama i željama, već aktivno intervenišu izgradnjom anonimnih sistema kroz kriptografiju. 
+  Ovo transformiše apstraktne ideje slobode u konkretnu ekonomsku i društvenu stvarnost, čineći političke podele proizvoljnim i nepotrebnim. Druge opcije predstavljaju tradicionalni politički aktivizam, što je u suprotnosti sa cypherpunk filozofijom tehnoloških rešenja nad institucionalnom reformom.

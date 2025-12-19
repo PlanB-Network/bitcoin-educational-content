@@ -1,0 +1,8 @@
+question: Wat gebeurt er tijdens het compilatieproces wanneer de Rust compiler een macro-aanroep tegenkomt?
+answer: De compiler vergelijkt de invoer met gedefinieerde patronen en vervangt de macro-aanroep door gegenereerde code voordat de typecontrole plaatsvindt
+wrong_answers:
+  - De compiler stelt macro-uitbreiding uit tot na typecontrole en optimalisatie om de geldigheid van de code te garanderen
+  - De compiler slaat de macro-oproep op als bytecode en breidt deze dynamisch uit tijdens runtime-uitvoering
+  - De compiler valideert de macro-syntaxis, maar laat de eigenlijke expansie over aan de linker
+explanation: |
+  Macro's worden uitgebreid tijdens het compileren voordat typecontrole en optimalisatie plaatsvinden. Wanneer de compiler een macro-oproep tegenkomt, wordt de invoer onmiddellijk vergeleken met de gedefinieerde patronen van de macro en wordt de volledige macro-oproep vervangen door de gegenereerde code. Deze uitgebreide code ondergaat dan de normale compilatieprocessen, inclusief typecontrole. De andere opties zijn onjuist omdat macro's werken tijdens compilatietijd, niet tijdens runtime, en uitbreiding moet gebeuren vóór typecontrole omdat de gegenereerde code moet worden gevalideerd op juistheid.

@@ -1,0 +1,8 @@
+question: Mfumo ikolojia wa uundaji wa zana wa Rust kupitia Cargo unatofautianaje na mbinu inayotumika katika lugha za zamani kama C++ kwa ajili ya uundaji wa Bitcoin?
+answer: Cargo hutoa usimamizi sanifu wa utegemezi, ujenzi, upimaji, na nyaraka katika chombo kimoja, na kuondoa mgawanyiko
+wrong_answers:
+  - Cargo inalenga pekee katika uthibitishaji wa usalama wa kumbukumbu huku zana za C++ zikipa kipaumbele uboreshaji wa kasi ya mkusanyiko
+  - Mizigo inahitaji usanidi wa mikono wa zana nyingi tofauti huku C++ ikitoa mazingira jumuishi ya maendeleo
+  - Cargo inasaidia maktaba maalum za Bitcoin pekee huku zana za C++ zikifanya kazi na programu za kifedha za matumizi ya jumla
+explanation: |
+  Cargo ya Rust inawakilisha mbinu moja ya usimamizi wa miradi inayoshughulikia kazi zote muhimu za maendeleo kupitia zana moja, sanifu. Hii huondoa tatizo la mgawanyiko linaloonekana katika C++ ambapo zana nyingi zinazoshindana za usimamizi wa utegemezi, ujenzi, na upimaji huunda kutolingana katika miradi yote. Kwa uundaji wa Bitcoin, usanifishaji huu ni muhimu kwa sababu unahakikisha michakato thabiti ya ujenzi, utatuzi wa utegemezi unaotegemewa, na ukaguzi sare wa ubora wa msimbo katika miradi na timu tofauti, na kupunguza hatari ya makosa yanayohusiana na usanidi ambayo yanaweza kuathiri usalama.

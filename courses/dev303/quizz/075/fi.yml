@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen etu, joka saavutetaan käyttämällä tulostyypeissä metodeja map() ja map_err() verrattuna perinteisiin try-catch-virheenkäsittelymalleihin?
+answer: Ne mahdollistavat toimintojen ketjuttamisen funktionaaliseen tyyliin ja pitävät virheenkäsittelyn lähellä toimintoja, jotka voivat epäonnistua
+wrong_answers:
+  - Ne muuttavat automaattisesti kaikki virhetyypit merkkijonoviesteiksi, mikä helpottaa virheenkorjausta ja käyttäjän näyttöä
+  - Ne poistavat kysymysmerkkioperaattorin tarpeen tarjoamalla sisäänrakennetut virheiden etenemismekanismit
+  - Ne estävät paniikkitilanteet käärimällä kaikki mahdollisesti epäonnistuvat toiminnot turvallisiin Result-säiliöihin
+explanation: |
+  Map()- ja map_err()-metodit mahdollistavat funktionaalisen tyylin virheenkäsittelyn, jossa voit ketjuttaa operaatioita ja muuntaa arvoja tai virheitä juuri siinä vaiheessa, kun ne ilmenevät. Näin virheenkäsittelylogiikka pysyy lähellä operaatioita, jotka voivat epäonnistua, toisin kuin try-catch-lohkoissa, joissa virheenkäsittely on erillään varsinaisista operaatioista. Muut vaihtoehdot ovat virheellisiä: map-metodit eivät muunna virheitä merkkijonoiksi (se on anyhow'n tehtävä), ne toimivat kysymysmerkkioperaattorin rinnalla eivätkä korvaa sitä, eivätkä ne estä paniikkitilanteita vaan tarjoavat pikemminkin strukturoitua virheenkäsittelyä tuloksille.

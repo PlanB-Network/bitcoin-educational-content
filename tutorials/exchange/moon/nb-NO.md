@@ -7,6 +7,12 @@ description: Betal med bitcoins overalt der Visa-bankkort aksepteres.
 
 
 
+---
+
+⚠️ *Oppdatering desember 2025: Merk, **siden begynnelsen av desember 2025 er deler av Moons tjenester ikke lenger tilgjengelige**, særlig oppladbare Visa-bankkort. Vi vet ennå ikke om denne utilgjengeligheten er midlertidig eller permanent. Denne veiledningen vil bli oppdatert så snart vi har mer informasjon.*
+
+---
+
 Moon lar deg bruke kryptovalutaer som bitcoin til å kjøpe KYC-frie virtuelle Visa-kort og gavekort, som kan brukes hos millioner av nettbutikker, akkurat som et tradisjonelt bankkort. Det er dermed en enkel måte å bruke sats på overalt der Visa aksepteres, uten å gå gjennom en vekslingsplattform.
 
 

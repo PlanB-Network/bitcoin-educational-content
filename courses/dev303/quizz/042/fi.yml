@@ -1,0 +1,8 @@
+question: Mikä on tärkein etu siitä, että iteraattorit ovat laiskoja Rust:ssa?
+answer: Ne eivät tee mitään työtä ennen kuin ne kulutetaan, mikä mahdollistaa tehokkaan ketjuttamisen ilman välikokoelmien luomista
+wrong_answers:
+  - Ne rinnakkaistavat automaattisesti toimintoja useammalle suorittimen ytimelle suorituskyvyn parantamiseksi
+  - Ne tallentavat aiemmat tulokset välimuistiin, jotta samoja arvoja ei tarvitse laskea uudelleen useita kertoja
+  - Ne käyttävät vähemmän muistia, koska ne tallentavat vain viittauksia varsinaisten data-arvojen kopioinnin sijasta
+explanation: |
+  Rust-iteraattoreiden laiska evaluointi tarkoittaa, että ne eivät suorita mitään käsittelyä ennen kuin kuluttavaa metodia kutsutaan. Tämän ansiosta voit ketjuttaa useita operaatioita, kuten map-, filter- ja muita sovittimia, yhteen ilman, että jokaisen vaiheen välissä luodaan välikokoelmia. Kääntäjä voi optimoida koko ketjun tehokkaaksi koodiksi, joka käsittelee elementtejä yksi kerrallaan kaikkien muunnosten läpi sen sijaan, että jokaisessa vaiheessa luotaisiin väliaikaisia vektoreita tai muita kokoelmia.

@@ -2,7 +2,7 @@ question: Que se passe-t-il lorsqu'un fournisseur de services paie une facture L
 answer: Le fournisseur reçoit la pré-image du paiement Lightning, qu'il peut ensuite utiliser pour débloquer et réclamer les L-BTC à la HTLC
 wrong_answers:
   - Le fournisseur doit attendre l'expiration du délai avant de pouvoir accéder au L-BTC bloqué dans le contrat HTLC
-  - "Le client reçoit automatiquement la pré-image et l'utilise pour libérer le L-BTC directement vers le Liquid wallet du fournisseur
+  - "Le client reçoit automatiquement la pré-image et l'utilise pour libérer le L-BTC directement vers le Liquid wallet du fournisseur"
   - Le contrat HTLC s'exécute automatiquement et transfère le L-BTC au fournisseur sans nécessiter de preuve cryptographique supplémentaire
 explanation: |
   Les HTLC créent des échanges atomiques par liaison cryptographique en utilisant le même verrou de hachage sur les deux réseaux. Lorsque le fournisseur règle avec succès la facture Lightning, il obtient la préimage (secret) qui correspond au verrou de hachage. Cette préimage est la clé cryptographique qui lui permet de déverrouiller le L-BTC précédemment bloqué dans le HTLC. Les autres options sont incorrectes car elles ne reflètent pas la nature atomique des HTLC - le verrouillage temporel n'est qu'un mécanisme de secours, les clients ne gèrent pas la distribution de la préimage et les HTLC nécessitent une preuve cryptographique active plutôt qu'une exécution automatique.

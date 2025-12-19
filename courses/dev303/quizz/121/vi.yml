@@ -1,0 +1,8 @@
+question: Cơ chế chính nào khiến tính năng dự trữ kênh bằng không của Breez SDK tạo ra rủi ro bổ sung mà các nhà cung cấp dịch vụ Lightning phải gánh chịu?
+answer: Các nhà cung cấp dịch vụ đám mây (LSP) phải chấp nhận rủi ro người dùng sử dụng hết toàn bộ số dư kênh của họ, loại bỏ vùng đệm an toàn vốn thường bảo vệ chống lại việc buộc phải đóng kênh.
+wrong_answers:
+  - Các nhà cung cấp dịch vụ mạng (LSP) chịu trách nhiệm duy trì đồng bộ hóa đồ thị mạng liên tục trên nhiều thiết bị người dùng mà không cần đến cơ chế bồi thường phí dựa trên dự trữ truyền thống.
+  - Các nhà cung cấp dịch vụ thanh toán (LSP) phải đảm bảo định tuyến thanh toán tức thời mà không có khoản dự trữ thanh khoản mà nguồn dự trữ kênh cung cấp để xử lý các tình huống tắc nghẽn mạng.
+  - Các nhà cung cấp dịch vụ mạng (LSP) chịu trách nhiệm đối với các lỗi chuyển đổi on-chain khi người dùng cố gắng chuyển đổi toàn bộ số dư Lightning của họ sang Bitcoin trong thời gian phí cao.
+explanation: |
+  Việc cho phép người dùng sử dụng toàn bộ số dư hiển thị trên kênh, nhưng điều này lại loại bỏ vùng đệm an toàn truyền thống giúp bảo vệ các nhà cung cấp dịch vụ Lightning (LSP) trong trường hợp kênh bị đóng đột ngột. Thông thường, dự trữ kênh đảm bảo một số tiền vẫn bị khóa để trang trải chi phí đóng kênh và bảo vệ chống lại hành vi xấu. Bằng cách loại bỏ các khoản dự trữ này để cải thiện trải nghiệm người dùng, các LSP phải gánh chịu thêm các rủi ro về hoạt động và tài chính mà các vùng đệm này được thiết kế để giảm thiểu, thể hiện một sự đánh đổi rõ ràng, trong đó sự phức tạp về kỹ thuật và rủi ro được chuyển từ người dùng sang nhà cung cấp dịch vụ.

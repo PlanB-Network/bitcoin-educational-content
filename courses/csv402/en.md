@@ -2684,7 +2684,7 @@ To initiate the transfer of an RGB asset, Bob must first issue an invoice. This 
 
 - Tell Alice the type of operation to be performed (for example, a `Transfer` from an RGB20 interface);
 - Provide Alice with Bob's *seal definition* (i.e. the UTXO where he wishes to receive the asset);
-- Specify the quantity of active ingredient required (e.g. 100 units). #####THIS SEEMS TO BE A MISTRANSLATIO FROM... MAYBE FRENCH??? ###
+- Specify the quantity of active units required (e.g. 100 units).
 
 Bob uses the `rgb` tool on the command line. Suppose he wants 100 units of a token whose `ContractId` is known, wants to rely on `Tapret`, and specifies its UTXO (`456e3..dfe1:0`):
 
@@ -2948,7 +2948,7 @@ cargo install rgb-contracts --all-features
 
 The installation compiles a large number of dependencies (e.g. command parsing, Electrum integration, zero-knowledge proofs management, etc.).
 
-Once installation is complete, the: ##### THIS LINE SEEMS TO ME A MISTRANSLATION FROM THE FRENCH?
+Once installation is complete, the:
 
 ```bash
 rgb
@@ -2966,7 +2966,7 @@ When you run the following command, you'll see that an `RGB20` interface is alre
 rgb interfaces
 ```
 
-If this interface is not integrated, clone the: ##### THIS LINE SEEMS TO ME A MISTRANSLATION FROM THE FRENCH?
+If this interface is not integrated, clone it using the following command: 
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-interfaces
@@ -3508,7 +3508,7 @@ All in all, Iris offers a user experience close to that of a classic Bitcoin wal
 
 ### Proxy server and user experience
 
-The proxy server introduced above deserves to be detailed, as it is the key to a smooth user experience. Instead of the sender having to manually transmit the *consignments* to the recipient, the RGB transaction takes place in the background via a: ###### SOME PARTS ARE MISSING IN THE TRANSLATION FROM FRENCH
+The proxy server introduced above deserves to be detailed, as it is the key to a smooth user experience. Instead of the sender having to manually transmit the *consignments* to the recipient, the RGB transaction takes place in the background via:
 
 
 - The recipient generates an *invoice* (containing, among other things, the proxy address);
@@ -3528,7 +3528,7 @@ Another key focus of the Bitfinex team's work is to make the Lightning Network c
 - Generate Lightning commitment transactions (Bitcoin side) accompanied by corresponding RGB state transitions. Each time the channel is updated, an RGB transition redefines the asset distribution in the Lightning outputs;
 - Enable unilateral closure, where the asset is retrieved in an exclusive UTXO, in compliance with Lightning Network rules (HTLC, timelock, punishment, etc.).
 
-This solution, dubbed "**RGB Lightning Node**", uses LDK (*Lightning Dev Kit*) as a base, and adds the mechanisms needed to inject RGB tokens into the channels. Lightning commitments retain the classic structure (puncturable outputs, timelock...), and in addition anchor an RGB state transition (via `Opret` or `Tapret`). For the user, this opens the way to Lightning channels in stablecoins or in any other asset emitted via RGB. ##### "puncturable outputs" SHOULD PROBABLY BE "punishable outputs"
+This solution, dubbed "**RGB Lightning Node**", uses LDK (*Lightning Dev Kit*) as a base, and adds the mechanisms needed to inject RGB tokens into the channels. Lightning commitments retain the classic structure (punishable outputs, timelock...), and in addition anchor an RGB state transition (via `Opret` or `Tapret`). For the user, this opens the way to Lightning channels in stablecoins or in any other asset emitted via RGB.
 
 ### DEX potential and impact on Bitcoin
 
@@ -3592,7 +3592,7 @@ The code is still at the alpha stage: we recommend using it in **regtest** or on
 
 ### Node installation
 
-To compile and install the `rgb-lightning-node` binary, we start by cloning the repository and its sub-modules, then we run the: ##### SEEMS INCOMPLETE AFTER TRANSLATION FROM FRENCH
+To compile and install the `rgb-lightning-node` binary, we start by cloning the repository and its sub-modules, then we run the command:
 
 ```bash
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules

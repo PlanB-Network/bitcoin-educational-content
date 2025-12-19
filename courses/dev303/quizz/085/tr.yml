@@ -1,0 +1,8 @@
+question: UniFFI'da geri arama arayüzleri tanımlanırken, diller arası güvenli çağırmayı sağlamak için geri arama özelliğinde tipik olarak hangi ek Rust özellik sınırları gereklidir?
+answer: Geri aramalar Rust ve hedef diller arasındaki iş parçacığı sınırlarını geçebileceğinden Send ve Sync sınırları gereklidir
+wrong_answers:
+  - Clone ve Copy sınırları, geri arama verilerinin dil sınırları boyunca çoğaltılmasına izin vermek için gereklidir
+  - Yürütme sırasında geri aramalar başarısız olduğunda uygun hata raporlamasını etkinleştirmek için Hata Ayıklama ve Görüntüleme sınırları gereklidir
+  - Serialize ve Deserialize sınırları, farklı dil çalışma zamanları arasında geri arama parametrelerini taşımak için gereklidir
+explanation: |
+  UniFFI'deki geri arama arayüzleri, Rust kodunun hedef dillerde yazılmış uygulama kodunu geri çağırdığı çift yönlü iletişimi sağladıkları için Send ve Sync sınırları gerektirir. Bu geri aramalar yürütme sırasında iş parçacığı sınırlarını geçebileceğinden, Rust'nin tür sistemi bellek güvenliğini sağlamak için Send (iş parçacıkları arasında aktarım için güvenli) ve Sync (iş parçacıkları arasında referansları paylaşmak için güvenli) sınırları gerektirir. Diğer seçenekler yanlıştır: Clone/Copy diller arası çağrılar için gerekli değildir, Debug/Display güvenlik için değil biçimlendirme içindir ve Serialize/Deserialize UniFFI'nin marshaling sistemi tarafından otomatik olarak işlenir.

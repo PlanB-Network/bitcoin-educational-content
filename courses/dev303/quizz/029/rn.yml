@@ -1,0 +1,8 @@
+question: Ni ibihe bintu bibiri bihinduka vy'Igiharuro c'Ivyiyumviro vya Rust bikoreshwa mu gutorera umuti amakosa ashobora gusubirwamwo?
+answer: Ok(T) ku bikorwa vyiza na Err(E) ku kunanirwa
+wrong_answers:
+  - Kuroranirwa (T) ku bikorwa vyiza no Kunanirwa (E) ku kunanirwa
+  - Bimwe (T) ku bikorwa vyiza kandi Ntavyo ku kunanirwa
+  - Pass(T) ku bikorwa vyiza na Panic(E) ku kunanirwa
+explanation: |
+  Igisubizo enum muri Rust gifise neza na neza uburyo bubiri: Ok(T) irimwo agaciro k'uguterimbere k'ubwoko T, na Err(E) irimwo ikosa ry'ubwoko E. Iyi nzira ihatira abahinguzi gukora neza ivy'uguterimbere n'ugutsindwa. Ayandi mahitamwo ntabwo ari ay'ukuri - Gutsinda/Kunanirwa si ibihinduka vy'Igisubizo, Bimwe/Ntavyo biri mu rutonde rw'amahitamwo rwo gufata agaciro k'ubusa, na Guca/Ubwoba si ibihinduka vy'urugero rwa Rust rwo gufata amakosa.

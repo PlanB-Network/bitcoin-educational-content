@@ -1,0 +1,9 @@
+question: Zgodnie z fundamentalną krytyką Satoshi Nakamoto, jaki jest główny problem z konwencjonalnymi systemami walut fiducjarnych?
+answer: Wymagają one nadmiernego zaufania do scentralizowanych instytucji, które w przeszłości naruszyły to zaufanie poprzez obniżenie wartości waluty
+wrong_answers:
+  - Brak wystarczającej infrastruktury technologicznej do wydajnej i bezpiecznej obsługi nowoczesnych transakcji cyfrowych
+  - Powodują one zbyt dużą zmienność kursów walutowych, przez co handel międzynarodowy staje się nieprzewidywalny i kosztowny
+  - generate nadmierne opłaty transakcyjne, które sprawiają, że mikropłatności są ekonomicznie nieopłacalne dla zwykłych użytkowników
+explanation: |
+  Satoshi Nakamoto wyraźnie stwierdził, że "głównym problemem związanym z konwencjonalną walutą jest zaufanie, które jest wymagane do jej funkcjonowania" oraz że "historia walut fiducjarnych jest pełna naruszeń tego zaufania"
+  Jego krytyka koncentrowała się na fundamentalnym zaufaniu do banków centralnych, które wielokrotnie zawodziły. Inne opcje, choć potencjalnie uzasadnione obawy dotyczące tradycyjnych systemów, pomijają podstawowy filozoficzny sprzeciw Nakamoto wobec systemów monetarnych opartych na zaufaniu i jego motywację do stworzenia alternatywy bez zaufania.

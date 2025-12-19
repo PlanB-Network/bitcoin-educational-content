@@ -1,0 +1,8 @@
+question: Welche Art von Fehler sollte in Rust-Programmen eine Panik auslösen?
+answer: Nicht behebbare Fehler, die auf Programmierlogikfehler oder unsichere Zustände hinweisen
+wrong_answers:
+  - Netzwerkverbindungsfehler oder Timeout-Fehler von externen Diensten
+  - Ungültige Benutzereingaben oder fehlende Konfigurationsdateien
+  - Fehler bei nicht gefundenen Dateien oder verweigerte Berechtigungen
+explanation: |
+  Panics sollten für nicht behebbare Fehler reserviert werden, die Programmierfehler oder Situationen darstellen, in denen das Programm in einen unsicheren Zustand geraten ist, wie z.B. Verletzungen der Array-Grenzen oder Probleme mit der Speichersicherheit. Die falschen Antworten beschreiben alle wiederherstellbare Fehler - Netzwerkausfälle, Probleme bei der Benutzereingabe und Probleme mit dem Dateisystem sind erwartete Zustände, die Programme mit Hilfe von Ergebnistypen anständig behandeln sollten, anstatt abzustürzen. Diese wiederherstellbaren Fehler ermöglichen es Programmen, durch die Implementierung geeigneter Fehlerbehandlungsstrategien weiterzulaufen.

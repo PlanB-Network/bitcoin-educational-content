@@ -1,0 +1,8 @@
+question: Kun Rust:ssa kehitetään mukautettua funktiota muistuttavaa makroa, mikä on fragmenttimääritteiden, kuten `expr`, `ty` ja `ident`, ensisijainen tarkoitus kuvion täsmäytyksessä?
+answer: Määritellä, millaisia koodielementtejä voidaan sovittaa ja varmistaa syntaktisesti kelvollinen syöttö
+wrong_answers:
+  - Voit määrittää generoidun koodin paluutyypin ja optimoida käännössuorituskykyä
+  - Makrohaarojen suoritusjärjestyksen määrittäminen ja tyypin tarkistaminen ajonaikaisesti
+  - Muistin allokointimallien hallitseminen ja muuttujien rajaussääntöjen määrittäminen laajennetussa koodissa
+explanation: |
+  Makromallien fragmenttimääritteet toimivat tyyppirajoituksina, jotka validoivat syötemerkkien syntaksin makron laajentamisen aikana. Ne varmistavat, että makro saa oikeanlaisen koodielementin (lauseke, tyyppi, tunniste jne.), ja antavat selkeät virheilmoitukset, kun virheellinen syntaksi havaitaan. Tämä tapahtuu kääntämisen aikana kuvioiden sovittamisen aikana, ei suoritusaikaisen suorituksen aikana, eivätkä ne suoraan ohjaa muistinjakoa, suoritusjärjestystä tai generoidun koodin paluutyyppejä.

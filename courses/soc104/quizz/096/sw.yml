@@ -1,0 +1,10 @@
+question: Kulingana na Ilani ya Cypherpunk ya Eric Hughes, ni njia gani ya msingi ambayo watu wa Cypherpunk wanapaswa kutumia ili kufikia malengo yao ya faragha na uhuru?
+answer: Kuandika msimbo ili kujenga mifumo ya kriptografia inayofanya mgawanyiko wa kisiasa usiwe muhimu
+wrong_answers:
+  - Kushawishi serikali kupitisha sheria na kanuni kali zaidi za ulinzi wa faragha
+  - Kuandaa maandamano makubwa na kampeni za uasi wa kiraia dhidi ya ufuatiliaji
+  - Kuunda programu za kielimu ili kuongeza uelewa wa umma kuhusu haki za faragha za kidijitali
+explanation: |
+  Eric Hughes alisema waziwazi 'Waandishi wa Cypherpunks' kama mbinu yao ya msingi. Ilani inasisitiza kwamba Wacypherpunks hawapati faraja katika matumaini na matakwa, lakini huingilia kati kikamilifu kwa kujenga mifumo isiyojulikana kupitia usimbaji fiche.
+  
+  Hii hubadilisha mawazo ya dhahania ya uhuru kuwa ukweli halisi wa kiuchumi na kijamii, na kufanya migawanyiko ya kisiasa kuwa ya kiholela na isiyo ya lazima. Chaguzi zingine zinawakilisha uanaharakati wa kisiasa wa kitamaduni, ambao unapingana na falsafa ya Wacypherpunk ya suluhisho za kiteknolojia badala ya mageuzi ya kitaasisi.

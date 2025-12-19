@@ -1,0 +1,8 @@
+question: Vilken är den primära rollen för påståenden i Bitcoin-applikationsutveckling enligt Rust bästa praxis?
+answer: För att fånga upp buggar under testning, orsaka tidiga programfel när problem uppstår och fungera som körbar dokumentation av programmerarens antaganden
+wrong_answers:
+  - Hantera resursfel under körning, t.ex. felaktig filåtkomst och problem med nätverksanslutningen, på ett smidigt sätt
+  - Att översätta biblioteksfel på låg nivå till applikationsfel på hög nivå som användarna kan förstå och agera på
+  - För att förhindra ogiltiga inmatningsfel genom att begränsa funktionsparametrarna till att endast acceptera värden inom giltiga intervall
+explanation: |
+  Assertions fyller tre kritiska funktioner i robust Bitcoin-programvaruutveckling: de fångar upp buggar under testfasen, säkerställer att program misslyckas tidigt när grundläggande antaganden bryts (vilket gör felsökning enklare) och fungerar som körbar dokumentation som beskriver programmerarens förväntningar på programtillståndet. De andra alternativen beskriver olika felhanteringsstrategier - elegant hantering av externa resursfel, felöversättning mellan abstraktionslager och validering av indata - som är viktiga men skiljer sig från den specifika roll som påståenden har när det gäller att verifiera interna programantaganden.

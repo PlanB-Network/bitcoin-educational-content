@@ -1,0 +1,8 @@
+question: Vilken är den mest grundläggande egenskapen som alla closures implementerar i Rust:s hierarki för closure-egenskaper?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterator
+explanation: |
+  FnOnce är den mest grundläggande egenskapen som alla closures implementerar i Rust. Den representerar förslutningar som kan anropas minst en gång, vilket gör den till grunden för hierarkin av förslutningsegenskaper. FnMut och Fn är mer restriktiva egenskaper som bygger på FnOnce - FnMut tillåter flera anrop med mutation, medan Fn tillåter flera anrop utan mutation. Iterator är inte relaterad till closure-egenskaper och används för att bearbeta sekvenser av data.

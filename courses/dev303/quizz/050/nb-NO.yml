@@ -1,0 +1,8 @@
+question: Hva er den største risikoen ved bruk av RC<RefCell<T>> for delt muterbar tilstand, og hvilken mekanisme bidrar til å forhindre det?
+answer: Referansesykluser som forårsaker minnelekkasjer, forhindres ved å bruke svake referanser
+wrong_answers:
+  - Datakappløp mellom tråder forhindres ved å bruke Mutex i stedet for RefCell
+  - Panikk i kjøretiden på grunn av brudd på lånereglene, forhindret av kompileringstidskontroll
+  - Stabeloverløp fra dyp rekursiv, forhindret ved å begrense referansedybden
+explanation: |
+  Ved bruk av RC<RefCell<T>> er den største faren å skape referansesykluser der datastrukturer refererer til seg selv direkte eller gjennom kjeder. Disse syklusene forhindrer at referansetellingen når null, noe som fører til minnelekkasje siden dataene alltid ser ut til å ha aktive referanser. Svake referanser løser dette ved at de ikke bidrar til referanseantallet som brukes til minnehåndtering, slik at syklusene brytes samtidig som forbindelsene bevares. De andre alternativene er feil: RC<RefCell<T>> er ikke trådsikker, så dataløp er ikke hovedproblemet, RefCell flytter spesifikt kontroller til kjøretid i stedet for å forhindre dem på kompileringstidspunktet, og stabeloverløp er ikke relatert til referansetellingsmekanismen.

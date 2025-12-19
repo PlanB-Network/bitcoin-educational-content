@@ -1,0 +1,8 @@
+question: Hva er den primære tekniske mekanismen som gjør det mulig for Breez SDK å gi brukerne en enhetlig balanse samtidig som både Lightning- og on-chain Bitcoin-funksjonalitet opprettholdes?
+answer: Automatiske byttetjenester som konverterer mellom Lightning og on-chain Bitcoin bak kulissene etter behov
+wrong_answers:
+  - Saldoaggregering i sanntid som viser summen av Lightning- og on-chain-midler uten faktisk konvertering
+  - Kanalreservepooling som gjør det mulig å flytte midler fritt mellom Lightning- og on-chain-stater innenfor samme UTXO
+  - Generering av dobbeltlagsadresser som skaper hybridadresser som kan motta både Lightning- og on-chain-betalinger
+explanation: |
+  Det riktige svaret er automatiske byttetjenester fordi Breez SDK spesifikt implementerer on-chain-byttefunksjonalitet for sømløs konvertering mellom Lightning og on-chain Bitcoin når brukere trenger å foreta ulike typer betalinger. Dette gjør at brukerne kan se én enkelt saldo, mens systemet håndterer den tekniske kompleksiteten ved å flytte midler mellom lagene. De gale svarene beskriver ikke-eksisterende eller teknisk umulige mekanismer - saldoaggregering vil bare vise kombinerte beløp uten å aktivere funksjonalitet på tvers av lagene, kanalreserver kan ikke flytte midler til on-chain-tilstander, og hybridadresser finnes ikke i Bitcoin-protokollen.

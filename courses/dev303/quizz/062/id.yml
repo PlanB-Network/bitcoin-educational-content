@@ -1,0 +1,8 @@
+question: Apa keuntungan utama menggunakan perintah `cargo expand` ketika mengembangkan makro yang rumit di Rust?
+answer: Ini menampilkan kode yang diperluas sepenuhnya yang dihasilkan oleh panggilan makro, memungkinkan pengembang untuk memverifikasi output yang dihasilkan dan men-debug masalah
+wrong_answers:
+  - Secara otomatis mengoptimalkan kinerja makro dengan mengurangi waktu kompilasi dan menghilangkan cabang pencocokan pola yang berlebihan
+  - Ini memvalidasi sintaks makro pada saat runtime dan menyediakan pemeriksaan kesalahan waktu nyata untuk validasi argumen makro dinamis
+  - Ini mengubah makro seperti fungsi menjadi makro turunan secara otomatis, meningkatkan penggunaan kembali kode dan efisiensi implementasi sifat
+explanation: |
+  Perintah `cargo expand` sangat berharga untuk pengembangan makro karena perintah ini memperlihatkan kode aktual yang dibuat oleh makro generate selama kompilasi. Karena makro beroperasi pada saat kompilasi dan mengubah pola input menjadi kode yang dihasilkan, pengembang perlu melihat output yang diperluas ini untuk memverifikasi makro mereka bekerja dengan benar. Hal ini sangat penting terutama ketika kode yang dihasilkan makro mengandung kesalahan, karena output yang diperluas membantu menentukan apakah masalah berasal dari definisi makro itu sendiri atau struktur kode yang dihasilkan. Opsi lain tidak benar karena `cargo expand` adalah murni alat debugging dan inspeksi - tidak mengoptimalkan kinerja, memvalidasi perilaku runtime, atau secara otomatis mengkonversi antara jenis makro.

@@ -1,0 +1,8 @@
+question: Kwa nini falsafa ya 'songa haraka na uvunje mambo' haifai sana kwa uundaji wa Bitcoin ikilinganishwa na uundaji wa programu za jadi?
+answer: Miamala ya Bitcoin haiwezi kurekebishwa bila mamlaka kuu ya kurejesha fedha kutokana na makosa
+wrong_answers:
+  - Ukuzaji wa Bitcoin unahitaji mizunguko ya haraka ya marudio kuliko programu za wavuti za kawaida
+  - "Kikusanyaji cha Rust huzuia uundaji wa prototype wa haraka unaohitajika kwa uvumbuzi wa blockchain"
+  - "Asili ya Bitcoin ya chanzo huria hurahisisha kurekebisha hitilafu baada ya kuzitumia"
+explanation: |
+  Jibu sahihi linaangazia sifa ya msingi ya Bitcoin: asili yake ya ugatuzi ina maana kwamba hakuna mamlaka ya kukata rufaa kwa ajili ya urejeshaji wa fedha mara tu miamala inapotangazwa. Tofauti na mifumo ya kifedha ya jadi yenye ulinzi wa udhibiti na mifumo ya urejeshaji wa fedha, makosa ya Bitcoin ni ya kudumu na hayawezi kurekebishwa. Majibu yasiyo sahihi hayaelewi suala kuu - si kuhusu kasi ya maendeleo, mapungufu ya mkusanyaji, au changamoto za chanzo huria, bali kuhusu asili isiyoweza kurekebishwa ya shughuli za kifedha katika mfumo wa ugatuzi ambapo fedha za watumiaji ziko katika hatari ya kudumu.

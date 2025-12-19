@@ -1,0 +1,8 @@
+question: Jaké dvě varianty výčtu Result v Rust se používají pro zpracování obnovitelných chyb?
+answer: Ok(T) pro úspěšné operace a Err(E) pro neúspěšné
+wrong_answers:
+  - Success(T) pro úspěšné operace a Failure(E) pro neúspěšné operace
+  - Some(T) pro úspěšné operace a None pro neúspěšné operace
+  - Pass(T) pro úspěšné operace a Panic(E) pro neúspěšné
+explanation: |
+  Výčet Result v Rust má přesně dvě varianty: Tento návrh nutí vývojáře explicitně zpracovávat jak případy úspěchu, tak případy selhání. Ostatní varianty jsou nesprávné - Success/Failure nejsou varianty Result, Some/None patří do enumu Option pro zpracování nulových hodnot a Pass/Panic nejsou standardní varianty enumu Rust pro zpracování chyb.

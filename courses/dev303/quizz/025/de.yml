@@ -1,0 +1,8 @@
+question: Welches Schlüsselwort wird verwendet, um Implementierungsblöcke zu definieren, die Methoden und zugehörige Funktionen für Strukturen in Rust enthalten?
+answer: impliziert
+wrong_answers:
+  - methode
+  - struktur
+  - fn
+explanation: |
+  Das Schlüsselwort `impl` wird speziell zur Erstellung von Implementierungsblöcken verwendet, in denen Sie Methoden und zugehörige Funktionen für Strukturen definieren. Während `struct` die Struktur selbst definiert, `fn` einzelne Funktionen definiert und `method` überhaupt kein Rust-Schlüsselwort ist, erstellt nur `impl` den Block, der das mit einem Typ verbundene Verhalten enthält. Implementierungsblöcke, die `impl` verwenden, ermöglichen es Ihnen, Ihren Strukturen Funktionalität hinzuzufügen, so dass sie mehr als nur Datencontainer sind.

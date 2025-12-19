@@ -42,7 +42,7 @@ Deze cursus is bedoeld om je het verhaal van het ontstaan van Bitcoin te vertell
 **Kort overzicht**
 
 
-Bitcoin werd ontworpen door een individu (of een groep) met het pseudoniem Satoshi Nakamoto. Op 31 oktober 2008 deelde hij een white paper waarin hij zijn model beschreef via een obscure e-mail mailinglijst op het internet. Op 8 januari 2008 implementeerde hij zijn concept door de broncode van de software te publiceren en het netwerk te lanceren door Mining de eerste blokken van de keten. Om een groot aantal gebruikers aan te trekken, promootte hij zijn creatie via verschillende communicatiekanalen.
+Bitcoin werd ontworpen door een individu (of een groep) die het pseudoniem Satoshi Nakamoto gebruikte. Op 31 oktober 2008 deelde deze persoon een whitepaper waarin zijn model werd beschreven via een obscure e-maildistributielijst op internet. Op 8 januari 2009 bracht hij zijn concept in de praktijk door de broncode van de software te publiceren en het netwerk te lanceren door het minen van de eerste blokken van de keten. Met het oog op het aantrekken van een kritisch aantal gebruikers promootte hij zijn creatie via diverse communicatiekanalen.
 
 
 Na een moeizame start vond de bootstrapping van het systeem uiteindelijk plaats in oktober 2009, toen de rekeneenheid - ook Bitcoin genoemd - een prijs kreeg. De eerste handelsdiensten verschenen in 2010, te beginnen met Exchange diensten die een brug sloegen naar de dollar. Rond die tijd werd ook Mining met een grafische kaart, efficiënter, geïmplementeerd en vond de eerste Exchange voor een fysiek goed, specifiek een pizza, plaats, op initiatief van Laszlo Hanyecz.

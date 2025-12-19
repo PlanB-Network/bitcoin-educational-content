@@ -1,0 +1,22 @@
+id: f3e886c5-8f07-4ac0-a960-da6ac54b5c4f
+project_id: 51500805-f100-4623-b8b2-ad7bd11b9dbb
+level: beginner
+category: point-of-sale
+professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
+tags:
+  - guides
+  - adoption
+  - wallets
+
+licence: CC-BY-SA-V4
+
+# proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-12-16
+    urgency: 1
+    contributor_names:
+      - heyolaniran
+    reward: 0.55

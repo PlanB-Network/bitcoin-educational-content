@@ -1,0 +1,8 @@
+question: Ni igiki c’ishimikiro c’ubwubatsi c’Igikoresho co Guteza imbere Umuravyo (LDK) gitera ingorane zikomeye cane ku bakoresha telefone ngendanwa wallet mu gihe amafaranga y’urubuga agenda araduga?
+answer: Kubura ibisohoka vy'inanga bibuza gufunga inguvu z'imiyoboro iyo amafaranga yashinzwe imbere y'igihe adahagije kugira ngo kwemeze ibikorwa
+wrong_answers:
+  - Kubura ubufasha bwa LNURL busaba gukora invoice n'amaboko no gukora amahera ku bikorwa vyose vya Lightning
+  - Kubura guhuza igishushanyo c'urubuga bituma inzira yo kwishura idakora neza igihe porogaramu za telefone ngendanwa zisubira gutangura inyuma y'igihe kirekire
+  - Uburongozi budahagije bw'ububiko bw'imirongo bujana mu gufunga amafaranga igihe abakoresha bagerageza gukoresha amafaranga yabo yose yerekanwa
+explanation: |
+  Kubura ibisohoka vy’inanga muri LDK bituma habaho ubugoyagoye bukomeye aho imirongo idashobora gupfungwa ku nguvu mu gihe c’amahera menshi kubera ko amahera yashizweho imbere y’igihe aba adahagije kugira ngo blockchain yemezwe. Ivyo birateye akaga cane cane ku bikoresho vy’amafaranga bigendagenda aho abakoresha bashobora guheba porogarama ata gufunga kw’ubufatanye, bishobora gutuma amafaranga ahagarara ubuziraherezo. Naho ukubura kwa LNURL bigira ingaruka ku bumenyi bw’abakoresha n’ibibazo vy’inzira bigira ingaruka ku kwizigirwa, nta na kimwe muri vyo kirema ingorane zo gusubirana kw’amahera zishingira intahe imipaka y’umusaruro iriho mu bidukikije vy’amahera menshi.

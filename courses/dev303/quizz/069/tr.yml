@@ -1,0 +1,8 @@
+question: Rust en iyi uygulamalarına göre Bitcoin uygulama geliştirmede assertion'ların birincil rolü nedir?
+answer: Test sırasında hataları yakalamak, sorunlar ortaya çıktığında erken program başarısızlığına neden olmak ve programcı varsayımlarının yürütülebilir dokümantasyonu olarak hizmet etmek
+wrong_answers:
+  - Dosya erişim hataları ve ağ bağlantısı sorunları gibi çalışma zamanı kaynak hatalarını zarif bir şekilde ele almak için
+  - Düşük seviyeli kütüphane hatalarını kullanıcıların anlayabileceği ve harekete geçebileceği yüksek seviyeli uygulama hatalarına dönüştürmek
+  - Fonksiyon parametrelerini yalnızca geçerli aralıklardaki değerleri kabul edecek şekilde kısıtlayarak geçersiz giriş hatalarını önlemek için
+explanation: |
+  İtirazlar, sağlam Bitcoin yazılım geliştirmede üç kritik işleve sahiptir: test aşamasında hataları yakalar, temel varsayımlar ihlal edildiğinde programların erken başarısız olmasını sağlar (hata ayıklamayı kolaylaştırır) ve programcının program durumu hakkındaki beklentilerini açıklayan yürütülebilir belgeler olarak işlev görür. Diğer seçenekler farklı hata işleme stratejilerini tanımlamaktadır - harici kaynak arızalarının zarif bir şekilde ele alınması, soyutlama katmanları arasında hata çevirisi ve girdi doğrulama - bunlar önemlidir ancak programın dahili varsayımlarının doğrulanmasında tasdiklerin özel rolünden farklıdır.

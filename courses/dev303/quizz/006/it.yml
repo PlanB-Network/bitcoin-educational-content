@@ -1,0 +1,8 @@
+question: Ogni quanto tempo Rust rilascia una nuova versione stabile secondo il suo programma di rilascio?
+answer: Ogni sei settimane circa
+wrong_answers:
+  - Ogni tre mesi circa
+  - Ogni due settimane circa
+  - Ogni quattro mesi circa
+explanation: |
+  Rust segue un programma di rilascio prevedibile, con nuove versioni stabili in uscita ogni sei settimane circa. Questo ciclo di rilascio frequente assicura che le nuove funzionalità e i miglioramenti arrivino regolarmente agli utenti, mantenendo la stabilità. Le altre tempistiche non sono corrette: tre mesi e quattro mesi sarebbero molto più lenti del ritmo effettivo di Rust, mentre due settimane sarebbero irrealisticamente veloci per rilasci stabili che richiedono test approfonditi.

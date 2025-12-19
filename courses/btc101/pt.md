@@ -1042,7 +1042,9 @@ A economia Bitcoin existe e está se desenvolvendo em certas regiões do mundo, 
 
 No entanto, em El Salvador e em outras partes do mundo, há cada vez mais indivíduos, empresas e organizações que aceitam Bitcoin como meio de pagamento por seus produtos ou serviços.
 
-![image](assets/pt/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Fonte : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Além disso, foi lançado um projeto de código aberto e colaborativo, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), para facilitar a utilização da Bitcoin nas transacções diárias. Esta plataforma lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades Bitcoin em todo o mundo, pelo que pode visitar o seu sítio Web para descobrir o ecossistema Bitcoin à sua volta. Assim, apesar das dificuldades e das hesitações, existem iniciativas como o BTCMap que contribuem para tornar a economia Bitcoin mais acessível e cómoda para todos.
 

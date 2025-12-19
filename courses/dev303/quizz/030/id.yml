@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari operator tanda tanya (?) Rust ketika digunakan dengan tipe Hasil?
+answer: Untuk secara otomatis membuka nilai yang berhasil dan mengembalikan kesalahan dengan segera dari fungsi saat ini
+wrong_answers:
+  - Untuk mengonversi semua tipe Hasil menjadi tipe Opsi untuk penanganan null yang lebih mudah
+  - Untuk secara otomatis membuat panik dengan pesan khusus ketika terjadi kesalahan
+  - Untuk membungkus nilai yang berhasil dalam lapisan Hasil tambahan untuk keamanan ekstra
+explanation: |
+  Operator tanda tanya (?) didesain secara khusus untuk penyebaran kesalahan dalam Rust. Ketika diterapkan pada sebuah Hasil, operator ini mengekstrak nilai keberhasilan jika operasi berhasil, sehingga memungkinkan kode untuk melanjutkan dengan nilai tersebut. Namun, jika terjadi kesalahan, operator ? segera mengembalikan kesalahan tersebut dari fungsi saat ini, yang secara efektif menyebarkannya ke atas tumpukan panggilan. Hal ini menghilangkan kebutuhan akan ekspresi pencocokan yang bertele-tele sambil mempertahankan semantik penanganan kesalahan secara eksplisit. Operator ini hanya bisa digunakan dalam fungsi yang mengembalikan tipe Hasil, memastikan pola penyebaran kesalahan yang tepat.

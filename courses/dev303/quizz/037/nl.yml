@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste kenmerk dat afsluitingen krachtig maakt in Rust?
+answer: Hun vermogen om variabelen uit hun omgeving op te vangen
+wrong_answers:
+  - Hun vermogen om sneller te werken dan normale functies
+  - Hun vermogen om automatisch geheugentoewijzing af te handelen
+  - Hun vermogen om code in parallelle threads uit te voeren
+explanation: |
+  De fundamentele eigenschap die closures krachtig maakt, is hun vermogen om hun omgeving "af te sluiten", wat betekent dat ze toegang hebben tot en gebruik kunnen maken van variabelen die bestaan in het bereik waar de closure is gedefinieerd. Dit vermogen om over te sluiten stelt closures in staat om status en context van hun creatie-omgeving te behouden, waardoor ze veel flexibeler zijn dan reguliere functies. Hoewel closures kunnen worden geoptimaliseerd voor prestaties en gebruikt in threading contexten, zijn dit secundaire voordelen - hun kernkracht komt van het vastleggen van omgevingsvariabelen.

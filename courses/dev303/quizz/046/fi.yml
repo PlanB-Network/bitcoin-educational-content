@@ -1,0 +1,8 @@
+question: Mitä tapahtuu, kun kloonaat RC<T>-instanssin, joka sisältää suuren tietorakenteen?
+answer: Vain viittaus kopioidaan ja viittauslaskuria kasvatetaan, jolloin alkuperäinen tieto ei muutu
+wrong_answers:
+  - Koko tietorakenne kopioidaan muistiin, ja molemmat kopiot ylläpitävät erillisiä viitelaskureita
+  - Luodaan pinnallinen kopio, jossa primitiiviset kentät kopioidaan, mutta monimutkaiset kentät säilyvät jaettuina viitteinä
+  - Tiedot siirretään uuteen muistipaikkaan ja alkuperäinen RC muuttuu virheelliseksi, kunnes se alustetaan uudelleen
+explanation: |
+  Kun Rust kloonaa RC:tä, se kopioi vain viiteosoittimen ja kasvattaa sisäistä vertailulaskuria, mikä tekee operaatiosta erittäin tehokkaan riippumatta datan koosta. Taustalla olevat tiedot pysyvät samassa muistipaikassa ja ne jaetaan kaikkien RC-instanssien kesken. Tämä eroaa olennaisesti varsinaisen datan kloonauksesta, joka kumoaisi jaetun omistuksen tarkoituksen ja tuhlaisi muistia.

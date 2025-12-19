@@ -1,0 +1,8 @@
+question: Jaký je hlavní rozdíl mezi tím, jak Rust normálně prosazuje pravidla půjčování, a tím, jak je prosazuje RefCell?
+answer: Rust obvykle vynucuje pravidla výpůjček v době kompilace, zatímco RefCell je vynucuje za běhu
+wrong_answers:
+  - Rust běžně umožňuje více proměnných odkazů, zatímco RefCell je omezuje na jeden
+  - Rust obvykle používá počítání referencí pro bezpečnost, zatímco RefCell používá statickou analýzu
+  - Rust obvykle vyžaduje explicitní správu paměti, zatímco RefCell ji zvládá automaticky
+explanation: |
+  Klíčovou inovací RefCell je přesunutí vynucování pravidel výpůjček z doby kompilace do doby běhu. Normální odkazy Rust kontroluje kompilátor během kompilace, aby zajistil bezpečnost, ale RefCell provádí stejné kontroly za běhu programu. Díky tomu může RefCell zajistit vnitřní proměnlivost v situacích, kdy je statická analýza kompilátoru příliš konzervativní, což je však spojeno s kompromisem v podobě potenciální paniky za běhu, pokud jsou pravidla výpůjček porušena. Ostatní možnosti nesprávně popisují základní bezpečnostní mechanismy Rust nebo skutečné chování RefCell.

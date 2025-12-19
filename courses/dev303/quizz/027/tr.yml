@@ -1,0 +1,8 @@
+question: Rust'da yeni yapı örnekleri oluştururken struct güncelleme sözdizimi ne yapmanıza izin verir?
+answer: Mevcut bir örnekten kalan alanları kopyalarken yalnızca değiştirilen alanları belirterek yeni bir örnek oluşturma
+wrong_answers:
+  - Yeni bir örnek oluşturmadan mevcut yapı alanlarını yerinde değiştirme
+  - Varsayılan özelliğini kullanarak belirtilmemiş alanlar için otomatik olarak generate varsayılan değerleri
+  - Birden fazla yapı örneğini tek bir birleşik örnekte birleştirme
+explanation: |
+  Rust'teki struct güncelleme sözdizimi, yalnızca değiştirmek istediğiniz alanları belirterek yeni bir yapı örneği oluşturmanıza ve diğer tüm alanları mevcut bir örnekten otomatik olarak kopyalamanıza olanak tanır. Bu işlem `..existing_instance' sözdizimi kullanılarak yapılır. Diğer seçenekler yanlıştır: struct update sözdizimi mevcut olanları değiştirmek yerine her zaman yeni bir örnek oluşturur, generate varsayılan değerlerini kullanmaz ancak mevcut örneklerden kopyalar ve birden fazla örneği birleştirmek yerine tek bir kaynak örnekle çalışır.

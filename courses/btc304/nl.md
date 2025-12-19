@@ -28,7 +28,7 @@ In BTC304 kijken we naar waarom gemeenschapsopbouw belangrijk is, verkennen we t
 
 
 
-Welkom bij BTC302!
+Welkom bij BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ In je eentje kun je snel een van de vele tunnels in het Bitcoin konijnenhol verk
 
 
 
-## BTC302, Wat is de volgende stap?
+## BTC 304, Wat is de volgende stap?
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-In deze BTC302-cursus zijn we in detail ingegaan op hoe je een community of meet-up opzet en hoe je verschillende projecten lanceert.
+In deze BTC 304-cursus zijn we in detail ingegaan op hoe je een community of meet-up opzet en hoe je verschillende projecten lanceert.
 
 
 Als je gemeenschap klaar is om de volgende stap te zetten, **kan je een formele vereniging oprichten**.

@@ -1,0 +1,8 @@
+question: Kada razvijate prilagođeni makro sličan funkciji u Rust, koja je primarna svrha korišćenja specifikatora fragmenata kao što su `expr`, `ty` i `ident` u podudaranju obrazaca?
+answer: Da definišete koje vrste kodnih elemenata mogu biti uparene i osigurate sintaktički ispravan unos
+wrong_answers:
+  - Da biste odredili povratni tip generisanog koda i optimizovali performanse kompilacije
+  - Da se odredi redosled izvršavanja grana makroa i obradi proveru tipa u vreme izvršavanja
+  - Da kontrolišeš obrasce dodele memorije i definišeš pravila opsega promenljivih u proširenom kodu
+explanation: |
+  Specifikatori fragmenata u makro obrascima služe kao ograničenja tipa koja validiraju sintaksu ulaznih tokena tokom ekspanzije makroa. Oni osiguravaju da makro primi ispravan tip elementa koda (izraz, tip, identifikator, itd.) i pružaju jasne poruke o grešci kada se naiđe na neispravnu sintaksu. Ovo se dešava u vreme kompilacije tokom poklapanja obrazaca, a ne tokom izvršavanja u runtime-u, i oni ne kontrolišu direktno alokaciju memorije, redosled izvršavanja ili povratne tipove generisanog koda.

@@ -1,0 +1,9 @@
+question: Según la crítica fundamental de Satoshi Nakamoto, ¿cuál es el problema central de los sistemas convencionales de moneda fiduciaria?
+answer: Requieren una confianza excesiva en instituciones centralizadas que históricamente han violado esa confianza mediante el envilecimiento de la moneda
+wrong_answers:
+  - Carecen de infraestructura tecnológica suficiente para gestionar las transacciones digitales modernas de forma eficiente y segura
+  - Crean demasiada volatilidad en los tipos de cambio, lo que hace que el comercio internacional sea impredecible y costoso
+  - generate Comisiones de transacción excesivas que hacen que los micropagos sean económicamente inviables para los usuarios de a pie
+explanation: |
+  Satoshi Nakamoto declaró explícitamente que "el problema de fondo de la moneda convencional es toda la confianza que se requiere para que funcione" y que "la historia de las monedas fiduciarias está llena de violaciones de esa confianza"
+  Su crítica se centraba en la confianza fundamental en que los bancos centrales no degraden la moneda, algo que han incumplido repetidamente. Las otras opciones, aunque pueden ser válidas en relación con los sistemas tradicionales, pasan por alto la principal objeción filosófica de Nakamoto a los sistemas monetarios basados en la confianza y su motivación para crear una alternativa sin confianza.

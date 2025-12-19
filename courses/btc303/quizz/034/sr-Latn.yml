@@ -5,5 +5,5 @@ wrong_answers:
   - Naknade za transakcije se spaljuju tokom obrade, postepeno smanjujući dostupnu ponudu bitcoina.
   - "Bitcoin protokol automatski zaključava novčiće koji se nisu pomerali duži vremenski period kako bi sprečio inflaciju"
 explanation: |
-  Poglavlje objašnjava da, iako je teoretski maksimum oko 20,999,817 BTC, stvarna upotrebljiva ponuda je mnogo niža zbog ljudske greške i gubitka. Izgubljeni privatni ključevi čine bitkoine trajno nedostupnim, novčanici bivaju ukradeni ili zaboravljeni, a novčići se ponekad šalju na nevažeće adrese. Ovi faktori stvaraju trajno smanjenje ponude koje koristi preostalim vlasnicima, jer je Satoshi primetio da izgubljeni novčići čine da novčići svih ostalih vrede više.
+  Iako je teorijski maksimum 20 999 999.9769 BTC, stvarna upotrebljiva ponuda je znatno niža zbog ljudskih grešaka i gubitaka. Izgubljeni privatni ključevi čine bitkoine trajno nedostupnim, novčanici se kradu ili zaboravljaju, a novčići se ponekad šalju na nevažeće adrese. Ovi faktori dovode do trajnog smanjenja ponude, što koristi preostalim vlasnicima, kako je primetio Satoši: izgubljeni novčići povećavaju vrednost novčića drugih.
 reviewed: false

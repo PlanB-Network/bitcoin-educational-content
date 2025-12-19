@@ -1,0 +1,8 @@
+question: Je, faida kuu ya mbinu ya uandishi tuli ya Rust ni ipi kuliko uandishi unaobadilika wakati wa kutengeneza programu za Bitcoin?
+answer: Hitilafu za aina hugunduliwa wakati wa kukusanya kabla ya kupelekwa, na hivyo kuzuia hitilafu za wakati wa utekelezaji wakati wa kushughulikia fedha za watumiaji
+wrong_answers:
+  - Uandishi tuli huruhusu kasi ya utekelezaji wa haraka zaidi wakati wa kusindika miamala ya Bitcoin kwenye blockchain
+  - "Uchapaji unaobadilika unahitaji mgao zaidi wa kumbukumbu ambao unapingana na mahitaji ya nodi nyepesi za Bitcoin"
+  - Uandishi tuli huwezesha uzalishaji wa msimbo kiotomatiki kwa utekelezaji wa itifaki ya Bitcoin na mikataba mahiri
+explanation: |
+  Uchapaji tuli wa Rust hugundua aina zisizolingana wakati wa mkusanyiko, na kuhakikisha makosa yanatatuliwa kabla ya programu kujengwa au kusambazwa. Hii ni muhimu kwa uundaji wa Bitcoin kwa sababu mara tu programu inaposhughulikia fedha halisi za watumiaji, makosa ya aina ya wakati wa utekelezaji yanaweza kusababisha hasara zisizoweza kurekebishwa za kifedha. Uchapaji wa nguvu huonyesha tu makosa wakati wa utekelezaji, ikiwezekana baada ya kusambazwa wakati pesa za watumiaji ziko hatarini. Chaguzi zingine si sahihi kwa sababu faida kuu ya uchapaji tuli si kasi ya utekelezaji, matumizi ya kumbukumbu, au uzalishaji wa msimbo, bali ni kuzuia makosa ya wakati wa kukusanya.

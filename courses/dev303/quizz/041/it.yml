@@ -1,0 +1,8 @@
+question: Quali sono i tre modi in cui le chiusure possono catturare variabili dal loro ambiente in Rust?
+answer: Tramite un riferimento immutabile, un riferimento mutabile o una presa di proprietà
+wrong_answers:
+  - Tramite la copia di valori, il prestito di riferimenti o la dereferenziazione di puntatori
+  - Tramite l'allocazione dello stack, l'allocazione dell'heap o l'archiviazione statica
+  - Con accesso condiviso, accesso esclusivo o accesso concorrente
+explanation: |
+  Le chiusure in Rust catturano le variabili d'ambiente esattamente in tre modi: tramite riferimento immutabile (quando devono solo leggere), tramite riferimento mutabile (quando devono modificare) o tramite proprietà (quando devono spostare il valore, spesso per la sicurezza dei thread). Il compilatore sceglie automaticamente il metodo più restrittivo che soddisfa le esigenze della chiusura, seguendo il principio del minimo privilegio.

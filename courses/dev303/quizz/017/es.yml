@@ -1,0 +1,8 @@
+question: ¿Cuáles son los tres componentes que forman la estructura de una Cadena en la disposición de memoria de Rust?
+answer: Un puntero a los datos del montón, la longitud actual y la capacidad total
+wrong_answers:
+  - Un puntero a los datos de la pila, el tamaño actual y la longitud máxima
+  - Una dirección de memoria, el recuento de caracteres y el tipo de asignación
+  - Una referencia de datos, el tamaño del byte y el estado de propiedad
+explanation: |
+  Una cadena en Rust consta exactamente de tres componentes almacenados en la pila: un puntero a los datos de caracteres asignados al montón, la longitud actual del contenido de la cadena y la capacidad total del búfer asignado. Esta estructura permite que las cadenas crezcan y se encojan de forma eficiente, manteniendo el conocimiento de sus límites. Las demás opciones son incorrectas porque hacen referencia a ubicaciones erróneas (pila en lugar de montón), utilizan terminología imprecisa (tamaño frente a longitud, recuento de caracteres frente a longitud de bytes) o incluyen componentes inexistentes como el tipo de asignación o el estado de propiedad.

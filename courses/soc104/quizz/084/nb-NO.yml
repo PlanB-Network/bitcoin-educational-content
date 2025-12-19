@@ -1,0 +1,8 @@
+question: Hvorfor er sentralplanlegging grunnleggende feil som økonomisk koordineringsmekanisme, ifølge Hayeks teori om spredt kunnskap?
+answer: Kunnskapen finnes bare som spredte fragmenter blant enkeltpersoner, noe som gjør det umulig for sentrale planleggere å få tilgang til den komplette informasjonen som trengs for effektiv koordinering
+wrong_answers:
+  - Sentrale planleggere mangler moralsk autoritet til å ta beslutninger for andre, selv når de sitter på fullstendig markedsinformasjon
+  - Politisk korrupsjon og egeninteresse hindrer sentrale planleggere i å implementere økonomisk optimale løsninger til tross for at de har tilgang til alle nødvendige data
+  - Sentralplanlegging krever for mye datakraft og teknologi som ikke var tilgjengelig på Hayeks tid, men som kan fungere i dag
+explanation: |
+  Hayeks kritikk av sentralplanlegging er epistemologisk, ikke moralsk eller teknologisk. Han hevdet at kunnskap aldri eksisterer i konsentrert form, men bare som "spredte fragmenter av ufullstendig og ofte motstridende kunnskap som besittes av alle forskjellige individer" Dette spredte kunnskapsproblemet betyr at sentrale planleggere ikke har tilgang til de subjektive kostnadene, fordelene og lokale preferansene som bare enkeltindivider besitter, noe som umuliggjør effektiv økonomisk koordinering, uavhengig av intensjoner eller databehandlingsevne.

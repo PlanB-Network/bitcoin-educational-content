@@ -665,7 +665,7 @@ Ce chapitre examine la limite de Bitcoin de 21 millions de BTC, ou combien est-e
 La fameuse quantité finie de 21 millions de BTC est considérée comme une propriété fondamentale de Bitcoin. Mais est-elle vraiment gravée dans le marbre ?
 
 
-Commençons par examiner ce que les règles de consensus actuelles disent à propos de la quantité de Bitcoin, et combien de celle-ci sera réellement utilisable. Pieter Wuille a écrit un article à ce sujet [sur la pile Exchange](https://Bitcoin.stackexchange.com/a/38998/69518), dans lequel il a compté le nombre de bitcoins qu'il y aurait une fois que toutes les pièces auraient été extraites :
+Commençons par examiner ce que les règles de consensus actuelles disent à propos de la quantité de Bitcoin, et combien de celle-ci sera réellement utilisable. Pieter Wuille a écrit un article à ce sujet [sur StackExchange](https://Bitcoin.stackexchange.com/a/38998/69518), dans lequel il a compté le nombre de bitcoins qu'il y aurait une fois que toutes les pièces auraient été extraites :
 
 
 > Si vous additionnez tous ces chiffres, vous obtenez 20999999.9769 BTC.

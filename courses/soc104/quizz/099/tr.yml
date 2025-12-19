@@ -1,0 +1,9 @@
+question: Eric Hughes'un Cypherpunk Manifestosu'na göre, cypherpunk'ları sadece gizliliğin korunmasını umanlardan ayıran temel yaklaşım nedir?
+answer: Kurumların gizlilik sağlamasını beklemek yerine kriptografik sistemler oluşturmak için aktif olarak kod yazarlar
+wrong_answers:
+  - Anayasal mahremiyet haklarının tesis edilmesi için siyasi lobi faaliyetlerine ve yasal reformlara odaklanırlar
+  - Akademik araştırmalar ve yayınlar yoluyla gözetim riskleri konusunda halkı eğitmeye öncelik verirler
+  - Gizliliği koruyan teknolojileri kademeli olarak uygulamak için mevcut finans kurumları bünyesinde çalışırlar
+explanation: |
+  Eric Hughes, tanımlayıcı metodolojileri olarak açıkça 'Cypherpunk'ların kod yazdığını' belirtmiştir. Manifesto, cypherpunk'ların hükümetlerin, şirketlerin veya diğer kuruluşların gizlilik koruması sağlamasını beklemediklerini vurgulamaktadır.
+  Bunun yerine, kriptografik araçlar ve merkezi olmayan sistemler yaratarak doğrudan harekete geçiyorlar. Pasif umut ya da kurumsal reform yerine bu aktif inşa yaklaşımı, geleneksel güç yapılarının dışında alternatif sistemler inşa etme felsefelerini somutlaştıran Bitcoin gibi yeniliklerin temeli oldu.

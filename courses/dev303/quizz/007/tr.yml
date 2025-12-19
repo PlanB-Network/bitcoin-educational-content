@@ -1,0 +1,8 @@
+question: Geliştirme sırasında `cargo check` komutunu kullanmanın temel avantajı nedir?
+answer: Yürütülebilir dosyalar oluşturmadan derleme kontrollerini tam bir derlemeden daha hızlı gerçekleştirir
+wrong_answers:
+  - Projenizdeki derleme hatalarını ve kod stili sorunlarını otomatik olarak düzeltir
+  - Tüm proje bağımlılıklarını indirir ve en son sürümlerine günceller
+  - Programınızı hata ayıklama bilgileri ve ayrıntılı hata raporlaması ile çalıştırır
+explanation: |
+  Cargo check` komutu, `cargo build` ile aynı derleme kontrollerini gerçekleştirerek ancak son çalıştırılabilir oluşturma adımını atlayarak hızlı geliştirme yinelemesi için tasarlanmıştır. Bu, yalnızca kodunuzun doğru derlendiğini doğrulamanız gerektiğinde tam bir derlemeden önemli ölçüde daha hızlı olmasını sağlar. Yanlış cevaplar diğer araçların işlevselliğini tanımlar: Clippy ve diğer linters düzeltmeler önerebilir ancak bunları otomatik olarak uygulamaz, `cargo update` bağımlılık güncellemelerini işler ve `cargo run` hata ayıklama özelliklerine sahip programları çalıştırır.

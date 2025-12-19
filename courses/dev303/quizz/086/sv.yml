@@ -1,0 +1,8 @@
+question: Vilket är det primära syftet med namnområdesdeklarationen i en UniFFI UDL-fil?
+answer: Att tillhandahålla en behållare för funktioner som kan anropas direkt utan att objektet behöver instansieras
+wrong_answers:
+  - Så här definierar du paketstrukturen och importberoenden för de genererade språkbindningarna
+  - För att ange de målprogrammeringsspråk som kommer att använda Rust-biblioteket via UniFFI
+  - Att fastställa minneshanteringsstrategin för datahanteringsoperationer över språkgränserna
+explanation: |
+  Namnrymden i UniFFI:s UDL fungerar som en behållare för fristående funktioner som kan anropas direkt utan att skapa objekt först. Dessa namnrymdsfunktioner hanterar vanligtvis enkla operationer som tar värden som parametrar och returnerar resultat. De andra alternativen är felaktiga eftersom: paketstruktur och import hanteras automatiskt av bindningsgenereringsprocessen, målspråk anges under byggprocessen i stället för i UDL-filen och minneshantering hanteras transparent av UniFFIs runtime-lager i stället för att deklareras explicit i namnrymder.

@@ -679,9 +679,6 @@ Seti ya transceiver ya Bitaxe huwasilisha changamoto za kipekee wakati wa kuunga
 
 Mwelekeo unaofaa wa sehemu unawakilisha mojawapo ya vipengele muhimu zaidi vya kuunganishwa kwa Bitaxe kwa ufanisi, hasa kwa MOSFETs Q1 na Q2. Vipengele hivi vina alama za mwelekeo tofauti ambazo lazima zizingatiwe kwa uangalifu wakati wa usakinishaji. Kila MOSFET ina alama ndogo ya dot ambayo inalingana na mipangilio maalum ya pedi kwenye bodi ya mzunguko.Ufunguo wa mwelekeo sahihi upo katika kuelewa muundo wa kimwili wa vipengele hivi, ambavyo vina pini nne zilizopangwa na pedi moja kubwa na pedi ndogo tatu ambazo hazina uhusiano na pedi kubwa.
 
-unguo wa mwelekeo sahihi upo katika kuelewa muundo wa kimwili wa vipengele hivi, ambavyo vina pini nne zilizopangwa na pedi moja kubwa na pedi ndogo tatu ambazo hazina uhusiano na pedi kubwa.
-
-
 Wakati wa kufunga Q1 na Q2, chunguza sehemu zote na bodi ya mzunguko kwa uangalifu. Mpangilio wa ubao unaonyesha wazi uelekeo unaokusudiwa kupitia usanidi wake wa pedi, huku pini nne zikiwa zimepangwa ili kuendana na muundo wa MOSFET. Kabla ya kuuza sehemu yoyote kubwa, thibitisha uelekeo kila wakati kwa kulinganisha viashirio halisi vya kijenzi na mpangilio wa pedi wa ubao. Hatua hii rahisi ya uthibitishaji huzuia kuchanganyikiwa kwa uharibifu na kusakinisha tena vipengele vilivyoelekezwa vibaya.
 
 
@@ -959,7 +956,7 @@ Faili zilizokamilishwa za kiwandani hutoa timu za utumaji na jozi zilizo tayari 
 
 :::video id=291757b9-f459-48f6-8766-56387f907859:::
 
-Bitaxe Web Installer inawakilisha njia rahisi ya kusimamia firmware kwa ajili ya vifaa vya Bitaxe, ikiwapa watumiaji chaguo mbalimbali za kuweka programu kupitia kiolesura kinachotegemea wavuti. Zana hii muhimu huondoa ugumu unaohusishwa na firmware updates na usakinishaji mpya, hivyo kufanya usimamizi wa kifaa upatikane kwa urahisi kwa watumiaji bila kujali ujuzi wao wa kiufundi. Kuelewa matumizi sahihi ya installer hiki ni muhimu ili kuendeleza utendakazi bora wa kifaa na kuepuka makosa ya kawaida yanayoweza kusababisha vifaa kusitisha kazi..
+Bitaxe Web Installer inawakilisha njia rahisi ya kusimamia firmware kwa ajili ya vifaa vya Bitaxe, ikiwapa watumiaji chaguo mbalimbali za kuweka programu kupitia kiolesura kinachotegemea wavuti. Zana hii muhimu huondoa ugumu unaohusishwa na firmware updates na usakinishaji mpya, hivyo kufanya usimamizi wa kifaa upatikane kwa urahisi kwa watumiaji bila kujali ujuzi wao wa kiufundi. Kuelewa matumizi sahihi ya installer hiki ni muhimu ili kuendeleza utendakazi bora wa kifaa na kuepuka makosa ya kawaida yanayoweza kusababisha vifaa kusitisha kazi.
 
 
 ### Ufikiaji na Mahitaji ya Upatanifu wa Kivinjari

@@ -4425,7 +4425,7 @@ Bu Invoice'dan transfer etmek için:
 
 
 
-- Bob (tokenları Stash'ında tutan) bir Bitcoin Wallet'a sahiptir. Gerekli RGB tokenlarının bulunduğu UTXO'ları ve para birimi (Exchange) için bir UTXO harcayan bir Bitcoin işlemi (PSBT şeklinde, örneğin `tx.PSBT`) hazırlaması gerekir;
+- Bob (tokenleri kendi stash’inde tutan) bir Bitcoin cüzdanına sahiptir. Gerekli RGB tokenlerinin bulunduğu UTXO’ları harcayan ve ayrıca para üstü (change) için bir UTXO içeren bir Bitcoin işlemi (PSBT biçiminde, örn. `tx.psbt`) hazırlaması gerekir;
 - Bob aşağıdaki komutu yürütür:
 
 

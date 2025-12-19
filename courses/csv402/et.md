@@ -3168,7 +3168,7 @@ Seda saab edastada Bobile mis tahes kanali kaudu (tekst, QR-kood jne).
 Sellest arvest ülekandmiseks :
 
 
-- Bobil (kes hoiab žetoonid oma peidus) on Bitcoini rahakott. Ta peab ette valmistama Bitcoini tehingu (PSBT kujul, nt `tx.psbt`), mis kulutab UTXO-d, kus asuvad vajalikud RGB-märgid, pluss üks UTXO valuuta jaoks (vahetus) ;
+- Bob (kes hoiab tokeneid oma stash’is) omab Bitcoini rahakotti. Ta peab ette valmistama Bitcoini tehingu (PSBT kujul, nt `tx.psbt`), mis kulutab UTXO-d, kus asuvad vajalikud RGB tokenid, ning lisaks ühe UTXO vahetusraha jaoks (change);
 - Bob täidab järgmise käsu:
 
 ```bash

@@ -3171,7 +3171,7 @@ Può essere trasmesso a Bob tramite qualsiasi canale (testo, codice QR, ecc.).
 Per trasferire da questa fattura :
 
 
-- Bob (che detiene i token nella sua scorta) ha un portafoglio Bitcoin. Deve preparare una transazione Bitcoin (sotto forma di PSBT, ad esempio `tx.psbt`) che spende gli UTXO in cui si trovano i token RGB richiesti, più un UTXO per la valuta (scambio);
+- Bob (che detiene i token nel suo stash) dispone di un wallet Bitcoin. Deve preparare una transazione Bitcoin (sotto forma di PSBT, ad es. `tx.psbt`) che spenda gli UTXO in cui si trovano i token RGB necessari, più un UTXO per il resto (change);
 - Bob esegue il seguente comando:
 
 ```bash

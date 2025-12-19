@@ -3106,8 +3106,7 @@ rgb state '<ContractId>'
 
 ### Export, import and validation
 
-To share this contract with other users, it can be exported from the stash to a: #### "file" seems to be missing from french translation
-
+To share this contract with other users, it can be exported from the stash to a file:
 ```bash
 rgb export '<ContractId>' myContractPBN.rgb
 ```
@@ -3152,7 +3151,8 @@ In most cases, interaction between the participants in a contract (e.g. Alice an
 - **Alice** (the issuer of the invoice);
 - **Bob** (who receives and executes the invoice).
 
-Unlike other ecosystems, an RGB invoice is not limited to the notion of payment. It can embed any request linked to the contract: revoke a key, vote, create an engraving (*engraving*) on an NFT, etc. The corresponding operation can be described in the contract interface. The corresponding operation can be described in the contract interface. ### Duplicated sentence by AI translation
+Unlike other ecosystems, an RGB invoice is not limited to the notion of payment. It can embed any request linked to the contract: revoke a key, vote, create an engraving (*engraving*) on an NFT, etc. The corresponding operation can be described in the contract interface.<img width="1728" height="198" alt="immagine" src="https://github.com/user-attachments/assets/e3427037-bc39-4ed1-aa0f-cdcedb452ba4" />
+
 
 The following command generates an RGB invoice:
 
@@ -3190,7 +3190,7 @@ It can be transmitted to Bob via any channel (text, QR code, etc.).
 To transfer from this invoice:
 
 
-- Bob (who holds the tokens in his stash) has a Bitcoin wallet. He needs to prepare a Bitcoin transaction (in the form of a PSBT, e.g. `tx.psbt`) which spends the UTXOs where the required RGB tokens are located, plus one UTXO for currency (exchange);  ### INCORRECT TRANSLATION from French (I think). "currency (exchange)" refers to the change amount in a BTC transaction
+- Bob (who holds the tokens in his stash) has a Bitcoin wallet. He needs to prepare a Bitcoin transaction (in the form of a PSBT, e.g. `tx.psbt`) which spends the UTXOs where the required RGB tokens are located, plus one UTXO for currency (exchange);
 - Bob executes the following command:
 
 ```bash
@@ -3309,7 +3309,7 @@ Management of deterministic anchoring in Bitcoin transactions (Tapret, OP_RETURN
 - **Repository**: [client_side_validation](https://github.com/LNP-BP/client_side_validation)
 - **Crate**: [commit_verify](https://crates.io/crates/commit_verify)
 
-Multiple engagement combinations and integration with different protocols. ### NOT SURE I GET THE FRENCH AND IF "Multiple engagement combinations" IS CORRECTLY TRANSLATED
+Multiple engagement combinations and integration with different protocols. 
 
 #### Strict Types & Strict Encoding
 
@@ -3736,7 +3736,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network testnet
 ```
 
-By default, if no configuration is found, the daemon will try to use the: ### SEEMS NOT QUITE CORRECTLY TRANSLATED
+By default, if no configuration is found, the daemon will try to use the following:
 
 
 - `bitcoind_rpc_host`: `electrum.iriswallet.com`
@@ -3770,7 +3770,7 @@ curl -X POST -H "Content-Type: application/json" \
 
 ![RGB-Bitcoin](assets/en/107.webp)
 
-You can, of course, adapt the order. To confirm the transaction, we mine a: ### IS "block" MISSING?
+You can, of course, adapt the order. To confirm the transaction, we will mine a block:
 
 ```bash
 ./regtest.sh mine 1

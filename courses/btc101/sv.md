@@ -89,7 +89,6 @@ Det viktiga här är att förstå denna nya teknik på ett allmänt sätt, så v
 
 Redo att dyka ner i den fascinerande världen av Bitcoin och förstå alla dess inre funktioner? Låt oss gå!
 
-**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.academy/resources/glossary) för definitioner.
 
 ## Bitcoins förhistoria
 

@@ -83,7 +83,6 @@ Důležité je pochopit tuto novou technologii v obecné rovině, takže doufám
 
 Jste připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všechny jeho mechanismy? Jdeme na to!
 
-**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
 
 ## Prehistorie bitcoinu
 

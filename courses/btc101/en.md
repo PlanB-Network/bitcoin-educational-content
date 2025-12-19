@@ -83,7 +83,6 @@ The important point here is to understand this new technology in a general way, 
 
 Ready to dive into the fascinating world of Bitcoin and understand all its inner workings? Let's go!
 
-**N.B.**: If you come across any unfamiliar terms during the course, please consult [the glossary](https://planb.academy/resources/glossary) for definitions.
 
 ## The Prehistory of Bitcoin
 

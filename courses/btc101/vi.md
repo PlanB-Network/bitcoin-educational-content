@@ -90,7 +90,6 @@ Hiện tại, chúng ta đã qua giai đoạn cất cánh nhưng chỉ mới ở
 
 Bạn đã sẵn sàng để khám phá thế giới hấp dẫn của Bitcoin và hiểu tất cả các hoạt động bên trong của nó chưa? Hãy cùng đi nào!
 
-**Lưu ý**: Nếu bạn gặp phải các thuật ngữ không quen thuộc trong khóa học, vui lòng tham khảo [bảng thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
 
 ## Lịch sử của Bitcoin
 

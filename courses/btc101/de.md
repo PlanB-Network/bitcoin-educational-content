@@ -83,7 +83,6 @@ Das Wichtigste ist, diese neue Technologie allgemein zu verstehen. Wir wünschen
 
 Bereit, in die faszinierende Welt von Bitcoin einzutauchen und all seine Mechanismen zu verstehen? Los geht's!
 
-**Anm.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, konsultieren Sie bitte [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
 
 ## Die Vorgeschichte von Bitcoin
 

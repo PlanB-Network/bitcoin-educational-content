@@ -83,7 +83,6 @@ objectives:
 
 准备好潜入迷人的比特币世界并了解其所有运作机制了吗？让我们开始吧！
 
-注意：如果在课程中遇到任何不熟悉的术语，请查阅[词汇表]((https://planb.academy/resources/glossary)以获取定义。
 
 ## 比特币的前史
 

@@ -83,7 +83,6 @@ L'importante è capire questa nuova tecnologia in modo generale, quindi vi augur
 
 Pronto a tuffarti nell'affascinante universo di Bitcoin e a comprenderne tutti i meccanismi? Andiamo!
 
-**N.B.**: Se incontri termini sconosciuti durante il corso, consulta [il glossario](https://planb.academy/resources/glossary) per le definizioni.
 
 ## La preistoria di Bitcoin
 

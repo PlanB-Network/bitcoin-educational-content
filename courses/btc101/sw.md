@@ -87,7 +87,6 @@ Jambo muhimu hapa ni kuelewa teknolojia hii mpya kwa njia ya jumla, kwa hivyo tu
 
 Je, uko tayari kuingia katika ulimwengu wa kuvutia wa Bitcoin na kuelewa kazi zake zote za ndani? Twende!
 
-**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.academy/resources/glossary) kwa ufafanuzi.
 
 ## Historia ya awali ya Bitcoin
 

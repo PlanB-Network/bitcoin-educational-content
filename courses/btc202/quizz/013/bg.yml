@@ -1,7 +1,7 @@
 question: Какъв вид оборудване се използва днес за ефективното копаене на Bitcoin?
 answer: ASIC
 wrong_answers:
-  - Класически процесор
+  - Classic CPU
   - GPU
   - FPGA
 explanation: |

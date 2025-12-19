@@ -1,0 +1,8 @@
+question: Welche spezifische Herausforderung der Endianness-Konvertierung müssen Bitcoin-Knoten bei der Konstruktion und Überprüfung von Merkle-Bäumen aus Transaktionsdaten bewältigen?
+answer: Transaktions-Hashes müssen für die interne Baumberechnung vom seriellen Little-Endian-Format in das Big-Endian-Format umgewandelt und dann für die Speicherung wieder zurückgewandelt werden
+wrong_answers:
+  - Die Blockheader müssen vor der Berechnung der Merkle-Wurzel von Big-Endian in Little-Endian konvertiert werden, um dem Übertragungsformat im Netz zu entsprechen
+  - Die endgültige Merkle-Wurzel muss nur bei der Übertragung an andere Knoten über P2P-Nachrichten von Big-Endian in Little-Endian umgewandelt werden
+  - Die Transaktions-IDs werden im Big-Endian-Format gespeichert, müssen aber in Little-Endian konvertiert werden, bevor die Paare im Merkle-Baum gehasht werden
+explanation: |
+  Die Merkle-Baum-Konstruktion von Bitcoin beinhaltet einen kritischen Endianness-Konvertierungsschritt. Während serialisierte Blockdaten das Little-Endian-Format verwenden, erfordert die interne Merkle-Baumberechnung Big-Endian-Hashes. Die Knoten müssen die Transaktionshashes vor der Baumkonstruktion von ihrem seriellen Little-Endian-Format in das Big-Endian-Format umwandeln und dann die endgültige Wurzel für die Speicherung im Blockheader wieder in das Little-Endian-Format zurückwandeln. Diese Konvertierung ist für eine ordnungsgemäße Überprüfung unerlässlich.

@@ -21,7 +21,7 @@ Det är viktigt att notera att inte alla Lightning-noder finns tillgängliga på
 
 
 
-Precis som [Mempool Space] (https://Mempool.space), som ger användbar information om Bitcoin-protokollets huvudkedja, ger [Amboss] (https://amboss.space) sedan 2022 information om :
+Precis som [Mempool Space](https://Mempool.space), som ger användbar information om Bitcoin-protokollets huvudkedja, ger [Amboss](https://amboss.space) sedan 2022 information om :
 
 
 

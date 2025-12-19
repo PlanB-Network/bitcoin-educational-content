@@ -1,0 +1,8 @@
+question: ¿Qué elemento específico debe incluirse en un ScriptSig de P2SH que lo distinga de las entradas de transacciones normales?
+answer: El script de redención completo junto con los datos de desbloqueo
+wrong_answers:
+  - El HASH160 del script redeem y las claves públicas
+  - Sólo las firmas y claves públicas necesarias para satisfacer las condiciones
+  - El byte de la versión y la codificación de la dirección para la validación P2SH
+explanation: |
+  Las entradas P2SH requieren tanto los datos de desbloqueo (firmas, etc.) COMO el script de canje completo en el ScriptSig. Esto es único porque el script de canjeo estaba previamente oculto tras un hash y ahora debe ser revelado para la validación. El primer paso de validación comprueba que HASH160(redeem_script) coincide con el hash de scriptPubKey y, a continuación, se ejecuta el script de canje con los datos de desbloqueo proporcionados. Las otras opciones son incorrectas: el hash ya está en el scriptPubKey original, las firmas por sí solas no son suficientes sin el script, y los bytes de versión se utilizan para la codificación de direcciones, no para la validación de gastos.

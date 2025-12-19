@@ -9,7 +9,7 @@ description: Apa saja faktor penting yang perlu diingat saat mengoreksi di Plan 
 Selamat datang di tutorial tentang **panduan yang harus diikuti saat mengoreksi konten di Plan ₿ Academy**. Kami senang Anda berbagi misi kami untuk menerjemahkan materi Bitcoin ke dalam sebanyak mungkin bahasa, untuk membantu orang mendapatkan kesadaran tentang cara kerjanya dan bagaimana Bitcoin dapat digunakan dalam kehidupan sehari-hari.
 
 
-Pertama-tama, berkontribusi di Plan ₿ Academy [repositori publik] (https://github.com/PlanB-Network/bitcoin-educational-content) memberi Anda kesempatan untuk menulis tutorial, mengoreksi konten yang sudah ada, atau bahkan mengusulkan penambahan bahasa baru ke platform. Untuk mengetahui lebih lanjut, bergabunglah dengan [Grup Telegram] (https://t.me/PlanBNetwork_ContentBuilder) kami terlebih dahulu, dan tulislah presentasi singkat tentang Anda dan bahasa yang Anda kuasai.
+Pertama-tama, berkontribusi di Plan ₿ Academy [repositori publik](https://github.com/PlanB-Network/bitcoin-educational-content) memberi Anda kesempatan untuk menulis tutorial, mengoreksi konten yang sudah ada, atau bahkan mengusulkan penambahan bahasa baru ke platform. Untuk mengetahui lebih lanjut, bergabunglah dengan [Grup Telegram](https://t.me/PlanBNetwork_ContentBuilder) kami terlebih dahulu, dan tulislah presentasi singkat tentang Anda dan bahasa yang Anda kuasai.
 
 
 Tutorial ini didedikasikan untuk kontributor yang ingin mengoreksi konten. Kebanyakan dari mereka tidak tahu banyak tentang [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) atau [Bahasa penurunan harga](https://www.markdownguide.org/basic-syntax/) yang kami gunakan di dalam repositori, jadi penting untuk membagikan beberapa wawasan tentang faktor-faktor kunci yang terlibat dalam tugas ini.
@@ -115,7 +115,7 @@ Dalam kasus kedua ini, **selalu lakukan penelitian untuk melihat apakah ada oran
 
 
 
-- Solusi lain yang baik adalah dengan mempertahankan kata/frasa asli EN, kemudian **buat hyperlink** yang mengarahkan ke [glosarium] (https://planb.academy/en/resources/glossary) di planb.network. Untuk melakukan ini, Anda perlu memasukkan kata/frasa di dalam tanda kurung siku, dan tautan di dalam tanda kurung bulat, seperti yang dapat Anda lihat pada contoh di bawah ini:
+- Solusi lain yang baik adalah dengan mempertahankan kata/frasa asli EN, kemudian **buat hyperlink** yang mengarahkan ke [glosarium](https://planb.academy/en/resources/glossary) di planb.network. Untuk melakukan ini, Anda perlu memasukkan kata/frasa di dalam tanda kurung siku, dan tautan di dalam tanda kurung bulat, seperti yang dapat Anda lihat pada contoh di bawah ini:
 
 
 ```

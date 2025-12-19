@@ -65,7 +65,7 @@ Turagusavye gukora iyo setup ahantu h’itekane kandi h’ibanga. Ntibikwiye kug
 
 
 
-- Gukuraho porogarama ya BlueWallet hano: [Iduka ry'iporogarama] (id.
+- Gukuraho porogarama ya BlueWallet hano: [Iduka ry'iporogarama](id.
 
 
 ![image3](assets/en/03.webp)

@@ -1,0 +1,9 @@
+question: Zgodnie z teorią rozproszonej wiedzy Hayeka, dlaczego gospodarki centralnie planowane nie osiągają efektywnej alokacji zasobów w porównaniu z systemami wolnorynkowymi?
+answer: Centralni planiści nie mogą uzyskać dostępu do fragmentarycznej, zlokalizowanej wiedzy, którą posiadają tylko poszczególni uczestnicy rynku na temat ich konkretnych potrzeb, preferencji i okoliczności
+wrong_answers:
+  - Centralnym planistom brakuje mocy obliczeniowej i zaawansowanych algorytmów niezbędnych do przetwarzania wszystkich danych ekonomicznych wymaganych do optymalnej alokacji zasobów
+  - Centralni planiści są z natury skorumpowani i kierują się własnym interesem, przedkładając swój osobisty zysk nad dobro społeczeństwa jako całości
+  - Centralni planiści są ideologicznie stronniczy i odmawiają wdrażania rozwiązań rynkowych, nawet jeśli uznają ich wyższą efektywność
+explanation: |
+  Fundamentalne spostrzeżenie Hayeka dotyczące wiedzy rozproszonej ujawnia, że informacje o indywidualnych preferencjach, lokalnych warunkach i subiektywnych wycenach istnieją tylko w formie fragmentarycznej w milionach jednostek. Wiedza ta nie może być centralnie gromadzona lub agregowana, ponieważ jest milcząca, stale się zmienia i często jest sprzeczna. Wolne rynki rozwiązują ten problem poprzez mechanizm cenowy, który spontanicznie koordynuje te rozproszone informacje poprzez dobrowolną wymianę.
+  Inne opcje błędnie koncentrują się na ograniczeniach technicznych, moralnych lub ideologicznych uprzedzeniach, a nie na podstawowym problemie epistemologicznym, polegającym na tym, że żadna centralna władza nie może posiadać rozproszonej wiedzy niezbędnej do skutecznej koordynacji.

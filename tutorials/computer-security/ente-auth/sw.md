@@ -350,7 +350,7 @@ Ente Auth inatoa vipengele kadhaa vya vitendo:
 
 
 
-**Aikoni za otomatiki**: Kila ingizo linaweza kuonyeshwa kwa nembo ya huduma, kutokana na kuunganishwa kwa kifurushi cha aikoni za [Ikoni Rahisi] (https://simpleicons.org/).
+**Aikoni za otomatiki**: Kila ingizo linaweza kuonyeshwa kwa nembo ya huduma, kutokana na kuunganishwa kwa kifurushi cha aikoni za [Ikoni Rahisi](https://simpleicons.org/).
 
 
 

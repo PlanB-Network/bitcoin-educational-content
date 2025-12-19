@@ -36,7 +36,7 @@ Abanyakenya rero barashobora kugura satoshis mu ntambwe zitatu zoroshe, ata KYC 
 
 
 
-Kugira ngo ukoreshe umuti, genda ku rubuga [Bitika] (https://bitika.xyz/). Yaba kuri mudasobwa yawe canke kuri telefone yawe, interface iguma ari imwe.
+Kugira ngo ukoreshe umuti, genda ku rubuga [Bitika](https://bitika.xyz/). Yaba kuri mudasobwa yawe canke kuri telefone yawe, interface iguma ari imwe.
 
 
 

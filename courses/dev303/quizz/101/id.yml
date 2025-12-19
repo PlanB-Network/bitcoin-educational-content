@@ -1,0 +1,8 @@
+question: Karakteristik spesifik apa dari arsitektur berbasis peristiwa LDK yang memungkinkan aplikasi mempertahankan pemisahan yang bersih antara logika protokol Lightning dan respons khusus aplikasi?
+answer: Pemberitahuan asinkron disediakan untuk semua operasi dan perubahan status yang signifikan, sehingga memungkinkan penangan peristiwa khusus diimplementasikan secara mandiri
+wrong_answers:
+  - Panggilan balik sinkron dipicu secara langsung di dalam manajer saluran, yang membutuhkan respons segera untuk menjaga kepatuhan protokol
+  - Penangan peristiwa dibuat secara otomatis berdasarkan konfigurasi aplikasi, sehingga tidak perlu logika implementasi khusus
+  - Semua peristiwa diantrekan dalam buffer pusat dan diproses secara berurutan untuk memastikan perilaku aplikasi yang deterministik
+explanation: |
+  Sistem peristiwa LDK menyediakan pemberitahuan asinkron untuk semua operasi Lightning termasuk koneksi peer, pembayaran, dan perubahan saluran. Hal ini memungkinkan pengembang untuk mengimplementasikan penangan peristiwa khusus yang merespons dengan tepat sambil mempertahankan pemisahan yang bersih antara fungsionalitas inti LDK dan logika aplikasi. Opsi lain tidak tepat karena LDK tidak menggunakan callback sinkron yang memblokir operasi protokol, tidak menggunakan penangan generate otomatis, dan tidak menerapkan pemrosesan peristiwa secara berurutan.

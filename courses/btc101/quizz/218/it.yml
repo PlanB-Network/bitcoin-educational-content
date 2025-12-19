@@ -1,9 +1,9 @@
-question: Quando è stata approvata e implementata per la prima volta Lightning Network?
-answer: 2017
+question: Perché un canale Lightning può essere inutilizzabile in una direzione?
+answer: Liquidità insufficiente
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - Blocco troppo recente
+  - HTLC scaduto
+  - Nodo non sincronizzato
 explanation: |
-  Lightning Network è stata approvata e implementata per la prima volta nel 2017.
-reviewed: vero
+  Anche con una grande capacità, un canale consente un pagamento solo se sul lato corretto è presente liquidità sufficiente.
+reviewed: false

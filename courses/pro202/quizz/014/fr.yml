@@ -1,0 +1,8 @@
+question: Quel est le principal avantage de l'algorithme de double addition pour la multiplication scalaire dans la cryptographie à courbe elliptique ?
+answer: Il réduit la complexité des calculs de O(n) à O(log n) opérations
+wrong_answers:
+  - Elle élimine le besoin d'arithmétique modulaire dans les corps finis
+  - Il convertit le problème du logarithme discret en une solution en temps polynomial
+  - Il permet de calculer directement les clés privées à partir des clés publiques
+explanation: |
+  L'algorithme de double ajout améliore considérablement l'efficacité en réduisant la complexité de calcul de O(n) additions linéaires à O(log n) opérations. Il s'agit de balayer la représentation binaire du scalaire, de doubler le point à chaque étape et d'ajouter le point générateur uniquement lorsque le bit est à 1. Les autres options sont incorrectes : l'arithmétique modulaire est toujours nécessaire dans les corps finis, le problème du logarithme discret reste impossible à calculer (ce qui est essentiel pour la sécurité) et les clés privées ne peuvent pas être calculées à partir des clés publiques, quel que soit l'algorithme de multiplication utilisé.

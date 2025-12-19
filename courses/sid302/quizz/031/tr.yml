@@ -1,0 +1,8 @@
+question: Lightning Send denizaltı takasında, takas sağlayıcısının Lightning faturasını ödedikten sonra kilitli Liquid fonlarını talep etmesini sağlayan belirli kriptografik unsur hangisidir?
+answer: Lightning ödemesinden gelen ödeme ön görüntüsü, emanet edilen Liquid fonlarının kilidini açmak için kriptografik anahtar görevi görür
+wrong_answers:
+  - İlk Liquid kilitleme işlemi sırasında oluşturulan hash zaman kilidi sözleşme imzası erişim sağlar
+  - WebSocket bağlantı meta verileri, sağlayıcıya fon serbest bırakma yetkisi veren kilit açma anahtarını içerir
+  - "Takas sağlayıcısının özel anahtarı, Lightning ödeme onayı alındığında fonların kilidini otomatik olarak açar"
+explanation: |
+  Ödeme ön görüntüsü, Lightning ödemesinin başarıyla tamamlandığını kanıtlayan kriptografik makbuzdur. Denizaltı takaslarında, bu ön görüntü emanet edilen Liquid fonları için kilit açma anahtarı görevi görür ve atomikliği sağlar - takas sağlayıcısı Liquid fonlarını yalnızca Lightning faturasını gerçekten ödediyse talep edebilir. Diğer seçenekler ya ihtiyaç duyulan özel ödeme kanıtını sağlamayan genel kriptografik unsurları ya da atomik takasın güvene dayalı olmayan doğasını tehlikeye atacak yanlış mekanizmaları tanımlamaktadır.

@@ -70,7 +70,7 @@ Aby zainstalować Git, przejdź do [oficjalnej strony projektu](https://git-scm.
 ![BACCA](assets/fr/01.webp)
 
 
-Postępuj w ten sam sposób, aby zainstalować Rust z [oficjalnej strony internetowej] (https://www.Rust-lang.org/tools/install).
+Postępuj w ten sam sposób, aby zainstalować Rust z [oficjalnej strony internetowej](https://www.Rust-lang.org/tools/install).
 
 
 ![BACCA](assets/fr/02.webp)

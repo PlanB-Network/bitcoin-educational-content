@@ -21,7 +21,7 @@ Det er viktig å merke seg at ikke alle Lightning-noder er tilgjengelige på Amb
 
 
 
-I likhet med [Mempool Space] (https://Mempool.space), som gir nyttig informasjon om Bitcoin-protokollens hovedkjede, har [Amboss] (https://amboss.space) siden 2022 gitt informasjon om :
+I likhet med [Mempool Space](https://Mempool.space), som gir nyttig informasjon om Bitcoin-protokollens hovedkjede, har [Amboss](https://amboss.space) siden 2022 gitt informasjon om :
 
 
 

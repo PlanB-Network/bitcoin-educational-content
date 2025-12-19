@@ -1,0 +1,8 @@
+question: In uno swap sottomarino Lightning Send, quale elemento crittografico specifico consente al fornitore dello swap di rivendicare i fondi Liquid bloccati dopo aver pagato la fattura Lightning?
+answer: La preimmagine del pagamento Lightning serve come chiave crittografica per sbloccare i fondi Liquid depositati
+wrong_answers:
+  - La firma del contratto hash time-lock generata durante la transazione iniziale Liquid lock-up fornisce l'accesso
+  - I metadati della connessione WebSocket contengono la chiave di sblocco che autorizza il rilascio del fondo al provider
+  - "La chiave privata del fornitore di swap sblocca automaticamente i fondi una volta ricevuta la conferma del pagamento Lightning"
+explanation: |
+  La preimmagine di pagamento è la ricevuta crittografica che dimostra che un pagamento Lightning è stato completato con successo. Negli swap sottomarini, questa preimmagine funge da chiave di sblocco per i fondi Liquid depositati, garantendo l'atomicità: il fornitore di swap può rivendicare i fondi Liquid solo se ha effettivamente pagato la fattura Lightning. Le altre opzioni descrivono elementi crittografici generici che non forniscono la prova di pagamento specifica necessaria, oppure meccanismi errati che comprometterebbero la natura priva di fiducia dello swap atomico.

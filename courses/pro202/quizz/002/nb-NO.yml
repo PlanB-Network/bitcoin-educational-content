@@ -1,0 +1,8 @@
+question: Hva er den multiplikative inversen til element n i et primtallfelt F(p), ifølge Fermats lille teorem?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Fermats lille teorem sier at n^(p-1) ≡ 1 (mod p) for ethvert element n som ikke er null i et primtallfelt. For å finne den multiplikative inversen trenger vi en verdi som multiplisert med n gir 1. Siden n^(p-1) ≡ 1, kan vi omskrive dette til n - n^(p-2) ≡ 1, noe som beviser at n^(p-2) er den multiplikative inversen av n. De andre alternativene er feil: n^(p-1) er lik 1 ifølge Fermats setning, mens n^(p+1) og n^(p+2) vil gi verdier som tilsvarer henholdsvis n^2 og n^3 når de reduseres modulo p.

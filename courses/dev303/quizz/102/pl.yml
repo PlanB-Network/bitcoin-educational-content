@@ -1,0 +1,8 @@
+question: Jaka jest podstawowa różnica między podejściem LDK do integracji blockchain a tradycyjnymi węzłami Lightning w odniesieniu do środowisk o ograniczonych zasobach?
+answer: LDK zapewnia abstrakcję opartą na filtrowaniu, która umożliwia aplikacjom wdrażanie monitorowania za pośrednictwem lekkich źródeł danych, takich jak serwery Electrum
+wrong_answers:
+  - LDK wymaga pełnej synchronizacji łańcucha bloków, ale optymalizuje pamięć masową dzięki skompresowanym nagłówkom bloków i mechanizmom przycinania transakcji
+  - LDK implementuje niestandardowy protokół blockchain, który zmniejsza przepustowość, utrzymując w pamięci tylko transakcje istotne dla kanału
+  - LDK wykorzystuje hybrydowy mechanizm konsensusu, który weryfikuje tylko transakcje związane z Lightning, ignorując standardowe operacje Bitcoin
+explanation: |
+  Integracja blockchain LDK została zaprojektowana z dwoma trybami: trybem pełnego bloku dla środowisk bogatych w zasoby i trybem opartym na filtrowaniu dla środowisk ograniczonych. Podejście oparte na filtrowaniu pozwala LDK komunikować swoje potrzeby w zakresie monitorowania za pośrednictwem abstrakcyjnych interfejsów, żądając nadzoru określonych transakcji, UTXO lub wzorców skryptów. Aplikacje mogą następnie wdrożyć to monitorowanie przy użyciu lekkich źródeł, takich jak serwery Electrum lub eksploratory bloków, znacznie zmniejszając wymagania dotyczące przepustowości i pamięci masowej w porównaniu do pełnej synchronizacji łańcucha bloków. Ta abstrakcja umożliwia portfelom mobilnym i aplikacjom internetowym utrzymanie funkcjonalności Lightning bez narzutu zasobów, którego wymagają tradycyjne węzły Lightning.

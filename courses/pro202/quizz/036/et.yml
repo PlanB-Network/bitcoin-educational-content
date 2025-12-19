@@ -1,0 +1,8 @@
+question: Mis juhtub P2SH tehingu kulutingimuste privaatsusega aja jooksul?
+answer: Kulutustingimused jäävad kuni esimese kulutamiseni peidetud, seejärel muutuvad need püsivalt nähtavaks on-chain
+wrong_answers:
+  - Kulutustingimused jäävad püsivalt privaatseks ka pärast mitmete tehingute tegemist
+  - Kulutustingimused on kohe nähtavad, kui P2SH aadress luuakse esmakordselt
+  - Kulutustingimused muutuvad kulutamise ajal ajutiselt nähtavaks, kuid pärast seda on need jälle varjatud
+explanation: |
+  P2SH tagab privaatsuse, varjates tegelikud kulutustingimused (lunastusskript) scriptPubKey's oleva hash'i taha. Esialgu on nähtav ainult 20 baidi suurune hash, mis varjab, kas tegemist on multisig, timelock või muude keeruliste tingimustega. Kui aga P2SH väljundit esimest korda kulutatakse, tuleb on-chain valideerimiseks avalikustada täielik lunastusskript, muutes kulutustingimused kõigile võrguosalistele püsivalt nähtavaks. See ühekordne avalikustamine on kompromiss, mille P2SH teeb privaatsuse ja funktsionaalsuse vahel.

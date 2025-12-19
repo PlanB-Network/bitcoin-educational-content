@@ -1,5 +1,5 @@
 ---
-name: زنجبیل Wallet
+name: Ginger Wallet
 description: نرم‌افزار Bitcoin wallet متن‌باز و خودنگهداری، fork از Wasabi Wallet، با ادغام Coinjoins
 ---
 ![cover](assets/cover.webp)

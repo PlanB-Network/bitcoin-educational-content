@@ -1,0 +1,8 @@
+question: Milline mobiilirakenduste ökosüsteemide kriitiline piirang näitas algne Breez rakendus, mis mõjutas SDK arhitektuuri arendamist?
+answer: Mobiilirakendused ei saa omavahel hõlpsasti suhelda, mis sunnib arendajaid ehitama kõik Lightningi funktsioonid pigem üksikutesse rakendustesse kui jagama Lightningi infrastruktuuri
+wrong_answers:
+  - Mobiilseadmetel puudub piisav arvutusvõimsus, et käivitada Lightning-sõlmi usaldusväärselt, mistõttu on vaja pilvepõhist infrastruktuuri keeruliste marsruutimisarvutustega tegelemiseks
+  - Mobiilsed operatsioonisüsteemid piiravad taustaprotsesse liiga rangelt, takistades välkkiirussõlmede püsivate ühenduste säilitamist võrguga
+  - Mobiilirakenduste kauplused keelavad mittehoolduslike finantsrakenduste kasutamise, sundides arendajaid rakendama hoolduselahendusi, et saavutada rakenduste poe heakskiitmine
+explanation: |
+  Esialgne Breez rakendus näitas, et mobiilne ökosüsteem ei lihtsusta rakendustevahelist suhtlust, mis takistab spetsialiseeritud rakendustel kasutada jagatud Lightning-infrastruktuuri. See arhitektuuriline piirang sundis kogu Lightning-funktsionaalsust monoliitsetesse rakendustesse. Teised võimalused on valed: mobiilseadmed võivad käivitada Lightning-sõlmede (nagu Breez tõestas), taustapiirangud on korraliku arhitektuuri korral hallatavad ja rakenduspoed lubavad üldiselt mittekasutatavaid finantsrakendusi.

@@ -348,7 +348,7 @@ Kroky konfigurace:
 
 
 
-**Poznámka:** Abyste mohli tyto identifikátory generate používat, musíte mít firemní účet PayPal. Můžete je získat prostřednictvím portálu [pro vývojáře] (https://developer.paypal.com)
+**Poznámka:** Abyste mohli tyto identifikátory generate používat, musíte mít firemní účet PayPal. Můžete je získat prostřednictvím portálu [pro vývojáře](https://developer.paypal.com)
 
 
 

@@ -132,7 +132,7 @@ Daha sonra alıcının tam ödeme kodunu yapıştırabilir veya QR kodunu taraya
 
 
 
-Yalnızca PayNym ID'sine sahipseniz, ödeme koduyla ilişkili QR kodunu bulmak için [Paynym.rs] (https://paynym.rs/) adresine gidin.
+Yalnızca PayNym ID'sine sahipseniz, ödeme koduyla ilişkili QR kodunu bulmak için [Paynym.rs](https://paynym.rs/) adresine gidin.
 
 
 

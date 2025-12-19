@@ -1,8 +1,0 @@
-question: Каква е основната цел на Lightning Network?
-answer: За улесняване на микротранзакциите.
-wrong_answers:
-  - Увеличаване на стойността на Bitcoin.
-  - Замяна на протокола Bitcoin.
-  - Създаване на нова криптовалута.
-explanation: >-
-reviewed: true

@@ -69,7 +69,7 @@ Android'de [APK ile yüklemek](https://github.com/session-foundation/session-and
 
 
 
-Bu eğitimde mobil versiyona odaklanacağız, ancak [bilgisayar versiyonlarının da mevcut olduğunu] (https://getsession.org/download) (MacOS, Linux ve Windows) lütfen unutmayın. Daha sonra, bir hesabı birden fazla cihaz arasında nasıl senkronize edeceğimize bakacağız.
+Bu eğitimde mobil versiyona odaklanacağız, ancak [bilgisayar versiyonlarının da mevcut olduğunu](https://getsession.org/download) (MacOS, Linux ve Windows) lütfen unutmayın. Daha sonra, bir hesabı birden fazla cihaz arasında nasıl senkronize edeceğimize bakacağız.
 
 
 
@@ -259,7 +259,7 @@ Kişi isteğinizi kabul eder etmez, kullanıcı adının göründüğünü göre
 
 
 
-Hesabınızı bilgisayarınızda senkronize etmek için yazılımı yüklemeniz gerekir. [Resmi web sitesinden indirin] (https://getsession.org/download). Yüklemeden önce orijinalliğini ve bütünlüğünü kontrol etmenizi tavsiye ederim.
+Hesabınızı bilgisayarınızda senkronize etmek için yazılımı yüklemeniz gerekir. [Resmi web sitesinden indirin](https://getsession.org/download). Yüklemeden önce orijinalliğini ve bütünlüğünü kontrol etmenizi tavsiye ederim.
 
 
 

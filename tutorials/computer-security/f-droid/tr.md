@@ -27,7 +27,7 @@ Ne yazık ki, F-Droid iOS'ta kullanılabilen bir uygulama değildir ve Android s
 
 
 
-F-droid'i [resmi web sitesinden] (https://f-droid.org/) APK formatında indirebilir ve Android telefonunuza manuel olarak yükleyebilirsiniz.
+F-droid'i [resmi web sitesinden](https://f-droid.org/) APK formatında indirebilir ve Android telefonunuza manuel olarak yükleyebilirsiniz.
 
 
 
@@ -163,7 +163,7 @@ F-Droid, kullanıcı gizliliğine öncelik veren uygulamalara katkıları teşvi
 Uygulamanız açık kaynak kodlu olmalı, örneğin kaynak kodu GitHub veya GitLab'da herkese açık olmalıdır.
 
 
-Daha sonra, F-Droid tarafından önerilen [metadata template] (https://f-droid.org/docs/Build_Metadata_Reference/)'i izleyerek, kullanım için gerekli tüm bilgileri ve izinleri içeren, uygulamanızı açıklayan bir YAML dosyası (metadata) hazırlamanız gerekir.
+Daha sonra, F-Droid tarafından önerilen [metadata template](https://f-droid.org/docs/Build_Metadata_Reference/)'i izleyerek, kullanım için gerekli tüm bilgileri ve izinleri içeren, uygulamanızı açıklayan bir YAML dosyası (metadata) hazırlamanız gerekir.
 
 
 

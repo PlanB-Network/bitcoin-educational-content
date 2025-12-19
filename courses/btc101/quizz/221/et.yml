@@ -1,9 +1,9 @@
-question: Millised on sageli tehingutasud Lightning Network'is väiksemad kui?
-answer: 0,5%
+question: Millist eelist pakub Ark Lightningi ees maksete vastuvõtmisel?
+answer: Sisenevat likviidsust ei ole vaja
 wrong_answers:
-  - 1%
-  - 2%
-  - 3%
-explanation: >-
-  Lightning Network'i tehingutasud on äärmiselt madalad, sageli alla 0,5%.
+  - Makse kohene lõplikkus
+  - Tehingutasude puudumine
+  - Rahakotti pole vaja
+explanation: |
+  Ark võimaldab makseid vastu võtta ilma eelneva siseneva likviidsuseta.
 reviewed: false

@@ -324,7 +324,7 @@ Berikut adalah beberapa strategi yang memungkinkan untuk mengelola UTXO valuta a
 
 
 
-- Beli kartu hadiah prabayar atau kartu Visa:** Platform seperti [Bitrefill] (https://www.bitrefill.com/) memungkinkan Anda untuk menukar bitcoin Anda dengan kartu hadiah atau kartu Visa yang dapat diisi ulang yang dapat digunakan di toko-toko. Ini bisa menjadi cara yang sederhana dan bijaksana untuk membelanjakan UTXO beracun Anda.
+- Beli kartu hadiah prabayar atau kartu Visa:** Platform seperti [Bitrefill](https://www.bitrefill.com/) memungkinkan Anda untuk menukar bitcoin Anda dengan kartu hadiah atau kartu Visa yang dapat diisi ulang yang dapat digunakan di toko-toko. Ini bisa menjadi cara yang sederhana dan bijaksana untuk membelanjakan UTXO beracun Anda.
 
 
 

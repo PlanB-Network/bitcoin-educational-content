@@ -1,0 +1,8 @@
+question: Ni faida gani kuu ya usanifu inayowezesha LDK kufanya kazi katika mazingira ya kivinjari cha WebAssembly ambapo nodi za kawaida za Umeme haziwezi kufanya kazi?
+answer: Falsafa ya muundo wa mfumo usio na simu ya LDK inaruhusu kufanya kazi bila ufikiaji wa moja kwa moja kwa mifumo ya faili, soketi za mtandao, au vyanzo vya entropy
+wrong_answers:
+  - "Muundo wa maktaba ya Rust ya moduli ya LDK hutoa kiotomatiki utangamano wa WebAssembly kupitia vipengele asilia vya mkusanyiko wa Rust-hadi-WASM"
+  - "Usanifu unaoendeshwa na matukio wa LDK huondoa hitaji la miunganisho endelevu na unaweza kufanya kazi kikamilifu kupitia mizunguko ya majibu ya ombi la HTTP"
+  - "Ujumuishaji mwepesi wa blockchain wa LDK hupunguza matumizi ya kumbukumbu vya kutosha ili kukidhi vikwazo na mapungufu ya rasilimali ya WebAssembly"
+explanation: |
+  Muundo wa LDK usio na simu za mfumo ndio hasa unaowezesha utangamano wa kivinjari. Nodi za Umeme wa Jadi hutegemea simu za moja kwa moja za mfumo kwa ajili ya mitandao, I/O ya faili, na nasibu, ambazo mazingira ya WebAssembly yanakataza kwa sababu za usalama. LDK hufupisha utegemezi huu, na kuruhusu wasanidi programu kutoa utekelezaji unaolingana na kivinjari kwa kutumia WebSockets kwa ajili ya mitandao na API za kivinjari kwa ajili ya kuendelea na nasibu, huku wakidumisha utiifu kamili wa itifaki ya Umeme.

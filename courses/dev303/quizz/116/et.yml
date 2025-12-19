@@ -1,0 +1,8 @@
+question: Milline on Breez SDK koostalitlusvõime funktsiooni peamine eelis, mis võimaldab mitmel rakendusel ühendada sama Lightning-sõlme, kasutades sama seed fraasi?
+answer: Kasutajad saavad säilitada ühe Lightning'i tasakaalu erinevate spetsialiseeritud rakenduste vahel, vältides samal ajal mitme Lightning'i sõlme haldamise keerukust
+wrong_answers:
+  - Rakendused saavad jagada privaatseid võtmeid otse üksteisega, võimaldades sujuvat rakenduste vahelist tehingute allkirjastamist ilma kasutaja sekkumiseta
+  - Mitmed rakendused saavad ühendada oma likviidsust, et luua suuremaid välkekanaleid, mis suurendavad võrgu marsruutimisvõimsust
+  - Arendajad saavad juurdepääsu jagatud Lightningi infrastruktuurile, ilma et nad rakendaksid oma sõlmede haldamist, vähendades arenduskulusid ja keerukust
+explanation: |
+  SDK koostalitlusvõime võimaldab kasutajatel pääseda ligi samale Lightning-sõlmele ja rahalistele vahenditele mitmest eri rakendusest (näiteks üldisest wallet ja podcasting-rakendusest) ilma eraldi saldode või sõlmede haldamiseta. Valed vastused moonutavad arhitektuuri: privaatvõtmed ei lahku kunagi kasutaja seadmest ja neid ei jagata rakenduste vahel, likviidsuse koondamine ei ole süsteemi tööpõhimõte ning kuigi arendajad saavad kasu lihtsustatud infrastruktuurist, on kirjeldatud peamine eelis ühtne kasutajakogemus kõikides rakendustes.

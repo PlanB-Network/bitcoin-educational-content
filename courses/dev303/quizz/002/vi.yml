@@ -1,0 +1,8 @@
+question: Điều gì xảy ra khi bạn khai báo một biến trong Rust bằng cách sử dụng 'let x = 5' mà không có bất kỳ từ khóa bổ sung nào?
+answer: Biến này trở nên bất biến và không thể thay đổi sau khi được gán giá trị.
+wrong_answers:
+  - Biến này trở nên có thể thay đổi và có thể được sửa đổi bất cứ lúc nào.
+  - Biến này chỉ được tối ưu hóa tự động cho các bản dựng phát hành.
+  - Biến này yêu cầu chú thích kiểu dữ liệu rõ ràng để biên dịch thành công.
+explanation: |
+  Trong Rust, các biến mặc định là bất biến khi được khai báo bằng từ khóa 'let'. Điều này có nghĩa là một khi bạn đã gán giá trị cho một biến, ví dụ như 'let x = 5', bạn không thể thay đổi giá trị đó sau này trong chương trình. Nếu bạn cố gắng sửa đổi nó, trình biên dịch sẽ báo lỗi. Tính bất biến mặc định này là một tính năng an toàn quan trọng giúp ngăn ngừa nhiều lỗi lập trình phổ biến do thay đổi trạng thái không mong muốn gây ra. Để làm cho một biến có thể thay đổi được, bạn phải sử dụng từ khóa 'mut' một cách rõ ràng, ví dụ như 'let mut x = 5'.

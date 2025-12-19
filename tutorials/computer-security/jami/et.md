@@ -82,7 +82,7 @@ Rakendus on saadaval otse App Store'ist või Play Store'ist. Lihtsalt otsige sed
 
 
 
-Jami installimiseks oma seadmesse peate kõigepealt külastama Jami ametlikku veebisaiti. Vaikimisi kuvatakse saidil teie seadme operatsioonisüsteemile vastav tarkvara ja selle käivitamiseks saate klõpsata otse allalaadimisnupule. Te võite aga ka Windowsi käivitatava faili otse [allalaadimisleheküljelt] (https://jami.net/download-jami-windows/) alla laadida.
+Jami installimiseks oma seadmesse peate kõigepealt külastama Jami ametlikku veebisaiti. Vaikimisi kuvatakse saidil teie seadme operatsioonisüsteemile vastav tarkvara ja selle käivitamiseks saate klõpsata otse allalaadimisnupule. Te võite aga ka Windowsi käivitatava faili otse [allalaadimisleheküljelt](https://jami.net/download-jami-windows/) alla laadida.
 
 
 

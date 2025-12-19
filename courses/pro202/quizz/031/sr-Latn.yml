@@ -1,0 +1,8 @@
+question: Šta se dešava sa poljima ScriptSig svih ulaza tokom procesa konstrukcije sighash za verifikaciju ECDSA potpisa u legacy formatu?
+answer: Sva polja ScriptSig su ispražnjena, zatim se trenutni ulazni ScriptSig zamenjuje sa odgovarajućim ScriptPubKey
+wrong_answers:
+  - Sva polja ScriptSig ostaju nepromenjena i uključena su u svom originalnom obliku u izračunavanje sighash-a.
+  - "Samo se ScriptSig trenutnog ulaza zadržava dok se sva ostala ScriptSig polja ulaza uklanjaju iz transakcije"
+  - Sva ScriptSig polja su zamenjena odgovarajućim ScriptPubKey vrednostima iz referenciranih izlaza.
+explanation: |
+  Tokom konstrukcije sighash-a za legacy transakcije, proces specifično prazni sva ScriptSig polja prvo, zatim zamenjuje samo trenutni ulaz koji se validira sa njegovim odgovarajućim ScriptPubKey iz izlaza koji troši. Ovo osigurava da potpis obavezuje uslove trošenja bez stvaranja kružnih zavisnosti gde bi potpisi morali da potpisuju sami sebe. Ostale opcije su netačne jer ili ostavljaju potpise na mestu (stvarajući logičke nemogućnosti) ili modifikuju sve ulaze jednako (što ne bi pravilno izolovalo kontekst validacije trenutnog ulaza).

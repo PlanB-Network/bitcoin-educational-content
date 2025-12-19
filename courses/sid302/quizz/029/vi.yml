@@ -1,0 +1,8 @@
+question: Các nhà đầu tư phải chấp nhận sự đánh đổi cơ bản nào khi tham gia vào hệ sinh thái tài sản Blockstream AMP so với các giao dịch Liquid Network tiêu chuẩn?
+answer: Người dùng có thể xem đầy đủ thông tin về tài sản nắm giữ và lịch sử giao dịch của họ cho nhà phát hành tài sản, đồng thời vẫn đảm bảo quyền riêng tư đối với những người dùng khác.
+wrong_answers:
+  - Phí giao dịch cao hơn do chi phí tính toán bổ sung cần thiết cho các cơ chế ủy quyền đồng ký.
+  - Tốc độ giao dịch bị giảm do tất cả các giao dịch chuyển khoản phải được xác thực thông qua các máy chủ tuân thủ tập trung trước khi được xác nhận.
+  - Khả năng chuyển nhượng tài sản bị hạn chế do token AMP chỉ có thể được gửi đến các ví đã được phê duyệt trước trong cùng một khu vực pháp lý.
+explanation: |
+  Câu trả lời đúng chỉ ra sự đánh đổi cốt lõi về quyền riêng tư của AMP: trong khi Confidential Transactions duy trì quyền riêng tư giữa người dùng với nhau, tài sản AMP cho phép các nhà phát hành có được khả năng hiển thị đầy đủ theo chuẩn unblinded để tuân thủ quy định. Các câu trả lời sai mô tả các hạn chế về mặt vận hành (phí, tốc độ, khả năng chuyển nhượng) thay vì sự thỏa hiệp cơ bản về tính minh bạch, điều làm nên sự khác biệt giữa AMP và mô hình bảo mật hoàn toàn của Liquid tiêu chuẩn.

@@ -498,9 +498,9 @@ Selv om applikasjonen krever en innledende investering i infrastruktur og lærin
 
 
 
-- [Specter Desktop offisielle nettsted] (https://specter.solutions/desktop/)
-- [GitHub-kildekode] (https://github.com/cryptoadvance/specter-desktop)
-- [Fullstendig dokumentasjon] (https://docs.specter.solutions/)
+- [Specter Desktop offisielle nettsted](https://specter.solutions/desktop/)
+- [GitHub-kildekode](https://github.com/cryptoadvance/specter-desktop)
+- [Fullstendig dokumentasjon](https://docs.specter.solutions/)
 
 
 
@@ -509,6 +509,6 @@ Selv om applikasjonen krever en innledende investering i infrastruktur og lærin
 
 
 
-- [Telegram Specter Community Group] (https://t.me/spectersupport)
-- [Reddit diskusjonsforum] (https://reddit.com/r/specterdesktop/)
-- [GitHub-feilrapporter] (https://github.com/cryptoadvance/specter-desktop/issues)
+- [Telegram Specter Community Group](https://t.me/spectersupport)
+- [Reddit diskusjonsforum](https://reddit.com/r/specterdesktop/)
+- [GitHub-feilrapporter](https://github.com/cryptoadvance/specter-desktop/issues)

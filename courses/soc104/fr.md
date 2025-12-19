@@ -3,8 +3,8 @@ name: Quelle est votre tendance politique ?
 goal: Comprendre la complexité du spectre politique moderne afin d’identifier sa propre tendance et situer les grandes familles idéologiques au-delà du clivage gauche-droite.
 objectives:
   - Comprendre que la typologie politique est plus nuancée qu'un simple axe gauche/droite
-  - Identifier les deux dimensions principales qui structurent le spectre politique; les thèmes économiques et les thèmes sociétaux
-  - Caractériser les quatre grandes familles politiques, Libertariens, Socialistes, Conservateurs, Centristes
+  - Identifier les deux dimensions principales qui structurent le spectre politique
+  - Caractériser les quatre grandes familles politiques
   - Explorer le positionnement des bitcoiners dans le spectre politique
 
 ---

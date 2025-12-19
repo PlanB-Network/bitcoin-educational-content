@@ -1,0 +1,8 @@
+question: Welke omgevingsvariabele kan ingesteld worden om een volledige stack trace weer te geven wanneer er een panic optreedt in Rust?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - ROEST_STACKTRACE
+  - ROEST_DEBUG_TRACE
+  - ROEST_PANIEK_SPOOR
+explanation: |
+  RUST_BACKTRACE is de juiste omgevingsvariabele die extra debug-informatie geeft door de volledige aanroepstack te tonen die tot een panic leidde. Dit helpt ontwikkelaars precies te achterhalen welke opeenvolging van functieaanroepen tot de fout heeft geleid. De andere opties (RUST_STACKTRACE, RUST_DEBUG_TRACE en RUST_PANIC_TRACE) zijn geen geldige Rust omgevingsvariabelen en zullen geen debuguitvoer produceren wanneer een panic optreedt.

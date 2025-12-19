@@ -149,7 +149,7 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-- Android Flash Aracı**: Pixel cihazınızı web tarayıcınızdan kolayca stok Android'e geri yüklemek için resmi Google aracını [flash.android.com] (https://flash.android.com) kullanın (Chrome/Edge gereklidir)
+- Android Flash Aracı**: Pixel cihazınızı web tarayıcınızdan kolayca stok Android'e geri yüklemek için resmi Google aracını [flash.android.com](https://flash.android.com) kullanın (Chrome/Edge gereklidir)
 - Alternatif**: Fabrika görüntülerini manuel olarak [developers.google.com/android/images](https://developers.google.com/android/images) adresinden
 
 
@@ -176,7 +176,7 @@ Resmi istatistiklere göre, en çok kullanılan modeller arasında farklı fiyat
 
 
 
-**ADB ve Fastboot araçları:** Android SDK Platform Araçlarını yüklemek için [resmi LineageOS kılavuzunu] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) izleyin. Kurulumu `adb version` ve `fastboot --version` ile doğrulayın.
+**ADB ve Fastboot araçları:** Android SDK Platform Araçlarını yüklemek için [resmi LineageOS kılavuzunu](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) izleyin. Kurulumu `adb version` ve `fastboot --version` ile doğrulayın.
 
 
 

@@ -4137,7 +4137,7 @@ Odwiedź oficjalną stronę [Sparrow wallet w sekcji "_Download_"](https://sparr
 
 
 
-Możesz również przejść [do repozytorium GitHub projektu] (https://github.com/sparrowwallet/Sparrow/releases).
+Możesz również przejść [do repozytorium GitHub projektu](https://github.com/sparrowwallet/Sparrow/releases).
 
 
 
@@ -6308,7 +6308,7 @@ Cel jest prosty: zapobiec incydentowi związanemu z konkretnym działaniem (taki
 
 
 
-- **Użyj wbudowanych kontenerów**: Firefox oferuje rozszerzenie [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), które pozwala otwierać oddzielne karty, każda z własnym loginem i plikami cookie. Możesz także automatycznie przypisać określone witryny do określonego kontenera, aby oddzielić je za każdym razem, gdy są otwierane.
+- **Użyj wbudowanych kontenerów**: Firefox oferuje rozszerzenie [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), które pozwala otwierać oddzielne karty, każda z własnym loginem i plikami cookie. Możesz także automatycznie przypisać określone witryny do określonego kontenera, aby oddzielić je za każdym razem, gdy są otwierane.
 
 
 

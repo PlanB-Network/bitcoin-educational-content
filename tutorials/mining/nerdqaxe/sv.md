@@ -12,7 +12,7 @@ description: Hur minerar man med NerdQaxe?
 
 
 
-Video från [YouTube-kanalen *BTC Sessions*] (https://www.youtube.com/@BTCSessions).
+Video från [YouTube-kanalen *BTC Sessions*](https://www.youtube.com/@BTCSessions).
 
 
 
@@ -24,7 +24,7 @@ Video från [YouTube-kanalen *BTC Sessions*] (https://www.youtube.com/@BTCSessio
 
 
 
-Video från [YouTube-kanalen *Vortex Bitcoin*] (https://www.youtube.com/@VortexBitcoin).
+Video från [YouTube-kanalen *Vortex Bitcoin*](https://www.youtube.com/@VortexBitcoin).
 
 
 
@@ -36,7 +36,7 @@ Video från [YouTube-kanalen *Vortex Bitcoin*] (https://www.youtube.com/@VortexB
 
 
 
-Video från [YouTube-kanalen *Vortex Bitcoin*] (https://www.youtube.com/@VortexBitcoin).
+Video från [YouTube-kanalen *Vortex Bitcoin*](https://www.youtube.com/@VortexBitcoin).
 
 
 

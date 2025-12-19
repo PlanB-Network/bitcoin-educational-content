@@ -31,7 +31,7 @@ Tudo o que é necessário para completar a instalação são os seguintes itens:
 
 
 - O equipamento habitual necessário para um SeedSigner clássico: um Raspberry Pi Zero, um ecrã Waveshare de 1,3", uma câmara compatível e um cartão microSD (encontrará mais detalhes no tutorial do SeedSigner abaixo);
-- O kit de extensão SeedSigner, disponível [na loja oficial Satochip] (https://satochip.io/product/seedsigner-extension-kit/), que permite ler e escrever no smartcard diretamente a partir do seu SeedSigner. Outra opção é usar um leitor de smartcard externo, que pode ser conectado por cabo a uma porta Micro-USB no Raspberry Pi. No entanto, eu mesmo não testei essa solução;
+- O kit de extensão SeedSigner, disponível [na loja oficial Satochip](https://satochip.io/product/seedsigner-extension-kit/), que permite ler e escrever no smartcard diretamente a partir do seu SeedSigner. Outra opção é usar um leitor de smartcard externo, que pode ser conectado por cabo a uma porta Micro-USB no Raspberry Pi. No entanto, eu mesmo não testei essa solução;
 - Um Seedkeeper ou, em alternativa, um smartcard em branco para instalar a aplicação Seedkeeper (o kit de extensão vendido pela Satochip já inclui um smartcard em branco).
 
 
@@ -64,7 +64,7 @@ Para utilizar o seu SeedSigner com um Seedkeeper, é necessário instalar um fir
 
 
 
-Se ainda não o tiver, descarregue o software [Balena Etcher] (https://etcher.balena.io/) e proceda da seguinte forma:
+Se ainda não o tiver, descarregue o software [Balena Etcher](https://etcher.balena.io/) e proceda da seguinte forma:
 
 
 
@@ -505,6 +505,6 @@ Se esta configuração o convenceu, não hesite em apoiar os projectos que a tor
 
 
 
-- Comprando o seu equipamento diretamente [no sítio Web da Satochip] (https://satochip.io/shop/);
-- Fazendo [um donativo para o projeto SeedSigner] (https://seedsigner.com/donate/);
+- Comprando o seu equipamento diretamente [no sítio Web da Satochip](https://satochip.io/shop/);
+- Fazendo [um donativo para o projeto SeedSigner](https://seedsigner.com/donate/);
 - Subscrevendo o [canal YouTube do Crypto Guide](https://www.youtube.com/@CryptoGuide/), gerido pela pessoa que mantém o repositório GitHub que aloja o firmware modificado.

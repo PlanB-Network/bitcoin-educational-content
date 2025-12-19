@@ -1,10 +1,9 @@
-question: Kada je Lightning mreža prvi put validirana i implementirana?
-answer: 2017.
+question: Zašto Lightning kanal može biti neupotrebljiv u jednom smeru?
+answer: Nedovoljna likvidnost
 wrong_answers:
-  - 2015.
-  - 2016.
-  - 2018.
+  - Previše nov blok
+  - Istekao HTLC
+  - Nesinhronizovan čvor
 explanation: |
-  Lightning mreža je prvi put validirana i implementirana
-  2017.
-reviewed: true
+  Čak i sa velikim kapacitetom, kanal omogućava plaćanje samo ako se dovoljno likvidnosti nalazi na pravoj strani.
+reviewed: false

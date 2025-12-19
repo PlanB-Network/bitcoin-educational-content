@@ -1,0 +1,8 @@
+question: Hva er den viktigste kryptografiske egenskapen som gjør det mulig for kompakte blokkfiltre (BIP158) å gi personvern for lette klienter og samtidig opprettholde perfekt nøyaktighet?
+answer: De kan gi falske positive, men aldri falske negative resultater når de matcher transaksjoner
+wrong_answers:
+  - De bruker nullkunnskapsbevis for å skjule hvilke adresser som blir forespurt fra noder
+  - "De krypterer alle filterdata ved hjelp av klientens offentlige nøkkel for å forhindre avlytting"
+  - De randomiserer rekkefølgen på transaksjonshashene for å skjule forbruksmønstre for observatører
+explanation: |
+  Kompakte blokkfiltre bruker probabilistiske datastrukturer som kan indikere en feilaktig match (falsk positiv), men som aldri vil gå glipp av en faktisk match (falsk negativ). Denne asymmetriske egenskapen er avgjørende: Falske positive resultater fører bare til unødvendige nedlastinger av blokker, mens falske negative resultater vil føre til at lommebøker går glipp av betalinger. Personvernfordelen kommer fra denne usikkerheten - observatører kan ikke skille mellom ekte treff og falske positiver, noe som tilslører hvilke transaksjoner som faktisk tilhører den spørrende wallet.

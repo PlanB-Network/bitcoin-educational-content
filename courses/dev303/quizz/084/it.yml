@@ -1,0 +1,8 @@
+question: Qual è il principale vantaggio architetturale dell'approccio stratificato di UniFFI nell'integrazione delle librerie Rust con linguaggi di destinazione come Swift o Kotlin?
+answer: Il livello di binding gestisce la traduzione dei tipi e la gestione della memoria, presentando un'interfaccia completamente nativa per il linguaggio di destinazione
+wrong_answers:
+  - Il file UDL compila automaticamente il codice Rust in bytecode che può essere eseguito in modo nativo sulle piattaforme mobili senza traduzione
+  - Il codice della libreria Rust viene automaticamente riscritto nella sintassi del linguaggio di destinazione per eliminare qualsiasi chiamata di interfaccia a funzioni estranee
+  - Le applicazioni del linguaggio di destinazione accedono direttamente alle strutture di memoria di Rust attraverso puntatori condivisi per evitare l'overhead del marshalling dei dati
+explanation: |
+  L'architettura di UniFFI crea una separazione in cui il codice di binding generato agisce come un livello di traduzione tra il linguaggio di destinazione e Rust. Questo livello gestisce il complesso marshaling/unmarshaling dei tipi di dati, gestisce la memoria in modo sicuro attraverso i confini del linguaggio e fornisce la gestione degli errori secondo le convenzioni del linguaggio di destinazione. Le altre opzioni non sono corrette perché UniFFI non compila in bytecode (genera i binding), non riscrive il codice Rust in altri linguaggi (mantiene l'implementazione originale di Rust) e non utilizza l'accesso alla memoria condivisa (gestisce in modo sicuro i dati attraverso i confini).

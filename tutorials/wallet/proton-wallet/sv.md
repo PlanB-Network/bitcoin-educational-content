@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## Anslut till Proton Wallet
 
 
-Gå till [Proton Wallet:s webbplats] (https://proton.me/Wallet) och klicka på knappen "*Get Proton Wallet*".
+Gå till [Proton Wallet:s webbplats](https://proton.me/Wallet) och klicka på knappen "*Get Proton Wallet*".
 
 
 ![Image](assets/fr/01.webp)
@@ -214,8 +214,8 @@ Ladda ner Proton Wallet från din applikationsbutik:
 
 
 
-- [På App Store] (https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
-- [I Google Play Store] (https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [På App Store](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
+- [I Google Play Store](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
 
 
 ![Image](assets/fr/26.webp)

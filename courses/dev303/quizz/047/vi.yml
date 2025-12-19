@@ -1,0 +1,8 @@
+question: Điểm khác biệt chính giữa cách Rust thường thực thi các quy tắc mượn và cách RefCell thực thi chúng là gì?
+answer: Rust thường thực thi các quy tắc mượn tại thời điểm biên dịch, trong khi RefCell thực thi chúng tại thời điểm chạy.
+wrong_answers:
+  - Rust thường cho phép nhiều tham chiếu có thể thay đổi, trong khi RefCell giới hạn chúng chỉ còn một.
+  - Rust thường sử dụng phương pháp đếm tham chiếu để đảm bảo an toàn, trong khi RefCell sử dụng phân tích tĩnh.
+  - Rust thường yêu cầu quản lý bộ nhớ rõ ràng, trong khi RefCell tự động xử lý việc này.
+explanation: |
+  Điểm đột phá chính của RefCell là chuyển việc thực thi quy tắc mượn từ thời điểm biên dịch sang thời điểm chạy. Các tham chiếu Rust thông thường được trình biên dịch kiểm tra trong quá trình biên dịch để đảm bảo an toàn, nhưng RefCell thực hiện các kiểm tra tương tự trong khi chương trình đang chạy. Điều này cho phép RefCell cung cấp khả năng thay đổi bên trong trong các trường hợp phân tích tĩnh của trình biên dịch quá thận trọng, nhưng đi kèm với sự đánh đổi là nguy cơ xảy ra lỗi nghiêm trọng khi chạy nếu các quy tắc mượn bị vi phạm. Các tùy chọn khác mô tả không chính xác các cơ chế an toàn cơ bản của Rust hoặc hành vi thực tế của RefCell.

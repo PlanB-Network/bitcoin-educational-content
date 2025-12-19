@@ -1,0 +1,8 @@
+question: Čím se při vývoji aplikací Bitcoin liší chyby běhových prostředků od chyb neplatného vstupu a logických chyb?
+answer: Chyby běhových prostředků vznikají, když nejsou k dispozici externí závislosti, jako jsou soubory nebo síťová připojení, což vyžaduje spíše opravy prostředí než změny kódu
+wrong_answers:
+  - "K chybám prostředků za běhu dochází, když parametry funkce nesplňují požadavky, což znamená porušení smlouvy mezi volajícím a funkcí."
+  - Chyby prostředků za běhu představují chyby v implementaci programu, jejichž správné vyřešení vyžaduje ladění a úpravu kódu
+  - Chyby prostředků za běhu vznikají, když typový systém nezachytí neshody, což umožňuje šíření nesprávných datových typů systémem
+explanation: |
+  Chyby prostředků běhu jsou mimo logiku programu a dochází k nim, když nejsou k dispozici závislosti, jako jsou soubory, síťová připojení nebo úložná zařízení. Na rozdíl od chyb neplatného vstupu (které zahrnují porušení smlouvy o parametrech) nebo logických chyb (což jsou chyby implementace) vyžadují chyby běhových prostředků obvykle spíše opravy prostředí než změny kódu. Aplikace je musí řešit elegantně, protože jsou často dočasné a mimo přímou kontrolu programu.

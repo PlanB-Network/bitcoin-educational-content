@@ -61,7 +61,7 @@ LNbits dành cho thợ xây dựng: [EN](/assets/lnbits-builders-en.pdf) | [DE](
 # Một số điều cơ bản
 
 
-LNbits hoạt động dựa trên giao thức LNURL, nghĩa là các yêu cầu có thể được thực hiện dưới hai hình thức: liên kết https:// clearnet (không cho phép chứng chỉ tự ký) hoặc liên kết http:// v2/v3 onion. Để cung cấp các dịch vụ LNbits như mã QR LNURLp/w hoặc Thẻ NFC, có thể sử dụng ngoài thực tế, bạn cần mở LNbits lên clearnet (https).
+LNbits hoạt động dựa trên giao thức LNURL, nghĩa là các yêu cầu có thể được thực hiện dưới hai hình thức: liên kết https://clearnet (không cho phép chứng chỉ tự ký) hoặc liên kết http://v2/v3 onion. Để cung cấp các dịch vụ LNbits như mã QR LNURLp/w hoặc Thẻ NFC, có thể sử dụng ngoài thực tế, bạn cần mở LNbits lên clearnet (https).
 
 
 Trước khi cài đặt LNbits, hãy đảm bảo bạn đã đọc và hiểu các hướng dẫn chung sau đây về LNbits là gì và những khả năng mà nó mang lại cho bạn.
@@ -122,7 +122,7 @@ Bạn cũng có thể tìm thấy video về [Cài đặt Docker trên VPS với
 ## LNbits SaaS
 
 
-Nếu bạn không quan tâm đến kỹ thuật và cũng không muốn tự mình lưu trữ nguồn tài trợ cũng như lnbits, thì có một phiên bản [LNbits SaaS] (https://saas.lnbits.com) (Phần mềm dưới dạng dịch vụ) bạn có thể sử dụng. Về cơ bản, nó giống như LNbits trên nền tảng đám mây, nhưng bạn có thể tự xác định nguồn tài trợ (ví dụ: Node, LNbits Wallet, LNtipbot, fakewallet, v.v.) và các biến môi trường - điều mà hầu hết các giải pháp đám mây khác không làm được.
+Nếu bạn không quan tâm đến kỹ thuật và cũng không muốn tự mình lưu trữ nguồn tài trợ cũng như lnbits, thì có một phiên bản [LNbits SaaS](https://saas.lnbits.com) (Phần mềm dưới dạng dịch vụ) bạn có thể sử dụng. Về cơ bản, nó giống như LNbits trên nền tảng đám mây, nhưng bạn có thể tự xác định nguồn tài trợ (ví dụ: Node, LNbits Wallet, LNtipbot, fakewallet, v.v.) và các biến môi trường - điều mà hầu hết các giải pháp đám mây khác không làm được.
 
 
 [Đây là hướng dẫn chi tiết về cách sử dụng LNbits SaaS cho các trường hợp sử dụng cụ thể](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
@@ -604,7 +604,7 @@ Khi bạn mới bắt đầu xây dựng, hãy bắt đầu với [bài thuyết
 ### QUAN TRỌNG:
 
 
-- LNbits hoạt động dựa trên giao thức LNURL, trong đó các yêu cầu có thể được thực hiện dưới hai hình thức: dưới dạng liên kết https:// clearnet (không cho phép chứng chỉ tự ký) hoặc dưới dạng liên kết onion http:// v2/v3. Để cung cấp các dịch vụ LNbits như mã QR LNURLp/w hoặc Thẻ NFC, có thể sử dụng ngoài thực tế, bạn cần mở LNbits để clearnet (https).
+- LNbits hoạt động dựa trên giao thức LNURL, trong đó các yêu cầu có thể được thực hiện dưới hai hình thức: dưới dạng liên kết https://clearnet (không cho phép chứng chỉ tự ký) hoặc dưới dạng liên kết onion http://v2/v3. Để cung cấp các dịch vụ LNbits như mã QR LNURLp/w hoặc Thẻ NFC, có thể sử dụng ngoài thực tế, bạn cần mở LNbits để clearnet (https).
 - Chỉ sử dụng cáp dữ liệu để cấp nguồn cho esp32. Không phải tất cả cáp đều hỗ trợ truyền dữ liệu ngoài việc cấp nguồn cho esp. Bạn sẽ không phải là người đầu tiên gặp trường hợp cáp đi kèm với esp chỉ là cáp cấp nguồn.
 - Đảm bảo không sử dụng USB-Hub khi kết nối với các thiết bị khác. Điều này có thể dẫn đến những hiệu ứng lạ cần được gỡ lỗi (ví dụ: không khởi động hoặc không dừng).
 - Để thực hiện các dự án ESP trên MacOS, bạn sẽ cần Trình điều khiển Cầu nối UART. Nếu bạn gặp sự cố với trình điều khiển trên hệ thống Mac hoặc Linux, bạn có thể tìm thấy chúng tại đây hoặc nếu có màn hình TTGO, hãy tìm trình điều khiển này. Nếu bạn đang sử dụng Windows và gặp sự cố kết nối, hãy đảm bảo tải xuống phiên bản CŨ 11.1.0 vì phiên bản mới hơn không hoạt động! Bạn cũng có thể tìm thấy một thiết bị đầu cuối nối tiếp tại đây để kiểm tra kết nối của mình - đặt tốc độ baudrate 115200.

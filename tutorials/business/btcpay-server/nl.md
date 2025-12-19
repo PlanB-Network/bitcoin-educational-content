@@ -1,5 +1,5 @@
 ---
-name: BTCPay server
+name: BTCPay Server
 description: BTC-betalingen accepteren zonder tussenpersonen
 ---
 
@@ -113,7 +113,7 @@ BTCPay Server kan snel worden geïmplementeerd bij een aantal hostingproviders. 
 
 
 
-Bezoek de [officiële website van Voltage] (https://voltage.cloud).
+Bezoek de [officiële website van Voltage](https://voltage.cloud).
 
 
 

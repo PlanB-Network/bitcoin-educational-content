@@ -1,0 +1,8 @@
+question: Que caraterística específica da arquitetura orientada para eventos do LDK permite que as aplicações mantenham uma separação clara entre a lógica do protocolo Lightning e as respostas específicas da aplicação?
+answer: As notificações assíncronas são fornecidas para todas as operações significativas e alterações de estado, permitindo que os manipuladores de eventos personalizados sejam implementados de forma independente
+wrong_answers:
+  - As chamadas de retorno síncronas são acionadas diretamente no gestor de canais, exigindo respostas imediatas para manter a conformidade do protocolo
+  - Os manipuladores de eventos são gerados automaticamente com base na configuração da aplicação, eliminando a necessidade de lógica de implementação personalizada
+  - Todos os eventos são colocados em fila de espera numa memória intermédia central e processados sequencialmente para garantir um comportamento determinístico da aplicação
+explanation: |
+  O sistema de eventos do LDK fornece notificações assíncronas para todas as operações do Lightning, incluindo conexões de pares, pagamentos e alterações de canal. Isso permite que os desenvolvedores implementem manipuladores de eventos personalizados que respondem adequadamente, mantendo a separação limpa entre a funcionalidade principal do LDK e a lógica do aplicativo. As outras opções estão incorretas porque o LDK não usa retornos de chamada síncronos que bloqueiam operações de protocolo, não usa manipuladores de generate automáticos e não impõe o processamento sequencial de eventos.

@@ -537,7 +537,7 @@ Po zakupie pierwszych bitcoinów on-chain lub znacznej ilości satoshi można oc
 
 
 
-Jeśli nie wiesz jeszcze, jak korzystać z portfela Bitcoin, zapraszam do zapoznania się z [sekcją "Wallet" na Plan ₿ Academy] (https://planb.academy/tutorials/wallet).
+Jeśli nie wiesz jeszcze, jak korzystać z portfela Bitcoin, zapraszam do zapoznania się z [sekcją "Wallet" na Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 
 
@@ -644,7 +644,7 @@ Biorąc pod uwagę, że celem jest cyfryzacja oszczędności i ułatwienie inwes
 
 
 
-Możesz wysłać zapytanie bezpośrednio w aplikacji lub skontaktować się z ich bardzo sumienną [obsługą klienta] (https://t.me/EjaraCSbot) za pośrednictwem Telegramu.
+Możesz wysłać zapytanie bezpośrednio w aplikacji lub skontaktować się z ich bardzo sumienną [obsługą klienta](https://t.me/EjaraCSbot) za pośrednictwem Telegramu.
 
 
 

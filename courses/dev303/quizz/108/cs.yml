@@ -1,0 +1,8 @@
+question: Jaká základní vlastnost filozofie návrhu komponent systému LDK jej odlišuje od monolitických implementací uzlů Lightning, jako je CLightning nebo LND?
+answer: Každá komponenta poskytuje výchozí implementace, které lze individuálně nahradit vlastními řešeními při zachování shody s protokolem
+wrong_answers:
+  - Všechny komponenty musí být implementovány od začátku vývojáři, knihovna neposkytuje žádné výchozí implementace
+  - Komponenty jsou spolu trvale svázány a po začlenění do architektury aplikace je nelze upravovat
+  - Knihovna vyžaduje, aby všechny komponenty používaly identické programovací jazyky, a nemůže podporovat vazby na různé platformy
+explanation: |
+  Základní filozofie LDK se soustředí na poskytování modulárních komponent s funkčními výchozími implementacemi, které mohou vývojáři v případě potřeby selektivně nahradit. To umožňuje přizpůsobení specifických funkcí (například monitorování blockchainu nebo podepisování transakcí) při zachování ostatních komponent beze změny. Špatné odpovědi zkreslují přístup LDK: poskytuje výchozí implementace místo toho, aby vyžadoval vše od začátku, umožňuje výměnu komponent místo jejich uzamčení a prostřednictvím systému vazeb podporuje více programovacích jazyků.

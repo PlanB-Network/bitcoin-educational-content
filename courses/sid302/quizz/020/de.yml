@@ -1,0 +1,8 @@
+question: Was geschieht mit der Netzkonfiguration während des Übergangsprozesses der dynamischen Föderation (Dynafed) von Liquid, wenn ein Funktionsträger ersetzt werden muss?
+answer: Das Netz sendet eine Übergangstransaktion, gefolgt von einem zweiwöchigen Überschneidungszeitraum, bevor die neue Konfiguration übernommen wird
+wrong_answers:
+  - Das Netz schaltet sofort nach der Übermittlung der Übergangstransaktion auf die neue Funktionskonfiguration um
+  - Alle Funktionäre müssen der Ersetzung gleichzeitig zustimmen, bevor Konfigurationsänderungen vorgenommen werden
+  - Das Netz erfordert ein hartes fork und eine vorübergehende Abschaltung, um die Funktionärsliste zu aktualisieren und den Betrieb wieder aufzunehmen
+explanation: |
+  Die dynamische Föderation ermöglicht es Liquid, sich ohne harte Forks durch einen sorgfältig orchestrierten Übergangsprozess weiterzuentwickeln. Wenn ein Funktionsträger ersetzt werden muss, sendet das Netz eine Übergangstransaktion, die die bevorstehende Änderung signalisiert. Darauf folgt ein obligatorischer zweiwöchiger Überlappungszeitraum, in dem die alten und neuen Konfigurationen nebeneinander bestehen, um eine nahtlose Kontinuität zu gewährleisten. Die anderen Optionen sind falsch, denn ein sofortiger Wechsel würde die Instabilität des Netzes gefährden, die gleichzeitige Abstimmung ist nicht der verwendete Mechanismus, und Hard Forks sind genau das, was Dynafed vermeiden soll.

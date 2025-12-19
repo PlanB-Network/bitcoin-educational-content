@@ -141,7 +141,7 @@ Alıcınızın satoshileri talep etmek için oluşturulan QR kodunu taraması ge
 
 
 
-Çevrimdışı ödemeler çoğunlukla [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum) kullanılarak yapılır. İşlem telefonunuzda saklanır ve internete eriştiğiniz anda işlemin onaylanması otomatik hale gelir. Ayrıca **İşlemi onayla** seçeneğine tıklayarak ödemeyi manuel olarak da onaylayabilirsiniz.
+Çevrimdışı ödemeler çoğunlukla [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum) kullanılarak yapılır. İşlem telefonunuzda saklanır ve internete eriştiğiniz anda işlemin onaylanması otomatik hale gelir. Ayrıca **İşlemi onayla** seçeneğine tıklayarak ödemeyi manuel olarak da onaylayabilirsiniz.
 
 
 

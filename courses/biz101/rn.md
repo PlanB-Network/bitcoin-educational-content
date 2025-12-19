@@ -1259,7 +1259,7 @@ Niba witeguye gukura amaboko mumpuzu kandi ushaka gucungera neza ico gikorwa, po
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
-Ubwa nyuma, nk’inyongera y’ibibanza vy’igurisha muburyo bugaragara, woshobora kwiyumvira gushinga [PoS ya Bitcoinize] (https://bitcoinize.com/).
+Ubwa nyuma, nk’inyongera y’ibibanza vy’igurisha muburyo bugaragara, woshobora kwiyumvira gushinga [PoS ya Bitcoinize](https://bitcoinize.com/).
 
 
 

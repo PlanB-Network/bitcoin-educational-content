@@ -1,0 +1,8 @@
+question: Ni ufahamu gani wa msingi kuhusu kupitishwa kwa Lightning uliosababisha Breez kuhama kutoka kujenga programu moja ya simu hadi kutengeneza usanifu wa SDK?
+answer: Mfumo wa programu za simu haurahisishi mawasiliano rahisi kati ya programu, na hivyo kuzuia programu maalum kutumia miundombinu ya umeme iliyoshirikiwa
+wrong_answers:
+  - Vifaa vya mkononi havina nguvu ya kutosha ya kompyuta kuendesha nodi za umeme kwa uaminifu, na hivyo kuhitaji miundombinu inayotegemea wingu kwa ajili ya uendeshaji mzuri.
+  - Utiifu wa kanuni unahitaji utendaji wa Lightning uwe katikati ya SDK badala ya kusambazwa katika programu za simu za kibinafsi
+  - Utafiti wa uzoefu wa mtumiaji ulionyesha kuwa watumiaji wanapendelea malipo ya Lightning yasimamiwe na huduma za watu wengine badala ya programu za kibinafsi
+explanation: |
+  Jibu sahihi linabainisha kizuizi muhimu cha usanifu kilichogunduliwa kupitia programu asilia ya Breez: mifumo ikolojia ya simu hairuhusu mawasiliano rahisi kati ya programu, na kulazimisha wasanidi programu kujenga vipengele vyote vya Lightning katika programu moja badala ya kuunda programu maalum zinazoshiriki miundombinu ya Lightning. Ufahamu huu ulisababisha mbinu ya SDK kuwezesha programu nyingi kuunganishwa kwenye nodi moja ya Lightning. Majibu yasiyo sahihi yanazingatia mapungufu ya kiufundi, masuala ya udhibiti, au mapendeleo ya mtumiaji, lakini haya hayakuwa maarifa ya msingi ya usanifu yaliyosababisha mabadiliko ya kimkakati hadi modeli ya SDK.

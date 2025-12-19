@@ -1,0 +1,8 @@
+question: Cosa accadrebbe all'offerta totale di Bitcoin se i minatori richiedessero costantemente solo il 90% della sovvenzione di blocco consentita in tutti i blocchi?
+answer: L'offerta totale si ridurrebbe in modo permanente al di sotto dei 21 milioni di BTC, poiché i sussidi non richiesti andrebbero persi per sempre
+wrong_answers:
+  - Il restante 10% verrebbe accumulato in un fondo di riserva per i futuri minatori che potranno richiederlo durante i periodi di bassa tariffa
+  - Il meccanismo di aggiustamento della difficoltà compenserebbe aumentando le future ricompense dei blocchi per mantenere il tetto di 21 milioni
+  - Le sovvenzioni non reclamate verrebbero ridistribuite proporzionalmente tra i beneficiari delle commissioni di transazione nei blocchi successivi
+explanation: |
+  Il protocollo di Bitcoin consente ai minatori di richiedere meno della sovvenzione massima consentita, ma qualsiasi importo non reclamato è definitivamente perso: non esiste un meccanismo per ridistribuirlo o recuperarlo in seguito. La formula del sussidio e il programma di dimezzamento determinano il massimo teorico di ~21 milioni di BTC, ma l'offerta effettiva dipende dal fatto che i minatori rivendichino l'intero diritto. A differenza dell'aggiustamento della difficoltà, che risponde alle condizioni del mining, non esiste un meccanismo di compensazione per le ricompense non reclamate, rendendo l'offerta totale potenzialmente deflazionistica se i minatori non reclamano costantemente.

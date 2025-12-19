@@ -1,0 +1,8 @@
+question: Koje osnovno ograničenje Lightning Network plaćanja stvara jedinstveni izazov za wallet programere koji ne postoji kod on-chain i Bitcoin transakcija?
+answer: Lightning plaćanja postoje samo kao privremena stanja unutar platnih kanala i nisu trajno zabeležena na blockchain-u, što zahteva prilagođene sisteme za praćenje istorije plaćanja.
+wrong_answers:
+  - Lightning plaćanja zahtevaju značajno više računarskih resursa za obradu nego on-chain transakcije, što mobilnu implementaciju čini resursno intenzivnom.
+  - Lightning plaćanja ne mogu biti kriptografski verifikovana na isti način kao on-chain transakcije, što stvara sigurnosne ranjivosti za wallet implementacije.
+  - Lightning plaćanja moraju biti obrađena putem centralizovanih čvorova za rutiranje, što onemogućava održavanje zaista ne-kustodijalne wallet arhitekture
+explanation: |
+  Tačan odgovor identifikuje osnovnu arhitektonsku razliku između Lightning i on-chain plaćanja. On-chain Bitcoin transakcije su trajno zabeležene na blockchain-u, što čini preuzimanje istorije plaćanja jednostavnim putem blockchain upita. Lightning plaćanja, međutim, postoje samo kao privremena stanja kanala i ne ostavljaju trajni zapis na blockchain-u, što primorava programere da implementiraju prilagođene sisteme za praćenje i skladištenje. Pogrešni odgovori su netačni jer: Lightning plaćanja su računarski efikasna (ne zahtevaju mnogo resursa), održavaju istu kriptografsku sigurnost kao Bitcoin, a rutiranje je decentralizovano (ne centralizovano).

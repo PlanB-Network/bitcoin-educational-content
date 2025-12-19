@@ -1,0 +1,8 @@
+question: Mục đích chính của việc khai báo không gian tên trong tệp UniFFI UDL là gì?
+answer: Cung cấp một vùng chứa các hàm có thể được gọi trực tiếp mà không cần phải khởi tạo đối tượng.
+wrong_answers:
+  - Để xác định cấu trúc gói và các phụ thuộc nhập khẩu cho các liên kết ngôn ngữ được tạo ra.
+  - Để chỉ định các ngôn ngữ lập trình mục tiêu sẽ sử dụng thư viện Rust thông qua UniFFI.
+  - Thiết lập chiến lược quản lý bộ nhớ cho các hoạt động sắp xếp dữ liệu đa ngôn ngữ.
+explanation: |
+  Không gian tên trong UDL của UniFFI đóng vai trò là vùng chứa các hàm độc lập có thể được gọi trực tiếp mà không cần tạo đối tượng trước. Các hàm trong không gian tên này thường xử lý các thao tác đơn giản nhận giá trị làm tham số và trả về kết quả. Các tùy chọn khác không chính xác vì: cấu trúc gói và việc nhập khẩu được xử lý tự động bởi quy trình tạo liên kết, ngôn ngữ đích được chỉ định trong quá trình xây dựng chứ không phải trong tệp UDL, và việc quản lý bộ nhớ được xử lý một cách minh bạch bởi lớp thời gian chạy của UniFFI chứ không phải được khai báo rõ ràng trong không gian tên.

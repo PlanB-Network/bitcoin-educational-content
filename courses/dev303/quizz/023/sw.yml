@@ -1,0 +1,8 @@
+question: Nini kinatokea kwa mfano wa muundo asili unapotumia sintaksia ya sasisho la muundo na aina zisizo za Nakala?
+answer: Sehemu zinazonakiliwa huwa hazitumiki katika mfano wa asili kutokana na semantiki za kuhama
+wrong_answers:
+  - Mfano wa awali bado haujabadilika kabisa na unapatikana kikamilifu
+  - Mfano mzima wa asili umeumbwa, na kuacha mifano yote miwili ikifanya kazi kikamilifu
+  - Sehemu unazobadilisha waziwazi pekee ndizo zinazoweza kufikiwa katika nakala asili
+explanation: |
+  Unapotumia sintaksia ya usasishaji wa muundo na aina zisizo za Nakala, mfumo wa umiliki wa Rust huhamisha sehemu zilizonakiliwa kutoka kwa mfano wa awali hadi mpya. Hii ina maana kwamba sehemu hizo maalum huwa hazitumiki katika mfano wa awali, ingawa sehemu ambazo hazikunakiliwa zinabaki kufikiwa. Kikusanyaji hufuatilia hatua hizi kwa busara, kuzuia ufikiaji wa sehemu zilizohamishwa huku ikiruhusu matumizi endelevu ya sehemu ambazo hazijahamishwa. Tabia hii inahakikisha usalama wa kumbukumbu kwa kuzuia wamiliki wengi wa data sawa.

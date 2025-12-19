@@ -1,0 +1,8 @@
+question: Hva skjer når du deklarerer en variabel i Rust ved å bruke 'let x = 5' uten noen ekstra nøkkelord?
+answer: Variabelen blir uforanderlig og kan ikke endres etter tilordning
+wrong_answers:
+  - Variabelen blir muterbar og kan endres når som helst
+  - Variabelen er automatisk optimalisert for release-versjoner
+  - Variabelen krever eksplisitt typeannotasjon for å kunne kompileres
+explanation: |
+  I Rust er variabler som standard uforanderlige når de deklareres med "let". Det betyr at når du tilordner en verdi til en variabel, for eksempel "let x = 5", kan du ikke endre denne verdien senere i programmet. Hvis du prøver å endre den, vil kompilatoren produsere en feilmelding. Denne standardimmutabiliteten er en viktig sikkerhetsfunksjon som forhindrer mange vanlige programmeringsfeil forårsaket av uventede tilstandsendringer. Hvis du vil gjøre en variabel muterbar, må du eksplisitt bruke nøkkelordet "mut", for eksempel "let mut x = 5".

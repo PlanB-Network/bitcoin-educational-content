@@ -45,7 +45,7 @@ Een besturingssysteem (OS) is de belangrijkste software die alle bronnen van je 
 
 
 
-- Ga naar [ubuntu.nl/download] (https://ubuntu.com/download)
+- Ga naar [ubuntu.nl/download](https://ubuntu.com/download)
 - Kies de stabiele versie (LTS aanbevolen)
 - ISO-afbeelding downloaden
 
@@ -64,7 +64,7 @@ Je kunt verschillende hulpmiddelen gebruiken, zoals Balena Etcher:
 
 
 
-- Download en installeer [Balena Etcher] (https://etcher.balena.io/)
+- Download en installeer [Balena Etcher](https://etcher.balena.io/)
 
 
 ![Page de téléchargement Balena Etcher](assets/fr/03.webp)

@@ -1,0 +1,8 @@
+question: Šta se dešava tokom procesa kompilacije kada Rust kompajler naiđe na poziv makroa?
+answer: Kompajler upoređuje ulaz sa definisanim obrascima i zamenjuje poziv makroa generisanim kodom pre nego što se izvrši provera tipova
+wrong_answers:
+  - Kompajler odlaže ekspanziju makroa sve dok se ne završi provera tipova i optimizacija kako bi se osigurala validnost koda
+  - Kompajler skladišti poziv makroa kao bajtkod i dinamički ga proširuje tokom izvršavanja u runtime-u.
+  - Kompajler validira sintaksu makroa, ali ostavlja stvarnu ekspanziju linkeru da obradi
+explanation: |
+  Makroi se proširuju tokom kompilacije pre nego što se izvrši provera tipova i optimizacija. Kada kompajler naiđe na poziv makroa, odmah upoređuje ulaz sa definisanim obrascima makroa i zamenjuje ceo poziv makroa generisanim kodom. Ovaj prošireni kod zatim prolazi kroz uobičajene procese kompilacije uključujući proveru tipova. Ostale opcije su netačne jer makroi funkcionišu u vreme kompilacije, a ne u vreme izvršavanja, i proširenje mora da se desi pre provere tipova pošto generisani kod treba da bude validiran za ispravnost.

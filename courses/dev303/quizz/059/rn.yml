@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k'ingenzi ko gukoresha ama macros nka #[derive(Debug)] ugereranyije no gukoresha n'amaboko ibiranga ubwoko busanzwe?
+answer: Baca baheza generate gushitsa imico mu gihe co gukoranya, bagabanura kode y'ibarabara
+wrong_answers:
+  - Bitanga ibikorwa vyiza vy'igihe co gukora mu gutuma uburyo bwo guhamagara bugenda neza mu gihe co gukora
+  - Bituma ibiranga bishirwa mu ngiro incuro nyinshi ku bwoko bumwe bufise inyifato zitandukanye .
+  - Bishoboza gushirwa mu ngiro kw'imico ishobora guhindurwa mu gihe co gukora bishingiye ku mimerere ya porogarama
+explanation: |
+  Gukuraho macros ubwavyo generate imico y’ugushirwa mu ngiro mu gihe co gukoranya, gukuraho ivy’ukwandika kode y’ivyuma vy’amazi isubiramwo n’amaboko. Iyo ukoresheje #[derive(Debug)], umukozi atanga ubuhinga bwose bukenewe bwo guhindura iyo kamere. Inyishu zitari zo ntizibereye kuko: derive macros ntizitera imbere mu gihe co gukora (zi generate kode imwe wokwandika n'amaboko), ibiranga bishobora gushirwa mu ngiro rimwe gusa ku bwoko ataco bimaze uko zishirwa mu ngiro, kandi gukura macros generate kode idahinduka mu gihe co gukora aho gushoboza guhindura igihe co gukora.

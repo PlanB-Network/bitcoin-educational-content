@@ -1,0 +1,8 @@
+question: Wat is de specifieke elliptische curvevergelijking die gebruikt wordt door Bitcoin's secp256k1?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + 3
+  - y² = x³ + 5
+  - y² = x³ + 1
+explanation: |
+  Bitcoin gebruikt de secp256k1 curve gedefinieerd door de vergelijking y² = x³ + 7 over een eindig veld. Deze specifieke vergelijking is gekozen omdat deze de symmetrie en het niet-lineaire gedrag behoudt dat essentieel is voor cryptografische veiligheid. De coëfficiënt 7 maakt deel uit van de gestandaardiseerde secp256k1 specificatie en onderscheidt deze van andere elliptische krommen die andere constanten zoals 1, 3 of 5 kunnen gebruiken.

@@ -681,18 +681,18 @@ Lijst met apparatuur en links
 
 
 
-- [2X NF-A14 iPPC-2000 PWM] (https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
+- [2X NF-A14 iPPC-2000 PWM](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
 
 
 
-- [2X 140 mm ventilatorroosters] (https://www.amazon.fr/dp/B06XD4FTSQ)
-- [Noctua NF-A6x25 PWM] (https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
+- [2X 140 mm ventilatorroosters](https://www.amazon.fr/dp/B06XD4FTSQ)
+- [Noctua NF-A6x25 PWM](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
 
 
 
-- [Elektriciteitssuiker 2,5 mm²] (https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
-- [Vonets vap11g-300] (https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
-- [Optionele ANTELA smart plug] (https://www.amazon.fr/dp/B09YYMVXJZ)
+- [Elektriciteitssuiker 2,5 mm²](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
+- [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
+- [Optionele ANTELA smart plug](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
 # Attakai - De software van een Antminer S9 aanpassen
@@ -783,7 +783,7 @@ Deze methode kan worden toegepast tussen 2 minuten en 10 minuten na het starten 
 De originele software die Antminer installeerde op hun Mining machines is beperkt in functionaliteit. Daarom installeren we in deze gids een andere software, genaamd BraiinsOS+. Het is software van derden, ontwikkeld door de allereerste Bitcoin Mining pool, die meer mogelijkheden heeft en bijvoorbeeld het vermogen van de machine kan aanpassen.
 
 
-Er zijn verschillende manieren om Braiins OS+ op een ASIC te installeren. Je kunt zowel deze gids als de [officiële Braiins documentatie] (https://academy.braiins.com/en/braiins-os/about/) raadplegen.
+Er zijn verschillende manieren om Braiins OS+ op een ASIC te installeren. Je kunt zowel deze gids als de [officiële Braiins documentatie](https://academy.braiins.com/en/braiins-os/about/) raadplegen.
 
 
 Hier zullen we zien hoe je eenvoudig Braiins OS+ direct op het geheugen van je Antminer kunt installeren met behulp van de BOS toolbox software, ter vervanging van het originele besturingssysteem, door middel van de gedetailleerde stappen hieronder.

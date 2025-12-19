@@ -498,7 +498,7 @@ För att ansluta till en peer (Lightning-nod) behöver du tre uppgifter:
 
 
 
-Du kan hitta noder att ansluta till på [amboss] (https://amboss.space/), en plattform som listar information om Lightning-noder.
+Du kan hitta noder att ansluta till på [amboss](https://amboss.space/), en plattform som listar information om Lightning-noder.
 
 
 

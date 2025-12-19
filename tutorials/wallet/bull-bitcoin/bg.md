@@ -1039,7 +1039,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 - Подсигурете своята фраза за възстановяване**:
- - Учебник: [Запазете мнемоничната си фраза] (https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+ - Учебник: [Запазете мнемоничната си фраза](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
  - Cours [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
@@ -1101,7 +1101,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 - Официални връзки и поддръжка:**
 - [staff@bitcoinsupport.com](mailto:staff@bitcoinsupport.com), **support@bullbitcoin.com** : имейл за поддръжка
-- [Официален уебсайт на Bull Bitcoin] (https://bullbitcoin.com/): **Информация за услугите на Bull Bitcoin, създаване на акаунт, достъп до приложението**
+- [Официален уебсайт на Bull Bitcoin](https://bullbitcoin.com/): **Информация за услугите на Bull Bitcoin, създаване на акаунт, достъп до приложението**
 - [GitHub Bull Bitcoin Mobile](https://github.com/SatoshiPortal/bullbitcoin-mobile): ** Преглед на кода, еволюцията и пътната карта, принос към разработката...**
 - [Акаунт X - Twitter Bull Bitcoin](https://x.com/BullBitcoin_)
 - Група Telegram** за мобилен телефон Wallet: групов чат с поддръжка, вижте страницата "Настройки".

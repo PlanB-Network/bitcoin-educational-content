@@ -1,5 +1,5 @@
 ---
-name: Macadâmia Wallet
+name: Macadamia Wallet
 description: Cashu mobile wallet para pagamentos BTC anónimos e instantâneos
 ---
 

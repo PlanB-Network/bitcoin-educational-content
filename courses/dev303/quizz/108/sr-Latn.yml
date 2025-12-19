@@ -1,0 +1,8 @@
+question: Koja fundamentalna karakteristika LDK-ove filozofije dizajna komponenti ga razlikuje od monolitnih implementacija Lightning čvorova kao što su CLightning ili LND?
+answer: Svaka komponenta pruža podrazumevane implementacije koje se mogu pojedinačno zameniti prilagođenim rešenjima uz očuvanje usklađenosti sa protokolom.
+wrong_answers:
+  - Svi komponente moraju biti implementirane od nule od strane programera bez podrazumevanih implementacija koje pruža biblioteka
+  - Komponente su trajno zaključane zajedno i ne mogu se modifikovati nakon integracije u arhitekturu aplikacije
+  - Biblioteka zahteva da svi komponenti koriste identične programske jezike i ne može podržati povezivanje jezika između različitih platformi.
+explanation: |
+  Osnovna filozofija LDK-a fokusira se na pružanje modularnih komponenti sa radnim podrazumevanim implementacijama koje programeri mogu selektivno zameniti kada je to potrebno. Ovo omogućava prilagođavanje specifične funkcionalnosti (kao što je praćenje blockchain-a ili potpisivanje transakcija) dok ostale komponente ostaju nepromenjene. Pogrešni odgovori pogrešno predstavljaju pristup LDK-a: on pruža podrazumevane vrednosti umesto da zahteva sve od nule, omogućava zamenu komponenti umesto da ih zaključava zajedno, i podržava više programskih jezika kroz svoj sistem povezivanja.

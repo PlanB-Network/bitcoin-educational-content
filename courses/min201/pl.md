@@ -685,7 +685,7 @@ Lista sprzętu i linki
 
 
 
-- [2 kratki wentylatora 140 mm] (https://www.amazon.fr/dp/B06XD4FTSQ)
+- [2 kratki wentylatora 140 mm](https://www.amazon.fr/dp/B06XD4FTSQ)
 - [Noctua NF-A6x25 PWM](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
 
 
@@ -783,7 +783,7 @@ Metoda ta może być stosowana od 2 do 10 minut po uruchomieniu Miner.
 Oryginalne oprogramowanie zainstalowane przez Antminer na ich maszynach Mining ma ograniczoną funkcjonalność. Dlatego w tym przewodniku zainstalujemy inne oprogramowanie o nazwie BraiinsOS+. Jest to oprogramowanie innej firmy opracowane przez pierwszego Bitcoin Mining pool, które ma więcej funkcji i pozwala na przykład modyfikować moc maszyny.
 
 
-Istnieje kilka sposobów instalacji Braiins OS+ na ASIC. Można zapoznać się z niniejszym przewodnikiem, a także z [oficjalną dokumentacją Braiins] (https://academy.braiins.com/en/braiins-os/about/).
+Istnieje kilka sposobów instalacji Braiins OS+ na ASIC. Można zapoznać się z niniejszym przewodnikiem, a także z [oficjalną dokumentacją Braiins](https://academy.braiins.com/en/braiins-os/about/).
 
 
 Tutaj zobaczymy, jak łatwo zainstalować Braiins OS+ bezpośrednio w pamięci Antminera za pomocą oprogramowania BOS toolbox, zastępując oryginalny system operacyjny, wykonując szczegółowe kroki opisane poniżej.

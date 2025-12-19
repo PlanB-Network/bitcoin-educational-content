@@ -6308,7 +6308,7 @@ Mục đích rất đơn giản: ngăn chặn sự cố liên quan đến một 
 
 
 
-- **Sử dụng container tích hợp**: Firefox cung cấp tiện ích mở rộng [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), cho phép bạn mở các tab riêng biệt, mỗi tab có thông tin đăng nhập và cookie riêng. Bạn cũng có thể tự động gán một số trang web nhất định vào một container cụ thể để giữ chúng tách biệt mỗi khi mở.
+- **Sử dụng container tích hợp**: Firefox cung cấp tiện ích mở rộng [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), cho phép bạn mở các tab riêng biệt, mỗi tab có thông tin đăng nhập và cookie riêng. Bạn cũng có thể tự động gán một số trang web nhất định vào một container cụ thể để giữ chúng tách biệt mỗi khi mở.
 
 
 

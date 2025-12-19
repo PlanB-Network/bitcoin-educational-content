@@ -491,7 +491,7 @@ Sisestage valitud Address-le saadetav summa.
 
 
 
-Reguleerige laadimiskiirust vastavalt praegustele võrgutingimustele. Sobiva laadimistaseme valimiseks vaadake näiteks [Mempool.space] (https://Mempool.space/).
+Reguleerige laadimiskiirust vastavalt praegustele võrgutingimustele. Sobiva laadimistaseme valimiseks vaadake näiteks [Mempool.space](https://Mempool.space/).
 
 
 

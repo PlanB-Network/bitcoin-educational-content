@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van Rust's functionele programmeerfuncties voor het behouden van nul-kosten abstracties?
+answer: Ze produceren efficiënte machinecode die vergelijkbaar is met traditionele, op lussen gebaseerde benaderingen zonder aan prestaties in te boeten
+wrong_answers:
+  - Ze handelen automatisch geheugentoewijzing en -deallocatie af om runtime-overhead volledig te voorkomen
+  - Ze elimineren de noodzaak voor typecontrole tijdens het compileren, terwijl de veiligheidsgaranties behouden blijven
+  - Ze bieden functionaliteit voor afvalverzameling die wordt uitgevoerd zonder de snelheid van de programma-uitvoering te beïnvloeden
+explanation: |
+  Nul-kosten abstracties in Rust's functionele programmeerfuncties betekenen dat het gebruik van afsluitingen en iteratoren niet ten koste gaat van de expressiviteit. De Rust compiler optimaliseert deze constructies op hoog niveau om machinecode te produceren die net zo goed presteert als handgeschreven traditionele lussen. Hierdoor kunnen ontwikkelaars expressievere en leesbaardere code schrijven zonder dat dit ten koste gaat van de runtime prestaties, wat een kernprincipe is van de Rust ontwerpfilosofie.

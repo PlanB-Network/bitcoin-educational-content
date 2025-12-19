@@ -1,0 +1,8 @@
+question: Igihe ukora macro imeze nk'ibikorwa vy'umugenzo muri Rust, ni iyihe ntumbero nyamukuru yo gukoresha ibimenyetso vy'ibice nka `expr`, `ty`, na `ident` mu guhuza ivyitegererezo?
+answer: Gusobanura ubwoko bw'ibintu vya kode bishobora guhuzwa no kumenya neza ko inyinjizo ibereye
+wrong_answers:
+  - Kugaragaza ubwoko bw'ibisubizo vya kode yakozwe no gutuma ibikorwa vy'ugukoranya bigenda neza
+  - Kumenya urutonde rw'ibikorwa vy'amashami ya macro no gukorana n'ugusuzuma ubwoko bw'igihe co gukora
+  - Kugenzura uburyo bwo gutanga ububiko no gusobanura amategeko y'uburebure buhinduka muri kode yagutse
+explanation: |
+  Ivyerekana ibice mu mirongo ya macro bikora nk'ubwoko bw'ibibujijwe vyemeza insiguro y'ibimenyetso vy'inyungu mu gihe c'ukwaguka kwa macro. Bikora vyose kugira ngo macro ironke ubwoko bubereye bw'ikintu ca kode (invugo, ubwoko, ikimenyetso, n'ibindi) kandi bitanga ubutumwa bw'ikosa butomoye iyo hahuye n'inyuguti idakwiriye. Ivyo bishika mu gihe co gukoranya mu gihe c'uguhuza ivyitegererezo, atari mu gihe c'ugukora, kandi ntibagenzura ata guca ku ruhande ugutanga ububiko, urutonde rw'ugukora, canke ubwoko bwo kugaruka bwa kode yavutse.

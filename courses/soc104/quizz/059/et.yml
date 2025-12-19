@@ -1,0 +1,9 @@
+question: Milline on keynesiaanliku majandusteooria kohaselt valitsuse sekkumise esmane roll majanduses?
+answer: Kasutada fiskaal- ja rahapoliitikat majandustsüklite stabiliseerimiseks, stimuleerides nõudlust majanduslanguse ajal ja jahutades seda ülekuumenemise ajal
+wrong_answers:
+  - Turumehhanismide täielik asendamine tsentraliseeritud riikliku planeerimisega ja igasuguse eraettevõtluse kaotamine
+  - Säilitada range laissez-faire poliitika ja võimaldada turgudel isereguleeruda ilma igasuguse valitsuse sekkumiseta
+  - Keskenduda üksnes rahapoliitikale, vältides samas igasugust fiskaalset sekkumist või riiklike kulutuste kohandamist
+explanation: |
+  Keynesi teooria toetab valitsuse aktiivset sekkumist nii fiskaalpoliitika (riiklikud kulutused, maksustamine) kui ka rahapoliitika (intressimäärad) kaudu, et juhtida majandustsükleid.
+  See kujutab endast "kolmandat teed" puhta laissez-faire-kapitalismi ja täieliku riikliku kontrolli vahel, püüdes saavutada tasakaalu, stimuleerides nõudlust majanduslanguse ajal ja leevendades seda majanduse ülekuumenemise ajal, mis on kooskõlas tsentristlike pragmaatiliste lähenemisviisidega majanduse juhtimisele.

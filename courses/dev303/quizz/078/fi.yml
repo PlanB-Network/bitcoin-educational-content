@@ -1,0 +1,8 @@
+question: Mikä on tärkein ero unwrap_or()- ja unwrap_or_default()-metodien välillä, kun käsitellään Result- ja Option-tyyppejä?
+answer: unwrap_or() vaatii, että määrität vara-arvon, kun taas unwrap_or_default() käyttää tyypin oletustoteutusta
+wrong_answers:
+  - unwrap_or() menee paniikkiin virheistä, kun taas unwrap_or_default() palauttaa None, mikä tarjoaa turvallisemman virheenkäsittelyn tuotannossa
+  - unwrap_or() toimii vain Result-tyyppien kanssa, kun taas unwrap_or_default() toimii ainoastaan Option-tyyppien kanssa arvon poimimiseksi
+  - unwrap_or() siirtää virheet ylöspäin kutsupinossa, kun taas unwrap_or_default() muuntaa kaikki virheet oletusmerkkijonoviesteiksi
+explanation: |
+  Unwrap_or()-metodin avulla voit antaa tietyn vara-arvon, kun Result sisältää virheen tai Option sisältää None, jolloin voit hallita, mitä arvoa käytetään virhetapauksissa. Sitä vastoin unwrap_or_default() käyttää automaattisesti tyypin Default-ominaisuuden toteutusta, mikä on kätevää silloin, kun oletusarvo sopii käyttötilanteeseen. Molemmat metodit toimivat sekä Result- että Option-tyyppien kanssa, eikä kumpikaan niistä aiheuta paniikkia tai levitä virheitä - ne molemmat tarjoavat armollisen hajoamisen palauttamalla käyttökelpoisia arvoja epäonnistumisen sijasta.

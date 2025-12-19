@@ -1,5 +1,5 @@
 ---
-name: Jengibre Wallet
+name: Ginger Wallet
 description: Software de código abierto y autocustodia Bitcoin wallet, fork de Wasabi Wallet, integrando Coinjoins
 ---
 ![cover](assets/cover.webp)

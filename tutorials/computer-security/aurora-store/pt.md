@@ -32,7 +32,7 @@ A Aurora Store é uma das mais populares lojas de aplicações alternativas à G
 
 
 
-Pode transferir a Aurora Store a partir do [site oficial] (https://auroraoss.com/aurora-store) clicando no botão "Release" nos tipos de compilação. Selecione a opção Vanilla se estiver a utilizar uma marca de telemóvel que não seja a Huawei. Os modelos recentes de telemóveis Huawei têm a sua própria versão da Aurora Store devido às restrições impostas aos serviços Google em resultado das sanções impostas pelos EUA.
+Pode transferir a Aurora Store a partir do [site oficial](https://auroraoss.com/aurora-store) clicando no botão "Release" nos tipos de compilação. Selecione a opção Vanilla se estiver a utilizar uma marca de telemóvel que não seja a Huawei. Os modelos recentes de telemóveis Huawei têm a sua própria versão da Aurora Store devido às restrições impostas aos serviços Google em resultado das sanções impostas pelos EUA.
 
 
 

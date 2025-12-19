@@ -1,0 +1,8 @@
+question: Result ve Option türleri ele alınırken unwrap_or() ve unwrap_or_default() yöntemleri arasındaki temel fark nedir?
+answer: unwrap_or() işlevi bir geri dönüş değeri belirtmenizi gerektirirken unwrap_or_default() işlevi türün varsayılan uygulamasını kullanır
+wrong_answers:
+  - unwrap_or() hatalarda panik yaparken unwrap_or_default() None döndürerek üretimde daha güvenli hata işleme sağlar
+  - unwrap_or() yalnızca Result türleriyle çalışırken unwrap_or_default() değer çıkarma işlemi için yalnızca Option türleriyle çalışır
+  - unwrap_or() hataları çağrı yığınına yayarken unwrap_or_default() tüm hataları varsayılan dize mesajlarına dönüştürür
+explanation: |
+  Unwrap_or() yöntemi, bir Result hata içerdiğinde veya bir Option None içerdiğinde belirli bir geri dönüş değeri sağlamanıza olanak tanıyarak hata durumlarında hangi değerin kullanılacağı üzerinde kontrol sahibi olmanızı sağlar. Buna karşılık, unwrap_or_default() otomatik olarak türün Default özellik uygulamasını kullanır; bu da varsayılan değerin kullanım durumunuz için uygun olduğu durumlarda kullanışlıdır. Her iki yöntem de hem Result hem de Option türleriyle çalışır ve hiçbiri panik yapmaz veya hata yaymaz - her ikisi de başarısız olmak yerine kullanılabilir değerler döndürerek zarif bir bozulma sağlar.

@@ -1,8 +1,0 @@
-question: What specific technical challenge did the Lipa team face when implementing blockchain reorganization handling for their LDK-based mobile wallet?
-answer: They had to manually implement notification systems to inform LDK when previously confirmed transactions became unconfirmed due to reorgs
-wrong_answers:
-  - They had to rebuild the entire channel state from scratch whenever a blockchain reorganization occurred in the network
-  - They had to maintain a full Bitcoin node on mobile devices to detect and handle blockchain reorganizations automatically
-  - They had to implement custom consensus rules to prevent blockchain reorganizations from affecting their Lightning channels
-explanation: |
-  LDK requires accurate blockchain information but doesn't provide complete synchronization implementation. When blockchain reorganizations occur, transactions that were previously confirmed can become unconfirmed. The wallet must detect these changes and notify LDK to maintain accurate channel states. The other options are incorrect because: rebuilding entire channel states is unnecessary and inefficient; maintaining full nodes on mobile is impractical due to resource constraints; and wallets cannot implement custom consensus rules to prevent reorgs, which are a natural part of Bitcoin's consensus mechanism.

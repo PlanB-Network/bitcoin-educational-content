@@ -1,9 +1,9 @@
 question: Ko sme da fragmentiše IPv6 paket?
-answer: Izvorni domaćin samo
+answer: Samo izvorni uređaj
 wrong_answers:
   - Samo prvi međuprostorni ruter
-  - Odredišni ruter samo
+  - Samo odredišni ruter
   - Svi ruteri
 explanation: |
   U IPv6, fragmentaciju isključivo obavlja izvorni host, nikada međusobni ruteri.
-reviewed: false
+reviewed: true

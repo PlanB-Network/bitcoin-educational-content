@@ -30,7 +30,7 @@ Ushobora kugura node iteguye ifise mini screen ifatanye, canke ushobora kuyiyuba
 Urupapuro rwo kuri github ni rwiza cane, ariko birashoboka ko rufise ido n’ido ryinshi ku muntu afise ubumenyi buringaniye. Amabwirizwa yanje azoba ari make cane kandi twizigiye ko azoba yoroshe ko muyakurikiza.
 
 
-Mu vy’ukuri, iyo nzira isa cane n’iyo gushinga [MyNode node] (https://armantheparman.com/mynode-Bitcoin-node-easy-setup-guide-raspberry-pi/) n’iyi Raspberry Pi 4. Igitabu ca Raspiblitz ntikigusaba ko udashobora kugura igikoresho co kugenzura, ariko ntaco wogikeneye. Nta n’iyindi klavye canke imbeba ukeneye. Gusa n’ushike ku rutonde rw’ivyo bikoresho biciye kuri mudasobwa iri kuri iyo nzira nyene, hanyuma ukoreshe itegeko rya ssh ukoresheje terminal. Ivyo birashoboka kuri Linux/Mac (vyoroshe) kandi bikaba bikomeye cane kuri Windows.
+Mu vy’ukuri, iyo nzira isa cane n’iyo gushinga [MyNode node](https://armantheparman.com/mynode-Bitcoin-node-easy-setup-guide-raspberry-pi/) n’iyi Raspberry Pi 4. Igitabu ca Raspiblitz ntikigusaba ko udashobora kugura igikoresho co kugenzura, ariko ntaco wogikeneye. Nta n’iyindi klavye canke imbeba ukeneye. Gusa n’ushike ku rutonde rw’ivyo bikoresho biciye kuri mudasobwa iri kuri iyo nzira nyene, hanyuma ukoreshe itegeko rya ssh ukoresheje terminal. Ivyo birashoboka kuri Linux/Mac (vyoroshe) kandi bikaba bikomeye cane kuri Windows.
 
 
 ## Intambwe ya 1: Gura ivyo bikoresho.
@@ -73,7 +73,7 @@ Ibi biranyaruka, ariko birazimvye bidakenewe:
 ## Intambwe ya 2: Gukuraho ishusho ya Raspiblitz
 
 
-Ja kuri [urubuga rwa github rwa Raspiblitz] (https://github.com/rootzoll/raspiblitz), maze urondere “ishusho yo gukuraho” urubuga:
+Ja kuri [urubuga rwa github rwa Raspiblitz](https://github.com/rootzoll/raspiblitz), maze urondere “ishusho yo gukuraho” urubuga:
 
 
 ![image](assets/4.webp)
@@ -91,10 +91,10 @@ Sha-256 Hash y’iyo dosiye yavanwe iraboneka ku rubuga. Bizohinduka uko bigenda
 Imbere yo gukomeza, nimba utazi inzira yawe yo gukikuza dosiye ku murongo w’amabwirizwa, biroroshe kwiga, kandi ukwiye kubimenya.
 
 
-Aha ni [videwo y’ingirakamaro kuri Linux, ariko ikoreshwa kuri Mac] (urutonde rw’ibintu) na yo nyene.
+Aha ni [videwo y’ingirakamaro kuri Linux, ariko ikoreshwa kuri Mac](urutonde rw’ibintu) na yo nyene.
 
 
-Ku madirisha, ng’iyi [inyigisho yoroshe] (v=MBBWVgE0ewk&t=1s).
+Ku madirisha, ng’iyi [inyigisho yoroshe](v=MBBWVgE0ewk&t=1s).
 
 
 _UPDATE: pgp/gpg kugenzura ubu biraboneka. Uzokenera urufunguzo rwa bose rwa Openoms. [Aha](http://parman.org/ushobora gukuraho/openoms.txt) ni (ushobora gukenera uburyo bwo kwihisha kugira ngo urubuga rukore – http, atari https)_

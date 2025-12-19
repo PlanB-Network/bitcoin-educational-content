@@ -14,7 +14,7 @@ Neste tutorial, vamos aprender a instalar o Windows 11 automaticamente usando um
 A primeira coisa de que vai precisar é de um ficheiro de instalação. O local mais seguro e fiável para o transferir é diretamente do sítio Web oficial da Microsoft.
 
 
-Basta visitar a ligação fornecida abaixo e seguir as instruções para transferir o [ficheiro ISO do Windows 11] (https://www.microsoft.com/en-us/software-download/windows11)
+Basta visitar a ligação fornecida abaixo e seguir as instruções para transferir o [ficheiro ISO do Windows 11](https://www.microsoft.com/en-us/software-download/windows11)
 
 
 ![Image](assets/en/02.webp)
@@ -59,10 +59,10 @@ O tamanho do ficheiro é de cerca de 5,5 GB e a ligação gerada será válida d
 ## Automação!
 
 
-Nesta fase, precisamos de fazer alterações à instalação padrão do Windows. Nesta fase, utilizando a instalação não assistida, determinamos quais os itens que vão ser instalados, sem que o utilizador tenha de dar o seu contributo posteriormente. De facto, neste método, é utilizado um ficheiro XML para configurar os passos de instalação e os serviços instalados no Windows. Por outras palavras, a utilização do ficheiro Unattended.xml cria um processo de automatização durante a instalação, impedindo a necessidade de selecionar várias opções e evitando os passos entediantes normalmente necessários durante a configuração. Este método é invulgar, mas é um método padrão que foi introduzido pela Microsoft. Estão disponíveis mais informações no [sítio Web oficial da Microsoft] (https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
+Nesta fase, precisamos de fazer alterações à instalação padrão do Windows. Nesta fase, utilizando a instalação não assistida, determinamos quais os itens que vão ser instalados, sem que o utilizador tenha de dar o seu contributo posteriormente. De facto, neste método, é utilizado um ficheiro XML para configurar os passos de instalação e os serviços instalados no Windows. Por outras palavras, a utilização do ficheiro Unattended.xml cria um processo de automatização durante a instalação, impedindo a necessidade de selecionar várias opções e evitando os passos entediantes normalmente necessários durante a configuração. Este método é invulgar, mas é um método padrão que foi introduzido pela Microsoft. Estão disponíveis mais informações no [sítio Web oficial da Microsoft](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
 
 
-Existem várias ferramentas disponíveis na Internet para gerar ficheiros não assistidos. Algumas delas estão online, enquanto outras estão offline. Uma das ferramentas online para criar este ficheiro é [este sítio Web] (https://schneegans.de/windows/unattend-generator). Depois de o abrir, é-nos apresentada a seguinte página:
+Existem várias ferramentas disponíveis na Internet para gerar ficheiros não assistidos. Algumas delas estão online, enquanto outras estão offline. Uma das ferramentas online para criar este ficheiro é [este sítio Web](https://schneegans.de/windows/unattend-generator). Depois de o abrir, é-nos apresentada a seguinte página:
 
 
 ![Image](assets/en/06.webp)

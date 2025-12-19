@@ -1,5 +1,5 @@
 ---
-name: Gato Wallet.
+name: Cake Wallet
 description: Inyigisho ku gato Wallet n'ukwishyura mu gacerere
 ---
 
@@ -227,7 +227,7 @@ Uhejeje kohereza iyo nkuru, uzobazwa nimba woshima kwongerako uwo muntu mu gitab
 ## 5️⃣ PayJoin
 
 
-Reka dusuzume ico PayJoin ari co [ku vyerekeye] (inyandiko.
+Reka dusuzume ico PayJoin ari co [ku vyerekeye](inyandiko.
 
 
 _Payjoin v2 ni uburyo bwo kuzigama ubuzima bwite no kuzigama amafaranga muri Bitcoin butuma uwurungitse n’uwuronka amafaranga bakorana kugira ngo bashireho amafaranga amwe. Iryo soko rifise inyishu zivuye kuri *uwurungitse* n'uwuronka, bica ku buhinga bwo gucungera Bitcoin busanzwe kandi bikaba bituma habaho ugupima neza no kuzigama amafaranga mu bihe bimwebimwe._

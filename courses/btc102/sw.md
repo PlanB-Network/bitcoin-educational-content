@@ -673,7 +673,7 @@ Zaidi ya yote, kamwe usiwekeze zaidi ya unaweza kumudu kupoteza. Epuka kukopa pe
 ### Kusimamia na kulinda Bitcoin Wallet yako
 
 
-Moja ya vipengele vyenye nguvu zaidi vya Bitcoin (na ambavyo mara nyingi havithaminiwi vya kutosha) ni **kujitunzia mali zako binafsi**. Ukiwa na wallet ya kujitegemea, wewe pekee ndiye unawajibika kwa pesa zako. Wallet hizi kwa kawaida huundwa kutoka kwa **maneno ya kurejesha ufikiaji** (yanayojulikana pia kama *seed phrase*)—mfululizo wa maneno 12 au 24 yanayokupa ufikiaji kamili wa BTC yako. Ukipoteza maneno haya (au mtu mwingine akiyapata), bitcoin zako hupotea milele. **Hakuna huduma kwa wateja. Hakuna kitufe cha kuweka upya.**
+Moja ya vipengele vyenye nguvu zaidi vya Bitcoin (na ambavyo mara nyingi havithaminiwi vya kutosha) ni **kujitunzia mali zako binafsi**. Ukiwa na wallet ya kujitegemea, wewe pekee ndiye unawajibika kwa pesa zako. Wallet hizi kwa kawaida huundwa kutoka kwa **maneno ya kurejesha ufikiaji** (yanayojulikana pia kama *[seed phrase](https://planb.academy/resources/glossary/seed)*)—mfululizo wa maneno 12 au 24 yanayokupa ufikiaji kamili wa BTC yako. Ukipoteza maneno haya (au mtu mwingine akiyapata), bitcoin zako hupotea milele. **Hakuna huduma kwa wateja. Hakuna kitufe cha kuweka upya.**
 
 
 ![image](assets/sw/025.webp)
@@ -1014,7 +1014,7 @@ Ingawa mbinu hii ni ya kiufundi zaidi, inawapa watumiaji wanaohitaji sana uwezo 
 #### Mbinu ya Malipo Inayostahimili Mipaka
 
 
-Kutokana na hali yake ya ugatuzi, Bitcoin inafanya kazi 24/7, bila kuathiriwa na mipaka au maeneo ya saa. Katika maeneo ambayo miundombinu ya benki ya kitamaduni inakosekana, Bitcoin mara nyingi hutumiwa kama suluhisho la haraka, la bei ya chini kwa kutuma au kupokea pesa bila kutegemea wasuluhishi wa gharama kubwa. Ingawa ada za muamala zinaweza kutofautiana kulingana na msongamano wa mtandao, kwa ujumla ni chini sana kuliko ada zinazotozwa na benki kwa uhamisho wa kimataifa. Zaidi ya hayo, suluhu za Layer-2 kama Lightning Network huruhusu miamala ya haraka na ya bei nafuu zaidi ya Bitcoin.
+Kutokana na hali yake ya ugatuzi, Bitcoin inafanya kazi 24/7, bila kuathiriwa na mipaka au maeneo ya saa. Katika maeneo ambayo miundombinu ya benki ya kitamaduni inakosekana, Bitcoin mara nyingi hutumiwa kama suluhisho la haraka, la bei ya chini kwa kutuma au kupokea pesa bila kutegemea wasuluhishi wa gharama kubwa. Ingawa ada za muamala zinaweza kutofautiana kulingana na msongamano wa mtandao, kwa ujumla ni chini sana kuliko ada zinazotozwa na benki kwa uhamisho wa kimataifa. Zaidi ya hayo, suluhu za Layer-2 kama [Lightning Network](https://planb.academy/resources/glossary/lightning-network) huruhusu miamala ya haraka na ya bei nafuu zaidi ya Bitcoin.
 
 
 #### Hifadhi ya thamani
@@ -1545,7 +1545,7 @@ Sekta ya Bitcoin Wallet imegawanywa katika kategoria kadhaa, kila moja ikizingat
 
 
 
-- **Hardware Wallet Manufacturers**: Kampuni hizi hutengeneza vifaa halisi vilivyoundwa kwa uhifadhi wa ufunguo salama. Baadhi ni chanzo huria, ilhali zingine hutoa suluhu za umiliki zenye vipengele tofauti na viwango vya usalama. Majina mashuhuri ni pamoja na Ledger, Trezor, Coinkite, Foundation, na Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Manufacturers**: Kampuni hizi hutengeneza vifaa halisi vilivyoundwa kwa uhifadhi wa ufunguo salama. Baadhi ni chanzo huria, ilhali zingine hutoa suluhu za umiliki zenye vipengele tofauti na viwango vya usalama. Majina mashuhuri ni pamoja na Ledger, Trezor, Coinkite, Foundation, na Shiftcrypto.
  
 - **Wasanidi wa Software Wallet**: Hawa huanzia makampuni hadi wasanidi huru wanaounda programu za simu na za mezani. Matoleo yao yanatofautiana katika uzoefu wa mtumiaji, usalama, na vipengele. Mifano ni pamoja na Sparrow, Wizard Sardine, Galoy, Synonym, na Blockstream.
 -DIY (*Jifanyie Mwenyewe*) Wallet: Suluhu hizi za programu huria zimeundwa kwa watumiaji wa hali ya juu ambao wanataka udhibiti kamili na utegemezi mdogo kwa wahusika wengine. Kuunda wallet yako mwenyewe hupunguza utegemezi wa uaminifu na kunaweza kuongeza mkao wako wa usalama. Chaguzi zinazojulikana za DIY ni pamoja na Seedsigner na Specter DIY.
@@ -1704,7 +1704,7 @@ Muundo huu wa tabaka unasimama tofauti na tasnia kubwa ya crypto, ambayo mara ny
 ### Zana za Muuzaji za Kukubali Bitcoin
 
 
-Leo, kuna zana nyingi zinazopatikana kwa wafanyabiashara wanaotaka kukubali Bitcoin kama njia ya malipo. Kwa biashara ndogo ndogo zinazotafuta usanidi rahisi, kutumia hot wallet (au hata wallet ya Lightning) mara nyingi inatosha kuanza kukubali malipo moja kwa moja. Biashara kubwa zinazohitaji uhasibu na ripoti sahihi kwa kawaida zitapendelea mifumo ya juu zaidi ya usindikaji wa malipo. Kwa bahati nzuri, kuna chaguzi kadhaa zinazopatikana kulingana na mahitaji yako.
+Leo, kuna zana nyingi zinazopatikana kwa wafanyabiashara wanaotaka kukubali Bitcoin kama njia ya malipo. Kwa biashara ndogo ndogo zinazotafuta usanidi rahisi, kutumia [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) (au hata wallet ya Lightning) mara nyingi inatosha kuanza kukubali malipo moja kwa moja. Biashara kubwa zinazohitaji uhasibu na ripoti sahihi kwa kawaida zitapendelea mifumo ya juu zaidi ya usindikaji wa malipo. Kwa bahati nzuri, kuna chaguzi kadhaa zinazopatikana kulingana na mahitaji yako.
 
 
 Iwapo unapendelea suluhisho la kughairi na unataka kupokea sarafu ya fiat moja kwa moja kwenye akaunti yako ya benki, huduma za uhifadhi kama OpenNode hutoa matumizi yaliyoratibiwa:

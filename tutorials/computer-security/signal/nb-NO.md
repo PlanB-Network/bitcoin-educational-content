@@ -60,12 +60,12 @@ Signal er tilgjengelig på alle plattformer. Du kan laste ned applikasjonen dire
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms);
-- [App Store] (https://apps.apple.com/us/app/signal-private-messenger/id874139669);
+- [Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms);
+- [App Store](https://apps.apple.com/us/app/signal-private-messenger/id874139669);
 
 
 
-På Android er det også mulig å [installere via APK] (https://github.com/signalapp/Signal-Android/releases).
+På Android er det også mulig å [installere via APK](https://github.com/signalapp/Signal-Android/releases).
 
 
 

@@ -1,0 +1,8 @@
+question: O que acontece às operações aritméticas quando as curvas elípticas são definidas sobre campos finitos em vez de números reais?
+answer: Todas as operações utilizam aritmética modular, mantendo as mesmas regras algébricas
+wrong_answers:
+  - As fórmulas de adição de pontos devem ser completamente reescritas para a matemática discreta
+  - Os cálculos do declive tornam-se indefinidos devido à natureza discreta dos pontos
+  - Todas as regras algébricas mudam fundamentalmente para acomodar a estrutura do campo finito
+explanation: |
+  Quando as curvas elípticas são transferidas de números reais para campos finitos, a estrutura e as regras algébricas subjacentes permanecem idênticas - apenas a aritmética muda para aritmética modular. Todas as fórmulas de adição de pontos, cálculos de declive e relações geométricas funcionam exatamente da mesma forma, mas todos os cálculos são efectuados no módulo p. Esta preservação das regras algébricas, alterando apenas a base aritmética, é o que torna as curvas elípticas de campo finito tão poderosas para a criptografia, mantendo todas as propriedades matemáticas necessárias e criando o comportamento discreto e imprevisível essencial para a segurança.

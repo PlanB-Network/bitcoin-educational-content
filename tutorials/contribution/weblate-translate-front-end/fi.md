@@ -12,7 +12,7 @@ Tässä opetusohjelmassa näytämme sinulle, miten voit helposti osallistua sivu
 - etusivun tiedot/staattiset elementit (sivut, painikkeet jne.);
 - koulutussisältö (opetusohjelmat, kurssit, resurssit jne.).
 
-Koulutussisällön kääntämiseen käytämme [tekoälyä] (https://github.com/Asi0Flammeus/LLM-Translator). Tämän jälkeen pyydämme oikolukijoita osallistumaan tiedostojen mahdollisten virheiden korjaamiseen. Jos haluat oikolukea jotakin sisältöä, tutustu seuraavaan ohjeeseen:
+Koulutussisällön kääntämiseen käytämme [tekoälyä](https://github.com/Asi0Flammeus/LLM-Translator). Tämän jälkeen pyydämme oikolukijoita osallistumaan tiedostojen mahdollisten virheiden korjaamiseen. Jos haluat oikolukea jotakin sisältöä, tutustu seuraavaan ohjeeseen:
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Toisaalta, jos olet kiinnostunut kääntämään verkkosivuston staattisia elementtejä (lukuun ottamatta opetussisältöä), olet oikeassa paikassa! Etusivun tehokkaaseen kääntämiseen käytämme Weblate-työkalua, joka on erittäin helppokäyttöinen ja helpottaa kääntämistä.
@@ -157,5 +157,5 @@ Kun olet valmis aloittamaan kääntämisen, palaa tähän ohjeeseen ja käy läp
 
 ![weblate](assets/23.webp)
 
-Kiitos jo etukäteen osallistumisestanne Plan ₿ Networkin kääntämiseen! Jos sinulla on meille erityisiä kysymyksiä tai kommentteja, ota rohkeasti yhteyttä [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder).
+Kiitos jo etukäteen osallistumisestanne Plan ₿ Networkin kääntämiseen! Jos sinulla on meille erityisiä kysymyksiä tai kommentteja, ota rohkeasti yhteyttä [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder).
 

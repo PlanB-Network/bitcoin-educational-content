@@ -1,0 +1,8 @@
+question: Koju jednačinu eliptičke krive koristi Bitcoin's secp256k1?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin specifično koristi eliptičku krivu secp256k1, koja ima pojednostavljenu jednačinu y² = x³ + 7. Ovo je poseban slučaj opšteg oblika eliptičke krive y² = x³ + ax + b gde je a = 0 i b = 7. Ostale opcije su netačne: y² = x³ + ax + b je opšti oblik, ali ne specifična kriva Bitcoin, y² = x³ + 5 koristi pogrešnu konstantu, a y² = x³ + x + 7 pogrešno uključuje linearni x član koji ne postoji u secp256k1.

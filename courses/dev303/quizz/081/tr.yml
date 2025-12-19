@@ -1,0 +1,8 @@
+question: Rust'da Sonuç türleriyle zincirleme işlemler yaparken map_err() kullanmanın temel amacı nedir?
+answer: Hata yayılımı sırasında başarı değerlerini değiştirmeden bırakırken hata türlerini dönüştürmek için
+wrong_answers:
+  - Hataları değiştirmeden otomatik olarak yayarken başarı değerlerini dönüştürmek için
+  - Hataların göz ardı edilmesi gerektiğinde Sonuç türlerini Seçenek türlerine dönüştürmek için
+  - Tüm hataları varsayılan başarı değerlerine dönüştürerek hata yayılımını önlemek için
+explanation: |
+  Map_err() yöntemi, başarı değerlerini değiştirmeden korurken hata türlerini dönüştürmek için özel olarak tasarlanmıştır. Bu, farklı bileşenlerin farklı hata temsillerine ihtiyaç duyduğu katmanlı uygulamalar oluşturmak için çok önemlidir. Örneğin, düşük seviyeli ayrıştırma hatalarını daha iyi bağlam sağlayan alana özgü hatalara dönüştürebilirsiniz. Diğer seçenekler yanlıştır: map() başarı değerlerini dönüştürür (map_err() değil), map_err() Seçenek türlerine dönüştürmez ve yayılmayı engellemez veya varsayılan başarı değerleri oluşturmaz.

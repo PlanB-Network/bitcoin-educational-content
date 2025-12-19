@@ -1,0 +1,8 @@
+question: Hva skjer under avviklingsprosessen når det oppstår panikk i Rust?
+answer: Rust går tilbake gjennom anropsstakken for å gi en detaljert stakkesporing
+wrong_answers:
+  - Rust avslutter programmet umiddelbart uten noen form for opprydding eller informasjon
+  - Rust konverterer panikken automatisk til en gjenopprettbar resultattype
+  - Rust starter den mislykkede operasjonen på nytt fra begynnelsen av funksjonen
+explanation: |
+  Når det oppstår panikk i Rust, går avviklingsprosessen tilbake gjennom anropsstakken for å gi et detaljert stakkespor som viser nøyaktig hvor panikken oppstod. Dette hjelper utviklere med å identifisere kilden til problemer under feilsøking. De andre alternativene er feil: Rust avsluttes ikke umiddelbart uten opprydding (det skjer bare når unwinding er deaktivert), panikkanrop kan ikke automatisk konverteres til Result-typer, og Rust starter ikke mislykkede operasjoner på nytt.

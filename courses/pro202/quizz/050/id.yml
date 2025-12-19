@@ -1,0 +1,8 @@
+question: Ketika sebuah node Bitcoin melakukan bootstrap dan bergabung dengan jaringan untuk pertama kalinya, apa mekanisme utama yang digunakannya untuk menemukan rekan-rekan yang aktif?
+answer: Menghubungi benih DNS yang dikodekan dengan kode keras yang dikelola oleh pengembang inti untuk menerima IP rekan yang aktif
+wrong_answers:
+  - Menyiarkan pesan penemuan ke semua alamat IP dalam rentang subnet yang telah ditentukan
+  - Menghubungkan ke server registri pusat yang menyimpan daftar semua node aktif
+  - Menggunakan protokol DHT (Distributed Hash Table) untuk menemukan rekan-rekan melalui perutean berbasis hash
+explanation: |
+  Bitcoin menggunakan seed DNS yang dikodekan sebagai mekanisme bootstrap karena menyediakan cara terdesentralisasi bagi node baru untuk masuk ke dalam jaringan tanpa bergantung pada otoritas pusat. Seed DNS dikelola oleh pengembang inti dan mengembalikan alamat IP dari peer yang sedang aktif. Setelah terhubung, node kemudian dapat menggunakan perintah getaddr untuk menemukan peer tambahan. Jawaban yang salah menggambarkan pendekatan atau protokol terpusat yang tidak digunakan oleh Bitcoin - tidak ada registri pusat, tidak ada penyiaran subnet, dan tidak ada penemuan peer berbasis DHT dalam desain Bitcoin.

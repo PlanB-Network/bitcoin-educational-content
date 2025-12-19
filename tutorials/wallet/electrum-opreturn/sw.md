@@ -218,7 +218,7 @@ ambayo inaundwa na:
 
 
 
-Kidokezo: Tumia zana ya [OP_RETURN Jenereta] (https://resources.davidcoen.it/opreturnelectrum/) ili generate hati kiotomatiki. Hata kama zana hii inapendekeza kuweka kiasi katika BTC, kuweka kitengo kimesanidiwa katika Electrum.
+Kidokezo: Tumia zana ya [OP_RETURN Jenereta](https://resources.davidcoen.it/opreturnelectrum/) ili generate hati kiotomatiki. Hata kama zana hii inapendekeza kuweka kiasi katika BTC, kuweka kitengo kimesanidiwa katika Electrum.
 
 
 

@@ -33,7 +33,7 @@ objectives:
 
 
 
-Добре дошли в BTC302!
+Добре дошли в BTC 304!
 
 
 
@@ -606,13 +606,13 @@ Bitcoin е децентрализирана, така че естествено 
 
 
 
-- Плакат на събитието** (за социалните медии и печат на формат A4/A3): [линк] (https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Плакат на събитието** (за социалните медии и печат на формат A4/A3): [линк](https://www.canva.com/design/DAGBvG3rNCc/oXtNR9pduRs22AqclG4O2g/edit?utm_content=DAGBvG3rNCc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
 
 
-- банери за социални медии**: [линк] (https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- банери за социални медии**: [линк](https://www.canva.com/design/DAGBvOXyNqw/iSJG9PbIQHgGWHz5PhlXSQ/edit?utm_content=DAGBvOXyNqw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -628,7 +628,7 @@ Bitcoin е децентрализирана, така че естествено 
 
 
 
-- насоки за марката** на нашата библиотека, изложени на A4 на срещите: [линк] (https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- насоки за марката** на нашата библиотека, изложени на A4 на срещите: [линк](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -2218,7 +2218,7 @@ WordPress поддържа и широк набор от приставки (н�
 - [**peertube**](https://joinpeertube.org/fr_FR) ви позволява да хоствате своя собствена платформа за видеоклипове, въпреки че настройката ѝ е по-сложна.
 
 
-Независимо от това кой вариант ще изберете, създайте визуални материали, съобразени с платформата, за да направите канала си привлекателен. Canva, спомената в [част 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), предлага категория "Миниатюра на YouTube" с предварително създадени дизайни, които могат да се персонализират.
+Независимо от това кой вариант ще изберете, създайте визуални материали, съобразени с платформата, за да направите канала си привлекателен. Canva, спомената в [част 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), предлага категория "Миниатюра на YouTube" с предварително създадени дизайни, които могат да се персонализират.
 
 
 
@@ -2825,14 +2825,14 @@ Bitcoin е обширна заешка дупка, която засяга ис�
 
 
 
-## BTC302, Какво следва
+## BTC 304, Какво следва
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-В този курс на BTC302 разгледахме подробно как да създадете общност или среща, както и как да стартирате различни проекти.
+В този курс на BTC 304 разгледахме подробно как да създадете общност или среща, както и как да стартирате различни проекти.
 
 
 Когато вашата общност е готова да направи следващата стъпка, **можете да създадете официална асоциация**.

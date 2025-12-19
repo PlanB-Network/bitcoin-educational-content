@@ -1,0 +1,8 @@
+question: Milline on Fermat' väikese teoreemi kohaselt elemendi n korrutisvõrrandi pöördväärtus primaarväljas F(p)?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Fermat' väike teoreem väidab, et n^(p-1) ≡ 1 (mod p) mis tahes nullist erineva elemendi n korral primaarväljas. Korrutava pöördväärtuse leidmiseks vajame väärtust, mis n-ga korrutamisel annab 1. Kuna n^(p-1) ≡ 1, saame selle ümber kirjutada kui n - n^(p-2) ≡ 1, tõestades, et n^(p-2) on n-i korrutisvõrrandi pöördväärtus. Teised võimalused on valed: n^(p-1) on Fermat' teoreemi kohaselt võrdne 1, samas kui n^(p+1) ja n^(p+2) annaksid vastavalt n^2 ja n^3 väärtused, kui neid vähendada modulo p.

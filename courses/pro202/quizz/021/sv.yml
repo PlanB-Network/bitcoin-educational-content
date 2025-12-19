@@ -1,0 +1,8 @@
+question: Vad är den primära konsekvensen av att glömma att inkludera en ändringsutmatning när man spenderar en UTXO som innehåller mer Bitcoin än nödvändigt?
+answer: Det överskjutande beloppet blir automatiskt en gruvavgift
+wrong_answers:
+  - Transaktionen kommer att avvisas av nätverket som ogiltig
+  - "Det överskjutande beloppet returneras till den ursprungliga avsändarens adress"
+  - Det överskjutande beloppet förblir låst i den ursprungliga UTXO
+explanation: |
+  I Bitcoin:s UTXO-modell beräknas transaktionsavgifter implicit som skillnaden mellan totala inmatningar och totala utmatningar (avgift = summa(inmatningar) - summa(utmatningar)). När du spenderar en UTXO måste du spendera den i sin helhet - det är omöjligt att spendera delar av den. Om du bara behöver spendera en del av en UTXO:s värde måste du skapa en förändringsutgång för att få resten. Om du glömmer att inkludera denna change output blir den oredovisade skillnaden mellan inputs och outputs automatiskt gruvarbetaravgiften. Det är därför det är så viktigt att skapa en korrekt change output - annars kan du råka betala enorma avgifter till gruvarbetarna.

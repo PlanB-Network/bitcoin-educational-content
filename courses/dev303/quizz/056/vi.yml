@@ -1,0 +1,8 @@
+question: Cú pháp mẫu macro nào sẽ khớp chính xác với không hoặc nhiều biểu thức được phân tách bằng dấu phẩy trong một macro giống như hàm tùy chỉnh?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Cú pháp chính xác $($x:expr),* sử dụng mẫu lặp lại của Rust, trong đó dấu đô la dùng để chỉ định một nhóm lặp lại, $x:expr khớp với mỗi biểu thức có chỉ định đoạn expr, dấu phẩy đóng vai trò là dấu phân cách giữa các biểu thức, và dấu sao (*) biểu thị không hoặc nhiều lần lặp lại. Các câu trả lời sai chứa lỗi cú pháp: $($x:expr)*, đặt dấu phẩy bên ngoài nhóm lặp lại, $[x:expr],* sử dụng dấu ngoặc vuông thay vì dấu ngoặc đơn và bỏ sót dấu đô la trước x, và ${$x:expr},* sử dụng dấu ngoặc nhọn thay vì dấu ngoặc đơn cho nhóm lặp lại.

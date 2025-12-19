@@ -28,7 +28,7 @@ Katika BTC304, tutaangalia kwa nini ujenzi wa jamii ni muhimu, kuchunguza zana z
 
 
 
-Karibu BTC302!
+Karibu BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Ukiwa peke yako, unaweza kuchunguza kwa haraka mojawapo ya vichuguu vingi kwenye
 
 
 
-## BTC302, Nini Kinachofuata
+## BTC 304, Nini Kinachofuata
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Katika kozi hii ya BTC302, tumeeleza kwa kina jinsi ya kuanzisha jumuiya au kukutana, na pia jinsi ya kuzindua miradi mbalimbali.
+Katika kozi hii ya BTC 304, tumeeleza kwa kina jinsi ya kuanzisha jumuiya au kukutana, na pia jinsi ya kuzindua miradi mbalimbali.
 
 
 Jumuiya yako inapokuwa tayari kuchukua hatua inayofuata, **unaweza kuunda muungano rasmi**.

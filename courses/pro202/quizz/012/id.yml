@@ -1,0 +1,8 @@
+question: Properti matematika apa yang memastikan bahwa titik-titik kurva eliptik dapat dijumlahkan secara konsisten dan dapat diprediksi dalam operasi kriptografi?
+answer: Titik-titik membentuk grup matematika dengan penutupan, keterkaitan, identitas, dan invers
+wrong_answers:
+  - Titik-titik mempertahankan kurva halus yang terus menerus yang mempertahankan hubungan geometris
+  - Poin mengikuti pola perkembangan linier yang menciptakan urutan yang dapat diprediksi
+  - Poin menggunakan aritmatika modular yang secara otomatis mencegah kesalahan komputasi
+explanation: |
+  Titik-titik kurva eliptik membentuk sebuah grup matematika dalam penjumlahan, yang berarti mereka memenuhi empat sifat penting: penutupan (menambahkan dua titik menghasilkan satu titik lagi pada kurva), asosiatif (urutan operasi tidak menjadi masalah), identitas (titik pada tak terhingga bertindak sebagai nol), dan kebalikannya (setiap titik memiliki sebuah refleksi yang membatalkannya). Sifat-sifat kelompok ini yang membuat kriptografi kurva eliptik bekerja dengan baik dan memungkinkan operasi seperti perkalian skalar untuk berperilaku secara konsisten, terlepas dari apakah kita bekerja dengan kurva nyata yang halus atau titik-titik bidang terbatas diskrit.

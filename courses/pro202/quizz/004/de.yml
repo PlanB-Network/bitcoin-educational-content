@@ -1,0 +1,8 @@
+question: Welche mathematische Operation wird verwendet, um den Punkt P + Q auf einer elliptischen Kurve zu finden?
+answer: Ziehen Sie eine Linie durch die Punkte P und Q, finden Sie den dritten Schnittpunkt R, und spiegeln Sie R an der x-Achse
+wrong_answers:
+  - Addieren Sie die x-Koordinaten und y-Koordinaten von P und Q direkt mit modularer Arithmetik
+  - Multiplizieren Sie die Koordinaten von P und Q miteinander und wenden Sie die Kurvengleichung an, um das Ergebnis zu erhalten
+  - Berechnen Sie den Mittelpunkt zwischen P und Q und wenden Sie dann die Tangentenmethode an, um die Summe zu erhalten
+explanation: |
+  Die Punktaddition bei elliptischen Kurven folgt einer bestimmten geometrischen Regel: Ziehen Sie eine Linie durch die beiden Punkte P und Q, die die Kurve in einem dritten Punkt R schneidet, und spiegeln Sie dann R an der x-Achse, um P + Q zu erhalten. Diese geometrische Operation wird algebraisch, wenn man über endlichen Feldern arbeitet, behält aber das gleiche Grundprinzip bei. Die anderen Optionen beschreiben falsche Methoden, die nicht dem etablierten Gruppengesetz für elliptische Kurven folgen.

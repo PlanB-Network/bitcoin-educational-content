@@ -1,0 +1,8 @@
+question: Từ khóa nào cần thiết để làm cho một biến có thể sửa đổi được sau khi khai báo lần đầu trong Rust?
+answer: đột biến
+wrong_answers:
+  - biến
+  - có thể thay đổi
+  - thay đổi
+explanation: |
+  Trong Rust, từ khóa 'mut' là bắt buộc để khai báo một biến là có thể thay đổi giá trị, cho phép giá trị của nó được thay đổi sau khi gán giá trị ban đầu. Theo mặc định, tất cả các biến trong Rust đều là bất biến vì lý do an toàn. Cú pháp là 'let mut x = 5' cho biến có thể thay đổi giá trị và 'let x = 5' cho biến bất biến. Các tùy chọn khác như 'var', 'mutable' và 'change' không phải là từ khóa hợp lệ trong Rust cho mục đích này.

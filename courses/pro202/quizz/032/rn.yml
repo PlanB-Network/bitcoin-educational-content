@@ -1,0 +1,8 @@
+question: Ni imvo nyamukuru iyihe yatumye amafaranga menshi asubirizwa cane na P2SH kubera ibibazo vy’ugukoresha amahera bitoroshe?
+answer: Bare multisig yerekana imfunguruzo zose za bose on-chain, igatuma amafaranga akoreshwa aba manini, azimvye, kandi agoye gushiramwo nk’amaderesi .
+wrong_answers:
+  - Bare multisig isaba amasinya menshi kurusha P2SH kugira ngo umuntu ashike ku rugero rumwe rw'umutekano ku bikorwa vy'imigwi myinshi .
+  - Bare multisig ntishobora gukorana n’igihe c’ibikorwa canke ibisabwa vyo gukoresha amahera nk’uko P2SH ishobora
+  - Imikono myinshi y'ubusa ntihuye n'ubuhinga bwa none bwa wallet kandi ntishobora gutangazwa ku bice vy'ubu .
+explanation: |
+  P2SH yashizweho cane cane kugira ngo ishobore gutorera umuti ubukene bwa bare multisig. Bare multisig isaba ko imfunguruzo zose za bose ziboneka muri scriptPubKey, zigatuma habaho ubunini buhambaye bw’ibikorwa bitwara amafaranga menshi kandi bigoye guserukira nk’amaderesi akoreshwa neza. P2SH itorera umuti ivyo mu guhisha inyandiko igoye inyuma y’uruzitiro rw’amabayiti 20, igahishura gusa ivyerekeye ukuntu amahera akoreshwa iyo umusaruro ukoreshejwe. Ivyo bigabanya ikirenge ca on-chain, bituma umuntu agira ubuzima bwiwe bwite, kandi bikaba bituma umuntu ashobora gukoresha amaderesi asanzwe mu gihe aguma afise umutekano nk’uwo nyene.

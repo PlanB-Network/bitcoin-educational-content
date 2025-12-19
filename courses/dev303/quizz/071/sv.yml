@@ -1,0 +1,8 @@
+question: Vad är det lämpligaste svaret när en Bitcoin-applikation stöter på ett ogiltigt inmatningsfel, till exempel att få ett negativt värde för ett fält som bara kräver positiva heltal?
+answer: Avvisa inmatningen och returnera en felindikation till den som anropar
+wrong_answers:
+  - Omvandla det negativa värdet till dess absoluta värde och fortsätt bearbetningen
+  - Logga felet men fortsätt med åtgärden med ett standardvärde
+  - Avsluta hela programmet omedelbart för att förhindra datakorruption
+explanation: |
+  Ogiltiga inmatningsfel utgör kontraktsbrott mellan anroparen och funktionen, där de angivna parametrarna inte uppfyller funktionens krav. Det korrekta tillvägagångssättet är att avvisa indata och returnera en felindikation, så att den som anropar kan hantera situationen på lämpligt sätt. Att konvertera negativa värden till positiva maskerar felet och kan leda till ett oavsiktligt beteende. Genom att använda standardvärden ignoreras uppringarens avsikt och felaktiga data kan bearbetas. Att avsluta hela applikationen är överdrivet vid fel i indatavalideringen och skulle skapa en dålig användarupplevelse i Bitcoin-applikationer där en smidig felhantering är avgörande.

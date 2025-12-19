@@ -1,0 +1,8 @@
+question: Wenn Bitcoin-Blockhashes als Little-Endian-Ganzzahlen für den Zielvergleich interpretiert werden, warum weisen gültige Blöcke in der Regel viele nachgestellte Nullen in ihrer hexadezimalen Darstellung auf?
+answer: Da die Little-Endian-Interpretation bedeutet, dass die ganz rechten Bytes in Hex den höchstwertigen Bits des Ganzzahlwerts entsprechen
+wrong_answers:
+  - Da der SHA-256-Algorithmus bei Transaktionsdaten mit sich wiederholenden Mustern naturgemäß Nullen am Ende der Eingabe erzeugt
+  - Weil Miner den Block-Header absichtlich mit Null-Bytes auffüllen, um die Hash-Berechnung für ASIC-Hardware effizienter zu machen
+  - Da das Nonce-Feld von Null aufwärts inkrementiert wird, was die Hash-Funktion dazu veranlasst, generate-Muster mit abschließenden Nullen
+explanation: |
+  Bei der Little-Endian-Interpretation werden die Bytes in umgekehrter Reihenfolge gelesen, d. h. die Bytes ganz rechts in Hexadezimal werden zum höchstwertigen Teil der Ganzzahl. Damit ein Hash unter dem Zielwert (eine kleine Zahl) liegt, müssen seine höchstwertigen Bits Null sein, die in der Hex-Anzeige als nachgestellte Nullen erscheinen. Dies ist ein reines Darstellungsartefakt der Endianness-Konvertierung und keine Eigenschaft der SHA-256- oder mining-Hardware.

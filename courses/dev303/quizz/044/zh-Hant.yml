@@ -1,0 +1,8 @@
+question: 在 Rust 的 closure 特性層級中，所有 closure 實作的最基本特性是什麼？
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - 迭代器
+explanation: |
+  FnOnce 是所有 closure 在 Rust 中實作的最基本特質。它代表至少可以被呼叫一次的閉包，使它成為閉包特徵階層的基礎。FnMut 和 Fn 是建立在 FnOnce 之上的限制性更強的特徵 - FnMut 允許多次呼叫並帶有突變，而 Fn 則允許多次呼叫但不帶突變。Iterator 與 closure 特性無關，用於處理資料序列。

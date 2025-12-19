@@ -67,7 +67,7 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 
-- A **Blockstream App** é uma aplicação móvel (iOS, Android) e de ambiente de trabalho para gerir carteiras e activos do Bitcoin no Liquid Network. Adquirida pela [Blockstream] (https://blockstream.com/) em 2016, foi anteriormente designada *Green Address* e depois *Blockstream Green*.
+- A **Blockstream App** é uma aplicação móvel (iOS, Android) e de ambiente de trabalho para gerir carteiras e activos do Bitcoin no Liquid Network. Adquirida pela [Blockstream](https://blockstream.com/) em 2016, foi anteriormente designada *Green Address* e depois *Blockstream Green*.
 - **Características principais**:
 - **Transacções Onchain** em Blockchain Bitcoin.
     - Transacções de rede **Liquid** (Sidechain para trocas rápidas e confidenciais).
@@ -91,10 +91,10 @@ description: Configurar a aplicação Blockstream no telemóvel e gerir as trans
 
 
 - Para **Android**:
-    - Descarregue [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) a partir da Google Play Store.
+    - Descarregue [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) a partir da Google Play Store.
     - Alternativa: Instalar através do ficheiro APK disponível no [GitHub oficial da Blockstream](https://github.com/Blockstream/green_android).
 - Para **iOS**:
-    - Descarregar [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) da App Store.
+    - Descarregar [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) da App Store.
 - **Nota**: Certifique-se de que descarrega a partir de fontes oficiais para evitar aplicações fraudulentas.
 
 
@@ -502,7 +502,7 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Glossário] (https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
+- [Glossário](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 

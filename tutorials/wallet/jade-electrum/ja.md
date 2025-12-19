@@ -1,5 +1,5 @@
 ---
-name: ジェイド - Electrum
+name: Jade - Electrum
 description: Electrum（デスクトップ）でのJadeまたはJade Plusの使用方法
 ---
 

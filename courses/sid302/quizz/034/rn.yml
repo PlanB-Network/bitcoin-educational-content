@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo bw’ubwubatsi bushoboza Breez SDK gukora ibikorwa vyo guhindura Liquid-ku-Bitcoin ata kwizigira federated peg-outs canke guhinduranya amakuru hagati?
+answer: Uburyo bwo guhinduranya amafaranga kabiri bufise amafaranga yo gufunga icarimwe ku minyororo yompi aho uwurungika asaba amafaranga Bitcoin uwuronka amafaranga asaba amafaranga Liquid
+wrong_answers:
+  - Ihinduka rimwe ry’amazi y’amazi aho amahera ya Bitcoin abanza gukingirwa hanyuma akasabwa hakoreshejwe ishusho y’ukwishura kw’umuravyo kuva ku gikorwa ca Liquid
+  - Ubwubatsi bw'uguhindura ubwato buja munsi y'amazi aho Liquid Network ikora nk'ikiraro c'ubuhuza kugira ngo yemeze amafaranga Bitcoin mainchain
+  - Uburyo bwo gutanga amasinya menshi burongowe na Boltz buhuza uguhinduranya atome hagati ya Liquid na Bitcoin hakoreshejwe amasezerano afise igihe
+explanation: |
+  Uburyo bwo guhinduranya kabiri bwagenewe canecane uguhinduranya amafaranga y’uruzitiro rwa Bitcoin, bujanye n’ugufunga amafaranga icarimwe ku nzira zompi za Liquid na Bitcoin. Ubwo buryo butagira ukwizigira buratuma umuntu ashobora gukorana n’abandi ata federated peg-outs. Ibindi bihitamwo bidondora nabi uguhinduranya ubwato bwo mu mazi buja mu nzira imwe, bigaragaza nabi uruhara rwa Liquid Network, canke bitanga iciyumviro kitari co co kwizigira uburyo bumwe SDK irinda mu buryo butomoye.

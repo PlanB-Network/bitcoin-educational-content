@@ -1,5 +1,5 @@
 ---
-name: رامبل Wallet
+name: Rumble Wallet
 description: به خالقانی بپیوندید که از آزادی بیان از طریق آزادی مالی دفاع می‌کنند.
 ---
 

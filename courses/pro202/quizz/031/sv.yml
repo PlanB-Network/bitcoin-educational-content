@@ -1,0 +1,8 @@
+question: Vad händer med ScriptSig-fälten för alla indata under sighash-konstruktionsprocessen för äldre ECDSA-signaturverifiering?
+answer: Alla ScriptSig-fält töms, sedan ersätts den aktuella inmatningens ScriptSig med dess motsvarande ScriptPubKey
+wrong_answers:
+  - Alla ScriptSig-fält förblir oförändrade och ingår i sin ursprungliga form i sighash-beräkningen
+  - "Endast den aktuella inmatningens ScriptSig behålls medan alla andra inmatningars ScriptSig-fält tas bort från transaktionen"
+  - Alla ScriptSig-fält ersätts med motsvarande ScriptPubKey-värden från de refererade utdata
+explanation: |
+  Under sighash-konstruktion för äldre transaktioner tömmer processen specifikt alla ScriptSig-fält först och ersätter sedan endast den aktuella inmatningen som valideras med motsvarande ScriptPubKey från utmatningen som den spenderar. Detta säkerställer att signaturen förbinder sig till utgiftsvillkoren utan att skapa cirkulära beroenden där signaturer skulle behöva signera sig själva. De andra alternativen är felaktiga eftersom de antingen lämnar signaturer på plats (vilket skapar logiska omöjligheter) eller ändrar alla indata på ett enhetligt sätt (vilket inte skulle isolera den aktuella indatans valideringskontext på rätt sätt).

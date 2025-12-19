@@ -104,7 +104,7 @@ Per scaricarlo, andate su [il sito ufficiale di Manjaro](https://manjaro.org/) e
 
 
 
-Quindi andare sul sito web del software [Rufus] (https://rufus.ie/fr/) e scaricarlo. Eseguire il programma, inserire la chiave USB, selezionare l'immagine ISO di Manjaro e avviare il flashing. Attendere il termine del processo prima di rimuovere la chiave. È quindi possibile riavviare il computer.
+Quindi andare sul sito web del software [Rufus](https://rufus.ie/fr/) e scaricarlo. Eseguire il programma, inserire la chiave USB, selezionare l'immagine ISO di Manjaro e avviare il flashing. Attendere il termine del processo prima di rimuovere la chiave. È quindi possibile riavviare il computer.
 
 
 

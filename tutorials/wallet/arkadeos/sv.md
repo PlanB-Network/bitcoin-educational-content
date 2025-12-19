@@ -267,7 +267,7 @@ Kontrollera detaljerna på skärmen "Sign transaction" och bekräfta sedan med *
 
 
 
-**on-chain sekretess för utdata**: Exemplet nedan visar en [Ark-utdatatransaktion på mempool.space] (https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb). Vi observerar en distribuerad inmatning till 4 olika utmatningar, som en CoinJoin. För en extern observatör är det omöjligt att avgöra vilken mängd som tillhör vilken användare.
+**on-chain sekretess för utdata**: Exemplet nedan visar en [Ark-utdatatransaktion på mempool.space](https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb). Vi observerar en distribuerad inmatning till 4 olika utmatningar, som en CoinJoin. För en extern observatör är det omöjligt att avgöra vilken mängd som tillhör vilken användare.
 
 
 

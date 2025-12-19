@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal diferencia entre el modo en que Rust aplica normalmente las normas de préstamo y el modo en que RefCell las aplica?
+answer: Rust suele aplicar las normas de préstamo en tiempo de compilación, mientras que RefCell las aplica en tiempo de ejecución
+wrong_answers:
+  - Rust permite normalmente múltiples referencias mutables, mientras que RefCell las restringe a una
+  - Rust utiliza normalmente el recuento de referencias para la seguridad, mientras que RefCell utiliza el análisis estático
+  - Rust requiere normalmente una gestión explícita de la memoria, mientras que RefCell la gestiona automáticamente
+explanation: |
+  La innovación clave de RefCell consiste en trasladar la aplicación de las normas de préstamo del tiempo de compilación al tiempo de ejecución. El compilador comprueba las referencias Rust normales durante la compilación para garantizar la seguridad, pero RefCell realiza estas mismas comprobaciones durante la ejecución del programa. Esto permite a RefCell proporcionar mutabilidad interior en situaciones en las que el análisis estático del compilador es demasiado conservador, pero tiene como contrapartida posibles pánicos en tiempo de ejecución si se violan las reglas de préstamo. Las otras opciones describen incorrectamente los mecanismos de seguridad fundamentales de Rust o el comportamiento real de RefCell.

@@ -20,7 +20,7 @@ Was die Verbindung angeht, so können Sie mit Sparrow eine Verbindung zu Ihrem e
 
 ## Sperling Wallet einbauen
 
-Rufen Sie [die offizielle Sparrow Wallet-Downloadseite] (https://sparrowwallet.com/download/) auf und wählen Sie die Softwareversion aus, die Ihrem Betriebssystem entspricht.
+Rufen Sie [die offizielle Sparrow Wallet-Downloadseite](https://sparrowwallet.com/download/) auf und wählen Sie die Softwareversion aus, die Ihrem Betriebssystem entspricht.
 
 ![Image](assets/fr/01.webp)
 

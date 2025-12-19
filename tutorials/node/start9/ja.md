@@ -1,5 +1,5 @@
 ---
-name: スタート9
+name: Start9
 
 description: Start9プライベートサーバーの設定に関するチュートリアル
 

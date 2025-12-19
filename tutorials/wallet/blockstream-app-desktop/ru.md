@@ -599,7 +599,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Официальные ссылки**:
-    - [Официальный сайт] (https://blockstream.com/)
+    - [Официальный сайт](https://blockstream.com/)
     - [Поддержка приложения Blockstream](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): документация и чат
     - [GitHub](https://github.com/Blockstream/green_qt)
 
@@ -630,7 +630,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Глоссарий] (https://planb.academy/fr/resources/glossary/liquid-network)
+[Глоссарий](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
@@ -642,7 +642,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-[Глоссарий] (https://planb.academy/fr/resources/glossary/lightning-network)
+[Глоссарий](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 

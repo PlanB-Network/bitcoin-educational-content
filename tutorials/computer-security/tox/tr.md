@@ -50,7 +50,7 @@ Tox protokolünün kullandığı teknoloji, blok zincirleri gibi eşler arası a
 
 
 
-Tox protokolünü [Tox Chat sitesi] (https://tox.chat) adresinden indirebileceğiniz bir anlık mesajlaşma istemcisi aracılığıyla kullanabilirsiniz.
+Tox protokolünü [Tox Chat sitesi](https://tox.chat) adresinden indirebileceğiniz bir anlık mesajlaşma istemcisi aracılığıyla kullanabilirsiniz.
 
 
 
@@ -74,7 +74,7 @@ Tox protokolünü [Tox Chat sitesi] (https://tox.chat) adresinden indirebileceğ
 
 
 
-- qTox: Windows, Linux, MacOs'ta bulunan Qt Framework (C++) tabanlı [açık kaynak] (https://github.com/TokTok/qTox) adresinden bir Tox istemcisi.
+- qTox: Windows, Linux, MacOs'ta bulunan Qt Framework (C++) tabanlı [açık kaynak](https://github.com/TokTok/qTox) adresinden bir Tox istemcisi.
 
 
 

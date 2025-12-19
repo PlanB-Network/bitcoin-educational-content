@@ -1,0 +1,8 @@
+question: Was passiert, wenn ein Reverse Submarine Swap in der Breez SDK-Architektur fehlschlägt oder eine Zeitüberschreitung auftritt?
+answer: Das SDK erstellt und sendet automatisch eine Erstattungstransaktion, um Geldmittel an das wallet des Benutzers zurückzugeben
+wrong_answers:
+  - Der Swap-Anbieter leitet manuell einen Wiederherstellungsprozess ein, der ein Eingreifen des Benutzers innerhalb von 24 Stunden erfordert
+  - Die Mittel bleiben dauerhaft gesperrt, bis die Lightning Network-Verbindung wiederhergestellt ist
+  - Der Benutzer muss sich an den Boltz-Support wenden, um eine federated peg-out-Transaktion manuell auszulösen
+explanation: |
+  Das Breez SDK implementiert ein automatisches Rückerstattungsmanagement als kritischen Sicherheitsmechanismus. Wenn Swaps fehlschlagen oder die Zeit abgelaufen ist, überwacht das SDK alle Swap-Zustände und wickelt den Wiederherstellungsprozess automatisch ab, ohne dass der Benutzer eingreifen muss. Dadurch wird die Komplexität von zeitlich begrenzten Verträgen eliminiert und sichergestellt, dass Gelder nie dauerhaft verloren gehen. Die anderen Optionen sind nicht korrekt, da sie entweder ein manuelles Eingreifen erfordern, von einem permanenten Mittelverlust ausgehen oder Prozesse beinhalten, die im automatisierten System nicht existieren.

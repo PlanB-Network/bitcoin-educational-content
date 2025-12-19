@@ -1,5 +1,5 @@
 ---
-name: 比提卡
+name: Bitika
 description: 通过 M-Pesa 购买比特币，只需三个简单步骤
 ---
 ![cover](assets/cover.webp)

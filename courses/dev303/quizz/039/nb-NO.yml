@@ -1,0 +1,8 @@
+question: Hvilken egenskap representerer lukninger som kan kalles flere ganger uten å mutere miljøet de er fanget opp i?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn er den mest restriktive closure-egenskapen som representerer closures som kan anropes flere ganger uten å mutere omgivelsene de er fanget inn i. Disse lukningene fanges bare opp av en uforanderlig referanse og kan trygt kalles samtidig. FnOnce representerer lukninger som bare kan kalles én gang, mens FnMut representerer lukninger som kan kalles flere ganger, men som kan mutere omgivelsene de fanger opp. FnCapture er ikke en ekte Rust-egenskap.

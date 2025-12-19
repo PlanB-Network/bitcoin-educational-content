@@ -1,10 +1,9 @@
-question: Co umožňuje Lightning Network?
-answer: Okamžité, nízkonákladové transakce s Bitcoinem.
+question: Jaký je hlavní cíl Lightning Network?
+answer: Umožnit offchain platby, rychlé a levné
 wrong_answers:
-  - Okamžité, vysokonákladové transakce s Bitcoinem.
-  - Zpožděné, nízkonákladové transakce s Bitcoinem.
-  - Zpožděné, vysokonákladové transakce s Bitcoinem.
-explanation: >-
-  Lightning Network umožňuje okamžité, nízkonákladové transakce s Bitcoinem,
-  čímž řeší problém škálovatelnosti Bitcoinu.
-reviewed: true
+  - Zvýšit velikost bloků bitcoinového blockchainu
+  - Postupně nahradit bitcoinový blockchain výkonnějším systémem
+  - Učinit těžební farmy velmi bohatými
+explanation: |
+  Lightning Network si klade za cíl umožnit téměř okamžité platby v bitcoinech s nízkými poplatky, aniž by zatěžoval hlavní blockchain.
+reviewed: false

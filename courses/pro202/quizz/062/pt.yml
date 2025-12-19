@@ -1,0 +1,8 @@
+question: Na pilha de testemunhas de uma transação P2WSH para um multisig 2 de 3, por que razão tem de ser incluído um elemento vazio na parte inferior da pilha de testemunhas?
+answer: Para compensar o erro "off-by-one" do CHECKMULTISIG que consome um elemento extra da pilha durante a execução
+wrong_answers:
+  - "Para fornecer um espaço reservado para a terceira assinatura que não foi utilizada na validação multisig 2-de-3"
+  - Para separar os dados da assinatura do guião da testemunha para uma análise correta da validação SegWit
+  - Para garantir que a pilha de testemunhas tem um número par de elementos para uma construção eficiente da árvore de merkle
+explanation: |
+  O código de operação CHECKMULTISIG tem um erro histórico em que retira um elemento extra da pilha para além do que deveria ser necessário. Isto afecta todas as transacções multisig, incluindo P2WSH. O elemento vazio compensa este bug, assegurando que os restantes elementos da pilha (assinaturas e script testemunha) estão corretamente posicionados para validação. As outras opções estão incorrectas: as assinaturas não utilizadas não são representadas por elementos vazios, a análise de testemunhas não requer elementos de separação e as pilhas de testemunhas não necessitam de uma contagem uniforme de elementos para operações de merkle.

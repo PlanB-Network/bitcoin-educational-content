@@ -1,5 +1,5 @@
 ---
-name: 天喜
+name: Tiankii
 description: 小売業者と消費者のためのLightningツール群
 ---
 

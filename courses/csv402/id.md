@@ -3169,7 +3169,7 @@ Ini dapat dikirimkan ke Bob melalui saluran apa pun (teks, kode QR, dll.).
 Untuk mentransfer dari faktur ini :
 
 
-- Bob (yang menyimpan token dalam simpanannya) memiliki dompet Bitcoin. Dia perlu menyiapkan transaksi Bitcoin (dalam bentuk PSBT, misalnya `tx.psbt`) yang membelanjakan UTXO di mana token RGB yang diperlukan berada, ditambah satu UTXO untuk mata uang (penukaran);
+- Bob (yang menyimpan token di stash miliknya) memiliki sebuah wallet Bitcoin. Ia harus menyiapkan sebuah transaksi Bitcoin (dalam bentuk PSBT, misalnya `tx.psbt`) yang membelanjakan UTXO tempat token RGB yang diperlukan berada, ditambah satu UTXO untuk kembalian (change);
 - Bob menjalankan perintah berikut:
 
 ```bash

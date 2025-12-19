@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van het driestappenproces Verbinden, Voorbereiden en Uitvoeren in de ontwikkelaarsinterface van de Breez SDK?
+answer: Complexe financiële stromen standaardiseren door portemonnees te synchroniseren, alle kosten vooraf te berekenen en vervolgens transacties op te bouwen
+wrong_answers:
+  - Om redundante back-upverbindingen op te zetten bij meerdere swapproviders voordat atomaire bewerkingen worden gestart
+  - Om afzonderlijke cryptografische handtekeningen te maken voor elk netwerk dat betrokken is bij ketenoverschrijdende onderzeese swaptransacties
+  - Pre-images van betalingen valideren aan de hand van contracten met tijdsloten voordat geld wordt vrijgegeven uit escrow-mechanismen
+explanation: |
+  Het Connect, Prepare, Execute patroon vereenvoudigt de ontwikkeling door complexe operaties op te splitsen in beheersbare stappen: Connect initialiseert wallets en zet monitoring verbindingen op, Prepare berekent en toont alle kosten transparant voor gebruikers, en Execute handelt de eigenlijke transactieconstructie en broadcasting af. Deze standaardisatie abstraheert de onderliggende complexiteit van submarine swaps en cross-chain operaties, waardoor het makkelijker wordt voor ontwikkelaars om Bitcoin functionaliteit te integreren zonder low-level details te beheren.

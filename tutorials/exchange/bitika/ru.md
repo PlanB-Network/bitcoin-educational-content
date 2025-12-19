@@ -1,5 +1,5 @@
 ---
-name: Битика
+name: Bitika
 description: Купить биткоин через M-Pesa в три простых шага
 ---
 ![cover](assets/cover.webp)

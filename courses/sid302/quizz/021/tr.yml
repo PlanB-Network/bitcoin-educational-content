@@ -1,0 +1,8 @@
+question: Liquid'ın 2 dakikalık mutabakat süresinin geleneksel finansal sistemlere göre sağladığı birincil iş avantajı nedir?
+answer: Teslimat ve ödemenin aynı anda gerçekleştiği atomik mutabakatı mümkün kılarak karşı taraf riskini azaltır
+wrong_answers:
+  - Varlık ticaretinde yasal uyumluluk ve KYC gerekliliklerine olan ihtiyacı ortadan kaldırır
+  - Herhangi bir işlem ücreti olmadan yüksek frekanslı ticaret için sınırsız ölçeklenebilirlik sağlar
+  - Yerleşik piyasa yapıcı algoritmalar aracılığıyla otomatik fiyat keşfi sağlar
+explanation: |
+  Liquid'in 2 dakikalık mutabakatı, karşı taraf riskini azaltmak için çok önemli olan atomik mutabakatı mümkün kılar, çünkü her iki taraf da alacaklarını aynı anda alır ve bir tarafın temerrüde düşebileceği boşluğu ortadan kaldırır. Geleneksel T+2 mutabakatı karşı taraf riskinin mevcut olduğu bir pencere yaratır. Diğer seçenekler yanlış: Liquid hala AMP aracılığıyla uyumluluk gerektiriyor, işlem ücretleri ve ölçeklendirme limitleri var ve otomatik piyasa yapıcılığı sağlamıyor.

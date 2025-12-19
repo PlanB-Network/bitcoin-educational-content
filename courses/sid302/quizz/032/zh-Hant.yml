@@ -1,0 +1,8 @@
+question: 在 Breez SDK 架構中，如果反向潛艇交換失敗或超時，會發生什麼情況？
+answer: SDK 自動建構並廣播退款交易，將資金退回使用者的 wallet
+wrong_answers:
+  - 交換提供者在 24 小時內手動啟動需要使用者介入的復原程序
+  - 在 Lightning Network 連線恢復之前，資金將保持永久鎖定狀態
+  - 使用者必須聯絡 Boltz 支援，才能手動觸發 federated peg-out 交易
+explanation: |
+  Breez SDK 實作了自動退款管理（Automated Refund Management）作為重要的安全機制。當掉期失敗或超時時，SDK 會監控所有掉期狀態，並自動處理恢復過程，無需使用者介入。這抽象化了時間鎖定合約的複雜性，並確保資金不會永久流失。其他選項都是不正確的，因為它們不是需要手動介入、假設資金永久流失，就是涉及自動化系統中不存在的流程。

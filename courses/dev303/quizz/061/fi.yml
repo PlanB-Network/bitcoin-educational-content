@@ -1,0 +1,8 @@
+question: Mikä on perustavanlaatuinen ero makrojen ja funktioiden käsittelyssä Rust:ssa?
+answer: Kääntäjä laajentaa makrot kääntämisen yhteydessä ennen kääntämisen aloittamista, kun taas funktioita kutsutaan suoritusaikana
+wrong_answers:
+  - Makrot käyttävät tyyppitarkistukseen hahmontarkistusta, kun taas funktiot käyttävät staattista analyysiä ajonaikaiseen validointiin
+  - Makrot generate:n optimoitu assembly-koodi suoraan, kun taas Rust:n virtuaalikone tulkitsee funktiot
+  - Makrot tallennetaan muistiin suorituksen aikana, kun taas funktiot ladataan levyltä, kun niitä kutsutaan
+explanation: |
+  Oikea vastaus tunnistaa keskeisen ajallisen eron: makrot toimivat kääntämisen aikana koodin laajentamisen kautta, kun taas funktiot suoritetaan ohjelman ajon aikana. Väärissä vastauksissa sekoitetaan erilaisia ohjelmointikäsitteitä - Rust ei käytä virtuaalikonetta, sekä makrot että funktiot käyvät läpi tyypintarkistuksen (mutta eri vaiheissa), eikä funktioita eikä makroja ladata levyltä suorituksen aikana kuvatulla tavalla.

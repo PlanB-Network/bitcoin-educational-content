@@ -1,0 +1,8 @@
+question: Welches ist der primäre technische Mechanismus in der Asset Management Platform (AMP) von Liquid, der Maßnahmen zur Einhaltung der Single-Point-of-Failure-Vorschriften verhindert und gleichzeitig die regulatorische Kontrolle über tokenisierte Vermögenswerte aufrechterhält?
+answer: Multisignatur-Autorisierung, bei der mehrere Parteien Compliance-Maßnahmen wie das Einfrieren von Geldern oder die Neuausgabe von Token genehmigen müssen
+wrong_answers:
+  - Smart contract-Governance-Tokens, die eine Abstimmung der Gemeinschaft über alle Compliance-Entscheidungen und die Durchsetzung von Vorschriften ermöglichen
+  - Zeitgesperrte Treuhandkonten, die nach Ablauf bestimmter Wartefristen automatisch Maßnahmen zur Einhaltung der Vorschriften durchführen
+  - Kryptographischer Proof-of-Stake-Konsens, bei dem die Validierer eine Mehrheitsentscheidung treffen müssen, bevor sie eine Maßnahme zur Einhaltung der Vorschriften durchführen können
+explanation: |
+  AMP verwendet die Mehrfachunterschriftenkontrolle, um sicherzustellen, dass Compliance-Aktionen von mehreren Parteien autorisiert werden müssen, so dass ein einzelner Mitarbeiter nicht einseitig handeln kann. Auf diese Weise wird ein Kontrollsystem für sensible Vorgänge geschaffen, das gleichzeitig die für institutionelle Vermögenswerte erforderliche Aufsicht gewährleistet. Die falschen Antworten beschreiben Mechanismen, die es im AMP entweder nicht gibt oder die für eine regulierte Finanz-Compliance ungeeignet wären.

@@ -1,0 +1,8 @@
+question: Qual è il tratto di base che tutte le chiusure implementano nella gerarchia dei tratti delle chiusure di Rust?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iteratore
+explanation: |
+  FnOnce è il tratto di base che tutte le chiusure implementano in Rust. Rappresenta le chiusure che possono essere richiamate almeno una volta. Rappresenta le chiusure che possono essere chiamate almeno una volta e costituisce la base della gerarchia dei tratti delle chiusure. FnMut e Fn sono tratti più restrittivi che si basano su FnOnce: FnMut consente chiamate multiple con mutazione, mentre Fn consente chiamate multiple senza mutazione. Iterator non è correlato ai tratti di chiusura e viene utilizzato per elaborare sequenze di dati.

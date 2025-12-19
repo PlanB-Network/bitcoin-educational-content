@@ -1,0 +1,8 @@
+question: Mối quan hệ toán học giữa giá trị độ khó của Bitcoin và mục tiêu hiện tại được sử dụng để xác thực khối là gì?
+answer: Độ khó bằng mục tiêu thấp nhất có thể chia cho mục tiêu hiện tại.
+wrong_answers:
+  - Độ khó bằng mục tiêu hiện tại chia cho mục tiêu thấp nhất có thể đạt được.
+  - Độ khó bằng mục tiêu hiện tại nhân với mục tiêu thấp nhất có thể.
+  - Độ khó bằng hệ số nhân với 256 lũy thừa trừ 3.
+explanation: |
+  Độ khó của Bitcoin được định nghĩa cụ thể là lowest_target / current_target, thể hiện mức độ khó của mining so với độ khó dễ nhất có thể. Mối quan hệ nghịch đảo này có nghĩa là khi mục tiêu càng nhỏ (làm cho việc tìm kiếm các hàm băm hợp lệ càng khó), độ khó càng tăng theo tỷ lệ thuận. Công thức này đảm bảo độ khó bằng 1 thể hiện điều kiện mining dễ nhất, trong khi các giá trị cao hơn cho thấy cần nhiều công sức tính toán hơn để tìm ra các khối hợp lệ.

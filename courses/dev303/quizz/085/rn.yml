@@ -1,0 +1,8 @@
+question: Igihe usobanura imirongo y'uguhamagara muri UniFFI, ni ibihe bipimo vy'inyongera vy'imico ya Rust bisabwa ku mico y'uguhamagara kugira ngo umuntu ashobore guhamagara indimi zitandukanye?
+answer: Imipaka yo kohereza no gukorana birakenewe kubera ko guhamagara bishobora kujabuka imipaka y'urudodo hagati ya Rust n'indimi zigenewe
+wrong_answers:
+  - Clone na Copy bounds birakenewe kugira ngo amakuru yo gusubira guhamagara ashobore gusubirwamwo ku mipaka y'ururimi
+  - Gukosora no kwerekana imipaka birakenewe kugira ngo bishobore gutanga raporo y'amakosa iyo gusubira guhamagara binaniwe mu gihe c'ugushirwa mu ngiro
+  - Gukurikirana no gukuraho imipaka birakenewe kugira ngo ushireho amaparametere hagati y'ibihe vy'ururimi bitandukanye
+explanation: |
+  Ivyuma bikoreshwa mu guhamagara muri UniFFI bisaba imipaka yo kohereza no gukorana kuko bishobora gutuma haba uguhanahana amakuru mu nzira zibiri aho kode ya Rust ihamagara isubira muri kode y’ibikorwa yanditswe mu ndimi zigenewe. Kubera ko izo nkuru zishobora kujabuka imbibe z’indodo mu gihe c’ugushirwa mu ngiro, uburyo bw’ubwoko bwa Rust busaba ko Send (ishobora guhindurwa hagati y’indodo) na Sync (ishobora gusangira ibisobanuro hagati y’indodo) imipaka kugira ngo ubwonko bube butekanye. Ayandi mahitamwo ntabwo ari meza: Clone/Copy ntibikenewe ku guhamagara mu ndimi zitandukanye, Debug/Display ni ivyo guhindura uburyo atari umutekano, na Serialize/Deserialize bifatwa ubwavyo n'uburyo bwo gukorana bwa UniFFI.

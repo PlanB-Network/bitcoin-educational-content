@@ -1,0 +1,8 @@
+question: Welk specifiek mechanisme zorgt ervoor dat pre-SegWit knooppunten P2WPKH transacties als geldig accepteren zonder de validatieregels voor getuigen te begrijpen?
+answer: Pre-SegWit knooppunten interpreteren het OP_0 + 20-byte hash-script als een 'anyone-can-spend' uitvoer waarvoor geen handtekeningverificatie nodig is
+wrong_answers:
+  - Pre-SegWit knooppunten sturen P2WPKH transacties automatisch door naar geüpgradede knooppunten voor getuigenvalidatie alvorens ze te accepteren
+  - Pre-SegWit knooppunten herkennen het P2WPKH patroon en slaan de validatie volledig over, waarbij alle getuige-transacties als vooraf gevalideerd worden behandeld
+  - Pre-SegWit knooppunten converteren de getuigegegevens terug naar het traditionele scriptSig formaat met behulp van achterwaartse compatibiliteitsregels
+explanation: |
+  Het geniale ontwerp van SegWit ligt in het uitbuiten van hoe pre-SegWit knooppunten omgaan met onbekende scriptpatronen. Wanneer deze oudere knooppunten een P2WPKH script tegenkomen (OP_0 gevolgd door een 20-byte push), herkennen ze het niet als een speciaal getuige programma. In plaats daarvan evalueren ze het als een standaard script dat OP_0 en de hash op de stack achterlaat. Omdat OP_0 op false uitkomt in Bitcoin's scriptsysteem, interpreteren pre-SegWit knooppunten dit als een 'anyone-can-spend' conditie - wat betekent dat er geen handtekeningverificatie nodig is vanuit hun perspectief. Hierdoor kan de transactie worden geaccepteerd in hun mempool en blokken zonder de consensus te verbreken, terwijl SegWit-bewuste knooppunten de eigenlijke cryptografische validatie uitvoeren met behulp van de getuigegegevens.

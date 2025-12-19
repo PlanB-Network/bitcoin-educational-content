@@ -1,5 +1,5 @@
 ---
-name: 梨
+name: Pears
 description: 如何在 Pears 上安裝和使用應用程式？
 ---
 

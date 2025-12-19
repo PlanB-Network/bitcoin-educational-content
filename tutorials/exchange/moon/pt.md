@@ -1,11 +1,17 @@
 ---
-name: Lua
+name: Moon
 description: Pague em bitcoins onde quer que os cartões bancários Visa sejam aceites.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Atualização de dezembro de 2025: Atenção, **desde o início de dezembro de 2025, parte dos serviços da Moon deixou de estar disponível**, nomeadamente os cartões bancários Visa recarregáveis. Ainda não sabemos se esta indisponibilidade é temporária ou definitiva. Este tutorial será atualizado assim que dispusermos de mais informações.*
+
+---
 
 A Moon permite-lhe utilizar criptomoedas como a bitcoin para comprar cartões Visa virtuais e cartões de oferta sem KYC, que podem ser utilizados em milhões de comerciantes em linha, tal como um cartão bancário tradicional. Oferece assim uma forma simples de gastar o seu sats onde quer que o Visa seja aceite, sem passar por uma plataforma de troca.
 

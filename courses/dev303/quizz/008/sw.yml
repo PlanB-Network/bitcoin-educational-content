@@ -1,0 +1,8 @@
+question: Ni mambo gani ya kuzingatia kuhusu usalama unayopaswa kuzingatia unaposakinisha Rust kwa kutumia Rustup?
+answer: Usakinishaji unahusisha kupakua na kutekeleza hati, ingawa inatumia HTTPS na inatoka kwa vyanzo rasmi vinavyoaminika.
+wrong_answers:
+  - Usakinishaji unahitaji haki za msimamizi ambazo husababisha udhaifu wa mfumo.
+  - Msururu wa zana thabiti una vipengele vya majaribio ambavyo vinaweza kuwa na dosari za usalama ambazo hazijagunduliwa
+  - Mchakato wa usakinishaji huwezesha kiotomatiki malengo yote ya mkusanyiko ikiwa ni pamoja na usanifu ambao huenda hauko salama
+explanation: |
+  Unaposakinisha Rustup, unapakua na kutekeleza hati kutoka kwa tovuti rasmi ya Rust. Hii hutumia HTTPS kwa usalama wa safu ya usafiri, na vifurushi vinatoka vyanzo vinavyoaminika kama vile crates.io. Ingawa hii ni salama kwa matumizi mengi, baadhi ya mashirika yenye sera kali za usalama yanaweza kupendelea meneja wa vifurushi vyao vya usambazaji, ambavyo huongeza miundombinu ya utiaji saini wa usambazaji. Chaguzi zingine si sahihi: Rustup husakinisha kwenye saraka ya nyumbani ya mtumiaji bila kuhitaji haki za msimamizi, mnyororo thabiti wa zana huondoa vipengele vya majaribio, na malengo ya mkusanyiko huongezwa kando na hayaleti hatari za usalama za asili.

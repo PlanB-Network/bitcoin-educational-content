@@ -1,0 +1,8 @@
+question: Koji kritični sigurnosni zahtev mora biti ispunjen prilikom generisanja nonce K u kreiranju ECDSA potpisa?
+answer: K mora biti jedinstven i nepredvidiv za svaki potpis kako bi se sprečilo ugrožavanje privatnog ključa
+wrong_answers:
+  - K mora biti izveden iz javnog ključa kako bi se osiguralo da verifikacija potpisa funkcioniše ispravno
+  - K mora biti isti u više potpisa kako bi se održala doslednost u procesu potpisivanja
+  - K mora biti jednak privatnom ključu pomnoženom sa hešom poruke za matematičku ispravnost
+explanation: |
+  Nonce K mora biti jedinstven i nepredvidiv za svaki potpis jer ponovno korišćenje K ili njegova predvidljivost omogućavaju napadačima da otkriju privatni ključ. Ako se isti K koristi dva puta sa različitim porukama, jednostavna algebra može otkriti privatni ključ. Moderne implementacije koriste determinističko generisanje K (RFC 6979) kako bi izbegle neuspehe generatora slučajnih brojeva, a istovremeno osigurale jedinstvenost. Ostale opcije su netačne: K nikada ne treba da bude izveden iz javnog ključa, nikada ne treba da se ponovo koristi i nikada ne treba da bude jednak privatnom ključu puta heš poruke.

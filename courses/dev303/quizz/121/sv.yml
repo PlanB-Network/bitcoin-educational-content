@@ -1,0 +1,8 @@
+question: "Vilken är den primära mekanismen genom vilken Breez SDK:s nollkanalreservfunktion skapar ytterligare risk som måste absorberas av Lightning Service Providers?"
+answer: "LSP:erna måste acceptera risken att användarna spenderar hela sitt kanalsaldo, vilket eliminerar den säkerhetsbuffert som traditionellt skyddar mot tvångsstängningar av kanaler"
+wrong_answers:
+  - "LSP:er blir ansvariga för att upprätthålla kontinuerlig synkronisering av nätverksgrafer över flera användarenheter utan traditionell reservbaserad avgiftsersättning"
+  - "LSP:er måste garantera omedelbar betalningsdirigering utan den likviditetsbuffert som kanalreserver ger för att hantera överbelastningsscenarier i nätverket"
+  - "LSP:er tar på sig ansvaret för misslyckade on-chain-byten när användare försöker konvertera hela sitt Lightning-saldo till Bitcoin under perioder med höga avgifter"
+explanation: |
+  Med nollkanalreserver kan användare spendera hela sitt visade saldo, men detta eliminerar den traditionella säkerhetsbufferten som skyddar Lightning Service Providers under tvångsstängningar av kanaler. Kanalreserver säkerställer vanligtvis att vissa medel förblir låsta för att täcka stängningskostnader och ge säkerhet mot skadligt beteende. Genom att ta bort dessa reserver för att förbättra användarupplevelsen måste LSP:er absorbera de ytterligare operativa och finansiella risker som dessa buffertar var utformade för att mildra, vilket representerar en tydlig avvägning där teknisk komplexitet och risk flyttas från användare till tjänsteleverantörer.

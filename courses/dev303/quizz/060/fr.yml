@@ -1,0 +1,8 @@
+question: Lors du développement d'une macro de type fonction personnalisée dans Rust, quel est le principal objectif de l'utilisation des spécificateurs de fragments tels que `expr`, `ty`, et `ident` dans la recherche de motifs ?
+answer: Définir le type d'éléments de code pouvant être mis en correspondance et garantir une entrée syntaxiquement valide
+wrong_answers:
+  - Pour spécifier le type de retour du code généré et optimiser les performances de compilation
+  - Déterminer l'ordre d'exécution des branches des macros et gérer la vérification des types au moment de l'exécution
+  - Contrôler les schémas d'allocation de la mémoire et définir les règles de cadrage des variables dans le code étendu
+explanation: |
+  Les spécificateurs de fragments dans les modèles de macro servent de contraintes de type qui valident la syntaxe des jetons d'entrée pendant l'expansion de la macro. Ils garantissent que la macro reçoit le bon type d'élément de code (expression, type, identifiant, etc.) et fournissent des messages d'erreur clairs en cas de syntaxe invalide. Cela se produit au moment de la compilation pendant la correspondance des motifs, et non pendant l'exécution, et ces contraintes ne contrôlent pas directement l'allocation de mémoire, l'ordre d'exécution ou les types de retour du code généré.

@@ -1,8 +1,9 @@
-question: Lightning Network üzerindeki işlemler için ücretler son derece düşüktür, genellikle ...?
-answer: 0.5%.
+question: Ödeme alma açısından Ark, Lightning’e kıyasla hangi avantajı sunar?
+answer: Gelen likiditeye ihtiyaç olmaması
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-reviewed: true
+  - Ödemenin anında kesinleşmesi
+  - İşlem ücretlerinin olmaması
+  - Cüzdana ihtiyaç duyulmaması
+explanation: |
+  Ark, önceden gelen likiditeye sahip olmadan ödeme alınmasına olanak tanır.
+reviewed: false

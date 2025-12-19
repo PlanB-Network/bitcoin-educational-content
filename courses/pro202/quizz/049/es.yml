@@ -1,0 +1,8 @@
+question: ¿Cuáles son las dos comprobaciones críticas que debe realizar un nodo Bitcoin al recibir un nuevo bloque antes de aceptarlo en la cadena de bloques?
+answer: El hash del bloque debe estar por debajo de la dificultad objetivo y la raíz Merkle calculada debe coincidir con la raíz Merkle de la cabecera
+wrong_answers:
+  - La marca de tiempo del bloque debe ser válida y todas las firmas de las transacciones deben estar verificadas criptográficamente
+  - El tamaño del bloque debe ser inferior a 1 MB y el hash del bloque anterior debe hacer referencia a un bloque válido conocido
+  - La versión del bloque debe coincidir con el consenso de la red y las comisiones totales de la transacción deben superar la recompensa mining
+explanation: |
+  El principio "no confíes, verifica" de Bitcoin requiere exactamente dos comprobaciones fundamentales para la aceptación de bloques: La validación de proof-of-work (hash del bloque por debajo del objetivo de dificultad) y la verificación de la integridad de la transacción (coincidencia de la raíz Merkle). Aunque otras comprobaciones como la validación de la marca de tiempo, la verificación de la firma y los límites de tamaño son importantes, estas dos comprobaciones específicas garantizan que el bloque cumple los requisitos de dificultad y contiene las transacciones declaradas sin manipular.

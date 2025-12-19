@@ -1,5 +1,5 @@
 ---
-name: Terminal Ashigaru
+name: Ashigaru Terminal
 description: Gunakan Ashigaru di desktop untuk membuat koin bersama
 ---
 

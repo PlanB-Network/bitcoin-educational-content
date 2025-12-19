@@ -1,0 +1,8 @@
+question: Ni nini husababisha hitilafu ya nje ya moja kwa moja katika OP_CHECKMULTISIG ambayo inahitaji OP_0 ya ziada katika ScriptSigs zenye vijiti vingi?
+answer: OP_CHECKMULTISIG hutumia kipengele cha ziada cha raki zaidi ya sahihi zinazotarajiwa na funguo za umma
+wrong_answers:
+  - Mchakato wa uthibitishaji wa sahihi unahitaji baiti ya ziada kwa uthibitisho sahihi wa ECDSA ili kufanya kazi ipasavyo
+  - "Utekelezaji wa rafu ya Bitcoin una ukaguzi wa mpaka unaohitaji kipengele cha pedi kwa ajili ya upangiliaji wa kumbukumbu"
+  - Hesabu ya kizingiti cha alama nyingi huanza kwa sifuri badala ya moja, ikihitaji thamani ya kishikilia nafasi kilichosawazishwa
+explanation: |
+  Msimbo wa OP_CHECKMULTISIG una hitilafu ya utekelezaji ambapo huingiza kipengee kimoja zaidi kutoka kwenye mrundiko kuliko inavyopaswa wakati wa utekelezaji. Hii ina maana kwamba pamoja na sahihi za m zinazohitajika na funguo za umma za n, hutumia kipengele cha ziada cha mrundiko. Ili kuzuia operesheni hiyo kushindwa, ScriptSigs zisizo na multisig lazima zijumuishe OP_0 ya awali (ambayo inasukuma safu tupu ya baiti) ili kukidhi matumizi haya yasiyotarajiwa ya mrundiko. Chaguzi zingine zinaelezea masuala ya kiufundi yanayosikika kuwa yanawezekana lakini sio sababu halisi ya tatizo hili linalojulikana la Bitcoin.

@@ -1,0 +1,8 @@
+question: Was ist das primäre Sicherheitsrisiko, durch das sich P2SH grundlegend von Standard-Bitcoin-Transaktionen in Bezug auf die Rückforderung von Mitteln unterscheidet?
+answer: Durch den Verlust des Einlöseskripts werden die Mittel dauerhaft gesperrt, auch wenn Sie die privaten Schlüssel haben
+wrong_answers:
+  - Der 20-Byte-Hash kann geknackt werden, wenn das Einlöseskript zu einfach ist
+  - P2SH-Adressen verfallen nach einer bestimmten Blockhöhe, so dass die Mittel nicht mehr zurückerlangt werden können
+  - Der zweistufige Validierungsprozess kann zufällig fehlschlagen, was zu einem dauerhaften Verlust von Geldern führt
+explanation: |
+  P2SH führt eine einzigartige Sicherheitsanforderung ein: sowohl die privaten Schlüssel als auch das Einlöseskript sind erforderlich, um Geld auszugeben. Im Gegensatz zu Standardtransaktionen, bei denen nur die privaten Schlüssel benötigt werden, muss bei P2SH das eigentliche Einlöseskript bei der Ausgabe angegeben werden. Wenn das Einlöseskript verloren geht, sind die Mittel dauerhaft unzugänglich, auch wenn man die richtigen privaten Schlüssel hat, da die Ausgabebedingungen nicht rekonstruiert oder validiert werden können.

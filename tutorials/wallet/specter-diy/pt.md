@@ -1,5 +1,5 @@
 ---
-name: Espetro de bricolage
+name: Specter DIY
 description: Guia de configuração do Specter DIY
 ---
 

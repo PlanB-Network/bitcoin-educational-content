@@ -1,10 +1,9 @@
-question: Hva fungerer Lightning Network som?
-answer: Et nettverk av betalingskanaler.
+question: Hvilken tilnærming strukturerer utviklingen av Bitcoin som beskrives i dette kapittelet?
+answer: Lagvis utvikling
 wrong_answers:
-  - Et nettverk av mining-noder.
-  - Et nettverk av blockchain-noder.
-  - Et nettverk av kryptovalutabørser.
-explanation: >-
-  Lightning Network fungerer som et nettverk av betalingskanaler, som muliggjør
-  øyeblikkelige transaksjoner med lave gebyrer for avsenderen.
+  - Monolittisk blokkjede
+  - Naturlig sharding
+  - Generalisert onchain-kjøring
+explanation: |
+  Bitcoin beholder et enkelt og robust basislag, mens overliggende protokoller legger til spesifikke funksjoner.
 reviewed: false

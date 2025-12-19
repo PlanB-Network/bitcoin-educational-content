@@ -1,0 +1,8 @@
+question: Paylaşılan değişebilir durum için RC<RefCell<T>> kullanıldığında en önemli risk nedir ve hangi mekanizma bunu önlemeye yardımcı olur?
+answer: Bellek sızıntılarına neden olan referans döngüleri, zayıf referanslar kullanılarak önlenir
+wrong_answers:
+  - RefCell yerine Mutex kullanılarak önlenen iş parçacıkları arasındaki veri yarışları
+  - Derleme zamanı denetimi ile önlenen ödünç alma ihlallerinden kaynaklanan çalışma zamanı panikleri
+  - Derin özyinelemeden kaynaklanan yığın taşması, referans derinliğinin sınırlandırılmasıyla önlenir
+explanation: |
+  RC<RefCell<T>> kullanıldığında, birincil tehlike, veri yapılarının kendilerine doğrudan veya zincirler aracılığıyla referans verdiği referans döngüleri oluşturmaktır. Bu döngüler, referans sayılarının sıfıra ulaşmasını engeller ve veriler her zaman aktif referanslara sahip gibi göründüğünden bellek sızıntılarına neden olur. Zayıf referanslar bu sorunu, bellek yönetimi için kullanılan referans sayısına katkıda bulunmayarak, bağlantıları korurken döngüleri kırarak çözer. Diğer seçenekler yanlıştır: RC<RefCell<T>> iş parçacığı güvenli değildir, bu nedenle veri yarışları ana sorun değildir, RefCell özellikle kontrolleri derleme zamanında önlemek yerine çalışma zamanına taşır ve yığın taşması referans sayma mekanizmasıyla ilgili değildir.

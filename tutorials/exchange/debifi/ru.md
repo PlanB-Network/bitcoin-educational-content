@@ -1,5 +1,5 @@
 ---
-name: Дебифи
+name: Debifi
 description: Получите кредит без опекунства под гарантию Bitcoin.
 ---
 

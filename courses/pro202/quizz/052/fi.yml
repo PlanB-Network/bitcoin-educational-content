@@ -1,0 +1,8 @@
+question: Mikä on Merkle-todisteiden tärkein etu SPV-asiakkaille (Simplified Payment Verification, yksinkertaistettu maksujen varmentaminen), kun ne varmentavat tapahtumien sisällyttämistä?
+answer: Ne mahdollistavat transaktioiden sisällyttämisen tarkistamisen lataamatta koko lohkoa, jolloin tarvitaan vain muutama sata tavua, vaikka lohkoissa olisi tuhansia transaktioita
+wrong_answers:
+  - Ne poistavat tarpeen tarkistaa lohkon hash-arvo vaikeuskohteeseen nähden, mikä vähentää kevyiden asiakkaiden laskentavaatimuksia
+  - Ne tarjoavat kryptografisen todisteen, joka estää double-spending-hyökkäykset validoimalla kaikki lohkon sisällä olevat transaktiosyötteet
+  - Niiden avulla SPV-asiakkaat voivat rekonstruoida koko tapahtumahistorian muodostamatta yhteyttä useisiin täydellisiin solmuihin samanaikaisesti
+explanation: |
+  Merkle-todistukset hyödyntävät Merkle-puiden logaritmista kasvuominaisuutta, jolloin SPV-asiakkaat voivat todentaa tapahtuman sisältymisen vain juurelle johtavan polun varrella olevien sisarusten hasheesien avulla. Tämä vaatii vain muutamia satoja tavuja riippumatta lohkon koosta, joten se on käytännöllinen kevyille asiakkaille. Väärissä vastauksissa Merkle-todistukset sekoitetaan muihin Bitcoin-mekanismeihin - ne eivät poista vaikeusvarmennusta, eivät estä suoraan double-spending:tä eivätkä rekonstruoi transaktiohistoriaa.

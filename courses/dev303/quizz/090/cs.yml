@@ -1,0 +1,8 @@
+question: Jaké je hlavní omezení, které musí vývojáři obejít při použití UniFFI pro vývoj mobilních aplikací, které vyžadují responzivní uživatelská rozhraní?
+answer: UniFFI podporuje pouze synchronní rozhraní, což vyžaduje, aby vývojáři zpracovávali asynchronní operace pomocí samostatných mechanismů vláknového zpracování
+wrong_answers:
+  - UniFFI neumí pracovat se složitými datovými typy, jako jsou enumy a struktury, což omezuje bohatost rozhraní mobilního API
+  - UniFFI generuje vazby, které nejsou paměťově bezpečné napříč hranicemi jazyků, což vyžaduje ruční správu paměti
+  - UniFFI nepodporuje překlad zpracování chyb, což nutí vývojáře implementovat vlastní zpracování výjimek v každém cílovém jazyce
+explanation: |
+  Nejvýznamnějším omezením UniFFI je absence podpory asynchronních rozhraní - všechny generované vazby jsou synchronní. To vytváří problémy při vývoji mobilních zařízení, kde je kriticky důležité responzivní uživatelské rozhraní, protože vývojáři musí implementovat vlastní řešení vláknového zpracování, aby se vyhnuli blokování hlavního vlákna. Špatné odpovědi jsou nesprávné, protože UniFFI ve skutečnosti vyniká ve zpracování složitých typů, jako jsou enumy a struktury, poskytuje automatický memory-safe marshaling přes hranice jazyků a má sofistikovaný překlad zpracování chyb, který převádí typy Rust Result na nativní modely výjimek pro cílové jazyky.

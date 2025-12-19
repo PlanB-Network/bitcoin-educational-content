@@ -1,5 +1,5 @@
 ---
-name: Ingwer Wallet
+name: Ginger Wallet
 description: Open-Source, selbstverwaltete Bitcoin wallet Software, fork von Wasabi Wallet, Integration von Coinjoins
 ---
 ![cover](assets/cover.webp)

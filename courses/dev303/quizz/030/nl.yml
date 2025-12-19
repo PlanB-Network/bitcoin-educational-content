@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van Rust's vraagteken operator (?) bij gebruik met Resultaat-types?
+answer: Om automatisch succesvolle waarden af te wikkelen en fouten onmiddellijk te retourneren vanuit de huidige functie
+wrong_answers:
+  - Om alle Resultaat-types te converteren naar Optietypes voor eenvoudigere null-afhandeling
+  - Om automatisch in paniek te raken met een aangepast bericht wanneer er een fout optreedt
+  - Om succesvolle waarden in een extra Result-laag te verpakken voor extra veiligheid
+explanation: |
+  De vraagteken operator (?) is speciaal ontworpen voor foutvoortplanting in Rust. Wanneer het toegepast wordt op een Resultaat, haalt het de succeswaarde eruit als de bewerking geslaagd is, waardoor de code verder kan gaan met die waarde. Als er echter een fout is opgetreden, retourneert de ? operator die fout onmiddellijk vanuit de huidige functie, waardoor de fout effectief wordt doorgegeven aan de aanroepstapel. Dit elimineert de noodzaak voor verbose match expressies met behoud van expliciete foutafhandeling semantiek. De operator kan alleen worden gebruikt in functies die Result types retourneren, waardoor de juiste foutpropagatiepatronen worden gegarandeerd.

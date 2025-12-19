@@ -1,0 +1,8 @@
+question: Phương thức Rust nên sử dụng kiểu tham số nào nếu cần sửa đổi thể hiện cấu trúc trong khi vẫn cho phép người gọi giữ quyền sở hữu?
+answer: "&mut self"
+wrong_answers:
+  - "&bản thân"
+  - bản thân
+  - mut self
+explanation: |
+  Các phương thức cần sửa đổi một thể hiện của cấu trúc trong khi vẫn cho phép người gọi giữ quyền sở hữu nên sử dụng `&mut self` làm tham số đầu tiên. Điều này tạo ra một tham chiếu có thể thay đổi đến thể hiện đó, cho phép phương thức thay đổi các trường của cấu trúc mà không làm mất quyền sở hữu của người gọi. Sử dụng `&self` chỉ cho phép đọc thể hiện, `self` sẽ tiêu thụ hoàn toàn thể hiện, và `mut self` không phải là cú pháp Rust hợp lệ cho các tham số phương thức.

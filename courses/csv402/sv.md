@@ -4428,7 +4428,7 @@ För att överföra från denna Invoice:
 
 
 
-- Bob (som innehar polletterna i sin Stash) har en Bitcoin Wallet. Han måste förbereda en Bitcoin-transaktion (i form av en PSBT, t.ex. `tx.PSBT`) som spenderar UTXO:erna där de nödvändiga RGB-tokens finns, plus en UTXO för valuta (Exchange);
+- Bob (som innehar tokenen i sin stash) har en Bitcoin-plånbok. Han måste förbereda en Bitcoin-transaktion (i form av en PSBT, t.ex. `tx.psbt`) som spenderar de UTXO:er där de nödvändiga RGB-tokenen finns, samt ytterligare en UTXO för växel (change);
 - Bob utför följande kommando:
 
 

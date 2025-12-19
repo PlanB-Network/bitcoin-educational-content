@@ -1,0 +1,8 @@
+question: Apa yang membedakan kesalahan sumber daya runtime dengan kesalahan input yang tidak valid dan kesalahan logika dalam pengembangan aplikasi Bitcoin?
+answer: Kesalahan sumber daya runtime terjadi ketika ketergantungan eksternal seperti file atau koneksi jaringan tidak tersedia, sehingga membutuhkan perbaikan lingkungan daripada perubahan kode
+wrong_answers:
+  - "Kesalahan sumber daya runtime terjadi ketika parameter fungsi tidak memenuhi persyaratan, yang mengindikasikan pelanggaran kontrak antara pemanggil dan fungsi"
+  - Kesalahan sumber daya runtime mewakili bug dalam implementasi program yang memerlukan debugging dan modifikasi kode untuk menyelesaikannya dengan benar
+  - Kesalahan sumber daya runtime terjadi ketika sistem tipe gagal menangkap ketidakcocokan, sehingga tipe data yang salah menyebar melalui sistem
+explanation: |
+  Kesalahan sumber daya runtime berada di luar logika program dan terjadi ketika ketergantungan seperti file, koneksi jaringan, atau perangkat penyimpanan tidak tersedia. Tidak seperti kesalahan input yang tidak valid (yang melibatkan pelanggaran kontrak parameter) atau kesalahan logika (yang merupakan bug implementasi), kesalahan sumber daya saat proses berjalan biasanya memerlukan perbaikan lingkungan daripada perubahan kode. Aplikasi harus menangani hal ini dengan baik karena sering kali bersifat sementara dan di luar kendali langsung program.

@@ -1,0 +1,8 @@
+question: Ni igiki gituma uburyo bw’ubwoko bwa Rust bukora neza cane mu gukingira ubugoyagoye bujanye n’ukwibuka mu bikorwa vya Bitcoin?
+answer: Ubwoko bw'uburyo bukorana n'ubuhinga bwo gukora ubucuruzi n'ubugenzuzi bw'ubwenge bw'ubwenge biciye mu buryo bumwe
+wrong_answers:
+  - Ico gikoresho gica gitanga uburyo bwo gutanga ububiko bubuza ibitero vy'ububiko bw'ibintu
+  - Kwandika bihoraho bisaba ko amaderesi yose y'ububiko atangazwa ku gihe co gukora aho gukora
+  - Kwandika bikomeye bihindura ibikorwa vyose vy'ikimenyetso mu gusuzuma imipaka y'imirongo itekanye mu gihe c'ugushirwa mu ngiro
+explanation: |
+  Uburyo bw'ubwoko bwa Rust buradasanzwe kuko bukora intumbero zibiri - bugereranya ubuhinga butoroshe bwo gukora ubucuruzi mu gihe bucungera umutekano w'ubwenge biciye mu kuba uwufise, kugurana, no kubara ibimenyetso. Ivyo bisobanura ko ubwoko bumwe bwo kugenzura bushobora gutuma porogarama ikora neza na bwo nyene bukuraho ukuvuza kw’ubwenge, amakosa atagira kabiri, n’imibereho y’amarushanwa mu gihe co gukoranya. Inyishu zitari zo zidondora uburyo butaboneka muri Rust: umukozi w’ivy’ubuhinga ntakora ubuhinga bwo gutanga generate, amaderesi y’ukwibuka ntasabwa kuba ibintu bihoraho vy’igihe c’ubuhinga, kandi umutekano w’ikimenyetso uva ku mategeko y’ubutunzi aho kugenzura imipaka y’igihe co gukora.

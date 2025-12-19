@@ -1,0 +1,8 @@
+question: Jaký kryptografický mechanismus v zaslepené architektuře Blockstream AMP umožňuje šifrování výše aktiv při zachování ověření platnosti transakce?
+answer: Výměna klíčů pomocí eliptických křivek Diffie-Hellman s důkazy rozsahu, které ověřují platnost transakcí bez odhalení zašifrovaných hodnot
+wrong_answers:
+  - SNARKy s nulovými znalostmi a schématy závazků, které skrývají částky transakcí a zároveň prokazují výpočetní integritu
+  - Kroužkové podpisy se skrytými adresami, které zastírají identitu odesílatele při zachování kryptografické auditovatelnosti
+  - Homomorfní šifrování se závazky merkleovského stromu, které umožňují matematické operace se zašifrovanými daty transakcí
+explanation: |
+  AMP používá výměnu klíčů ECDH, při níž odesílatelé šifrují částky aktiv pomocí veřejných klíčů příjemců a generují důkazy o rozsahu, které matematicky ověřují platnost transakce, aniž by došlo k odhalení hodnot. Tím se liší od SNARKů (výpočetní důkazy), kruhových podpisů (zaměření na anonymitu) nebo homomorfního šifrování (výpočet na zašifrovaných datech) - AMP potřebuje konkrétně důvěrné, ale ověřitelné transakce.

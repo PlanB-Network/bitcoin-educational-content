@@ -1,0 +1,8 @@
+question: Tại sao việc sử dụng expect() trên các giá trị được mã hóa cứng mà dường như đã được trình biên dịch xác minh lại có thể gây ra vấn đề trong mã sản phẩm?
+answer: Các giá trị được mã hóa cứng có thể thay đổi theo thời gian thông qua việc tái cấu trúc, biến các giá trị hợp lệ trước đó thành lỗi khi chạy.
+wrong_answers:
+  - Trình biên dịch không thể xác minh tính hợp lệ của các giá trị được mã hóa cứng tại thời điểm biên dịch, khiến cho hàm expect() trở nên không đáng tin cậy.
+  - Các giá trị được mã hóa cứng tiêu tốn nhiều bộ nhớ hơn các giá trị động, gây ra các vấn đề về hiệu suất với hàm expect().
+  - Phương thức expect() tạo ra chi phí không cần thiết so với unwrap() khi xử lý các giá trị hợp lệ đã biết.
+explanation: |
+  Câu trả lời đúng nêu bật một nhận định quan trọng từ chương này: ngay cả những giá trị được mã hóa cứng tưởng chừng an toàn cũng có thể trở nên nguy hiểm theo thời gian. Ví dụ cho thấy cách một địa chỉ IP hợp lệ có thể được chuyển đổi thành một hằng số và sau đó được thay đổi thành 'localhost', phá vỡ giả định ban đầu. Các câu trả lời sai là do: trình biên dịch có thể kiểm tra các giá trị được mã hóa cứng tại thời điểm biên dịch, mức tiêu thụ bộ nhớ không phải là vấn đề với expect(), và expect() không có chi phí hiệu năng đáng kể so với unwrap().

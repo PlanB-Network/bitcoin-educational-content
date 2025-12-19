@@ -1,0 +1,8 @@
+question: Phương thức `unwrap` thực hiện chức năng gì khi được gọi trên một đối tượng kiểu `Result` trong Rust?
+answer: Hàm này trích xuất giá trị thành công nhưng sẽ báo lỗi nếu xảy ra sự cố.
+wrong_answers:
+  - Trả về None nếu xảy ra lỗi và Some nếu thành công.
+  - Chuyển lỗi thành thông báo cảnh báo và tiếp tục thực thi.
+  - Tự động truyền lỗi đến hàm gọi.
+explanation: |
+  Phương thức `unwrap` trích xuất giá trị thành công từ một đối tượng `Result` nhưng sẽ khiến chương trình bị lỗi nghiêm trọng (panic) nếu xảy ra sự cố. Điều này làm cho nó hữu ích cho việc tạo mẫu nhanh hoặc trong các tình huống mà bạn tự tin rằng một thao tác sẽ thành công. Các tùy chọn khác mô tả các hành vi khác nhau: trả về `None/Some` mô tả các kiểu `Option`, chuyển đổi lỗi thành cảnh báo không phải là một mẫu chuẩn của Rust, và việc tự động lan truyền lỗi là điều mà toán tử dấu hỏi (?) thực hiện, chứ không phải là `unwrap`.

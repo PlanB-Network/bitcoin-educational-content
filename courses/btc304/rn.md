@@ -28,7 +28,7 @@ Muri BTC304, tuzareba impamvu kubaka umuryango ari ingenzi, tukore ubushakashats
 
 
 
-Murakaze muri BTC302!
+Murakaze muri BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Wenyene, urashobora kwihuta guca muri imwe mu nzira nyinshi ziri mu mwobo w’in
 
 
 
-## BTC302, Ni igiki gikurikira
+## BTC 304, Ni igiki gikurikira
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Muri iri shure rya BTC302, twagiye mu ndondoro y’ingene twoshinga umuryango canke ihuriro, hamwe n’ingene twotanguza imigambi itandukanye.
+Muri iri shure rya BTC 304, twagiye mu ndondoro y’ingene twoshinga umuryango canke ihuriro, hamwe n’ingene twotanguza imigambi itandukanye.
 
 
 Igihe umuryango wawe witeguriye gutera intambwe ikurikira, **murashobora gushinga ishirahamwe ryemewe**.

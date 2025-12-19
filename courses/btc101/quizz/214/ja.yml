@@ -1,9 +1,9 @@
-question: Lightning Networkとは何ですか？
-answer: Bitcoinプロトコルを使用して、稲妻のように速い取引を可能にする支払いネットワークです。
+question: 次のうち、Lightningのどの操作がオンチェーンに記録されますか？
+answer: チャネルの開設
 wrong_answers:
-  - 新しいタイプの暗号通貨です。
-  - 将来的にBitcoinを置き換える新しいブロックチェーン技術です。
-  - Bitcoinを採掘する方法です。
+  - 中間支払い
+  - 状態の更新
+  - マルチホップルーティング
 explanation: |
-  Lightning Networkは、Bitcoinプロトコルを使用して高速な取引を可能にする支払いネットワークです。別の暗号通貨ではなく、Bitcoinを採掘する方法でもありません。
-reviewed: true
+  Lightningチャネルの開設と閉鎖のみが、ブロックチェーン上に公開されるビットコイン取引に該当します。
+reviewed: false

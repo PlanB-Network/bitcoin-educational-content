@@ -1,0 +1,8 @@
+question: Al crear una macro de tipo función personalizada que necesita manejar diferentes números de argumentos de entrada, ¿qué combinación de especificador de fragmento y patrón de repetición sería la más apropiada?
+answer: Utilice $($x:expr),* para que coincidan cero o más expresiones separadas por comas
+wrong_answers:
+  - Utilice $($x:ident)+ para hacer coincidir uno o varios identificadores sin separadores
+  - Utilice $($x:ty);* para buscar cero o más tipos separados por punto y coma
+  - Utilice $($x:expr)? para que coincida con una única expresión opcional sin repetición
+explanation: |
+  El patrón $($x:expr),* está diseñado específicamente para macros de argumento variable, donde expr coincide con cualquier expresión y la sintaxis ,* maneja cero o más repeticiones separadas por comas. Esto es exactamente lo que se necesita para macros como vec! que pueden aceptar un número variable de argumentos. Las otras opciones son incorrectas porque: ident sólo coincide con identificadores (no con expresiones completas), ty coincide con tipos (no con valores), y ? coincide con elementos individuales opcionales en lugar de con repeticiones de variables.

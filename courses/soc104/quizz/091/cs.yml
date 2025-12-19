@@ -1,0 +1,9 @@
+question: Jaký je podle základní kritiky Satoshi Nakamota hlavní problém konvenčních fiat měn, který měl Bitcoin vyřešit?
+answer: Přílišná důvěra v centralizované instituce, které ji v minulosti opakovaně porušovaly znehodnocováním měn
+wrong_answers:
+  - Nedostatečná digitální infrastruktura a pomalé zpracování transakcí ve srovnání s moderními platebními systémy
+  - Nemožnost provádět mezinárodní transakce bez drahých zprostředkovatelů a poplatků za konverzi měny
+  - Zranitelnost vůči padělání a fyzickým krádežím v důsledku závislosti na papírových penězích a jejich fyzickém uložení
+explanation: |
+  Satoshi Nakamoto výslovně prohlásil, že "základním problémem konvenční měny je veškerá důvěra, která je nutná k jejímu fungování" a že "historie fiat měn je plná porušení této důvěry"
+  Tento filozofický základ byl hnacím motorem návrhu Bitcoin jako systému bez důvěry, který nevyžaduje důvěru v centrální banky nebo vlády k udržení měnové stability a přímo řeší historický vzorec znehodnocování měny nadměrným tiskem peněz.

@@ -1,0 +1,8 @@
+question: Khi một macro sử dụng mẫu `$($x:expr),*` trong định nghĩa của nó, mẫu này thực hiện điều gì?
+answer: Nó khớp với không hoặc nhiều biểu thức được phân tách bằng dấu phẩy, cho phép sử dụng danh sách đối số có độ dài thay đổi.
+wrong_answers:
+  - Nó khớp chính xác với một biểu thức và lặp lại việc mở rộng macro nhiều lần.
+  - Nó khớp với bất kỳ số lượng định nghĩa kiểu nào được phân tách bằng dấu chấm phẩy để tạo mã.
+  - Nó tạo ra một vòng lặp thực thi macro trong thời gian chạy với các giá trị biểu thức khác nhau.
+explanation: |
+  Mẫu `$($x:expr),*` sử dụng cú pháp lặp lại macro của Rust, trong đó bộ định lượng `*` có nghĩa là 'không hoặc nhiều hơn', `$x:expr` bắt giữ từng biểu thức và dấu phẩy chỉ định dấu phân cách giữa các biểu thức. Điều này cho phép các macro như `vec!` chấp nhận bất kỳ số lượng đối số nào: `vec![1, 2, 3]` hoặc `vec![]`. Các tùy chọn khác không chính xác vì: mẫu này xử lý nhiều biểu thức chứ không chỉ một, nó khớp cụ thể với các biểu thức chứ không phải định nghĩa kiểu và sử dụng dấu phẩy chứ không phải dấu chấm phẩy, và các macro được thực thi tại thời điểm biên dịch trong quá trình tạo mã chứ không phải tại thời điểm chạy.

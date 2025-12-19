@@ -1,0 +1,9 @@
+question: Which political family would most likely support a mixed healthcare system with universal basic coverage provided by the state while allowing private sector participation for additional services?
+answer: Centrists, who favor a balanced approach combining state-guaranteed universal access with private sector innovation and choice
+wrong_answers:
+  - Socialistes, who advocate for completely state-controlled universal healthcare as a fundamental right independent of income
+  - Libertarians, who believe healthcare should be entirely privatized as a market service with individual choice and responsibility
+  - Conservatives, who prefer primarily private markets with minimal state intervention only for the most disadvantaged citizens
+explanation: |
+  Centrists explicitly advocate for mixed systems that combine the best of both public and private approaches. They support state-guaranteed universal access (ensuring solidarity and basic coverage) while allowing private sector participation for diversification and innovation. 
+  This contrasts with Socialists who want fully public systems, Libertarians who want fully private markets, and Conservatives who prefer primarily private systems with minimal state role.

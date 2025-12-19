@@ -1,0 +1,8 @@
+question: Hoe vaak brengt Rust een nieuwe stabiele versie uit volgens hun releaseschema?
+answer: Ongeveer elke zes weken
+wrong_answers:
+  - Ongeveer elke drie maanden
+  - Ongeveer elke twee weken
+  - Ongeveer elke vier maanden
+explanation: |
+  Rust volgt een voorspelbaar releaseschema met nieuwe stabiele versies die ongeveer elke zes weken uitkomen. Deze frequente releasecyclus zorgt ervoor dat nieuwe functies en verbeteringen de gebruikers regelmatig bereiken, terwijl de stabiliteit behouden blijft. De andere tijdschema's zijn onjuist - drie maanden en vier maanden zouden veel langzamer zijn dan het werkelijke tempo van Rust, terwijl twee weken onrealistisch snel zou zijn voor stabiele releases die grondig getest moeten worden.

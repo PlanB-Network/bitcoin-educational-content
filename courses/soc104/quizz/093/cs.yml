@@ -1,0 +1,9 @@
+question: Jaký zásadní problém konvenčních měn se podle filozofie Satoshi Nakamota snaží Bitcoin vyřešit?
+answer: Přílišná důvěra v centralizované instituce, které ji historicky porušují znehodnocováním měny
+wrong_answers:
+  - Technická neefektivita tradičních platebních systémů, které zpracovávají transakce příliš pomalu pro globální obchod
+  - Dopad výroby fyzické měny na životní prostředí a uhlíková stopa bankovní infrastruktury
+  - Geografická omezení národních měn, která brání bezproblémovému mezinárodnímu obchodu a obchodování
+explanation: |
+  Satoshi výslovně uvedl, že "základním problémem konvenční měny je veškerá důvěra, která je nutná k jejímu fungování", a poznamenal, že "historie fiat měn je plná porušení této důvěry"
+  Bitcoin byl navržen jako systém bez důvěry, aby se odstranila závislost na centrálních bankách, které v minulosti znehodnocovaly měny. Ostatní možnosti, ačkoli potenciálně oprávněné obavy, nebyly základní filozofickou motivací pro vytvoření Bitcoin, jak ji formuloval její tvůrce.

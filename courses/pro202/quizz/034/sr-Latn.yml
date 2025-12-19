@@ -1,0 +1,8 @@
+question: Koji specifični element mora biti uključen u P2SH ScriptSig koji ga razlikuje od regularnih ulaza transakcija?
+answer: Kompletan skript otkupa zajedno sa podacima za otključavanje
+wrong_answers:
+  - HASH160 otkupnog skripta i javnih ključeva
+  - Samo potpisi i javni ključevi potrebni za ispunjavanje uslova
+  - Bajt verzije i kodiranje adrese za P2SH validaciju
+explanation: |
+  P2SH ulazi zahtevaju i otključavajuće podatke (potpise, itd.) I kompletan redeem skript u ScriptSig. Ovo je jedinstveno jer je redeem skript prethodno bio skriven iza heša i sada mora biti otkriven za validaciju. Prvi korak validacije proverava da li HASH160(redeem_script) odgovara hešu u scriptPubKey, zatim se redeem skript izvršava sa obezbeđenim otključavajućim podacima. Ostale opcije su netačne: heš je već u originalnom scriptPubKey, potpisi sami po sebi nisu dovoljni bez skripta, a verzioni bajtovi se koriste za enkodiranje adresa, ne za validaciju trošenja.

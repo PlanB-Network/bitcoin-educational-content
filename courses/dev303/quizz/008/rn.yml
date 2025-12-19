@@ -1,0 +1,8 @@
+question: Ni ibihe bintu vy’umutekano ukwiye kumenya igihe ushiramwo Rust ukoresheje Rustup?
+answer: Ivyo gushiramwo birimwo gukuraho no gukora inyandiko, naho ikoresha HTTPS kandi iva ku masoko yizewe yemewe .
+wrong_answers:
+  - Gushiramwo bisaba uburenganzira bw'umuyobozi bishobora gutuma habaho ubugoyagoye bwa sisitemu
+  - Uruhererekane rw'ibikoresho ruhamye rurimwo ibirango vy'igerageza bishobora kuba bifise amakosa y'umutekano atavumbuwe
+  - Uburyo bwo gushiramwo buca bushoboza intumbero zose zo gukoranya harimwo n'inyubako zishobora kuba zidatekanye
+explanation: |
+  Igihe ushizeho Rustup, urakura kandi ugakora script ku rubuga rwemewe rwa Rust. Ivyo bikoresha HTTPS ku mutekano w’ivy’ugutwara, kandi amapaki ava ku masoko yizewe nka crates.io. Naho ivyo bitekanye ku bikorwa vyinshi, amashirahamwe amwe amwe afise amategeko akomeye y’umutekano yoshobora guhitamwo umuyobozi w’amapaki y’ugukwiragiza kwabo, ivyo bikaba vyongerako ibikorwa remezo vy’ugusinya vy’ugukwiragiza. Ayandi mahitamwo ntabwo ari meza: Rustup ishira mu bubiko bw’inzu y’ukoresha ataco isaba uburenganzira bw’ubuyobozi, uruhererekane rw’ibikoresho ruhamye rurakuraho cane cane ibiranga ivy’igerageza, kandi intumbero zo gukoranya zirongerwako zitandukanye kandi ntizitera ingorane z’umutekano zisanzwe.

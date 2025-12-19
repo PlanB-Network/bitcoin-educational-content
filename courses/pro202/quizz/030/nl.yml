@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van het sighash-constructieproces bij Bitcoin transactievalidatie?
+answer: Om het exacte bericht te maken dat oorspronkelijk is ondertekend door de privésleutel voor handtekeningverificatie
+wrong_answers:
+  - Aan generate een unieke identificatie voor de transactie die double-spending aanvallen voorkomt
+  - De transactiegegevens comprimeren in een kleiner formaat voor efficiënte netwerkoverdracht
+  - De inhoud van de transactie versleutelen zodat alleen de ontvanger de munten kan ontsleutelen en uitgeven
+explanation: |
+  De sighash constructie creëert het exacte bericht dat ondertekend is door de private sleutel, waardoor OP_CHECKSIG de echtheid van de handtekening kan verifiëren. Dit proces bestaat uit het legen van ScriptSigs, het vervangen van de ScriptSig van de huidige invoer door de overeenkomstige ScriptPubKey en het toevoegen van een hash-type voor double-hashing. De andere opties zijn onjuist: transactie ID's dienen als identificatie, compressie wordt apart afgehandeld en Bitcoin transacties zijn niet versleuteld maar publiekelijk zichtbaar op de blockchain.

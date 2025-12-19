@@ -1,0 +1,8 @@
+question: Wat is het primaire veiligheidsrisico waardoor P2SH fundamenteel verschilt van standaard Bitcoin transacties in termen van fund recovery?
+answer: Als je het redeem-script verliest, worden de fondsen permanent vergrendeld, zelfs als je de privésleutels hebt
+wrong_answers:
+  - De 20-byte hash kan geforceerd worden als het redeem script te eenvoudig is
+  - P2SH adressen verlopen na een bepaalde blokhoogte waardoor fondsen niet meer terug te vorderen zijn
+  - Het validatieproces in twee stappen kan willekeurig mislukken, waardoor het fonds permanent verloren gaat
+explanation: |
+  P2SH introduceert een unieke beveiligingseis: zowel de privésleutels als het inwisselscript zijn nodig om geld uit te geven. In tegenstelling tot standaard transacties, waarbij alleen de privé sleutels nodig zijn, moet bij P2SH het script voor het inwisselen worden verstrekt tijdens het uitgeven. Als het inwisselscript verloren gaat, zijn de fondsen permanent ontoegankelijk, ongeacht of je de juiste privésleutels hebt, omdat de bestedingsvoorwaarden niet kunnen worden gereconstrueerd of gevalideerd.

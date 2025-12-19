@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto'nun temel eleştirisine göre, geleneksel itibari para sistemlerinin temel sorunu nedir?
+answer: Tarihsel olarak paranın değerini düşürerek bu güveni ihlal etmiş olan merkezi kurumlara aşırı güven duyulmasını gerektirirler
+wrong_answers:
+  - Modern dijital işlemlerin verimli ve güvenli bir şekilde gerçekleştirilmesi için yeterli teknolojik altyapıya sahip olmamaları
+  - Döviz kurlarında çok fazla dalgalanma yaratarak uluslararası ticareti öngörülemez ve maliyetli hale getirirler
+  - generate Mikro ödemeleri günlük kullanıcılar için ekonomik açıdan uygunsuz hale getiren aşırı işlem ücretleri
+explanation: |
+  Satoshi Nakamoto açıkça 'geleneksel para biriminin temel sorununun, işlemesi için gereken güven olduğunu' ve 'itibari para birimlerinin tarihinin bu güvenin ihlal edilmesiyle dolu olduğunu' ifade etmiştir
+  Eleştirisi, merkez bankalarının defalarca başarısızlığa uğradıkları para biriminin değerini düşürmeme konusundaki temel güvene odaklanmıştır. Diğer seçenekler, geleneksel sistemlerle ilgili potansiyel olarak geçerli endişeler olsa da, Nakamoto'nun güvene dayalı parasal sistemlere yönelik temel felsefi itirazını ve güvensiz bir alternatif yaratma motivasyonunu gözden kaçırmaktadır.

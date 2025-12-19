@@ -1,0 +1,8 @@
+question: Millist võtmesõna kasutatakse Rust struktuuride jaoks meetodeid ja nendega seotud funktsioone sisaldavate implementatsiooniplokkide määratlemiseks?
+answer: impl
+wrong_answers:
+  - meetod
+  - struct
+  - fn
+explanation: |
+  Võtmesõna `impl` kasutatakse spetsiaalselt implementatsiooniplokkide loomiseks, kus defineeritakse struktuuride meetodid ja nendega seotud funktsioonid. Kui `struct` defineerib struktuuri ennast, `fn` defineerib üksikuid funktsioone ja `method` ei ole üldse Rust võtmesõna, siis ainult `impl` loob ploki, mis sisaldab tüübiga seotud käitumist. Implementatsiooniplokid, mis kasutavad `impl`, võimaldavad lisada oma struktuuridele funktsionaalsust, muutes need enamaks kui lihtsalt andmekonteinerid.

@@ -1,0 +1,8 @@
+question: Quelle propriété mathématique garantit que les points de la courbe elliptique peuvent être additionnés de manière cohérente et prévisible dans les opérations cryptographiques ?
+answer: Les points forment un groupe mathématique avec fermeture, associativité, identité et inverses
+wrong_answers:
+  - Les points maintiennent des courbes continues et lisses qui préservent les relations géométriques
+  - Les points suivent une progression linéaire qui crée des séquences prévisibles
+  - Les points utilisent une arithmétique modulaire qui évite automatiquement les erreurs de calcul
+explanation: |
+  Les points de la courbe elliptique forment un groupe mathématique sous addition, ce qui signifie qu'ils satisfont à quatre propriétés essentielles : la fermeture (l'addition de deux points donne un autre point sur la courbe), l'associativité (l'ordre des opérations n'a pas d'importance), l'identité (le point à l'infini agit comme zéro) et les inverses (chaque point a un reflet qui l'annule). Ces propriétés de groupe permettent à la cryptographie sur courbe elliptique de fonctionner de manière fiable et à des opérations telles que la multiplication scalaire de se comporter de manière cohérente, que l'on travaille avec des courbes réelles lisses ou des points discrets d'un corps fini.

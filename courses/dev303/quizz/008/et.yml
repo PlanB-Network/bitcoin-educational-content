@@ -1,0 +1,8 @@
+question: Milliseid turvakaalutlusi peaksite arvestama Rust installimisel Rustupi abil?
+answer: Paigaldamine hõlmab skripti allalaadimist ja täitmist, kuigi see kasutab HTTPS-i ja pärineb ametlikest usaldusväärsetest allikatest
+wrong_answers:
+  - Paigaldamine nõuab administraatori õigusi, mis tekitab võimalikke süsteemi haavatavusi
+  - Stabiilne tööriistakomplekt sisaldab eksperimentaalseid funktsioone, millel võib olla avastamata turvaauke
+  - Paigaldusprotsess võimaldab automaatselt kõiki kompileerimise sihtmärke, sealhulgas potentsiaalselt ohtlikke arhitektuure
+explanation: |
+  Rustupi installimisel laadite alla ja käivitate skripti Rust ametlikult veebilehelt. See kasutab transpordikihi turvalisuse tagamiseks HTTPS-i ja paketid pärinevad usaldusväärsetest allikatest nagu crates.io. Kuigi see on enamiku kasutusjuhtumite puhul turvaline, võivad mõned rangete turvapoliitikatega organisatsioonid eelistada oma distributsiooni paketihaldurit, mis lisab distributsiooni enda allkirjastamise infrastruktuuri. Teised valikud on valed: Rustup installib kasutaja kodukataloogi ilma administraatori õigusi nõudmata, stabiilne tööriistakett välistab spetsiaalselt eksperimentaalsed funktsioonid ja kompileerimise sihtmärgid lisatakse eraldi ning need ei tekita sisemisi turvariske.

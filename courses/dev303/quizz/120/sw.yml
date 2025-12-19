@@ -1,0 +1,8 @@
+question: Ni mabadiliko gani muhimu zaidi ya faragha yanayoanzishwa wakati wa kuhama kutoka utekelezaji wa LDK unaojisimamia hadi usanifu unaotegemea wingu wa Breez SDK?
+answer: Greenlight inapata mwonekano unaowezekana katika maeneo ya malipo na shughuli za uzalishaji wa ankara kupitia uelekezaji wa wingu
+wrong_answers:
+  - "Funguo za kibinafsi huhifadhiwa kwenye seva za Blockstream badala ya zile za ndani kwenye kifaa cha mtumiaji"
+  - Taarifa kuhusu hali ya kituo huonekana hadharani kwenye grafu ya Lightning Network kupitia nodi za Greenlight
+  - Huduma za LSP sasa zinaweza kufuatilia miamala yote ya on-chain na kuiunganisha na mifumo ya malipo ya Lightning
+explanation: |
+  Jibu sahihi linabainisha uharibifu muhimu wa faragha: uelekezaji unaotegemea wingu huruhusu Greenlight kuchunguza maeneo ya malipo, huku utengenezaji wa ankara za wingu ukipanua ufichuzi wa taarifa zaidi ya kile usanifu wa jadi wa LSP pekee ulichokifunua. Majibu yasiyo sahihi si sahihi kwa sababu: funguo za faragha zinabaki chini ya udhibiti wa mtumiaji licha ya usanifu wa wingu; hali za chaneli hazionekani hadharani kupitia uelekezaji; na LSP hazipati uwezo wa ziada wa ufuatiliaji wa miamala ya on-chain kupitia mabadiliko haya ya usanifu.

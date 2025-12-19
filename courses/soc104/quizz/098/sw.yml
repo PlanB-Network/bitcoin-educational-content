@@ -1,0 +1,10 @@
+question: Kulingana na Ilani ya Cypherpunk ya Eric Hughes, ni kanuni gani ya msingi inayowatofautisha watu wasioamini sheria na wale wanaotumaini tu ulinzi wa faragha?
+answer: Cypherpunks huandika msimbo kikamilifu ili kujenga mifumo isiyojulikana badala ya kusubiri taasisi zitoe faragha
+wrong_answers:
+  - Wazungu wanazingatia ushawishi wa kisiasa na mageuzi ya kisheria ili kuanzisha haki za faragha kupitia michakato ya kidemokrasia
+  - Wacypherpunks wanaamini katika kufanya kazi ndani ya taasisi za fedha zilizopo ili kuboresha hatua kwa hatua ulinzi wao wa faragha
+  - Wa-Cypherpunks wanapa kipaumbele kuelimisha umma kuhusu hatari za faragha badala ya kutengeneza suluhu za kiufundi
+explanation: |
+  Ilani inasema waziwazi 'Wa-Cypherpunks huandika msimbo' na inasisitiza kwamba hawapati faraja katika matumaini na matakwa bali huingilia kikamilifu matukio.
+  
+  Hughes alisema kwamba watu hawawezi kutarajia serikali, mashirika, au mashirika mengine makubwa kuhakikisha faragha, kwa hivyo Wa-Cypherpunks lazima wajenge mifumo ya kriptografia wenyewe. Mbinu hii hai na ya kiufundi kupitia ukuzaji wa msimbo inawatofautisha na mbinu tulivu kama vile ushawishi, kufanya kazi ndani ya mifumo iliyopo, au kuelimisha wengine tu bila kuunda suluhisho halisi za kiteknolojia.

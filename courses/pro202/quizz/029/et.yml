@@ -1,0 +1,8 @@
+question: Mida peab sõlmpunkt Bitcoin tehingu valideerimise ajal kontrollima, et tagada, et iga sisend on nõuetekohaselt lubatud, et kulutada selle viidatud väljundit?
+answer: ScriptSig peab vastava ScriptPubKey'ga koos toimides edukalt vabastama vastava ScriptPubKey lukustuse
+wrong_answers:
+  - "Sisendi digitaalallkiri peab täpselt vastama väljundi varjatud avalikule võtmele"
+  - Tehingu hash peab olema võrdne viidatud ploki päises salvestatud merkle-juurega
+  - Sisendkogus peab olema suurem või võrdne kulutatava väljundkogusega
+explanation: |
+  Bitcoin skriptisüsteem nõuab, et iga sisendi ScriptSig (lukustusskript) peab edukalt käivituma koos viidatud väljundi ScriptPubKey (lukustusskript) võtmega, et anda virna tõene tulemus. See skriptide täitmise mudel võimaldab paindlikke kulutustingimusi, mis lähevad kaugemale lihtsast allkirja sobitamisest. Teised valikud kirjeldavad ebaõigeid valideerimisnõudeid - allkirjad ei pea täpselt vastama varjatud võtmetele, tehingu hash'e ei võrrelda sisendi valideerimise ajal merkle-juurtega ja üksikud sisendid ei pea ületama oma väljundeid (ainult sisendite kogusumma peab ületama väljundeid kokku).

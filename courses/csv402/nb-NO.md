@@ -3169,7 +3169,7 @@ Den kan sendes til Bob via en hvilken som helst kanal (tekst, QR-kode osv.).
 For å overføre fra denne fakturaen :
 
 
-- Bob (som har tokens i sin stash) har en Bitcoin-lommebok. Han må forberede en Bitcoin-transaksjon (i form av en PSBT, f.eks. `tx.psbt`) som bruker UTXOene der de nødvendige RGB-tokens befinner seg, pluss én UTXO for valuta (veksling);
+- Bob (som oppbevarer tokenene i sin stash) har en Bitcoin-lommebok. Han må forberede en Bitcoin-transaksjon (i form av en PSBT, f.eks. `tx.psbt`) som bruker UTXO-ene der de nødvendige RGB-tokenene befinner seg, samt én UTXO for veksel (change);
 - Bob utfører følgende kommando:
 
 ```bash

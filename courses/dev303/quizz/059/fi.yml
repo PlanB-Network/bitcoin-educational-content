@@ -1,0 +1,8 @@
+question: Mikä on derive-makrojen, kuten #[derive(Debug)], käytön tärkein etu verrattuna siihen, että mukautettuja tyyppejä varten toteutettaisiin piirteitä manuaalisesti?
+answer: Ne automaattisesti generate:n täydelliset ominaisuustoteutukset kääntämisen yhteydessä, mikä vähentää plasmakoodin määrää
+wrong_answers:
+  - Ne parantavat suorituskykyä ajon aikana optimoimalla ominaisuustapojen kutsuja suorituksen aikana
+  - Ne mahdollistavat sen, että ominaisuudet voidaan toteuttaa useita kertoja samalle tyypille eri käyttäytymismalleilla
+  - Ne mahdollistavat dynaamisen ominaisuuksien toteutuksen, jota voidaan muuttaa ajon aikana ohjelman tilan perusteella
+explanation: |
+  Johdanna makrot automaattisesti generate-ominaisuuksien toteutukset kääntämisen aikana, jolloin ei tarvitse kirjoittaa manuaalisesti toistuvaa koodia. Kun käytät #[derive(Debug)], kääntäjä luo kaiken tarvittavan muotoilulogiikan kyseistä ominaisuutta varten. Väärät vastaukset ovat virheellisiä, koska: derive-makrot eivät paranna ajonaikaista suorituskykyä (ne generate samaa koodia, jonka kirjoittaisit manuaalisesti), piirteet voidaan toteuttaa vain kerran tyyppiä kohti riippumatta siitä, miten ne on toteutettu, ja derive-makrot generate staattista koodia kääntäessä sen sijaan, että ne mahdollistaisivat ajonaikaiset muutokset.

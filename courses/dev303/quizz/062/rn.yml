@@ -1,0 +1,8 @@
+question: Ni akamaro akahe ka mbere ko gukoresha itegeko rya `cargo expand` igihe ukora ama macros asobanutse muri Rust?
+answer: Igaragaza kode yagutse yuzuye yavuye mu guhamagara kwa macro, ishobora gutuma abahinguzi bagenzura igisohoka cavuyemwo no gukosora ibibazo
+wrong_answers:
+  - Ihita ihindura neza ibikorwa vya macro mu kugabanya igihe co gukoranya no gukuraho amashami ahuye n'imirongo idakenewe
+  - Yemeza insiguro y'amajambo macro mu gihe co gukora kandi itanga amakosa y'igihe nyaco ku kwemeza imvugo ya macro ihinduka
+  - Ihindura macros zisa n'ibikorwa mu macros zikomoka ubwazo, zituma kode ishobora gusubira gukoreshwa neza no gushirwa mu ngiro neza kw'imico
+explanation: |
+  Itegeko rya `cargo expand` ni ngirakamaro cane mu gutegura macro kuko rihishura kode nyayo macros generate mu gihe co gukoranya. Kubera ko macros zikora mu gihe co gukoranya kandi zihindura uburyo bwo kwinjiza mu kode yashizweho, abahinguzi barakeneye kubona iki gisohoka cagutse kugira ngo bagenzure ko macros zabo zikora neza. Ivyo birahambaye cane cane iyo kode yakozwe na macro irimwo amakosa, kuko igisohoka cagutse gifasha kumenya nimba ibibazo biva ku nsobanuro ya macro ubwayo canke ku miterere ya kode yakozwe. Ibindi bihitamwo ntibibereye kuko `cargo expand` ni igikoresho co gukosora no gusuzuma - ntibituma ibikorwa bigenda neza, ntivyemeza inyifato y'igihe co gukora, canke ngo bihindure ubwavyo hagati y'ubwoko bwa macro.

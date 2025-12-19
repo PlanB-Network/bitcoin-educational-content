@@ -4401,7 +4401,7 @@ Da prenesete sa ovog Invoice :
 
 
 
-- Bob (koji drži tokene u svom Stash) ima Bitcoin Wallet. On treba da pripremi Bitcoin transakciju (u obliku PSBT, npr. `tx.PSBT`) koja troši UTXO-e gde se nalaze potrebni RGB tokeni, plus jedan UTXO za valutu (Exchange) ;
+- Bob (koji drži tokene u svom stashu) poseduje Bitcoin novčanik. On mora da pripremi Bitcoin transakciju (u obliku PSBT-a, npr. `tx.psbt`) koja troši UTXO-e u kojima se nalaze potrebni RGB tokeni, kao i jedan UTXO za kusur (change);
 - Bob izvršava sledeću komandu:
 
 

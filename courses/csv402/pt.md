@@ -3169,7 +3169,7 @@ Pode ser transmitida ao Bob através de qualquer canal (texto, código QR, etc.)
 Para transferir a partir desta fatura :
 
 
-- Bob (que tem os tokens no seu stash) tem uma carteira Bitcoin. Ele precisa de preparar uma transação Bitcoin (sob a forma de um PSBT, por exemplo, `tx.psbt`) que gasta os UTXOs onde se encontram os tokens RGB necessários, mais um UTXO para a moeda (câmbio) ;
+- Bob (que detém os tokens no seu stash) possui uma wallet Bitcoin. Ele deve preparar uma transação Bitcoin (na forma de PSBT, por ex. `tx.psbt`) que gaste os UTXOs onde se encontram os tokens RGB necessários, além de um UTXO para o troco (change);
 - O Bob executa o seguinte comando:
 
 ```bash

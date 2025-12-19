@@ -1,0 +1,8 @@
+question: Quando um nó Bitcoin solicita cabeçalhos de bloco usando o comando getheaders, qual é o número máximo de cabeçalhos que podem ser retornados em uma única resposta e o que segue cada cabeçalho de 80 bytes?
+answer: Podem ser devolvidos até 2000 cabeçalhos, cada um seguido de uma contagem de transacções fictícias de zero
+wrong_answers:
+  - Podem ser devolvidos até 1000 cabeçalhos, cada um seguido da contagem real da transação como um varint
+  - Podem ser devolvidos até 2000 cabeçalhos, cada um seguido de uma soma de controlo de 4 bytes dos dados do cabeçalho
+  - Podem ser devolvidos até 500 cabeçalhos, cada um seguido do hash de raiz Merkle para verificação
+explanation: |
+  O protocolo P2P do Bitcoin limita especificamente as respostas getheaders a um máximo de 2000 cabeçalhos para evitar sobrecarregar os nós com respostas massivas. Cada cabeçalho tem exatamente 80 bytes e é seguido por um campo de contagem de transacções definido como zero, uma vez que as mensagens apenas com cabeçalhos não incluem transacções reais. Este design permite uma sincronização eficiente da cadeia, onde os nós podem descarregar e verificar rapidamente a estrutura da cadeia proof-of-work antes de solicitar dados completos do bloco.

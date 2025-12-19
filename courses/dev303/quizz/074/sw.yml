@@ -1,0 +1,8 @@
+question: Kikwazo kikuu cha kutumia maktaba kwa vyovyote vile ni kipi kwa ajili ya kushughulikia hitilafu katika ukuzaji wa maktaba ya Rust?
+answer: Inabadilisha makosa yote kuwa ujumbe wa kamba, na kuzuia watumiaji kujibu kimfumo hali tofauti za makosa
+wrong_answers:
+  - Inafanya kazi tu na aina za Matokeo na haiwezi kushughulikia aina za Chaguo, na hivyo kupunguza manufaa yake katika hali mchanganyiko
+  - Inahitaji ubadilishaji wa hitilafu kwa mikono kwa kila aina ya hitilafu, na kuifanya iwe ya maneno mengi zaidi kuliko utunzaji wa kawaida wa Matokeo
+  - Huwa na wasiwasi kiotomatiki kuhusu aina fulani za hitilafu, na kuifanya isifae kwa msimbo wa maktaba ya uzalishaji
+explanation: |
+  Hata hivyo, ubaya mkuu wa maktaba kwa ajili ya uundaji wa maktaba ni kwamba kimsingi husawazisha makosa yote katika uwakilishi wa mfuatano, na kupoteza taarifa za makosa zilizopangwa ambazo watumiaji wa maktaba wanahitaji kufanya maamuzi ya kiprogramu. Ingawa kwa vyovyote vile inafanikiwa katika kurahisisha utunzaji wa makosa kwa programu za watumiaji wa mwisho ambapo makosa huonyeshwa kimsingi, maktaba zinahitaji kutoa aina maalum za makosa zinazowaruhusu watumiaji kutofautisha kati ya njia tofauti za kushindwa (kama vile makosa batili ya ingizo dhidi ya makosa ya wakati wa utekelezaji) na kujibu ipasavyo. Chaguzi zingine si sahihi: kwa vyovyote vile hufanya kazi vizuri na aina zote mbili za Matokeo na Chaguo, kwa kweli hupunguza mfuatano kupitia ubadilishaji otomatiki, na haisababishi hofu.

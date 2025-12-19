@@ -1,0 +1,2 @@
+description: |
+  Joinstr on avoimen lähdekoodin sovellus, joka mahdollistaa kolikkoliiton ilman keskitettyä palvelinta. Hajautetun Nostr-verkon ansiosta käyttäjät koordinoivat suoraan vertaistensa välillä ilman sensuurin tai varojensa hallinnan menettämisen riskiä.

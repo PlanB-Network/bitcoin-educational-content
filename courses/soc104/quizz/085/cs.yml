@@ -1,0 +1,9 @@
+question: Proč mají centrálně plánované ekonomiky podle Hayekovy teorie rozptýlených znalostí problémy se stanovováním cen ve srovnání s volnými trhy?
+answer: Centrální plánovači nemají přístup k subjektivním, lokalizovaným znalostem individuálních nákladů, přínosů a preferencí, které mají pouze účastníci trhu
+wrong_answers:
+  - Centrální plánovači nemají dostatečný výpočetní výkon a pokročilé algoritmy pro zpracování všech ekonomických údajů, které mají k dispozici
+  - Centrální plánovači jsou ze své podstaty zkorumpovaní a stanovují ceny tak, aby z nich měli prospěch spíše oni sami než společnost, na rozdíl od účastníků trhu, kteří jsou altruističtí
+  - Centrální plánovači se příliš zaměřují na dlouhodobou ekonomickou stabilitu, než aby reagovali na okamžité výkyvy nabídky a poptávky
+explanation: |
+  Hayekův klíčový poznatek spočívá v tom, že vědění existuje pouze jako "fragmenty rozptýlených neúplných a často protichůdných znalostí, které mají všichni různí jedinci" Tyto znalosti jsou subjektivní a lokalizované - pouze jednotlivci znají své vlastní náklady, přínosy a preference. Volný trh prostřednictvím dobrovolné směny a vyjednávání o cenách umožňuje, aby se tyto rozptýlené znalosti objevily a koordinovaly ekonomickou činnost.
+  Centrální plánovači, bez ohledu na své záměry a možnosti, nemají přístup k těmto subjektivním, rozptýleným informacím, které existují v myslích milionů jednotlivců, což znemožňuje efektivní stanovení cen.

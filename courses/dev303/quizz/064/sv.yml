@@ -1,0 +1,8 @@
+question: Vad gör Rust:s typsystem särskilt effektivt för att förhindra minnesrelaterade sårbarheter i Bitcoin-applikationer?
+answer: Typsystemet hanterar både modellering av affärslogik och kontroll av minnesägande genom samma mekanism
+wrong_answers:
+  - Kompilatorn genererar automatiskt rutiner för minnesallokering som förhindrar buffer overflow-attacker
+  - Statisk typning kräver att alla minnesadresser deklareras vid kompileringstillfället i stället för vid körning
+  - Stark typning konverterar alla pekaroperationer till säker array bounds checking under exekvering
+explanation: |
+  Rust:s typsystem är unikt eftersom det tjänar ett dubbelt syfte - det modellerar komplex affärslogik samtidigt som det hanterar minnessäkerhet genom ägande, lån och referensräkning. Denna integration innebär att samma typkontroll som säkerställer korrekt programlogik också eliminerar minnesläckor, dubbelfria fel och tävlingsförhållanden vid kompileringstiden. De felaktiga svaren beskriver mekanismer som inte finns i Rust: kompilatorn använder inte automatiskt generate-allokeringsrutiner, minnesadresser behöver inte vara konstanter vid kompilering och pekarsäkerhet kommer från ägarskapsregler snarare än gränskontroll vid körning.

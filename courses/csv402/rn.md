@@ -4425,7 +4425,7 @@ Kugira ngo ushiremwo iyi Invoice:
 
 
 
-- Bob (uwufise ibimenyetso muri Stash yiwe) afise Bitcoin Wallet. Arakeneye gutegura igikorwa co gucuruza Bitcoin (mu buryo bwa PSBT, nk’akarorero `tx.PSBT`) gikoresha ama UTXO aho ibimenyetso vya RGB bisabwa biri, yongerako UTXO imwe y’amahera (PSBT);
+- Bob (afise amatokeni mu stash yiwe) afise wallet ya Bitcoin. Ategerejwe gutegura transaction ya Bitcoin (mu buryo bwa PSBT, nk’akarorero `tx.psbt`) ikoresha UTXO zirimo amatokeni ya RGB akenewe, hakiyongerako UTXO imwe y’ivunjisha (change);
 - Bob ikora itegeko rikurikira:
 
 

@@ -1,0 +1,8 @@
+question: Qu'advient-il de la différence entre les montants d'entrée et les montants de sortie dans une opération Bitcoin ?
+answer: La différence devient automatiquement la commission de transaction payée aux mineurs
+wrong_answers:
+  - "La différence est renvoyée à l'adresse d'origine de l'expéditeur en tant que changement"
+  - La différence est brûlée et définitivement retirée de la circulation
+  - La différence est bloquée jusqu'à ce que la transaction soit confirmée
+explanation: |
+  Dans le système de frais de la Bitcoin, les frais sont calculés implicitement comme la différence entre les montants totaux des entrées et les montants totaux des sorties (frais = somme(entrées) - somme(sorties)). Toute valeur qui n'est pas explicitement assignée à une sortie devient automatiquement la redevance du mineur. C'est pourquoi il est essentiel de créer des sorties de changement appropriées - si vous oubliez d'inclure une sortie de changement lorsque vous dépensez une UTXO importante, tout le reste devient une redevance coûteuse pour le mineur. Les autres options sont incorrectes parce que la Bitcoin ne crée pas automatiquement de sorties de changement, ne brûle pas les valeurs non assignées et n'utilise pas de mécanismes de séquestre pour les différences de transaction.

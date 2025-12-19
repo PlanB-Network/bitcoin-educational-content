@@ -1,0 +1,8 @@
+question: Apa mekanisme konsensus utama yang digunakan oleh Liquid Network?
+answer: Konsensus Federasi
+wrong_answers:
+  - Proof-of-Work
+  - Bukti Kepemilikan
+  - Bukti Kepemilikan yang Didelegasikan
+explanation: |
+  Liquid Network beroperasi dengan model Federated Consensus, yang pada dasarnya berbeda dengan sistem Proof-of-Work milik Bitcoin. Dalam model ini, sebuah kelompok terpilih yang terdiri dari lima belas fungsionaris bertindak sebagai penandatangan blok yang menghasilkan blok dalam mode round-robin deterministik. Proof-of-Work adalah mekanisme konsensus Bitcoin yang melibatkan mining, sedangkan Proof-of-Stake dan Delegated Proof-of-Stake adalah mekanisme konsensus yang digunakan oleh jaringan blockchain lainnya tetapi tidak digunakan oleh Liquid.

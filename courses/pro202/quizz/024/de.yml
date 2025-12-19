@@ -1,0 +1,8 @@
+question: Was ist der Hauptgrund dafür, dass Skriptpuzzles, die sich nur auf öffentliche Daten ohne Signaturprüfungen stützen, in Bitcoin anfällig sind?
+answer: Miner können die Lösung aus dem Mempool kopieren und die Auszahlung an sich selbst weiterleiten
+wrong_answers:
+  - Die Skriptausführung wird über verschiedene Netzwerkknoten hinweg nicht deterministisch
+  - Die Dauer der Transaktionsvalidierung steigt quadratisch mit der Komplexität des Puzzles
+  - Das stapelbasierte Ausführungsmodell kann komplexe mathematische Operationen nicht sicher handhaben
+explanation: |
+  Skripterätsel, die sich nur auf öffentliche Daten stützen (wie mathematische Probleme oder Hash-Präimages) ohne Signaturprüfung sind anfällig für Miner-Front-Running. Sobald eine gültige Lösung im Mempool auftaucht, kann jeder Miner sie beobachten, die Lösung kopieren und seine eigene Transaktion erstellen, um die Auszahlung an seine Adresse umzuleiten. Aus diesem Grund enthalten Bitcoin-Verträge in der Praxis fast immer eine Unterschriftenprüfung - Unterschriften binden die Lösung an eine bestimmte Partei und verhindern, dass andere die Auszahlung stehlen, wodurch angemessene Anreize für Rätsellöser erhalten bleiben.

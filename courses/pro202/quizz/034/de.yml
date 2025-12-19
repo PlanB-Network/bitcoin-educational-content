@@ -1,0 +1,8 @@
+question: Welches spezifische Element muss in einer P2SH ScriptSig enthalten sein, das sie von normalen Transaktionsinputs unterscheidet?
+answer: Das komplette Freisetzungsskript selbst zusammen mit den Freischaltdaten
+wrong_answers:
+  - Der HASH160 des Redeem-Skripts und die öffentlichen Schlüssel
+  - Nur die zur Erfüllung der Bedingungen erforderlichen Signaturen und öffentlichen Schlüssel
+  - Das Versionsbyte und die Adresskodierung für die P2SH-Validierung
+explanation: |
+  P2SH-Eingaben erfordern sowohl die Entsperrungsdaten (Signaturen usw.) als auch das vollständige Einlöseskript im ScriptSig. Dies ist einzigartig, da das Einlöseskript zuvor hinter einem Hash versteckt war und nun zur Validierung offengelegt werden muss. Der erste Validierungsschritt prüft, ob HASH160(redeem_script) mit dem Hash im scriptPubKey übereinstimmt, dann wird das Redeem-Skript mit den bereitgestellten Entsperrungsdaten ausgeführt. Die anderen Optionen sind falsch: Der Hash ist bereits im ursprünglichen scriptPubKey enthalten, Signaturen allein reichen ohne das Skript nicht aus, und Versionsbytes werden zur Adresskodierung und nicht zur Ausgabenvalidierung verwendet.

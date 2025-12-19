@@ -1,0 +1,8 @@
+question: Ni utaratibu gani mkuu ambao kipengele cha akiba ya Breez SDK chenye chaneli sifuri huunda hatari ya ziada ambayo lazima ifyonzwe na Watoa Huduma za Umeme?
+answer: LSP lazima zikubali hatari ya watumiaji kutumia salio lao kamili la chaneli, na kuondoa kizuizi cha usalama ambacho kwa kawaida hulinda dhidi ya kufungwa kwa nguvu za chaneli.
+wrong_answers:
+  - LSPs huwa na jukumu la kudumisha usawazishaji endelevu wa grafu ya mtandao katika vifaa vingi vya watumiaji bila fidia ya ada ya kawaida inayotokana na akiba.
+  - LSP lazima zihakikishe utumaji wa malipo ya papo hapo bila mto wa ukwasi ambao akiba ya chaneli hutoa kwa ajili ya kushughulikia hali za msongamano wa mtandao.
+  - LSP hubeba dhima ya hitilafu za ubadilishaji wa on-chain wakati watumiaji wanapojaribu kubadilisha salio lao kamili la Umeme kuwa Bitcoin wakati wa vipindi vya ada kubwa.
+explanation: |
+  Akiba ya njia sifuri huruhusu watumiaji kutumia salio lao kamili lililoonyeshwa, lakini hii huondoa kizuizi cha usalama cha kitamaduni kinachowalinda Watoa Huduma za Umeme wakati wa kufungwa kwa nguvu za chaneli. Akiba ya njia kwa kawaida huhakikisha kwamba baadhi ya fedha hubaki zimefungwa ili kufidia gharama za kufunga na kutoa usalama dhidi ya tabia mbaya. Kwa kuondoa akiba hizi ili kuboresha uzoefu wa mtumiaji, LSP lazima zichukue hatari za ziada za uendeshaji na kifedha ambazo vikwazo hivi viliundwa ili kupunguza, ikiwakilisha maelewano wazi ambapo ugumu wa kiufundi na hatari huhamishwa kutoka kwa watumiaji hadi kwa watoa huduma.

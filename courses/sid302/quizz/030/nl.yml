@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van het ECDH sleuteluitwisselingsmechanisme in de Confidential Transactions architectuur van Liquid?
+answer: Verzenders in staat stellen om hoeveelheden en soorten activa te coderen met de verblindende openbare sleutel van de ontvanger en tegelijkertijd verifieerbare bereikbewijzen te genereren
+wrong_answers:
+  - Om veilige communicatiekanalen op te zetten tussen AMP-servers en wallet-cliënten tijdens autorisatieprocessen voor transacties
+  - Gedeelde geheimen aanmaken voor de registratie van multisignature descriptors tussen portemonnees en de AMP-serverinfrastructuur
+  - generate cryptografische handtekeningen die het eigendom van activa aantonen zonder de onderliggende informatie van de private sleutel te onthullen
+explanation: |
+  ECDH (Elliptic Curve Diffie-Hellman) sleuteluitwisseling in Liquid's Confidential Transactions maakt specifiek privacy-beschermende vermogensoverdrachten mogelijk door verzenders toe te staan transactie-uitgangswaarden te versleutelen met de verblindende publieke sleutel van de ontvanger. Dit creëert een gedeeld geheim dat alleen de ontvanger kan ontcijferen met zijn privé verblinde sleutel, terwijl tegelijkertijd bereikbewijzen worden gegenereerd die netwerkvalidators in staat stellen de geldigheid van transacties te verifiëren zonder de werkelijke bedragen te zien. De andere opties beschrijven ECDH ten onrechte als het dienen van communicatiebeveiliging, descriptorregistratie of eigendomsbewijsfuncties, die worden afgehandeld door verschillende cryptografische mechanismen in het Liquid ecosysteem.

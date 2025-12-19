@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen turvallisuusriski, jonka vuoksi P2SH eroaa olennaisesti tavanomaisista Bitcoin-tapahtumista varojen takaisinperinnän kannalta?
+answer: Lunastusskriptin menettäminen lukitsee varat pysyvästi, vaikka sinulla olisikin yksityiset avaimet
+wrong_answers:
+  - 20 tavun hash voidaan murtaa, jos lunastusskripti on liian yksinkertainen
+  - P2SH-osoitteet vanhentuvat tietyn lohkon korkeuden jälkeen, jolloin varoja ei voida periä takaisin
+  - Kaksivaiheinen validointiprosessi voi epäonnistua satunnaisesti, mikä aiheuttaa pysyvän rahaston menetyksen
+explanation: |
+  P2SH:ssa on ainutlaatuinen turvallisuusvaatimus: varojen käyttäminen edellyttää sekä yksityisiä avaimia että lunastuskomentosarjaa. Toisin kuin tavanomaisissa tapahtumissa, joissa tarvitaan vain yksityisiä avaimia, P2SH edellyttää, että varsinainen lunastuskomentosarja toimitetaan varojen käytön yhteydessä. Jos lunastuskäsikirjoitus katoaa, varat ovat pysyvästi saavuttamattomissa riippumatta siitä, että yksityiset avaimet ovat oikeat, koska rahankäyttöehtoja ei voida rekonstruoida tai validoida.

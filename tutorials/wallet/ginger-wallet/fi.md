@@ -1,5 +1,5 @@
 ---
-name: Inkivääri Wallet
+name: Ginger Wallet
 description: Avoimen lähdekoodin, omavalvonnan Bitcoin wallet-ohjelmisto, fork Wasabi Wallet:sta, Coinjoins-ohjelmiston integrointi
 ---
 ![cover](assets/cover.webp)

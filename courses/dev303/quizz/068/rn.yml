@@ -1,0 +1,8 @@
+question: Ni akamaro akahe nyamukuru k’uburyo bwo kwandika buhoraho bwa Rust ku kwandika buhinduka igihe umuntu ariko arategura ibikorwa vya Bitcoin?
+answer: Amakosa y'ubwoko afatwa mu gihe co gukoranya imbere yo gukoreshwa, gukingira igihe co gukora kunanirwa igihe ukoresha amafaranga y'abakoresha
+wrong_answers:
+  - Kwandika bihoraho bituma umuntu akora vyihuta igihe ariko arakora ibikorwa vya Bitcoin ku rubuga rwa blockchain
+  - "Kwandika bikomeye bisaba gutanga ubwenge bwinshi bihushanye n'ibisabwa vya Bitcoin"
+  - Kwandika bihoraho bishoboza gukora kode yihuta ku gushirwa mu ngiro kwa porotokole ya Bitcoin n'amasezerano y'ubwenge
+explanation: |
+  Rust's static typing ifata ubwoko budahuye mu gihe co gukoranya, igatuma amakosa atorerwa umuti imbere y'uko porogarama ishobora kwubakwa canke gukoreshwa. Ivyo ni ngirakamaro ku gutegura Bitcoin kuko iyo porogarama imaze gukorana n’amahera nyayo y’abakoresha, amakosa y’ubwoko bw’igihe co gukora yoshobora gutuma umuntu atakaza amahera adashobora gusubirwamwo. Kwandika bikomeye bigaragaza gusa amakosa mu gihe co gukora, bishoboka inyuma yo gukoreshwa igihe amahera y'abakoresha ari mu kaga. Ayandi mahitamwo ntabwo ari meza kuko inyungu nyamukuru y'ukwandika guhagaze si umuvuduko wo gukora, gukoresha ubwonko, canke gukora kode, ahubwo ni ugukingira amakosa mu gihe co gukoranya.

@@ -1,0 +1,8 @@
+question: Quando gli hash dei blocchi Bitcoin sono interpretati come numeri interi little-endian per il confronto con gli obiettivi, perché i blocchi validi mostrano tipicamente molti zeri finali nella loro rappresentazione esadecimale?
+answer: Poiché l'interpretazione little-endian significa che i byte più a destra in esadecimale corrispondono ai bit più significativi del valore intero
+wrong_answers:
+  - Poiché l'algoritmo SHA-256 produce naturalmente degli zeri finali quando l'input contiene dati di transazione con pattern ripetuti
+  - Poiché i minatori imbottiscono deliberatamente l'intestazione del blocco con zero byte per rendere il calcolo dell'hash più efficiente per l'hardware ASIC
+  - Poiché il campo nonce viene incrementato da zero verso l'alto, la funzione di hash deve utilizzare schemi generate con zeri finali
+explanation: |
+  Nell'interpretazione little-endian, i byte vengono letti in ordine inverso, quindi i byte più a destra in esadecimale diventano la parte più significativa dell'intero. Affinché un hash sia inferiore all'obiettivo (un numero piccolo), i suoi bit più significativi devono essere zero, che appaiono come zeri di coda nella visualizzazione esadecimale. Si tratta di un artefatto di rappresentazione della conversione dell'endianness, non di una proprietà dell'hardware SHA-256 o mining.

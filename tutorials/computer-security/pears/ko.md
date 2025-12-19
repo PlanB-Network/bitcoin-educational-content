@@ -1,5 +1,5 @@
 ---
-name: 배
+name: Pears
 description: Pears에서 애플리케이션을 설치하고 사용하려면 어떻게 해야 하나요?
 ---
 

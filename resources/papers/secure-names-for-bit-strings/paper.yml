@@ -1,0 +1,16 @@
+title: "Secure names for Bit-Strings"
+original_language: en
+authors:
+  - Stuart Haber
+  - W. Scott Stornetta
+abstract: |
+  The increasing use of digital documents, and the need to refer to them conveniently and unambiguously, raise an important question: can one “name” a digital document in a way that conveniently enables users to find it, and at the same time enables a user in possession of a document to be sure that it is indeed the one that is referred to by the name? One crucial piece of a complete solution to this problem would be a method that provides a cryptographically verifiable label for any bit-string (for example, the content, in a particular format, of the document). This problem has become even more acute with the emergence of the World-Wide Web, where a document (whose only existence may be on-line) is now typically named by giving its URL, which is merely a pointer to its virtual location at a particular moment in time. Using a one-way hash function to call files by their hash values is cryptographically verifiable, but the resulting names are unwieldy, because of their length and randomness, and are not permanent, since as time goes on the hash function may become vulnerable to attack. We introduce procedures to create names that are short and meaningful, while at the same time they can persist indefinitely, independent of the longevity of any given hash function. This is done by naming a bit-string according to its position in a growing, directed acyclic graph of one-way hash values. We prove the security of our naming procedures under a reasonable complexity-theoretic cryptographic assumption, and then describe practical uses for these names. An implementation of our naming scheme has been in use since January 1995.
+publication_date: 1997-04-01
+paper_type: conference
+source: CCS
+type: SCI
+topics:
+  - Cryptographic Commitment Schemes
+  - Timestamping Protocols
+pdf_url: https://dl.acm.org/doi/pdf/10.1145/266420.266430
+id: 1db65535-fdf5-4d73-8f12-b92c63b2cbe6

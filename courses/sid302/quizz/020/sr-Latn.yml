@@ -1,0 +1,8 @@
+question: Šta se dešava sa mrežnom konfiguracijom tokom Liquid-ovog procesa dinamičke federacije (Dynafed) kada funkcionalnost treba da bude zamenjena?
+answer: Mreža emituje prelaznu transakciju praćenu dvonedeljnim periodom preklapanja pre nego što nova konfiguracija preuzme.
+wrong_answers:
+  - Mreža se odmah prebacuje na novu funkcionalnu konfiguraciju nakon emitovanja transakcije prelaza
+  - Svi funkcioneri moraju istovremeno glasati za odobrenje zamene pre nego što dođe do bilo kakvih promena konfiguracije.
+  - Mreža zahteva tvrdo isključenje fork i privremeno gašenje radi ažuriranja liste funkcionalnosti i ponovnog pokretanja operacija.
+explanation: |
+  Dinamička Federacija omogućava da se Liquid razvija bez hard forkova kroz pažljivo orkestriran proces tranzicije. Kada je potrebna zamena funkcionalnosti, mreža emituje tranzicioni transakciju koja signalizira predstojeću promenu. Ovo je praćeno obaveznim dvonedeljnim periodom preklapanja gde stare i nove konfiguracije koegzistiraju, osiguravajući neprekidni kontinuitet. Ostale opcije su netačne jer bi trenutno prebacivanje rizikovalo nestabilnost mreže, simultano glasanje nije mehanizam koji se koristi, a hard forkovi su upravo ono što je Dynafed dizajniran da izbegne.

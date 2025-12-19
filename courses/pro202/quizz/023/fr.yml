@@ -1,0 +1,8 @@
+question: Quel est l'objectif principal du champ du numéro de séquence dans les entrées de la transaction Bitcoin ?
+answer: Pour activer les horloges et la fonctionnalité de remplacement par frais (RBF)
+wrong_answers:
+  - Pour spécifier l'ordre dans lequel les intrants doivent être traités par les mineurs
+  - Pour éviter le double-spending en créant un identifiant unique pour chaque entrée
+  - Indiquer le niveau de priorité de la transaction pour le calcul des frais
+explanation: |
+  Le champ du numéro de séquence dans les entrées de transaction Bitcoin sert deux objectifs principaux : la mise en œuvre de timelocks (qui retardent le moment où une transaction peut être confirmée) et l'activation de la fonctionnalité Replace-by-Fee (RBF) (qui permet aux utilisateurs d'augmenter les frais sur les transactions non confirmées). Les autres options sont incorrectes car : les entrées n'ont pas besoin d'être traitées dans un ordre spécifique par les mineurs, la prévention double-spending est gérée par le modèle UTXO et le consensus de la blockchain plutôt que par les numéros de séquence, et la priorité des transactions est déterminée par les taux de frais plutôt que par les numéros de séquence.

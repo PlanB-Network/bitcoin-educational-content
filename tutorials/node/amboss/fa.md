@@ -1,5 +1,5 @@
 ---
-name: آمبوس
+name: Amboss
 description: کاوش و تحلیل Lightning Network
 ---
 

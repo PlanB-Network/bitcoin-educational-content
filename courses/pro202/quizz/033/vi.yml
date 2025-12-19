@@ -1,0 +1,8 @@
+question: Khi sử dụng đầu ra P2SH, quy trình xác thực hai bước nào phải diễn ra để giao dịch được coi là hợp lệ?
+answer: Trước tiên, hãy xác minh HASH160 của tập lệnh đổi thưởng có khớp với mã băm scriptPubKey hay không, sau đó thực thi tập lệnh đổi thưởng với dữ liệu được cung cấp.
+wrong_answers:
+  - Trước tiên, hãy chạy tập lệnh đổi thưởng với dữ liệu được cung cấp, sau đó xác minh mã băm thu được khớp với scriptPubKey.
+  - Trước tiên, hãy xác minh tất cả các chữ ký có hợp lệ so với khóa công khai của chúng, sau đó kiểm tra xem mã băm của tập lệnh đổi thưởng có khớp hay không.
+  - Trước tiên, hãy xác nhận tập lệnh đổi thưởng có chứa các mã lệnh hợp lệ, sau đó xác minh việc thực thi tập lệnh tạo ra kết quả đúng.
+explanation: |
+  Xác thực P2SH yêu cầu một quy trình hai bước cụ thể: đầu tiên, mã băm của kịch bản đổi thưởng được cung cấp phải khớp với mã băm 20 byte trong scriptPubKey (xác minh HASH160), và chỉ sau khi quá trình xác minh này thành công, mạng mới thực thi kịch bản đổi thưởng với dữ liệu mở khóa. Thiết kế này đảm bảo rằng chỉ có kịch bản đổi thưởng chính xác mới có thể được sử dụng trong khi vẫn giữ kín các điều kiện chi tiêu thực tế cho đến khi giao dịch chi tiêu diễn ra. Các tùy chọn khác mô tả các trình tự xác thực hợp lý nhưng không chính xác, không tuân theo giao thức P2SH thực tế.

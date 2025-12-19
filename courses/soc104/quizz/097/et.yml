@@ -1,0 +1,9 @@
+question: Milline on Eric Hughesi Cypherpunk manifesti kohaselt peamine kohustus kaitsta eraelu puutumatust avatud elektroonilises ühiskonnas?
+answer: Üksikisikud peavad aktiivselt kaitsma oma eraelu puutumatust, mitte lootma valitsuse või korporatsioonide peale, kes seda tagavad
+wrong_answers:
+  - Valitsused peaksid kehtestama põhjalikud eraelu puutumatuse eeskirjad, et kaitsta kodanikke ettevõtete jälgimise eest
+  - Suured organisatsioonid peavad vabatahtlikult rakendama eraelu puutumatuse kaitset osana oma ettevõtte sotsiaalsest vastutusest
+  - Tuleks pidada läbirääkimisi rahvusvaheliste lepingute üle, et luua universaalsed eraelu puutumatuse standardid, mida jõustavad riigiülesed asutused
+explanation: |
+  Hughes ütles selgesõnaliselt, et "me ei saa oodata, et valitsused, korporatsioonid või muud suured anonüümsed organisatsioonid tagavad meile konfidentsiaalsuse" ja et Cypherpunks'i peamine eesmärk on "panna inimesi kaitsma oma konfidentsiaalsust, selle asemel, et loota, et keegi teine seda tagab".
+  See peegeldab cypherpunkide põhifilosoofiat, mis seisneb individuaalses vastutuses ja usaldamatuses tsentraliseeritud institutsioonide suhtes. Liikumine uskus, et krüptograafilised vahendid peaksid andma üksikisikutele võimaluse end ise kaitsta, selle asemel et sõltuda just nendest institutsioonidest, mida nad pidasid potentsiaalseks ohuks privaatsusele ja vabadusele.

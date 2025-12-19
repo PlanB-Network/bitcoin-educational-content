@@ -3218,7 +3218,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 要從此 Invoice ：
 
 
-- 鮑勃（在他的 Stash 中持有代幣）有一個 Bitcoin Wallet。他需要準備一個 Bitcoin 交易（以 PSBT 的形式，例如 `tx.PSBT`），花掉所需的 RGB 代幣所在的 UTXO，再加上一個 UTXO 作為貨幣 (Exchange) ；
+- Bob（在其stash中持有代幣）擁有一個比特幣錢包。他必須準備一筆比特幣交易（以PSBT形式，例如`tx.psbt`），該交易花費包含所需RGB代幣的UTXO，並另外加入一個用於找零的UTXO（change）；
 - Bob 執行下列指令：
 
 ```bash

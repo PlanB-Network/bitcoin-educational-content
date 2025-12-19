@@ -1,0 +1,8 @@
+question: Was ist der Hauptvorteil von Rust-Enums, die Daten innerhalb jeder Variante übertragen können?
+answer: Es verhindert Unstimmigkeiten zwischen Typkennzeichen und zugehörigen Daten, indem es sie bündelt
+wrong_answers:
+  - Sie ermöglicht es, dass Enums automatisch alle Standard-Traits ohne explizite Deklaration implementieren
+  - Sie ermöglicht die Verwendung von Enums als generische Parameter in jeder Funktion oder Methode
+  - Dadurch verbrauchen Enums weniger Speicher als traditionelle Strukturen mit ähnlichen Daten
+explanation: |
+  Rust-Enums können Daten direkt an jede Variante anhängen, wodurch der häufige Programmierfehler vermieden wird, separate Variablen für Typindikatoren und ihre zugehörigen Daten zu pflegen. Dieses Design stellt sicher, dass die Daten immer mit der Variante übereinstimmen und verhindert Inkonsistenzen, die zu Laufzeitfehlern führen könnten. Im Gegensatz zu anderen Sprachen, in denen Sie möglicherweise ein separates Enum für den Typ und Variablen für die Daten haben, bündelt Rust alles zusammen, so dass es unmöglich ist, dass Typ und Daten nicht übereinstimmen.

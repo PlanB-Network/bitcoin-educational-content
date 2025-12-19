@@ -1,0 +1,8 @@
+question: Nel processo di handshake della rete Bitcoin P2P, quale condizione specifica deve essere soddisfatta prima che due nodi possano iniziare a trasmettere attivamente inventari e dati sulle transazioni?
+answer: Entrambi i nodi devono scambiarsi reciprocamente i messaggi di version e verack
+wrong_answers:
+  - Il nodo di connessione deve ricevere la conferma del DNS seed dagli sviluppatori del nucleo
+  - "Entrambi i nodi devono verificare l'altezza del blocco e l'hash della punta della catena dell'altro"
+  - "Il nodo ricevente deve convalidare il certificato peer del nodo di connessione"
+explanation: |
+  L'handshake Bitcoin P2P richiede uno scambio bidirezionale in cui il nodo di connessione invia un messaggio di versione, il destinatario risponde con verack e il proprio messaggio di versione e il mittente originale risponde con il proprio verack. Solo dopo questo scambio completo di quattro messaggi (versione→verack+versione→verack) i nodi possono iniziare la comunicazione attiva. I semi DNS sono utilizzati solo per la scoperta iniziale dei peer, non per l'handshaking. Bitcoin non utilizza certificati e la convalida della catena avviene dopo che la connessione è stata stabilita.

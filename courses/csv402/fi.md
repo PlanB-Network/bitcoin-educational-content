@@ -3169,7 +3169,7 @@ Se voidaan lähettää Bobille mitä tahansa kanavaa (tekstiä, QR-koodia jne.) 
 Siirtääksesi tästä laskusta :
 
 
-- Bobilla (joka pitää rahakkeita kätköissään) on Bitcoin-lompakko. Hänen on valmisteltava Bitcoin-tapahtuma (PSBT:n muodossa, esim. `tx.psbt`), jossa kulutetaan UTXO:t, joissa tarvittavat RGB-tavaramerkit sijaitsevat, sekä yksi UTXO valuuttaa (vaihtoa) varten;
+- Bobilla (joka säilyttää tokenit stashissaan) on Bitcoin-lompakko. Hänen on valmisteltava Bitcoin-siirto (PSBT-muodossa, esim. `tx.psbt`), joka kuluttaa ne UTXO:t, joissa tarvittavat RGB-tokenit sijaitsevat, sekä yhden UTXO:n vaihtorahaa varten (change);
 - Bob suorittaa seuraavan komennon:
 
 ```bash

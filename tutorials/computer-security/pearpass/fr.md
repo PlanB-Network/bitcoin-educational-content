@@ -13,7 +13,7 @@ Il existe déjà des dizaines de gestionnaires de mots de passe, et Plan ₿ Aca
 
 **PearPass est un gestionnaire de mots de passe pair-à-pair, local-first et open-source, pensé pour redonner à l’utilisateur un contrôle total sur ses données.**
 
-01
+![Image](assets/fr/01.webp)
 
 ## Pourquoi choisir PearPass ?
 
@@ -23,7 +23,7 @@ Il existe deux grandes catégories de gestionnaires de mots de passe. D’un cô
 
 PearPass rompt volontairement avec ces deux modèles. Il se positionne entre les gestionnaires locaux et les solutions cloud : il permet la synchronisation de vos mots de passe, tout en garantissant qu’ils ne sont jamais stockés sur des serveurs distants. Ainsi, l’ensemble de vos identifiants est conservé localement sur vos appareils, et la synchronisation entre plusieurs machines s’effectue exclusivement en pair-à-pair. Cette architecture élimine les points de défaillance uniques liés aux bases de données centralisées : il n’existe aucun serveur à compromettre, ni d’infrastructure tierce susceptible d’accéder à vos identifiants. Les communications entre vos appareils sont chiffrées de bout en bout, ce qui garantit que seules les clés que vous détenez permettent l’accès aux données.
 
-02
+![Image](assets/fr/02.webp)
 
 Pour rendre cela possible, comme son nom l’indique, PearPass s’appuie sur **Pears**, un écosystème technologique pair-à-pair dédié à la création et à l’exécution d’applications sans serveur. Pears fournit l’environnement d’exécution, les mécanismes de distribution et les couches réseau nécessaires au fonctionnement d’applications entièrement décentralisées, capables de se synchroniser directement entre pairs, sans infrastructure centrale. Dans le cas de PearPass, Pears assure la découverte des appareils, l’établissement de connexions chiffrées et la synchronisation des coffres-forts de mots de passe entre vos machines. Cette approche garantit que PearPass reste fonctionnel, résilient et indépendant de toute autorité externe.
 
@@ -43,7 +43,7 @@ Sur Windows, PearPass est fourni sous la forme d’un installateur classique. Re
 
 Une fois le fichier téléchargé, ouvrez l’installateur et suivez les étapes indiquées par l’assistant. L’application est ensuite accessible depuis le `Start Menu` ou via un raccourci sur le bureau.
 
-03
+![Image](assets/fr/03.webp)
 
 ### Installation sur macOS
 
@@ -61,7 +61,7 @@ Selon votre environnement, il peut être nécessaire de rendre le fichier exécu
 
 PearPass propose une extension pour navigateur permettant le remplissage automatique des identifiants et un accès rapide à votre coffre-fort lors de la navigation web. L’extension est actuellement disponible pour Google Chrome et les navigateurs compatibles. Pour l’installer, rendez-vous [sur la page de téléchargement officielle](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
-04
+![Image](assets/fr/04.webp)
 
 Une fois ajoutée, vous pouvez l'épingler dans la barre d’outils pour un accès rapide. L’activation de l’extension nécessite ensuite une liaison avec l’application PearPass installée localement sur votre ordinateur (nous y reviendrons plus loin dans le tutoriel).
 
@@ -71,7 +71,7 @@ Sur iPhone et Android, vous pouvez simplement télécharger l’application depu
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.pears.pass) ;
 - [App Store](https://apps.apple.com/us/app/pearpass/id6752954830).
 
-05
+![Image](assets/fr/05.webp)
 
 En plus de ces méthodes d’installation classiques, il est également possible de télécharger directement le logiciel depuis les dépôts GitHub, pour chaque plateforme :
 - [Desktop](https://github.com/tetherto/pearpass-app-desktop) ;
@@ -88,7 +88,7 @@ Lors du premier lancement de PearPass sur ordinateur, l’application vous guide
 
 Au premier démarrage de l’application sur desktop, cliquez sur le bouton `Skip` puis `Continue` afin de parcourir l’écran d’introduction et d’atteindre l’étape de configuration du mot de passe maître.
 
-06
+![Image](assets/fr/06.webp)
 
 Vient ensuite l'étape importante du choix de votre mot de passe maître. Comme nous l'avons vu dans l'introduction, ce mot de passe est très important, car il vous donne accès à tous vos autres mots de passe sauvegardés sur le gestionnaire. Techniquement, il sert à dériver les clés cryptographiques utilisées pour chiffrer vos données.
 
@@ -100,11 +100,11 @@ Pour réduire le risque de compromission, votre mot de passe maître doit être 
 
 Saisissez votre mot de passe maître dans le champ prévu, confirmez-le une seconde fois, puis cliquez sur le bouton `Continue`.
 
-07
+![Image](assets/fr/07.webp)
 
 Vous êtes alors redirigé vers l’écran de connexion : saisissez votre mot de passe maître pour vérifier que tout fonctionne correctement.
 
-08
+![Image](assets/fr/08.webp)
 
 ### Créer votre premier coffre-fort
 
@@ -112,15 +112,15 @@ Une fois connecté, PearPass vous propose de créer votre premier coffre-fort. U
 
 Cliquez sur le bouton `Create a new vault`.
 
-09
+![Image](assets/fr/09.webp)
 
 Choisissez un nom pour ce coffre-fort, puis cliquez de nouveau sur `Create a new vault` pour finaliser la création.
 
-10
+![Image](assets/fr/10.webp)
 
 Votre coffre-fort est immédiatement prêt à l’emploi. Vous pouvez dès à présent commencer à y ajouter des mots de passe, des identifiants ou des notes sécurisées.
 
-11
+![Image](assets/fr/11.webp)
 
 ## Comment ajouter un identifiant sur PearPass ?
 
@@ -135,15 +135,15 @@ Une fois votre coffre-fort créé, vous pouvez commencer à y enregistrer vos é
 
 Commencez par ouvrir PearPass et connectez-vous à l’aide de votre mot de passe maître.
 
-12
+![Image](assets/fr/12.webp)
 
 Sélectionnez le coffre-fort dans lequel vous souhaitez enregistrer cet identifiant.
 
-13
+![Image](assets/fr/13.webp)
 
 Sur la page d’accueil, cliquez ensuite sur le bouton permettant d’ajouter un nouvel élément, en fonction du type d’information que vous souhaitez enregistrer. Dans mon cas, je veux ajouter un identifiant pour mon compte sur le site web de Plan ₿ Academy : je clique donc sur le bouton `Create a Login`.
 
-14
+![Image](assets/fr/14.webp)
 
 Après avoir sélectionné le type d’élément à ajouter, un formulaire s’affiche et vous permet de renseigner les informations associées au service concerné. Selon vos besoins, vous pouvez indiquer le nom du service, l’identifiant de connexion, le mot de passe et, si besoin, l’adresse du site web et des notes complémentaires.
 
@@ -151,37 +151,37 @@ PearPass intègre également un générateur de mots de passe, qui permet de cr�
 
 Une fois l’ensemble des champs renseignés, cliquez sur le bouton `Save` afin d’enregistrer l’identifiant dans le coffre-fort.
 
-15
+![Image](assets/fr/15.webp)
 
 L’identifiant est désormais enregistré. Il apparaît dans la liste des éléments du coffre-fort sélectionné et peut être consulté en cliquant dessus.
 
-16
+![Image](assets/fr/16.webp)
 
 Vous pouvez facilement modifier un élément en cliquant dessus, puis sur le bouton `Edit`. Il est également possible de le supprimer en cliquant sur les trois petits points en haut à droite de l’interface, puis sur `Delete element`.
 
-22
+![Image](assets/fr/22.webp)
 
 Sur mobile, la logique reste la même, bien que l’interface soit adaptée. Après vous être connecté, sélectionnez le coffre-fort souhaité, tapez sur le bouton `+`, choisissez le type d’élément à créer, puis renseignez les informations nécessaires.
 
-17
+![Image](assets/fr/17.webp)
 
 ## Comment organiser PearPass ?
 
 Nous l’avons vu dans les sections précédentes, PearPass permet de créer plusieurs vaults distincts. Cela permet de séparer différents usages et constitue un premier niveau d’organisation de votre gestionnaire de mots de passe. Depuis la page d’accueil, vous pouvez passer facilement d’un vault à un autre en cliquant sur la flèche située en haut à gauche de l’interface.
 
-18
+![Image](assets/fr/18.webp)
 
 Une autre façon d’organiser vos mots de passe, à l’intérieur même d’un vault, consiste à créer des dossiers. Pour cela, dans la colonne de gauche de l’interface, cliquez sur le symbole `+` à côté de `All Folders`, puis indiquez le nom du dossier que vous souhaitez créer.
 
-19
+![Image](assets/fr/19.webp)
 
 Vous pouvez ensuite y ranger les identifiants de votre choix, soit directement lors de la création d’un élément, soit ultérieurement en cliquant sur `Edit`. Il vous suffit alors de sélectionner, en haut à gauche du formulaire, le dossier souhaité.
 
-20
+![Image](assets/fr/20.webp)
 
 Après avoir ouvert un élément, comme un identifiant, vous pouvez cliquer sur l’icône en forme d’étoile en haut à droite de l’interface afin de l’ajouter à vos favoris. Les favoris peuvent être retrouvés rapidement dans un dossier dédié, en plus de leur dossier de base.
 
-21
+![Image](assets/fr/21.webp)
 
 Enfin, il y a une barre de recherche, située en haut de l’interface, qui vous permet de retrouver rapidement l’élément que vous recherchez, même si votre vault contient de nombreux identifiants.
 
@@ -191,61 +191,61 @@ Maintenant que vous disposez d’un vault fonctionnel avec des éléments enregi
 
 Pour commencer, sur la machine source (votre ordinateur par exemple), connectez-vous à votre vault à l’aide de votre mot de passe maître. Une fois sur la page d’accueil, cliquez sur le bouton `Add a Device`, situé en bas à droite de l’interface.
 
-23
+![Image](assets/fr/23.webp)
 
 PearPass génère alors un lien d’invitation, également disponible sous forme de QR code, afin de synchroniser le vault sélectionné sur l’appareil de votre choix.
 
-24
+![Image](assets/fr/24.webp)
 
 Si vous souhaitez effectuer cette synchronisation sur votre appareil mobile, commencez par installer l’application, puis lancez-la. Il vous sera demandé de créer un mot de passe maître pour votre gestionnaire sur mobile. Vous pouvez choisir d’utiliser le même que sur votre ordinateur ou un mot de passe différent. Dans tous les cas, suivez les mêmes recommandations : mot de passe fort, aléatoire et sauvegardé sur un support physique.
 
-25
+![Image](assets/fr/25.webp)
 
 Vous pouvez ensuite activer l’authentification biométrique si vous le souhaitez, afin d’éviter d'avoir à saisir manuellement votre mot de passe maître à chaque déverrouillage sur mobile.
 
-26
+![Image](assets/fr/26.webp)
 
 Renseignez à nouveau votre mot de passe maître, puis cliquez sur le bouton `Continue`.
 
-27
+![Image](assets/fr/27.webp)
 
 Sélectionnez l’option `Load a vault`, puis cliquez sur `Scan QR Code` et scannez le QR code d’invitation affiché par PearPass sur votre machine source (l’ordinateur).
 
-28
+![Image](assets/fr/28.webp)
 
 Vos vaults présents sur votre ordinateur et sur votre mobile sont désormais synchronisés. Chaque identifiant ajouté sur l’un des appareils sera enregistré de manière sécurisée et répliqué sur l’autre.
 
-29
+![Image](assets/fr/29.webp)
 
 Sur mobile, vous pouvez également activer, si vous le souhaitez, le remplissage automatique des champs. Pour cela, rendez-vous dans `Settings > Advanced`, puis cliquez sur le bouton `Set as Default` dans la section `Autofill`.
 
-30
+![Image](assets/fr/30.webp)
 
 ## Comment synchroniser PearPass sur l'extension de navigateur ?
 
 Disposer d’un gestionnaire de mots de passe synchronisé entre son ordinateur et son smartphone est déjà très pratique, mais l’intégrer directement à son navigateur l’est encore davantage. Pour cela, commencez par [ajouter l’extension officielle PearPass à votre navigateur](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
-31
+![Image](assets/fr/31.webp)
 
 Depuis le logiciel PearPass installé sur votre machine en local, rendez-vous dans `Settings > Advanced`, puis activez l’option `Activate browser extension`.
 
-32
+![Image](assets/fr/32.webp)
 
 PearPass génère alors un token d’appairage. Copiez-le.
 
-33
+![Image](assets/fr/33.webp)
 
 Ouvrez ensuite l’extension PearPass dans votre navigateur, collez le token d’appairage, puis cliquez sur le bouton `Verify`, suivi de `Complete`.
 
-34
+![Image](assets/fr/34.webp)
 
 Votre gestionnaire de mots de passe est désormais synchronisé avec l’extension de navigateur.
 
-35
+![Image](assets/fr/35.webp)
 
 Vous pouvez maintenant l’utiliser pour vous connecter facilement à vos différents comptes sur le web.
 
-36
+![Image](assets/fr/36.webp)
 
 Vous savez désormais comment utiliser le gestionnaire de mots de passe PearPass. Au-delà de cet outil, la sécurité numérique au quotidien repose sur le bon usage de solutions adaptées. Si vous souhaitez apprendre à mettre en place un environnement numérique personnel sécurisé, stable et efficace, je vous invite à découvrir notre formation dédiée à ce sujet :
 

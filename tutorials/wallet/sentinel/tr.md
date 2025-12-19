@@ -67,7 +67,7 @@ Sentinel'e alternatif arayan iOS kullanıcıları için [Green Wallet](https://b
 ### Kurulum ve Ayarlama
 
 
-Sentinel uygulamasını yükleyerek başlayın. Bunu Google Play Store'dan veya [APK resmi web sitesinden indirilebilir] (https://sentinel.watch/download/) kullanarak yapabilirsiniz.
+Sentinel uygulamasını yükleyerek başlayın. Bunu Google Play Store'dan veya [APK resmi web sitesinden indirilebilir](https://sentinel.watch/download/) kullanarak yapabilirsiniz.
 
 
 ![watch-only](assets/notext/3.webp)

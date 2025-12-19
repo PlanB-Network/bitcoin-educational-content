@@ -32,7 +32,7 @@ Utgiftsbetingelser kan for eksempel være:
 - Begrensninger på størrelsesorden**: Sett et tak på hvor mange bitcoins du kan bruke i én enkelt transaksjon.
 - Hastighetsgrenser:** bestemmer hvor mange transaksjoner du kan utføre per tidsenhet (per time, dag, uke osv.), og krever et minimum antall blokker mellom dem.
 - Forhåndsgodkjente adresser:** Tillat kun at bitcoins sendes til forhåndsgodkjente adresser.
-- Tofaktorautentisering:** Krever bekreftelse fra en tredjeparts 2FA-mobilapplikasjon (TOTP [RFC 6238] (https://www.rfc-editor.org/rfc/rfc6238)) på en NFC-aktivert smarttelefon/nettbrett med internettilgang.
+- Tofaktorautentisering:** Krever bekreftelse fra en tredjeparts 2FA-mobilapplikasjon (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) på en NFC-aktivert smarttelefon/nettbrett med internettilgang.
 
 
 

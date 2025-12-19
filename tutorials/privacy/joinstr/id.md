@@ -643,7 +643,7 @@ Dengan latar belakang pengawasan keuangan yang terus meningkat, alat terdesentra
 
 
 
-- [Tutorial plugin Electrum] (https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr) - Panduan lengkap oleh Uncensored Tech
+- [Tutorial plugin Electrum](https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr) - Panduan lengkap oleh Uncensored Tech
 
 
 
@@ -662,6 +662,6 @@ Dengan latar belakang pengawasan keuangan yang terus meningkat, alat terdesentra
 
 
 
-- [Bookmark Faucet] (https://signetfaucet.com) - Uji coba Bitcoin gratis
-- [Alt Signet Faucet] (https://alt.signetfaucet.com) - alternatif Faucet
-- [Mempool.space] (https://mempool.space) - Block explorer dengan analisis privasi
+- [Bookmark Faucet](https://signetfaucet.com) - Uji coba Bitcoin gratis
+- [Alt Signet Faucet](https://alt.signetfaucet.com) - alternatif Faucet
+- [Mempool.space](https://mempool.space) - Block explorer dengan analisis privasi

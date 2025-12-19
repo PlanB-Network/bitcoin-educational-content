@@ -287,7 +287,7 @@ A oportunidade é única: **Acabar com a dependência de fornecedores de serviç
 
 
 
-É altura de consultar a [documentação] (https://docs.aliasvault.net/installation/), para saber como proceder para alojar o Alias Vault.
+É altura de consultar a [documentação](https://docs.aliasvault.net/installation/), para saber como proceder para alojar o Alias Vault.
 
 
 
@@ -433,7 +433,7 @@ Uma vez que o Alias Vault se encontra na fase _Beta_, poderá ter dificuldade em
 
 
 
-Para uma compreensão completa da arquitetura e da segurança adoptadas pelo Alias Vault, recomendo vivamente que consulte [esta página] (https://docs.aliasvault.net/architecture/), que contém pormenores sobre a criptografia subjacente ao seu funcionamento.
+Para uma compreensão completa da arquitetura e da segurança adoptadas pelo Alias Vault, recomendo vivamente que consulte [esta página](https://docs.aliasvault.net/architecture/), que contém pormenores sobre a criptografia subjacente ao seu funcionamento.
 
 
 

@@ -1,8 +1,8 @@
-question: Cú pháp nào được sử dụng để truy cập trường đầu tiên của cấu trúc tuple trong Rust?
-answer: Ký hiệu dấu chấm với chỉ số 0 (ví dụ: instance.0)
+question: "Cú pháp nào được sử dụng để truy cập trường đầu tiên của cấu trúc tuple trong Rust?"
+answer: "Ký hiệu dấu chấm với chỉ số 0 (ví dụ: instance.0)"
 wrong_answers:
-  - Dấu ngoặc vuông có chỉ số 0 (ví dụ: instance[0])
-  - Ký hiệu mũi tên với chỉ số 0 (ví dụ: instance->0)
-  - Dấu hai chấm kép với chỉ số 0 (ví dụ: instance::0)
+  - "Dấu ngoặc vuông có chỉ số 0 (ví dụ: instance[0])"
+  - "Ký hiệu mũi tên với chỉ số 0 (ví dụ: instance->0)"
+  - "Dấu hai chấm kép với chỉ số 0 (ví dụ: instance::0)"
 explanation: |
   Cấu trúc tuple trong Rust sử dụng ký hiệu dấu chấm theo sau là chỉ số trường để truy cập các trường không tên của chúng. Trường đầu tiên được truy cập bằng .0, trường thứ hai bằng .1, v.v. Điều này khác với mảng hoặc vectơ sử dụng dấu ngoặc vuông, và không giống như C++ sử dụng ký hiệu mũi tên cho con trỏ. Cú pháp dấu hai chấm kép được dành riêng cho các hàm liên kết và không gian tên, chứ không phải để truy cập trường.

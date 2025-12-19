@@ -519,7 +519,7 @@ Katika menyu hiyo hiyo, utapata URI ya huduma yako ya Watchtower ikiwa umeiwasha
 
 
 
-Kuna Mnara wa Mlinzi kadhaa unaopatikana mtandaoni. Kwa mfano, [LN+ na Voltage zinatoa Watchtower] (https://lightningnetwork.plus/Watchtower) ambayo unaweza kuunganisha kwayo:
+Kuna Mnara wa Mlinzi kadhaa unaopatikana mtandaoni. Kwa mfano, [LN+ na Voltage zinatoa Watchtower](https://lightningnetwork.plus/Watchtower) ambayo unaweza kuunganisha kwayo:
 
 
 

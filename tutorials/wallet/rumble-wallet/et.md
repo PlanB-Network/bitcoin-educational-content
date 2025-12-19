@@ -6,7 +6,7 @@ description: Ühinege loojatega, kes kaitsevad sõnavabadust finantsvabaduse kau
 ![cover](assets/cover.webp)
 
 
-Ilmselt olete tuttav 2013. aastal asutatud veebipõhise videoplatvormiga [Rumble] (https://rumble.com/), mis on järk-järgult kujunenud sõltumatuks alternatiiviks Big Techile. Rumble on tuntud oma pühendumuse eest sõnavabadusele ja oma eesmärgi eest pakkuda loojatele ruumi, mis on vaba tsensuurist ja sõltuvusest suurtest tsentraliseeritud infrastruktuuridest, ning on loonud täieliku ökosüsteemi. Täna astub Rumble uue sammu finantsvaldkonda, tuues turule [**Rumble Wallet**] (https://wallet.rumble.com/), wallet rakenduse, mis on välja töötatud koostöös Tetheriga.
+Ilmselt olete tuttav 2013. aastal asutatud veebipõhise videoplatvormiga [Rumble](https://rumble.com/), mis on järk-järgult kujunenud sõltumatuks alternatiiviks Big Techile. Rumble on tuntud oma pühendumuse eest sõnavabadusele ja oma eesmärgi eest pakkuda loojatele ruumi, mis on vaba tsensuurist ja sõltuvusest suurtest tsentraliseeritud infrastruktuuridest, ning on loonud täieliku ökosüsteemi. Täna astub Rumble uue sammu finantsvaldkonda, tuues turule [**Rumble Wallet**](https://wallet.rumble.com/), wallet rakenduse, mis on välja töötatud koostöös Tetheriga.
 
 
 Eesmärk on selge: ühendada sõnavabadus ja finantsvabadus. Samal ajal kui Rumble propageerib tsenseerimata sisu levitamist internetis, on Rumble Wallet eesmärk pakkuda loojatele ja kasutajatele kiiret, suveräänset ja mittekohustuslikku maksesüsteemi. Praktikas tähendab see, et teil säilib täielik kontroll oma privaatvõtmete - ja seega ka raha - üle, ilma et te sõltuksite pangast, makseprotsessorist või kolmanda osapoole platvormist: vähem riske, väiksemad tasud ja puuduvad viivitused väljamaksete tegemisel.
@@ -285,7 +285,7 @@ Samamoodi võite müüa oma bitcoinid eurode, dollarite või mõne muu fiat-valu
 ## 7. Looja kallutamine Rumble'ile
 
 
-Nagu sissejuhatuses mainitud, on Rumble Wallet suurepäraselt integreeritud [Rumble'i videoplatvormiga] (https://rumble.com/). See võimaldab teil hõlpsasti saata vihjeid Bitcoin-s või USDT-s oma lemmikloojatele ilma vahendajate kaudu.
+Nagu sissejuhatuses mainitud, on Rumble Wallet suurepäraselt integreeritud [Rumble'i videoplatvormiga](https://rumble.com/). See võimaldab teil hõlpsasti saata vihjeid Bitcoin-s või USDT-s oma lemmikloojatele ilma vahendajate kaudu.
 
 
 Selleks peate aktiveerima funktsiooni ***Tip Jars***. Klõpsake Rumble Wallet avalehel nupule "*Activate Tip Jars*".

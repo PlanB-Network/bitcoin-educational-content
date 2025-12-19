@@ -93,7 +93,7 @@ Navigasjonen på enheten er enkel: Bruk høyre knapp for å bla til høyre, og v
 
 
 
-I denne veiledningen skal jeg vise deg hvordan du bruker Trezor Safe 3 med [Sparrow Wallet porteføljeforvaltningsprogramvare] (https://sparrowwallet.com/download/). Hvis du ikke allerede har installert denne programvaren, bør du gjøre det nå. Hvis du trenger hjelp, har vi også en detaljert veiledning om hvordan du konfigurerer Sparrow Wallet :
+I denne veiledningen skal jeg vise deg hvordan du bruker Trezor Safe 3 med [Sparrow Wallet porteføljeforvaltningsprogramvare](https://sparrowwallet.com/download/). Hvis du ikke allerede har installert denne programvaren, bør du gjøre det nå. Hvis du trenger hjelp, har vi også en detaljert veiledning om hvordan du konfigurerer Sparrow Wallet :
 
 
 
@@ -103,7 +103,7 @@ Du trenger også Trezor Suite-programvaren for å konfigurere Safe 3, sjekke ekt
 
 
 
-[Last ned Trezor Suite fra det offisielle nettstedet] (https://trezor.io/trezor-suite)
+[Last ned Trezor Suite fra det offisielle nettstedet](https://trezor.io/trezor-suite)
 
 
 
@@ -385,7 +385,7 @@ Vi trenger ikke Trezor Suite-programvaren lenger, bortsett fra for å utføre re
 
 
 
-Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettstedet] (https://sparrowwallet.com/) på datamaskinen din, hvis du ikke allerede har gjort det.
+Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettstedet](https://sparrowwallet.com/) på datamaskinen din, hvis du ikke allerede har gjort det.
 
 
 
@@ -565,7 +565,7 @@ Velg beløpet som skal sendes til denne Address.
 
 
 
-Juster gebyrsatsen for transaksjonen i henhold til gjeldende marked. Du kan for eksempel bruke [Mempool.space] (https://Mempool.space/) for å velge en passende gebyrsats.
+Juster gebyrsatsen for transaksjonen i henhold til gjeldende marked. Du kan for eksempel bruke [Mempool.space](https://Mempool.space/) for å velge en passende gebyrsats.
 
 
 

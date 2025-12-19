@@ -1521,7 +1521,7 @@ Mojawapo ya faida kuu za Umbrel juu ya washindani wake ni jumuiya yake kubwa na 
 
 
 
-Msimbo wa Umbrel unapatikana kwa umma (unaweza kuitazama, Fork, na kuirekebisha), lakini haiko chini ya leseni ya kweli ya chanzo-wazi. Kwa hakika, mwamvuli OS inasambazwa chini ya leseni ya [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), ingawa baadhi ya zana zinazohusiana za ukuzaji zinapatikana chini ya leseni ya MIT.
+Msimbo wa Umbrel unapatikana kwa umma (unaweza kuitazama, Fork, na kuirekebisha), lakini haiko chini ya leseni ya kweli ya chanzo-wazi. Kwa hakika, mwamvuli OS inasambazwa chini ya leseni ya [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), ingawa baadhi ya zana zinazohusiana za ukuzaji zinapatikana chini ya leseni ya MIT.
 
 
 

@@ -105,7 +105,7 @@ KYCP.org sitesine şu anda erişilememektedir.
 Boltzmann Calculator Python aracının kodunu barındıran GitLab da ele geçirilmiştir. Bu nedenle, şu anda bu aracı indirmek artık mümkün değildir. Ancak bir RoninDojo'nuz varsa, Boltzmann Calculator'ı daha önce olduğu gibi kullanmaya devam edebilirsiniz.
 
 
-RoninDojo'ya gelince, bu node-in-box yazılımı Whirlpool CLI ve WST gibi belirli araçların kullanılamamasına rağmen doğru şekilde çalışmaya devam etmektedir. Fulcrum veya Electrs sayesinde diğer Wallet yazılımları için hala kullanılabilir. RoninDojo hakkında daha fazla bilgi edinmek isterseniz veya özel sorularınız varsa, [Telegram gruplarına] (https://t.me/RoninDojoNode) katılmanızı tavsiye ederim.
+RoninDojo'ya gelince, bu node-in-box yazılımı Whirlpool CLI ve WST gibi belirli araçların kullanılamamasına rağmen doğru şekilde çalışmaya devam etmektedir. Fulcrum veya Electrs sayesinde diğer Wallet yazılımları için hala kullanılabilir. RoninDojo hakkında daha fazla bilgi edinmek isterseniz veya özel sorularınız varsa, [Telegram gruplarına](https://t.me/RoninDojoNode) katılmanızı tavsiye ederim.
 
 
 Ancak, RoninDojo'nun kaynak kodu Samourai'nin GitLab'ında barındırıldığı için artık erişilebilir değil. Bu nedenle şu anda bir Raspberry Pi'ye manuel olarak yüklemek mümkün değildir.
@@ -240,7 +240,7 @@ Samourai Wallet'ünüzü kurtarmak için Electrum gibi Sparrow'ten farklı bir y
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Artık bitcoinlerinize Sparrow üzerinden erişebilirsiniz. Sparrow wallet'i kullanmak için yardıma ihtiyacınız varsa, [özel eğitimimize] (https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) de göz atabilirsiniz.
+Artık bitcoinlerinize Sparrow üzerinden erişebilirsiniz. Sparrow wallet'i kullanmak için yardıma ihtiyacınız varsa, [özel eğitimimize](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) de göz atabilirsiniz.
 
 
 Ayrıca Samourai'deki UTXO'larınızla ilişkilendirdiğiniz etiketleri manuel olarak içe aktarmanızı tavsiye ederim. Bu, daha sonra Sparrow üzerinde etkili Coin kontrolü yapmanıza olanak sağlayacaktır.
@@ -329,7 +329,7 @@ Samourai Wallet'ünüzü kurtarmak için Electrum gibi başka bir yazılım kull
 - Postmix: `m/84'/0'/2147483646'`
 
 
-Artık Sparrow'da bitcoinlerinize erişebilirsiniz. Sparrow wallet'i kullanmak için yardıma ihtiyacınız varsa, [özel eğitimimize] (https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) de başvurabilirsiniz.
+Artık Sparrow'da bitcoinlerinize erişebilirsiniz. Sparrow wallet'i kullanmak için yardıma ihtiyacınız varsa, [özel eğitimimize](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d) de başvurabilirsiniz.
 
 
 Ayrıca Samourai'deki UTXO'larınızla ilişkilendirdiğiniz etiketleri manuel olarak içe aktarmanızı tavsiye ederim. Bu, daha sonra Sparrow üzerinde etkili Coin kontrolü yapmanıza olanak sağlayacaktır.
@@ -425,7 +425,7 @@ Sonlandırmak için `Uygula` üzerine tıklayın. Sparrow daha sonra daha fazla 
 ![samourai](assets/36.webp)
 
 
-Bu, son birkaç gün içinde karşılaştığım çeşitli kurtarma sorunlarını kapsıyor. Tüm bu çözümleri denedikten sonra hala sorun yaşıyorsanız, sizi yardım istemek için [Discover Bitcoin Discord] (https://discord.gg/xKKm29XGBb) adresine katılmaya davet ediyorum. Bu Discord'u düzenli olarak ziyaret ediyorum ve eğer bir çözümüm varsa yardımcı olmaktan memnuniyet duyarım. Diğer bitcoin kullanıcıları da deneyimlerini paylaşabilir ve yardımlarını sunabilirler. **Her durumda, kurtarma ifadenizi, yedekleme dosyanızı ve passphrase'ünüzü gizli tutmanız çok önemlidir**. Bunları kimseyle paylaşmayın, çünkü bu bitcoinlerinizi çalmalarına izin verebilir.
+Bu, son birkaç gün içinde karşılaştığım çeşitli kurtarma sorunlarını kapsıyor. Tüm bu çözümleri denedikten sonra hala sorun yaşıyorsanız, sizi yardım istemek için [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) adresine katılmaya davet ediyorum. Bu Discord'u düzenli olarak ziyaret ediyorum ve eğer bir çözümüm varsa yardımcı olmaktan memnuniyet duyarım. Diğer bitcoin kullanıcıları da deneyimlerini paylaşabilir ve yardımlarını sunabilirler. **Her durumda, kurtarma ifadenizi, yedekleme dosyanızı ve passphrase'ünüzü gizli tutmanız çok önemlidir**. Bunları kimseyle paylaşmayın, çünkü bu bitcoinlerinizi çalmalarına izin verebilir.
 
 
 Kurtarma işlemi tamamlandığında, artık bitcoinlerinize erişebilirsiniz. Bu iyi bir şey, ancak yeterli olmayabilir. Aslında, sunucuların ele geçirilmesi gizliliğiniz için yeni potansiyel riskler ortaya çıkarmaktadır. Aşağıdaki bölümde bu riskleri ayrıntılı olarak inceleyecek ve gizliliğinizi korumak için almanız gereken önlemleri özetleyeceğiz.
@@ -533,4 +533,4 @@ Dojo'nuzu Sentinel ile değil de Samourai ile kullanıyor olmanız durumunda, xp
 ## Sonuç
 
 
-Bu makaleyi sonuna kadar okuduğunuz için teşekkür ederim. Bilgilerin eksik olduğunu düşünüyorsanız veya önerileriniz varsa, lütfen düşüncelerinizi paylaşmak için benimle iletişime geçmekten çekinmeyin. Ayrıca, bu eğitime rağmen Samourai Wallet'unuzu kurtarmak için daha fazla yardıma ihtiyacınız varsa, sizi yardım istemek için [Bitcoin Discord'u Keşfet] (https://discord.gg/xKKm29XGBb) adresine katılmaya davet ediyorum. Bu Discord'u düzenli olarak ziyaret ediyorum ve eğer bir çözüm bulabilirsem size yardımcı olmaktan memnuniyet duyarım. Diğer bitcoin kullanıcıları da deneyimlerini paylaşabilir ve desteklerini sunabilirler. **Her durumda, kurtarma ifadenizi, yedekleme dosyanızı ve passphrase'nizi gizli tutmanız çok önemlidir**. Bunları kimseyle paylaşmayın, çünkü bu bitcoinlerinizi çalmalarını sağlayabilir.
+Bu makaleyi sonuna kadar okuduğunuz için teşekkür ederim. Bilgilerin eksik olduğunu düşünüyorsanız veya önerileriniz varsa, lütfen düşüncelerinizi paylaşmak için benimle iletişime geçmekten çekinmeyin. Ayrıca, bu eğitime rağmen Samourai Wallet'unuzu kurtarmak için daha fazla yardıma ihtiyacınız varsa, sizi yardım istemek için [Bitcoin Discord'u Keşfet](https://discord.gg/xKKm29XGBb) adresine katılmaya davet ediyorum. Bu Discord'u düzenli olarak ziyaret ediyorum ve eğer bir çözüm bulabilirsem size yardımcı olmaktan memnuniyet duyarım. Diğer bitcoin kullanıcıları da deneyimlerini paylaşabilir ve desteklerini sunabilirler. **Her durumda, kurtarma ifadenizi, yedekleme dosyanızı ve passphrase'nizi gizli tutmanız çok önemlidir**. Bunları kimseyle paylaşmayın, çünkü bu bitcoinlerinizi çalmalarını sağlayabilir.

@@ -251,7 +251,7 @@ Je kunt verschillende hulpmiddelen gebruiken, zoals Balena Etcher :
 
 
 
-- Download en installeer [Balena Etcher] (https://etcher.balena.io/).
+- Download en installeer [Balena Etcher](https://etcher.balena.io/).
 
 
 

@@ -70,7 +70,7 @@ Threema is beschikbaar op alle platforms. Je kunt de applicatie rechtstreeks dow
 
 
 
-Op Android is het ook mogelijk om [te installeren via APK] (https://shop.threema.ch/en/download).
+Op Android is het ook mogelijk om [te installeren via APK](https://shop.threema.ch/en/download).
 
 
 
@@ -332,7 +332,7 @@ Hier kunt u uw profiel aanpassen: een foto toevoegen, kiezen wie het kan zien of
 
 
 
-Als je toegang wilt tot je gesprekken op je pc, kun je je Threema-account synchroniseren met de speciale software. Download de software voor jouw besturingssysteem [van de officiële website] (https://threema.ch/en/download).
+Als je toegang wilt tot je gesprekken op je pc, kun je je Threema-account synchroniseren met de speciale software. Download de software voor jouw besturingssysteem [van de officiële website](https://threema.ch/en/download).
 
 
 

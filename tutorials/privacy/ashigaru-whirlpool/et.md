@@ -324,7 +324,7 @@ Siin on mitu võimalikku strateegiat, kuidas hallata oma välisvaluuta UTXOs ala
 
 
 
-- Osta ettemakstud kinkekaarte või Visa-kaarte:** Platvormid nagu [Bitrefill] (https://www.bitrefill.com/) võimaldavad teil vahetada oma bitcoinid kinkekaartide või taaslaetavate Visa-kaartide vastu, mida saab kasutada kauplustes. See võib olla lihtne ja diskreetne viis oma mürgiste UTXOde kulutamiseks.
+- Osta ettemakstud kinkekaarte või Visa-kaarte:** Platvormid nagu [Bitrefill](https://www.bitrefill.com/) võimaldavad teil vahetada oma bitcoinid kinkekaartide või taaslaetavate Visa-kaartide vastu, mida saab kasutada kauplustes. See võib olla lihtne ja diskreetne viis oma mürgiste UTXOde kulutamiseks.
 
 
 

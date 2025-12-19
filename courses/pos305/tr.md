@@ -154,7 +154,7 @@ Müşteriler mağazadan Bitcoin ile bir ürün satın alır.
 
 
 - Hazırlan:
-  - Ekteki Figjam - [Etkinlik Şeması] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
+  - Ekteki Figjam - [Etkinlik Şeması](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
   - Müşteri (Alice), Tüccar (Bob) ve Banka rollerini oynayacak üç gönüllü öğrenci bulun.
 - Olayların sırasını canlandırın:
   - Müşteri - mağazayı online olarak gezer ve istediği 25$'lık bir ürünü bulur ve satın almak istediğini satıcıya bildirir
@@ -176,7 +176,7 @@ Müşteriler mağazadan Bitcoin ile bir ürün satın alır.
 
 
 - Hazırlan:
-  - Ekteki Figjam - [Etkinlik Şeması] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
+  - Ekteki Figjam - [Etkinlik Şeması](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0) içindeki diyagramlara/açıklayıcıya bakınız.
   - Bankanın yerine geçecek bir ağda Bilgisayar (Bitcoin Düğümler/Minerler) rolünü oynayacak dokuz öğrenci ile Bankayı değiştirin.
 - 9 Bilgisayarın her biri, şimdiye kadar yapılmış tüm geçmiş işlemlerin eksiksiz bir tarihsel kaydına (böylece sahtecilik olmadan doğru bakiyeler) ve bir dizi kurala sahiptir:
   - İşlemin düzgün imzalandığını doğrulayın (thekeyfitsthelock)
@@ -2222,7 +2222,7 @@ Sorunun tanımlanması çok önemlidir.
 ##### Sunucunun güncellenmesi
 
 
-BTCPay Server sürümünüzün BTCPay Server'ın [en son sürümünden] (https://github.com/btcpayserver/btcpayserver/releases) çok daha eski olup olmadığını kontrol edin. Sunucunuzu güncellemek sorunu çözebilir.
+BTCPay Server sürümünüzün BTCPay Server'ın [en son sürümünden](https://github.com/btcpayserver/btcpayserver/releases) çok daha eski olup olmadığını kontrol edin. Sunucunuzu güncellemek sorunu çözebilir.
 
 
 ##### Sunucuyu yeniden başlatma
@@ -2621,7 +2621,7 @@ Alacaklı ve talep eden, ödeme gönderildikten sonra ödeme talebinin durumunu 
 Açıklama içeriği, ödeme talebinin metin düzenleyicisi kullanılarak düzenlenebilir. Ek renk temaları veya özel CSS stilleri kullanmak istiyorsanız her iki seçenek de mevcuttur.
 
 
-Teknik olmayan kullanıcılar bir [bootstrap teması] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes) kullanabilir. Aşağıda gösterildiği gibi ek CSS kodu sağlayarak daha fazla özelleştirme yapılabilir.
+Teknik olmayan kullanıcılar bir [bootstrap teması](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes) kullanabilir. Aşağıda gösterildiği gibi ek CSS kodu sağlayarak daha fazla özelleştirme yapılabilir.
 
 
 ```css
@@ -2670,13 +2670,13 @@ Peki ya gönderici ödemeyi itmek yerine, alıcının uygun gördüğü bir zama
 ### Ödemeler
 
 
-Ödeme işlevi [Pull Payments] (https://docs.btcpayserver.org/PullPayments/) özelliğine bağlıdır. Bu özellik, BTCPay'inizde ödeme oluşturmanıza olanak tanır. Bu özellik, çekme ödemelerini (geri ödemeler, maaş ödemeleri veya para çekme işlemleri) işleme koymanıza olanak tanır.
+Ödeme işlevi [Pull Payments](https://docs.btcpayserver.org/PullPayments/) özelliğine bağlıdır. Bu özellik, BTCPay'inizde ödeme oluşturmanıza olanak tanır. Bu özellik, çekme ödemelerini (geri ödemeler, maaş ödemeleri veya para çekme işlemleri) işleme koymanıza olanak tanır.
 
 
 #### Örnek 1: Para İadesi
 
 
-Para iadesi örneğiyle başlayalım. Müşteri mağazanızdan bir ürün satın aldı, ancak ne yazık ki iade etmek zorunda. Para iadesi istiyorlar. BTCPay'de bir [Refund] (https://docs.btcpayserver.org/Refund/) oluşturabilir ve müşteriye fonlarını talep etmesi için bağlantı sağlayabilirsiniz. Müşteri Address'ünü girdikten ve parayı talep ettikten sonra, Ödemeler bölümünde görüntülenecektir.
+Para iadesi örneğiyle başlayalım. Müşteri mağazanızdan bir ürün satın aldı, ancak ne yazık ki iade etmek zorunda. Para iadesi istiyorlar. BTCPay'de bir [Refund](https://docs.btcpayserver.org/Refund/) oluşturabilir ve müşteriye fonlarını talep etmesi için bağlantı sağlayabilirsiniz. Müşteri Address'ünü girdikten ve parayı talep ettikten sonra, Ödemeler bölümünde görüntülenecektir.
 
 
 Sahip olduğu ilk durum Onay Bekliyor'dur. Mağaza görevlileri birden fazla bekleyen olup olmadığını kontrol edebilir ve seçimi yaptıktan sonra Eylemler düğmesini kullanırsınız.
@@ -2700,7 +2700,7 @@ Müşteri artık Talep sayfasında güncellenir. Kendisine bir Block explorer ba
 #### Örnek 2: Maaş
 
 
-Şimdi Maaş ödemesine geçelim, çünkü bu Müşterinin talebine göre değil, mağazanın içinden yönlendirilir. Temel konsept aynıdır; çekme ödemelerini kullanır. Ancak bir geri ödeme oluşturmak yerine, bir [Çekme Ödemesi] (https://docs.btcpayserver.org/PullPayments/) yapacağız.
+Şimdi Maaş ödemesine geçelim, çünkü bu Müşterinin talebine göre değil, mağazanın içinden yönlendirilir. Temel konsept aynıdır; çekme ödemelerini kullanır. Ancak bir geri ödeme oluşturmak yerine, bir [Çekme Ödemesi](https://docs.btcpayserver.org/PullPayments/) yapacağız.
 
 
 BTCPay sunucunuzdaki Çekme Ödemeleri sekmesine gidin. Sağ üstte, Çekme Ödemesi Oluştur Düğmesine tıklayın.
@@ -2744,7 +2744,7 @@ Bundan sonra, gönderici alıcı ile bir bağlantı kullanarak çekme ödemesini
 Bir ödeme oluşturulduktan sonra, mevcut dönem için çekme ödemesi limitine sayılacaktır. Gönderen daha sonra ödemenin gönderileceği oranı ayarlayarak ödemeyi onaylayacak ve ödemeye devam edecektir.
 
 
-Gönderen için, [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/) üzerinden birden fazla ödemeyi toplu hale getirmek için kullanımı kolay bir yöntem sunuyoruz.
+Gönderen için, [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/) üzerinden birden fazla ödemeyi toplu hale getirmek için kullanımı kolay bir yöntem sunuyoruz.
 
 
 #### Greenfield API

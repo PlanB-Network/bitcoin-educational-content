@@ -4,7 +4,7 @@ description: De eenvoudigste Wallet om mee te beginnen
 ---
 ![cover](assets/cover.webp)
 
-deze handleiding is geschreven door_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+deze handleiding is geschreven door_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Wallet van Satoshi downloaden, instellen en gebruiken
@@ -12,7 +12,7 @@ deze handleiding is geschreven door_ [Bitcoin Campus] (https://linktr.ee/bitcoin
 
 Wallet of Satoshi is een Lightning Network Wallet, bewarend en zeer eenvoudig te gebruiken.
 
-In het kader van de cursus [BTC105 - Finding Now] (https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wordt het gebruikt voor Redeem Lightning Network vouchers.
+In het kader van de cursus [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wordt het gebruikt voor Redeem Lightning Network vouchers.
 
 
 **Onthoud altijd**: _niet je sleutels, niet je munten_

@@ -111,7 +111,7 @@ Instalace Fedory Workstation vyžaduje následující hardwarovou konfiguraci:
 
 
 
-Edici [Fedora Workstation] (https://fedoraproject.org/fr/workstation/download) si můžete stáhnout z oficiálních stránek projektu Fedora. Poté vyberte verzi odpovídající architektuře vašeho procesoru (32bitová - 64bitová) a klikněte na ikonu **Stáhnout**.
+Edici [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) si můžete stáhnout z oficiálních stránek projektu Fedora. Poté vyberte verzi odpovídající architektuře vašeho procesoru (32bitová - 64bitová) a klikněte na ikonu **Stáhnout**.
 
 
 

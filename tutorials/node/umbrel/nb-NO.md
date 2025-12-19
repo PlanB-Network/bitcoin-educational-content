@@ -173,9 +173,9 @@ Offisielle installasjonslenker :
 
 
 
-- [Installasjon på Raspberry Pi 5] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- [Installasjon på Raspberry Pi 5](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - [Installasjon på x86-systemer (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-x86-Systems)
-- [Installasjon av virtuell maskin] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
+- [Installasjon av virtuell maskin](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
 
 
 
@@ -220,7 +220,7 @@ For denne installasjonen trenger du :
 
 
 
-- Besøk [offisiell nettside] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- Besøk [offisiell nettside](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Last ned den nyeste versjonen av UmbrelOS for Raspberry Pi 5
 
 
@@ -234,7 +234,7 @@ For denne installasjonen trenger du :
 
 
 
-- Last ned og installer [Balena Etcher] (https://www.balena.io/etcher/) på datamaskinen din
+- Last ned og installer [Balena Etcher](https://www.balena.io/etcher/) på datamaskinen din
 
 
 
@@ -727,8 +727,8 @@ Umbrel er nå klar til bruk. Du deltar aktivt i Bitcoin-nettverket samtidig som 
 
 
 - [Offisielt Umbrel-nettsted](https://umbrel.com)
-- [Umbrel-dokumentasjon] (https://github.com/getumbrel/umbrel/wiki)
-- [App Store Umbrel] (https://apps.umbrel.com)
+- [Umbrel-dokumentasjon](https://github.com/getumbrel/umbrel/wiki)
+- [App Store Umbrel](https://apps.umbrel.com)
 
 
 
@@ -737,7 +737,7 @@ Umbrel er nå klar til bruk. Du deltar aktivt i Bitcoin-nettverket samtidig som 
 
 
 
-- [Bitcoin Core] (https://Bitcoin.org/fr/)
+- [Bitcoin Core](https://Bitcoin.org/fr/)
 - [Electrs](https://github.com/romanz/electrs)
 - [Mempool](https://Mempool.space)
 - [Sparrow Wallet](https://sparrowwallet.com)
@@ -750,5 +750,5 @@ Umbrel er nå klar til bruk. Du deltar aktivt i Bitcoin-nettverket samtidig som 
 
 
 - [Forum Umbrel](https://community.getumbrel.com)
-- [GitHub Umbrel] (https://github.com/getumbrel)
-- [Twitter Umbrel] (https://twitter.com/umbrel)
+- [GitHub Umbrel](https://github.com/getumbrel)
+- [Twitter Umbrel](https://twitter.com/umbrel)

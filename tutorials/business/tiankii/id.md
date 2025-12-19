@@ -127,7 +127,7 @@ Menggunakan Tiankii tidak memerlukan prasyarat teknis yang rumit. Aplikasi berop
 
 
 
-**Untuk pengguna pribadi (Aplikasi IBI) **: Tidak diperlukan wallet Lightning sebelumnya. Saat Anda membuat akun, Tiankii secara otomatis mengonfigurasi Address Lightning yang berfungsi melalui [Breez SDK Liquid] (https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), implementasi tanpa kabel yang menggunakan jaringan Liquid di latar belakang. Anda dapat langsung menerima dan mengirim pembayaran tanpa konfigurasi teknis apa pun. Solusi ini secara drastis menyederhanakan akses untuk pemula, namun tetap bersifat mandiri.
+**Untuk pengguna pribadi (Aplikasi IBI) **: Tidak diperlukan wallet Lightning sebelumnya. Saat Anda membuat akun, Tiankii secara otomatis mengonfigurasi Address Lightning yang berfungsi melalui [Breez SDK Liquid](https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), implementasi tanpa kabel yang menggunakan jaringan Liquid di latar belakang. Anda dapat langsung menerima dan mengirim pembayaran tanpa konfigurasi teknis apa pun. Solusi ini secara drastis menyederhanakan akses untuk pemula, namun tetap bersifat mandiri.
 
 
 
@@ -443,9 +443,9 @@ Meskipun adopsi Bitcoin secara luas masih menjadi tantangan yang membutuhkan edu
 
 
 - [Hubungkan LNbits](https://help.tiankii.com/portal/en/kb/articles/connect-your-lnbits-wallet)
-- [Hubungkan BlueWallet (LNDHub)] (https://help.tiankii.com/portal/en/kb/articles/connect-your-lndhub-bluewallet)
-- [Hubungkan Alby Wallet] (https://help.tiankii.com/portal/en/kb/articles/connect-your-alby-wallet)
-- [Connect Strike Wallet] (https://help.tiankii.com/portal/es/kb/articles/como-vincular-strike-wallet)
+- [Hubungkan BlueWallet (LNDHub)](https://help.tiankii.com/portal/en/kb/articles/connect-your-lndhub-bluewallet)
+- [Hubungkan Alby Wallet](https://help.tiankii.com/portal/en/kb/articles/connect-your-alby-wallet)
+- [Connect Strike Wallet](https://help.tiankii.com/portal/es/kb/articles/como-vincular-strike-wallet)
 
 
 
@@ -454,7 +454,7 @@ Meskipun adopsi Bitcoin secara luas masih menjadi tantangan yang membutuhkan edu
 
 
 
-- [Lightning Network Plus] (https://lightningnetwork.plus) - Sumber daya pendidikan Lightning
+- [Lightning Network Plus](https://lightningnetwork.plus) - Sumber daya pendidikan Lightning
 - [Pantai Bitcoin](https://www.bitcoinbeach.com) - Inisiatif ekonomi sirkular Salvador Bitcoin
 
 
@@ -464,6 +464,6 @@ Meskipun adopsi Bitcoin secara luas masih menjadi tantangan yang membutuhkan edu
 
 
 
-- [Blink Wallet] (https://blink.sv) - Direkomendasikan kompatibel dengan Wallet Lightning
-- [LNbits] (https://lnbits.com) - Solusi wallet yang dihosting sendiri
-- [Kartu Bolt Standar] (https://github.com/boltcard) - Spesifikasi teknis untuk kartu NFC
+- [Blink Wallet](https://blink.sv) - Direkomendasikan kompatibel dengan Wallet Lightning
+- [LNbits](https://lnbits.com) - Solusi wallet yang dihosting sendiri
+- [Kartu Bolt Standar](https://github.com/boltcard) - Spesifikasi teknis untuk kartu NFC

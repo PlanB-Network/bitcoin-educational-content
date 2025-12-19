@@ -1812,7 +1812,7 @@ Her durumda, kurulum süreci birazdan keşfedeceğimiz aynı teknik ilkeleri tak
 
 
 
-Ubuntu kurulum dosyası, sistemi başlatmak ve kurmak için ihtiyacınız olan her şeyi içeren bir dosya olan ISO görüntüsü biçiminde gelir. Bunu edinmek için [resmi web sitesine gidin] (https://ubuntu.com/download/desktop).
+Ubuntu kurulum dosyası, sistemi başlatmak ve kurmak için ihtiyacınız olan her şeyi içeren bir dosya olan ISO görüntüsü biçiminde gelir. Bunu edinmek için [resmi web sitesine gidin](https://ubuntu.com/download/desktop).
 
 
 
@@ -1846,7 +1846,7 @@ Ubuntu'yu bilgisayarınıza yüklemek için ISO görüntüsünü bir USB anahtar
 
 
 
-En az 8 GB'lık bir USB flash sürücü takın (dikkat, içeriği silinecektir), ardından ISO görüntüsünden önyüklenebilir medya oluşturmak için [BalenaEtcher] (https://www.balena.io/etcher) gibi bir araç kullanın. Basitçe ISO dosyasını, USB anahtarını seçin ve "*Flash*" üzerine tıklayın.
+En az 8 GB'lık bir USB flash sürücü takın (dikkat, içeriği silinecektir), ardından ISO görüntüsünden önyüklenebilir medya oluşturmak için [BalenaEtcher](https://www.balena.io/etcher) gibi bir araç kullanın. Basitçe ISO dosyasını, USB anahtarını seçin ve "*Flash*" üzerine tıklayın.
 
 
 
@@ -4152,7 +4152,7 @@ Başlamak için, yüklemek istediğiniz yazılımla ilgili birkaç belgeye ihtiy
 
 
 
-Ayrıca [projenin GitHub deposuna] (https://github.com/sparrowwallet/Sparrow/releases) da gidebilirsiniz.
+Ayrıca [projenin GitHub deposuna](https://github.com/sparrowwallet/Sparrow/releases) da gidebilirsiniz.
 
 
 
@@ -5155,7 +5155,7 @@ mat2 ~/Downloads/*
 
 
 
-Windows ve macOS'ta, belgelerinizden meta verileri kaldırmak için birkaç yöntem vardır. Bana göre en kolayı açık kaynak kodlu [ExifCleaner] (https://exifcleaner.com/) yazılımını kullanmaktır. Bu hafif araç grafiksel bir Interface'e sahiptir ve çoğu dosya formatını basitçe sürükleyip bırakarak işleyebilir. Bir veya daha fazla dosyayı Interface üzerine bıraktığınızda, yazılım gereksiz meta verileri otomatik olarak kaldırır ve aynı dizindeki orijinal dosyaları değiştirir. ExifCleaner Windows, macOS ve Linux için kullanılabilir.
+Windows ve macOS'ta, belgelerinizden meta verileri kaldırmak için birkaç yöntem vardır. Bana göre en kolayı açık kaynak kodlu [ExifCleaner](https://exifcleaner.com/) yazılımını kullanmaktır. Bu hafif araç grafiksel bir Interface'e sahiptir ve çoğu dosya formatını basitçe sürükleyip bırakarak işleyebilir. Bir veya daha fazla dosyayı Interface üzerine bıraktığınızda, yazılım gereksiz meta verileri otomatik olarak kaldırır ve aynı dizindeki orijinal dosyaları değiştirir. ExifCleaner Windows, macOS ve Linux için kullanılabilir.
 
 
 
@@ -5601,7 +5601,7 @@ Bu bölümün amacı ihtiyaçlarınıza en uygun tarayıcıyı seçmenize yardı
 
 
 
-[Chrome] (https://www.google.com/chrome/), öncelikle Google tarafından yönetilen hızlı ve sürekli gelişimden faydalanmaktadır. Yüksek performansı, hızı, modern web standartlarıyla geniş uyumluluğu ve Google hizmetleriyle iyi entegrasyonu ile tanınmaktadır.
+[Chrome](https://www.google.com/chrome/), öncelikle Google tarafından yönetilen hızlı ve sürekli gelişimden faydalanmaktadır. Yüksek performansı, hızı, modern web standartlarıyla geniş uyumluluğu ve Google hizmetleriyle iyi entegrasyonu ile tanınmaktadır.
 
 
 
@@ -5703,7 +5703,7 @@ Güvenlik açısından Vivaldi, izleyicileri ve reklamları engellemek için çe
 
 
 
-[Opera] (https://www.opera.com/) 1995'ten beri var olan uzun soluklu bir tarayıcıdır. Tescilli motorunu (*Presto*) terk ettikten sonra şimdi Blink kullanıyor. Modern bir Interface ve bazı yenilikçi özelliklere sahiptir.
+[Opera](https://www.opera.com/) 1995'ten beri var olan uzun soluklu bir tarayıcıdır. Tescilli motorunu (*Presto*) terk ettikten sonra şimdi Blink kullanıyor. Modern bir Interface ve bazı yenilikçi özelliklere sahiptir.
 
 
 
@@ -5747,7 +5747,7 @@ Teknik açıdan bakıldığında Arc, Chromium'a dayanmaktadır, ancak tescilli 
 
 
 
-[Polypane] (https://polypane.app/) özellikle ön uç geliştiricileri ve UX tasarımcılarına yöneliktir. Ana işlevi, bir Interface'ün *tepkisel* davranışını gerçek zamanlı olarak test etmek için aynı sitenin birkaç örneğini farklı ekran çözünürlüklerinde eşzamanlı olarak görüntülemektir. Ayrıca erişilebilirlik araçları, HTML/CSS doğrulayıcıları, renk körü simülatörleri ve performans ölçümleri sunar.
+[Polypane](https://polypane.app/) özellikle ön uç geliştiricileri ve UX tasarımcılarına yöneliktir. Ana işlevi, bir Interface'ün *tepkisel* davranışını gerçek zamanlı olarak test etmek için aynı sitenin birkaç örneğini farklı ekran çözünürlüklerinde eşzamanlı olarak görüntülemektir. Ayrıca erişilebilirlik araçları, HTML/CSS doğrulayıcıları, renk körü simülatörleri ve performans ölçümleri sunar.
 
 
 
@@ -5809,7 +5809,7 @@ Dezavantajı, performansta önemli bir düşüş (yüksek gecikme) ve belirli we
 #### Mullvad Tarayıcı
 
 
-[Mullvad Browser] (https://mullvad.net/en/browser) Tor Vakfı ve Mullvad VPN arasındaki işbirliğinin bir sonucudur. Kendisi Firefox ESR'den türetilmiş olan Tor tarayıcısına dayanmaktadır. Mullvad Tarayıcı, kullanıcı gizliliğini en üst düzeye çıkarmak için tasarlanmıştır. Varsayılan olarak, parmak izine, izleyicilere ve üçüncü taraf komut dosyalarına karşı gelişmiş koruma içerir.
+[Mullvad Browser](https://mullvad.net/en/browser) Tor Vakfı ve Mullvad VPN arasındaki işbirliğinin bir sonucudur. Kendisi Firefox ESR'den türetilmiş olan Tor tarayıcısına dayanmaktadır. Mullvad Tarayıcı, kullanıcı gizliliğini en üst düzeye çıkarmak için tasarlanmıştır. Varsayılan olarak, parmak izine, izleyicilere ve üçüncü taraf komut dosyalarına karşı gelişmiş koruma içerir.
 
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
@@ -5848,7 +5848,7 @@ https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9
 #### Zen Tarayıcı
 
 
-[Zen Browser] (https://zen-browser.app/), 2024 yılında piyasaya sürülen Firefox (Gecko motoru) tabanlı ücretsiz ve açık kaynaklı bir tarayıcıdır. Amacı, Chromium'a bağımlı olmadan modern, zarif, son derece özelleştirilebilir ve her şeyden önce gizlilik merkezli bir tarama deneyimi sunmaktır.
+[Zen Browser](https://zen-browser.app/), 2024 yılında piyasaya sürülen Firefox (Gecko motoru) tabanlı ücretsiz ve açık kaynaklı bir tarayıcıdır. Amacı, Chromium'a bağımlı olmadan modern, zarif, son derece özelleştirilebilir ve her şeyden önce gizlilik merkezli bir tarama deneyimi sunmaktır.
 
 
 Zen, büyük ölçüde Arc tarayıcısından esinlenen, ancak açık kaynak yapısı ve Gecko motoru ile ondan özgürleşen Interface ve kullanılabilirliğe radikal yaklaşımı ile öne çıkıyor. Şunları içerir :
@@ -5895,7 +5895,7 @@ Burada masaüstü tarayıcılara odaklanıyoruz, ancak Apple'ın iOS'ta tüm tar
 
 
 
-Safari'ye ilginç bir alternatif, sadece Apple ekosistemi için tasarlanmış ve WebKit tabanlı modern bir tarayıcı olan [Orion] (https://kagi.com/orion/). Amacı, gelişmiş özelliklerden ödün vermeden hızlı, hafif ve gizliliğe son derece saygılı bir alternatif sunmaktır.
+Safari'ye ilginç bir alternatif, sadece Apple ekosistemi için tasarlanmış ve WebKit tabanlı modern bir tarayıcı olan [Orion](https://kagi.com/orion/). Amacı, gelişmiş özelliklerden ödün vermeden hızlı, hafif ve gizliliğe son derece saygılı bir alternatif sunmaktır.
 
 
 
@@ -5920,7 +5920,7 @@ https://planb.academy/tutorials/computer-security/communication/orion-browser-a5
 
 
 
-Son olarak, bu genel bakışı çok daha az bilinen ve çok marjinal bir alternatifle bitirmek istiyorum: en iyi bilineni [Lynx Browser] (https://lynx.invisible-island.net/) olan metin modu tarayıcıları.
+Son olarak, bu genel bakışı çok daha az bilinen ve çok marjinal bir alternatifle bitirmek istiyorum: en iyi bilineni [Lynx Browser](https://lynx.invisible-island.net/) olan metin modu tarayıcıları.
 
 
 
@@ -7370,7 +7370,7 @@ Google Maps, Waze veya Citymapper gibi klasik harita uygulamalarının çoğu ç
 - [Organik Haritalar](https://organicmaps.app/)
 
 
-Organic Maps ücretsiz bir çevrimdışı navigasyon uygulamasıdır. Açık, işbirlikçi bir veritabanı olan [OpenStreetMap] (https://www.openstreetmap.org) verilerine dayanmaktadır. İlgilendiğiniz bölgelerin haritalarını indirir, ardından bir ağ olmadan gezinirsiniz.
+Organic Maps ücretsiz bir çevrimdışı navigasyon uygulamasıdır. Açık, işbirlikçi bir veritabanı olan [OpenStreetMap](https://www.openstreetmap.org) verilerine dayanmaktadır. İlgilendiğiniz bölgelerin haritalarını indirir, ardından bir ağ olmadan gezinirsiniz.
 
 
 Hiçbir reklam, izleme veya veri toplama içermez. Uygulama özellikle yaya, bisiklet veya araba ile yapılan yolculuklar için uygundur ve Interface basit, hızlı ve dikkat dağıtıcı değildir.
@@ -7574,7 +7574,7 @@ KeePass şifrelenmiş yerel dosyalara dayanan tarihsel bir şifre yöneticisidir
 ![Image](assets/fr/172.webp)
 
 
-Ayrıca iOS için [KeePassium] (https://keepassium.com/), Apple ekosisteminde iyi entegre edilmiş bir uygulama, KeePass formatıyla uyumlu ve açık kaynaklı. KeePass istemcisi için bir başka iOS alternatifi Strongbox'tır, ancak bu yazılım birkaç yıldır açık kaynaklı değildir.
+Ayrıca iOS için [KeePassium](https://keepassium.com/), Apple ekosisteminde iyi entegre edilmiş bir uygulama, KeePass formatıyla uyumlu ve açık kaynaklı. KeePass istemcisi için bir başka iOS alternatifi Strongbox'tır, ancak bu yazılım birkaç yıldır açık kaynaklı değildir.
 
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
@@ -8013,7 +8013,7 @@ Quick Share artık Android'de standart. İlk olarak Samsung tarafından gelişti
 Snapdrop, kurulum gerektirmeyen ücretsiz, açık kaynaklı bir alternatiftir. Aynı yerel ağa bağlı cihazlar arasında, sadece bir web tarayıcısı aracılığıyla dosya paylaşmanızı sağlar. Aktarım doğrudan (eşler arası) yapılır ve veriler asla uzak bir sunucudan geçmez.
 
 
-İlginç bir alternatif, birkaç ekstra özellik sunan [PairDrop] (https://github.com/schlagmichdoch/pairdrop) (Snapdrop'un bir Fork'i).
+İlginç bir alternatif, birkaç ekstra özellik sunan [PairDrop](https://github.com/schlagmichdoch/pairdrop) (Snapdrop'un bir Fork'i).
 
 
 

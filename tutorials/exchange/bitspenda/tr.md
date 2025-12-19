@@ -35,7 +35,7 @@ BitSpenda, gizliliğinizi koruyarak Exchange Bitcoin ve Mobil Para işlemleriniz
 
 
 
-BitSpenda ile işlem yapmak oldukça sezgiseldir ve birkaç adım gerektirir. Resmi BitSpenda [web sitesinde] (https://bitspenda.app), "Başlat" düğmesine tıklayın ve Interface Exchange'a yönlendirileceksiniz.
+BitSpenda ile işlem yapmak oldukça sezgiseldir ve birkaç adım gerektirir. Resmi BitSpenda [web sitesinde](https://bitspenda.app), "Başlat" düğmesine tıklayın ve Interface Exchange'a yönlendirileceksiniz.
 
 
 
@@ -177,7 +177,7 @@ Exchange numaranızı ve tutarınızı kontrol edip onaylayın, ardından Exchan
 
 
 
-BitSpenda aracılığıyla [Bitcoin Dua] (https://www.bitcoindua.org/), Afrika'da Bitcoin'nin benimsenmesi için ideal bir çerçeve oluşturmayı amaçlamaktadır. BitSpenda esas olarak şunun için öne çıkmaktadır:
+BitSpenda aracılığıyla [Bitcoin Dua](https://www.bitcoindua.org/), Afrika'da Bitcoin'nin benimsenmesi için ideal bir çerçeve oluşturmayı amaçlamaktadır. BitSpenda esas olarak şunun için öne çıkmaktadır:
 
 
 
@@ -185,7 +185,7 @@ BitSpenda aracılığıyla [Bitcoin Dua] (https://www.bitcoindua.org/), Afrika'd
 - **Gizlilik**: Platformda bir hesap oluşturmanız gerekmez, kimliğinizi doğrulamanız gerekmez ve herhangi bir kişisel bilgi vermeniz gerekmez.
 - **Özgürlük**: BitSpenda'yı herhangi bir ülkeden Gana, Nijerya ve Kenya'ya işlem yapmak için kullanabilirsiniz.
 - **Hız**: Lightning ödemelerine güvenmek, BitSpenda'nın işlem sürelerini azaltmasını ve işlemleri anlık hale getirmesini sağladı.
-- **Şeffaflık**: BitSpenda'da gerçekleştirdiğiniz tüm işlemler, bu işlemlerin ilerleyişini izlemenizi ve takip etmenizi sağlayan benzersiz tanımlayıcılarla ilişkilendirilir. Bu tanımlayıcıları [X'teki uygulama desteği] (https://x.com/bitspenda) ile iletişime geçmek için de kullanabilirsiniz.
+- **Şeffaflık**: BitSpenda'da gerçekleştirdiğiniz tüm işlemler, bu işlemlerin ilerleyişini izlemenizi ve takip etmenizi sağlayan benzersiz tanımlayıcılarla ilişkilendirilir. Bu tanımlayıcıları [X'teki uygulama desteği](https://x.com/bitspenda) ile iletişime geçmek için de kullanabilirsiniz.
 
 
 

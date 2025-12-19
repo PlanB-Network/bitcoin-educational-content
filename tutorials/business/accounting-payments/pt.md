@@ -45,7 +45,7 @@ Uma configuração um pouco mais avançada consiste em utilizar a funcionalidade
 ![image](assets/en/01.webp)
 
 
-Esta é uma das duas formas de aceder à funcionalidade Ponto de venda. O outro método é através da aplicação dedicada [Wallet da Satoshi PoS app] (https://www.walletofsatoshi.com/pos.)
+Esta é uma das duas formas de aceder à funcionalidade Ponto de venda. O outro método é através da aplicação dedicada [Wallet da Satoshi PoS app](https://www.walletofsatoshi.com/pos.)
 
 
 As vantagens da utilização da funcionalidade Ponto de venda são três:

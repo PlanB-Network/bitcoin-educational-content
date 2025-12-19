@@ -42,7 +42,7 @@ Nta bumenyi bw'ubuhinga canke bwimbitse ukeneye imbere yo gufata **Coinos** mu m
 
 
 
-Genda ku rubuga rwa [Coinos] (https://coinos.io/) mu mucukumbuzi wawe hanyuma ukande kuri **Tangira mu masegonda**.
+Genda ku rubuga rwa [Coinos](https://coinos.io/) mu mucukumbuzi wawe hanyuma ukande kuri **Tangira mu masegonda**.
 
 
 

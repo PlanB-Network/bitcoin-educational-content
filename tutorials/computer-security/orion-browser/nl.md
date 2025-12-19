@@ -85,7 +85,7 @@ De unieke eigenschap? Orion is de **enige WebKit** browser die zowel Chrome **al
 
 
 
-- Ga naar [kagi.com/orion] (https://kagi.com/orion/)
+- Ga naar [kagi.com/orion](https://kagi.com/orion/)
 - Klik op "**Download Orion voor macOS**"
 
 

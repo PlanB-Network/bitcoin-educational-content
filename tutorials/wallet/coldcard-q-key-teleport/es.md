@@ -32,7 +32,7 @@ Esto se puede utilizar para transferir:
 
 
 - frases **gW-0** (el maestro seed de ColdCard Q o los secretos almacenados en la [Bóveda seed] de ColdCardQ(https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **notas confidenciales y contraseñas**: puede ser cualquier secreto o todo el directorio [Notas confidenciales y contraseñas] (https://coldcard.com/docs/secure_notes/) de su ColdCardQ.
+- **notas confidenciales y contraseñas**: puede ser cualquier secreto o todo el directorio [Notas confidenciales y contraseñas](https://coldcard.com/docs/secure_notes/) de su ColdCardQ.
 - una copia de seguridad de toda su **ColdCardQ**: la ColdCardQ que reciba esta copia de seguridad no debe tener una seed Master para que esto funcione.
 - gW-3 (**Transacciones Bitcoin parcialmente firmadas**) como parte de un esquema de firma múltiple.
 

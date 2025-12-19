@@ -4129,7 +4129,7 @@ Om te beginnen hebt u verschillende documenten nodig die betrekking hebben op de
 
 
 
-Bezoek de officiële website van [Sparrow wallet in de "_Download_" sectie] (https://sparrowwallet.com/download/). Als je een ander programma wilt bekijken, bezoek dan de site van dat programma.
+Bezoek de officiële website van [Sparrow wallet in de "_Download_" sectie](https://sparrowwallet.com/download/). Als je een ander programma wilt bekijken, bezoek dan de site van dat programma.
 
 
 
@@ -6308,7 +6308,7 @@ Het doel is eenvoudig: voorkomen dat een incident met een specifieke activiteit 
 
 
 
-- **Gebruik ingebouwde containers**: Firefox biedt de extensie [Multi-Account Containers] (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), waarmee u aparte tabbladen kunt openen, elk met een eigen login en cookies. U kunt ook automatisch bepaalde sites aan een specifieke container toewijzen, zodat ze elke keer dat ze worden geopend apart worden gehouden.
+- **Gebruik ingebouwde containers**: Firefox biedt de extensie [Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), waarmee u aparte tabbladen kunt openen, elk met een eigen login en cookies. U kunt ook automatisch bepaalde sites aan een specifieke container toewijzen, zodat ze elke keer dat ze worden geopend apart worden gehouden.
 
 
 
@@ -7250,7 +7250,7 @@ K-9 Mail is een open-source Android mailclient, onlangs geïntegreerd in Mozilla
 
 
 
-- [Thunderbird Mobile] (https://www.thunderbird.net/mobile/)
+- [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
 
 
 Thunderbird Mobile is de mobiele versie van de populaire open-source e-mailclient ontwikkeld door Mozilla Foundation. Trouw aan de filosofie van het project legt de toepassing de nadruk op vertrouwelijkheid, transparantie van de code en de afwezigheid van opdringerige telemetrie. Thunderbird Mobile is gebaseerd op de K-9 Mail applicatie, waarvan het de officiële opvolger is op Android. Het biedt geavanceerd beheer van IMAP- en POP-accounts, e-mailcodering (via OpenPGP) en een eenvoudige, efficiënte Interface.
@@ -7292,7 +7292,7 @@ Hier zijn een paar suggesties voor het kiezen van je e-mailprovider:
 
 - [Proton Mail](https://proton.me/mail)
 - [Tuta](https://tuta.com/)
-- [Brievenbus] (https://mailbox.org/)
+- [Brievenbus](https://mailbox.org/)
 - [Ontwortelen](https://disroot.org/)
 - [Mailfence](https://mailfence.com/)
 
@@ -7345,7 +7345,7 @@ Klassieke kantoortools zoals Google Docs of Microsoft Office zijn erg praktisch,
 
 
 
-- [Collabora Office] (https://www.collaboraoffice.com/)
+- [Collabora Office](https://www.collaboraoffice.com/)
 
 
 Collabora Office is een mobiele versie van LibreOffice, ontworpen voor Android en iOS smartphones en tablets. Hiermee kunt u kantoordocumenten maken, bewerken en delen zonder ooit uw apparaat of persoonlijke cloud te verlaten.
@@ -7358,7 +7358,7 @@ De applicatie ondersteunt gezamenlijk bewerken wanneer deze is verbonden met een
 
 
 
-- [ONLYOFFICE] (https://www.onlyoffice.com/)
+- [ONLYOFFICE](https://www.onlyoffice.com/)
 
 
 ONLYOFFICE is een open-source kantoorpakket. Je kunt Word-, Excel- en PowerPoint-documenten direct op je mobiel openen en bewerken, zelfs lokaal. Je kunt het ook verbinden met verschillende cloudservices voor automatische synchronisatie, zoals Nextcloud.
@@ -7390,7 +7390,7 @@ Op Android kun je de officiële mobiele app Nextcloud installeren om overal toeg
 
 
 
-- [Materiaalbestanden] (https://github.com/zhanghai/MaterialFiles)
+- [Materiaalbestanden](https://github.com/zhanghai/MaterialFiles)
 
 
 Material Files is een open-source bestandsbeheerder die licht en overzichtelijk is. Je kunt er lokaal mee bladeren, bestanden verplaatsen, kopiëren of verwijderen op je Android-apparaat.
@@ -7589,7 +7589,7 @@ Aegis is een uitgebreide open-source applicatie. Het versleutelt je 2FA-database
 
 
 
-- [Ente Auth] (https://ente.io/auth/)
+- [Ente Auth](https://ente.io/auth/)
 
 
 Ente Auth is een moderne, open-source, multi-platform oplossing met end-to-end versleutelde back-ups. Het stelt je in staat om je 2FA-codes veilig te synchroniseren op mobiel, desktop en web. Je kunt het ook offline gebruiken, zonder cloudback-up of accountcreatie.
@@ -7757,7 +7757,7 @@ De Google Play Store is de standaardbron van applicaties op de meeste Android-sm
 
 
 
-- [F-Cold] (https://f-droid.org/)
+- [F-Cold](https://f-droid.org/)
 
 
 F-Droid is een uitsluitend open-source applicatiecatalogus. Alle beschikbare software is vrij controleerbaar en downloadbaar, zonder reclame, tracking of afhankelijkheid van Google-diensten. De F-Droid applicatie zelf vereist geen gebruikersaccount.
@@ -7822,7 +7822,7 @@ Simple Gallery is een minimalistische open-source applicatie die volledig offlin
 
 
 
-- [Aves] (https://github.com/deckerst/aves)
+- [Aves](https://github.com/deckerst/aves)
 
 
 Aves is een alternatief met een moderner Interface. Het biedt soepele albumnavigatie en geavanceerde organisatie (tags, filters, sorteren, enz.). Het vereist geen internetverbinding om te werken en verzamelt geen gebruikersgegevens.
@@ -7861,14 +7861,14 @@ Adobe Acrobat Reader, veel gebruikt voor het lezen of annoteren van PDF-document
 
 
 
-- [MuPDF Viewer] (https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
+- [MuPDF Viewer](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
 
 
 MuPDF Viewer is een ultralichte, snelle en volledig open-source PDF-lezer. Het verbruikt zeer weinig bronnen. Hoewel het geen geavanceerde functies biedt zoals annotatie of ondertekening, doet het zijn werk perfect: Je documenten weergeven, zonder te spioneren.
 
 
 
-- [MJ PDF-lezer] (https://gitlab.com/mudlej_android/mj_pdf_reader)
+- [MJ PDF-lezer](https://gitlab.com/mudlej_android/mj_pdf_reader)
 
 
 MJ PDF Reader is een eenvoudige, open-source toepassing waarmee je PDF-bestanden kunt lezen zonder reclame of verbinding met een online account.

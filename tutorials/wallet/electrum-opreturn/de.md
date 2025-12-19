@@ -22,7 +22,7 @@ Diese schrittweise Anleitung zeigt Ihnen, wie Sie eine Nachricht auf dem Blockch
 - Einen Computer (Windows, macOS oder Linux).
 - Internetverbindung.
 - Ein paar Satoshis (Sats) oder Bitcoins (BTC) in Ihrem Wallet, um den Transaktionsbetrag und die Gebühren zu decken.
-- Ein Text-zu-Hex-Konverter (z. B. eine Online-Seite) oder ein spezielles Tool wie [dieser OP_RETURN-Skriptgenerator] (https://resources.davidcoen.it/opreturnelectrum/).
+- Ein Text-zu-Hex-Konverter (z. B. eine Online-Seite) oder ein spezielles Tool wie [dieser OP_RETURN-Skriptgenerator](https://resources.davidcoen.it/opreturnelectrum/).
 
 
 
@@ -164,7 +164,7 @@ Konvertieren Sie Ihre Nachricht in hexadezimale Werte:
 
 
 
-- Sie können ein [Online-Tool] (https://www.rapidtables.com/convert/number/ascii-to-hex.html) verwenden, sollten aber darauf achten, dass dort keine sensiblen Daten verarbeitet werden (obwohl Informationen, die zur Veröffentlichung auf Blockchain Bitcoin über ein OP_RETURN bestimmt sind, im Prinzip keine Probleme mit der Vertraulichkeit aufwerfen);
+- Sie können ein [Online-Tool](https://www.rapidtables.com/convert/number/ascii-to-hex.html) verwenden, sollten aber darauf achten, dass dort keine sensiblen Daten verarbeitet werden (obwohl Informationen, die zur Veröffentlichung auf Blockchain Bitcoin über ein OP_RETURN bestimmt sind, im Prinzip keine Probleme mit der Vertraulichkeit aufwerfen);
 - Um die Vertraulichkeit zu erhöhen, führen Sie die Konvertierung lokal mit einer kleinen Python :
 
 
@@ -218,7 +218,7 @@ die sich zusammensetzt aus :
 
 
 
-Tipp: Verwenden Sie das Tool [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/), um das generate-Skript automatisch zu erstellen. Auch wenn dieses Tool vorschlägt, den Betrag in BTC einzugeben, lassen Sie die Einheit in Electrum konfiguriert.
+Tipp: Verwenden Sie das Tool [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/), um das generate-Skript automatisch zu erstellen. Auch wenn dieses Tool vorschlägt, den Betrag in BTC einzugeben, lassen Sie die Einheit in Electrum konfiguriert.
 
 
 

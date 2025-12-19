@@ -267,7 +267,7 @@ Wprowadź kod PIN.
 ![Image](assets/fr/39.webp)
 
 
-Następnie przejdź do [strony Blockstream] (https://jadefw.blockstream.com/pinqr/qrpin.html), aby Exchange kody QR z wyrocznią.
+Następnie przejdź do [strony Blockstream](https://jadefw.blockstream.com/pinqr/qrpin.html), aby Exchange kody QR z wyrocznią.
 
 
 ![Image](assets/fr/40.webp)
@@ -464,7 +464,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 W tym samouczku przedstawiam zaawansowane wykorzystanie Jade Plus przy użyciu Sparrow Wallet. Hardware Wallet jest jednak kompatybilny z wieloma innymi programami, takimi jak Liana, Nunchuk, Specter, Green i Keeper. Kompatybilności te różnią się pod względem połączeń: USB, Bluetooth lub kod QR (szczegóły w tabeli we wstępie).
 
 
-Zacznij od pobrania i zainstalowania Sparrow Wallet [z oficjalnej strony internetowej] (https://sparrowwallet.com/) na swoim komputerze, jeśli jeszcze tego nie zrobiłeś.
+Zacznij od pobrania i zainstalowania Sparrow Wallet [z oficjalnej strony internetowej](https://sparrowwallet.com/) na swoim komputerze, jeśli jeszcze tego nie zrobiłeś.
 
 
 ![Image](assets/fr/50.webp)

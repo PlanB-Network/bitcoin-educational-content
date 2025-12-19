@@ -45,7 +45,7 @@ GrapheneOS ger ytterligare säkerhet till din Android-upplevelse genom några en
 3. **Sandbox containment** - GrapheneOS förstärker befintliga Android-sandlådor, vilket ytterligare låser varje apps förmåga att kommunicera med resten av din telefon.
 
 
-Läs mer om de tekniska detaljerna i GrapheneOS funktionsuppsättning [här] (https://grapheneos.org/features).
+Läs mer om de tekniska detaljerna i GrapheneOS funktionsuppsättning [här](https://grapheneos.org/features).
 
 
 ### Underlätta övergången
@@ -72,7 +72,7 @@ GrapheneOS är för närvarande endast i produktion för _(ganska ironiskt)_ [Go
 ### Välja en enhet
 
 
-När du väljer den Pixel du vill installera GrapheneOS på, se till att du kontrollerar hur länge enheten ska fortsätta att få standard [säkerhetsuppdateringar] (https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) för.
+När du väljer den Pixel du vill installera GrapheneOS på, se till att du kontrollerar hur länge enheten ska fortsätta att få standard [säkerhetsuppdateringar](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) för.
 
 
 I skrivande stund är Pixel 6a den billigaste modellen som finns tillgänglig med bra långsiktig support, garanterad fram till juli 2027. Om du väljer den här modellen fungerar inte OEM-upplåsning med den version av operativsystemet som kommer från fabriken. Du måste uppdatera det till juni 2022 eller senare via en luftburen uppdatering. När du har uppdaterat den måste du också fabriksåterställa enheten för att fixa OEM-upplåsning. Alla andra modeller som är upplåsta av operatören kommer att vara redo för GrapheneOS direkt ur lådan.
@@ -84,7 +84,7 @@ När du väljer en enhet vill du också se till att du köper en olåst version.
 ### Installera GrapheneOS
 
 
-GrapheneOS [web installer] (https://grapheneos.org/install/web) gör hela processen till en barnlek, och en process som kan slutföras av vem som helst på mindre än 10 minuter.
+GrapheneOS [web installer](https://grapheneos.org/install/web) gör hela processen till en barnlek, och en process som kan slutföras av vem som helst på mindre än 10 minuter.
 
 Följande instruktioner är en nedkortad version som hämtats från länken ovan.
 
@@ -141,7 +141,7 @@ Video som beskriver de enkla steg som beskrivs ovan
 
 
 
-Om dessa enkla steg verkar vara ett steg för långt, kan du överväga att köpa en Pixel med GrapheneOS-programvaran [förinstallerad] (https://ronindojo.io/en/roninmobile). Var bara medveten om att du sätter en liten mängd förtroende för leverantören.
+Om dessa enkla steg verkar vara ett steg för långt, kan du överväga att köpa en Pixel med GrapheneOS-programvaran [förinstallerad](https://ronindojo.io/en/roninmobile). Var bara medveten om att du sätter en liten mängd förtroende för leverantören.
 
 
 ### Förinstallerade appar
@@ -160,8 +160,8 @@ De enda två som du kanske inte är bekant med är "Auditor" och "Vanadium".
 
 
 
-- [Auditor app] (https://play.google.com/store/apps/details?id=app.attestation.auditor) använder maskinvarubaserade säkerhetsfunktioner för att validera en enhets identitet samt operativsystemets äkthet och integritet. Den verifierar att enheten kör standardoperativsystemet med startladdaren låst och att ingen manipulering av operativsystemet har ägt rum.
-- [Vanadium] (https://github.com/GrapheneOS/Vanadium) är en integritets- och säkerhetshärdad variant av webbläsaren Chromium.
+- [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor) använder maskinvarubaserade säkerhetsfunktioner för att validera en enhets identitet samt operativsystemets äkthet och integritet. Den verifierar att enheten kör standardoperativsystemet med startladdaren låst och att ingen manipulering av operativsystemet har ägt rum.
+- [Vanadium](https://github.com/GrapheneOS/Vanadium) är en integritets- och säkerhetshärdad variant av webbläsaren Chromium.
 
 
 ## Anpassning
@@ -238,7 +238,7 @@ https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c0
 ### Aurora butik
 
 
-[Aurora Store] (https://auroraoss.com/) är en FOSS-version av Google Play Store. Aurora ser ut och känns mycket lik den traditionella Play Store och låter dig ladda ner och uppdatera alla appar som du normalt skulle hitta via Google-alternativet.
+[Aurora Store](https://auroraoss.com/) är en FOSS-version av Google Play Store. Aurora ser ut och känns mycket lik den traditionella Play Store och låter dig ladda ner och uppdatera alla appar som du normalt skulle hitta via Google-alternativet.
 
 
 Killerfunktionen i Aurora är anonym inloggning. Det betyder att du kan ladda ner alla dina favoritappar som inte är tillgängliga via F-Droid eller direkt APK, utan att behöva vara inloggad på ditt Google-konto.
@@ -304,7 +304,7 @@ Twitter PWA
 Det går inte att göra fel med det färdigpaketerade alternativet Vanadium. Appen beter sig identiskt med alla andra mobila webbläsare jag har provat och jag har inte en enda gång haft några kompatibilitetsproblem.
 
 
-För tillfällen när du behöver komma åt Tor native `.onion`-webbplatser kan du ladda ner Tor Browser APK direkt från deras [webbplats] (https://www.torproject.org/download/#android) eller via F-Droid.
+För tillfällen när du behöver komma åt Tor native `.onion`-webbplatser kan du ladda ner Tor Browser APK direkt från deras [webbplats](https://www.torproject.org/download/#android) eller via F-Droid.
 
 
 ### VPN-tjänster
@@ -333,9 +333,9 @@ De flesta människor som inte har något intresse för integritetsutrymmet komme
 
 
 
-- [Signal] (https://signal.org/) är en av de mer populära end-to-end-krypterade (E2EE) budbärarna som har en stark meritlista och en rik uppsättning funktioner. Signal kräver ett telefonnummer för att registrera sig, så om du planerar att chatta med människor som du helst inte vill veta ditt telefonnummer, kanske du ska titta på några av alternativen. Signal måste laddas ner via Aurora Store.
+- [Signal](https://signal.org/) är en av de mer populära end-to-end-krypterade (E2EE) budbärarna som har en stark meritlista och en rik uppsättning funktioner. Signal kräver ett telefonnummer för att registrera sig, så om du planerar att chatta med människor som du helst inte vill veta ditt telefonnummer, kanske du ska titta på några av alternativen. Signal måste laddas ner via Aurora Store.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) är en ganska ny E2EE messenger. Den har inget användar-ID, kräver inget telefonnummer eller personlig information. Folk hittar dig genom att skanna din personliga QR-kod eller genom att besöka din unika länk. Simplex gör det också möjligt för avancerade användare att köra sin egen server för att ytterligare minska beroendet av någon centraliserad enhet. Simplex har ingen desktop-klient, så det kanske inte är lämpligt om flera enheter är på din prioriteringslista. Simplex för Android finns tillgängligt via F-Droid.
-- [Threema] (https://threema.ch/en/faq/libre_installation) erbjuder en liknande upplevelse som Simplex, men har funnits längre och känns därför lite mer polerad. Threema är inte gratis, en livstidslicens kostar 4,99 USD och kan köpas med Bitcoin. Threema erbjuder en webbklient och inbyggda skrivbordsapplikationer. Android-applikationen är tillgänglig via F-Droid.
+- [Threema](https://threema.ch/en/faq/libre_installation) erbjuder en liknande upplevelse som Simplex, men har funnits längre och känns därför lite mer polerad. Threema är inte gratis, en livstidslicens kostar 4,99 USD och kan köpas med Bitcoin. Threema erbjuder en webbklient och inbyggda skrivbordsapplikationer. Android-applikationen är tillgänglig via F-Droid.
 - [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) är en inofficiell FOSS Fork av den officiella Telegram-appen för Android. Telegram har E2EE "hemliga chattar", men standardalternativet är inte privat. Telegram FOSS kan laddas ner från F-Droid.
 
 
@@ -358,10 +358,10 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 
 
-- [Spotube] (https://f-droid.org/packages/oss.krtirtho.spotube/) är en plattformsoberoende Spotify-klient som inte kräver ett Premium-konto. Spotube är tillgängligt via F-Droid.
-- [ViMusic] (https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) är en fantastisk applikation för att ånga all musik från YouTube-musik, gratis. ViMusic är tillgängligt från F-Droid.
-- [Newpipe] (https://f-droid.org/packages/org.schabi.newpipe/) erbjuder en YouTube-upplevelse utan irriterande annonser och tvivelaktiga behörigheter. Med NewPipe kan du prenumerera på kanaler, lyssna i bakgrunden och till och med ladda ner för offlinevisning. NewPipe är tillgängligt via F-Droid.
-- [AntennaPod] (https://f-droid.org/packages/de.danoeh.antennapod/) är en podcastspelare som låter dig prenumerera på och hantera alla dina favoritprogram. AntennaPod är tillgänglig via F-Droid.
+- [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) är en plattformsoberoende Spotify-klient som inte kräver ett Premium-konto. Spotube är tillgängligt via F-Droid.
+- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) är en fantastisk applikation för att ånga all musik från YouTube-musik, gratis. ViMusic är tillgängligt från F-Droid.
+- [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) erbjuder en YouTube-upplevelse utan irriterande annonser och tvivelaktiga behörigheter. Med NewPipe kan du prenumerera på kanaler, lyssna i bakgrunden och till och med ladda ner för offlinevisning. NewPipe är tillgängligt via F-Droid.
+- [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) är en podcastspelare som låter dig prenumerera på och hantera alla dina favoritprogram. AntennaPod är tillgänglig via F-Droid.
 
 
 ![image](assets/fr/11.webp)
@@ -372,12 +372,12 @@ Till vänster: Spotube, till höger: ViMusic
 ### Kartor
 
 
-Om du vill ha röstassistans när du kör och använder en kartapp i GrapheneOS måste du installera [RHVoice] (https://rhvoice.org/installation/) och [configure] (https://discuss.grapheneos.org/d/2488-organic-maps-app-voice-instructions-are-not-available).
+Om du vill ha röstassistans när du kör och använder en kartapp i GrapheneOS måste du installera [RHVoice](https://rhvoice.org/installation/) och [configure](https://discuss.grapheneos.org/d/2488-organic-maps-app-voice-instructions-are-not-available).
 
 
 
-- [Magic Earth] (https://www.magicearth.com/) är ett kartalternativ som stöder turn-by-turn-navigering, 3D- och offline-kartor. Magic Earth kan laddas ner från Aurora Store.
-- [Organic Maps] (https://f-droid.org/en/packages/app.organicmaps/) är kartalternativ för resenärer, turister, vandrare och cyklister baserat på toppen av OpenStreetMap-data från massor. Det är en integritetsfokuserad Fork med öppen källkod av Maps.me-appen (tidigare känd som MapsWithMe). Den stöder 100% av funktionerna utan en aktiv internetanslutning och kan laddas ner från F-Droid.
+- [Magic Earth](https://www.magicearth.com/) är ett kartalternativ som stöder turn-by-turn-navigering, 3D- och offline-kartor. Magic Earth kan laddas ner från Aurora Store.
+- [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) är kartalternativ för resenärer, turister, vandrare och cyklister baserat på toppen av OpenStreetMap-data från massor. Det är en integritetsfokuserad Fork med öppen källkod av Maps.me-appen (tidigare känd som MapsWithMe). Den stöder 100% av funktionerna utan en aktiv internetanslutning och kan laddas ner från F-Droid.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) är ett annat bra kartalternativ som stöder alla funktioner som nämns ovan.
 
 
@@ -390,9 +390,9 @@ Till vänster: Magic Earth, till höger: Organiska kartor
 
 
 
-- [Proton Mail] (https://proton.me/mail) erbjuder en gratis privat e-posttjänst som stöder granskad E2EE. Proton erbjuder också en betald version som stöder anpassade domäner och [aliasing] (https://proton.me/support/creating-aliases). Proton Mail kan laddas ner som en direkt APK eller via Aurora.
-- [Tutanota] (https://tutanota.com/) erbjuder samma funktioner som Proton Mail, inklusive valfria betaltjänster och kan laddas ner som en direkt APK eller via F-Droid.
-- [K-9 Mail] (https://f-droid.org/en/packages/com.fsck.k9/) är en e-postklient med öppen källkod som fungerar med i princip alla e-postleverantörer. Den stöder flera konton, en enhetlig inkorg och OpenPGP-krypteringsstandarden.
+- [Proton Mail](https://proton.me/mail) erbjuder en gratis privat e-posttjänst som stöder granskad E2EE. Proton erbjuder också en betald version som stöder anpassade domäner och [aliasing](https://proton.me/support/creating-aliases). Proton Mail kan laddas ner som en direkt APK eller via Aurora.
+- [Tutanota](https://tutanota.com/) erbjuder samma funktioner som Proton Mail, inklusive valfria betaltjänster och kan laddas ner som en direkt APK eller via F-Droid.
+- [K-9 Mail](https://f-droid.org/en/packages/com.fsck.k9/) är en e-postklient med öppen källkod som fungerar med i princip alla e-postleverantörer. Den stöder flera konton, en enhetlig inkorg och OpenPGP-krypteringsstandarden.
 
 
 ![image](assets/fr/15.webp)
@@ -404,11 +404,11 @@ Till vänster: Proton Mail, till höger: Tutanota
 
 
 
-- [Syncthing] (https://f-droid.org/packages/com.nutomic.syncthingandroid/) är ett program för filsynkronisering. Det synkroniserar filer mellan två eller flera enheter i realtid, säkert skyddade från nyfikna ögon. Dina data är enbart dina data och du förtjänar att välja var de lagras, om de delas med någon tredje part och hur de överförs via internet. Syncthing är tillgängligt via F-Droid.
-- [KDE Connect] (https://f-droid.org/packages/org.kde.kdeconnect_tp/) alla dina enheter så att de enkelt kan prata med varandra när de är anslutna till ditt hemnätverk. Skicka enkelt filer, foton, urklippsdata över alla dina enheter (även på iOS!). KDE connect kan laddas ner från F-Droid.
-- [Notesnook] (https://f-droid.org/en/packages/com.streetwriters.notesnook/) är en E2EE-anteckningsapplikation för att synkronisera dina tankar och att-göra-listor över alla dina enheter. Deras gratis plan bör täcka de flesta personliga användningsfall. Notesnook är tillgängligt på F-Droid.
-- [Standard Notes] (https://f-droid.org/en/packages/com.standardnotes/) är mycket lik Notesnook, men kräver en betalplan för att matcha funktionsuppsättningen. Standard Notes är tillgängligt via F-Droid.
-- [Anysoft Keyboard] (https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) är en tangentbordsapp som låter dig anpassa i stort sett allt du kan tänka dig när det gäller din telefonskrivningsupplevelse. Den kan laddas ner via F-Droid.
+- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) är ett program för filsynkronisering. Det synkroniserar filer mellan två eller flera enheter i realtid, säkert skyddade från nyfikna ögon. Dina data är enbart dina data och du förtjänar att välja var de lagras, om de delas med någon tredje part och hur de överförs via internet. Syncthing är tillgängligt via F-Droid.
+- [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) alla dina enheter så att de enkelt kan prata med varandra när de är anslutna till ditt hemnätverk. Skicka enkelt filer, foton, urklippsdata över alla dina enheter (även på iOS!). KDE connect kan laddas ner från F-Droid.
+- [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) är en E2EE-anteckningsapplikation för att synkronisera dina tankar och att-göra-listor över alla dina enheter. Deras gratis plan bör täcka de flesta personliga användningsfall. Notesnook är tillgängligt på F-Droid.
+- [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) är mycket lik Notesnook, men kräver en betalplan för att matcha funktionsuppsättningen. Standard Notes är tillgängligt via F-Droid.
+- [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/) är en tangentbordsapp som låter dig anpassa i stort sett allt du kan tänka dig när det gäller din telefonskrivningsupplevelse. Den kan laddas ner via F-Droid.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) är standardappen för Googles tangentbord. Enligt min erfarenhet erbjuder den den överlägset bästa skriv- och svepupplevelsen. Om du laddar ner den här appen, se till att du helt inaktiverar alla nätverksrelaterade behörigheter. Den kan laddas ner via Aurora.
 
 
@@ -421,10 +421,10 @@ Till vänster: Notesnook, till höger: KDE Connect
 
 
 
-- [Geometric Weather] (https://f-droid.org/en/packages/wangdaye.com.geometricweather/) är en vackert designad väderapp med öppen källkod som är tillgänglig via F-Droid. Den stöder också widgets i olika storlekar så att du kan se vädret på din valda plats direkt från din startskärm.
-- [Translate You] (https://f-droid.org/packages/com.bnyro.translate/) är en öppen källkod och integritetsbevarande översättningsapp som stöder mer än 200 språk. Translate You är tillgänglig via F-Droid.
-- [Proton Calendar] (https://proton.me/calendar/download) är en enkel att använda E2EE som interagerar sömlöst med dina Proton-e-postkonton. Proton Calendar kan laddas ner som en APK eller via Aurora-butiken.
-- [PassAndroid] (https://f-droid.org/en/packages/org.ligi.passandroid/) är en app för visning och lagring av boardingkort, kuponger, biobiljetter och medlemskort etc. Ladda bara ner den relevanta filen "pkpass" eller "espass" och öppna den med appen. PassAndroid är tillgängligt via F-Droid.
+- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) är en vackert designad väderapp med öppen källkod som är tillgänglig via F-Droid. Den stöder också widgets i olika storlekar så att du kan se vädret på din valda plats direkt från din startskärm.
+- [Translate You](https://f-droid.org/packages/com.bnyro.translate/) är en öppen källkod och integritetsbevarande översättningsapp som stöder mer än 200 språk. Translate You är tillgänglig via F-Droid.
+- [Proton Calendar](https://proton.me/calendar/download) är en enkel att använda E2EE som interagerar sömlöst med dina Proton-e-postkonton. Proton Calendar kan laddas ner som en APK eller via Aurora-butiken.
+- [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) är en app för visning och lagring av boardingkort, kuponger, biobiljetter och medlemskort etc. Ladda bara ner den relevanta filen "pkpass" eller "espass" och öppna den med appen. PassAndroid är tillgängligt via F-Droid.
 
 
 ![image](assets/fr/19.webp)
@@ -436,11 +436,11 @@ Till vänster: Geometriskt väder, till höger: Protonkalender
 
 
 
-- [Bitwarden] (https://mobileapp.bitwarden.com/fdroid/) erbjuder en gratis och E2EE cross platform lösenordshanteringslösning för alla dina enheter. Deras betalda tjänst låter dig integrera 2FA-koder i appen. Serversidan av Bitwarden kan vara värd för sig själv och Android-appen är tillgänglig via F-Droid.
-- [Proton Pass] (https://proton.me/pass/download) erbjuder en liknande gratistjänst som Bitwarden, men [Proton Unlimited] (https://proton.me/pricing) kunder kan få tillgång till ytterligare avancerade funktioner. Proton Pass är tillgängligt via APK eller Aurora.
-- [FreeOTP] (https://f-droid.org/packages/org.fedorahosted.freeotp/) är ett program för tvåfaktorsautentisering för system som använder engångslösenordsprotokoll. Tokens kan enkelt läggas till genom att skanna en QR-kod. FreeOTP är tillgängligt via F-Droid.
-- [Aegis] (https://f-droid.org/en/packages/com.beemdevelopment.aegis/) är en gratis, säker och Open Source-app för Android för att hantera dina 2-stegsverifieringstoken för dina onlinetjänster. Aegis är tillgänglig via F-Droid.
-- [Cryptomator] (https://f-droid.org/en/packages/org.cryptomator.lite/) är en betald, plattformsoberoende tjänst som krypterar dina data lokalt så att du säkert kan ladda upp dem till din favoritmolntjänst. Cryptomator kan laddas ner via F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) erbjuder en gratis och E2EE cross platform lösenordshanteringslösning för alla dina enheter. Deras betalda tjänst låter dig integrera 2FA-koder i appen. Serversidan av Bitwarden kan vara värd för sig själv och Android-appen är tillgänglig via F-Droid.
+- [Proton Pass](https://proton.me/pass/download) erbjuder en liknande gratistjänst som Bitwarden, men [Proton Unlimited](https://proton.me/pricing) kunder kan få tillgång till ytterligare avancerade funktioner. Proton Pass är tillgängligt via APK eller Aurora.
+- [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) är ett program för tvåfaktorsautentisering för system som använder engångslösenordsprotokoll. Tokens kan enkelt läggas till genom att skanna en QR-kod. FreeOTP är tillgängligt via F-Droid.
+- [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) är en gratis, säker och Open Source-app för Android för att hantera dina 2-stegsverifieringstoken för dina onlinetjänster. Aegis är tillgänglig via F-Droid.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) är en betald, plattformsoberoende tjänst som krypterar dina data lokalt så att du säkert kan ladda upp dem till din favoritmolntjänst. Cryptomator kan laddas ner via F-Droid.
 
 
 ![image](assets/fr/21.webp)
@@ -461,10 +461,10 @@ https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 
-- [Proton Drive] (https://proton.me/drive/download) är en betald E2EE-molnlösning för säkerhetskopiering och lagring av alla dina filer. I skrivande stund har de just meddelat en Windows desktop-klient, men Mac- och Linux-användare måste fortsätta att använda webbversionen för att synkronisera från sina datorer (för tillfället). Android-klienten är tillgänglig som en APK eller via Aurora.
-- [Skiff] (https://skiff.com/download) erbjuder också betalda E2EE molnlagrings- och filsamarbetsverktyg. De erbjuder en Mac- och Windows-skrivbordsklient (såväl som en webbapp) och deras Android-klienter måste laddas ner från Aurora.
-- [Nextcloud] (https://f-droid.org/en/packages/com.nextcloud.client/) erbjuder en heltäckande molnbaserad lösning för samarbete, synkronisering mellan enheter och fillagring. Mer avancerade användare kan välja att själva vara värd för sin programvara med fri och öppen källkod på vilken hårdvara de vill. Android-klienterna kan laddas ner via F-Droid.
-- [Cryptpad] (https://cryptpad.fr/) erbjuder ett gratis, webbaserat, E2EE-alternativ till Google Docs.
+- [Proton Drive](https://proton.me/drive/download) är en betald E2EE-molnlösning för säkerhetskopiering och lagring av alla dina filer. I skrivande stund har de just meddelat en Windows desktop-klient, men Mac- och Linux-användare måste fortsätta att använda webbversionen för att synkronisera från sina datorer (för tillfället). Android-klienten är tillgänglig som en APK eller via Aurora.
+- [Skiff](https://skiff.com/download) erbjuder också betalda E2EE molnlagrings- och filsamarbetsverktyg. De erbjuder en Mac- och Windows-skrivbordsklient (såväl som en webbapp) och deras Android-klienter måste laddas ner från Aurora.
+- [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) erbjuder en heltäckande molnbaserad lösning för samarbete, synkronisering mellan enheter och fillagring. Mer avancerade användare kan välja att själva vara värd för sin programvara med fri och öppen källkod på vilken hårdvara de vill. Android-klienterna kan laddas ner via F-Droid.
+- [Cryptpad](https://cryptpad.fr/) erbjuder ett gratis, webbaserat, E2EE-alternativ till Google Docs.
 
 
 ![image](assets/fr/23.webp)
@@ -518,7 +518,7 @@ GrapheneOS gör att du kan ha en separat telefonupplevelse, i din telefon. Ytter
 Om du bara har en eller två av dessa måste-ha-appar som kräver Play Services, men som bara används mycket sällan, kan det vara en bra idé att installera dem tillsammans med Play Services i en separat profil för att ytterligare stärka eventuella små integritetskonsekvenser som kvarstår genom att ha dem körda i ägarprofilen.
 
 
-Du kan läsa mer om detta användningsfall [här] (https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
+Du kan läsa mer om detta användningsfall [här](https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
 
 
 Om du bestämmer dig för att lägga till en separat profil för att passa ditt användningsfall kan appen [Insular](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/) vara användbar för dig. Med Insular kan du enkelt klona någon av dina befintliga appar till den nya profilen utan att behöva gå via någon av de traditionella installationsvägarna som beskrivs tidigare i den här guiden. Med Insular kan du också snabbt "frysa" någon av dessa appar för att helt inaktivera alla appens bakgrundstjänster från att köras.
@@ -532,10 +532,10 @@ Skärmen för hantering av användarprofiler
 ### e-Sims
 
 
-Om du vill ta din telefonintegritet till nästa nivå och ha en mobiltjänst som är avskild från din identitet i den verkliga världen, kan en eSIM vara något för dig. Ett eSIM är ett virtuellt SIM-kort som du kan köpa online och lägga till i din telefon via en QR-kod. Företag som erbjuder sådana tjänster som kan betalas anonymt med Bitcoin inkluderar [Silent.Link] (https://silent.link/) och [Bitrefill] (https://www.bitrefill.com/gb/en/esims/).
+Om du vill ta din telefonintegritet till nästa nivå och ha en mobiltjänst som är avskild från din identitet i den verkliga världen, kan en eSIM vara något för dig. Ett eSIM är ett virtuellt SIM-kort som du kan köpa online och lägga till i din telefon via en QR-kod. Företag som erbjuder sådana tjänster som kan betalas anonymt med Bitcoin inkluderar [Silent.Link](https://silent.link/) och [Bitrefill](https://www.bitrefill.com/gb/en/esims/).
 
 
-eSIM ska inte ses som ett komplett universalmedel för telefonsekretess. De kan vara ett användbart verktyg när de är i rätt händer, men gör din forskning om [tradeoffs] (https://grapheneos.org/faq#cellular-tracking) för att använda någon typ av mobiltjänst om du tänker gå helt "off grid".
+eSIM ska inte ses som ett komplett universalmedel för telefonsekretess. De kan vara ett användbart verktyg när de är i rätt händer, men gör din forskning om [tradeoffs](https://grapheneos.org/faq#cellular-tracking) för att använda någon typ av mobiltjänst om du tänker gå helt "off grid".
 
 
 Sandboxed Play Services måste installeras för eSIM-försörjning i GrapheneOS.
@@ -601,8 +601,8 @@ GrapheneOS är ett kaninhål som vem som helst lätt kan spendera veckor på att
 
 - [GrapheneOS officiella användarhandbok](https://grapheneos.org/usage) - Officiell webbplats
 - [GrapheneOS Forum](https://discuss.grapheneos.org/) - Officiell webbplats
-- [GrapheneOS Settings Masterclass] (https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video av 'The Privacy Wayfinder'
-- [GrapheneOS General Podcast] (https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast av "Watchman Privacy
+- [GrapheneOS Settings Masterclass](https://www.youtube.com/watch?app=desktop&v=GLJyD9MJgIQ) - Video av 'The Privacy Wayfinder'
+- [GrapheneOS General Podcast](https://www.youtube.com/watch?app=desktop&v=UCPX0mFFRNA) - Podcast av "Watchman Privacy
 
 
 *Denna handledning är en anpassning av det ursprungliga innehållet publicerat av [BitcoinQnA på Bitcoiner.Guide under MIT-licensen](https://github.com/BitcoinQnA/Bitcoiner.Guide/blob/main/grapheneos.md), som har hela äran för det ursprungliga skrivandet.*

@@ -174,7 +174,7 @@ Banxaas е не само платформа за конвертиране, но 
 
 - [X](https://x.com/banxaas_sn)
 - [Telegram](https://t.me/banxaas_app)
-- [Whatsapp] (https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
+- [Whatsapp](https://chat.whatsapp.com/JOjCpBoHXow2ljOJFBMVnX)
 - [Nostr](https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrhh7zy)
 
 

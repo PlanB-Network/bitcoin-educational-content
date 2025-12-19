@@ -114,7 +114,7 @@ Successivamente, è possibile regolare un'opzione in Impostazioni esperto.
 
 
 
-Successivamente, è necessario definire **una password corrispondente alla chiave di crittografia**. Questa password vi permetterà di **sbloccare la vostra cassaforte Cryptomator** e di accedere ai suoi dati. **Se la perdete, perdete l'accesso ai vostri dati**. Infine, avete ancora la possibilità di **creare una chiave di backup** selezionando l'opzione "**Sì, meglio prevenire che curare**", nello stesso spirito della chiave di ripristino [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). È consigliabile, ma non memorizzate la chiave di backup nella root di OneDrive!
+Successivamente, è necessario definire **una password corrispondente alla chiave di crittografia**. Questa password vi permetterà di **sbloccare la vostra cassaforte Cryptomator** e di accedere ai suoi dati. **Se la perdete, perdete l'accesso ai vostri dati**. Infine, avete ancora la possibilità di **creare una chiave di backup** selezionando l'opzione "**Sì, meglio prevenire che curare**", nello stesso spirito della chiave di ripristino [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). È consigliabile, ma non memorizzate la chiave di backup nella root di OneDrive!
 
 
 

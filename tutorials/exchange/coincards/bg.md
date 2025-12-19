@@ -93,7 +93,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Посетете [Coincards.com] (https://coincards.com/).
+Посетете [Coincards.com](https://coincards.com/).
 
 
 

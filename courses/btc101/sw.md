@@ -87,7 +87,6 @@ Jambo muhimu hapa ni kuelewa teknolojia hii mpya kwa njia ya jumla, kwa hivyo tu
 
 Je, uko tayari kuingia katika ulimwengu wa kuvutia wa Bitcoin na kuelewa kazi zake zote za ndani? Twende!
 
-**Kumbuka**: Ikiwa utakutana na maneno yasiyojulikana wakati wa kozi, tafadhali angalia [kamusi](https://planb.academy/resources/glossary) kwa ufafanuzi.
 
 ## Historia ya awali ya Bitcoin
 
@@ -216,7 +215,7 @@ Ili kufikia vigezo hivi, sarafu imebadilika kihistoria kwa kuchukua hatua tofaut
 
 Sarafu bado zinaendelea kubadilika hadi leo, kurekebisha fomu zao ili kukidhi hali tofauti za utumiaji. Kama tulivyosema, wakati dhahabu ni ghala bora la thamani, haifai tena kwa uchumi wa sasa wa utandawazi. Vile vile, sarafu aminifu kama vile dola na euro ni Liquid sana na zinaweza kusafirishwa kwa urahisi kwa sababu nyingi ni za kidijitali, lakini thamani yake hupunguzwa kila mara na mfumuko wa bei wa fedha.
 
-Kwa upande mwingine, Bitcoin inatoa uwezekano mpya. Sifa zake, kama vile usambazaji wenye kikomo, huifanya kuwa duka bora la thamani. Zaidi ya hayo, kama sarafu isiyoegemea upande wowote ya mtandao, inatumika kama **Medium of exchange** inayoweza kutumika inayovuka mipaka. Hata hivyo, bado haikubaliwi sana katika biashara leo, licha ya [kupitishwa mara kwa mara](https://btcmap.org/map).
+Kwa upande mwingine, Bitcoin inafungua mitazamo mipya. Sifa zake, hasa ugavi uliodhibitiwa kwa ukomo mkali, zinaifanya kuwa hifadhi bora ya thamani. Aidha, kama sarafu ya mtandao isiyoegemea upande wowote, ni **njia ya kubadilishana** inayoweza kutumika, yenye uwezo wa kuvuka mipaka. Hata hivyo, licha ya kupokelewa kwake kwa kuendelea (kama inavyoonyeshwa na [ramani ya BTCmap](https://btcmap.org/map)), bado haijakubaliwa kwa kiwango kikubwa katika biashara leo.
 
 ## Sarafu za imani (fiduciary currencies)
 
@@ -1192,7 +1191,7 @@ Ni muhimu kutambua kwamba KYC ni mada muhimu ya majadiliano katika sekta ya Bitc
 
 ### Suluhu zisizo za KYC
 
-Kwa kuongeza, kuna [maeneo ya soko] (https://planb.academy/tutorials/exchange) ambapo unaweza kununua na kuuza bitcoins katika ubadilishanaji wa rika-kwa-rika. Kwa ujumla, unazingatia yafuatayo:
+Kwa kuongeza, kuna [maeneo ya soko](https://planb.academy/tutorials/exchange) ambapo unaweza kununua na kuuza bitcoins katika ubadilishanaji wa rika-kwa-rika. Kwa ujumla, unazingatia yafuatayo:
 
 
 - ATM za Bitcoin

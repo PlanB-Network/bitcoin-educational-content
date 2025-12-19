@@ -315,7 +315,7 @@ I Bitcoin Core, generate en ny mottaksadresse (fanen "Receive"), kopier den og l
 
 
 
-Gå til [gitlab.com/invincible-privacy/invincible-privacy/joinstr-kmp/-/releases] (https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases) for å laste ned den nyeste APK-versjonen. Last ned filen i Android-nettleseren din, og åpne den for å starte installasjonen. Du må eventuelt tillate installasjon fra ukjente kilder i telefonens sikkerhetsinnstillinger.
+Gå til [gitlab.com/invincible-privacy/invincible-privacy/joinstr-kmp/-/releases](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases) for å laste ned den nyeste APK-versjonen. Last ned filen i Android-nettleseren din, og åpne den for å starte installasjonen. Du må eventuelt tillate installasjon fra ukjente kilder i telefonens sikkerhetsinnstillinger.
 
 
 
@@ -534,7 +534,7 @@ Joinstr genererer for øyeblikket puljer med **2 til 5 deltakere** i gjennomsnit
 
 
 
-💡 **For å forstå anonymitetssett og beregningen av dem i detalj**, se hele kurset vårt: [Anonymitetssett] (https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
+💡 **For å forstå anonymitetssett og beregningen av dem i detalj**, se hele kurset vårt: [Anonymitetssett](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
 
 
 
@@ -650,10 +650,10 @@ På bakgrunn av den økende økonomiske kontrollen blir desentraliserte verktøy
 
 
 - [Joinstrs offisielle nettside](https://joinstr.xyz)
-- [Brukerdokumentasjon] (https://docs.joinstr.xyz/users/using-joinstr)
-- [Teknisk dokumentasjon] (https://docs.joinstr.xyz/overview/how-does-it-work)
+- [Brukerdokumentasjon](https://docs.joinstr.xyz/users/using-joinstr)
+- [Teknisk dokumentasjon](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab kildekode](https://gitlab.com/invincible-privacy/joinstr)
-- [Android-applikasjon] (https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
+- [Android-applikasjon](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
 
 
 
@@ -662,7 +662,7 @@ På bakgrunn av den økende økonomiske kontrollen blir desentraliserte verktøy
 
 
 
-- [Electrum plugin tutorial] (https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr) - Komplett guide av Uncensored Tech
+- [Electrum plugin tutorial](https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr) - Komplett guide av Uncensored Tech
 
 
 
@@ -671,8 +671,8 @@ På bakgrunn av den økende økonomiske kontrollen blir desentraliserte verktøy
 
 
 
-- [Telegram Joinstr Group] (https://t.me/joinstr) - Fellesskapsstøtte og bokmerkehjørner
-- [Teknisk diskusjon på DelvingBitcoin] (https://delvingbitcoin.org/t/who-will-run-the-coinjoin-coordinators/934)
+- [Telegram Joinstr Group](https://t.me/joinstr) - Fellesskapsstøtte og bokmerkehjørner
+- [Teknisk diskusjon på DelvingBitcoin](https://delvingbitcoin.org/t/who-will-run-the-coinjoin-coordinators/934)
 
 
 
@@ -682,5 +682,5 @@ På bakgrunn av den økende økonomiske kontrollen blir desentraliserte verktøy
 
 
 - [Bokmerke Faucet](https://signetfaucet.com) - Gratis test Bitcoins
-- [Alt Signet Faucet] (https://alt.signetfaucet.com) - Faucet alternativ
+- [Alt Signet Faucet](https://alt.signetfaucet.com) - Faucet alternativ
 - [Mempool.space](https://mempool.space) - Block explorer med personvernanalyse

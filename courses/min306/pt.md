@@ -614,7 +614,7 @@ O estabelecimento bem sucedido de uma piscina doméstica de mining representa um
 No mundo da soldadura de dispositivos de montagem em superfície (SMD), particularmente quando se trabalha com projectos Bitaxe, ter as ferramentas certas faz a diferença entre a frustração e o sucesso. Este guia abrangente cobre o equipamento essencial necessário para lidar eficazmente com projectos de soldadura SMD, desde ferramentas manuais básicas a equipamento especializado que elevará as suas capacidades de soldadura.
 
 
-Se pretender consultar alguma documentação sobre os esquemas, consulte este [repositório GitHub] (https://github.com/skot/bitaxe-doc/tree/main).
+Se pretender consultar alguma documentação sobre os esquemas, consulte este [repositório GitHub](https://github.com/skot/bitaxe-doc/tree/main).
 
 
 ### Ferramentas manuais básicas e instrumentos de precisão

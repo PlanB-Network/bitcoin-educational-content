@@ -82,7 +82,7 @@ A aplicação está disponível diretamente na App Store ou na Play Store. Basta
 
 
 
-Para instalar o Jami no seu dispositivo, primeiro precisa de visitar o site oficial do Jami. Por predefinição, o site apresenta o software correspondente ao sistema operativo do seu dispositivo e pode clicar diretamente no botão de transferência para o iniciar. No entanto, também pode transferir o executável para Windows diretamente da [página de transferência] (https://jami.net/download-jami-windows/).
+Para instalar o Jami no seu dispositivo, primeiro precisa de visitar o site oficial do Jami. Por predefinição, o site apresenta o software correspondente ao sistema operativo do seu dispositivo e pode clicar diretamente no botão de transferência para o iniciar. No entanto, também pode transferir o executável para Windows diretamente da [página de transferência](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +90,7 @@ Para instalar o Jami no seu dispositivo, primeiro precisa de visitar o site ofic
 
 
 
-Para os utilizadores do macOS, o ficheiro também está disponível na [página de transferência do macOS] (https://jami.net/download-jami-macos/).
+Para os utilizadores do macOS, o ficheiro também está disponível na [página de transferência do macOS](https://jami.net/download-jami-macos/).
 
 
 

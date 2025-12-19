@@ -85,7 +85,6 @@ Oluline on mõista seda uut tehnoloogiat üldiselt, nii et loodame, et teile mee
 
 Kas olete valmis sukelduma Bitcoini põnevasse maailma ja mõistma kõiki selle mehhanisme? Lähme!
 
-**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.academy/resources/glossary) definitsioonid.
 
 ## Bitcoini eelajalugu
 
@@ -208,7 +207,7 @@ Nende kriteeriumide täitmiseks on valuuta ajalooliselt arenenud erinevate sammu
 
 Valuutad arenevad tänaseni, kohandades oma vorme erinevate kasutusviiside jaoks. Nagu me ütlesime, on kuld küll suurepärane väärtuse säilitaja, kuid praeguses globaliseerunud majanduses ei sobi see enam. Samamoodi on sellised fiduciary valuutad nagu dollar ja euro väga likviidsed ja kergesti transporditavad, sest need on nüüd enamasti digitaalsed, kuid nende väärtust alandab pidevalt rahapoliitiline inflatsioon.
 
-Teisest küljest pakub Bitcoin uusi võimalusi. Selle omadused, näiteks rangelt piiratud pakkumine, teevad sellest suurepärase väärtuse säilitaja. Lisaks sellele on see neutraalse internetivaluutana elujõuline **vahetusvahend**, mis ei tunne piire. Siiski ei ole see tänapäeval kaubanduses veel laialdaselt aktsepteeritud, vaatamata selle [pidevale kasutuselevõtule](https://btcmap.org/map).
+Teisest küljest avab Bitcoin uusi väljavaateid. Selle omadused, eeskätt rangelt piiratud pakkumine, teevad sellest suurepärase väärtuse säilitaja. Samuti kujutab see neutraalse internetirahadena elujõulist **vahetusvahendit**, mis suudab ületada piire. Siiski, hoolimata pidevast kasutuselevõtust (nagu näitab [BTCmapi kaart](https://btcmap.org/map)), ei ole see täna kaubanduses veel laialdaselt aktsepteeritud.
 
 ## Usaldusvaluutad
 

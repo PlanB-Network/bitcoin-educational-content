@@ -122,7 +122,6 @@ Burada önemli olan nokta, bu yeni teknolojiyi genel bir şekilde anlamaktır, b
 Bitcoin'ün büyüleyici dünyasına dalmaya ve tüm iç işleyişini anlamaya hazır mısınız? Hadi başlayalım!
 
 
-**Not**: Kurs sırasında tanıdık olmayan terimlerle karşılaşırsanız, tanımlar için lütfen [sözlüğe](https://planb.academy/resources/glossary) başvurun.
 
 ## Bitcoin'in Tarih Öncesi
 
@@ -304,7 +303,7 @@ Bu kriterleri karşılamak için para birimi tarihsel olarak farklı adımlar at
 Para birimleri bugün hala evrim geçirmekte ve farklı kullanım durumlarını karşılamak için biçimlerini uyarlamaktadır. Söylediğimiz gibi, altın mükemmel bir değer deposu olsa da, artık mevcut küreselleşmiş ekonomi için uygun değildir. Benzer şekilde, dolar ve euro gibi güvene dayalı para birimleri çok Liquid'dir ve artık çoğunlukla dijital oldukları için kolayca taşınabilirler, ancak değerleri parasal enflasyon tarafından sürekli olarak düşürülmektedir.
 
 
-Öte yandan, Bitcoin yeni olanaklar sunmaktadır. Kesinlikle sınırlı olan Supply gibi özellikleri onu mükemmel bir değer deposu haline getirmektedir. Dahası, tarafsız bir internet para birimi olarak, sınırları aşan uygulanabilir bir **Exchange** aracı olarak hizmet vermektedir. Bununla birlikte, [sürekli benimsenmesine] rağmen bugün ticarette hala yaygın olarak kabul görmemektedir (https://btcmap.org/map).
+Öte yandan Bitcoin, yeni perspektifler açmaktadır. Özellikle sıkı biçimde sınırlı arzı gibi özellikleri, onu mükemmel bir değer saklama aracı haline getirir. Ayrıca, tarafsız bir internet parası olarak, sınırları aşabilen uygulanabilir bir **değişim aracı** oluşturur. Bununla birlikte, sürekli bir benimsenme sürecine rağmen ([BTCmap haritasının](https://btcmap.org/map) da gösterdiği gibi), bugün ticarette henüz geniş ölçüde kabul görmemektedir.
 
 
 ## Güvene dayalı para birimleri

@@ -83,7 +83,6 @@ Tärkeintä on ymmärtää tätä uutta teknologiaa yleisellä tasolla, joten to
 
 Oletko valmis sukeltamaan Bitcoinin kiehtovaan maailmaan ja ymmärtämään sen kaikki toimintamekanismit? Lähdetään liikkeelle!
 
-**Huom.**: Jos kohtaat kurssilla tuntemattomia termejä, katso määritelmät [sanastosta](https://planb.academy/resources/glossary).
 
 ## Bitcoinin esihistoria
 
@@ -206,7 +205,7 @@ Näiden kriteerien täyttämiseksi valuutta on historiallisesti kehittynyt eri v
 
 Valuutat kehittyvät edelleen tähän päivään asti, ja niiden muotoja mukautetaan eri käyttötarkoituksiin. Kuten sanoimme, vaikka kulta on erinomainen arvovaluutta, se ei enää sovi nykyiseen globalisoituneeseen talouteen. Vastaavasti dollarin ja euron kaltaiset fiduciary-valuutat ovat erittäin likvidejä ja helposti kuljetettavia, koska ne ovat nykyään enimmäkseen digitaalisia, mutta niiden arvoa laskee jatkuvasti rahan inflaatio.
 
-Toisaalta Bitcoin tarjoaa uusia mahdollisuuksia. Sen ominaisuudet, kuten tiukasti rajoitettu tarjonta, tekevät siitä erinomaisen arvosäilön. Neutraalina internet-valuuttana se toimii lisäksi elinkelpoisena **vaihtovälineenä**, joka ylittää rajat. Sitä ei kuitenkaan vielä nykyäänkään hyväksytä laajasti kaupankäynnissä, vaikka se [otetaan jatkuvasti käyttöön] (https://btcmap.org/map).
+Toisaalta Bitcoin avaa uusia näkymiä. Sen ominaisuudet, erityisesti tiukasti rajattu tarjonta, tekevät siitä erinomaisen arvonsäilyttäjän. Lisäksi neutraalina internet-valuuttana se muodostaa elinkelpoisen **vaihdon välineen**, joka kykenee ylittämään rajat. Siitä huolimatta, jatkuvasta käyttöönotosta huolimatta (kuten [BTCmap-kartta](https://btcmap.org/map) osoittaa), sitä ei vielä laajalti hyväksytä kaupankäynnissä.
 
 ## Fiduciary valuutat
 

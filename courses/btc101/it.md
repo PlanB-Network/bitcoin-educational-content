@@ -83,7 +83,6 @@ L'importante è capire questa nuova tecnologia in modo generale, quindi vi augur
 
 Pronto a tuffarti nell'affascinante universo di Bitcoin e a comprenderne tutti i meccanismi? Andiamo!
 
-**N.B.**: Se incontri termini sconosciuti durante il corso, consulta [il glossario](https://planb.academy/resources/glossary) per le definizioni.
 
 ## La preistoria di Bitcoin
 
@@ -206,7 +205,7 @@ Per soddisfare questi criteri, la moneta si è storicamente evoluta attraverso p
 
 Le valute si stanno evolvendo ancora oggi, adattando le loro forme per soddisfare diversi casi d'uso. Come abbiamo detto, pur essendo un'eccellente riserva di valore, l'oro non è più adatto all'attuale economia globalizzata. Allo stesso modo, le valute fiduciarie come il dollaro e l'euro sono molto liquide e facilmente trasportabili perché ora sono per lo più digitali, ma il loro valore diminuisce costantemente a causa dall'inflazione monetaria.
 
-In questo scenario Bitcoin presenta nuove possibilità. Le sue proprietà, come l'emissione rigorosamente limitata, lo rendono un'eccellente riserva di valore. Inoltre, in quanto valuta neutrale di Internet, diventa un valido **mezzo di scambio** che supera i confini. Tuttavia, oggi non è ancora ampiamente accettato nel commercio, nonostante la sua [costante adozione](https://btcmap.org/map).
+D’altra parte, Bitcoin apre nuove prospettive. Le sue proprietà, in particolare un’offerta rigorosamente limitata, ne fanno un’eccellente riserva di valore. Inoltre, in quanto valuta internet neutrale, costituisce un **mezzo di scambio** valido, capace di trascendere i confini. Tuttavia, nonostante un’adozione continua (come illustrato dalla [mappa di BTCmap](https://btcmap.org/map)), oggi non è ancora ampiamente accettato nel commercio.
 
 ## Valute fiduciarie
 

@@ -84,7 +84,6 @@ Poin penting di sini adalah untuk memahami teknologi baru ini secara umum, jadi 
 
 Siap menyelami dunia Bitcoin yang menakjubkan dan memahami semua mekanismenya? Ayo mulai!
 
-**Catatan**: Jika Anda menemukan istilah yang tidak familiar selama kursus, silakan lihat [glosarium](https://planb.academy/resources/glossary) untuk definisi.
 
 ## Prasejarah Bitcoin
 
@@ -207,7 +206,7 @@ Untuk memenuhi kriteria ini, mata uang secara historis telah berevolusi dengan m
 
 Mata uang masih terus berkembang hingga hari ini, bentuknya beradaptasi untuk memenuhi berbagai kasus penggunaan. Seperti yang telah kami katakan, meskipun emas adalah penyimpan nilai yang sangat baik, emas tidak lagi cocok untuk ekonomi global saat ini. Demikian pula, mata uang fiat seperti dolar dan euro sangat likuid dan mudah diangkut karena sebagian besar mata uang tersebut sekarang berbentuk digital, tetapi nilainya terus menurun karena inflasi moneter.
 
-Di sisi lain, Bitcoin menghadirkan berbagai kemungkinan baru. Sifat-sifatnya, seperti supply yang sangat terbatas, menjadikannya penyimpan nilai yang sangat baik. Selain itu, sebagai mata uang internet yang netral, Bitcoin berfungsi sebagai alat tukar yang layak yang melampaui batas-batas negara. Namun, Bitcoin masih belum diterima secara luas dalam perdagangan saat ini, meskipun telah diadopsi secara terus-menerus (https://btcmap.org/map).
+Di sisi lain, Bitcoin membuka perspektif baru. Sifat-sifatnya, khususnya pasokan yang sangat terbatas, menjadikannya penyimpan nilai yang sangat baik. Selain itu, sebagai mata uang internet yang netral, Bitcoin merupakan **alat tukar** yang layak, mampu melampaui batas negara. Namun demikian, meskipun adopsinya terus berlanjut (sebagaimana ditunjukkan oleh [peta BTCmap](https://btcmap.org/map)), saat ini Bitcoin belum diterima secara luas dalam perdagangan.
 
 ## Mata uang fidusia/fiat
 

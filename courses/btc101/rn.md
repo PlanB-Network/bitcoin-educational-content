@@ -302,7 +302,7 @@ Kugira ngo bishike kuri ivyo bipimo, amafaranga yarateye imbere muri kahise mu g
 Amafaranga aracariko arahinduka gushika n’uyu musi, arahindagurika uburyo ateyemwo kugira ngo ahure nuko abariko arakoreshwa. Nk’uko twabivuze, naho inzahabu ari ubushinguzi bwagaciro bwiza,, ariko ntibugihuriranye n'ubutunzi mpuzamakugu bw'ikigihe. Navyo nyene, amafaranga ashingiye kucizere twovuga nk'amadorari hamwe n'amayero aroroshe cane, kandi aroshobora gutwarwa vyoroshe kuko ubu menshi ari kubuhinga bwa none, ariko agaciro kayo karakunda kugabanurwa n'itakaza ryagaciro. 
 
 
-Ku rundi ruhande, Bitcoin iratanga ubundi buryo bushasha bwo gukoresha. Uburanga bwayo, nk'igikoresho kihari kurugero ruharuye, buyituma iba ubushinguzi bw'agaciro bwiza. Ikindi, nk'amafaranga yokuri Internet ataho ahengamiye, arafasha nk'igikoresho c'**uguhanahana** gifasha kujabuka imbibe. Ariko rero, ntirashobora kwemerwa kurugezo runini murudandazwa, naho [riguma ryemezwa](https://btcmap.org/map).
+Ku rundi ruhande, Bitcoin irugurura amahirwe mashasha. Ibiranga, cane cane umubare wayo ugenwe cane, bituma iba ikigega ciza c’agaciro. Vyongeye, nk’ifaranga rya internet ritagira aho ribogamiye, ni **uburyo bwo guhana** bushoboka, bushobora kurenga imbibe. Ariko rero, naho yakirwa buhorobuhoro (nk’uko bigaragara ku [ikarata ya BTCmap](https://btcmap.org/map)), ntirakiramenyekana cane mu bucuruzi bwo muri iki gihe.
 
 
 ## Amafaranga ashingiye kubucuti

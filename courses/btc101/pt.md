@@ -83,7 +83,6 @@ O importante aqui é compreender esta nova tecnologia de uma forma geral, por is
 
 Pronto para mergulhar no fascinante universo do Bitcoin e entender todos os seus mecanismos? Vamos lá!
 
-**N.B.**: Se encontrar termos desconhecidos durante o curso, consulte [o glossário](https://planb.academy/resources/glossary) para definições.
 
 ## A pré-história do Bitcoin
 
@@ -206,7 +205,7 @@ Para satisfazer estes critérios, a moeda tem evoluído historicamente através 
 
 As moedas continuam a evoluir até aos dias de hoje, adaptando as suas formas para responder a diferentes casos de utilização. Como dissemos, embora o ouro seja uma excelente reserva de valor, já não é adequado para a atual economia globalizada. Da mesma forma, as moedas fiduciárias, como o dólar e o euro, são muito líquidas e facilmente transportáveis, porque agora são maioritariamente digitais, mas o seu valor é constantemente reduzido pela inflação monetária.
 
-Por outro lado, a Bitcoin apresenta novas possibilidades. As suas propriedades, como a oferta estritamente limitada, fazem dela uma excelente reserva de valor. Além disso, sendo uma moeda neutra da Internet, serve como um **meio de troca** viável que transcende as fronteiras. No entanto, ainda não é amplamente aceite no comércio atual, apesar da sua [constante adoção] (https://btcmap.org/map).
+Por outro lado, o Bitcoin abre novas perspetivas. As suas propriedades, nomeadamente uma oferta estritamente limitada, fazem dele uma excelente reserva de valor. Além disso, enquanto moeda neutra da internet, constitui um **meio de troca** viável, capaz de transcender fronteiras. Contudo, apesar de uma adoção contínua (como ilustra [o mapa da BTCmap](https://btcmap.org/map)), ainda não é amplamente aceite no comércio atualmente.
 
 ## Moedas fiduciárias
 

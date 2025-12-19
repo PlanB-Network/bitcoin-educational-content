@@ -122,7 +122,6 @@ Ważne jest, aby zrozumieć tę nową technologię w sposób ogólny, więc mamy
 Gotowy, by zanurzyć się w fascynującym świecie Bitcoin i zrozumieć wszystkie jego wewnętrzne mechanizmy? Do dzieła!
 
 
-**N.B.**: Jeśli podczas kursu napotkasz nieznane terminy, zapoznaj się z ich definicjami w [słowniczku] (https://planb.academy/resources/glossary).
 
 
 ## Prehistoria Bitcoin
@@ -308,7 +307,7 @@ Aby spełnić te kryteria, waluta ewoluowała w przeszłości, podejmując róż
 Waluty ewoluują do dziś, dostosowując swoje formy do różnych przypadków użycia. Jak już wspomnieliśmy, chociaż złoto jest doskonałym środkiem przechowywania wartości, nie jest już odpowiednie dla obecnej zglobalizowanej gospodarki. Podobnie waluty fiducjarne, takie jak dolar i euro, są bardzo płynne i łatwe w transporcie, ponieważ są obecnie w większości cyfrowe, ale ich wartość jest stale obniżana przez inflację monetarną.
 
 
-Z drugiej strony Bitcoin oferuje nowe możliwości. Jego właściwości, takie jak ściśle ograniczona podaż, czynią go doskonałym magazynem wartości. Co więcej, jako neutralna waluta internetowa, służy jako realne **medium wymiany**, które wykracza poza granice. Jednak nadal nie jest powszechnie akceptowany w handlu, pomimo jego [ciągłej adopcji] (https://btcmap.org/map).
+Z drugiej strony Bitcoin otwiera nowe perspektywy. Jego właściwości, w szczególności ściśle ograniczona podaż, czynią go doskonałym magazynem wartości. Ponadto, jako neutralna waluta internetowa, stanowi on realny **środek wymiany**, zdolny do przekraczania granic. Niemniej jednak, pomimo ciągłej adopcji (co ilustruje [mapa BTCmap](https://btcmap.org/map)), nie jest on jeszcze powszechnie akceptowany w handlu.
 
 
 ## Waluty powiernicze

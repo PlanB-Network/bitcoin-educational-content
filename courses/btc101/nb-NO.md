@@ -83,7 +83,6 @@ Det viktige poenget her er å forstå denne nye teknologien på en generell måt
 
 Klar til å dykke ned i den fascinerende verdenen av Bitcoin og forstå alle dets mekanismer? La oss gå!
 
-**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.academy/resources/glossary) for definisjoner.
 
 ## Bitcoins forhistorie
 
@@ -206,7 +205,7 @@ For å oppfylle disse kriteriene har valutaen historisk sett utviklet seg ved å
 
 Valutaer utvikler seg fortsatt den dag i dag, og tilpasser seg ulike bruksområder. Som vi sa, er gull en utmerket verdioppbevaring, men det er ikke lenger egnet for dagens globaliserte økonomi. På samme måte er forvaltningsvalutaer som dollar og euro svært likvide og lett å transportere fordi de nå for det meste er digitale, men verdien deres reduseres stadig av pengeinflasjon.
 
-På den annen side byr Bitcoin på nye muligheter. Dens egenskaper, som det strengt begrensede tilbudet, gjør den til en utmerket verdioppbevaring. Som nøytral internettvaluta fungerer den dessuten som et levedyktig **byttemiddel** som overskrider landegrensene. Men til tross for at den [stadig blir tatt i bruk] (https://btcmap.org/map), er den fortsatt ikke allment akseptert i handelen i dag.
+På den annen side åpner Bitcoin for nye perspektiver. Dets egenskaper, særlig et strengt begrenset tilbud, gjør det til en utmerket verdilagring. Videre, som en nøytral internettvaluta, utgjør det et levedyktig **byttemiddel** som kan overskride grenser. Til tross for en kontinuerlig adopsjon (slik [BTCmap-kartet](https://btcmap.org/map) illustrerer), er det imidlertid ennå ikke bredt akseptert i handel i dag.
 
 ## Forvaltningsvalutaer
 

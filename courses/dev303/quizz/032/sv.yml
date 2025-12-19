@@ -1,0 +1,8 @@
+question: Vilken är den primära skillnaden mellan återställbara och icke återställbara fel i Rust:s felhanteringssystem?
+answer: Återhämtningsbara fel kan hanteras på ett elegant sätt så att programmet kan fortsätta, medan oåterhämtningsbara fel avslutar programmet
+wrong_answers:
+  - Återställbara fel använder panic! makro medan oåterställbara fel använder Result enum för korrekt felhantering
+  - Återställbara fel uppstår vid kompileringstiden medan oåterställbara fel endast uppstår under programmets körtid
+  - Återställbara fel kräver att stacken rullas tillbaka medan oåterställbara fel kan ignoreras av den anropande koden
+explanation: |
+  Rust kategoriserar fel baserat på om programmen rimligen kan återhämta sig från dem. Återställbara fel representerar förväntade felförhållanden som saknade filer eller nätverksproblem som program kan hantera på ett elegant sätt med hjälp av Result-typer, vilket gör att exekveringen kan fortsätta med lämplig felhantering. Fel som inte kan återställas indikerar grundläggande problem som minnessäkerhetsöverträdelser eller logikfel där programmet inte kan fortsätta på ett säkert sätt, vilket utlöser panik som avslutar exekveringen för att förhindra ytterligare korruption.

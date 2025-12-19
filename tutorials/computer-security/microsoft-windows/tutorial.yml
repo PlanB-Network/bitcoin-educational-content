@@ -29,3 +29,108 @@ proofreading:
     contributor_names:
       - zeraatchi
     reward: 3.04
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.59
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.59
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.59
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.58
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.59
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 9.08
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.58
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.59
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.09
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.59
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.58
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.58
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.58

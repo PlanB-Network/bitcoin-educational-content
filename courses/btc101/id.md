@@ -30,7 +30,7 @@ Selamat datang di kursus BTC101!
 
 Bitcoin adalah revolusi teknologi dan moneter, yang mampu membuat kita mempertanyakan hubungan kita dengan uang dan masyarakat. Faktanya, Bitcoin (disebut sebagai BTC) adalah mata uang yang **netral** dan **terdesentralisasi**, yang berarti tidak dikontrol oleh entitas atau institusi mana pun. Ini adalah sebuah inovasi yang lebih dari sekadar "mata uang internet": Bitcoin adalah protokol komputer (Bitcoin) dan unit moneter (bitcoin).
 
-Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "blockchain" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
+Protokol ini menggunakan teknologi dasar seperti kriptografi, komunikasi jaringan, dan "[blockchain](https://planb.academy/resources/glossary/blockchain)" yang terkenal, sementara unit bitcoin berfungsi sebagai mata uang yang diperlukan untuk berfungsinya protokol ini. Dalam kehidupan sehari-hari, warga El Salvador dan para pengguna bitcoin di seluruh dunia menggunakan mata uang bitcoin untuk membeli dan menjual barang dan jasa, dengan mengandalkan teknologi ini untuk membuat hidup mereka lebih baik.
 
 **Sebuah kurikulum yang lengkap namun mudah diakses:**
 
@@ -128,7 +128,7 @@ Gambar di bawah ini dengan jelas menggambarkan perkembangan gerakan ini melalui 
 
 ![image](assets/id/005.webp)
 
-Dalam lingkungan yang mendukung inilah Satoshi Nakamoto yang misterius menerbitkan whitepaper Bitcoin pada tahun 2008. Dalam dokumen ini, ia menggabungkan beberapa ide dari gerakan cypherpunk, seperti proof of work dan stempel waktu kriptografi, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan sensor.
+Dalam lingkungan yang mendukung inilah Satoshi Nakamoto yang misterius menerbitkan whitepaper Bitcoin pada tahun 2008. Dalam dokumen ini, ia menggabungkan beberapa ide dari gerakan cypherpunk, seperti [proof of work](https://planb.academy/resources/glossary/proof-of-work) dan stempel waktu kriptografi, untuk menciptakan mata uang digital yang terdesentralisasi dan tahan sensor.
 
 Namun, Bitcoin lebih dari sekadar itu: Bitcoin mewakili pencapaian cita-cita cypherpunk. Di luar teknologinya, Bitcoin melambangkan sebuah revolusi melawan sistem keuangan tradisional dan menawarkan sebuah alternatif berdasarkan transparansi, desentralisasi, dan kedaulatan individu.
 
@@ -372,7 +372,7 @@ Penciptaan bitcoin baru adalah hasil dari proses penambangan. Singkatnya, para p
 
 ![image](assets/id/022.webp)
 
-Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "halving"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
+Setelah berhasil melakukan tugas ini, para penambang akan mendapatkan imbalan berupa penerbitan bitcoin baru setiap sepuluh menit. Hadiah ini diprogram untuk membagi dua setiap 210.000 blok, yang kira-kira setiap empat tahun (sebuah peristiwa yang dikenal sebagai "[halving](https://planb.academy/resources/glossary/halving)"), memberikan kurva penerbitan moneter bentuk seperti tangga. Karena mekanisme ini, secara matematis dapat diprediksi bahwa penciptaan bitcoin baru akan berhenti pada tahun 2140, ketika jumlahnya mencapai batas 21 juta.
 
 | Jumlah Halving | Tinggi Blok | Hadiah BTC Setelah Halving  | Perkiraan BTC yang Beredar Setelah Halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -681,7 +681,7 @@ Sekarang kita telah membahas dasar-dasar dompet Bitcoin dan praktik terbaik untu
 
 ![image](assets/id/038.webp)
 
-Tanggal 31 Oktober 2008 menandai lahirnya teknologi keuangan baru yaitu Bitcoin. Pada hari ini, Satoshi Nakamoto yang tidak disebutkan namanya mempresentasikan inovasinya kepada dunia melalui sebuah email yang dikirim ke daftar e-mail cypherpunks, sebuah komunitas penggemar kriptografi yang didedikasikan untuk mempromosikan privasi di internet. Email ini berisi sebuah dokumen yang disebut "White Paper", yang mempresentasikan cara kerja Bitcoin.
+Tanggal 31 Oktober 2008 menandai lahirnya teknologi keuangan baru yaitu Bitcoin. Pada hari ini, Satoshi Nakamoto yang tidak disebutkan namanya mempresentasikan inovasinya kepada dunia melalui sebuah email yang dikirim ke daftar e-mail cypherpunks, sebuah komunitas penggemar kriptografi yang didedikasikan untuk mempromosikan privasi di internet. Email ini berisi sebuah dokumen yang disebut "[White Paper](https://planb.academy/resources/glossary/white-paper)", yang mempresentasikan cara kerja Bitcoin.
 
 Inisiatif ini tidak langsung menimbulkan antusiasme, mungkin karena kegagalan sebelumnya dalam upaya menciptakan sistem uang digital. Namun demikian, Buku Putih ini akhirnya menjadi referensi bagi para pengguna Bitcoin dan telah menjadi bahan perdebatan dalam ekosistem Bitcoin selama bertahun-tahun.
 
@@ -796,7 +796,7 @@ Node adalah elemen fundamental dalam arsitektur jaringan Bitcoin, karena node me
 - Mengirimkan informasi ke node lain
 - Menegakkan aturan protokol Bitcoin.
 
-Oleh karena itu, setiap perangkat yang menjalankan perangkat lunak Bitcoin, yang disebut Bitcoin node (sering kali menggunakan [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), berkontribusi pada desentralisasi jaringan.
+Oleh karena itu, setiap perangkat yang menjalankan perangkat lunak Bitcoin, yang disebut Bitcoin [node](https://planb.academy/resources/glossary/node) (sering kali menggunakan [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), berkontribusi pada desentralisasi jaringan.
 
 ![image](assets/id/050.webp)
 
@@ -838,7 +838,7 @@ Setelah kemenangan ini, node-node tersebut mengaktifkan pembaruan yang disebut S
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin ASIC untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
+**Penambang mengamankan jaringan dan menambahkan transaksi ke dalam blok. Mereka menggunakan listrik melalui mesin [ASIC](https://planb.academy/resources/glossary/asic) untuk menyelesaikan (proof of work)bukti kerja Bitcoin.**
 
 ![image](assets/id/054.webp)
 
@@ -1044,7 +1044,9 @@ Ekonomi Bitcoin ada dan sedang berkembang di daerah-daerah tertentu di dunia, se
 
 Namun, di El Salvador dan di bagian lain dunia, semakin banyak individu, bisnis, dan organisasi yang menerima Bitcoin sebagai alat pembayaran untuk produk atau layanan mereka.
 
-![image](assets/id/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Sumber : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Selain itu, sebuah proyek open-source dan kolaboratif telah diluncurkan, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), untuk memfasilitasi penggunaan Bitcoin dalam transaksi sehari-hari. Platform ini mencantumkan semua pedagang yang menerima Bitcoin, serta berbagai komunitas Bitcoin di seluruh dunia, sehingga Anda dapat mengunjungi situs web mereka untuk menemukan ekosistem Bitcoin di sekitar Anda. Jadi, terlepas dari kesulitan dan keraguan, ada inisiatif seperti BTCMap yang berkontribusi untuk membuat ekonomi Bitcoin lebih mudah diakses dan nyaman bagi semua orang.
 

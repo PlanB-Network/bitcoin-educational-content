@@ -1,0 +1,8 @@
+question: Kusudi kuu la aina ya enum ya Rust ya Chaguo<T> ni lipi?
+answer: Ili kuwakilisha kwa usalama thamani ambazo zinaweza kuwa zipo au zisipo, kuzuia makosa ya null pointer
+wrong_answers:
+  - Kuhifadhi aina nyingi tofauti za data katika kigezo kimoja bila kuangalia aina
+  - Ili kuunda vigezo vya hiari katika ufafanuzi wa vitendakazi ambavyo vinaweza kuruka wakati wa simu
+  - Ili kutoa njia ya kurudisha aina nyingi za hitilafu zinazowezekana kutoka kwa chaguo-msingi moja
+explanation: |
+  Enum ya Option<T> hutumika kama suluhisho la Rust kwa matatizo ya null pointer kwa kulazimisha utunzaji dhahiri wa thamani zinazokosekana. Ina aina mbili: Some(T) kwa thamani za sasa na None kwa thamani zisizokuwepo. Kikusanyaji kinakuhitaji uangalie ni aina gani ya chaguo uliyonayo kabla ya kutumia thamani, na kuzuia makosa ya muda wa utekelezaji. Majibu yasiyo sahihi huchanganya Chaguo na dhana zingine: unions/variants (kwanza), vigezo chaguo-msingi (pili), na aina za matokeo kwa utunzaji wa hitilafu (tatu).

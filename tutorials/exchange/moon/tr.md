@@ -7,6 +7,12 @@ description: Visa banka kartlarının kabul edildiği her yerde bitcoin ile öde
 
 
 
+---
+
+⚠️ *Aralık 2025 güncellemesi: Dikkat, **Aralık 2025’in başından bu yana Moon hizmetlerinin bir kısmı artık kullanılamamaktadır**, özellikle yeniden yüklenebilir Visa banka kartları. Bu kullanılamazlığın geçici mi yoksa kalıcı mı olduğunu henüz bilmiyoruz. Daha fazla bilgiye ulaştığımızda bu eğitim güncellenecektir.*
+
+---
+
 Moon, tıpkı geleneksel bir banka kartı gibi milyonlarca çevrimiçi satıcıda kullanılabilen KYC içermeyen sanal Visa kartları ve hediye kartları satın almak için bitcoin gibi kripto para birimlerini kullanmanıza olanak tanır. Böylece sats'ınızı Visa'nın kabul edildiği her yerde, bir değişim platformundan geçmeden harcamanın basit bir yolunu sunuyor.
 
 

@@ -1,0 +1,8 @@
+question: Wanneer moet de vraagteken operator (?) de voorkeur krijgen boven de unwrap() of expect() methodes in Rust foutafhandeling?
+answer: Als je fouten moet doorgeven aan de aanroepstapel zodat de aanroepende functie ze kan afhandelen
+wrong_answers:
+  - Als u aangepaste foutberichten wilt geven om mislukte bewerkingen te debuggen
+  - Als je zeker weet dat de bewerking zal slagen en je wilt foutafhandeling vermijden
+  - Wanneer je fouten moet omzetten naar een standaardwaarde en verder moet gaan met de programma-uitvoering
+explanation: |
+  De vraagteken operator (?) is ontworpen voor foutvoortplanting - het haalt succeswaarden op, maar retourneert onmiddellijk fouten van de huidige functie, zodat aanroepers deze kunnen afhandelen. In tegenstelling tot unwrap()/expect() die panikeren bij fouten, of unwrap_or() die standaardwaarden geeft, behoudt de ? operator de foutcontext en geeft de verantwoordelijkheid door aan code op een hoger niveau die de juiste beslissingen kan nemen.

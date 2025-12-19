@@ -755,7 +755,7 @@ Selles etapis on tehing loodud ja Bobi rahakott jagab seda Bitcoini võrguga. Se
 
 Sel hetkel, kuigi see tehing on kõigile teada (Mempool-nimelise tööriista kaudu), ei saa seda kinnitada enne, kui kaevandaja, kes on ainus, kes tehingute kinnitamiseks neid plokiahelasse lisab, seda plokki sisestab.
 
-Tegelikult on kaevurite ülesanne koguda kehtivaid ja kinnitamata tehinguid, et need plokiks kokku panna. Lühidalt öeldes peavad nad lahendama krüptograafilise mõistatuse protsessi nimega "proof of work", et nende plokist saaks järgmine plokk Bitcoini plokiahelas.
+Tegelikult on kaevurite ülesanne koguda kehtivaid ja kinnitamata tehinguid, et need plokiks kokku panna. Lühidalt öeldes peavad nad lahendama krüptograafilise mõistatuse protsessi nimega "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", et nende plokist saaks järgmine plokk Bitcoini plokiahelas.
 
 ![image](assets/et/047.webp)
 
@@ -838,7 +838,7 @@ Pärast seda võitu aktiveerisid sõlmed uuenduse nimega SegWit, sillutades teed
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Minerid kindlustavad võrgu ja lisavad tehinguid plokkidesse. Nad kasutavad elektrienergiat ASIC-masinate abil, et lahendada Bitcoini töötõendit **
+**Minerid kindlustavad võrgu ja lisavad tehinguid plokkidesse. Nad kasutavad elektrienergiat [ASIC](https://planb.academy/resources/glossary/asic)-masinate abil, et lahendada Bitcoini töötõendit **
 
 ![image](assets/et/054.webp)
 
@@ -1044,7 +1044,9 @@ Bitcoini majandus eksisteerib ja areneb teatud piirkondades maailmas, nagu El Sa
 
 Siiski on El Salvadoris ja teistes maailma osades üha rohkem üksikisikuid, ettevõtteid ja organisatsioone, kes aktsepteerivad Bitcoin'i oma toodete või teenuste maksevahendina.
 
-![image](assets/et/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Allikas : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Lisaks on käivitatud avatud lähtekoodiga ja koostööprojekt [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), et hõlbustada Bitcoini kasutamist igapäevastes tehingutes. Sellel platvormil on loetletud kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma, nii et võite külastada nende veebisaiti, et avastada Bitcoini ökosüsteemi enda ümber. Seega on vaatamata raskustele ja kõhklustele olemas sellised algatused nagu BTCMap, mis aitavad kaasa Bitcoini majanduse kättesaadavamaks ja mugavamaks muutmisele kõigi jaoks.
 

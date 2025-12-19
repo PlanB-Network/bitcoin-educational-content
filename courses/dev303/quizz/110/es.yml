@@ -1,0 +1,8 @@
+question: ¿Cómo resuelve la integración de Lightning Service Provider (LSP) del SDK de Breez el problema de la gestión de liquidez para recibir pagos?
+answer: Los PSL abren automáticamente nuevos canales Lightning con liquidez entrante en el momento en que llega un pago, utilizando la creación de canales "justo a tiempo"
+wrong_answers:
+  - Los PSL prefinancian todos los canales de usuarios con la máxima capacidad de liquidez y reequilibran periódicamente los fondos en toda la topología de la red
+  - Los PSL mantienen un fondo de liquidez compartido que presta temporalmente fondos a los usuarios durante la recepción de pagos antes de que se produzca la liquidación
+  - Los PSL dirigen los pagos a través de múltiples canales intermedios para encontrar vías de liquidez existentes sin crear nuevas relaciones entre canales
+explanation: |
+  El SDK Breez implementa canales "justo a tiempo" en los que los PSL abren automáticamente nuevos canales Lightning precisamente cuando un usuario necesita recibir un pago pero carece de suficiente liquidez entrante. Esto sucede sin problemas y sin intervención del usuario, resolviendo la restricción de liquidez fundamental de Lightning, en la que los fondos solo pueden fluir en las direcciones en las que existe capacidad de canal. Las otras opciones describen diferentes enfoques que no coinciden con la implementación real del SDK de la creación dinámica de canales.

@@ -28,7 +28,7 @@ BTC304:ssä tarkastelemme, miksi yhteisön rakentaminen on tärkeää, tutkimme 
 
 
 
-Tervetuloa BTC302:een!
+Tervetuloa BTC 304:een!
 
 
 
@@ -2831,14 +2831,14 @@ Yksin voit tutkia nopeasti yhden Bitcoin:n kaninkolon monista tunneleista. Mutta
 
 
 
-## BTC302, mitä seuraavaksi
+## BTC 304, mitä seuraavaksi
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Tällä BTC302-kurssilla olemme käyneet läpi yksityiskohtaisesti, miten yhteisö tai tapaaminen perustetaan ja miten erilaisia projekteja käynnistetään.
+Tällä BTC 304-kurssilla olemme käyneet läpi yksityiskohtaisesti, miten yhteisö tai tapaaminen perustetaan ja miten erilaisia projekteja käynnistetään.
 
 
 Kun yhteisösi on valmis ottamaan seuraavan askeleen, **voit perustaa virallisen yhdistyksen**.

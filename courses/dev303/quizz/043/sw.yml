@@ -1,0 +1,8 @@
+question: Ni neno gani muhimu linalotumika kulazimisha kufungwa kuchukua umiliki wa vigeu vilivyokamatwa badala ya kuvikopa?
+answer: hoja
+wrong_answers:
+  - mwenyewe
+  - kukamata
+  - chukua
+explanation: |
+  Neno muhimu la `move` hutumika kabla ya vigezo vya kufungwa ili kulazimisha kufungwa kuchukua umiliki wa vigezo vyote vilivyonaswa kutoka kwa mazingira yake. Hii ni muhimu wakati kufungwa kunaweza kudumu zaidi ya upeo ambapo vigezo vilifafanuliwa awali, kama vile wakati wa kutoa nyuzi. Bila `move`, kufungwa kwa kawaida hunasa kwa njia isiyo na vikwazo vingi (marejeleo yasiyobadilika, kisha marejeleo yanayoweza kubadilishwa, kisha umiliki), lakini `move` hubatilisha tabia hii otomatiki ili kuhakikisha uhamisho wa umiliki. Chaguzi zingine (`own`, `capture`, `take`) si maneno muhimu halali ya Rust kwa kusudi hili.

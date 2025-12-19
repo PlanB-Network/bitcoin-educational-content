@@ -1,0 +1,8 @@
+question: Mida teeb Rust paanika tekkimise ajal, kui tekib paanika?
+answer: Käib tagasi läbi kõnede virna, et esitada üksikasjalik virna jälgimine
+wrong_answers:
+  - Lõpetab programmi kohe ilma igasuguse puhastuse või teabeta
+  - Teisendab paanika taastatavaks tulemuse tüübiks veakäsitluse jaoks
+  - Käivitab jooksva funktsiooni täitmise algusest uuesti
+explanation: |
+  Kui Rust-s tekib paanika, läheb lahtipööramise protsess tagasi läbi kutsete virna, et esitada üksikasjalik virna jälg, mis näitab täpselt, kus paanika tekkis. See aitab arendajatel tuvastada probleemi allikat silumise ajal. Teised valikud on valed: Rust ei lõpeta kohe ilma puhastuseta (see juhtub ainult siis, kui lahtipööramine on välja lülitatud), paanikat ei saa teisendada Result-tüüpi, kuna see kujutab endast taastamatut viga, ja Rust ei alusta paanika ilmnemisel funktsiooni täitmist uuesti.

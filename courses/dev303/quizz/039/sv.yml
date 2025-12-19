@@ -1,0 +1,8 @@
+question: Vilken egenskap representerar closures som kan anropas flera gånger utan att mutera sin fångade miljö?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnFångst
+explanation: |
+  Fn är den mest restriktiva egenskapen för stängningar som representerar stängningar som kan anropas flera gånger utan att deras infångade miljö förändras. Dessa stängningar fångas endast genom oföränderlig referens och kan anropas samtidigt på ett säkert sätt. FnOnce representerar stängningar som bara kan anropas en gång, medan FnMut representerar stängningar som kan anropas flera gånger men som kan mutera sin fångade miljö. FnCapture är inte en riktig Rust-egenskap.

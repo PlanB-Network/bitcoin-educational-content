@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta korzystania z polecenia `cargo expand` podczas tworzenia złożonych makr w Rust?
+answer: Wyświetla w pełni rozwinięty kod wygenerowany przez wywołania makr, umożliwiając programistom weryfikację wygenerowanych danych wyjściowych i debugowanie błędów
+wrong_answers:
+  - Automatycznie optymalizuje wydajność makr, skracając czas kompilacji i eliminując zbędne gałęzie dopasowywania wzorców
+  - Weryfikuje składnię makr w czasie wykonywania i zapewnia sprawdzanie błędów w czasie rzeczywistym dla dynamicznej walidacji argumentów makr
+  - Automatycznie konwertuje makra funkcyjne na makra pochodne, zwiększając użyteczność kodu i wydajność implementacji cech
+explanation: |
+  Polecenie `cargo expand` jest nieocenione dla rozwoju makr, ponieważ ujawnia rzeczywisty kod, który makra generate podczas kompilacji. Ponieważ makra działają w czasie kompilacji i przekształcają wzorce wejściowe w wygenerowany kod, programiści muszą zobaczyć te rozszerzone dane wyjściowe, aby zweryfikować, czy ich makra działają poprawnie. Jest to szczególnie ważne, gdy kod wygenerowany przez makra zawiera błędy, ponieważ rozszerzone dane wyjściowe pomagają określić, czy problemy wynikają z samej definicji makra, czy ze struktury wygenerowanego kodu. Pozostałe opcje są nieprawidłowe, ponieważ `cargo expand` jest wyłącznie narzędziem do debugowania i inspekcji - nie optymalizuje wydajności, nie weryfikuje zachowania w czasie wykonywania ani nie konwertuje automatycznie między typami makr.

@@ -679,7 +679,7 @@ Nyt kun olemme käsitelleet Bitcoin-lompakoiden perusteita ja parhaita käytänt
 
 ![image](assets/fi/038.webp)
 
-Lokakuun 31. päivänä 2008 syntyi uusi rahoitusteknologia eli Bitcoin. Tänä päivänä nimettömänä esiintynyt Satoshi Nakamoto esitteli innovaationsa maailmalle sähköpostilla, joka lähetettiin cypherpunksin postituslistalle. Kyseessä on salakirjoituksen harrastajien yhteisö, joka on omistautunut edistämään yksityisyyden suojaa internetissä. Sähköpostiviesti sisälsi asiakirjan nimeltä "White Paper", jossa esiteltiin Bitcoinin toimintaa.
+Lokakuun 31. päivänä 2008 syntyi uusi rahoitusteknologia eli Bitcoin. Tänä päivänä nimettömänä esiintynyt Satoshi Nakamoto esitteli innovaationsa maailmalle sähköpostilla, joka lähetettiin cypherpunksin postituslistalle. Kyseessä on salakirjoituksen harrastajien yhteisö, joka on omistautunut edistämään yksityisyyden suojaa internetissä. Sähköpostiviesti sisälsi asiakirjan nimeltä "[White Paper](https://planb.academy/resources/glossary/white-paper)", jossa esiteltiin Bitcoinin toimintaa.
 
 Tämä aloite ei heti herättänyt innostusta, mikä johtui luultavasti siitä, että aiemmat yritykset luoda digitaalinen käteisrahajärjestelmä ovat epäonnistuneet. Valkoisesta kirjasta tuli kuitenkin lopulta Bitcoin-käyttäjien viitekehys, ja siitä on vuosien mittaan käyty monia keskusteluja Bitcoin-ekosysteemissä.
 
@@ -753,7 +753,7 @@ Tässä vaiheessa transaktio on luotu, ja Bobin lompakko jakaa sen Bitcoin-verko
 
 Vaikka tämä transaktio on kaikkien tiedossa (Mempool-nimisen työkalun kautta), sitä ei voida pitää vahvistettuna ennen kuin louhija lisää sen lohkoon, sillä vain louhija vahvistaa transaktiot sisällyttämällä ne lohkoketjuun.
 
-Itse asiassa louhijoiden tehtävänä on kerätä kelvollisia ja vahvistamattomia transaktioita ja koota ne lohkoksi. Lyhyesti sanottuna heidän on ratkaistava kryptografinen pulma prosessissa nimeltä "proof of work", jotta heidän lohkonsa olisi seuraava lohko Bitcoin-lohkoketjussa.
+Itse asiassa louhijoiden tehtävänä on kerätä kelvollisia ja vahvistamattomia transaktioita ja koota ne lohkoksi. Lyhyesti sanottuna heidän on ratkaistava kryptografinen pulma prosessissa nimeltä "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", jotta heidän lohkonsa olisi seuraava lohko Bitcoin-lohkoketjussa.
 
 ![image](assets/fi/047.webp)
 
@@ -836,7 +836,7 @@ Tämän voiton jälkeen solmut aktivoivat SegWit-nimisen päivityksen, joka taso
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Minerit turvaavat verkon ja lisäävät transaktioita lohkoihin. He käyttävät sähköä ASIC-koneiden avulla ratkaistakseen Bitcoin-työstötodistuksen.**
+**Minerit turvaavat verkon ja lisäävät transaktioita lohkoihin. He käyttävät sähköä [ASIC](https://planb.academy/resources/glossary/asic)-koneiden avulla ratkaistakseen Bitcoin-työstötodistuksen.**
 
 ![image](assets/fi/054.webp)
 
@@ -1043,7 +1043,9 @@ Bitcoin-taloustiede on olemassa ja kehittyy tietyillä alueilla maailmassa, kute
 
 Siitä huolimatta El Salvadorissa ja muualla maailmassa yhä useammat yksilöt, yritykset ja organisaatiot hyväksyvät Bitcoinin maksuvälineenä tuotteidensa tai palveluidensa maksamiseen.
 
-![image](assets/fi/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Lähde : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Lisäksi on käynnistetty avoimen lähdekoodin ja yhteistyön hanke [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), jonka tarkoituksena on helpottaa Bitcoinin käyttöä jokapäiväisissä liiketoimissa. Tällä alustalla luetellaan kaikki kauppiaat, jotka hyväksyvät Bitcoinin, sekä erilaiset Bitcoin-yhteisöt eri puolilla maailmaa, joten voit vierailla heidän verkkosivustollaan tutustuaksesi ympärilläsi olevaan Bitcoin-ekosysteemiin. Vaikeuksista ja epäröinnistä huolimatta on siis olemassa BTCMapin kaltaisia aloitteita, jotka osaltaan tekevät Bitcoin-taloudesta helpommin lähestyttävää ja kätevämpää kaikille.
 

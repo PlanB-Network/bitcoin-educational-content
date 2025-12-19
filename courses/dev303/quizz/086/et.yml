@@ -1,0 +1,8 @@
+question: Mis on UniFFI UDL-faili nimeruumi deklaratsiooni peamine eesmärk?
+answer: Et pakkuda konteinerit funktsioonidele, mida saab otse välja kutsuda ilma objekti instantseerimist nõudmata
+wrong_answers:
+  - Selleks, et määratleda genereeritud keelekohanduste pakettide struktuuri ja impordisõltuvused
+  - UniFFI kaudu Rust raamatukogu kasutavate sihtprogrammimiskeelte määramine
+  - Mäluhaldusstrateegia kehtestamine keeltevaheliste andmete marshallimisoperatsioonide jaoks
+explanation: |
+  UniFFI UDL-i nimeruum on konteineriks iseseisvatele funktsioonidele, mida saab otse, ilma objekte eelnevalt loomata, käivitada. Need nimeruumi funktsioonid tegelevad tavaliselt lihtsate operatsioonidega, mis võtavad parameetritena väärtusi ja tagastavad tulemusi. Teised valikud on valed, sest: pakettide struktuuri ja importimisega tegeleb sidumisprotsess automaatselt, sihtkeeled määratletakse pigem koostamisprotsessi käigus kui UDL-failis ja mäluhaldusega tegeleb UniFFI jooksutamiskiht läbipaistvalt, mitte ei deklareerita neid sõnaselgelt nimeruumides.

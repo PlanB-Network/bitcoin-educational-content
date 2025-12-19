@@ -42,7 +42,7 @@ Den här kursen syftar till att berätta historien om Bitcoin:s skapelse på ett
 **Kortfattad översikt**
 
 
-Bitcoin designades av en individ (eller en grupp) som använde pseudonymen Satoshi Nakamoto. Den 31 oktober 2008 delade han ett white paper som beskrev hans modell via en obskyr e-postlista på Internet. Den 8 januari 2008 implementerade han sitt koncept genom att publicera programvarans källkod och lansera nätverket genom att Mining de första blocken i kedjan. Han var angelägen om att locka till sig ett kritiskt antal användare och marknadsförde sin skapelse via olika kommunikationskanaler.
+Bitcoin utformades av en individ (eller en grupp) som använde pseudonymen Satoshi Nakamoto. Den 31 oktober 2008 delade denne ett vitboksdokument som beskrev hans modell via en relativt okänd e-postbaserad sändlista på internet. Den 8 januari 2009 omsatte han sitt koncept i praktiken genom att publicera programvarans källkod och lansera nätverket genom att bryta de första blocken i kedjan. I syfte att attrahera ett kritiskt antal användare marknadsförde han sin skapelse via olika kommunikationskanaler.
 
 
 Efter en svår start kom systemet äntligen igång i oktober 2009, då kontoenheten - även kallad Bitcoin - fick ett pris. De första handelstjänsterna började dyka upp 2010, med början med Exchange-tjänster som överbryggade till dollarn. Det var också vid den här tiden som Mining med ett mer effektivt grafikkort började implementeras och den första Exchange för en fysisk vara, närmare bestämt en pizza, ägde rum på initiativ av Laszlo Hanyecz.

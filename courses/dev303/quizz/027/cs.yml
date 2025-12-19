@@ -1,0 +1,8 @@
+question: Co umožňuje syntaxe aktualizace struktury při vytváření nových instancí struktury v Rust?
+answer: Vytvoření nové instance zadáním pouze změněných polí a zkopírováním zbývajících polí z existující instance
+wrong_answers:
+  - Úprava stávajících polí struktury na místě bez vytváření nové instance
+  - Automatické nastavení výchozích hodnot generate pro neurčená pole pomocí vlastnosti Výchozí
+  - Sloučení více instancí struktury do jedné kombinované instance
+explanation: |
+  Syntaxe aktualizace struktury v Rust umožňuje vytvořit novou instanci struktury zadáním pouze polí, která chcete změnit, přičemž všechna ostatní pole se automaticky zkopírují z existující instance. To se provádí pomocí syntaxe `..existing_instance`. Ostatní možnosti jsou nesprávné: syntaxe struct update vždy vytváří novou instanci, nikoliv mění existující, neprovádí výchozí hodnoty generate, ale kopíruje z existujících instancí, a pracuje s jednou zdrojovou instancí, nikoliv se sloučením více instancí dohromady.

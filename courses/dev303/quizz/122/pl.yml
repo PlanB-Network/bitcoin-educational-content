@@ -1,0 +1,8 @@
+question: Jakie jest najbardziej krytyczne wyzwanie związane z odzyskiwaniem środków, przed którym stoją użytkownicy, gdy ich fundusze są zarządzane za pośrednictwem opartej na chmurze architektury węzła Lightning firmy Greenlight?
+answer: Użytkownicy potrzebowaliby specjalistycznej wiedzy technicznej, aby uruchomić niezależne węzły Core Lightning i przywrócić stany kanałów bez infrastruktury Greenlight
+wrong_answers:
+  - "Użytkownicy tracą dostęp do swoich kluczy prywatnych, które są przechowywane wyłącznie na serwerach Blockstream"
+  - "Stany kanałów są szyfrowane przy użyciu zastrzeżonych kluczy Greenlight, dzięki czemu odzyskanie środków jest matematycznie niemożliwe"
+  - "Kanały Lightning automatycznie wygasają po 30 dniach bez ciągłych usług serwisowych Greenlight"
+explanation: |
+  Prawidłowa odpowiedź podkreśla prawdziwą złożoność techniczną odzyskiwania funduszy w architekturze Greenlight. Podczas gdy użytkownicy zachowują swoje klucze prywatne, dostęp do funduszy bez Greenlight wymaga uruchomienia węzłów Core Lightning i ręcznego przywracania stanów kanałów - proces wykraczający poza możliwości większości użytkowników. Błędne odpowiedzi są nieprawidłowe, ponieważ: użytkownicy kontrolują swoje klucze prywatne (nie są przechowywane na serwerach), stany kanałów wykorzystują standardowe protokoły Lightning (a nie zastrzeżone szyfrowanie), a kanały Lightning nie mają automatycznych liczników czasu wygaśnięcia powiązanych z dostawcami usług.

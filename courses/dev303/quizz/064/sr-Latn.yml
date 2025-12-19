@@ -1,0 +1,8 @@
+question: Šta čini tipni sistem Rust posebno efikasnim za sprečavanje ranjivosti povezanih sa memorijom u Bitcoin aplikacijama?
+answer: Sistem tipova upravlja modelovanjem poslovne logike i kontrolom vlasništva memorije kroz isti mehanizam.
+wrong_answers:
+  - Kompajler automatski generiše rutine za dodelu memorije koje sprečavaju napade prelivanja bafera.
+  - Statičko tipiziranje zahteva da sve memorijske adrese budu deklarisane u vreme kompajliranja, a ne u vreme izvršavanja.
+  - Jako tipiziranje pretvara sve operacije pokazivača u proveru granica niza tokom izvršavanja
+explanation: |
+  Tip sistema Rust je jedinstven jer služi dvostrukoj svrsi - modelira složenu poslovnu logiku dok istovremeno upravlja sigurnošću memorije kroz vlasništvo, pozajmljivanje i brojanje referenci. Ova integracija znači da isto proveravanje tipova koje osigurava ispravnu logiku programa takođe eliminiše curenje memorije, greške dvostrukog oslobađanja i uslove trke u vreme kompajliranja. Pogrešni odgovori opisuju mehanizme koji ne postoje u Rust: kompajler ne automatski-generate rutine alokacije, memorijske adrese nisu potrebne da budu konstante u vreme kompajliranja, a sigurnost pokazivača dolazi iz pravila vlasništva, a ne iz provere granica u vreme izvršavanja.

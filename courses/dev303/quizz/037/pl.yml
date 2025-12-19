@@ -1,0 +1,8 @@
+question: Jaka jest główna cecha, która sprawia, że zamknięcia są potężne w Rust?
+answer: Ich zdolność do wychwytywania zmiennych z otaczającego ich środowiska
+wrong_answers:
+  - Ich zdolność do działania szybciej niż zwykłe funkcje
+  - Ich zdolność do automatycznej obsługi alokacji pamięci
+  - Ich zdolność do wykonywania kodu w równoległych wątkach
+explanation: |
+  Podstawową cechą, która sprawia, że domknięcia są potężne, jest ich zdolność do "zamykania" ich środowiska, co oznacza, że mogą one uzyskiwać dostęp i używać zmiennych, które istnieją w zakresie, w którym zdefiniowane jest domknięcie. Ta zdolność przechwytywania pozwala domknięciom zachować stan i kontekst z ich środowiska tworzenia, co czyni je znacznie bardziej elastycznymi niż zwykłe funkcje. Chociaż domknięcia mogą być zoptymalizowane pod kątem wydajności i używane w kontekście wątków, są to korzyści drugorzędne - ich podstawowa moc pochodzi z przechwytywania zmiennych środowiskowych.

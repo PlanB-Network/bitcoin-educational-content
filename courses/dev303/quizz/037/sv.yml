@@ -1,0 +1,8 @@
+question: Vilken är den primära egenskapen som gör closures kraftfulla i Rust?
+answer: Deras förmåga att fånga upp variabler från sin omgivande miljö
+wrong_answers:
+  - Deras förmåga att springa snabbare än vanliga funktioner
+  - Deras förmåga att automatiskt hantera minnesallokering
+  - Deras förmåga att exekvera kod i parallella trådar
+explanation: |
+  Den grundläggande egenskapen som gör closures kraftfulla är deras förmåga att "stänga över" sin miljö, vilket innebär att de kan komma åt och använda variabler som finns i det scope där closuren är definierad. Denna förmåga gör det möjligt för closures att bibehålla tillstånd och sammanhang från sin skapande miljö, vilket gör dem mycket mer flexibla än vanliga funktioner. Även om stängningar kan optimeras för prestanda och användas i trådningssammanhang är detta sekundära fördelar - deras kärnkraft kommer från miljövariabelfångst.

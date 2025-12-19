@@ -1,0 +1,8 @@
+question: Was passiert mit Rust-Strukturen mit zugehörigen Methoden, wenn sie durch UniFFIs UDL auf Zielsprachen wie Kotlin oder Swift abgebildet werden?
+answer: Sie werden als Schnittstellen in UDL und generate als Klassen mit Methoden in objektorientierten Zielsprachen dargestellt
+wrong_answers:
+  - Sie werden in einfache Wörterbücher ohne Methodenfunktionalität in den Zielsprachen umgewandelt
+  - Sie erfordern die manuelle Implementierung jeder Methode in der Zielsprache unter Verwendung von Callback-Schnittstellen
+  - Sie werden automatisch in Namespace-Funktionen umgewandelt, die die Struktur als ersten Parameter annehmen
+explanation: |
+  UniFFI bewahrt objektorientierte Entwurfsmuster, indem Rust-Strukturen mit zugehörigen Methoden auf Schnittstellen in UDL abgebildet werden, die dann generate als native Klassen mit Methoden in Zielsprachen darstellen. Dadurch wird die strukturelle Integrität und das Verhalten der ursprünglichen Rust-Implementierung beibehalten, während Entwicklern in Sprachen wie Kotlin und Swift vertraute objektorientierte Schnittstellen zur Verfügung gestellt werden. Die anderen Optionen sind nicht korrekt, da UniFFI speziell die Methodenfunktionalität beibehält, anstatt sie in Dictionaries zu verflachen, keine manuelle Implementierung erfordert, da Bindungen automatisch generiert werden, und keine Strukturmethoden in Namespace-Funktionen konvertiert.

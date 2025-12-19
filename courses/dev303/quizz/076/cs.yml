@@ -1,0 +1,8 @@
+question: Proč je použití funkce expect() na pevně zadané hodnoty, které se zdají být ověřeny kompilátorem, v produkčním kódu potenciálně problematické?
+answer: Hard-coded hodnoty se mohou v průběhu času vyvíjet prostřednictvím refaktoringu, čímž se dříve platné hodnoty změní na chybné za běhu
+wrong_answers:
+  - Překladač nemůže ověřit platnost pevně zadaných hodnot při kompilaci, takže funkce expect() je nespolehlivá
+  - Hard-coded hodnoty spotřebovávají více paměti než dynamické hodnoty, což způsobuje problémy s výkonem funkce expect()
+  - Metoda expect() přidává zbytečnou režii ve srovnání s metodou unwrap() při práci se známými platnými hodnotami
+explanation: |
+  Správná odpověď podtrhuje zásadní poznatek z této kapitoly: i zdánlivě bezpečné pevně zakódované hodnoty se mohou časem stát nebezpečnými. Příklad ukazuje, jak může být platná IP adresa přetypována na konstantu a později změněna na 'localhost', čímž se poruší původní předpoklad. Špatné odpovědi jsou nesprávné, protože: překladač může ověřit pevně zakódované hodnoty v době kompilace, spotřeba paměti není problémem funkce expect() a funkce expect() nemá ve srovnání s funkcí unwrap() významnou výkonnostní režii.

@@ -31,7 +31,7 @@ Bienvenue dans le cours BTC101 !
 
 Le Bitcoin est une révolution technologique et monétaire, capable de nous faire remettre en question notre rapport à l'argent et à la société. En effet, le bitcoin (appelé BTC) est une monnaie **neutre** et **décentralisée**, c'est-à-dire qu'elle n'est contrôlée par aucune entité ou institution. C'est une innovation qui va au-delà d'une simple "monnaie d'internet" : c'est à la fois un protocole informatique (le Bitcoin) et une unité monétaire (le bitcoin).
 
-Le protocole utilise des technologies sous-jacentes telles que la cryptographie, la communication en réseau et la fameuse "blockchain", tandis que l'unité bitcoin sert de monnaie nécessaire au bon fonctionnement de ce protocole. Dans la vie de tous les jours, les Salvadoriens et les bitcoiners du monde entier utilisent la monnaie bitcoin pour acheter et vendre des biens et des services, comptant sur cette technologie pour améliorer leur vie.
+Le protocole utilise des technologies sous-jacentes telles que la cryptographie, la communication en réseau et la fameuse "[blockchain](https://planb.academy/resources/glossary/blockchain)", tandis que l'unité bitcoin sert de monnaie nécessaire au bon fonctionnement de ce protocole. Dans la vie de tous les jours, les Salvadoriens et les bitcoiners du monde entier utilisent la monnaie bitcoin pour acheter et vendre des biens et des services, comptant sur cette technologie pour améliorer leur vie.
 
 **Un programme d'études complet mais accessible :**
 
@@ -380,7 +380,7 @@ La création de nouveaux bitcoins est le résultat du processus de minage. En br
 
 ![image](assets/fr/022.webp)
 
-Une fois cette tâche accomplie avec succès, les mineurs sont récompensés par l'émission de nouveaux bitcoins toutes les dix minutes. Cette récompense est programmée pour être divisée par deux tous les 210 000 blocs, soit environ tous les quatre ans (un événement connu sous le nom de "halving"), ce qui donne à la courbe d'émission monétaire une forme d'escalier. En raison de ce mécanisme, on peut prédire mathématiquement que la création de nouveaux bitcoins cessera vers l'an 2140, lorsque le nombre total atteindra sa limite de 21 millions.
+Une fois cette tâche accomplie avec succès, les mineurs sont récompensés par l'émission de nouveaux bitcoins toutes les dix minutes. Cette récompense est programmée pour être divisée par deux tous les 210 000 blocs, soit environ tous les quatre ans (un événement connu sous le nom de "[halving](https://planb.academy/resources/glossary/halving)"), ce qui donne à la courbe d'émission monétaire une forme d'escalier. En raison de ce mécanisme, on peut prédire mathématiquement que la création de nouveaux bitcoins cessera vers l'an 2140, lorsque le nombre total atteindra sa limite de 21 millions.
 
 
 | Halving Number | La hauteur du bloc | la récompense en BTC après l'Halving  | l'estimation des BTC en circulation l'Halving |
@@ -869,7 +869,7 @@ Suite à cette victoire, les nœuds ont activé une mise à jour appelée SegWit
 
 :::video id=47c5a6f2-5b27-48b7-8656-a322cade9acc:::
 
-**Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs. Ils utilisent de l'électricité grâce à des machines ASIC pour résoudre la preuve de travail de Bitcoin.**
+**Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs. Ils utilisent de l'électricité grâce à des machines [ASIC](https://planb.academy/resources/glossary/asic) pour résoudre la preuve de travail de Bitcoin.**
 
 ![image](assets/fr/054.webp)
 
@@ -926,7 +926,7 @@ Pour stabiliser leur modèle économique, qui repose sur les récompenses qu'ils
 
 ### Pourquoi se donner la peine de faire tout cela ?
 
-En résumé, l'innovation de Bitcoin est de proposer une solution au problème de la double dépense grâce à l'utilisation d'une blockchain basée sur la preuve de travail (Proof of Work) avec une difficulté flottante. Dans le monde numérique, la notion de propriété diffère de celle du monde physique. En effet, dans le monde numérique, tout peut être copié et collé, ce qui crée le risque d'utiliser plusieurs fois des actifs numériques de valeur. Des intermédiaires de confiance, tels que les banques, ont été créés pour résoudre ce problème technologique et s'assurer que lorsqu'un actif est transféré, il n'appartient plus à l'expéditeur.
+En résumé, l'innovation de Bitcoin est de proposer une solution au problème de la double dépense grâce à l'utilisation d'une blockchain basée sur la preuve de travail ([proof of work](https://planb.academy/resources/glossary/proof-of-work)) avec une difficulté flottante. Dans le monde numérique, la notion de propriété diffère de celle du monde physique. En effet, dans le monde numérique, tout peut être copié et collé, ce qui crée le risque d'utiliser plusieurs fois des actifs numériques de valeur. Des intermédiaires de confiance, tels que les banques, ont été créés pour résoudre ce problème technologique et s'assurer que lorsqu'un actif est transféré, il n'appartient plus à l'expéditeur.
 
 Mais comment y parvenir sans intermédiaire de confiance ? Ce problème est bien décrit par le paradoxe des généraux byzantins, un problème de coordination de l'information dans un système où les différents acteurs ne sont pas dignes de confiance. Dans le problème des généraux byzantins, un groupe de généraux doit coordonner l'attaque d'une ville, mais certains d'entre eux peuvent être des traîtres qui tentent de perturber le plan. Le défi consiste pour les généraux loyaux à parvenir à un consensus sur l'attaque ou la retraite, malgré les messages potentiellement trompeurs des traîtres.
 
@@ -1084,7 +1084,9 @@ L'économie du Bitcoin existe et se développe dans certaines régions du monde,
 
 Néanmoins, au Salvador et dans d'autres parties du monde, de plus en plus d'individus, d'entreprises et d'organisations acceptent le bitcoin comme moyen de paiement pour leurs produits ou services.
 
-![image](assets/fr/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Source : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Par ailleurs, un projet open-source et collaboratif a été lancé, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), pour faciliter l'utilisation de Bitcoin dans les transactions quotidiennes. Cette plateforme recense tous les commerçants qui acceptent le bitcoin, ainsi que les différentes communautés Bitcoin à travers le monde, vous pouvez donc visiter leur site pour découvrir l'écosystème Bitcoin autour de vous. Ainsi, malgré les difficultés et les hésitations, il existe des initiatives comme BTCMap qui contribuent à rendre l'économie Bitcoin plus accessible et plus pratique pour tous.
 

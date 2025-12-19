@@ -154,7 +154,7 @@ Das häufigste Skript erfordert eine Signatur mit dem privaten Schlüssel, der d
 
 ### UTXOs: Unverbrauchte Transaktionsausgänge
 
-Bei Bitcoin tauschen wir tatsächlich nicht direkt Bitcoins, sondern **UTXOs** (_Unspent Transaction Outputs_), was "unverbrauchte Transaktionsausgänge" bedeutet.
+Bei Bitcoin tauschen wir tatsächlich nicht direkt Bitcoins, sondern **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), was "unverbrauchte Transaktionsausgänge" bedeutet.
 
 Ein UTXO ist ein Stück Bitcoin, das jeden beliebigen Wert haben kann, zum Beispiel **2.000 Bitcoins**, **8 Bitcoins** oder sogar **8.000 Sats**. Jeder UTXO wird durch ein Skript gesperrt, und um ihn auszugeben, muss man die Bedingungen des Skripts erfüllen, oft eine Signatur mit dem privaten Schlüssel, der einer bestimmten Empfangsadresse entspricht.
 
@@ -592,7 +592,7 @@ In diesem Kapitel haben wir das Routing von Zahlungen im Lightning-Netzwerk erku
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-In diesem Kapitel werden wir entdecken, wie Lightning Zahlungen durch Zwischenknoten ermöglicht, ohne dass diesen vertraut werden muss, dank **HTLC** (_Hashed Time-Locked Contracts_). Diese Smart Contracts stellen sicher, dass jeder Zwischenknoten die Gelder aus seinem Kanal nur dann erhält, wenn er die Zahlung an den endgültigen Empfänger weiterleitet, andernfalls wird die Zahlung nicht validiert.
+In diesem Kapitel werden wir entdecken, wie Lightning Zahlungen durch Zwischenknoten ermöglicht, ohne dass diesen vertraut werden muss, dank **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Diese Smart Contracts stellen sicher, dass jeder Zwischenknoten die Gelder aus seinem Kanal nur dann erhält, wenn er die Zahlung an den endgültigen Empfänger weiterleitet, andernfalls wird die Zahlung nicht validiert.
 
 Das Problem, das sich für das Routing von Zahlungen ergibt, ist daher das notwendige Vertrauen in Zwischenknoten und unter den Zwischenknoten selbst. Um dies zu veranschaulichen, lassen Sie uns unser vereinfachtes Lightning-Netzwerk-Beispiel mit 3 Knoten und 2 Kanälen erneut besuchen:
 

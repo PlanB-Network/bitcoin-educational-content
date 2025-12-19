@@ -1,0 +1,8 @@
+question: Qual é o principal compromisso arquitetónico que o SDK Breez faz para conseguir uma integração simplificada do Lightning, mantendo os princípios de não-custódia?
+answer: Os utilizadores sacrificam alguma privacidade, uma vez que a Greenlight pode observar os estados dos canais e as informações de encaminhamento, mas mantêm o controlo total sobre as chaves privadas e o acesso aos fundos
+wrong_answers:
+  - Os utilizadores devem confiar à Greenlight a custódia parcial dos fundos em troca de uma gestão automatizada dos canais e de uma menor complexidade operacional
+  - Os programadores perdem o acesso a funcionalidades avançadas do Lightning, como o encaminhamento personalizado e as políticas de canal, em troca de uma integração simplificada do API e de suporte multiplataforma
+  - As aplicações sacrificam as capacidades de processamento de pagamentos em tempo real em troca de uma maior segurança através da validação baseada na nuvem de todas as transacções Lightning
+explanation: |
+  A arquitetura do Breez SDK representa um compromisso cuidadosamente considerado entre privacidade e utilização. Embora o Greenlight possa observar os estados dos canais e as informações de encaminhamento (reduzindo a privacidade), os utilizadores mantêm o controlo total sobre as suas chaves privadas, que nunca saem dos seus dispositivos. Isto garante que os fundos não podem ser acedidos sem autorização do utilizador, preservando o princípio fundamental da não custódia. As respostas erradas sugerem incorretamente a custódia de fundos, limitações de funcionalidades ou atrasos de processamento - nenhum dos quais são compromissos reais na conceção do SDK.

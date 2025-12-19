@@ -1,0 +1,8 @@
+question: RefCell'i çok iş parçacıklı bir ortamda kullanırken, birincil güvenlik endişesi nedir?
+answer: RefCell iş parçacığı güvenli değildir ve birden fazla iş parçacığından erişilirse tanımlanmamış davranışa neden olur
+wrong_answers:
+  - RefCell, iş parçacıkları arasındaki erişimi otomatik olarak senkronize eder, ancak önemli bir performans ek yükü vardır
+  - RefCell, birden fazla iş parçacığı aynı anda erişmeye çalıştığında çalışma zamanında panikleyecektir
+  - Birden fazla iş parçacığı aynı anda aynı veriyi ödünç almaya çalıştığında RefCell kilitlenecektir
+explanation: |
+  RefCell yalnızca tek iş parçacıklı senaryolar için tasarlanmıştır ve herhangi bir iş parçacığı senkronizasyon mekanizmasına sahip değildir. Mutex gibi iş parçacığı güvenli alternatiflerin aksine, RefCell atomik işlemler veya kilitleme gerçekleştirmez, bu da birden fazla iş parçacığından eşzamanlı erişimin tanımlanmamış davranışlara ve potansiyel veri yarışlarına neden olmasını sağlar. RefCell'in gerçekleştirdiği çalışma zamanı ödünç alma kontrolleri iş parçacığı güvenli değildir ve eşzamanlı erişimle bozulabilir, bu da Rust'ın normalde önlediği bellek güvenliği ihlallerine yol açar.

@@ -1,0 +1,8 @@
+question: Ni kangahe Rust isohora verisiyo nshasha idahinduka hakurikijwe urutonde rwabo rwo gusohora?
+answer: Nk'indwi zitandatu zose
+wrong_answers:
+  - Nk'inyuma y'amezi atatu .
+  - Nk'inyuma y'indwi zibiri
+  - Nk'amezi ane yose
+explanation: |
+  Rust ikurikira urutonde rwo gusohoka rushobora gutegekanirwa n’ibindi bishasha bihoraho bizosohoka hafi buri ndwi zitandatu. Uwo murongo wo gusohora kenshi utuma ibintu bishasha n’ivyo gutera imbere bishika ku bakoresha ubudasiba mu gihe biguma bishikamye. Ibindi bihe ntivyiza - amezi atatu n’amezi ane vyoba ari bitevye cane kuruta urugero nyarwo rwa Rust, mu gihe indwi zibiri zoba zinyaruka cane ku bijanye n’ugusohoka gukomeye bisaba gusuzumwa neza.

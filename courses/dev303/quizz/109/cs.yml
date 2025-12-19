@@ -1,0 +1,8 @@
+question: Jaká je základní architektonická výhoda přístupu Breez SDK ke správě uzlů Lightning ve srovnání s tradičními samostatně hostovanými implementacemi Lightning?
+answer: Uživatelé spravují své vlastní uzly Lightning na infrastruktuře Greenlight a zároveň si ponechávají výhradní kontrolu nad soukromými klíči, které nikdy neopustí jejich zařízení
+wrong_answers:
+  - Uživatelé sdílejí sdružené kanály blesků spravované společností Breez, přičemž si zachovávají individuální úschovu finančních prostředků prostřednictvím dohod o více podpisech
+  - "Uživatelé lokálně provozují lehké uzly Lightning, které se synchronizují s hlavními uzly Breez, což zvyšuje spolehlivost a snižuje nároky na šířku pásma."
+  - Uživatelé delegují správu kanálů na poskytovatele služeb Lightning a zároveň si udržují dohled nad nimi prostřednictvím hardwarových bezpečnostních modulů integrovaných do mobilních zařízení
+explanation: |
+  Architektura Breez SDK poskytuje každému uživateli vlastní vyhrazený uzel Lightning běžící na cloudové infrastruktuře Greenlight, ale co je zásadní, soukromé klíče nikdy neopustí zařízení uživatele. To znamená, že Greenlight nemůže provádět žádné operace Lightning, aniž by aplikace uživatele aktivně podepisovala transakce. Tím se liší od sdílených kanálových poolů, místních lehkých uzlů nebo hardwarových bezpečnostních modulů - jde o jedinečný hybridní přístup, který eliminuje provozní složitost a zároveň zachovává skutečné principy self-custody.

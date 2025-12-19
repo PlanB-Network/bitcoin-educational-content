@@ -1,0 +1,8 @@
+question: Cosa permette a LDK di supportare diversi meccanismi di trasporto come socket TCP, WebSocket e connessioni seriali USB per la comunicazione Lightning Network?
+answer: Il sistema di gestione dei peer opera in modo indipendente dal meccanismo di trasporto sottostante, mentre gestisce la crittografia del protocollo di rumore
+wrong_answers:
+  - Il channel manager si coordina con più adattatori di rete attraverso un livello di astrazione socket unificato
+  - LDK implementa driver specifici per ogni tipo di trasporto all'interno del suo modulo di rete principale
+  - Il sistema di eventi rileva automaticamente i metodi di trasporto disponibili e configura i gestori di connessione appropriati
+explanation: |
+  Il sistema di gestione dei peer di LDK è specificamente progettato per gestire la comunicazione del protocollo Lightning (compresa la crittografia dei rumori e le strutture dei messaggi) indipendentemente dal livello di trasporto vero e proprio. Questa separazione architettonica consente agli sviluppatori di implementare qualsiasi canale di comunicazione bidirezionale, mentre il peer manager si concentra esclusivamente sulla conformità al protocollo Lightning. Le altre opzioni suggeriscono erroneamente che LDK fornisce implementazioni di trasporto integrate o il rilevamento automatico, mentre in realtà la forza di LDK sta nell'astrarre completamente da meccanismi di trasporto specifici.

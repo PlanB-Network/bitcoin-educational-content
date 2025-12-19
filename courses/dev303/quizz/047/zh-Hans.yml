@@ -1,0 +1,8 @@
+question: Rust 通常执行借阅规则的方式与 RefCell 执行借阅规则的方式之间的主要区别是什么？
+answer: Rust 通常在编译时执行借用规则，而 RefCell 则在运行时执行这些规则
+wrong_answers:
+  - Rust 通常允许多个可变引用，而 RefCell 则将其限制为一个
+  - 为了安全起见，Rust 通常使用引用计数，而 RefCell 则使用静态分析
+  - Rust 通常需要明确的内存管理，而 RefCell 则会自动进行处理
+explanation: |
+  RefCell 的关键创新之处在于将借用规则的执行从编译时转移到运行时。编译器会在编译时检查正常的 Rust 引用，以确保安全性，但 RefCell 会在程序运行时执行相同的检查。这使得 RefCell 可以在编译器的静态分析过于保守的情况下提供内部可变性，但同时也会在违反借用规则时带来潜在的运行时恐慌。其他选项错误地描述了 Rust 的基本安全机制或 RefCell 的实际行为。

@@ -28,7 +28,7 @@ BTC304 kursusel vaatame, miks kogukonna loomine on oluline, uurime tööriistu t
 
 
 
-Tere tulemast BTC302!
+Tere tulemast BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Selle asemel **otsige abi bitcoini kasutajatelt, kes on juba käinud sama tunnel
 
 
 
-## BTC302, mis saab edasi
+## BTC 304, mis saab edasi
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Selles BTC302 kursuses oleme lähemalt käsitlenud, kuidas luua kogukond või kohtumine ning kuidas käivitada erinevaid projekte.
+Selles BTC 304 kursuses oleme lähemalt käsitlenud, kuidas luua kogukond või kohtumine ning kuidas käivitada erinevaid projekte.
 
 
 Kui teie kogukond on valmis astuma järgmise sammu, **võite luua ametliku ühingu**.

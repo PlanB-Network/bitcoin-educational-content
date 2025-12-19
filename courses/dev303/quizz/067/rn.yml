@@ -1,0 +1,8 @@
+question: Ni gute ukuntu Rust ishobora gukorana n’ibindi bikoresho bishobora gutuma habaho ugutegura ibikorwa vya Bitcoin mu bidukikije bitandukanye?
+answer: Bituma amakode yunze ubumwe akora ku bikoresho vy’amatelefone ngendanwa, ku bikoresho vyo ku rubuga biciye kuri WebAssembly, no ku mirongo y’ibikorwa ya kera .
+wrong_answers:
+  - Ikora ubwayo guhindura igiciro c'amahera y'amahera y'amahera mu masoko atandukanye y'akarere n'amahera
+  - Itanga amasezerano y'uguhuza y'uruzitiro yubatswemwo akora mu buryo bumwe mu nyubakwa zose z'uruja n'uruza
+  - Itanga ubufatanye bw'akavukire n'ibikoresho vy'amasakoshi n'ibice vy'umutekano ku rubuga rwose rushigikiwe
+explanation: |
+  Ubushobozi bwa Rust bwo gukoresha imbuga zitandukanye butuma abahinguzi bashobora kwandika porogarama za Bitcoin zishobora gukoreshwa mu bidukikije bitandukanye harimwo n’ivyo gukoresha telefone ngendanwa (Android/iOS), ibikoresho vyo ku rubuga (biciye mu gukoranya WebAssembly), n’ibikoresho vya kera vyo gukoresha ku biro. Ubwo bushobozi bugaragazwa n’imigambi nka Mutiny Wallet, ikoresha ubufasha bwa Rust bwa WebAssembly kugira ngo ikore ama wallet ya Lightning akora ataco akora mu bikoresho vy’ubushakashatsi. Inyishu zitari zo zidondora ibiranga bitajanye n’uguhuza kw’ibikoresho bitandukanye - guhindura amafaranga ni ikintu co ku rugero rw’ibikorwa, amategeko ya blockchain ni ivyerekeye urusobe rw’urubuga, kandi ugushiramwo ibikoresho bisaba APIs zidasanzwe aho gushigikira rusangi ibikoresho bitandukanye.

@@ -1,0 +1,8 @@
+question: Welcher Trait steht für Closures, die mehrfach aufgerufen werden können, ohne dass sich ihre erfasste Umgebung verändert?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn ist die restriktivste Closure-Eigenschaft, die Closures darstellt, die mehrfach aufgerufen werden können, ohne dass sich ihre erfasste Umgebung ändert. Diese Closures erfassen nur durch unveränderliche Referenzen und können sicher gleichzeitig aufgerufen werden. FnOnce steht für Closures, die nur einmal aufgerufen werden können, während FnMut für Closures steht, die mehrfach aufgerufen werden können, aber ihre erfasste Umgebung verändern können. FnCapture ist keine echte Rust-Eigenschaft.

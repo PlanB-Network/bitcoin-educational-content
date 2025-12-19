@@ -5,5 +5,5 @@ wrong_answers:
   - İşlem ücretleri, işlem sırasında yakılarak mevcut bitcoin arzını kademeli olarak azaltır
   - "Bitcoin protokolü, enflasyonu önlemek için uzun süre hareket etmeyen madeni paraları otomatik olarak kilitler"
 explanation: |
-  Bu bölümde, teorik olarak maksimum 20,999,817 BTC olsa da, insan hatası ve kayıplar nedeniyle gerçek kullanılabilir arzın çok daha düşük olduğu açıklanmaktadır. Kayıp özel anahtarlar bitcoinleri kalıcı olarak erişilemez hale getirmekte, cüzdanlar çalınmakta ya da unutulmakta ve coinler bazen geçersiz adreslere gönderilmektedir. Bu faktörler, Satoshi'ün kayıp coinlerin diğer herkesin coinlerini daha değerli hale getirdiğini belirttiği gibi, kalan sahiplere fayda sağlayan kalıcı arz azalması yaratır.
+  Teorik maksimum 20 999 999.9769 BTC olsa da, insan hataları ve kayıplar nedeniyle gerçek anlamda kullanılabilir arz çok daha düşüktür. Kaybolan özel anahtarlar bitcoinleri kalıcı olarak erişilemez hâle getirir, cüzdanlar çalınır veya unutulur ve bazen coinler geçersiz adreslere gönderilir. Bu faktörler, Satoshi'nin de belirttiği gibi, kalan sahiplerin lehine olan kalıcı bir arz azalmasına yol açar: kayıp coinler diğer coinlerin değerini artırır.
 reviewed: false

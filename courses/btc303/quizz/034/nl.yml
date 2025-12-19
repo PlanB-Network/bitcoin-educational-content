@@ -5,5 +5,5 @@ wrong_answers:
   - Transactiekosten worden verbrand tijdens de verwerking, waardoor de beschikbare bitcoinvoorraad geleidelijk afneemt
   - "Het Bitcoin protocol vergrendelt automatisch munten die langere tijd niet bewogen hebben om inflatie te voorkomen."
 explanation: |
-  Het hoofdstuk legt uit dat hoewel het theoretische maximum ongeveer 20.999.817 BTC is, de werkelijke bruikbare voorraad veel lager is door menselijke fouten en verlies. Verloren privésleutels maken bitcoins permanent ontoegankelijk, wallets worden gestolen of vergeten en munten worden soms naar ongeldige adressen gestuurd. Deze factoren zorgen voor een permanente vermindering van de voorraad die in het voordeel is van de overblijvende houders, aangezien Satoshi opmerkte dat verloren munten de munten van alle anderen meer waard maken.
+  Hoewel het theoretische maximum 20 999 999.9769 BTC bedraagt, is het werkelijk bruikbare aanbod veel lager door menselijke fouten en verliezen. Verloren privésleutels maken bitcoins definitief ontoegankelijk, wallets worden gestolen of vergeten, en munten worden soms naar ongeldige adressen gestuurd. Deze factoren leiden tot een permanente vermindering van het aanbod, wat ten goede komt aan de resterende houders, zoals Satoshi opmerkte: verloren munten verhogen de waarde van de munten van anderen.
 reviewed: false

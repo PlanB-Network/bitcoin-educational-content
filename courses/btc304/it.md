@@ -28,7 +28,7 @@ In BTC304, esamineremo perché la costruzione della comunità è importante, esp
 
 
 
-Benvenuti a BTC302!
+Benvenuti a BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Da soli, potete esplorare rapidamente uno dei tanti tunnel della tana del conigl
 
 
 
-## BTC302, Cosa c'è dopo
+## BTC 304, Cosa c'è dopo
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-In questo corso BTC302 abbiamo approfondito come creare una comunità o un meet-up e come lanciare una serie di progetti.
+In questo corso BTC 304 abbiamo approfondito come creare una comunità o un meet-up e come lanciare una serie di progetti.
 
 
 Quando la vostra comunità è pronta a fare il passo successivo, **potete creare un'associazione formale**.

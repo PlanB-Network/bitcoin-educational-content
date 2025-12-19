@@ -1,0 +1,8 @@
+question: Quel mot-clé est nécessaire pour rendre une variable modifiable après sa déclaration initiale en Rust ?
+answer: mut
+wrong_answers:
+  - var
+  - mutable
+  - changer
+explanation: |
+  En Rust, le mot-clé "mut" est nécessaire pour déclarer une variable comme mutable, ce qui permet de modifier sa valeur après son affectation initiale. Par défaut, toutes les variables en Rust sont immuables pour des raisons de sécurité. La syntaxe est la suivante : "let mut x = 5" pour une variable mutable et "let x = 5" pour une variable immuable. Les autres options telles que 'var', 'mutable' et 'change' ne sont pas des mots-clés Rust valables à cette fin.

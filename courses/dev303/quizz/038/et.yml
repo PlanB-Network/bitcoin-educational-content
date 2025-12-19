@@ -1,0 +1,8 @@
+question: Millist süntaksit kasutatakse parameetrite defineerimiseks Rust sulgudes?
+answer: Torumärgid (|) parameetrite ümbritsemiseks
+wrong_answers:
+  - Sulgud () parameetrite sulgemiseks
+  - Nurksulgud [] parameetrite lisamiseks
+  - Kõverad sulgudes {}, et sulgeda parameetrid
+explanation: |
+  Rust sulgemised kasutavad parameetrite defineerimiseks piibumärke (|), mis eristab neid tavalistest funktsioonidest, mis kasutavad sulgusid. Näiteks parameetriteta sulgemine kirjutatakse kujul ||, samas kui parameetritega sulgemine näeb välja nagu |x, y|. See unikaalne süntaks muudab sulgemised kergesti äratuntavaks ja eristab neid funktsioonide definitsioonidest. Sulgureid kasutatakse tavaliste funktsioonide puhul, samas kui nurksulgureid ja kumerad sulgurid täidavad Rust süntaksis muid eesmärke.

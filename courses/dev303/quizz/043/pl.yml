@@ -1,0 +1,8 @@
+question: Jakiego słowa kluczowego używa się, aby wymusić na zamknięciu przejęcie na własność przechwyconych zmiennych zamiast ich pożyczania?
+answer: ruch
+wrong_answers:
+  - własny
+  - przechwytywanie
+  - brać
+explanation: |
+  Słowo kluczowe `move` jest używane przed parametrami zamknięcia, aby zmusić zamknięcie do przejęcia na własność wszystkich przechwyconych zmiennych z jego środowiska. Jest to niezbędne, gdy zamknięcie może przekroczyć zakres, w którym zmienne zostały pierwotnie zdefiniowane, np. podczas odradzania wątków. Bez `move`, zamknięcia zazwyczaj przechwytują przez najmniej restrykcyjną metodę (niezmienne odniesienie, następnie zmienne odniesienie, a następnie własność), ale `move` zastępuje to automatyczne zachowanie, aby zapewnić transfer własności. Pozostałe opcje (`own`, `capture`, `take`) nie są poprawnymi słowami kluczowymi Rust dla tego celu.

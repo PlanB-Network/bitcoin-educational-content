@@ -1,0 +1,8 @@
+question: Je, Rust hutumia utaratibu gani kusafisha kiotomatiki vigezo na rasilimali zake vinapopotea?
+answer: Utaratibu wa kushuka unaoita chaguo za kukokotoa kwenye vigeu
+wrong_answers:
+  - Kikusanya takataka ambacho huchanganua mara kwa mara kumbukumbu isiyotumika
+  - Ugawaji wa kumbukumbu kwa mikono kupitia simu za kazi za bure () wazi
+  - Hesabu ya marejeleo inayofuatilia ni viashiria vingapi vinavyorejelea kila thamani
+explanation: |
+  Rust hutumia utaratibu wa kushuka ili kusafisha rasilimali kiotomatiki wakati vigeu vinapotoka kwenye wigo. Mfumo huu huita kitendakazi cha kushuka kwenye kila kigeu kinapotoka kwenye wigo, kuashiria kumbukumbu kama inapatikana kwa matumizi tena na kufanya shughuli zozote muhimu za kusafisha kama vile kufunga vipini vya faili. Mbinu hii, iliyokopwa kutoka kwa muundo wa RAII wa C++, inahakikisha usimamizi wa rasilimali kiotomatiki bila kuhitaji ukusanyaji wa takataka, usimamizi wa kumbukumbu kwa mkono, au mifumo ya kuhesabu marejeleo inayotumiwa na lugha zingine.

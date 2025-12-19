@@ -1,0 +1,9 @@
+question: Kulingana na ukosoaji wa kimsingi wa Satoshi Nakamoto, tatizo kuu la mifumo ya kawaida ya sarafu ya fiat ni lipi?
+answer: Zinahitaji uaminifu mkubwa katika taasisi kuu ambazo kihistoria zimekiuka uaminifu huo kupitia kushushwa hadhi ya sarafu
+wrong_answers:
+  - Hawana miundombinu ya kutosha ya kiteknolojia kushughulikia miamala ya kisasa ya kidijitali kwa ufanisi na usalama
+  - Husababisha tete nyingi sana katika viwango vya ubadilishaji wa fedha na kufanya biashara ya kimataifa isitabirike na kuwa ghali
+  - Wanatoza ada nyingi za miamala za generate ambazo hufanya malipo madogo madogo yasiwezekane kiuchumi kwa watumiaji wa kila siku.
+explanation: |
+  Satoshi Nakamoto alisema waziwazi kwamba 'tatizo kuu la sarafu ya kawaida ni uaminifu wote unaohitajika ili kuifanya ifanye kazi' na kwamba 'historia ya sarafu za fiat imejaa uvunjaji wa uaminifu huo.'
+  Ukosoaji wake ulilenga utegemezi wa kimsingi kwa benki kuu kutoishusha hadhi sarafu, ambayo wameshindwa mara kwa mara kuisimamia. Chaguzi zingine, ingawa zinaweza kuwa na wasiwasi kuhusu mifumo ya jadi, zinakosa pingamizi kuu la kifalsafa la Nakamoto kwa mifumo ya fedha inayotegemea uaminifu na motisha yake ya kuunda njia mbadala isiyoaminika.

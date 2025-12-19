@@ -134,7 +134,7 @@ Picha hapa chini inaonyesha wazi maendeleo ya harakati kupitia uvumbuzi wake mwi
 
 ![image](assets/sw/005.webp)
 
-Ilikuwa katika mazingira haya yenye rutuba ambapo kampuni ya ajabu ya Satoshi Nakamoto ilichapisha karatasi nyeupe ya Bitcoin mwaka wa 2008. Katika waraka huu, alichanganya mawazo kadhaa kutoka kwa vuguvugu la Cypherpunk, kama vile Proof of Work na mihuri ya nyakati ya kriptografia, ili kuunda sarafu ya dijiti iliyogatuliwa na inayostahimili udhibiti.
+Ilikuwa katika mazingira haya yenye rutuba ambapo kampuni ya ajabu ya Satoshi Nakamoto ilichapisha karatasi nyeupe ya Bitcoin mwaka wa 2008. Katika waraka huu, alichanganya mawazo kadhaa kutoka kwa vuguvugu la Cypherpunk, kama vile [proof of work](https://planb.academy/resources/glossary/proof-of-work) na mihuri ya nyakati ya kriptografia, ili kuunda sarafu ya dijiti iliyogatuliwa na inayostahimili udhibiti.
 
 Walakini, Bitcoin ilikuwa zaidi ya hiyo tu: iliwakilisha kufikiwa kwa maadili ya Cypherpunk. Zaidi ya teknolojia yake, iliashiria mapinduzi dhidi ya mifumo ya jadi ya kifedha na kutoa njia mbadala kulingana na uwazi, ugatuaji na uhuru wa mtu binafsi.
 
@@ -704,7 +704,7 @@ Kwa kuwa sasa tumeshughulikia misingi ya wallets za Bitcoin na mbinu bora zaidi 
 
 ![image](assets/sw/038.webp)
 
-Tarehe 31 Oktoba 2008 inaashiria kuzaliwa kwa teknolojia mpya ya kifedha ambayo ni Bitcoin. Siku hii, Satoshi Nakamoto ambaye jina lake halijulikani aliwasilisha ubunifu wake kwa ulimwengu kupitia barua pepe iliyotumwa kwa orodha ya cypherpunks, jumuiya ya wapenzi wa cryptography iliyojitolea kukuza faragha kwenye mtandao. Barua pepe hii ilikuwa na hati inayoitwa "White Paper", ambayo iliwasilisha jinsi Bitcoin ilivyofanya kazi.
+Tarehe 31 Oktoba 2008 inaashiria kuzaliwa kwa teknolojia mpya ya kifedha ambayo ni Bitcoin. Siku hii, Satoshi Nakamoto ambaye jina lake halijulikani aliwasilisha ubunifu wake kwa ulimwengu kupitia barua pepe iliyotumwa kwa orodha ya cypherpunks, jumuiya ya wapenzi wa cryptography iliyojitolea kukuza faragha kwenye mtandao. Barua pepe hii ilikuwa na hati inayoitwa "[White Paper](https://planb.academy/resources/glossary/white-paper)", ambayo iliwasilisha jinsi Bitcoin ilivyofanya kazi.
 
 Mpango huu haukuwa na shauku ya kuzalisha mara moja, labda kwa sababu ya kushindwa hapo awali katika majaribio ya kuunda mifumo ya fedha za kidigitali. Hata hivyo, Karatasi hii Nyeupe (Whitepaper) hatimaye ikawa rejeleo la watumiaji wa Bitcoin na imekuwa mada ya mijadala mingi katika mfumo wa ikolojia wa Bitcoin kwa miaka mingi.
 
@@ -778,13 +778,13 @@ Katika hatua hii, muamala umeundwa na pochi ya Bob itashiriki na mtandao wa Bitc
 
 Kwa wakati huu, ingawa muamala huu unajulikana kwa kila mtu (kupitia chombo kinachoitwa Mempool), hauwezi kuchukuliwa kuwa umethibitishwa hadi uingizwe kwenye kizuizi na mchimbaji, ambaye ndiye pekee anayeidhinisha miamala kwa kuwajumuisha kwenye Blockchain.
 
-Kwa kweli, wachimbaji  wana jukumu la kukusanya miamala halali na ambayo haijathibitishwa ili kuzikusanya kwenye bloku. Kwa kifupi, lazima watatue fumbo la siri katika mchakato unaoitwa "Proof of Work" ili bloku yao iwe inachofuata katika Bitcoin Blockchain.
+Kwa kweli, wachimbaji  wana jukumu la kukusanya miamala halali na ambayo haijathibitishwa ili kuzikusanya kwenye bloku. Kwa kifupi, lazima watatue fumbo la siri katika mchakato unaoitwa "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" ili bloku yao iwe inachofuata katika Bitcoin Blockchain.
 
 ![image](assets/sw/047.webp)
 
 ### Hatua ya 3: Muamala unachimbwa kwenye bloku na Miner.
 
-Mfumo wa Proof of Work unahitaji kupata "Hash" halali kwa bloku inachohusika: ifikirie kama alama ya kidole ya kipekee inayohusishwa na bloku, inachojumuisha herufi 256. Uhalali wa hii Hash inategemea kiwango cha ugumu wa mtandao wa Bitcoin (tutaingia katika maelezo zaidi baadaye). Kwa sasa, zingatia kwamba Miner imepata bloku halali, na kwamba shughuli ya Bob kwa Alice imejumuishwa ndani yake. Kisha, bloku ipya halali inaongezwa kwa Blockchain, Ledger ya kawaida kwa watumiaji wote wa Bitcoin.
+Mfumo wa [proof of work](https://planb.academy/resources/glossary/proof-of-work) unahitaji kupata "Hash" halali kwa bloku inachohusika: ifikirie kama alama ya kidole ya kipekee inayohusishwa na bloku, inachojumuisha herufi 256. Uhalali wa hii Hash inategemea kiwango cha ugumu wa mtandao wa Bitcoin (tutaingia katika maelezo zaidi baadaye). Kwa sasa, zingatia kwamba Miner imepata bloku halali, na kwamba shughuli ya Bob kwa Alice imejumuishwa ndani yake. Kisha, bloku ipya halali inaongezwa kwa Blockchain, Ledger ya kawaida kwa watumiaji wote wa Bitcoin.
 
 ![image](assets/sw/048.webp)
 
@@ -862,13 +862,13 @@ Kufuatia ushindi huu, nodi zilianzisha sasisho linaloitwa SegWit, na kutengeneza
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Wachimbaji hulinda mtandao na kuongeza miamala kwenye bloku. Wanatumia umeme kupitia mashine za ASIC kutatua Bitcoin Proof of Work.**
+**Wachimbaji hulinda mtandao na kuongeza miamala kwenye bloku. Wanatumia umeme kupitia mashine za [ASIC](https://planb.academy/resources/glossary/asic) kutatua Bitcoin [proof of work](https://planb.academy/resources/glossary/proof-of-work).**
 
 ![image](assets/sw/054.webp)
 
-### Maelezo ya Proof of Work
+### Maelezo ya [proof of work](https://planb.academy/resources/glossary/proof-of-work)
 
-"Proof of Work" (POW) ni utaratibu wa makubaliano ya usalama wa itifaki ya Bitcoin. Ni msingi wa kila kitu na ina jukumu muhimu katika nadharia ya mchezo ya Bitcoin.
+"[proof of work](https://planb.academy/resources/glossary/proof-of-work)" (POW) ni utaratibu wa makubaliano ya usalama wa itifaki ya Bitcoin. Ni msingi wa kila kitu na ina jukumu muhimu katika nadharia ya mchezo ya Bitcoin.
 
 Ili kueleza jinsi inavyofanya kazi, fikiria bahati nasibu ya ulimwengu wote ambapo kila mtu anaweza kushiriki. Lengo ni kutafuta nambari mahususi inayomwezesha mshindi kusaini bloku halali, na kupata zawadi katika Bitcoin. Nambari hii ni rahisi sana kuthibitisha kwa kutumia chaguo la kukokotoa la SHA-256 Hash, lakini ni vigumu kuipata: washiriki (wachimba madini) watajaribu mabilioni kwa mabilioni ya uwezekano, kama vile 1, 52, 2648, 26874615, 15344854131318631, na kadhalika hadi wagundue haki hiyo.
 
@@ -920,7 +920,7 @@ Ili kuleta utulivu wa mtindo wao wa biashara, ambao unategemea malipo wanayopoke
 
 ### Kwa nini ujisumbue kufanya haya yote?
 
-Kwa kifupi, uvumbuzi wa Bitcoin ni kupendekeza suluhisho la tatizo la matumizi mara mbili kupitia matumizi ya Blockchain kulingana na Proof of Work yenye shida ya kuelea. Katika ulimwengu wa kidigitali, dhana ya umilikishaji inatofautiana na ile ya ulimwengu wa kimwili. Kwa kweli, katika ulimwengu wa kisasa, kila kitu kinaweza kunakiliwa na kubandikwa, ambayo inajenga hatari ya kutumia mali ya kisasa ya thamani mara nyingi zaidi. Wapatanishi wanaoaminika, kama vile benki, wameundwa ili kutatua tatizo hili la kiteknolojia na kuhakikisha kuwa mali yanapohamishwa, si mali ya mtumaji tena.
+Kwa kifupi, uvumbuzi wa Bitcoin ni kupendekeza suluhisho la tatizo la matumizi mara mbili kupitia matumizi ya Blockchain kulingana na [proof of work](https://planb.academy/resources/glossary/proof-of-work) yenye shida ya kuelea. Katika ulimwengu wa kidigitali, dhana ya umilikishaji inatofautiana na ile ya ulimwengu wa kimwili. Kwa kweli, katika ulimwengu wa kisasa, kila kitu kinaweza kunakiliwa na kubandikwa, ambayo inajenga hatari ya kutumia mali ya kisasa ya thamani mara nyingi zaidi. Wapatanishi wanaoaminika, kama vile benki, wameundwa ili kutatua tatizo hili la kiteknolojia na kuhakikisha kuwa mali yanapohamishwa, si mali ya mtumaji tena.
 
 Lakini hii inawezaje kufanywa bila mpatanishi anayeaminika? Tatizo hili linaelezewa vyema kupitia kitendawili cha Majenerali wa Byzantine, tatizo la kuratibu taarifa katika mfumo ambapo wahusika mbalimbali hawawezi kuaminiwa. Katika Shida za Majenerali wa Byzantine, kikundi cha majenerali lazima kiratibu shambulio la jiji, lakini wengine wanaweza kuwa wasaliti wanaojaribu kuvuruga mpango huo. Changamoto ni kwa majenerali waaminifu kufikia mwafaka kuhusu kushambulia au kurudi nyuma, licha ya kupokea jumbe zinazoweza kupotosha kutoka kwa wasaliti.
 
@@ -1071,7 +1071,9 @@ Uchumi wa Bitcoin upo na unakua katika maeneo fulani ya dunia, kama vile El Salv
 
 Hata hivyo, katika El Salvador na sehemu nyingine za dunia, kuna idadi inayoongezeka ya watu binafsi, biashara, na mashirika yanayokubali Bitcoin kama njia ya malipo kwa bidhaa au huduma zao.
 
-![image](assets/sw/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Chanzo : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Zaidi ya hayo, mradi wa programu huria na shirikishi umezinduliwa, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), ili kuwezesha matumizi ya Bitcoin katika shughuli za kila siku. Mfumo huu unaorodhesha wafanyabiashara wote wanaokubali Bitcoin, pamoja na jumuiya tofauti za Bitcoin duniani kote, ili uweze kutembelea tovuti yao ili kugundua mfumo wa ikolojia wa Bitcoin unaokuzunguka. Kwa hivyo, licha ya ugumu na kusitasita, kuna mipango kama BTCMap inayochangia kufanya uchumi wa Bitcoin kufikiwa zaidi na rahisi kwa kila mtu.
 

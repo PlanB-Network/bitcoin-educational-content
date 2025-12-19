@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada sebuah variabel ketika kepemilikan dipindahkan ke variabel lain dalam Rust?
+answer: Variabel asli menjadi tidak valid dan tidak dapat digunakan lagi
+wrong_answers:
+  - Variabel asli menjadi referensi hanya-baca ke data
+  - Kedua variabel berbagi kepemilikan dan dapat memodifikasi data secara independen
+  - Variabel asli secara otomatis dikonversi ke referensi yang dapat diubah
+explanation: |
+  Ketika kepemilikan dipindahkan di Rust, variabel asli menjadi tidak valid dan tidak dapat diakses lagi. Ini adalah fitur keamanan mendasar yang mencegah beberapa variabel mengelola memori heap yang sama, yang dapat menyebabkan bug yang tidak dapat digunakan lagi atau kesalahan yang tidak dapat digunakan lagi. Operasi pemindahan memindahkan kontrol penuh ke variabel baru, dan kompiler akan menghasilkan kesalahan jika Anda mencoba menggunakan variabel asli setelah pemindahan. Hal ini berbeda dengan penyalinan (dimana kedua variabel tetap valid) dan peminjaman (dimana pemilik asli tetap memiliki hak milik).

@@ -1,0 +1,8 @@
+question: Tofauti kuu kati ya String na string halisi (&str) katika Rust ni ipi?
+answer: String hudhibiti kumbukumbu ya rundo iliyotengwa kwa njia ya mnyumbuliko na inaweza kurekebishwa, huku &str ikiwa ni mwonekano wa data ya kamba isiyobadilika
+wrong_answers:
+  - String huhifadhiwa kwenye rundo huku &str ikihifadhiwa kwenye rundo kwa utendaji bora zaidi
+  - String inaweza kuwa na herufi za ASCII pekee huku &str ikiwa na herufi zozote za Unicode
+  - String hutekeleza kiotomatiki kukopa huku &str ikihitaji uhamisho dhahiri wa umiliki
+explanation: |
+  String na &str zinawakilisha mbinu tofauti za utunzaji wa mfuatano katika Rust. String ni aina ya mfuatano iliyotengwa kwa wingi, inayoweza kukuzwa ambayo inamiliki data yake na inaweza kubadilishwa wakati wa utekelezaji. Kwa upande mwingine, &str (kipande cha mfuatano) ni marejeleo yasiyobadilika ya data ya mfuatano, mara nyingi huelekeza kwenye maandishi halisi ya mfuatano yaliyopachikwa kwenye programu ya binary au vipande vya data ya Mfuatano iliyopo. Tofauti hii inaruhusu Rust kuboresha kwa ajili ya unyumbufu (String kwa maudhui yanayobadilika) na ufanisi (&str kwa ufikiaji wa kusoma pekee bila mgao).

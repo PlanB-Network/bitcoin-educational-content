@@ -4,11 +4,11 @@ description: Apprendre à utiliser l’explorateur 1ML pour comprendre et analys
 ---
 ![cover](assets/cover.webp)
 
-## **Introduction**
+## Introduction
 
 Le Lightning Network est une solution de paiement rapide et peu coûteuse construite au‑dessus de Bitcoin, permettant des transactions instantanées et sécurisées. Observer ce réseau est essentiel pour comprendre son fonctionnement, sa topologie et l’état des nœuds qui le composent. Un explorateur Lightning, comme 1ML, sert à visualiser les données publiques du réseau, notamment les nœuds actifs, les canaux ouverts et la capacité disponible, offrant ainsi une vue d’ensemble précieuse pour les utilisateurs, développeurs et opérateurs de nœuds.
 
-## **Accéder à 1ML et comprendre la page d’accueil**
+## Accéder à 1ML et comprendre la page d’accueil
 
 Pour accéder à 1ML, il suffit d’ouvrir votre navigateur web et de taper l’adresse [https://1ml.com](https://1ml.com). Vous arrivez alors sur la page d’accueil, qui sert de tableau de bord global pour le Lightning Network.
 
@@ -18,7 +18,7 @@ Cette page affiche plusieurs statistiques importantes en haut de l’écran, don
 
 - Le **nombre total de nœuds actifs** sur le réseau, c’est-à-dire les ordinateurs qui participent à l’envoi et la réception des paiements Lightning.
 - Le **nombre de canaux ouverts**, qui correspondent aux connexions entre ces nœuds permettant les transferts de fonds.
-- La **capacité totale du réseau**, exprimée en bitcoin (BTC), qui indique la somme maximale transférable instantanément à travers tous les canaux ouverts.
+- La **capacité totale du réseau**, exprimée en bitcoin (BTC), qui indique la somme des capacités de tous les canaux publics.
 
 Ces chiffres sont mis à jour régulièrement pour refléter l’état actuel du réseau. Ils permettent de se faire une idée de sa taille, de sa croissance et de sa robustesse.
 
@@ -66,13 +66,13 @@ Sur cette page, plusieurs informations importantes sont affichées :
 
 Ces données vous aident à comprendre l’importance et la fiabilité d’un nœud dans le Lightning Network. Par exemple, un nœud avec un grand nombre de canaux, une forte capacité et un uptime élevé est souvent un acteur majeur du réseau.
 
-## **Explorer les canaux lightning**
+## Explorer les canaux lightning
 
-### **Qu’est-ce qu’un canal Lightning ?**
+### Qu’est-ce qu’un canal Lightning ?
 
 Un canal Lightning est une connexion directe entre deux nœuds du réseau. Il permet à ces deux nœuds d’échanger des paiements instantanés et à faible coût sans passer par la chaîne principale Bitcoin pour chaque transaction. Les canaux sont la base qui rend le Lightning Network rapide et scalable.
 
-### **Lire les informations d’un canal sur 1ML**
+### Lire les informations d’un canal sur 1ML
 
 Sur 1ML, chaque canal dispose d’une page ou d’une fiche descriptive contenant plusieurs données importantes :
 
@@ -96,13 +96,13 @@ Les principales données visibles sont les suivantes :
 
 ![capture](assets/fr/16.webp)
 
-### **Limites de visibilité des canaux**
+### Limites de visibilité des canaux
 
 Il est important de comprendre que 1ML ne montre qu’une **partie** du Lightning Network. L’explorateur affiche uniquement les **canaux publics**, c’est-à-dire ceux qui ont été annoncés sur le réseau. Les canaux privés, souvent utilisés pour des raisons de confidentialité ou de stratégie, ne sont pas visibles. De plus, 1ML n’indique ni la répartition exacte des fonds de chaque côté d’un canal, ni les paiements effectués, ni la liquidité réellement disponible à un instant précis. Les informations affichées permettent donc d’analyser la **structure générale du réseau**, mais pas son activité financière réelle ni son état de liquidité détaillé.
 
-## **Explorer le Lightning Network par localisation**
+## Explorer le Lightning Network par localisation
 
-### **Nœuds par pays et par région**
+### Nœuds par pays et par région
 
 1ML permet d’explorer le Lightning Network selon une **répartition géographique**. Depuis la page d’accueil ou via les sections dédiées, il est possible d’afficher les nœuds par pays ou par région. Cette fonctionnalité repose sur les informations de localisation déclarées par les opérateurs de nœuds.
 Au niveau de la barre de navigation, on y voit le lien **Location**. Sur la page sont regroupés les nœuds par continents, Pays, et villes.
@@ -127,49 +127,49 @@ Il faut cependant garder à l’esprit que la géolocalisation des nœuds Lightn
 - **Mobilité des utilisateurs** : Un opérateur de nœud peut changer d’emplacement, déplacer son infrastructure, ou ouvrir plusieurs nœuds dans des régions différentes, ce qui complexifie la lecture des données.
 - **Invisibilité des nœuds privés** : Certains nœuds ne publient pas leur adresse IP ou utilisent des méthodes pour masquer leur localisation, ce qui rend impossible leur géolocalisation.
 
-## **Cas d’usage concrets de 1ML**
+## Cas d’usage concrets de 1ML
 
-### **Comprendre la topologie du réseau**
+### Comprendre la topologie du réseau
 
 1ML permet de visualiser la **structure générale du Lightning Network**. En observant les connexions entre les nœuds, le nombre de canaux et la capacité globale, il est possible de comprendre comment le réseau est organisé, quels nœuds jouent un rôle central et comment les flux de paiement peuvent théoriquement circuler.
 
 Cette compréhension est essentielle pour appréhender le fonctionnement du Lightning Network au-delà d’une simple utilisation de portefeuille.
 
-### **Identifier des nœuds importants**
+### Identifier des nœuds importants
 
 Grâce aux classements proposés par 1ML (nœuds les plus connectés, plus grande capacité, ancienneté), il est possible d’identifier les nœuds qui occupent une place importante dans le réseau. Ces nœuds servent souvent de points de passage majeurs pour les paiements Lightning.
 
 ![capture](assets/fr/18.webp)
 
-### **Vérifier la visibilité publique d’un nœud**
+### Vérifier la visibilité publique d’un nœud
 
 Pour un opérateur de nœud, 1ML permet de vérifier si son nœud est bien **annoncé publiquement** sur le Lightning Network. Si un nœud apparaît sur 1ML, cela signifie qu’il est visible et accessible aux autres nœuds pour l’ouverture de canaux publics.
 Cela peut être utile pour diagnostiquer des problèmes de visibilité ou de connectivité.
 
-### **Observer l’évolution du Lightning Network dans le temps**
+### Observer l’évolution du Lightning Network dans le temps
 
 En comparant les statistiques globales sur différentes périodes, 1ML permet d’observer l’évolution du Lightning Network : augmentation ou diminution du nombre de nœuds, variation de la capacité totale ou changements dans la répartition géographique.
 Ces observations offrent une perspective intéressante sur la croissance, la maturité et les tendances du Lightning Network.
 
-## **Bonnes pratiques et limites de 1ML**
+## Bonnes pratiques et limites de 1ML
 
-### **Données publiques ≠ réalité complète**
+### Données publiques ≠ réalité complète
 
 1ML repose uniquement sur les **données publiques annoncées** sur le Lightning Network. Cela signifie que l’outil ne montre qu’une partie de la réalité. De nombreux canaux peuvent être privés, certains nœuds peuvent ne pas être annoncés, et la liquidité réelle disponible dans les canaux n’est pas visible. Il est donc essentiel d’utiliser 1ML comme un outil d’analyse globale, et non comme une représentation exhaustive du réseau.
 
-### **Vie privée et Lightning**
+### Vie privée et Lightning
 
 Le Lightning Network a été conçu avec une forte attention portée à la **confidentialité des paiements**. Les transactions individuelles ne sont pas visibles sur 1ML, et les soldes exacts des canaux ne sont pas publics. Cette limitation n’est pas un défaut de l’explorateur, mais une caractéristique fondamentale du Lightning Network, visant à protéger la vie privée des utilisateurs.
 
-### **Ne pas tirer de conclusions hâtives**
+### Ne pas tirer de conclusions hâtives
 
 Un nœud avec une grande capacité ou de nombreux canaux n’est pas nécessairement plus « fiable » ou « performant » dans tous les cas. De même, une baisse temporaire de la capacité globale du réseau ne signifie pas forcément un problème structurel. Les chiffres doivent toujours être interprétés avec recul et replacés dans leur contexte.
 
-### **Complémentarité avec d’autres outils**
+### Complémentarité avec d’autres outils
 
 1ML est un excellent point de départ pour explorer le Lightning Network, mais il gagne à être utilisé en complément d’autres outils : portefeuilles Lightning, interfaces de gestion de nœuds ou autres explorateurs. Cette approche permet d’obtenir une vision plus complète et plus nuancée du réseau.
 
-## **L’option de connexion sur 1ML (fonctionnalité avancée)**
+## L’option de connexion sur 1ML (fonctionnalité avancée)
 
 1ML propose une option de **connexion / création de compte**, visible sur le site, mais celle-ci n’est **pas nécessaire** pour consulter les données du Lightning Network. Toutes les fonctionnalités abordées jusqu’ici dans ce tutoriel sont accessibles **sans compte**.
 
@@ -179,7 +179,9 @@ Il est important de souligner que 1ML n’est **pas un service custodial**. La c
 
 Dans le cadre d’un apprentissage ou d’une découverte du Lightning Network, cette option peut donc être considérée comme **facultative** et réservée à un usage plus avancé.
 
-## **Conclusion**
+## Conclusion
 
 1ML est un outil précieux pour observer et comprendre le Lightning Network à partir de ses données publiques. Il permet d’explorer la structure du réseau, d’analyser les nœuds et les canaux, et de suivre l’évolution globale de l’adoption du Lightning Network dans le temps. Sans nécessiter de compte ni de manipulation de fonds, 1ML offre une porte d’entrée accessible à toute personne souhaitant approfondir sa compréhension du fonctionnement de Lightning.
-Si vous voulez aller plus loin avec le Lightning Network, je vous recommande le cours complet d'introduction au Lightning Network: https://planb.academy/en/courses/lightning-network-theory-34bd43ef-6683-4a5c-b239-7cb1e40a4aeb.
+Si vous voulez aller plus loin avec le Lightning Network, je vous recommande le cours complet d'introduction au Lightning Network: 
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

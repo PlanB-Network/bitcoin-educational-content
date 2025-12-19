@@ -60,7 +60,7 @@ Signal е наличен за всички платформи. Можете да
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms);
+- [Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms);
 - [App Store](https://apps.apple.com/us/app/signal-private-messenger/id874139669);
 
 

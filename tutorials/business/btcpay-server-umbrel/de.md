@@ -371,5 +371,5 @@ Egal, ob Sie ein Unternehmen betreiben, ein junges Projekt oder einfach nur expe
 
 
 - [Forum BTCPay Server](https://chat.btcpayserver.org)
-- [Forum Umbrella] (https://community.getumbrel.com)
+- [Forum Umbrella](https://community.getumbrel.com)
 - [Reddit r/BTCPayServer](https://reddit.com/r/BTCPayServer)

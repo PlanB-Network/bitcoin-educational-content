@@ -41,7 +41,7 @@ Den andre delen fokuserer på anvendelsen av de teoretiske konseptene i del 1. V
 Den siste delen ledes av andre foredragsholdere som presenterer konkrete RGB-baserte bruksområder, for å belyse reelle brukstilfeller.
 
 ---
-Dette kurset sprang opprinnelig ut av en to ukers bootcamp for avansert utvikling i Viareggio i Toscana, arrangert av [Fulgur'Ventures] (https://fulgur.ventures/). Den første uken, som fokuserte på Rust og SDK-er, finner du i dette andre kurset:
+Dette kurset sprang opprinnelig ut av en to ukers bootcamp for avansert utvikling i Viareggio i Toscana, arrangert av [Fulgur'Ventures](https://fulgur.ventures/). Den første uken, som fokuserte på Rust og SDK-er, finner du i dette andre kurset:
 
 https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
@@ -66,7 +66,7 @@ Den skriftlige versjonen av dette kurset ble utarbeidet ved hjelp av to hovedres
 
 
 - Videoer av Maxim Orlovsky, Hunter Trujilo og Frederico Tengas seminar på Lightning Bootcamp ;
-- RGB-dokumentasjonen, hvis produksjon ble sponset av [Bitfinex] (https://www.bitfinex.com/).
+- RGB-dokumentasjonen, hvis produksjon ble sponset av [Bitfinex](https://www.bitfinex.com/).
 
 Klar til å dykke ned i den komplekse og fascinerende verdenen av RGB? La oss gå!
 
@@ -622,7 +622,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Det siste alternativet er bruk av **Taproot** (introdusert med BIP341) med *Tapret*-ordningen. *Tapret* er en mer kompleks form for deterministisk forpliktelse, som gir forbedringer når det gjelder fotavtrykk på blokkjeden og konfidensialitet for kontraktsoperasjoner. Hovedideen er å skjule forpliktelsen i `Script Path Spend`-delen av en [taproot-transaksjon] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+Det siste alternativet er bruk av **Taproot** (introdusert med BIP341) med *Tapret*-ordningen. *Tapret* er en mer kompleks form for deterministisk forpliktelse, som gir forbedringer når det gjelder fotavtrykk på blokkjeden og konfidensialitet for kontraktsoperasjoner. Hovedideen er å skjule forpliktelsen i `Script Path Spend`-delen av en [taproot-transaksjon](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -660,7 +660,7 @@ I dette første tilfellet tar vi utgangspunkt i en taproot-utgangsnøkkel (*Tapr
 
 - p: den interne offentlige nøkkelen for _Key Path Spend_.
 - `G`: det genererende punktet til den elliptiske kurven [secp256k1](https://en.bitcoin.it/wiki/Secp256k1).
-- t = tH_TWEAK(P)` er tweak-faktoren, beregnet via en _tagged hash_ (f.eks. `SHA-256(SHA-256(TapTweak) || P)`), i henhold til [BIP86] (https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Dette beviser at det ikke finnes noe skjult skript.
+- t = tH_TWEAK(P)` er tweak-faktoren, beregnet via en _tagged hash_ (f.eks. `SHA-256(SHA-256(TapTweak) || P)`), i henhold til [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation). Dette beviser at det ikke finnes noe skjult skript.
 
 For å inkludere en **Tapret**-forpliktelse må du legge til et **Script Path Spend** med et **unikt script**, på følgende måte:
 
@@ -817,7 +817,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 hvor :
 
 
-- `mpc_tag` er en tag: `urn:ubideco:mpc:commitment#2024-01-31`, valgt i henhold til [RGB tagging conventions] (https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
+- `mpc_tag` er en tag: `urn:ubideco:mpc:commitment#2024-01-31`, valgt i henhold til [RGB tagging conventions](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `depth` (1 byte) angir dybden på *MPC-treet* ;
 - cofactor` (16 bits, i Little Endian) er en parameter som brukes for å sikre at posisjonene som tildeles hver kontrakt i treet, er unike;
 - `mpc::Root` er roten til *MPC Tree*, beregnet i henhold til prosessen som beskrives i neste avsnitt.
@@ -845,7 +845,7 @@ hvor `kofaktor` er et heltall som øker sannsynligheten for å få forskjellige 
 - Vi prøver forskjellige "kofaktorer" (opp til "w/2", eller maksimalt 500 av ytelseshensyn);
 - Hvis vi ikke klarer å plassere alle kontraktene uten kollisjon, inkrementerer vi `d` og begynner på nytt.
 
-Målet er å unngå trær som er for høye, samtidig som risikoen for kollisjon holdes på et minimum. Merk at kollisjonsfenomenet følger en tilfeldig fordelingslogikk, knyttet til [Anniversary Paradox] (https://en.wikipedia.org/wiki/Birthday_problem).
+Målet er å unngå trær som er for høye, samtidig som risikoen for kollisjon holdes på et minimum. Merk at kollisjonsfenomenet følger en tilfeldig fordelingslogikk, knyttet til [Anniversary Paradox](https://en.wikipedia.org/wiki/Birthday_problem).
 
 #### Bebodde blader
 
@@ -1785,7 +1785,7 @@ Disse mekanismene definerer nøyaktig hvordan _forpliktelsen_ er kodet i utdatae
 
 En DAG (eller *Acyclic Guided Graph*) er en syklusfri graf, noe som muliggjør topologisk planlegging. Blokkjeder, som _shards_ av RGB-kontrakter, kan representeres av DAG-er.
 
-For ytterligere informasjon: [Directed Acyclic Graph] (https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+For ytterligere informasjon: [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
 #### Gravering
 
@@ -1813,7 +1813,7 @@ Grensesnittimplementering er settet med deklarasjoner som knytter et **grensesni
 
 #### Faktura
 
-En faktura har form av en URL kodet i [base58] (https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), som inneholder dataene som er nødvendige for å opprette en **State Transition** (av betaleren). Med andre ord er det en faktura som gjør det mulig for motparten (*betaleren*) å opprette den tilsvarende overgangen for å overføre eiendelen eller oppdatere kontraktens tilstand.
+En faktura har form av en URL kodet i [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), som inneholder dataene som er nødvendige for å opprette en **State Transition** (av betaleren). Med andre ord er det en faktura som gjør det mulig for motparten (*betaleren*) å opprette den tilsvarende overgangen for å overføre eiendelen eller oppdatere kontraktens tilstand.
 
 #### Lightning Network
 
@@ -1895,7 +1895,7 @@ Statusovergang er en operasjon som endrer statusen til en RGB-kontrakt til en ny
 
 #### Taproot
 
-Refererer til Bitcoins Segwit v1-transaksjonsformat, introdusert av [BIP341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) og [BIP342] (https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot forbedrer konfidensialiteten og fleksibiliteten til skript, særlig ved å gjøre transaksjoner mer kompakte og vanskeligere å skille fra hverandre.
+Refererer til Bitcoins Segwit v1-transaksjonsformat, introdusert av [BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) og [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki). Taproot forbedrer konfidensialiteten og fleksibiliteten til skript, særlig ved å gjøre transaksjoner mer kompakte og vanskeligere å skille fra hverandre.
 
 #### Terminal Consignment - Sluttpunkt for sending
 
@@ -3391,7 +3391,7 @@ Med **RGB20** definerer vi et fungibelt token på Bitcoin. Utstederen velger en 
 
 ### Bitmask-løsningen: en lommebok for RGB
 
-For å utnytte RGBs muligheter i praksis har **DIBA**-prosjektet utviklet en lommebok kalt [Bitmask] (https://bitmask.app/). Tanken er å tilby et Taproot-basert verktøy som ikke er depotbasert, og som er tilgjengelig som en webapplikasjon eller nettleserutvidelse. Bitmask håndterer både RGB20- og RGB21-aktiva og integrerer ulike sikkerhetsmekanismer:
+For å utnytte RGBs muligheter i praksis har **DIBA**-prosjektet utviklet en lommebok kalt [Bitmask](https://bitmask.app/). Tanken er å tilby et Taproot-basert verktøy som ikke er depotbasert, og som er tilgjengelig som en webapplikasjon eller nettleserutvidelse. Bitmask håndterer både RGB20- og RGB21-aktiva og integrerer ulike sikkerhetsmekanismer:
 
 
 - Kjernekoden er skrevet i Rust, og deretter kompilert i WebAssembly for å kjøre i et JavaScript-miljø (React);
@@ -3438,7 +3438,7 @@ Siden rundt 2022 har Bitfinex RGB-teamet konsentrert seg om å utvikle teknologi
 
 - Deltakelse i kildekode- og protokollspesifikasjoner, inkludert skriving av forbedringsforslag, feilretting osv;
 - Verktøy for utviklere som forenkler integreringen av RGB i applikasjonene deres;
-- Utforming av en mobil lommebok med navnet [Iris] (https://iriswallet.com/) for å eksperimentere og illustrere beste praksis for bruk av RGB ;
+- Utforming av en mobil lommebok med navnet [Iris](https://iriswallet.com/) for å eksperimentere og illustrere beste praksis for bruk av RGB ;
 - Opprettelse av en tilpasset Lightning-node som kan håndtere kanaler med RGB-ressurser;
 - Støtte andre team som bygger løsninger på RGB, for å oppmuntre til mangfold og et sterkt økosystem.
 
@@ -3532,8 +3532,8 @@ Denne tilnærmingen er i stor grad eksperimentell og fortsetter å utvikle seg: 
 For de som ønsker å lære mer eller bidra, finnes det flere ressurser tilgjengelig, blant annet :
 
 
-- [GitHub RGB Tools repositories] (https://github.com/RGB-Tools);
-- [Et informasjonsnettsted dedikert til Iris Wallet] (https://iriswallet.com/) for å teste lommeboken på Android.
+- [GitHub RGB Tools repositories](https://github.com/RGB-Tools);
+- [Et informasjonsnettsted dedikert til Iris Wallet](https://iriswallet.com/) for å teste lommeboken på Android.
 
 I neste kapittel skal vi se nærmere på hvordan du starter en RGB Lightning-node.
 
@@ -3547,7 +3547,7 @@ I dette siste kapittelet tar Frederico Tenga deg steg for steg gjennom oppsettet
 
 Denne videoen fungerer som en veiledning, på samme måte som i et tidligere kapittel, men denne gangen fokuserer vi spesielt på Lightning!
 
-Hovedressursen for denne videoen er Github-arkivet [RGB Lightning Node] (https://github.com/RGB-Tools/rgb-lightning-node), som gjør det enkelt for deg å starte denne konfigurasjonen i Regtest.
+Hovedressursen for denne videoen er Github-arkivet [RGB Lightning Node](https://github.com/RGB-Tools/rgb-lightning-node), som gjør det enkelt for deg å starte denne konfigurasjonen i Regtest.
 
 ### Utplassering av en RGB-kompatibel Lightning-node
 

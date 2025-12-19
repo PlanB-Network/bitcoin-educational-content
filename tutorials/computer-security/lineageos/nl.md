@@ -149,8 +149,8 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-- Android Flash-tool**: Gebruik de officiële tool van Google [flash.android.com] (https://flash.android.com) om je Pixel-apparaat eenvoudig te herstellen naar stock-Android vanuit je webbrowser (Chrome/Edge vereist)
-- Alternatief**: Fabrieksafbeeldingen handmatig van [developers.google.com/android/images] (https://developers.google.com/android/images)
+- Android Flash-tool**: Gebruik de officiële tool van Google [flash.android.com](https://flash.android.com) om je Pixel-apparaat eenvoudig te herstellen naar stock-Android vanuit je webbrowser (Chrome/Edge vereist)
+- Alternatief**: Fabrieksafbeeldingen handmatig van [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -176,7 +176,7 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-**ADB- en Fastboot-tools:** Volg de [officiële LineageOS-gids] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) om de Android SDK-platformtools te installeren. Controleer de installatie met `adb version` en `fastboot --version`.
+**ADB- en Fastboot-tools:** Volg de [officiële LineageOS-gids](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) om de Android SDK-platformtools te installeren. Controleer de installatie met `adb version` en `fastboot --version`.
 
 
 
@@ -722,7 +722,7 @@ LineageOS biedt een volwassen alternatief om de controle over je Android-smartph
 
 
 
-- [Officiële website van LineageOS] (https://lineageos.org)
+- [Officiële website van LineageOS](https://lineageos.org)
 - [LineageOS Wiki](https://wiki.lineageos.org) - Installatiegidsen per model
 - [LineageOS voor microG](https://lineage.microg.org) - Versie met geïntegreerde microG
 

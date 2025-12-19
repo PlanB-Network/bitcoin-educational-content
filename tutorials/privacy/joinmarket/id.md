@@ -38,8 +38,8 @@ Anda dapat mengikuti episode ini di tautan langsung berikut ini:
 - [Spotify](https://open.spotify.com/episode/1UaeQxpNq9capLE3KwArbo)
 - [Google podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw/episode/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAAQEw)
 - [Amazon music](https://music.amazon.it/podcasts/b1b27a88-c1c9-48de-a301-20f31d29c676/episodes/54dec992-5b03-463a-bb98-f653b72ccb63/il-priorato-del-Bitcoin-joinmarket-dalla-teoria-alla-pratica---turtlecute)
-- [Anchor] (https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (di sini Anda dapat mendengarkannya langsung dari browser).
-- [Antenna pod](https://antennapod.org/) adalah pengelola podcast gratis dan sumber terbuka yang tidak memerlukan registrasi. Untuk menemukan episode, unduh aplikasinya, tambahkan podcast saya secara manual dengan menempelkan [tautan ini] (https://Anchor.fm/s/bd5d5b20/podcast/rss) di bagian _feed rss_, lalu cari episode yang didedikasikan untuk JoinMarket.
+- [Anchor](https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (di sini Anda dapat mendengarkannya langsung dari browser).
+- [Antenna pod](https://antennapod.org/) adalah pengelola podcast gratis dan sumber terbuka yang tidak memerlukan registrasi. Untuk menemukan episode, unduh aplikasinya, tambahkan podcast saya secara manual dengan menempelkan [tautan ini](https://Anchor.fm/s/bd5d5b20/podcast/rss) di bagian _feed rss_, lalu cari episode yang didedikasikan untuk JoinMarket.
 
 
 
@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-jika terjadi kesalahan, kemungkinan besar kami telah salah mengatur 4 bidang RPC yang ditentukan di atas. Dalam hal ini, mungkin akan membantu jika Anda mengikuti [panduan ini] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) yang terdapat pada dokumentasi asli JoinMarket.
+jika terjadi kesalahan, kemungkinan besar kami telah salah mengatur 4 bidang RPC yang ditentukan di atas. Dalam hal ini, mungkin akan membantu jika Anda mengikuti [panduan ini](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) yang terdapat pada dokumentasi asli JoinMarket.
 
 
 
@@ -491,4 +491,4 @@ Selamat bercengkerama dengan kura-kura!🐢 💚
 
 
 
-[Di sini] (https://btcpay.priorato.org/api/v1/invoices?storeId=2B1STLH5REvhHZBRQuyJNieRTexpeuJ4Usjn4ziEfEfd&currency=EUR) Anda dapat mendukung Turtlecute
+[Di sini](https://btcpay.priorato.org/api/v1/invoices?storeId=2B1STLH5REvhHZBRQuyJNieRTexpeuJ4Usjn4ziEfEfd&currency=EUR) Anda dapat mendukung Turtlecute

@@ -500,7 +500,7 @@ Obwohl die Anwendung eine anfängliche Investition in die Infrastruktur und das 
 
 - [Specter Desktop offizielle Website](https://specter.solutions/desktop/)
 - [GitHub-Quellcode](https://github.com/cryptoadvance/specter-desktop)
-- [Vollständige Dokumentation] (https://docs.specter.solutions/)
+- [Vollständige Dokumentation](https://docs.specter.solutions/)
 
 
 
@@ -509,6 +509,6 @@ Obwohl die Anwendung eine anfängliche Investition in die Infrastruktur und das 
 
 
 
-- [Telegram Specter Community Group] (https://t.me/spectersupport)
+- [Telegram Specter Community Group](https://t.me/spectersupport)
 - [Reddit Diskussionsforum](https://reddit.com/r/specterdesktop/)
-- [GitHub Fehlerberichte] (https://github.com/cryptoadvance/specter-desktop/issues)
+- [GitHub Fehlerberichte](https://github.com/cryptoadvance/specter-desktop/issues)

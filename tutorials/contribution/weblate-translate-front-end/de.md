@@ -12,12 +12,12 @@ In diesem Tutorial zeigen wir Ihnen, wie Sie ganz einfach zur Übersetzung der s
 - die Frontend-Daten/statischen Elemente (Seiten, Schaltflächen usw.);
 - die Bildungsinhalte (Tutorials, Kurse, Ressourcen...).
 
-Für die Übersetzung der Bildungsinhalte verwenden wir [künstliche Intelligenz] (https://github.com/Asi0Flammeus/LLM-Translator). Um eventuelle Fehler in diesen Dateien zu korrigieren, bitten wir Korrekturleser um ihre Mitarbeit. Wenn Sie einige Inhalte Korrektur lesen möchten, lesen Sie bitte die folgende Anleitung:
+Für die Übersetzung der Bildungsinhalte verwenden wir [künstliche Intelligenz](https://github.com/Asi0Flammeus/LLM-Translator). Um eventuelle Fehler in diesen Dateien zu korrigieren, bitten wir Korrekturleser um ihre Mitarbeit. Wenn Sie einige Inhalte Korrektur lesen möchten, lesen Sie bitte die folgende Anleitung:
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Wenn Sie hingegen an der Übersetzung der statischen Elemente der Website (mit Ausnahme der Bildungsinhalte) interessiert sind, sind Sie bei uns genau richtig! Um das Frontend effektiv zu übersetzen, verwenden wir das Tool Weblate, das sehr einfach zu bedienen ist und den Ansatz zur Übersetzung erleichtert.
 
-Wenn Sie dem Plan ₿ Academy eine völlig neue Sprache hinzufügen möchten, kontaktieren Sie bitte das Team des Plan ₿ Academy über unsere [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder). Wenn Sie kein Telegramm haben, können Sie eine E-Mail an mari@planb.network senden. Stellen Sie sicher, dass Sie eine kleine Präsentation darüber schreiben, wer Sie sind und welche Sprachen Sie sprechen.
+Wenn Sie dem Plan ₿ Academy eine völlig neue Sprache hinzufügen möchten, kontaktieren Sie bitte das Team des Plan ₿ Academy über unsere [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder). Wenn Sie kein Telegramm haben, können Sie eine E-Mail an mari@planb.network senden. Stellen Sie sicher, dass Sie eine kleine Präsentation darüber schreiben, wer Sie sind und welche Sprachen Sie sprechen.
 
 Unsere Teammitglieder werden Ihnen spezifische Anweisungen geben und die entsprechenden "Issues" auf Github öffnen, um Ihre Arbeit zu koordinieren.
 
@@ -29,7 +29,7 @@ Wenn Sie bereit sind, mit der Übersetzung zu beginnen, kehren Sie zu diesem Ler
 ## Registrierung auf der Weblate
 
 
-- Gehen Sie zu [dem selbst gehosteten Weblate von Plan ₿ Academy] (https://weblate.planb.network/):
+- Gehen Sie zu [dem selbst gehosteten Weblate von Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -157,5 +157,5 @@ Wenn Sie bereit sind, mit der Übersetzung zu beginnen, kehren Sie zu diesem Ler
 
 ![weblate](assets/23.webp)
 
-Vielen Dank im Voraus für Ihren Beitrag zur Übersetzung von Plan ₿ Academy! Wenn Sie spezielle Fragen oder Kommentare für uns haben, können Sie uns gerne über die [Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) kontaktieren.
+Vielen Dank im Voraus für Ihren Beitrag zur Übersetzung von Plan ₿ Academy! Wenn Sie spezielle Fragen oder Kommentare für uns haben, können Sie uns gerne über die [Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) kontaktieren.
 

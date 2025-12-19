@@ -1417,7 +1417,7 @@ Sellest hoolimata on isikliku julgeoleku riskid. Peamine oht seisneb selles, et 
 
 ![BTC204](assets/et/089.webp)
 
-Selle riski piiramiseks soovitan teil eelistada sularahatehinguid usaldusväärsete isikutega, näiteks pereliikmete või lähedaste sõpradega. Alternatiivina võiksite kaaluda ka [kohalikel Bitcoini kohtumistel] (https://btcmap.org/communities/map) kauplemist, kui olete paar korda seal osalenud. See võimaldab teil teisi osalejaid paremini tundma õppida ja mitte olla füüsiliselt vahetades üksi. Siiski on oluline tunnistada, et P2P-sularahavahetusega kaasnevad olemuslikult riskid teie isiklikule turvalisusele, mida ei ole olemas, kui ostate reguleeritud platvormi ja pangakonto kaudu.
+Selle riski piiramiseks soovitan teil eelistada sularahatehinguid usaldusväärsete isikutega, näiteks pereliikmete või lähedaste sõpradega. Alternatiivina võiksite kaaluda ka [kohalikel Bitcoini kohtumistel](https://btcmap.org/communities/map) kauplemist, kui olete paar korda seal osalenud. See võimaldab teil teisi osalejaid paremini tundma õppida ja mitte olla füüsiliselt vahetades üksi. Siiski on oluline tunnistada, et P2P-sularahavahetusega kaasnevad olemuslikult riskid teie isiklikule turvalisusele, mida ei ole olemas, kui ostate reguleeritud platvormi ja pangakonto kaudu.
 
 Veelgi enam, sõltuvalt sellest, kus te elate, võib suurte rahasummade transportimine ja säilitamine olla riskantne, olenemata sellest, kas tegemist on bitcoini või sularahaga.
 
@@ -1457,7 +1457,7 @@ Mis puutub lahendustesse, siis mina isiklikult olen alati kasutanud [Bisq](https
 
 https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-Lihtsama variandi jaoks võite proovida [Peach] (https://peachbitcoin.com/), mobiilirakendust, mis ühendab ostjad ja müüjad sisseehitatud konfliktide lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqi oma.
+Lihtsama variandi jaoks võite proovida [Peach](https://peachbitcoin.com/), mobiilirakendust, mis ühendab ostjad ja müüjad sisseehitatud konfliktide lahendamise süsteemiga. Protsess on intuitiivsem kui Bisqi oma.
 
 -> Vaata meie õpetust "Virsik".
 
@@ -3892,7 +3892,7 @@ BIP47 on laialdaselt kritiseeritud selle ebaefektiivsuse tõttu. Nagu eelmises p
 
 Teatud olukordades võib teavitustehing siiski olla kasutajale takistuseks. Võtame näiteks ühekordse annetuse saajale: klassikalise Bitcoini aadressi puhul piisab annetuse lõpuleviimiseks ühest tehingust. BIP47 puhul on aga vaja kahte tehingut: üks teavitamiseks ja teine tegelikuks maksmiseks. Kui nõudlus plokiruumi järele on väike ja tehingutasud madalad, ei ole see täiendav samm tavaliselt probleemiks. Ülekoormuse ajal võivad aga tehingutasud ühe makse eest muutuda ülemääraseks, mis võib kasutaja jaoks kahekordistada kulusid võrreldes tavalise Bitcoini tehinguga, mis võib osutuda kasutajale vastuvõetamatuks.
 
-Olukordade jaoks, kus kasutaja kavatseb teha ainult mõned maksed staatilisele identifikaatorile, on välja töötatud muid lahendusi. Nende hulka kuuluvad vaikivad maksed, mida on kirjeldatud dokumendis [BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). See protokoll võimaldab kasutada staatilist identifikaatorit maksete vastuvõtmiseks ilma aadressi korduvkasutust tekitamata ja ilma, et oleks vaja kasutada teatamistehinguid. Vaatame, kuidas see protokoll töötab.
+Olukordade jaoks, kus kasutaja kavatseb teha ainult mõned maksed staatilisele identifikaatorile, on välja töötatud muid lahendusi. Nende hulka kuuluvad vaikivad maksed, mida on kirjeldatud dokumendis [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). See protokoll võimaldab kasutada staatilist identifikaatorit maksete vastuvõtmiseks ilma aadressi korduvkasutust tekitamata ja ilma, et oleks vaja kasutada teatamistehinguid. Vaatame, kuidas see protokoll töötab.
 
 ---
 *Selle peatüki täielikuks mõistmiseks on oluline omandada ECDH (Elliptic Curve Diffie-Hellman) ja krüptograafilise võtme tuletamise tööpõhimõte HD rahakotis. Neid mõisteid käsitleti üksikasjalikult eelmises peatükis BIP47 kohta. Ma ei hakka neid siinkohal kordama. Kui te ei ole nende mõistetega veel tuttav, soovitan teil enne selle peatüki jätkamist tutvuda eelmise peatükiga. Ma ei hakka siinkohal veel kord üle vaatama vastuvõtuaadresside korduvkasutamisega seotud riske ega ka seda, kui oluline on unikaalne identifikaator maksete vastuvõtmiseks *, vaid mainin siinkohal vaid mõned punktid, mida tahaksin siinkohal välja tuua

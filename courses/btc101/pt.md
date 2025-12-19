@@ -394,7 +394,7 @@ Depois de executarem esta tarefa com sucesso, os mineiros são recompensados com
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Revisitaremos o conceito de mineração em mais pormenor no [capítulo sobre mineração] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Revisitaremos o conceito de mineração em mais pormenor no [capítulo sobre mineração](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Garantir a escassez digital
 
@@ -502,7 +502,7 @@ E se alguém adivinhar acidentalmente a nossa lista de 12 ou 24 palavras? A resp
 
 Assim, a probabilidade de piratear a sua carteira Bitcoin é astronomicamente baixa se seguir as boas práticas de segurança que iremos detalhar na próxima secção.
 
-Não se esqueça de escolher a carteira certa para as suas necessidades e utilização: estão disponíveis tutoriais detalhados sobre a gestão e segurança de diferentes carteiras na [secção de tutoriais da nossa universidade] (https://planb.academy/tutorials/wallet).
+Não se esqueça de escolher a carteira certa para as suas necessidades e utilização: estão disponíveis tutoriais detalhados sobre a gestão e segurança de diferentes carteiras na [secção de tutoriais da nossa universidade](https://planb.academy/tutorials/wallet).
 
 Se, durante a sua viagem pela toca do coelho, quiser aprender mais sobre a construção de uma carteira Bitcoin, desde a entropia até à receção de endereços, recomendamos o curso CYP 201 dedicado a este tópico:
 
@@ -571,7 +571,7 @@ O montante que se está disposto a deixar num nível de segurança específico d
 
 Em conclusão, a propriedade direta dos seus bitcoins é um elemento essencial para garantir a soberania financeira. Recomenda-se a utilização de uma carteira móvel para despesas diárias e uma carteira física offline, ou "fria", para armazenar quantias maiores. As empresas, por outro lado, devem considerar a utilização de sistemas de assinaturas múltiplas, ou "multisig", para uma segurança acrescida e partilhada. É também essencial evitar serviços de custódia, que podem replicar algumas vulnerabilidades do sistema financeiro tradicional.
 
-Com isto em mente, podemos agora passar para a próxima secção onde descrevemos como criar uma carteira Bitcoin. No entanto, se quiser explorar mais o tema da segurança, pode ler este [artigo de DarthCoin] (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+Com isto em mente, podemos agora passar para a próxima secção onde descrevemos como criar uma carteira Bitcoin. No entanto, se quiser explorar mais o tema da segurança, pode ler este [artigo de DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 ## Configurar uma carteira
 
@@ -594,7 +594,7 @@ Quando configura uma carteira, o software cria normalmente a sua chave privada, 
 - Nunca deixe as suas palavras sem vigilância na sua secretária.
 - Nunca esconda a sua lista de palavras num local invulgar.
 
-Deve pegar literalmente numa folha de papel em branco ou imprimir este [modelo] (https://bitcoiner.guide/backup.pdf) e escrever a lista de palavras com uma caneta, seguindo a ordem apresentada de forma clara e organizada. Tenha em atenção que, se a tinta se desvanecer com o tempo, pode perder os seus fundos. Por isso, é importante manter esta folha de papel protegida dos factores ambientais que a podem danificar, como a humidade ou o fogo.
+Deve pegar literalmente numa folha de papel em branco ou imprimir este [modelo](https://bitcoiner.guide/backup.pdf) e escrever a lista de palavras com uma caneta, seguindo a ordem apresentada de forma clara e organizada. Tenha em atenção que, se a tinta se desvanecer com o tempo, pode perder os seus fundos. Por isso, é importante manter esta folha de papel protegida dos factores ambientais que a podem danificar, como a humidade ou o fogo.
 
 Segue-se um exemplo de como compilar o documento: as palavras são falsas, por isso não as utilize!
 
@@ -636,7 +636,7 @@ Existem várias soluções disponíveis: algumas delas são de baixo custo, como
 
 Juntamente com esta primeira prática, a criação de um plano de herança é um passo crucial para garantir que os seus bitcoins são geridos corretamente após a sua morte. Este plano implica escrever à mão uma carta onde descreve a natureza dos seus bens, os seus métodos de acesso e as informações de contacto das pessoas de confiança que têm responsabilidade sobre eles. Também é importante discutir a herança de bitcoins com um notário para garantir a conformidade fiscal, mesmo que essa pessoa nunca deva ser encarregada diretamente da gestão dos seus bitcoins.
 
-Se desejar aprofundar o tema do plano de herança para os seus bitcoins, recomendamos a leitura do livro de Pamela Morgan [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) ou a inscrição no curso BTC102, onde fornecemos orientações sobre a criação do seu plano.
+Se desejar aprofundar o tema do plano de herança para os seus bitcoins, recomendamos a leitura do livro de Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) ou a inscrição no curso BTC102, onde fornecemos orientações sobre a criação do seu plano.
 
 ![image](assets/pt/037.webp)
 
@@ -713,11 +713,11 @@ Em 2010, quando a Bitcoin começou a atrair a atenção dos meios de comunicaç�
 > "Os governos são bons a cortar as cabeças de um sistema centralizado
 > controladas como o Napster, mas redes P2P puras como o
 > O Gnutella e o Tor parecem estar a aguentar-se" - Satoshi Nakamoto
-> Apesar da ausência de Satoshi, a Bitcoin continuou a ser desenvolvida: a história da Bitcoin é escrita a cada 10 minutos, e o protocolo continua a funcionar até hoje como pretendido. Independentemente de qualquer medo, incerteza ou dúvida, o Bitcoin continua a avançar, com uma disponibilidade online muito forte. De facto, de acordo com este [website] (https://bitcoinuptime.com/), a Bitcoin tem estado funcional e a funcionar sem grandes problemas durante 99,988% do tempo desde que foi criada.
+> Apesar da ausência de Satoshi, a Bitcoin continuou a ser desenvolvida: a história da Bitcoin é escrita a cada 10 minutos, e o protocolo continua a funcionar até hoje como pretendido. Independentemente de qualquer medo, incerteza ou dúvida, o Bitcoin continua a avançar, com uma disponibilidade online muito forte. De facto, de acordo com este [website](https://bitcoinuptime.com/), a Bitcoin tem estado funcional e a funcionar sem grandes problemas durante 99,988% do tempo desde que foi criada.
 
-Para alguns, o Bitcoin é definido como uma entidade fúngica, como um [micélio] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), enquanto outros o descrevem como um [buraco negro] (https://dergigi.com/). Ame-o ou odeie-o, o Bitcoin continua a existir, com o seu ritmo constante de 10 minutos por bloco, como o batimento cardíaco de um novo sistema monetário.
+Para alguns, o Bitcoin é definido como uma entidade fúngica, como um [micélio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), enquanto outros o descrevem como um [buraco negro](https://dergigi.com/). Ame-o ou odeie-o, o Bitcoin continua a existir, com o seu ritmo constante de 10 minutos por bloco, como o batimento cardíaco de um novo sistema monetário.
 
-Para saber mais sobre os escritos de Satoshi Nakamoto, recomendamos a leitura de ["The Book of Satoshi"] (https://planb.academy/en/resources/books/98) de Phil Champagne ou o documentário da ARTE "Le mystaire Satoshi".
+Para saber mais sobre os escritos de Satoshi Nakamoto, recomendamos a leitura de ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) de Phil Champagne ou o documentário da ARTE "Le mystaire Satoshi".
 
 ![image](assets/pt/044.webp)
 
@@ -793,13 +793,13 @@ Os nós são um elemento fundamental da arquitetura da rede Bitcoin, uma vez que
 - Transmitir informações a outros nós
 - Aplicação das regras do protocolo Bitcoin.
 
-Portanto, qualquer dispositivo que execute um software Bitcoin, chamado nó Bitcoin (muitas vezes usando [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), contribui para a descentralização da rede.
+Portanto, qualquer dispositivo que execute um software Bitcoin, chamado nó Bitcoin (muitas vezes usando [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), contribui para a descentralização da rede.
 
 ![image](assets/pt/050.webp)
 
 ### Os nós são o núcleo central do Bitcoin.
 
-Cada nó possui uma cópia da cadeia de blocos, que permite a verificação das transacções e impede qualquer tentativa de fraude. A natureza descentralizada da rede confere ao Bitcoin uma resiliência e robustez excepcionais. De facto, para parar o protocolo Bitcoin, todos os nós do mundo teriam de ser desligados. Para sua informação, em setembro de 2023 existiam aproximadamente [45.000 nós] (https://bitnodes.io/nodes/all/) distribuídos por todo o mundo.
+Cada nó possui uma cópia da cadeia de blocos, que permite a verificação das transacções e impede qualquer tentativa de fraude. A natureza descentralizada da rede confere ao Bitcoin uma resiliência e robustez excepcionais. De facto, para parar o protocolo Bitcoin, todos os nós do mundo teriam de ser desligados. Para sua informação, em setembro de 2023 existiam aproximadamente [45.000 nós](https://bitnodes.io/nodes/all/) distribuídos por todo o mundo.
 
 Os nós são capazes de verificar a validade dos blocos e das transacções porque seguem as regras do consenso da Bitcoin. Estas regras estabelecem a política monetária da Bitcoin, como o montante da recompensa dos mineiros (que discutiremos em mais pormenor na próxima secção) e a quantidade de bitcoin em circulação. De certa forma, os nós actuam como o sistema jurídico da rede, uma vez que todos os participantes na rede seguem as mesmas regras, pelo que asseguram a neutralidade do protocolo Bitcoin. As regras de consenso dificilmente variam, se é que variam, porque para efetuar alterações é necessária a aprovação de todos os nós.
 
@@ -1045,7 +1045,7 @@ No entanto, em El Salvador e em outras partes do mundo, há cada vez mais indiv�
 
 *Fonte : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
-Além disso, foi lançado um projeto de código aberto e colaborativo, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), para facilitar a utilização da Bitcoin nas transacções diárias. Esta plataforma lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades Bitcoin em todo o mundo, pelo que pode visitar o seu sítio Web para descobrir o ecossistema Bitcoin à sua volta. Assim, apesar das dificuldades e das hesitações, existem iniciativas como o BTCMap que contribuem para tornar a economia Bitcoin mais acessível e cómoda para todos.
+Além disso, foi lançado um projeto de código aberto e colaborativo, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), para facilitar a utilização da Bitcoin nas transacções diárias. Esta plataforma lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades Bitcoin em todo o mundo, pelo que pode visitar o seu sítio Web para descobrir o ecossistema Bitcoin à sua volta. Assim, apesar das dificuldades e das hesitações, existem iniciativas como o BTCMap que contribuem para tornar a economia Bitcoin mais acessível e cómoda para todos.
 
 ### Porque é que devemos aceitar a Bitcoin em vez de a comprar?
 
@@ -1158,7 +1158,7 @@ Após a compra, é aconselhável retirar imediatamente os bitcoins das plataform
 
 ### Soluções não-KYC
 
-Além disso, existem vários [marketplaces] (https://planb.academy/tutorials/exchange) onde se pode comprar e vender bitcoins numa troca peer-to-peer. Em geral, pode considerar o seguinte:
+Além disso, existem vários [marketplaces](https://planb.academy/tutorials/exchange) onde se pode comprar e vender bitcoins numa troca peer-to-peer. Em geral, pode considerar o seguinte:
 
 - ATMs de Bitcoin
 - Encontros físicos com outros entusiastas da bitcoin

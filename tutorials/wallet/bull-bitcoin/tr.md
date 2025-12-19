@@ -54,7 +54,7 @@ Wallet sürekli olarak gelişmektedir, bu nedenle bu eğitim ile güncel uygulam
 
 
 
-- Örneğin, 19/07/2025 tarihinden itibaren, Exchange'de [bullbitcoin.com] (https://app.bullbitcoin.com/registration/orangepeel) mevcut olan bu seçenekler yakında birleşik bir deneyim için entegre edileceğinden, **"Al / Sat / Öde "** düğmeleri uygulamada görünür ancak gri renktedir. Kullanımları tamamen isteğe bağlı kalacaktır. Diğer birçok gelişme devam etmekte veya planlanmaktadır: çoklu Wallet yönetimi, passphrase, donanım cüzdanlarıyla uyumluluk ...
+- Örneğin, 19/07/2025 tarihinden itibaren, Exchange'de [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel) mevcut olan bu seçenekler yakında birleşik bir deneyim için entegre edileceğinden, **"Al / Sat / Öde "** düğmeleri uygulamada görünür ancak gri renktedir. Kullanımları tamamen isteğe bağlı kalacaktır. Diğer birçok gelişme devam etmekte veya planlanmaktadır: çoklu Wallet yönetimi, passphrase, donanım cüzdanlarıyla uyumluluk ...
 - BullBitcoin GitHub]'da (https://github.com/orgs/SatoshiPortal/projects/49) güncel konulara ve gelecek gelişmelere göz atabilirsiniz. Proje %100 açık kaynaklı ve "halka açık" olduğundan, önerilerinizi ve karşılaştığınız hataları da bize gönderebilirsiniz.
 
 
@@ -1170,7 +1170,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-gW-221 alım ve satımlarında %0,25 indirim ile [Hesabınızı oluşturun] (https://app.bullbitcoin.com/registration/orangepeel).
+gW-221 alım ve satımlarında %0,25 indirim ile [Hesabınızı oluşturun](https://app.bullbitcoin.com/registration/orangepeel).
 
 
 

@@ -62,7 +62,7 @@ Ecco cosa ha sconvolto molti utenti: L'installazione di Blink è più veloce del
 
 - Scaricare Blink Wallet
  - Cercare "Blink Wallet" su [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) o [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), a seconda del dispositivo.
- - È anche possibile scaricarlo direttamente dal sito web [Blink Wallet] (https://blink.sv).
+ - È anche possibile scaricarlo direttamente dal sito web [Blink Wallet](https://blink.sv).
 - Creare un Wallet
  - Toccare "Crea nuovo Wallet"
  - Accettare i termini e le condizioni
@@ -305,7 +305,7 @@ Blink è un Wallet depositario, ovvero detiene e gestisce i vostri fondi per vos
 
 
 - Pro: Configurazione semplice, Interface facile da usare, assistenza clienti disponibile
-- Contro: Non avete il controllo delle vostre [chiavi private] (https://www.blink.sv/blog/not-your-keys-not-your-coins), il che significa che vi affidate a Blink per gestire i vostri fondi
+- Contro: Non avete il controllo delle vostre [chiavi private](https://www.blink.sv/blog/not-your-keys-not-your-coins), il che significa che vi affidate a Blink per gestire i vostri fondi
 
 
 ### Limiti di transazione

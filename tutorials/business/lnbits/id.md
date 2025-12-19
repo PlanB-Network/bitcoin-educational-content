@@ -43,7 +43,7 @@ LNbits untuk pembangun: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbi
 
 # Beberapa Hal Dasar
 
-LNbits bekerja berdasarkan protokol LNURL yang berarti bahwa permintaan dapat dilakukan dalam dua bentuk: sebagai tautan https:// clearnet (tidak ada sertifikat yang ditandatangani sendiri) atau sebagai tautan http:// v2/v3 onion. Untuk menawarkan layanan LNbits seperti kode QR LNURLp/w atau Kartu NFC, yang dapat digunakan di alam liar, Anda harus membuka LNbits ke clearnet (https).
+LNbits bekerja berdasarkan protokol LNURL yang berarti bahwa permintaan dapat dilakukan dalam dua bentuk: sebagai tautan https://clearnet (tidak ada sertifikat yang ditandatangani sendiri) atau sebagai tautan http://v2/v3 onion. Untuk menawarkan layanan LNbits seperti kode QR LNURLp/w atau Kartu NFC, yang dapat digunakan di alam liar, Anda harus membuka LNbits ke clearnet (https).
 
 Sebelum Anda menginstal LNbits, pastikan Anda telah membaca dan memahami panduan umum berikut ini tentang apa itu LNbits dan apa saja yang bisa dilakukan oleh LNbits untuk Anda.
 
@@ -89,9 +89,9 @@ Untuk node perangkat lunak bundel, silakan merujuk ke dokumentasi khusus tentang
 
 ## LNbits SaaS
 
-Jika Anda tidak tertarik dengan hal-hal teknis dan tidak ingin meng-host sumber pendanaan atau lnbits Anda sendiri, ada [versi LNbits SaaS] (https://saas.lnbits.com) (Perangkat Lunak sebagai layanan) yang dapat Anda gunakan. Pada dasarnya ini seperti LNbits di cloud tetapi Anda dapat menentukan sumber pendanaan (misalnya Node Anda, dompet LNbits, LNtipbot, fakewallet, dll.) dan variabel lingkungan Anda sendiri - yang sebagian besar tidak terjadi pada solusi cloud lainnya.
+Jika Anda tidak tertarik dengan hal-hal teknis dan tidak ingin meng-host sumber pendanaan atau lnbits Anda sendiri, ada [versi LNbits SaaS](https://saas.lnbits.com) (Perangkat Lunak sebagai layanan) yang dapat Anda gunakan. Pada dasarnya ini seperti LNbits di cloud tetapi Anda dapat menentukan sumber pendanaan (misalnya Node Anda, dompet LNbits, LNtipbot, fakewallet, dll.) dan variabel lingkungan Anda sendiri - yang sebagian besar tidak terjadi pada solusi cloud lainnya.
 
-[Berikut adalah panduan rinci bagaimana menggunakan LNbits SaaS untuk kasus penggunaan tertentu] (https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
+[Berikut adalah panduan rinci bagaimana menggunakan LNbits SaaS untuk kasus penggunaan tertentu](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
 ## Sumber pendanaan
 
@@ -161,24 +161,24 @@ Untuk mengenkripsi macaroon Anda, jalankan `./venv/bin/python lnbits/wallets/mac
 
 ### TipBot Petir
 
-Untuk menghubungkan [Lightning Tipbot] (https://t.me/LightningTipBot) Anda dari Telegram, Anda perlu mengatur parameter berikut:
+Untuk menghubungkan [Lightning Tipbot](https://t.me/LightningTipBot) Anda dari Telegram, Anda perlu mengatur parameter berikut:
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: ** LnTipsWallet**
   - `LNBITS_ENDPOINT`: https://ln.tips
   - `LNBITS_KEY`: Untuk mendapatkan Key, Anda harus menjalankan /api dalam obrolan pribadi dengan LightningTipbot di Telegram satu kali.
 
-Lihat juga tutorial ini cara menginstal [LNbits dengan LightningTipBot melalui vps] (https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
+Lihat juga tutorial ini cara menginstal [LNbits dengan LightningTipBot melalui vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
 ### IBEX HUB
 
-Daftarkan [di sini] (https://ibexpay.ibexmercado.com/onboard) kemudian dapatkan kunci/token Anda dari sana, titik akhir adalah https://ibexpay-api.ibexmercado.com.
+Daftarkan [di sini](https://ibexpay.ibexmercado.com/onboard) kemudian dapatkan kunci/token Anda dari sana, titik akhir adalah https://ibexpay-api.ibexmercado.com.
 
 Info lebih lanjut lihat [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
 ### LNPay
 
-Agar pendengar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik di LNbits Anda dan harus menyiapkan [LNPay webhook] (https://dashboard.lnpay.co/webhook/) yang mengarah ke `<host LNbits Anda>/wallet/webhook` dengan event "Wallet Receive" dan tidak ada rahasia yang diberikan. Pengaturan `https://mylnbits/wallet/webhook` akan menjadi url titik akhir yang akan diberitahukan tentang pembayaran apa pun.
+Agar pendengar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik di LNbits Anda dan harus menyiapkan [LNPay webhook](https://dashboard.lnpay.co/webhook/) yang mengarah ke `<host LNbits Anda>/wallet/webhook` dengan event "Wallet Receive" dan tidak ada rahasia yang diberikan. Pengaturan `https://mylnbits/wallet/webhook` akan menjadi url titik akhir yang akan diberitahukan tentang pembayaran apa pun.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
@@ -197,7 +197,7 @@ Agar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik d
 
 ### Alby
 
-Alby adalah ekstensi browser dengan fungsi dompet LN dan akun LNDHUB yang dapat digunakan sebagai sumber pendanaan untuk LNbits. [Selengkapnya di sini] (https://getalby.com/).
+Alby adalah ekstensi browser dengan fungsi dompet LN dan akun LNDHUB yang dapat digunakan sebagai sumber pendanaan untuk LNbits. [Selengkapnya di sini](https://getalby.com/).
 
 Agar faktur dapat berfungsi, Anda harus memiliki URL yang dapat diakses publik di LNbits Anda. Tidak diperlukan pengaturan webhook manual. Anda dapat membuat token akses Alby di sini: https://getalby.com/developer/access_tokens/new
 
@@ -298,7 +298,7 @@ Semoga sekarang semuanya sudah berfungsi dan dimigrasi... Luncurkan LNbits lagi 
 
 #### Pencadangan dan pemulihan basis data
 
-Silakan lihat [panduan yang sangat rinci tentang proses pencadangan & pemulihan] (https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
+Silakan lihat [panduan yang sangat rinci tentang proses pencadangan & pemulihan](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
 #### Mendanai dompet LNbits saya dari node saya tidak berfungsi
 
@@ -329,7 +329,7 @@ RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 
 Saya mendapat "kesalahan https", kesalahan jaringan" atau lainnya saat memindai QR< /ringkasan
 
-Kabar buruknya, ini adalah kesalahan perutean yang mungkin memiliki banyak alasan. Pertama-tama, periksa LNURL QR dengan [Lightning Decoder] (https://lightningdecoder.com/) jika Anda menemukan sesuatu yang aneh di sana. Mari kita coba beberapa masalah yang paling mungkin terjadi dan solusinya.
+Kabar buruknya, ini adalah kesalahan perutean yang mungkin memiliki banyak alasan. Pertama-tama, periksa LNURL QR dengan [Lightning Decoder](https://lightningdecoder.com/) jika Anda menemukan sesuatu yang aneh di sana. Mari kita coba beberapa masalah yang paling mungkin terjadi dan solusinya.
 
 LNbits hanya berjalan melalui Tor, Anda tidak dapat membukanya di domain publik seperti lnbits.yourdomain.com
 
@@ -357,7 +357,7 @@ Selalu simpan salinan wallet-URL, Export2phone-QR atau LNDhub Anda di tempat yan
 
 ### Dompet pada sumber/simpul pendanaan Anda sendiri
 
-Selalu simpan salinan wallet-URL, Export2phone-QR atau LNDhub Anda di tempat yang aman. Anda dapat menemukan semua pengguna LNbits dan wallet-ID di ekstensi pengelola pengguna LNbits Anda atau di database sqlite Anda. Untuk mengedit atau membaca database LNbits, masuk ke folder LNbits /data dan cari file bernama sqlite.db. Anda dapat membuka dan mengeditnya dengan excel atau dengan SQL-Editor khusus seperti [SQLite browser] (https://sqlitebrowser.org/).
+Selalu simpan salinan wallet-URL, Export2phone-QR atau LNDhub Anda di tempat yang aman. Anda dapat menemukan semua pengguna LNbits dan wallet-ID di ekstensi pengelola pengguna LNbits Anda atau di database sqlite Anda. Untuk mengedit atau membaca database LNbits, masuk ke folder LNbits /data dan cari file bernama sqlite.db. Anda dapat membuka dan mengeditnya dengan excel atau dengan SQL-Editor khusus seperti [SQLite browser](https://sqlitebrowser.org/).
 
 Anda juga dapat membuang dompet melalui cli dan melihat setiap dompet di dalam basis data Anda.
 
@@ -403,7 +403,7 @@ Ada dua cara untuk menukar satoshi dari onchain BTC ke LN BTC (resp. ke LNbits).
 
 ##### Melalui layanan swap eksternal.
 
-Pengguna lain yang tidak memiliki akses ke LNbits Anda dapat menggunakan layanan swap seperti [Boltz] (https://boltz.exchange/), [FixedFloat] (https://fixedfloat.com/), [DiamondHands] (https://swap.diamondhands.technology/), atau [ZigZag] (https://zigzag.io/). Ini berguna jika Anda hanya menyediakan faktur LNURL/LN dari instance LNbits Anda, tetapi pembayar hanya memiliki satelite sehingga mereka harus menukar satelite tersebut terlebih dahulu di sisi mereka. Prosedurnya sederhana: pengguna mengirimkan btc onchain ke layanan swap dan memberikan faktur LNURL/LN dari LNbits sebagai tujuan swap.
+Pengguna lain yang tidak memiliki akses ke LNbits Anda dapat menggunakan layanan swap seperti [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/), atau [ZigZag](https://zigzag.io/). Ini berguna jika Anda hanya menyediakan faktur LNURL/LN dari instance LNbits Anda, tetapi pembayar hanya memiliki satelite sehingga mereka harus menukar satelite tersebut terlebih dahulu di sisi mereka. Prosedurnya sederhana: pengguna mengirimkan btc onchain ke layanan swap dan memberikan faktur LNURL/LN dari LNbits sebagai tujuan swap.
 
 ##### Menggunakan ekstensi Onchain dan Boltz LNbits.
 
@@ -427,7 +427,7 @@ Dalam ikhtisar transaksi Anda, Anda akan menemukan panah hijau kecil untuk dana 
 
 Jika Anda mengeklik tanda panah tersebut, popup detail akan menampilkan pesan terlampir serta nama pengirim jika ada.
 
-Untuk mengonfigurasi nama yang akan muncul dalam pembayaran, di LNbits saat ini hal tersebut tidak dapat dilakukan - kecuali untuk menerima. Hal ini hanya dapat dilakukan jika dompet LN pengirim mendukung [LUD-18] (https://github.com/lnurl/luds/blob/luds/18.md) (nameDesc) seperti [OBW, Blixt, Alby, ZBD, BitBanana] (https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents).
+Untuk mengonfigurasi nama yang akan muncul dalam pembayaran, di LNbits saat ini hal tersebut tidak dapat dilakukan - kecuali untuk menerima. Hal ini hanya dapat dilakukan jika dompet LN pengirim mendukung [LUD-18](https://github.com/lnurl/luds/blob/luds/18.md) (nameDesc) seperti [OBW, Blixt, Alby, ZBD, BitBanana](https://github.com/lnurl/luds?tab=readme-ov-file#lnurl-documents).
 
 Anda akan melihat nama alias/nama samaran di bagian detail transaksi LNbits Anda (klik tanda panah). Perhatikan bahwa Anda dapat memberikan nama apa pun di sana dan nama tersebut mungkin tidak terkait dengan nama pengirim sebenarnya jika Anda menerimanya.
 
@@ -435,22 +435,22 @@ Anda akan melihat nama alias/nama samaran di bagian detail transaksi LNbits Anda
 
 Untuk mengimpor akun LNbits Anda di aplikasi dompet, buka LNbits Anda dengan akun/dompet yang ingin Anda gunakan, buka "kelola ekstensi" dan aktifkan ekstensi LNDHUB. Buka ekstensi LNDHUB, pilih dompet yang ingin Anda gunakan dan pindai QR "admin" atau "hanya faktur", tergantung pada tingkat keamanan yang Anda inginkan untuk dompet tersebut.
 
-Anda dapat menggunakan [Zeus] (https://zeusln.app/) atau [Bluewallet] (https://bluewallet.io/) sebagai aplikasi dompet untuk akun lndhub di mana BW mendukung lebih dari satu dompet.
+Anda dapat menggunakan [Zeus](https://zeusln.app/) atau [Bluewallet](https://bluewallet.io/) sebagai aplikasi dompet untuk akun lndhub di mana BW mendukung lebih dari satu dompet.
 
 Ketika melakukan ini, kami merekomendasikan untuk mengatur URI jaringan LN ke salah satu simpul Anda sendiri. Jika instance LNbits Anda hanya menggunakan Tor, Anda juga harus menggunakan aplikasi yang sama dengan Tor yang diaktifkan. Juga dalam hal ini Anda harus membuka halaman LNbits melalui alamat Tor .onion Anda.
 
-Jika Anda mengalami kesalahan "tipe hash tidak didukung" saat menggunakan ypub dalam ekstensi On-chain, periksa apakah instance LNbits Anda menggunakan python 3.10 yang mungkin terpengaruh oleh [masalah ini] (https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Edit openssl.cnf seperti yang dijelaskan di jawaban stackoverflow dan mulai ulang LNbits Anda.
+Jika Anda mengalami kesalahan "tipe hash tidak didukung" saat menggunakan ypub dalam ekstensi On-chain, periksa apakah instance LNbits Anda menggunakan python 3.10 yang mungkin terpengaruh oleh [masalah ini](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Edit openssl.cnf seperti yang dijelaskan di jawaban stackoverflow dan mulai ulang LNbits Anda.
 
 ## Perkakas & Bangunan dengan LNbits
 
-LNbits memiliki berbagai macam [API terbuka] (https://legend.lnbits.com/docs) dan alat untuk memprogram dan terhubung ke banyak perangkat yang berbeda untuk bermilyar-milyar kasus penggunaan.
+LNbits memiliki berbagai macam [API terbuka](https://legend.lnbits.com/docs) dan alat untuk memprogram dan terhubung ke banyak perangkat yang berbeda untuk bermilyar-milyar kasus penggunaan.
 
-Jika Anda baru dalam membangun, mulailah dengan [presentasi MakerBits] (https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) dari Ben Arc tentang membangun gadget berdasarkan LNbits.
+Jika Anda baru dalam membangun, mulailah dengan [presentasi MakerBits](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) dari Ben Arc tentang membangun gadget berdasarkan LNbits.
 
 ### PENTING:
 
 
-- LNbits bekerja berdasarkan protokol LNURL yang permintaannya dapat dilakukan dalam dua bentuk: baik sebagai tautan https:// clearnet (tidak ada sertifikat yang ditandatangani sendiri) atau sebagai tautan http:// v2/v3 onion. Untuk menawarkan layanan LNbits seperti kode QR LNURLp/w atau Kartu NFC, yang dapat digunakan di alam bebas, Anda harus membuka LNbits ke clearnet (https).
+- LNbits bekerja berdasarkan protokol LNURL yang permintaannya dapat dilakukan dalam dua bentuk: baik sebagai tautan https://clearnet (tidak ada sertifikat yang ditandatangani sendiri) atau sebagai tautan http://v2/v3 onion. Untuk menawarkan layanan LNbits seperti kode QR LNURLp/w atau Kartu NFC, yang dapat digunakan di alam bebas, Anda harus membuka LNbits ke clearnet (https).
 - Hanya gunakan kabel DATA untuk menyalakan esp32 Anda. Tidak semua kabel mendukung data selain untuk menyalakan esp. Anda tidak akan menjadi yang pertama jika kabel yang disertakan dengan esp adalah kabel khusus daya
 - Pastikan untuk tidak menggunakan USB-Hub dengan perangkat lain yang terpasang. Hal ini dapat menyebabkan efek aneh yang sulit di-debug (misalnya, tidak dapat memulai atau berhenti).
 - Untuk merealisasikan proyek-proyek khusus dengan MacOS, Anda akan membutuhkan Driver Jembatan UART. Jika Anda memiliki masalah dengan driver pada sistem Mac atau Linux, Anda dapat menemukannya di sini atau, jika TTGO Display terlibat, Anda dapat menemukannya di sini. Jika Anda menggunakan Windows dan mengalami masalah koneksi, pastikan untuk mengunduh versi LAMA 11.1.0 karena versi yang lebih baru tidak berfungsi! Anda juga dapat menemukan terminal serial di sini untuk memeriksa koneksi Anda - atur ke baudrate 115200.
@@ -475,15 +475,15 @@ Berikut adalah beberapa kategori proyek yang dapat Anda buat dengan LNbits:
 - [Nostr Zap Lamp](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#zap-lamp)
 - [ATM BTC/LN](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#atm)
 - [LNPoS](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lnpos-terminal)
-- [Lightning Piggy] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
+- [Lightning Piggy](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
 - [Dompet Perangkat Keras](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#hardware-wallet)
 - [Bitcoin Switch](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-switch)
 - [Mesin penjual otomatis](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine)
-- [Bolty] (https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bolty)
+- [Bolty](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bolty)
 - [Nerdminer](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#Nerdminer)
 - [Bitcoin Ticker](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-ticker)
 - [BTClock](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#btclock)
 - [Lora dan Jaringan Mesh](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lora)
 - [PEMBANTU & SUMBER DAYA](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#resources)
-- [Contoh lain dari proyek "Didukung oleh LNbits" di sini] (https://github.com/lnbits/lnbits/wiki/Powered-by-LNbits).
+- [Contoh lain dari proyek "Didukung oleh LNbits" di sini](https://github.com/lnbits/lnbits/wiki/Powered-by-LNbits).
 - [Kasus penggunaan untuk LNbits](https://github.com/lnbits/lnbits/wiki/Use-Cases-of-LNbits)

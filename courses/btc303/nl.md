@@ -125,7 +125,7 @@ Er waren al pogingen geweest om digitale munteenheden te creëren vóór Bitcoin
 Miner decentralisatie in Bitcoin betekent dat het *ordenen van transacties* niet wordt uitgevoerd door een enkele entiteit of vaste groep entiteiten. Het wordt collectief uitgevoerd door alle actoren die eraan willen deelnemen; dit miners' collectief is een dynamische verzameling gebruikers. Iedereen kan naar believen meedoen of weggaan. Deze eigenschap maakt Bitcoin censuurbestendig.
 
 
-Als Bitcoin gecentraliseerd zou zijn, zou het kwetsbaar zijn voor degenen die het zouden willen censureren, zoals overheden. Het zou hetzelfde lot beschoren zijn als eerdere pogingen om digitaal geld te creëren. In de inleiding van [een paper] (https://www.blockstream.com/sidechains.pdf) getiteld "Enabling Blockchain Innovations with Pegged Sidechains", leggen de auteurs uit hoe vroege versies van digitaal geld niet waren uitgerust voor een vijandige omgeving (zie ook het hoofdstuk over vijandig denken in het volgende deel).
+Als Bitcoin gecentraliseerd zou zijn, zou het kwetsbaar zijn voor degenen die het zouden willen censureren, zoals overheden. Het zou hetzelfde lot beschoren zijn als eerdere pogingen om digitaal geld te creëren. In de inleiding van [een paper](https://www.blockstream.com/sidechains.pdf) getiteld "Enabling Blockchain Innovations with Pegged Sidechains", leggen de auteurs uit hoe vroege versies van digitaal geld niet waren uitgerust voor een vijandige omgeving (zie ook het hoofdstuk over vijandig denken in het volgende deel).
 
 
 David Chaum introduceerde digitaal geld als een onderzoeksonderwerp in 1983, in een omgeving met een centrale server die vertrouwd wordt om Double-spending te voorkomen. Om het privacyrisico voor individuen van deze centrale vertrouwde partij te beperken en om fungibiliteit af te dwingen, introduceerde Chaum de blinde handtekening, die hij gebruikte om een cryptografische manier te bieden om het koppelen van de handtekeningen van de centrale server (die munten vertegenwoordigen) te voorkomen, terwijl de centrale server nog steeds dubbele uitgaven kon voorkomen.
@@ -267,7 +267,7 @@ Een fascinerend aspect van Bitcoin is hoe Hard het is om te begrijpen dat nieman
 > Bitcoin richt zich nergens op. Verschillende mensen die Bitcoin hebben geadopteerd hebben uit vrije wil gekozen om het te promoten, en hoe ze dat doen is hun eigen zaak. Autoriteit gefixeerde mensen kunnen deze activiteiten zien en geloven dat het een operatie is van de Bitcoin autoriteit, maar zo'n autoriteit bestaat niet.
 
 
-De manier waarop Bitcoin werkt door decentralisatie lijkt op de buitengewone collectieve intelligentie die we bij veel diersoorten in de natuur aantreffen. Computerwetenschapper Radhika Nagpal spreekt in een [Ted talk] (https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) over het collectieve gedrag van visscholen en hoe wetenschappers dit proberen na te bootsen met robots.
+De manier waarop Bitcoin werkt door decentralisatie lijkt op de buitengewone collectieve intelligentie die we bij veel diersoorten in de natuur aantreffen. Computerwetenschapper Radhika Nagpal spreekt in een [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) over het collectieve gedrag van visscholen en hoe wetenschappers dit proberen na te bootsen met robots.
 
 
 > Ten tweede, en dat vind ik nog steeds het meest opmerkelijk, weten we dat er geen leiders zijn die toezicht houden op deze school vissen. In plaats daarvan ontstaat dit ongelooflijke collectieve gedrag puur uit de interacties van de ene vis met de andere.
@@ -322,7 +322,7 @@ Wat bedoelen ze met Trustless? Pieter Wuille legt deze veelgebruikte term uit op
 In het kort verwijst het woord *Trustless* naar een eigenschap van het Bitcoin protocol waardoor het logisch kan functioneren zonder "vertrouwde partijen". Dit is anders dan het vertrouwen dat je onvermijdelijk moet stellen in de software of hardware die je gebruikt. Meer over dit laatste aspect van vertrouwen wordt verderop in dit hoofdstuk besproken.
 
 
-In gecentraliseerde systemen vertrouwen we op de reputatie van een centrale speler om er zeker van te zijn dat deze de beveiliging op orde heeft of terugdraait in geval van problemen, en op het rechtssysteem om eventuele overtredingen te bestraffen. Deze vertrouwensvereisten zijn problematisch in pseudonieme gedecentraliseerde systemen - er is geen mogelijkheid tot verhaal dus er kan echt geen vertrouwen zijn. In de inleiding van [het Bitcoin whitepaper] (https://Bitcoin.org/Bitcoin.pdf) beschrijft Satoshi Nakamoto dit probleem:
+In gecentraliseerde systemen vertrouwen we op de reputatie van een centrale speler om er zeker van te zijn dat deze de beveiliging op orde heeft of terugdraait in geval van problemen, en op het rechtssysteem om eventuele overtredingen te bestraffen. Deze vertrouwensvereisten zijn problematisch in pseudonieme gedecentraliseerde systemen - er is geen mogelijkheid tot verhaal dus er kan echt geen vertrouwen zijn. In de inleiding van [het Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf) beschrijft Satoshi Nakamoto dit probleem:
 
 
 > De handel op het internet is vrijwel uitsluitend afhankelijk geworden van financiële instellingen die als vertrouwde derde partij fungeren voor het verwerken van elektronische betalingen.
@@ -506,7 +506,7 @@ Andrew Poelstra [legt in een Bitcoin Stack Exchange post](https://Bitcoin.stacke
 Het verschil lijkt te zijn dat je bij een pseudonieme vorm van geld betalingen tussen pseudoniemen kunt traceren, terwijl je dat bij een anonieme vorm van geld niet kunt. Aangezien Bitcoin betalingen traceerbaar zijn tussen pseudoniemen, is het geen anoniem systeem.
 
 
-We hebben ook gezegd dat de pseudoniemen openbare sleutels zijn, maar het zijn eigenlijk adressen die zijn afgeleid van openbare sleutels. Waarom gebruiken we adressen als pseudoniemen en niet iets anders, bijvoorbeeld een beschrijvende naam, zoals "watchme1984"? Dit is [goed uitgelegd] (https://Bitcoin.stackexchange.com/a/25175/69518) door gebruiker Tim S., ook op Bitcoin Stapel Exchange:
+We hebben ook gezegd dat de pseudoniemen openbare sleutels zijn, maar het zijn eigenlijk adressen die zijn afgeleid van openbare sleutels. Waarom gebruiken we adressen als pseudoniemen en niet iets anders, bijvoorbeeld een beschrijvende naam, zoals "watchme1984"? Dit is [goed uitgelegd](https://Bitcoin.stackexchange.com/a/25175/69518) door gebruiker Tim S., ook op Bitcoin Stapel Exchange:
 
 
 > Om Bitcoin's idee te laten werken, moet je munten hebben die alleen uitgegeven kunnen worden door de eigenaar van een bepaalde privésleutel. Dit betekent dat alles waarnaar je stuurt op de een of andere manier verbonden moet zijn met een publieke sleutel.
@@ -524,7 +524,7 @@ Door gebruik te maken van adressen, of publieke sleutels, bereiken we belangrijk
 Blockchain privacy verwijst naar de informatie die u vrijgeeft door transacties op Blockchain. Het is van toepassing op alle transacties, zowel de transacties die u verzendt als de transacties die u ontvangt.
 
 
-Satoshi Nakamoto denkt na over On-Chain privacy in sectie 7 van zijn [Bitcoin whitepaper] (https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto denkt na over On-Chain privacy in sectie 7 van zijn [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
 
 
 > Als extra firewall moet voor elke transactie een nieuw sleutelpaar worden gebruikt om te voorkomen dat ze aan een gemeenschappelijke eigenaar worden gekoppeld. Enige koppeling is nog steeds onvermijdelijk bij transacties met meerdere ingangen, die noodzakelijkerwijs onthullen dat hun ingangen eigendom waren van dezelfde eigenaar. Het risico is dat als de eigenaar van een sleutel wordt onthuld, het linken andere transacties onthult die van dezelfde eigenaar waren.
@@ -543,7 +543,7 @@ Chris Belcher [schreef zeer gedetailleerd](https://en.Bitcoin.it/Privacy#Blockch
 De conclusie is dat privacy in Bitcoin niet perfect is. Het vereist een aanzienlijke hoeveelheid werk om privé transacties te doen. De meeste mensen zijn niet bereid om zo ver te gaan voor privacy. Er lijkt een duidelijke afweging te zijn tussen privacy en bruikbaarheid.
 
 
-Een ander belangrijk aspect van privacy is dat de maatregelen die je neemt om je eigen privacy te beschermen ook andere gebruikers beïnvloeden. Als je slordig bent met je eigen privacy, kunnen andere mensen ook een verminderde privacy ervaren. Gregory Maxwell legt dit heel duidelijk uit op dezelfde Bitcoin Talk discussie [waar we hierboven naar verwezen] (https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), en sluit af met een voorbeeld:
+Een ander belangrijk aspect van privacy is dat de maatregelen die je neemt om je eigen privacy te beschermen ook andere gebruikers beïnvloeden. Als je slordig bent met je eigen privacy, kunnen andere mensen ook een verminderde privacy ervaren. Gregory Maxwell legt dit heel duidelijk uit op dezelfde Bitcoin Talk discussie [waar we hierboven naar verwezen](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), en sluit af met een voorbeeld:
 
 
 > Dit werkt in de praktijk ook... Een aardige whitehat hacker op IRC was aan het spelen met het kraken van hersenportefeuilles en raakte een zin met ~250 BTC erin.  We konden de eigenaar alleen al identificeren aan de hand van Address, omdat ze betaald waren door een Bitcoin service die adressen hergebruikte en hij kon ze ompraten om de contactinformatie van de gebruiker op te geven. Hij kreeg de gebruiker daadwerkelijk aan de telefoon, ze waren geschokt en in de war, maar dankbaar dat ze niet zonder geld zaten.  Een goede afloop dus. (Dit is lang niet het enige voorbeeld, maar wel een van de leukere).
@@ -690,7 +690,7 @@ Maar door een aantal redenen -- zoals vroege problemen met coinbase transacties,
 
 > Dit laat ons met 20999817.31308491 BTC (rekening houdend met alles tot en met blok 528333)
 
-Er zijn echter verschillende portemonnees verloren gegaan of gestolen, transacties zijn naar de verkeerde Address gestuurd, mensen vergaten dat ze Bitcoin bezaten. De totalen hiervan kunnen in de miljoenen lopen. Mensen hebben geprobeerd bekende verliezen op te tellen [hier] (https://bitcointalk.org/index.php?topic=7253.0).
+Er zijn echter verschillende portemonnees verloren gegaan of gestolen, transacties zijn naar de verkeerde Address gestuurd, mensen vergaten dat ze Bitcoin bezaten. De totalen hiervan kunnen in de miljoenen lopen. Mensen hebben geprobeerd bekende verliezen op te tellen [hier](https://bitcointalk.org/index.php?topic=7253.0).
 
 
 Dan blijft over: ??? BTC.
@@ -698,7 +698,7 @@ Dan blijft over: ??? BTC.
 
 We kunnen er dus zeker van zijn dat de Bitcoin Supply maximaal 20999817.31308491 BTC zal zijn. Verloren of oncontroleerbaar verbrande munten zullen dit getal lager maken, maar we weten niet met hoeveel. Het interessante is dat het er niet echt toe doet, of beter nog, het doet er wel toe op een positieve manier voor Bitcoin houders,
 
-[zoals uitgelegd] (https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) door Satoshi Nakamoto:
+[zoals uitgelegd](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) door Satoshi Nakamoto:
 
 
 > Verloren munten maken de munten van alle anderen alleen maar iets meer waard.  Zie het als een donatie aan iedereen.
@@ -721,7 +721,7 @@ Zelfs als sommige volledige knooppunten zich naar de duistere kant keren en besl
 Een Block reward bestaat uit de bloksubsidie plus transactiekosten. De Block reward moet de beveiligingskosten van Bitcoin dekken. We kunnen met zekerheid zeggen dat onder de huidige omstandigheden met betrekking tot bloksubsidie, transactiekosten, Bitcoin prijs, Mempool grootte, Hash macht, mate van decentralisatie etc., de stimulans voor elke speler om zich aan de regels te houden groot genoeg is om een veilig monetair systeem te behouden.
 
 
-Wat gebeurt er als de bloksubsidie bijna nul is? Laten we, om het eenvoudig te houden, aannemen dat het eigenlijk gelijk is aan nul. Op dat moment worden de beveiligingskosten van het systeem alleen gedekt door transactiekosten. Wat de toekomst ons brengt als dit gebeurt, kunnen we niet weten. De onzekerheidsfactoren zijn talrijk en we zijn aangewezen op speculaties. Paul Sztorc's bijdrage aan het onderwerp [in zijn Truthcoin blog] (https://www.truthcoin.info/blog/security-budget/) is bijvoorbeeld vooral speculatie, maar hij heeft ten minste één solide punt (merk op dat M2, zoals bedoeld door Sztorc, een meting is van fiatgeld Supply):
+Wat gebeurt er als de bloksubsidie bijna nul is? Laten we, om het eenvoudig te houden, aannemen dat het eigenlijk gelijk is aan nul. Op dat moment worden de beveiligingskosten van het systeem alleen gedekt door transactiekosten. Wat de toekomst ons brengt als dit gebeurt, kunnen we niet weten. De onzekerheidsfactoren zijn talrijk en we zijn aangewezen op speculaties. Paul Sztorc's bijdrage aan het onderwerp [in zijn Truthcoin blog](https://www.truthcoin.info/blog/security-budget/) is bijvoorbeeld vooral speculatie, maar hij heeft ten minste één solide punt (merk op dat M2, zoals bedoeld door Sztorc, een meting is van fiatgeld Supply):
 
 
 > Hoewel de twee worden gemengd in hetzelfde "veiligheidsbudget", zijn de bloksubsidie en de txn-vergoedingen volkomen en totaal verschillend. Ze verschillen net zo veel van elkaar als "de totale winst van VISA in 2017" van de "totale toename van M2 in 2017".
@@ -735,7 +735,7 @@ Vandaag zijn het de houders die betalen voor de veiligheid (via monetaire inflat
 Naarmate de tijd verstrijkt, zal het dragen van de beveiligingskosten verschuiven van houders naar spenders
 
 
-Wanneer transactievergoedingen de belangrijkste motivatie zijn voor Mining, verschuiven de stimulansen. In het bijzonder, als de Mempool van een Miner niet genoeg transactievergoedingen bevat, kan het winstgevender worden voor die Miner om de geschiedenis van Bitcoin te herschrijven in plaats van deze uit te breiden. Bitcoin Optech heeft een specifieke [sectie over dit gedrag] (https://bitcoinops.org/en/topics/fee-sniping/), genaamd *fee sniping*, geschreven door David Harding:
+Wanneer transactievergoedingen de belangrijkste motivatie zijn voor Mining, verschuiven de stimulansen. In het bijzonder, als de Mempool van een Miner niet genoeg transactievergoedingen bevat, kan het winstgevender worden voor die Miner om de geschiedenis van Bitcoin te herschrijven in plaats van deze uit te breiden. Bitcoin Optech heeft een specifieke [sectie over dit gedrag](https://bitcoinops.org/en/topics/fee-sniping/), genaamd *fee sniping*, geschreven door David Harding:
 
 
 > Fee sniping is een probleem dat kan optreden als de subsidie van Bitcoin blijft afnemen en transactiekosten de blokbeloningen van Bitcoin beginnen te domineren. Als transactiekosten het enige zijn dat telt, dan heeft een Miner met `x` procent van het Hash tarief een `x` procent kans op Mining het volgende blok, dus de verwachte waarde voor hen van eerlijk Mining is `x` procent van de [best feerate set van transacties](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) in hun Mempool.
@@ -757,7 +757,7 @@ Het is onmogelijk te zeggen, maar we weten wel een paar dingen:
 - Met nul bloksubsidie en een leeg of bijna leeg Mempool kunnen de dingen wankel worden door het sluipen van vergoedingen.
 
 
-Omdat de overgang naar een fee-only Block reward zo ver in de toekomst ligt, is het misschien verstandig om niet te snel conclusies te trekken en te proberen de potentiële problemen op te lossen nu het nog kan. Peter Todd denkt bijvoorbeeld dat er een reëel risico bestaat dat het veiligheidsbudget van Bitcoin in de toekomst niet genoeg zal zijn, en pleit daarom voor een kleine eeuwigdurende inflatie in Bitcoin. Hij denkt echter ook dat het geen goed idee is om een dergelijke kwestie op dit moment te bespreken, zoals [hij zei in de What Bitcoin podcast] (https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Omdat de overgang naar een fee-only Block reward zo ver in de toekomst ligt, is het misschien verstandig om niet te snel conclusies te trekken en te proberen de potentiële problemen op te lossen nu het nog kan. Peter Todd denkt bijvoorbeeld dat er een reëel risico bestaat dat het veiligheidsbudget van Bitcoin in de toekomst niet genoeg zal zijn, en pleit daarom voor een kleine eeuwigdurende inflatie in Bitcoin. Hij denkt echter ook dat het geen goed idee is om een dergelijke kwestie op dit moment te bespreken, zoals [hij zei in de What Bitcoin podcast](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
 
 
 > Maar dat is een risico van 10, 20 jaar in de toekomst. Dat is erg lang. En wie weet er tegen die tijd wat de risico's zijn?
@@ -813,7 +813,7 @@ Volgens Wikipedia verwijst [voorwaartse compatibiliteit](https://en.wikipedia.or
 Een standaard ondersteunt voorwaartse compatibiliteit als een product dat voldoet aan eerdere versies "netjes" invoer kan verwerken die is ontworpen voor latere versies van de standaard, waarbij nieuwe onderdelen die het niet begrijpt worden genegeerd.
 
 
-Omgekeerd verwijst [achterwaartse compatibiliteit] (https://en.wikipedia.org/wiki/Backward_compatibility) naar wanneer gegevens van oude software bruikbaar zijn in nieuwere software. Er wordt gezegd dat een verandering volledig compatibel is als deze zowel voorwaarts als achterwaarts compatibel is.
+Omgekeerd verwijst [achterwaartse compatibiliteit](https://en.wikipedia.org/wiki/Backward_compatibility) naar wanneer gegevens van oude software bruikbaar zijn in nieuwere software. Er wordt gezegd dat een verandering volledig compatibel is als deze zowel voorwaarts als achterwaarts compatibel is.
 
 
 Een verandering aan de Bitcoin consensusregels wordt een *Soft Fork* genoemd als het volledig compatibel is. Dit is de meest gebruikelijke manier om Bitcoin op te waarderen, om een aantal redenen die we verder in dit hoofdstuk zullen bespreken. Als een verandering aan de Bitcoin consensusregels achterwaarts compatibel is, maar niet voorwaarts, dan wordt het een *Hard Fork* genoemd.
@@ -848,7 +848,7 @@ Lombrozo geeft ook een overzicht van de manier waarop de upgrade-mechanismen doo
 Terwijl alle upgrades voor SegWit min of meer pijnloos waren verlopen, was deze anders. Toen de SegWit activeringscode werd vrijgegeven, in oktober 2016, leek er overweldigende steun voor te zijn onder Bitcoin gebruikers, maar om de een of andere reden gaven miners geen steun aan voor deze upgrade, waardoor de activering stagneerde zonder dat er een oplossing in zicht was.
 
 
-Aaron van Wirdum beschrijft deze kronkelige weg in zijn Bitcoin Magazine artikel [The Long Road To SegWit] (https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Hij begint met uit te leggen wat SegWit is en hoe dat inhaakt op het blokgrootte debat. Daarna schetst Van Wirdum de gebeurtenissen die leidden tot de uiteindelijke activering. Centraal in dit proces stond een upgrade mechanisme genaamd *user activated Soft Fork*, of kortweg UASF, dat werd voorgesteld door gebruiker Shaolinfry:
+Aaron van Wirdum beschrijft deze kronkelige weg in zijn Bitcoin Magazine artikel [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Hij begint met uit te leggen wat SegWit is en hoe dat inhaakt op het blokgrootte debat. Daarna schetst Van Wirdum de gebeurtenissen die leidden tot de uiteindelijke activering. Centraal in dit proces stond een upgrade mechanisme genaamd *user activated Soft Fork*, of kortweg UASF, dat werd voorgesteld door gebruiker Shaolinfry:
 
 
 > Shaolinfry stelde een alternatief voor: een door de gebruiker geactiveerde Soft Fork (UASF). In plaats van Hash stroomactivering, zou een door de gebruiker geactiveerde Soft Fork een "'flag day activation' hebben, waarbij nodes op een vooraf bepaald tijdstip in de toekomst beginnen met de handhaving." Zolang zo'n UASF afgedwongen wordt door een economische meerderheid, zou dit een meerderheid van mijnwerkers moeten dwingen om de Soft Fork te volgen (of te activeren).
@@ -919,10 +919,10 @@ Toen Taproot in oktober 2020 klaar was om ingezet te worden, wat betekende dat a
 
 Er deden veel voorstellen voor activeringsmechanismen de ronde en David Harding
 
-[samengevat op de Bitcoin Wiki] (https://en.Bitcoin.it/wiki/Taproot_activation_proposals). In zijn artikel legde hij enkele eigenschappen uit van BIP8, dat op dat moment enkele recente wijzigingen had ondergaan om het flexibeler te maken.
+[samengevat op de Bitcoin Wiki](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). In zijn artikel legde hij enkele eigenschappen uit van BIP8, dat op dat moment enkele recente wijzigingen had ondergaan om het flexibeler te maken.
 
 
-> Op het moment dat dit document wordt geschreven, is [BIP8] (https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) opgesteld op basis van de lessen die in 2017 zijn geleerd. Een opmerkelijke verandering na BIP's 9+148 is dat gedwongen activering nu gebaseerd is op blokhoogte in plaats van mediane verstreken tijd; een tweede opmerkelijke verandering is dat gedwongen activering een booleaanse parameter is die wordt gekozen wanneer de activeringsparameters van een Soft Fork worden ingesteld voor de eerste inzet of bijgewerkt in een latere inzet.
+> Op het moment dat dit document wordt geschreven, is [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) opgesteld op basis van de lessen die in 2017 zijn geleerd. Een opmerkelijke verandering na BIP's 9+148 is dat gedwongen activering nu gebaseerd is op blokhoogte in plaats van mediane verstreken tijd; een tweede opmerkelijke verandering is dat gedwongen activering een booleaanse parameter is die wordt gekozen wanneer de activeringsparameters van een Soft Fork worden ingesteld voor de eerste inzet of bijgewerkt in een latere inzet.
 
 BIP8 zonder geforceerde activering lijkt erg op [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) versie bits met time-out en vertraging, met als enige significante verschil dat BIP8 blokhoogtes gebruikt in vergelijking met BIP9's gebruik van mediane verstreken tijd. Deze instelling staat toe dat de poging mislukt (maar later opnieuw kan worden geprobeerd).
 
@@ -958,7 +958,7 @@ Gedurende deze zeven maanden ging de discussie door en het leek erop dat er geen
 
 De "laten we zien wat er gebeurt"-benadering leek eindelijk te klikken in de hoofden van de mensen. Dit proces zou later worden aangeduid als "Speedy Trial" vanwege de korte signaleringsperiode. David Harding legt dit idee uit aan de bredere gemeenschap in een
 
-[e-mail naar de Bitcoin-dev mailinglijst] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[e-mail naar de Bitcoin-dev mailinglijst](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
 
 > De eerdere versie van dit voorstel werd meer dan 200 dagen geleden gedocumenteerd en de onderliggende code van Taproot werd meer dan 140 dagen geleden samengevoegd in Bitcoin Core. Als we Speedy Trial hadden gestart op het moment dat Taproot werd samengevoegd (wat een beetje onrealistisch is), dan zouden we minder dan twee maanden verwijderd zijn van Taproot of we zouden al meer dan een maand geleden verder zijn gegaan met de volgende activeringspoging.
 >
@@ -1052,7 +1052,7 @@ Het gevolg is dat alle bekende zwakke plekken in Bitcoin op de een of andere man
 Poelstra gaat verder met te vermelden dat Bitcoin een nieuw soort systeem is; het is neveliger dan bijvoorbeeld een ondertekeningsprotocol dat heel duidelijke veiligheidsaannames heeft.
 
 
-Op zijn persoonlijke blog [duikt software engineer Jameson Lopp hierin] (https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
+Op zijn persoonlijke blog [duikt software engineer Jameson Lopp hierin](https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
 
 
 > In werkelijkheid werd en wordt het Bitcoin protocol gebouwd zonder een formeel gedefinieerde specificatie of veiligheidsmodel. Het beste wat we kunnen doen is de prikkels en het gedrag van actoren binnen het systeem bestuderen om het beter te begrijpen en proberen te beschrijven.
@@ -1164,7 +1164,7 @@ De meeste Bitcoin software, en vooral Bitcoin Core, is open source. Dit betekent
 
 > Afgeleide werken: De licentie moet wijzigingen en afgeleide werken toestaan, en moet toestaan dat deze verspreid worden onder dezelfde voorwaarden als de licentie van de originele software.
 
-Bitcoin Core voldoet aan deze definitie door gedistribueerd te worden onder de [MIT Licentie] (https://github.com/Bitcoin/Bitcoin/blob/master/COPYING):
+Bitcoin Core voldoet aan deze definitie door gedistribueerd te worden onder de [MIT Licentie](https://github.com/Bitcoin/Bitcoin/blob/master/COPYING):
 
 
 ```
@@ -1262,7 +1262,7 @@ Veel ontwikkelaars kiezen voor deze optie door onder een pseudoniem te werken en
 artikelen en mijn werk aan Bitcoin en de Lightning Network.
 
 
-In zijn geval moet de reden voor het gebruik van een pseudoniem worden beoordeeld op zijn verdiensten en niet op wie de persoon of personen achter het pseudoniem is of zijn. Interessant genoeg onthulde hij in een [artikel op CoinDesk] (https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) dat het pseudoniem om een andere reden werd gecreëerd.
+In zijn geval moet de reden voor het gebruik van een pseudoniem worden beoordeeld op zijn verdiensten en niet op wie de persoon of personen achter het pseudoniem is of zijn. Interessant genoeg onthulde hij in een [artikel op CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) dat het pseudoniem om een andere reden werd gecreëerd.
 
 
 > Mijn oorspronkelijke reden [voor het gebruik van een pseudoniem] was simpelweg dat ik me zorgen maakte [over] het maken van een grote fout; ZmnSCPxj was dus oorspronkelijk bedoeld als een wegwerppseudoniem dat in zo'n geval kon worden opgegeven. Het lijkt echter een overwegend positieve reputatie te hebben opgebouwd, dus heb ik het behouden
@@ -1287,7 +1287,7 @@ Merk op dat deze punten niet alleen gelden voor Satoshi Nakamoto, maar voor iede
 Open source-ontwikkelaars maken vaak gebruik van open source-bibliotheken die door andere mensen zijn ontwikkeld. Dit is een natuurlijk en geweldig onderdeel van elk gezond ecosysteem. Maar Bitcoin software gaat om met echt geld en daarom moeten ontwikkelaars extra voorzichtig zijn bij het kiezen van bibliotheken van derden waar ze afhankelijk van moeten zijn.
 
 
-In een filosofisch [gesprek over cryptografie] (https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/), wil Gregory Maxwell de term "cryptografie" herdefiniëren die hij te eng vindt. Hij legt uit dat *informatie fundamenteel vrij wil zijn*, en baseert daarop zijn definitie van cryptografie:
+In een filosofisch [gesprek over cryptografie](https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/), wil Gregory Maxwell de term "cryptografie" herdefiniëren die hij te eng vindt. Hij legt uit dat *informatie fundamenteel vrij wil zijn*, en baseert daarop zijn definitie van cryptografie:
 
 
 > Cryptografie is de kunst en wetenschap die we gebruiken om de fundamentele aard van informatie te bestrijden, om het naar onze politieke en morele wil te buigen en om het naar menselijke doelen te leiden tegen alle toevalligheden en pogingen in.
@@ -1311,7 +1311,7 @@ Aan de hand van concrete voorbeelden laat hij zien hoe selectiecryptografie gema
 Hoewel dit niet de ultieme gids voor succes is, kan het erg nuttig zijn om deze punten door te nemen wanneer je aan selectiecryptografie doet.
 
 
-Vanwege de problemen die Maxwell hierboven noemde, probeert Bitcoin Core echt Hard om [de blootstelling aan bibliotheken van derden te minimaliseren] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Natuurlijk kun je niet alle externe afhankelijkheden uitbannen, anders zou je alles zelf moeten schrijven, van font rendering tot implementatie van system calls.
+Vanwege de problemen die Maxwell hierboven noemde, probeert Bitcoin Core echt Hard om [de blootstelling aan bibliotheken van derden te minimaliseren](https://github.com/Bitcoin/Bitcoin/blob/master/doc/dependencies.md). Natuurlijk kun je niet alle externe afhankelijkheden uitbannen, anders zou je alles zelf moeten schrijven, van font rendering tot implementatie van system calls.
 
 
 ### Beoordeling
@@ -1404,7 +1404,7 @@ Iemand die niet gewend is aan het ontwikkelingsproces van Bitcoin zou waarschijn
 De meeste Bitcoin ontwikkelaars zouden beweren dat deze openheid een goede en gezonde omgeving creëert en zelfs noodzakelijk is voor het beste resultaat.
 
 
-Zoals gehint in het hoofdstuk Bedreiging, kan de tweede bullet hierboven erg voordelig zijn, maar heeft ook een keerzijde. Een aanvaller kan gebruik maken van vertragingstactieken, zoals beschreven in de [Simple Sabotage Field Manual] (https://www.gutenberg.org/ebooks/26184), om de besluitvorming en het ontwikkelingsproces te verstoren.
+Zoals gehint in het hoofdstuk Bedreiging, kan de tweede bullet hierboven erg voordelig zijn, maar heeft ook een keerzijde. Een aanvaller kan gebruik maken van vertragingstactieken, zoals beschreven in de [Simple Sabotage Field Manual](https://www.gutenberg.org/ebooks/26184), om de besluitvorming en het ontwikkelingsproces te verstoren.
 
 
 Iets anders dat het vermelden waard is, is dat, aangezien Bitcoin geld is en Bitcoin Core onpeilbare hoeveelheden geld beveiligt, beveiliging in deze context niet lichtvaardig wordt opgevat. Daarom is doorgewinterde Bitcoin Core
@@ -1464,7 +1464,7 @@ We zullen binnenkort duiken in de verschillende benaderingen van schaalvergrotin
 
 
 
-Schalen is al sinds de Genesis van Bitcoin een belangrijk punt van discussie. De allereerste zin van de [allereerste e-mail] (https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) in reactie op Satoshi's aankondiging van de Bitcoin whitepaper op de Cryptography mailinglijst ging inderdaad over schalen:
+Schalen is al sinds de Genesis van Bitcoin een belangrijk punt van discussie. De allereerste zin van de [allereerste e-mail](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) in reactie op Satoshi's aankondiging van de Bitcoin whitepaper op de Cryptography mailinglijst ging inderdaad over schalen:
 
 
 > Satoshi Nakamoto schreef:
@@ -1722,17 +1722,17 @@ Bitcoin wordt gebouwd door mensen. Mensen schrijven de software en mensen draaie
 Stel je voor dat je een bug ontdekt in Bitcoin Core, een bug die iedereen in staat stelt om op afstand een Bitcoin Core node uit te schakelen door gebruik te maken van enkele speciaal gemaakte netwerkberichten. Stel je ook voor dat je niet kwaadaardig bent en wilt dat dit probleem ongebruikt blijft. Wat doe je dan? Als je erover zwijgt, zal iemand anders het probleem waarschijnlijk ontdekken en je kunt er niet zeker van zijn dat die persoon niet kwaadaardig zal zijn.
 
 
-Wanneer een beveiligingsprobleem wordt ontdekt, moet de persoon die het ontdekt _responsible disclosure_ toepassen, een term die vaak wordt gebruikt onder Bitcoin ontwikkelaars. De term is [uitgelegd op Wikipedia] (https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
+Wanneer een beveiligingsprobleem wordt ontdekt, moet de persoon die het ontdekt _responsible disclosure_ toepassen, een term die vaak wordt gebruikt onder Bitcoin ontwikkelaars. De term is [uitgelegd op Wikipedia](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
 
 
 > Ontwikkelaars van hardware en software hebben vaak tijd en middelen nodig om hun fouten te herstellen. Vaak zijn het ethische hackers die deze fouten vinden
 kwetsbaarheden. Hackers en computerbeveiligingswetenschappers zijn van mening dat het hun sociale verantwoordelijkheid is om het publiek bewust te maken van kwetsbaarheden. Het verbergen van problemen kan een gevoel van schijnveiligheid veroorzaken. Om dit te voorkomen, stemmen de betrokken partijen af en onderhandelen ze over een redelijke termijn om de kwetsbaarheid te verhelpen. Afhankelijk van de potentiële impact van de kwetsbaarheid, de verwachte tijd die nodig is om een noodoplossing of workaround te ontwikkelen en toe te passen en andere factoren, kan deze periode variëren van enkele dagen tot enkele maanden.
 
 
-Dit betekent dat als je een beveiligingsprobleem vindt, je dit moet melden aan het team dat verantwoordelijk is voor het systeem. Maar wat betekent dit in de context van Bitcoin? Niemand beheert Bitcoin, maar er is momenteel een centraal punt voor de ontwikkeling van Bitcoin, namelijk de [Bitcoin Core Github repository] (https://github.com/Bitcoin/Bitcoin). De beheerders van dit repository zijn verantwoordelijk voor de code die erin staat, maar ze zijn niet verantwoordelijk voor het systeem als geheel - dat is niemand. Desondanks is het de beste gewoonte om een e-mail te sturen naar security@bitcoincore.org.
+Dit betekent dat als je een beveiligingsprobleem vindt, je dit moet melden aan het team dat verantwoordelijk is voor het systeem. Maar wat betekent dit in de context van Bitcoin? Niemand beheert Bitcoin, maar er is momenteel een centraal punt voor de ontwikkeling van Bitcoin, namelijk de [Bitcoin Core Github repository](https://github.com/Bitcoin/Bitcoin). De beheerders van dit repository zijn verantwoordelijk voor de code die erin staat, maar ze zijn niet verantwoordelijk voor het systeem als geheel - dat is niemand. Desondanks is het de beste gewoonte om een e-mail te sturen naar security@bitcoincore.org.
 
 
-In een [email thread] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) met de titel "Responsible disclosure of bugs" uit 2017, probeerde Anthony Towns samen te vatten wat hij zag als de huidige best practices. Hij had input verzameld van verschillende bronnen en verschillende mensen om zijn visie op het onderwerp te onderbouwen.
+In een [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) met de titel "Responsible disclosure of bugs" uit 2017, probeerde Anthony Towns samen te vatten wat hij zag als de huidige best practices. Hij had input verzameld van verschillende bronnen en verschillende mensen om zijn visie op het onderwerp te onderbouwen.
 
 
 
@@ -1825,7 +1825,7 @@ Satoshi maakte deze wijziging lokaal en bouwde er een uitvoerbare binary met ver
 
 > Upgrade alsjeblieft zo snel mogelijk naar 0.3.5!  We hebben een implementatie bug gerepareerd waarbij het mogelijk was dat valse transacties geaccepteerd konden worden.  Accepteer geen Bitcoin transacties als betaling totdat je upgrade naar versie 0.3.5!
 
-Het oorspronkelijke bericht werd later bewerkt en is niet meer in zijn volledige vorm beschikbaar. Het bovenstaande fragment komt uit een [citeer antwoord] (https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Sommige gebruikers probeerden Satoshi's binary, maar kregen er problemen mee. Kort daarna schreef [Satoshi](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
+Het oorspronkelijke bericht werd later bewerkt en is niet meer in zijn volledige vorm beschikbaar. Het bovenstaande fragment komt uit een [citeer antwoord](https://bitcointalk.org/index.php?topic=626.msg6458#msg6458). Sommige gebruikers probeerden Satoshi's binary, maar kregen er problemen mee. Kort daarna schreef [Satoshi](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
 
 
 > Ik heb nog geen tijd gehad om de SVN bij te werken.  Wacht op 0.3.6, die ben ik nu aan het bouwen.  Je kunt in de tussentijd je node afsluiten.
@@ -1872,7 +1872,7 @@ In die tijd waren er lang niet zoveel gebruikers als nu en de waarde van Bitcoin
 
 
 - Satoshi maakte een binaire release van 0.3.5 met de fix. Er werd geen patch of code meegeleverd, misschien om het probleem te verdoezelen.
-- 0.3.5 [werkte niet eens] (https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
+- 0.3.5 [werkte niet eens](https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
 - De fix in 0.3.6 was eigenlijk een Hard Fork.
 
 
@@ -1942,7 +1942,7 @@ Zijn plan was om een Soft Fork te maken om transacties zoals hier besproken onge
 Hij wilde dat mensen blokgegevens konden downloaden van een specifieke gebruiker, namelijk knightmb, die zijn Blockchain had gepubliceerd zoals die op zijn schijf stond, de bestanden blkXXXX.dat en blkindex.dat. De reden om de Blockchain gegevens op deze manier te downloaden, in tegenstelling tot het synchroniseren vanaf nul, was om knelpunten in de netwerkbandbreedte te verminderen.
 
 
-Dit had een groot nadeel: de gegevens die gebruikers downloadden van knightmb [werden niet geverifieerd door de Bitcoin software] (https://Bitcoin.stackexchange.com/a/113682/69518) bij het opstarten. Het blkindex.dat bestand bevatte de UTXO set en de software accepteerde alle gegevens daarin alsof die al geverifieerd waren. knightmb kon de gegevens manipuleren om zichzelf of iemand anders wat bitcoins te geven.
+Dit had een groot nadeel: de gegevens die gebruikers downloadden van knightmb [werden niet geverifieerd door de Bitcoin software](https://Bitcoin.stackexchange.com/a/113682/69518) bij het opstarten. Het blkindex.dat bestand bevatte de UTXO set en de software accepteerde alle gegevens daarin alsof die al geverifieerd waren. knightmb kon de gegevens manipuleren om zichzelf of iemand anders wat bitcoins te geven.
 
 
 Opnieuw leken mensen hierin mee te gaan, en de omkering van het ongeldige blok en zijn opvolgers was succesvol. Miners begonnen te werken aan een nieuwe opvolger voor blok [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) en volgens de Timestamp van het blok verscheen er een opvolger om 23:53 UTC, ongeveer 6 uur nadat het probleem was ontdekt. Om 08:10 de volgende dag, op 16 augustus, rond blok 74689, had de nieuwe keten de oude keten ingehaald, daarom gingen alle niet-geüpgraded knooppunten opnieuw samenvoegen om de nieuwe keten te volgen. Dit is de diepste reorg - 52 blokken - in de geschiedenis van Bitcoin.
@@ -2033,7 +2033,7 @@ Het BIP werd geactiveerd op 4 juli 2015. Hoewel het bovenstaande waar is, lost B
 
 De volledige onthulling van deze kwestie werd op 28 juli 2015 gepubliceerd door Pieter Wuille in een
 
-[e-mail naar de Bitcoin-dev mailinglijst] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[e-mail naar de Bitcoin-dev mailinglijst](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
 
 
 > Hallo allemaal,
@@ -2077,7 +2077,7 @@ Vanwege de breedte van deze BIP, die aanzienlijk meer omvatte dan alleen "strikt
 
 
 
-OpenSSL bracht nieuwe versies van hun software uit met patches die, als ze vanaf het begin in Bitcoin werden gebruikt, het probleem zouden hebben opgelost. Echter, het gebruik van elke nieuwe versie van OpenSSL alleen in een nieuwe release van Bitcoin Core zou de zaken erger maken. Gregory Maxwell legt dit uit in een andere [email thread] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) in januari 2015:
+OpenSSL bracht nieuwe versies van hun software uit met patches die, als ze vanaf het begin in Bitcoin werden gebruikt, het probleem zouden hebben opgelost. Echter, het gebruik van elke nieuwe versie van OpenSSL alleen in een nieuwe release van Bitcoin Core zou de zaken erger maken. Gregory Maxwell legt dit uit in een andere [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) in januari 2015:
 
 
 > Terwijl het voor de meeste toepassingen over het algemeen acceptabel is om sommige handtekeningen gretig te verwerpen, is Bitcoin een consensus systeem waarbij alle deelnemers het over het algemeen eens moeten zijn over de exacte geldigheid of ongeldigheid van de invoergegevens.  In zekere zin is consistentie belangrijker dan "juistheid".
@@ -2103,7 +2103,7 @@ Een belangrijke afgeleide hiervan is dat BIP's min of meer *atomisch* moeten zij
 
 
 
-Helaas eindigde het verhaal van BIP66 daar niet. Toen BIP66 werd geactiveerd, werd het een rommeltje omdat sommige miners de blokken die ze probeerden uit te breiden niet verifieerden. Dit wordt validatieloze Mining genoemd, of SPV-Mining (als in Simplified Payment Verification). Er werd een waarschuwingsbericht verstuurd naar Bitcoin knooppunten met een link naar [een webpagina die het probleem beschrijft] (https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Helaas eindigde het verhaal van BIP66 daar niet. Toen BIP66 werd geactiveerd, werd het een rommeltje omdat sommige miners de blokken die ze probeerden uit te breiden niet verifieerden. Dit wordt validatieloze Mining genoemd, of SPV-Mining (als in Simplified Payment Verification). Er werd een waarschuwingsbericht verstuurd naar Bitcoin knooppunten met een link naar [een webpagina die het probleem beschrijft](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
 
 
 > In de vroege ochtend van 4 juli 2015 werd de 950/1000 (95%) drempel bereikt. Kort daarna minde een kleine Miner (deel van de niet-geüpgraded 5%) een ongeldig blok, zoals te verwachten was. Helaas bleek dat ongeveer de helft van het netwerk Hash was zonder volledig gevalideerde blokken (SPV Mining genoemd), en nieuwe blokken bovenop dat ongeldige blok bouwde.
@@ -2111,7 +2111,7 @@ Helaas eindigde het verhaal van BIP66 daar niet. Toen BIP66 werd geactiveerd, we
 De waarschuwingspagina instrueerde mensen om 30 extra bevestigingen te wachten dan ze normaal zouden doen in het geval ze oudere versies van Bitcoin Core gebruikten.
 
 
-De bovengenoemde splitsing vond plaats op 2015-07-04 om 02:10 UTC na blokhoogte [363730] (https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Dit probleem werd opgelost om 03:50 dezelfde dag, nadat 6 ongeldige blokken waren gemined. Helaas gebeurde hetzelfde probleem de volgende dag opnieuw, namelijk op 2015-07-05 om 21:50, maar deze keer duurde de ongeldige tak slechts 3 blokken.
+De bovengenoemde splitsing vond plaats op 2015-07-04 om 02:10 UTC na blokhoogte [363730](https://Mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e). Dit probleem werd opgelost om 03:50 dezelfde dag, nadat 6 ongeldige blokken waren gemined. Helaas gebeurde hetzelfde probleem de volgende dag opnieuw, namelijk op 2015-07-05 om 21:50, maar deze keer duurde de ongeldige tak slechts 3 blokken.
 
 
 ![](assets/nl/021.webp)

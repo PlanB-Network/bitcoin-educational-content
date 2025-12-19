@@ -41,7 +41,7 @@ Toisessa jaksossa keskitytään jaksossa 1 esitettyjen teoreettisten käsitteide
 Viimeisessä osiossa muut puhujat esittelevät konkreettisia RGB-pohjaisia sovelluksia, jotka tuovat esiin tosielämän käyttötapauksia.
 
 ---
-Tämä kurssi syntyi alun perin Viareggiossa, Toscanassa järjestetystä kahden viikon pituisesta kehittyneen kehityksen bootcampista, jonka järjesti [Fulgur'Ventures] (https://fulgur.ventures/). Ensimmäinen viikko, joka keskittyi Rustiin ja SDK:hon, löytyy tästä toisesta kurssista:
+Tämä kurssi syntyi alun perin Viareggiossa, Toscanassa järjestetystä kahden viikon pituisesta kehittyneen kehityksen bootcampista, jonka järjesti [Fulgur'Ventures](https://fulgur.ventures/). Ensimmäinen viikko, joka keskittyi Rustiin ja SDK:hon, löytyy tästä toisesta kurssista:
 
 https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
@@ -623,7 +623,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Viimeinen vaihtoehto on **Taproot** (otettu käyttöön BIP341:ssä) ja *Tapret*-järjestelmä. *Tapret* on monimutkaisempi deterministisen sitoutumisen muoto, joka tuo parannuksia lohkoketjun jalanjälkeen ja sopimustoimintojen luottamuksellisuuteen. Pääidea on piilottaa sitoutuminen [taproot-tapahtuman] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` -osaan.
+Viimeinen vaihtoehto on **Taproot** (otettu käyttöön BIP341:ssä) ja *Tapret*-järjestelmä. *Tapret* on monimutkaisempi deterministisen sitoutumisen muoto, joka tuo parannuksia lohkoketjun jalanjälkeen ja sopimustoimintojen luottamuksellisuuteen. Pääidea on piilottaa sitoutuminen [taproot-tapahtuman](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` -osaan.
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -809,7 +809,7 @@ Konkreettisesti kukin _siirtonippu_ kuuluu tiettyyn sopimukseen. Kaikki nämä t
 
 #### MPC Root Hash
 
-Ketjuun (`Opret`- tai `Tapret`-ohjelmassa) kirjoitettua arvoa kutsutaan nimellä `mpc::Commitment`. Se lasketaan muodossa [BIP-341] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) kaavan mukaisesti:
+Ketjuun (`Opret`- tai `Tapret`-ohjelmassa) kirjoitettua arvoa kutsutaan nimellä `mpc::Commitment`. Se lasketaan muodossa [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) kaavan mukaisesti:
 
 ```txt
 mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofactor || mpc::Root )
@@ -846,7 +846,7 @@ jossa `kertoimen` on kokonaisluku, joka lisää todennäköisyyttä saada eri ka
 - Kokeilemme erilaisia "kertoimia" (enintään "w/2" tai suorituskyvyn vuoksi enintään 500);
 - Jos kaikkia sopimuksia ei saada sijoitettua ilman törmäyksiä, kasvatetaan arvoa `d` ja aloitetaan alusta.
 
-Tavoitteena on välttää liian korkeita puita ja pitää törmäysriski mahdollisimman pienenä. Huomaa, että törmäysilmiö noudattaa satunnaisjakauman logiikkaa, joka liittyy [vuosipäiväparadoksiin] (https://en.wikipedia.org/wiki/Birthday_problem).
+Tavoitteena on välttää liian korkeita puita ja pitää törmäysriski mahdollisimman pienenä. Huomaa, että törmäysilmiö noudattaa satunnaisjakauman logiikkaa, joka liittyy [vuosipäiväparadoksiin](https://en.wikipedia.org/wiki/Birthday_problem).
 
 #### Asuttuja lehtiä
 
@@ -3438,7 +3438,7 @@ Noin vuodesta 2022 lähtien Bitfinexin RGB-tiimi on keskittynyt kehittämään t
 
 - Osallistuminen lähdekoodin ja protokollan määrittelyyn, mukaan lukien parannusehdotusten kirjoittaminen, virheiden korjaaminen jne;
 - Työkalut kehittäjille, jotka voivat yksinkertaistaa RGB:n integrointia sovelluksiinsa;
-- Suunnitellaan [Iris] (https://iriswallet.com/) -niminen mobiililompakko, jolla kokeillaan ja havainnollistetaan RGB:n käytön parhaita käytäntöjä;
+- Suunnitellaan [Iris](https://iriswallet.com/) -niminen mobiililompakko, jolla kokeillaan ja havainnollistetaan RGB:n käytön parhaita käytäntöjä;
 - Räätälöidyn Lightning-solmun luominen, jolla voidaan hallita kanavia, joissa on RGB-varoja;
 - Tuetaan muita ryhmiä, jotka rakentavat ratkaisuja RGB:hen, jotta edistetään monimuotoisuutta ja vahvaa ekosysteemiä.
 

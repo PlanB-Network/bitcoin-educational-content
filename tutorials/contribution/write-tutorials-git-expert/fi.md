@@ -12,7 +12,7 @@ Sinulla on jo:
 
 
 - Valitse opetusohjelmasi teema;
-- Ota yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
+- Ota yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
 - Valitse osallistumisvälineesi.
 
 Tässä kokeneille Git-käyttäjille suunnatussa opetusohjelmassa kerromme lyhyesti keskeiset vaiheet ja olennaiset ohjeet uuden Plan ₿ Academy -oppaan tarjoamiseksi. Jos Git ja GitHub eivät ole sinulle tuttuja, suosittelen sen sijaan seuraamaan yhtä näistä kahdesta muusta yksityiskohtaisemmasta opetusohjelmasta, jotka vievät sinut askel askeleelta:

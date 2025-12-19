@@ -54,7 +54,7 @@ https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 
-In diesem Tutorial zeige ich Ihnen, wie Sie einen Multisig mit der [Sparrow Wallet Portfolio Management Software] (https://sparrowwallet.com/download/) erstellen können. Wenn Sie diese Software noch nicht installiert haben, sollten Sie dies jetzt tun. Wenn Sie Hilfe benötigen, haben wir auch eine ausführliche Anleitung zur Konfiguration von Sparrow Wallet:
+In diesem Tutorial zeige ich Ihnen, wie Sie einen Multisig mit der [Sparrow Wallet Portfolio Management Software](https://sparrowwallet.com/download/) erstellen können. Wenn Sie diese Software noch nicht installiert haben, sollten Sie dies jetzt tun. Wenn Sie Hilfe benötigen, haben wir auch eine ausführliche Anleitung zur Konfiguration von Sparrow Wallet:
 
 
 
@@ -491,7 +491,7 @@ Geben Sie den Betrag ein, der an das ausgewählte Address gesendet werden soll.
 
 
 
-Passen Sie die Laderate an die aktuellen Netzbedingungen an. Schauen Sie zum Beispiel unter [Mempool.space] (https://Mempool.space/) nach, um eine geeignete Ladestufe auszuwählen.
+Passen Sie die Laderate an die aktuellen Netzbedingungen an. Schauen Sie zum Beispiel unter [Mempool.space](https://Mempool.space/) nach, um eine geeignete Ladestufe auszuwählen.
 
 
 

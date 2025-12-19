@@ -2,7 +2,7 @@
 term: DER
 ---
 
-Singkatan dari *Distinguished Encoding Rules*. DER merupakan bagian yang ketat dari aturan penyandian ASN.1 yang didefinisikan dalam spesifikasi [ITU-T X.690, 2002.] (https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) dan digunakan untuk menyandikan semua jenis data dalam urutan biner. DER terutama digunakan dalam bidang tertentu, seperti kriptografi, di mana data harus dikodekan dengan cara yang standar dan dapat diprediksi.
+Singkatan dari *Distinguished Encoding Rules*. DER merupakan bagian yang ketat dari aturan penyandian ASN.1 yang didefinisikan dalam spesifikasi [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) dan digunakan untuk menyandikan semua jenis data dalam urutan biner. DER terutama digunakan dalam bidang tertentu, seperti kriptografi, di mana data harus dikodekan dengan cara yang standar dan dapat diprediksi.
 
 
 Pada Bitcoin, tanda tangan ECDSA dikodekan dalam format DER. Tanda tangan ini terdiri dari dua angka yang dikodekan 32 byte (`r`, `s`). Format tanda tangan terdiri dari _Elements_ (71 byte) berikut ini:

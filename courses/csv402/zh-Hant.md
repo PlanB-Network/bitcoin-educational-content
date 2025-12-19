@@ -628,7 +628,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-最後一個選項是使用 **Taproot**（BIP341 引進）與 *Tapret* 方案。 *Tapret* 是確定性 Commitment 的更複雜形式，在 Blockchain 的佔用空間和 Contract 作業的保密性方面帶來改善。主要的構想是將 Commitment 隱藏在 [Taproot 交易] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) 的「腳本路徑支出」部分。
+最後一個選項是使用 **Taproot**（BIP341 引進）與 *Tapret* 方案。 *Tapret* 是確定性 Commitment 的更複雜形式，在 Blockchain 的佔用空間和 Contract 作業的保密性方面帶來改善。主要的構想是將 Commitment 隱藏在 [Taproot 交易](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) 的「腳本路徑支出」部分。
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -848,7 +848,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 其中 ：
 
 
-- `mpc_tag` 是一個標籤：`urn:ubideco:mpc:Commitment#2024-01-31`，根據 [RGB 標籤慣例] (https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments.md) 選擇；
+- `mpc_tag` 是一個標籤：`urn:ubideco:mpc:Commitment#2024-01-31`，根據 [RGB 標籤慣例](https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments.md) 選擇；
 - `depth` (1 位元組) 表示 *MPC Tree* 的深度；
 - cofactor`（16 位元，以 Little Endian 表示）是一個參數，用來提升分配給樹狀結構中每個 Contract 的位置的唯一性；
 - `mpc::Root` 是 *MPC Tree* 的根，根據下一節所述的程序計算。

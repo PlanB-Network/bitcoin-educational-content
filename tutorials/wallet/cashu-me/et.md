@@ -188,7 +188,7 @@ Lisaks põhilistele saatmis- ja vastuvõtufunktsioonidele pakub Cashu.me võimsa
 ### Nostr Wallet Connect
 
 
-Nostr Wallet Connect (`NWC`) muudab teie suhtlemist Nostr rakendustega, luues sujuva ühenduse teie Wallet ja sotsiaalsete rakenduste vahel. See protokoll võimaldab sellistel rakendustel nagu [Damus] (https://damus.io/) või [Primal] (https://primal.net/home) taotleda makseid otse Nostr-relade kaudu, ilma et peaksite rakendusest lahkuma.
+Nostr Wallet Connect (`NWC`) muudab teie suhtlemist Nostr rakendustega, luues sujuva ühenduse teie Wallet ja sotsiaalsete rakenduste vahel. See protokoll võimaldab sellistel rakendustel nagu [Damus](https://damus.io/) või [Primal](https://primal.net/home) taotleda makseid otse Nostr-relade kaudu, ilma et peaksite rakendusest lahkuma.
 
 
 NWC seadistamine Cashu.me's:

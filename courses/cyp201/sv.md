@@ -1855,7 +1855,7 @@ Till exempel, för en 256-bitars entropi är resultatet $\text{ENT} \Vert \text{
 ### Omvandling av den binära sekvensen till en Mnemonic-fras
 
 
-Bitsekvensen $\text{ENT} \Vert \text{CS}$ är sedan uppdelad i segment om 11 bitar. Varje 11-bitarssegment motsvarar, efter omvandling till decimal, ett tal mellan 0 och 2047, vilket anger positionen för ett ord [i en lista med 2048 ord som standardiserats av BIP39] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitsekvensen $\text{ENT} \Vert \text{CS}$ är sedan uppdelad i segment om 11 bitar. Varje 11-bitarssegment motsvarar, efter omvandling till decimal, ett tal mellan 0 och 2047, vilket anger positionen för ett ord [i en lista med 2048 ord som standardiserats av BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)

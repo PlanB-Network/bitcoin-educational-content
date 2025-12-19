@@ -50,7 +50,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ![Installation de Peach](assets/fr/01.webp)
 
 
-- Descarregar a aplicação a partir de [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/).
+- Descarregar a aplicação a partir de [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
 - Siga as instruções de instalação no seu dispositivo.
 - Durante a instalação, ser-lhe-á pedido que escolha se pretende partilhar determinados dados para melhorar a aplicação Peach (imagem 1)
 - No ecrã seguinte (imagem 2), existem duas opções:

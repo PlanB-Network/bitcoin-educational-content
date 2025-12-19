@@ -29,7 +29,7 @@ Jeśli chodzi o połączenie, Sparrow pozwala połączyć się z własnym węzł
 ## Zainstaluj Sparrow Wallet
 
 
-Przejdź do [oficjalnej strony pobierania Sparrow Wallet] (https://sparrowwallet.com/download/) i wybierz wersję oprogramowania odpowiadającą Twojemu systemowi operacyjnemu.
+Przejdź do [oficjalnej strony pobierania Sparrow Wallet](https://sparrowwallet.com/download/) i wybierz wersję oprogramowania odpowiadającą Twojemu systemowi operacyjnemu.
 
 
 ![Image](assets/fr/01.webp)

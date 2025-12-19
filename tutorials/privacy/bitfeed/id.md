@@ -163,7 +163,7 @@ Oleh karena itu, transaksi yang paling banyak menggunakan ruang belum tentu meru
 
 
 
-Jika Anda mengikuti skala pada menu **Info**, transaksi dengan rasio biaya transaksi tertinggi adalah yang berwarna ungu. Ini adalah transaksi [bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35] (https://bitfeed.live/tx/bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35) dengan rasio biaya transaksi sebesar `147,49 sats/vBytes`.
+Jika Anda mengikuti skala pada menu **Info**, transaksi dengan rasio biaya transaksi tertinggi adalah yang berwarna ungu. Ini adalah transaksi [bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35](https://bitfeed.live/tx/bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35) dengan rasio biaya transaksi sebesar `147,49 sats/vBytes`.
 
 
 
@@ -177,7 +177,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Mempool adalah lokasi virtual di mana transaksi Bitcoin yang menunggu untuk dimasukkan ke dalam blok dikelompokkan bersama. Bitfeed memungkinkan konsultasi [mempool] (https://planb.academy/resources/glossary/mempool) dari beberapa penambang Bitcoin, yang menawarkan berbagai macam pelacakan transaksi.
+Mempool adalah lokasi virtual di mana transaksi Bitcoin yang menunggu untuk dimasukkan ke dalam blok dikelompokkan bersama. Bitfeed memungkinkan konsultasi [mempool](https://planb.academy/resources/glossary/mempool) dari beberapa penambang Bitcoin, yang menawarkan berbagai macam pelacakan transaksi.
 
 
 

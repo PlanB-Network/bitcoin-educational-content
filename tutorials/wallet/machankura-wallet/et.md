@@ -101,7 +101,7 @@ Kuid Machankura tegeleb selle probleemiga, laiendades oma funktsionaalsust oma v
 
 
 
-Et saada teavet uute riikide kohta, kus teenus on saadaval, vaadake regulaarselt nende [veebisaiti] (https://8333.mobi).
+Et saada teavet uute riikide kohta, kus teenus on saadaval, vaadake regulaarselt nende [veebisaiti](https://8333.mobi).
 
 
 
@@ -370,7 +370,7 @@ Teine, mis on esimese loogiline jätk, on kaasav ja kohalik lahendus, kasutades 
 
 
 
-Alustamiseks peate kirjutama Machankura WhatsApp-botile sõnumi (lihtne "Tere" on enam kui piisav). Tema WhatsAppi number on [+27 73 762 5720] (https://wa.me/+27737625720).
+Alustamiseks peate kirjutama Machankura WhatsApp-botile sõnumi (lihtne "Tere" on enam kui piisav). Tema WhatsAppi number on [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

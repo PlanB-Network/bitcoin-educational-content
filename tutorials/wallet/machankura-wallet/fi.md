@@ -101,7 +101,7 @@ Machankura kuitenkin puuttuu tähän ongelmaan laajentamalla toimintojaan verkko
 
 
 
-Jos haluat saada tietoa uusista maista, joissa palvelu on saatavilla, tutustu säännöllisesti [verkkosivustoon] (https://8333.mobi).
+Jos haluat saada tietoa uusista maista, joissa palvelu on saatavilla, tutustu säännöllisesti [verkkosivustoon](https://8333.mobi).
 
 
 

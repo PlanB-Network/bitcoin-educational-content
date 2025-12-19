@@ -39,7 +39,7 @@ Vuodesta 2009 lähtien Bitcoin on kasvanut hellittämättä. Kasvu on ilmennyt u
 Sen kehitys näkyy myös On-Chain:ssä, jossa liiketoimien määrä kasvaa tasaisesti.
 
 
-Esimerkiksi 1. tammikuuta 2018 ja 1. tammikuuta 2024 välisenä aikana Bitcoin:n pääliikenneverkon Layer liiketoimien määrän arvioidaan [kasvaneen 66,2 prosenttia] (https://dune.com/queries/3375917/5663935). Samaan aikaan elokuun 2021 ja elokuun 2023 välisenä aikana Lightning Network:n julkisten liiketoimien määrä [kasvoi 1212 prosenttia](https://river.com/learn/files/river-lightning-report-2023.pdf).
+Esimerkiksi 1. tammikuuta 2018 ja 1. tammikuuta 2024 välisenä aikana Bitcoin:n pääliikenneverkon Layer liiketoimien määrän arvioidaan [kasvaneen 66,2 prosenttia](https://dune.com/queries/3375917/5663935). Samaan aikaan elokuun 2021 ja elokuun 2023 välisenä aikana Lightning Network:n julkisten liiketoimien määrä [kasvoi 1212 prosenttia](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
 
@@ -48,7 +48,7 @@ Tämä merkittävä kasvu liittyy luonnollisesti läheisesti seuraaviin tekijöi
 
 
 
-- [ihmisten kasvava kiinnostus eri puolilla maailmaa Bitcoin:n käyttöön] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), jotta he voisivat vapautua pankkijärjestelmästä ja/tai käyttää vähemmän epävakaata tai vähemmän devalvoitua valuuttaa, kuten Libanonin, Syyrian, Egyptin, Argentiinan ja muiden maiden väestöt tekevät;
+- [ihmisten kasvava kiinnostus eri puolilla maailmaa Bitcoin:n käyttöön](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), jotta he voisivat vapautua pankkijärjestelmästä ja/tai käyttää vähemmän epävakaata tai vähemmän devalvoitua valuuttaa, kuten Libanonin, Syyrian, Egyptin, Argentiinan ja muiden maiden väestöt tekevät;
 - sen hinnannousu ajan mittaan, mikä tekee siitä arvon säilyttäjän ja pitkäaikaisen sijoituskohteen, joka perustuu sen kiinteään rahapolitiikkaan;
 - spekulatiivisten kryptovaluuttamarkkinoiden peräkkäinen kasvu erityisesti vuosina 2017-2018 ja 2020-2021;
 - Bitcoin:n kasvava läsnäolo valtamediassa.
@@ -245,7 +245,7 @@ Käsittelemme monia näistä mahdollisuuksista yksityiskohtaisesti tämän kurss
 
 
 
-Vaikka jokainen yhteisö voi vapaasti muodostaa omia mielipiteitään, käynnistää projekteja ja kokeilla omalla tavallaan, tapaamiset ovat osoittautuneet yhä useammin **välttämättömiksi Bitcoin:n kehitykselle ja bitcoinin käyttäjien kasvulle**. **Tapaamisten järjestäminen vaatii aikaa ja vaivaa**, minkä vuoksi tällä kurssilla jaetaan [noin kuudenkymmenen Ranskassa ja Belgiassa toimivan Bitcoin-yhteisön] (https://btcmap.org/communities/map#2/5.24949/0.20000) yhdistettyä kokemusta ** auttaakseen sinua rakentamaan ja kasvattamaan omaa yhteisöäsi ja tapaamisiasi mahdollisimman sujuvasti**.
+Vaikka jokainen yhteisö voi vapaasti muodostaa omia mielipiteitään, käynnistää projekteja ja kokeilla omalla tavallaan, tapaamiset ovat osoittautuneet yhä useammin **välttämättömiksi Bitcoin:n kehitykselle ja bitcoinin käyttäjien kasvulle**. **Tapaamisten järjestäminen vaatii aikaa ja vaivaa**, minkä vuoksi tällä kurssilla jaetaan [noin kuudenkymmenen Ranskassa ja Belgiassa toimivan Bitcoin-yhteisön](https://btcmap.org/communities/map#2/5.24949/0.20000) yhdistettyä kokemusta ** auttaakseen sinua rakentamaan ja kasvattamaan omaa yhteisöäsi ja tapaamisiasi mahdollisimman sujuvasti**.
 
 
 
@@ -688,7 +688,7 @@ Tähän tarkoitukseen on saatavilla useita tekoälyjä. Näitä ovat
 - [midjourney](https://docs.midjourney.com/docs/quick-start) (maksettu);
 - [leonardo](https://leonardo.ai/) (ilmainen, tilirajoitettu);
 - [copilot](https://copilot.microsoft.com/) (ilmainen, tilirajoitettu);
-- [DALL-E] (https://www.dall-efree.com/) (maksullinen).
+- [DALL-E](https://www.dall-efree.com/) (maksullinen).
 
 
 Viime aikoina on kehitetty monia muitakin tekoälytyökaluja, joten tämä luettelo ei ole läheskään tyhjentävä.
@@ -1392,7 +1392,7 @@ Näihin kuuluvat:
 
 
 - [Btcmap.org](https://btcmap.org/), sivusto, jossa on kaksi päivittäin päivitettävää karttaa: **[Bitcoin:n hyväksyvien yritysten maailmankartta](https://btcmap.org/map)** ja **[maailman yhteisöjen kartta](https://btcmap.org/communities/map)**. Monet bitcoin-käyttäjät tarkistavat näitä karttoja säännöllisesti, olivatpa he sitten matkoilla tai menossa jokapäiväiseen elämäänsä, tutustuakseen uusiin ihmisiin tai löytääkseen paikkoja, joissa he voivat käyttää Sats:nsa. Btcmap on maailmanlaajuinen referenssi, ja yhteisönne listaaminen sinne on tärkeää näkyvyyden kannalta.
-- [BitcoinerEvents] (https://www.bitcoinerevents.com/), bitcoinereiden bitcoinereille luoma verkkosivusto. **Sen avulla voit julkaista yhteisösi tulevia tapahtumia**. Ranskassa sitä ei kuitenkaan vielä käytetä laajalti.
+- [BitcoinerEvents](https://www.bitcoinerevents.com/), bitcoinereiden bitcoinereille luoma verkkosivusto. **Sen avulla voit julkaista yhteisösi tulevia tapahtumia**. Ranskassa sitä ei kuitenkaan vielä käytetä laajalti.
 - maastasi riippuen voi olla muitakin paikallisia aloitteita. Ranskassa on esimerkiksi [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), jossa **luetteloidaan kymmeniä Bitcoin-tapahtumia joka kuukausi**. Jos et siis ole vielä seurannut heitä Twitterissä tai ottanut heihin yhteyttä jakaaksesi tietoa yhteisöstäsi ja tapahtumista, nyt on sen aika! **Jotta Ranskan tapahtumakalenteri pysyisi ajan tasalla, olisi hienoa, jos kaikki ranskalaiset Bitcoin-yhteisöt ottaisivat tavakseen:**
     - mainitsemalla @bitcoinpointfr Twitterissä jokaisesta uudesta yhteisötapahtumasta
     - uusien tapahtumailmoitusten kiinnittäminen Telegram-ryhmäänsä.
@@ -1547,7 +1547,7 @@ Toisessa tapauksessa toinen kuukausittainen tapahtuma voisi olla omistettu tiety
 
 
 
-Muista, että **tämä vaatii enemmän organisointia ja enemmän aikaa**. Onneksi [tämän kurssin osassa 6/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) on joukko uudelleenkäytettäviä avoimen lähdekoodin resursseja, jotka auttavat sinua.
+Muista, että **tämä vaatii enemmän organisointia ja enemmän aikaa**. Onneksi [tämän kurssin osassa 6/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) on joukko uudelleenkäytettäviä avoimen lähdekoodin resursseja, jotka auttavat sinua.
 
 
 Joka tapauksessa kaikki riippuu siitä, millaisen lyhyen, keskipitkän ja pitkän aikavälin toimintasuunnitelman sinä tai yhteisösi olette laatineet itsellenne.
@@ -1721,7 +1721,7 @@ Roomaa ei rakennettu yhdessä päivässä, eikä yhteisöäsi rakenneta päiväs
 Yksi asia on olennaisen tärkeää, jotta se voisi tapahtua: **pitää osallistujat sitoutuneina**.
 
 
-Se voisi alkaa pienellä ryhmällä intohimoisia bitcoinin käyttäjiä, joiden tavoitteena on kokoontua säännöllisesti yhteen ja puhua Bitcoin:stä. Ajan mittaan, kunkin henkilön saatavuudesta ja kiinnostuksen kohteista riippuen, voit **jakaa tiettyjä organisointitehtäviä ryhmän kanssa** tai kutsua keskeisiä **jäseniä ryhtymään tiettyihin projekteihin**. Nämä voivat olla ainutlaatuisia omalle yhteisöllesi, tapaamisillesi tai kaupungillesi tai jopa [tämän kurssin osassa 6/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) ehdotettujen monien aloitteiden innoittamia. **Tämä ei ainoastaan edistä Commitment:n toimintaa ydinjäseniltäsi vaan myös auttaa yhteisösi kasvamaan ja kukoistamaan**.
+Se voisi alkaa pienellä ryhmällä intohimoisia bitcoinin käyttäjiä, joiden tavoitteena on kokoontua säännöllisesti yhteen ja puhua Bitcoin:stä. Ajan mittaan, kunkin henkilön saatavuudesta ja kiinnostuksen kohteista riippuen, voit **jakaa tiettyjä organisointitehtäviä ryhmän kanssa** tai kutsua keskeisiä **jäseniä ryhtymään tiettyihin projekteihin**. Nämä voivat olla ainutlaatuisia omalle yhteisöllesi, tapaamisillesi tai kaupungillesi tai jopa [tämän kurssin osassa 6/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) ehdotettujen monien aloitteiden innoittamia. **Tämä ei ainoastaan edistä Commitment:n toimintaa ydinjäseniltäsi vaan myös auttaa yhteisösi kasvamaan ja kukoistamaan**.
 
 
 Tapaamisten edetessä uusia kasvoja ilmestyy: ihmisiä, jotka ovat ostaneet BTC:tä ja/tai altcoineja aiempien syklien aikana, tekniikan harrastajia, jotka haluavat syventää ymmärrystään, tai täysin aloittelijoita, jotka ovat uteliaita tästä sensuroimattomasta, hajautetusta, läpinäkyvästä ja oikeudenmukaisesta maksujärjestelmästä, joka toimii ilman ehtoja ja ilman luotettavia kolmansia osapuolia.
@@ -1978,7 +1978,7 @@ Bitcoin:een liittyvän lukemisen edistämiseksi voisit käydä **paikallisissa k
 
 Jos näin on, kysy kirjastonhoitajilta, onko aiheeseen liittyen suunnitteilla pyöreitä pöytiä, ja tarjoa heille tapaamisesi yhteystietoja.
 
-Jos ei, ehdota, että he hankkivat muutaman kirjan ennalta valitulta listalta. [kustantajan Konsensusverkosto] (https://konsensus.network/) voi olla inspiraation lähde.
+Jos ei, ehdota, että he hankkivat muutaman kirjan ennalta valitulta listalta. [kustantajan Konsensusverkosto](https://konsensus.network/) voi olla inspiraation lähde.
 
 
 
@@ -2006,7 +2006,7 @@ Voisit myös suunnitella yhteisöllesi tai tapaamisellesi tarkoitetun esitteen, 
 Useita esitteitä on jo **saatavilla avoimena lähdekoodina [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** -verkkopalvelussa planB.networkissa, ja lisää lisätään ajan mittaan.
 
 
-Yksi esimerkki on [täydellinen esite] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), jossa on 21 syytä käyttää Bitcoin:ta. Sen ulkoasu on myös [saatavana avoimena lähdekoodina](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), jota voit muokata, mukauttaa ja jakaa. Muistakaa vain mainita lähteenne.
+Yksi esimerkki on [täydellinen esite](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), jossa on 21 syytä käyttää Bitcoin:ta. Sen ulkoasu on myös [saatavana avoimena lähdekoodina](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), jota voit muokata, mukauttaa ja jakaa. Muistakaa vain mainita lähteenne.
 
 
 
@@ -2154,10 +2154,10 @@ Vaihtoehtoisesti voit myös tehdä isosta pahvipalasta sabluunan ja käyttää s
 Toinen omaperäinen hankeidea on luoda henkilökohtaisia NFC-kortteja Lightning-maksuja varten (yhteensopiva BoltCard-standardin kanssa). Tähän sveitsiläinen Bitcoin Pay on loistava kumppani.
 
 
-[Verkkosivusto] (https://swiss-Bitcoin-pay.ch/cards) tarjoaa tällä hetkellä neljä vakiomallia.
+[Verkkosivusto](https://swiss-Bitcoin-pay.ch/cards) tarjoaa tällä hetkellä neljä vakiomallia.
 
 
-Jos haluat tilata yli 50 NFC-korttia, voit ottaa yhteyttä yritykseen sen virallisella verkkosivustolla tai [Twitterissä] (https://twitter.com/SwissBitcoinPay) ja ehdottaa kortin etupuolelle räätälöityä mallia. Kääntöpuoli pysyy vakiomuotoisena.
+Jos haluat tilata yli 50 NFC-korttia, voit ottaa yhteyttä yritykseen sen virallisella verkkosivustolla tai [Twitterissä](https://twitter.com/SwissBitcoinPay) ja ehdottaa kortin etupuolelle räätälöityä mallia. Kääntöpuoli pysyy vakiomuotoisena.
 
 
 
@@ -2165,7 +2165,7 @@ Jos haluat tilata yli 50 NFC-korttia, voit ottaa yhteyttä yritykseen sen virall
 
 
 
-Esimerkiksi vuonna 2023 ranskalainen yhdistys [Bitcoin Lille] (https://twitter.com/BitcoinLille) tilasi erän NFC-kortteja, joissa oli mukautettu muotoilu. Jokainen uusi jäsen sai yhden kortin tervetuliaispakettiinsa vuoden aikana. Tätä ideaa voidaan helposti mukauttaa ja personoida omaa yhteisöäsi varten.
+Esimerkiksi vuonna 2023 ranskalainen yhdistys [Bitcoin Lille](https://twitter.com/BitcoinLille) tilasi erän NFC-kortteja, joissa oli mukautettu muotoilu. Jokainen uusi jäsen sai yhden kortin tervetuliaispakettiinsa vuoden aikana. Tätä ideaa voidaan helposti mukauttaa ja personoida omaa yhteisöäsi varten.
 
 
 Näiden korttien yksikköhinta vaihtelee yleensä 2,50 eurosta 5 euroon tilauksen koosta ja markkinaolosuhteista riippuen, ja suuremmista määristä veloitetaan alhaisempi hinta.
@@ -2217,12 +2217,12 @@ Voit myös pitää esitelmiä tapaamisissa tai jopa yliopistoissa.
 Suosittuja alustoja ovat mm:
 
 
-- [**YouTube**] (https://www.youtube.com/), jota käytetään laajalti mutta joka ei ole sensuurin kestävä.
-- [**Odyssee**] (https://odysee.com/), joka on vähemmän suosittu, mutta hajautettu vertaisverkkoteknologian avulla.
+- [**YouTube**](https://www.youtube.com/), jota käytetään laajalti mutta joka ei ole sensuurin kestävä.
+- [**Odyssee**](https://odysee.com/), joka on vähemmän suosittu, mutta hajautettu vertaisverkkoteknologian avulla.
 - [**peertube**](https://joinpeertube.org/fr_FR), voit isännöidä omaa videoalustasi, mutta sen perustaminen on monimutkaisempaa.
 
 
-Kumman tahansa valitsetkin, suunnittele alustakohtainen visuaalinen ilme, jotta kanavasi olisi houkutteleva. Canva, joka mainittiin [osassa 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), tarjoaa "YouTube Thumbnail" -luokan, jossa on valmiita, mukautettavia malleja.
+Kumman tahansa valitsetkin, suunnittele alustakohtainen visuaalinen ilme, jotta kanavasi olisi houkutteleva. Canva, joka mainittiin [osassa 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), tarjoaa "YouTube Thumbnail" -luokan, jossa on valmiita, mukautettavia malleja.
 
 
 
@@ -2262,12 +2262,12 @@ Suosittuja podcast-alustoja ovat mm:
 - [**Google podcast**](https://podcasts.google.com/).
 
 
-Jokaisella alustalla on oma yleisönsä, joten useilla alustoilla läsnäolo laajentaa tavoittavuuttasi. **[Spotify for podcasters] (https://podcasters.spotify.com/) tekee tästä helppoa, sillä voit ladata podcastisi kerran ja generate RSS-syötteen muille alustoille**.
+Jokaisella alustalla on oma yleisönsä, joten useilla alustoilla läsnäolo laajentaa tavoittavuuttasi. **[Spotify for podcasters](https://podcasters.spotify.com/) tekee tästä helppoa, sillä voit ladata podcastisi kerran ja generate RSS-syötteen muille alustoille**.
 
 Kun työ on tehty "Spotify for Podcasters" -palvelussa, sisältösi on enää muotoiltava muita alustoja varten, ja tämä prosessi on suhteellisen nopea.
 
 
-Äänittämistä varten [Audacity] (https://www.audacityteam.org/) on ilmainen, ja sen avulla voit säätää äänen tasoja, lisätä efektejä, kuten häivytyksiä, ja parantaa selkeyttä muokkauksen aikana. Äänen nauhoittaminen ja ammattilaatuisen podcastin luominen on helppoa.
+Äänittämistä varten [Audacity](https://www.audacityteam.org/) on ilmainen, ja sen avulla voit säätää äänen tasoja, lisätä efektejä, kuten häivytyksiä, ja parantaa selkeyttä muokkauksen aikana. Äänen nauhoittaminen ja ammattilaatuisen podcastin luominen on helppoa.
 
 
 Tässä on lyhyt 10 minuutin opetusohjelma, joka kattaa podcastin luomisen Audacityllä:
@@ -2334,7 +2334,7 @@ On viisasta laatia yhteisön kanssa etukäteen selkeä menettelytapa tällaisia 
 
 Vakioprotokollan noudattaminen estää myös ketä tahansa, jäsentä tai vierasta, käyttämästä tilannetta hyväkseen varastamalla varoja.
 
-Voisitte perustaa erityisen työryhmän määrittelemään tämän prosessin. Bitcoin Lille -yhdistys on jo laatimassa tällaista [asiakirjaa] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), jonka he aikovat julkaista avoimena lähikuukausina.
+Voisitte perustaa erityisen työryhmän määrittelemään tämän prosessin. Bitcoin Lille -yhdistys on jo laatimassa tällaista [asiakirjaa](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), jonka he aikovat julkaista avoimena lähikuukausina.
 
 
 
@@ -2501,7 +2501,7 @@ Kyselytoiminta on pitkäjänteistä. Se vaatii kärsivällisyyttä, pitkäjänte
 Bitcoin-asiakkaat keskittyvät usein sosiaaliseen mediaan ja verkkoalustoihin, mutta se on vain osa kokonaisuutta. Paikallinen lehdistö ja radio voivat olla voimakkaita liittolaisia.
 
 
-Jotkin yhteisöt, kuten [Breizh Bitcoin] (https://breizhbitcoin.com/) Ranskassa, ottavat **säännöllisesti yhteyttä paikallisiin tiedotusvälineisiinsä**:
+Jotkin yhteisöt, kuten [Breizh Bitcoin](https://breizhbitcoin.com/) Ranskassa, ottavat **säännöllisesti yhteyttä paikallisiin tiedotusvälineisiinsä**:
 
 
 - Ilmoita tulevista tapahtumista (tapaamiset, esitykset, työpajat, Halving-juhlat jne.).
@@ -2657,7 +2657,7 @@ Ratkaisu: hajauta tehtävät, roolit ja käyttöoikeudet, jotta ryhmä voi jatka
 
 **Miten hajauttamista voidaan viedä eteenpäin?**
 
-Ota käyttöön **vapaat ja avoimen lähdekoodin ohjelmistot**, kuten [framasoft suite] (https://framasoft.org/fr/), jotta vähennät riippuvuutta keskitetyistä alustoista ja lisäät vastustuskykyä mahdollisen valtiollisen sensuurin tai Bitcoin-kieltojen varalta.
+Ota käyttöön **vapaat ja avoimen lähdekoodin ohjelmistot**, kuten [framasoft suite](https://framasoft.org/fr/), jotta vähennät riippuvuutta keskitetyistä alustoista ja lisäät vastustuskykyä mahdollisen valtiollisen sensuurin tai Bitcoin-kieltojen varalta.
 
 Käytä **salattuja tai anonyymejä viestintävälineitä** suojellaksesi jäsentesi yksityisyyttä ja yhteisösi toimintaa.
 

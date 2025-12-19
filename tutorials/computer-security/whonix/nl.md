@@ -66,7 +66,7 @@ Hier zijn de aanbevolen specificaties voor een soepele en stabiele ervaring met 
 
 
 
-Whonix is verkrijgbaar in verschillende edities, afhankelijk van het type omgeving waarin je het wilt gebruiken. Voor de meeste gebruikers (Windows, Linux of MacOs) is de VirtualBox editie het makkelijkst op te zetten. Je kunt het image rechtstreeks downloaden van [de officiële website] (https://www.whonix.org/wiki/VirtualBox).
+Whonix is verkrijgbaar in verschillende edities, afhankelijk van het type omgeving waarin je het wilt gebruiken. Voor de meeste gebruikers (Windows, Linux of MacOs) is de VirtualBox editie het makkelijkst op te zetten. Je kunt het image rechtstreeks downloaden van [de officiële website](https://www.whonix.org/wiki/VirtualBox).
 
 
 

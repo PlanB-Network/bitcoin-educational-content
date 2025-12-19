@@ -614,7 +614,7 @@ Bir ev mining havuzunun başarılı bir şekilde kurulması, merkezi olmayan Bit
 Yüzey montajlı cihaz (SMD) lehimleme dünyasında, özellikle Bitaxe projeleriyle çalışırken, doğru aletlere sahip olmak hayal kırıklığı ile başarı arasındaki farkı yaratır. Bu kapsamlı kılavuz, temel el aletlerinden lehimleme yeteneklerinizi artıracak özel ekipmanlara kadar SMD lehimleme projelerini etkili bir şekilde ele almak için gereken temel ekipmanları kapsamaktadır.
 
 
-Şemalar hakkında bazı belgelere başvurmak istiyorsanız, bu [GitHub repo] (https://github.com/skot/bitaxe-doc/tree/main) adresini kontrol edin.
+Şemalar hakkında bazı belgelere başvurmak istiyorsanız, bu [GitHub repo](https://github.com/skot/bitaxe-doc/tree/main) adresini kontrol edin.
 
 
 ### Temel El Aletleri ve Hassas Aletler

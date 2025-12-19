@@ -21,7 +21,7 @@ La oss gå gjennom hvor enkelt det er å begynne å stable Sats med Bittr.
 ## Kom i gang med Bittr
 
 
-- Gå til [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) på nett eller mobil, og klikk på "Buy Bitcoin"
+- Gå til [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) på nett eller mobil, og klikk på "Buy Bitcoin"
 
 
 
@@ -61,7 +61,7 @@ Vi anbefaler at du gjør oppsettet på et rolig og privat sted. Det bør ikke ta
 - Velg "bluewallet" på nettstedet
 
 
-- Last ned BlueWallet-appen her: [App Store] (https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play] (https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Last ned BlueWallet-appen her: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)

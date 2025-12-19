@@ -101,7 +101,7 @@ No entanto, a Machankura está a resolver este problema alargando a sua funciona
 
 
 
-Para ser informado sobre os novos países onde o serviço estará disponível, consulte regularmente o [sítio Web] (https://8333.mobi).
+Para ser informado sobre os novos países onde o serviço estará disponível, consulte regularmente o [sítio Web](https://8333.mobi).
 
 
 
@@ -301,7 +301,7 @@ Se o número do destinatário ainda não tiver sido registado como utilizador, a
 
 
 
-Pode ver a [demonstração de envio de vídeo] (https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) de bitcoins por PIO TARAS (Lead Machankura Afrique Francophone) através de Machankura num telemóvel básico.
+Pode ver a [demonstração de envio de vídeo](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) de bitcoins por PIO TARAS (Lead Machankura Afrique Francophone) através de Machankura num telemóvel básico.
 
 
 

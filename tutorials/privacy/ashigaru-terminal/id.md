@@ -33,7 +33,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3
 
 
 
-Untuk menginstal Ashigaru Terminal, Anda membutuhkan Tor Browser, karena binari hanya didistribusikan melalui jaringan Tor. Jika Anda belum melakukannya, [instal di komputer Anda] (https://www.torproject.org/download/).
+Untuk menginstal Ashigaru Terminal, Anda membutuhkan Tor Browser, karena binari hanya didistribusikan melalui jaringan Tor. Jika Anda belum melakukannya, [instal di komputer Anda](https://www.torproject.org/download/).
 
 
 
@@ -41,7 +41,7 @@ Untuk menginstal Ashigaru Terminal, Anda membutuhkan Tor Browser, karena binari 
 
 
 
-Dari Tor Browser, buka [halaman rilis repositori Git mereka] (http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) untuk mengunduh versi terbaru Ashigaru Terminal untuk sistem operasi Anda.
+Dari Tor Browser, buka [halaman rilis repositori Git mereka](http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) untuk mengunduh versi terbaru Ashigaru Terminal untuk sistem operasi Anda.
 
 
 

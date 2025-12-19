@@ -729,7 +729,7 @@ Pensamos menos nisso, mas certos comportamentos humanos são reconhecíveis em c
 
 Em primeiro lugar, uma análise temporal pode, por vezes, identificar a natureza da entidade seguida. Se observarmos que as transacções são difundidas de forma consistente ao longo de 24 horas, isso denuncia um elevado nível de atividade económica. É provável que a entidade por detrás destas transacções seja uma empresa, potencialmente internacional e talvez com procedimentos internos automatizados.
 
-Por exemplo, [reconheci este padrão há alguns meses] (https://twitter.com/Loic_Pandul/status/1701127409712452072) ao analisar [a transação que tinha atribuído erradamente 19 bitcoins em taxas] (https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Uma simples análise temporal permitiu-me colocar a hipótese de que estávamos a lidar com um serviço automatizado e, portanto, provavelmente com uma grande entidade, como uma plataforma de câmbio.
+Por exemplo, [reconheci este padrão há alguns meses](https://twitter.com/Loic_Pandul/status/1701127409712452072) ao analisar [a transação que tinha atribuído erradamente 19 bitcoins em taxas](https://mempool.space/tx/d5392d474b4c436e1c9d1f4ff4be5f5f9bb0eb2e26b61d2781751474b7e870fd). Uma simples análise temporal permitiu-me colocar a hipótese de que estávamos a lidar com um serviço automatizado e, portanto, provavelmente com uma grande entidade, como uma plataforma de câmbio.
 
 De facto, alguns dias mais tarde, descobriu-se que os fundos pertenciam ao PayPal, através da plataforma de câmbio Paxos.
 
@@ -1030,8 +1030,8 @@ ___
 *Para redigir esta parte 3 sobre a análise da cadeia, recorri aos seguintes recursos:*
 
 
-- A série de quatro artigos intitulada: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produzida pela Samourai Wallet em 2021;
-- Os vários relatórios da [OXT Research] (https://medium.com/oxt-research), bem como a sua ferramenta gratuita de análise da cadeia de blocos (que deixou de estar disponível de momento na sequência da detenção dos fundadores da carteira Samourai);
+- A série de quatro artigos intitulada: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), produzida pela Samourai Wallet em 2021;
+- Os vários relatórios da [OXT Research](https://medium.com/oxt-research), bem como a sua ferramenta gratuita de análise da cadeia de blocos (que deixou de estar disponível de momento na sequência da detenção dos fundadores da carteira Samourai);
 - Em termos mais gerais, o meu conhecimento provém de vários tweets e conteúdos de [@LaurentMT](https://twitter.com/LaurentMT) e [@ErgoBTC](https://twitter.com/ErgoBTC);
 - O [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) no qual participei na companhia de [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) e [@LaurentMT](https://twitter.com/LaurentMT).
 
@@ -1414,7 +1414,7 @@ No entanto, existem riscos para a segurança pessoal. O principal perigo reside 
 
 ![BTC204](assets/pt/089.webp)
 
-Para limitar este risco, aconselho-o a preferir transacções em dinheiro com pessoas de confiança, como familiares ou amigos próximos. Em alternativa, pode também considerar negociar em [encontros locais de Bitcoin] (https://btcmap.org/communities/map), depois de participar algumas vezes. Isto permitir-lhe-á conhecer melhor os outros participantes e não estar sozinho quando efectua trocas físicas. No entanto, é importante reconhecer que as trocas de dinheiro P2P implicam riscos para a sua segurança pessoal que não existem quando compra através de uma plataforma regulamentada e da sua conta bancária.
+Para limitar este risco, aconselho-o a preferir transacções em dinheiro com pessoas de confiança, como familiares ou amigos próximos. Em alternativa, pode também considerar negociar em [encontros locais de Bitcoin](https://btcmap.org/communities/map), depois de participar algumas vezes. Isto permitir-lhe-á conhecer melhor os outros participantes e não estar sozinho quando efectua trocas físicas. No entanto, é importante reconhecer que as trocas de dinheiro P2P implicam riscos para a sua segurança pessoal que não existem quando compra através de uma plataforma regulamentada e da sua conta bancária.
 
 Além disso, dependendo do local onde se vive, transportar e armazenar grandes somas de dinheiro pode ser arriscado, quer se trate de bitcoin ou de dinheiro.
 
@@ -1448,7 +1448,7 @@ Mais uma vez, outra desvantagem das compras P2P é o facto de o preço ser frequ
 
 ![BTC204](assets/pt/095.webp)
 
-No que diz respeito às soluções, pessoalmente sempre utilizei o [Bisq] (https://bisq.network/) e estou muito satisfeito com ele. O seu sistema foi testado e parece fiável. No entanto, o Bisq só está disponível para PC e a sua interface pode ser demasiado complexa para principiantes. Outra desvantagem é que o Bisq só funciona com transacções onchain, o que pode tornar-se dispendioso durante períodos de elevadas taxas de transação de Bitcoin.
+No que diz respeito às soluções, pessoalmente sempre utilizei o [Bisq](https://bisq.network/) e estou muito satisfeito com ele. O seu sistema foi testado e parece fiável. No entanto, o Bisq só está disponível para PC e a sua interface pode ser demasiado complexa para principiantes. Outra desvantagem é que o Bisq só funciona com transacções onchain, o que pode tornar-se dispendioso durante períodos de elevadas taxas de transação de Bitcoin.
 
 -> Consulte o nosso tutorial Bisq.
 
@@ -1460,7 +1460,7 @@ Para uma opção mais simples, pode experimentar [Peach](https://peachbitcoin.co
 
 https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-Outra opção online é [HodlHodl] (https://hodlhodl.com/), uma plataforma bem estabelecida que oferece boa liquidez, embora eu não a tenha testado pessoalmente.
+Outra opção online é [HodlHodl](https://hodlhodl.com/), uma plataforma bem estabelecida que oferece boa liquidez, embora eu não a tenha testado pessoalmente.
 
 -> Veja o nosso tutorial HodlHodl.
 
@@ -1861,7 +1861,7 @@ No mesmo tópico, podemos encontrar [uma mensagem de hashcoin em resposta a Dunc
 
 ### Zerolink
 
-O Zerolink é um protocolo de mistura abrangente que incorpora coinjoins Chaumian e várias estratégias para proteger o anonimato dos utilizadores contra várias formas de análise em cadeia, em particular minimizando os erros associados à gestão de carteiras. Este protocolo [foi introduzido por nopara73 e TDevD em 2017] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+O Zerolink é um protocolo de mistura abrangente que incorpora coinjoins Chaumian e várias estratégias para proteger o anonimato dos utilizadores contra várias formas de análise em cadeia, em particular minimizando os erros associados à gestão de carteiras. Este protocolo [foi introduzido por nopara73 e TDevD em 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/pt/132.webp)
 
@@ -2321,7 +2321,7 @@ A partir do número de interpretações de uma transação Bitcoin, podemos calc
 
 No contexto geral da criptografia e da informação, a entropia é uma medida quantitativa da incerteza ou imprevisibilidade associada a uma fonte de dados ou a um processo aleatório. Por outras palavras, a entropia é uma forma de medir a dificuldade de prever ou adivinhar uma informação.
 
-No contexto específico da análise da cadeia de blocos, entropia é também o nome de um indicador, derivado da entropia de Shannon e [inventado por LaurentMT] (https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), que pode ser calculado numa transação Bitcoin.
+No contexto específico da análise da cadeia de blocos, entropia é também o nome de um indicador, derivado da entropia de Shannon e [inventado por LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), que pode ser calculado numa transação Bitcoin.
 
 Quando uma transação apresenta um grande número de interpretações possíveis, é muitas vezes mais relevante referir a sua entropia. Este indicador mede a falta de conhecimento dos analistas sobre a configuração exacta da transação. Por outras palavras, quanto maior for a entropia, mais difícil se torna para os analistas identificar o fluxo de bitcoins entre entradas e saídas.
 
@@ -2931,7 +2931,7 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \paralelo P_A \paralelo m_A) \cdot P_
 
 Vamos resumir como funciona uma assinatura de adaptador num coinswap. Inicialmente, Alice envia a Bob uma transação não assinada acompanhada de um adaptador, permitindo a Bob verificar que o segredo revelado mais tarde lhe dará acesso a bitcoins. Em troca, Bob envia a Alice a sua própria transação não assinada e o seu adaptador. Alice pode então finalizar a transação de Bob e recuperar os bitcoins transmitindo uma transação válida graças ao segredo. Quando esta transação é publicada na cadeia de blocos, Bob tem a capacidade de extrair o segredo e, assim, desbloquear a transação de Alice. Consequentemente, se Alice iniciar uma transferência da bitcoin de Bob, Bob pode, por sua vez, aceder à bitcoin de Alice sem necessidade de confiança mútua.
 
-Note-se que as trocas de moedas foram propostas pela primeira vez por [Gregory Maxwell em outubro de 2013 no BitcoinTalk] (https://bitcointalk.org/index.php?topic=321228.0).
+Note-se que as trocas de moedas foram propostas pela primeira vez por [Gregory Maxwell em outubro de 2013 no BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
 ### Troca atómica
 
@@ -3889,7 +3889,7 @@ O BIP47 tem sido amplamente criticado por sua ineficiência onchain. Como explic
 
 No entanto, em determinadas situações, a transação de notificação pode ser um obstáculo para o utilizador. Tomemos o exemplo de uma doação única a um beneficiário: com um endereço Bitcoin clássico, uma única transação é suficiente para completar a doação. Mas com o BIP47, são necessárias duas transacções: uma para a notificação e outra para o pagamento efetivo. Quando a procura de espaço em bloco é baixa e as taxas de transação são baixas, este passo extra não é normalmente um problema. No entanto, em tempos de congestionamento, as taxas de transação podem tornar-se exorbitantes para um único pagamento, duplicando potencialmente o custo para o utilizador em comparação com uma transação Bitcoin normal, o que pode revelar-se inaceitável para o utilizador.
 
-Para situações em que o utilizador planeia efetuar apenas alguns pagamentos a um identificador estático, foram desenvolvidas outras soluções. Entre estas contam-se os pagamentos silenciosos, descritos em [BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Este protocolo permite utilizar um identificador estático para receber pagamentos sem produzir reutilizações de endereços e sem exigir a utilização de transacções de notificação. Vejamos como funciona este protocolo.
+Para situações em que o utilizador planeia efetuar apenas alguns pagamentos a um identificador estático, foram desenvolvidas outras soluções. Entre estas contam-se os pagamentos silenciosos, descritos em [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki). Este protocolo permite utilizar um identificador estático para receber pagamentos sem produzir reutilizações de endereços e sem exigir a utilização de transacções de notificação. Vejamos como funciona este protocolo.
 
 ---
 *Para entender completamente este capítulo, é essencial dominar o funcionamento do ECDH (Elliptic Curve Diffie-Hellman) e a derivação de chaves criptográficas numa carteira HD. Estes conceitos foram abordados em pormenor no capítulo anterior sobre o BIP47. Não os vou repetir aqui. Se ainda não está familiarizado com estes conceitos, recomendo que consulte o capítulo anterior antes de continuar com este. Não voltarei a falar dos riscos associados à reutilização dos endereços de receção, nem da importância de ter um identificador único para a receção dos pagamentos*
@@ -4272,13 +4272,13 @@ A proposta de Pagamentos Silenciosos é relativamente recente e só foi implemen
 
 - [CakeWallet](https://cakewallet.com/)
 - [Silentium](https://app.silentium.dev/)
-- [DonationWallet] (https://github.com/Sosthene00/donationwallet)
+- [DonationWallet](https://github.com/Sosthene00/donationwallet)
 
 Em breve, iremos fornecer-lhe um tutorial detalhado sobre como configurar o seu próprio endereço estático de pagamentos silenciosos.
 
 Uma vez que esta funcionalidade é nova, aconselhamos-te a ter cuidado e a evitar usar os Pagamentos silenciosos para grandes quantias na rede principal.
 
-*Para criar este capítulo sobre Pagamentos Silenciosos, utilizei [o sítio de explicação sobre Pagamentos Silenciosos] (https://silentpayments.xyz/) e [o documento de explicação sobre o BIP352] (https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
+*Para criar este capítulo sobre Pagamentos Silenciosos, utilizei [o sítio de explicação sobre Pagamentos Silenciosos](https://silentpayments.xyz/) e [o documento de explicação sobre o BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 # Seção final
 

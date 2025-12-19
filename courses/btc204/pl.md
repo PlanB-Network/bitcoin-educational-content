@@ -2005,7 +2005,7 @@ Niemniej jednak istnieje ryzyko dla bezpieczeństwa osobistego. Główne niebezp
 ![BTC204](assets/pl/089.webp)
 
 
-Aby ograniczyć to ryzyko, radziłbym preferować transakcje gotówkowe z zaufanymi osobami, takimi jak członkowie rodziny lub bliscy przyjaciele. Alternatywnie, możesz również rozważyć handel na [lokalnych spotkaniach Bitcoin] (https://btcmap.org/communities/map), po kilkukrotnym uczestnictwie. Pozwoli ci to lepiej poznać innych uczestników i nie będziesz sam podczas fizycznej wymiany. Ważne jest jednak, aby zdawać sobie sprawę, że wymiana gotówkowa P2P z natury wiąże się z ryzykiem dla osobistego bezpieczeństwa, które nie istnieje przy zakupie za pośrednictwem regulowanej platformy i konta bankowego.
+Aby ograniczyć to ryzyko, radziłbym preferować transakcje gotówkowe z zaufanymi osobami, takimi jak członkowie rodziny lub bliscy przyjaciele. Alternatywnie, możesz również rozważyć handel na [lokalnych spotkaniach Bitcoin](https://btcmap.org/communities/map), po kilkukrotnym uczestnictwie. Pozwoli ci to lepiej poznać innych uczestników i nie będziesz sam podczas fizycznej wymiany. Ważne jest jednak, aby zdawać sobie sprawę, że wymiana gotówkowa P2P z natury wiąże się z ryzykiem dla osobistego bezpieczeństwa, które nie istnieje przy zakupie za pośrednictwem regulowanej platformy i konta bankowego.
 
 
 Co więcej, w zależności od miejsca zamieszkania, transport i przechowywanie dużych sum pieniędzy może być ryzykowne, niezależnie od tego, czy jest to Bitcoin, czy gotówka.
@@ -2663,7 +2663,7 @@ W tym samym wątku możemy znaleźć [wiadomość od hashcoina w odpowiedzi do D
 ### Zerolink
 
 
-Zerolink to kompleksowy protokół miksowania, który zawiera Chaumian coinjoins i różne strategie ochrony anonimowości użytkowników przed kilkoma formami analizy łańcucha, w szczególności poprzez minimalizowanie błędów związanych z zarządzaniem portfelem. Protokół ten [został wprowadzony przez nopara73 i TDevD w 2017 r.] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink to kompleksowy protokół miksowania, który zawiera Chaumian coinjoins i różne strategie ochrony anonimowości użytkowników przed kilkoma formami analizy łańcucha, w szczególności poprzez minimalizowanie błędów związanych z zarządzaniem portfelem. Protokół ten [został wprowadzony przez nopara73 i TDevD w 2017 r.](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 
 ![BTC204](assets/pl/132.webp)

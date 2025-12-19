@@ -326,7 +326,7 @@ Depotmodellen krever årvåkenhet og gode sikkerhetsrutiner. Brukt på riktig m�
 
 
 - Offisiell nettside: [macadamia.cash](https://macadamia.cash)
-- Vanlige spørsmål om macadamia: [macadamia.cash/faq] (https://macadamia.cash/faq)
+- Vanlige spørsmål om macadamia: [macadamia.cash/faq](https://macadamia.cash/faq)
 - GitHub-kildekode: [github.com/zeugmaster/macadamia](https://github.com/zeugmaster/macadamia)
 
 
@@ -336,9 +336,9 @@ Depotmodellen krever årvåkenhet og gode sikkerhetsrutiner. Brukt på riktig m�
 
 
 
-- Teknisk dokumentasjon: [docs.cashu.space] (https://docs.cashu.space)
+- Teknisk dokumentasjon: [docs.cashu.space](https://docs.cashu.space)
 - Liste over offentlige myntverk: [bitcoinmints.com](https://bitcoinmints.com)
-- Offisielt nettsted for protokollen: [cashu.space] (https://cashu.space)
+- Offisielt nettsted for protokollen: [cashu.space](https://cashu.space)
 
 
 
@@ -347,4 +347,4 @@ Depotmodellen krever årvåkenhet og gode sikkerhetsrutiner. Brukt på riktig m�
 
 
 
-- Telegram Cashu gruppe: [t.me/cashu_ecash] (https://t.me/cashu_ecash)
+- Telegram Cashu gruppe: [t.me/cashu_ecash](https://t.me/cashu_ecash)

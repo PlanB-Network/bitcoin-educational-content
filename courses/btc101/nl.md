@@ -390,7 +390,7 @@ Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloon
 | 19               | 3,990,000   | 0.000095367431640625 BTC  | 20,999,959.946 BTC                   |
 | 20               | 4,200,000   | 0.0000476837158203125 BTC | 20,999,979.973 BTC                   |
 
-We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitale schaarste garanderen
 

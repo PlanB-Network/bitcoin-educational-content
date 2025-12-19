@@ -20,7 +20,7 @@ Blitz Wallet on Bitcoin isehooldus Wallet, mille lähtekood on saadaval (avatud 
 
 
 
-[Blitz Wallet] (https://blitz-Wallet.com/) on mobiilne Wallet, mis on saadaval Androidis (Play Store) ja iOS-is (App Store).
+[Blitz Wallet](https://blitz-Wallet.com/) on mobiilne Wallet, mis on saadaval Androidis (Play Store) ja iOS-is (App Store).
 
 
 

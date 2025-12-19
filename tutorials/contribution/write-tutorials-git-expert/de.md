@@ -12,7 +12,7 @@ Sie haben bereits:
 
 
 - Wählen Sie ein Thema für Ihr Lernprogramm;
-- Kontaktieren Sie das Plan ₿ Academy Team über [Telegram group] (https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
+- Kontaktieren Sie das Plan ₿ Academy Team über [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
 - Wählen Sie Ihre Beitragstools.
 
 In diesem Tutorial für erfahrene Git-Benutzer fassen wir kurz die wichtigsten Schritte und Richtlinien für das Anbieten eines neuen Plan ₿ Academy Tutorials zusammen. Wenn Sie mit Git und GitHub nicht vertraut sind, empfehle ich Ihnen, stattdessen eines dieser beiden anderen, detaillierteren Tutorials zu besuchen, die Sie Schritt für Schritt führen:
@@ -61,7 +61,7 @@ Erstellen von Diagrammen und visuellen Darstellungen:
 ### 1 - Konfigurieren Sie Ihre lokale Umgebung
 
 
-- Sie müssen Ihren eigenen Fork des [Plan ₿ Academy Repository auf GitHub] (https://github.com/PlanB-Network/bitcoin-educational-content) haben.
+- Sie müssen Ihren eigenen Fork des [Plan ₿ Academy Repository auf GitHub](https://github.com/PlanB-Network/bitcoin-educational-content) haben.
 - Synchronisieren Sie den Hauptzweig (`dev`) Ihrer Abspaltung mit dem Quell-Repository.
 - Aktualisieren Sie Ihren lokalen Klon.
 
@@ -99,7 +99,7 @@ git push -u origin tuto-green-wallet-loic
 
 ### 3 - Fügen Sie die Dokumente des Tutorials hinzu
 
-***Hinweis:*** Sie können die Schritte 3 und 4 mit [meinem Python-GUI-Skript] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) automatisieren. Führen Sie das Skript direkt aus seinem Ordner in Ihrem lokalen Klon aus und füllen Sie dann die erforderlichen Felder in der grafischen Benutzeroberfläche aus. Weitere Informationen zur Installation und Verwendung des Skripts finden Sie in der [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Hinweis:*** Sie können die Schritte 3 und 4 mit [meinem Python-GUI-Skript](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation) automatisieren. Führen Sie das Skript direkt aus seinem Ordner in Ihrem lokalen Klon aus und füllen Sie dann die erforderlichen Felder in der grafischen Benutzeroberfläche aus. Weitere Informationen zur Installation und Verwendung des Skripts finden Sie in der [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 Wenn Sie es lieber manuell machen möchten, folgen Sie diesen Schritten:
 
@@ -305,4 +305,4 @@ print("Hello, Bitcoin!")
         - Schwarz: `#000000`
         - Weiß: "#FFFFFF
 
-Wenn Sie technische Schwierigkeiten haben, Ihr Tutorial einzureichen, zögern Sie bitte nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge] (https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Herzlichen Dank!
+Wenn Sie technische Schwierigkeiten haben, Ihr Tutorial einzureichen, zögern Sie bitte nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge](https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Herzlichen Dank!

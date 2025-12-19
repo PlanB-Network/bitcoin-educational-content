@@ -132,7 +132,7 @@ Anda kemudian dapat menempelkan kode pembayaran lengkap penerima, atau memindai 
 
 
 
-Jika Anda hanya memiliki ID PayNym-nya, buka [Paynym.rs] (https://paynym.rs/) untuk menemukan kode QR yang terkait dengan kode pembayarannya.
+Jika Anda hanya memiliki ID PayNym-nya, buka [Paynym.rs](https://paynym.rs/) untuk menemukan kode QR yang terkait dengan kode pembayarannya.
 
 
 

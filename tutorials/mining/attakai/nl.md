@@ -222,7 +222,7 @@ Als je je Antminer vanaf je smartphone wilt in- en uitschakelen en het stroomver
 
 
 - 2X 3D adapter stuk 140mm naar 120mm
-- 2X NF-A14 iPPC-2000 PWM [link] (https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
+- 2X NF-A14 iPPC-2000 PWM [link](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
 - 2X 140mm ventilatorroosters [link](https://www.amazon.fr/dp/B06XD4FTSQ)
 - Noctua NF-A6x25 PWM [link](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
 - Elektriciensuiker 2,5mm2 [link](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)

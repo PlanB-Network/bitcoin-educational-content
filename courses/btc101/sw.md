@@ -1191,7 +1191,7 @@ Ni muhimu kutambua kwamba KYC ni mada muhimu ya majadiliano katika sekta ya Bitc
 
 ### Suluhu zisizo za KYC
 
-Kwa kuongeza, kuna [maeneo ya soko] (https://planb.academy/tutorials/exchange) ambapo unaweza kununua na kuuza bitcoins katika ubadilishanaji wa rika-kwa-rika. Kwa ujumla, unazingatia yafuatayo:
+Kwa kuongeza, kuna [maeneo ya soko](https://planb.academy/tutorials/exchange) ambapo unaweza kununua na kuuza bitcoins katika ubadilishanaji wa rika-kwa-rika. Kwa ujumla, unazingatia yafuatayo:
 
 
 - ATM za Bitcoin

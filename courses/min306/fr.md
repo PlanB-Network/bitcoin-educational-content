@@ -614,7 +614,7 @@ L'établissement réussi d'un pool mining domestique représente une étape impo
 Dans le monde du brasage de composants montés en surface (CMS), en particulier lorsque l'on travaille sur des projets Bitaxe, disposer des bons outils fait la différence entre la frustration et le succès. Ce guide complet couvre l'équipement essentiel nécessaire pour s'attaquer efficacement aux projets de soudure CMS, des outils manuels de base aux équipements spécialisés qui amélioreront vos capacités de soudure.
 
 
-Si vous souhaitez vous référer à de la documentation sur les schémas, consultez ce [GitHub repo] (https://github.com/skot/bitaxe-doc/tree/main).
+Si vous souhaitez vous référer à de la documentation sur les schémas, consultez ce [GitHub repo](https://github.com/skot/bitaxe-doc/tree/main).
 
 
 ### Outils à main de base et instruments de précision
@@ -1090,7 +1090,7 @@ La relation entre ces paramètres est complexe et interdépendante. Des fréquen
 ### Architecture de l'outil de référence Bitaxe Hashrate
 
 
-L'outil [Bitaxe Hashrate Benchmark] (https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) est une solution sophistiquée basée sur Python, développée à l'origine par WhiteCookie et améliorée par la suite par mrv777. Cet outil open-source, distribué sous licence GPLv3, automatise le processus complexe de test de multiples combinaisons de configurations afin d'identifier les paramètres optimaux pour votre matériel spécifique. La principale force de l'outil réside dans son approche systématique du test des paramètres, en ajustant progressivement les paramètres de fréquence et de tension tout en surveillant continuellement les mesures de performance et les conditions thermiques.
+L'outil [Bitaxe Hashrate Benchmark](https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) est une solution sophistiquée basée sur Python, développée à l'origine par WhiteCookie et améliorée par la suite par mrv777. Cet outil open-source, distribué sous licence GPLv3, automatise le processus complexe de test de multiples combinaisons de configurations afin d'identifier les paramètres optimaux pour votre matériel spécifique. La principale force de l'outil réside dans son approche systématique du test des paramètres, en ajustant progressivement les paramètres de fréquence et de tension tout en surveillant continuellement les mesures de performance et les conditions thermiques.
 
 
 Le processus d'évaluation comparative dure généralement de 30 à 40 minutes, au cours desquelles l'outil teste méthodiquement diverses combinaisons de paramètres de fréquence et de tension ASIC. L'outil commence par des réglages de base conservateurs, généralement à 1,15 volt et 500 mégahertz, puis augmente progressivement ces paramètres tout en surveillant le hashrate, la température et la stabilité. Il est important de noter que l'outil donne la priorité à un fonctionnement sûr plutôt qu'à des performances maximales, en revenant automatiquement sur les paramètres qui provoquent une génération de chaleur excessive ou une instabilité. Cette approche conservatrice garantit que le processus d'optimisation ne compromet pas la longévité ou la fiabilité du matériel.

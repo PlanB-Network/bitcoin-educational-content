@@ -100,7 +100,7 @@ Navigasi pada perangkat ini cukup intuitif:
 
 
 
-Untuk tutorial ini, saya akan menunjukkan kepada Anda bagaimana cara menggunakan Trezor Safe 5 dengan [perangkat lunak manajemen portofolio Sparrow Wallet] (https://sparrowwallet.com/download/). Jika Anda belum menginstal perangkat lunak ini, silakan lakukan sekarang. Jika Anda membutuhkan bantuan, kami juga memiliki tutorial terperinci tentang cara mengonfigurasi Sparrow Wallet:
+Untuk tutorial ini, saya akan menunjukkan kepada Anda bagaimana cara menggunakan Trezor Safe 5 dengan [perangkat lunak manajemen portofolio Sparrow Wallet](https://sparrowwallet.com/download/). Jika Anda belum menginstal perangkat lunak ini, silakan lakukan sekarang. Jika Anda membutuhkan bantuan, kami juga memiliki tutorial terperinci tentang cara mengonfigurasi Sparrow Wallet:
 
 
 
@@ -393,7 +393,7 @@ Kita tidak akan membutuhkan perangkat lunak Trezor Suite lagi, kecuali untuk mel
 
 
 
-Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi] (https://sparrowwallet.com/) di komputer Anda, jika Anda belum melakukannya.
+Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi](https://sparrowwallet.com/) di komputer Anda, jika Anda belum melakukannya.
 
 
 
@@ -577,7 +577,7 @@ Pilih jumlah yang akan dikirim ke Address ini.
 
 
 
-Sesuaikan tarif biaya transaksi Anda sesuai dengan pasar saat ini. Sebagai contoh, Anda dapat menggunakan [Mempool.space] (https://Mempool.space/) untuk memilih tarif biaya yang sesuai.
+Sesuaikan tarif biaya transaksi Anda sesuai dengan pasar saat ini. Sebagai contoh, Anda dapat menggunakan [Mempool.space](https://Mempool.space/) untuk memilih tarif biaya yang sesuai.
 
 
 

@@ -2,7 +2,7 @@ question: Какво е било основното вдъхновение на 
 answer: eCash (Дейвид Чаум)
 wrong_answers:
   - b-money (Wei Dai)
-  - малко злато (Nick Szabo)
+  - bit gold (Nick Szabo)
   - RPOW (Hal Finney)
 explanation: |
   Въпреки голямата им прилика, основното вдъхновение на Satoshi не са моделите на b-money, bit gold и RPOW, защото той просто не ги е познавал преди август 2008 г.

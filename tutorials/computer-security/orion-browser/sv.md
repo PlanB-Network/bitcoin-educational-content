@@ -665,7 +665,7 @@ Efter konfigurationen ska du testa din installation:
 
 
 
-### Alternativ på Plan ₿ Network
+### Alternativ på Plan ₿ Academy
 
 
 För maximalt skydd, se våra andra guider:
@@ -673,14 +673,14 @@ För maximalt skydd, se våra andra guider:
 
 
 
-- [Firefox-härdad] (https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avancerad konfiguration för flera plattformar
-- [Tor Browser] (https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullständig anonymitet på nätet
-- [Mullvad Browser] (https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maximalt skydd för fingeravtryck
+- [Firefox-härdad] (https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Avancerad konfiguration för flera plattformar
+- [Tor Browser] (https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - Fullständig anonymitet på nätet
+- [Mullvad Browser] (https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Maximalt skydd för fingeravtryck
 
 
 
-Om du vill lära dig mer om webbläsarnas historia och funktion, samt om de viktigaste digitala objekten i ditt dagliga liv, vill jag bjuda in dig att upptäcka vår nya kostnadsfria kurs SCU 202, som finns tillgänglig på Plan ₿ Network:
+Om du vill lära dig mer om webbläsarnas historia och funktion, samt om de viktigaste digitala objekten i ditt dagliga liv, vill jag bjuda in dig att upptäcka vår nya kostnadsfria kurs SCU 202, som finns tillgänglig på Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

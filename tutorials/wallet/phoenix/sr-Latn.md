@@ -87,7 +87,7 @@ Možete ga napisati na papir ili, radi dodatne sigurnosti, ugravirati na nerđaj
 Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic frazom, toplo preporučujem da pratite ovaj drugi vodič, posebno ako ste početnik:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Kliknite na poruku prikazanu na vrhu Interface "*Sačuvaj svoj Wallet...*".
 
@@ -260,9 +260,9 @@ Transakcija je završena.
 Da biste stvari podigli na viši nivo, pogledajte ovaj vodič na Alby Hub-u, još jedno inovativno i jednostavno rešenje za pokretanje sopstvenog Lightning čvora:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-A da biste saznali više o tehničkom radu Lightning Network, možete pronaći odličnu besplatnu obuku Fanisa Mihalakisa o Plan ₿ Network :
+A da biste saznali više o tehničkom radu Lightning Network, možete pronaći odličnu besplatnu obuku Fanisa Mihalakisa o Plan ₿ Academy :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

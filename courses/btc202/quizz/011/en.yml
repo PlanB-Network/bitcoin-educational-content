@@ -5,5 +5,5 @@ wrong_answers:
   - To enter your delivery address in the coinbase transaction
   - To reduce the difficulty of mining
 explanation: |
-  Miners use a node to communicate with the network, transmit their blocks and receive transactions.
-reviewed: false
+  Miners use a node to communicate with the network, transmit their blocks, and receive transactions.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Rust 通常執行借貸規則的方式與 RefCell 執行規則的方式之間的主要差異是什麼？
+answer: Rust 通常在編譯時強制執行借用規則，而 RefCell 則在執行時強制執行。
+wrong_answers:
+  - Rust 通常允許多個可變參照，而 RefCell 將其限制為一個
+  - Rust 通常使用參考計數來確保安全性，而 RefCell 則使用靜態分析。
+  - Rust 通常需要明確的記憶體管理，而 RefCell 則會自動處理。
+explanation: |
+  RefCell 的主要創新是將借用規則的執行從編譯時間移至執行時間。編譯器會在編譯期間檢查一般的 Rust 參照，以確保安全性，但 RefCell 會在程式執行時執行相同的檢查。這允許 RefCell 在編譯器的靜態分析過於保守的情況下，提供內部的可變性，但同時也犧牲了在違反借用規則時可能發生的執行時恐慌。其他選項錯誤地描述了 Rust 的基本安全機制或 RefCell 的實際行為。

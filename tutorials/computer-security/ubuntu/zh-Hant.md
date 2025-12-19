@@ -328,4 +328,4 @@ sudo apt install vlc
 為了讓您數位生活的安全性更進一步，我們建議您看看我們的加密訊息服務，它完全適合保護您的隱私，並與您的 Ubuntu 安裝相輔相成：
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -1,6 +1,6 @@
 ---
 name: Lägga till en byggare
-description: Hur föreslår jag att en ny byggare läggs till i PlanB Network?
+description: Hur föreslår jag att en ny byggare läggs till i Plan ₿ Academy?
 ---
 ![project](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hur föreslår jag att en ny byggare läggs till i PlanB Network?
 PlanB:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser på Bitcoin, på så många språk som möjligt. Allt innehåll som publiceras på webbplatsen är öppen källkod och finns på GitHub, vilket gör att vem som helst kan delta i att berika plattformen.
 
 
-Vill du lägga till en ny Bitcoin-"byggare" på PlanB Network-webbplatsen och synliggöra ditt företag eller din programvara, men vet inte hur? Den här handledningen är för dig!
+Vill du lägga till en ny Bitcoin-"byggare" på Plan ₿ Academy-webbplatsen och synliggöra ditt företag eller din programvara, men vet inte hur? Den här handledningen är för dig!
 
 ![project](assets/01.webp)
 
@@ -16,7 +16,7 @@ Vill du lägga till en ny Bitcoin-"byggare" på PlanB Network-webbplatsen och sy
 - Först måste du ha ett GitHub-konto. Om du inte vet hur du skapar ett konto har vi gjort en detaljerad handledning för att vägleda dig.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![project](assets/03.webp)
 
 
-- Om du aldrig har bidragit till innehållet i PlanB Network tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, vilket gör att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
+- Om du aldrig har bidragit till innehållet i Plan ₿ Academy tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, vilket gör att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
 
 ![project](assets/04.webp)
 
@@ -164,7 +164,7 @@ category: education
 ![project](assets/14.webp)
 
 
-- Välj din Fork i PlanB Network-förvaret:
+- Välj din Fork i Plan ₿ Academy-förvaret:
 
 ![project](assets/15.webp)
 
@@ -215,7 +215,7 @@ category: education
 ![project](assets/25.webp)
 
 
-- En ny sida kommer att öppnas. Dra och släpp en bild av ditt företag eller din programvara i området. Denna bild kommer att visas på PlanB Network-webbplatsen:
+- En ny sida kommer att öppnas. Dra och släpp en bild av ditt företag eller din programvara i området. Denna bild kommer att visas på Plan ₿ Academy-webbplatsen:
 
 ![project](assets/26.webp)
 
@@ -281,7 +281,7 @@ contributors:
 
 
 
-- För nyckeln `contributors` kan du lägga till din identifierare för bidragsgivare till PlanB Network om du har en. Om du inte har det, lämna detta fält tomt.
+- För nyckeln `contributors` kan du lägga till din identifierare för bidragsgivare till Plan ₿ Academy om du har en. Om du inte har det, lämna detta fält tomt.
 - För nyckeln `description` behöver du helt enkelt lägga till ett kort stycke som beskriver ditt företag eller din programvara. Beskrivningen måste vara på samma språk som filnamnet. Du behöver inte översätta den här beskrivningen till alla språk som stöds på webbplatsen, eftersom PlanB-teamen kommer att göra det med hjälp av sin modell. Så här kan din fil till exempel se ut:
 
 ```yaml
@@ -329,10 +329,10 @@ contributors:
 
 ![project](assets/44.webp)
 
-Gratulerar till din PR! Din PR har framgångsrikt skapats. En administratör kommer nu att granska den och, om allt är i sin ordning, integrera den i huvudarkivet för PlanB Network. Du bör se din byggarprofil visas på webbplatsen några dagar senare.
+Gratulerar till din PR! Din PR har framgångsrikt skapats. En administratör kommer nu att granska den och, om allt är i sin ordning, integrera den i huvudarkivet för Plan ₿ Academy. Du bör se din byggarprofil visas på webbplatsen några dagar senare.
 
 
-Var noga med att följa utvecklingen av din PR. En administratör kan lämna en kommentar där han eller hon ber om ytterligare information. Så länge din PR inte är validerad kan du se den under fliken "Pull requests" på PlanB Network GitHub-arkivet:
+Var noga med att följa utvecklingen av din PR. En administratör kan lämna en kommentar där han eller hon ber om ytterligare information. Så länge din PR inte är validerad kan du se den under fliken "Pull requests" på Plan ₿ Academy GitHub-arkivet:
 
 ![project](assets/45.webp)
 

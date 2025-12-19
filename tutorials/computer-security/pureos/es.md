@@ -11,7 +11,7 @@ Proteger la información personal en la era digital es una prioridad absoluta pa
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## Introducción a PureOS
 
@@ -353,4 +353,4 @@ Descubra nuestro curso para reforzar su seguridad y proteger su privacidad digit
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

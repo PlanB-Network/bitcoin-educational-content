@@ -77,7 +77,7 @@ För denna handledning behöver du 2 programvaruapplikationer: Ledger Live för 
 
 För dessa två program rekommenderar jag starkt att du kontrollerar både deras äkthet (med GnuPG) och deras integritet (via Hash) innan du installerar dem på din dator. Om du inte är säker på hur du gör det kan du följa den här andra handledningen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Hur initialiserar man en Ledger Nano?
 
@@ -228,7 +228,7 @@ passphrase ska inte förväxlas med PIN-koden. Den spelar en roll i härledninge
 passphrase är ett mycket kraftfullt verktyg för att förbättra säkerheten för dina bitcoins. Det är dock mycket viktigt att förstå hur det fungerar innan du implementerar det, för att undvika att förlora åtkomsten till din Wallet. Det är därför jag råder dig att konsultera den här andra handledningen om du vill ställa in en passphrase på din Ledger:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 I menyn "*PIN lock*" kan du konfigurera och aktivera automatisk låsning av din Ledger efter en bestämd tid av inaktivitet.
 
@@ -371,7 +371,7 @@ Innan du tar emot dina första bitcoins i din Wallet, **råder jag dig starkt at
 Om du vill veta mer om hur du utför ett återställningstest rekommenderar jag att du läser den här andra handledningen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Hur tar man emot bitcoins med Ledger Nano?
 
@@ -416,7 +416,7 @@ Du kan lägga till en "*Label*" för att beskriva källan till de bitcoins som k
 För mer information om märkning rekommenderar jag dig också att kolla in den här andra handledningen:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Du kan sedan använda denna Address för att ta emot bitcoins.
 
@@ -518,4 +518,4 @@ Om du tyckte att den här handledningen var till hjälp skulle jag uppskatta om 
 Jag rekommenderar också att du kollar in den här fullständiga handledningen om Ledger Flex:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

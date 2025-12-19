@@ -54,7 +54,7 @@ Electrum'u indirmek için bu eğitimdeki ilk adımları izlemenizi tavsiye ederi
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 İndirdikten sonra, yüklemeden önce sürümü her zaman doğrulayın, ardından yardım bölümünde `Kukla Wallet ile Başlayın` altında bulacağınız gibi "Tek Sunucu" yapılandırmasına geçin.
 

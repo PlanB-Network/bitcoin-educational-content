@@ -1,0 +1,9 @@
+question: Qual é o valor predefinido do parâmetro maxconnections no Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections limita o número total de ligações de entrada e de saída. O valor predefinido é 125.
+reviewed: true

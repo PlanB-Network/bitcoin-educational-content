@@ -1,0 +1,9 @@
+question: Full node과 Wallet 기능을 모두 결합한 소프트웨어는 무엇인가요?
+answer: Bitcoin core
+wrong_answers:
+  - Sparrow wallet
+  - 아시가루
+  - Satoshi의 Wallet
+explanation: |
+  Bitcoin core은 Wallet 관리 소프트웨어인 다른 소프트웨어 패키지와 달리 Full node과 Wallet의 역할을 모두 수행합니다.
+reviewed: true

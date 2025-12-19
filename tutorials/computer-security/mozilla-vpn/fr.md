@@ -10,7 +10,7 @@ A l'ère du numérique et de la collecte de données, la protection de la vie pr
 
 Un ***Virtual Private Network*** (VPN) est un système permettant de créer un lien direct entre des ordinateurs distants connectés à des réseaux locaux différents. Autrement dit, il s'agit d'un système qui isole et qui chiffre vos échanges du reste du trafic sur Internet. Pour approfondir vos connaissances sur les VPN, leurs usages et l’intérêt qu’il peut y avoir à en utiliser un, je vous invite à consulter le cours SCU 101 :
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 Basé sur ce principe, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) est un service open source de VPN développé en 2020 par la fondation Mozilla. Il est disponible sur les systèmes d'exploitation :
 
@@ -93,4 +93,4 @@ Toujours dans l'optique de garantir une confidentialité renforcée à ses utili
 
 Vous êtes désormais parés pour naviguer en toute confidentialité et en toute sécurité sur Internet. Si vous avez apprécié ce tutoriel, n'hésitez pas à mettre un pouce vert. Nous sommes également convaincus que vous apprécierez notre tutoriel sur MULLVAD VPN, une autre solution de VPN qui ne requiert aucune donnée personnelle de ses utilisateurs et qui vous permet de payer votre abonnement en bitcoins (une option plus confidentielle que la carte bancaire) :
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

@@ -5,5 +5,5 @@ wrong_answers:
   - MyNode
   - Start9
 explanation: |
-  RaspiBlitz is optimized for the Raspberry Pi and remains lightweight, unlike Umbrel which has become too heavy for these machines.
-reviewed: false
+  RaspiBlitz is optimized for the Raspberry Pi and remains lightweight, unlike Umbrel, which has become too heavy for these machines.
+reviewed: true

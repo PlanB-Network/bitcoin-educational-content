@@ -665,7 +665,7 @@ Orion+ استقلال پروژه را تضمین می‌کند: "کمک مالی
 
 
 
-### گزینه‌ها در Plan ₿ Network
+### گزینه‌ها در Plan ₿ Academy
 
 
 برای حداکثر حفاظت، به راهنماهای دیگر ما مراجعه کنید:
@@ -673,14 +673,14 @@ Orion+ استقلال پروژه را تضمین می‌کند: "کمک مالی
 
 
 
-- [فایرفاکس تقویت‌شده](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - پیکربندی پیشرفته چندسکویی
-- [مرورگر تور](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - ناشناس بودن کامل در شبکه
-- [مرورگر Mullvad](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - حداکثر حفاظت در برابر اثر انگشت دیجیتال
+- [فایرفاکس تقویت‌شده](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - پیکربندی پیشرفته چندسکویی
+- [مرورگر تور](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - ناشناس بودن کامل در شبکه
+- [مرورگر Mullvad](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - حداکثر حفاظت در برابر اثر انگشت دیجیتال
 
 
 
-اگر مایلید درباره تاریخچه و عملکرد مرورگرها و همچنین اشیاء دیجیتال اصلی در زندگی روزمره خود بیشتر بدانید، از شما دعوت می‌کنم دوره آموزشی رایگان جدید ما SCU 202 را که در Plan ₿ Network موجود است، کشف کنید:
+اگر مایلید درباره تاریخچه و عملکرد مرورگرها و همچنین اشیاء دیجیتال اصلی در زندگی روزمره خود بیشتر بدانید، از شما دعوت می‌کنم دوره آموزشی رایگان جدید ما SCU 202 را که در Plan ₿ Academy موجود است، کشف کنید:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

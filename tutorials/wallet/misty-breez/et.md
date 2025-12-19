@@ -81,7 +81,7 @@ Siin on mõned näpunäited, kuidas varundada oma varunduslauset.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Oma lausete varundamiseks valige menüü **Eelistused > Turvalisus** ja seejärel valik **Kontrollige oma lausete varundamist**.
 
@@ -210,4 +210,4 @@ Et minna kaugemale, soovitan teil avastada ka meie õpetust Aqua Wallet kohta, m
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

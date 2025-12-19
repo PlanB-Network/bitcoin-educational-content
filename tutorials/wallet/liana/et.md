@@ -27,7 +27,7 @@ Allpool olev skeem illustreerib kahe kulureaga portfelli toimimist:
 See toiming võimaldab seadistada erinevaid konfiguratsioone, sealhulgas :
 
 
-- Pärimis- (või pärimis-) plaan, mis võimaldab pärijatel kasutaja surma korral raha tagasi saada. Lisateavet selle teema kohta soovitame lugeda [4. osa] (https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursusest BTC102.
+- Pärimis- (või pärimis-) plaan, mis võimaldab pärijatel kasutaja surma korral raha tagasi saada. Lisateavet selle teema kohta soovitame lugeda [4. osa] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursusest BTC102.
 - Tugevdatud varukoopia koos taastamisajaga, mis annab kasutajale võimaluse kasutada oma rahakotti, ilma et ta peaks hoidma vastavat salajast lauset ja riskima selle vargusega, näiteks sissemurdmise ajal.
 - Turvavõrk inimestele, kes alustavad Bitcoiniga: nad haldavad oma rahakotti ise ja nende "eestkostja" (näiteks sugulane) jätab endale õiguse oma raha teatud aja möödudes tagasi saada.
 - Mitme osapoolega allkirjastamise skeem (*multisig*), mille nõuded vähenevad aja jooksul, et tulla toime ühe või mitme osaleja, näiteks ettevõtte partnerite kadumisega.
@@ -45,11 +45,11 @@ Selles õppematerjalis koostame järeltuleku plaani. Me kasutame :
 
 - Ledger Nano S Plus, igapäevaste kulutuste jaoks;
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - Blockstream Jade, mida kasutatakse rahaliste vahendite tagasisaamiseks;
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - Kaks andmekandjat (USB-pulgad) portfoolio kirjelduse salvestamiseks;
 - Pärimiskiri, mis sisaldab juhiseid rahaliste vahendite sissenõudmiseks;
@@ -63,7 +63,7 @@ Külastage ametlikku Wizardsardine'i veebisaiti ja laadige Liana alla aadressil 
 
 Selleks, et teada saada, kuidas käsitsi kontrollida tarkvara autentsust ja terviklikkust enne installimist, soovitame tutvuda selle õpetusega :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Paigaldage tarkvara oma masinasse ja käivitage see. Valige oma rahakoti konfigureerimiseks valik "*Loo uus Liana rahakott*".
 
@@ -193,7 +193,7 @@ Saate kontrollida oma vahendite aegumise staatust, kui lähete vahekaardile "*M�
 
 Bitcoinis kasutatava UTXO esindusmudeli paremaks mõistmiseks võite tutvuda Loïc Moreli kirjutatud Bitcoini konfidentsiaalsuse kursuse esimese osaga:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Jooksvad kulud
 
@@ -338,6 +338,6 @@ Selle portfoolio abil loodud skriptid võtavad järgmise kuju:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Kuna teie Bitcoini rahakoti turvalisus sõltub ka teie arusaamisest selle toimimisest, soovitan teil uurida põhjalikult deterministlike ja hierarhiliste rahakottide mehhanisme, võttes selle tasuta koolituskursuse Plan ₿ Network :
+Kuna teie Bitcoini rahakoti turvalisus sõltub ka teie arusaamisest selle toimimisest, soovitan teil uurida põhjalikult deterministlike ja hierarhiliste rahakottide mehhanisme, võttes selle tasuta koolituskursuse Plan ₿ Academy :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

@@ -1,0 +1,9 @@
+question: Hangi Umbrel uygulaması Lightning düğümünüzü gelişmiş bir Interface ile yönetmenizi sağlar?
+answer: Yıldırıma Bin
+wrong_answers:
+  - BTCPay Yıldırım
+  - Nostr Röle
+  - Bitfeed
+explanation: |
+  Ride The Lightning ve ThunderHub, bir Lightning düğümünü yönetmek için eksiksiz bir web tabanlı Interface sunar.
+reviewed: true

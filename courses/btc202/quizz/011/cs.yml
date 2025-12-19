@@ -1,0 +1,9 @@
+question: Proč potřebuje uzel Miner uzel Bitcoin?
+answer: Interakce se sítí a distribuce bloků
+wrong_answers:
+  - Digitální podpisy generate
+  - Zadání dodávky Address do Coinbase Transaction
+  - Snížení obtížnosti Mining
+explanation: |
+  Těžaři používají uzel ke komunikaci se sítí, k přenosu svých bloků a k přijímání transakcí.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Vilket grundläggande problem löser RC som Box inte kan hantera i Rust:s ägarsystem?
+answer: RC möjliggör flera ägare av samma data genom referensräkning
+wrong_answers:
+  - RC ger snabbare minnesallokering och -deallokering än Box
+  - RC möjliggör automatisk minneshantering utan extra kostnader under körning
+  - RC gör det möjligt att kontrollera lån i kompilationstid som Box inte kan utföra
+explanation: |
+  RC (Reference Counter) hanterar specifikt begränsningen i Box modell med en enda ägare genom att tillåta att flera delar av koden delar ägandet av samma data samtidigt. Box följer traditionella ägarregler där endast en enhet kan äga data åt gången, vilket gör det omöjligt att skapa scenarier som delade datastrukturer där flera listor refererar till samma tail-del. RC upprätthåller en intern räknare som spårar referenser, ökar när de klonas och minskar när de släpps, och frigör minne först när räkningen når noll. Detta möjliggör flexibla datadelningsmönster samtidigt som minnessäkerheten bibehålls, vilket är fundamentalt annorlunda än Box exklusiva ägande.

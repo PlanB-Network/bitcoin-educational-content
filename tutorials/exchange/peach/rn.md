@@ -14,7 +14,7 @@ description: Inyigisho yuzuye yo gukoresha Peach no guhindura amafaranga P2P.
 Uguhanahana amakuru hagati y’abantu (P2P) ata KYC ni ngombwa kugira ngo abakoresha bazigame ubuzima bwite n’ukwigenga mu vy’amahera. Bituma umuntu ashobora gukorana n’abandi ataco akeneye kugenzura akaranga kabo, ivyo bikaba ari ngirakamaro ku bantu baha agaciro ubuzima bwite. Kugira ngo utahure neza ivyiyumviro vy’inyigisho, raba inyigisho ya BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Peach ni iki?
 
@@ -47,7 +47,7 @@ Nk’ukwibutsa, Hash ni amakuru yahinduwe atamenyekana, asa n’ugushiramwo amak
 *Kugira ngo umenye vyinshi kuvyerekeye hashing, ushobora gukurikira iyi nyigisho:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Ninde ashobora kubona amakuru y'uko ndiha?**
 

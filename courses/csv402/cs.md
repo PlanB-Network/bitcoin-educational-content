@@ -1,13 +1,11 @@
 ---
-name: Protokol RGB od teorie k praxi
+name: Programování RGB
 goal: Získat dovednosti potřebné k pochopení a používání RGB
-objectives: 
-
-  - Porozumět základním pojmům protokolu RGB
-  - Zvládnutí principů ověřování na straně klienta a závazků Bitcoinu
-  - Naučte se vytvářet, spravovat a přenášet smlouvy RGB
-  - Jak ovládat uzel Lightning kompatibilní s RGB
-
+objectives:
+- Porozumět základním pojmům protokolu RGB
+- Zvládnutí principů ověřování na straně klienta a závazků Bitcoinu
+- Naučte se vytvářet, spravovat a přenášet smlouvy RGB
+- Jak ovládat uzel Lightning kompatibilní s RGB
 ---
 # Zjištění protokolu RGB
 
@@ -45,17 +43,17 @@ Závěrečná část je vedena dalšími přednášejícími, kteří představ�
 ---
 Tento školící kurz původně vznikl na základě dvoutýdenního výcvikového tábora pro pokročilé vývojáře ve Viareggiu v Toskánsku, který pořádala společnost [Fulgur'Ventures](https://fulgur.ventures/). První týden, zaměřený na Rust a SDK, najdete v tomto jiném kurzu:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 V tomto kurzu se zaměříme na druhý týden bootcampu, který je zaměřen na RGB.
 
 **Týden 1 - LNP402:**
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 **2. týden - aktuální školení CSV402:**
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 Děkujeme organizátorům těchto živých kurzů a třem učitelům, kteří se jich zúčastnili:
 
@@ -107,7 +105,7 @@ Ve světě blockchainu a distribuovaných výpočtů můžeme rozlišit dvě zá
 
 V souvislosti s Bitcoinem jste nepochybně obeznámeni s principy těžby, decentralizace a konečnosti transakcí v blockchainu, stejně jako s fungováním platebních kanálů. S RGB zavádíme nové paradigma nazvané **Client-side Validation**, které na rozdíl od blockchainu nebo Lightningu spočívá v lokálním (klientském) ukládání a ověřování přechodů stavu chytrého kontraktu. Od ostatních technik "DeFi" (_rollups_, _plasma_, _ARK_ atd.) se liší také tím, že Client-side Validation se spoléhá na blockchain, aby se zabránilo dvojímu utrácení a na systém časového razítkování, přičemž registr stavů a přechodů mimo řetězec zůstává pouze u příslušných účastníků.
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 Později také zavedeme důležitý termín: pojem "**stash**", který označuje sadu dat na straně klienta potřebných k zachování stavu smlouvy, protože tato data nejsou replikována globálně v síti. Nakonec se podíváme na důvody vzniku protokolu RGB, který využívá výhod ověřování na straně klienta, a proč doplňuje stávající přístupy (blockchain a stavové kanály).
 
@@ -137,7 +135,7 @@ Státní kanály (jako v případě Lightning Network) jsou škálovatelnější
 
 Toto nové paradigma je ještě lépe škálovatelné a důvěrnější, protože nejenže můžeme integrovat techniky důkazu znalosti s nulovou mírou prozrazení, ale neexistuje ani globální graf transakcí, protože nikdo nemá v držení celý registr. Na druhou stranu to také znamená určitý kompromis v oblasti decentralizace: vydavatel chytrého kontraktu může mít centrální roli (podobně jako "nasazovač kontraktu" v Ethereu). Na rozdíl od blockchainu se však u technologie Client-side Validation ukládají a ověřují pouze kontrakty, které vás zajímají, což zlepšuje škálovatelnost, protože není nutné stahovat a ověřovat všechny existující stavy.
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 #### 2. Věta CAP (konzistence, dostupnost, tolerance rozdělení)
 
@@ -158,13 +156,13 @@ Systém stavových kanálů má toleranci dostupnosti a rozdělení (protože dv
 
 Systém, jako je RGB, nabízí konzistenci (každý účastník ověřuje svá data lokálně, bez dvojznačnosti) a toleranci rozdělení (data uchováváte autonomně), ale nezaručuje globální dostupnost (každý se musí ujistit, že má příslušné části historie, a někteří účastníci nemusí nic zveřejnit nebo přestanou sdílet určité informace).
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 #### 3. Trilema CIA (důvěrnost, integrita, dostupnost)
 
 Toto trilema nám připomíná, že důvěrnost, integrita a dostupnost nemohou být optimalizovány současně. Blockchain, Lightning a ověřování na straně klienta spadají do této rovnováhy různě. Jde o to, že žádný systém nemůže poskytnout vše; je nutné kombinovat několik přístupů (časové razítkování blockchainu, synchronní přístup Lightningu a lokální ověřování pomocí RGB), aby vznikl ucelený balíček nabízející dobré záruky v každé dimenzi.
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 ### Úloha blockchainu a pojem sharding
 
@@ -185,11 +183,11 @@ Ekosystém si proto můžeme představit takto:
 - **Blesková síť** pro rychlé a důvěrné transakce, která je stále založena na zabezpečení a konečném vypořádání blockchainu bitcoinu;
 - **RGB a ověřování na straně klienta** pro přidání složitější logiky chytrých smluv, aniž by došlo k zahlcení blockchainu nebo ztrátě důvěrnosti.
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 Tyto tři prvky tvoří trojúhelníkový celek, nikoli lineární zásobník "vrstva 2", "vrstva 3" atd. Lightning se může připojit přímo k Bitcoinu nebo může být spojen s bitcoinovými transakcemi, které obsahují data RGB. Podobně se může použití "BiFi" (finance na Bitcoinu) skládat s blockchainem, s Lightningem a s RGB podle potřeb důvěrnosti, škálovatelnosti nebo smluvní logiky.
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 ### Pojem stavových přechodů
 
@@ -197,7 +195,7 @@ V každém distribuovaném systému je cílem validačního mechanismu **určit 
 
 Abychom pochopili, jak toto ověřování funguje v kontextu **Bitcoinu**, a obecněji, abychom pochopili filozofii ověřování na straně klienta, podívejme se nejprve zpětně na mechanismy blockchainu Bitcoinu, než zjistíme, jak se od nich ověřování na straně klienta liší a jaké optimalizace umožňuje.
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 V případě blockchainu Bitcoinu je ověřování transakcí založeno na jednoduchém pravidle:
 
@@ -206,7 +204,7 @@ V případě blockchainu Bitcoinu je ověřování transakcí založeno na jedno
 - Tyto transakce ověřují správný vývoj sady UTXO (všechny nespotřebované výstupy);
 - Tato data ukládají (ve formě bloků), aby bylo možné historii v případě potřeby přehrát.
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 Tento model má však dvě hlavní nevýhody:
 
@@ -214,7 +212,7 @@ Tento model má však dvě hlavní nevýhody:
 - **Škálovatelnost**: protože každý uzel musí zpracovat, ověřit a archivovat transakce všech uživatelů, existuje zřejmý limit pro kapacitu transakcí, spojený zejména s maximální velikostí bloku (1 MB v průměru za 10 minut u Bitcoinu, bez cookies);
 - **Soukromí**: vše se vysílá a ukládá veřejně (částky, cílové adresy atd.), což omezuje důvěrnost výměny.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 V praxi tento model funguje pro Bitcoin jako základní vrstva (vrstva 1), ale může se stát nedostatečným pro složitější použití, které současně vyžaduje vysokou propustnost transakcí a určitý stupeň důvěrnosti.
 
@@ -224,7 +222,7 @@ Ověřování na straně klienta je založeno na opačné myšlence: namísto to
 - Když osoba obdrží aktivum (nebo jakýkoli jiný digitální majetek), potřebuje pouze znát a ověřit řetězec operací (stavových přechodů), které vedou k tomuto aktivu, a prokázat jeho legitimitu;
 - Tato posloupnost operací od ***Genesis*** (počáteční vydání) až po poslední transakci tvoří acyklický směrovaný graf (DAG) neboli shard, tj. část celkové historie.
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 Zároveň, aby zbytek sítě (přesněji řečeno podkladová vrstva, jako je Bitcoin) mohl uzamknout konečný stav, aniž by viděl detaily těchto dat, spoléhá se ověřování na straně klienta na pojem ***commitment***.
 
@@ -245,7 +243,7 @@ Konkrétně funguje přechod stavu RGB takto:
 - Vygenerujete kryptografický závazek k tomuto přechodu a vložíte jej do transakce Bitcoin (tyto závazky se v protokolu RGB nazývají "*kotvy*");
 - Protistrana (příjemce) načte historii na straně zákazníka spojenou s tímto aktivem a ověří konzistenci od vzniku chytrého kontraktu až po přechod, který mu předáte.
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 Ověřování na straně klienta nabízí dvě hlavní výhody:
 
@@ -263,13 +261,13 @@ V systému, jako je RGB, lze více přechodů stavu z různých smluv (nebo růz
 
 V praxi to znamená, že když je tato transakce bitcoinu potvrzena, trvale "uzamkne" stav podkladových smluv, protože je nemožné změnit hash již zapsaný v blockchainu.
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 ### Koncept skrýše
 
 **Schránka** je soubor dat na straně klienta, která musí účastník bezpodmínečně uchovávat, aby zachoval integritu a historii inteligentního kontraktu RGB. Na rozdíl od kanálu Lightning, kde lze určité stavy rekonstruovat lokálně ze sdílených informací, není stash kontraktu RGB replikována jinam: pokud ji ztratíte, nikdo vám ji nebude moci obnovit, protože jste zodpovědní za svůj podíl na historii. Proto je třeba přijmout systém se spolehlivými postupy zálohování v RGB.
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 ### Těsnění na jedno použití: vznik a fungování
 
@@ -287,11 +285,11 @@ Abychom zabránili dvojímu utrácení žetonů RGB, používáme mechanismus na
 
 Jednorázové pečetě jsou kryptografické primitivy, které v roce 2016 navrhl Peter Todd a které se podobají konceptu fyzických pečetí: jakmile je pečeť jednou umístěna na kontejner, je nemožné ji otevřít nebo upravit, aniž by byla pečeť nevratně porušena.
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 Tento přístup přenesený do digitálního světa umožňuje prokázat, že sled událostí skutečně proběhl a že jej již nelze dodatečně změnit. Jednorázové pečetě tak překračují jednoduchou logiku `hash + časové razítko` a přidávají pojem pečetě, kterou lze uzavřít **pouze jednou**.
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 Aby pečetě na jedno použití fungovaly, je třeba mít k dispozici médium, které dokáže prokázat existenci či neexistenci publikace a které je obtížné (ne-li nemožné) zfalšovat, jakmile je informace rozšířena. Tuto roli může plnit **blockchain** (jako Bitcoin), stejně jako například papírové noviny s veřejným nákladem. Myšlenka je následující:
 
@@ -327,7 +325,7 @@ Jednorázové těsnění pracuje ve třech hlavních fázích:
 - Alice předem definuje pravidla pro zveřejnění pečeti (kdy, kde a jak bude zpráva zveřejněna);
 - Bob tyto podmínky přijímá nebo uznává.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 **Zavírání těsnění :**
 
@@ -335,7 +333,7 @@ Jednorázové těsnění pracuje ve třech hlavních fázích:
 - Za běhu Alice uzavře pečeť zveřejněním skutečné zprávy (obvykle ve formě _commitment_, např. hash);
 - Poskytuje také **svědectví** (kryptografický důkaz) prokazující, že pečeť je uzavřená a neodvolatelná.
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 **Ověření těsnění :**
 
@@ -346,11 +344,11 @@ Jednorázové těsnění pracuje ve třech hlavních fázích:
 Tento proces lze shrnout následovně:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -383,7 +381,7 @@ Tato jedinečnost je důležitá pro ověřování na straně klienta: při ově
 
 Inteligentní kontrakt RGB může potřebovat utratit několik jednorázových pečetí (několik UTXO) současně. Navíc jedna bitcoinová transakce může odkazovat na několik různých smluv, z nichž každá pečetí svůj vlastní přechod stavu. To vyžaduje mechanismus **multi-commitment**, který deterministicky a jednoznačně prokáže, že žádný ze závazků neexistuje duplicitně. V tomto případě vstupuje do hry pojem **kotva** v RGB: speciální struktura spojující bitcoinovou transakci a jeden nebo více závazků (stavových přechodů) na straně klienta, z nichž každý potenciálně patří k jiné smlouvě. Na tento koncept se blíže podíváme v příští kapitole.
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 Dva z hlavních repozitářů projektu na GitHubu (pod organizací LNPBP) sdružují základní implementace těchto konceptů studovaných v první kapitole:
 
@@ -391,11 +389,11 @@ Dva z hlavních repozitářů projektu na GitHubu (pod organizací LNPBP) sdruž
 - **client_side_validation** : Obsahuje primitiva Rust pro lokální validaci ;
 - **single_use_seals**: Implementuje logiku pro bezpečné definování a uzavření těchto pečetí.
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 Všimněte si, že tyto softwarové cihly jsou agnostické vůči Bitcoinu; teoreticky by mohly být použity na jakékoli jiné médium prokazující zveřejnění (jiný registr, časopis atd.). V praxi se RGB spoléhá na Bitcoin kvůli jeho robustnosti a širokému konsensu.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 ### Otázky veřejnosti
 
@@ -481,11 +479,11 @@ Písmeno "O2" ve slově "TxO2" nám připomíná, že definice i uzávěrka jsou
 
 Připomínáme, že definice _jednorázové pečeti_ nemusí nutně vyžadovat zveřejnění transakce v řetězci. Stačí, aby například Alice již měla nevydané UTXO. Může se rozhodnout: "Tento _outpoint_ (již existující) je nyní mou pečetí". Zaznamená to lokálně (na straně _klienta_) a dokud toto UTXO nebude utraceno, je pečeť považována za otevřenou.
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 V den, kdy chce uzavřít pečeť (aby signalizoval událost nebo ukotvil určitou zprávu), utratí toto UTXO v nové transakci (tato transakce se často nazývá "_svědecká transakce_" (nesouvisí s _segwit_, je to jen termín, který jsme jí dali). Tato nová transakce bude obsahovat _závazek_ ke zprávě.
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 Všimněte si, že v tomto příkladu :
 
@@ -499,15 +497,15 @@ Alice má tedy konkrétní UTXO, ke kterému je lokálně (na straně klienta) p
 
 Alice informuje Boba, že pokud je tento UTXO vyčerpán, bude se mít za to, že došlo k určité události. Zvenčí vidíme pouze transakci Bitcoin, ale Bob ví, že tento výdaj má skrytý význam.
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 Jakmile Alice utratí tento UTXO, uzavře pečeť na zprávě, která označuje její nový klíč, nebo jednoduše odvolání starého klíče. Tímto způsobem každý, kdo monitoruje řetězec, uvidí, že UTXO je utraceno, ale pouze ti, kteří mají úplný důkaz, budou vědět, že se jedná právě o odvolání klíče PGP.
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 Aby Bob nebo kdokoli jiný mohl zkontrolovat skrytou zprávu, musí mu Alice poskytnout informace mimo řetězec.
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 Alice proto musí Bobovi poskytnout :
 
@@ -515,7 +513,7 @@ Alice proto musí Bobovi poskytnout :
 - Samotná zpráva (například nový klíč PGP) ;
 - Kryptografický důkaz, že zpráva byla zapojena do transakce (známý jako _extra transaction proof_ nebo _anchor_).
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 Třetí strany tyto informace nemají. Vidí pouze to, že UTXO bylo vynaloženo. Důvěrnost je tedy zajištěna.
 
@@ -524,12 +522,12 @@ Pro objasnění struktury shrňme proces do dvou transakcí:
 
 - **Transakce 1**: Obsahuje _definici pečetě_, tj. _výstupní bod_, který bude sloužit jako pečeť.
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 - **Transakce 2**: Utratí tento _výstupní bod_. Tím se uzavře pečeť a v téže transakci se vloží _závazek_ na zprávu.
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 Druhou transakci proto nazýváme "_svědecká transakce_".
 
@@ -539,7 +537,7 @@ Abychom to ilustrovali z jiného úhlu, můžeme si představit dvě vrstvy:
 - **Vrchní vrstva (blockchain, veřejná)**: každý vidí transakci a ví, že byl utracen *outpoint*;
 - Nižší vrstva (na straně klienta, soukromá): pouze Alice (nebo dotyčná osoba) ví, že tento výdaj odpovídá takové a takové zprávě, a to prostřednictvím kryptografického důkazu a zprávy, kterou uchovává lokálně.
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 Při uzavírání pečeti však vyvstává otázka, kam má být vložen _závazek_
 
@@ -562,11 +560,11 @@ Bez ohledu na metodu (PkO, TxO2 atd.) lze vložit _závazek_ :
 - **Opret** (zpráva je umístěna v nevýdejním výstupu `OP_RETURN`) ;
 - **Tapret** (nebo _Taptweak_), který se spoléhá na taproot a vkládá závazek do skriptové části taproot klíče, čímž deterministicky modifikuje veřejný klíč.
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 Zde jsou uvedeny podrobnosti o jednotlivých metodách:
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 ***Změna podpisu (sign-to-contract) :***
 
@@ -627,7 +625,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 Poslední možností je použití **Taproot** (zavedeno s BIP341) se schématem *Tapret*. *Tapret* je složitější forma deterministického závazku, která přináší zlepšení z hlediska stopy v blockchainu a důvěrnosti operací se smlouvou. Hlavní myšlenkou je skrýt závazek v části `Script Path Spend` transakce [taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 Než popíšeme, jak je závazek vložen do transakce taproot, podívejme se na **přesný tvar** závazku, který musí **imperativně** odpovídat 64bajtovému řetězci [konstruovanému](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) takto:
 
@@ -658,7 +656,7 @@ Podívejme se blíže na každý z těchto dvou scénářů.
 
 V tomto prvním případě vycházíme z výstupního klíče taproot (*Taproot Output Key*) `Q`, který obsahuje pouze interní veřejný klíč `P` *(Internal Key*) bez přidružené cesty ke skriptu (*Script Path*):
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 - `P`: interní veřejný klíč pro _Key Path Spend_.
@@ -667,7 +665,7 @@ V tomto prvním případě vycházíme z výstupního klíče taproot (*Taproot 
 
 Chcete-li zahrnout závazek **Tapret**, přidejte **Skript Path Spend** s **unikátním skriptem** takto:
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 - t = tH_TWEAK(P || Script_root)` se pak stane novým faktorem vylepšení, včetně **Script_root**.
@@ -679,7 +677,7 @@ Důkaz začlenění a jedinečnosti v kořenovém stromu se zde omezuje na jedin
 
 Druhý scénář se týká složitějšího výstupu `Q` **taproot**, který již obsahuje několik skriptů. Například máme strom 3 skriptů:
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 - tH_LEAF(x)` označuje normalizovanou tagovanou hashovací funkci listového skriptu.
@@ -687,7 +685,7 @@ Druhý scénář se týká složitějšího výstupu `Q` **taproot**, který ji�
 
 Abychom mohli přidat závazek Tapret, musíme na první úroveň stromu vložit *nevyužitelný skript* a stávající skripty posunout o úroveň níže. Vizuálně se strom změní na :
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 - tHABC` představuje tagovaný hash seskupení nejvyšší úrovně `A, B, C`.
@@ -701,11 +699,11 @@ Podle pravidel taproot musí být každá větev/list kombinována podle lexikog
 
 Vizuální příklad pro první případ (`tHABC < tHT`):
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 Příklad pro druhý případ (`tHABC > tHT`):
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 #### Optimalizace pomocí nonce
 
@@ -805,7 +803,7 @@ Systém MPC (Multi Protocol Commitment) je navržen tak, aby splňoval dvě pot�
 
 Konkrétně každý _přechodový svazek_ patří k určité smlouvě. Všechny tyto informace jsou vloženy do **Stromu MPC**, jehož kořen (`mpc::Root`) je pak opět hashován, aby vznikl `mpc::Commitment`. Právě tento poslední hash je podle zvolené deterministické metody vložen do bitcoinové transakce (_transakce svědectví_).
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 #### MPC Root Hash
 
@@ -823,7 +821,7 @@ kde :
 - kofaktor` (16 bitů, v malém endiánu) je parametr používaný k podpoře jedinečnosti pozic přiřazených jednotlivým smlouvám ve stromu;
 - `mpc::Root` je kořen *MPC stromu*, vypočtený podle postupu popsaného v následující části.
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 #### Konstrukce stromu MPC
 
@@ -908,7 +906,7 @@ Pro ilustraci si představme příklad, kdy `C=3` (tři smlouvy). Předpokládá
 
 Konečným výsledkem je **mpc::Root** a poté `mpc::Commitment`.
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 #### Kontrola hřídele MPC
 
@@ -916,7 +914,7 @@ Pokud chce ověřovatel zajistit, aby byl kontrakt `c_i` (a jeho `BundleId`) zah
 
 V příkladu potřebuje ověřovatel `c_2` pouze mezihash (`tH_MPC_LEAF(D)`), dva `tH_MPC_BRANCH(...)`, důkaz pozice `pos(c_2)` a hodnotu `cofactor`. Poté může lokálně rekonstruovat kořen, následně přepočítat `mpc::Commitment` a porovnat jej s tím, který byl zapsán v transakci Bitcoin (v rámci `Opret` nebo `Tapret`).
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 Tento mechanismus zajišťuje, že :
 
@@ -985,7 +983,7 @@ Třetí pole, **ETP**, závisí na typu použitého závazku. Pokud je závazek 
 
 Tento dodatečný důkaz je nezbytný, protože na rozdíl od `Opret` je závazek `Tapret` integrován do struktury taproot skriptu, což vyžaduje odhalení části taproot stromu, aby bylo možné správně ověřit umístění *závazku*.
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 **Anchory** proto obsahují všechny informace potřebné k ověření závazku Bitcoinu v kontextu RGB. Uvádějí jak příslušnou transakci (`Txid`), tak důkaz o umístění smlouvy (`MPC Proof`), přičemž v případě `Tapret` spravují dodatečný důkaz (`ETP`). Kotva tak chrání integritu a jedinečnost stavu mimo řetězec tím, že zajišťuje, aby stejná transakce nemohla být reinterpretována pro jiné smluvní údaje.
 
@@ -1002,7 +1000,7 @@ V této kapitole se zabýváme :
 
 V praxi je technická implementace rozdělena mezi několik specializovaných _krabic_ Rust (v _client_side_validation_, _commit-verify_, _bp_core_ atd.). Základní pojmy tam jsou:
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 V příští kapitole se podíváme na čistě neřetězcovou složku RGB, konkrétně na logiku smluv. Uvidíme, jak kontrakty RGB, organizované jako částečně replikované _konečné stavové stroje_, dosahují mnohem vyšší expresivity než bitcoinové skripty a zároveň zachovávají důvěrnost svých dat.
 
@@ -1020,7 +1018,7 @@ Cílem RGB je poskytnout infrastrukturu pro implementaci chytrých smluv na Bitc
 
 Tato automatizace vyvolává otázku decentralizace: jak se můžeme osvobodit od centralizovaného registru (např. centrální platformy nebo databáze) pro správu vlastnictví a plnění smluv? Původní myšlenkou, kterou převzala organizace RGB, je návrat ke způsobu vlastnictví známému jako "nástroje na doručitele". Historicky byly některé cenné papíry (dluhopisy, akcie atd.) vydávány ve formě na doručitele, což umožňovalo každému, kdo dokument fyzicky vlastnil, uplatnit svá práva.
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 RGB tento koncept aplikuje na digitální svět: práva (a povinnosti) jsou zapouzdřena v datech, se kterými se manipuluje mimo řetězec, a stav těchto dat ověřují sami účastníci. To umožňuje a priori mnohem větší míru důvěrnosti a nezávislosti, než jakou nabízejí jiné přístupy založené na veřejných rejstřících.
 
@@ -1032,7 +1030,7 @@ Na inteligentní smlouvu v RGB lze pohlížet jako na stavový stroj definovaný
 - **Stav**, tj. soubor informací odrážející aktuální konfiguraci smlouvy;
 - **Business logika** (soubor pravidel), která popisuje, za jakých podmínek a kdo může stav změnit.
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 Je důležité si uvědomit, že tyto smlouvy se neomezují na pouhý převod tokenů. Mohou ztělesňovat širokou škálu aplikací: od tradičních aktiv (tokeny, akcie, dluhopisy) až po složitější mechanismy (práva na užívání, obchodní podmínky atd.). Na rozdíl od jiných blockchainů, kde je kód smlouvy přístupný a spustitelný pro všechny, přístup RGB rozděluje přístup a znalost smlouvy na účastníky ("***účastníci smlouvy***"). Existuje několik rolí:
 
@@ -1070,7 +1068,7 @@ Ve světě RGB je ***Smluvní operace*** jakákoli událost, která změní smlo
 - Změnu ukotvíme prostřednictvím nového _commitmentu_ v blockchainu, čímž uzavřeme jednu _jednorázovou pečeť_ a vytvoříme další;
 - Příslušní držitelé práv lokálně (na straně klienta) ověří, že přechod je v souladu se **Schématem** a že související transakce Bitcoin je registrována v řetězci.
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 Konečným výsledkem je aktualizovaná smlouva, nyní s jiným stavem. Tento přechod nevyžaduje, aby se detaily zabývala celá síť Bitcoin, protože v blockchainu je zaznamenán pouze malý kryptografický otisk (_commitment_). Sekvence pečetí na jedno použití zabraňuje jakémukoli dvojímu utracení nebo dvojímu použití stavu.
 
@@ -1083,7 +1081,7 @@ Abychom to uvedli na pravou míru, inteligentní smlouva RGB začíná s **Genes
 - Chronologické pořadí je zaručeno zahrnutím každého přechodu do kotvy bitcoinu, která je časově označena a nezměnitelná díky konsenzu Proof-of-Work ;
 - Pokud již neprobíhají žádné další operace, je dosaženo **koncového stavu**: posledního a úplného stavu smlouvy.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 Tato topologie DAG (namísto jednoduchého lineárního řetězce) odráží možnost, že se různé části smlouvy mohou vyvíjet paralelně, pokud si navzájem neodporují. RGB se pak stará o to, aby se zabránilo jakýmkoli nesrovnalostem pomocí *ověřování na straně klienta* každého zúčastněného účastníka.
 
@@ -1116,19 +1114,19 @@ Pro ilustraci procesu *přechodu stavu* (což je jedna ze základních ***smluvn
 
 Alice má ***sklad RGB*** lokálně ověřených dat (*na straně klienta*). Tato skrýš se vztahuje k jednomu z jejích UTXO na Bitcoinu. To znamená, že _definice pečeti_ v těchto datech ukazuje na UTXO patřící Alici. Smyslem je umožnit jí převést určitá digitální práva spojená s aktivem (např. RGB tokeny) na Boba.
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 **Bob má také UTXO :**
 
 Na druhé straně Bob má alespoň jedno vlastní UTXO bez přímého spojení s Alenčiným. V případě, že Bob nemá UTXO, je stále možné provést převod na něj pomocí samotné *svědecké transakce*: výstup této transakce pak bude obsahovat závazek (_commitment_) a implicitně spojí vlastnictví nové smlouvy s Bobem.
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 **Výstavba nové nemovitosti (*Nový stav*) :**
 
 Bob pošle Alici informaci zakódovanou ve formě **faktury** (podrobněji se konstrukci faktury budeme věnovat v dalších kapitolách) a požádá ji o vytvoření nového stavu, který odpovídá pravidlům smlouvy. Tento stav bude obsahovat novou *definici pečetě*, která bude ukazovat na jeden z Bobových UTXO. Tímto způsobem získá Bob vlastnictví aktiv definovaných v tomto novém stavu, například určitého množství žetonů RGB.
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 **Příprava vzorové transakce:**
 
@@ -1146,13 +1144,13 @@ Před odvysíláním transakce Alice pošle Bobovi zprávu ***Consignment*** obs
 
 Pokud je Bob spokojen, může dát svůj souhlas (například podpisem *zaslání*). Alice pak může vysílat připravenou vzorovou transakci. Po potvrzení se tím uzavře pečeť, kterou předtím držela Alice, a formalizuje se vlastnictví Boba. Zabezpečení proti dvojímu utracení je pak založeno na stejném mechanismu jako v Bitcoinu: UTXO je utraceno, což dokazuje, že Alice jej již nemůže znovu použít.
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 Nový stav nyní odkazuje na Bobův UTXO, čímž Bob získává vlastnictví, které dříve vlastnila Alice. Výstup Bitcoinu, kde jsou ukotvena data RGB, se stává neodvolatelným důkazem převodu vlastnictví.
 
 Příklad minimálního DAG (*Directed Acyclic Graph*) zahrnujícího dvě smluvní operace (**Genesis** a poté ***State Transition***) může ilustrovat, jak se stav RGB (vrstva *client-side*, červeně) připojuje k blockchainu Bitcoin (vrstva *Commitment*, oranžově).
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 Ukazuje, že Genesis definuje pečeť (*definice pečetě*), poté *přechod stavu* tuto pečeť uzavře a vytvoří novou v jiném UTXO.
 
@@ -1166,7 +1164,7 @@ V této souvislosti si připomeňme několik terminologických poznámek:
 
 Přechody mezi stavy, popsané v předchozí kapitole, jsou hlavní formou operace se smlouvou. Odkazují na jeden nebo více předchozích stavů (z Genesis nebo jiného Přechodu stavu) a aktualizují je na nový stav.
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 Tento diagram ukazuje, jak lze ve svazku **Přechod stavu** v rámci jedné vzorové transakce uzavřít několik pečetí a současně otevřít nové pečetě. Zajímavou vlastností protokolu RGB je totiž jeho schopnost škálování: několik přechodů lze agregovat do Svazku přechodů, přičemž každé agregaci je přiřazen samostatný list stromu **MPC** (jedinečný identifikátor svazku). Díky mechanismu **Deterministic Bitcoin Commitment** (DBC) se celá zpráva vloží do výstupu `Tapret` nebo `Opret`, přičemž se uzavřou předchozí pečetě a případně se definují nové. **Kotva** slouží jako přímé spojení mezi závazkem uloženým v blockchainu a validační strukturou na straně klienta (**klientská strana**).
 
@@ -1219,7 +1217,7 @@ Převody státu lze tedy použít k převodu vlastnictví majetku z jedné osoby
 
 Z nich se **Genesis** a **Prodloužení stavu** někdy nazývají "operace generování stavu", protože vytvářejí nové stavy bez okamžitého uzavření některého z nich. To je velmi důležitý bod: **Genesis** a **Prodloužení stavu** nezahrnují uzavření pečeti. Spíše definují novou pečeť, která pak musí být utracena následnou operací **Přechod stavu**, aby byla skutečně potvrzena v historii blockchainu.
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 **Aktivní stav** kontraktu je často definován jako množina posledních stavů vyplývajících z historie (DAG) transakcí, počínaje Genesis a po všech kotvách v blockchainu Bitcoinu. Všechny staré stavy, které jsou již zastaralé (tj. připojené k vyčerpaným UTXO), se již nepovažují za aktivní, ale zůstávají zásadní pro kontrolu konzistence historie.
 
@@ -1245,7 +1243,7 @@ Rozšíření stavu** nabízí originální funkci pro chytré kontrakty. Umož�
 
 Technicky řečeno, rozšíření stavu odkazuje na *Redeem* (konkrétní typ vstupu RGB), který odpovídá dříve definované *Valenci* (například v Genesis nebo jiném Přechodu stavu). Definuje novou pečeť, která je k dispozici osobě nebo stavu, který ji využívá. Aby se tato pečeť stala účinnou, musí být vynaložena následným Přechodem stavu.
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 Například: Genesis vytváří právo na vydání (*Valence*). To může uplatnit oprávněný aktér, který pak vybuduje státní rozšíření :
 
@@ -1354,7 +1352,7 @@ Smlouva RGB je pak identifikována pomocí `ContractId`, odvozeného od `OpId` G
     - Státy ve **veřejném** vlastnictví,
     - Státy ve **soukromém** vlastnictví.
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 *Globální stav* je přímo zahrnut do *Smluvní operace* jako jeden blok. *Vlastní stavy* jsou definovány v každém *Přidělení* spolu s *Definice těsnění*.
 
@@ -1416,7 +1414,7 @@ Tento globální stav může být umístěn na veřejných zdrojích (webové st
 
 Jedna z velkých předností systému RGB spočívá v možnosti libovolně odhalit (*odhalit*) nebo skrýt (*skrýt*) pole *Definice těsnění* a *Vlastní stav*. To nabízí silnou kombinaci důvěrnosti a selektivity. Můžete například prokázat, že přechod je platný, aniž byste odhalili všechna data, a to tak, že odhalenou verzi poskytnete osobě, která má přechod ověřit, zatímco třetí strany uvidí pouze skrytou verzi (hash). V praxi se `OpId` přechodu vždy počítá ze *skrytých* dat.
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 #### Definice pečeti
 
@@ -1434,7 +1432,7 @@ Definice *Těsnění* má v odhalené podobě čtyři základní pole: `txptr`, 
 
 *Skrytá* podoba definice pečeti je hash SHA256 (označený) konkatenace těchto 4 polí s označením specifickým pro RGB.
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 #### Vlastněné státy
 
@@ -1613,7 +1611,7 @@ Jednou z hlavních inovací systému RGB je striktní oddělení dvou konceptů:
 
 **Vlastnictví** naproti tomu zcela spoléhá na bezpečnost Bitcoinu. Vlastnit soukromý klíč UTXO znamená kontrolovat možnost spustit nový přechod (uzavření jednorázové pečeti). Takže i když někdo může vidět nebo ověřit data, nemůže změnit stav, pokud dotyčné UTXO nevlastní.
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 Tento přístup omezuje klasické zranitelnosti, které se vyskytují u složitějších blockchainů (kde je veškerý kód chytrého kontraktu veřejný a může jej kdokoli upravovat, což někdy vede k hackerským útokům). V RGB nemůže útočník jednoduše zasahovat do stavu v řetězci, protože právo jednat se stavem (*vlastnictví*) je chráněno vrstvou Bitcoin.
 
@@ -1821,7 +1819,7 @@ Lightning Network je decentralizovaná síť platebních kanálů (nebo _státn�
 
 Další informace o tom, jak Lightning funguje, najdete v tomto dalším kurzu:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -1949,7 +1947,7 @@ Souhrnně lze říci, že každá smlouva se skládá z :
 - **Rozhraní**, které poskytuje sémantickou vrstvu pro peněženky i lidské uživatele a objasňuje čtení a provádění transakcí;
 - **Implementace** rozhraní, které překlenuje mezeru mezi obchodní logikou a prezentací, aby bylo zajištěno, že definice smlouvy je v souladu s uživatelským prostředím.
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 Je důležité si uvědomit, že aby peněženka mohla spravovat aktivum RGB (ať už jde o zastupitelný token nebo právo jakéhokoli druhu), musí mít všechny tyto prvky sestaveny: *Schema*, *Interface*, *Interface Implementation* a *Genesis*. To se předává prostřednictvím ***smluvní zásilky***, tj. datového balíčku obsahujícího vše potřebné k ověření platnosti smlouvy na straně klienta.
 
@@ -1995,7 +1993,7 @@ Schéma lze přirovnat ke "třídě" v objektově orientovaném programování (
 - Pravidla, která určují, jak se mohou interní data smlouvy vyvíjet (například zda je pole proměnlivé nebo kumulativní);
 - Posloupnosti operací, které jsou považovány za platné: například pořadí přechodů, které je třeba dodržet, nebo soubor logických podmínek, které je třeba splnit.
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 Když *vydavatel* aktiva v systému RGB zveřejní smlouvu, poskytne s ní spojenou genezi a schéma. Uživatelé nebo peněženky, kteří chtějí s aktivem komunikovat, si toto schéma načtou, aby pochopili logiku kontraktu a mohli si později ověřit, že přechody, kterých se budou účastnit, jsou legitimní.
 
@@ -2058,7 +2056,7 @@ Než se ponoříme do kódu, je vhodné připomenout obecnou strukturu schématu
 - **Systém přísných typů** používaný k popisu a ověřování dat;
 - **Ověřovací skripty** (spouštěné prostřednictvím AluVM).
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 Níže uvedený kód ukazuje kompletní definici schématu Rust. Budeme ji komentovat po částech podle níže uvedených poznámek (1) až (9):
 
@@ -2223,7 +2221,7 @@ Na rozdíl od schématu, které je čistě deklarativní a zkompilované do bin�
 - Přístup k názvům a hodnotám jednotlivých polí, aby bylo možné je zobrazit (např. pro token zjistit jeho ticker, maximální částku atd.);
 - Interpretovat a konstruovat smluvní operace (Geneze, Přechod stavu nebo Rozšíření stavu) přiřazením dat ke srozumitelným názvům (např. provést převod jasným uvedením "částky", nikoli binárního identifikátoru).
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 Díky rozhraní můžete například v peněžence napsat kód, který místo manipulace s poli přímo manipuluje se štítky, jako je "počet tokenů", "název aktiva" atd. Správa kontraktu se tak stává intuitivnější. Tímto způsobem se správa smluv stává intuitivnější.
 
@@ -2251,7 +2249,7 @@ Rozhraní lze po vydání aktiva upravit nebo doplnit, aniž by bylo nutné měn
 
 Stejná smlouva by mohla být vystavena prostřednictvím různých rozhraní přizpůsobených různým potřebám: jednoduché rozhraní pro koncového uživatele, jiné, pokročilejší, pro vydavatele, který potřebuje spravovat složité konfigurační operace. Peněženka si pak může vybrat, které Rozhraní bude importovat, v závislosti na svém použití.
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 V praxi to znamená, že když peněženka načte smlouvu RGB (prostřednictvím souboru `.rgb` nebo `.rgba`), importuje také související rozhraní, které je rovněž zkompilováno. Za běhu může peněženka například :
 
@@ -2641,7 +2639,7 @@ Bob pak musí načíst údaje o smlouvě, které ho zajímají. Tato data se moh
 - **Rozhraní**, které definuje prezentační vrstvu (názvy polí, dostupné operace);
 - Implementace **rozhraní**, která konkrétně propojuje schéma s rozhraním.
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 Celková velikost se často pohybuje v řádu několika kilobajtů, protože každá komponenta obvykle váží méně než 200 bajtů. Tuto zásilku může být možné vysílat také ve formátu Base58, prostřednictvím kanálů odolných vůči cenzuře (jako je například Nostr nebo prostřednictvím sítě Lightning) nebo jako kód QR.
 
@@ -2679,7 +2677,7 @@ Na strukturu faktur RGB se blíže podíváme na konci této kapitoly.
 
 Vygenerovaná faktura (např. jako adresa URL: `rgb:2WBcas9.../RGB20/100+utxob:...`) obsahuje všechny informace, které Alice potřebuje k přípravě převodu. Stejně jako u zásilky ji lze kompaktně zakódovat (Base58 nebo jiný formát) a odeslat prostřednictvím aplikace pro zasílání zpráv, e-mailu, Nostr....
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 #### 6) Příprava transakcí na straně Alice
 
@@ -2722,7 +2720,7 @@ bob$ rgb accept consignment.rgb
 sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 #### 9) Možnost: Bob pošle Alici zpět potvrzení (*výplatní lístek*)
 
@@ -2748,13 +2746,13 @@ alice$ rgb check <sig>
 alice$ wallet sign —publish tx.psbt
 ```
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 Potvrzením této transakce se převod uzavírá. Bob se stává novým vlastníkem aktiva: nyní má vlastněný stav ukazující na UTXO, které ovládá, což dokazuje přítomnost závazku v transakci.
 
 Zde je shrnut celý proces přenosu:
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 ### Výhody přenosů RGB
 
@@ -2785,7 +2783,7 @@ Než se na faktury podíváme podrobněji, uvádíme souhrnný diagram celkovéh
 - Alice zveřejní transakci v síti Bitcoin;
 - Potvrzením transakce se převod stává oficiálním.
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 Tento převod ilustruje veškerou sílu a flexibilitu protokolu RGB: soukromá výměna, ověřená na straně klienta, minimálně a diskrétně ukotvená v blockchainu Bitcoinu a zachovávající nejlepší zabezpečení protokolu (žádné riziko dvojího utracení). Díky tomu je RGB slibným ekosystémem pro převody hodnot, které jsou důvěrnější a škálovatelnější než programovatelné blockchainy na řetězci.
 
@@ -2937,7 +2935,7 @@ rgb
 
 Při spuštění příkazu `rgb` (bez argumentů) se zobrazí seznam dostupných dílčích příkazů, například `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer` atd. Můžete změnit adresář místního úložiště (skrýš, která obsahuje všechny protokoly, schémata a implementace), zvolit síť (testnet, mainnet) nebo nakonfigurovat server Electrum.
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 #### První přehled kontrol
 
@@ -2965,7 +2963,7 @@ Poté importujte vybrané rozhraní:
 rgb import interfaces/RGB20.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 Na druhou stranu nám bylo sděleno, že do softwaru zatím nebylo importováno žádné schéma. Ve skrýši není ani žádná smlouva. Chcete-li si ji prohlédnout, spusťte příkaz :
 
@@ -2979,7 +2977,7 @@ Poté můžete úložiště klonovat a získat určitá schémata:
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 Toto úložiště obsahuje v adresáři `src/` několik souborů Rust (například `nia.rs`), které definují schémata (NIA pro "*Non Inflatable Asset*", UDA pro "*Unique Digital Asset*" atd.). Pro kompilaci pak můžete spustit příkaz :
 
@@ -2998,7 +2996,7 @@ Nyní můžete schéma importovat do `rgb` :
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 Tím se přidá do místní zásoby. Pokud spustíme následující příkaz, uvidíme, že se schéma nyní zobrazí:
 
@@ -3030,8 +3028,8 @@ Zde je příklad souboru YAML, který je třeba vytvořit:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3045,7 +3043,7 @@ seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804
 amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 Pak jednoduše spusťte příkaz :
 
@@ -3053,7 +3051,7 @@ Pak jednoduše spusťte příkaz :
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 V mém případě je jedinečný identifikátor schématu (uzavřený v jednoduchých uvozovkách) `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` a neuvedl jsem žádného vydavatele. Takže moje objednávka je :
 
@@ -3073,15 +3071,15 @@ CLI odpoví, že byla vydána nová smlouva a přidána do zásoby. Pokud zadám
 rgb contracts
 ```
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
-Další příkaz pak zobrazí globální stavy (jméno, ticker, nabídka...) a seznam vlastněných stavů, tj. alokací (například 1 milion tokenů `PBN` definovaných v UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Další příkaz pak zobrazí globální stavy (jméno, ticker, nabídka...) a seznam vlastněných stavů, tj. alokací (například 1 milion tokenů `Plan ₿ Academy` definovaných v UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
 ```
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 ### Export, import a validace
 
@@ -3091,7 +3089,7 @@ Chcete-li tuto smlouvu sdílet s ostatními uživateli, můžete ji exportovat z
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 Soubor `myContractPBN.rgb` lze předat jinému uživateli, který jej může přidat do své skrýše příkazem :
 
@@ -3115,7 +3113,7 @@ Připomínáme, že úložiště je lokální inventář schémat, rozhraní, im
 rgb dump
 ```
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 Tím se vygeneruje složka s podrobnostmi o celé skrýši.
 
@@ -3222,7 +3220,7 @@ K vytvoření kanálu Lightning, který přenáší prostředky RGB, potřebujem
 
 Z hlediska Bitcoinu musí existovat transakce financování, která definuje referenční UTXO, i když obsahuje jen malé množství sátů (jde jen o to, aby každý výstup v budoucích závazkových transakcích zůstal nad prachovým limitem). Alice se například může rozhodnout poskytnout 10 tisíc satelitů a 500 USDT (vydaných jako aktivum RGB). Při transakci financování přidáme závazek (`Opret` nebo `Tapret`), který zakotví přechod stavu RGB.
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 Jakmile je transakce financování připravena (ale ještě není odvysílána), jsou vytvořeny transakce závazků, takže kterákoli strana může kanál kdykoli jednostranně uzavřít. Tyto transakce se podobají klasickým závazkovým transakcím Lightningu s tím rozdílem, že přidáváme další výstup obsahující kotvu RGB (OP_RETURN nebo Taproot) spojenou s novým přechodem stavu.
 
@@ -3230,11 +3228,11 @@ Přechod stavu RGB pak přesune aktiva z multisignálu 2/2 financování do výs
 
 Transakce závazku podepsaná Alicí a odeslaná Bobovi by tedy vypadala takto:
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 A doprovodná transakce závazku, podepsaná Bobem a odeslaná Alici, bude vypadat takto:
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 ### Aktualizace kanálu
 
@@ -3244,27 +3242,27 @@ Například pokud Alice převede 30 USDT Bobovi v kanálu, nový přechod stavu 
 
 Transakce závazku podepsaná Alicí, připravená k distribuci Bobem :
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 Transakce závazku podepsaná Bobem, připravená k distribuci Alicí :
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 ### Řízení HTLC
 
 Síť Lightning Network ve skutečnosti umožňuje směrování plateb více kanály pomocí smluv HTLC (*Hashed Time-Locked Contracts*). Stejné je to s RGB: pro každou platbu, která prochází kanálem, je k odevzdávající transakci přidán výstup HTLC a k tomuto HTLC je přiřazen příděl RGB. Kdo tedy utratí výstup HTLC (díky tajence nebo po vypršení časového zámku), získá zpět jak saty, tak související aktiva RGB. Na druhou stranu je samozřejmě potřeba mít na cestě dostatek hotovosti v podobě sats i RGB aktiv.
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 Fungování systému RGB v síti Lightning je proto třeba posuzovat souběžně s fungováním samotné sítě Lightning. Pokud byste se chtěli tomuto tématu věnovat hlouběji, vřele doporučuji podívat se na toto další komplexní školení:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Kódová mapa RGB
 
 Nakonec, než přejdeme k další části, bych vám rád poskytl přehled kódu použitého v RGB. Protokol je založen na sadě knihoven Rust a specifikacích open source. Zde je přehled hlavních repozitářů a beden:
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 #### Ověřování na straně klienta
 
@@ -3577,7 +3575,7 @@ Pro kompilaci a instalaci binárního souboru `rgb-lightning-node` začneme klon
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
 ```
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 - Volba `--recurse-submodules` rovněž klonuje potřebná dílčí zařízení (včetně upravené verze `rust-lightning`);
@@ -3589,7 +3587,7 @@ V kořenovém adresáři projektu spusťte následující příkaz pro kompilaci
 cargo install --locked --debug --path .
 ```
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 - `--locked` zajišťuje, že verze závislostí je striktně dodržována;
@@ -3623,7 +3621,7 @@ ID a adresy URL se zadávají při _odemknutí_ démona prostřednictvím rozhra
 
 Pro jednoduché použití je k dispozici skript `regtest.sh`, který prostřednictvím nástroje Docker automaticky spustí sadu služeb: `bitcoind`, `electrs` (indexer), `rgb-proxy-server`.
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 To umožňuje spustit místní, izolované a předem nakonfigurované prostředí. Při každém restartu vytvoří a zničí kontejnery a datové adresáře. Začneme tím, že spustíme :
 
@@ -3638,7 +3636,7 @@ Tento skript bude :
 - Spusťte `bitcoind` v regtestu, stejně jako indexer `electrs` a `rgb-proxy-server` ;
 - Počkejte, až bude vše připraveno k použití.
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 Dále spustíme několik uzlů RLN. V samostatných shellech spusťte například (pro spuštění 3 uzlů RLN) :
 
@@ -3654,7 +3652,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network regtest
 ```
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 - Parametr `--network regtest` označuje použití konfigurace regtest;
@@ -3676,7 +3674,7 @@ curl -X POST http://localhost:3001/address
 
 Odpověď vám poskytne adresu.
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 V regtestu `bitcoind` budeme těžit několik bitcoinů. Spusťte :
 
@@ -3684,7 +3682,7 @@ V regtestu `bitcoind` budeme těžit několik bitcoinů. Spusťte :
 ./regtest.sh mine 101
 ```
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 Zašlete finanční prostředky na výše vygenerovanou adresu uzlu:
 
@@ -3692,7 +3690,7 @@ Zašlete finanční prostředky na výše vygenerovanou adresu uzlu:
 ./regtest.sh sendtoaddress <address> <amount>
 ```
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 Poté vytěžte blok a potvrďte transakci:
 
@@ -3700,7 +3698,7 @@ Poté vytěžte blok a potvrďte transakci:
 ./regtest.sh mine 1
 ```
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 ### Spuštění Testnetu (bez Dockeru)
 
@@ -3747,7 +3745,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/createutxos
 ```
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 Pořadí můžete samozřejmě upravit. Pro potvrzení transakce těžíme :
 
@@ -3755,7 +3753,7 @@ Pořadí můžete samozřejmě upravit. Pro potvrzení transakce těžíme :
 ./regtest.sh mine 1
 ```
 
-Nyní můžeme vytvořit aktivum RGB. Příkaz bude záviset na typu aktiva, které chcete vytvořit, a jeho parametrech. Zde vytvářím token NIA (*Non Inflatable Asset*) s názvem "PBN" se zásobou 1000 jednotek. Příkaz `přesnost` umožňuje definovat dělitelnost jednotek.
+Nyní můžeme vytvořit aktivum RGB. Příkaz bude záviset na typu aktiva, které chcete vytvořit, a jeho parametrech. Zde vytvářím token NIA (*Non Inflatable Asset*) s názvem "Plan ₿ Academy" se zásobou 1000 jednotek. Příkaz `přesnost` umožňuje definovat dělitelnost jednotek.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3763,14 +3761,14 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
 ```
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 Odpověď obsahuje ID nově vytvořeného aktiva. Nezapomeňte si tento identifikátor poznamenat. V mém případě je to :
 
@@ -3778,7 +3776,7 @@ Odpověď obsahuje ID nově vytvořeného aktiva. Nezapomeňte si tento identifi
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 Poté ji můžete přenést v řetězci nebo přidělit v kanálu Lightning. Přesně to uděláme v následující části.
 
@@ -3798,9 +3796,9 @@ Příkaz vrátí veřejný klíč mého uzlu č. 2 :
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
 ```
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
-Dále otevřeme kanál zadáním příslušného aktiva (`PBN`). Příkaz `/openchannel` umožňuje definovat velikost kanálu v satoshi a rozhodnout se pro zařazení aktiva RGB. Záleží na tom, co chcete vytvořit, ale v mém případě je příkaz :
+Dále otevřeme kanál zadáním příslušného aktiva (`Plan ₿ Academy`). Příkaz `/openchannel` umožňuje definovat velikost kanálu v satoshi a rozhodnout se pro zařazení aktiva RGB. Záleží na tom, co chcete vytvořit, ale v mém případě je příkaz :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3829,7 +3827,7 @@ Více informací najdete zde:
 - `asset_id` : Jedinečný identifikátor aktiva RGB zapojeného do kanálu;
 - `public`: Uvádí, zda má být kanál veřejný pro směrování v síti.
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 K potvrzení transakce je vytěženo 6 bloků:
 
@@ -3837,9 +3835,9 @@ K potvrzení transakce je vytěženo 6 bloků:
 ./regtest.sh mine 6
 ```
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
-Kanál Lightning je nyní otevřen a obsahuje také 500 tokenů `PBN` na straně uzlu č. 1. Pokud chce uzel č. 2 obdržet tokeny `PBN`, musí vygenerovat fakturu. Zde je návod, jak to udělat:
+Kanál Lightning je nyní otevřen a obsahuje také 500 tokenů `Plan ₿ Academy` na straně uzlu č. 1. Pokud chce uzel č. 2 obdržet tokeny `Plan ₿ Academy`, musí vygenerovat fakturu. Zde je návod, jak to udělat:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3866,9 +3864,9 @@ V reakci na to se zobrazí faktura RGB (jak je popsáno v předchozích kapitol�
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
 ```
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
-Tuto fakturu nyní zaplatíme z prvního uzlu, který má potřebnou hotovost s tokenem `PBN`:
+Tuto fakturu nyní zaplatíme z prvního uzlu, který má potřebnou hotovost s tokenem `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3878,7 +3876,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/sendpayment
 ```
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 Platba byla provedena. To lze ověřit provedením příkazu :
 
@@ -3888,7 +3886,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 Zde se dozvíte, jak nasadit uzel Lightning upravený pro přenos prostředků RGB. Tato ukázka je založena na :
 

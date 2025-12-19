@@ -37,9 +37,9 @@ O Fedi Wallet é um portefólio Bitcoin que inclui uma nova abordagem para guard
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
@@ -47,9 +47,9 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Em vez disso, o Fedi Wallet oferece a abordagem de federação, que lhe permite juntar-se a um grupo de pessoas em quem confia para gerir as chaves da sua carteira. Pode aderir a uma federação popular sugerida pela Fedi, ou aderir à federação local na sua comunidade, digitalizando um código QR ou colando o código de convite da federação.
 
@@ -75,7 +75,7 @@ Saiba mais sobre as nossas recomendações de backup de palavras de recuperaçã
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Para cada federação a que se junta, a Fedi distingue os seus bitcoins criando carteiras separadas.
 
@@ -141,7 +141,7 @@ O destinatário terá de digitalizar o código QR gerado para reclamar os satosh
 
 
 
-Os pagamentos offline são feitos principalmente com [e-cash] (https://planb.network/resources/glossary/ecash-david-chaum). A transação é armazenada no seu telefone e, assim que aceder à Internet, a confirmação da transação torna-se automática. Também pode confirmar o pagamento manualmente, clicando em **Confirmar transação**.
+Os pagamentos offline são feitos principalmente com [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum). A transação é armazenada no seu telefone e, assim que aceder à Internet, a confirmação da transação torna-se automática. Também pode confirmar o pagamento manualmente, clicando em **Confirmar transação**.
 
 
 
@@ -191,7 +191,7 @@ No menu **Mods**, encontrará aplicações como o :
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,4 +231,4 @@ Você acabou de fazer o tour Fedi Wallet, agora está em posição de aproveitar
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

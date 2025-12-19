@@ -98,7 +98,7 @@ In het venster dat verschijnt, vind je velden om "in te vullen": kies de knop _B
 Je kunt de Sparrow wallet gids vinden om deze Software Wallet te downloaden
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Vervolgens kun je het `.apk` bestand van je computer overbrengen naar je telefoon
 
@@ -276,7 +276,7 @@ Geef je sleutel een naam en druk op _Continue_.
 
 
 
-Aan het einde van deze stappen wordt je gevraagd of je een [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) aan je Mnemonic zin wilt toevoegen. Als je niet weet hoe je passphrase moet gebruiken, zijn back-up moet regelen, of hoe het werkt, raad ik je aan om _I don't need a passphrase_ te kiezen.
+Aan het einde van deze stappen wordt je gevraagd of je een [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) aan je Mnemonic zin wilt toevoegen. Als je niet weet hoe je passphrase moet gebruiken, zijn back-up moet regelen, of hoe het werkt, raad ik je aan om _I don't need a passphrase_ te kiezen.
 
 
 
@@ -394,7 +394,7 @@ U bevindt zich in _Home_, waar u de nieuw aangemaakte Wallet ziet met de balans 
 
 
 - Met het lenspictogram in de rechterbovenhoek kun je een transactie zoeken;
-- `View Wallet config` geeft toegang tot het configuratiemenu, waar je de naam van de Wallet kunt wijzigen en geavanceerde opties kunt inschakelen, rechtsboven (waarvan je geen screenshots kunt krijgen). Hier kun je de Wallet configuratie exporteren, labels, toetsen vervangen, de [gap limit] (https://planb.network/en/resources/glossary/gap-limit) veranderen en meer.
+- `View Wallet config` geeft toegang tot het configuratiemenu, waar je de naam van de Wallet kunt wijzigen en geavanceerde opties kunt inschakelen, rechtsboven (waarvan je geen screenshots kunt krijgen). Hier kun je de Wallet configuratie exporteren, labels, toetsen vervangen, de [gap limit] (https://planb.academy/en/resources/glossary/gap-limit) veranderen en meer.
 
 
 

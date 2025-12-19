@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari proses tiga langkah Connect, Prepare, dan Execute dalam antarmuka pengembang Breez SDK?
+answer: Untuk menstandarkan arus keuangan yang kompleks dengan menyinkronkan dompet, menghitung semua biaya di muka, dan kemudian membangun transaksi
+wrong_answers:
+  - Untuk membuat koneksi cadangan yang berlebihan di beberapa penyedia swap sebelum memulai operasi atomik apa pun
+  - Untuk membuat tanda tangan kriptografi terpisah untuk setiap jaringan yang terlibat dalam transaksi pertukaran kapal selam lintas rantai
+  - Untuk memvalidasi prakiraan pembayaran terhadap kontrak yang terkunci waktu sebelum melepaskan dana dari mekanisme escrow
+explanation: |
+  Pola Connect, Prepare, Execute menyederhanakan pengembangan dengan memecah operasi yang kompleks menjadi langkah-langkah yang dapat dikelola: Connect menginisialisasi wallet dan membuat koneksi pemantauan, Prepare menghitung dan menampilkan semua biaya secara transparan kepada pengguna, dan Execute menangani konstruksi dan penyiaran transaksi yang sebenarnya. Standarisasi ini mengabstraksikan kompleksitas yang mendasari submarine swap dan operasi lintas-rantai, sehingga memudahkan pengembang untuk mengintegrasikan fungsionalitas Bitcoin tanpa mengelola detail tingkat rendah.

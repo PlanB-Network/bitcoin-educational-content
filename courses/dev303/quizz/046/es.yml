@@ -1,0 +1,8 @@
+question: ¿Qué ocurre cuando se clona una instancia de RC<T> que contiene una estructura de datos grande?
+answer: Sólo se copia la referencia y se incrementa el contador de referencia, dejando los datos originales inalterados
+wrong_answers:
+  - Toda la estructura de datos se duplica en memoria y ambas copias mantienen contadores de referencia independientes
+  - Se crea una copia superficial en la que se copian los campos primitivos, pero los campos complejos siguen siendo referencias compartidas
+  - Los datos se mueven a una nueva posición de memoria y la RC original queda invalidada hasta que se reinicializa
+explanation: |
+  Al clonar un RC, Rust sólo copia el puntero de referencia e incrementa el contador de referencia interno, lo que hace que la operación sea extremadamente eficiente independientemente del tamaño de los datos. Los datos subyacentes permanecen en la misma ubicación de memoria y se comparten entre todas las instancias de RC. Esto es fundamentalmente diferente de clonar los datos reales, lo que anularía el propósito de la propiedad compartida y desperdiciaría memoria.

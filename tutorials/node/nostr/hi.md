@@ -1,7 +1,6 @@
 ---
-name: NOSTR
-
-description: NOSTR को खोजें और उसका उपयोग शुरू करें
+name: Nostr
+description: Nostr को खोजें और उसका उपयोग शुरू करें
 ---
 
 

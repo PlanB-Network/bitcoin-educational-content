@@ -1,0 +1,8 @@
+question: What mathematical operation is used to find point P + Q on an elliptic curve?
+answer: Draw a line through points P and Q, find the third intersection point R, then reflect R across the x-axis
+wrong_answers:
+  - Add the x-coordinates and y-coordinates of P and Q directly using modular arithmetic
+  - Multiply the coordinates of P and Q together and apply the curve equation to find the result
+  - Calculate the midpoint between P and Q and then apply the tangent line method to get the sum
+explanation: |
+  Elliptic curve point addition follows a specific geometric rule: draw a line through the two points P and Q, which intersects the curve at a third point R, then reflect R across the x-axis to get P + Q. This geometric operation becomes algebraic when working over finite fields but maintains the same fundamental principle. The other options describe incorrect methods that don't follow the established group law for elliptic curves.

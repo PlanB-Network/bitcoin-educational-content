@@ -1,0 +1,9 @@
+question: Hva er den viktigste grunnen til at Bitcoin Core's GitHub-depot anses som spesielt sammenlignet med de tusenvis av andre kopiene av det samme depotet over hele verden?
+answer: Det fungerer som et sosialt anerkjent samlingspunkt for Bitcoin-utvikling, ikke på grunn av noen teknisk overlegenhet
+wrong_answers:
+  - Den inneholder kryptografiske nøkler som godkjenner offisielle Bitcoin Core-utgivelser og -oppdateringer
+  - Den har eksklusive tekniske funksjoner og tillatelser som andre repository-kopier ikke kan kopiere
+  - Den er juridisk beskyttet av MIT-lisensen som den eneste autoritative kilden til Bitcoin-koden
+explanation: |
+  Som Jameson Lopp forklarer, er Bitcoin Core's GitHub-repository teknisk sett identisk med tusenvis av andre kopier verden over, men har blitt det sosialt aksepterte samlingspunktet for koordinering av utvikling. Den har ingen spesielle tekniske funksjoner, kryptografiske autentiseringsmekanismer eller juridisk beskyttelse som gjør den overlegen. MIT-lisensen sikrer faktisk at hvem som helst kan kopiere og videredistribuere koden fritt. Hvis dette depotet forsvant, ville samfunnet ganske enkelt etablere et nytt samlingspunkt et annet sted, noe som viser at dets betydning er en ren sosial konvensjon snarere enn en teknisk nødvendighet.
+reviewed: false

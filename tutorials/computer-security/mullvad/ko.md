@@ -151,4 +151,4 @@ IOS 사용자의 경우 [AppStore](https://apps.apple.com/us/app/mullvad-vpn/id1
 이제 Mullvad VPN을 완벽하게 즐길 수 있는 준비가 끝났습니다. 기능 및 가격 측면에서 Mullvad와 유사한 다른 VPN 제공 업체를 찾고 싶다면, IVPN에 대한 튜토리얼을 확인해보시기 바랍니다:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68

@@ -1,11 +1,11 @@
 ---
 name: Weblate - dodawanie nowego języka
-description: Jak dodać nowy język do Plan ₿ Network?
+description: Jak dodać nowy język do Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
 
-Misją Plan ₿ Network jest dostarczanie najwyższej klasy zasobów edukacyjnych na Bitcoin i tłumaczenie ich na jak największą liczbę języków. Duża część treści publikowanych na stronie jest open-source i hostowana na GitHub, dzięki czemu każdy może uczestniczyć we wzbogacaniu platformy. Wkład może przybierać różne formy: poprawianie i korekta istniejących treści, aktualizowanie informacji lub tworzenie nowych samouczków do dodania na platformę.
+Misją Plan ₿ Academy jest dostarczanie najwyższej klasy zasobów edukacyjnych na Bitcoin i tłumaczenie ich na jak największą liczbę języków. Duża część treści publikowanych na stronie jest open-source i hostowana na GitHub, dzięki czemu każdy może uczestniczyć we wzbogacaniu platformy. Wkład może przybierać różne formy: poprawianie i korekta istniejących treści, aktualizowanie informacji lub tworzenie nowych samouczków do dodania na platformę.
 
 
 Nasza strona internetowa jest obecnie dostępna w wielu językach i stale pracujemy nad dodaniem kolejnych. Aby usprawnić proces tłumaczenia naszego frontendu, korzystamy z narzędzia Weblate, które pomaga nam efektywnie współpracować i zarządzać tłumaczeniami. Jest to narzędzie przyjazne dla użytkownika.
@@ -14,7 +14,7 @@ Nasza strona internetowa jest obecnie dostępna w wielu językach i stale pracuj
 Jeśli twój język ojczysty nie jest jeszcze dostępny na naszej stronie i chciałbyś go dodać, ten samouczek jest dla ciebie!
 
 
-Po pierwsze, skontaktuj się z zespołem Plan ₿ Network za pośrednictwem naszej grupy [Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Jeśli nie masz Telegrama, możesz wysłać e-mail na adres mari@planb.network. Upewnij się, że napisałeś małą prezentację o tym, kim jesteś i jakimi językami mówisz.
+Po pierwsze, skontaktuj się z zespołem Plan ₿ Academy za pośrednictwem naszej grupy [Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Jeśli nie masz Telegrama, możesz wysłać e-mail na adres mari@planb.network. Upewnij się, że napisałeś małą prezentację o tym, kim jesteś i jakimi językami mówisz.
 
 
 ## Sprawdzanie, czy język jest obecny w Weblate
@@ -36,14 +36,14 @@ Aby sprawdzić, czy Twój język jest już wśród tych, nad którymi pracujemy.
 Jeśli Twój język znajduje się na tej liście, nie musisz dodawać go ponownie. Aby przyczynić się do korekty weblate, zapoznaj się z poniższym samouczkiem:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
 
 
 Jeśli nie ma tam Twojego języka, postępuj zgodnie z poniższym samouczkiem, aby go dodać.
 
 
-## Dodanie nowego języka do Plan ₿ Network
+## Dodanie nowego języka do Plan ₿ Academy
 
 
 
@@ -81,9 +81,9 @@ Jeśli nie ma tam Twojego języka, postępuj zgodnie z poniższym samouczkiem, a
 Aby przejść przez proces tłumaczenia, zapoznaj się z naszym dedykowanym samouczkiem poniżej:
 
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
-Gratulacje, rozpocząłeś proces tłumaczenia statycznego Elements na stronie Plan ₿ Network!
+Gratulacje, rozpocząłeś proces tłumaczenia statycznego Elements na stronie Plan ₿ Academy!
 
 Obejmują one wszystkie ciągi znaków na stronie internetowej, z wyjątkiem treści edukacyjnych (kursów, samouczków...), dla których używamy innej półautomatycznej metody (tłumaczenie AI + korekta współpracowników).
 

@@ -13,7 +13,7 @@ description: Un petit guide pour inciter les clients à dépenser leurs bitcoins
 Vous avez finalement décidé d'accepter la Bitcoin dans votre entreprise et tout est prêt : la Lightning Network Wallet est configurée pour recevoir les paiements, vos employés savent comment utiliser la version en lecture seule de la Wallet pour recevoir les paiements en votre nom, le point de vente (PoS) a été configuré avec les produits du magasin et mis à jour mensuellement, et vous savez déjà comment gérer la comptabilité Bitcoin des clients. Si vous ne savez pas comment faire, regardez ce tutoriel :
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Quel est le problème ?
 
@@ -129,7 +129,7 @@ La méthode de mise en œuvre est laissée à l'appréciation du commerçant, ma
 Dans tous les cas, il est toujours recommandé de s’assurer que votre entreprise, si elle a un lieu physique, soit présente et à jour sur [BTC Map](https://btcmap.org/map). La plupart des utilisateurs de bitcoin connaissent cet outil, et presque tous ceux qui ont dépensé du bitcoin dans des magasins physiques ont vérifié au moins une fois quels lieux les acceptent. Si vous souhaitez apprendre à ajouter votre boutique sur BTC Map ou obtenir plus d’informations, regardez ce tutoriel :
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Gestion de la comptabilité
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Si vous vous demandez comment gérer la comptabilité des bitcoins que vous venez de gagner, que vous ayez appliqué l'une des politiques de réduction ou non, ce tutoriel est fait pour vous :
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Conclusion
 

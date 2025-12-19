@@ -95,7 +95,7 @@ description: 키 텔레포트는 무엇이며 어떻게 사용하나요?
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *현재 다음과 같은 기능을 제공합니다
 
@@ -145,7 +145,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-여기서 우리의 비밀은 **"빠른 문자 메시지"**를 선택하여 짧은 메시지를 보내는 것입니다. 메시지(예: "PlanB Network rocks")를 입력한 다음 **"Enter"**를 누릅니다.
+여기서 우리의 비밀은 **"빠른 문자 메시지"**를 선택하여 짧은 메시지를 보내는 것입니다. 메시지(예: "Plan ₿ Academy rocks")를 입력한 다음 **"Enter"**를 누릅니다.
 
 
 그러면 기기는 **"텔레포트 비밀번호"**라는 새로운 임의의 비밀번호를 생성합니다(예: "NE XG BT SK").

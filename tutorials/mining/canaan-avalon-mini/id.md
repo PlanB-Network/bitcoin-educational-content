@@ -23,7 +23,7 @@ Perangkat ini dipasarkan sebagai pemanas tambahan dalam kasus **Avalon Nano 3S (
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
 
 Harap dicatat bahwa perbedaan harga dengan pemanas tradisional dengan daya yang setara, dalam sebagian besar kasus, tidak memungkinkan Anda untuk mendapatkan keuntungan finansial. Satoshi yang dihasilkan oleh aktivitas Mining tidak akan pernah mengimbangi perbedaan harga ini, kecuali jika Anda memiliki akses ke listrik gratis (surplus) atau listrik yang sangat murah.
 
@@ -181,9 +181,9 @@ Untuk detail lebih lanjut mengenai cara menghubungkan ke Mining pool, silakan ba
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-https://planb.network/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
+https://planb.academy/tutorials/mining/pool/ocean-pool-30c9e2c9-2364-44a1-bae0-2afbdb8b1c9c
 
 Singkatnya, kita membutuhkan
 
@@ -358,4 +358,4 @@ Untuk mengetahui lebih lanjut, lihat tutorial kami mengenai versi yang lebih kec
 
 
 
-https://planb.network/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6

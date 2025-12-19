@@ -6,4 +6,4 @@ wrong_answers:
   - Limiter le nombre de pairs connectés
 explanation: |
   Le paramètre dbcache augmente l’espace mémoire utilisé pour stocker temporairement l’UTXO set, ce qui peut accélérer la synchronisation initiale.
-reviewed: false
+reviewed: true 

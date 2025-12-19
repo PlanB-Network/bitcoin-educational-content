@@ -10,7 +10,7 @@ description: Guia completo para utilizar a Peach e trocar bitcoins P2P
 
 As trocas peer-to-peer (P2P) sem KYC são essenciais para preservar a confidencialidade e a autonomia financeira dos utilizadores. Permitem transacções diretas entre indivíduos sem necessidade de verificação de identidade, o que é crucial para quem valoriza a privacidade. Para uma compreensão mais aprofundada dos conceitos teóricos, consulte o curso BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. O que é o Peach?
 
@@ -34,7 +34,7 @@ Para relembrar, um hash são dados que se tornam irreconhecíveis, à semelhanç
 
 *Para mais informações sobre hashing, pode seguir este curso:*
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Quem pode ver os meus dados de pagamento?**
 

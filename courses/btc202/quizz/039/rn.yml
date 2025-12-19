@@ -1,0 +1,9 @@
+question: Ni ubuhe bushobozi bukeyi bwa SSD busabwa mu 2025 ku node ya Bitcoin?
+answer: 2 Kuri
+wrong_answers:
+  - 512 GB
+  - 10 Kuri
+  - 256 GB
+explanation: |
+  Kubera ko Blockchain irenga 700 GB n’ibindi bikoresho, 2 TB ni yo yacitse igitigiri gitoyi gishoboka.
+reviewed: true

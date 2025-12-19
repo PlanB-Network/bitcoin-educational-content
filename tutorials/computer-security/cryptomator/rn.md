@@ -42,7 +42,7 @@ Cryptomator ni ubundi buryo bwo gukoresha ibindi bikoresho, cane cane Picocrypt 
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Porogaramu ya Cryptomator iraboneka kuri **Windows** (exe / msi), **Linux**, **macOS,** ariko kandi **Android** na **iOS**. N’ubundi, porogarama zose ni ubuntu, kiretse porogarama ya Android, iyo ubwirizwa kwishura (14,99 euros).
 

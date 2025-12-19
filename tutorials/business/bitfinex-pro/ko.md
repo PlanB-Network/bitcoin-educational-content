@@ -17,7 +17,7 @@ description: 비트파이넥스에서 회사 계정 생성 및 관리하기
 Bitcoin를 비즈니스에 통합하는 방법에 관심이 있으시다면 해당 주제에 대한 전체 이론 교육 과정도 찾아보시는 것을 추천합니다:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - 비트파이넥스 계정 만들기
 
@@ -37,12 +37,12 @@ https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 강력하고 고유한 비밀번호를 사용하고 보호하는 방법에 대한 팁은 이 튜토리얼을 참조하세요:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 이제 계정 보안을 위해 2단계 인증을 구성하겠습니다. 스마트폰의 인증 애플리케이션(예: Google Authenticator 또는 Authy)을 사용합니다. 이 도구에 대한 튜토리얼은 여기에서 찾을 수 있습니다:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 앱으로 QR 코드를 스캔하고 제공된 6자리 숫자를 입력합니다.
 
@@ -234,7 +234,7 @@ Bitcoin을 출금하려면 "*출금*" 하위 메뉴로 이동하세요.
 Lightning Network에 관심이 있으신 분들을 위해 작동 원리를 이해하는 데 도움이 되는 교육 과정도 준비되어 있습니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - 비트파이넥스에서 비트코인 구매 및 판매
 
@@ -352,4 +352,4 @@ Interface 하단에서 실행된 주문 내역을 확인할 수 있습니다.
 이 주제에 대해 더 자세히 알아보려면 현금 흐름 추가, Bitcoin 결제 수락 및 회계에 대해 자세히 다루는 Bitcoin을 비즈니스에 통합하는 방법에 대한 종합 교육 과정을 추천합니다:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

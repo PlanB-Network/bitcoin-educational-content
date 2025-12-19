@@ -10,7 +10,7 @@ PlanBのミッションは、可能な限り多くの言語でビットコイン
 ![podcast](assets/01.webp)
 - まず、GitHubアカウントを持っている必要があります。作成方法がわからない場合は、詳細なチュートリアルを用意しています。
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - `resources/podcasts/`セクションにある[PlanB専用のデータのGitHubリポジトリ](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts)にアクセスしてください：
@@ -119,5 +119,5 @@ contributors:
 - `プルリクエストを作成`ボタンをクリックしてください：![podcast](assets/37.webp)
 おめでとうございます！PRは正常に作成されました。管理者がこれをレビューし、すべてが順序どおりであれば、PlanB Networkのメインリポジトリにマージします。数日後には、ウェブサイト上であなたのポッドキャストが表示されるはずです。
 
-PRの進行状況を確認してください。管理者が追加情報を求めるコメントを残すことがあります。PRが承認されない限り、PlanB Network GitHubリポジトリの`プルリクエスト`タブでそれを見ることができます：![podcast](assets/38.webp)
+PRの進行状況を確認してください。管理者が追加情報を求めるコメントを残すことがあります。PRが承認されない限り、Plan ₿ Academy GitHubリポジトリの`プルリクエスト`タブでそれを見ることができます：![podcast](assets/38.webp)
 貴重な貢献をいただき、ありがとうございます！:)

@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwa server ya Sparrow wallet buhuye n’ihuriro rya RPC?
+answer: Bitcoin core.
+wrong_answers:
+  - Umukozi wa Leta
+  - Umuyagankuba wigenga
+  - API ya kure
+explanation: |
+  Mu Sparrow, uburyo bwa Bitcoin core buhuye n'uguhuza n'urudodo biciye kuri RPC.
+reviewed: true

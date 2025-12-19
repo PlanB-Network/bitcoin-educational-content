@@ -1,0 +1,9 @@
+question: Hva er den matematiske sannsynlighetsformelen for at en uærlig gruvearbeider med x prosent hashrate lykkes med å utføre avgiftssniping ved å re-mining den forrige blokken pluss en ny blokk?
+answer: (x/(1-x))^2
+wrong_answers:
+  - x^2/(1-x)
+  - (1-x)^2/x
+  - x/(1-x)^2
+explanation: |
+  Den riktige formelen er (x/(1-x))^2, fordi avgiftssniping krever at en utvinner klarer å utvinne to påfølgende blokker for å erstatte den forrige blokken og forlenge kjeden. Sannsynligheten for at mining utvinner én blokk mot ærlige utvinnere er x/(1-x), og siden to blokker må utvinnes etter hverandre, er denne sannsynligheten kvadrert. De andre formlene er matematisk plausible, men representerer ulike sannsynlighetsscenarioer som ikke samsvarer med de spesifikke kravene til avgiftssniping, der den uærlige utvinneren må overvinne det ærlige nettverket to ganger etter hverandre.
+reviewed: false

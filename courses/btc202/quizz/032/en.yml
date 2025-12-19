@@ -6,4 +6,4 @@ wrong_answers:
   - RoninDojo
 explanation: |
   Umbrel is the most popular node-in-a-box solution, thanks to its ease of installation and rich App Store.
-reviewed: false
+reviewed: true

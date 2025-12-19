@@ -1,0 +1,9 @@
+question: O que é necessário para utilizar o Bitcoin de forma fiável, de acordo com a conceção do protocolo?
+answer: Executar um nó Bitcoin de validação completa para verificar todos os blocos e transacções
+wrong_answers:
+  - Utilizar uma bolsa de criptomoedas respeitável, com fortes medidas de segurança e seguro
+  - Confiar em vários serviços de terceiros de confiança para verificar as informações da transação
+  - Instalação de software wallet verificado de fontes oficiais com assinaturas digitais
+explanation: |
+  Para usar o Bitcoin sem confiança, é necessário executar um nó Bitcoin de validação completa que verifica independentemente se todos os blocos seguem as regras de consenso, verifica o cronograma de emissão de moedas e evita gastos duplos. Isto garante que não subcontrata a verificação a outros, mantendo a propriedade sem confiança. Utilizar trocas ou serviços de terceiros significa confiar em terceiros para lhe dizerem a verdade sobre o estado da cadeia de blocos. Embora o software verificado seja importante para a segurança, ele não elimina a necessidade de seu próprio nó de validação para alcançar a verdadeira falta de confiança no sistema Bitcoin.
+reviewed: false

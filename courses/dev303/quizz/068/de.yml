@@ -1,0 +1,8 @@
+question: Was ist der Hauptvorteil des statischen Typisierungsansatzes von Rust gegenüber der dynamischen Typisierung bei der Entwicklung von Bitcoin-Anwendungen?
+answer: Typfehler werden bei der Kompilierung vor der Bereitstellung abgefangen, um Laufzeitfehler bei der Handhabung von Benutzerfonds zu vermeiden
+wrong_answers:
+  - Statische Typisierung ermöglicht eine schnellere Ausführungsgeschwindigkeit bei der Verarbeitung von Bitcoin-Transaktionen in der Blockchain
+  - "Dynamische Typisierung erfordert mehr Speicherzuweisung, was mit den Anforderungen von Bitcoin an leichtgewichtige Knoten kollidiert"
+  - Statische Typisierung ermöglicht automatische Codegenerierung für Bitcoin-Protokollimplementierungen und intelligente Verträge
+explanation: |
+  Die statische Typisierung von Rust fängt Typinkongruenzen während der Kompilierung ab und stellt sicher, dass Fehler behoben werden, bevor die Software erstellt oder bereitgestellt werden kann. Dies ist für die Bitcoin-Entwicklung von entscheidender Bedeutung, denn sobald die Software mit echten Benutzergeldern arbeitet, könnten Typfehler zur Laufzeit zu irreversiblen finanziellen Verlusten führen. Dynamische Typisierung deckt Fehler nur während der Ausführung auf, möglicherweise nach der Bereitstellung, wenn das Geld der Benutzer in Gefahr ist. Die anderen Optionen sind falsch, da der Hauptvorteil der statischen Typisierung nicht in der Ausführungsgeschwindigkeit, dem Speicherverbrauch oder der Codegenerierung liegt, sondern in der Fehlervermeidung während der Kompilierung.

@@ -1,0 +1,8 @@
+question: What happens to Rust structs with associated methods when they are mapped through UniFFI's UDL to target languages like Kotlin or Swift?
+answer: They are exposed as interfaces in UDL and generate as classes with methods in object-oriented target languages
+wrong_answers:
+  - They are converted to simple dictionaries without any method functionality in the target languages
+  - They require manual implementation of each method in the target language using callback interfaces
+  - They are automatically transformed into namespace functions that take the struct as the first parameter
+explanation: |
+  UniFFI preserves object-oriented design patterns by mapping Rust structs with associated methods to interfaces in UDL, which then generate as native classes with methods in target languages. This maintains the structural integrity and behavior of the original Rust implementation while presenting familiar object-oriented interfaces to developers in languages like Kotlin and Swift. The other options are incorrect because UniFFI specifically maintains method functionality rather than flattening to dictionaries, doesn't require manual implementation since bindings are auto-generated, and doesn't convert struct methods to namespace functions.

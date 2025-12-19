@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo nyamukuru bw’umugambi wa Ponzi?
-answer: Abashoramari ba mbere barihwa n'amahera ava ku bashasha .
+question: Ni ubuhe buryo ngenderwako bw'ubuhinga bwa Ponzi?
+answer: Abanyamitahe bambere bahembwa n'imitahe ya bashasha .
 wrong_answers:
-  - Ivyiza biva ku kintu nyaco kiri kw'isoko .
-  - Abashoramari baronka imigabane ivuye mu masosiyete
-  - Inyungu ziterwa n’amasezerano y’ubwenge kuri Blockchain.
+  - Umwimbu uva mu bidandazwa biboneka kwisoko
+  - Abanyamitahe bagabura inyungu zivuye mwishirahamwe
+  - Inyungu ziva mu masezerano y’ubwenge kuri Blockchain.
 explanation: |
-  Mu mugambi wa Ponzi, nta kintu nyaco kiremwa, kandi amahera yishurwa ashingiye gusa ku kuza kw’abashasha bari muri iyo mugambi.
+  Mu mugambi wa Ponzi, nta kintu nyaco kiremwa, kandi amahera yishurwa ashingiye gusa ku kuza kw’abashasha baza muri iyo mugambi.
 reviewed: false

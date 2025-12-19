@@ -3,7 +3,7 @@ name: Bitaxe
 description: Hvordan sette opp en BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
-### Introduksjon
+## Introduksjon
 
 BitAxe er et åpen kildekode-prosjekt skapt av Skot og [tilgjengelig på GitHub](https://github.com/skot/bitaxe) som tillater kostnadseffektiv eksperimentering med mining.
 
@@ -20,7 +20,7 @@ Det finnes flere versjoner av BitAxe, med forskjellige brikker og ytelse:
 
 I denne veiledningen vil vi bruke en BitAxe Ultra 204 utstyrt med en BM1366-brikke, brukt for Antminer S19XP. Denne er allerede montert og flashet av forhandleren.
 
-### [Listen over forhandlere er tilgjengelig på denne siden](https://bitaxe.org/legit.html)
+[Listen over forhandlere er tilgjengelig på denne siden](https://bitaxe.org/legit.html)
 
 ![signup](assets/2.webp)
 
@@ -28,7 +28,7 @@ Vanligvis selges strømforsyningen med den. Hvis ikke, må du kjøpe en strømfo
 
 ![signup](assets/1.webp)
 
-### Konfigurasjon
+## Konfigurasjon
 Når du først kobler til BitAxe, vil den forsøke å koble seg til et Wi-Fi-nettverk som standard. Etter fem forsøk, vil den vise navnet på sitt eget Wi-Fi-nettverk slik at du kan koble til det og konfigurere det.
 For å gjøre dette, kan du bruke hvilken som helst datamaskin eller smarttelefon. Gå til Wi-Fi-innstillingene dine, søk etter nye nettverk, og du vil se et Wi-Fi kalt Bitaxe_XXXX. Her er det `Bitaxe_A859`. Koble til dette Wi-Fi-nettverket, og et vindu vil automatisk åpne seg.
 
@@ -46,7 +46,7 @@ Derfor, angi SSID-en til Wi-Fi, det vil si navnet på nettverket ditt, passordet
 
 Som du kan se på skjermen, må du fjerne `stratum+tcp://` og `:3333` delene, og bare la `eu.stratum.braiins.com` stå igjen. Deretter, i `Port` feltet, skriv inn de 4 sifrene på slutten av URL-en gitt av poolen, men uten `:`. Her er det altså `3333`.
 
-I denne opplæringen bruker vi Braiins miningpool, men du står fritt til å velge en annen. Du kan finne våre opplæringer om miningpooler [på PlanB Network-nettstedet](https://planb.network/en/tutorials/mining).
+I denne opplæringen bruker vi Braiins miningpool, men du står fritt til å velge en annen. Du kan finne våre opplæringer om miningpooler [på Plan ₿ Academy-nettstedet](https://planb.academy/en/tutorials/mining).
 
 Videre, i `User`, skriv inn din identifikator og deretter `Password`, vanligvis er det `"x"` eller `"Anything123"`.
 
@@ -56,7 +56,7 @@ Videre, i `User`, skriv inn din identifikator og deretter `Password`, vanligvis 
 
 Når du har korrekt angitt alle innstillingene, klikk på `Save`-knappen nederst, og deretter restart din BitAxe enkelt ved å koble den fra og koble den til igjen.
 Hvis du har angitt informasjonen din korrekt, bør enheten raskt koble seg til Wi-Fi, deretter til miningpoolen, og begynne å vise noe informasjon på sin lille skjerm. Det vil sannsynligvis ta noen minutter før den vises på miningpoolens dashboard.
-### Dashboard og Skjerm
+## Dashbord og skjerm
 
 Tre forskjellige visninger vil rulle gjennom. På den tredje siden vil du se `IP`-informasjonen, som er IP-adressen som lar deg koble til dashboardet. Her er adressen `192.168.1.19`.
 

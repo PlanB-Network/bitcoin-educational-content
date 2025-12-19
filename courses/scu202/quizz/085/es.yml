@@ -6,4 +6,4 @@ wrong_answers:
   - Foodvisor
 explanation: |
   OpenFoodFacts es un proyecto gratuito, comunitario y transparente en cuanto a sus datos, mientras que Yuka se basa en un modelo opaco y de código no abierto.
-reviewed: false
+reviewed: true

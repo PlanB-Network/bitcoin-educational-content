@@ -5,5 +5,5 @@ wrong_answers:
   - Open RPC port in plain text
   - Long password and SSH activation
 explanation: |
-  The combination of a strong password and 2FA effectively protects access to the Interface Umbrel.
-reviewed: false
+  The combination of a strong password and two-factor authentication (2FA) effectively protects access to the Interface Umbrel.
+reviewed: true

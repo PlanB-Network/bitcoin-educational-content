@@ -1,0 +1,9 @@
+question: Mida peab Wallet tegema, et vaadata Blockchain staatust?
+answer: Ühendus kohaliku või kaugseade sõlmpunktiga
+wrong_answers:
+  - Küsi teistelt rahakottidelt võrgustikus
+  - Intervjueerimine võrgu kaevandajatega
+  - Ühendage veebipõhine Exchange platvorm
+explanation: |
+  Wallet peab ühenduma sõlme, et pääseda ligi Blockchain olekule ja edastada oma tehinguid.
+reviewed: true

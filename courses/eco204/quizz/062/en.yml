@@ -5,13 +5,5 @@ wrong_answers:
   - It closed down
   - It increased the value of its banknotes
 explanation: |
-  Following the bank panic of 1796, the Bank of England suspended the
-
-  convertibility
-
-  of its banknotes into gold to prevent a potential deflation of gold reserves. This
-
-  suspension, initially intended as a temporary measure, lasted for a period of two
-
-  decades.'
-reviewed: false
+  Following the bank panic of 1796, the Bank of England suspended the convertibility of its banknotes into gold to prevent a potential deflation of gold reserves. This suspension, initially intended as a temporary measure, lasted for approximately two decades.
+reviewed: true

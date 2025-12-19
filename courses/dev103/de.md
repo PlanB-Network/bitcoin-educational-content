@@ -50,7 +50,7 @@ Die darin enthaltenen Befehle sind in der Programmiersprache JavaScript geschrie
 Eine JavaScript-Laufzeitumgebung ist ein spezielles Programm, das diese Dateien ausführt.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### Die NodeJS-Laufzeitumgebung
@@ -71,7 +71,7 @@ Da NodeJS für alle drei Betriebssysteme verfügbar ist, können die von Ihnen g
 Das bedeutet, dass Sie zum Beispiel ein einfaches Videospiel in JavaScript auf Ihrem Windows-PC schreiben und es an Ihren Freund weitergeben können, damit er es auf seinem Mac ausführt.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -680,7 +680,7 @@ Sie können Boolesche Begriffe mit logischen Operatoren kombinieren:
 - `!` bedeutet "nicht", es wird vor einem booleschen Wert angewandt und kehrt diesen um: wenn der boolesche Wert "wahr" ist, wird "falsch" zurückgegeben und umgekehrt.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Beispiele:
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` und wie es zu behandeln ist
+### null und wie es zu behandeln ist
 
 
 null" ist auch ein besonderer Wert. Er bedeutet "hier ist nichts, und das habe ich absichtlich gemacht"
@@ -1749,7 +1749,7 @@ JavaScript wird oft als objektorientierte Sprache bezeichnet.
 Das bedeutet, dass es Ihnen hilft, Ihren Code zu organisieren, indem es Werte und Funktionen zu **Objekten** zusammenfasst.
 
 
-### Was ist ein `Objekt`?
+### Was ist ein Objekt?
 
 
 Ein Objekt kann Daten und Funktionen enthalten, die mit diesen Daten arbeiten. Wenn eine Funktion in ein Objekt eingefügt wird, spricht man von einer "Methode".
@@ -2252,7 +2252,7 @@ In JavaScript können Sie Objekte frei umgestalten, aber bei der Verwendung von 
 
 
 
-### Vererbung mit `extends` und `super()`
+### Vererbung mit extends und super()
 
 
 Manchmal möchte man eine Klasse erstellen, die *fast* die gleiche ist wie eine andere Klasse, aber ein paar zusätzliche Funktionen hat.
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Die Klasse "Car" **erbt** jetzt alles von "Vehicle". Sie erhält die Eigenschaft "Brand", und wir haben die Methode "Start()" durch unsere eigene Version ersetzt.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Probieren wir es aus:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -2439,7 +2439,7 @@ Wenn Sie komplexere JavaScript-Programme schreiben, werden Sie auf **Fehler** st
 Wenn wir mit diesen Fehlern nicht richtig umgehen, kann unser Programm abstürzen oder sich auf unvorhersehbare Weise verhalten. JavaScript bietet Werkzeuge zum Erkennen und Verwalten dieser Fehler, damit wir sie besser behandeln können.
 
 
-### Häufiger Fehler: Zugriff auf einen Wert auf `undefined`
+### Häufiger Fehler: Zugriff auf einen Wert auf undefined
 
 
 Hier ist eine häufige Situation, die einen Fehler verursacht:
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Der zweite Aufruf führt zu einem Fehler, da die Division durch Null in diesem Beispiel nicht zulässig ist.
 
 
-### Auffangen von Fehlern mit `try...catch`
+### Auffangen von Fehlern mit try...catch
 
 
 Wenn Sie nicht wollen, dass Ihr Programm abstürzt, wenn ein Fehler auftritt, können Sie den Fehler mit einem "try...catch"-Block abfangen. Dies ist hilfreich, wenn Sie möchten, dass Ihr Programm **weiterläuft**, auch wenn etwas fehlschlägt.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Der `finally`-Block
+### Der finally-Block
 
 
 Sie können auch einen `finally`-Block hinzufügen. Dies ist ein Code, der **immer** läuft, egal ob ein Fehler aufgetreten ist oder nicht.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Dieses Kapitel zeigt einige der häufigsten Fallstricke in JavaScript und wie man sie vermeiden kann.
 
 
-### `var` und Assignment ohne Deklaration
+### var und Assignment ohne Deklaration
 
 
 In älterem JavaScript-Code wurden Variablen oft mit dem Schlüsselwort `var` deklariert. Im Gegensatz zu `let` und `const`, die Sie bereits kennengelernt haben, kann sich `var` auf verwirrende Weise verhalten.
@@ -2650,7 +2650,7 @@ In diesen Beispielen versucht JavaScript zu erraten, was Sie gemeint haben. Manc
 Es ist wichtig, sich des schwachen Typisierungssystems von JavaScript bewusst zu sein. Wenn Dinge anfangen, sich seltsam zu verhalten, kann das an unerwarteter Typenzwangsweise liegen.
 
 
-### `"use strict"`
+### "use strict"
 
 
 Sie können einen strengeren Modus aktivieren, der einige stille Fehler zu echten Fehlern macht und Sie davon abhält, einige der gefährlicheren Funktionen der Sprache zu verwenden.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Der Standardwert `"friend"` wird verwendet, wenn nichts übergeben wird.
 
 
-### Verteilungsparameter (`...`)
+### Verteilungsparameter (...)
 
 
 Was, wenn Ihre Funktion eine flexible Anzahl von Argumenten benötigt?
@@ -3030,7 +3030,7 @@ Die Funktion `makeGreeter` ist eine Funktion, die andere Funktionen aufbaut. Sie
 Diese Art von Muster ist sehr leistungsfähig, da sie es Ihnen ermöglicht, "Löcher" in Ihren Funktionen zu hinterlassen, die Sie später mit dem benötigten Verhalten füllen können.
 
 
-### map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript bietet Ihnen einige nützliche integrierte Methoden zur Verwendung mit Arrays.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Dies ist nützlich für die Speicherung gemeinsamer Daten und Methoden, die für die gesamte Gruppe von Objekten gelten, nicht nur für ein einzelnes.
 
 
-### `get` und `set`
+### get und set
 
 
 In JavaScript können Sie mit "get" und "set" Eigenschaften erstellen, die wie normale Variablen aussehen, aber im Hintergrund speziellen Code ausführen.
@@ -3421,7 +3421,7 @@ Wie Sie sehen können, bleibt die ursprüngliche Eigenschaft "Name" auf diese We
 JavaScript gibt uns einige nützliche eingebaute Objekte, die uns helfen, Dinge wie Debugging und mathematische Operationen durchzuführen.
 
 
-### Andere `Konsolen`-Methoden
+### Andere Konsolen-Methoden
 
 
 Sie haben bereits die Datei `console.log` gesehen, die Werte auf dem Bildschirm ausgibt.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Nützlich für einige einfache Leistungstests.
 
 
-### Das Objekt `Math`
+### Das Objekt Math
 
 
 JavaScript gibt Ihnen ein `Math`-Objekt mit nützlichen Methoden für Berechnungen.
@@ -3924,7 +3924,7 @@ Jeder Aufruf von `.next()` gibt Ihnen den nächsten Wert. Wenn er fertig ist, ke
 ```
 
 
-### `Nächste()`
+### Nächste()
 
 
 Die Methode `.next()` wird verwendet, um das nächste Element der Sequenz zu erhalten.
@@ -4253,7 +4253,7 @@ Darin geben wir ihm eine Funktion mit zwei Parametern:
 Im obigen Beispiel lösen wir es einfach sofort mit der Meldung "Es hat geklappt" auf.
 
 
-### `.then()`
+### .then()
 
 
 Um etwas zu tun, **nachdem** das Versprechen erfüllt ist, verwenden wir `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### ablehnen()`
+### ablehnen()
 
 
 Schaffen wir ein Versprechen, das **nicht funktioniert**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Verkettung von Operationen mit `Promise`
+### Verkettung von Operationen mit Promise
 
 
 
@@ -4551,7 +4551,7 @@ Schauen wir uns an, was das bedeutet:
 Jedes `.then()` wartet, bis der Schritt vor ihm beendet ist. So können wir eine **Aktionskette** ohne Verschachtelung aufbauen. Das macht den Code lesbarer und einfacher zu debuggen.
 
 
-## Gleichzeitigkeit mit `async`/`await`
+## Gleichzeitigkeit mit async/await
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4638,7 +4638,7 @@ Jetzt können wir das Ergebnis so verwenden, als wäre es ein normaler Wert.
 Lassen Sie uns jetzt etwas Nützlicheres tun.
 
 
-### Simulation einer Verzögerung mit `await`
+### Simulation einer Verzögerung mit await
 
 
 Wir werden eine einfache `wait`-Funktion erstellen, die eine Anzahl von Millisekunden als Argument nimmt und nach dieser Anzahl von Millisekunden einfach auflöst, ohne etwas anderes zu tun:
@@ -5228,7 +5228,7 @@ JavaScript ist eine interpretierte Sprache, im Gegensatz zu kompilierten Sprache
 Der in einer kompilierten Sprache geschriebene Code wird in eine Binärdatei umgewandelt, und die Binärdatei wird direkt an die CPU des Computers weitergeleitet.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpretensprachen hingegen sind in der Regel benutzerfreundlicher und orientieren sich eher an der menschlichen Denkweise ("high level") als an der Arbeitsweise von Maschinen ("low level"); daher verfügen sie in der Regel über eine virtuelle Maschine, die ihren Code ausführt.
@@ -5261,7 +5261,7 @@ Warum ist das ein Problem?
 Da Browser Code ausführen, der aus Millionen verschiedener Quellen im Internet stammt, können sie leicht zu Malware werden, weshalb sie vom Rest des Betriebssystems getrennt sind.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScript konnte nicht auf das Dateisystem und andere lokale Ressourcen auf Ihrem Computer zugreifen (zumindest nicht so einfach wie andere Sprachen), so dass dies eine erhebliche Einschränkung für die Art der Anwendungen darstellte, die Sie damit erstellen konnten.
@@ -5270,7 +5270,7 @@ JavaScript konnte nicht auf das Dateisystem und andere lokale Ressourcen auf Ihr
 Im Jahr 2009 veröffentlichte Ryan Dahl NodeJS, eine Laufzeitumgebung, mit der Sie die V8-Engine außerhalb des Browsers direkt auf dem nativen Betriebssystem Ihres Computers verwenden können. Außerdem bietet sie viele Funktionen, die für das Schreiben von serverseitigen und Befehlszeilenprogrammen nützlich sind. So können Sie mit NodeJS beispielsweise einen Webserver erstellen, Dateien lesen und schreiben oder Tools zur Automatisierung von Aufgaben erstellen.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 In diesem Kurs haben wir uns bisher mit den JavaScript-Funktionen beschäftigt, die sowohl im Browser als auch in NodeJS vorhanden sind. Mit diesen Funktionen konnten wir Daten definieren und sie auf abstrakte Weise manipulieren. In den nächsten Lektionen werden wir uns mit den NodeJS-spezifischen Funktionen befassen, die uns die Interaktion mit dem Betriebssystem ermöglichen.
@@ -5493,7 +5493,7 @@ Sie müssen diese eingebauten Module nicht installieren, sie werden mit NodeJS g
 In den nächsten Kapiteln werden Sie einige nützliche Beispiele für ihre Verwendung finden.
 
 
-## Das Modul `fs`
+## Das Modul fs
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `Paket.json`
+### Paket.json
 
 
 Die Datei `package.json` ist einfach eine JSON-Datei, die Metadaten über Ihr Projekt speichert.

@@ -158,7 +158,7 @@ Kisha unaweza kupitia uthibitisho, na kifaa kitawasilisha maneno. Yaandike kwa u
 ![image](assets/17.webp)
 
 
-Baada ya hapo, unaweza kubofya kichupo cha Bitcoin upande wa kushoto ili kupata anwani zako za kupokea.
+Baada ya hapo, unaweza kubofya kichupo cha Bitcoin upande wa kushoto ili kupata address zako za kupokea.
 
 
 ![image](assets/18.webp)
@@ -182,16 +182,16 @@ Kutuma Bitcoin kwa Wallet hii, unaweza kunakili Address na kuibandika kwenye uku
 Kwa kiasi kikubwa, napendekeza uunde passphrase (tazama hapa chini). Wallet asili (hakuna passphrase) inaweza kutumika kama ulaghai wako wa Wallet (itahitajika kuwa na kiasi cha kuridhisha ili iwe ulaghai unaoaminika).
 
 
-### Unganisha kwenye nodi
+### Unganisha kwenye node
 
 
-BitBox02 itaunganishwa kiotomatiki kwenye nodi. Wacha tuone ni wapi inaunganishwa. Bofya kwenye kichupo cha mipangilio upande wa kushoto, na kisha "unganisha Full node yako mwenyewe".
+BitBox02 itaunganishwa kiotomatiki kwenye node. Wacha tuone ni wapi inaunganishwa. Bofya kwenye kichupo cha mipangilio upande wa kushoto, na kisha "unganisha Full node yako mwenyewe".
 
 
 ![image](assets/21.webp)
 
 
-Na hapa tunaweza kuona inaunganishwa na nodi ya shiftcrypto. Sio nzuri. Tumesaliti anwani zetu zote za Bitcoin kwao, na IP yetu Address (sio seed bila shaka; wanaweza kuona anwani/mizani zetu, lakini hawawezi kuzitumia). Tunaweza kuingiza maelezo yetu ya nodi katika ukurasa huu (zaidi ya upeo wa mwongozo huu), au tunaweza kutumia programu bora kama Sparrow Bitcoin Wallet, Electrum Desktop Wallet, au Specter Desktop. Nitaonyesha Sparrow Bitcoin Wallet baadaye kwenye mwongozo.
+Na hapa tunaweza kuona inaunganishwa na node ya shiftcrypto. Sio nzuri. Tumesaliti address zetu zote za Bitcoin kwao, na IP yetu Address (sio seed bila shaka; wanaweza kuona address/mizani zetu, lakini hawawezi kuzitumia). Tunaweza kuingiza maelezo yetu ya node katika ukurasa huu (zaidi ya upeo wa mwongozo huu), au tunaweza kutumia programu bora kama Sparrow Bitcoin Wallet, Electrum Desktop Wallet, au Specter Desktop. Nitaonyesha Sparrow Bitcoin Wallet baadaye kwenye mwongozo.
 
 
 ![image](assets/22.webp)
@@ -200,7 +200,7 @@ Na hapa tunaweza kuona inaunganishwa na nodi ya shiftcrypto. Sio nzuri. Tumesali
 Ongeza passphrase
 
 
-Sasa kwa kuwa tumeweka kifaa na Programu ya BitBox02 (na kufichua anwani zetu, zisizoepukika na Hardware Wallet hii mahususi), tunaweza kuongeza passphrase kwa maneno yetu ya seed. Hii itaturuhusu kuunda Wallet mpya kwa kutumia seed sawa, na ShiftCrypto haitawahi kuona anwani zetu mpya. Tutakuwa tukiunganisha Wallet hii kwa programu yetu pekee.
+Sasa kwa kuwa tumeweka kifaa na Programu ya BitBox02 (na kufichua address zetu, zisizoepukika na Hardware Wallet hii mahususi), tunaweza kuongeza passphrase kwa maneno yetu ya seed. Hii itaturuhusu kuunda Wallet mpya kwa kutumia seed sawa, na ShiftCrypto haitawahi kuona address zetu mpya. Tutakuwa tukiunganisha Wallet hii kwa programu yetu pekee.
 
 
 ### Washa passphrase
@@ -212,7 +212,7 @@ Nenda mbele sasa na "wezesha" kipengele cha passphrase (lakini bado hatuweki pas
 ![image](assets/23.webp)
 
 
-Soma hatua…
+Soma hatuaâ€¦
 
 
 ![image](assets/24.webp)

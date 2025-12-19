@@ -1,13 +1,10 @@
 question: Jaka jest ścieżka ewolucji dzisiejszej waluty?
-answer: Surowy kamień -> Moneta -> Banknot -> Karta bankowa -> Blockchain -> Lightning Network
+answer: Surowy kamień -> Moneta -> Banknot -> Karta bankowa -> Łańcuch bloków -> sieć Lightning
 wrong_answers:
-  - Surowy kamień -> Moneta -> Banknot -> Blockchain -> Lightning Network
-  - Surowy kamień -> Moneta -> Banknot -> Karta bankowa -> Lightning Network
-  - Surowy kamień -> Moneta -> Karta bankowa -> Banknot -> Blockchain -> Lightning Network
+  - Surowy kamień -> Moneta -> Banknot -> łańcuch bloków -> sieć Lightning
+  - Surowy kamień -> Moneta -> Banknot -> Karta bankowa -> sieć Lightning
+  - Surowy kamień -> Moneta -> Karta bankowa -> Banknot -> Łańcuch bloków -> sieć Lightning
 explanation: |
-  Waluta to technologia, która ewoluowała wraz z upływem czasu,
-  począwszy od bycia reprezentowanym przez surowe kamienie
-  w metalowe monety, a następnie w banknoty, karty bankowe i
-  wreszcie w sieci peer-to-peer z wykorzystaniem Bitcoin, Blockchain i Lightning Network
-  Bitcoin Blockchain i Lightning Network.
+  Waluta to technologia, która ewoluowała wraz z upływem czasu. Początkowo były nią surowe kamienie, metalowe monety, a następnie banknoty, karty bankowe i
+  wreszcie sieć peer-to-peer z wykorzystaniem Bitcoina, łańcucha bloków i sieci Lightning.
 reviewed: true

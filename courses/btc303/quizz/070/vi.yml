@@ -1,0 +1,9 @@
+question: Đặc điểm cơ bản nào phân biệt định nghĩa về quy mô Bitcoin của cuốn sách này với các định nghĩa thay thế phổ biến được sử dụng trong không gian Bitcoin?
+answer: Nó yêu cầu rõ ràng việc duy trì khả năng chống kiểm duyệt như một ràng buộc trong khi tăng khả năng sử dụng
+wrong_answers:
+  - Nó tập trung hoàn toàn vào việc tăng thông lượng giao dịch blockchain thay vì cải thiện hiệu quả
+  - Nó ưu tiên phát triển kiến trúc nhiều lớp hơn bất kỳ sửa đổi nào đối với giao thức blockchain cơ sở
+  - Nó nhấn mạnh việc giảm yêu cầu tính toán cho các nút thay vì mở rộng dung lượng mạng
+explanation: |
+  Sách định nghĩa việc mở rộng quy mô là "tăng khả năng sử dụng của Bitcoin mà không ảnh hưởng đến khả năng chống kiểm duyệt", trong đó bao gồm rõ ràng ràng buộc chống kiểm duyệt. Điều này phân biệt nó với các định nghĩa khác chỉ tập trung vào việc tăng khả năng giao dịch, cải thiện hiệu quả hoặc hệ thống phân tầng mà không xem xét đến việc bảo tồn các đặc tính cơ bản của Bitcoin. Yêu cầu chống kiểm duyệt đảm bảo rằng các giải pháp mở rộng quy mô không làm suy yếu giá trị cốt lõi của Bitcoin là một hệ thống phi tập trung, không cần sự tin cậy và không thể bị kiểm soát bởi bất kỳ thực thể đơn lẻ nào.
+reviewed: false

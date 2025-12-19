@@ -1,9 +1,9 @@
-question: Ni gute kwemera amahera ya Bitcoin bishobora gutuma ubucuruzi bugaragara cane?
-answer: Mu gushiramwo ubucuruzi ku mbuga nka BTCmap.org no gusaba ijambo ry’akanwa ry’umuryango wa Bitcoin.
+question: Ni gute kwemera amahera ya Bitcoin bishobora gutuma uruganda ruboneka cane?
+answer: Mu gushiramwo uruganda ku mbuga nka BTCmap.org no gusaba ijambo  ry’umuryango wa Bitcoin.
 wrong_answers:
   - Mu kubuza ubundi buryo bwose bwo kwishura no guhatira abakiriya bose gukoresha Bitcoin.
-  - Mu kwemeza ko leta izokwamamaza iyo bucuruzi ku buntu.
+  - Mu kwemeza ko leta izokwamamaza  urwo  ruganda  ku buntu.
   - Mu gusaba abakiriya kwiyandikisha ku makonti menshi yo kuri Internet imbere y’uko bariha.
 explanation: |
   Kwemera Bitcoin biracari bike cane, ivyo bishobora gutuma umuryango wa Bitcoin uvyipfuza. Gushira urutonde rw’iduka ryawe ku rutonde rw’ibintu vyihariye no kwungukira ku guteza imbere ivy’abanyagihugu birashobora kugufasha kwigaragaza no gukwegera abakiriya bashasha.
-reviewed: false
+reviewed: true

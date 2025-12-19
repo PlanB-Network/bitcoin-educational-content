@@ -1,0 +1,9 @@
+question: Apa karakteristik utama dari proses pengembangan Bitcoin yang membuatnya sangat rentan terhadap taktik infiltrasi yang dijelaskan dalam buku panduan sabotase masa perang?
+answer: Pengembangan Bitcoin terbuka bagi siapa saja untuk berpartisipasi tanpa gatekeeper
+wrong_answers:
+  - Pengembangan Bitcoin bergantung pada sekelompok kecil pengelola inti yang tepercaya
+  - Pengembangan Bitcoin memerlukan persetujuan resmi dari pemerintah untuk perubahan besar
+  - Pengembangan Bitcoin menggunakan kode sumber tertutup yang membatasi kontribusi eksternal
+explanation: |
+  Proses pengembangan Bitcoin yang terbuka, meskipun merupakan salah satu kekuatan terbesarnya untuk desentralisasi dan transparansi, juga menciptakan kerentanan terhadap penyusupan pihak lawan. Karena siapa pun dapat berpartisipasi dalam diskusi, mengusulkan perubahan, dan terlibat dalam proses peninjauan tanpa memerlukan izin atau kredensial, penyerang yang berdedikasi dapat mengeksploitasi keterbukaan ini. Mereka dapat menghambat kemajuan melalui kekhawatiran yang tak berkesudahan mengenai isu-isu yang tidak relevan, tawar-menawar kata-kata yang tepat, mengulangi diskusi yang sudah selesai, atau menggunakan 'serangan Sybil sosial' dengan menggunakan beberapa identitas palsu untuk menciptakan kesan palsu tentang perlawanan. Keterbukaan ini sangat kontras dengan model pengembangan tertutup yang memiliki penjaga gerbang atau proses persetujuan yang dapat menyaring aktor-aktor jahat.
+reviewed: false

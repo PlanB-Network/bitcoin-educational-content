@@ -1,0 +1,8 @@
+question: What is the primary purpose of the exclamation mark (!) that follows a macro name in Rust?
+answer: It serves as a visual indicator that compile-time code generation is occurring rather than a runtime function call
+wrong_answers:
+  - It indicates that the macro will panic if given invalid input parameters during execution
+  - It marks the macro as unsafe and requires explicit acknowledgment of potential memory safety issues
+  - It specifies that the macro returns a Result type that must be handled with error checking
+explanation: |
+  The exclamation mark in Rust macro syntax is a deliberate design choice that visually distinguishes macros from functions. When you see `println!()` or `vec![]`, the `!` immediately signals that compile-time code expansion will occur, not a runtime function call. This distinction is crucial because macros operate fundamentally differently from functions - they generate code during compilation through pattern matching and expansion. The wrong answers confuse this with runtime behaviors like panicking, unsafe operations, or error handling, but the exclamation mark specifically indicates the compile-time metaprogramming nature of macros.

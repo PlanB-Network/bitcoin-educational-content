@@ -1,12 +1,11 @@
 question: Jaka jest rola górników w protokole Bitcoin?
-answer: Zabezpieczają one bieżącą i historyczną sieć.
+answer: Zabezpieczają bieżącą i historyczną sieć.
 wrong_answers:
-  - Regulują one cenę Bitcoin.
-  - Kontrolują oni Supply z Bitcoin.
+  - Regulują cenę bitcoina.
+  - Kontrolują podaż bitcoina.
   - Zarządzają transakcjami między użytkownikami.
 explanation: |
-  Górnicy w protokole Bitcoin zabezpieczają zarówno bieżącą, jak i
-  sieć historyczną. Nie regulują oni ceny
-  Bitcoin, nie kontrolują Supply ani nie zarządzają transakcjami
+  Górnicy w protokole Bitcoin zabezpieczają zarówno sieć bieżącą, jak i historyczną. Nie regulują oni ceny
+  bitcoina, nie kontrolują podaży ani nie zarządzają transakcjami
   między użytkownikami.
 reviewed: true

@@ -42,7 +42,7 @@ Kama vile kaka yake Bitrefill, na washindani wake (Kampuni ya Bitcoin, Coinsbee 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards hutoa chaguzi mbalimbali, kutoka kwa rejareja hadi chakula cha haraka, majukwaa ya utiririshaji, michezo ya mtandaoni, tovuti za biashara ya mtandaoni na zaidi...
 
@@ -67,7 +67,7 @@ Hii ni fursa ya kuwakumbusha wale ambao wangependa kulipia kadi zao za zawadi ka
 
 
 
-Uteuzi wa mafunzo kwenye jalada kuu la Lightning (Phoenix, Breez, BitKit, Zeus...) unaweza kupatikana hapa: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Uteuzi wa mafunzo kwenye jalada kuu la Lightning (Phoenix, Breez, BitKit, Zeus...) unaweza kupatikana hapa: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Ikiwa ungependa kujifunza zaidi kuhusu jinsi Lightning Network inavyofanya kazi,
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Je, ninanunuaje kadi ya zawadi ya BTC kwenye Coincards?
 
@@ -244,4 +244,4 @@ Iwapo ungependa kusaidia kutangaza Bitcoin maarufu na kuhimiza mfanyabiashara an
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

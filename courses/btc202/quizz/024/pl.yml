@@ -1,0 +1,9 @@
+question: Jakie jest ryzyko, jeśli Wallet zależy od węzła innej firmy?
+answer: Ryzyko nadzoru i cenzury
+wrong_answers:
+  - Ryzyko automatycznego Double-spending
+  - Ryzyko utraty kluczy prywatnych
+  - Ryzyko utraty i monitorowanie
+explanation: |
+  Węzeł zewnętrzny może analizować lub blokować transakcje, a nawet powiązać dane z tożsamością użytkownika.
+reviewed: true

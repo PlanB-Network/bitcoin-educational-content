@@ -32,7 +32,7 @@ I den här handledningen, som riktar sig till nybörjare och avancerade använda
 Om du är en avancerad användare och vill utforska mer komplexa funktioner rekommenderar jag att du tittar på den här andra handledningen där vi konfigurerar Passport med Sparrow wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Uppackning av passet
 
@@ -246,7 +246,7 @@ För att göra detta använder du MicroSD-kortet som medföljde i Passport-boxen
 Innan du installerar den på din enhet rekommenderar vi starkt att du kontrollerar äktheten och integriteten hos den nedladdade firmware. Om du behöver hjälp med detta, se denna handledning :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Med Envoy-applikationen
 
@@ -371,7 +371,7 @@ Klicka på bekräftelseknappen för att se din Mnemonic-fras.
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 naturligtvis får du aldrig dela dessa ord på Internet, som jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
 
@@ -674,4 +674,4 @@ Grattis, du vet nu hur du konfigurerar och använder Passport med Envoy-programm
 För ytterligare information, se vår handledning om Liana-programvara:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

@@ -1,9 +1,9 @@
-question: How do Enterprise systems update inventory automatically?
-answer: Through workflow triggers
+question: Hệ thống doanh nghiệp tự động cập nhật hàng tồn kho như thế nào?
+answer: Thông qua các kích hoạt quy trình làm việc
 wrong_answers:
-  - Manual updates
-  - End-of-day uploads
-  - Scheduled reports
+  - Cập nhật thủ công
+  - Tải lên cuối ngày
+  - Báo cáo theo lịch trình
 explanation: |
-  Workflow triggers update systems in real time.
-reviewed: false
+  Quy trình làm việc kích hoạt hệ thống cập nhật theo thời gian thực.
+reviewed: true

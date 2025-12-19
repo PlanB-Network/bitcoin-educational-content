@@ -4,11 +4,11 @@ description: Come costruire un computer minimale, isolato e a basso costo utiliz
 ---
 ![cover](assets/cover.webp)
 
-Se sei sulle pagine di Plan ₿ Network da un po', hai già imparato che una delle più caldeggiate impostazioni di sicurezza, pressoché irrinunciabile, **è la gestione dei fondi tramite la conservazione offline delle tue chiavi private**.
+Se sei sulle pagine di Plan ₿ Academy da un po', hai già imparato che una delle più caldeggiate impostazioni di sicurezza, pressoché irrinunciabile, **è la gestione dei fondi tramite la conservazione offline delle tue chiavi private**.
 
 Se non lo hai ancora scoperto, nel corso di questo tutorial troverai i link a risorse open source con cui approfondire l'argomento.
 
-Per gestire offline le chiavi private, dunque, serve un dispositivo perennemente scollegato dalla rete, che sia un [hardware wallet](https://planb.network/resources/glossary/hardware-wallet) o un computer airgap, da dedicare a questa specifica funzione.
+Per gestire offline le chiavi private, dunque, serve un dispositivo perennemente scollegato dalla rete, che sia un [hardware wallet](https://planb.academy/resources/glossary/hardware-wallet) o un computer airgap, da dedicare a questa specifica funzione.
 
 Come fare se, ad esempio, non si ha la possibilità di acquistare hardware che svolga solo questo compito, ma non si vuole rinunciare a questo step di sicurezza?
 
@@ -254,7 +254,7 @@ Nonostante le prestazioni sembrino limitate (sulla carta e rispetto alla potenza
 
 Tra i wallet che conosco bene, l'unico che prevede una release a 32 bit è Electrum. Ebbene: la PI Zero così come l'abbiamo preparata in questo tutorial, ti permetterebbe di tenere le chiavi private offline il set up per wallet airgap che abbiamo trattato in questo tutorial:
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Conclusioni
 La configurazione ha, probabilmente, un grande punto debole: la micro SD è un supporto che potrebbe dare problemi. È vulnerabile all'uso intensivo; magari hai già esperienza di questo, dall'uso con il tuo telefono. Dopo aver installato tutti i software che vorrai usare sulla PI Zero airgap, fai un buon backup della preziosa micro SD, utilizzando il tool di Raspi OS che hai a disposizione.

@@ -32,7 +32,7 @@ In deze tutorial, die gericht is op beginners en gevorderde gebruikers, gaan we 
 Als je een gevorderde gebruiker bent en complexere functies wilt ontdekken, raad ik je aan deze andere tutorial te bekijken, waarin we Passport configureren met Sparrow wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Het paspoort uit de doos
 
@@ -246,7 +246,7 @@ Gebruik hiervoor de MicroSD-kaart die in uw Passport-doos is meegeleverd (of een
 Voordat je de firmware op je apparaat installeert, raden we je sterk aan om de authenticiteit en integriteit van de gedownloade firmware te controleren. Als je hierbij hulp nodig hebt, raadpleeg dan deze handleiding:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Met de Envoy-toepassing
 
@@ -371,7 +371,7 @@ Klik op de bevestigingsknop om je Mnemonic zin te zien.
 Voor meer informatie over de juiste manier om je Mnemonic zin op te slaan en te beheren, raad ik je aan deze andere tutorial te volgen, vooral als je een beginner bent:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 natuurlijk mag je deze woorden nooit delen op het Internet, zoals ik in deze tutorial doe. Dit voorbeeld Wallet wordt alleen gebruikt op Testnet en wordt verwijderd aan het einde van de tutorial.
 
@@ -674,4 +674,4 @@ Gefeliciteerd, je weet nu hoe je de Passport kunt instellen en gebruiken met de 
 Voor meer informatie, zie onze handleiding over Liana software:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

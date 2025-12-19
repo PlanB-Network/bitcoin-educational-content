@@ -1,0 +1,9 @@
+question: Ni ururimi uruhe rwo gukora porogarama Bitcoin core yanditswemwo?
+answer: C++
+wrong_answers:
+  - Genda
+  - JavaScript
+  - Rust.
+explanation: |
+  Bitcoin core yanditswe mu rurimi rwa C++ kandi ibungabungwa n’umuryango munini, ufunguye.
+reviewed: true

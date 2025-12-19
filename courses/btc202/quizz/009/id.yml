@@ -1,0 +1,9 @@
+question: Apa fungsi utama dari node Bitcoin?
+answer: Simpan Blockchain dan validasi transaksi dan blokir
+wrong_answers:
+  - Menyimpan kunci pribadi dan membangun transaksi
+  - Membuat alamat baru untuk pengguna
+  - Mengonversi bitcoin menjadi mata uang fiat
+explanation: |
+  Node Bitcoin menyimpan salinan Blockchain dan berpartisipasi dalam memvalidasi dan menyampaikan transaksi dan blok.
+reviewed: true

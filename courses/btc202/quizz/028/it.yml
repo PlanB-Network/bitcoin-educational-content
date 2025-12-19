@@ -1,0 +1,9 @@
+question: Cosa differenzia un nodo pruned da un Full node?
+answer: Elimina gradualmente i vecchi blocchi
+wrong_answers:
+  - Non convalida le transazioni più vecchie
+  - Non può trasmettere interi blocchi
+  - Non conserva alcuna copia locale del Blockchain, ma solo l'insieme UTXO
+explanation: |
+  Il nodo pruned convalida l'intera catena, ma conserva solo una parte recente dei blocchi per limitarne l'archiviazione.
+reviewed: true

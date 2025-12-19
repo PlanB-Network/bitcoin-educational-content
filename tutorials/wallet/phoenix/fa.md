@@ -90,7 +90,7 @@ description: نصب و استفاده از Phoenix Wallet
 برای اطلاعات بیشتر در مورد روش صحیح ذخیره و مدیریت عبارت Mnemonic خود، به شدت توصیه می‌کنم این آموزش دیگر را دنبال کنید، به ویژه اگر مبتدی هستید:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 روی پیامی که در بالای Interface نمایش داده شده کلیک کنید "*Save your Wallet...*".
 
@@ -263,9 +263,9 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 برای برداشتن یک گام فراتر، این آموزش را در Alby Hub بررسی کنید، یک راه‌حل نوآورانه و آسان برای استفاده جهت راه‌اندازی نود لایتنینگ خودتان:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-و برای کسب اطلاعات بیشتر در مورد عملکرد فنی Lightning Network، می‌توانید آموزش رایگان عالی فانیس میخالاکیس در مورد Plan ₿ Network را پیدا کنید:
+و برای کسب اطلاعات بیشتر در مورد عملکرد فنی Lightning Network، می‌توانید آموزش رایگان عالی فانیس میخالاکیس در مورد Plan ₿ Academy را پیدا کنید:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,0 +1,9 @@
+question: Kuidas nimetame masinate kogumit, mis kasutavad Bitcoin rakendust ja on omavahel ühendatud?
+answer: Bitcoin võrk
+wrong_answers:
+  - Bitcoin protokoll
+  - Bitcoin valuuta
+  - Blockchain Bitcoin
+explanation: |
+  Bitcoin võrk koosneb kõigist ühendatud sõlmedest, millest igaüks kasutab protokolli eri rakendust.
+reviewed: true

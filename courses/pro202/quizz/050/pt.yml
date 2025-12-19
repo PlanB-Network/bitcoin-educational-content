@@ -1,0 +1,8 @@
+question: Quando um nó Bitcoin arranca e se junta à rede pela primeira vez, qual é o mecanismo principal que utiliza para descobrir pares activos?
+answer: Contactos de sementes DNS codificadas mantidas pelos programadores principais para receber IPs de pares activos
+wrong_answers:
+  - Emite uma mensagem de descoberta para todos os endereços IP em intervalos de sub-rede predefinidos
+  - Liga-se a um servidor de registo central que mantém uma lista de todos os nós activos
+  - Utiliza o protocolo DHT (Distributed Hash Table) para encontrar pares através de encaminhamento baseado em hash
+explanation: |
+  O Bitcoin usa sementes de DNS codificadas como mecanismo de bootstrap porque fornece uma maneira descentralizada para que novos nós entrem na rede sem depender de uma autoridade central. As sementes de DNS são mantidas pelos desenvolvedores principais e retornam endereços IP de pares atualmente ativos. Uma vez conectados, os nós podem então usar o comando getaddr para descobrir pares adicionais. As respostas erradas descrevem abordagens centralizadas ou protocolos não utilizados pelo Bitcoin - não há registo central, não há difusão de sub-rede e não há descoberta de pares baseada em DHT no design do Bitcoin.

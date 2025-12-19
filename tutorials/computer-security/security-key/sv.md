@@ -14,7 +14,7 @@ Numera har tvåfaktorsautentisering (2FA) blivit viktigt för att förbättra s�
 I en annan handledning förklarade jag hur man ställer in och använder en TOTP 2FA-applikation:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Här ska vi se hur du använder en fysisk säkerhetsnyckel som en andra autentiseringsfaktor för alla dina konton.
 

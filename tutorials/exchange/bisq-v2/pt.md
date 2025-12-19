@@ -8,7 +8,7 @@ description: Guia completo para utilizar Bisq 2 e trocar bitcoins P2P
 
 As trocas peer-to-peer (P2P) sem KYC são essenciais para preservar a confidencialidade e a autonomia financeira dos utilizadores. Permitem transacções diretas entre indivíduos sem necessidade de verificação de identidade, o que é crucial para quem valoriza a privacidade. Para uma compreensão mais aprofundada dos conceitos teóricos, consulte o curso BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### O que é o Bisq 2?
 
@@ -23,7 +23,7 @@ Bisq 2 é a nova versão da popular bolsa descentralizada Bisq, lançada em 2024
 - Suporte para vários tipos de carteiras
 - Sistema de funções com depósito obrigatório no BSQ
 
-Este guia centra-se exclusivamente no "Bisq Easy", o único protocolo atualmente disponível. O Bisq Easy foi concebido especificamente para novos utilizadores de Bitcoin. Este protocolo permite aos utilizadores comprar e vender Bitcoins contra moedas fiduciárias numa plataforma descentralizada peer-to-peer. As transacções são limitadas ao equivalente a 600 USD (com um mínimo de 6 USD) e a segurança da troca depende da reputação dos vendedores de BTC. A Bisq Easy não tem taxas de transação ou requisitos de depósito de segurança. Espera-se que a Bisq Easy substitua a Bisq 1 nas transacções em numerário inferiores a 600 USD (ou equivalente).
+Este guia concentra-se exclusivamente no "Bisq Easy", o único protocolo atualmente disponível. O Bisq Easy foi projetado especialmente para novos utilizadores de Bitcoin. Este protocolo permite que os utilizadores comprem e vendam bitcoins por moedas fiduciárias numa plataforma descentralizada ponto a ponto. As transações são limitadas ao equivalente a 600 USD (com um mínimo de 6 USD), e a segurança das trocas baseia-se na reputação dos vendedores de BTC. O Bisq Easy não tem taxas de negociação nem exigência de depósito de garantia. Espera-se que o Bisq Easy substitua o Bisq 1 para trocas fiduciárias inferiores a 600 USD (ou equivalente).
 
 **Principais caraterísticas**
 
@@ -62,7 +62,7 @@ Este guia centra-se exclusivamente no "Bisq Easy", o único protocolo atualmente
 - O criador da oferta define os termos da troca
 - Uma vez acordados os termos (método de pagamento e preço), a troca começa
 - O vendedor envia os seus dados bancários para o comprador e o comprador envia o seu endereço Bitcoin para o vendedor
-- O comprador efectua o pagamento em numerário e notifica o vendedor
+- O comprador efetua o pagamento em moeda fiduciária e notifica o vendedor
 - Uma vez recebido o pagamento, o vendedor envia os bitcoins para o endereço do comprador
 - A troca fica concluída quando o comprador recebe os bitcoins
 
@@ -86,7 +86,7 @@ Este guia centra-se exclusivamente no "Bisq Easy", o único protocolo atualmente
 - Descarregue a versão do Bisq 2 correspondente ao seu sistema operativo (desloque-se para baixo na página)
 - Verificar a autenticidade do ficheiro descarregado (fortemente recomendado). Para obter um guia detalhado sobre a verificação de assinaturas, consulte o seguinte tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Instalação de acordo com o seu sistema
 

@@ -6,4 +6,4 @@ wrong_answers:
   - 64 Bits
 explanation: |
   Eine 24-Wort-Mnemonik-Phrase basiert auf 256 Bits Entropie, was eine sehr hohe Sicherheit gewährleistet.
-reviewed: false
+reviewed: true

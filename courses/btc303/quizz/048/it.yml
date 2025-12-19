@@ -1,0 +1,9 @@
+question: Perché è praticamente impossibile dimostrare formalmente la sicurezza di Bitcoin nonostante funzioni efficacemente nella pratica?
+answer: La complessità e la natura nebulosa del sistema rendono impraticabili le prove di sicurezza formali, a differenza di protocolli più semplici con presupposti chiari
+wrong_answers:
+  - Gli sviluppatori del Bitcoin evitano intenzionalmente le prove formali per mantenere la flessibilità e consentire modifiche future del protocollo
+  - Il problema del logaritmo discreto e le ipotesi crittografiche sono troppo avanzate per le attuali tecniche di dimostrazione matematica
+  - Le prove formali di sicurezza rivelerebbero le vulnerabilità agli avversari, quindi sono tenute riservate dagli sviluppatori del nucleo
+explanation: |
+  Come spiega Jameson Lopp, il Bitcoin è stato costruito senza una specifica o un modello di sicurezza formalmente definito a causa della sua intrinseca complessità e della sua natura nebulosa. A differenza di sistemi più semplici, come i protocolli di firma, che hanno presupposti di sicurezza ben definiti, il Bitcoin coinvolge più componenti interagenti, tra cui la crittografia, l'economia, la teoria dei giochi e il comportamento umano. Questa complessità rende impossibile creare prove matematiche formali di sicurezza, anche se il sistema dimostra una sicurezza pratica attraverso il funzionamento nel mondo reale.
+reviewed: false

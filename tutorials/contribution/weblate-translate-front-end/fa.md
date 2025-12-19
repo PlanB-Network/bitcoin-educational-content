@@ -5,7 +5,7 @@ description: چگونه می‌توانید در ترجمه Elements ثابت د
 ![cover](assets/cover.webp)
 
 
-ماموریت Plan ₿ Network ارائه منابع آموزشی درجه یک درباره Bitcoin و ترجمه آن‌ها به بیشترین زبان‌های ممکن است. بخش زیادی از محتوای منتشر شده در سایت منبع‌باز است و در GitHub میزبانی می‌شود، که به هر کسی اجازه می‌دهد در غنی‌سازی این پلتفرم مشارکت کند. مشارکت‌ها می‌توانند به اشکال مختلفی باشند: تصحیح و ویرایش محتوای موجود، به‌روزرسانی اطلاعات، یا ایجاد آموزش‌های جدید برای افزودن به پلتفرم.
+ماموریت Plan ₿ Academy ارائه منابع آموزشی درجه یک درباره Bitcoin و ترجمه آن‌ها به بیشترین زبان‌های ممکن است. بخش زیادی از محتوای منتشر شده در سایت منبع‌باز است و در GitHub میزبانی می‌شود، که به هر کسی اجازه می‌دهد در غنی‌سازی این پلتفرم مشارکت کند. مشارکت‌ها می‌توانند به اشکال مختلفی باشند: تصحیح و ویرایش محتوای موجود، به‌روزرسانی اطلاعات، یا ایجاد آموزش‌های جدید برای افزودن به پلتفرم.
 
 
 در این آموزش، ما به شما نشان خواهیم داد که چگونه به راحتی به ترجمه‌ی Elements استاتیک در وب‌سایت ما کمک کنید. داده‌های موجود در پلتفرم به دو دسته‌ی اصلی تقسیم می‌شوند:
@@ -18,12 +18,12 @@ description: چگونه می‌توانید در ترجمه Elements ثابت د
 برای ترجمه محتوای آموزشی، ما از [هوش مصنوعی](https://github.com/Asi0Flammeus/LLM-Translator) استفاده می‌کنیم. سپس، برای اصلاح اشتباهات احتمالی در این فایل‌ها، از ویراستاران دعوت می‌کنیم تا مشارکت کنند. اگر مایل به ویراستاری برخی محتوا هستید، به آموزش زیر مراجعه کنید:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 از سوی دیگر، اگر به ترجمه Elements ثابت وب‌سایت (به‌جز محتوای آموزشی) علاقه‌مند هستید، در جای درستی قرار دارید! برای ترجمه مؤثر بخش جلویی، ما از ابزار Weblate استفاده می‌کنیم که بسیار ساده برای استفاده است و رویکرد ترجمه را تسهیل می‌کند.
 
 
-اگر می‌خواهید یک زبان کاملاً جدید به Plan ₿ Network اضافه کنید، حتماً از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) با تیم Plan ₿ Network تماس بگیرید. اگر تلگرام ندارید، می‌توانید یک ایمیل به mari@planb.network ارسال کنید. حتماً یک معرفی کوتاه درباره خودتان و زبان‌هایی که صحبت می‌کنید بنویسید.
+اگر می‌خواهید یک زبان کاملاً جدید به Plan ₿ Academy اضافه کنید، حتماً از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) با تیم Plan ₿ Academy تماس بگیرید. اگر تلگرام ندارید، می‌توانید یک ایمیل به mari@planb.network ارسال کنید. حتماً یک معرفی کوتاه درباره خودتان و زبان‌هایی که صحبت می‌کنید بنویسید.
 
 اعضای تیم ما دستورالعمل‌های خاصی به شما خواهند داد و "issues" مرتبط را در Github باز خواهند کرد تا کار شما هماهنگ شود.
 
@@ -31,7 +31,7 @@ https://planb.network/tutorials/contribution/content/proofreading-review-tutoria
 قبل از دنبال کردن این آموزش خاص برای افزودن یک زبان جدید به Weblate.
 
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 وقتی آماده شروع ترجمه هستید، به این آموزش بازگردید و نکات زیر را مرور کنید.
 
@@ -40,7 +40,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 
 
 
-- به [وبلیت خودمیزبان Plan ₿ Network](https://weblate.planb.network/) بروید:
+- به [وبلیت خودمیزبان Plan ₿ Academy](https://weblate.planb.network/) بروید:
 
 ![weblate](assets/01.webp)
 
@@ -70,7 +70,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 ![weblate](assets/06.webp)
 
 
-- اکنون می‌توانید به داشبورد Plan ₿ Network بازگردید:
+- اکنون می‌توانید به داشبورد Plan ₿ Academy بازگردید:
 
 ![weblate](assets/07.webp)
 
@@ -159,7 +159,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 
 
 - وقتی کلماتی را در داخل آکولاد "{" پیدا می‌کنید، نیازی به ترجمه آن‌ها نیست. برای مثال، در جمله "حساب شما ایجاد شده است، {{userName}}!"، شما کل جمله را ترجمه می‌کنید، اما "userName" را به انگلیسی نگه می‌دارید.
-- وقتی "Plan ₿ Network" را در یک رشته پیدا می‌کنید، مطمئن شوید که کلمه "network" را ترجمه نکنید (Plan ₿ Network را به عنوان یک علامت تجاری در نظر بگیرید). علاوه بر این، همیشه از ₿ Bitcoin استفاده کنید!
+- وقتی "Plan ₿ Academy" را در یک رشته پیدا می‌کنید، مطمئن شوید که کلمه "network" را ترجمه نکنید (Plan ₿ Academy را به عنوان یک علامت تجاری در نظر بگیرید). علاوه بر این، همیشه از ₿ Bitcoin استفاده کنید!
 - اگر کلمه "شبکه" را به تنهایی پیدا کردید، می‌توانید آن را ترجمه کنید.
 - B-CERT را ترجمه نکنید، زیرا یک کلمه ثابت دیگر است.
 - اگر رشته‌هایی پیدا کردید که با یک فاصله به پایان می‌رسند، می‌توانید آن را بگذارید.
@@ -174,4 +174,4 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 ![weblate](assets/23.webp)
 
 
-پیشاپیش از همکاری شما در ترجمه Plan ₿ Network سپاسگزاریم! اگر سوال یا نظری خاص برای ما دارید، می‌توانید از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) با ما تماس بگیرید.
+پیشاپیش از همکاری شما در ترجمه Plan ₿ Academy سپاسگزاریم! اگر سوال یا نظری خاص برای ما دارید، می‌توانید از طریق [گروه تلگرام](https://t.me/PlanBNetwork_ContentBuilder) با ما تماس بگیرید.

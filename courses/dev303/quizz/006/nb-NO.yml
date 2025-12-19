@@ -1,0 +1,8 @@
+question: Hvor ofte utgir Rust en ny stabil versjon i henhold til utgivelsesplanen deres?
+answer: Omtrent hver sjette uke
+wrong_answers:
+  - Omtrent hver tredje måned
+  - Omtrent annenhver uke
+  - Omtrent hver fjerde måned
+explanation: |
+  Rust følger en forutsigbar utgivelsesplan med nye stabile versjoner omtrent hver sjette uke. Denne hyppige utgivelsessyklusen sikrer at nye funksjoner og forbedringer når ut til brukerne regelmessig, samtidig som stabiliteten opprettholdes. De andre tidsrammene er feil - tre måneder og fire måneder ville vært mye langsommere enn Rusts faktiske tempo, mens to uker ville vært urealistisk raskt for stabile utgivelser som krever grundig testing.

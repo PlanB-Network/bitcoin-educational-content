@@ -145,7 +145,7 @@ Bu ifade, Bitcoin cüzdanlarında kullanılan Mnemonic ifadelerine benzer şekil
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Lütfen dikkat**: Mnemonic cüzdanlarında kullanılan Bitcoin ifadelerinden farklı olarak, Oturum'da **her kelimeyi kesinlikle bütün olarak kaydetmelisiniz**. İlk 4 harf yeterli değildir!
 
@@ -299,4 +299,4 @@ Ayrıca, mesajlaşma uygulamanız için ilginç bir alternatif olan Threema'yı 
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

@@ -1,0 +1,9 @@
+question: مقدار پیش‌فرض پارامتر dbcache در Bitcoin core چیست؟
+answer: ۴۵۰ مگابایت
+wrong_answers:
+  - ۱۲۸ مگابایت
+  - ۱ گیگابایت
+  - ۴ گیگابایت
+explanation: |
+  به طور پیش‌فرض، Bitcoin core مقدار 450 MiB (472 MB) به حافظه پنهان اختصاص می‌دهد.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Ni ibihe bintu nyamukuru biranga umucungerezi w’ijambobanga?
-answer: Ibika, generate, kandi utunganye amajambobanga.
+question: Ni ibihe bintu nyamukuru biranga Ubutunganyirizo bw’ijambo ry'ibanga?
+answer: Kubika, kurema, be no gutunganye amajambo y'ibanga.
 wrong_answers:
   - Gusuzuma no gukuraho imigera.
   - Gufata no gutunganya inyandiko z’umuntu ku giti ciwe.
   - Gutuma umuvuduko wo guhuza ugenda neza.
 explanation: |
-  Ibikorwa vy’ingenzi birimwo kubika, gutanga no gutunganya amajambo y’ibanga.
+  Ibikorwa vya ngombwa birimwo kubika, kuurema no gutunganya amajambo y’ibanga.
 reviewed: true

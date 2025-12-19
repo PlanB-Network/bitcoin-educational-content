@@ -1,0 +1,9 @@
+question: Ni tofauti gani ya msingi ya kiufundi kati ya hazina ya Bitcoin Core's GitHub na maelfu ya nakala zingine za hazina hiyo hiyo iliyosambazwa ulimwenguni kote?
+answer: Hakuna tofauti ya kiufundi; inatumika kama kitovu cha kijamii kwa urahisi wa maendeleo
+wrong_answers:
+  - Hifadhi ya GitHub ina saini za kriptografia ambazo huithibitisha kama toleo rasmi
+  - Hifadhi ya GitHub ina marupurupu maalum ya kujitolea ambayo yanazuia marekebisho yasiyoidhinishwa kwa codebase.
+  - Jalada la GitHub hudumisha ufunguo mkuu ambao unathibitisha nakala zingine zote za hazina kote ulimwenguni
+explanation: |
+  Kulingana na uchanganuzi wa Jameson Lopp uliotajwa katika sura hiyo, hazina ya Bitcoin Core ya GitHub inafanana kitaalam na nakala zingine zote. Umuhimu wake ni wa kijamii tu - imekuwa kitovu cha uratibu wa maendeleo. Hifadhi hutumika kama suala la urahisi badala ya mamlaka ya kiufundi, na ikiwa itatoweka, msingi mpya ungejitokeza. Hii inaonyesha hali ya ugatuzi ya Bitcoin ambapo hakuna hazina moja iliyo na ukuu wa kiufundi juu ya zingine.
+reviewed: false

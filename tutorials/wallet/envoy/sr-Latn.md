@@ -32,7 +32,7 @@ U ovom vodiču, koji je namenjen početnicima i korisnicima srednjeg nivoa, otkr
 Ako ste napredni korisnik i želite da istražite složenije funkcije, preporučujem da pogledate ovaj drugi vodič gde konfigurišemo Passport sa Sparrow Wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Raspakivanje pasoša
 
@@ -246,7 +246,7 @@ Da biste to uradili, koristite MicroSD karticu uključenu u vaš Passport paket 
 Pre nego što ga instalirate na svoj uređaj, toplo vam savetujemo da proverite autentičnost i integritet preuzetog firmvera. Ako vam je potrebna pomoć oko toga, pogledajte ovaj vodič :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Sa Envoy aplikacijom
 
@@ -371,7 +371,7 @@ Kliknite na dugme za potvrdu da vidite vašu Mnemonic frazu.
 Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic frazom, toplo preporučujem da pratite ovaj drugi vodič, posebno ako ste početnik:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 naravno, nikada ne smete deliti ove reči na Internetu, kao što ja radim u ovom vodiču. Ovaj uzorak Wallet će se koristiti samo na Testnet i biće obrisan na kraju vodiča.
 
@@ -674,4 +674,4 @@ Vaša transakcija sada čeka potvrdu. Status možete pratiti direktno sa svog na
 Za dodatne informacije, pogledajte naš vodič o Liana softveru:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

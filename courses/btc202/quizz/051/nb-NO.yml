@@ -1,0 +1,9 @@
+question: Når må en bruker installere en indekser?
+answer: Slik kjører du en Block explorer
+wrong_answers:
+  - For Mining blokkerer seg selv
+  - Slik aktiverer du Lightning Network
+  - For å signere transaksjoner
+explanation: |
+  En indekserer blir uunnværlig for avansert bruk, for eksempel som en lokal utforsker.
+reviewed: true

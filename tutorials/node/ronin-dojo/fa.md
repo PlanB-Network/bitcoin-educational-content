@@ -14,7 +14,7 @@ _این آموزش صرفاً برای اهداف آموزشی و اطلاعات
 
 _این آموزش به نصب RoninDojo v1 اختصاص دارد. برای بهره‌مندی از آخرین بهبودها و ویژگی‌ها، به شدت توصیه می‌کنم که به آموزش ما که به نصب مستقیم RoninDojo v2 بر روی Raspberry Pi شما اختصاص دارد، مراجعه کنید:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

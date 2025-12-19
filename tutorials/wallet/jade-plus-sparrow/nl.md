@@ -34,7 +34,7 @@ Jade Plus is compatibel met de meeste Wallet beheersoftware. Hier is een overzic
 In deze tutorial gaan we een geavanceerde configuratie van de Jade Plus opzetten met de Sparrow wallet software in QR-codes modus. Deze configuratie is ideaal voor gemiddelde of ervaren gebruikers. Als je op zoek bent naar een eenvoudigere aanpak voor beginners, raad ik je aan deze tutorial te bekijken, waarin we de Jade Plus gebruiken met Green Wallet via een Bluetooth-verbinding:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Het Jade Plus-veiligheidsmodel
 
@@ -142,7 +142,7 @@ Je kunt het op het meegeleverde karton schrijven, of voor extra veiligheid raad 
 Voor meer informatie over de juiste manier om je Mnemonic zinnen op te slaan en te beheren, raad ik je aan deze andere tutorial te volgen, vooral als je een beginner bent:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 natuurlijk mag je deze woorden nooit delen op het Internet, zoals ik in deze tutorial doe. Dit voorbeeld Wallet zal alleen gebruikt worden op Testnet en zal verwijderd worden aan het einde van de tutorial.
 
@@ -378,7 +378,7 @@ Een BIP39 passphrase is een optioneel wachtwoord dat u vrij kunt kiezen en dat a
 Voordat u deze optie configureert op uw Jade Plus, is het sterk aanbevolen dat u dit artikel leest om de theoretische werking van de passphrase volledig te begrijpen en fouten te vermijden die kunnen leiden tot het verlies van uw bitcoins:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Terwijl je Jade nog steeds vergrendeld is (de passphrase kan alleen worden ingevoerd als het apparaat niet ontgrendeld is), ga je naar het menu "*Options*".
 
@@ -444,7 +444,7 @@ Als je passphrase geldig is, bevestig dan.
 Let op: BIP39 wachtzinnen zijn hoofdletter- en tikfoutgevoelig. Als u een passphrase invoert die net iets anders is dan de aanvankelijk geconfigureerde, zal Jade geen fout melden, maar een andere set cryptografische sleutels afleiden die niet overeenkomen met die in uw aanvankelijke Wallet.
 
 
-Het is daarom belangrijk om bij het configureren je master key fingerprint te noteren, die kun je rechtsonder in het scherm vinden. Bijvoorbeeld, met mijn passphrase `PBN`, is mijn master key fingerprint `3AD1AE65`.
+Het is daarom belangrijk om bij het configureren je master key fingerprint te noteren, die kun je rechtsonder in het scherm vinden. Bijvoorbeeld, met mijn passphrase `Plan ₿ Academy`, is mijn master key fingerprint `3AD1AE65`.
 
 
 ![Image](assets/fr/49.webp)
@@ -456,7 +456,7 @@ Elke keer dat je je Jade ontgrendelt met je passphrase, controleer je of de ving
 Voordat je je eerste bitcoins ontvangt in je Wallet, **raad ik je sterk aan om een lege hersteltest uit te voeren**. Noteer wat referentie informatie, zoals je xpub of de eerste ontvangen Address, wis dan je Wallet op de Jade Plus terwijl het nog leeg is (`Options -> Device -> Factory Reset`). Probeer dan je Wallet te herstellen met behulp van je papieren back-ups van de Mnemonic zin en eventuele passphrase. Controleer of de cookie-informatie die na het herstel wordt gegenereerd, overeenkomt met degene die je oorspronkelijk hebt opgeschreven. Als dat zo is, kun je er zeker van zijn dat je papieren back-ups betrouwbaar zijn. Als je meer wilt weten over hoe je een testherstel uitvoert, bekijk dan deze andere tutorial:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Wallet configureren op Sparrow wallet
 
@@ -473,7 +473,7 @@ Begin met het downloaden en installeren van Sparrow wallet [van de officiële we
 Zorg ervoor dat je de authenticiteit en integriteit van de software controleert voordat je deze installeert. Als je niet weet hoe je dit moet doen, raadpleeg dan deze handleiding:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Als Sparrow wallet geopend is, klik dan op het tabblad "*Bestand*" en vervolgens op "*Nieuw Wallet*".
 
@@ -649,4 +649,4 @@ Gefeliciteerd, je weet nu hoe je de Jade Plus in QR modus kunt instellen en gebr
 Om verder te gaan, raad ik deze andere tutorial over de Jade Plus aan, waar we hem via Bluetooth configureren met de Green mobiele app:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

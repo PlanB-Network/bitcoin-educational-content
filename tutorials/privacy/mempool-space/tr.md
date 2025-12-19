@@ -14,9 +14,9 @@ Bitcoin'ün ilk günlerinde, komut satırlarından ağı sorgulamak için uygun 
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Bu nedenle, Bitcoin topluluğunu genişletmek ve bir node'a sahip olmayan ve/veya gerekli teknik becerilere sahip olmayan herkes için daha erişilebilir hale getirmek için projeler başlatıldı.
 
@@ -46,7 +46,7 @@ Ekosistemde giderek yaygınlaşan kullanım ve Mempool.space'in açık kaynak ol
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Mempool.space'in temelleri
 
@@ -176,7 +176,7 @@ Gizliliğinizi artırmak için farklı Bitcoin işlem şemalarını keşfedin.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## İşlemlerinizi hızlandırın
 
@@ -200,7 +200,7 @@ Bu mekanizmayı kabul eden cüzdanlarla bir ücret değiştirme işlemi gerçekl
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Tüm bu terimler biraz fazla teknik görünüyorsa, Bitcoin ve ekosistemiyle ilgili tüm teknik terimlerin tanımlarını içeren [sözlüğümüze] (https://planb.network/resources/glossary) başvurmanızı tavsiye ederim.
+Tüm bu terimler biraz fazla teknik görünüyorsa, Bitcoin ve ekosistemiyle ilgili tüm teknik terimlerin tanımlarını içeren [sözlüğümüze] (https://planb.academy/resources/glossary) başvurmanızı tavsiye ederim.
 
 
 
@@ -235,7 +235,7 @@ Bir Miner, bir madeni yöneten bir kişiyi, yani Proof-of-Work'a katılmaktan ol
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 madenciler, işlemleri doğrulayan ve bloklar halinde gruplandıran "doğrulayıcılar" gibidir. Bitcoin ağına yeni bir blok eklemek için karmaşık bir matematiksel bulmacayı (Proof-of-Work) çözmeleri gerekir. Bulmacayı çözen ilk Miner, bir Bitcoin ödülü kazanır (blok hibesi + bloğa dahil edilen işlemler için ücretler).
 
@@ -372,4 +372,4 @@ Artık Mempool.space'deki yolculuğunuzun sonuna geldiğinize göre, kendi kaşi
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

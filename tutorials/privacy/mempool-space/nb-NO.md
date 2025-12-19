@@ -14,9 +14,9 @@ I Bitcoins tidlige dager var det nødvendig å kjøre en Bitcoin-node for å få
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Det er derfor satt i gang prosjekter for å utvide Bitcoin-fellesskapet og gjøre det mer tilgjengelig for alle som ikke eier en node og/eller ikke har de nødvendige tekniske ferdighetene.
 
@@ -46,7 +46,7 @@ Stadig mer utbredt bruk i økosystemet og det faktum at Mempool.space er åpen k
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Grunnleggende om Mempool.space
 
@@ -176,7 +176,7 @@ Oppdag de ulike Bitcoin-transaksjonsordningene for å forbedre konfidensialitete
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Gjør transaksjonene dine raskere
 
@@ -200,7 +200,7 @@ Du kan utføre en gebyrerstatning med porteføljer som godtar denne mekanismen. 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Hvis alle disse begrepene virker litt for tekniske, anbefaler jeg at du [konsulterer ordlisten vår] (https://planb.network/resources/glossary), som inneholder definisjoner av alle faguttrykk knyttet til Bitcoin og økosystemet.
+Hvis alle disse begrepene virker litt for tekniske, anbefaler jeg at du [konsulterer ordlisten vår] (https://planb.academy/resources/glossary), som inneholder definisjoner av alle faguttrykk knyttet til Bitcoin og økosystemet.
 
 
 
@@ -235,7 +235,7 @@ En Miner refererer til en person som administrerer en mine, dvs. en datamaskin s
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 miners er som "validatorer" som verifiserer og grupperer transaksjoner i blokker. For å legge til en ny blokk i Bitcoin-nettverket må de løse et komplisert matematisk puslespill (Proof-of-Work). Den første Miner som løser gåten, vinner en Bitcoin-belønning (blokktilskudd + avgifter for transaksjoner som er inkludert i blokken).
 
@@ -372,4 +372,4 @@ Nå som du har nådd slutten av reisen din på Mempool.space, kan du bli din ege
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

@@ -1,0 +1,9 @@
+question: Какво е определението за собственост на латински език според римляните?
+answer: Jus utendi et abutendi
+wrong_answers:
+  - Lex specialis derogat legi generali
+  - Utilitas publica praeferenda est privatorum contractibus
+  - Res publica et privatus separanda est
+explanation: |
+  В римското право jus utendi et abutendi определя собствеността като право на ползване и злоупотреба, като набляга на ползването, без да се задълбочава в причините за него.
+reviewed: false

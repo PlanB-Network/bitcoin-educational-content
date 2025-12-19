@@ -1,0 +1,8 @@
+question: Mu nyubakwa y’uguhuma amaso ya Blockstream AMP, ni ubuhe buryo bwo gupfuka bushobora gupfuka umubare w’itunga mu gihe buguma bugenzura ukuri kw’ibikorwa?
+answer: Elliptic Curve Diffie-Hellman urufunguzo rwo guhinduranya n'ibimenyamenya vy'urutonde bigenzura ukuri kw'ibikorwa ata guhishura agaciro kashizwemwo
+wrong_answers:
+  - Zero-knowledge SNARKs zifise imigambi y'ukwiyemeza ihisha amafaranga y'ibikorwa mu gihe yerekana ubutungane bw'ibarabara
+  - Imikono y'impeta n'amaderesi y'ubujuju apfukiranya akaranga k'uwarungitse mu gihe agumana ubushobozi bwo kugenzura amakuru y'ibanga
+  - Ugushiramwo amakuru y'ububiko n'igiti ca merkle bishoboza ibikorwa vy'imibare ku makuru y'ubucuruzi yashizwemwo
+explanation: |
+  AMP ikoresha ubuhinga bwo guhindura urufunguzo rwa ECDH aho abarungika bashiramwo amafaranga y’itunga bakoresheje urufunguzo rwa bose rw’abakira, bagatanga ibimenyamenya vy’urutonde bigenzura mu mibare ukuri kw’ibikorwa ataco bigaragaza agaciro. Ivyo bitandukanye na SNARKs (ibimenyamenya vy’ibarabara), imikono y’impeta (ugushira umutima ku kutamenyekana), canke ugushiramwo amakuru y’ibarabara (uguharura ku makuru yashizwemwo amakuru) - AMP ikeneye cane cane amafaranga y’ibanga ariko ashobora kugenzurwa.

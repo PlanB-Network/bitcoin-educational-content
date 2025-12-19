@@ -1,0 +1,9 @@
+question: SPV 節點有什麼特別？
+answer: 它只保留了塊狀封頭
+wrong_answers:
+  - 由於 Genesis 區塊保留了整個 Blockchain
+  - 它只儲存最近的區塊
+  - 它只保留 UTXO 套件，而非 Blockchain
+explanation: |
+  SPV 節點透過區塊標頭和 Merkle 證明驗證交易，而無需儲存完整資料。
+reviewed: true

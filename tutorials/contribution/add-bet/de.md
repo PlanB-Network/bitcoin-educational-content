@@ -6,7 +6,7 @@ description: Wie fügt man neue Bildungsmaterialien im PlanB Netzwerk hinzu?
 
 Die Mission von PlanB ist es, führende Bildungsressourcen über Bitcoin in möglichst vielen Sprachen bereitzustellen. Alle Inhalte, die auf der Seite veröffentlicht werden, sind Open-Source und werden auf GitHub gehostet, was es jedem ermöglicht, an der Bereicherung der Plattform teilzunehmen.
 
-Neben Tutorials und Schulungen bietet das PlanB Netzwerk auch eine umfangreiche Bibliothek mit vielfältigen Bildungsinhalten über Bitcoin, die für jeden zugänglich sind, [im Abschnitt "BET" (_Bitcoin Educational Toolkit_)](https://planb.network/resources/bet). Diese Datenbank umfasst Bildungsposter, Memes, humorvolle Propagandaposter, technische Diagramme, Logos und andere Werkzeuge für Nutzer. Das Ziel dieser Initiative ist es, Einzelpersonen und Gemeinschaften, die weltweit über Bitcoin lehren, durch Bereitstellung der notwendigen visuellen Ressourcen zu unterstützen.
+Neben Tutorials und Schulungen bietet das PlanB Netzwerk auch eine umfangreiche Bibliothek mit vielfältigen Bildungsinhalten über Bitcoin, die für jeden zugänglich sind, [im Abschnitt "BET" (_Bitcoin Educational Toolkit_)](https://planb.academy/resources/bet). Diese Datenbank umfasst Bildungsposter, Memes, humorvolle Propagandaposter, technische Diagramme, Logos und andere Werkzeuge für Nutzer. Das Ziel dieser Initiative ist es, Einzelpersonen und Gemeinschaften, die weltweit über Bitcoin lehren, durch Bereitstellung der notwendigen visuellen Ressourcen zu unterstützen.
 
 Möchten Sie an der Bereicherung dieser Datenbank teilnehmen, wissen aber nicht wie? Dieses Tutorial ist für Sie!
 
@@ -14,7 +14,7 @@ Möchten Sie an der Bereicherung dieser Datenbank teilnehmen, wissen aber nicht 
 ![event](assets/01.webp)
 - Zuerst müssen Sie ein Konto auf GitHub haben. Wenn Sie nicht wissen, wie Sie ein Konto erstellen, haben wir ein detailliertes Tutorial erstellt, um Sie zu führen.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) im Abschnitt `resources/bet/`:
@@ -47,7 +47,7 @@ contributors:
 ```
 - **`project`**: Geben Sie den Identifikator Ihrer Organisation im PlanB-Netzwerk an. Wenn Sie noch keinen "project"-Identifikator für Ihr Unternehmen haben, können Sie einen mit diesem Tutorial erstellen.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Wenn Sie keinen haben, können Sie einfach Ihren Namen, Ihr Pseudonym oder den Namen Ihres Unternehmens verwenden, ohne ein Project-Profil erstellt zu haben.
 - **`type`**: Wählen Sie die Art Ihres Inhalts aus den folgenden zwei Optionen aus:
@@ -72,7 +72,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Zum Beispiel könnte Ihre YAML-Datei so aussehen:
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -89,7 +89,7 @@ links:
 ![event](assets/13.webp)
 - Klicken Sie oben rechts auf Ihr GitHub-Profilbild und dann auf `Your Repositories`:
 ![event](assets/14.webp)
-- Wählen Sie Ihren Fork des PlanB Network-Repositorys aus:
+- Wählen Sie Ihren Fork des Plan ₿ Academy-Repositorys aus:
 ![event](assets/15.webp)
 - Sie sollten eine Benachrichtigung am oberen Rand des Fensters mit Ihrem neuen Branch sehen. Er heißt wahrscheinlich `patch-1`. Klicken Sie darauf:
 ![event](assets/16.webp)
@@ -105,7 +105,7 @@ links:
 - Klicken Sie auf den `Commit changes...` Button: ![event](assets/22.webp)- Belassen Sie den Commit-Titel als Standard und stellen Sie sicher, dass das Kästchen `Commit directly to the patch-1 branch` angekreuzt ist, dann klicken Sie auf `Commit changes`: ![event](assets/23.webp)
 - Kehren Sie zum `assets` Ordner zurück: ![event](assets/24.webp)
 - Klicken Sie auf den `Add file` Button, dann auf `Upload files`: ![event](assets/25.webp)
-- Eine neue Seite wird geöffnet. Ziehen Sie ein Thumbnail, das Ihren Inhalt repräsentiert, in den Bereich. Dieses Bild wird auf der PlanB Network Seite angezeigt: ![event](assets/26.webp)
+- Eine neue Seite wird geöffnet. Ziehen Sie ein Thumbnail, das Ihren Inhalt repräsentiert, in den Bereich. Dieses Bild wird auf der Plan ₿ Academy Seite angezeigt: ![event](assets/26.webp)
 - Es kann eine Vorschau, ein Logo oder ein Icon sein: ![event](assets/27.webp)
 - Sobald das Bild hochgeladen ist, stellen Sie sicher, dass das Kästchen `Commit directly to the patch-1 branch` angekreuzt ist, dann klicken Sie auf `Commit changes`: ![event](assets/28.webp)
 - Achten Sie darauf, dass Ihr Bild `logo` benannt sein muss und im `.webp` Format vorliegen muss. Der vollständige Dateiname sollte daher `logo.webp` sein: ![event](assets/29.webp)

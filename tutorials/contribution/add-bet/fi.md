@@ -6,7 +6,7 @@ description: Miten lisätä uusia opetusmateriaaleja PlanB-verkkoon?
 
 PlanB:n tehtävänä on tarjota johtavia opetusresursseja Bitcoinista mahdollisimman monella kielellä. Kaikki sivustolla julkaistu sisältö on avoimen lähdekoodin ja isännöity GitHubissa, mikä mahdollistaa kenen tahansa osallistumisen alustan rikastuttamiseen.
 
-Opastusten ja koulutuksen lisäksi PlanB-verkosto tarjoaa myös laajan kirjaston monipuolista opetussisältöä Bitcoinista, joka on kaikkien saatavilla [BET (_Bitcoin Educational Toolkit_) -osiossa](https://planb.network/resources/bet). Tämä tietokanta sisältää opetusjulisteita, meemejä, humoristisia propagandajulisteita, teknisiä kaavioita, logoja ja muita työkaluja käyttäjille. Tämän aloitteen tavoitteena on tukea yksilöitä ja yhteisöjä, jotka opettavat Bitcoinista ympäri maailmaa, tarjoamalla heille tarvittavat visuaaliset resurssit.
+Opastusten ja koulutuksen lisäksi PlanB-verkosto tarjoaa myös laajan kirjaston monipuolista opetussisältöä Bitcoinista, joka on kaikkien saatavilla [BET (_Bitcoin Educational Toolkit_) -osiossa](https://planb.academy/resources/bet). Tämä tietokanta sisältää opetusjulisteita, meemejä, humoristisia propagandajulisteita, teknisiä kaavioita, logoja ja muita työkaluja käyttäjille. Tämän aloitteen tavoitteena on tukea yksilöitä ja yhteisöjä, jotka opettavat Bitcoinista ympäri maailmaa, tarjoamalla heille tarvittavat visuaaliset resurssit.
 
 Haluatko osallistua tämän tietokannan rikastuttamiseen, mutta et tiedä miten? Tämä opas on sinua varten!
 
@@ -14,7 +14,7 @@ Haluatko osallistua tämän tietokannan rikastuttamiseen, mutta et tiedä miten?
 ![tapahtuma](assets/01.webp)
 - Ensimmäiseksi sinun on oltava tili GitHubissa. Jos et tiedä, miten tili luodaan, olemme tehneet yksityiskohtaisen oppaan, joka opastaa sinua.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Mene [PlanB:n GitHub-repositorioon, joka on omistettu datalle](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet) `resources/bet/` -osiossa:
@@ -49,7 +49,7 @@ contributors:
 Tässä ovat tiedot, jotka sinun tulee täyttää kullekin kentälle:
 - **`project`**: Ilmoita organisaatiosi tunniste PlanB-verkostossa. Jos sinulla ei vielä ole "project"-tunnistetta yrityksellesi, voit luoda sellaisen seuraamalla tätä opasta.
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
  Jos sinulla ei ole tunnistetta, voit yksinkertaisesti käyttää nimeäsi, nimimerkkiäsi tai yrityksesi nimeä ilman, että olet luonut project-profiilia.
 - **`type`**: Valitse sisältösi luonne seuraavista kahdesta vaihtoehdosta:
@@ -74,7 +74,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 Esimerkiksi YAML-tiedostosi voisi näyttää tältä:
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -91,7 +91,7 @@ links:
 ![event](assets/13.webp)
 - Napsauta GitHub-profiilikuvakettasi oikeassa yläkulmassa, sitten `Your Repositories`:
 ![event](assets/14.webp)
-- Valitse PlanB Network -repositoriosi haarasi:
+- Valitse Plan ₿ Academy -repositoriosi haarasi:
 ![event](assets/15.webp)
 - Sinun pitäisi nähdä ilmoitus ikkunan yläosassa uudesta haarastasi. Sen nimi on todennäköisesti `patch-1`. Napsauta sitä:
 ![event](assets/16.webp)
@@ -107,7 +107,7 @@ links:
 - Klikkaa `Commit changes...` -painiketta: ![event](assets/22.webp)- Jätä commit-otsikko oletusarvoiseksi ja varmista, että `Commit directly to the patch-1 branch` -ruutu on valittuna, sitten klikkaa `Commit changes`: ![event](assets/23.webp)
 - Palaa `assets`-kansioon: ![event](assets/24.webp)
 - Klikkaa `Add file` -painiketta, sitten `Upload files`: ![event](assets/25.webp)
-- Uusi sivu avautuu. Vedä ja pudota pikkukuva, joka edustaa sisältöäsi, alueelle. Tämä kuva näytetään PlanB Network -sivustolla: ![event](assets/26.webp)
+- Uusi sivu avautuu. Vedä ja pudota pikkukuva, joka edustaa sisältöäsi, alueelle. Tämä kuva näytetään Plan ₿ Academy -sivustolla: ![event](assets/26.webp)
 - Se voi olla esikatselu, logo tai ikoni: ![event](assets/27.webp)
 - Kun kuva on ladattu, varmista, että `Commit directly to the patch-1 branch` -ruutu on valittuna, sitten klikkaa `Commit changes`: ![event](assets/28.webp)
 - Ole varovainen, kuvan nimen tulee olla `logo` ja sen tulee olla `.webp`-muodossa. Täydellinen tiedostonimi tulee siis olla: `logo.webp`: ![event](assets/29.webp)

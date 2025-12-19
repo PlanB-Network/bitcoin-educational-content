@@ -1,0 +1,8 @@
+question: 什麼加密機制可讓 Liquid Network 在不向公眾透露實際金額的情況下，驗證交易輸入等於輸出加上費用？
+answer: Pedersen 承諾和範圍證明
+wrong_answers:
+  - Merkle 樹與數位簽章
+  - Hash 鎖定時間合約與多重簽章
+  - Schnorr 簽名和 Taproot 腳本
+explanation: |
+  Pedersen Commitments 和 Range Proofs 是特定的加密原始碼，可讓 Liquid 的 Confidential Transactions 隱藏金額，同時仍可進行數學驗證。Pedersen Commitments 以加密方式與數值綁定，但不會揭露數值，而 Range Proofs 則可確保所有金額都是正整數，防止使用者透過負數值來創造金錢。其他選項都是合法的 Bitcoin 加密工具，但無法提供保密交易所需的遮蔽功能，在這種情況下，金額仍會隱藏但仍可驗證。

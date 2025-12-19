@@ -1,0 +1,9 @@
+question: Giá trị mặc định của tham số maxconnections trong Bitcoin core là gì?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections giới hạn tổng số kết nối đến và đi. Giá trị mặc định là 125.
+reviewed: true

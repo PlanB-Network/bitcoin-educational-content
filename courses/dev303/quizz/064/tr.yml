@@ -1,0 +1,8 @@
+question: Rust'in tip sistemini Bitcoin uygulamalarında bellekle ilgili güvenlik açıklarını önlemede özellikle etkili kılan nedir?
+answer: Tip sistemi hem iş mantığı modellemesini hem de bellek sahipliği kontrolünü aynı mekanizma aracılığıyla ele alır
+wrong_answers:
+  - Derleyici, arabellek taşması saldırılarını önleyen bellek ayırma rutinlerini otomatik olarak oluşturur
+  - Statik yazım, tüm bellek adreslerinin çalışma zamanı yerine derleme zamanında bildirilmesini gerektirir
+  - Güçlü yazım, tüm işaretçi işlemlerini yürütme sırasında güvenli dizi sınırı denetimine dönüştürür
+explanation: |
+  Rust'ün tip sistemi benzersizdir çünkü ikili bir amaca hizmet eder - karmaşık iş mantığını modellerken aynı zamanda sahiplik, ödünç alma ve referans sayma yoluyla bellek güvenliğini yönetir. Bu entegrasyon, doğru program mantığını sağlayan aynı tip kontrolünün derleme zamanında bellek sızıntılarını, çift serbest hataları ve yarış koşullarını da ortadan kaldırdığı anlamına gelir. Yanlış cevaplar Rust'te bulunmayan mekanizmaları tanımlamaktadır: derleyici otomatik generate tahsis rutinleri kullanmaz, bellek adreslerinin derleme zamanı sabitleri olması gerekmez ve işaretçi güvenliği çalışma zamanı sınır denetimi yerine sahiplik kurallarından gelir.

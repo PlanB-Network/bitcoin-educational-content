@@ -27,7 +27,7 @@ W tym poradniku chciałbym przedstawić jedno z takich rozwiązań: **COLDCARD Q
 Ponieważ COLDCARD Q oferuje wiele funkcji, proponuję podzielić jego użycie na 2 samouczki. W pierwszym tutorialu przyjrzymy się początkowej konfiguracji i podstawowym funkcjom urządzenia. Następnie, w drugim samouczku, przyjrzymy się, jak wykorzystać wszystkie zaawansowane opcje karty COLDCARD.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Przedstawiamy COLDCARD Q
@@ -113,7 +113,7 @@ Jeśli wolisz zasilać kartę COLDCARD bez podłączania jej do komputera (air-g
 Do tego samouczka potrzebny będzie również Sparrow Wallet do zarządzania Bitcoin Wallet na komputerze. Pobierz [Sparrow Wallet](https://sparrowwallet.com/download/) z oficjalnej strony internetowej. Zdecydowanie zalecam sprawdzenie zarówno jego autentyczności (za pomocą GnuPG), jak i integralności (za pomocą Hash) przed przystąpieniem do instalacji. Jeśli nie wiesz, jak to zrobić, postępuj zgodnie z tym samouczkiem:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Wybór kodu PIN
 
@@ -232,7 +232,7 @@ W tym momencie zdecydowanie zalecamy sprawdzenie integralności i autentycznośc
 Jeśli nie jesteś zaznajomiony z tym procesem weryfikacji, zalecam skorzystanie z tego samouczka:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Weź kartę microSD i przenieś na nią plik oprogramowania sprzętowego (dokument w formacie `.dfu`). Włóż kartę microSD do jednego z portów COLDCARD.
 
@@ -291,7 +291,7 @@ W tym menu znajdziesz różne opcje dostosowywania, takie jak ustawienie jasnoś
 Innym zaawansowanym ustawieniom przyjrzymy się w następnym samouczku:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Tworzenie Bitcoin Wallet
 
@@ -486,7 +486,7 @@ Przed otrzymaniem pierwszych bitcoinów w Wallet, **zalecam wykonanie testu odzy
 Aby dowiedzieć się więcej o tym, jak wykonać test odzyskiwania, proponuję zapoznać się z tym innym samouczkiem:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Odbieranie bitcoinów
 
@@ -563,7 +563,7 @@ Możesz teraz dodać "*Label*", aby opisać źródło bitcoinów, które zostan�
 Więcej informacji na temat etykietowania można znaleźć w tym poradniku:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Następnie możesz użyć tego Address do otrzymywania bitcoinów.
 
@@ -712,4 +712,4 @@ Jeśli uznałeś ten poradnik za przydatny, będę bardzo wdzięczny, jeśli zos
 Polecam również zapoznanie się z tym innym samouczkiem, w którym omawiamy zaawansowane opcje COLDCARD Q :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

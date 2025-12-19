@@ -5,5 +5,5 @@ wrong_answers:
   - The peers.dat file
   - The assumeutxo register
 explanation: |
-  The transactions in a block are committed to a Merkle tree, the root of which is included in the block header to ensure integrity.
-reviewed: false
+  The transactions in a block are committed to a Merkle tree, the root of which is included in the block header to ensure the integrity of the block.
+reviewed: true

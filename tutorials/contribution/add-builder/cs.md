@@ -1,23 +1,23 @@
 ---
 name: Přidání tvůrce
-description: Jak navrhnout přidání nového tvůrce na síť PlanB Network?
+description: Jak navrhnout přidání nového tvůrce na síť Plan ₿ Academy?
 ---
 ![project](assets/cover.webp)
 
 Mise PlanB je poskytovat špičkové vzdělávací zdroje o Bitcoinu v co nejvíce jazycích. Veškerý obsah publikovaný na webu je open-source a hostován na GitHubu, což umožňuje každému podílet se na obohacování platformy.
 
-Chcete-li přidat nového Bitcoin "tvůrce" na web síti PlanB Network a zvýšit viditelnost vaší společnosti nebo softwaru, ale nevíte jak? Tento tutoriál je pro vás!
+Chcete-li přidat nového Bitcoin "tvůrce" na web síti Plan ₿ Academy a zvýšit viditelnost vaší společnosti nebo softwaru, ale nevíte jak? Tento tutoriál je pro vás!
 ![project](assets/01.webp)
 - Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme podrobný tutoriál, který vás provede.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Přejděte na [GitHub repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) v sekci `resources/project/`:
 ![project](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file` a poté na `Create new file`:
 ![project](assets/03.webp)
-- Pokud jste předtím nikdy nepřispívali k obsahu síti PlanB Network, budete muset vytvořit svůj fork původního repozitáře. Forknutí repozitáře znamená vytvoření kopie tohoto repozitáře na vašem vlastním účtu na GitHubu, což vám umožní pracovat na projektu bez ovlivnění původního repozitáře. Klikněte na tlačítko `Fork this repository`:
+- Pokud jste předtím nikdy nepřispívali k obsahu síti Plan ₿ Academy, budete muset vytvořit svůj fork původního repozitáře. Forknutí repozitáře znamená vytvoření kopie tohoto repozitáře na vašem vlastním účtu na GitHubu, což vám umožní pracovat na projektu bez ovlivnění původního repozitáře. Klikněte na tlačítko `Fork this repository`:
 ![project](assets/04.webp)
 - Poté se dostanete na stránku GitHubu pro úpravy:
 ![project](assets/05.webp)
@@ -110,7 +110,7 @@ category: vzdělávání
 ![project](assets/13.webp)
 - Klikněte na obrázek vašeho profilu GitHub v pravém horním rohu, poté na `Your Repositories`:
 ![project](assets/14.webp)
-- Vyberte váš fork repozitáře PlanB Network:
+- Vyberte váš fork repozitáře Plan ₿ Academy:
 ![project](assets/15.webp)
 - Na vrchu okna byste měli vidět oznámení s vaší novou větví. Pravděpodobně se jmenuje `patch-1`. Klikněte na ni:
 ![project](assets/16.webp)
@@ -131,7 +131,7 @@ category: vzdělávání
 ![project](assets/24.webp)
 - Klikněte na tlačítko `Add file`, poté na `Upload files`:
 ![project](assets/25.webp)
-- Otevře se nová stránka. Přetáhněte obrázek vaší společnosti nebo vašeho softwaru do oblasti. Tento obrázek bude zobrazen na webu PlanB Network:
+- Otevře se nová stránka. Přetáhněte obrázek vaší společnosti nebo vašeho softwaru do oblasti. Tento obrázek bude zobrazen na webu Plan ₿ Academy:
 ![project](assets/26.webp)
 - Může to být logo nebo ikona:
 ![project](assets/27.webp)
@@ -160,7 +160,7 @@ contributors:
  - 
 ```
 
-- Pro klíč `contributors` můžete přidat váš identifikátor přispěvatele do PlanB Network, pokud jej máte. Pokud ne, nechte toto pole prázdné.
+- Pro klíč `contributors` můžete přidat váš identifikátor přispěvatele do Plan ₿ Academy, pokud jej máte. Pokud ne, nechte toto pole prázdné.
 - Pro klíč `description` stačí přidat krátký odstavec, který popisuje vaši společnost nebo váš software. Popis musí být ve stejném jazyce jako název souboru. Nemusíte překládat tento popis do všech jazyků podporovaných na webu, protože to udělají týmy PlanB pomocí svého modelu. Například, tady je, jak by váš soubor mohl vypadat:
 ```yaml
 description: |
@@ -184,9 +184,9 @@ contributors:
 ![project](assets/43.webp)
 - Klikněte na tlačítko `Create pull request` (Vytvořit pull request):
 ![project](assets/44.webp)
-Gratulujeme! Váš PR byl úspěšně vytvořen. Administrátor jej nyní zkontroluje a pokud je vše v pořádku, začlení jej do hlavního repozitáře PlanB Network. Váš profil projectu by se na webu měl objevit o několik dní později.
+Gratulujeme! Váš PR byl úspěšně vytvořen. Administrátor jej nyní zkontroluje a pokud je vše v pořádku, začlení jej do hlavního repozitáře Plan ₿ Academy. Váš profil projectu by se na webu měl objevit o několik dní později.
 
-Nezapomeňte sledovat průběh vašeho PR. Administrátor může zanechat komentář s žádostí o dodatečné informace. Dokud váš PR není schválen, můžete jej konzultovat na záložce `Pull requests` (Pull requesty) na GitHub repozitáři PlanB Network:
+Nezapomeňte sledovat průběh vašeho PR. Administrátor může zanechat komentář s žádostí o dodatečné informace. Dokud váš PR není schválen, můžete jej konzultovat na záložce `Pull requests` (Pull requesty) na GitHub repozitáři Plan ₿ Academy:
 ![project](assets/45.webp)
 Moc vám děkujeme za vaši cennou příspěvek! :)
 

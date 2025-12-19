@@ -1,0 +1,8 @@
+question: Cơ chế kênh tức thời của Breez SDK giải quyết vấn đề quan trọng nào mà các triển khai Lightning truyền thống đang gặp phải?
+answer: Hệ thống tự động tạo các kênh mới với đủ lượng tiền vào khi có thanh toán, loại bỏ nhu cầu người dùng phải quản lý thủ công dung lượng kênh.
+wrong_answers:
+  - Nó ngăn chặn việc buộc phải đóng kênh bằng cách tự động cân bằng lại tiền trên nhiều kênh khi một kênh không phản hồi hoặc ngoại tuyến.
+  - Nó giúp giảm phí giao dịch bằng cách gộp nhiều khoản thanh toán nhỏ thành các nghiệp vụ kênh lớn hơn, được xử lý trong giờ thấp điểm của mạng.
+  - Nó loại bỏ nhu cầu về các dịch vụ canh gác bằng cách tạo ra các kênh tạm thời tự động hết hạn sau khi thanh toán thành công.
+explanation: |
+  Cơ chế kênh giao dịch tức thời (just-in-time channel) giải quyết cụ thể thách thức quản lý thanh khoản của Lightning, nơi mà tiền chỉ có thể chảy theo hướng có đủ dung lượng. Khi người dùng cần nhận thanh toán nhưng không đủ thanh khoản đầu vào, LSP sẽ tự động mở một kênh mới ngay khi khoản thanh toán đến, diễn ra liền mạch mà không cần sự can thiệp của người dùng. Các câu trả lời sai mô tả các thách thức khác của Lightning nhưng không đề cập đến vấn đề thanh khoản cụ thể mà các kênh giao dịch tức thời giải quyết.

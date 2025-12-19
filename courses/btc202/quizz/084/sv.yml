@@ -1,0 +1,9 @@
+question: Vilket är standardantalet utgående anslutningar som en Bitcoin core-nod upprätthåller?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Bitcoin core upprätthåller 10 utgående anslutningar som standard (8 full-relay och 2 block-relay-only).
+reviewed: true

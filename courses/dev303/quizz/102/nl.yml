@@ -1,0 +1,8 @@
+question: Wat is het fundamentele verschil tussen de LDK blockchainintegratieaanpak en traditionele Lightning nodes met betrekking tot omgevingen met beperkte middelen?
+answer: LDK biedt een filtergebaseerde abstractie waarmee applicaties monitoring kunnen implementeren via lichtgewicht gegevensbronnen zoals Electrum servers
+wrong_answers:
+  - LDK vereist volledige synchronisatie van de blockchain, maar optimaliseert de opslag door middel van gecomprimeerde blockheaders en mechanismen voor het snoeien van transacties
+  - LDK implementeert een aangepast blockchainprotocol dat bandbreedte vermindert door alleen kanaalrelevante transacties in het geheugen te bewaren
+  - LDK gebruikt een hybride consensusmechanisme dat alleen Lightning-gerelateerde transacties valideert en standaard Bitcoin operaties negeert
+explanation: |
+  De blockchainintegratie van LDK is ontworpen met twee modi: een volledige blokmodus voor omgevingen met veel bronnen en een filtermodus voor omgevingen met beperkte middelen. De filterbenadering stelt LDK in staat om haar monitoringbehoeften te communiceren via abstracte interfaces, met het verzoek om surveillance van specifieke transacties, UTXO's of scriptpatronen. Toepassingen kunnen deze bewaking vervolgens implementeren met behulp van lichtgewicht bronnen zoals Electrum servers of block explorers, waardoor de bandbreedte- en opslagvereisten drastisch worden verminderd in vergelijking met volledige synchronisatie van de blockchain. Deze abstractie stelt mobiele wallets en webapplicaties in staat om Lightning-functionaliteit te behouden zonder de resource-overhead die traditionele Lightning-nodes vereisen.

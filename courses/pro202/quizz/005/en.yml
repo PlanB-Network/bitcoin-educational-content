@@ -1,0 +1,8 @@
+question: What mathematical property ensures that every non-zero element in a prime field F(p) has a multiplicative inverse?
+answer: The field is defined by a prime number p
+wrong_answers:
+  - The field contains exactly p-1 elements
+  - The field uses modular arithmetic operations
+  - The field supports addition and multiplication
+explanation: |
+  A finite field F(p) must be defined by a prime number p to ensure every non-zero element has a multiplicative inverse. This is a fundamental requirement of field theory - when p is prime, the integers modulo p form a field where division is always possible (except by zero). If p were composite, some non-zero elements would not have inverses, breaking the field structure. While the other options describe properties of finite fields, only the primality of p guarantees the existence of multiplicative inverses for all non-zero elements.

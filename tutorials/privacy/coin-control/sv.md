@@ -51,7 +51,7 @@ I Bitcoin-protokollet existerar inte poster som _konto_ eller _monetära enheter
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Med Bitcoin är det du samlar och senare spenderar små eller stora kontoenheter som mäts i Satoshi, representerade av "outnyttjade transaktionsutgångar", **UTXO**, även kallade "mynt". När du använder UTXO:er för att skapa en transaktion förstörs de helt och hållet och andra UTXO:er skapas i deras ställe.
 
@@ -568,7 +568,7 @@ Coin-kontroll är en mycket effektiv metod för att välja ut dina transaktionsi
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Vi har tidigare talat om `segregering av kvarlevor`. Om du vill låsa kvarlevor för senare bearbetning och återfå integritet (byt på Layer 2) måste du se till att "märka" dem varje gång du får en. Av de mjukvaruplånböcker som hittills setts är det bara Electrum som grafiskt färgar UTXO-rester för att göra dem synliga med en blick. Andra, som Sparrow, visar dig kedjan i härledningsvägen för den enskilda UTXO (`m/84'/0'/0'/1/11`).
 

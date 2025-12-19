@@ -1,0 +1,9 @@
+question: Milline on majanduslik erinevus sõlme ja Miner vahel?
+answer: Miner saab preemiaid, sõlme otsest kasu ei ole
+wrong_answers:
+  - Sõlm saab tasu, Miner saab blokeeritud toetust
+  - Sõlm saab preemiaid, Miner ei saa otsest kasu
+  - Mõlemad saavad samu auhindu
+explanation: |
+  Kaevandajad saavad tasu (toetused ja tasud), samas kui sõlme kasutaja ei saa otsest rahalist kasu.
+reviewed: true

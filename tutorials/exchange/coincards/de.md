@@ -42,7 +42,7 @@ Wie sein großer Bruder Bitrefill und seine Konkurrenten (The Bitcoin Company, C
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards bietet eine breite Palette an Möglichkeiten, vom Einzelhandel über Fast Food, Streaming-Plattformen, Online-Spiele, E-Commerce-Seiten und mehr...
 
@@ -67,7 +67,7 @@ Dies ist eine Gelegenheit, diejenigen, die ihre Geschenkkarten in Bitcoin bezahl
 
 
 
-Eine Auswahl von Tutorials zu den wichtigsten Lightning-Portfolios (Phoenix, Breez, BitKit, Zeus...) finden Sie hier: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+Eine Auswahl von Tutorials zu den wichtigsten Lightning-Portfolios (Phoenix, Breez, BitKit, Zeus...) finden Sie hier: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 
@@ -75,7 +75,7 @@ Wenn Sie mehr über die Funktionsweise des Lightning Network erfahren möchten, 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## Wie kann ich eine BTC-Geschenkkarte auf Coincards kaufen?
 
@@ -244,4 +244,4 @@ Wenn Sie dazu beitragen möchten, Bitcoin populär zu machen und einen unabhäng
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -1,0 +1,9 @@
+question: Koji je glavni razlog za instaliranje lokalnog Block explorer kao što je Mempool.Space na Umbrel?
+answer: Sačuvajte poverljivost i koristite podatke iz sopstvenog čvora.
+wrong_answers:
+  - Ubrzajte početnu Bitcoin core sinhronizaciju
+  - Povećajte kapacitet skladištenja dostupan za blokove
+  - Dobijanje Lightning kanala
+explanation: |
+  Lokalni Block explorer sprečava curenje IP adresa i oslanja se na vaše sopstvene validirane podatke, garantujući poverljivost i pouzdanost.
+reviewed: true

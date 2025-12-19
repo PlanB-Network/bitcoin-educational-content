@@ -1,0 +1,9 @@
+question: کدام نسخه Bitcoin core مدل Ultraprune را معرفی کرد؟
+answer: ۰.۸.۰
+wrong_answers:
+  - ۰.۳.۰
+  - ۰.۶.۰
+  - ۰.۱۰.۰
+explanation: |
+  از نسخه 0.8.0، Bitcoin core دیگر از یک شاخص جهانی استفاده نمی‌کند، بلکه به لطف Ultraprune به‌طور مستقیم مجموعه UTXO را نگهداری می‌کند.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Que tipo de ataque envolve uma única entidade que controla vários nós para se fazer passar por várias entidades e por que razão não é eficaz contra o mecanismo de consenso do Bitcoin?
+answer: Ataque Sybil; é ineficaz porque o Bitcoin utiliza o poder de computação do proof-of-work para obter consenso em vez de contar os nós
+wrong_answers:
+  - "Ataque Eclipse; é ineficaz porque o Bitcoin encripta todas as comunicações dos nós utilizando protocolos criptográficos avançados"
+  - "Ataque de negação de serviço; é ineficaz porque o Bitcoin redistribui automaticamente o tráfego pelos nós saudáveis da rede"
+  - "Ataque de engenharia social; é ineficaz porque os programadores do Bitcoin utilizam métodos de verificação formal para impedir a manipulação"
+explanation: |
+  Um ataque Sybil ocorre quando uma entidade controla vários nós para se fazer passar por várias entidades distintas. No entanto, este ataque é ineficaz contra o Bitcoin porque a rede não se baseia na contagem de nós ou na votação democrática entre os participantes na rede. Em vez disso, a Bitcoin utiliza o consenso da proof-of-work, em que o poder de computação (hashpower) determina as decisões da rede e não o número de nós. Isto impossibilita que um atacante ganhe influência simplesmente por ter muitos nós sem os recursos computacionais correspondentes.
+reviewed: false

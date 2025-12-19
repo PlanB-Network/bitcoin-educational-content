@@ -1,0 +1,8 @@
+question: Bir P2SH işleminin harcama koşullarının gizliliğine zaman içinde ne olur?
+answer: Harcama koşulları ilk harcamaya kadar gizli kalır, daha sonra kalıcı olarak görünür hale gelir on-chain
+wrong_answers:
+  - Harcama koşulları, birden fazla işlem yapıldıktan sonra bile kalıcı olarak gizli kalır
+  - P2SH adresi ilk oluşturulduğunda harcama koşulları hemen görülebilir
+  - Harcama koşulları harcama sırasında geçici olarak görünür hale gelir ancak sonrasında tekrar gizlenir
+explanation: |
+  P2SH, scriptPubKey'deki bir hash'in arkasındaki gerçek harcama koşullarını (redeem script) gizleyerek gizlilik sağlar. Başlangıçta yalnızca 20 baytlık hash görünür ve multisig, timelock veya diğer karmaşık koşulların olup olmadığı gizlenir. Ancak, P2SH çıktısı ilk kez harcandığında, harcama koşullarının tüm ağ katılımcıları tarafından kalıcı olarak görülebilmesi için tam redeem komut dosyası doğrulama için on-chain'te açıklanmalıdır. Bu tek seferlik ifşa, P2SH'ün gizlilik ve işlevsellik arasında yaptığı değiş tokuştur.

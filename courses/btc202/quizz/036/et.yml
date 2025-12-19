@@ -1,0 +1,9 @@
+question: Mis on spetsiaalse sülearvuti eelis miniarvuti ees?
+answer: Selle aku toimib inverterina
+wrong_answers:
+  - See on vaiksem
+  - See kestab kauem
+  - See tarbib vähem energiat
+explanation: |
+  Sülearvuti aku toimib loomuliku UPSina, mis takistab ootamatuid seisakuid voolukatkestuse korral.
+reviewed: true

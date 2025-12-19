@@ -6,4 +6,4 @@ wrong_answers:
   - Restoring Mempool during a reorganization
 explanation: |
   Each revNNNNN.dat contains the data needed to undo the effects of a block on the UTXO set, making it easier to manage reorganizations.
-reviewed: false
+reviewed: true

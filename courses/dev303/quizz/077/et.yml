@@ -1,0 +1,8 @@
+question: Mis juhtub, kui kutsuda lock() mutexile Rust-s ja miks paljud arendajad peavad selle operatsiooni lahtipakkimist vastuvõetavaks?
+answer: See tagastab tulemuse, mis võib ebaõnnestuda, kui mõni teine niit paanikasse sattus mutexi hoidmise ajal, ja lahtipakkimine on vastuvõetav, sest te ei saa mõistlikult käsitleda teiste niitide paanikast tulenevaid vigu
+wrong_answers:
+  - See tagastab Optioni, mis võib olla None, kui mutex on hõivatud, ja lahtipakkimine on vastuvõetav, sest hõivatud mutexid peaksid põhjustama programmi kohese lõpetamise
+  - See tagastab tulemuse, mis võib ebaõnnestuda ummikseisundi tuvastamise tõttu, ja lahtipakkimine on vastuvõetav, sest ummikseisundid näitavad fundamentaalseid projekteerimisvigu, mis peaksid paanikat tekitama
+  - See õnnestub alati ja tagastab lukustusvahendi otse, mis muudab lahtipakkimise tarbetuks, kuna mutex-operatsioonid on Rust-s garanteeritult niidikindlad
+explanation: |
+  Kui kutsutakse lock() mutexile, annab Rust tagasi tulemuse, sest operatsioon võib ebaõnnestuda, kui mõni teine niit mutexi hoidmise ajal paanikas, jättes selle mürgitatud olekusse. See tekitab unikaalse olukorra, kus teie kohalik kood saab vea millegi eest, mis juhtus täiesti teise niidi kontekstis. Kuna te ei saa mõistlikult käsitleda või taastuda veast, mis pärineb teise niidi paanikast, peavad paljud arendajad mutexi lukkude lahtipakkimist vastuvõetavaks, eriti paanikavabades koodipõhimõtetes. Teised võimalused on ebaõiged, sest mutexid ei tagasta võimalusi hõivatud olekus, neil ei ole sisseehitatud ummikseisundi tuvastamist, mis põhjustab Result'i tõrkeid, ja operatsioon ei õnnestu alati mürgise mehhanismi tõttu.

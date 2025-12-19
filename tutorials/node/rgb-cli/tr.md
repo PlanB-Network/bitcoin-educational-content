@@ -20,7 +20,7 @@ Bir RGB Contract evrimsel bir durum makinesi gibi yapılandırılmıştır. Baş
 RGB protokolünün nasıl çalıştığı hakkında daha fazla bilgi edinmek için bu kapsamlı eğitim kursuna katılmanızı tavsiye ederim:
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB'un iç mantığı, geliştiriciler olarak *Client-side Validation* kısmını yönetmek için projelerinize aktarabileceğiniz Rust kütüphanelerine dayanmaktadır. Buna ek olarak, LNP/BP ekibi diğer diller için bağlayıcılar üzerinde çalışmaktadır, ancak bu henüz sonuçlandırılmamıştır. Buna ek olarak, Bitfinex gibi diğer kuruluşlar da kendi entegrasyon yığınlarını geliştirmektedir, ancak bunlardan başka bir eğitimde bahsedeceğiz. Şimdilik, `RGB` CLI, nispeten cilasız kalsa bile resmi referanstır.
 
@@ -186,8 +186,8 @@ Diğer yol ise `ticker`, `name`, `Supply` ve benzerlerini özelleştirmek için 
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -243,7 +243,7 @@ rgb contracts
 ![RGB-CLI](assets/fr/07.webp)
 
 
-Ardından, bir sonraki komut global durumları (isim, ticker, Supply...) ve Sahip Olunan Durumların listesini, yani tahsisatları (örneğin, UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`de tanımlanan 1 milyon `PBN` jetonu) görüntüler.
+Ardından, bir sonraki komut global durumları (isim, ticker, Supply...) ve Sahip Olunan Durumların listesini, yani tahsisatları (örneğin, UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`de tanımlanan 1 milyon `Plan ₿ Academy` jetonu) görüntüler.
 
 
 ```bash
@@ -421,4 +421,4 @@ Artık bir RGB Contract'yi nasıl düzenleyeceğinizi ve aktaracağınızı bili
 Ayrıca, RGB uyumlu bir Lightning düğümünün Exchange jetonlarına neredeyse anında nasıl başlatılacağını açıkladığım bu diğer öğreticiyi de tavsiye ederim:
 
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

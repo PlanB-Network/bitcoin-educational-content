@@ -1,0 +1,9 @@
+question: Umbrel.local üzerinden erişim başarısız olursa hangi komut Umbrel'inizin yerel IP Address'ını alır?
+answer: ana bilgisayar adı -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  Algılama sorunları olması durumunda, yerel IP'sini bulmak için Umbrel makinesinde hostname -I komutunu kullanabilirsiniz.
+reviewed: true

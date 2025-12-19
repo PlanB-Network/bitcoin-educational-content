@@ -1,4 +1,4 @@
-question: What is the main function of a Bitcoin portfolio?
+question: What is the main function of a Bitcoin wallet?
 answer: Storing and managing private keys
 wrong_answers:
   - Store and manage the complete Blockchain
@@ -6,4 +6,4 @@ wrong_answers:
   - Relay network transactions
 explanation: |
   A Bitcoin wallet manages the private keys that enable bitcoins to be spent, but does not perform the functions of a node.
-reviewed: false
+reviewed: true

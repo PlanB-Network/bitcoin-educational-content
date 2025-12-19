@@ -194,7 +194,7 @@ Mbere na mbere, urashobora kuraba uburongozi bwacu bwa ProtonMail kugira uronke 
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Injira muri konti yawe ya ProtonMail maze uje ku mirongo y’umutekano. Rondera "Ivyemezo vy'ibintu bibiri" maze ubikoreshe.
 
@@ -495,7 +495,7 @@ Ivyiza ni uko wokoresha ibintu birenze isegonda rimwe ku nkuru zawe zihambaye. N
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Na wewe nyene, nugumye ufise amakode y’ivyihutirwa acapwe.
 
@@ -545,7 +545,7 @@ Uzosanga uburongozi bwacu bwa Authy aha hepfo:
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator ni kimwe mu bisubizo vy’ukuri kandi bitekanye biriho: inkomoko yuguruye, uguhuza ibikoresho vyinshi bifise amakuru, nta gukurikirana kw’ubudandaji.
 

@@ -1,0 +1,8 @@
+question: Warum weist die Validierung von Bitcoin-Transaktionen eine quadratische Zeitkomplexität in Bezug auf die Anzahl der Eingaben auf?
+answer: Jede Eingabe erfordert eine eigene Sighash-Berechnung über eine Struktur, die alle Eingaben in der Transaktion umfasst
+wrong_answers:
+  - Jeder Eingang muss Signaturen gegen alle anderen Eingänge verifizieren, um double-spending innerhalb der Transaktion zu verhindern
+  - Das stapelbasierte Ausführungsmodell erfordert verschachtelte Schleifen zur Verarbeitung von Opcodes für jede Eingabekombination
+  - "Die ScriptSig jeder Eingabe muss mit dem ScriptPubKey jeder Ausgabe abgeglichen werden, um die richtige Übereinstimmung zu finden"
+explanation: |
+  Die herkömmliche Bitcoin-Validierung führt zu einer quadratischen Komplexität, da für jede Eingabe eine eigene Sighash-Berechnung erforderlich ist, aber jede Berechnung eine Transaktionsstruktur mit allen Eingaben verarbeitet. Bei n Eingaben führt dies zu n×n Operationen. SegWit löste dieses Problem durch Zwischenspeichern gemeinsam genutzter Teile der Sighash-Berechnung, wodurch die Komplexität auf lineare Zeit reduziert und potenzielle Denial-of-Service-Angriffe durch große Transaktionen mit mehreren Eingaben verhindert wurden.

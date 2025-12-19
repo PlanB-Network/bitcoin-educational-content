@@ -645,7 +645,7 @@ RTL'yi asla doğrudan internette ifşa etmeyin. Şunları tercih edin :
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### İyi güvenlik uygulamaları
 
@@ -695,7 +695,7 @@ Kısacası, RTL size modern, tam özellikli bir Interface'de Lightning düğüm�
 
 
 
-**Kaynaklar :** RTL resmi web sitesi; RTL GitHub; Umbrel App Store; Umbrel Community; Plan B Network kaynakları.
+**Kaynaklar :** RTL resmi web sitesi; RTL GitHub; Umbrel App Store; Umbrel Community; Plan ₿ Academy kaynakları.
 
 
 
@@ -703,4 +703,4 @@ Lightning Network'ün nasıl çalıştığına dair anlayışınızı derinleşt
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

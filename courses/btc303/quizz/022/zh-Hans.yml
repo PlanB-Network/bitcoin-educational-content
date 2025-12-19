@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto 在 Bitcoin 白皮书中指出的区块链隐私的两大问题是什么？
+answer: Address 重复使用和地址群集
+wrong_answers:
+  - 交易费用和确认延迟
+  - 双重支出和哈希碰撞
+  - 网络拥塞和 mining 集中化
+explanation: |
+  在 Bitcoin 白皮书第 7 节中，Satoshi 中本认为地址重用和地址聚类是主要的区块链隐私问题。Address 重复使用发生在同一地址被多次使用的情况下，这样就很容易将交易与同一用户联系起来。Address 聚类指的是确定不同地址属于同一所有者的能力，特别是通过多输入交易揭示所有输入由同一人控制。其他选项是 Bitcoin 的技术或操作挑战，但不是白皮书中 Satoshi 特别讨论的隐私问题。
+reviewed: false

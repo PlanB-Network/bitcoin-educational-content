@@ -548,4 +548,4 @@ En dat is het, je weet nu hoe je Lightning kunt gebruiken met je eigen knooppunt
 Om alle Lightning-mechanismen die we in deze tutorial hebben gemanipuleerd in detail te begrijpen, raad ik je ten zeerste aan om onze gratis training over dit onderwerp te ontdekken:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

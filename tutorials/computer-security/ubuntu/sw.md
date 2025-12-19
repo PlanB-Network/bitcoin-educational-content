@@ -8,7 +8,7 @@ description: Mwongozo kamili wa kusakinisha na kutumia Ubuntu kama njia mbadala 
 ## Utangulizi
 
 
-Mfumo wa uendeshaji (OS) ni programu kuu inayosimamia rasilimali zote za kompyuta yako. Kuchagua mfumo mbadala wa uendeshaji kama Ubuntu kunaweza kutoa faida nyingi katika masuala ya usalama, gharama na faragha.
+Mfumo wa uendeshaji (Operating System OS) ni programu kuu inayosimamia rasilimali zote za kompyuta yako. Kuchagua mfumo mbadala wa uendeshaji kama Ubuntu kunaweza kutoa faida nyingi katika masuala ya usalama, gharama na faragha.
 
 
 ### Kwa nini Ubuntu?
@@ -297,7 +297,7 @@ Ili kuifungua: Shughuli > Tafuta "Mwandishi wa LibreOffice" au bonyeza kwenye ik
 Unaweza kuunda, kuhariri na kuhifadhi hati katika miundo mbalimbali (ikiwa ni pamoja na .docx).
 
 
-**5.3 Kusakinisha programu**
+**5.3 Kusakinisha programu
 
 
 Kidhibiti programu (kinachoitwa "Ubuntu Software"): Interface ya picha ya kutafuta na kusakinisha programu.
@@ -328,4 +328,4 @@ Sasa uko tayari kutumia Ubuntu kila siku: linda mfumo wako, vinjari, fanya kazi 
 Ili kupiga hatua zaidi usalama wa maisha yako ya kidijitali, tunapendekeza uangalie huduma yetu ya ujumbe iliyosimbwa kwa njia fiche, ambayo inafaa kikamilifu kulinda faragha yako na inayosaidia usakinishaji wako wa Ubuntu:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

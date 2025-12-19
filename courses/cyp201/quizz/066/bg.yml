@@ -1,0 +1,9 @@
+question: Коя част от изхода на HMAC-SHA512 се използва като дете chain code?
+answer: Последните 32 байта
+wrong_answers:
+  - Първите 32 байта
+  - Цели 64 байта
+  - Хешът SHA256 на средните 32 байта
+explanation: |
+  Последните 32 байта от изхода на HMAC-SHA512 служат като chain code за детския ключ.
+reviewed: false

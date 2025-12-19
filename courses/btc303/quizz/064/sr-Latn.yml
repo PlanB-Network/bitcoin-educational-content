@@ -1,0 +1,9 @@
+question: Prema kompromisu između propusnosti i decentralizacije o kojem je govorio Gregory Maxwell, kada upotreba resursa Bitcoin blockchaina postane prevelika u odnosu na dostupnu tehnologiju, decentralizacija može biti ugrožena.
+answer: Bitcoin gubi konkurentske prednosti u poređenju sa starijim sistemima jer validacija postaje preskupa, isključujući mnoge korisnike i vraćajući poverenje nazad u sistem.
+wrong_answers:
+  - Bitcoin postaje sigurniji jer samo najposvećeniji korisnici sa snažnim hardverom mogu učestvovati u validaciji, stvarajući jaču mrežu.
+  - Bitcoin automatski podešava svoj algoritam težine kako bi smanjio zahteve za resursima i održao isti nivo decentralizacije među svim učesnicima
+  - Bitcoin se deli na više paralelnih lanaca kako bi raspodelio računarsko opterećenje, istovremeno zadržavajući iste sigurnosne garancije za sve korisnike.
+explanation: |
+  Maxwell je identifikovao osnovni kompromis gde prekomerni zahtevi za resursima guraju korisnike ka pouzdanim trećim stranama umesto ka nezavisnoj validaciji. Kada troškovi validacije postanu prekomerni, korisnici ne mogu priuštiti pokretanje punih čvorova i moraju se osloniti na druge, potkopavajući Bitcoin-ovu prirodu bez poverenja. Pogrešni odgovori netačno sugerišu korisne ishode (povećana sigurnost, automatska prilagođavanja ili održana jamstva) kada visoka upotreba resursa zapravo forsira centralizaciju i zavisnost od poverenja.
+reviewed: false

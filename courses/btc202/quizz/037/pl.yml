@@ -1,0 +1,9 @@
+question: Jaki typ maszyny jest przedstawiany jako najlepszy kompromis dla domowego węzła Bitcoin?
+answer: Komputer mini-PC typu NUC
+wrong_answers:
+  - Laptop
+  - Superkomputer
+  - Konsola do gier
+explanation: |
+  Mini-PC (NUC, Tiny, OptiPlex Micro...) charakteryzują się niskim zużyciem energii, niezawodnością i łatwością adaptacji, co czyni je idealnym kompromisem.
+reviewed: true

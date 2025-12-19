@@ -95,7 +95,7 @@ Coinkite 旗舰产品 ColdCardQ 设备的**键远程传输**功能是什么？
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 *我们目前有：*
 
@@ -145,7 +145,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-在这里，我们的秘诀是选择 **"快速短信 "**，发送一条短信息。输入您的信息（对我们来说是 "PlanB Network rocks"），然后按**"回车键 "**。
+在这里，我们的秘诀是选择 **"快速短信 "**，发送一条短信息。输入您的信息（对我们来说是 "Plan ₿ Academy rocks"），然后按**"回车键 "**。
 
 
 然后，设备会生成一个新的随机密码，称为**"Teleport Password "**，例如 "NE XG BT SK"。
@@ -190,7 +190,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-然后对数据进行解密，使接收设备能够理解这些数据。接收到的信息确实是 "PlanB Network rocks"。仅此而已。
+然后对数据进行解密，使接收设备能够理解这些数据。接收到的信息确实是 "Plan ₿ Academy rocks"。仅此而已。
 
 
 

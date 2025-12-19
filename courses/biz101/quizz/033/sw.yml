@@ -5,5 +5,5 @@ wrong_answers:
   - Sasa inahitaji idhini ya serikali kwa kila malipo.
   - Imeacha kufanya kazi kwenye vipengele vipya, kutegemea muundo wa awali pekee.
 explanation: |
-  Baada ya muda, Lightning Network imeona maboresho ya kiufundi ambayo hupunguza msuguano kwa watumiaji. Vipengele vipya na zana bora za udhibiti wa nodi zimechangia utumiaji usio na mshono na unaomfaa mtumiaji.
-reviewed: false
+  Baada ya muda, Lightning Network imeona maboresho ya kiufundi ambayo hupunguza msuguano kwa watumiaji. Vipengele vipya na zana bora za udhibiti wa node zimechangia utumiaji usio na mshono na unaomfaa mtumiaji.
+reviewed: true

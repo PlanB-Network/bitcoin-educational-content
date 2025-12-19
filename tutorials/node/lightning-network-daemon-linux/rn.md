@@ -34,7 +34,7 @@ Mu yandi majambo, n'iyi nzira, urashobora :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Ni kuki ufise urudodo rwawe rw’Umuravyo?
 
@@ -64,7 +64,7 @@ Muri ubwo buryo, gukoresha urudodo rwa Lightning birongereza umutekano n’ubutu
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Ufise uburyo bubiri bwo gukoresha instance y'ugushirwa mu ngiro kwa LND ku mashini yacu. Turashobora gushinga ibidukikije ku mashini yacu bwite kugira ngo bikore mu karere, canke dushiremwo LND tuvuye mu gikoresho ca Docker. Aha, tuzokwibanda ku mahitamwo ya mbere, maze turabe ingene twobandanya na Docker mu nyigisho izoza.
@@ -665,4 +665,4 @@ Rero mwashitse ku mpera y’iyi nyigisho. Niba wifuza kumenya vyinshi ku vyereke
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

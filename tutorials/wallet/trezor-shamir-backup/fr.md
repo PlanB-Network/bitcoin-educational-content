@@ -43,11 +43,11 @@ Dans ce tutoriel, nous allons d'abord voir comment configurer un Multi-share lor
 
 Si vous avez besoin d'aide pour la configuration initiale de votre appareil, nous avons également un tutoriel détaillé pour chaque modèle de Trezor :
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Sur un nouveau portefeuille
 
@@ -73,7 +73,7 @@ Lisez attentivement les instructions, validez-les, puis cliquez sur "*Create wal
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer vos phrases mnémoniques, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Sur le Trezor, choisissez le nombre total de shares que vous souhaitez configurer. Les configurations les plus courantes sont 2-de-3 et 3-de-5. Pour cet exemple, je vais créer un 2-de-3, donc je sélectionne 3 shares. Chaque share représentera une phrase mnémonique de 20 mots.
 
@@ -141,7 +141,7 @@ Une fois votre Multi-share Backup créé, vous devrez décider de ce que vous fa
 
 Félicitations, vous êtes maintenant au point sur l'utilisation des Single-share et Multi-share Backups sur les hardware wallets Trezor. Pour aller plus loin dans la sécurisation de votre portefeuille, je vous conseille de découvrir ce tutoriel sur les passphrases BIP39 :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !
 

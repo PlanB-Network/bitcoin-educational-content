@@ -56,7 +56,7 @@ Pronto a scoprire il potenziale di Elements e della sidechain Liquid? Iniziamo!
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements è una piattaforma blockchain, che può essere utilizzata come una ["sidechain"](https://planb.network/resources/glossary/sidechain), e consente di accedere a potenti funzionalità sviluppate dai membri della community, come le ["Confidential Transaction"](https://elementsproject.org/features/confidential-transactions) e le ["Issued Assets"](https://elementsproject.org/features#issuedassets).
+Elements è una piattaforma blockchain, che può essere utilizzata come una ["sidechain"](https://planb.academy/resources/glossary/sidechain), e consente di accedere a potenti funzionalità sviluppate dai membri della community, come le ["Confidential Transaction"](https://elementsproject.org/features/confidential-transactions) e le ["Issued Assets"](https://elementsproject.org/features#issuedassets).
 
 Elements, nella sua essenza, è un protocollo che consente di ottenere consenso riguardo alla storia delle transazioni e alle regole che governano il trasferimento e la creazione di asset memorizzati in un libro mastro distribuito della blockchain.
 
@@ -84,7 +84,7 @@ Elements è una piattaforma blockchain di uso generale che può anche essere "an
 
 #### Signed Blocks (Blocchi firmati)
 
-Elements utilizza una "Strong Federation" di firmatari, chiamati ["Block Signers"](https://planb.network/resources/glossary/blocksigners), che firmano e creano blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni derivata dal processo di mining basato sulla "PoW" (Proof-of-work, prova di lavoro), che è soggetta alla varianza nei tempi di emissione dei blocchi, a causa della loro distribuzione casuale (questa caratteristica si può mostrare creando una _curva di Poisson_). Il processo di "Federated Block Signing" (Firma federata dei blocchi) consente di creare i blocchi in maniera affidabile senza la necessità di fiducia in terze parti o l'utilizzo del mining basato su `algoritmi` computazionali.
+Elements utilizza una "Strong Federation" di firmatari, chiamati ["Block Signers"](https://planb.academy/resources/glossary/blocksigners), che firmano e creano blocchi in modo affidabile e tempestivo. In questo modo si elimina la latenza delle transazioni derivata dal processo di mining basato sulla "PoW" (Proof-of-work, prova di lavoro), che è soggetta alla varianza nei tempi di emissione dei blocchi, a causa della loro distribuzione casuale (questa caratteristica si può mostrare creando una _curva di Poisson_). Il processo di "Federated Block Signing" (Firma federata dei blocchi) consente di creare i blocchi in maniera affidabile senza la necessità di fiducia in terze parti o l'utilizzo del mining basato su `algoritmi` computazionali.
 
 Elements aggiunge tutte queste funzionalità al codice di Bitcoin Core, estendendo gli utilizzi del protocollo mainchain e consentendo nuovi casi d'uso commerciali quando viene usato come sidechain o come soluzione blockchain indipendente.
 
@@ -106,7 +106,7 @@ A differenza della rete Bitcoin, il processo di firma dei blocchi all'interno di
 
 Elements può funzionare come sidechain di un'altra blockchain, come Bitcoin, o come blockchain autonoma senza dipendere da altre reti.
 
-Quando viene utilizzata come sidechain, la Federazione contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una chain principale e una sidechain Elements. Il trasferimento controllato di asset è chiamato "Federated 2-Way Peg" (Ancoraggio Federato Bidirezionale) e i membri che svolgono il ruolo di trasferimento degli asset sono chiamati ["Watchmen" (Guardiani)](https://planb.network/resources/glossary/watchmen).
+Quando viene utilizzata come sidechain, la Federazione contiene anche membri che consentono il trasferimento sicuro e controllato di asset tra una chain principale e una sidechain Elements. Il trasferimento controllato di asset è chiamato "Federated 2-Way Peg" (Ancoraggio Federato Bidirezionale) e i membri che svolgono il ruolo di trasferimento degli asset sono chiamati ["Watchmen" (Guardiani)](https://planb.academy/resources/glossary/watchmen).
 
 I processi coinvolti nella gestione di una rete Elements e i ruoli dei partecipanti alla rete sono importanti per comprendere il funzionamento di Elements.
 
@@ -166,7 +166,7 @@ Nota: in questo documento ci riferiremo sempre a elementsd come versione del dae
 
 Il daemon di Elements si connette agli altri nodi della rete per scambiare i dati delle transazioni e dei blocchi, convalidando ed estendendo la propria copia locale della blockchain della rete.
 
-Il software Elements comprende anche un programma client chiamato `elements-cli` che consente di inviare comandi [RPC - Remote Procedure Call](https://planb.network/resources/glossary/rpc-remote-procedure-call) a elementsd dalla riga di comando. Ciò può essere usato, ad esempio, per interrogare il wallet e vederne il saldo, per visualizzare i dati delle transazioni o dei blocchi o per trasmettere una transazione. Questa configurazione dovrebbe essere familiare a chiunque abbia usato gli equivalenti in Bitcoin: bitcoind e bitcoin-cli.
+Il software Elements comprende anche un programma client chiamato `elements-cli` che consente di inviare comandi [RPC - Remote Procedure Call](https://planb.academy/resources/glossary/rpc-remote-procedure-call) a elementsd dalla riga di comando. Ciò può essere usato, ad esempio, per interrogare il wallet e vederne il saldo, per visualizzare i dati delle transazioni o dei blocchi o per trasmettere una transazione. Questa configurazione dovrebbe essere familiare a chiunque abbia usato gli equivalenti in Bitcoin: bitcoind e bitcoin-cli.
 
 Poiché un nodo Elements può essere configurato passando i parametri all'avvio o tramite un file di configurazione, è possibile avere più di un'istanza in esecuzione sulla stessa macchina. Ciò è utile per scopi di test e sviluppo, in quanto è possibile configurare la propria rete locale su una singola macchina, con ciascun nodo Elements che dispone della propria copia dei dati della blockchain, gestisce la propria pool di transazioni valide non confermate e ascolta le richieste RPC su porte diverse.
 
@@ -684,7 +684,7 @@ In questa sezione abbiamo visto come emettere un asset e come utilizzare il toke
 
 :::video id=c5a81820-77d7-4a0c-9a4e-9323386a74ac:::
 
-Elements supporta un modello di [firma federata](https://planb.network/resources/glossary/blocksigners) che consente di specificare il numero di membri della _"Strong Federation"_ che devono firmare un blocco proposto per validarlo.
+Elements supporta un modello di [firma federata](https://planb.academy/resources/glossary/blocksigners) che consente di specificare il numero di membri della _"Strong Federation"_ che devono firmare un blocco proposto per validarlo.
 
 In precedenza, e per facilità di esempio, abbiamo creato i blocchi utilizzando il comando `generate`, che non ha dovuto soddisfare un requisito di firma multipla affinché i blocchi creati fossero accettati dalla rete come validi.
 
@@ -722,7 +722,7 @@ e1-cli dumpprivkey <e1-address>
 e2-cli dumpprivkey <e2-address>
 ```
 
-Ora dobbiamo generare uno [_script redeem_](https://planb.network/resources/glossary/redeemscript) con i requisiti di multi-firma 2 su 2. Per farlo, utilizziamo il comando `createmultisig`, passando il primo parametro a 2 e fornendo due chiavi pubbliche. Sono queste chiavi, la cui proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
+Ora dobbiamo generare uno [_script redeem_](https://planb.academy/resources/glossary/redeemscript) con i requisiti di multi-firma 2 su 2. Per farlo, utilizziamo il comando `createmultisig`, passando il primo parametro a 2 e fornendo due chiavi pubbliche. Sono queste chiavi, la cui proprietà deve essere dimostrata in seguito, quando il blocco viene creato.
 
 Entrambi i nodi, e1 o e2, possono generare il multisig.
 
@@ -848,7 +848,7 @@ Una volta che un numero di firmatari che rappresenta la soglia ha firmato il blo
 
 :::video id=c15e7eaf-9b5d-4696-bb36-bd10e7b56967:::
 
-Elements è una piattaforma blockchain open-source di uso generico che può anche essere `pegged` (ancorata) a una blockchain esistente, come Bitcoin. Quando è collegata a un'altra blockchain, si dice che Elements opera come una `sidechain`. Le [sidechain](https://planb.network/resources/glossary/sidechain) consentono il trasferimento bidirezionale di asset da una chain all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle limitazioni intrinseche della mainchain, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla mainchain.
+Elements è una piattaforma blockchain open-source di uso generico che può anche essere `pegged` (ancorata) a una blockchain esistente, come Bitcoin. Quando è collegata a un'altra blockchain, si dice che Elements opera come una `sidechain`. Le [sidechain](https://planb.academy/resources/glossary/sidechain) consentono il trasferimento bidirezionale di asset da una chain all'altra. L'implementazione di Elements come sidechain consente di aggirare alcune delle limitazioni intrinseche della mainchain, pur mantenendo un buon grado di sicurezza fornito dagli asset protetti sulla mainchain.
 
 Mentre una sidechain conosce la mainchain e la sua cronologia delle transazioni, la mainchain non è a conoscenza dell'esistenza della sidechain, che non è necessaria per il suo funzionamento. Ciò consente alle sidechain di innovare senza restrizioni o ritardi associati alle proposte di miglioramento del protocollo della mainchain. Piuttosto che cercare di modificare il protocollo principale direttamente, lo si estende, consentendo alla chain principale di rimanere sicura e specializzata, sostenendo il buon funzionamento della sidechain.
 
@@ -1245,7 +1245,7 @@ Utilizzando i parametri di cui sopra è possibile far funzionare Elements come u
 
 :::video id=bd5167d5-edba-40b0-a8b1-ba8b74493a08:::
 
-In questo corso abbiamo imparato che Elements è un protocollo di rete open-source che può essere implementato come [sidechain](https://planb.network/resources/glossary/sidechain) di un'altra blockchain o come soluzione blockchain autonoma.
+In questo corso abbiamo imparato che Elements è un protocollo di rete open-source che può essere implementato come [sidechain](https://planb.academy/resources/glossary/sidechain) di un'altra blockchain o come soluzione blockchain autonoma.
 
 Abbiamo visto che il codice sorgente e il sito web di Elements (https://github.com/ElementsProject/elements) sono ospitati su GitHub e che esistono forum di discussione della community, come Build On L2 (https://community.liquid.net/c/developers/) o Liquid Developers Telegram (https://t.me/liquid_devel), che possono essere utilizzati per saperne di più sulla distribuzione e lo sviluppo di applicazioni su Elements e Liquid. Sono state illustrate caratteristiche chiave come le "Confidential Transactions" e gli "Issued Assets", oltre a come i membri di una "Strong Federation" consentono la firma federata dei blocchi e il meccanismo 2-Way Peg (Ancoraggio Bilaterale). 
 

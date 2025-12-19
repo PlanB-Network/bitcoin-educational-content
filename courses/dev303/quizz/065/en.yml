@@ -1,0 +1,8 @@
+question: Why is the 'move fast and break things' philosophy particularly unsuitable for Bitcoin development compared to traditional software development?
+answer: Bitcoin transactions are irreversible with no central authority to recover funds from mistakes
+wrong_answers:
+  - Bitcoin development requires faster iteration cycles than traditional web applications
+  - "Rust's compiler prevents the rapid prototyping needed for blockchain innovation"
+  - "Bitcoin's open source nature makes it harder to fix bugs after deployment"
+explanation: |
+  The correct answer highlights Bitcoin's fundamental characteristic: its decentralized nature means there's no authority to appeal to for fund recovery once transactions are broadcast. Unlike traditional financial systems with regulatory protections and chargeback mechanisms, Bitcoin mistakes are permanent and irreversible. The wrong answers misunderstand the core issue - it's not about development speed, compiler limitations, or open source challenges, but about the irreversible nature of financial operations in a decentralized system where user funds are at permanent risk.

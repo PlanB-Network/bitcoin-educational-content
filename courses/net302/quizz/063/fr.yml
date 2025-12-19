@@ -6,4 +6,4 @@ wrong_answers:
   - Réduire le nombre d’octets par paquet
 explanation: |
   IPv6 vise principalement à résoudre la pénurie d’adresses IP en élargissant massivement l’espace d’adressage.
-reviewed: false
+reviewed: true 

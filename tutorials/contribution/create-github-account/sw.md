@@ -9,7 +9,7 @@ description: Jinsi ya kuunda akaunti yako mwenyewe kwenye GitHub?
 Dhamira ya Mpango ₿ ni kutoa nyenzo za elimu za kiwango cha juu kuhusu Bitcoin, zinazopatikana katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo-wazi na yamepangishwa kwenye GitHub, yakimpa mtu yeyote fursa ya kuchangia katika uboreshaji wa jukwaa. Michango inaweza kuchukua aina mbalimbali: kusasisha na kusahihisha maandishi yaliyopo, tafsiri katika lugha zingine, kusasisha habari, au kuunda mafunzo mapya ambayo bado hayapatikani kwenye tovuti yetu.
 
 
-Ikiwa ungependa kuchangia Plan ₿ Network, utahitaji kutumia Git na GitHub, kwa hivyo, ikiwa zana hizi huzifahamu au ikiwa utendakazi wao unaonekana kuwa fiche, usiogope, makala haya ni kwa ajili yako! Tutakagua pamoja misingi ya Git na GitHub, pamoja na jargon husika ya kiufundi, ili kukuwezesha kuzitumia kwa ufanisi baadaye.
+Ikiwa ungependa kuchangia Plan ₿ Academy, utahitaji kutumia Git na GitHub, kwa hivyo, ikiwa zana hizi huzifahamu au ikiwa utendakazi wao unaonekana kuwa fiche, usiogope, makala haya ni kwa ajili yako! Tutakagua pamoja misingi ya Git na GitHub, pamoja na jargon husika ya kiufundi, ili kukuwezesha kuzitumia kwa ufanisi baadaye.
 
 
 ## Git ni nini?
@@ -27,7 +27,7 @@ Moja ya sifa kuu za Git ni usimamizi wa tawi. Tawi ni aina ya mstari sambamba am
 
 Moja ya sifa za Git ni uwezo wake wa kufanya kazi kwa njia iliyosambazwa. Kila msanidi ana nakala kamili ya mradi kwenye kiendeshi cha Hard cha kompyuta yake, kinachowaruhusu kufanya kazi nje ya mtandao na kuunganisha mabadiliko baadaye muunganisho wa Mtandao utakapopatikana. Hili linapunguza hatari ya migogoro na inaruhusu watengenezaji wengi kufanya kazi kwa wakati mmoja kwenye mradi huo bila kukanyaga vidole vyake.
 
-Hapo awali, Git iliundwa kimsingi kwa miradi ya ukuzaji wa programu. Hata hivyo, inaweza pia kutumika kusimamia miradi ya uandishi wa maudhui. Badala ya kushirikiana kwenye msimbo, tunashirikiana kwenye maandishi. Na ni njia hii ambayo Plan ₿ Network imepitisha kudhibiti yaliyomo! Git hurahisisha ushirikiano katika uandishi wa kozi na mafunzo, kwani inaruhusu ufuatiliaji sahihi wa mabadiliko, usimamizi bora wa toleo, na pia kuwezesha ukaguzi na uboreshaji wa yaliyomo na wachangiaji wengine.
+Hapo awali, Git iliundwa kimsingi kwa miradi ya ukuzaji wa programu. Hata hivyo, inaweza pia kutumika kusimamia miradi ya uandishi wa maudhui. Badala ya kushirikiana kwenye msimbo, tunashirikiana kwenye maandishi. Na ni njia hii ambayo Plan ₿ Academy imepitisha kudhibiti yaliyomo! Git hurahisisha ushirikiano katika uandishi wa kozi na mafunzo, kwani inaruhusu ufuatiliaji sahihi wa mabadiliko, usimamizi bora wa toleo, na pia kuwezesha ukaguzi na uboreshaji wa yaliyomo na wachangiaji wengine.
 
 
 ## GitHub ni nini?
@@ -46,7 +46,7 @@ Fikiria Git kama aina ya kitabu cha kumbukumbu ambacho kila msanidi hutumia kwen
 Tofauti ya kimsingi kati ya Git na GitHub iko katika utendaji wao: Git ni zana inayotumiwa ndani na kila msanidi programu kudhibiti matoleo yao ya misimbo, huku GitHub ni jukwaa la mtandaoni linalopangisha matoleo haya na kuwezesha ushirikiano.
 
 
-GitHub ni zaidi ya huduma ya mwenyeji wa nambari. Ni jukwaa la ushirikiano ambalo huruhusu wasanidi programu kufanya kazi pamoja kwa ufanisi. Na hakika, Plan ₿ Network hutumia jukwaa hili kupangisha sio tu msimbo wote unaowezesha tovuti lakini pia, na hili ndilo linatuvutia, kwa maudhui yote (mafunzo, mafunzo, rasilimali ...).
+GitHub ni zaidi ya huduma ya mwenyeji wa nambari. Ni jukwaa la ushirikiano ambalo huruhusu wasanidi programu kufanya kazi pamoja kwa ufanisi. Na hakika, Plan ₿ Academy hutumia jukwaa hili kupangisha sio tu msimbo wote unaowezesha tovuti lakini pia, na hili ndilo linatuvutia, kwa maudhui yote (mafunzo, mafunzo, rasilimali ...).
 
 
 ## Baadhi ya Masharti ya Kiufundi
@@ -106,7 +106,7 @@ Baada ya kusoma nakala hii, inawezekana kwamba baadhi ya vipengele vya Git na Gi
 ## Jinsi ya kuunda akaunti ya GitHub
 
 
-Ikiwa ungependa kuchangia PlanB Network, utahitaji akaunti ya GitHub. Katika somo hili, tutakuongoza hatua kwa hatua jinsi ya kuunda akaunti yako mwenyewe, kuisanidi, na kuilinda ipasavyo.
+Ikiwa ungependa kuchangia Plan ₿ Academy, utahitaji akaunti ya GitHub. Katika somo hili, tutakuongoza hatua kwa hatua jinsi ya kuunda akaunti yako mwenyewe, kuisanidi, na kuilinda ipasavyo.
 
 
 

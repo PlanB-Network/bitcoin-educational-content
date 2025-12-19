@@ -1,0 +1,9 @@
+question: Matt Corallo'nun sunumuna göre, Bitcoin'ın mimarisinde güvensiz ve güvenilir sistemler arasındaki ilişki nedir?
+answer: Güvensiz bir sistemin üzerine güvenilir sistemler inşa edebilirsiniz, ancak güvenilir sistemlerin üzerine güvensiz sistemler inşa edemezsiniz
+wrong_answers:
+  - Güvenilir sistemlerin üzerine güvensiz sistemler inşa edebilirsiniz, ancak güvensiz sistemlerin üzerine güvenilir sistemler inşa edemezsiniz
+  - Hem güvensiz hem de güvenilir sistemler herhangi bir mimari sınırlama olmaksızın birbirlerinin üzerine inşa edilebilir
+  - Trustless ve güvenilir sistemler bağımsız olarak çalışmalıdır ve birbirlerinin üzerine katmanlanamazlar
+explanation: |
+  Matt Corallo'nun temel görüşü, Bitcoin'nin güvensiz temel katmanının sistem tasarımında esneklik sağlamasıdır. Bitcoin'nin protokolü gibi güvensiz bir temel, geliştiricilerin temel güvenlik garantilerini korurken daha yüksek katmanlarda güvenilir hizmetler (emanet cüzdanları gibi) oluşturmasına olanak tanır. Ancak, bunun tersi mümkün değildir - temelin kendisi güven gerektiriyorsa gerçekten güvensiz sistemler yaratamazsınız, çünkü herhangi bir güvensiz özellik, güvenilir temel katmanın güvenlik açıkları tarafından zayıflatılacaktır.
+reviewed: false

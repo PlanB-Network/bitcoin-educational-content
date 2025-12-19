@@ -1,12 +1,12 @@
 ---
-name: Průvodce místním spuštěním platformy Plan ₿ Network
-description: Jak můžete spustit Plan ₿ Network v místním prostředí, abyste otestovali můj příspěvek k obsahu nebo korekturu/revizi vzdělávacího obsahu na Plan ₿ Network?
+name: Průvodce místním spuštěním platformy Plan ₿ Academy
+description: Jak můžete spustit Plan ₿ Academy v místním prostředí, abyste otestovali můj příspěvek k obsahu nebo korekturu/revizi vzdělávacího obsahu na Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## Shrnutí
 
-Tento návod obsahuje pokyny krok za krokem pro nastavení systému pro správu výuky Bitcoin z Plan ₿ Network na místním počítači pomocí nástroje Docker, fiktivních klíčů a vlastních konfigurací úložiště.
+Tento návod obsahuje pokyny krok za krokem pro nastavení systému pro správu výuky Bitcoin z Plan ₿ Academy na místním počítači pomocí nástroje Docker, fiktivních klíčů a vlastních konfigurací úložiště.
 
 Pokud jste nerozuměli části výše, nezoufejte - tento návod je určen právě vám!
 
@@ -106,7 +106,7 @@ Jakmile jsou kontejnery spuštěny, přistupte k frontendu na adrese:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Poznámka: aplikace se automaticky znovu načte, pokud změníte zdrojové soubory.
 
@@ -142,7 +142,7 @@ pak znovu:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Přizpůsobení úložiště (volitelné)**
 

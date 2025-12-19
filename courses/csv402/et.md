@@ -1,13 +1,11 @@
 ---
-name: RGB protokoll, teooriast praktikasse
+name: RGB programmeerimine
 goal: Omandada RGB mõistmiseks ja kasutamiseks vajalikud oskused
-objectives: 
-
-  - Mõista RGB-protokolli põhimõisteid
-  - Kliendipoolse valideerimise ja Bitcoini kohustuste põhimõtete tundmaõppimine
-  - Õppige, kuidas RGB lepinguid luua, hallata ja üle kanda
-  - Kuidas kasutada RGB-ühilduvat Lightning-sõlme
-
+objectives:
+- Mõista RGB-protokolli põhimõisteid
+- Kliendipoolse valideerimise ja Bitcoini kohustuste põhimõtete tundmaõppimine
+- Õppige, kuidas RGB lepinguid luua, hallata ja üle kanda
+- Kuidas kasutada RGB-ühilduvat Lightning-sõlme
 ---
 # RGB-protokolli avastamine
 
@@ -45,17 +43,17 @@ Viimase osa juhivad teised kõnelejad, kes tutvustavad konkreetseid RGB-põhisei
 ---
 See koolituskursus kasvas algselt välja kahenädalasest edasijõudnute arenduslaagrist Viareggios, Toscanas, mille korraldas [Fulgur'Ventures] (https://fulgur.ventures/). Esimene nädal, mis keskendus Rustile ja SDK-dele, on leitav sellest teisest kursusest:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 Sellel kursusel keskendume stardilaagri teisele nädalale, mis keskendub RGB-le.
 
 **Nädal 1 - LNP402:**
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 **2. nädal - praegune koolitus CSV402:**
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 Suur tänu nende kursuste korraldajatele ja 3 õpetajale, kes osalesid:
 
@@ -107,7 +105,7 @@ Plokiahela ja hajutatud arvutuste maailmas võime eristada kahte põhilist parad
 
 Bitcoini kontekstis olete kahtlemata tuttav kaevandamise, detsentraliseerimise ja tehingute lõplikkuse põhimõtetega plokiahelas, samuti sellega, kuidas maksekanalid töötavad. RGBga võtame kasutusele uue paradigma nimega **Kliendipoolne valideerimine**, mis erinevalt plokiahela või Lightningist seisneb nutilepingu oleku üleminekute lokaalses (kliendipoolses) salvestamises ja valideerimises. See erineb teistest "DeFi" tehnikatest (_rollups_, _plasma_, _ARK_ jne) ka selle poolest, et kliendipoolne valideerimine tugineb plokiahelale, et vältida topeltkulutusi ja omada ajatemplisüsteemi, hoides samal ajal ahelaväliseid olekuid ja üleminekuid käsitlevat registrit ainult asjaomaste osalejate juures.
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 Hiljem tutvustame ka üht olulist terminit: mõistet "**stash**", mis viitab kliendipoolsete andmete kogumile, mis on vajalik lepingu seisundi säilitamiseks, kuna neid andmeid ei reprodutseerita globaalselt üle võrgu. Lõpuks vaatleme RGB, kliendipoolset valideerimist kasutava protokolli põhjendusi ja seda, miks see täiendab olemasolevaid lähenemisviise (plokiahela ja olekukanalid).
 
@@ -137,7 +135,7 @@ Riigi kanalid (nagu Lightning Network) on paremini skaleeritavad ja privaatsemad
 
 See uus paradigma on veelgi skaleeritavam ja konfidentsiaalsem, sest me ei saa mitte ainult integreerida nullsaladuse tõendamise tehnikat, vaid meil puudub ka tehingute globaalne graaf, sest kogu registrit ei ole kellegi käes. Teisest küljest tähendab see ka teatavat kompromissi detsentraliseerimise osas: nutilepingu emitendil võib olla keskne roll (nagu Ethereumis "lepingu kasutuselevõtja"). Erinevalt plokiahelast salvestate ja valideerite kliendipoolse valideerimise puhul siiski ainult need lepingud, millest olete huvitatud, mis parandab skaleeritavust, kuna ei ole vaja alla laadida ja kontrollida kõiki olemasolevaid olekuid.
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 #### 2. CAP teoreem (järjepidevus, kättesaadavus, partitsiooni taluvus)
 
@@ -158,13 +156,13 @@ Riigi kanalite süsteemil on kättesaadavuse ja jagunemise tolerantsus (kuna kak
 
 Selline süsteem nagu RGB pakub järjepidevust (iga osaleja valideerib oma andmed lokaalselt, ilma mitmetähenduslikkuseta) ja partitsioneerimistolerantsust (te säilitate oma andmeid iseseisvalt), kuid ei taga üldist kättesaadavust (igaüks peab veenduma, et tal on asjakohased ajalootükid olemas, ja mõned osalejad võivad midagi mitte avaldada või lõpetada teatud teabe jagamise).
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 #### 3. CIA trilemma (konfidentsiaalsus, terviklikkus, kättesaadavus)
 
 See kolmikprobleem tuletab meile meelde, et konfidentsiaalsust, terviklikkust ja kättesaadavust ei saa optimeerida üheaegselt. Blockchain, Lightning ja kliendipoolne valideerimine langevad sellesse tasakaalu erinevalt. Mõte on selles, et ükski süsteem ei suuda kõike pakkuda; on vaja kombineerida mitu lähenemisviisi (plokiahela ajatempli, Lightningi sünkroonne lähenemine ja kohalik valideerimine RGBga), et saada sidus pakett, mis pakub häid tagatisi igas mõõtmes.
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 ### Blokiahela roll ja jagamise mõiste
 
@@ -185,11 +183,11 @@ Seega võime ökosüsteemi ette kujutada järgmiselt:
 - **Lightning Network** kiirete ja konfidentsiaalsete tehingute jaoks, mis põhinevad endiselt Bitcoini plokiahela turvalisusel ja lõplikul arveldamisel;
 - RGB ja kliendipoolne **valideerimine**, et lisada keerulisemat aruka lepingu loogikat, ilma et see segaks plokiahelat või kaotaks konfidentsiaalsust.
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 Need kolm elementi moodustavad kolmnurkse terviku, mitte lineaarse virna "kiht 2", "kiht 3" jne. Lightning võib ühendada otse Bitcoiniga või olla seotud Bitcoini tehingutega, mis sisaldavad RGB-andmeid. Samamoodi võib "BiFi" kasutamine (rahandus Bitcoinis) moodustada koos plokiahelaga, Lightningiga ja RGBga vastavalt konfidentsiaalsuse, skaleeritavuse või lepinguloogika vajadustele.
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 ### Mõiste "olekute üleminekud"
 
@@ -197,7 +195,7 @@ Igas hajutatud süsteemis on valideerimismehhanismi eesmärk olla võimeline **m
 
 Et mõista, kuidas see valideerimine **Bitcoini** kontekstis toimib, ja üldisemalt, et mõista kliendipoolse valideerimise taga olevat filosoofiat, vaatame kõigepealt tagasi Bitcoini plokiahela mehhanismidesse, enne kui näeme, kuidas kliendipoolne valideerimine neist erineb ja milliseid optimeerimisi see võimaldab.
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 Bitcoini plokiahela puhul põhineb tehingu valideerimine lihtsal reeglil:
 
@@ -206,7 +204,7 @@ Bitcoini plokiahela puhul põhineb tehingu valideerimine lihtsal reeglil:
 - Nad valideerivad need tehingud, et kontrollida UTXO-komplekti (kõik kulutamata väljundid) õiget arengut;
 - Nad salvestavad need andmed (plokkide kujul), nii et ajalugu saab vajaduse korral uuesti esitada.
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 Sellel mudelil on siiski kaks peamist puudust:
 
@@ -214,7 +212,7 @@ Sellel mudelil on siiski kaks peamist puudust:
 - **Skaleeritavus**: kuna iga sõlme peab töötlema, kontrollima ja arhiveerima kõigi tehinguid, on tehingumahule ilmselge piir, mis on seotud eelkõige maksimaalse plokisuurusega (1 MB keskmiselt 10 minuti jooksul Bitcoini puhul, välja arvatud küpsised);
 - **Privaatsus**: kõik edastatakse ja salvestatakse avalikult (summad, sihtaadressid jne), mis piirab teabevahetuse konfidentsiaalsust.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 Praktikas toimib see mudel Bitcoini puhul baaskihina (kiht 1), kuid võib osutuda ebapiisavaks keerulisemate kasutusalade puhul, mis nõuavad samaaegselt suurt tehingu läbilaskevõimet ja teatavat konfidentsiaalsust.
 
@@ -224,7 +222,7 @@ Kliendipoolne valideerimine põhineb vastupidisel ideel: selle asemel, et nõuda
 - Kui isik saab vara (või mis tahes muu digitaalse vara), peab ta ainult teadma ja kontrollima operatsioonide ahelat (olekute üleminekuid), mis viivad selle varani, ja tõestama selle seaduslikkust;
 - See operatsioonide jada alates ***Genesis*** (algsest väljastamisest) kuni viimase tehinguni moodustab atsüklilise suunatud graafi (DAG) või killustiku, st osa kogu ajaloost.
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 Samal ajal, et ülejäänud võrk (või täpsemalt, aluseks olev kiht, näiteks Bitcoin) saaks lukustada lõpliku seisundi, ilma et ta näeks nende andmete üksikasju, tugineb kliendipoolne valideerimine ***commitment*** mõistele.
 
@@ -245,7 +243,7 @@ Konkreetselt on RGB-staatuste ülemineku tööpõhimõte järgmine:
 - Te genereerite selle ülemineku kohta krüptograafilise kohustuse ja sisestate selle Bitcoini tehingusse (neid kohustusi nimetatakse RGB-protokollis "*ankriteks*");
 - Vastaspool (vastuvõtja) otsib selle varaga seotud kliendipoolset ajalugu ja valideerib otsest järjepidevust, alates aruka lepingu tekkimisest kuni teie poolt edastatava üleminekuni.
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 Kliendipoolne valideerimine pakub kahte olulist eelist:
 
@@ -263,13 +261,13 @@ Sellises süsteemis nagu RGB saab mitme eri lepingute (või erinevate varade) ol
 
 Praktikas, kui see Bitcoini tehing on kinnitatud, "lukustab" see aluspõhiste lepingute seisundi jäädavalt, kuna plokiahelasse juba kantud hash'i muutmine muutub võimatuks.
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 ### Varamu kontseptsioon
 
 **Kast** on kliendipoolsete andmete kogum, mida osaleja peab tingimata säilitama, et säilitada RGB nutilepingu terviklikkus ja ajalugu. Erinevalt Lightning-kanalist, kus teatud olekuid saab ühisest teabest lokaalselt rekonstrueerida, ei reprodutseerita RGB-lepingu stash'i mujal: kui te selle kaotate, ei saa keegi seda teile taastada, sest te vastutate oma osa ajaloo eest. Seepärast peate RGB-s kasutusele võtma usaldusväärse varundamismenetlusega süsteemi.
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 ### Ühekordselt kasutatav pitsat: päritolu ja toimimine
 
@@ -287,11 +285,11 @@ RGB-märkide kahekordse kulutamise vältimiseks kasutame mehhanismi nimega "**Ko
 
 Ühekordsed pitsatid on 2016. aastal Peter Toddi poolt välja pakutud krüptograafilised primitiivid, mis sarnanevad füüsiliste pitserite kontseptsioonile: kui pitser on kord konteinerile asetatud, on seda võimatu avada või muuta ilma pitserit pöördumatult murdmata.
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 Selline lähenemisviis, mis on üle kantud digitaalsesse maailma, võimaldab tõestada, et sündmuste jada on tõepoolest toimunud ja et seda ei saa enam tagantjärele muuta. Ühekordse kasutusega pitsatid lähevad seega kaugemale lihtsast loogikast `hash + ajatempel`, lisades mõiste pitsat, mida saab sulgeda **kord**.
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 Selleks, et ühekordselt kasutatavad pitserid toimiksid, on vaja avaldamise tõendamiseks meediumit, mis suudab tõestada avaldamise olemasolu või puudumist ja mida on raske (kui mitte võimatu) võltsida, kui teave on juba levitatud. Seda rolli võib täita **blockchain** (nagu Bitcoin), nagu ka näiteks avaliku levikuga paberkandjal ajaleht. Idee on järgmine:
 
@@ -328,7 +326,7 @@ Järgnev võrdlus aitab seda põhimõtet mõista:
 - Alice määrab eelnevalt kindlaks pitseri avaldamise reeglid (millal, kus ja kuidas sõnum avaldatakse);
 - Bob nõustub või tunnistab neid tingimusi.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 **Seal Closing :**
 
@@ -336,7 +334,7 @@ Järgnev võrdlus aitab seda põhimõtet mõista:
 - Käitusajal sulgeb Alice pitseri, avaldades tegeliku sõnumi (tavaliselt _commitment_ kujul, nt hash);
 - Samuti annab see **tunnistuse** (krüptograafiline tõend), mis tõestab, et pitser on suletud ja tühistamatu.
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 **Seal Verification :**
 
@@ -347,11 +345,11 @@ Järgnev võrdlus aitab seda põhimõtet mõista:
 Protsessi võib kokku võtta järgmiselt:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -384,7 +382,7 @@ See unikaalsus on oluline kliendipoolse valideerimise jaoks: kui te valideerite 
 
 RGB-arukas leping võib vajada samaaegselt mitme ühekordse kasutusega pitseri (mitu UTXOd) kulutamist. Veelgi enam, üks Bitcoini tehing võib viidata mitmele erinevale lepingule, millest igaüks pitseerib oma riigi ülemineku. See nõuab **multi-commitment** mehhanismi, mis tõestab deterministlikult ja üheselt, et ükski kohustus ei eksisteeri dubleerivalt. Siinkohal tuleb RGBs mängu mõiste **anker**: spetsiaalne struktuur, mis ühendab Bitcoini tehingu ja ühe või mitu kliendipoolset kohustust (oleku üleminekut), millest igaüks võib kuuluda eri lepingule. Vaatleme seda mõistet lähemalt järgmises peatükis.
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 Projekti kaks peamist GitHubi repositooriumi (LNPBP organisatsiooni all) koondavad nende esimeses peatükis uuritud kontseptsioonide põhilisi rakendusi:
 
@@ -392,11 +390,11 @@ Projekti kaks peamist GitHubi repositooriumi (LNPBP organisatsiooni all) koondav
 - **kliendi_poolne_valideerimine** : Sisaldab Rusti primitiive kohalikuks valideerimiseks ;
 - **ühekordse_kasutuse_plommid**: Rakendab loogikat nende plommide turvaliseks määratlemiseks ja sulgemiseks.
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 Pange tähele, et need tarkvaraplokid on Bitcoini agnostilised; teoreetiliselt võib neid rakendada ka mis tahes muu avaldamise tõendusmaterjali puhul (teine register, ajakiri jne). Tegelikkuses tugineb RGB Bitcoinile, kuna see on usaldusväärne ja laiapõhjaline konsensus.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 ### Avalikkuse küsimused
 
@@ -481,11 +479,11 @@ See skeem on valitud RGB-arhitektuuriga ühilduvuse tõttu, kuid muud konfigurat
 
 Tuletame meelde, et _kasutatava pitseri_ määratlemine ei nõua tingimata ahelas toimuva tehingu avaldamist. Näiteks piisab sellest, kui Alice'il on juba kasutamata UTXO. Ta võib otsustada: "See _väljapunkt_ (juba olemasolev) on nüüd minu pitsat". Ta märgib seda lokaalselt (_kliendipoolselt_) ja kuni see UTXO on kulutatud, loetakse pitsat avatuks.
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 Päeval, mil ta tahab sulgeda pitseri (et anda märku mingist sündmusest või kinnitada mingi konkreetne sõnum), kulutab ta selle UTXO uues tehingus (seda tehingut nimetatakse sageli "_näitlustehinguks_" (ei ole seotud _segwit_ga, see on lihtsalt termin, mille me talle anname). See uus tehing sisaldab sõnumi _commitment_.
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 Pange tähele, et selles näites :
 
@@ -499,15 +497,15 @@ Seega on Alice'il konkreetne UTXO, millega on lokaalselt (kliendi poolel) seotud
 
 Alice teatab Bobile, et kui see UTXO on kulutatud, loetakse, et teatav sündmus on toimunud. Väljastpoolt vaadates näeme vaid Bitcoini tehingut, kuid Bob teab, et sellel kulutusel on varjatud tähendus.
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 Kui Alice veedab selle UTXO, sulgeb ta pitseri sõnumile, mis näitab tema uut võtit või lihtsalt vana võtme tühistamist. Sel viisil näevad kõik, kes jälgivad ahelas, et UTXO on kulutatud, kuid ainult need, kellel on täielik tõend, teavad, et tegemist on just PGP-võtme tühistamisega.
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 Selleks, et Bob või keegi teine asjaosaline saaks varjatud sõnumit kontrollida, peab Alice andma talle ahelavälise teabe.
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 Alice peab seega andma Bobile :
 
@@ -515,7 +513,7 @@ Alice peab seega andma Bobile :
 - Sõnum ise (näiteks uus PGP-võti) ;
 - Krüptograafiline tõend selle kohta, et sõnum oli tehingus osalenud (tuntud kui _extra transaction proof_ või _anchor_).
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 Kolmandatel isikutel ei ole seda teavet. Nad näevad ainult seda, et UTXO on kulutatud. Seega on konfidentsiaalsus tagatud.
 
@@ -524,12 +522,12 @@ Struktuuri selgitamiseks võtame protsessi kokku kahes tehingus:
 
 - **Tehing 1**: See sisaldab _pitsati määratlust_, st _väljundpunkti_, mida kasutatakse pitsatina.
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 - **Tehing 2**: Kulutab selle _väljapunkti_. Sellega suletakse pitser ja samas tehingus sisestatakse sõnumile _commitment_.
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 Seepärast nimetame teist tehingut "_tunnistustehinguks_".
 
@@ -539,7 +537,7 @@ Et illustreerida seda teise nurga alt, võime kujutada kahte kihti:
 - **Ülemine kiht (plokiahelat, avalik)**: kõik näevad tehingut ja teavad, et _väljapunkt_ on kulutatud;
 - **Madalam kiht (kliendipoolne, privaatne)**: ainult Alice (või asjaomane isik) teab, et see kulu vastab sellisele ja sellisele sõnumile, kasutades selleks krüptograafilist tõestust ja sõnumit, mida ta hoiab kohapeal.
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 Kuid pitseri sulgemisel tekib küsimus, kuhu tuleks sisestada _kohustus_
 
@@ -562,11 +560,11 @@ Olenemata meetodist (PkO, TxO2 jne.), saab _kohustust_ sisestada :
 - **Opret** (sõnum paigutatakse mittekasutatavasse väljundisse `OP_RETURN`) ;
 - **Tapret** (või _Taptweak_), mis tugineb taproot'ile, et sisestada taproot-võtme skriptiosasse kohustus, muutes seega avalikku võtit deterministlikult.
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 Siin on iga meetodi üksikasjad:
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 ***Sig tweak (lepingu sõlmimine) :***
 
@@ -627,7 +625,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 Viimane võimalus on kasutada **Taproot** (kasutusele võetud koos BIP341) koos *Tapret* skeemiga. *Tapret* on deterministliku kohustuse keerukam vorm, mis toob kaasa parandusi seoses jalajälje vähenemisega plokiahelas ja lepinguoperatsioonide konfidentsiaalsusega. Põhiidee seisneb selles, et kohustus on peidetud [taproot-tehingu] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` osasse.
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 Enne kui kirjeldame, kuidas kohustus sisestatakse taproot-tehingu sisse, vaatleme kohustuse **täpse vormi**, mis peab **imperatiivselt** vastama 64baidisele stringile [konstrueeritud](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) järgmiselt:
 
@@ -658,7 +656,7 @@ Vaatleme lähemalt mõlemat neist kahest stsenaariumist.
 
 Esimesel juhul alustame taproot väljundvõtmest (*Taproot Output Key*) `Q`, mis sisaldab ainult sisemist avalikku võtit `P` *(Internal Key*), ilma seotud skriptitee (*Script Path*) ilma sellega seotud skriptitee (*Script Path*) :
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 - "P": _Key Path Spend_ sisemine avalik võti.
@@ -667,7 +665,7 @@ Esimesel juhul alustame taproot väljundvõtmest (*Taproot Output Key*) `Q`, mis
 
 **Tapret** kulukohustuse lisamiseks lisage **Skripti tee kulutused** koos **üheselt mõistetava skriptiga** järgmiselt:
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 - t = tH_TWEAK(P || Script_root)` saab siis uueks tweak-faktoriks, sealhulgas **Script_root**.
@@ -679,7 +677,7 @@ Kaasamise ja ainulaadsuse tõestamine taproot-puus taandub siinkohal ühele sise
 
 Teine stsenaarium on seotud keerukama **Q taproot** väljundiga, mis sisaldab juba mitmeid skripte. Näiteks on meil 3 skriptist koosnev puu:
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 - tH_LEAF(x)` tähistab lehtskripti normaliseeritud märgistatud hash-funktsiooni.
@@ -687,7 +685,7 @@ Teine stsenaarium on seotud keerukama **Q taproot** väljundiga, mis sisaldab ju
 
 Tapret'i kohustuse lisamiseks peame lisama *kulutamata skripti* puu esimesele tasemele, nihutades olemasolevad skriptid ühe taseme võrra allapoole. Visuaalselt muutub puu :
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 - tHABC` tähistab ülemise taseme rühmituse "A, B, C" märgistatud hash'i.
@@ -701,11 +699,11 @@ Taproot-reeglite kohaselt tuleb iga haru/leht kombineerida leksikograafilise has
 
 Visuaalne näide esimese juhtumi kohta (`tHABC < tHT`):
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 Näide teise juhtumi kohta (tHABC > tHT):
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 #### Optimeerimine koos nonce'iga
 
@@ -806,7 +804,7 @@ Mitme protokolliga seotud kohustused (MPC) on mõeldud kahe vajaduse rahuldamise
 
 Konkreetselt öeldes kuulub iga _üleminekupakett_ konkreetsele lepingule. Kogu see teave sisestatakse **MPC-puusse**, mille juur (`mpc::Root`) on seejärel uuesti hashitud, et saada `mpc::Commitment`. See viimane hash pannakse Bitcoini tehingusse (_tunnistustehing_) vastavalt valitud deterministlikule meetodile.
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 #### MPC root Hash
 
@@ -824,7 +822,7 @@ kus :
 - cofactor` (16 bitti, Little Endian) on parameeter, mida kasutatakse igale lepingule määratud positsioonide unikaalsuse edendamiseks puu sees;
 - `mpc::Root` on *MPC Tree* juur, mis arvutatakse järgmises jaotises kirjeldatud protsessi kohaselt.
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 #### MPC puu ehitus
 
@@ -909,7 +907,7 @@ Selle illustreerimiseks kujutame ette näidet, kus "C=3" (kolm lepingut). Nende 
 
 Lõpptulemus on **mpc::Root**, seejärel `mpc::Commitment`.
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 #### MPC võlli kontroll
 
@@ -917,7 +915,7 @@ Kui tõendaja soovib tagada, et leping `c_i` (ja selle `BundleId`) sisaldub lõp
 
 Näites vajab `c_2` verifitseerija ainult vahepealset hashi (`tH_MPC_LEAF(D)`), kahte `tH_MPC_BRANCH(...)`, `pos(c_2)` positsioonitõendit ja `cofactor` väärtust. Seejärel saab ta lokaalselt rekonstrueerida juure, seejärel arvutada uuesti `mpc::Commitment` ja võrrelda seda Bitcoini tehingus (`Opret` või `Tapret` raames) kirja panduga.
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 See mehhanism tagab, et :
 
@@ -986,7 +984,7 @@ Kolmas väli, **ETP**, sõltub kasutatavast kulukohustuse tüübist. Kui kohustu
 
 See lisatõend on oluline, sest erinevalt `Opret`ist on `Tapret` kohustus integreeritud taproot-skripti struktuuri, mis nõuab taproot-puu osa paljastamist, et õigesti kinnitada *kohustuse* asukohta.
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 **Ankurdajad** sisaldavad seega kogu teavet, mis on vajalik Bitcoini kohustuse kinnitamiseks RGB kontekstis. Nad näitavad nii asjaomast tehingut (`Txid`) kui ka lepingu positsioneerimise tõestust (`MPC Proof`), hallates samal ajal täiendavat tõestust (`ETP`) `Tapret` puhul. Sel viisil kaitseb Anchor ahelavälise oleku terviklikkust ja ainulaadsust, tagades, et sama tehingut ei saa ümber tõlgendada teiste lepinguliste andmete jaoks.
 
@@ -1003,7 +1001,7 @@ Selles peatükis käsitleme :
 
 Tegelikkuses on tehniline rakendamine jagatud mitme spetsiaalse Rusti _crates_ vahel (_client_side_validation_, _commit-verify_, _bp_core_ jne). Põhimõttelised mõisted on olemas:
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 Järgmises peatükis vaatleme RGB puhtalt ahelavälise komponendi, nimelt lepinguloogikat. Näeme, kuidas RGB lepingud, mis on korraldatud osaliselt replitseeritud _lõputute olekuga masinatena_, saavutavad palju suurema väljendusrikkuse kui Bitcoini skriptid, säilitades samal ajal oma andmete konfidentsiaalsuse.
 
@@ -1021,7 +1019,7 @@ RGB eesmärk on pakkuda infrastruktuuri arukate lepingute rakendamiseks Bitcoini
 
 Selline automatiseerimine tõstatab küsimuse detsentraliseerimisest: kuidas saame vabaneda tsentraliseeritud registrist (nt keskne platvorm või andmebaas), et hallata omandiõigust ja lepingute täitmist? Algne idee, mille RGB on üles võtnud, on pöörduda tagasi omandivormi, mida tuntakse kui "esitajainstrumente". Ajalooliselt anti teatavad väärtpaberid (võlakirjad, aktsiad jne) välja esitaja vormis, mis võimaldas igaühel, kes dokumenti füüsiliselt valdas, oma õigusi maksma panna.
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 RGB kohaldab seda kontseptsiooni digitaalsele maailmale: õigused (ja kohustused) on kapseldatud andmetesse, mida manipuleeritakse ahelaväliselt, ning nende andmete staatuse kinnitavad osalejad ise. See võimaldab a priori palju suuremat konfidentsiaalsust ja sõltumatust kui muudes avalikel registritel põhinevates lähenemisviisides.
 
@@ -1033,7 +1031,7 @@ Nutikat lepingut RGB-s võib vaadelda kui riigimasinat, mis on määratletud :
 - **State**, st lepingu praegust konfiguratsiooni kajastav teabekogum;
 - **Ülesandeloogika** (reeglistik), mis kirjeldab, millistel tingimustel ja kelle poolt saab olekut muuta.
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 Oluline on mõista, et need lepingud ei piirdu pelgalt žetoonide ülekandmisega. Need võivad kehastada väga erinevaid rakendusi: alates traditsioonilistest varadest (märgid, aktsiad, võlakirjad) kuni keerulisemate mehaanikateni (kasutusõigused, äritingimused jne). Erinevalt teistest plokiahelatest, kus lepingukood on kõigile kättesaadav ja täidetav, on RGB lähenemisviisiga lepingule juurdepääs ja teadmised lepingust jaotatud osalejatele ("***lepingu osalejad***"). Rolle on mitu:
 
@@ -1071,7 +1069,7 @@ RGB universumis on ***Lepinguoperatsioon*** mis tahes sündmus, mis muudab lepin
 - Me kinnistame muudatuse uue _commitment_ kaudu plokiahelas, sulgedes ühe _üksikasutusplommi_ ja luues teise ;
 - Asjaomased õiguste omanikud kinnitavad lokaalselt (*kliendipoolselt*), et üleminek vastab *skeemile* ja et sellega seotud Bitcoini tehing on registreeritud ahelas.
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 Lõpptulemus on ajakohastatud leping, nüüd teistsuguse riigiga. See üleminek ei nõua, et kogu Bitcoini võrgustik oleks üksikasjadega seotud, sest plokiahelas salvestatakse ainult väike krüptograafiline sõrmejälg (_commitment_). Ühekordsete pitserite jada takistab riigi topeltkulutamist või topeltkasutamist.
 
@@ -1084,7 +1082,7 @@ Et seda paremini mõista, algab RGB nutikas leping **Genesis**, kõige esimesest
 - Krooniline järjekord on tagatud iga ülemineku lisamisega Bitcoini ankurdusesse, mis on ajamärgistatud ja muutumatu tänu konsensusele Proof-of-Work'i abil;
 - Kui enam ühtegi toimingut ei toimu, saavutatakse **Terminaalseis**: lepingu viimane ja täielik seisund.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 Selline DAG-topoloogia (lihtsa lineaarse ahela asemel) kajastab võimalust, et lepingu eri osad võivad areneda paralleelselt, kui nad ei ole omavahel vastuolus. RGB hoolitseb seejärel vastuolude vältimise eest, kontrollides *kliendipoolselt* iga osalejat.
 
@@ -1117,19 +1115,19 @@ Riigi ülemineku protsessi (mis on üks põhilistest **Lepinguoperatsioonidest**
 
 Alice'il on ***stash RGB*** lokaalselt valideeritud andmetega (*kliendipoolne*). See peidik viitab ühele tema UTXO-le Bitcoinis. See tähendab, et neis andmetes sisalduv _pitsatimääratlus_ osutab Alice'ile kuuluvale UTXO-le. Idee on võimaldada tal kanda teatud varaga (nt RGB-märkidega) seotud digitaalsed õigused üle Bobile.
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 **Bobil on ka UTXOd :**
 
 Bobil seevastu on vähemalt üks oma UTXO, millel puudub otsene seos Alice'i omaga. Juhul, kui Bobil ei ole UTXO-d, on siiski võimalik teha üleandmine talle, kasutades *tunnistustehingut* ise: selle tehingu väljund sisaldab siis kohustust (_commitment_) ja seostab uue lepingu omandiõiguse kaudselt Bobiga.
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 **Uue vara ehitamine (*Uus riik*) :**
 
 Bob saadab Alice'ile ***arve*** kujul kodeeritud teabe (arve koostamisest räägime lähemalt hilisemates peatükkides), paludes tal luua uus lepingureeglitele vastav riik. See olek sisaldab uut *sõltumatuse määratlust*, mis osutab ühele Bobi UTXO-le. Sel viisil antakse Bobile selles uues olekus määratletud varade, näiteks teatud hulga RGB-märkide omandiõigus.
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 **Tehingu näidise ettevalmistamine:**
 
@@ -1147,13 +1145,13 @@ Enne tehingu edastamist saadab Alice Bobile ***Consignment***, mis sisaldab kõi
 
 Kui Bob on rahul, võib ta anda oma heakskiidu (näiteks allkirjastades *tellimuse*). Seejärel võib Alice edastada ettevalmistatud näidistehingu. Pärast kinnitamist sulgeb see Alice'ile varem kuulunud pitser ja vormistab Bobi omandiõiguse. Topeltkulutuste vastane turvalisus põhineb siis samal mehhanismil nagu Bitcoinis: UTXO on kulutatud, mis tõestab, et Alice ei saa seda enam uuesti kasutada.
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 Uus olek viitab nüüd Bobi UTXO-le, andes Bobile varem Alice'ile kuulunud omandiõiguse. Bitcoini väljundist, kus RGB-andmed on ankurdatud, saab tühistamatu tõend omandiõiguse ülemineku kohta.
 
 Näide minimaalsest DAG-st (*Directed Acyclic Graph*), mis koosneb kahest lepingulisest operatsioonist (**Genesis**, seejärel ***State Transition***), võib illustreerida, kuidas RGB riik (*kliendipoolne* kiht, punase värviga) ühendab Bitcoini plokiahelat (*Commitment* kiht, oranži värviga).
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 See näitab, et Genesis määratleb pitseri (*pitseri määratlus*), seejärel *State Transition* sulgeb selle pitseri, et luua uus pitser teises UTXOs.
 
@@ -1167,7 +1165,7 @@ Sellega seoses on siinkohal mõned terminoloogilised meeldetuletused:
 
 Eelmises peatükis kirjeldatud **riigi üleminekud** on peamine lepingu toimimise vorm. Nad viitavad ühele või mitmele eelmisele olekule (Genesis'ist või mõnest teisest olekute üleminekust) ja ajakohastavad need uueks olekuks.
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 See diagramm näitab, kuidas **State Transition Bundle'is** saab ühe näidistehingu käigus sulgeda mitu pitserit, avades samal ajal uusi pitsereid. RGB-protokolli huvitav omadus on tõepoolest selle võime skaleeruda: mitu üleminekut saab koondada üleminekupaketiks, kusjuures iga koondamine on seotud **MPC-puu** konkreetse lehega (unikaalse paketi identifikaatoriga). Tänu **Deterministliku Bitcoin Commitment** (DBC) mehhanismile sisestatakse kogu teade `Tapret` või `Opret` väljundisse, sulgedes samal ajal eelmised pitsatid ja määratledes võimalusel uued. **Anchor** on otsene ühendus plokiahelasse salvestatud kohustuse ja kliendipoolse valideerimisstruktuuri (*kliendipoolne*) vahel.
 
@@ -1220,7 +1218,7 @@ Riigi üleminekut saab seega kasutada vara omandiõiguse üleandmiseks ühelt is
 
 Nendest operatsioonidest kutsutakse **Genesis** ja **State Extension** mõnikord "*State Generation operatsioonideks*", sest need loovad uusi olekuid, ilma et neid kohe sulgeksid. See on väga oluline punkt: **Genesis** ja **State Extension** ei hõlma pitseri sulgemist. Pigem määratlevad nad uue pitseri, mis tuleb seejärel kulutada järgneva **State Transition** abil, et olla tõeliselt kinnitatud plokiahela ajaloos.
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 Lepingu **aktiivne seisund** on sageli määratletud kui tehingute ajaloost (DAG) tulenevate viimaste seisundite kogum, alustades Genesis ja järgides kõiki ankruteid Bitcoini plokiahelas. Kõiki vanu seisundeid, mis on juba vananenud (st seotud kulutatud UTXOdega), ei loeta enam aktiivseks, kuid need on endiselt olulised ajaloo järjepidevuse kontrollimiseks.
 
@@ -1246,7 +1244,7 @@ Kuna tegemist on lepingu esimese tehinguga, ei viita Genesis ühelegi eelmisele 
 
 Tehniliselt võttes viitab oleku laiendus *Redeemile* (teatud tüüpi RGB-sisend), mis vastab eelnevalt (näiteks Genesis või mõnes teises oleku üleminekus) määratletud *Valencyle*. See määratleb uue pitseri, mis on kättesaadav isikule või seisundile, kes sellest kasu saab. Selleks, et see pitser jõustuks, peab see olema kulutatud järgneva olekute üleminekuga.
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 Näiteks: Genesis loob väljaandmise õiguse (*Valency*). Seda saab kasutada volitatud tegutseja, kes seejärel ehitab riigi laienduse :
 
@@ -1355,7 +1353,7 @@ RGB-lepingut identifitseeritakse seejärel `ContractId` abil, mis on tuletatud G
     - **avalik** omandis olevad riigid,
     - **privaatse** omandiõigusega riigid.
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 *Global State* sisaldub otse *Contract Operation* ühe plokina. *Omaned States* on määratletud igas *Assignment'is* koos *Seal Definition'iga*.
 
@@ -1417,7 +1415,7 @@ Seda globaalset olekut saab paigutada avalikele ressurssidele (veebilehed, IPFS,
 
 Üks RGB suuri tugevusi on võimalus soovi korral *Seal Definition* ja *Owned State* väljad paljastada (*reveal*) või varjata (*conceal*). See pakub võimsat kombinatsiooni konfidentsiaalsuse ja selektiivsuse vahel. Näiteks saab tõestada, et üleminek on kehtiv, ilma kõiki andmeid avalikustamata, andes avalikustatud versiooni isikule, kes peab seda valideerima, samas kui kolmandad isikud näevad ainult varjatud versiooni (hash). Praktikas arvutatakse ülemineku `OpId` alati *salajaste* andmete põhjal.
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 #### Pitsati määratlus
 
@@ -1435,7 +1433,7 @@ Seda globaalset olekut saab paigutada avalikele ressurssidele (veebilehed, IPFS,
 
 Pitsatimääratluse *varjatud* vorm on nende 4 välja ühendamise SHA256-hash (märgistatud) koos RGB-le omase märgisega.
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 #### Omandis olevad riigid
 
@@ -1614,7 +1612,7 @@ See piirang tagab :
 
 **Omanik** seevastu tugineb täielikult Bitcoini turvalisusele. UTXO privaatvõtme omamine tähendab, et kontrollitakse võimalust käivitada uus üleminek (ühekordse pitseri sulgemine). Seega, isegi kui keegi saab andmeid näha või valideerida, ei saa ta seisundit muuta, kui ta ei oma asjaomast UTXO-d.
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 Selline lähenemisviis piirab klassikalisi haavatavusi, mis esinevad keerukamates plokiahelates (kus kogu aruka lepingu kood on avalik ja igaühe poolt muudetav, mis on mõnikord viinud häkkimiseni). RGB-s ei saa ründaja lihtsalt ahelas oleva olekuga suhelda, kuna õigust olekuga tegutseda (*omand*) kaitseb Bitcoini kiht.
 
@@ -1822,7 +1820,7 @@ Lightning Network on Bitcoini detsentraliseeritud maksekanalite (või _state cha
 
 Lisateabe saamiseks selle kohta, kuidas Lightning töötab, soovitan teil läbida selle teise kursuse:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Mitme protokolliga seotud kohustused - MPC
 
@@ -1950,7 +1948,7 @@ Kokkuvõttes koosneb iga leping :
 - **Liides**, mis pakub semantilist kihti nii rahakottidele kui ka inimkasutajatele, selgitades tehingute lugemist ja täitmist;
 - **Rakendusliides**, mis katab lõhe äriloogika ja esitusviisi vahel, tagamaks, et lepingu määratlus on kooskõlas kasutajakogemusega.
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 Oluline on märkida, et selleks, et rahakott saaks hallata RGB vara (olgu see siis asendatav sümboolne märk või mis tahes õigus), peavad kõik need elemendid olema kokku pandud: *Skeem*, *Liides*, *Liidese rakendamine* ja *Genesis*. See edastatakse ***lepingu saadetise*** kaudu, st andmepaketi kaudu, mis sisaldab kõike, mis on vajalik kliendipoolse lepingu valideerimiseks.
 
@@ -1996,7 +1994,7 @@ Skeemi võib võrrelda "klassiga" objektorienteeritud programmeerimises (OOP). �
 - Reeglid, mis määravad kindlaks, kuidas lepingu sisemised andmed võivad areneda (näiteks kas väli on muutuv või kumulatiivne);
 - Kehtivaks peetavate toimingute jadad: näiteks üleminekute järjekord, mida tuleb järgida, või loogiliste tingimuste kogum, mis peab olema täidetud.
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 Kui vara *väljaandja* RGBs avaldab lepingu, esitab ta sellega seotud Genesis ja Schema. Kasutajad või rahakotid, kes soovivad varaga suhelda, hangivad selle skeemi, et mõista lepingu loogikat ja hiljem kontrollida, et üleminekud, milles nad osalevad, on seaduslikud.
 
@@ -2059,7 +2057,7 @@ Enne koodiga tutvumist tasub meenutada RGB skeemi üldist struktuuri. Seal on ri
 - **Strict Type System**, mida kasutatakse andmete kirjeldamiseks ja valideerimiseks;
 - **Valideerimisskriptid** (käivitatakse AluVMi kaudu).
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 Allpool olev kood näitab Rusti skeemi täielikku määratlust. Me kommenteerime seda osade kaupa, järgides allpool olevaid märkusi (1) kuni (9):
 
@@ -2224,7 +2222,7 @@ Erinevalt skeemist, mis on puhtalt deklaratiivne ja kompileeritud binaarfailiks,
 - Juurdepääs iga välja nimedele ja väärtustele, et neid saaks kuvada (nt tokeni puhul saada teada selle ticker, maksimaalne summa jne);
 - Tõlgendada ja konstrueerida lepinguoperatsioone (Genesis, State Transition või State Extension), seostades andmeid arusaadavate nimedega (nt teha ülekanne, määrates selgelt "summa", mitte binaarset identifikaatorit).
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 Tänu liidesele saate näiteks rahakotis kirjutada koodi, mis väljadega manipuleerimise asemel manipuleerib otse selliseid silte nagu "žetoonide arv", "vara nimi" jne. Nii muutub lepingu haldamine intuitiivsemaks. Sel viisil muutub lepingu haldamine intuitiivsemaks.
 
@@ -2252,7 +2250,7 @@ Kasutajaliidest saab muuta või täiendada pärast vara väljaandmist, ilma et p
 
 Sama leping võib olla avatud erinevate liideste kaudu, mis on kohandatud erinevatele vajadustele: lihtne liides lõppkasutajale, teine keerukam liides emitendile, kes peab haldama keerulisi konfiguratsioonitoiminguid. Rahakott saab siis valida, millist liidest importida, sõltuvalt tema kasutusalast.
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 Praktikas, kui rahakott hangib RGB-lepingu (faili `.rgb` või `.rgba` kaudu), impordib ta ka sellega seotud liidese, mis samuti kompileeritakse. Käivitamise ajal võib rahakott näiteks :
 
@@ -2642,7 +2640,7 @@ Seejärel peab Bob välja otsima lepingu andmed, millest ta on huvitatud. Need a
 - **Liides**, mis määratleb esitluskihi (väljade nimed, juurdepääsetavad operatsioonid);
 - **Liidese rakendamine**, mis seob konkreetselt skeemi ja liidese.
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 Kogumaht on sageli mõne kilobaidi suurune, kuna iga komponent kaalub tavaliselt vähem kui 200 baiti. Seda saadetist võib olla võimalik edastada ka Base58-s, tsensuurikindlate kanalite kaudu (näiteks Nostr või Lightning Network'i kaudu) või QR-koodina.
 
@@ -2680,7 +2678,7 @@ RGB-arvete struktuuri vaatleme lähemalt selle peatüki lõpus.
 
 Genereeritud arve (nt URLina: `rgb:2WBcas9.../RGB20/100+utxob:...`) sisaldab kogu teavet, mida Alice vajab ülekande ettevalmistamiseks. Nagu saadetise puhul, saab seda kompaktselt kodeerida (Base58 või muus formaadis) ja saata sõnumirakenduse, e-posti, Nostr...
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 #### 6) Tehingu ettevalmistamine Alice'i poolel
 
@@ -2723,7 +2721,7 @@ bob$ rgb accept consignment.rgb
 sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 #### 9) Võimalus: Bob saadab kinnituse tagasi Alice'ile (*maksekviitung*)
 
@@ -2749,13 +2747,13 @@ alice$ rgb check <sig>
 alice$ wallet sign —publish tx.psbt
 ```
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 Pärast kinnitamist tähistab see tehing ülekande lõpetamist. Bobist saab vara uus omanik: tal on nüüd omandatud riik, mis osutab tema kontrolli all olevale UTXO-le, mida tõestab kohustuse olemasolu tehingus.
 
 Kokkuvõttes on siin täielik ülekandeprotsess:
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 ### RGB-ülekannete eelised
 
@@ -2786,7 +2784,7 @@ Enne arvete üksikasjalikumat vaatamist on siin kokkuvõtlik skeem RGB-ülekande
 - Alice avaldab tehingu Bitcoini võrgus;
 - Tehingu kinnitamine muudab ülekande ametlikuks.
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 Ülekanne illustreerib RGB-protokolli kogu võimsust ja paindlikkust: privaatne vahetus, mis on kliendi poolel valideeritud, minimaalselt ja diskreetselt ankurdatud Bitcoini plokiahelas ning säilitab protokolli parima turvalisuse (puudub topeltkulutamise oht). See teeb RGB-st paljulubava ökosüsteemi väärtuse ülekandmiseks, mis on konfidentsiaalsem ja skaleeritavam kui ahelas programmeeritavad plokiahelad.
 
@@ -2938,7 +2936,7 @@ rgb
 
 Käivitades `rgb` (ilma argumentideta), kuvatakse nimekiri olemasolevatest alamkäskudest, näiteks `liidesed`, `skeem`, `import`, `eksport`, `väljastus`, `arve`, `ülekanne` jne. Saate muuta lokaalset salvestuskataloogi (peidik, mis sisaldab kõiki logisid, skeeme ja rakendusi), valida võrgu (testnet, mainnet) või konfigureerida oma Electrumi serverit.
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 #### Esimene ülevaade kontrollide kohta
 
@@ -2966,7 +2964,7 @@ Seejärel importige valitud kasutajaliides:
 rgb import interfaces/RGB20.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 Teisalt öeldakse meile, et ühtegi skeemi ei ole veel tarkvarasse imporditud. Samuti ei ole lepingut kätkesse pandud. Selle nägemiseks käivitage käsk :
 
@@ -2980,7 +2978,7 @@ Seejärel saate kloonida repositooriumi teatud skeemide saamiseks:
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 See repositoorium sisaldab oma kataloogis `src/` mitmeid Rust-faile (näiteks `nia.rs`), mis määratlevad skeemid (NIA nagu "*Non Inflatable Asset*", UDA nagu "*Unique Digital Asset*" jne). Kompileerimiseks saab seejärel käivitada :
 
@@ -2999,7 +2997,7 @@ Nüüd saab skeemi importida `rgb`-sse:
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 See lisab selle kohalikku varandusse. Kui käivitame järgmise käsu, näeme, et skeem ilmub nüüd:
 
@@ -3031,8 +3029,8 @@ Siin on näide YAML-faili loomiseks:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3046,7 +3044,7 @@ seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804
 amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 Seejärel käivitage lihtsalt käsk :
 
@@ -3054,7 +3052,7 @@ Seejärel käivitage lihtsalt käsk :
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 Minu puhul on unikaalne skeemi identifikaator (mis tuleb sulgeda jutumärkidesse) `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` ja ma ei ole sisestanud ühtegi väljastajat. Nii et minu tellimus on :
 
@@ -3074,15 +3072,15 @@ CLI vastab, et uus leping on väljastatud ja lisatud varandusse. Kui me sisestam
 rgb contracts
 ```
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
-Seejärel kuvatakse järgmise käsuga globaalsed olekud (nimi, ticker, pakkumine...) ja nimekiri Owned States, st eraldised (näiteks 1 miljon `PBN` tokenit, mis on määratletud UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Seejärel kuvatakse järgmise käsuga globaalsed olekud (nimi, ticker, pakkumine...) ja nimekiri Owned States, st eraldised (näiteks 1 miljon `Plan ₿ Academy` tokenit, mis on määratletud UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
 ```
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 ### Eksport, import ja valideerimine
 
@@ -3092,7 +3090,7 @@ Et jagada seda lepingut teiste kasutajatega, saab selle eksportida peidikust :
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 Faili `myContractPBN.rgb` saab edasi anda teisele kasutajale, kes saab selle lisada oma varamusse käsuga :
 
@@ -3116,7 +3114,7 @@ Meeldetuletuseks, et varamu on skeemide, liideste, rakenduste ja lepingute (Gene
 rgb dump
 ```
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 See loob kausta kogu varanduse üksikasjadega.
 
@@ -3223,7 +3221,7 @@ RGB-vara kandva Lightning-kanali loomiseks on vaja kahte elementi:
 
 Bitcoini mõistes peab rahastamistehing olema olemas, et määratleda viide UTXO, isegi kui see sisaldab ainult väikest kogust sati (see on lihtsalt küsimus iga väljundi tulevaste kohustuste tehingute jäämine üle tolmu piiri kõik sama). Näiteks võib Alice otsustada anda 10k satsit ja 500 USDT (väljastatud RGB varana). Rahastamistehingule lisame kohustuse (`Opret` või `Tapret`), mis ankurdab RGB-staatuse ülemineku.
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 Kui rahastamistehing on ette valmistatud (kuid veel mitte edastatud), luuakse kulukohustustehingud, nii et kumbki pool saab kanali igal ajal ühepoolselt sulgeda. Need tehingud sarnanevad Lightning'i klassikaliste kohustustehingutega, kuid me lisame täiendava väljundi, mis sisaldab RGB-ankrit (OP_RETURN või Taproot), mis on seotud uue oleku üleminekuga.
 
@@ -3231,11 +3229,11 @@ Seejärel liigub RGB olekuga üleminek varad 2/2 multisig rahastamisest kulukohu
 
 Alice'i poolt allkirjastatud ja Bobile saadetud kohustustehing näeks seega välja järgmiselt:
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 Ja sellega kaasnev kohustustehing, mille Bob on allkirjastanud ja Alice'ile saatnud, näeb välja selline:
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 ### Kanali uuendamine
 
@@ -3245,27 +3243,27 @@ Näiteks kui Alice kannab kanalis Bobile üle 30 USDT, kajastab uus olek ülemin
 
 Alice'i allkirjastatud kohustustehing, mida Bob on valmis levitama:
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 Kohustustehing, mille on allkirjastanud Bob, valmis Alice'i poolt levitamiseks:
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 ### HTLC juhtimine
 
 Tegelikkuses võimaldab Lightning Network makseid suunata mitme kanali kaudu, kasutades HTLC-d (*Hashed Time-Locked Contracts*). Sama kehtib ka RGB puhul: iga kanali kaudu toimuva makse puhul lisatakse tehingu sooritamisele HTLC väljund ja selle HTLC-ga seotud RGB eraldus. Seega, kes iganes kulutab HTLC-väljundi (tänu saladusele või pärast ajaluku lõppemist), saab tagasi nii satsid kui ka sellega seotud RGB-vara. Teisest küljest on ilmselgelt vaja, et teil oleks piisavalt raha teel nii satside kui ka RGB varade osas.
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 Seetõttu tuleb RGB toimimist Lightning'ile vaadelda paralleelselt Lightning-võrgu enda toimimisega. Kui soovite selles teemas sügavamalt süveneda, siis soovitan kindlasti vaadata seda teist põhjalikku koolituskursust:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB koodikaart
 
 Lõpuks, enne järgmise jaotise juurde minekut, tahaksin anda teile ülevaate RGB-s kasutatavast koodist. Protokoll põhineb Rusti raamatukogudel ja avatud lähtekoodiga spetsifikatsioonidel. Siin on ülevaade peamistest repositooriumidest ja kastidest:
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 #### Kliendipoolne valideerimine
 
@@ -3578,7 +3576,7 @@ Selleks, et kompileerida ja installeerida `rgb-lightning-node` binaarsüsteemi, 
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
 ```
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 - Valik `--recurse-submodules` kloonib ka vajalikud alamseadmed (sealhulgas modifitseeritud versiooni `rust-lightning`);
@@ -3590,7 +3588,7 @@ Projekti juurest käivitage järgmine käsk, et kompileerida ja paigaldada binaa
 cargo install --locked --debug --path .
 ```
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 - `--locked` tagab, et sõltuvuste versioonist peetakse rangelt kinni;
@@ -3624,7 +3622,7 @@ ID-d ja URL-d sisestatakse, kui deemon on API kaudu _avatud_. Sellest rohkem hil
 
 Lihtsaks kasutamiseks on olemas skript `regtest.sh`, mis käivitab automaatselt Dockeri kaudu hulga teenuseid: `bitcoind`, `electrs` (indexer), `rgb-proxy-server`.
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 See võimaldab teil käivitada kohaliku, isoleeritud, eelnevalt konfigureeritud keskkonna. See loob ja hävitab konteinerid ja andmekataloogid igal taaskäivitamisel. Alustame käivitades :
 
@@ -3639,7 +3637,7 @@ See skript on :
 - Käivitage regtestis `bitcoind`, samuti indekseerija `electrs` ja `rgb-proxy-server` ;
 - Oodake, kuni kõik on kasutusvalmis.
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 Järgnevalt käivitame mitu RLN-sõlme. Käivitage eraldi kestades näiteks (3 RLN-sõlme käivitamiseks) :
 
@@ -3655,7 +3653,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network regtest
 ```
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 - Parameeter `--network regtest` näitab regtest-konfiguratsiooni kasutamist;
@@ -3677,7 +3675,7 @@ curl -X POST http://localhost:3001/address
 
 Vastus annab teile aadressi.
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 "Bitcoind"-reeglites kaevandame mõned bitcoinid. Käivita :
 
@@ -3685,7 +3683,7 @@ Vastus annab teile aadressi.
 ./regtest.sh mine 101
 ```
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 Saatke raha eespool loodud sõlme aadressile:
 
@@ -3693,7 +3691,7 @@ Saatke raha eespool loodud sõlme aadressile:
 ./regtest.sh sendtoaddress <address> <amount>
 ```
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 Seejärel kaevandage plokk tehingu kinnitamiseks:
 
@@ -3701,7 +3699,7 @@ Seejärel kaevandage plokk tehingu kinnitamiseks:
 ./regtest.sh mine 1
 ```
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 ### Testneti käivitamine (ilma Dockerita)
 
@@ -3748,7 +3746,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/createutxos
 ```
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 Loomulikult saate järjekorda kohandada. Tehingu kinnitamiseks kaevandame :
 
@@ -3756,7 +3754,7 @@ Loomulikult saate järjekorda kohandada. Tehingu kinnitamiseks kaevandame :
 ./regtest.sh mine 1
 ```
 
-Nüüd saame luua RGB vara. Käsk sõltub sellest, millist tüüpi vara soovite luua ja millised on selle parameetrid. Siinkohal loome NIA (*Non Inflatable Asset*) tokeni nimega "PBN", mille varu on 1000 ühikut. `precision` võimaldab teil määrata ühikute jagatavuse.
+Nüüd saame luua RGB vara. Käsk sõltub sellest, millist tüüpi vara soovite luua ja millised on selle parameetrid. Siinkohal loome NIA (*Non Inflatable Asset*) tokeni nimega "Plan ₿ Academy", mille varu on 1000 ühikut. `precision` võimaldab teil määrata ühikute jagatavuse.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3764,14 +3762,14 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
 ```
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 Vastus sisaldab äsja loodud vara ID-d. Ärge unustage seda identifikaatorit. Minu puhul on see :
 
@@ -3779,7 +3777,7 @@ Vastus sisaldab äsja loodud vara ID-d. Ärge unustage seda identifikaatorit. Mi
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 Seejärel saate selle üle kanda ahelas või eraldada selle Lightning-kanalis. Just seda teeme järgmises jaotises.
 
@@ -3799,9 +3797,9 @@ Käsk tagastab minu sõlme nr 2 avaliku võtme:
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
 ```
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
-Järgmisena avame kanali, määrates vastava vara (`PBN`). Käsk `/openchannel` võimaldab määrata kanali suuruse satoshis ja valida, kas lisada RGB-vara. See sõltub sellest, mida soovite luua, kuid minu puhul on käsk :
+Järgmisena avame kanali, määrates vastava vara (`Plan ₿ Academy`). Käsk `/openchannel` võimaldab määrata kanali suuruse satoshis ja valida, kas lisada RGB-vara. See sõltub sellest, mida soovite luua, kuid minu puhul on käsk :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3830,7 +3828,7 @@ Lisateavet leiate siit:
 - `asset_id` : kanaliga seotud RGB-vara unikaalne identifikaator;
 - "avalik": Näitab, kas kanal peaks olema avalikustatud võrgus marsruutimiseks.
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 Tehingu kinnitamiseks kaevandatakse 6 plokki:
 
@@ -3838,9 +3836,9 @@ Tehingu kinnitamiseks kaevandatakse 6 plokki:
 ./regtest.sh mine 6
 ```
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning-kanal on nüüd avatud ja sisaldab ka 500 "PBN"-märki sõlme nr 1 poolel. Kui sõlm nr 2 soovib saada PBN-märke, peab ta looma arve. Seda saab teha järgmiselt:
+Lightning-kanal on nüüd avatud ja sisaldab ka 500 "Plan ₿ Academy"-märki sõlme nr 1 poolel. Kui sõlm nr 2 soovib saada Plan ₿ Academy-märke, peab ta looma arve. Seda saab teha järgmiselt:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3867,9 +3865,9 @@ Vastuseks saate RGB-arve (nagu eelmistes peatükkides kirjeldatud):
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
 ```
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
-Nüüd maksame selle arve esimesest sõlmest, kus on vajalik raha "PBN" sümboliga:
+Nüüd maksame selle arve esimesest sõlmest, kus on vajalik raha "Plan ₿ Academy" sümboliga:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3879,7 +3877,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/sendpayment
 ```
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 Makse on tehtud. Seda saab kontrollida käsuga :
 
@@ -3889,7 +3887,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 Siin on kirjeldatud, kuidas võtta kasutusele Lightning-sõlm, mida on muudetud RGB-vara kandmiseks. See demonstratsioon põhineb :
 

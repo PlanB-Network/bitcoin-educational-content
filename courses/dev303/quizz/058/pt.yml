@@ -1,0 +1,8 @@
+question: Ao criar uma macro personalizada do tipo função que precisa de lidar com diferentes números de argumentos de entrada, que combinação de especificador de fragmento e padrão de repetição seria mais apropriada?
+answer: Utilize $($x:expr),* para fazer corresponder zero ou mais expressões separadas por vírgulas
+wrong_answers:
+  - Utilize $($x:ident)+ para fazer corresponder um ou mais identificadores sem separadores
+  - Utilize $($x:ty);* para fazer corresponder zero ou mais tipos separados por ponto e vírgula
+  - Utilize $($x:expr)? para fazer corresponder uma expressão única opcional sem repetição
+explanation: |
+  O padrão $($x:expr),* foi especificamente concebido para macros de argumentos variáveis, em que expr corresponde a qualquer expressão e a sintaxe ,* trata de zero ou mais repetições separadas por vírgulas. Isto é exatamente o que é necessário para macros como vec! que podem aceitar um número variável de argumentos. As outras opções estão incorrectas porque: ident apenas corresponde a identificadores (não a expressões completas), ty corresponde a tipos (não a valores) e ? corresponde a itens únicos opcionais em vez de repetições de variáveis.

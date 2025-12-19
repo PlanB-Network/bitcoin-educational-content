@@ -1,0 +1,9 @@
+question: 生の実装とノード・イン・ア・ボックスの主な違いは何ですか？
+answer: Interfaceと統合されたアプリケーションの存在
+wrong_answers:
+  - ネットワークの互換性
+  - ディスクに保存されたBlockchainサイズ
+  - 使用されるプロトコルと通貨
+explanation: |
+  生の実装はノードソフトウェアのみをインストールするが、node-in-a-boxはInterface、App Store、統合サービスを追加する。
+reviewed: true

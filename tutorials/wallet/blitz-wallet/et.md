@@ -44,7 +44,7 @@ Siinkohal alustame uue portfelli loomisega. Vt allpool meie soovitusi varundatud
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**OLULINE**: Need 12 / 24 taastamise sõnad on olulised teie bitcoinidele juurdepääsuks. Kui te kaotate need, ei ole teil enam õigust oma bitcoine kulutada.
 
@@ -109,7 +109,7 @@ Blitz Wallet üks eripära on see, et see toetab erinevaid võrke ja kanaleid v�
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Vaikimisi toimuvad kõik teie tehingud Liquid Network-s, kuid Blitz võimaldab teil määrata võrgu, milles soovite satoshisid vastu võtta, klõpsates nupul **Valige vorming**.
 
@@ -197,9 +197,9 @@ Lisaks Bitcoin ülekandetehingutele pakub Blitz Wallet teile kauplust, kus saate
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Wallet Blitz kulisside taga: Edasi minna
 
@@ -221,7 +221,7 @@ Selline lähenemine on põhjendatud sooviga lihtsustada alustamise kogemust ja a
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Saldo jaotust näete menüüst **Settings>Balance Info**.
 
@@ -269,4 +269,4 @@ Kui see õpetus aitas teil Blitziga hakkama saada, siis oleme kindlad, et teile 
 
 
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d

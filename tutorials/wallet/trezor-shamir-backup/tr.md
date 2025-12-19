@@ -85,11 +85,11 @@ Cihazınızın ilk kurulumu ile ilgili yardıma ihtiyacınız varsa, her Trezor 
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Yeni bir Wallet üzerinde
 
@@ -139,7 +139,7 @@ Mnemonic ifadelerinizi kaydetmenin ve yönetmenin doğru yolu hakkında daha faz
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Trezor'da, yapılandırmak istediğiniz toplam paylaşım sayısını seçin. En yaygın yapılandırmalar 2-de-3 ve 3-de-5'tir. Bu örnek için, 2-de-3 oluşturacağım, bu yüzden 3 paylaşım seçeceğim. Her paylaşım 20 kelimelik bir Mnemonic ifadesini temsil edecektir.
 
@@ -273,7 +273,7 @@ Tebrikler, artık Trezor donanım cüzdanlarında Tek paylaşımlı ve Çok payl
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Bu eğitimi faydalı bulduysanız, aşağıya bir Green başparmak bırakırsanız minnettar olurum. Bu makaleyi sosyal ağlarınızda paylaşmaktan çekinmeyin. Çok teşekkür ederim!
 

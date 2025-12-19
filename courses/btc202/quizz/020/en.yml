@@ -1,9 +1,9 @@
 question: What happens if a block violates the consensus rules?
-answer: It is immediately rejected by the
+answer: It is immediately rejected by the nodes
 wrong_answers:
   - It is stored in Mempool awaiting validation
   - It is relayed only by nodes that accept other rules
-  - It is validated only by the portfolios
+  - It is validated only by the wallets
 explanation: |
   Nodes systematically reject any block that does not comply with the consensus rules.
-reviewed: false
+reviewed: true

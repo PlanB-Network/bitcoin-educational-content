@@ -47,7 +47,7 @@ Nazwa tego wskaźnika to "backward anonset" lub "backward-looking metrics". Po f
 
 ![backward anonset](assets/en/6.webp)
 
-Aby dowiedzieć się więcej o metodzie obliczania tych wskaźników, polecam przeczytanie [mojego wątku na Twitterze](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) na ten temat. Przygotowujemy również bardziej obszerny artykuł na temat PlanB Network.
+Aby dowiedzieć się więcej o metodzie obliczania tych wskaźników, polecam przeczytanie [mojego wątku na Twitterze](https://twitter.com/Loic_Pandul/status/1550850558147395585?s=20) na ten temat. Przygotowujemy również bardziej obszerny artykuł na temat Plan ₿ Academy.
 
 
 Zdaję sobie sprawę, że udzielona odpowiedź może wydawać się niezadowalająca, ponieważ liczyłeś na konkretną liczbę remiksów i kieruję Cię do dokumentacji. Powodem jest to, że liczba remiksów jest niewiarygodnym wskaźnikiem do oceny anonimowości uzyskanej w cyklach CoinJoin. Dlatego nie jest możliwe zdefiniowanie stałej liczby remiksów jako bezwzględnego i uniwersalnego progu bezpieczeństwa.

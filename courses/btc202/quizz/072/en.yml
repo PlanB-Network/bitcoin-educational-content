@@ -6,4 +6,4 @@ wrong_answers:
   - notxindex
 explanation: |
   Assumeutxo loads a snapshot of the UTXO set to get the node up and running quickly, while rebuilding the complete UTXO set in the background.
-reviewed: false
+reviewed: true

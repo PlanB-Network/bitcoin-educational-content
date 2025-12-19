@@ -111,7 +111,7 @@ Uma **chave pública alargada** (xpub, ypub, zpub, etc.) é um dado derivado de 
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 1.5. Lembrete Hot Wallet
 
@@ -404,7 +404,7 @@ No entanto, como o Watch-only wallet não possui as chaves privadas, não é pos
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 
 
@@ -412,7 +412,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 
 
@@ -420,7 +420,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 ### A2. Chaves públicas alargadas
@@ -430,12 +430,12 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 - Glossário :
- - [Chaves públicas alargadas](https://planb.network/fr/resources/glossary/extended-key)
- - [xpub](https://planb.network/fr/resources/glossary/xpub)
- - [ypub](https://planb.network/fr/resources/glossary/ypub)
- - [zpub](https://planb.network/fr/resources/glossary/zpub)
+ - [Chaves públicas alargadas](https://planb.academy/fr/resources/glossary/extended-key)
+ - [xpub](https://planb.academy/fr/resources/glossary/xpub)
+ - [ypub](https://planb.academy/fr/resources/glossary/ypub)
+ - [zpub](https://planb.academy/fr/resources/glossary/zpub)
 - Curso :
- - [Les clés publiques étendues](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
+ - [Les clés publiques étendues](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)
 
 
 
@@ -455,9 +455,9 @@ Para utilizar a **Blockstream App** de forma segura e eficiente, siga estas reco
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -532,32 +532,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Aprendizagem e tutoriais: **[Plan ₿ Network](https://planb.network/)**
+- Aprendizagem e tutoriais: **[Plan ₿ Academy](https://planb.academy/)**
   - Proteger a sua frase de recuperação
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
 - **Liquid Network** :
-- [Glossário](https://planb.network/fr/resources/glossary/liquid-network)
+- [Glossário](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 - **Lightning Network**:
-- [Glossário](https://planb.network/fr/resources/glossary/lightning-network)
+- [Glossário](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

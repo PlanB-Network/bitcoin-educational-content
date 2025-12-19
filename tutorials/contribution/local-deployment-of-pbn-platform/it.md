@@ -1,13 +1,13 @@
 ---
-name: Guida all'esecuzione della piattaforma Plan ₿ Network in locale
-description: Come ricreare il sito di Plan ₿ Network in un ambiente locale per testare i cambiamenti apportati ai contenuti su Plan ₿ Network?
+name: Guida all'esecuzione della piattaforma Plan ₿ Academy in locale
+description: Come ricreare il sito di Plan ₿ Academy in un ambiente locale per testare i cambiamenti apportati ai contenuti su Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 ## In sintesi
 
-Questo tutorial fornisce istruzioni passo passo per configurare il Learning Management System di Plan ₿ Network sulla vostra macchina locale, utilizzando Docker, dummy keys e configurazioni personalizzate del repository.
+Questo tutorial fornisce istruzioni passo passo per configurare il Learning Management System di Plan ₿ Academy sulla vostra macchina locale, utilizzando Docker, dummy keys e configurazioni personalizzate del repository.
 
 Se non hai capito la parte di cui sopra, non preoccuparti: questo tutorial è per te!
 
@@ -110,7 +110,7 @@ Una volta che i "container" sono in esecuzione, accedi al frontend all'indirizzo
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Nota: l'applicazione si ricarica automaticamente se si modificano i file di origine.
 
@@ -146,7 +146,7 @@ poi di nuovo:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Personalizzazione del repository (opzionale)**
 

@@ -94,13 +94,13 @@ Saat Anda menonaktifkan mode uji coba, Anda harus mengonfigurasi portofolio pena
 
 
 
-Jika Anda belum memiliki Bitcoin dan/atau Lightning Wallet, kami sarankan Anda untuk melihat tutorial [mobile wallet] kami (https://planb.network/tutorials/wallet).
+Jika Anda belum memiliki Bitcoin dan/atau Lightning Wallet, kami sarankan Anda untuk melihat tutorial [mobile wallet] kami (https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **PENTING**: Saat mengonfigurasi portofolio Anda, pilih jenis **BTC (On-Chain)** saat Anda menerima jumlah besar, dalam urutan ribuan euro, untuk memastikan konfirmasi yang dapat diandalkan pada Bitcoin, dan jenis **LN Address** saat Anda ingin menerima pembayaran mikro instan dalam bisnis Anda.
 
@@ -435,4 +435,4 @@ Anda telah memahami dengan baik tentang Speed, mengintegrasikan Bitcoin ke dalam
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

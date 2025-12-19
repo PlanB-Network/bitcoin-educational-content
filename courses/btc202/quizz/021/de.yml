@@ -1,0 +1,9 @@
+question: Welcher Faktor bestimmt den Einfluss eines Knotens auf die Konsensregeln?
+answer: Sein wirtschaftliches Gewicht
+wrong_answers:
+  - Die Anzahl der ausgehenden Verbindungen
+  - Dienstalter im Netzwerk
+  - Nichts, denn jeder Knoten hat eine Stimme
+explanation: |
+  Der Einfluss auf die Konsensregeln hängt von der Wirtschaftstätigkeit ab, die von dem Knotenpunkt unterstützt wird, nicht von seiner Anzahl.
+reviewed: true

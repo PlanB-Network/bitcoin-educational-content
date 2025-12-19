@@ -1,13 +1,10 @@
 question: Co dzieje się w przypadku ataku 51% na sieć Bitcoin?
-answer: Agent posiada więcej niż połowę Hashrate i może próbować modyfikować Blockchain.
+answer: Atakujący przejmuje więcej niż połowę szybkości haszowania i może próbować modyfikować łańcuch bloków.
 wrong_answers:
-  - Agent zyskuje kontrolę nad ponad połową bitcoinów w obiegu.
-  - Agent uzyskuje kontrolę nad ponad połową węzłów w sieci Bitcoin.
-  - Agent uzyskuje kontrolę nad ponad połową pul Mining w Bitcoin
+  - Atakujący zyskuje kontrolę nad ponad połową bitcoinów w obiegu.
+  - Atakujący uzyskuje kontrolę nad ponad połową węzłów w sieci Bitcoin.
+  - Atakujący uzyskuje kontrolę nad ponad połową pul wydobywczych w Bitcoinie
 explanation: |
-  W przypadku ataku 51%, agent posiadający ponad połowę sieci
-  sieci Hashrate może potencjalnie manipulować
-  Blockchain, tworząc alternatywny łańcuch bloków.
-  Jednak taki atak byłby niezwykle kosztowny i mało prawdopodobny
-  mało prawdopodobne, aby był opłacalny, co czyni go mało prawdopodobnym scenariuszem.
+  W przypadku ataku 51%, Atakujący posiadający ponad połowę prędkości haszowania w sieci może potencjalnie manipulować łańcuchem bloków, tworząc alternatywny łańcuch bloków.
+  Jednak taki atak byłby niezwykle kosztowny i prawdopodobnie mało opłacalny, co czyni go mało prawdopodobnym scenariuszem.
 reviewed: true

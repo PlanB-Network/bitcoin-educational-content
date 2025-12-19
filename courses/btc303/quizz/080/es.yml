@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal reto que hace que la publicación de parches de vulnerabilidad para Bitcoin sea especialmente compleja en comparación con los sistemas de software centralizados tradicionales?
+answer: El propio código del parche puede revelar la vulnerabilidad a posibles atacantes que analicen los cambios
+wrong_answers:
+  - El carácter descentralizado significa que no hay una autoridad central que coordine el calendario de aplicación de los parches
+  - "El mecanismo de consenso de Bitcoin requiere la aprobación de la mayoría antes de poder aplicar cualquier parche de seguridad"
+  - La naturaleza de código abierto significa que todas las vulnerabilidades deben hacerse públicas antes de que se desarrollen los parches
+explanation: |
+  El texto destaca específicamente que los desarrolladores deben ser extremadamente cuidadosos a la hora de publicar parches porque "el propio parche podría delatar la vulnerabilidad" Esto crea un desafío único en el que la solución puede exponer inadvertidamente el problema. El cuarto punto describe cómo los desarrolladores de Bitcoin comprueban si un parche se ha "disimulado suficientemente bien" haciendo que desarrolladores experimentados lo revisen sin conocer la vulnerabilidad específica. Si estos expertos no pueden identificar la vulnerabilidad a partir del parche, se considera seguro desplegarlo. Las otras opciones son incorrectas: existe coordinación a través de los mantenedores del núcleo de Bitcoin, no se requiere consenso para los parches y las vulnerabilidades se mantienen privadas durante la divulgación responsable.
+reviewed: false

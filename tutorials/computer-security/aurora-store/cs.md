@@ -44,13 +44,13 @@ Aplikaci Aurora Store si můžete stáhnout i z jiných obchodů s aplikacemi, n
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Doporučujeme však stáhnout soubor APK přímo z oficiálních webových stránek, aby byla zajištěna pravost a integrita obchodu Aurora.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Soubor APK (Android Package Kit) je formát balíčku, který operační systém Android používá k distribuci a instalaci aplikací. Je to ekvivalent souborů **.exe** v systému Windows nebo **.dmg** v systému MacOS.
 
@@ -155,4 +155,4 @@ Aurora Store je více než jen úložiště aplikací, je to řešení s otevře
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

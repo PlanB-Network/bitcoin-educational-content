@@ -6,4 +6,4 @@ wrong_answers:
   - Mnemonische Phrase
 explanation: |
   UTXOs werden mit einem öffentlichen Schlüssel oder dessen Hash gesperrt und mit dem entsprechenden privaten Schlüssel entsperrt.
-reviewed: false
+reviewed: true

@@ -94,13 +94,13 @@ Når du deaktiverer testmodus, må du konfigurere uttaksporteføljen din.
 
 
 
-Hvis du ennå ikke eier en Bitcoin og/eller Lightning Wallet, anbefaler vi at du tar en titt på våre [mobile lommebøker] veiledninger (https://planb.network/tutorials/wallet).
+Hvis du ennå ikke eier en Bitcoin og/eller Lightning Wallet, anbefaler vi at du tar en titt på våre [mobile lommebøker] veiledninger (https://planb.academy/tutorials/wallet).
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 ⚠️ **VIKTIG**: Når du konfigurerer porteføljen din, bør du velge typen **BTC (On-Chain)** når du mottar store beløp, i størrelsesorden tusenvis av euro, for å sikre pålitelig bekreftelse på Bitcoin, og typen **LN Address** når du ønsker å motta øyeblikkelige mikrobetalinger i virksomheten din.
 
@@ -435,4 +435,4 @@ Du har fått en god forståelse av Speed, integrerer Bitcoin i virksomheten din 
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

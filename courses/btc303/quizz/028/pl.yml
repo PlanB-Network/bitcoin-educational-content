@@ -1,0 +1,9 @@
+question: Jaki jest główny powód do niepokoju w związku z opłatami, gdy dotacja blokowa Bitcoin zbliża się do zera?
+answer: Górnicy mogą uznać za bardziej opłacalne przepisywanie poprzednich bloków z wysokimi opłatami niż nowe bloki mining
+wrong_answers:
+  - Opłaty transakcyjne staną się zbyt drogie dla zwykłych użytkowników, aby pozwolić sobie na transakcje Bitcoin
+  - Całkowita podaż Bitcoin przekroczy 21 milionów dzięki zwiększonym zachętom mining
+  - Górnicy całkowicie zaprzestaną mining, ponieważ same opłaty transakcyjne nie są w stanie pokryć kosztów energii elektrycznej
+explanation: |
+  Fee sniping ma miejsce, gdy górnicy próbują ponownie wydobywać poprzednie bloki, które zawierały transakcje o wysokich opłatach, zamiast uczciwie przedłużać łańcuch. Staje się to ekonomicznie racjonalne, gdy opłaty w poprzednim bloku znacznie przekraczają opłaty w bieżącym mempoolu. Chociaż prawdopodobieństwo sukcesu jest niższe niż w przypadku uczciwego mining, potencjalna nagroda może być znacznie wyższa. Takie zachowanie jest szczególnie niepokojące, ponieważ może wywołać efekt kaskadowy, w którym więcej górników angażuje się w nieuczciwe praktyki, ostatecznie zagrażając modelowi bezpieczeństwa Bitcoin, gdy dotacje do bloków maleją.
+reviewed: false

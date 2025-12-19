@@ -1,0 +1,10 @@
+question: Кой от тези 3 протокола не е реализация на coinjoin?
+answer: Верижен анализ.
+wrong_answers:
+  - JoinMarket.
+  - Уабисаби.
+  - Whirlpool.
+explanation: |
+  Chainalysis изобщо не е реализация на coinjoin, тъй като е компания за анализ на блокчейн.
+  
+reviewed: true

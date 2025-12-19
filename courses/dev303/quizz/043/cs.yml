@@ -1,0 +1,8 @@
+question: Jaké klíčové slovo se používá k tomu, aby uzávěr převzal vlastnictví zachycených proměnných místo jejich vypůjčení?
+answer: přesunout
+wrong_answers:
+  - vlastní
+  - zachycení
+  - převzít
+explanation: |
+  Klíčové slovo `move` se používá před parametry uzávěru, aby uzávěr převzal vlastnictví všech zachycených proměnných ze svého prostředí. To je nezbytné v případech, kdy uzávěr může překročit rozsah, ve kterém byly proměnné původně definovány, například při vytváření vláken. Bez `move` uzávěry obvykle zachycují proměnné nejméně restriktivní metodou (neměnná reference, pak proměnná reference, pak vlastnictví), ale `move` toto automatické chování ruší a zajišťuje přenos vlastnictví. Ostatní možnosti (`own`, `capture`, `take`) nejsou pro tento účel platnými klíčovými slovy Rust.

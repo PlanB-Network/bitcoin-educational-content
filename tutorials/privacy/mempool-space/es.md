@@ -14,9 +14,9 @@ En los primeros días de Bitcoin, era necesario ejecutar un nodo Bitcoin para ac
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Por ello, se han puesto en marcha proyectos para ampliar la comunidad de Bitcoin, haciéndola más accesible a cualquiera que no posea un nodo y/o no tenga los conocimientos técnicos necesarios.
 
@@ -46,7 +46,7 @@ El uso cada vez más extendido en el ecosistema y el hecho de que Mempool.space 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Los fundamentos de Mempool.space
 
@@ -176,7 +176,7 @@ Descubra los diferentes esquemas de transacción Bitcoin para mejorar su confide
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Agilice sus transacciones
 
@@ -200,7 +200,7 @@ Puede realizar una acción de sustitución de comisiones con carteras que acepte
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Si todos estos términos le parecen demasiado técnicos, le recomiendo que [consulte nuestro glosario](https://planb.network/resources/glossary), que contiene definiciones de todos los términos técnicos relacionados con Bitcoin y su ecosistema.
+Si todos estos términos le parecen demasiado técnicos, le recomiendo que [consulte nuestro glosario](https://planb.academy/resources/glossary), que contiene definiciones de todos los términos técnicos relacionados con Bitcoin y su ecosistema.
 
 
 
@@ -235,7 +235,7 @@ Un Miner se refiere a una persona que gestiona una mina, es decir, un ordenador 
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 los mineros son como "validadores" que verifican y agrupan las transacciones en bloques. Para añadir un nuevo bloque a la red Bitcoin, tienen que resolver un complejo rompecabezas matemático (el Proof-of-Work). El primer Miner que resuelva el rompecabezas gana una recompensa Bitcoin (subvención del bloque + comisiones por las transacciones incluidas en el bloque).
 
@@ -372,4 +372,4 @@ Ahora que ha llegado al final de su viaje en Mempool.space, conviértase en su p
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

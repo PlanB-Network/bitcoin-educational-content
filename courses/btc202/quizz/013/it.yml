@@ -1,0 +1,9 @@
+question: Che tipo di attrezzature si usano oggi per estrarre il Bitcoin in modo efficiente?
+answer: ASIC
+wrong_answers:
+  - CPU classica
+  - GPU
+  - FPGA
+explanation: |
+  Oggi, il Bitcoin Mining viene eseguito utilizzando ASIC. Si tratta di chip specializzati per l'algoritmo SHA-256.
+reviewed: true

@@ -51,7 +51,7 @@ Im Bitcoin-Protokoll gibt es Begriffe wie _Konto_ oder _Geldeinheiten_ nicht. Da
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Mit Bitcoin akkumulieren Sie kleine oder große Rechnungseinheiten, die in Satoshi gemessen werden und durch "unverbrauchte Transaktionsausgaben", die **UTXO**, auch "Münzen" genannt, repräsentiert werden, und die Sie später ausgeben. Wenn Sie UTXOs verwenden, um eine Transaktion zu erstellen, werden sie vollständig zerstört und andere UTXOs werden an ihrer Stelle erstellt.
 
@@ -568,7 +568,7 @@ Die Coin-Kontrolle ist eine sehr effektive Methode zur Auswahl Ihrer Transaktion
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Wir haben bereits über die "Trennung von Resten" gesprochen. Wenn Sie Reste für die spätere Verarbeitung sperren und die Privatsphäre wiederherstellen wollen (Tausch auf Layer 2), müssen Sie darauf achten, sie jedes Mal zu "etikettieren", wenn Sie einen erhalten. Von den bisher vorgestellten Software-Geldbörsen färbt nur Electrum UTXO-Reste grafisch ein, um sie auf einen Blick sichtbar zu machen. Andere, wie Sparrow, zeigen Ihnen die Kette im Ableitungspfad des einzelnen UTXO (`m/84'/0'/0'/1/11`).
 

@@ -1,0 +1,8 @@
+question: Hvilket matematisk forhold må være oppfylt i ECDSA-signaturverifiseringsprosessen for at en signatur skal anses som gyldig?
+answer: X-koordinaten til UG + VP må være lik R, der U = Z/S og V = R/S
+wrong_answers:
+  - Y-koordinaten til UG + VP må være lik S, der U = R/Z og V = S/Z
+  - X-koordinaten til KG + ZP må være lik S, der K er nonce og Z er hash-koden
+  - Summen av R + S må være lik x-koordinaten til det offentlige nøkkelpunktet P
+explanation: |
+  ECDSA-verifisering fungerer ved å rekonstruere det opprinnelige punktet KG ved hjelp av ligningen UG + VP, der U = Z/S (hash dividert med S) og V = R/S. Hvis x-koordinaten til dette rekonstruerte punktet er lik R fra signaturen, er verifiseringen vellykket. Dette matematiske forholdet gjør det mulig å verifisere uten å kjenne til den private nøkkelen eller nonce K, ettersom algebraen rekonstruerer KG indirekte gjennom den offentlige nøkkelen og signaturkomponentene.

@@ -87,7 +87,7 @@ Można go zapisać na papierze lub, dla większego bezpieczeństwa, wygrawerowa�
 Aby uzyskać więcej informacji na temat prawidłowego sposobu zapisywania i zarządzania frazą Mnemonic, zdecydowanie polecam skorzystanie z tego samouczka, zwłaszcza jeśli jesteś początkującym:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Kliknij komunikat wyświetlany w górnej części Interface "*Zapisz Wallet...*".
 
@@ -260,9 +260,9 @@ Gratulacje, wiesz już jak skonfigurować i używać Phoenix. Jeśli ten poradni
 Aby pójść o krok dalej, zapoznaj się z tym samouczkiem na temat Alby Hub, innego innowacyjnego i łatwego w użyciu rozwiązania do uruchamiania własnego węzła Lightning:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Aby dowiedzieć się więcej o technicznym działaniu Lightning Network, można znaleźć doskonałe bezpłatne szkolenie Fanisa Michalakisa na Plan ₿ Network:
+Aby dowiedzieć się więcej o technicznym działaniu Lightning Network, można znaleźć doskonałe bezpłatne szkolenie Fanisa Michalakisa na Plan ₿ Academy:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

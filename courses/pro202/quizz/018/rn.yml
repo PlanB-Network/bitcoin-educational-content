@@ -1,0 +1,8 @@
+question: Mu buryo bwo gushiramwo amakode ya DER ku mikono ya ECDSA, ni ubuhe busanzwe bwo kwongerekana kw’ubunini kuva ku makuru y’imikono idasanzwe gushika ku mukono wa nyuma washizwemwo amakode?
+answer: Kuva kuri bytes 64 gushika ku bytes nka 71-72 bivuye ku giciro c'imiterere ya DER
+wrong_answers:
+  - Kuva kuri bytes 32 gushika kuri bytes nka 64 bitewe n'ugushiramwo amakuru y'ibice R na S
+  - Kuva kuri bytes 64 gushika kuri bytes 128 nyavyo kubera gushiramwo kabiri ibice vy'umukono
+  - Kuva kuri bytes 71 gushika kuri bytes nka 64 kubera gufatanya ibimenyetso vy'urutonde
+explanation: |
+  DER encoding yongera umutwe w'imiterere ku mikono ya ECDSA biciye ku bimenyetso vy'urutonde (0x30), uburebure bw'amabayiti, n'intango y'ibice (0x02). Umukono wa ECDSA udateguwe ugizwe n'agaciro kabiri k'amabayiti 32 (R na S) karimwo amabayiti 64, ariko uburyo bwa DER buragwiza ivyo kugera ku mabayiti 71-72. Ukwo kutagira ubushobozi kwari kimwe mu vyatumye Bitcoin mu nyuma yemera imikono ya Schnorr muri Taproot, ikoresha imikono idahinduka y’amabayiti 64 ata gushiramwo amakuru.

@@ -6,4 +6,4 @@ wrong_answers:
   - rev.arpa
 explanation: |
   La zone ip6.arpa est spécifiquement dédiée à la résolution inverse des adresses IPv6, alors que in-addr.arpa sert pour IPv4.
-reviewed: false
+reviewed: true 

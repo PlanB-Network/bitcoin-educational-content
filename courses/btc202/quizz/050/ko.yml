@@ -1,0 +1,9 @@
+question: 일렉트러스와 펄크럼이 지갑을 연결하기 위해 사용하는 프로토콜은 무엇인가요?
+answer: Electrum
+wrong_answers:
+  - RPC REST
+  - JSON API
+  - 라이트닝 gRPC
+explanation: |
+  이러한 소프트웨어 패키지는 Sparrow 또는 Electrum Wallet와 같은 많은 지갑에서 사용하는 표준인 일렉트럼 서버를 노출합니다.
+reviewed: true

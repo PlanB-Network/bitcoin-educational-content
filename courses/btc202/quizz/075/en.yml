@@ -6,4 +6,4 @@ wrong_answers:
   - The number of bitcoins that can be created is infinite
 explanation: |
   A payment transaction consumes one UTXO and often recreates two (payment + exchange), inflating the total size of the set.
-reviewed: false
+reviewed: true

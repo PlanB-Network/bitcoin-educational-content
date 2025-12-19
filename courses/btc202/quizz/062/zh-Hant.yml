@@ -1,0 +1,9 @@
+question: 哪個 Umbrel 應用程式可讓您使用進階的 Interface 管理您的 Lightning 節點？
+answer: 騎乘閃電
+wrong_answers:
+  - BTCPay Lightning
+  - Nostr 繼電器
+  - 比特饋送
+explanation: |
+  Ride The Lightning 和 ThunderHub 提供完整的網頁型 Interface 用於管理 Lightning 節點。
+reviewed: true

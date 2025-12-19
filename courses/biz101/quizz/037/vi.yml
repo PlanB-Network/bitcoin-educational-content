@@ -1,9 +1,9 @@
-question: What is one key advantage of the Bitcoin payments ecosystem in terms of switching between solutions?
-answer: It’s relatively easy to change providers or upgrade tools, because Bitcoin’s open, interoperable standards allow for seamless fund transfers.
+question: Một lợi thế chính của hệ sinh thái thanh toán Bitcoin về mặt chuyển đổi giữa các giải pháp là gì?
+answer: Việc thay đổi nhà cung cấp hoặc nâng cấp công cụ tương đối dễ dàng vì các tiêu chuẩn mở và có khả năng tương tác của Bitcoin cho phép chuyển tiền liền mạch.
 wrong_answers:
-  - Once a provider is chosen, the business can never switch to another solution.
-  - Bitcoin solutions are proprietary and locked to a single vendor.
-  - Changing providers requires government approval and a lengthy legal process.
+  - Khi đã chọn được nhà cung cấp, doanh nghiệp sẽ không bao giờ có thể chuyển sang giải pháp khác.
+  - Các giải pháp Bitcoin là độc quyền và chỉ dành riêng cho một nhà cung cấp.
+  - Việc thay đổi nhà cung cấp đòi hỏi sự chấp thuận của chính phủ và một quá trình pháp lý kéo dài.
 explanation: |
-  Since Bitcoin is built on open protocols, merchants are free to move their funds or adopt new solutions as they grow or their needs change. This flexibility ensures businesses can select the best tools without vendor lock-in.
-reviewed: false
+  Vì Bitcoin được xây dựng trên các giao thức mở, các nhà bán lẻ có thể tự do chuyển tiền hoặc áp dụng các giải pháp mới khi nhu cầu thay đổi hoặc phát triển. Tính linh hoạt này đảm bảo doanh nghiệp có thể lựa chọn các công cụ tốt nhất mà không bị ràng buộc vào một nhà cung cấp.
+reviewed: true

@@ -1,22 +1,22 @@
 ---
-name: Professor Plan ₿ Network
-description: Hvordan legger jeg til eller endrer lærerprofilen min på Plan ₿ Network?
+name: Professor Plan ₿ Academy
+description: Hvordan legger jeg til eller endrer lærerprofilen min på Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-Hvis du planlegger å bidra til Plan ₿ Network ved å skrive en ny veiledning eller et nytt kurs, trenger du en lærerprofil. Denne profilen vil gjøre det mulig for deg å motta de riktige krediteringene for innholdet du bidrar med på plattformen.
+Hvis du planlegger å bidra til Plan ₿ Academy ved å skrive en ny veiledning eller et nytt kurs, trenger du en lærerprofil. Denne profilen vil gjøre det mulig for deg å motta de riktige krediteringene for innholdet du bidrar med på plattformen.
 
-De av dere som allerede har vært med på å lage pedagogisk innhold på Plan ₿ Network, har sannsynligvis allerede en lærerprofil. Du finner den i mappen `/professors` [på GitHub-depotet vårt] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Hvis profilen din allerede finnes, finner du påloggingen din i filen `professor.yml`.
+De av dere som allerede har vært med på å lage pedagogisk innhold på Plan ₿ Academy, har sannsynligvis allerede en lærerprofil. Du finner den i mappen `/professors` [på GitHub-depotet vårt] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Hvis profilen din allerede finnes, finner du påloggingen din i filen `professor.yml`.
 
 Hvis du vil gjøre endringer i profilen din, kan du gå til avsnittet "Rediger lærerprofilen din" på slutten av denne veiledningen.
 
 ## Legg til en ny lærer med vår programvare
 
-Den enkleste måten å opprette lærerprofilen din på Plan ₿ Network er å bruke vårt integrerte Python-verktøy. Her er hvordan det fungerer.
+Den enkleste måten å opprette lærerprofilen din på Plan ₿ Academy er å bruke vårt integrerte Python-verktøy. Her er hvordan det fungerer.
 
 ### 1 - Konfigurer ditt lokale miljø
 
-Du må ha din egen Fork fra [Plan ₿ Network repository on GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Du må ha din egen Fork fra [Plan ₿ Academy repository on GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Synkroniser hovedgrenen (`dev`) i Fork med kildelageret.
 
@@ -67,7 +67,7 @@ Start deretter programvaren med kommandoen:
 python3 main.py
 ```
 
-Når du er på startsiden, skriver du inn den lokale stien til klonen av repositoriet ditt, språket du skriver på og GitHub-ID-en din. Hvis du oppretter denne profilen for noen andre og allerede har en professorprofil, skriver du inn ID-en din i feltet "*PBN Professor's ID*". Hvis du oppretter din egen profil, vil du ikke ha en professor-ID ennå, siden du er i ferd med å opprette en, så la dette feltet stå tomt.
+Når du er på startsiden, skriver du inn den lokale stien til klonen av repositoriet ditt, språket du skriver på og GitHub-ID-en din. Hvis du oppretter denne profilen for noen andre og allerede har en professorprofil, skriver du inn ID-en din i feltet "*Plan ₿ Academy Professor's ID*". Hvis du oppretter din egen profil, vil du ikke ha en professor-ID ennå, siden du er i ferd med å opprette en, så la dette feltet stå tomt.
 
 Klikk deretter på knappen "*Ny professor*".
 
@@ -118,8 +118,8 @@ Hvis du behersker Git, kan du endre lærerprofilen din ved å opprette en ny gre
 
 For nybegynnere anbefaler jeg å gjøre modifikasjonen direkte via GitHubs Interface-web. Sørg for at du har en GitHub-konto. Hvis du ikke vet hvordan du oppretter en, kan du følge denne veiledningen:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Gå til [Plan ₿ Network GitHub-arkivet dedikert til data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Gå til [Plan ₿ Academy GitHub-arkivet dedikert til data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 
@@ -137,7 +137,7 @@ Klikk på blyantikonet når du er inne på filen du ønsker å endre.
 
 ![Image](assets/fr/06.webp)
 
-Hvis du ikke allerede har en Fork fra Plan ₿ Network repository, vil GitHub foreslå at du oppretter en. Klikk på "*Fork this repository*".
+Hvis du ikke allerede har en Fork fra Plan ₿ Academy repository, vil GitHub foreslå at du oppretter en. Klikk på "*Fork this repository*".
 
 ![Image](assets/fr/07.webp)
 
@@ -151,17 +151,17 @@ Skriv inn en melding som beskriver endringen, og velg deretter "*Foreslå endrin
 
 En oppsummering av endringene dine vises. Hvis du ønsker å gjøre ytterligere endringer i profilen din, kan du gå tilbake til mappene og gjøre flere commits. Når du er ferdig, klikker du på "*Create pull request*".
 
-En pull-forespørsel er en forespørsel om å integrere endringer fra din gren i hovedgrenen i Plan ₿ Network-arkivet, slik at du kan gå gjennom og diskutere endringene før de slås sammen.
+En pull-forespørsel er en forespørsel om å integrere endringer fra din gren i hovedgrenen i Plan ₿ Academy-arkivet, slik at du kan gå gjennom og diskutere endringene før de slås sammen.
 
 ![Image](assets/fr/10.webp)
 
-Sørg for at arbeidsgrenen din øverst i Interface er slått sammen med `dev`-grenen i Plan ₿ Network-repositoryet (som er hovedgrenen).
+Sørg for at arbeidsgrenen din øverst i Interface er slått sammen med `dev`-grenen i Plan ₿ Academy-repositoryet (som er hovedgrenen).
 
 Skriv inn en tittel som kort oppsummerer endringene du ønsker å slå sammen med kildelageret. Legg til en kort kommentar som beskriver endringene, og klikk deretter på Green-knappen "*Create pull request*" for å bekrefte pull-forespørselen:
 
 ![Image](assets/fr/11.webp)
 
-PR-en din vil da være synlig i "*Pull Request*"-fanen i hovedarkivet til Plan ₿ Network. Alt du trenger å gjøre nå er å vente på at en administrator skal slå sammen modifikasjonen din.
+PR-en din vil da være synlig i "*Pull Request*"-fanen i hovedarkivet til Plan ₿ Academy. Alt du trenger å gjøre nå er å vente på at en administrator skal slå sammen modifikasjonen din.
 
 ![Image](assets/fr/12.webp)
 

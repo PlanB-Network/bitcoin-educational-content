@@ -1,0 +1,9 @@
+question: Bitcoin core의 주요 대체 구현은 무엇인가요?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin 현금
+  - BTCD
+  - Bcoin
+explanation: |
+  Luke Dashjr가 개발한 Bitcoin Knots는 Core의 Fork로, 추가 옵션과 보다 보수적인 비전을 제공합니다.
+reviewed: true

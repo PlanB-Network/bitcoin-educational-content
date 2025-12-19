@@ -1,0 +1,9 @@
+question: Hvilke typer systemer kan bygges på toppen av Bitcoins tillitsløse basislag i henhold til sikkerhetsmodellen som er beskrevet?
+answer: Både pålitelige og upålitelige systemer kan bygges på toppen av den
+wrong_answers:
+  - Bare tillitsløse systemer kan bygges på toppen av den
+  - Bare pålitelige systemer kan bygges på toppen av den
+  - Ingen tilleggssystemer kan bygges på toppen av det
+explanation: |
+  Bitcoins tillitsløse basislag danner et fundament som gir fleksibilitet til å bygge ulike typer systemer på toppen. Som Matt Corallo forklarte, kan du ikke bygge tillitsløse systemer på toppen av betrodde systemer, men du kan bygge betrodde systemer (som forvalterlommebøker) på toppen av tillitsløse systemer. Dette betyr at Bitcoins tillitsløse fundament støtter både tillitsløse applikasjoner og betrodde tjenester, noe som gir systemdesignere frihet til å velge passende avveininger uten å tvinge de samme avveiningene på alle andre som bruker baselaget.
+reviewed: false

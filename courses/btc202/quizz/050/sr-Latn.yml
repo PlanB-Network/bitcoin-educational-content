@@ -1,0 +1,9 @@
+question: Koji je protokol koji koriste Electrs i Fulcrum za povezivanje novčanika?
+answer: Elektrum
+wrong_answers:
+  - RPC ODMOR
+  - JSON API
+  - Munja gRPC
+explanation: |
+  Ovi softverski paketi izlažu Electrum server, standard koji koriste mnogi novčanici kao što su Sparrow ili Electrum Wallet.
+reviewed: true

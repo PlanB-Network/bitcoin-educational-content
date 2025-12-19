@@ -6,7 +6,7 @@ description: Cách xây dựng một máy tính tối giản, cách ly và chi p
 
 
 
-Nếu bạn đã theo dõi trang Plan ₿ Network một thời gian, bạn hẳn đã biết rằng một trong những thiết lập bảo mật được ủng hộ nhiều nhất, gần như là bắt buộc, **là quản lý tiền bằng cách lưu trữ ngoại tuyến khóa riêng tư của bạn**.
+Nếu bạn đã theo dõi trang Plan ₿ Academy một thời gian, bạn hẳn đã biết rằng một trong những thiết lập bảo mật được ủng hộ nhiều nhất, gần như là bắt buộc, **là quản lý tiền bằng cách lưu trữ ngoại tuyến khóa riêng tư của bạn**.
 
 
 
@@ -14,7 +14,7 @@ Nếu bạn chưa khám phá ra điều này, trong suốt hướng dẫn này, 
 
 
 
-Để quản lý khóa riêng ngoại tuyến, cần có một thiết bị luôn được ngắt kết nối khỏi mạng, có thể là [ví phần cứng](https://planb.network/resources/glossary/hardware-wallet) hoặc máy tính airgap, được dành riêng cho chức năng cụ thể này.
+Để quản lý khóa riêng ngoại tuyến, cần có một thiết bị luôn được ngắt kết nối khỏi mạng, có thể là [ví phần cứng](https://planb.academy/resources/glossary/hardware-wallet) hoặc máy tính airgap, được dành riêng cho chức năng cụ thể này.
 
 
 
@@ -500,7 +500,7 @@ Trong số các ví mà tôi quen thuộc, ví duy nhất cung cấp bản phát
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## Kết luận
 

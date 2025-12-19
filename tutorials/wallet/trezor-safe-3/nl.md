@@ -97,7 +97,7 @@ In deze tutorial laat ik je zien hoe je de Trezor Safe 3 gebruikt met [Sparrow w
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Je hebt ook de Trezor Suite software nodig om de Safe 3 te configureren, op echtheid te controleren en de firmware te installeren. We zullen deze software alleen daarvoor gebruiken en daarna is hij alleen nog nodig voor firmware-updates. Voor het dagelijkse beheer van de Wallet gebruiken we uitsluitend Sparrow wallet, omdat het geoptimaliseerd is voor Bitcoin en eenvoudig te gebruiken is, zelfs voor beginners (Sparrow ondersteunt alleen Bitcoin, geen altcoins).
 
@@ -115,7 +115,7 @@ Voor beide programma's raad ik je sterk aan om zowel de authenticiteit (met GnuP
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Trezor Safe 3 starten
 
@@ -213,7 +213,7 @@ Als je meer wilt weten over de andere back-upopties die beschikbaar zijn op Trez
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 ![Image](assets/fr/16.webp)
 
@@ -279,7 +279,7 @@ Voor meer informatie over de juiste manier om je Mnemonic zin op te slaan en te 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/21.webp)
 
@@ -393,7 +393,7 @@ Zodra je Sparrow wallet hebt geopend, moet je ervoor zorgen dat de software is v
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Klik op het tabblad "*Bestand*" en vervolgens op "*Nieuw Wallet*".
 
@@ -471,7 +471,7 @@ Om meer te leren over hoe je een hersteltest uitvoert, raad ik je aan deze ander
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Hoe kan ik bitcoins ontvangen met Trezor Safe 3?
 
@@ -629,6 +629,6 @@ Gefeliciteerd, u bent nu op de hoogte van het basisgebruik van de Trezor Safe 3 
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Als je deze tutorial nuttig vond, zou ik je dankbaar zijn als je hieronder een Green duim achterlaat. Voel je vrij om dit artikel te delen op je sociale netwerken. Hartelijk dank!

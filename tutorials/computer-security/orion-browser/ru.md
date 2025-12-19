@@ -665,7 +665,7 @@ Orion поддерживает расширения для Chrome и Firefox. У
 
 
 
-### Альтернативы на Plan ₿ Network
+### Альтернативы на Plan ₿ Academy
 
 
 Для максимальной защиты обратитесь к другим нашим руководствам:
@@ -673,14 +673,14 @@ Orion поддерживает расширения для Chrome и Firefox. У
 
 
 
-- [Firefox hardened](https://planb.network/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Расширенная многоплатформенная конфигурация
-- [Tor Browser](https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - полная анонимность в сети
-- [Mullvad Browser](https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Максимальная защита от отпечатков пальцев
+- [Firefox hardened](https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f) - Расширенная многоплатформенная конфигурация
+- [Tor Browser](https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb) - полная анонимность в сети
+- [Mullvad Browser](https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e) - Максимальная защита от отпечатков пальцев
 
 
 
-Если вы хотите узнать больше об истории и работе браузеров, а также об основных цифровых объектах в вашей повседневной жизни, приглашаю вас познакомиться с нашим новым бесплатным учебным курсом SCU 202, доступным на Plan ₿ Network:
+Если вы хотите узнать больше об истории и работе браузеров, а также об основных цифровых объектах в вашей повседневной жизни, приглашаю вас познакомиться с нашим новым бесплатным учебным курсом SCU 202, доступным на Plan ₿ Academy:
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

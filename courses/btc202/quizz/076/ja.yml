@@ -1,0 +1,9 @@
+question: Bitcoin coreにおけるMempoolのデフォルトのサイズ制限は？
+answer: 300 MB
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  デフォルトでは、Bitcoin coreはMempoolを300MBに制限している。それを超えると収益性の低いトランザクションは追放される。
+reviewed: true

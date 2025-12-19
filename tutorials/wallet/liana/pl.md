@@ -40,7 +40,7 @@ Ta operacja umożliwia ustawienie różnych konfiguracji, w tym :
 
 
 
-- Plan sukcesji (lub dziedziczenia), umożliwiający spadkobiercom odzyskanie środków w przypadku śmierci użytkownika. Aby uzyskać więcej informacji na ten temat, zalecamy przeczytanie [części 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursu BTC102.
+- Plan sukcesji (lub dziedziczenia), umożliwiający spadkobiercom odzyskanie środków w przypadku śmierci użytkownika. Aby uzyskać więcej informacji na ten temat, zalecamy przeczytanie [części 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kursu BTC102.
 - Wzmocniona kopia zapasowa z czasem odzyskiwania, dająca użytkownikowi możliwość korzystania z Wallet bez konieczności przechowywania odpowiedniej tajnej frazy i ryzyka kradzieży, na przykład podczas włamania.
 - Siatka bezpieczeństwa dla osób rozpoczynających z Bitcoin: będą zarządzać własnym Wallet, a ich "opiekun" (na przykład krewny) zastrzeże sobie prawo do odzyskania środków po określonym czasie.
 - Schemat podpisu wielostronnego (*Multisig*) ze zmniejszonymi wymaganiami w czasie, aby poradzić sobie ze zniknięciem jednego lub więcej uczestników, takich jak partnerzy firmy.
@@ -66,13 +66,13 @@ W tym samouczku skonfigurujemy plan sukcesji. Będziemy używać :
 - Ledger Nano S Plus, na codzienne wydatki;
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 
 - Blockstream Jade, używany do odzyskiwania środków;
 
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 
 - Dwa nośniki pamięci (pamięci USB) do przechowywania deskryptora Wallet;
@@ -92,7 +92,7 @@ Odwiedź oficjalną stronę Wizardsardine i pobierz Liana pod adresem https://wi
 Aby dowiedzieć się, jak ręcznie zweryfikować autentyczność i integralność oprogramowania przed instalacją, zalecamy zapoznanie się z tym samouczkiem :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Zainstaluj oprogramowanie na swoim komputerze i uruchom je. Wybierz opcję "*Create a new Liana Wallet*", aby skonfigurować Wallet.
 
@@ -283,7 +283,7 @@ Możesz sprawdzić status wygaśnięcia swoich środków, przechodząc do zakła
 Aby lepiej zrozumieć model reprezentacji UTXO używany w Bitcoin, można zapoznać się z pierwszą częścią kursu na temat poufności w Bitcoin napisaną przez Loïca Morela:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Wydatki bieżące
 
@@ -492,7 +492,7 @@ Skrypty utworzone przez ten Wallet będą miały następującą postać:
 ```
 
 
-Ponieważ bezpieczeństwo Bitcoin Wallet zależy również od zrozumienia sposobu jego działania, sugeruję dogłębne zapoznanie się z mechanizmami deterministycznych i hierarchicznych portfeli, biorąc udział w tym bezpłatnym szkoleniu na temat Plan ₿ Network :
+Ponieważ bezpieczeństwo Bitcoin Wallet zależy również od zrozumienia sposobu jego działania, sugeruję dogłębne zapoznanie się z mechanizmami deterministycznych i hierarchicznych portfeli, biorąc udział w tym bezpłatnym szkoleniu na temat Plan ₿ Academy :
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

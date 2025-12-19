@@ -11,15 +11,15 @@ Kui soovite osaleda Plan ₿ Networki sisu läbivaatamises ja parandamises, siis
 Kui sa ei saanud ülaltoodud osast aru, siis ära muretse - see õpetus on mõeldud just sulle!
 
 ---
-## Mis on Plan ₿ Network?
+## Mis on Plan ₿ Academy?
 
-Plan ₿ Network on platvorm, kus saab Bitcoini tundma õppida arvukate kursuste ja õpetuste kaudu kõigile. Praegu on kogu meie sisu avatud lähtekoodiga, mida hoitakse GitHubi repositooriumis ja mis on avatud läbivaatamiseks ja sisu loomiseks.
+Plan ₿ Academy on platvorm, kus saab Bitcoini tundma õppida arvukate kursuste ja õpetuste kaudu kõigile. Praegu on kogu meie sisu avatud lähtekoodiga, mida hoitakse GitHubi repositooriumis ja mis on avatud läbivaatamiseks ja sisu loomiseks.
 
 Plan ₿ Networki eesmärk on saada Bitcoini küberruumi avalikuks väljakuks, mis ühendab ja julgustab Bitcoini kogukondi kogu maailmas.
 
 ## Miks panustada?
 
-Plan ₿ Network on põhimõtteliselt mitmekeelne, sest meie eesmärk on teha Bitcoini ressursid kättesaadavaks kõigile inimestele kogu maailmas. Me usume, et keel ei tohiks olla takistuseks suveräänsele rahale.
+Plan ₿ Academy on põhimõtteliselt mitmekeelne, sest meie eesmärk on teha Bitcoini ressursid kättesaadavaks kõigile inimestele kogu maailmas. Me usume, et keel ei tohiks olla takistuseks suveräänsele rahale.
 
 Selle saavutamiseks kasutame inimene x tehisintellekti lähenemisviisi. Meie [programmi] (https://github.com/Asi0Flammeus/LLM-Translator) abil saame oma sisu automaatselt paljudesse keeltesse tõlkida. Siiski on meil vaja, et sujuva keeleoskusega kõneleja vaataks selle üle, et sisu oleks arusaadav ja ilma sobimatute terminiteta.
 
@@ -33,20 +33,20 @@ Sa ei pea olema GitHubi ekspert, et sisu üle vaadata. Kuigi alati on parem mõi
 
 Kui te aga ei ole Git ja GitHubiga kursis ja soovite rohkem teada saada, siis vaadake meie sissejuhatavat artiklit nende tööriistade kohta:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Konto loomine
 
 
 - Loo konto [GitHubis](https://github.com/), et alustada panustamist. Kui soovite juhiseid GitHubi konto loomiseks, on meil ka üksikasjalik õpetus:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 - Sul on vaja ka kontot sõnumirakenduses [Telegram](https://telegram.org/).
 
 ## 2. Liituge Telegrami grupiga
 
 
-- Liituge [PBN Content Builderi grupiga](https://t.me/PlanBNetwork_ContentBuilder) Telegramis.
+- Liituge [Plan ₿ Academy Content Builderi grupiga](https://t.me/PlanBNetwork_ContentBuilder) Telegramis.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -143,12 +143,12 @@ Lisateabe saamiseks Plan ₿ võrgus korrektuuri tegemisel keele- või formaadir
 ## 7. Oodake ülevaatamist
 
 
-- Palju õnne, teie PR on esitatud! Saate jälgida selle edenemist [Plan ₿ Network'i GitHubi repositooriumi](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) vahekaardil "Pull requests":
+- Palju õnne, teie PR on esitatud! Saate jälgida selle edenemist [Plan ₿ Academy'i GitHubi repositooriumi](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) vahekaardil "Pull requests":
 
 ![REVIEW](assets/fr/12.webp)
 
 
-- Suur tänu teie panuse eest! Pärast heakskiitmist võtab Plan ₿ Network'i meeskonnaliige teiega ühendust, et saata teie preemia. \**Makseid tehakse ainult Lightning Networki\** kaudu.
+- Suur tänu teie panuse eest! Pärast heakskiitmist võtab Plan ₿ Academy'i meeskonnaliige teiega ühendust, et saata teie preemia. \**Makseid tehakse ainult Lightning Networki\** kaudu.
 - Kui soovid uuesti alustada, naase sammu 2 juurde ja saada Telegrami grupis uus sõnum, et jätkata panustamist muule sisule. Enne uue tööharu loomist sünkroniseerige kindlasti oma haru. Selleks minge oma haru kodulehele, valige peaharu nimega `dev` (vt \**A\**), seejärel klõpsake nupule "Sync fork" (vt \**B\**). Kui teie haru jaoks on saadaval uuendused, ilmub nupp "Update branch". Lihtsalt klõpsake sellel, et teostada uuendamine.
 
 ![REVIEW](assets/fr/16.webp)

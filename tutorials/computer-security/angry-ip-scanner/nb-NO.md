@@ -42,7 +42,7 @@ Hvis du vil gå videre, kan du se veiledningen om Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Komme i gang med Angry IP Scanner
 
@@ -181,4 +181,4 @@ Hvis du ønsker å bruke **Nmap** med en grafisk Interface, kan du bruke **Zenma
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

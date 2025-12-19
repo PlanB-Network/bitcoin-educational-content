@@ -2,10 +2,8 @@ question: Czym jest AMF?
 answer: Autorité des Marchés Financiers.
 wrong_answers:
   - Amerykański Fundusz Walutowy.
-  - Stowarzyszenie Placówek Mining.
+  - Stowarzyszenie Placówek Wydobywczych.
   - Zautomatyzowany przepływ pieniędzy.
 explanation: |
-  AMF, czyli Autorité des Marchés Financiers, jest francuską organizacją
-  organizacja, która reguluje platformy, na których można
-  kupić.
+  AMF, czyli Autorité des Marchés Financiers, jest francuską organizacją, która reguluje platformy sprzedające instrumenty finansowe.
 reviewed: true

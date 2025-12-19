@@ -10,7 +10,7 @@ Möchten Sie einen Bitcoin-Podcast zum PlanB Netzwerk hinzufügen und die Sichtb
 ![podcast](assets/01.webp)
 - Zuerst benötigen Sie ein GitHub-Konto. Wenn Sie nicht wissen, wie man eines erstellt, haben wir ein detailliertes Tutorial erstellt, um Sie anzuleiten.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Gehen Sie zu [dem GitHub-Repository von PlanB, das den Daten gewidmet ist](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) im Abschnitt `resources/podcasts/`:
@@ -97,7 +97,7 @@ contributors:
 ![podcast](assets/13.webp)
 - Klicken Sie oben rechts auf Ihr GitHub-Profilbild und dann auf `Your Repositories`:
 ![podcast](assets/14.webp)
-- Wählen Sie Ihren Fork des PlanB Network-Repositorys aus:
+- Wählen Sie Ihren Fork des Plan ₿ Academy-Repositorys aus:
 ![podcast](assets/15.webp)
 - Sie sollten eine Benachrichtigung am oberen Fensterrand mit Ihrem neuen Branch sehen. Er heißt wahrscheinlich `patch-1`. Klicken Sie darauf:
 ![podcast](assets/16.webp)
@@ -118,7 +118,7 @@ contributors:
 ![podcast](assets/24.webp)
 - Klicken Sie auf den `Add file`-Button und dann auf `Upload files`:
 ![podcast](assets/25.webp)
-- Eine neue Seite wird geöffnet. Ziehen Sie Ihr Podcast-Logo in den Bereich. Dieses Bild wird auf der PlanB Network-Seite angezeigt: ![podcast](assets/26.webp)
+- Eine neue Seite wird geöffnet. Ziehen Sie Ihr Podcast-Logo in den Bereich. Dieses Bild wird auf der Plan ₿ Academy-Seite angezeigt: ![podcast](assets/26.webp)
 - Achten Sie darauf, dass das Bild quadratisch sein muss, um am besten auf unsere Website zu passen:
 ![podcast](assets/27.webp)
 - Sobald das Bild hochgeladen ist, überprüfen Sie, ob das Kästchen `Commit directly to the patch-1 branch` angekreuzt ist, dann klicken Sie auf `Commit changes`:
@@ -141,8 +141,8 @@ contributors:
 ![podcast](assets/36.webp)
 - Klicken Sie auf den `Create pull request` Button:
 ![podcast](assets/37.webp)
-Herzlichen Glückwunsch! Ihr PR wurde erfolgreich erstellt. Ein Administrator wird ihn nun überprüfen und, wenn alles in Ordnung ist, in das Hauptrepository von PlanB Network mergen. Sie sollten Ihren Podcast einige Tage später auf der Website sehen.
+Herzlichen Glückwunsch! Ihr PR wurde erfolgreich erstellt. Ein Administrator wird ihn nun überprüfen und, wenn alles in Ordnung ist, in das Hauptrepository von Plan ₿ Academy mergen. Sie sollten Ihren Podcast einige Tage später auf der Website sehen.
 
-Bitte stellen Sie sicher, dass Sie den Fortschritt Ihres PR verfolgen. Ein Administrator kann einen Kommentar hinterlassen, der nach zusätzlichen Informationen fragt. Solange Ihr PR nicht validiert ist, können Sie ihn im `Pull requests` Tab im PlanB Network GitHub-Repository sehen:
+Bitte stellen Sie sicher, dass Sie den Fortschritt Ihres PR verfolgen. Ein Administrator kann einen Kommentar hinterlassen, der nach zusätzlichen Informationen fragt. Solange Ihr PR nicht validiert ist, können Sie ihn im `Pull requests` Tab im Plan ₿ Academy GitHub-Repository sehen:
 ![podcast](assets/38.webp)
 Vielen Dank für Ihren wertvollen Beitrag! :)

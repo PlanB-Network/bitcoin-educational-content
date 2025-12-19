@@ -1,0 +1,9 @@
+question: Selon le point de vue de Gregory Maxwell sur l'évaluation de la gravité des vulnérabilités, quelle approche les développeurs devraient-ils adopter pour évaluer l'impact potentiel des problèmes de sécurité découverts ?
+answer: Traiter les vulnérabilités comme plus graves que ce qui est actuellement connu et supposer qu'elles peuvent être facilement exploitées, même si elles semblent difficiles à exploiter
+wrong_answers:
+  - Se concentrer uniquement sur l'impact immédiat observable et classer les vulnérabilités en fonction de leurs méthodes d'exploitation connues
+  - Classer les vulnérabilités par ordre de priorité en fonction de leur complexité technique et retarder les corrections des problèmes qui semblent théoriquement difficiles à exploiter
+  - Évaluer chaque vulnérabilité de manière isolée, sans tenir compte de la manière dont plusieurs problèmes mineurs peuvent se combiner pour créer des risques de sécurité majeurs
+explanation: |
+  Maxwell soutient que les développeurs devraient considérer les vulnérabilités comme plus graves qu'elles ne le paraissent, car les problèmes difficiles à exploiter peuvent devenir triviaux avec la bonne technique, et des problèmes apparemment mineurs peuvent se transformer en menaces sérieuses. Il souligne que de simples bogues de performance peuvent être utilisés pour partitionner le réseau et permettre des attaques double-spending. Cette approche prudente reconnaît que les développeurs peuvent ne pas comprendre au départ tout le potentiel d'exploitation d'une vulnérabilité, ce qui fait qu'il est plus prudent d'envisager le pire des scénarios plutôt que de sous-estimer la menace.
+reviewed: false

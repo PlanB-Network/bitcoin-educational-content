@@ -165,7 +165,7 @@ Passphrase adalah alat yang sangat kuat untuk meningkatkan keamanan bitcoin Anda
 
 Passphrase adalah alat yang sangat kuat untuk memperkuat keamanan bitcoin Anda. Namun, sangat penting untuk memahami cara kerjanya sebelum menerapkannya, agar tidak kehilangan akses ke dompet Anda. Itu sebabnya saya menjelaskannya secara lengkap dalam tutorial terpisah berikut:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Akhirnya, halaman pengaturan terakhir memungkinkan Anda untuk mereset Ledger Anda. Lanjutkan dengan reset ini hanya jika Anda yakin tidak mengandung kunci apa pun yang mengamankan bitcoin, karena Anda bisa kehilangan akses ke dana Anda secara permanen.
 ![LEDGER FLEX](assets/notext/30.webp)
@@ -301,7 +301,7 @@ Anda dapat menambahkan "*Label*" untuk menggambarkan sumber bitcoin yang akan di
 
 Untuk informasi lebih lanjut tentang pelabelan, saya juga menyarankan Anda untuk melihat tutorial lain ini:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Anda kemudian dapat menggunakan alamat ini untuk menerima bitcoin.
 

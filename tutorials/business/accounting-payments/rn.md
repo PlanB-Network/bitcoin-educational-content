@@ -28,7 +28,7 @@ Intambwe ikurikira ni ukwemera Bitcoin ataco uhinduye mu bucuruzi bwawe; uburyo 
 Kugira ngo vyorohe, tuzokoresha Wallet ya Satoshi nk’akarorero. Kurikiza izi ntambwe kugira ngo uyishiremwo kandi uyitunganye:
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Uhejeje gukurikiza iyo nsiguro, uzoba witeguriye kwemera Bitcoin nk'uburyo bwo kwishura: ufungure gusa porogarama ya telefone ngendanwa maze ukande kuri buto ya "Receive", hanyuma winjize amahera (akenshi mu mafaranga y'aho uba) kuri generate Invoice yishurwa n'uwuyikoresha.
 
@@ -59,7 +59,7 @@ Inyungu zo gukoresha ikintu co kugurisha ni zitatu:
 Ushaka kumenya vyinshi, raba inyigisho yihariye kuri Wallet ya Satoshi - Ikibanza co kugurisha:
 
 
-https://planb.network/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
+https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc9f266-cb21-49a8-94a8-5fe15a82eb07
 
 ## Amabwirizwa
 

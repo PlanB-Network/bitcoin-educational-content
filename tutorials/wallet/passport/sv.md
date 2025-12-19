@@ -32,7 +32,7 @@ För att hantera din säkra Wallet på ett Passport har du flera alternativ. Den
 Om du är nybörjare är det enklaste alternativet att använda ditt Passport med den inbyggda Envoy-applikationen, utvecklad av Foundation. För att ta reda på hur du använder Envoy med ditt pass, kolla in den här andra handledningen :
 
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Uppackning av passet
 
@@ -203,7 +203,7 @@ För att göra detta använder du MicroSD-kortet som medföljde i Passport-boxen
 Innan du installerar den på din enhet rekommenderar vi starkt att du kontrollerar äktheten och integriteten hos den nedladdade firmware. Om du behöver hjälp med detta, se denna handledning :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Efter att ha kontrollerat `.bin`-filen, placera den på din MicroSD och sätt sedan in den i Passport. Filutforskaren i Passport öppnas. Välj filen `vN.N.N-passport.bin`.
 
@@ -301,7 +301,7 @@ Klicka på bekräftelseknappen för att se din Mnemonic-fras.
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 naturligtvis får du aldrig dela dessa ord på Internet, som jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
 
@@ -430,7 +430,7 @@ Innan du fortsätter kan du, om du vill, lägga till en BIP39 passphrase. En BIP
 Innan du konfigurerar det här alternativet på ditt Passport rekommenderas det starkt att du läser den här artikeln för att fullt ut förstå den teoretiska driften av passphrase och undvika fel som kan leda till förlust av dina bitcoins:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 För att aktivera den, gå till menyn "*More*" och klicka på "*Enter passphrase*".
 
@@ -462,7 +462,7 @@ Varje gång du låser upp, efter att ha skrivit ner passphrase, kontrollerar du 
 Innan du får dina första bitcoins på din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna viss referensinformation, till exempel din xpub eller första mottagande Address, och radera sedan din Wallet på passet medan det fortfarande är tomt (`Inställningar -> Avancerat -> Radera pass`). Försök sedan återställa din Wallet med hjälp av dina pappersbackuper av Mnemonic-frasen och alla passphrase. Kontrollera att cookie-informationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du läsa den här andra handledningen :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -482,7 +482,7 @@ Börja med att ladda ner och installera Sparrow wallet [från den officiella web
 Se till att kontrollera programvarans äkthet och integritet före installationen. Om du inte vet hur du gör det kan du läsa den här handledningen:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 När Sparrow wallet är öppet klickar du på fliken "*File*" och sedan på "*New Wallet*".
 
@@ -712,4 +712,4 @@ Gratulerar, du vet nu hur du konfigurerar och använder Passport. Om du tyckte a
 För ytterligare information, se vår handledning om Liana-programvaran:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

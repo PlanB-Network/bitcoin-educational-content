@@ -16,7 +16,7 @@ Diese beiden Sicherheitsprinzipien für Passwörter (Einzigartigkeit und Robusth
 
 Ein Passwort-Manager generiert und speichert sicher starke Passwörter und ermöglicht Ihnen den Zugriff auf alle Ihre Online-Konten, ohne dass Sie sich diese einzeln merken müssen. Sie müssen sich nur ein Passwort merken, das Master-Passwort, das Ihnen Zugang zu allen in dem Manager gespeicherten Passwörtern gibt. Die Verwendung eines Passwort-Managers verbessert Ihre Online-Sicherheit, da sie die Wiederverwendung von Passwörtern verhindert und systematisch zufällige Passwörter generiert. Aber es vereinfacht auch die tägliche Nutzung Ihrer Konten, indem es den Zugang zu Ihren sensiblen Informationen zentralisiert.
 In diesem Tutorial werden wir erkunden, wie man einen Passwort-Manager einrichtet und verwendet, um Ihre Online-Sicherheit zu verbessern. Ich werde Ihnen Bitwarden vorstellen, und in einem anderen Tutorial werden wir uns eine andere Lösung namens KeePass ansehen.
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Warnung: Ein Passwort-Manager ist großartig für die Speicherung von Passwörtern, aber **Sie sollten niemals die mnemonische Phrase Ihres Bitcoin-Wallets darin speichern!** Denken Sie daran, eine mnemonische Phrase sollte ausschließlich in einem physischen Format gespeichert werden, wie einem Stück Papier oder Metall.
 
@@ -68,9 +68,9 @@ Zuallererst rate ich Ihnen dringend, die Zwei-Faktor-Authentifizierung (2FA) ein
 
 Wenn Sie unsicher sind, wie Sie diese 2FA-Geräte einrichten und verwenden, empfehle ich, diesen 2 anderen Tutorials zu folgen:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Gehen Sie dazu in den Tab "*Sicherheit*" im Menü "*Einstellungen*".
 ![BITWARDEN](assets/notext/14.webp)
@@ -97,7 +97,7 @@ Hier können Sie die Länge Ihrer Passwörter auf 40 erhöhen und das Kästchen 
 
 Jetzt, da Ihr Passwort-Manager konfiguriert ist, können Sie beginnen, die Anmeldeinformationen für Ihre Online-Konten zu speichern. Um einen neuen Eintrag hinzuzufügen, klicken Sie direkt auf den Button "*Neuer Eintrag*" oder oben rechts auf dem Bildschirm auf "*Neu*", dann auf "*Eintrag*".
 Im sich öffnenden Formular beginnen Sie damit, die Art des zu speichernden Eintrags zu bestimmen. Um Anmeldeinformationen zu speichern, wählen Sie aus dem Dropdown-Menü die Option "*Anmeldung*".
-Im Feld "*Name*" geben Sie einen beschreibenden Namen für Ihre Anmeldeinformationen ein. Dies erleichtert die Suche und Organisation Ihrer Passwörter, besonders wenn Sie eine große Anzahl haben. Wenn Sie beispielsweise Ihre Anmeldeinformationen für die PlanB Network-Seite speichern möchten, können Sie diesen Eintrag so benennen, dass er bei zukünftigen Suchen sofort erkennbar ist.
+Im Feld "*Name*" geben Sie einen beschreibenden Namen für Ihre Anmeldeinformationen ein. Dies erleichtert die Suche und Organisation Ihrer Passwörter, besonders wenn Sie eine große Anzahl haben. Wenn Sie beispielsweise Ihre Anmeldeinformationen für die Plan ₿ Academy-Seite speichern möchten, können Sie diesen Eintrag so benennen, dass er bei zukünftigen Suchen sofort erkennbar ist.
 Die Option "*Ordner*" ermöglicht es Ihnen, Ihre Anmeldeinformationen in Ordner zu klassifizieren. Bisher haben wir noch keine erstellt, aber ich werde Ihnen später zeigen, wie das geht.
 Im Feld "*Benutzername*" geben Sie Ihren Benutzernamen ein, der in der Regel Ihre E-Mail-Adresse ist.
 Als Nächstes können Sie im Feld "*Passwort*" Ihr Passwort eingeben. Ich empfehle jedoch dringend, Bitwarden ein langes, zufälliges und einzigartiges Passwort für Sie generieren zu lassen. Dies stellt sicher, dass Sie ein starkes Passwort haben. Um diese Funktion zu nutzen, klicken Sie auf das Doppelpfeil-Symbol über dem auszufüllenden Feld.
@@ -115,7 +115,7 @@ Klicken Sie dann auf "*Speichern*".
 ![BITWARDEN](assets/notext/40.webp)
 Ihr Ordner erscheint nun in Ihrem Manager.
 ![BITWARDEN](assets/notext/41.webp)
-Sie können einem Kennzeichen beim Erstellen, wie wir es zuvor getan haben, oder durch Ändern eines bestehenden Kennzeichens einen Ordner zuweisen. Zum Beispiel kann ich, indem ich auf mein Kennzeichen für das PlanB Network klicke, dann wählen, es im Ordner "*Bitcoin*" zu klassifizieren.
+Sie können einem Kennzeichen beim Erstellen, wie wir es zuvor getan haben, oder durch Ändern eines bestehenden Kennzeichens einen Ordner zuweisen. Zum Beispiel kann ich, indem ich auf mein Kennzeichen für das Plan ₿ Academy klicke, dann wählen, es im Ordner "*Bitcoin*" zu klassifizieren.
 ![BITWARDEN](assets/notext/42.webp)
 Auf diese Weise können Sie Ihren Passwortmanager strukturieren, um Ihre Kennungen leichter zu finden. Sie können sie mit Ordnern wie persönlich, beruflich, Banken, E-Mails, soziale Netzwerke, Abonnements, Einkaufen, Verwaltung, Streaming, Speicherung, Reisen, Gesundheit usw. organisieren.
 Wenn Sie es vorziehen, nur die Webversion von Bitwarden zu verwenden, ist das vollkommen möglich. Ich empfehle dann, Ihren Passwortmanager zu den Favoriten Ihres Browsers hinzuzufügen, um einen einfachen Zugriff zu ermöglichen und Phishing-Risiken zu vermeiden. Bitwarden bietet jedoch auch eine vollständige Palette von Clients an, die es Ihnen ermöglichen, Ihren Manager auf verschiedenen Geräten zu verwenden und seine tägliche Nutzung zu vereinfachen. Sie bieten insbesondere eine mobile App, eine Browsererweiterung und Desktop-Software an. Lassen Sie uns sehen, wie wir diese einrichten.
@@ -159,11 +159,11 @@ Und schließlich geben Sie den 6-stelligen Code aus Ihrer Authentifizierungs-App
 Sie sind jetzt über die Browsererweiterung mit Ihrem Bitwarden-Manager verbunden.
 
 ![BITWARDEN](assets/notext/51.webp)
-Zum Beispiel, wenn ich zur PlanB Network-Seite zurückkehre und versuche, mich in meinem Konto anzumelden, können Sie sehen, dass die Bitwarden-Erweiterung, die in den Browser integriert ist, die Anmeldefelder erkennt und mir automatisch anbietet, den zuvor gespeicherten Identifikator auszuwählen.
+Zum Beispiel, wenn ich zur Plan ₿ Academy-Seite zurückkehre und versuche, mich in meinem Konto anzumelden, können Sie sehen, dass die Bitwarden-Erweiterung, die in den Browser integriert ist, die Anmeldefelder erkennt und mir automatisch anbietet, den zuvor gespeicherten Identifikator auszuwählen.
 ![BITWARDEN](assets/notext/52.webp)
 Wenn ich diesen Identifikator auswähle, füllt Bitwarden die Anmeldefelder für mich aus. Diese Funktion der Erweiterung ermöglicht eine schnelle Verbindung zu Websites, ohne die Notwendigkeit, Anmeldeinformationen aus der Bitwarden-Webanwendung oder Software zu kopieren und einzufügen.
 ![BITWARDEN](assets/notext/53.webp)
-Die Erweiterung ist auch darauf ausgelegt, die Erstellung neuer Konten zu erkennen. Zum Beispiel, wenn ich ein neues Konto auf PlanB Network erstelle, schlägt Bitwarden automatisch vor, den neuen Identifikator zu speichern.
+Die Erweiterung ist auch darauf ausgelegt, die Erstellung neuer Konten zu erkennen. Zum Beispiel, wenn ich ein neues Konto auf Plan ₿ Academy erstelle, schlägt Bitwarden automatisch vor, den neuen Identifikator zu speichern.
 ![BITWARDEN](assets/notext/54.webp)
 Durch Klicken auf diesen Vorschlag, der erscheint, öffnet sich die Erweiterung. Sie ermöglicht es mir, die Details des neuen Identifikators einzugeben und ein starkes, einzigartiges Passwort zu generieren.
 ![BITWARDEN](assets/notext/55.webp)

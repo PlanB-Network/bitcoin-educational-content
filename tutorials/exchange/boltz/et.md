@@ -54,7 +54,7 @@ Sel viisil säilitate oma bitcoinide alalise isevalitsuse ja Exchange ei põhine
 
 
 
-Aatomiline Exchange töötab nutikate lepingutega [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). Seda tüüpi Contract puhul "lukustatakse" summa kahesuunalises kanalis ja kehtestatakse ajaline piirang, nii et kui tehing ei ole teatud aja jooksul lõpule viidud, läheb saldo hoiustajale tagasi. Sellist mehhanismi kasutab Boltzi platvorm.
+Aatomiline Exchange töötab nutikate lepingutega [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). Seda tüüpi Contract puhul "lukustatakse" summa kahesuunalises kanalis ja kehtestatakse ajaline piirang, nii et kui tehing ei ole teatud aja jooksul lõpule viidud, läheb saldo hoiustajale tagasi. Sellist mehhanismi kasutab Boltzi platvorm.
 
 
 
@@ -116,9 +116,9 @@ Kui olete oma põhikonfiguratsioonid lõpetanud, sisestage oma aatomi Exchange s
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ Seejärel klõpsake nupule **Loo aatomi Exchange** ja jätkake märgitud summa m
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Kui teie makse on tehtud ja kinnitatud, saate automaatselt vastavat summat oma Lightning Wallet-le.
 
@@ -188,6 +188,6 @@ Boltz pakub teile kõrgetasemelist konfidentsiaalsust tänu juurdepääsule Tor-
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Nüüdseks olete juba tuttav Boltziga, ainulaadse Exchange platvormiga, mis võimaldab Bitcoin ökosüsteemi erinevate kihtide koostalitlusvõimet.

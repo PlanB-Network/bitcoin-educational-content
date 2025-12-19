@@ -11,11 +11,10 @@ description: Bitcoin 徹底簡單且功能強大的產品組合
 
 
 
-在本教程中，我們將介紹 Blue Wallet，這是一種簡單但高效的 Bitcoin Wallet，可讓您個人管理比特幣，也可基於 [Multisig](https://planb.network/resources/glossary/multisig)建立管理合作社 (別擔心，我們會再來介紹)。
+在本教程中，我們將介紹 Blue Wallet，這是一種簡單但高效的 Bitcoin Wallet，可讓您個人管理比特幣，也可基於 [Multisig](https://planb.academy/resources/glossary/multisig)建立管理合作社 (別擔心，我們會再來介紹)。
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Blue Wallet 是一款開放原始碼、可自行儲存 Bitcoin Wallet，讓您�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 使用 Blue Wallet，您可以創建獨立、專用的 Bitcoin 投資組合。例如，您可以在同一個應用程式中，將一個 Wallet 用於儲蓄，另一個則用於日常開支。
 
@@ -65,10 +64,10 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Blue Wallet 的 Bitcoin Wallet 代表 Bitcoin 生態系統中的標準 Wallet。只要您擁有復原字，就可以花費比特幣，而復原字會在網路中提供有效的簽章，以驗證您擁有比特幣。
 
@@ -122,7 +121,7 @@ Blue Wallet 可讓您隨心所欲地設定 Bitcoin 出貨的參數。
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -220,7 +219,7 @@ Multisig (多重簽名) Wallet 代表由一定數量 (最少 2 個) 的 Bitcoin 
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh)或 Pay to Witness Script Hash** 是一種鎖定方法，它可以將您的交易流出的 bitcoins (Outputs) 鎖定到 Blue Wallet 設定的自訂腳本的 Hash。這種鎖定方式的主要優點是可以減少交易資料的大小，隱含地允許您支付較低的交易費用。
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh)或 Pay to Witness Script Hash** 是一種鎖定方法，它可以將您的交易流出的 bitcoins (Outputs) 鎖定到 Blue Wallet 設定的自訂腳本的 Hash。這種鎖定方式的主要優點是可以減少交易資料的大小，隱含地允許您支付較低的交易費用。
 
 
 
@@ -264,7 +263,7 @@ Multisig (多重簽名) Wallet 代表由一定數量 (最少 2 個) 的 Bitcoin 
 
 
 
-如果第二位 Wallet 簽署人也是使用者，即使他或她不在網際網路中（無 Wi-Fi、無行動資料），他或她也可以透過掃描您剛剛建立的 [部分簽署交易](https://planb.network/resources/glossary/psbt)的 QR 代碼來簽署交易。
+如果第二位 Wallet 簽署人也是使用者，即使他或她不在網際網路中（無 Wi-Fi、無行動資料），他或她也可以透過掃描您剛剛建立的 [部分簽署交易](https://planb.academy/resources/glossary/psbt)的 QR 代碼來簽署交易。
 
 
 
@@ -330,12 +329,12 @@ Blue Wallet 應用程式不再支援 Lightning Network。
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 您現在已經完成了 Blue Wallet 之旅，準備好使用 Bitcoin 的所有簡單和強大功能。我們建議您採取下一個步驟，瞭解如何透過 Lightning 的強大功能，在您的商店接受 Bitcoin 付款。
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

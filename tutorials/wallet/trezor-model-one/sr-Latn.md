@@ -81,7 +81,7 @@ Za ovaj vodič, pokazaću vam kako da koristite Trezor Model One sa [Sparrow Wal
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Trebaće vam i softver Trezor Suite da biste konfigurisali Model One, proverili njegovu autentičnost i instalirali firmver. Ovaj softver ćemo koristiti samo za to, a nakon toga će biti potreban samo za ažuriranja firmvera. Za svakodnevno upravljanje Wallet koristićemo isključivo Sparrow Wallet, jer je optimizovan za Bitcoin i lak za korišćenje, čak i za početnike (Sparrow podržava samo Bitcoin, ne altcoine).
 
@@ -99,7 +99,7 @@ Za oba ova programa, toplo preporučujem da proverite i njihovu autentičnost (p
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Pokretanje Trezor Model One
 
@@ -209,7 +209,7 @@ Za više informacija o pravilnom načinu čuvanja i upravljanja vašom Mnemonic 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Da biste prešli na sledeće reči, kliknite desnim tasterom miša. Kada zapišete sve reči, ponovo kliknite desnim tasterom da pređete na sledeći korak.
 
@@ -315,7 +315,7 @@ Kada otvorite Sparrow Wallet, proverite da li je softver povezan sa Bitcoin čvo
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Kliknite na karticu "*File*", zatim na "*New Wallet*".
 
@@ -357,7 +357,7 @@ Kada povežete svoj Model One sa računarom sa otvorenim Sparrow Wallet, bićete
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 ![Image](assets/fr/26.webp)
 
@@ -407,7 +407,7 @@ Da biste saznali više o tome kako izvesti test oporavka, predlažem da pogledat
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Kako primiti bitkoine sa Trezor Model One?
 
@@ -565,6 +565,6 @@ Možete ga pronaći u kartici "*Transactions*" na Sparrow Wallet.
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Ako ste našli ovaj vodič korisnim, bio bih zahvalan ako biste ostavili Green palac ispod. Slobodno podelite ovaj članak na vašim društvenim mrežama. Hvala vam puno!

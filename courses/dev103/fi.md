@@ -50,7 +50,7 @@ Niiden sisältämät komennot on kirjoitettu JavaScript-ohjelmointikielellä.
 JavaScript-runtime on erityinen ohjelma, joka suorittaa nämä tiedostot.
 
 
-![](assets/en/1.webp)
+![](assets/en/001.webp)
 
 
 ### NodeJS-suoritusaika
@@ -71,7 +71,7 @@ Koska NodeJS on saatavilla kaikille kolmelle käyttöjärjestelmälle, kirjoitta
 Tämä tarkoittaa, että voit esimerkiksi kirjoittaa yksinkertaisen videopelin JavaScriptillä Windows-tietokoneellasi ja antaa sen ystävällesi, jotta hän voi ajaa sen Mac-tietokoneellaan.
 
 
-![](assets/en/2.webp)
+![](assets/en/002.webp)
 
 
 
@@ -191,7 +191,7 @@ Ohjelmat suorittavat yleensä operaatioita datalla.
 Muuttujat ovat kuin nimettyjä laatikoita, joita käytämme tietojen tallentamiseen. Niiden avulla voimme liittää tietoon tietyn nimen, jotta voimme hakea sen myöhemmin kyseisellä nimellä.
 
 
-### `let`-ilmoitukset
+### let-ilmoitukset
 
 
 Voit ilmoittaa muuttujan JavaScriptissä avainsanalla `let`.
@@ -355,7 +355,7 @@ Bob
 Kuten näet, sekä `score` että `player` on muutettu.
 
 
-### `const`-ilmoitukset
+### const-ilmoitukset
 
 
 Useimmiten emme kuitenkaan halua muuttujan muuttuvan sen luomisen jälkeen. Siihen käytämme `const`-muuttujaa.
@@ -680,7 +680,7 @@ Voit yhdistää loogisia lausekkeita loogisilla operaattoreilla:
 - `!` tarkoittaa "ei", sitä käytetään ennen booleania ja se kääntää sen: jos boolean on `true`, se palauttaa `false`, ja päinvastoin.
 
 
-![](assets/en/3.webp)
+![](assets/en/003.webp)
 
 
 Esimerkkejä:
@@ -875,7 +875,7 @@ undefined
 Mikä tuo on?
 
 
-### `undefined`
+### undefined
 
 
 Erityisarvo `undefined` tarkoittaa, että "arvoa ei ole annettu".
@@ -918,7 +918,7 @@ undefined
 ```
 
 
-### `null` ja sen käsittely
+### null ja sen käsittely
 
 
 `null` on myös erikoisarvo. Se tarkoittaa "tässä ei ole mitään, ja tein sen tarkoituksella"
@@ -1075,7 +1075,7 @@ Tämä tarkoittaa, että voimme käyttää lohkoja eristämään koodin osia ja 
 Järjestämällä koodimme lohkoihin voimme myös jäsentää ohjelman suoritusta, kun käytämme kontrollivirran rakenteita, kuten `if`
 
 
-### `if`, `else`
+### if, else
 
 
 Joskus haluamme ajaa koodia **vain** jos jokin on totta. Sitä varten on olemassa `if`-lauseke.
@@ -1190,7 +1190,7 @@ Koska käytimme `!`-operaattoria muuttujan `aikuinen` kääntämiseen.
 Lohkojen, logiikan ja vertailuoperaattoreiden avulla voimme jäsentää ohjelman suoritusta määrittelemällä muuttujia, joiden on oltava `tosi` (tai `väärin`), jotta jotain tapahtuisi.
 
 
-### `while`, `break`, `continue`, `while`, `break`, `continue`, `continue`, `continue`
+### while, break, continue, while, break, continue, continue, continue
 
 
 While-silmukka toistaa koodia *sekä niin kauan* kuin jokin ehto on tosi.
@@ -1312,7 +1312,7 @@ Lohko suoritetaan kerran jokaista matriisin elementtiä kohden.
 `fruit` on tässä uusi muuttuja, joka ottaa kunkin rivin kohteen arvon, jotta sillä voidaan toimia lohkon sisällä.
 
 
-### `for ... in ...`
+### for ... in ...
 
 
 Voit käyttää komentoa `for ... in` kiertääksesi joukon avaimia (indeksejä):
@@ -1642,7 +1642,7 @@ Hello Lina and Marco!
 ```
 
 
-### `return` (funktioiden tuotos)
+### return (funktioiden tuotos)
 
 
 Funktiot voivat myös **palauttaa** arvoja. Tämä tarkoittaa, että ne lähettävät arvon takaisin sinne, missä funktiota kutsuttiin.
@@ -2252,7 +2252,7 @@ JavaScriptin avulla voit muokata objekteja vapaasti, mutta luokkia käytettäess
 
 
 
-### Perinnöllisyys `extends`- ja `super()`-ominaisuuksilla
+### Perinnöllisyys extends- ja super()-ominaisuuksilla
 
 
 Joskus haluat luoda luokan, joka on *lähes* sama kuin toinen luokka, mutta jolla on muutama lisäominaisuus.
@@ -2295,7 +2295,7 @@ console.log(`${this.brand} car is ready to drive!`)
 Luokka `Auto` perii nyt kaiken luokasta `Ajoneuvo`. Se saa `brand`-ominaisuuden, ja olemme korvanneet `start()`-metodin omalla versiollamme.
 
 
-![](assets/en/4.webp)
+![](assets/en/004.webp)
 
 
 Kokeillaan sitä:
@@ -2349,7 +2349,7 @@ myCar.start()
 ```
 
 
-![](assets/en/5.webp)
+![](assets/en/005.webp)
 
 
 
@@ -2374,7 +2374,7 @@ Yhteenvetona
 Tämä on hyödyllistä, kun sinulla on useita samankaltaisia asioita (kuten autoja, kuorma-autoja ja polkupyöriä) ja haluat, että ne käyttävät samaa koodia, mutta käyttäytyvät silti omalla tavallaan.
 
 
-### `instanceof`
+### instanceof
 
 
 Avainsana `instanceof` tarkistaa, onko objekti luotu tietystä luokasta.
@@ -2439,7 +2439,7 @@ Kun kirjoitat monimutkaisempia JavaScript-ohjelmia, kohtaat **virheitä**. Ne ov
 Jos emme käsittele näitä virheitä oikein, ohjelmamme saattaa kaatua tai käyttäytyä arvaamattomalla tavalla. JavaScript tarjoaa työkaluja näiden virheiden havaitsemiseen ja hallitsemiseen, jotta voimme käsitellä niitä tyylikkäämmin.
 
 
-### Yleinen virhe: arvon käyttäminen `undefined`-arvossa
+### Yleinen virhe: arvon käyttäminen undefined-arvossa
 
 
 Tässä on yleinen tilanne, joka aiheuttaa virheen:
@@ -2500,7 +2500,7 @@ console.log(divide(10, 0))  // Error!
 Toinen kutsu aiheuttaa virheen, koska jakaminen nollalla ei ole tässä esimerkissä sallittua.
 
 
-### Virheiden sieppaaminen `try...catch` -menetelmällä
+### Virheiden sieppaaminen try...catch -menetelmällä
 
 
 Jos et halua ohjelmasi kaatuvan virheen sattuessa, voit ottaa virheen kiinni käyttämällä `try...catch`-lohkoa. Tämä on hyödyllistä silloin, kun haluat ohjelmasi **jatkavan**, vaikka jokin epäonnistuu.
@@ -2553,7 +2553,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ```
 
 
-### Lohko `finally`
+### Lohko finally
 
 
 Voit myös lisätä `finally`-lohkon. Tämä on koodia, joka **ajetaan** aina, riippumatta siitä, onko virhe tapahtunut vai ei.
@@ -2589,7 +2589,7 @@ This will run no matter what.
 Tässä luvussa esitellään joitakin JavaScriptin yleisimpiä sudenkuoppia ja kerrotaan, miten niitä voi välttää.
 
 
-### `var` ja Assignment ilman ilmoitusta
+### var ja Assignment ilman ilmoitusta
 
 
 Vanhemmassa JavaScript-koodissa muuttujat ilmoitettiin usein avainsanalla `var`. Toisin kuin `let` ja `const`, joista olet jo oppinut, `var` voi käyttäytyä hämmentävällä tavalla.
@@ -2650,7 +2650,7 @@ Näissä esimerkeissä JavaScript yrittää arvata, mitä tarkoitit. Joskus se m
 On tärkeää olla tietoinen JavaScriptin heikosta tyypitysjärjestelmästä. Kun asiat alkavat käyttäytyä oudosti, se voi johtua odottamattomasta tyyppipakosta.
 
 
-### `"use strict"`
+### "use strict"
 
 
 Voit ottaa käyttöön tiukemman tilan, joka muuttaa jotkut hiljaiset virheet oikeiksi virheiksi ja estää sinua käyttämästä joitakin kielen vaarallisimpia ominaisuuksia.
@@ -2918,7 +2918,7 @@ sayHello()        // Hello, friend!
 Oletusarvoa `"friend"` käytetään, kun mitään ei anneta.
 
 
-### Levitysparametrit (`...`)
+### Levitysparametrit (...)
 
 
 Entä jos funktiosi ottaa joustavasti useita argumentteja?
@@ -3030,7 +3030,7 @@ Funktio `makeGreeter` on funktio, joka rakentaa muita funktioita. Se vastaanotta
 Tällainen malli on erittäin tehokas, sillä sen avulla voit jättää funktioihin "aukkoja", jotka voit täyttää myöhemmin haluamallasi käyttäytymisellä.
 
 
-### `map()`, `filter()`, `reduce()`
+### map(), filter(), reduce()
 
 
 JavaScript antaa sinulle joitakin hyödyllisiä sisäänrakennettuja menetelmiä, joita voit käyttää matriisien kanssa.
@@ -3149,7 +3149,7 @@ console.log(alice.#age)      // ❌ Error! You can't access private properties d
 Yksityiset ominaisuudet ovat hyödyllisiä, kun haluat estää tahattomat muutokset.
 
 
-### `static` Ominaisuudet
+### static Ominaisuudet
 
 
 Joskus ominaisuuden halutaan kuuluvan luokalle itselleen, ei jokaiselle luokasta luotavalle objektille. Sitä varten on `static`. Staattinen ominaisuus sisältyy luokkaan, ja kaikki kyseisen luokan objektit viittaavat siihen.
@@ -3174,7 +3174,7 @@ console.log(User.counter) //  prints 2
 Tämä on hyödyllistä jaettujen tietojen ja menetelmien tallentamisessa, jotka koskevat koko objektiryhmää, ei vain yhtä objektia.
 
 
-### `get` ja `set`
+### get ja set
 
 
 JavaScriptissä `get`- ja `set`-ominaisuuksien avulla voit luoda ominaisuuksia, jotka *näyttävät* tavallisilta muuttujilta, mutta jotka itse asiassa suorittavat erikoiskoodia taustalla.
@@ -3340,7 +3340,7 @@ console.log(config.language) // JavaScript
 Tätä kutsutaan **laskennalliseksi ominaisuudeksi**. Arvioidaan hakasulkeiden sisällä oleva arvo, ja tulosta käytetään avaimena.
 
 
-### `Symboli` Tyyppi
+### Symboli Tyyppi
 
 
 Merkkijonojen lisäksi JavaScript sallii myös käyttää objektin avaimena erityistä tyyppiä nimeltä `Symbol`.
@@ -3508,7 +3508,7 @@ timer: 2.379ms
 Hyödyllinen yksinkertaiseen suorituskykytestaukseen.
 
 
-### `Math`-objekti
+### Math-objekti
 
 
 JavaScript antaa sinulle `Math`-olion, jossa on hyödyllisiä laskutoimituksia varten tarkoitettuja metodeja.
@@ -3687,7 +3687,7 @@ myMap.clear()
 Kartat soveltuvat erinomaisesti suurten arvokokoelmien hallintaan, koska arvojen käyttäminen suuressa kartassa on yleensä paljon suorituskykyisempää kuin suuressa objektissa.
 
 
-### `Set`
+### Set
 
 
 `Set` on kokoelma **arvoja** (ei avaimia), joissa jokaisen arvon on oltava **yksilöllinen**. Tämä tarkoittaa:
@@ -3770,7 +3770,7 @@ Useimmat JavaScriptissä olevat asiat, joiden yli voi tehdä silmukoita (kuten m
 **Iteraattori** on JavaScriptissä erityinen objekti, jonka avulla voit käydä läpi listan kohteita **yksi kerrallaan**.
 
 
-### `Object`-iteraattorit
+### Object-iteraattorit
 
 
 Toisin kuin matriisit tai kartat, tavalliset objektit eivät **ole iteroitavissa** komennolla `for...of`. Jos yrität tätä:
@@ -3892,7 +3892,7 @@ Vaikka objektit eivät ole suoraan iteroitavissa, nämä metodit antavat sinulle
 Mutta miten iteraattorit toimivat?
 
 
-### `Symbol.iterator`
+### Symbol.iterator
 
 
 Kaikkien iteraattorien salaisuus on erityinen **symboli** nimeltä `Symbol.iterator`.
@@ -3924,7 +3924,7 @@ Jokainen `.next()`-kutsu antaa sinulle seuraavan arvon. Kun se on valmis, se pal
 ```
 
 
-### `next()`
+### next()
 
 
 Metodia `.next()` käytetään hakemaan sarjan seuraava kohde.
@@ -4046,7 +4046,7 @@ Näin tapahtuu:
 Nyt `Range`-luokkamme toimii kuin array, ja voimme käyttää sitä missä tahansa silmukassa, joka odottaa iterablea.
 
 
-### Generaattorifunktiot ja `yield`
+### Generaattorifunktiot ja yield
 
 
 Jotta iteraattoreiden luominen olisi helpompaa, JavaScript tarjoaa **generaattorifunktioita**, joissa käytetään `function*`-avainsanaa (se on `function`, jonka lopussa on `*`) ja `yield`-avainsanaa.
@@ -4105,7 +4105,7 @@ Tähän asti koodimme on ollut **synkronista**: se suoritetaan rivi kerrallaan, 
 Tässä luvussa esittelemme uuden käsitteen: **valuutta**. Sen avulla voimme manipuloida järjestystä, jossa asiat tehdään. Tämä on hyödyllistä, kun käsitellään esimerkiksi ajastimia, käyttäjän syötteitä tai tiedostojen lukemista levyltä. JavaScript tarjoaa erilaisia työkaluja samanaikaisuuden toteuttamiseen.
 
 
-### `setTimeout`
+### setTimeout
 
 
 Toiminnolla `setTimeout` voit **suorittaa toiminnon myöhemmin**, kun jokin aika on kulunut.
@@ -4253,7 +4253,7 @@ Sen sisällä annetaan funktio, jolla on kaksi parametria:
 Yllä olevassa esimerkissä se vain ratkaistaan välittömästi viestillä `"Se toimi!"`.
 
 
-### `.then()`
+### .then()
 
 
 Jos haluat tehdä jotain **jälkeen**, kun lupaus on tehty, käytämme komentoa `.then()`:
@@ -4307,7 +4307,7 @@ Done waiting!
 ```
 
 
-### `reject()`
+### reject()
 
 
 Luodaan lupaus, joka **epäonnistuu**:
@@ -4412,7 +4412,7 @@ Failure: Not a positive number
 ```
 
 
-### Operaatioiden ketjuttaminen `Promise`:n avulla
+### Operaatioiden ketjuttaminen Promise:n avulla
 
 
 
@@ -4551,7 +4551,7 @@ Käydään läpi, mitä tämä tekee:
 Jokainen `.then()` odottaa, että sitä edeltävä vaihe päättyy. Voimme siis muodostaa **toimintaketjun** ilman sisäkkäisyyttä. Tämä tekee koodista luettavampaa ja helpommin korjattavaa.
 
 
-## Samanaikaisuus `async`/`await`-ohjelmilla
+## Samanaikaisuus async/await-ohjelmilla
 
 <chapterId>6e93d29f-c8bf-5fd1-a9c9-4e794ee6cbd0</chapterId>
 
@@ -4562,7 +4562,7 @@ Näimme, miten `Promise`-ketjut auttavat meitä välttämään takaisinkutsuhelv
 Tässä kohtaa `async` ja `await` tulevat kuvaan. Niiden avulla voimme kirjoittaa asynkronista koodia, joka näyttää synkroniselta koodilta, mikä tekee siitä helpommin ymmärrettävää.
 
 
-### Mikä on `async`?
+### Mikä on async?
 
 
 Kun kirjoitat avainsanan `async` ennen funktiota, JavaScript kietoo funktion paluuarvon automaattisesti Promiseen.
@@ -4606,7 +4606,7 @@ greet().then( result => console.log(result) ) // prints "hello"
 Tai voit käyttää `await`...
 
 
-### Mikä on `await`?
+### Mikä on await?
 
 
 Avainsana `await` kertoo JavaScriptille: "Odota, kunnes tämä lupaus on tehty, ja anna minulle sitten tulos."
@@ -4638,7 +4638,7 @@ Nyt voimme käyttää tulosta ikään kuin se olisi tavallinen arvo.
 Tehdään nyt jotain hieman hyödyllisempää.
 
 
-### Viiveen simulointi `await`:lla
+### Viiveen simulointi await:lla
 
 
 Luomme yksinkertaisen `wait`-funktion, joka ottaa argumenttina millisekuntien määrän ja ratkaisee vain tämän määrän millisekuntien jälkeen tekemättä mitään muuta:
@@ -4881,7 +4881,7 @@ Asynkiset iteraattorit ovat hyödyllisiä, kun:
 Jos esimerkiksi haluat ladata viestejä chat-palvelimelta yksi kerrallaan tai ladata suuren tiedoston pätkittäin, asynkiset iteraattorit antavat sinulle tavan kirjoittaa `for`-silmukka, joka toimii viivästetyllä datalla.
 
 
-### `Symbol.asyncIterator`
+### Symbol.asyncIterator
 
 
 Voimme käyttää asynkronisia iteraattoreita myös mukautetuissa luokissa.
@@ -5228,7 +5228,7 @@ JavaScript on tulkattu kieli, toisin kuin C:n kaltaiset käännetyt kielet.
 Käännetyllä kielellä kirjoitettu koodi muutetaan binääriksi, ja binääri syötetään suoraan tietokoneen suorittimelle.
 
 
-![](assets/en/6.webp)
+![](assets/en/006.webp)
 
 
 Interpred-kielet taas ovat yleensä käyttäjäystävällisempiä ja lähempänä ihmisten ajattelua ("korkean tason") kuin koneiden toimintaa ("matalan tason"), joten niihin on yleensä rakennettu virtuaalikone niiden koodin suorittamista varten.
@@ -5261,7 +5261,7 @@ Miksi se on ongelma?
 Koska selaimet suorittavat koodia, joka on haettu miljoonista eri lähteistä internetistä, ne voivat helposti joutua haittaohjelmiksi, joten ne on "hiekkalaatikoitu" muusta käyttöjärjestelmästä.
 
 
-![](assets/en/7.webp)
+![](assets/en/007.webp)
 
 
 JavaScriptillä ei voinut käyttää tietokoneen tiedostojärjestelmää ja muita paikallisia resursseja (ainakaan niin helposti kuin muilla kielillä), joten se rajoitti merkittävästi sitä, millaisia sovelluksia sillä pystyi rakentamaan.
@@ -5270,7 +5270,7 @@ JavaScriptillä ei voinut käyttää tietokoneen tiedostojärjestelmää ja muit
 Vuonna 2009 Ryan Dahl julkaisi NodeJS:n, joka on ajoaika, jonka avulla voit käyttää V8-moottoria selaimen ulkopuolella, suoraan tietokoneen natiivissa käyttöjärjestelmässä. Se lisää myös monia ominaisuuksia, jotka ovat hyödyllisiä palvelinpuolen ja komentorivin ohjelmien kirjoittamisessa. NodeJS:n avulla voit esimerkiksi luoda verkkopalvelimen, lukea ja kirjoittaa tiedostoja tai rakentaa työkaluja, jotka automatisoivat tehtäviä.
 
 
-![](assets/en/8.webp)
+![](assets/en/008.webp)
 
 
 Tällä kurssilla olemme tähän mennessä tutustuneet JavaScript-ominaisuuksiin, joita on sekä selaimessa että NodeJS:ssä. Näiden ominaisuuksien avulla olemme voineet määritellä tietoja ja käsitellä niitä abstrakteilla tavoilla. Seuraavilla oppitunneilla tutustumme ominaisuuksiin, jotka ovat NodeJS:lle ominaisia ja joiden avulla voimme olla vuorovaikutuksessa käyttöjärjestelmän kanssa.
@@ -5287,7 +5287,7 @@ NodeJS mahdollistaa muun muassa CLI:n (Command Line Interfaces) rakentamisen.
 Sitä varten tarvitsemme tavan ottaa vastaan komentoriviargumentteja, mikä Nodessa tapahtuu sisäänrakennetun `process`-olion avulla.
 
 
-### `prosessi`
+### prosessi
 
 
 NodeJS tarjoaa erityisen objektin nimeltä `process`, joka edustaa käynnissä olevaa ohjelmaa.
@@ -5307,7 +5307,7 @@ console.log(process.platform)
 Tämä tulostaa käyttöjärjestelmän alustan, kuten `win32`, `linux` tai `darwin` (Mac).
 
 
-### `process.argv`
+### process.argv
 
 
 Kun suoritat NodeJS-ohjelmaa terminaalista, voit antaa komentosarjan nimen perään ylimääräisiä sanoja (argumentteja). Nämä tallennetaan `process.argv`-tiedostoon.
@@ -5493,7 +5493,7 @@ Sinun ei tarvitse asentaa näitä sisäänrakennettuja moduuleja, ne tulevat Nod
 Seuraavissa luvuissa esitellään joitakin hyödyllisiä esimerkkejä niiden käytöstä.
 
 
-## `fs`-moduuli
+## fs-moduuli
 
 <chapterId>911e953a-35ae-5ee7-bd74-372501c32e81</chapterId>
 
@@ -5881,7 +5881,7 @@ package.json
 ```
 
 
-### `package.json`
+### package.json
 
 
 Package.json-tiedosto on vain JSON-tiedosto, joka tallentaa metatietoja projektistasi.
@@ -5960,7 +5960,7 @@ Mitä NPM teki?
 Mikä on `package-lock.json` ?
 
 
-### `package-lock.json`
+### package-lock.json
 
 
 NPM luo tämän tiedoston automaattisesti.
@@ -6023,7 +6023,7 @@ NodeJS:ää käytetään usein backend-kielenä: voit tehdä skriptistäsi palve
 Tässä luvussa esittelemme joitakin perusverkko-ominaisuuksia, joiden avulla voit tehdä sen.
 
 
-### `fetch()`
+### fetch()
 
 
 Jos haluat ohjelmasi lataavan tietoja verkkosivustolta tai API:sta, sinun on tehtävä **HTTP-pyyntö**.
@@ -6141,7 +6141,7 @@ JSON.parse("not json") // ❌ Error!
 Varmista siis, että merkkijono on muotoiltu oikein.
 
 
-### `http`-palvelin
+### http-palvelin
 
 
 NodeJS:n avulla voit luoda verkkopalvelimen asentamatta mitään muuta.

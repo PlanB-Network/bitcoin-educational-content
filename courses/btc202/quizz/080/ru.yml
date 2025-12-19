@@ -1,0 +1,9 @@
+question: Какое значение по умолчанию имеет параметр maxconnections в Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections ограничивает общее количество входящих и исходящих соединений. Значение по умолчанию равно 125.
+reviewed: true

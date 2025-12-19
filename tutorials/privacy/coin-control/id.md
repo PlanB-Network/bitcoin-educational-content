@@ -51,7 +51,7 @@ Dalam protokol Bitcoin, item seperti _account_ atau _unit moneter_ tidak ada. Ko
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Dengan Bitcoin, apa yang Anda kumpulkan dan kemudian dibelanjakan adalah unit akun kecil atau besar yang diukur dalam Satoshi, yang diwakili oleh 'hasil transaksi yang tidak terpakai', yaitu **UTXO**, yang juga disebut 'koin'. Ketika Anda menggunakan UTXO untuk membuat transaksi, UTXO tersebut akan dihancurkan sepenuhnya dan UTXO lain akan dibuat sebagai gantinya.
 
@@ -568,7 +568,7 @@ Kontrol Coin adalah praktik yang sangat efektif untuk memilih input transaksi An
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Kami telah berbicara sebelumnya tentang `pemisahan sisa-sisa`. Jika Anda ingin mengunci sisa-sisa untuk diproses nanti dan mendapatkan kembali privasi (menukar pada Layer 2), Anda harus berhati-hati dalam memberi label setiap kali Anda menerimanya. Dari Dompet Perangkat Lunak yang terlihat sejauh ini, hanya Electrum yang secara grafis mewarnai sisa UTXO untuk membuatnya terlihat sekilas. Yang lainnya, seperti Sparrow, menunjukkan kepada anda rantai di jalur derivasi dari masing-masing UTXO (`m/84'/0'/0'/1/11`).
 

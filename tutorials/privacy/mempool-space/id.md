@@ -14,9 +14,9 @@ Pada masa-masa awal Bitcoin, perlu menjalankan node Bitcoin untuk mengakses alat
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Oleh karena itu, berbagai proyek telah diluncurkan untuk memperluas komunitas Bitcoin, sehingga lebih mudah diakses oleh siapa saja yang tidak memiliki node dan/atau tidak memiliki keterampilan teknis yang diperlukan.
 
@@ -46,7 +46,7 @@ Penggunaan yang semakin meluas dalam ekosistem dan fakta bahwa Mempool.space ada
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Dasar-dasar Mempool.space
 
@@ -176,7 +176,7 @@ Temukan berbagai skema transaksi Bitcoin untuk meningkatkan kerahasiaan Anda.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Mempercepat transaksi Anda
 
@@ -200,7 +200,7 @@ Anda dapat melakukan tindakan penggantian biaya dengan portofolio yang menerima 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Jika semua istilah ini tampak terlalu teknis, saya sarankan Anda [membaca daftar istilah kami](https://planb.network/resources/glossary), yang berisi definisi semua istilah teknis yang terkait dengan Bitcoin dan ekosistemnya.
+Jika semua istilah ini tampak terlalu teknis, saya sarankan Anda [membaca daftar istilah kami](https://planb.academy/resources/glossary), yang berisi definisi semua istilah teknis yang terkait dengan Bitcoin dan ekosistemnya.
 
 
 
@@ -235,7 +235,7 @@ Sebuah Miner mengacu pada seseorang yang mengelola tambang, yaitu komputer yang 
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Penambang seperti "validator" yang memverifikasi dan mengelompokkan transaksi ke dalam blok. Untuk menambahkan blok baru ke jaringan Bitcoin, mereka harus memecahkan teka-teki matematika yang rumit (Proof-of-Work). Miner pertama yang berhasil memecahkan teka-teki tersebut akan mendapatkan hadiah Bitcoin (hibah blok + biaya untuk transaksi yang termasuk dalam blok tersebut).
 
@@ -372,4 +372,4 @@ Sekarang Anda telah mencapai akhir perjalanan Anda di Mempool.space, jadilah pen
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

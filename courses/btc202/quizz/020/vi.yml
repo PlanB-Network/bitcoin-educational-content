@@ -1,0 +1,9 @@
+question: Điều gì xảy ra nếu một khối vi phạm các quy tắc đồng thuận?
+answer: Nó ngay lập tức bị các nút từ chối
+wrong_answers:
+  - Nó được lưu trữ trong Mempool đang chờ xác thực
+  - Nó chỉ được chuyển tiếp bởi các nút chấp nhận các quy tắc khác
+  - Nó chỉ được xác thực bởi ví
+explanation: |
+  Các nút sẽ từ chối một cách có hệ thống bất kỳ khối nào không tuân thủ các quy tắc đồng thuận.
+reviewed: true

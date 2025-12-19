@@ -6,4 +6,4 @@ wrong_answers:
   - Déterminer la vitesse de la connexion Internet
 explanation: |
   L’adresse MAC sert d’identifiant matériel unique à chaque interface réseau, permettant de distinguer physiquement les équipements sur un réseau local.
-reviewed: false
+reviewed: true 

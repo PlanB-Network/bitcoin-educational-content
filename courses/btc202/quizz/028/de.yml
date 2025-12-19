@@ -1,0 +1,9 @@
+question: Wodurch unterscheidet sich ein pruned-Knoten von einem Full node?
+answer: Sie beseitigt nach und nach die alten Blockaden
+wrong_answers:
+  - Ältere Transaktionen werden nicht validiert
+  - Sie kann keine ganzen Blöcke weiterleiten
+  - Er behält keine lokale Kopie des Blockchain, sondern nur den UTXO-Satz
+explanation: |
+  Der pruned-Knoten validiert die gesamte Kette, behält aber nur einen Teil der jüngsten Blöcke bei, um den Speicherbedarf zu begrenzen.
+reviewed: true

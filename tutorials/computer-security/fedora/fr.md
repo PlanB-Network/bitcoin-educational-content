@@ -195,4 +195,4 @@ sudo dnf upgrade
 
 Voilà, votre système Fedora est à jour et prêt à être utilisé pour toutes vos tâches du quotidien. Découvrez notre tutoriel sur Linux Mint, une autre distribution Linux et comment mettre en place un environnement sain et sécurisé pour effectuer vos transactions Bitcoin.
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

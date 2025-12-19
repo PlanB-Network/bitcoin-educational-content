@@ -6,3 +6,4 @@ wrong_answers:
   - Nils Schneider
 explanation: |
   Im April 2010 nutzte er die OpenCL-Umgebung, um die GPU in das Bitcoin-Mining einzubeziehen. Am 10. Mai veröffentlichte er sein ausführbares Programm im Forum.
+reviewed: true

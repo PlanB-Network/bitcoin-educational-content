@@ -1,12 +1,12 @@
 ---
-name: Leitfaden für den lokalen Betrieb der Plan ₿ Network-Plattform
-description: Wie können Sie das Plan ₿ Network in einer lokalen Umgebung betreiben, um meinen Beitrag zu Inhalten oder das Korrekturlesen/Überprüfen von Bildungsinhalten auf dem Plan ₿ Network zu testen?
+name: Leitfaden für den lokalen Betrieb der Plan ₿ Academy-Plattform
+description: Wie können Sie das Plan ₿ Academy in einer lokalen Umgebung betreiben, um meinen Beitrag zu Inhalten oder das Korrekturlesen/Überprüfen von Bildungsinhalten auf dem Plan ₿ Academy zu testen?
 ---
 ![github](assets/cover.webp)
 
 ## Zusammenfassung
 
-Dieses Tutorial bietet eine schrittweise Anleitung zum Einrichten des Bitcoin-Lernmanagementsystems von Plan ₿ Network auf Ihrem lokalen Rechner unter Verwendung von Docker, Dummy-Schlüsseln und benutzerdefinierten Repository-Konfigurationen.
+Dieses Tutorial bietet eine schrittweise Anleitung zum Einrichten des Bitcoin-Lernmanagementsystems von Plan ₿ Academy auf Ihrem lokalen Rechner unter Verwendung von Docker, Dummy-Schlüsseln und benutzerdefinierten Repository-Konfigurationen.
 
 Falls Sie den obigen Teil nicht verstanden haben, keine Sorge - diese Anleitung ist für Sie!
 
@@ -106,7 +106,7 @@ Sobald die Container in Betrieb sind, rufen Sie das Frontend unter auf:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Hinweis: Die Anwendung wird automatisch neu geladen, wenn Sie die Quelldateien ändern.
 
@@ -142,7 +142,7 @@ dann wieder:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Anpassen des Repositorys (optional)**
 

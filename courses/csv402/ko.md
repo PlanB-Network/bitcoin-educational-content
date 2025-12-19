@@ -1,14 +1,11 @@
 ---
-name: 이론에서 실무까지, RGB 프로토콜
+name: RGB 프로그래밍
 goal: RGB을 이해하고 사용하는 데 필요한 기술을 습득하세요
-objectives: 
-
-  - RGB 프로토콜의 기본 개념 이해하기
-  - Client-side Validation 및 Bitcoin 약속의 원칙 마스터하기
-  - RGB 계약 생성, 관리 및 이전 방법 알아보기
-  - RGB 호환 라이트닝 노드 작동 방법
-
-
+objectives:
+- RGB 프로토콜의 기본 개념 이해하기
+- Client-side Validation 및 Bitcoin 약속의 원칙 마스터하기
+- RGB 계약 생성, 관리 및 이전 방법 알아보기
+- RGB 호환 라이트닝 노드 작동 방법
 ---
 # RGB 프로토콜 알아보기
 
@@ -63,7 +60,7 @@ Bitcoin Blockchain의 합의 규칙과 운영을 기반으로 계약과 자산�
 이 교육 과정은 원래 [풀구르벤처스](https://fulgur.ventures/)가 토스카나 비아레조에서 주최한 2주간의 고급 개발 부트캠프에서 시작되었습니다. Rust과 SDK에 초점을 맞춘 첫 주는 이 다른 강좌에서 확인할 수 있습니다:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 이 과정에서는 부트캠프의 두 번째 주에 집중하여 RGB를 집중적으로 다룹니다.
 
@@ -71,13 +68,13 @@ https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 **1주차 - LNP402:**
 
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 
 **2주차 - 현재 교육 CSV402:**
 
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 
 이 라이브 강좌의 주최자와 참여해주신 세 분의 선생님께 감사드립니다:
@@ -154,7 +151,7 @@ Blockchain과 분산 컴퓨팅의 세계에서는 두 가지 기본 패러다임
 Bitcoin의 맥락에서 여러분은 Mining의 원칙, 탈중앙화 및 거래의 최종성, 그리고 결제 채널의 작동 방식에 대해 잘 알고 계실 것입니다. RGB에서는 **Client-side Validation**이라는 새로운 패러다임이 도입되는데, 이는 Blockchain이나 라이트닝과 달리 Smart contract의 상태 전환을 로컬(클라이언트 측)에 저장하고 검증하는 방식으로 구성됩니다. 이는 다른 "디파이" 기술(_rollups_, _plasma_, _ARK_ 등)과도 다른데, Client-side Validation은 Blockchain에 의존하여 Double-spending를 방지하고 타임스탬프 시스템을 갖추면서 off-chain 상태 및 전환의 등록을 관련 참여자에게만 유지합니다.
 
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 
 나중에 중요한 용어인 "**Stash**"라는 개념도 소개할 텐데요, 이 데이터는 네트워크를 통해 전 세계적으로 복제되지 않기 때문에 Contract의 상태를 보존하는 데 필요한 클라이언트 측 데이터 집합을 가리킵니다. 마지막으로 Client-side Validation을 활용하는 프로토콜인 RGB의 이론적 근거와 기존 접근 방식(Blockchain 및 상태 채널)을 보완하는 이유에 대해 살펴봅니다.
@@ -200,7 +197,7 @@ Blockchain은 고도로 탈중앙화되어 있지만 확장성이 뛰어나지�
 이 새로운 패러다임은 영지식 증명 기술을 통합할 수 있을 뿐만 아니라 아무도 전체 레지스터를 보유하지 않기 때문에 글로벌 트랜잭션 그래프가 없기 때문에 훨씬 더 확장 가능하고 기밀성이 높습니다. 다른 한편으로, 이는 탈중앙화에 대한 특정 타협을 의미하기도 합니다. Smart contract의 발행자는 이더리움의 "Contract 배포자"와 같은 중앙 역할을 할 수 있습니다. 그러나 Blockchain와 달리 Client-side Validation을 사용하면 관심 있는 컨트랙트만 저장하고 검증할 수 있으므로 기존의 모든 상태를 다운로드하고 검증할 필요가 없어 확장성이 향상됩니다.
 
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 
 #### 2. CAP 정리(일관성, 가용성, 파티션 허용 오차)
@@ -233,7 +230,7 @@ Blockchain는 일관성과 가용성에 유리하지만 네트워크 파티셔�
 RGB와 같은 시스템은 일관성(각 참가자가 모호함 없이 로컬에서 데이터를 검증)과 파티셔닝 허용 범위(데이터를 자율적으로 보관)를 제공하지만, 글로벌 가용성을 보장하지는 않습니다(모든 참가자가 관련 기록을 가지고 있는지 확인해야 하며 일부 참가자는 아무것도 게시하지 않거나 특정 정보 공유를 중단할 수 있습니다).
 
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 
 #### 3. CIA 트릴레마(기밀성, 무결성, 가용성)
@@ -242,7 +239,7 @@ RGB와 같은 시스템은 일관성(각 참가자가 모호함 없이 로컬에
 이 트릴레마는 기밀성, 무결성, 가용성을 동시에 최적화할 수 없다는 사실을 상기시켜 줍니다. Blockchain, Lightning, Client-side Validation은 이 균형에 따라 다르게 적용됩니다. 단일 시스템이 모든 것을 제공할 수는 없으며, 여러 가지 접근 방식(Blockchain의 타임스탬프, Lightning의 동기식 접근 방식, RGB의 로컬 검증)을 결합하여 각 측면에서 우수한 보증을 제공하는 일관된 패키지를 확보해야 한다는 것입니다.
 
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 
 ### Blockchain의 역할과 샤딩의 개념
@@ -273,13 +270,13 @@ RGB 유형의 스마트 컨트랙트의 경우, 계약 자체에 따라 Shard을
 - Blockchain을 복잡하게 만들거나 기밀성을 잃지 않으면서도 더 복잡한 Smart contract 로직을 추가할 수 있도록 RGB 및 **Client-side Validation**을 지원합니다.
 
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 
 이 세 개의 Elements는 "Layer 2", "Layer 3" 등의 선형 스택이 아닌 삼각형 전체를 형성합니다. 라이트닝은 Bitcoin에 직접 연결하거나 RGB 데이터를 통합하는 Bitcoin 트랜잭션과 연결될 수 있습니다. 마찬가지로 "BiFi"(Bitcoin의 금융)는 기밀성, 확장성 또는 Contract 로직에 대한 필요에 따라 Blockchain, Lightning 및 RGB와 함께 구성할 수 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 
 ### 상태 전환의 개념
@@ -291,7 +288,7 @@ RGB 유형의 스마트 컨트랙트의 경우, 계약 자체에 따라 Shard을
 이 검증이 **Bitcoin**의 맥락에서 어떻게 작동하는지 이해하고, 보다 일반적으로 Client-side Validation의 철학을 파악하기 위해 먼저 Bitcoin Blockchain의 메커니즘을 살펴본 다음, Client-side Validation이 이들과 어떻게 다르고 어떤 최적화를 가능하게 하는지를 살펴보겠습니다.
 
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 
 Bitcoin Blockchain의 경우 트랜잭션 유효성 검사는 간단한 규칙을 기반으로 합니다:
@@ -304,7 +301,7 @@ Bitcoin Blockchain의 경우 트랜잭션 유효성 검사는 간단한 규칙�
 - 이 데이터를 블록 형태로 저장하여 필요한 경우 기록을 재생할 수 있도록 합니다.
 
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 
 하지만 이 모델에는 두 가지 큰 단점이 있습니다:
@@ -316,7 +313,7 @@ Bitcoin Blockchain의 경우 트랜잭션 유효성 검사는 간단한 규칙�
 - **프라이버시**: 모든 정보(금액, 목적지 주소 등)가 공개적으로 전송 및 저장되므로 거래의 기밀성이 제한됩니다.
 
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 
 실제로 이 모델은 Bitcoin을 기본 Layer(Layer 1)로 사용하지만, 높은 트랜잭션 처리량과 일정 수준의 기밀성이 동시에 필요한 복잡한 용도로는 불충분할 수 있습니다.
@@ -331,7 +328,7 @@ Client-side Validation는 전체 네트워크가 모든 거래를 검증하고 �
 - 이 일련의 작업은 ***Genesis***(초기 발행)에서 가장 최근 거래까지 비순환 방향 그래프(DAG) 또는 Shard, 즉 전체 내역의 일부분을 형성합니다.
 
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 
 동시에 나머지 네트워크(또는 더 정확하게는 Bitcoin과 같은 기본 Layer)가 이 데이터의 세부 사항을 보지 않고도 최종 상태를 잠글 수 있도록 Client-side Validation은 ***Commitment***라는 개념에 의존합니다.
@@ -362,7 +359,7 @@ Client-side Validation는 전체 네트워크가 모든 거래를 검증하고 �
 - 거래 상대방(수신자)은 이 자산과 관련된 고객 측 이력을 검색하고 Genesis의 Smart contract에서 전송하는 전환까지 엔드투엔드 일관성을 검증합니다.
 
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 
 Client-side Validation은 두 가지 주요 이점을 제공합니다:
@@ -390,7 +387,7 @@ RGB와 같은 시스템에서는 서로 다른 컨트랙트(또는 서로 다른
 실제로 이 Bitcoin 트랜잭션이 검증되면 Blockchain에 이미 새겨진 Hash를 수정할 수 없게 되므로 기본 계약의 상태가 영구적으로 "잠기게" 됩니다.
 
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 
 ### Stash 컨셉
@@ -399,7 +396,7 @@ RGB와 같은 시스템에서는 서로 다른 컨트랙트(또는 서로 다른
 **Stash**은 참여자가 RGB Smart contract의 무결성과 기록을 유지하기 위해 반드시 보유해야 하는 클라이언트 측 데이터 집합입니다. 공유된 정보에서 특정 상태를 로컬로 재구성할 수 있는 라이트닝 채널과 달리, RGB Contract의 **Stash**은 다른 곳에 복제되지 않으므로 분실할 경우 기록에 대한 책임은 참여자에게 있으므로 누구도 이를 복원할 수 없습니다. 그렇기 때문에 RGB에 안정적인 백업 절차를 갖춘 시스템을 도입해야 합니다.
 
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 
 ### Single-Use Seal: 기원 및 작동
@@ -426,13 +423,13 @@ Double-spending 토큰의 RGB을 방지하기 위해 "**Single-Use Seal**"라는
 일회용 씰은 피터 토드가 2016년에 제안한 암호화 기본 요소로, 물리적 씰의 개념과 유사하며, 일단 Seal이 컨테이너에 배치되면 Seal을 비가역적으로 깨뜨리지 않고는 컨테이너를 열거나 수정할 수 없게 됩니다.
 
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 
 디지털 세계로 전환된 이 접근 방식은 일련의 이벤트가 실제로 발생했으며 더 이상 사후적으로 변경할 수 없음을 증명할 수 있게 해줍니다. 따라서 일회용 씰은 'Hash + Timestamp'라는 단순한 논리를 넘어 '단 한 번만' 닫을 수 있는 Seal이라는 개념을 추가합니다.
 
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 
 일회용 씰을 사용하려면 출판물의 존재 여부를 증명할 수 있고, 일단 정보가 유포된 후에는 위조가 어렵고(불가능하지는 않더라도) 출판물을 증명할 수 있는 매체가 필요합니다. 예를 들어 대중에게 배포되는 종이 신문과 마찬가지로 **Blockchain**(Bitcoin과 같은)가 이 역할을 수행할 수 있습니다. 아이디어는 다음과 같습니다:
@@ -482,7 +479,7 @@ Double-spending 토큰의 RGB을 방지하기 위해 "**Single-Use Seal**"라는
 - Bob은 이러한 조건을 수락하거나 인정합니다.
 
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 
 **Seal 클로징:**
@@ -494,7 +491,7 @@ Double-spending 토큰의 RGB을 방지하기 위해 "**Single-Use Seal**"라는
 - 또한 Seal이 닫혀 있고 취소할 수 없음을 증명하는 **증인**(암호화 증명)을 제공합니다.
 
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 
 **Seal 인증:**
@@ -560,7 +557,7 @@ bool <- Verify(seal, witness, message)
 RGB Smart contract는 여러 개의 일회용 씰(여러 개의 UTXO)을 동시에 사용해야 할 수 있습니다. 또한 단일 Bitcoin 트랜잭션은 여러 개의 개별 컨트랙트를 참조할 수 있으며, 각 컨트랙트는 자체 State Transition을 봉인합니다. 이를 위해서는 **멀티 Commitment** 메커니즘을 통해 중복되는 커밋이 없음을 결정론적이고 고유하게 증명할 수 있어야 합니다. RGB에서 **Anchor**이라는 개념이 등장하는데, 이는 Bitcoin 트랜잭션과 하나 이상의 클라이언트 측 커밋(상태 전환)을 연결하는 특수 구조로, 각각 다른 Contract에 속할 가능성이 있습니다. 다음 장에서 이 개념에 대해 자세히 살펴보겠습니다.
 
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 
 프로젝트의 주요 GitHub 리포지토리 중 두 곳(LNPBP 조직 산하)에는 첫 번째 장에서 학습한 이러한 개념의 기본 구현이 모여 있습니다:
@@ -572,13 +569,13 @@ RGB Smart contract는 여러 개의 일회용 씰(여러 개의 UTXO)을 동시�
 - **single_use_seals**: 이러한 씰을 안전하게 정의하고 닫는 로직을 구현합니다.
 
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 
 이러한 소프트웨어 브릭은 Bitcoin에 구애받지 않으며, 이론적으로는 다른 출판 증명 매체(다른 레지스트리, 저널 등)에도 적용할 수 있다는 점에 유의하세요. 실제로 RGB은 견고함과 광범위한 합의로 인해 Bitcoin에 의존하고 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 
 ### 대중의 질문
@@ -703,13 +700,13 @@ RGB에서는 **Seal**의 정의로 _아웃포인트_를 사용하고 이 _아웃
 다시 한 번 말씀드리지만, _일회용 씰_을 정의한다고 해서 반드시 On-Chain 트랜잭션을 게시할 필요는 없습니다. 예를 들어 Alice에는 이미 사용하지 않은 UTXO가 있으면 충분합니다. 그녀는 결정할 수 있습니다: "이 _아웃포인트_(이미 존재하는)는 이제 내 Seal이다"라고 결정할 수 있습니다. 그녀는 이를 로컬(_클라이언트 측_)에 기록하고, 이 UTXO가 소비될 때까지 Seal는 열려 있는 것으로 간주합니다.
 
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 
 Seal을 닫으려는 날(이벤트에 신호를 보내거나 특정 메시지를 Anchor에 보내기 위해), 이 UTXO을 새 트랜잭션에 보냅니다(이 트랜잭션을 흔히 "_증인 트랜잭션_(_segwit_과 관련이 없으며, 그냥 우리가 부르는 용어입니다)"이라고 합니다). 이 새 트랜잭션에는 메시지에 대한 _커밋먼트_가 포함됩니다.
 
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 
 이 예제에서는
@@ -730,19 +727,19 @@ Seal을 닫으려는 날(이벤트에 신호를 보내거나 특정 메시지를
 Alice은 UTXO이 지출되면 특정 이벤트가 발생한 것으로 간주한다고 Bob에게 알립니다. 겉으로 보기에는 Bitcoin 트랜잭션으로 보이지만 Bob는 이 지출에 숨겨진 의미가 있다는 것을 알고 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 
 Alice은 이 UTXO을 사용하면서 새 키를 나타내는 메시지 또는 단순히 이전 키의 해지를 나타내는 메시지로 Seal를 닫습니다. 이러한 방식으로 On-Chain을 모니터링하는 사람은 누구나 UTXO이 사용되었음을 알 수 있지만 전체 증명을 가진 사람만 이것이 정확히 PGP 키의 해지라는 것을 알 수 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 
 Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 off-chain 정보를 제공해야 합니다.
 
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 
 따라서 Alice은 Bob에게 다음을 제공해야 합니다:
@@ -754,7 +751,7 @@ Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 o
 - 메시지가 거래에 관련되었다는 암호화 증명(_추가 거래 증명_ 또는 _앵커_라고 함).
 
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 
 타사에는 이 정보가 없습니다. UTXO가 사용되었다는 사실만 확인할 수 있습니다. 따라서 기밀성이 보장됩니다.
@@ -768,7 +765,7 @@ Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 o
 - **트랜잭션 1**: 여기에는 _봉인 정의_, 즉 Seal의 역할을 할 _아웃포인트_가 포함되어 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 
@@ -776,7 +773,7 @@ Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 o
 - 트랜잭션 2: 이 _아웃포인트_를 씁니다. 이렇게 하면 Seal이 닫히고 동일한 트랜잭션에서 메시지에 _commitment_를 삽입합니다.
 
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 
 따라서 두 번째 트랜잭션을 "_증인 트랜잭션_"이라고 부릅니다.
@@ -791,7 +788,7 @@ Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 o
 - **하위 Layer(클라이언트 측, 비공개)**: 암호화 증명과 로컬에 보관하는 메시지를 통해 Alice(또는 관련자)만이 이 비용이 이러한 메시지에 해당한다는 것을 알 수 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 
 그러나 Seal을 닫을 때 _commitment_를 어디에 삽입해야 하는지에 대한 의문이 생깁니다.
@@ -823,13 +820,13 @@ Bob 또는 다른 관련자가 숨겨진 메시지를 확인하려면 Alice가 o
 - Tapret**(또는 _Taptweak_)**은 Taproot 키의 스크립트 부분에 Commitment를 삽입하여 공개키를 결정론적으로 수정하는 Taproot에 의존합니다.
 
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 
 각 방법에 대한 자세한 내용은 다음과 같습니다:
 
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 
 ***서명 조정(서명-Contract):***
@@ -918,7 +915,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 마지막 옵션은 **Taproot**(BIP341과 함께 도입)을 *Tapret* 체계와 함께 사용하는 것입니다. *Tapret*은 결정론적 Commitment의 더 복잡한 형태로, Blockchain의 설치 공간과 Contract 작업의 기밀성 측면에서 개선된 기능을 제공합니다. 주요 아이디어는 [Taproot 트랜잭션](https://github.com/Bitcoin/BIPs/blob/master/BIP-0341.mediawiki)의 '스크립트 경로 지출' 부분에서 Commitment를 숨기는 것입니다.
 
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 
 Commitment이 Taproot 트랜잭션에 어떻게 삽입되는지 설명하기 전에, 다음과 같이 64바이트 문자열 [구성](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196)과 **필수적으로** 일치해야 하는 Commitment의 **정확한 형식**을 살펴보겠습니다:
@@ -963,7 +960,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 이 첫 번째 경우에는 연결된 스크립트 경로(*Script Path*)가 없이 내부 공개 키 'P' *(내부 키*)만 포함된 Taproot 출력 키(*Taproot 출력 키*) 'Q'에서 시작합니다:
 
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 
@@ -977,7 +974,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 탭렛 **Commitment**을 포함하려면 다음과 같이 **고유 스크립트**와 함께 **스크립트 경로 지출**을 추가하세요:
 
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 
@@ -995,7 +992,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 두 번째 시나리오는 이미 여러 스크립트가 포함된 더 복잡한 `Q` **Taproot** 출력에 관한 것입니다. 예를 들어 3개의 스크립트로 구성된 트리가 있습니다:
 
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 
@@ -1007,7 +1004,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 Tapret Commitment를 추가하려면 트리의 첫 번째 레벨에 *사용할 수 없는 스크립트*를 삽입하여 기존 스크립트를 한 레벨 아래로 이동시켜야 합니다. 시각적으로 트리가 다음과 같이 됩니다:
 
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 
@@ -1028,13 +1025,13 @@ Taproot 규칙에 따르면 각 가지/잎은 사전적 Hash 순서에 따라 �
 첫 번째 경우의 시각적 예시(`tHABC < tHT`):
 
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 
 두 번째 경우의 예(`tHABC > tHT`):
 
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 
 #### Nonce를 사용한 최적화
@@ -1159,7 +1156,7 @@ Multi Protocol Commitment(MPC)는 두 가지 요구 사항을 충족하도록 �
 구체적으로 말하면, 각 _트랜지션 번들_은 특정 Contract에 속합니다. 이 모든 정보는 **MPC 트리**에 삽입되고, 그 루트(`mpc::Root`)가 다시 해시되어 `mpc::Commitment`가 됩니다. 선택된 결정론적 방식에 따라 Bitcoin 트랜잭션(_증인 트랜잭션_)에 배치되는 것이 바로 이 마지막 Hash입니다.
 
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 
 #### MPC 루트 Hash
@@ -1184,7 +1181,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 - 엠피씨::루트`는 다음 섹션에서 설명하는 프로세스에 따라 계산된 *MPC 트리*의 루트입니다.
 
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 
 #### MPC 트리 구성
@@ -1303,7 +1300,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 최종 결과는 **mpc::Root**, 그 다음에는 `mpc::Commitment`이 됩니다.
 
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 
 #### MPC 샤프트 점검
@@ -1315,7 +1312,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 예제에서 `c_2` 검증자는 중간 Hash(`tH_MPC_LEAF(D)`), 두 개의 `tH_MPC_BRANCH(...)`, `pos(c_2)` 위치 증명 및 `계수` 값만 필요합니다. 그런 다음 로컬에서 루트를 재구성한 다음 `mpc::Commitment`을 다시 계산하고 이를 Bitcoin 트랜잭션(`Opret` 또는 `Tapret` 내)에 쓰여진 것과 비교할 수 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 
 이 메커니즘은 이를 보장합니다:
@@ -1415,7 +1412,7 @@ pos(c_i) = c_i mod (w - cofactor)
 이 추가 증명이 필수적인 이유는 `Opret`와 달리 `Tapret` Commitment는 Taproot 스크립트의 구조에 통합되어 있기 때문에 *Commitment*의 위치를 정확하게 검증하기 위해 Taproot 트리의 일부를 공개해야 하기 때문입니다.
 
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 
 따라서 **앵커**는 Bitcoin의 맥락에서 Commitment을 검증하는 데 필요한 모든 정보를 RGB에 캡슐화합니다. 이들은 관련 트랜잭션(`txid`)과 Contract 포지셔닝 증명(`MPC 증명`)을 모두 나타내며, `Tapret`의 경우 추가 증명(`ETP`)을 관리합니다. 이러한 방식으로 Anchor은 동일한 트랜잭션이 다른 계약 데이터에 대해 재해석될 수 없도록 함으로써 off-chain 상태의 무결성과 고유성을 보호합니다.
@@ -1439,7 +1436,7 @@ pos(c_i) = c_i mod (w - cofactor)
 실제로 기술 구현은 여러 개의 전용 Rust _크레이트_(_client_side_validation_, _commit-verify_, _bp_core_ 등)로 나뉩니다. 기본 개념은 여기에 있습니다:
 
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 
 다음 장에서는 RGB의 순수한 off-chain 구성 요소, 즉 Contract 로직에 대해 살펴보겠습니다. 부분적으로 복제된 '유한 상태 머신'으로 구성된 RGB 컨트랙트가 데이터의 기밀성을 유지하면서 Bitcoin 스크립트보다 훨씬 높은 표현력을 달성하는 방법을 살펴볼 것입니다.
@@ -1466,7 +1463,7 @@ RGB의 목표는 Bitcoin에서 스마트 계약을 구현하기 위한 인프라
 이러한 자동화는 탈중앙화라는 문제를 제기합니다. 어떻게 중앙화된 레지스트리(예: 중앙 플랫폼 또는 데이터베이스)에서 벗어나 Ownership과 Contract의 성능을 관리할 수 있을까요? RGB에서 채택한 원래 아이디어는 "무기명 상품"으로 알려진 Ownership의 모드로 돌아가는 것입니다. 역사적으로 특정 증권(채권, 주식 등)은 무기명 형태로 발행되어 문서를 물리적으로 소유한 사람이 자신의 권리를 행사할 수 있었습니다.
 
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 
 RGB은 이 개념을 디지털 세계에 적용하여 권리(및 의무)가 조작된 데이터에 캡슐화되고, 이 데이터의 상태는 참여자 스스로가 검증합니다. 이를 통해 선험적으로 공공 등록부를 기반으로 하는 다른 접근 방식보다 훨씬 더 높은 수준의 기밀성과 독립성을 보장할 수 있습니다.
@@ -1484,7 +1481,7 @@ RGB의 Smart contract은 다음과 같이 정의되는 상태 머신으로 볼 �
 - 어떤 조건에서 누구에 의해 상태를 수정할 수 있는지 설명하는 **Business Logic**(규칙 집합)입니다.
 
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 
 이러한 계약은 단순한 토큰 전송에만 국한되지 않는다는 점을 이해하는 것이 중요합니다. 토큰, 주식, 채권 등 전통적인 자산부터 사용 권한, 상업적 조건 등 보다 복잡한 메커니즘에 이르기까지 다양한 애플리케이션을 구현할 수 있습니다. 모든 사람이 Contract 코드에 액세스하고 실행할 수 있는 다른 블록체인과 달리, RGB의 접근 방식은 참가자("***Contract 참가자***")에게 Contract에 대한 액세스 및 지식을 구획화합니다. 여러 역할이 있습니다:
@@ -1539,7 +1536,7 @@ RGB 세계에서 ***Contract Operation***는 Contract을 **이전 상태**에서
 - 관련 권리 보유자는 전환이 *Schema*을 준수하고 관련 Bitcoin 트랜잭션이 On-Chain에 등록되어 있는지 로컬(*클라이언트 측*)에서 확인합니다.
 
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 
 최종 결과는 이제 다른 상태를 가진 업데이트된 Contract입니다. 이 전환은 Blockchain에 작은 암호화 지문(_commitment_)만 기록되기 때문에 전체 Bitcoin 네트워크가 세부 사항에 신경 쓸 필요가 없습니다. 일회용 씰의 시퀀스는 Double-spending 또는 스테이트의 이중 사용을 방지합니다.
@@ -1558,7 +1555,7 @@ RGB 세계에서 ***Contract Operation***는 Contract을 **이전 상태**에서
 - 더 이상 작업이 진행되지 않으면 **단말 상태**에 도달하게 되는데, 이는 Contract의 가장 최근의 완전한 상태입니다.
 
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 
 단순한 선형 체인 대신 이 DAG 토폴로지는 서로 모순되지 않는 한 Contract의 여러 부분이 병렬로 진화할 수 있는 가능성을 반영합니다. 그런 다음 RGB은 관련된 각 참여자에 대한 *클라이언트 측* 검증을 통해 불일치를 방지합니다.
@@ -1607,7 +1604,7 @@ State Transition*(Contract의 기본 ***RGB 작업*** 중 하나)의 프로세�
 Alice에는 로컬로 검증된 데이터(*클라이언트 측*)의 ***Stash RGB***가 있습니다. 이 Stash은 Bitcoin의 UTXO 중 하나를 참조합니다. 즉, 이 데이터의 _봉인 정의_는 Alice에 속하는 UTXO을 가리킵니다. 이 아이디어는 그녀가 자산에 연결된 특정 디지털 권리(예: RGB 토큰)를 Bob로 전송할 수 있도록 하는 것입니다.
 
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 
 **Bob에는 UTXO도 있습니다:**
@@ -1616,7 +1613,7 @@ Alice에는 로컬로 검증된 데이터(*클라이언트 측*)의 ***Stash RGB
 반면에 Bob은 Alice와 직접 연결되지 않은 자신의 UTXO을 하나 이상 가지고 있습니다. Bob에 UTXO이 없는 경우에도 *Witness Transaction* 자체를 사용하여 그에게 전송할 수 있습니다. 이 트랜잭션의 출력에는 Commitment(_commitment_)가 포함되며 새로운 Contract의 Ownership을 암묵적으로 Bob과 연결합니다.
 
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 
 **새 부동산 건설(*새 상태*):**
@@ -1625,7 +1622,7 @@ Alice에는 로컬로 검증된 데이터(*클라이언트 측*)의 ***Stash RGB
 Bob은 ***Invoice***(이후 장에서 Invoice 구성에 대해 자세히 설명하겠습니다) 형식으로 인코딩된 Alice 정보를 전송하여 Contract의 규칙을 따르는 새 상태를 생성하도록 요청합니다. 이 스테이트에는 Bob의 UTXO 중 하나를 가리키는 새로운 *Seal Definition*이 포함됩니다. 이런 식으로 Bob은 이 새 스테이트에 정의된 자산 중 Ownership, 예를 들어 일정량의 RGB 토큰을 받게 됩니다.
 
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 
 **샘플 트랜잭션 준비:**
@@ -1652,7 +1649,7 @@ Bob은 ***Invoice***(이후 장에서 Invoice 구성에 대해 자세히 설명�
 Bob가 만족하면 승인할 수 있습니다(예: *Consignment*에 서명). 그러면 Alice는 준비된 샘플 트랜잭션을 브로드캐스트할 수 있습니다. 확인이 완료되면 Alice가 보유하고 있던 Seal이 종료되고 Bob가 Ownership을 공식화합니다. 그런 다음 Bitcoin에서와 동일한 메커니즘에 따라 UTXO이 소비되어 Alice가 더 이상 재사용할 수 없음을 증명하는 Anti-Double-spending 보안이 이루어집니다.
 
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 
 이제 새 상태는 Bob의 UTXO을 참조하여 Bob이 이전에 Alice가 보유했던 Ownership을 갖게 됩니다. RGB 데이터가 고정된 Bitcoin 출력은 Ownership의 전송에 대한 취소할 수 없는 증거가 됩니다.
@@ -1661,7 +1658,7 @@ Bob가 만족하면 승인할 수 있습니다(예: *Consignment*에 서명). �
 두 개의 Contract 연산(**Genesis** 다음 ***State Transition***)으로 구성된 최소 DAG(*Directed Acyclic Graph*)의 예는 RGB 상태(*클라이언트 측* Layer, 빨간색)가 Bitcoin Blockchain(*Commitment* Layer, 오렌지색)에 어떻게 연결되는지 보여줄 수 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 
 Genesis이 Seal(*Seal Definition*)을 정의한 다음 *State Transition*이 이 Seal을 닫아 다른 UTXO에 새로 생성하는 것을 보여줍니다.
@@ -1681,7 +1678,7 @@ Genesis이 Seal(*Seal Definition*)을 정의한 다음 *State Transition*이 이
 *이전 장에서 설명한* **상태 전환**은 Contract Operation의 주요 형태입니다. 하나 이상의 이전 상태(Genesis 또는 다른 State Transition에서)를 참조하여 새 상태로 업데이트합니다.
 
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 
 이 다이어그램은 *상태 Transition Bundle*에서 단일 샘플 트랜잭션으로 여러 개의 씰을 닫으면서 동시에 새로운 씰을 여는 방법을 보여줍니다. 실제로 RGB 프로토콜의 흥미로운 특징은 확장 기능입니다. 여러 트랜지션을 Transition Bundle로 집계할 수 있으며, 각 집계는 *MPC 트리*(고유 번들 식별자)의 개별 리프와 연결됩니다. Deterministic Bitcoin Commitment*(DBC) 메커니즘 덕분에 전체 메시지가 `Tapret` 또는 `Opret` 출력에 삽입되는 동시에 이전 봉인을 닫고 새 봉인을 정의할 수도 있습니다. Anchor`은 Blockchain에 저장된 Commitment과 Client-side Validation 구조(*클라이언트 측*) 사이의 직접 연결 고리 역할을 합니다.
@@ -1756,7 +1753,7 @@ MapElement1                MapElement2                       MapElementN
 이 중 **Genesis**과 **State Extension**은 상태를 즉시 닫지 않고 새로운 상태를 생성하기 때문에 "*상태 생성 작업*"이라고도 합니다. 이것은 매우 중요한 포인트입니다: **Genesis** 및 **State Extension**은 Seal를 닫는 작업을 포함하지 않습니다. 오히려 새로운 Seal를 정의하고, 그 다음 후속 **State Transition**가 사용해야만 Blockchain 기록에서 진정한 유효성을 검사할 수 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 
 Contract의 **활성 상태**는 종종 Genesis부터 시작하여 Bitcoin Blockchain의 모든 앵커를 따르는 트랜잭션의 기록(DAG)에서 발생하는 최신 상태 집합으로 정의됩니다. 이미 사용되지 않는 오래된 상태(즉, 사용된 UTXO에 연결된 상태)는 더 이상 활성 상태로 간주되지 않지만 히스토리의 일관성을 확인하는 데 필수적인 요소로 남아 있습니다.
@@ -1794,7 +1791,7 @@ Contract의 첫 번째 트랜잭션인 Genesis는 이전 상태를 참조하지 
 엄밀히 말하면 State Extension은 이전에 정의된 *Valency*(예: Genesis 또는 다른 State Transition에서)에 해당하는 *Redeem*(특정 유형의 RGB 입력)을 참조합니다. 이는 혜택을 받는 사람이나 조건이 사용할 수 있는 새로운 Seal를 정의합니다. 이 Seal가 효력을 발휘하려면 후속 State Transition가 이를 사용해야 합니다.
 
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 
 예를 들어, Genesis은 발행권(*Valency*)을 생성합니다. 이 권한은 권한 있는 행위자가 행사할 수 있으며, 권한 있는 행위자는 State Extension을 작성합니다:
@@ -1927,7 +1924,7 @@ Contract의 첫 번째 트랜잭션인 Genesis는 이전 상태를 참조하지 
 - **개인** 소유 상태.
 
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 
 Global State*은 *Contract Operation*에 단일 블록으로 직접 포함되어 있습니다. 소유 상태*는 *Seal Definition*과 함께 각 *Assignment*에 정의되어 있습니다.
@@ -2010,7 +2007,7 @@ Global State는 종종 "아무도 소유하지 않고 모두가 아는" 것으�
 RGB의 가장 큰 강점 중 하나는 *Seal Definition* 및 *Owned State* 필드를 마음대로 *표시*하거나 숨길 수 있다는 것입니다(*은폐*). 이는 기밀성과 선택성의 강력한 조합을 제공합니다. 예를 들어, 모든 데이터를 공개하지 않고도 전환이 유효하다는 것을 증명할 수 있는데, 이를 검증해야 하는 사람에게는 공개된 버전을 제공하고 제3자는 숨겨진 버전(Hash)만 볼 수 있습니다. 실제로 전환의 'OpId'는 항상 *숨겨진* 데이터에서 계산됩니다.
 
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 
 #### Seal Definition
@@ -2034,7 +2031,7 @@ RGB의 가장 큰 강점 중 하나는 *Seal Definition* 및 *Owned State* 필�
 Seal Definition의 *은폐된* 형태는 이 4개의 필드를 연결한 SHA256 Hash(태그가 있는)으로, RGB에 특정한 태그가 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 
 #### 소유 상태
@@ -2288,7 +2285,7 @@ RGB의 주요 혁신 중 하나는 두 가지 개념을 엄격하게 분리한 �
 *반면에* **Ownership**는 전적으로 Bitcoin의 보안에 의존합니다. UTXO의 개인 키를 소유한다는 것은 새로운 전환을 시작할 수 있는 기능을 제어한다는 의미입니다(Single-Use Seal을 닫음). 따라서 누군가 데이터를 보거나 유효성을 검사할 수 있더라도 해당 UTXO을 소유하고 있지 않으면 상태를 변경할 수 없습니다.
 
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 
 이 접근 방식은 더 복잡한 블록체인에서 발생하는 전형적인 취약점을 제한합니다(Smart contract의 모든 코드가 공개되고 누구나 수정할 수 있어 때때로 해킹으로 이어지기도 함). RGB에서는 상태(*Ownership*)에 대한 행동 권한이 Bitcoin Layer에 의해 보호되므로 공격자는 On-Chain 상태와 단순히 상호 작용할 수 없습니다.
@@ -2594,7 +2591,7 @@ Lightning Network은 2/2 다중 서명 지갑으로 구성된 Bitcoin의 결제 
 라이트닝 작동 방식에 대한 자세한 내용은 이 다른 강좌를 수강하는 것을 추천합니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -2782,7 +2779,7 @@ Witness Transaction은 Bitcoin 트랜잭션으로, Multi Protocol Commitment(MPC
 - **구현 Interface**은 Business Logic와 프레젠테이션 사이의 간극을 메워 Contract 정의가 사용자 경험과 일관성을 유지하도록 합니다.
 
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 
 Wallet가 RGB 자산(대체 가능한 token이든 모든 종류의 권리이든)을 관리하려면 이 모든 Elements가 컴파일되어야 한다는 점에 유의하세요: *Schema*, *Interface*, *Interface Implementation* 및 *Genesis*. 이는 ***Contract Consignment***, 즉 클라이언트 측 Contract의 유효성을 검사하는 데 필요한 모든 것이 포함된 데이터 패키지를 통해 전송됩니다.
@@ -2843,7 +2840,7 @@ Schema은 객체 지향 프로그래밍(OOP)의 "클래스"에 비유할 수 있
 - 유효한 것으로 간주되는 작업 순서: 예를 들어, 준수해야 하는 전환 순서 또는 충족해야 하는 일련의 논리적 조건입니다.
 
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 
 RGB에서 자산의 *발행자*가 Contract를 게시하면, 이와 관련된 Genesis과 Schema를 제공합니다. 자산과 상호작용하고자 하는 사용자나 지갑은 이 Schema를 검색하여 Contract의 로직을 이해하고 나중에 참여하게 될 트랜지션이 합법적인지 확인할 수 있습니다.
@@ -2934,7 +2931,7 @@ Schema의 구체적인 예로 RGB Contract을 살펴보겠습니다. 이는 Rust
 - 유효성 검사 스크립트**(AluVM을 통해 실행)**.
 
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 
 아래 코드는 Rust Schema의 전체 정의를 보여줍니다. 아래 (1) ~ (9)의 주석에 따라 부분별로 주석을 달겠습니다:
@@ -3160,7 +3157,7 @@ Interface은 Contract을 사용자(사람 읽기)와 포트폴리오(소프트�
 - 데이터를 이해할 수 있는 이름과 연결하여 Contract 연산(Genesis, State Transition 또는 State Extension)을 해석하고 구성합니다(예: 이진 식별자 대신 '금액'을 명확하게 지정하여 전송 수행).
 
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 
 예를 들어 Interface을 사용하면 필드를 조작하는 대신 '토큰 수', '자산 이름' 등의 레이블을 직접 조작하는 코드를 Wallet에서 작성할 수 있습니다. 이렇게 하면 Contract를 보다 직관적으로 관리할 수 있습니다. 이렇게 하면 Contract 관리가 더욱 직관적으로 됩니다.
@@ -3204,7 +3201,7 @@ Contract를 변경하지 않고도 자산이 발행된 후 Interface을 수정�
 최종 사용자를 위한 간단한 Interface, 복잡한 구성 작업을 관리해야 하는 발급자를 위한 고급 인터페이스 등 각자의 필요에 따라 동일한 Contract을 서로 다른 인터페이스를 통해 노출할 수 있습니다. 그런 다음 Wallet는 용도에 따라 가져올 Interface을 선택할 수 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 
 실제로 Wallet가 '.RGB` 또는 '.rgba` 파일을 통해 RGB Contract을 검색할 때 관련 Interface도 가져오는데, 이 역시 컴파일됩니다. 예를 들어 런타임에 Wallet는 다음과 같이 할 수 있습니다:
@@ -3689,7 +3686,7 @@ Alice와 Bob 간의 전송을 예로 들어 보겠습니다. 이 예에서는 Bo
 - Schema와 Interface을 구체적으로 연결하는 **Interface Implementation**.
 
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 
 각 구성요소의 무게는 일반적으로 200바이트 미만이므로 총 크기는 수 킬로바이트 정도인 경우가 많습니다. 이 Consignment을 Base58, 검열 방지 채널(예: Nostr 또는 Lightning Network 등)을 통해 또는 QR 코드로 방송할 수도 있습니다.
@@ -3744,7 +3741,7 @@ bob$ rgb invoice RGB20 100 <ContractId> tapret1st:456e3..dfe1:0
 생성된 Invoice(예: URL: `RGB:2WBcas9.../RGB20/100+utxob:...`)에는 Alice이 전송을 준비하는 데 필요한 모든 정보가 포함되어 있습니다. Consignment과 마찬가지로 컴팩트하게 인코딩(Base58 또는 다른 형식)하여 메시징 애플리케이션, 이메일, Nostr...을 통해 전송할 수 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 
 #### 6) Alice 측에서의 트랜잭션 준비
@@ -3804,7 +3801,7 @@ sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 
 #### 9) 옵션: Bob이 Alice(*급여 명세서*)로 확인을 다시 보냅니다
@@ -3841,7 +3838,7 @@ alice$ wallet sign —publish tx.psbt
 ```
 
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 
 확인되면 이 트랜잭션은 전송이 완료된 것으로 표시됩니다. Bob이 자산의 새 소유자가 됩니다. 이제 Owned State가 자신이 관리하는 UTXO을 가리키며, 거래에 Commitment가 존재한다는 것이 증명됩니다.
@@ -3850,7 +3847,7 @@ alice$ wallet sign —publish tx.psbt
 전체 이전 프로세스를 요약하면 다음과 같습니다:
 
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 
 ### RGB 전송의 장점
@@ -3896,7 +3893,7 @@ Bob은 *Consignment*을 Bitcoin Blockchain의 *앵커*와 비교하여 전송의
 - 거래가 확인되면 전송이 공식적으로 완료됩니다.
 
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 
 이 전송은 RGB 프로토콜의 모든 힘과 유연성을 보여줍니다: 클라이언트 측에서 검증된 비공개 Exchange, Bitcoin Blockchain에 최소한으로 신중하게 고정되고 프로토콜의 최고의 보안을 유지(Double-spending의 위험 없음)합니다. 따라서 RGB은 On-Chain 프로그래머블 블록체인보다 더 기밀성이 높고 확장 가능한 가치 전송을 위한 유망한 생태계가 될 것입니다.
@@ -4111,7 +4108,7 @@ rgb
 (인수 없이) `RGB`을 실행하면 `interfaces`, `Schema`, `import`, `export`, `issue`, `Invoice`, `transfer` 등과 같은 사용 가능한 하위 명령 목록이 표시됩니다. 로컬 스토리지 디렉토리(모든 로그, 회로도 및 구현이 저장된 Stash)를 변경하거나 네트워크(Testnet, Mainnet)를 선택하거나 일렉트럼 서버를 구성할 수 있습니다.
 
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 
 #### 컨트롤의 첫 번째 개요
@@ -4149,7 +4146,7 @@ rgb import interfaces/RGB20.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 
 반면에 Schema는 아직 소프트웨어로 가져오지 않았다고 들었습니다. Stash에는 Contract도 없습니다. 이를 확인하려면 다음 명령을 실행하세요:
@@ -4168,7 +4165,7 @@ git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 
 이 저장소에는 `src/` 디렉토리에 스키마("*비팽창형 자산*"의 NIA, "*유니크 디지털 자산*"의 UDA 등)를 정의하는 여러 Rust 파일(예: `nia.rs`)이 포함되어 있습니다. 컴파일하려면 실행하면 됩니다:
@@ -4194,7 +4191,7 @@ rgb import schemata/NonInflatableAssets.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 
 이렇게 하면 로컬 Stash에 추가됩니다. 다음 명령을 실행하면 이제 Schema가 나타나는 것을 볼 수 있습니다:
@@ -4239,8 +4236,8 @@ interface: RGB20Fixed
 
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4256,7 +4253,7 @@ amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 
 그런 다음 명령을 실행하기만 하면 됩니다:
@@ -4267,7 +4264,7 @@ rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 
 제 경우 고유 Schema 식별자(작은따옴표로 묶어야 함)는 `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k`이고 발급자를 넣지 않았습니다. 그래서 제 주문은
@@ -4294,10 +4291,10 @@ rgb contracts
 ```
 
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
 
-그런 다음 다음 명령은 글로벌 상태(이름, 티커, Supply...)와 소유 상태 목록, 즉 할당을 표시합니다(예: UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`에 정의된 1백만 `PBN`토큰).
+그런 다음 다음 명령은 글로벌 상태(이름, 티커, Supply...)와 소유 상태 목록, 즉 할당을 표시합니다(예: UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`에 정의된 1백만 `Plan ₿ Academy`토큰).
 
 
 ```bash
@@ -4305,7 +4302,7 @@ rgb state '<ContractId>'
 ```
 
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 
 ### 내보내기, 가져오기 및 유효성 검사
@@ -4319,7 +4316,7 @@ rgb export '<ContractId>' myContractPBN.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 
 MyContractPBN.RGB` 파일을 다른 사용자에게 전달할 수 있으며, 이 사용자는 다음 명령을 사용하여 자신의 Stash에 추가할 수 있습니다:
@@ -4352,7 +4349,7 @@ rgb dump
 ```
 
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 
 이렇게 하면 generate 전체에 대한 세부 정보가 있는 폴더가 Stash가 됩니다.
@@ -4502,7 +4499,7 @@ RGB 에셋을 전송하는 라이트닝 채널을 생성하려면 두 개의 Ele
 Bitcoin 조건에서 펀딩 트랜잭션은 소량의 Sats만 포함하더라도 기준 UTXO을 정의하기 위해 존재해야 합니다(향후 Commitment 트랜잭션의 각 산출량이 모두 동일하게 Dust 한도 이상으로 유지되는 문제일 뿐입니다). 예를 들어, Alice은 10k Sats와 500 USDT(RGB 자산으로 발행)를 제공하기로 결정할 수 있습니다. 펀딩 트랜잭션에서 Commitment(`Opret` 또는 `Tapret`)을 추가하여 RGB State Transition을 앵커링합니다.
 
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 
 펀딩 트랜잭션이 준비되면(아직 브로드캐스트되지 않은 상태) Commitment 트랜잭션이 생성되어 어느 쪽이든 언제든지 일방적으로 채널을 닫을 수 있습니다. 이러한 트랜잭션은 새로운 State Transition에 연결된 RGB Anchor(OP_RETURN 또는 Taproot)를 포함하는 추가 출력을 추가한다는 점을 제외하면 Lightning의 기존 Commitment 트랜잭션과 유사합니다.
@@ -4514,13 +4511,13 @@ Bitcoin 조건에서 펀딩 트랜잭션은 소량의 Sats만 포함하더라도
 따라서 Alice가 서명하고 Bob으로 전송된 Commitment Transaction은 다음과 같이 보입니다:
 
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 
 그리고 Bob이 서명하여 Alice로 보낸 Commitment Transaction은 다음과 같이 보입니다:
 
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 
 ### 채널 업데이트
@@ -4535,13 +4532,13 @@ Bitcoin 조건에서 펀딩 트랜잭션은 소량의 Sats만 포함하더라도
 Commitment Transaction는 Alice이 서명하고 Bob이 배포할 준비가 되었습니다:
 
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 
 Commitment Transaction는 Bob가 서명했고, Alice이 배포할 준비가 되었습니다:
 
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 
 ### HTLC 관리
@@ -4550,13 +4547,13 @@ Commitment Transaction는 Bob가 서명했고, Alice이 배포할 준비가 되�
 실제로 Lightning Network은 HTLC(*해시된 시간 고정 계약*)를 사용하여 여러 채널을 통해 결제를 라우팅할 수 있습니다. RGB도 마찬가지입니다. 채널을 통해 전송되는 모든 결제에 대해 커밋 트랜잭션에 HTLC 출력이 추가되고, 이 HTLC에 연결된 RGB 할당이 추가됩니다. 따라서 HTLC 출력을 사용하는 사람은 (비밀 덕분에 또는 타임락이 만료된 후) Sats과 관련 RGB 자산을 모두 회수합니다. 반면에 Sats과 RGB 자산 모두 충분한 현금이 있어야 합니다.
 
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 
 따라서 Lightning에서 RGB의 작동은 Lightning Network 자체의 작동과 병행하여 고려해야 합니다. 이 주제에 대해 더 자세히 알아보고 싶다면 다른 종합 교육 과정을 살펴볼 것을 적극 권장합니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB 코드 맵
 
@@ -4564,7 +4561,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 마지막으로 다음 섹션으로 넘어가기 전에 RGB에 사용된 코드에 대한 개요를 알려드리고자 합니다. 이 프로토콜은 일련의 Rust 라이브러리와 오픈 소스 사양을 기반으로 합니다. 다음은 주요 리포지토리와 크레이트에 대한 개요입니다:
 
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 
 #### Client-side Validation
@@ -5026,7 +5023,7 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 ```
 
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 
@@ -5043,7 +5040,7 @@ cargo install --locked --debug --path .
 ```
 
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 
@@ -5095,7 +5092,7 @@ API를 통해 daemon을 _잠금 해제_할 때 ID와 URL을 입력합니다. 이
 간단한 사용을 위해, Docker를 통해 일련의 서비스를 자동으로 시작하는 `regtest.sh` 스크립트가 있습니다: gW-2391`, `electrs`(인덱서), `RGB-proxy-server`.
 
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 
 이를 통해 미리 구성된 격리된 로컬 환경을 시작할 수 있습니다. 재부팅할 때마다 컨테이너와 데이터 디렉터리를 생성하고 삭제합니다. 먼저 시작하겠습니다:
@@ -5116,7 +5113,7 @@ API를 통해 daemon을 _잠금 해제_할 때 ID와 URL을 입력합니다. 이
 - 모든 것이 사용할 준비가 될 때까지 기다리세요.
 
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 
 다음으로 여러 개의 RLN 노드를 실행해 보겠습니다. 예를 들어, 별도의 셸에서 실행하여 3개의 RLN 노드를 실행합니다:
@@ -5135,7 +5132,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 ```
 
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 
@@ -5165,7 +5162,7 @@ curl -X POST http://localhost:3001/address
 답변은 Address을 제공합니다.
 
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 
 bitcoind` 레그테스트에서 몇 개의 비트코인을 채굴해 보겠습니다. Run:
@@ -5176,7 +5173,7 @@ bitcoind` 레그테스트에서 몇 개의 비트코인을 채굴해 보겠습�
 ```
 
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 
 위에서 생성한 노드 Address으로 자금을 전송합니다:
@@ -5187,7 +5184,7 @@ bitcoind` 레그테스트에서 몇 개의 비트코인을 채굴해 보겠습�
 ```
 
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 
 그런 다음 블록을 채굴하여 거래를 확인합니다:
@@ -5198,7 +5195,7 @@ bitcoind` 레그테스트에서 몇 개의 비트코인을 채굴해 보겠습�
 ```
 
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 
 ### Testnet 출시(도커 제외)
@@ -5259,7 +5256,7 @@ http://localhost:3001/createutxos
 ```
 
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 
 물론 순서를 조정할 수도 있습니다. 트랜잭션을 확인하기 위해 마이닝합니다:
@@ -5270,7 +5267,7 @@ http://localhost:3001/createutxos
 ```
 
 
-이제 RGB 에셋을 만들 수 있습니다. 명령은 생성하려는 에셋의 유형과 매개변수에 따라 달라집니다. 여기서는 Supply가 1000 단위인 "PBN"이라는 이름의 NIA(*비팽창형 에셋*) token을 생성하겠습니다. '정밀도'를 사용하면 단위의 분할 가능성을 정의할 수 있습니다.
+이제 RGB 에셋을 만들 수 있습니다. 명령은 생성하려는 에셋의 유형과 매개변수에 따라 달라집니다. 여기서는 Supply가 1000 단위인 "Plan ₿ Academy"이라는 이름의 NIA(*비팽창형 에셋*) token을 생성하겠습니다. '정밀도'를 사용하면 단위의 분할 가능성을 정의할 수 있습니다.
 
 
 ```bash
@@ -5279,15 +5276,15 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
 ```
 
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 
 응답에는 새로 생성된 에셋의 ID가 포함됩니다. 이 식별자를 기억하세요. 제 경우에는
@@ -5298,7 +5295,7 @@ rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 
 그런 다음 On-Chain로 전송하거나 라이트닝 채널에 할당할 수 있습니다. 다음 섹션에서 바로 이 작업을 수행하겠습니다.
@@ -5325,10 +5322,10 @@ curl -X 'GET' \
 ```
 
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
 
-다음으로 관련 에셋(`PBN`)을 지정하여 채널을 열겠습니다. Openchannel` 명령을 사용하면 채널의 크기를 사토시 단위로 정의하고 RGB 에셋을 포함하도록 선택할 수 있습니다. 생성하려는 자산에 따라 다르지만, 제 경우에는 다음과 같이 명령합니다:
+다음으로 관련 에셋(`Plan ₿ Academy`)을 지정하여 채널을 열겠습니다. Openchannel` 명령을 사용하면 채널의 크기를 사토시 단위로 정의하고 RGB 에셋을 포함하도록 선택할 수 있습니다. 생성하려는 자산에 따라 다르지만, 제 경우에는 다음과 같이 명령합니다:
 
 
 ```bash
@@ -5362,7 +5359,7 @@ http://localhost:3001/openchannel
 - 공개`: 네트워크에서 라우팅을 위해 채널을 공개할지 여부를 나타냅니다.
 
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 
 거래를 확인하기 위해 6개의 블록이 채굴됩니다:
@@ -5373,10 +5370,10 @@ http://localhost:3001/openchannel
 ```
 
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
 
-이제 라이트닝 채널이 열렸으며 노드 n°1 측에 500개의 `PBN` 토큰이 있습니다. 노드 n°2가 `PBN` 토큰을 받으려면 generate과 Invoice을 생성해야 합니다. 방법은 다음과 같습니다:
+이제 라이트닝 채널이 열렸으며 노드 n°1 측에 500개의 `Plan ₿ Academy` 토큰이 있습니다. 노드 n°2가 `Plan ₿ Academy` 토큰을 받으려면 generate과 Invoice을 생성해야 합니다. 방법은 다음과 같습니다:
 
 
 ```bash
@@ -5410,10 +5407,10 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ```
 
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
 
-이제 필요한 현금을 보유하고 있는 첫 번째 노드에서 이 Invoice을 `PBN` token로 지불합니다:
+이제 필요한 현금을 보유하고 있는 첫 번째 노드에서 이 Invoice을 `Plan ₿ Academy` token로 지불합니다:
 
 
 ```bash
@@ -5425,7 +5422,7 @@ http://localhost:3001/sendpayment
 ```
 
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 
 결제가 완료되었습니다. 명령을 실행하여 확인할 수 있습니다:
@@ -5438,7 +5435,7 @@ curl -X 'GET' \
 ```
 
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 
 RGB 에셋을 전송하도록 수정된 라이트닝 노드를 배포하는 방법은 다음과 같습니다. 이 데모는 다음을 기반으로 합니다:

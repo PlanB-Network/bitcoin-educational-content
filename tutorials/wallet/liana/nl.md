@@ -43,7 +43,7 @@ Met deze handeling kunt u verschillende configuraties instellen, waaronder :
 
 
 
-- Een successieplan, dat de erfgenamen in staat stelt om geld terug te krijgen als de gebruiker overlijdt. Voor meer informatie over dit onderwerp raden we aan [deel 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) van de BTC102-cursus te lezen.
+- Een successieplan, dat de erfgenamen in staat stelt om geld terug te krijgen als de gebruiker overlijdt. Voor meer informatie over dit onderwerp raden we aan [deel 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) van de BTC102-cursus te lezen.
 - Een versterkte back-up met een hersteltijd, zodat de gebruiker zijn Wallet kan gebruiken zonder de bijbehorende geheime zin te hoeven bewaren en het risico te lopen dat deze wordt gestolen, bijvoorbeeld tijdens een inbraak.
 - Een vangnet voor mensen die beginnen met Bitcoin: ze beheren hun eigen Wallet, en hun "voogd" (een familielid, bijvoorbeeld) behoudt zich het recht voor om hun fondsen na een bepaalde periode terug te vorderen.
 - Een meerpartijen handtekeningschema (*Multisig*) met verminderde eisen in de tijd, om het verdwijnen van een of meer van de deelnemers op te vangen, zoals de partners van een bedrijf.
@@ -69,13 +69,13 @@ In deze tutorial stellen we een opvolgingsplan op. We gebruiken :
 - Een Ledger Nano S Plus, voor dagelijkse uitgaven;
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 
 - Een Blockstream Jade, gebruikt om geld terug te vorderen;
 
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 
 - Twee opslagmedia (USB-sticks) om de Wallet Descriptor op te slaan;
@@ -95,7 +95,7 @@ Bezoek de officiële Wizardsardine website en download Liana op https://wizardsa
 Als je wilt weten hoe je handmatig de authenticiteit en integriteit van software kunt controleren voordat je deze installeert, raden we je aan deze tutorial te raadplegen:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Installeer de software op uw machine en start het op. Kies de optie "*Maak een nieuwe Liana Wallet*" om uw Wallet te configureren.
 
@@ -286,7 +286,7 @@ Je kunt de vervaldatum van je tegoeden controleren door naar het tabblad "*Munte
 Om het UTXO representatiemodel dat in Bitcoin gebruikt wordt beter te begrijpen, kun je het eerste deel van de cursus over vertrouwelijkheid in Bitcoin, geschreven door Loïc Morel, raadplegen:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Lopende uitgaven
 
@@ -495,7 +495,7 @@ De scripts die door deze Wallet worden aangemaakt, hebben de volgende vorm:
 ```
 
 
-Omdat de veiligheid van je Bitcoin Wallet ook afhangt van je begrip van hoe het werkt, stel ik voor dat je de mechanismen van deterministische en hiërarchische wallets grondig bestudeert door deze gratis training over Plan ₿ Network te volgen:
+Omdat de veiligheid van je Bitcoin Wallet ook afhangt van je begrip van hoe het werkt, stel ik voor dat je de mechanismen van deterministische en hiërarchische wallets grondig bestudeert door deze gratis training over Plan ₿ Academy te volgen:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

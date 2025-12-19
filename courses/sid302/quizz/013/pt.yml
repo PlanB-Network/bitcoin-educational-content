@@ -1,0 +1,8 @@
+question: Num Taproot ativado por HTLC, o que acontece quando ambas as partes concordam cooperativamente em concluir a troca entre camadas?
+answer: Assinam em conjunto utilizando a sua chave pública agregada através do MuSig2, criando uma transação indistinguível de um pagamento normal com uma única assinatura
+wrong_answers:
+  - Devem revelar o script completo que contém os bloqueios de hash e de tempo on-chain para verificação da rede
+  - Publicam apenas o ramo específico da árvore de Merkle necessário, mantendo a chave agregada oculta dos observadores
+  - Difundem simultaneamente transacções separadas em cada camada para garantir uma liquidação atómica sem agregação de chaves
+explanation: |
+  O "caminho da chave" cooperativo no Taproot permite que as partes combinem suas chaves em uma única chave pública agregada usando MuSig2. Quando ambos concordam, eles simplesmente co-assinam a transação, que parece idêntica a qualquer pagamento padrão no blockchain. Isto proporciona o máximo de privacidade e eficiência, uma vez que nenhuma lógica de script é revelada, consumindo um espaço de bloco mínimo. As outras opções descrevem incorretamente o comportamento herdado do HTLC ou o cenário do caminho do script adversário.

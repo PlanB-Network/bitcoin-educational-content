@@ -101,7 +101,7 @@ Qubes OS tarjoaa myös täydellisen läpinäkyvyyden ja digitaalisen ympäristö
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
+https://planb.academy/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
 Sen sijaan, että Qubes OS pyrkisi luomaan läpäisemättömän järjestelmän, se keskittyy joustavuuteen: se koteloi vahingot, jos järjestelmä vaarantuu, ja vähentää näin muuhun järjestelmään kohdistuvaa riskiä. Tämän käytännönläheisen lähestymistavan ansiosta Qubes OS on ensisijainen valinta käyttäjille, joilla on korkeat turvallisuustarpeet tai jotka haluavat säilyttää digitaalisen elämänsä mahdollisimman hyvin hallinnassa.
 
@@ -126,7 +126,7 @@ Asenna Qubes OS lataamalla virallinen ISO-kuva Qubes OS:n [viralliselta sivustol
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ![0_01](assets/fr/01.webp)
 
@@ -327,4 +327,4 @@ Qubes OS tarjoaa joustavan ja läpinäkyvän kehyksen riippumatta siitä, onko s
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

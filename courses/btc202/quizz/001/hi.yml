@@ -1,0 +1,9 @@
+question: Bitcoin कार्यान्वयन चलाने वाली और एक दूसरे से जुड़ी हुई मशीनों के समूह को हम क्या कहते हैं?
+answer: Bitcoin नेटवर्क
+wrong_answers:
+  - Bitcoin प्रोटोकॉल
+  - Bitcoin मुद्रा
+  - Blockchain Bitcoin
+explanation: |
+  Bitcoin नेटवर्क में सभी जुड़े हुए नोड शामिल होते हैं, जिनमें से प्रत्येक प्रोटोकॉल का एक अलग कार्यान्वयन चलाता है।
+reviewed: true

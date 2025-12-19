@@ -397,4 +397,4 @@ SimpleX 最強大的功能之一，就是可以管理數個完全獨立的使用
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

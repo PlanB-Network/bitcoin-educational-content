@@ -1,0 +1,9 @@
+question: 哪些自託管應用程式可以透過 Umbrel 安裝？
+answer: 下一個雲端
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel 提供應用程式商店與自行託管服務，例如 Nextcloud，可自行儲存與同步檔案。
+reviewed: true

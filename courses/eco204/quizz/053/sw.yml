@@ -1,12 +1,12 @@
-question: Ni nini moja ya matokeo ya dola?
+question: Ni lipi moja ya matokeo ya dola?
 answer: Kupoteza sera ya fedha ya uhuru
 wrong_answers:
   - Kuongezeka kwa mfumuko wa bei
-  - Ongezeko la pesa Supply
+  - Ongezeko la pesa za Supply
   - Kupungua kwa uaminifu wa umma
 explanation: |
-  Dollarization inaweza kumaliza mfumuko wa bei, lakini inatoa nyingine za kiuchumi
+  Dollarization inaweza kumaliza mfumuko wa bei, lakini inatoa zingine za kiuchumi
   changamoto. Moja ya matokeo ni kupotea kwa sera ya fedha inayojitegemea. Bila
   sarafu yake yenyewe, nchi haiwezi kurekebisha sera yake ya fedha ili kukabiliana na mambo ya ndani
   majanga ya kiuchumi.
-reviewed: false
+reviewed: true

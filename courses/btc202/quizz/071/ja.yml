@@ -1,0 +1,9 @@
+question: 再起動時にノードが古いピアを見つけるために最初に参照するファイルはどれですか？
+answer: anchors.datとpeers.dat
+wrong_answers:
+  - Mempool.datとpeers.dat
+  - Mempool.datとip.dat
+  - ip.datとanchors.dat
+explanation: |
+  Bitcoin coreはまずanchors.dat（以前の発信ピア）を参照し、次にpeers.dat（既知のAddressブック）を参照して再接続する。
+reviewed: true

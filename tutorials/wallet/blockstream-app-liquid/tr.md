@@ -329,9 +329,9 @@ seed 12 kelimelik ifade kaydetmeniz için görüntülenecektir.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3. seed cümlesini kontrol edin
 
@@ -346,7 +346,7 @@ Bunu yapmak için bir referans yazacağız, Wallet'ü sileceğiz, yedekle geri y
 
 
 
-- Wallet ana ekranında, "Ayarlar" sekmesine, ardından "Wallet Ayrıntıları "na tıklayın ve zPub'ı ([genişletilmiş genel anahtar](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)) kopyalayın:
+- Wallet ana ekranında, "Ayarlar" sekmesine, ardından "Wallet Ayrıntıları "na tıklayın ve zPub'ı ([genişletilmiş genel anahtar](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f)) kopyalayın:
 
 
 
@@ -370,7 +370,7 @@ Not: "Yalnızca İzle" işlevi için Blockstream uygulamanıza bir zpub Address 
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.4. Uygulamaya erişimin güvence altına alınması
 
@@ -521,19 +521,19 @@ Onchain ağını kullanma
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 "Sadece İzle" modunda bir Wallet'in içe aktarılması ve izlenmesi
 
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Masaüstü sürümü
 
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 
@@ -552,9 +552,9 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -629,32 +629,32 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Öğrenme ve dersler:** **[Plan ₿ Network](https://planb.network/)**:
+- **Öğrenme ve dersler:** **[Plan ₿ Academy](https://planb.academy/)**:
  - Kurtarma ifadenizi güvence altına alma
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 
 - **Liquid Network** :
-- [Sözlük](https://planb.network/fr/resources/glossary/liquid-network)
+- [Sözlük](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 - **Lightning Network**:
-- [Sözlük](https://planb.network/fr/resources/glossary/lightning-network)
+- [Sözlük](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

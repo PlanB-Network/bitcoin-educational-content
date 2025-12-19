@@ -1,0 +1,8 @@
+question: Mikä on 102 vahvistuksen odotusajan ensisijainen tarkoitus Bitcoin:sta Liquid:een siirtymisen aikana?
+answer: Suojautua Bitcoin-lohkoketjun uudelleenjärjestelyiltä ennen L-BTC:n lyömistä
+wrong_answers:
+  - Jotta liittovaltiolla olisi riittävästi aikaa tarkistaa käyttäjän henkilöllisyys ja vaatimustenmukaisuus
+  - Sen varmistamiseksi, että Liquid-verkossa on riittävästi kapasiteettia saapuvan tapahtuman käsittelyyn
+  - Varata aikaa 11-15:n liittovaltion jäsenten antamalle moninkertaisen allekirjoituksen valtuutukselle
+explanation: |
+  102 vahvistuksen odotusaika (noin 17 tuntia) on erityisesti suunniteltu suojaamaan Bitcoin-lohkoketjun uudelleenjärjestelyiltä. Koska Bitcoin toimii todennäköisen lopullisuuden perusteella, on aina pieni mahdollisuus, että lohkoja järjestetään uudelleen, jolloin transaktiot voidaan mitätöidä. Odottamalla 102 vahvistusta järjestelmä varmistaa, että Bitcoin-tapahtuma, jolla lähetetään varoja federaation osoitteeseen, on syvällä ja erittäin epätodennäköistä, että sitä peruutetaan. Tämä estää skenaarion, jossa L-BTC lyödään Liquid:ssä, mutta taustalla oleva Bitcoin-tapahtuma peruuntuu uudelleenjärjestelyn vuoksi. Muut vaihtoehdot ovat virheellisiä, koska: henkilöllisyyden todentaminen ei ole osa automaattista peg-in-prosessia, verkon kapasiteetti ei ole rajoittava tekijä, joka edellyttäisi tällaisia viiveitä, ja 11:stä 15:een -monisignaalista valtuutusta käytetään peg-out-, ei peg-in-transaktioihin.

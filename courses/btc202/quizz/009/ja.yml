@@ -1,0 +1,9 @@
+question: Bitcoinノードの主な機能は何ですか？
+answer: Blockchainを保存し、トランザクションとブロックを検証する
+wrong_answers:
+  - 秘密鍵の保管とトランザクションの構築
+  - ユーザーの新しいアドレスを作成する
+  - ビットコインを不換紙幣に交換する
+explanation: |
+  BitcoinノードはBlockchainのコピーを保持し、トランザクションとブロックの検証と中継に参加する。
+reviewed: true

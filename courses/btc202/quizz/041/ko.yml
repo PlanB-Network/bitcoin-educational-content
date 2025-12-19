@@ -1,0 +1,9 @@
+question: 엄브렐을 통해 설치할 수 있는 셀프 호스팅 애플리케이션은 무엇인가요?
+answer: 다음클라우드
+wrong_answers:
+  - Google 드라이브
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel은 파일을 직접 저장하고 동기화할 수 있는 Nextcloud와 같은 셀프 호스팅 서비스를 제공하는 App Store를 제공합니다.
+reviewed: true

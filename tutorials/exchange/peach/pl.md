@@ -14,7 +14,7 @@ description: Kompletny przewodnik po korzystaniu z Peach i wymianie bitcoinów P
 Pozbawione KYC giełdy peer-to-peer (P2P) mają zasadnicze znaczenie dla zachowania poufności i autonomii finansowej użytkowników. Umożliwiają one bezpośrednie transakcje między osobami fizycznymi bez konieczności weryfikacji tożsamości, co ma kluczowe znaczenie dla tych, którzy cenią sobie prywatność. Aby uzyskać bardziej dogłębne zrozumienie koncepcji teoretycznych, zapoznaj się z kursem BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Co to jest Peach?
 
@@ -47,7 +47,7 @@ Dla przypomnienia, Hash to dane, które stają się nierozpoznawalne, podobnie j
 *Więcej informacji na temat hashowania można znaleźć w tym kursie:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **Kto może zobaczyć moje dane dotyczące płatności?**
 

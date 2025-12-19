@@ -13,7 +13,7 @@ description: Krótki przewodnik zachęcający klientów do wydawania bitcoinów 
 W końcu zdecydowałeś się zaakceptować Bitcoin w swojej firmie i wszystko jest gotowe: Lightning Network Wallet jest skonfigurowany do przyjmowania płatności, Twoi pracownicy wiedzą, jak korzystać z wersji Wallet tylko do odczytu, aby otrzymywać płatności w Twoim imieniu, punkt sprzedaży (PoS) został skonfigurowany z produktami sklepowymi i aktualizowany co miesiąc, a Ty już wiesz, jak zarządzać księgowaniem Bitcoin od klientów. Jeśli nie wiesz, jak to zrobić, obejrzyj ten samouczek:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Na czym polega problem
 
@@ -129,7 +129,7 @@ Metoda implementacji pozostaje w gestii sprzedawcy, ale w skrócie, oto kilka do
 W każdym przypadku zawsze warto zadbać o to, aby Twoja firma, jeśli ma fizyczną lokalizację, była obecna i aktualna na [BTC Map](https://btcmap.org/map). Większość użytkowników bitcoina zna to narzędzie, a niemal wszyscy, którzy wydali bitcoina w sklepach stacjonarnych, sprawdzili przynajmniej raz, które miejsca go akceptują. Jeśli chcesz dowiedzieć się, jak dodać swój sklep do BTC Map lub chcesz uzyskać więcej informacji, obejrzyj ten samouczek:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Zarządzanie księgowością
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Jeśli zastanawiasz się, jak zarządzać księgowaniem właśnie zarobionych bitcoinów, niezależnie od tego, czy zastosowałeś jedną z polityk rabatowych, czy nie, ten samouczek jest dla Ciebie:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Wnioski
 

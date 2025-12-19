@@ -6,4 +6,4 @@ wrong_answers:
   - SIGHASH_ALL
 explanation: |
   SIGHASH_ALL in Kombination mit SIGHASH_ANYONECANPAY ermöglicht das Hinzufügen von Eingaben, ohne die Ausgaben zu verändern.
-reviewed: false
+reviewed: true

@@ -27,7 +27,7 @@ Um Umbrel zu installieren und Ihren Bitcoin Knoten zu konfigurieren, empfehlen w
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Stellen Sie sicher, dass Ihr Bitcoin-Knoten auf dem neuesten Stand ist und ordnungsgemäß funktioniert, da Lightning Network für alle off-chain-Transaktionen auf ihn angewiesen ist.
 
@@ -57,7 +57,7 @@ Für eine vollständige theoretische Einführung in Lightning Network empfehlen 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In diesem Kurs erhalten Sie eine gründliche Einführung in die grundlegenden Konzepte des Lightning Network, bevor Sie mit Ihrem LND-Knoten üben können.
 
@@ -613,7 +613,7 @@ Um mehr über die Konfiguration und Verwendung von Wachtürmen zu erfahren, empf
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Andere bewährte Praktiken
 
 

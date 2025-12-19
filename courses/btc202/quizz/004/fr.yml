@@ -6,4 +6,4 @@ wrong_answers:
   - Un serveur central gérant le réseau Bitcoin et la confirmation des transactions
 explanation: |
   Un nœud Bitcoin est une machine exécutant un logiciel comme Bitcoin Core qui implémente le protocole et participe au réseau.
-reviewed: false
+reviewed: true 

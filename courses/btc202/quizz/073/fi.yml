@@ -1,0 +1,9 @@
+question: Mikä on assumevalid-parametrin tehtävä Bitcoin core:ssa?
+answer: Ohita komentosarjan tarkistus ennen viitelohkoa
+wrong_answers:
+  - Jätä Proof-of-Work-tarkistus huomiotta ennen vertailulohkoa
+  - Ohita otsikon tarkistus ennen viitelohkoa
+  - Pakota Tor vertaisverkon löytämistä varten
+explanation: |
+  Assumevalid nopeuttaa IBD:tä jättämällä skriptin tarkistuksen huomiotta ennen tunnettua lohkoa ja säilyttämällä kaikki muut tarkistukset.
+reviewed: true

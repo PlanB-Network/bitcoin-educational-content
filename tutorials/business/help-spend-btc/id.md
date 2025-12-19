@@ -13,7 +13,7 @@ description: Panduan singkat untuk memberi insentif kepada pelanggan agar membel
 Anda akhirnya memutuskan untuk menerima Bitcoin dalam bisnis Anda, dan semuanya sudah siap: Lightning Network Wallet telah disiapkan untuk menerima pembayaran, karyawan Anda tahu cara menggunakan versi read-only dari Wallet untuk menerima pembayaran atas nama Anda, Point of Sale (PoS) telah dikonfigurasikan dengan produk toko dan diperbarui setiap bulannya, dan Anda telah mengetahui cara mengelola akuntansi Bitcoin dari pelanggan. Jika Anda tidak tahu cara melakukannya, tonton tutorial ini:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Apa Masalahnya
 
@@ -129,7 +129,7 @@ Metode penerapannya diserahkan kepada pedagang, tetapi secara singkat, berikut i
 Bagaimanapun, selalu merupakan praktik yang baik untuk memastikan bahwa bisnis Anda, jika memiliki lokasi fisik, hadir dan terbaru di [BTC Map](https://btcmap.org/map). Sebagian besar pengguna bitcoin sudah akrab dengan alat ini, dan hampir semua orang yang pernah membelanjakan bitcoin di toko fisik setidaknya sekali telah memeriksa tempat mana yang menerimanya. Jika Anda ingin mempelajari cara menambahkan toko Anda ke BTC Map atau ingin informasi lebih lanjut, tonton tutorial ini:
 
 
-https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
+https://planb.academy/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-f62658f343c6
 
 ## Mengelola Akuntansi
 
@@ -137,7 +137,7 @@ https://planb.network/tutorials/business/others/btc-map-f4691fed-929e-4ffc-87db-
 Jika Anda bertanya-tanya bagaimana cara mengelola akuntansi bitcoin yang baru saja diperoleh, apakah Anda telah menerapkan salah satu kebijakan diskon atau tidak, ini adalah tutorial untuk Anda:
 
 
-https://planb.network/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
+https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
 
 ## Kesimpulan
 

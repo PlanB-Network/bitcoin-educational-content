@@ -1,0 +1,9 @@
+question: V čem se online systémy jako Bitcoin zásadně liší od fyzických systémů, pokud jde o hrozby protivníka?
+answer: Online systémy čelí pseudonymním a anonymním protivníkům, kteří mohou zneužít jakoukoli slabinu, aniž by byli viditelní nebo zachyceni
+wrong_answers:
+  - Online systémy mají složitější kryptografické algoritmy, které je obtížnější analyzovat z hlediska bezpečnostních zranitelností
+  - Fyzické systémy mohou být chráněny donucovacími orgány, zatímco online systémy se spoléhají pouze na matematické důkazy
+  - Online systémy zpracovávají transakce rychleji, což protivníkům usnadňuje koordinované útoky
+explanation: |
+  Klíčovým rozdílem, na který Andrew Poelstra upozornil, je, že fyzické systémy se mohou spoléhat na prosazování práva a viditelnost protivníků, aby zabránily útokům, a dokonce akceptovat některá rizika, jako je vypálení budov. Online systémy jako Bitcoin však fungují v prostředí, kde mohou protivníci jednat pseudonymně nebo anonymně, připojit se odkudkoli a využívat slabých míst, aniž by byli identifikováni nebo dopadeni. Tento zásadní rozdíl znamená, že všechny známé slabiny systému Bitcoin musí být odstraněny, protože je nevyhnutelně využijí neviditelní protivníci, kteří v reálném světě nečelí žádným následkům.
+reviewed: false

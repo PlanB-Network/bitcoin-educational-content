@@ -1,6 +1,6 @@
 ---
 name: Wkład - samouczek Git (zaawansowany)
-description: Przewodnik dla zaawansowanych użytkowników oferujący samouczek na temat Plan ₿ Network z Gitem
+description: Przewodnik dla zaawansowanych użytkowników oferujący samouczek na temat Plan ₿ Academy z Gitem
 ---
 ![cover](assets/cover.webp)
 
@@ -8,31 +8,31 @@ description: Przewodnik dla zaawansowanych użytkowników oferujący samouczek n
 Przed przystąpieniem do tego samouczka dotyczącego dodawania nowego samouczka należy wykonać kilka wstępnych kroków. Jeśli jeszcze tego nie zrobiłeś, najpierw zapoznaj się z tym samouczkiem wprowadzającym, a następnie wróć tutaj:
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 Masz już:
 
 
 
 - Wybierz motyw dla swojego samouczka;
-- Kontakt z zespołem Plan ₿ Network za pośrednictwem [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub paolo@planb.network ;
+- Kontakt z zespołem Plan ₿ Academy za pośrednictwem [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub paolo@planb.network ;
 - Wybierz swoje narzędzia.
 
 
-W tym samouczku dla doświadczonych użytkowników Git, krótko podsumujemy kluczowe kroki i podstawowe wytyczne dotyczące oferowania nowego samouczka Plan ₿ Network. Jeśli nie jesteś zaznajomiony z Git i GitHub, zalecam zamiast tego skorzystanie z jednego z tych 2 bardziej szczegółowych samouczków, które poprowadzą Cię krok po kroku:
+W tym samouczku dla doświadczonych użytkowników Git, krótko podsumujemy kluczowe kroki i podstawowe wytyczne dotyczące oferowania nowego samouczka Plan ₿ Academy. Jeśli nie jesteś zaznajomiony z Git i GitHub, zalecam zamiast tego skorzystanie z jednego z tych 2 bardziej szczegółowych samouczków, które poprowadzą Cię krok po kroku:
 
 
 
 - Średniozaawansowany (GitHub Desktop):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
 - Początkujący (web Interface):
 
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## Sugerowane narzędzia
 
@@ -80,7 +80,7 @@ Tworzenie diagramów i wizualizacji:
 
 
 
-- Musisz mieć własny Fork z [repozytorium Plan ₿ Network na GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
+- Musisz mieć własny Fork z [repozytorium Plan ₿ Academy na GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 - Zsynchronizuj główną gałąź (`dev`) Fork z repozytorium źródłowym.
 - Zaktualizuj lokalnego klona.
 
@@ -213,15 +213,15 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Network utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
+- **project_id**: UUID firmy lub organizacji stojącej za narzędziem prezentowanym w samouczku [z listy projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, jeśli tworzysz samouczek dotyczący oprogramowania Green Wallet, możesz znaleźć ten `project_id` w następującym pliku: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych wszystkich firm i organizacji działających na Bitcoin lub powiązanych projektach. Dodając `project_id` podmiotu powiązanego z twoim tutorialem, tworzysz link między dwoma Elements;
 
 
 
-- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Network] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **category**: Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Network (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Podkategoria odpowiadająca treści poradnika, zgodnie ze strukturą strony Plan ₿ Academy (na przykład dla portfeli: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
@@ -252,7 +252,7 @@ Poniżej znajdują się wymagane pola:
 Aby uzyskać więcej informacji na temat identyfikatora nauczyciela, zapoznaj się z odpowiednim samouczkiem:
 
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
@@ -382,7 +382,7 @@ print("Hello, Bitcoin!")
     - Upewnij się, że są one istotne i wysokiej jakości.
 - **Karta graficzna**:
     - Czcionka: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Kolory Plan ₿ Network:
+    - Kolory Plan ₿ Academy:
         - Pomarańczowy: `#FF5C00`
         - Czarny: `#000000`
         - Biały: `#FFFFFF`

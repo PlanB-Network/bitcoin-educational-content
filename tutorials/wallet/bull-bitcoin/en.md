@@ -27,7 +27,7 @@ Wallet responds to a major challenge: Bitcoin network charges are unsuitable for
 - **Lightning network**: Optimized for instant, low-cost payments, suitable for small- to medium-value daily transactions.
 
 
-With Bull Bitcoin Mobile, for example, you can accumulate small amounts in the **Liquid** or **Lightning** portfolios and then, once you have reached a significant amount, you can :
+With Bull Bitcoin Mobile, for example, you can accumulate small amounts in the **Liquid** or **Lightning** wallets and then, once you have reached a significant amount, you can :
 
 
 
@@ -82,7 +82,7 @@ Before you start using **Bull Bitcoin Mobile**, make sure you have the following
 ### 3.1 Launch the application :
 
 
-The application uses a unique 12-word recovery phrase for both portfolios:
+The application uses a unique 12-word recovery phrase for both wallets:
 
 
 - **secure Bitcoin Wallet**: For transactions on the Bitcoin network (onchain)
@@ -114,9 +114,9 @@ Otherwise, click on "**Create New Wallet**" :
 **! This point is critical**. For further assistance :
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 3.3 Securing access :
 
@@ -232,7 +232,7 @@ Even if you enter an amount or a note, they will not be included in the QR code 
 - Why use a new address for each transaction? This **protects your privacy** by preventing multiple payments from being linked to the same address, and limits the possibilities of tracking on the Blockchain.
 - By default, Bull Bitcoin automatically generates an unused address.
  - You can force the creation of a new address by clicking on **"New Address"** at the bottom of the screen.
- - All your addresses are linked to your seed phrase: no matter how many addresses you use, your portfolio will display a single balance, and can automatically consolidate funds when a shipment is made.
+ - All your addresses are linked to your seed phrase: no matter how many addresses you use, your wallet will display a single balance, and can automatically consolidate funds when a shipment is made.
 
 
 
@@ -592,7 +592,7 @@ Take the time to check all the parameters, especially the amount and destination
 
 - Via the home screen**:**
  - Click on the **Secure Bitcoin Wallet** to view **onchain** transactions, or on the **Instant Payments Wallet** for **Liquid** and **Lightning** transactions.
- - The history is displayed directly below the portfolio total, filtered according to the type of Wallet selected.
+ - The history is displayed directly below the wallet total, filtered according to the type of Wallet selected.
 
 
 ![image](assets/fr/21.webp)
@@ -629,14 +629,14 @@ For **Lightning**, transactions are not visible on public browsers. Check detail
 ## 7. Settings
 
 
-The "Settings" page can be accessed directly from the Bull Bitcoin application home page, and is used to configure and manage various aspects of the portfolio and user experience.
+The "Settings" page can be accessed directly from the Bull Bitcoin application home page, and is used to configure and manage various aspects of the wallet and user experience.
 
 
 ![image](assets/fr/24.webp)
 
 
 
-- **Wallet Backup**: Displays the portfolio's recovery phrase for secure backup. See section 3. on portfolio creation for best practices in managing and storing the recovery phrase.
+- **Wallet Backup**: Displays the wallet's recovery phrase for secure backup. See section 3. on wallet creation for best practices in managing and storing the recovery phrase.
 
 
 
@@ -728,8 +728,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 **More info:**
 
 
-- [Glossary](https://planb.network/fr/resources/glossary/payjoin)
-- Chapitre [Les transactions PayJoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
+- [Glossary](https://planb.academy/fr/resources/glossary/payjoin)
+- Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
 
@@ -749,7 +749,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 **More info:**
 
 
-- [Glossary](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
+- [Glossary](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -761,8 +761,8 @@ To use **Bull Bitcoin Mobile** securely and efficiently, follow these recommenda
 
 
 - **Secure your recovery phrase**:
- - Tutorial: [Save your mnemonic phrase](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
- - Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
+ - Tutorial: [Save your mnemonic phrase](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)
+ - Cours [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)
 
 
 
@@ -822,34 +822,34 @@ To use **Bull Bitcoin Mobile** securely and efficiently, follow these recommenda
 
 
 
-- **Learning and tutorials:** **[Plan ₿ Network](https://planb.network/)**
+- **Learning and tutorials:** **[Plan ₿ Academy](https://planb.academy/)**
  - Securing your recovery phrase
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 - **Liquid Network** :
-- [Glossary](https://planb.network/resources/glossary/liquid-network)
+- [Glossary](https://planb.academy/resources/glossary/liquid-network)
 
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 
 - **Lightning Network**:
-- [Glossary](https://planb.network/resources/glossary/lightning-network)
+- [Glossary](https://planb.academy/resources/glossary/lightning-network)
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 ### A5. Bull Bitcoin
@@ -878,7 +878,7 @@ Bull Bitcoin stands out for its commitment to Cypherpunk principles and Bitcoin 
 
 
 
-- **Non-custodian**: Users retain full control of their Bitcoins by sending funds to their own portfolios.
+- **Non-custodian**: Users retain full control of their Bitcoins by sending funds to their own wallets.
 
 
 
@@ -901,7 +901,7 @@ Bull Bitcoin stands out for its commitment to Cypherpunk principles and Bitcoin 
 
 
 
-- **Purchasing Bitcoin**: Users can purchase Bitcoin which is sent directly to their non-depository portfolio, guaranteeing total control of their funds.
+- **Purchasing Bitcoin**: Users can purchase Bitcoin which is sent directly to their non-depository wallet, guaranteeing total control of their funds.
 
 
 
@@ -933,7 +933,7 @@ Note that an option called "AutoBuy" allows you to convert your fiats as soon as
 
 
 
-- **Educational support**: Free guides and personalized coaching to help users create, secure and manage their Bitcoin portfolios, reinforcing financial autonomy.
+- **Educational support**: Free guides and personalized coaching to help users create, secure and manage their Bitcoin wallets, reinforcing financial autonomy.
 
 
 #### Compliance and safety
@@ -944,4 +944,4 @@ Note that an option called "AutoBuy" allows you to convert your fiats as soon as
 
 
 
-- **Security**: Use of secure portfolios and offline storage recommendations. Personal data is hosted on Bull's Bitcoin infrastructure, which is 100% self-hosted and does not rely on any third party.
+- **Security**: Use of secure wallets and offline storage recommendations. Personal data is hosted on Bull's Bitcoin infrastructure, which is 100% self-hosted and does not rely on any third party.

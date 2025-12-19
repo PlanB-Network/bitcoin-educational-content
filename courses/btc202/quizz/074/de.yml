@@ -1,0 +1,9 @@
+question: Welche Datenstruktur fasst die Transaktionen in einem Block zusammen?
+answer: Der Merkle Tree
+wrong_answers:
+  - Die Tabelle Hash UTXO
+  - Die Datei peers.dat
+  - Das Register assumeutxo
+explanation: |
+  Die Transaktionen eines Blocks werden in eine Merkle Tree übertragen, deren Wurzel im Blockkopf enthalten ist, um die Integrität des Blocks zu gewährleisten.
+reviewed: true

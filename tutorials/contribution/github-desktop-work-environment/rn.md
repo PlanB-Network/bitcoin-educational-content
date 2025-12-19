@@ -18,7 +18,7 @@ Niba wipfuza gutanga umusanzu ku rubuga rwa PlanB, uzokenera gukoresha GitHub ku
 Niba utazi ico GitHub ari co, canke nimba ushaka kumenya vyinshi ku majambo y’ubuhinga ajanye na Git na GitHub, ndagusavye gusoma ingingo yacu y’intango kugira ngo umenye neza ivyo vyiyumviro.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -26,7 +26,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Kugira ngo utangure, biragaragara ko uzokenera konti ya GitHub. Niba usanzwe ufise, urashobora kwinjiramwo, ahandi ho, urashobora gukoresha inyigisho yacu kugira ngo ureme indi nshasha.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## Intambwe ya 2: Shiraho Obsidian
 
 
-Reka tugende ku gushiramwo porogarama yo kwandika. Aha, ufise uburyo bwinshi bwo kubikora. Uzokenera porogarama ifasha guhindura amadosiye ya Markdown, nk’uko PlanB Network ikoresha ubu buryo ku madosiye y’inyandiko mu bubiko bwayo.
+Reka tugende ku gushiramwo porogarama yo kwandika. Aha, ufise uburyo bwinshi bwo kubikora. Uzokenera porogarama ifasha guhindura amadosiye ya Markdown, nk’uko Plan ₿ Academy ikoresha ubu buryo ku madosiye y’inyandiko mu bubiko bwayo.
 
 
 Hariho porogarama nyinshi cane zijanye n’uguhindura amadosiye ya Markdown, nka Typora, zagenewe canecane kwandika. Naho atari vyiza, birashoboka kandi guhitamwo umuhinduzi w’amakode, nka Kode ya Visual Studio (VSC) canke Sublime Text. Ariko rero, nk’umwanditsi, ndakunda gukoresha porogarama ya Obsidian. Reka turabe hamwe ingene twoyishiramwo no kuyitangura.
@@ -116,7 +116,7 @@ Kugira ngo ivyo bibanza bibiri bibe bihuye, bizoba ngombwa ko bihuzwa rimwe na r
 ![github-desktop](assets/18.webp)
 
 
-- Inyuma yo gukora cloning y’ububiko, iyo porogarama iraguha uburyo bubiri. Utegerezwa guhitamwo ica mbere: `Gutanga umusanzu ku mugambi w'umuvyeyi`. Iryo hitamwo rizotuma ushobora gushikiriza igikorwa cawe co muri kazoza nk’intererano ku mugambi w’umuvyeyi (`PlanB-Network/Bitcoin-ivy’inyigisho`), kandi atari gusa nk’uguhindura Fork yawe bwite (`[izina ry’ukoresha]/Bitcoin-ivy’inyigisho`). Igihe amahitamwo yatowe, kanda kuri `Bandanya`:
+- Inyuma yo gukora cloning y’ububiko, iyo porogarama iraguha uburyo bubiri. Utegerezwa guhitamwo ica mbere: `Gutanga umusanzu ku mugambi w'umuvyeyi`. Iryo hitamwo rizotuma ushobora gushikiriza igikorwa cawe co muri kazoza nk’intererano ku mugambi w’umuvyeyi (`Plan ₿ Academy/Bitcoin-ivy’inyigisho`), kandi atari gusa nk’uguhindura Fork yawe bwite (`[izina ry’ukoresha]/Bitcoin-ivy’inyigisho`). Igihe amahitamwo yatowe, kanda kuri `Bandanya`:
 
 ![github-desktop](assets/19.webp)
 
@@ -125,10 +125,10 @@ Kugira ngo ivyo bibanza bibiri bibe bihuye, bizoba ngombwa ko bihuzwa rimwe na r
 
 ![github-desktop](assets/20.webp)
 
-Ico twashitseko muri iyi ntambwe ni uguhingura kopi y’aho uba y’ububiko bwawe, ikaba iri kuri GitHub. Nk’ukwibutsa, ubu bubiko ni Fork y’ububiko bw’inkomoko bwa PlanB Network. Uzoshobora guhindura ivyo muri iyo kopi yo mu karere, nk’ukwongerako inyigisho, ubuhinduzi canke gukosora. Ivyo bihinduwe bimaze gukorwa, uzokoresha itegeko rya **Push origin** kugira ngo wohereze ivyo wahinduye mu karere kawe kuri Fork yawe yakiriwe kuri GitHub.
+Ico twashitseko muri iyi ntambwe ni uguhingura kopi y’aho uba y’ububiko bwawe, ikaba iri kuri GitHub. Nk’ukwibutsa, ubu bubiko ni Fork y’ububiko bw’inkomoko bwa Plan ₿ Academy. Uzoshobora guhindura ivyo muri iyo kopi yo mu karere, nk’ukwongerako inyigisho, ubuhinduzi canke gukosora. Ivyo bihinduwe bimaze gukorwa, uzokoresha itegeko rya **Push origin** kugira ngo wohereze ivyo wahinduye mu karere kawe kuri Fork yawe yakiriwe kuri GitHub.
 
 
-Ushobora kandi kugarura ivyo wahinduye muri Fork, nk’akarorero, mu gihe c’uguhuza n’ububiko bwa PlanB Network. Ku bw'ivyo, uzokoresha itegeko rya **Fetch origin** kugira ngo ushire ivyo wahinduye muri kopi yawe yo mu karere (clone yawe), hanyuma ukoreshe itegeko rya **Pull origin** kugira ngo ubifatanye n'igikorwa cawe. Ivyo bituma uguma umenya ibintu bishasha biriko biraba muri uwo mugambi mu gihe utanga umusanzu mwiza.
+Ushobora kandi kugarura ivyo wahinduye muri Fork, nk’akarorero, mu gihe c’uguhuza n’ububiko bwa Plan ₿ Academy. Ku bw'ivyo, uzokoresha itegeko rya **Fetch origin** kugira ngo ushire ivyo wahinduye muri kopi yawe yo mu karere (clone yawe), hanyuma ukoreshe itegeko rya **Pull origin** kugira ngo ubifatanye n'igikorwa cawe. Ivyo bituma uguma umenya ibintu bishasha biriko biraba muri uwo mugambi mu gihe utanga umusanzu mwiza.
 
 
 ![github-desktop](assets/21.webp)
@@ -148,7 +148,7 @@ Ushobora kandi kugarura ivyo wahinduye muri Fork, nk’akarorero, mu gihe c’ug
 
 ![github-desktop](assets/24.webp)
 
--> **Ivyiyumviro**, birahambaye ko udahitamwo dosiye `Bitcoin-ibirimwo-vy'inyigisho` igihe urema ububiko bushasha muri Obsidian. Ahubwo, hitamwo ububiko bw'umuvyeyi, `GitHub`. Niwahitamwo dosiye `Bitcoin-educational-content`, dosiye y'imiterere `.obsidian`, irimwo imiterere yawe ya Obsidian, izokwinjira mu bubiko. Turashaka kwirinda ivyo, kuko si ngombwa ko wimurira imiterere yawe ya Obsidian mu bubiko bwa PlanB Network. Iyindi nzira ni iyo kwongerako dosiye `.obsidian` kuri dosiye `.gitignore`, ariko ubu buryo bwoshobora no guhindura dosiye `.gitignore` y'ububiko bw'inkomoko, ivyo bikaba bitari vyiza.
+-> **Ivyiyumviro**, birahambaye ko udahitamwo dosiye `Bitcoin-ibirimwo-vy'inyigisho` igihe urema ububiko bushasha muri Obsidian. Ahubwo, hitamwo ububiko bw'umuvyeyi, `GitHub`. Niwahitamwo dosiye `Bitcoin-educational-content`, dosiye y'imiterere `.obsidian`, irimwo imiterere yawe ya Obsidian, izokwinjira mu bubiko. Turashaka kwirinda ivyo, kuko si ngombwa ko wimurira imiterere yawe ya Obsidian mu bubiko bwa Plan ₿ Academy. Iyindi nzira ni iyo kwongerako dosiye `.obsidian` kuri dosiye `.gitignore`, ariko ubu buryo bwoshobora no guhindura dosiye `.gitignore` y'ububiko bw'inkomoko, ivyo bikaba bitari vyiza.
 
 
 
@@ -164,7 +164,7 @@ Ushobora kandi kugarura ivyo wahinduye muri Fork, nk’akarorero, mu gihe c’ug
 ## Intambwe ya 6: Shiraho umuhinduzi wa kode
 
 
-Ivyinshi muvyo uzohindura bizoba biri ku madosiye ari mu buryo bwa Markdown (`.md`). Kugira ngo uhindure izo nyandiko, urashobora gukoresha Obsidian, ari yo porogarama twavuganye imbere y’aho. Ariko rero, PlanB Network ikoresha ubundi buryo bwa dosiye, kandi uzokenera guhindura zimwe muri zo.
+Ivyinshi muvyo uzohindura bizoba biri ku madosiye ari mu buryo bwa Markdown (`.md`). Kugira ngo uhindure izo nyandiko, urashobora gukoresha Obsidian, ari yo porogarama twavuganye imbere y’aho. Ariko rero, Plan ₿ Academy ikoresha ubundi buryo bwa dosiye, kandi uzokenera guhindura zimwe muri zo.
 
 
 Nk'akarorero, igihe urema inyigisho nshasha, uzokenera kurema dosiye ya YAML (`.yml`) kugira ngo winjize ama tags y'inyigisho yawe, umutwe wayo, n'indangamuntu y'umwigisha wawe. Obsidian ntitanga ubushobozi bwo guhindura ubwo bwoko bw'amadosiye, rero uzokenera umuhinduzi wa kode.
@@ -178,6 +178,6 @@ Ku bw’ivyo, hariho uburyo bwinshi bwo kubigira. Naho igitabu gisanzwe co kuri 
 Urakoze cane! Ubu aho ukorera hashizweho kugira ngo ushiremwo umusanzu ku rubuga rwa PlanB. Ubu urashobora gutohoza izindi nyigisho zacu zidasanzwe ku bwoko bwose bw’intererano (uguhindura, gukosora, kwandika.
 
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ...).

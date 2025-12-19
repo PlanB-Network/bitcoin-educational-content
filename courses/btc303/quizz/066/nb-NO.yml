@@ -1,0 +1,9 @@
+question: Hva er den primære sikkerhetsrisikoen som utvinnere står overfor når de utsetter full blokkvalidering for å unngå foreldede blokker i forbindelse med mining uten validering?
+answer: De risikerer å bygge på en midlertidig ugyldig blokkjede og kaste bort regnekraft på en kjede som til slutt vil bli avvist
+wrong_answers:
+  - De risikerer å få sine egne blokker avvist av nettverket på grunn av ufullstendig validering av tidligere transaksjoner
+  - De risikerer å miste mining-belønningene sine permanent, fordi valideringsfri mining anses som et brudd på protokollen
+  - De risikerer å skape dobbeltutgiftsangrep fordi de ikke kan verifisere at innkommende transaksjoner er legitime
+explanation: |
+  Når utvinnere praktiserer valideringsløs mining, sjekker de bare proof-of-work i blokkhodet og starter umiddelbart mining på toppen av den mens de laster ned og validerer hele blokken parallelt. Den kritiske risikoen er at de kan bygge på en ugyldig blokk, noe som betyr at beregningsinnsatsen deres er bortkastet på en blokkjedegren som vil bli avvist når den ugyldige blokken blir oppdaget. Dette undergraver nettverkssikkerheten fordi en del av mining-kraften ikke bidrar til den sterkeste, gyldige kjeden, som er Bitcoins grunnleggende sikkerhetsmekanisme.
+reviewed: false

@@ -145,7 +145,7 @@ Tämä lause toimii samalla tavalla kuin Bitcoin-salkuissa käytetyt Mnemonic-la
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Huomaa**: Toisin kuin Bitcoin-salkuissa käytetyt Mnemonic-lauseet, Session-salkussa **jokainen sana on ehdottomasti tallennettava kokonaisuudessaan**. Neljä ensimmäistä kirjainta ei riitä!
 
@@ -299,4 +299,4 @@ Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen Threeman, toisen
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

@@ -1,0 +1,8 @@
+question: Quel est le principal avantage des fonctions de programmation fonctionnelle de Rust qui maintiennent des abstractions à coût nul ?
+answer: Ils produisent un code machine efficace comparable aux approches traditionnelles basées sur les boucles, sans sacrifier les performances
+wrong_answers:
+  - Ils gèrent automatiquement l'allocation et la désallocation de la mémoire afin d'éviter toute surcharge d'exécution
+  - Ils éliminent la nécessité d'une vérification de type au moment de la compilation tout en maintenant des garanties de sécurité
+  - Ils fournissent une fonctionnalité de ramassage des ordures qui s'exécute sans affecter la vitesse d'exécution du programme
+explanation: |
+  Les abstractions à coût nul des fonctions de programmation fonctionnelle de Rust signifient que l'utilisation de fermetures et d'itérateurs ne sacrifie pas les performances à l'expressivité. Le compilateur Rust optimise ces constructions de haut niveau pour produire un code machine aussi performant que les boucles traditionnelles écrites à la main. Cela permet aux développeurs d'écrire un code plus expressif et plus lisible sans avoir à payer une pénalité de performance à l'exécution, ce qui est un principe fondamental de la philosophie de conception de Rust.

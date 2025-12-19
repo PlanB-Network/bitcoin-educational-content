@@ -1,0 +1,9 @@
+question: Millised kaks komponenti on alates versioonist 0.5 levitatud koos Bitcoin core-ga?
+answer: Bitcoin-qt ja bitcoind
+wrong_answers:
+  - bitcoin-cli ja Bitcoin-gui
+  - Bitcoin-Miner ja Bitcoin-Wallet
+  - Bitcoin-core ja Bitcoin-node
+explanation: |
+  Alates versioonist 0.5 sisaldab Bitcoin core graafilist Interface (Bitcoin-qt) ja käsurea Interface (bitcoind).
+reviewed: true

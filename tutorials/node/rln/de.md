@@ -31,7 +31,7 @@ Ein RGB-Vertrag ist wie eine evolutionäre Zustandsmaschine aufgebaut. Er beginn
 
 Um mehr über die Funktionsweise des RGB-Protokolls zu erfahren, empfehle ich Ihnen diesen umfassenden Schulungskurs:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB-kompatible Lightning-Knoten-Installation
 
@@ -219,7 +219,7 @@ Sie können die Bestellung natürlich anpassen. Um die Transaktion zu bestätige
 ./regtest.sh mine 1
 ```
 
-Wir können nun ein RGB-Asset erstellen. Der Befehl hängt von der Art des Assets, das Sie erstellen möchten, und seinen Parametern ab. Hier erstelle ich ein NIA (*Non Inflatable Asset*) Token mit dem Namen "PBN" und einem Vorrat von 1000 Einheiten. Mit der `Präzision` können Sie die Teilbarkeit der Einheiten festlegen.
+Wir können nun ein RGB-Asset erstellen. Der Befehl hängt von der Art des Assets, das Sie erstellen möchten, und seinen Parametern ab. Hier erstelle ich ein NIA (*Non Inflatable Asset*) Token mit dem Namen "Plan ₿ Academy" und einem Vorrat von 1000 Einheiten. Mit der `Präzision` können Sie die Teilbarkeit der Einheiten festlegen.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -227,8 +227,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -264,7 +264,7 @@ Der Befehl gibt den öffentlichen Schlüssel meines Knotens Nr. 2 zurück:
 
 ![RLN](assets/fr/13.webp)
 
-Als Nächstes öffnen wir den Kanal, indem wir das entsprechende Asset (`PBN`) angeben. Mit dem Befehl `/openchannel` können Sie die Größe des Kanals in Satoshis festlegen und entscheiden, ob das RGB-Asset einbezogen werden soll. Es hängt davon ab, was Sie erstellen wollen, aber in meinem Fall lautet der Befehl :
+Als Nächstes öffnen wir den Kanal, indem wir das entsprechende Asset (`Plan ₿ Academy`) angeben. Mit dem Befehl `/openchannel` können Sie die Größe des Kanals in Satoshis festlegen und entscheiden, ob das RGB-Asset einbezogen werden soll. Es hängt davon ab, was Sie erstellen wollen, aber in meinem Fall lautet der Befehl :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ Um die Transaktion zu bestätigen, werden 6 Blöcke geschürft:
 
 ![RLN](assets/fr/15.webp)
 
-Der Lightning-Kanal ist nun offen und enthält auch 500 PBN-Token auf der Seite des Knotens Nr. 1. Wenn Knoten Nr. 2 "PBN"-Token erhalten möchte, muss er eine Rechnung erstellen. So geht's:
+Der Lightning-Kanal ist nun offen und enthält auch 500 Plan ₿ Academy-Token auf der Seite des Knotens Nr. 1. Wenn Knoten Nr. 2 "Plan ₿ Academy"-Token erhalten möchte, muss er eine Rechnung erstellen. So geht's:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -332,7 +332,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Wir werden diese Rechnung nun vom ersten Knoten bezahlen, der das nötige Bargeld mit dem "PBN"-Token besitzt:
+Wir werden diese Rechnung nun vom ersten Knoten bezahlen, der das nötige Bargeld mit dem "Plan ₿ Academy"-Token besitzt:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -372,4 +372,4 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen sehr dankbar, wenn Si
 
 Ich empfehle auch diesen anderen Lehrgang, in dem ich erkläre, wie man das von der LNP/BP-Vereinigung entwickelte RGB-CLI-Tool zur Erstellung eines RGB-Vertrags verwendet:
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

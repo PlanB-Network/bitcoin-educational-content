@@ -1,4 +1,4 @@
-question: "Nadharia ya kuathiri" inatengenezwa wapi?
+question: Nadharia ya kuathiri inatengenezwa wapi?
 answer: Katika sehemu ya tatu ya Maadili.
 wrong_answers:
   - Katika Mkataba wa Theolojia na Siasa.
@@ -6,4 +6,4 @@ wrong_answers:
   - Katika Hotuba ya Mbinu.
 explanation: |
   Nadharia ya athari inaendelezwa katika sehemu ya tatu ya Maadili. Hapa, Spinoza huchambua kwa utaratibu hisia za binadamu kama marekebisho ya asili ya mwili na akili.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hvilket Sparrow wallet-serveralternativ tilsvarer RPC-tilkoblingen?
+answer: Bitcoin core
+wrong_answers:
+  - Offentlig server
+  - Privat elektrum
+  - Eksternt API
+explanation: |
+  I Sparrow tilsvarer alternativet Bitcoin core en direkte tilkobling til noden via RPC.
+reviewed: true

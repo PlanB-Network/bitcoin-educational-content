@@ -77,9 +77,9 @@ Sinon, cliquez sur “**Create New Wallet**” :
 
 **! Ce point est critique**. Pour obtenir plus d'aide :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 3.3 Sécurisation de l’accès :
 
@@ -462,8 +462,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 - Bien que conçue pour ressembler à une transaction standard, des heuristiques avancées (ex. : sorties ambiguës, serveurs Payjoin connus) peuvent faire suspecter son utilisation, bien que sans certitude absolue.
 
 **Plus d'info :**
-- [Glossaire](https://planb.network/fr/resources/glossary/payjoin)
-- Chapitre [Les transactions Payjoin](https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
+- [Glossaire](https://planb.academy/fr/resources/glossary/payjoin)
+- Chapitre [Les transactions Payjoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
 ### A2. Explication de Replace-by-Fee (RBF)
@@ -475,7 +475,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 * La transaction initiale doit être marquée comme RBF-compatible lors de sa création, ce que Bull Bitcoin Mobile fait automatiquement sauf si désactivé.
 
 **Plus d'info :** 
-- [Glossaire](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
+- [Glossaire](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 ### A3. Bonnes pratiques
@@ -483,8 +483,8 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suivez ces recommandations. Elles vous aideront à protéger vos fonds, optimiser vos transactions, et préserver votre confidentialité sur les réseaux **Bitcoin (onchain)**, **Liquid**, et **Lightning**.
 
 **Sécurisez votre phrase de récupération** :
-	* Tutoriel : [Sauvegarder sa phrase mnémonique](https://planb.network/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 
-	* Cours [La phrase mnémonique](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)  
+	* Tutoriel : [Sauvegarder sa phrase mnémonique](https://planb.academy/fr/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 
+	* Cours [La phrase mnémonique](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8f9340c1-e6dc-5557-a2f2-26c9669987d5)  
 
 **Utilisez l'authentification sécurisée** :
 	* Activez un **code PIN robuste** ou l’**authentification biométrique** (empreinte digitale ou reconnaissance faciale) pour protéger l’accès à l’application.
@@ -525,29 +525,29 @@ Pour utiliser **Bull Bitcoin Mobile** de manière sécurisée et efficace, suive
 	* Liquid : **[Blockstream Info](https://blockstream.info/liquid)**
 	* Lightning : **[1ML (Lightning Network)](https://1ml.com/)** 
 
-**Apprentissage et tutoriels :** **[Plan ₿ Network](https://planb.network/)** :
+**Apprentissage et tutoriels :** **[Plan ₿ Academy](https://planb.academy/)** :
 	* **Sécuriser sa phrase de récupération**
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Liquid Network** :
-	- **[Glossaire](https://planb.network/resources/glossary/liquid-network)**
+	- **[Glossaire](https://planb.academy/resources/glossary/liquid-network)**
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 - **Lightning Network** :
-	- **[Glossaire](https://planb.network/resources/glossary/lightning-network)**
+	- **[Glossaire](https://planb.academy/resources/glossary/lightning-network)**
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 ### A5. Bull Bitcoin

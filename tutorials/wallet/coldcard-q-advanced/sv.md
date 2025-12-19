@@ -11,7 +11,7 @@ description: Använda COLDCARD Q:s avancerade alternativ
 I en tidigare handledning gick vi igenom den första konfigurationen av COLDCARD Q och dess grundläggande funktioner för nybörjare. Om du precis har fått ditt COLDCARD Q och inte har konfigurerat det ännu, rekommenderar jag att du börjar med den handledningen innan du fortsätter här:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Den här nya handledningen handlar om COLDCARD Q:s avancerade alternativ, som är utformade för avancerade och paranoida användare. Faktum är att COLDCARDs skiljer sig från andra hårdvaruplånböcker genom sina många avancerade säkerhetsfunktioner. Naturligtvis behöver du inte använda alla dessa alternativ. Välj bara de som passar din säkerhetsstrategi.
 
@@ -31,7 +31,7 @@ Innan du börjar ska du se till att du har tillgång till en fysisk säkerhetsko
 Om du inte vet vad en BIP39 passphrase är, eller om det inte är helt klart för dig hur den fungerar, rekommenderar jag starkt att du tar en titt på den här handledningen i förväg, som täcker de teoretiska grunder som behövs för att förstå riskerna med att använda en passphrase :
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Tänk på att när du har konfigurerat passphrase på din Wallet räcker inte din Mnemonic ensam för att återfå åtkomst till dina bitcoins. Du behöver både Mnemonic och passphrase. Dessutom måste du ange passphrase varje gång du låser upp ditt COLDCARD Q. Detta förbättrar säkerheten genom att göra fysisk åtkomst till COLDCARD och kunskap om PIN-koden otillräcklig utan passphrase.
 
@@ -102,7 +102,7 @@ Bekräfta att det fingeravtryck som visas stämmer överens med ditt Wallet och 
 Tänk på att om du använder en passphrase innebär det att du måste importera en ny uppsättning nycklar som härrör från kombinationen av din Mnemonic-fras och passphrase till din Wallet-hanteringsprogramvara (som Sparrow wallet). För att göra detta, följ steget "*Konfigurera en ny Wallet på Sparrow*" i denna andra handledning :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Lås upp alternativ
 
@@ -302,7 +302,7 @@ Från och med nu visas en fungerande miniräknare med grundläggande kommandon v
 ![CCQ](assets/fr/34.webp)
 
 
-Du kan t.ex. beräkna SHA256 Hash för "*Plan B Network*".
+Du kan t.ex. beräkna SHA256 Hash för "*Plan ₿ Academy*".
 
 
 ![CCQ](assets/fr/35.webp)
@@ -369,4 +369,4 @@ Om du tyckte att den här handledningen var användbar skulle jag vara mycket ta
 Jag rekommenderar också den här andra handledningen, där vi diskuterar användningen av en direkt konkurrent till CCQ, Ledger Flex :
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

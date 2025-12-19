@@ -1,0 +1,9 @@
+question: Co znamená, když je systém Bitcoin popisován jako pseudonymní systém, a nikoli jako anonymní systém?
+answer: Uživatele lze vysledovat podle jejich pseudonymů, ale jejich skutečná identita není přímo odhalena
+wrong_answers:
+  - Uživatele nelze vůbec sledovat a jejich transakce jsou zcela skryté
+  - Uživatelé se musí zaregistrovat pod svým skutečným jménem, ale pro transakce mohou používat falešné adresy
+  - Uživatelé jsou zcela anonymní, bez možnosti propojit jakékoli transakce
+explanation: |
+  Pseudonymní povaha Bitcoin znamená, že uživatelé sice operují pod pseudonymy (adresy odvozené z veřejných klíčů), ale jejich transakce lze stále sledovat a propojovat mezi těmito pseudonymy v blockchainu. Tím se liší od skutečné anonymity, kdy by transakce nezanechávaly vůbec žádné sledovatelné vazby. V Bitcoin lze sledovat tok finančních prostředků mezi adresami, ale skutečná identita, která se za těmito adresami skrývá, není přímo odhalena, pokud ji někdo dobrovolně neprozradí nebo neudělá chyby, které by vedly k úniku jeho soukromých informací.
+reviewed: false

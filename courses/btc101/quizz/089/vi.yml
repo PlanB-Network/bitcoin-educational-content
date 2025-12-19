@@ -1,5 +1,5 @@
 question: Khóa riêng trong ví Bitcoin thường được biểu diễn bằng cách nào?
-answer: Một danh sách gồm 12 hoặc 24 từ.
+answer: Một danh sách gồm 12 hoặc 24 từ khóa.
 wrong_answers:
   - Một danh sách gồm 12 hoặc 48 từ.
   - Một danh sách gồm 32 từ.

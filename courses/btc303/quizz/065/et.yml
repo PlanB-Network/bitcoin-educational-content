@@ -1,0 +1,9 @@
+question: Mis on peamine põhjus, miks plokisuuruse suurendamine toob Bitcoin mining-s kaasa suurema tõenäosuse, et plokid on aegunud?
+answer: Suuremate plokkide paljundamine ja valideerimine kogu võrgus võtab rohkem aega, luues pikemad aknad, kus kaevurid töötavad vananenud plokiahela vihjetega
+wrong_answers:
+  - Suuremad plokid nõuavad kaevandamiseks rohkem arvutusvõimsust, mistõttu kaevurid kulutavad kauem aega kehtivate proof-of-work lahenduste leidmiseks
+  - "Suurenenud plokisuurused vähendavad raskusastme kohandamise mehhanismi tõhusust, mis viib ettearvamatute plokkide ajastusintervallide tekkimiseni."
+  - Suuremad plokid tekitavad rohkem tehingukonflikte konkureerivate plokkide vahel, mistõttu on raskem otsustada, milline plokk tuleks vastu võtta
+explanation: |
+  Õige vastus määratleb põhilise mehhanismi, mis seisab aegunud plokkide taga. Kui plokid on suuremad, vajavad nad sõlmede vaheliseks ülekandmiseks rohkem ribalaiust ja valideerimiseks rohkem aega. Selle pikendatud leviku ajal võivad mitu kaevurit leida konkureerivaid plokke samal kõrgusel, kuna nad ei ole veel viimast plokki saanud. See tekitab võidujooksu, kus ainult üks plokk saab lõpuks vastu võtta, muutes teised plokid aegunuks. Valed vastused ajavad selle levikuprobleemi segamini mining raskuse, konsensusmehhanismide või tehingukonfliktidega, mis on ajastusprobleemist, mis põhjustab aegunud plokke, eraldiseisvad probleemid.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken effekt har tapte bitcoins på de gjenværende myntene i omløp, ifølge Satoshi Nakamotos perspektiv?
+answer: De gjør alle andres mynter litt mer verdt som en donasjon til alle
+wrong_answers:
+  - De reduserer nettverkssikkerheten ved å redusere den totale verdien som er tilgjengelig for mining-belønninger
+  - De skaper et deflasjonært press som destabiliserer det monetære systemet over tid
+  - De må erstattes gjennom ytterligere mining for å opprettholde det tiltenkte forsyningsnivået
+explanation: |
+  Satoshi Nakamoto forklarte at tapte mynter fungerer som en donasjon til alle andre bitcoin-innehavere ved å gjøre myntene deres mer verdifulle på grunn av det reduserte effektive tilbudet. Dette er en positiv deflasjonseffekt, ikke en destabiliserende kraft. Tapte mynter påvirker ikke mining-belønningene, siden disse kommer fra nyutstedte mynter og transaksjonsgebyrer, ikke fra det eksisterende tilbudet. Bitcoins protokoll erstatter ikke tapte mynter - de forblir permanent ute av sirkulasjon, noe som faktisk kommer gjenværende innehavere til gode gjennom økt knapphet.
+reviewed: false

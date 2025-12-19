@@ -44,13 +44,13 @@ Ushobora kandi gukuraho ububiko bwa Aurora mu yandi maduka y’ibikoresho nka F-
 
 
 
-https://planb.network/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+https://planb.academy/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
 
 Ariko rero, turagusavye gukura dosiye ya APK ku rubuga rwemewe kugira ngo umenye neza ko Aurora Store ari iyo ukuri kandi ko ataco ihinduye.
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Dosiye ya APK (Android Package Kit) ni uburyo bwo gukoresha amaporogarama bukoreshwa na sisitemu ya Android mu gukwiragiza no gushiramwo porogarama. Ni nk’amadosiye **.exe** kuri Windows canke amadosiye **.dmg** kuri macOS.
 
@@ -155,4 +155,4 @@ Ibirenze ububiko bw’ibikoresho gusa, Aurora Store ni umuti w’inkomoko yuguru
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

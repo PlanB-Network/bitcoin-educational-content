@@ -1,11 +1,10 @@
-question: Ni igiki nyamukuru ubutunzi bwa Otirishiya bwibandako?
-answer: Ubutunzi bwa Otirishiya burashimika ku ciyumviro gikomeye kuruta c’iterambere n’ugutahura kw’abantu.
+question: Ni iyihe ntumbero nyamukuru y-ubutunzi bwa otirishi?
+answer: Ubutunzi bwa Otirishi burashimika ku ciyumviro gikomeye kuruta c’iterambere n’ugutahura kw’abantu.
 wrong_answers:
-  - Ubutunzi bwa Otirishiya bwibanda ku gucapura amahera no kuyakoresha kugira ngo haboneke iterambere.
-  - Ubutunzi bwa Otirishiya bushimika ku gushiramwo ububasha bw’amahera.
-  - Ubutunzi bwa Otirishiya bwibanda ku guhingura no gucunga amafaranga n'ubutegetsi bwa hagati .
+  - Ubutunzi bwa Otirishi bwibanda ku gucapura amahera no kuyakoresha kugira ngo haboneke iterambere.
+  - Ubutunzi bwa Otirishi gushira hamwe canke gucungera ububasha(inzego canke abajejwe) amahera.
+  - Ubutunzi bwa Otirishi bwibanda ku guhingura no gucunga amafaranga n-amabanki makuru .
 explanation: |
-  Ico kigabane kirasigura yuko ubutunzi bwa Otirishiya bushimika ku .
-  iyerekwa ryiza cane ry’ukukura n’ubwenge bw’umuntu mu gihe cacu
-  ubutunzi, butandukanye cane n’inyigisho ya Keynes.
+  Ico gice kirasigura yuko ubutunzi bwa Otirishi bushimika.
+  Ubutunzi bwacu bushira imbere kubona ibintu mu buryo bworoshe ku bijanye n’iterambere no ku buryo bw’ubwenge bw’abantu, ivyo bitandukanye cane n’inyigisho ya Keynes.
 reviewed: true

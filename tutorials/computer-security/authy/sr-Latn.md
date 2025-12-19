@@ -92,7 +92,7 @@ Da biste dodali novi uređaj, jednostavno ponovite proces instalacije prikazan u
 Da biste postavili 2FA autentifikacioni kod putem aplikacije kao što je Authy na nalogu, nalog mora podržavati ovu funkciju. Danas većina online servisa nudi ovu 2FA opciju, ali to nije uvek slučaj. Uzmimo za primer Proton mail nalog koji sam predstavio u drugom vodiču:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 

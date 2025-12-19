@@ -1,0 +1,9 @@
+question: Ngày nay người ta sử dụng loại thiết bị nào để khai thác Bitcoin hiệu quả?
+answer: ASIC
+wrong_answers:
+  - CPU cổ điển
+  - Bộ xử lý đồ họa
+  - FPGA
+explanation: |
+  Ngày nay, Bitcoin và Mining được thực hiện bằng cách sử dụng ASIC. Đây là những chip chuyên dụng cho thuật toán SHA-256.
+reviewed: true

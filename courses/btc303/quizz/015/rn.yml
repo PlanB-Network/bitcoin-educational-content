@@ -1,0 +1,9 @@
+question: Ni igiki kiba iyo abakoresha bashizeho ivy’ugusuzuma amafaranga yabo ya Bitcoin ku bandi aho gukoresha ama node yabo yuzuye?
+answer: Ukwegereza ubutegetsi kwa Bitcoin kuragoyagoya uko abantu bakeyi bashira mu ngiro amategeko y'urubuga ku giti cabo
+wrong_answers:
+  - Ibikorwa vya Bitcoin biranyaruka kandi bikaba vyiza ku bari muri iyo nzira bose
+  - Urubuga rwa Bitcoin ruhita rukora izindi nzira za mining kugira ngo rusubize inyuma ivyemezo vyatakaye
+  - Ibikorwa vy'abandi bironka ubushobozi bwo kurema amafaranga mashasha arengeye urutonde rusanzwe rwo gutanga
+explanation: |
+  Iyo abakoresha badakoresha ama node yabo yuzuye, batanga ububasha bwabo ku bandi kugira ngo bashitse amategeko ya Bitcoin. Ivyo bica bigoyagoya ukwegereza ubutegetsi Bitcoin kuko imigambwe yigenga ari mikeyi ariko yemeza amafaranga n’amabuye. Nk’uko David Harding abisigura, ivyo bituma haba ikintu aho umubare mutoyi w’abacukuzi b’amabuye y’agaciro n’abatanga ibikorwa boshobora guhindura amategeko ya Bitcoin ku bakoresha batagenzura, mu gihe abo bakoresha boba badashobora gukorana n’abantu bakoresha ama node yuzuye y’ugusuzuma banse ayo mahinduka y’amategeko.
+reviewed: false

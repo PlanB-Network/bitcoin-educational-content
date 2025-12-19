@@ -6,4 +6,4 @@ wrong_answers:
   - Obtenir des canaux Lightning
 explanation: |
   Un explorateur de blocs local évite les fuites d’IP et repose sur vos propres données validées, ce qui garantit confidentialité et fiabilité.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,9 @@
+question: Solusi node-in-a-box mana yang merupakan pemimpin pasar saat ini?
+answer: Payung
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel adalah solusi node-in-a-box yang paling populer, berkat kemudahan instalasi dan App Store yang kaya.
+reviewed: true

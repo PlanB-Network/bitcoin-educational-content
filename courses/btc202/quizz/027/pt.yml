@@ -1,0 +1,9 @@
+question: Qual é a particularidade de um nó SPV?
+answer: Mantém apenas as cabeças de bloco
+wrong_answers:
+  - Mantém a totalidade do Blockchain desde o bloco Genesis
+  - Armazena apenas os blocos mais recentes
+  - Só mantém o conjunto UTXO, não o Blockchain
+explanation: |
+  Um nó SPV verifica as transacções através de cabeçalhos de blocos e provas de Merkle, sem armazenar os dados completos.
+reviewed: true

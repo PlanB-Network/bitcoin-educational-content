@@ -1,0 +1,9 @@
+question: Która aplikacja Umbrel pozwala zarządzać węzłem Lightning za pomocą zaawansowanego Interface?
+answer: Ride The Lightning
+wrong_answers:
+  - BTCPay Lightning
+  - Przekaźnik Nostr
+  - Bitfeed
+explanation: |
+  Ride The Lightning i ThunderHub oferują kompletny internetowy Interface do administrowania węzłem Lightning.
+reviewed: true

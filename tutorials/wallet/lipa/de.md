@@ -10,7 +10,7 @@ Blitz-Geldbörsen gelten wie alle mobilen Geldbörsen als "heiße" Geldbörsen, 
 
 Wenn Sie mehr über das Lightning-Netzwerk erfahren möchten und verstehen wollen, wie es technisch funktioniert, empfehle ich Ihnen diesen Kurs:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In diesem Tutorial werfen wir einen Blick auf **Lipa**, eine einfache und effektive Lightning-Wallet, die in der Schweiz entwickelt wurde.
 
@@ -91,7 +91,7 @@ Um Ihre Brieftasche zu sichern, gehen Sie auf die Registerkarte "Einstellungen" 
 
 Für weitere Informationen darüber, wie Sie Ihre Wiederherstellungsphrase richtig sichern und verwalten, empfehle ich Ihnen diesen anderen Lehrgang, besonders wenn Sie Anfänger sind:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Bitcoins erhalten
 

@@ -62,7 +62,7 @@ Oletko valmis tutustumaan Bitcoin-louhinnan maailmaan ja ottamaan vastaan käyt�
 
 Louhintakonseptin selittämiseksi yksinkertaistetulla tavalla voidaan käyttää osuvaa analogiaa: palapeliä. Aivan kuten palapeli, louhinta on monimutkainen suoritus, mutta helppo todentaa kerran suoritettuna. Bitcoin-louhinnan kontekstissa louhijat pyrkivät nopeasti ratkaisemaan digitaalisen palapelin. Ensimmäinen palapelin ratkaissut louhija esittää ratkaisunsa koko verkolle, joka voi sitten helposti todentaa sen pätevyyden. Tämä onnistunut todentaminen mahdollistaa louhijan uuden lohkon vahvistamisen ja lisäämisen Bitcoin-aikaketjuun. Työstään, joka sisältää merkittäviä kustannuksia, louhija palkitaan tietyn määrän bitcoineja. Tämä palkkio toimii taloudellisena kannustimena louhijoille jatkaa transaktioiden vahvistamista ja Bitcoin-verkon turvaamista.
 
-![kuva](assets/en/01.webp)
+![kuva](assets/en/001.webp)
 
 Alun perin Bitcoin-verkossa palkinto oli 50 bitcoinia joka kymmenes minuutti, rinnakkain lohkon löytämisen kanssa joka kymmenes minuutti keskimäärin louhijoilta. Tämä palkkio puolittuu joka 210 000 lohkon jälkeen, suunnilleen joka neljäs vuosi. Tämä korvaus toimii voimakkaana kannustimena rohkaista louhijoita osallistumaan louhintaprosessiin huolimatta sen energiakustannuksista. Ilman palkkiota, energiaintensiivinen louhinta hylättäisiin, vaarantaen koko Bitcoin-verkon turvallisuuden ja vakauden.
 Nykyinen louhintapalkkio on kaksiosainen. Toisaalta se sisältää uusien bitcoinien luomisen, joka on vähentynyt alun 50 bitcoinista joka kymmenes minuutti nykyiseen 6,25 bitcoiniin (2023). Toisaalta se sisältää transaktiomaksut eli louhintamaksut, transaktioista, jotka louhija valitsee sisällyttääkseen lohkoonsa. Kun bitcoin-transaktio tehdään, maksetaan transaktiomaksuja. Nämä maksut toimivat eräänlaisena huutokauppana, jossa käyttäjät ilmoittavat, kuinka paljon he ovat valmiita maksamaan transaktionsa sisällyttämisestä seuraavaan lohkoon. Maksimoidakseen palkkionsa louhijat, omassa edussaan toimien, valitsevat lohkoonsa sisällytettäviksi tuottoisimmat transaktiot, ottaen huomioon rajallisen saatavilla olevan tilan. Näin ollen louhintapalkkio koostuu sekä uusien bitcoinien luomisesta että transaktiomaksuista, varmistaen jatkuvan kannustimen louhijoille ja turvaten Bitcoin-verkon pitkäikäisyyden ja turvallisuuden.
@@ -73,7 +73,7 @@ Louhintaprosessi sisältää kelvollisen hashin löytämisen, joka on hyväksytt
 
 Alussa CPU-aikakausi hallitsi, jossa louhijat käyttivät henkilökohtaisia tietokoneitaan Bitcoin-louhintaan. GPUiden (näytönohjaimet) edut tässä tehtävässä löytäminen merkitsi käännekohtaa, merkittävästi lisäten hashratea ja vähentäen energiankulutusta. Edistys ei pysähtynyt tähän, seurasi FPGAiden (field-programmable gate arrays) käyttöönotto. FPGA:t toimivat alustana ASICien (application-specific integrated circuits) kehittämiselle.
 
-![kuva](assets/en/02.webp)
+![kuva](assets/en/002.webp)
 ASICit ovat piirejä, verrattavissa CPU-piiriin, mutta ne on kehitetty suorittamaan vain yhtä tiettyä laskentatyyppiä mahdollisimman tehokkaasti. Toisin sanoen, CPU pystyy suorittamaan monenlaisia laskentoja olematta erityisesti optimoitu mihinkään tiettyyn laskentaan, kun taas ASIC pystyy suorittamaan vain yhtä tyyppistä laskentaa, mutta hyvin tehokkaasti. Bitcoin ASICien tapauksessa ne on suunniteltu SHA256-algoritmin laskentaan. Nykyään kaivostyöläiset käyttävät yksinomaan tähän toimintoon omistettuja ASICeja, jotka on optimoitu testaamaan mahdollisimman monta yhdistelmää mahdollisimman pienellä energiankulutuksella ja mahdollisimman nopeasti. Nämä tietokoneet, jotka eivät pysty suorittamaan muita tehtäviä kuin Bitcoinin louhintaa, ovat konkreettinen todiste Bitcoinin kaivosalan jatkuvasta kehityksestä ja erikoistumisen lisääntymisestä. Tämä jatkuva kehitys heijastaa Bitcoinin sisäistä dynamiikkaa, jossa vaikeustason säätö varmistaa lohkon tuotannon joka kymmenes minuutti huolimatta kaivoskapasiteetin eksponentiaalisesta kasvusta.
 
 Tämän prosessin intensiteetin havainnollistamiseksi, harkitse tyypillistä kaivostyöläistä, joka kykenee saavuttamaan 14 TeraHashia sekunnissa, eli 14 biljoonaa yritystä joka sekunti löytää oikea hash. Bitcoin-verkon mittakaavassa saavutamme nyt noin 300 ExaHashia sekunnissa, mikä korostaa Bitcoinin louhinnassa mobilisoidun kollektiivisen voiman määrää.
@@ -82,7 +82,7 @@ Tämän prosessin intensiteetin havainnollistamiseksi, harkitse tyypillistä kai
 
 Vaikeustason säätö on keskeinen mekanismi Bitcoin-verkon toiminnassa, varmistaen, että lohkoja louhitaan keskimäärin joka 10. minuutti. Tämä kesto on keskiarvo, koska louhintaprosessi on itse asiassa todennäköisyyspeli, samanlainen kuin nopan heitto toivossa saada numero, joka on pienempi kuin vaikeustason määrittelemä numero. Joka 2016 lohkon jälkeen, verkko säätää louhintavaikeutta perustuen edellisten lohkojen louhintaan keskimäärin vaadittuun aikaan. Jos keskimääräinen aika on yli 10 minuuttia, vaikeustasoa alennetaan, ja päinvastoin, jos keskimääräinen aika on alempi, vaikeustasoa nostetaan. Tämä säätömekanismi varmistaa, että uusien lohkojen louhinta-aika pysyy vakiona ajan myötä, riippumatta kaivostyöläisten määrästä tai verkon kokonaislaskentatehosta. Tämän vuoksi Bitcoinin lohkoketjua kutsutaan myös Aikaketjuksi.
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 - Esimerkki Kiinasta:
   Kiinan tapaus kuvaa täydellisesti tätä vaikeustason säätömekanismia. Runsaiden ja halpojen energiavarojen ansiosta Kiina oli maailmanlaajuinen keskus Bitcoinin louhinnalle. Vuonna 2021 maa yllättäen kielsi Bitcoinin louhinnan alueellaan, mikä johti globaalin Bitcoin-verkon hashraten massiiviseen laskuun, noin 50%. Tämä nopea louhintatehon lasku olisi voinut vakavasti häiritä Bitcoin-verkkoa lisäämällä keskimääräistä lohkon louhinta-aikaa. Kuitenkin, vaikeustason säätömekanismi aktivoitui, alentaen louhintavaikeutta varmistaakseen, että lohkojen louhintataajuus pysyy keskimäärin 10 minuutissa. Tämä tapaus osoittaa Bitcoinin vaikeustason säätömekanismin tehokkuuden ja joustavuuden, joka takaa verkon vakauden ja ennustettavuuden, jopa äkillisten ja merkittävien muutosten edessä globaalissa louhintamaisemassa.
@@ -92,7 +92,7 @@ Vaikeustason säätö on keskeinen mekanismi Bitcoin-verkon toiminnassa, varmist
 Bitcoinin louhintakoneiden kehityksestä puhuttaessa on tärkeää huomata, että konteksti on enemmän suunnattu perinteiseen liiketoimintamalliin. Kaivostyöläiset ansaitsevat tulonsa lohkojen validoinnista, tehtävästä, jonka onnistumisen todennäköisyys on suhteellisen pieni. Nykyisin käytössä oleva malli, Antminer S9, vaikka vanhempi malli, joka lanseerattiin noin vuonna 2016, on edelleen kierrossa käytettynä markkinoilla, kaupan noin 100–200 eurolla. Kuitenkin louhintakoneiden hinta vaihtelee Bitcoinin arvon mukaan, ja uudempi malli, Antminer S19, arvioidaan tällä hetkellä noin 3000 euroksi.
 Jatkuvien teknologisten edistysaskelten edessä kaivosalalla ammattilaiset joutuvat strategisesti asemoimaan itsensä. Kaivosala on jatkuvan innovaation kohteena, kuten äskettäin julkaistu S19:n J-versio ja odotettu S19 XP:n julkaisu osoittavat, tarjoten huomattavasti paremmat kaivoskyvyt. Lisäksi parannukset eivät liity pelkästään koneiden raakatehoon. Esimerkiksi uusi S19 XP -malli käyttää nestemäistä jäähdytysjärjestelmää, tekninen muutos, joka mahdollistaa merkittävän parannuksen energiatehokkuudessa. Vaikka innovaatio on jatkuvaa, tulevaisuuden tehokkuuden kasvut tulevat todennäköisesti olemaan pienempiä verrattuna tähän mennessä havaittuihin, johtuen tietyn teknologisen innovaation kynnyksen saavuttamisesta.
 
-![kuva](assets/en/04.webp)
+![kuva](assets/en/004.webp)
 
 Yhteenvetona voidaan todeta, että Bitcoinin kaivosala jatkaa sopeutumista ja kehittymistä, ja alan toimijoiden on ennakoitava tulevaisuudessa pieneneviä tehokkuuden kasvuja ja mukautettava strategioitaan sen mukaisesti. Tulevaisuuden teknologiset edistysaskeleet, vaikka yhä läsnä, todennäköisesti tapahtuvat pienemmässä mittakaavassa, heijastaen alan kasvavaa kypsyyttä.
 
@@ -104,7 +104,7 @@ Yhteenvetona voidaan todeta, että Bitcoinin kaivosala jatkaa sopeutumista ja ke
 
 Nykyään Bitcoinin louhinta on kehittynyt vakavaksi ja merkittäväksi alaksi, jossa monet toimijat ovat nyt julkisesti tunnettuja ja merkittävien louhijoiden määrä kasvaa. Tämä kehitys on tehnyt louhinnasta lähes saavuttamattoman pienille toimijoille korkeiden uusien louhintakoneiden hankintakustannusten vuoksi. Tämä herättää kysymyksen hashraten jakautumisesta eri markkinatoimijoiden kesken. Tilanne on monimutkainen, koska on tärkeää tarkastella hashraten jakautumista sekä eri yritysten että eri kaivosaltaiden kesken.
 
-![kuva](assets/en/05.webp)
+![kuva](assets/en/005.webp)
 
 Kaivosallas on louhijoiden ryhmä, joka yhdistää laskentatehonsa lisätäkseen mahdollisuuksiaan louhia. Tämä yhteistyö on tarpeellista, koska erillään oleva pieni louhintakone kilpailee teollisuuden jättiläisiä vastaan, vähentäen sen menestymismahdollisuuksia merkityksettömälle tasolle. Louhinta toimii lotto-periaatteella, ja mahdollisuudet voittaa lohko (ja siten Bitcoin-palkkio) joka kymmenes minuutti ovat erittäin pienet yksittäiselle pienelle louhijalle. Yhdistämällä voimansa louhijat voivat yhdistää laskentatehonsa, löytää lohkoja useammin ja sitten jakaa palkkiot suhteellisesti kunkin louhijan panokseen altaassa.
 
@@ -135,7 +135,7 @@ Louhinnan keskittymistä käsitellään merkittävänä haasteena. Suuret toimij
 
 Säätelyriskiä korostetaan, että jos maa kuten Yhdysvallat päättäisi säädellä tai kieltää tiettyjä Bitcoin-transaktioita, sillä voisi olla merkittävä vaikutus verkkoon, erityisesti jos suuri osa hashratesta on keskittynyt kyseiseen maahan.
 
-![kuva](assets/en/06.webp)
+![kuva](assets/en/006.webp)
 
 Tämän keskittymisen torjumiseksi keskustellaan erilaisista strategioista:
 
@@ -159,7 +159,7 @@ Attakai-aloite sai alkunsa kahden ystävän kotiin tekemästä louhintakokeilust
 
 Esiteltyään projektinsa Bitcoin-yhteisölle ja saatuun kiinnostukseen nähden Attakai-keksijät päättivät julkaista yksityiskohtaisia ohjeita Découvre Bitcoin -alustalla, jotta kuka tahansa voi toistaa heidän kotiin tekemänsä louhintakokemuksen. He suunnittelevat nyt laajentavansa konseptia kodin ulkopuolelle. Tavoitteena on osoittaa, miten muutettu louhintakone voidaan muuttaa hiljaiseksi lisälämmittimeksi, jota voidaan käyttää talvella, tarjoten pehmeän siirtymän toiseen koulutusosaan, joka keskittyy näiden muutosten käytännön toteutukseen ja opastaviin videoihin. Kysymys kuuluu kuitenkin, voidaanko tätä aloitetta laajentaa suuremmassa mittakaavassa, tarjoten realistinen ja kestävä vaihtoehto nykyisille keskitettyihin louhintarakenteisiin perustuvalle toiminnalle.
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 ### Tämän hajauttamisen raja?
 
@@ -182,7 +182,7 @@ Kysymykseen siitä, mitä Bitcoin-lohkoon tulisi sisältyä, on tärkeää harki
 
 Lightning Networkin odotetun kasvun ja kanavien avaamisten ja sulkemisten seurauksena tila Bitcoin-lohkoissa muuttuu yhä arvokkaammaksi. Bitcoin-yhteisö arvostaa jo tämän tilan säilyttämistä, tunnustaen sen sisäisen rajallisuuden. Tämä tietoisuus on johtanut keskusteluihin lohkon tilan legitiimistä käytöstä, huolien ollessa "spämmistä" lohkoketjussa, jota pidetään ei-olennaisena tapahtumana.
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 Spekulaatiot lohkon tilan tulevasta käytöstä ovat yleisiä, mutta yleisesti hyväksytään, että se on niukka resurssi, jota tulisi käyttää viisaasti. Vaikka on halu täyttää se, on olennaista säilyttää se varmistaakseen Bitcoin-verkon pitkäaikaisen elinkelpoisuuden, odottaen tulevaa kysynnän kasvua lohkotilalle. Kuten missä tahansa vapaassa markkinassa, tarjonta ja kysyntä säätelevät lohkotilan käyttöä. Rajallisella tarjonnalla sidosryhmien on tehtävä tietoisia valintoja tämän arvokkaan tilan käytöstä varmistaakseen Bitcoin-verkon pitkäaikaisen tehokkuuden ja turvallisuuden.
 
@@ -196,7 +196,7 @@ Louhijoiden rooli Bitcoin-verkossa on ollut kiivaiden keskustelujen kohteena loh
 
 Lohkokoon sodissa monet louhijat vastustivat tiettyjä kehityksiä verkossa, mikä korosti jännitettä ekosysteemin eri toimijoiden välillä. Kysymys siitä, miten valtaa tulisi tasapainottaa louhijoiden, solmujen ja käyttäjien kesken Bitcoinin pitkäaikaisen turvallisuuden varmistamiseksi, pysyy avoimena.
 
-![kuva](assets/en/09.webp)
+![kuva](assets/en/009.webp)
 
 Bitcoinin turvallisuusdilemma perustuu hauraaseen tasapainoon. Vaikka louhijat ovat keskeisessä roolissa lohkojen vahvistamisessa ja luomisessa, solmut ylläpitävät eheyttä vahvistamalla ja validoidessa transaktioita ja lohkoja. Virheellinen tai petollinen lohko hylätään solmujen toimesta, näin sensuroiden louhijaa ja säilyttäen verkon turvallisuuden. Valtaa pitävät myös Bitcoin-verkon solmut ja käyttäjät. Solmuilla on vahvistamisen ja validoinnin valta, kun taas käyttäjillä on valta valita, mitä lohkoketjua käyttää. Tämän vallanjaon avulla varmistetaan Bitcoin-verkon jakelu ja eheys.
 
@@ -208,7 +208,7 @@ Lopulta vastuu jakautuu kaikkien Bitcoin-verkon toimijoiden kesken. Käyttäjien
 
 Satoshi Nakamoton elegantti peliteoria loi tilanteen, jossa jokainen Bitcoin-verkon toimija on kannustettu toimimaan oikein suojellakseen sekä omia etujaan että muiden osallistujien etuja. Tämä luo tasapainon, jossa huonoa käytöstä voidaan rangaista, parantaen koko järjestelmän turvallisuutta ja vakautta. Tästä huolimatta valtiot pysyvät potentiaalisena uhkana. Kuten Surfing Bitcoin 2022 -esityksessä mainittiin, valtiot voivat yrittää hyökätä louhintateollisuutta vastaan, altistaen Bitcoin-verkon keskittymisen ja hyökkäyksen riskeille. Hypoteettiset skenaariot, kuten sotilaallinen hyökkäys louhintalaitteiden tuotantolaitoksia vastaan, korostavat maantieteellisen ja teollisen monipuolistamisen tärkeyttä Bitcoin-verkon joustavuudelle.
 
-![kuva](assets/en/10.webp)
+![kuva](assets/en/010.webp)
 
 Louhintalaitteiden tuotannon keskittäminen Kiinaan aiheuttaa toisen riskin. Kieltäytyminen louhintakoneiden viennistä tai hashraten kasaaminen mahdollista 51% hyökkäystä varten Kiinassa korostaa louhintalaitteiden tuotannon monipuolistamisen tarvetta. Näihin riskeihin vastauksena Bitcoin-yhteisö tutkii aktiivisesti ratkaisuja. Yritykset, kuten Intel, harkitsevat louhintalaitteiden tuottamista Yhdysvalloissa, edistäen tuotannon jakautumista. Muut aloitteet, kuten Blockin avoimen lähdekoodin Mining Development Kit (MDK), pyrkivät vähentämään louhintalaitteiden suunnittelun ja tuotannon monopolia, mahdollistaen hashraten laajemman jakautumisen. Näiden keskustelujen ytimessä on Bitcoinin perustehtävä: olla sensuurinkestävä arvonvaihdon verkosto. Bitcoin-yhteisö pyrkii jatkuvasti vahvistamaan jakautumista, sensuurinkestävyyttä ja verkon anti-haurautta, hyläten ehdotukset, kuten siirtyminen proof of stake -malliin, jotka eivät ole linjassa näiden periaatteiden kanssa.
 
@@ -216,7 +216,7 @@ Louhintalaitteiden tuotannon keskittäminen Kiinaan aiheuttaa toisen riskin. Kie
 
 Proof of Work (PoW) on olennainen, koska se edustaa fyysistä linkkiä todellisen maailman ja Bitcoinin välillä. Vaikka bitcoinit ovat aineettomia, niiden tuottaminen vaatii konkreettista energiaa, luoden suoran yhteyden fyysiseen ja todelliseen maailmaan. Tämä yhteys varmistaa, että bitcoinien ja lohkojen tuotanto ja validointi aiheuttavat todellisia energiakustannuksia, ankkuroiden Bitcoin-verkon fyysiseen todellisuuteen ja estäen sen täydellisen hallinnan voimakkaiden toimijoiden toimesta. PoW toimii keskittymisen vastavoimana, varmistaen, että verkostoon osallistuminen ja transaktioiden validointi vaativat investointeja konkreettisiin resursseihin. Tämä estää verkon monopolisoitumisen toimijoiden toimesta, jotka muuten voisivat ottaa hallinnan ilman merkittäviä esteitä, varmistaen näin voiman ja vaikutusvallan tasaisemman jakautumisen Bitcoin-verkossa.
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 ### Proof of Staken rajoitukset
 
@@ -236,7 +236,7 @@ Yhteenvetona voidaan todeta, että louhijat vahvistavat Bitcoin-verkon sensuurin
 Nykyinen hashrate, huolimatta siitä, että Bitcoinin hinta on $30,000 verrattuna aiempaan huippuunsa $69,000, korostaa konkreettista linkkiä louhinnan ja todellisen maailman välillä. Härkämarkkinakaudet johtavat korkeaan kysyntään Bitcoin-louhintaan ja lisääntyneisiin koneiden tilauksiin valmistajilta, kuten Avalon ja Bitmain. Tuotanto ja toimitus eivät kuitenkaan ole välittömiä, luoden epäsuhtaa lisääntyneen kysynnän ja myöhäisemmän saatavuuden välille. Tämä voi johtaa siihen, että härkämarkkinoiden aikana tilatut koneet toimitetaan karhumarkkinoilla, korostaen merkittävää epäsymmetriaa matalan hinnan ja korkean hashraten välillä.
 Tämä tilanne myös havainnollistaa Bitcoinin sietokykyä, jota usein arvioidaan sen hinnan perusteella. Kuitenkin syvällisempi analyysi Bitcoinin terveydestä vaatii sen hash-nopeuden tutkimista, joka mittaa sekunnissa Bitcoin-verkossa suoritettavien laskentojen määrää. Vaikka Bitcoinin hinta vaihtelee, sen kustannus, joka on yhteydessä louhintaan tarvittavan sähkön määrään, on olennainen ymmärtääkseen markkinadynamiikkaa. Keskittymällä kustannukseen hinnan sijaan saadaan johdonmukaisempi näkökulma Bitcoinin vakaudelle ja pitkän aikavälin elinkelpoisuudelle. Yleisesti ottaen Bitcoinin kustannus on suhteessa sen hintaan, tarjoten paremman ymmärryksen hintavaihteluista ja tulevaisuuden näkymistä.
 
-![kuva](assets/en/12.webp)
+![kuva](assets/en/012.webp)
 
 ### Hash-nopeus ja palkkio
 
@@ -269,7 +269,7 @@ Louhinta tarjoaa kuitenkin ainutlaatuisia tapoja osallistua Bitcoin-ekosysteemii
 
 Näistä vaihtoehdoista huolimatta louhinta esittää merkittäviä haasteita. Kryptovaluuttojen maailmassa tunnettu sanonta "Ei sinun avaimiasi, ei sinun bitcoinejasi" löytää vastaavan kaikun louhintamaailmassa: "Ei sinun hashrateasi, ei sinun palkkioitasi." Pettymysten ja katkaistujen koneiden tarinat ovat yleisiä, monien toimijoiden luvatessa poikkeuksellisia tuloksia, mutta epäonnistuessa toimittamaan. Sähköntoimituksen ongelmat ja koneiden rikkoutumiset voivat jättää sijoittajat voimattomiksi, kalliiden laitteiden kanssa, joita he eivät hallitse. Tässä kontekstissa varovaisuus ja syvällinen ymmärrys louhintasektorista ovat ratkaisevan tärkeitä ennen siihen ryhtymistä. Vaikka voiton mahdollisuuksia on olemassa, riskit ovat merkittävät, ja tietoinen ja harkittu lähestymistapa on välttämätön tässä monimutkaisessa ja usein arvaamattomassa kentässä. On siis elintärkeää suorittaa perusteellinen tutkimus ja huolellisesti punnita hyvät ja huonot puolet ennen Bitcoin-louhintaan osallistumista.
 
-![kuva](assets/en/13.webp)
+![kuva](assets/en/013.webp)
 
 ### Neitsyt Bitcoinit
 
@@ -283,7 +283,7 @@ Tässä kontekstissa itsenäisen ja sivistyneen lähestymistavan valitseminen lo
 
 Louhinnan mahdollisen kiellon myötä Euroopassa keskustelut sääntelystä ovat yhä merkityksellisempiä. Vaihteleva sääntelymaisema voi todellakin merkittävästi vaikuttaa Bitcoin-louhintateollisuuteen. Louhinnan kielto Euroopassa on kuviteltavissa oleva skenaario, erityisesti ottaen huomioon Kiinan ennakkotapaukset. Vaikka louhintatoiminnot jatkuvat Kiinassa kiellosta huolimatta, Eurooppa saattaisi seurata samankaltaista polkua. Hashrate-omistuksen laajempi jakautuminen eri alueille voisi auttaa vahvistamaan louhintayhteisöä Euroopassa, mahdollistaen heidän tehokkaan vastustamisen väärinkäsityksiä ja väärinkäsityksiä louhinnasta, sen ympäristövaikutuksista ja sähköverkon jalanjäljestä.
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 Kampanjoiden, kuten Greenpeacen ja joidenkin tutkimusten usein harhaanjohtavien lukujen, edessä paras ase on totuudenmukainen tieto. On olennaista informoida yleisöä ja päätöksentekijöitä louhinnan todellisuudesta, sen monimutkaisuudesta ja vivahteista, sen sijaan että annettaisiin heidän nojautua stereotypioihin ja epätarkkaan tietoon. Mitä enemmän ihmiset ovat informoituja ja tietoisia siitä, mitä louhinta todella on, sitä paremmin teollisuus voi puolustautua mahdollisia rajoittavia sääntelyjä vastaan.
 
@@ -353,39 +353,39 @@ Antminer S9 tulee useissa variaatioissa (i, j), jotka tekevät pieniä muutoksia
 
 ASIC:ien hinta vaihtelee monien tekijöiden mukaan, kuten bitcoinin hinnan, verkon vaikeusasteen, koneen tehokkuuden ja sähkön hinnan mukaan. Siksi on vaikea antaa tarkkaa arviota käytetyn koneen ostosta. Helmikuussa 2023 Ranskassa odotettu hinta yleensä vaihtelee 100 €:sta 200 €:oon, mutta nämä hinnat voivat muuttua nopeasti.
 
-![kuva](assets/en/15.webp)
+![kuva](assets/en/015.webp)
 
 Antminer S9 koostuu seuraavista osista:
 
 - 3 hashboardia, jotka sisältävät sirut, jotka tuottavat louhintatehon.
 
-![kuva](assets/en/16.webp)
+![kuva](assets/en/016.webp)
 
 - Ohjauskortti, joka sisältää paikan SD-kortille, Ethernet-portin ja liittimet hashboardeille ja tuulettimille. Tämä on ASIC:isi aivot.
 
-![kuva](assets/en/17.webp)
+![kuva](assets/en/017.webp)
 
 - 3 datakaapelia, jotka yhdistävät hashboardit ohjauskorttiin.
 
-![kuva](assets/en/18.webp)
+![kuva](assets/en/018.webp)
 
 - Virtalähde, joka toimii 220V:lla ja voidaan kytkeä kuten tavallinen kotitalouslaite.
 
-![kuva](assets/en/19.webp)
+![kuva](assets/en/019.webp)
 
 - 2 120mm tuuletinta.
 
-![kuva](assets/en/20.webp)
+![kuva](assets/en/020.webp)
 
 - Uros C13-kaapeli.
 
-![kuva](assets/en/21.webp)
+![kuva](assets/en/021.webp)
 
 Käytettyä konetta ostaessa on tärkeää tarkistaa, että kaikki osat ovat mukana ja toimivat. Vaihdon aikana sinun tulisi pyytää myyjää käynnistämään kone tarkistaaksesi sen toimivuuden. On tärkeää varmistaa, että laite käynnistyy oikein, ja sitten tarkistaa internet-yhteys kytkemällä Ethernet-kaapeli ja pääsemällä Bitmainin kirjautumisliittymään verkkoselaimen kautta samassa paikallisverkossa. Tämän IP-osoitteen löydät yhdistämällä internet-reitittimesi liittymään ja etsimällä yhdistettyjä laitteita. Tämän osoitteen tulisi olla seuraavassa muodossa: 192.168.x.x
 
-![kuva](assets/en/22.webp)
+![kuva](assets/en/022.webp)
 Tarkista myös, että oletusarvoiset tunnukset toimivat (käyttäjäname: root, salasana: root). Jos oletusarvoiset tunnukset eivät toimi, sinun tarvitsee nollata laite.
-![kuva](assets/en/23.webp)
+![kuva](assets/en/023.webp)
 
 Kun olet yhdistänyt, sinun pitäisi pystyä näkemään kunkin hashboardin tila hallintapaneelissa. Jos louhija on yhdistetty pooliin, sinun pitäisi nähdä kaikkien hashboardien toimivan. On tärkeää huomata, että louhijat pitävät paljon melua, mikä on normaalia. Varmista myös, että tuulettimet toimivat kunnolla.
 
@@ -408,24 +408,24 @@ Jos olet taitava nikkaroi ja haluat muuttaa louhijan lämmittimeksi, tämä opas
 
 Antminer S9:n alkuperäiset tuulettimet ovat liian äänekkäitä käyttääksesi Antmineriasi lämmittimenä. Ratkaisu on vaihtaa ne hiljaisempiin tuulettimiin. Tiimimme on testannut useita malleja Noctua-merkiltä ja on valinnut Noctua NF-A14 iPPC-2000 PWM:n parhaaksi kompromissiksi. Varmista, että valitset tuulettimien 12V version. Tämä 140mm tuuletin voi tuottaa jopa 1200W lämpöä ylläpitäen teoreettisen melutason 31 dB. Asentaaksesi nämä 140mm tuulettimet, tarvitset 140mm - 120mm sovittimen, jonka löydät DécouvreBitcoin-kaupasta. Lisäämme myös 140mm suojaverkot.
 
-![kuva](assets/en/24.webp)
-![kuva](assets/en/25.webp)
-![kuva](assets/en/26.webp)
+![kuva](assets/en/024.webp)
+![kuva](assets/en/025.webp)
+![kuva](assets/en/026.webp)
 Virtalähteen tuuletin on myös melko äänekäs ja se täytyy vaihtaa. Suosittelemme Noctua NF-A6x25 PWM -mallia. Huomaa, että Noctuan tuulettimien liittimet eivät ole samanlaisia kuin alkuperäisissä, joten tarvitset liitinsovittimen niiden kytkemiseen. Kaksi riittää. Varmista jälleen, että valitset tuulettimen 12V version.
-![kuva](assets/en/27.webp)
-![kuva](assets/en/28.webp)
+![kuva](assets/en/027.webp)
+![kuva](assets/en/028.webp)
 
 2. Lisää WIFI/Ethernet-silta
 
 Ethernet-kaapelin sijaan voit yhdistää Antminerisi WIFIin lisäämällä WIFI/Ethernet-sillan. Olemme valinneet vonets vap11g-300 -mallin, koska se mahdollistaa helposti WIFI-signaalin vastaanottamisen Internet-laitteestasi ja lähettämisen Antminerillesi Ethernetin kautta luomatta aliverkkoa. Jos sinulla on sähkötekniikan taitoja, voit kytkeä sen suoraan Antminerisi virtalähteeseen ilman USB-laturin lisäämistä. Tätä varten tarvitset naaraspuolisen 5.5mmx2.1mm jakin.
 
-![kuva](assets/en/29.webp)
-![kuva](assets/en/30.webp)
+![kuva](assets/en/029.webp)
+![kuva](assets/en/030.webp)
 
 3. Vaihtoehtoinen: lisää älypistoke
    Jos haluat kytkeä Antminerisi päälle/pois päältä älypuhelimestasi ja seurata sen energiankulutusta, voit lisätä älypistokkeen. Testasimme ANTELA-pistoketta 16A versiossa, joka on yhteensopiva smartlife-sovelluksen kanssa. Tämä älypistoke mahdollistaa päivittäisen ja kuukausittaisen energiankulutuksen tarkastelun ja yhdistää suoraan internet-reitittimeesi WiFi-yhteyden kautta.
 
-![kuva](assets/en/31.webp)
+![kuva](assets/en/031.webp)
 
 Laitteiden ja linkkien luettelo
 
@@ -455,21 +455,21 @@ Virran saamiseksi sillalle, yhdistä se USB:n kautta.
 
 Tietokoneeltasi, yhdistä VONETS\_**\*\*** WIFI-verkkoon salasanalla 12345678.
 
-![kuva](assets/en/32.webp)
+![kuva](assets/en/032.webp)
 
 Kirjaudu sisään käyttäjänimellä "admin" ja salasanalla "admin".
 
-![kuva](assets/en/33.webp)
+![kuva](assets/en/033.webp)
 
 Valitse Wizard.
 
-![kuva](assets/en/34.webp)
+![kuva](assets/en/034.webp)
 
 Valitse WIFI-verkko, johon haluat yhdistää louhintalaitteesi, ja klikkaa Seuraava.
 
 HUOM: Vonet-silta toimii vain 2.4GHz taajuudella. Nykyään reitittimet tarjoavat yleensä kaksi WIFI-verkkoa, yhden 2.4GHz ja toisen 5GHz taajuudella.
 
-![kuva](assets/en/35.webp)
+![kuva](assets/en/035.webp)
 
 Anna WIFI-verkkosi salasana "Lähde-WIFI-hotspotin salasana" -kenttään. Jos et halua käyttää Vonet-siltaasi laajentaaksesi WIFI-verkkoasi, valitse "Poista hotspot käytöstä" -ruutu. Muussa tapauksessa jätä se valitsematta.
 
@@ -488,7 +488,7 @@ Ennen BraiinOS+:n asentamista voi olla tarpeen nollata S9 tehdasasetuksiinsa.
 Tämä menetelmä voidaan soveltaa 2 minuutista 10 minuuttiin louhijan käynnistämisen jälkeen.
 2 minuuttia louhijan käynnistämisen jälkeen, paina "Reset"-nappia 5 sekunnin ajan ja vapauta se sitten. Louhija palautuu tehdasasetuksiin 4 minuutin kuluessa ja käynnistyy uudelleen automaattisesti (sitä ei tarvitse sammuttaa).
 
-![kuva](assets/en/36.webp)
+![kuva](assets/en/036.webp)
 
 ## BraiinsOS+:n asentaminen Antminer S9:ään
 
@@ -504,11 +504,11 @@ Tässä näemme, miten Braiins OS+ voidaan helposti asentaa suoraan Antminerisi 
 2. Lataa BOS toolbox Windowsille / Linuxille.
 3. Pura ladattu tiedosto ja avaa bos-toolbox.bat-tiedosto. Valitse kieli, ja muutaman hetken kuluttua näet tämän ikkunan:
 
-![kuva](assets/en/37.webp)
+![kuva](assets/en/037.webp)
 
 4. Bos toolbox mahdollistaa Antminerisi IP-osoitteen helposti löytämisen ja BraiinsOS+:n asentamisen. Jos tiedät jo koneesi IP-osoitteen, voit siirtyä suoraan vaiheeseen 8. Muussa tapauksessa siirry skannaus-välilehdelle.
 
-![kuva](assets/en/38.webp)
+![kuva](assets/en/038.webp)
 
 5. Yleensä kotiverkoissa IP-osoitealue on välillä 192.168.1.1 ja 192.168.1.255, joten syötä "192.168.1.0/24" IP-aluekenttään. Jos verkkosi on erilainen, muuta näitä osoitteita vastaavasti. Klikkaa sitten "Aloita".
 
@@ -516,12 +516,12 @@ Tässä näemme, miten Braiins OS+ voidaan helposti asentaa suoraan Antminerisi 
 
 7. Sinun pitäisi nähdä kaikki verkkosi Antminerit tässä, ja IP-osoite on 192.168.1.37.
 
-![kuva](assets/en/39.webp)
+![kuva](assets/en/039.webp)
 
 8. Klikkaa "Takaisin" ja sitten "Asenna"-välilehteä, syötä aiemmin löydetty IP-osoite ja klikkaa "Aloita".
 
 > Jos asennus ei toimi, voi olla tarpeen suorittaa nollaus ja yrittää uudelleen (katso edellinen osio).
-> ![kuva](assets/en/40.webp) 9. Hetken kuluttua Antminerisi käynnistyy uudelleen, ja pääset käsiksi Braiins OS+ -käyttöliittymään määritetyssä IP-osoitteessa, tässä tapauksessa 192.168.1.37, suoraan selaimen osoiteriviltä. Oletuskäyttäjänimi on "root" eikä oletussalasanaa ole.
+> ![kuva](assets/en/040.webp) 9. Hetken kuluttua Antminerisi käynnistyy uudelleen, ja pääset käsiksi Braiins OS+ -käyttöliittymään määritetyssä IP-osoitteessa, tässä tapauksessa 192.168.1.37, suoraan selaimen osoiteriviltä. Oletuskäyttäjänimi on "root" eikä oletussalasanaa ole.
 
 ## BraiinsOS+:n konfigurointi
 
@@ -540,7 +540,7 @@ Tämän jälkeen sinut toivottaa tervetulleeksi Braiins OS+ -hallintapaneeli.
 
 ### Hallintapaneeli
 
-![kuva](assets/en/41.webp)
+![kuva](assets/en/041.webp)
 
 Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suorituskykyä.
 
@@ -548,7 +548,7 @@ Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suoritusk
 - Oikealla, todellinen hashrate, piirien keskimääräinen lämpötila, arvioitu tehokkuus W/THs:ssa ja virrankulutus.
 - Alla, tuulettimen nopeus prosentteina maksiminopeudesta ja kierrosten määrä minuutissa.
 
-![kuva](assets/en/42.webp)
+![kuva](assets/en/042.webp)
 
 - Alempana löydät yksityiskohtaisen näkymän kustakin hashboardista. Lautan keskimääräinen lämpötila ja sen sisältämien piirien lämpötila sekä jännite ja taajuus.
 - Tiedot aktiivisista louhintapoolista Pools-osiossa.
@@ -557,15 +557,15 @@ Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suoritusk
 
 ### Konfiguraatio
 
-![kuva](assets/en/43.webp)
+![kuva](assets/en/043.webp)
 
 ### Järjestelmä
 
-![kuva](assets/en/44.webp)
+![kuva](assets/en/044.webp)
 
 ### Pikatoiminnot
 
-![kuva](assets/en/45.webp)
+![kuva](assets/en/045.webp)
 
 # Attakai - Tuulettimen muokkaus
 
@@ -577,7 +577,7 @@ Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suoritusk
 
 > VAROITUS: On välttämätöntä, että olet aiemmin asentanut Braiins OS+:n tai jonkin muun ohjelmiston, joka voi vähentää koneesi suorituskykyä. Tämä toimenpide on kriittinen, koska melun vähentämiseksi asennamme vähemmän tehokkaita tuulettimia, jotka voivat hajottaa vähemmän lämpöä.
 
-![kuva](assets/en/46.webp)
+![kuva](assets/en/046.webp)
 
 ### Tarvittavat materiaalit
 
@@ -586,58 +586,58 @@ Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suoritusk
 
 > VAROITUS: Ennen aloittamista, varmista, että olet irrottanut louhijan virtalähteestä välttääksesi sähköiskun vaaran.
 
-![kuva](assets/en/47.webp)
+![kuva](assets/en/047.webp)
 
 Ensimmäiseksi, poista 6 ruuvia kotelon sivulta, jotka pitävät sen kiinni. Kun ruuvit on poistettu, avaa kotelo varovasti poistaaksesi muovisuojan, joka peittää komponentit.
 
-![kuva](assets/en/48.webp)
-![kuva](assets/en/49.webp)
+![kuva](assets/en/048.webp)
+![kuva](assets/en/049.webp)
 
 Seuraavaksi on aika poistaa alkuperäinen tuuletin varoen, ettei vahingoita muita komponentteja. Tee tämä poistamalla ruuvit, jotka pitävät sitä paikallaan ja varovasti irrottamalla valkoinen liima liittimen ympäriltä. On tärkeää edetä varoen välttääkseen johtojen tai liittimien vahingoittamisen.
-![kuva](assets/en/50.webp)
+![kuva](assets/en/050.webp)
 Kun alkuperäinen tuuletin on poistettu, huomaat, että uuden Noctua-tuulettimen liittimet eivät vastaa alkuperäisen tuulettimen liittimiä. Uudessa tuulettimessa on nimittäin 3 johtoa, mukaan lukien keltainen johto, joka mahdollistaa nopeudensäädön. Tätä johtoa ei kuitenkaan käytetä tässä tapauksessa. Uuden tuulettimen liittämiseksi suositellaan siis erityisen sovittimen käyttöä. On kuitenkin tärkeää huomata, että tämän sovittimen löytäminen voi joskus olla vaikeaa.
 
-![kuva](assets/en/51.webp)
+![kuva](assets/en/051.webp)
 
 Jos sinulla ei ole tätä sovitinta, voit silti jatkaa uuden tuulettimen liittämistä käyttämällä sähköasentajan sokeripalaa. Tätä varten sinun on leikattava vanhan ja uuden tuulettimen kaapelit.
 
-![kuva](assets/en/52.webp)
-![kuva](assets/en/53.webp)
+![kuva](assets/en/052.webp)
+![kuva](assets/en/053.webp)
 
 Uudessa tuulettimessa käytä leikkuria ja leikkaa varovasti pääsuojan ääriviivat 1cm:n kohdalta leikkaamatta alla olevien johtojen suojia.
 
-![kuva](assets/en/54.webp)
+![kuva](assets/en/054.webp)
 
 Vedä sitten pääsuoja alaspäin ja leikkaa punaisen ja mustan kaapelin suojat samalla tavalla kuin aiemmin. Ja leikkaa keltainen kaapeli tasaiseksi.
 
-![kuva](assets/en/55.webp)
+![kuva](assets/en/055.webp)
 
 Vanhan tuulettimen kohdalla on hankalampaa leikata pääsuoja vahingoittamatta punaisen ja mustan johdon suojia. Tätä varten käytimme neulaa, jonka liu'utimme pääsuojan ja punaisen sekä mustan johdon väliin.
 
-![kuva](assets/en/56.webp)
-![kuva](assets/en/57.webp)
+![kuva](assets/en/056.webp)
+![kuva](assets/en/057.webp)
 
 Kun punaisen ja mustan johdon suojat ovat paljaana, leikkaa suojat varovasti välttääksesi sähköjohtojen vahingoittamisen.
 
-![kuva](assets/en/58.webp)
+![kuva](assets/en/058.webp)
 
 Yhdistä sitten johdot sokeripalalla, musta johto mustaan ja punainen johto punaiseen. Voit myös lisätä sähköteippiä.
 
-![kuva](assets/en/59.webp)
-![kuva](assets/en/60.webp)
+![kuva](assets/en/059.webp)
+![kuva](assets/en/060.webp)
 
 Kun liitäntä on tehty, on aika asentaa uusi Noctua-tuuletin ritilän ja vanhojen ruuvien kanssa. Paketissa olevat uudet ruuvit käytetään myöhemmin uudelleen. Varmista, että asennat sen oikeaan suuntaan. Huomaat tuulettimen toisella puolella nuolen, joka osoittaa ilmavirran suunnan. On tärkeää asettaa tuuletin siten, että tämä nuoli osoittaa kotelon sisäpuolelle. Kytke sitten tuuletin uudelleen.
 
-![kuva](assets/en/61.webp)
-![kuva](assets/en/62.webp)
+![kuva](assets/en/061.webp)
+![kuva](assets/en/062.webp)
 
 > Vaihtoehtoisesti: Jos sinulla on sähkötekniikan tietämystä, voit suoraan lisätä naaras 5,5mm jakkiliittimen 12V virtalähteeseen, joka virtalähtee suoraan Vonet Wi-Fi -sillan. Jos kuitenkin epäilet sähkötekniikan taitojasi, on turvallisempaa käyttää USB-liitintä älypuhelintyypin laturin kanssa välttääksesi oikosulun tai sähkövahingon riskin.
 
-![kuva](assets/en/63.webp)
+![kuva](assets/en/063.webp)
 
 Kun liitännät on tehty, aseta muovikansi kotelon muovin päälle eikä sisään.
 
-![kuva](assets/en/64.webp)
+![kuva](assets/en/064.webp)
 
 Lopuksi, aseta kotelon kansi takaisin paikalleen ja kiristä sivuilla olevat 6 ruuvia pitämään kaikki paikoillaan. Ja siinä se on, virtalähteesi kotelossa on nyt uusi tuuletin.
 
@@ -646,7 +646,7 @@ Lopuksi, aseta kotelon kansi takaisin paikalleen ja kiristä sivuilla olevat 6 r
 <chapterId>a29f60f1-3fa3-57fc-a630-9c97cec30e56</chapterId>
 
 > VAROITUS: On välttämätöntä, että olet asentanut Braiins OS+:n tai muun ohjelmiston, joka kykenee alentamaan koneesi suorituskykyä, louhijaasi ennen tätä toimenpidettä. Tämä toimenpide on kriittisen tärkeä, sillä melun vähentämiseksi asennamme vähemmän tehokkaita tuulettimia, jotka hajottavat vähemmän lämpöä.
-> ![kuva](assets/en/46.webp)
+> ![kuva](assets/en/046.webp)
 
 ### Tarvittavat Materiaalit
 
@@ -658,36 +658,36 @@ Lopuksi, aseta kotelon kansi takaisin paikalleen ja kiristä sivuilla olevat 6 r
 
 1. Irrota ensin tuulettimet ja ruuvaa ne irti.
 
-![kuva](assets/en/65.webp)
+![kuva](assets/en/065.webp)
 
 2. Uusien Noctua-tuulettimien liittimet eivät vastaa alkuperäisiä, mutta älä huoli! Ota veitsesi esiin ja leikkaa varovasti pienet muoviset välilehdet pois, jotta liittimet sopivat täydellisesti louhijaasi.
 
-![kuva](assets/en/66.webp)
-![kuva](assets/en/67.webp) 3. On aika asentaa 3D-osat!
+![kuva](assets/en/066.webp)
+![kuva](assets/en/067.webp) 3. On aika asentaa 3D-osat!
 Kiinnitä ne louhijan molemmille puolille käyttäen tuulettimista irrottamiasi ruuveja. Ruuvaa ne sisään, kunnes ruuvin pää on tasainen 3D-osan kanssa ja se on varmasti paikoillaan. Ole varovainen, ettet kiristä liikaa, sillä saatat vahingoittaa osaa ja yksi ruuveista saattaa koskettaa kondensaattoria!
 
-![kuva](assets/en/68.webp)
+![kuva](assets/en/068.webp)
 
 4. Nyt siirrytään tuulettimiin.
 
 Kiinnitä ne 3D-osiin mukana tulleilla ruuveilla. Kiinnitä huomiota ilmavirran suuntaan, tuulettimien sivuilla olevat nuolet osoittavat suunnan. Mene Ethernet-portin puolelta toiselle puolelle. Katso alla oleva kuva.
 
-![kuva](assets/en/69.webp)
-![kuva](assets/en/70.webp)
-![kuva](assets/en/71.webp)
+![kuva](assets/en/069.webp)
+![kuva](assets/en/070.webp)
+![kuva](assets/en/071.webp)
 
 5. Viimeinen vaihe: yhdistä tuulettimet ja kiinnitä suojukset päälle käyttäen ruuveja, joita ei käytetty virtalähteen tuulettimen laatikossa. Sinulla on niitä vain 4, mutta 2 per suojus vastakkaisissa kulmissa riittää. Tarvittaessa voit etsiä samankaltaisia ruuveja rautakaupasta.
 
-![kuva](assets/en/72.webp)
-![kuva](assets/en/73.webp)
+![kuva](assets/en/072.webp)
+![kuva](assets/en/073.webp)
 
 Odottaessasi, että voimme tarjota tyylikkäämmän kotelon uudelle lämmittimellesi, voit kiinnittää kotelon ja virtalähteen sähköasentajan nippusiteillä.
 
-![kuva](assets/en/74.webp)
+![kuva](assets/en/074.webp)
 
 Ja viimeisenä silauksena, yhdistä Vonet-silta Ethernet-porttiin ja sen virtalähteeseen.
 
-![kuva](assets/en/75.webp)
+![kuva](assets/en/075.webp)
 
 Ja siinä se, onneksi olkoon! Olet juuri vaihtanut louhijasi koko mekaanisen osan. Nyt sinun pitäisi kuulla huomattavasti vähemmän melua.
 
@@ -714,17 +714,17 @@ Meitä kiinnostava palkkiomalli on PPS, joka tarkoittaa "pay-per-share" eli maks
 - Linecoin: Linecoinin etuna on tarjottavien ominaisuuksien määrä, kuten yksityiskohtainen hallintapaneeli, mahdollisuus tehdä nostoja Paynymilla (BIP 47) paremman yksityisyydensuojan saavuttamiseksi, sekä Telegram-botin integrointi ja suoraan mobiilisovelluksessa konfiguroitavat automaatiot. Tämä allas louhii ainoastaan Bitcoin-lohkoja, mutta nostojen vähimmäismäärä pysyy korkeana, 100 000 satoshissa. Tarkastelemme yhden näistä altaista käyttöliittymää tarkemmin tulevassa artikkelissa.
   Braiins OS+:n avulla altaan konfiguroimiseksi sinun on luotava tili valitsemassasi altaassa. Tässä otamme esimerkiksi Linecoinin:
 
-![kuva](assets/en/76.webp)
+![kuva](assets/en/076.webp)
 
 Kun tilisi on luotu, klikkaa Yhdistä Altaaseen
 
 Kopioi sitten Stratum-osoite ja käyttäjänimesi:
 
-![kuva](assets/en/77.webp)
+![kuva](assets/en/077.webp)
 
 Voit nyt palata Braiins OS+ -käyttöliittymään syöttääksesi nämä tunnistetiedot. Salasanakentän voit jättää tyhjäksi.
 
-![kuva](assets/en/78.webp)
+![kuva](assets/en/078.webp)
 
 ## Antminer S9:n suorituskyvyn optimointi
 

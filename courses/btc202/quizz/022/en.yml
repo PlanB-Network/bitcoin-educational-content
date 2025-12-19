@@ -6,4 +6,4 @@ wrong_answers:
   - Blocking a transaction by the network
 explanation: |
   Once the percolation threshold is exceeded, a transaction propagates almost instantaneously throughout the Bitcoin network.
-reviewed: false
+reviewed: true

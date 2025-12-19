@@ -54,7 +54,7 @@ Op deze manier behoudt u permanente zelfbewaarneming van uw bitcoins en is de Ex
 
 
 
-Een atomaire Exchange werkt met slimme contracten [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). In dit type Contract wordt het bedrag "vergrendeld" in een tweerichtingskanaal en wordt een tijdsbeperking geïntroduceerd, zodat als de transactie niet binnen een bepaalde tijd wordt voltooid, het saldo teruggaat naar de deposant. Dit is het mechanisme dat wordt gebruikt door het Boltz-platform.
+Een atomaire Exchange werkt met slimme contracten [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). In dit type Contract wordt het bedrag "vergrendeld" in een tweerichtingskanaal en wordt een tijdsbeperking geïntroduceerd, zodat als de transactie niet binnen een bepaalde tijd wordt voltooid, het saldo teruggaat naar de deposant. Dit is het mechanisme dat wordt gebruikt door het Boltz-platform.
 
 
 
@@ -116,9 +116,9 @@ Zodra je de basisconfiguraties hebt voltooid, voer je het bedrag van je atomaire
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ Klik dan op de knop **Creëer atoom Exchange** en betaal het aangegeven bedrag.
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Zodra uw betaling is gedaan en bevestigd, ontvangt u automatisch het overeenkomstige bedrag op uw Lightning Wallet.
 
@@ -188,6 +188,6 @@ Boltz biedt je een hoge mate van vertrouwelijkheid dankzij de toegang via een `.
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Inmiddels ben je bekend met Boltz, een uniek Exchange platform dat interoperabiliteit mogelijk maakt tussen de verschillende lagen van het Bitcoin ecosysteem.

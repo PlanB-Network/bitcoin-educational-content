@@ -1,0 +1,9 @@
+question: Apa yang kita sebut dengan sekumpulan mesin yang menjalankan implementasi Bitcoin dan terhubung satu sama lain?
+answer: Jaringan Bitcoin
+wrong_answers:
+  - Protokol Bitcoin
+  - Mata uang Bitcoin
+  - Blockchain Bitcoin
+explanation: |
+  Jaringan Bitcoin terdiri dari semua node yang terhubung, masing-masing menjalankan implementasi protokol yang berbeda.
+reviewed: true

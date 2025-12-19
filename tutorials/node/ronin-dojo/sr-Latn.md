@@ -14,7 +14,7 @@ _Ovaj vodič je namenjen isključivo u obrazovne i informativne svrhe. Ne podrž
 
 _Ovaj vodič je posvećen instalaciji RoninDojo v1. Da biste iskoristili najnovija poboljšanja i funkcije, toplo preporučujem da pogledate naš vodič posvećen direktnoj instalaciji RoninDojo v2 na vaš Raspberry Pi:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 
@@ -60,7 +60,7 @@ Kod za RoninDojo je otvorenog koda, tako da je moguće instalirati ovo rešenje 
 RoninDojo je Dojo, tako da omogućava laku integraciju Whirlpool CLI u vaš Bitcoin čvor kako biste imali najbolje moguće CoinJoin iskustvo. Sa Whirlpool CLI, ne samo da možete dozvoliti vašim bitcoinima da se remixuju 24/7 bez potrebe da držite vaš lični računar uključenim, već možete i značajno poboljšati vašu privatnost.
 
 
-RoninDojo integriše mnoge druge alate koji se oslanjaju na vaš Dojo, kao što je Boltzmann kalkulator, koji određuje nivo privatnosti transakcije, Electrum server za povezivanje vaših različitih Bitcoin novčanika sa vašim čvorom, ili [Mempool](https://planb.network/resources/glossary/mempool) server za privatno praćenje vaših transakcija.
+RoninDojo integriše mnoge druge alate koji se oslanjaju na vaš Dojo, kao što je Boltzmann kalkulator, koji određuje nivo privatnosti transakcije, Electrum server za povezivanje vaših različitih Bitcoin novčanika sa vašim čvorom, ili [Mempool](https://planb.academy/resources/glossary/mempool) server za privatno praćenje vaših transakcija.
 
 U poređenju sa drugim rešenjem za node kao što je Umbrel, koje sam vam predstavio u ovom članku, RoninDojo je duboko fokusiran na "on chain" rešenja i alate koji optimizuju privatnost korisnika. Stoga, RoninDojo ne dozvoljava interakciju sa Lightning mrežom.
 

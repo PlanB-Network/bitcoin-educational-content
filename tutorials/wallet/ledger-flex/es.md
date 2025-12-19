@@ -165,7 +165,7 @@ La frase de paso es una herramienta muy poderosa para mejorar la seguridad de tu
 
 La frase de paso es una herramienta muy poderosa para reforzar la seguridad de tus bitcoins. Sin embargo, es muy importante entender cómo funciona antes de implementarla, para evitar perder el acceso a tu monedero. Por eso te lo explico todo en un tutorial dedicado:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 Finalmente, la última página de ajustes te permite restablecer tu Ledger. Solo procede con este restablecimiento si estás seguro de que no contiene ninguna clave que asegure bitcoins, ya que podrías perder permanentemente el acceso a tus fondos.
 ![LEDGER FLEX](assets/notext/30.webp)
@@ -301,7 +301,7 @@ Puedes añadir una "*Etiqueta*" para describir el origen de los bitcoins que ser
 
 Para más información sobre el etiquetado, también te aconsejo que consultes este otro tutorial:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Luego puedes usar esta dirección para recibir bitcoins.
 

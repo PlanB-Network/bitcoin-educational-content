@@ -1,0 +1,9 @@
+question: Apa tujuan utama dari desentralisasi dalam Bitcoin?
+answer: Untuk mencapai ketahanan terhadap sensor
+wrong_answers:
+  - Untuk meningkatkan kecepatan pemrosesan transaksi
+  - Untuk mengurangi biaya konsumsi energi
+  - Untuk menyederhanakan antarmuka pengguna
+explanation: |
+  Desentralisasi dalam Bitcoin berfungsi terutama untuk mencapai resistensi terhadap sensor, yang berarti tidak ada satu entitas pun yang dapat mengontrol, memblokir, atau memanipulasi transaksi. Hal ini secara eksplisit dinyatakan dalam teks: Desentralisasi adalah sarana untuk mencapai ketahanan sensor Pilihan lainnya tidak benar karena desentralisasi sebenarnya membuat Bitcoin lebih lambat dan lebih boros energi daripada sistem terpusat, dan membuat sistem menjadi lebih kompleks dan bukannya lebih sederhana. Resistensi terhadap sensor adalah apa yang memisahkan Bitcoin dari sistem uang tradisional dan mencegah pemerintah atau pihak berwenang lainnya untuk mematikannya atau mengontrol siapa yang dapat menggunakannya.
+reviewed: false

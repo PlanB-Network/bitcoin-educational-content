@@ -1,22 +1,17 @@
 ---
-name: Úvod do formální kryptografie
+name: Základy moderní kryptografie
 goal: Hloubkový úvod do vědy a praxe kryptografie.
 objectives:
-
-  - Prozkoumejte Bealovy šifry a moderní kryptografické metody a pochopte základní a historické koncepty kryptografie.
-  - Pronikněte do teorie čísel, grup a polí a osvojte si klíčové matematické pojmy, které jsou základem kryptografie.
-  - Prostudujte si proudovou šifru RC4 a AES se 128bitovým klíčem a seznamte se se symetrickými kryptografickými algoritmy.
-  - Prozkoumejte kryptosystém RSA, distribuci klíčů a hašovací funkce a prozkoumejte asymetrickou kryptografii.
-
+- Prozkoumejte Bealovy šifry a moderní kryptografické metody a pochopte základní a historické koncepty kryptografie.
+- Pronikněte do teorie čísel, grup a polí a osvojte si klíčové matematické pojmy, které jsou základem kryptografie.
+- Prostudujte si proudovou šifru RC4 a AES se 128bitovým klíčem a seznamte se se symetrickými kryptografickými algoritmy.
+- Prozkoumejte kryptosystém RSA, distribuci klíčů a hašovací funkce a prozkoumejte asymetrickou kryptografii.
 ---
-# Hluboký ponor do kryptografie
+# Hluboký ponor do moderní kryptografie
 
-Je obtížné najít mnoho materiálů, které by ve výuce kryptografie nabízely dobrou střední cestu.
+V tomto kurzu probereme základy moderní kryptografie jasným a přístupným způsobem, bez nutnosti hlubokých matematických znalostí. V jednotlivých kapitolách se naučíte klíčové koncepty jako symetrické a asymetrické šifrování, hašovací funkce, digitální podpisy, výměnu klíčů a protokoly z reálného světa. Cestou propojíme teorii s praktickými aplikacemi, jako je zabezpečené zasílání zpráv, TLS, ukládání hesel a autentizace.
 
-Na jedné straně existují dlouhá, formální pojednání, která jsou přístupná opravdu jen těm, kdo mají silné zázemí v matematice, logice nebo jiné formální disciplíně. Na druhé straně existují úvody na velmi vysoké úrovni, které skutečně skrývají příliš mnoho detailů pro každého, kdo je alespoň trochu zvědavý.
-
-Tento úvod do kryptografie se snaží zachytit střední cestu. Ačkoli by měl být poměrně náročný a podrobný pro každého, kdo s kryptografií začíná, není to králičí nora typického základního pojednání.
-
+Materiál je navržen pro studenty všech úrovní a vyvažuje intuitivní pochopení s dostatečnou technickou hloubkou pro uspokojení zvědavosti. Očekávejte soustředěnou a poutavou cestu. Na konci budete rozumět tomu, jak a proč moderní kryptografie funguje a jak ji používat zodpovědně.
 +++
 # Úvod
 
@@ -123,7 +118,7 @@ Druhý šifrový text vidíte na *obrázku 2* níže. [2] Klíčem k tomuto šif
 
 *Obrázek 1: Bealeova šifra č. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Například první číslo druhého šifrového textu je 115. 115. slovo Deklarace nezávislosti je "instituted", takže první písmeno otevřeného textu je "i" Šifrový text přímo neuvádí rozestupy mezi slovy a psaní velkých písmen. Po dešifrování několika prvních slov však lze logicky odvodit, že první slovo otevřeného textu bylo jednoduše "i" (Otevřený text začíná větou "I have deposited in the county of Bedford.")
 
@@ -286,7 +281,7 @@ Možné hodnoty a související pravděpodobnosti náhodné veličiny lze snadno
 
 *Obrázek 1: Náhodná proměnná X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Široké sloupce na *obrázku 1* samozřejmě neznamenají, že náhodná veličina $X$ je skutečně spojitá. Místo toho jsou sloupce široké, aby byly vizuálně přitažlivější (pouhá přímka rovně nahoru poskytuje méně intuitivní vizualizaci).
 
@@ -324,7 +319,7 @@ Grafické znázornění $Y$ je na *obrázku 2*.
 
 *Obrázek 2: Náhodná proměnná Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Jako poslední příklad uvažujme náhodnou veličinu Z. Má množinu výsledků {1,3,7,11,12} a následující rozdělení pravděpodobnosti:
 
@@ -352,7 +347,7 @@ Můžete si ji prohlédnout na *obrázku 3*. Náhodná veličina Z je na rozdíl
 
 *Obrázek 3: Náhodná proměnná Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Podmíněná pravděpodobnost
 
@@ -477,16 +472,16 @@ Nejprve si ji definujme. Předpokládejme slovník *D*, který přirovnává vš
 
 Operátor modulo v šifře shift zajišťuje, že se písmena obtékají, takže jsou definována všechna písmena šifrového textu. Pro ilustraci uvažujme použití šifry shift na slovo "DOG".
 
-Předpokládejme, že jste jednotně vybrali klíč, který má hodnotu 17. Písmeno "O" odpovídá hodnotě 15. Bez operace modulo by součet tohoto čísla otevřeného textu s klíčem znamenal číslo šifrového textu 32. Toto číslo šifrového textu však nelze změnit na písmeno šifrového textu, protože anglická abeceda má pouze 26 písmen. Operace modulo zajistí, že číslo šifrového textu je ve skutečnosti 6 (výsledek $32 \mod 26$), což odpovídá písmenu šifrového textu "G".
+Předpokládejme, že jste rovnoměrně zvolili klíč o hodnotě $17$. Písmeno „O“ odpovídá $14$. Bez operace modulo by součet tohoto čísla otevřeného textu a klíče dal číslo šifrovaného textu $31$. Toto číslo však nelze převést na šifrové písmeno, protože anglická abeceda má pouze $26$ písmen. Operace modulo zajistí, že číslo šifrovaného textu je ve skutečnosti $5$ (výsledek $31 \mod 26$), což odpovídá šifrovému písmenu „F“.
 
 Celé šifrování slova "DOG" s hodnotou klíče 17 je následující:
 
 
-- Zpráva = DOG = D,O,G = 3,15,6
+**Zpráva = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Každý intuitivně chápe, jak šifra shift funguje, a pravděpodobně ji sám používá. Pro prohloubení znalostí kryptografie je však důležité začít se lépe orientovat ve formalizaci, protože schémata budou mnohem složitější. Proto byly kroky pro posunovací šifru formalizovány.
 
@@ -1012,11 +1007,11 @@ Bob zašifruje zprávu $M$ v čase $T_0$ klíčem $K$ a získá šifrový text $
 
 *Obrázek 1: Utajení v prostoru*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Obrázek 2: Utajení v čase*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Příklad: Posunovací šifra
 
@@ -1118,7 +1113,7 @@ Typická proudová šifra XOR je znázorněna na *obrázku 3*. Nejprve se vezme 
 
 *Obrázek 3: Proudová šifra XOR*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Připomeňme, že šifrovací schéma je obvykle šablona pro šifrování se stejným základním algoritmem, nikoli přesná specifikace. V důsledku toho je proudová šifra typicky šablonou pro šifrování, ve kterém můžete použít klíče různých délek. Ačkoli délka klíče může ovlivnit některé drobné detaily schématu, neovlivní jeho základní podobu.
 
@@ -1202,7 +1197,7 @@ Princip blokové šifry je znázorněn na *obrázku 4* níže. Jako vstupy bloko
 
 *Obrázek 4: Bloková šifra*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Bloková šifra sama o sobě není šifrovacím schématem. Blokovou šifru však lze použít s různými **režimy činnosti** k vytvoření různých šifrovacích schémat. Režim operace jednoduše přidává některé další operace mimo blokovou šifru.
 
@@ -1210,7 +1205,7 @@ Pro ilustraci, jak to funguje, předpokládejme blokovou šifru (BC), která vy�
 
 *Obrázek 5: Bloková šifra s režimem ECB*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Postup šifrování elektronické kódové knihy pomocí blokové šifry je následující. Zjistěte, zda můžete zprávu s otevřeným textem rozdělit do 128bitových bloků. Pokud ne, přidejte ke zprávě **padding** tak, aby se výsledek dal rovnoměrně rozdělit na blok o velikosti 128 bitů. To jsou vaše data použitá pro proces šifrování.
 
@@ -1226,7 +1221,7 @@ Režim **cipher block chaining** (**CBC režim**) je pravděpodobně nejběžně
 
 *Obrázek 6: Bloková šifra s režimem CBC*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Předpokládejme, že velikost bloku je opět 128 bitů. Pro začátek je tedy opět třeba zajistit, aby původní zpráva s otevřeným textem dostala potřebnou výplň.
 
@@ -1242,7 +1237,7 @@ Nakonec se zaměříme na režim **výstupní zpětné vazby** (**OFB režim**).
 
 *Obrázek 7: Bloková šifra s režimem OFB*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 V režimu OFB můžete také vybrat inicializační vektor. Zde je však pro první blok inicializační vektor vložen přímo do blokové šifry s vaším klíčem. Výsledných 128 bitů se pak považuje za proud klíčů. Tento proud klíčů se XORuje s otevřeným textem, čímž se získá šifrový text pro daný blok. Pro následující bloky použijete jako vstup do blokové šifry proud klíčů z předchozího bloku a postup opakujete.
 
@@ -1288,7 +1283,7 @@ Na základě této diskuse byste nyní měli pochopit *obrázek 8*. Poskytuje p�
 
 *Obrázek 8: Přehled symetrických šifrovacích schémat*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Kódy pro ověřování zpráv
 
@@ -1312,7 +1307,7 @@ Postup je znázorněn na *obrázku 9*. Aby mohli použít **MAC** (Message Authe
 
 *Obrázek 9: Přehled symetrických šifrovacích schémat*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Vzhledem k **existenciální nezfalšovatelnosti** nemůže útočník zprávu $M$ nijak změnit ani vytvořit vlastní zprávu s platnou značkou. To platí, i když útočník pozoruje značky mnoha zpráv mezi Bobem a Alicí, které používají stejný soukromý klíč. Útočník může nanejvýš zablokovat Alici příjem zprávy $M$ (což je problém, který kryptografie nedokáže řešit).
 
@@ -1344,7 +1339,7 @@ Alice nyní nejprve ověří, zda je značka platná vzhledem k šifrovému text
 
 *Obrázek 10: Ověřené šifrovací schéma*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Jak se vytvářejí kódy MAC? Přestože MAC lze vytvořit různými způsoby, běžným a efektivním způsobem jejich vytváření jsou **kryptografické hashovací funkce**.
 
@@ -1356,7 +1351,7 @@ Existuje paleta hašovacích funkcí, které lze použít k vytvoření HMAC. Ne
 
 *Obrázek 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Poznámky:**
 
@@ -1394,7 +1389,7 @@ Komunikace začíná tím, že Bob pošle Alici šifrovaný text $C_{0,B}$ se zn
 
 *Obrázek 12: Zabezpečená komunikační relace*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 a AES
 
@@ -1531,7 +1526,7 @@ Klíč nazvěme $K_0$. Konstrukce s výše uvedenými parametry pak vypadá jako
 
 *Obrázek 1: AES-ECB se 128bitovým klíčem*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Každý 128bitový blok textu prochází v šifrovacím schématu Rijndael deseti koly. To vyžaduje pro každé kolo samostatný klíč ($K_1$ až $K_{10}$). Ty se pro každé kolo vytvářejí z původního 128bitového klíče $K_0$ pomocí **algoritmu pro expanzi klíče**. Proto pro každý blok textu, který má být zašifrován, použijeme původní klíč $K_0$ a deset samostatných kruhových klíčů. Všimněte si, že pro každý 128bitový blok otevřeného textu, který vyžaduje šifrování, se použije stejných 11 klíčů.
 
@@ -1807,7 +1802,7 @@ Později chce Bob napsat Alici zprávu $M$. Protože obsahuje citlivé informace
 
 *Obrázek 1: Asymetrické šifrování*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Každý protivník, který odposlouchává komunikaci Boba aAlice, může pozorovat $C$. Zná také $K_P$ a šifrovací algoritmus $E(\cdot)$. Důležité však je, že tyto informace neumožňují útočníkovi dešifrovat šifrový text $C$. Dešifrování vyžaduje konkrétně $K_S$, které útočník nemá.
 
@@ -1831,7 +1826,7 @@ Digitální podpis je, jak už název jasně napovídá, digitální obdobou pí
 
 *Obrázek 2: Asymetrické ověřování*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Stejně jako u asymetrického šifrování vidíme zajímavý kontrast mezi digitálními podpisy a kódy pro ověřování zpráv. V druhém případě může ověřovací algoritmus použít pouze jedna ze stran, která je do zabezpečené komunikace zasvěcena. To proto, že vyžaduje soukromý klíč. V asymetrickém nastavení však může digitální podpis $S$ vytvořený Bobem ověřit kdokoli.
 

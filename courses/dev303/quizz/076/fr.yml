@@ -1,0 +1,8 @@
+question: Pourquoi l'utilisation de expect() sur des valeurs codées en dur qui semblent vérifiées par le compilateur est-elle potentiellement problématique dans le code de production ?
+answer: Les valeurs codées en dur peuvent évoluer au fil du temps par le biais de la refonte, transformant des valeurs précédemment valides en échecs d'exécution
+wrong_answers:
+  - Le compilateur ne peut pas vérifier la validité des valeurs codées en dur au moment de la compilation, ce qui rend expect() peu fiable
+  - Les valeurs codées en dur consomment plus de mémoire que les valeurs dynamiques, ce qui entraîne des problèmes de performance avec expect()
+  - La méthode expect() ajoute une surcharge inutile par rapport à la méthode unwrap() lorsqu'il s'agit de valeurs valides connues
+explanation: |
+  La bonne réponse met en évidence un point essentiel du chapitre : même des valeurs codées en dur apparemment sûres peuvent devenir dangereuses avec le temps. L'exemple montre comment une adresse IP valide peut être transformée en une constante, puis changée en "localhost", ce qui rompt l'hypothèse initiale. Les mauvaises réponses sont incorrectes parce que : le compilateur peut vérifier les valeurs codées en dur au moment de la compilation, la consommation de mémoire n'est pas le problème avec expect(), et expect() n'a pas de surcharge de performance significative par rapport à unwrap().

@@ -40,7 +40,7 @@ Lühidalt öeldes tundub, et "kulutada" ja "asendada" on edasine tee. Osalege ka
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Sõnum ei saaks olla selgem: "Kuluta oma bitcoinid kõikjal".
 
@@ -117,9 +117,9 @@ Kui olete vana kooli ja soovite teada saada, kuidas lihtsalt luua turvaline post
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Omalt poolt valime "Sign in with Lightning".
 
@@ -154,7 +154,7 @@ Niisiis, avame oma Wallet Phoenixi ja skannime näidatud QR-koodi. Pärast skann
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Teid tuvastatakse koheselt teie Wallet Lightning'i kaudu, mis võib muidugi olla Phoenix või mõni muu, sest enamik turul olevaid rahakotte toetab seda funktsiooni.
 
@@ -291,4 +291,4 @@ Kui soovite aidata Bitcoin populariseerida ja julgustada iseseisvat kaupmeest se
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

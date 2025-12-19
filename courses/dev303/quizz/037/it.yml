@@ -1,0 +1,8 @@
+question: Qual è la caratteristica principale che rende le chiusure potenti in Rust?
+answer: La loro capacità di catturare le variabili dell'ambiente circostante
+wrong_answers:
+  - La loro capacità di funzionare più velocemente delle funzioni normali
+  - La capacità di gestire automaticamente l'allocazione della memoria
+  - La loro capacità di eseguire codice in thread paralleli
+explanation: |
+  La caratteristica fondamentale che rende potenti le chiusure è la loro capacità di "chiudere" l'ambiente in cui si trovano, ovvero di accedere e utilizzare le variabili che esistono nell'ambito in cui la chiusura è definita. Questa capacità di cattura consente alle chiusure di mantenere lo stato e il contesto del loro ambiente di creazione, rendendole molto più flessibili delle normali funzioni. Anche se le chiusure possono essere ottimizzate per le prestazioni e utilizzate in contesti di threading, questi sono vantaggi secondari: la loro forza principale deriva dalla cattura delle variabili ambientali.

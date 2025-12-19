@@ -1,0 +1,9 @@
+question: Díky čemu je zpracování transakcí v Bitcoin odolné vůči cenzuře?
+answer: Objednávání transakcí provádí kolektivně dynamická skupina těžařů, ke které se může kdokoli připojit nebo ji opustit
+wrong_answers:
+  - Ověřování transakcí je šifrováno pomocí pokročilých kryptografických protokolů, které vlády nemohou prolomit
+  - Záznamy o transakcích jsou uloženy na více záložních serverech řízených různými důvěryhodnými organizacemi
+  - Transakční poplatky jsou automaticky upravovány, aby se zabránilo ekonomickým útokům ze strany centralizovaných orgánů
+explanation: |
+  Odolnosti proti cenzuře dosahuje Bitcoin díky decentralizaci těžařů, kdy příkazy transakcí provádějí kolektivně všichni těžaři, kteří se rozhodnou zapojit. Vzniká tak dynamický systém, v němž se kdokoli může k procesu mining svobodně připojit nebo jej opustit, čímž se eliminuje jakýkoli jediný kontrolní bod, který by mohl být pod tlakem cenzury transakcí. Špatné odpovědi popisují technické funkce, důvěryhodné strany nebo ekonomické mechanismy, které neřeší základní problém decentralizované kontroly nad zpracováním transakcí.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 為什麼 BIP34 要求在 Coinbase 交易的 scriptSig 欄位中嵌入區塊高度？
+answer: 為了確保每個 Coinbase transaction ID 在所有區塊中都是唯一的
+wrong_answers:
+  - 在 nonce 空間耗盡時，為礦工提供額外的熵
+  - 為了讓輕型用戶端能夠驗證區塊排序，而無需下載完整區塊
+  - 為了防止礦工索取高於允許金額的區塊補貼
+explanation: |
+  BIP34 強制在 Coinbase scriptSig 中包含區塊高度，特別是為了保證每個 Coinbase transaction ID 的唯一性。如果沒有這一要求，理論上不同高度的兩個區塊可能具有相同的 Coinbase 交易，產生重複的 txids，這將違反 Bitcoin 的交易唯一性假設，並可能在按 txid 索引的實現中導致數據庫衝突。

@@ -8,7 +8,7 @@ _This tutorial was written by_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_
 ## Downloading, Setting Up, and Using Wallet of Satoshi
 
 Wallet of Satoshi is a lightning network wallet, custodial, and very simple to use.
-For the purposes of the course [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), it is used to redeem Lightning Network vouchers.
+For the purposes of the course [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), it is used to redeem Lightning Network vouchers.
 
 **Always remember**: _not your keys, not your coins_
 

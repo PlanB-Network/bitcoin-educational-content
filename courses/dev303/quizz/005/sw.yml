@@ -1,0 +1,8 @@
+question: Kazi kuu ya Clippy katika mfumo ikolojia wa maendeleo ya Rust ni ipi?
+answer: Kielelezo cha hali ya juu kinachochambua msimbo na kupendekeza maboresho kwa nahau bora za Rust
+wrong_answers:
+  - Meneja wa kifurushi anayeshughulikia utatuzi wa utegemezi na ujenzi wa miradi
+  - Zana ya mkusanyiko inayobadilisha msimbo chanzo wa Rust kuwa jozi zinazoweza kutekelezwa
+  - Jenereta ya nyaraka inayounda nyenzo za marejeleo za API kiotomatiki
+explanation: |
+  Clippy ni mfumo wa kisasa unaofanya kazi zaidi ya ukaguzi wa msingi wa sintaksia ili kuchanganua msimbo wako wa Rust na kutoa mapendekezo ya maboresho. Tofauti na vikaguzi rahisi vya sintaksia, Clippy anaelewa nahau za Rust na anaweza kupendekeza njia bora zaidi au za kifasihi za kukamilisha kazi maalum. Chaguzi zingine zinaelezea zana tofauti: Cargo ni meneja wa kifurushi anayeshughulikia utegemezi na ujenzi, rustc ni mkusanyaji anayebadilisha msimbo chanzo kuwa vitekelezekaji, na rustdoc ni jenereta ya nyaraka. Clippy inazingatia haswa uchanganuzi wa ubora wa msimbo na kuwasaidia wasanidi programu kuandika msimbo wa Rust bora na unaoweza kudumishwa zaidi kwa kupendekeza mbinu bora.

@@ -6,4 +6,4 @@ wrong_answers:
   - Mining pools
 explanation: |
   DNS seeds are maintained by well-known developers (Wuille, Corallo, Dashjr, etc.) and provide active node IPs to initiate connections.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Copier le fichier wallet.dat
 explanation: |
   Umbrel permet de scanner directement le QR code Tor fourni par Electrs pour configurer la connexion mobile.
-reviewed: false
+reviewed: true 

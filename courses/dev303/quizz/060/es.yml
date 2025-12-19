@@ -1,0 +1,8 @@
+question: Al desarrollar una macro de tipo función personalizada en Rust, ¿cuál es el propósito principal de utilizar especificadores de fragmentos como `expr`, `ty` y `ident` en la concordancia de patrones?
+answer: Definir qué tipo de elementos de código se pueden cotejar y garantizar una entrada sintácticamente válida
+wrong_answers:
+  - Para especificar el tipo de retorno del código generado y optimizar el rendimiento de la compilación
+  - Para determinar el orden de ejecución de las ramas de las macros y gestionar la comprobación de tipos en tiempo de ejecución
+  - Para controlar los patrones de asignación de memoria y definir reglas de alcance de variables en el código expandido
+explanation: |
+  Los especificadores de fragmentos en los patrones de macros sirven como restricciones de tipo que validan la sintaxis de los tokens de entrada durante la expansión de la macro. Garantizan que la macro recibe el tipo correcto de elemento de código (expresión, tipo, identificador, etc.) y proporcionan mensajes de error claros cuando se encuentra una sintaxis no válida. Esto ocurre en tiempo de compilación durante la comparación de patrones, no durante la ejecución, y no controlan directamente la asignación de memoria, el orden de ejecución o los tipos de retorno del código generado.

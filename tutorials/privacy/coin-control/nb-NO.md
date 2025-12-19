@@ -51,7 +51,7 @@ I Bitcoin-protokollen finnes ikke elementer som _konto_ eller _pengeenheter_. Ko
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Med Bitcoin er det du akkumulerer og senere bruker, små eller store regningsenheter målt i Satoshi, representert ved "ubrukte transaksjonsutganger", **UTXO**, også kalt "mynter". Når du bruker UTXO-er til å opprette en transaksjon, blir de fullstendig ødelagt, og andre UTXO-er opprettes i stedet.
 
@@ -568,7 +568,7 @@ Coin-kontroll er en svært effektiv metode for å velge transaksjonsinnganger. M
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Vi har tidligere snakket om `segregering av rester`. Hvis du vil låse restene for senere behandling og gjenvinne personvernet (bytte på Layer 2), må du passe på å `merke` dem hver gang du mottar en. Av Software Wallets som er sett så langt, er det bare Electrum som farger UTXO-restene grafisk for å gjøre dem synlige på et øyeblikk. Andre, som Sparrow, viser deg kjeden i avledningsveien til den enkelte UTXO (`m/84'/0'/0'/0'/1/11`).
 

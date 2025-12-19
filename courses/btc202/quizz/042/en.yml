@@ -5,5 +5,5 @@ wrong_answers:
   - GPLv3
   - Apache 2.0
 explanation: |
-  umbrelOS is released under the PolyForm Noncommercial 1.0 license, which prohibits commercial use but permits personal use.
-reviewed: false
+  umbrelOS is released under the PolyForm Noncommercial 1.0 license, which permits personal use but prohibits commercial use.
+reviewed: true

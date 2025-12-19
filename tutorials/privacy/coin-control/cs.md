@@ -51,7 +51,7 @@ V protokolu Bitcoin neexistují položky jako _účet_ nebo _peněžní jednotky
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 S Bitcoin se hromadí a později utrácejí malé nebo velké účetní jednotky měřené v Satoshi, které představují `nevyčerpané transakční výstupy`, **UTXO**, nazývané také `mince`. Když použijete UTXO k vytvoření transakce, jsou zcela zničeny a na jejich místě jsou vytvořeny jiné UTXO.
 
@@ -568,7 +568,7 @@ Kontrola Coin je velmi účinným postupem při výběru vstupů pro transakce. 
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Již dříve jsme hovořili o "segregaci ostatků". Pokud chcete pozůstatky uzamknout pro pozdější zpracování a získat zpět soukromí (výměna na Layer 2), musíte dbát na to, abyste je při každém přijetí `označili`. Z dosud viděných softwarových peněženek pouze Electrum graficky obarvuje zbytky UTXO, aby byly na první pohled viditelné. Ostatní, jako například Sparrow, vám zobrazují řetězec v derivační cestě jednotlivých UTXO (`m/84'/0'/0'/1/11`).
 

@@ -1,0 +1,8 @@
+question: In the ECDSA signature verification process, what mathematical relationship must hold true for a signature to be considered valid?
+answer: The x-coordinate of UG + VP must equal R, where U = Z/S and V = R/S
+wrong_answers:
+  - The y-coordinate of UG + VP must equal S, where U = R/Z and V = S/Z
+  - The x-coordinate of KG + ZP must equal S, where K is the nonce and Z is the hash
+  - The sum of R + S must equal the x-coordinate of the public key point P
+explanation: |
+  ECDSA verification works by reconstructing the original point KG through the equation UG + VP, where U = Z/S (hash divided by S) and V = R/S. If the x-coordinate of this reconstructed point equals R from the signature, verification succeeds. This mathematical relationship allows verification without knowing the private key or nonce K, as the algebra reconstructs KG indirectly through the public key and signature components.

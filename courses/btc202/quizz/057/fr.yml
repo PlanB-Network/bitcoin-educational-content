@@ -6,4 +6,4 @@ wrong_answers:
   - Remote API
 explanation: |
   Dans Sparrow, l’option Bitcoin Core correspond à une connexion directe au nœud via RPC.
-reviewed: false
+reviewed: true 

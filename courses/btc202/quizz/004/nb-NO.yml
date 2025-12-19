@@ -1,0 +1,9 @@
+question: Hva er en Bitcoin-node?
+answer: En datamaskin som kjører programvare som implementerer Bitcoin-protokollen
+wrong_answers:
+  - En Hardware Wallet som implementerer Bitcoin-nettverket
+  - En Miner som produserer nye blokker for Bitcoin
+  - En sentral server som administrerer Bitcoin-nettverket og transaksjonsbekreftelsen
+explanation: |
+  En Bitcoin-node er en datamaskin som kjører programvare, for eksempel Bitcoin core, som implementerer protokollen og deltar i Bitcoin-nettverket.
+reviewed: true

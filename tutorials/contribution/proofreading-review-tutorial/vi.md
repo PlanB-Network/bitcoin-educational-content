@@ -1,25 +1,25 @@
 ---
 name: Kiểm tra hoặc xem xét nội dung
-description: Bạn có thể tham gia vào quá trình hiệu đính/đánh giá nội dung giáo dục trên Plan₿ Network bằng cách nào?
+description: Bạn có thể tham gia vào quá trình hiệu đính/đánh giá nội dung giáo dục trên Plan ₿ Academy bằng cách nào?
 ---
 ![github](assets/cover.webp)
 
 ## Tóm tắt
 
-Nếu bạn muốn hiệu đính hoặc xem lại nội dung cho Plan ₿ Network, hãy tham gia [nhóm Telegram của chúng tôi](https://t.me/PlanBNetwork_ContentBuilder) dành riêng cho các đóng góp. Giới thiệu ngắn gọn về bản thân, sau đó nêu rõ nội dung bạn muốn xem lại và ngôn ngữ. Thực hiện các chỉnh sửa của bạn trên một nhánh đang hoạt động và gửi PR sau khi hoàn tất quá trình xem lại.
+Nếu bạn muốn hiệu đính hoặc xem lại nội dung cho Plan ₿ Academy, hãy tham gia [nhóm Telegram của chúng tôi](https://t.me/PlanBNetwork_ContentBuilder) dành riêng cho các đóng góp. Giới thiệu ngắn gọn về bản thân, sau đó nêu rõ nội dung bạn muốn xem lại và ngôn ngữ. Thực hiện các chỉnh sửa của bạn trên một nhánh đang hoạt động và gửi PR sau khi hoàn tất quá trình xem lại.
 
 Nếu bạn không hiểu phần trên, đừng lo lắng - hướng dẫn này là dành cho bạn!
 
 ---
-## Plan ₿ Network là gì?
+## Plan ₿ Academy là gì?
 
-Plan ₿ Network là một nền tảng để tìm hiểu về Bitcoin thông qua nhiều khóa học và hướng dẫn dành cho mọi người. Hiện tại, tất cả nội dung của chúng tôi đều là mã nguồn mở, được lưu trữ trên kho lưu trữ GitHub và mở cho các đóng góp để đánh giá và tạo nội dung.
+Plan ₿ Academy là một nền tảng để tìm hiểu về Bitcoin thông qua nhiều khóa học và hướng dẫn dành cho mọi người. Hiện tại, tất cả nội dung của chúng tôi đều là mã nguồn mở, được lưu trữ trên kho lưu trữ GitHub và mở cho các đóng góp để đánh giá và tạo nội dung.
 
-Plan ₿ Network hướng tới mục tiêu trở thành diễn đàn công cộng của không gian mạng Bitcoin, kết nối và khuyến khích cộng đồng Bitcoin trên toàn thế giới.
+Plan ₿ Academy hướng tới mục tiêu trở thành diễn đàn công cộng của không gian mạng Bitcoin, kết nối và khuyến khích cộng đồng Bitcoin trên toàn thế giới.
 
 ## Tại sao phải đóng góp?
 
-Plan ₿ Network về cơ bản là đa ngôn ngữ, vì mục tiêu của chúng tôi là làm cho tài nguyên Bitcoin có thể tiếp cận được với mọi người trên toàn thế giới. Chúng tôi tin rằng ngôn ngữ không nên là rào cản đối với tiền tệ có chủ quyền.
+Plan ₿ Academy về cơ bản là đa ngôn ngữ, vì mục tiêu của chúng tôi là làm cho tài nguyên Bitcoin có thể tiếp cận được với mọi người trên toàn thế giới. Chúng tôi tin rằng ngôn ngữ không nên là rào cản đối với tiền tệ có chủ quyền.
 
 Để đạt được điều này, chúng tôi sử dụng phương pháp tiếp cận Con người x AI. Thông qua [chương trình](https://github.com/Asi0Flammeus/LLM-Translator), chúng tôi có thể tự động dịch nội dung của mình sang nhiều ngôn ngữ. Tuy nhiên, chúng tôi cần một người nói lưu loát để xem lại nội dung nhằm đảm bảo nội dung dễ hiểu và không có các thuật ngữ không phù hợp.
 
@@ -33,7 +33,7 @@ Bạn không cần phải là chuyên gia GitHub để đánh giá nội dung. M
 
 Tuy nhiên, nếu bạn chưa quen với Git và GitHub và muốn tìm hiểu thêm, bạn có thể xem bài viết giới thiệu của chúng tôi về các công cụ này:
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 ## 1. Tạo một tài khoản
 
 
@@ -47,7 +47,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## 2. Tham gia nhóm Telegram
 
 
-- Tham gia [nhóm PBN Content Builder](https://t.me/PlanBNetwork_ContentBuilder) trên Telegram.
+- Tham gia [nhóm Plan ₿ Academy Content Builder](https://t.me/PlanBNetwork_ContentBuilder) trên Telegram.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -83,7 +83,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![REVIEW](assets/fr/06.webp)
 
-NB. Bạn nên xem lại trong cửa sổ mã, với nội dung gốc được hiển thị trong một cửa sổ riêng. Ví dụ, bạn có thể xem văn bản trên trang web Plan ₿ Network hoặc trong bản xem trước GitHub trên tab trình duyệt. Sử dụng `ctrl + F` để xác định lỗi và sửa lỗi trong chế độ xem mã khi bạn thực hiện.
+NB. Bạn nên xem lại trong cửa sổ mã, với nội dung gốc được hiển thị trong một cửa sổ riêng. Ví dụ, bạn có thể xem văn bản trên trang web Plan ₿ Academy hoặc trong bản xem trước GitHub trên tab trình duyệt. Sử dụng `ctrl + F` để xác định lỗi và sửa lỗi trong chế độ xem mã khi bạn thực hiện.
 
 ## 4. Cam kết thay đổi
 
@@ -114,7 +114,7 @@ NB. Bạn nên xem lại trong cửa sổ mã, với nội dung gốc được h
 
 - Nếu bạn chưa hoàn tất việc đánh giá và muốn tiếp tục công việc sau, bạn chỉ cần thoát.
 - Chỉ cần bạn đã cam kết những thay đổi của mình, chúng sẽ được lưu trên nhánh GitHub của bạn.
-- Để tiếp tục công việc của bạn, hãy truy cập vào nhánh kho lưu trữ nội dung Plan ₿ Network thông qua hồ sơ GitHub của bạn.
+- Để tiếp tục công việc của bạn, hãy truy cập vào nhánh kho lưu trữ nội dung Plan ₿ Academy thông qua hồ sơ GitHub của bạn.
 
 ![REVIEW](assets/fr/14.webp)
 
@@ -139,17 +139,17 @@ NB. Bạn nên xem lại trong cửa sổ mã, với nội dung gốc được h
 
 ## 6. Quy tắc cần tuân theo khi hiệu đính nội dung
 
-Để biết thêm thông tin về các hướng dẫn cần tuân theo khi hiệu đính trên Plan ₿ Network liên quan đến các quy tắc ngôn ngữ hoặc định dạng, vui lòng tham khảo hướng dẫn "contribution-proofreading-guidelines" trong cùng một phần này!
+Để biết thêm thông tin về các hướng dẫn cần tuân theo khi hiệu đính trên Plan ₿ Academy liên quan đến các quy tắc ngôn ngữ hoặc định dạng, vui lòng tham khảo hướng dẫn "contribution-proofreading-guidelines" trong cùng một phần này!
 
 ## 7. Chờ đánh giá
 
 
-- Xin chúc mừng, PR của bạn đã được gửi! Bạn có thể theo dõi tiến trình của nó trong tab "Yêu cầu kéo" trên [Kho lưu trữ GitHub của Plan ₿ Network] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Xin chúc mừng, PR của bạn đã được gửi! Bạn có thể theo dõi tiến trình của nó trong tab "Yêu cầu kéo" trên [Kho lưu trữ GitHub của Plan ₿ Academy] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
 
-- Cảm ơn bạn rất nhiều vì sự đóng góp của bạn! Sau khi được chấp thuận, một thành viên nhóm Plan ₿ Network sẽ liên hệ với bạn để gửi phần thưởng. \**Thanh toán chỉ được thực hiện thông qua Lightning Network\**.
+- Cảm ơn bạn rất nhiều vì sự đóng góp của bạn! Sau khi được chấp thuận, một thành viên nhóm Plan ₿ Academy sẽ liên hệ với bạn để gửi phần thưởng. \**Thanh toán chỉ được thực hiện thông qua Lightning Network\**.
 - Nếu bạn muốn bắt đầu lại, hãy quay lại bước 2 và gửi tin nhắn mới trong nhóm Telegram để tiếp tục đóng góp cho nội dung khác. Đảm bảo đồng bộ fork của bạn trước khi tạo nhánh làm việc mới. Để thực hiện việc này, hãy vào trang chủ của fork, chọn nhánh chính có tên `dev` (so sánh \**A\**), sau đó nhấp vào nút "Sync fork" (so sánh \**B\**). Nếu có bản cập nhật cho fork của bạn, nút "Update branch" sẽ xuất hiện. Chỉ cần nhấp vào đó để thực hiện cập nhật.
 
 ![REVIEW](assets/fr/16.webp)

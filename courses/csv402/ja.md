@@ -1,13 +1,11 @@
 ---
-name: RGBプロトコル、理論から実践へ
+name: RGBプログラミング
 goal: RGBを理解し使用するために必要なスキルを身につける
-objectives: 
-
-  - RGBプロトコルの基本概念を理解する
-  - クライアントサイドの検証とビットコインのコミットメントの原則をマスターする。
-  - RGBコントラクトの作成、管理、移管方法を学ぶ
-  - RGB対応Lightningノードの操作方法
-
+objectives:
+- RGBプロトコルの基本概念を理解する
+- クライアントサイドの検証とビットコインのコミットメントの原則をマスターする。
+- RGBコントラクトの作成、管理、移管方法を学ぶ
+- RGB対応Lightningノードの操作方法
 ---
 # RGBプロトコルの発見
 
@@ -45,17 +43,17 @@ objectives:
 ---
 このトレーニングコースは、もともと[Fulgur'Ventures](https://fulgur.ventures/)が主催した、トスカーナ州ヴィアレッジョでの2週間の上級開発ブートキャンプから発展したものです。RustとSDKに焦点を当てた最初の週は、この他のコースにあります：
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 このコースでは、ブートキャンプの2週目、RGBに焦点を当てる。
 
 **第1週 LNP402:**.
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 **週目 - 現在のトレーニング CSV402:**.
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 このライブ・コースの主催者、そして参加した3人の先生方に感謝します：
 
@@ -107,7 +105,7 @@ RGBは、ビットコインブロックチェーンのコンセンサスルー�
 
 ビットコインの文脈では、あなたは間違いなく、マイニング、分散化、ブロックチェーン上のトランザクションの最終性の原則、および支払いチャネルがどのように機能するかに精通しています。RGBでは、ブロックチェーンやライトニングとは異なり、スマートコントラクトの状態遷移をローカル（クライアント側）に保存して検証する、**クライアント側検証**と呼ばれる新しいパラダイムを導入しています。これは他の「DeFi」技術（_rollups_、_plasma_、_ARK_など）とも異なり、クライアントサイド検証はブロックチェーンに依存して二重支出を防ぎ、タイムスタンプシステムを持ち、オフチェーンの状態と遷移の登録を関係者のみに保持します。
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 このデータはネットワーク上でグローバルに複製されないため、契約の状態を保持するために必要なクライアント側のデータのセットを指します。最後に、クライアントサイドの検証を活用するプロトコルであるRGBの理論的根拠と、なぜそれが既存のアプローチ（ブロックチェーンとステートチャネル）を補完するのかを見ていきます。
 
@@ -137,7 +135,7 @@ RGBは、ビットコインブロックチェーンのコンセンサスルー�
 
 この新しいパラダイムは、さらにスケーラブルで機密性が高い。なぜなら、ゼロ開示のプルーフ・オブ・ナレッジ技術を統合できるだけでなく、誰も全登録を保持していないため、トランザクションのグローバルグラフが存在しないからである。スマート・コントラクトの発行者は、（イーサリアムにおける「コントラクト・デプロイヤー」のような）中心的な役割を持つことができる。しかし、ブロックチェーンとは異なり、クライアントサイドの検証では、興味のあるコントラクトだけを保存して検証するため、既存のすべての状態をダウンロードして検証する必要がなくなり、スケーラビリティが向上する。
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 #### 2.CAP定理（一貫性、可用性、パーティション耐性）
 
@@ -158,13 +156,13 @@ CAP定理は、分散システムが一貫性（*Consistency*）、可用性（*
 
 RGBのようなシステムは、一貫性（各参加者は曖昧さを排除してローカルにデータを検証する）とパーティショニング耐性（自律的にデータを保持する）を提供するが、グローバルな可用性は保証しない（全員が関連する履歴の断片を持っていることを確認する必要があり、参加者の中には何も公表しなかったり、特定の情報の共有をやめたりする者もいるかもしれない）。
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 #### 3.CIAのトリレンマ（機密性、完全性、可用性）
 
 このトリレンマは、機密性、完全性、可用性のすべてを同時に最適化することはできないことを思い起こさせる。ブロックチェーン、ライトニング、クライアントサイドの検証は、このバランスに異なる形で当てはまる。各次元で優れた保証を提供する首尾一貫したパッケージを得るためには、複数のアプローチ（ブロックチェーンのタイムスタンプ、Lightningの同期アプローチ、RGBによるローカル検証）を組み合わせる必要がある。
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 ### ブロックチェーンの役割とシャーディングの概念
 
@@ -185,11 +183,11 @@ RGBタイプのスマート・コントラクトでは、コントラクト自�
 - ライトニング・ネットワークは、ビットコイン・ブロックチェーンのセキュリティと最終決済をベースとしながらも、高速で機密性の高い取引を実現します；
 - RGBとクライアント側の検証により、ブロックチェーンを乱雑にしたり機密性を失ったりすることなく、より複雑なスマート・コントラクト・ロジックを追加できる。
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 これら3つの要素は、「レイヤー2」、「レイヤー3」といった直線的なスタックではなく、三角形の全体を形成する。ライトニングはビットコインに直接接続することも、RGBデータを組み込んだビットコイン取引に関連付けることもできる。同様に、「BiFi」用途（ビットコイン上の金融）は、機密性、スケーラビリティ、契約ロジックのニーズに応じて、ブロックチェーン、ライトニング、RGBと組み合わせることができる。
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 ### 状態遷移の概念
 
@@ -197,7 +195,7 @@ RGBタイプのスマート・コントラクトでは、コントラクト自�
 
 この検証が**Bitcoin**の文脈でどのように機能するのかを理解し、より一般的に、Client-side Validationの背後にある哲学を把握するために、Client-side Validationがそれらとどのように異なり、どのような最適化を可能にするのかを見る前に、まずBitcoinブロックチェーンのメカニズムを振り返ってみましょう。
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 ビットコインのブロックチェーンの場合、取引の検証は単純なルールに基づいている：
 
@@ -206,7 +204,7 @@ RGBタイプのスマート・コントラクトでは、コントラクト自�
 - これらのトランザクションを検証し、UTXOセット（すべての未使用出力）の正しい進化を検証する；
 - このデータは（ブロックの形で）保存され、必要に応じて履歴を再生することができる。
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 しかし、このモデルには2つの大きな欠点がある：
 
@@ -214,7 +212,7 @@ RGBタイプのスマート・コントラクトでは、コントラクト自�
 - **スケーラビリティ**：各ノードは全員のトランザクションを処理し、検証し、アーカイブする必要があるため、トランザクション容量には明らかな限界があり、特に最大ブロックサイズ（クッキーを除くビットコインの場合、10分間で平均1MB）と連動している；
 - プライバシー：すべての情報は公開され、保存される（金額、宛先アドレスなど）。
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 実際には、このモデルはベースレイヤー（レイヤー1）としてのビットコインには有効だが、高いトランザクションスループットとある程度の機密性を同時に必要とする、より複雑な用途には不十分となる可能性がある。
 
@@ -224,7 +222,7 @@ RGBタイプのスマート・コントラクトでは、コントラクト自�
 - ある資産（またはその他のデジタル資産）を受け取ったとき、その資産につながる操作の連鎖（状態遷移）を知り、検証し、その正当性を証明すればよい；
 - この一連の操作は、***Genesis***（最初の発行）から最新のトランザクションまで、非循環有向グラフ（DAG）またはシャード、すなわち全体の履歴の一部を形成する。
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 同時に、ネットワークの残りの部分（より正確には、Bitcoinのような基礎となるレイヤー）が、このデータの詳細を見ることなく最終的な状態をロックできるように、クライアント側の検証は、***コミットメント***という概念に依存している。
 
@@ -245,7 +243,7 @@ RGBタイプのスマート・コントラクトでは、コントラクト自�
 - このトランジションに対する暗号コミットメントを生成し、ビットコイン取引に挿入する（これらのコミットメントはRGBプロトコルでは「*アンカー*」と呼ばれる）；
 - 取引相手（受信者）は、この資産に関連する顧客側の履歴を検索し、スマートコントラクトの発生から、あなたがそれに送信するトランジションまで、エンドツーエンドの一貫性を検証する。
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 クライアント側のバリデーションには、2つの大きな利点がある：
 
@@ -263,13 +261,13 @@ RGBのようなシステムでは、異なるコントラクト（または異�
 
 実際には、このビットコイン取引が検証されると、ブロックチェーンにすでに記録されているハッシュを変更することが不可能になるため、基礎となる契約の状態が恒久的に「ロック」される。
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 ### 隠し場所のコンセプト
 
 隠し場所は、RGBスマートコントラクトの整合性と履歴を維持するために参加者が絶対に保持しなければならないクライアント側のデータのセットです。共有情報から特定の状態をローカルに再構築できるLightningチャネルとは異なり、RGBコントラクトのスタッシュは他の場所に複製されません。履歴の共有に責任があるため、それを紛失した場合、誰もそれを復元することはできません。これが、RGBで信頼できるバックアップ手順を持つシステムを採用する必要がある理由です。
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 ### シングルユース・シール：その起源と運用
 
@@ -287,11 +285,11 @@ RGBトークンの二重使用を防ぐため、私たちは「**シングルユ
 
 シングル・ユース・シールは、ピーター・トッドによって2016年に提案された暗号プリミティブで、物理的な封印の概念に似ている。一度容器に封印が施されると、不可逆的に封印を解かない限り、開封や変更は不可能になる。
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 このアプローチをデジタルの世界に置き換えることで、一連の出来事が実際に起こったこと、そしてもはや事後的に変更することができないことを証明することが可能になる。このように、シングル・ユース・シールは、「ハッシュ＋タイムスタンプ」という単純なロジックを超えて、**一度だけ**閉じることができるシールという概念を追加している。
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 シングル・ユース・シールが機能するためには、発行の有無を証明することが可能で、いったん情報が広まると改ざんが難しい（不可能ではないにしても）発行証明媒体が必要だ。**ブロックチェーン（ビットコインのような）**は、この役割を果たすことができる。そのアイデアは次のようなものだ：
 
@@ -328,7 +326,7 @@ RGBトークンの二重使用を防ぐため、私たちは「**シングルユ
 - アリスは事前にシールを公開するためのルール（いつ、どこで、どのようにメッセージを公開するか）を定義する；
 - ボブはこれらの条件を受諾または承認する。
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 **シール・クロージング**
 
@@ -336,7 +334,7 @@ RGBトークンの二重使用を防ぐため、私たちは「**シングルユ
 - 実行時に、アリスは実際のメッセージ(通常、ハッシュなどの_commitment_ の形で)を公開することで封印を閉じる；
 - また、封印が閉鎖され取り消し不能であることを証明する**証人**（暗号学的証明）も提供する。
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 **シール検証**
 
@@ -347,11 +345,11 @@ RGBトークンの二重使用を防ぐため、私たちは「**シングルユ
 そのプロセスは次のようにまとめられる：
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -384,7 +382,7 @@ bool <- Verify(seal, witness, message)
 
 RGBスマートコントラクトは、複数のシングルユースシール（複数のUTXO）を同時に使用する必要があるかもしれない。さらに、1つのビットコイントランザクションが複数の異なるコントラクトを参照し、それぞれが独自の状態遷移をシーリングすることもある。このため、コミットメントが重複して存在しないことを決定論的かつ一意に証明する**マルチコミットメント**メカニズムが必要となる。これはビットコイントランザクションと1つ以上のクライアント側のコミットメント（状態遷移）をリンクする特別な構造で、それぞれが異なるコントラクトに属する可能性がある。次の章でこの概念を詳しく見ていく。
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 プロジェクトの2つの主要なGitHubリポジトリ（LNPBP組織下）には、第1章で学んだこれらのコンセプトの基本的な実装がまとめられている：
 
@@ -392,11 +390,11 @@ RGBスマートコントラクトは、複数のシングルユースシール�
 - **client_side_validation**：ローカル検証用のRustプリミティブを含む；
 - **single_use_seals**：これらのシールを安全に定義し、閉じるロジックを実装します。
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 理論的には、これらのソフトウェア・レンガはビットコインにとらわれないものであり、他のどのようなプルーフ・オブ・パブリケーション媒体（別のレジストリ、ジャーナルなど）にも適用できる。実際には、RGBはその堅牢性と広範なコンセンサスのためにビットコインに依存している。
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 ### 一般からの質問
 
@@ -481,11 +479,11 @@ TxO2 "の "O2 "は、定義とクロージャーの両方が、トランザク�
 
 注意点として、_single-use seal_を定義する場合、必ずしもオンチェーン・トランザクションを公開する必要はない。例えば、アリスはすでに未使用のUTXOを持っていれば十分だ。彼女は決めることができる：「この_outpoint_（すでに存在する）は今、私の印鑑です。そしてこのUTXOが使われるまで、そのシールはオープンであるとみなされる。
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 このトランザクションはしばしば「_witness transaction_」と呼ばれる（_segwit_とは無関係で、単に我々がそう呼んでいるだけである）。この新しいトランザクションには、メッセージに対するコミットメントが含まれる。
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 この例では：
 
@@ -499,15 +497,15 @@ TxO2 "の "O2 "は、定義とクロージャーの両方が、トランザク�
 
 アリスはボブに、このUTXOが使われると特定のイベントが発生したとみなされることを知らせる。外からはビットコインの取引しか見えないが、ボブはこの支出には隠された意味があることを知っている。
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 アリスはこのUTXOを使うと、新しい鍵、あるいは単に古い鍵の失効を示すメッセージの封印を閉じる。このようにして、オンチェーンを監視している人は誰でもUTXOが使われたことを見ることができますが、完全な証明を持っている人だけが、それが正確にPGP鍵の失効であることを知ることができます。
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 ボブや関係者が隠されたメッセージをチェックするためには、アリスは彼にチェーン外の情報を提供しなければならない。
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 したがって、アリスはボブに：
 
@@ -515,7 +513,7 @@ TxO2 "の "O2 "は、定義とクロージャーの両方が、トランザク�
 - メッセージそのもの（例えば、新しいPGPキー）；
 - メッセージがトランザクションに関与していたことを暗号的に証明する（_extra transaction proof_または_anchor_と呼ばれる）。
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 第三者はこの情報を持っていない。第三者には、UTXOが使用されたことだけが分かる。したがって、機密性は保証されている。
 
@@ -524,12 +522,12 @@ TxO2 "の "O2 "は、定義とクロージャーの両方が、トランザク�
 
 - トランザクション1：これにはシールの定義、つまりシールとなるアウトポイントが含まれる。
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 - トランザクション2：この_outpoint_を使う。これは封印を閉じ、同じトランザクションでメッセージに_commitment_を挿入します。
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 したがって、2番目の取引を「目撃者取引」と呼ぶことにする。
 
@@ -539,7 +537,7 @@ TxO2 "の "O2 "は、定義とクロージャーの両方が、トランザク�
 - 最上層（ブロックチェーン、パブリック）**：誰もが取引を見ることができ、_アウトポイント_が使われたことを知ることができる；
 - 下層（クライアント側、プライベート）**：**アリス（または関係者）だけが、暗号証明と彼女がローカルに保持するメッセージによって、この費用がこのようなメッセージに対応することを知っている。
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 しかし、封印を閉じる際、「誓約書」をどこに挿入すべきかという問題が生じる。
 
@@ -562,11 +560,11 @@ TxO2 "の "O2 "は、定義とクロージャーの両方が、トランザク�
 - **Opret**（メッセージは使用不可能な出力 `OP_RETURN` に置かれます）；
 - **Tapret**（または*Taptweak*）は、taprootに依存して、taproot鍵のスクリプト部分にコミットメントを挿入し、公開鍵を決定論的に変更する。
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 それぞれの方法の詳細は以下の通り：
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 ***シグ・トゥ・コントラクト（サイン・トゥ・コントラクト）：***。
 
@@ -627,7 +625,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 最後の選択肢は、**Tapret**スキームによる**Taproot**（BIP341で導入）の使用である。**Tapret**は決定論的コミットメントのより複雑な形式で、ブロックチェーン上のフットプリントとコントラクト操作の機密性の点で改善をもたらします。主なアイデアは、[taproot transaction](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)の`Script Path Spend`部分にコミットメントを隠すことである。
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 コミットメントがどのようにタップルートトランザクションに挿入されるかを説明する前に、コミットメントの**正確な**形式を見てみよう。コミットメントは**相対的に**64バイト文字列に対応しなければならない[構築済み](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196)：
 
@@ -658,7 +656,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 この最初のケースでは、内部公開鍵 `P` *（内部鍵*）のみを含むタップルート出力鍵（*タップルート出力鍵*） `Q` から開始し、スクリプトパス（*スクリプトパス*）は関連付けません：
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 - P`: _Key Path Spend_ の内部公開鍵。
@@ -667,7 +665,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 Tapret**コミットメントを含めるには、以下のように、**固有のスクリプト**を持つ**スクリプト・パス支出**を追加する：
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 - t = tH_TWEAK(P || Script_root)`は、**Script_root**を含む新しい微調整係数となる。
@@ -679,7 +677,7 @@ Tapret**コミットメントを含めるには、以下のように、**固有�
 
 2つ目のシナリオは、より複雑な`Q`タップルート**の出力**に関するもので、この出力にはすでにいくつかのスクリプトが含まれている。例えば、3つのスクリプトからなるツリーがある：
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 - tH_LEAF(x)` はリーフスクリプトの正規化タグ付きハッシュ関数を示す。
@@ -687,7 +685,7 @@ Tapret**コミットメントを含めるには、以下のように、**固有�
 
 タプレのコミットメントを追加するには、ツリーの最初のレベルに*使用不可能なスクリプト*を挿入し、既存のスクリプトを1つ下のレベルに移動させる必要がある。視覚的には、ツリーは：
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 - tHABC` は、最上位のグループ`A, B, C`のタグ付きハッシュを表す。
@@ -701,11 +699,11 @@ Tapret**コミットメントを含めるには、以下のように、**固有�
 
 最初のケース（`tHABC < tHT`）の視覚的な例：
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 番目の場合（`tHABC > tHT`）の例：
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 #### ノンスによる最適化
 
@@ -808,7 +806,7 @@ RGBについては、特に2つの方法が際立っている： ***Opret***と*
 
 具体的には、それぞれの _transition bundle_ は特定のコントラクトに属します。この情報はすべて**MPCツリー**に挿入され、そのルート（`mpc::Root`）は再びハッシュ化されて`mpc::Commitment`となる。選択された決定論的方法に従って、ビットコイントランザクション（_witness transaction_）に置かれるのはこの最後のハッシュである。
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 #### MPCルートハッシュ
 
@@ -826,7 +824,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 - cofactor`（16ビット、リトルエンディアン）は、ツリー内の各コントラクトに割り当てられる位置の一意性を促進するために使用されるパラメータである；
 - mpc::Root`は*MPC Tree*のルートで、次のセクションで説明するプロセスに従って計算される。
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 #### MPCツリー建設
 
@@ -911,7 +909,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 最終的な結果は**mpc::Root**で、次に`mpc::Commitment`となる。
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 #### MPCシャフトチェック
 
@@ -919,7 +917,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 この例では、`c_2`検証者が必要とするのは、中間ハッシュ（`tH_MPC_LEAF(D)`）、2つの `tH_MPC_BRANCH(...)`、`pos(c_2)`位置証明、`cofactor`値だけである。その後、ローカルでルートを再構築し、`mpc::Commitment` を再計算して、ビットコイントランザクションに書き込まれたものと比較することができる（`Opret` または `Tapret` 内）。
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 このメカニズムにより、：
 
@@ -988,7 +986,7 @@ pos(c_i) = c_i mod (w - cofactor)
 
 Opret`とは異なり、`Tapret`コミットメントはタップルートスクリプトの構造に組み込まれているため、*コミットメント*の場所を正しく検証するためには、タップルートツリーの一部を明らかにする必要がある。
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 したがって、**アンカー**は、RGBのコンテキストでビットコインのコミットメントを検証するために必要なすべての情報をカプセル化します。アンカーは関連するトランザクション（`Txid`）とコントラクトの位置づけの証明（`MPC Proof`）の両方を示し、`Tapret`の場合は追加の証明（`ETP`）を管理する。このようにして、アンカーは同じトランザクションが他の契約データに再解釈されないようにすることで、オフチェーン状態の完全性と一意性を保護する。
 
@@ -1005,7 +1003,7 @@ Opret`とは異なり、`Tapret`コミットメントはタップルートスク
 
 実際には、技術的な実装は（_client_side_validation_、_commit-verify_、_bp_core_など）いくつかの専用のRust_crate_に分かれている。基本的な概念はそこにあります：
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 次の章では、RGBの純粋なオフチェーンコンポーネント、すなわちコントラクトロジックを見ていきます。部分的に複製された「有限状態マシン_」として組織されたRGBコントラクトが、データの機密性を保ちながら、ビットコインスクリプトよりもはるかに高い表現力を達成する方法を見ていきます。
 
@@ -1023,7 +1021,7 @@ RGBの目的は、ビットコイン上でスマートコントラクトを実�
 
 この自動化によって、所有権や契約履行を管理するための集中レジストリ（中央のプラットフォームやデータベースなど）からどのように解放されるのか、という分散化の問題が提起される。RGBが取り上げたオリジナルのアイデアは、「無記名証書」として知られる所有形態に戻ることだ。歴史的に、ある種の証券（債券、株式など）は無記名式で発行され、その文書を物理的に所持する者であれば誰でも権利を行使できるようになっていた。
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 RGBはこの概念をデジタル世界に適用する。権利（および義務）はオフチェーンで操作されるデータにカプセル化され、このデータの状態は参加者自身によって検証される。これによって、先験的に、公的な登録簿に基づく他のアプローチよりもはるかに高度な機密性と独立性が可能になる。
 
@@ -1035,7 +1033,7 @@ RGBのスマートコントラクトは、.NETで定義されたステートマ�
 - 状態**、すなわち、契約の現在の設定を反映する情報のセット；
 - ビジネス・ロジック**（ルールのセット）**であり、どのような条件下で、誰が状態を変更できるかを記述する。
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 これらの契約は、単純なトークンの移転に限定されないことを理解することが重要だ。伝統的な資産（トークン、株式、債券）から、より複雑な仕組み（使用権、商業条件など）まで、多種多様なアプリケーションを具現化することができる。契約コードに誰もがアクセスでき、実行可能な他のブロックチェーンとは異なり、RGBのアプローチは、契約へのアクセスと知識を参加者（"***契約参加者***"）に区分する。いくつかの役割がある：
 
@@ -1073,7 +1071,7 @@ RGBの世界では、***契約操作***とは、契約を***古い状態***か�
 - ブロックチェーン上の新しい_コミットメント_によって変更を固定し、1つの_シングルユースシール_を閉じ、別の_シングルユースシール_を作成する；
 - 関係する権利者は、トランジションが*スキーマ*に準拠していること、および関連するビットコイントランザクションがオンチェーンで登録されていることを、ローカル（*クライアントサイド*）で検証する。
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 最終結果は更新されたコントラクトで、現在は異なる状態になっている。この遷移は、小さな暗号フィンガープリント（コミットメント）のみがブロックチェーンに記録されるため、Bitcoinネットワーク全体が詳細に関与する必要はありません。一連のシングルユーズシールは、状態の二重支出や二重使用を防ぎます。
 
@@ -1086,7 +1084,7 @@ RGBスマートコントラクトは、最初の状態である**ジェネシス
 - 時系列的な順序は、各遷移がビットコインのアンカーに含まれることで保証され、タイムスタンプが押され、Proof-of-Workによるコンセンサスのおかげで変更不可能である；
 - これ以上オペレーションが進行しない場合、**Terminal State**に到達する。
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 このDAGトポロジーは（単純な線形チェーンの代わりに）、契約の異なる部分が、互いに矛盾しない限り、並行して発展する可能性を反映している。その後、RGBは、関係する各参加者の*クライアント側*の検証によって、矛盾を回避するように配慮する。
 
@@ -1119,19 +1117,19 @@ RGBのスマートコントラクトは、デジタル無記名証券のモデ�
 
 アリスはローカルで検証されたデータ（*クライアントサイド*）の***隠し場所RGB***を持っている。この隠し場所はBitcoin上の彼女のUTXOの1つを指す。つまり、このデータの_seal definition_は、アリスに属するUTXOを指している。このアイデアは、彼女が資産（例えばRGBトークン）にリンクされた特定のデジタル権利をボブに転送できるようにすることです。
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 **ボブはUTXOも持っている。**
 
 一方、ボブは少なくとも1つのUTXOを自分で持っており、アリスの ものとは直接リンクしていない。BobがUTXOを持っていない場合でも、*witness transaction*そのものを使ってBobに譲渡することは可能である：このトランザクションの出力はコミットメント(_commitment_)を含み、暗黙のうちに新しい契約の所有権をBobに関連付ける。
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 **新物件の建設（*新状態*）：**。
 
 ボブはアリスに***インボイス***(インボイスの作成については後の章で詳しく説明する)という形でエンコードされた情報を送り、契約のルールに準拠した新しいステートを作成するよう依頼する。この状態には、BobのUTXOの1つを指す新しい*seal定義*が含まれる。こうすることで、Bobはこの新しいステートで定義された資産、例えば一定量のRGBトークンの所有権を与えられる。
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 **サンプル取引の準備：**。
 
@@ -1149,13 +1147,13 @@ RGBのスマートコントラクトは、デジタル無記名証券のモデ�
 
 もしBobが満足すれば、(例えば*委託*に署名することで)承認を与える ことができる。アリスはそれから準備されたサンプル取引をブロードキャストできる。確認されると、アリスが保持していた封印は閉じられ、ボブによる所有が正式になります。二重支出防止のセキュリティはビットコインと同じメカニズムに基づいている。
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 新しい状態はボブのUTXOを参照するようになり、以前アリスが持っていた所有権をボブに与える。RGBデータがアンカーされたビットコイン出力は、所有権移転の取り消し不能な証明となる。
 
 2つのコントラクト操作（**ジェネシス**、次に**ステートトランジション**）からなる最小DAG（*Directed Acyclic Graph*）の例では、RGBステート（*クライアントサイド*レイヤー、赤）がビットコインブロックチェーン（*コミットメント*レイヤー、オレンジ）にどのように接続するかを説明することができる。
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 これは、ジェネシスがシール（*シールの定義*）を定義し、*状態遷移*がこのシールを閉じて別のUTXOに新しいシールを作成することを示している。
 
@@ -1169,7 +1167,7 @@ RGBのスマートコントラクトは、デジタル無記名証券のモデ�
 
 前章で説明したステート・トランジション**は、コントラクト操作の主な形式である。1つまたは複数の前のステート（ジェネシスまたは別のステート・トランジションから）を参照し、新しいステートに更新する。**
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 この図は、**状態遷移バンドル**において、1つのサンプルトランザクションで複数のシールが閉じられ、同時に新しいシールが開かれる様子を示している。実際、RGBプロトコルの興味深い特徴は、その拡張能力です。複数のトランジションをトランジション・バンドルに集約することができ、各集約は**MPCツリー**の別個のリーフ（一意のバンドル識別子）に関連付けられます。DBC（Deterministic Bitcoin Commitment）メカニズムにより、メッセージ全体が `Tapret` または `Opret` 出力に挿入され、同時に以前のシールが閉じられ、場合によっては新しいシールが定義される。**アンカー**は、ブロックチェーンに格納されたコミットメントとクライアント側の検証構造（**クライアントサイド**）を直接つなぐ役割を果たす。
 
@@ -1222,7 +1220,7 @@ MapElement1                MapElement2                       MapElementN
 
 このうち、**Genesis**と**State Extension**は「状態生成操作」と呼ばれることがある。これは非常に重要なポイントである： **Genesis**と**State Extension**は封印を閉じません。むしろ、それらは新しい封印を定義し、ブロックチェーンの履歴で真に検証されるためには、その後の**State Transition**によって使われなければなりません。
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 コントラクトの**アクティブ状態**は、多くの場合、ビットコインブロックチェーンにおける創世記から始まりすべてのアンカーに続くトランザクションの履歴（DAG）から得られる最新の状態の集合として定義される。すでに廃止された（すなわち、使用済みのUTXOに接続された）古いステートは、もはやアクティブとはみなされませんが、履歴の一貫性をチェックするために不可欠なままです。
 
@@ -1248,7 +1246,7 @@ MapElement1                MapElement2                       MapElementN
 
 技術的に言えば、State Extensionは、以前に定義された*Valency*に対応する*Redeem*（特定のタイプのRGB入力）を参照する（例えば、Genesisや別のState Transitionで）。これは新しい印章を定義するものであり、その恩恵を受ける人や状態が利用できる。この印章が有効になるには、その後の状態遷移によって使用されなければならない。
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 例えば、ジェネシスは発行権（*ヴァレンシー*）を創出する。この権利は、権限を与えられた行為者が行使することができ、その行為者は国家拡張を構築する：
 
@@ -1357,7 +1355,7 @@ RGBコントラクトは、ジェネシスの `OpId` から派生した `Contrac
 - 公的**所有国家**、
 - 私的**所有国家**。
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 グローバル・ステート*は、単一のブロックとして*契約操作*に直接含まれる。Owned State*は、*Seal Definition*と並んで、それぞれの*Assignment*で定義される。
 
@@ -1419,7 +1417,7 @@ RGBの大きな特徴は、グローバル・ステートとオウン・ステ�
 
 RGBの大きな強みの1つは、*Seal Definition*フィールドと*Owned State*フィールドを任意に公開(*reveal*)または非表示(*conceal*)にできる点にある。これは、機密性と選択性の強力な組み合わせを提供する。例えば、トランジションを検証しなければならない人には公開されたバージョンを提供し、第三者は隠されたバージョン（ハッシュ）だけを見ることで、すべてのデータを公開することなくトランジションが有効であることを証明することができる。実際には、トランジションの `OpId` は常に *隠された* データから計算されます。
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 #### シールの定義
 
@@ -1437,7 +1435,7 @@ RGBの大きな強みの1つは、*Seal Definition*フィールドと*Owned Stat
 
 シール定義の*隠蔽*形式は、これら4つのフィールドを連結したSHA256ハッシュ（タグ付き）で、RGBに固有のタグが付いている。
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 #### 所有国
 
@@ -1618,7 +1616,7 @@ RGBの大きな革新のひとつは、2つのコンセプトを厳密に分け�
 
 一方、所有権**はビットコインのセキュリティに全面的に依存している**。UTXOの秘密鍵を所有することは、新しいトランジションを開始する（シングルユースシールを閉じる）能力をコントロールすることを意味する。そのため、誰かがデータを見たり検証したりできたとしても、当該UTXOを所有していなければ状態を変更することはできない。
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 このアプローチは、より複雑なブロックチェーンで遭遇する古典的な脆弱性（スマートコントラクトのすべてのコードが公開され、誰でも変更可能であるため、ハッキングにつながることがある）を制限する。RGBでは、攻撃者は単純にオンチェーンの状態と対話することはできない。なぜなら、状態に対して行動する権利（*所有権*）はビットコインレイヤーによって保護されているからだ。
 
@@ -1826,7 +1824,7 @@ ETP（*Extra Transaction Proof*）は、**Tapret** *コミットメント*（_ta
 
 ライトニングがどのように機能するかについては、この他のコースを受講されることをお勧めする：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### マルチ・プロトコル・コミットメント - MPC
 
@@ -1954,7 +1952,7 @@ Witness Transaction は、Multi Protocol Commitment (MPC) を含むメッセー�
 - インターフェースは、ウォレットと人間のユーザーの両方にセマンティック・レイヤーを提供し、取引の読み取りと実行を明確にする；
 - **インプリメンテーションインターフェイス**は、ビジネスロジックとプレゼンテーションのギャップを埋めるもので、契約定義とユーザーエクスペリエンスの一貫性を保証する。
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 ウォレットがRGBアセット（それがカンジブルトークンであれ、あらゆる種類の権利であれ）を管理するためには、これらの要素がすべてコンパイルされていなければならないことに注意することが重要です： *スキーマ*、*インターフェース*、*インターフェースの実装*、そして*ジェネシス*です。これは、***契約委託***、すなわちクライアント側の契約を検証するために必要なすべてを含むデータパッケージを通じて送信されます。
 
@@ -2000,7 +1998,7 @@ RGBのモジュール性の利点は、*スキーマ*のロジックと*イン�
 - 内部契約データがどのように進化するかを決定するルール（例えば、フィールドが変更可能か累積可能か）；
 - 例えば、遵守すべき遷移の順序や、満たすべき論理条件のセットなどである。
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 RGB上のアセットの*発行者*がコントラクトを発行する際、それに関連するジェネシスとスキーマを提供します。アセットとやり取りしたいユーザーやウォレットは、コントラクトの背後にあるロジックを理解し、参加するトランジションが正当なものであることを後で検証できるように、このスキーマを取得します。
 
@@ -2063,7 +2061,7 @@ RGB契約のスキーマの具体例を見てみよう。これはファイル`n
 - データの記述と検証に使用される**厳密型システム**；
 - 検証スクリプト**（AluVM経由で実行）**。
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 以下のコードは、Rust Schemaの完全な定義を示しています。以下の注釈(1)から(9)に従って、部分ごとにコメントします：
 
@@ -2228,7 +2226,7 @@ extensions: none!()` フィールドは、このコントラクトで状態拡�
 - 各フィールドの名前と値にアクセスし、それらを表示できるようにする（例えば、トークンの場合、そのティッカー、最大金額などを調べる）；
 - データを理解しやすい名前に関連付けることで、コントラクト・オペレーション（ジェネシス、ステート・トランジション、ステート・エクステンション）を解釈し、構築する（例えば、バイナリ識別子ではなく「金額」を明確に指定して譲渡を実行する）。
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 インターフェイスのおかげで、例えば、フィールドを操作する代わりに、「トークン数」や「アセット名」などのラベルを直接操作するコードをウォレットに書くことができます。こうすることで、コントラクトの管理がより直感的になります。こうすることで、コントラクトの管理がより直感的になる。
 
@@ -2256,7 +2254,7 @@ RGBデザインでは、スキーマ（ビジネスロジック）とインタ�
 
 エンドユーザー向けのシンプルなインターフェイス、複雑な設定操作を管理する必要がある発行者向けの高度なインターフェイスなどです。ウォレットはその用途に応じて、どのInterfaceをインポートするかを選択できる。
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 実際には、ウォレットがRGBコントラクトを取得するとき（`.rgb`または `.rgba`ファイルを介して）、関連するインターフェイスもインポートします。実行時に、ウォレットは例えば：
 
@@ -2646,7 +2644,7 @@ extensions: none!(),
 - プレゼンテーション層（フィールド名、アクセス可能な操作）を定義する**インターフェース**；
 - スキーマとインターフェイスを具体的に結びつける**インターフェイス実装**。
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 各コンポーネントの重さは一般的に200バイト未満なので、総サイズは数キロバイト程度になることが多い。また、この委託品をBase58で、検閲に強いチャンネル（例えばNostrやLightning Network経由）で、あるいはQRコードとして放送することも可能かもしれない。
 
@@ -2684,7 +2682,7 @@ bob$ rgb invoice RGB20 100 <ContractId> tapret1st:456e3..dfe1:0
 
 生成された送り状（例：URL: `rgb:2WBcas9.../RGB20/100+utxob:...`）には、アリスが送金を準備するために必要なすべての情報が含まれています。委託書と同じように、コンパクトにエンコードして（Base58や他のフォーマット）、メッセージングアプリケーション、Eメール、Nostr...などで送ることができる。
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 #### 6）アリス側での取引準備
 
@@ -2727,7 +2725,7 @@ bob$ rgb accept consignment.rgb
 sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 #### 9)オプション：ボブはアリスに確認を送り返す (*payslip*)
 
@@ -2753,13 +2751,13 @@ alice$ rgb check <sig>
 alice$ wallet sign —publish tx.psbt
 ```
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 確認されると、この取引は譲渡の完了を意味する。ボブは資産の新しい所有者となる。彼は今、自分がコントロールするUTXOを指すOwned Stateを持ち、取引におけるコミットメントの存在によって証明される。
 
 要約すると、これが完全な移籍のプロセスである：
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 ### RGB転送の利点
 
@@ -2790,7 +2788,7 @@ alice$ wallet sign —publish tx.psbt
 - アリスはビットコインネットワーク上でトランザクションを公開する；
 - 取引が確認されれば、正式に移籍が成立する。
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 この送金は、RGBプロトコルのすべてのパワーと柔軟性を示している：クライアント側で検証され、ビットコインブロックチェーン上に最小かつ目立たないように固定されたプライベートな交換であり、プロトコルの最高のセキュリティ（二重支出のリスクなし）を保持している。これによりRGBは、オンチェーンプログラマブルブロックチェーンよりも機密性が高くスケーラブルな価値移転のための有望なエコシステムとなる。
 
@@ -2942,7 +2940,7 @@ rgb
 
 引数なしで`rgb`を実行すると、`interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`などのサブコマンドの一覧が表示されます。ローカルストレージディレクトリ（すべてのログ、回路図、実装を保存するスタッシュ）の変更、ネットワーク（testnet、mainnet）の選択、Electrumサーバーの設定を行うことができます。
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 #### コントロールの最初の概要
 
@@ -2970,7 +2968,7 @@ cargo run
 rgb import interfaces/RGB20.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 一方、スキーマはまだソフトにインポートされていないと聞いている。隠し場所には契約書もない。これを見るには、：
 
@@ -2984,7 +2982,7 @@ rgb schemata
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 このリポジトリの `src/` ディレクトリには、スキーマ（NIA は "*Non Inflatable Asset*"、UDA は "*Unique Digital Asset*"など）を定義するいくつかの Rust ファイル（`nia.rs` など）が含まれています。コンパイルするには、：
 
@@ -3003,7 +3001,7 @@ cargo run
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 これでローカル・スタッシュに追加される。以下のコマンドを実行すると、スキーマが表示される：
 
@@ -3035,8 +3033,8 @@ examples`フォルダにRustのサンプルがあり、`ContractBuilder`を構�
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3050,7 +3048,7 @@ seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804
 amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 その後、：
 
@@ -3058,7 +3056,7 @@ amount: 100000000 # this is 1 million (we have two digits for cents)
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 私の場合、一意なスキーマ識別子（一重引用符で囲む）は`RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k`で、発行者は書いていません。だから私の注文は：
 
@@ -3078,15 +3076,15 @@ CLIは、新しいコントラクトが発行され、スタッシュに追加�
 rgb contracts
 ```
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
-次のコマンドは、グローバルな状態(名前、ティッカー、供給量...)と所有状態のリスト、つまり割り当て(例えば、UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` で定義された100万 `PBN` トークン)を表示します。
+次のコマンドは、グローバルな状態(名前、ティッカー、供給量...)と所有状態のリスト、つまり割り当て(例えば、UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` で定義された100万 `Plan ₿ Academy` トークン)を表示します。
 
 ```bash
 rgb state '<ContractId>'
 ```
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 ### エクスポート、インポート、検証
 
@@ -3096,7 +3094,7 @@ rgb state '<ContractId>'
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 myContractPBN.rgb`ファイルは他のユーザーに渡すことができ、そのユーザーは ：
 
@@ -3120,7 +3118,7 @@ rgb validate myContract.rgb
 rgb dump
 ```
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 これで、隠し場所全体の詳細が入ったフォルダが生成される。
 
@@ -3227,7 +3225,7 @@ RGBアセットを伝送するライトニング・チャンネルを作成す�
 
 ビットコイン用語では、資金取引は、それが少量のサットしか含んでいないとしても、参照UTXOを定義するために存在しなければなりません（それは、将来のコミットメントトランザクションにおける各出力がダストリミットをすべて超えて残っているだけの問題です）。例えば、アリスは10kサットと500USDT（RGBアセットとして発行）を提供することを決定するかもしれない。資金取引において、我々はRGBの状態遷移を固定するコミットメント（`Opret`または`Tapret`）を追加する。
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 資金調達トランザクションが準備されると（まだブロードキャストされていない）、コミットメントトランザクションが作成され、いずれかの当事者がいつでも一方的にチャネルを閉じることができるようになる。これらのトランザクションはLightningの古典的なコミットメントトランザクションに似ているが、新しい状態遷移にリンクされたRGBアンカー（OP_RETURNまたはTaproot）を含む追加出力を追加する点が異なる。
 
@@ -3235,11 +3233,11 @@ RGB状態遷移は、資金調達の2/2マルチシグからコミットメン�
 
 したがって、Aliceが署名してBobに送るコミットメント・トランザクションは次のようになる：
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 そして、ボブによって署名され、アリスに送られるコミットメント・トランザクショ ンは以下のようになる：
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 ### チャンネル更新
 
@@ -3249,27 +3247,27 @@ RGB状態遷移は、資金調達の2/2マルチシグからコミットメン�
 
 アリスによって署名されたコミットメント・トランザクションは、ボブによって配布される準備ができている：
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 ボブによって署名されたコミットメント・トランザクションは、アリスによって配布される準備ができている：
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 ### HTLC管理
 
 実際には、ライトニング・ネットワークは、HTLC（*Hashed Time-Locked Contracts*）を使用して、複数のチャネルを経由した支払いを可能にします。これはRGBでも同じです。チャネルを経由する支払いごとに、コミットするトランザクションにHTLCの出力が追加され、このHTLCにリンクされたRGBの割り当てが行われます。したがって、（秘密のおかげで、あるいはタイムロックの失効後に）HTLC出力を使用した者は、サットと関連するRGB資産の両方を回収する。一方、衛星とRGB資産の両方について、路上で十分な現金が必要であることは明らかです。
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 したがって、Lightning上のRGBの動作は、Lightningネットワーク自体の動作と並行して考える必要があります。このテーマをより深く掘り下げたい場合は、この他の包括的なトレーニングコースをご覧になることを強くお勧めする：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGBコードマップ
 
 最後に、次のセクションに進む前に、RGBで使われているコードの概要を説明したい。このプロトコルは、一連のRustライブラリーとオープンソースの仕様に基づいている。主なリポジトリとクレートの概要は以下の通りです：
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 #### クライアント側の検証
 
@@ -3582,7 +3580,7 @@ rgb-lightning-node`バイナリをコンパイルしてインストールする�
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
 ```
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 - recurse-submodules`オプションは、必要なサブデバイス（修正版の`rust-lightning`を含む）のクローンも作成する；
@@ -3594,7 +3592,7 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 cargo install --locked --debug --path .
 ```
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 - locked`は、依存関係のバージョンが厳密に尊重されることを保証する；
@@ -3628,7 +3626,7 @@ IDおよびURLは、デーモンがAPIを介してロック解除されたとき
 
 簡単な使い方としては、Docker経由で一連のサービスを自動的に起動する `regtest.sh` スクリプトがある：bitcoind`、`electrs`（インデクサ）、`rgb-proxy-server`である。
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 これにより、ローカルで隔離された、設定済みの環境を起動できる。再起動するたびにコンテナとデータ・ディレクトリを作成・破棄する。まずは.NET Frameworkを起動する：
 
@@ -3643,7 +3641,7 @@ IDおよびURLは、デーモンがAPIを介してロック解除されたとき
 - regtest で `bitcoind` を実行し、インデクサ `electrs` と `rgb-proxy-server` も実行する；
 - すべての準備が整うまで待つ。
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 次に、複数のRLNノードを起動する。別々のシェルで、例えば（3つのRLNノードを起動するために）：
 
@@ -3659,7 +3657,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network regtest
 ```
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 - network regtest` パラメーターは、regtestコンフィギュレーションの使用を示す；
@@ -3681,7 +3679,7 @@ curl -X POST http://localhost:3001/address
 
 答えは住所を教えてくれる。
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 bitcoind` Regtestで、ビットコインを少し採掘してみよう。実行する：
 
@@ -3689,7 +3687,7 @@ bitcoind` Regtestで、ビットコインを少し採掘してみよう。実行
 ./regtest.sh mine 101
 ```
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 上記のノード・アドレスに送金する：
 
@@ -3697,7 +3695,7 @@ bitcoind` Regtestで、ビットコインを少し採掘してみよう。実行
 ./regtest.sh sendtoaddress <address> <amount>
 ```
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 その後、取引を確認するためにブロックを採掘する：
 
@@ -3705,7 +3703,7 @@ bitcoind` Regtestで、ビットコインを少し採掘してみよう。実行
 ./regtest.sh mine 1
 ```
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 ### テストネットの立ち上げ（Dockerなし）
 
@@ -3752,7 +3750,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/createutxos
 ```
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 もちろん、注文を変更することもできます。取引を確認するために、.NET Frameworkを採掘します：
 
@@ -3760,7 +3758,7 @@ http://localhost:3001/createutxos
 ./regtest.sh mine 1
 ```
 
-これで RGB アセットを作成できます。コマンドは作成したいアセットの種類とパラメータによって異なります。ここでは、"PBN" という名前の NIA (*Non Inflatable Asset*) トークンを 1000 ユニットで作成しています。precision`でユニットの分割率を指定します。
+これで RGB アセットを作成できます。コマンドは作成したいアセットの種類とパラメータによって異なります。ここでは、"Plan ₿ Academy" という名前の NIA (*Non Inflatable Asset*) トークンを 1000 ユニットで作成しています。precision`でユニットの分割率を指定します。
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3768,14 +3766,14 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
 ```
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 レスポンスには、新しく作成されたアセットのIDが含まれます。この識別子を覚えておいてください。私の場合は、：
 
@@ -3783,7 +3781,7 @@ http://localhost:3001/issueassetnia
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 その後、オンチェーンで転送したり、Lightningチャネルに割り当てたりすることができます。次のセクションで行うのはまさにこれだ。
 
@@ -3803,9 +3801,9 @@ curl -X 'GET' \
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
 ```
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
-次に、関連するアセット（`PBN`）を指定してチャンネルを開きます。openchannel` コマンドでは、チャンネルのサイズを satoshis で定義し、RGB アセットを含めるかどうかを選択できます。何を作成したいかによりますが、私の場合、コマンドは ：
+次に、関連するアセット（`Plan ₿ Academy`）を指定してチャンネルを開きます。openchannel` コマンドでは、チャンネルのサイズを satoshis で定義し、RGB アセットを含めるかどうかを選択できます。何を作成したいかによりますが、私の場合、コマンドは ：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3834,7 +3832,7 @@ http://localhost:3001/openchannel
 - Asset_id` : チャンネルに参加しているRGBアセットの一意な識別子；
 - public`：チャンネルをネットワーク上でルーティングするために公開するかどうかを示す。
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 取引を確認するために、6ブロックが採掘される：
 
@@ -3842,9 +3840,9 @@ http://localhost:3001/openchannel
 ./regtest.sh mine 6
 ```
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
-Lightning チャネルはオープンされ、ノード n°1 側には 500 の `PBN` トークンがある。ノード n°2 が `PBN` トークンを受け取りたい場合は、インボイスを生成しなければならない。その方法は以下の通りです：
+Lightning チャネルはオープンされ、ノード n°1 側には 500 の `Plan ₿ Academy` トークンがある。ノード n°2 が `Plan ₿ Academy` トークンを受け取りたい場合は、インボイスを生成しなければならない。その方法は以下の通りです：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3871,9 +3869,9 @@ http://localhost:3002/lninvoice
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
 ```
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
-PBN`トークンで必要な現金を保持している最初のノードから、この請求書を支払うことにする：
+Plan ₿ Academy`トークンで必要な現金を保持している最初のノードから、この請求書を支払うことにする：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3883,7 +3881,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/sendpayment
 ```
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 支払いが行われました。これは.NETコマンドを実行することで確認できる：
 
@@ -3893,7 +3891,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 ここでは、RGBアセットを伝送するように変更されたLightningノードのデプロイ方法を説明します。このデモは.NET Frameworkをベースにしています：
 

@@ -12,7 +12,7 @@ _Bài hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr
 
 Wallet của Satoshi là Lightning Network Wallet, có tính bảo vệ và rất dễ sử dụng.
 
-Đối với mục đích của khóa học [BTC105 - Tìm kiếm ngay bây giờ](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), nó được sử dụng để cấp chứng từ Redeem Lightning Network.
+Đối với mục đích của khóa học [BTC105 - Tìm kiếm ngay bây giờ](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), nó được sử dụng để cấp chứng từ Redeem Lightning Network.
 
 
 **Luôn nhớ**: _không phải chìa khóa, không phải tiền xu của bạn_

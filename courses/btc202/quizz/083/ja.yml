@@ -1,0 +1,9 @@
+question: Bitcoin coreをTorネットワーク経由でのみ接続させる設定はどれですか？
+answer: オンリーネット＝オニオン
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - ネット＝トール
+explanation: |
+  onlynet=onionオプションは、Torネットワークへのすべての発信接続を制限し、listenonion=1は、受信Tor接続のみをリッスンできるようにします。
+reviewed: true

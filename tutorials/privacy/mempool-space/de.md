@@ -14,9 +14,9 @@ In den Anfängen von Bitcoin war es notwendig, einen Bitcoin-Knoten zu betreiben
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Daher wurden Projekte ins Leben gerufen, um die Bitcoin-Gemeinschaft zu erweitern und sie für alle zugänglich zu machen, die keinen Knoten besitzen und/oder nicht über die erforderlichen technischen Kenntnisse verfügen.
 
@@ -46,7 +46,7 @@ Die zunehmende Verbreitung im Ökosystem und die Tatsache, dass Mempool.space Op
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Die Grundlagen von Mempool.space
 
@@ -176,7 +176,7 @@ Entdecken Sie die verschiedenen Bitcoin-Transaktionsschemata, um Ihre Vertraulic
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Beschleunigen Sie Ihre Transaktionen
 
@@ -200,7 +200,7 @@ Sie können mit Portfolios, die diesen Mechanismus akzeptieren, eine Gebührener
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Wenn Ihnen all diese Begriffe etwas zu technisch erscheinen, empfehle ich Ihnen, [unser Glossar](https://planb.network/resources/glossary) zu konsultieren, das Definitionen aller Fachbegriffe im Zusammenhang mit Bitcoin und seinem Ökosystem enthält.
+Wenn Ihnen all diese Begriffe etwas zu technisch erscheinen, empfehle ich Ihnen, [unser Glossar](https://planb.academy/resources/glossary) zu konsultieren, das Definitionen aller Fachbegriffe im Zusammenhang mit Bitcoin und seinem Ökosystem enthält.
 
 
 
@@ -235,7 +235,7 @@ Ein Miner bezieht sich auf eine Person, die eine Mine verwaltet, d. h. einen Com
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 miner sind wie "Validierer", die Transaktionen überprüfen und zu Blöcken zusammenfassen. Um dem Bitcoin-Netzwerk einen neuen Block hinzuzufügen, müssen sie ein komplexes mathematisches Rätsel lösen (das Proof-of-Work). Der erste Miner, der das Rätsel löst, gewinnt eine Bitcoin-Belohnung (Blockzuschuss + Gebühren für die im Block enthaltenen Transaktionen).
 
@@ -372,4 +372,4 @@ Jetzt, wo Sie das Ende Ihrer Reise auf Mempool.space erreicht haben, können Sie
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

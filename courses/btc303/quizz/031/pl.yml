@@ -1,0 +1,9 @@
+question: Jaka fundamentalna zmiana zachodzi w strukturze kosztów bezpieczeństwa Bitcoin, gdy dotacja blokowa zbliża się do zera?
+answer: Koszty bezpieczeństwa zmieniają się z kosztów ponoszonych przez posiadaczy poprzez inflację pieniężną na koszty ponoszone przez wydawców poprzez opłaty transakcyjne
+wrong_answers:
+  - Koszty bezpieczeństwa zmieniają się z kosztów ponoszonych przez górników poprzez inwestycje w sprzęt na koszty ponoszone przez węzły poprzez zużycie energii elektrycznej
+  - Koszty bezpieczeństwa zmieniają się z kosztów ponoszonych przez giełdy z tytułu opłat transakcyjnych na koszty ponoszone przez dostawców wallet z tytułu opłat za usługi
+  - Koszty bezpieczeństwa zmieniają się z kosztów ponoszonych przez deweloperów w związku z utrzymaniem kodu na koszty ponoszone przez użytkowników w związku z uczestnictwem w sieci
+explanation: |
+  Rozdział ten jasno wyjaśnia, że obecnie posiadacze płacą za bezpieczeństwo Bitcoin poprzez inflację monetarną (nowe monety są tworzone poprzez dotację blokową), ale w przyszłości, gdy dotacja blokowa zbliży się do zera, wydawcy będą płacić za bezpieczeństwo poprzez opłaty transakcyjne. Stanowi to fundamentalną zmianę ekonomiczną w zakresie tego, kto ponosi koszty utrzymania bezpieczeństwa sieci, przechodząc od modelu, w którym tworzenie nowych monet finansuje mining, do modelu, w którym opłaty transakcyjne muszą stanowić wystarczającą zachętę dla górników do zabezpieczenia sieci.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Welk architectuurmechanisme stelt de Breez SDK in staat om Liquid-naar-Bitcoin overdrachten uit te voeren zonder afhankelijk te zijn van federated peg-uitgangen of gecentraliseerde uitwisselingen?
+answer: Een dual-swap mechanisme met gelijktijdige lock-up transacties op beide ketens waarbij de zender Bitcoin fondsen claimt en de ontvanger Liquid fondsen claimt
+wrong_answers:
+  - Een enkele onderzeese swap waarbij Bitcoin-middelen eerst worden vergrendeld en vervolgens worden opgeëist met behulp van een Lightning-betalingsvoorbeeld van de Liquid-transactie
+  - Een omgekeerde onderzeese swaparchitectuur waarbij de Liquid Network fungeert als tussenbrug om Bitcoin mainchain transacties te valideren
+  - Een gefedereerd multi-handtekening escrow systeem beheerd door Boltz dat atomaire swaps coördineert tussen Liquid en Bitcoin met behulp van tijdsgesloten contracten
+explanation: |
+  Het dual-swap mechanisme is speciaal ontworpen voor ketenoverschrijdende Bitcoin overdrachten, waarbij gelijktijdige lock-up transacties op zowel Liquid als Bitcoin netwerken plaatsvinden. Deze vertrouwensloze benadering maakt directe overbrugging zonder federated peg-outs mogelijk. De andere opties beschrijven onjuiste onderzeese swaps in één richting, geven een verkeerd beeld van de rol van de Liquid Network of suggereren onjuiste afhankelijkheid van federatieve systemen die de SDK expliciet vermijdt.

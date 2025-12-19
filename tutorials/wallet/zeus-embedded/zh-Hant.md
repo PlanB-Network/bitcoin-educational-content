@@ -17,7 +17,7 @@ ZEUS 最初是用於遠端管理閃電節點的行動應用程式，可讓您控
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *提醒一下，Lightning 是一個與 Bitcoin 並行運作的網路，使比特幣的交換無需有系統地進行 On-Chain 交易。其結果是近乎瞬間的交易，無需等待 10 分鐘來驗證一個區塊。這在支付實體世界中的商家時特別有用。更重要的是，Lightning 提供了 Bitcoin 網路所不具備的* **保密性**。
 
@@ -200,7 +200,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -345,7 +345,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-請注意，與 [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))這樣的 Wallet 不同，對於 Zeus，路由是在本地計算的，而不是委託給第三方（在 Phoenix 的情況下是 ACINQ）。所以只有您自己知道付款的收款人。我們失去了一點效率（完成付款需要一點時間，但在隱私方面我們得到了很多）。
+請注意，與 [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))這樣的 Wallet 不同，對於 Zeus，路由是在本地計算的，而不是委託給第三方（在 Phoenix 的情況下是 ACINQ）。所以只有您自己知道付款的收款人。我們失去了一點效率（完成付款需要一點時間，但在隱私方面我們得到了很多）。
 
 
 
@@ -422,8 +422,8 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-若要瞭解更多關於 Lightning Network 的技術操作，您可以找到 Fanis Michalakis 優秀的免費 Plan ₿ Network 培訓：
+若要瞭解更多關於 Lightning Network 的技術操作，您可以找到 Fanis Michalakis 優秀的免費 Plan ₿ Academy 培訓：
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

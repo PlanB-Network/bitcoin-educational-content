@@ -200,9 +200,9 @@ Ek ayarlara erişmek için ayarlar simgesine tıklayın.
 İşte bu kadar, artık IVPN'in keyfini tam anlamıyla çıkarmak için donanımlısınız. Ayrıca yerel bir parola yöneticisi kullanarak çevrimiçi hesaplarınızın güvenliğini artırmak istiyorsanız, sizi ücretsiz ve açık kaynaklı bir çözüm olan KeePass hakkındaki eğitimimize göz atmaya davet ediyorum:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Hem özellikler hem de fiyatlandırma açısından IVPN'e benzer başka bir VPN sağlayıcısı keşfetmekle ilgileniyorsanız, Mullvad hakkındaki eğitimimize de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

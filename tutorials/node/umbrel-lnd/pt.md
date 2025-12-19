@@ -27,7 +27,7 @@ Para instalar o Umbrel e configurar o nó Bitcoin, recomendamos que siga o nosso
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Certifique-se de que o seu nó Bitcoin está atualizado e a funcionar corretamente, uma vez que o Lightning Network depende dele para todas as transacções off-chain.
 
@@ -57,7 +57,7 @@ Para uma introdução teórica completa ao Lightning Network, recomendamos-lhe q
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Este curso dar-lhe-á uma base completa nos conceitos fundamentais do Lightning Network, antes de passar à prática com o seu nó LND.
 
@@ -613,7 +613,7 @@ Para saber mais sobre a configuração e utilização de torres de vigia, recome
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Outras boas práticas
 
 

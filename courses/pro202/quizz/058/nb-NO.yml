@@ -1,0 +1,8 @@
+question: Når en Bitcoin wallet skanner blokker etter innkommende betalinger, hvorfor foretrekkes nedlasting av hele blokker fremfor å be om enkelttransaksjoner fra nettverksmotparter?
+answer: Nedlasting av hele blokker gir bedre personvern ved at det ikke avsløres hvilke spesifikke transaksjoner eller adresser wallet er interessert i å overvåke
+wrong_answers:
+  - Nedlasting av hele blokker er mer beregningseffektivt fordi det krever færre kryptografiske hash-operasjoner for å verifisere transaksjonens autentisitet
+  - Nedlasting av hele blokker sikrer raskere synkronisering, siden motparter kan sende komprimerte blokkdata i stedet for individuelle transaksjonssvar
+  - Nedlasting av hele blokker gir bedre sikkerhet fordi wallet kan verifisere hele proof-of-work for hver transaksjon
+explanation: |
+  Personvern er den viktigste fordelen med blokkbasert gjenfinning. Når en wallet ber om spesifikke transaksjoner, lekker den sterke signaler om brukeraktivitet og avslører hvilke adresser som tilhører denne wallet-en. Nedlasting av hele blokker maskerer wallets faktiske interesser blant alle blokktransaksjonene. De gale svarene fokuserer på effektivitet, hastighet eller sikkerhetsfordeler som ikke er den primære motivasjonen - individuelle transaksjonsforespørsler kan i teorien være like sikre eller effektive, men de kompromitterer personvernet ved å avsløre wallet-ens overvåkningsmønstre til andre i nettverket.

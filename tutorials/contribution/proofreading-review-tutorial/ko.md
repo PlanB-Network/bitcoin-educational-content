@@ -49,7 +49,7 @@ Plan ₿ Network은 기본적으로 다국어를 지원하며, 이는 전 세계
 하지만 Git과 GitHub에 익숙하지 않아 더 자세히 알고 싶다면 이러한 도구에 대한 소개글을 참조하세요:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. 계정 만들기
 
@@ -66,7 +66,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 텔레그램에서 [PBN 콘텐츠 빌더 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 가입하세요.
+- 텔레그램에서 [Plan ₿ Academy 콘텐츠 빌더 그룹](https://t.me/PlanBNetwork_ContentBuilder)에 가입하세요.
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -117,7 +117,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/06.webp)
 
 
-참고. 코드 창에서 검토하는 것이 좋으며, 원본 콘텐츠는 별도의 창에 표시되는 것이 좋습니다. 예를 들어 Plan ₿ Network 웹사이트 또는 브라우저 탭의 GitHub 미리 보기에서 텍스트를 볼 수 있습니다. 코드 보기에서 오류를 찾아 수정하려면 `ctrl + F`를 사용하여 이동하면서 수정하세요.
+참고. 코드 창에서 검토하는 것이 좋으며, 원본 콘텐츠는 별도의 창에 표시되는 것이 좋습니다. 예를 들어 Plan ₿ Academy 웹사이트 또는 브라우저 탭의 GitHub 미리 보기에서 텍스트를 볼 수 있습니다. 코드 보기에서 오류를 찾아 수정하려면 `ctrl + F`를 사용하여 이동하면서 수정하세요.
 
 
 ## 4. 변경 사항 커밋
@@ -158,7 +158,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 - 검토를 완료하지 않았고 나중에 작업을 계속하려면 간단히 종료하면 됩니다.
 - 변경 사항을 커밋하면 GitHub Fork에 저장됩니다.
-- 작업을 재개하려면 GitHub 프로필을 통해 Plan ₿ Network 콘텐츠 리포지토리의 Fork로 이동하세요.
+- 작업을 재개하려면 GitHub 프로필을 통해 Plan ₿ Academy 콘텐츠 리포지토리의 Fork로 이동하세요.
 
 
 ![REVIEW](assets/fr/14.webp)
@@ -208,7 +208,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- 참여해주셔서 대단히 감사합니다! 승인 후 Plan ₿ Network 팀원이 리워드를 보내드리기 위해 연락드릴 것입니다. \**지급은 Lightning Network를 통해서만 이루어집니다.
+- 참여해주셔서 대단히 감사합니다! 승인 후 Plan ₿ Academy 팀원이 리워드를 보내드리기 위해 연락드릴 것입니다. \**지급은 Lightning Network를 통해서만 이루어집니다.
 - 다시 시작하려면 2단계로 돌아가서 텔레그램 그룹에서 새 메시지를 보내어 다른 콘텐츠에 계속 기여하세요. 새 작업 브랜치를 만들기 전에 Fork을 동기화해야 합니다. 이렇게 하려면, Fork의 홈페이지로 이동하여 'dev'라는 메인 브랜치를 선택한 후 (참조: \**A\**), "Fork 동기화" 버튼을 클릭합니다 (참조: \**B\**). Fork에 업데이트가 가능한 경우 "업데이트 브랜치" 버튼이 나타납니다. 이 버튼을 클릭하여 업데이트를 수행하세요.
 
 

@@ -82,7 +82,7 @@ description: Comment utiliser son hardware wallet avec Blockstream App sur ordin
 
 ![image](assets/fr/06.webp)
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 #### 3.2.4. Vérification SPV
 
@@ -116,11 +116,11 @@ https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 - **Important** : La seed phrase est votre seul moyen de récupérer vos fonds en cas de perte ou de dysfonctionnement de l’appareil. Toute personne y ayant accès peut voler vos bitcoins.
 - **Ressources** pour la sauvegarde et la vérification de la seed phrase :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 #### 4.1.3. Configuration pour ce tutoriel :
 
@@ -238,15 +238,15 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - Utilisation du réseau Liquid :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 - Importer et suivre un portefeuille en "Watch-Only" :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 - Utilisation de Blockstream App sur mobile (hot wallet) :
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
 ### A2. Explication de Replace-by-Fee (RBF)
 
@@ -254,7 +254,7 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **Limites** :
     - RBF n’est pas disponible pour les transactions Liquid ou Lightning.
     - La transaction initiale doit être marquée comme RBF-compatible, ce que Blockstream App fait automatiquement.
-- Pour plus d'informations, consultez [notre glossaire](https://planb.network/resources/glossary/rbf-replacebyfee).
+- Pour plus d'informations, consultez [notre glossaire](https://planb.academy/resources/glossary/rbf-replacebyfee).
 
 ### A3. Bonnes pratiques
 
@@ -263,9 +263,9 @@ https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
     - Ne la stockez jamais numériquement (cloud, email, capture d’écran).
     - Tutoriel : Sauvegarder sa phrase mnémonique :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - **Protégez votre confidentialité** :
     
@@ -298,18 +298,18 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - **Sécuriser sa phrase de récupération :**
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - **Liquid Network** :
 
-[Glossaire](https://planb.network/fr/resources/glossary/liquid-network)
+[Glossaire](https://planb.academy/fr/resources/glossary/liquid-network)
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 - **Lightning Network** :
 
-[Glossaire](https://planb.network/fr/resources/glossary/lightning-network)
+[Glossaire](https://planb.academy/fr/resources/glossary/lightning-network)
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

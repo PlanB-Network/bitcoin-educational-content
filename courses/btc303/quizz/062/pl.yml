@@ -1,0 +1,9 @@
+question: Zgodnie z definicją open source, jaki jest wymagany związek między utworami pochodnymi i ich warunkami licencyjnymi w porównaniu z oryginalnym oprogramowaniem?
+answer: Dzieła pochodne muszą być rozpowszechniane na tych samych warunkach, co licencja oryginalnego oprogramowania
+wrong_answers:
+  - Dzieła pochodne muszą być rozpowszechniane na bardziej restrykcyjnych warunkach licencyjnych niż oryginalne oprogramowanie
+  - Utwory pochodne muszą być wydawane na zupełnie innej licencji, która jest niezgodna z oryginałem
+  - Utwory pochodne mogą być rozpowszechniane wyłącznie na podstawie licencji własnościowych, które wymagają uiszczania opłat licencyjnych
+explanation: |
+  Definicja open source wyraźnie stwierdza, że "licencja musi zezwalać na modyfikacje i prace pochodne oraz musi zezwalać na ich dystrybucję na tych samych warunkach, co licencja oryginalnego oprogramowania" Gwarantuje to, że prace pochodne zachowują te same swobody, co oryginał, uniemożliwiając komuś pobranie kodu open source i uczynienie go zastrzeżonym. Pozostałe opcje naruszają tę fundamentalną zasadę, ograniczając wolność lub zmieniając kompatybilność licencji.
+reviewed: false

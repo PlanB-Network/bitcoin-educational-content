@@ -49,11 +49,11 @@ description: Set up Blockstream App on mobile and manage onchain transactions
 
 
 
-- **Blockstream App** is a mobile (iOS, Android) and desktop application for managing Bitcoin portfolios and assets on the Liquid network. Acquired by [Blockstream](https://blockstream.com/) in 2016, it was previously named *Green Address* and then *Blockstream Green*.
+- **Blockstream App** is a mobile (iOS, Android) and desktop application for managing Bitcoin wallets and assets on the Liquid network. Acquired by [Blockstream](https://blockstream.com/) in 2016, it was previously named *Green Address* and then *Blockstream Green*.
 - **Key features**:
 - **Onchain** transactions on Blockchain Bitcoin.
     - Network transactions **Liquid** (Sidechain for fast, confidential exchanges).
-- **Watch-only** portfolios for monitoring funds without access to keys.
+- **Watch-only** wallets for monitoring funds without access to keys.
     - Privacy options: connection via **Tor**, connection to a **personal node** via Electrum, or **SPV** verification to reduce dependency on third-party nodes.
     - Functions **Replace-by-fee (RBF)** to speed up unconfirmed transactions.
 - **Compatibility**: Integrates hardware wallets such as **Blockstream Jade**.
@@ -80,14 +80,14 @@ description: Set up Blockstream App on mobile and manage onchain transactions
 
 
 
-- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported portfolios will appear here later.
+- **Home screen**: When first opened, the application displays a screen without a configured wallet. Created or imported wallets will appear here later.
 
 
 ![image](assets/fr/02.webp)
 
 
 
-- **Customize settings**: Click on "Application settings", adjust the options below, click on "Save", restart the application and create your portfolio.
+- **Customize settings**: Click on "Application settings", adjust the options below, click on "Save", restart the application and create your wallet.
 
 
 ![image](assets/fr/03.webp)
@@ -130,14 +130,14 @@ description: Set up Blockstream App on mobile and manage onchain transactions
 
 
 
-## 4. Creating a Bitcoin onchain portfolio
+## 4. Creating a Bitcoin onchain wallet
 
 
 ### 4.1. Start creation
 
 
 
-- **Caution**: Set up your portfolio in a private environment, without cameras or observers.
+- **Caution**: Set up your wallet in a private environment, without cameras or observers.
 - From the home screen, click on "Get Started" :
 
 
@@ -160,8 +160,8 @@ description: Set up Blockstream App on mobile and manage onchain transactions
 
 
 - (1) **"Setup Mobile Wallet"** : Create a new hot wallet (Hot Wallet).
-- (2) **"Restore from Backup "**: Import an existing portfolio using a mnemonic phrase (12 or 24 words). Caution: Do not import a Cold Wallet phrase, as it will be exposed on a connected device, invalidating its security.
-- (3) **"Watch-Only "**: Import an existing read-only portfolio, to view the balance (e.g. of your Cold Wallet) without exposing the mnemonic phrase. See the Watch Only tutorial in the appendix.
+- (2) **"Restore from Backup "**: Import an existing wallet using a mnemonic phrase (12 or 24 words). Caution: Do not import a Cold Wallet phrase, as it will be exposed on a connected device, invalidating its security.
+- (3) **"Watch-Only "**: Import an existing read-only wallet, to view the balance (e.g. of your Cold Wallet) without exposing the mnemonic phrase. See the Watch Only tutorial in the appendix.
 
 
 **In this tutorial**: Click on **"Setup Mobile Wallet"** to create a Hot Wallet.
@@ -172,7 +172,7 @@ Your Wallet is automatically created and the Wallet home page, here called "My W
 ![image](assets/fr/07.webp)
 
 
-**Important**: Blockstream App has simplified the creation of a Wallet by not automatically displaying the 12-word seed phrase. *Even though the portfolio is now created in one click, you risk losing access to your funds if you don't save your seed phrase*.
+**Important**: Blockstream App has simplified the creation of a Wallet by not automatically displaying the 12-word seed phrase. *Even though the wallet is now created in one click, you risk losing access to your funds if you don't save your seed phrase*.
 
 
 ### 4.2. Save seed sentence
@@ -199,9 +199,9 @@ The seed 12-word phrase will be displayed for you to save.
 **! This point is critical**. For more information on backup :
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 ### 4.3. Confirm seed sentence
 
@@ -213,7 +213,7 @@ To do this, we'll write down a reference, delete the Wallet, restore it with the
 
 
 
-- On the Wallet home screen, click on the "Settings" tab, then on "Wallet Details", and copy the zPub ([extended public key](https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
+- On the Wallet home screen, click on the "Settings" tab, then on "Wallet Details", and copy the zPub ([extended public key](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f/8dcffce1-31bd-5e0b-965b-735f5f9e4602):
 
 
 ![image](assets/fr/09.webp)
@@ -230,7 +230,7 @@ Note: a zpub address can be imported into your Blockstream application for the "
 - To learn more about how to perform a recovery test, here is a dedicated tutorial :
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ### 4.5. Securing access to the application
 
@@ -257,7 +257,7 @@ Lock access to the application with a strong PIN code:
 
 
 
-- From the portfolio home screen, click on '"**Transact**" then **"Receive "**.
+- From the wallet home screen, click on '"**Transact**" then **"Receive "**.
 
 
 ![image](assets/fr/10.webp)
@@ -288,7 +288,7 @@ Lock access to the application with a strong PIN code:
 
 
 
-- From the portfolio home screen, click on "**Transact**" then **"Send "** :
+- From the wallet home screen, click on "**Transact**" then **"Send "** :
 
 
 ![image](assets/fr/12.webp)
@@ -346,17 +346,17 @@ The minimum amount (dush limit) on 03/08/2025 is 546 Sats.
 Using the Liquid network
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Importing and tracking a Wallet in "Watch Only" mode
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Desktop version
 
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
 
 ### A2. Explanation of Replace-by-fee (RBF)
@@ -375,7 +375,7 @@ https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 **More info:**
 
 
-- [Glossary](https://planb.network/fr/resources/glossary/rbf-replacebyfee)
+- [Glossary](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 
@@ -390,9 +390,9 @@ To use **Blockstream App** securely and efficiently, follow these recommendation
  - Tutorial: Saving your mnemonic phrase
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
@@ -449,26 +449,26 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Learning and tutorials:** **[Plan ₿ Network](https://planb.network/)**
+- **Learning and tutorials:** **[Plan ₿ Academy](https://planb.academy/)**
  - Securing your recovery phrase
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
 - **Liquid Network** :
-- [Glossary](https://planb.network/fr/resources/glossary/liquid-network)
+- [Glossary](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
 - **Lightning Network**:
-- [Glossary](https://planb.network/fr/resources/glossary/lightning-network)
+- [Glossary](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -90,7 +90,7 @@ Je kunt het op papier schrijven of, voor extra veiligheid, op roestvrij staal gr
 Voor meer informatie over de juiste manier om je Mnemonic zinsdeel op te slaan en te beheren, raad ik je aan deze andere tutorial te volgen, vooral als je een beginner bent:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Klik op het bericht bovenaan de Interface "*Sla je Wallet op...*".
 
@@ -263,9 +263,9 @@ Gefeliciteerd, je weet nu hoe je Phoenix moet configureren en gebruiken. Als je 
 Als je nog een stapje verder wilt gaan, bekijk dan deze tutorial over Alby Hub, een andere innovatieve en gebruiksvriendelijke oplossing voor het lanceren van je eigen Lightning-node:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-En om meer te weten te komen over de technische werking van de Lightning Network, kun je Fanis Michalakis' uitstekende gratis training over Plan ₿ Network vinden:
+En om meer te weten te komen over de technische werking van de Lightning Network, kun je Fanis Michalakis' uitstekende gratis training over Plan ₿ Academy vinden:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

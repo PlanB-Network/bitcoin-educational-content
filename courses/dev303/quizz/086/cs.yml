@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel deklarace jmenného prostoru v souboru UniFFI UDL?
+answer: Poskytnutí kontejneru pro funkce, které lze volat přímo bez nutnosti instanciace objektu
+wrong_answers:
+  - Definování struktury balíčků a importních závislostí pro generované jazykové vazby
+  - Zadání cílových programovacích jazyků, které budou využívat knihovnu Rust prostřednictvím UniFFI
+  - Zavedení strategie správy paměti pro operace marshalingu dat napříč jazyky
+explanation: |
+  Prostor jmen v UDL UniFFI slouží jako kontejner pro samostatné funkce, které lze volat přímo bez nutnosti vytvářet objekty. Tyto funkce jmenného prostoru obvykle zpracovávají jednoduché operace, které přijímají hodnoty jako parametry a vracejí výsledky. Ostatní možnosti jsou nesprávné, protože: struktura balíčků a importy jsou zpracovávány automaticky procesem generování vazeb, cílové jazyky jsou specifikovány během procesu sestavování, nikoli v souboru UDL, a správa paměti je zpracovávána transparentně běhovou vrstvou UniFFI, místo aby byla explicitně deklarována v prostorech jmen.

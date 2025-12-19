@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada inferensi tipe penutupan setelah penutupan dipanggil dengan tipe tertentu?
+answer: Tipe-tipe tersebut menjadi tetap untuk contoh penutupan itu
+wrong_answers:
+  - Penutupan masih dapat menerima jenis yang berbeda dalam panggilan di masa mendatang
+  - Kompiler mengatur ulang tipe untuk pemanggilan fungsi berikutnya
+  - Jenis-jenisnya tetap fleksibel dan dapat berubah berdasarkan konteks
+explanation: |
+  Dalam Rust, closure mendapatkan keuntungan dari inferensi tipe otomatis, tetapi fleksibilitas ini memiliki batasan. Setelah sebuah closure dipanggil dengan tipe parameter tertentu, kompiler akan mengunci tipe-tipe tersebut untuk contoh closure tertentu. Ini berarti closure yang sama tidak dapat dipanggil dengan tipe yang berbeda - closure tersebut akan dimonomorfikasi dengan tipe yang pertama kali ditemui. Hal ini berbeda dengan fungsi-fungsi umum yang dapat dipanggil dengan tipe-tipe yang berbeda karena setiap pemanggilan akan membuat sebuah instance yang terpisah. Pilihan lain tidak benar karena mereka menyarankan fleksibilitas yang berkelanjutan yang tidak ada setelah tipe penutupan ditentukan.

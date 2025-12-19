@@ -1,0 +1,9 @@
+question: Kada je pruned čvor problem za Wallet?
+answer: Kada obnavljate stari Wallet
+wrong_answers:
+  - Kada kreirate novi prijem Address
+  - Kada šaljete nedavnu transakciju
+  - Kada birate iznos naknade
+explanation: |
+  pruned čvor ne zadržava stare blokove, što može sprečiti skeniranje prošlih transakcija tokom restauracije.
+reviewed: true

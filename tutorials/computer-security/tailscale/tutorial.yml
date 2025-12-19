@@ -22,73 +22,73 @@ proofreading:
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 3.38
+    reward: 3.36
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.98
+    reward: 8.92
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.76
+    reward: 6.71
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.76
+    reward: 6.71
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.76
+    reward: 6.71
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.98
+    reward: 8.92
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.98
+    reward: 8.92
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 15.65
+    reward: 15.53
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 5.6
+    reward: 5.56
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.76
+    reward: 6.71
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.43
+    reward: 13.33
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.98
+    reward: 8.92
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.98
+    reward: 8.92
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.76
+    reward: 6.71
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -100,10 +100,11 @@ proofreading:
     contributor_names:
     reward: 8.92
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 8.92
+      - Tinnah924
+    reward: 4.46
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -123,7 +124,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.98
+    reward: 8.92
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -133,7 +134,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.98
+    reward: 8.92
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -143,9 +144,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.92
+    reward: 11.12
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 13.33
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.92

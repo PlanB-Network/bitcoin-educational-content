@@ -1,0 +1,9 @@
+question: Mikä on ensisijainen seuraus siitä, että Bitcoin Core -julkaisupyynnöissä kestää hyvin kauan ennen kuin ylläpitäjät yhdistävät ne arkistoon?
+answer: Se osoittaa, että ehdotettujen koodimuutosten arviointiin ei ole käytettävissä riittävästi tarkastajia
+wrong_answers:
+  - "Se osoittaa, että ylläpitäjät hidastavat tahallaan Bitcoin:n kehitysprosessia"
+  - "Se osoittaa, että ehdotetut muutokset ovat pohjimmiltaan ristiriidassa Bitcoin:n konsensussääntöjen kanssa."
+  - "Se paljastaa, että GitHub-alustalla on teknisiä rajoituksia Bitcoin:n koodipohjan käsittelyyn"
+explanation: |
+  Luvun sisällön mukaan vetopyyntöjen yhdistäminen kestää kauan, mikä johtuu ensisijaisesti tarkistuksen puutteesta, joka johtuu pikemminkin tarkistajien riittämättömyydestä kuin ylläpitäjän esteistä tai teknisistä ongelmista. Tarkastusprosessi on ratkaisevan tärkeä Bitcoin:n turvallisuuden kannalta, sillä se varmistaa koodin laadun ja estää haitalliset muutokset. Tämä pullonkaula johtuu siitä, että monimutkaisen salauskoodin tarkistaminen vaatii asiantuntemusta ja aikaa, minkä vuoksi pätevät tarkistajat ovat kehitysprosessin niukka resurssi.
+reviewed: false

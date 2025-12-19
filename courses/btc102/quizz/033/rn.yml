@@ -1,9 +1,9 @@
-question: None abahinguzi ba Lightning Network ni bande?
-answer: Tadeyo Driya na Yozefu Poon
+question: None ni bande bazanye Lightning Network?
+answer: Thaddeus Dryja et Joseph Poon
 wrong_answers:
-  - Andereya Antonopoulo na Adamu Back
-  - Piyeri Wuille na Gregoire Makisuweli
-  - Satoshi Nakamoto na Hal Finney
+  - Andreas Antonopoulos et Adam Back
+  - Pieter Wuille et Gregory Maxwell
+  - Satoshi Nakamoto et Hal Finney
 explanation: |
   Thaddeus Dryja na Joseph Poon ni bo bavumbuye Lightning Network mu mwaka w’2016 kugira ngo Bitcoin ishobore gukoreshwa neza.
 reviewed: false

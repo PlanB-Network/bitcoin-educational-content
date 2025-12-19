@@ -11,7 +11,7 @@ description: Kompletny przewodnik po handlu LNP2PBot i P2P Bitcoin
 Pozbawione KYC giełdy peer-to-peer (P2P) mają zasadnicze znaczenie dla zachowania poufności i autonomii finansowej użytkowników. Umożliwiają one bezpośrednie transakcje między osobami fizycznymi bez konieczności weryfikacji tożsamości, co ma kluczowe znaczenie dla tych, którzy cenią sobie prywatność. Aby uzyskać bardziej dogłębne zrozumienie koncepcji teoretycznych, zapoznaj się z kursem BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Kupowanie i sprzedawanie Bitcoin peer-to-peer (P2P) jest jedną z najbardziej prywatnych metod nabywania lub zbywania bitcoinów. LNP2PBot to bot Telegram o otwartym kodzie źródłowym, który ułatwia wymianę P2P na Lightning Network, umożliwiając szybkie, tanie i wolne od KYC transakcje.
 
@@ -71,7 +71,7 @@ Zacznij od zainstalowania kompatybilnego Lightning Wallet. Oto nasze szczegóło
 Poniżej znajduje się link do samouczka dla tego Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 
 - [Phoenix](https://phoenix.acinq.co) :
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 Poniżej znajduje się link do samouczka dla tego Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
 - [Blixt](https://blixtwallet.github.io) :
@@ -99,7 +99,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 Poniżej znajduje się link do samouczka dla Wallet:
 
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Ważne uwagi dotyczące innych portfeli**
 

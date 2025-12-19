@@ -42,7 +42,7 @@ Cryptomator, özellikle başka bir makalede sunulan Picocrypt gibi farklı gör�
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Cryptomator uygulaması **Windows** (exe / msi), **Linux**, **macOS,** ve ayrıca **Android** ve **iOS** üzerinde mevcuttur. Bu arada, ödemeniz gereken Android uygulaması hariç (14.99 Euro) tüm uygulamalar ücretsizdir.
 

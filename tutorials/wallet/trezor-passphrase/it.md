@@ -18,7 +18,7 @@ Prima di iniziare questo tutorial, se non conoscete il concetto di passphrase, i
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Il passphrase su Trezor viene gestito nel modo classico se si è optato per lo standard BIP39 durante la configurazione (cosa che consiglio se non si ha bisogno di *Multi-share Backup*). La particolarità di Trezor è che è possibile inserire il passphrase direttamente sul Hardware Wallet, oppure tramite la tastiera del computer utilizzando il software Trezor Suite. Questa seconda opzione è notevolmente meno sicura, poiché il computer ha una superficie di attacco immensamente più ampia rispetto al Hardware Wallet. Tuttavia, la digitazione di un passphrase complesso è un'operazione che può essere eseguita in modo semplice e veloce. Tuttavia, la digitazione di un passphrase complesso può essere più veloce su una tastiera convenzionale che sul Hardware Wallet, il che potrebbe incoraggiare l'uso di passphrase forti. Quindi è sempre meglio usare un passphrase, anche se deve essere digitato, piuttosto che non usarlo affatto. È importante, tuttavia, rimanere consapevoli dell'aumento del rischio di attacchi numerici che ciò comporta.
 
@@ -36,15 +36,15 @@ In Trezor Suite, sono disponibili due modi diversi per gestire la domanda di pas
 
 
 
-Prima di iniziare questa esercitazione, assicuratevi di aver già inizializzato il vostro Trezor e di aver generato la frase Mnemonic. Se non l'avete fatto e il vostro Trezor è nuovo, seguite l'esercitazione specifica per il modello Plan ₿ Network. Se non l'avete fatto e il vostro Trezor è nuovo, seguite l'esercitazione specifica per il modello disponibile sul sito Plan ₿ Network. Una volta completata questa fase, è possibile tornare a questa guida.
+Prima di iniziare questa esercitazione, assicuratevi di aver già inizializzato il vostro Trezor e di aver generato la frase Mnemonic. Se non l'avete fatto e il vostro Trezor è nuovo, seguite l'esercitazione specifica per il modello Plan ₿ Academy. Se non l'avete fatto e il vostro Trezor è nuovo, seguite l'esercitazione specifica per il modello disponibile sul sito Plan ₿ Academy. Una volta completata questa fase, è possibile tornare a questa guida.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Aggiunta di un passphrase a un Safe 3 o Safe 5
@@ -79,7 +79,7 @@ Per consigli più specifici sulla scelta del passphrase, vi invito ancora una vo
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Se si desidera inserire il proprio passphrase tramite la tastiera del computer, inserirlo nell'apposito campo, quindi fare clic su "*Accesso passphrase Wallet*".
 
@@ -177,7 +177,7 @@ Per consigli più specifici sulla scelta del passphrase, vi invito ancora una vo
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Immettere il proprio passphrase nell'apposito campo, quindi fare clic sul pulsante "*Accesso passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Congratulazioni, ora siete aggiornati sull'uso del passphrase BIP39 sui portafog
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Se avete trovato utile questa esercitazione, vi sarei grato se lasciaste un pollice Green qui sotto. Sentitevi liberi di condividere questo articolo sui vostri social network. Grazie mille!

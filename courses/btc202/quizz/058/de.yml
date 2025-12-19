@@ -1,0 +1,9 @@
+question: Was ist die größte Einschränkung der Tor-Kommunikation mit deinem Knoten?
+answer: Langsamkeit
+wrong_answers:
+  - Fehlende Verschlüsselung
+  - Spam
+  - Die Unmöglichkeit der Verwendung von RPC
+explanation: |
+  Tor-Verbindungen sind sicher, aber langsamer als Alternativen wie VPN.
+reviewed: true

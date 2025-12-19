@@ -6,4 +6,4 @@ wrong_answers:
   - Kubernetes clusters
 explanation: |
   Each application in Umbrel runs in a Docker container, enabling independent management and isolation.
-reviewed: false
+reviewed: true

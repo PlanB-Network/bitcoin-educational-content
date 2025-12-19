@@ -51,7 +51,7 @@ Wat betreft [prijzen](https://proton.me/pricing), de gratis versie biedt tot 5 G
 Als je nog geen Proton-account hebt, moet je er een aanmaken. Ik verwijs je naar onze Proton Mail-handleiding waarin we in detail uitleggen hoe je een gratis Proton-account aanmaakt en instelt:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![PROTON DRIVE](assets/notext/04.webp)
 
@@ -75,7 +75,7 @@ Je bent nu op je Proton Drive.
 Om bestanden toe te voegen aan je Proton Drive, wanneer je uitsluitend de webversie gebruikt (we zullen het gebruik van de lokale versie later bespreken), hoef je alleen maar je documenten rechtstreeks naar de Interface te slepen. pROTON DRIVE](assets/notext/08.webp) U vindt uw document dan op de homepage. pROTON DRIVE](assets/notext/09.webp) Om een nieuw item toe te voegen, klik je op de knop "*New*" linksboven in het scherm. pROTON DRIVE](assets/notext/10.webp) De functie "Bestand uploaden*" opent je lokale bestandsverkenner, zodat je nieuwe documenten kunt selecteren en importeren naar Proton Drive, net zoals je zou doen door slepen en neerzetten. pROTON DRIVE](assets/notext/11.webp) Met "map uploaden*" kunt u een volledige map importeren. pROTON DRIVE](assets/notext/12.webp) Met "*Nieuwe map*" kunt u een map maken om uw documenten beter te organiseren op Proton Drive. pROTON DRIVE](assets/notext/13.webp) Klik op deze optie en wijs een naam toe aan uw map. pROTON DRIVE](assets/notext/14.webp) Vervolgens vindt u deze direct op de startpagina van Proton Drive. pROTON DRIVE](assets/notext/15.webp) Ten slotte kunt u met "*Nieuw document*" direct in Proton Drive een nieuw tekstdocument maken. pROTON DRIVE](assets/notext/16.webp) Door erop te klikken wordt een nieuw leeg document geopend. pROTON DRIVE](assets/notext/17.webp) Je kunt erop schrijven en het bewerken. pROTON DRIVE](assets/notext/18.webp) Als je rechtsboven op de knop "*Delen*" klikt, kun je het document delen. pROTON DRIVE](assets/notext/19.webp) U hoeft alleen maar het e-mailadres in te voeren van de medewerker die u toegang wilt geven tot het document, hetzij alleen-lezen modus of met bewerkingsrechten. pROTON DRIVE](assets/notext/20.webp) Als u teruggaat naar uw Proton Drive, kunt u zien dat het document met succes is opgeslagen. in het tabblad "*Gedeeld*" vindt u de documenten die u met anderen hebt gedeeld. pROTON DRIVE](assets/notext/22.webp) En in het tabblad "*Gedeeld met mij*" kunt u de documenten zien die anderen met u hebben gedeeld. in het tabblad "Prullenbak" ten slotte, kunt u uw onlangs verwijderde documenten vinden. de meeste instellingen voor uw Proton Drive zijn geïntegreerd in uw Proton-account. Voor gedetailleerde instructies over het instellen van uw account, nodig ik u uit om deze handleiding te raadplegen:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Hoe installeer ik de Proton Drive-software?
 
@@ -145,4 +145,4 @@ Gefeliciteerd, je hebt nu een zeer robuuste 3-2-1 back-upstrategie waarmee je he
 Als u meer wilt weten over het beveiligen van uw online aanwezigheid en het voorkomen van hacken, raad ik u ook aan onze uitgebreide handleiding over de Bitwarden wachtwoordmanager te raadplegen:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

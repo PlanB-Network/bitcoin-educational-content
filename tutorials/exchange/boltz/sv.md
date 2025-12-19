@@ -54,7 +54,7 @@ På så sätt behåller du permanent självförvaring av dina bitcoins, och Exch
 
 
 
-En atomär Exchange fungerar med smarta kontrakt [HTLC](https://planb.network/resources/glossary/htlc) (*Hashed Timelock Contract*). I denna typ av Contract är beloppet "låst" i en tvåvägskanal och en tidsbegränsning införs, så att om transaktionen inte slutförs inom en viss tid återgår saldot till insättaren. Detta är den mekanism som används av Boltz-plattformen.
+En atomär Exchange fungerar med smarta kontrakt [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). I denna typ av Contract är beloppet "låst" i en tvåvägskanal och en tidsbegränsning införs, så att om transaktionen inte slutförs inom en viss tid återgår saldot till insättaren. Detta är den mekanism som används av Boltz-plattformen.
 
 
 
@@ -116,9 +116,9 @@ När du har slutfört dina grundläggande konfigurationer anger du beloppet för
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ Klicka sedan på knappen **Create atomic Exchange** och fortsätt med betalninge
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 När din betalning har gjorts och bekräftats kommer du automatiskt att få motsvarande belopp på din Lightning Wallet.
 
@@ -188,6 +188,6 @@ Boltz erbjuder dig en hög sekretessnivå tack vare dess åtkomst via en `.onion
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Vid det här laget är du bekant med Boltz, en unik Exchange-plattform som möjliggör interoperabilitet mellan de olika lagren i Bitcoin-ekosystemet.

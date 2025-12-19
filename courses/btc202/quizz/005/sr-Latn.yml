@@ -1,0 +1,9 @@
+question: Koji softver kombinuje funkcije Full node i Wallet?
+answer: Bitcoin core
+wrong_answers:
+  - Sparrow wallet
+  - Ašigaru
+  - Wallet od Satoshi
+explanation: |
+  Bitcoin core deluje i kao Full node i kao Wallet, za razliku od drugih softverskih paketa, koji su samo softver za upravljanje Wallet.
+reviewed: true

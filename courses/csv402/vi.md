@@ -1,13 +1,11 @@
 ---
-name: Giao thức RGB, từ lý thuyết đến thực hành
+name: Lập trình RGB
 goal: Có được các kỹ năng cần thiết để hiểu và sử dụng RGB
-objectives: 
-
-  - Hiểu các khái niệm cơ bản của giao thức RGB
-  - Nắm vững các nguyên tắc xác thực phía khách hàng và cam kết Bitcoin
-  - Tìm hiểu cách tạo, quản lý và chuyển giao hợp đồng RGB
-  - Cách vận hành nút Lightning tương thích RGB
-
+objectives:
+- Hiểu các khái niệm cơ bản của giao thức RGB
+- Nắm vững các nguyên tắc xác thực phía khách hàng và cam kết Bitcoin
+- Tìm hiểu cách tạo, quản lý và chuyển giao hợp đồng RGB
+- Cách vận hành nút Lightning tương thích RGB
 ---
 # Khám phá giao thức RGB
 
@@ -45,16 +43,16 @@ Phần cuối cùng do các diễn giả khác trình bày về các ứng dụn
 ---
 Khóa đào tạo này ban đầu phát triển từ trại huấn luyện phát triển nâng cao kéo dài hai tuần tại Viareggio, Tuscany, do [Fulgur'Ventures](https://fulgur.ventures/) tổ chức. Tuần đầu tiên, tập trung vào Rust và SDK, có thể được tìm thấy trong khóa học khác này:
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 Trong khóa học này, chúng ta sẽ tập trung vào tuần thứ hai của trại huấn luyện, tập trung vào RGB.
 
 **Tuần 1 - LNP402:**
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 **Tuần 2 - Chương trình đào tạo hiện tại CSV402:**
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 Xin chân thành cảm ơn những người tổ chức các khóa học trực tiếp này và 3 giáo viên đã tham gia:
 
@@ -106,7 +104,7 @@ Trong thế giới blockchain và điện toán phân tán, chúng ta có thể 
 
 Trong bối cảnh của Bitcoin, chắc hẳn bạn đã quen thuộc với các nguyên tắc khai thác, phi tập trung và tính cuối cùng của các giao dịch trên blockchain, cũng như cách thức hoạt động của các kênh thanh toán. Với RGB, chúng tôi giới thiệu một mô hình mới có tên là **Xác thực phía máy khách**, không giống như blockchain hay Lightning, bao gồm việc lưu trữ và xác thực cục bộ (phía máy khách) các chuyển đổi trạng thái của hợp đồng thông minh. Điều này cũng khác với các kỹ thuật "DeFi" khác (_rollups_, _plasma_, _ARK_, v.v.), ở chỗ Xác thực phía máy khách dựa vào blockchain để ngăn chặn chi tiêu gấp đôi và có hệ thống đóng dấu thời gian, đồng thời giữ sổ đăng ký các trạng thái và chuyển đổi ngoài chuỗi, chỉ với những người tham gia có liên quan.
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 Sau này, chúng tôi cũng sẽ giới thiệu một thuật ngữ quan trọng: khái niệm "**stash**", ám chỉ tập hợp dữ liệu phía máy khách cần thiết để duy trì trạng thái của hợp đồng, vì dữ liệu này không được sao chép toàn cầu trên toàn mạng. Cuối cùng, chúng ta sẽ xem xét cơ sở lý luận đằng sau RGB, một giao thức tận dụng Xác thực phía máy khách và lý do tại sao nó bổ sung cho các phương pháp tiếp cận hiện có (chuỗi khối và kênh trạng thái).
 
@@ -136,7 +134,7 @@ Các kênh trạng thái (như với Lightning Network) có khả năng mở r�
 
 Mô hình mới này thậm chí còn có khả năng mở rộng và bảo mật hơn, vì chúng ta không chỉ có thể tích hợp các kỹ thuật bằng chứng kiến thức không tiết lộ mà còn không có biểu đồ giao dịch toàn cầu, vì không ai nắm giữ toàn bộ sổ đăng ký. Mặt khác, nó cũng ngụ ý một sự thỏa hiệp nhất định về tính phi tập trung: bên phát hành hợp đồng thông minh có thể có vai trò trung tâm (giống như "bên triển khai hợp đồng" trong Ethereum). Tuy nhiên, không giống như blockchain, với Xác thực phía máy khách, bạn chỉ lưu trữ và xác thực các hợp đồng mà bạn quan tâm, điều này cải thiện khả năng mở rộng bằng cách tránh nhu cầu tải xuống và xác minh tất cả các trạng thái hiện có.
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 #### 2. Định lý CAP (Tính nhất quán, Tính khả dụng, Dung sai phân vùng)
 
@@ -157,13 +155,13 @@ Hệ thống kênh trạng thái có tính khả dụng và khả năng phân v�
 
 Một hệ thống như RGB cung cấp tính nhất quán (mỗi người tham gia xác thực dữ liệu của mình tại địa phương, không có sự mơ hồ) và khả năng phân vùng (bạn lưu trữ dữ liệu của mình một cách tự chủ), nhưng không đảm bảo tính khả dụng toàn cầu (mọi người phải đảm bảo rằng họ có các phần lịch sử có liên quan và một số người tham gia có thể không công bố bất cứ điều gì hoặc ngừng chia sẻ một số thông tin nhất định).
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 #### 3. Bộ ba CIA (Bảo mật, Chính trực, Sẵn sàng)
 
 Bộ ba này nhắc nhở chúng ta rằng tính bảo mật, tính toàn vẹn và tính khả dụng không thể được tối ưu hóa cùng một lúc. Blockchain, Lightning và Xác thực phía máy khách nằm ở những vị trí khác nhau trong sự cân bằng này. Ý tưởng là không có hệ thống đơn lẻ nào có thể cung cấp mọi thứ; cần phải kết hợp một số phương pháp (đóng dấu thời gian của blockchain, phương pháp đồng bộ của Lightning và xác thực cục bộ với RGB) để có được một gói thống nhất cung cấp các đảm bảo tốt trong từng chiều.
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 ### Vai trò của blockchain và khái niệm phân mảnh
 
@@ -184,11 +182,11 @@ Do đó, chúng ta có thể hình dung hệ sinh thái như sau:
 - **Mạng lưới Lightning** cho các giao dịch nhanh chóng, bảo mật, vẫn dựa trên tính bảo mật và thanh toán cuối cùng của chuỗi khối Bitcoin;
 - Xác thực phía máy khách và **RGB** để thêm logic hợp đồng thông minh phức tạp hơn mà không làm lộn xộn blockchain hoặc mất tính bảo mật.
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 Ba yếu tố này tạo thành một tổng thể hình tam giác, thay vì một chồng tuyến tính của "lớp 2", "lớp 3" v.v. Lightning có thể kết nối trực tiếp với Bitcoin hoặc được liên kết với các giao dịch Bitcoin kết hợp dữ liệu RGB. Tương tự như vậy, một ứng dụng "BiFi" (tài chính trên Bitcoin) có thể kết hợp với blockchain, với Lightning và với RGB theo nhu cầu về tính bảo mật, khả năng mở rộng hoặc logic hợp đồng.
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 ### Khái niệm về chuyển đổi trạng thái
 
@@ -196,7 +194,7 @@ Trong bất kỳ hệ thống phân tán nào, mục đích của cơ chế xác
 
 Để hiểu cách thức xác thực này hoạt động trong bối cảnh của **Bitcoin** và nói chung là để nắm bắt triết lý đằng sau Xác thực phía máy khách, trước tiên chúng ta hãy cùng nhìn lại các cơ chế của chuỗi khối Bitcoin, trước khi xem Xác thực phía máy khách khác với các cơ chế đó như thế nào và nó có thể tối ưu hóa những gì.
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 Trong trường hợp của chuỗi khối Bitcoin, việc xác thực giao dịch dựa trên một quy tắc đơn giản:
 
@@ -205,7 +203,7 @@ Trong trường hợp của chuỗi khối Bitcoin, việc xác thực giao dị
 - Họ xác thực các giao dịch này để xác minh sự tiến hóa chính xác của bộ UTXO (tất cả các đầu ra chưa sử dụng);
 - Họ lưu trữ dữ liệu này (dưới dạng khối) để có thể phát lại lịch sử nếu cần.
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 Tuy nhiên, mô hình này có hai nhược điểm lớn:
 
@@ -213,7 +211,7 @@ Tuy nhiên, mô hình này có hai nhược điểm lớn:
 - **Khả năng mở rộng**: vì mỗi nút phải xử lý, xác minh và lưu trữ các giao dịch của mọi người nên có giới hạn rõ ràng về khả năng giao dịch, liên quan cụ thể đến kích thước khối tối đa (trung bình 1 MB trong 10 phút đối với Bitcoin, không bao gồm cookie);
 - **Quyền riêng tư**: mọi thứ đều được phát sóng và lưu trữ công khai (số lượng, địa chỉ đích, v.v.), điều này hạn chế tính bảo mật của các giao dịch.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 Trên thực tế, mô hình này hoạt động như một lớp cơ sở cho Bitcoin (Lớp 1), nhưng có thể không đủ cho những mục đích sử dụng phức tạp hơn, đồng thời yêu cầu thông lượng giao dịch cao và mức độ bảo mật nhất định.
 
@@ -223,7 +221,7 @@ Xác thực phía máy khách dựa trên ý tưởng ngược lại: thay vì y
 - Khi một người nhận được tài sản (hoặc bất kỳ tài sản kỹ thuật số nào khác), họ chỉ cần biết và xác minh chuỗi hoạt động (chuyển đổi trạng thái) dẫn đến tài sản đó và chứng minh tính hợp pháp của nó;
 - Chuỗi hoạt động này, từ ***Genesis*** (vấn đề ban đầu) đến giao dịch gần đây nhất, tạo thành một đồ thị có hướng phi chu trình (DAG) hoặc phân đoạn, tức là một phần của toàn bộ lịch sử.
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 Đồng thời, để phần còn lại của mạng (hay chính xác hơn là lớp cơ sở, chẳng hạn như Bitcoin) có thể khóa ở trạng thái cuối cùng mà không cần xem thông tin chi tiết về dữ liệu này, Xác thực phía máy khách dựa trên khái niệm ***cam kết***.
 
@@ -244,7 +242,7 @@ Nói một cách cụ thể, quá trình chuyển đổi trạng thái RGB diễ
 - Bạn tạo một cam kết mật mã cho quá trình chuyển đổi này và chèn nó vào giao dịch Bitcoin (những cam kết này được gọi là "*mỏ neo*" trong giao thức RGB);
 - Bên đối tác (bên nhận) sẽ truy xuất lịch sử phía khách hàng liên quan đến tài sản này và xác thực tính nhất quán từ đầu đến cuối, từ khi hợp đồng thông minh được hình thành cho đến quá trình chuyển đổi mà bạn truyền tải đến hợp đồng.
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 Xác thực phía máy khách mang lại hai lợi ích chính:
 
@@ -262,13 +260,13 @@ Trong một hệ thống như RGB, nhiều trạng thái chuyển đổi từ c�
 
 Trên thực tế, khi giao dịch Bitcoin này được xác thực, nó sẽ "khóa" vĩnh viễn trạng thái của các hợp đồng cơ bản, vì không thể sửa đổi hàm băm đã được ghi trong chuỗi khối.
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 ### Khái niệm cất giấu
 
 **Stash** là tập hợp dữ liệu phía máy khách mà người tham gia phải giữ lại hoàn toàn để duy trì tính toàn vẹn và lịch sử của hợp đồng thông minh RGB. Không giống như kênh Lightning, nơi một số trạng thái nhất định có thể được tái tạo cục bộ từ thông tin được chia sẻ, stash của hợp đồng RGB không được sao chép ở nơi khác: nếu bạn mất nó, sẽ không ai có thể khôi phục lại cho bạn, vì bạn chịu trách nhiệm về phần lịch sử của mình. Đây là lý do tại sao bạn cần áp dụng một hệ thống có quy trình sao lưu đáng tin cậy trong RGB.
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 ### Con dấu dùng một lần: nguồn gốc và hoạt động
 
@@ -286,11 +284,11 @@ Như chúng ta đã thấy trước đó, việc người gửi tiết lộ lị
 
 Con dấu sử dụng một lần là nguyên mẫu mật mã, được Peter Todd đề xuất vào năm 2016, tương tự như khái niệm con dấu vật lý: một khi con dấu đã được đóng vào thùng chứa, thì không thể mở hoặc sửa đổi nó mà không làm vỡ con dấu đó vĩnh viễn.
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 Cách tiếp cận này, được chuyển sang thế giới kỹ thuật số, giúp chứng minh rằng một chuỗi sự kiện thực sự đã diễn ra và không thể thay đổi nó sau đó nữa. Do đó, Dấu niêm phong dùng một lần vượt ra ngoài logic đơn giản của `băm + dấu thời gian`, bổ sung thêm khái niệm về một dấu niêm phong chỉ có thể đóng **một lần**.
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 Để Con dấu sử dụng một lần có hiệu quả, bạn cần một phương tiện chứng minh xuất bản có khả năng chứng minh sự tồn tại hoặc không tồn tại của một ấn phẩm, và khó (nếu không muốn nói là không thể) làm giả một khi thông tin đã được phổ biến. Một **chuỗi khối** (như Bitcoin) có thể đảm nhiệm vai trò này, cũng như một tờ báo giấy có lưu hành công khai chẳng hạn. Ý tưởng như sau:
 
@@ -326,7 +324,7 @@ Con dấu dùng một lần hoạt động theo ba giai đoạn chính:
 - Alice xác định trước các quy tắc để công bố con dấu (khi nào, ở đâu và bằng cách nào thông điệp sẽ được công bố);
 - Bob chấp nhận hoặc thừa nhận những điều kiện này.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 **Đóng kín :**
 
@@ -334,7 +332,7 @@ Con dấu dùng một lần hoạt động theo ba giai đoạn chính:
 - Khi chạy, Alice đóng dấu bằng cách xuất bản thông báo thực tế (thường ở dạng _cam kết_, ví dụ như hàm băm);
 - Nó cũng cung cấp một **bằng chứng** (bằng chứng mật mã) chứng minh rằng con dấu đã được đóng và không thể hủy ngang.
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 **Xác minh con dấu :**
 
@@ -345,11 +343,11 @@ Con dấu dùng một lần hoạt động theo ba giai đoạn chính:
 Quá trình này có thể được tóm tắt như sau:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -382,7 +380,7 @@ Tính duy nhất này rất quan trọng đối với Xác thực phía máy kh�
 
 Một hợp đồng thông minh RGB có thể cần sử dụng nhiều Dấu niêm phong sử dụng một lần (nhiều UTXO) cùng một lúc. Hơn nữa, một giao dịch Bitcoin đơn lẻ có thể tham chiếu đến nhiều hợp đồng riêng biệt, mỗi hợp đồng niêm phong trạng thái chuyển đổi riêng của nó. Điều này đòi hỏi một cơ chế **đa cam kết** để chứng minh, một cách xác định và duy nhất, rằng không có cam kết nào tồn tại trùng lặp. Đây là nơi khái niệm **mỏ neo** phát huy tác dụng trong RGB: một cấu trúc đặc biệt liên kết một giao dịch Bitcoin và một hoặc nhiều cam kết phía máy khách (chuyển đổi trạng thái), mỗi cam kết có khả năng thuộc về một hợp đồng khác nhau. Chúng ta sẽ xem xét kỹ hơn khái niệm này trong chương tiếp theo.
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 Hai kho lưu trữ GitHub chính của dự án (thuộc tổ chức LNPBP) nhóm các triển khai cơ bản của các khái niệm đã nghiên cứu trong chương đầu tiên:
 
@@ -390,11 +388,11 @@ Hai kho lưu trữ GitHub chính của dự án (thuộc tổ chức LNPBP) nhó
 - **client_side_validation**: Chứa các nguyên hàm Rust để xác thực cục bộ;
 - **single_use_seals**: Triển khai logic để xác định và đóng các niêm phong này một cách an toàn.
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 Lưu ý rằng các khối phần mềm này không phụ thuộc vào Bitcoin; về mặt lý thuyết, chúng có thể được áp dụng cho bất kỳ phương tiện chứng minh xuất bản nào khác (một sổ đăng ký khác, một tạp chí, v.v.). Trên thực tế, RGB dựa vào Bitcoin vì tính mạnh mẽ và sự đồng thuận rộng rãi của nó.
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 ### Câu hỏi từ công chúng
 
@@ -480,11 +478,11 @@ Sơ đồ này được chọn vì tính tương thích của nó với kiến t
 
 Xin nhắc lại, việc xác định _con dấu sử dụng một lần_ không nhất thiết phải yêu cầu công bố giao dịch trên chuỗi. Ví dụ, đối với Alice, chỉ cần có một UTXO chưa sử dụng là đủ. Cô ấy có thể quyết định: "_Điểm ra_ này (đã tồn tại) hiện là con dấu của tôi". Cô ấy ghi chú điều này tại địa phương (_phía máy khách_) và cho đến khi UTXO này được sử dụng, con dấu được coi là mở.
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 Vào ngày muốn đóng dấu (để báo hiệu một sự kiện hoặc neo một thông điệp cụ thể), nó sẽ sử dụng UTXO này trong một giao dịch mới (giao dịch này thường được gọi là "_giao dịch chứng kiến_" (không liên quan đến _segwit_, đó chỉ là thuật ngữ chúng tôi đặt cho nó). Giao dịch mới này sẽ chứa _cam kết_ cho thông điệp.
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 Lưu ý rằng trong ví dụ này:
 
@@ -498,15 +496,15 @@ Do đó, Alice có một UTXO cụ thể, trong đó một trạng thái hoặc 
 
 Alice thông báo cho Bob rằng nếu UTXO này được chi tiêu, một sự kiện cụ thể sẽ được coi là đã xảy ra. Từ bên ngoài, tất cả những gì chúng ta thấy là một giao dịch Bitcoin; nhưng Bob biết rằng khoản chi tiêu này có một ý nghĩa ẩn.
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 Khi Alice sử dụng UTXO này, cô ấy đóng niêm phong trên một thông báo cho biết khóa mới của mình hoặc đơn giản là thu hồi khóa cũ. Theo cách này, bất kỳ ai theo dõi on-chain sẽ thấy UTXO đã được sử dụng, nhưng chỉ những người có bằng chứng đầy đủ mới biết rằng đó chính xác là việc thu hồi khóa PGP.
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 Để Bob hoặc bất kỳ ai khác có liên quan có thể kiểm tra tin nhắn ẩn, Alice phải cung cấp cho anh ta thông tin ngoài chuỗi.
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 Do đó, Alice phải cung cấp cho Bob:
 
@@ -514,7 +512,7 @@ Do đó, Alice phải cung cấp cho Bob:
 - Bản thân thông báo (ví dụ: khóa PGP mới);
 - Bằng chứng mật mã chứng minh rằng tin nhắn có liên quan đến giao dịch (được gọi là _bằng chứng giao dịch bổ sung_ hoặc _mỏ neo_).
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 Bên thứ ba không có thông tin này. Họ chỉ thấy rằng UTXO đã được chi tiêu. Do đó, tính bảo mật được đảm bảo.
 
@@ -523,12 +521,12 @@ Bên thứ ba không có thông tin này. Họ chỉ thấy rằng UTXO đã đ�
 
 - **Giao dịch 1**: Giao dịch này chứa _định nghĩa dấu niêm phong_, tức là _điểm ra_ sẽ đóng vai trò là dấu niêm phong.
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 - **Giao dịch 2**: Chi tiêu _outpoint_ này. Thao tác này đóng dấu và, trong cùng giao dịch, chèn _cam kết_ vào tin nhắn.
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 Do đó, chúng tôi gọi giao dịch thứ hai là "_giao dịch chứng kiến_".
 
@@ -538,7 +536,7 @@ Do đó, chúng tôi gọi giao dịch thứ hai là "_giao dịch chứng kiế
 - Lớp trên cùng (chuỗi khối, công khai): mọi người đều thấy giao dịch và biết rằng *điểm ra* đã được chi tiêu;
 - **Lớp dưới (phía máy khách, riêng tư)**: chỉ Alice (hoặc người có liên quan) biết rằng khoản chi này tương ứng với thông điệp này thông qua bằng chứng mật mã và thông điệp mà cô ấy lưu giữ cục bộ.
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 Nhưng khi đóng dấu, câu hỏi đặt ra là nên chèn _cam kết_ vào đâu
 
@@ -561,11 +559,11 @@ Bất kể phương pháp nào (PkO, TxO2, v.v.), _cam kết_ đều có thể �
 - **Opret** (tin nhắn được đặt trong đầu ra không thể chi tiêu `OP_RETURN`);
 - **Tapret** (hay _Taptweak_), dựa vào taproot để chèn cam kết vào phần tập lệnh của khóa taproot, do đó sửa đổi khóa công khai một cách xác định.
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 Sau đây là thông tin chi tiết về từng phương pháp:
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 ***Điều chỉnh chữ ký (ký hợp đồng) :***
 
@@ -626,7 +624,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 Tùy chọn cuối cùng là sử dụng **Taproot** (được giới thiệu với BIP341) với sơ đồ *Tapret*. *Tapret* là một hình thức cam kết xác định phức tạp hơn, mang lại những cải tiến về dấu chân trên blockchain và tính bảo mật cho các hoạt động hợp đồng. Ý tưởng chính là ẩn cam kết trong phần `Script Path Spend` của [giao dịch taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 Trước khi mô tả cách cam kết được chèn vào giao dịch taproot, chúng ta hãy xem **hình thức chính xác** của cam kết, **bắt buộc** phải tương ứng với chuỗi 64 byte [được xây dựng](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) như sau:
 
@@ -657,7 +655,7 @@ Chúng ta hãy xem xét kỹ hơn từng tình huống trong hai tình huống n
 
 Trong trường hợp đầu tiên này, chúng ta bắt đầu từ khóa đầu ra taproot (*Khóa đầu ra Taproot*) `Q` chỉ chứa khóa công khai nội bộ `P` *(Khóa nội bộ*), không có đường dẫn tập lệnh liên quan (*Đường dẫn tập lệnh*):
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 - `P`: khóa công khai nội bộ cho _Key Path Spend_.
@@ -666,7 +664,7 @@ Trong trường hợp đầu tiên này, chúng ta bắt đầu từ khóa đầ
 
 Để bao gồm cam kết **Tapret**, hãy thêm **Chi tiêu đường dẫn tập lệnh** với **tập lệnh duy nhất**, như sau:
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 - t = tH_TWEAK(P || Script_root)` sau đó trở thành hệ số điều chỉnh mới, bao gồm **Script_root**.
@@ -678,7 +676,7 @@ Bằng chứng về tính bao gồm và tính duy nhất trong cây rễ cái �
 
 Kịch bản thứ hai liên quan đến đầu ra `Q` **taproot** phức tạp hơn, vốn đã chứa một số tập lệnh. Ví dụ, chúng ta có một cây gồm 3 tập lệnh:
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 - tH_LEAF(x)` chỉ định hàm băm được gắn thẻ chuẩn hóa của một tập lệnh lá.
@@ -686,7 +684,7 @@ Kịch bản thứ hai liên quan đến đầu ra `Q` **taproot** phức tạp 
 
 Để thêm cam kết Tapret, chúng ta cần chèn một *tập lệnh không thể chi tiêu* ở cấp độ đầu tiên của cây, dịch chuyển các tập lệnh hiện có xuống một cấp độ. Về mặt trực quan, cây trở thành:
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 - tHABC` biểu thị băm được gắn thẻ của nhóm cấp cao nhất `A, B, C`.
@@ -700,11 +698,11 @@ Theo quy tắc rễ cọc, mỗi nhánh/lá phải được kết hợp theo th�
 
 Ví dụ trực quan cho trường hợp đầu tiên (`tHABC < tHT`):
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 Ví dụ cho trường hợp thứ hai (`tHABC > tHT`):
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 #### Tối ưu hóa với nonce
 
@@ -802,7 +800,7 @@ Cam kết đa giao thức (MPC) được thiết kế để đáp ứng hai nhu 
 
 Cụ thể, mỗi _gói chuyển tiếp_ thuộc về một hợp đồng cụ thể. Tất cả thông tin này được chèn vào **MPC Tree**, gốc của nó (`mpc::Root`) sau đó được băm lại để đưa ra `mpc::Commitment`. Chính hàm băm cuối cùng này được đặt trong giao dịch Bitcoin (_giao dịch chứng kiến_), theo phương pháp xác định đã chọn.
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 #### Băm gốc MPC
 
@@ -820,7 +818,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 - cofactor` (16 bit, theo kiểu Little Endian) là một tham số được sử dụng để thúc đẩy tính duy nhất của các vị trí được chỉ định cho mỗi hợp đồng trong cây;
 - `mpc::Root` là gốc của *Cây MPC*, được tính toán theo quy trình được mô tả trong phần tiếp theo.
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 #### Xây dựng cây MPC
 
@@ -905,7 +903,7 @@ Tiến triển theo cách này, chúng ta có được gốc `mpc::Root`. Sau đ
 
 Kết quả cuối cùng là **mpc::Root**, sau đó là `mpc::Commitment`.
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 #### Kiểm tra trục MPC
 
@@ -913,7 +911,7 @@ Khi một người xác minh muốn đảm bảo rằng một hợp đồng `c_i
 
 Trong ví dụ, trình xác minh `c_2` chỉ cần một hàm băm trung gian (`tH_MPC_LEAF(D)`), hai `tH_MPC_BRANCH(...)`, bằng chứng vị trí `pos(c_2)` và giá trị `cofactor`. Sau đó, nó có thể tái tạo gốc cục bộ, sau đó tính toán lại `mpc::Commitment` và so sánh với giá trị được viết trong giao dịch Bitcoin (trong `Opret` hoặc `Tapret`).
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 Cơ chế này đảm bảo rằng:
 
@@ -982,7 +980,7 @@ Trường thứ ba, **ETP**, phụ thuộc vào loại cam kết được sử d
 
 Bằng chứng bổ sung này rất cần thiết vì, không giống như `Opret`, cam kết `Tapret` được tích hợp vào cấu trúc của tập lệnh taproot, yêu cầu tiết lộ một phần của cây taproot để xác thực chính xác vị trí của *cam kết*.
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 Do đó, **Anchors** bao gồm tất cả thông tin cần thiết để xác thực cam kết Bitcoin trong bối cảnh RGB. Chúng chỉ ra cả giao dịch có liên quan (`Txid`) và bằng chứng định vị hợp đồng (`MPC Proof`), đồng thời quản lý bằng chứng bổ sung (`ETP`) trong trường hợp `Tapret`. Theo cách này, Anchor bảo vệ tính toàn vẹn và tính duy nhất của trạng thái ngoài chuỗi bằng cách đảm bảo rằng cùng một giao dịch không thể được diễn giải lại cho dữ liệu hợp đồng khác.
 
@@ -999,7 +997,7 @@ Trong chương này, chúng tôi sẽ đề cập đến:
 
 Trong thực tế, việc triển khai kỹ thuật được chia thành nhiều _crates_ Rust chuyên dụng (trong _client_side_validation_, _commit-verify_, _bp_core_, v.v.). Các khái niệm cơ bản nằm ở đó:
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 Trong chương tiếp theo, chúng ta sẽ xem xét thành phần hoàn toàn ngoài chuỗi của RGB, cụ thể là logic hợp đồng. Chúng ta sẽ xem cách các hợp đồng RGB, được tổ chức như _máy trạng thái hữu hạn_ được sao chép một phần, đạt được khả năng biểu đạt cao hơn nhiều so với các tập lệnh Bitcoin, trong khi vẫn bảo toàn tính bảo mật của dữ liệu.
 
@@ -1017,7 +1015,7 @@ Mục tiêu của RGB là cung cấp cơ sở hạ tầng để triển khai h�
 
 Tự động hóa này đặt ra câu hỏi về sự phân cấp: làm thế nào chúng ta có thể giải phóng bản thân khỏi một sổ đăng ký tập trung (ví dụ: một nền tảng trung tâm hoặc cơ sở dữ liệu) để quản lý quyền sở hữu và hiệu suất hợp đồng? Ý tưởng ban đầu, được RGB đưa ra, là quay trở lại chế độ sở hữu được gọi là "công cụ mang tên". Theo truyền thống, một số chứng khoán nhất định (trái phiếu, cổ phiếu, v.v.) được phát hành dưới dạng mang tên, cho phép bất kỳ ai sở hữu tài liệu thực tế thực thi các quyền của mình.
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 RGB áp dụng khái niệm này vào thế giới kỹ thuật số: quyền (và nghĩa vụ) được đóng gói trong dữ liệu được xử lý ngoài chuỗi và trạng thái của dữ liệu này được xác thực bởi chính những người tham gia. Điều này cho phép, trước tiên, mức độ bảo mật và độc lập cao hơn nhiều so với các phương pháp tiếp cận khác dựa trên sổ đăng ký công khai.
 
@@ -1029,7 +1027,7 @@ Hợp đồng thông minh trong RGB có thể được coi như một máy trạ
 - **Trạng thái**, tức là tập hợp thông tin phản ánh cấu hình hiện tại của hợp đồng;
 - **Logic kinh doanh** (bộ quy tắc), mô tả trạng thái có thể được sửa đổi trong điều kiện nào và bởi ai.
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 Điều quan trọng là phải hiểu rằng các hợp đồng này không chỉ giới hạn ở việc chuyển giao token đơn giản. Chúng có thể bao gồm nhiều ứng dụng khác nhau: từ tài sản truyền thống (token, cổ phiếu, trái phiếu) đến các cơ chế phức tạp hơn (quyền sử dụng, điều khoản thương mại, v.v.). Không giống như các blockchain khác, nơi mã hợp đồng có thể truy cập và thực thi được bởi tất cả mọi người, cách tiếp cận của RGB phân chia quyền truy cập và kiến thức về hợp đồng cho những người tham gia ("***người tham gia hợp đồng***"). Có một số vai trò:
 
@@ -1067,7 +1065,7 @@ Trong vũ trụ RGB, ***Hoạt động hợp đồng*** là bất kỳ sự ki�
 - Chúng tôi neo sự thay đổi thông qua một _cam kết_ mới trên chuỗi khối, đóng một _con dấu sử dụng một lần_ và tạo một con dấu khác;
 - Người nắm giữ bản quyền liên quan xác thực cục bộ (*phía máy khách*) rằng quá trình chuyển đổi tuân thủ *Sơ đồ* và giao dịch Bitcoin liên quan được đăng ký trên chuỗi.
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 Kết quả cuối cùng là một hợp đồng được cập nhật, giờ đây với một trạng thái khác. Quá trình chuyển đổi này không yêu cầu toàn bộ mạng lưới Bitcoin phải quan tâm đến các chi tiết, vì chỉ có một dấu vân tay mật mã nhỏ (_cam kết_) được ghi lại trong chuỗi khối. Chuỗi Dấu niêm phong sử dụng một lần ngăn chặn bất kỳ hành vi chi tiêu gấp đôi hoặc sử dụng gấp đôi nào của Nhà nước.
 
@@ -1080,7 +1078,7 @@ Kết quả cuối cùng là một hợp đồng được cập nhật, giờ đ
 - Thứ tự thời gian được đảm bảo bằng cách đưa từng quá trình chuyển đổi vào một mỏ neo Bitcoin, có dấu thời gian và không thể thay đổi nhờ sự đồng thuận của Proof-of-Work;
 - Khi không còn hoạt động nào đang diễn ra, sẽ đạt đến **Trạng thái cuối**: trạng thái gần đây nhất và hoàn chỉnh nhất của hợp đồng.
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 Cấu trúc DAG này (thay vì chuỗi tuyến tính đơn giản) phản ánh khả năng các phần khác nhau của hợp đồng có thể phát triển song song, miễn là chúng không mâu thuẫn với nhau. Sau đó, RGB sẽ xử lý để tránh mọi sự không nhất quán bằng cách xác minh *phía máy khách* của từng bên tham gia.
 
@@ -1113,19 +1111,19 @@ Nguyên tắc chung vẫn là Xác thực phía máy khách, trong đó dữ li�
 
 Alice có ***stash RGB*** dữ liệu được xác thực cục bộ (*client-side*). Stash này đề cập đến một trong những UTXO của cô ấy trên Bitcoin. Điều này có nghĩa là _định nghĩa dấu_ trong dữ liệu này trỏ đến một UTXO thuộc về Alice. Ý tưởng là cho phép cô ấy chuyển một số quyền kỹ thuật số được liên kết với một tài sản (ví dụ: mã thông báo RGB) cho Bob.
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 **Bob cũng có UTXO :**
 
 Mặt khác, Bob có ít nhất một UTXO của riêng mình, không có liên kết trực tiếp nào đến UTXO của Alice. Trong trường hợp Bob không có UTXO, vẫn có thể thực hiện chuyển giao cho anh ta bằng chính *giao dịch chứng kiến*: đầu ra của giao dịch này sau đó sẽ bao gồm cam kết (_cam kết_) và ngầm liên kết quyền sở hữu hợp đồng mới với Bob.
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 **Xây dựng cơ sở mới (*Tiểu bang mới*) :**
 
 Bob gửi cho Alice thông tin được mã hóa dưới dạng ***hóa đơn*** (chúng ta sẽ đi sâu hơn vào việc xây dựng hóa đơn trong các chương sau), yêu cầu cô ấy tạo một trạng thái mới tuân thủ các quy tắc của hợp đồng. Trạng thái này sẽ bao gồm một *định nghĩa dấu niêm phong* mới trỏ đến một trong các UTXO của Bob. Theo cách này, Bob được trao quyền sở hữu các tài sản được xác định trong trạng thái mới này, ví dụ như một số lượng token RGB nhất định.
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 **Chuẩn bị mẫu giao dịch:**
 
@@ -1143,13 +1141,13 @@ Trước khi phát sóng giao dịch, Alice gửi cho Bob một ***Consignment**
 
 Nếu Bob hài lòng, anh ta có thể chấp thuận (ví dụ, bằng cách ký *giao dịch ký gửi*). Sau đó, Alice có thể phát giao dịch mẫu đã chuẩn bị. Sau khi xác nhận, giao dịch này sẽ đóng dấu niêm phong trước đó do Alice nắm giữ và chính thức hóa quyền sở hữu của Bob. Bảo mật chống chi tiêu gấp đôi sau đó dựa trên cùng một cơ chế như trong Bitcoin: UTXO được chi tiêu, chứng minh rằng Alice không thể sử dụng lại nó nữa.
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 Trạng thái mới hiện tham chiếu đến UTXO của Bob, trao cho Bob quyền sở hữu trước đó do Alice nắm giữ. Đầu ra Bitcoin nơi dữ liệu RGB được neo trở thành bằng chứng không thể hủy ngang về việc chuyển giao quyền sở hữu.
 
 Một ví dụ về DAG tối thiểu (*Đồ thị không có chu trình có hướng*) bao gồm hai hoạt động hợp đồng (một **Genesis** sau đó là ***Chuyển đổi trạng thái***) có thể minh họa cách trạng thái RGB (lớp *phía máy khách*, màu đỏ) kết nối với chuỗi khối Bitcoin (lớp *Cam kết*, màu cam).
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 Điều này cho thấy Genesis định nghĩa một con dấu (*định nghĩa con dấu*), sau đó *Chuyển đổi trạng thái* đóng con dấu này lại để tạo một con dấu mới trong UTXO khác.
 
@@ -1163,7 +1161,7 @@ Trong bối cảnh này, sau đây là một số lời nhắc nhở về thuậ
 
 **Chuyển đổi trạng thái**, được mô tả trong chương trước, là hình thức chính của hoạt động hợp đồng. Chúng tham chiếu đến một hoặc nhiều trạng thái trước đó (từ Genesis hoặc một Chuyển đổi trạng thái khác) và cập nhật chúng thành trạng thái mới.
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 Sơ đồ này cho thấy cách thức, trong một *State Transition Bundle*, một số seal có thể được đóng trong một giao dịch mẫu duy nhất, đồng thời mở các seal mới. Thật vậy, một tính năng thú vị của giao thức RGB là khả năng mở rộng quy mô của nó: một số transition có thể được tổng hợp thành một Transition Bundle, mỗi tổng hợp được liên kết với một lá riêng biệt của *cây MPC* (một mã định danh bundle duy nhất). Nhờ cơ chế *Deterministic Bitcoin Commitment* (DBC), toàn bộ thông báo được chèn vào đầu ra `Tapret` hoặc `Opret`, đồng thời đóng các seal trước đó và có thể xác định seal mới. `Anchor* đóng vai trò là liên kết trực tiếp giữa cam kết được lưu trữ trong blockchain và cấu trúc xác thực phía máy khách (*client-side*).
 
@@ -1216,7 +1214,7 @@ Do đó, Chuyển đổi trạng thái có thể được sử dụng để chuy
 
 Trong số này, **Genesis** và **State Extension** đôi khi được gọi là "*State Generation operations*", vì chúng tạo ra các trạng thái mới mà không đóng ngay lập tức bất kỳ trạng thái nào. Đây là một điểm rất quan trọng: **Genesis** và **State Extension** không liên quan đến việc đóng một con dấu. Thay vào đó, chúng định nghĩa một con dấu mới, sau đó phải được sử dụng bởi **State Transition** tiếp theo để thực sự được xác thực trong lịch sử blockchain.
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 **Trạng thái hoạt động** của hợp đồng thường được định nghĩa là tập hợp các trạng thái mới nhất xuất phát từ lịch sử (DAG) của các giao dịch, bắt đầu từ Genesis và theo sau tất cả các neo trong chuỗi khối Bitcoin. Bất kỳ trạng thái cũ nào đã lỗi thời (tức là được gắn vào UTXO đã sử dụng) không còn được coi là hoạt động nữa, nhưng vẫn cần thiết để kiểm tra tính nhất quán của lịch sử.
 
@@ -1242,7 +1240,7 @@ Là giao dịch đầu tiên trong hợp đồng, Genesis không tham chiếu đ
 
 Về mặt kỹ thuật, một State Extension tham chiếu đến một *Redeem* (một loại đầu vào RGB cụ thể) tương ứng với một *Valency* được định nghĩa trước đó (ví dụ, trong Genesis hoặc một State Transition khác). Nó định nghĩa một con dấu mới, có sẵn cho người hoặc tình trạng được hưởng lợi từ nó. Để con dấu này có hiệu lực, nó phải được sử dụng bởi một State Transition tiếp theo.
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 Ví dụ: Genesis tạo ra quyền phát hành (*Valency*). Quyền này có thể được thực hiện bởi một tác nhân được ủy quyền, sau đó xây dựng một State Extension:
 
@@ -1351,7 +1349,7 @@ Sau đó, hợp đồng RGB được xác định bằng `ContractId`, bắt ngu
     - Các tiểu bang **công** sở hữu,
     - Các quốc gia **do tư nhân** sở hữu.
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 *Nhà nước toàn cầu* được bao gồm trực tiếp trong *Hoạt động hợp đồng* dưới dạng một khối duy nhất. *Các nhà nước sở hữu* được định nghĩa trong mỗi *Giao nhiệm*, cùng với *Định nghĩa con dấu*.
 
@@ -1413,7 +1411,7 @@ Global State này có thể được đặt trên các nguồn công cộng (tra
 
 Một trong những điểm mạnh lớn của RGB nằm ở khả năng hiển thị (*tiết lộ*) hoặc ẩn (*giấu*) các trường *Seal Definition* và *Owned State* theo ý muốn. Điều này mang lại sự kết hợp mạnh mẽ giữa tính bảo mật và tính chọn lọc. Ví dụ, bạn có thể chứng minh rằng một quá trình chuyển đổi là hợp lệ mà không cần tiết lộ toàn bộ dữ liệu, bằng cách cung cấp phiên bản đã tiết lộ cho người phải xác thực, trong khi bên thứ ba chỉ nhìn thấy phiên bản ẩn (một hàm băm). Trong thực tế, `OpId` của một quá trình chuyển đổi luôn được tính toán từ dữ liệu *bị ẩn*.
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 #### Định nghĩa con dấu
 
@@ -1431,7 +1429,7 @@ Một trong những điểm mạnh lớn của RGB nằm ở khả năng hiển 
 
 Dạng *ẩn* của Định nghĩa Dấu niêm phong là hàm băm SHA256 (được gắn thẻ) của phép nối 4 trường này, với một thẻ cụ thể cho RGB.
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 #### Các tiểu bang sở hữu
 
@@ -1610,7 +1608,7 @@ Một trong những cải tiến lớn của RGB là sự tách biệt chặt ch
 
 Mặt khác, **quyền sở hữu** hoàn toàn phụ thuộc vào tính bảo mật của Bitcoin. Sở hữu khóa riêng của UTXO có nghĩa là kiểm soát khả năng khởi chạy một quá trình chuyển đổi mới (đóng Dấu sử dụng một lần). Vì vậy, ngay cả khi ai đó có thể xem hoặc xác thực dữ liệu, họ cũng không thể thay đổi trạng thái nếu họ không sở hữu UTXO liên quan.
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 Cách tiếp cận này hạn chế các lỗ hổng cổ điển gặp phải trong các blockchain phức tạp hơn (nơi tất cả mã của hợp đồng thông minh đều công khai và có thể được bất kỳ ai sửa đổi, điều này đôi khi dẫn đến các vụ hack). Trên RGB, kẻ tấn công không thể chỉ tương tác với trạng thái trên chuỗi, vì quyền hành động trên trạng thái (*quyền sở hữu*) được bảo vệ bởi lớp Bitcoin.
 
@@ -1818,7 +1816,7 @@ Lightning Network là mạng lưới phi tập trung các kênh thanh toán (ho�
 
 Để biết thêm thông tin về cách thức hoạt động của Lightning, tôi khuyên bạn nên tham gia khóa học khác này:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 #### Cam kết đa giao thức - MPC
 
 Multi Protocol Commitment (MPC) đề cập đến cấu trúc cây Merkle được sử dụng trong RGB để bao gồm, trong một giao dịch Bitcoin duy nhất, một số **Transition Bundle** từ các hợp đồng khác nhau. Ý tưởng là nhóm lại với nhau một số cam kết (có khả năng tương ứng với các hợp đồng khác nhau hoặc các tài sản khác nhau) trong một điểm neo duy nhất để tối ưu hóa việc chiếm dụng không gian khối.
@@ -1945,7 +1943,7 @@ Tóm lại, mỗi hợp đồng bao gồm:
 - **Giao diện**, cung cấp lớp ngữ nghĩa cho cả ví và người dùng, làm rõ việc đọc và thực hiện giao dịch;
 - Giao diện triển khai, thu hẹp khoảng cách giữa logic kinh doanh và cách trình bày, để đảm bảo định nghĩa hợp đồng nhất quán với trải nghiệm của người dùng.
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 Điều quan trọng cần lưu ý là để ví quản lý tài sản RGB (cho dù là mã thông báo có thể thay thế hay quyền nào đó), ví phải có tất cả các yếu tố sau được biên dịch: *Schema*, *Interface*, *Interface Implementation* và *Genesis*. Điều này được truyền qua ***hợp đồng ký gửi***, tức là một gói dữ liệu chứa mọi thứ cần thiết để xác thực hợp đồng phía máy khách.
 
@@ -1991,7 +1989,7 @@ Schema có thể được ví như một "lớp" trong lập trình hướng đ�
 - Các quy tắc xác định cách dữ liệu hợp đồng nội bộ có thể phát triển (ví dụ: liệu một trường có thể thay đổi hay tích lũy);
 - Trình tự các hoạt động được coi là hợp lệ: ví dụ, thứ tự chuyển tiếp cần được tôn trọng hoặc một tập hợp các điều kiện logic cần được đáp ứng.
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 Khi *bên phát hành* một tài sản trên RGB công bố hợp đồng, bên này sẽ cung cấp Genesis và Schema liên quan đến hợp đồng đó. Người dùng hoặc ví muốn tương tác với tài sản sẽ lấy Schema này để hiểu logic đằng sau hợp đồng và sau đó có thể xác minh rằng các quá trình chuyển đổi mà họ sẽ tham gia là hợp lệ.
 
@@ -2054,7 +2052,7 @@ Trước khi đi sâu vào mã, chúng ta nên nhớ lại cấu trúc chung c�
 - **Hệ thống kiểu nghiêm ngặt** được sử dụng để mô tả và xác thực dữ liệu;
 - Tập lệnh xác thực (chạy qua AluVM).
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 Mã bên dưới hiển thị định nghĩa đầy đủ của Rust Schema. Chúng tôi sẽ bình luận từng phần, theo các chú thích (1) đến (9) bên dưới:
 
@@ -2219,7 +2217,7 @@ Không giống như Schema, chỉ mang tính khai báo và được biên dịch
 - Truy cập tên và giá trị của từng trường để có thể hiển thị chúng (ví dụ: đối với một mã thông báo, hãy tìm mã hiệu, số tiền tối đa, v.v.);
 - Diễn giải và xây dựng các Hoạt động Hợp đồng (Khởi tạo, Chuyển đổi Trạng thái hoặc Mở rộng Trạng thái) bằng cách liên kết dữ liệu với tên dễ hiểu (ví dụ: thực hiện chuyển giao bằng cách chỉ định rõ ràng "số lượng" thay vì mã định danh nhị phân).
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 Nhờ Giao diện, bạn có thể, ví dụ, viết mã trong ví, thay vì thao tác các trường, trực tiếp thao tác các nhãn như "số lượng mã thông báo", "tên tài sản", v.v. Theo cách này, việc quản lý hợp đồng trở nên trực quan hơn. Theo cách này, việc quản lý hợp đồng trở nên trực quan hơn.
 
@@ -2247,7 +2245,7 @@ Giao diện có thể được sửa đổi hoặc thêm vào sau khi tài sản
 
 Cùng một hợp đồng có thể được đưa ra thông qua các Giao diện khác nhau được điều chỉnh theo nhu cầu riêng biệt: một Giao diện đơn giản cho người dùng cuối, một Giao diện khác tiên tiến hơn cho bên phát hành cần quản lý các hoạt động cấu hình phức tạp. Sau đó, ví có thể chọn Giao diện nào để nhập, tùy thuộc vào mục đích sử dụng.
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 Trên thực tế, khi ví lấy hợp đồng RGB (thông qua tệp `.rgb` hoặc `.rgba`), nó cũng nhập Giao diện liên quan, cũng được biên dịch. Khi chạy, ví có thể, ví dụ:
 
@@ -2637,7 +2635,7 @@ Sau đó, Bob cần lấy dữ liệu hợp đồng mà anh ấy quan tâm. Dữ
 - **Giao diện**, xác định lớp trình bày (tên trường, thao tác có thể truy cập);
 - **Triển khai Giao diện**, liên kết cụ thể Sơ đồ với Giao diện.
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 Tổng kích thước thường vào khoảng vài kilobyte, vì mỗi thành phần thường nặng dưới 200 byte. Cũng có thể phát sóng lô hàng này trong Base58, qua các kênh chống kiểm duyệt (như Nostr hoặc qua Lightning Network, chẳng hạn) hoặc dưới dạng mã QR.
 
@@ -2675,7 +2673,7 @@ Chúng ta sẽ xem xét kỹ hơn cấu trúc của hóa đơn RGB ở cuối ch
 
 Hóa đơn được tạo (ví dụ như URL: `rgb:2WBcas9.../RGB20/100+utxob:...`) chứa tất cả thông tin mà Alice cần để chuẩn bị chuyển khoản. Cũng giống như lô hàng, nó có thể được mã hóa nhỏ gọn (Base58 hoặc định dạng khác) và được gửi qua ứng dụng nhắn tin, email, Nostr...
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 #### 6) Chuẩn bị giao dịch ở phía Alice
 
@@ -2718,7 +2716,7 @@ bob$ rgb accept consignment.rgb
 sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 #### 9) Tùy chọn: Bob gửi xác nhận lại cho Alice (*phiếu lương*)
 
@@ -2744,13 +2742,13 @@ alice$ rgb check <sig>
 alice$ wallet sign —publish tx.psbt
 ```
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 Sau khi xác nhận, giao dịch này đánh dấu kết thúc quá trình chuyển nhượng. Bob trở thành chủ sở hữu mới của tài sản: giờ đây anh ta có một Trạng thái sở hữu trỏ đến UTXO mà anh ta kiểm soát, được chứng minh bằng sự hiện diện của cam kết trong giao dịch.
 
 Tóm lại, đây là toàn bộ quá trình chuyển giao:
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 ### Ưu điểm của chuyển đổi RGB
 
@@ -2781,7 +2779,7 @@ Trước khi xem xét chi tiết các hóa đơn, đây là sơ đồ tóm tắt
 - Alice công bố giao dịch trên mạng Bitcoin;
 - Việc xác nhận giao dịch sẽ chính thức chuyển nhượng.
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 Việc chuyển tiền minh họa cho tất cả sức mạnh và tính linh hoạt của giao thức RGB: một sàn giao dịch riêng tư, được xác thực ở phía máy khách, được neo tối thiểu và kín đáo trên blockchain Bitcoin, và vẫn giữ được tính bảo mật tốt nhất của giao thức (không có nguy cơ chi tiêu gấp đôi). Điều này khiến RGB trở thành một hệ sinh thái đầy hứa hẹn cho các giao dịch giá trị bảo mật và có khả năng mở rộng hơn so với các blockchain lập trình trên chuỗi.
 
@@ -2933,7 +2931,7 @@ rgb
 
 Chạy `rgb` (không có đối số) sẽ hiển thị danh sách các lệnh phụ có sẵn, chẳng hạn như `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, v.v. Bạn có thể thay đổi thư mục lưu trữ cục bộ (nơi lưu trữ tất cả nhật ký, sơ đồ và triển khai), chọn mạng (testnet, mainnet) hoặc cấu hình máy chủ Electrum của bạn.
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 #### Tổng quan đầu tiên về các điều khiển
 
@@ -2961,7 +2959,7 @@ Sau đó nhập giao diện bạn chọn:
 rgb import interfaces/RGB20.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 Mặt khác, chúng tôi được thông báo rằng chưa có lược đồ nào được nhập vào phần mềm. Cũng không có hợp đồng nào trong stash. Để xem, hãy chạy lệnh:
 
@@ -2975,7 +2973,7 @@ Sau đó, bạn có thể sao chép kho lưu trữ để lấy một số sơ đ
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 Kho lưu trữ này chứa, trong thư mục `src/` của nó, một số tệp Rust (ví dụ `nia.rs`) định nghĩa các lược đồ (NIA cho "*Non Inflatable Asset*", UDA cho "*Unique Digital Asset*", v.v.). Để biên dịch, sau đó bạn có thể chạy:
 
@@ -2994,7 +2992,7 @@ Bây giờ bạn có thể nhập sơ đồ vào `rgb`:
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 Điều này thêm nó vào stash cục bộ. Nếu chúng ta chạy lệnh sau, chúng ta thấy rằng sơ đồ hiện xuất hiện:
 
@@ -3026,8 +3024,8 @@ Sau đây là ví dụ về tệp YAML cần tạo:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3041,7 +3039,7 @@ seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804
 amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 Sau đó chỉ cần chạy lệnh:
 
@@ -3049,7 +3047,7 @@ Sau đó chỉ cần chạy lệnh:
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 Trong trường hợp của tôi, định danh lược đồ duy nhất (được đặt trong dấu ngoặc đơn) là `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` và tôi chưa đặt bất kỳ đơn vị phát hành nào. Vì vậy, đơn hàng của tôi là:
 
@@ -3069,15 +3067,15 @@ CLI trả lời rằng một hợp đồng mới đã được phát hành và t
 rgb contracts
 ```
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
-Sau đó, lệnh tiếp theo sẽ hiển thị các trạng thái toàn cầu (tên, mã chứng khoán, nguồn cung...) và danh sách các Trạng thái sở hữu, tức là các phân bổ (ví dụ: 1 triệu mã thông báo `PBN` được xác định trong UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Sau đó, lệnh tiếp theo sẽ hiển thị các trạng thái toàn cầu (tên, mã chứng khoán, nguồn cung...) và danh sách các Trạng thái sở hữu, tức là các phân bổ (ví dụ: 1 triệu mã thông báo `Plan ₿ Academy` được xác định trong UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
 ```
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 ### Xuất, nhập và xác thực
 
@@ -3087,7 +3085,7 @@ rgb state '<ContractId>'
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 Tệp `myContractPBN.rgb` có thể được chuyển cho người dùng khác, người này có thể thêm tệp này vào kho lưu trữ của mình bằng lệnh:
 
@@ -3111,7 +3109,7 @@ Xin nhắc lại, stash là một kho lưu trữ cục bộ các lược đồ, 
 rgb dump
 ```
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 Thao tác này sẽ tạo ra một thư mục chứa thông tin chi tiết về toàn bộ kho lưu trữ.
 
@@ -3218,7 +3216,7 @@ Trong chương này, tôi đề xuất xem xét cách RGB có thể được s�
 
 Theo thuật ngữ Bitcoin, giao dịch tài trợ phải tồn tại để xác định UTXO tham chiếu, ngay cả khi nó chỉ chứa một lượng nhỏ sats (chỉ là vấn đề của mỗi đầu ra trong các giao dịch cam kết trong tương lai vẫn ở trên giới hạn bụi). Ví dụ, Alice có thể quyết định cung cấp 10k sats và 500 USDT (được phát hành dưới dạng tài sản RGB). Trong giao dịch tài trợ, chúng tôi thêm một cam kết (`Opret` hoặc `Tapret`) neo giữ quá trình chuyển đổi trạng thái RGB.
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 Sau khi giao dịch tài trợ đã được chuẩn bị (nhưng chưa phát sóng), các giao dịch cam kết được tạo ra để bất kỳ bên nào cũng có thể đóng kênh một cách đơn phương bất kỳ lúc nào. Các giao dịch này giống với các giao dịch cam kết cổ điển của Lightning, ngoại trừ việc chúng tôi thêm một đầu ra bổ sung chứa neo RGB (OP_RETURN hoặc Taproot) được liên kết với quá trình chuyển đổi trạng thái mới.
 
@@ -3226,11 +3224,11 @@ Sau đó, quá trình chuyển đổi trạng thái RGB di chuyển tài sản t
 
 Do đó, giao dịch cam kết do Alice ký và gửi cho Bob sẽ trông như thế này:
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 Và giao dịch cam kết đi kèm, được Bob ký và gửi cho Alice, sẽ như thế này:
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 ### Cập nhật kênh
 
@@ -3240,26 +3238,26 @@ Ví dụ, nếu Alice chuyển 30 USDT cho Bob trong kênh, quá trình chuyển
 
 Giao dịch cam kết được Alice ký, sẵn sàng để Bob phân phối:
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 Giao dịch cam kết được Bob ký, sẵn sàng để Alice phân phối:
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 ### Quản lý HTLC
 
 Trên thực tế, Lightning Network cho phép thanh toán được định tuyến qua nhiều kênh, sử dụng HTLC (*Hợp đồng khóa thời gian băm*). RGB cũng vậy: đối với mọi khoản thanh toán đang chuyển qua kênh, một đầu ra HTLC được thêm vào giao dịch cam kết và một phân bổ RGB được liên kết với HTLC này. Do đó, bất kỳ ai chi tiêu đầu ra HTLC (nhờ bí mật hoặc sau khi hết thời gian khóa) đều thu hồi được cả sats và tài sản RGB liên quan. Mặt khác, rõ ràng là bạn cần phải có đủ tiền mặt trên đường về cả sats và tài sản RGB.
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 Do đó, hoạt động của RGB trên Lightning phải được xem xét song song với hoạt động của chính Lightning Network. Nếu bạn muốn tìm hiểu sâu hơn về chủ đề này, tôi thực sự khuyên bạn nên xem khóa đào tạo toàn diện khác này:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 ### Bản đồ mã RGB
 
 Cuối cùng, trước khi chuyển sang phần tiếp theo, tôi muốn cung cấp cho bạn tổng quan về mã được sử dụng trong RGB. Giao thức này dựa trên một tập hợp các thư viện Rust và thông số kỹ thuật nguồn mở. Sau đây là tổng quan về các kho lưu trữ và thùng chính:
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 #### Xác thực phía máy khách
 
@@ -3572,7 +3570,7 @@ Mã này vẫn đang ở giai đoạn alpha: chúng tôi khuyên bạn chỉ nê
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
 ```
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 - Tùy chọn `--recurse-submodules` cũng sao chép các thiết bị phụ cần thiết (bao gồm cả phiên bản đã sửa đổi của `rust-lightning`);
@@ -3584,7 +3582,7 @@ Từ thư mục gốc của dự án, chạy lệnh sau để biên dịch và c
 cargo install --locked --debug --path .
 ```
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 - `--locked` đảm bảo rằng phiên bản của các phụ thuộc được tôn trọng nghiêm ngặt;
@@ -3618,7 +3616,7 @@ ID và URL được nhập khi daemon được _mở khóa_ thông qua API. Thô
 
 Để sử dụng đơn giản, có một tập lệnh `regtest.sh` tự động khởi động một tập hợp các dịch vụ thông qua Docker: `bitcoind`, `electrs` (bộ lập chỉ mục), `rgb-proxy-server`.
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 Điều này cho phép bạn khởi chạy một môi trường cục bộ, bị cô lập, được cấu hình trước. Nó tạo và hủy các container và thư mục dữ liệu sau mỗi lần khởi động lại. Chúng ta sẽ bắt đầu bằng cách khởi động:
 
@@ -3633,7 +3631,7 @@ Tập lệnh này sẽ:
 - Chạy `bitcoind` trong regtest, cũng như trình lập chỉ mục `electrs` và `rgb-proxy-server`;
 - Chờ cho đến khi mọi thứ đã sẵn sàng để sử dụng.
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 Tiếp theo, chúng ta sẽ khởi chạy một số nút RLN. Trong các shell riêng biệt, hãy chạy, ví dụ (để khởi chạy 3 nút RLN):
 
@@ -3649,7 +3647,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network regtest
 ```
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 - Tham số `--network regtest` chỉ ra việc sử dụng cấu hình regtest;
@@ -3671,7 +3669,7 @@ curl -X POST http://localhost:3001/address
 
 Câu trả lời sẽ cung cấp cho bạn địa chỉ.
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 Trên Regtest `bitcoind`, chúng ta sẽ đào một vài bitcoin. Chạy:
 
@@ -3679,7 +3677,7 @@ Trên Regtest `bitcoind`, chúng ta sẽ đào một vài bitcoin. Chạy:
 ./regtest.sh mine 101
 ```
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 Gửi tiền đến địa chỉ nút được tạo ở trên:
 
@@ -3687,7 +3685,7 @@ Gửi tiền đến địa chỉ nút được tạo ở trên:
 ./regtest.sh sendtoaddress <address> <amount>
 ```
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 Sau đó đào một khối để xác nhận giao dịch:
 
@@ -3695,7 +3693,7 @@ Sau đó đào một khối để xác nhận giao dịch:
 ./regtest.sh mine 1
 ```
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 ### Ra mắt Testnet (không có Docker)
 
@@ -3742,7 +3740,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/createutxos
 ```
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 Tất nhiên, bạn có thể điều chỉnh thứ tự. Để xác nhận giao dịch, chúng tôi khai thác:
 
@@ -3750,7 +3748,7 @@ Tất nhiên, bạn có thể điều chỉnh thứ tự. Để xác nhận giao
 ./regtest.sh mine 1
 ```
 
-Bây giờ chúng ta có thể tạo một tài sản RGB. Lệnh sẽ phụ thuộc vào loại tài sản bạn muốn tạo và các tham số của nó. Ở đây tôi đang tạo một mã thông báo NIA (*Tài sản không thể bơm phồng*) có tên là "PBN" với nguồn cung là 1000 đơn vị. `precision` cho phép bạn xác định khả năng chia hết của các đơn vị.
+Bây giờ chúng ta có thể tạo một tài sản RGB. Lệnh sẽ phụ thuộc vào loại tài sản bạn muốn tạo và các tham số của nó. Ở đây tôi đang tạo một mã thông báo NIA (*Tài sản không thể bơm phồng*) có tên là "Plan ₿ Academy" với nguồn cung là 1000 đơn vị. `precision` cho phép bạn xác định khả năng chia hết của các đơn vị.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3758,14 +3756,14 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
 ```
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 Phản hồi bao gồm ID của tài sản mới được tạo. Hãy nhớ ghi lại mã định danh này. Trong trường hợp của tôi, đó là:
 
@@ -3773,7 +3771,7 @@ Phản hồi bao gồm ID của tài sản mới được tạo. Hãy nhớ ghi 
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 Sau đó, bạn có thể chuyển nó trên chuỗi hoặc phân bổ nó trong kênh Lightning. Đó chính xác là những gì chúng ta sẽ làm trong phần tiếp theo.
 
@@ -3793,9 +3791,9 @@ Lệnh trả về khóa công khai của nút số 2 của tôi:
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
 ```
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
-Tiếp theo, chúng ta sẽ mở kênh bằng cách chỉ định tài sản có liên quan (`PBN`). Lệnh `/openchannel` cho phép bạn xác định kích thước của kênh theo satoshi và chọn bao gồm tài sản RGB. Tùy thuộc vào những gì bạn muốn tạo, nhưng trong trường hợp của tôi, lệnh là:
+Tiếp theo, chúng ta sẽ mở kênh bằng cách chỉ định tài sản có liên quan (`Plan ₿ Academy`). Lệnh `/openchannel` cho phép bạn xác định kích thước của kênh theo satoshi và chọn bao gồm tài sản RGB. Tùy thuộc vào những gì bạn muốn tạo, nhưng trong trường hợp của tôi, lệnh là:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3824,7 +3822,7 @@ Tìm hiểu thêm tại đây:
 - `asset_id`: Mã định danh duy nhất của tài sản RGB được sử dụng trong kênh;
 - `public`: Chỉ ra liệu kênh có nên được công khai để định tuyến trên mạng hay không.
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 Để xác nhận giao dịch, 6 khối được khai thác:
 
@@ -3832,9 +3830,9 @@ Tìm hiểu thêm tại đây:
 ./regtest.sh mine 6
 ```
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
-Kênh Lightning hiện đã mở và cũng chứa 500 token `PBN` ở phía nút n°1. Nếu nút n°2 muốn nhận token `PBN`, nó phải tạo hóa đơn. Sau đây là cách thực hiện:
+Kênh Lightning hiện đã mở và cũng chứa 500 token `Plan ₿ Academy` ở phía nút n°1. Nếu nút n°2 muốn nhận token `Plan ₿ Academy`, nó phải tạo hóa đơn. Sau đây là cách thực hiện:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3861,9 +3859,9 @@ Với :
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
 ```
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
-Bây giờ chúng ta sẽ thanh toán hóa đơn này từ nút đầu tiên, nơi lưu trữ số tiền mặt cần thiết bằng mã thông báo `PBN`:
+Bây giờ chúng ta sẽ thanh toán hóa đơn này từ nút đầu tiên, nơi lưu trữ số tiền mặt cần thiết bằng mã thông báo `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3873,7 +3871,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/sendpayment
 ```
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 Thanh toán đã được thực hiện. Điều này có thể được xác minh bằng cách thực hiện lệnh:
 
@@ -3883,7 +3881,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 Sau đây là cách triển khai một nút Lightning được sửa đổi để mang theo các tài sản RGB. Bản trình diễn này dựa trên:
 

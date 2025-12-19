@@ -1,0 +1,9 @@
+question: Come si chiama l'insieme di macchine che eseguono un'implementazione di Bitcoin e che sono collegate tra loro?
+answer: La rete Bitcoin
+wrong_answers:
+  - Il protocollo Bitcoin
+  - Valuta Bitcoin
+  - Il Blockchain Bitcoin
+explanation: |
+  La rete Bitcoin comprende tutti i nodi collegati, ognuno dei quali esegue un'implementazione distinta del protocollo.
+reviewed: true

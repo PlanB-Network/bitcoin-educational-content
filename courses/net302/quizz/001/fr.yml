@@ -6,4 +6,4 @@ wrong_answers:
   - Maillé
 explanation: |
   Dans une topologie en étoile, chaque périphérique est relié à un équipement central, ce qui facilite la gestion et la maintenance.
-reviewed: false
+reviewed: true 

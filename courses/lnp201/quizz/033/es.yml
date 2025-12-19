@@ -1,8 +1,9 @@
-question: ¿Qué implica el enrutamiento de cebolla en la Red Lightning?
+question: ¿Qué implica el enrutamiento onion en la Red Lightning?
 answer: Significa que cada nodo intermedio solo conoce a sus vecinos inmediatos en la ruta.
 wrong_answers:
   - Transmitir fondos directamente de nodo a nodo conociendo al destinatario final
   - Calcular las comisiones para cada nodo intermedio de manera independiente
   - Enviar fondos a todos los nodos en la ruta simultáneamente
 explanation: |
-  El enrutamiento de cebolla significa que cada nodo intermedio solo conoce al nodo anterior y al siguiente, preservando así la confidencialidad del destinatario final.
+  El enrutamiento onion significa que cada nodo intermedio solo conoce al nodo anterior y al siguiente, preservando así la confidencialidad del destinatario final.
+reviewed: true

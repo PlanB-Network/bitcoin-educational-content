@@ -48,12 +48,12 @@ description: 사무라이 Wallet에 갇힌 비트코인을 복구하는 방법�
 
 트위터에서는 스톤월 거래가 제공하는 프라이버시 보호 기능이 약화될 수 있다는 의견이 있었습니다. 스톤월 거래의 부가가치는 구조상 스톤월 x2 거래와 구분할 수 없다는 사실에 있습니다. 분석가가 이러한 특정 패턴을 발견하면, 이것이 한 명의 사용자가 포함된 표준 스톤월인지, 두 명의 사용자가 포함된 스톤월 x2인지 판단할 수 없습니다. 그러나 다음 단락에서 살펴보겠지만, 소로반을 사용할 수 없기 때문에 스톤월 x2 트랜잭션을 수행하는 것이 더 복잡해졌습니다. 따라서 일부 분석가들은 이제 이러한 구조의 트랜잭션을 정상적인 스톤월로 간주할 수 있다고 생각합니다. 개인적으로 저는 이 가정에 동의하지 않습니다. 스톤월 x2 트랜잭션의 빈도가 줄어들 수는 있지만(그리고 이 사건 이전에도 이미 있었다고 생각합니다), 여전히 가능하다는 사실은 그렇지 않다는 가정에 근거한 전체 분석을 무효화할 수 있습니다.
 
-**스톤월 거래에 대해 자세히 알아보기](https://planb.network/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**스톤월 거래에 대해 자세히 알아보기](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 리코쳇과 관련해서는 Testnet에 도장을 소유하고 있지 않아 서비스가 여전히 운영되고 있는지 확인할 수 없었고, 당국의 통제를 받을 수 있는 Wallet에 '100,000 Sats'를 지출하는 위험을 감수하고 싶지 않습니다. 최근에 이 도구를 테스트할 기회가 있었다면 이 글을 업데이트할 수 있도록 저에게 연락해 주시기 바랍니다.
 
 
-리코쳇을 사용해야 하는 경우, Wallet 소프트웨어로 언제든지 이 작업을 수동으로 수행할 수 있다는 점에 유의하세요. 다양한 홉을 수동으로 올바르게 수행하는 방법을 배우려면 이 다른 문서를 참조하는 것이 좋습니다: [**RICOCHET**](https://planb.network/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
+리코쳇을 사용해야 하는 경우, Wallet 소프트웨어로 언제든지 이 작업을 수동으로 수행할 수 있다는 점에 유의하세요. 다양한 홉을 수동으로 올바르게 수행하는 방법을 배우려면 이 다른 문서를 참조하는 것이 좋습니다: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 
 JoinBot 도구는 사무라이가 관리하는 Wallet의 참여에 전적으로 의존했기 때문에 더 이상 운영되지 않습니다.
@@ -75,10 +75,10 @@ JoinBot 도구는 사무라이가 관리하는 Wallet의 참여에 전적으로 
 - 공동 작업자와 멀리 떨어져 있는 경우 외부 통신 채널을 통해 애플리케이션에 PSBT를 Exchange로 전송할 수 있습니다. 하지만 이러한 PSBT에 포함된 데이터는 개인정보 보호 측면에서 민감하므로 주의하세요. Exchange의 기밀성을 보장하기 위해 암호화된 메시징 서비스를 사용하는 것이 좋습니다.
 
 
-**스톤월 x2 거래에 대해 자세히 알아보세요.](https://planb.network/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**스톤월 x2 거래에 대해 자세히 알아보세요.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 
-**밀항 거래에 대해 자세히 알아보기](https://planb.network/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**밀항 거래에 대해 자세히 알아보기](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 
 Whirlpool의 경우, 자신의 도장을 가지고 있는 사용자도 더 이상 프로토콜이 작동하지 않는 것 같습니다. 지난 며칠 동안 제 로닌도장을 모니터링하고 몇 가지 기본적인 조작을 시도했지만 서버가 종료된 이후 Whirlpool CLI는 연결할 수 없었습니다.
@@ -240,7 +240,7 @@ Electrum과 같이 Sparrow이 아닌 다른 소프트웨어를 사용하여 Samo
 - Postmix: `m/84'/0'/2147483646'`
 
 
-이제 Sparrow에서 비트코인에 액세스할 수 있습니다. Sparrow wallet 사용에 도움이 필요하시면 [전용 튜토리얼](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)을 확인하실 수도 있습니다.
+이제 Sparrow에서 비트코인에 액세스할 수 있습니다. Sparrow wallet 사용에 도움이 필요하시면 [전용 튜토리얼](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)을 확인하실 수도 있습니다.
 
 
 또한 사무라이에서 UTXO에 연결했던 레이블을 수동으로 가져오는 것이 좋습니다. 이렇게 하면 나중에 Sparrow에서 Coin를 효과적으로 제어할 수 있습니다.
@@ -329,7 +329,7 @@ Electrum과 같은 다른 소프트웨어를 사용하여 Samourai Wallet를 복
 - Postmix: `m/84'/0'/2147483646'`
 
 
-이제 Sparrow에서 비트코인에 액세스할 수 있습니다. Sparrow wallet 사용에 도움이 필요하시면 [전용 튜토리얼](https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)을 참조하세요.
+이제 Sparrow에서 비트코인에 액세스할 수 있습니다. Sparrow wallet 사용에 도움이 필요하시면 [전용 튜토리얼](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)을 참조하세요.
 
 
 또한 사무라이에서 UTXO에 연결했던 레이블을 수동으로 가져오는 것이 좋습니다. 이렇게 하면 나중에 Sparrow에서 효과적인 Coin 제어를 수행할 수 있습니다.

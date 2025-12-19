@@ -1,4 +1,4 @@
-question: What is the default value of the maxconnections parameter in Bitcoin core?
+question: What is the default value of the maxconnections parameter in Bitcoin Core?
 answer: 125
 wrong_answers:
   - 10
@@ -6,4 +6,4 @@ wrong_answers:
   - 150
 explanation: |
   maxconnections limits the total number of incoming and outgoing connections. The default value is 125.
-reviewed: false
+reviewed: true

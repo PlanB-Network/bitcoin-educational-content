@@ -6,4 +6,4 @@ wrong_answers:
   - 4 GiB
 explanation: |
   Par défaut, Bitcoin Core alloue 450 MiB (472 Mo) au cache.
-reviewed: false
+reviewed: true 

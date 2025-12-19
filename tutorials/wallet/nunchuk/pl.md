@@ -98,7 +98,7 @@ W oknie, które się pojawi, znajdziesz pola do "wypełnienia": wybierz przycisk
 Możesz znaleźć przewodnik do Sparrow wallet, aby pobrać ten Software Wallet
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Następnie można przenieść plik `.apk` z komputera na telefon
 
@@ -276,7 +276,7 @@ Nazwij swój klucz i naciśnij przycisk _Continue_.
 
 
 
-Pod koniec tych kroków zostaniesz zapytany, czy dodać [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) do swojej frazy Mnemonic. Jeśli nie masz niezbędnej wiedzy na temat korzystania z passphrase, organizowania jego kopii zapasowych lub jego działania, zalecam wybranie opcji _Nie potrzebuję hasła_.
+Pod koniec tych kroków zostaniesz zapytany, czy dodać [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) do swojej frazy Mnemonic. Jeśli nie masz niezbędnej wiedzy na temat korzystania z passphrase, organizowania jego kopii zapasowych lub jego działania, zalecam wybranie opcji _Nie potrzebuję hasła_.
 
 
 
@@ -394,7 +394,7 @@ Znajdujesz się w _Home_, gdzie wyświetlany jest nowo utworzony Wallet raportuj
 
 
 - Ikona soczewki w prawym górnym rogu umożliwia wyszukiwanie transakcji;
-- `View Wallet config` daje dostęp do menu konfiguracji, gdzie można edytować nazwę Wallet i włączyć zaawansowane opcje, w prawym górnym rogu (z których nie można uzyskać zrzutów ekranu). Tutaj można wyeksportować konfigurację Wallet, etykiety, zastąpić klawisze, zmienić [limit odstępu] (https://planb.network/en/resources/glossary/gap-limit) i nie tylko.
+- `View Wallet config` daje dostęp do menu konfiguracji, gdzie można edytować nazwę Wallet i włączyć zaawansowane opcje, w prawym górnym rogu (z których nie można uzyskać zrzutów ekranu). Tutaj można wyeksportować konfigurację Wallet, etykiety, zastąpić klawisze, zmienić [limit odstępu] (https://planb.academy/en/resources/glossary/gap-limit) i nie tylko.
 
 
 

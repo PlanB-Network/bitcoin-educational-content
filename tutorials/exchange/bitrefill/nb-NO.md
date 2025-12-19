@@ -6,7 +6,7 @@ description: Hvordan kjøpe varer og tjenester med BTC ved hjelp av Bitrefill?
 
 Selv om Bitcoin primært anses som et sparemiddel i dag, forblir det en valuta hvis nytte ligger i dens evne til å sirkulere fra hånd til hånd. Hvis handelsmenn rundt deg aksepterer Bitcoin som betalingsmetode, har du muligheten til å bruke den direkte hos dem. Dessverre er denne praksisen ennå ikke utbredt, og de fleste handelsmenn aksepterer ikke BTC som betalingsmiddel ennå.
 
-Den beste løsningen forblir å "orange pille" lokale handelsmenn for å få dem til å akseptere Bitcoin, ved å forklare fordelene med dette systemet. Du kan bruke opplæringene som er tilgjengelige i ["*merchants*"](https://planb.network/tutorials/merchant)-seksjonen på nettstedet vårt som støtte. Denne strategien kan være effektiv med små uavhengige handelsmenn, men den viser seg mer kompleks for store nasjonale kjeder, ettersom kontaktpersonene på stedet generelt ikke er de som tar beslutninger angående betalingsmetoder.
+Den beste løsningen forblir å "orange pille" lokale handelsmenn for å få dem til å akseptere Bitcoin, ved å forklare fordelene med dette systemet. Du kan bruke opplæringene som er tilgjengelige i ["*merchants*"](https://planb.academy/tutorials/merchant)-seksjonen på nettstedet vårt som støtte. Denne strategien kan være effektiv med små uavhengige handelsmenn, men den viser seg mer kompleks for store nasjonale kjeder, ettersom kontaktpersonene på stedet generelt ikke er de som tar beslutninger angående betalingsmetoder.
 
 Mens vi venter på mer massiv adopsjon av disse kjedene, kan du bruke dine bitcoins ved å bruke en mellomliggende betalingsmetode: gavekort. Og dette er nettopp det Bitrefill tilbyr deg.
 
@@ -28,9 +28,9 @@ Skriv inn en e-postadresse. Hvis du ønsker å holde kontoen din anonym, sørg f
 ![BITREFILL](assets/notext/05.webp)
 Hvis du vil lære hvordan du enkelt oppretter en sikker e-postboks og hvordan du håndterer passordene dine, anbefaler jeg å konsultere disse 2 andre opplæringene:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Deretter klikker du på "*Create account*" knappen.
 ![BITREFILL](assets/notext/06.webp)
@@ -49,7 +49,7 @@ I "*To-faktor autentisering*" seksjonen, klikk på "*Aktiver*" knappen og følg 
 ![BITREFILL](assets/notext/13.webp)
 For å lære mer om hvordan du bruker to-faktor autentisering for å sikre dine online kontoer, anbefaler jeg å utforske denne andre opplæringen:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 ## Hvordan kjøpe et gavekort i BTC på Bitrefill?
 
@@ -88,4 +88,4 @@ Og der har du det, nå vet du hvordan du kan bruke dine bitcoins uten KYC hos st
 
 Hvis du ønsker å bidra til populariseringen av Bitcoin og oppmuntre en uavhengig handlende til å adoptere denne betalingsmetoden, anbefaler jeg å konsultere vår komplette veiledning på Swiss Bitcoin Pay. Det er en alt-i-ett løsning for BTC betalingsprosessorer, enkel å installere og håndtere på daglig basis:
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

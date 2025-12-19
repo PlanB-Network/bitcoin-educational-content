@@ -54,7 +54,7 @@ description: सुरक्षा की ओर पहला कदम, Electru
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 डाउनलोड करने के बाद हमेशा रिलीज़ को इंस्टॉल करने से पहले उसे सत्यापित करें, फिर "वन सर्वर" कॉन्फ़िगरेशन पर आगे बढ़ें, जैसा कि आप सहायता अनुभाग में `स्टार्ट विद ए डमी Wallet` के अंतर्गत पाएंगे।
 

@@ -1,0 +1,8 @@
+question: Vad händer med skillnaden mellan ingående belopp och utgående belopp i en Bitcoin-transaktion?
+answer: Skillnaden blir automatiskt den transaktionsavgift som betalas till gruvarbetarna
+wrong_answers:
+  - "Mellanskillnaden återsänds till avsändarens ursprungliga adress som växel"
+  - Mellanskillnaden bränns och tas permanent ur omlopp
+  - Mellanskillnaden hålls i depå tills transaktionen har bekräftats
+explanation: |
+  I Bitcoin:s avgiftssystem beräknas avgifterna implicit som skillnaden mellan totala inmatningsbelopp och totala utmatningsbelopp (avgift = summa(inputs) - summa(outputs)). Alla värden som inte uttryckligen tilldelas en output blir automatiskt gruvarbetaravgiften. Det är därför det är så viktigt att skapa korrekta ändringsutgångar - om du glömmer att inkludera en ändringsutgång när du spenderar en stor UTXO blir hela återstoden en dyr avgift för gruvarbetaren. De andra alternativen är felaktiga eftersom Bitcoin inte automatiskt skapar förändringsutgångar, inte bränner otilldelat värde och inte använder spärrmekanismer för transaktionsdifferenser.

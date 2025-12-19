@@ -1,0 +1,9 @@
+question: ¿Cuál es el valor por defecto del parámetro maxconnections en Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections limita el número total de conexiones entrantes y salientes. El valor por defecto es 125.
+reviewed: true

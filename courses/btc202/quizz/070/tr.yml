@@ -1,0 +1,9 @@
+question: İlk eş keşfi için kullanılan DNS seed sunucularının bakımını kim yapar?
+answer: Ekosistem geliştiricileri
+wrong_answers:
+  - İnternet servis sağlayıcıları
+  - Satoshi Nakamoto
+  - Mining havuzları
+explanation: |
+  DNS tohumları iyi bilinen geliştiriciler (Wuille, Corallo, Dashjr, vb.) tarafından korunur ve bağlantıları başlatmak için aktif düğüm IP'leri sağlar.
+reviewed: true

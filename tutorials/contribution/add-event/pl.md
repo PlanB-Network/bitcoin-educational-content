@@ -1,6 +1,6 @@
 ---
-name: Dodaj wydarzenie w PlanB Network
-description: Jak mogę zasugerować dodanie nowego wydarzenia w PlanB Network?
+name: Dodaj wydarzenie w Plan ₿ Academy
+description: Jak mogę zasugerować dodanie nowego wydarzenia w Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Jak mogę zasugerować dodanie nowego wydarzenia w PlanB Network?
 Misją PlanB jest dostarczanie najwyższej jakości zasobów edukacyjnych na temat Bitcoin w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, oferując każdemu możliwość przyczynienia się do wzbogacenia platformy.
 
 
-Jeśli chcesz dodać konferencję Bitcoin do witryny PlanB Network i zwiększyć widoczność swojego wydarzenia, ale nie wiesz jak? Ten poradnik jest dla Ciebie!
+Jeśli chcesz dodać konferencję Bitcoin do witryny Plan ₿ Academy i zwiększyć widoczność swojego wydarzenia, ale nie wiesz jak? Ten poradnik jest dla Ciebie!
 
 ![event](assets/01.webp)
 
@@ -16,7 +16,7 @@ Jeśli chcesz dodać konferencję Bitcoin do witryny PlanB Network i zwiększyć
 - Po pierwsze, musisz mieć konto na GitHub. Jeśli nie wiesz, jak utworzyć konto, przygotowaliśmy szczegółowy samouczek, który Cię poprowadzi.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Jeśli nigdy wcześniej nie współtworzyłeś zawartości PlanB Network, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, umożliwiając pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
+- Jeśli nigdy wcześniej nie współtworzyłeś zawartości Plan ₿ Academy, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, umożliwiając pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
 
 ![event](assets/04.webp)
 
@@ -118,7 +118,7 @@ tags:
 Jeśli nie masz jeszcze identyfikatora "*project*" dla swojej organizacji, możesz go dodać, postępując zgodnie z tym samouczkiem.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 
 
@@ -148,7 +148,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![event](assets/14.webp)
 
 
-- Wybierz Fork z repozytorium PlanB Network:
+- Wybierz Fork z repozytorium Plan ₿ Academy:
 
 ![event](assets/15.webp)
 
@@ -199,7 +199,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 
 - Kliknij przycisk `Dodaj plik`, a następnie `Prześlij pliki`: ![event](assets/25.webp)
-- Otworzy się nowa strona. Przeciągnij i upuść obraz, który reprezentuje Twoją konferencję i będzie wyświetlany na stronie PlanB Network:
+- Otworzy się nowa strona. Przeciągnij i upuść obraz, który reprezentuje Twoją konferencję i będzie wyświetlany na stronie Plan ₿ Academy:
 
 ![event](assets/26.webp)
 
@@ -258,10 +258,10 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/37.webp)
 
-Gratulacje! Twój PR został pomyślnie utworzony. Administrator sprawdzi go teraz i, jeśli wszystko jest w porządku, połączy go z głównym repozytorium PlanB Network. Wydarzenie powinno pojawić się na stronie kilka dni później.
+Gratulacje! Twój PR został pomyślnie utworzony. Administrator sprawdzi go teraz i, jeśli wszystko jest w porządku, połączy go z głównym repozytorium Plan ₿ Academy. Wydarzenie powinno pojawić się na stronie kilka dni później.
 
 
-Pamiętaj, aby śledzić postępy swojego PR. Administrator może zostawić komentarz z prośbą o dodatkowe informacje. Dopóki twój PR nie zostanie zatwierdzony, możesz zapoznać się z nim w zakładce `Pull requests` w repozytorium PlanB Network GitHub:
+Pamiętaj, aby śledzić postępy swojego PR. Administrator może zostawić komentarz z prośbą o dodatkowe informacje. Dopóki twój PR nie zostanie zatwierdzony, możesz zapoznać się z nim w zakładce `Pull requests` w repozytorium Plan ₿ Academy GitHub:
 
 ![event](assets/38.webp)
 

@@ -1,0 +1,9 @@
+question: Mis on Satoshi Nakamoto 2008. aastal avaldatud valge raamatu pealkiri?
+answer: Bitcoin Vastastikune elektrooniline sularahasüsteem
+wrong_answers:
+  - Bitcoin Detsentraliseeritud digitaalne kullasüsteem
+  - Bitcoin Raha tulevik
+  - Bitcoin Blockchain-põhine maksevõrk
+explanation: |
+  Satoshi Nakamoto valge raamat Bitcoin A Peer-to-Peer Electronic Cash System avaldati 2008. aastal.
+reviewed: true

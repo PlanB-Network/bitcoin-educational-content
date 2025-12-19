@@ -11,12 +11,12 @@ Muri iki gihe, hariho inyishu nyinshi ku bacuruzi bipfuza kwemera Bitcoin nk’u
 Ku bakunda kutababazwa no kwakira amahera mu mafaranga ya fiat ataco baciye kuri konti yabo ya banki, hariho inyishu zo kubika amahera nka Open Node:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Ku bacuruzi biteguriye guhumanya ibiganza vyabo kandi bashaka kugenzura neza igikorwa, porogarama ya BTCPay Server ni uburyo bwiza cane. Ariko rero, ikintu gikomeye kibi kuri BTCPay Server ni uko gutegura no kuyicungera bifata umwanya kandi bisaba ubuhinga bumwe bumwe:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Muri ivyo bisubizo vyose, Swiss Bitcoin Pay isa n’iyishimishije cane gusenyera ku mugozi umwe ihuriza hamwe ukworohereza gukoresha, ibiranga, n’umutekano. Uwo muti ni mwiza ku bucuruzi buto cane no ku bibanza bininibinini. Muri iyi nyigisho, uzobona ingene wokoresha mu buryo bworoshe Swiss Bitcoin Pay kugira wemere Bitcoin mu bucuruzi bwawe.
 

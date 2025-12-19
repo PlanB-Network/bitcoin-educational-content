@@ -1,22 +1,17 @@
 ---
-name: 形式暗号入門
+name: 現代暗号の基礎
 goal: 暗号の科学と実践を深く掘り下げた入門書。
 objectives:
-
-  - 暗号の基本的な概念と歴史的な概念を理解するために、ビール暗号と現代の暗号手法を探求する。
-  - 数論、群、場を深く掘り下げ、暗号の基礎となる重要な数学的概念をマスターする。
-  - 対称暗号アルゴリズムについて学ぶために、RC4ストリーム暗号と128ビット鍵のAESを学ぶ。
-  - RSA暗号システム、鍵配布、ハッシュ関数を調査し、非対称暗号を探求する。
-
+- 暗号の基本的な概念と歴史的な概念を理解するために、ビール暗号と現代の暗号手法を探求する。
+- 数論、群、場を深く掘り下げ、暗号の基礎となる重要な数学的概念をマスターする。
+- 対称暗号アルゴリズムについて学ぶために、RC4ストリーム暗号と128ビット鍵のAESを学ぶ。
+- RSA暗号システム、鍵配布、ハッシュ関数を調査し、非対称暗号を探求する。
 ---
-# 暗号学への深入り
+# 現代暗号技術への深掘り
 
-暗号教育において、良い中間点を提供する教材を多く見つけるのは難しい。
+このコースでは、現代暗号技術の本質を明確でわかりやすい方法でカバーします。高度な数学的背景は必要ありません。各章を通じて、対称暗号化と公開鍵暗号化、ハッシュ関数、デジタル署名、鍵交換、実世界のプロトコルなどの中核的な概念を学びます。その過程で、安全なメッセージング、TLS、パスワード保存、認証などの実用的なアプリケーションとの関連性を明らかにします。
 
-一方では、数学、論理学、あるいはその他の形式的な学問分野の強力なバックグラウンドを持っている人だけがアクセスできる、長くて形式的な論文がある。一方では、非常にハイレベルな入門書もあり、少なくとも少し興味がある人にとっては、詳細があまりにも多く隠されている。
-
-この暗号学入門書は、その中間を狙ったものである。暗号を初めて学ぶ人にとっては、比較的挑戦的で詳細な内容であるが、典型的な基礎的な論文のようなウサギの穴のようなものではない。
-
+教材はあらゆるレベルの学習者向けに設計されており、好奇心を満たすのに十分な技術的深さと直感のバランスを取っています。焦点を絞った魅力的な学習体験を期待してください。最後には、現代暗号技術がどのように、そしてなぜ機能するのか、そしてそれを責任を持って使用する方法を理解できるようになります。
 +++
 # はじめに
 
@@ -123,7 +118,7 @@ CYP302コースへようこそ！
 
 *図1：ビール暗号No.2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 例えば、2番目の暗号文の最初の数字は115である。独立宣言の115番目の単語は "instituted "なので、平文の最初の文字は "i "である。暗号文は単語の間隔や大文字を直接示していない。しかし、最初の数単語を解読した後、平文の最初の単語は単に "I "であったと論理的に推論することができる。(平文は "I have deposited in the county of Bedford "というフレーズで始まる）。
 
@@ -286,7 +281,7 @@ $$
 
 *図 1: 確率変数 X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 図1の幅の広い棒グラフは、明らかに確率変数$X$が実際に連続であることを示唆するものではない。むしろ、棒グラフの幅を広くしているのは、視覚的にわかりやすくするためである（まっすぐな線だけでは、直感的な視覚化ができない）。
 
@@ -324,7 +319,7 @@ Y$を図式化したものが*図2*である。
 
 **図2：確率変数Y**
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 最後の例として、確率変数Zを考えてみよう。Zは結果集合{1,3,7,11,12}を持ち、以下の確率分布を持つ：
 
@@ -352,7 +347,7 @@ $$
 
 *図 3: ランダム変数 Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### 条件付き確率
 
@@ -476,16 +471,16 @@ X$と$Y$の結果集合が次のように定義されているとする： **X**
 
 シフト暗号のモジュロ演算子は文字の折り返しを保証するため、すべての暗号文の文字が定義される。例として、「DOG」という単語にシフト暗号を適用した場合を考えてみよう。
 
-あるキーの値を一律に17にしたとする。文字 "O "は15に相当する。モジュロ演算がなければ、この平文の数字と鍵を足すと32の暗号文の数字になる。しかし、英語のアルファベットには26文字しかないため、この暗号文の数字を暗号文の文字にすることはできない。モジュロ演算により、暗号文の数字が実際には6（$32 \mod 26$の結果）になり、これが暗号文の文字 "G "に等しくなる。
+仮に、値が $17$ の鍵を一様に選んだとします。文字「O」は $14$ に相当します。モジュロ演算を行わなければ、この平文の数に鍵を加えると暗号文の数は $31$ になります。しかし、英語のアルファベットは $26$ 文字しかないため、その暗号文の数を暗号文字に変換することはできません。モジュロ演算によって、暗号文の数は実際には $5$（$31 \mod 26$ の結果）となり、暗号文字「F」に相当します。
 
 DOG "という単語をキー値17で暗号化すると、以下のようになる：
 
 
-**Message = DOG = D,O,G = 3,15,6**
+**メッセージ = DOG = D,O,G = 3,14,6**
 $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-$c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-*c = UGX*
+*c = UFX*
 
 シフト暗号の仕組みは誰でも直感的に理解できるし、おそらく自分でも使えるだろう。しかし、暗号の知識を深めるには、スキームがより難しくなるため、形式化に慣れることが重要である。それゆえ、シフト暗号の手順が形式化されたのである。
 
@@ -1020,11 +1015,11 @@ ___
 
 **図1：空間を超えた秘密主義**
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 **図2：時系列を超えた秘密性**
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## 例シフト暗号
 
@@ -1126,7 +1121,7 @@ Kerckhoffsの原理が現代暗号の中心である理由は4つある。[2]第
 
 *図3: XORストリーム暗号*。
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 暗号化スキームとは、厳密な仕様ではなく、一般的に同じコア・アルゴリズムによる暗号化のテンプレートであることに留意されたい。その延長として、ストリーム暗号は通常、異なる長さの鍵を使うことができる暗号化のテンプレートである。鍵の長さはスキームの細部に影響を与えることはあっても、その本質的な形に影響を与えることはない。
 
@@ -1210,7 +1205,7 @@ Shift暗号とVigenere暗号は現代では非常に安全ではないが、ワ�
 
 **図4：ブロック暗号**
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 ブロック暗号はそれだけでは暗号化方式ではない。しかし、ブロック暗号は様々な**演算モード**と一緒に使うことで、様々な暗号化スキームを作り出すことができる。操作モードとは、単にブロック暗号の外側にいくつかの追加操作を加えるだけである。
 
@@ -1218,7 +1213,7 @@ Shift暗号とVigenere暗号は現代では非常に安全ではないが、ワ�
 
 *図5：ECBモード*を持つブロック暗号
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 ブロック暗号を使った電子暗号の手順は以下の通りである。平文のメッセージを128ビットのブロックに分割できるかどうかを確認する。そうでなければ、メッセージに**パディング**を加え、その結果がブロックサイズ128ビットで均等に分割できるようにする。これが暗号化処理に使われるデータである。
 
@@ -1234,7 +1229,7 @@ Shift暗号とVigenere暗号は現代では非常に安全ではないが、ワ�
 
 *図6：CBCモード*を持つブロック暗号
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 ブロック・サイズが再び128ビットだとする。そこで、元の平文メッセージに必要なパディングが施されていることを保証する必要がある。
 
@@ -1250,7 +1245,7 @@ Shift暗号とVigenere暗号は現代では非常に安全ではないが、ワ�
 
 *図7：OFBモード*を持つブロック暗号
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 OFBモードでは、初期化ベクトルも選択する。しかしここでは、最初のブロックについて、初期化ベクターが鍵とともにブロック暗号に直接挿入される。その結果、128ビットがキーストリームとして扱われる。このキーストリームを平文とXORし、そのブロックの暗号文を生成する。それ以降のブロックでは、前のブロックのキーストリームをブロック暗号への入力として使用し、手順を繰り返す。
 
@@ -1296,7 +1291,7 @@ AESブロック暗号については、*第5章*で詳しく説明する。
 
 *図8：対称暗号方式*の概要
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## メッセージ認証コード
 
@@ -1320,7 +1315,7 @@ AESブロック暗号については、*第5章*で詳しく説明する。
 
 *図9：対称暗号方式*の概要
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 実存的な偽造不可能性により、攻撃者はメッセージ$M$を改ざんしたり、 有効なタグを持つメッセージを自作することはできない。これは、たとえ攻撃者が同じ秘密鍵を使ったボブとアリスの間の多くのメッセージのタグを観察したとしても同じである。攻撃者はせいぜい、アリスがメッセージ$M$を受け取れないようにするくらいである（暗号では対処できない問題）。
 
@@ -1352,7 +1347,7 @@ MACは、メッセージが実際にボブによって作成されたことを�
 
 *図10：認証された暗号化方式*。
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 MACはどのようにして作られるのか？MACは複数の方法で作成できますが、一般的で効率的な作成方法は**暗号ハッシュ関数**です。
 
@@ -1364,7 +1359,7 @@ HMACを作成するために使用できるハッシュ関数のパレットが�
 
 **図11：HMAC**
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **注：**。
 
@@ -1402,7 +1397,7 @@ HMACを作成するために使用できるハッシュ関数のパレットが�
 
 **図12：安全な通信セッション**
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4とAES
 
@@ -1541,7 +1536,7 @@ AESの中核であるRijndael暗号がどのように機能するかを示すた
 
 *図1：128ビット鍵のAES-ECB*。
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Rijndael暗号化方式では、128ビットのテキストブロックはそれぞれ10ラウンドを経る。このため、ラウンドごとに別々のラウンド鍵が必要になる（$K_1$から$K_{10}$まで）。K_1$から$K_{10}$は、元の128ビット鍵$K_0$から**鍵拡張アルゴリズム**を用いて各ラウンドごとに生成される。従って、暗号化するテキストの各ブロックには、元の鍵$K_0$と10個のラウンド鍵を 使うことになる。暗号化が必要な128ビットの平文ブロックごとに、同じ11個の鍵が使われることに 注意。
 
@@ -1818,7 +1813,7 @@ K_P$の "P "は "public "を表し、$K_S$の "S "は "secret "を表す。K_P$�
 
 **図1：非対称暗号※1**
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 ボブとアリスの通信を盗聴する敵は$C$を観測できる。また、$K_P$と暗号化アルゴリズム$E(˶cdot)$も知っている。しかし重要なのは、この情報では攻撃者が暗号文$C$を復号することはできないということである。復号化には特に$K_S$が必要であるが、攻撃者はこの$K_S$を持っていない。
 
@@ -1842,7 +1837,7 @@ K_P$の "P "は "public "を表し、$K_S$の "S "は "secret "を表す。K_P$�
 
 *図2：非対称認証*の場合
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 非対称暗号化と同様に、デジタル署名とメッセージ認証コードの間にも興味深い対比が見られる。後者の場合、検証アルゴリズムは、安全な通信を知る当事者の一方だけが採用できる。これは秘密鍵を必要とするからである。しかし、非対称の設定では、誰でもボブが作成したデジタル署名$S$を検証することができる。
 

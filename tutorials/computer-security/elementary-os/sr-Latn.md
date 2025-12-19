@@ -11,7 +11,7 @@ Elementary OS je operativni sistem zasnovan na Ubuntu-u, dizajniran da bude jedn
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Zašto izabrati Elementary OS
 
@@ -380,4 +380,4 @@ Elementary OS je sada pokrenut na vašem računaru. Njegova filozofija jednostav
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

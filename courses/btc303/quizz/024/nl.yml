@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste reden dat Bitcoin adressen afgeleid van publieke sleutels gebruikt als pseudoniemen in plaats van beschrijvende gebruikersnamen?
+answer: Om veilige offline adresaanmaak mogelijk te maken zonder blockchainregistratie
+wrong_answers:
+  - Transacties volledig anoniem en ontraceerbaar maken op de blockchain
+  - Om de rekenkracht die nodig is voor transactieverificatie te verminderen
+  - Onbeperkt hergebruik van hetzelfde pseudoniem voor meerdere transacties toestaan
+explanation: |
+  Bitcoin gebruikt adressen die afgeleid zijn van publieke sleutels als pseudoniemen omdat dit systeem gebruikers in staat stelt om veilig offline nieuwe adressen aan te maken zonder deze eerst te registreren op de blockchain. Het gebruik van beschrijvende gebruikersnamen zou vereisen dat de link tussen de gebruikersnaam en de publieke sleutel op de blockchain wordt aangekondigd, wat kosten met zich mee zou brengen, de blockchain zou opblazen en de veiligheid zou verminderen. Bovendien zouden gebruikersnamen hergebruik aanmoedigen (wat de privacy zou verminderen) en risico's op imitatie met zich meebrengen. Het adresgebaseerde systeem elimineert deze problemen en behoudt de cryptografische veiligheid die nodig is om Bitcoin goed te laten functioneren.
+reviewed: false

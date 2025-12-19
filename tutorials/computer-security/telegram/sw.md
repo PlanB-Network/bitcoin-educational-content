@@ -5,9 +5,9 @@ description: Ujumbe na mengi zaidi, kwenye simu ya mkononi na kompyuta ya mezani
 ![cover](assets/cover.webp)
 
 
-## Kwa nini Telegraph
+## Kwa nini Telegram
 
-Telegramu ni zaidi ya programu ya kutuma ujumbe na huenda zaidi ya dhana ya mitandao ya kijamii. Ikilinganishwa na washindani wake wengi, ina vipengele vingi vinavyoifanya kuwa chombo chenye thamani ya kujua jinsi ya kutumia.
+Telegram ni zaidi ya programu ya kutuma ujumbe na huenda zaidi ya dhana ya mitandao ya kijamii. Ikilinganishwa na washindani wake wengi, ina vipengele vingi vinavyoifanya kuwa chombo chenye thamani ya kujua jinsi ya kutumia.
 
 
 Mbali na kubadilishana ujumbe, kwa Telegram unaweza kupiga simu za video na sauti, kuhariri au kufuta ujumbe hata baada ya kutumwa, faili kubwa za Exchange bila mipaka ya nafasi, na mengi zaidi. Tunatumai somo hili linaweza kusaidia kurahisisha kujifunza na, zaidi ya yote, kujiunga na jumuiya nyingi za Bitcoiner zilizopo kwenye Telegram.
@@ -15,7 +15,7 @@ Mbali na kubadilishana ujumbe, kwa Telegram unaweza kupiga simu za video na saut
 
 ## Simu ya rununu
 
-Ingawa Telegramu inapatikana kutoka kwa maduka rasmi, ushauri huwa sawa kila wakati: pakua kutoka kwa wavuti ya msanidi programu, tabia nzuri kwa wale ambao, kama wewe, wako kwenye safari ya kuzingatia faragha.
+Ingawa Telegram inapatikana kutoka kwa maduka rasmi, ushauri huwa sawa kila wakati: pakua kutoka kwa wavuti ya msanidi programu, tabia nzuri kwa wale ambao, kama wewe, wako kwenye safari ya kuzingatia faragha.
 
 
 Ukiwa na kivinjari cha simu yako, nenda kwenye tovuti [telegram.org](https://telegram.org). Unaweza kuchagua lugha unayopendelea, lakini ninapendekeza uendelee kwa Kiingereza, kwa hivyo chagua _Telegram ya Android_
@@ -36,16 +36,16 @@ Mfumo wako wa uendeshaji wa hisa wa Android unaweza kujaribu kuzuia upakuaji wa 
 ![image](assets/en/03.webp)
 
 
-Mara baada ya kupakuliwa na kusakinishwa Telegramu, unaweza kuchagua _Open_ kwenye skrini ya mwisho.
+Mara baada ya kupakuliwa na kusakinishwa Telegram, unaweza kuchagua _Open_ kwenye skrini ya mwisho.
 
 
-Kuunda somo hili, nilitumia simu ambayo Telegraph ilikuwa tayari imesakinishwa. Katika usakinishaji wa kwanza, utapata _Sakinisha_, badala ya _Sasisha_, chagua kusakinisha.
+Kuunda somo hili, nilitumia simu ambayo Telegram ilikuwa tayari imesakinishwa. Katika usakinishaji wa kwanza, utapata _Sakinisha_, badala ya _Sasisha_, chagua kusakinisha.
 
 
 ![image](assets/en/05.webp)
 
 
-Ruhusu Telegraph isakinishe
+Ruhusu Telegram isakinishe
 
 
 ![image](assets/en/06.webp)
@@ -57,7 +57,7 @@ kisha uifungue kutoka kwa simu yako na uchague _Anza Kutuma Ujumbe_.
 ![image](assets/en/07.webp)
 
 
-Kama programu yoyote nzuri ya kutuma ujumbe ya VoIP, utendakazi wa Telegraph pia unategemea laini ya simu inayofanya kazi. Ili kuanza, lazima uweke nambari yako ya simu: Telegramu itatuma SMS ya uthibitishaji yenye msimbo wa OTP.
+Kama programu yoyote nzuri ya kutuma ujumbe ya VoIP, utendakazi wa Telegram pia unategemea laini ya simu inayofanya kazi. Ili kuanza, lazima uweke nambari yako ya simu: Telegram itatuma SMS ya uthibitishaji yenye msimbo wa OTP.
 
 
 ![image](assets/en/08.webp)
@@ -69,7 +69,7 @@ Kwenye skrini inayofuata, unaweza kuangalia mara mbili nambari uliyotoa. Ikiwa n
 ![image](assets/en/09.webp)
 
 
-Telegramu sasa inafanya kazi kikamilifu kwenye simu ya mkononi, tunaweza kuendelea na mipangilio ya msingi ya kwanza.
+Telegram sasa inafanya kazi kikamilifu kwenye simu ya mkononi, tunaweza kuendelea na mipangilio ya msingi ya kwanza.
 
 
 # Mipangilio ya usalama na faragha
@@ -78,9 +78,9 @@ Telegramu sasa inafanya kazi kikamilifu kwenye simu ya mkononi, tunaweza kuendel
 ## Usanidi wa jina la mtumiaji
 
 
-Jina la mtumiaji la Telegraph - wakati mwingine pia huitwa `kushughulikia` - ni zaidi ya dhana tu. Kipini hakika ni **kipekee kwa kila mtumiaji**.
+Jina la mtumiaji la Telegram - wakati mwingine pia huitwa `kushughulikia` - ni zaidi ya dhana tu. Kipini hakika ni **kipekee kwa kila mtumiaji**.
 
-Kwenye Telegramu, ni rahisi kukutana na walaghai ambao huandika kwa faragha, wakijifanya kuwa mtu ambaye sio. Kila mtumiaji anaweza kunaswa na kufichua taarifa za kibinafsi akiamini kuwa anapiga gumzo na mtu anayemwamini kikamilifu. **Tutaona kwamba mpini ndio ulinzi bora zaidi wa kupunguza aina hizi za hatari**.
+Kwenye Telegram, ni rahisi kukutana na walaghai ambao huandika kwa faragha, wakijifanya kuwa mtu ambaye sio. Kila mtumiaji anaweza kunaswa na kufichua taarifa za kibinafsi akiamini kuwa anapiga gumzo na mtu anayemwamini kikamilifu. **Tutaona kwamba mpini ndio ulinzi bora zaidi wa kupunguza aina hizi za hatari**.
 
 Kutoka kwa menyu kuu, chagua _Wasifu Wangu_.
 
@@ -98,7 +98,7 @@ Utaona maelezo yote nyeti ya akaunti yako, ikijumuisha nambari yako ya simu na s
 
 **Kwa kubofya kila moja, unaweza kuzijaza na chaguo zako**.
 
-Wakati wa kusanidi _Jina la mtumiaji_, Telegramu inakuarifu ikiwa mpini unapatikana au la.
+Wakati wa kusanidi _Jina la mtumiaji_, Telegram inakuarifu ikiwa mpini unapatikana au la.
 
 (Picha hii ya skrini pia inachukuliwa kutoka kwa simu iliyo na jina la mtumiaji tayari limewekwa).
 
@@ -116,7 +116,7 @@ na usanidi mpini wako, kisha uhifadhi kwa kubofya alama ya kuteua ✅ iliyo upan
 ![image](assets/en/14.webp)
 
 
-Katika vikundi na vituo vingi vya Telegraph, jina hili la mtumiaji linahitajika kama sharti la ufikiaji. Kwa wasimamizi wa vikundi hivyo, ni mojawapo ya njia za kuweka bots na spam.
+Katika vikundi na vituo vingi vya Telegram, jina hili la mtumiaji linahitajika kama sharti la ufikiaji. Kwa wasimamizi wa vikundi hivyo, ni mojawapo ya njia za kuweka bots na spam.
 
 
 ⚠️ Unapaswa kuangalia kila wakati kishikio cha mtu yeyote anayewasiliana nawe kwa faragha na usiwahi kutoa maelezo ya siri kama vile manenosiri au vifungu vya Mnemonic kwa mtu yeyote, hata kama anadai kuwa ana usaidizi rasmi au anatoa usaidizi (labda ulioombwa nawe). Zuia watumiaji wanaowasiliana nawe bila ruhusa yako, kwa sababu bila shaka wanafanya hivyo kwa nia ya ulaghai.
@@ -157,7 +157,7 @@ Hakikisha kuweka:
 
 
 - _Nambari ya Simu_ hadi "Hakuna"
-- _Hupiga_ "Anwani Zangu"
+- _Hupiga_ " address Zangu"
 - _Anaalika_ kwa "Hakuna mtu"
 
 Hizi ni hatua ambazo zitazuia kufichua nambari yako ya simu, kwa hivyo hutapokea simu zisizohitajika au kuongezwa kwa vikundi vya asili ya kutiliwa shaka bila kujua. Baadaye, unaweza kurekebisha vigezo vingine vyote unavyotaka.
@@ -165,7 +165,7 @@ Hizi ni hatua ambazo zitazuia kufichua nambari yako ya simu, kwa hivyo hutapokea
 Kwa vile sasa akaunti yako ya Telegram imeanzishwa na umepata faragha kidogo, unaweza kuanza kuitumia.
 
 
-## Kuongeza anwani na gumzo
+## Kuongeza  address na gumzo
 
 
 Ikiwa akaunti yako imeundwa hivi punde, kuna uwezekano kwamba ukurasa kuu utaonekana tupu kabisa.
@@ -181,7 +181,7 @@ Hapa unaweza tayari kuona kazi kuu 2 utakazotumia kutuma ujumbe:
 ![image](assets/en/37.webp)
 
 
-Kubofya mwisho, kwanza, Telegramu itaomba ruhusa ya kufikia anwani katika kitabu chako cha Address, ambacho unaweza kutoa au kukataa kulingana na mahitaji yako. Kwa kuidhinisha, utaweza kufikia marafiki wa kwanza ambao tayari wamepakua programu.
+Kubofya mwisho, kwanza, Telegram itaomba ruhusa ya kufikia  address katika kitabu chako cha Address, ambacho unaweza kutoa au kukataa kulingana na mahitaji yako. Kwa kuidhinisha, utaweza kufikia marafiki wa kwanza ambao tayari wamepakua programu.
 
 
 ![image](assets/en/38.webp)
@@ -196,7 +196,7 @@ Baada ya hapo, wawasiliani wataonekana kwenye skrini kuu.
 Kubofya kwenye ikoni na penseli, chini kulia, huwasha skrini ili kuongeza wawasiliani zaidi, lakini si tu.
 
 
-Telegramu inatoa uwezekano wa kutafuta **Vikundi** kwenye mada maalum, ambayo ni kama mabaraza ambapo watumiaji mbalimbali hukusanyika ili kuzungumza kuhusu mada mahususi, au **Vituo**, kwa kawaida hutumika kama njia ya taarifa ambapo wasimamizi pekee wanaweza kuchapisha na wafuasi wanaweza kutumia maudhui.
+Telegram inatoa uwezekano wa kutafuta **Vikundi** kwenye mada maalum, ambayo ni kama mabaraza ambapo watumiaji mbalimbali hukusanyika ili kuzungumza kuhusu mada mahususi, au **Vituo**, kwa kawaida hutumika kama njia ya taarifa ambapo wasimamizi pekee wanaweza kuchapisha na wafuasi wanaweza kutumia maudhui.
 
 
 ![image](assets/en/44.webp)
@@ -226,13 +226,13 @@ Unaweza kufikia menyu ya hali ya juu sana kwa kubofya vitone 3 kwenye sehemu ya 
 
 Kwa chaguo-msingi, kila mtu, kutoka kwa watumiaji binafsi hadi vituo vya mada, hutambuliwa kwa mpini wao. Unapotafuta mtu au kitu, inatosha kuweka alama ya saa `@` ikifuatiwa na jina.
 
-⚠️Tahadhari: **epuka kujiunga na vikundi na vituo bila kuthibitisha uhalisi wake**. Ili kupata chaneli/kikundi rasmi cha Telegramu cha kampuni au mada unayotaka kufuata, tafuta usaidizi kutoka kwa sehemu ya _Mawasiliano_ ya tovuti rasmi au kutoka kwa vyanzo vinavyotegemewa sana.
+⚠️Tahadhari: **epuka kujiunga na vikundi na vituo bila kuthibitisha uhalisi wake**. Ili kupata chaneli/kikundi rasmi cha Telegram cha kampuni au mada unayotaka kufuata, tafuta usaidizi kutoka kwa sehemu ya _Mawasiliano_ ya tovuti rasmi au kutoka kwa vyanzo vinavyotegemewa sana.
 
 
 ### Vipengele vya Juu vya Utumaji ujumbe
 
 
-Telegramu hukuruhusu kutumia vipengele vya kipekee vya kina linapokuja suala la kubadilishana ujumbe. Ingiza gumzo na ubofye mandharinyuma, karibu na ujumbe wowote kutoka kwa mtumaji mwingine.
+Telegram hukuruhusu kutumia vipengele vya kipekee vya kina linapokuja suala la kubadilishana ujumbe. Ingiza gumzo na ubofye mandharinyuma, karibu na ujumbe wowote kutoka kwa mtumaji mwingine.
 
 
 Msururu wa chaguzi unaonekana ambao unaweza:
@@ -263,7 +263,7 @@ Unaweza pia kuambatisha faili kubwa, kubadilishana vyombo vya habari "nzito" kwa
 Miongoni mwa vipengele vingi vya ajabu vya Telegram, pia kuna wingu la kibinafsi ambalo - wakati wa kuandika - ni ** ukomo **.
 
 
-Tunazungumza kuhusu "Ujumbe Uliohifadhiwa" maarufu, au _Ujumbe uliohifadhiwa_ wa Telegramu. Ni gumzo ambapo unaweza kutuma karibu **(1)** aina yoyote ya taarifa, kwa mfano kuhamisha faili kutoka kwa Kompyuta hadi kwa simu ya mkononi na kinyume chake.
+Tunazungumza kuhusu "Ujumbe Uliohifadhiwa" maarufu, au _Ujumbe uliohifadhiwa_ wa Telegram. Ni gumzo ambapo unaweza kutuma karibu **(1)** aina yoyote ya taarifa, kwa mfano kuhamisha faili kutoka kwa Kompyuta hadi kwa simu ya mkononi na kinyume chake.
 
 
 Ili kufikia _Ujumbe Uliohifadhiwa_ wa akaunti yako, nenda kwenye menyu kuu na uchague kipengee husika kati ya chaguo zinazoonekana kwenye skrini.
@@ -304,7 +304,7 @@ Unachohitaji kufanya ni kuandika ujumbe lakini, badala ya kuutuma mara moja, bon
 ### Inafuta akiba ya simu yako
 
 
-Zoezi lingine muhimu la kufanya simu yako ifanye kazi vizuri ni kufuta akiba ya Telegramu mara kwa mara. Kulingana na vikundi na idhaa ngapi unazofuata, kwa hakika, maelezo na midia kutoka kwa vyanzo hivi vinaweza kujilimbikiza kwenye akiba, na kufanya simu yako kuwa polepole.
+Zoezi lingine muhimu la kufanya simu yako ifanye kazi vizuri ni kufuta akiba ya Telegram mara kwa mara. Kulingana na vikundi na idhaa ngapi unazofuata, kwa hakika, maelezo na midia kutoka kwa vyanzo hivi vinaweza kujilimbikiza kwenye akiba, na kufanya simu yako kuwa polepole.
 
 
 Ingiza menyu kuu tena kwa kubofya pau tatu zilizo juu kulia na uchague _Wasifu Wangu_ tena. Wakati huu, hata hivyo, chagua vitone 3 kwenye sehemu ya juu kulia.
@@ -340,7 +340,7 @@ Kukibofya kutakuonyesha skrini ya uthibitishaji, ambayo lazima uchague _Futa Cac
 ![image](assets/en/27.webp)
 
 
-Mara baada ya mchakato kukamilika, Telegramu inaonyesha skrini ambapo - chini ya matokeo ya kusafisha - pia inaonekana mazingira ya kuvutia, uwezekano wa kuchagua ni kiasi gani nafasi ya cache inapaswa kujitolea kwa vyombo vya habari.
+Mara baada ya mchakato kukamilika, Telegram inaonyesha skrini ambapo - chini ya matokeo ya kusafisha - pia inaonekana mazingira ya kuvutia, uwezekano wa kuchagua ni kiasi gani nafasi ya cache inapaswa kujitolea kwa vyombo vya habari.
 
 Ninapendekeza usiweke nafasi isiyo na kikomo ya picha na video, lakini kuruhusu programu kuondoa faili nzito mara kikomo hiki kitakapofikiwa.
 
@@ -350,10 +350,10 @@ Unaweza kuona kwenye picha ifuatayo wapi kupata mpangilio huu.
 ![image](assets/en/28.webp)
 
 
-## Desktop ya Telegraph
+## Desktop ya Telegram
 
 
-Telegramu inaweza kutumika kutoka kwa kompyuta yako, ili ilandanishwe na akaunti inayoonyeshwa kwenye simu yako. Unaweza kuchagua kutopakua programu na kuitumia kupitia wavuti pekee. Walakini, toleo hili lina mapungufu ikilinganishwa na lile linaloendeshwa kwenye kompyuta, kwa hivyo ninapendekeza kupakua na kusakinisha ili kutumia zana hii yenye nguvu zaidi.
+Telegram inaweza kutumika kutoka kwa kompyuta yako, ili ilandanishwe na akaunti inayoonyeshwa kwenye simu yako. Unaweza kuchagua kutopakua programu na kuitumia kupitia wavuti pekee. Walakini, toleo hili lina mapungufu ikilinganishwa na lile linaloendeshwa kwenye kompyuta, kwa hivyo ninapendekeza kupakua na kusakinisha ili kutumia zana hii yenye nguvu zaidi.
 
 
 Chaguzi zote zinazoonekana hadi sasa na mtindo wa simu, zinaweza kutumiwa kwa njia sawa kutoka kwa kompyuta yako. Pia kwa usakinishaji huu nenda kwa tovuti rasmi [telegram.org](https://telegram.org). Kutoka kwa ukurasa wa nyumbani chagua _Telegram kwa PC/Linux_.
@@ -364,13 +364,13 @@ Katika skrini inayofungua, bofya ili kupakua inayoweza kutekelezwa inayofaa kwa 
 ![image](assets/en/15.webp)
 
 
-Sakinisha Telegramu na uizindue, ili upate skrini ya kwanza mara moja ambapo utabofya _Anza Kutuma Ujumbe_.
+Sakinisha Telegram na uizindue, ili upate skrini ya kwanza mara moja ambapo utabofya _Anza Kutuma Ujumbe_.
 
 
 ![image](assets/en/16.webp)
 
 
-Nambari ya QR itaonyeshwa kwenye skrini, ili kuchanganuliwa na kifaa chako cha rununu, ambayo Telegraph tayari inafanya kazi: hivi ndivyo unavyoweza kutumia akaunti hiyo kupitia eneo-kazi.
+Nambari ya QR itaonyeshwa kwenye skrini, ili kuchanganuliwa na kifaa chako cha rununu, ambayo Telegram tayari inafanya kazi: hivi ndivyo unavyoweza kutumia akaunti hiyo kupitia eneo-kazi.
 
 
 ![image](assets/en/17.webp)
@@ -418,16 +418,16 @@ Arifa kwenye simu yako inathibitisha kuwa kifaa kipya kimeongezwa.
 ![image](assets/en/23.webp)
 
 
-Hasa, Telegramu inafanya kazi na inatumika pia kwenye kompyuta yako ya mezani.
+Hasa, Telegram inafanya kazi na inatumika pia kwenye kompyuta yako ya mezani.
 
 
 ### Simu ya Kikundi
 
 
-Ikiwa wewe ni msimamizi au mmiliki wa kikundi cha Telegraph, unaweza kuanzisha simu kutoka kwa menyu ya kikundi yenyewe. Kwa njia hii, unaweza kutiririsha moja kwa moja na washiriki wengi, kuwarekodi katika sauti na video, kuzishiriki, au kuzitumia kwa madhumuni kama vile elimu.
+Ikiwa wewe ni msimamizi au mmiliki wa kikundi cha Telegram, unaweza kuanzisha simu kutoka kwa menyu ya kikundi yenyewe. Kwa njia hii, unaweza kutiririsha moja kwa moja na washiriki wengi, kuwarekodi katika sauti na video, kuzishiriki, au kuzitumia kwa madhumuni kama vile elimu.
 
 
-Katika picha ifuatayo, unaweza kuona jinsi ya kuanza simu ya kikundi kwa kutumia desktop ya Telegraph: nenda kwenye gumzo sawa na katika sehemu ya juu ya kulia ya skrini kuna ikoni ya skrini. Kwa kubofya hapo, unaweza kuamua ikiwa utaanzisha simu mara moja au uiratibu kwa muda ulioamuliwa mapema.
+Katika picha ifuatayo, unaweza kuona jinsi ya kuanza simu ya kikundi kwa kutumia desktop ya Telegram: nenda kwenye gumzo sawa na katika sehemu ya juu ya kulia ya skrini kuna ikoni ya skrini. Kwa kubofya hapo, unaweza kuamua ikiwa utaanzisha simu mara moja au uiratibu kwa muda ulioamuliwa mapema.
 
 
 ![image](assets/en/47.webp)
@@ -436,4 +436,4 @@ Katika picha ifuatayo, unaweza kuona jinsi ya kuanza simu ya kikundi kwa kutumia
 ### Mazingatio ya Mwisho
 
 
-Kwa kuwa sasa umesoma somo hili, una uwezo kamili wa kuchagua jinsi ya kutumia Telegramu, bila kuathiriwa na kelele inayotokana na kelele za watumiaji wake, au na watu wa kawaida. Unaweza kuanza kwa mbinu nyepesi kisha ugundue jinsi ya kufaidika nayo, kwa mahitaji yako ya kibinafsi, programu hii ya kutuma ujumbe.
+Kwa kuwa sasa umesoma somo hili, una uwezo kamili wa kuchagua jinsi ya kutumia Telegram, bila kuathiriwa na kelele inayotokana na kelele za watumiaji wake, au na watu wa kawaida. Unaweza kuanza kwa mbinu nyepesi kisha ugundue jinsi ya kufaidika nayo, kwa mahitaji yako ya kibinafsi, programu hii ya kutuma ujumbe.

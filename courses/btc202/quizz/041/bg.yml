@@ -1,0 +1,9 @@
+question: Кои приложения за самостоятелно хостване могат да бъдат инсталирани чрез Umbrel?
+answer: Nextcloud
+wrong_answers:
+  - Диск на Google
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel предлага магазин за приложения с услуги за самостоятелно хостване, като например Nextcloud, за самостоятелно съхраняване и синхронизиране на файлове.
+reviewed: true

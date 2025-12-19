@@ -1,0 +1,9 @@
+question: Kto był ostatnim głównym opiekunem Bitcoin core przed zniesieniem tej roli w 2023 roku?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan pełnił tę funkcję w latach 2014-2023, zastępując Gavina Andresena i poprzedzając zaprzestanie pełnienia tej funkcji.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Welche Python-Funktion wird speziell für eine effiziente modulare Potenzierung bei kryptografischen Operationen erwähnt?
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(base, exp, prime)
+  - exp(basis, mod, feld)
+  - mult(base, exp, modulo)
+explanation: |
+  Die in Python eingebaute Funktion pow(base, exp, mod) wurde speziell für die effiziente modulare Potenzierung entwickelt, die für kryptografische Operationen mit großen Exponenten entscheidend ist. Diese Funktion verwendet optimierte Algorithmen, um (base^exp) mod zu berechnen, ohne das potenziell enorme Zwischenergebnis von base^exp vorher berechnen zu müssen. Die anderen Optionen sind keine gültigen Python-Funktionen - mod(), exp() und mult() mit diesen Parametermustern existieren nicht in der Python-Standardbibliothek für kryptografische modulare Arithmetik.

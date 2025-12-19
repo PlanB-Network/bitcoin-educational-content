@@ -5,5 +5,5 @@ wrong_answers:
   - Create new addresses for users
   - Convert bitcoins into fiat currencies
 explanation: |
-  A Bitcoin node keeps a copy of the Blockchain and participates in the validation and relaying of transactions and blocks.
-reviewed: false
+  A Bitcoin node maintains a copy of the Blockchain and participates in validating and relaying transactions and blocks.
+reviewed: true

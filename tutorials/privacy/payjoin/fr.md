@@ -44,4 +44,4 @@ Si vous souhaitez analyser une véritable transaction Payjoin, en voici une que 
 - https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.
 - https://payjoin.org/
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

@@ -708,7 +708,7 @@ Tor veza je neophodna ako želite pristupiti svom čvoru izvan vaše lokalne mre
 Za više informacija o softveru Sparrow Wallet, imamo sveobuhvatan vodič :
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Zaključak
 
 

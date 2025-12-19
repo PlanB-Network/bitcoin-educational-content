@@ -54,7 +54,7 @@ Theo cách này, bạn sẽ giữ được quyền tự quản lý vĩnh viễn 
 
 
 
-Exchange nguyên tử hoạt động với hợp đồng thông minh [HTLC](https://planb.network/resources/glossary/htlc) (*Khóa thời gian băm Contract*). Trong loại Contract này, số tiền được "khóa" trong một kênh hai chiều và giới hạn thời gian được áp dụng, do đó nếu giao dịch không hoàn tất trong một khoảng thời gian nhất định, số dư sẽ được trả về cho người gửi. Đây là cơ chế được nền tảng Boltz sử dụng.
+Exchange nguyên tử hoạt động với hợp đồng thông minh [HTLC](https://planb.academy/resources/glossary/htlc) (*Khóa thời gian băm Contract*). Trong loại Contract này, số tiền được "khóa" trong một kênh hai chiều và giới hạn thời gian được áp dụng, do đó nếu giao dịch không hoàn tất trong một khoảng thời gian nhất định, số dư sẽ được trả về cho người gửi. Đây là cơ chế được nền tảng Boltz sử dụng.
 
 
 
@@ -116,9 +116,9 @@ Sau khi hoàn tất các cấu hình cơ bản, hãy chèn số lượng Exchang
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ![swap](assets/fr/07.webp)
 
@@ -152,9 +152,9 @@ Sau đó nhấp vào nút **Tạo Exchange nguyên tử** và tiến hành thanh
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 Sau khi thanh toán được thực hiện và xác nhận, bạn sẽ tự động nhận được số tiền tương ứng trên Lightning Wallet của mình.
 
@@ -188,6 +188,6 @@ Boltz mang đến cho bạn mức độ bảo mật cao nhờ khả năng truy c
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 Bây giờ bạn đã quen thuộc với Boltz, một nền tảng Exchange độc đáo cho phép khả năng tương tác giữa các lớp khác nhau của hệ sinh thái Bitcoin.

@@ -12,7 +12,7 @@ _यह ट्यूटोरियल_ [Bitcoin कैंपस](https://linktr
 
 Satoshi का Wallet एक Lightning Network Wallet है, कस्टोडियल, और उपयोग करने में बहुत सरल है।
 
-पाठ्यक्रम [BTC105 - अभी खोजें](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) के प्रयोजनों के लिए, इसका उपयोग Redeem Lightning Network वाउचर के लिए किया जाता है।
+पाठ्यक्रम [BTC105 - अभी खोजें](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) के प्रयोजनों के लिए, इसका उपयोग Redeem Lightning Network वाउचर के लिए किया जाता है।
 
 
 **हमेशा याद रखें**: _आपकी चाबियाँ नहीं, आपके सिक्के नहीं_

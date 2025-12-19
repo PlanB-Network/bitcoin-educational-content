@@ -11,15 +11,16 @@ non_translatable:
   - equation
   - snippet
   - planb_link
+  - video_id
 
 # Properties that should be translated
 translatable:
   - name
   - description
-  - term
   - goal
   - objectives
   - paragraph
   - list
   - markdown_header
   - quote
+  - term

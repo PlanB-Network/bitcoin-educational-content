@@ -90,7 +90,7 @@ Du kan skriva den på papper eller, för ökad säkerhet, gravera den på rostfr
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Klicka på meddelandet som visas högst upp på Interface "*Spara din Wallet...*".
 
@@ -263,9 +263,9 @@ Gratulerar, du vet nu hur du konfigurerar och använder Phoenix. Om du tyckte at
 För att ta saker ett steg längre, kolla in den här handledningen om Alby Hub, en annan innovativ och lättanvänd lösning för att starta din egen Lightning-nod:
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Och för att ta reda på mer om den tekniska driften av Lightning Network kan du hitta Fanis Michalakis utmärkta gratisutbildning om Plan ₿ Network :
+Och för att ta reda på mer om den tekniska driften av Lightning Network kan du hitta Fanis Michalakis utmärkta gratisutbildning om Plan ₿ Academy :
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

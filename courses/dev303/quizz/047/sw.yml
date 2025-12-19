@@ -1,0 +1,8 @@
+question: Ni tofauti gani kuu kati ya jinsi Rust inavyotekeleza sheria za kukopa na jinsi RefCell inavyozitekeleza?
+answer: Rust kwa kawaida hutekeleza sheria za kukopa wakati wa kukusanya, huku RefCell ikizitekeleza wakati wa utekelezaji
+wrong_answers:
+  - Rust kwa kawaida huruhusu marejeleo mengi yanayoweza kubadilishwa, huku RefCell ikiyawekea mipaka kwa moja
+  - Rust kwa kawaida hutumia hesabu ya marejeleo kwa usalama, huku RefCell ikitumia uchanganuzi tuli
+  - Rust kwa kawaida inahitaji usimamizi dhahiri wa kumbukumbu, huku RefCell ikishughulikia kiotomatiki
+explanation: |
+  Ubunifu muhimu wa RefCell ni kuhamisha utekelezaji wa sheria za kukopa kutoka wakati wa kukusanya hadi wakati wa utekelezaji. Marejeleo ya kawaida ya Rust hukaguliwa na mkusanyaji wakati wa kukusanya ili kuhakikisha usalama, lakini RefCell hufanya ukaguzi huu huo wakati programu inapoendelea kufanya kazi. Hii inaruhusu RefCell kutoa mabadiliko ya ndani katika hali ambapo uchanganuzi tuli wa mkusanyaji ni wa kihafidhina sana, lakini huja na mabadiliko ya hofu zinazowezekana za wakati wa utekelezaji ikiwa sheria za kukopa zimekiukwa. Chaguzi zingine zinaelezea vibaya mifumo ya msingi ya usalama ya Rust au tabia halisi ya RefCell.

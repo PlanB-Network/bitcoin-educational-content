@@ -6,4 +6,4 @@ wrong_answers:
   - Pieter Wuille
 explanation: |
   Bitcoin Knots est maintenu par Luke Dashjr et constitue le principal client alternatif à Bitcoin Core.
-reviewed: false
+reviewed: true 

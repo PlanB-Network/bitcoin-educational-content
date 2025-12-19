@@ -42,7 +42,7 @@ Ako želite da idete dalje, pogledajte tutorijal o Nmap:
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ## II. Početak rada sa Angry IP Scanner
 
@@ -181,4 +181,4 @@ Ako želite koristiti **Nmap** sa grafičkim Interface, možete koristiti **apli
 
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d

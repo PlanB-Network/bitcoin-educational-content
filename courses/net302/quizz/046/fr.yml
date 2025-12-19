@@ -6,4 +6,4 @@ wrong_answers:
   - OSPF
 explanation: |
   Le protocole ARP (Address Resolution Protocol) réalise la correspondance entre adresses IP et adresses MAC dans les réseaux locaux.
-reviewed: false
+reviewed: true 

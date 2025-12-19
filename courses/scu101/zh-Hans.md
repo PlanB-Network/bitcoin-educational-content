@@ -30,6 +30,8 @@ Théo；贡献
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
 
+:::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
+
 **目标：改善您的安全技能！**
 
 欢迎大家参加这个专门讲解数字安全的教育项目。所有人都可以参加这个培训课程并不需要拥有计算机科学的先验知识。我们的主要目标在于为您提供必要的知识和技能，以便您能够更安全且更隐私地探索数字的世界。
@@ -53,13 +55,16 @@ Théo；贡献
 
 首先，我们将讨论选择网络浏览器的重要性及其对安全的影响。然后，我们将探讨浏览器的具体细节，特别是关于Cookie（数码存根）管理的内容。我们还将看到如何使用诸如TOR之类的工具以确保更安全、更匿名的浏览体验。此后，我们将专注于使用VPN来增强您的数据保护。最后，我们将阐述安全使用WiFi连接的建议。
 
-![](assets/en/1.webp)
+![image](assets/zh-Hans/001.webp)
 
 **第2节：计算机使用的最佳实践**
 
 - 第3章 - 计算机使用
 - 第4章 - 黑客攻击与备份管理
-  在本节中，我们将涵盖计算机安全的三个关键领域。首先，我们将探索不同的操作系统：Mac、PC 和 Linux，强调它们的特点和优势。然后，我们将深入研究有效防御黑客攻击并加强设备安全的方法。最后，我们将强调定期保护和备份数据的重要性，以防止任何数据丢失或勒索软件的威胁。![](assets/en/2.webp)
+
+在本节中，我们将涵盖计算机安全的三个关键领域。首先，我们将探索不同的操作系统：Mac、PC 和 Linux，强调它们的特点和优势。然后，我们将深入研究有效防御黑客攻击并加强设备安全的方法。最后，我们将强调定期保护和备份数据的重要性，以防止任何数据丢失或勒索软件的威胁。
+  
+![image](assets/zh-Hans/002.webp)
 
 **第3节：解决方案的实施**
 
@@ -70,9 +75,11 @@ Théo；贡献
 在这个实践性的第三部分，我们将转向具体解决方案的实施。
 
 首先，我们将理解如何保护您的电子邮件收件箱，其对您的通信方面至关重要，而且经常是黑客攻击的目标。然后，我们将向您介绍密码管理器：一个实用的解决方案，可以让您不再忘记或混淆密码，同时保持密码的安全。最后，我们将讨论一个额外的安全措施，即双因素认证，它为您的账户作为额外的保护层。一切都将被清晰和易于理解地描述。
-![](assets/en/3.webp)
+
+![image](assets/zh-Hans/003.webp)
 
 准备好加强您的数字安全并重新掌控您的数据了吗？让我们开始吧！
+
 # 您需要理解的在线浏览的一切
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
@@ -81,18 +88,22 @@ Théo；贡献
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
 
+:::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
+
 在浏览互联网时，重要的是要避免某些常见错误以保护您的在线安全。以下是一些避免它们的提示：
 
 ### 下载软件时务必谨慎：
 
 建议从发布者的官方网站，而不是通用网站网站下载软件。
 示例：通过 www.signal.org/download 而不是 www.logicieltelechargement.fr/signal。
-![](assets/notext/4.webp)
+
+![image](assets/zh-Hans/004.webp)
 
 我们还建议优先选择开源软件，因为它们通常更安全，且不含恶意软件。“开源”软件指的是其代码公开、任何人都可以访问的软件。这允许您对其进行验证，以便保证没有任何隐藏的窃取个人数据的访问渠道。
 
 > 奖励：开源软件通常是免费的！这所大学是100%开源的，所以您也可以在我们的GitHub上检查我们的代码。
-> ![](assets/notext/5.webp)
+
+![image](assets/zh-Hans/005.webp)
 
 ### Cookie管理：常见错误和最佳实践
 
@@ -105,6 +116,8 @@ Cookie是网站创建的文件，用于在您的设备上存储信息。虽然�
 有两大类浏览器：基于Chrome的和基于Firefox的。
 尽管两种浏览器家族提供相似级别的安全性，但建议避免使用Google Chrome浏览器，因为它包含跟踪器。相对于Chrome，其他的浏览器如Chromium或Brave可能更受欢迎。我们特别推荐Brave，因为它内置了广告拦截器。访问某些网站可能需要使用多种浏览器。
 
+![image](assets/zh-Hans/006.webp)
+
 ### 私密浏览、TOR以及更安全匿名浏览的其他选择
 
 虽然互联网服务提供商能够观察您的浏览活动，但私密浏览可以让您不在计算机上留下痕迹。每次浏览结束时，Cookies会被自动删除，允许您接受所有Cookies而不被追踪。在购买在线服务时，私密浏览可能很有用，因为网站会追踪我们的搜索习惯，并按照这些数据调整价格。然而，重要的是要注意，私密浏览推荐用于临时和特定的浏览活动，而不是一般的互联网浏览。
@@ -113,11 +126,15 @@ TOR（The Onion Router）网络是更为高级的方案，它通过掩盖用户�
 
 TOR是合法的，记者、自由活动家以及希望在专制国家逃避审查的其他人都使用它。然而，重要的是要理解，TOR不保护所访问的网站，也不保证计算机本身的安全。此外，使用TOR可能会减慢互联网连接速度，因为数据在到达目的地之前需要通过其他三个人的计算机传输。必须注意的是，TOR不是保证100%匿名的万无一失的解决方案，不应用于非法活动。
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+![image](assets/zh-Hans/007.webp)
+
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## VPN和互联网连接
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
+
+:::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 ### VPN（Virtual Private Network，虚拟专用网）
 
@@ -125,15 +142,21 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 'VPN是加密通过互联网传输的数据的工具，使连接更加安全。在专业方面中，VPN允许员工远程安全访问公司的内部网络。交换的数据被加密，使第三方更难拦截。除了保护访问内部网络外，使用VPN还可以让用户通过公司的内部网络路由其互联网连接，给人一种连接来自公司的印象。这对于访问地理位置受限的在线服务特别有用。
 
+![image](assets/zh-Hans/008.webp)
+
 ### VPN的类型
 
 主要有两种类型的VPNs：企业VPN和消费者VPN，如NordVPN。企业VPN往往更昂贵且更为复杂，而消费者VPN通常更易于访问和用户友好。例如，NordVPN允许用户通过位于另一个国家的服务器连接到互联网，这可以绕过地理限制。
-然而，使用消费者级VPN并不能保证完全的匿名性。许多VPN提供商会保留用户的信息，这可能会危及他们的匿名性。尽管VPN对于提高在线安全很有用，但它们并不是万能的解决方案。它们对于某些特定用途（如访问地理限制服务或在旅行时提高安全性）是有效的，但它们并不保证提供完全的安全。选择VPN时，重要的是要优先考虑可靠性和技术性，而不是流行度。通常，最安全的方案是收集最少个人信息的VPN提供商。像iVPN和Mullvad这样的服务不收集个人信息，甚至允许使用比特币支付以提高隐私性。![](assets/notext/9.webp)
+
+然而，使用消费者级VPN并不能保证完全的匿名性。许多VPN提供商会保留用户的信息，这可能会危及他们的匿名性。尽管VPN对于提高在线安全很有用，但它们并不是万能的解决方案。它们对于某些特定用途（如访问地理限制服务或在旅行时提高安全性）是有效的，但它们并不保证提供完全的安全。选择VPN时，重要的是要优先考虑可靠性和技术性，而不是流行度。通常，最安全的方案是收集最少个人信息的VPN提供商。像iVPN和Mullvad这样的服务不收集个人信息，甚至允许使用比特币支付以提高隐私性。
+
+![image](assets/zh-Hans/009.webp)
+
 最后，VPN还可以用来屏蔽在线广告，提供更舒适和更安全的浏览体验。然而，重要的是要进行自己的研究，找到最适合您特定需求的VPN。即使在家上网，也建议使用VPN来增强安全性。这有助于确保在线交换数据的更高安全级别。最后，确保检查URL和地址栏中的小锁，以确认您访问的是意图访问的网站。
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 ### HTTPS & 公共Wi-Fi网络
 
@@ -142,7 +165,9 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 在欧盟，数据保护由通用数据保护条例（GDPR）进行规范。因此，使用欧洲的Wi-Fi接入点提供商，如SNCF，更为安全，因为他们不会转售用户连接数据。然而，仅仅因为一个网站显示了一个锁并不能保证其真实性。重要的是要通过证书系统验证网站的公钥，以确认其真实性。尽管数据加密可以防止第三方截获交换的数据，恶意个体仍然可能冒充该网站并以明文形式传输数据。
 
 为了避免在线诈骗，验证您正在浏览的网站身份至关重要，特别是通过检查扩展名和域名。此外，您要保持警惕，骗子可以使用URL中相似字母来欺骗用户。
-![](assets/en/10.webp)
+
+![image](assets/zh-Hans/010.webp)
+
 总之，无论是企业还是个人用户，VPN的使用可以大大提高在线安全，。此外，养成良好的浏览习惯可以有助于更好的数字卫生。在本课程的下一部分，我们将讨论计算机安全，包括更新、杀毒软件和密码管理。
 
 # 计算机使用的最佳实践
@@ -153,6 +178,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
 
+:::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
+
 在当今的数字世界中，我们的计算机安全是一个主要关注点。今天，我们将讨论三个关键点：
 
 - 选择计算机
@@ -162,9 +189,14 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ### 选择计算机和操作系统
 
 关于计算机的选择，旧计算机和新计算机在安全性方面没有显著的差异。然而，操作系统之间存在安全差异：Windows、Linux和Mac。
+
+![image](assets/zh-Hans/011.webp)
+
 关于Windows，建议不要日常使用管理员账户，而是创建两个单独的账户：一个管理员账户和一个日常使用的账户。由于Windows用户众多且从用户切换到管理员相对容易，它往往更容易暴露于恶意软件之下。另一方面，Linux和Mac上的威胁较少见。
 
 操作系统的选择应基于您的需求和偏好。近年来，Linux系统经历了明显的发展，并在用户友好方面有所提升。对初学者来说，Ubuntu是一个有趣的选择，它拥有易于使用的图形界面。您可以通过给电脑分区来尝试使用Linux，同时保留Windows的系统。，但这可能会比较复杂。通常，我们更推荐使用专用计算机、虚拟机或USB键来测试Linux或Ubuntu。
+
+![image](assets/zh-Hans/012.webp)
 
 ### 软件更新
 
@@ -183,6 +215,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 选择和实施杀毒软件很重要。Windows Defender，Windows内置的杀毒软件，是一个安全有效的解决方案。对于一个免费解决方案来说，它非常良好，比许多在线找到的免费解决方案要好得多。实际上，应对从互联网下载的杀毒软件要保持谨慎，因为它们可能是恶意的或过时的。对于那些希望投资于付费防病毒软件的人来说，建议选择一个能智能分析未知和新兴威胁的杀毒软件，如Kaspersky。杀毒软件更新对抵御新威胁至关重要。
 
+![image](assets/zh-Hans/013.webp)
+
 > 注意：由于Linux和Mac的用户权限分离系统，它们通常无需杀毒软件。
 
 最后，以下是一些保护计算机和数据安全的良好措施。选择一个有效且用户友好的杀毒软件很重要。同时，关键的是在您的计算机上采取良好的实践，例如不插入未知或可疑的USB键。这些USB键可能包含可以在插入时自动启动的恶意程序。一旦插入，检查USB键将变得无用。一些公司因为在可访问区域，如停车场，不小心留下的USB键而成为黑客攻击的受害者。
@@ -193,6 +227,8 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ## 黑客攻击与备份管理：保护您的数据
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
+
+:::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 ### 黑客是如何攻击您？
 
@@ -213,7 +249,9 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 ### 勒索软件和类型的网络攻击：
 
 勒索软件是一种恶意软件，它加密用户数据并要求支付赎金以解密。这种类型的攻击变得越来越普遍，并且对公司或个人来说可能非常麻烦。为了保护自己，创建最敏感文件的备份是必要的！这不会阻止勒索软件，但它会让您可以简单地忽略它。
-![](assets/notext/14.webp)
+
+![image](assets/zh-Hans/014.webp)
+
 建议定期将您的重要数据备份到外部存储设备或安全的在线存储服务上。通过这样的做法，在发生网络攻击或硬件故障的情况下，您可以恢复数据而不会丢失关键信息。
 
 简单解决方案：
@@ -228,9 +266,9 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 如果您在计算机上检测到病毒，请将其从互联网断开连接，执行全面的杀毒软件扫描，并删除感染的文件。然后，更新您的软件和操作系统，并更改您的密码以防止进一步的入侵。
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 实施解决方案。
 
@@ -239,6 +277,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 管理电子邮件账户
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
+
+:::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 ### 设置新的电子邮件账户！
 
@@ -251,7 +291,9 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ### 选择电子邮件提供商和管理电子邮件地址
 
 妥善管理我们的电子邮件地址对于确保我们在线访问的安全至关重要。选择一个安全且尊重隐私的电子邮件提供商很重要。例如，ProtonMail是一个安全且尊重隐私的电子邮件服务。
-![](assets/notext/15.webp)
+
+![image](assets/zh-Hans/015.webp)
+
 在选择电子邮件提供商和创建密码时，绝对不能为不同的在线服务重复使用相同的密码。建议定期创建新的电子邮件地址，并通过使用不同的电子邮件地址来分隔用途。对于关键账户，最好选择一个安全的电子邮件服务。还应注意，某些服务限制了密码的长度，因此重要的是要意识到这一限制。还有用于创建临时电子邮件地址的服务，这些地址可用于有限期限的账户。
 
 重要的是要考虑到，像La Poste、Arobase、Wig、Hotmail这样的旧电子邮件提供商仍在使用，但它们的安全实践可能不如Gmail那样好。因此，建议拥有两个单独的电子邮件地址，一个用于一般通信，另一个用于账户恢复，后者应该更好地保护。最好避免将电子邮件地址与您的电话运营商或互联网服务提供商混合使用，因为这可能成为攻击的途径。
@@ -259,15 +301,19 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ### 我应该更换我的电子邮件账户吗？
 
 建议使用网站Have I Been Pwned (https://haveibeenpwned.com/)来检查我们的电子邮件地址是否已被泄露，并在未来的数据泄露中得到通知。黑客可以利用被黑的数据库发送网络钓鱼电子邮件或重复使用被泄露的密码。
-![](assets/notext/16.webp)
+
+![image](assets/zh-Hans/016.webp)
+
 总的来说，开始使用一个新的、更安全的电子邮件地址并不是一个坏习惯，甚至如果想要在健康的基础上重新开始，这是必要的。
 比特币奖励：为我们的比特币活动（创建交易账户）创建一个特定的电子邮件地址可能是明智的，以便真正分隔我们生活中的活动领域。
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 密码管理器
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
+
+:::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 ### 什么是密码管理器？
 
@@ -279,7 +325,8 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 - LastPass：最受欢迎的密码管理器之一。它是一项第三方服务，这意味着您的密码存储在他们的服务器上。它提供免费版本和付费版本，界面用户友好。
 - Dashlane：它也是一项第三方服务，拥有直观的界面和额外功能，如追踪信用卡信息和安全笔记。
-  ![](assets/notext/17.webp)
+
+![image](assets/zh-Hans/017.webp)
 
 ### 自托管以获得更多控制权：
 
@@ -287,7 +334,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 - KeePass：这是一个主要用于自托管的开源解决方案。您的数据默认存储在本地，但如果您愿意，您可以使用不同的方法同步密码数据库。KeePass因其安全性和灵活性而得到了广泛的认可，尽管对于初学者来说可能稍微不够易用。
 
-![](assets/notext/18.webp)
+![image](assets/zh-Hans/018.webp)
 
 对于像 KeePass 这样的自托管解决方案，可以在不使用集中式第三方服务的情况下，将数据库在多个设备之间同步。像 **Syncthing** 这样的工具可以在设备之间直接进行加密和去中心化的同步。这种方法既能让您的数据保持在您的控制之下，又能确保它在所有设备上的可用性。
 
@@ -308,13 +355,15 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 随机生成的密码提供更高级别的安全性，尽管它们可能更难记住。密码管理器可以生成更安全的随机密码。使用密码管理器，您不需要记住所有密码。重要的是逐渐用管理器生成的密码替换您的旧密码，因为它们更强大、更长。确保您的密码管理器的主密码也是强大和安全的。
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 双因素认证（2FA）
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
+
+:::video id=10fede6f-c839-4455-b324-e887c502667e:::
 
 ### 为什么要实施2FA
 
@@ -324,9 +373,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 - 由Google Authenticator或Authy之类的应用生成的代码。
 - 插入计算机的物理安全密钥。
 
-  ![](assets/notext/19.webp)
+![image](assets/zh-Hans/019.webp)
 
-  即使黑客获得了您的密码，2FA阻止他们在没有这第二重验证因素的情况下访问您的账户。这使得2FA对于保护您的在线账户免受未经授权的访问至关重要。
+即使黑客获得了您的密码，2FA阻止他们在没有这第二重验证因素的情况下访问您的账户。这使得2FA对于保护您的在线账户免受未经授权的访问至关重要。
 
 ### 选择哪个选项？
 
@@ -355,9 +404,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 指导规则：网络安全是一个不断移动的目标，它会适应您的学习旅程！
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 # 实践部分
 
@@ -369,7 +418,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 保护您的电子邮箱是确保您的在线活动安全和保护个人数据的重要步骤。本教程将逐步指导您创建和配置 ProtonMail 账户，ProtonMail 以其高安全性著称，提供端到端加密的通信服务。无论您是新手还是有经验的用户，这里提出的最佳实践将帮助您加强邮箱的安全性，同时利用 ProtonMail 的高级功能：
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## 在2FA中增强安全性
 
@@ -377,11 +426,11 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 双因素认证（2FA）已成为保护您的在线账户安全的重要措施。在本教程中，您将学习如何设置和使用2FA应用Authy，该应用生成动态的6位数代码以保护您的账户。Authy非常易于使用，并可在多个设备上同步。了解如何安装和配置Authy，从而立即加强您的在线账户安全：
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 另一种选择是使用物理安全密钥。这个额外的教程将向您展示如何设置和使用安全密钥作为第二个认证因素：
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ## 创建密码管理器
 
@@ -391,11 +440,11 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 在本教程中，了解如何配置 Bitwarden，这是一款开源的密码管理器，以及如何在所有设备上同步您的凭证，以简化日常使用：
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 对于更有经验的用户，我还提供了另一个免费且开源的软件的教程，您可以在本地使用它来管理您的密码：
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 保护您的账户
 
@@ -403,9 +452,9 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 在这两个教程中，我还将指导您如何保护您的在线账户，并解释如何逐步采用更安全的实践日常管理您的密码。
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ## 更换浏览器和VPN
 
@@ -415,13 +464,13 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 
 我建议您了解两种可靠且可以用比特币支付的VPN解决方案，即IVPN和Mullvad。这些教程将指导您如何在所有设备上安装、配置和使用Mullvad或IVPN：
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 另外，了解如何使用Tor Browser，这是一款专门设计用于保护您在线隐私的浏览器：
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ## 备份设置
 
@@ -429,11 +478,11 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 保护您的个人文件也是一个关键点。本教程将向您展示如何通过 Proton Drive 实施有效的备份策略。了解如何使用这个安全的云解决方案来应用 3-2-1 方法：将您的数据复制三份，存储在两种不同的媒介上，其中一份存储在不同的位置。这样的做法可以确保您的敏感文件的可访问性和安全性：
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 为了保护存储在可移动媒介（如 USB 闪存驱动器或外部硬盘）上的文件，我还将向您展示如何使用 VeraCrypt 轻松加密和解密这些媒介：
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # 进一步了解
 
@@ -442,6 +491,8 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 ## 如何在网络安全行业工作
 
 <chapterId>aad1ae27-4280-5b07-b9ab-118ae013951a</chapterId>
+
+:::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 ### 网络安全：一个充满无限机会其不断增长的领域
 
@@ -474,11 +525,14 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 - 管理：ISO标准，GDPR/CCPA规定。
 
 通过掌握这些技能和工具，您将能够成功地驾驭网络安全世界。
-![](assets/notext/20.webp)
+
+![image](assets/zh-Hans/020.webp)
 
 ## 与Renaud的访谈
 
 <chapterId>7d83fd98-ce22-514e-b9e8-729fbf71ee6e</chapterId>
+
+:::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 ### 高效的密码管理和认证加强：一个学术方法
 
@@ -486,7 +540,9 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 通常不建议使用浏览器扩展自动填充密码。这些工具可能使用户更容易受到网络钓鱼攻击的威胁。被公认的网络安全专家Renaud更喜欢使用KeePass进行手动管理，这涉及到手动复制和粘贴密码。扩展程序倾向于增加攻击面，可能会减慢浏览器性能，因此存在显著风险。因此，建议在浏览器上尽量少使用扩展程序。
 
 密码管理器通常鼓励使用额外的认证因素，如双因素认证。为了获得最佳安全性，建议在移动设备上保留一次性密码（One Time Password，OTP）。AndoTP提供了一个开源解决方案，用于在手机上生成和存储OTP代码。虽然Google Authenticator允许导出认证码种子，但对Google账户的备份信任度有限。因此，推荐使用OTI和AndoTP应用程序进行独立的OTP管理。
-![](assets/notext/21.webp)
+
+![image](assets/zh-Hans/021.webp)
+
 数字遗产和数字哀悼的问题提出了在一个人去世后传递密码的重要性。密码管理器通过在一个地方安全存储所有数字秘密，促进了这一过渡。密码管理器还允许识别所有开放的账户并管理其关闭或转移。建议将主密码写在纸上，但应保管在隐蔽且安全的地方。如果硬盘加密且计算机被锁定，即使在入室盗窃的情况下，也无法访问密码。
 
 ### 走向后密码时代：探索可信的替代方案

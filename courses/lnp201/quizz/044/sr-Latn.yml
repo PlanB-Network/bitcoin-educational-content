@@ -6,4 +6,4 @@ wrong_answers:
   - Traži od posredničkih čvorova da povećaju svoju likvidnost
 explanation: |
   Kada ruta ne uspe, čvor koji šalje pokušava druge alternativne rute dok se ne pronađe funkcionalna putanja ili dok se ne iscrpe sve opcije.
-reviewed: false
+reviewed: true

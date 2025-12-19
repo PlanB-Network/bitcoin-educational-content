@@ -1,0 +1,9 @@
+question: None bigenda gute iyo umugwi urenganye amategeko y’uguhurizako?
+answer: Ubwo nyene bica bivanwa n'ibihimba .
+wrong_answers:
+  - Ibitswe muri Mempool irindiriye kwemezwa
+  - Irungikwa gusa n'ibihimba vyemeza ayandi mategeko
+  - Biremezwa gusa n'amasakoshi .
+explanation: |
+  Nodes ziranka mu buryo butegekanijwe igice cose kidahuye n’amategeko y’uguhurizako.
+reviewed: true

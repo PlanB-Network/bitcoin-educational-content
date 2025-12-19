@@ -1,0 +1,9 @@
+question: 根據滲透理論，超過臨界值可確保什麼？
+answer: 整個網路的交易傳播
+wrong_answers:
+  - 立即建立新區塊
+  - 節點自動抑制成本
+  - 網路封鎖交易
+explanation: |
+  一旦超過滲透臨界值，交易幾乎會瞬間傳遍整個 Bitcoin 網路。
+reviewed: true

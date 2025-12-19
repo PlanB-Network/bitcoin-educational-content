@@ -1,5 +1,5 @@
 question: Yeni bir e-posta hesabı oluştururken temel kriter nedir?
-answer: Benzersiz ve güçlü bir parola kullanın.
+answer: Benzersiz ve güçlü bir parola kullanın. 
 wrong_answers:
   - Diğer hesaplardaki parolayı tekrar kullanın.
   - Kolay ezberlemek için basit bir şifre seçin.

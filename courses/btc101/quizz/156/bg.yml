@@ -1,0 +1,8 @@
+question: Какво е средното време между създаването на два блока в протокола Bitcoin?
+answer: 10 минути.
+wrong_answers:
+  - 5 минути.
+  - 15 минути.
+  - 20 минути.
+explanation: >-
+reviewed: true

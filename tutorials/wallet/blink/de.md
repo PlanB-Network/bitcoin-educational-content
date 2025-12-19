@@ -17,33 +17,35 @@ description: Vollständiges Blink Wallet Tutorial - Senden, Empfangen und Verwen
 ![image](assets/fr/01.webp)
 
 
-Vergessen Sie alles, was Sie über komplizierte Bitcoin-Geldbörsen zu wissen glauben. Blink ist das iPhone der Bitcoin-Geldbörsen.
+Vergiss alles, was du über komplizierte Bitcoin-Wallets denkst. Blink ist das iPhone der Bitcoin-Wallets.
 
 
-Blink, früher bekannt als Bitcoin Beach Wallet, ist eine benutzerfreundliche mobile App, die Bitcoin für jeden zugänglich macht - überall auf der Welt. Sie wurde ursprünglich [für die Bitcoin Beach-Community] (https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) in El Salvador entwickelt und hilft nun Menschen auf der ganzen Welt, Bitcoin mühelos zu senden, zu empfangen und zu nutzen.
+
+
+Einst bekannt als Bitcoin Beach Wallet, ist Blink eine nutzerfreundliche Mobile-App, die Bitcoin überall auf der Welt zugänglich macht. Sie wurde ursprünglich [für die Bitcoin Beach-Community](https://bitcoinmagazine.com/business/Bitcoin-beach-Wallet-renamed-to-blink) in El Salvador entwickelt und hilft heute Menschen weltweit, Bitcoin mühelos zu senden, zu empfangen und zu nutzen. Ob Anfänger oder Profi – diese Anleitung erklärt dir alles, was du brauchst.
 
 
 Egal, ob Sie Bitcoin zum ersten Mal benutzen oder ein erfahrener Benutzer sind, dieser Leitfaden führt Sie durch alles, was Sie wissen müssen, um loszulegen.
 
 
-### Wesentliche Merkmale:
+### Wichtige Funktionen:
 
 
 
-- Unterstützung für zwei Währungen: Halten Sie problemlos sowohl Bitcoin (BTC) als auch Stablesats (USD-Gegenwert)
-- Lightning Network: Schnelle, billige Bitcoin-Transaktionen
-- Stablesats: Halten Sie Ihren Wert in USD stabil, während Sie das Zahlungsnetzwerk von Bitcoin nutzen
-- Einfache Einrichtung: Nur Ihre Telefonnummer erforderlich
-- Globale Händlerkarte: Finden Sie Bitcoin-akzeptierende Unternehmen
+- Dualer Währungs-Support: Halte einfach sowohl Bitcoin (BTC) als auch Stablesats (USD-Äquivalent)
+- Lightning Network: Schnelle, günstige Bitcoin-Transaktionen
+- Stablesats: Behalte deinen Wert stabil in USD, während du das Bitcoins Zahlungsnetz nutzt
+- Einfache Einrichtung: Nur deine Telefonnummer nötig
+- Globaler Händler-Map: Finde Bitcoin-akzeptierende Geschäfte
 
 
-Und das Schönste daran? Sie können mit einem einzigen Fingertipp zwischen "Ich möchte Bitcoin halten, weil ich glaube, dass er steigen wird" und "Ich möchte nur stabile Dollar für mein Kaffeegeld" wechseln.
+Und das Schönste daran? Du kannst mit einem einzigen Fingertipp zwischen "Ich möchte Bitcoin halten, weil ich glaube, dass er steigen wird" und "Ich möchte nur stabile Dollar für mein Kaffeegeld" wechseln.
 
 
 ## Voraussetzungen
 
 
-Bevor Sie beginnen, benötigen Sie Folgendes:
+Bevor du startest, brauchst du:
 
 
 - Ein Smartphone (iOS oder Android)
@@ -51,35 +53,35 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 - Zugang zum Internet
 
 
-## Erstmalige Einrichtung
+## Ersteinrichtung
 
 
-Das hat viele Nutzer schockiert: Die Einrichtung von Blink geht schneller als die eines Social-Media-Kontos, denn es gibt keinen Papierkram, keine ID-Uploads, kein Warten. Einfach schnell und einfach.
+Was viele überrascht: Die Einrichtung ist schneller als ein Social-Media-Account – kein Papierkram, keine ID-Uploads, kein Warten. Einfach und schnell.
 
 
 **Der gesamte Prozess:**
 
 
 - Blink Wallet herunterladen
- - Suchen Sie nach "Blink Wallet" im [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) oder [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), je nach Ihrem Gerät.
- - Sie können es auch direkt von der [Blink Wallet Website] (https://blink.sv) herunterladen.
+ - Suche nach "Blink Wallet" im [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) oder [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), je nach Ihrem Gerät.
+ - Du kannst es auch direkt von der [Blink Wallet Website] (https://blink.sv) herunterladen.
 - Eine Wallet erstellen
- - Tippen Sie auf "Neue Wallet erstellen"
- - Akzeptieren Sie die Bedingungen und Konditionen
- - Geben Sie Ihre Rufnummer ein
- - Bestätigen Sie per SMS oder WhatsApp, um Ihren Code zu erhalten
- - Geben Sie den Code ein, um zu überprüfen
+ - Tippe auf "Neue Wallet erstellen"
+ - Akzeptiere die Bedingungen und Konditionen
+ - Gebe deine Rufnummer ein
+ - Bestätige per SMS oder WhatsApp, um deinen Code zu erhalten
+ - Gebe den Code ein, um zu verifizieren
 - Fertig, das war's.
- - Ihre Telefonnummer wird zu Ihrem Login. Das war's.
+ - Deine Telefonnummer wird zu deinem Login. Das war's.
 
 
-## Verstehen Sie Ihr Wallet Interface
+## Verständnis der Wallet-Oberfläche
 
 
 ![image](assets/fr/02.webp)
 
 
-Wenn Sie [Blink Wallet] (https://blink.sv/) zum ersten Mal öffnen, werden Sie etwas erfrischend Sauberes sehen. Keine Diagramme, die dich anschreien, keine blinkenden Zahlen, nur dein Kontostand und einige einfache Tasten.
+Wenn du die [Blink Wallet] (https://blink.sv/) zum ersten Mal öffnest, wirst du eine übersichtliche Oberfläche sehen. Keine Diagramme, keine blinkenden Zahlen – nur dein Kontostand und einfache Buttons.
 
 
 ### Überblick über den Hauptbildschirm
@@ -89,118 +91,117 @@ Wenn Sie [Blink Wallet] (https://blink.sv/) zum ersten Mal öffnen, werden Sie e
 - Gesamtsaldo: Zeigt den kombinierten Wert der Bitcoin- und USD-Salden an
 - Kontosalden:
  - Bitcoin: Abgebildet in Sats (kleinste Bitcoin-Einheit)
- - Dollar:  Ihr Wert ist in USD stabil
+ - Dollar:  Dein Wert ist in USD stabil
 
 
 
-- Aktionsschaltflächen: Vier Tasten, die Sie kennen sollten.
+- Aktions-Buttons: Vier Buttons, die du kennen solltest.
  - Konvertieren
- - Empfangen Sie
- - Senden Sie
+ - Empfangen
+ - Senden
  - QR scannen
-- Transaktionsverlauf: Alle Ihre früheren Transaktionen
-- Preisdiagramm: Bitcoin Preisverfolgung (tippen Sie auf das Chart-Symbol)
+- Transaktionsverlauf: Alle deine früheren Transaktionen
+- Preisdiagramm: Bitcoin Preisverfolgung (tippe auf das Chart-Symbol)
 
 
-### Grundlegende Einstellungen und wie Sie Ihr Lightning Address einrichten
+### Wichtige Einstellungen & Lightning-Adresse einrichten
 
 
-#### Einrichten Ihres Lightning Address
-
-
-
-- Gehen Sie zu Einstellungen → Ihr Lightning Address
-- Wählen Sie Ihre benutzerdefinierte Address (z. B. "yourname@pay.blink.sv")
-- Dies wird Ihr permanenter Bitcoin Address, den jeder benutzen kann, um Ihnen Geld zu schicken
-
-
-#### Andere Einstellungen zu konfigurieren:
+#### Lightning-Adresse einrichten:
 
 
 
-- Standardwährung: Wählen Sie, wie die Salden angezeigt werden
-- Standardkonto: Wählen Sie, wohin eingehende Gelder gehen
-- Legen Sie Ihre E-Mail fest: Fügen Sie eine E-Mail für die Wiederherstellung der Anmeldung hinzu
-- Sicherheit auf dem Gerät: PIN oder biometrische Daten aktivieren
+- Gehe zu Einstellungen → Deine Lightning-Adresse
+- Wähle deine individuelle Adresse (z. B. „deinname@pay.blink.sv“)
+- Das wird deine permanente Bitcoin-Adresse, über die dir jeder Geld senden kann
+
+
+#### Weitere Einstellungen:
+
+
+
+- Standard-Währung: Wähle, wie Kontostände angezeigt werden
+- Standard-Konto: Wähle, wohin eingehende Zahlungen gehen
+- E-Mail festlegen: Für Login-Wiederherstellung
+- Gerätesicherheit: PIN oder Biometrie aktivieren
 - Transaktionslimits:
- - Empfangen: Unbegrenzt
- - Abheben: $2.000/Tag
- - Wallet-zu-Wallet-Transfers: 4.000 $/Tag
+  - Empfangen: Unbegrenzt
+  - Abheben: 2.000 $/Tag
+  - Wallet-zu-Wallet: 4.000 $/Tag
+
+## So empfängst du Bitcoin mit Blink Wallet
 
 
-## Wie man Bitcoin mit Blink Wallet empfängt
-
-
-### Methode 1: QR-Code (am häufigsten)
+### Methode 1: QR-Code (häufigste)
 
 
 
-- Tippen Sie auf dem Startbildschirm des Blink Wallet auf "Empfangen".
-- Wählen Sie die Währung, die Sie erhalten möchten:
+- Tippe auf dem Startbildschirm der Blink Wallet auf "Empfangen".
+- Wähle die Währung, die du erhalten möchtest:
  - Bitcoin (BTC), oder
  - USD (Stablesats)
 - Um einen bestimmten Betrag anzufordern:
- - Tippen Sie auf "Betrag festlegen"
- - Geben Sie den Betrag ein, den Sie erhalten möchten
- - Teilen Sie den generierten QR-Code oder Zahlungslink mit dem Absender
+ - Tippe auf "Betrag festlegen"
+ - Gebe den Betrag ein, den du erhalten möchtest
+ - Teile den generierten QR-Code oder Zahlungslink mit dem Absender
 - Um einen flexiblen Betrag zu ermöglichen (kein fester Wert):
- - Überspringen Sie den Schritt "Betrag festlegen"
+ - Überspringe den Schritt "Betrag festlegen"
  - Einfach den QR-Code teilen
  - Der Absender entscheidet, wie viel er senden möchte
- - Der Absender entscheidet, wie viel er senden möchte
 
 
-### Methode 2: Blitzschlag Address
+### Methode 2: Lightning-Adresse
 
 
 
-- Teilen Sie Ihren Address-Blitz (yourname@pay.blink.sv) mit anderen
-- Sie können Bitcoin direkt mit nur diesem Address senden
-- Keine QR-Codes oder Rechnungen erforderlich
-- Funktioniert mit jedem Lightning-kompatiblen Wallet
+- Teile deine Lightning-Adresse (deinname@pay.blink.sv)
+- jeder kann Bitcoin an diese Adresse senden
+- funktioniert mit jeder Lightning-kompatiblen Wallet
+- keine QR-Codes oder Invoices nötig
 
 
 ### Methode 3: On-Chain Bitcoin (traditionell)
 
 
 
-- Tippen Sie auf dem Empfangsbildschirm auf "Onchain"
-- Verwenden Sie dies für traditionelle Bitcoin-Transaktionen
+- Tippe auf dem Empfangsbildschirm auf "Onchain"
+- Verwende dies für traditionelle Bitcoin-Transaktionen
 - Hinweis: Höhere Gebühren und langsamere Bestätigungszeiten
-- Am besten für größere Mengen oder wenn der Blitz nicht verfügbar ist
+- Am besten für größere Beträge oder wenn Lightning nicht verfügbar ist
 
 
-## Senden von Bitcoin mit Blink Wallet
+## So sendest du Bitcoin mit Blink Wallet
 
 
-### Versenden mit QR-Codes
-
-
-
-- Tippen Sie auf dem Hauptbildschirm auf "Senden"
-- Tippen Sie auf das Kamerasymbol, um einen QR-Code zu scannen
-- Wählen Sie, von welchem Konto Sie senden möchten (Bitcoin oder USD)
-- Überprüfen Sie den Betrag und die Gebühr
-- Bestätigen Sie die Zahlung
-
-
-### Versenden mit Zahlungsaufforderungen/Rechnungen
+### Senden mit QR-Codes
 
 
 
-- Tippen Sie auf "Senden"
-- Einfügen einer Zahlungsaufforderung (aus Text/E-Mail kopiert)
-- Befolgen Sie die gleichen Schritte wie beim Senden des QR-Codes
+- Tippe auf dem Hauptbildschirm auf "Senden"
+- Tippe auf das Kamerasymbol, um einen QR-Code zu scannen
+- Wähle von welchem Konto du senden möchtest (Bitcoin oder USD)
+- Überprüfe den Betrag und die Gebühr
+- Bestätige die Zahlung
+
+
+### Senden per Zahlungsanfragen/Rechnungen
+
+
+
+- Tippe auf „Senden“
+- Füge eine Zahlungsanfrage (aus Text/E-Mail kopiert) ein
+- Folge denselben Schritten wie beim QR-Code-Senden
+
 
 
 ### Senden an Lightning-Adressen
 
 
 
-- Tippen Sie auf "Senden"
-- Tippen oder fügen Sie den Blitz Address ein (sieht aus wie eine E-Mail)
-- Geben Sie den Betrag ein, den Sie senden möchten
-- Wählen Sie Ihr Sendekonto und bestätigen Sie
+- Tippe auf „Senden“
+- Gib die Lightning-Adresse ein (sieht aus wie eine E-Mail)
+- Gib den Betrag ein, den du senden möchtest
+- Wähle dein sendendes Konto und bestätige
 
 
 ### Senden an andere Blink-Benutzer
@@ -214,26 +215,26 @@ Wenn Sie [Blink Wallet] (https://blink.sv/) zum ersten Mal öffnen, werden Sie e
 ## Umrechnung zwischen Bitcoin und USD mit Blink Wallet
 
 
-Eine der leistungsfähigsten Funktionen von Blink Wallet ist die nahtlose Konvertierung zwischen Bitcoin und Stablesats (USD). Folgen Sie dieser einfachen Schritt-für-Schritt-Anleitung:
+Eine der leistungsfähigsten Funktionen von Blink Wallet ist die nahtlose Konvertierung zwischen Bitcoin und Stablesats (USD). Folge dieser einfachen Schritt-für-Schritt-Anleitung:
 
 
 
-- Tippen Sie auf die Schaltfläche "Konvertieren" auf dem Hauptbildschirm
-- Wählen Sie die Konvertierungsrichtung:
+- Tippe auf die Schaltfläche "Konvertieren" auf dem Hauptbildschirm
+- Wähle die Konvertierungsrichtung:
  - Bitcoin → USD
  - USD → Bitcoin
 - Betrag einstellen um:
- - Geben Sie einen bestimmten Bitcoin- oder USD-Betrag ein, oder
- - Wählen Sie einen Prozentsatz Ihres Guthabens (25%, 50%, 75%, 100%)
+ - Gebe einen bestimmten Bitcoin- oder USD-Betrag ein, oder
+ - Wähle einen Prozentsatz deines Guthabens (25%, 50%, 75%, 100%)
 - Überprüfung der Konversionsrate
-- Bestätigen Sie die Umwandlung, um den Vorgang abzuschließen.
+- Bestätige die Umwandlung, um den Vorgang abzuschließen.
 
 
 Anwendungsfälle:
 
 
 - In USD umrechnen, wenn der Bitcoin-Preis sinkt.
-- Wandeln Sie in Bitcoin um, wenn Sie langfristig halten oder investieren wollen.
+- Wandle in Bitcoin um, wenn du langfristig halten oder investieren möchtest.
 - Geben Sie in USD aus, um Preisschwankungen bei Ihren täglichen Transaktionen zu vermeiden.
 - Wechseln Sie zwischen BTC und USD, um von den Marktbewegungen zu profitieren.
 
@@ -245,143 +246,138 @@ Anwendungsfälle:
 
 
 
-- Tippen Sie auf das Symbol "Karte" am unteren Rand
-- Standorte suchen, die Bitcoin-Zahlungen akzeptieren
-- Jedes Unternehmen anzapfen:
- - Senden Sie ihnen direkt eine Zahlung
- - Wegbeschreibung über Google Maps abrufen
+- Tippe auf das „Map“-Icon unten
+- Durchsuche Standorte, die Bitcoin-Zahlungen akzeptieren
+- Tippe auf ein Geschäft, um:
+  - Direkt eine Zahlung zu senden
+  - Wegbeschreibungen über Google Maps zu erhalten
 
 
 ### Für Geschäftsinhaber: Point-of-Sale-Funktionen
 
 
-Greifen Sie auf die erweiterten Händlertools unter Einstellungen → Bezahlungsmöglichkeiten zu:
+Zugriff auf erweiterte Händler-Tools unter Einstellungen → Ways to Get Paid:
 
 
 
-- Blitz-Kasse:
- - Webbasiertes Kassenterminal
- - Verwendung auf jedem Gerät mit einem Browser
- - Rechnungen für bestimmte Beträge erstellen
+- Lightning Cash Register:
+  - Web-basierte Point-of-Sale-Kasse
+  - Nutzbar auf jedem Gerät mit Browser
+  - Erstelle Rechnungen für spezifische Beträge
 - Druckbare QR-Codes:
- - generate QR-Codes für Ihr Unternehmen
- - Drucken und Anzeigen für Kunden zum Scannen
- - Kein Betrag festgelegt - Kunden wählen, wie viel Trinkgeld sie geben möchten
+  - Generiere QR-Codes für dein Geschäft
+  - Drucke und zeige sie für Kunden zum Scannen
+  - Kein Betrag festgelegt – Kunden entscheiden, wie viel sie geben möchten
 
 
-Erfahren Sie mehr über [Blink POS] (https://www.blink.sv/blog/transform-your-payment-experience-with-the-blink-pos) und entdecken Sie wertvolle Ressourcen für Händler in den [Blink Branding and Onboarding resources] (https://www.blink.sv/en/brand).
+Erfahre mehr über [Blink POS](https://www.blink.sv/blog/transform-your-payment-experience-with-the-blink-pos) und erkunde wertvolle Händler-Ressourcen in den [Blink Branding and Onboarding resources](https://www.blink.sv/en/brand).
 
 
-## Lernen und Verdienen von Bitcoin leicht gemacht mit Blink
+## Bitcoin lernen & verdienen – ganz einfach mit Blink
 
 
-Der Abschnitt "Verdienen", der sich unten auf der Hauptseite befindet, hilft Neueinsteigern, Bitcoin kennenzulernen und gleichzeitig kleine Beträge zu verdienen:
+Der „Earn“-Bereich, unten auf der Hauptseite, hilft Neulingen, über Bitcoin zu lernen und kleine Beträge zu verdienen:
 
 
-- Tippen Sie im unteren Menü auf "Verdienen"
-- Vervollständigen Sie kurze Lektionen über Bitcoin
-- Einfache Fragen richtig beantworten
-- Verdienen Sie Sats für jede abgeschlossene Lektion
-- Bauen Sie Ihr Bitcoin-Wissen schrittweise auf
-
-
-Zu den behandelten Themen gehören:
-
-
+- Tippe auf „Earn“ im unteren Menü
+- Absolviere kurze Lektionen über Bitcoin
+- Beantworte einfache Fragen korrekt
+- Verdiene Sats für jede abgeschlossene Lektion
+- Baue dein Bitcoin-Wissen schrittweise auf
+Behandelte Themen umfassen:
 - Was ist Bitcoin?
-- Wie funktioniert Lightning Network?
+- Wie funktioniert das Lightning Network?
 - Bitcoin vs. traditionelles Geld
-- Bewährte Sicherheitsverfahren
-
-
-## Wichtige zu berücksichtigende Kompromisse
-
-
-### Aufbewahrungsort Natur
-
-
-Blink ist eine verwahrende Wallet, was bedeutet, dass sie Ihre Gelder in Ihrem Namen halten und verwalten.
+- Sicherheits-Best-Practices
 
 
 
-- Vorteile: Einfache Einrichtung, benutzerfreundlicher Interface, Kundensupport verfügbar
-- Nachteile: Sie haben keine Kontrolle über Ihre [privaten Schlüssel] (https://www.blink.sv/blog/not-your-keys-not-your-coins), d. h. Sie sind bei der Verwaltung Ihrer Gelder auf Blink angewiesen
+## Wichtige Kompromisse, die du bedenken solltest
 
 
-### Grenzwerte für Transaktionen
+### Fremdverwahrung
+
+
+Blink ist eine Custodial-Wallet, was bedeutet, dass sie dein Geld für dich verwaltet.
+
+- Vorteile: Einfache Einrichtung, nutzerfreundliche Oberfläche, verfügbarer Kundensupport
+- Nachteile: Du kontrollierst keine [privaten Schlüssel](https://www.blink.sv/blog/not-your-keys-not-your-coins), d. h., du verlässt dich darauf, dass Blink dein Geld verwaltet
+
+
+### Transaktionslimits
 
 
 
-- Es gibt tägliche Obergrenzen
-- Grenzwerte können auf Antrag erhöht werden
-- Erwägen Sie bei größeren Beträgen die Möglichkeit der Selbstverwahrung
+- Tägliche Limits existieren
+- Limits können auf Anfrage erhöht werden
+- Erwäge Self-Custody-Optionen für größere Beträge
 
 
 ### Überlegungen zum Datenschutz
 
 
 
-- Für die Kontoerstellung erforderliche Telefonnummer
-- Der Transaktionsverlauf wird auf den Servern von Blink gespeichert, was möglicherweise nicht allen Datenschutzpräferenzen entspricht
+- Telefonnummer erforderlich für die Account-Erstellung
+- Transaktionsverlauf wird auf Blinks Servern gespeichert, was möglicherweise nicht allen Datenschutzpräferenzen entspricht
 
 
-## Das Beste aus dem Blink Wallet herausholen
+## So holst du das Beste aus Blink Wallet heraus
 
 
-### Bewährte Praktiken:
-
-
-
-- Fangen Sie klein an - üben Sie zunächst mit kleinen Mengen
-- Lightning-Adressen verwenden - Geben Sie Ihren Address für einfache Zahlungen öffentlich frei
-- Den Unterschied verstehen - Wissen, wann Lightning vs. On-Chain zu verwenden ist
-- Lernen Sie weiter - Nutzen Sie den Abschnitt "Verdienen", um Ihr Bitcoin-Wissen zu erweitern
-- Berücksichtigen Sie Ihre Bedürfnisse - Bewerten Sie, ob Custodial-Lösungen für Ihren Anwendungsfall geeignet sind
-
-
-### Wann die einzelnen Funktionen zu verwenden sind:
+### Best Practices:
 
 
 
-- Bitcoin Gleichgewicht: Für langfristiges Halten/Stapeln
-- USD-Guthaben: Für stabiles Geld zum Ausgeben und zur Vermeidung von Volatilität
-- Blitzzahlungen: Für schnelle, günstige Transaktionen
+- Starte klein – Übe zuerst mit kleinen Beträgen
+- Nutze Lightning-Adressen – teile deine Adresse öffentlich für einfache Zahlungen
+- Verstehe den Unterschied – weiß, wann du Lightning vs. On-Chain nutzen solltest
+- Bleib am Lernen – nutze den Earn-Bereich, um dein Bitcoin-Wissen aufzubauen
+- Prüfe deine Bedürfnisse – evaluiere, ob Custodial-Lösungen zu deinem Anwendungsfall passen
+
+
+### Wann welche Funktion nutzen:
+
+
+
+- Bitcoin-Konto: Für langfristiges Halten/Stapeln
+- USD-Konto: Für stabiles Geld zum Ausgeben, um Volatilität zu vermeiden
+- Lightning-Zahlungen: Für schnelle, günstige Transaktionen
 - On-Chain-Zahlungen: Für größere Beträge oder wenn Lightning nicht verfügbar ist
 
 
 ## Hilfe erhalten und nächste Schritte
 
 
-### Wenn Sie Unterstützung benötigen:
+### Wenn du Support brauchst:
 
 
-
-- Prüfen Sie die Dokumentation von Blink und [FAQ] (https://faq.blink.sv/)
-- Kontaktaufnahme mit dem Kundensupport über die App
-- Prüfen Sie die [Blink-Supportseite] (https://www.blink.sv/en/support)
-- Treten Sie der [Blink Telegram Community] (https://t.me/blinkbtc) für allgemeine Fragen bei
+- Prüfe Blinks Dokumentation und [FAQ](https://faq.blink.sv/)
+- Kontaktiere den Kundensupport über die App
+- Prüfe die [Blink-Supportseite](https://www.blink.sv/en/support)
+- Trete der [Blink Telegram Community](https://t.me/blinkbtc) für allgemeine Fragen bei
 
 
 ### Ihre Bitcoin-Reise vorantreiben:
 
 
-Wenn Sie sich mit Blink vertraut gemacht haben, möchten Sie es vielleicht erkunden:
+Wenn du dich mit Blink wohlfühlst, könntest du erkunden:
 
 
 
-- Selbstverwahrte Geldbörsen für größere Beträge
-- Einen eigenen Lightning-Knoten betreiben
-- Hardware-Geldbörsen für die Langzeitspeicherung
-- Erweiterte Funktionen des Bitcoin
+- Self-Custody-Wallets für größere Beträge
+- Betrieb deines eigenen Lightning Nodes
+- Hardware-Wallets für Langzeitspeicherung
+- Weitere fortgeschrittene Bitcoin-Funktionen
 
 
-## Abschließende Überlegungen: Einfach, leistungsfähig und alltagstauglich
+
+## Abschließende Gedanken: Einfach, mächtig und bereit für den Alltagseinsatz
 
 
 ![image](assets/fr/03.webp)
 
 
-[Blink Wallet](https://blink.sv/) bietet einen hervorragenden Einstieg in die Welt von Bitcoin. Seine Kombination aus Benutzerfreundlichkeit, Doppelwährungsunterstützung und [Lightning Network](https://www.blink.sv/blog/what-is-the-lightning-network) Integration macht es ideal für:
+[Blink Wallet](https://blink.sv/) bietet einen hervorragenden Einstieg in die Welt von Bitcoin. Die Kombination aus Benutzerfreundlichkeit, Dual-Währungs-Support und [Lightning Network](https://www.blink.sv/blog/what-is-the-lightning-network) Integration macht es ideal für:
 
 
 
@@ -392,7 +388,7 @@ Wenn Sie sich mit Blink vertraut gemacht haben, möchten Sie es vielleicht erkun
 - Unternehmen, die Bitcoin-Zahlungen akzeptieren
 
 
-Auch wenn Blink Wallet auf Einfachheit und Bequemlichkeit ausgelegt ist, ist es immer gut, darüber nachzudenken, was für Sie am besten geeignet ist, sei es in Bezug auf Datenschutz, Kontrolle oder Transaktionsgrenzen. Wenn Sie sich mit Bitcoin besser zurechtfinden, können Sie andere Wallet-Optionen erkunden, die Ihren Bedürfnissen entsprechen
+Obwohl Blink Wallet für Einfachheit und Komfort konzipiert ist, ist es immer gut, darüber nachzudenken, was am besten zu dir passt – sei es Privatsphäre, Kontrolle oder Transaktionslimits. Wenn du dich mit Bitcoin wohler fühlst, kannst du andere Wallet-Optionen erkunden, die zu deinen Bedürfnissen passen.
 
 
-Blink Wallet ist einfach zu bedienen und für den realen Zahlungsverkehr konzipiert. Probieren Sie es aus, erkunden Sie die Funktionen, und steigern Sie Ihr Vertrauen und Ihr Verständnis für Bitcoin durch praktische Anwendung.
+Blink Wallet ist einfach zu nutzen und für reale Zahlungen konzipiert. Probier es aus, erkunde die Funktionen und steigere dein Vertrauen und Verständnis von Bitcoin durch praktische Nutzung.

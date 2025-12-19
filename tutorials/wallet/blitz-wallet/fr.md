@@ -22,7 +22,7 @@ Blitz Wallet étant un portefeuille d'auto détention de bitcoin, vous pouvez ch
 
 Ici, nous partons sur la création d'un nouveau portefeuille. Retrouvez ci-dessous nos recommandations sur la sauvegarde de vos backup phrases.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ❗**IMPORTANT** : Ces 12 / 24 mots de récupération sont primordiaux pour l'accès à vos bitcoins. Les perdre reviendrai à ne plus avoir l'autorisation de dépenser vos bitcoins.
 
@@ -53,7 +53,7 @@ L'une des particularités de Blitz Wallet est qu'il supporte différents réseau
 
 - **Liquid Network** : Une chaîne parallèle au Bitcoin Mainnet développé par BlockStream qui utilise des Liquid Bitcoin pour effectuer des transactions rapides et confidentielles.
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
 Par défaut, toutes vos transactions seront sur le Liquid Network mais Blitz vous permet de définir le réseau sur lequel vous souhaitez recevoir des satoshis en cliquant sur le buton **Choisir le format**.
 
@@ -95,9 +95,9 @@ En dehors des opérations de transferts de bitcoins, Blitz Wallet vous met à di
 
 ![wireguard](assets/fr/08.webp)
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 ## Blitz Wallet derrière la scène : Aller plus loin
 
@@ -109,7 +109,7 @@ Blitz utilise les micros échanges de Liquid Network afin de vous présenter vot
 
 Cette approche se justifie par le souhait de faciliter l'expérience de démarrage et d'aider les nouveaux utilisateurs d'effectuer le plus simplement possible des transactions sur le Lightning Network avec de petits montants.
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Vous pourrez constater la répartition de votre solde dans le menu **Paramètres>Balance Info**.
 
@@ -133,5 +133,5 @@ Dans le menu **Paramètres>Point-of-sale**, vous pouvez paramétrer l'identifian
 
 Si ce tutoriel vous a été utile pour votre prise en main de Blitz, nous sommes convaincus que celui sur le portefeuille Muun vous plaira tout autant. Découvrez Muun, un portefeuille simple et tout aussi puissant comme Bitcoin.
 
-https://planb.network/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
 

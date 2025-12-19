@@ -1,0 +1,9 @@
+question: Zašto se HDD ne preporučuje za Bitcoin čvor?
+answer: Zato što značajno usporava IBD i opštu upotrebu
+wrong_answers:
+  - Zato što ne može da skladišti Blockchain fajlove
+  - Zato što troši premalo energije i rizikuje eksploziju
+  - Zato što nije kompatibilno sa Bitcoin core
+explanation: |
+  Mehanički diskovi ograničavaju performanse, značajno produžavaju IBD i brzo se troše pod opterećenjem čvora.
+reviewed: true

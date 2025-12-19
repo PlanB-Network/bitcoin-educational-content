@@ -22,7 +22,7 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách sử dụ
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Tạo tài khoản Kraken
 
@@ -164,7 +164,7 @@ Sau đó, bạn sẽ được cung cấp hai tùy chọn 2FA: "passkey" cho phé
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Sau khi chọn phương pháp phù hợp nhất với mình, cuối cùng chúng ta đã sẵn sàng gửi tiền để mua những satoshi đầu tiên.
 
@@ -329,7 +329,7 @@ Nếu bạn quan tâm đến Lightning Network, chúng tôi cũng có khóa đà
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

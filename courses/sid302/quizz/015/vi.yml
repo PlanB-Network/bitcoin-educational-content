@@ -1,0 +1,8 @@
+question: Trong một HTLC được hỗ trợ bởi Taproot, thông tin nào sẽ được tiết lộ cho mạng Bitcoin khi giao dịch hoán đổi thất bại và một bên cần thu hồi tiền của họ thông qua con đường đối kháng?
+answer: Chỉ nhánh cây Merkle cụ thể chứa các điều kiện khóa băm/thời gian cần thiết để khôi phục quỹ.
+wrong_answers:
+  - "Toàn bộ logic kịch bản, bao gồm tất cả các đường dẫn thực thi có thể và khóa công khai riêng của cả hai bên."
+  - Khóa bí mật tiền ảnh và tất cả các khóa công khai tổng hợp được sử dụng trong quy trình kết hợp khóa MuSig2.
+  - Toàn bộ các điều khoản hợp đồng HTLC, bao gồm số lượng trao đổi, khung thời gian và cả địa chỉ Lightning lẫn Liquid.
+explanation: |
+  Taproot sắp xếp các điều kiện của HTLC theo cấu trúc cây Merkle, cho phép tiết lộ thông tin có chọn lọc. Khi sự hợp tác thất bại, chỉ nhánh cụ thể cần thiết để chứng minh quyền thu hồi tiền mới được tiết lộ, trong khi các chi tiết hợp đồng khác vẫn được giữ kín. Điều này khác với các HTLC truyền thống vốn công khai toàn bộ kịch bản, và khác với các trường hợp hợp tác mà không có bất kỳ chi tiết kịch bản nào được tiết lộ.

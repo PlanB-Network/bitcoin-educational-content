@@ -1,0 +1,8 @@
+question: Koju kriptografsku tehniku koristi Elements za skrivanje iznosa transakcija, a da pritom omogućava validaciju mreže?
+answer: Pedersen Commitments
+wrong_answers:
+  - Merkle Tree Heširanje
+  - Potpisi eliptičke krive
+  - SHA-256 Enkripcija
+explanation: |
+  Pedersen Commitments su specifična kriptografska tehnika korišćena u Elements' Confidential Transactions za skrivanje iznosa transakcija. Ove obaveze zamenjuju vidljive iznose kriptografskim obavezama koje validatori i dalje mogu matematički verifikovati bez otkrivanja stvarnih vrednosti. Merkle Tree Heširanje se koristi za organizovanje podataka o transakcijama u blokovima, Eliptičke Krivulje Potpisa se koriste za autorizaciju transakcija, a SHA-256 je algoritam za heširanje, ali nijedan od njih ne skriva iznose transakcija dok održava mogućnost validacije kao što to čine Pedersen Commitments.

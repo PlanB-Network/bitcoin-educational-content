@@ -1,0 +1,8 @@
+question: Liquid Networkの中で使われているBitcoinの表現名は何ですか？
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - ラップドBitcoin（WBTC）
+  - Sidechain Bitcoin (SBTC)
+  - フェデレーテッドBitcoin（FBTC）
+explanation: |
+  Liquid Bitcoin（LBTC）は、Liquidサイドチェーン上に存在するBitcoinの正しい名称である。ユーザーがBitcoinをLiquidにペッグインすると、Liquid Network内での取引に使用できる同額のLBTCを受け取ることができる。WBTCはイーサリアムベースのBitcoin tokenであり、SBTCとFBTCはどの主要ネットワークでも使用されている本物のBitcoin表現ではない。

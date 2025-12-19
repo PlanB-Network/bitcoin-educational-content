@@ -8,7 +8,7 @@ description: Korzystanie z zaawansowanych opcji COLDCARD Q
 W poprzednim samouczku omówiliśmy wstępną konfigurację karty COLDCARD Q i jej podstawowe funkcje dla początkujących. Jeśli właśnie otrzymałeś kartę COLDCARD Q i jeszcze jej nie skonfigurowałeś, zalecamy rozpoczęcie od tego samouczka przed kontynuowaniem tutaj:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Ten nowy samouczek poświęcony jest zaawansowanym opcjom COLDCARD Q, przeznaczonym dla zaawansowanych i paranoicznych użytkowników. W rzeczywistości COLDCARD wyróżnia się spośród innych portfeli sprzętowych wieloma zaawansowanymi funkcjami bezpieczeństwa. Oczywiście nie musisz korzystać ze wszystkich tych opcji. Wystarczy wybrać te, które pasują do Twojej strategii bezpieczeństwa.
 
@@ -28,7 +28,7 @@ Przed rozpoczęciem upewnij się, że masz dostęp do fizycznej kopii zapasowej 
 Jeśli nie wiesz, czym jest BIP39 passphrase lub nie jest dla ciebie jasne, jak to działa, zdecydowanie zalecam wcześniejsze zapoznanie się z tym samouczkiem, który obejmuje podstawy teoretyczne potrzebne do zrozumienia ryzyka związanego z używaniem passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Należy pamiętać, że po skonfigurowaniu passphrase na Wallet, sam Mnemonic nie wystarczy do odzyskania dostępu do bitcoinów. Będziesz potrzebować zarówno Mnemonic, jak i passphrase. Co więcej, będziesz musiał wprowadzić passphrase za każdym razem, gdy odblokujesz COLDCARD Q. Zwiększa to bezpieczeństwo, ponieważ fizyczny dostęp do COLDCARD i znajomość kodu PIN są niewystarczające bez passphrase.
 
@@ -99,7 +99,7 @@ Potwierdź, że wyświetlony odcisk palca jest zgodny z odciskiem Wallet i klikn
 Należy pamiętać, że korzystanie z passphrase oznacza konieczność zaimportowania nowego zestawu kluczy pochodzących z kombinacji frazy Mnemonic i passphrase do oprogramowania zarządzającego Wallet (takiego jak Sparrow Wallet). Aby to zrobić, wykonaj krok "*Konfiguracja nowego Wallet w Sparrow*" w tym innym samouczku:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Opcje odblokowania
 
@@ -299,7 +299,7 @@ Od tej pory przy każdym włączeniu urządzenia wyświetlany będzie działają
 ![CCQ](assets/fr/34.webp)
 
 
-Na przykład można obliczyć SHA256 Hash dla "*Plan B Network*".
+Na przykład można obliczyć SHA256 Hash dla "*Plan ₿ Academy*".
 
 
 ![CCQ](assets/fr/35.webp)
@@ -366,4 +366,4 @@ Jeśli uważasz, że ten poradnik jest przydatny, będę bardzo wdzięczny, jeś
 Polecam również ten inny poradnik, w którym omawiamy wykorzystanie bezpośredniego konkurenta CCQ, Ledger Flex :
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

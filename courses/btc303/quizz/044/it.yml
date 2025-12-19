@@ -1,0 +1,9 @@
+question: Qual era il problema specifico con il fork morbido BIP66 che Shaolinfry ha citato come prova contro le forchette morbide attivate dai minatori?
+answer: il 95% del hashrate ha segnalato la disponibilità, ma circa la metà non ha effettivamente convalidato le regole aggiornate e ha estratto su un blocco non valido
+wrong_answers:
+  - I minatori si sono rifiutati di segnalare il supporto nonostante l'enorme richiesta degli utenti, causando uno stallo indefinito dell'aggiornamento
+  - Una piccola percentuale di minatori ha posto il veto all'aggiornamento per l'intera rete, nonostante il sostegno della maggioranza degli utenti
+  - L'aggiornamento ha causato una spaccatura permanente della catena perché minatori e utenti non erano d'accordo sui dettagli dell'implementazione
+explanation: |
+  L'incidente di BIP66 ha rivelato un difetto critico nei soft fork attivati dai minatori: la segnalazione della disponibilità non garantisce l'effettiva convalida. Nonostante il 95% dei minatori abbia indicato di essere pronto per l'aggiornamento, circa la metà non ha convalidato correttamente le nuove regole e ha erroneamente effettuato un mining su un blocco non valido. Ciò ha dimostrato che la segnalazione della potenza di hash può essere fuorviante e non garantisce una corretta implementazione, che era uno degli argomenti chiave di Shaolinfry per proporre le Soft fork attivate dall'utente come meccanismo di aggiornamento più affidabile.
+reviewed: false

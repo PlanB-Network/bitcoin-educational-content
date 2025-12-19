@@ -10,7 +10,7 @@ Dompet Lightning, seperti halnya semua dompet ponsel, dianggap sebagai dompet "p
 
 Jika Anda ingin mempelajari lebih lanjut tentang jaringan Lightning dan memahami cara kerjanya secara teknis, saya sarankan Anda mengikuti kursus ini:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Dalam tutorial ini, kita akan melihat **Lipa**, sebuah dompet Lightning yang sederhana dan efektif yang dikembangkan di Swiss.
 
@@ -91,7 +91,7 @@ Untuk mencadangkan dompet Anda, buka tab "Pengaturan" dan pilih "Frasa pemulihan
 
 Untuk informasi lebih lanjut tentang cara mencadangkan dan mengelola frasa pemulihan Anda dengan benar, saya sangat menyarankan untuk mengikuti tutorial lainnya, terutama jika Anda seorang pemula:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Menerima bitcoin
 

@@ -110,8 +110,8 @@ Menüüs "*AntiTracker*" valige oma anti-trackeri blokeerimisprofiil. See on mõ
 ![IVPN](assets/notext/32.webp)
 Ja nüüd olete varustatud, et täielikult nautida IVPN-i. Kui soovite samuti suurendada oma veebikontode turvalisust, kasutades kohalikku paroolihaldurit, siis kutsun teid tutvuma meie õpetusega KeePassi kohta, mis on tasuta ja avatud lähtekoodiga lahendus:
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Kui olete huvitatud teise VPN-i pakkujaga tutvumisest, mis on sarnane IVPN-iga nii omaduste kui ka hinnastamise poolest, soovitan samuti tutvuda meie õpetusega Mullvad kohta:
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

@@ -1,6 +1,6 @@
 ---
 name: Lägga till pedagogiska verktyg
-description: Hur lägger man till nytt utbildningsmaterial på PlanB Network?
+description: Hur lägger man till nytt utbildningsmaterial på Plan ₿ Academy?
 ---
 ![event](assets/cover.webp)
 
@@ -8,13 +8,13 @@ description: Hur lägger man till nytt utbildningsmaterial på PlanB Network?
 PlanB:s uppdrag är att tillhandahålla ledande utbildningsresurser om Bitcoin på så många språk som möjligt. Allt innehåll som publiceras på webbplatsen är öppen källkod och finns på GitHub, vilket gör att vem som helst kan delta i att berika plattformen.
 
 
-Utöver handledning och utbildning erbjuder PlanB Network också ett stort bibliotek med varierat utbildningsinnehåll på Bitcoin, tillgängligt för alla, [i avsnittet "BET" (_Bitcoin Educational Toolkit_)] (https://planb.network/resources/bet). Denna databas innehåller pedagogiska affischer, memes, humoristiska propagandaaffischer, tekniska diagram, logotyper och andra verktyg för användare. Målet med detta initiativ är att stödja individer och samhällen som undervisar Bitcoin runt om i världen genom att förse dem med nödvändiga visuella resurser.
+Utöver handledning och utbildning erbjuder Plan ₿ Academy också ett stort bibliotek med varierat utbildningsinnehåll på Bitcoin, tillgängligt för alla, [i avsnittet "BET" (_Bitcoin Educational Toolkit_)] (https://planb.academy/resources/bet). Denna databas innehåller pedagogiska affischer, memes, humoristiska propagandaaffischer, tekniska diagram, logotyper och andra verktyg för användare. Målet med detta initiativ är att stödja individer och samhällen som undervisar Bitcoin runt om i världen genom att förse dem med nödvändiga visuella resurser.
 
 
 Vill du vara med och berika den här databasen, men vet inte hur? Den här handledningen är för dig!
 
 
-*Det är absolut nödvändigt att allt innehåll som integreras på webbplatsen är fritt från rättigheter eller respekterar källfilens licens. Dessutom görs alla bilder som publiceras på PlanB Network tillgängliga under licensen [CC-BY-SA] (https://creativecommons.org/licenses/by-sa/4.0/).*
+*Det är absolut nödvändigt att allt innehåll som integreras på webbplatsen är fritt från rättigheter eller respekterar källfilens licens. Dessutom görs alla bilder som publiceras på Plan ₿ Academy tillgängliga under licensen [CC-BY-SA] (https://creativecommons.org/licenses/by-sa/4.0/).*
 
 ![event](assets/01.webp)
 
@@ -22,7 +22,7 @@ Vill du vara med och berika den här databasen, men vet inte hur? Den här handl
 - Först måste du ha ett konto på GitHub. Om du inte vet hur du skapar ett konto har vi gjort en detaljerad handledning för att vägleda dig.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -36,7 +36,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/03.webp)
 
 
-- Om du aldrig har bidragit till innehållet i PlanB Network tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, vilket gör att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
+- Om du aldrig har bidragit till innehållet i Plan ₿ Academy tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, vilket gör att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
 
 ![event](assets/04.webp)
 
@@ -79,10 +79,10 @@ Här är de uppgifter som ska fyllas i för varje fält:
 
 
 
-- **`byggare`**: Ange din organisations identifierare på PlanB Network. Om du ännu inte har en "project"-identifierare för ditt företag kan du skapa en genom att följa denna handledning.
+- **`byggare`**: Ange din organisations identifierare på Plan ₿ Academy. Om du ännu inte har en "project"-identifierare för ditt företag kan du skapa en genom att följa denna handledning.
 
 
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 Om du inte har någon sådan kan du använda ditt namn, din pseudonym eller ditt företagsnamn utan att skapa en byggprofil.
 
@@ -118,7 +118,7 @@ Din YAML-fil kan till exempel se ut så här:
 
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
 download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
@@ -135,7 +135,7 @@ view:
 ![event](assets/13.webp)
 - Click on your GitHub profile picture at the top right, then on `Your Repositories`:
 ![event](assets/14.webp)
-- Select your fork of the PlanB Network repository:
+- Select your fork of the Plan ₿ Academy repository:
 ![event](assets/15.webp)
 - You should see a notification at the top of the window with your new branch. It is probably called `patch-1`. Click on it:
 ![event](assets/16.webp)
@@ -152,7 +152,7 @@ view:
 - Leave the commit title as default, and make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/23.webp)
 - Return to the `assets` folder: ![event](assets/24.webp)
 - Click on the `Add file` button, then on `Upload files`: ![event](assets/25.webp)
-- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the PlanB Network site: ![event](assets/26.webp)
+- A new page will open. Drag and drop a thumbnail that represents your content into the area. This image will be displayed on the Plan ₿ Academy site: ![event](assets/26.webp)
 - It can be a preview, a logo, or an icon: ![event](assets/27.webp)
 - Once the image is uploaded, make sure the `Commit directly to the patch-1 branch` box is checked, then click on `Commit changes`: ![event](assets/28.webp)
 - Be careful, your image must be named `logo` and must be in `.webp` format. The full file name should therefore be: `logo.webp`: ![event](assets/29.webp)

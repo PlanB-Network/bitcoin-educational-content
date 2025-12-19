@@ -1,0 +1,8 @@
+question: Mitä komento `cargo new project_name` luo automaattisesti osaksi projektirakennetta?
+answer: Git-tietovarasto, Cargo.toml-tiedosto ja perus main.rs-tiedosto Hello World -ohjelmalla
+wrong_answers:
+  - Vain Cargo.toml-konfiguraatiotiedosto ja tyhjä lähdekoodihakemistorakenne
+  - Täydellinen testisarja, dokumentaatiotiedostot ja tuotantokelpoinen kokoonpano
+  - Suoritettavat binääritiedostot, kohdehakemisto ja julkaisun rakennuskonfiguraatio
+explanation: |
+  Komento `cargo new` luo kattavan projektin perustan, joka sisältää Git-tietovaraston versionhallintaa varten, Cargo.toml-tiedoston projektin konfigurointia ja riippuvuuksia varten sekä perus main.rs-tiedoston, joka sisältää "Hello, world!" -ohjelman. Tämä tarjoaa kaiken tarvittavan kehityksen aloittamiseen välittömästi. Muut vaihtoehdot ovat virheellisiä, koska cargo new ei luo testisarjoja, dokumentaatiotiedostoja, suoritettavia binääripaketteja tai rakentamisartefakteja - se luo vain alkuperäisen projektirakenteen.

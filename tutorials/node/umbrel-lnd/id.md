@@ -27,7 +27,7 @@ Untuk menginstal Umbrel dan mengonfigurasi node Bitcoin Anda, kami sarankan Anda
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Pastikan node Bitcoin Anda sudah diperbarui dan berfungsi dengan baik, karena Lightning Network bergantung pada node ini untuk semua transaksi off-chain.
 
@@ -57,7 +57,7 @@ Untuk pengenalan teoretis yang lengkap mengenai Lightning Network, kami sarankan
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Kursus ini akan memberi Anda dasar yang menyeluruh dalam konsep dasar Lightning Network, sebelum melanjutkan ke praktik dengan node LND Anda.
 
@@ -613,7 +613,7 @@ Untuk mengetahui lebih lanjut tentang cara mengonfigurasi dan menggunakan menara
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Praktik terbaik lainnya
 
 

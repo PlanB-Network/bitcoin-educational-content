@@ -1,13 +1,10 @@
 question: Jaka jest główna zaleta złota jako waluty?
-answer: Jest niezwykle wytrzymały.
+answer: Jest niezwykle wytrzymałe.
 wrong_answers:
-  - Można go łatwo podzielić lub transportować na duże odległości.
-  - Można to łatwo zweryfikować.
-  - Nie jest on regulowany przez rząd.
+  - Można je łatwo podzielić lub transportować na duże odległości.
+  - Można je łatwo zweryfikować.
+  - Nie jest ono regulowane przez rząd.
 explanation: |
-  Chociaż nie można go łatwo podzielić ani przetransportować na duże odległości
-  na duże odległości, złoto jest bardzo trwałym materiałem, co
-  co czyni go dobrym środkiem przechowywania wartości. Złote monety były używane jako
-  waluta w przeszłości, ale nie służyłyby temu samemu celowi w dzisiejszej erze cyfrowej
-  w dzisiejszej erze cyfrowej.
+  Chociaż nie można go łatwo podzielić ani przetransportować na duże odległości, złoto jest bardzo trwałym materiałem, co czyni go dobrym środkiem przechowywania wartości. Złote monety były używane jako
+  waluta w przeszłości, ale nie służyłyby dobrze temu samemu celowi w dzisiejszej erze cyfrowej.
 reviewed: true

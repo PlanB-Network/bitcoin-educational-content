@@ -24,7 +24,7 @@ description: چگونه یک مدیر رمز عبور محلی راه‌اندا
 
 در این آموزش، ما یاد خواهیم گرفت که چگونه یک مدیر رمز عبور محلی را برای افزایش امنیت آنلاین خود راه‌اندازی و استفاده کنیم. در اینجا، من شما را با KeePass آشنا خواهم کرد. با این حال، اگر مبتدی هستید و می‌خواهید یک مدیر رمز عبور آنلاین داشته باشید که قادر به همگام‌سازی در چندین دستگاه باشد، توصیه می‌کنم آموزش ما در مورد Bitwarden را دنبال کنید:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 

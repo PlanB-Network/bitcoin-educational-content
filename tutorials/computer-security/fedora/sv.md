@@ -441,4 +441,4 @@ Nu är ditt Fedora-system uppdaterat och redo att användas för alla dina varda
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5

@@ -22,7 +22,7 @@ I denne veiledningen viser vi deg hvordan du bruker Kraken som privatperson. Hvi
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - Opprett en Kraken-konto
 
@@ -164,7 +164,7 @@ Du blir deretter tilbudt to 2FA-alternativer, enten "passkey", som lar deg auten
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Etter å ha valgt den metoden som passer deg best, er vi endelig klare til å sette inn penger for å kjøpe våre første satoshier.
 
@@ -329,7 +329,7 @@ Hvis du er interessert i Lightning Network, har vi også et komplett opplærings
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

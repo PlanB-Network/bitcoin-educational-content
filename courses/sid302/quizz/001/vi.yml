@@ -1,0 +1,8 @@
+question: Cần bao nhiêu chữ ký của người thực thi chức năng để xác thực một khối trong Liquid Network?
+answer: Ít nhất 11 trong số 15 viên chức phải ký tên.
+wrong_answers:
+  - Ít nhất 8 trong số 15 viên chức phải ký tên.
+  - Ít nhất 10 trong số 15 viên chức phải ký tên.
+  - Ít nhất 12 trong số 15 viên chức phải ký tên.
+explanation: |
+  Liquid Network yêu cầu chữ ký từ ít nhất 11 trong số 15 người thực thi chức năng để xác thực một khối, tương đương với ngưỡng hai phần ba cộng một. Yêu cầu cụ thể này đảm bảo sự đồng thuận mạnh mẽ đồng thời ngăn chặn bất kỳ nhóm nhỏ nào kiểm soát mạng lưới. Các lựa chọn khác đều không chính xác: 8 chữ ký sẽ quá ít để đảm bảo an ninh, 10 chữ ký sẽ không đáp ứng ngưỡng hai phần ba, và 12 chữ ký sẽ quá hạn chế đối với hoạt động bình thường.

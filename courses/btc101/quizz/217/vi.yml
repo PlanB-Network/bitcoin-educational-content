@@ -1,10 +1,9 @@
-question: Mạng Lưới Lightning cho phép điều gì?
-answer: Giao dịch Bitcoin tức thì với chi phí thấp.
+question: Mục tiêu chính của Lightning Network là gì?
+answer: Cho phép các khoản thanh toán offchain nhanh chóng và chi phí thấp
 wrong_answers:
-  - Giao dịch Bitcoin tức thì với chi phí cao.
-  - Giao dịch Bitcoin chậm trễ với chi phí thấp.
-  - Giao dịch Bitcoin chậm trễ với chi phí cao.
-explanation: >-
-  Mạng Lưới Lightning cho phép giao dịch Bitcoin tức thì với chi phí thấp,
-  từ đó giải quyết vấn đề khả năng mở rộng của Bitcoin.
-reviewed: true
+  - Tăng kích thước khối của blockchain Bitcoin
+  - Dần dần thay thế blockchain Bitcoin bằng một hệ thống hiệu quả hơn
+  - Làm cho các trang trại khai thác trở nên rất giàu
+explanation: |
+  Lightning Network nhằm cho phép các khoản thanh toán bitcoin gần như tức thì với phí thấp, mà không làm quá tải blockchain chính.
+reviewed: false

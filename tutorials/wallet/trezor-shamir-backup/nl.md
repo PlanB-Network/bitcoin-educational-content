@@ -85,11 +85,11 @@ Als je hulp nodig hebt bij de eerste installatie van je apparaat, hebben we ook 
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Op een nieuwe Wallet
 
@@ -139,7 +139,7 @@ Voor meer informatie over de juiste manier om je Mnemonic zinnen op te slaan en 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Selecteer op de Trezor het totale aantal aandelen dat je wilt configureren. De meest voorkomende configuraties zijn 2-de-3 en 3-de-5. Voor dit voorbeeld maak ik een 2-de-3, dus selecteer ik 3 shares. Elk share vertegenwoordigt een Mnemonic-zin van 20 woorden.
 
@@ -273,7 +273,7 @@ Gefeliciteerd, je bent nu op de hoogte van het gebruik van Single-share en Multi
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Als je deze tutorial nuttig vond, zou ik je dankbaar zijn als je hieronder een Green duim achterlaat. Voel je vrij om dit artikel te delen op je sociale netwerken. Hartelijk dank!
 

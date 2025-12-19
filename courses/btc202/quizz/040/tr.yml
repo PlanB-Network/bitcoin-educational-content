@@ -1,0 +1,9 @@
+question: En aktif Umbrel topluluğu nerede?
+answer: Discord ve çevrimiçi forum hakkında
+wrong_answers:
+  - Instagram'da
+  - LinkedIn ve çevrimiçi forum hakkında
+  - IRC'de
+explanation: |
+  Umbrel, Discord'da ve kullanıcıların Exchange yardım ve destek aldığı çevrimiçi forumunda çok aktif bir topluluğa sahiptir.
+reviewed: true

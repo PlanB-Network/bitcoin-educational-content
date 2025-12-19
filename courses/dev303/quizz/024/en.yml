@@ -1,0 +1,8 @@
+question: What syntax is used to access the first field of a tuple structure in Rust?
+answer: Dot notation with index 0 (e.g., instance.0)
+wrong_answers:
+  - Square brackets with index 0 (e.g., instance[0])
+  - Arrow notation with index 0 (e.g., instance->0)
+  - Double colon with index 0 (e.g., instance::0)
+explanation: |
+  Tuple structures in Rust use dot notation followed by the field index to access their unnamed fields. The first field is accessed with .0, the second with .1, and so on. This is different from arrays or vectors which use square brackets, and unlike C++ which uses arrow notation for pointers. The double colon syntax is reserved for associated functions and namespacing, not field access.

@@ -6,15 +6,15 @@ description: Adopt Bitcoin via Lightning Network in your business.
 ![cover](assets/cover.webp)
 
 
-Combining the power of Lightning Network with a smooth user experience to accept Bitcoin in your business: that's the mission **Wallet of Satoshi** has set itself by implementing a point-of-sale in its portfolio. In this tutorial, we'll find out how you can set up a point-of-sale accepting Bitcoin in your business.
+Combining the power of Lightning Network with a smooth user experience to accept Bitcoin in your business: that's the mission **Wallet of Satoshi** has set itself by implementing a point-of-sale in its wallet. In this tutorial, we'll find out how you can set up a point-of-sale accepting Bitcoin in your business.
 
-## The portfolio
+## The wallet
 
 
 Within the Bitcoin ecosystem, Wallet of Satoshi is a recommended wallet for getting started with Lightning payments. Despite the fact that you're not in full possession of your bitcoins (self-custodial), Wallet of Satoshi offers a smooth experience for getting started with Bitcoin with small amounts using the Lightning Network layer. If this is your first experience with this wallet, we recommend our Getting Started tutorial.
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 To facilitate the adoption of Bitcoin in communities around the globe, Wallet of Satoshi has also set up a Point of Sale to encourage users to find a proven use in their community: buying and selling goods and services with Bitcoin.
 
@@ -80,7 +80,7 @@ In the **History** menu, you'll find a list of payments for each invoice you've 
 Having a seamless experience with the point of sale also means finding the configuration that's right for your environment.
 
 
-In the Wallet of Satoshi portfolio menu, select your local currency from the list of supported currencies, to configure your products in currency units you are familiar with.
+In the Wallet of Satoshi wallet menu, select your local currency from the list of supported currencies, to configure your products in currency units you are familiar with.
 
 
 
@@ -132,14 +132,14 @@ Each user of the Wallet of Satoshi POS application has a personalized payment hi
 You now have a tool to accept Bitcoin in your business in just a few minutes. If you're into self-custody solutions, we're confident you'll love our tutorial on the Breez Wallet Point of Sale.
 
 
-https://planb.network/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
+https://planb.academy/tutorials/business/point-of-sale/breez-pos-76d6bf36-f4b5-422e-8579-edf149021525
 
 And if you're looking for a complete PoS suitable for small and medium-sized businesses, I also recommend Swiss Bitcoin Pay:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Finally, find our complete training course to learn the basics of bitcoin payment and cash flow for businesses:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

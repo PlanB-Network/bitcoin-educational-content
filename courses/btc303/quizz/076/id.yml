@@ -1,0 +1,9 @@
+question: Menurut praktik pengungkapan yang bertanggung jawab, apa dilema etika utama yang dihadapi oleh peneliti keamanan yang menemukan kerentanan dalam sistem terdesentralisasi seperti Bitcoin?
+answer: Menyeimbangkan kebutuhan untuk memberi tahu pihak yang bertanggung jawab sambil menghindari pengungkapan kepada pihak yang berpotensi jahat yang dapat mengeksploitasi kerentanan
+wrong_answers:
+  - Memutuskan apakah akan mengambil keuntungan dari penemuan kerentanan melalui program bug bounty atau menyumbangkan informasi tersebut secara bebas kepada komunitas
+  - Memilih antara melapor ke otoritas pemerintah terlebih dahulu versus melapor langsung ke tim pengembangan perangkat lunak untuk menghindari komplikasi peraturan
+  - Menentukan kompensasi finansial yang sesuai untuk penemuan kerentanan sebelum menyetujui untuk mengungkapkan informasi tersebut kepada pengembang
+explanation: |
+  Tantangan etika utama dalam pengungkapan yang bertanggung jawab adalah keseimbangan antara transparansi dan keamanan. Para peneliti harus memastikan bahwa kerentanan dapat diatasi tanpa secara tidak sengaja menyediakan peta jalan untuk eksploitasi yang berbahaya. Hal ini melibatkan koordinasi yang cermat dengan para pengembang, mengatur waktu pengungkapan secara tepat, dan mempertimbangkan dampak ekosistem yang lebih luas. Pilihan lainnya berfokus pada masalah keuangan atau peraturan yang, meskipun berpotensi relevan, bukanlah dilema etika utama yang diuraikan dalam praktik pengungkapan yang bertanggung jawab.
+reviewed: false

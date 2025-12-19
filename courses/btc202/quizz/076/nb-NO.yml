@@ -1,0 +1,9 @@
+question: Hva er standardstørrelsesgrensen for Mempool i Bitcoin core?
+answer: 300 MB
+wrong_answers:
+  - 256 MB
+  - 512 MB
+  - 1024 MB
+explanation: |
+  Som standard begrenser Bitcoin core Mempool til 300 MB. Utover det utviser den mindre lønnsomme transaksjoner.
+reviewed: true

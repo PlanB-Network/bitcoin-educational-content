@@ -1,0 +1,9 @@
+question: Kdo spravuje servery DNS seed používané pro počáteční vyhledávání partnerů?
+answer: Vývojáři ekosystému
+wrong_answers:
+  - Poskytovatelé internetových služeb
+  - Satoshi Nakamoto
+  - Bazény Mining
+explanation: |
+  Semínka DNS spravují známí vývojáři (Wuille, Corallo, Dashjr atd.) a poskytují aktivní IP adresy uzlů pro navázání spojení.
+reviewed: true

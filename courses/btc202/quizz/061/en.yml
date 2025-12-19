@@ -5,5 +5,5 @@ wrong_answers:
   - Compatibility with enterprise routers
   - The ability to use Electrs offline
 explanation: |
-  Tailscale offers the security of WireGuard but with the speed of a Clearnet connection, unlike Tor, which is slow.
-reviewed: false
+  Tailscale offers the security of WireGuard, but with the speed of a clearnet connection, unlike Tor, which is slower.
+reviewed: true

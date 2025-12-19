@@ -595,6 +595,6 @@ Arch Linux stands out for its remarkable stability, minimalist philosophy and ro
 If you've enjoyed getting started with Arch Linux, you'll love our tutorial on **Fedora OS**, a modular, secure and robust operating system that adapts to your needs and uses.
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

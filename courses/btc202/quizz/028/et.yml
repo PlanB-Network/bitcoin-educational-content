@@ -1,0 +1,9 @@
+question: Mis eristab pruned sõlme Full node-st?
+answer: See kõrvaldab järk-järgult vanad plokid
+wrong_answers:
+  - See ei valideeri vanemaid tehinguid
+  - See ei saa edastada terveid plokke
+  - See ei säilita ühtegi Blockchain kohalikku koopiat, vaid ainult UTXO komplekti
+explanation: |
+  pruned-sõlm valideerib kogu ahela, kuid säilitab ainult hiljutise osa plokkidest, et piirata selle salvestamist.
+reviewed: true

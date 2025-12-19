@@ -27,7 +27,7 @@ U ovom vodiču, želeo bih da vas upoznam sa jednim takvim rešenjem: **COLDCARD
 Kako COLDCARD Q nudi mnoštvo funkcija, predlažem da njegovo korišćenje podelimo u 2 tutorijala. U ovom prvom tutorijalu, pogledaćemo početnu konfiguraciju i osnovne funkcije uređaja. Zatim, u drugom tutorijalu, razmotrićemo kako iskoristiti sve napredne opcije vašeg COLDCARD-a.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Predstavljamo COLDCARD Q
@@ -113,7 +113,7 @@ Ako više volite da napajate svoj COLDCARD bez povezivanja sa računarom (air-ga
 Za ovaj vodič, takođe će vam trebati Sparrow Wallet da upravljate vašim Bitcoin Wallet na vašem računaru. Preuzmite [Sparrow Wallet](https://sparrowwallet.com/download/) sa zvaničnog sajta. Snažno vam savetujem da proverite i njegovu autentičnost (sa GnuPG) i integritet (preko Hash) pre nego što nastavite sa instalacijom. Ako ne znate kako to da uradite, pratite ovaj vodič:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Izbor PIN koda
 
@@ -232,7 +232,7 @@ U ovom trenutku, snažno preporučujemo proveru integriteta i autentičnosti pre
 Ako niste upoznati sa ovim procesom verifikacije, preporučujem da pratite ovaj vodič:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Uzmite microSD karticu i prenesite firmware fajl (dokument u `.dfu`) na nju. Ubacite microSD karticu u jedan od portova vašeg COLDCARD-a.
 
@@ -291,7 +291,7 @@ U ovom meniju ćete pronaći razne opcije prilagođavanja, kao što su podešava
 Pogledaćemo ostala napredna podešavanja u sledećem vodiču:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Kreiranje Bitcoin Wallet
 
@@ -486,7 +486,7 @@ Pre nego što primite svoje prve bitkoine u vaš Wallet, **snažno vam savetujem
 Da biste saznali više o tome kako izvesti test oporavka, predlažem da pogledate ovaj drugi vodič:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Primite bitkoine
 
@@ -563,7 +563,7 @@ Sada možete dodati "*Label*" da opišete izvor bitkoina koji će biti osiguran 
 Za više informacija o etiketiranju, preporučujem i ovaj drugi vodič:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Zatim možete koristiti ovaj Address za primanje bitkoina.
 
@@ -712,4 +712,4 @@ Ako ste smatrali ovaj vodič korisnim, bio bih veoma zahvalan ako biste ostavili
 Takođe vam preporučujem da pogledate ovaj drugi vodič u kojem diskutujemo o naprednim opcijama COLDCARD Q :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

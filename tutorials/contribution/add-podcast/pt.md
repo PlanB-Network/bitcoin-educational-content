@@ -10,7 +10,7 @@ Você está procurando adicionar um podcast sobre Bitcoin ao site da Rede PlanB 
 ![podcast](assets/01.webp)
 - Primeiro, você precisa ter uma conta no GitHub. Se você não sabe como criar uma, fizemos um tutorial detalhado para guiá-lo.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Vá para [o repositório GitHub da PlanB dedicado a dados](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) na seção `resources/podcasts/`:
@@ -97,7 +97,7 @@ contributors:
 ![podcast](assets/13.webp)
 - Clique na foto do seu perfil do GitHub no canto superior direito, depois em `Your Repositories`:
 ![podcast](assets/14.webp)
-- Selecione o seu fork do repositório PlanB Network:
+- Selecione o seu fork do repositório Plan ₿ Academy:
 ![podcast](assets/15.webp)
 - Você deverá ver uma notificação no topo da janela com o seu novo branch. Provavelmente se chama `patch-1`. Clique nele:
 ![podcast](assets/16.webp)

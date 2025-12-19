@@ -51,7 +51,7 @@ Mu masezerano ya Bitcoin, ibintu nka _konti_ canke _ibice vy'amahera_ ntibiriho.
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Na Bitcoin ivyo urundanya hanyuma ukabikoresha ni ibice bito canke binini vy'ikonti bipimwa muri Satoshi, bigereranywa n'`ibiva mu bikorwa bitakoreshejwe`, **UTXO**, navyo vyitwa `ibiceri`. Iyo ukoresheje UTXOs kugira ngo ureme transaction, zirasenyuka burundu maze izindi UTXO zikaremwa mu kibanza cazo.
 
@@ -568,7 +568,7 @@ Coin control ni uburyo bwiza cane bwo guhitamwo ivyo ukoresha mu gucuruza. Guhit
 
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Twaravuze mbere ivyerekeye `ugutandukanya ibisigarira`. Niba ushaka gufunga amasigarira kugira ngo azoyakoreshe mu nyuma maze usubire kuronka ubuzima bwite (swap kuri Layer 2), utegerezwa kwitwararika `kuyashirako ikimenyetso` igihe cose ubonye imwe. Mu bikoresho vya Software Wallets vyabonetse gushika ubu, ni Electrum yonyene itanga amabara y’ibisigazwa vya UTXO kugira ngo biboneke mu gihe umuntu abibonye. Abandi, nka Sparrow, bakwereka uruhererekane mu nzira y’inkomoko y’umuntu ku giti ciwe UTXO (`m/84’/0’/0’/1/11`).
 

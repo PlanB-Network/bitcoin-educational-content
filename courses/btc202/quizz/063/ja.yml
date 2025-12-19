@@ -1,0 +1,9 @@
+question: Umbrelで利用可能な2つのLightning Network実装とは？
+answer: LNDとコアライトニング
+wrong_answers:
+  - エレクトラーとフルクラム
+  - Bitcoin coreとBitcoin Knots
+  - ライド・ザ・ライトニングとサンダーハブ
+explanation: |
+  Umbrelでは、Lightning Networkの実装としてLNDとCore Lightningのどちらかを選ぶことができる。
+reviewed: true

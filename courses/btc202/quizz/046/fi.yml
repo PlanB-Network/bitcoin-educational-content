@@ -1,0 +1,9 @@
+question: Mitä dbcache-parametrilla voi tehdä Bitcoin core:ssa?
+answer: RAM-muistin osoittaminen IBD:n nopeuttamiseksi
+wrong_answers:
+  - Blockchain:n koon määrittäminen
+  - Säädä Mining:n enimmäisvaikeusastetta
+  - Rajoita yhdistettyjen vertaisten määrää
+explanation: |
+  Dbcache-parametri lisää UTXO-sarjan väliaikaiseen tallentamiseen käytettävää muistitilaa, mikä voi nopeuttaa alkuperäistä synkronointiprosessia.
+reviewed: true

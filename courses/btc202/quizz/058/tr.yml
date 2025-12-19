@@ -1,0 +1,9 @@
+question: Düğümünüzle Tor iletişiminin ana sınırlaması nedir?
+answer: Yavaşlık
+wrong_answers:
+  - Şifreleme eksikliği
+  - Spam
+  - RPC'ı kullanmanın imkansızlığı
+explanation: |
+  Tor bağlantıları güvenlidir, ancak VPN gibi alternatiflerden daha yavaştır.
+reviewed: true

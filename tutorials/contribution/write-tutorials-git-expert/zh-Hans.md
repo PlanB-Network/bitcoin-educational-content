@@ -6,7 +6,7 @@ description: 为高级用户提供计划教程的指南 ₿ 与 Git 联网
 
 在学习本教程添加新教程之前，您需要完成几个初步步骤。如果您还没有这样做，请先看看这个入门教程，然后再回到这里：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
+https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
 您已经拥有 ：
 
@@ -20,11 +20,11 @@ https://planb.network/tutorials/contribution/content/write-tutorials-4d142a6a-91
 
 - **中级（GitHub 桌面）**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 - **初学者（网络界面）**：
 
-https://planb.network/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
+https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
 
 ## 建议使用的工具
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/content/write-tutorials-github-web-
 ### 1 - 配置本地环境
 
 
-- 您必须拥有自己的 [GitHub 上的 Plan ₿ Network 代码库](https://github.com/PlanB-Network/bitcoin-educational-content) fork。
+- 您必须拥有自己的 [GitHub 上的 Plan ₿ Academy 代码库](https://github.com/PlanB-Network/bitcoin-educational-content) fork。
 - 将分叉的主分支 (`dev`) 与源代码版本库同步。
 - 更新本地克隆。
 
@@ -166,11 +166,11 @@ proofreading:
 
 - **id**: 一个 UUID (_Universally Unique Identifier_) 用于唯一标识教程。您可以使用 [在线工具](https://www.uuidgenerator.net/version4) 生成它。唯一的要求是这个 UUID 是随机生成的，以避免与平台上的其他 UUID 冲突；
 
-- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Network 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
+- **project_id**: 提供教程中介绍的工具背后的公司或组织的 UUID [从项目列表中](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects)。例如，如果您正在创建关于 Green Wallet 软件的教程，您可以在以下文件中找到 `project_id`：`bitcoin-educational-content/resources/projects/blockstream/project.yml`。这个信息会被添加到您的教程 YAML 文件中，因为 Plan ₿ Academy 维护着一个包含所有在 Bitcoin 或相关项目上运营的公司和组织的数据库。通过将与您的教程相关的实体 `project_id` 添加进去，您将两个元素连接起来；
 
-- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Network 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
+- **tags**: 2 或 3 个与教程内容相关的关键词，仅从 [Plan ₿ Academy 的标签列表](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md) 中选择；
 
-- **category**: 对应于教程内容的子类别，根据 Plan ₿ Network 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
+- **category**: 对应于教程内容的子类别，根据 Plan ₿ Academy 网站的结构（例如，对于钱包：`desktop`、`hardware`、`mobile`、`backup`）；
 
 - **level**: 教程的难度级别，可从以下选项中选择：
     - `beginner`
@@ -191,7 +191,7 @@ proofreading:
 
 有关教师 ID 的详细信息，请参阅相应的教程 ：
 
-https://planb.network/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
+https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
 ```
 id: e84edaa9-fb65-48c1-a357-8a5f27996143

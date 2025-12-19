@@ -51,7 +51,7 @@ Proton Drive nudi mnogo više od jednostavnih opcija za skladištenje; takođe o
 Ako još uvek nemate Proton nalog, biće potrebno da ga kreirate. Upućujem vas na naš Proton Mail vodič u kojem detaljno objašnjavamo kako kreirati besplatan Proton nalog i postaviti ga:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![PROTON DRIVE](assets/notext/04.webp)
 
@@ -143,7 +143,7 @@ Na kraju, u kartici "*Trash*", možete pronaći vaše nedavno obrisane dokumente
 Većina podešavanja za vaš Proton Drive je integrisana u vaš Proton nalog. Za detaljna uputstva o podešavanju vašeg naloga, pozivam vas da pogledate ovaj tutorijal:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Kako instalirati Proton Drive softver?
 
@@ -213,4 +213,4 @@ Ako ste zabrinuti da bi ovaj USB stik mogao biti ukraden, razmislite o enkripcij
 Da biste saznali više o zaštiti vašeg online prisustva i izbegavanju hakovanja, takođe preporučujem da pogledate naš detaljni vodič o Bitwarden menadžeru lozinki:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

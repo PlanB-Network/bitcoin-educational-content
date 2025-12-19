@@ -1,0 +1,9 @@
+question: نرم‌افزار اصلی Bitcoin در سال 2009 چه چیزهایی را ترکیب کرد؟
+answer: Wallet، کمان، و جزئی
+wrong_answers:
+  - گره، Miner، و Block explorer
+  - Wallet، چرخ‌بال، و Miner
+  - Miner و Mining pool
+explanation: |
+  نرم‌افزار اصلی Bitcoin، عملکردهای Wallet، node و Miner را در یک برنامه واحد ادغام کرد.
+reviewed: true

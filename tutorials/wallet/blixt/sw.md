@@ -1,8 +1,8 @@
 ---
 name: Blixt Wallet
-description: Jinsi ya kuanza kutumia nodi yenye nguvu ya LN kwenye simu yako?
+description: Jinsi ya kuanza kutumia node yenye nguvu ya LN kwenye simu yako?
 ---
-![cover](assets/cover.webp)
+![cover](cover.webp)
 
 
 Mwongozo huu umetolewa kwa watumiaji wote wapya wanaotaka kuanza kutumia Bitcoin Lightning Network (LN) kwa CHANZO WAZIRI BILA MALIPO, NJIA KAMILI ISIYO YA UTUNZI.
@@ -18,7 +18,7 @@ Iwapo hukuwahi kutumia Bitcoin Lightning Network, kabla ya kuanza, [tafadhali s
 
 
 
-- Blixt ni nodi ya kibinafsi, SI njia ya uelekezaji! Kumbuka hilo : Hiyo ina maana kwamba, chaneli zote za LN katika Blixt hazitatangazwa kwenye grafu ya LN (zinazoitwa chaneli za kibinafsi). Hiyo inamaanisha, NODE HII HAITAFANYA ROUTTING ya malipo ya wengine kupitia nodi ya Blixt. Njia hii ya Blixt SI ya kuelekeza, narudia. Kimsingi ni kuweza kudhibiti chaneli zako za LN na kufanya malipo yako ya LN kwa faragha, wakati wowote unapohitaji. Njia hii ya Blixt, ni muhimu kuwa mtandaoni na kusawazishwa TU KABLA ya kwenda kufanya miamala yako. Ndiyo sababu utaona ikoni juu inayoonyesha hali ya usawazishaji. Inachukua muda mfupi tu, kulingana na muda ulioiweka nje ya mtandao.
+- Blixt ni node ya kibinafsi, SI njia ya uelekezaji! Kumbuka hilo : Hiyo ina maana kwamba, chaneli zote za LN katika Blixt hazitatangazwa kwenye grafu ya LN (zinazoitwa chaneli za kibinafsi). Hiyo inamaanisha, NODE HII HAITAFANYA ROUTTING ya malipo ya wengine kupitia node ya Blixt. Njia hii ya Blixt SI ya kuelekeza, narudia. Kimsingi ni kuweza kudhibiti chaneli zako za LN na kufanya malipo yako ya LN kwa faragha, wakati wowote unapohitaji. Njia hii ya Blixt, ni muhimu kuwa mtandaoni na kusawazishwa TU KABLA ya kwenda kufanya miamala yako. Ndiyo sababu utaona ikoni juu inayoonyesha hali ya usawazishaji. Inachukua muda mfupi tu, kulingana na muda ulioiweka nje ya mtandao.
 
 
 
@@ -38,7 +38,7 @@ Iwapo hukuwahi kutumia Bitcoin Lightning Network, kabla ya kuanza, [tafadhali s
 ## Blixt - Mawasiliano ya Kwanza
 
 
-Kwa hivyo… Mama wa Darth aliamua kuanza kutumia LN na Blixt. Hard uamuzi, lakini busara. Blixt ni ya watu mahiri na wale ambao wanataka kujifunza zaidi, matumizi ya kina ya LN.
+Kwa hivyo… Mama wa Darth aliamua kuanza kutumia LN na Blixt. Uamuzi mgumu, lakini busara. Blixt ni ya watu mahiri na wale ambao wanataka kujifunza zaidi, matumizi ya kina ya LN.
 
 
 ![blixt](assets/en/01.webp)
@@ -50,7 +50,7 @@ Darth amuonya mama yake:
 "*Mama, ukianza kutumia Njia ya Blixt LN, utahitaji kwanza kujua Lightning Network ni nini na jinsi inavyofanya kazi, angalau katika kiwango cha msingi. [Hapa nimeweka pamoja orodha rahisi ya nyenzo kuhusu Lightning Network](https://blixtwallet.github.io/faq#what-is-LN). Tafadhali zisome kwanza.*".
 
 
-Mama wa Darth alisoma nyenzo na akafanya hatua yake ya kwanza: kusakinisha Blixt kwenye kifaa chake kipya kabisa cha Android. Blixt inapatikana pia kwa iOS na macOS (desktop). Lakini hizo si za Mama wa Darth... Hata hivyo, inashauriwa kutumia toleo jipya zaidi la Android, angalau 9 au 10 kwa uoanifu na matumizi bora zaidi. Kuendesha nodi kamili ya LN kwenye kifaa cha mkononi si kazi rahisi na inaweza kuchukua nafasi (min 600MB) na kumbukumbu.
+Mama wa Darth alisoma nyenzo na akafanya hatua yake ya kwanza: kusakinisha Blixt kwenye kifaa chake kipya kabisa cha Android. Blixt inapatikana pia kwa iOS na macOS (desktop). Lakini hizo si za Mama wa Darth... Hata hivyo, inashauriwa kutumia toleo jipya zaidi la Android, angalau 9 au 10 kwa uoanifu na matumizi bora zaidi. Kuendesha node kamili ya LN kwenye kifaa cha mkononi si kazi rahisi na inaweza kuchukua nafasi (min 600MB) na kumbukumbu.
 
 
 Mara tu unapofungua Blixt, skrini ya "Karibu" itakupa chaguzi kadhaa:
@@ -64,7 +64,7 @@ Kwenye kona ya juu kulia, utaona nukta 3 zinazoamilisha menyu na:
 
 
 - "Wezesha Tor" - mtumiaji anaweza kuanza na mtandao wa Tor, haswa ikiwa alitaka kurejesha nodi ya zamani ya LND ambayo ilikuwa ikiendeshwa na marafiki wa Tor pekee.
-- "Weka nodi ya Bitcoin" - ikiwa mtumiaji anataka kuunganisha kwenye nodi yake moja kwa moja, kusawazisha vizuizi kupitia Neutrino, anaweza kuifanya mara moja kutoka kwa skrini inayokaribishwa. Chaguo hili pia ni nzuri ikiwa muunganisho wako wa mtandao au Tor, sio thabiti sana kuunganishwa na nodi chaguo-msingi ya Bitcoin (node.blixtwallet.com).
+- "Weka node ya Bitcoin" - ikiwa mtumiaji anataka kuunganisha kwenye node yake moja kwa moja, kusawazisha vizuizi kupitia Neutrino, anaweza kuifanya mara moja kutoka kwa skrini inayokaribishwa. Chaguo hili pia ni nzuri ikiwa muunganisho wako wa mtandao au Tor, sio thabiti sana kuunganishwa na nodi chaguo-msingi ya Bitcoin (node.blixtwallet.com).
 - Hivi karibuni itaongezwa lugha hapo, ili mtumiaji aanze moja kwa moja na lugha inayostarehesha. Iwapo ungependa kuchangia mradi huu wa programu huria kwa tafsiri katika lugha zingine, [tafadhali jiunge hapa](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
 
 
@@ -74,13 +74,13 @@ Kwenye kona ya juu kulia, utaona nukta 3 zinazoamilisha menyu na:
 Ukichagua "kuunda Wallet mpya", utaelekezwa kwingine moja kwa moja hadi kwenye skrini kuu ya Blixt Wallet.
 
 
-Hiki ni "cockpit" yako na pia ni "Main LN Wallet", kwa hivyo fahamu, itakuonyesha tu salio la LN Wallet yako. Onchain Wallet inaonyeshwa tofauti (tazama C).
+Hii ni "cockpit" yako na pia ni "Main LN Wallet", kwa hivyo fahamu, itakuonyesha tu salio la LN Wallet yako. Onchain Wallet inaonyeshwa tofauti (tazama C).
 
 
 ![blixt](assets/en/03.webp)
 
 
-A - Blixt inazuia aikoni ya kiashiria cha usawazishaji. Hili ndilo jambo muhimu zaidi kwa nodi ya LN: kusawazishwa na mtandao. Ikiwa ikoni hiyo bado inafanya kazi, inamaanisha kuwa nodi yako HAIKO TAYARI! Kwa hivyo kuwa na subira, maalum kwa usawazishaji wa kwanza. Inaweza kuchukua hadi dakika 6-8, kulingana na kifaa chako na muunganisho wa intaneti.
+A - Blixt inazuia aikoni ya kiashiria cha usawazishaji. Hili ndilo jambo muhimu zaidi kwa node ya LN: kusawazishwa na mtandao. Ikiwa ikoni hiyo bado inafanya kazi, inamaanisha kuwa node yako HAIKO TAYARI! Kwa hivyo kuwa na subira, maalum kwa usawazishaji wa kwanza. Inaweza kuchukua hadi dakika 6-8, kulingana na kifaa chako na muunganisho wa intaneti.
 
 
 Unaweza kuibofya na kuona hali ya usawazishaji:
@@ -95,7 +95,7 @@ Pia unaweza kubofya kitufe cha "Onyesha Kumbukumbu ya LND" (A) ikiwa ungependa k
 B - Hapa unaweza kufikia Mipangilio yote ya Blixt, na ni mingi! Blixt inatoa vipengele na chaguzi nyingi tajiri za kudhibiti nodi yako ya LN kama mtaalamu. Chaguo hizo zote zimefafanuliwa kwa kina katika “[Ukurasa wa Vipengele vya Blixt](https://blixtwallet.github.io/features#blixt-options) - Menyu ya Chaguzi”.
 
 
-C - Hapa unayo menyu ya "Droo ya Kichawi", [pia imefafanuliwa kwa kina hapa](https://blixtwallet.github.io/features#blixt-drawer). Hapa kuna "Onchain Wallet" (B), Vituo vya Umeme (C), Anwani, ikoni ya hali ya Vituo (A), Keysend (D).
+C - Hapa unayo menyu ya "magic drawer", [pia imefafanuliwa kwa kina hapa](https://blixtwallet.github.io/features#blixt-drawer). Hapa kuna "Onchain Wallet" (B), Vituo vya Lightning (C), address, ikoni ya hali ya Vituo (A), Keysend (D).
 
 
 ![blixt](assets/en/05.webp)
@@ -119,13 +119,13 @@ MAPENDEKEZO:
 Baada ya kupima hali kadhaa, tulifikia hitimisho kwamba ni bora zaidi kufungua njia kati ya 1 na 5 M Sats. Vituo vidogo vinaelekea kuisha haraka na kulipa % ya juu zaidi ya ada ikilinganishwa na chaneli kubwa zaidi.
 
 
-F - Onyesha salio lako kuu la Umeme Wallet. Hii SI jumla ya salio lako la Blixt Wallet, inawakilisha tu Sats uliyo nayo katika Vituo vya Umeme, vinavyopatikana kutuma. Kama ilivyoonyeshwa hapo awali, Onchain Wallet ni tofauti. Kumbuka kipengele hiki. Wallet ya onchain ni tofauti kwa sababu muhimu: hutumiwa hasa kwa kufungua / kufunga njia za LN.
+F - Onyesha salio lako kuu la Lightning Wallet. Hii si jumla ya salio lako la Blixt Wallet, inawakilisha tu Sats uliyo nayo katika Vituo vya Lightning, vinavyopatikana kutuma. Kama ilivyoonyeshwa hapo awali, Onchain Wallet ni tofauti. Kumbuka kipengele hiki. Wallet ya onchain ni tofauti kwa sababu muhimu: hutumiwa hasa kwa kufungua / kufunga njia za LN.
 
 
 Sawa, kwa hivyo sasa Mama wa Darth aliweka Sats kwenye hiyo onchain Address inayoonyeshwa kwenye skrini kuu. Inapendekezwa kuwa unapofanya hivyo, kuweka programu yako ya Blixt mtandaoni na kufanya kazi kwa muda, hadi BTC tx ichukuliwe na wachimbaji kwenye kizuizi cha kwanza.
 
 
-Baada ya hapo inaweza kuchukua hadi dakika 20-30 hadi ithibitishwe kikamilifu na kituo kifunguliwe na utakiona kwenye Droo ya Uchawi - Vituo vya Umeme kama inavyotumika. Pia nukta ndogo ya rangi iliyo juu ya droo, ikiwa ni Green itaonyesha kuwa chaneli yako ya LN iko mtandaoni na iko tayari kutumika kutuma Sats kupitia LN.
+Baada ya hapo inaweza kuchukua hadi dakika 20-30 hadi ithibitishwe kikamilifu na kituo kifunguliwe na utakiona kwenye Droo ya Uchawi - Vituo vya Lightning kama inavyotumika. Pia nukta ndogo ya rangi iliyo juu ya droo, ikiwa ni Green itaonyesha kuwa chaneli yako ya LN iko mtandaoni na iko tayari kutumika kutuma Sats kupitia LN.
 
 
 Address na ujumbe wa kukaribisha unaoonyeshwa utatoweka. Hakuna haja tena ya kufungua kituo kiotomatiki sasa. Unaweza pia kuzima chaguo katika menyu ya Mipangilio.
@@ -134,7 +134,7 @@ Address na ujumbe wa kukaribisha unaoonyeshwa utatoweka. Hakuna haja tena ya kuf
 Ni wakati wa kuendelea, kujaribu vipengele vingine na chaguo ili kufungua vituo vya LN.
 
 
-Sasa, hebu tufungue chaneli nyingine na rika lingine la nodi. Blixt community put togheter [orodha ya nodi nzuri za kuanza kutumia na Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033).
+Sasa, hebu tufungue chaneli nyingine na rika lingine la node. Blixt community put togheter [orodha ya nodi nzuri za kuanza kutumia na Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033).
 
 
 **Utaratibu wa kufungua kituo cha LN katika Blixt**
@@ -145,14 +145,14 @@ Hii ni rahisi sana, chukua hatua chache tu na uvumilivu kidogo:
 
 
 - Nimefika kwenye [Jumuiya ya Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033) orodha ya programu zingine
-- Chagua nodi na ubofye kiungo cha jina lake, itafungua ukurasa wake wa Amboss
+- Chagua node na ubofye kiungo cha jina lake, itafungua ukurasa wake wa Amboss
 - Bofya ili kuonyesha msimbo wa QR wa nodi ya URI Address
 
 
 ![blixt](assets/en/07.webp)
 
 
-Fungua Blixt na uende kwenye droo ya juu - Njia za Umeme na ubofye kitufe cha "+".
+Fungua Blixt na uende kwenye droo ya juu - Njia za Lightning na ubofye kitufe cha "+".
 
 
 ![blixt](assets/en/08.webp)
@@ -167,7 +167,7 @@ Usiweke chini ya 1 sat/vbyte ! Kwa kawaida ni bora kushauriana na [ada za Mempo
 Imefanywa, sasa bonyeza tu kitufe cha "fungua kituo" na usubiri uthibitisho 3, ambao kawaida huchukua dakika 30 (takriban block 1 kila dakika 10).
 
 
-Baada ya kuthibitishwa, utaona chaneli ikitumika katika sehemu yako ya "Njia za Umeme".
+Baada ya kuthibitishwa, utaona chaneli ikitumika katika sehemu yako ya "Njia za Lightning".
 
 
 ---
@@ -230,7 +230,7 @@ Sawa, kwa hivyo baada ya chaneli ya Dunder kuthibitishwa (itachukua dakika chach
 Vizuri, sasa wewe ni vizuri kwenda, kutuma na kupokea Sats ya kutosha juu ya LN !
 
 
-HERI YA Bitcoin UMEME!
+HERI YA Bitcoin LIGHTNING!
 
 
 ---
@@ -238,14 +238,14 @@ HERI YA Bitcoin UMEME!
 ## Blixt - Mawasiliano ya Tatu
 
 
-Kumbuka, katika sura ya kwanza "Anwani ya Kwanza" kulikuwa na chaguo 2 kwenye skrini ya Karibu:
+Kumbuka, katika sura ya kwanza "ADDRESS ya Kwanza" kulikuwa na chaguo 2 kwenye skrini ya Karibu:
 
 
 - [Chaguo A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Unda mpya Wallet
 - Chaguo B - Rejesha Wallet
 
 
-Kwa hiyo sasa hebu tujadili jinsi ya kurejesha Blixt Wallet au node nyingine yoyote iliyoanguka ya LND. Hili ni la kiufundi zaidi, lakini tafadhali zingatia. Sio hiyo Hard.
+Kwa hiyo sasa hebu tujadili jinsi ya kurejesha Blixt Wallet au node nyingine yoyote iliyoanguka ya LND. Hili ni la kiufundi zaidi, lakini tafadhali zingatia. Sio ngumu hivyo.
 
 
 ### OPTION B - Rejesha Wallet
@@ -254,7 +254,7 @@ Kwa hiyo sasa hebu tujadili jinsi ya kurejesha Blixt Wallet au node nyingine yoy
 Hapo awali niliandika mwongozo mahususi kuhusu [jinsi ya kurejesha nodi ya Umbrel iliyoanguka](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), ambapo nilitaja pia mbinu ya kutumia Blixt kama mchakato wa kurejesha haraka, kwa kutumia faili ya seed + channel.backup kutoka Umbrel.
 
 
-Pia niliandika mwongozo jinsi ya kurejesha nodi yako ya Blixt au kuhamisha Blixt yako hadi kifaa kingine, [hapa](https://blixtwallet.github.io/faq#blixt-restore).
+Pia niliandika mwongozo jinsi ya kurejesha node yako ya Blixt au kuhamisha Blixt yako hadi kifaa kingine, [hapa](https://blixtwallet.github.io/faq#blixt-restore).
 
 
 ![blixt](assets/en/13.webp)
@@ -264,7 +264,7 @@ Lakini hebu tueleze kwa hatua rahisi mchakato huu. Kama unavyoona kwenye picha h
 
 
 
-- kisanduku cha juu ndipo inabidi ujaze maneno yote 24 kutoka kwa seed yako (nodi ya zamani / iliyokufa)
+- kisanduku cha juu ndipo inabidi ujaze maneno yote 24 kutoka kwa seed yako (node ya zamani / iliyokufa)
 - chini kuna chaguo mbili za vitufe vya kuingiza / kupakia faili ya chelezo cha channel., iliyohifadhiwa hapo awali kutoka kwa nodi yako ya zamani ya Blixt/LND. Inaweza kutoka kwa faili ya ndani (unaipakia kwenye kifaa chako hapo awali) au inaweza kutoka kwa Hifadhi ya Google / eneo la mbali la iCloud. Blixt wana chaguo hili la kuhifadhi nakala rudufu ya vituo vyako moja kwa moja kwenye hifadhi ya Google / iCloud. Angalia maelezo zaidi katika [Ukurasa wa Vipengele vya Blixt](https://blixtwallet.github.io/features#blixt-options).
 
 
@@ -274,22 +274,22 @@ Hata hivyo, kutaja, ikiwa hapo awali hukuwa na chaneli zozote za LN zilizofungul
 Usisahau kuamilisha Tor, kutoka kwenye menyu ya vitone 3 vya juu, kama tulivyoeleza katika sehemu ya Chaguo A. Ndivyo ilivyokuwa wakati ulikuwa na Tor TU na hukuweza kuwasiliana naye kupitia clearnet (kikoa/IP). Vinginevyo sio lazima.
 
 
-Kipengele kingine muhimu ni kuweka nodi maalum ya Bitcoin kutoka kwenye orodha hiyo ya juu. Kwa chaguo-msingi inasawazisha vizuizi kutoka kwa node.blixtwallet.com (modi ya neutrino) lakini unaweza kuweka nodi nyingine yoyote ya Bitcoin ambayo hutoa usawazishaji wa neutrino.
+Kipengele kingine muhimu ni kuweka node maalum ya Bitcoin kutoka kwenye orodha hiyo ya juu. Kwa chaguo-msingi inasawazisha blocks kutoka kwa node.blixtwallet.com (modi ya neutrino) lakini unaweza kuweka node nyingine yoyote ya Bitcoin ambayo hutoa usawazishaji wa neutrino.
 
 
-Kwa hivyo mara tu unapojaza chaguo hizo, na kugonga kitufe cha kurejesha, Blixt itaanza kwanza kusawazisha vizuizi kupitia Neutrino kama tulivyoelezea katika sura ya Mawasiliano ya Kwanza. Kwa hivyo kuwa na subira na uangalie mchakato wa kurejesha kwenye skrini kuu, kwa kubofya kwenye ikoni ya kusawazisha.
+Kwa hivyo mara tu unapojaza chaguo hizo, na kugonga kitufe cha kurejesha, Blixt itaanza kwanza kusawazisha block kupitia Neutrino kama tulivyoelezea katika sura ya Mawasiliano ya Kwanza. Kwa hivyo kuwa na subira na uangalie mchakato wa kurejesha kwenye skrini kuu, kwa kubofya kwenye ikoni ya kusawazisha.
 
 
 ![blixt](assets/en/14.webp)
 
 
-Kama unavyoona katika mfano huu, inaonyesha kuwa vizuizi vya Bitcoin vimesawazishwa kwa 100% (A) na mchakato wa kurejesha uko kwenye kozi (B). Hiyo inamaanisha kuwa chaneli za LN uliokuwa nazo hapo awali, zitafungwa na pesa zitarejeshwa kwenye Blixt onchain Wallet yako.
+Kama unavyoona katika mfano huu, inaonyesha kuwa block za Bitcoin zimesawazishwa kwa 100% (A) na mchakato wa kurejesha uko kwenye kozi (B). Hiyo inamaanisha kuwa chaneli za LN uliokuwa nazo hapo awali, zitafungwa na pesa zitarejeshwa kwenye Blixt onchain wallet yako.
 
 
 Utaratibu huu unachukua muda! Kwa hivyo tafadhali, kuwa na subira na ujaribu kuweka Blixt yako hai na mtandaoni. Usawazishaji wa awali unaweza kuchukua hadi dakika 6-8 na vituo vya kufunga vinaweza kuchukua hadi dakika 10-15. Kwa hivyo ni bora kuwa na kifaa chaji vizuri.
 
 
-Mara tu mchakato huu unapoanza, unaweza kuangalia katika Droo ya Kiajabu - Vituo vya Umeme, hali ya kila moja ya chaneli zako za awali, zinazoonyesha kuwa ziko katika hali ya "inasubiri kufungwa". Mara tu kila kituo kinapofungwa, unaweza kuona tx ya kufunga kwenye onchain Wallet (angalia Magic Drawer - Onchain), na ufungue logi ya menyu ya tx.
+Mara tu mchakato huu unapoanza, unaweza kuangalia katika Droo ya Kiajabu - Vituo vya Umeme, hali ya kila moja ya chaneli zako za awali, zinazoonyesha kuwa ziko katika hali ya "inasubiri kufungwa". Mara tu kila kituo kinapofungwa, unaweza kuona tx ya kufunga kwenye onchain wallet (angalia Magic Drawer - Onchain), na ufungue logi ya menyu ya tx.
 
 
 ![blixt](assets/en/15.webp)
@@ -301,7 +301,7 @@ Pia itakuwa vizuri kuangalia na kuongeza kama hawapo, wenzako wa awali uliokuwa 
 ![blixt](assets/en/16.webp)
 
 
-Ndani ya sehemu hiyo utaona wenzako ambao umeunganishwa kwa wakati huo na unaweza kuongeza zaidi, bora kuongeza zile ulizokuwa nazo hapo awali. Nenda tu kwenye [Ukurasa wa Amboss](https://amboss.space/), tafuta lakabu za nodi zako au nodi ID na uchanganue URI ya nodi zao.
+Ndani ya sehemu hiyo utaona wenzako ambao umeunganishwa nao kwa wakati huo na unaweza kuongeza zaidi, bora kuongeza zile ulizokuwa nazo hapo awali. Nenda tu kwenye Ukurasa wa Amboss, tafuta lakabu za node zako au node ID na changanua URI ya node zao.
 
 
 ![blixt](assets/en/17.webp)
@@ -310,25 +310,24 @@ Ndani ya sehemu hiyo utaona wenzako ambao umeunganishwa kwa wakati huo na unawez
 Kama unavyoweza kwenye picha hapo juu, kuna mambo 3:
 
 
-A - inawakilisha nodi ya clearnet Address URI (kikoa/IP)
+A - inawakilisha node ya clearnet Address URI (kikoa/IP)
 
 
-B - inawakilisha nodi ya kitunguu cha Tor Address URI (.onion)
+B - inawakilisha node ya kitunguu cha Tor Address URI (.onion)
 
 
 C - ni msimbo wa QR wa kuchanganua kwa kutumia kamera yako ya Blixt au kitufe cha kunakili.
 
 
-Njia hii ya Address URI lazima uiongeze kwenye orodha ya programu zingine. Kwa hivyo fahamu haitoshi tu nodi alias jina au nodeID.
+Njia hii ya Address URI lazima uiongeze kwenye orodha ya programu zingine. Kwa hivyo fahamu haitoshi tu node alias jina au nodeID.
 
 
-Sasa unaweza kwenda kwenye Droo ya Kichawi (menyu ya juu kushoto) - Njia za Umeme, na unaweza kuona ni urefu gani wa kizuizi cha ukomavu pesa zitarejeshwa kwenye onchain yako Address.
-
+Sasa unaweza kwenda kwenye Droo ya Kichawi (menyu ya juu kushoto) - Njia za Lightning, na unaweza kuona ni urefu gani wa block ya ukomavu pesa zitarejeshwa kwenye onchain yako address.
 
 ![blixt](assets/en/18.webp)
 
 
-Nambari hiyo ya kizuizi 764272 ndipo pesa zitatumika katika Bitcoin onchain yako Address. Na inaweza kuchukua hadi vitalu 144 kutoka kwa kizuizi cha 1 hadi vitakapotolewa. [Kwa hivyo angalia hiyo katika Mempool](https://Mempool.space/).
+Nambari hiyo ya block 764272 ndipo pesa zitatumika katika Bitcoin onchain yako address. Na inaweza kuchukua hadi block 144 kutoka kwa block ya 1 hadi vitakapotolewa[Kwa hivyo angalia hiyo katika Mempool](https://Mempool.space/).
 
 
 Na ndivyo hivyo. Subiri tu kwa subira hadi vituo vyote vifungwe na pesa zirudishwe kwenye onchain yako Wallet.
@@ -337,17 +336,17 @@ Na ndivyo hivyo. Subiri tu kwa subira hadi vituo vyote vifungwe na pesa zirudish
 👉 **Njia ya kurejesha siri :**
 
 
-Kuna njia nyingine ya kurejesha nodi yako ya Blixt LND bila hata kufunga chaneli. Lakini imefichwa kutoka kwa watumiaji wa kawaida wa noob, kwa sababu njia hii ni ya wale tu wanaojua wanachofanya.
+Kuna njia nyingine ya kurejesha node yako ya Blixt LND bila hata kufunga chaneli. Lakini imefichwa kutoka kwa watumiaji wa kawaida wa noob, kwa sababu njia hii ni ya wale tu wanaojua wanachofanya.
 
 
-Iwapo utahitaji kuhamisha nodi yako iliyopo (inayofanya kazi) ya Blixt kwa kifaa kingine kipya, bila kufunga chaneli zilizopo za LN, itabidi ufanye hatua hizi:
+Iwapo utahitaji kuhamisha node yako iliyopo (inayofanya kazi) ya Blixt kwa kifaa kingine kipya, bila kufunga chaneli zilizopo za LN, itabidi ufanye hatua hizi:
 
 
 
 - Tunadhani kwamba tayari umehifadhi Blixt Wallet seed (maneno 24 aezeed)
 - Kwenye kifaa cha zamani, nenda kwenye "Mipangilio" - sehemu ya kurekebisha - "database ya Compact LND". Hatua hii ni ya hiari lakini inapendekezwa ikiwa unataka ukubwa mdogo wa faili ya channel.db. Kawaida ni kubwa kabisa, kulingana na shughuli yako ya nodi. Hii itaanzisha tena Blixt na kusawazisha saizi ya faili ya db.
 - Mara baada ya kuanza upya, nenda kwa "Mipangilio" na ubadilishe jina lako la kawaida la pak kuwa "Hampus". Hii itawasha chaguo zilizofichwa, kwa watumiaji wa hali ya juu pekee.
-- Nenda chini hadi sehemu ya "Debug" na utaona chaguo jipya "Hamisha faili ya channel.db". ONYO! Mara tu unapotuma utumaji huu, nodi iliyopo ya Blixt LN itazimwa kwenye kifaa hiki cha zamani na itasafirisha hifadhidata yote ya nodi (channel.db) tayari kuletwa kwenye kifaa kipya.
+- Nenda chini hadi sehemu ya "Debug" na utaona chaguo jipya "Hamisha faili ya channel.db". ONYO! Mara tu unapotuma utumaji huu, nodi iliyopo ya Blixt LN itazimwa kwenye kifaa hiki cha zamani na itasafirisha hifadhidata yote ya node (channel.db) tayari kuletwa kwenye kifaa kipya.
 - Faili hii ya db itahifadhiwa kwenye folda iliyoteuliwa kwenye kifaa chako cha zamani (Hati au Vipakuliwa) na kutoka hapo utalazimika kuihamisha kama ilivyo kwenye kifaa chako kipya. Unaweza kutumia kwa mfano [LocalSend FOSS app](https://github.com/localsend/localsend) kuhamisha faili moja kwa moja kati ya vifaa.
 - Kwa wakati huu Blixt yako ya zamani LAZIMA ibaki imefungwa. USIFUNGUE TENA!
 - Mara tu unapohamisha faili ya channel.db hadi kwenye kifaa kipya, anza usakinishaji mpya wa Blixt na uchague "Rejesha Wallet" katika skrini ya kwanza.
@@ -355,11 +354,11 @@ Iwapo utahitaji kuhamisha nodi yako iliyopo (inayofanya kazi) ya Blixt kwa kifaa
 - Weka maneno 24 seed kisha ubofye "Rejesha"
 - Utaona kwamba Blixt itaanza kusawazisha na Neutrino. Unaweza kutazama kumbukumbu za kusawazisha pia.
 - KUMBUKA! Jaribu kuweka Blixt wazi wakati wote kwenye awamu hii! Usiruhusu iendelee kulala au funga skrini ya programu. Hiyo inaweza kukatiza usawazishaji wa awali na itabidi uifanye tena. Subiri kwa subira, haichukui zaidi ya dakika chache.
-- Mara tu ulandanishi wa vizuizi vya awali utakapokamilika, itachanganua kwa haraka anwani zako za awali za Wallet na kisha vituo vyako vitarejea mtandaoni, vikiwa hai na vyema.
-- Kwa bahati mbaya historia ya malipo ya awali na anwani haziwezekani (bado) kurejeshwa. Lakini hiyo sio muhimu sana hata hivyo.
+- Mara tu ulandanishi wa block za awali utakapokamilika, itachanganua kwa haraka anwani zako za awali za wallet na kisha vituo vyako vitarejea mtandaoni, vikiwa hai na vyema.
+- Kwa bahati mbaya historia ya malipo ya awali na address haziwezekani (bado) kurejeshwa. Lakini hiyo sio muhimu sana hata hivyo.
 
 
-Na KIMEMALIZA! Sasa una nodi ya Blixt LN iliyorejeshwa kikamilifu. Inaweza kufanya kazi pia na chelezo zingine za LND (Umbrel, Raspiblitz n.k) ikiwa ulihifadhi ipasavyo faili ya channel.db. Kwa hivyo Blixt inaweza kuokoa nodi yoyote iliyokufa ya LND.
+Na KIMEMALIZA! Sasa una node ya Blixt LN iliyorejeshwa kikamilifu. Inaweza kufanya kazi pia na chelezo zingine za LND (Umbrel, Raspiblitz n.k) ikiwa ulihifadhi ipasavyo faili ya channel.db. Kwa hivyo Blixt inaweza kuokoa node yoyote iliyokufa ya LND.
 
 
 ---
@@ -400,7 +399,7 @@ Huu ni mfano mwingine unaotuma kwa programu nyingine ya Wallet inayotumia NameDe
 ![blixt](assets/en/21.webp)
 
 
-### B - Sanduku la Umeme
+### B - Sanduku ya Lightning
 
 
 Kuanzia v0.6.9-420 [iliyotangazwa hivi majuzi](https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420), Blixt alianzisha kipengele kipya chenye nguvu cha Lightning Address katika Blixt.
@@ -409,11 +408,10 @@ Kuanzia v0.6.9-420 [iliyotangazwa hivi majuzi](https://github.com/hsjoberg/blix
 Kipengele hiki kipya ni chaguo la kuingia, hakijawashwa kwa chaguomsingi!
 
 
-Kwa sasa Kisanduku chaguomsingi cha LN kinaendeshwa na seva ya Blixt na kutoa @blixtwallet.com LN Address. Lakini MTU YEYOTE aliye na nodi ya umma ya LND anaweza kuendesha seva ya Sanduku la Umeme na kutoa LN Address kwa kikoa chake, kujilinda.
+Kwa sasa Kisanduku chaguomsingi cha LN kinaendeshwa na seva ya Blixt na kutoa @blixtwallet.com LN Address. Lakini MTU YEYOTE aliye na node ya umma ya LND anaweza kuendesha seva ya Sanduku ya Lightning na kutoa LN Address kwa kikoa chake, kujilinda.
 
 
-Hivi sasa, seva ya Blixt inasambaza tu malipo yanayotumwa kwa anwani za LN @blixtwallet.com kwa watumiaji wa Blixt ambao huweka LN Address yao. Watumiaji lazima waweke nodi yao ya Blixt Wallet katika "hali inayoendelea" ili kupokea malipo haya kwenye anwani zao za @blixtwallet.com LN.
-
+Hivi sasa, seva ya Blixt inasambaza tu malipo yanayotumwa kwa anwani za LN @blixtwallet.com kwa watumiaji wa Blixt ambao huweka LN address yao. Watumiaji lazima waweke node yao ya Blixt Wallet katika "hali inayoendelea" ili kupokea malipo haya kwenye anwani zao za @blixtwallet.com LN.
 
 Tazama katika maelezo ya toleo onyesho la video kuhusu jinsi ya kusanidi LN Address yako katika Blixt.
 
@@ -430,13 +428,13 @@ Kipengele kingine muhimu ni usaidizi kamili kutoka kwa LUD-18 (ambayo pia [Stac
 Kama unavyoona kwenye picha ya skrini iliyo hapo juu, kutuma kutoka kwa akaunti ya Stacker News, ilionyesha vyema nembo + LN Address + ujumbe. Njia hiyo hiyo hufanya kazi kwa kutuma kutoka kwa Blixt, unaweza kuambatisha Blixt LN Address yako au kuongeza tu jina la pak (lililowekwa hapo awali katika mipangilio ya Blixt) au hata zote mbili.
 
 
-Chaguo hili kutoka kwa LUD-18 linaweza kuwa muhimu pia kwa huduma za usajili, ambapo mtumiaji anaweza kutuma lakabu maalum (SI jina la nodi yako au jina lako halisi!) na kulingana na hilo unaweza kusajiliwa au kupokea tena ujumbe maalum au chochote kingine. Kuambatisha jina lak ([LUD-18](https://github.com/lnurl/luds/blob/luds/18.md))+ maoni ([LUD-12](https://github.com/lnurl/luds/blob/luds/12.md)) kwenye malipo ya LN kunaweza kuwa na kesi nyingi za matumizi!
+Chaguo hili kutoka kwa LUD-18 linaweza kuwa muhimu pia kwa huduma za usajili, ambapo mtumiaji anaweza kutuma lakabu maalum (SI jina la node yako au jina lako halisi!) na kulingana na hilo unaweza kusajiliwa au kupokea tena ujumbe maalum au chochote kingine. Kuambatisha jina lak ([LUD-18](https://github.com/lnurl/luds/blob/luds/18.md))+ maoni ([LUD-12](https://github.com/lnurl/luds/blob/luds/12.md)) kwenye malipo ya LN kunaweza kuwa na kesi nyingi za matumizi!
 
 
 Huu hapa ni msimbo wa [Lightning Box](https://github.com/hsjoberg/lightning-box) ikiwa unaiendesha kwa ajili yako mwenyewe, kwa ajili ya familia yako na marafiki, kwenye nodi yako mwenyewe.
 
 
-Hapa pia unaweza kuendesha [seva ya Dunder ya LSP](https://github.com/hsjoberg/dunder-lsp) ya nodi za simu za Blixt na kutoa ukwasi kwa watumiaji wa Blixt ikiwa una nodi nzuri ya umma ya LN (inafanya kazi na LND pekee).
+Hapa pia unaweza kuendesha [seva ya Dunder ya LSP](https://github.com/hsjoberg/dunder-lsp) ya node za simu za Blixt na kutoa ukwasi kwa watumiaji wa Blixt ikiwa una nodi nzuri ya umma ya LN (inafanya kazi na LND pekee).
 
 
 ### C - Cheleza Njia za LN na maneno ya seed
@@ -467,7 +465,7 @@ Ningependekeza kwa sehemu hii yafuatayo:
 
 
 - tumia kidhibiti cha nenosiri ili kuhifadhi salama seed yako na faili chelezo. KeePass au Bitwarden ni nzuri sana kwa hilo na inaweza kutumika kwenye majukwaa mengi na kujipangisha mwenyewe au nje ya mtandao.
-- FANYA HUDUMA KILA WAKATI unapofungua au kufunga kituo. Faili hiyo inasasishwa na maelezo ya vituo. Hakuna haja ya kuifanya baada ya kila shughuli uliyofanya kwenye LN. Hifadhi rudufu ya kituo haihifadhi maelezo hayo, inahifadhi hali ya kituo pekee.
+- FANYA HUDUMA KILA WAKATI unapofungua au kufunga kituo. Faili hiyo inasasishwa na maelezo ya vituo. Hakuna haja ya kuifanya baada ya kila muamala uliyofanya kwenye LN. Hifadhi rudufu ya kituo haihifadhi maelezo hayo, inahifadhi hali ya kituo pekee.
 
 
 ![blixt](assets/en/24.webp)
@@ -490,10 +488,10 @@ Matatizo haya yote huanza kwa sababu KIFAA CHAKO HAKITANDIKIWI VIZURI. Tafadhali
 
 - Haya hapa ni maelezo ya kiufundi kidogo kutoka [Bitcoin Magazine](https://bitcoinmagazine.com/technical/why-Bitcoin-wallets-need-block-filters)
 - Hizi hapa ni nyenzo zaidi za kiufundi kutoka [Bitcoin Optech](https://bitcoinops.org/en/topics/compact-block-filters/)
-- Hivi ndivyo unavyoweza kuwezesha Neutrino kwenye nodi yako ya nyumbani na kutoa vichujio vya vizuizi vya nodi ya simu yako, kutoka [Docs Lightning Engineering](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core)
+- Hivi ndivyo unavyoweza kuwezesha Neutrino kwenye node yako ya nyumbani na kutoa vichujio vya block vya node ya simu yako, kutoka. [Docs Lightning Engineering](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core)
 
 
-KUMBUSHO: Kutumia Neutrino juu ya clearnet ni salama kabisa, IP au xpub yako haijavujishwa. Unasoma tu vizuizi kutoka kwa nodi ya mbali na neutrino. Ni hayo tu. Mengine yote yanafanywa kwenye kifaa chako cha karibu.
+KUMBUSHO: Kutumia Neutrino juu ya clearnet ni salama kabisa, IP au xpub yako haivujishwi. Unasoma tu block kutoka kwa node ya mbali kwa kutumia Neutrino. Ni hayo tu. Mengine yote yanafanywa kwenye kifaa chako cha karibu.
 
 
 Kwa hivyo HAKUNA HAJA ya kuitumia na Tor. Tor itaongeza utulivu mkubwa kwenye mchakato wako wa kusawazisha na itafanya Blixt yako kutokuwa thabiti sana. Ikiwa unataka kutumia Tor, hakikisha unafanya nini na uwe na muunganisho mzuri na uvumilivu. Kesi sawa ya kutumia VPN. Kuwa mwangalifu ni muda gani wa kusubiri unapewa kutoka kwa VPN hiyo.
@@ -543,13 +541,13 @@ asia.blixtwallet.com
 ```
 
 
-Njia nyingine ni kuchagua moja kutoka kwa orodha hii ya nodi zinazotangaza "vichujio kompakt" (BIP157 / neutrino) - [Kichujio cha Neutrino Ukurasa wa Bitnodi](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS). Chagua moja ambayo iko karibu na eneo lako la kijiografia.
+Njia nyingine ni kuchagua moja kutoka kwa orodha hii ya node zinazotangaza "vichujio kompakt" (BIP157 / neutrino) - [Kichujio cha Neutrino Ukurasa wa Bitnodi](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS). Chagua moja ambayo iko karibu na eneo lako la kijiografia.
 
 
-Njia nyingine (njia bora) ni kuunganishwa na nodi ya jumuiya ya karibu, inayoendeshwa na rafiki au kikundi unachokijua, na inatoa muunganisho wa neutrino. [Haya hapa ni maagizo ya jinsi ya kufanya hivyo.](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Nodi zao hazitaathiriwa kwa njia yoyote, zinahitaji tu muunganisho thabiti na wa umma.
+Njia nyingine (njia bora) ni kuunganishwa na node ya jumuiya ya karibu, inayoendeshwa na rafiki au kikundi unachokijua, na inatoa muunganisho wa neutrino. [Haya hapa ni maagizo ya jinsi ya kufanya hivyo.](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Node zao hazitaathiriwa kwa njia yoyote, zinahitaji tu muunganisho thabiti na wa umma.
 
 
-Kuna haja ya seva nyingi za neutrino katika eneo la LATAM, kwa usawazishaji bora na wa haraka. Kwa hivyo tafadhali jipange, pamoja na jumuiya ya eneo lako la Bitcoin na uamue ni nani na wapi anaendesha Bitcoin Core + Neutrino kwa matumizi yako mwenyewe. Na IP ya umma tu inatosha. Ikiwa huna ufikiaji wa IP ya umma, unaweza kutumia IP ya VPS na kutengeneza handaki ya waya kwenye nodi yako ya nyumbani. Kwa njia hiyo unaelekeza trafiki yote kwa IP yako ya ndani ya VPS, bila kufichua habari yoyote ya kibinafsi kuhusu nodi yako ya nyumbani.
+Kuna haja ya seva nyingi za Neutrino katika eneo la LATAM, kwa usawazishaji bora na wa haraka. Kwa hivyo tafadhali jipange, pamoja na jumuiya ya eneo lako la Bitcoin, na uamue ni nani na wapi anaendesha Bitcoin Core + Neutrino kwa matumizi yako mwenyewe. Na IP ya umma tu inatosha. Ikiwa huna ufikiaji wa IP ya umma, unaweza kutumia IP ya VPS na kutengeneza handaki ya waya kwenye node yako ya nyumbani. Kwa njia hiyo unaelekeza trafiki yote kwa IP yako ya ndani ya VPS, bila kufichua habari yoyote ya kibinafsi kuhusu node yako ya nyumbani.
 
 
 ### KESI YA 2 - USIMALIZE KUSAwazisha
@@ -573,7 +571,7 @@ Marekebisho ya haraka: weka wakati na tarehe sahihi ya kifaa chako na uwashe te
 Wakati mwingine kwa kutumia kifaa cha zamani, na nafasi ya chini, inaweza kufikia kikomo cha kizingiti na kukwama. Hakika kwa zaidi unatumia nodi hii ya simu ya LND, faili za neutrino zinakuwa kubwa na pia faili ya channel.db.
 
 
-Marekebisho ya haraka: Nenda kwenye Chaguo za Blixt - Sehemu ya Utatuzi - Chagua "komesha LND na ufute faili za neutrino". Itaanzisha upya programu na kuanza usawazishaji mpya. Wakati mwingine urekebishaji huu wa haraka unaweza kurekebisha pia data iliyoharibika. Kumbuka kwamba itachukua muda, kati ya dakika 1 na 3 kusawazisha upya kikamilifu. SI KUFUTA fedha au chaneli zilizopo, lakini ndiyo, baada ya kusawazisha upya kunaweza kusababisha kuchanganuliwa upya kwa anwani zako za Bitcoin na hiyo inaweza kuchukua muda zaidi.
+Marekebisho ya haraka: Nenda kwenye Chaguo za Blixt - Sehemu ya Utatuzi - Chagua "komesha LND na ufute faili za Neutrino". Itaanzisha upya programu na kuanza usawazishaji mpya. Wakati mwingine urekebishaji huu wa haraka unaweza kurekebisha pia data iliyoharibika. Kumbuka kwamba itachukua muda, kati ya dakika 1 na 3 kusawazisha upya kikamilifu. HAUFUTI fedha au chaneli zilizopo, lakini ndiyo, baada ya kusawazisha upya kunaweza kusababisha kuchanganuliwa upya kwa anwani zako za Bitcoin na hiyo inaweza kuchukua muda zaidi.
 
 
 Hatua inayofuata ni kuangalia ni data ngapi bado inashughulikiwa. Unaweza kuona hili katika maelezo ya Programu ya Android - data. Ikiwa bado ni kubwa kuliko 400-500MB, unaweza kubandika faili za LND. Kwa hiyo nenda kwa Chaguzi za Blixt - sehemu ya Debug - Chagua "Compact DB LND". Anzisha tena programu ya Blixt ikiwa haifanyi kiotomatiki. Mchanganyiko unafanyika wakati wa kuanza na ni mara moja tu. Sasa utaona kuwa data ya Blixt haijashughulikiwa zaidi.
@@ -585,7 +583,7 @@ Hatua inayofuata ni kuangalia ni data ngapi bado inashughulikiwa. Unaweza kuona 
 Wakati mwingine watu hawafungui Blixt kwa muda mrefu, kwa hivyo ni ya zamani sana kusawazisha. Lakini wanatarajia kusawazishwa mara moja wanapoifungua.
 
 
-Tafadhali kuwa na subira, na uangalie gurudumu la juu linalozunguka. Hiari unaweza kwenda kwa Chaguzi - Tazama Maelezo ya Nodi na uone ikiwa imesawazishwa kwa minyororo na kusawazishwa kwa grafu iliyo alama "kweli". Bila hiyo "kweli" kutaja huwezi kutumia Blixt ipasavyo, huwezi kuona salio kwa usahihi, huwezi kuona chaneli za LN mtandaoni, huwezi kufanya malipo.
+Tafadhali kuwa na subira, na uangalie gurudumu la juu linalozunguka. Hiari unaweza kwenda kwa Chaguzi - Tazama Maelezo ya Node na uone ikiwa imesawazishwa kwa minyororo na kusawazishwa kwa grafu iliyo alama "kweli". Bila hiyo "kweli" kutaja huwezi kutumia Blixt ipasavyo, huwezi kuona salio kwa usahihi, huwezi kuona chaneli za LN mtandaoni, huwezi kufanya malipo.
 
 
 Marekebisho ya haraka: Kuna chaguo thabiti la "kudumisha hai" nodi yako ya Blixt. Nenda kwa Chaguzi - Majaribio - Chagua "Amilisha Hali ya Kudumu". Hiyo itaanzisha upya Blixt yako na itaweka huduma ya LND katika hali inayoendelea, aka itakuwa hai kila wakati na kuweka usawazishaji wako mtandaoni, hata ukibadilisha hadi programu nyingine au funga Blixt kwa urahisi (usilazimishe kufunga au kuua kazi). Unaweza kuiweka kama hiyo siku nzima ikiwa uko kwenye muunganisho thabiti na unahitaji kutumia Blixt mara kadhaa. Haitatumia betri nyingi sana.
@@ -623,8 +621,8 @@ Kama nilivyoandika katika [Ukurasa wa miongozo ya Blixt](https://blixtwallet.gi
 
 
 
-- wazi na nodi za LSP zinazojulikana na marafiki waliothibitishwa na jamii. [Angalia orodha hapa](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
-- usifungue na nodi za Tor tu. Hizo hazina thamani na utapata masuala tu ya kutoweza kufanya malipo. Haijalishi ni mzuri kiasi gani rafiki yako "mkimbiaji wa nodi" na nodi ya Tor kwenye msitu, haitakupa njia bora zaidi za nodi ya kibinafsi ya rununu. Hufungui chaneli na mtu kwa sababu ni rafiki yako. Hii sio Facebook! Unafungua kituo cha: njia nzuri, ada ndogo, upatikanaji.
+- wazi na node za LSP zinazojulikana na marafiki waliothibitishwa na jamii. [Angalia orodha hapa](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
+- usifungue na node za Tor tu. Hizo hazina thamani na utapata masuala tu ya kutoweza kufanya malipo. Haijalishi ni mzuri kiasi gani rafiki yako "mkimbiaji wa nodi" na node ya Tor kwenye msitu, haitakupa njia bora zaidi za nodi ya kibinafsi ya rununu. Hufungui chaneli na mtu kwa sababu ni rafiki yako. Hii sio Facebook! Unafungua kituo cha: njia nzuri, ada ndogo, upatikanaji.
 - hakuna haja ya kufungua tani ya shit ya njia ndogo, 2-3 au max 4, lakini kwa kiasi kizuri cha Sats. Usifungue njia ndogo, hazina maana kabisa. Chini ya 200k kwa simu ya mkononi haina matumizi mengi.
 - kumbuka LSP zinazotoa chaneli zinazoingia na JIT (kwa wakati tu). Hizo ni muhimu sana kwa sababu hauitaji kutumia UTXO zako zozote, unaweza kulipa chaneli ya ufunguzi kwa pesa ambazo tayari unazo kwenye pochi zingine za LN, ukiweka mrundikano na kuzitayarisha ili chaneli kubwa ifunguke. Unapaswa kutumia chaneli hizi za JIT kwa faida yako. [Nimefafanua katika mwongozo huu](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) chaguo zaidi kwa wenzao kwa nodi za faragha kama vile Blixt. Pia [hapa katika mwongozo huu uliochapishwa kwenye SN](https://stacker.news/items/679242/r/DarthCoin) Nilieleza jinsi ya kudhibiti ukwasi wa nodi za kibinafsi za simu.
 

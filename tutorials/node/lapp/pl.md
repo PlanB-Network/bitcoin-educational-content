@@ -30,7 +30,7 @@ Aby zbudować naszą aplikację Lightning, będziemy korzystać z następującyc
 - Szablony Pug + bootstrap dla naszego frontendu
 
 
-https://planb.network/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
+https://planb.academy/courses/bbf08a64-84ca-11f0-9d7a-c3c481a45799
 
 ## System operacyjny
 

@@ -34,7 +34,7 @@ Drugim rečima, sa ovom implementacijom, možete :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Zašto imati svoj Lightning čvor?
 
@@ -64,7 +64,7 @@ U tom smislu, pokretanje Lightning čvora povećava sigurnost i integritet vaši
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Imate dve opcije za pokretanje instance LND implementacije na našoj mašini. Možemo ili postaviti okruženje na našoj mašini za lokalno pokretanje, ili instalirati LND iz Docker kontejnera. Ovde ćemo se koncentrisati na prvu opciju, a kako nastaviti sa Docker-om ćemo videti u kasnijem tutorijalu.
@@ -664,4 +664,4 @@ Dakle, došli ste do kraja ovog vodiča. Ako želite da saznate više o Lightnin
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

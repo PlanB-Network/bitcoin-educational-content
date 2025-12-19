@@ -26,7 +26,7 @@ Buka [halaman unduhan resmi Sparrow Wallet] (https://sparrowwallet.com/download/
 
 Sebelum install, penting banget buat cek dulu apakah file Sparrow-nya asli dan nggak diubah-ubah. Ini buat jaga-jaga dari risiko software palsu atau malware. Kalau kamu belum tahu caranya, tenang aja — ada panduan lengkapnya di sini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Begitu Sparrow udah terinstal, kamu bisa langsung lewatin layar pembuka dan lanjut ke bagian pengaturan koneksi.
 
@@ -69,9 +69,9 @@ Perlu dicatat, kalau kamu pakai Bitcoin Core versi pruned (yang dipangkas), kamu
 
 Buat mengatur node Bitcoin Core, kamu bisa ikutin salah satu tutorial di bawah ini — pilih aja yang sesuai sama sistem operasi yang kamu pakai:
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Pada Sparrow, buka tab "*Bitcoin Core*".
 
@@ -251,7 +251,7 @@ Tapi kalau kamu pakai Sparrow ini cuma buat Hot Wallet dengan jumlah Bitcoin yan
 
 Kalau kamu masih baru dan pengen belajar lebih dalam soal cara nyimpen dan ngelola frasa mnemonic dengan benar, aku saranin banget buat cek tutorial lanjutan lainnya. Info ini penting banget, apalagi buat pemula, supaya kamu nggak kehilangan akses ke Bitcoin kamu di masa depan.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -262,7 +262,7 @@ Nanti juga bakal dihapus setelah tutorial selesai. Jadi ingat, jangan pernah bag
 Kamu juga bisa nambahin passphrase BIP39 dengan centang kotak “Use passphrase”.
 Fitur ini bisa bikin wallet kamu jauh lebih aman, tapi hati-hati — kalau kamu nggak ngerti cara kerjanya, risikonya bisa besar. Makanya, aku saranin banget buat baca dulu penjelasan singkat tentang teori di balik passphrase ini sebelum kamu pakai.
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Setelah kamu nyimpen frasa mnemonic dan passphrase (kalau ada) ke media fisik, klik tombol "Konfirmasi Pencadangan".
 Tombol ini menandai kalau kamu udah siap lanjut dan frasanya udah benar-benar kamu amankan.
@@ -305,7 +305,7 @@ Ada dua cara utama untuk menghubungkan Hardware Wallet ke Sparrow:
 Sparrow mendukung semua metode komunikasi ini dan kompatibel dengan sebagian besar dompet perangkat keras yang ada di pasaran.
 
 Di tutorial ini, aku bakal pakai Ledger Nano S yang disambung pakai kabel.
-Tapi tenang aja, langkah-langkahnya kurang lebih sama kalau kamu pakai mode air-gap (nggak langsung nyambung ke komputer). Kalau kamu pakai hardware wallet lain, kamu bisa cek panduan khususnya di situs Plan ₿ Network — di sana ada tutorial lengkap buat berbagai jenis device.
+Tapi tenang aja, langkah-langkahnya kurang lebih sama kalau kamu pakai mode air-gap (nggak langsung nyambung ke komputer). Kalau kamu pakai hardware wallet lain, kamu bisa cek panduan khususnya di situs Plan ₿ Academy — di sana ada tutorial lengkap buat berbagai jenis device.
 
 Sebelum mulai, pastikan wallet kamu udah dikonfigurasi di hardware wallet-nya.
 Kalau kamu pakai koneksi kabel, cukup colokkan perangkat ke komputer pakai kabelnya.
@@ -383,7 +383,7 @@ Pastikan alamat yang muncul di perangkat sama persis dengan yang ditampilkan di 
 ![Image](assets/fr/44.webp)
 
 Kalau kamu pakai Hardware Wallet yang air-gap (nggak nyambung langsung ke komputer), cara verifikasi alamatnya bisa beda-beda tergantung jenis perangkat.
-Untuk langkah-langkah pastinya, kamu bisa cek tutorial khusus dari Plan ₿ Network yang sesuai dengan model hardware wallet kamu.
+Untuk langkah-langkah pastinya, kamu bisa cek tutorial khusus dari Plan ₿ Academy yang sesuai dengan model hardware wallet kamu.
 
 Begitu pengirim udah menyelesaikan transaksinya, kamu bakal lihat transaksinya muncul di tab "Transaksi".
 Kamu bisa klik transaksi itu buat lihat detail lengkapnya — kayak jumlah, status konfirmasi, dan juga TXID (ID transaksinya).
@@ -462,7 +462,7 @@ Kalau semuanya udah oke, klik tombol “Finalisasi Transaksi untuk Penandatangan
 Sangat penting untuk mempertahankan Sighash default.
 Untuk tahu kenapa ini penting, kamu bisa cek kursus pelatihan ini — di situ aku jelasin semua yang perlu kamu tahu soal Sighash:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Di layar berikutnya, opsi yang muncul bisa beda-beda tergantung jenis Wallet yang kamu pakai:
 
@@ -542,4 +542,4 @@ Jika kamu merasa tutorial ini bermanfaat, kami akan sangat berterima kasih jika 
 
 Kami juga merekomendasikan tutorial lain yang menjelaskan cara mengonfigurasi Hardware Wallet COLDCARD Q dengan Sparrow Wallet:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

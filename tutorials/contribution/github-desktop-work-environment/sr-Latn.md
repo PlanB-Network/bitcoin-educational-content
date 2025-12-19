@@ -18,7 +18,7 @@ Ako želite da doprinesete PlanB mreži, biće potrebno da koristite GitHub za p
 Ako nemate pojma šta je GitHub, ili ako želite da saznate više o tehničkim terminima vezanim za Git i GitHub, preporučujem da pročitate naš uvodni članak kako biste se upoznali sa ovim konceptima.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -26,7 +26,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 - Da biste započeli, očigledno će vam biti potreban GitHub nalog. Ako ga već imate, možete se prijaviti, u suprotnom, možete koristiti naš vodič za kreiranje novog.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -61,7 +61,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ## Korak 2: Instalirajte Obsidian
 
 
-Hajde da pređemo na instaliranje softvera za pisanje. Ovde imate nekoliko opcija. Biće vam potreban softver koji podržava uređivanje Markdown fajlova, jer PlanB Network koristi ovaj format za tekstualne fajlove u svom repozitorijumu.
+Hajde da pređemo na instaliranje softvera za pisanje. Ovde imate nekoliko opcija. Biće vam potreban softver koji podržava uređivanje Markdown fajlova, jer Plan ₿ Academy koristi ovaj format za tekstualne fajlove u svom repozitorijumu.
 
 
 Postoji mnoštvo softvera specijalizovanih za uređivanje Markdown fajlova, kao što je Typora, dizajniran specifično za pisanje. Iako nije idealno, moguće je izabrati i uređivač koda, kao što su Visual Studio Code (VSC) ili Sublime Text. Međutim, kao pisac, preferiram da koristim Obsidian softver. Hajde da zajedno vidimo kako da ga instaliramo i počnemo sa korišćenjem.
@@ -73,11 +73,11 @@ Postoji mnoštvo softvera specijalizovanih za uređivanje Markdown fajlova, kao 
 - Stići ćete do Obsidian softvera. Za sada nemate otvorenih fajlova: ![github-desktop](assets/9.webp)
 
 
-## Korak 3: Fork PlanB Network repozitorijum
+## Korak 3: Fork Plan ₿ Academy repozitorijum
 
 
 
-- Idite u PlanB Network repozitorijum podataka na sledećem Address: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Idite u Plan ₿ Academy repozitorijum podataka na sledećem Address: [https://github.com/PlanB-Network/Bitcoin-educational-content](https://github.com/PlanB-Network/Bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Sa ove stranice, kliknite na dugme `Fork` u gornjem desnom uglu prozora: ![github-desktop](assets/11.webp)
 - U meniju za kreiranje, možete ostaviti podrazumevana podešavanja. Uverite se da je polje `Copy the dev branch only` označeno, zatim kliknite na dugme `Create Fork`: ![github-desktop](assets/12.webp)
 - Stići ćete zatim do sopstvenog Fork repozitorijuma PlanB mreže: ![github-desktop](assets/13.webp)
@@ -85,7 +85,7 @@ Postoji mnoštvo softvera specijalizovanih za uređivanje Markdown fajlova, kao 
 Ovaj Fork predstavlja poseban repozitorijum od originalnog, iako trenutno sadrži iste podatke. Sada ćete raditi na ovom novom repozitorijumu.
 
 
-Na neki način, napravili smo kopiju izvornog repozitorijuma PlanB Network. Vaš Fork (kopija) i originalni repozitorijum će sada evoluirati nezavisno jedan od drugog. Na originalnom repozitorijumu, drugi saradnici mogu dodavati nove podatke, dok ćete vi, na vašem Fork, nastaviti sa sopstvenim izmenama.
+Na neki način, napravili smo kopiju izvornog repozitorijuma Plan ₿ Academy. Vaš Fork (kopija) i originalni repozitorijum će sada evoluirati nezavisno jedan od drugog. Na originalnom repozitorijumu, drugi saradnici mogu dodavati nove podatke, dok ćete vi, na vašem Fork, nastaviti sa sopstvenim izmenama.
 
 Da bi se održala doslednost između ova dva repozitorijuma, biće neophodno da ih periodično sinhronizujete kako bi preuzimali iste informacije. Da biste poslali svoje izmene u izvorni repozitorijum, koristićete ono što se zove **Pull Request**. A da biste integrisali izmene iz izvornog repozitorijuma u vaš Fork, koristićete komandu **Sync Fork** dostupnu na GitHub web Interface.
 
@@ -116,7 +116,7 @@ Da bi se održala doslednost između ova dva repozitorijuma, biće neophodno da 
 ![github-desktop](assets/18.webp)
 
 
-- Nakon kloniranja repozitorijuma, softver vam nudi dve opcije. Morate izabrati prvu: `To contribute to the parent project`. Ovaj izbor će vam omogućiti da predstavite svoj budući rad kao doprinos glavnom projektu (`PlanB-Network/Bitcoin-educational-content`), a ne isključivo kao modifikaciju vašeg ličnog Fork (`[username]/Bitcoin-educational-content`). Kada izaberete opciju, kliknite na `Continue`:
+- Nakon kloniranja repozitorijuma, softver vam nudi dve opcije. Morate izabrati prvu: `To contribute to the parent project`. Ovaj izbor će vam omogućiti da predstavite svoj budući rad kao doprinos glavnom projektu (`Plan ₿ Academy/Bitcoin-educational-content`), a ne isključivo kao modifikaciju vašeg ličnog Fork (`[username]/Bitcoin-educational-content`). Kada izaberete opciju, kliknite na `Continue`:
 
 ![github-desktop](assets/19.webp)
 
@@ -125,10 +125,10 @@ Da bi se održala doslednost između ova dva repozitorijuma, biće neophodno da 
 
 ![github-desktop](assets/20.webp)
 
-Ono što smo postigli u ovoj fazi je kreiranje lokalne kopije vašeg repozitorijuma, koji je hostovan na GitHub-u. Kao podsetnik, ovaj repozitorijum je Fork izvornog repozitorijuma PlanB Network-a. Moći ćete da izvršite izmene na ovoj lokalnoj kopiji, kao što su dodavanje tutorijala, prevoda ili ispravki. Kada te izmene budu napravljene, koristićete komandu **Push origin** da pošaljete svoje lokalne izmene na vaš Fork hostovan na GitHub-u.
+Ono što smo postigli u ovoj fazi je kreiranje lokalne kopije vašeg repozitorijuma, koji je hostovan na GitHub-u. Kao podsetnik, ovaj repozitorijum je Fork izvornog repozitorijuma Plan ₿ Academy-a. Moći ćete da izvršite izmene na ovoj lokalnoj kopiji, kao što su dodavanje tutorijala, prevoda ili ispravki. Kada te izmene budu napravljene, koristićete komandu **Push origin** da pošaljete svoje lokalne izmene na vaš Fork hostovan na GitHub-u.
 
 
-Možete takođe preuzeti izmene sa Fork, na primer, tokom sinhronizacije sa PlanB Network repozitorijumom. Za ovo ćete koristiti komandu **Fetch origin** da preuzmete izmene na vašu lokalnu kopiju (vaš klon), a zatim komandu **Pull origin** da ih spojite sa vašim radom. Ovo vam omogućava da budete u toku sa najnovijim razvojem projekta dok efektivno doprinosite.
+Možete takođe preuzeti izmene sa Fork, na primer, tokom sinhronizacije sa Plan ₿ Academy repozitorijumom. Za ovo ćete koristiti komandu **Fetch origin** da preuzmete izmene na vašu lokalnu kopiju (vaš klon), a zatim komandu **Pull origin** da ih spojite sa vašim radom. Ovo vam omogućava da budete u toku sa najnovijim razvojem projekta dok efektivno doprinosite.
 
 
 ![github-desktop](assets/21.webp)
@@ -148,7 +148,7 @@ Možete takođe preuzeti izmene sa Fork, na primer, tokom sinhronizacije sa Plan
 
 ![github-desktop](assets/24.webp)
 
--> **Pažnja**, važno je ne birati fasciklu `Bitcoin-educational-content` prilikom kreiranja novog trezora u Obsidian-u. Umesto toga, izaberite nadređenu fasciklu, `GitHub`. Ako izaberete fasciklu `Bitcoin-educational-content`, konfiguraciona fascikla `.obsidian`, koja sadrži vaša lokalna Obsidian podešavanja, automatski će biti integrisana u repozitorijum. Želimo da to izbegnemo, jer nije potrebno prenositi vaša Obsidian podešavanja u PlanB Network repozitorijum. Alternativa je dodavanje fascikle `.obsidian` u `.gitignore` fajl, ali bi ovaj metod takođe izmenio `.gitignore` fajl izvornog repozitorijuma, što nije poželjno.
+-> **Pažnja**, važno je ne birati fasciklu `Bitcoin-educational-content` prilikom kreiranja novog trezora u Obsidian-u. Umesto toga, izaberite nadređenu fasciklu, `GitHub`. Ako izaberete fasciklu `Bitcoin-educational-content`, konfiguraciona fascikla `.obsidian`, koja sadrži vaša lokalna Obsidian podešavanja, automatski će biti integrisana u repozitorijum. Želimo da to izbegnemo, jer nije potrebno prenositi vaša Obsidian podešavanja u Plan ₿ Academy repozitorijum. Alternativa je dodavanje fascikle `.obsidian` u `.gitignore` fajl, ali bi ovaj metod takođe izmenio `.gitignore` fajl izvornog repozitorijuma, što nije poželjno.
 
 
 
@@ -164,7 +164,7 @@ Možete takođe preuzeti izmene sa Fork, na primer, tokom sinhronizacije sa Plan
 ## Korak 6: Instalirajte uređivač koda
 
 
-Većina vaših izmena će biti na fajlovima u Markdown formatu (`.md`). Da biste uredili ove dokumente, možete koristiti Obsidian, softver o kojem smo ranije razgovarali. Međutim, PlanB Network koristi druge formate fajlova, i biće potrebno da neke od njih modifikujete.
+Većina vaših izmena će biti na fajlovima u Markdown formatu (`.md`). Da biste uredili ove dokumente, možete koristiti Obsidian, softver o kojem smo ranije razgovarali. Međutim, Plan ₿ Academy koristi druge formate fajlova, i biće potrebno da neke od njih modifikujete.
 
 
 Na primer, kada kreirate novi tutorijal, biće potrebno da kreirate YAML (`.yml`) fajl kako biste uneli oznake za vaš tutorijal, njegov naslov i vaš ID predavača. Obsidian ne nudi mogućnost modifikacije ove vrste fajlova, tako da će vam biti potreban uređivač koda.
@@ -178,6 +178,6 @@ Za ovo vam je dostupno nekoliko opcija. Iako se standardni notepad vašeg račun
 Čestitamo! Vaše radno okruženje je sada postavljeno za doprinos PlanB mreži. Sada možete istražiti naše druge specifične vodiče za svaku vrstu doprinosa (prevođenje, lektura, pisanje).
 
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

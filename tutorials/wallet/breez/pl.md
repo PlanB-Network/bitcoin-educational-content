@@ -40,7 +40,7 @@ Pierwszym krokiem po utworzeniu portfela Bitcoin/Lightning jest zabezpieczenie k
 
 Postępuj zgodnie z instrukcjami, aby potwierdzić kopię zapasową i połącz konto zdalnej kopii zapasowej z portfelem Breez.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **WAŻNE**: Aby zwiększyć bezpieczeństwo portfela Breez, możesz ustawić kod PIN i skonfigurować go do autoryzacji dostępu do portfela.
 

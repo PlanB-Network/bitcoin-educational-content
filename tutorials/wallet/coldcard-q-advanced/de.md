@@ -6,7 +6,7 @@ description: Verwendung der erweiterten Optionen von COLDCARD Q
 
 In einem früheren Tutorial haben wir die Erstkonfiguration der COLDCARD Q und ihre Grundfunktionen für Anfänger beschrieben. Wenn Sie Ihre COLDCARD Q gerade erst erhalten haben und sie noch nicht eingerichtet haben, empfehle ich Ihnen, mit diesem Tutorial zu beginnen, bevor Sie hier fortfahren:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Dieses neue Tutorial ist den fortgeschrittenen Optionen der COLDCARD Q gewidmet, die für fortgeschrittene und paranoide Benutzer entwickelt wurden. In der Tat unterscheiden sich COLDCARDs von anderen Hardware-Geldbörsen durch ihre vielen erweiterten Sicherheitsfunktionen. Natürlich müssen Sie nicht alle diese Optionen nutzen. Wählen Sie einfach die Optionen aus, die zu Ihrer Sicherheitsstrategie passen.
 
@@ -20,7 +20,7 @@ Bevor Sie beginnen, vergewissern Sie sich, dass Sie Zugang zu einer physischen S
 
 Wenn Sie nicht wissen, was eine BIP39-Passphrase ist, oder wenn Ihnen nicht ganz klar ist, wie sie funktioniert, empfehle ich Ihnen dringend, vorher einen Blick auf dieses Tutorial zu werfen, das die theoretischen Grundlagen abdeckt, um die mit der Verwendung einer Passphrase verbundenen Risiken zu verstehen:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Denken Sie daran, dass Ihre Mnemonik allein nicht ausreicht, um wieder Zugang zu Ihren Bitcoins zu erhalten, sobald Sie die Passphrase in Ihrer Wallet eingerichtet haben. Sie benötigen sowohl die Eselsbrücke als auch die Passphrase. Außerdem müssen Sie die Passphrase jedes Mal eingeben, wenn Sie Ihre COLDCARD Q entsperren. Dies erhöht die Sicherheit, da der physische Zugriff auf die COLDCARD und die Kenntnis der PIN ohne die Passphrase unzureichend sind.
 
@@ -68,7 +68,7 @@ Vergewissern Sie sich, dass der angezeigte Fingerabdruck mit dem Ihrer Brieftasc
 
 Denken Sie daran, dass die Verwendung einer Passphrase bedeutet, dass Sie einen neuen Satz von Schlüsseln, der aus der Kombination Ihrer mnemonischen Phrase und Passphrase abgeleitet ist, in Ihre Wallet-Verwaltungssoftware (wie Sparrow Wallet) importieren müssen. Um dies zu tun, folgen Sie dem Schritt "*Konfigurieren Sie eine neue Wallet auf Sparrow*" in diesem anderen Tutorial:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Entriegelungsoptionen
 
@@ -202,7 +202,7 @@ Von nun an wird bei jedem Einschalten des Geräts ein funktionierender Taschenre
 
 ![CCQ](assets/fr/34.webp)
 
-Sie können zum Beispiel den SHA256-Hash von "*Plan B Network*" berechnen.
+Sie können zum Beispiel den SHA256-Hash von "*Plan ₿ Academy*" berechnen.
 
 ![CCQ](assets/fr/35.webp)
 
@@ -247,4 +247,4 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen sehr dankbar, wenn Si
 
 Ich empfehle auch dieses andere Tutorial, in dem wir die Verwendung eines direkten Konkurrenten von CCQ, Ledger Flex, diskutieren:
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

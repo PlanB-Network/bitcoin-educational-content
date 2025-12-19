@@ -81,7 +81,7 @@ Her er noen tips om hvordan du tar sikkerhetskopi av backupfrasen din.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 For å sikkerhetskopiere frasene dine velger du menyen **Innstillinger > Sikkerhet** og deretter alternativet **Sjekk sikkerhetskopifrasen din**.
 
@@ -210,4 +210,4 @@ For å gå videre, anbefaler jeg også at du oppdager vår veiledning om Aqua Wa
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

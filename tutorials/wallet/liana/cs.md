@@ -27,7 +27,7 @@ Níže uvedený diagram znázorňuje fungování portfolia se dvěma výdajovým
 Tato operace umožňuje nastavit různé konfigurace, včetně :
 
 
-- Dědický plán, který umožňuje dědicům získat zpět finanční prostředky v případě úmrtí uživatele. Další informace k tomuto tématu doporučujeme přečíst v [části 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kurzu BTC102.
+- Dědický plán, který umožňuje dědicům získat zpět finanční prostředky v případě úmrtí uživatele. Další informace k tomuto tématu doporučujeme přečíst v [části 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) kurzu BTC102.
 - Posílená záloha s dobou obnovy, která uživateli dává možnost používat peněženku, aniž by musel uchovávat příslušnou tajnou frázi a riskovat její odcizení, například při vloupání.
 - Bezpečnostní síť pro lidi, kteří s bitcoiny začínají: budou spravovat svou vlastní peněženku a jejich "opatrovník" (například příbuzný) si vyhradí právo získat jejich prostředky po určité době zpět.
 - Podpisové schéma pro více účastníků (*multisig*) se sníženými požadavky v čase, aby bylo možné se vypořádat se zánikem jednoho nebo více účastníků, například partnerů společnosti.
@@ -45,11 +45,11 @@ V tomto tutoriálu si sestavíme plán nástupnictví. Budeme používat :
 
 - Ledger Nano S Plus pro každodenní výdaje;
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - Blockstream Jade, který se používá k vymáhání finančních prostředků;
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - Dvě paměťová média (USB klíče) pro uložení deskriptoru portfolia;
 - Dědický dopis s pokyny pro vymáhání finančních prostředků;
@@ -63,7 +63,7 @@ Navštivte oficiální webové stránky Wizardsardine a stáhněte si Lianu na a
 
 Chcete-li zjistit, jak ručně ověřit pravost a integritu softwaru před instalací, doporučujeme vám nahlédnout do tohoto návodu :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Nainstalujte software do počítače a spusťte jej. Vyberte možnost "*Vytvořit novou peněženku Liana*" a nakonfigurujte peněženku.
 
@@ -193,7 +193,7 @@ Stav vypršení platnosti svých prostředků můžete zkontrolovat na kartě "*
 
 Chcete-li lépe pochopit model reprezentace UTXO používaný v Bitcoinu, můžete si přečíst první část kurzu o důvěrnosti v Bitcoinu, který napsal Loïc Morel :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Běžné výdaje
 
@@ -338,6 +338,6 @@ Skripty vytvořené v rámci tohoto portfolia budou mít následující podobu:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Protože bezpečnost vaší peněženky Bitcoin závisí také na tom, jak rozumíte jejímu fungování, doporučuji vám, abyste si podrobně prostudovali mechanismy deterministických a hierarchických peněženek na tomto bezplatném školení na téma Plan ₿ Network :
+Protože bezpečnost vaší peněženky Bitcoin závisí také na tom, jak rozumíte jejímu fungování, doporučuji vám, abyste si podrobně prostudovali mechanismy deterministických a hierarchických peněženek na tomto bezplatném školení na téma Plan ₿ Academy :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

@@ -1,0 +1,9 @@
+question: Chức năng chính của nút Bitcoin là gì?
+answer: Lưu Blockchain và xác thực các giao dịch và khối
+wrong_answers:
+  - Lưu trữ khóa riêng tư và xây dựng giao dịch
+  - Tạo địa chỉ mới cho người dùng
+  - Chuyển đổi bitcoin thành tiền pháp định
+explanation: |
+  Một nút Bitcoin duy trì một bản sao của Blockchain và tham gia vào việc xác thực và chuyển tiếp các giao dịch và khối.
+reviewed: true

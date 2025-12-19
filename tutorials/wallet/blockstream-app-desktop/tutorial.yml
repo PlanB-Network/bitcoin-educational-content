@@ -3,7 +3,7 @@ id: c1503adf-1404-4328-b814-aa97fcf0d5da
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 
 tags:
-  - wallets
+  - hardware-wallet-ready
   - self-sovereignty
   - software
 
@@ -22,7 +22,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - man-orangepeel
-    reward: 0
+    reward: 1.02
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -114,10 +114,11 @@ proofreading:
     contributor_names:
     reward: 2.05
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 2.7
+      - Tinnah924
+    reward: 1.35
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -142,9 +143,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.7
+    reward: 3.35
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 4.0
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.7

@@ -6,4 +6,4 @@ wrong_answers:
   - mempoolsize
 explanation: |
   maxmempool fixe la taille maximale de la mempool (300 Mo par défaut). Lorsqu’elle est pleine, les transactions moins rémunératrices sont expulsées.
-reviewed: false
+reviewed: true 

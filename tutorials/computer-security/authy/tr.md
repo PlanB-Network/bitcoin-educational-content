@@ -91,7 +91,7 @@ Yeni bir cihaz eklemek için, aynı kimlik bilgilerini kullanarak önceki bölü
 Bir hesapta Authy gibi bir uygulama aracılığıyla 2FA kimlik doğrulama kodu ayarlamak için hesabın bu özelliği desteklemesi gerekir. Günümüzde, çevrimiçi hizmetlerin çoğu bu 2FA seçeneğini sunmaktadır, ancak durum her zaman böyle değildir. Başka bir eğitimde sunduğum Proton posta hesabı örneğini ele alalım:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![AUTHY 2FA](assets/notext/13.webp)
 

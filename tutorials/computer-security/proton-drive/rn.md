@@ -51,7 +51,7 @@ Ku bijanye n’[igiciro](https://proton.me/igiciro), verisiyo y’ubuntu itanga 
 Niba utaragira konti ya Proton, uzokenera kuyikora. Ndagurungikira inyigisho yacu ya Proton Mail aho tubasigurira mu buryo burambuye ingene wokora konti ya Proton ku buntu maze ukayishiraho:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![PROTON DRIVE](assets/notext/04.webp)
 
@@ -75,7 +75,7 @@ Ubu uri ku nzira yawe ya Proton.
 Kugira ngo wongere amadosiye kuri Proton Drive yawe, iyo ukoresha gusa verisiyo y'urubuga (tuzovuga ku gukoresha verisiyo yo mu karere mu nyuma), ukeneye gusa gukurura no gutera inyandiko zawe muri Interface. ![PROTON DRIVE](itunga/inyandiko/08.webp) Ushobora rero kubona inyandiko yawe kuri paji y'intango. ![PROTON DRIVE](itunga/inyandiko/09.webp) Kugira ngo wongereko ikintu gishasha, fyonda ku buto "*Gishasha*" buri hejuru ibubamfu bw'ibarabara. ![PROTON DRIVE](assets/text/10.webp) Igikor "*Shira dosiye*" gifungura umugenzuzi wa dosiye yawe yo mu karere, kigufasha guhitamwo no kwinjiza inyandiko nshasha muri Proton Drive, nk'uko wobigira mu gukurura no gutera. ![PROTON DRIVE](itunga/inyandiko/11.webp) "*Shira dosiye*" iguha uburenganzira bwo kwinjiza dosiye yose. ![PROTON DRIVE](itunga/inyandiko/12.webp) "*Dosiye nshasha*" iragufasha gukora dosiye kugira ngo utunganye neza inyandiko zawe kuri Proton Drive. ![PROTON DRIVE](itunga/inyandiko/13.webp) Fyonda kuri iyi nzira, ushire izina kuri dosiye yawe. ![PROTON DRIVE](itunga/inyandiko/14.webp) Hanyuma uzoyisanga kuri paji y'intango ya Proton Drive. ![PROTON DRIVE](itunga/inyandiko/15.webp) Ubwa nyuma, "*Inyandiko nshasha*" iragufasha gukora inyandiko nshasha y'inyandiko mu buryo butaziguye muri Proton Drive. ![PROTON DRIVE](itunga/inyandiko/16.webp) Iyo ukanda kuri yo, inyandiko nshasha y'ubusa irafunguka. ![PROTON DRIVE](itunga/inyandiko/17.webp) Ushobora kuyindikako ukayihindura. ![PROTON DRIVE](itunga/inyandiko/18.webp) Niwafyonda kuri buto ya "*Share*" iri hejuru iburyo, urashobora gusangira iyo nyandiko. ![PROTON DRIVE](assets/text/19.webp) Ukeneye gusa kwinjiza imeyili y'uwatanze intererano wipfuza guha uburenganzira bwo gusoma iyo nyandiko, haba mu buryo bwo gusoma gusa canke ufise uburenganzira bwo guhindura. ![PROTON DRIVE](itunga/inyandiko/20.webp) Niwasubira kuri Proton Drive yawe, urashobora kubona ko iyo nyandiko yabitswe neza. ![PROTON DRIVE](itunga/inyandiko/21.webp) Mu gice ca "*Shared*", ushobora kubona inyandiko wasangiye n'abandi. ![PROTON DRIVE](itunga/inyandiko/22.webp) Kandi mu gice ca "*Wasangiye nanje*", urashobora kubona inyandiko abandi bagusangiye. ![PROTON DRIVE](itunga/inyandiko/23.webp) Ubwa nyuma, mu gice ca "*Ivyatsi*", ushobora kubona inyandiko zawe uherutse gusiba. ![PROTON DRIVE](itunga/inyandiko/24.webp) Ivyinshi mu bikoresho vyawe vya Proton bishizwe muri konti yawe ya Proton. Kugira ngo ubone amabwirizwa arambuye yo gushinga konti yawe, ndagutumiye ngo urabe iyi nyigisho:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Ni gute woshiramwo porogarama ya Proton Drive?
 
@@ -145,4 +145,4 @@ Urasangwa, ubu ufise ubuhinga bukomeye cane bwo gukingira 3-2-1, bugufasha kugab
 Kugira ngo umenye vyinshi ku bijanye no gukingira urubuga rwawe no kwirinda gufatwa n’abantu, ndagusavye kandi kuraba inyigisho yacu ido n’ido ku bijanye n’umucungerezi w’ijambobanga rya Bitwarden:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

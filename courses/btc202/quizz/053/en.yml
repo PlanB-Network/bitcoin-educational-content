@@ -1,4 +1,4 @@
-question: Which optional index can be activated in Bitcoin core to find a transaction by its txid?
+question: Which optional index can be activated in Bitcoin Core to find a transaction by its txid?
 answer: txindex
 wrong_answers:
   - addrindex
@@ -6,4 +6,4 @@ wrong_answers:
   - electrumindex
 explanation: |
   The txindex=1 option is used to query a transaction by its unique identifier (txid).
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Pieter Wuille
 explanation: |
   The SPV is presented in part 8 of Satoshi Nakamoto's White Paper.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Кой пръв реализира mining с графичен процесор (GPU) през 2010 г.?
+answer: Ласло Ханиец (Laszlo Hanyecz)
+wrong_answers:
+  - SmokeTooMuch
+  - ArtForz
+  - Нилс Шнайдер
+explanation: |
+  През април 2010 г. той използва средата OpenCL, за да включи графичния процесор в биткойн mining. На 10 май той [публикува](https: //bitcointalk.org/index.php?topic=124.msg1100#msg1100) своя изпълним файл във форума.
+reviewed: true

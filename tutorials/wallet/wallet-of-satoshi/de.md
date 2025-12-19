@@ -12,7 +12,7 @@ dieses Tutorium wurde geschrieben von_ [Bitcoin Campus] (https://linktr.ee/bitco
 
 Wallet von Satoshi ist ein Lightning Network Wallet, verwahrend, und sehr einfach zu bedienen.
 
-Für die Zwecke des Kurses [BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wird er für Redeem Lightning Network-Gutscheine verwendet.
+Für die Zwecke des Kurses [BTC105 - Finding Now] (https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wird er für Redeem Lightning Network-Gutscheine verwendet.
 
 
 **Immer daran denken**: _nicht Ihre Schlüssel, nicht Ihre Münzen_

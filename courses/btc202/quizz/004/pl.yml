@@ -1,0 +1,9 @@
+question: Co to jest węzeł Bitcoin?
+answer: Komputer z oprogramowaniem implementującym protokół Bitcoin
+wrong_answers:
+  - Hardware Wallet wdrażający sieć Bitcoin
+  - Miner produkujący nowe bloki dla Bitcoin
+  - Centralny serwer zarządzający siecią Bitcoin i potwierdzaniem transakcji
+explanation: |
+  Węzeł Bitcoin to komputer z uruchomionym oprogramowaniem, takim jak Bitcoin core, który implementuje protokół i uczestniczy w sieci Bitcoin.
+reviewed: true

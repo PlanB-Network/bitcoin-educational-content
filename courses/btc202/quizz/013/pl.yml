@@ -1,0 +1,9 @@
+question: Jaki rodzaj sprzętu jest obecnie wykorzystywany do wydajnego wydobywania Bitcoin?
+answer: ASIC
+wrong_answers:
+  - Klasyczny procesor
+  - GPU
+  - FPGA
+explanation: |
+  Obecnie Bitcoin Mining jest przeprowadzany przy użyciu układów ASIC. Są to wyspecjalizowane układy dla algorytmu SHA-256.
+reviewed: true

@@ -37,9 +37,9 @@ Fedi Wallet on Bitcoin portfell, mis pakub uut lähenemist märksõnade salvesta
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
@@ -47,9 +47,9 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Selle asemel pakub Fedi Wallet föderatsioonipõhist lähenemist, mis võimaldab teil liituda grupiga, mida te usaldate oma portfelli võtmete haldamiseks. Võite liituda Fedi poolt soovitatud populaarse föderatsiooniga või liituda oma kogukonna kohaliku föderatsiooniga, skaneerides QR-koodi või kleepides föderatsiooni kutsekoodi.
 
@@ -75,7 +75,7 @@ Lisateave meie taastamise sõnade varundamissoovituste kohta:
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Fedi eristab teie bitcoinid iga liitunud föderatsiooni puhul eraldi rahakoti loomise teel.
 
@@ -141,7 +141,7 @@ Satoshide saamiseks peab teie saaja skaneerima loodud QR-koodi.
 
 
 
-Offline-maksed tehakse peamiselt [e-raha] (https://planb.network/resources/glossary/ecash-david-chaum) abil. Tehing salvestatakse teie telefoni ja niipea, kui te sisenete internetti, toimub tehingu kinnitamine automaatselt. Võite makse ka käsitsi kinnitada, klõpsates **Kinnitage tehing**.
+Offline-maksed tehakse peamiselt [e-raha] (https://planb.academy/resources/glossary/ecash-david-chaum) abil. Tehing salvestatakse teie telefoni ja niipea, kui te sisenete internetti, toimub tehingu kinnitamine automaatselt. Võite makse ka käsitsi kinnitada, klõpsates **Kinnitage tehing**.
 
 
 
@@ -191,7 +191,7 @@ Menüüst **Mods** leiate sellised rakendused nagu :
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,4 +231,4 @@ Olete just läbinud Fedi Wallet ekskursiooni, nüüd saate selle portfelli kogu 
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

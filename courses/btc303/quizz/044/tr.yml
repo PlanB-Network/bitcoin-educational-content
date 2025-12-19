@@ -1,0 +1,9 @@
+question: Shaolinfry'nin madenciler tarafından aktive edilen yumuşak çatallara karşı kanıt olarak gösterdiği BIP66 yumuşak fork ile ilgili özel sorun neydi?
+answer: gW-1'in %95'i hazır olma sinyali verdi ancak yaklaşık yarısı yükseltilmiş kuralları doğrulamadı ve geçersiz bir blok üzerine madencilik yaptı
+wrong_answers:
+  - Madenciler, yoğun kullanıcı talebine rağmen destek sinyali vermeyi reddederek yükseltmenin süresiz olarak durmasına neden oldu
+  - Kullanıcıların çoğunluğunun desteğine rağmen madencilerin küçük bir yüzdesi tüm ağ için yükseltmeyi veto etti
+  - Madenciler ve kullanıcılar uygulama detayları konusunda anlaşmazlığa düştüğü için yükseltme kalıcı bir zincir bölünmesine neden oldu
+explanation: |
+  BIP66 olayı, madenciler tarafından etkinleştirilen soft fork'lardaki kritik bir kusuru ortaya çıkardı: hazır olunduğuna dair sinyal vermek, gerçek doğrulamayı garanti etmiyor. Madencilerin %95'i yükseltmeye hazır olduklarını belirtmelerine rağmen, yaklaşık yarısı yeni kuralları düzgün bir şekilde doğrulamadı ve yanlışlıkla geçersiz bir blokta madencilik yaptı. Bu durum, hash gücü sinyalinin yanıltıcı olabileceğini ve doğru uygulamayı garanti etmediğini göstermiştir ki bu da Shaolinfry'nin Kullanıcı Aktif Soft Çatallarını daha güvenilir bir yükseltme mekanizması olarak önermek için kullandığı temel argümanlardan biriydi.
+reviewed: false

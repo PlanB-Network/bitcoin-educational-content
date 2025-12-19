@@ -100,7 +100,7 @@ Tìm hiểu thêm trong hướng dẫn Thunderbird của chúng tôi:
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid cung cấp cho bạn tất cả thông tin cần thiết để quyết định xem việc sử dụng ứng dụng có bảo vệ dữ liệu và tăng cường quyền riêng tư của bạn hay không. Quét tất cả các ứng dụng bạn muốn sử dụng, sau đó nhấp vào nút **Cài đặt** để tải xuống và cài đặt ứng dụng.
 
@@ -187,4 +187,4 @@ Nếu bạn thích hướng dẫn này, hãy tìm hiểu thêm về khóa học 
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

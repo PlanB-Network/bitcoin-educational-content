@@ -1,12 +1,9 @@
-question: Ni gute inyigisho y’i Otirishiya y’ingendo y’ubudandaji ifitaniye isano n’ukudashoboka kw’ibara ry’ubutunzi mu gihe c’ubusosiyalisimu?
-answer: Bishobora gufatwa nk’ikibazo kidasanzwe c’ukudashoboka kw’ibara ry’ubutunzi mu gihe c’ubusosiyalisimu, rikoreshwa mu bijanye n’amasoko y’amahera.
+question: Ni gute inyigish y’i Otirishi y’ingendo y’ubudandaji ifitaniye isano n’ukudashoboka kw’uguharura ubutunzi mu gihe c’ubusosiyalisimu?
+answer: Bishobora gufatwa nk’ikibazo kidasanzwe c'uguharura ubutunzi kudashoboka mu gihe c’ubusosiyalisimu, rikoreshwa mu bijanye n’amasoko y’amahera.
 wrong_answers:
-  - Ni ugunegura ukuntu ibara ry’ubutunzi ridashoboka mu gihe c’ubusosiyalisimu.
-  - Ni umuti w’ukudashoboka kw’ibara ry’ubutunzi mu gihe c’ubusosiyalisimu.
+  - Ni ukunegura ukuntu uguhamagara ubutunzi kudashoboka mu gihe c’ubusosiyalisimu.
+  - Ni umuti w’guharura ubutunzi kudashoboka mu gihe c’ubusosiyalisimu.
   - Ntaco bihuriyeko n’ukudashoboka kw’ibara ry’ubutunzi mu gihe c’ubusosiyalisimu.
 explanation: |
-  Ivyiyumviro vy’Abanyaotirishiya vyerekeye Inzinguzingu y’Ubucuruzi bisigura ingene .
-  ishoramari rirengeje urugero n'ugutanga nabi umutungo biva ku gukoresha nabi inyungu 
-  n’amabanki akomeye kandi rero bishobora gufatwa nk’ikibazo kidasanzwe c’ukudashoboka kw’ 
-  ibara ry’ubutunzi mu gihe c’ubusosiyalisiti, rikoreshwa mu bijanye n’amasoko y’amahera.
+  Inyigisho y’aba otirishi yerekeye uko ubutunzi buhindagurika, isobanura ukuntu ukuzana imitahe kudasanzwe n’ikoreshwa nabi ry’imitahe rituruka ku gukinishwa kw’igipimo c’inyungu n’amabanki makuru, ishobora gufatwa nk’urugero rw’ukudashobora gutora ibiharuro vy'ubutinzi mu gihe socialisimu, iyo nyigisho ikaba ishirwa mu bijanye n’isoko ry’amafaranga.
 reviewed: true

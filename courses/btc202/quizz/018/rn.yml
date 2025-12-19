@@ -1,0 +1,9 @@
+question: Ni igiki gikoreshwa cane mu gushirwa mu ngiro kw’inzira ya Bitcoin?
+answer: Bitcoin core.
+wrong_answers:
+  - Bitcoin Knots.
+  - Bitcoin vya kera
+  - Bcoin
+explanation: |
+  Kubera ko hariho ama node nka 9 kuri 10 ari ku rubuga, Bitcoin core ni yo ikoresha cane.
+reviewed: true

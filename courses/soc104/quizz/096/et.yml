@@ -1,0 +1,9 @@
+question: Milline on Eric Hughesi Cypherpunk manifesti kohaselt peamine meetod, mida salapärastajad peaksid kasutama, et saavutada oma privaatsuse ja vabaduse eesmärke?
+answer: Koodi kirjutamine krüptograafiliste süsteemide loomiseks, mis muudavad poliitilised erimeelsused ebaoluliseks
+wrong_answers:
+  - Valitsuste lobitöö, et nad võtaksid vastu rangemad eraelu puutumatuse kaitse seadused ja määrused
+  - Massimeeleavalduste ja kodanikuallumatuse kampaaniate korraldamine jälgimise vastu
+  - Haridusprogrammide loomine, et tõsta üldsuse teadlikkust digitaalsete privaatsusõiguste kohta
+explanation: |
+  Eric Hughes sõnas selgesõnaliselt, et "Cypherpunks kirjutavad koodi" on nende põhiline lähenemine. Manifestis rõhutatakse, et cypherpunks ei leia lohutust lootustes ja soovides, vaid sekkuvad aktiivselt, ehitades krüptograafia abil anonüümseid süsteeme.
+  See muudab abstraktsed vabaduse ideed konkreetseks majanduslikuks ja ühiskondlikuks reaalsuseks, muutes poliitilised jaotused meelevaldseks ja ebavajalikuks. Teised valikud esindavad traditsioonilist poliitilist aktivismi, mis on vastuolus cypherpunki filosoofiaga, mille kohaselt on tehnoloogilised lahendused tähtsamad kui institutsioonilised reformid.

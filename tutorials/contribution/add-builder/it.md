@@ -1,21 +1,21 @@
 ---
 name: Aggiungere un progetto
-description: Come aggiungere un nuovo progetto sulla Plan ₿ Network?
+description: Come aggiungere un nuovo progetto sulla Plan ₿ Academy?
 ---
 ![project](assets/cover.webp)
 
-La missione di Plan ₿ Network è fornire risorse educative di primo livello su Bitcoin, nel maggior numero di lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, il che consente a chiunque di partecipare all'arricchimento della piattaforma.
+La missione di Plan ₿ Academy è fornire risorse educative di primo livello su Bitcoin, nel maggior numero di lingue possibili. Tutti i contenuti pubblicati sul sito sono open-source e gestiti su GitHub, il che consente a chiunque di partecipare all'arricchimento della piattaforma.
 
-Vuoi aggiungere un nuovo "project" Bitcoin al sito di Plan ₿ Network e dare visibilità alla tua azienda o software, ma non sai come fare? Questo tutorial è per te!
+Vuoi aggiungere un nuovo "project" Bitcoin al sito di Plan ₿ Academy e dare visibilità alla tua azienda o software, ma non sai come fare? Questo tutorial è per te!
 
 ![project](assets/01.webp)
 
 - Prima di tutto, devi avere un account GitHub. Se non sai come crearne uno, abbiamo scritto un tutorial dettagliato per guidarti.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
-- Vai al [repository GitHub di Plan ₿ Network](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) nella sezione `resources/project/`:
+- Vai al [repository GitHub di Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects) nella sezione `resources/project/`:
 
 ![project](assets/02.webp)
 
@@ -23,7 +23,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 ![project](assets/03.webp)
 
-- Se non hai mai aggiunto contenuti su Plan ₿ Network prima d'ora, dovrai creare il tuo fork. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, il che ti consente di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
+- Se non hai mai aggiunto contenuti su Plan ₿ Academy prima d'ora, dovrai creare il tuo fork. Fare un fork di un repository significa creare una copia di quel repository sul proprio account GitHub, il che ti consente di lavorare sul progetto senza influenzare il repository originale. Clicca sul pulsante `Fork this repository`:
 
 ![project](assets/04.webp)
 
@@ -139,7 +139,7 @@ category: education
 
 ![project](assets/14.webp)
 
-- Seleziona il tuo fork del repository Plan ₿ Network:
+- Seleziona il tuo fork del repository Plan ₿ Academy:
 
 ![project](assets/15.webp)
 
@@ -183,7 +183,7 @@ category: education
 
 ![project](assets/25.webp)
 
-- Si aprirà una nuova pagina. Trascina e rilascia un'immagine della tua azienda o del tuo software nell'area relativa. Questa immagine verrà visualizzata sul sito di Plan ₿ Network:
+- Si aprirà una nuova pagina. Trascina e rilascia un'immagine della tua azienda o del tuo software nell'area relativa. Questa immagine verrà visualizzata sul sito di Plan ₿ Academy:
 
 ![project](assets/26.webp)
 
@@ -235,9 +235,9 @@ contributors:
  - 
 ```
 
-- Nella sezione `contributors`, puoi aggiungere il tuo identificativo da contributor di Plan ₿ Network, se ne hai uno. Se non lo hai, lascia questo campo vuoto.
+- Nella sezione `contributors`, puoi aggiungere il tuo identificativo da contributor di Plan ₿ Academy, se ne hai uno. Se non lo hai, lascia questo campo vuoto.
 
-- Nella sezione `description`, devi semplicemente aggiungere un breve paragrafo che descrive la tua azienda o il tuo software. La descrizione deve essere nella stessa lingua del nome del file. Non è necessario tradurre questa descrizione in tutte le lingue supportate sul sito, poiché il team di Plan ₿ Network lo farà utilizzando il relativo modello. Ad esempio, ecco come potrebbe apparire il tuo file:
+- Nella sezione `description`, devi semplicemente aggiungere un breve paragrafo che descrive la tua azienda o il tuo software. La descrizione deve essere nella stessa lingua del nome del file. Non è necessario tradurre questa descrizione in tutte le lingue supportate sul sito, poiché il team di Plan ₿ Academy lo farà utilizzando il relativo modello. Ad esempio, ecco come potrebbe apparire il tuo file:
 
 ```yaml
 description: |
@@ -277,9 +277,9 @@ contributors:
 
 ![project](assets/44.webp)
 
-Congratulazioni! La PR è stata creata con successo. Un coordinatore lo esaminerà ora e, se tutto è in ordine, lo integrerà nel repository principale di Plan ₿ Network. Dovresti vedere apparire il tuo progetto sul sito web qualche giorno dopo.
+Congratulazioni! La PR è stata creata con successo. Un coordinatore lo esaminerà ora e, se tutto è in ordine, lo integrerà nel repository principale di Plan ₿ Academy. Dovresti vedere apparire il tuo progetto sul sito web qualche giorno dopo.
 
-Assicurati di seguire il progresso della PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando non è validata, puoi consultarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Network:
+Assicurati di seguire il progresso della PR. Un amministratore potrebbe lasciare un commento chiedendo ulteriori informazioni. Fino a quando non è validata, puoi consultarla nella scheda `Pull requests` sul repository GitHub di Plan ₿ Academy:
 
 ![project](assets/45.webp)
 

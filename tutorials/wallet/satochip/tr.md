@@ -213,7 +213,7 @@ Bu Address ile güvence altına alınacak bitcoinlerin kaynağını açıklamak 
 Etiketleme hakkında daha fazla bilgi için bu diğer eğitime de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Daha sonra bu Address'yi bitcoin almak için kullanabilirsiniz.
 

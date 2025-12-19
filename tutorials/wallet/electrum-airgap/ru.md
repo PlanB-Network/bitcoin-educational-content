@@ -54,7 +54,7 @@ description: Первый шаг к безопасности, cold wallet с Ele
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 После загрузки всегда проверяйте релиз перед установкой, затем перейдите к настройке "One Server", как вы найдете в разделе помощи, в разделе `Start with a Dummy Wallet`.
 

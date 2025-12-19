@@ -1,11 +1,11 @@
 question: İşletim sistemini ve uygulamaları düzenli olarak güncellemek neden çok önemlidir?
-answer: Yeni tehditlere ve güvenlik açıklarına karşı koruma sağlamak.
+answer: Yeni tehditlere ve güvenlik açıklarına karşı koruma sağlamak için.
 wrong_answers:
   - Makineyi kullanılmaz hale getirmek için.
   - Makineyi yavaşlatmak için.
-  - Kullanıcı Interface'ı değiştirmek için.
+  - Kullanıcı içyüz'ünü değiştirmek için.
 explanation: |
-  Sistemi aşağıdakilerden korumak için düzenli güncellemeler gereklidir
-  yeni tehditler ve güvenlik açıkları. Bunlar şu amaçlara yönelik değildir
-  makineyi eski veya yavaş hale getirir.
+  Sistemi aşağıdakilerden korumak için düzenli güncellemeler gereklidir:
+  yeni tehditler ve güvenlik açıkları. Bunlar şu amaçlara yönelik değildir:
+  makineyi eski veya yavaş hale getirmek.
 reviewed: true

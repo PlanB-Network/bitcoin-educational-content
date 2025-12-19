@@ -16,7 +16,7 @@ Aplikace těchto dvou principů bezpečnosti hesel (unikátnost a robustnost) se
 
 Správce hesel generuje a bezpečně ukládá silná hesla, což vám umožňuje přistupovat ke všem vašim online účtům bez nutnosti je individuálně pamatovat. Potřebujete si zapamatovat pouze jedno heslo, hlavní heslo, které vám dává přístup ke všem vašim uloženým heslům ve správci. Používání správce hesel zvyšuje vaši online bezpečnost, protože brání opětovnému používání hesel a systematicky generuje náhodná hesla. Ale také zjednodušuje vaše každodenní používání účtů centralizací přístupu k vašim citlivým informacím.
 V tomto tutoriálu prozkoumáme, jak nastavit a používat správce hesel pro zvýšení vaší online bezpečnosti. Představím vám Bitwarden a v dalším tutoriálu se podíváme na další řešení nazvané KeePass.
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Varování: Správce hesel je skvělý pro ukládání hesel, ale **nikdy byste v něm neměli ukládat mnemonickou frázi vaší Bitcoinové peněženky!** Pamětní fráze by měla být výhradně uložena ve fyzickém formátu, jako je kus papíru nebo kovu.
 
@@ -67,9 +67,9 @@ Především vám důrazně doporučuji nastavit dvoufaktorové ověření (2FA)
 
 Pokud si nejste jisti, jak nastavit a používat tyto zařízení 2FA, doporučuji následovat tyto 2 další tutoriály:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Pro toto přejděte na záložku "*Bezpečnost*" v menu "*Nastavení*".
 ![BITWARDEN](assets/notext/14.webp)
@@ -99,7 +99,7 @@ Nyní, když je váš správce hesel nakonfigurován, můžete začít ukládat 
 ![BITWARDEN](assets/notext/25.webp)
 Ve formuláři, který se otevře, začněte určením povahy položky, která má být uložena. Pro uložení přihlašovacích údajů vyberte z rozevíracího menu možnost "*Přihlášení*".
 ![BITWARDEN](assets/notext/26.webp)
-Do pole "*Název*" zadejte popisný název pro vaše přihlašovací údaje. To usnadní vyhledávání a organizaci vašich hesel, zejména pokud jich máte velké množství. Například, pokud chcete uložit vaše přihlašovací údaje pro web PlanB Network, můžete tuto položku pojmenovat způsobem, který ji během vašich budoucích vyhledávání okamžitě identifikuje.
+Do pole "*Název*" zadejte popisný název pro vaše přihlašovací údaje. To usnadní vyhledávání a organizaci vašich hesel, zejména pokud jich máte velké množství. Například, pokud chcete uložit vaše přihlašovací údaje pro web Plan ₿ Academy, můžete tuto položku pojmenovat způsobem, který ji během vašich budoucích vyhledávání okamžitě identifikuje.
 ![BITWARDEN](assets/notext/27.webp)
 Možnost "*Složka*" umožňuje klasifikovat vaše přihlašovací údaje do složek. Zatím jsme žádné nevytvořili, ale později vám ukážu, jak na to.
 ![BITWARDEN](assets/notext/28.webp)
@@ -127,7 +127,7 @@ Poté klikněte na "*Uložit*".
 ![BITWARDEN](assets/notext/40.webp)
 Vaše složka se nyní zobrazuje ve vašem správci.
 ![BITWARDEN](assets/notext/41.webp)
-Složku můžete přiřadit k identifikátoru při jeho vytváření, jak jsme to udělali dříve, nebo upravit existující identifikátor. Například kliknutím na můj identifikátor pro PlanB Network, mohu poté zvolit jeho zařazení do složky "*Bitcoin*".
+Složku můžete přiřadit k identifikátoru při jeho vytváření, jak jsme to udělali dříve, nebo upravit existující identifikátor. Například kliknutím na můj identifikátor pro Plan ₿ Academy, mohu poté zvolit jeho zařazení do složky "*Bitcoin*".
 ![BITWARDEN](assets/notext/42.webp)
 Tímto způsobem můžete strukturovat váš správce hesel, aby bylo snazší najít vaše identifikátory. Můžete je organizovat do složek jako osobní, profesionální, banky, emaily, sociální sítě, předplatné, nákupy, administrativa, streaming, úložiště, cestování, zdraví atd.
 Pokud dáváte přednost používání pouze webové verze Bitwarden, je to zcela možné. Doporučuji poté přidat správce hesel do oblíbených ve vašem prohlížeči pro snadný přístup a aby se předešlo rizikům phishingu. Bitwarden však také nabízí celou řadu klientů, které vám umožní používat váš správce na různých zařízeních a zjednodušit jeho každodenní používání. Nabízejí zejména mobilní aplikaci, rozšíření prohlížeče a desktopový software. Podívejme se, jak je nastavit společně.
@@ -171,11 +171,11 @@ A nakonec zadejte 6místný kód z vaší autentizační aplikace.
 Nyní jste připojeni k vašemu správci Bitwarden prostřednictvím rozšíření prohlížeče.
 
 ![BITWARDEN](assets/notext/51.webp)
-Například, pokud se vrátím na stránku PlanB Network a pokusím se přihlásit do svého účtu, můžete vidět, že rozšíření Bitwarden integrované do prohlížeče rozpozná pole pro přihlášení a automaticky mi nabídne vybrat identifikátor, který jsem dříve uložil.
+Například, pokud se vrátím na stránku Plan ₿ Academy a pokusím se přihlásit do svého účtu, můžete vidět, že rozšíření Bitwarden integrované do prohlížeče rozpozná pole pro přihlášení a automaticky mi nabídne vybrat identifikátor, který jsem dříve uložil.
 ![BITWARDEN](assets/notext/52.webp)
 Pokud tento identifikátor vyberu, Bitwarden za mě vyplní pole pro přihlášení. Tato funkce rozšíření umožňuje rychlé připojení k webovým stránkám, bez nutnosti kopírovat přihlašovací údaje z webové aplikace nebo softwaru Bitwarden.
 ![BITWARDEN](assets/notext/53.webp)
-Rozšíření je také navrženo tak, aby detekovalo vytváření nových účtů. Například při vytváření nového účtu na PlanB Network, Bitwarden automaticky navrhne uložení nového identifikátoru.
+Rozšíření je také navrženo tak, aby detekovalo vytváření nových účtů. Například při vytváření nového účtu na Plan ₿ Academy, Bitwarden automaticky navrhne uložení nového identifikátoru.
 ![BITWARDEN](assets/notext/54.webp)
 Kliknutím na tuto nabídku, která se objeví, se otevře rozšíření. Umožňuje mi zadat podrobnosti nového identifikátoru a vygenerovat silné, unikátní heslo.
 ![BITWARDEN](assets/notext/55.webp)

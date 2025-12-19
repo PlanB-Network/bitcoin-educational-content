@@ -5,7 +5,7 @@ description: Planb.network'teki statik Elements'in çevirisine nasıl katılabil
 ![cover](assets/cover.webp)
 
 
-Plan ₿ Network'nin misyonu, Bitcoin'te birinci sınıf eğitim kaynakları sağlamak ve bunları mümkün olduğunca çok dile çevirmektir. Sitede yayınlanan içeriğin çoğu açık kaynaklıdır ve GitHub'da barındırılmaktadır, bu da herkesin platformu zenginleştirmeye katılmasına olanak tanır. Katkılar çeşitli şekillerde olabilir: mevcut içeriği düzeltmek ve düzeltmek, bilgileri güncellemek veya platforma eklemek için yeni eğitimler oluşturmak.
+Plan ₿ Academy'nin misyonu, Bitcoin'te birinci sınıf eğitim kaynakları sağlamak ve bunları mümkün olduğunca çok dile çevirmektir. Sitede yayınlanan içeriğin çoğu açık kaynaklıdır ve GitHub'da barındırılmaktadır, bu da herkesin platformu zenginleştirmeye katılmasına olanak tanır. Katkılar çeşitli şekillerde olabilir: mevcut içeriği düzeltmek ve düzeltmek, bilgileri güncellemek veya platforma eklemek için yeni eğitimler oluşturmak.
 
 
 Bu eğitimde, web sitemizdeki statik Elements'ün çevirisine nasıl kolayca katkıda bulunabileceğinizi göstereceğiz. Platformdaki veriler iki ana kategoriye ayrılmıştır:
@@ -18,12 +18,12 @@ Bu eğitimde, web sitemizdeki statik Elements'ün çevirisine nasıl kolayca kat
 Eğitim içeriğini çevirmek için [yapay zeka] (https://github.com/Asi0Flammeus/LLM-Translator) kullanıyoruz. Daha sonra, bu dosyalardaki olası hataları düzeltmek için, düzeltmenleri katkıda bulunmaya davet ediyoruz. Bazı içerikleri düzeltmek isterseniz, aşağıdaki öğreticiye başvurun:
 
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 Öte yandan, web sitesinin statik Elements'sını (eğitim içeriği hariç) çevirmekle ilgileniyorsanız, doğru yerdesiniz! Ön yüzü etkili bir şekilde çevirmek için, kullanımı çok basit olan ve çeviri yaklaşımını kolaylaştıran Weblate aracını kullanıyoruz.
 
 
-Plan ₿ Network'ye tamamen yeni bir dil eklemek istiyorsanız, [Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla Plan ₿ Network ekibiyle iletişime geçtiğinizden emin olun. Eğer telegramınız yoksa mari@planb.network adresine e-posta gönderebilirsiniz. Kim olduğunuz ve konuştuğunuz diller hakkında küçük bir sunum yazdığınızdan emin olun.
+Plan ₿ Academy'ye tamamen yeni bir dil eklemek istiyorsanız, [Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla Plan ₿ Academy ekibiyle iletişime geçtiğinizden emin olun. Eğer telegramınız yoksa mari@planb.network adresine e-posta gönderebilirsiniz. Kim olduğunuz ve konuştuğunuz diller hakkında küçük bir sunum yazdığınızdan emin olun.
 
 Ekip üyelerimiz size özel talimatlar verecek ve çalışmanızı koordine etmek için Github'da ilgili "sorunları" açacaktır.
 
@@ -31,7 +31,7 @@ Ekip üyelerimiz size özel talimatlar verecek ve çalışmanızı koordine etme
 Weblate'e yeni bir dil eklemek için bu özel öğreticiyi izlemeden önce.
 
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 
 Çeviriye başlamaya hazır olduğunuzda, bu eğitime geri dönün ve aşağıdaki noktaları gözden geçirin.
 
@@ -40,7 +40,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 
 
 
-- Plan ₿ Network'in kendi barındırdığı Weblate'e] (https://weblate.planb.network/) gidin:
+- Plan ₿ Academy'in kendi barındırdığı Weblate'e] (https://weblate.planb.network/) gidin:
 
 ![weblate](assets/01.webp)
 
@@ -70,7 +70,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 ![weblate](assets/06.webp)
 
 
-- Artık Plan ₿ Network kontrol paneline geri dönebilirsiniz:
+- Artık Plan ₿ Academy kontrol paneline geri dönebilirsiniz:
 
 ![weblate](assets/07.webp)
 
@@ -159,7 +159,7 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 
 
 - Küme parantezleri "{" içine yerleştirilmiş kelimeler bulduğunuzda, bunları çevirmeniz gerekmez. Örneğin, "Your account has been created, {{userName}}!" cümlesinde, tüm cümleyi çevireceksiniz, ancak "username" kelimesini İngilizce olarak koruyacaksınız.
-- Bir dizede "Plan ₿ Network" bulduğunuzda, "network" kelimesini çevirmediğinizden emin olun (Plan ₿ Network'ü bir ticari marka olarak düşünün). Ayrıca, her zaman Bitcoin'in ₿'sini kullanın!
+- Bir dizede "Plan ₿ Academy" bulduğunuzda, "network" kelimesini çevirmediğinizden emin olun (Plan ₿ Academy'ü bir ticari marka olarak düşünün). Ayrıca, her zaman Bitcoin'in ₿'sini kullanın!
 - Tek başına "network" kelimesini bulursanız, bunun yerine çevirebilirsiniz.
 - Başka bir sabit kelime olduğu için "B-CERT" olarak tercüme etmeyin.
 - Boşluk ile biten dizeler bulursanız, bırakabilirsiniz.
@@ -174,4 +174,4 @@ https://planb.network/tutorials/contribution/content/weblate-add-new-language-ee
 ![weblate](assets/23.webp)
 
 
-Plan ₿ Network'nin çevirisine katkılarınız için şimdiden teşekkür ederiz! Bizim için herhangi bir özel sorunuz veya yorumunuz varsa, [Telegram grubu] (https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla bizimle iletişime geçmekten çekinmeyin.
+Plan ₿ Academy'nin çevirisine katkılarınız için şimdiden teşekkür ederiz! Bizim için herhangi bir özel sorunuz veya yorumunuz varsa, [Telegram grubu] (https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla bizimle iletişime geçmekten çekinmeyin.

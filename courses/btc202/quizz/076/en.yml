@@ -1,9 +1,9 @@
-question: What is the default Mempool size limit in Bitcoin core?
+question: What is the default Mempool size limit in Bitcoin Core?
 answer: 300 MB
 wrong_answers:
   - 256 MB
   - 512 MB
   - 1024 MB
 explanation: |
-  By default, Bitcoin core limits Mempool to 300 MB. Beyond that, it expels less profitable transactions.
-reviewed: false
+  By default, Bitcoin Core limits the Mempool to 300 MB. Beyond that, it expels less profitable transactions.
+reviewed: true

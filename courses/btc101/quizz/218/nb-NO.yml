@@ -1,9 +1,9 @@
-question: Når ble Lightning Network validert og implementert?
-answer: 2017
+question: Hvorfor kan en Lightning-kanal være ubrukelig i én retning?
+answer: Ikke nok likviditet
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
-explanation: >-
-  Lightning Network ble validert og implementert i 2017.
+  - For ny blokk
+  - Utgått HTLC
+  - Ikke-synkronisert node
+explanation: |
+  Selv med stor kapasitet tillater en kanal kun en betaling hvis tilstrekkelig likviditet er på riktig side.
 reviewed: false

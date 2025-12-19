@@ -6,4 +6,4 @@ wrong_answers:
   - Confidentiality, functionality, reliability
 explanation: |
   Updates ensure security against vulnerabilities, compatibility with evolutions and new features, and system reliability.
-reviewed: false
+reviewed: true

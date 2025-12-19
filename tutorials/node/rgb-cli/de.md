@@ -14,7 +14,7 @@ Ein RGB-Vertrag ist wie eine evolutionäre Zustandsmaschine aufgebaut. Er beginn
 
 Um mehr über die Funktionsweise des RGB-Protokolls zu erfahren, empfehle ich Ihnen diesen umfassenden Schulungskurs:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Die interne Logik von RGB basiert auf Rust-Bibliotheken, die Sie als Entwickler in Ihre Projekte importieren können, um den Teil der *Client-side Validation* zu verwalten. Darüber hinaus arbeitet das LNP/BP-Team an Bindungen für andere Sprachen, was aber noch nicht abgeschlossen ist. Darüber hinaus entwickeln andere Unternehmen wie Bitfinex ihre eigenen Integrationsstacks, aber darüber werden wir in einem anderen Tutorial sprechen. Für den Moment ist das `rgb` CLI die offizielle Referenz, auch wenn es noch relativ unausgereift ist.
 
@@ -135,8 +135,8 @@ Hier ist ein Beispiel für eine zu erstellende YAML-Datei:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -180,7 +180,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-Dann zeigt der nächste Befehl die globalen Zustände (Name, Ticker, Versorgung...) und die Liste der Owned States, d.h. der Zuweisungen (z.B. 1 Million `PBN` Token, definiert in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Dann zeigt der nächste Befehl die globalen Zustände (Name, Ticker, Versorgung...) und die Liste der Owned States, d.h. der Zuweisungen (z.B. 1 Million `Plan ₿ Academy` Token, definiert in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -309,4 +309,4 @@ Sie wissen nun, wie man einen RGB-Vertrag ausstellt und überträgt. Wenn Sie di
 
 Ich empfehle auch dieses andere Tutorial, in dem ich erkläre, wie man einen RGB-kompatiblen Lightning-Knoten startet, um Token fast sofort auszutauschen:
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

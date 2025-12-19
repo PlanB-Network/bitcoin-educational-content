@@ -1,0 +1,8 @@
+question: Jaké zásadní omezení plateb Lightning Network vytváří pro vývojáře wallet jedinečnou výzvu, která u transakcí on-chain Bitcoin neexistuje?
+answer: Bleskové platby existují pouze jako dočasné stavy v rámci platebních kanálů a nejsou trvale zaznamenány v blockchainu, což vyžaduje vlastní systémy sledování historie plateb
+wrong_answers:
+  - Zpracování bleskových plateb vyžaduje podstatně více výpočetních zdrojů než transakce on-chain, takže mobilní implementace je náročná na zdroje
+  - Platby Lightning nelze ověřit kryptograficky stejným způsobem jako transakce on-chain, což vytváří bezpečnostní zranitelnosti pro implementace wallet
+  - Bleskové platby musí být zpracovávány prostřednictvím centralizovaných směrovacích uzlů, což znemožňuje udržovat skutečně neúřední architekturu wallet
+explanation: |
+  Správná odpověď identifikuje základní architektonický rozdíl mezi platbami Lightning a on-chain. Transakce v řetězci Bitcoin jsou trvale zaznamenány v blockchainu, což umožňuje jednoduché vyhledávání historie plateb prostřednictvím dotazů v blockchainu. Platby Lightning však existují pouze jako dočasné stavy kanálů a nezanechávají žádný trvalý záznam v blockchainu, což nutí vývojáře implementovat vlastní systémy sledování a ukládání. Špatné odpovědi jsou nesprávné, protože: Lightning platby jsou výpočetně efektivní (nejsou náročné na zdroje), zachovávají si stejné kryptografické zabezpečení jako Bitcoin a směrování je decentralizované (není centralizované).

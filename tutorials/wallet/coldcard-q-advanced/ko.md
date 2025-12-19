@@ -11,7 +11,7 @@ description: 콜카드 Q의 고급 옵션 사용
 이전 튜토리얼에서 초보자를 위한 콜카드 Q의 초기 구성과 기본 기능에 대해 설명했습니다. COLDCARD Q를 받은 지 얼마 되지 않아 아직 설정하지 않았다면 이 튜토리얼부터 시작하고 여기서는 계속 진행하는 것이 좋습니다:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 이 새로운 튜토리얼은 고급 및 편집증 사용자를 위해 설계된 콜드카드 Q의 고급 옵션에 대해 설명합니다. 실제로 콜드카드는 다양한 고급 보안 기능으로 다른 하드웨어 지갑과 차별화됩니다. 물론 이 모든 옵션을 사용할 필요는 없습니다. 자신의 보안 전략에 맞는 옵션만 선택하면 됩니다.
 
@@ -31,7 +31,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 BIP39 passphrase가 무엇인지 모르거나 작동 방식이 명확하지 않은 경우, passphrase 사용과 관련된 위험을 이해하는 데 필요한 이론적 기반을 다루는 이 튜토리얼을 미리 살펴볼 것을 강력히 권장합니다:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Wallet에 passphrase를 설정한 후에는 Mnemonic만으로는 비트코인에 다시 액세스하는 데 충분하지 않다는 점을 명심하세요. Mnemonic와 passphrase가 모두 필요합니다. 또한, 콜드카드 Q를 잠금 해제할 때마다 passphrase를 입력해야 합니다. 이렇게 하면 콜드카드에 대한 물리적 접근과 PIN에 대한 지식이 passphrase 없이는 부족해져 보안이 강화됩니다.
 
@@ -102,7 +102,7 @@ passphrase를 microSD 카드에 저장한 경우, 사용할 때마다 해당 카
 passphrase을 사용하려면 Mnemonic 구문과 passphrase의 조합에서 파생된 새 키 세트를 Wallet 관리 소프트웨어(예: Sparrow wallet)로 가져와야 한다는 점에 유의하세요. 이렇게 하려면 이 다른 튜토리얼의 "*Sparrow에서 새 Wallet 구성하기*" 단계를 따르세요:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## 잠금 해제 옵션
 
@@ -369,4 +369,4 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 또한 CCQ의 직접적인 경쟁 제품인 Ledger Flex 의 사용에 대해 설명하는 이 다른 튜토리얼도 추천합니다:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

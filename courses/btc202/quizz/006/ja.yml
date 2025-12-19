@@ -1,0 +1,9 @@
+question: なぜWalletはBitcoinのネットワーク参加者とみなされないのですか？
+answer: トランザクションやブロックを検証しないため
+wrong_answers:
+  - generateの秘密鍵は使えない
+  - Bitcoinアドレスを作成できないからだ。
+  - 売上や住所を検証しないため
+explanation: |
+  Walletはブロックやトランザクションを直接検証するのではなく、単に鍵を管理し、残りはノードに依存する。
+reviewed: true

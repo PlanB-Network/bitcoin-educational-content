@@ -1,5 +1,5 @@
 ---
-name: Inaongeza Podcast kwenye PlanB Network
+name: Inaongeza Podcast kwenye Plan ₿ Academy
 description: Jinsi ya kuongeza podikasti mpya kwenye Mtandao wa PlanB?
 ---
 ![podcast](assets/cover.webp)
@@ -8,7 +8,7 @@ description: Jinsi ya kuongeza podikasti mpya kwenye Mtandao wa PlanB?
 Dhamira ya PlanB ni kutoa nyenzo za elimu za kiwango cha juu kwenye Bitcoin katika lugha nyingi iwezekanavyo. Maudhui yote yaliyochapishwa kwenye tovuti ni chanzo huria na yamepangishwa kwenye GitHub, kuruhusu mtu yeyote kushiriki katika kuimarisha jukwaa.
 
 
-Je, unatazamia kuongeza podikasti ya Bitcoin kwenye tovuti ya PlanB Network na kuongeza mwonekano wa kipindi chako, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
+Je, unatazamia kuongeza podikasti ya Bitcoin kwenye tovuti ya Plan ₿ Academy na kuongeza mwonekano wa kipindi chako, lakini hujui jinsi gani? Mafunzo haya ni kwa ajili yako!
 
 ![podcast](assets/01.webp)
 
@@ -16,7 +16,7 @@ Je, unatazamia kuongeza podikasti ya Bitcoin kwenye tovuti ya PlanB Network na k
 - Kwanza, unahitaji kuwa na akaunti ya GitHub. Ikiwa hujui jinsi ya kuunda moja, tumefanya mafunzo ya kina ili kukuongoza.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![podcast](assets/03.webp)
 
 
-- Ikiwa hujawahi kuchangia maudhui ya PlanB Network hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, kukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
+- Ikiwa hujawahi kuchangia maudhui ya Plan ₿ Academy hapo awali, utahitaji kuunda Fork yako ya hazina asili. Kuunda hazina inamaanisha kuunda nakala ya hazina hiyo kwenye akaunti yako ya GitHub, kukuruhusu kufanya kazi kwenye mradi bila kuathiri hazina asili. Bonyeza kitufe cha `Fork hazina hii`:
 
 ![podcast](assets/04.webp)
 
@@ -210,7 +210,7 @@ contributors:
 ![podcast](assets/25.webp)
 
 
-- Ukurasa mpya utafunguliwa. Buruta na udondoshe nembo yako ya podikasti kwenye eneo. Picha hii itaonyeshwa kwenye tovuti ya PlanB Network:
+- Ukurasa mpya utafunguliwa. Buruta na udondoshe nembo yako ya podikasti kwenye eneo. Picha hii itaonyeshwa kwenye tovuti ya Plan ₿ Academy:
 
 ![podcast](assets/26.webp)
 
@@ -269,10 +269,10 @@ contributors:
 
 ![podcast](assets/37.webp)
 
-Hongera! PR yako imeundwa. Msimamizi sasa atakagua na, ikiwa kila kitu kiko sawa, aiunganishe kwenye hazina kuu ya PlanB Network. Unapaswa kuona podikasti yako ikitokea kwenye tovuti siku chache baadaye.
+Hongera! PR yako imeundwa. Msimamizi sasa atakagua na, ikiwa kila kitu kiko sawa, aiunganishe kwenye hazina kuu ya Plan ₿ Academy. Unapaswa kuona podikasti yako ikitokea kwenye tovuti siku chache baadaye.
 
 
-Tafadhali hakikisha unafuata maendeleo ya PR yako. Msimamizi anaweza kuacha maoni akiuliza maelezo ya ziada. Maadamu PR yako haijathibitishwa, unaweza kuiona kwenye kichupo cha `Vuta maombi` kwenye hazina ya PlanB Network GitHub:
+Tafadhali hakikisha unafuata maendeleo ya PR yako. Msimamizi anaweza kuacha maoni akiuliza maelezo ya ziada. Maadamu PR yako haijathibitishwa, unaweza kuiona kwenye kichupo cha `Vuta maombi` kwenye hazina ya Plan ₿ Academy GitHub:
 
 ![podcast](assets/38.webp)
 

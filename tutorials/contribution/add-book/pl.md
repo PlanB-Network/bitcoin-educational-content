@@ -1,6 +1,6 @@
 ---
 name: Dodawanie książki do sieci PlanB
-description: Jak dodać nową książkę do PlanB Network?
+description: Jak dodać nową książkę do Plan ₿ Academy?
 ---
 ![book](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Jak dodać nową książkę do PlanB Network?
 Misją PlanB jest dostarczanie najwyższej jakości zasobów edukacyjnych na temat Bitcoin w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, dzięki czemu każdy może przyczynić się do wzbogacenia platformy.
 
 
-**Czy chcesz dodać książkę związaną z Bitcoin na stronie PlanB Network i zwiększyć widoczność swojej pracy, ale nie wiesz jak? Ten poradnik jest dla Ciebie!**
+**Czy chcesz dodać książkę związaną z Bitcoin na stronie Plan ₿ Academy i zwiększyć widoczność swojej pracy, ale nie wiesz jak? Ten poradnik jest dla Ciebie!**
 
 ![book](assets/01.webp)
 
@@ -16,7 +16,7 @@ Misją PlanB jest dostarczanie najwyższej jakości zasobów edukacyjnych na tem
 - Po pierwsze, musisz mieć konto GitHub. Jeśli nie wiesz, jak utworzyć konto, przygotowaliśmy szczegółowy samouczek, który Cię poprowadzi.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/03.webp)
 
 
-- Jeśli nigdy wcześniej nie współtworzyłeś zawartości PlanB Network, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, umożliwiając pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
+- Jeśli nigdy wcześniej nie współtworzyłeś zawartości Plan ₿ Academy, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, umożliwiając pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
 
 ![book](assets/04.webp)
 
@@ -123,7 +123,7 @@ tags:
 ![book](assets/14.webp)
 
 
-- Wybierz Fork z repozytorium PlanB Network:
+- Wybierz Fork z repozytorium Plan ₿ Academy:
 
 ![book](assets/15.webp)
 
@@ -178,7 +178,7 @@ tags:
 ![book](assets/25.webp)
 
 
-- Otworzy się nowa strona. Przeciągnij i upuść obraz okładki swojej książki w tym obszarze. Obraz ten zostanie wyświetlony na stronie PlanB Network:
+- Otworzy się nowa strona. Przeciągnij i upuść obraz okładki swojej książki w tym obszarze. Obraz ten zostanie wyświetlony na stronie Plan ₿ Academy:
 
 ![book](assets/26.webp)
 

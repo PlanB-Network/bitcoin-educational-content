@@ -1,9 +1,9 @@
-question: Katika topolojia ya basi, ni faida gani kuu?
+question: Katika topolojia ya bus, ni faida gani kuu?
 answer: Gharama ya chini ya ufungaji
 wrong_answers:
   - Upungufu wa juu
   - Ucheleweshaji wa chini
   - Upatikanaji wa juu
 explanation: |
-  Basi hutegemea njia moja ya kimwili, ambayo inapunguza gharama za usakinishaji lakini pia inaleta hatua moja ya kushindwa.
-reviewed: false
+  Bus hutegemea njia moja ya kimwili, ambayo inapunguza gharama za usakinishaji lakini pia inaleta hatua moja ya kushindwa.
+reviewed: true

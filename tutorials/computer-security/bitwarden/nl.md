@@ -24,7 +24,7 @@ Een wachtwoordmanager genereert sterke wachtwoorden en slaat deze veilig op, zod
 
 In deze tutorial onderzoeken we hoe je een wachtwoordmanager kunt instellen en gebruiken om je online beveiliging te verbeteren. Ik laat je kennismaken met Bitwarden en in een andere tutorial bekijken we een andere oplossing, KeePass.
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Waarschuwing: Een wachtwoordmanager is geweldig voor het opslaan van wachtwoorden, maar **je moet er nooit de Mnemonic zin van je Bitcoin Wallet in opslaan!** Onthoud dat een Mnemonic zin uitsluitend in een fysieke vorm moet worden opgeslagen, zoals een stuk papier of metaal.
 
@@ -117,9 +117,9 @@ Eerst en vooral raad ik je sterk aan om twee-factor authenticatie (2FA) in te st
 Als je niet zeker weet hoe je deze 2FA apparaten moet instellen en gebruiken, raad ik je aan om deze 2 andere tutorials te volgen:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Ga hiervoor naar het tabblad "*Security*" in het menu "*Settings*".
 
@@ -177,7 +177,7 @@ In het formulier dat wordt geopend, begint u met het bepalen van de aard van het
 
 ![BITWARDEN](assets/notext/26.webp)
 
-Voer in het veld "*Naam*" een beschrijvende naam in voor je referenties. Dit maakt het makkelijker om je wachtwoorden op te zoeken en te organiseren, vooral als je er veel hebt. Als je bijvoorbeeld je referenties voor de PlanB Network site wilt opslaan, kun je dit item een naam geven die het direct herkenbaar maakt bij toekomstige zoekopdrachten.
+Voer in het veld "*Naam*" een beschrijvende naam in voor je referenties. Dit maakt het makkelijker om je wachtwoorden op te zoeken en te organiseren, vooral als je er veel hebt. Als je bijvoorbeeld je referenties voor de Plan ₿ Academy site wilt opslaan, kun je dit item een naam geven die het direct herkenbaar maakt bij toekomstige zoekopdrachten.
 
 ![BITWARDEN](assets/notext/27.webp)
 
@@ -235,7 +235,7 @@ Je map verschijnt nu in je manager.
 
 ![BITWARDEN](assets/notext/41.webp)
 
-Je kunt een map aan een identifier toewijzen wanneer je deze aanmaakt, zoals we eerder hebben gedaan, of door een bestaande identifier te wijzigen. Door bijvoorbeeld op mijn identifier voor PlanB Network te klikken, kan ik ervoor kiezen om deze in de map "*Bitcoin*" te classificeren.
+Je kunt een map aan een identifier toewijzen wanneer je deze aanmaakt, zoals we eerder hebben gedaan, of door een bestaande identifier te wijzigen. Door bijvoorbeeld op mijn identifier voor Plan ₿ Academy te klikken, kan ik ervoor kiezen om deze in de map "*Bitcoin*" te classificeren.
 
 ![BITWARDEN](assets/notext/42.webp)
 
@@ -304,7 +304,7 @@ U bent nu verbonden met uw Bitwarden manager via de browserextensie.
 ![BITWARDEN](assets/notext/51.webp)
 
 
-Als ik bijvoorbeeld terug ga naar de PlanB Network site en probeer in te loggen op mijn account, kun je zien dat de Bitwarden extensie geïntegreerd in de browser de inlogvelden herkent en me automatisch aanbiedt om de identificatiecode te selecteren die ik eerder heb opgeslagen.
+Als ik bijvoorbeeld terug ga naar de Plan ₿ Academy site en probeer in te loggen op mijn account, kun je zien dat de Bitwarden extensie geïntegreerd in de browser de inlogvelden herkent en me automatisch aanbiedt om de identificatiecode te selecteren die ik eerder heb opgeslagen.
 
 
 ![BITWARDEN](assets/notext/52.webp)
@@ -313,7 +313,7 @@ Als ik deze identificatiecode selecteer, vult Bitwarden de inlogvelden voor me i
 
 ![BITWARDEN](assets/notext/53.webp)
 
-De extensie is ook ontworpen om het aanmaken van nieuwe accounts te detecteren. Als er bijvoorbeeld een nieuw account wordt aangemaakt op PlanB Network, stelt Bitwarden automatisch voor om de nieuwe identificatiecode op te slaan.
+De extensie is ook ontworpen om het aanmaken van nieuwe accounts te detecteren. Als er bijvoorbeeld een nieuw account wordt aangemaakt op Plan ₿ Academy, stelt Bitwarden automatisch voor om de nieuwe identificatiecode op te slaan.
 
 ![BITWARDEN](assets/notext/54.webp)
 

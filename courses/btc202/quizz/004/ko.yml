@@ -1,0 +1,9 @@
+question: Bitcoin 노드란 무엇인가요?
+answer: Bitcoin 프로토콜을 구현하는 소프트웨어를 실행하는 컴퓨터
+wrong_answers:
+  - Bitcoin 네트워크를 구현하는 Hardware Wallet
+  - Bitcoin를 위한 새로운 블록을 생산하는 Miner
+  - Bitcoin 네트워크 및 트랜잭션 확인을 관리하는 중앙 서버
+explanation: |
+  Bitcoin 노드는 프로토콜을 구현하고 Bitcoin 네트워크에 참여하는 Bitcoin core과 같은 소프트웨어를 실행하는 컴퓨터입니다.
+reviewed: true

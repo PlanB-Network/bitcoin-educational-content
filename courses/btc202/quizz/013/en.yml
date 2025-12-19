@@ -1,4 +1,4 @@
-question: What type of equipment is used today for Miner efficiently from Bitcoin?
+question: What type of equipment is used today to mine Bitcoin efficiently?
 answer: ASIC
 wrong_answers:
   - Classic CPU
@@ -6,4 +6,4 @@ wrong_answers:
   - FPGA
 explanation: |
   Today, Bitcoin mining is carried out using ASICs. These are specialized chips for the SHA-256 algorithm.
-reviewed: false
+reviewed: true

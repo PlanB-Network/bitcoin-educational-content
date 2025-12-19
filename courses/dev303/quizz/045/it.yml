@@ -1,0 +1,8 @@
+question: Qual è il principale vantaggio delle caratteristiche di programmazione funzionale di Rust nel mantenere astrazioni a costo zero?
+answer: Producono un codice macchina efficiente, paragonabile agli approcci tradizionali basati su loop, senza sacrificare le prestazioni
+wrong_answers:
+  - Gestiscono automaticamente l'allocazione e la deallocazione della memoria per evitare completamente l'overhead del tempo di esecuzione
+  - Eliminano la necessità del controllo dei tipi in fase di compilazione, mantenendo al contempo le garanzie di sicurezza
+  - Forniscono funzionalità di garbage collection che vengono eseguite senza impattare sulla velocità di esecuzione del programma
+explanation: |
+  Le astrazioni a costo zero delle funzioni di programmazione funzionale di Rust fanno sì che l'uso di chiusure e iteratori non sacrifichi le prestazioni per l'espressività. Il compilatore di Rust ottimizza questi costrutti di alto livello per produrre codice macchina con prestazioni pari a quelle dei loop tradizionali scritti a mano. Ciò consente agli sviluppatori di scrivere codice più espressivo e leggibile senza dover pagare una penalizzazione delle prestazioni in fase di esecuzione, che è un principio fondamentale della filosofia di progettazione di Rust.

@@ -1,0 +1,8 @@
+question: Jaka własność matematyczna gwarantuje, że każdy niezerowy element w polu pierwiastkowym F(p) ma multiplikatywną odwrotność?
+answer: Pole jest zdefiniowane przez liczbę pierwszą p
+wrong_answers:
+  - Pole zawiera dokładnie p-1 elementów
+  - Pole wykorzystuje modułowe operacje arytmetyczne
+  - Pole obsługuje dodawanie i mnożenie
+explanation: |
+  Skończone pole F(p) musi być zdefiniowane przez liczbę pierwszą p, aby zapewnić, że każdy niezerowy element ma multiplikatywną odwrotność. Jest to podstawowy wymóg teorii pola - gdy p jest liczbą pierwszą, liczby całkowite modulo p tworzą pole, w którym dzielenie jest zawsze możliwe (z wyjątkiem zera). Gdyby p było złożone, niektóre elementy niezerowe nie miałyby odwrotności, co łamałoby strukturę pola. Podczas gdy pozostałe opcje opisują właściwości pól skończonych, tylko pierwszość p gwarantuje istnienie multiplikatywnych odwrotności dla wszystkich niezerowych elementów.

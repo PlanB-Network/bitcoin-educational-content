@@ -1,0 +1,8 @@
+question: Milline on kõige suurem oht, kui kasutada RC<RefCell<T>> jagatud muutuva oleku jaoks, ja milline mehhanism aitab seda vältida?
+answer: Viitetsüklid, mis põhjustavad mälulekkeid, mida takistab nõrkade viidete kasutamine
+wrong_answers:
+  - Andmevõistlused niitide vahel, mida takistab Mutexi kasutamine RefCelli asemel
+  - Paanikad laenamise rikkumistest, mida takistab kompileerimise ajaline kontroll
+  - Sügavast rekursioonist tulenev ülevool, mida takistab viitesügavuse piiramine
+explanation: |
+  RC<RefCell<T>> kasutamisel on peamine oht viitetsüklite loomine, kus andmestruktuurid viitavad iseendale otse või ahelate kaudu. Need tsüklid takistavad viitamiste arvu nullini jõudmist, põhjustades mälulekkeid, kuna andmed näivad olevat alati aktiivsed viited. Nõrgad viited lahendavad selle probleemi, kuna nad ei aita kaasa mäluhalduses kasutatavale viidearvule, katkestades tsüklid, säilitades samal ajal ühendused. Teised valikud on valed: RC<RefCell<T>> ei ole niidikindel, seega ei ole andmevooksud peamine mure, RefCell liigutab kontrollid spetsiaalselt tööajale, mitte ei takista neid kompileerimise ajal, ja virna ülevoolamine ei ole seotud viidete loendamise mehhanismiga.

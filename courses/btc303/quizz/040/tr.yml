@@ -1,0 +1,9 @@
+question: Bölümdeki Bitcoin uyumluluğu tartışmasına göre, yumuşak fork ne tür bir uyumluluk sağlar?
+answer: Hem ileri hem de geri uyumluluk sayesinde tam uyumludur
+wrong_answers:
+  - Sadece geriye dönük uyumluluk, yeni yazılımın eski verileri işlemesine izin verir
+  - Yalnızca ileriye dönük uyumluluk, eski yazılımın yeni verileri işlemesine izin verir
+  - Ne ileriye ne de geriye dönük uyumluluk, eksiksiz sistem güncellemeleri gerektiriyor
+explanation: |
+  Bölümde açıkça "Bitcoin mutabakat kurallarında yapılan bir değişikliğin tam uyumlu olması halinde yumuşak fork olduğu söylenir" denilmektedir Tamamen uyumlu olmayı hem ileriye hem de geriye dönük uyumlu olmak olarak tanımlamaktadır. İleriye dönük uyumluluk, eski yazılımın anlamadığı kısımları göz ardı ederek daha yeni sürümlerden gelen verileri işleyebileceği anlamına gelirken, geriye dönük uyumluluk yeni yazılımın eski verileri işleyebileceği anlamına gelir. Bu ikili uyumluluk, soft fork'ları Bitcoin için tercih edilen yükseltme mekanizması yapan şeydir, çünkü yeni işlevsellik sağlarken mevcut sistemleri bozmazlar.
+reviewed: false

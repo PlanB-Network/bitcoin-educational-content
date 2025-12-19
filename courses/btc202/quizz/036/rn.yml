@@ -1,0 +1,9 @@
+question: Ni akahe kamaro ka laptop yihariye kuruta mini-PC?
+answer: Bateri yayo ikora nk'inverter .
+wrong_answers:
+  - Biratekanye cane
+  - Biramara igihe kirekire
+  - Bifata inguvu nke
+explanation: |
+  Bateri ya laptop ikora nk’umuyagankuba usanzwe, igatuma umuyagankuba udahagarara bukwi na bukwi iyo umuyagankuba ucitse.
+reviewed: true

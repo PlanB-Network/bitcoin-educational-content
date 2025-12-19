@@ -104,7 +104,7 @@ Authy बड़े टेक कंपनियों के अन्य सम
 
 किसी खाते पर Authy जैसे ऐप के माध्यम से 2FA प्रमाणीकरण कोड सेट करने के लिए, खाते को इस सुविधा का समर्थन करना चाहिए। आजकल, अधिकांश ऑनलाइन सेवाएं यह 2FA विकल्प प्रदान करती हैं, लेकिन यह हमेशा संभव नहीं होता। चलिए एक उदाहरण लेते हैं, जैसे कि Proton मेल खाता जिसे मैंने एक अन्य ट्यूटोरियल में प्रस्तुत किया था:
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 ![AUTHY 2FA](assets/notext/13.webp)
 
 आपको यह 2FA विकल्प आमतौर पर आपके खाते की सेटिंग्स में मिलेगा, अक्सर "*पासवर्ड*" या "*सुरक्षा*" अनुभाग के तहत।

@@ -1,5 +1,5 @@
 question: Cuộc chiến về kích thước khối vào năm 2017 là về vấn đề gì?
-answer: Một cuộc xung đột về việc có nên tăng kích thước khối để mở rộng khả năng xử lý giao dịch hay không.
+answer: Một cuộc xung đột về việc có nên tăng kích thước khối dữ liệu để mở rộng khả năng xử lý giao dịch hay không.
 wrong_answers:
   - Một cuộc xung đột về việc có nên giảm kích thước khối để giảm khả năng xử lý giao dịch hay không.
   - Một cuộc xung đột về việc có nên tăng phần thưởng khối để khuyến khích các thợ mỏ hay không.

@@ -34,7 +34,7 @@ Med andra ord, med denna implementering kan du :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Varför ha en egen Lightning-nod?
 
@@ -64,7 +64,7 @@ På så sätt ökar säkerheten och integriteten för dina data när du kör en 
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Du har två alternativ för att köra en instans av LND-implementeringen på vår maskin. Vi kan antingen ställa in miljön på vår egen maskin för att köra lokalt, eller installera LND från en Docker-container. Här kommer vi att koncentrera oss på det första alternativet och se hur vi går vidare med Docker i en senare handledning.
@@ -665,4 +665,4 @@ Så du har kommit till slutet av denna handledning. Om du vill lära dig mer om 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,0 +1,9 @@
+question: Qual è il numero predefinito di connessioni in uscita che un nodo Bitcoin core mantiene?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Il Bitcoin core mantiene 10 connessioni in uscita per impostazione predefinita (8 full-relay e 2 block-relay-only).
+reviewed: true

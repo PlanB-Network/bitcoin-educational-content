@@ -1,0 +1,8 @@
+question: Which combination of Rust features makes it particularly suitable for handling the irreversible nature of Bitcoin transactions?
+answer: Static strong type system that catches errors at compile time and prevents memory-related vulnerabilities
+wrong_answers:
+  - Dynamic typing with runtime checks and automatic garbage collection for memory management
+  - Weak type system with flexible conversions and manual memory management for performance optimization
+  - Just-in-time compilation with runtime optimization and interpreted error handling for flexibility
+explanation: |
+  Rust's static strong type system is crucial for Bitcoin development because it catches type mismatches and logic errors before the program runs, preventing issues that could affect user funds. The static nature means errors are found at compile time rather than runtime when handling real transactions. Additionally, Rust's type system handles memory ownership and prevents memory-related vulnerabilities like double-free errors and race conditions. This is essential for Bitcoin applications where mistakes are irreversible and there's no authority to appeal to for fund recovery, unlike traditional financial systems with chargeback mechanisms.

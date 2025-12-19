@@ -1,0 +1,9 @@
+question: Mitä vaiheita on suoritettava ennen kuin UmbrelOS voidaan asentaa?
+answer: Luo käynnistettävä USB-levy, jossa on kuva
+wrong_answers:
+  - Bitcoin core-lähdekoodin kääntäminen
+  - Blockchain:n alustaminen
+  - Luo tili osoitteessa umbrel.com
+explanation: |
+  Asennus aloitetaan valmistelemalla käynnistettävä USB-levy, jossa on UmbrelOS Balena Etcherin avulla.
+reviewed: true

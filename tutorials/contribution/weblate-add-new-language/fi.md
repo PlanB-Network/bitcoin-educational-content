@@ -1,16 +1,16 @@
 ---
 name: Weblate - uuden kielen lisääminen
-description: Miten voit lisätä uuden kielen Plan ₿ Network?
+description: Miten voit lisätä uuden kielen Plan ₿ Academy?
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Network tehtävänä on tarjota ensiluokkaisia koulutusresursseja Bitcoinista ja kääntää ne mahdollisimman monelle kielelle. Suuri osa sivustolla julkaistusta sisällöstä on avoimen lähdekoodin ja GitHubissa isännöityä, jolloin kuka tahansa voi osallistua alustan rikastuttamiseen. Osallistuminen voi tapahtua eri muodoissa: olemassa olevan sisällön korjaaminen ja oikolukeminen, tietojen päivittäminen tai uusien opetusohjelmien luominen alustalle lisättäväksi.
+Plan ₿ Academy tehtävänä on tarjota ensiluokkaisia koulutusresursseja Bitcoinista ja kääntää ne mahdollisimman monelle kielelle. Suuri osa sivustolla julkaistusta sisällöstä on avoimen lähdekoodin ja GitHubissa isännöityä, jolloin kuka tahansa voi osallistua alustan rikastuttamiseen. Osallistuminen voi tapahtua eri muodoissa: olemassa olevan sisällön korjaaminen ja oikolukeminen, tietojen päivittäminen tai uusien opetusohjelmien luominen alustalle lisättäväksi.
 
 Sivustollamme on tällä hetkellä useita kieliä, ja pyrimme jatkuvasti lisäämään niitä. Parantaaksemme etusivumme käännösprosessia käytämme Weblate-työkalua, joka auttaa meitä tekemään yhteistyötä ja hallitsemaan käännöksiä tehokkaasti. Se on käyttäjäystävällinen työkalu.
 
 Jos äidinkielesi ei ole vielä saatavilla verkkosivuillamme ja haluaisit lisätä sen, tämä ohje on sinulle!
 
-Varmista ensin, että otat yhteyttä Plan ₿ Network -tiimiin [Telegram-ryhmämme] kautta (https://t.me/PlanBNetwork_ContentBuilder). Jos sinulla ei ole Telegramia, voit lähettää sähköpostia osoitteeseen mari@planb.network. Muista kirjoittaa pieni esittely siitä, kuka olet ja mitä kieliä puhut.
+Varmista ensin, että otat yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmämme] kautta (https://t.me/PlanBNetwork_ContentBuilder). Jos sinulla ei ole Telegramia, voit lähettää sähköpostia osoitteeseen mari@planb.network. Muista kirjoittaa pieni esittely siitä, kuka olet ja mitä kieliä puhut.
 
 ## Tarkistetaan, onko kieli läsnä Weblatessa
 
@@ -28,7 +28,7 @@ Voit tarkistaa, onko kielesi jo niiden kielten joukossa, joiden parissa työsken
 
 Jos kielesi on tässä luettelossa, sinun ei tarvitse lisätä sitä uudelleen. Jos haluat auttaa oikolukemalla weblatea, tutustu seuraavaan ohjeeseen:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Jos kielesi ei ole siellä, lisää se alla olevan ohjeen avulla.
 
 ## Uuden kielen lisääminen suunnitelmaan ₿ Verkko
@@ -64,8 +64,8 @@ Jos kielesi ei ole siellä, lisää se alla olevan ohjeen avulla.
 
 Jos haluat saada opastusta käännösprosessin läpi, tutustu alla olevaan opetusohjelmaan:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Onneksi olkoon, olet aloittanut Plan ₿ Network verkkosivuston staattisten elementtien kääntämisen!
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+Onneksi olkoon, olet aloittanut Plan ₿ Academy verkkosivuston staattisten elementtien kääntämisen!
 
 Niihin sisältyvät kaikki verkkosivujen merkkijonot, lukuun ottamatta opetussisältöä (kurssit, opetusohjelmat...), johon käytämme toista puoliautomaattista menetelmää (tekoälykäännös + oikoluku).
 

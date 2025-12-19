@@ -15,7 +15,7 @@ Avant de déployer Lightning, vous devez disposer d'un nœud Bitcoin complet op�
 
 Pour installer Umbrel et configurer votre nœud Bitcoin, nous vous recommandons de suivre notre tutoriel dédié : 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Assurez-vous que votre nœud Bitcoin est à jour et fonctionne correctement, car le Lightning Network s'appuie sur lui pour toutes les transactions hors chaîne.
 
@@ -31,7 +31,7 @@ Pour fonctionner, un nœud Lightning doit être connecté en permanence au rése
 
 Pour une introduction théorique complète au Lightning Network, nous vous recommandons de suivre notre cours dédié :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Ce cours vous permettra d'approfondir les concepts fondamentaux du Lightning Network avant de passer à la pratique avec votre nœud LND.
 
@@ -309,7 +309,7 @@ Idéalement, laissez votre nœud en ligne le plus souvent possible. En cas d'abs
 
 Pour approfondir la configuration et l'utilisation des watchtowers, nous vous recommandons de consulter notre tutoriel dédié :
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Autres bonnes pratiques
 
 - **Mises à jour logicielles :** Maintenez Umbrel et LND à jour (corrections de sécurité)

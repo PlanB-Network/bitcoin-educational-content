@@ -1,0 +1,9 @@
+question: Ni ingingo izihe z’umutekano zisabwa cane kugira ngo umuntu ashobore gushika ku Mutaka wawe?
+answer: Ijambobanga rirerire n'ugukoresha 2FA
+wrong_answers:
+  - Ububiko bwa SSD bubiri
+  - Gufungura icuma ca RPC mu nyandiko isanzwe
+  - Ijambobanga rirerire n'ugukoresha SSH
+explanation: |
+  Ijambobanga rikomeye n’ivyemezo bibiri (2FA) birakingira neza ukuntu umuntu ashobora gushika ku Mutaka wa Interface.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Koja je glavna razlika između anonimnosti i pseudonimnosti u kontekstu Bitcoin transakcija?
+answer: U pseudonimnim sistemima kao što je Bitcoin, plaćanja se mogu pratiti između pseudonima, dok u anonimnim sistemima ne postoji trag
+wrong_answers:
+  - Pseudonimni sistemi koriste prava imena dok anonimni sistemi koriste lažna imena za sve transakcije
+  - Anonimni sistemi zahtevaju javne ključeve dok pseudonimni sistemi koriste samo privatne ključeve za identifikaciju
+  - "Sistemi sa pseudonimima skrivaju iznose transakcija dok anonimni sistemi skrivaju samo identitet pošiljaoca"
+explanation: |
+  Bitcoin je pseudoniman, a ne anoniman, jer su sve transakcije između adresa (pseudonima) prateće na blockchainu. U istinski anonimnom sistemu, ne bi bilo traga odakle novac dolazi ili gde ide, što bi teoretski moglo biti postignuto kroz dokaze bez znanja. Međutim, transparentnost Bitcoin omogućava svakome da prati tok bitcoina između različitih adresa, čineći ga pseudonimnim, a ne anonimnim. Pseudonimi u Bitcoin su adrese izvedene iz javnih ključeva, a ne proizvoljna korisnička imena ili stvarni identiteti.
+reviewed: false

@@ -1,0 +1,23 @@
+id: c6948879-1988-4c72-81b2-aa6f74f75ab5
+start_date: 2026-04-23 17:00:00
+end_date: 2026-04-25 01:00:00
+timezone: America/Los_Angeles
+address_city_country: Hoover Dam, Nevada
+address_line_2: Hoover Dam Spillway House
+name: bitcoin++ villain edition
+type: workshop
+description: |
+  "bitcoin++ is excited to launch our first ever conference on
+  government property: the Hoover Dam. What better topic to discuss than all the
+  villainous ways that bitcoin developers have worked to subvert the state and
+  themselves. At this two-day seminar and unconference style event, we'll dig
+  into protocol proposals, quantum threats, and maybe even try to soft fork
+  bitcoin from the vantage point of the beautiful Hoover Dam Spillway house."
+language:
+  - en
+links:
+  website: https://btcplusplus.dev/conf/vegas
+tags:
+  - adoption
+  - education
+  - technical-analysis

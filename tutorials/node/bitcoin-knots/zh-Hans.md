@@ -30,7 +30,7 @@ Bitcoin 节是 Bitcoin 协议的另一种实现方式，源自 Bitcoin 核心。
 
 在您的机器上安装软件之前，我们强烈建议您检查其真实性和完整性。如果您不知道如何检查，请参阅本教程：
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 软件通过验证后，请按照安装面板中指示的步骤进行安装。
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 passphrase BIP39 是一个可选密码，您可以在 Mnemonic 短语之外自由选择，以提高 Wallet 的安全性。在配置此功能之前，我们强烈建议您阅读以下文章，其中详细解释了 passphrase 的理论工作原理，以及如何避免可能导致比特币永久丢失的错误：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 如果您已激活 passphrase 选项，请选择一个强大的选项，并小心保存在一个或多个安全的物理介质上。
 
 ![Image](assets/fr/18.webp)
@@ -285,4 +285,4 @@ rpcpassword=my_password
 
 我还推荐另一篇教程，其中介绍了如何建立自己的 Lightning 节点：
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

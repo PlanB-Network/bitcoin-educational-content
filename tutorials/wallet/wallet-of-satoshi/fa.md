@@ -12,7 +12,7 @@ _این آموزش توسط_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_) 
 
 Wallet از Satoshi یک Lightning Network Wallet، نگهداری، و بسیار ساده برای استفاده است.
 
-برای اهداف دوره [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)، از ووچرهای Redeem Lightning Network استفاده می‌شود.
+برای اهداف دوره [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)، از ووچرهای Redeem Lightning Network استفاده می‌شود.
 
 
 **همیشه به یاد داشته باشید**: _کلیدهای شما نیست، سکه‌های شما نیست_

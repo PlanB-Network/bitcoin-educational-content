@@ -1,0 +1,9 @@
+question: Mikä on blkNNNNNNN.dat-tiedoston rinnalle tallennettujen revNNNNN.dat-tiedostojen tarkoitus?
+answer: Palauta uudelleenjärjestelyn aikana asetettu UTXO
+wrong_answers:
+  - Hard Fork:n aikana asetetun UTXO:n palauttaminen
+  - Mempool palautetaan Hard Fork:n aikana
+  - Mempool:n palauttaminen uudelleenjärjestelyn aikana
+explanation: |
+  Jokainen revNNNNNNN.dat sisältää tiedot, joita tarvitaan lohkon vaikutusten peruuttamiseen UTXO-sarjassa, mikä helpottaa uudelleenjärjestelyjen hallintaa.
+reviewed: true

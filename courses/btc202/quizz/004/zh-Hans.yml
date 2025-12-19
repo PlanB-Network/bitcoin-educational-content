@@ -1,0 +1,9 @@
+question: 比特币节点是什么？
+answer: 运行比特币协议软件的计算机
+wrong_answers:
+  - 实施比特币网络的硬件钱包
+  - 生产新区块的比特币矿工
+  - 管理比特币网络和交易确认的中央服务器
+explanation: |
+  比特币节点是运行 Bitcoin Core 等软件的计算机，它执行协议并参与比特币网络。
+reviewed: true

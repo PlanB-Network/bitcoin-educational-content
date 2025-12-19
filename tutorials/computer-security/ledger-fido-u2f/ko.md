@@ -180,4 +180,4 @@ U2F 및 FIDO2 인증을 위한 또 다른 솔루션을 살펴보는 이 튜토�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

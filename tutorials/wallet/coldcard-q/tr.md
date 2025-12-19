@@ -27,7 +27,7 @@ Bu eğitimde size böyle bir çözümü tanıtmak istiyorum: **COLDCARD Q**.
 COLDCARD Q çok sayıda işlev sunduğundan, kullanımını 2 derse bölmeyi öneriyorum. Bu ilk eğitimde, cihazın ilk yapılandırmasına ve temel işlevlerine bakacağız. Daha sonra, ikinci bir eğitimde, COLDCARD'ınızın tüm gelişmiş seçeneklerinden nasıl yararlanacağınıza bakacağız.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## COLDCARD Q ile tanışın
@@ -113,7 +113,7 @@ COLDCARD'ınızı bilgisayara bağlamadan (hava boşluğu) çalıştırmayı ter
 Bu eğitim için, bilgisayarınızdaki Bitcoin Wallet'unuzu yönetmek için Sparrow wallet'ye de ihtiyacınız olacak. Resmi web sitesinden [Sparrow wallet](https://sparrowwallet.com/download/) dosyasını indirin. Kuruluma devam etmeden önce hem gerçekliğini (GnuPG ile) hem de bütünlüğünü (Hash ile) kontrol etmenizi şiddetle tavsiye ederim. Bunu nasıl yapacağınızı bilmiyorsanız, bu öğreticiyi izleyin:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## PIN kodu seçimi
 
@@ -232,7 +232,7 @@ Bu noktada, indirilen ürün yazılımının bütünlüğünü ve gerçekliğini
 Bu doğrulama sürecine aşina değilseniz, bu öğreticiyi izlemenizi tavsiye ederim:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Bir microSD kart alın ve aygıt yazılımı dosyasını (belge `.dfu` olarak) buna aktarın. MicroSD kartı COLDCARD'ınızın bağlantı noktalarından birine takın.
 
@@ -291,7 +291,7 @@ Bu menüde, ekran parlaklığını ayarlama veya varsayılan ölçü birimini se
 Diğer gelişmiş ayarlara bir sonraki eğitimde bakacağız:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Bitcoin Wallet Oluşturma
 
@@ -486,7 +486,7 @@ Wallet'ınıza ilk bitcoinlerinizi almadan önce, **Boş bir kurtarma testi** ya
 Kurtarma testinin nasıl yapılacağı hakkında daha fazla bilgi edinmek için bu diğer eğitime başvurmanızı öneririm:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Bitcoin alma
 
@@ -563,7 +563,7 @@ Artık bu Address ile güvence altına alınacak bitcoinlerin kaynağını açı
 Etiketleme hakkında daha fazla bilgi için bu diğer öğreticiyi de tavsiye ederim:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Daha sonra bu Address'i bitcoin almak için kullanabilirsiniz.
 
@@ -712,4 +712,4 @@ Bu öğreticiyi faydalı bulduysanız, aşağıya bir Green başparmağı bırak
 Ayrıca COLDCARD Q'nun gelişmiş seçeneklerini tartıştığımız bu diğer eğitime de göz atmanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

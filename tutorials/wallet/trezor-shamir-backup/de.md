@@ -85,11 +85,11 @@ Wenn Sie Hilfe bei der Ersteinrichtung Ihres Geräts benötigen, haben wir für 
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 ### Über ein neues Portfolio
 
@@ -139,7 +139,7 @@ Für weitere Informationen über die richtige Art und Weise, Ihre Mnemonic-Sätz
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Wählen Sie auf dem Trezor die Gesamtzahl der Anteile, die Sie konfigurieren möchten. Die gebräuchlichsten Konfigurationen sind 2-de-3 und 3-de-5. Für dieses Beispiel werde ich ein 2-de-3 erstellen, also 3 Anteile auswählen. Jeder Anteil steht für einen Mnemonic-Satz mit 20 Wörtern.
 
@@ -273,7 +273,7 @@ Herzlichen Glückwunsch, Sie sind jetzt auf dem Laufenden, was die Verwendung vo
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unten einen Green-Daumen hinterlassen würden. Sie können diesen Artikel auch gerne in Ihren sozialen Netzwerken teilen. Ich danke Ihnen sehr!
 

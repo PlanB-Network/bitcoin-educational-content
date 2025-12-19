@@ -1,12 +1,12 @@
-question: Koji je značaj Lightning Network u kontekstu Bitcoin Mining?
-answer: Lightning Network ima potencijal da značajno smanji naknade za transakcije, čime utiče na prihode rudara.
+question: Koji je značaj Lightning mreže u kontekstu Bitcoin rudarenja?
+answer: Lightning mreža ima potencijal da značajno smanji naknade za transakcije, čime utiče na prihode rudara.
 wrong_answers:
-  - Lightning Network povećava veličinu bloka, čime povećava prihod rudara.
-  - Lightning Network smanjuje potrošnju energije Bitcoin Mining.
-  - Lightning Network povećava brzinu Bitcoin Mining.
+  - Lightning mreža povećava veličinu bloka, čime povećava prihod rudara.
+  - Lightning mreža smanjuje potrošnju energije za rudarenje Bitcoina.
+  - Lightning mreža povećava brzinu rudarenja Bitcoina.
 explanation: |
-  Lightning Network omogućava brze i niskotroškovne
-  transakcije izvan glavnog lanca Bitcoin. Ovo ima
+  Lightning mreža omogućava brze i niskotroškovne
+  transakcije izvan glavnog Bitcoin lanca. Ovo ima
   potencijal da značajno smanji naknade za transakcije,
-  što bi moglo uticati na prihod rudara.
+  što bi moglo uticati na prihode rudara.
 reviewed: true

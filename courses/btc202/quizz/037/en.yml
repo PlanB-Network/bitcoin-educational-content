@@ -5,5 +5,5 @@ wrong_answers:
   - A supercomputer
   - A games console
 explanation: |
-  Mini-PCs (NUC, Tiny, OptiPlex Micro...) are low on power consumption, reliable and easy to adapt, making them the ideal compromise.
-reviewed: false
+  Mini-PCs (NUC, Tiny, OptiPlex Micro...) are low on power consumption, reliable, and easy to adapt, making them the ideal compromise.
+reviewed: true

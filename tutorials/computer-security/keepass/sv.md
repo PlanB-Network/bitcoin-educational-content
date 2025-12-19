@@ -24,7 +24,7 @@ En lösenordshanterare genererar och lagrar starka lösenord på ett säkert sä
 
 I den här handledningen lär vi oss hur man ställer in och använder en lokal lösenordshanterare för att förbättra din online-säkerhet. Här kommer jag att introducera dig till KeePass. Men om du är nybörjare och vill ha en lösenordshanterare online som kan synkroniseras mellan flera enheter rekommenderar jag att du följer vår handledning om Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 

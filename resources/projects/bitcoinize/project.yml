@@ -3,9 +3,22 @@ name: Bitcoinize
 links:
   website: https://bitcoinize.com/
   twitter: https://x.com/Bitcoinize
+
 category: Manufacturer
+
+# Proofreading metadata
 original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-11-06
+    urgency: 1
+    contributor_names:
+      - PaoloFoti
+    reward: 1
+
 tags:
   - hardware
   - business
-  - business
+
+contributor_names:
+  - PaoloFoti

@@ -1,0 +1,9 @@
+question: prunedノットがWalletにとって問題になるのはどんな時ですか？
+answer: 古いWalletをレストアする場合
+wrong_answers:
+  - 新しい受信Addressを作成する場合
+  - 最近のトランザクションを送信する場合
+  - 手数料の金額を選択する場合
+explanation: |
+  prunedノードは古いブロックを保持しないため、リストア時に過去のトランザクションがスキャンされない可能性がある。
+reviewed: true

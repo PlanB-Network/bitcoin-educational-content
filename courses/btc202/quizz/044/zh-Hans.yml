@@ -1,0 +1,9 @@
+question: Umbrel 使用什么技术来隔离和管理其应用程序？
+answer: Docker 容器
+wrong_answers:
+  - VirtualBox 虚拟机
+  - Bash 脚本
+  - Kubernetes 集群
+explanation: |
+  Umbrel 中的每个应用程序都在一个 Docker 容器中运行，实现了独立管理和隔离。
+reviewed: true

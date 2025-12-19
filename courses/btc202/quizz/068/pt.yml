@@ -1,0 +1,9 @@
+question: Quais são as três principais vantagens das actualizações regulares do sistema operativo e das aplicações?
+answer: Segurança, fiabilidade, funcionalidade
+wrong_answers:
+  - Velocidade, anonimato, compatibilidade
+  - Segurança, memória, armazenamento
+  - Confidencialidade, funcionalidade, fiabilidade
+explanation: |
+  As actualizações garantem a segurança contra vulnerabilidades, a compatibilidade com evoluções e novas funcionalidades e a fiabilidade do sistema.
+reviewed: true

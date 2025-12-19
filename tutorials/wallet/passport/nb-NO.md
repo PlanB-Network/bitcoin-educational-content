@@ -22,7 +22,7 @@ Du har flere alternativer for å administrere den sikre lommeboken din på en Pa
 
 Hvis du er nybegynner, er det enkleste alternativet å bruke Passport med den opprinnelige Envoy-applikasjonen, som er utviklet av Foundation. Hvis du vil finne ut hvordan du bruker Envoy med passet ditt, kan du ta en titt på denne andre veiledningen :
 
-https://planb.network/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
+https://planb.academy/tutorials/wallet/mobile/envoy-3ae5d6c7-623b-45b3-bb34-abcf9572b7cb
 
 ## Utpakking av passet
 
@@ -141,7 +141,7 @@ For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (elle
 
 Før du installerer den på enheten din, anbefaler vi deg på det sterkeste å sjekke ektheten og integriteten til den nedlastede fastvaren. Hvis du trenger hjelp med dette, kan du se denne veiledningen :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Etter at du har sjekket `.bin`-filen, plasserer du den på MicroSD-kortet og setter den deretter inn i Passport. Filutforskeren i Passport åpnes. Velg filen `vN.N.N-passport.bin`.
 
@@ -207,7 +207,7 @@ Klikk på bekreftelsesknappen for å se minnefrasen din.
 
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne opplæringen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen
 
@@ -294,7 +294,7 @@ Før du fortsetter, kan du legge til en BIP39-passordfrase hvis du ønsker det. 
 
 Før du konfigurerer dette alternativet på passet ditt, anbefales det på det sterkeste at du leser denne artikkelen for å forstå den teoretiske bruken av passordfrasen fullt ut og unngå feil som kan føre til tap av bitcoins:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Du aktiverer den ved å gå til "*More*"-menyen og klikke på "*Enter Passphrase*".
 
@@ -306,7 +306,7 @@ Skriv inn passordfrasen din ved hjelp av aA1-tastaturet, og sørg for at du lagr
 
 Vær oppmerksom på at BIP39-passordfraser er følsomme for store og små bokstaver og skrivefeil. Hvis du skriver inn en passordfrase som er litt annerledes enn den som opprinnelig ble konfigurert, vil Passport ikke rapportere en feil, men vil utlede et annet sett med kryptografiske nøkler som ikke vil være de samme som i den opprinnelige lommeboken.
 
-Det er derfor viktig at du noterer ned hovednøkkelens fingeravtrykk som du får i neste trinn, når du konfigurerer. For eksempel, med passordfrasen `Plan B Network`, er hovednøkkelfingeravtrykket mitt `745D526B`.
+Det er derfor viktig at du noterer ned hovednøkkelens fingeravtrykk som du får i neste trinn, når du konfigurerer. For eksempel, med passordfrasen `Plan ₿ Academy`, er hovednøkkelfingeravtrykket mitt `745D526B`.
 
 ![Image](assets/fr/52.webp)
 
@@ -316,7 +316,7 @@ Hver gang du låser opp, etter at du har skrevet ned passordfrasen, kontrollerer
 
 Før du mottar dine første bitcoins på lommeboken din, ** anbefaler jeg deg på det sterkeste å utføre en tom gjenopprettingstest**. Noter litt referanseinformasjon, for eksempel din xpub eller første mottaksadresse, og slett deretter lommeboken din på passet mens den fremdeles er tom (`Innstillinger -> Avansert -> Slett pass`). Prøv deretter å gjenopprette lommeboken din ved hjelp av papirsikkerhetskopiene av den mnemoniske frasen og en eventuell passordfrase. Sjekk at cookie-informasjonen som genereres etter gjenopprettingen samsvarer med den du opprinnelig skrev ned. Hvis den gjør det, kan du være sikker på at papirsikkerhetskopiene dine er pålitelige. Hvis du vil vite mer om hvordan du utfører en testgjenoppretting, kan du lese denne andre veiledningen :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ![Image](assets/fr/53.webp)
 
@@ -330,7 +330,7 @@ Start med å laste ned og installere Sparrow Wallet [fra det offisielle nettsted
 
 Sørg for å kontrollere ektheten og integriteten til programvaren før du installerer den. Hvis du ikke vet hvordan du gjør dette, kan du se denne veiledningen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Når Sparrow Wallet er åpen, klikker du på "*File*"-fanen og deretter på "*New Wallet*".
 
@@ -484,5 +484,5 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Passport. Hvis du synes
 
 For mer informasjon, se vår veiledning om Liana-programvaren:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 

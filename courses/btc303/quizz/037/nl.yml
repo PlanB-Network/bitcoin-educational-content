@@ -1,0 +1,9 @@
+question: Wat was het belangrijkste verschil tussen de Segwit-upgrade en eerdere Bitcoin-upgrades?
+answer: Mijnwerkers gaven geen ondersteuning aan ondanks overweldigende gebruikersondersteuning, waardoor het activeringsproces stagneerde
+wrong_answers:
+  - De upgrade vereiste een harde fork in plaats van de gebruikelijke zachte fork implementatiemethode
+  - Technische bugs in de Segwit-code verhinderden een veilige implementatie totdat ze waren opgelost
+  - Economische knooppunten verwierpen de upgrade vanwege zorgen over hogere transactiekosten
+explanation: |
+  De Segwit upgrade was uniek omdat het te maken had met een coördinatieprobleem waarbij er overweldigende steun was onder Bitcoin gebruikers, maar miners weigerden om steun te betuigen voor de upgrade. Dit creëerde een patstelling waarbij de upgrade niet geactiveerd kon worden via het normale zachte fork mechanisme. Eerdere upgrades waren relatief pijnloos, omdat ze zowel door gebruikers als door mijners gesteund werden. Deze situatie leidde tot het voorstel van User Activated Soft Forks (UASF) als een alternatief activeringsmechanisme dat niet afhankelijk is van signalen van mijners, wat de spanning tussen verschillende belanghebbenden in het Bitcoin ecosysteem benadrukt.
+reviewed: false

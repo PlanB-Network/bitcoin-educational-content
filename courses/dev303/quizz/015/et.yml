@@ -1,0 +1,8 @@
+question: Milline on peamine mehhanism, mida Rust kasutab mäluga seotud vigade, näiteks use-after-free ja puhvri ülevoolamise vältimiseks?
+answer: Staatiline analüüs, mis viiakse läbi täielikult kompileerimise ajal
+wrong_answers:
+  - Jooksuaegne prügikogumine koos automaatse mälupuhastusega
+  - Dünaamiline mälu kontrollimine programmi täitmise ajal
+  - Manuaalne mäluhaldus selgesõnaliste eraldamiskõnedega
+explanation: |
+  Rust hoiab ära mäluga seotud vead staatilise analüüsi abil, mis toimub täielikult kompileerimise ajal, kus kompilaator uurib lähtekoodi ja määrab kindlalt kindlaks, kas mäluoperatsioonid on turvalised. See erineb prügikoristusest (mida kasutab Java/Go), mis toob kaasa jooksuaegseid lisakulusid, dünaamilisest kontrollist, mis nõuab jooksuaegset kontrollimist, ja käsitsi mäluhaldusest (mida kasutab C/C++), mis sõltub programmeerija distsipliinist. Rust kompileerimisajal põhinev lähenemisviis tagab mälu turvalisuse ilma jooksuaegsete kulude või ettearvamatute pausideta.

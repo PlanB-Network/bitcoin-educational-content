@@ -1,0 +1,9 @@
+question: I henhold til Bitcoin Core's praksis for ansvarlig offentliggjøring, når bør sårbarhetsdetaljer offentliggjøres etter at en løsning er implementert?
+answer: Etter at mer enn 80 % av Bitcoin-nodene har tatt i bruk løsningene
+wrong_answers:
+  - Umiddelbart etter at oppdateringen er utgitt for å forhindre falske sikkerhetsantagelser
+  - Etter at alle større altcoins har blitt varslet og oppdatert sine implementeringer
+  - Etter en standard 90-dagers embargoperiode, uavhengig av utplasseringsstatus
+explanation: |
+  Bitcoin Core følger en distribusjonsbasert tidslinje for offentliggjøring i stedet for en fast tidsperiode. Terskelen på 80 % sikrer at størstedelen av nettverket er beskyttet før angripere kan få vite om sårbarheten gjennom offentliggjøring. Denne tilnærmingen prioriterer nettverkssikkerhet fremfor vilkårlige tidslinjer, ettersom for tidlig offentliggjøring kan utsette de resterende 20 % av nodene for målrettede angrep. De andre alternativene representerer vanlig praksis innen tradisjonell programvaresikkerhet, men tar ikke hensyn til Bitcoins desentraliserte natur, der brukerne frivillig må oppgradere nodene sine.
+reviewed: false

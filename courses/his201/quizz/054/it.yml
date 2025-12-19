@@ -1,4 +1,4 @@
-question: Quale sviluppatore americano ha individuato un blocco strano durante l'incidente di overflow del valore il 15 agosto 2010?
+question: Quale sviluppatore americano ha individuato uno strano blocco durante l'incidente di Value Overflow del 15 agosto 2010?
 answer: Jeff Garzik
 wrong_answers:
   - Gavin Andresen

@@ -1,0 +1,9 @@
+question: En yaygın kullanılan Bitcoin düğüm uygulaması nedir?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Klasik
+  - Bcoin
+explanation: |
+  Ağdaki 10 düğümden yaklaşık 9'una sahip olan Bitcoin core, çoğunluk müşteridir.
+reviewed: true

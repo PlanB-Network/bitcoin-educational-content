@@ -1,0 +1,9 @@
+question: Milline on Bitcoin-sõlme peamine funktsioon?
+answer: Salvesta Blockchain ja valideeri tehingud ja plokid
+wrong_answers:
+  - Privaatvõtmete salvestamine ja tehingute loomine
+  - Uute aadresside loomine kasutajatele
+  - Bitcoinide konverteerimine fiat-valuutateks
+explanation: |
+  Bitcoin-sõlm säilitab Blockchain koopiat ning osaleb tehingute ja plokkide valideerimises ja edastamises.
+reviewed: true

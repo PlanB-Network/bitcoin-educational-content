@@ -1,0 +1,8 @@
+question: What enables LDK to support diverse transport mechanisms like TCP sockets, WebSockets, and USB serial connections for Lightning Network communication?
+answer: The peer management system operates independently of the underlying transport mechanism while handling noise protocol encryption
+wrong_answers:
+  - The channel manager coordinates with multiple network adapters through a unified socket abstraction layer
+  - LDK implements protocol-specific drivers for each transport type within its core networking module
+  - The event system automatically detects available transport methods and configures appropriate connection handlers
+explanation: |
+  LDK's peer management system is specifically designed to handle Lightning protocol communication (including noise encryption and message structures) independently from the actual transport layer. This architectural separation allows developers to implement any bidirectional communication channel while the peer manager focuses solely on Lightning protocol compliance. The other options incorrectly suggest that LDK provides built-in transport implementations or automatic detection, when in reality LDK's strength lies in abstracting away from specific transport mechanisms entirely.

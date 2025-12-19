@@ -1,12 +1,12 @@
 question: Neden yazılımı genel siteler yerine yayıncının resmi web sitesinden indirmeniz önerilir?
 answer: Yazılımın kötü amaçlı yazılım içermediğinden emin olmak için.
 wrong_answers:
-  - Yayıncıyı finansal olarak desteklemek.
+  - Yayıncıyı finansal olarak desteklemek için.
   - Çünkü yazılım genellikle resmi web sitesinde daha ucuzdur.
   - Çünkü jenerik sitelerdeki yazılımlar genellikle güncel değildir.
 explanation: |
-  Yazılımın resmi web sitesinden indirilmesi
-  yayıncı, yasal yayınları aldığınızdan emin olmanızı sağlar
-  yazılımın herhangi bir kötü amaçlı yazılım içermeyen sürümü
-  cihazınıza zarar verebilecek veya verilerinizi çalabilecek yazılımlar.
+  Yazılımın resmi web siteden indirilmesi,
+  meşru sürüm aldığınızdan emin olmanızı sağlar,
+  sürümün herhangi bir kötü amaçlı yazılım veya cihazınıza 
+  zarar verebilecek, verilerinizi çalabilecek yazılımlari içermemesini sağlar.
 reviewed: true

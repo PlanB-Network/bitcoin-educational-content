@@ -1,0 +1,9 @@
+question: Jaký je výchozí počet odchozích připojení, která udržuje uzel Bitcoin core?
+answer: 10
+wrong_answers:
+  - 2
+  - 4
+  - 3
+explanation: |
+  Ve výchozím nastavení udržuje Bitcoin core 10 odchozích připojení (8 plně reléových a 2 pouze blokově reléová).
+reviewed: true

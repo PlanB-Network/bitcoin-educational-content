@@ -645,7 +645,7 @@ Utsett aldri RTL direkte på Internett. Gi preferanse til :
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### God sikkerhetspraksis
 
@@ -695,7 +695,7 @@ Kort sagt gir RTL deg full kontroll over Lightning-noden din, i en moderne Inter
 
 
 
-**Kilder :** RTLs offisielle nettsted; RTL GitHub; Umbrel App Store; Umbrel Community; Plan B Network-ressurser.
+**Kilder :** RTLs offisielle nettsted; RTL GitHub; Umbrel App Store; Umbrel Community; Plan ₿ Academy-ressurser.
 
 
 
@@ -703,4 +703,4 @@ For å få en dypere forståelse av hvordan Lightning Network fungerer, anbefale
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

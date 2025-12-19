@@ -645,7 +645,7 @@ Ntukigere ugaragaza RTL ataco uhinduye kuri Internet. Guhitamwo :
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Ivyiza vyo kwirinda
 
@@ -703,4 +703,4 @@ Kugira ngo urushirize gutahura ingene Lightning Network ikora, ndagusavye kandi 
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

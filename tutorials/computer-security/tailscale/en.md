@@ -215,7 +215,7 @@ CLI is very useful on servers without Interface graphics, and for scripting cert
 Umbrel is a popular self-hosting platform (notably used for Bitcoin/Lightning nodes and other self-hosted services, via its App Store). To install and configure Umbrel, we recommend you follow our dedicated tutorial:
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Using Umbrel and Tailscale together is a particularly interesting use case, as Umbrel natively integrates an easy-to-deploy Tailscale module. Here's how Tailscale integrates with Umbrel and what it brings:
 
@@ -308,7 +308,7 @@ Tailscale also enables your Bitcoin and Lightning wallets installed on other dev
 Read our complete guide to configuring Sparrow wallet with your Bitcoin node:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
@@ -323,12 +323,12 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 To configure Zeus with your Lightning node, see our detailed tutorial:
 
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
 To find out more about the Lightning Network and how it works on Umbrel, visit:
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
 
 

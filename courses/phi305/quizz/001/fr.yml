@@ -1,4 +1,4 @@
-question: Spinoza est-il un philosophe?
+question: De quel siècle Spinoza est-il un philosophe?
 answer: Du 17e siècle.
 wrong_answers:
   - Du 16e siècle.

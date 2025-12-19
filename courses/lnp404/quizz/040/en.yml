@@ -1,0 +1,8 @@
+question: How does Lightning Terminal's Peer Insights enable node operators to transform channel management from guesswork into evidence-based financial strategy?
+answer: By leveraging local node data to display exact forwarding events, volume routed, and fees earned for each peer relationship
+wrong_answers:
+  - By providing real-time market pricing data from centralized exchanges to optimize fee structures across all channels
+  - By automatically executing channel closures and openings based on machine learning algorithms trained on network patterns
+  - By accessing private routing data from other nodes through encrypted peer-to-peer intelligence sharing protocols
+explanation: |
+  Peer Insights transforms channel management by using your node's own transaction history to provide concrete performance metrics for each peer relationship. Unlike network explorers that can only guess at routing volume, Terminal accesses your local data to show exact forwarding events, satoshis moved, and revenue generated. This evidence-based approach allows operators to identify underperforming channels, optimize fee structures, and treat their node as a portfolio of financial assets requiring active management rather than passive connectivity.

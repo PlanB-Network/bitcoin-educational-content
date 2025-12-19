@@ -1,0 +1,9 @@
+question: Mối quan tâm chính khi áp dụng mức phí cắt giảm là gì khi trợ cấp khối của Bitcoin gần bằng 0?
+answer: Người khai thác có thể thấy việc viết lại các khối trước đó với mức phí cao có lợi hơn là viết lại các khối mới mining
+wrong_answers:
+  - Phí giao dịch sẽ trở nên quá đắt đối với người dùng thông thường để có thể thực hiện giao dịch Bitcoin
+  - Tổng nguồn cung Bitcoin sẽ vượt quá 21 triệu do các ưu đãi mining tăng lên
+  - Thợ đào sẽ dừng hoàn toàn mining vì phí giao dịch không đủ để trang trải chi phí điện
+explanation: |
+  Việc "fe-sniping" (khai thác phí) xảy ra khi thợ đào cố gắng đào lại các khối trước đó chứa các giao dịch phí cao thay vì mở rộng chuỗi một cách trung thực. Điều này trở nên hợp lý về mặt kinh tế khi phí trong khối trước đó vượt xa phí trong mempool hiện tại. Mặc dù xác suất thành công thấp hơn mining trung thực, nhưng phần thưởng tiềm năng có thể cao hơn nhiều. Hành vi này đặc biệt đáng lo ngại vì nó có thể tạo ra hiệu ứng dây chuyền, khiến nhiều thợ đào tham gia vào các hành vi gian lận, cuối cùng đe dọa mô hình bảo mật của Bitcoin khi trợ cấp khối giảm dần.
+reviewed: false

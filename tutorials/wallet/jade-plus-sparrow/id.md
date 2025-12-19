@@ -36,7 +36,7 @@ electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 | 🔴 |
 
 Dalam tutorial ini, kita akan menyiapkan konfigurasi lanjutan Jade Plus dengan perangkat lunak Sparrow Wallet desktop dalam mode kode QR. Konfigurasi ini sangat ideal untuk pengguna tingkat menengah atau berpengalaman. Jika Anda mencari pendekatan yang lebih sederhana untuk pemula, saya sarankan Anda untuk melihat tutorial ini di mana kita menggunakan Jade Plus dengan Green Wallet melalui koneksi Bluetooth:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Model keamanan Jade Plus
 
@@ -111,7 +111,7 @@ Anda bisa menuliskannya pada karton yang disertakan dalam kotak, atau untuk keam
 
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.
 
@@ -269,7 +269,7 @@ Kata sandi BIP39 adalah kata sandi opsional yang bisa Anda pilih secara bebas, d
 
 Sebelum mengonfigurasi opsi ini pada Jade Plus Anda, sangat disarankan agar Anda membaca artikel ini untuk memahami sepenuhnya operasi teoritis dari kata sandi dan menghindari kesalahan yang dapat menyebabkan hilangnya bitcoin Anda:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Dengan Jade Anda masih terkunci (kata sandi hanya dapat dimasukkan ketika perangkat tidak dibuka), akses menu "*Options*".
 
@@ -314,7 +314,7 @@ Jika kata sandi Anda valid, konfirmasikan.
 
 Harap diperhatikan bahwa kata sandi BIP39 peka terhadap huruf besar-kecil dan kesalahan pengetikan. Jika Anda memasukkan kata sandi yang sedikit berbeda dari yang dikonfigurasikan pada awalnya, Jade tidak akan melaporkan kesalahan tetapi akan mendapatkan satu set kunci kriptografi lain yang tidak sama dengan kunci kriptografi yang ada di portofolio awal Anda.
 
-Oleh karena itu, penting sekali, ketika mengonfigurasi, untuk mencatat sidik jari kunci utama Anda, yang dapat ditemukan di sudut kanan bawah layar. Contohnya, dengan kata sandi `PBN`, sidik jari tombol utama saya adalah `3AD1AE65`.
+Oleh karena itu, penting sekali, ketika mengonfigurasi, untuk mencatat sidik jari kunci utama Anda, yang dapat ditemukan di sudut kanan bawah layar. Contohnya, dengan kata sandi `Plan ₿ Academy`, sidik jari tombol utama saya adalah `3AD1AE65`.
 
 ![Image](assets/fr/49.webp)
 
@@ -322,7 +322,7 @@ Setiap kali Anda membuka kunci Jade dengan kata sandi, periksa apakah sidik jari
 
 Sebelum Anda menerima bitcoin pertama Anda di dompet Anda, **Saya sangat menyarankan Anda untuk melakukan tes pemulihan kosong**. Catatlah beberapa informasi referensi, seperti xpub atau alamat penerima pertama Anda, kemudian hapus wallet Anda di Jade Plus ketika masih kosong (`Options -> Device -> Factory Reset`). Kemudian cobalah untuk memulihkan dompet Anda menggunakan cadangan kertas dari frasa mnemonik dan kata sandi apa pun. Periksa apakah informasi cookie yang dihasilkan setelah pemulihan sesuai dengan yang Anda tuliskan sebelumnya. Jika sesuai, Anda bisa yakin bahwa cadangan kertas Anda dapat diandalkan. Untuk mengetahui lebih lanjut tentang cara melakukan pemulihan tes, lihat tutorial lainnya:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Mengonfigurasi dompet di Dompet Sparrow
 
@@ -334,7 +334,7 @@ Mulailah dengan mengunduh dan menginstal Sparrow Wallet [dari situs web resmi] (
 
 Pastikan untuk memeriksa keaslian dan integritas perangkat lunak sebelum instalasi. Jika Anda tidak tahu cara melakukannya, silakan baca tutorial ini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Setelah Sparrow Wallet terbuka, klik tab "*File*", lalu "*Dompet Baru*".
 
@@ -452,4 +452,4 @@ Selamat, sekarang Anda sudah tahu cara mengatur dan menggunakan Jade Plus dalam 
 
 Untuk melangkah lebih jauh, saya merekomendasikan tutorial lain tentang Jade Plus, di mana kita mengonfigurasinya melalui Bluetooth dengan aplikasi seluler Green:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

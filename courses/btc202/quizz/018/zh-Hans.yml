@@ -1,0 +1,9 @@
+question: 最广泛的比特币节点实现是什么？
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  在整个网络中，大约有十分之九的节点运行 Bitcoin Core。
+reviewed: true

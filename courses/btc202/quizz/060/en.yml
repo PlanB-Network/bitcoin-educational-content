@@ -6,4 +6,4 @@ wrong_answers:
   - Local backup of Blockchain Nostr
 explanation: |
   A Nostr relay on Umbrel enables data to be hosted locally, guaranteeing availability and sovereignty.
-reviewed: false
+reviewed: true

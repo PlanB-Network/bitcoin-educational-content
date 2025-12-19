@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe hagati y'Urudodo n'urudodo rw'urudodo (&str) muri Rust?
+answer: Urudodo rucungera ububiko bw'ikirundo kandi rushobora guhindurwa, mu gihe &str ari ukureba mu makuru y'urudodo adahinduka
+wrong_answers:
+  - Urudodo rubikwa ku kirundo mu gihe &str ibikwa ku kirundo kugira ngo ikore neza
+  - Urudodo rushobora kubamwo gusa inyuguti ASCII mu gihe &str rushobora kubamwo inyuguti zose za Unicode
+  - String ihita ishira mu ngiro inguzanyo mu gihe &str isaba kwimurira uburenganzira
+explanation: |
+  Urudodo na &str bigereranya uburyo butandukanye bwo gukoresha urudodo muri Rust. Urudodo ni ubwoko bw'urudodo bugenewe ikirundo, bushobora gukura bufise amakuru yayo kandi bushobora guhindurwa mu gihe co gukora. Mu buryo bunyuranye, &str (igice c'urudodo) ni ikimenyetso kidahinduka c'amakuru y'urudodo, kenshi yerekana amajambo y'urudodo ashizwe muri porogaramu y'ibice bibiri canke ibice vy'amakuru y'urudodo ariho. Iryo tandukaniro rituma Rust ishobora guhindura neza (String ku birimwo bihinduka) n’ubushobozi (&str ku gusoma gusa ata guhabwa).

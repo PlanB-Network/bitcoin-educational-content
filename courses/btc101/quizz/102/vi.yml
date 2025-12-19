@@ -1,5 +1,5 @@
 question: Tại sao trách nhiệm cá nhân lại quan trọng trong Bitcoin?
-answer: Điều này rất quan trọng vì bạn phải chịu trách nhiệm về việc sao lưu.
+answer: Điều này rất quan trọng vì bạn phải chịu trách nhiệm về việc sao lưu phòng ngừa.
 wrong_answers:
   - Điều này cần thiết vì bạn phải đào bitcoin.
   - Điều này cần thiết để mua bitcoin.
@@ -7,5 +7,5 @@ wrong_answers:
 explanation: |
   Trong Bitcoin, quyền tự chủ tài chính đi đôi với
   trách nhiệm cá nhân, bởi vì bạn phải tự quản lý
-  quỹ của mình bằng cách tuân theo các thủ tục sao lưu được khuyến nghị.
+  quỹ tài sản của mình bằng cách tuân theo các thủ tục sao lưu được khuyến nghị.
 reviewed: true

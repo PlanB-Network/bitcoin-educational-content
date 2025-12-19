@@ -110,7 +110,7 @@ Procedere al pagamento, quindi inserire il Lightning Address per convalidare il 
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Per effettuare una transazione su Flash occorreranno in media dai 5 ai 10 minuti per ricevere i bitcoin sul proprio Lightning Wallet.
 
@@ -202,4 +202,4 @@ Se questo tutorial vi è stato utile per familiarizzare con Flash, vi preghiamo 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

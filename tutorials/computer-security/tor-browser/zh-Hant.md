@@ -204,4 +204,4 @@ DuckDuckGo 上的「*Onionize*」選項允許您透過其在 Tor 網路上的隱
 為了確保瀏覽器的整體安全性，「*Safer*」和「*Safest*」模式可讓您調整網頁功能和您造訪的網站所執行的指令碼。這樣可以將利用漏洞的風險降到最低，但也會反過來影響網站的顯示和互動性。![TOR BROWSER](assets/notext/36.webp) 您會發現其他安全選項，包括危險內容封鎖程式和 HTTPS 純模式，可確保與網站的連線始終遵守此協定。![TOR BROWSER](assets/notext/37.webp)最後，在「*連線*」標籤中，您可以找到與連線到 Tor 網路相關的所有設定。您可以在這裡設定橋接，以便從 Tor 可能受到審查的地區存取 Tor。![TOR瀏覽器](assets/notext/38.webp) 就這樣，您就可以以更安全、更隱私的方式瀏覽網際網路了！如果您對線上隱私感興趣，我也建議您參考 Mullvad VPN 的其他教學：
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8

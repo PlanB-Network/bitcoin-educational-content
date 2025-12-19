@@ -27,7 +27,7 @@ Diagram di bawah ini mengilustrasikan pengoperasian portofolio dengan dua jalur 
 Operasi ini memungkinkan Anda untuk mengatur berbagai konfigurasi, termasuk :
 
 
-- Rencana suksesi (atau warisan), yang memungkinkan ahli waris untuk mendapatkan kembali dana jika pengguna meninggal dunia. Untuk informasi lebih lanjut mengenai hal ini, kami sarankan untuk membaca [bagian 4] (https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) dari kursus BTC102.
+- Rencana suksesi (atau warisan), yang memungkinkan ahli waris untuk mendapatkan kembali dana jika pengguna meninggal dunia. Untuk informasi lebih lanjut mengenai hal ini, kami sarankan untuk membaca [bagian 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) dari kursus BTC102.
 - Cadangan yang diperkuat dengan waktu pemulihan, memberikan pengguna kemungkinan untuk menggunakan dompetnya tanpa harus menyimpan frasa rahasia yang sesuai dan berisiko dicuri, selama pencurian misalnya.
 - Jaring pengaman untuk orang-orang yang baru memulai dengan Bitcoin: mereka akan mengelola dompet mereka sendiri, dan "wali" mereka (kerabat, misalnya) akan memiliki hak untuk mendapatkan kembali dana mereka setelah jangka waktu tertentu.
 - Skema tanda tangan multi-pihak (*multisig*) dengan persyaratan yang berkurang dari waktu ke waktu, untuk mengatasi hilangnya satu atau lebih peserta, seperti mitra perusahaan.
@@ -45,11 +45,11 @@ Dalam tutorial ini, kita akan menyiapkan rencana suksesi. Kita akan menggunakan 
 
 - Buku Besar Nano S Plus, untuk pengeluaran sehari-hari;
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - Blockstream Jade, digunakan untuk memulihkan dana;
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - Dua media penyimpanan (stik USB) untuk menyimpan deskriptor portofolio;
 - Surat suksesi, yang berisi instruksi untuk memulihkan dana;
@@ -63,7 +63,7 @@ Kunjungi situs web resmi Wizardsardine dan unduh Liana di https://wizardsardine.
 
 Untuk mengetahui cara memverifikasi keaslian dan integritas perangkat lunak secara manual sebelum instalasi, kami sarankan Anda membaca tutorial ini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Instal perangkat lunak pada komputer Anda dan luncurkan. Pilih opsi "*Buat dompet Liana baru*" untuk mengonfigurasi dompet Anda.
 
@@ -193,7 +193,7 @@ Anda dapat memeriksa status kedaluwarsa dana Anda dengan membuka tab "*Coins*". 
 
 Untuk lebih memahami model representasi UTXO yang digunakan dalam Bitcoin, Anda dapat membaca bagian pertama dari kursus tentang kerahasiaan dalam Bitcoin yang ditulis oleh Loïc Morel :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Pengeluaran saat ini
 
@@ -338,6 +338,6 @@ Skrip yang dibuat oleh portofolio ini akan berbentuk sebagai berikut:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Karena keamanan dompet Bitcoin Anda juga bergantung pada pemahaman Anda tentang cara kerjanya, saya sarankan Anda mempelajari mekanisme dompet deterministik dan hirarkis secara mendalam dengan mengikuti kursus pelatihan gratis di Plan ₿ Network:
+Karena keamanan dompet Bitcoin Anda juga bergantung pada pemahaman Anda tentang cara kerjanya, saya sarankan Anda mempelajari mekanisme dompet deterministik dan hirarkis secara mendalam dengan mengikuti kursus pelatihan gratis di Plan ₿ Academy:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

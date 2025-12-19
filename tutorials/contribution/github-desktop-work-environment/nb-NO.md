@@ -12,13 +12,13 @@ Hvis du ønsker å bidra til PlanB-nettverket, må du bruke GitHub for å foresl
 
 Hvis du ikke har noen ide om hva GitHub er, eller hvis du ønsker å lære mer om de tekniske termene relatert til Git og GitHub, anbefaler jeg at du leser vår introduksjonsartikkel for å gjøre deg kjent med disse konseptene.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - For å starte, vil du åpenbart trenge en GitHub-konto. Hvis du allerede har en, kan du logge inn, ellers kan du bruke vår veiledning for å opprette en ny.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -43,15 +43,15 @@ Det finnes en rekke programvarer spesialisert på å redigere Markdown-filer, so
 - Installer Obsidian, start programvaren, velg språket ditt, og klikk deretter på `Quick Start`: ![github-desktop](assets/8.webp)
 - Du vil komme til Obsidian-programvaren. For øyeblikket har du ingen filer åpne: ![github-desktop](assets/9.webp)
 
-## Steg 3: Fork PlanB Network-repositoriet
+## Steg 3: Fork Plan ₿ Academy-repositoriet
 
-- Gå til PlanB Network datarepositoriet på følgende adresse: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Gå til Plan ₿ Academy datarepositoriet på følgende adresse: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Fra denne siden, klikk på `Fork`-knappen øverst til høyre i vinduet: ![github-desktop](assets/11.webp)
 - I opprettelsesmenyen kan du la standardinnstillingene stå. Sørg for at boksen `Copy the dev branch only` er merket av, og klikk deretter på `Create fork`-knappen: ![github-desktop](assets/12.webp)
-- Du vil da komme til din egen fork av PlanB Network-repositoriet: ![github-desktop](assets/13.webp)
+- Du vil da komme til din egen fork av Plan ₿ Academy-repositoriet: ![github-desktop](assets/13.webp)
 Denne forken utgjør et separat repositorium fra det originale, selv om det for øyeblikket inneholder de samme dataene. Du vil nå jobbe på dette nye repositoriet.
 
-Vi har på en måte laget en kopi av PlanB Network-kilderepositoriet. Din fork (kopien) og det originale repositoriet vil nå utvikle seg uavhengig av hverandre. På det originale repositoriet kan andre bidragsytere legge til nye data, mens du, på din fork, vil fortsette med dine egne modifikasjoner.
+Vi har på en måte laget en kopi av Plan ₿ Academy-kilderepositoriet. Din fork (kopien) og det originale repositoriet vil nå utvikle seg uavhengig av hverandre. På det originale repositoriet kan andre bidragsytere legge til nye data, mens du, på din fork, vil fortsette med dine egne modifikasjoner.
 For å opprettholde konsistens mellom disse to repositoriene, vil det være nødvendig å synkronisere dem periodisk slik at de henter den samme informasjonen. For å sende dine endringer til kilderepositoriet, vil du bruke det som kalles en **Pull Request**. Og for å integrere endringer fra kilderepositoriet inn i din fork, vil du bruke **Sync fork**-kommandoen tilgjengelig på GitHub-webgrensesnittet.
 ![github-desktop](assets/14.webp)
 
@@ -68,9 +68,9 @@ For å opprettholde konsistens mellom disse to repositoriene, vil det være nød
 - Etter å ha klonet repositoriet, tilbyr programvaren deg to alternativer. Du må velge det første: `To contribute to the parent project`. Dette valget vil tillate deg å presentere ditt fremtidige arbeid som et bidrag til morsprosjektet (`DecouvreBitcoin/sovereign-university-data`), og ikke utelukkende som en modifikasjon av din personlige fork (`[brukernavn]/sovereign-university-data`). Når alternativet er valgt, klikk på `Continue`:
 ![github-desktop](assets/19.webp)- GitHub Desktop-en din er nå riktig konfigurert. Nå kan du la programvaren være åpen i bakgrunnen for å følge med på endringene vi vil gjøre.
 ![github-desktop](assets/20.webp)
-Det vi har oppnådd på dette stadiet er opprettelsen av en lokal kopi av ditt repositorium, som er hostet på GitHub. Som en påminnelse, dette repositoriet er en fork av kilde-repositoriet til PlanB Network. Du vil kunne gjøre endringer på denne lokale kopien, som å legge til veiledninger, oversettelser, eller korreksjoner. Når disse endringene er gjort, vil du bruke **Push origin**-kommandoen for å sende dine lokale endringer til din fork hostet på GitHub.
+Det vi har oppnådd på dette stadiet er opprettelsen av en lokal kopi av ditt repositorium, som er hostet på GitHub. Som en påminnelse, dette repositoriet er en fork av kilde-repositoriet til Plan ₿ Academy. Du vil kunne gjøre endringer på denne lokale kopien, som å legge til veiledninger, oversettelser, eller korreksjoner. Når disse endringene er gjort, vil du bruke **Push origin**-kommandoen for å sende dine lokale endringer til din fork hostet på GitHub.
 
-Du kan også hente endringer fra forken, for eksempel, under en synkronisering med PlanB Network-repositoriet. For dette, vil du bruke **Fetch origin**-kommandoen for å laste ned endringene til din lokale kopi (din klon), og deretter **Pull origin**-kommandoen for å slå dem sammen med ditt arbeid. Dette lar deg holde deg oppdatert med de siste utviklingene av prosjektet samtidig som du bidrar effektivt.
+Du kan også hente endringer fra forken, for eksempel, under en synkronisering med Plan ₿ Academy-repositoriet. For dette, vil du bruke **Fetch origin**-kommandoen for å laste ned endringene til din lokale kopi (din klon), og deretter **Pull origin**-kommandoen for å slå dem sammen med ditt arbeid. Dette lar deg holde deg oppdatert med de siste utviklingene av prosjektet samtidig som du bidrar effektivt.
 
 ![github-desktop](assets/21.webp)
 ## Steg 5: Opprett et nytt Obsidian-hvelv
@@ -81,7 +81,7 @@ Du kan også hente endringer fra forken, for eksempel, under en synkronisering m
 - Filutforskeren din vil åpne seg. Du må lokalisere og velge mappen med tittelen `GitHub`, som bør være i din `Documents`-mappe blant filene dine. Denne stien tilsvarer den du etablerte under steg 4. Etter å ha valgt mappen, bekreft valget. Opprettelsen av ditt hvelv på Obsidian vil deretter starte på en ny side av programvaren:
 
 ![github-desktop](assets/24.webp)
--> **Oppmerksomhet**, det er viktig å ikke velge `sovereign-university-data`-mappen når du oppretter et nytt hvelv i Obsidian. Velg i stedet overordnet mappe, `GitHub`. Hvis du velger `sovereign-university-data`-mappen, vil konfigurasjonsmappen `.obsidian`, som inneholder dine lokale Obsidian-innstillinger, automatisk bli integrert i repositoriet. Vi ønsker å unngå dette, da det ikke er nødvendig å overføre dine Obsidian-konfigurasjoner til PlanB Network-repositoriet. Et alternativ er å legge til `.obsidian`-mappen i `.gitignore`-filen, men denne metoden ville også endre `.gitignore`-filen til kilde-repositoriet, noe som ikke er ønskelig.
+-> **Oppmerksomhet**, det er viktig å ikke velge `sovereign-university-data`-mappen når du oppretter et nytt hvelv i Obsidian. Velg i stedet overordnet mappe, `GitHub`. Hvis du velger `sovereign-university-data`-mappen, vil konfigurasjonsmappen `.obsidian`, som inneholder dine lokale Obsidian-innstillinger, automatisk bli integrert i repositoriet. Vi ønsker å unngå dette, da det ikke er nødvendig å overføre dine Obsidian-konfigurasjoner til Plan ₿ Academy-repositoriet. Et alternativ er å legge til `.obsidian`-mappen i `.gitignore`-filen, men denne metoden ville også endre `.gitignore`-filen til kilde-repositoriet, noe som ikke er ønskelig.
 
 - På venstre side av vinduet kan du se filtrestrukturen med dine forskjellige GitHub-repositorier som har blitt klonet lokalt.
 - Ved å klikke på pilene ved siden av mappenavnene, kan du utvide dem for å få tilgang til undermappene til repositoriene og deres dokumenter:
@@ -90,12 +90,12 @@ Du kan også hente endringer fra forken, for eksempel, under en synkronisering m
 
 ## Steg 6: Installer en kodeeditor
 
-De fleste av dine endringer vil være på filer i Markdown-format (`.md`). For å redigere disse dokumentene, kan du bruke Obsidian, programvaren vi diskuterte tidligere. Men, PlanB Network bruker andre filformater, og du vil trenge å modifisere noen av dem.
+De fleste av dine endringer vil være på filer i Markdown-format (`.md`). For å redigere disse dokumentene, kan du bruke Obsidian, programvaren vi diskuterte tidligere. Men, Plan ₿ Academy bruker andre filformater, og du vil trenge å modifisere noen av dem.
 
 For eksempel, når du oppretter en ny veiledning, vil du trenge å opprette en YAML (`.yml`)-fil for å angi taggene for din veiledning, dens tittel, og ditt lærer-ID. Obsidian tilbyr ikke muligheten til å modifisere denne typen filer, så du vil trenge en kodeeditor.
 For dette har du flere alternativer tilgjengelig. Selv om standard notisblokk på datamaskinen din kan brukes til disse endringene, er ikke denne løsningen ideell for pent arbeid. Jeg anbefaler å velge programvare som er spesifikt designet for dette formålet, slik som [VS Code](https://code.visualstudio.com/download) eller [Sublime Text](https://www.sublimetext.com/download). Sublime Text, som er spesielt lettvekt, vil være mer enn tilstrekkelig for våre behov. - Installer ett av disse programmene, og hold det til side for dine fremtidige modifikasjoner. ![github-desktop](assets/26.webp)
-Gratulerer! Ditt arbeidsmiljø er nå satt opp for å bidra til PlanB Network. Du kan nå utforske våre andre spesifikke veiledninger for hver type bidrag (oversettelse, korrekturlesing, skriving.
+Gratulerer! Ditt arbeidsmiljø er nå satt opp for å bidra til Plan ₿ Academy. Du kan nå utforske våre andre spesifikke veiledninger for hver type bidrag (oversettelse, korrekturlesing, skriving.
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

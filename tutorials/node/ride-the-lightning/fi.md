@@ -645,7 +645,7 @@ Voit seurata solmua viemällä RTL-tietoja (lokitiedot, CSV) ja tarkastelemalla 
 
 
 
-https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
+https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 ### Hyvät turvallisuuskäytännöt
 
@@ -695,7 +695,7 @@ Lyhyesti sanottuna RTL antaa sinulle täydellisen hallinnan Lightning-solmusi yl
 
 
 
-**Lähteet :** RTL:n virallinen verkkosivusto; RTL GitHub; Umbrel App Store; Umbrel Community; Plan B Network -resurssit.
+**Lähteet :** RTL:n virallinen verkkosivusto; RTL GitHub; Umbrel App Store; Umbrel Community; Plan ₿ Academy -resurssit.
 
 
 
@@ -703,4 +703,4 @@ Jos haluat syventää ymmärrystäsi Lightning Network:n toiminnasta, suosittele
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

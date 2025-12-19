@@ -51,7 +51,7 @@ Jeśli chodzi o [ceny](https://proton.me/pricing), darmowa wersja oferuje do 5 G
 Jeśli nie masz jeszcze konta Proton, musisz je utworzyć. Odsyłam do naszego samouczka Proton Mail, w którym szczegółowo wyjaśniamy, jak utworzyć i skonfigurować bezpłatne konto Proton:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ![PROTON DRIVE](assets/notext/04.webp)
 
@@ -75,7 +75,7 @@ Jesteś teraz w Proton Drive.
 Aby dodać pliki do Proton Drive, gdy korzystasz wyłącznie z wersji internetowej (omówimy korzystanie z wersji lokalnej później), wystarczy przeciągnąć i upuścić dokumenty bezpośrednio do Interface. ![PROTON DRIVE](assets/notext/08.webp) Następnie można znaleźć dokument na stronie głównej. ![PROTON DRIVE](assets/notext/09.webp) Aby dodać nowy element, kliknij przycisk "*New*" w lewym górnym rogu ekranu. ![PROTON DRIVE](assets/notext/10.webp) Funkcja "*Upload file*" otwiera lokalny eksplorator plików, umożliwiając wybieranie i importowanie nowych dokumentów do Proton Drive, podobnie jak w przypadku przeciągania i upuszczania. ![PROTON DRIVE](assets/notext/11.webp) "*Upload folder*" pozwala zaimportować cały folder. ![PROTON DRIVE](assets/notext/12.webp) "*Nowy folder*" umożliwia utworzenie folderu w celu lepszej organizacji dokumentów na Proton Drive. ![PROTON DRIVE](assets/notext/13.webp) Kliknij tę opcję, aby przypisać nazwę do folderu. ![PROTON DRIVE](assets/notext/14.webp) Następnie znajdziesz go bezpośrednio na stronie głównej Proton Drive. ![PROTON DRIVE](assets/notext/15.webp) Wreszcie, "*Nowy dokument*" pozwala na utworzenie nowego dokumentu tekstowego bezpośrednio w Proton Drive. ![PROTON DRIVE](assets/notext/16.webp) Klikając na niego, otworzy się nowy pusty dokument. ![PROTON DRIVE](assets/notext/17.webp) Możesz na nim pisać i edytować go. ![PROTON DRIVE](assets/notext/18.webp) Jeśli klikniesz na przycisk "*Share*" w prawym górnym rogu, możesz udostępnić dokument. ![PROTON DRIVE](assets/notext/19.webp) Wystarczy wpisać adres e-mail współtwórcy, któremu chcesz udostępnić dokument, w trybie tylko do odczytu lub z prawami do edycji. ![PROTON DRIVE](assets/notext/20.webp) Jeśli wrócisz do Proton Drive, zobaczysz, że dokument został pomyślnie zapisany. ![PROTON DRIVE](assets/notext/21.webp) W zakładce "*Shared*" można znaleźć dokumenty, które zostały udostępnione innym osobom. ![PROTON DRIVE](assets/notext/22.webp) A w zakładce "*Shared with me*" możesz zobaczyć dokumenty, które inni udostępnili tobie. ![PROTON DRIVE](assets/notext/23.webp) Wreszcie, w zakładce "*Trash*" można znaleźć ostatnio usunięte dokumenty. ![PROTON DRIVE](assets/notext/24.webp) Większość ustawień Proton Drive jest zintegrowana z kontem Proton. Aby uzyskać szczegółowe instrukcje dotyczące konfiguracji konta, zapraszam do zapoznania się z tym samouczkiem:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Jak zainstalować oprogramowanie Proton Drive?
 
@@ -145,4 +145,4 @@ Gratulacje, masz teraz bardzo solidną strategię tworzenia kopii zapasowych 3-2
 Aby dowiedzieć się więcej na temat zabezpieczania swojej obecności w Internecie i unikania włamań, polecam również zapoznać się z naszym szczegółowym samouczkiem na temat menedżera haseł Bitwarden:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9

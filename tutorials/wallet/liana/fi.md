@@ -27,7 +27,7 @@ Alla oleva kaavio havainnollistaa sellaisen salkun toimintaa, jossa on kaksi men
 Tämän toiminnon avulla voit määrittää erilaisia kokoonpanoja, kuten :
 
 
-- Perintösuunnitelma, jonka avulla perilliset voivat periä varat takaisin käyttäjän kuollessa. Jos haluat lisätietoja tästä aiheesta, suosittelemme BTC102-kurssin [osa 4](https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) lukemista.
+- Perintösuunnitelma, jonka avulla perilliset voivat periä varat takaisin käyttäjän kuollessa. Jos haluat lisätietoja tästä aiheesta, suosittelemme BTC102-kurssin [osa 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) lukemista.
 - Vahvistettu varmuuskopio, jossa on palautumisaika, jolloin käyttäjä voi käyttää lompakkoaan ilman, että hänen tarvitsee säilyttää vastaavaa salaista lausetta ja ottaa riskin, että se varastetaan esimerkiksi murtovarkauden aikana.
 - Turvaverkko ihmisille, jotka aloittavat Bitcoinin käytön: he hallinnoivat omaa lompakkoaan, ja heidän "holhoojansa" (esimerkiksi sukulainen) pidättää itselleen oikeuden periä heidän varansa takaisin tietyn ajan kuluttua.
 - Monen osapuolen allekirjoitusjärjestelmä (*multisig*), jonka vaatimuksia vähennetään ajan myötä, jotta voidaan selviytyä yhden tai useamman osallistujan, esimerkiksi yrityksen yhteistyökumppanien, katoamisesta.
@@ -45,11 +45,11 @@ Tässä oppaassa laadimme seuraajasuunnitelman. Käytämme :
 
 - Ledger Nano S Plus, jokapäiväisiä menoja varten;
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - Blockstream Jade, jota käytetään varojen takaisinperintään;
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - Kaksi tallennusvälinettä (USB-muistitikkuja) salkun kuvaajan tallentamista varten;
 - Perintäkirje, jossa on ohjeet varojen takaisinperinnästä;
@@ -63,7 +63,7 @@ Käy virallisella Wizardsardine-sivustolla ja lataa Liana osoitteessa https://wi
 
 Jos haluat tietää, miten ohjelmiston aitous ja eheys voidaan tarkistaa manuaalisesti ennen asennusta, suosittelemme tutustumaan tähän ohjeeseen :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Asenna ohjelmisto koneellesi ja käynnistä se. Valitse "*Luo uusi Liana-lompakko*" -vaihtoehto määrittääksesi lompakkosi.
 
@@ -193,7 +193,7 @@ Voit tarkistaa varojesi vanhentumistilan siirtymällä "*Coins*"-välilehdelle. 
 
 Jos haluat ymmärtää paremmin Bitcoinissa käytettyä UTXO-edustusmallia, voit tutustua Loïc Morelin kirjoittaman Bitcoinin luottamuksellisuutta käsittelevän kurssin ensimmäiseen osaan:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Juoksevat menot
 
@@ -338,6 +338,6 @@ Tämän salkun luomat skriptit ovat seuraavanlaisia:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Koska Bitcoin-lompakkosi turvallisuus riippuu myös siitä, ymmärrätkö, miten se toimii, suosittelen, että opiskelet determinististen ja hierarkkisten lompakoiden mekanismeja syvällisesti osallistumalla tälle ilmaiselle koulutuskurssille Plan ₿ Network :
+Koska Bitcoin-lompakkosi turvallisuus riippuu myös siitä, ymmärrätkö, miten se toimii, suosittelen, että opiskelet determinististen ja hierarkkisten lompakoiden mekanismeja syvällisesti osallistumalla tälle ilmaiselle koulutuskurssille Plan ₿ Academy :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

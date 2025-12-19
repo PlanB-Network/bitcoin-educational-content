@@ -9,7 +9,7 @@ description: GitHub'da kendi hesabınızı nasıl oluşturabilirsiniz?
 Plan ₿'ın misyonu, Bitcoin hakkında mümkün olduğunca çok dilde mevcut olan üst düzey eğitim kaynakları sağlamaktır. Sitede yayınlanan tüm içerik açık kaynaklıdır ve GitHub'da barındırılmaktadır, bu da herkese platformun zenginleştirilmesine katkıda bulunma fırsatı sunmaktadır. Katkılar çeşitli şekillerde olabilir: mevcut metinlerin düzeltilmesi ve redaksiyonu, diğer dillere çeviriler, bilgilerin güncellenmesi veya sitemizde henüz bulunmayan yeni eğitimlerin oluşturulması.
 
 
-Plan ₿ Network'e katkıda bulunmak istiyorsanız, Git ve GitHub kullanmanız gerekecek, bu nedenle, bu araçlar size yabancı geliyorsa veya işleyişleri belirsiz görünüyorsa panik yapmayın, bu makale tam size göre! Git ve GitHub'ın temellerini ve ilgili teknik jargonu birlikte gözden geçirerek daha sonra bunları etkili bir şekilde kullanmanızı sağlayacağız.
+Plan ₿ Academy'e katkıda bulunmak istiyorsanız, Git ve GitHub kullanmanız gerekecek, bu nedenle, bu araçlar size yabancı geliyorsa veya işleyişleri belirsiz görünüyorsa panik yapmayın, bu makale tam size göre! Git ve GitHub'ın temellerini ve ilgili teknik jargonu birlikte gözden geçirerek daha sonra bunları etkili bir şekilde kullanmanızı sağlayacağız.
 
 
 ## Git nedir?
@@ -27,7 +27,7 @@ Git'in temel özelliklerinden biri dal yönetimidir. Dal, geliştiricilerin proj
 
 Git'in özelliklerinden biri de dağıtılmış bir şekilde çalışabilmesidir. Her geliştiricinin kendi bilgisayarının Hard sürücüsünde projenin tam bir kopyası vardır, bu da çevrimdışı çalışmalarına ve daha sonra bir İnternet bağlantısı mevcut olduğunda değişiklikleri birleştirmelerine olanak tanır. Bu, çakışma riskini azaltır ve birden fazla geliştiricinin aynı proje üzerinde birbirlerinin ayak parmaklarına basmadan aynı anda çalışmasına olanak tanır.
 
-Başlangıçta Git öncelikle yazılım geliştirme projeleri için tasarlanmıştır. Ancak, içerik yazma projelerini yönetmek için de kullanılabilir. Kod üzerinde işbirliği yapmak yerine metin üzerinde işbirliği yapıyoruz. İşte Plan ₿ Network'ün içeriğini yönetmek için benimsediği yöntem de tam olarak bu! Git, değişikliklerin hassas bir şekilde izlenmesine, verimli sürüm yönetimine ve ayrıca içeriğin diğer katılımcılar tarafından gözden geçirilmesine ve geliştirilmesine olanak tanıdığı için kurslar ve eğitimler yazarken işbirliğini kolaylaştırır.
+Başlangıçta Git öncelikle yazılım geliştirme projeleri için tasarlanmıştır. Ancak, içerik yazma projelerini yönetmek için de kullanılabilir. Kod üzerinde işbirliği yapmak yerine metin üzerinde işbirliği yapıyoruz. İşte Plan ₿ Academy'ün içeriğini yönetmek için benimsediği yöntem de tam olarak bu! Git, değişikliklerin hassas bir şekilde izlenmesine, verimli sürüm yönetimine ve ayrıca içeriğin diğer katılımcılar tarafından gözden geçirilmesine ve geliştirilmesine olanak tanıdığı için kurslar ve eğitimler yazarken işbirliğini kolaylaştırır.
 
 
 ## GitHub nedir?
@@ -46,7 +46,7 @@ Git'i, her geliştiricinin projesindeki tüm değişiklikleri kaydetmek için ke
 Git ve GitHub arasındaki temel fark işlevlerinde yatmaktadır: Git, kod sürümlerini yönetmek için her geliştirici tarafından yerel olarak kullanılan bir araçtır; GitHub ise bu sürümleri barındıran ve işbirliğini kolaylaştıran çevrimiçi bir platformdur.
 
 
-GitHub bir kod barındırma hizmetinden çok daha fazlasıdır. Geliştiricilerin birlikte verimli bir şekilde çalışmasını sağlayan bir işbirliği platformudur. Ve gerçekten de Plan ₿ Network bu platformu sadece web sitesine güç veren tüm kodları değil, aynı zamanda bizi ilgilendiren tüm içeriği (öğreticiler, eğitimler, kaynaklar...) barındırmak için kullanıyor.
+GitHub bir kod barındırma hizmetinden çok daha fazlasıdır. Geliştiricilerin birlikte verimli bir şekilde çalışmasını sağlayan bir işbirliği platformudur. Ve gerçekten de Plan ₿ Academy bu platformu sadece web sitesine güç veren tüm kodları değil, aynı zamanda bizi ilgilendiren tüm içeriği (öğreticiler, eğitimler, kaynaklar...) barındırmak için kullanıyor.
 
 
 ## Bazı Teknik Terimler
@@ -106,7 +106,7 @@ Bu makaleyi okuduktan sonra, Git ve GitHub'ın bazı yönleri sizin için hala b
 ## GitHub hesabı nasıl oluşturulur
 
 
-PlanB Network'e katkıda bulunmak istiyorsanız, bir GitHub hesabına ihtiyacınız olacak. Bu eğitimde, kendi hesabınızı nasıl oluşturacağınız, kuracağınız ve düzgün bir şekilde güvence altına alacağınız konusunda size adım adım rehberlik edeceğiz.
+Plan ₿ Academy'e katkıda bulunmak istiyorsanız, bir GitHub hesabına ihtiyacınız olacak. Bu eğitimde, kendi hesabınızı nasıl oluşturacağınız, kuracağınız ve düzgün bir şekilde güvence altına alacağınız konusunda size adım adım rehberlik edeceğiz.
 
 
 

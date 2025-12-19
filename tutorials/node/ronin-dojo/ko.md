@@ -14,7 +14,7 @@ description: 로닌도조 Bitcoin 노드 설치 및 사용.
 
 이 튜토리얼은 로닌도조 v1 설치에 관한 것입니다. 최신 개선 사항과 기능을 활용하려면 라즈베리파이에 로닌도조 v2를 직접 설치하는 튜토리얼을 참조하는 것이 좋습니다:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

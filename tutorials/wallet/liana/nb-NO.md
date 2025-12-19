@@ -27,7 +27,7 @@ Diagrammet nedenfor illustrerer hvordan en portefølje med to utgiftsbaner funge
 Denne operasjonen lar deg sette opp ulike konfigurasjoner, inkludert :
 
 
-- En arveplan som gjør det mulig for arvingene å få tilbake midler i tilfelle brukerens død. For mer informasjon om dette emnet anbefaler vi at du leser [del 4] (https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kurset.
+- En arveplan som gjør det mulig for arvingene å få tilbake midler i tilfelle brukerens død. For mer informasjon om dette emnet anbefaler vi at du leser [del 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kurset.
 - En forsterket sikkerhetskopi med gjenopprettingstid, noe som gir brukeren mulighet til å bruke lommeboken uten å måtte oppbevare den tilhørende hemmelige frasen og risikere at den blir stjålet, for eksempel under et innbrudd.
 - Et sikkerhetsnett for folk som begynner med Bitcoin: De vil administrere sin egen lommebok, og deres "verge" (for eksempel en slektning) vil forbeholde seg retten til å få tilbake pengene deres etter en gitt periode.
 - En flerpartssignaturordning (*multisig*) med reduserte krav over tid, for å håndtere at en eller flere av deltakerne forsvinner, for eksempel et selskaps partnere.
@@ -45,11 +45,11 @@ I denne veiledningen skal vi sette opp en etterfølgerplan. Vi kommer til å bru
 
 - En Ledger Nano S Plus, til hverdagslige utgifter;
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
 - En Blockstream Jade, som brukes til å inndrive midler;
 
-https://planb.network/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
+https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9b731dabc3
 
 - To lagringsmedier (USB-minnepinner) for å lagre porteføljebeskrivelsen;
 - Et arvebrev med instruksjoner om hvordan midlene skal inndrives;
@@ -63,7 +63,7 @@ Besøk det offisielle Wizardsardine-nettstedet og last ned Liana på https://wiz
 
 For å finne ut hvordan du manuelt verifiserer ektheten og integriteten til programvaren før installasjon, anbefaler vi at du konsulterer denne veiledningen :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Installer programvaren på maskinen din og start den. Velg alternativet "*Opprett en ny Liana-lommebok*" for å konfigurere lommeboken din.
 
@@ -193,7 +193,7 @@ Du kan sjekke utløpsstatusen til midlene dine ved å gå til "*Coins*"-fanen. D
 
 For å bedre forstå UTXO-representasjonsmodellen som brukes i Bitcoin, kan du konsultere den første delen av kurset om konfidensialitet i Bitcoin skrevet av Loïc Morel :
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Løpende utgifter
 
@@ -338,6 +338,6 @@ Skriptene som opprettes av denne porteføljen, vil ha følgende form:
 <primary_key> CHECKSIG IFDUP NOTIF DUP HASH160 <recovery_key_hash> EQUALVERIFY CHECKSIGVERIFY <locktime> CHECKSEQUENCEVERIFY ENDIF
 ```
 
-Siden sikkerheten til Bitcoin-lommeboken din også avhenger av din forståelse av hvordan den fungerer, foreslår jeg at du studerer mekanismene til deterministiske og hierarkiske lommebøker i dybden ved å ta dette gratis opplæringskurset på Plan ₿ Network :
+Siden sikkerheten til Bitcoin-lommeboken din også avhenger av din forståelse av hvordan den fungerer, foreslår jeg at du studerer mekanismene til deterministiske og hierarkiske lommebøker i dybden ved å ta dette gratis opplæringskurset på Plan ₿ Academy :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

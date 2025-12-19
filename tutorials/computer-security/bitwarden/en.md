@@ -16,7 +16,7 @@ Applying these two password security principles (uniqueness and robustness) can 
 
 A password manager generates and securely stores strong passwords, allowing you to access all your online accounts without the need to memorize them individually. You only need to remember one password, the master password, which gives you access to all your saved passwords in the manager. Using a password manager enhances your online security because it prevents the reuse of passwords and systematically generates random passwords. But it also simplifies your daily use of your accounts by centralizing access to your sensitive information.
 In this tutorial, we will explore how to set up and use a password manager to enhance your online security. I will introduce you to Bitwarden, and in another tutorial, we will look into another solution called KeePass.
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 Warning: A password manager is great for storing passwords, but **you should never store your Bitcoin wallet's mnemonic phrase in it!** Remember, a mnemonic phrase should be exclusively saved in a physical format, like a piece of paper or metal.
 
@@ -69,9 +69,9 @@ First and foremost, I strongly advise you to set up two-factor authentication (2
 
 If you are unsure how to set up and use these 2FA devices, I recommend following these 2 other tutorials:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 To do this, go to the "*Security*" tab in the "*Settings*" menu.
 ![BITWARDEN](assets/notext/14.webp)
@@ -102,7 +102,7 @@ Now that your password manager is configured, you can start storing the credenti
 ![BITWARDEN](assets/notext/25.webp)
 In the form that opens, start by determining the nature of the item to be saved. To store login credentials, choose the "*Login*" option from the dropdown menu.
 ![BITWARDEN](assets/notext/26.webp)
-In the "*Name*" field, enter a descriptive name for your credentials. This will make it easier to search for and organize your passwords, especially if you have a large number. For example, if you want to save your credentials for the PlanB Network site, you can name this item in a way that makes it immediately recognizable during your future searches.
+In the "*Name*" field, enter a descriptive name for your credentials. This will make it easier to search for and organize your passwords, especially if you have a large number. For example, if you want to save your credentials for the Plan ₿ Academy site, you can name this item in a way that makes it immediately recognizable during your future searches.
 ![BITWARDEN](assets/notext/27.webp)
 The "*Folder*" option allows you to classify your credentials into folders. For now, we haven't created any yet, but I will show you how to do so later.
 ![BITWARDEN](assets/notext/28.webp)
@@ -131,7 +131,7 @@ Then click on "*Save*".
 ![BITWARDEN](assets/notext/40.webp)
 Your folder now appears in your manager.
 ![BITWARDEN](assets/notext/41.webp)
-You can assign a folder to an identifier when creating it, as we did previously, or by modifying an existing identifier. For example, by clicking on my identifier for PlanB Network, I can then choose to classify it in the "*Bitcoin*" folder.
+You can assign a folder to an identifier when creating it, as we did previously, or by modifying an existing identifier. For example, by clicking on my identifier for Plan ₿ Academy, I can then choose to classify it in the "*Bitcoin*" folder.
 ![BITWARDEN](assets/notext/42.webp)
 This way, you can structure your password manager to make it easier to find your identifiers. You can organize them with folders such as personal, professional, banks, emails, social networks, subscriptions, shopping, administration, streaming, storage, travel, health, etc.
 If you prefer to use only the web version of Bitwarden, it is entirely possible to stick with that. I then recommend adding your password manager to your browser's favorites for easy access and to avoid phishing risks. However, Bitwarden also offers a full range of clients allowing you to use your manager on various devices and to simplify its daily use. They notably offer a mobile app, a browser extension, and desktop software. Let's see how to set them up together.
@@ -176,12 +176,12 @@ You are now connected to your Bitwarden manager through the browser extension.
 
 ![BITWARDEN](assets/notext/51.webp)
 
-For example, if I go back to the PlanB Network site and try to log into my account, you can see that the Bitwarden extension integrated into the browser recognizes the login fields and automatically offers me to select the identifier I previously saved.
+For example, if I go back to the Plan ₿ Academy site and try to log into my account, you can see that the Bitwarden extension integrated into the browser recognizes the login fields and automatically offers me to select the identifier I previously saved.
 
 ![BITWARDEN](assets/notext/52.webp)
 If I select this identifier, Bitwarden fills in the login fields for me. This feature of the extension allows for quick connection to websites, without the need to copy-paste credentials from the Bitwarden web application or software.
 ![BITWARDEN](assets/notext/53.webp)
-The extension is also designed to detect the creation of new accounts. For example, when creating a new account on PlanB Network, Bitwarden automatically suggests saving the new identifier.
+The extension is also designed to detect the creation of new accounts. For example, when creating a new account on Plan ₿ Academy, Bitwarden automatically suggests saving the new identifier.
 ![BITWARDEN](assets/notext/54.webp)
 By clicking on this suggestion that appears, the extension opens. It allows me to enter the details of the new identifier and generate a strong, unique password.
 ![BITWARDEN](assets/notext/55.webp)

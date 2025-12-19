@@ -137,11 +137,11 @@ Ubu urashobora gukoresha porogarama Interface.
 Imbere y’uko utangura, nimba Ledger yawe ari nshasha, urabe neza ko washizeho kode ya PIN kandi ukabika ijambo ry’ugusubirana. Ntukeneye Ledger Live kuri izo ntambwe z’intango. Gusa n’ushobora gufatanya Ledger yawe biciye ku nzira ya USB kugira ngo uyihe ubushobozi. Niba utazi neza ingene wogenda muri izo ntambwe zibiri, ushobora kuraba intango y'inyigisho yihariye ku citegererezo cawe:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## Gukoresha Bacca
 
@@ -197,4 +197,4 @@ Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu r
 Ndagusavye kandi urabe iyi nyigisho kuri GnuPG, isigura ingene wosuzuma ubutungane n’ukuri kwa porogarama yawe imbere yo kuyishiramwo. Ivyo ni ibikorwa bihambaye cane cane iyo ushizeho porogarama yo gucunga Wallet nka Liana canke Sparrow :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc

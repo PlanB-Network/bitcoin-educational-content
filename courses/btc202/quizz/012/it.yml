@@ -1,0 +1,9 @@
+question: Quale fase fa parte del ruolo di un minore?
+answer: Costruire un blocco candidato da Mempool
+wrong_answers:
+  - Convalidare l'intero Blockchain da Mempool
+  - Creare indirizzi Bitcoin per gli utenti
+  - Memorizzare le chiavi private per i portafogli
+explanation: |
+  Un Miner seleziona le transazioni dal Mempool e costruisce un blocco candidato, che tenta di convalidare da parte del Proof of Work.
+reviewed: true

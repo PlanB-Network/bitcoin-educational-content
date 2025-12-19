@@ -31,7 +31,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: de
     last_contribution_date:
     urgency: 1
@@ -46,12 +46,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: fr
     last_contribution_date:
     urgency: 1
@@ -77,12 +77,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -100,10 +100,11 @@ proofreading:
       - Sanja22B
     reward: 1.36
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 2.72
+      - Tinnah924
+    reward: 1.36
   - language: vi
     last_contribution_date:
     urgency: 1
@@ -123,7 +124,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -133,7 +134,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 2.72
   - language: tr
     last_contribution_date:
     urgency: 1
@@ -143,9 +144,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.72
+    reward: 3.38
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 4.04
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.72

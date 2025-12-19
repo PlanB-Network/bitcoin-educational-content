@@ -1,0 +1,9 @@
+question: Warum braucht ein Miner einen Bitcoin-Knoten?
+answer: Um mit dem Netzwerk zu interagieren und Ihre Blöcke zu verteilen
+wrong_answers:
+  - Zu generate digitale Signaturen
+  - So geben Sie Ihre Lieferung Address in den Coinbase Transaction ein
+  - Um den Schwierigkeitsgrad von Mining zu verringern
+explanation: |
+  Miner verwenden einen Knoten, um mit dem Netzwerk zu kommunizieren, ihre Blöcke zu übertragen und Transaktionen zu empfangen.
+reviewed: true

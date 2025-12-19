@@ -568,7 +568,7 @@ Ariko rero, ukwo guhagarika inyungu birazana igiciro: Bituma umutungo ushobora k
 Ico gikorwa co gufatanya ntikigenda neza nk’uko vyategekanijwe...
 
 
-![image](assets/1.webp)
+![image](assets/en/001.webp)
 
 
 Igishushanyo [Ideni n'Igihugu](https://www.imigenderanire y'igihe kirekire.net/us-imyenda-ku-Gdp/)
@@ -647,7 +647,7 @@ Igishushanyo: Ibikorwa hakurikijwe umugwi w’itunga ([Itunga](Itunga](%5EGSPC/a
 Kubera iyo nzira y’ugusubira inyuma kw’imishahara ku bici- ro vy’itunga, twabonye kimwe mu bihe bikomeye cane vy’uguhindura ubutunzi buva mu rwego rwo hasi buja mu rwego rwo hejuru mu mateka ya vuba .
 
 
-![image](assets/2.webp)
+![image](assets/en/002.webp)
 
 
 Igishushanyo: Umugabane w'Igitigiri cose [Agaciro] (uruhererekane/WFRBSN40188#0.)
@@ -1709,7 +1709,7 @@ Nk’uko inkuru ya Adanna yerekanye, ugutera imbere kw’ibiciro ni ikintu kibab
 Kugira ngo tugaragaze ingaruka z’ugutera imbere kw’ibiciro kw’imirongo ibiri, ugutera imbere kw’ibiciro kw’ibice 10%, nk’uko vyashikiye Uburayi mu kwezi kwa Gitugutu 2022, vyoba bisobanura ko ubushobozi bwo kugura butakaza 61,5% mu myaka cumi.
 
 
-![image](assets/3.webp)
+![image](assets/en/003.webp)
 
 
 _**Igishushanyo:** Ingaruka z'Iterambere ry'Ibiciro ku Gugura [Ububasha](https://anilsaidso.gumroad.com/)_
@@ -2138,7 +2138,7 @@ Ariko ubu abahingura inguvu barafise uburyo bwo gukoresha neza izo nguvu zicitse
 Ubwa nyuma, abacukuzi b’amabuye y’agaciro ba Bitcoin baravyurirwa umutima wo kurondera ingufu zitazimvye kuko inyungu zabo zivana n’igiciro c’inguvu. Ku bw’ivyo, bararondera n’umwete inguvu zipfutse canke ubundi bwoko bw’inguvu iyo zitakoreshwa. Akarorero kamwe gahambaye ni gaze y’umuriro, iyo gaze isohoka iyo amashirahamwe y’amavuta ya peteroli akuye amavuta mu butaka. Gaz y’umuriro ni ikintu kiva muri iyo nzira kandi akenshi iraturirwa kubera amahera menshi ajanye no kuyifata. Uwo mugenzo uzwi kw’izina ry’ugusha, ntutuma gusa umuntu atakaza inguvu, ariko kandi urarekura metane n’ibindi bidukikije bitandukanye mu kirere.
 
 
-![image](assets/4.webp)
+![image](assets/en/004.webp)
 
 
 _**Igishushanyo:** Igikoresho co gutera umuriro [Gaz](2022/09/ugutera umuriro-mu-inganda-ya-amavuta-nti-gikora-bike-kuru-kw'inyigisho-y'ivyiyumviro/)_
@@ -2351,7 +2351,7 @@ Ariko mu myaka iheze, Bitcoin yaraserutse nk’igikoresho gikomeye co guha ubush
 Mu gihe isi yose yariko iraraba n’ubwoba bwinshi igihe aba Taliban bafata ubutegetsi bwa Afghanistan mu 1914. 1996, kuba mu mutima w’intambara. Yari afise imyaka indwi gusa, yasanze afashwe n’umuvurungano n’ukudakeka kw’intambara igihe igisagara ciwe c’amavukiro cariko kiraterwa n’Abatalibani maze kigafatwa. Naho yari afise akaga n’amagorwa, hejuru y’uko atashobora kuja kw’ishure, Roya yaranse gutsindwa. Ahubwo yaciye afata inyigisho nk’uburyo bwo gutsinda imipaka yari yamushizeko kubera ukuntu ivyari vyifashe.
 
 
-![image](assets/5.webp)
+![image](assets/en/005.webp)
 
 
 **Igishushanyo:** [Roya Mahboob]
@@ -2439,7 +2439,7 @@ Nyir'ikawa, muri Vietnam
 “Ku cafe yanje mu karere ka Binh Thanh, turafasha abakiri bato n’abagenzi baza rimwe na rimwe, tugatanga ibinyobwa bitandukanye, harimwo ikawa, ibinyobwa vya Soft, n’ibinyobwa bimota neza. twebwe n’uburyo bwiza bwo gukuraho ikinogo c’amafaranga no kwakira abaguzi bacu bo kw’isi yose kenshi baratangazwa n’ukuntu twiyuguruye kwemera kwishura amafaranga y’amahera y’amahera, bikasiga ikimenyetso kiramvye ku bumenyi bwabo.”
 
 
-![image](assets/6.webp)
+![image](assets/en/006.webp)
 
 Umuvyeyi Ratchaphokhinpiti
 
@@ -2449,7 +2449,7 @@ Yararuhutse, muri Tayilande
 "USDt yahinduye cane uburyo narungika amahera ku mahanga. Nk'umuntu akukurutse, nahora nizigira amabarabara ya banki agenda buhoro. Kubera USDt, ubu ndashobora kohereza amahera ata ngorane biciye ku gikoresho ca digitale Exchange. Mu minota 30, mushikanje yararonse ayo mahera.
 
 
-![image](assets/7.webp)
+![image](assets/en/007.webp)
 
 Jami Tran
 
@@ -2459,7 +2459,7 @@ Umwigisha w'ipiyano, muri Vietnam
 "Kwohereza amahera incuti zanje zo mu mahanga vyari ngombwa kenshi, yamara igikorwa co guhindura amahera ku masoko yo mu gihugu caragaragaye ko gitwara umwanya kandi kizimvye. Kugira ngo Address izo ngorane, namenyesheje incuti zanje ukuntu bimeze neza gukoresha USDt. Hamwe na USDt, ubu turaronka uburyo bwo kwohereza amafaranga mu mahanga, tukamenya ko abakundwa bacu bashobora gufashwa neza kandi bitazimvye."
 
 
-![image](assets/8.webp)
+![image](assets/en/008.webp)
 
 Abaroma
 
@@ -2469,7 +2469,7 @@ Umurusiya aba muri Vietnam
 "Ntuye muri Vietnam, kenshi kohereza Tether ku ncuti zanje na bavyaranje mu Burusiya. Kwohereza amahera mu mahanga nkoresheje Tether nta ngorane ugereranyije n'ugukoresha uburyo bwa kera bwo gukoresha banki. Nta gusura banki, ivyangombwa vyemewe, canke insobanuro bisabwa. Nta mipaka yo kohereza, amafaranga make, n'ibikorwa vyihuta n'amahera."
 
 
-![image](assets/9.webp)
+![image](assets/en/009.webp)
 
 Luyisi Grateriyoli
 
@@ -2479,7 +2479,7 @@ Ivyumvikana n'amashusho, Venezuela
 "Izina ryanje ni Luis Graterol, kandi Tether yaramfashije gukingira amahera nari nazigamye mu bundi buryo. Muri Venezuela, turababazwa n'ugutera imbere kw'ibiciro, kandi Tether yarafashije cane. Ugukoreshwa kwayo ni kworoshe, kandi kenshi, urashobora gukora amafaranga ataco utanga. kuva nabona ko vyoroshe, ndaronka amahera yanje ku madolari y’Amerika, kandi nkazigama amahera y’aho hantu arambiranye agira ico akoze kuri benshi muri twebwe!”
 
 
-![image](assets/10.webp)
+![image](assets/en/010.webp)
 
 Igihugu c'i Dubraska
 
@@ -2489,7 +2489,7 @@ Umuyobozi mukuru w'igisagara ca Caracas, muri Venezuela
 "Ndi uwo muri Venezuela kandi mfise ubucuruzi buto bwo gutanga ibifungurwa vyo mu gitondo. Tether USDt yabaye umuti mwiza w'ingorane y'amahera y'umubiri kuri jewe. USDt kandi yaramfashije mu vyo nazigamye kuko iyo nzoba mfise amakonte yanje y'ubucuruzi muri Bolivar ya Venezuela, sinari gushobora gutegura imbere y'igihe ivy'ugukura kw'agaciro k'ibifungurwa vyanje kubera"
 
 
-![image](assets/11.webp)
+![image](assets/en/011.webp)
 
 Marisela Romero
 
@@ -2499,7 +2499,7 @@ Umuyobozi w'ivy'ubudandaji n'ubucuti n'abantu, muri Guanacaste, muri Kosta Rika
 "Haciye imyaka mike, nimukiye mu gihugu c'umugabo wanje. Kubera ikiza c'indwara ya Coronavirus, narashikiwe n'ikibazo kidasanzwe co kwimuka, bituma ntegerezwa kurindira igihe kirekire kugira ngo nshobore kuba mu gihugu canke ngo nshobore kuronka ubwenegihugu. Naramaze imyaka hafi itatu ntashobora kuronka konti muri banki kandi ntashobora gukora mu buryo butegekanijwe n'amategeko mu gihugu. career remotely n’amashirahamwe mpuzamakungu.Kubera Tether, ndashobora guca nsubiza amahera muhira ata n’amahera menshi nkoresha canke ngo ntevye, Tether yarashoboje gukurikirana imigambi yanje y’umwuga no kuguma mfise ubwigenge mu vy’amahera naho Leta yoba yanbujije.”
 
 
-![image](assets/12.webp)
+![image](assets/en/012.webp)
 
 Simoneti Gomezi
 
@@ -2509,7 +2509,7 @@ Injeniyeri wa QA, muri Venezuela, aba muri Argentine
 “Yambu, izina ryanje ni Simoneth Gomez. Ndi uwo muri Venezuela, ariko ubu mba i Buenos Aires, aho nkora nk’umuhinga mu bijanye n’ubuhinga bwa none. kubera ko nategerezwa kuja muri iyo nzira ku \$5 canke \$10 muri bisi, narashoboye kuyitorera umuti ndi ku meza yanje mu minota ibiri”
 
 
-![image](assets/13.webp)
+![image](assets/en/013.webp)
 
 Karilosi Kabayero
 
@@ -2519,7 +2519,7 @@ Umuhinga mu vy'umutima, muri Argentine
 "Tether yabaye umuti wanshoboje kubandanya nkora umwuga wanje mu myaka y'ikiza. Kuba ari ifaranga ry'idolari rituma rigira agaciro mpuzamakungu. Kandi ugushikama kwayo n'umutekano wayo ku bijanye n'uguhinduka kw'ayandi mafaranga y'ibanga ni imvo nyamukuru yatumye ndayihitamwo."
 
 
-![image](assets/14.webp)
+![image](assets/en/014.webp)
 
 Heloya Paso
 
@@ -2529,7 +2529,7 @@ Umuyobozi mukuru w'imikino ya Sp4ce, Brezil
 "Namaze nk'imyaka itanu nkorera kure mu masosiyete mpuzamakungu, kandi igice kinini c'ico gihe, narababazwa n'inyungu nyinshi zivuye mu mabanki y'igihugu, asaba igiciro kinini c'ijanisha ku mafaranga yose yoherezwa mpuzamakungu, uretse n'igihe co kurindira kwishura biciye ku nzira ya Swift (nk'amasaha 24 y'umushahara wanje). umwanya n'amahera natanguye kuzigama mu kwishurwa gusa mu madolari y'Amerika."
 
 
-![image](assets/15.webp)
+![image](assets/en/015.webp)
 
 Samweli
 
@@ -2539,7 +2539,7 @@ Ishirahamwe ry'ubudandaji, Nijeriya
 “Gukoresha USDt vyarokoye ubucuruzi bwacu umwanya mwinshi kuko, nk’ubucuruzi bwo muri Nijeriya kuronka USD bisaba kuja muri banki yacu mu gihe umara umwanya w’agaciro wuzuza amafomu no guhagarara ku murongo amasaha menshi kugira ngo ukure canke kohereze.
 
 
-![image](assets/16.webp)
+![image](assets/en/016.webp)
 
 Yosuwa
 
@@ -2549,7 +2549,7 @@ Umunyeshure, Nijeriya
 "Tether yaramfashije mu buryo bwinshi. Gutunga muri Tether vyaramfashije gutsinda umubabaro w'ugutera imbere kw'ibiciro mu gihugu, kandi vyaramfashije kugabanya amahera nkoresha ubusa. Kandi, bifasha amahera nazigamye kuguma afise agaciro kuko ntashikirwa nabi n'ugucika kw'agaciro k'i Naira."
 
 
-![image](assets/17.webp)
+![image](assets/en/017.webp)
 
 Esiteri
 

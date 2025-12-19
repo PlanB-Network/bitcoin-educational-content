@@ -1,0 +1,9 @@
+question: 2025 में Bitcoin नोड के लिए अनुशंसित न्यूनतम SSD क्षमता क्या है?
+answer: 2 से
+wrong_answers:
+  - 512 जीबी
+  - 10 से
+  - 256 जीबी
+explanation: |
+  700 जीबी से अधिक Blockchain और अतिरिक्त अनुप्रयोगों के साथ, 2 टीबी उचित न्यूनतम हो गया है।
+reviewed: true

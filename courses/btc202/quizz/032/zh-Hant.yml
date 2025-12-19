@@ -1,0 +1,9 @@
+question: 當今市場上哪種節點盒解決方案居於領導地位？
+answer: 傘
+wrong_answers:
+  - 開始9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel 是最受歡迎的 node-in-a-box 解決方案，這要歸功於其簡易的安裝方式和豐富的 App Store。
+reviewed: true

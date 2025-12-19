@@ -1,0 +1,9 @@
+question: Quel problème le Bitcoin a-t-il résolu alors que les monnaies numériques précédentes n'y étaient pas parvenues ?
+answer: Le problème double-spending de manière décentralisée
+wrong_answers:
+  - Le problème du cryptage dans les réseaux peer-to-peer
+  - Le problème du stockage des transactions numériques
+  - Le problème de la rapidité des paiements en ligne
+explanation: |
+  La percée de Bitcoin a consisté à résoudre le problème double-spending sans nécessiter d'autorité centrale. Le problème double-spending consiste à empêcher quelqu'un de dépenser deux fois la même pièce numérique. Les monnaies numériques précédentes ont échoué parce qu'elles reposaient sur des serveurs centraux ou des autorités de confiance, ce qui les rendait vulnérables à la censure et aux points de défaillance uniques. Le Bitcoin a résolu ce problème grâce à son serveur d'horodatage distribué pair-à-pair utilisant le proof-of-work, permettant au réseau de se mettre d'accord sur l'ordre des transactions sans aucun contrôle central.
+reviewed: false

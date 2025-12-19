@@ -1,0 +1,8 @@
+question: Quelle est la principale différence entre la manière dont les violations d'emprunt sont traitées avec les références Rust ordinaires et RefCell ?
+answer: Les références régulières provoquent des erreurs de compilation, tandis que RefCell provoque des paniques d'exécution
+wrong_answers:
+  - Les références régulières provoquent des paniques au moment de l'exécution, tandis que RefCell provoque des erreurs au moment de la compilation
+  - Les références régulières permettent de multiples emprunts mutables, tandis que RefCell impose un accès mutable unique
+  - Les références régulières nécessitent des annotations explicites sur la durée de vie, tandis que RefCell utilise un nettoyage automatique
+explanation: |
+  RefCell déplace l'application de la règle d'emprunt de Rust du moment de la compilation au moment de l'exécution. Alors que le compilateur analyse statiquement les références régulières et empêche les violations d'emprunt avant l'exécution du programme, RefCell effectue ces mêmes contrôles de sécurité pendant l'exécution du programme. Cela permet à RefCell de contourner les restrictions conservatrices du compilateur dans les cas où le programmeur sait que le code est sûr, mais où les violations entraînent des paniques à l'exécution au lieu d'échecs de compilation.

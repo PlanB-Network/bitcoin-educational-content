@@ -1,14 +1,11 @@
 ---
-name: RGB-protokollet, från teori till praktik
+name: RGB-programmering
 goal: Förvärva de färdigheter som krävs för att förstå och använda RGB
-objectives: 
-
-  - Förstå de grundläggande begreppen i RGB-protokollet
-  - Behärska principerna för Client-side Validation- och Bitcoin-åtaganden
-  - Lär dig hur du skapar, hanterar och överför RGB-kontrakt
-  - Hur man använder en RGB-kompatibel Lightning-nod
-
-
+objectives:
+- Förstå de grundläggande begreppen i RGB-protokollet
+- Behärska principerna för Client-side Validation- och Bitcoin-åtaganden
+- Lär dig hur du skapar, hanterar och överför RGB-kontrakt
+- Hur man använder en RGB-kompatibel Lightning-nod
 ---
 # Upptäcka RGB-protokollet
 
@@ -63,7 +60,7 @@ Det sista avsnittet leds av andra talare som presenterar konkreta RGB-baserade a
 Denna utbildningskurs växte ursprungligen fram ur ett tvåveckors bootcamp för avancerad utveckling i Viareggio, Toscana, organiserat av [Fulgur'Ventures] (https://fulgur.ventures/). Den första veckan, som fokuserade på Rust och SDK:er, finns i denna andra kurs:
 
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 I den här kursen fokuserar vi på den andra veckan i bootcampen, som fokuserar på RGB.
 
@@ -71,13 +68,13 @@ I den här kursen fokuserar vi på den andra veckan i bootcampen, som fokuserar 
 **Vecka 1 - LNP402:**
 
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 
 **Vecka 2 - Aktuell utbildning CSV402:**
 
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 
 Stort tack till arrangörerna av dessa livekurser och till de 3 lärare som deltog:
@@ -154,7 +151,7 @@ I världen av Blockchain och distribuerade datorsystem kan vi urskilja två grun
 I samband med Bitcoin är du utan tvekan bekant med principerna för Mining, decentralisering och slutgiltighet av transaktioner på Blockchain, samt hur betalningskanaler fungerar. Med RGB introducerar vi ett nytt paradigm som kallas **Client-side Validation**, som till skillnad från Blockchain eller Lightning består i att lokalt (på klientsidan) lagra och validera tillståndsövergångarna för en Smart contract. Detta skiljer sig också från andra "DeFi-tekniker" (_rollups_, _plasma_, _ARK_, etc.), där Client-side Validation förlitar sig på Blockchain för att förhindra Double-spending och för att ha ett tidsstämplingssystem, samtidigt som registret över off-chain-tillstånd och -övergångar endast hålls tillgängligt för de berörda deltagarna.
 
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 
 Senare kommer vi också att introducera en viktig term: begreppet "**Stash**", som hänvisar till den uppsättning data på klientsidan som krävs för att bevara tillståndet för en Contract, eftersom dessa data inte replikeras globalt över nätverket. Slutligen tittar vi på tanken bakom RGB, ett protokoll som drar nytta av Client-side Validation, och varför det kompletterar befintliga metoder (Blockchain och tillståndskanaler).
@@ -200,7 +197,7 @@ Statliga kanaler (som med Lightning Network) är mer skalbara och mer privata ä
 Det här nya paradigmet är ännu mer skalbart och mer konfidentiellt, eftersom vi inte bara kan integrera tekniker för proof-of-knowledge med nollavslöjande, utan det finns inte heller någon global graf över transaktioner, eftersom ingen har hela registret. Å andra sidan innebär det också en viss kompromiss när det gäller decentralisering: utfärdaren av en Smart contract kan ha en central roll (som en "Contract deployer" i Ethereum). Men till skillnad från Blockchain lagrar och validerar du med Client-side Validation bara de kontrakt du är intresserad av, vilket förbättrar skalbarheten genom att du slipper ladda ner och verifiera alla befintliga tillstånd.
 
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 
 #### 2. CAP-teoremet (Konsistens, Tillgänglighet, Partitionstolerans)
@@ -233,7 +230,7 @@ Ett system med statskanaler har tillgänglighets- och partitioneringstolerans (e
 Ett system som RGB erbjuder konsistens (varje deltagare validerar sina data lokalt, utan tvetydighet) och partitioneringstolerans (du behåller dina data självständigt), men garanterar inte global tillgänglighet (alla måste se till att de har de relevanta delarna av historien, och vissa deltagare kanske inte publicerar någonting eller slutar dela viss information).
 
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 
 #### 3. CIA-trilemmat (konfidentialitet, integritet, tillgänglighet)
@@ -242,7 +239,7 @@ Ett system som RGB erbjuder konsistens (varje deltagare validerar sina data loka
 Detta trilemma påminner oss om att konfidentialitet, integritet och tillgänglighet inte alla kan optimeras samtidigt. Blockchain, Lightning och Client-side Validation faller på olika sätt in i denna balans. Tanken är att inget enskilt system kan erbjuda allt; det är nödvändigt att kombinera flera metoder (Blockchain:s tidsstämpling, Lightnings synkrona metod och lokal validering med RGB) för att få ett sammanhängande paket som ger goda garantier i varje dimension.
 
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 
 ### Blockchain:s roll och begreppet sharding
@@ -273,13 +270,13 @@ Vi kan därför föreställa oss ekosystemet på följande sätt:
 - **RGB och Client-side Validation** för att lägga till mer komplex Smart contract-logik, utan att Blockchain blir överflödig eller förlorar konfidentialitet.
 
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 
 Dessa tre Elements bildar en triangulär helhet, snarare än en linjär stapel med "Layer 2", "Layer 3" och så vidare. Lightning kan ansluta direkt till Bitcoin eller vara associerad med Bitcoin-transaktioner som innehåller RGB-data. På samma sätt kan en "BiFi" (finans på Bitcoin) kombineras med Blockchain, med Lightning och med RGB beroende på behov av sekretess, skalbarhet eller Contract-logik.
 
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 
 ### Begreppet tillståndsövergångar
@@ -291,7 +288,7 @@ I alla distribuerade system är syftet med valideringsmekanismen att kunna **bes
 För att förstå hur denna validering fungerar i samband med **Bitcoin** och, mer allmänt, för att förstå filosofin bakom Client-side Validation, låt oss först ta en titt tillbaka på mekanismerna i Bitcoin Blockchain, innan vi ser hur Client-side Validation skiljer sig från dem och vilka optimeringar den möjliggör.
 
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 
 När det gäller Bitcoin Blockchain baseras transaktionsvalideringen på en enkel regel:
@@ -304,7 +301,7 @@ När det gäller Bitcoin Blockchain baseras transaktionsvalideringen på en enke
 - De lagrar dessa data (i form av block) så att historiken kan spelas upp på nytt vid behov.
 
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 
 Denna modell har dock två stora nackdelar:
@@ -316,7 +313,7 @@ Denna modell har dock två stora nackdelar:
 - **Sekretess**: allt sänds och lagras offentligt (belopp, destinationsadresser etc.), vilket begränsar sekretessen i utbytet.
 
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 
 I praktiken fungerar denna modell för Bitcoin som en bas Layer (Layer 1), men kan bli otillräcklig för mer komplexa användningar som samtidigt kräver hög transaktionsgenomströmning och en viss grad av sekretess.
@@ -331,7 +328,7 @@ Client-side Validation bygger på den motsatta idén: i stället för att kräva
 - Denna sekvens av transaktioner, från ***Genesis*** (första emissionen) till den senaste transaktionen, bildar en acyklisk riktad graf (DAG) eller Shard, dvs. en del av den totala historiken.
 
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 
 Samtidigt förlitar sig Client-side Validation på begreppet ***Commitment*** så att resten av nätverket (eller mer exakt, den underliggande Layer, såsom Bitcoin) kan låsa det slutliga tillståndet utan att se detaljerna i dessa data.
@@ -362,7 +359,7 @@ I konkreta termer fungerar en RGB State Transition så här:
 - Motparten (mottagaren) hämtar historiken på kundsidan som är kopplad till denna tillgång och kontrollerar att den är konsekvent från början till slut, från Genesis i Smart contract till den övergång som du sänder till den.
 
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 
 Client-side Validation erbjuder två stora fördelar:
@@ -390,7 +387,7 @@ I ett system som RGB kan flera tillståndsövergångar från olika kontrakt (ell
 När denna Bitcoin-transaktion valideras "låser" den i praktiken permanent tillståndet för de underliggande kontrakten, eftersom det blir omöjligt att ändra den Hash som redan är inskriven i Blockchain.
 
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 
 ### Stash-konceptet
@@ -399,7 +396,7 @@ När denna Bitcoin-transaktion valideras "låser" den i praktiken permanent till
 En **Stash** är den uppsättning data på klientsidan som en deltagare absolut måste behålla för att upprätthålla integriteten och historiken för en RGB Smart contract. Till skillnad från en Lightning-kanal, där vissa tillstånd kan rekonstrueras lokalt från delad information, replikeras inte Stash för en RGB Contract någon annanstans: om du förlorar den kommer ingen att kunna återställa den till dig, eftersom du är ansvarig för din del av historiken. Det är därför du måste införa ett system med tillförlitliga rutiner för säkerhetskopiering i RGB.
 
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 
 ### Single-Use Seal: ursprung och funktion
@@ -426,13 +423,13 @@ För att förhindra Double-spending av RGB-tokens använder vi en mekanism som k
 Engångsförseglingar är kryptografiska primitiver, föreslagna 2016 av Peter Todd, som liknar konceptet med fysiska förseglingar: när en Seal har placerats på en behållare blir det omöjligt att öppna eller modifiera den utan att bryta Seal på ett irreversibelt sätt.
 
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 
 Detta tillvägagångssätt, överfört till den digitala världen, gör det möjligt att bevisa att en sekvens av händelser verkligen har ägt rum och att den inte längre kan ändras i efterhand. Engångsförseglingar går således utöver den enkla logiken med "Hash + Timestamp" och lägger till begreppet Seal som kan stängas **en enda gång**.
 
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 
 För att engångsförseglingar ska fungera krävs ett publikationssäkert medium som kan bevisa existensen eller frånvaron av en publikation och som är svårt (om inte omöjligt) att förfalska när informationen väl har spridits. En **Blockchain** (som Bitcoin) kan fylla denna roll, liksom en papperstidning med allmän spridning, som ett exempel. Idén är som följer:
@@ -485,7 +482,7 @@ Tätningar för engångsbruk fungerar i tre huvudsakliga steg:
 - Bob accepterar eller erkänner dessa villkor.
 
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 
 **Seal Stängningsdatum:**
@@ -497,7 +494,7 @@ Tätningar för engångsbruk fungerar i tre huvudsakliga steg:
 - Det ger också ett **vittne** (kryptografiskt bevis) som bevisar att Seal är stängd och oåterkallelig.
 
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 
 **Seal Verifiering:**
@@ -563,7 +560,7 @@ Denna unikhet är viktig för Client-side Validation: när du validerar en State
 En RGB Smart contract kan behöva spendera flera engångsförseglingar (flera UTXO:er) samtidigt. Dessutom kan en enda Bitcoin-transaktion referera till flera olika kontrakt, som var och en förseglar sin egen State Transition. Detta kräver en **multi-Commitment**-mekanism för att på ett deterministiskt och unikt sätt bevisa att inget av åtagandena existerar i duplikat. Det är här begreppet **Anchor** kommer in i bilden i RGB: en speciell struktur som länkar en Bitcoin-transaktion och ett eller flera åtaganden på klientsidan (tillståndsövergångar), som alla potentiellt tillhör en annan Contract. Vi kommer att titta närmare på detta koncept i nästa kapitel.
 
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 
 Två av projektets huvudsakliga GitHub-arkiv (under LNPBP-organisationen) samlar de grundläggande implementeringarna av dessa koncept som studerades i det första kapitlet:
@@ -575,13 +572,13 @@ Två av projektets huvudsakliga GitHub-arkiv (under LNPBP-organisationen) samlar
 - **tätningar för engångsbruk**: Implementerar logiken för att definiera och stänga dessa förseglingar på ett säkert sätt.
 
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 
 Observera att dessa programvarublock är Bitcoin-agnostiska; i teorin kan de tillämpas på vilket annat medium som helst för bevis på publicering (ett annat register, en tidskrift etc.). I praktiken förlitar sig RGB på Bitcoin för dess robusthet och breda konsensus.
 
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 
 ### Frågor från allmänheten
@@ -706,13 +703,13 @@ Detta system har valts för att det är kompatibelt med RGB-arkitekturen, men an
 Som en påminnelse kräver inte definitionen av en _försegling för engångsbruk_ nödvändigtvis att en On-Chain-transaktion publiceras. Det räcker till exempel att Alice redan har en outnyttjad UTXO. Hon kan besluta: "Denna _utpunkt_ (redan existerande) är nu min Seal". Hon noterar detta lokalt (_klientsidan_), och tills denna UTXO är förbrukad anses Seal vara öppen.
 
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 
 Den dag den vill stänga Seal (för att signalera en händelse eller för att Anchor ett visst meddelande) spenderar den denna UTXO i en ny transaktion (denna transaktion kallas ofta "_vittnestransaktion_" (inte relaterad till _segwit_, det är bara den term vi ger den). Denna nya transaktion kommer att innehålla _åtagandet_ till meddelandet.
 
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 
 Observera att i detta exempel:
@@ -733,19 +730,19 @@ Alice har därför en specifik UTXO, till vilken ett visst tillstånd eller viss
 Alice informerar Bob om att om denna UTXO spenderas kommer en viss händelse att anses ha inträffat. Från utsidan är allt vi ser en Bitcoin-transaktion, men Bob vet att denna utgift har en dold betydelse.
 
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 
 När Alice spenderar denna UTXO, stänger hon Seal på ett meddelande som anger hennes nya nyckel, eller helt enkelt återkallandet av den gamla. På detta sätt kommer alla som övervakar On-Chain att se att UTXO spenderas, men endast de som har det fullständiga beviset kommer att veta att det är just återkallandet av PGP-nyckeln.
 
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 
 För att Bob eller någon annan inblandad ska kunna kontrollera det dolda meddelandet måste Alice förse honom med information från off-chain.
 
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 
 Alice måste därför förse Bob med följande:
@@ -757,7 +754,7 @@ Alice måste därför förse Bob med följande:
 - Kryptografiskt bevis för att meddelandet var inblandat i transaktionen (kallas _extra transaction proof_ eller _anchor_).
 
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 
 Tredje part har inte denna information. De ser bara att en UTXO har använts. Konfidentialiteten är därför garanterad.
@@ -771,7 +768,7 @@ För att förtydliga strukturen sammanfattar vi processen i två transaktioner:
 - **Transaktion 1**: Detta innehåller _seal-definitionen_, dvs. den _utpunkt_ som kommer att fungera som Seal.
 
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 
@@ -779,7 +776,7 @@ För att förtydliga strukturen sammanfattar vi processen i två transaktioner:
 - **Transaktion 2**: Spenderar denna _outpoint_. Detta stänger Seal och, i samma transaktion, infogar _commitment_ på meddelandet.
 
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 
 Vi kallar därför den andra transaktionen för "_vittnestransaktionen_".
@@ -794,7 +791,7 @@ För att illustrera detta från en annan vinkel kan vi representera två lager:
 - Den lägre Layer (klientsidan, privat): endast Alice (eller den berörda personen) vet att den här kostnaden motsvarar det och det meddelandet, via det kryptografiska beviset och det meddelande som hon förvarar lokalt.
 
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 
 Men när man stänger Seal uppstår frågan om var _commitment_ ska infogas.
@@ -826,13 +823,13 @@ Oavsett metod (PkO, TxO2, etc.) kan _åtagandet_ införas:
 - **Tapret** (eller _Taptweak_), som bygger på Taproot för att infoga Commitment i skriptdelen av en Taproot-nyckel och därmed ändra den publika nyckeln på ett deterministiskt sätt.
 
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 
 Här är detaljerna för varje metod:
 
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 
 ***Sig tweak (sign-to-Contract):***
@@ -921,7 +918,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 Det sista alternativet är att använda **Taproot** (introducerad med BIP341) med *Tapret*-systemet. *Tapret* är en mer komplex form av deterministisk Commitment, som ger förbättringar när det gäller fotavtryck på Blockchain och sekretess för Contract-operationer. Huvudidén är att dölja Commitment i `Script Path Spend`-delen av en [Taproot-transaktion] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 
 Innan vi beskriver hur Commitment infogas i en Taproot-transaktion, låt oss titta på den **exakta formen** av Commitment, som **imperativt** måste motsvara en 64-byte sträng [konstruerad](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) enligt följande:
@@ -966,7 +963,7 @@ Låt oss ta en närmare titt på vart och ett av dessa två scenarier.
 I det här första fallet utgår vi från en Taproot-utmatningsnyckel (*Taproot Output Key*) `Q` som endast innehåller den interna publika nyckeln `P` *(Internal Key*), utan någon associerad skriptsökväg (*Script Path*):
 
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 
@@ -980,7 +977,7 @@ I det här första fallet utgår vi från en Taproot-utmatningsnyckel (*Taproot 
 För att inkludera en **Tapret** Commitment, lägg till en **Script Path Spend** med ett **unikt script**, enligt följande:
 
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 
@@ -998,7 +995,7 @@ Beviset för inkludering och unikhet i Taproot-trädet här kokar ner till den e
 Det andra scenariot gäller en mer komplex `Q` **Taproot**-utskrift, som redan innehåller flera skript. Vi har t.ex. ett träd med 3 skript:
 
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 
@@ -1010,7 +1007,7 @@ Det andra scenariot gäller en mer komplex `Q` **Taproot**-utskrift, som redan i
 För att lägga till Tapret Commitment måste vi infoga ett *unspendable script* på trädets första nivå och flytta de befintliga scripten en nivå nedåt. Visuellt blir trädet:
 
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 
@@ -1031,13 +1028,13 @@ Enligt Taproot-reglerna måste varje gren/blad kombineras i enlighet med en lexi
 Visuellt exempel för det första fallet (`tHABC < tHT`):
 
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 
 Exempel för det andra fallet (`tHABC > tHT`):
 
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 
 #### Optimering med Nonce
@@ -1162,7 +1159,7 @@ Multi Protocol Commitment (MPC) är utformad för att tillgodose två behov:
 I konkreta termer tillhör varje _transition bundle_ en viss Contract. All denna information sätts in i ett **MPC-träd**, vars rot (`mpc::Root`) sedan hashas igen för att ge `mpc::Commitment`. Det är denna sista Hash som placeras i Bitcoin-transaktionen (_vittnestransaktion_), enligt den deterministiska metod som valts.
 
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 
 #### MPC Root Hash
@@ -1187,7 +1184,7 @@ var:
 - `mpc::Root` är roten till *MPC Tree*, beräknad enligt den process som beskrivs i nästa avsnitt.
 
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 
 #### MPC Trädkonstruktion
@@ -1306,7 +1303,7 @@ För att illustrera detta, låt oss föreställa oss ett exempel där `C=3` (tre
 Slutresultatet är **mpc::Root** och därefter `mpc::Commitment`.
 
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 
 #### MPC axelkontroll
@@ -1318,7 +1315,7 @@ När en verifierare vill försäkra sig om att en Contract från `c_i` (och dess
 I exemplet behöver en `c_2`-verifierare bara en mellanliggande Hash (`tH_MPC_LEAF(D)`), två `tH_MPC_BRANCH(...)`, `pos(c_2)`-positionsbeviset och `cofactor`-värdet. Den kan sedan lokalt rekonstruera roten, sedan räkna om `mpc::Commitment` och jämföra det med det som skrevs i Bitcoin-transaktionen (inom `Opret` eller `Tapret`).
 
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 
 Denna mekanism säkerställer att:
@@ -1418,7 +1415,7 @@ Det tredje fältet, **ETP**, beror på vilken typ av Commitment som används. Om
 Detta ytterligare bevis är viktigt eftersom, till skillnad från `Opret`, `Tapret` Commitment är integrerad i strukturen för ett Taproot-skript, vilket kräver att en del av Taproot-trädet avslöjas för att korrekt validera platsen för *Commitment*.
 
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 
 **Anchors** kapslar därför in all information som krävs för att validera en Bitcoin Commitment i samband med RGB. De anger både den relevanta transaktionen (`txid`) och beviset på Contract positionering (`MPC Proof`), samtidigt som de hanterar det ytterligare beviset (`ETP`) i fallet med `Tapret`. På detta sätt skyddar en Anchor integriteten och det unika i off-chain-tillståndet genom att säkerställa att samma transaktion inte kan omtolkas för andra avtalsdata.
@@ -1442,7 +1439,7 @@ I detta kapitel har vi gått igenom:
 I praktiken är den tekniska implementeringen uppdelad mellan flera dedikerade Rust _crates_ (i _client_side_validation_, _commit-verify_, _bp_core_, etc.). De grundläggande begreppen finns där:
 
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 
 I nästa kapitel ska vi titta på den rena off-chain-komponenten i RGB, nämligen Contract-logik. Vi kommer att se hur RGB-kontrakt, organiserade som delvis replikerade _finita tillståndsmaskiner_, uppnår mycket högre uttrycksfullhet än Bitcoin-skript, samtidigt som de bevarar sekretessen för sina data.
@@ -1469,7 +1466,7 @@ RGB:s mål är att tillhandahålla en infrastruktur för att implementera smarta
 Denna automatisering väcker frågan om decentralisering: hur kan vi frigöra oss från ett centraliserat register (t.ex. en central plattform eller databas) för att hantera Ownership- och Contract-prestanda? Den ursprungliga idén, som togs upp av RGB, är att återgå till ett läge för Ownership som kallas "innehavarinstrument". Historiskt sett utfärdades vissa värdepapper (obligationer, aktier etc.) i innehavarform, vilket gjorde det möjligt för alla som fysiskt innehade dokumentet att hävda sina rättigheter.
 
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 
 RGB tillämpar detta koncept på den digitala världen: rättigheter (och skyldigheter) är inkapslade i data som manipuleras off-chain och statusen för dessa data valideras av deltagarna själva. Detta möjliggör, a priori, en mycket högre grad av konfidentialitet och oberoende än vad som erbjuds av andra metoder som baseras på offentliga register.
@@ -1487,7 +1484,7 @@ En Smart contract i RGB kan ses som en tillståndsmaskin, definierad av:
 - En **Business Logic** (uppsättning regler), som beskriver under vilka förhållanden och av vem tillståndet kan ändras.
 
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 
 Det är viktigt att förstå att dessa avtal inte är begränsade till en enkel överföring av tokens. De kan innehålla ett brett utbud av applikationer: från traditionella tillgångar (tokens, aktier, obligationer) till mer komplexa mekaniker (användningsrättigheter, kommersiella villkor etc.). Till skillnad från andra blockkedjor, där Contract-koden är tillgänglig och körbar för alla, avgränsar RGB:s tillvägagångssätt åtkomst och kunskap om Contract till deltagare ("***Contract-deltagare***"). Det finns flera roller:
@@ -1542,7 +1539,7 @@ I RGB-universumet är en ***Contract Operation*** en händelse som ändrar Contr
 - De berörda rättighetshavarna validerar lokalt (*klientsidan*) att övergången överensstämmer med *Schema* och att den tillhörande Bitcoin-transaktionen är registrerad On-Chain.
 
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 
 Slutresultatet är en uppdaterad Contract, nu med ett annat tillstånd. Denna övergång kräver inte att hela Bitcoin-nätverket bryr sig om detaljerna, eftersom endast ett litet kryptografiskt fingeravtryck (_åtagandet_) registreras i Blockchain. Sekvensen av förseglingar för engångsbruk förhindrar all Double-spending eller dubbelanvändning av tillståndet.
@@ -1561,7 +1558,7 @@ För att sätta detta i perspektiv börjar en RGB Smart contract med en **Genesi
 - När inga fler operationer pågår nås ett **Terminaltillstånd**: det senaste och fullständiga tillståndet för Contract.
 
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 
 Denna DAG-topologi (i stället för en enkel linjär kedja) återspeglar möjligheten att olika delar av Contract kan utvecklas parallellt, så länge de inte motsäger varandra. RGB tar sedan hand om att undvika eventuella inkonsekvenser genom *klientsidans* verifiering av varje inblandad deltagare.
@@ -1610,7 +1607,7 @@ För att illustrera processen för en *State Transition* (som är en av de grund
 Alice har en ***Stash RGB*** med lokalt validerade data (*klientsidan*). Denna Stash hänvisar till en av hennes UTXO:er på Bitcoin. Detta innebär att en _seal definition_ i dessa data pekar på en UTXO som tillhör Alice. Tanken är att göra det möjligt för henne att överföra vissa digitala rättigheter kopplade till en tillgång (t.ex. RGB-tokens) till Bob.
 
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 
 **Bob har också UTXO:er:**
@@ -1619,7 +1616,7 @@ Alice har en ***Stash RGB*** med lokalt validerade data (*klientsidan*). Denna S
 Bob, å andra sidan, har minst en egen UTXO, utan någon direkt länk till Alice:s. Om Bob inte har någon UTXO är det fortfarande möjligt att göra överföringen till honom med hjälp av själva *Witness Transaction*: resultatet av denna transaktion kommer då att inkludera Commitment (_commitment_) och implicit associera Ownership i den nya Contract med Bob.
 
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 
 **Uppförande av den nya fastigheten (*New State*):**
@@ -1628,7 +1625,7 @@ Bob, å andra sidan, har minst en egen UTXO, utan någon direkt länk till Alice
 Bob skickar Alice information kodad i form av en ***Invoice*** (vi kommer att gå in mer i detalj på Invoice-konstruktion i senare kapitel) och ber henne att skapa ett nytt tillstånd som överensstämmer med reglerna i Contract. Detta tillstånd kommer att innehålla en ny *Seal Definition* som pekar på en av Bob:s UTXO:er. På detta sätt får Bob Ownership av de tillgångar som definieras i detta nya tillstånd, till exempel en viss mängd RGB-tokens.
 
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 
 **Förberedelse av transaktionsexemplet: **
@@ -1655,7 +1652,7 @@ Innan transaktionen sänds ut skickar Alice en ***Consignment*** till Bob som in
 Om Bob är nöjd kan han ge sitt godkännande (t.ex. genom att underteckna *Consignment*). Alice kan sedan sända ut den förberedda provtransaktionen. När detta har bekräftats stängs Seal som tidigare innehades av Alice och Ownership formaliseras av Bob. Anti-Double-spending-säkerheten baseras sedan på samma mekanism som i Bitcoin: UTXO förbrukas, vilket bevisar att Alice inte längre kan återanvända den.
 
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 
 Det nya tillståndet refererar nu till Bob:s UTXO, vilket ger Bob den Ownership som tidigare innehades av Alice. Bitcoin-utgången där RGB-data är förankrade blir det oåterkalleliga beviset på överföringen av Ownership.
@@ -1664,7 +1661,7 @@ Det nya tillståndet refererar nu till Bob:s UTXO, vilket ger Bob den Ownership 
 Ett exempel på en minimal DAG (*Directed Acyclic Graph*) som omfattar två Contract-operationer (en **Genesis** och sedan en ***State Transition***) kan illustrera hur RGB-tillståndet (*klientsidan* Layer, i rött) ansluter till Bitcoin Blockchain (*Commitment* Layer, i orange).
 
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 
 Den visar att en Genesis definierar en Seal (*Seal Definition*), sedan stänger en *State Transition* denna Seal för att skapa en ny i en annan UTXO.
@@ -1684,7 +1681,7 @@ I det här sammanhanget kommer här några påminnelser om terminologi:
 **State Transitions**, som beskrivs i föregående kapitel, är den huvudsakliga formen av Contract Operation. De hänvisar till ett eller flera tidigare tillstånd (från Genesis eller en annan State Transition) och uppdaterar dem till ett nytt tillstånd.
 
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 
 Detta diagram visar hur, i en *State Transition Bundle*, flera förseglingar kan stängas i en enda provtransaktion, samtidigt som nya förseglingar öppnas. En intressant egenskap hos RGB-protokollet är dess förmåga att skala: flera övergångar kan aggregeras till en Transition Bundle, där varje aggregering är associerad med ett distinkt blad i *MPC-trädet* (en unik bundle identifier). Tack vare mekanismen *Deterministic Bitcoin Commitment* (DBC) kan hela meddelandet infogas i en `Tapret`- eller `Opret`-utgång, samtidigt som tidigare förseglingar stängs och eventuellt nya definieras. Anchor fungerar som en direktlänk mellan Commitment som lagras i Blockchain och Client-side Validation-strukturen (*klient-sidan*).
@@ -1759,7 +1756,7 @@ State Transitions kan därför användas för att överföra Ownership en tillg�
 Bland dessa kallas **Genesis** och **State Extension** ibland för "*State Generation operations*", eftersom de skapar nya tillstånd utan att omedelbart stänga något. Detta är en mycket viktig punkt: **Genesis** och **State Extension** innebär inte att en Seal stängs. Snarare definierar de en ny Seal, som sedan måste spenderas av en efterföljande **State Transition** för att verkligen valideras i Blockchain-historiken.
 
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 
 Det **Aktiva tillståndet** för en Contract definieras ofta som uppsättningen av de senaste tillstånden som härrör från transaktionshistoriken (DAG), med början i Genesis och efter alla ankare i Bitcoin Blockchain. Eventuella gamla tillstånd som redan är föråldrade (dvs. kopplade till förbrukade UTXO:er) anses inte längre vara aktiva, men är fortfarande viktiga för att kontrollera historikens konsistens.
@@ -1797,7 +1794,7 @@ Som den första transaktionen i Contract refererar Genesis inte till något tidi
 Tekniskt sett hänvisar en State Extension till en *Redeem* (en viss typ av RGB-ingång) som motsvarar en *Valency* som definierats tidigare (t.ex. i Genesis eller en annan State Transition). Den definierar en ny Seal, tillgänglig för den person eller det tillstånd som drar nytta av den. För att denna Seal ska träda i kraft måste den användas av en efterföljande State Transition.
 
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 
 Till exempel: Genesis skapar en rätt till utfärdande (*Valency*). Denna kan utövas av en auktoriserad aktör, som sedan bygger en State Extension:
@@ -1930,7 +1927,7 @@ En RGB Contract identifieras sedan av ett `ContractId`, som härleds från Genes
     - De **privat** ägda staterna.
 
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 
 *Global State* ingår direkt i *Contract Operation* som ett enda block. De *ägda staterna* definieras i varje *Assignment*, tillsammans med *Seal Definition*.
@@ -2013,7 +2010,7 @@ En *Assignment* kan ses som en motsvarighet till en Bitcoin transaktionsutskrift
 En av RGB:s stora styrkor ligger i möjligheten att *avslöja* eller dölja (*koncepera*) fälten *Seal Definition* och *Owned State* efter behag. Detta ger en kraftfull kombination av sekretess och selektivitet. Du kan t.ex. bevisa att en övergång är giltig utan att avslöja alla data genom att tillhandahålla den avslöjade versionen till den person som måste validera den, medan tredje part endast ser den dolda versionen (en Hash). I praktiken beräknas alltid `OpId` för en övergång från de *dolda* uppgifterna.
 
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 
 #### Seal Definition
@@ -2037,7 +2034,7 @@ En av RGB:s stora styrkor ligger i möjligheten att *avslöja* eller dölja (*ko
 Den * dolda* formen av Seal Definition är en SHA256 Hash (taggad) av sammankopplingen av dessa 4 fält, med en tagg som är specifik för RGB.
 
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 
 #### Ägda stater
@@ -2291,7 +2288,7 @@ En av RGB:s stora innovationer är den strikta separationen mellan två koncept:
 **Ownership**, å andra sidan, är helt beroende av Bitcoin:s säkerhet. Att äga den privata nyckeln till en UTXO innebär att man kontrollerar möjligheten att starta en ny övergång (stänga Single-Use Seal). Så även om någon kan se eller validera data kan de inte ändra tillståndet om de inte äger den berörda UTXO.
 
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 
 Detta tillvägagångssätt begränsar de klassiska sårbarheter som förekommer i mer komplexa blockkedjor (där all kod i en Smart contract är offentlig och kan ändras av vem som helst, vilket ibland har lett till hackningar). På RGB kan en angripare inte bara interagera med On-Chain-tillståndet, eftersom rätten att agera på tillståndet (*Ownership*) skyddas av Bitcoin Layer.
@@ -2597,7 +2594,7 @@ Lightning Network är ett decentraliserat nätverk av betalningskanaler (eller _
 För mer information om hur Lightning fungerar rekommenderar jag att du går den här andra kursen:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### Multi Protocol Commitment - MPC
 
@@ -2785,7 +2782,7 @@ Sammanfattningsvis består varje Contract av:
 - Implementering **Interface**, som överbryggar gapet mellan Business Logic och presentation, för att säkerställa att Contract-definitionen överensstämmer med användarupplevelsen.
 
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 
 Det är viktigt att notera att för att en Wallet ska kunna hantera en RGB-tillgång (vare sig det är en fungibel token eller en rättighet av något slag), måste den ha alla dessa Elements sammanställda: *Schema*, *Interface*, *Interface Implementation* och *Genesis*. Detta överförs via en ***Contract Consignment***, dvs. ett datapaket som innehåller allt som behövs för att validera Contract på klientsidan.
@@ -2846,7 +2843,7 @@ En Schema kan liknas vid en "klass" i objektorienterad programmering (OOP). Gene
 - Sekvenser av operationer som anses giltiga: t.ex. en ordning av övergångar som ska respekteras eller en uppsättning logiska villkor som ska uppfyllas.
 
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 
 När *utgivaren* av en tillgång på RGB publicerar en Contract, tillhandahåller den Genesis och Schema som är associerade med den. Användare eller plånböcker som vill interagera med tillgången hämtar denna Schema för att förstå logiken bakom Contract och för att senare kunna verifiera att de övergångar de kommer att delta i är legitima.
@@ -2937,7 +2934,7 @@ Innan du dyker in i koden är det värt att komma ihåg den allmänna strukturen
 - **Valideringsskript** (körs via AluVM).
 
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 
 Koden nedan visar den fullständiga definitionen av Rust Schema. Vi kommer att kommentera den del för del, enligt kommentarerna (1) till (9) nedan:
@@ -3163,7 +3160,7 @@ Till skillnad från Schema, som är rent deklarativ och kompilerad till en binä
 - Tolka och konstruera Contract-operationer (Genesis, State Transition eller State Extension) genom att associera data med begripliga namn (t.ex. utföra en överföring genom att tydligt ange "belopp" i stället för en binär identifierare).
 
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 
 Tack vare Interface kan du t.ex. skriva kod i en Wallet som, istället för att manipulera fält, direkt manipulerar etiketter som "antal tokens", "tillgångsnamn", etc. På så sätt blir hanteringen av en Contract mer intuitiv. På detta sätt blir hanteringen av Contract mer intuitiv.
@@ -3207,7 +3204,7 @@ Interface kan modifieras eller läggas till efter att tillgången har utfärdats
 Samma Contract kan exponeras genom olika gränssnitt som är anpassade till olika behov: en enkel Interface för slutanvändaren, en annan mer avancerad för utgivaren som behöver hantera komplexa konfigurationsåtgärder. Wallet kan sedan välja vilken Interface som ska importeras, beroende på dess användning.
 
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 
 I praktiken, när Wallet hämtar en RGB Contract (via en `.RGB` eller `.rgba`-fil), importerar den också den tillhörande Interface, som också kompileras. Vid körning kan Wallet t.ex:
@@ -3692,7 +3689,7 @@ Bob behöver sedan hämta de Contract-data som han är intresserad av. Dessa dat
 - **Interface Implementation**, som konkret kopplar Schema till Interface.
 
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 
 Den totala storleken är ofta i storleksordningen några kilobyte, eftersom varje komponent i allmänhet väger mindre än 200 byte. Det kan också vara möjligt att sända denna Consignment i Base58, via censurresistenta kanaler (som Nostr eller via Lightning Network, till exempel), eller som en QR-kod.
@@ -3747,7 +3744,7 @@ Vi tittar närmare på strukturen för RGB-fakturor i slutet av detta kapitel.
 Den genererade Invoice (t.ex. som URL: `RGB:2WBcas9.../RGB20/100+utxob:...`) innehåller all information som Alice behöver för att förbereda överföringen. Precis som med Consignment kan den kodas kompakt (Base58 eller annat format) och skickas via en meddelandeapplikation, e-post, Nostr...
 
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 
 #### 6) Transaktionsförberedelser på Alice-sidan
@@ -3807,7 +3804,7 @@ sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 
 #### 9) Alternativ: Bob skickar bekräftelse tillbaka till Alice (*betalningskvitto*)
@@ -3844,7 +3841,7 @@ alice$ wallet sign —publish tx.psbt
 ```
 
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 
 När denna transaktion har bekräftats markerar den avslutningen av överföringen. Bob blir den nya ägaren av tillgången: han har nu en Owned State som pekar på UTXO som han kontrollerar, vilket bevisas av Commitment:s närvaro i transaktionen.
@@ -3853,7 +3850,7 @@ När denna transaktion har bekräftats markerar den avslutningen av överföring
 Sammanfattningsvis följer här den fullständiga överföringsprocessen:
 
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 
 ### Fördelar med RGB-överföringar
@@ -3899,7 +3896,7 @@ Innan vi tittar närmare på fakturorna följer här ett översiktligt diagram �
 - Genom att bekräfta transaktionen blir överföringen officiell.
 
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 
 Överföringen illustrerar all kraft och flexibilitet i RGB-protokollet: en privat Exchange, validerad på klientsidan, minimalt och diskret förankrad på Bitcoin Blockchain, och behåller det bästa av protokollets säkerhet (ingen risk för Double-spending). Detta gör RGB till ett lovande ekosystem för värdeöverföringar som är mer konfidentiella och skalbara än On-Chain programmerbara blockkedjor.
@@ -4114,7 +4111,7 @@ rgb
 Om du kör `RGB` (utan argument) visas en lista över tillgängliga underkommandon, till exempel `interfaces`, `Schema`, `import`, `export`, `issue`, `Invoice`, `transfer`, etc. Du kan ändra den lokala lagringskatalogen (en Stash som innehåller alla loggar, scheman och implementeringar), välja nätverk (Testnet, Mainnet) eller konfigurera din Electrum-server.
 
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 
 #### Första översikten över kontroller
@@ -4152,7 +4149,7 @@ rgb import interfaces/RGB20.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 
 Å andra sidan har vi fått veta att ingen Schema ännu har importerats till programvaran. Det finns inte heller någon Contract i Stash. För att se det, kör kommandot:
@@ -4171,7 +4168,7 @@ git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 
 Detta arkiv innehåller, i katalogen `src/`, flera Rust-filer (till exempel `nia.rs`) som definierar scheman (NIA för "*Non Inflatable Asset*", UDA för "*Unique Digital Asset*", etc.). För att kompilera kan du sedan köra:
@@ -4197,7 +4194,7 @@ rgb import schemata/NonInflatableAssets.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 
 Detta lägger till den till den lokala Stash. Om vi kör följande kommando ser vi att Schema nu visas:
@@ -4242,8 +4239,8 @@ interface: RGB20Fixed
 
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -4259,7 +4256,7 @@ amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 
 Sedan är det bara att köra kommandot:
@@ -4270,7 +4267,7 @@ rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 
 I mitt fall är den unika Schema-identifieraren (som ska omslutas av enkla citattecken) `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` och jag har inte lagt till någon emittent. Så min order är:
@@ -4297,10 +4294,10 @@ rgb contracts
 ```
 
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
 
-Nästa kommando visar sedan de globala staterna (namn, ticker, Supply...) och listan över Owned States, dvs. tilldelningar (till exempel 1 miljon `PBN` tokens definierade i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Nästa kommando visar sedan de globala staterna (namn, ticker, Supply...) och listan över Owned States, dvs. tilldelningar (till exempel 1 miljon `Plan ₿ Academy` tokens definierade i UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -4308,7 +4305,7 @@ rgb state '<ContractId>'
 ```
 
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 
 ### Export, import och validering
@@ -4322,7 +4319,7 @@ rgb export '<ContractId>' myContractPBN.rgb
 ```
 
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 
 Filen `myContractPBN.RGB` kan vidarebefordras till en annan användare, som kan lägga till den i sin Stash med kommandot:
@@ -4355,7 +4352,7 @@ rgb dump
 ```
 
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 
 Detta kommer att generate en mapp med detaljer om hela Stash.
@@ -4505,7 +4502,7 @@ För att skapa en Lightning-kanal som bär RGB-tillgångar behöver vi två Elem
 I Bitcoin-termer måste finansieringstransaktionen existera för att definiera referens UTXO, även om den endast innehåller en liten mängd Sats (det är bara en fråga om att varje produktion i framtida Commitment-transaktioner ändå förblir över Dust-gränsen). Till exempel kan Alice besluta att tillhandahålla 10k Sats och 500 USDT (utfärdat som en RGB-tillgång). På finansieringstransaktionen lägger vi till en Commitment (`Opret` eller `Tapret`) som förankrar RGB State Transition.
 
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 
 När finansieringstransaktionen har förberetts (men ännu inte sänts) skapas Commitment-transaktioner så att endera parten kan stänga kanalen ensidigt när som helst. Dessa transaktioner liknar Lightnings klassiska Commitment-transaktioner, förutom att vi lägger till ytterligare en utgång som innehåller RGB Anchor (OP_RETURN eller Taproot) länkad till den nya State Transition.
@@ -4517,13 +4514,13 @@ RGB State Transition flyttar sedan tillgångarna från finansieringens 2/2 Multi
 En Commitment Transaction som signeras av Alice och skickas till Bob skulle därför se ut så här:
 
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 
 Och den medföljande Commitment Transaction, undertecknad av Bob och skickad till Alice, kommer att se ut så här:
 
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 
 ### Uppdatering av kanaler
@@ -4538,13 +4535,13 @@ Till exempel, om Alice överför 30 USDT till Bob i kanalen, kommer den nya Stat
 Commitment Transaction signerad av Alice, redo att distribueras av Bob:
 
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 
 Commitment Transaction undertecknad av Bob, redo att distribueras av Alice:
 
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 
 ### HTLC hantering
@@ -4553,13 +4550,13 @@ Commitment Transaction undertecknad av Bob, redo att distribueras av Alice:
 I verkligheten gör Lightning Network det möjligt att dirigera betalningar via flera kanaler med hjälp av HTLC:er (*Hashed Time-Locked Contracts*). Det är samma sak med RGB: för varje betalning som transiteras genom kanalen läggs en HTLC-utgång till den bindande transaktionen, och en RGB-tilldelning länkas till denna HTLC. Således återfår den som spenderar HTLC-utgången (tack vare hemligheten eller efter utgången av tidslåset) både Sats och de associerade RGB-tillgångarna. Å andra sidan måste du uppenbarligen ha tillräckligt med kontanter på vägen när det gäller både Sats- och RGB-tillgångar.
 
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 
 Användningen av RGB på Lightning måste därför betraktas parallellt med den för Lightning Network själv. Om du vill fördjupa dig i detta ämne rekommenderar jag starkt att du tar en titt på denna andra omfattande utbildningskurs:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB kodkarta
 
@@ -4567,7 +4564,7 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 Slutligen, innan jag går vidare till nästa avsnitt, vill jag ge dig en översikt över koden som används i RGB. Protokollet är baserat på en uppsättning Rust-bibliotek och specifikationer för öppen källkod. Här är en översikt över de viktigaste lagren och lådorna:
 
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 
 #### Client-side Validation
@@ -5029,7 +5026,7 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 ```
 
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 
@@ -5046,7 +5043,7 @@ cargo install --locked --debug --path .
 ```
 
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 
@@ -5098,7 +5095,7 @@ ID:n och URL:er anges när daemon _låser upp_ via API:et. Mer om detta senare.
 För enkel användning finns det ett skript `regtest.sh` som automatiskt startar, via Docker, en uppsättning tjänster: `bitcoind`, `electrs` (indexerare), `RGB-proxy-server`.
 
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 
 Detta gör att du kan starta en lokal, isolerad och förkonfigurerad miljö. Den skapar och förstör behållare och datakataloger vid varje omstart. Vi börjar med att starta:
@@ -5119,7 +5116,7 @@ Detta manus kommer:
 - Vänta tills allt är klart att använda.
 
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 
 Nu ska vi starta flera RLN-noder. I separata skal kör du till exempel (för att starta 3 RLN-noder):
@@ -5138,7 +5135,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 ```
 
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 
@@ -5168,7 +5165,7 @@ curl -X POST http://localhost:3001/address
 Svaret kommer att ge dig en Address.
 
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 
 På `bitcoind` Regtest kommer vi att bryta några bitcoins. Kör:
@@ -5179,7 +5176,7 @@ På `bitcoind` Regtest kommer vi att bryta några bitcoins. Kör:
 ```
 
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 
 Skicka pengarna till noden Address som genererats ovan:
@@ -5190,7 +5187,7 @@ Skicka pengarna till noden Address som genererats ovan:
 ```
 
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 
 Minera sedan ett block för att bekräfta transaktionen:
@@ -5201,7 +5198,7 @@ Minera sedan ett block för att bekräfta transaktionen:
 ```
 
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 
 ### Lansering av Testnet (utan Docker)
@@ -5262,7 +5259,7 @@ http://localhost:3001/createutxos
 ```
 
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 
 Du kan naturligtvis anpassa beställningen. För att bekräfta transaktionen, vi min a:
@@ -5273,7 +5270,7 @@ Du kan naturligtvis anpassa beställningen. För att bekräfta transaktionen, vi
 ```
 
 
-Vi kan nu skapa en RGB-tillgång. Kommandot beror på vilken typ av tillgång du vill skapa och dess parametrar. Här skapar jag en NIA (*Non Inflatable Asset*) token med namnet "PBN" med en Supply på 1000 enheter. Med `precision` kan du definiera enheternas delbarhet.
+Vi kan nu skapa en RGB-tillgång. Kommandot beror på vilken typ av tillgång du vill skapa och dess parametrar. Här skapar jag en NIA (*Non Inflatable Asset*) token med namnet "Plan ₿ Academy" med en Supply på 1000 enheter. Med `precision` kan du definiera enheternas delbarhet.
 
 
 ```bash
@@ -5282,15 +5279,15 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
 ```
 
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 
 Svaret innehåller ID för den nyligen skapade tillgången. Kom ihåg att notera denna identifierare. I mitt fall är det:
@@ -5301,7 +5298,7 @@ rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 
 Du kan sedan överföra den On-Chain, eller allokera den i en Lightning-kanal. Det är precis vad vi ska göra i nästa avsnitt.
@@ -5328,10 +5325,10 @@ Kommandot returnerar den publika nyckeln för min nod nr 2:
 ```
 
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
 
-Därefter öppnar vi kanalen genom att ange den relevanta tillgången (`PBN`). Med kommandot `/openchannel` kan du definiera kanalens storlek i satoshis och välja att inkludera RGB-tillgången. Det beror på vad du vill skapa, men i mitt fall är kommandot:
+Därefter öppnar vi kanalen genom att ange den relevanta tillgången (`Plan ₿ Academy`). Med kommandot `/openchannel` kan du definiera kanalens storlek i satoshis och välja att inkludera RGB-tillgången. Det beror på vad du vill skapa, men i mitt fall är kommandot:
 
 
 ```bash
@@ -5365,7 +5362,7 @@ Läs mer om detta här:
 - "Offentlig": Anger om kanalen ska göras offentlig för routing i nätverket.
 
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 
 För att bekräfta transaktionen bryts 6 block:
@@ -5376,10 +5373,10 @@ För att bekräfta transaktionen bryts 6 block:
 ```
 
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
 
-Lightning-kanalen är nu öppen och innehåller också 500 `PBN`-tokens på nod n°1:s sida. Om nod n°2 vill ta emot `PBN`-tokens måste den generate och Invoice. Så här gör du för att göra det:
+Lightning-kanalen är nu öppen och innehåller också 500 `Plan ₿ Academy`-tokens på nod n°1:s sida. Om nod n°2 vill ta emot `Plan ₿ Academy`-tokens måste den generate och Invoice. Så här gör du för att göra det:
 
 
 ```bash
@@ -5413,10 +5410,10 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ```
 
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
 
-Vi kommer nu att betala denna Invoice från den första noden, som har de nödvändiga kontanterna med `PBN` token:
+Vi kommer nu att betala denna Invoice från den första noden, som har de nödvändiga kontanterna med `Plan ₿ Academy` token:
 
 
 ```bash
@@ -5428,7 +5425,7 @@ http://localhost:3001/sendpayment
 ```
 
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 
 Betalning har gjorts. Detta kan verifieras genom att köra kommandot:
@@ -5441,7 +5438,7 @@ curl -X 'GET' \
 ```
 
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 
 Så här distribuerar du en Lightning-nod som är modifierad för att bära RGB-tillgångar. Denna demonstration är baserad på:

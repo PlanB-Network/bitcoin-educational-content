@@ -5,5 +5,6 @@ wrong_answers:
   - Bilgisayarı kapatın ve birkaç saat kapalı bırakın.
   - Bilgisayardaki tüm dosyaları silin.
 explanation: |
-  Bilgisayarınızda bir virüs tespit ederseniz, yayılmasını veya bilgisayar korsanıyla iletişim kurmasını önlemek için internet bağlantısını kesin. Ardından, tam bir antivirüs taraması gerçekleştirin ve virüslü dosyaları silin.
+  Bilgisayarınızda bir virüs tespit ederseniz, yayılmasını veya bilgisayar korsanıyla iletişim kurmasını önlemek için 
+  internet bağlantısını kesin. Ardından, tam bir antivirüs taraması gerçekleştirin ve virüslü dosyaları silin.
 reviewed: true

@@ -22,7 +22,7 @@ In this tutorial, which is aimed at beginners and intermediate users, we're goin
 
 If you're an advanced user and want to explore more complex features, I recommend you check out this other tutorial where we configure Passport with Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Unboxing the Passport
 
@@ -170,7 +170,7 @@ To do this, use the MicroSD card included in your Passport box (or another one),
 
 Before installing it on your device, we strongly advise you to check the authenticity and integrity of the downloaded firmware. If you need help with this, consult this tutorial :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### With the Envoy application
 
@@ -254,7 +254,7 @@ Click on the confirmation button to see your mnemonic phrase.
 
 For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 of course, you must never share these words on the Internet, as I'm doing in this tutorial. This sample wallet will be used only on Testnet and will be deleted at the end of the tutorial.
 
@@ -457,4 +457,4 @@ Congratulations, you now know how to set up and use the Passport with the Envoy 
 
 For further information, see our tutorial on Liana software:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

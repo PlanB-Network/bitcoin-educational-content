@@ -19,15 +19,15 @@ Fedi Wallet est un portefeuille Bitcoin qui vient avec une nouvelle approche de 
 
 - **Les custodials** : Vous décidez de faire confiance à une entité externe, développeur du portefeuille qui se charge de garder pour vous les mots de récupération de votre portefeuille. Vous n'avez ni l'accès, ni la possibilité d'exporter votre portefeuille Bitcoin.
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 - **Les self-custodials** : L'application vous donne, dès la création de votre portefeuille, l'accès aux mots de récupération. Vous détenez donc la possibilité d'exporter vos bitcoins librement vers le portefeuille qui vous convient le mieux.
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Fedi Wallet propose plutôt l'approche de la fédération qui vous permet de rejoindre un groupe de personnes de confiance pour la gestion des clés de votre portefeuille. Vous avez la possibilité de rejoindre une fédération populaire suggérée par Fedi ou de rejoindre la fédération locale de votre communauté en scannant un QR code ou en collant le code d'invitation de cette fédération.
 
@@ -41,7 +41,7 @@ Après avoir créé votre portefeuille et rejoint une fédération, sur les info
 
 Découvrez nos recommandations en matière de sauvegarde de mots de récupération :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Pour chaque fédération que vous rejoignez, Fedi fait une distinction de vos bitcoins en créant des portefeuilles séparés.
 
@@ -73,7 +73,7 @@ Votre destinataire devra scanner le code QR généré pour réclamer les satoshi
 
 ![claim](assets/fr/07.webp)
 
-Les paiements hors ligne se font principalement grâce à l'[e-cash](https://planb.network/resources/glossary/ecash-david-chaum). La transaction est stockée dans votre téléphone et dès que vous accéder à internet, la confirmation de la transaction devient automatique. Vous pouvez également confirmer manuellement le paiement en cliquant sur **Confirmer la transaction**.
+Les paiements hors ligne se font principalement grâce à l'[e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). La transaction est stockée dans votre téléphone et dès que vous accéder à internet, la confirmation de la transaction devient automatique. Vous pouvez également confirmer manuellement le paiement en cliquant sur **Confirmer la transaction**.
 
 ![confirm](assets/fr/08.webp)
 
@@ -97,7 +97,7 @@ Dans le menu **Mods**, vous retrouvez des applications comme :
 
 - Bitrefill
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 - BTC Map : Découvrez les commerces environnants qui acceptent les bitcoins.
 
@@ -117,5 +117,5 @@ Cliquez sur le module **Create a Federation**, puis débuter le processus de cr�
 
 Vous venez de faire le tour de Fedi Wallet, vous êtes désormais en mesure d'exploiter le plein potentiel de ce portefeuille dans votre communauté. Si vous avez apprécié ce tutoriel, nous sommes convaincus que vous aimerez notre tutoriel sur Blink (ex Bitcoin Beach), une initiative de portefeuille Bitcoin conçue à la base pour construire et développer une économie circulaire sur Bitcoin au Salvador.
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 

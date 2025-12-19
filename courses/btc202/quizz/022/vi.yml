@@ -1,0 +1,9 @@
+question: Theo lý thuyết thẩm thấu, việc vượt quá ngưỡng tới hạn sẽ đảm bảo điều gì?
+answer: Truyền bá giao dịch trên toàn mạng
+wrong_answers:
+  - Tạo ngay một khối mới
+  - Tự động giảm chi phí theo từng nút
+  - Chặn giao dịch bởi mạng
+explanation: |
+  Khi ngưỡng thấm vượt quá, giao dịch sẽ lan truyền gần như ngay lập tức trên toàn bộ mạng Bitcoin.
+reviewed: true

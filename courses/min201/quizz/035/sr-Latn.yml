@@ -1,5 +1,5 @@
-question: Šta meri Hashrate u mreži Bitcoin?
-answer: Izračuni po sekundi
+question: Šta meri Hashrate u Bitcoin mreži?
+answer: Broj kalkulacija po sekundi
 wrong_answers:
   - Broj transakcija po sekundi
   - Broj aktivnih čvorova

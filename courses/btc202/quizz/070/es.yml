@@ -1,0 +1,9 @@
+question: ¿Quién mantiene los servidores DNS seed utilizados para el descubrimiento inicial de pares?
+answer: Desarrolladores de ecosistemas
+wrong_answers:
+  - Proveedores de servicios de Internet
+  - Satoshi Nakamoto
+  - Mining piscinas
+explanation: |
+  Las semillas DNS son mantenidas por desarrolladores bien conocidos (Wuille, Corallo, Dashjr, etc.) y proporcionan IPs de nodos activos para iniciar conexiones.
+reviewed: true

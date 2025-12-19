@@ -1,5 +1,5 @@
 question: Chức năng của việc điều chỉnh độ khó trong mạng lưới Bitcoin là gì?
-answer: Nó đảm bảo rằng một khối được thêm vào blockchain khoảng mỗi mười phút.
+answer: Chế độ này đảm bảo rằng một khối được thêm vào blockchain khoảng mỗi mười phút.
 wrong_answers:
   - Nó quyết định giá của Bitcoin.
   - Nó điều chỉnh số lượng bitcoin có thể được khai thác trong blockchain.

@@ -8,7 +8,7 @@ description: LNP2PBotとP2Pビットコイン取引の完全ガイド
 
 KYCフリーのピアツーピア（P2P）取引所は、ユーザーの機密性と金融の自主性を守るために不可欠である。本人確認を必要としない個人間の直接取引を可能にし、プライバシーを重視する人々にとって極めて重要です。理論的概念をより深く理解するには、BTC204コースをご覧ください：
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ビットコインのピアツーピア（P2P）での売買は、ビットコインを取得または処分する最もプライベートな方法の1つです。LNP2PBotはオープンソースのTelegramボットで、Lightningネットワーク上のP2P交換を促進し、高速、低コスト、KYCフリーの取引を可能にします。
 
@@ -52,7 +52,7 @@ Lnp2pbotを使用するには、：
 
 下記はこの財布のチュートリアルへのリンクです：
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 - [フェニックス](https://phoenix.acinq.co)：
   - シンプルで信頼できる
@@ -63,7 +63,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 下記はこの財布のチュートリアルへのリンクです：
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - **[Blixt](https://blixtwallet.github.io)** ：
   - より専門的だが、非常に完成度が高い
@@ -74,7 +74,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 下記はこの財布のチュートリアルへのリンクです：
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **他のポートフォリオに関する重要な注意事項**。
 

@@ -93,7 +93,7 @@ Ni mwiteguye kuvumbura isi ya Bitcoin Mining no gufata ingorane ngirakamaro za A
 Kugira ngo umuntu asigure iciyumviro ca Mining mu buryo bworoshe, arashobora gukoresha ikigereranyo gibereye: ic’uruzitiro. Nka kurya kw’igiharuro, Mining ni igikorwa kigoye gukora ariko kikaba coroshe kugenzura iyo kirangiye. Mu bijanye na Bitcoin Mining, abacukuzi b’amabuye y’agaciro baragerageza gutorera umuti ningoga uruzitiro rw’ivy’ubuhinga bwa none. Miner ya mbere ishobora gutorera umuti iyo nzitizi yerekana umuti wayo ku rubuga rwose, rushobora rero kugenzura bitagoranye ko ari ukuri. Ukwo kugenzura kuroraniwe gutuma Miner yemeza igice gishasha maze akagishira ku gice ca Bitcoin Timechain. Mu kwemera igikorwa cabo, kikaba gisaba amahera menshi, Miner irahezagirwa n’umubare kanaka w’ama bitcoins. Iryo shimwe rikora nk’inkomezi z’amahera ku bacukuzi b’amabuye y’agaciro kugira ngo babandanye igikorwa cabo co kwemeza amafaranga no gucungera uruja n’uruza rwa Bitcoin.
 
 
-![image](assets/en/01.webp)
+![image](assets/en/001.webp)
 
 
 Mu ntango mu rubuga rwa Bitcoin, impembo yahabwa yari ama bitcoins 50 buri minota cumi, bihuye n’ukuvumbura igice c’ibarabara buri minota cumi ku rugero rwa mwayeni n’abacukuzi b’amabuye y’agaciro. Iyi mpembo igira Halving inyuma y’amabarabara 210.000, hafi inyuma y’imyaka ine. Iryo shirahamwe rikora nk’inkomezi zikomeye zo guhimiriza abacukuzi kugira uruhara mu gikorwa ca Mining naho nyene gitwara inguvu. Hatariho impembo, iyo Mining ikoresha amashanyarazi menshi yohevye, ivyo bikaba bizotuma umutekano n’ugushikama kw’uruzitiro rwose rwa Bitcoin bihungabana.
@@ -110,7 +110,7 @@ Ivyo bikoresho vya Mining birimwo kurondera Hash ibereye yemerwa n’urubuga rwa
 Mu ntango, igihe ca CPU ni co cari gihambaye, aho abacukuzi bakoresha mudasobwa zabo bwite kugira ngo bakore Bitcoin Mining. Kuvumbura ivyiza vy’ama GPU (amakarata y’ibishushanyo) ku bw’ico gikorwa vyatumye habaho ihinduka rikomeye, vyatumye Hashrate yongera cane kandi igabanya n’inguvu zikoreshwa. Ivyo ntivyahagaze aho, hanyuma haciye hashirwaho ama FPGA (amarembo ashobora gutegurwa mu murima). FPGAs zakoreshejwe nk’urubuga rwo gutegura ASICs (imirongo y’ibikorwa vy’ubuhinga).
 
 
-![image](assets/en/02.webp)
+![image](assets/en/002.webp)
 
 
 ASICs ni ibice, bigereranywa n’igice ca CPU, ariko rero, vyateguwe kugira ngo bikore ubwoko bumwe gusa bw’uguharura mu buryo bwiza cane. Mu yandi majambo, CPU irashobora gukora ubwoko bwinshi bw’imibare itandukanye ataco ihinduye cane ku bwoko bumwe bw’imibare canke ubundi, mu gihe ASIC izoshobora gukora ubwoko bumwe gusa bw’imibare, ariko ikaba ikora neza cane. Ku bijanye n’ama ASIC ya Bitcoin, yagenewe kubara ubuhinga bwa SHA256.
@@ -127,7 +127,7 @@ Kugira ngo tubone uburemere bw’ivyo bikorwa, rimbura Miner isanzwe ishobora gu
 Guhindura ingorane ni uburyo buhambaye cane mu gukora kw’uruja n’uruza rwa Bitcoin, kugira ngo amabuye acukurwa mu mwanya w’iminota 10 yose. Ico gihe ni ica mwayeni kubera ko igikorwa ca Mining mu vy’ukuri ari urukino rw’ibishoboka, rusa n’ugutera amadayimoni mu cizigiro co kuronka umubare uri hasi y’umubare usobanurwa n’ingorane. Buri mabuye yo mu 2016, iyo nzira irahindura ingorane ya Mining ishingiye ku gihe gisanzwe gikenewe kugira ngo umuntu ashobore gucukura amabuye ya kera. Iyo igihe gisanzwe kirenze iminota 10, ingorane iragabanywa, kandi ibihushanye n’ivyo, iyo igihe gisanzwe kiri hasi, ingorane iragwira. Ubwo buryo bwo guhindura butuma igihe ca Mining c’amabuye mashasha kiguma ari kimwe uko igihe kigenda kirarenga, ata kuraba umubare w’abacukuzi canke ububasha bwose bwo gukoresha ubuhinga bw’ibarabara. Ni co gituma Bitcoin Blockchain yitwa kandi Igikoresho c’Igihe.
 
 
-![image](assets/en/03.webp)
+![image](assets/en/003.webp)
 
 
 
@@ -145,7 +145,7 @@ Ku bijanye n’iterambere ry’amamashini Bitcoin Mining, birahambaye kumenya ko
 Kubera ko ubuhinga buhora butera imbere mu bijanye n’ubuhinga bwa Mining, abahinga bategerezwa kwishingira intahe. Inganda za Mining ziguma zigira ibintu bishasha, nk’uko vyerekanwa n’ugusohoka kwa vuba kwa J version ya S19 be n’ugusohoka kw’itegeko kwa S19 XP, itanga ubushobozi bwinshi cane bwa Mining. Ikindi kandi, ivyo gutera imbere ntibijanye gusa n’ingene amamashini akora neza. Nk’akarorero, iyo modoka nshasha yitwa S19 XP ikoresha ubuhinga bwo gukonjesha Liquid, ubuhinga buhinduwe butuma habaho iterambere rikomeye mu bijanye n’ugukoresha neza inguvu. Naho ubuhinga bushasha buguma ari ikintu kidahinduka, inyungu z’ubushobozi zo muri kazoza zizoba ntoyi ugereranije n’izo twabonye gushika ubu, bivuye ku gushika ku rugero runaka rw’ubuhinga bushasha.
 
 
-![image](assets/en/04.webp)
+![image](assets/en/004.webp)
 
 
 Mu gusozera, inganda ya Bitcoin Mining irabandanya kwimenyereza no gutera imbere, kandi abayikora bategerezwa kwitega inyungu zizogabanuka mu gihe kizoza maze bagahindura ingamba zabo bivanye n’ivyo. Iterambere ry’ubuhinga ryo muri kazoza, naho nyene rikiriho, rirashobora kuba ku rugero rutoyi, ivyo bikaba vyerekana ko urwo rwego ruriko rurakura.
@@ -163,7 +163,7 @@ Mu gusozera, inganda ya Bitcoin Mining irabandanya kwimenyereza no gutera imbere
 Ubu, Bitcoin Mining yarateye imbere iba inganda ikomeye kandi ikomeye, n’abakinyi benshi ubu bazwi ku mugaragaro kandi umubare w’abacukuzi b’amabuye y’agaciro bahambaye uriko uragwira. Iryo hinduka ryatumye Mining hafi idashobora gushikirwa n’abakinyi batobato kubera amahera menshi ajanye no kuronka imashini nshasha za Mining. Ivyo bivyura ikibazo c’ugusangira Hashrate mu bantu batandukanye bafise uruhara mw’isoko. Ivyo biragoye kuko ni ngombwa gusuzuma ukuntu Hashrate igabanywa mu masosiyete atandukanye no mu bidengeri bitandukanye vya Mining.
 
 
-![image](assets/en/05.webp)
+![image](assets/en/005.webp)
 
 
 Mining pool ni umugwi w'abacukuzi bafatanya ubuhinga bwabo bwo gukoresha ubuhinga bwa none kugira ngo bongere amahirwe yabo yo kuronka Mining. Ukwo gukorana ni ngombwa kubera ko imashini ntoyi Mining iri ukwayo iriko irahiganwa n’ibigo bikomeye vy’inganda, ivyo bikaba bigabanya amahirwe yayo yo kuroranirwa gushika ku rugero rudahambaye. Mining ikora ku ngingo ngenderwako y'amatora, kandi amahirwe yo gutsinda igice (kandi rero impembo ya Bitcoin) buri minota cumi ni make cane ku muntu mutoyi Miner. Mu gukoranya, abacukuzi barashobora gukoranya ububasha bwabo bwo gukoresha ubuhinga bwa none, bagatora amabuye kenshi, hanyuma bagatanga impembo zijanye n’intererano ya Miner imwe imwe muri iyo nzira.
@@ -210,7 +210,7 @@ Gushira hamwe Mining birafatwa nk’ingorane ikomeye. Abakinyi bakuru, nka Found
 Ivyago vyo gutegeka Birashimikwako ko iyo igihugu nka Leta Zunze Ubumwe za Amerika gifata ingingo yo gutegeka canke kubuza amafaranga amwamwe ya Bitcoin, vyoshobora kugira ingaruka zikomeye ku rubuga, cane cane iyo igice kinini c’ububasha bwo gukora hashing kiri muri ico gihugu.
 
 
-![image](assets/en/06.webp)
+![image](assets/en/006.webp)
 
 
 Kugira ngo barwanye iyo nzira yo gushiramwo ibintu vyose hamwe, haraganirwako ingamba zitandukanye:
@@ -248,7 +248,7 @@ Ico gikorwa ca Attakai kiva ku ngeragezo y’umuntu ku giti ciwe yo mu rugo-Mini
 Amaze gushikiriza umugambi wabo umuryango wa Bitcoin no kubona inyungu yawuteye, abahinguzi ba Attakai baciye bafata ingingo yo gusohora ubuyobozi burambuye ku rubuga rwa Découvre Bitcoin, kugira ngo umuntu wese ashobore kwisubirako ubumenyi bwiwe bwo muhira-GW-111. Ubu barategura kwagura ico ciyumviro kikarenga ivyo mu rugo. Intumbero ni iyo kwerekana ingene Miner yahinduwe ishobora guhindurwa ikaba igikoresho co gushushanya c’inyongera gikoreshwa mu gihe c’imbeho, kigatuma umuntu ashobora guhindukira neza mu gice ca kabiri c’amahugurwa, kikaba kijanye n’ugushirwa mu ngiro kw’ivyo bihinduwe, ivyo bikaba vyerekanywe n’amavidewo asigura. Ariko rero, ikibazo kiguma ari uko iyo ngingo yoshobora kwagurwa ku rugero runini, igatanga ubundi buryo bushoboka kandi buramba bwo gusubirira imibumbe ya Mining iriho ubu.
 
 
-![image](assets/en/07.webp)
+![image](assets/en/007.webp)
 
 
 ### Mbega iyo nzira yo kwegereza ubutegetsi ikihe?
@@ -284,7 +284,7 @@ Ku bijanye n’ikibazo c’ivyo bikwiye gushirwa mu gice ca Bitcoin, birahambaye
 Kubera iterambere ryitezwe rya Lightning Network be n’ukwiyongera kw’ugufungura n’ugufunga imigende, ikibanza mu mabarabara ya Bitcoin kizorushiriza kugira agaciro. Umuryango wa Bitcoin uramaze guha agaciro ukuzigama iki kibanza, ukemera ko gifise aho kigarukira. Ukwo kumenya kwatumye haba ibiganiro ku bijanye n'ugukoresha mu buryo bubereye umwanya w'amabuye, n'ivyiyumviro ku bijanye n'"ubutumwa butari bwo" kuri Blockchain buva ku bikorwa vy'ubudandaji bibonwa ko bitari ngombwa.
 
 
-![image](assets/en/08.webp)
+![image](assets/en/008.webp)
 
 
 Ivyiyumviro bikikuje ikoreshwa ry’ikibanza c’amabuye muri kazoza, ariko muri rusangi vyemerwa ko ari ubutunzi buke bukwiye gukoreshwa neza. Naho hari icipfuzo co kuwuzuza, ni ngombwa ko uwuzigama kugira ngo uruja n’uruza rwa Bitcoin rubeho igihe kirekire, umuntu yiteze ko mu gihe kizoza hazoba hariho ukwiyongera kw’abashaka umwanya wo gukora amabuye. Nk’uko biri mw’isoko ryose ry’uburenganzira, Supply n’ugusaba bizotegeka ikoreshwa ry’ahantu h’amabuye. Kubera ko Supply ifise aho igarukira, abafatanyabikorwa bazokenera guhitamwo neza ivyerekeye gukoresha iki kibanza c’agaciro kugira ngo urubuga rwa Bitcoin rukore neza kandi rutekanye mu kiringo kirekire.
@@ -305,7 +305,7 @@ Uruhara rw’abacukuzi b’amabuye y’agaciro mu rubuga rwa Bitcoin rwabaye iki
 Mu gihe c’intambara z’ubunini bw’amabuye, abacukuzi benshi bari barwanya ibintu bimwebimwe vyariko biraba muri iyo nzira, ivyo bikaba vyerekana ko hariho ukutumvikana hagati y’abafatanyabikorwa batandukanye mu bijanye n’ibidukikije. Ikibazo kiguma ari ingene tworinganiza ububasha hagati y'abacukuzi, ama node, n'abakoresha kugira ngo umutekano w'igihe kirekire wa Bitcoin.
 
 
-![image](assets/en/09.webp)
+![image](assets/en/009.webp)
 
 
 Ingorane y’umutekano wa Bitcoin ishingiye ku buringanire bugoye. Naho abacukuzi bafise uruhara runini mu kwemeza no kurema amabuye, amanode arabungabunga ubutungane mu kugenzura no kwemeza ibikorwa n’amabuye. Igipande kitari co canke c’ubuhendanyi kizokwangwa n’ibihimba, gutyo bigacengera Miner kandi bikazigama umutekano w’urubuga. Inguvu na zo nyene zifatwa n’ibihimba n’abakoresha urubuga rwa Bitcoin. Nodes zifise ububasha bwo kugenzura no kwemeza, mu gihe abakoresha bafise ububasha bwo guhitamwo Blockchain bakoresha. Ukwo gusangira ububasha gutuma urusobe rwa Bitcoin rusangira n’ubutungane.
@@ -323,7 +323,7 @@ Mu mpera, inshingano zisangizwa n’abakozi bose bo mu mugwi wa Bitcoin. Kugaban
 Ivyiyumviro vy’umukino w’agaciro vya Satoshi Nakamoto vyashizeho ikintu aho umukinyi wese wo mu mugwi wa Bitcoin atera intege gukora neza kugira ngo akingire inyungu ziwe bwite n’iz’abandi bari muri iyo nama. Ivyo bituma haba uburinganire aho inyifato mbi ishobora guhanwa, gutyo bikaba bituma umutekano n’ugushikama kw’urutonde rwose bikomera. Naho iyo nzira y’uburinganire iriho, ibihugu biracari ikintu gishobora gutera ubwoba. Nk’uko vyerekanwa mu kiganiro ca Surfing Bitcoin 2022, Leta zirashobora kugerageza gutera inganda za Mining, zigatuma urubuga rwa Bitcoin rugira ingorane zo gushiramwo ibintu vyose hamwe no guterwa. Ivyiyumviro nk’igitero c’ingabo kigatera ibikorwa vy’ubuhinga bwa Mining birerekana akamaro ko guhinduranya ahantu n’inganda kugira ngo uruja n’uruza rwa Bitcoin rushobore gukomera.
 
 
-![image](assets/en/10.webp)
+![image](assets/en/010.webp)
 
 
 Gushira hamwe ibikorwa vyo gukora ibikoresho vya Mining mu Bushinwa biratera ikindi kibazo. Kwanka kwohereza hanze imashini za Mining canke kwirundanira Hashrate kubera igitero gishobora guterwa n’Ubushinwa ku rugero rwa 51%, birerekana ko bikenewe ko habaho ubuhinga butandukanye bwo gukora ibikoresho vya Mining. Mu kwishura kuri ivyo bibazo, umuryango wa Bitcoin uriko urarondera n’umwete inyishu. Amashirahamwe nka Intel ariko ariyumvira gukora ibikoresho vya Mining muri Amerika, bikaba bifasha mu gukwiragiza ivyo bakora. Ibindi bikorwa, nk'Igikoresho co Gutegura Mining (MDK) ca Block, kigamije kugabanya uburenganzira bwo guhingura no gukora ibikoresho vya Mining, bikaba vyemeza ko Hashrate ishobora gukwiragizwa cane. Mu mutima w’ivyo biganiro harimwo ubutumwa nyamukuru bwa Bitcoin: kuba urubuga rw’agaciro rwa Exchange rushobora guhangana n’ugucengera. Umuryango wa Bitcoin uguma wihatira gukomeza ugukwiragiza, kurwanya ugucengera, no kurwanya ubugoyagoye bw’urubuga, ukanka ivyiyumviro nk’uguhindukira ukaja ku kimenyamenya c’uruhara, bidahuye n’izo ngingo ngenderwako z’ishimikiro.
@@ -335,7 +335,7 @@ Gushira hamwe ibikorwa vyo gukora ibikoresho vya Mining mu Bushinwa biratera iki
 Proof of Work (PoW) ni nkenerwa kuko igereranya ubucuti buri hagati y'isi nyakuri na Bitcoin. Naho ama bitcoins ataboneka, kuyahingura bisaba inguvu ziboneka, gutyo bikaba bishinga ubucuti butaziguye n’isi y’umubiri n’iy’ukuri. Iryo huriro rituma uguhingura no kwemeza bitcoins n’amabuye bifise igiciro nyaco c’inguvu, gutyo bigatuma urubuga rwa Bitcoin rushinga intahe mu vy’ukuri vy’umubiri kandi bikabuza kuganzwa n’ibigo bikomeye. PoW ikora nk’igihome co kurwanya ugushira hamwe, igatuma kugira uruhara mu rubuga no kwemeza ibikorwa bisaba ishoramari mu bintu bifatika. Ivyo bibuza ko urubuga rudakoreshwa n’ibigo vyari gushobora gufata ububasha ata nzitizi ikomeye yo kwinjira, gutyo bikaba bituma ububasha n’ububasha bigabanywa mu buryo bubereye mu rubuga rwa Bitcoin.
 
 
-![image](assets/en/11.webp)
+![image](assets/en/011.webp)
 
 
 ### Imipaka y'Ikimenyamenya c'Igiti
@@ -365,7 +365,7 @@ Igiciro ca Hash kiriho ubu, naho igiciro ca Bitcoin kiri ku madolari 30.000 uger
 Ivyo bintu vyerekana kandi ukuntu Bitcoin ishobora guhangana n’ingorane, akenshi igasuzumwa bivanye n’igiciro cayo. Ariko rero, gusuzuma bimwe bikomeye ubuzima bwa Bitcoin bisaba gusuzuma igipimo cayo ca Hash, kikaba ari co gipima imibare ku segonda iri mu rubuga rwa Bitcoin. Naho igiciro ca Bitcoin gihinduka, igiciro caco, gifitaniye isano n’amashanyarazi akenewe kugira ngo imashini za Mining zikore, kiracari gihambaye kugira ngo umuntu atahure ingene isoko rigenda. Mu kwibanda ku giciro aho kwibanda ku giciro, umuntu araronka iciyumviro gihuye cane ku bijanye n’ugushikama kwa Bitcoin be n’ukuntu ishobora kubaho mu kiringo kirekire. Muri rusangi, igiciro ca Bitcoin kijanye n’igiciro cayo, bikaba bituma umuntu atahura neza ukuntu igiciro gihinduka be n’ivyo azobona muri kazoza.
 
 
-![image](assets/en/12.webp)
+![image](assets/en/012.webp)
 
 
 ### Hash igipimo n'impera
@@ -419,7 +419,7 @@ Ariko rero, Mining itanga uburyo budasanzwe bwo kwinjira mu bidukikije vya Bitco
 Naho hariho izo nzira, Mining iratanga ingorane zikomeye. Iryo jambo rizwi cane mw'isi y'amafaranga y'amahera, "Si imfunguruzo zawe, si Bitcoins zawe," ribona ijwi nk'iryo mw'isi ya Mining: "Si Hashrate yawe, si impembo yawe." Inkuru z’uguhemuka n’amamashini ataco akora ni ibisanzwe, abakinyi benshi basezerana ibisubizo bidasanzwe ariko ntibashikeko. Ibibazo vy’amashanyarazi Supply n’ugusenyuka kw’imashini birashobora gutuma abashoramari batagira ububasha, bafise ibikoresho bizimvye batagenzura. Muri ivyo, ukwiyubara no gutahura cane urwego rwa Mining ni ngirakamaro cane imbere y’uko umuntu arugiramwo uruhara. Naho hariho uturyo two kuronka inyungu, ingorane zishobora gushikako ni nyinshi cane, kandi uburyo bushingiye ku makuru kandi bwiyumviriye ni ngombwa kugira ngo umuntu ashobore kugendera muri uwo muce ugoye kandi akenshi udashobora kumenyekana. Ni ngombwa rero gukora ubushakashatsi bwimbitse no gupima neza ivyiza n’ibibi imbere y’uko ukora Bitcoin Mining.
 
 
-![image](assets/en/13.webp)
+![image](assets/en/013.webp)
 
 
 ### Bitcoins z'isugi
@@ -440,7 +440,7 @@ Muri ivyo, guhitamwo uburyo bwo kwigenga kandi bwigishijwe bwo gukora Mining bis
 Kubera ikibazo c’uko Mining yoshobora kubuzwa mu Buraya, ibiganiro ku bijanye n’amategeko biriko birarushiriza kugira akamaro. Ivyo bihimba vy’amategeko bihinduka birashobora vy’ukuri kugira ico bikoze cane ku bijanye n’ubuhinga bwa Bitcoin Mining. Ivyo gukumira Mining mu Buraya ni ikintu umuntu yokwiyumvira, cane cane turavye ivyo vyabaye mu Bushinwa. Naho ibikorwa vya Mining bibandanya mu Bushinwa naho vyabujijwe, Uburayi bwoshobora gukurikira inzira nk’iyo. Gukwirakwiza cane Hashrate mu turere dutandukanye vyoshobora gufasha gukomeza umuryango wa Mining mu Buraya, bikabashoboza guhangana n’ukutumvikana n’ivyiyumviro bitari vyo ku bijanye na Mining, ingaruka zayo ku bidukikije, n’ikirenge cayo ku ruzitiro rw’amashanyarazi.
 
 
-![image](assets/en/14.webp)
+![image](assets/en/014.webp)
 
 
 Kubera ko hariho amasekeza nk’aya Greenpeace be n’imibare akenshi izimiza iva mu nyigisho zimwezimwe, intwaro nziza kuruta izindi zose iguma ari amakuru y’ukuri. Ni ngombwa kumenyesha abantu bose muri rusangi n’abafata ingingo ivyerekeye ukuri kwa Mining, ukuntu igoye, n’ibintu bitari vyo, aho kubareka bizigira ivyiyumviro bitari vyo n’amakuru atari yo. Uko abantu barushiriza kumenyeshwa no kumenya ico Mining ari co vy’ukuri, ni ko iyo nganda ishobora kwikingira neza amategeko ashobora kubabuza.
@@ -546,7 +546,7 @@ Antminer S9 iza mu mice myinshi (i, j) ihindura utuntu dutoduto ku bikoresho vy�
 Igiciro ca ASICs kirahindagurika bivanye n’ibintu vyinshi nk’igiciro ca Bitcoin, ingorane z’uruja n’uruza, ubushobozi bw’imashini, n’igiciro c’amashanyarazi. Ni co gituma bigoye gutanga ingereranyo y’ukuri y’ugugura imashini ikoreshwa. Muri Ruhuhuma 2023, igiciro citezwe mu Bufaransa muri rusangi kiva ku €100 gushika ku €200, ariko ivyo biciro birashobora guhinduka ningoga.
 
 
-![image](assets/en/15.webp)
+![image](assets/en/015.webp)
 
 
 Antminer S9 igizwe n’ibice bikurikira:
@@ -556,54 +556,54 @@ Antminer S9 igizwe n’ibice bikurikira:
 - 3 hashboards zirimwo ama chips atanga ubushobozi bwo gukora hashing.
 
 
-![image](assets/en/16.webp)
+![image](assets/en/016.webp)
 
 
 
 - Igipande co kugenzura kirimwo ahantu ho gushiramwo ikarita SD, icuma ca Ethernet, n’ibifatanya hashboards n’abafana. Ubu ni ubwonko bwa ASIC yawe.
 
 
-![image](assets/en/17.webp)
+![image](assets/en/017.webp)
 
 
 
 - 3 intsinga z’amakuru zihuza ama hashboards n’ibarabara ry’ubugenzuzi.
 
 
-![image](assets/en/18.webp)
+![image](assets/en/018.webp)
 
 
 
 - Inguvu Supply, ikoresha 220V kandi ishobora guterwa nk’igikoresho co mu nzu gisanzwe.
 
 
-![image](assets/en/19.webp)
+![image](assets/en/019.webp)
 
 
 
 - 2 Abafana ba 120mm.
 
 
-![image](assets/en/20.webp)
+![image](assets/en/020.webp)
 
 
 
 - Umugozi w’igitsina gabo C13.
 
 
-![image](assets/en/21.webp)
+![image](assets/en/021.webp)
 
 
 Igihe ugura imashini ikoreshwa, birahambaye ko usuzuma ko ibihimba vyose birimwo kandi ko bikora. Mu gihe ca Exchange, ukwiye gusaba uwugurisha ngo afungure iyo mashini kugira ngo asuzume ko ikora neza. Ni ngombwa kugenzura ko igikoresho gifunguye neza, hanyuma ugasuzuma ko interineti ikora mu gushiramwo umugozi wa Ethernet no gushika ku nzira yo kwinjira muri Bitmain Interface biciye ku mucukumbuzi w’urubuga kuri iyo nzira nyene yo mu karere. Ushobora kuronka iyo IP Address mu kwifatanya na router yawe ya internet Interface ukarondera ibikoresho bihuye. Iyi Address ikwiye kuba ifise uburyo bukurikira: 192.168.x.x .
 
 
-![image](assets/en/22.webp)
+![image](assets/en/022.webp)
 
 
 Kandi, suzuma ko ivyemezo vy’imbere bikora (izina ry’ukoresha: umuzi, ijambobanga: umuzi). Nimba ivyemezo vy’imbere bitakora, uzokenera gusubiramwo imashini.
 
 
-![image](assets/en/23.webp)
+![image](assets/en/023.webp)
 
 
 Iyo umaze guhuzwa, ushobora kubona uko hashboard yose iri ku dashboard. Niba Miner ifatanye n’ikidengeri, ushobora kubona ama hashboards yose akora. Ni vyiza kumenya ko abacukuzi b’amabuye y’agaciro batera urusaku rwinshi, ivyo bikaba ari ibisanzwe. Kandi, urabe neza ko abafana bakora neza.
@@ -638,19 +638,19 @@ Nimba uri umuhinga mu vyo gukora amaboko kandi uriko urarondera guhindura Miner 
 Abafana b’umwimerere ba Antminer S9 baratera urusaku cane ku buryo udashobora gukoresha Antminer yawe nk’igikoresho co gushusha. Umuti ni ukubasubirira abafana bacereje. Ishirahamwe ryacu ryagerageje ibikoresho vyinshi biva ku kimenyetso ca Noctua kandi ryahisemwo Noctua NF-A14 iPPC-2000 PWM nk’iyindi nzira nziza yo gusenyera ku mugozi umwe. Raba neza ko uhisemwo version ya 12V y’abafana. Iyi fan y’iminota 140 ishobora gutanga ubushuhe bushika kuri 1200W mu gihe iguma ifise urusaku rw’ivyiyumviro rwa 31 dB. Kugira ngo ushiremwo izo fans za 140mm, uzokenera gukoresha adapteur ya 140mm gushika kuri 120mm, iyo ushobora kuyisanga ku iduka rya DécouvreBitcoin. Tuzokwongerako kandi n’ibipande vy’uburinzi vy’iminota 140.
 
 
-![image](assets/en/24.webp)
+![image](assets/en/024.webp)
 
-![image](assets/en/25.webp)
+![image](assets/en/025.webp)
 
-![image](assets/en/26.webp)
+![image](assets/en/026.webp)
 
 
 Igikoresho co gukoresha umuyagankuba Supply na co nyene kiratera urusaku cane kandi gikeneye gusubirwamwo. Turabagira inama yo gukoresha ubuhinga bwa Noctua NF-A6x25. Zirikana ko ama connecteurs y’aba fans ba Noctua atari kimwe n’ay’intango, rero uzokenera adapteur y’ama connecteurs kugira ngo uyahuze. Ibiri bizoba bihagije. Na none, urabe ko uhisemwo 12V version y’umuyaga.
 
 
-![image](assets/en/27.webp)
+![image](assets/en/027.webp)
 
-![image](assets/en/28.webp)
+![image](assets/en/028.webp)
 
 
 2. Wongereko ikiraro ca WIFI/Ethernet
@@ -659,9 +659,9 @@ Igikoresho co gukoresha umuyagankuba Supply na co nyene kiratera urusaku cane ka
 Aho gukoresha umugozi wa Ethernet, urashobora gufatanya Antminer yawe biciye kuri WIFI mu kwongerako ikiraro ca WIFI/Ethernet. Twahisemwo vonets vap11g-300 kuko ishobora kugufasha gukura ikimenyetso ca WIFI mu gasandugu kawe ka Internet ukagirungikira Antminer yawe biciye kuri Ethernet ata subnet ukoze. Niba ufise ubuhinga bwo gukoresha amashanyarazi, urashobora kuyikoresha ataco ukoresheje amashanyarazi ya Antminer Supply ataco ukeneye kwongerako chargeur ya USB. Ku bw’ivyo, uzokenera igikoresho c’igitsina gore c’uburebure bwa 5.5mmx2.1mm.
 
 
-![image](assets/en/29.webp)
+![image](assets/en/029.webp)
 
-![image](assets/en/30.webp)
+![image](assets/en/030.webp)
 
 
 3. Uguhitamwo: wongereko umuriro w'ubwenge
@@ -670,7 +670,7 @@ Aho gukoresha umugozi wa Ethernet, urashobora gufatanya Antminer yawe biciye kur
 Niba ushaka gufungura/kuzimya Antminer yawe ukoresheje telefone yawe ngendanwa no kugenzura uko ikoresha amashanyarazi, urashobora kwongerako umuriro w’ubwenge. Twaragerageje umuriro wa ANTELA muri verisiyo ya 16A, uhuye n’iporogarama ya smartlife. Iyi smart plug iragufasha kubona amashanyarazi ukoresha ku musi no ku kwezi kandi igahuza n’umurongo wawe wa internet biciye kuri WiFi.
 
 
-![image](assets/en/31.webp)
+![image](assets/en/031.webp)
 
 
 Urutonde rw'ibikoresho n'amahuza
@@ -719,19 +719,19 @@ Inguvu z’ikiraro mu kugifatanya biciye kuri USB.
 Uvuye kuri mudasobwa yawe, ushire ku rubuga rwa WIFI rwa VONETS_**\*\*** ukoresheje ijambobanga 12345678.
 
 
-![image](assets/en/32.webp)
+![image](assets/en/032.webp)
 
 
 Injira n'izina ry'ukoresha "admin" n'ijambobanga "admin".
 
 
-![image](assets/en/33.webp)
+![image](assets/en/033.webp)
 
 
 Hitamwo Umupfumu.
 
 
-![image](assets/en/34.webp)
+![image](assets/en/034.webp)
 
 
 Hitamwo urubuga rwa WIFI ushaka gufatanya na Miner yawe, hanyuma ukande kuri Next.
@@ -740,7 +740,7 @@ Hitamwo urubuga rwa WIFI ushaka gufatanya na Miner yawe, hanyuma ukande kuri Nex
 ICIBUKIRO: Ikiraro ca Vonet gikora gusa ku nzira ya 2.4GHz. Muri iki gihe, ama router akenshi atanga ama WIFI abiri, imwe iri kuri 2.4GHz iyindi iri kuri 5GHz.
 
 
-![image](assets/en/35.webp)
+![image](assets/en/035.webp)
 
 
 Injira ijambobanga ry'urubuga rwawe rwa WIFI mu kibanza "Ijambobanga ry'isoko rya WIFI hotspot". Niba udashaka gukoresha ikiraro cawe ca Vonet kugira ngo wongere urubuga rwawe rwa WIFI, reba akazu kavuga ngo "Disable Hotspot". Ahandi ho, n’ubireke bitagenzuwe.
@@ -771,7 +771,7 @@ Ubwo buryo burashobora gukoreshwa hagati y’iminota 2 n’iminota 10 umaze guta
 Iminota 2 inyuma yo gufungura Miner, usabwe gukanda buto ya "Reset" mu masegonda 5, hanyuma ukayirekura. Miner izosubira ku mirongo y’uruganda mu minota 4 kandi izosubira gukora ubwayo (nta nkeka ko uyizimya).
 
 
-![image](assets/en/36.webp)
+![image](assets/en/036.webp)
 
 
 ## Gushiramwo BraiinsOS+ ku gikoresho co gucukura ibinyoma S9.
@@ -796,13 +796,13 @@ Aha, turabona ingene woshiramwo Braiins OS+ mu buryo bworoshe ataco uhinduye ku 
 3. Ufungure dosiye wavuyeko maze ufungure dosiye bos-toolbox.bat. Hitamwo ururimi, haciye akanya gato, uzobona iri dirisha:
 
 
-![image](assets/en/37.webp)
+![image](assets/en/037.webp)
 
 
 4. Bos igikoresho kizotuma ushobora kuronka IP Address ya Antminer yawe mu buryo bworoshe maze ugashiramwo BraiinsOS+. Niba usanzwe uzi IP Address y’imashini yawe, urashobora guca ku ntambwe ya 8. Ahandi ho, genda ku rubuga rwo gucapura.
 
 
-![image](assets/en/38.webp)
+![image](assets/en/038.webp)
 
 
 5. Kenshi, ku nzira zo muhira, urutonde rwa IP Address ruri hagati ya 192.168.1.1 na 192.168.1.255, rero shiramwo "192.168.1.0/24" mu kibanza c'urutonde rwa IP. Nimba urubuga rwawe rutandukanye, usabwe guhindura izo aderesi bivanye n’ivyo. Hanyuma ukande kuri "Start".
@@ -814,7 +814,7 @@ Aha, turabona ingene woshiramwo Braiins OS+ mu buryo bworoshe ataco uhinduye ku 
 7. Ushobora kubona aba Antminers bose bari ku rubuga rwawe baboneka hano, kandi IP Address ni 192.168.1.37.
 
 
-![image](assets/en/39.webp)
+![image](assets/en/039.webp)
 
 
 8. Fyonda kuri "Back" hanyuma ukande kuri "Install", winjize IP Address wabonye mbere, hanyuma ukande kuri "Start".
@@ -822,7 +822,7 @@ Aha, turabona ingene woshiramwo Braiins OS+ mu buryo bworoshe ataco uhinduye ku 
 
 > Iyo installation idakora, bishobora kuba ngombwa ko ukora reset maze ugasubira kugerageza (raba igice c’imbere).
 
-![image](assets/en/40.webp)
+![image](assets/en/040.webp)
 
 
 9. Haciye igihe gito, Antminer yawe izosubira gukora maze uzoshobora gushika kuri Braiins OS+ Interface kuri IP Address yatanzwe, hano 192.168.1.37, ataco uhinduye mu murongo wa Address w’umucukumbuzi wawe. Izina ry'ukoresha ry'imbere ni "umuzi" kandi nta jambobanga ry'imbere.
@@ -854,7 +854,7 @@ Uzoca uramutswa n’Igikoresho ca Brains OS+.
 ### Urubaho
 
 
-![image](assets/en/41.webp)
+![image](assets/en/041.webp)
 
 
 Kuri iyi paji ya mbere, urashobora kwihweza ingene imashini yawe ikora mu gihe nyaco.
@@ -866,7 +866,7 @@ Kuri iyi paji ya mbere, urashobora kwihweza ingene imashini yawe ikora mu gihe n
 - Hasi, umuvuduko w’umuyaga nk’ijanisha ry’umuvuduko munini cane n’umubare w’ibizunguruka ku munota.
 
 
-![image](assets/en/42.webp)
+![image](assets/en/042.webp)
 
 
 
@@ -879,19 +879,19 @@ Kuri iyi paji ya mbere, urashobora kwihweza ingene imashini yawe ikora mu gihe n
 ### Gutunganya
 
 
-![image](assets/en/43.webp)
+![image](assets/en/043.webp)
 
 
 ### Ubugyo
 
 
-![image](assets/en/44.webp)
+![image](assets/en/044.webp)
 
 
 ### Ibikorwa vyihuta
 
 
-![image](assets/en/45.webp)
+![image](assets/en/045.webp)
 
 
 # Attakai - Guhindura umufana
@@ -908,7 +908,7 @@ Kuri iyi paji ya mbere, urashobora kwihweza ingene imashini yawe ikora mu gihe n
 
 > IMBURIZO: Ni ngombwa ko uba warashizeho Braiins OS+ kuri Miner yawe, canke iyindi porogarama yose ishobora kugabanya ubushobozi bw’imashini yawe. Ico gipimo ni ikintu gihambaye cane kuko kugira ngo tugabanye urusaku, tuzoshiraho ama ventilateur atagira ubushobozi bwinshi ashobora gukuraho ubushuhe buke.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Ibikoresho bisabwa
@@ -921,88 +921,88 @@ Kuri iyi paji ya mbere, urashobora kwihweza ingene imashini yawe ikora mu gihe n
 
 > IMBURIZO: Mbere na mbere, imbere y’uko utangura, urabe neza ko ukuye umuyagankuba wawe Miner kugira ngo wirinde ingorane iyo ari yo yose yo gukubitwa n’umuyagankuba.
 
-![image](assets/en/47.webp)
+![image](assets/en/047.webp)
 
 
 Ubwa mbere, ukureho izo nkoko 6 ziri ku ruhande rw’ico kigega ziyigumya. Ivyo bipfukisho bimaze gukurwaho, fungura neza igikapu kugira ngo ukureho uburinzi bw’ipulasitike bupfutse ivyo bihimba.
 
 
-![image](assets/en/48.webp)
+![image](assets/en/048.webp)
 
-![image](assets/en/49.webp)
+![image](assets/en/049.webp)
 
 
 Igikurikira, ni igihe co gukuraho umuyaga w’intango, ukitwararika kugira ngo ntuhonye ibindi bihimba. Kugira ngo ubikore, nukureho ibipfukisho biyifata mu kibanza cayo maze ukureho buhoro buhoro iyo glue yera ikikuje iyo nkoko. Ni vyiza gukomeza witonze kugira ngo ntuhonye amawaya canke ibifatanya.
 
 
-![image](assets/en/50.webp)
+![image](assets/en/050.webp)
 
 
 Iyo ventilateur y’intango ikuweho, uzobona ko ama connecteurs y’i ventilateur nshasha ya Noctua adahuye n’ay’i ventilateur y’intango. Nkako, iyo ventilateur nshasha ifise intsinga 3, harimwo n’intsinga y’umuhondo ituma umuntu ashobora kugenzura umuvuduko. Ariko rero, iyo nsinga ntizokoreshwa muri iki gihe kidasanzwe. Kugira ngo umuntu ashobore gufatanya iyo ventilateur nshasha, ni vyiza rero ko akoresha adapteur idasanzwe. Ariko rero, birahambaye kumenya yuko rimwe na rimwe iyo adapteur ishobora kugora kuronka.
 
 
-![image](assets/en/51.webp)
+![image](assets/en/051.webp)
 
 
 Nimba udafise iyo adapteur, urashobora gukomeza gufatanya iyo ventilateur nshasha ukoresheje isukari y’umuhinga mu vy’amashanyarazi. Kugira ngo ubikore, uzokenera guca intsinga z’umuyaga wa kera n’uwa kera.
 
 
-![image](assets/en/52.webp)
+![image](assets/en/052.webp)
 
-![image](assets/en/53.webp)
+![image](assets/en/053.webp)
 
 
 Ku gikoresho gishasha co gucapura, ukoreshe igikoresho co gucapura maze uce witonze imirongo y’igipfukisho nyamukuru ku cm 1 utacitse ibipfukisho vy’imirongo iri musi.
 
 
-![image](assets/en/54.webp)
+![image](assets/en/054.webp)
 
 
 Hanyuma, mu gukurura igipfukisho nyamukuru kija hasi, uce igipfukisho c’imirongo y’umutuku n’iy’umwirabura nk’uko vyari kera. Kandi ukate umugozi w’umuhondo.
 
 
-![image](assets/en/55.webp)
+![image](assets/en/055.webp)
 
 
 Ku gikoresho ca kera c’umuyaga, birarushiriza kuba vyiza guca igipfukisho nyamukuru ataco wononekaye igipfukisho c’intsinga zitukura n’iz’umwirabura. Kugira ngo ivyo bishoboke, twakoresha urushinge rwadushira hagati y’igipfukisho nyamukuru n’intsinga zitukura n’iz’umwirabura.
 
 
-![image](assets/en/56.webp)
+![image](assets/en/056.webp)
 
-![image](assets/en/57.webp)
+![image](assets/en/057.webp)
 
 
 Intsinga zitukura n’iz’umwirabura zimaze kugaragara, uce ukata neza izo nkoko kugira ngo ntuhonye intsinga z’umuyagankuba.
 
 
-![image](assets/en/58.webp)
+![image](assets/en/058.webp)
 
 
 Hanyuma, ushire intsinga n’isukari, umurongo w’umwirabura n’umwirabura, umurongo w’umutuku n’umutuku. Ushobora kandi kwongerako umugozi w’umuyagankuba.
 
 
-![image](assets/en/59.webp)
+![image](assets/en/059.webp)
 
-![image](assets/en/60.webp)
+![image](assets/en/060.webp)
 
 
 Iyo connection imaze gukorwa, ni igihe co gushiramwo ventilateur nshasha ya Noctua irimwo grille n’ibikoresho vya kera. Ivyo bikoresho bishasha biri muri ako gasandugu bizosubira gukoreshwa mu nyuma. Raba neza ko uyishira mu kibanza kibereye. Uzobona umwampi ku ruhande rumwe rw’ico gikoresho, werekana iyo umuyaga uja. Ni vyiza gushiramwo umuyaga kugira ngo uwo mwampi werekane imbere mu gitereko. Hanyuma wongere ushiremwo umuyaga.
 
 
-![image](assets/en/61.webp)
+![image](assets/en/061.webp)
 
-![image](assets/en/62.webp)
+![image](assets/en/062.webp)
 
 
 > Ivyo ushobora guhitamwo: Niba ufise ubumenyi mu vy’amashanyarazi, urashobora kwongerako ataco uhinduye umuyagankuba w’umugore w’iminota 5,5 ku nzira y’umuyagankuba wa 12V, ivyo bikaba bizotanga umuyagankuba ku kiraro ca Vonet Wi-Fi. Ariko rero, nimba utazi neza ubuhinga bwawe bwo gukoresha umuyagankuba, ni vyiza gukoresha iyo nzira ya USB ifise igikoresho co gucapura nk’ico kuri telefone ngendanwa kugira ngo wirinde ingorane iyo ari yo yose yo gutuma umuyagankuba ugenda mugufi canke ngo umuyagankuba wononekare.
 
-![image](assets/en/63.webp)
+![image](assets/en/063.webp)
 
 
 Amahuza amaze gukorwa, ushire igipfukisho c’ipulasitike hejuru y’ipulasitike y’igisandugu atari imbere.
 
 
-![image](assets/en/64.webp)
+![image](assets/en/064.webp)
 
 
 Ubwa nyuma, usubize igipfukisho c’ikibazo mu kibanza caco maze ushireko izo nkoko 6 ku mpande kugira ngo vyose bigume mu kibanza cavyo. Kandi aho urafise, igikapu cawe c’ububasha Supply ubu gifise umuyaga mushasha.
@@ -1016,7 +1016,7 @@ Ubwa nyuma, usubize igipfukisho c’ikibazo mu kibanza caco maze ushireko izo nk
 
 > IMBURIZO: Ni ngombwa ko uba warashizeho Braiins OS+ kuri Miner yawe, canke uwundi murongo wose ushobora kugabanya ubushobozi bw’imashini yawe. Ico gipimo ni ikintu gihambaye cane kuko kugira ngo tugabanye urusaku, tuzoshiraho ama ventilateur atagira ubushobozi bwinshi, ivyo bikaba bizotuma ubushuhe buke bugenda.
 
-![image](assets/en/46.webp)
+![image](assets/en/046.webp)
 
 
 ### Ibikoresho bisabwa
@@ -1033,15 +1033,15 @@ Ubwa nyuma, usubize igipfukisho c’ikibazo mu kibanza caco maze ushireko izo nk
 1. Ubwa mbere, ushire ama ventilateur maze uyafungure.
 
 
-![image](assets/en/65.webp)
+![image](assets/en/065.webp)
 
 
 2. Ivyo gufatanya ama fans mashasha ya Noctua ntibihuye n’ivyo mu ntango, ariko ntimuhagarike umutima! Kura igikoresho cawe co gucapura maze uce neza utugingo ngengabuzima dutoduto tw’ipulasitike kugira ngo ivyo bifatanya bibe neza kuri Miner yawe.
 
 
-![image](assets/en/66.webp)
+![image](assets/en/066.webp)
 
-![image](assets/en/67.webp)
+![image](assets/en/067.webp)
 
 
 3. Igihe co gushiramwo ibice vya 3D kirageze!
@@ -1049,7 +1049,7 @@ Ubwa nyuma, usubize igipfukisho c’ikibazo mu kibanza caco maze ushireko izo nk
 Bishire ku mpande zompi za Miner ukoresheje amavide wakuye mu bipfunsi. Bishiremwo gushika umutwe w’igipfukisho ushitse ku rugero rumwe n’igice ca 3D kandi kikaba kiri mu kibanza caco. Urabe neza ko udakomeza cane, kuko woshobora gutuma ico gice gihinduka kandi kimwe mu bipfukisho coshobora gukora ku gikoresho co gufatanya umuriro!
 
 
-![image](assets/en/68.webp)
+![image](assets/en/068.webp)
 
 
 4. None rero reka tugende ku bafana.
@@ -1058,31 +1058,31 @@ Bishire ku mpande zompi za Miner ukoresheje amavide wakuye mu bipfunsi. Bishirem
 Bishire ku bihimba vy’ubuhinga bwa 3D ukoresheje amavidewo ari mu gasandugu. Witwararike iyo umuyaga unyura, imyampi iri ku mpande z’ibipfunsi izokwerekana iyo ukwiye gukurikira. Va ku ruhande rw’icuma ca Ethernet uja ku rundi ruhande. Raba ifoto iri musi.
 
 
-![image](assets/en/69.webp)
+![image](assets/en/069.webp)
 
-![image](assets/en/70.webp)
+![image](assets/en/070.webp)
 
-![image](assets/en/71.webp)
+![image](assets/en/071.webp)
 
 
 5. Intambwe ya nyuma: ushiremwo ama ventilateur maze ushireko ama grilles hejuru n’ibikoresho bitakoreshejwe mu gasandugu k’ama ventilateur y’ububasha Supply. Ufise 4 gusa, ariko 2 ku grille mu mfuruka zitandukanye zizoba zihagije. Ushobora kandi kurondera amavi nk’ayo mu iduka ry’ibikoresho vy’ubuhinga nimba bikenewe.
 
 
-![image](assets/en/72.webp)
+![image](assets/en/072.webp)
 
-![image](assets/en/73.webp)
+![image](assets/en/073.webp)
 
 
 Mu gihe urindiriye gushobora gutanga igipfukisho giteye igomwe kuruta c’igikoresho cawe gishasha co gushushanya, urashobora gufatanya igipfukisho n’ububasha Supply n’imirongo y’amashanyarazi.
 
 
-![image](assets/en/74.webp)
+![image](assets/en/074.webp)
 
 
 Kandi ku bijanye n'uguheza, huza ikiraro ca Vonet n'icuma ca Ethernet n'ububasha bwaco Supply.
 
 
-![image](assets/en/75.webp)
+![image](assets/en/075.webp)
 
 
 Kandi aho niho ufise, urakoze! Ubu nyene warasubirije igice cose c'ubuhinga bwa Miner yawe. Ubu rero ukwiye kwumva urusaku ruto cane.
@@ -1129,7 +1129,7 @@ Icogereranyo c'impera kidushimisha ni PPS, kikaba gisobanura "kwishura ku mugaba
 Kugira ngo utunganye ikidengeri muri Braiins OS+, uzokenera gukora konti muri kimwe mu bidengeri uhisemwo. Aha tuzofata akarorero ka Linecoin:
 
 
-![image](assets/en/76.webp)
+![image](assets/en/076.webp)
 
 
 Konti yawe imaze kuremwa, kanda kuri Connect To Pool .
@@ -1138,13 +1138,13 @@ Konti yawe imaze kuremwa, kanda kuri Connect To Pool .
 Hanyuma ukope Stratum Address n'izina ryawe:
 
 
-![image](assets/en/77.webp)
+![image](assets/en/077.webp)
 
 
 Ubu ushobora gusubira kuri Braiins OS+ Interface kugira ngo winjize ivyo bimenyetso. Ku bijanye n'ijambobanga, ushobora gusiga umwanya uri ubusa.
 
 
-![image](assets/en/78.webp)
+![image](assets/en/078.webp)
 
 
 ## Gutuma Antminer yawe S9 ikora neza.

@@ -1,0 +1,9 @@
+question: Какво е първото име на инженера по телекомуникации от Темпъл Сити, когото журналист от Newsweek погрешно идентифицира като Satoshi Nakamoto през март 2014 г.?
+answer: Дориан
+wrong_answers:
+  - Prentice
+  - Satoshi
+  - Патоши
+explanation: |
+  Пълното му име е Dorian Prentice Satoshi Nakamoto. Той е от японски произход. Вижте [статията в Newsweek](https: //www.newsweek.com/2014/03/14/face-behind-bitcoin-247957.html).
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jakiej technologii używa Umbrel do izolowania i zarządzania swoimi aplikacjami?
+answer: Kontenery Docker
+wrong_answers:
+  - Maszyny wirtualne VirtualBox
+  - Skrypty Bash
+  - Klastry Kubernetes
+explanation: |
+  Każda aplikacja w Umbrel działa w kontenerze Docker, umożliwiając niezależne zarządzanie i izolację.
+reviewed: true

@@ -112,7 +112,7 @@ sudo apt install gnupg dirmngr ca-certificates curl --no-install-recommends
 This command installs the tools needed to manage GPG keys (gnupg and dirmngr), SSL certificates (ca-certificates) and the curl download tool.
 
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ```shell
 curl -s https://dl.jami.net/public-key.gpg | sudo tee /usr/share/keyrings/jami-archive-keyring.gpg > /dev/null
@@ -279,4 +279,4 @@ In short, Jami is a complete, secure and flexible communications solution, suita
 Discover Tox, a decentralized protocol that combines end-to-end encryption (E2E), public keys and many other algorithms to offer you optimal communication that protects your confidentiality through its various clients.
 
 
-https://planb.network/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3
+https://planb.academy/tutorials/computer-security/communication/tox-027bc897-8c98-4265-b85b-e78b7ab607f3

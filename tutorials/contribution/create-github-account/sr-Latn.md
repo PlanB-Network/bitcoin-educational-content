@@ -9,7 +9,7 @@ description: Kako kreirati svoj nalog na GitHub-u?
 Misija Plan ₿ je da obezbedi vrhunske obrazovne resurse o Bitcoin, dostupne na što više jezika. Sav sadržaj objavljen na sajtu je otvorenog koda i hostovan na GitHub-u, pružajući svakome priliku da doprinese obogaćivanju platforme. Doprinosi mogu imati različite oblike: ispravljanje i lektura postojećih tekstova, prevodi na druge jezike, ažuriranje informacija ili kreiranje novih tutorijala koji još nisu dostupni na našem sajtu.
 
 
-Ako želite da doprinesete Plan ₿ Network, biće vam potrebno da koristite Git i GitHub, tako da, ako su vam ovi alati nepoznati ili vam njihovo funkcionisanje deluje nejasno, ne paničite, ovaj članak je za vas! Zajedno ćemo pregledati osnove Gita i GitHuba, kao i povezani tehnički žargon, kako bismo vam omogućili da ih efikasno koristite nakon toga.
+Ako želite da doprinesete Plan ₿ Academy, biće vam potrebno da koristite Git i GitHub, tako da, ako su vam ovi alati nepoznati ili vam njihovo funkcionisanje deluje nejasno, ne paničite, ovaj članak je za vas! Zajedno ćemo pregledati osnove Gita i GitHuba, kao i povezani tehnički žargon, kako bismo vam omogućili da ih efikasno koristite nakon toga.
 
 
 ## Šta je Git?
@@ -27,7 +27,7 @@ Jedna od ključnih karakteristika Gita je upravljanje granama. Grana je vrsta pa
 
 Jedna od osobenosti Gita je njegova sposobnost da radi na distribuiran način. Svaki programer ima potpunu kopiju projekta na svom Hard disku računara, što im omogućava da rade offline i kasnije spoje promene kada je dostupna Internet konekcija. Ovo smanjuje rizik od konflikata i omogućava više programera da istovremeno rade na istom projektu bez međusobnog ometanja.
 
-U početku je Git bio prvenstveno dizajniran za projekte razvoja softvera. Međutim, može se koristiti i za upravljanje projektima pisanja sadržaja. Umesto da sarađujemo na kodu, sarađujemo na tekstu. I upravo je ovaj metod Plan ₿ Network usvojio za upravljanje svojim sadržajem! Git olakšava saradnju na pisanju kurseva i tutorijala, jer omogućava precizno praćenje promena, efikasno upravljanje verzijama, a takođe omogućava pregled i poboljšanje sadržaja od strane drugih saradnika.
+U početku je Git bio prvenstveno dizajniran za projekte razvoja softvera. Međutim, može se koristiti i za upravljanje projektima pisanja sadržaja. Umesto da sarađujemo na kodu, sarađujemo na tekstu. I upravo je ovaj metod Plan ₿ Academy usvojio za upravljanje svojim sadržajem! Git olakšava saradnju na pisanju kurseva i tutorijala, jer omogućava precizno praćenje promena, efikasno upravljanje verzijama, a takođe omogućava pregled i poboljšanje sadržaja od strane drugih saradnika.
 
 
 ## Šta je GitHub?
@@ -46,7 +46,7 @@ Zamislite Git kao neku vrstu dnevnika koji svaki programer koristi na svom raču
 Osnovna razlika između Git-a i GitHub-a leži u njihovoj funkciji: Git je alat koji svaki programer lokalno koristi za upravljanje verzijama svog koda, dok je GitHub onlajn platforma koja hostuje te verzije i olakšava saradnju.
 
 
-GitHub je mnogo više od usluge za hosting koda. To je platforma za saradnju koja omogućava programerima da rade zajedno efikasno. I zaista, Plan ₿ Network koristi ovu platformu da hostuje ne samo sav kod koji pokreće vebsajt već i, što nas interesuje, sav sadržaj (tutoriali, obuke, resursi...).
+GitHub je mnogo više od usluge za hosting koda. To je platforma za saradnju koja omogućava programerima da rade zajedno efikasno. I zaista, Plan ₿ Academy koristi ovu platformu da hostuje ne samo sav kod koji pokreće vebsajt već i, što nas interesuje, sav sadržaj (tutoriali, obuke, resursi...).
 
 
 ## Neki tehnički termini

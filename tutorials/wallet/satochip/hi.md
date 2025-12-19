@@ -170,7 +170,7 @@ Sparrow Wallet आपके लिए Wallet के लिए एक Address त
 
 लेबलिंग के बारे में अधिक जानकारी के लिए, मैं आपको यह दूसरा ट्यूटोरियल देखने की भी सलाह देता हूँ:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 आप इस Address का उपयोग बिटकॉइन प्राप्त करने के लिए कर सकते हैं।
 
 ![SATOCHIP](assets/notext/27.webp)

@@ -6,4 +6,4 @@ wrong_answers:
   - Electrs est propriétaire, Fulcrum est open source
 explanation: |
   Electrs utilise moins d’espace disque, tandis que Fulcrum répond plus vite aux requêtes mais consomme davantage de ressources.
-reviewed: false
+reviewed: true 

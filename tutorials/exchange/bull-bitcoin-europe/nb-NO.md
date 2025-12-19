@@ -48,7 +48,7 @@ Skann QR-koden med autentiseringsprogrammet ditt, skriv inn den sekssifrede kode
 
 Hvis du ikke er kjent med å bruke autentiseringsapplikasjoner for 2FA, anbefaler jeg at du tar en titt på denne veiledningen om Authy-applikasjonen:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skriv inn passordet ditt for å bekrefte.
 
@@ -125,9 +125,9 @@ Angi beløpet du ønsker å kjøpe. Du må også velge hvordan du ønsker å ta 
 
 Hvis du ikke er kjent med å bruke Bitcoin, Lightning eller Liquid lommebøker, foreslår jeg at du tar vårt dedikerte opplæringskurs:
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Du kan også utforske [våre detaljerte veiledninger om de beste Bitcoin-lommebøkene] (https://planb.network/tutorials/wallet).
+Du kan også utforske [våre detaljerte veiledninger om de beste Bitcoin-lommebøkene] (https://planb.academy/tutorials/wallet).
 
 Bekreft deretter kjøpet ved å klikke på "*Bekreft kjøp*".
 
@@ -196,8 +196,16 @@ For å holde oversikt over alle transaksjonene dine kan du se historikken i meny
 
 ![BULL](assets/fr/36.webp)
 
+## Start et automatisk tilbakevendende kjøp (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## Opprett en limitordre
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 Nå vet du hvordan du enkelt kan kjøpe og selge bitcoin med Bull Bitcoin. Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis du setter en grønn tommel nedenfor. Del gjerne denne artikkelen på dine sosiale nettverk. Tusen takk skal du ha!
 
 Jeg anbefaler også at du tar en titt på denne andre omfattende veiledningen for å lære hvordan du håndterer minnefrasen din på riktig måte:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

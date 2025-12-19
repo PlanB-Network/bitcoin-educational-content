@@ -1,0 +1,8 @@
+question: Mikä on tärkein ero siinä, miten lainarikkomuksia käsitellään tavallisissa Rust-viittauksissa ja RefCell-viittauksissa?
+answer: Säännölliset viittaukset aiheuttavat käännösaikaisia virheitä, kun taas RefCell aiheuttaa suoritusaikaisia paniikkitilanteita
+wrong_answers:
+  - Säännölliset viittaukset aiheuttavat ajonaikaisia paniikkitilanteita, kun taas RefCell aiheuttaa kääntämisen aikaisia virheitä
+  - Säännölliset viittaukset sallivat useita muuttuvia lainauksia, kun taas RefCell pakottaa yhden muuttuvan käytön
+  - Säännölliset viittaukset vaativat nimenomaisia elinkaarimerkintöjä, kun taas RefCell käyttää automaattista puhdistusta
+explanation: |
+  RefCell siirtää Rust:n lainaussääntöjen noudattamisen valvonnan kääntämisajalta suoritusaikaan. Kun kääntäjä analysoi staattisesti säännölliset viittaukset ja estää lainausrikkomukset ennen ohjelman suorittamista, RefCell suorittaa samat turvatarkastukset ohjelman suorituksen aikana. Näin RefCell voi ohittaa kääntäjän konservatiiviset rajoitukset tapauksissa, joissa ohjelmoija tietää, että koodi on turvallista, mutta rikkomukset johtavat ajoaikapaniikkiin käännösvirheiden sijaan.

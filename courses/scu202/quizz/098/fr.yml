@@ -1,7 +1,7 @@
 question: Quelle est la principale utilité de la segmentation réseau avec des VLAN dans un réseau domestique ?
 answer: Isoler différents types d’appareils ou d’usages
 wrong_answers:
-  - Augmenter la portée du Wi-Fi pour els appareils
+  - Augmenter la portée du Wi-Fi pour les appareils
   - Chiffrer individuellement les connexions réseau pour chaque appareil
   - Activer WPA3 automatiquement
 explanation: |

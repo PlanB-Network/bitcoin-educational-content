@@ -98,7 +98,7 @@ Na janela que aparece, encontrará campos para "preencher": escolha o botão _Br
 Pode encontrar o guia do Sparrow wallet para descarregar este Software Wallet
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Pode então transferir o ficheiro `.apk` do seu computador para o seu telemóvel
 
@@ -276,7 +276,7 @@ Dê um nome à sua tecla e prima _Continuar_.
 
 
 
-No final destes passos, ser-lhe-á perguntado se quer adicionar um [passphrase](https://planb.network/en/resources/glossary/passphrase-bip39) à sua frase Mnemonic. Se não tiver o conhecimento necessário sobre como utilizar o passphrase, organizar o seu backup ou como funciona, recomendo que escolha _Não preciso de uma frase-passe_.
+No final destes passos, ser-lhe-á perguntado se quer adicionar um [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) à sua frase Mnemonic. Se não tiver o conhecimento necessário sobre como utilizar o passphrase, organizar o seu backup ou como funciona, recomendo que escolha _Não preciso de uma frase-passe_.
 
 
 
@@ -394,7 +394,7 @@ Encontra-se em _Home_, onde é apresentado o Wallet recém-criado, que indica o 
 
 
 - O ícone da lente no canto superior direito permite-lhe fazer uma pesquisa de transacções;
-- `View Wallet config` dá acesso ao menu de configuração, onde pode editar o nome do Wallet e ativar as opções avançadas, no canto superior direito (das quais não é possível obter screenshots). Aqui pode exportar a configuração do Wallet, etiquetas, substituir teclas, alterar o [gap limit] (https://planb.network/en/resources/glossary/gap-limit) e mais.
+- `View Wallet config` dá acesso ao menu de configuração, onde pode editar o nome do Wallet e ativar as opções avançadas, no canto superior direito (das quais não é possível obter screenshots). Aqui pode exportar a configuração do Wallet, etiquetas, substituir teclas, alterar o [gap limit] (https://planb.academy/en/resources/glossary/gap-limit) e mais.
 
 
 

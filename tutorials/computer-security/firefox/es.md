@@ -563,7 +563,7 @@ Buenas prácticas
 
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
@@ -571,7 +571,7 @@ https://planb.network/tutorials/computer-security/communication/tor-browser-a847
 
 
 
-https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
+https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 
 
@@ -599,7 +599,7 @@ Siguiendo esta guía paso a paso, habrás transformado Firefox en un verdadero b
 
 
 
-### Plan ₿ Network
+### Plan ₿ Academy
 
 
 
@@ -608,7 +608,7 @@ Siguiendo esta guía paso a paso, habrás transformado Firefox en un verdadero b
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 ### Documentación de Mozilla
 

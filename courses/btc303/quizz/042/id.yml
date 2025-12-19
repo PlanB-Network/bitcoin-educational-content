@@ -1,0 +1,9 @@
+question: Apa alasan utama Shaolinfry mengusulkan mekanisme User Activated Soft Fork (UASF) selama proses peningkatan Segwit?
+answer: Para penambang tidak memberi sinyal dukungan untuk Segwit meskipun ada dukungan pengguna yang luar biasa, menciptakan jalan buntu
+wrong_answers:
+  - Mekanisme soft fork yang ada saat ini terlalu lambat dan membutuhkan waktu aktivasi yang lebih cepat
+  - Garpu Hard dianggap terlalu berisiko dan metode fork baru yang lembut diperlukan untuk keamanan
+  - Pengembang Bitcoin Core meminta alternatif untuk mengurangi tanggung jawab mereka dalam peningkatan
+explanation: |
+  Menurut bab ini, ketika kode aktivasi Segwit dirilis pada bulan Oktober 2016, terdapat dukungan yang sangat besar di antara para pengguna Bitcoin, tetapi para penambang tidak memberikan sinyal dukungan untuk peningkatan tersebut, sehingga aktivasi terhenti tanpa adanya resolusi yang terlihat. Hal ini menciptakan kebutuhan akan mekanisme alternatif yang tidak bergantung pada sinyal penambang, sehingga Shaolinfry mengusulkan UASF sebagai solusi yang akan menggunakan penegakan mayoritas ekonomi alih-alih aktivasi hash power.
+reviewed: false

@@ -59,7 +59,7 @@ Anda bisa menuliskannya di atas kertas atau, untuk keamanan tambahan, mengukirny
 
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Klik pada pesan yang ditampilkan di bagian atas antarmuka "*Save your wallet...*".
 
@@ -175,8 +175,8 @@ Selamat, Anda sekarang tahu cara mengkonfigurasi dan menggunakan Phoenix. Jika A
 
 Untuk melangkah lebih jauh, lihat tutorial tentang Alby Hub ini, solusi inovatif dan mudah digunakan lainnya untuk meluncurkan node Lightning Anda sendiri:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Dan untuk mengetahui lebih lanjut tentang pengoperasian teknis Lightning Network, Anda dapat menemukan pelatihan gratis yang luar biasa dari Fanis Michalakis di Plan ₿ Network :
+Dan untuk mengetahui lebih lanjut tentang pengoperasian teknis Lightning Network, Anda dapat menemukan pelatihan gratis yang luar biasa dari Fanis Michalakis di Plan ₿ Academy :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

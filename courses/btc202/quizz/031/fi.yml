@@ -1,0 +1,9 @@
+question: Mikä jakelu sopii parhaiten Raspberry Pi -tietokoneelle, koska se on erityisen kevyt?
+answer: RaspiBlitz
+wrong_answers:
+  - Sateenvarjo
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitz on optimoitu Raspberry Pi -tietokoneelle ja pysyy kevyenä, toisin kuin Umbrel, josta on tullut liian raskas näille koneille.
+reviewed: true

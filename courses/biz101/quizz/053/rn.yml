@@ -2,8 +2,8 @@ question: Ni ibihe bintu nyamukuru vyo kwishura bitegerezwa kwandikwa ku bijanye
 answer: Itariki, umubare, agaciro ka fiat kangana, n'amaderesi ajanye
 wrong_answers:
   - transaction ID, amahera y’uruja n’uruza, na Address y’umucuruzi.
-  - Itariki, igipimo ca Exchange, ubwoko bwa Wallet, n'aho hantu
+  - Itariki, igipimo ca Exchange, ubwoko bwi ngodo yubuhinga ngurukana bumenyi, n'aho hantu
   - Inomero y'ibarabara Bitcoin, Timestamp, n'inyandiko yakoreshejwe
 explanation: |
   Gushiramwo ivyo bintu mu nyandiko biratuma haba ugusobanuka kandi bifasha abacunga amafaranga gutandukanya amafaranga yinjira n’asohoka.
-reviewed: false
+reviewed: true

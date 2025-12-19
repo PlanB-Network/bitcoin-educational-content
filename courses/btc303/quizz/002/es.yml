@@ -1,0 +1,9 @@
+question: ¿Cuáles son los dos aspectos principales de la descentralización en Bitcoin?
+answer: Descentralización de minero y la descentralización de full node
+wrong_answers:
+  - Descentralización de las transacciones y descentralización de wallet
+  - Descentralización de redes y descentralización de protocolos
+  - Descentralización de usuarios y descentralización de desarrolladores
+explanation: |
+  La descentralización de Bitcoin tiene dos componentes clave: la descentralización de los mineros y la descentralización de full node. La descentralización de Miner significa que el procesamiento y el ordenamiento de las transacciones no están controlados por una única entidad, sino por un colectivo dinámico de mineros que pueden unirse o abandonar libremente. La descentralización full node se refiere a que la validación de los bloques se realiza en el borde de la red por los propios usuarios, en lugar de por autoridades de confianza. Estos dos aspectos funcionan conjuntamente para lograr la resistencia a la censura: los mineros impiden el ordenamiento centralizado de las transacciones, mientras que los nodos completos garantizan la validación sin confianza de la blockchain.
+reviewed: false

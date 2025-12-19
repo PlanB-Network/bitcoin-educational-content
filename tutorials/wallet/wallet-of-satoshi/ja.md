@@ -12,7 +12,7 @@ description: 最もシンプルなカストーディアルWallet
 
 SatoshiのWalletは、Lightning NetworkのWallet、カストーディアル、そして非常にシンプルな使い方。
 
-BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)のコースでは、Redeem Lightning Networkのバウチャーに使用されます。
+BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5)のコースでは、Redeem Lightning Networkのバウチャーに使用されます。
 
 
 **いつも忘れないでください：鍵でもコインでもない。**

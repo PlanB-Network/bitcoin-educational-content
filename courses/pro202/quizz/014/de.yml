@@ -1,0 +1,8 @@
+question: Was ist der Hauptvorteil des Double-and-Add-Algorithmus für die Skalarmultiplikation in der elliptischen Kurvenkryptographie?
+answer: Es reduziert die Berechnungskomplexität von O(n) auf O(log n) Operationen
+wrong_answers:
+  - Sie macht die modulare Arithmetik in endlichen Feldern überflüssig
+  - Es wandelt das Problem des diskreten Logarithmus in eine Lösung in Polynomialzeit um
+  - Es ermöglicht die direkte Berechnung von privaten Schlüsseln aus öffentlichen Schlüsseln
+explanation: |
+  Der Double-and-Add-Algorithmus verbessert die Effizienz erheblich, indem er die Berechnungskomplexität von O(n) linearen Additionen auf O(log n) Operationen reduziert. Dazu wird die Binärdarstellung des Skalars gescannt, der Punkt bei jedem Schritt verdoppelt und der Generatorpunkt nur dann addiert, wenn das Bit 1 ist. Die anderen Optionen sind falsch: In endlichen Feldern ist weiterhin modulare Arithmetik erforderlich, das Problem des diskreten Logarithmus bleibt rechnerisch unlösbar (was für die Sicherheit wesentlich ist), und private Schlüssel können unabhängig vom verwendeten Multiplikationsalgorithmus nicht aus öffentlichen Schlüsseln berechnet werden.

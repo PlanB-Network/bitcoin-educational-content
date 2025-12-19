@@ -1,0 +1,8 @@
+question: Ni akaranga akahe gaserura ibipfukisho bishobora kwitwa incuro nyinshi ataco bihinduye ku bidukikije vyafashwe?
+answer: Fn
+wrong_answers:
+  - FnImwe
+  - FnMut
+  - FnGufata
+explanation: |
+  Fn ni akaranga k’ugufunga gakomeye cane gaserukira ugufunga gushobora guhamagarwa incuro nyinshi ata guhindura ibidukikije vyafashwe. Ivyo bipfukisho bifata gusa biciye ku nsiguro idahinduka kandi bishobora kwitwa igihe kimwe ata nkomanzi. FnOnce igereranya ibifunga bishobora guhamagarwa rimwe gusa, mu gihe FnMut igereranya ibifunga bishobora guhamagarwa incuro nyinshi ariko bishobora guhindura ibidukikije vyavyo vyafashwe. FnCapture si akaranga nyakuri ka Rust.

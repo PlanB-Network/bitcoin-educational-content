@@ -1,6 +1,6 @@
 ---
-name: Zeitstempelung von Plan ₿ Network-diplomen
-description: Verstehen, wie das Plan ₿ Network verifizierbare Nachweise für Ihr Zertifikat und Diplome ausstellt
+name: Zeitstempelung von Plan ₿ Academy-diplomen
+description: Verstehen, wie das Plan ₿ Academy verifizierbare Nachweise für Ihr Zertifikat und Diplome ausstellt
 ---
 
 ![cover](assets/cover.webp)
@@ -36,11 +36,11 @@ Für diejenigen, die neugierig sind und mehr über diese fantastische Software e
 Jeder kann OpenTimestamps verwenden, um eine Datei zu zeitstempeln und einen verifizierbaren Nachweis der Existenz der Datei zu erhalten. Mit anderen Worten, es bietet Ihnen keinen Nachweis darüber, wann die Datei erstellt wurde, sondern einen Nachweis der Existenz nicht später als zu einem bestimmten Zeitpunkt.
 OpenTimestamps kann diesen Dienst kostenlos anbieten dank einer hoch effizienten Methode, solche Nachweise in der Bitcoin Blockchain zu speichern. Es verwendet den sha256-Hash der Datei als eindeutigen Identifikator Ihrer Datei und baut einen Merkle-Baum mit anderen Hashes von eingereichten Dateien anderer Benutzer und verankert nur den Hash der Merkle-Baum-Struktur in einer OpReturn-Transaktion.
 Sobald diese Transaktion in einem Block enthalten ist, kann jeder mit der ursprünglichen Datei und der `.ots`-Datei, die damit verbunden ist, die Echtheit der Zeitstempelung überprüfen. Im zweiten Teil des Tutorials werden wir sehen, wie man Ihr Bitcoin-Zertifikat oder jedes Abschlusszeugnis eines Kurses mit einem Terminal und mit einer grafischen Oberfläche über die Website von OpenTimestamps überprüft.
-# Wie man ein Plan B Network Zertifikat oder Diplom überprüft
+# Wie man ein Plan ₿ Academy Zertifikat oder Diplom überprüft
 
 ## Schritt 1. Laden Sie Ihr Zertifikat oder Diplom herunter
 
-Loggen Sie sich in Ihr persönliches PBN-Dashboard ein.
+Loggen Sie sich in Ihr persönliches Plan ₿ Academy-Dashboard ein.
 
 ![image](./assets/login.webp)
 
@@ -65,13 +65,13 @@ Extrahieren Sie den Inhalt, indem Sie mit der rechten Maustaste auf die `.zip`-D
 1. Importieren Sie den öffentlichen PGP-Schlüssel des Plan ₿ Netzwerks mit dem folgenden Befehl:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
 ```
 
 Wenn der PGP-Schlüssel erfolgreich importiert wurde, sollten Sie eine Nachricht wie die folgende sehen
 
 ```
-gpg: key 8F12D0C63B1A606E: public key "PlanB Network (used for PBN platform) <admin@planb.network>" imported
+gpg: key 8F12D0C63B1A606E: public key "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" imported
 gpg: Total number processed: 1
 gpg:               imported: 1
 ```
@@ -96,7 +96,7 @@ Dies ist ein Beispiel für das Ergebnis:
 gpg: Signature made lun 11 nov 2024, 00:39:04 CET
 gpg:                using RSA key 5720CD577E7894C98DBD580E8F12D0C63B1A606E
 gpg:                issuer "admin@planb.network"
-gpg: Good signature from "PlanB Network (used for PBN platform) <admin@planb.network>" [unknown]
+gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) <admin@planb.network>" [unknown]
 ```
 
 Wenn Sie eine Nachricht wie "BAD signature" sehen, bedeutet das, dass die Datei manipuliert wurde.
@@ -141,7 +141,7 @@ Dieser Befehl wird:
 
 Beachten Sie, dass die Überprüfung erfolgreich ist, wenn **beide** Nachrichten angezeigt werden:
 
-1. Die GPG-Signatur wird als **"Gute Signatur von Plan ₿ Network"** gemeldet
+1. Die GPG-Signatur wird als **"Gute Signatur von Plan ₿ Academy"** gemeldet
 2. Die OpenTimestamps-Überprüfung zeigt einen spezifischen Bitcoin-Blockzeitstempel und berichtet **"Erfolg! Bitcoin-Block [Blockhöhe] bezeugt, dass Daten bereits am [Zeitstempel] existierten"**
 
-Jetzt, da Sie wissen, wie das Plan B Network einen verifizierbaren Nachweis für jedes Bitcoin-Zertifikat und Diplom über den Abschluss eines Kurses ausstellt, können Sie leicht die Integrität davon überprüfen.
+Jetzt, da Sie wissen, wie das Plan ₿ Academy einen verifizierbaren Nachweis für jedes Bitcoin-Zertifikat und Diplom über den Abschluss eines Kurses ausstellt, können Sie leicht die Integrität davon überprüfen.

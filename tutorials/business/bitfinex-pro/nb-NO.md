@@ -12,7 +12,7 @@ I denne veiledningen går vi gjennom prosessen med å opprette en bedriftskonto 
 
 Hvis du er interessert i å integrere bitcoin i virksomheten din, vil jeg også anbefale at du tar en titt på vårt komplette teoretiske kurs om emnet:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Opprette en Bitfinex-konto
 
@@ -26,11 +26,11 @@ Fyll ut den nødvendige informasjonen: skriv inn e-postadressen til bedriften di
 
 For tips om bruk og sikring av sterke, unike passord, se også denne veiledningen:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vi skal nå konfigurere 2FA for å sikre kontoen. Bruk et autentiseringsprogram på smarttelefonen din, for eksempel Google Authenticator eller Authy. Du finner en veiledning om dette verktøyet her:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skann QR-koden med appen din, og skriv inn de seks sifrene som følger med.
 
@@ -160,7 +160,7 @@ Bitfinex tilbyr også innskudds- og uttaksmuligheter via Lightning Network, noe 
 
 Hvis du er interessert i Lightning Network, har vi også et komplett opplæringskurs som hjelper deg med å forstå hvordan det fungerer:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Kjøp og salg av bitcoins på Bitfinex
 
@@ -241,4 +241,4 @@ Avhengig av bedriftens mål og struktur kan bruken av Bitfinex variere.
 
 For en mer inngående titt på dette emnet anbefaler jeg dette omfattende kurset om integrering av bitcoin i virksomheter, som går i detalj inn på kontantstrøm, mottak av bitcoin-betalinger og regnskap:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

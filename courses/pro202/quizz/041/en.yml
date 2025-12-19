@@ -1,0 +1,8 @@
+question: What would happen to Bitcoin's total supply if miners consistently claimed only 90% of the allowed block subsidy across all blocks?
+answer: The total supply would be permanently reduced below 21 million BTC, as unclaimed subsidies are lost forever
+wrong_answers:
+  - The remaining 10% would accumulate in a reserve pool for future miners to claim during low-fee periods
+  - The difficulty adjustment mechanism would compensate by increasing future block rewards to maintain the 21 million cap
+  - The unclaimed subsidies would be redistributed proportionally among transaction fee recipients in subsequent blocks
+explanation: |
+  Bitcoin's protocol allows miners to claim less than the maximum allowed subsidy, but any unclaimed amount is permanently lost—there's no mechanism to redistribute or recover it later. The subsidy formula and halving schedule determine the theoretical maximum of ~21 million BTC, but the actual supply depends on miners claiming their full entitlement. Unlike the difficulty adjustment which responds to mining conditions, there's no compensatory mechanism for unclaimed rewards, making the total supply potentially deflationary if miners consistently underclaim.

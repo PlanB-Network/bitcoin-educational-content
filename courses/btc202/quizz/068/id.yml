@@ -1,0 +1,9 @@
+question: Apa saja tiga manfaat utama dari pembaruan OS dan aplikasi secara teratur?
+answer: Keamanan, keandalan, fungsionalitas
+wrong_answers:
+  - Kecepatan, anonimitas, kompatibilitas
+  - Keamanan, memori, penyimpanan
+  - Kerahasiaan, fungsionalitas, keandalan
+explanation: |
+  Pembaruan memastikan keamanan terhadap kerentanan, kompatibilitas dengan evolusi dan fitur-fitur baru, serta keandalan sistem.
+reviewed: true

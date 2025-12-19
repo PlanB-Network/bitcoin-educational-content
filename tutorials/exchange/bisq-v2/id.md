@@ -8,7 +8,7 @@ description: Panduan lengkap untuk menggunakan Bisq 2 dan menukar bitcoin P2P
 
 Pertukaran peer-to-peer (P2P) yang bebas KYC sangat penting untuk menjaga kerahasiaan dan otonomi keuangan pengguna. Bursa ini memungkinkan transaksi langsung antar individu tanpa memerlukan verifikasi identitas, yang sangat penting bagi mereka yang menghargai privasi. Untuk pemahaman yang lebih mendalam mengenai konsep teoretis, lihatlah kursus BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Apa itu Bisq 2?
 
@@ -23,7 +23,7 @@ Bisq 2 adalah versi baru dari bursa Bisq terdesentralisasi yang populer, yang di
 - Dukungan untuk beberapa jenis portofolio
 - Sistem peran dengan setoran wajib di BSQ
 
-Panduan ini berfokus secara eksklusif pada "Bisq Easy", satu-satunya protokol yang tersedia saat ini. Bisq Easy telah dirancang khusus untuk pengguna baru Bitcoin. Protokol ini memungkinkan pengguna untuk membeli dan menjual Bitcoin dengan mata uang fiat pada platform peer-to-peer yang terdesentralisasi. Transaksi dibatasi hingga setara dengan 600 USD (dengan minimal 6 USD), dan keamanan pertukaran bergantung pada reputasi penjual BTC. Bisq Easy tidak memiliki biaya perdagangan atau persyaratan uang jaminan. Bisq Easy diharapkan dapat menggantikan Bisq 1 untuk pertukaran uang tunai di bawah 600 USD (atau setara).
+Panduan ini berfokus secara eksklusif pada "Bisq Easy", satu-satunya protokol yang saat ini tersedia. Bisq Easy dirancang khusus untuk pengguna baru Bitcoin. Protokol ini memungkinkan pengguna untuk membeli dan menjual bitcoin dengan mata uang fiat di platform peer-to-peer yang terdesentralisasi. Transaksi dibatasi hingga setara dengan 600 USD (dengan minimum 6 USD), dan keamanan perdagangan bergantung pada reputasi penjual BTC. Bisq Easy tidak memiliki biaya perdagangan atau persyaratan setoran jaminan. Diharapkan Bisq Easy akan menggantikan Bisq 1 untuk perdagangan fiat di bawah 600 USD (atau setara).
 
 **Fitur utama:**
 
@@ -62,7 +62,7 @@ Panduan ini berfokus secara eksklusif pada "Bisq Easy", satu-satunya protokol ya
 - Pembuat penawaran menentukan ketentuan pertukaran
 - Setelah para pedagang menyetujui persyaratan (metode pembayaran dan harga), pertukaran dimulai
 - Penjual mengirimkan detail banknya kepada pembeli, dan pembeli mengirimkan alamat Bitcoin-nya kepada penjual
-- Pembeli melakukan pembayaran secara tunai dan memberi tahu penjual
+- Pembeli melakukan pembayaran dalam mata uang fiat dan memberi tahu penjual
 - Setelah pembayaran diterima, penjual mengirim bitcoin ke alamat pembeli
 - Pertukaran selesai ketika pembeli menerima bitcoin
 
@@ -86,7 +86,7 @@ Panduan ini berfokus secara eksklusif pada "Bisq Easy", satu-satunya protokol ya
 - Unduh versi Bisq 2 yang sesuai dengan sistem operasi Anda (gulir ke bawah halaman)
 - Verifikasi keaslian file yang diunduh (sangat disarankan). Untuk panduan terperinci tentang verifikasi tanda tangan, lihat tutorial berikut:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### 2. Pemasangan sesuai dengan sistem Anda
 

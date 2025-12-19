@@ -1,0 +1,9 @@
+question: umbrel.local経由でのアクセスが失敗した場合、UmbrelのローカルIP Addressを取得するコマンドはどれですか？
+answer: ホスト名 -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  検出に問題がある場合は、Umbrel マシンで hostname -I コマンドを使用してローカル IP を調べることができます。
+reviewed: true

@@ -1,0 +1,9 @@
+question: Které dvě součásti jsou od verze 0.5 distribuovány s Bitcoin core?
+answer: Bitcoin-qt a bitcoind
+wrong_answers:
+  - bitcoin-cli a Bitcoin-gui
+  - Bitcoin-Miner a Bitcoin-Wallet
+  - Bitcoin-core a Bitcoin-node
+explanation: |
+  Od verze 0.5 obsahuje Bitcoin core grafickou verzi Interface (Bitcoin-qt) a Interface pro příkazový řádek (bitcoind).
+reviewed: true

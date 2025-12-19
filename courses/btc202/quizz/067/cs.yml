@@ -1,0 +1,9 @@
+question: Které zálohy jsou nutné k obnovení uzlu Lightning?
+answer: seed a SCB
+wrong_answers:
+  - seed a soubor txindex
+  - seed a veřejná IP adresa Address
+  - seed a 2FA
+explanation: |
+  Obnovení uzlu Lightning vyžaduje jak seed, tak SCB (Static Channel Backup), bez kterého nelze obnovit prostředky kanálů.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - It only keeps the UTXO set, not the Blockchain
 explanation: |
   An SPV node verifies transactions via block headers and Merkle proofs, without storing the complete data.
-reviewed: false
+reviewed: true

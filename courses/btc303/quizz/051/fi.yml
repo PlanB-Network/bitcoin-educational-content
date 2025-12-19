@@ -1,0 +1,9 @@
+question: Ragnar Lifthasirin kritiikin mukaan, minkä ongelman Bitcoin:n ekosysteemille aiheuttavat yksinkertaistetut Bitcoin-kertomukset, kuten "vain HODL"?
+answer: Niistä tulee monomanioita, jotka saavat käyttäjät jättämään huomiotta tärkeämmät näkökohdat, kuten turvallisuuden ja luotettavan käytön
+wrong_answers:
+  - "Ne kannustavat liialliseen kaupankäyntiin, joka horjuttaa Bitcoin:n hintaa ja markkinadynamiikkaa."
+  - Ne luovat vääriä odotuksia taatusta tuotosta, mikä johtaa sääntelyn valvontaan ja puuttumiseen
+  - Ne edistävät keskitettyä pörssin käyttöä, joka keskittää Bitcoin-omistukset säilytyspalveluihin
+explanation: |
+  Lifthasir määrittelee nämä yksinkertaistetut kertomukset "monomaniaksi" - liialliseksi keskittymiseksi yhteen ajatukseen, joka saa ihmiset jättämään huomiotta kiistatta tärkeämpiä näkökohtia. Kun käyttäjät keskittyvät vain Bitcoin:n hallussapitoon, he saattavat jättää huomiotta kriittiset näkökohdat, kuten asianmukaiset turvallisuuskäytännöt, omavalvonnan tai Bitcoin:n käyttämisen ilman luottamusta. Vaikka muut vaihtoehdot ovatkin mahdollisesti ongelmallisia, ne eivät ole Lifthasirin kritiikin kohteena, joka koskee Bitcoin:n liian yksinkertaistettua viestintää.
+reviewed: false

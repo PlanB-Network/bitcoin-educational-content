@@ -1,0 +1,9 @@
+question: 如果 Umbrel 上出現錯誤，第一步應該怎麼做？
+answer: generate 診斷包
+wrong_answers:
+  - 重新安裝 Bitcoin core 並重做 IBD
+  - 清除快取
+  - 停用 2FA
+explanation: |
+  如果發生問題，我們首先會在故障排除部分產生診斷束，以分析問題並記錄。
+reviewed: true

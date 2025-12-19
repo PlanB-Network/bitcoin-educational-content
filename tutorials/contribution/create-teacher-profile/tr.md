@@ -1,14 +1,14 @@
 ---
-name: Profesör Plan ₿ Network
-description: Plan ₿ Network'de öğretmen profilimi nasıl ekleyebilirim veya değiştirebilirim?
+name: Profesör Plan ₿ Academy
+description: Plan ₿ Academy'de öğretmen profilimi nasıl ekleyebilirim veya değiştirebilirim?
 ---
 ![cover](assets/cover.webp)
 
 
-Yeni bir eğitim veya kurs yazarak Plan ₿ Network'ye katkıda bulunmayı planlıyorsanız, bir öğretmen profiline ihtiyacınız olacaktır. Bu profil, platforma katkıda bulunduğunuz içerik için uygun kredileri almanızı sağlayacaktır.
+Yeni bir eğitim veya kurs yazarak Plan ₿ Academy'ye katkıda bulunmayı planlıyorsanız, bir öğretmen profiline ihtiyacınız olacaktır. Bu profil, platforma katkıda bulunduğunuz içerik için uygun kredileri almanızı sağlayacaktır.
 
 
-Plan ₿ Network'te eğitim içeriği oluşturmaya zaten dahil olmuş olanlarınız için muhtemelen zaten bir öğretmen profiliniz vardır. Bunu [GitHub depomuzdaki] `/professors` klasöründe bulabilirsiniz (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Profiliniz zaten mevcutsa, giriş bilgilerinizi `professor.yml` dosyasında bulabilirsiniz.
+Plan ₿ Academy'te eğitim içeriği oluşturmaya zaten dahil olmuş olanlarınız için muhtemelen zaten bir öğretmen profiliniz vardır. Bunu [GitHub depomuzdaki] `/professors` klasöründe bulabilirsiniz (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Profiliniz zaten mevcutsa, giriş bilgilerinizi `professor.yml` dosyasında bulabilirsiniz.
 
 
 Profilinizde değişiklik yapmak için bu eğitimin sonundaki "Öğretmen profilinizi düzenleyin" bölümüne gidin.
@@ -17,13 +17,13 @@ Profilinizde değişiklik yapmak için bu eğitimin sonundaki "Öğretmen profil
 ## Yazılımımızla yeni bir öğretmen ekleyin
 
 
-Plan ₿ Network'te öğretmen profilinizi oluşturmanın en kolay yolu entegre Python aracımızı kullanmaktır. İşte nasıl çalıştığı.
+Plan ₿ Academy'te öğretmen profilinizi oluşturmanın en kolay yolu entegre Python aracımızı kullanmaktır. İşte nasıl çalıştığı.
 
 
 ### 1 - Yerel ortamınızı yapılandırın
 
 
-GitHub'daki Plan ₿ Network deposundan] (https://github.com/PlanB-Network/Bitcoin-educational-content) kendi Fork'inize sahip olmalısınız.
+GitHub'daki Plan ₿ Academy deposundan] (https://github.com/PlanB-Network/Bitcoin-educational-content) kendi Fork'inize sahip olmalısınız.
 
 
 Fork'unuzun ana dalını (`dev`) kaynak deposu ile senkronize edin.
@@ -87,7 +87,7 @@ python3 main.py
 ```
 
 
-Ana sayfaya geldiğinizde, depo klonunuzun yerel yolunu, yazdığınız dili ve GitHub ID'nizi girin. Bu profili başka biri için oluşturuyorsanız ve zaten bir Profesör profiline sahipseniz, kimliğinizi "*PBN Profesör Kimliği*" alanına girin. Kendi profilinizi oluşturuyorsanız, oluşturma sürecinde olduğunuz için henüz bir Profesör Kimliğiniz olmayacaktır, bu nedenle bu alanı boş bırakın.
+Ana sayfaya geldiğinizde, depo klonunuzun yerel yolunu, yazdığınız dili ve GitHub ID'nizi girin. Bu profili başka biri için oluşturuyorsanız ve zaten bir Profesör profiline sahipseniz, kimliğinizi "*Plan ₿ Academy Profesör Kimliği*" alanına girin. Kendi profilinizi oluşturuyorsanız, oluşturma sürecinde olduğunuz için henüz bir Profesör Kimliğiniz olmayacaktır, bu nedenle bu alanı boş bırakın.
 
 
 Ardından "*Yeni Profesör*" düğmesine tıklayın.
@@ -156,8 +156,8 @@ Git kullanımında ustalaştıysanız, yeni bir dal oluşturarak ve ilgili dosya
 Yeni başlayanlar için, değişikliği doğrudan GitHub'ın Interface web'i üzerinden yapmanızı öneririm. Bir GitHub hesabınız olduğundan emin olun. Nasıl oluşturacağınızı bilmiyorsanız, bu öğreticiyi takip edin:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Verilere ayrılmış Plan ₿ Network GitHub deposuna] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors) gidin.
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+Verilere ayrılmış Plan ₿ Academy GitHub deposuna] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors) gidin.
 
 
 ![Image](assets/fr/03.webp)
@@ -184,7 +184,7 @@ Değiştirmek istediğiniz dosyanın üzerine geldiğinizde, kalem simgesine tı
 ![Image](assets/fr/06.webp)
 
 
-Plan ₿ Network deposundan zaten bir Fork'niz yoksa, GitHub bir tane oluşturmanızı önerecektir. "*Fork this repository*" üzerine tıklayın.
+Plan ₿ Academy deposundan zaten bir Fork'niz yoksa, GitHub bir tane oluşturmanızı önerecektir. "*Fork this repository*" üzerine tıklayın.
 
 
 ![Image](assets/fr/07.webp)
@@ -205,13 +205,13 @@ Değişikliğinizi açıklayan bir mesaj girin ve ardından "*Değişiklik öner
 Yaptığınız değişikliklerin bir özeti görüntülenecektir. Profilinizde daha fazla değişiklik yapmak isterseniz, klasörlere geri dönebilir ve daha fazla taahhütte bulunabilirsiniz. İşiniz bittiğinde, "*Çekme isteği oluştur*" seçeneğine tıklayın.
 
 
-Çekme İsteği, dalınızdaki değişiklikleri Plan ₿ Network deposunun ana dalına entegre etmek için yapılan ve birleştirilmeden önce değişikliklerin gözden geçirilmesine ve tartışılmasına olanak tanıyan bir istektir.
+Çekme İsteği, dalınızdaki değişiklikleri Plan ₿ Academy deposunun ana dalına entegre etmek için yapılan ve birleştirilmeden önce değişikliklerin gözden geçirilmesine ve tartışılmasına olanak tanıyan bir istektir.
 
 
 ![Image](assets/fr/10.webp)
 
 
-Interface'ün en üstünde, çalışma dalınızın Plan ₿ Network deposunun (ana dal olan) `dev' dalı ile birleştirildiğinden emin olun.
+Interface'ün en üstünde, çalışma dalınızın Plan ₿ Academy deposunun (ana dal olan) `dev' dalı ile birleştirildiğinden emin olun.
 
 
 Kaynak depoyla birleştirmek istediğiniz değişiklikleri kısaca özetleyen bir başlık girin. Bu değişiklikleri açıklayan kısa bir yorum ekleyin ve ardından çekme isteğini onaylamak için Green "*Çekme isteği oluştur*" düğmesine tıklayın:
@@ -220,7 +220,7 @@ Kaynak depoyla birleştirmek istediğiniz değişiklikleri kısaca özetleyen bi
 ![Image](assets/fr/11.webp)
 
 
-PR'niz daha sonra ana Plan ₿ Network deposunun "*Pull Request*" sekmesinde görünür olacaktır. Şimdi tek yapmanız gereken bir yöneticinin değişikliğinizi birleştirmesini beklemek.
+PR'niz daha sonra ana Plan ₿ Academy deposunun "*Pull Request*" sekmesinde görünür olacaktır. Şimdi tek yapmanız gereken bir yöneticinin değişikliğinizi birleştirmesini beklemek.
 
 
 ![Image](assets/fr/12.webp)

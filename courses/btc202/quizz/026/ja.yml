@@ -1,0 +1,9 @@
+question: 簡易支払確認（SPV）のコンセプトを考案したのは誰ですか？
+answer: Satoshi 中本
+wrong_answers:
+  - ハル・フィニー
+  - アダム・バック
+  - ピーテル・ウイユ
+explanation: |
+  SPVはSatoshiナカモトの白書のパート8で紹介されている。
+reviewed: true

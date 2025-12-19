@@ -6,4 +6,4 @@ wrong_answers:
   - About cryptography
 explanation: |
   Eric Voskuil explains that Bitcoin's security relies above all on the people who take risks to maintain the system.
-reviewed: false
+reviewed: true

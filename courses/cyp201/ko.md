@@ -1,13 +1,11 @@
 ---
-name: Bitcoin 지갑의 내부 작동 원리
+name: 비트코인 지갑 아키텍처
 goal: Bitcoin 지갑을 구동하는 암호화 원리에 대해 자세히 알아보세요.
-objectives: 
-
-  - Bitcoin에서 사용되는 암호화 알고리즘을 이해하는 데 필요한 이론적 개념을 정의합니다.
-  - 결정론적이고 계층적인 Wallet의 구조를 완전히 이해합니다.
-  - Wallet 관리와 관련된 위험을 식별하고 줄이는 방법을 알아두세요.
-  - Hash 기능, 암호화 키 및 디지털 서명의 원리를 이해합니다.
-
+objectives:
+- Bitcoin에서 사용되는 암호화 알고리즘을 이해하는 데 필요한 이론적 개념을 정의합니다.
+- 결정론적이고 계층적인 Wallet의 구조를 완전히 이해합니다.
+- Wallet 관리와 관련된 위험을 식별하고 줄이는 방법을 알아두세요.
+- Hash 기능, 암호화 키 및 디지털 서명의 원리를 이해합니다.
 ---
 
 # Bitcoin 지갑의 심장부로 떠나는 여행
@@ -38,6 +36,8 @@ CYP201 강좌를 통해 결정론적이고 계층적인 Bitcoin 지갑의 비밀
 
 <chapterId>fb4e8857-ea35-5a8a-ae8a-5300234e0104</chapterId>
 
+:::video id=8028e727-cd5d-4593-a946-a89bfa26f617:::
+
 
 HD Bitcoin 지갑의 작동 원리를 심도 있게 살펴보는 CYP201 강좌에 오신 것을 환영합니다. 이 과정은 일반 사용자, 열성적인 애호가, 미래의 전문가 등 Bitcoin 사용의 기술적 기초를 이해하고자 하는 모든 분들을 위해 마련되었습니다.
 
@@ -47,38 +47,66 @@ HD Bitcoin 지갑의 작동 원리를 심도 있게 살펴보는 CYP201 강좌�
 
 Bitcoin 지갑의 구성과 운영에 대해 자세히 알아보기 전에, 다음 내용을 위해 알아야 할 암호화 기본 요소에 대한 몇 가지 장부터 살펴보겠습니다.
 
-지갑과 Bitcoin 프로토콜 자체의 기본인 암호화 Hash 기능부터 시작하겠습니다. 주요 특징과 Bitcoin에서 사용되는 특정 기능을 알아보고, 보다 기술적인 장에서는 Hash 기능의 여왕의 작동 방식에 대해 자세히 알아볼 것입니다: SHA256.
+지갑과 Bitcoin 프로토콜 자체의 기본인 암호화 Hash 기능부터 시작하겠습니다. 주요 특징과 Bitcoin에서 사용되는 특정 기능을 알아보고, 보다 기술적인 장에서는 Hash 기능의 여왕의 작동 방식에 대해 자세히 알아볼 것입니다: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/001.webp)
 
 
 다음으로, UTXO를 보호하기 위해 매일 사용하는 디지털 서명 알고리즘의 작동에 대해 설명하겠습니다. Bitcoin는 두 가지를 사용합니다: ECDSA와 슈노르 프로토콜입니다. 이러한 알고리즘의 기반이 되는 수학적 기본 요소와 트랜잭션의 보안을 보장하는 방법을 배우게 됩니다.
 
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/002.webp)
 
 
 이러한 암호학의 Elements에 대해 잘 이해했다면, 이제 교육의 핵심인 결정론적 지갑과 계층적 지갑으로 넘어가겠습니다! 먼저, 지갑을 생성하고 복원할 수 있는 12개 또는 24개의 단어로 구성된 Mnemonic 구문 전용 섹션이 있습니다. 이 단어들이 어떻게 엔트로피의 원천에서 생성되는지, 그리고 어떻게 Bitcoin의 사용을 용이하게 하는지에 대해 알아볼 것입니다.
 
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/003.webp)
 
 
-교육은 BIP39 passphrase, seed(Mnemonic 문구와 혼동하지 마세요), 마스터 chain code 및 마스터 키에 대한 학습으로 계속됩니다. 이러한 Elements가 무엇인지, 각각의 역할이 무엇인지, 어떻게 계산되는지 자세히 살펴볼 것입니다.
+교육은 [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed(Mnemonic 문구와 혼동하지 마세요), 마스터 chain code 및 마스터 키에 대한 학습으로 계속됩니다. 이러한 Elements가 무엇인지, 각각의 역할이 무엇인지, 어떻게 계산되는지 자세히 살펴볼 것입니다.
 
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/004.webp)
 
 
 마지막으로 마스터 키에서 수신 주소까지 결정론적이고 계층적인 방식으로 암호화 키 쌍이 어떻게 파생되는지 알아볼 것입니다.
 
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/005.webp)
 
 
 이 교육을 통해 Wallet 소프트웨어를 자신 있게 사용하면서 위험을 식별하고 완화하는 기술을 향상시킬 수 있습니다. Bitcoin 지갑의 진정한 전문가가 될 준비를 하세요!
 
+
+이 표는 CYP 201 과정에서 사용되는 도표와 기술 문서를 이해하기 쉽도록 사용되는 주요 영어 용어의 번역을 제공합니다.
+
+| 영어            | 번역 / 설명                                                                                        |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| *pubkey hash*   | 공개 키 해시 (비트코인 주소를 생성하는 데 사용됨).                                                |
+| *public key*    | 공개 키 (자금을 받는 데 사용되며, 개인 키에서 파생됨).                                              |
+| *signature*     | 디지털 서명 (메시지가 개인 키 소유자로부터 왔음을 증명하는 암호학적 증거).                          |
+| *scriptPubKey*  | 잠금 스크립트 (출력을 사용하기 위한 조건을 정의함).                                                  |
+| *scriptSig*     | 잠금 해제 스크립트 (*scriptPubKey*를 충족시키기 위한 데이터를 제공함).                              |
+| *Stack*         | 스택 ( *Bitcoin Script*에서 사용하는 데이터 구조).                                                  |
+| *input*         | 트랜잭션 입력 (출처로 사용되는 이전 출력에 대한 참조).                                              |
+| *output*        | 트랜잭션 출력 (수신자와 금액을 정의함).                                                             |
+| *transaction*   | 비트코인 트랜잭션 (전송을 검증하는 입력과 출력의 집합).                                              |
+| *XOR*           | 논리 연산자 "배타적 OR", 일부 암호화 체계에서 사용됨.                                               |
+| *HMAC*          | 해시와 비밀 키를 기반으로 한 메시지 인증 코드.                                                      |
+| *ECDSA*         | 타원 곡선 디지털 서명 알고리즘.                                                                     |
+| *hash*          | 해시 (데이터의 고유하고 고정된 지문).                                                               |
+| *SigHash*       | 서명 해시 유형 (트랜잭션의 어떤 부분이 서명되는지 정의함).                                          |
+| *HD Wallet*     | 계층적 결정론적 지갑 (하나의 시드에서 여러 키를 생성함).                                            |
+| *Random Number* | 난수 (보안 개인 키를 생성하는 데 사용됨).                                                           |
+| *State*         | 상태 (암호화 과정의 중간 값).                                                                       |
+| *Entropy*       | 엔트로피 (무작위성의 척도, 지갑 시드 생성에 사용됨).                                                 |
+| *Mnemonic*      | 니모닉 (시드의 백업과 복원을 쉽게 해주는 단어들의 연속).                                             |
+| *Wordlist*      | 단어 목록 (BIP39 니모닉을 생성하는 데 사용되는 사전 정의된 집합).                                   |
+| *Seed*          | 시드 (HD 지갑의 모든 키를 파생할 수 있는 초기 값).                                                   |
+| *Address*       | 비트코인 주소 (자금을 받기 위한 사람이 읽을 수 있는 식별자, 공개 키에서 파생).                      |
+| *Leaf*          | 잎 (파생 트리의 말단 노드).                                                                         |
 
 # Hash 기능
 
@@ -90,6 +118,8 @@ Bitcoin 지갑의 구성과 운영에 대해 자세히 알아보기 전에, 다�
 
 
 <chapterId>dba011f5-1805-5a48-ac2b-4bd637c93703</chapterId>
+
+:::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 
 Bitcoin에 사용되는 첫 번째 유형의 암호화 알고리즘은 Hash 기능을 포함합니다. 이는 프로토콜의 여러 수준에서 필수적인 역할을 할 뿐만 아니라 Bitcoin 지갑 내에서도 사용됩니다. Hash 함수가 무엇이며 Bitcoin에서 어떤 용도로 사용되는지 함께 알아봅시다.
@@ -111,7 +141,7 @@ Hash는 "다이제스트", "응축물", "응축" 또는 "해시"라고도 불립
 ```
 
 
-![CYP201](assets/fr/001.webp)
+![CYP201](assets/en/006.webp)
 
 
 ### Hash 기능의 특징
@@ -136,7 +166,7 @@ Hash는 "다이제스트", "응축물", "응축" 또는 "해시"라고도 불립
 주어진 예제에서 "_PlanB_"라는 입력을 알면 Hash `24f1b9...`를 얻는 것은 간단하고 빠릅니다. 그러나 `24f1b9...`만 알고 "_PlanB_"라는 메시지를 찾는 것은 불가능합니다.
 
 
-![CYP201](assets/fr/002.webp)
+![CYP201](assets/en/007.webp)
 
 
 따라서 Hash $h$에 대한 사전 이미지 $m$을 찾는 것은 불가능하며, 여기서 $\text{Hash}$는 암호화된 Hash 함수입니다.
@@ -164,7 +194,7 @@ bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 ```
 
 
-![CYP201](assets/fr/003.webp)
+![CYP201](assets/en/008.webp)
 
 
 이 속성은 원본 메시지의 사소한 변경도 Hash의 작은 부분만 변경하는 것이 아니라 전체 Hash을 변경하기 때문에 즉시 감지할 수 있습니다. 이는 메시지, 소프트웨어 또는 Bitcoin 트랜잭션의 무결성을 검증하는 다양한 분야에서 관심을 가질 수 있습니다.
@@ -181,7 +211,7 @@ $$
 $$
 
 
-![CYP201](assets/fr/004.webp)
+![CYP201](assets/en/009.webp)
 
 
 실제로는 입력의 크기가 출력의 크기보다 클 수 있기 때문에 Hash 함수에서 충돌이 발생하는 것은 수학적으로 필연적입니다. 이를 디리클레 서랍 원리라고 하는데, $n$ 개의 객체가 $m$ 개의 서랍에 분산되어 있고 $m이 n$ 미만인 경우, 적어도 하나의 서랍에는 반드시 두 개 이상의 객체가 들어 있습니다. Hash 함수의 경우 가능한 메시지 수는 (거의) 무한대인 반면 가능한 해시 수는 유한하기 때문에 이 원칙이 적용됩니다(SHA256의 경우 $2^{256}$).
@@ -206,7 +236,7 @@ $$
 따라서 두 번째 프리이미지에 대한 저항은 충돌 저항과 다소 유사하지만, 여기서는 공격자가 $m_1$을 자유롭게 선택할 수 없기 때문에 공격이 더 어렵다는 점이 다릅니다.
 
 
-![CYP201](assets/fr/005.webp)
+![CYP201](assets/en/010.webp)
 
 
 ### Bitcoin에서 Hash 기능의 애플리케이션
@@ -253,6 +283,8 @@ $$
 
 
 <chapterId>905eb320-f15b-5fb6-8d2d-5bb447337deb</chapterId>
+
+:::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
 
 앞서 해싱 함수는 Bitcoin에서 사용을 정당화하는 중요한 특성을 가지고 있음을 살펴보았습니다. 이제 이러한 특성을 제공하는 해싱 함수의 내부 메커니즘을 살펴보고, 이를 위해 SHA256의 작동을 분석해 보겠습니다.
@@ -339,7 +371,7 @@ $$
 - M$의 길이를 64비트 표현하여 크기에 따라 패딩을 형성합니다.
 
 
-![CYP201](assets/fr/006.webp)
+![CYP201](assets/en/011.webp)
 
 
 ### 변수 초기화
@@ -491,7 +523,7 @@ $$
 오른쪽 교대근무는 다음과 같이 개략적으로 볼 수 있습니다:
 
 
-![CYP201](assets/fr/007.webp)
+![CYP201](assets/en/012.webp)
 
 
 SHA256에서 비트 조작을 위해 사용되는 또 다른 연산은 $RotR_n(x)$로 표시되는 오른쪽 원형 회전으로, $x$의 비트를 오른쪽으로 $n$ 위치 이동하고 이동된 비트를 문자열의 시작 부분에 다시 삽입하는 것입니다.
@@ -510,7 +542,7 @@ $$
 오른쪽 순환 교대근무는 다음과 같이 개략적으로 볼 수 있습니다:
 
 
-![CYP201](assets/fr/008.webp)
+![CYP201](assets/en/013.webp)
 
 
 ### 압축 기능
@@ -553,7 +585,7 @@ With:
 512비트 조각에 대한 모든 단어 $W_i$를 결정했으면 64 라운드를 수행하는 압축 기능으로 넘어갈 수 있습니다.
 
 
-![CYP201](assets/fr/009.webp)
+![CYP201](assets/en/014.webp)
 
 0에서 63까지의 각 라운드 $i$에는 세 가지 유형의 입력이 있습니다. 먼저, 방금 결정한 $W_i$는 부분적으로 메시지 조각 $P_n$으로 구성됩니다. 다음으로 64개의 상수 $K_i$입니다. 마지막으로 상태 변수 $A$, $B$, $C$, $D$, $E$, $F$, $G$, $H$를 사용하며, 이는 해싱 프로세스 내내 진화하고 각 압축 함수에 따라 수정될 것입니다. 그러나 첫 번째 조각 $P_1$의 경우 앞서 주어진 초기 상수를 사용합니다.
 
@@ -638,7 +670,7 @@ $$
 다음 다이어그램은 방금 설명한 SHA256 압축 기능의 한 라운드를 나타냅니다:
 
 
-![CYP201](assets/fr/010.webp)
+![CYP201](assets/en/015.webp)
 
 
 
@@ -757,6 +789,8 @@ $$
 
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
+:::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
+
 
 애플리케이션 레벨의 Bitcoin에서는 Hash 기능 외에도 암호화 파생 알고리즘을 사용하여 초기 입력에서 데이터를 generate으로 보호합니다. 이러한 알고리즘은 Hash 기능에 의존하지만, 특히 인증 및 키 생성 측면에서 다른 용도로 사용됩니다. 이러한 알고리즘은 비가역성, 변조 저항성, 충돌 저항성과 같은 Hash 기능의 일부 특성을 유지합니다.
 
@@ -781,7 +815,7 @@ HMAC은 Hash 함수와 비밀 키의 조합을 기반으로 인증 코드를 계
 다음은 $m$이 입력 메시지이고 $K$가 비밀 키인 일반적인 작동 방식입니다:
 
 
-![CYP201](assets/fr/011.webp)
+![CYP201](assets/en/016.webp)
 
 
 이 HMAC-SHA512 블랙박스에서 어떤 일이 일어나는지 더 자세히 살펴 보겠습니다. HMAC-SHA512의 기능:
@@ -835,7 +869,7 @@ $$
 이러한 단계는 다음과 같이 개략적으로 요약할 수 있습니다:
 
 
-![CYP201](assets/fr/012.webp)
+![CYP201](assets/en/017.webp)
 
 
 HMAC은 Bitcoin에서 특히 HD(계층적 결정론적) 지갑의 키 도출에 사용되며(이에 대해서는 다음 장에서 자세히 설명하겠습니다), PBKDF2의 구성 요소로 사용됩니다.
@@ -873,7 +907,7 @@ $$
 PBKDF2는 다음과 같이 개략적으로 표현할 수 있습니다:
 
 
-![CYP201](assets/fr/013.webp)
+![CYP201](assets/en/018.webp)
 
 
 이 장에서는 해시 함수를 사용해 Bitcoin 프로토콜에서 키 파생의 무결성과 보안을 보장하는 HMAC-SHA512와 PBKDF2 함수에 대해 살펴보았습니다. 다음 파트에서는 Bitcoin에서 널리 사용되는 또 다른 암호화 방법인 디지털 서명에 대해 살펴보겠습니다.
@@ -889,6 +923,8 @@ PBKDF2는 다음과 같이 개략적으로 표현할 수 있습니다:
 
 
 <chapterId>c9dd9672-6da1-57f8-9871-8b28994d4c1a</chapterId>
+
+:::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
 
 
 Bitcoin에서 사용되는 두 번째 암호화 방법은 디지털 서명 알고리즘을 사용합니다. 여기에는 무엇이 포함되며 어떻게 작동하는지 살펴보겠습니다.
@@ -913,7 +949,7 @@ P2PK 스크립트로 Bitcoin의 초기 작업은 공개 키를 사용하여 자�
 따라서 공개 키로 잠긴 비트코인을 소유한 사용자는 자금 잠금을 해제할 수 있는 개인 키를 안전하게 보관할 방법을 찾아야 합니다. Bitcoin Wallet은 다른 사람의 접근 없이 모든 키를 쉽게 보관할 수 있는 장치입니다. 따라서 Wallet이라기보다는 키체인에 가깝습니다.
 
 
-공개 키와 개인 키 사이의 수학적 연결과 개인 키를 공개하지 않고도 개인 키의 소유를 증명하는 서명을 수행할 수 있는 기능은 디지털 서명 알고리즘을 통해 가능합니다. Bitcoin 프로토콜에서는 두 가지 서명 알고리즘이 사용됩니다: 타원 곡선 디지털 서명 알고리즘인 **ECDSA**와 슈노르 서명 체계인 **슈노르 서명 체계**입니다. ECDSA는 Bitcoin에서 처음부터 사용된 디지털 서명 프로토콜입니다. 슈노르는 2021년 11월 Taproot 업데이트와 함께 도입되었기 때문에 Bitcoin에서 더 최근에 도입되었습니다.
+공개 키와 개인 키 사이의 수학적 연결과 개인 키를 공개하지 않고도 개인 키의 소유를 증명하는 서명을 수행할 수 있는 기능은 디지털 서명 알고리즘을 통해 가능합니다. Bitcoin 프로토콜에서는 두 가지 서명 알고리즘이 사용됩니다: 타원 곡선 디지털 서명 알고리즘인 **[ECDSA](https://planb.academy/resources/glossary/ecdsa)**와 슈노르 서명 체계인 **슈노르 서명 체계**입니다. ECDSA는 Bitcoin에서 처음부터 사용된 디지털 서명 프로토콜입니다. 슈노르는 2021년 11월 Taproot 업데이트와 함께 도입되었기 때문에 Bitcoin에서 더 최근에 도입되었습니다.
 
 이 두 알고리즘은 메커니즘이 매우 유사합니다. 둘 다 타원 곡선 암호화를 기반으로 합니다. 이 두 프로토콜의 가장 큰 차이점은 서명의 구조와 몇 가지 특정 수학적 특성에 있습니다. 따라서 가장 오래된 알고리즘인 ECDSA부터 시작하여 이러한 알고리즘의 기능을 살펴보겠습니다.
 
@@ -930,7 +966,7 @@ P2PK 스크립트로 Bitcoin의 초기 작업은 공개 키를 사용하여 자�
 다음은 실수 필드 위에 타원 곡선을 표현한 것입니다:
 
 
-![CYP201](assets/fr/014.webp)
+![CYP201](assets/en/019.webp)
 
 
 모든 타원 커브는 다음과 같은 방정식으로 정의됩니다:
@@ -964,7 +1000,7 @@ $$
 실수 필드에 대한 그래픽 표현은 다음과 같습니다:
 
 
-![CYP201](assets/fr/015.webp)
+![CYP201](assets/en/020.webp)
 
 
 그러나 암호화에서는 유한한 숫자 집합을 다룹니다. 더 구체적으로 말하자면, 소수 $p$를 모듈로 한 정수의 필드인 유한 필드 $\mathbb{F}_p$에서 작업합니다.
@@ -1007,7 +1043,7 @@ $$
 이 곡선은 유한 필드 $\mathbb{F}_p$에 정의되어 있으므로 더 이상 연속 곡선이 아니라 이산 점 집합과 유사합니다. 예를 들어, Bitcoin에서 사용된 곡선은 매우 작은 $p = 17$에 대해 다음과 같이 보입니다:
 
 
-![CYP201](assets/fr/016.webp)
+![CYP201](assets/en/021.webp)
 
 
 이 예에서는 교육적인 이유로 유한 필드를 의도적으로 $p = 17$로 제한했지만, Bitcoin에서 사용된 유한 필드는 거의 $2^{256}$로 엄청나게 크다는 것을 상상해야 합니다.
@@ -1022,12 +1058,14 @@ $$
 현대 암호학의 수학적 기초에 대해 더 자세히 알고 싶으시다면 Plan ₿ Network의 다른 강좌도 참고하시기 바랍니다:
 
 
-https://planb.network/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
+https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 ## 개인 키에서 공개 키 계산하기
 
 
 <chapterId>fcb2bd58-5dda-5ecf-bb8f-ad1a0561ab4a</chapterId>
+
+:::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
 앞서 살펴본 것처럼 Bitcoin의 디지털 서명 알고리즘은 수학적으로 연결된 한 쌍의 개인 키와 공개 키를 기반으로 합니다. 이 수학적 연결이 무엇이며 어떻게 생성되는지 함께 살펴보겠습니다.
 
@@ -1087,13 +1125,13 @@ $$
 이 점 $G$가 Bitcoin의 모든 공개 키에 공통적이라는 사실은 동일한 개인 키 $k$가 항상 동일한 공개 키 $K$를 제공한다는 것을 확신할 수 있게 해줍니다:
 
 
-![CYP201](assets/fr/017.webp)
+![CYP201](assets/en/022.webp)
 
 
 이 연산은 단방향 함수라는 것이 가장 큰 특징입니다. 개인키 $k$와 생성점 $G$를 알면 공개키 $K$를 계산하기는 쉽지만, 공개키 $K$와 생성점 $G$만 알면 개인키 $k$를 계산하는 것은 사실상 불가능합니다. K$와 $G$에서 $k$를 구하는 것은 타원 곡선의 이산 로그 문제를 푸는 것과 같으며, 이는 효율적인 알고리즘이 알려지지 않은 수학적으로 어려운 문제입니다. 현재 가장 강력한 계산기조차도 이 문제를 합리적인 시간 내에 해결할 수 없습니다.
 
 
-![CYP201](assets/fr/018.webp)
+![CYP201](assets/en/023.webp)
 
 
 ### 타원 커브의 점 더하기와 곱하기
@@ -1113,7 +1151,7 @@ $$
 이를 그래픽으로 표현하면 다음과 같습니다:
 
 
-![CYP201](assets/fr/019.webp)
+![CYP201](assets/en/024.webp)
 
 
 한 점을 두 배로 늘리는 연산, 즉 $P + P$의 경우, 점 $P$에서 곡선에 접하는 접선을 그립니다. 이 접선은 다른 점 $S'$에서 커브와 교차합니다. 그런 다음 이 점의 X축에 대한 거울 이미지를 취하여 배율의 결과인 점 $S$를 얻습니다:
@@ -1130,7 +1168,7 @@ $$
 그래픽으로는 다음과 같이 표시됩니다:
 
 
-![CYP201](assets/fr/020.webp)
+![CYP201](assets/en/025.webp)
 
 
 이러한 덧셈과 곱셈 연산을 사용하면 곱셈과 덧셈을 반복하여 $kP$로 표시되는 정수에 점을 곱하는 스칼라 곱셈을 수행할 수 있습니다.
@@ -1155,7 +1193,7 @@ $$
 - 2G$를 두 배로 늘려 $4G$를 계산합니다.
 
 
-![CYP201](assets/fr/021.webp)
+![CYP201](assets/en/026.webp)
 
 
 예를 들어, 점 $3G$를 계산하려면 먼저 점 $G$를 두 배로 하여 점 $2G$를 계산한 다음 $G$와 $2G$를 더해야 합니다. G$와 $2G$를 더하려면 이 두 점을 연결하는 선을 그리고, 이 선과 타원 곡선의 교차점에서 고유 점 $-3G$를 구한 다음, $-3G$의 반대인 $3G$를 구하면 됩니다.
@@ -1183,7 +1221,7 @@ $$
 그래픽으로 표현하면 다음과 같습니다:
 
 
-![CYP201](assets/fr/022.webp)
+![CYP201](assets/en/027.webp)
 
 
 ### 단방향 기능
@@ -1213,6 +1251,8 @@ $$
 
 
 <chapterId>bb07826f-826e-5905-b307-3d82001fb778</chapterId>
+
+:::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
 
 이제 개인 키에서 공개 키를 도출하는 방법을 알았으니, 이 키 쌍을 사용 조건으로 사용하여 비트코인을 받을 수 있습니다. 하지만 어떻게 사용하나요? 비트코인을 사용하려면 UTXO에 첨부된 _scriptPubKey_의 잠금을 해제하여 본인이 실제로 비트코인의 정당한 소유자임을 증명해야 합니다. 이를 위해서는 처음에 $K$를 계산하는 데 사용된 개인 키 $k$를 사용하여 _scriptPubKey_에 있는 공개 키 $K$와 일치하는 서명 $s$를 생성해야 합니다. 따라서 디지털 서명은 귀하가 주장하는 공개 키와 연결된 개인 키를 소유하고 있다는 반박할 수 없는 증거가 됩니다.
@@ -1399,7 +1439,7 @@ $$
 서명을 generate로 만들기 위한 첫 번째 단계는 메시지를 Hash로 만드는 것입니다. 그러나 ECDSA와 달리 다른 값으로 수행되며 다른 컨텍스트에서 충돌을 피하기 위해 레이블이 지정된 Hash 함수가 사용됩니다. 라벨링된 Hash 함수는 메시지 데이터와 함께 Hash 함수의 입력에 임의의 라벨을 추가하기만 하면 됩니다.
 
 
-![CYP201](assets/fr/023.webp)
+![CYP201](assets/en/028.webp)
 
 
 메시지 외에도 공개 키 $K_x$의 $x$ 좌표와 Nonce $r$(각 서명에 대해 고유한 정수이며, 개인 키와 메시지에서 결정론적으로 계산되어 Nonce 재사용과 관련된 취약점을 피하기 위해)에서 계산된 점 $R = r \cdot G$도 라벨링 함수에 전달됩니다. 공개 키와 마찬가지로 Nonce 포인트 $R_x$의 $x$ 좌표만 해당 포인트를 설명하기 위해 유지됩니다.
@@ -1491,13 +1531,13 @@ $$
 슈노르 서명 체계는 기존 ECDSA 알고리즘에 비해 Bitcoin에 몇 가지 장점을 제공합니다. 첫째, 슈노르는 키와 서명을 통합할 수 있습니다. 즉, 여러 개의 공개 키를 하나의 키로 결합할 수 있습니다.
 
 
-![CYP201](assets/fr/024.webp)
+![CYP201](assets/en/029.webp)
 
 
 마찬가지로 여러 서명을 하나의 유효한 서명으로 통합할 수도 있습니다. 따라서 다중 서명 트랜잭션의 경우, 일련의 참여자가 단일 서명과 단일 통합 공개 키로 서명할 수 있습니다. 이렇게 하면 각 노드가 하나의 서명만 확인하면 되므로 네트워크의 스토리지 및 계산 비용이 크게 줄어듭니다.
 
 
-![CYP201](assets/fr/025.webp)
+![CYP201](assets/en/030.webp)
 
 
 또한 서명 집계는 개인 정보 보호를 향상시킵니다. 슈노르를 사용하면 다중 서명 트랜잭션과 표준 단일 서명 트랜잭션을 구별하는 것이 불가능해집니다. 이러한 동질성은 Wallet 지문을 식별하는 기능을 제한하기 때문에 체인 분석을 더욱 어렵게 만듭니다.
@@ -1521,6 +1561,8 @@ Satoshi이 왜 이 프로토콜을 선택하지 않았는지는 알 수 없지�
 
 
 <chapterId>231c41a2-aff2-4655-9048-47b6d2d83d64</chapterId>
+
+:::video id=43dfce6d-c51a-44c1-b565-95b4430da069:::
 
 
 이전 장에서 살펴본 것처럼 디지털 서명은 입력 스크립트의 잠금을 해제하는 데 자주 사용됩니다. 서명 과정에서 서명된 데이터를 계산에 포함시켜야 하는데, 예제에서는 $m$ 메시지로 지정했습니다. 이 데이터는 일단 서명되면 서명을 무효로 만들지 않고는 수정할 수 없습니다. 실제로 ECDSA든 슈노르든 서명 검증자는 계산에 동일한 메시지 $m$을 포함해야 합니다. 서명자가 처음에 사용한 메시지 $m$과 다르면 결과가 잘못되고 서명은 유효하지 않은 것으로 간주됩니다. 그러면 서명이 특정 데이터를 커버하고 어떤 식으로든 무단 수정으로부터 데이터를 보호한다고 할 수 있습니다.
@@ -1550,7 +1592,7 @@ Bitcoin에서는 가장 먼저 3개의 기본 시게시 플래그가 있습니�
 - sIGHASH_ALL` (`0x01`): 서명은 트랜잭션의 모든 입력과 모든 출력에 적용됩니다. 따라서 트랜잭션은 서명에 의해 완전히 보호되며 더 이상 수정할 수 없습니다. sIGHASH_ALL`은 일상적인 트랜잭션에서 수정할 수 없는 트랜잭션을 만들고자 할 때 가장 일반적으로 사용되는 sighash입니다.
 
 
-![CYP201](assets/fr/026.webp)
+![CYP201](assets/en/031.webp)
 
 
 이 장의 모든 다이어그램에서 주황색은 시그니처가 적용되는 Elements를 나타내고 검은색은 그렇지 않은 것을 나타냅니다.
@@ -1560,14 +1602,14 @@ Bitcoin에서는 가장 먼저 3개의 기본 시게시 플래그가 있습니�
 - sIGHASH_NONE` (`0x02`): 서명은 모든 입력을 포함하지만 출력은 포함하지 않으므로 서명 후 출력을 수정할 수 있습니다. 구체적으로 말하면 백지 수표와 비슷합니다. 서명자는 입력의 UTXO를 잠금 해제하지만 출력 필드는 완전히 수정할 수 있도록 남겨둡니다. 따라서 이 트랜잭션을 아는 사람은 누구나 원하는 출력을 추가할 수 있으며, 예를 들어 입력에 소비된 자금을 모으기 위해 수신 Address를 지정한 다음 트랜잭션을 브로드캐스트하여 비트코인을 회수할 수 있습니다. 입력 소유자의 서명은 입력에만 적용되므로 무효화되지 않습니다.
 
 
-![CYP201](assets/fr/027.webp)
+![CYP201](assets/en/032.webp)
 
 
 
 - sIGHASH_SINGLE` (`0x03`): 서명은 서명된 입력의 인덱스에 해당하는 단일 출력뿐만 아니라 모든 입력을 포함합니다. 예를 들어, 서명이 입력 #0의 _scriptPubKey_를 잠금 해제하면 출력 #0도 포함됩니다. 서명은 더 이상 수정할 수 없는 다른 모든 입력도 보호합니다. 그러나 서명이 적용되는 유일한 출력인 #0만 수정하지 않는다면 누구나 서명을 무효화하지 않고 추가 출력을 추가할 수 있습니다.
 
 
-![CYP201](assets/fr/028.webp)
+![CYP201](assets/en/033.webp)
 
 
 이 세 가지 시개시 플래그 외에도 수정자 `SIGHASH_ANYONECANPAY`(`0x80`)도 있습니다. 이 수정자는 기본 sighash 플래그와 결합하여 세 개의 새로운 sighash 플래그를 만들 수 있습니다:
@@ -1577,21 +1619,21 @@ Bitcoin에서는 가장 먼저 3개의 기본 시게시 플래그가 있습니�
 - `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): 서명은 트랜잭션의 모든 출력을 포함하면서 단일 입력을 포함합니다. 예를 들어, 이 sighash 플래그를 결합하면 크라우드펀딩 트랜잭션을 생성할 수 있습니다. 주최자는 Address과 목표 금액으로 산출물을 준비하고, 각 투자자는 이 산출물에 자금을 지원하기 위해 입력을 추가할 수 있습니다. 산출물을 충족할 만큼 충분한 자금이 입력에 모이면 거래를 방송할 수 있습니다.
 
 
-![CYP201](assets/fr/029.webp)
+![CYP201](assets/en/034.webp)
 
 
 
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): 이 서명은 출력에 커밋하지 않고 단일 입력에 적용됩니다;
 
 
-![CYP201](assets/fr/030.webp)
+![CYP201](assets/en/035.webp)
 
 
 
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): 이 서명은 단일 입력과 이 입력과 동일한 인덱스를 가진 출력에 적용됩니다. 예를 들어, 서명이 입력 #3의 _scriptPubKey_를 잠금 해제하면 출력 #3도 포함됩니다. 나머지 트랜잭션은 다른 입력과 다른 출력 모두 수정 가능한 상태로 유지됩니다.
 
 
-![CYP201](assets/fr/031.webp)
+![CYP201](assets/en/036.webp)
 
 
 ### 새로운 Sighash 플래그 추가 프로젝트
@@ -1603,7 +1645,7 @@ Bitcoin에서는 가장 먼저 3개의 기본 시게시 플래그가 있습니�
 이 두 개의 시그해시 플래그는 Bitcoin에서 거래의 특정 입력을 포함하지 않는 서명을 생성할 수 있는 추가적인 가능성을 제공합니다.
 
 
-![CYP201](assets/fr/032.webp)
+![CYP201](assets/en/037.webp)
 
 
 이 아이디어는 조셉 푼과 타데우스 드라이야가 라이트닝 백서에서 처음 공식화했습니다. 이름이 바뀌기 전에는 이 시호 플래그의 이름이 'SIGHASH_NOINPUT'이었습니다.
@@ -1614,7 +1656,7 @@ Bitcoin에서는 가장 먼저 3개의 기본 시게시 플래그가 있습니�
 Lightning Network에 대한 지식을 심화하려면 CYP201 과정을 수강한 후 이 주제를 자세히 다루는 Fanis Michalakis의 LNP201 과정을 수강하는 것을 적극 추천합니다:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 다음 부분에서는 Bitcoin Wallet의 기초에 있는 Mnemonic 문구가 어떻게 작동하는지 알아볼 것을 제안합니다.
 
@@ -1629,6 +1671,8 @@ https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 <chapterId>9d9acd5d-a0e5-5dfd-b544-f043fae8840f</chapterId>
+
+:::video id=024fb46f-aece-414f-818b-4762e77953b9:::
 
 
 이제 Hash 기능과 디지털 서명의 작동 원리를 살펴보았으니, Bitcoin 지갑의 작동 원리를 살펴볼 수 있습니다. 목표는 Bitcoin의 Wallet가 어떻게 구성되고, 어떻게 분해되며, 이를 구성하는 다양한 정보가 어떤 용도로 사용되는지 설명하는 것입니다. Wallet 메커니즘에 대한 이해를 통해 보안 및 개인정보 보호 측면에서 Bitcoin의 사용을 개선할 수 있습니다.
@@ -1654,7 +1698,7 @@ Bitcoin Wallet의 역할은 바로 이러한 개인 키를 안전하게 관리�
 Bitcoin에 사용된 첫 번째 지갑은 JBOK(_Just a Bunch Of Keys_) 지갑으로, 독립적으로 생성된 개인 키를 서로 연결하지 않고 그룹화한 지갑이었습니다. 이 지갑은 각 개인 키가 Bitcoin을 수신하는 고유한 Address의 잠금을 해제할 수 있는 간단한 모델로 운영되었습니다.
 
 
-![CYP201](assets/fr/033.webp)
+![CYP201](assets/en/038.webp)
 
 
 여러 개의 개인 키를 사용하려면 Wallet를 호스팅하는 장치에 문제가 발생할 경우 자금에 액세스할 수 있도록 최대한 많은 백업을 만들어야 했습니다. 단일 개인 키를 사용하는 경우, 단일 백업으로 충분하기 때문에 이 Wallet 구조로 충분할 수 있습니다. 그러나 이는 문제가 될 수 있습니다. Bitcoin에서는 항상 동일한 개인 키를 사용하지 않는 것이 좋습니다. 실제로 개인 키는 고유한 Address과 연결되어 있으며, Bitcoin 수신 주소는 일반적으로 일회용으로 설계되어 있습니다. 자금을 받을 때마다 새로운 빈 Address을 generate에 생성해야 합니다.
@@ -1666,7 +1710,7 @@ Bitcoin에 사용된 첫 번째 지갑은 JBOK(_Just a Bunch Of Keys_) 지갑으
 Bitcoin의 개인정보 보호 모델에 대해 자세히 알아보고 개인 정보를 보호하는 방법을 알아보려면 Plan ₿ Network에 대한 BTC204 강좌를 수강하는 것도 추천합니다:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### HD 지갑
 
@@ -1674,7 +1718,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 Address은 JBOK 지갑의 한계를 극복하기 위해 새로운 Wallet 구조를 사용했습니다. 2012년 Pieter Wuille은 BIP32를 통해 HD(계층적 결정론적) 지갑을 도입하는 개선안을 제안했습니다. HD Wallet의 원리는 seed이라고 하는 단일 정보 소스에서 모든 개인 키를 결정론적이고 계층적인 방식으로 도출하는 것입니다. 이 seed은 Wallet가 생성될 때 무작위로 생성되며 모든 Wallet의 개인 키를 다시 생성할 수 있는 고유한 백업을 구성합니다. 따라서 사용자는 Address의 재사용을 방지하고 개인 정보를 보호하기 위해 매우 많은 수의 개인 키를 generate에 저장할 수 있으며, seed을 통해 Wallet의 백업을 한 번만 만들면 됩니다.
 
 
-![CYP201](assets/fr/034.webp)
+![CYP201](assets/en/039.webp)
 
 
 HD 지갑에서는 키를 파생 하위 공간으로 구성할 수 있는 계층 구조에 따라 키 파생이 수행되며, 각 하위 공간은 더 세분화할 수 있어 자금 관리와 서로 다른 Wallet 소프트웨어 간의 상호 운용성을 용이하게 합니다. 현재 이 표준은 대다수의 Bitcoin 사용자가 채택하고 있습니다. 이러한 이유로 다음 장에서 자세히 살펴보겠습니다.
@@ -1696,6 +1740,8 @@ Mnemonic 문구는 사용자의 백업을 크게 간소화합니다. Wallet을 �
 
 
 <chapterId>b43c715d-affb-56d8-a697-ad5bc2fffd63</chapterId>
+
+:::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
 최신 HD 지갑은 "엔트로피"라는 단일 초기 정보에 의존해 전체 Wallet 키 집합을 결정적으로 generate로 만듭니다. 이 엔트로피는 Wallet의 보안을 부분적으로 결정하는 의사 난수입니다.
 
@@ -1723,7 +1769,7 @@ HD Wallet에 사용되는 초기 엔트로피는 일반적으로 128비트 또�
 대부분의 경우, 이 난수는 Wallet 소프트웨어가 PRNG(_Pseudo-Random Number Generator_)를 사용하여 자동으로 생성합니다. PRNG는 실제로 난수가 아니면서 난수에 가까운 특성을 가진 초기 상태의 숫자 시퀀스를 generate에 사용하는 알고리즘의 한 범주입니다. 좋은 PRNG는 출력 균일성, 예측 불가능성, 예측 공격에 대한 저항성과 같은 특성을 가져야 합니다. 진정한 난수 생성기(TRNG)와 달리 PRNG는 결정론적이고 재현 가능합니다.
 
 
-![CYP201](assets/fr/035.webp)
+![CYP201](assets/en/040.webp)
 
 
 다른 방법은 엔트로피를 수동으로 generate으로 설정하는 것인데, 이 방법은 더 나은 제어 기능을 제공하지만 훨씬 더 위험합니다. HD Wallet의 엔트로피를 직접 생성하지 않는 것이 좋습니다.
@@ -1736,6 +1782,8 @@ HD Wallet에 사용되는 초기 엔트로피는 일반적으로 128비트 또�
 
 
 <chapterId>8f9340c1-e6dc-5557-a2f2-26c9669987d5</chapterId>
+
+:::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
 "seed 구문", "복구 구문", "비밀 구문" 또는 "24단어 구문"이라고도 하는 Mnemonic 구문은 일반적으로 엔트로피에서 생성되는 12개 또는 24개의 단어로 구성된 시퀀스입니다. 이는 HD Wallet의 모든 키를 결정론적으로 도출하는 데 사용됩니다. 즉, 이 문구에서 generate을 결정론적으로 Bitcoin Wallet의 모든 개인 키와 공개 키를 다시 생성하여 결과적으로 보호되는 자금에 액세스할 수 있습니다. Mnemonic 문구의 목적은 안전하고 사용하기 쉬운 비트코인의 백업 및 복구 수단을 제공하는 것입니다. 2013년에 BIP39 표준과 함께 도입되었습니다.
 
@@ -1771,7 +1819,7 @@ $$
 체크섬이 계산되면 엔트로피와 연결하여 확장된 비트 시퀀스 $\text{ENT} \Vert \text{CS}$("연결"은 끝에서 끝까지 연결한다는 의미).
 
 
-![CYP201](assets/fr/036.webp)
+![CYP201](assets/en/041.webp)
 
 
 ### 엔트로피와 Mnemonic 구문 사이의 대응 관계
@@ -1807,28 +1855,28 @@ $$
 ### 이진 시퀀스를 Mnemonic 구문으로 변환하기
 
 
-비트 시퀀스 $\text{ENT} \Vert \text{CS}$는 11비트의 세그먼트로 나뉩니다. 각 11비트 세그먼트는 십진수로 변환하면 0에서 2047 사이의 숫자에 해당하며, 이는 단어의 위치를 나타냅니다[BIP39로 표준화된 2048개의 단어 목록에서](https://github.com/Planb-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+비트 시퀀스 $\text{ENT} \Vert \text{CS}$는 11비트의 세그먼트로 나뉩니다. 각 11비트 세그먼트는 십진수로 변환하면 0에서 2047 사이의 숫자에 해당하며, 이는 단어의 위치를 나타냅니다[BIP39로 표준화된 2048개의 단어 목록에서](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
-![CYP201](assets/fr/037.webp)
+![CYP201](assets/en/042.webp)
 
 
 예를 들어 128비트 엔트로피의 경우 체크섬은 4비트이므로 총 시퀀스는 132비트를 측정합니다. 이는 11비트씩 12개의 세그먼트로 나뉩니다(주황색 비트는 체크섬을 나타냅니다):
 
 
-![CYP201](assets/fr/038.webp)
+![CYP201](assets/en/043.webp)
 
 
 그런 다음 각 세그먼트는 목록의 단어를 나타내는 10진수로 변환됩니다. 예를 들어, 이진 세그먼트 `01011010001`은 십진수로 `721`과 같습니다. 목록의 인덱싱(0이 아닌 1에서 시작)에 맞춰 1을 더하면 목록에서 "_focus_"인 단어 순위 `722`가 됩니다.
 
 
-![CYP201](assets/fr/039.webp)
+![CYP201](assets/en/044.webp)
 
 
 12개의 세그먼트 각각에 대해 이 대응을 반복하여 12단어 구문을 얻습니다.
 
 
-![CYP201](assets/fr/040.webp)
+![CYP201](assets/en/045.webp)
 
 
 ### BIP39 단어 목록의 특징
@@ -1872,7 +1920,7 @@ $$
 더 나아가 테스트 Mnemonic 구문을 수동으로 generate하는 방법을 구체적으로 배우려면 이 튜토리얼을 살펴보는 것이 좋습니다:
 
 
-https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
+https://planb.academy/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-e6af-4cac-b01b-01a14d7a8228
 
 이 Mnemonic 구문에서 Wallet의 도출을 계속하기 전에 다음 장에서는 도출 과정에서 역할을 하며 Mnemonic 구문과 동일한 수준인 BIP39 passphrase에 대해 소개하겠습니다.
 
@@ -1881,6 +1929,8 @@ https://planb.network/tutorials/wallet/backup/generate-mnemonic-phrase-47507d90-
 
 
 <chapterId>6a51b397-f3b5-5084-b151-cef94bc9b93f</chapterId>
+
+:::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 
 방금 살펴본 것처럼 HD 지갑은 일반적으로 12개 또는 24개의 단어로 구성된 Mnemonic 구문에서 생성됩니다. 이 구문은 물리적 장치(예: Hardware Wallet 등)를 분실했을 때 Wallet의 모든 키를 복원할 수 있게 해주기 때문에 매우 중요합니다. 그러나 이 키가 손상되면 공격자가 모든 비트코인을 훔칠 수 있기 때문에 단일 실패 지점에 해당합니다. 이것이 바로 BIP39 passphrase의 역할입니다.
@@ -1898,7 +1948,7 @@ passphrase을 Hardware Wallet의 PIN 코드 또는 컴퓨터에서 Wallet에 대
 passphrase은 Mnemonic 구문과 함께 작동하여 키가 생성되는 seed을 수정합니다. 따라서 누군가 12단어 또는 24단어 구문을 입수하더라도 passphrase이 없으면 자금에 액세스할 수 없습니다. passphrase을 사용하면 기본적으로 고유한 키를 가진 새로운 Wallet이 생성됩니다. passphrase을 조금이라도 수정하면 generate가 다른 Wallet이 됩니다.
 
 
-![CYP201](assets/fr/041.webp)
+![CYP201](assets/en/046.webp)
 
 
 ### passphrase을 사용해야 하는 이유는 무엇인가요?
@@ -1921,7 +1971,7 @@ passphrase이 효과를 발휘하려면 충분히 길고 무작위여야 합니�
 Mnemonic 문구와 같은 방식으로 이 passphrase를 올바르게 저장하는 것도 중요합니다. **분실하면 비트코인에 대한 액세스 권한을 잃게 됩니다**. 분실 위험이 불합리하게 높아지므로 머리로만 기억하지 않는 것이 좋습니다. 가장 이상적인 방법은 Mnemonic 문구와 별도의 물리적 매체(종이 또는 금속)에 적어두는 것입니다. 이 백업은 Mnemonic 문구가 저장된 곳과 다른 곳에 보관해야 두 문구가 동시에 손상되는 것을 방지할 수 있습니다.
 
 
-![CYP201](assets/fr/042.webp)
+![CYP201](assets/en/047.webp)
 
 
 다음 섹션에서는 Wallet의 기반에 있는 이 두 개의 Elements, 즉 Mnemonic 구문과 passphrase이 어떻게 UTXO를 잠그는 _scriptPubKey_에 사용되는 키 쌍을 도출하는 데 사용되는지 알아보겠습니다.
@@ -1938,11 +1988,13 @@ Mnemonic 문구와 같은 방식으로 이 passphrase를 올바르게 저장하�
 
 <chapterId>63093760-2010-5691-8d0e-9a04732ae557</chapterId>
 
+:::video id=60e3ade6-501b-4e1e-a85e-59257ef12900:::
+
 
 Mnemonic 프레이즈와 옵션인 passphrase이 생성되면 Bitcoin HD Wallet을 도출하는 프로세스를 시작할 수 있습니다. Mnemonic 프레이즈는 먼저 Wallet의 모든 키의 기본을 구성하는 seed로 변환됩니다.
 
 
-![CYP201](assets/fr/043.webp)
+![CYP201](assets/en/048.webp)
 
 
 ### HD Wallet의 seed
@@ -1971,7 +2023,7 @@ s = \text{PBKDF2}_{\text{HMAC-SHA512}}(m, p, 2048)
 $$
 
 
-![CYP201](assets/fr/044.webp)
+![CYP201](assets/en/049.webp)
 
 
 따라서 seed의 값은 Mnemonic 구문과 passphrase의 값에 영향을 받습니다. passphrase를 변경하면 다른 seed을 얻을 수 있습니다. 그러나 동일한 Mnemonic 구문과 passphrase를 사용하면 PBKDF2가 결정론적 함수이기 때문에 항상 동일한 seed이 생성됩니다. 따라서 백업을 통해 동일한 키 쌍을 검색할 수 있습니다.
@@ -2027,7 +2079,7 @@ C_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[256:]}
 $$
 
 
-![CYP201](assets/fr/045.webp)
+![CYP201](assets/en/050.webp)
 
 
 ### 마스터 키와 chain code의 역할
@@ -2046,11 +2098,13 @@ $$
 
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
+:::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
+
 
 확장 키는 단순히 키(개인 키 또는 공개 키)와 관련 chain code를 연결한 것입니다. 이 chain code가 없으면 부모 키에서 자식 키를 파생할 수 없기 때문에 자식 키를 파생하는 데 필수적이지만, 다음 장에서 이 과정을 더 자세히 알아보겠습니다. 따라서 이러한 확장 키를 사용하면 자식 키를 도출하는 데 필요한 모든 정보를 집계할 수 있으므로 HD Wallet 내에서 계정 관리를 간소화할 수 있습니다.
 
 
-![CYP201](assets/fr/046.webp)
+![CYP201](assets/en/051.webp)
 
 
 확장 키는 두 부분으로 구성됩니다:
@@ -2084,7 +2138,7 @@ $$
 - k_{\text{CHD}}^h$: 강화된 자식 개인키입니다.
 
 
-![CYP201](assets/fr/047.webp)
+![CYP201](assets/en/052.webp)
 
 
 ### 확장 키 구성
@@ -2212,6 +2266,8 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>
 
+:::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
+
 
 Bitcoin HD 지갑에서 자식 키 쌍을 파생하는 것은 많은 수의 키를 생성할 수 있는 계층적 구조에 의존하며, 이러한 쌍을 분기를 통해 다른 그룹으로 구성합니다. 부모 쌍에서 파생된 각 자식 쌍은 비트코인을 잠그기 위해 *scriptPubKey*에서 직접 사용하거나 generate 더 많은 자식 키의 시작점으로 사용하여 키 트리를 생성하는 등의 방법으로 사용할 수 있습니다.
 
@@ -2219,7 +2275,7 @@ Bitcoin HD 지갑에서 자식 키 쌍을 파생하는 것은 많은 수의 키�
 이러한 모든 파생 키는 깊이 레벨 0의 첫 번째 부모인 마스터 키와 마스터 chain code에서 시작됩니다. 이 두 키는 모든 파생 키의 공통 조상인 Wallet 키의 아담과 이브와 같은 존재입니다.
 
 
-![CYP201](assets/fr/048.webp)
+![CYP201](assets/en/053.webp)
 
 
 이 결정론적 파생이 어떻게 작동하는지 살펴보겠습니다.
@@ -2251,7 +2307,7 @@ Bitcoin HD 지갑에서 자식 키 쌍을 파생하는 것은 많은 수의 키�
 모든 계산에서 저는 $\text{Hash}$을 HMAC-SHA512 함수의 출력으로 표시하겠습니다.
 
 
-![CYP201](assets/fr/049.webp)
+![CYP201](assets/en/054.webp)
 
 
 #### 부모 개인키에서 자식 개인키 파생하기
@@ -2312,7 +2368,7 @@ $$
 다음은 전체 도출 과정을 개략적으로 나타낸 도식입니다:
 
 
-![CYP201](assets/fr/050.webp)
+![CYP201](assets/en/055.webp)
 
 
 강화된 자식 키**($i \geq 2^{31}$)**의 경우, $\text{Hash}$의 계산은 다음과 같습니다:
@@ -2360,7 +2416,7 @@ $$
 다음은 전체 도출 과정을 개략적으로 나타낸 도식입니다:
 
 
-![CYP201](assets/fr/051.webp)
+![CYP201](assets/en/056.webp)
 
 
 일반 파생과 강화 파생은 동일한 방식으로 작동하지만 일반 파생은 부모 공개 키를 HMAC 함수에 입력으로 사용하는 반면 강화 파생은 부모 개인 키를 사용한다는 차이점을 확인할 수 있습니다.
@@ -2427,7 +2483,7 @@ $$
 다음은 전체 도출 과정을 개략적으로 나타낸 도식입니다:
 
 
-![CYP201](assets/fr/052.webp)
+![CYP201](assets/en/057.webp)
 
 
 ### 하위 공개 키와 개인 키 간의 대응
@@ -2469,6 +2525,8 @@ $$
 ## Wallet 구조 및 파생 경로
 
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
+
+:::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
 
 
 Bitcoin의 HD 지갑의 계층적 구조는 다양한 방식으로 키 쌍을 구성할 수 있습니다. 마스터 개인 키와 마스터 chain code에서 여러 단계의 깊이를 도출하는 것이 아이디어입니다. 추가된 각 레벨은 부모 키 쌍에서 자식 키 쌍을 파생하는 것에 해당합니다.
@@ -2543,7 +2601,7 @@ Bitcoin의 HD 지갑의 계층적 구조는 다양한 방식으로 키 쌍을 �
 마지막으로, 깊이 5는 Wallet에서 파생의 마지막 단계를 나타냅니다. 기술적으로는 무한정 계속할 수 있지만 현재 표준은 여기서 멈춥니다. 이 마지막 깊이에서 실제로 UTXO를 잠그고 잠금 해제하는 데 사용되는 키 쌍이 도출됩니다. 각 인덱스를 통해 형제 키 쌍을 구분할 수 있으므로 첫 번째 수신 Address는 $/0/$ 인덱스를 사용하고, 두 번째는 $/1/$ 인덱스를 사용하는 식입니다.
 
 
-![CYP201](assets/fr/053.webp)
+![CYP201](assets/en/058.webp)
 
 
 ### 파생 경로 표기법
@@ -2602,6 +2660,8 @@ $$
 ## 출력 스크립트 설명자
 
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
+
+:::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
 
 Mnemonic 문구만으로도 Wallet에 대한 액세스 권한을 복구할 수 있다는 말을 자주 듣습니다. 실제로는 상황이 좀 더 복잡합니다. 이전 장에서 HD Wallet의 파생 구조를 살펴봤는데, 이 과정이 상당히 복잡하다는 것을 눈치챘을 것입니다. 파생 경로는 소프트웨어에 사용자 키를 파생하기 위해 어떤 방향을 따라야 하는지 알려줍니다. 그러나 Bitcoin Wallet을 복구할 때 이러한 경로를 모른다면 Mnemonic 문구만으로는 충분하지 않습니다. 마스터 키와 마스터 chain code을 얻을 수 있지만 하위 키에 도달하는 데 사용되는 인덱스를 알아야 합니다.
 
@@ -2668,6 +2728,8 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
+:::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
+
 
 수신 주소는 새로 생성된 UTXO를 잠그기 위해 *scriptPubKey*에 내장된 정보 조각입니다. 간단히 말해, Address는 비트코인을 수신하는 역할을 합니다. 이전 장에서 공부한 내용과 연계하여 그 작동 방식을 살펴보겠습니다.
 
@@ -2681,26 +2743,28 @@ xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfK
 사용자가 비트코인을 받으면 발신자는 UTXO을 생성하고 *scriptPubKey*를 사용하여 잠급니다. 이 스크립트에는 일반적으로 필요한 서명과 공개 키를 지정하는 UTXO의 잠금을 해제하는 규칙이 포함되어 있습니다. 새 트랜잭션에서 이 UTXO을 사용하려면 사용자는 *scriptSig*를 통해 요청된 정보를 제공해야 합니다. *scriptSig*를 *scriptPubKey*와 함께 실행하면 "true" 또는 `1`을 반환해야 합니다. 이 조건이 충족되면 UTXO은 새로운 *scriptPubKey*로 잠긴 새 UTXO을 생성하는 데 사용될 수 있습니다.
 
 
-![CYP201](assets/fr/054.webp)
+![CYP201](assets/en/059.webp)
 
 
 수신 주소는 *scriptPubKey*에서 정확하게 찾을 수 있습니다. 그러나 채택된 스크립트 표준에 따라 사용법이 달라집니다. 다음은 사용된 표준에 따라 *scriptPubKey*에 포함된 정보와 *scriptPubKey*의 잠금을 해제하기 위해 *scriptSig*에 예상되는 정보를 요약한 표입니다.
 
 
-| Standard           | *scriptPubKey*                                              | *scriptSig*                     | *redeem script*     | *witness*                                |
-| ------------------ | ----------------------------------------------------------- | ------------------------------- | ------------------- | ---------------------------------------- |
-| P2PK               | `<pubkey> OP_CHECKSIG`                                      | `<signature>`                   |                     |                                          |
-| P2PKH              | `OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG` | `<signature> <public key>`      |                     |                                          |
-| P2SH               | `OP_HASH160 <scriptHash> OP_EQUAL`                          | `<data pushes> <redeem script>` | Arbitrary data     |                                          |
-| P2WPKH             | `0 <pubKeyHash>`                                            |                                 |                     | `<signature> <public key>`               |
-| P2WSH              | `0 <witnessScriptHash>`                                     |                                 |                     | `<data pushes> <witness script>`         |
-| P2SH-P2WPKH        | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <pubKeyHash>`    | `<signature> <public key>`               |
-| P2SH-P2WSH         | `OP_HASH160 <redeemScriptHash> OP_EQUAL`                    | `<redeem script>`               | `0 <scriptHash>`    | `<data pushes> <witness script>`         |
-| P2TR (key path)    | `1 <public key>`                                            |                                 |                     | `<signature>`                            |
-| P2TR (script path) | `1 <public key>`                                            |                                 |                     | `<data pushes> <script> <control block>` |
 
-*출처: Bitcoin core PR 리뷰 클럽, 2021년 7월 7일 - 글로리아 자오*
 
+
+| 표준             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
+| P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
+| P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
+| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | 임의 데이터 | |
+| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
+| P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
+| P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
+| P2TR (*script path*) | 1 <*public key*> | | | <*data pushes*> <*script*> <*control block*> |
+
+_출처: 2021년 7월 7일 Bitcoin Core PR 검토 클럽 – Gloria Zhao_
 
 스크립트에서 사용되는 옵코드는 정보를 조작하고 필요한 경우 비교하거나 테스트하기 위해 설계되었습니다. 다음과 같은 P2PKH 스크립트를 예로 들어 보겠습니다:
 
@@ -2728,56 +2792,56 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 - 스크립트 서명, 스크립트 퍼브키, 스택이 있습니다:
 
 
-![CYP201](assets/fr/055.webp)
+![CYP201](assets/en/060.webp)
 
 
 
 - 스크립트 서명이 스택에 푸시됩니다:
 
 
-![CYP201](assets/fr/056.webp)
+![CYP201](assets/en/061.webp)
 
 
 
 - oP_DUP`는 스택의 *scriptSig*에 제공된 공개 키를 복제합니다:
 
 
-![CYP201](assets/fr/057.webp)
+![CYP201](assets/en/062.webp)
 
 
 
 - oP_HASH160`은 방금 복제된 공개키의 Hash을 반환합니다:
 
 
-![CYP201](assets/fr/058.webp)
+![CYP201](assets/en/063.webp)
 
 
 
 - oP_PUSHBYTES_20 <pubKeyHash>`는 *scriptPubKey*에 포함된 Bitcoin Address를 스택에 푸시합니다:
 
 
-![CYP201](assets/fr/059.webp)
+![CYP201](assets/en/064.webp)
 
 
 
 - 'OP_EQUALVERIFY'는 해시된 공개키가 제공된 수신 Address과 일치하는지 확인합니다:
 
 
-![CYP201](assets/fr/060.webp)
+![CYP201](assets/en/065.webp)
 
 
 oP_CHECKSIG`는 공개 키를 사용하여 *scriptSig*에 포함된 서명을 확인합니다. 이 옵코드는 기본적으로 이 교육의 3부에서 설명한 대로 서명 확인을 수행합니다:
 
 
 
-![CYP201](assets/fr/061.webp)
+![CYP201](assets/en/066.webp)
 
 
 
 - 스택에 `1`이 남아 있으면 스크립트가 유효합니다:
 
 
-![CYP201](assets/fr/062.webp)
+![CYP201](assets/en/067.webp)
 
 
 따라서 요약하자면, 이 스크립트를 사용하면 디지털 서명을 통해 이 UTXO의 Ownership을 청구하고 이를 사용하려는 사용자가 실제로 이 UTXO 생성 시 사용된 수신 Address과 관련된 개인 키를 보유하고 있는지 확인할 수 있습니다.
@@ -2840,7 +2904,7 @@ P2TR 모델은 2021년 11월 Taproot의 구현과 함께 도입되었습니다. 
 따라서 P2TR은 고유한 공개 키로 비트코인을 잠그거나, 선택한 여러 스크립트로 잠그거나, 두 가지를 동시에 사용할 수 있어 뛰어난 유연성을 제공합니다. 이 Merkle Tree 구조의 장점은 거래 중에 사용된 지출 스크립트만 공개되고 다른 모든 대체 스크립트는 비밀로 유지된다는 것입니다.
 
 
-![CYP201](assets/fr/063.webp)
+![CYP201](assets/en/068.webp)
 
 
 P2TR은 버전 1 SegWit 출력에 해당하며, 이는 P2TR 입력에 대한 서명이 트랜잭션의 *Witness* 섹션에 저장되는 것이 아니라 *scriptSig*에 저장된다는 의미입니다. P2TR 주소는 *bech32m* 인코딩을 사용하며 `bc1p`로 시작하지만, 구성에 Hash 함수를 사용하지 않기 때문에 매우 독특합니다. 실제로 이 주소들은 메타데이터로 간단히 포맷된 공개 키 $Q$를 직접 나타냅니다. 따라서 P2PK에 가까운 스크립트 모델입니다.
@@ -2852,6 +2916,8 @@ P2TR은 버전 1 SegWit 출력에 해당하며, 이는 P2TR 입력에 대한 서
 ## Address 파생
 
 <chapterId>3ebdc750-4135-4881-b07e-08965941b93e</chapterId>
+
+:::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
 
 예를 들어 HD Wallet의 깊이 5에 있는 한 쌍의 키에서 수신 Address를 generate하는 방법을 함께 살펴봅시다. 그런 다음 이 Address를 Wallet 소프트웨어에서 사용하여 UTXO을 잠글 수 있습니다.
@@ -2873,7 +2939,7 @@ Bitcoin의 공개 키는 타원 곡선 위에 위치한 점 $K$입니다. 이는
 그러나 타원 곡선은 x축에 대한 대칭 속성을 가지고 있습니다. 주어진 $x$ 좌표에 대해 $y$에 대해 가능한 값은 $y$와 $-y$ 두 가지뿐입니다. 이 두 점은 X축의 양쪽에 위치합니다. 즉, $x$를 알고 있다면 $y$가 짝수인지 홀수인지만 지정하면 커브의 정확한 지점을 식별할 수 있습니다.
 
 
-![CYP201](assets/fr/064.webp)
+![CYP201](assets/en/069.webp)
 
 
 공개키를 압축하기 위해 256비트를 차지하는 $x$만 인코딩하고 $y$의 패리티를 지정하는 접두사를 추가합니다. 이 방법은 공개 키의 크기를 초기 520비트 대신 264비트로 줄입니다. 접두사 `0x02`는 $y$가 짝수임을 나타내고 접두사 `0x03`은 $y$가 홀수임을 나타냅니다.
@@ -3131,7 +3197,7 @@ bc1qn7qnytxgsc3v5nxt9ff2y83g3pe84ff42stydj
 요약하면 다음과 같습니다:
 
 
-![CYP201](assets/fr/065.webp)
+![CYP201](assets/en/070.webp)
 
 
 한 쌍의 키에서 Address을 수신하는 P2WPKH(SegWit v0)를 도출하는 방법입니다. 이제 P2TR(SegWit v1 / Taproot) 주소로 이동하여 생성 과정을 알아보겠습니다.
@@ -3255,7 +3321,7 @@ $$
 그런 다음 Merkle Tree 루트를 얻을 때까지 각 단계마다 태그가 지정된 Hash 함수 `TapBranch`를 통해 결과를 두 개씩 연결하여 계속 진행합니다:
 
 
-![CYP201](assets/fr/066.webp)
+![CYP201](assets/en/071.webp)
 
 
 Merkle Root $h_{\text{root}}$가 계산되면 조정값을 계산할 수 있습니다. 이를 위해 Wallet $P$의 내부 공개키를 루트 $h_{\text{root}}$와 연결한 다음 태그가 지정된 Hash 함수 `TapTweak`을 통해 전체를 전달합니다:

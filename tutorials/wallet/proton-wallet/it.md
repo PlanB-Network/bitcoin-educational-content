@@ -14,7 +14,7 @@ La particolarità di questo portafoglio è la possibilità di inviare bitcoin ut
 
 Per utilizzare Proton Wallet, è necessario disporre di un account Proton. Potete crearne uno gratuitamente seguendo i primi passi di questo tutorial dedicato alla creazione di una casella di posta elettronica Proton (solo la sezione "*Creazione di un account Proton*"). Una volta configurato l'account, si può proseguire con il resto del tutorial.
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 ## Connettersi a Proton Wallet
 
@@ -68,7 +68,7 @@ Potete scriverlo su un foglio di carta o, per maggiore sicurezza, vi consiglio d
 
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, vi consiglio di seguire quest'altro tutorial, soprattutto se siete principianti:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 naturalmente, non dovreste mai fotografare queste parole, a differenza di quanto faccio io in questo tutorial.
 
@@ -96,7 +96,7 @@ Qui è possibile aggiungere una passphrase BIP39 a un nuovo portafoglio.
 
 Per approfondire la conoscenza della passphrase, vi consiglio questo tutorial:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 ## Ricevere bitcoin
 
@@ -162,4 +162,4 @@ Congratulazioni, ora sapete come configurare e utilizzare Proton Wallet. Se avet
 
 Per approfondire, vi consiglio questo tutorial su Jade Plus, l'ultimo portafoglio hardware di Blockstream:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262

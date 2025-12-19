@@ -1,0 +1,9 @@
+question: Was ist das Hauptrisiko, das durch die Ansammlung von Dust in Ihrem Mini-PC entsteht?
+answer: Drosselung des Prozessors
+wrong_answers:
+  - Löschung des Blockchain-Blocks
+  - Beschädigung der Festplatte
+  - Reduzierte RAM-Kapazität
+explanation: |
+  Dust blockiert die Belüftung, verursacht Überhitzung und führt zu Drosselung, was die Effizienz des Prozessors verringert.
+reviewed: true

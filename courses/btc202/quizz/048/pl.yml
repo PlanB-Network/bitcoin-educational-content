@@ -1,0 +1,9 @@
+question: Które polecenie pobiera lokalny adres IP Address Umbrel, jeśli dostęp przez umbrel.local nie powiedzie się?
+answer: hostname -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --show
+  - netstat -umbrel
+explanation: |
+  W przypadku problemów z wykrywaniem można użyć polecenia hostname -I na maszynie Umbrel, aby znaleźć jej lokalny adres IP.
+reviewed: true

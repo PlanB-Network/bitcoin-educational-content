@@ -1,0 +1,9 @@
+question: ¿Cuál es la ventaja de un portátil dedicado frente a un mini PC?
+answer: Su batería actúa como inversor
+wrong_answers:
+  - Es más tranquilo
+  - Dura más
+  - Consume menos energía
+explanation: |
+  La batería de un portátil actúa como un SAI natural, evitando paradas repentinas en caso de corte de suministro eléctrico.
+reviewed: true

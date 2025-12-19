@@ -1,0 +1,9 @@
+question: Bitcoin core में dbcache पैरामीटर का डिफ़ॉल्ट मान क्या है?
+answer: 450 एमबी
+wrong_answers:
+  - 128 एमबी
+  - 1 गीगाबाइट
+  - 4 जीबी
+explanation: |
+  डिफ़ॉल्ट रूप से, Bitcoin core कैश को 450 MiB (472 MB) आवंटित करता है।
+reviewed: true

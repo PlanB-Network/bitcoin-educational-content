@@ -1,0 +1,8 @@
+question: Mida teeb meetod unwrap, kui seda kutsutakse Rust tulemuse tüübile?
+answer: Ekstraheerib edukuse väärtuse, kuid paanitseb vea korral
+wrong_answers:
+  - Tagastab vea korral None ja eduka korral Some
+  - Teisendab vea hoiatussõnumiks ja jätkab täitmist
+  - Edastab vea automaatselt kutsuvale funktsioonile
+explanation: |
+  Meetod "unwrap" võtab tulemuse väärtuse välja, kuid põhjustab programmi paanika, kui esineb viga. See muudab selle kasulikuks kiireks prototüüpimiseks või olukordades, kus olete kindel, et operatsioon õnnestub. Teised valikud kirjeldavad erinevaid käitumisviise: None/Some tagastamine kirjeldab Option tüüpi, vigade teisendamine hoiatusteks ei ole standardne Rust muster ja automaatne vea levik on see, mida teeb küsimärgi operaator (?), mitte unwrap.

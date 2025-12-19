@@ -1,0 +1,9 @@
+question: Vilket problem med traditionella finansiella system identifierar Satoshi Nakamoto i inledningen av Bitcoin:s whitepaper?
+answer: Finansinstitut kan inte undvika att medla i tvister, vilket omöjliggör helt icke-reversibla transaktioner
+wrong_answers:
+  - Bankerna tar ut orimliga avgifter som gör alla elektroniska transaktioner olönsamma för konsumenterna
+  - Kreditkortsföretag vägrar att hantera betalningar för digitala varor och onlinetjänster
+  - Statliga regleringar hindrar finansinstitut från att bedriva verksamhet över internationella gränser
+explanation: |
+  Satoshi identifierar specifikt att finansiella institutioner som fungerar som betrodda tredje parter inte kan undvika att medla i tvister, vilket förhindrar helt icke-reversibla transaktioner. Detta skapar inneboende svagheter i den tillitsbaserade modellen, ökar kostnaderna genom medling och tvingar handlare att vara försiktiga med kunder. De andra alternativen beskriver olika problem som inte nämns i Satoshi:s analys av traditionella betalningssystem.
+reviewed: false

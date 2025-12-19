@@ -81,7 +81,7 @@ Evo nekoliko saveta kako da napravite rezervnu kopiju vaše rezervne fraze.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Da biste napravili rezervnu kopiju svojih fraza, izaberite meni **Preferences > Security**, zatim opciju **Check your Backup Phrase**.
 
@@ -210,4 +210,4 @@ Da biste išli dalje, takođe preporučujem da otkrijete naš vodič za Aqua Wal
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

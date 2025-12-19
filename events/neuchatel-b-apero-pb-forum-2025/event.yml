@@ -1,0 +1,25 @@
+id: 667b0b74-55cc-4c00-90e9-17e7cb598685
+start_date: 2025-10-25 15:30:00
+end_date: 2025-10-25 18:30:00
+timezone: Europe/Zurich
+address_city_country: Lugano, Switzerland
+address_line_2: Grand Café Al Porto
+address_line_3:
+name: Neuchâtel Bitcoin Apéro Plan ₿ Forum 2025
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  This side event brings together builders, investors, and Bitcoin enthusiasts for an evening of networking, drinks, and short presentations from each company. Discover how Neuchâtel’s Bitcoin ecosystem is growing, meet the teams behind emerging Swiss projects, and connect with others shaping the future of decentralized finance and infrastructure.
+language:
+  - en
+  - it
+links:
+  website: https://luma.com/z0ubttzn
+  replay_url:
+  live_url:
+tags:
+  - adoption
+  - business
+  - market-trends

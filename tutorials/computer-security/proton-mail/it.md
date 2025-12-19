@@ -90,7 +90,7 @@ L'uso di un gestore di password è una pratica eccellente. Non solo consente di 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Per ulteriori informazioni, consultate il nostro tutorial su come utilizzare un'
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Nella scheda "*Lingua e ora*" è possibile modificare la lingua e il fuso orario del Interface.
 

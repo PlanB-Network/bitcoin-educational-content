@@ -90,7 +90,7 @@ Paroolihalduri kasutamine on suurepärane tava. See ei võimalda teil mitte ainu
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Lisateabe saamiseks vaadake meie õpetust 2FA-rakenduse kasutamise kohta.
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Vahekaardil "*Keel ja aeg*" saate muuta Interface keelt ja ajavööndit.
 

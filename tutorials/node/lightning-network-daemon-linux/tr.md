@@ -34,7 +34,7 @@ Başka bir deyişle, bu uygulama ile, :
 
 
 
-https://planb.network/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/fr/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 ## Neden kendi Lightning düğümünüz var?
 
@@ -64,7 +64,7 @@ Bu anlamda, bir Lightning düğümü çalıştırmak verilerinizin güvenliğini
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 Makinemizde LND uygulamasının bir örneğini çalıştırmak için iki seçeneğiniz vardır. Ortamı kendi makinemizde yerel olarak çalışacak şekilde kurabilir ya da LND'yı bir Docker konteynerinden yükleyebiliriz. Burada ilk seçeneğe odaklanacağız ve Docker ile nasıl ilerleyeceğimizi daha sonraki bir eğitimde göreceğiz.
@@ -665,4 +665,4 @@ Bu eğitimin sonuna geldiniz. Lightning hakkında daha fazla bilgi edinmek ister
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

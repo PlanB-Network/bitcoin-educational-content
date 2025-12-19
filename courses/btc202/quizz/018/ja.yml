@@ -1,0 +1,9 @@
+question: 最も広く使われているBitcoinノードの実装は？
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin クラシック
+  - Bコイン
+explanation: |
+  ネットワーク上の10ノードのうち約9ノードを占めるBitcoin coreは、大多数の顧客である。
+reviewed: true

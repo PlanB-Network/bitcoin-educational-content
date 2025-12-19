@@ -81,7 +81,7 @@ Trong hướng dẫn này, tôi sẽ chỉ cho bạn cách sử dụng Trezor Mo
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Bạn cũng sẽ cần phần mềm Trezor Suite để cấu hình Model One, kiểm tra tính xác thực của nó và cài đặt chương trình cơ sở. Chúng tôi sẽ chỉ sử dụng phần mềm này cho mục đích đó, và sau đó chỉ cần dùng để cập nhật chương trình cơ sở. Đối với việc quản lý hàng ngày của Wallet, chúng tôi sẽ sử dụng Sparrow Wallet độc quyền, vì nó được tối ưu hóa cho Bitcoin và dễ sử dụng, ngay cả đối với người mới bắt đầu (Sparrow chỉ hỗ trợ Bitcoin, không hỗ trợ altcoin).
 
@@ -99,7 +99,7 @@ Bạn cũng sẽ cần phần mềm Trezor Suite để cấu hình Model One, ki
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Bắt đầu Trezor Model One
 
@@ -209,7 +209,7 @@ Model One sẽ tạo cụm từ Mnemonic của bạn bằng trình tạo số ng
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Để chuyển sang các từ tiếp theo, hãy nhấp chuột phải. Sau khi bạn đã viết hết các từ, hãy nhấp vào nút bên phải một lần nữa để chuyển sang bước tiếp theo.
 
@@ -315,7 +315,7 @@ Sau khi bạn đã mở Sparrow Wallet, hãy đảm bảo rằng phần mềm đ
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Nhấp vào tab "*File*", sau đó nhấp vào "*New Wallet*".
 
@@ -357,7 +357,7 @@ Khi bạn kết nối Model One với máy tính có Sparrow Wallet đang mở, 
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 ![Image](assets/fr/26.webp)
 
@@ -407,7 +407,7 @@ Trước khi bạn nhận được bitcoin đầu tiên trong Wallet của mình
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Làm thế nào để nhận bitcoin bằng Trezor Model One?
 
@@ -565,6 +565,6 @@ Xin chúc mừng, giờ bạn đã nắm được cách sử dụng Trezor Model
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Nếu bạn thấy hướng dẫn này hữu ích, tôi sẽ rất biết ơn nếu bạn để lại một ngón tay cái Green bên dưới. Hãy thoải mái chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn bạn rất nhiều!

@@ -1,0 +1,9 @@
+question: Koje su tri opcije servera dostupne u Sparrow?
+answer: Javni Server, Bitcoin core, Privatni Electrum
+wrong_answers:
+  - RPC Direct, VPN, Tor
+  - Full node, Light Node, Mobile Node
+  - Jezgro RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow nudi tri izbora servera: Javni Server, Bitcoin core (RPC), i Privatni Electrum.
+reviewed: true

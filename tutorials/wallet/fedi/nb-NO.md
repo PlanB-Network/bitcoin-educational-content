@@ -37,9 +37,9 @@ Fedi Wallet er en Bitcoin-mappe som kommer med en ny måte å lagre søkeordene 
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
@@ -47,9 +47,9 @@ https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 I stedet tilbyr Fedi Wallet en føderasjonstilnærming, som lar deg bli med i en gruppe personer du stoler på for å administrere porteføljenøklene dine. Du kan bli med i en populær føderasjon foreslått av Fedi, eller bli med i den lokale føderasjonen i lokalsamfunnet ditt ved å skanne en QR-kode eller lime inn føderasjonens invitasjonskode.
 
@@ -75,7 +75,7 @@ Finn ut mer om våre anbefalinger for sikkerhetskopiering av gjenopprettingsord:
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 For hver føderasjon du blir med i, skiller Fedi mellom bitcoinsene dine ved å opprette separate lommebøker.
 
@@ -141,7 +141,7 @@ Mottakeren din må skanne den genererte QR-koden for å gjøre krav på satoshie
 
 
 
-Offline-betalinger gjøres hovedsakelig ved hjelp av [e-cash] (https://planb.network/resources/glossary/ecash-david-chaum). Transaksjonen lagres i telefonen din, og så snart du får tilgang til Internett, bekreftes transaksjonen automatisk. Du kan også bekrefte betalingen manuelt ved å klikke på **Bekreft transaksjonen**.
+Offline-betalinger gjøres hovedsakelig ved hjelp av [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum). Transaksjonen lagres i telefonen din, og så snart du får tilgang til Internett, bekreftes transaksjonen automatisk. Du kan også bekrefte betalingen manuelt ved å klikke på **Bekreft transaksjonen**.
 
 
 
@@ -191,7 +191,7 @@ I **Mods**-menyen finner du programmer som :
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,4 +231,4 @@ Du har nettopp tatt en omvisning i Fedi Wallet, og du er nå i stand til å utny
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

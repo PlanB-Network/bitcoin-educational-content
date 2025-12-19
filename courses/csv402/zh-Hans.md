@@ -1,13 +1,11 @@
 ---
-name: 从理论到实践的 RGB 协议
+name: RGB编程
 goal: 掌握理解和使用 RGB 所需的技能
-objectives: 
-
-  - 了解 RGB 协议的基本概念
-  - 掌握客户端验证和比特币承诺的原则
-  - 了解如何创建、管理和转移 RGB 合同
-  - 如何操作兼容 RGB 的 Lightning 节点
-
+objectives:
+- 了解 RGB 协议的基本概念
+- 掌握客户端验证和比特币承诺的原则
+- 了解如何创建、管理和转移 RGB 合同
+- 如何操作兼容 RGB 的 Lightning 节点
 ---
 # 发现 RGB 协议
 
@@ -45,17 +43,17 @@ objectives:
 ---
 本培训课程最初源于 [Fulgur'Ventures](https://fulgur.ventures/) 在托斯卡纳 Viareggio 举办的为期两周的高级开发训练营。第一周的重点是 Rust 和 SDK，可在另一个课程中找到：
 
-https://planb.network/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
+https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
 
 在本课程中，我们将重点讲解新兵训练营的第二周内容，即 RGB。
 
 **第 1 周 - LNP402:**
 
-![RGB-Bitcoin](assets/fr/001.webp)
+![RGB-Bitcoin](assets/en/001.webp)
 
 **第 2 周 - 当前培训 CSV402:**
 
-![RGB-Bitcoin](assets/fr/002.webp)
+![RGB-Bitcoin](assets/en/002.webp)
 
 非常感谢这些现场课程的组织者和参加课程的 3 位教师：
 
@@ -107,7 +105,7 @@ RGB 协议是基于比特币区块链的共识规则和操作，以可扩展和�
 
 就比特币而言，毫无疑问，您已经熟悉了区块链上的挖矿、去中心化和交易终结原则，以及支付渠道的工作原理。与区块链或闪电不同，RGB 包含本地（客户端）存储和验证智能合约的状态转换。这也有别于其他 "DeFi "技术（_rollups_、_plasma_、_ARK_等），因为客户端验证依赖于区块链来防止重复消费，并拥有一个时间戳系统，同时只对相关参与者保留链外状态和转换的注册信息。
 
-![RGB-Bitcoin](assets/fr/003.webp)
+![RGB-Bitcoin](assets/en/003.webp)
 
 稍后，我们还将介绍一个重要术语："**匿**"的概念，它指的是保存合约状态所需的客户端数据集，因为这些数据不会在全网范围内复制。最后，我们将介绍利用客户端验证的协议 RGB 背后的原理，以及它与现有方法（区块链和状态通道）相辅相成的原因。
 
@@ -137,7 +135,7 @@ RGB 协议是基于比特币区块链的共识规则和操作，以可扩展和�
 
 这种新模式的可扩展性更强，保密性更高，因为我们不仅可以整合零披露的知识证明技术，而且没有全局交易图谱，因为没有人掌握整个注册表。另一方面，这也意味着对去中心化的某种妥协：智能合约的发布者可以扮演中心角色（就像以太坊中的 "合约部署者"）。不过，与区块链不同的是，使用客户端验证（Client-side Validation），你只需存储和验证你感兴趣的合约，这就避免了下载和验证所有现有状态的需要，从而提高了可扩展性。
 
-![RGB-Bitcoin](assets/fr/004.webp)
+![RGB-Bitcoin](assets/en/004.webp)
 
 #### 2.CAP 定理（一致性、可用性、分区容差）
 
@@ -158,13 +156,13 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 
 像 RGB 这样的系统可以提供一致性（每个参与者都在本地验证其数据，不会产生歧义）和分区容差（你可以自主保存数据），但不能保证全球可用性（每个人都必须确保自己拥有相关的历史片段，有些参与者可能不会发布任何信息或停止共享某些信息）。
 
-![RGB-Bitcoin](assets/fr/005.webp)
+![RGB-Bitcoin](assets/en/005.webp)
 
 #### 3.CIA 三难（保密性、完整性和可用性）
 
 这个三难问题提醒我们，不能同时优化保密性、完整性和可用性。区块链、"闪电 "和客户端验证以不同方式实现了这一平衡。我们的想法是，没有一个系统能提供所有功能；有必要将几种方法（区块链的时间戳、闪电的同步方法以及使用 RGB 的本地验证）结合起来，以获得一个在每个维度上都能提供良好保证的连贯一揽子方案。
 
-![RGB-Bitcoin](assets/fr/006.webp)
+![RGB-Bitcoin](assets/en/006.webp)
 
 ### 区块链的作用和分片概念
 
@@ -185,11 +183,11 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 - **闪电网络**，用于快速、保密交易，仍以比特币区块链的安全性和最终结算为基础；
 - RGB 和客户端验证**可添加更复杂的智能合约逻辑，而不会造成区块链混乱或失去保密性**。
 
-![RGB-Bitcoin](assets/fr/007.webp)
+![RGB-Bitcoin](assets/en/007.webp)
 
 这三个元素构成了一个三角形的整体，而不是 "第 2 层"、"第 3 层 "等的线性堆叠。闪电 "可以直接连接比特币，也可以与包含 RGB 数据的比特币交易相关联。同样，"BiFi "用途（比特币上的金融）可以根据保密性、可扩展性或合约逻辑的需要与区块链、闪电和 RGB 组成。
 
-![RGB-Bitcoin](assets/fr/008.webp)
+![RGB-Bitcoin](assets/en/008.webp)
 
 ### 状态转换的概念
 
@@ -197,7 +195,7 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 
 为了理解这种验证在**比特币**中是如何工作的，以及更广泛地说，为了掌握客户端验证背后的理念，让我们先回顾一下比特币区块链的机制，然后再看看客户端验证与它们有什么不同，以及它能带来哪些优化。
 
-![RGB-Bitcoin](assets/fr/009.webp)
+![RGB-Bitcoin](assets/en/009.webp)
 
 在比特币区块链中，交易验证基于一个简单的规则：
 
@@ -206,7 +204,7 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 - 它们验证这些交易，以核实 UTXO 集（所有未用输出）的正确演变；
 - 它们（以数据块的形式）存储这些数据，以便在必要时重放历史数据。
 
-![RGB-Bitcoin](assets/fr/010.webp)
+![RGB-Bitcoin](assets/en/010.webp)
 
 然而，这种模式有两大缺点：
 
@@ -214,7 +212,7 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 - **可扩展性**：由于每个节点都必须处理、验证和存档每个人的交易，因此交易容量有一个明显的限制，特别是与最大区块大小有关（比特币平均 10 分钟 1 MB，不包括 cookies）；
 - 隐私**：所有内容（金额、目的地地址等）都是公开广播和存储的，这限制了交流的保密性。
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 在实践中，这种模式适用于作为基础层（第 1 层）的比特币，但对于同时需要高交易吞吐量和一定保密性的更复杂用途来说，这种模式可能就不够用了。
 
@@ -224,7 +222,7 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 - 当一个人收到资产（或任何其他数字财产）时，他只需要知道并验证导致该资产的操作链（状态转换），并证明其合法性；
 - 这一连串的操作，从***创世***（初始发行）到最近的交易，构成了一个无循环有向图（DAG）或分片，即整个历史的一部分。
 
-![RGB-Bitcoin](assets/fr/013.webp)
+![RGB-Bitcoin](assets/en/013.webp)
 
 与此同时，为了使网络的其他部分（更准确地说，是底层，如比特币）能够锁定最终状态，而不看到这些数据的细节，客户端验证依赖于****承诺****的概念。
 
@@ -245,7 +243,7 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 - 您可以生成对这一转变的加密承诺，并将其插入比特币交易中（这些承诺在 RGB 协议中被称为 **锚**）；
 - 交易方（接收方）检索与该资产相关的客户方历史记录，并验证端到端的一致性，从智能合约的创建到您向其传输的过渡。
 
-![RGB-Bitcoin](assets/fr/014.webp)
+![RGB-Bitcoin](assets/en/014.webp)
 
 客户端验证有两大优势：
 
@@ -263,13 +261,13 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 
 实际上，当这种比特币交易被验证后，它就永久 "锁定 "了底层合约的状态，因为不可能修改已经刻在区块链上的哈希值。
 
-![RGB-Bitcoin](assets/fr/015.webp)
+![RGB-Bitcoin](assets/en/015.webp)
 
 ### 储藏概念
 
 储藏库是参与者为维护 RGB 智能合约的完整性和历史记录而必须绝对保留的一组客户端数据。与闪电通道不同，在闪电通道中，某些状态可以在本地从共享信息中重建，而 RGB 合约的储藏库不会复制到其他地方：如果您丢失了它，没有人能够将其恢复给您，因为您要对自己的历史份额负责。因此，您需要在 RGB 中采用具有可靠备份程序的系统。
 
-![RGB-Bitcoin](assets/fr/016.webp)
+![RGB-Bitcoin](assets/en/016.webp)
 
 ### 一次性使用密封件：起源与运作
 
@@ -287,11 +285,11 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 
 一次性封印是彼得-托德（Peter Todd）于 2016 年提出的密码基元，类似于物理封印的概念：一旦在容器上贴上封印，如果不不可逆地破坏封印，就无法打开或修改容器。
 
-![RGB-Bitcoin](assets/fr/018.webp)
+![RGB-Bitcoin](assets/en/018.webp)
 
 将这种方法移植到数字世界中，就可以证明一系列事件确实已经发生，而且事后再也无法更改。因此，一次性封印超越了 "哈希+时间戳 "的简单逻辑，增加了只能封印**一次**的封印概念。
 
-![RGB-Bitcoin](assets/fr/017.webp)
+![RGB-Bitcoin](assets/en/017.webp)
 
 要让一次性印章发挥作用，你需要一个能够证明出版物存在或不存在的出版物证明媒介，而且一旦信息传播出去，就很难伪造（如果不是不可能的话）。区块链**（如比特币）**就能起到这样的作用，比如一份公开发行的纸质报纸。这个想法如下：
 
@@ -327,7 +325,7 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 - 爱丽丝事先定义了印章的发布规则（何时、何地以及如何发布信息）；
 - 鲍勃接受或承认这些条件。
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 **Seal Closing :**
 
@@ -335,7 +333,7 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 - 在运行时，Alice 通过发布实际信息（通常是_commitment_形式，例如哈希值）来关闭封印；
 - 它还提供了**证人**（密码证明），证明印章是封闭的、不可撤销的。
 
-![RGB-Bitcoin](assets/fr/019.webp)
+![RGB-Bitcoin](assets/en/019.webp)
 
 **密封验证：**
 
@@ -346,11 +344,11 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 这一过程可概括如下
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -383,7 +381,7 @@ bool <- Verify(seal, witness, message)
 
 一个 RGB 智能合约可能需要同时使用多个一次性封印（多个 UTXO）。更重要的是，一个比特币交易可能会引用多个不同的合约，每个合约都会封印自己的状态转换。这就需要一个**多承诺**机制，以确定性和唯一性地证明没有一个承诺是重复的。这就是 RGB 中**锚**概念的由来：一种连接比特币交易和一个或多个客户端承诺（状态转换）的特殊结构，每个承诺都可能属于不同的合约。我们将在下一章仔细研究这个概念。
 
-![RGB-Bitcoin](assets/fr/023.webp)
+![RGB-Bitcoin](assets/en/023.webp)
 
 该项目的两个主要 GitHub 资源库（隶属于 LNPBP 组织）汇集了第一章中研究的这些概念的基本实现：
 
@@ -391,11 +389,11 @@ bool <- Verify(seal, witness, message)
 - **客户端验证**：包含用于本地验证的 Rust 基元；
 - **single_use_seals**：实现安全定义和关闭这些封印的逻辑。
 
-![RGB-Bitcoin](assets/fr/020.webp)
+![RGB-Bitcoin](assets/en/020.webp)
 
 请注意，这些软件砖块与比特币无关；理论上，它们可以应用于任何其他出版证明媒介（其他注册机构、期刊等）。在实践中，RGB 依赖于比特币的稳健性和广泛共识。
 
-![RGB-Bitcoin](assets/fr/021.webp)
+![RGB-Bitcoin](assets/en/021.webp)
 
 ### 公众提问
 
@@ -480,11 +478,11 @@ TxO2 "中的 "O2 "提醒我们，定义和关闭都是基于交易输出的支�
 
 需要提醒的是，定义_单次使用封印_并不一定需要发布链上交易。例如，爱丽丝已经有了一个未使用的UTXO，这就足够了。她可以决定"这个_输出点_（已经存在）现在是我的印章"。她会在本地（_客户端_）记录这一点，直到这个 UTXO 被用完，封印才会被认为是开放的。
 
-![RGB-Bitcoin](assets/fr/024.webp)
+![RGB-Bitcoin](assets/en/024.webp)
 
 在它要关闭封印（发出事件信号或锚定特定报文）的那一天，它会在一个新事务中花费这个 UTXO（这个事务通常被称为"_见证事务_"（与_segwit_无关，只是我们给它的术语））。这个新事务将包含对消息的_commitment_。
 
-![RGB-Bitcoin](assets/fr/025.webp)
+![RGB-Bitcoin](assets/en/025.webp)
 
 请注意，在本例中 ：
 
@@ -498,15 +496,15 @@ TxO2 "中的 "O2 "提醒我们，定义和关闭都是基于交易输出的支�
 
 爱丽丝告诉鲍勃，如果花掉这笔UTXO，就会认为发生了一个特定事件。从外表上看，我们看到的只是一笔比特币交易；但鲍勃知道，这笔支出有其隐含的意义。
 
-![RGB-Bitcoin](assets/fr/026.webp)
+![RGB-Bitcoin](assets/en/026.webp)
 
 当 Alice 使用完这个 UTXO 时，她就会在一条信息上盖章，表明她的新密钥，或者只是撤销了旧密钥。这样，链上的任何监控人员都能看到 UTXO 已用完，但只有拥有完整证明的人才能知道这正是 PGP 密钥的撤销。
 
-![RGB-Bitcoin](assets/fr/027.webp)
+![RGB-Bitcoin](assets/en/027.webp)
 
 为了让鲍勃或其他相关人员检查隐藏信息，爱丽丝必须向他提供链外信息。
 
-![RGB-Bitcoin](assets/fr/028.webp)
+![RGB-Bitcoin](assets/en/028.webp)
 
 因此，爱丽丝必须向鲍勃提供 ：
 
@@ -514,7 +512,7 @@ TxO2 "中的 "O2 "提醒我们，定义和关闭都是基于交易输出的支�
 - 信息本身（例如新的 PGP 密钥） ；
 - 该信息参与交易的加密证明（称为 "额外交易证明 "或 "锚"）。
 
-![RGB-Bitcoin](assets/fr/029.webp)
+![RGB-Bitcoin](assets/en/029.webp)
 
 第三方没有这些信息。他们只能看到 UTXO 已被使用。因此，保密性得到了保证。
 
@@ -523,12 +521,12 @@ TxO2 "中的 "O2 "提醒我们，定义和关闭都是基于交易输出的支�
 
 - 事务 1：其中包含*封印定义*，即用作封印的*输出点*。
 
-![RGB-Bitcoin](assets/fr/031.webp)
+![RGB-Bitcoin](assets/en/031.webp)
 
 
 - 交易 2：使用该_输出点_。这将关闭封印，并在同一事务中为报文插入_commitment_。
 
-![RGB-Bitcoin](assets/fr/033.webp)
+![RGB-Bitcoin](assets/en/033.webp)
 
 因此，我们称第二笔交易为"_见证交易"。
 
@@ -538,7 +536,7 @@ TxO2 "中的 "O2 "提醒我们，定义和关闭都是基于交易输出的支�
 - 顶层（区块链，公开）**：每个人都能看到交易，并知道_输出点_已被花费；
 - 下层（客户端，私有）：只有爱丽丝（或相关人员）通过加密证明和她保存在本地的信息，知道这笔费用与这样那样的信息相对应。
 
-![RGB-Bitcoin](assets/fr/034.webp)
+![RGB-Bitcoin](assets/en/034.webp)
 
 
 
@@ -561,11 +559,11 @@ TxO2 "中的 "O2 "提醒我们，定义和关闭都是基于交易输出的支�
 - **Opret**（信息被置于非消耗性输出`OP_RETURN`中）；
 - **Tapret**（或 _Taptweak_），它依靠 taproot 将承诺插入到 taproot 密钥的脚本部分，从而对公钥进行确定性修改。
 
-![RGB-Bitcoin](assets/fr/035.webp)
+![RGB-Bitcoin](assets/en/035.webp)
 
 以下是每种方法的详细信息：
 
-![RGB-Bitcoin](assets/fr/038.webp)
+![RGB-Bitcoin](assets/en/038.webp)
 
 *** 签名调整（签约到合同）：***
 
@@ -626,7 +624,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 最后一种方案是使用**Taproot**（在 BIP341 中引入）和*Tapret*方案。 *Tapret* 是一种更复杂的确定性承诺形式，在区块链上的足迹和合约操作的保密性方面都有改进。其主要思想是将承诺隐藏在[taproot 交易](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)的 "脚本路径花费 "部分。
 
-![RGB-Bitcoin](assets/fr/036.webp)
+![RGB-Bitcoin](assets/en/036.webp)
 
 在介绍如何将承诺插入分根事务之前，我们先来看看承诺的**精确形式**，它必须**相对**对应于一个 64 字节的字符串[构造](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196)，如下所示：
 
@@ -657,7 +655,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 在第一种情况下，我们从自根输出密钥 (*Taproot Output Key*) `Q` 开始，它只包含内部公钥 `P` *(Internal Key*)，没有相关的脚本路径 (*Script Path*) ：
 
-![RGB-Bitcoin](assets/fr/047.webp)
+![RGB-Bitcoin](assets/en/047.webp)
 
 
 - P"：_Key Path Spend_ 的内部公开密钥。
@@ -666,7 +664,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 若要包含**Tapret**承诺，请添加**脚本路径花费**和**唯一脚本**，如下所示：
 
-![RGB-Bitcoin](assets/fr/048.webp)
+![RGB-Bitcoin](assets/en/048.webp)
 
 
 - t = tH_TWEAK(P || Script_root)`就会成为新的调整因子，包括 **Script_root** 。
@@ -678,7 +676,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 第二种情况涉及更复杂的 `Q` **taproot** 输出，其中已包含多个脚本。例如，我们有一棵包含 3 个脚本的树：
 
-![RGB-Bitcoin](assets/fr/049.webp)
+![RGB-Bitcoin](assets/en/049.webp)
 
 
 - tH_LEAF(x)` 表示叶子脚本的归一化标记哈希函数。
@@ -686,7 +684,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 要添加 Tapret 承诺，我们需要在树的第一层插入一个*不可消耗脚本*，将现有脚本向下移动一层。从视觉上看，这棵树变成了.NET 树：
 
-![RGB-Bitcoin](assets/fr/050.webp)
+![RGB-Bitcoin](assets/en/050.webp)
 
 
 - tHABC` 表示顶层分组 "A、B、C "的标记哈希值。
@@ -700,11 +698,11 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 第一种情况（`tHABC < tHT`）的可视化示例：
 
-![RGB-Bitcoin](assets/fr/051.webp)
+![RGB-Bitcoin](assets/en/051.webp)
 
 第二种情况的示例（`tHABC > tHT`）：
 
-![RGB-Bitcoin](assets/fr/052.webp)
+![RGB-Bitcoin](assets/en/052.webp)
 
 #### 使用非证书进行优化
 
@@ -804,7 +802,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 具体来说，每个_过渡束_都属于一个特定的合约。所有这些信息都会被插入一个 **MPC 树**，然后对其根（"mPC::Root"）进行散列，得到 "mPC::Commitment"。根据所选择的确定性方法，最后的哈希值被放入比特币交易（_见证交易_）中。
 
-![RGB-Bitcoin](assets/fr/042.webp)
+![RGB-Bitcoin](assets/en/042.webp)
 
 #### MPC 根散列
 
@@ -822,7 +820,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 - cofactor`（16 位，小端值）是一个参数，用于提高分配给树中每个合约的位置的唯一性；
 - `mpc::Root` 是 *MPC Tree* 的根，根据下一节描述的过程计算得出。
 
-![RGB-Bitcoin](assets/fr/044.webp)
+![RGB-Bitcoin](assets/en/044.webp)
 
 #### MPC 树建造
 
@@ -907,7 +905,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 最终结果是**mPC::Root**，然后是`mPC::Commitment`。
 
-![RGB-Bitcoin](assets/fr/053.webp)
+![RGB-Bitcoin](assets/en/053.webp)
 
 #### MPC 轴检查
 
@@ -915,7 +913,7 @@ tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) |
 
 在这个例子中，`c_2`验证器只需要一个中间哈希值（`tH_MPC_LEAF(D)`）、两个`tH_MPC_BRANCH(...)`、`pos(c_2)`位置证明和`cofactor`值。然后，它可以本地重构根，然后重新计算 `mpc::Commitment` 并与比特币交易（在 `Opret` 或 `Tapret` 中）中写入的进行比较。
 
-![RGB-Bitcoin](assets/fr/054.webp)
+![RGB-Bitcoin](assets/en/054.webp)
 
 这一机制确保：
 
@@ -984,7 +982,7 @@ pos(c_i) = c_i mod (w - cofactor)
 
 这个额外的证明是必不可少的，因为与 `Opret` 不同，`Tapret` 承诺被集成到了分根脚本的结构中，这就需要揭示分根树的一部分，以便正确验证 * 承诺 * 的位置。
 
-![RGB-Bitcoin](assets/fr/045.webp)
+![RGB-Bitcoin](assets/en/045.webp)
 
 因此，**Anchors**封装了在RGB背景下验证比特币承诺所需的所有信息。它们同时显示相关交易（`Txid`）和合约定位证明（`MPC Proof`），并在`Tapret`的情况下管理附加证明（`ETP`）。通过这种方式，锚可以保护链外状态的完整性和唯一性，确保同一交易不能被重新解释为其他合约数据。
 
@@ -1001,7 +999,7 @@ pos(c_i) = c_i mod (w - cofactor)
 
 在实践中，技术实现分为几个专用的 Rust _crates（在 _client_side_validation_、_commit-verify_、_bp_core_ 等中）。基本概念是存在的：
 
-![RGB-Bitcoin](assets/fr/046.webp)
+![RGB-Bitcoin](assets/en/046.webp)
 
 在下一章中，我们将研究 RGB 的纯粹链外组件，即合约逻辑。我们将看到，作为部分复制的无限状态机，RGB 合约是如何实现比比特币脚本更高的表现力，同时又能保持其数据的机密性。
 
@@ -1019,7 +1017,7 @@ RGB 的目标是为在比特币上执行智能合约提供基础设施。我们�
 
 这种自动化提出了权力下放的问题：我们如何才能摆脱中央登记处（如中央平台或数据库）来管理所有权和合同履行？RGB 最初的想法是回到一种被称为 "无记名工具 "的所有权模式。历史上，某些证券（债券、股票等）以不记名形式发行，使任何实际拥有该文件的人都能行使其权利。
 
-![RGB-Bitcoin](assets/fr/055.webp)
+![RGB-Bitcoin](assets/en/055.webp)
 
 RGB 将这一概念应用于数字世界：权利（和义务）被封装在链外操作的数据中，这些数据的状态由参与者自己验证。与其他基于公共登记簿的方法相比，这种方法具有更高的保密性和独立性。
 
@@ -1031,7 +1029,7 @@ RGB 中的智能合约可以看成是一个状态机，由 .NET Framework 定义
 - 状态，即反映合同当前配置的一组信息；
 - 业务逻辑**（一套规则）**，说明在什么条件下以及由谁修改状态。
 
-![RGB-Bitcoin](assets/fr/056.webp)
+![RGB-Bitcoin](assets/en/056.webp)
 
 重要的是要明白，这些合约并不局限于代币的简单转让。它们可以体现各种各样的应用：从传统资产（代币、股票、债券）到更复杂的机制（使用权、商业条款等）。与其他区块链不同的是，在其他区块链中，所有人都可以访问和执行合约代码，而 RGB 的方法则将合约的访问和知识分隔给参与者（"***合约参与者***"）。参与者有几种角色：
 
@@ -1069,7 +1067,7 @@ RGB 中的智能合约可以看成是一个状态机，由 .NET Framework 定义
 - 我们通过在区块链上提交新的_commitment_来锚定修改，关闭一个_single-use seal_，并创建另一个.NET_single-use seal_；
 - 相关权利人在本地（*客户端*）验证过渡符合*模式*，并在链上注册相关比特币交易。
 
-![RGB-Bitcoin](assets/fr/057.webp)
+![RGB-Bitcoin](assets/en/057.webp)
 
 最终结果是一个更新的合约，现在的状态已经不同了。这种转换不需要整个比特币网络关注细节，因为区块链中只记录了一个小的加密指纹（_commitment_）。一次性封印序列可以防止任何重复消费或重复使用状态。
 
@@ -1082,7 +1080,7 @@ RGB 中的智能合约可以看成是一个状态机，由 .NET Framework 定义
 - 时间顺序由比特币锚中的每一次过渡来保证，时间戳和工作证明的共识保证了时间顺序的不可更改性；
 - 当没有任何操作正在进行时，就会进入**终端状态**：合约的最新完整状态。
 
-![RGB-Bitcoin](assets/fr/012.webp)
+![RGB-Bitcoin](assets/en/012.webp)
 
 这种 DAG 拓扑（而不是简单的线性链）反映了合同的不同部分可能并行发展，只要它们不相互矛盾。然后，RGB 通过对每个参与方进行*客户端*验证来避免任何不一致。
 
@@ -1115,19 +1113,19 @@ RGB 中的智能合约引入了一种数字无记名票据模式，这种模式�
 
 爱丽丝有一个本地验证数据（*客户端*）的***储藏库 RGB***。这个储藏库指的是她在比特币上的一个UTXO。这意味着，该数据中的一个_密封定义_指向属于爱丽丝的一个UTXO。其目的是使爱丽丝能够将与资产（如 RGB 代币）相关的某些数字权利转移给鲍勃。
 
-![RGB-Bitcoin](assets/fr/058.webp)
+![RGB-Bitcoin](assets/en/058.webp)
 
 **鲍勃也有UTXO：**
 
 而鲍勃至少有一个自己的UTXO，与爱丽丝的UTXO没有直接联系。在鲍勃没有UTXO的情况下，仍然可以使用*见证交易*本身向他进行转移：该交易的输出将包括承诺（_commitment_），并隐含地将新合约的所有权与鲍勃联系起来。
 
-![RGB-Bitcoin](assets/fr/059.webp)
+![RGB-Bitcoin](assets/en/059.webp)
 
 **建造新房产（*新州*）：**
 
 鲍勃向爱丽丝发送以***发票***形式编码的信息（我们将在后面的章节中详细介绍发票的构造），要求她创建一个符合合同规则的新状态。这个状态将包括一个新的*密封定义*，指向鲍勃的一个UTXO。这样，鲍勃就获得了新状态中定义的资产的所有权，例如一定数量的 RGB 代币。
 
-![RGB-Bitcoin](assets/fr/060.webp)
+![RGB-Bitcoin](assets/en/060.webp)
 
 **准备交易样本：**
 
@@ -1145,13 +1143,13 @@ RGB 中的智能合约引入了一种数字无记名票据模式，这种模式�
 
 如果鲍勃感到满意，他可以表示同意（例如，签署*委托书*）。然后，爱丽丝就可以广播准备好的交易样本。一旦得到确认，这就关闭了之前由爱丽丝持有的封印，并正式确定了鲍勃的所有权。防重复消费的安全机制与比特币相同：UTXO 已用完，证明爱丽丝不能再重复使用。
 
-![RGB-Bitcoin](assets/fr/061.webp)
+![RGB-Bitcoin](assets/en/061.webp)
 
 新状态现在引用了鲍勃的UTXO，使鲍勃获得了之前由爱丽丝持有的所有权。锚定 RGB 数据的比特币输出将成为所有权转移的不可撤销证明。
 
 一个由两个合约操作（**创世**和***状态转换***）组成的最小 DAG（*有向无环图*）的例子可以说明 RGB 状态（*客户端*层，红色）是如何连接到比特币区块链（*承诺*层，橙色）的。
 
-![RGB-Bitcoin](assets/fr/062.webp)
+![RGB-Bitcoin](assets/en/062.webp)
 
 它表明，创世纪定义了一个封印（*封印定义*），然后*状态转换*关闭了这个封印，在另一个UTXO 中创建了一个新的封印。
 
@@ -1165,7 +1163,7 @@ RGB 中的智能合约引入了一种数字无记名票据模式，这种模式�
 
 上一章介绍的状态转换**是合约操作的主要形式**。它们引用一个或多个先前的状态（来自创世纪或另一个状态转换），并将其更新为一个新状态。
 
-![RGB-Bitcoin](assets/fr/063.webp)
+![RGB-Bitcoin](assets/en/063.webp)
 
 该图显示了在一个*状态转换捆绑包*中，如何在单个样本事务中关闭多个封印，同时打开新的封印。事实上，RGB 协议的一个有趣特点就是它的扩展能力：多个过渡可以聚合成一个过渡捆绑包，每个聚合包都与*MPC 树*的一个不同叶子（一个唯一的捆绑包标识符）相关联。得益于*Deterministic Bitcoin Commitment* (DBC)机制，整个信息会被插入到一个 "Tapret "或 "Opret "输出中，同时关闭之前的封印并可能定义新的封印。*Anchor* 是存储在区块链中的承诺与客户端验证结构（*客户端*）之间的直接链接。
 
@@ -1218,7 +1216,7 @@ MapElement1                MapElement2                       MapElementN
 
 其中，**创世**和**状态扩展**有时被称为 "*状态生成操作*"，因为它们在创建新状态时不会立即关闭任何状态。这是非常重要的一点： **Genesis** 和 **State Extension** 并不涉及关闭封印。相反，它们定义了一个新的封印，该封印必须在随后的**状态转换**中使用，才能在区块链历史中得到真正的验证。
 
-![RGB-Bitcoin](assets/fr/064.webp)
+![RGB-Bitcoin](assets/en/064.webp)
 
 合约的**活跃状态**通常被定义为交易历史（DAG）中产生的最新状态集合，从创世开始，依次是比特币区块链中的所有锚点。任何已经过时的旧状态（即附属于已耗尽的 UTXOs）都不再被视为活跃状态，但对于检查历史的一致性仍然至关重要。
 
@@ -1244,7 +1242,7 @@ MapElement1                MapElement2                       MapElementN
 
 从技术上讲，状态扩展引用了一个 *Redeem*（RGB 输入的一种特殊类型），与之前定义的 *Valency* 相对应（例如，在创世纪或其他状态转换中）。它定义了一个新的印记，受益人或受益条件可使用该印记。要使封印生效，必须在随后的状态转换中使用该封印。
 
-![RGB-Bitcoin](assets/fr/065.webp)
+![RGB-Bitcoin](assets/en/065.webp)
 
 例如：《创世纪》创建了一项发行权（*Valency*）。经授权的行为者可以行使这一权利，然后建立一个国家扩展......：
 
@@ -1353,7 +1351,7 @@ MapElement1                MapElement2                       MapElementN
 - **公有制国家**、
 - 私人**拥有的**国家。
 
-![RGB-Bitcoin](assets/fr/066.webp)
+![RGB-Bitcoin](assets/en/066.webp)
 
 全局状态 "作为一个单独的区块直接包含在 "合约操作 "中。拥有的状态*在每个*分配*中与*密封定义*一起定义*。
 
@@ -1415,7 +1413,7 @@ RGB 的一大特点是全局状态和所有者状态的修改方式。通常有�
 
 RGB 的一大优势在于能够随意显示（*显示*）或隐藏（*隐藏*）*密封定义*和*拥有状态*字段。这提供了保密性和选择性的强大组合。例如，您可以在不公开所有数据的情况下证明转换是有效的，方法是向需要验证转换的人提供公开版本，而第三方只能看到隐藏版本（哈希值）。在实践中，转换的 `OpId` 总是从*隐藏*数据中计算出来的。
 
-![RGB-Bitcoin](assets/fr/067.webp)
+![RGB-Bitcoin](assets/en/067.webp)
 
 #### 密封件定义
 
@@ -1433,7 +1431,7 @@ RGB 的一大优势在于能够随意显示（*显示*）或隐藏（*隐藏*）
 
 封印定义的*隐蔽*形式是这 4 个字段连接的 SHA256 哈希值（标记），并带有 RGB 的特定标记。
 
-![RGB-Bitcoin](assets/fr/068.webp)
+![RGB-Bitcoin](assets/en/068.webp)
 
 #### 拥有国
 
@@ -1612,7 +1610,7 @@ RGB 的主要创新之一是严格区分两个概念：
 
 而所有权**则完全依赖于比特币的安全性**。拥有一个UTXO的私钥，就意味着控制了启动新转换（关闭一次性封印）的能力。因此，即使有人可以看到或验证数据，但如果他们不拥有相关的UTXO，就无法改变状态。
 
-![RGB-Bitcoin](assets/fr/069.webp)
+![RGB-Bitcoin](assets/en/069.webp)
 
 这种方法限制了在更复杂的区块链中遇到的典型漏洞（智能合约的所有代码都是公开的，任何人都可以修改，这有时会导致黑客攻击）。在 RGB 上，攻击者无法简单地与链上状态交互，因为对状态采取行动的权利（*所有权*）受到比特币层的保护。
 
@@ -1824,7 +1822,7 @@ ETP（*额外交易证明*）是锚文件的一部分，包含验证**Tapret承�
 
 如需了解有关 "闪电 "工作原理的更多信息，我建议您学习另一门课程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 #### 多协议承诺 - MPC
 
@@ -1956,7 +1954,7 @@ The line appears to have an unbalanced ** marker at the beginning. Here's the co
 - 接口，为钱包和人类用户提供了一个语义层，明确了交易的读取和执行；
 - 实施**界面**，它是业务逻辑和表现形式之间的桥梁，以确保合同定义与用户体验相一致。
 
-![RGB-Bitcoin](assets/fr/070.webp)
+![RGB-Bitcoin](assets/en/070.webp)
 
 值得注意的是，钱包要管理 RGB 资产（无论是可替代代币还是任何类型的权利），必须具备所有这些编译元素： *模式*、*接口*、*接口实现*和*创世纪*。这将通过***合约委托***进行传输，即包含验证客户端合约所需的所有内容的数据包。
 
@@ -2002,7 +2000,7 @@ RGB 模块化的优势还在于，不同的利益相关者可以编写自己的�
 - 决定内部合同数据如何演变的规则（例如，字段是可变的还是可累积的）；
 - 被认为有效的操作顺序：例如，需要遵守的转换顺序或需要满足的逻辑条件集。
 
-![RGB-Bitcoin](assets/fr/071.webp)
+![RGB-Bitcoin](assets/en/071.webp)
 
 当 RGB 上资产的*发行方*发布合约时，会提供与之相关的创世和模式。希望与资产进行交互的用户或钱包会检索该模式，以了解合约背后的逻辑，并在日后验证他们将参与的转换是否合法。
 
@@ -2065,7 +2063,7 @@ RGB 应用程序在使用模式之前必须对其进行编译。编译后会生�
 - 用于描述和验证数据的**严格类型系统**；
 - 验证脚本**（通过 AluVM 运行）**。
 
-![RGB-Bitcoin](assets/fr/072.webp)
+![RGB-Bitcoin](assets/en/072.webp)
 
 下面的代码显示了 Rust 模式的完整定义。我们将按照下面的注释 (1) 至 (9) 逐部分进行注释：
 
@@ -2230,7 +2228,7 @@ Schema 纯粹是声明性的，编译成二进制文件后很难直接使用，�
 - 访问每个字段的名称和值，以便显示（例如，查找令牌的股票代码、最大金额等）；
 - 通过将数据与可理解的名称关联起来（例如，通过明确指定 "金额 "而不是二进制标识符来执行转账），解释和构建合约操作（创始、状态转换或状态扩展）。
 
-![RGB-Bitcoin](assets/fr/073.webp)
+![RGB-Bitcoin](assets/en/073.webp)
 
 有了该接口，您就可以在钱包中编写代码，直接操作 "代币数量"、"资产名称 "等标签，而不是操作字段。这样，合约管理就变得更加直观。这样，合约管理就变得更加直观了。
 
@@ -2258,7 +2256,7 @@ Schema 纯粹是声明性的，编译成二进制文件后很难直接使用，�
 
 同一个合约可以通过不同的接口公开，以满足不同的需求：一个简单的接口供最终用户使用，另一个更高级的接口供需要管理复杂配置操作的发行商使用。然后，钱包可以根据用途选择导入哪个接口。
 
-![RGB-Bitcoin](assets/fr/074.webp)
+![RGB-Bitcoin](assets/en/074.webp)
 
 实际上，当钱包检索 RGB 合约（通过`.rgb`或`.rgba`文件）时，它也会导入相关的接口，并对其进行编译。例如，在运行时，钱包可以.....：
 
@@ -2648,7 +2646,7 @@ extensions: none!(),
 - **接口**，用于定义表现层（字段名称、可访问操作）；
 - 接口实现，将模式与接口具体联系起来。
 
-![RGB-Bitcoin](assets/fr/075.webp)
+![RGB-Bitcoin](assets/en/075.webp)
 
 由于每个组件的重量一般不超过 200 字节，因此总大小通常为几千字节。也可以在 Base58 中通过抗审查渠道（如 Nostr 或闪电网络等）或 QR 码的形式广播这种托运货物。
 
@@ -2686,7 +2684,7 @@ bob$ rgb invoice RGB20 100 <ContractId> tapret1st:456e3..dfe1:0
 
 生成的发票（例如 URL：`rgb:2WBcas9.../RGB20/100+utxob:...`）包含 Alice 准备转账所需的所有信息。与托运单一样，它可以紧凑编码（Base58 或其他格式），并通过信息应用程序、电子邮件、Nostr... 发送。
 
-![RGB-Bitcoin](assets/fr/076.webp)
+![RGB-Bitcoin](assets/en/076.webp)
 
 #### 6) Alice 方面的交易准备工作
 
@@ -2729,7 +2727,7 @@ bob$ rgb accept consignment.rgb
 sig:DbwzvSu4BZU81jEpE9FVZ3xjcyuTKWWy2gmdnaxtACrS
 ```
 
-![RGB-Bitcoin](assets/fr/077.webp)
+![RGB-Bitcoin](assets/en/077.webp)
 
 #### 9)选项：鲍勃向爱丽丝发回确认函（*付款单*）。
 
@@ -2755,13 +2753,13 @@ alice$ rgb check <sig>
 alice$ wallet sign —publish tx.psbt
 ```
 
-![RGB-Bitcoin](assets/fr/078.webp)
+![RGB-Bitcoin](assets/en/078.webp)
 
 一经确认，该交易即标志着转让的完成。鲍勃成为资产的新所有者：他现在有一个 "拥有状态"，指向他控制的UTXO，交易中的承诺证明了这一点。
 
 以下是完整的转移过程：
 
-![RGB-Bitcoin](assets/fr/079.webp)
+![RGB-Bitcoin](assets/en/079.webp)
 
 ### RGB 传输的优势
 
@@ -2792,7 +2790,7 @@ alice$ wallet sign —publish tx.psbt
 - Alice 在比特币网络上发布交易；
 - 交易确认后，转账才算正式完成。
 
-![RGB-Bitcoin](assets/fr/080.webp)
+![RGB-Bitcoin](assets/en/080.webp)
 
 这次转账充分体现了 RGB 协议的强大功能和灵活性：在客户端验证的私人交易所，以最小的成本悄无声息地锚定在比特币区块链上，并保留了该协议的最佳安全性（无重复消费风险）。这使得 RGB 成为一个前景广阔的价值转移生态系统，它比链上可编程区块链更具保密性和可扩展性。
 
@@ -2944,7 +2942,7 @@ rgb
 
 运行 `rgb`（不带参数）会显示可用的子命令列表，如 `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer` 等。你可以更改本地存储目录（存放所有日志、示意图和实现的储藏室）、选择网络（testnet、mainnet）或配置你的 Electrum 服务器。
 
-![RGB-Bitcoin](assets/fr/081.webp)
+![RGB-Bitcoin](assets/en/081.webp)
 
 #### 控制措施概览
 
@@ -2972,7 +2970,7 @@ cargo run
 rgb import interfaces/RGB20.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/082.webp)
+![RGB-Bitcoin](assets/en/082.webp)
 
 另一方面，我们被告知还没有将模式导入软件。储藏库中也没有合同。要查看它，请运行命令 ：
 
@@ -2986,7 +2984,7 @@ rgb schemata
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
-![RGB-Bitcoin](assets/fr/083.webp)
+![RGB-Bitcoin](assets/en/083.webp)
 
 该资源库的 `src/` 目录中包含多个 Rust 文件（例如 `nia.rs`），这些文件定义了模式（NIA 表示 "*Non Inflatable Asset*"，UDA 表示 "*Unique Digital Asset*"等）。编译时，您可以运行 ：
 
@@ -3005,7 +3003,7 @@ cargo run
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/084.webp)
+![RGB-Bitcoin](assets/en/084.webp)
 
 这将把它添加到本地存储库中。如果我们运行以下命令，就会看到模式已经出现：
 
@@ -3037,8 +3035,8 @@ rgb schemata
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -3052,7 +3050,7 @@ seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804
 amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
-![RGB-Bitcoin](assets/fr/085.webp)
+![RGB-Bitcoin](assets/en/085.webp)
 
 然后只需运行命令 ：
 
@@ -3060,7 +3058,7 @@ amount: 100000000 # this is 1 million (we have two digits for cents)
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
-![RGB-Bitcoin](assets/fr/086.webp)
+![RGB-Bitcoin](assets/en/086.webp)
 
 在我的情况中，唯一模式标识符（用单引号括起来）是 `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k`，我没有输入任何发行人。因此，我的订单是 ：
 
@@ -3080,15 +3078,15 @@ CLI 会回复说，已签发了一份新合同，并将其添加到了储量中�
 rgb contracts
 ```
 
-![RGB-Bitcoin](assets/fr/087.webp)
+![RGB-Bitcoin](assets/en/087.webp)
 
-然后，下一条命令会显示全局状态（名称、代号、供应量......）和自有状态列表，即分配情况（例如，UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` 中定义的 100 万个 `PBN` 代币）。
+然后，下一条命令会显示全局状态（名称、代号、供应量......）和自有状态列表，即分配情况（例如，UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` 中定义的 100 万个 `Plan ₿ Academy` 代币）。
 
 ```bash
 rgb state '<ContractId>'
 ```
 
-![RGB-Bitcoin](assets/fr/088.webp)
+![RGB-Bitcoin](assets/en/088.webp)
 
 ### 导出、导入和验证
 
@@ -3098,7 +3096,7 @@ rgb state '<ContractId>'
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
-![RGB-Bitcoin](assets/fr/089.webp)
+![RGB-Bitcoin](assets/en/089.webp)
 
 可将 `myContractPBN.rgb` 文件传给其他用户，后者可使用命令 ：
 
@@ -3122,7 +3120,7 @@ rgb validate myContract.rgb
 rgb dump
 ```
 
-![RGB-Bitcoin](assets/fr/090.webp)
+![RGB-Bitcoin](assets/en/090.webp)
 
 这将生成一个文件夹，其中包含整个藏品的详细信息。
 
@@ -3229,7 +3227,7 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 用比特币术语来说，资金交易必须存在，以定义参考 UTXO，即使它只包含少量的 sats（这只是在未来的承诺交易中每个输出保持高于尘埃限制的问题）。例如，爱丽丝可能决定提供 10k sats 和 500 USDT（作为 RGB 资产发行）。在融资交易中，我们会添加一个锚定 RGB 状态转换的承诺（"Opret "或 "Tapret"）。
 
-![RGB-Bitcoin](assets/fr/091.webp)
+![RGB-Bitcoin](assets/en/091.webp)
 
 一旦资金交易准备就绪（但尚未广播），就会创建承诺交易，这样任何一方都可以随时单方面关闭通道。这些交易类似于 Lightning 的经典承诺交易，只是我们增加了一个额外的输出，其中包含与新状态转换相关联的 RGB 锚点（OP_RETURN 或 Taproot）。
 
@@ -3237,11 +3235,11 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 因此，由 Alice 签名并发送给 Bob 的承诺交易会是这样的：
 
-![RGB-Bitcoin](assets/fr/092.webp)
+![RGB-Bitcoin](assets/en/092.webp)
 
 由 Bob 签名并发送给 Alice 的附带承诺交易将如下所示：
 
-![RGB-Bitcoin](assets/fr/093.webp)
+![RGB-Bitcoin](assets/en/093.webp)
 
 ### 频道更新
 
@@ -3251,27 +3249,27 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 爱丽丝签署的承诺交易，准备由鲍勃分发：
 
-![RGB-Bitcoin](assets/fr/094.webp)
+![RGB-Bitcoin](assets/en/094.webp)
 
 鲍勃签署的承诺交易，准备由爱丽丝分发：
 
-![RGB-Bitcoin](assets/fr/095.webp)
+![RGB-Bitcoin](assets/en/095.webp)
 
 ### HTLC 管理
 
 实际上，"闪电网络 "可以通过 HTLC（"*散列时间锁定合约*"）实现多通道支付。RGB 也是如此：对于通过通道进行的每笔支付，都会在提交的交易中添加 HTLC 输出，并将 RGB 分配与 HTLC 链接。因此，无论谁使用了 HTLC 输出（由于秘密或在时间锁定到期后），都会收回 sats 和相关的 RGB 资产。另一方面，你显然需要在路上有足够的现金，包括 sats 和 RGB 资产。
 
-![RGB-Bitcoin](assets/fr/096.webp)
+![RGB-Bitcoin](assets/en/096.webp)
 
 因此，RGB 在 Lightning 上的运行必须与 Lightning 网络本身的运行同步考虑。如果您想更深入地了解这一主题，我强烈建议您参加其他综合培训课程：
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### RGB 代码图
 
 最后，在进入下一部分之前，我想向大家介绍一下 RGB 所使用的代码。该协议基于一系列 Rust 库和开源规范。下面是主要资源库和板条箱的概览：
 
-![RGB-Bitcoin](assets/fr/097.webp)
+![RGB-Bitcoin](assets/en/097.webp)
 
 #### 客户端验证
 
@@ -3584,7 +3582,7 @@ rgb-lightning-node **项目是一个基于 "rust-lightning"（LDK）分叉的Rus
 git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules --shallow-submodules
 ```
 
-![RGB-Bitcoin](assets/fr/098.webp)
+![RGB-Bitcoin](assets/en/098.webp)
 
 
 - 子模块 "选项也会克隆必要的子设备（包括修改版的 "rust-lightning"）；
@@ -3596,7 +3594,7 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 cargo install --locked --debug --path .
 ```
 
-![RGB-Bitcoin](assets/fr/099.webp)
+![RGB-Bitcoin](assets/en/099.webp)
 
 
 - 锁定 "确保严格遵守依赖项的版本；
@@ -3630,7 +3628,7 @@ rgb-lightning-node "守护进程需要.NET Framework 2.0 的存在和配置才�
 
 对于简单的使用，有一个 `regtest.sh` 脚本可以通过 Docker 自动启动一组服务：bitcoind"、"electrs"（索引器）、"rgb-proxy-server"。
 
-![RGB-Bitcoin](assets/fr/100.webp)
+![RGB-Bitcoin](assets/en/100.webp)
 
 它允许你启动一个本地、隔离、预配置的环境。每次重启时，它都会创建并销毁容器和数据目录。首先，我们将启动 .NET Framework：
 
@@ -3645,7 +3643,7 @@ rgb-lightning-node "守护进程需要.NET Framework 2.0 的存在和配置才�
 - 在 regtest 中运行 `bitcoind` 以及索引器 `electrs` 和 `rgb-proxy-server` ；
 - 等待一切准备就绪后再使用。
 
-![RGB-Bitcoin](assets/fr/101.webp)
+![RGB-Bitcoin](assets/en/101.webp)
 
 接下来，我们将启动几个 RLN 节点。在不同的 shell 中运行，例如（启动 3 个 RLN 节点） ：
 
@@ -3661,7 +3659,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network regtest
 ```
 
-![RGB-Bitcoin](assets/fr/102.webp)
+![RGB-Bitcoin](assets/en/102.webp)
 
 
 - 网络 regtest "参数表示使用 regtest 配置；
@@ -3683,7 +3681,7 @@ curl -X POST http://localhost:3001/address
 
 答案将为您提供一个地址。
 
-![RGB-Bitcoin](assets/fr/103.webp)
+![RGB-Bitcoin](assets/en/103.webp)
 
 在 `bitcoind` Regtest 中，我们将挖掘一些比特币。运行 ：
 
@@ -3691,7 +3689,7 @@ curl -X POST http://localhost:3001/address
 ./regtest.sh mine 101
 ```
 
-![RGB-Bitcoin](assets/fr/104.webp)
+![RGB-Bitcoin](assets/en/104.webp)
 
 将资金发送到上述生成的节点地址：
 
@@ -3699,7 +3697,7 @@ curl -X POST http://localhost:3001/address
 ./regtest.sh sendtoaddress <address> <amount>
 ```
 
-![RGB-Bitcoin](assets/fr/105.webp)
+![RGB-Bitcoin](assets/en/105.webp)
 
 然后开采一个区块来确认交易：
 
@@ -3707,7 +3705,7 @@ curl -X POST http://localhost:3001/address
 ./regtest.sh mine 1
 ```
 
-![RGB-Bitcoin](assets/fr/106.webp)
+![RGB-Bitcoin](assets/en/106.webp)
 
 ### 测试网启动（无 Docker）
 
@@ -3754,7 +3752,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/createutxos
 ```
 
-![RGB-Bitcoin](assets/fr/107.webp)
+![RGB-Bitcoin](assets/en/107.webp)
 
 当然，您也可以调整订单。为了确认交易，我们会在您的.NET 账号上显示一个".NET "字样：
 
@@ -3762,7 +3760,7 @@ http://localhost:3001/createutxos
 ./regtest.sh mine 1
 ```
 
-现在我们可以创建一个 RGB 资产。命令取决于您要创建的资产类型及其参数。在这里，我要创建一个名为 "PBN "的 NIA（*非充气资产*）令牌，供应量为 1000 个单位。精度 "允许您定义单位的可分割性。
+现在我们可以创建一个 RGB 资产。命令取决于您要创建的资产类型及其参数。在这里，我要创建一个名为 "Plan ₿ Academy "的 NIA（*非充气资产*）令牌，供应量为 1000 个单位。精度 "允许您定义单位的可分割性。
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3770,14 +3768,14 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
 ```
 
-![RGB-Bitcoin](assets/fr/108.webp)
+![RGB-Bitcoin](assets/en/108.webp)
 
 响应包括新创建资产的 ID。请记住这个标识符。在我的例子中，它是 ：
 
@@ -3785,7 +3783,7 @@ http://localhost:3001/issueassetnia
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ```
 
-![RGB-Bitcoin](assets/fr/109.webp)
+![RGB-Bitcoin](assets/en/109.webp)
 
 然后，您可以在链上传输，或在闪电通道中分配。这正是我们下一节要做的。
 
@@ -3805,9 +3803,9 @@ curl -X 'GET' \
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
 ```
 
-![RGB-Bitcoin](assets/fr/110.webp)
+![RGB-Bitcoin](assets/en/110.webp)
 
-接下来，我们将通过指定相关资产（`PBN`）来打开通道。通过 `/openchannel` 命令，您可以用 satoshis 为单位定义通道的大小，并选择是否包含 RGB 资产。这取决于你想创建什么，但在我的情况下，命令是 ：
+接下来，我们将通过指定相关资产（`Plan ₿ Academy`）来打开通道。通过 `/openchannel` 命令，您可以用 satoshis 为单位定义通道的大小，并选择是否包含 RGB 资产。这取决于你想创建什么，但在我的情况下，命令是 ：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3836,7 +3834,7 @@ http://localhost:3001/openchannel
 - asset_id`：通道中 RGB 资产的唯一标识符；
 - public`：表示通道是否应在网络上公开路由。
 
-![RGB-Bitcoin](assets/fr/111.webp)
+![RGB-Bitcoin](assets/en/111.webp)
 
 为了确认交易，需要开采 6 个区块：
 
@@ -3844,9 +3842,9 @@ http://localhost:3001/openchannel
 ./regtest.sh mine 6
 ```
 
-![RGB-Bitcoin](assets/fr/112.webp)
+![RGB-Bitcoin](assets/en/112.webp)
 
-现在，"闪电 "通道已打开，节点 n°1 一侧也包含 500 个 "PBN "代币。如果节点 n°2 希望接收 `PBN` 代币，则必须生成一张发票。具体方法如下
+现在，"闪电 "通道已打开，节点 n°1 一侧也包含 500 个 "Plan ₿ Academy "代币。如果节点 n°2 希望接收 `Plan ₿ Academy` 代币，则必须生成一张发票。具体方法如下
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3873,9 +3871,9 @@ http://localhost:3002/lninvoice
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
 ```
 
-![RGB-Bitcoin](assets/fr/113.webp)
+![RGB-Bitcoin](assets/en/113.webp)
 
-现在，我们将从第一个节点支付这张发票，该节点持有必要的`PBN`令牌现金：
+现在，我们将从第一个节点支付这张发票，该节点持有必要的`Plan ₿ Academy`令牌现金：
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -3885,7 +3883,7 @@ curl -X POST -H "Content-Type: application/json" \
 http://localhost:3001/sendpayment
 ```
 
-![RGB-Bitcoin](assets/fr/114.webp)
+![RGB-Bitcoin](assets/en/114.webp)
 
 已付款。执行命令 ：
 
@@ -3895,7 +3893,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-![RGB-Bitcoin](assets/fr/115.webp)
+![RGB-Bitcoin](assets/en/115.webp)
 
 下面介绍如何部署一个经过修改的 Lightning 节点，以携带 RGB 资产。本演示基于 .NET Framework 3.0：
 

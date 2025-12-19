@@ -1,0 +1,9 @@
+question: Di mana komunitas Umbrel yang paling aktif?
+answer: Di Discord dan forum online
+wrong_answers:
+  - Di Instagram
+  - Di LinkedIn dan forum online
+  - Di IRC
+explanation: |
+  Umbrel memiliki komunitas yang sangat aktif di Discord dan di forum online-nya, tempat para pengguna Exchange membantu dan mendukung.
+reviewed: true

@@ -6,7 +6,7 @@ description: Łatwe tworzenie Mining z domu.
 
 
 
-### Wprowadzenie
+## Wprowadzenie
 
 
 
@@ -18,7 +18,7 @@ Znacznie więcej ważnych informacji można również znaleźć w kompletnym prz
 
 
 
-### Przegląd BMM 100
+## Przegląd BMM 100
 
 
 
@@ -46,7 +46,7 @@ natomiast z tyłu mamy: otwór na zasilanie, miejsce na kartę SD (która może 
 
 
 
-### Podłączanie Mini Miner
+## Podłączanie Mini Miner
 
 
 
@@ -54,7 +54,7 @@ Konieczne będzie podłączenie urządzenia do Internetu przez Ethernet, należy
 
 
 
-### Konfiguracja
+## Konfiguracja
 
 
 
@@ -74,7 +74,7 @@ Aby się zalogować, należy wpisać `root` jako nazwę użytkownika, natomiast 
 
 
 
-### Ustawienia ogólne
+## Ustawienia ogólne
 
 
 
@@ -110,7 +110,7 @@ Po wprowadzeniu zmian kliknij przycisk `Zapisz zmiany`, a zmiany zostaną wyświ
 
 
 
-### Połączenie z Mining pool
+## Połączenie z Mining pool
 
 
 
@@ -134,15 +134,15 @@ Tutaj będziemy musieli zdecydować, której puli użyć. W tym poradniku pokaż
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Drugą opcją jest podłączenie nas do Mining pool, który mina w solo, jak Public Pool, postępuj zgodnie z tym przewodnikiem, aby to zrobić:
 
 
 
-https://planb.network/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/it/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
 
-#### Basen Braiins
+### Basen Braiins
 
 
 
@@ -150,7 +150,7 @@ Aby połączyć się z tą pulą, musimy utworzyć konto. Pula ta dokonuje równ
 
 
 
-https://planb.network/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
+https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a563-d55ab5c69f55
 
 Gdy to zrobimy, jesteśmy w pulpicie nawigacyjnym puli Braiins. To, co musimy zrobić, to powiedzieć puli, że chcemy połączyć się z jednym z naszych górników, więc po lewej stronie ekranu znajdziesz kilka wpisów. Musimy przejść do "pracowników"
 
@@ -168,7 +168,7 @@ i musimy kliknąć fioletowy przycisk po prawej stronie z napisem "Połącz prac
 
 
 
-Tutaj pojawia się okno z informacjami potrzebnymi do podłączenia naszego mini Miner do puli. Tutaj jedyną zmianą, jaką możemy wprowadzić, jest wybranie Stratum V2. Aby dowiedzieć się, czym jest Stratum v2, zobacz ten wpis w [glosariuszu] (https://planb.network/en/resources/glossary/stratum-v2).
+Tutaj pojawia się okno z informacjami potrzebnymi do podłączenia naszego mini Miner do puli. Tutaj jedyną zmianą, jaką możemy wprowadzić, jest wybranie Stratum V2. Aby dowiedzieć się, czym jest Stratum v2, zobacz ten wpis w [glosariuszu] (https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 
@@ -236,7 +236,7 @@ jeśli wrócisz do pulpitu nawigacyjnego, powinieneś zacząć widzieć ruch na 
 
 
 
-#### Basen publiczny
+### Basen publiczny
 
 
 

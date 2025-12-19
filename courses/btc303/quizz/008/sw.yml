@@ -1,0 +1,9 @@
+question: Ni nini kinachofanya uchakataji wa Bitcoin uwe sugu?
+answer: Uagizaji wa miamala unafanywa kwa pamoja na kikundi chenye nguvu cha wachimbaji madini ambacho mtu yeyote anaweza kujiunga au kuondoka
+wrong_answers:
+  - Uthibitishaji wa muamala umesimbwa kwa njia fiche kwa kutumia itifaki za hali ya juu za kriptografia ambazo serikali haziwezi kuvunja
+  - Rekodi za miamala huhifadhiwa kwenye seva nyingi za chelezo zinazodhibitiwa na mashirika tofauti yanayoaminika
+  - Ada za muamala hurekebishwa kiotomatiki ili kuzuia mashambulizi ya kiuchumi kutoka kwa mamlaka kuu
+explanation: |
+  Bitcoin inafanikisha upinzani wa udhibiti kupitia ugatuaji wa wachimbaji, ambapo uagizaji wa miamala unafanywa kwa pamoja na wachimbaji wote wanaochagua kushiriki. Hii inaunda mfumo unaobadilika ambapo mtu yeyote anaweza kujiunga au kuacha mchakato wa mining kwa uhuru, na kuondoa sehemu yoyote ya udhibiti ambayo inaweza kushinikizwa kudhibiti miamala. Majibu yasiyo sahihi yanaelezea vipengele vya kiufundi, wahusika wanaoaminika au mifumo ya kiuchumi ambayo haishughulikii suala kuu la udhibiti wa ugatuaji wa shughuli za uchakataji.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Điều gì xảy ra trong một cuộc tấn công 51% đối với mạng lưới Bitcoin?
+question: Điều gì sẽ xảy ra khi có một cuộc tấn công 51% vào mạng lưới Bitcoin?
 answer: Một đối tượng sở hữu hơn một nửa hashrate và có thể cố gắng chỉnh sửa blockchain.
 wrong_answers:
   - Một đối tượng kiểm soát hơn một nửa số bitcoin đang lưu thông.
-  - Một đối tượng kiểm soát hơn một nửa số nút trong mạng lưới Bitcoin.
-  - Một đối tượng kiểm soát hơn một nửa số hồ bơi khai thác trong mạng lưới Bitcoin.
+  - Một đối tượng kiểm soát hơn một nửa số máy chủ trong mạng lưới Bitcoin.
+  - Một đối tượng kiểm soát hơn một nửa số mỏ khai thác trong mạng lưới Bitcoin.
 explanation: |
   Trong một cuộc tấn công 51%, một đối tượng với hơn một nửa
   hashrate của mạng có thể tiềm năng thao túng

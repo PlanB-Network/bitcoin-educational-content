@@ -5,5 +5,7 @@ wrong_answers:
   - Sadece bir telefon numarasına sahip olunduğunun kanıtlanmasını sağlar.
   - Teknik düzeyde ayarlamak çok karmaşık.
 explanation: |
-  SMS, SIM takas dolandırıcılığı gibi saldırılara karşı savunmasız bir 2FA yöntemi olduğu için 2FA için en iyi seçenek olarak kabul edilmez. Başarılı bir şekilde istismar edildiğinde, bu güvenlik açıkları 2FA kimlik doğrulamasının ek Layer'ı tarafından sağlanan herhangi bir korumayı yok eder.
+  SMS, SIM takas dolandırıcılığı gibi saldırılara karşı savunmasız bir 2FA yöntemi olduğu için 
+  2FA için en iyi seçenek olarak kabul edilmez. 
+  İstismar edildiğinde, bu güvenlik açıkları 2FA kimlik doğrulamasının ek katman'ı tarafından sağlanan her korumayı yok eder.
 reviewed: true

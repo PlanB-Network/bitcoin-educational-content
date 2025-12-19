@@ -1,0 +1,8 @@
+question: Millist põhiprobleemi lahendab RC, mida Box ei suuda lahendada Rust omandisüsteemis?
+answer: RC võimaldab samade andmete mitmekordset omandiõigust läbi viitelugemise
+wrong_answers:
+  - RC pakub kiiremat mälu eraldamist ja tühjendamist kui Box
+  - RC võimaldab automaatset mäluhaldust ilma jooksuaegse koormuseta
+  - RC võimaldab kompileerimise ajal laenamise kontrollimist, mida Box ei saa teostada
+explanation: |
+  RC (Reference Counter) tegeleb konkreetselt Boxi ühe omandiõiguse mudeli piiranguga, võimaldades mitmel koodiosal üheaegselt jagada samade andmete omandiõigust. Box järgib traditsioonilisi omandireegleid, mille kohaselt saab andmeid korraga omada ainult üks üksus, mistõttu on võimatu luua selliseid stsenaariume nagu jagatud andmestruktuurid, kus mitu loendit viitavad samale sabale osale. RC säilitab sisemist loendurit, mis jälgib viiteid, suurendades neid kloonimise korral ja vähendades neid, kui need eemaldatakse, vabastades mälu ainult siis, kui loendur jõuab nullini. See võimaldab paindlikke andmete jagamise mustreid, säilitades samal ajal mälu turvalisuse, mis erineb põhimõtteliselt Boxi ainuomanikuse lähenemisviisist.

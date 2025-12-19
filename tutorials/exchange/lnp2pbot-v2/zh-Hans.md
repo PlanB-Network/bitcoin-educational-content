@@ -8,7 +8,7 @@ description: LNP2PBot 和 P2P 比特币交易完整指南
 
 无 KYC 的点对点（P2P）交易所对于保护用户的保密性和金融自主权至关重要。它们实现了个人之间的直接交易，无需身份验证，这对于重视隐私的人来说至关重要。如需更深入地了解理论概念，请参阅 BTC204 课程：
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 点对点（P2P）买卖比特币是获取或处置比特币最隐秘的方法之一。LNP2PBot 是一个开源的 Telegram 机器人，可促进闪电网络上的点对点交换，实现快速、低成本、无 KYC 的交易。
 
@@ -52,7 +52,7 @@ https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 下面是这款钱包的教程链接：
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
 - [Phoenix](https://phoenix.acinq.co)：
   - 简单可靠
@@ -63,7 +63,7 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 下面是这款钱包的教程链接：
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 - [Blixt](https://blixtwallet.github.io)：
   - 技术性较强，但非常完整
@@ -74,7 +74,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 下面是这款钱包的教程链接：
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **关于其他投资组合的重要说明**
 

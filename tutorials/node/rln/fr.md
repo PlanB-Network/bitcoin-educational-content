@@ -29,7 +29,7 @@ Un contrat RGB se structure comme une machine à états évolutive. Il démarre 
 
 Pour en savoir plus sur le fonctionnement du protocole RGB, je vous conseille de suivre cette formation complète :
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Installation du nœud Lightning compatible RGB
 
@@ -209,7 +209,7 @@ Vous pouvez évidemment adapter la commande. Pour confirmer la transaction, on m
 ./regtest.sh mine 1
 ```
 
-On peut maintenant créer un asset RGB. La commande va dépendre du type d'asset que vous souhaitez créer et de ses paramètres. Ici je crée un token NIA (*Non Inflatable Asset*) nommé "PBN" avec une supply de 1000 unités. La `precision` permet de définir la divisibilité des unités.
+On peut maintenant créer un asset RGB. La commande va dépendre du type d'asset que vous souhaitez créer et de ses paramètres. Ici je crée un token NIA (*Non Inflatable Asset*) nommé "Plan ₿ Academy" avec une supply de 1000 unités. La `precision` permet de définir la divisibilité des unités.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -217,8 +217,8 @@ curl -X POST -H "Content-Type: application/json" \
         "amounts": [
           1000
         ],
-        "ticker": "PBN",
-        "name": "Plan B Network",
+        "ticker": "Plan ₿ Academy",
+        "name": "Plan ₿ Academy",
         "precision": 0
       }' \
   http://localhost:3001/issueassetnia
@@ -254,7 +254,7 @@ La commande me renvoie la clé publique de mon nœud n°2 :
 
 ![RLN](assets/fr/13.webp)
 
-Ensuite, nous allons ouvrir le canal en spécifiant l'asset concerné (`PBN`). La commande `/openchannel` vous permet de définir la taille du canal en satoshis et d'opter pour l'inclusion de l'asset RGB. Cela dépend de ce que vous souhaitez créer, mais dans mon cas, la commande est :
+Ensuite, nous allons ouvrir le canal en spécifiant l'asset concerné (`Plan ₿ Academy`). La commande `/openchannel` vous permet de définir la taille du canal en satoshis et d'opter pour l'inclusion de l'asset RGB. Cela dépend de ce que vous souhaitez créer, mais dans mon cas, la commande est :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -292,7 +292,7 @@ Pour confirmer la transaction, on mine 6 blocs :
 
 ![RLN](assets/fr/15.webp)
 
-Le canal Lightning est désormais ouvert et contient également 500 tokens `PBN` du côté du nœud n°1. Si le nœud n°2 souhaite recevoir des tokens `PBN`, il devra générer une invoice. Voici comment procéder :
+Le canal Lightning est désormais ouvert et contient également 500 tokens `Plan ₿ Academy` du côté du nœud n°1. Si le nœud n°2 souhaite recevoir des tokens `Plan ₿ Academy`, il devra générer une invoice. Voici comment procéder :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -319,7 +319,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Nous allons maintenant payer cette invoice depuis le premier nœud, qui détient les liquidités nécessaires avec le token `PBN` :
+Nous allons maintenant payer cette invoice depuis le premier nœud, qui détient les liquidités nécessaires avec le token `Plan ₿ Academy` :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -355,5 +355,5 @@ Si vous avez trouvé ce tutoriel utile, je vous serais très reconnaissant de me
 
 Je vous conseille également de découvrir cet autre tutoriel dans lequel je vous explique comment utiliser l'outil RGB CLI développé par l'association LNP/BP pour créer un contrat RGB :
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
 

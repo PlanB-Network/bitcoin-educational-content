@@ -92,7 +92,7 @@ Nous allons maintenant voir comment ajouter votre premier code 2FA en utilisant 
 
 Tout d'abord vous pouvez consulter notre guide sur ProtonMail pour plus d'informations : 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 Connectez-vous à votre compte ProtonMail et rendez-vous dans les paramètres de sécurité. Recherchez l'option "Two-factor authentication" et activez-la. 
 
@@ -243,7 +243,7 @@ Il est tentant d'utiliser un gestionnaire de mots de passe qui stocke aussi les 
 
 Idéalement, utilisez plus d'un second facteur sur vos comptes critiques. N'hésitez pas à ajouter une clé de sécurité physique si le service le permet. N'hésitez pas à consulter notre tutoriel sur les clés physiques Yubikey si vous souhaitez plus d'informations : 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 De même, conservez des codes de secours imprimés.
 
@@ -269,7 +269,7 @@ Comment Proton Authenticator se positionne-t-il face aux autres applications d'a
 
 Vous trouverez notre guide pour Authy ci-dessous : 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Proton Authenticator apparaît comme l'une des solutions les plus complètes et sécurisées : open source, synchronisation chiffrée multi-device, sans suivi commercial.
 

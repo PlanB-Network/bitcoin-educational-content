@@ -11,7 +11,7 @@ Ce tutoriel a été rédigé par [Bitcoin Campus](https://linktr.ee/bitcoincampu
 
 Wallet of Satoshi est un Lightning Network Wallet, de garde, et très simple d'utilisation.
 
-Dans le cadre du cours [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), il est utilisé pour les bons Redeem Lightning Network.
+Dans le cadre du cours [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), il est utilisé pour les bons Redeem Lightning Network.
 
 
 **N'oubliez jamais** : _pas vos clés, pas vos pièces_

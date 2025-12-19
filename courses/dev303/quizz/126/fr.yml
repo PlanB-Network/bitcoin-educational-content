@@ -1,0 +1,8 @@
+question: Quelle est la principale conséquence technique de la philosophie du SDK Breez par rapport à l'approche de la boîte à outils générique de LDK pour le développement de Lightning wallet ?
+answer: Il permet l'intégration directe de services essentiels tels que la fonctionnalité LSP au sein même du SDK, ce qui permet une réception immédiate des paiements sans configuration manuelle des canaux
+wrong_answers:
+  - Elle exige des développeurs qu'ils mettent en œuvre davantage de protocoles de réseau de bas niveau et d'algorithmes d'acheminement des paiements que s'ils utilisaient des bibliothèques génériques Lightning
+  - Il oblige les applications wallet à gérer la synchronisation des graphes de réseau et la gestion des sorties d'ancrage indépendamment de l'implémentation Lightning sous-jacente
+  - Elle nécessite une mise en œuvre personnalisée de la prise en charge des LNURL et des services de taux de change, car les SDK d'opinion ne peuvent pas inclure d'intégrations tierces
+explanation: |
+  Le SDK Breez, conçu en fonction des opinions, cible spécifiquement les applications wallet, ce qui lui permet d'intégrer des services essentiels tels que la fonctionnalité LSP directement dans le SDK. Cela contraste fortement avec l'approche générique du LDK, qui exige des développeurs qu'ils mettent en œuvre ces services séparément. L'intégration permet aux utilisateurs de bénéficier d'une expérience transparente, comme la réception immédiate des paiements pour les nouveaux portefeuilles, alors que le champ d'application étendu du LDK signifie que les développeurs doivent créer ces fonctionnalités spécifiques au wallet à partir de zéro, ce qui augmente considérablement la complexité du développement et le temps de mise sur le marché.

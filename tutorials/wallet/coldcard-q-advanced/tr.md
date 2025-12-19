@@ -11,7 +11,7 @@ description: COLDCARD Q'nun gelişmiş seçeneklerini kullanma
 Bir önceki eğitimde, COLDCARD Q'nun ilk yapılandırmasını ve yeni başlayanlar için temel işlevlerini ele almıştık. COLDCARD Q'nuzu yeni aldıysanız ve henüz kurmadıysanız, buraya devam etmeden önce o eğitimle başlamanızı tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 Bu yeni eğitim, ileri düzey ve paranoyak kullanıcılar için tasarlanmış COLDCARD Q'nun gelişmiş seçeneklerine adanmıştır. Aslında, COLDCARD'lar birçok gelişmiş güvenlik özelliği ile diğer donanım cüzdanlarından ayrılır. Elbette, tüm bu seçenekleri kullanmak zorunda değilsiniz. Sadece güvenlik stratejinize uygun olanları seçin.
 
@@ -31,7 +31,7 @@ Başlamadan önce, 12 veya 24 kelimelik Mnemonic ifadenizin fiziksel bir yedeği
 BIP39 passphrase'ün ne olduğunu bilmiyorsanız veya nasıl çalıştığını tam olarak bilmiyorsanız, passphrase kullanımıyla ilgili riskleri anlamak için gereken teorik temelleri kapsayan bu eğitime önceden bir göz atmanızı şiddetle tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase'i Wallet'nize kurduktan sonra, Mnemonic'nızın bitcoinlerinize yeniden erişim sağlamak için tek başına yeterli olmayacağını unutmayın. Hem Mnemonic'ya hem de passphrase'e ihtiyacınız olacak. Dahası, COLDCARD Q'nuzun kilidini her açtığınızda passphrase'i girmeniz gerekecektir. Bu, COLDCARD'a fiziksel erişimi ve PIN bilgisini passphrase olmadan yetersiz hale getirerek güvenliği artırır.
 
@@ -102,7 +102,7 @@ Görüntülenen parmak izinin Wallet'nızın parmak iziyle eşleştiğini onayla
 Bir passphrase kullanmanın, Mnemonic ifadeniz ve passphrase kombinasyonundan türetilen yeni bir anahtar setini Wallet yönetim yazılımınıza (Sparrow wallet gibi) aktarmanız gerektiği anlamına geldiğini unutmayın. Bunu yapmak için, bu diğer eğitimdeki "*Sparrow üzerinde yeni bir Wallet yapılandırın*" adımını izleyin:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## Kilit açma seçenekleri
 
@@ -302,7 +302,7 @@ Seçerek seçeneği etkinleştirin.
 ![CCQ](assets/fr/34.webp)
 
 
-Örneğin, "*Plan B Network*" öğesinin SHA256 Hash değerini hesaplayabilirsiniz.
+Örneğin, "*Plan ₿ Academy*" öğesinin SHA256 Hash değerini hesaplayabilirsiniz.
 
 
 ![CCQ](assets/fr/35.webp)
@@ -369,4 +369,4 @@ Bu öğreticiyi faydalı bulduysanız, aşağıya bir Green başparmak bırakır
 CCQ'nun doğrudan rakibi olan Ledger Flex'in kullanımını tartıştığımız bu diğer öğreticiyi de tavsiye ederim:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

@@ -6,4 +6,4 @@ wrong_answers:
   - Sehr langwierig zu berechnen
 explanation: |
   Die Skalarmultiplikation auf elliptischen Kurven ist eine Einwegfunktion, was es unmöglich macht, den privaten Schlüssel aus dem öffentlichen Schlüssel abzuleiten.
-reviewed: false
+reviewed: true

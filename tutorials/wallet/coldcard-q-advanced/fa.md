@@ -11,7 +11,7 @@ description: استفاده از گزینه‌های پیشرفته COLDCARD Q
 در یک آموزش قبلی، پیکربندی اولیه COLDCARD Q و عملکردهای پایه آن برای مبتدیان را پوشش دادیم. اگر به تازگی COLDCARD Q خود را دریافت کرده‌اید و هنوز آن را تنظیم نکرده‌اید، توصیه می‌کنم قبل از ادامه اینجا، با آن آموزش شروع کنید:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 این آموزش جدید به گزینه‌های پیشرفته COLDCARD Q اختصاص دارد که برای کاربران پیشرفته و محتاط طراحی شده است. در واقع، COLDCARDها به دلیل ویژگی‌های امنیتی پیشرفته بسیاری که دارند، از سایر کیف‌پول‌های سخت‌افزاری متمایز می‌شوند. البته، نیازی نیست که از همه این گزینه‌ها استفاده کنید. فقط آن‌هایی را انتخاب کنید که با استراتژی امنیتی شما سازگار هستند.
 
@@ -31,7 +31,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 اگر نمی‌دانید BIP39 passphrase چیست، یا اگر کاملاً برای شما روشن نیست که چگونه کار می‌کند، به شدت توصیه می‌کنم که ابتدا به این آموزش نگاهی بیندازید، که مبانی نظری لازم برای درک خطرات مرتبط با استفاده از passphrase را پوشش می‌دهد:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 به خاطر داشته باشید که پس از تنظیم passphrase بر روی Wallet، تنها با Mnemonic نمی‌توانید به بیت‌کوین‌های خود دسترسی مجدد پیدا کنید. شما به هر دو Mnemonic و passphrase نیاز خواهید داشت. علاوه بر این، هر بار که COLDCARD Q خود را باز می‌کنید، باید passphrase را وارد کنید. این کار امنیت را افزایش می‌دهد زیرا دسترسی فیزیکی به COLDCARD و دانستن PIN بدون passphrase کافی نیست.
 
@@ -102,7 +102,7 @@ passphrase شما اکنون اعمال شده است. اثر کلید در صف
 به خاطر داشته باشید که استفاده از passphrase به این معنی است که شما نیاز دارید مجموعه جدیدی از کلیدها را که از ترکیب عبارت Mnemonic و passphrase مشتق شده‌اند، به نرم‌افزار مدیریت Wallet خود (مانند Sparrow wallet) وارد کنید. برای انجام این کار، مرحله "*پیکربندی یک Wallet جدید بر روی Sparrow*" را در این آموزش دیگر دنبال کنید:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
 ## باز کردن گزینه‌ها
 
@@ -302,7 +302,7 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 ![CCQ](assets/fr/34.webp)
 
 
-به عنوان مثال، می‌توانید SHA256 Hash از "*Plan B Network*" را محاسبه کنید.
+به عنوان مثال، می‌توانید SHA256 Hash از "*Plan ₿ Academy*" را محاسبه کنید.
 
 
 ![CCQ](assets/fr/35.webp)
@@ -369,4 +369,4 @@ https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 من همچنین این آموزش دیگر را توصیه می‌کنم که در آن به بررسی استفاده از یک رقیب مستقیم برای CCQ، یعنی Ledger Flex می‌پردازیم:
 
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

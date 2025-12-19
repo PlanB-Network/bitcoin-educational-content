@@ -60,7 +60,7 @@ _Để an toàn hơn, hãy đặt mã PIN_
 
 ## Về Mạng lưới Lightning
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Bitcoin Lightning Network cách mạng hóa các giao dịch Bitcoin bằng cách làm cho chúng nhanh hơn, rẻ hơn và hiệu quả hơn. Nó hoàn hảo cho việc sử dụng hàng ngày, cho phép thanh toán gần như ngay lập tức với mức phí tối thiểu, lý tưởng cho các giao dịch nhỏ như mua cà phê hoặc xử lý các giao dịch mua nhỏ thường xuyên.
 

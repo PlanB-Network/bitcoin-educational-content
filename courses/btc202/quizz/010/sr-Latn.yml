@@ -1,0 +1,9 @@
+question: Koja je ekonomska razlika između čvora i Miner?
+answer: Miner prima nagrade, čvor nema direktnu dobit
+wrong_answers:
+  - Čvor prima naknadu, Miner prima blok grant
+  - Čvor prima nagrade, Miner nema direktnu dobit.
+  - Oboje primaju iste nagrade
+explanation: |
+  Rudari primaju nagrade (subvencije i naknade), dok čvor ne donosi direktnu finansijsku korist svom korisniku.
+reviewed: true

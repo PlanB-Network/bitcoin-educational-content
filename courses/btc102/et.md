@@ -38,6 +38,8 @@ Selle kursuse eesmärk on anda teile täielik kontroll selle üle, kuidas te õp
 
 <chapterId>bfc96999-0ee1-5c41-8297-1b629f50cffc</chapterId>
 
+:::video id=58e578ef-bb3c-423d-8431-0c16db8e5f29:::
+
 
 Tere tulemast BTC102-sse! Kui te olete juba läbinud BTC101, siis olete uurinud peamisi teoreetilisi kontseptsioone, miks Bitcoin on nii revolutsiooniline tehnoloogia. Nüüd, BTC102, on aeg need teadmised ellu viia. See kursus on mõeldud selleks, et aidata teil samm-sammult koostada oma isiklik Bitcoin plaan.
 
@@ -45,7 +47,7 @@ Tere tulemast BTC102-sse! Kui te olete juba läbinud BTC101, siis olete uurinud 
 Järgnevates peatükkides juhatame teid läbi praktiliste sammude, et **saada oma esimesed bitcoinid**, **kaitseda** neid korralikult ja astuda julgelt esimesed sammud selles kiiresti kasvavas ökosüsteemis.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Kuigi Bitcoin on eksisteerinud juba üle 16 aasta, on see tööstusharu endiselt noor, dünaamiline ja sügavalt vabaduses juurdunud. Selle aluseks olev protokoll on täielikult detsentraliseeritud ja ei allu ühegi keskvõimu kontrollile, mis võimaldab ökosüsteemil kasvada loomulikul ja orgaanilisel viisil.
 
@@ -60,7 +62,7 @@ Esimene osa "Bitcoin mõistmise eeldused" valmistab teid tõhusalt ette edasisek
 Lõpuks annan teile mõned praktilised nõuanded, mis on mõeldud spetsiaalselt algajatele, et aidata teil vältida tavalisi vigu, kui te esimest korda Bitcoin-ga töötate.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/et/001.webp)
 
 
 Teine osa "Mõistmine, millesse te satute" süvendab teie üldist arusaamist Bitcoin-st. Alustame ülevaatega, et tagada teile täielik arusaamine olulistest mõistetest.
@@ -68,7 +70,7 @@ Teine osa "Mõistmine, millesse te satute" süvendab teie üldist arusaamist Bit
 Seejärel selgitame, miks Bitcoin on tehnoloogilisest, majanduslikust ja sotsiaalsest vaatenurgast põhimõtteliselt oluline, tugevdades teie veendumusi selle väärtuses. Samuti uurite Bitcoin tööstust tervikuna: selle võtmeisikuid, organisatsiooni ja arengut aastate jooksul. Lõpuks käsitleme Bitcoin ökosüsteemi mitmekihilist ülesehitust, mis on oluline kontseptsioon, et mõista, kuidas see süsteem jätkab uuendusi, ilma et see kahjustaks selle põhiprotokolli terviklikkust.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/et/002.webp)
 
 
 Kolmas osa "Oma plaani koostamine" keskendub teie isiklikule lähenemisele Bitcoin-le. Alustame sellest, et aitame teil määratleda oma kasutajaprofiili neljast põhikategooriast:
@@ -84,13 +86,13 @@ Kolmas osa "Oma plaani koostamine" keskendub teie isiklikule lähenemisele Bitco
 Juhendame teid sellise strateegia rakendamisel, mis sobib teie profiiliga ja aitab teil saavutada teie isiklikke eesmärke.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/et/003.webp)
 
 
 Neljas osa "Teie pärijate ja varanduse kaitsmine" hõlmab olulist teemat, mis sageli tähelepanuta jääb: kuidas tagada, et teie Bitcoin läheb ootamatu sündmuse korral teie lähedastele üle. Te saate teada, kuidas luua ja seadistada Bitcoin pärimisplaan, tagades oma varanduse säilimise pärast teie eluiga.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/et/004.webp)
 
 
 Selle kursuse lõpuks on teil kõik praktilised vahendid, mida vajate, et navigeerida Bitcoin ökosüsteemis kindlalt ja saada üheks selle kõige edasijõudnumatest kasutajatest!
@@ -98,6 +100,8 @@ Selle kursuse lõpuks on teil kõik praktilised vahendid, mida vajate, et navige
 
 Kas olete valmis alustama oma teekonda Bitcoin maailma? Läheme!
 
+
+**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.academy/resources/glossary) definitsioonid.
 
 # Bitcoin mõistmise eeldused
 
@@ -109,6 +113,8 @@ Kas olete valmis alustama oma teekonda Bitcoin maailma? Läheme!
 
 
 <chapterId>8af2948b-2ab5-54c4-862c-3414b8a285a2</chapterId>
+
+:::video id=9f3a7b2e-2c4d-4c1e-8b1f-3a2c1d4e5f6a:::
 
 
 Bitcoin ökosüsteem ja seda ümbritsev keskkond on sõltuvalt riigist veel suhteliselt noor ja nõrgalt reguleeritud. Kuigi see vabadus avab tohutuid võimalusi, loob see ka soodsa pinnase finantspettustele, pettustele ja mitmesugustele manipulatsioonivormidele. Seepärast on esimene peatükk nii oluline: tavapäraste lõkse mõistmine aitab teil neid vältida. Teie rahaline turvalisus on esmatähtis, sest halb kogemus ei mõjuta mitte ainult teid, vaid kogu Bitcoin kogukonda.
@@ -129,18 +135,18 @@ Enne kui minna edasi, on oluline selgelt eristada kahte põhimõtteliselt erinev
 - **Krüptovaluutatööstus** on seevastu palju suurem ja hõlmab kümneid tuhandeid erinevaid projekte, millest igaühel on oma token. Seda ruumi ajendavad sageli kiire innovatsioon, hype ja lühiajalised finantsspekulatsioonid. Paljud neist projektidest on tsentraliseeritud, vähem turvalised ja ei paku palju tegelikku väärtust - vaatamata julgetele lubadustele ja silmatorkavale turundusele.
 
 
-![BTC102-Bitcoin](assets/fr/001.webp)
+![image](assets/et/005.webp)
 
 
 Kui soovite paremini mõista, kust Bitcoin pärineb ja mis teeb selle tõesti teistest projektidest erinevaks, siis soovitan hiljem vaadata seda tasuta jätkukursust Bitcoin ajaloo kohta:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
-Nagu te teate, on Plan ₿ Network platvorm pühendatud ainult Bitcoin-le. Siiski aitab teiste krüptovaluutade erinevuse mõistmine vältida kasutute ja mõnikord isegi petturlike projektidega seotud lõkse.
+Nagu te teate, on Plan ₿ Academy platvorm pühendatud ainult Bitcoin-le. Siiski aitab teiste krüptovaluutade erinevuse mõistmine vältida kasutute ja mõnikord isegi petturlike projektidega seotud lõkse.
 
 
-![BTC102-Bitcoin](assets/fr/002.webp)
+![image](assets/et/006.webp)
 
 
 ### Peamised pettused, mida vältida
@@ -155,7 +161,7 @@ Siin on kõige levinumad pettused, millega võite oma reisil kokku puutuda:
 Need on mõned kõige levinumad pettused krüptomaailmas. Ponzi skeemi puhul saavad varajased osalejad väljamakseid uuemate osalejate raha abil; mitte mingist reaalsest investeeringust või tootest. Tegelikku väärtust ei looda. Süsteem toimib ainult seni, kuni uued inimesed jätkavad liitumist. Kui uute osalejate voog aeglustub, langeb kogu skeem kokku.
 
 
-![BTC102-Bitcoin](assets/fr/003.webp)
+![image](assets/et/007.webp)
 
 
 Need petuskeemid on tavaliselt :
@@ -200,7 +206,7 @@ Seda tüüpi pettus hõlmab vara - sageli madala likviidsusega krüptoraha token
 
 
 
-![BTC102-Bitcoin](assets/fr/004.webp)
+![image](assets/et/008.webp)
 
 
 Oluline on märkida, et Pump & Dump strateegiad on paljudes riikides ebaseaduslikud ja neid peetakse turuga manipuleerimise vormiks. Sellised skeemid jätkavad sellest hoolimata õitsemist, eriti krüptovaluutade valdkonnas, kus reguleerimine on alles järele jõudmas.
@@ -209,7 +215,7 @@ Oluline on märkida, et Pump & Dump strateegiad on paljudes riikides ebaseadusli
 Olge eriti ettevaatlik selliste platvormide nagu Telegram, Discord või muud sotsiaalmeediakanalid, privaatsete "signaaligruppide" suhtes. Neid juhivad sageli mõjutajad või isehakanud eksperdid, kellest mõned võtavad isegi osalustasu. Kuigi need rühmad väidavad, et pakuvad eksklusiivseid investeerimisvõimalusi, on tegelikkus palju ühekülgsem: ainult korraldajad saavad kasu, samas kui enamik osalejaid kaotavad lõpuks oma raha.
 
 
-![BTC102-Bitcoin](assets/fr/005.webp)
+![image](assets/et/009.webp)
 
 
 On tõsi, et mõned osalejad võivad sellistest turumanipulatsioonidest ajutiselt kasu saada, kuid nende edu põhineb tavaliselt vaid õnne ja täiuslikul ajastamisel. Pikemas perspektiivis ei ole need skeemid jätkusuutlikud. Nad nõuavad pidevat kõrge riskiga osalemist ja korduvat osalemist pettuse korraldustes, mis paratamatult kokku kukuvad.
@@ -235,7 +241,7 @@ Petturid kehastavad sageli tuntud avaliku elu tegelasi (nagu Elon Musk või teis
 Mõnikord esinevad need petuskeemid "ettemaksupettustena". Sulle lubatakse auhinda või tasu (raha, toode või teenus), kuid esmalt palutakse maksta tasu, mis on väidetavalt mõeldud näiteks saatmise, maksude või tehingukulude katmiseks. Kui makse on tehtud, siis pettur kaob ja lubatud tasu ei saabu kunagi.
 
 
-![BTC102-Bitcoin](assets/fr/006.webp)
+![image](assets/et/010.webp)
 
 
 #### Shitcoinid ja krüptovaluutad pakkumisel
@@ -259,7 +265,7 @@ Enne lingile klõpsamist või mis tahes toimingu sooritamist kontrollige alati k
 Aastate jooksul on Bitcoin kogenud mitmeid *Hard hargnemisi*, mille tulemusel on loodud algse krüptoraha alternatiivseid versioone. Lihtsustatult öeldes on *Hard Fork* võrgu jagunemine, mis viib kahe eraldi plokiahela tekkimiseni, mis mõlemad jagavad sama ajalugu kuni jagunemise hetkeni. Sellised hargnemised toimuvad tavaliselt siis, kui osa arendajaskonnast või laiemast Bitcoin ökosüsteemist soovib teha algsesse protokolli suuri muudatusi, kuid ei suuda saavutada laialdast konsensust. Selle asemel, et loobuda oma ideedest, otsustavad nad käivitada uue Bitcoin versiooni (muudetud reeglitega), lootes, et kasutajad ja kaevandajad otsustavad selle asemel järgida nende Fork.
 
 
-![BTC102-Bitcoin](assets/fr/007.webp)
+![image](assets/et/011.webp)
 
 
 Kõik *Hard hargnemised* ei ole pettused, sest mõned neist tulenevad tehnilistest või ideoloogilistest erimeelsustest kogukonna sees. Teiste taga on aga ärilised huvid või isegi ebaausad motiivid. Kõige tuntumad näited sellistest hardforkidest on **Bitcoin Cash (BCH)** ja **Bitcoin Satoshi Vision (BSV)**. Need 2017. ja 2018. aastal käivitatud alternatiivsed valuutad väidavad sageli, et nad on originaal Bitcoin "paremad versioonid". Nad propageerivad väidetavaid eeliseid, nagu väiksemad tehingutasud või kiiremad tehingud tänu suuremale plokisuurusele. Nende tehniliste muudatustega kaasnevad siiski märkimisväärsed kompromissid turvalisuse, detsentraliseerimise ja tugevuse osas; Elements, mis võivad olla vastuolus Bitcoin aluspõhimõtetega.
@@ -277,7 +283,7 @@ Et vältida sellesse lõksu langemist, kontrollige alati, millist valuutat te os
 Kuna krüptovaluutad saavad üha enam tähelepanu, on sotsiaalmeedias kasvanud mõjutajate, isehakanud ekspertide ja nn *krüptogurude* hulk. Kuigi mõned neist võivad pakkuda tõelisi harivaid teadmisi, kasutavad paljud teised oma nähtavust ära selleks, et edendada kahtlasi projekte või ohtlikult riskantseid (ja mõnikord lausa petturlikke) kauplemisstrateegiaid.Neid isikuid motiveerivad tavaliselt isiklikud finantshuvid, saades sageli otsest või kaudset hüvitist teatud tokenite või platvormide edendamise eest.
 
 
-![BTC102-Bitcoin](assets/fr/008.webp)
+![image](assets/et/012.webp)
 
 
 Need mõjutajad tuginevad sageli tõestatud taktikatele, et meelitada algajaid: nad esitlevad muljetavaldavaid finantstulemusi (mis on sageli võltsitud või kontrollimata), uhkeldavad luksusliku elustiiliga kui väidetava tõendusmaterjaliga oma edu kohta ja reklaamivad "ime" investeerimisstrateegiaid. Eesmärk on tekitada FOMO - hirm puudu jäämise ees - ning ajendada oma publikut impulsiivsetele otsustele ja hoolimatutele investeeringutele.
@@ -348,6 +354,8 @@ Enda kaitsmine pettuste eest on esimene oluline samm oma vara kaitsmisel, kuid s
 
 <chapterId>f0873bf2-6a6f-5485-bb7a-d84be14f404d</chapterId>
 
+:::video id=2a1b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 
 Niipea kui hakkate Bitcoin-ga tegelema, mõistate kiiresti, et põhiline küberturvalisus ei ole vabatahtlik - see on hädavajalik. Pettused ja pettused on vaid jäämäe tipp. Juhuslik andmekaotus, pahavara ja kompromiteeritud paroolid võivad olla sama hävitavad, eriti kui te ise oma võtmeid haldate.
@@ -356,10 +364,10 @@ Niipea kui hakkate Bitcoin-ga tegelema, mõistate kiiresti, et põhiline kübert
 Selles peatükis tutvustatakse teile mõningaid lihtsaid praktilisi samme, et parandada oma digitaalset hügieeni ja kaitsta end selles ruumis.
 
 
-Kui soovite süveneda, pakub Plan ₿ Network kursus SEC101 põhjalikku küberturvalisuse strateegiate jaotust, mis on mõeldud spetsiaalselt Bitcoin kasutajatele.
+Kui soovite süveneda, pakub Plan ₿ Academy kursus SEC101 põhjalikku küberturvalisuse strateegiate jaotust, mis on mõeldud spetsiaalselt Bitcoin kasutajatele.
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 ### Miks küberturvalisus on oluline
 
@@ -379,7 +387,7 @@ Lisaks sellele muudab Bitcoin rahaline väärtus selle suure väärtusega sihtm�
 Samuti on väga soovitatav kasutada usaldusväärset viirusetõrjet. Windowsi puhul on sisseehitatud Windows Defender enamiku kasutajate jaoks üldiselt piisav. Kui soovite lisafunktsioone või meelerahu, on saadaval ka kommertsvalikud, näiteks Kaspersky. MacOSi puhul on pahavaraohud ajalooliselt vähem levinud **, kuid mitte olematud**, nii et on siiski mõistlik olla ettevaatlik.
 
 
-![BTC102-Bitcoin](assets/fr/012.webp)
+![image](assets/et/013.webp)
 
 
 Lisaks süsteemiuuendustele ja viirusetõrjele olge äärmiselt ettevaatlik tarkvara allalaadimise suhtes kahtlastelt veebisaitidelt või nn universaalsetest allalaadimisportaalidest. Kui teil on vaja mingit tööriista või rakendust, minge alati otse ametlikust allikast;See vähendab oluliselt ohtu, et paigaldate seaduslikuks tarkvaraks maskeeritud pahavara.
@@ -387,7 +395,7 @@ Lisaks süsteemiuuendustele ja viirusetõrjele olge äärmiselt ettevaatlik tark
 Teine tark harjumus on kontrollida igasuguse tarkvara autentsust ja terviklikkust enne selle paigaldamist oma masinasse. Kui te ei ole kindel, kuidas seda teha, siis ärge muretsege, meil on selleks spetsiaalne õpetus, mis juhatab teid selle protsessi läbi:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Lõpetuseks, tehke oma tähtsatest andmetest regulaarselt varukoopiaid. Väline Hard-ketas või SSD-ketas on kindel valik, et hoida oma failide duplikaati ootamatu rikke, häkkimise või juhusliku kustutamise korral. Hiljem tänate ennast.
 
@@ -395,7 +403,7 @@ Lõpetuseks, tehke oma tähtsatest andmetest regulaarselt varukoopiaid. Väline 
 Kui eelistate pilvelahendusi, kaaluge sellise turvalise teenuse nagu Proton Drive kasutamist. Veenduge vaid, et mis tahes valitud variant austaks teie privaatsust ja pakuks tugevat krüpteerimist.
 
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
 Laialdaselt soovitatav varundusstrateegia on "3-2-1 reegel". Selle eesmärk on kaitsta teie andmeid juhusliku kaotsimineku, küberrünnakute või isegi loodusõnnetuste eest.
 
@@ -410,7 +418,7 @@ Idee on lihtne:
 Selline lähenemisviis pakub tugevat vastupidavust ja aitab tagada teie andmete säilimise isegi siis, kui midagi läheb tõsiselt valesti.
 
 
-![BTC102-Bitcoin](assets/fr/013.webp)
+![image](assets/et/014.webp)
 
 
 ### Lahendus ID-õhtu õudusunenäole
@@ -430,18 +438,18 @@ Paroolihaldur võimaldab teil:
 Paroolihalduri abil ei pea te enam kunagi klõpsama "Unustatud parool" või tuginema nõrkadele, korduvkasutatavatele kasutajatunnustele. Lisaks sünkroonib enamik paroolihaldureid sujuvalt kõiki teie seadmeid (lauaarvuti, telefon, tahvelarvuti) ja täidab isegi sisselogimisvormid automaatselt, muutes turvalise juurdepääsu nii lihtsaks kui ka tõhusaks.
 
 
-![BTC102-Bitcoin](assets/fr/011.webp)
+![image](assets/et/015.webp)
 
 
 Seal on palju paroolihaldureid, kuid ma võin soovitada kahte kindlat valikut, sõltuvalt teie vajadustest. Kui otsite midagi, mida on lihtne kasutada ja mis sünkroonib sujuvalt mitmete seadmete vahel, on Bitwarden suurepärane valik:
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Kui eelistate hoida kõike lokaalselt oma seadmes, on KeePass suurepärane võimalus:
 
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
 ### 2FA: kahekordne kaitse
 
@@ -449,27 +457,27 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Bitcoin-s oled sa ise oma pank. See tähendab, et olete ka oma turvameeskond. Isegi tugeva parooliga ei ole olemas nullriski, mistõttu on kahefaktorilise autentimise (2FA) võimaldamine hädavajalik.
 
 
-![BTC102-Bitcoin](assets/fr/014.webp)
+![image](assets/et/016.webp)
 
 
 2FA lisab teise Layer kaitse, nõudes ajapõhist ühekordset koodi (tavaliselt 6 numbrit), mille genereerib rakendus nagu Google Authenticator või Authy. Nii et isegi kui kellelgi õnnestub teie parool kätte saada, ei saa ta ikkagi teie kontole ligi ilma füüsilise juurdepääsuta teie telefonile.
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-![BTC102-Bitcoin](assets/fr/009.webp)
+![image](assets/et/017.webp)
 
 
 Kui lubate 2FA, salvestage rakenduse taastamisvõti kindlasti turvalisse kohta. See võimaldab teil taastada oma koodid, kui kaotate või vahetate telefoni. Kuigi SMS- või e-posti-põhine 2FA on parem kui mitte midagi, on see palju vähem turvaline. SIM-vahetusrünnak, mille puhul keegi võtab teie telefoninumbri üle kontrolli, võib hõlpsasti sellisest kaitsest mööda minna.
 
 
-![BTC102-Bitcoin](assets/fr/010.webp)
+![image](assets/et/018.webp)
 
 
 Neile, kes soovivad turvalisust veelgi kõrgemale viia, pakuvad füüsilised võtmed, nagu YubiKey, veelgi kõrgemat kaitsetaset.
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 ### Teie eraelu puutumatuse kaitsmine
 
@@ -487,15 +495,15 @@ Oluline on valida usaldusväärne VPN-teenuse pakkuja, mis:
 - On range logisid mittekasutav poliitika
 
 
-![BTC102-Bitcoin](assets/fr/015.webp)
+![image](assets/et/019.webp)
 
 
-Meil on Plan ₿ Network-s mitu õpetust, mis aitavad teil hõlpsasti VPN-i seadistamist läbi viia. Eriti soovitan IVPN-i või Mullvadi:
+Meil on Plan ₿ Academy-s mitu õpetust, mis aitavad teil hõlpsasti VPN-i seadistamist läbi viia. Eriti soovitan IVPN-i või Mullvadi:
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 Olulised sammud oma privaatsuse kaitsmiseks internetis on ka järgmised:
 
@@ -504,21 +512,21 @@ Olulised sammud oma privaatsuse kaitsmiseks internetis on ka järgmised:
 - Kasutades privaatsusele keskendunud brausereid, nagu Firefox, Brave või Tor (suurema anonüümsuse tagamiseks);
 
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 
 - Kasutades **turvalist postkasti** nagu ProtonMail;
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
 
 
 - **Oma failide krüpteerimine** selliste vahenditega nagu Bitlocker (Windowsile) või VeraCrypt (saadaval mitmeplatvormiliselt).
 
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 ### Samm-sammuline edenemine
 
@@ -535,10 +543,10 @@ Bitcoin maailma süvenedes märkate, et Wallet väärtuse kasvades suurenevad ka
 Lühidalt: ärge alahinnake küberturvalisust, võtke aega põhitõdede loomiseks ja pidage meeles, et järjepidevus on võtmetähtsusega. Ilma hea digitaalse hügieenita ei aita isegi parimad vahendid teile palju.
 
 
-Vaadake kindlasti ka [meie arvutiturbeõpetusi](https://planb.network/tutorials/computer-security) Plan ₿ Network kohta.
+Vaadake kindlasti ka [meie arvutiturbeõpetusi](https://planb.academy/tutorials/computer-security) Plan ₿ Academy kohta.
 
 
-![BTC102-Bitcoin](assets/fr/016.webp)
+![image](assets/et/020.webp)
 
 
 Järgmises peatükis jagan veel mõned nõuanded, mis aitavad teil Bitcoin teekonda enesekindlalt alustada ja vältida paljusid lõkse, mis võivad uustulnukatele silma jääda.
@@ -548,6 +556,8 @@ Järgmises peatükis jagan veel mõned nõuanded, mis aitavad teil Bitcoin teeko
 
 
 <chapterId>33134b3f-92c1-5185-afb6-88599e47e801</chapterId>
+
+:::video id=7e9f3b2c-4d1a-4c5e-8b0d-3a2c1d4e5f6b:::
 
 
 
@@ -570,7 +580,7 @@ Siin on põhipunktid, mida me koos läbi vaatame:
 - Mõelge pikemas perspektiivis, suurendage ja olge kannatlik (mõelge sellele kui maratonile, mitte kui sprindile).
 
 
-![BTC102-Bitcoin](assets/fr/017.webp)
+![image](assets/et/021.webp)
 
 
 ### Levinumad vead, mida vältida
@@ -608,7 +618,7 @@ Bitcoin on avatud kõigile, kuid see ei tähenda, et te peaksite sinna ettevalmi
 - **FOMOsse langemine**: Ostmine impulsiivselt, kuna kardad vahele jääda, toob tavaliselt kaasa halva ajastuse ja halvad otsused. Kannatlikkus on teie parim liitlane.
 
 
-![BTC102-Bitcoin](assets/fr/019.webp)
+![image](assets/et/022.webp)
 
 
 ### Investeerimisstrateegia määratlemine
@@ -622,10 +632,10 @@ Alustage oma **eelarve** täpsest määratlemisest. Ärge valige lihtsalt juhusl
 Selline lähenemine tagab, et te ei sea oma rahalist heaolu ohtu, eriti turu languse korral. Läbimõeldud strateegia on pikaajalise vastupidavuse alus.
 
 
-![BTC102-Bitcoin](assets/fr/020.webp)
+![image](assets/et/023.webp)
 
 
-Kui teie eelarve on kindlaks määratud, mõelge, kuidas soovite investeerida. Üks kõige algajasõbralikumaid ja laialdaselt soovitatud meetodeid on Dollar Cost Averaging (DCA), mille puhul ostetakse kindla koguse Bitcoin korrapäraselt (kord nädalas, kuus jne). See strateegia aitab ühtlustada teie keskmist sisenemishinda aja jooksul ja vähendab hinnakõikumiste emotsionaalset mõju. See on enamiku inimeste, eriti uustulnukate jaoks arukas lähenemine.
+Kui teie eelarve on kindlaks määratud, mõelge, kuidas soovite investeerida. Üks kõige algajasõbralikumaid ja laialdaselt soovitatud meetodeid on [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), mille puhul ostetakse kindla koguse Bitcoin korrapäraselt (kord nädalas, kuus jne). See strateegia aitab ühtlustada teie keskmist sisenemishinda aja jooksul ja vähendab hinnakõikumiste emotsionaalset mõju. See on enamiku inimeste, eriti uustulnukate jaoks arukas lähenemine.
 
 
 Siis küsige endalt: Milline on minu ajahorisont?
@@ -638,7 +648,7 @@ Kõige tähtsam on, et ärge tehke investeerimisotsuseid emotsioonide või hirmu
 
 Kui sa pole veel kindel, **alusta õppimisega.**
 
-Veeda paar tundi Bitcoin uurides, vaata Plan ₿ Network tasuta ressursse, loe paar raamatut, viska viis eurot lihtsalt proovimiseks ja vaata kvaliteetset sisu internetis. Jääge uudishimulikuks. Mida mugavamalt hakkate, seda lihtsam on oma strateegiat üle vaadata, oma lähenemist kohandada ja enesekindlalt edasi liikuda.
+Veeda paar tundi Bitcoin uurides, vaata Plan ₿ Academy tasuta ressursse, loe paar raamatut, viska viis eurot lihtsalt proovimiseks ja vaata kvaliteetset sisu internetis. Jääge uudishimulikuks. Mida mugavamalt hakkate, seda lihtsam on oma strateegiat üle vaadata, oma lähenemist kohandada ja enesekindlalt edasi liikuda.
 
 
 ### BTC volatiilsuse mõistmine
@@ -647,7 +657,7 @@ Veeda paar tundi Bitcoin uurides, vaata Plan ₿ Network tasuta ressursse, loe p
 Bitcoin on tuntud oma järskude hinnakõikumiste poolest. Liikumine 10%, 20% või isegi 50% vaid mõne päeva jooksul ei ole ebatavaline. Uutele tulijatele võib selline volatiilsus olla segadusttekitav. Pulli tõusu ajal on lihtne lasta end kaasa haarata või languse ajal paanikasse sattuda, mis mõlemad viivad sageli halbade otsusteni, näiteks kahjumiga müümiseni.
 
 
-![BTC102-Bitcoin](assets/fr/021.webp)
+![image](assets/et/024.webp)
 
 
 Seepärast on väga oluline enne investeerimist **mõistatada ja aktsepteerida Bitcoin volatiilsust**. Need hinnakõikumised ei ole viga, need on alles küpseva vara omadus. Kui äkilised tõusud ja langused hoiavad teid öösel ärkvel või sunnivad teid tegema emotsionaalseid otsuseid, on tõenäoline, et olete investeerinud rohkem, kui teile on mugav riskida. Sellisel juhul võtke sammu tagasi ja hinnake oma strateegia ja riskitaluvus ümber. Ärge kartke oma positsiooni vähendada, kuni tunnete end rahulikumalt.
@@ -662,7 +672,7 @@ Ennekõike ärge investeerige kunagi rohkem, kui te võite endale lubada kaotada
 Üks Bitcoin kõige võimsamaid (ja sageli alahinnatud) omadusi on **iseseisvumine**. Wallet puhul vastutate oma rahaliste vahendite eest ainult teie. Need rahakotid genereeritakse tavaliselt **tagasivõtmislausest** (tuntud ka kui seed lause), mis on 12 või 24 sõnast koosnev seeria, mis annab täieliku juurdepääsu teie BTC-le. Kui te kaotate selle fraasi (või kui keegi teine saab selle kätte), on teie bitcoinid lõplikult kadunud. **Klienditugi puudub. Ei ole nullinuppu.**
 
 
-![BTC102-Bitcoin](assets/fr/023.webp)
+![image](assets/et/025.webp)
 
 
 Seepärast on Bitcoin kuldne reegel:
@@ -670,7 +680,7 @@ Seepärast on Bitcoin kuldne reegel:
 "***Ei teie võtmed, mitte teie mündid***". Kui te ei kontrolli isiklikult oma isiklikke võtmeid, siis ei ole te oma Bitcoin tõeline omanik. Kuigi vahetused võivad olla mugavad (eriti alustades), hoiavad nad teie võtmeid teie eest. See tähendab, et teie raha on ohus, kui platvormi häkitakse, teie konto külmutatakse või see läheb pankrotti.
 
 
-![BTC102-Bitcoin](assets/fr/024.webp)
+![image](assets/et/026.webp)
 
 
 Selle riski vältimiseks on tungivalt soovitatav luua oma **omavara Wallet**, kus ainult teil on juurdepääs taastamislausetele. See fraas tuleks alati käsitsi üles kirjutada ja hoida **offline** turvalises kohas. Mõned kasutajad koguni **säilitavad mitu varukoopiat**, mida hoitakse lisaturvalisuse tagamiseks eraldi geograafilistes kohtades.
@@ -684,7 +694,7 @@ Selle riski vältimiseks on tungivalt soovitatav luua oma **omavara Wallet**, ku
 Kui olete valmis võtma Ownership oma Bitcoin ja soovite süveneda taastumisfraasi turvamise parimatesse tavadesse, soovitan tungivalt tutvuda selle artikliga:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Konfidentsiaalsus ja diskreetsus
 
@@ -708,7 +718,7 @@ Samuti on mõistlik **jaotada oma veebitegevus**. Näiteks:
 Kui oled valmis süvenema Bitcoin privaatsuse teemasse, soovitame jätkata meie 2. aasta privaatsuskursusega, kus õpid edasijõudnute tehnikaid oma identiteedi ja tegevuse turvalisuse tagamiseks:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Maksumõju
 
@@ -718,13 +728,13 @@ Vaatamata sellele, et tegemist on detsentraliseeritud valuutaga, ei ole **Bitcoi
 Mõnes kohas maksustatakse kasum müügil kapitalikasumina. Teised võivad nõuda, et te deklareeriksite iga tehingu, ja mõnedes kohaldatakse vähem levinud eeskirju, näiteks varamaksu või sotsiaalmaksu.
 
 
-![BTC102-Bitcoin](assets/fr/018.webp)
+![image](assets/et/027.webp)
 
 
 Enne oluliste tehingute tegemist on tungivalt soovitatav konsulteerida maksuspetsialistiga või tutvuda oma valitsuse ametlike suunistega. Kui te võtate aega, et mõista oma maksukohustusi ette, võib see säästa teid hilisematest ootamatutest probleemidest (nagu trahvid, auditid või trahvid), eriti kui te plaanite suuri müügitehinguid või portfelli ümberpaigutusi.
 
 
-![BTC102-Bitcoin](assets/fr/022.webp)
+![image](assets/et/028.webp)
 
 
 ### Erinevus kauplemise, investeerimise ja hoidmise vahel
@@ -787,7 +797,7 @@ Hea lähtepunkt on Robert T. Kiyosaki raamat *Rich Dad, Poor Dad*. See on laiald
 Kui olete valmis süvenema, pakuvad sellised podcastid nagu *Investorite Podcast* põhjalikke arutelusid investeerimise, turgude ja majanduspõhimõtete kohta. Nad katavad aeg-ajalt ka Bitcoin, mistõttu on see kindel järgmine samm neile, kes soovivad mõista, kuidas Bitcoin sobib laiemasse finantsmaastikku.
 
 
-![BTC102-Bitcoin](assets/fr/025.webp)
+![image](assets/et/029.webp)
 
 
 ### Kuldsed reeglid, mida silmas pidada
@@ -818,6 +828,8 @@ Järgides neid põhimõtteid, saate läheneda Bitcoin investeerimisele suurema s
 
 <chapterId>ae122ad9-9b4d-5229-9038-e1b99d5cfc83</chapterId>
 
+:::video id=3c2d1e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f:::
+
 
 Selle kursuse peamine eesmärk on juhendada teid oma esimeste bitcoinide omandamise ja kindlustamise kaudu. Kuid enne praktilistesse sammudesse (kuidas osta BTC-d, milliseid rahakotte kasutada jne) on oluline astuda samm tagasi ja mõista, mis on Bitcoin tegelikult. Bitcoin sügavama olemuse mõistmine aitab teil mõista, miks miljonid inimesed selle tehnoloogia poole pöörduvad ja miks on oluline mõista põhialuseid, enne kui panete oma säästud sellisesse uude ja volatiilsesse varasse.
 
@@ -840,7 +852,7 @@ See probleem jäi lahendamata kuni 2008. aasta lõpuni, mil keegi, kes kasutas n
 Projekti mõjutas tugevalt Cypherpunk eetos; arendajate ja mõtlejate kogukond, kes uskusid krüptograafia kasutamisse, et kaitsta üksikisiku vabadusi internetis. Nende jaoks ei olnud privaatsus ja detsentraliseerimine mitte tehnilised eelistused, vaid ideoloogilised vajadused. Bitcoin kujunes nende ideaalide kõige edukamaks kehastuseks: võrdõiguslik rahavõrk, mida igaüks võis kasutada, mida keegi ei saanud kontrollida ja mida igaüks võis kontrollida.
 
 
-![BTC102-Bitcoin](assets/fr/035.webp)
+![image](assets/et/030.webp)
 
 
 Cypherpunks on mitteametlik rahvusvaheline kogukond, mis propageerib krüptograafia kasutamist isikuvabaduste kaitsmiseks internetis. Nad usuvad kindlalt üksikisiku õigusesse eraelu puutumatusele, eriti maailmas, mida üha enam kujundab valitsuse jälgimine ja ettevõtete andmete ärakasutamine.
@@ -851,7 +863,7 @@ Cypherpunk liikumise juured ulatuvad 1990. aastate algusesse, kui krüptograafid
 Liikumise oluline verstapost oli 1992. aastal Cypherpunks'i postiloendi loomine, mis oli foorum, kus said areneda ideed, projektid ja poliitilised arutelud privaatsuse ja krüptograafia üle. Seejärel avaldas Eric Hughes 1993. aastal Cypherpunk manifesti, lühikese, kuid jõulise deklaratsiooni, mis väljendas selgelt kogukonna missiooni ja tõekspidamisi.
 
 
-![BTC102-Bitcoin](assets/fr/032.webp)
+![image](assets/et/031.webp)
 
 
 Digitaalse valuuta idee, mis toimib sõltumatult mis tahes keskasutusest (nagu Bitcoin), on sügavalt juurdunud Cypherpunk filosoofias.
@@ -871,19 +883,19 @@ Just selles hirmu ja ebakindluse keskkonnas sündis Bitcoin. Looja, keda tuntaks
 See ei olnud lihtsalt kuupäev või tehniline märkus; see oli vaikne, kuid jõuline protest. See näitas, et Bitcoin oli mõeldud millegi radikaalselt teistsuguse loomiseks: finantssüsteem, mis ei sõltu pankadest, tagatistest ega valitsuse otsustest.
 
 
-![BTC102-Bitcoin](assets/fr/034.webp)
+![image](assets/et/032.webp)
 
 
 Paljud tõlgendavad seda kui Bitcoin eesmärki: pakkuda võimalust väärtuse ülekandmiseks ilma vahendajaid vajamata, mida kontrollivad selged reeglid keskpankade või valitsuste sageli ebaselgete otsuste asemel.
 
 
-![BTC102-Bitcoin](assets/fr/033.webp)
+![image](assets/et/033.webp)
 
 
 Selleks, et süvendada oma teadmisi Bitcoin päritolu kohta, pakume tasuta põhjalikku ja hästi dokumenteeritud koolituskursust sel teemal:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 ### Detsentraliseeritud võrgustik väärtuse ülekandmiseks
 
@@ -894,13 +906,13 @@ https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 Bitcoin on määratletud kui "vastastikune elektrooniline sularahasüsteem" See tähendab, et igaüks saab vastava tarkvara (Bitcoin sõlme) abil võrku ühenduda ja suhelda otse teiste kasutajatega, ilma et ta peaks tuginema keskserverile. Sellise detsentraliseerimise eesmärk on vältida, et ükski üksus (näiteks pank, valitsus või suurettevõte) ei saaks süsteemi kontrollida, tsenseerida või peatada. Bitcoin töötab 24/7, ülemaailmselt ja on kõigile tingimusteta kättesaadav.
 
 
-![BTC102-Bitcoin](assets/fr/036.webp)
+![image](assets/et/034.webp)
 
 
 Lihtsustatult öeldes on igal Bitcoin võrgu osalisel (mida nimetatakse "sõlmedeks") täielik koopia tehingust Ledger, mida nimetatakse Blockchain. Kui toimub uus tehing, edastatakse see võrku. Seejärel kinnitavad kaevandajad need tehingud, rühmitades need plokkideks, mis seejärel lisatakse ahela lõppu (sellest ka nimi "Blockchain").
 
 
-![BTC102-Bitcoin](assets/fr/029.webp)
+![image](assets/et/035.webp)
 
 
 #### Blockchain: raamatupidamine Ledger
@@ -909,7 +921,7 @@ Lihtsustatult öeldes on igal Bitcoin võrgu osalisel (mida nimetatakse "sõlmed
 Mõelge Blockchain-st kui hiiglaslikust raamatupidamislikust Ledger-st, kus iga rida kujutab endast tehingut. Traditsioonilises pangandussüsteemis on andmebaas salvestatud panga serverites, mis võivad teha muudatusi, millal iganes nad soovivad. Bitcoin-s seevastu **võetakse kõik muudatused üle kogu võrgu**: kui uus tehinguplokk on Blockchain-sse lisatud, on seda hiljem peaaegu võimatu muuta. Selline detsentraliseeritud valideerimine muudab Bitcoin Ledger turvaliseks ja läbipaistvaks.
 
 
-![BTC102-Bitcoin](assets/fr/027.webp)
+![image](assets/et/036.webp)
 
 
 ### Kaevurite ja Proof-of-Work roll
@@ -931,7 +943,7 @@ Bitcoin nappuse tagamiseks on plokisubsiidium programmeeritud pooleks iga 210 00
 Lõpuks, umbes aastal 2140, jõuab toetus nullini, kuna Bitcoin kogusumma Supply jõuab 21 miljoni mündini. Selline prognoositav emissioonikõver jäljendab füüsilise kauba, näiteks kulla nappust; see on üks põhjus, miks Bitcoin nimetatakse sageli **digitaalseks kullaks**.
 
 
-![BTC102-Bitcoin](assets/fr/031.webp)
+![image](assets/et/037.webp)
 
 
 ### Bitcoin Rahalised omadused
@@ -957,7 +969,7 @@ See sisseehitatud nappus on oluline tõmbenumber nende jaoks, kes soovivad loobu
 Bitcoin üks alahinnatud tugevusi on selle jagatavus. Iga Bitcoin saab jaotada 100 miljoniks ühikuks, mida nimetatakse satoshiks (või lühendatult Sats). See tähendab, et te ei pea alustamiseks kulutama kümneid tuhandeid eurosid või dollareid; te võite osta Bitcoin vaid mõne euro väärtuses, kuni tillukeste murdosadeni.
 
 
-![BTC102-Bitcoin](assets/fr/026.webp)
+![image](assets/et/038.webp)
 
 
 ### Avatus ja läbipaistvus
@@ -971,7 +983,7 @@ Bitcoin töötab avaliku, **avatud lähtekoodiga** protokolli alusel (eelkõige 
 Selline läbipaistvuse tase muudab tagauste sisseviimise või salajaste muudatuste tegemise uskumatult keeruliseks. Igaüks, kellel on tehnilised oskused, võib käivitada sõlme, aidata kaasa arendusele või ehitada ühilduvaid tööriistu. Bitcoin-s teenitakse usaldus koodi ja konsensuse, mitte tsentraliseeritud kontrolli kaudu.
 
 
-![BTC102-Bitcoin](assets/fr/030.webp)
+![image](assets/et/039.webp)
 
 
 See läbipaistvus on üks peamisi põhjusi, miks inimesed usaldavad Bitcoin protokolli; see takistab väikesel arendajate rühmal võrguga manipuleerimast oma huvides. Bitcoin toimib lihtsa, kuid võimsa põhimõtte alusel: kui te ei ole nõus kavandatud muudatustega, võite oma tarkvara mitte uuendada. Mõnel juhul ei põhjusta see mingeid häireid; te jääte ikkagi ülejäänud võrguga sünkroonis. Teistel juhtudel võib see aga viia nn Hard Fork tekkimiseni, kus võrk jaguneb kaheks ja tekib uus versioon Bitcoin. Just see juhtus 2017. aastal Bitcoin (BTC) ja Bitcoin Cash (BCH) jagunemisega.
@@ -995,7 +1007,7 @@ Kuigi see lähenemisviis on tehnilisem, pakub see kõige nõudlikumatele kasutaj
 #### Vastupidav piiriülene makseviis
 
 
-Tänu oma detsentraliseeritud olemusele töötab Bitcoin 24/7, mida ei mõjuta piirid ega ajavööndid. Piirkondades, kus traditsiooniline pangainfrastruktuur puudub, kasutatakse Bitcoin sageli kiire ja odava lahendusena raha saatmiseks või vastuvõtmiseks, ilma et oleks vaja kasutada kalleid vahendajaid. Kuigi tehingutasud võivad erineda sõltuvalt võrgu ülekoormusest, on need üldiselt palju madalamad kui pankade poolt rahvusvaheliste ülekannete eest võetavad tasud. Lisaks võimaldavad Layer-2 lahendused, nagu Lightning Network, veelgi kiiremaid ja odavamaid Bitcoin tehinguid.
+Tänu oma detsentraliseeritud olemusele töötab Bitcoin 24/7, mida ei mõjuta piirid ega ajavööndid. Piirkondades, kus traditsiooniline pangainfrastruktuur puudub, kasutatakse Bitcoin sageli kiire ja odava lahendusena raha saatmiseks või vastuvõtmiseks, ilma et oleks vaja kasutada kalleid vahendajaid. Kuigi tehingutasud võivad erineda sõltuvalt võrgu ülekoormusest, on need üldiselt palju madalamad kui pankade poolt rahvusvaheliste ülekannete eest võetavad tasud. Lisaks võimaldavad Layer-2 lahendused, nagu [Lightning Network](https://planb.academy/resources/glossary/lightning-network), veelgi kiiremaid ja odavamaid Bitcoin tehinguid.
 
 
 #### Väärtuse säilitamine
@@ -1022,13 +1034,13 @@ Bitcoin võib vaadelda kui "nullist üheni": radikaalne katkestus väljakujunenu
 Sellest hoolimata tekitab Bitcoin ka pärast enam kui kümneaastast eksisteerimist jätkuvalt arutelusid ja kirgi. Selle kasutuselevõtt kasvab, tekivad teise Layer lahendused (nagu Lightning Network), mis parandavad tehingu kiirust ja vähendavad tasusid, ning ettevõtted kogu maailmas katsetavad uusi kasutusviise. On tõenäoline, et Bitcoin mõjutab maksesüsteeme ja isegi seda, kuidas me raha tajume, veel aastakümneid.
 
 
-![BTC102-Bitcoin](assets/fr/028.webp)
+![image](assets/et/040.webp)
 
 
-Kui soovite oma teadmisi veelgi laiendada, võite läbida Plan ₿ Network kursuse BTC101, mis pakub Bitcoin tehniliste ja majanduslike põhialuste põhjalikumat uurimist.
+Kui soovite oma teadmisi veelgi laiendada, võite läbida Plan ₿ Academy kursuse BTC101, mis pakub Bitcoin tehniliste ja majanduslike põhialuste põhjalikumat uurimist.
 
 
-https://planb.network/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
+https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 Pärast seda Bitcoin tutvustust (mis võis võtta veidi kauem aega kui 5 minutit!), olete nüüd paremini varustatud, et kaaluda bitcoinide ostmist ja kindlustamist. Kursuse järgmistes peatükkides sukeldume sügavamalt Bitcoin tähtsusesse, selle tööstuse toimimisse ja selle erinevate kihtide arengusse. Järgnevalt arutame järgmises osas, kuidas luua oma isiklik plaan.
 
@@ -1036,6 +1048,8 @@ Pärast seda Bitcoin tutvustust (mis võis võtta veidi kauem aega kui 5 minutit
 
 
 <chapterId>d4327ac4-9ff8-5192-b542-cb78c0bd0aa7</chapterId>
+
+:::video id=5f6e7d8c-9b0a-1c2d-3e4f-5a6b7c8d9e0f:::
 
 
 
@@ -1058,7 +1072,7 @@ Barack Obama nimetas Bitcoin kord "Šveitsi pangaks sinu taskus" ja seda põhjus
 - Bitcoin on algupärane internet, mis tähendab, et seda saab kasutada igaüks, kellel on veebiühendus.
 
 
-![BTC102-Bitcoin](assets/fr/037.webp)
+![image](assets/et/041.webp)
 
 
 Bitcoin võib vaadelda kui tõelist "rahva valuutat", alternatiivset rahasüsteemi, mis ei sõltu ühestki keskvõimust ja põhineb pigem muutumatutel reeglitel kui suvalistel otsustel. Selle avatud ja kättesaadav olemus muudab selle potentsiaalselt revolutsiooniliseks vahendiks miljardite inimeste jaoks kogu maailmas, olenemata sellest, kas nad on traditsioonilisest pangandussüsteemist kõrvale jäetud või lihtsalt otsivad sõltumatumat alternatiivi.
@@ -1067,7 +1081,7 @@ Bitcoin võib vaadelda kui tõelist "rahva valuutat", alternatiivset rahasüstee
 See viib meid põhimõttelise, peaaegu filosoofilise küsimuse juurde, mis jagab Bitcoin entusiastid kahte peamisesse maailmavaatesse. Ühest küljest näevad mõned Bitcoin lahendust, millega edendatakse finantssektori kaasamist, võimaldades miljarditele pangateenuseta isikutele lõpuks ometi juurdepääsu ülemaailmsele rahalisele infrastruktuurile. Teiselt poolt näevad mõned Bitcoin-d kui finantsvabastuse vahendit, mille eesmärk on pakkuda väljapääsu miljarditele inimestele, kes on juba pangandussüsteemi integreeritud, kuid soovivad vabaneda selle sõltuvusest ja saada tagasi täieliku kontrolli oma raha üle. See mõtteviis väärib meie tähelepanu ja me pöördume selle juurde hiljem üksikasjalikumalt tagasi.
 
 
-![BTC102-Bitcoin](assets/fr/044.webp)
+![image](assets/et/042.webp)
 
 
 ### Kaitse valuutakriiside eest
@@ -1076,19 +1090,19 @@ See viib meid põhimõttelise, peaaegu filosoofilise küsimuse juurde, mis jagab
 Maailmas on sajandeid kogetud rahakriise, millel on olnud laastav mõju elanikkonnale. Miljardid inimesed kannatavad ikka veel halvasti juhitud rahapoliitika tagajärgede all, kus raha Supply ja intressimääradega manipuleerimine tekitab süsteemset tasakaalustamatust. Need kriisid ei ole lihtsalt juhuslikud sündmused - need on sekkumisele ning raha ja ajaväärtusega manipuleerimisele rajatud süsteemi tulemus.
 
 
-![BTC102-Bitcoin](assets/fr/045.webp)
+![image](assets/et/043.webp)
 
 
 Need kriisid võivad võtta erinevaid vorme. Hüperinflatsioon näiteks hävitab valuuta, hävitades järk-järgult inimeste ostujõu, nagu seda on näha sellistes riikides nagu Zimbabwe ja Venezuela. Teisest küljest võib range rahakontroll piirata juurdepääsu rahalistele vahenditele ja võtta inimestelt majandusliku vabaduse, nagu juhtus pangapiirangute puhul Kreekas ja Liibanonis.
 
 
-![BTC102-Bitcoin](assets/fr/047.webp)
+![image](assets/et/044.webp)
 
 
 Ja lõpuks, kui valitsused devalveerivad oma riigi valuutat, vähendab see järk-järgult inimeste säästusid; see on nähtamatu, kuid pidev jõukuse vähenemine. Paljudel juhtudel toimib see nagu varjatud maks. Niikaua kui rahapoliitika jääb tsentraliseeritud ametiasutuste kätte, on need tsüklid määratud korduma.
 
 
-![BTC102-Bitcoin](assets/fr/038.webp)
+![image](assets/et/045.webp)
 
 
 Bitcoin esitab julge alternatiivi sellele kroonilise rahalise ebastabiilsuse tsüklile. Erinevalt riiklikult emiteeritud valuutadest põhineb see muutumatutel, matemaatikal põhinevatel reeglitel, mida rakendatakse konsensuse, mitte valitsuste või keskpankade poolt. Selle emissioon on prognoositav ja piiratud umbes 21 miljoni mündiga, mis muudab selle usaldusväärseks rahaks, mis on loodud selleks, et hoida oma väärtust pikema aja jooksul. Kuna see on tsensuurile vastupidine, saab igaüks väärtust säilitada ja kanda üle, ilma et ta peaks sõltuma mõnest institutsioonist. Ja tänu jagatavusele ja ülekantavusele on see nii kättesaadav kui ka praktiline; finantsinfrastruktuur igaühele ja igal pool.
@@ -1097,7 +1111,7 @@ Bitcoin esitab julge alternatiivi sellele kroonilise rahalise ebastabiilsuse ts�
 **Teadsid sa seda?** Ajaloo jooksul on maailmas esinenud vähemalt 56 dokumenteeritud hüperinflatsiooni juhtumit. Paljudel neist juhtumitest kukkusid kokku terved majandused, hävisid säästud ja miljonid inimesed suruti äärmisesse vaesusse. Veelgi hullem on see, et need rahapuudujäägid toimisid sageli poliitilise murrangu hüppelauana, mis mõnikord viisid autoritaarsete režiimideni, nagu juhtus Saksamaal 1920ndatel ja Tšiilis 1970ndatel.
 
 
-![BTC102-Bitcoin](assets/fr/039.webp)
+![image](assets/et/046.webp)
 
 
 Hanke, S. H., & Krus, N. (2013). *Maailma hüperinflatsioonid*. In R. Parker & R. Whaples (Eds.), The Handbook of Major Events in Economic History. Routledge Publishing. Välja otsitud aadressil https://ssrn.com/abstract=2130109
@@ -1112,7 +1126,7 @@ Fiat-valuutade kokkuvarisemine ei ole mingi ajalooline juhus; see on muster, mis
 Kasvav majanduslik ebavõrdsus kogu maailmas on alati olnud viljakas pinnas sotsiaalsetele rahutustele ja poliitilise ekstremismi tõusule. Ajalugu näitab, et kui lõhe rikaste ja vaeste vahel muutub liiga suureks, toob see sageli kaasa pingeid, kriise ja isegi autoritaarsete režiimide tekkimise. Nende riskide ees ei ole oma finantsvabaduse kaitsmine lihtsalt luksus, vaid hädavajalik igaühe jaoks, kes soovib säilitada oma iseseisvust ja kindlustada oma pere tulevikku.
 
 
-![BTC102-Bitcoin](assets/fr/046.webp)
+![image](assets/et/047.webp)
 
 
 Kuid millised on reaalsed võimalused oma säästude kaitsmiseks maailmas, kus riik saab teostada täielikku kontrolli varade ja tehingute üle?
@@ -1136,7 +1150,7 @@ Kuid Bitcoin on rohkem kui lihtsalt praktiline vahend. See on ka **rahumeelne pr
 Selles valguses on Bitcoin rohkem kui tehnoloogia. See on loodusseaduse vahend, üksikisikute võimalus oma põhiõigusi maksma panna, isegi kui need õigused on riigi seadustega keelatud. See annab võimu tagasi inimestele, mitte revolutsiooni, vaid koodide kaudu.
 
 
-![BTC102-Bitcoin](assets/fr/040.webp)
+![image](assets/et/048.webp)
 
 
 **Te teadsite**? Bitcoin on pseudonüümne, mitte anonüümne. Kasutajad saavad luua Wallet-aadressid ilma oma tegelikku identiteeti paljastamata, mis võimaldab neil saata ja saada raha väljaspool traditsioonilist pangandussüsteemi.
@@ -1160,7 +1174,7 @@ Kui teie varandus ei ole tagatud mitterahaliste varadega (näiteks kinnisvara, v
 See ei ole süsteemi viga; see on tahtlik mehhanism. Keskpangad ja valitsused kasutavad seda selleks, et kunstlikult stimuleerida majanduskasvu ja sundida inimesi pidevale tarbimisele ja võlakoormuse suurendamisele.
 
 
-![BTC102-Bitcoin](assets/fr/041.webp)
+![image](assets/et/049.webp)
 
 
 Meie kaasaegne finantssüsteem on üles ehitatud võlgade tsüklile, kus laenamine ei ole mitte ainult julgustatud, vaid praktiliselt vältimatu. Üksikisikud võtavad laenu, et säilitada oma elustiili, kuid leiavad end lõksus süsteemis, kus nad peavad maksma intressi pankadele, kes loovad raha õhust. See ei ole juhuslik; see on struktuuriline ülesehitus, mis on mõeldud finantsinstitutsioonide kasuks tavakodanike arvelt.
@@ -1178,7 +1192,7 @@ See tähendab, et Bitcoin tegutseb prognoositava rahapoliitilise raamistiku alus
 Varem oli kuld kontrollimatu rahapoliitilise ekspansiooni vastu. Kuid alates kullastandardi kokkuvarisemisest 1971. aastal ei ole ükski riiklik valuuta (olgu see siis dollar, euro või jeen) tagatud materiaalse varaga. See eraldatus andis keskpankadele vabad käed raha piiramatult trükkida, sillutades teed aastakümnete pikkusele agressiivsele rahapoliitilisele ekspansioonile, korduvatele varamullidele ja korduvatele finantskriisidele.
 
 
-![BTC102-Bitcoin](assets/fr/042.webp)
+![image](assets/et/050.webp)
 
 
 Kui te hoiustate raha pangas, ei ole see enam tõeliselt teie oma.
@@ -1223,7 +1237,7 @@ Bitcoini kasutajad on pärit kõikidest eluvaldkondadest, kuid neil on ühine vi
 - Insenerid, finantseerijaid ja sõnavabaduse kaitsjad, kes tunnistavad selle uue rahaparadigma sügavat ühiskondlikku mõju.
 
 
-![BTC102-Bitcoin](assets/fr/043.webp)
+![image](assets/et/051.webp)
 
 
 Bitcoin on kavandatud nii, et see ületab poliitilisi ja ideoloogilisi eraldusjooni. See ei ole vasakpoolne ega parempoolne, libertaarne ega kollektivistlik. See on neutraalne protokoll, mida reguleerivad reeglid (mitte valitseja), mida kohaldatakse võrdselt kõigi suhtes. Ometi seab juba selle olemasolu kahtluse alla globaalse finantsstatusquo. Bitcoin on saanud vastupanu sümboliks, sest inimesed on selle kasutusele võtnud alternatiivina fiat-valuutadele ja tsentraliseeritud finantsinfrastruktuurile; süsteemid, mida peetakse üha enam ebaõiglaseks, manipuleeritavaks ja tõrjuvaks.
@@ -1234,7 +1248,7 @@ Cypherpunk meelest on Bitcoin rohkem kui digitaalne vara. See seisab vastu erael
 Bitcoin võimaldab tsensuurikindlaid, peer-to-peer digitaalseid tehinguid; ilma vahendajate või väravavalvuriteta. Nagu Satoshi Nakamoto ette kujutas, pakub see digitaalse ekvivalendi sularahale: viis Exchange väärtuse vabalt, ilma luba vajamata.
 
 
-![BTC102-Bitcoin](assets/fr/048.webp)
+![image](assets/et/052.webp)
 
 
 Bitcoin ei ole organisatsioon ega poliitiline partei, kuid see kannab vaieldamatult võimsat filosoofilist sõnumit. See määratleb uuesti üksikisiku ja riigi vahelise suhte, seades kahtluse alla keskpankade monopoli rahaloome ja majandusliku kontrolli üle.
@@ -1242,7 +1256,7 @@ Bitcoin ei ole organisatsioon ega poliitiline partei, kuid see kannab vaieldamat
 Bitcoin tähistab uue ajastu algust, kus finantssõltumatus muutub kõigile kättesaadavaks põhiliseks inimõiguseks, olenemata sellest, kas selle võtavad vastu vabadusvõitlejad või need, kes lihtsalt soovivad säilitada oma ostujõudu.
 
 
-![BTC102-Bitcoin](assets/fr/049.webp)
+![image](assets/et/053.webp)
 
 
 Nüüd, kui me oleme uurinud Satoshi Nakamoto leiutise sügavat tähtsust, tutvustame järgmises peatükis selle protokolli ümber kasvanud erakordset tööstust, tervet ökosüsteemi, mis kujundab ümber rahandust, tehnoloogiat ja ühiskonda.
@@ -1252,6 +1266,8 @@ Nüüd, kui me oleme uurinud Satoshi Nakamoto leiutise sügavat tähtsust, tutvu
 
 
 <chapterId>e106c6f1-d75b-5a62-b245-0ea2e4d02ef8</chapterId>
+
+:::video id=8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d:::
 
 
 
@@ -1267,7 +1283,7 @@ Tänaseks on Bitcoin jõudnud kriitilise läveni; punkt, kust ei ole enam tagasi
 Bitcoin on radikaalne uuendus, hüpe nullist üheni. See kujutab endast täielikku lahknemist traditsioonilisest rahaparadigmast. Mõne jaoks on see katkestus oht, eksistentsiaalne väljakutse nende väljakujunenud võimule ja privileegidele. Nende jaoks on Bitcoin Pandora laegas, mida ei oleks tohtinud kunagi avada, ja nad kasutavad kõiki nende käsutuses olevaid vahendeid, et sellele vastu seista.
 
 
-![BTC102-Bitcoin](assets/fr/050.webp)
+![image](assets/et/054.webp)
 
 
 Teised aga näevad Bitcoin-s võimalust, mis on kord põlvkonna jooksul: individuaalse vabaduse vahend, katalüsaator globaalse finantssüsteemi ümberkujundamiseks ning tee läbipaistvama ja õiglasema alternatiivi suunas. Need on ehitajad, kasutuselevõtjad ja toetajad (need, kes kujundavad tulevikku).
@@ -1356,7 +1372,7 @@ Hoolimata julgest turundusest ei konkureeri need algatused Bitcoin-ga; nad imite
 Facebooki Libra ei olnud kunagi mõeldud selleks, et vaidlustada status quo; see oli loodud selleks, et töötada koos süsteemiga. Seevastu Bitcoin eksisteerib täiesti väljaspool seda süsteemi. See ei küsi luba. See ei tugine usaldusele. Ja see töötab juba üle kümne aasta laitmatult (ilma juhtide, seisakute või keskse kontrollita).
 
 
-![BTC102-Bitcoin](assets/fr/051.webp)
+![image](assets/et/055.webp)
 
 
 ### Reguleerimine ja valitsuse lähenemisviisid
@@ -1365,7 +1381,7 @@ Facebooki Libra ei olnud kunagi mõeldud selleks, et vaidlustada status quo; see
 Bitcoin tegutseb oma olemuselt väljaspool traditsioonilisi raamistikke. See ei sõltu kesksest asutusest ja seda ei saa kontrollida ega muuta ükski üksus. Kuigi protokoll ise on reguleerimise suhtes immuunne, kehtivad sellega suhtlevatele osalejatele (börsid, ettevõtted ja kasutajad) siiski riiklikud seadused.
 
 
-![BTC102-Bitcoin](assets/fr/052.webp)
+![image](assets/et/056.webp)
 
 
 Kuna Bitcoin on ülemaailmne võrgustik, on riigid reageerinud sellele väga erinevalt:
@@ -1383,7 +1399,7 @@ Kuna Bitcoin on ülemaailmne võrgustik, on riigid reageerinud sellele väga eri
 - Enamik neist on veel otsustamata, katsetades regulatsioonidega, püüdes samal ajal tasakaalustada innovatsiooni ja järelevalvet.
 
 
-![BTC102-Bitcoin](assets/fr/056.webp)
+![image](assets/et/057.webp)
 
 
 Valitsused ja institutsioonid võitlevad sageli Bitcoin täpse klassifitseerimisega (kas see on raha, vara või midagi täiesti uut?). Selle tulemusel kipuvad eeskirjad olema reaktiivsed, ebajärjekindlad ja pidevalt muutuvad. Kui olete seotud Bitcoin-ga, on oluline olla kursis oma kohaliku olukorraga; eriti kui tegemist on maksude, pangandusjuurdepääsu ja vastavusreeglitega.
@@ -1416,7 +1432,7 @@ Vahetuskohtadel on Bitcoin ökosüsteemis oluline roll, kuna nad on sillaks fiat
 Kohalikke eeskirju järgivad börsid peavad tavaliselt järgima rangeid **"Tunne oma klienti "** (KYC) protokolle, mis nõuavad, et kasutajad esitaksid enne teenuste kasutamist isikut tõendavad dokumendid. Kuigi need protsessid on mõeldud ebaseadusliku tegevuse vältimiseks, võivad need kahjustada Bitcoin poolt pakutavat eraelu puutumatust.
 
 
-![BTC102-Bitcoin](assets/fr/053.webp)
+![image](assets/et/058.webp)
 
 
 KYC-platvormid koguvad teie isikuandmeid turvalisuse varjus. Valitsused võivad neid andmeid ära kasutada, et jälgida teie finantstehinguid ja piirata teie juurdepääsu teatavatele toimingutele.
@@ -1448,15 +1464,15 @@ Need platvormid võimaldavad kasutajatel osta ja müüa bitcoine otse üksteiseg
 ** Ettevaatust:** Iga füüsilise tehingu puhul valige avalik ja turvaline koht, et vältida võimalikke pettusi.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - Ainult **Bitcoin Exchange platvormid**
@@ -1465,13 +1481,13 @@ https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 Need platvormid kasutavad kasutajasõbralikku lähenemisviisi, pakkudes lihtsat ja läbipaistvat teenust. Need on ainult Bitcoin. Nad rakendavad sageli lahendusi bitcoinide ostmiseks dollar-kulude keskmistamise (DCA) kaudu ja pakuvad automaatseid väljavõtteid isiklikule Wallet-le. Nad sobivad eriti hästi algajatele, kes soovivad koguda bitcoine järkjärguliselt ja turvaliselt. Näiteid: Relai, Bull Bitcoin, StackinSat, Bitstack...
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - **Üldotstarbelised või kauplemisele orienteeritud Exchange platvormid**
@@ -1480,13 +1496,13 @@ https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-42
 Need platvormid pakuvad täiustatud funktsioone, mis lähevad kaugemale Bitcoin ostmisest, sealhulgas finantsvõimendust ja tuletisinstrumente. Siiski soovitame tungivalt mitte kaubelda. Selle asemel soovitame osta Bitcoin ja viia see oma Wallet-i. Kauplemine on kõrge riskiga tegevus ja üldiselt ei sobi neile, kes keskenduvad pikaajalisele akumulatsioonile. Kauplemisest eemalejäämine on sageli targem tee.
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 **Exchange platvormid ei ole turvalised rahakotid**. Kui jätate oma bitcoinid Exchange-le, siis on teil märkimisväärne risk. Mitmed stsenaariumid võivad põhjustada teie raha kadumist:
 
@@ -1522,7 +1538,7 @@ Bitcoin Wallet tööstus jaguneb mitmesse kategooriasse, millest igaüks vastab 
 
 
 
-- **Hardware Wallet Tootjad**: Need ettevõtted arendavad füüsilisi seadmeid, mis on ette nähtud võtmete turvaliseks säilitamiseks. Mõned neist on avatud lähtekoodiga, teised aga pakuvad eri funktsioonide ja turvatasemetega patenteeritud lahendusi. Märkimisväärsed nimed on Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Tootjad**: Need ettevõtted arendavad füüsilisi seadmeid, mis on ette nähtud võtmete turvaliseks säilitamiseks. Mõned neist on avatud lähtekoodiga, teised aga pakuvad eri funktsioonide ja turvatasemetega patenteeritud lahendusi. Märkimisväärsed nimed on Ledger, Trezor, Coinkite, Foundation ja Shiftcrypto.
 - **Software Wallet arendajad**: Need ulatuvad ettevõtetest sõltumatute arendajateni, kes loovad mobiil- ja lauaarvutirakendusi. Nende pakkumised erinevad kasutajakogemuse, turvalisuse ja funktsioonide poolest. Näiteks Sparrow, Wizard Sardine, Galoy, Synonym ja Blockstream.
 - DIY (*Do It Yourself*) **rahakotid**: Need avatud lähtekoodiga lahendused on mõeldud edasijõudnud kasutajatele, kes soovivad täielikku kontrolli ja minimaalset sõltuvust kolmandatest osapooltest. Oma Wallet ehitamine vähendab usaldussõltuvust ja võib suurendada teie turvalisuse positsiooni. Märkimisväärsed DIY-variandid on Seedsigner ja Specter DIY.
 
@@ -1551,7 +1567,7 @@ Mining ökosüsteem koosneb mitmest peamisest osalejast:
 Mining on omaette maailm, kus on palju tasandeid, mida tuleb uurida: tehnilised väljakutsed, majanduslikud stiimulid ja energeetilised kaalutlused. Neile, kes soovivad seda valdkonda lähemalt uurida ja selle toimimisest tõeliselt aru saada, pakub meie MIN201 kursus kõike, mida on vaja teada.
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 #### Areng Bitcoin ökosüsteemis
 
@@ -1573,13 +1589,13 @@ Igaüks võib teha ettepanekuid Bitcoin Core'i muutmiseks, kuid protsess on taht
 Uuendused on teretulnud, kuid ainult siis, kui neid toetavad kindlad põhjendused, kogukonna konsensus ja hoolikas testimine.
 
 
-![BTC102-Bitcoin](assets/fr/054.webp)
+![image](assets/et/059.webp)
 
 
 Hoolimata sellest, mida mõned võivad uskuda, ei ole kellelgi ühepoolset kontrolli Bitcoin üle; isegi mitte Bitcoin Core'i hooldajatel. Nende roll on hallata tarkvarahoidlat, mitte protokolli ennast.
 
 
-![BTC102-Bitcoin](assets/fr/055.webp)
+![image](assets/et/060.webp)
 
 
 Isegi kui hooldaja kiidaks heaks vastuolulise muudatuse, ei mõjutaks see võrku, kui **sõlmed (mida juhivad kasutajad)** ei võta seda versiooni tegelikult kasutusele ja ei kasuta seda. Lõppkokkuvõttes on Bitcoin kood oluline ainult siis, kui inimesed otsustavad seda kasutada.
@@ -1587,12 +1603,14 @@ Isegi kui hooldaja kiidaks heaks vastuolulise muudatuse, ei mõjutaks see võrku
 Samuti tasub märkida, et **Bitcoin Core ei ole ainus klient**. Alternatiivid, nagu Bitcoin Knots, rakendavad samuti Bitcoin protokolli, andes kasutajatele rohkem valikuvõimalusi ja tugevdades süsteemi detsentraliseeritust:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 ## Bitcoin kihiline arhitektuur
 
 
 <chapterId>03017765-53cf-5f14-9682-e99ca02d2241</chapterId>
+
+:::video id=6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e:::
 
 
 Bitcoin on avatud süsteem, mis on algusest peale loodud minimalistlikuks, töökindlaks ja turvaliseks. Funktsionaalsuse lisamiseks ilma selle aluseid muutmata tehakse arenguid üldiselt **protokollide kihtide** ja täiendavate rakenduste lisamisega, mis rikastavad ökosüsteemi, ilma et see kahjustaks põhisüsteemi detsentraliseeritust ja vastupidavust. Selline paindlikkus on võimaldanud arvukatel ettevõtetel ja sõltumatutel arendajatel luua Bitcoin ümber infrastruktuuri, lisades uuendusi, mis on kohandatud erinevatele kasutusviisidele.
@@ -1614,7 +1632,7 @@ Bitcoin ökosüsteemi rikastavate peamiste kattesüsteemide hulgas on järgmised
 2016. aastal Thaddeus Dryja ja Joseph Pooni loodud Lightning Network on teine Layer lahendus, mis on mõeldud kiirete ja odavate maksete võimaldamiseks. Kaks kasutajat saavad avada privaatse kanali, kus nad saavad teha tehinguid, kusjuures saldo uuendatakse Blockchain-l ainult siis, kui kanal avatakse või suletakse. Kanalisisesed tehingud toimuvad off-chain, mis tähendab, et neid ei ole vaja eraldi registreerida Bitcoin Blockchain-s. Selline struktuur võimaldab koheseid tehinguid ja minimaalseid tasusid, mis muudab selle ideaalseks väikese väärtusega tehingute jaoks, mis vajavad kiiret kinnitust.
 
 
-![BTC102-Bitcoin](assets/fr/059.webp)
+![image](assets/et/061.webp)
 
 
 Oletame, et ostate kohvi Bitcoin abil, kasutades baasil Layer. Selleks, et makse oleks kinnitatud (ja et kohvik saaks olla kindel, et olete tegelikult maksnud), tuleb tehing lisada blokki. See võib võtta mitu minutit, sõltuvalt valitud tasust. Tehniliselt peaks kaupmees ootama kuus kinnitust (umbes tund), et olla täiesti kindel, et makse on lõplik. Ilmselgelt ei tööta selline ooteaeg, kui te seisate leti ääres. Lightning Network puhul toimub makse vaid mõne sekundiga; seega on teie kohvi eest tasutud ja serveeritud enne, kui see jõuab jahtuda.
@@ -1623,7 +1641,7 @@ Oletame, et ostate kohvi Bitcoin abil, kasutades baasil Layer. Selleks, et makse
 Kui olete huvitatud rohkem teada saama, kuidas välk töötab, siis pakume sellele teemale pühendatud suurepärast teise aasta kursust:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 - **Külgahelad**:
@@ -1641,7 +1659,7 @@ Külgahelate kontseptsiooni tutvustasid 2014. aastal Adam Back, Matt Corallo, Lu
 Kui soovite Liquid põhjalikumalt uurida, siis pakume sellel teemal kolmanda aasta kursust:
 
 
-https://planb.network/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
+https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - **RGB**:
@@ -1653,13 +1671,13 @@ RGB on detsentraliseeritud ja privaatsusele keskendunud Smart contract süsteem,
 RGB peamine omadus on selle kaitse Double-spending vastu, mis on saavutatud krüptograafilise tehnikaga, mida nimetatakse ühekordseks pitsatiks. See mehhanism tugineb asjaolule, et Bitcoin UTXOd (Unspent Transaction Outputs) saab kulutada ainult üks kord. Märgiste autentsus tagatakse Contract kogu ajaloo (alates selle loomisest kuni selle praeguse olekuni) kasutajapoolse valideerimisega.
 
 
-![BTC102-Bitcoin](assets/fr/060.webp)
+![image](assets/et/062.webp)
 
 
 Selleks, et süvendada oma teadmisi RGB kohta, pakume neljanda aasta koolituskursust (palun arvestage, et see on väga tehniline):
 
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB on vaid üks paljudest protokollidest, mis on ehitatud Bitcoin peal. Kuigi mõned neist on laialdasemalt kasutusele võetud kui teised, tekib pidevalt uusi. Ühine joon on idee optimeerida iga Layer konkreetse ülesande jaoks, säilitades samal ajal Bitcoin alusprotokolli terviklikkuse ja muutumatuse.
 
@@ -1667,7 +1685,7 @@ RGB on vaid üks paljudest protokollidest, mis on ehitatud Bitcoin peal. Kuigi m
 Selline mitmekihiline ülesehitus on vastuolus suure osaga laiemast krüptotööstusest, kus sageli püütakse koondada paljud funktsioonid ühte protokolli. Hoides Bitcoin lihtsana ja kitsalt keskendununa, vähendame selle ründepinda, mis tähendab suuremat turvalisust. Lihtsat protokolli on lihtsam kaitsta, hooldada ja laiendada. Bitcoin on loodud selleks, et teha ühte asja väga hästi: pakkuda usaldusväärset, detsentraliseeritud raha. Kõik muu (arukad lepingud, märgid, maksed ja muu) saab kihiliselt peale panna, võimaldades innovatsiooni, ilma et see ohustaks põhitegevust.
 
 
-![BTC102-Bitcoin](assets/fr/058.webp)
+![image](assets/et/063.webp)
 
 
 **Te teadsite**?Internetti ei ehitatud korraga; see arenes koostalitlusvõimeliste protokollide virna. Näiteks TCP/IP tegeleb võrgukommunikatsiooniga, HTTP toetab veebi ja paljud teised kihid täidavad konkreetseid funktsioone. Iga Layer on optimeeritud oma töö jaoks, luues tugeva ja modulaarse süsteemi. Bitcoin järgib sama filosoofiat. Selle baas Layer on tugev ja minimaalne ning lisafunktsioone lisatakse kihiliste protokollidega nagu Lightning, Liquid või RGB; igaüks neist keskendub erinevate kasutajate vajaduste lahendamisele, säilitades samal ajal aluse.
@@ -1682,17 +1700,17 @@ Tänapäeval on kaupmeestele, kes soovivad Bitcoin maksevahendina aktsepteerida,
 Kui eelistate lahendust, mille puhul te ei pea käed külge ja soovite saada fiatvaluutat otse oma pangakontole, pakuvad sellised hoiuteenused nagu OpenNode lihtsustatud kogemust:
 
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
 Kaupmeeste jaoks, kes on tehniliselt rohkem huvitatud ja soovivad täielikku kontrolli protsessi üle, on BTCPay Server fantastiline avatud lähtekoodiga valik. Peamine puudus on see, et selle seadistamine ja hooldamine nõuab aega ning mõningaid tehnilisi teadmisi:
 
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 Kusagil vahepeal on Swiss Bitcoin Pay, mis on kasutajasõbralik, kuid samas võimas lahendus, mis pakub head tasakaalu kasutusmugavuse, funktsionaalsuse ja turvalisuse vahel. See sobib hästi nii väikestele jaemüüjatele kui ka suurematele ettevõtetele:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
 Bitcoin vastuvõtmine võib tuua ettevõttele mitmeid praktilisi ja rahalisi eeliseid. Nagu sularaha, võimaldab Bitcoin otsemakseid kliendi ja kaupmehe vahel (ei ole vaja traditsioonilist panka). Lightning Network kaudu tehtavad maksed on kohesed ja lõplikud, vähendades tagasimaksete riski. Ja kui kaupmehed hoiavad oma Bitcoin-i (isehoidmine), saavad nad suurema finantsautonoomia.
 
@@ -1712,7 +1730,7 @@ Lisaks sellele võib Bitcoin vastuvõtmine olla nutikas turunduskäik. See näit
 Kui soovite uurida, kuidas Bitcoin saab teie ettevõttesse integreerida (kas makseviisina, varana või mõlemana), siis pakume algtasemel kursust, mis on kohandatud sellele vajadusele:
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Bitcoin on Exchange vahendina muutumas üha enam kasutatavaks paljudes tööstusharudes. Lightning Network on muutnud maksed kiiremaks ja odavamaks, mis suurendab veelgi Bitcoin atraktiivsust kaupmeeste jaoks.
 
@@ -1722,7 +1740,7 @@ Oleme jõudnud punkti, kus igaüks saab osaleda Bitcoin ökosüsteemis; kas kasu
 Bitcoin on nüüd peatamatu.
 
 
-![BTC102-Bitcoin](assets/fr/057.webp)
+![image](assets/et/064.webp)
 
 
 ### Minu isiklik vaatenurk
@@ -1757,6 +1775,8 @@ Järgmiseks kursusel: me läheme praktiliseks ja aitame teil määratleda oma bi
 
 <chapterId>c5d87903-a5f2-5eec-887a-f662734ce49b</chapterId>
 
+:::video id=1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d:::
+
 
 Nüüd, kui olete õppinud Bitcoin teoreetilised alused, on aeg minna üle praktilisele poolele. See osa aitab teil mõista, kuidas hankida oma esimesed bitcoinid, kuidas neid turvaliselt säilitada ja kuidas kohandada oma lähenemist vastavalt isiklikule olukorrale. Eesmärk on aidata teil kindlaks teha, mis tüüpi kasutaja te olete, et saaksite võtta kasutusele strateegia, mis vastab teie vajadustele ja piirangutele.
 
@@ -1767,7 +1787,7 @@ Bitcoin ei ole nagu traditsioonilised varad. See nõuab läbimõeldud lähenemis
 See kursus eeldab, et te alles alustate Bitcoin-ga. Seega keskendume lihtsatele, algajale sobivatele lahendustele, mida on lihtne sisse seada. Me ei käsitle kaudseid riskipositsiooni meetodeid, nagu Mining, Bitcoin-ga seotud ettevõtete aktsiate ostmist või keerulisi finantsstrateegiaid. Eesmärk on aidata teil valida Wallet, mis sobib teie olukorraga, ja omandada ohutult oma esimesed bitcoinid.
 
 
-![BTC102-Bitcoin](assets/fr/063.webp)
+![image](assets/et/065.webp)
 
 
 ### Miks määrata oma kasutajaprofiil?
@@ -1790,7 +1810,7 @@ Siin on mõned tegurid, mida tuleb arvestada, kui otsite parimat viisi bitcoinid
 Kõik need tegurid mängivad rolli teie jaoks õige strateegia kujundamisel. Mõned kasutajad hindavad lihtsust ja kasutusmugavust reguleeritud teenuste kaudu, samas kui teised eelistavad autonoomsemat ja privaatsusele keskendunud lähenemist.
 
 
-![BTC102-Bitcoin](assets/fr/064.webp)
+![image](assets/et/066.webp)
 
 
 Seda uurime järgmisena: erinevaid võimalusi bitcoinide omandamiseks ja kindlustamiseks, et saaksite teha teadlikke otsuseid vastavalt oma profiilile ja eesmärkidele.
@@ -1802,7 +1822,7 @@ Seda uurime järgmisena: erinevaid võimalusi bitcoinide omandamiseks ja kindlus
 Õige strateegia valimine bitcoinide omandamiseks ja kindlustamiseks algab teie isikliku olukorra ausast hindamisest. Neid otsuseid mõjutavad mitmed tegurid, sealhulgas võimalikud riskid, teie elustiil ja see, kuidas te kavatsete oma bitcoin'e kasutada.
 
 
-![BTC102-Bitcoin](assets/fr/065.webp)
+![image](assets/et/067.webp)
 
 
 #### Võimalikud riskid ja ohud
@@ -1831,7 +1851,7 @@ Seda uurime järgmisena: erinevaid võimalusi bitcoinide omandamiseks ja kindlus
 Et paremini mõista oma haavatavusi, hinnake iga riski skaalal 0 (madal) kuni 10 (kõrge). See enesehindamine aitab teil seada õiged kaitsemeetmed prioriteediks.
 
 
-![BTC102-Bitcoin](assets/fr/061.webp)
+![image](assets/et/068.webp)
 
 
 #### Elustiil ja isiklikud harjumused
@@ -1878,7 +1898,7 @@ Siin on neli põhilist asja, mille üle otsustada:
 - Kui palju te teete tehinguid
 
 
-![BTC102-Bitcoin](assets/fr/062.webp)
+![image](assets/et/069.webp)
 
 
 ### Rahakotid ja turvastrateegiad
@@ -1887,7 +1907,7 @@ Siin on neli põhilist asja, mille üle otsustada:
 Bitcoin omamise ja kasutamise kõige olulisem osa on oma privaatvõtmete (need, mis võimaldavad juurdepääsu bitcoin'idele) turvamine. Erinevalt traditsioonilisest pangakontost, kus kolmas isik haldab teie raha, on Bitcoin puhul teie täielik kontroll. Kuid selle vabadusega kaasneb ka vastutus: kui te kaotate oma võtmed, on teie Bitcoin igaveseks kadunud. Teil on võimalik kasutada mitut tüüpi rahakotte. Igaühel neist on oma plussid ja miinused, sõltuvalt teie vajadustest ja kogemuste tasemest.
 
 
-![BTC102-Bitcoin](assets/fr/067.webp)
+![image](assets/et/070.webp)
 
 
 #### Hot Wallet
@@ -2013,7 +2033,7 @@ Näited: Finantstooted nagu BlackRocki Bitcoin ETF.
 Me ei soovita hooldusteenuseid isegi algajatele. Palju parem on võtta aega, et õppida, kuidas oma Bitcoin korralikult turvata, kui riskida, et kaotate kõik, sest keegi teine ei suutnud. Aga kui te olete siin, lugedes rahakottidest ja võtmehaldusest, siis olete ilmselt juba aru saanud, miks see põhimõte oluline on.
 
 
-![BTC102-Bitcoin](assets/fr/068.webp)
+![image](assets/et/071.webp)
 
 
 Wallet ja turvameetodi valik sõltub sellest, kui palju te salvestate, teie teadmiste tasemest ja võimalikest riskidest, mida te tajute. Hübriidne lähenemisviis võib siiski olla arukas valik:
@@ -2027,13 +2047,13 @@ Wallet ja turvameetodi valik sõltub sellest, kui palju te salvestate, teie tead
 Kui teie Hot Wallet koguneb liiga palju bitcoine, saate osa neist üle kanda oma Cold hoidlasse. Teisest küljest, kui teil on igapäevaseks kulutamiseks rohkem bitcoine vaja, võite oma Cold Wallet-st välja võtta.
 
 
-![BTC102-Bitcoin](assets/fr/066.webp)
+![image](assets/et/072.webp)
 
 
 Lõppkokkuvõttes sõltub turvalisus suuresti sellest, kuidas te neid vahendeid kasutate. Hardware Wallet ei aita teile palju kasu, kui te kaotate, paljastate või kompromiteerite Mnemonic fraasi. Ettevaatlikkus ja distsipliin on teie parim kaitse bitcoinide kaotamise eest. Selle kohta soovitan lugeda seda artiklit:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ### Omandamismeetodid ja tehingu mahud
 
@@ -2041,7 +2061,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Bitcoinide omandamiseks on erinevaid viise, olenevalt sellest, kui palju privaatsust vajate, millised on teie riigi eeskirjad ja kui palju soovite omandada. On kaks peamist lähenemisviisi:
 
 
-![BTC102-Bitcoin](assets/fr/070.webp)
+![image](assets/et/073.webp)
 
 
 #### Omandamine koos isikusamasuse kontrollimisega (KYC)
@@ -2092,7 +2112,7 @@ Bitcoin ostmine ilma oma identiteeti avalikustamata on võimalus neile, kes peav
 - **P2P platvormid**: Platvormid, nagu Bisq, RoboSats ja Peach, hõlbustavad eraisikute vahelist vahetust ilma isikusamasuse kontrollimise vajaduseta, kasutades tehingute turvamiseks eskroonsüsteeme. Nendel platvormidel on endiselt varguse oht, kui teine pool ei tee koostööd, kuid risk on hoiuteenuste abil minimeeritud.
 - **Bitcoin Rahaautomaadid**: Mõned sularahaautomaadid (kioskid) võimaldavad teil osta Bitcoin sularahaga, kuigi teenustasud kipuvad olema kõrged ja mõned nõuavad suuremate tehingute puhul isikutuvastust.
 - **KYC-vabad Exchange platvormid**: Mõned platvormid, eriti Šveitsis, võimaldavad teil osta väikeseid koguseid Bitcoin ilma isikutuvastust nõudmata.
-- **Mining**: Üksikisikud võivad kaevandada Bitcoin. Vanemad või väiksemad masinad on kättesaadavad, pakkudes ebatraditsioonilist viisi Bitcoin omandamiseks ilma KYC-ta. Mining pool-ga liitudes saate teenida regulaarseid väljamakseid isegi põhivarustusega. Lisainfo saamiseks [vaadake meie Mining õpetusi](https://planb.network/tutorials/mining).
+- **Mining**: Üksikisikud võivad kaevandada Bitcoin. Vanemad või väiksemad masinad on kättesaadavad, pakkudes ebatraditsioonilist viisi Bitcoin omandamiseks ilma KYC-ta. Mining pool-ga liitudes saate teenida regulaarseid väljamakseid isegi põhivarustusega. Lisainfo saamiseks [vaadake meie Mining õpetusi](https://planb.academy/tutorials/mining).
 - **Maksed / palk bitcoinides**: Kui teil on ettevõte, võite võtta maksetena vastu Bitcoin. Kui te olete palgatöötaja, võite sõltuvalt teie jurisdiktsioonist paluda palka Bitcoin-ga. Need meetodid võimaldavad teil omandada Bitcoin ilma KYC-ta.
 
 
@@ -2197,7 +2217,7 @@ Eelistatud strateegia :
 See profiil sobib eriti hästi inimestele, kes elavad Bitcoin suhtes vaenulikus keskkonnas, kus BTC valdamine või kasutamine võib kaasa tuua sanktsioone. See on keerulisem lähenemisviis, mis nõuab teatavat tehnilist asjatundlikkust ja ranget distsipliini, et vältida juurdepääsu kaotamist rahalistele vahenditele.
 
 
-![BTC102-Bitcoin](assets/fr/069.webp)
+![image](assets/et/074.webp)
 
 
 ### Milline profiil sobib teile?
@@ -2217,11 +2237,13 @@ Järgmistes peatükkides uurime iga neist profiilidest üksikasjalikult, et te s
 
 <chapterId>baf1adc2-3828-5265-8ee5-130be547585c</chapterId>
 
+:::video id=3f4e5d6c-7b8a-9c0d-1e2f-3a4b5c6d7e8f:::
+
 
 Bitcoin kogukonnas viitab mõiste "hodler" inimesele, kes kasutab pikaajalist investeerimisviisi. Sõna sai alguse kuulsast trükivigastusest "hold" Bitcoin Talk foorumis aastaid tagasi ja sellest ajast alates on sellest saanud Commitment sümbol: hoia oma Bitcoin-st kinni, ükskõik, mis juhtub, ilma lühiajaliste turukõikumiste pärast stressimata.
 
 
-![BTC102-Bitcoin](assets/fr/071.webp)
+![image](assets/et/075.webp)
 
 
 Hodlerid usuvad Bitcoin väärtuspakkumisse. Fikseeritud Supply 21 miljonit münti, nad näevad Bitcoin kui pikaajalist väärtuse säilitamist (digitaalne kuld).
@@ -2256,22 +2278,22 @@ Kõigepealt: turvalisus. Hardware Wallet on hädavajalik. See salvestab teie isi
 Siin on mõned õpetused rahakottide jaoks, mis sobivad hästi hodleritele:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Kui Wallet on seadistatud, varundage kindlasti 12- või 24-sõnaline taastamislause püsivale füüsilisele andmekandjale. Lisateavet selle kohta, millist andmekandjat oma fraasi jaoks valida, leiate sellest õpetusest:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Täiendava meelerahu tagamiseks saate lisada selliseid kaitsekihti nagu:
 
@@ -2279,15 +2301,15 @@ Täiendava meelerahu tagamiseks saate lisada selliseid kaitsekihti nagu:
 - Mitmesignatuuriline Wallet koos ajalukuga:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 
 - BIP39 passphrase:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-![BTC102-Bitcoin](assets/fr/073.webp)
+![image](assets/et/076.webp)
 
 
 #### 2. Ostke Bitcoin ja võtke see tagasi
@@ -2299,15 +2321,15 @@ Hodlerid ei jäta kunagi oma münte vahetusse. Platvorme võib häkkida, pankrot
 Kuna kauplejad investeerivad tavaliselt suuremaid summasid, vajavad nad tugeva likviidsusega börsid. Siin on mõned, mis sobivad:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-![BTC102-Bitcoin](assets/fr/074.webp)
+![image](assets/et/077.webp)
 
 
 Mõned investorid kasutavad ka hübriidmeetodit, kasutades DCA-d (Dollar Cost Averaging) - ostavad regulaarselt väikeseid summasid, et tasandada turu volatiilsust.
@@ -2350,14 +2372,14 @@ Mõned parimad tavad:
 Et jälgida oma varusid ilma oma isiklikke võtmeid ohustamata, kaaluge Watch-only wallet kasutamist. See võimaldab teil jälgida saldosid ja tehinguid ainult oma avalike võtmete abil.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 Hodleri strateegia on lihtne, kuid võimas: osta, kinnita ja unusta. Tegelik väljakutse ei ole tehniline, vaid psühholoogiline. Kõige raskem on vastu seista tungile müüa liiga vara või paanikasse sattuda hinnalanguse ajal. Kuid kui püsite distsiplineeritult ja mõtlete pikaajaliselt, on hodlerlus osutunud usaldusväärseks viisiks väärtuse säilitamiseks ja jõukuse kasvatamiseks aja jooksul.
 
 
 
 
-![BTC102-Bitcoin](assets/fr/075.webp)
+![image](assets/et/078.webp)
 
 
 ### Hinnake oma Hodleri profiili
@@ -2374,7 +2396,7 @@ Kui tunned end neis isiksuseomadustes ära, oled tõenäoliselt loomupärane Hod
 - **Usk tehnoloogiasse**: Hodlerid ei näe Bitcoin vaid spekulatiivset vara. Nad usuvad selle tehnoloogiasse ja selle häirivasse potentsiaali. Paljude jaoks ei ole tegemist ainult rahaga, vaid vabadusega. Bitcoin peetakse paindlikuks, apoliitiliseks valuutaks ja reaalseks alternatiiviks traditsioonilisele pangandusele, mis annab inimestele suurema finantssuveräänsuse.
 
 
-![BTC102-Bitcoin](assets/fr/072.webp)
+![image](assets/et/079.webp)
 
 
 Hodling on lihtne, tõhus ja kättesaadav; isegi algajatele.
@@ -2387,6 +2409,8 @@ Järgmises peatükis uurime sarnast, kuid aktiivsemat profiili: stäkker.
 
 <chapterId>0daf450d-1b91-5d99-9c31-b52ab52a5e21</chapterId>
 
+:::video id=4e5f6a7b-8c9d-0e1f-2a3b-4c5d6e7f8a9b:::
+
 
 Bitcoin ökosüsteemis on stäkker see, kes kogub järjepidevalt ja pikaajaliselt satoshi (või "Sats"), mis on Bitcoin väikseim ühik. Selle asemel, et investeerida korraga suur summa, ostab stäkker regulaarselt väikeseid koguseid Bitcoin, sõltumata turutingimustest.
 
@@ -2394,7 +2418,7 @@ Bitcoin ökosüsteemis on stäkker see, kes kogub järjepidevalt ja pikaajalisel
 Idee on lihtne: bitcoine on alati ainult umbes 21 miljonit ja iga murdosa loeb. Stackeri ülesanne on koguda järjepidevalt võimalikult palju Sats.
 
 
-![BTC102-Bitcoin](assets/fr/076.webp)
+![image](assets/et/080.webp)
 
 
 ### Miks valida virnastamisstrateegia?
@@ -2432,43 +2456,43 @@ Stacker vajab Wallet seadistust, mis tasakaalustab kasutusmugavust ja pikaajalis
 - **Hot Wallet**: Ideaalne algajatele, mobiil- või lauaarvutid võimaldavad teil hõlpsasti vastu võtta Sats ja teha makseid. Siiski sobivad need kõige paremini väikeste summade jaoks. On-Chain rahakotid on paremate UTXO haldamise tõttu eelistatud Lightning rahakottidele. Soovitatavad tarkvaralised rahakotid: Green Wallet, Blue Wallet, Sparrow Wallet, Bitkit, Nunchuk, Aqua, Proton
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
+https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-1404-4328-b814-aa97fcf0d5da
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
+https://planb.academy/tutorials/wallet/desktop/proton-wallet-0bee0bba-ab62-4db0-8c63-b2ad698ca178
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
 
 - **Hardware Wallet**: Cold Wallet on vargusohu vähendamiseks hädavajalik, kui teie Bitcoin varud kasvavad. Tõsine hoiustaja liigutab regulaarselt vahendeid oma Hot Wallet-st Hardware Wallet-ni. Näiteid: Bitbox02, Trezor, Ledger, Coldcard, Jade...
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
 Kõige tõhusam on kasutada mõlemat: Hot Wallet igapäevaseks virnastamiseks ja Hardware Wallet pikaajaliseks Cold ladustamiseks. Hot Wallet on lihtne ja mugav kasutada. See võimaldab teil oma bitcoinid kiiresti enda valdusesse võtta, selle asemel, et jätta need platvormile, kus need võivad olla ohus. Võrreldes Hardware Wallet-ga pakub Hot Wallet siiski palju vähem turvalisust. Seetõttu peab stäkker oma raha regulaarselt üle kandma oma Cold Wallet-sse, et kindlustada oma pikaajalisi sääste ja vältida liiga suure hulga raha hoidmist Hot Wallet-s. Perioodiliselt konsolideerib virnastaja UTXOd Cold ladustusse ülekandmisel; ühendab väikesed sisendid, et optimeerida tulevasi tehingutasusid.
 
 
-![BTC102-Bitcoin](assets/fr/077.webp)
+![image](assets/et/081.webp)
 
 
 #### 2. Kehtestada DCA ostukava
@@ -2485,43 +2509,43 @@ Dollar-Cost Averaging (DCA) on investeerimisstrateegia, mille puhul te ostate re
 Järgnevalt on teil kaks võimalust DCA seadistamiseks: selle automatiseerimine või käsitsi haldamine. Enamik reguleeritud kauplemisplatvorme pakub nüüd võimalust oma DCA automatiseerimiseks. Kui teie kontol on piisavalt fiatraha, täidab platvorm automaatselt teie ostukorraldused vastavalt teie seatud parameetritele. Samuti on üha rohkem platvorme, mis on pühendatud DCA automatiseerimisele, pakkudes lisateenuseid, nagu automaatsed väljamaksed omaenda Wallet-le või igapäevaste kulude ümardamine. Kui kasutate reguleeritud platvormi, soovitan väga oma DCA automatiseerimist, et tagada suurem meelerahu oma igapäevases juhtimises.
 
 
-![BTC102-Bitcoin](assets/fr/078.webp)
+![image](assets/et/082.webp)
 
 
 DCA platvormide näited:
 
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 DCAd toetavad peamised börsid:
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
 Stackerid võivad ka soovida suurendada oma privaatsust, isegi kui see ei ole nende esmane eesmärk. Sellisel juhul peaksid nad kaaluma P2P omandamismeetodi kasutamist väljaspool reguleeritud platvorme. Erinevalt automaatsetest DCA ostudest tuleb nende meetodite puhul juhtida ostustrateegiat käsitsi, nii et distsipliin on võtmetähtsusega, et püsida õigel teel.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 #### 3. Bitcoinide väljavõtmine ja kindlustamine
 
@@ -2545,13 +2569,13 @@ Peamised harjumused:
 - Kontrollige regulaarselt oma seed varukoopiaid ja Hardware Wallet olekut: Nüüd, kui teie rahakotid on seadistatud, on oluline seadistada regulaarne järelevalve. Kontrollige perioodiliselt, et teie Mnemonic fraas oleks ikka veel oma hoiukohas ja et selle läbipaistmatu ümbrik ei oleks avatud. Nende kontrollide käigus võite ka ümbriku avada, et uurida andmekandja seisundit. Veenduge, et see on kahjustamata ja et lause on endiselt täiesti loetav. Kui on mingeid märke kahjustustest, on kõige parem luua uus koopia oma Hardware Wallet-st. Samuti võite regulaarselt kontrollida oma riistvara rahakotte.
 
 
-![BTC102-Bitcoin](assets/fr/080.webp)
+![image](assets/et/083.webp)
 
 
 Lihtsaks jälgimiseks ilma turvalisust ohustamata seadistage Watch-only wallet saldode jälgimiseks avaliku võtme abil.
 
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
 
 ### Hinnake oma virnastaja profiili
 
@@ -2567,7 +2591,7 @@ Edukad virnastajad demonstreerivad neid omadusi:
 - **Pikaajaline visioon**: Stacker usub kindlalt Bitcoin tehnoloogilisse potentsiaali. Nad ei keskendu lühiajalistele hinnakõikumistele, vaid oma osaluse pidevale suurendamisele aastate jooksul.
 
 
-![BTC102-Bitcoin](assets/fr/079.webp)
+![image](assets/et/084.webp)
 
 
 Lühidalt öeldes on virnastamine ideaalne neile, kes soovivad aja jooksul luua Bitcoin positsiooni, vähendada volatiilsuse riske ja säilitada täielikku suveräänsust; ilma graafikute külge liimimata.
@@ -2581,11 +2605,13 @@ Järgmine: uurime radikaalselt erinevat bitcoineri profiili; aktiivne kasutaja.
 
 <chapterId>e0a022ab-207c-571f-b4ad-c432214a756c</chapterId>
 
+:::video id=5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c:::
+
 
 Bitcoin aktiivseks kasutajaks saamine tähendab, et tuleb minna kaugemale pikaajalistest investeerimisstrateegiatest. Erinevalt hodlerist või stäkkerist, kes peamiselt säästab ilma kulutamata, suhtub aktiivne kasutaja Bitcoin-sse kui **Exchange** tegelikku meediumisse. Nad kasutavad seda kaupade ja teenuste eest tasumiseks ning osalevad aktiivselt vastumajanduses.
 
 
-![BTC102-Bitcoin](assets/fr/083.webp)
+![image](assets/et/085.webp)
 
 
 ### Miks võtta vastu aktiivse kasutaja strateegia?
@@ -2618,7 +2644,7 @@ Bitcoin aktiivne kasutamine aitab teil omandada reaalseid kogemusi. Te tutvute W
 Väljakutsete hulka kuuluvad tehniline keerukus, hindade volatiilsus ja vajadus hea turbehügieeni järele, et vältida vahendite kaotamist.
 
 
-![BTC102-Bitcoin](assets/fr/086.webp)
+![image](assets/et/086.webp)
 
 
 ### Investeerimisplaan aktiivse kasutaja jaoks
@@ -2627,7 +2653,7 @@ Väljakutsete hulka kuuluvad tehniline keerukus, hindade volatiilsus ja vajadus 
 Bitcoin kasutuselevõtt igapäevaste maksete tegemiseks nõuab läbimõeldud ja struktureeritud lähenemist. Erinevalt Hodlerist või Stackerist peab aktiivne kasutaja haldama nii oma rahaliste vahendite pikaajalist turvalisust kui ka igapäevaste tehingute mugavust. Selle strateegia tõhusaks toimimiseks on oluline leida õige tasakaal turvalise Cold säilitamise ja kulukohustuste lihtsa kättesaadavuse vahel.
 
 
-![BTC102-Bitcoin](assets/fr/084.webp)
+![image](assets/et/087.webp)
 
 
 #### 1. Rahakottide selge eraldamine
@@ -2640,53 +2666,53 @@ Aktiivsed kasutajad peaksid turvalisuse ja mugavuse tasakaalustamiseks kasutama 
 - A Cold Wallet (Hardware Wallet), et tagada pikaajaline säästmine.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
+https://planb.academy/tutorials/wallet/hardware/bitbox02-6af8940f-e19b-4008-8c83-81017032608c
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-https://planb.network/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
+https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.network/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
-https://planb.network/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
+https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
 
 - Üks või mitu mobiilset Hot rahakotti igapäevasteks tehinguteks. Tavaliselt on aktiivsel kasutajal nii On-Chain Hot Wallet kui ka Lightning Wallet.
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
-https://planb.network/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
+https://planb.academy/tutorials/wallet/mobile/bitkit-a7224674-85c4-4045-9baf-37018d89550c
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
-https://planb.network/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
+https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-https://planb.network/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
+https://planb.academy/tutorials/wallet/mobile/lipa-61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
-https://planb.network/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
+https://planb.academy/tutorials/wallet/mobile/nunchuk-6cbcb406-ec84-478f-afac-bb4da366a6fa
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-advanced-3e89603c-501d-439c-8691-d4a0d0de459b
 
 Rahaliste vahendite selline eraldamine aitab vähendada riski, kui igapäevasteks makseteks kasutatav Wallet satub ohtu.
 
@@ -2697,22 +2723,22 @@ Rahaliste vahendite selline eraldamine aitab vähendada riski, kui igapäevastek
 Aktiivsete kasutajate eesmärk on sageli vähendada sõltuvalt isiklikust olukorrast oma sõltuvust usaldusväärsetest kolmandatest isikutest. Üks tõhusamaid viise selle saavutamiseks on oma Bitcoin sõlme käitamine. See võimaldab neil kasutada võrku iseseisvalt, suurendades samal ajal oma tehingute privaatsust.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 Neile, kes kasutavad regulaarselt Lightning Network, võib oma LND, LDK või Core-Lightning-sõlme haldamine olla nutikas samm. See annab neile täieliku kontrolli kanalite avamise ja sulgemise üle, suurendab enesevalitsust ja võib isegi aidata vähendada tehingutasusid; eriti võrreldes automaatsete lahendustega, nagu Phoenix, või halvemal juhul hoolealuste Lightning-rahakottidega.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
 #### 3. Tavaline Bitcoin omandamine
 
@@ -2720,7 +2746,7 @@ https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 Aktiivsed kasutajad peavad leidma tasakaalu oma pikaajaliste säästude ja igapäevaseks kasutamiseks vajaliku Bitcoin koguse vahel.
 
 
-![BTC102-Bitcoin](assets/fr/085.webp)
+![image](assets/et/088.webp)
 
 
 Bitcoin omandamiseks on mitu võimalust, sõltuvalt sellest, millist privaatsuse taset te otsite:
@@ -2730,47 +2756,47 @@ Bitcoin omandamiseks on mitu võimalust, sõltuvalt sellest, millist privaatsuse
 - Traditsiooniline ostmine **reguleeritud platvormide** kaudu, nagu Bitfinex või Bull Bitcoin (ideaalne oma Cold Wallet täiendamiseks);
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
+https://planb.academy/tutorials/exchange/centralized/bitstack-29fd71be-9570-42c6-8f6f-cd355d62e746
 
-https://planb.network/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
+https://planb.academy/tutorials/exchange/centralized/bitstamp-5a36c896-bff5-46d7-b505-ff069c3ac47c
 
-https://planb.network/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
+https://planb.academy/tutorials/exchange/centralized/bull-bitcoin-europe-0ccf713e-efcd-44ec-8205-211f49ac7d53
 
-https://planb.network/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
+https://planb.academy/tutorials/exchange/centralized/kraken-1ef03e25-9b42-49bd-a47d-249e1a13cfc6
 
-https://planb.network/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
+https://planb.academy/tutorials/exchange/centralized/paymium-92603f76-b985-49ce-81e5-f4fa0df776e5
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
-https://planb.network/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
+https://planb.academy/tutorials/exchange/centralized/stackinsat-5af6a380-f3c6-4246-9f81-9957a16ab066
 
 
 - **Mittekaitstav omandamine** peer-to-peer teenuste, näiteks Peach, Robosats või Bitcoin sularahaautomaadid kaudu; võimaldab teil lisada oma Wallet ilma isiklikke andmeid avaldamata.
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Bitcoin** teenimine, aktiivne kasutaja ei ole ainult BTC kulutamine, vaid ka selle teenimine. Kui teil on ettevõte, kaaluge Bitcoin-i aktsepteerimist maksetena. Kui olete töötaja, uurige, kas teie tööandja pakub võimalust saada kogu oma palk või osa sellest BTC-s.
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-https://planb.network/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
+https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4932-8494-e6f26c3c9784
 
-https://planb.network/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-![BTC102-Bitcoin](assets/fr/081.webp)
+![image](assets/et/089.webp)
 
 
 #### 4. Aktiivne kulude juhtimine
@@ -2788,7 +2814,7 @@ Bitcoin kulutamise lihtsustamiseks on saadaval palju vahendeid, näiteks [BTC Ma
 Kuna me oleme veel üleminekufaasis, kus kõik igapäevased kaupmehed ei aktsepteeri BTC-d, on olemas mõned lihtsad, kuid tõhusad lahendused. Näiteks kinkekaartide ostmine Bitcoin-ga on praktiline lahendus ja paljud teenusepakkujad nagu Bitrefill, Coinsbee või The Bitcoin Company pakuvad seda teenust.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 #### 5. Tehnoloogiline teadlikkus ja paindlikkus
 
@@ -2815,7 +2841,7 @@ Kas olete valmis olema aktiivne Bitcoin kasutaja? Siin on peamised tunnused, mis
 - **Finantsdistsipliin:** Te haldate oma Bitcoin kulutusi ja säästusid hoolikalt. Sa mõistad, kui oluline on selgelt eraldada oma igapäevased vahendid pikaajalistest säästudest.
 
 
-![BTC102-Bitcoin](assets/fr/082.webp)
+![image](assets/et/090.webp)
 
 
 Kokkuvõttes mängib aktiivne kasutaja otsest rolli Bitcoin ökosüsteemi edendamisel. Kui nad lisavad Bitcoin oma igapäevastesse harjumustesse, ei toeta nad mitte ainult selle kasutuselevõttu, vaid suurendavad ka oma teadmisi.
@@ -2829,6 +2855,8 @@ Järgmises peatükis uurime viimast ja ehk kõige intrigeerivamat Bitcoin kasuta
 
 <chapterId>5c624acd-662e-5134-ab7a-fb75cde7c3f8</chapterId>
 
+:::video id=6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d:::
+
 
 Paranoilise Bitcoineri jaoks ei ole privaatsus vabatahtlik, see on hädavajalik. Maailmas, kus peaaegu iga rahalist liigutust jälgitakse, peavad nad oma identiteedi ja tehinguloo kaitsmist Bitcoin kasutamise vältimatuks osaks. Nad on tavaliselt väga teadlikud riskidest, mis kaasnevad isikuandmete avaldamisega (eriti kui nad kasutavad KYC-konformseid vahetusi, mis nõuavad isikutuvastust).
 
@@ -2836,7 +2864,7 @@ Paranoilise Bitcoineri jaoks ei ole privaatsus vabatahtlik, see on hädavajalik.
 Nende jaoks on iga tegevus oluline. Iga tehing, iga Wallet seadistus ja iga suhtlus võrguga on hoolikalt kaalutud. Ükski eksimus võib paljastada tundlikku teavet, mis seob nende identiteedi nende Bitcoin valdustega. Nende lõppeesmärk? Bitcoin kasutamine viisil, mis hoiab nende identiteedi, asukoha ja finantsolukorra täiesti privaatsena.
 
 
-![BTC102-Bitcoin](assets/fr/087.webp)
+![image](assets/et/091.webp)
 
 
 ### Miks võtta selline ettevaatlik lähenemine?
@@ -2864,7 +2892,7 @@ Nad ei ole lihtsalt investorid või kasutajad; nad loobuvad süsteemist, mis nõ
 Paranoiline Bitcoiner järgib ranget strateegiat, mis põhineb kahel põhieesmärgil: anonüümsuse säilitamine ja turvalisuse maksimeerimine. Seda tüüpi kasutaja püüab vältida kokkupuudet reguleeritud platvormidega (eriti nendega, mis nõuavad KYC-i), kõrvaldada tehingu jälgitavuse ning kaitsta oma raha jälgimise, konfiskeerimise ja muude väliste ohtude eest.
 
 
-![BTC102-Bitcoin](assets/fr/092.webp)
+![image](assets/et/092.webp)
 
 
 #### 1. Rahakottide ja sõlmede seadistamine
@@ -2877,23 +2905,23 @@ Paranoiline kasutaja ei sega kunagi vahendeid päritolu või kasutamise alusel. 
 - **A Cold Wallet (õhukapseliga ja/või DIY)** Pikaajalisi varusid hoitakse väga turvalistes, õhukapseliga või DIY-kohaga varustatud rahakottides. Need on tavaliselt avatud lähtekoodiga või kontrollitava koodiga seadmed, näiteks Jade, Coldcard, SeedSigner, Portal või Passport... Kui võimalik, omandavad nad need seadmed anonüümselt; kas sularaha või Bitcoin abil füüsilises poes või tellides neid internetis diskreetsete saatmisvõimaluste ja BTC-maksetega. Prantsusmaal on näiteks [Bitcoin Bazar](https://bitcoinbazar.fr/) üks selline pood. Võite otsida sarnaseid teenusepakkujaid oma piirkonnas.
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-https://planb.network/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
+https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
 - **Hot Wallet igapäevasteks tehinguteks**, regulaarsete kulutuste tegemiseks valivad paranoilised kasutajad privaatsusele keskendunud rahakotid nagu Ashigaru, Wasabi Wallet või Sparrow Wallet. Need rahakotid toetavad selliseid täiustatud funktsioone nagu: mini-CoinJoin kulutamistehingud, payjoins, potentsiaalselt CoinJoin tööriistad, mündi kontroll, UTXO märgistamine või võimalus ühendada oma Bitcoin sõlme kaudu.
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
+https://planb.academy/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-801da5d35cf6
 
-![BTC102-Bitcoin](assets/fr/089.webp)
+![image](assets/et/093.webp)
 
 
 
@@ -2901,43 +2929,43 @@ https://planb.network/tutorials/wallet/desktop/wasabi-a0b51540-32d2-4ed2-98aa-80
 - Oluline on oma **Bitcoin sõlme** käivitamine. See tagab täieliku kontrolli tehingute edastamise üle ja väldib sõltuvust kolmanda osapoole infrastruktuurist. Samuti kaitseb see eraelu puutumatust, takistab tsensuuri ja võimaldab neil sõltumatult kontrollida Bitcoin protokolli reegleid. Kas Linuxis, Windowsis, macOSis või plug-and-play seadistuste nagu RaspiBlitz, myNode või Start9 kaudu, paranoiline kasutaja käsitleb oma sõlme kui suveräänsuse mittekaubeldavat tugisammast.
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
-https://planb.network/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
+https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-d8602fbeac02
 
-https://planb.network/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
+https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112cffa094eb
 
-https://planb.network/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
+https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-89057670ed6a
 
 
 - Selleks, et teha tehinguid **Lightning Network** kaudu, säilitades samasuguse kontrolli ja diskreetsuse, kasutavad nad ka oma Lightning-sõlme. See võimaldab neil hallata kanaleid otse ja kulutada viisil, mis vähendab järelevalvet või sõltuvust hooldusteenustest.
 
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-![BTC102-Bitcoin](assets/fr/090.webp)
+![image](assets/et/094.webp)
 
 
 Turvalisus ei lõpe sellega. Paranoiline kasutaja kasutab seed lausete varundamiseks metallist varukoopiaid koos võltsimiskindlate pitseeritud ümbrikutega. Nad kontrollivad korrapäraselt, et varukoopiad jäävad rikkumata, ja testivad Wallet taastamisprotseduure, et olla valmis mis tahes ettenägematute olukordade korral.
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Kui tegemist on säästude kindlustamisega, võivad nad rakendada keerulisemaid seadistusi, näiteks mitme allkirjaga rahakotte (koos või ilma ajatõketega).
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Need konfiguratsioonid vähendavad riske. BIP39 passphrase lisamine seed fraasile lisab veel ühe Layer kaitse ja tagab, et juurdepääs oma rahalistele vahenditele ei saa olla ohus ühegi avastuse tõttu.
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Paranoilisel bitcoineril on muidugi oma bitcoinide jaoks hästi läbimõeldud pärimisplaan. Seda olulist teemat käsitletakse üksikasjalikult kursuse järgmises osas.
 
@@ -2949,50 +2977,50 @@ Laiemalt võttes rakendab seda tüüpi kasutaja arenenud, eraelu puutumatust arv
 - **Operatsioonisüsteemid** nii telefonis kui ka arvutis;
 
 
-https://planb.network/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
+https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08d43d7a-0b22-4638-a151-578d48d32d88
 
-https://planb.network/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
+https://planb.academy/tutorials/computer-security/operating-system/linux-mint-da44852e-513f-4004-949a-8fde60c1bca5
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 
 - **Autentimisvahendid**;
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
+https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 
 - **Kommunikatsioonivahendid**;
 
 
-https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
+https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
+https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 
 - **Andmehaldusvahendid**.
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
-https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 Kui soovite IT-turbe teemast rohkem teada saada, pakume sellele teemale pühendatud täielikku esimese aasta kursust:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 #### 2. Bitcoinide ostmine anonüümselt
 
@@ -3004,21 +3032,21 @@ Paranoilise investori peamine põhimõte on omandada Bitcoin, sidumata seda oma 
 - **P2P ostuplatvormid** nagu Bisq, Robosat, LNP2PBot, Peach, HODL HODL jne ;
 
 
-https://planb.network/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
+https://planb.academy/tutorials/exchange/peer-to-peer/bisq-v2-c1c6a702-6c16-4101-8b90-62c424017b80
 
-https://planb.network/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
+https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
-https://planb.network/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
+https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-https://planb.network/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
+https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06
 
 
 - **Isiklikud sularahatehingud**, näiteks kohalikel Bitcoin kohtumistel;
 
 
-https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
+https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 
 
 - Bitcoin sularahaautomaadid;
@@ -3026,16 +3054,16 @@ https://planb.network/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35
 - Mining **bitcoin**.
 
 
-https://planb.network/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
-https://planb.network/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
+https://planb.academy/tutorials/mining/hardware/braiins-mini-miner-f5aec001-fb05-4e89-b3b2-a31abec1253c
 
-https://planb.network/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
+https://planb.academy/tutorials/mining/hardware/bitaxe-d317e1a7-d775-401d-85df-51f4f2217566
 
 Tsentraliseeritud andmevahetust välditakse täielikult, kuna sellega kaasnevad riskid; nii privaatsuse kui ka võimaliku tsensuuri või konfiskeerimise tõttu.
 
 
-![BTC102-Bitcoin](assets/fr/091.webp)
+![image](assets/et/095.webp)
 
 
 #### 3. Onchain jälgimise vältimine
@@ -3058,7 +3086,7 @@ Samuti on nad tuttavad Blockchain jälgimise põhitõdedega ja teavad, kuidas et
 Neile, kes soovivad süveneda On-Chain eraelu puutumatuse ja jälgimisvastase võitluse teemasse, pakume teise kursuse Bitcoin eraelu puutumatuse tavade edasijõudnute koolitust:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 4. Valveloleku säilitamine ja strateegia ajakohastamine
 
@@ -3095,7 +3123,7 @@ Siin on paranoilise bitcoineri peamised tunnused:
 Kui need tunnused tunduvad tuttavad, sobib see strateegia tõenäoliselt teie jaoks. See on nõudlik ja nõuab järjepidevat pingutust, kuid see pakub suurt finantssuveräänsust ja kaitset teie rahaliste vahendite jälgimise, konfiskeerimise või jälgitavuse eest.
 
 
-![BTC102-Bitcoin](assets/fr/088.webp)
+![image](assets/et/096.webp)
 
 
 See lähenemisviis on eriti asjakohane, kui:
@@ -3120,6 +3148,8 @@ Kursuse järgmises osas arutame olulist teemat, mis sageli tähelepanuta jäetak
 
 
 <chapterId>233c88d3-2e8e-5eba-ac06-efe67a209038</chapterId>
+
+:::video id=7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e:::
 
 
 Teie bitcoinide edastamise tagamine on vastutus, mida sageli ei arvestata, kuid mis on väga oluline. Bitcoin pakutava finantssuveräänsuse juurde kuulub ka vajadus hoolika varahalduse järele. Ilma selleta võivad teie pärijad sattuda olukorda, kus nad ei pääse ligi teie Hard-ga teenitud rahalistele vahenditele. Selles peatükis uurime pärandi planeerimise põhialuseid, kuna see kehtib Bitcoin puhul.
@@ -3164,7 +3194,7 @@ See peatükk on inspireeritud [Pamela Morgani] (https://x.com/pamelawjd) tööst
 [Pamela Morgan](https://x.com/pamelawjd) on lahkelt lubanud kasutada [tema tööd](https://www.amazon.com/gp/product/1947910116/) selle kursuse jaoks ning me järgime tema lähenemisviisi, et luua konkreetne Bitcoin pärimisplaan. Selles peatükis keskendume tema raamatu esimesele osale.
 
 
-![BTC102-Bitcoin](assets/fr/093.webp)
+![image](assets/et/097.webp)
 
 
 Selleks, et paremini mõista, kuidas luua Bitcoin pärimiskava, vaatleme Cédrici näidet, kes on tüüpiline Bitcoin kasutaja, kes peab korraldama, kuidas tema vara edasi anda, kui midagi ootamatut juhtub.
@@ -3184,7 +3214,7 @@ Tema profiil:
 Meie eesmärk on luua lihtne ja tõhus plaan, mis on kohandatud Cédrici profiilile, enne kui me läheme edasi keerulisemate stsenaariumide juurde, mis hõlmavad teist tüüpi kasutajaid.
 
 
-![BTC102-Bitcoin](assets/fr/095.webp)
+![image](assets/et/098.webp)
 
 
 ### Enne alustamist
@@ -3207,7 +3237,7 @@ Veenduge, et teil on rahulik, häireteta keskkond, ja koguge siis need mõned va
 - Arvuti (valikuline).
 
 
-![BTC102-Bitcoin](assets/fr/094.webp)
+![image](assets/et/099.webp)
 
 
 #### Üldised väärarusaamad pärandi planeerimise kohta
@@ -3419,7 +3449,7 @@ Enne lõpetamist veenduge, et teie kiri sisaldab järgmist:
 Sõltuvalt teie isiklikust olukorrast koostage sellest kirjast mitu käsitsi kirjutatud koopiat ja hoidke neid turvalises kohas (seifis, usaldusväärse isiku juures jne). Teavitage oma pärijaid sellest, et see pärimiskava on olemas, ilma et te ilmtingimata kohe selle sisu avaldaksite. Täiendava kaitse tagamiseks võite panna kirja võltsimiskindlasse läbipaistmatusse ümbrikusse, et tagada, et sellele ei ole ilma teie loata ligi pääsenud.
 
 
-![BTC102-Bitcoin](assets/fr/096.webp)
+![image](assets/et/100.webp)
 
 
 Vajaduse korral konsulteerige juristi või notariga, et oma plaan ametlikult õiguslikku raamistikku integreerida.
@@ -3428,7 +3458,7 @@ Vajaduse korral konsulteerige juristi või notariga, et oma plaan ametlikult õi
 **Gratulatsioonid!** Olete läbinud kriitilise sammu oma Bitcoin rikkuse kindlustamisel. Nüüd saate oma pärimisplaani täiustada, vaadates seda perioodiliselt läbi ja uurides edasijõudnute lahendusi, nagu näiteks Multisig seadistuste vähenemine koos ajamäärangutega:
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
 Viide: [Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
@@ -3443,6 +3473,8 @@ Eriline tänu [Pamela Morganile](https://x.com/pamelawjd) tema töö eest ja sel
 
 <chapterId>5f4cfab9-9af1-584b-a1fe-a0769a991f19</chapterId>
 
+:::video id=8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f:::
+
 
 Kui olete jõudnud nii kaugele, siis kuulute nüüd valgustatud vähemusse! Väga vähesed inimesed jõuavad Bitcoin-ga nii kaugele ja te võite olla uhke selle üle, kui kaugele te olete jõudnud. Võib-olla olete jälginud kõiki selles koolituskursuses pakutavaid õpetusi: Seadistanud oma esimese Hardware Wallet, Taganud oma taastumislause, Loonud dollari-kulude keskmistamise (DCA) plaani, Omandanud Bitcoin koos KYC-ga ja ilma selleta, Isegi planeerinud oma Bitcoin pärimise. Iga teie tehtud samm on hüpe tõelise finantssuveräänsuse suunas.
 
@@ -3453,7 +3485,7 @@ Isegi kui te ei ole seda kõike veel teinud, kuid olete otsustanud seda varsti t
 Alates sellest, kui ma hakkasin inimesi Bitcoin kohta harima, on nii ökosüsteem kui ka mina ise oluliselt arenenud. See kursus on täielikult uuendatud, et kajastada parimat, mida Bitcoin tänapäeval pakkuda suudab. See on olnud päris suur teekond koos!
 
 
-![BTC102-Bitcoin](assets/fr/097.webp)
+![image](assets/et/101.webp)
 
 
 ### Mis on Bitcoin järgmine samm?
@@ -3474,7 +3506,7 @@ Loomulikult on veel väljakutseid: reguleerimine, eraelu puutumatus, laiem kasut
 Üks asi on kindel: Bitcoin jätkab eksisteerimist; ta toodab uue ploki umbes iga 10 minuti tagant, väsimatult, päevast päeva, aastast aastasse. Me näeme rohkem kasutajaid, rahakotte, vahetusi, aga ka rohkem regulatsioone, tehnilisi takistusi, kriise ja uuendusi.
 
 
-![BTC102-Bitcoin](assets/fr/098.webp)
+![image](assets/et/102.webp)
 
 
 Kuna ülemaailmsed kriisid jätkuvad ja inflatsioon vähendab fiat-valuutade ostujõudu, siis tõmbab Bitcoin loomulikult rohkem inimesi, kes otsivad finantsvabadust ja individuaalset suveräänsust. See dünaamika tugevdab Bitcoin-i ja meelitab uusi talente, et parandada selle protokolli, selle skaalamiskihte ja igapäevaseid kasutusjuhtumeid turvalisuse, privaatsuse ja kasulikkuse osas.
@@ -3512,39 +3544,39 @@ Teie teekond ei lõpe siin. Bitcoin on pidevalt arenev maailm ja alati on veel r
 - Digitaalse turvalisuse tõstmiseks alustage meie sissejuhatavast turvakursusest:
 
 
-https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 - Kui teid köidab Bitcoin majanduslik ja filosoofiline külg, vaadake neid põhjalikke kursusi:
 
 
-https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
+https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-https://planb.network/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
-https://planb.network/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
+https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 
 - Ettevõtjad, kes on huvitatud Bitcoin integreerimisest oma ettevõtte strateegiasse, ei tohiks vahele jätta::
 
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 
 - Et avastada põnev lugu Bitcoin loomise ja süsteemi algusaastate taga, soovitan seda kursust väga:
 
 
-https://planb.network/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
+https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 - Lõpuks, kui olete huvitatud Bitcoin ja selle ökosüsteemi tehnilistest aspektidest, uurige neid koolituskursusi:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 #### 3. Panustage Bitcoin ökosüsteemi
 
@@ -3558,7 +3590,7 @@ Bitcoin on rohkem kui lihtsalt finantsinstrument; see on liikumine. Sõltuvalt t
 - **Liitu kohaliku kogukonnaga**: Osalege üritustel, kohtumistel ja foorumitel, et kohtuda teiste bitcoin'i kasutajatega ja Exchange seisukohtadega viimaste arengute kohta.
 
 
-Kui soovite aidata teisi harida, Plan ₿ Network otsib alati toetajaid! Kogu meie hariduslik sisu on avatud lähtekoodiga ja asub GitHubis. Ootame kaastöötajaid, kes aitaksid korrigeerida ja tõlkida sisu erinevatesse keeltesse; Exchange jaoks mõned Sats! Kas nüüd või hiljem oma Bitcoin teekonnal, olete oodatud liituma [meie Telegrami grupi kaastöötajatele](https://t.me/PlanBNetwork_ContentBuilder) Plan ₿ Network.
+Kui soovite aidata teisi harida, Plan ₿ Academy otsib alati toetajaid! Kogu meie hariduslik sisu on avatud lähtekoodiga ja asub GitHubis. Ootame kaastöötajaid, kes aitaksid korrigeerida ja tõlkida sisu erinevatesse keeltesse; Exchange jaoks mõned Sats! Kas nüüd või hiljem oma Bitcoin teekonnal, olete oodatud liituma [meie Telegrami grupi kaastöötajatele](https://t.me/PlanBNetwork_ContentBuilder) Plan ₿ Academy.
 
 
 ### Viimased sõnad
@@ -3567,7 +3599,7 @@ Kui soovite aidata teisi harida, Plan ₿ Network otsib alati toetajaid! Kogu me
 Suur tänu, et võtsite osa BTC102 kursusest.
 
 
-Minu nimi on Rogzy, Découvre Bitcoin asutaja ja Plan ₿ Network kaasasutaja; platvormi, mille on võimaldanud meie uskumatud uued partnerid Tether ja Fulgur Ventures ning meie ühine missioon harida võimalikult palju inimesi Bitcoin kohta.
+Minu nimi on Rogzy, Découvre Bitcoin asutaja ja Plan ₿ Academy kaasasutaja; platvormi, mille on võimaldanud meie uskumatud uued partnerid Tether ja Fulgur Ventures ning meie ühine missioon harida võimalikult palju inimesi Bitcoin kohta.
 
 
 Teie tagasiside on uskumatult väärtuslik. Jäta julgelt kommentaarid platvormile ja anna meile teada, mida arvad kursuse uuendatud versioonist. Teie ettepanekud aitavad meil jätkuvalt parandada meie sisu kvaliteeti.
@@ -3579,7 +3611,7 @@ Nüüd olete valmis sooritama lõpueksamit; 40 küsimusest koosnev test kinnitab
 Palju õnne!
 
 
-Ma loodan, et näeme teid varsti jälle mõnel teisel Plan ₿ Network kursusel; olgu see siis üks minu või mõne teise hämmastava õpetaja kursus kogukonnas. Ja kes teab, võib-olla kohtume isegi isiklikult mõnel konverentsil, üritusel või Bitcoin kohtumisel.
+Ma loodan, et näeme teid varsti jälle mõnel teisel Plan ₿ Academy kursusel; olgu see siis üks minu või mõne teise hämmastava õpetaja kursus kogukonnas. Ja kes teab, võib-olla kohtume isegi isiklikult mõnel konverentsil, üritusel või Bitcoin kohtumisel.
 
 
 Veel kord, õnnitlen teid selle puhul, kui kaugele te olete jõudnud. Ja pidage meeles, et minu peamine eesmärk jääb alati samaks:

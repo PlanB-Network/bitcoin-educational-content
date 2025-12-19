@@ -1,0 +1,9 @@
+question: Jaká je výchozí hodnota parametru maxconnections v Bitcoin core?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections omezuje celkový počet příchozích a odchozích připojení. Výchozí hodnota je 125.
+reviewed: true

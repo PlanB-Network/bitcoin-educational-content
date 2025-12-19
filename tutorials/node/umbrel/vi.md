@@ -708,7 +708,7 @@ Kết nối Tor là cần thiết nếu bạn muốn truy cập nút của mình
 Để biết thêm thông tin về phần mềm Sparrow Wallet, chúng tôi có hướng dẫn toàn diện:
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 ## Phần kết luận
 
 

@@ -1,0 +1,8 @@
+question: Milline teave avaldatakse Taproot-võimekusega HTLC võrgus Bitcoin, kui vahetus ebaõnnestub ja üks osapool peab oma raha tagasi saama vastase tee kaudu?
+answer: Ainult konkreetne Merkle'i puu haru, mis sisaldab fondi taastamiseks vajalikke hash/ajaluku tingimusi
+wrong_answers:
+  - "Täielik skripti loogika, sealhulgas kõik võimalikud täitmisviisid ja mõlema osapoole individuaalsed avalikud võtmed"
+  - Esialgne saladus ja kõik MuSig2 võtmekombinatsiooniprotsessis kasutatavad agregeeritud avalikud võtmed
+  - Kogu HTLC lepingu tingimused, sealhulgas vahetussummad, tähtajad ja nii Lightning kui ka Liquid aadressid
+explanation: |
+  Taproot organiseerib HTLC tingimused Merkle'i puustruktuuris, mis võimaldab selektiivset avalikustamist. Kui koostöö ebaõnnestub, avalikustatakse ainult konkreetne haru, mis on vajalik raha tagasinõudmise õiguse tõendamiseks, samas kui muud lepingu üksikasjad jäävad varjule. See erineb varasematest HTLC-dest, mis avalikustasid täielikud skriptid, ja erineb koostööjuhtumitest, mille puhul ei avalikustata üldse mingeid skripti üksikasju.

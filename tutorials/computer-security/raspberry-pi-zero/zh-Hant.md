@@ -6,7 +6,7 @@ description: 如何使用 Raspberry Pi Zero 和配件套件建造一個最小化
 
 
 
-如果您已經在 Plan ₿ Network 的網頁上看了一段時間，您已經了解到其中一個最被提倡的安全設定，幾乎是必須的，**是透過離線儲存您的私人金鑰來管理資金**。
+如果您已經在 Plan ₿ Academy 的網頁上看了一段時間，您已經了解到其中一個最被提倡的安全設定，幾乎是必須的，**是透過離線儲存您的私人金鑰來管理資金**。
 
 
 
@@ -14,7 +14,7 @@ description: 如何使用 Raspberry Pi Zero 和配件套件建造一個最小化
 
 
 
-要離線管理私鑰，需要一台始終與網路斷開的裝置，無論是[硬體錢包](https://planb.network/resources/glossary/hardware-wallet)還是專門用於此特定功能的隔離電腦。
+要離線管理私鑰，需要一台始終與網路斷開的裝置，無論是[硬體錢包](https://planb.academy/resources/glossary/hardware-wallet)還是專門用於此特定功能的隔離電腦。
 
 
 
@@ -500,7 +500,7 @@ top
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
+https://planb.academy/tutorials/wallet/desktop/electrum-airgap-62b5a4c6-a221-4d41-9a62-4618c53d8223
 
 ## 結論
 

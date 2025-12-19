@@ -1,0 +1,9 @@
+question: Theo các yêu cầu định nghĩa nguồn mở, điều gì phải xảy ra khi mã nguồn bị cố tình làm tối nghĩa trong bản phân phối phần mềm nguồn mở?
+answer: Mã nguồn cố tình bị làm tối nghĩa vi phạm các nguyên tắc nguồn mở và không được phép
+wrong_answers:
+  - Mã được làm tối nghĩa phải đi kèm với tài liệu hướng dẫn chi tiết giải thích chức năng của nó
+  - Mã được làm tối nghĩa có thể chấp nhận được miễn là các tệp nhị phân đã biên dịch cũng được cung cấp
+  - Mã được làm tối nghĩa phải được cung cấp thông qua một bản tải xuống riêng biệt với chi phí tái tạo
+explanation: |
+  Định nghĩa nguồn mở nêu rõ rằng "việc cố tình làm tối nghĩa mã nguồn là không được phép". Đây là một yêu cầu cơ bản vì việc làm tối nghĩa ngăn cản việc xem xét, sửa đổi và hiểu mã nguồn một cách có ý nghĩa, điều này đi ngược lại mục đích cốt lõi của phần mềm nguồn mở. Mã nguồn phải ở "dạng được lập trình viên ưa thích nhất để sửa đổi chương trình", khiến việc làm tối nghĩa mã nguồn không tương thích với các nguyên tắc nguồn mở bất kể tài liệu hay phương pháp phân phối.
+reviewed: false

@@ -1,0 +1,8 @@
+question: What is the primary purpose of setting a Confirmation Target when performing a Loop In operation?
+answer: To balance the trade-off between transaction speed and miner fees for the initial on-chain transaction
+wrong_answers:
+  - To determine the maximum amount of Bitcoin that can be swapped in a single Loop In operation
+  - To set the routing fees that will be paid to Lightning Network nodes during the swap process
+  - To establish the service fee percentage that will be charged by the Loop provider for the transaction
+explanation: |
+  The Confirmation Target in Loop In operations specifically controls the timing of the initial on-chain transaction that funds the swap. A low confirmation target means higher miner fees but faster confirmation, while a high confirmation target results in lower fees but slower settlement. This setting doesn't affect the swap amount limits, routing fees (which apply to Lightning payments, not the on-chain portion), or the Loop provider's service fees, which are separate cost components.

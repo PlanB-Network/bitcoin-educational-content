@@ -41,7 +41,7 @@ Gå till [den officiella nedladdningssidan för Sparrow wallet] (https://sparrow
 Det är viktigt att kontrollera programvarans integritet och äkthet innan du installerar den. Om du inte vet hur du gör detta hittar du en fullständig handledning här :
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 När Sparrow har installerats kan du hoppa över de inledande förklarande skärmarna och gå direkt till skärmen för anslutningshantering.
 
@@ -110,9 +110,9 @@ Observera att om du använder en beskuren Bitcoin Core-nod kommer du inte att ku
 För att konfigurera en Bitcoin Core-nod kan du läsa någon av följande handledningar, beroende på operativsystem:
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 På Sparrow, gå till fliken "*Bitcoin Core*".
 
@@ -317,7 +317,7 @@ Du kan gravera den på papper eller, för ökad säkerhet, gravera den på rostf
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -328,7 +328,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 Du kan också välja att lägga till en passphrase BIP39 genom att klicka på rutan "*Use passphrase*". Varning: att använda en passphrase kan vara mycket användbart, men om du inte förstår hur den fungerar kan det vara mycket riskabelt. Därför rekommenderar jag starkt att du läser den här korta teoretiska artikeln om ämnet:
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 När du har sparat din Mnemonic och alla passphrase till ett fysiskt medium klickar du på "*Bekräfta säkerhetskopiering*".
 
@@ -381,7 +381,7 @@ Det finns två huvudsakliga sätt att ansluta din Hardware Wallet till Sparrow:
 Sparrow stöder alla dessa kommunikationsmetoder och är kompatibel med de flesta hårdvaruplånböcker på marknaden.
 
 
-I den här handledningen använder jag en Ledger Nano S med en kabel, men proceduren är liknande i Air-Gap-läge. Du hittar detaljer som är specifika för din Hardware Wallet i dess dedikerade handledning om Plan ₿ Network.
+I den här handledningen använder jag en Ledger Nano S med en kabel, men proceduren är liknande i Air-Gap-läge. Du hittar detaljer som är specifika för din Hardware Wallet i dess dedikerade handledning om Plan ₿ Academy.
 
 
 Innan du börjar ska du kontrollera att Wallet redan är konfigurerad på din Hardware Wallet. Om du använder en trådbunden anslutning ansluter du den till datorn via kabeln.
@@ -474,7 +474,7 @@ Om du använder en Hardware Wallet är det mycket viktigt att du kontrollerar Ad
 ![Image](assets/fr/44.webp)
 
 
-För Hardware Wallet Air-Gap-användare varierar Address-verifieringen beroende på enhetsmodell. Se den dedikerade Plan ₿ Network-handledningen för exakta instruktioner.
+För Hardware Wallet Air-Gap-användare varierar Address-verifieringen beroende på enhetsmodell. Se den dedikerade Plan ₿ Academy-handledningen för exakta instruktioner.
 
 
 När betalaren har sänt transaktionen visas den på fliken "*Transaktioner*". Du kan klicka på den för att få mer information, till exempel txid.
@@ -555,7 +555,7 @@ Detta tar dig till en sida som beskriver Elements för din transaktion. Kontroll
 Det är viktigt att behålla Sighash som standard. För att förstå varför, ta en titt på den här utbildningen, där jag förklarar allt du behöver veta om Sighash:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 På nästa skärm varierar alternativen beroende på vilken typ av Wallet du använder:
 
@@ -671,4 +671,4 @@ Om du tyckte att den här handledningen var användbar skulle jag vara mycket ta
 Jag rekommenderar också den här andra handledningen där jag förklarar hur man konfigurerar Hardware Wallet COLDCARD Q med Sparrow wallet :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

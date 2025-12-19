@@ -1,0 +1,9 @@
+question: 誰維護用於初始對等體發現的 DNS seed 伺服器？
+answer: 生態系統開發人員
+wrong_answers:
+  - 網際網路服務供應商
+  - Satoshi Nakamoto
+  - Mining 水池
+explanation: |
+  DNS 種子由知名的開發者 (Wuille、Corallo、Dashjr 等) 所維護，並提供活動節點 IP 以啟動連線。
+reviewed: true

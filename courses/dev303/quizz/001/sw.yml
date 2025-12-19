@@ -1,0 +1,8 @@
+question: Kusudi kuu la Rustup katika mfumo ikolojia wa maendeleo wa Rust ni lipi?
+answer: Mfumo kamili wa usimamizi wa mnyororo wa zana kwa ajili ya kusakinisha na kusimamia Rust
+wrong_answers:
+  - Meneja wa kifurushi cha kushughulikia utegemezi katika miradi ya Rust
+  - Kifaa cha kisasa kinachochambua msimbo na kutoa mapendekezo ya uboreshaji
+  - Mfumo wa ujenzi unaokusanya programu za Rust na kusimamia muundo wa mradi
+explanation: |
+  Rustup imeundwa mahsusi kama mfumo wa usimamizi wa mnyororo wa zana unaoshughulikia usakinishaji, usasishaji, na usimamizi wa Rust yenyewe katika miradi na majukwaa tofauti. Ingawa Cargo hutumika kama msimamizi wa vifurushi na mfumo wa ujenzi wa miradi ya Rust, na Clippy hufanya kazi kama kiunganishi cha uchambuzi wa msimbo, Rustup hufanya kazi katika kiwango cha juu kwa kudhibiti mazingira yote ya ukuzaji wa Rust. Inaruhusu wasanidi programu kusakinisha matoleo tofauti ya Rust, kudhibiti malengo ya mkusanyiko wa majukwaa mbalimbali, na kusasisha kwa urahisi hadi matoleo mapya ya Rust kwa amri rahisi kama 'sasisho la rustup'.

@@ -1,0 +1,9 @@
+question: عنوان مقاله سفید Satoshi ناکاموتو که در سال 2008 منتشر شد چیست؟
+answer: Bitcoin یک سیستم نقدی الکترونیکی همتا به همتا
+wrong_answers:
+  - Bitcoin یک سیستم طلای دیجیتال غیرمتمرکز
+  - Bitcoin آینده پول
+  - شبکه پرداخت مبتنی بر Blockchain Bitcoin
+explanation: |
+  Satoshi مقاله سفید ناکاموتو، Bitcoin یک سیستم نقدی الکترونیکی همتا به همتا، در سال 2008 منتشر شد.
+reviewed: true

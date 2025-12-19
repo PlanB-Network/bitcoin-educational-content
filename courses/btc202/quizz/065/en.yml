@@ -1,9 +1,9 @@
 question: What is the first step to take in the event of a bug on Umbrel?
 answer: Generate a diagnostics bundle
 wrong_answers:
-  - Reinstall Bitcoin core and redo IBD
+  - Reinstall Bitcoin Core and redo IBD
   - Clear cache
   - Disable 2FA
 explanation: |
-  In the event of a problem, we start by generating a diagnostics bundle in the troubleshooting section to analyze the bug and keep a record.
-reviewed: false
+  In the event of a problem, we begin by generating a diagnostics bundle in the troubleshooting section to analyze the issue and maintain a record.
+reviewed: true

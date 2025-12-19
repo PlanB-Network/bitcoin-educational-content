@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste beperking waar ontwikkelaars omheen moeten werken bij het gebruik van UniFFI voor de ontwikkeling van mobiele toepassingen die responsieve gebruikersinterfaces vereisen?
+answer: UniFFI ondersteunt alleen synchrone interfaces, waardoor ontwikkelaars asynchrone bewerkingen moeten afhandelen via aparte threading-mechanismen
+wrong_answers:
+  - UniFFI kan niet omgaan met complexe datatypes zoals enums en structs, waardoor de rijkdom van mobiele API interfaces beperkt wordt
+  - UniFFI genereert bindingen die niet geheugenveilig zijn over taalgrenzen heen, waardoor handmatig geheugenbeheer nodig is
+  - UniFFI ondersteunt geen vertaling van foutafhandeling, waardoor ontwikkelaars gedwongen worden om aangepaste foutafhandeling te implementeren in elke doeltaal
+explanation: |
+  De belangrijkste beperking van UniFFI is het gebrek aan ondersteuning voor asynchrone interfaces - alle gegenereerde bindingen zijn synchroon. Dit creëert uitdagingen voor mobiele ontwikkeling waar responsieve UI's kritisch zijn, omdat ontwikkelaars hun eigen oplossingen voor threading moeten implementeren om te voorkomen dat de hoofd thread wordt geblokkeerd. De foute antwoorden zijn onjuist omdat UniFFI eigenlijk uitblinkt in het omgaan met complexe types zoals enums en structs, automatische geheugenveilige marshaling biedt over taalgrenzen heen, en een verfijnde vertaling voor foutafhandeling heeft die Rust resultaattypes omzet in native uitzonderingsmodellen voor doeltalen.

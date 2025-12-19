@@ -98,7 +98,7 @@ Ushobora kuyindika ku mpapuro, canke kugira ngo wongere uyikingire, ndagusavye k
 Kugira ngo uronke ibindi bisobanuro ku buryo bwiza bwo kubika no gucunga ijambo ryawe rya Mnemonic, ndagusavye cane gukurikira iyi yindi nyigisho, cane cane nimba uri umutanguzi:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Nivyo, ntushobora kwigera usangira aya majambo kuri internet, nk'uko ndiko ndabikora muri iyi nyigisho. Iyi nkuru Wallet izokoreshwa gusa kuri Testnet kandi izokurwaho ku mpera y'inyigisho.**_
 
@@ -340,4 +340,4 @@ Urasangwa, ubu wararonse ubuhinga bwo gukoresha Portal! Niwaba wabonye ko iyi ny
 Kugira umenye vyinshi, raba inyigisho yacu yuzuye ku buryo ama wallets ya HD akora:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

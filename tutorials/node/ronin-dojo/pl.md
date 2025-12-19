@@ -14,7 +14,7 @@ ten samouczek służy wyłącznie celom edukacyjnym i informacyjnym. Nie popiera
 
 ten samouczek jest poświęcony instalacji RoninDojo v1. Aby skorzystać z najnowszych ulepszeń i funkcji, zdecydowanie zalecamy zapoznanie się z naszym samouczkiem poświęconym bezpośredniej instalacji RoninDojo v2 na Raspberry Pi:_
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8
 
 ---
 

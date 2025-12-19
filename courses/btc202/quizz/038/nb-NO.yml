@@ -1,0 +1,9 @@
+question: Hvorfor anbefales ikke en HDD for en Bitcoin-node?
+answer: Fordi det reduserer IBD og generell bruk betydelig
+wrong_answers:
+  - Fordi den ikke kan lagre Blockchain-filer
+  - Fordi den bruker for lite energi og risikerer å eksplodere
+  - Fordi den er inkompatibel med Bitcoin core
+explanation: |
+  Mekaniske skiver begrenser ytelsen, forlenger IBD betydelig og slites raskt ut under nodebelastning.
+reviewed: true

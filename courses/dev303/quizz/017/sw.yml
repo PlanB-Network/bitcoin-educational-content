@@ -1,0 +1,8 @@
+question: Ni vipengele vipi vitatu vinavyounda muundo wa String katika mpangilio wa kumbukumbu wa Rust?
+answer: Kiashiria cha kukusanya data, urefu wa sasa, na jumla ya uwezo
+wrong_answers:
+  - Kiashiria cha kuweka data kwenye rundo, ukubwa wa sasa, na urefu wa juu zaidi
+  - Anwani ya kumbukumbu, idadi ya herufi, na aina ya mgao
+  - Rejeleo la data, ukubwa wa baiti, na hali ya umiliki
+explanation: |
+  Mfuatano katika Rust una vipengele vitatu hasa vilivyohifadhiwa kwenye mrundiko: kielekezi cha data ya herufi zilizotengwa kwa mrundiko, urefu wa sasa wa maudhui ya mrundiko, na uwezo wote wa bafa iliyotengwa. Muundo huu huruhusu mifuatano kukua na kupunguzwa kwa ufanisi huku ikidumisha ujuzi wa mipaka yao. Chaguzi zingine si sahihi kwa sababu zinarejelea maeneo yasiyo sahihi (mrundiko badala ya mrundiko), hutumia istilahi zisizo sahihi (ukubwa dhidi ya urefu, idadi ya herufi dhidi ya urefu wa baiti), au zinajumuisha vipengele visivyopo kama vile aina ya mgawanyo au hali ya umiliki.

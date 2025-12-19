@@ -1,0 +1,9 @@
+question: Bitcoin coreにおいて、そのtxidによってトランザクションを検索するために有効化できるオプションのインデックスはどれか。
+answer: txインデックス
+wrong_answers:
+  - アドインデックス
+  - ブロックインデックス
+  - エレクトラムインデックス
+explanation: |
+  txindex=1オプションは、トランザクションをその一意識別子(txid)で問い合わせるために使用される。
+reviewed: true

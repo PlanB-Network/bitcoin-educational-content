@@ -27,7 +27,7 @@ Katika somo hili, ningependa kukujulisha kwa suluhisho mojawapo kama hili: **COL
 Kwa vile COLDCARD Q inatoa idadi kubwa ya vitendakazi, ninapendekeza kugawanya matumizi yake katika mafunzo 2. Katika somo hili la kwanza, tutaangalia usanidi wa awali na vitendaji vya msingi vya kifaa. Kisha, katika somo la pili, tutaangalia jinsi ya kunufaika na chaguo zako zote za kina za COLDCARD.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Tunakuletea COLDCARD Q
@@ -113,7 +113,7 @@ Ikiwa unapendelea kuwasha COLDCARD yako bila kuiunganisha kwenye kompyuta (air-g
 Kwa mafunzo haya, utahitaji pia Sparrow Wallet ili kudhibiti Bitcoin Wallet yako kwenye kompyuta yako. Pakua [Sparrow Wallet](https://sparrowwallet.com/download/) kutoka kwa tovuti rasmi. Ninakushauri sana uangalie uhalisi wake (na GnuPG) na uadilifu (kupitia Hash) kabla ya kuendelea na usakinishaji. Ikiwa hujui jinsi ya kufanya hivyo, fuata mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Uteuzi wa msimbo wa PIN
 
@@ -232,7 +232,7 @@ Katika hatua hii, tunapendekeza sana kuangalia uadilifu na uhalisi wa firmware i
 Ikiwa hujui mchakato huu wa uthibitishaji, ninapendekeza ufuate mafunzo haya:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Chukua kadi ya microSD na uhamishe faili ya programu dhibiti (hati katika `.dfu`) kwake. Ingiza kadi ya microSD kwenye mojawapo ya milango ya COLDCARD yako.
 
@@ -291,7 +291,7 @@ Katika menyu hii, utapata chaguo mbalimbali za kubinafsisha, kama vile kuweka mw
 Tutaangalia mipangilio mingine ya kina katika mafunzo yanayofuata:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Kutengeneza Bitcoin Wallet
 
@@ -486,7 +486,7 @@ Kabla ya kupokea bitcoins zako za kwanza kwenye Wallet yako, **Ninakushauri sana
 Ili kupata maelezo zaidi kuhusu jinsi ya kufanya jaribio la urejeshi, ninapendekeza upate mafunzo haya mengine:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Pokea bitcoins
 
@@ -563,7 +563,7 @@ Sasa unaweza kuongeza "*Lebo*" ili kuelezea chanzo cha bitcoins ambacho kitalind
 Kwa habari zaidi juu ya kuweka lebo, ninapendekeza pia mafunzo haya mengine:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Kisha unaweza kutumia Address kupokea bitcoins.
 
@@ -712,4 +712,4 @@ Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru sana ikiwa utaacha kido
 Pia ninapendekeza uangalie mafunzo haya mengine ambayo tunajadili chaguo za kina za COLDCARD Q :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

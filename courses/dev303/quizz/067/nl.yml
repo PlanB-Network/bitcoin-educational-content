@@ -1,0 +1,8 @@
+question: Hoe kan de platformoverschrijdende compatibiliteit van Rust de ontwikkeling van Bitcoin toepassingen in verschillende implementatieomgevingen ten goede komen?
+answer: Unified codebases kunnen draaien op mobiele platformen, webbrowsers via WebAssembly en traditionele besturingssystemen
+wrong_answers:
+  - Het verwerkt automatisch de omrekening van de cryptocurrency wisselkoersen voor verschillende regionale markten en valuta's
+  - Het biedt ingebouwde synchronisatieprotocollen voor blockchain die identiek werken voor alle netwerkarchitecturen
+  - Het biedt native integratie met hardware wallets en beveiligingsmodules op elk ondersteund platform
+explanation: |
+  Rust's cross-platform mogelijkheden stellen ontwikkelaars in staat om Bitcoin toepassingen te schrijven die kunnen worden ingezet in verschillende omgevingen, waaronder mobiele (Android/iOS), webbrowsers (via WebAssembly compilatie) en traditionele desktop besturingssystemen. Deze veelzijdigheid wordt gedemonstreerd door projecten zoals Mutiny Wallet, dat gebruik maakt van Rust's WebAssembly ondersteuning om Lightning wallets te maken die direct in browsers draaien. De foute antwoorden beschrijven functies die niets te maken hebben met platformoverschrijdende compatibiliteit - valutaconversie is een functie op applicatieniveau, blockchainprotocollen zijn netwerklaagzaken en hardware-integratie vereist specifieke API's in plaats van algemene platformoverschrijdende ondersteuning.

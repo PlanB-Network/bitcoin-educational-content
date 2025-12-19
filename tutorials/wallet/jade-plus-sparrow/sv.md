@@ -34,7 +34,7 @@ Jade Plus är kompatibelt med de flesta programvaror för Wallet-hantering. Här
 I den här handledningen ställer vi in en avancerad konfiguration av Jade Plus med den stationära Sparrow wallet-programvaran i QR-kodläge. Den här konfigurationen är idealisk för användare på mellannivå eller erfarna användare. Om du letar efter ett enklare tillvägagångssätt för nybörjare rekommenderar jag att du tar en titt på den här handledningen där vi använder Jade Plus med Green Wallet via en Bluetooth-anslutning:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Säkerhetsmodellen Jade Plus
 
@@ -142,7 +142,7 @@ Du kan skriva den på kartongen som medföljer i lådan, eller för extra säker
 För mer information om det rätta sättet att spara och hantera din Mnemonic-fras rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 naturligtvis får du aldrig dela dessa ord på Internet, som jag gör i den här handledningen. Detta prov Wallet kommer endast att användas på Testnet och kommer att raderas i slutet av handledningen.
 
@@ -378,7 +378,7 @@ En BIP39 passphrase är ett valfritt lösenord som du kan välja fritt och som l
 Innan du konfigurerar det här alternativet på din Jade Plus rekommenderas det starkt att du läser den här artikeln för att fullt ut förstå den teoretiska driften av passphrase och undvika fel som kan leda till förlust av dina bitcoins :
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 När Jade fortfarande är låst (passphrase kan endast anges när enheten inte är upplåst), öppnar du menyn "*Options*".
 
@@ -444,7 +444,7 @@ Om din passphrase är giltig, bekräfta.
 Observera att BIP39- lösenfraser är skiftläges- och skrivfelskänsliga. Om du anger en passphrase som är något annorlunda än den som ursprungligen konfigurerades, kommer Jade inte att rapportera ett fel utan kommer att härleda en annan uppsättning kryptografiska nycklar som inte kommer att vara de i din ursprungliga Wallet.
 
 
-När du konfigurerar är det därför viktigt att du noterar fingeravtrycket för din huvudnyckel, som finns i det nedre högra hörnet på skärmen. Till exempel, med min passphrase `PBN`, är mitt huvudnyckelfingeravtryck `3AD1AE65`.
+När du konfigurerar är det därför viktigt att du noterar fingeravtrycket för din huvudnyckel, som finns i det nedre högra hörnet på skärmen. Till exempel, med min passphrase `Plan ₿ Academy`, är mitt huvudnyckelfingeravtryck `3AD1AE65`.
 
 
 ![Image](assets/fr/49.webp)
@@ -456,7 +456,7 @@ Varje gång du låser upp din Jade med din passphrase ska du kontrollera att fin
 Innan du får dina första bitcoins i din Wallet, ** rekommenderar jag starkt att du utför ett tomt återställningstest**. Anteckna viss referensinformation, t.ex. din xpub eller första mottagna Address, radera sedan din Wallet på Jade Plus medan den fortfarande är tom (`Optioner -> Enhet -> Fabriksåterställning`). Försök sedan att återställa din Wallet med hjälp av dina pappersbackuper av Mnemonic-frasen och alla passphrase. Kontrollera att cookie-informationen som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga. Om du vill veta mer om hur du utför en teståterställning kan du titta på den här andra handledningen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Konfigurera Wallet på Sparrow wallet
 
@@ -473,7 +473,7 @@ Börja med att ladda ner och installera Sparrow wallet [från den officiella web
 Se till att kontrollera programvarans äkthet och integritet före installationen. Om du inte vet hur du gör det kan du läsa den här handledningen:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 När Sparrow wallet är öppet klickar du på fliken "*File*" och sedan på "*New Wallet*".
 
@@ -649,4 +649,4 @@ Gratulerar, du vet nu hur du ställer in och använder Jade Plus i QR-läge. Om 
 Om du vill gå vidare rekommenderar jag den här andra handledningen om Jade Plus, där vi konfigurerar den via Bluetooth med Green-mobilappen:
 
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0

@@ -6,4 +6,4 @@ wrong_answers:
   - electrumindex
 explanation: |
   L’option txindex=1 permet d’interroger une transaction par son identifiant unique (txid).
-reviewed: false
+reviewed: true 

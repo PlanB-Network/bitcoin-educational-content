@@ -1,0 +1,9 @@
+question: Milline põhimõtteline muutus toimub Bitcoin julgeolekukulude struktuuris, kui blokksubsiidium läheneb nullile?
+answer: Turvakulud nihkuvad omanike poolt raha inflatsiooni kaudu makstavatelt kuludelt kulutajate poolt tehingutasude kaudu makstavatele kuludele
+wrong_answers:
+  - Turvakulud nihkuvad kaevandajate poolt riistvarainvesteeringute kaudu makstavatest kuludest sõlmede poolt elektritarbimise kaudu makstavatesse kuludesse
+  - Julgeolekukulude üleminek börsidel kauplemistasudest wallet teenusepakkujate poolt makstavate teenustasude kaudu
+  - Turvakulud nihkuvad arendajate poolt koodihoolduse kaudu makstavatelt kuludelt kasutajate poolt võrgustikus osalemise kaudu makstavatele kuludele
+explanation: |
+  Peatükis selgitatakse selgelt, et praegu maksavad omanikud Bitcoin turvalisuse eest raha inflatsiooni kaudu (uued mündid luuakse plokksubsiidiumi kaudu), kuid tulevikus, kui plokksubsiidium läheneb nullile, maksavad kulutajad turvalisuse eest tehingutasude kaudu. See kujutab endast põhimõttelist majanduslikku muutust selles osas, kes kannab võrgu turvalisuse säilitamise kulud, liikudes mudelilt, kus uute müntide loomine rahastab mining, mudelile, kus tehingutasud peavad andma kaevuritele piisava stiimuli võrgu kindlustamiseks.
+reviewed: false

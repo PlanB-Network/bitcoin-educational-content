@@ -100,7 +100,7 @@ F-Droid 提供您想要安裝的每個應用程式的全面資訊。
 
 
 
-https://planb.network/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
+https://planb.academy/tutorials/computer-security/communication/thunderbird-91d02325-0361-4641-b152-8975890284a8
 
 F-Droid 提供您所需的所有資訊，讓您決定使用應用程式是否能保護您的資料並提高您的隱私。掃描所有您要使用的應用程式，然後按一下 ** 安裝** 按鈕，下載並安裝您的應用程式。
 
@@ -187,4 +187,4 @@ F-Droid 根據官方原始碼和編譯指示，在自己的伺服器上編譯應
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

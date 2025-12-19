@@ -12,13 +12,13 @@ Kui soovite panustada PlanB võrgustikku, peate muudatuste tegemiseks kasutama G
 
 Kui teil pole aimugi, mis on GitHub, või soovite rohkem teada saada Git'i ja GitHub'iga seotud tehnilistest terminitest, soovitan teil lugeda meie sissejuhatavat artiklit, et tutvuda nende kontseptsioonidega.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
 - Alustuseks vajate ilmselgelt GitHub'i kontot. Kui teil juba on konto, saate sisse logida, vastasel juhul saate meie õpetuse abil luua uue konto.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -43,15 +43,15 @@ On olemas palju tarkvara, mis on spetsialiseerunud Markdown-failide redigeerimis
 - Installi Obsidian, käivita tarkvara, vali oma keel ja seejärel klõpsa `Quick Start`: ![github-desktop](assets/8.webp)
 - Jõuad Obsidian tarkvarasse. Praegu sul pole avatud ühtegi faili: ![github-desktop](assets/9.webp)
 
-## 3. samm: Tee PlanB Network repositoriost fork
+## 3. samm: Tee Plan ₿ Academy repositoriost fork
 
-- Mine PlanB Network andmerepositori aadressile: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
+- Mine Plan ₿ Academy andmerepositori aadressile: [https://github.com/PlanB-Network/bitcoin-educational-content](https://github.com/PlanB-Network/bitcoin-educational-content): ![github-desktop](assets/10.webp)
 - Sellelt lehelt klõpsa akna paremas ülanurgas asuval `Fork` nupul: ![github-desktop](assets/11.webp)
 - Loomismenüüs võid jätta vaikeseaded. Veendu, et `Copy the dev branch only` kast on märgitud, seejärel klõpsa `Create fork` nupul: ![github-desktop](assets/12.webp)
-- Seejärel jõuad oma PlanB Network repositori forki: ![github-desktop](assets/13.webp)
+- Seejärel jõuad oma Plan ₿ Academy repositori forki: ![github-desktop](assets/13.webp)
 See fork on eraldi repositorium originaalist, kuigi praegu sisaldab see sama andmeid. Nüüd hakkad töötama selle uue repositoriumiga.
 
-Oleme omamoodi teinud koopia PlanB Network allikarepositoriumist. Sinu fork (koopia) ja originaalrepositorium hakkavad nüüd arenema sõltumatult üksteisest. Originaalrepositoriumis võivad teised kaastöötajad lisada uusi andmeid, samal ajal kui sina oma forkis tegeled oma muudatustega.
+Oleme omamoodi teinud koopia Plan ₿ Academy allikarepositoriumist. Sinu fork (koopia) ja originaalrepositorium hakkavad nüüd arenema sõltumatult üksteisest. Originaalrepositoriumis võivad teised kaastöötajad lisada uusi andmeid, samal ajal kui sina oma forkis tegeled oma muudatustega.
 Nende kahe repositoriumi järjepidevuse säilitamiseks on vajalik neid perioodiliselt sünkroniseerida, et nad saaksid sama informatsiooni. Oma muudatuste saatmiseks allikarepositoriumisse kasutad nn **Pull Request**. Ja allikarepositoriumist muudatuste integreerimiseks oma forki kasutad GitHubi veebiliidesel saadaolevat **Sync fork** käsku.
 ![github-desktop](assets/14.webp)
 
@@ -65,7 +65,7 @@ Nende kahe repositoriumi järjepidevuse säilitamiseks on vajalik neid perioodil
 ![github-desktop](assets/17.webp)
 - Oota, kuni GitHub Desktop kloonib sinu forki kohalikult:
 ![github-desktop](assets/18.webp)
-- Pärast repositoriumi kloonimist pakub tarkvara sulle kahte võimalust. Sa pead valima esimese: `To contribute to the parent project`. See valik võimaldab sul esitada oma tulevase töö panusena vanemprojekti (`PlanB-Network/bitcoin-educational-content`), mitte ainult kui muudatusi sinu isiklikus forkis (`[username]/bitcoin-educational-content`). Kui valik on tehtud, klõpsa `Continue`:
+- Pärast repositoriumi kloonimist pakub tarkvara sulle kahte võimalust. Sa pead valima esimese: `To contribute to the parent project`. See valik võimaldab sul esitada oma tulevase töö panusena vanemprojekti (`Plan ₿ Academy/bitcoin-educational-content`), mitte ainult kui muudatusi sinu isiklikus forkis (`[username]/bitcoin-educational-content`). Kui valik on tehtud, klõpsa `Continue`:
 ![github-desktop](assets/19.webp)- Teie GitHub Desktop on nüüd õigesti seadistatud. Nüüd võite tarkvara taustal avatuna hoida, et jälgida meie poolt tehtavaid muudatusi.
 ![github-desktop](assets/20.webp)
 Sellel etapil oleme saavutanud teie repositooriumi kohaliku koopia loomise, mis on majutatud GitHubis. Meeldetuletuseks, see repositoorium on PlanB Networki allika repositooriumi fork. Teil on võimalik teha muudatusi selles kohalikus koopias, nagu lisada õpetusi, tõlkeid või parandusi. Kui need muudatused on tehtud, kasutate **Push origin** käsku, et saata oma kohalikud muudatused teie GitHubis majutatud forki.
@@ -90,12 +90,12 @@ Samuti on võimalik hankida muudatusi forkist, näiteks sünkroniseerimise ajal 
 
 ## 6. samm: Paigalda koodiredaktor
 
-Enamik teie muudatustest toimub Markdown formaadis failides (`.md`). Nende dokumentide redigeerimiseks võite kasutada Obsidiani, tarkvara, millest me varem rääkisime. Siiski, PlanB Network kasutab teisi failiformaate ja mõningaid neist peate muutma.
+Enamik teie muudatustest toimub Markdown formaadis failides (`.md`). Nende dokumentide redigeerimiseks võite kasutada Obsidiani, tarkvara, millest me varem rääkisime. Siiski, Plan ₿ Academy kasutab teisi failiformaate ja mõningaid neist peate muutma.
 
 Näiteks uue õpetuse loomisel peate looma YAML (`.yml`) faili, et sisestada oma õpetuse märksõnad, pealkiri ja õpetaja ID. Obsidian ei paku võimalust seda tüüpi failide muutmiseks, seega on teil vaja koodiredaktorit.
 Selleks on teil mitmeid võimalusi. Kuigi arvuti tavalist märkmikku saab nende muudatuste tegemiseks kasutada, ei ole see lahendus korraliku töö jaoks ideaalne. Soovitan valida spetsiaalselt selleks otstarbeks loodud tarkvara, nagu [VS Code](https://code.visualstudio.com/download) või [Sublime Text](https://www.sublimetext.com/download). Sublime Text, olles eriti kergekaaluline, on meie vajadusteks enam kui piisav. - Installige üks neist tarkvaradest ja hoidke see oma tulevaste muudatuste jaoks kõrvale. ![github-desktop](assets/26.webp)
 Palju õnne! Teie töökeskkond on nüüd seadistatud, et panustada PlanB Networki. Nüüd saate uurida meie teisi spetsiifilisi õpetusi iga panuse tüübi kohta (tõlkimine, toimetamine, kirjutamine.
 
-https://planb.network/tutorials/others
+https://planb.academy/tutorials/others
 
 ..).

@@ -6,4 +6,4 @@ wrong_answers:
   - Le blocage d’une transaction par le réseau
 explanation: |
   Une fois le seuil de percolation dépassé, une transaction se propage quasi instantanément dans tout le réseau Bitcoin.
-reviewed: false
+reviewed: true 

@@ -12,7 +12,7 @@ In diesem Tutorial werden wir den Prozess der Erstellung eines Geschäftskontos 
 
 Wenn Sie sich für das Thema der Integration von Bitcoin in Ihr Unternehmen interessieren, empfehle ich Ihnen auch unsere komplette theoretische Schulung zu diesem Thema zu entdecken:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Erstellen eines Bitfinex-Kontos
 
@@ -26,11 +26,11 @@ Füllen Sie die erforderlichen Informationen aus: Geben Sie Ihre geschäftliche 
 
 Tipps zur Verwendung und Sicherung starker, eindeutiger Passwörter finden Sie auch in diesem Tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Wir werden nun die 2FA konfigurieren, um das Konto zu sichern. Verwenden Sie eine Authentifizierungsanwendung auf Ihrem Smartphone, wie z. B. Google Authenticator oder Authy. Eine Anleitung zu diesem Tool finden Sie hier:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scannen Sie den QR-Code mit Ihrer App und geben Sie die angegebenen 6 Ziffern ein.
 
@@ -160,7 +160,7 @@ Bitfinex bietet auch Ein- und Auszahlungsmöglichkeiten über das Lightning Netw
 
 Wenn Sie sich für das Lightning Network interessieren, bieten wir Ihnen einen kompletten Schulungskurs an, damit Sie verstehen, wie es funktioniert:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Kauf und Verkauf von Bitcoins auf Bitfinex
 
@@ -241,4 +241,4 @@ Abhängig von den Zielen und der Struktur Ihres Unternehmens kann die Nutzung vo
 
 Für einen tieferen Einblick in dieses Thema empfehle ich diesen umfassenden Schulungskurs über die Integration von Bitcoin in Unternehmen, der im Detail das Hinzufügen von Cashflow, die Annahme von Bitcoin-Zahlungen und die Buchhaltung behandelt:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

@@ -1,0 +1,9 @@
+question: Wann muss ein Benutzer einen Indexer installieren?
+answer: So führen Sie einen Block explorer aus
+wrong_answers:
+  - Für Mining-Blöcke selbst
+  - So aktivieren Sie den Lightning Network
+  - So unterzeichnen Sie Transaktionen
+explanation: |
+  Für fortgeschrittene Anwendungen, wie z. B. einen lokalen Explorer, ist ein Indexer unverzichtbar.
+reviewed: true

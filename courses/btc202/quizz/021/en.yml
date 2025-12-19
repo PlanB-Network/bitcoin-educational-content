@@ -5,5 +5,5 @@ wrong_answers:
   - Seniority in the network
   - Nothing, because each node has one vote
 explanation: |
-  The influence on consensus rules depends on the economic activity supported by the node, not their number.
-reviewed: false
+  The influence on consensus rules depends on the economic activity supported by the node, not its number.
+reviewed: true

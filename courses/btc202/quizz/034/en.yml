@@ -1,9 +1,9 @@
 question: What's the main difference between a raw implementation and a node-in-a-box?
-answer: The presence of a Interface and integrated applications
+answer: The presence of an interface and integrated applications
 wrong_answers:
   - Network compatibility
   - Blockchain size stored on disk
   - The protocol and currency used
 explanation: |
-  A raw implementation installs only the node software, while a node-in-a-box adds a Interface, an App Store and integrated services.
-reviewed: false
+  A raw implementation installs only the node software, while a node-in-a-box adds an interface, an App Store, and integrated services.
+reviewed: true

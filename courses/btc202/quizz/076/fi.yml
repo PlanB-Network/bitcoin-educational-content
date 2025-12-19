@@ -1,0 +1,9 @@
+question: Mikä on Mempool:n oletuskokorajoitus Bitcoin core:ssa?
+answer: 300 MB
+wrong_answers:
+  - 256 MT
+  - 512 MT
+  - 1024 MT
+explanation: |
+  Oletusarvoisesti Bitcoin core rajoittaa Mempool:n 300 Mt:iin. Tämän ylittävältä osalta se hylkää vähemmän kannattavat tapahtumat.
+reviewed: true

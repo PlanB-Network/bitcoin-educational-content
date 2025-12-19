@@ -1,0 +1,9 @@
+question: Điều gì khiến quá trình xử lý giao dịch của Bitcoin có khả năng chống kiểm duyệt?
+answer: Thứ tự giao dịch được thực hiện tập thể bởi một nhóm thợ đào năng động mà bất kỳ ai cũng có thể tham gia hoặc rời khỏi
+wrong_answers:
+  - Xác thực giao dịch được mã hóa bằng các giao thức mật mã tiên tiến mà chính phủ không thể phá vỡ
+  - Hồ sơ giao dịch được lưu trữ trên nhiều máy chủ sao lưu do các tổ chức đáng tin cậy khác nhau kiểm soát
+  - Phí giao dịch được tự động điều chỉnh để ngăn chặn các cuộc tấn công kinh tế từ các cơ quan tập trung
+explanation: |
+  Bitcoin đạt được khả năng chống kiểm duyệt thông qua cơ chế phi tập trung hóa thợ đào, trong đó việc sắp xếp giao dịch được thực hiện tập thể bởi tất cả thợ đào lựa chọn tham gia. Điều này tạo ra một hệ thống động, nơi bất kỳ ai cũng có thể tự do tham gia hoặc rời khỏi quy trình mining, loại bỏ bất kỳ điểm kiểm soát đơn lẻ nào có thể bị áp lực kiểm duyệt giao dịch. Các câu trả lời sai mô tả các tính năng kỹ thuật, bên đáng tin cậy hoặc cơ chế kinh tế không giải quyết được vấn đề cốt lõi của việc kiểm soát phi tập trung đối với quá trình xử lý giao dịch.
+reviewed: false

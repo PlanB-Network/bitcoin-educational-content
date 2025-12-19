@@ -81,7 +81,7 @@ Session kemudian akan menampilkan frasa mnemonik. Salin frasa tersebut dengan ha
 
 Frasa ini berfungsi serupa dengan frasa mnemonik yang digunakan dalam dompet Bitcoin. Oleh karena itu, saya merekomendasikan Anda untuk melihat tutorial lain ini, di mana saya menjelaskan praktik terbaik untuk menyimpan frasa mnemonik:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Harap diperhatikan**: Tidak seperti frasa Mnemonic yang digunakan pada dompet Bitcoin, pada Session, **Anda harus menyimpan setiap kata secara keseluruhan**. Empat huruf pertama saja tidak cukup!
 
@@ -213,4 +213,4 @@ Sekarang Anda dapat mengakses percakapan Anda dari komputer.
 Selamat, Anda sekarang sudah mahir menggunakan aplikasi Session, sebuah alternatif yang sangat baik dari pada WathsApp!
 Saya juga merekomendasikan tutorial lain ini, di mana saya menjelaskan tentang Threema, alternatif lain yang menarik untuk aplikasi kirim pesan Anda:
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

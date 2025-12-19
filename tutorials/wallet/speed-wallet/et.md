@@ -49,7 +49,7 @@ Selles õpetuses tutvustame teile kõiki neid aspekte, et muuta teie kogemus Spe
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Alustamine Speed Wallet-ga
 
@@ -79,7 +79,7 @@ Speed Wallet nõuab kasutajakonto loomist. Saate selle luua oma Google'i kontolt
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Kui teie konto on loodud, soovitame teil luua topeltautentimise süsteemi või P
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Selleks minge rakenduse seadistustesse, seejärel aktiveerige topeltautentimine ja biomeetriline kontroll.
 
@@ -205,9 +205,9 @@ Valikud **Ostmine** ja **Vahetus** võimaldavad sul Exchange bitcoin'i teiste Sp
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Vaadake allpool meie õpetust, kuidas Bitrefilliga alustada.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Teenida preemiaid
 
@@ -327,7 +327,7 @@ Lehel **Wallet** valiku **Settings** jaotises **Mini Apps** saate kohandada ja h
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Kiirus Wallet ei ole ainult mobiilile!
 
@@ -401,4 +401,4 @@ Olete jõudnud meie Speed Wallet õpetuse lõppu. Kui leidsite selle õpetuse ka
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

@@ -1,5 +1,5 @@
-question: `cargo new project_name` 指令會自動建立什麼作為專案結構的一部分？
-answer: 一個 Git 儲存庫、Cargo.toml 檔案和包含 Hello World 程式的基本 main.rs 檔案
+question: "`cargo new project_name` 指令會自動建立什麼作為專案結構的一部分？"
+answer: "一個 Git 儲存庫、Cargo.toml 檔案和包含 Hello World 程式的基本 main.rs 檔案"
 wrong_answers:
   - 只有 Cargo.toml 配置檔案和空的原始目錄結構
   - 完整的測試套件、文件檔案和生產就緒的組態

@@ -1,0 +1,8 @@
+question: Cơ chế bảo mật chính nào đảm bảo rằng cơ sở hạ tầng Greenlight không thể truy cập vào tiền của người dùng mặc dù đang lưu trữ các node Lightning trên đám mây?
+answer: Khóa riêng tư không bao giờ rời khỏi thiết bị của người dùng và tất cả các thao tác đều yêu cầu ký ứng dụng chủ động.
+wrong_answers:
+  - Ví đa chữ ký với các mảnh khóa phân tán trên nhiều nhà cung cấp dịch vụ đám mây.
+  - Các mô-đun bảo mật phần cứng mã hóa tất cả các giao dịch trước khi xử lý trên đám mây.
+  - Hợp đồng thông minh có thời hạn tự động hoàn trả tiền nếu xảy ra truy cập trái phép.
+explanation: |
+  Bộ SDK Breez duy trì tính bảo mật thông qua kiến trúc không cần tin cậy, trong đó khóa riêng tư chỉ nằm trên thiết bị của người dùng. Mặc dù Greenlight lưu trữ cơ sở hạ tầng nút Lightning, nhưng nó không thể thực hiện bất kỳ hoạt động nào nếu không có ứng dụng được kết nối đang hoạt động có thể ký các giao dịch và tin nhắn. Thiết kế này đảm bảo rằng ngay cả khi nút chạy trên đám mây, Greenlight không bao giờ có quyền truy cập vào khóa của người dùng và không thể chuyển tiền mà không có sự cho phép rõ ràng của người dùng thông qua ứng dụng cục bộ của họ. Các tùy chọn khác mô tả các cơ chế bảo mật khác nhau không được sử dụng trong kiến trúc này.

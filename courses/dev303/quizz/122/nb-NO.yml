@@ -1,0 +1,8 @@
+question: Hva er den største utfordringen brukerne står overfor når midlene deres forvaltes gjennom Greenlights skybaserte Lightning node-arkitektur?
+answer: Brukerne vil trenge teknisk ekspertise for å starte opp uavhengige Core Lightning-noder og gjenopprette kanalstatus uten Greenlight-infrastruktur
+wrong_answers:
+  - "Brukerne mister tilgangen til sine private nøkler, som utelukkende er lagret på Blockstreams servere"
+  - "Kanalstatusene er kryptert ved hjelp av Greenlights proprietære nøkler, noe som gjør det matematisk umulig å gjenopprette midler"
+  - "Lightning-kanaler utløper automatisk etter 30 dager uten Greenlights kontinuerlige vedlikeholdstjenester"
+explanation: |
+  Det riktige svaret understreker den tekniske kompleksiteten ved gjenoppretting av midler i Greenlights arkitektur. Selv om brukerne beholder sine private nøkler, krever tilgang til midler uten Greenlight at man kjører Core Lightning-noder og gjenoppretter kanalstatusene manuelt - en prosess som de fleste brukere ikke har mulighet til å gjennomføre. De gale svarene er feil fordi: Brukerne har kontroll over sine private nøkler (ikke lagret på servere), kanalstatusene bruker standard Lightning-protokoller (ikke proprietær kryptering), og Lightning-kanaler har ikke automatiske utløpstimere knyttet til tjenesteleverandører.

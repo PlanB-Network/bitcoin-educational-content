@@ -91,10 +91,10 @@ description: Installera Blockstream App på mobilen och hantera onchain-transakt
 
 
 - För **Android**:
-    - Ladda ner [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) från Google Play Store.
-    - Alternativ: Installera via APK-filen som finns på [Blockstreams officiella GitHub] (https://github.com/Blockstream/green_android).
+    - Ladda ner [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) från Google Play Store.
+    - Alternativ: Installera via APK-filen som finns på [Blockstreams officiella GitHub](https://github.com/Blockstream/green_android).
 - För **iOS**:
-    - Ladda ner [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) från App Store.
+    - Ladda ner [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) från App Store.
 - **Obs**: Var noga med att ladda ner från officiella källor för att undvika bedrägliga applikationer.
 
 
@@ -502,7 +502,7 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Ordlista] (https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
+- [Ordlista](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 

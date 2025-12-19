@@ -1,0 +1,13 @@
+title: "Pricing via Processing of Combatting Junk Mail"
+original_language: en
+authors:
+  - Cynthia Dwork
+  - Moni Naor
+abstract: |
+  We present a computational technique for combatting junk mail in particular and controlling access to a shared resource in general. The main idea is t o require a user t o compute a moderately hard, but not intractable, function in order to gain access to the resource, thus preventing frivolous use. To this end we suggest several pricing functions, based on, respectively, extracting square roots modulo a prime, the Fiat-Shamir signature scheme, and the Ong-Schnorr-Shamir (cracked) signature scheme.
+paper_type: conference
+source: Springer
+topics:
+  - Proof-of-Work Systems
+pdf_url: https://link.springer.com/content/pdf/10.1007/3-540-48071-4_10.pdf
+id: 94f11db2-b151-4510-a86b-88be8ca349d2

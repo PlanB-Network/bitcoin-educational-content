@@ -64,7 +64,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 > 29182ddfc9 (Updating_proofreading_tutorial (#1642))
 
-- Potrzebne będzie również konto w aplikacji do przesyłania wiadomości [Telegram] (https://telegram.org/).
+- Potrzebne będzie również konto w aplikacji do przesyłania wiadomości [Telegram](https://telegram.org/).
 
 
 ## 2. Dołącz do grupy Telegram
@@ -217,4 +217,4 @@ Aby dowiedzieć się więcej o wytycznych do stosowania podczas korekty w Plan �
 
 
 
-- Jeśli masz jakieś uwagi, pytania lub komentarze dotyczące tego projektu, możesz wysłać DM [do grupy Telegram współpracowników] (https://t.me/PlanBNetwork_ContentBuilder).
+- Jeśli masz jakieś uwagi, pytania lub komentarze dotyczące tego projektu, możesz wysłać DM [do grupy Telegram współpracowników](https://t.me/PlanBNetwork_ContentBuilder).

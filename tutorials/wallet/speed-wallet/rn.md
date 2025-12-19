@@ -63,7 +63,7 @@ Speed ​​Wallet iraboneka nk’iporogarama yo kuri telefone ngendanwa ku mbug
 
 
 
-Ushobora kubona amahuzu yo gukuraho amakuru ku rubuga rwemewe [Speed ​​Wallet] (https://speed.app).
+Ushobora kubona amahuzu yo gukuraho amakuru ku rubuga rwemewe [Speed ​​Wallet](https://speed.app).
 
 
 

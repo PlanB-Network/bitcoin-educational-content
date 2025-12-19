@@ -1,0 +1,8 @@
+question: Je, ni faida gani kuu ya kutumia makro za derive kama #[derive(Debug)] ikilinganishwa na kutekeleza sifa kwa mikono kwa aina maalum?
+answer: Wao hukamilisha kiotomatiki utekelezaji wa sifa wakati wa kukusanya, na kupunguza msimbo wa boilerplate
+wrong_answers:
+  - Hutoa utendaji bora wa wakati wa utekelezaji kwa kuboresha simu za mbinu za sifa wakati wa utekelezaji
+  - Huruhusu sifa kutekelezwa mara nyingi kwa aina moja yenye tabia tofauti
+  - Huwezesha utekelezaji wa sifa bainifu zinazobadilika ambazo zinaweza kubadilishwa wakati wa utekelezaji kulingana na hali ya programu
+explanation: |
+  Hutoa makro kiotomatiki utekelezaji wa sifa za generate wakati wa mkusanyiko, na kuondoa hitaji la kuandika msimbo wa kurudia wa boilerplate mwenyewe. Unapotumia #[derive(Debug)], mkusanyaji hutoa mantiki yote muhimu ya umbizo kwa sifa hiyo. Majibu yasiyo sahihi si sahihi kwa sababu: hutoa makro haziboreshi utendaji wa wakati wa utekelezaji (hutoa generate msimbo uleule ambao ungeandika mwenyewe), sifa zinaweza kutekelezwa mara moja tu kwa kila aina bila kujali jinsi zinavyotekelezwa, na hutoa msimbo tuli wa generate wa makro wakati wa mkusanyiko badala ya kuwezesha marekebisho ya wakati wa utekelezaji.

@@ -2831,7 +2831,7 @@ Bitcoinのウサギの穴に落ちると、人生観が変わる。
 
 
 
-## BTC302, 次の記事
+## BTC 304, 次の記事
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>

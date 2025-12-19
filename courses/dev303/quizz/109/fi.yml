@@ -1,0 +1,8 @@
+question: Mikä on Breez SDK:n Lightning-solmujen hallintaa koskevan lähestymistavan perustavanlaatuinen arkkitehtuurinen etu verrattuna perinteisiin itse isännöityihin Lightning-toteutuksiin?
+answer: Käyttäjät ylläpitävät omia Lightning-solmujaan Greenlight-infrastruktuurissa ja säilyttävät samalla yksinoikeuden yksityisiin avaimiin, jotka eivät koskaan poistu heidän laitteistaan
+wrong_answers:
+  - Käyttäjät jakavat Breez:n hallinnoimat yhteiset salamakanavat ja säilyttävät samalla varojen yksilöllisen säilytyksen usean allekirjoituksen järjestelyjen avulla
+  - "Käyttäjät käyttävät paikallisesti kevyitä Lightning-solmuja, jotka synkronoituvat Breez:n master-solmujen kanssa, mikä parantaa luotettavuutta ja vähentää kaistanleveysvaatimuksia."
+  - Käyttäjät siirtävät kanavien hallinnan Lightning-palveluntarjoajille ja säilyttävät samalla huoltajuuden mobiililaitteisiin integroitujen laitteiston turvamoduulien avulla
+explanation: |
+  Breez SDK:n arkkitehtuuri antaa jokaiselle käyttäjälle oman Lightning-solmun, joka toimii Greenlightin pilvi-infrastruktuurissa, mutta mikä tärkeintä, yksityiset avaimet eivät koskaan poistu käyttäjän laitteelta. Tämä tarkoittaa, että Greenlight ei voi suorittaa mitään Lightning-toimintoja ilman, että käyttäjän sovellus aktiivisesti allekirjoittaa tapahtumia. Tämä eroaa jaetuista kanavapooleista, paikallisista Lightning-solmuista tai laitteiston turvamoduuleista - kyseessä on ainutlaatuinen hybridilähestymistapa, joka poistaa toiminnallisen monimutkaisuuden ja säilyttää samalla todelliset itsesäilytysperiaatteet.

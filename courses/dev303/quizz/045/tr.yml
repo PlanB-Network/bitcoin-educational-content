@@ -1,0 +1,8 @@
+question: Rust'ın işlevsel programlama özelliklerinin sıfır maliyetli soyutlamaları sürdürmesinin temel faydası nedir?
+answer: Performanstan ödün vermeden geleneksel döngü tabanlı yaklaşımlarla karşılaştırılabilir verimli makine kodu üretirler
+wrong_answers:
+  - Çalışma zamanı ek yükünü tamamen önlemek için bellek ayırma ve çıkarma işlemlerini otomatik olarak gerçekleştirirler
+  - Güvenlik garantilerini korurken derleme zamanında tip denetimi ihtiyacını ortadan kaldırırlar
+  - Program yürütme hızını etkilemeden çalışan çöp toplama işlevselliği sağlarlar
+explanation: |
+  Rust'in fonksiyonel programlama özelliklerindeki sıfır maliyetli soyutlamalar, kapanışları ve yineleyicileri kullanmanın ifade için performanstan ödün vermediği anlamına gelir. Rust derleyicisi, elle yazılmış geleneksel döngüler kadar iyi performans gösteren makine kodu üretmek için bu üst düzey yapıları optimize eder. Bu, geliştiricilerin Rust'in tasarım felsefesinin temel ilkesi olan çalışma zamanı performans cezası ödemeden daha anlamlı ve okunabilir kod yazmalarına olanak tanır.

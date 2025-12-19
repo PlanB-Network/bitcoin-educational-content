@@ -29,7 +29,7 @@ Benvenuto nel corso BTC101!
 
 Bitcoin è una rivoluzione tecnologica e monetaria, capace di farci mettere in discussione il nostro rapporto con il denaro e la società. Bitcoin (indicato come BTC) è infatti una moneta **neutrale** e **decentralizzata**, cioè non controllata da alcuna entità o istituzione. È un'innovazione che va oltre la semplice "moneta di internet": è sia un protocollo informatico (Bitcoin) che un'unità monetaria (bitcoin).
 
-Il protocollo utilizza tecnologie sottostanti come la crittografia, la comunicazione in rete e la famosa "blockchain", mentre l'unità bitcoin rappresenta la valuta necessaria per il corretto funzionamento di questo protocollo. Nella vita di tutti i giorni, i salvadoregni e i bitcoiner di tutto il mondo utilizzano la valuta bitcoin per acquistare e vendere beni e servizi, affidandosi a questa tecnologia per migliorare la propria vita.
+Il protocollo utilizza tecnologie sottostanti come la crittografia, la comunicazione in rete e la famosa "[blockchain](https://planb.academy/resources/glossary/blockchain)", mentre l'unità bitcoin rappresenta la valuta necessaria per il corretto funzionamento di questo protocollo. Nella vita di tutti i giorni, i salvadoregni e i bitcoiner di tutto il mondo utilizzano la valuta bitcoin per acquistare e vendere beni e servizi, affidandosi a questa tecnologia per migliorare la propria vita.
 
 **Un programma di studi completo ma accessibile:**
 
@@ -83,7 +83,6 @@ L'importante è capire questa nuova tecnologia in modo generale, quindi vi augur
 
 Pronto a tuffarti nell'affascinante universo di Bitcoin e a comprenderne tutti i meccanismi? Andiamo!
 
-**N.B.**: Se incontri termini sconosciuti durante il corso, consulta [il glossario](https://planb.academy/resources/glossary) per le definizioni.
 
 ## La preistoria di Bitcoin
 
@@ -127,7 +126,7 @@ La figura sotto illustra chiaramente lo sviluppo del movimento attraverso le sue
 
 ![image](assets/it/005.webp)
 
-È in questo ambiente fertile che il misterioso Satoshi Nakamoto pubblicò il whitepaper di Bitcoin nel 2008. Nel documento combina diverse idee del movimento cypherpunk, come la proof of work e i timestamp crittografici, per creare una valuta digitale decentralizzata e resistente alla censura.
+È in questo ambiente fertile che il misterioso Satoshi Nakamoto pubblicò il whitepaper di Bitcoin nel 2008. Nel documento combina diverse idee del movimento cypherpunk, come la [proof of work](https://planb.academy/resources/glossary/proof-of-work) e i timestamp crittografici, per creare una valuta digitale decentralizzata e resistente alla censura.
 
 Bitcoin è comunque più di questo: rappresenta la realizzazione degli ideali cypherpunk. Al di là della sua tecnologia, simboleggia una rivoluzione contro i sistemi finanziari tradizionali e offre un'alternativa basata su trasparenza, decentralizzazione e sovranità individuale.
 
@@ -206,7 +205,7 @@ Per soddisfare questi criteri, la moneta si è storicamente evoluta attraverso p
 
 Le valute si stanno evolvendo ancora oggi, adattando le loro forme per soddisfare diversi casi d'uso. Come abbiamo detto, pur essendo un'eccellente riserva di valore, l'oro non è più adatto all'attuale economia globalizzata. Allo stesso modo, le valute fiduciarie come il dollaro e l'euro sono molto liquide e facilmente trasportabili perché ora sono per lo più digitali, ma il loro valore diminuisce costantemente a causa dall'inflazione monetaria.
 
-In questo scenario Bitcoin presenta nuove possibilità. Le sue proprietà, come l'emissione rigorosamente limitata, lo rendono un'eccellente riserva di valore. Inoltre, in quanto valuta neutrale di Internet, diventa un valido **mezzo di scambio** che supera i confini. Tuttavia, oggi non è ancora ampiamente accettato nel commercio, nonostante la sua [costante adozione](https://btcmap.org/map).
+D’altra parte, Bitcoin apre nuove prospettive. Le sue proprietà, in particolare un’offerta rigorosamente limitata, ne fanno un’eccellente riserva di valore. Inoltre, in quanto valuta internet neutrale, costituisce un **mezzo di scambio** valido, capace di trascendere i confini. Tuttavia, nonostante un’adozione continua (come illustrato dalla [mappa di BTCmap](https://btcmap.org/map)), oggi non è ancora ampiamente accettato nel commercio.
 
 ## Valute fiduciarie
 
@@ -370,7 +369,7 @@ La creazione di nuovi bitcoin è il risultato del processo di mining. In poche p
 
 ![image](assets/it/022.webp)
 
-Dopo aver svolto con successo questo compito, i miner vengono ricompensati con l'emissione di nuovi bitcoin ogni dieci minuti. Questa ricompensa è programmata per dimezzarsi ogni 210.000 blocchi, cioè circa ogni quattro anni (un evento noto come "halving"), dando alla curva di emissione monetaria una forma a scala. Grazie a questo meccanismo si può prevedere matematicamente che la creazione di nuovi bitcoin cesserà entro l'anno 2140, quando il numero totale raggiungerà il limite di 21 milioni.
+Dopo aver svolto con successo questo compito, i miner vengono ricompensati con l'emissione di nuovi bitcoin ogni dieci minuti. Questa ricompensa è programmata per dimezzarsi ogni 210.000 blocchi, cioè circa ogni quattro anni (un evento noto come "[halving](https://planb.academy/resources/glossary/halving)"), dando alla curva di emissione monetaria una forma a scala. Grazie a questo meccanismo si può prevedere matematicamente che la creazione di nuovi bitcoin cesserà entro l'anno 2140, quando il numero totale raggiungerà il limite di 21 milioni.
 
 | Numero di halving | Altezza del blocco | Ricompensa in BTC dopo l'halving | Stima dei BTC in circolazione dopo l'halving |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
@@ -637,7 +636,7 @@ Sono disponibili diverse soluzioni: alcune a basso costo, come "Blockmit", mentr
 
 Oltre a questa prima pratica, la pianificazione di un asse ereditario è un passo fondamentale per garantire che i bitcoin siano gestiti correttamente dopo la vostra morte. Questo piano prevede la stesura di una lettera in cui si delinea la natura dei propri beni, le modalità di accesso e le informazioni di contatto delle persone di fiducia che ne hanno la responsabilità. È inoltre importante discutere l'eredità in bitcoin con un notaio, per garantire la conformità fiscale; anche se il notaio non dovrebbe mai essere incaricato direttamente della gestione dei vostri bitcoin.
 
-Se desiderate approfondire l'argomento del piano di successione per i vostri bitcoin, vi consigliamo di leggere il libro di Pamela Morgan [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) o di iscrivervi al corso BTC102, in cui forniamo indicazioni sulla creazione del vostro piano.
+Se desiderate approfondire l'argomento del piano di successione per i vostri bitcoin, vi consigliamo di leggere il libro di Pamela Morgan [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) o di iscrivervi al corso BTC102, in cui forniamo indicazioni sulla creazione del vostro piano.
 
 ![image](assets/it/037.webp)
 
@@ -679,7 +678,7 @@ Dopo aver trattato le basi dei wallet Bitcoin e le migliori pratiche per garanti
 
 ![image](assets/it/038.webp)
 
-Il 31 ottobre 2008 segna la nascita della nuova tecnologia finanziaria conosciuta come Bitcoin. In questo giorno l'anonimo Satoshi Nakamoto presentò al mondo la sua innovazione, attraverso una e-mail inviata alla mailing list dei cypherpunks, una comunità di appassionati di crittografia dedicata alla promozione della privacy su Internet. Questa e-mail conteneva un documento chiamato "White Paper", che presentava il funzionamento di Bitcoin.
+Il 31 ottobre 2008 segna la nascita della nuova tecnologia finanziaria conosciuta come Bitcoin. In questo giorno l'anonimo Satoshi Nakamoto presentò al mondo la sua innovazione, attraverso una e-mail inviata alla mailing list dei cypherpunks, una comunità di appassionati di crittografia dedicata alla promozione della privacy su Internet. Questa e-mail conteneva un documento chiamato "[White Paper](https://planb.academy/resources/glossary/white-paper)", che presentava il funzionamento di Bitcoin.
 
 Immediatamente l'iniziativa non ha suscitato entusiasmo, probabilmente a causa dei precedenti tentativi di creare un sistema di moneta digitale, poi falliti. Ciononostante il White Paper è diventato un punto di riferimento per gli utenti Bitcoin ed è stato oggetto di molti dibattiti nell'ecosistema nel corso degli anni.
 
@@ -835,7 +834,7 @@ In seguito a questa vittoria, i nodi hanno attivato un aggiornamento chiamato Se
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**I miner proteggono la rete e aggiungono blocchi transazioni alla blockchain. Utilizzano l'elettricità per alimentare macchine ASIC, le quali risolvono la proof-of-work di Bitcoin.**
+**I miner proteggono la rete e aggiungono blocchi transazioni alla blockchain. Utilizzano l'elettricità per alimentare macchine [ASIC](https://planb.academy/resources/glossary/asic), le quali risolvono la proof-of-work di Bitcoin.**
 
 ![image](assets/it/054.webp)
 
@@ -1040,7 +1039,9 @@ L'economia Bitcoin esiste ed è in fase di sviluppo in alcune regioni del mondo,
 
 Nonostante ciò, in El Salvador e in altre parti del mondo, ci sono sempre più individui, aziende e organizzazioni che accettano Bitcoin come mezzo di pagamento per i loro prodotti o servizi.
 
-![image](assets/it/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Fonte : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Inoltre, è stato lanciato un progetto collaborativo e open-source, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), per facilitare l'uso di Bitcoin per le spese quotidiane. BTCMap elenca tutti i commercianti che accettano Bitcoin, nonché le diverse comunità Bitcoin in tutto il mondo; è quindi possibile visitare il loro sito web per scoprire l'ecosistema Bitcoin più vicino. Nonostante le difficoltà e le esitazioni, ci sono iniziative come BTCMap che contribuiscono a rendere l'economia Bitcoin più accessibile e conveniente per tutti.
 

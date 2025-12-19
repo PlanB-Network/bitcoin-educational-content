@@ -22,7 +22,7 @@ Tutorial langkah demi langkah ini menunjukkan kepada Anda cara menulis pesan pad
 - Komputer (Windows, macOS atau Linux).
 - Koneksi internet.
 - Beberapa satoshi (Sats) atau bitcoin (BTC) di Wallet Anda untuk menutupi jumlah transaksi dan biaya.
-- Konverter teks-ke-hex (misalnya situs online) atau alat khusus seperti [generator skrip OP_RETURN ini] (https://resources.davidcoen.it/opreturnelectrum/).
+- Konverter teks-ke-hex (misalnya situs online) atau alat khusus seperti [generator skrip OP_RETURN ini](https://resources.davidcoen.it/opreturnelectrum/).
 
 
 
@@ -164,7 +164,7 @@ Mengonversi pesan Anda ke heksadesimal:
 
 
 
-- Anda dapat menggunakan [alat online] (https://www.rapidtables.com/convert/number/ascii-to-hex.html), tetapi berhati-hatilah untuk tidak memproses data sensitif di sana (meskipun, pada prinsipnya, informasi yang dimaksudkan untuk publikasi pada Blockchain Bitcoin melalui OP_RETURN tidak menimbulkan masalah kerahasiaan);
+- Anda dapat menggunakan [alat online](https://www.rapidtables.com/convert/number/ascii-to-hex.html), tetapi berhati-hatilah untuk tidak memproses data sensitif di sana (meskipun, pada prinsipnya, informasi yang dimaksudkan untuk publikasi pada Blockchain Bitcoin melalui OP_RETURN tidak menimbulkan masalah kerahasiaan);
 - Untuk kerahasiaan yang lebih baik, lakukan konversi secara lokal menggunakan Python kecil:
 
 
@@ -218,7 +218,7 @@ yang terdiri dari :
 
 
 
-Tip: Gunakan alat [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) untuk melakukan generate skrip secara otomatis. Meskipun alat ini menyarankan untuk memasukkan jumlah dalam BTC, tetap konfigurasikan unit dalam Electrum.
+Tip: Gunakan alat [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) untuk melakukan generate skrip secara otomatis. Meskipun alat ini menyarankan untuk memasukkan jumlah dalam BTC, tetap konfigurasikan unit dalam Electrum.
 
 
 
@@ -296,7 +296,7 @@ Klik kanan pada transaksi dan pilih "View on Explorer" untuk melihat detailnya.
 
 
 
-Atau, salin tujuan Address (misalnya, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`) dan lihat di penjelajah Blockchain seperti [Mempool.space] (https://Mempool.space/) atau [blockstream.info] (https://blockstream.info/).
+Atau, salin tujuan Address (misalnya, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`) dan lihat di penjelajah Blockchain seperti [Mempool.space](https://Mempool.space/) atau [blockstream.info](https://blockstream.info/).
 
 
 
@@ -340,4 +340,4 @@ Cari kolom OP_RETURN di rincian transaksi untuk melihat pesan Anda.
 
 - Unduh Electrum: [electrum.org](https://electrum.org/)
 - Generator skrip OP_RETURN: [resources.davidcoen.it/opreturnelectrum/](https://resources.davidcoen.it/opreturnelectrum/)
-- Blockchain Penjelajah: [Mempool.space] (https://Mempool.space/), [blockstream.info] (https://blockstream.info/)
+- Blockchain Penjelajah: [Mempool.space](https://Mempool.space/), [blockstream.info](https://blockstream.info/)

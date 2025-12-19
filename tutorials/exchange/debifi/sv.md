@@ -165,7 +165,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-Besök [Debifis officiella webbplats] (https://debifi.com/app).
+Besök [Debifis officiella webbplats](https://debifi.com/app).
 
 
 
@@ -287,7 +287,7 @@ När du har slutfört dessa steg klickar du på menyn **Erbjudanden** för att s
 
 
 
-När din enhet är ansluten går du till [Debifis webbplats] (https://debifi.com/). Logga in för att upprätta en säker anslutning mellan Debifis mobilapplikation och webbplattformen. Detta gör det lättare för dig att interagera med tillgängliga låneerbjudanden (en tydlig bild av detaljerna i varje erbjudande) och hantera ditt konto.
+När din enhet är ansluten går du till [Debifis webbplats](https://debifi.com/). Logga in för att upprätta en säker anslutning mellan Debifis mobilapplikation och webbplattformen. Detta gör det lättare för dig att interagera med tillgängliga låneerbjudanden (en tydlig bild av detaljerna i varje erbjudande) och hantera ditt konto.
 
 
 

@@ -7,7 +7,7 @@ description: Bagaimana cara menggunakan Satochip dengan SeedSigner Anda?
 
 
 
-*Terima kasih kepada [Crypto Guide] (https://www.youtube.com/@CryptoGuide/) untuk fork dari firmware SeedSigner untuk dukungan smartcard, yang akan kita gunakan dalam tutorial ini
+*Terima kasih kepada [Crypto Guide](https://www.youtube.com/@CryptoGuide/) untuk fork dari firmware SeedSigner untuk dukungan smartcard, yang akan kita gunakan dalam tutorial ini
 
 
 
@@ -69,8 +69,8 @@ Untuk melaksanakan penyiapan ini, Anda memerlukan item berikut ini:
 
 
 
-- Kit ekstensi SeedSigner, tersedia [dari toko resmi Satochip](https://satochip.io/product/seedsigner-extension-kit/), yang memungkinkan Anda membaca dan menulis ke smartcard secara langsung dari SeedSigner Anda. Pilihan lainnya adalah dengan menggunakan [pembaca smartcard eksternal] (https://satochip.io/product/chip-card-reader/), yang dapat dihubungkan dengan kabel ke port Micro-USB pada Raspberry Pi. Namun, saya sendiri belum menguji solusi ini;
-- [Satochip](https://satochip.io/product/satochip/), atau sebagai alternatif, [smartcard kosong](https://satochip.io/product/card-for-diy-project/) untuk menginstal applet Satochip (kit ekstensi yang dijual oleh Satochip sudah termasuk smartcard kosong). Kit ekstensi Satochip juga mendukung format [SIM JavaCard] (https://satochip.io/product/blank-sim-javacard-for-diy-project/). Jadi, Anda dapat memilih format ini jika Anda mau.
+- Kit ekstensi SeedSigner, tersedia [dari toko resmi Satochip](https://satochip.io/product/seedsigner-extension-kit/), yang memungkinkan Anda membaca dan menulis ke smartcard secara langsung dari SeedSigner Anda. Pilihan lainnya adalah dengan menggunakan [pembaca smartcard eksternal](https://satochip.io/product/chip-card-reader/), yang dapat dihubungkan dengan kabel ke port Micro-USB pada Raspberry Pi. Namun, saya sendiri belum menguji solusi ini;
+- [Satochip](https://satochip.io/product/satochip/), atau sebagai alternatif, [smartcard kosong](https://satochip.io/product/card-for-diy-project/) untuk menginstal applet Satochip (kit ekstensi yang dijual oleh Satochip sudah termasuk smartcard kosong). Kit ekstensi Satochip juga mendukung format [SIM JavaCard](https://satochip.io/product/blank-sim-javacard-for-diy-project/). Jadi, Anda dapat memilih format ini jika Anda mau.
 
 
 
@@ -88,7 +88,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Untuk menggunakan SeedSigner Anda dengan Satochip, Anda perlu menginstal firmware alternatif, yang berbeda dengan SeedSigner asli, untuk mendukung pembacaan kartu pintar. Untuk hal ini, [saya merekomendasikan penggunaan fork dari "**3rdIteration**"] (https://github.com/3rdIteration/seedsigner). Unduh [versi terbaru dari gambar] (https://github.com/3rdIteration/seedsigner/releases) (`.zip`) yang sesuai dengan model Raspberry Pi yang Anda gunakan.
+Untuk menggunakan SeedSigner Anda dengan Satochip, Anda perlu menginstal firmware alternatif, yang berbeda dengan SeedSigner asli, untuk mendukung pembacaan kartu pintar. Untuk hal ini, [saya merekomendasikan penggunaan fork dari "**3rdIteration**"](https://github.com/3rdIteration/seedsigner). Unduh [versi terbaru dari gambar](https://github.com/3rdIteration/seedsigner/releases) (`.zip`) yang sesuai dengan model Raspberry Pi yang Anda gunakan.
 
 
 
@@ -96,7 +96,7 @@ Untuk menggunakan SeedSigner Anda dengan Satochip, Anda perlu menginstal firmwar
 
 
 
-Jika Anda belum memilikinya, unduh perangkat lunak [Balena Etcher] (https://etcher.balena.io/), kemudian lanjutkan sebagai berikut:
+Jika Anda belum memilikinya, unduh perangkat lunak [Balena Etcher](https://etcher.balena.io/), kemudian lanjutkan sebagai berikut:
 
 
 
@@ -264,7 +264,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Setelah seed dibuat, ini adalah satu-satunya waktu di mana ia berada dalam RAM SeedSigner. Dalam kasus saya, saya ingin menyimpannya di [Seedkeeper] (https://satochip.io/product/seedkeeper/), sebuah produk Satochip lain yang didesain untuk menyimpan rahasia. Saya akan menggunakan perangkat ini sebagai pilihan terakhir, jika Satochip saya hilang.
+Setelah seed dibuat, ini adalah satu-satunya waktu di mana ia berada dalam RAM SeedSigner. Dalam kasus saya, saya ingin menyimpannya di [Seedkeeper](https://satochip.io/product/seedkeeper/), sebuah produk Satochip lain yang didesain untuk menyimpan rahasia. Saya akan menggunakan perangkat ini sebagai pilihan terakhir, jika Satochip saya hilang.
 
 
 
@@ -726,7 +726,7 @@ Periksa detail transaksi untuk terakhir kalinya untuk memastikan keakuratannya, 
 
 
 
-Transaksi sekarang sudah siap, namun belum ditandatangani. Untuk menampilkan [PSBT (*Partially Signed Bitcoin Transaction*)] (https://planb.academy/en/resources/glossary/psbt) sebagai kode QR, klik `Tampilkan QR`.
+Transaksi sekarang sudah siap, namun belum ditandatangani. Untuk menampilkan [PSBT (*Partially Signed Bitcoin Transaction*)](https://planb.academy/en/resources/glossary/psbt) sebagai kode QR, klik `Tampilkan QR`.
 
 
 
@@ -933,6 +933,6 @@ Jika pengaturan ini meyakinkan Anda, jangan ragu untuk mendukung proyek yang mem
 
 
 
-- Dengan membeli peralatan Anda secara langsung [di situs web Satochip] (https://satochip.io/shop/);
-- Dengan memberikan [donasi untuk proyek SeedSigner] (https://seedsigner.com/donate/);
-- Dengan berlangganan [saluran YouTube Crypto Guide] (https://www.youtube.com/@CryptoGuide/), yang dijalankan oleh orang yang mengelola repositori GitHub yang menghosting firmware yang dimodifikasi yang kami gunakan dalam tutorial ini.
+- Dengan membeli peralatan Anda secara langsung [di situs web Satochip](https://satochip.io/shop/);
+- Dengan memberikan [donasi untuk proyek SeedSigner](https://seedsigner.com/donate/);
+- Dengan berlangganan [saluran YouTube Crypto Guide](https://www.youtube.com/@CryptoGuide/), yang dijalankan oleh orang yang mengelola repositori GitHub yang menghosting firmware yang dimodifikasi yang kami gunakan dalam tutorial ini.

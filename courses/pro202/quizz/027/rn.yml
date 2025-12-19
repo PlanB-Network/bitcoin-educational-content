@@ -1,0 +1,8 @@
+question: Ni igiki kiba ku ruganda inyuma yo gukora OP_CHECKSIG iyo ukugenzura umukono kuroraniwe?
+answer: Agaciro 1 gasunikirwa ku kirundo
+wrong_answers:
+  - Umukono n'urufunguzo rwa bose biguma ku kirundo
+  - Ikirundo kirakurwaho hanyuma gisubirwamwo ubusa
+  - Urufunguzo rwa bose hash rusunikiwe ku kirundo
+explanation: |
+  OP_CHECKSIG ni opcode ihindura ikirundo ifungura umukono n'urufunguzo rwa bose ruva mu kirundo, igenzura umukono ku sighash y'ibikorwa, maze isunika 1 (kubera ko ari ngirakamaro) canke 0 (kubera ko ataco bimaze) ku kirundo. Umukono w’intango n’urufunguzo rwa bose birakurwaho muri iyo nzira. Ico kirundo ntikikurwaho cose, kandi nta gaciro ka hash gasunikwa - gusa igisubizo ca boolean c'igikorwa co kugenzura.

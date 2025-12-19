@@ -1,0 +1,8 @@
+question: Điều gì xảy ra với suy luận kiểu của closure khi một closure được gọi với các kiểu cụ thể?
+answer: Các kiểu dữ liệu đó sẽ được cố định cho thể hiện closure đó.
+wrong_answers:
+  - Cơ chế đóng cửa vẫn có thể chấp nhận các loại khác nhau trong các cuộc gọi sau này.
+  - Trình biên dịch sẽ đặt lại kiểu dữ liệu cho lần gọi hàm tiếp theo.
+  - Các loại hình này vẫn linh hoạt và có thể thay đổi tùy thuộc vào ngữ cảnh.
+explanation: |
+  Trong Rust, closure được hưởng lợi từ suy luận kiểu tự động, nhưng tính linh hoạt này có giới hạn. Một khi closure được gọi với các kiểu tham số cụ thể, trình biên dịch sẽ khóa các kiểu đó cho thể hiện closure cụ thể đó. Điều này có nghĩa là cùng một closure không thể được gọi lại sau đó với các kiểu khác nhau - nó trở nên đơn hình với kiểu đầu tiên mà nó gặp phải. Điều này khác với các hàm chung (generic functions) có thể được gọi với các kiểu khác nhau vì mỗi lần gọi tạo ra một thể hiện riêng biệt. Các tùy chọn khác không chính xác vì chúng gợi ý tính linh hoạt liên tục mà không tồn tại một khi kiểu của closure đã được xác định.

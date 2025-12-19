@@ -1,0 +1,8 @@
+question: ¿Cuál es el propósito principal del operador de signo de interrogación (?) de Rust cuando se utiliza con tipos Result?
+answer: Para desenvolver automáticamente los valores correctos y devolver inmediatamente los errores de la función actual
+wrong_answers:
+  - Convertir todos los tipos de resultado en tipos de opción para facilitar la gestión de los valores nulos
+  - Para entrar en pánico automáticamente con un mensaje personalizado cuando se produzca algún error
+  - Para envolver los valores correctos en una capa de resultados adicional para mayor seguridad
+explanation: |
+  El operador de signo de interrogación (?) está diseñado específicamente para la propagación de errores en Rust. Cuando se aplica a un Resultado, extrae el valor de éxito si la operación tuvo éxito, permitiendo que el código continúe con ese valor. Sin embargo, si se produce un error, el operador ? devuelve inmediatamente ese error de la función actual, propagándolo de forma efectiva por la pila de llamadas. Esto elimina la necesidad de expresiones de coincidencia verbosa, manteniendo al mismo tiempo una semántica explícita de gestión de errores. El operador sólo puede utilizarse en funciones que devuelvan tipos Resultado, lo que garantiza patrones de propagación de errores adecuados.

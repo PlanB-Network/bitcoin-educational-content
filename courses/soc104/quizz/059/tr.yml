@@ -1,0 +1,9 @@
+question: Keynesyen ekonomi teorisine göre, devletin ekonomiye müdahalesinin birincil rolü nedir?
+answer: Durgunluk dönemlerinde talebi canlandırarak ve aşırı ısınma dönemlerinde talebi soğutarak ekonomik döngüleri istikrara kavuşturmak için mali ve parasal politikaları kullanmak
+wrong_answers:
+  - Piyasa mekanizmalarını tamamen merkezi devlet planlamasıyla değiştirmek ve her türlü özel girişimi ortadan kaldırmak
+  - Katı laissez-faire politikalarını sürdürmek ve piyasaların herhangi bir hükümet müdahalesi olmaksızın kendi kendini düzenlemesine izin vermek
+  - Herhangi bir mali müdahaleden veya kamu harcaması ayarlamalarından kaçınarak yalnızca para politikasına odaklanmak
+explanation: |
+  Keynesyen teori, ekonomik döngüleri yönetmek için hem mali politikalar (kamu harcamaları, vergilendirme) hem de para politikaları (faiz oranları) yoluyla aktif devlet müdahalesini savunur.
+  Bu, saf laissez-faire kapitalizmi ile tam devlet kontrolü arasında bir 'üçüncü yol'u temsil eder; gerileme dönemlerinde talebi canlandırarak ve ekonomik aşırı ısınma sırasında ılımlı hale getirerek denge arar ve bu da ekonomi yönetimine yönelik merkezci pragmatik yaklaşımlarla uyumludur.

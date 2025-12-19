@@ -1,0 +1,8 @@
+question: Dalam swap kapal selam Lightning Send, elemen kriptografi spesifik apa yang memungkinkan penyedia swap untuk mengklaim dana Liquid yang terkunci setelah membayar faktur Lightning?
+answer: Gambar awal pembayaran dari pembayaran Lightning berfungsi sebagai kunci kriptografi untuk membuka kunci dana Liquid yang diendapkan
+wrong_answers:
+  - Tanda tangan kontrak time-lock hash yang dihasilkan selama transaksi penguncian Liquid awal memberikan akses
+  - Metadata koneksi WebSocket berisi kunci buka kunci yang mengesahkan pelepasan dana ke penyedia
+  - "Kunci pribadi penyedia swap secara otomatis membuka kunci dana setelah konfirmasi pembayaran Lightning diterima"
+explanation: |
+  Preimage pembayaran adalah tanda terima kriptografi yang membuktikan bahwa pembayaran Lightning berhasil diselesaikan. Dalam submarine swap, preimage ini bertindak sebagai kunci pembuka untuk dana Liquid yang diendapkan, memastikan keasliannya - penyedia swap hanya dapat mengklaim dana Liquid jika mereka benar-benar membayar faktur Lightning. Opsi lainnya menjelaskan elemen kriptografi umum yang tidak menyediakan bukti pembayaran spesifik yang dibutuhkan, atau mekanisme yang salah yang akan membahayakan sifat tidak dapat dipercaya dari atomic swap.

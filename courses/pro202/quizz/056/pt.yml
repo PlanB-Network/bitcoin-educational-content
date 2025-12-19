@@ -1,0 +1,8 @@
+question: Qual é a principal razão pela qual as transacções P2SH-wrapped SegWit utilizam três camadas de regras de validação durante a verificação?
+answer: Para garantir a retrocompatibilidade entre os nós pré-BIP16, pós-BIP16 e SegWit, mantendo o consenso
+wrong_answers:
+  - Triplicar a segurança, exigindo três provas criptográficas separadas antes de aceitar a transação
+  - Distribuir a carga de trabalho de validação por diferentes tipos de nós para melhorar o desempenho e a escalabilidade da rede
+  - Para evitar ataques double-spending, validando os mesmos dados de transação através de três métodos independentes
+explanation: |
+  O P2SH-wrapped SegWit utiliza três camadas de validação especificamente para compatibilidade com versões anteriores: os nós pré-BIP16 aceitam o redeemScript como válido, os nós pós-BIP16 avaliam-no deixando OP_0 + hash na pilha e os nós SegWit efectuam a validação completa da testemunha. Esta abordagem em camadas garante que todos os tipos de nós podem participar no consenso sem quebras, ao contrário das respostas erradas que sugerem a multiplicação da segurança, a distribuição do desempenho ou a prevenção de gastos duplos como motivações principais.

@@ -1,0 +1,38 @@
+title: "Two Bitcoins at the Price of One? Double-Spending Attacks on Fast Payments in Bitcoin"
+original_language: en
+authors:
+  - Ghassan O. Karame
+  - Elli Androulaki
+  - Srdjan Capkun
+abstract: |
+  Bitcoin is a decentralized payment system that is
+  based on Proof-of-Work. Bitcoin is currently gaining
+  popularity as a digital currency; several businesses
+  are starting to accept Bitcoin transactions. An ex-
+  ample case of the growing use of Bitcoin was recently
+  reported in the media; here, Bitcoins were used as a
+  form of fast payment in a local fast-food restaurant.
+  In this paper, we analyze the security of using
+  Bitcoin for fast payments, where the time between
+  the exchange of currency and goods is short (i.e.,
+  in the order of few seconds). We focus on double-
+  spending attacks on fast payments and demonstrate
+  that these attacks can be mounted at low cost on
+  currently deployed versions of Bitcoin. We further
+  show that the measures recommended by Bitcoin de-
+  velopers for the use of Bitcoin in fast transactions are
+  not always effective in resisting double-spending; we
+  show that if those recommendations are integrated
+  in future Bitcoin implementations, double-spending
+  attacks on Bitcoin will still be possible. Finally, we
+  leverage on our findings and propose a lightweight
+  countermeasure that enables the detection of double-
+  spending attacks in fast transactions.
+publication_date: 2016-12-22
+paper_type: academic
+source: Cryptology EPrint Archive
+topics:
+  - Double-Spending Prevention
+  - Network Propagation Dynamics
+pdf_url: https://www.researchgate.net/profile/Ghassan-Karame/publication/262315254_Double-spending_fast_payments_in_Bitcoin/links/585ba72808aebf17d38645c8/Double-spending-fast-payments-in-Bitcoin.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19
+id: 7d96ce42-4fbd-4b13-af76-d1d5d3bae431

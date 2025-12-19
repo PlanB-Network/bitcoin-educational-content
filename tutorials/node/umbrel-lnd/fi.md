@@ -221,7 +221,7 @@ Kun LND on toiminnassa, voit avata ensimmäisen Lightning-kanavasi. Löydät laa
 
 
 
-Esimerkiksi [ACINQ-solmu] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) on tunnustettu solmu, jolla on erinomaiset saatavuus- ja likviditeettitilastot.
+Esimerkiksi [ACINQ-solmu](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) on tunnustettu solmu, jolla on erinomaiset saatavuus- ja likviditeettitilastot.
 
 
 

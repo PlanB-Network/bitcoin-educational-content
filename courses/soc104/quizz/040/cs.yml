@@ -1,0 +1,9 @@
+question: Jaký je podle Friedmanova pohledu hlavní problém posuzování sociálních politik na základě jejich deklarovaných záměrů, a nikoli skutečných výsledků?
+answer: Dobře míněné politiky často vedou k nezamýšleným důsledkům, které jsou v rozporu s jejich původními cíli, jako je vytváření závislosti nebo narušení trhu
+wrong_answers:
+  - Záměry je v porovnání s výsledky příliš obtížné objektivně měřit, což výzkumným pracovníkům a analytikům znemožňuje hodnocení politiky
+  - Politici záměrně používají falešné záměry, aby voliče zmátli, a proto je nutné zaměřit se pouze na měřitelné ekonomické ukazatele
+  - Záměry se během provádění politiky příliš často mění, zatímco výsledky zůstávají konstantní a poskytují lepší dlouhodobé vodítko
+explanation: |
+  Friedman tvrdí, že politiky motivované velkorysými záměry mohou mít nepředvídané nebo škodlivé důsledky, pokud nejsou založeny na důkladné analýze lidských potřeb
+  chování a pobídek. V textu se konkrétně zmiňuje o tom, že programy označované jako pomoc chudým mají často opačné účinky, než si jejich sponzoři s dobrými úmysly přejí, a vytvářejí tak zvrácené účinky, jako je ekonomická závislost. To ukazuje, proč by strukturální definice zaměřené na pozorovatelné charakteristiky a měřitelné výsledky měly mít přednost před účelovými definicemi založenými na deklarovaných motivacích.

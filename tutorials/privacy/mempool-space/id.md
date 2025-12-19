@@ -52,7 +52,7 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-Seperti yang telah disebutkan di atas, [Mempool.space] (https://Mempool.space) adalah penjelajah protokol Bitcoin yang memungkinkan Anda untuk memonitor transaksi Anda dan penyebarannya di jaringan Bitcoin yang dipilih secara real time, dari sebuah grafis Interface.
+Seperti yang telah disebutkan di atas, [Mempool.space](https://Mempool.space) adalah penjelajah protokol Bitcoin yang memungkinkan Anda untuk memonitor transaksi Anda dan penyebarannya di jaringan Bitcoin yang dipilih secara real time, dari sebuah grafis Interface.
 
 
 

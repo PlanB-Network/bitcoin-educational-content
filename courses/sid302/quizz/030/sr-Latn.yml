@@ -1,0 +1,8 @@
+question: Koja je primarna svrha ECDH mehanizma razmene ključeva u arhitekturi Liquid's Confidential Transactions?
+answer: Da omogućiš pošiljaocima da šifruju iznose i tipove sredstava koristeći primaločev javni ključ za zaslepljivanje dok generišu proverljive dokaze opsega
+wrong_answers:
+  - Da se uspostave sigurni komunikacioni kanali između AMP servera i wallet klijenata tokom procesa autorizacije transakcija
+  - Da biste kreirali zajedničke tajne za registraciju multisignature deskriptora između novčanika i AMP serverske infrastrukture
+  - Za generate kriptografske potpise koji dokazuju vlasništvo nad imovinom bez otkrivanja osnovnih informacija privatnog ključa
+explanation: |
+  ECDH (Elliptic Curve Diffie-Hellman) razmena ključeva u Liquid-ovom Confidential Transactions specifično omogućava transfer imovine uz očuvanje privatnosti tako što omogućava pošiljaocima da šifruju vrednosti izlaza transakcije koristeći javni ključ za zaslepljivanje primaoca. Ovo stvara zajedničku tajnu koju samo primalac može dešifrovati svojim privatnim ključem za zaslepljivanje, dok istovremeno generiše dokaze opsega koji omogućavaju validatorima mreže da verifikuju validnost transakcije bez uvida u stvarne iznose. Druge opcije pogrešno opisuju ECDH kao funkciju za sigurnost komunikacije, registraciju deskriptora ili dokaz vlasništva, što su funkcije koje se obrađuju različitim kriptografskim mehanizmima u Liquid ekosistemu.

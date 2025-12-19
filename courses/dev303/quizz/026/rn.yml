@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’intango k’ibiharuro vya Rust bishobora gutwara amakuru muri buri mpinduka?
+answer: Bibuza ukudahuza hagati y'ibimenyetso vy'ubwoko n'amakuru ajanye mu kubifatanya
+wrong_answers:
+  - Bituma enums zishira mu ngiro ubwazo ibiranga vyose bimenyerewe ata gutangaza gutomoye
+  - Bishoboza enums gukoreshwa nk'ibipimo rusangi mu gikorwa cose canke uburyo bwose
+  - Bituma enums zikoresha ububiko buke kurusha imiterere ya kera ifise amakuru asa
+explanation: |
+  Rust enums zishobora gufatanya amakuru ataco zihinduye kuri buri mpinduka, ivyo bikaba bikuraho ikosa ryo gutegura porogarama ryo kubungabunga imihinduzi itandukanye y’ibimenyetso vy’ubwoko n’amakuru ajanye navyo. Iyi nzira ituma amakuru yama ahuye n’iyindi, igakingira ukudahuza kwoshobora gutuma haba amakosa mu gihe co gukora. Udakunze izindi ndimi aho ushobora kugira enum itandukanye y'ubwoko n'ibihinduka vy'amakuru, Rust ifatanya vyose, bikaba bidashoboka ko ubwoko n'amakuru bidahuye.

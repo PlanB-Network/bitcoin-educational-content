@@ -892,7 +892,7 @@ Nie zapomnij o komunikacji z zespołami przed wdrożeniem: musisz sprawić, by z
 
 
 
-Wreszcie, można również porównać **Lynis** z innymi narzędziami, których jest kilka. Jeśli chcesz przejść do scentralizowanego zarządzania, pozostając przy otwartym oprogramowaniu, polecam narzędzie [Wazuh] (https://wazuh.com/).
+Wreszcie, można również porównać **Lynis** z innymi narzędziami, których jest kilka. Jeśli chcesz przejść do scentralizowanego zarządzania, pozostając przy otwartym oprogramowaniu, polecam narzędzie [Wazuh](https://wazuh.com/).
 
 
 

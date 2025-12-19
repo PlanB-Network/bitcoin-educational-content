@@ -207,7 +207,7 @@ Hasil yang diharapkan adalah `OK` di samping file `.img`. Ini mengonfirmasi bahw
 
 
 
-Pada Windows, prosedurnya serupa tetapi perintahnya berbeda. Mulailah dengan menginstal [Gpg4win] (https://www.gpg4win.org/) dan buka aplikasi *Kleopatra*. Impor kunci publik dari proyek SeedSigner dari URL Keybase :
+Pada Windows, prosedurnya serupa tetapi perintahnya berbeda. Mulailah dengan menginstal [Gpg4win](https://www.gpg4win.org/) dan buka aplikasi *Kleopatra*. Impor kunci publik dari proyek SeedSigner dari URL Keybase :
 
 
 
@@ -289,7 +289,7 @@ Verifikasi yang berhasil menjamin bahwa berkas `.img` Anda adalah asli (ditandat
 
 
 
-Jika Anda belum memilikinya, unduh perangkat lunak [Balena Etcher] (https://etcher.balena.io/), kemudian :
+Jika Anda belum memilikinya, unduh perangkat lunak [Balena Etcher](https://etcher.balena.io/), kemudian :
 
 
 
@@ -1134,7 +1134,7 @@ Periksa detail transaksi untuk memastikan semuanya sudah benar, lalu klik `Final
 
 
 
-Transaksi sekarang sudah siap, tetapi belum ditandatangani. Untuk menampilkan [PSBT (*Partially Signed Bitcoin Transaction*)] (https://planb.academy/en/resources/glossary/psbt) sebagai kode QR, klik `Tampilkan QR`.
+Transaksi sekarang sudah siap, tetapi belum ditandatangani. Untuk menampilkan [PSBT (*Partially Signed Bitcoin Transaction*)](https://planb.academy/en/resources/glossary/psbt) sebagai kode QR, klik `Tampilkan QR`.
 
 
 
@@ -1239,4 +1239,4 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 
 
-*Kredit: beberapa gambar dalam tutorial ini berasal dari [situs web resmi proyek SeedSigner] (https://seedsigner.com/) dan [repositori GitHub] (https://github.com/SeedSigner/seedsigner).*
+*Kredit: beberapa gambar dalam tutorial ini berasal dari [situs web resmi proyek SeedSigner](https://seedsigner.com/) dan [repositori GitHub](https://github.com/SeedSigner/seedsigner).*

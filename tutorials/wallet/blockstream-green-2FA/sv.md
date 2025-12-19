@@ -70,13 +70,13 @@ Det första steget är naturligtvis att ladda ner Green-applikationen. Gå till 
 
 
 
-- [För Android] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet);
+- [För Android](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet);
 - [For Apple](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590).
 
 ![GREEN 2FA MULTISIG](assets/fr/03.webp)
 
 
-För Android-användare kan du också installera applikationen via filen `.apk` [tillgänglig på Blockstreams GitHub] (https://github.com/Blockstream/green_android/releases).
+För Android-användare kan du också installera applikationen via filen `.apk` [tillgänglig på Blockstreams GitHub](https://github.com/Blockstream/green_android/releases).
 
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)

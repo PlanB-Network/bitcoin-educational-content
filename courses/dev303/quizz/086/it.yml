@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale della dichiarazione dello spazio dei nomi in un file UDL UniFFI?
+answer: Fornire un contenitore per le funzioni che possono essere richiamate direttamente senza richiedere l'istanziazione dell'oggetto
+wrong_answers:
+  - Per definire la struttura dei pacchetti e le dipendenze di importazione per i binding linguistici generati
+  - Per specificare i linguaggi di programmazione di destinazione che consumeranno la libreria Rust attraverso UniFFI
+  - Stabilire la strategia di gestione della memoria per le operazioni di marshalling dei dati in più lingue
+explanation: |
+  Lo spazio dei nomi nell'UDL di UniFFI serve come contenitore di funzioni autonome che possono essere invocate direttamente senza creare prima oggetti. Queste funzioni dello spazio dei nomi in genere gestiscono operazioni semplici che prendono valori come parametri e restituiscono risultati. Le altre opzioni non sono corrette perché: la struttura del pacchetto e le importazioni sono gestite automaticamente dal processo di generazione dei binding, i linguaggi di destinazione sono specificati durante il processo di compilazione anziché nel file UDL e la gestione della memoria è gestita in modo trasparente dal livello di runtime di UniFFI anziché essere dichiarata esplicitamente negli spazi dei nomi.

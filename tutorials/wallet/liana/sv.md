@@ -20,7 +20,7 @@ Om du vill återfå pengar från en befintlig Liana Wallet, läs presentationen 
 ## Introduktion av Liana programvara
 
 
-Liana är ett mjukvarupaket med öppen källkod som är utformat för att skapa och hantera avancerade plånböcker, särskilt som en del av ett automatiserat arvssystem eller en robust säkerhetskopieringsmekanism. Projektet har utvecklats sedan 2022 av Wizardsardine, ett företag som grundades av Kévin Loaec och Antoine Poinsot. På den officiella webbplatsen presenteras Liana som "en enkel Wallet för personlig kurering, med återställnings- och arvsfunktioner". Programvaran körs på datorer - Linux, MacOS, Windows - och dess (öppna) källkod finns tillgänglig [på GitHub] (https://github.com/wizardsardine/Liana).
+Liana är ett mjukvarupaket med öppen källkod som är utformat för att skapa och hantera avancerade plånböcker, särskilt som en del av ett automatiserat arvssystem eller en robust säkerhetskopieringsmekanism. Projektet har utvecklats sedan 2022 av Wizardsardine, ett företag som grundades av Kévin Loaec och Antoine Poinsot. På den officiella webbplatsen presenteras Liana som "en enkel Wallet för personlig kurering, med återställnings- och arvsfunktioner". Programvaran körs på datorer - Linux, MacOS, Windows - och dess (öppna) källkod finns tillgänglig [på GitHub](https://github.com/wizardsardine/Liana).
 
 
 Liana bygger på Bitcoin:s programmerbarhet för att skapa en avancerad Wallet. I synnerhet utnyttjar den tidslås (*timelocks*), som gör det möjligt att spendera pengar först när en viss tidsperiod har gått, och som är involverade i återvinningen av Bitcoins. En Liana Wallet består således av flera utgiftsvägar:
@@ -86,7 +86,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Installation och konfiguration
 
 
-Besök den officiella Wizardsardine-webbplatsen och ladda ner Liana på https://wizardsardine.com/Liana/. Du kan också ladda ner den senaste versionen [från GitHub-arkivet] (https://github.com/wizardsardine/Liana/releases), där du kan kontrollera programvarans äkthet. Den version som används i denna handledning är 0.9.
+Besök den officiella Wizardsardine-webbplatsen och ladda ner Liana på https://wizardsardine.com/Liana/. Du kan också ladda ner den senaste versionen [från GitHub-arkivet](https://github.com/wizardsardine/Liana/releases), där du kan kontrollera programvarans äkthet. Den version som används i denna handledning är 0.9.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -455,7 +455,7 @@ Transaktionen bör visas på huvudskärmen. När den har bekräftats är återst
 ## Bonus: analys av deskriptorer
 
 
-Deskriptorn är en mänskligt läsbar teckensträng som uttömmande beskriver en uppsättning adresser. Den kombinerar ett antal väsentliga delar av information för att hämta delar (UTXO) av en avancerad Wallet. Sättet som deskriptorn skrivs på är baserat på [Miniscript syntax] (https://bitbox.swiss/blog/understanding-Bitcoin-miniscript-part-2/), det skriptspråk som utvecklades av Andrew Poelstra, Pieter Wuille och Sanket Kanjalkar 2019.
+Deskriptorn är en mänskligt läsbar teckensträng som uttömmande beskriver en uppsättning adresser. Den kombinerar ett antal väsentliga delar av information för att hämta delar (UTXO) av en avancerad Wallet. Sättet som deskriptorn skrivs på är baserat på [Miniscript syntax](https://bitbox.swiss/blog/understanding-Bitcoin-miniscript-part-2/), det skriptspråk som utvecklades av Andrew Poelstra, Pieter Wuille och Sanket Kanjalkar 2019.
 
 
 För att bättre förstå varför denna teckensträng är viktig, låt oss analysera deskriptorn i vårt exempel, som är :

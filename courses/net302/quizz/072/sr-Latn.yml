@@ -6,4 +6,4 @@ wrong_answers:
   - IP (Zamenljivi Provajder)
 explanation: |
   PI (Provider Independent) blok se dodeljuje direktno organizaciji od strane RIR-a, nezavisno od Internet provajdera.
-reviewed: false
+reviewed: true

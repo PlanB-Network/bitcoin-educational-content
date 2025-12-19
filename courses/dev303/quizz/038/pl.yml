@@ -1,0 +1,8 @@
+question: Jaka składnia jest używana do definiowania parametrów w zamknięciach Rust?
+answer: Znaki końca rury (|) do dołączania parametrów
+wrong_answers:
+  - Nawiasy () do dołączania parametrów
+  - Nawiasy kwadratowe [] do dołączania parametrów
+  - Nawiasy klamrowe {} do zamykania parametrów
+explanation: |
+  Zamknięcia Rust używają znaków potoku (|) do definiowania parametrów, co odróżnia je od zwykłych funkcji, które używają nawiasów. Na przykład domknięcie bez parametrów jest zapisywane jako ||, podczas gdy domknięcie z parametrami wygląda jak |x, y|. Ta unikalna składnia sprawia, że domknięcia są łatwo rozpoznawalne i odróżnia je od definicji funkcji. Nawiasy są używane dla zwykłych funkcji, podczas gdy nawiasy kwadratowe i klamrowe służą innym celom w składni Rust.

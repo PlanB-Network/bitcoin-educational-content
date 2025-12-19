@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda použití odvozovacích maker, jako je #[derive(Debug)], ve srovnání s ruční implementací vlastností pro vlastní typy?
+answer: Automaticky generate kompletní implementace rysů při kompilaci, což snižuje počet šablonovitých kódů
+wrong_answers:
+  - Poskytují lepší výkon za běhu díky optimalizaci volání metod rysů během provádění
+  - Umožňují implementovat vlastnosti vícekrát pro stejný typ s různým chováním
+  - Umožňují dynamickou implementaci rysů, které lze za běhu měnit na základě stavu programu
+explanation: |
+  Automatické odvození implementací rysů generate během kompilace, čímž odpadá nutnost psát opakovaný kód ručně. Když použijete #[derive(Debug)], kompilátor vygeneruje veškerou potřebnou logiku formátování pro daný rys. Špatné odpovědi jsou nesprávné, protože: derive makra nezlepšují výkon za běhu (generate stejný kód, který byste napsali ručně), rysy lze implementovat pouze jednou pro každý typ bez ohledu na to, jak jsou implementovány, a derive makra generate statický kód při kompilaci, nikoli umožňují úpravy za běhu.

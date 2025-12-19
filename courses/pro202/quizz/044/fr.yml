@@ -1,0 +1,8 @@
+question: Pourquoi le BIP34 exige-t-il l'intégration de la hauteur du bloc dans le champ scriptSig de la transaction Coinbase ?
+answer: Pour s'assurer que chaque transaction ID de Coinbase est unique dans tous les blocs
+wrong_answers:
+  - Fournir une entropie supplémentaire aux mineurs lorsque l'espace de nonce est épuisé
+  - Pour permettre aux clients légers de vérifier l'ordre des blocs sans télécharger des blocs complets
+  - Pour empêcher les mineurs de réclamer des subventions de blocs supérieures au montant autorisé
+explanation: |
+  Le BIP34 impose l'inclusion de la hauteur des blocs dans le scriptSig Coinbase spécifiquement pour garantir l'unicité de chaque transaction ID Coinbase. Sans cette exigence, deux blocs de hauteurs différentes pourraient théoriquement avoir des transactions Coinbase identiques, créant des txids dupliqués qui violeraient les hypothèses d'unicité de transaction de la Bitcoin et causeraient potentiellement des conflits de base de données dans les implémentations qui indexent par la txid.

@@ -1010,7 +1010,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo é um node-in-a-box focado na privacidade] (https://wiki.ronindojo.io/en/home) que automatiza a implementação do Samurai Dojo e do Whirlpool, com um Interface dedicado e plugins especificamente concebidos para o ecossistema Samurai.
+[RoninDojo é um node-in-a-box focado na privacidade](https://wiki.ronindojo.io/en/home) que automatiza a implementação do Samurai Dojo e do Whirlpool, com um Interface dedicado e plugins especificamente concebidos para o ecossistema Samurai.
 
 
 
@@ -1509,7 +1509,7 @@ Ao implementar aplicações em contentores, pode moldar a Umbrel como desejar: c
 
 
 
-Uma das principais vantagens da Umbrel em relação aos seus concorrentes é a sua vasta e muito ativa comunidade de utilizadores. Pode contactá-los principalmente através do [Discord] (https://discord.gg/efNtFzqtdx) e do [fórum online] (https://community.umbrel.com/). Aqui, encontrará não só conselhos práticos mas, acima de tudo, soluções para resolver problemas ou corrigir bugs. É um excelente local para começar, progredir e, eventualmente, ajudar outros utilizadores, para que não fique sozinho com o seu Coin.
+Uma das principais vantagens da Umbrel em relação aos seus concorrentes é a sua vasta e muito ativa comunidade de utilizadores. Pode contactá-los principalmente através do [Discord](https://discord.gg/efNtFzqtdx) e do [fórum online](https://community.umbrel.com/). Aqui, encontrará não só conselhos práticos mas, acima de tudo, soluções para resolver problemas ou corrigir bugs. É um excelente local para começar, progredir e, eventualmente, ajudar outros utilizadores, para que não fique sozinho com o seu Coin.
 
 
 
@@ -1521,7 +1521,7 @@ Uma das principais vantagens da Umbrel em relação aos seus concorrentes é a s
 
 
 
-O código do Umbrel está disponível publicamente (pode ver, Fork, e modificá-lo), mas não está sob uma verdadeira licença de código aberto. De facto, o umbrelOS é distribuído sob a licença [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), embora algumas ferramentas de desenvolvimento associadas estejam disponíveis sob a licença MIT.
+O código do Umbrel está disponível publicamente (pode ver, Fork, e modificá-lo), mas não está sob uma verdadeira licença de código aberto. De facto, o umbrelOS é distribuído sob a licença [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), embora algumas ferramentas de desenvolvimento associadas estejam disponíveis sob a licença MIT.
 
 
 
@@ -1619,7 +1619,7 @@ Antes de instalar o UmbrelOS na sua máquina, terá de criar uma chave USB de ar
 
 
 
-Ir para [o sítio Web oficial da Umbrel para transferir a imagem ISO] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) para instalação através de uma chave USB. Certifique-se de selecionar a versão compatível com a arquitetura x86_64 (arquivo chamado `umbrelos-amd64-usb-installer.iso`). O download pode demorar algum tempo, pois a imagem é bastante grande.
+Ir para [o sítio Web oficial da Umbrel para transferir a imagem ISO](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) para instalação através de uma chave USB. Certifique-se de selecionar a versão compatível com a arquitetura x86_64 (arquivo chamado `umbrelos-amd64-usb-installer.iso`). O download pode demorar algum tempo, pois a imagem é bastante grande.
 
 
 
@@ -1633,7 +1633,7 @@ Ir para [o sítio Web oficial da Umbrel para transferir a imagem ISO] (https://d
 
 
 
-Para criar a pen USB de arranque, irá utilizar uma ferramenta simples e multiplataforma chamada [Balena Etcher] (https://www.balena.io/etcher/). Descarregue-a e instale-a no seu computador.
+Para criar a pen USB de arranque, irá utilizar uma ferramenta simples e multiplataforma chamada [Balena Etcher](https://www.balena.io/etcher/). Descarregue-a e instale-a no seu computador.
 
 
 
@@ -2761,7 +2761,7 @@ No caso de um bug no seu Umbrel, primeiro generate um pacote de diagnóstico atr
 
 
 
-Se o problema persistir, recomendo-te que [te juntes à comunidade de utilizadores da Umbrel no Discord] (https://discord.gg/efNtFzqtdx). Começa por fazer uma pesquisa para determinar se alguém já se deparou com a mesma dificuldade e encontrou uma solução. Se não, podes enviar uma mensagem no canal `general-support`. Também podes usar [o fórum da Umbrel](https://community.umbrel.com/).
+Se o problema persistir, recomendo-te que [te juntes à comunidade de utilizadores da Umbrel no Discord](https://discord.gg/efNtFzqtdx). Começa por fazer uma pesquisa para determinar se alguém já se deparou com a mesma dificuldade e encontrou uma solução. Se não, podes enviar uma mensagem no canal `general-support`. Também podes usar [o fórum da Umbrel](https://community.umbrel.com/).
 
 
 
@@ -2891,7 +2891,7 @@ Quando o nó reinicia depois de já ter sido utilizado, o Core tenta primeiro re
 
 
 
-Neste caso, o software consulta _**DNS seeds**_. Trata-se de [servidores mantidos por programadores reconhecidos do ecossistema] (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), que devolvem uma lista de endereços IP de presumíveis nós activos. Estes endereços permitem que o novo nó inicie as suas primeiras ligações e solicite os dados necessários ao IBD. Aqui está a lista de *DNS seeds* activos até à data (agosto de 2025):
+Neste caso, o software consulta _**DNS seeds**_. Trata-se de [servidores mantidos por programadores reconhecidos do ecossistema](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), que devolvem uma lista de endereços IP de presumíveis nós activos. Estes endereços permitem que o novo nó inicie as suas primeiras ligações e solicite os dados necessários ao IBD. Aqui está a lista de *DNS seeds* activos até à data (agosto de 2025):
 
 
 

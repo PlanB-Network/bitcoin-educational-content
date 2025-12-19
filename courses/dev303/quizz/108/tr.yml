@@ -1,0 +1,8 @@
+question: LDK'nın bileşen tasarım felsefesinin hangi temel özelliği onu CLightning veya LND gibi monolitik Lightning node uygulamalarından ayırıyor?
+answer: Her bileşen, protokol uyumluluğu korunurken özel çözümlerle ayrı ayrı değiştirilebilen varsayılan uygulamalar sağlar
+wrong_answers:
+  - Tüm bileşenler, kütüphane tarafından sağlanan varsayılan uygulamalar olmaksızın geliştiriciler tarafından sıfırdan uygulanmalıdır
+  - Bileşenler kalıcı olarak birbirine kilitlenir ve bir uygulama mimarisine entegre edildikten sonra değiştirilemez
+  - Kütüphane, tüm bileşenlerin aynı programlama dillerini kullanmasını gerektirir ve platformlar arası dil bağlamalarını destekleyemez
+explanation: |
+  LDK'nın temel felsefesi, geliştiricilerin gerektiğinde seçerek değiştirebilecekleri çalışan varsayılan uygulamalara sahip modüler bileşenler sağlamaya odaklanır. Bu, diğer bileşenleri değiştirmeden tutarken belirli işlevlerin (blok zinciri izleme veya işlem imzalama gibi) özelleştirilmesine olanak tanır. Yanlış cevaplar LDK'nın yaklaşımını yanlış yansıtıyor: LDK her şeyi sıfırdan yapmak yerine varsayılanlar sunuyor, bileşenleri birbirine kilitlemek yerine değiştirilmesine olanak tanıyor ve bağlama sistemi aracılığıyla birden fazla programlama dilini destekliyor.

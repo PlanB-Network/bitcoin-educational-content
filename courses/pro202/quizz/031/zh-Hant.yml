@@ -1,0 +1,8 @@
+question: 在傳統 ECDSA 簽名驗證的 sighash 建立過程中，所有輸入的 ScriptSig 欄位會發生什麼情況？
+answer: 清空所有 ScriptSig 欄位，然後用對應的 ScriptPubKey 取代目前輸入的 ScriptSig
+wrong_answers:
+  - 所有 ScriptSig 欄位保持不變，並以原始形式包含在 sighash 計算中
+  - 「只有目前輸入的 ScriptSig 會被保留，而其他所有輸入的 ScriptSig 欄位都會從交易中移除」
+  - 所有 ScriptSig 欄位都會以參考輸出中對應的 ScriptPubKey 值取代。
+explanation: |
+  在為傳統交易建立簽章時，程序會特別先清空所有 ScriptSig 欄位，然後只將當前正在驗證的輸入內容，換成其正在使用的輸出內容中對應的 ScriptPubKey。這可確保簽章承諾使用條件，而不會產生簽章需要簽章本身的循環依賴。其他選項並不正確，因為它們不是讓簽章留在原處 (造成邏輯上的不可能) 就是統一修改所有輸入 (無法正確隔離目前輸入的驗證上下文)。

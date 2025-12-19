@@ -54,7 +54,7 @@ Wallet stale się rozwija, więc nie zdziw się, jeśli znajdziesz rozbieżnośc
 
 
 
-- Na przykład od 19.07.2025 r. przyciski **"Kup / Sprzedaj / Zapłać "** są widoczne, ale wyszarzone w aplikacji, ponieważ opcje te, dostępne na Exchange [bullbitcoin.com] (https://app.bullbitcoin.com/registration/orangepeel), zostaną wkrótce zintegrowane w celu ujednolicenia doświadczenia. Ich użycie pozostanie całkowicie opcjonalne. Wiele innych zmian jest w toku lub jest planowanych: zarządzanie wieloma Wallet, passphrase, kompatybilność z portfelami sprzętowymi...
+- Na przykład od 19.07.2025 r. przyciski **"Kup / Sprzedaj / Zapłać "** są widoczne, ale wyszarzone w aplikacji, ponieważ opcje te, dostępne na Exchange [bullbitcoin.com](https://app.bullbitcoin.com/registration/orangepeel), zostaną wkrótce zintegrowane w celu ujednolicenia doświadczenia. Ich użycie pozostanie całkowicie opcjonalne. Wiele innych zmian jest w toku lub jest planowanych: zarządzanie wieloma Wallet, passphrase, kompatybilność z portfelami sprzętowymi...
 - Na [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49) możesz sprawdzić aktualne tematy i nadchodzące zmiany. Ponieważ projekt jest w 100% open-source i "zbudowany publicznie", możesz również przesłać nam swoje sugestie i wszelkie napotkane błędy.
 
 

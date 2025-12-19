@@ -1,0 +1,8 @@
+question: Thuộc tính toán học nào khiến việc đảo ngược phép toán k·P trên một đường cong elip trở nên bất khả thi về mặt tính toán?
+answer: Bài toán logarit rời rạc
+wrong_answers:
+  - Số học mô-đun trường hữu hạn
+  - Tính chất điểm vô cực
+  - Phương trình đường cong y² = x³ + 7
+explanation: |
+  Bài toán logarit rời rạc là nền tảng toán học giúp cho mật mã đường cong elliptic trở nên an toàn. Trong khi việc tính toán k·P (phép nhân vô hướng) rất dễ dàng về mặt tính toán, thì việc tìm k khi biết P và k·P lại cực kỳ khó khăn - đây được gọi là bài toán logarit rời rạc đường cong elliptic. Các lựa chọn khác là những thành phần toán học quan trọng nhưng không tạo ra rào cản bảo mật: phép toán số học trường hữu hạn cho phép thực hiện các phép toán, điểm vô cực đóng vai trò là phần tử đơn vị, và phương trình đường cong xác định cấu trúc, nhưng không có lựa chọn nào trong số này tạo ra tính bất khả thi về mặt tính toán giúp bảo vệ tính bảo mật mật mã của Bitcoin.

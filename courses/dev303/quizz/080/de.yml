@@ -1,0 +1,8 @@
+question: Was ist der wichtigste Vorteil der Verwendung von Ergebnis- und Optionstypen gegenüber Panic für die Fehlerbehandlung im Rust-Produktionscode?
+answer: Sie erzwingen eine ausdrückliche Bestätigung potenzieller Fehler und ermöglichen eine zuverlässige Fehlerbehebung
+wrong_answers:
+  - Sie bieten eine bessere Leistung, indem sie das Abwickeln des Stapels im Fehlerfall vermeiden
+  - Sie konvertieren automatisch alle Fehlertypen in String-Meldungen, um die Fehlersuche zu erleichtern
+  - Sie machen eine Fehlerfortpflanzung überflüssig, indem sie Fehler an der Fehlerstelle behandeln
+explanation: |
+  Ergebnis- und Optionstypen machen die Fehlerbehandlung explizit und wiederherstellbar, indem sie Entwickler dazu zwingen, anzuerkennen, dass Operationen fehlschlagen können, und Mechanismen zur Verfügung stellen, um diese Fehler anständig zu behandeln. Im Gegensatz zu Panic, das die Ausführung sofort abbricht, erlauben diese Typen, dass Programme weiterlaufen und angemessen auf Fehlerbedingungen reagieren. Die falschen Antworten stellen ihre Fähigkeiten falsch dar: Leistung ist nicht ihr primärer Vorteil, sie konvertieren Fehler nicht automatisch in Strings (das ist die Funktion von anyhow), und sie erleichtern die Fehlerfortpflanzung durch Operatoren wie ? eher, als dass sie sie eliminieren.

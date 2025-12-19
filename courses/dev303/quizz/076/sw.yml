@@ -1,0 +1,8 @@
+question: Kwa nini kutumia expect() kwenye thamani zilizo na msimbo mgumu ambazo zinaonekana kuthibitishwa na mkusanyaji kunaweza kuwa tatizo katika msimbo wa uzalishaji?
+answer: Thamani zenye msimbo mgumu zinaweza kubadilika baada ya muda kupitia urekebishaji, na kugeuza thamani halali hapo awali kuwa hitilafu za wakati wa utekelezaji
+wrong_answers:
+  - Kikusanyaji hakiwezi kuthibitisha uhalali wa thamani zilizosimbwa kwa wakati wa kukusanya, na kufanya expect() isitegemeeke
+  - Thamani zenye msimbo mgumu hutumia kumbukumbu zaidi kuliko thamani zinazobadilika, na kusababisha matatizo ya utendaji na expect()
+  - Njia ya expect() inaongeza gharama ya ziada isiyo ya lazima ikilinganishwa na unwrap() wakati wa kushughulika na thamani halali zinazojulikana
+explanation: |
+  Jibu sahihi linaangazia ufahamu muhimu kutoka kwa sura: hata thamani zilizo na msimbo mgumu zinazoonekana kuwa salama zinaweza kuwa hatari baada ya muda. Mfano unaonyesha jinsi anwani halali ya IP inaweza kubadilishwa kuwa nambari isiyobadilika na baadaye kubadilishwa kuwa 'localhost', na kuvunja dhana ya asili. Majibu yasiyo sahihi si sahihi kwa sababu: mkusanyaji anaweza kuthibitisha thamani zilizo na msimbo mgumu wakati wa kukusanya, matumizi ya kumbukumbu sio tatizo la expect(), na expect() haina utendaji muhimu wa ziada ikilinganishwa na unwrap().

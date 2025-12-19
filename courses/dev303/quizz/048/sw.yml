@@ -1,0 +1,8 @@
+question: Kusudi kuu la kuchanganya RC na RefCell katika programu ya Rust ni lipi?
+answer: Ili kuwezesha wamiliki wengi kushiriki na kubadilisha data sawa kwa kutumia hundi za kukopa za muda wa utekelezaji
+wrong_answers:
+  - Kuhamisha utekelezaji wa sheria za kukopa kutoka wakati wa utekelezaji hadi wakati wa kukusanya kwa utendaji bora zaidi
+  - Ili kuunda data isiyoweza kubadilika iliyoshirikiwa ambayo inaweza kufikiwa kwa usalama kwenye nyuzi nyingi
+  - Ili kuzuia mizunguko ya marejeleo na uvujaji wa kumbukumbu wakati wa kushiriki data kati ya wamiliki wengi
+explanation: |
+  RC<RefCell<T>> inachanganya hesabu ya marejeleo kwa umiliki wa pamoja na mabadiliko ya ndani kwa mabadiliko yaliyokaguliwa kwa wakati wa utekelezaji. RC inaruhusu sehemu nyingi za msimbo kumiliki data sawa, huku RefCell ikiwezesha mabadiliko kupitia marejeleo yasiyobadilika kwa kuangalia sheria za kukopa wakati wa utekelezaji. Chaguzi zingine si sahihi: muundo huu kwa kweli huhamisha ukaguzi hadi wakati wa utekelezaji (sio wakati wa kukusanya), huunda data iliyoshirikiwa inayoweza kubadilika (isiyoweza kubadilika), na inaweza kusababisha mizunguko ya marejeleo badala ya kuizuia.

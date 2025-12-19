@@ -206,7 +206,7 @@ Quali opzioni avete quindi se volete ricevere più Sats che LN?
 
 
 
-- Aprite un canale Dunder, con il nodo Blixt o qualsiasi altro fornitore di LSP Dunder. Un canale Dunder è un modo semplice per ottenere un po' di liquidità INBOUND, ma allo stesso tempo per depositare un po' di Sats in quel canale. È anche buono perché aprirà il canale con un [UTXO](https://en.Bitcoin.it/wiki/UTXO) che non proviene dal tuo Wallet Blixt. Questo aggiunge un po' di privacy. È anche buono perché, se non avete Sats in un Wallet onchain, per aprire un normale canale LN, ma li avete in un altro LN Wallet, potete semplicemente pagare da quell'altro Wallet attraverso LN l'apertura e il deposito (da parte vostra) di quel canale Dunder. [Maggiori dettagli su come funziona Dunder e su come gestire il proprio server qui] (https://github.com/hsjoberg/dunder-lsp).
+- Aprite un canale Dunder, con il nodo Blixt o qualsiasi altro fornitore di LSP Dunder. Un canale Dunder è un modo semplice per ottenere un po' di liquidità INBOUND, ma allo stesso tempo per depositare un po' di Sats in quel canale. È anche buono perché aprirà il canale con un [UTXO](https://en.Bitcoin.it/wiki/UTXO) che non proviene dal tuo Wallet Blixt. Questo aggiunge un po' di privacy. È anche buono perché, se non avete Sats in un Wallet onchain, per aprire un normale canale LN, ma li avete in un altro LN Wallet, potete semplicemente pagare da quell'altro Wallet attraverso LN l'apertura e il deposito (da parte vostra) di quel canale Dunder. [Maggiori dettagli su come funziona Dunder e su come gestire il proprio server qui](https://github.com/hsjoberg/dunder-lsp).
 
 
 ![blixt](assets/en/11.webp)
@@ -218,7 +218,7 @@ Ecco i passaggi per attivare l'apertura di un canale Dunder:
 
 - Andare in Impostazioni, nella sezione "Esperimenti" attivare la casella "Abilita Dunder LSP".
 - Una volta fatto questo, tornate alla sezione "Lightning Network" e vedrete che è apparsa l'opzione "Imposta server LSP Dunder". Lì, per impostazione predefinita, è impostato "https://dunder.blixtwallet.com", ma è possibile cambiarlo con qualsiasi altro provider Dunder LSP Address. [Ecco un elenco della comunità Blixt](https://github.com/hsjoberg/blixt-Wallet/issues/1033) con i nodi che possono fornire canali LSP Dudner per il vostro Blixt.
-- A questo punto è possibile accedere alla schermata principale e fare clic sul pulsante "Ricevi". Seguite quindi questa procedura [spiegata in questa guida] (https://blixtwallet.github.io/guides#guide-lsp).
+- A questo punto è possibile accedere alla schermata principale e fare clic sul pulsante "Ricevi". Seguite quindi questa procedura [spiegata in questa guida](https://blixtwallet.github.io/guides#guide-lsp).
 
 
 OK, quindi dopo la conferma del canale Dunder (ci vorranno alcuni minuti) vi ritroverete con 2 canali LN: uno aperto inizialmente con l'autopilota (canale A) e uno con più liquidità in entrata, aperto con Dunder (canale B).
@@ -265,7 +265,7 @@ Ma spieghiamo in modo semplice questo processo. Come si può vedere nell'immagin
 
 
 - il riquadro in alto deve essere riempito con tutte le 24 parole del seed (nodo vecchio/morto)
-- in basso ci sono due opzioni di pulsanti per inserire/caricare il file channel.backup, precedentemente salvato dal vecchio nodo Blixt/LND. Può trattarsi di un file locale (caricato in precedenza sul dispositivo) o di una posizione remota di Google Drive / iCloud. Blixt dispone di un'opzione per salvare il backup dei canali direttamente in un'unità Google / iCloud. Per maggiori dettagli, consultare la pagina [Blixt Features Page] (https://blixtwallet.github.io/features#blixt-options).
+- in basso ci sono due opzioni di pulsanti per inserire/caricare il file channel.backup, precedentemente salvato dal vecchio nodo Blixt/LND. Può trattarsi di un file locale (caricato in precedenza sul dispositivo) o di una posizione remota di Google Drive / iCloud. Blixt dispone di un'opzione per salvare il backup dei canali direttamente in un'unità Google / iCloud. Per maggiori dettagli, consultare la pagina [Blixt Features Page](https://blixtwallet.github.io/features#blixt-options).
 
 
 Tuttavia, se in precedenza non avevate alcun canale LN aperto, non è necessario caricare alcun file channels.backup. È sufficiente inserire le 24 parole seed e premere il pulsante di ripristino.
@@ -301,7 +301,7 @@ Inoltre, è bene controllare e aggiungere, se non ci sono, i peer precedentement
 ![blixt](assets/en/16.webp)
 
 
-All'interno della sezione verranno visualizzati i peer a cui si è connessi in quel momento e se ne possono aggiungere altri, meglio aggiungere quelli che avevano canali in precedenza. Basta andare su [Amboss page] (https://amboss.space/), cercare gli alias o il nodeID dei vostri nodi peer e scansionare il loro URI.
+All'interno della sezione verranno visualizzati i peer a cui si è connessi in quel momento e se ne possono aggiungere altri, meglio aggiungere quelli che avevano canali in precedenza. Basta andare su [Amboss page](https://amboss.space/), cercare gli alias o il nodeID dei vostri nodi peer e scansionare il loro URI.
 
 
 ![blixt](assets/en/17.webp)
@@ -328,7 +328,7 @@ Ora si può andare su Magic Drawer (menu in alto a sinistra) - Lightning Channel
 ![blixt](assets/en/18.webp)
 
 
-Il blocco numero 764272 è il momento in cui i fondi saranno utilizzabili nella vostra Bitcoin sulla catena Address. E potrebbero essere necessari fino a 144 blocchi dal primo blocco di conferma fino al rilascio. [Quindi verificatelo nel Mempool] (https://Mempool.space/).
+Il blocco numero 764272 è il momento in cui i fondi saranno utilizzabili nella vostra Bitcoin sulla catena Address. E potrebbero essere necessari fino a 144 blocchi dal primo blocco di conferma fino al rilascio. [Quindi verificatelo nel Mempool](https://Mempool.space/).
 
 
 E questo è tutto. Aspettate pazientemente che tutti i canali vengano chiusi e che i fondi tornino nel vostro Wallet onchain.
@@ -367,7 +367,7 @@ E FATTO! Ora avete un nodo Blixt LN completamente ripristinato. Potrebbe funzion
 ## Blixt - Quarto contatto
 
 
-Questo capitolo riguarda la personalizzazione e la conoscenza del nodo Blixt. Non descriverò tutte le funzionalità disponibili, sono troppe e sono già state spiegate nella [Blixt Features Page] (https://blixtwallet.github.io/features).
+Questo capitolo riguarda la personalizzazione e la conoscenza del nodo Blixt. Non descriverò tutte le funzionalità disponibili, sono troppe e sono già state spiegate nella [Blixt Features Page](https://blixtwallet.github.io/features).
 
 
 Ma vi indicherò alcuni di quelli necessari per procedere con l'utilizzo di Blixt e avere una grande esperienza.
@@ -403,7 +403,7 @@ Questo è un altro esempio di invio a un'altra applicazione Wallet che supporta 
 ### B - Scatola dei fulmini
 
 
-A partire dalla nuova versione v0.6.9-420 [recentemente annunciata] (https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420), Blixt ha introdotto una nuova potente funzione per Lightning Address in Blixt.
+A partire dalla nuova versione v0.6.9-420 [recentemente annunciata](https://github.com/hsjoberg/blixt-Wallet/releases/tag/v0.6.9-420), Blixt ha introdotto una nuova potente funzione per Lightning Address in Blixt.
 
 
 Questa nuova funzione è facoltativa e non è attiva di default!
@@ -546,7 +546,7 @@ asia.blixtwallet.com
 Un altro modo è quello di selezionare uno da questo elenco di nodi che annuncia i "filtri compatti" (BIP157 / neutrino) - [Bitnodes Page Neutrino filter](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS). Scegliete quello più vicino alla vostra posizione geografica.
 
 
-Un altro modo (il migliore) è quello di collegarsi a un nodo della comunità locale, gestito da un amico o da un gruppo che si conosce e che offre una connessione a neutrini. [Qui le istruzioni per farlo] (https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Il loro nodo non sarà influenzato in alcun modo, hanno solo bisogno di una connessione stabile e pubblica.
+Un altro modo (il migliore) è quello di collegarsi a un nodo della comunità locale, gestito da un amico o da un gruppo che si conosce e che offre una connessione a neutrini. [Qui le istruzioni per farlo](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Il loro nodo non sarà influenzato in alcun modo, hanno solo bisogno di una connessione stabile e pubblica.
 
 
 C'è bisogno di più server neutrino nella regione LATAM, per una sincronizzazione migliore e veloce. Quindi, per favore, organizzatevi con la vostra comunità locale di Bitcoin e decidete chi e dove gestisce un Bitcoin Core + Neutrino per il vostro uso personale. È sufficiente un IP pubblico. Se non avete accesso a un IP pubblico, potete utilizzare un IP VPS e creare un tunnel wireguard verso il vostro nodo domestico. In questo modo si reindirizza tutto il traffico al proprio IP VPS locale, senza rivelare alcuna informazione privata sul proprio nodo domestico.

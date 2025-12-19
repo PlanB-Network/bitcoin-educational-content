@@ -1,0 +1,8 @@
+question: Quando é que o operador de ponto de interrogação (?) deve ser preferido aos métodos unwrap() ou expect() no tratamento de erros do Rust?
+answer: Quando é necessário propagar erros na pilha de chamadas para a função de chamada tratar
+wrong_answers:
+  - Quando se pretende fornecer mensagens de erro personalizadas para a depuração de operações falhadas
+  - Quando se tem a certeza de que a operação será bem sucedida e se pretende evitar o tratamento de erros
+  - Quando é necessário converter erros num valor predefinido e continuar a execução do programa
+explanation: |
+  O operador de ponto de interrogação (?) foi concebido para a propagação de erros - extrai valores de sucesso mas devolve imediatamente os erros da função atual, permitindo que os chamadores os tratem. Ao contrário de unwrap()/expect() que entram em pânico com os erros, ou unwrap_or() que fornece predefinições, o operador ? mantém o contexto do erro e passa a responsabilidade para o código de nível superior que pode tomar as decisões de tratamento adequadas.

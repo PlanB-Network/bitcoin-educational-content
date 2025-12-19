@@ -1,0 +1,8 @@
+question: Mis teeb Rust tüübisüsteemi eriti tõhusaks Bitcoin rakenduste mäluga seotud haavatavuste vältimisel?
+answer: Tüübisüsteem käsitleb nii äriloogika modelleerimist kui ka mälu omandiõiguse kontrolli sama mehhanismi kaudu
+wrong_answers:
+  - Kompilaator genereerib automaatselt mälu jaotamise rutiinid, mis hoiavad ära puhvri ülevoolu rünnakud
+  - Staatiline tüübistamine nõuab, et kõik mäluaadressid deklareeritaks pigem kompileerimise kui tööaja ajal
+  - Tugev tüübistamine muudab kõik osutusoperatsioonid turvaliseks massiivi piiride kontrollimiseks täitmise ajal
+explanation: |
+  Rust tüübisüsteem on ainulaadne, sest see täidab kahte eesmärki - see modelleerib keerukat äriloogikat ja samal ajal haldab mälu turvalisust omandivormi, laenamise ja viitelugemise abil. See integratsioon tähendab, et sama tüübikontroll, mis tagab korrektse programmiloogika, välistab ka mälulekked, topeltvabad vead ja võistlustingimused kompileerimise ajal. Valed vastused kirjeldavad mehhanisme, mida Rusts ei ole: kompilaator ei kasuta automaatseid generate jaotamisrutiini, mälu aadressid ei pea olema kompileerimisajal konstandid ja näitajate turvalisus tuleneb pigem omandireeglitest kui jooksuaegsest piiride kontrollist.

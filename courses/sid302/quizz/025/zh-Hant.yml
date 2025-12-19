@@ -1,0 +1,8 @@
+question: 與基於 Ethereum 的代幣化平台相比，Liquid 在區塊鏈架構上有什麼基本差異，使其更適合關鍵任務的金融操作？
+answer: Liquid 使用 Bitcoin 的 UTXO 模型，可提供確定的交易結果，而 Ethereum 的帳戶模型可能會導致交易失敗，但仍會消耗瓦斯費
+wrong_answers:
+  - Liquid 以權益證明的共識機制運作，而 Ethereum 則依賴能源密集的 proof-of-work mining 來進行交易驗證。
+  - 「Liquid 的聯盟側鏈結構允許無限制的交易吞吐量，而 Ethereum 則受到單鏈區塊大小的限制」。
+  - Liquid 透過 Elements 腳本實作原生智慧型契約功能，而 Ethereum 則需要外部虛擬機器執行環境
+explanation: |
+  UTXO 模型的決定性對於金融機構來說至關重要，因為交易不是完全成功就是失敗，不需要任何成本，提供可預測的結果。Ethereum 的帳戶模型可能會導致交易失敗，但仍會消耗瓦斯費，造成作業上的不確定性和額外成本，對於可靠性和成本可預測性至關重要的金融作業而言，這是無法接受的。

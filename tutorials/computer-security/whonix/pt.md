@@ -66,7 +66,7 @@ Aqui estão as especificações recomendadas para uma experiência suave e está
 
 
 
-O Whonix está disponível em várias edições, dependendo do tipo de ambiente em que se deseja usá-lo. Para a maioria dos utilizadores (Windows, Linux ou MacOs), a edição VirtualBox é a mais fácil de configurar. Você pode baixar a imagem diretamente do [site oficial] (https://www.whonix.org/wiki/VirtualBox).
+O Whonix está disponível em várias edições, dependendo do tipo de ambiente em que se deseja usá-lo. Para a maioria dos utilizadores (Windows, Linux ou MacOs), a edição VirtualBox é a mais fácil de configurar. Você pode baixar a imagem diretamente do [site oficial](https://www.whonix.org/wiki/VirtualBox).
 
 
 

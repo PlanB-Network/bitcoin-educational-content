@@ -1,0 +1,8 @@
+question: Lorsqu'un nœud Bitcoin démarre et rejoint le réseau pour la première fois, quel est le mécanisme principal qu'il utilise pour découvrir les pairs actifs ?
+answer: Contacts avec les graines DNS codées en dur et gérées par les développeurs principaux pour recevoir les adresses IP des pairs actifs
+wrong_answers:
+  - Diffusion d'un message de découverte à toutes les adresses IP dans des plages de sous-réseaux prédéfinies
+  - Se connecte à un serveur de registre central qui tient à jour une liste de tous les nœuds actifs
+  - Utilise le protocole DHT (Distributed Hash Table) pour trouver des pairs par le biais d'un routage basé sur le hachage
+explanation: |
+  Le Bitcoin utilise des DNS seeds codés en dur comme mécanisme d'amorçage parce qu'il fournit un moyen décentralisé pour les nouveaux nœuds d'entrer dans le réseau sans dépendre d'une autorité centrale. Les DNS seeds sont maintenus par les développeurs principaux et renvoient les adresses IP des pairs actuellement actifs. Une fois connectés, les nœuds peuvent utiliser la commande getaddr pour découvrir d'autres pairs. Les mauvaises réponses décrivent des approches ou des protocoles centralisés qui ne sont pas utilisés par Bitcoin - il n'y a pas de registre central, pas de diffusion de sous-réseau et pas de découverte de pairs basée sur le DHT dans la conception de Bitcoin.

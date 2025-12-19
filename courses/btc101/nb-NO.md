@@ -83,7 +83,6 @@ Det viktige poenget her er å forstå denne nye teknologien på en generell måt
 
 Klar til å dykke ned i den fascinerende verdenen av Bitcoin og forstå alle dets mekanismer? La oss gå!
 
-**Merk**: Hvis du støter på ukjente begreper i løpet av kurset, vennligst se [ordlisten](https://planb.academy/resources/glossary) for definisjoner.
 
 ## Bitcoins forhistorie
 
@@ -127,7 +126,7 @@ Bildet nedenfor illustrerer tydelig utviklingen av bevegelsen gjennom dens mange
 
 ![image](assets/nb-NO/005.webp)
 
-Det var i dette fruktbare miljøet at den mystiske Satoshi Nakamoto publiserte Bitcoin-hvitboken i 2008. I dette dokumentet kombinerte han flere ideer fra cypherpunk-bevegelsen, som proof of work og kryptografiske tidsstempler, for å skape en desentralisert og sensurresistent digital valuta.
+Det var i dette fruktbare miljøet at den mystiske Satoshi Nakamoto publiserte Bitcoin-hvitboken i 2008. I dette dokumentet kombinerte han flere ideer fra cypherpunk-bevegelsen, som [proof of work](https://planb.academy/resources/glossary/proof-of-work) og kryptografiske tidsstempler, for å skape en desentralisert og sensurresistent digital valuta.
 
 Bitcoin var imidlertid mer enn bare det: Den representerte virkeliggjøringen av cypherpunk-idealene. Utover teknologien symboliserte den en revolusjon mot tradisjonelle finanssystemer og tilbød et alternativ basert på åpenhet, desentralisering og individuell suverenitet.
 
@@ -206,7 +205,7 @@ For å oppfylle disse kriteriene har valutaen historisk sett utviklet seg ved å
 
 Valutaer utvikler seg fortsatt den dag i dag, og tilpasser seg ulike bruksområder. Som vi sa, er gull en utmerket verdioppbevaring, men det er ikke lenger egnet for dagens globaliserte økonomi. På samme måte er forvaltningsvalutaer som dollar og euro svært likvide og lett å transportere fordi de nå for det meste er digitale, men verdien deres reduseres stadig av pengeinflasjon.
 
-På den annen side byr Bitcoin på nye muligheter. Dens egenskaper, som det strengt begrensede tilbudet, gjør den til en utmerket verdioppbevaring. Som nøytral internettvaluta fungerer den dessuten som et levedyktig **byttemiddel** som overskrider landegrensene. Men til tross for at den [stadig blir tatt i bruk] (https://btcmap.org/map), er den fortsatt ikke allment akseptert i handelen i dag.
+På den annen side åpner Bitcoin for nye perspektiver. Dets egenskaper, særlig et strengt begrenset tilbud, gjør det til en utmerket verdilagring. Videre, som en nøytral internettvaluta, utgjør det et levedyktig **byttemiddel** som kan overskride grenser. Til tross for en kontinuerlig adopsjon (slik [BTCmap-kartet](https://btcmap.org/map) illustrerer), er det imidlertid ennå ikke bredt akseptert i handel i dag.
 
 ## Forvaltningsvalutaer
 
@@ -395,7 +394,7 @@ Etter å ha utført denne oppgaven blir utvinnerne belønnet med utstedelse av n
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Vi kommer tilbake til gruvedriftsbegrepet i [miner-kapittelet] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Vi kommer tilbake til gruvedriftsbegrepet i [miner-kapittelet](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Garanterer digital knapphet
 
@@ -503,7 +502,7 @@ Hva om noen ved et uhell gjetter listen vår med 12 eller 24 ord? Det korte svar
 
 Sannsynligheten for å hacke Bitcoin-lommeboken din er derfor astronomisk lav hvis du følger de gode sikkerhetsrutinene som vi vil beskrive i neste avsnitt.
 
-Husk å velge riktig lommebok for dine behov og din bruk: Detaljerte veiledninger om hvordan du administrerer og sikrer ulike lommebøker er tilgjengelige i [opplæringsdelen på universitetet vårt] (https://planb.academy/tutorials/wallet).
+Husk å velge riktig lommebok for dine behov og din bruk: Detaljerte veiledninger om hvordan du administrerer og sikrer ulike lommebøker er tilgjengelige i [opplæringsdelen på universitetet vårt](https://planb.academy/tutorials/wallet).
 
 Hvis du i løpet av din reise ned kaninhullet ønsker å lære mer om hvordan du bygger en Bitcoin-lommebok, fra entropi til mottak av adresser, anbefaler vi CYP 201-kurset som er dedikert til dette emnet:
 
@@ -572,7 +571,7 @@ Hvor mye man er villig til å legge igjen på et bestemt sikkerhetsnivå, avheng
 
 For å oppsummere er direkte eierskap av egne bitcoins et viktig element for å sikre økonomisk suverenitet. Det anbefales å bruke en mobil lommebok til daglige utgifter og en offline, eller "kald", fysisk lommebok for å lagre større beløp. Bedrifter bør på den annen side vurdere å bruke systemer med flere signaturer, eller "multisig", for økt og delt sikkerhet. Det er også viktig å unngå depottjenester, som kan gjenskape noen av sårbarhetene i det tradisjonelle finanssystemet.
 
-Med dette i bakhodet kan vi nå gå videre til neste avsnitt, der vi beskriver hvordan du oppretter en Bitcoin-lommebok. Men hvis du ønsker å utforske temaet sikkerhet ytterligere, kan du lese denne [artikkelen av DarthCoin] (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+Med dette i bakhodet kan vi nå gå videre til neste avsnitt, der vi beskriver hvordan du oppretter en Bitcoin-lommebok. Men hvis du ønsker å utforske temaet sikkerhet ytterligere, kan du lese denne [artikkelen av DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 ## Sette opp en lommebok
 
@@ -595,7 +594,7 @@ Når du oppretter en lommebok, oppretter programvaren vanligvis din private nøk
 - La aldri ordene dine ligge ubevoktet på skrivebordet.
 - Gjem aldri ordlisten din på et uvanlig sted.
 
-Du bør bokstavelig talt ta et blankt ark eller skrive ut denne [malen] (https://bitcoiner.guide/backup.pdf), og skrive ordlisten med en penn, og følge den presenterte rekkefølgen pent og tydelig. Vær oppmerksom på at hvis blekket falmer over tid, kan du miste pengene dine. Derfor er det viktig å oppbevare dette papiret beskyttet mot miljøfaktorer som potensielt kan skade det, for eksempel fukt eller brann.
+Du bør bokstavelig talt ta et blankt ark eller skrive ut denne [malen](https://bitcoiner.guide/backup.pdf), og skrive ordlisten med en penn, og følge den presenterte rekkefølgen pent og tydelig. Vær oppmerksom på at hvis blekket falmer over tid, kan du miste pengene dine. Derfor er det viktig å oppbevare dette papiret beskyttet mot miljøfaktorer som potensielt kan skade det, for eksempel fukt eller brann.
 
 Nedenfor finner du et eksempel på hvordan du kan sette sammen oppgaven: ordene er falske, så ikke bruk dem!
 
@@ -629,7 +628,7 @@ Som enhver form for formue må bitcoins beskyttes mot tap, tyveri og forringelse
 
 En metode for å sikre bitcoinsene dine på lang sikt er å gravere minnefrasen din på et motstandsdyktig materiale som stål, ved å lage en fysisk sikkerhetskopi av nøklene dine som er motstandsdyktig mot både vann- og brannskader.
 
-Det finnes ulike løsninger: Noen av dem er rimelige, som for eksempel "Blockmit", mens andre kan kreve mer spesialisert utstyr. Du kan utforske dette emnet nærmere i [tutorials] (https://planb.academy/en/tutorials/wallet) i akademiet vårt.
+Det finnes ulike løsninger: Noen av dem er rimelige, som for eksempel "Blockmit", mens andre kan kreve mer spesialisert utstyr. Du kan utforske dette emnet nærmere i [tutorials](https://planb.academy/en/tutorials/wallet) i akademiet vårt.
 
 ![image](assets/nb-NO/036.webp)
 
@@ -637,7 +636,7 @@ Det finnes ulike løsninger: Noen av dem er rimelige, som for eksempel "Blockmit
 
 I tillegg til denne første praksisen er det avgjørende å lage en arveplan for å sikre at bitcoinsene dine blir forvaltet på riktig måte etter din død. Denne planen innebærer å skrive et brev der du beskriver eiendelene dine, tilgangsmetodene og kontaktinformasjonen til de betrodde personene som har ansvar for dem. Det er også viktig å diskutere arven av bitcoins med en notarius publicus for å sikre skattemessig etterlevelse, selv om denne personen aldri bør bli betrodd direkte med forvaltningen av bitcoinsene dine.
 
-Hvis du ønsker å utforske temaet arveplan for bitcoins ytterligere, anbefaler vi at du leser Pamela Morgans bok [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) eller melder deg på BTC102-kurset, der vi gir deg veiledning i hvordan du utarbeider planen din.
+Hvis du ønsker å utforske temaet arveplan for bitcoins ytterligere, anbefaler vi at du leser Pamela Morgans bok [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) eller melder deg på BTC102-kurset, der vi gir deg veiledning i hvordan du utarbeider planen din.
 
 ![image](assets/nb-NO/037.webp)
 
@@ -679,7 +678,7 @@ Nå som vi har gått gjennom det grunnleggende om Bitcoin-lommebøker og beste p
 
 ![image](assets/nb-NO/038.webp)
 
-31. oktober 2008 markerer fødselen til den nye finansielle teknologien som er Bitcoin. Denne dagen presenterte den anonyme Satoshi Nakamoto innovasjonen sin for verden gjennom en e-post som ble sendt til e-postlisten til cypherpunks, et fellesskap av kryptografientusiaster som jobber for å fremme personvern på internett. E-posten inneholdt et dokument kalt "White Paper", som presenterte hvordan Bitcoin fungerte.
+31. oktober 2008 markerer fødselen til den nye finansielle teknologien som er Bitcoin. Denne dagen presenterte den anonyme Satoshi Nakamoto innovasjonen sin for verden gjennom en e-post som ble sendt til e-postlisten til cypherpunks, et fellesskap av kryptografientusiaster som jobber for å fremme personvern på internett. E-posten inneholdt et dokument kalt "[White Paper](https://planb.academy/resources/glossary/white-paper)", som presenterte hvordan Bitcoin fungerte.
 
 Initiativet vakte ikke umiddelbart begeistring, sannsynligvis på grunn av de tidligere mislykkede forsøkene på å skape et digitalt kontantsystem. Likevel ble denne hvitboken etter hvert en referanse for Bitcoin-brukere, og den har vært gjenstand for mange debatter i Bitcoin-økosystemet opp gjennom årene.
 
@@ -701,7 +700,7 @@ Den 9. januar 2009 kunngjorde Satoshi utgivelsen av Bitcoin 0.1.0-versjonen. Kor
 
 Interessen for Bitcoin vokste raskt, noe som førte til at mange testet den, engasjerte seg i debatter, løste bugs og reflekterte over de etiske, økonomiske og filosofiske aspektene. Folk ble så fascinert at Satoshi opprettet forumet BitcoinTalk den 22. november 2009 for å legge til rette for denne typen konfrontasjoner.
 
-Forumet ble raskt det foretrukne diskusjonsstedet for Bitcoin-brukere, så mye at berømte memes og symboler knyttet til Bitcoin ble født fra det, for eksempel [Bitcoin-logoen] (https://bitcointalk.org/index.php?topic=64.0), den berømte [Hodl] (https://bitcointalk.org/index.php?topic=375643.0), eller til og med [Pizza day] (https://bitcointalk.org/index.php?topic=137.msg1195).
+Forumet ble raskt det foretrukne diskusjonsstedet for Bitcoin-brukere, så mye at berømte memes og symboler knyttet til Bitcoin ble født fra det, for eksempel [Bitcoin-logoen](https://bitcointalk.org/index.php?topic=64.0), den berømte [Hodl](https://bitcointalk.org/index.php?topic=375643.0), eller til og med [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 \*\*Den 22. mai 2010 skrev Laszlo Hanyecz historie ved å tilby å kjøpe to pizzaer for 10 000 BTC: Det var første gang Bitcoin ble brukt til å kjøpe fysiske varer.
 
@@ -714,15 +713,15 @@ I 2010, da Bitcoin begynte å tiltrekke seg medieoppmerksomhet, bestemte Satoshi
 > "Regjeringer er flinke til å kappe hodet av en sentralstyrt
 > kontrollerte nettverk som Napster, men rene P2P-nettverk som
 > Gnutella og Tor ser ut til å holde stand." - Satoshi Nakamoto
-> Til tross for Satoshis fravær fortsatte Bitcoin å bli utviklet: Bitcoins historie skrives hvert tiende minutt, og protokollen fortsetter å fungere som tiltenkt den dag i dag. Uavhengig av frykt, usikkerhet eller tvil, fortsetter Bitcoin å bevege seg fremover, med en veldig sterk tilgjengelighet på nettet. Ifølge denne [nettsiden] (https://bitcoinuptime.com/) har Bitcoin faktisk vært funksjonell og kjørt uten massive problemer i 99,988% av tiden siden den ble opprettet.
+> Til tross for Satoshis fravær fortsatte Bitcoin å bli utviklet: Bitcoins historie skrives hvert tiende minutt, og protokollen fortsetter å fungere som tiltenkt den dag i dag. Uavhengig av frykt, usikkerhet eller tvil, fortsetter Bitcoin å bevege seg fremover, med en veldig sterk tilgjengelighet på nettet. Ifølge denne [nettsiden](https://bitcoinuptime.com/) har Bitcoin faktisk vært funksjonell og kjørt uten massive problemer i 99,988% av tiden siden den ble opprettet.
 
-For noen er Bitcoin definert som en sopp-enhet som et [mycel] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mens andre beskriver det som et [svart hull] (https://dergigi.com/). Uansett om man elsker eller hater den, fortsetter Bitcoin å eksistere, med sin konstante rytme på 10 minutter per blokk, som hjerteslagene til et nytt pengesystem.
+For noen er Bitcoin definert som en sopp-enhet som et [mycel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mens andre beskriver det som et [svart hull](https://dergigi.com/). Uansett om man elsker eller hater den, fortsetter Bitcoin å eksistere, med sin konstante rytme på 10 minutter per blokk, som hjerteslagene til et nytt pengesystem.
 
-Hvis du vil lære mer om Satoshi Nakamotos forfatterskap, anbefaler vi å lese ["The Book of Satoshi"] (https://planb.academy/en/resources/books/98) av Phil Champagne eller ARTE-dokumentaren "Le mystaire Satoshi".
+Hvis du vil lære mer om Satoshi Nakamotos forfatterskap, anbefaler vi å lese ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) av Phil Champagne eller ARTE-dokumentaren "Le mystaire Satoshi".
 
 ![image](assets/nb-NO/044.webp)
 
-> "Det grunnleggende problemet med konvensjonell valuta er all tilliten som kreves for å få den til å fungere. Man må stole på at sentralbanken ikke forringer valutaen, men fiat-valutaenes historie er full av brudd på denne tilliten. Bankene må ha tillit til at de oppbevarer pengene våre og overfører dem elektronisk, men de låner dem ut i bølger av kredittbobler med knapt en brøkdel i reserve." - [Satoshi Nakamoto] (https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+> "Det grunnleggende problemet med konvensjonell valuta er all tilliten som kreves for å få den til å fungere. Man må stole på at sentralbanken ikke forringer valutaen, men fiat-valutaenes historie er full av brudd på denne tilliten. Bankene må ha tillit til at de oppbevarer pengene våre og overfører dem elektronisk, men de låner dem ut i bølger av kredittbobler med knapt en brøkdel i reserve." - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 > Nå som vi har litt bakgrunn, la oss undersøke hvordan en Bitcoin-transaksjon fungerer generelt.
 
 ## Bitcoin-transaksjoner
@@ -794,13 +793,13 @@ Noder er et grunnleggende element i Bitcoins nettverksarkitektur, ettersom de ut
 - Overføring av informasjon til andre noder
 - Håndheving av reglene i Bitcoin-protokollen.
 
-Derfor bidrar enhver enhet som kjører en del av Bitcoin-programvaren, kalt Bitcoin-node (ofte ved hjelp av [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), til desentraliseringen av nettverket.
+Derfor bidrar enhver enhet som kjører en del av Bitcoin-programvaren, kalt Bitcoin-node (ofte ved hjelp av [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), til desentraliseringen av nettverket.
 
 ![image](assets/nb-NO/050.webp)
 
 ### Noder er den sentrale kjernen i Bitcoin.
 
-Hver node har en kopi av blokkjeden, noe som gjør det mulig å verifisere transaksjoner og forhindre forsøk på svindel. Nettverkets desentraliserte natur gir Bitcoin eksepsjonell motstandskraft og robusthet. For å stoppe Bitcoin-protokollen må faktisk alle noder over hele verden stenges ned. Til informasjon var det i september 2023 omtrent [45 000 noder] (https://bitnodes.io/nodes/all/) fordelt over hele verden.
+Hver node har en kopi av blokkjeden, noe som gjør det mulig å verifisere transaksjoner og forhindre forsøk på svindel. Nettverkets desentraliserte natur gir Bitcoin eksepsjonell motstandskraft og robusthet. For å stoppe Bitcoin-protokollen må faktisk alle noder over hele verden stenges ned. Til informasjon var det i september 2023 omtrent [45 000 noder](https://bitnodes.io/nodes/all/) fordelt over hele verden.
 
 Noder er i stand til å verifisere gyldigheten av blokker og transaksjoner fordi de følger reglene for Bitcoin-konsensus. Disse reglene fastsetter Bitcoins pengepolitikk, for eksempel beløpet for utvinnernes belønning (som vi kommer nærmere inn på i neste avsnitt) og mengden bitcoin i omløp. Nodene fungerer på sett og vis som nettverkets rettssystem, fordi alle nettverksdeltakerne følger de samme reglene på grunn av dem, slik at de sikrer nøytraliteten til Bitcoin-protokollen. Konsensusreglene varierer nesten ikke, om i det hele tatt, fordi det kreves godkjenning fra alle noder for å gjøre endringer.
 
@@ -836,7 +835,7 @@ Etter denne seieren aktiverte nodene en oppdatering kalt SegWit, som banet vei f
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-\*\*Minere sikrer nettverket og legger til transaksjoner i blokkene. De bruker elektrisitet gjennom ASIC-maskiner for å løse Bitcoin proof of work
+\*\*Minere sikrer nettverket og legger til transaksjoner i blokkene. De bruker elektrisitet gjennom [ASIC](https://planb.academy/resources/glossary/asic)-maskiner for å løse Bitcoin proof of work
 
 ![image](assets/nb-NO/054.webp)
 
@@ -1042,9 +1041,11 @@ Bitcoin-økonomien eksisterer og utvikler seg i visse regioner av verden, som i 
 
 Likevel, i El Salvador og i andre deler av verden, er det stadig flere enkeltpersoner, bedrifter og organisasjoner som aksepterer Bitcoin som betalingsmiddel for produktene eller tjenestene sine.
 
-![image](assets/nb-NO/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
-I tillegg er det lansert et åpen kildekode- og samarbeidsprosjekt, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), for å lette bruken av Bitcoin i hverdagstransaksjoner. Denne plattformen viser alle selgere som aksepterer Bitcoin, samt de forskjellige Bitcoin-samfunnene rundt om i verden, slik at du kan besøke nettstedet deres for å oppdage Bitcoin-økosystemet rundt deg. Til tross for vanskelighetene og motforestillingene finnes det altså initiativer som BTCMap som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle.
+*Kilde : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
+I tillegg er det lansert et åpen kildekode- og samarbeidsprosjekt, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), for å lette bruken av Bitcoin i hverdagstransaksjoner. Denne plattformen viser alle selgere som aksepterer Bitcoin, samt de forskjellige Bitcoin-samfunnene rundt om i verden, slik at du kan besøke nettstedet deres for å oppdage Bitcoin-økosystemet rundt deg. Til tross for vanskelighetene og motforestillingene finnes det altså initiativer som BTCMap som bidrar til å gjøre Bitcoin-økonomien mer tilgjengelig og praktisk for alle.
 
 ### Hvorfor skal vi akseptere Bitcoin i stedet for å kjøpe det?
 
@@ -1193,7 +1194,7 @@ Til slutt inviterer vi deg til å reflektere over denne nye monetære revolusjon
 
 ![image](assets/nb-NO/079.webp)
 
-Hvis du ønsker å utvide kunnskapen din om Bitcoin, er dette det rette tidspunktet: et stort antall forfattere, tenkere og essayister har skapt pedagogisk innhold om Bitcoin. I løpet av de siste årene har vi listet og kategorisert disse verkene for å tilby et [bibliotek med ressurser] (https://planb.academy/resources) til de mest nysgjerrige blant dere. I denne delen finner du de beste podkastene, nettstedene, artiklene, veiledningene, bøkene og annet innhold.
+Hvis du ønsker å utvide kunnskapen din om Bitcoin, er dette det rette tidspunktet: et stort antall forfattere, tenkere og essayister har skapt pedagogisk innhold om Bitcoin. I løpet av de siste årene har vi listet og kategorisert disse verkene for å tilby et [bibliotek med ressurser](https://planb.academy/resources) til de mest nysgjerrige blant dere. I denne delen finner du de beste podkastene, nettstedene, artiklene, veiledningene, bøkene og annet innhold.
 
 > "Jeg tror at Internett kommer til å bli en av de viktigste drivkreftene for å redusere myndighetenes rolle. Det eneste som mangler, men som snart vil bli utviklet, er en pålitelig e-kontant - en metode der du på Internett kan overføre penger fra A til B uten at A kjenner B eller B kjenner A." - Milton Friedmans spådom i 1999
 

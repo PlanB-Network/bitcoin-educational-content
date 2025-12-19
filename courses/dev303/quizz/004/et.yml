@@ -1,0 +1,8 @@
+question: Milline märksõna on vajalik selleks, et muuta muutuja pärast selle esialgset deklareerimist Rust-s muudetavaks?
+answer: mut
+wrong_answers:
+  - var
+  - muutuv
+  - muuta
+explanation: |
+  Rust-s on muutuja muutuvaks kuulutamiseks vaja võtmesõna 'mut', mis võimaldab selle väärtust pärast algset omistamist muuta. Vaikimisi on kõik muutujad Rust-s ohutuse tagamiseks muutumatud. Süntaks on 'let mut x = 5' muutuva muutuja puhul ja 'let x = 5' muutumatu muutuja puhul. Teised valikud nagu 'var', 'mutable' ja 'change' ei ole Rust võtmesõnad, mis selleks otstarbeks kehtivad.

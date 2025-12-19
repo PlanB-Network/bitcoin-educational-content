@@ -63,7 +63,7 @@ https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-می‌توانید لینک‌های دانلود پلتفرم‌ها را در وب‌سایت رسمی [Speed Wallet] (https://speed.app) پیدا کنید.
+می‌توانید لینک‌های دانلود پلتفرم‌ها را در وب‌سایت رسمی [Speed Wallet](https://speed.app) پیدا کنید.
 
 
 

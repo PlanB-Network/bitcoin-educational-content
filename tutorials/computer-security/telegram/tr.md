@@ -18,7 +18,7 @@ Mesaj alışverişine ek olarak, Telegram ile görüntülü ve sesli aramalar ya
 Telegram resmi mağazalarda mevcut olsa da, tavsiye her zaman aynıdır: geliştiricinin sitesinden indirin, sizin gibi gizlilik bilincine sahip bir yolculukta olanlar için iyi bir alışkanlıktır.
 
 
-Telefonunuzun tarayıcısı ile [telegram.org] (https://telegram.org) sitesine gidin. Tercih ettiğiniz dili seçebilirsiniz, ancak İngilizce ilerlemenizi tavsiye ederim, bu yüzden _Telegram for Android_'i seçin
+Telefonunuzun tarayıcısı ile [telegram.org](https://telegram.org) sitesine gidin. Tercih ettiğiniz dili seçebilirsiniz, ancak İngilizce ilerlemenizi tavsiye ederim, bu yüzden _Telegram for Android_'i seçin
 
 
 ![image](assets/en/01.webp)
@@ -356,7 +356,7 @@ Bu ayarı nerede bulacağınızı aşağıdaki fotoğrafta görebilirsiniz.
 Telegram bilgisayarınızdan kullanılabilir, böylece telefonunuzda görüntülenen hesapla senkronize edilir. Uygulamayı indirmemeyi ve sadece web üzerinden kullanmayı seçebilirsiniz. Ancak, bu sürümün bilgisayarda çalıştırılana kıyasla sınırlamaları vardır, bu nedenle bu güçlü araçtan en iyi şekilde yararlanmak için indirmenizi ve yüklemenizi öneririm.
 
 
-Mobil modelde şimdiye kadar görülen tüm seçenekler, bilgisayarınızdan da aynı şekilde kullanılabilir. Ayrıca bu kurulum için resmi web sitesine [telegram.org] (https://telegram.org) gidin. Ana sayfadan _Telegram for PC/Linux_ seçeneğini seçin.
+Mobil modelde şimdiye kadar görülen tüm seçenekler, bilgisayarınızdan da aynı şekilde kullanılabilir. Ayrıca bu kurulum için resmi web sitesine [telegram.org](https://telegram.org) gidin. Ana sayfadan _Telegram for PC/Linux_ seçeneğini seçin.
 
 Açılan ekranda işletim sisteminize uygun çalıştırılabilir dosyayı indirmek için tıklayın.
 

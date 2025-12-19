@@ -1,0 +1,8 @@
+question: Koji je primarni sigurnosni mehanizam koji osigurava da Greenlight infrastruktura ne može pristupiti sredstvima korisnika uprkos hostovanju Lightning čvorova u oblaku?
+answer: Privatni ključevi nikada ne napuštaju korisničke uređaje i sve operacije zahtevaju aktivno potpisivanje aplikacije
+wrong_answers:
+  - Novčanici sa više potpisa sa distribuiranim delovima ključeva preko više provajdera u oblaku
+  - Moduli za hardversku sigurnost koji šifruju sve transakcije pre obrade u oblaku
+  - Pametni ugovori sa vremenskim zaključavanjem koji automatski vraćaju sredstva ako dođe do neovlašćenog pristupa
+explanation: |
+  Breez SDK održava sigurnost kroz arhitekturu bez poverenja gde privatni ključevi ostaju isključivo na korisničkim uređajima. Iako Greenlight hostuje infrastrukturu za Lightning čvor, ne može izvršiti nikakve operacije bez aktivno povezanog aplikacije koja može potpisivati transakcije i poruke. Ovaj dizajn osigurava da, iako čvor radi u oblaku, Greenlight nikada nema pristup korisničkim ključevima i ne može premestiti sredstva bez eksplicitne autorizacije korisnika putem njihove lokalne aplikacije. Druge opcije opisuju različite mehanizme sigurnosti koji se ne koriste u ovoj arhitekturi.

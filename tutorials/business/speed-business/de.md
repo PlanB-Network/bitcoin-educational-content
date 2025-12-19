@@ -371,7 +371,7 @@ Erstellen Sie im Menü **Entwickler** Ihre öffentlichen und privaten Schlüssel
 
 
 
-Hier finden Sie die vollständige [Dokumentation] (https://apidocs.tryspeed.com/reference/introduction) für eine bessere Integration von Speed Business.
+Hier finden Sie die vollständige [Dokumentation](https://apidocs.tryspeed.com/reference/introduction) für eine bessere Integration von Speed Business.
 
 
 

@@ -33,7 +33,7 @@ Neste tutorial, veremos 3 formas de utilizar um **Watchtower** :
 
 
 
-*Este tutorial foi retirado da [documentação oficial do LND] (https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Algumas mudanças podem ter sido feitas na versão original
+*Este tutorial foi retirado da [documentação oficial do LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Algumas mudanças podem ter sido feitas na versão original
 
 
 
@@ -327,7 +327,7 @@ OPTIONS:
 
 
 
-*Este tutorial foi parcialmente extraído de um artigo no [Summer of Bitcoin Blog] (https://blog.summerofbitcoin.org/). Foram efectuadas modificações à versão original*
+*Este tutorial foi parcialmente extraído de um artigo no [Summer of Bitcoin Blog](https://blog.summerofbitcoin.org/). Foram efectuadas modificações à versão original*
 
 
 

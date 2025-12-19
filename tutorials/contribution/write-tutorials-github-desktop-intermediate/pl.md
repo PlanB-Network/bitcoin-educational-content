@@ -55,7 +55,7 @@ Wymagania wstępne przed rozpoczęciem samouczka:
 
 
 
-- Posiadać konto [GitHub] (https://github.com/signup);
+- Posiadać konto [GitHub](https://github.com/signup);
 - Posiadanie Fork z [repozytorium źródłowego Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content);
 - Posiadać [profil profesora na Plan ₿ Academy](https://planb.academy/professors) (tylko jeśli proponujesz kompletny samouczek).
 
@@ -229,7 +229,7 @@ Wybierz nazwę dla katalogu utworzonego specjalnie na potrzeby samouczka. Nazwa 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
 
-Identyfikator `project_id` to identyfikator UUID firmy lub organizacji stojącej za narzędziem opisanym w poradniku, dostępny [na liście projektów] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, dla samouczka na temat Sparrow Wallet, można znaleźć jego `project_id` w pliku: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych firm i organizacji aktywnych w Bitcoin lub powiązanych projektach. Dodając powiązany `project_id`, łączysz swoją zawartość z odpowiednim podmiotem.
+Identyfikator `project_id` to identyfikator UUID firmy lub organizacji stojącej za narzędziem opisanym w poradniku, dostępny [na liście projektów](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Na przykład, dla samouczka na temat Sparrow Wallet, można znaleźć jego `project_id` w pliku: `Bitcoin-educational-content/resources/projects/sparrow/project.yml`. Informacje te są dodawane do pliku YAML samouczka, ponieważ Plan ₿ Academy utrzymuje bazę danych firm i organizacji aktywnych w Bitcoin lub powiązanych projektach. Dodając powiązany `project_id`, łączysz swoją zawartość z odpowiednim podmiotem.
 
 
 ***Aktualizacja:*** W nowej wersji skryptu nie trzeba już ręcznie wprowadzać `project_id`. Dodano funkcję wyszukiwania, aby znaleźć projekt według nazwy i automatycznie pobrać odpowiedni `project_id`. Wpisz początek nazwy projektu w polu "Project Name", aby go wyszukać, a następnie wybierz żądaną firmę z rozwijanego menu. Identyfikator `project_id` zostanie automatycznie wypełniony w polu poniżej. W razie potrzeby można go również wprowadzić ręcznie.
@@ -238,7 +238,7 @@ Identyfikator `project_id` to identyfikator UUID firmy lub organizacji stojącej
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-W przypadku tagów wybierz 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybierając wyłącznie z [listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Oprogramowanie udostępnia również funkcję wyszukiwania słów kluczowych z rozwijaną listą.
+W przypadku tagów wybierz 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybierając wyłącznie z [listy tagów Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Oprogramowanie udostępnia również funkcję wyszukiwania słów kluczowych z rozwijaną listą.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -348,7 +348,7 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -501,7 +501,7 @@ Podfolder language w folderze `assets` służy do przechowywania diagramów i wi
 Aby nazwać obrazy, po prostu użyj numerów odpowiadających kolejności ich pojawiania się w samouczku, sformatowanych za pomocą dwóch cyfr (lub trzech cyfr, jeśli samouczek zawiera więcej niż 99 obrazów). Na przykład, nazwij swój pierwszy obraz `01.webp`, drugi `02.webp` i tak dalej.
 
 
-Obrazy muszą być wyłącznie w formacie `.webp`. W razie potrzeby możesz użyć [mojego oprogramowania do konwersji obrazów] (https://github.com/LoicPandul/ImagesConverter).
+Obrazy muszą być wyłącznie w formacie `.webp`. W razie potrzeby możesz użyć [mojego oprogramowania do konwersji obrazów](https://github.com/LoicPandul/ImagesConverter).
 
 
 ![TUTO](assets/fr/26.webp)
@@ -609,4 +609,4 @@ Jeśli chcesz wprowadzić zmiany w swoim wkładzie po przesłaniu PR, procedura 
 - Jeśli twój PR został już scalony z główną gałęzią, będziesz musiał rozpocząć proces od nowa, tworząc nową gałąź, a następnie przesyłając nowy PR. Przed kontynuowaniem upewnij się, że lokalne repozytorium jest zsynchronizowane z repozytorium źródłowym Plan ₿ Academy.
 
 
-Jeśli napotkasz trudności techniczne w przesłaniu swojego samouczka, nie wahaj się poprosić o pomoc na [naszej dedykowanej grupie Telegram dla kontrybucji] (https://t.me/PlanBNetwork_ContentBuilder). Dziękujemy!
+Jeśli napotkasz trudności techniczne w przesłaniu swojego samouczka, nie wahaj się poprosić o pomoc na [naszej dedykowanej grupie Telegram dla kontrybucji](https://t.me/PlanBNetwork_ContentBuilder). Dziękujemy!

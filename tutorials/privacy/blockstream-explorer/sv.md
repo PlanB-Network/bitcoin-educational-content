@@ -7,11 +7,11 @@ description: Utforska huvudlagret i Bitcoin och Liquid Network
 
 
 
-Blockstream Explorer är ett projekt som underlättar utforskningen av transaktioner och det globala tillståndet för Bitcoin-protokollet, samt [*sidechain*] (https://planb.academy/en/resources/glossary/sidechain) Liquid som utvecklats av Blockstream-företaget.
+Blockstream Explorer är ett projekt som underlättar utforskningen av transaktioner och det globala tillståndet för Bitcoin-protokollet, samt [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) Liquid som utvecklats av Blockstream-företaget.
 
 
 
-Utforskaren [blockstream.info] (https://blockstream.info) initierades 2014 av Blockstream, ett företag grundat av Adam Back, och syftar till att tillhandahålla en robust infrastruktur för Bitcoin, som garanterar interoperabilitet och transaktionsspårning mellan lager (on-chain och Liquid), samtidigt som användarnas säkerhet och integritet stärks.
+Utforskaren [blockstream.info](https://blockstream.info) initierades 2014 av Blockstream, ett företag grundat av Adam Back, och syftar till att tillhandahålla en robust infrastruktur för Bitcoin, som garanterar interoperabilitet och transaktionsspårning mellan lager (on-chain och Liquid), samtidigt som användarnas säkerhet och integritet stärks.
 
 
 
@@ -91,7 +91,7 @@ Under denna detaljsektion hittar vi alla transaktioner som ingår i detta block.
 
 
 
-Den allra första transaktionen i blocket kallas **transaction coinbase**. Den används för att fördela minarens mining-belöning (alla avgifter som är förknippade med de transaktioner som ingår i blocket och blockbidraget). De bitcoins som skapas genom den här transaktionen kan bara användas när ytterligare 100 block i följd har minats. Med andra ord, för att kunna använda dem måste gruvarbetaren vänta på produktionen av block **919430**. Detta kallas för [*"löptid"*] (https://planb.academy/fr/resources/glossary/maturity-period).
+Den allra första transaktionen i blocket kallas **transaction coinbase**. Den används för att fördela minarens mining-belöning (alla avgifter som är förknippade med de transaktioner som ingår i blocket och blockbidraget). De bitcoins som skapas genom den här transaktionen kan bara användas när ytterligare 100 block i följd har minats. Med andra ord, för att kunna använda dem måste gruvarbetaren vänta på produktionen av block **919430**. Detta kallas för [*"löptid"*](https://planb.academy/fr/resources/glossary/maturity-period).
 
 
 
@@ -142,7 +142,7 @@ På den här sidan kan du se vilket block som transaktionen ingick i. Beroende p
 
 
 
-Liquid Network är en [*sidechain*] (https://planb.academy/en/resources/glossary/sidechain) och en nivå 2-lösning med öppen källkod för Bitcoin-protokollet. Det möjliggör framför allt snabbare och mer konfidentiella bitcoin-transaktioner.
+Liquid Network är en [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) och en nivå 2-lösning med öppen källkod för Bitcoin-protokollet. Det möjliggör framför allt snabbare och mer konfidentiella bitcoin-transaktioner.
 
 
 

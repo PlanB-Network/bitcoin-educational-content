@@ -1,0 +1,8 @@
+question: U strukturi mrežne poruke Bitcoin-ovog P2P, koji specifični podaci čine 4-bajtno polje kontrolnog zbira u svakom omotu poruke?
+answer: Prva 4 bajta hash256 opterećenja poruke
+wrong_answers:
+  - Prva 4 bajta SHA256 heša celokupnog omota poruke
+  - Prva 4 bajta hash256 polja komande konkateniranog sa teretom
+  - Prva 4 bajta RIPEMD160 heša korisničkog sadržaja poruke
+explanation: |
+  Omotnica poruke Bitcoin-ovog P2P koristi specifičan mehanizam kontrolnog zbira gde polje kontrolnog zbira od 4 bajta sadrži prva 4 bajta hash256 primenjenog samo na sadržaj poruke. Ovo obezbeđuje proveru integriteta podataka sadržaja tokom prenosa mrežom. Ostale opcije su netačne jer se odnose na različite hash funkcije (jednostruki SHA256, RIPEMD160) ili različite ulazne podatke (cela omotnica, komanda+sadržaj) od onoga što Bitcoin zapravo implementira u svom mrežnom protokolu.

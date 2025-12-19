@@ -1,0 +1,8 @@
+question: Šta se dešava sa razlikom između ulaznih iznosa i izlaznih iznosa u Bitcoin transakciji?
+answer: Razlika automatski postaje naknada za transakciju plaćena rudarima
+wrong_answers:
+  - "Razlika se vraća na originalnu adresu pošiljaoca kao kusur"
+  - Razlika je spaljena i trajno uklonjena iz opticaja
+  - Razlika se drži u escrow-u dok se transakcija ne potvrdi.
+explanation: |
+  U Bitcoin sistemu naknada, naknade se računaju implicitno kao razlika između ukupnih ulaznih iznosa i ukupnih izlaznih iznosa (naknada = suma(ulaza) - suma(izlaza)). Svaka vrednost koja nije eksplicitno dodeljena izlazu automatski postaje naknada za rudara. Zato je kreiranje pravilnih izlaza za kusur kritično - ako zaboravite da uključite izlaz za kusur prilikom trošenja velikog UTXO, ceo ostatak postaje skupa naknada za rudara. Ostale opcije su netačne jer Bitcoin ne kreira automatski izlaze za kusur, ne spaljuje nedodeljenu vrednost i ne koristi mehanizme eskroua za razlike u transakcijama.

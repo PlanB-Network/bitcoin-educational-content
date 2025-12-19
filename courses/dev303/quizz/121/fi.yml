@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen mekanismi, jonka avulla Breez SDK:n nollakanavavarausominaisuus luo lisäriskin, joka Lightning-palveluntarjoajien on otettava vastatakseen?
+answer: LSP:iden on hyväksyttävä riski siitä, että käyttäjät käyttävät koko kanavasaldonsa, jolloin poistuu turvapuskuri, joka perinteisesti suojaa kanavan pakkosulkemiselta
+wrong_answers:
+  - LSP:t ovat vastuussa jatkuvan verkkokaavion synkronoinnin ylläpitämisestä useiden käyttäjien laitteiden välillä ilman perinteistä varallaoloon perustuvaa maksukorvausta
+  - LSP:iden on taattava maksujen välitön reititys ilman likviditeettipuskuria, jonka kanavareservit tarjoavat verkon ylikuormitusskenaarioiden käsittelyyn
+  - LSP:t ottavat vastuun on-chain:n vaihtovirheistä, kun käyttäjät yrittävät vaihtaa koko Lightning-saldonsa Bitcoin:een korkeiden maksujen aikana
+explanation: |
+  Nollakanavareservit antavat käyttäjille mahdollisuuden käyttää koko näytetyn saldonsa, mutta tämä poistaa perinteisen turvapuskurin, joka suojaa salamapalveluntarjoajia kanavien pakkosulkemisen aikana. Kanavareservit varmistavat yleensä, että osa varoista jää lukittuun tilaan sulkemiskustannusten kattamiseksi ja suojaavat ilkivallalta. Kun nämä varaukset poistetaan käyttäjäkokemuksen parantamiseksi, LSP:iden on kannettava ylimääräiset toiminnalliset ja taloudelliset riskit, joita nämä puskurit oli suunniteltu lieventämään, mikä on selkeä kompromissi, jossa tekninen monimutkaisuus ja riski siirtyvät käyttäjiltä palveluntarjoajille.

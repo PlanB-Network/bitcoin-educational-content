@@ -1,0 +1,8 @@
+question: Quand l'opérateur point d'interrogation ( ?) doit-il être préféré aux méthodes unwrap() ou expect() dans la gestion des erreurs Rust ?
+answer: Lorsque vous devez propager des erreurs vers le haut de la pile d'appels pour que la fonction appelante puisse les gérer
+wrong_answers:
+  - Lorsque vous souhaitez fournir des messages d'erreur personnalisés pour déboguer les opérations qui ont échoué
+  - Lorsque vous êtes certain que l'opération va réussir et que vous voulez éviter la gestion des erreurs
+  - Lorsque vous devez convertir des erreurs en une valeur par défaut et poursuivre l'exécution du programme
+explanation: |
+  L'opérateur point d'interrogation ( ?) est conçu pour la propagation des erreurs - il extrait les valeurs de succès mais renvoie immédiatement les erreurs de la fonction courante, permettant aux appelants de les gérer. Contrairement à unwrap()/expect() qui panique en cas d'erreur, ou à unwrap_or() qui fournit des valeurs par défaut, l'opérateur ? maintient le contexte d'erreur et transmet la responsabilité au code de niveau supérieur qui peut prendre les décisions de gestion appropriées.

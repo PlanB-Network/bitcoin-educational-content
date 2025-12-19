@@ -1,0 +1,8 @@
+question: 哪種性質代表可被多次呼叫而不會變異其捕捉環境的閉包？
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn 是最具限制性的閉合特質，代表可多次呼叫而不會變異其捕捉環境的閉合。這些閉合僅透過不可變的參照來擷取，並且可以安全地同時呼叫。FnOnce 代表只能被呼叫一次的閉合，而 FnMut 代表可以被呼叫多次但可能會變更其捕捉環境的閉合。FnCapture 並非真正的 Rust 特徵。

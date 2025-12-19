@@ -1,0 +1,8 @@
+question: Minkä tyyppisen virheen pitäisi aiheuttaa paniikki Rust-ohjelmissa?
+answer: Korjaamattomat virheet, jotka osoittavat ohjelmointilogiikan virheitä tai vaarallisia tiloja
+wrong_answers:
+  - Ulkoisten palveluiden verkkoyhteyshäiriöt tai aikakatkaisuvirheet
+  - Virheellinen käyttäjän syöttö tai puuttuvat asetustiedostot
+  - Tiedostoa ei löydy -virheitä tai käyttöoikeudet evätty -poikkeuksia
+explanation: |
+  Paniikkitilanteet tulisi varata korjaamattomille virheille, jotka edustavat ohjelmointivirheitä tai tilanteita, joissa ohjelma on siirtynyt turvattomaan tilaan, kuten joukkojen rajojen rikkominen tai muistiturvallisuusongelmat. Väärät vastaukset kuvaavat kaikki palautettavia virheitä - verkkoviat, käyttäjän syöttöongelmat ja tiedostojärjestelmäongelmat ovat odotettuja olosuhteita, jotka ohjelmien tulisi käsitellä hienovaraisesti käyttäen tulostyyppejä kaatumisen sijasta. Näiden palautuvien virheiden ansiosta ohjelmat voivat jatkaa toimintaansa ottamalla käyttöön asianmukaiset virheenkäsittelystrategiat.

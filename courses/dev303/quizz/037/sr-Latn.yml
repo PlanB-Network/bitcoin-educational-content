@@ -1,0 +1,8 @@
+question: Koja je primarna karakteristika koja čini closures moćnim u Rust?
+answer: Njihova sposobnost da uhvate varijable iz svoje okoline
+wrong_answers:
+  - Njihova sposobnost da trče brže od regularnih funkcija
+  - Njihova sposobnost automatskog upravljanja dodelom memorije
+  - Njihova sposobnost izvršavanja koda u paralelnim nitima
+explanation: |
+  Osnovna karakteristika koja čini zatvaranja moćnim je njihova sposobnost da "zatvore" svoje okruženje, što znači da mogu pristupiti i koristiti promenljive koje postoje u opsegu gde je zatvaranje definisano. Ova sposobnost hvatanja omogućava zatvaranjima da održavaju stanje i kontekst iz svog okruženja kreiranja, čineći ih mnogo fleksibilnijim od regularnih funkcija. Iako se zatvaranja mogu optimizovati za performanse i koristiti u kontekstima niti, ovo su sekundarne prednosti - njihova osnovna snaga dolazi iz hvatanja promenljivih iz okruženja.

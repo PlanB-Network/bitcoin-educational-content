@@ -1,0 +1,8 @@
+question: Cargo new project_name` komutu proje yapısının bir parçası olarak otomatik olarak ne oluşturur?
+answer: Bir Git deposu, Cargo.toml dosyası ve Hello World programını içeren temel main.rs dosyası
+wrong_answers:
+  - Yalnızca bir Cargo.toml yapılandırma dosyası ve boş kaynak dizin yapısı
+  - Eksiksiz bir test paketi, dokümantasyon dosyaları ve üretime hazır yapılandırma
+  - İkili yürütülebilir dosyalar, hedef dizin ve sürüm oluşturma yapılandırması
+explanation: |
+  Cargo new' komutu, sürüm kontrolü için bir Git deposu, proje yapılandırması ve bağımlılıkları için bir Cargo.toml dosyası ve bir 'Merhaba, dünya!' programı içeren temel bir main.rs dosyası içeren kapsamlı bir proje temeli oluşturur. Bu, geliştirmeye hemen başlamak için gereken her şeyi sağlar. Diğer seçenekler yanlıştır çünkü cargo new test takımları, dokümantasyon dosyaları, çalıştırılabilir ikili dosyalar veya derleme eserleri oluşturmaz - yalnızca ilk proje yapısını kurar.

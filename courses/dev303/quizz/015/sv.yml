@@ -1,0 +1,8 @@
+question: Vilken är den primära mekanismen som Rust använder för att förhindra minnesrelaterade buggar som use-after-free och buffertöverskridanden?
+answer: Statisk analys utförs helt och hållet vid kompileringstiden
+wrong_answers:
+  - Runtime garbage collection med automatisk minnesrensning
+  - Dynamisk minneskontroll under programkörning
+  - Manuell minneshantering med explicita allokeringsanrop
+explanation: |
+  Rust förhindrar minnesrelaterade buggar genom statisk analys som utförs helt vid kompileringstillfället, där kompilatorn undersöker källkoden och med säkerhet avgör om minnesoperationer är säkra. Detta skiljer sig från garbage collection (som används av Java/Go) som medför overhead under körning, dynamisk kontroll som kräver verifiering under körning och manuell minneshantering (som används av C/C++) som förlitar sig på programmerarens disciplin. Rust:s kompileringsmetod säkerställer minnessäkerhet utan körtidskostnader eller oförutsägbara pauser.

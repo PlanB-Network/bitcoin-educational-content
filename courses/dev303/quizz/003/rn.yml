@@ -1,0 +1,8 @@
+question: Ni irihe tegeko rya Cargo rikora ivyigwa vy’ugukoranya ata dosiye ishobora gukorwa?
+answer: gusuzuma imizigo
+wrong_answers:
+  - kwubaka imitwaro
+  - kwiruka kw'imizigo
+  - ikigeragezo c'imitwaro
+explanation: |
+  Itegeko 'cargo check' rikora isuzuma ryose ry'ugukoranya kandi rigenzura ko kode yawe ikoranya neza ataco ikora dosiye ya nyuma ishobora gukorwa. Ivyo bituma vyihuta cane kuruta inyubako yuzuye iyo ushaka gusa kugenzura ukuri kwa kode. Mu buryo bunyuranye, 'cargo build' ikoranya kandi igatanga amadosiye ashobora gukorwa, 'cargo run' yompi yubaka kandi igakora porogarama, 'cargo test' na yo ikoranya kandi igakora ivyagezwe.

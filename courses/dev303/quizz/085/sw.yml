@@ -1,0 +1,8 @@
+question: Wakati wa kufafanua violesura vya kupiga simu tena katika UniFFI, ni mipaka gani ya ziada ya sifa za Rust ambayo kwa kawaida huhitajika kwenye sifa ya kupiga simu tena ili kuhakikisha uombaji salama wa lugha mtambuka?
+answer: Mipaka ya Kutuma na Kusawazisha inahitajika kwa sababu miito ya kurudi nyuma inaweza kuvuka mipaka ya nyuzi kati ya Rust na lugha lengwa
+wrong_answers:
+  - Mipaka ya nakala na nakala inahitajika ili kuruhusu data ya simu kurudiwa kurudiwa katika mipaka ya lugha
+  - Mipaka ya utatuzi na Onyesho inahitajika ili kuwezesha kuripoti makosa sahihi wakati simu zinazorudishwa zinaposhindwa wakati wa utekelezaji
+  - Mipaka ya kuweka mfululizo na kuondoa serial inahitajika ili kupanga vigezo vya kupiga simu tena kati ya nyakati tofauti za uendeshaji wa lugha
+explanation: |
+  Violesura vya kurudisha simu katika UniFFI vinahitaji mipaka ya Kutuma na Kusawazisha kwa sababu huwezesha mawasiliano ya pande mbili ambapo msimbo wa Rust hupiga simu tena kwenye msimbo wa programu ulioandikwa katika lugha lengwa. Kwa kuwa kurudisha simu hizi kunaweza kuvuka mipaka ya nyuzi wakati wa utekelezaji, mfumo wa aina ya Rust unahitaji mipaka ya Kutuma (salama kuhamisha kati ya nyuzi) na Kusawazisha (salama kushiriki marejeleo kati ya nyuzi) ili kuhakikisha usalama wa kumbukumbu. Chaguzi zingine si sahihi: Clone/Copy hazihitajiki kwa simu za lugha mtambuka, Debug/Display ni ya umbizo sio usalama, na Serialize/Deserialize hushughulikiwa kiotomatiki na mfumo wa kuratibu wa UniFFI.

@@ -614,7 +614,7 @@ En framgångsrik etablering av en mining-pool i hemmet utgör ett betydande steg
 När det gäller lödning av ytmonterade komponenter (SMD), särskilt när man arbetar med Bitaxe-projekt, är det viktigt att ha rätt verktyg för att kunna göra skillnad mellan frustration och framgång. Denna omfattande guide täcker den väsentliga utrustning som behövs för att hantera SMD-lödningsprojekt effektivt, från grundläggande handverktyg till specialutrustning som kommer att höja dina lödningsegenskaper.
 
 
-Om du vill hänvisa till någon dokumentation om schemat, kolla in den här [GitHub repo] (https://github.com/skot/bitaxe-doc/tree/main).
+Om du vill hänvisa till någon dokumentation om schemat, kolla in den här [GitHub repo](https://github.com/skot/bitaxe-doc/tree/main).
 
 
 ### Grundläggande handverktyg och precisionsinstrument
@@ -1090,7 +1090,7 @@ Förhållandet mellan dessa mätvärden är komplext och beroende av varandra. H
 ### Bitaxe Hashrate Benchmark-verktygets arkitektur
 
 
-Verktyget [Bitaxe Hashrate Benchmark] (https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) representerar en sofistikerad Python-baserad lösning som ursprungligen utvecklades av WhiteCookie och därefter förbättrades av mrv777. Detta verktyg med öppen källkod, som distribueras under GPLv3-licensen, automatiserar den komplexa processen med att testa flera konfigurationskombinationer för att identifiera optimala inställningar för din specifika maskinvara. Verktygets främsta styrka ligger i dess systematiska tillvägagångssätt för parametertestning, där frekvens- och spänningsinställningar justeras stegvis samtidigt som prestandamätvärden och termiska förhållanden övervakas kontinuerligt.
+Verktyget [Bitaxe Hashrate Benchmark](https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) representerar en sofistikerad Python-baserad lösning som ursprungligen utvecklades av WhiteCookie och därefter förbättrades av mrv777. Detta verktyg med öppen källkod, som distribueras under GPLv3-licensen, automatiserar den komplexa processen med att testa flera konfigurationskombinationer för att identifiera optimala inställningar för din specifika maskinvara. Verktygets främsta styrka ligger i dess systematiska tillvägagångssätt för parametertestning, där frekvens- och spänningsinställningar justeras stegvis samtidigt som prestandamätvärden och termiska förhållanden övervakas kontinuerligt.
 
 
 Benchmarkingprocessen tar vanligtvis 30 till 40 minuter att slutföra, under vilken verktyget metodiskt testar olika kombinationer av ASIC frekvens- och spänningsinställningar. Verktyget börjar med konservativa grundinställningar, som vanligtvis börjar på 1,15 volt och 500 megahertz, och ökar sedan dessa parametrar stegvis samtidigt som hashrate, temperatur och stabilitet övervakas. Det är viktigt att verktyget prioriterar säker drift framför maximal prestanda och automatiskt backar från inställningar som orsakar överdriven värmeutveckling eller instabilitet. Detta konservativa tillvägagångssätt säkerställer att optimeringsprocessen inte äventyrar hårdvarans livslängd eller tillförlitlighet.

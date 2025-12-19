@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe ry’ishimikiro hagati y’ingene macros n’ibikorwa bikoreshwa muri Rust?
+answer: Macros zagurwa n'umukozi mu gihe co gukora imbere y'uko gukora gutangura, mu gihe ibikorwa bihamagarwa mu gihe co gukora
+wrong_answers:
+  - Macros zikoresha uburyo bwo guhuza kugira ngo isuzume ubwoko mu gihe ibikorwa bikoresha isesengura ridahinduka kugira ngo ryemezwe mu gihe co gukora
+  - Macros generate yatunganije kode y'ikoraniro ataco ihinduye mu gihe ibikorwa bisobanurwa n'imashini y'ukuri ya Rust
+  - Macros zibikwa mu bubiko mu gihe c'ugushirwa mu ngiro mu gihe ibikorwa bishirwa kuri disiki iyo bihamagawe
+explanation: |
+  Inyishu ibereye yerekana itandukaniro ry’igihe ry’ingenzi: macros zikora mu gihe co gukoranya biciye mu kwagura kode, mu gihe ibikorwa bikora mu gihe ca porogarama. Inyishu zitari zo zitera urujijo ivyiyumviro bitandukanye vyo gukora porogarama - Rust ntikoresha imashini y’ivy’impwemu, macros n’ibikorwa vyose birasuzumwa ubwoko (ariko ku ntambwe zitandukanye), kandi nta bikorwa canke macros bishirwa kuri disk mu gihe co gukora mu buryo bwavuzwe.

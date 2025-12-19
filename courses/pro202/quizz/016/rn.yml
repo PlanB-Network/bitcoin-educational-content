@@ -1,0 +1,8 @@
+question: Ni igiki kiba ku ntandukaniro iri hagati y’amahera yinjizwa n’amahera asohoka mu gucuruza Bitcoin?
+answer: Iryo tandukaniro rihita rihinduka amahera y'ugucuruza yishurwa abacukuzi .
+wrong_answers:
+  - "Itandukaniro risubirwamwo kuri aderesi y'umwimerere y'uwarungitse nk'ihinduka"
+  - Ubutandukane buraturirwa maze bukakurwaho ubuziraherezo .
+  - Itandukaniro rigumwa mu escrow gushika igikorwa cemejwe .
+explanation: |
+  Mu nzira y’amafaranga ya Bitcoin, amafaranga abarwa mu buryo butagaragara nk’itandukaniro hagati y’amafaranga yose y’inyungu n’amafaranga yose y’isohoka (amafaranga = umubare(inputs) - sum(outputs)). Agaciro kose katashizwe mu buryo butomoye ku gisohoka gaca kaba amafaranga y'umucukuzi. Ni co gituma guhingura ibisohoka vy’ihinduka bikwiye ari ikintu gihambaye cane - iyo wibagiye gushiramwo igisohoka c’ihinduka igihe ukoresha UTXO nini, ibindi vyose bisigaye bica bihinduka amahera azimvye ku mucukuzi. Ayandi mahitamwo ntabwo ari meza kuko Bitcoin ntihita irema ibisohoka vy’ihinduka, ntiturira agaciro katagenewe, kandi ntikoresha uburyo bwo gushiramwo ibintu ku bijanye n’itandukaniro ry’ibikorwa.

@@ -96,7 +96,7 @@ Ili kutumia SeedSigner yako na Satochip, unahitaji kusakinisha programu dhibiti 
 
 
 
-Ikiwa tayari huna, pakua programu ya [Balena Etcher] (https://etcher.balena.io/), kisha uendelee kama ifuatavyo:
+Ikiwa tayari huna, pakua programu ya [Balena Etcher](https://etcher.balena.io/), kisha uendelee kama ifuatavyo:
 
 
 

@@ -1,0 +1,8 @@
+question: Når du definerer tilbakekallingsgrensesnitt i UniFFI, hvilke ekstra Rust-trekksgrenser kreves vanligvis for tilbakekallingstrekket for å sikre sikker påkjenning på tvers av språk?
+answer: Send- og Sync-grenser er påkrevd fordi tilbakekallinger kan krysse trådgrenser mellom Rust og målspråkene
+wrong_answers:
+  - Klon- og kopieringsgrenser er nødvendige for at tilbakekallingsdata skal kunne dupliseres på tvers av språkgrenser
+  - Debug- og Display-grenser er nødvendige for å muliggjøre riktig feilrapportering når tilbakekallinger mislykkes under kjøring
+  - Serialize- og Deserialize-grenser er nødvendige for å samle tilbakekallingsparametere mellom ulike språkkjøringstider
+explanation: |
+  Callback-grensesnitt i UniFFI krever Send- og Sync-begrensninger fordi de muliggjør toveiskommunikasjon der Rust-kode kaller tilbake til applikasjonskode skrevet i målspråk. Siden disse tilbakekallingene kan krysse trådgrenser under kjøring, krever Rusts typesystem Send (trygt å overføre mellom tråder) og Sync (trygt å dele referanser mellom tråder) grenser for å sikre minnesikkerhet. De andre alternativene er feil: Clone/Copy er ikke nødvendig for anrop på tvers av språk, Debug/Display er for formatering, ikke sikkerhet, og Serialize/Deserialize håndteres automatisk av UniFFIs marshaling-system.

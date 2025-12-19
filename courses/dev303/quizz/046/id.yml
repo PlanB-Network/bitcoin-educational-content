@@ -1,0 +1,8 @@
+question: Apa yang terjadi jika Anda mengkloning instance RC<T> yang berisi struktur data yang besar?
+answer: Hanya referensi yang disalin dan penghitung referensi bertambah, sehingga data asli tidak berubah
+wrong_answers:
+  - Seluruh struktur data diduplikasi dalam memori dan kedua salinannya mempertahankan penghitung referensi yang terpisah
+  - Salinan dangkal dibuat di mana bidang primitif disalin tetapi bidang kompleks tetap menjadi referensi bersama
+  - Data dipindahkan ke lokasi memori baru dan RC asli menjadi tidak valid hingga diinisialisasi ulang
+explanation: |
+  Ketika mengkloning RC, Rust hanya menyalin penunjuk referensi dan menambah penghitung referensi internal, membuat operasi menjadi sangat efisien terlepas dari ukuran data. Data yang mendasari tetap berada di lokasi memori yang sama dan digunakan bersama di antara semua contoh RC. Hal ini pada dasarnya berbeda dengan mengkloning data yang sebenarnya, yang akan merusak tujuan kepemilikan bersama dan membuang-buang memori.

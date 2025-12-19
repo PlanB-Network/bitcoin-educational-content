@@ -38,7 +38,7 @@ Fata Minibits nk’ivyo Wallet ya misi yose, atari konti yo kuzigama, kandi ntuk
 ## 1️⃣ Gutegura Wallet yawe
 
 
-Kugira ngo utangure, genda kuri [Urubuga rwa Minibits](https://www.minibits.cash/) aho uzosanga uburyo bwo gukuraho amakuru ku mbuga zose zikomeye. Abakoresha iOS barashobora gukura kuri [App Store](https://testflight.apple.com/join/defJQgTD), mu gihe abakoresha iOS y’Ubumwe bw’Uburayi bafise uburenganzira bwo gushiramwo kuri [Iduka ry’Umwidegemvyo](https://freedomstore.io/). Abakoresha Android barashobora kuronka iyo porogarama muri [Iduka rya Google Play] canke bagakura dosiye ya APK mu [Ibisohoka vya GitHub] (Ibisohoka vya GitHub]
+Kugira ngo utangure, genda kuri [Urubuga rwa Minibits](https://www.minibits.cash/) aho uzosanga uburyo bwo gukuraho amakuru ku mbuga zose zikomeye. Abakoresha iOS barashobora gukura kuri [App Store](https://testflight.apple.com/join/defJQgTD), mu gihe abakoresha iOS y’Ubumwe bw’Uburayi bafise uburenganzira bwo gushiramwo kuri [Iduka ry’Umwidegemvyo](https://freedomstore.io/). Abakoresha Android barashobora kuronka iyo porogarama muri [Iduka rya Google Play] canke bagakura dosiye ya APK mu [Ibisohoka vya GitHub](Ibisohoka vya GitHub]
 
 
 Igihe ushizeho Minibits, uzobona amashusho y’intango asigura ivyiyumviro vy’ishimikiro—urashobora kubisoma canke ukabisimbuka nimba usanzwe umenyereye ubuhinga. Uhejeje izi ntambwe zambere, uzosabwa guhitamwo hagati ya:

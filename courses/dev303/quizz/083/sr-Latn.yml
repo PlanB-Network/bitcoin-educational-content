@@ -1,0 +1,8 @@
+question: Kako UniFFI rukuje propagacijom grešaka iz Rust funkcija ka ciljnim jezicima kao što su Kotlin i Python?
+answer: Funkcije koje vraćaju Result tipove označene su sa 'throws' u UDL i generate nativnim izuzecima u ciljnim jezicima
+wrong_answers:
+  - Tipovi grešaka se automatski konvertuju u string poruke i vraćaju kao opcionalne vrednosti u svim ciljnim jezicima.
+  - Sve Rust greške su obuhvaćene generičkim UniFFI tipom greške koji programeri moraju ručno da otpakiraju.
+  - Rukovanje greškama zahteva od programera da ručno implementiraju kod za prevođenje grešaka za svaku ciljnu jezičku platformu
+explanation: |
+  UniFFI pruža sofisticirano rukovanje greškama koje očuva Rust model grešaka zasnovan na rezultatima, dok ga adekvatno prevodi za svaki ciljni jezik. Funkcije koje vraćaju tipove rezultata u Rust označene su sa ključnom reči 'throws' u UDL, a ove generate izvorne obrade izuzetaka u ciljnim jezicima - Kotlin metode bacaju izuzetke prateći Java/Kotlin konvencije, dok Python koristi Python model izuzetaka. Ovo osigurava da rukovanje greškama deluje prirodno i idiomatski u svakom jeziku, dok očuva semantičko značenje originalnih Rust tipova grešaka, za razliku od generičkih omotača ili pristupa ručnog prevođenja.

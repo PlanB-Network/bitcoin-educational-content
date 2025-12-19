@@ -1,0 +1,8 @@
+question: Čím se liší regulovaná aktiva od neregulovaných aktiv v systému původních aktiv Liquid?
+answer: Regulovaná aktiva vyžadují před přesunem druhý podpis z autorizačního serveru, což umožňuje dodržování pravidel KYC/AML
+wrong_answers:
+  - Regulovaná aktiva používají chytré smlouvy, zatímco neregulovaná aktiva používají k emisi jednoduché výzvy RPC
+  - Regulovaná aktiva jsou kryta rezervami Bitcoin, zatímco neregulovaná aktiva existují pouze v postranním řetězci
+  - K vytvoření regulovaných aktiv je třeba souhlasu funkcionáře, zatímco neregulovaná aktiva lze vydávat bez povolení
+explanation: |
+  V architektuře Liquid lze regulovaná i neregulovaná aktiva vydávat bez povolení pomocí jednoduchých volání RPC bez inteligentních smluv. Klíčový rozdíl je v jejich pohybu: regulovaná aktiva využívají platformu pro správu aktiv (AMP) společnosti Blockstream k vynucení shody tím, že před převody vyžadují dodatečný autorizační podpis, zatímco neregulovaná aktiva se mohou pohybovat volně bez takových omezení.

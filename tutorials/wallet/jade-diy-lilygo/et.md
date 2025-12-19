@@ -116,7 +116,7 @@ Riistvaralised rahakotid toovad aga kaasa oma ohud. Te peate usaldama, et tootja
 ## Mida me ehitame?
 
 
-Me võtame üldise riistvara, LilyGo T-Display, ja vilgutame sellele Jade SDK püsivara. [Jade Plus] (https://blockstream.com/jade/jade-plus/) on avatud lähtekoodiga wallet, mis tavaliselt maksab 150 dollarit:
+Me võtame üldise riistvara, LilyGo T-Display, ja vilgutame sellele Jade SDK püsivara. [Jade Plus](https://blockstream.com/jade/jade-plus/) on avatud lähtekoodiga wallet, mis tavaliselt maksab 150 dollarit:
 
 
 ![image](assets/fr/02.webp)

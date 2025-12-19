@@ -28,7 +28,7 @@ Välkommen till BTC101-kursen!
 
 Bitcoin är en teknologisk och monetär revolution, kapabel att få oss att ifrågasätta vår relation till pengar och samhälle. Faktum är att Bitcoin (som kallas BTC) är en neutral och decentraliserad valuta, vilket betyder att den inte kontrolleras av någon enhet eller institution. Det är en innovation som går bortom enbart en "internetvaluta": det är både ett datorprotokoll (Bitcoin) och en monetär enhet (bitcoin).
 
-Bitcoin-protokollet använder underliggande teknologier som kryptografi, nätverkskommunikation och den berömda "blockchain", medan bitcoin-enheten fungerar som den nödvändiga valutan för att detta protokoll ska fungera korrekt. I vardagen använder salvadoraner och bitcoin-användare runt om i världen bitcoin-valutan för att köpa och sälja varor och tjänster, och förlitar sig på denna teknologi för att förbättra sina liv.
+Bitcoin-protokollet använder underliggande teknologier som kryptografi, nätverkskommunikation och den berömda "[blockchain](https://planb.academy/resources/glossary/blockchain)", medan bitcoin-enheten fungerar som den nödvändiga valutan för att detta protokoll ska fungera korrekt. I vardagen använder salvadoraner och bitcoin-användare runt om i världen bitcoin-valutan för att köpa och sälja varor och tjänster, och förlitar sig på denna teknologi för att förbättra sina liv.
 
 ### En omfattande men ändå lättillgänglig läroplan
 
@@ -89,7 +89,6 @@ Det viktiga här är att förstå denna nya teknik på ett allmänt sätt, så v
 
 Redo att dyka ner i den fascinerande världen av Bitcoin och förstå alla dess inre funktioner? Låt oss gå!
 
-**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.academy/resources/glossary) för definitioner.
 
 ## Bitcoins förhistoria
 
@@ -136,7 +135,7 @@ Bilden nedan illustrerar tydligt rörelsens utveckling genom dess många teknisk
 
 ![image](assets/sv/005.webp)
 
-Det var i denna bördiga miljö som den mystiske Satoshi Nakamoto publicerade Bitcoin whitepaper år 2008. I detta dokument kombinerade han flera idéer från cypherpunk-rörelsen, såsom proof of work och kryptografiska tidsstämplar, för att skapa en decentraliserad och censurresistent digital valuta.
+Det var i denna bördiga miljö som den mystiske Satoshi Nakamoto publicerade Bitcoin whitepaper år 2008. I detta dokument kombinerade han flera idéer från cypherpunk-rörelsen, såsom [proof of work](https://planb.academy/resources/glossary/proof-of-work) och kryptografiska tidsstämplar, för att skapa en decentraliserad och censurresistent digital valuta.
 
 Bitcoin var dock mer än så: det representerade förverkligandet av cypherpunk-idealen. Utöver sin teknik symboliserade den en revolution mot traditionella finansiella system och erbjöd ett alternativ baserat på transparens, decentralisering och individuell suveränitet.
 
@@ -218,7 +217,7 @@ För att uppfylla dessa kriterier har valutor historiskt sett utvecklats genom o
 
 Valutorna utvecklas än idag och anpassar sina former för att möta olika användningsområden. Guld är som sagt en utmärkt värdebevarare, men passar inte längre i dagens globaliserade ekonomi. På samma sätt är fiduciära valutor som dollar och euro mycket likvida och lätta att transportera eftersom de nu till största delen är digitala, men deras värde sänks ständigt av monetär inflation.
 
-Å andra sidan erbjuder Bitcoin nya möjligheter. Dess egenskaper, t.ex. den strikt begränsade tillgången, gör den till en utmärkt värdebevarare. Som en neutral internetvaluta fungerar den dessutom som ett livskraftigt **betalningsmedel** som överskrider gränser. Den är dock fortfarande inte allmänt accepterad i handeln idag, trots att den [ständigt används] (https://btcmap.org/map).
+Å andra sidan öppnar Bitcoin nya perspektiv. Dess egenskaper, särskilt ett strikt begränsat utbud, gör det till en utmärkt värdebevarare. Vidare utgör det, som en neutral internetvaluta, ett livskraftigt **bytesmedel** som kan överskrida gränser. Trots en fortlöpande adoption (vilket [BTCmap-kartan](https://btcmap.org/map) illustrerar) är det dock ännu inte allmänt accepterat inom handeln i dag.
 
 ## Fiduciära valutor
 
@@ -413,7 +412,7 @@ Efter att framgångsrikt ha utfört denna uppgift belönas miners med skapandet 
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Vi kommer att återkomma till begreppet mining i mer detalj i [miner-kapitlet] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Vi kommer att återkomma till begreppet mining i mer detalj i [miner-kapitlet](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Garantera digital knapphet
 
@@ -526,7 +525,7 @@ Vad händer om någon av misstag gissar vår lista med 12 eller 24 ord? Det kort
 
 Sannolikheten för att hacka din Bitcoin-plånbok är således astronomiskt låg om du följer de goda säkerhetsrutiner som vi kommer att beskriva i nästa avsnitt.
 
-Tänk på att välja rätt plånbok för dina behov och din användning: detaljerade handledningar om hantering och säkring av olika plånböcker finns i [handledningsavsnittet på vårt universitet] (https://planb.academy/tutorials/wallet).
+Tänk på att välja rätt plånbok för dina behov och din användning: detaljerade handledningar om hantering och säkring av olika plånböcker finns i [handledningsavsnittet på vårt universitet](https://planb.academy/tutorials/wallet).
 
 Om du under din resa ner i kaninhålet vill lära dig mer om hur man bygger en Bitcoin-plånbok, från entropi till mottagande av adresser, rekommenderar vi CYP 201-kursen som är avsedd för detta ämne:
 
@@ -595,7 +594,7 @@ Beloppet man är villig att lämna på en specifik säkerhetsnivå beror på var
 
 Sammanfattningsvis är direkt ägande av ens bitcoins ett viktigt element för att säkerställa finansiell suveränitet. Det rekommenderas att använda en mobil plånbok för dagliga utgifter och en offline, eller "kall", fysisk plånbok för att lagra större belopp. Företag bör å andra sidan överväga att använda system med flera signaturer, eller "multisig", för ökad och delad säkerhet. Det är också viktigt att undvika custodial services, som kan återskapa vissa sårbarheter som i det traditionella finansiella systemet.
 
-Med detta i åtanke kan vi nu gå vidare till nästa avsnitt där vi beskriver hur man skapar en Bitcoin-plånbok. Men om du vill utforska ämnet säkerhet ytterligare kan du läsa den här [artikeln av DarthCoin] (https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+Med detta i åtanke kan vi nu gå vidare till nästa avsnitt där vi beskriver hur man skapar en Bitcoin-plånbok. Men om du vill utforska ämnet säkerhet ytterligare kan du läsa den här [artikeln av DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 ## Konfigurera en plånbok
 
@@ -659,7 +658,7 @@ Det finns olika lösningar: vissa av dem är billiga, t.ex. "Blockmit", medan an
 
 Vid sidan av denna första praxis är det ett avgörande steg att skapa en arvsplan för att säkerställa att dina bitcoins hanteras korrekt efter din död. Denna plan innebär att du skriver ett handskrivet brev där du beskriver dina tillgångar, deras åtkomstmetoder och kontaktinformationen till de betrodda personer som har ansvar för dem. Det är också viktigt att diskutera arvet av bitcoins med en notarie för att säkerställa skatteöverensstämmelse, även om den här personen aldrig bör anförtros direkt med hanteringen av dina bitcoins.
 
-Om du vill utforska ämnet arvsplan för dina bitcoins ytterligare rekommenderar vi att du läser Pamela Morgans bok [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) eller anmäler dig till BTC102-kursen, där vi ger vägledning om hur du skapar din plan.
+Om du vill utforska ämnet arvsplan för dina bitcoins ytterligare rekommenderar vi att du läser Pamela Morgans bok [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) eller anmäler dig till BTC102-kursen, där vi ger vägledning om hur du skapar din plan.
 
 ![image](assets/sv/037.webp)
 
@@ -703,7 +702,7 @@ Nu när vi har gått igenom grunderna inom Bitcoin-plånböcker och de bästa me
 
 ![image](assets/sv/038.webp)
 
-Den 31 oktober 2008 föddes den nya finansiella tekniken som är Bitcoin. Den här dagen presenterade den anonyme Satoshi Nakamoto sin innovation för världen genom ett e-postmeddelande som skickades till cypherpunks e-postlista, en grupp kryptografientusiaster som arbetar för att främja integritet på internet. E-postmeddelandet innehöll ett dokument kallat "White Paper", som beskrev hur Bitcoin fungerade.
+Den 31 oktober 2008 föddes den nya finansiella tekniken som är Bitcoin. Den här dagen presenterade den anonyme Satoshi Nakamoto sin innovation för världen genom ett e-postmeddelande som skickades till cypherpunks e-postlista, en grupp kryptografientusiaster som arbetar för att främja integritet på internet. E-postmeddelandet innehöll ett dokument kallat "[White Paper](https://planb.academy/resources/glossary/white-paper)", som beskrev hur Bitcoin fungerade.
 
 Initiativet väckte inte omedelbart entusiasm, förmodligen på grund av de tidigare misslyckandena av försöken att skapa ett digitalt kontantsystem. Trots detta blev White Paper så småningom en referens för Bitcoin-användare och har varit föremål för många debatter i Bitcoin-ekosystemet genom åren.
 
@@ -724,7 +723,7 @@ Den 9 januari 2009 tillkännagav Satoshi lanseringen av Bitcoin 0.1.0-versionen.
 
 Intresset för Bitcoin växte snabbt, vilket ledde till att många människor testade den, deltog i debatter, löste buggar och reflekterade över dess etiska, ekonomiska och filosofiska aspekter. Folk var så fängslade att Satoshi skapade forumet BitcoinTalk den 22 november 2009 för att underlätta den här typen av diskussioner.
 
-Forumet blev snabbt den föredragna platsen för diskussion för Bitcoin-användare, så mycket att kända memes och symboler som är förknippade med Bitcoin föddes ur det, till exempel [Bitcoin-logotypen] (https://bitcointalk.org/index.php?topic=64.0), den berömda [Hodl] (https://bitcointalk.org/index.php?topic=375643.0) eller till och med [Pizza day] (https://bitcointalk.org/index.php?topic=137.msg1195).
+Forumet blev snabbt den föredragna platsen för diskussion för Bitcoin-användare, så mycket att kända memes och symboler som är förknippade med Bitcoin föddes ur det, till exempel [Bitcoin-logotypen](https://bitcointalk.org/index.php?topic=64.0), den berömda [Hodl](https://bitcointalk.org/index.php?topic=375643.0) eller till och med [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 **visste du det?** Den 22 maj 2010 skrev Laszlo Hanyecz historia genom att erbjuda sig att köpa två pizzor för 10 000 BTC: det var första gången som Bitcoin användes för att köpa fysiska varor.
 
@@ -735,11 +734,11 @@ Forumet blev snabbt den föredragna platsen för diskussion för Bitcoin-använd
 Under 2010, när Bitcoin började uppmärksammas i media, bestämde sig Satoshi för att ta avstånd från sig själv genom att meddela sin avgång i ett foruminlägg den 12 december 2010. Den 23 april 2011 gjorde han sitt sista kända privata uyte via e-post, försvann sedan och lämnade sin skapelse i händerna på samhället.
 
 > "Regeringar är bra på att hugga av huvudena på ett centralstyrd kontrollerat nätverk som Napster, men rena P2P-nätverk som Gnutella och Tor verkar hålla ställningarna." - Satoshi Nakamoto
-Trots Satoshis frånvaro fortsatte Bitcoin att utvecklas: Bitcoins historia skrivs var tionde minut, och protokollet fortsätter att fungera som avsett än idag. Oavsett rädsla, osäkerhet eller tvivel fortsätter Bitcoin att gå framåt, med en mycket stark online-tillgänglighet. Enligt den här [webbplatsen] (https://bitcoinuptime.com/) har Bitcoin faktiskt varit funktionellt och kört utan massiva problem under 99,988% av tiden sedan det skapades.
+Trots Satoshis frånvaro fortsatte Bitcoin att utvecklas: Bitcoins historia skrivs var tionde minut, och protokollet fortsätter att fungera som avsett än idag. Oavsett rädsla, osäkerhet eller tvivel fortsätter Bitcoin att gå framåt, med en mycket stark online-tillgänglighet. Enligt den här [webbplatsen](https://bitcoinuptime.com/) har Bitcoin faktiskt varit funktionellt och kört utan massiva problem under 99,988% av tiden sedan det skapades.
 
-För vissa definieras Bitcoin som en svampliknande enhet som ett [mycelium] (https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), medan andra beskriver det som ett [svart hål] (https://dergigi.com/). Vare sig man älskar eller hatar den fortsätter Bitcoin att existera, med sin konstanta rytm på 10 minuter per block, som hjärtslaget i ett nytt monetärt system.
+För vissa definieras Bitcoin som en svampliknande enhet som ett [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), medan andra beskriver det som ett [svart hål](https://dergigi.com/). Vare sig man älskar eller hatar den fortsätter Bitcoin att existera, med sin konstanta rytm på 10 minuter per block, som hjärtslaget i ett nytt monetärt system.
 
-För att lära dig mer om Satoshi Nakamotos skrifter rekommenderar vi att du läser ["The Book of Satoshi"] (https://planb.academy/en/resources/books/98) av Phil Champagne eller ARTE-dokumentären "Le mystaire Satoshi".
+För att lära dig mer om Satoshi Nakamotos skrifter rekommenderar vi att du läser ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) av Phil Champagne eller ARTE-dokumentären "Le mystaire Satoshi".
 
 ![image](assets/sv/044.webp)
 
@@ -816,13 +815,13 @@ Noder är en grundläggande del av Bitcoins nätverksarkitektur, eftersom de utf
 - Överföring av information till andra noder
 - Tillämpning av reglerna i Bitcoin-protokollet.
 
-Därför bidrar alla enheter som kör en del av Bitcoins programvara, kallad Bitcoin-nod (ofta med [Bitcoin Core] (https://bitcoin.org/en/bitcoin-core/)), till decentraliseringen av nätverket.
+Därför bidrar alla enheter som kör en del av Bitcoins programvara, kallad Bitcoin-nod (ofta med [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), till decentraliseringen av nätverket.
 
 ![image](assets/sv/050.webp)
 
 ### Noder är den centrala kärnan i Bitcoin.
 
-Varje nod har en kopia av blockkedjan, vilket möjliggör verifiering av transaktioner och förhindrar bedrägeriförsök. Nätverkets decentraliserade natur ger Bitcoin en exceptionell motståndskraft och robusthet. För att stoppa Bitcoin-protokollet skulle alla noder runt om i världen behöva stängas ned. Det kan vara bra att veta att i september 2023 fanns det ungefär [45 000 noder] (https://bitnodes.io/nodes/all/) fördelade över hela världen.
+Varje nod har en kopia av blockkedjan, vilket möjliggör verifiering av transaktioner och förhindrar bedrägeriförsök. Nätverkets decentraliserade natur ger Bitcoin en exceptionell motståndskraft och robusthet. För att stoppa Bitcoin-protokollet skulle alla noder runt om i världen behöva stängas ned. Det kan vara bra att veta att i september 2023 fanns det ungefär [45 000 noder](https://bitnodes.io/nodes/all/) fördelade över hela världen.
 
 Noder kan verifiera giltigheten av block och transaktioner eftersom de följer reglerna för Bitcoins konsensus. Dessa regler fastställer Bitcoins penningpolitik, t.ex. beloppet för miners belöning (som vi kommer att diskutera mer i detalj i nästa avsnitt) och mängden bitcoin i omlopp. På sätt och vis fungerar noder som nätverkets rättssystem eftersom alla nätverksdeltagare följer samma regler på grund av dem, så de säkerställer neutraliteten i Bitcoin-protokollet. Konsensusreglerna varierar knappast, om ens alls, eftersom det krävs godkännande från alla noder för att göra ändringar.
 
@@ -858,7 +857,7 @@ Efter denna seger aktiverade noderna en uppdatering kallad SegWit, vilket banade
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners säkrar nätverket och lägger till transaktioner i blocken. De använder elektricitet genom ASIC-maskiner för att lösa Bitcoins proof of work.**
+**Miners säkrar nätverket och lägger till transaktioner i blocken. De använder elektricitet genom [ASIC](https://planb.academy/resources/glossary/asic)-maskiner för att lösa Bitcoins proof of work.**
 
 ![image](assets/sv/054.webp)
 
@@ -1067,9 +1066,11 @@ Bitcoin-ekonomin existerar och utvecklas i vissa regioner av världen, som i El 
 
 Trots detta finns det i El Salvador och i andra delar av världen allt fler individer, företag och organisationer som accepterar Bitcoin som betalningsmedel för sina produkter eller tjänster.
 
-![image](assets/sv/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
-Dessutom har ett open source- och samarbetsprojekt lanserats, [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), för att underlätta användningen av Bitcoin i vardagliga transaktioner. Denna plattform listar alla handlare som accepterar Bitcoin, liksom de olika Bitcoin-samhällena runt om i världen, så att du kan besöka deras webbplats för att upptäcka Bitcoin-ekosystemet runt omkring dig. Trots svårigheter och tveksamheter finns det alltså initiativ som BTCMap som bidrar till att göra Bitcoin-ekonomin mer tillgänglig och bekväm för alla.
+*Källa : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
+Dessutom har ett open source- och samarbetsprojekt lanserats, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), för att underlätta användningen av Bitcoin i vardagliga transaktioner. Denna plattform listar alla handlare som accepterar Bitcoin, liksom de olika Bitcoin-samhällena runt om i världen, så att du kan besöka deras webbplats för att upptäcka Bitcoin-ekosystemet runt omkring dig. Trots svårigheter och tveksamheter finns det alltså initiativ som BTCMap som bidrar till att göra Bitcoin-ekonomin mer tillgänglig och bekväm för alla.
 
 ### Varför ska vi acceptera Bitcoin istället för att köpa dem?
 
@@ -1156,7 +1157,7 @@ Det finns flera sätt att skaffa bitcoins, var och en omfattas av sin egen upps�
 
 - DCA-plattformar
 
-Som vi introducerade ovan är en vanlig metod för att ackumulera bitcoins Dollar Cost Averaging (DCA), vilket innebär att man regelbundet köper små mängder. Flera plattformar erbjuder den här tjänsten, till exempel de som listas på vår [dedikerade sida] (https://planb.academy/tutorials/exchange). Förutom att det är enkelt att ställa in en DCA är uttag till din plånbok i allmänhet automatiska, vilket innebär att du alltid kommer att ha kontroll över dina tillgångar.
+Som vi introducerade ovan är en vanlig metod för att ackumulera bitcoins Dollar Cost Averaging (DCA), vilket innebär att man regelbundet köper små mängder. Flera plattformar erbjuder den här tjänsten, till exempel de som listas på vår [dedikerade sida](https://planb.academy/tutorials/exchange). Förutom att det är enkelt att ställa in en DCA är uttag till din plånbok i allmänhet automatiska, vilket innebär att du alltid kommer att ha kontroll över dina tillgångar.
 
 Idag är nästan alla DCA-lösningar relativt effektiva och har nästan liknande avgifter, så valet beror mer på tillgängligheten i ditt land.
 
@@ -1185,7 +1186,7 @@ Det är viktigt att erkänna att KYC är ett viktigt diskussionsämne i Bitcoin-
 
 ### Lösningar med icke-KYC
 
-Dessutom finns det flera [marknadsplatser] (https://planb.academy/tutorials/exchange) där man kan köpa och sälja bitcoins i ett peer-to-peer-utbyte. I allmänhet kan du överväga följande:
+Dessutom finns det flera [marknadsplatser](https://planb.academy/tutorials/exchange) där man kan köpa och sälja bitcoins i ett peer-to-peer-utbyte. I allmänhet kan du överväga följande:
 
 
 - Uttagsautomater för Bitcoin

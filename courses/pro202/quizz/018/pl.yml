@@ -1,0 +1,8 @@
+question: W formacie kodowania DER dla podpisów ECDSA, jaki jest typowy wzrost rozmiaru od surowych danych podpisu do ostatecznego zakodowanego podpisu?
+answer: Z 64 bajtów do około 71-72 bajtów ze względu na narzut formatowania DER
+wrong_answers:
+  - Od 32 bajtów do około 64 bajtów ze względu na kodowanie komponentów R i S
+  - Od 64 bajtów do dokładnie 128 bajtów z powodu podwójnego kodowania składników podpisu
+  - Z 71 bajtów do około 64 bajtów z powodu kompresji znaczników sekwencji
+explanation: |
+  Kodowanie DER dodaje strukturalny narzut do podpisów ECDSA poprzez znaczniki sekwencji (0x30), bajty długości i prefiksy komponentów (0x02). Surowy podpis ECDSA składa się z dwóch 32-bajtowych wartości (R i S) o łącznej długości 64 bajtów, ale formatowanie DER rozszerza go do około 71-72 bajtów. Ta nieefektywność była jednym z powodów, dla których Bitcoin przyjął później podpisy Schnorra w Taproot, które używają stałych 64-bajtowych podpisów bez narzutu kodowania.

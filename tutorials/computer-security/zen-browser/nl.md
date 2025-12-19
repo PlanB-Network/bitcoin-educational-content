@@ -224,7 +224,7 @@ Zen biedt een uniek aanpassingsecosysteem met **Zen Mods**: een galerij met them
 
 
 
-- Ga naar de [officiële Zen Mods-galerij] (https://zen-browser.app/mods)
+- Ga naar de [officiële Zen Mods-galerij](https://zen-browser.app/mods)
 - Blader door de galerij met beschikbare thema's
 
 

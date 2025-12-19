@@ -403,7 +403,7 @@ Linux rimane una minoranza sui personal computer (circa il 4%), ma domina i serv
 
 
 
-*Fonte aprile 2025: [StatCounter Global Stats - OS Market Share] (https://gs.statcounter.com/os-market-share/desktop/worldwide)*
+*Fonte aprile 2025: [StatCounter Global Stats - OS Market Share](https://gs.statcounter.com/os-market-share/desktop/worldwide)*
 
 
 

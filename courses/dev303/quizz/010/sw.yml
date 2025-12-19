@@ -1,0 +1,8 @@
+question: Nini hutokea kwa kigezo wakati umiliki unahamishiwa kwenye kigezo kingine katika Rust?
+answer: Kigezo asili kinakuwa batili na hakiwezi kutumika tena
+wrong_answers:
+  - Kigezo asilia huwa marejeleo ya kusoma pekee kwa data
+  - Vigezo vyote viwili vinashiriki umiliki na vinaweza kurekebisha data kwa kujitegemea
+  - Kigezo asili hubadilishwa kiotomatiki kuwa marejeleo yanayoweza kubadilika
+explanation: |
+  Umiliki unapohamishwa katika Rust, kigezo asili huwa batili kabisa na hakiwezi kufikiwa tena. Hii ni kipengele cha msingi cha usalama kinachozuia vigezo vingi kudhibiti kumbukumbu sawa ya heap, ambayo inaweza kusababisha hitilafu zisizo na matumizi au hitilafu zisizo na matumizi mara mbili. Operesheni ya kuhamisha huhamisha udhibiti kamili kwa kigezo kipya, na mkusanyaji atatoa hitilafu ukijaribu kutumia kigezo asili baada ya kuhamisha. Hii inatofautiana na kunakili (ambapo vigezo vyote viwili hubaki halali) na kukopa (ambapo mmiliki wa asili huhifadhi umiliki).

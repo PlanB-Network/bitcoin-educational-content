@@ -15,7 +15,7 @@ Bu eğitimde, web sitemizdeki statik Elements'ün çevirisine nasıl kolayca kat
 - eğitim içeriği (eğitimler, kurslar, kaynaklar...).
 
 
-Eğitim içeriğini çevirmek için [yapay zeka] (https://github.com/Asi0Flammeus/LLM-Translator) kullanıyoruz. Daha sonra, bu dosyalardaki olası hataları düzeltmek için, düzeltmenleri katkıda bulunmaya davet ediyoruz. Bazı içerikleri düzeltmek isterseniz, aşağıdaki öğreticiye başvurun:
+Eğitim içeriğini çevirmek için [yapay zeka](https://github.com/Asi0Flammeus/LLM-Translator) kullanıyoruz. Daha sonra, bu dosyalardaki olası hataları düzeltmek için, düzeltmenleri katkıda bulunmaya davet ediyoruz. Bazı içerikleri düzeltmek isterseniz, aşağıdaki öğreticiye başvurun:
 
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
@@ -23,7 +23,7 @@ https://planb.academy/tutorials/contribution/content/proofreading-review-tutoria
 Öte yandan, web sitesinin statik Elements'sını (eğitim içeriği hariç) çevirmekle ilgileniyorsanız, doğru yerdesiniz! Ön yüzü etkili bir şekilde çevirmek için, kullanımı çok basit olan ve çeviri yaklaşımını kolaylaştıran Weblate aracını kullanıyoruz.
 
 
-Plan ₿ Academy'ye tamamen yeni bir dil eklemek istiyorsanız, [Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla Plan ₿ Academy ekibiyle iletişime geçtiğinizden emin olun. Eğer telegramınız yoksa mari@planb.network adresine e-posta gönderebilirsiniz. Kim olduğunuz ve konuştuğunuz diller hakkında küçük bir sunum yazdığınızdan emin olun.
+Plan ₿ Academy'ye tamamen yeni bir dil eklemek istiyorsanız, [Telegram grubumuz](https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla Plan ₿ Academy ekibiyle iletişime geçtiğinizden emin olun. Eğer telegramınız yoksa mari@planb.network adresine e-posta gönderebilirsiniz. Kim olduğunuz ve konuştuğunuz diller hakkında küçük bir sunum yazdığınızdan emin olun.
 
 Ekip üyelerimiz size özel talimatlar verecek ve çalışmanızı koordine etmek için Github'da ilgili "sorunları" açacaktır.
 
@@ -174,4 +174,4 @@ https://planb.academy/tutorials/contribution/content/weblate-add-new-language-ee
 ![weblate](assets/23.webp)
 
 
-Plan ₿ Academy'nin çevirisine katkılarınız için şimdiden teşekkür ederiz! Bizim için herhangi bir özel sorunuz veya yorumunuz varsa, [Telegram grubu] (https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla bizimle iletişime geçmekten çekinmeyin.
+Plan ₿ Academy'nin çevirisine katkılarınız için şimdiden teşekkür ederiz! Bizim için herhangi bir özel sorunuz veya yorumunuz varsa, [Telegram grubu](https://t.me/PlanBNetwork_ContentBuilder) aracılığıyla bizimle iletişime geçmekten çekinmeyin.

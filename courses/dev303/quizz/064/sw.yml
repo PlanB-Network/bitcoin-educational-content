@@ -1,0 +1,8 @@
+question: Ni nini kinachofanya mfumo wa aina ya Rust uwe na ufanisi hasa kwa kuzuia udhaifu unaohusiana na kumbukumbu katika programu za Bitcoin?
+answer: Mfumo wa aina hushughulikia uundaji wa mantiki ya biashara na udhibiti wa umiliki wa kumbukumbu kupitia utaratibu huo huo
+wrong_answers:
+  - Kikusanyaji huzalisha kiotomatiki utaratibu wa ugawaji wa kumbukumbu unaozuia mashambulizi ya kufurika kwa bafa
+  - Uandishi tuli unahitaji anwani zote za kumbukumbu kutangazwa wakati wa kukusanya badala ya wakati wa utekelezaji
+  - Uchapaji mkali hubadilisha shughuli zote za pointer kuwa mipaka salama ya safu wakati wa utekelezaji
+explanation: |
+  Mfumo wa aina wa Rust ni wa kipekee kwa sababu una madhumuni mawili - unaunda mantiki tata ya biashara huku ukisimamia usalama wa kumbukumbu kwa wakati mmoja kupitia umiliki, kukopa, na kuhesabu marejeleo. Muunganisho huu unamaanisha kuwa ukaguzi wa aina hiyo hiyo unaohakikisha mantiki sahihi ya programu pia huondoa uvujaji wa kumbukumbu, makosa yasiyo na makosa mawili, na hali ya mbio wakati wa kukusanya. Majibu yasiyo sahihi yanaelezea mifumo ambayo haipo katika Rust: mkusanyaji hana utaratibu wa ugawaji otomatiki wa generate, anwani za kumbukumbu hazihitajiki kuwa vigeu vya wakati wa kukusanya, na usalama wa kiashiria hutoka kwa sheria za umiliki badala ya ukaguzi wa mipaka ya wakati wa utekelezaji.

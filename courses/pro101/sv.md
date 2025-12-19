@@ -1470,7 +1470,7 @@ Mining komplexitet i samband med Bitcoin omfattar främst de tekniska och strate
 
 5. **Nätverkssvårighet**: Nätverkssvårigheten representerar den mängd Hashrate som i genomsnitt behövs för att bryta ett block på 10 minuter.
 
-6. **Strategiska verktyg**: Verktyg som [braiins.com] (https://insights.braiins.com) är ovärderliga för att beräkna lönsamhet och hjälpa gruvarbetare att fatta datadrivna beslut.
+6. **Strategiska verktyg**: Verktyg som [braiins.com](https://insights.braiins.com) är ovärderliga för att beräkna lönsamhet och hjälpa gruvarbetare att fatta datadrivna beslut.
 
 
 #### Praktisk tillämpning
@@ -2084,7 +2084,7 @@ Användningen av kompakta block används för närvarande för att effektivisera
 #### Användning av befintliga bibliotek
 
 
-För konsensuskritiska applikationer rekommenderas att man använder befintliga bibliotek för att undvika buggar och garantera säkerheten, t.ex. [Rust-Bitcoin] (https://docs.rs/Bitcoin/latest/Bitcoin/) eller [Bitcoin-dev-kit] (https://docs.rs/BDK/latest/BDK/). Att implementera sin egen parser kan vara lärorikt men också riskabelt i produktionsmiljöer.
+För konsensuskritiska applikationer rekommenderas att man använder befintliga bibliotek för att undvika buggar och garantera säkerheten, t.ex. [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) eller [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/). Att implementera sin egen parser kan vara lärorikt men också riskabelt i produktionsmiljöer.
 
 
 ![libraries](assets/en/035.webp)
@@ -2211,7 +2211,7 @@ make install # optional
 
 
 
-- Kör tester för att säkerställa att allt fungerar korrekt. Instruktioner finns [här] (https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
+- Kör tester för att säkerställa att allt fungerar korrekt. Instruktioner finns [här](https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
 
 
 ```Bash

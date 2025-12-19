@@ -1,0 +1,8 @@
+question: Ni irihe tandukaniro ry’ishimikiro ry’ubwubatsi bwa blockchain rituma Liquid ibereye cane ibikorwa vy’ubutunzi bihambaye cane ugereranyije n’ibibanza vy’ugukoresha ibimenyetso bishingiye kuri Ethereum?
+answer: Liquid ikoresha uburyo bwa Bitcoin bwa UTXO butanga ingaruka z’ibikorwa vy’ubudandaji, mu gihe uburyo bwa konti ya Ethereum bushobora gutuma ibikorwa vy’ubudandaji bitashoboka biguma bikoresha amafaranga y’amazi
+wrong_answers:
+  - Liquid ikora ku buryo bwo kwumvikana bw’ibimenyamenya vy’uruhara mu gihe Ethereum yizigira inguvu nyinshi proof-of-work mining kugira ngo yemeze ibikorwa
+  - "Liquid's federated sidechain structure ishobora gutuma habaho ubucuruzi butagira aho bugarukira mu gihe Ethereum ibujijwe n'imipaka y'ubunini bw'uruzitiro rumwe"
+  - Liquid ishira mu ngiro ibikorwa vy'amasezerano y'ubwenge biciye mu kwandika Elements mu gihe Ethereum isaba ibidukikije vyo hanze vy'imashini y'ubuhinga
+explanation: |
+  Uburyo bw’ugushinga intahe bw’akarorero ka UTXO ni ikintu gihambaye cane ku bigo vy’imari kubera ko amafaranga yo gucuruza ashobora kuroranirwa bimwe bishitse canke akananirwa ataco atwara, bikaba bitanga ingaruka zishobora gutegekanirwa. Icogereranyo ca konti ya Ethereum gishobora gutuma habaho ibikorwa bitari vyiza bica bifata amafaranga y’amazi, bikazana ukudakeka mu bikorwa n’ibindi biguzi bitemewe ku bikorwa vy’ivy’ubutunzi bihambaye cane aho ukwizigirwa n’ugushobora kumenya ibiciro ari vyo bihambaye cane.

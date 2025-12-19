@@ -1,0 +1,8 @@
+question: Apa yang dilakukan Rust selama proses pelepasan ketika terjadi kepanikan?
+answer: Berjalan kembali melalui tumpukan panggilan untuk memberikan jejak tumpukan yang terperinci
+wrong_answers:
+  - Segera menghentikan program tanpa pembersihan atau informasi apa pun
+  - Mengubah kepanikan menjadi tipe Hasil yang dapat dipulihkan untuk penanganan kesalahan
+  - Memulai ulang eksekusi fungsi saat ini dari awal
+explanation: |
+  Ketika kepanikan terjadi di Rust, proses unwinding berjalan kembali melalui call stack untuk memberikan jejak stack terperinci yang menunjukkan dengan tepat di mana kepanikan terjadi. Hal ini membantu pengembang mengidentifikasi sumber masalah selama debugging. Opsi lainnya tidak benar: Rust tidak langsung mengakhiri tanpa pembersihan (yang hanya terjadi ketika unwinding dinonaktifkan), panik tidak dapat dikonversi ke tipe Result karena mewakili kesalahan yang tidak dapat dipulihkan, dan Rust tidak memulai kembali eksekusi fungsi ketika panik terjadi.

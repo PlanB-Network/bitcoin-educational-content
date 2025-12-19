@@ -1,0 +1,8 @@
+question: Hva skjer med Rust-strukturer med tilhørende metoder når de mappes gjennom UniFFIs UDL til målspråk som Kotlin eller Swift?
+answer: De eksponeres som grensesnitt i UDL og generate som klasser med metoder i objektorienterte målspråk
+wrong_answers:
+  - De konverteres til enkle ordbøker uten noen metodefunksjonalitet på målspråkene
+  - De krever manuell implementering av hver metode i målspråket ved hjelp av tilbakekallingsgrensesnitt
+  - De blir automatisk omgjort til navneromsfunksjoner som tar struct som første parameter
+explanation: |
+  UniFFI bevarer objektorienterte designmønstre ved å tilordne Rust-strukturer med tilhørende metoder til grensesnitt i UDL, som deretter generate som opprinnelige klasser med metoder i målspråkene. Dette opprettholder den strukturelle integriteten og oppførselen til den opprinnelige Rust-implementeringen, samtidig som det presenterer kjente objektorienterte grensesnitt for utviklere i språk som Kotlin og Swift. De andre alternativene er feil fordi UniFFI spesifikt opprettholder metodefunksjonalitet i stedet for å flate ut til ordbøker, ikke krever manuell implementering siden bindinger genereres automatisk, og ikke konverterer struct-metoder til namespace-funksjoner.

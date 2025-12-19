@@ -783,7 +783,7 @@ gW-278'i açtıktan 2 dakika sonra, lütfen "Reset" düğmesine 5 saniye boyunca
 Antminer tarafından Mining makinelerine yüklenen orijinal yazılım işlevsellik açısından sınırlıdır. Bu nedenle bu kılavuzda BraiinsOS+ adlı başka bir yazılım yükleyeceğiz. Bu, ilk Bitcoin Mining pool tarafından geliştirilen ve daha fazla özelliğe sahip olan ve örneğin makinenin gücünü değiştirmeye izin veren üçüncü taraf bir yazılımdır.
 
 
-Braiins OS+'ı bir ASIC'ye kurmanın birkaç yolu vardır. Bu kılavuzun yanı sıra [resmi Braiins belgelerine] (https://academy.braiins.com/en/braiins-os/about/) başvurabilirsiniz.
+Braiins OS+'ı bir ASIC'ye kurmanın birkaç yolu vardır. Bu kılavuzun yanı sıra [resmi Braiins belgelerine](https://academy.braiins.com/en/braiins-os/about/) başvurabilirsiniz.
 
 
 Burada, Braiins OS+'yı BOS araç kutusu yazılımını kullanarak doğrudan Antminer'inizin belleğine nasıl kolayca yükleyeceğinizi ve orijinal işletim sistemini aşağıdaki ayrıntılı adımlarla nasıl değiştireceğinizi göreceğiz.

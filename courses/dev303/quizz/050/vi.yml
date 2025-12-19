@@ -1,0 +1,8 @@
+question: Rủi ro đáng kể nhất khi sử dụng RC<RefCell<T>> cho trạng thái có thể thay đổi được chia sẻ là gì, và cơ chế nào giúp ngăn ngừa rủi ro đó?
+answer: Chu kỳ tham chiếu gây ra rò rỉ bộ nhớ, có thể ngăn chặn bằng cách sử dụng tham chiếu yếu.
+wrong_answers:
+  - Xung đột dữ liệu giữa các luồng, được ngăn chặn bằng cách sử dụng Mutex thay vì RefCell.
+  - Lỗi nghiêm trọng khi chạy do vi phạm quyền mượn, có thể được ngăn chặn bằng cách kiểm tra trong quá trình biên dịch.
+  - Lỗi tràn ngăn xếp do đệ quy sâu, được ngăn chặn bằng cách giới hạn độ sâu tham chiếu.
+explanation: |
+  Khi sử dụng RC<RefCell<T>>, nguy hiểm chính là tạo ra các chu kỳ tham chiếu, trong đó các cấu trúc dữ liệu tham chiếu trực tiếp đến chính chúng hoặc thông qua các chuỗi. Các chu kỳ này ngăn cản số lượng tham chiếu đạt đến 0, gây ra rò rỉ bộ nhớ vì dữ liệu dường như luôn có các tham chiếu đang hoạt động. Tham chiếu yếu giải quyết vấn đề này bằng cách không đóng góp vào số lượng tham chiếu được sử dụng để quản lý bộ nhớ, phá vỡ các chu kỳ trong khi vẫn duy trì các kết nối. Các tùy chọn khác không chính xác: RC<RefCell<T>> không an toàn cho đa luồng nên các lỗi tranh chấp dữ liệu không phải là mối quan tâm chính, RefCell đặc biệt chuyển các kiểm tra sang thời gian chạy thay vì ngăn chặn chúng ở thời điểm biên dịch, và tràn ngăn xếp không liên quan đến cơ chế đếm tham chiếu.

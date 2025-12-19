@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van Rust's Option<T> enum type?
+answer: Om veilig waarden weer te geven die wel of niet aanwezig kunnen zijn, om null pointer fouten te voorkomen
+wrong_answers:
+  - Meerdere verschillende gegevenstypen opslaan in een enkele variabele zonder typecontrole
+  - Om optionele parameters in functiedefinities te maken die tijdens aanroepen kunnen worden overgeslagen
+  - Een manier bieden om meerdere mogelijke fouttypes uit een enkele functie te retourneren
+explanation: |
+  Het Option<T> enum dient als Rust oplossing voor null pointer problemen door expliciete afhandeling van ontbrekende waarden te forceren. Het heeft twee varianten: Some(T) voor aanwezige waarden en None voor ontbrekende waarden. De compiler vereist dat je controleert welke variant je hebt voordat je de waarde gebruikt, om runtime fouten te voorkomen. De foute antwoorden verwarren Option met andere concepten: unions/varianten (eerste), standaardparameters (tweede) en Result types voor foutafhandeling (derde).

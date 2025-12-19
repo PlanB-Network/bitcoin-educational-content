@@ -1,0 +1,8 @@
+question: Koja je glavna razlika između String i string literala (&str) u Rust?
+answer: String upravlja dinamički alociranom memorijom na hrpi i može se menjati, dok je &str prikaz u nepromenljive podatke stringa
+wrong_answers:
+  - String je smešten na steku dok je &str smešten na heap-u radi bolje performanse
+  - String može sadržati samo ASCII karaktere dok &str može sadržati bilo koje Unicode karaktere
+  - String automatski implementira pozajmljivanje dok &str zahteva eksplicitni prenos vlasništva
+explanation: |
+  String i &str predstavljaju različite pristupe rukovanju stringovima u Rust. String je tip stringa koji se alocira na gomili, može da raste i poseduje svoje podatke, te se može menjati u toku izvršavanja programa. Nasuprot tome, &str (string slice) je nepromenljiva referenca na podatke stringa, često ukazujući na string literale ugrađene u binarni program ili delove postojećih String podataka. Ova razlika omogućava Rust da optimizuje i fleksibilnost (String za dinamički sadržaj) i efikasnost (&str za pristup samo za čitanje bez alokacije).

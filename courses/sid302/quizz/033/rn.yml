@@ -1,0 +1,8 @@
+question: Ni igiki gihambaye c’ubushobozi bwo gukorana bwa Breez Liquid SDK kiyitandukanya n’urudodo rwuzuye rwa Lightning Network?
+answer: Ntishobora gukora ubucuruzi butaziguye hagati y'umuravyo n'umuravyo canke Bitcoin-ku-Bitcoin kuko ikora gusa na Liquid nk'aho ikorera .
+wrong_answers:
+  - Ntishobora gukorana n’uguhinduranya atome hagati y’imihora itandukanye y’ubuhinga bwa blockchain kubera ukubura ubufasha bw’amasezerano y’ubwenge .
+  - "Ntishobora gukora amafaranga arenga 0.1 BTC kubera ubunini bw'amafaranga yubatswe muri Liquid Network"
+  - Ntishobora gukora ata internet kuko isaba ko iguma ikorana n’ama server ya Breez ari hagati .
+explanation: |
+  SDK idondora neza ko ari 'igikoresho gishingiye kuri Liquid' gikorana na Liquid nk''ishingiro ry'i muhira.' Ishigikira gusa ibikorwa bitatu vyihariye: Liquid-ku-Liquid, Liquid-ku-Umuravyo, na Liquid-ku-Bitcoin. Udakunze urudodo rwuzuye rwa Lightning rushobora gutuma amahera yishurwa hagati y’imirongo ya Lightning, Breez SDK ntishobora gukora ibikorwa vy’ubudandaji bitaziguye hagati y’umuravyo n’umuravyo, bikaba bituma itandukanye cane n’ibikorwa remezo vya kera vya Lightning.

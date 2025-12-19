@@ -1,0 +1,9 @@
+question: Ni familia gani ya kisiasa ambayo ina uwezekano mkubwa wa kuunga mkono sera inayochanganya upatikanaji wa huduma ya afya kwa wote na uvumbuzi wa sekta binafsi na mifumo ya ufanisi?
+answer: Watetezi wa kati, wanaopendelea mifumo mchanganyiko inayosawazisha dhamana za umma na michango ya sekta binafsi
+wrong_answers:
+  - Wasoshalisti, ambao wanapa kipaumbele upatikanaji wa huduma kwa wote kupitia mifumo ya afya ya umma pekee
+  - Wanaliberali, ambao wanatetea ubinafsishaji kamili na chaguo la mtu binafsi katika masoko ya huduma ya afya
+  - Wahafidhina, ambao wanapendelea masoko ya kibinafsi yenye uingiliaji kati mdogo wa serikali kwa walio katika mazingira magumu zaidi
+explanation: |
+  Watetezi wa kati wanatetea waziwazi mifumo mchanganyiko ya huduma za afya inayohakikisha ufikiaji wa wote kupitia ushiriki wa serikali huku ikijumuisha vipengele vya sekta binafsi kwa ajili ya uvumbuzi na ufanisi.
+  Wasoshalisti wanakataa ushiriki wa kibinafsi, wakiona huduma za afya kama haki ya msingi inayohitaji utoaji wa umma. Watetezi wa uhuru wanapinga ushiriki wa serikali kabisa, wakipendelea suluhisho zinazotegemea soko. Wahifadhi wanapendelea mifumo ya kibinafsi yenye majukumu machache ya serikali, si mbinu mchanganyiko zenye usawa.

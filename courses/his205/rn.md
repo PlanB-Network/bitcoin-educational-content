@@ -256,7 +256,7 @@ Abakurikiza ivy'ukurya vya "keto" bazovyemera: kurya umukate cane birashoboka ko
 
 
 
-### Ivyiyumviro ku kwemera uburimyi
+### Ivyiyumviro vyu kwemera uburimyi
 
 
 
@@ -273,7 +273,7 @@ Ikindi ciyumviro ni uko imihana ubwayo ari yo yatumye ingorane itorwa umuti n’
 
 
 
-## Ubucuruzi bwo mu gihe c'amabuye mashasha
+## Ubucuruzi bwo mu gihe ca néolithique
 
 
 <chapterId>8e495224-6d55-58f6-a9dc-ac2814281cfa</chapterId>
@@ -281,11 +281,11 @@ Ikindi ciyumviro ni uko imihana ubwayo ari yo yatumye ingorane itorwa umuti n’
 
 :::video id=d04245af-e416-48b1-8157-d569207a32c4:::
 
-### Ihinduka ry'igihe c'amabuye y'agaciro n'igihe c'amabuye y'agaciro
+### Ihinduka ry'igihe ca Paléolithique n'igihe ca Néolithique
 
 
 
-Igihe c’amabuye mashasha ni ikimenyetso c’ugusenyuka kw’ishimikiro mu mateka y’abantu, kikaba gitandukanye cane n’imibano y’amabuye y’agaciro yabanjirije. Mu gihe c’amabuye y’agaciro, abantu bo mu Buraya bari baratatanijwe cane: abantu 7.000 gusa ni bo baba ku mugabane wose ubu hakaba haciye imyaka 20.000, bari batunganijwe mu migwi mitoyi y’abimukira y’abantu 20 gushika ku 50 bakurikira imikuku minini y’abimukira ku ntambwe ndende cane.
+Igihe ca néolithique ni ikimenyetso c’ugusenyuka kw’ishimikiro mu mateka y’abantu, kikaba gitandukanye cane n’imibano yo mugihe ca paléolithiques yabanjirije. Mu gihe ca paléolithique, abantu bo mu Buraya bari bari batandukanije cane: abantu 7.000 gusa ni bo baba ku mugabane wose ubu hakaba haciye imyaka 20.000, bari batunganijwe mu migwi mitoyi y’abimukira y’abantu 20 gushika ku 50 bakurikira imikuku minini y’abimukira ku ntambwe ndende cane.
 
 
 
@@ -293,27 +293,27 @@ Ubushuhe bwo kw’isi yose mu mpera z’Ikinjana c’Ibarafu bwahinduye cane iyo
 
 
 
-### Uguhingura akazi n'itunga
+### Ivumburwa ry'akazi n'itunga
 
 
 
-Ukwo kwicara buhorobuhoro kwatumye haba amahinduka akomeye cane mu kibano. **Uburimyi bw’igihe c’amabuye y’agaciro bwatumye habaho iciyumviro c’ubu c’akazi**: kwifatanya n’intara kanaka vyasobanura kwitwararika umutungo w’umuntu, kubika ivyamwa vy’ibikorwa vyiwe no gutegura umwimbu wo muri kazoza. Ubu bucuti bushasha n’igihe - gusubiramwo ikoreshwa ry’ubu kugira ngo umuntu aronke inyungu muri kazoza - bwahinduye cane imitunganirize y’imibano.
+Ukwo kuguma hamwe kwabantu buhorobuhoro vyatumye haba amahinduka akomeye cane mu kibano. **Uburimyi bw’igihe ca néolithique bwatumye habaho iciyumviro c’ubu c’akazi**: kwifatanya n’ubutaka kanaka vyasobanura kwitwararika umutungo w’umuntu, kubika ivyamwa vy’ibikorwa vyiwe no gutegura umwimbu wo muri kazoza. Ubu bucuti bushasha n’igihe - gusubiramwo ikoreshwa ry’ubu kugira ngo umuntu aronke inyungu muri kazoza - bwahinduye cane imitunganirize y’imibano.
 
 
 
-Ububumvyi ni ikigereranyo ciza cane c’iryo terambere: mu ntango bwateguwe kugira ngo bubike ibinyampeke n’imbuto, burashingira intahe ubwo bushobozi bushasha bwo gutegura ivyo umuntu akeneye uko igihe kigenda kirarenga. Abahinga mu vy’amateka bamwebamwe mbere biyumvira yuko igihe c’amabuye y’agaciro kitari gushoboka iyo hataba izo nzira zo kubika ibintu.
+Ububumvyi ni ikigereranyo ciza cane c’iryo terambere: mu ntango bwavutse kugira ngo bibike ibinyampeke n’imbuto, burashingira intahe ubwo bushobozi bushasha bwo gutegura ivyo umuntu akeneye uko igihe kigenda kirarenga. Abahinga mu vy’amateka bamwebamwe mbere biyumvira yuko igihe c’amabuye y’agaciro kitari gushoboka iyo hataba izo nzira zo kubika ibintu.
 
 
 
-**Itunga ry’abantu ku giti cabo ryaje nk’inzego nyamukuru** z’ayo mashirahamwe mashasha. Naho umutungo w’umuntu ku giti ciwe wari usanzweho mu gihe c’amabuye y’agaciro (amacumu yo guhigira umuntu ku giti ciwe), mu gihe c’amabuye mashasha wararonse urugero rw’intara rutari bwigere rubaho. Ukwo kwigarurira ubutaka kwatumye haba intambara za mbere hagati y’abantu zanditswe n’abacukuzi, bikaba vyatumye habaho igikorwa co gucungera umutekano w’intara.
+**Itunga ry’abantu ku giti cabo ryaje nk’inzego nyamukuru** z’ayo mashirahamwe mashasha. Naho umutungo w’umuntu ku giti ciwe wari usanzweho mu gihe paléolithique (amacumu yo guhigira umuntu ku giti ciwe), mu gihe ca néolithique wararonse urugero rw’ubutaka rutari bwigere rubaho. Ukwo kwigarurira ubutaka kwatumye haba intambara za mbere hagati y’abantu zanditswe n’abashakashatsi, bikaba vyatumye habaho igikorwa co gucungera umutekano w’intara.
 
 
 
-### Ubuhinga bwihariye n'ugucapura akazi
+### Ubuhinga bwihariye bw'ukugabangana akazi
 
 
 
-Ubuhinzi bwatuma bishoboka kugaburira abantu benshi, mu gihe abantu bamwebamwe bashobora gukora ibindi bikorwa vy’umwimbu. Ubwo buhinga bwariko burakura - abarimyi, ababumvyi, abahinguzi b’ibintu, abacungera umutekano - bwashizeho umushinge w’ugucapura ibikorwa n’ubukuru bw’imibano.
+Uburimyi bwatuma bishoboka kugaburira abantu benshi, mu gihe abantu bamwebamwe bashobora gukora ibindi bikorwa bitanga umwimbu. Ubwo buhinga bwariko burakura - abarimyi, ababumvyi, abahinguzi b’ibintu, abacungera umutekano - bwashizeho umushinge w’ukugabanganwa ibikorwa n’ubukuru bw’imibano.
 
 
 

@@ -321,19 +321,19 @@ Ibisigarira vy’ivyacukuwe birashingira intahe iyo nzira y’ugukura: uguhamba 
 
 
 
-### Uguseruka kw'uguhanahana amakuru kure
+### Ukuvuka kwuguhana ibintu vya kure na kure
 
 
 
-Isesengura ry’ivya kera ryerekana uburyo butangaje bwo guhanahana amakuru muri ico gihe. Ibikoresho nk’amabuye y’agaciro, urutare rw’icatsi kibisi (dolerite, jadeite), ibikoko vyo mu mazi be n’amabuye y’agaciro yitwa bitume vyabonetse ku bilometero amajana n’amajana uvuye aho vyari bikuwe. Ivyuma vy’amabuye vy’icatsi kibisi vy’agaciro, vyari bihambaye mu gutema amashamba no mu kwubaka imihana ya kera, vyagendagenda mu Buraya bwose bwo mu gihe c’amabuye y’agaciro.
+Isesengura ry’ivya kera ryerekana uburyo butangaje bwo guhanahana amakuru muri ico gihe. Ibikoresho nk’amabuye y’agaciro, urutare rw’icatsi kibisi (dolerite, jadeite), ibikoko vyo mu mazi be n’amabuye y’agaciro yitwa bitume vyabonetse ku bilometero amajana n’amajana uvuye aho vyari bikuwe. Ivyuma vy’amabuye vy’icatsi kibisi , vyari bihambaye mu gutema amashamba no mu kwubaka imihana ya kera, vyagendagenda mu Buraya bwose bwo mu gihe ca néolithique.
 
 
 
-Ivyo biganiro vyerekeye ibikoresho vya mbere n’ibintu bimaze gukorwa, bikaba vyerekana ugukenguruka ubuhinga bw’ubuhinga. Agaciro kashirwako gashiramwo ukuntu ivyo bintu bidakunze kuboneka be n’ubuhinga busabwa kugira ngo bihindurwe.
+Ivyo biganiro vyerekeye ibikoresho vya mbere n’ibintu bimaze gukorwa, bikaba vyerekana ikintu gishimishije mubuhinga bw'ugukora ubugenegene. Agaciro gahabwa gashiramwo ukuntu ivyo bintu bidakunze kuboneka be n’ubuhinga busabwa kugira ngo bihingurwe.
 
 
 
-Uburyo bwo guhanahana amakuru buratandukanye bivanye n’urugero rurimburwa. **Mu mibano**, abahinga mu vy’imico kama barashigikira iciyumviro c’ubutunzi bw’ingabire n’ingabire zisubirwamwo, hakaba hariho uburyo bwo gutanga inguzanyo butamenyerewe bushingiye ku kwizigirana hagati y’abantu. Muri iyo migwi ibujijwe, "umubare wa Dunbar" (abantu 150 kugira ngo bagumane ubucuti butaziguye bw'ukwizigirana) urashoboza guhinduranya amafaranga ata buryo bw'isoko.
+Itunganywa ry'Uburyo bwo guhanahana amakuru buratandukanye bivanye n’urugero rufatiweko. **Mu kibano**, abahinga mu vy’imico kama barashigikira iciyumviro c’ubutunzi bwo kugurizanya , hamwe n'uburyo bwo gutanga inguzanyo butamenyerewe bushingiye ku kwizigirana hagati y’abantu. Muri iyo migwi ibujijwe, "umubare wa Dunbar" (abantu 150 kugira ngo bagumane ubucuti butaziguye bw'ukwizigirana) urashoboza guhinduranya amafaranga ata buryo bw'isoko.
 
 
 

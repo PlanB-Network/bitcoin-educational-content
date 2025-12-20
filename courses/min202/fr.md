@@ -641,7 +641,7 @@ En synthèse:
 - Confiance: Intermédiaire (encore à démontrer)
   
   
-[#### Braiins Solo](https://solo.braiins.com/stats)
+#### [Braiins Solo](https://solo.braiins.com/stats)
 
 Braiins, déjà entraperçu lors de notre panorama rapide des logiciels de mining , est un acteur majeur du mining proposant depuis 2010 (plus vieille pool de mining du monde) une des principale pool  "mutualiste" totalisant aujourd'hui 15 Eh/s soit environ 1.5% du hashrate mondial.
 
@@ -673,13 +673,23 @@ Synthèse:
 - fiabilité: élevée
 - confiance: intermédiaire / élevée
 
-### La Pool montante francophone des "chauffagistes"
+#### [La Pool montante francophone des "chauffagistes"](https://chauffagistes-pool.fr/en/public-stats.html)
+
+La Pool des "[chauffagistes](![Image](assets/fr/055.webp))" est une petite pool francophone (mais ouverte aux anglophones également) qui vient d'atteindre son Ph/s de puissance de calcul au moment où sont écrites ces lignes. Il s'agit par cette initiative de fédérer le plus de personnes motivées par la perspective de se chauffer en minant, tout en créant une petite communauté de passionnés qui s'entraident et se donnent des astuces. Elle se veut bien évidemment sérieuse et fiable mais également ludique et amusante avec des happening et challenges originaux organisés par la communauté.
+
+![Image](assets/fr/056.webp)
+
+- frais: 0 %
+- fiabilité: élevée
+- confiance: intermédiaire / élevée
 
 | Type de Pool | Open Source | Frais |
 | ------------ | ----------- | ----- |
 |              |             |       |
 
 ### Les Pool "Mutualistes" adaptées au HomeMining
+
+Elles supportent LN 
 
 #### Braiins 
 

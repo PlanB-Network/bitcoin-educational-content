@@ -1,0 +1,8 @@
+question: Ni gute ubufatanye bw’Umutanga Serivisi y’Umuravyo (LSP) bwa Breez SDK butorera umuti ingorane yo gucunga amafaranga yo kwakira amahera?
+answer: LSPs zica zifungura imirongo mishasha ya Lightning n’amahera yinjira mu gihe amahera ashika, hakoreshejwe uguhingura imirongo mu gihe nyene
+wrong_answers:
+  - LSPs zibanza gutanga amahera ku mihora yose y'abakoresha ifise ubushobozi bwo gutanga amahera menshi kandi zigasubiramwo amahera mu bihe bitandukanye
+  - LSPs zibungabunga ikigega c’amahera gisangiye kigurisha amahera abakoresha mu gihe c’ukwakira amahera imbere y’uko amahera atangazwa .
+  - LSPs zirungika amahera biciye mu nzira nyinshi zo hagati kugira ngo zironke inzira z'amahera zisanzwe zitashizeho ubucuti bushasha bw'inzira .
+explanation: |
+  Breez SDK ishira mu ngiro imirongo 'just-in-time' aho LSPs zifungura ubwazo imirongo mishasha ya Lightning igihe nyene umukoresha akeneye kwakira amahera ariko atagira amahera ahagije yinjira. Ivyo bishika ata nkomanzi ata n’umwe abigiramwo uruhara, bikaba bitorera umuti ingorane y’ishimikiro y’amahera ya Lightning aho amahera ashobora guca gusa mu nzira aho ubushobozi bw’imiyoboro buri. Ayandi mahitamwo adondora uburyo butandukanye butahuye n'ugushirwa mu ngiro kwa SDK kw'uguhingura imirongo y'inguvu.

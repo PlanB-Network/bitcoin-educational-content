@@ -44,7 +44,7 @@ Det första steget är att ladda ner Lipa-appen. För tillfället är den endast
 
 
 
-- [För Apple] (https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
+- [För Apple](https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
 
 
 Android-versionen är för närvarande under utveckling och kommer att finnas tillgänglig inom kort.

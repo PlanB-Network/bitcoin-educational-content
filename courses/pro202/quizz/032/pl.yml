@@ -1,0 +1,8 @@
+question: Jaki jest główny powód, dla którego transakcje typu "bare multisig" zostały w dużej mierze zastąpione przez P2SH dla złożonych warunków wydatków?
+answer: Bare multisig ujawnia wszystkie klucze publiczne on-chain, co sprawia, że transakcje są duże, kosztowne i trudne do zakodowania jako adresy
+wrong_answers:
+  - Bare multisig wymaga większej liczby podpisów niż P2SH, aby osiągnąć ten sam poziom bezpieczeństwa dla transakcji wielostronnych
+  - Zwykły multisig nie jest w stanie obsłużyć transakcji z blokadą czasową lub warunkowych wymagań dotyczących wydatków, takich jak P2SH
+  - Zwykłe podpisy multisig są niekompatybilne z nowoczesnym oprogramowaniem wallet i nie mogą być transmitowane do obecnych węzłów
+explanation: |
+  P2SH został wprowadzony specjalnie w celu wyeliminowania nieefektywności bare multisig. Bare multisig wymaga, aby wszystkie klucze publiczne były widoczne w scriptPubKey, tworząc duże rozmiary transakcji, które kosztują więcej opłat i są trudne do przedstawienia jako adresy przyjazne dla użytkownika. P2SH rozwiązuje ten problem, ukrywając złożony skrypt za 20-bajtowym hashem, ujawniając rzeczywiste warunki wydatkowania dopiero po wydaniu danych wyjściowych. Zmniejsza to ślad on-chain, poprawia prywatność i umożliwia standardowe formaty adresów przy zachowaniu tych samych gwarancji bezpieczeństwa.

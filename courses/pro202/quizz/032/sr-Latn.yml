@@ -1,0 +1,8 @@
+question: Koji je primarni razlog zašto su transakcije sa golim multisig-om u velikoj meri zamenjene P2SH za složene uslove potrošnje?
+answer: Bare multisig izlaže sve javne ključeve on-chain, čineći transakcije velikim, skupim i teškim za kodiranje kao adrese
+wrong_answers:
+  - Goli multisig zahteva više potpisa nego P2SH da bi se postigao isti nivo sigurnosti za transakcije sa više strana
+  - Običan multisig ne može da obradi transakcije sa vremenskim zaključavanjem ili uslovne zahteve za trošenje kao što to može P2SH
+  - Goli multisig potpisi nisu kompatibilni sa modernim wallet softverom i ne mogu se emitovati trenutnim čvorovima
+explanation: |
+  P2SH je uveden specifično da reši neefikasnosti golih multisig-a. Goli multisig zahteva da svi javni ključevi budu vidljivi u scriptPubKey, stvarajući velike veličine transakcija koje koštaju više u naknadama i teško ih je predstaviti kao korisnički-prijateljske adrese. P2SH ovo rešava skrivajući složeni skript iza 20-bajtne heš vrednosti, otkrivajući stvarne uslove trošenja samo kada se izlaz troši. Ovo smanjuje otisak on-chain, poboljšava privatnost i omogućava standardne formate adresa dok održava iste sigurnosne garancije.

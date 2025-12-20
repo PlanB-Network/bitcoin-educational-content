@@ -1,0 +1,9 @@
+question: Mikä on libertaristisen filosofian mukaan valtiollisen rahan ja markkinarahan perustavanlaatuinen ero niiden synnyn ja ominaisuuksien suhteen?
+answer: Valtion raha on pakottavaa ja keskitettyä, ja sen helppo luominen johtaa arvon menetykseen, kun taas markkinaraha syntyy vapaaehtoisesti ja säilyttää arvon pitkällä aikavälillä
+wrong_answers:
+  - Valtion raha on demokraattisesti valvottua ja vakaata, kun taas markkinaraha on yksityisten etujen manipuloimaa ja erittäin epävakaata
+  - Valtion raha palvelee yleistä hyvinvointia uudelleenjakomekanismien kautta, kun taas markkinaraha hyödyttää vain varakkaita sijoittajia ja varhaisia omaksujia
+  - Valtion raha tarjoaa taloudellista turvaa valtion tuen ansiosta, kun taas markkinaraha luo epävarmuutta institutionaalisen tuen puuttumisen vuoksi
+explanation: |
+  Tekstissä erotetaan selvästi toisistaan valtiollinen (fiat) raha, joka on pakottava, keskitetty järjestelmä, joka on helppo luoda ja jolla on taipumus menettää arvonsa, ja markkinaraha (kuten kulta historiallisesti ja Bitcoin nykyisin), joka syntyy vapaaehtoisesti, spontaanisti ja säilyttää arvonsa pitkällä aikavälillä.
+  Tämä kuvastaa laajempaa libertaarista periaatetta, jonka mukaan vapaaehtoisia, hajautettuja järjestelmiä suositaan pakotettujen, keskitettyjen järjestelmien sijaan. Väärät vastaukset heijastavat yleisiä väärinkäsityksiä valtion valvonnan eduista markkinamekanismeihin verrattuna.

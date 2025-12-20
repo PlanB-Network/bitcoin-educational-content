@@ -1,5 +1,5 @@
 ---
-name: 宙斯交換
+name: Zeus Swap
 description: On-Chain 和 Lightning Network 比特幣之間的非監護 Exchange 服務
 ---
 

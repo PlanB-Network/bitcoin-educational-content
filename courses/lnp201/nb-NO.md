@@ -153,7 +153,7 @@ Det mest vanlige skriptet krever en signatur med den private nøkkelen assosiert
 
 ### UTXOer: Ubrente Transaksjonsutganger
 
-På Bitcoin, det vi faktisk utveksler er ikke direkte bitcoins, men **UTXOer** (_Unspent Transaction Outputs_), som betyr "ubrente transaksjonsutganger".
+På Bitcoin, det vi faktisk utveksler er ikke direkte bitcoins, men **[UTXO](https://planb.academy/resources/glossary/utxo)er** (_Unspent Transaction Outputs_), som betyr "ubrente transaksjonsutganger".
 
 En UTXO er en bit av bitcoin som kan være av hvilken som helst verdi, for eksempel, **2 000 bitcoins**, **8 bitcoins**, eller til og med **8 000 sats**. Hver UTXO er låst av et skript, og for å bruke den, må man tilfredsstille skriptets betingelser, ofte en signatur med den private nøkkelen som tilsvarer en gitt mottaksadresse.
 
@@ -234,7 +234,7 @@ Det er verdt å merke seg at en Lightning-node kan kommunisere via P2P-protokoll
 
 ![LNP201](assets/en/014.webp)
 
-- **Bobs signatur**: Alice sender innskuddstransaksjonen til Bob som bevis og ber ham om å signere uttakstransaksjonen. Når Bobs signatur er oppnådd på uttakstransaksjonen, er Alice sikret at hun kan gjenvinne sine midler når som helst, ettersom nå kun hennes egen signatur er nødvendig for å låse opp multisignaturen.
+- **Bobs signatur**: Alice sender innskuddstransaksjonen til Bob som bevis og ber ham om å signere uttakstransaksjonen. Når Bobs signatur er oppnådd på uttakstransaksjonen, er Alice sikret at hun kan gjenvinne sine midler når som helst, ettersom nå kun hennes egen signatur er nødvendig for å låse opp [multisignature](https://planb.academy/resources/glossary/multisig)n.
 
 ![LNP201](assets/en/015.webp)
 
@@ -590,7 +590,7 @@ I dette kapittelet utforsket vi betalingsruting på Lightning-nettverket. Men et
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-I dette kapittelet vil vi oppdage hvordan Lightning tillater betalinger å transittere gjennom mellomliggende noder uten å måtte stole på dem, takket være **HTLC** (_Hashed Time-Locked Contracts_). Disse smartkontraktene sikrer at hver mellomliggende node bare vil motta midlene fra sin kanal hvis den videresender betalingen til den endelige mottakeren, ellers vil ikke betalingen bli validert.
+I dette kapittelet vil vi oppdage hvordan Lightning tillater betalinger å transittere gjennom mellomliggende noder uten å måtte stole på dem, takket være **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Disse smartkontraktene sikrer at hver mellomliggende node bare vil motta midlene fra sin kanal hvis den videresender betalingen til den endelige mottakeren, ellers vil ikke betalingen bli validert.
 
 Problemet som oppstår for betalingsruting er derfor det nødvendige tillitsforholdet i mellomliggende noder, og blant de mellomliggende nodene selv. For å illustrere dette, la oss gjenbesøke vårt forenklede Lightning-nettverkseksempel med 3 noder og 2 kanaler:
 

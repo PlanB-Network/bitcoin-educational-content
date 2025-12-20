@@ -1,0 +1,8 @@
+question: Que considerações de segurança você deve ter em mente ao instalar o Rust usando o Rustup?
+answer: A instalação envolve o descarregamento e a execução de um script, embora utilize HTTPS e provenha de fontes oficiais de confiança
+wrong_answers:
+  - A instalação requer privilégios de administrador, o que cria potenciais vulnerabilidades no sistema
+  - A cadeia de ferramentas estável contém funcionalidades experimentais que podem ter falhas de segurança ainda não descobertas
+  - O processo de instalação ativa automaticamente todos os alvos de compilação, incluindo arquitecturas potencialmente inseguras
+explanation: |
+  Ao instalar o Rustup, você baixa e executa um script do site oficial do Rust. Isso usa HTTPS para segurança da camada de transporte, e os pacotes vêm de fontes confiáveis como crates.io. Embora isso seja seguro para a maioria dos casos de uso, algumas organizações com políticas de segurança rígidas podem preferir o gerenciador de pacotes de sua distribuição, que adiciona a própria infraestrutura de assinatura da distribuição. As outras opções estão incorrectas: O Rustup instala-se no diretório home do utilizador sem necessitar de privilégios de administrador, a cadeia de ferramentas estável exclui especificamente funcionalidades experimentais, e os alvos de compilação são adicionados separadamente e não representam riscos de segurança inerentes.

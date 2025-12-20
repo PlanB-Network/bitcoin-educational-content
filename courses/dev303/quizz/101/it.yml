@@ -1,0 +1,8 @@
+question: Quale caratteristica specifica dell'architettura event-driven di LDK consente alle applicazioni di mantenere una separazione netta tra la logica del protocollo Lightning e le risposte specifiche dell'applicazione?
+answer: Vengono fornite notifiche asincrone per tutte le operazioni significative e i cambiamenti di stato, consentendo l'implementazione di gestori di eventi personalizzati in modo indipendente
+wrong_answers:
+  - Le callback sincrone vengono attivate direttamente all'interno del channel manager e richiedono risposte immediate per mantenere la conformità al protocollo
+  - I gestori di eventi vengono generati automaticamente in base alla configurazione dell'applicazione, eliminando la necessità di una logica di implementazione personalizzata
+  - Tutti gli eventi vengono accodati in un buffer centrale ed elaborati in modo sequenziale per garantire un comportamento deterministico dell'applicazione
+explanation: |
+  Il sistema di eventi di LDK fornisce notifiche asincrone per tutte le operazioni di Lightning, comprese le connessioni peer, i pagamenti e le modifiche ai canali. Ciò consente agli sviluppatori di implementare gestori di eventi personalizzati che rispondono in modo appropriato, mantenendo una separazione netta tra la funzionalità principale di LDK e la logica dell'applicazione. Le altre opzioni non sono corrette perché LDK non utilizza callback sincroni che bloccano le operazioni di protocollo, non gestisce automaticamente generate e non impone l'elaborazione sequenziale degli eventi.

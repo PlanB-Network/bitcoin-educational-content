@@ -1,0 +1,8 @@
+question: Ni igiki kiba iyo ukoze clone y’instance ya RC<T> irimwo urutonde runini rw’amakuru?
+answer: Ivyerekeye vyonyene ni vyo bikoporwa kandi igiharuro c'ivyangombwa kirongera, amakuru y'intango asigara atahindutse .
+wrong_answers:
+  - Ubuhinga bwose bw'amakuru burasubirwamwo mu bubiko kandi izo kopi zompi zigumya ibiharuro vy'inyandiko bitandukanye
+  - Kopi y'igitutu iraremwa aho ivyicaro vya kera bikopwa ariko ivyicaro bikomeye biguma ari ibisobanuro bisangiye
+  - Amakuru yimurirwa ahantu heza ho kwibuka kandi RC y'umwimerere ihinduka ubusa gushika isubiye gutangura
+explanation: |
+  Igihe ukora cloning ya RC, Rust ikopa gusa ikimenyetso c’ishingiro maze yongera igiharuro c’ishingiro co mu mutima, ivyo bikaba bituma igikorwa gikora neza cane ata kuraba ubunini bw’amakuru. Amakuru ashingiyeko aguma mu kibanza kimwe c’ukwibuka kandi asangizwa hagati y’inkuru zose za RC. Ivyo bitandukanye cane n’ugukora cloning y’amakuru nyayo, ivyo bikaba vyotsinda intumbero yo gusangira ubutunzi n’ugusesagura ubwonko.

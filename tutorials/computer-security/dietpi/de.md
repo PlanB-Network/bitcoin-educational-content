@@ -30,7 +30,7 @@ Dies ist nicht das "übliche Duplikat" von Debian für kleine Raspberry-artige B
 
 - Optimiert für Geschwindigkeit und Leichtigkeit**: ein [Vergleich mit anderen Debian-Distributionen für SBC](https://dietpi.com/blog/?p=888), DietPi ist in allem leichter. Das DietPi-ISO-Image wiegt weniger als 1 GB, bei weitem das kleinste unter denjenigen, die für ältere Raspberry- oder Orange-PI-Modelle bestimmt sind (zum Beispiel). Der Bedarf an RAM- und CPU-Ressourcen ist sehr gering, so dass es immer das Beste aus den Boards herausholt, auch aus älteren.
 - Integrierte Automatisierungen und Installationsprogramme**: Eine Reihe spezieller Befehle unterstützt die Benutzer bei der Überwachung der Systemressourcen sowie bei der Automatisierung von Aufgaben zur Installation und zum Start von Programmen, zur Aktualisierung von Versionen, zur Erstellung von Backups und zur Überprüfung aller Protokolle.
-- Eine starke, experimentierfreudige Gemeinschaft**: die [Tutorials] (https://dietpi.com/forum/c/community-tutorials/8) und Projekte der DietPi-Community sind ideal, um sich von Software inspirieren zu lassen, die Sie dank DietPi mit einem Klick installieren können.
+- Eine starke, experimentierfreudige Gemeinschaft**: die [Tutorials](https://dietpi.com/forum/c/community-tutorials/8) und Projekte der DietPi-Community sind ideal, um sich von Software inspirieren zu lassen, die Sie dank DietPi mit einem Klick installieren können.
 
 
 

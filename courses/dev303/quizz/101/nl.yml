@@ -1,0 +1,8 @@
+question: Welke specifieke eigenschap van de gebeurtenisgestuurde architectuur van LDK stelt applicaties in staat om een duidelijke scheiding aan te houden tussen Lightning-protocollogica en applicatiespecifieke reacties?
+answer: Asynchrone meldingen worden geleverd voor alle belangrijke bewerkingen en statuswijzigingen, zodat aangepaste event-handlers onafhankelijk kunnen worden geïmplementeerd
+wrong_answers:
+  - Synchrone callbacks worden direct binnen de kanaalbeheerder getriggerd, waardoor onmiddellijke reacties nodig zijn om protocolnaleving te behouden
+  - Event-handlers worden automatisch gegenereerd op basis van de applicatieconfiguratie, zodat er geen aangepaste implementatielogica nodig is
+  - Alle gebeurtenissen worden in een wachtrij geplaatst in een centrale buffer en sequentieel verwerkt om deterministisch gedrag van de applicatie te garanderen
+explanation: |
+  Het event-systeem van LDK biedt asynchrone meldingen voor alle Lightning-bewerkingen, waaronder peerverbindingen, betalingen en kanaalwijzigingen. Hierdoor kunnen ontwikkelaars aangepaste event-handlers implementeren die op de juiste manier reageren, terwijl de kernfunctionaliteit van LDK en de applicatielogica netjes gescheiden blijven. De andere opties zijn onjuist omdat LDK geen synchrone callbacks gebruikt die protocolbewerkingen blokkeren, geen auto-generate handlers gebruikt en geen sequentiële verwerking van gebeurtenissen afdwingt.

@@ -1,0 +1,8 @@
+question: Welk specifiek element moet opgenomen worden in een P2SH ScriptSig dat het onderscheidt van gewone transactie-inputs?
+answer: Het volledige script zelf, samen met de ontgrendelingsgegevens
+wrong_answers:
+  - De HASH160 van het redeem script en de publieke sleutels
+  - Alleen de handtekeningen en publieke sleutels die nodig zijn om aan de voorwaarden te voldoen
+  - De versiebyte en adrescodering voor P2SH validatie
+explanation: |
+  P2SH ingangen vereisen zowel de ontgrendelingsgegevens (handtekeningen, enz.) EN het volledige inwisselscript in de ScriptSig. Dit is uniek omdat het inwisselscript voorheen verborgen was achter een hash en nu onthuld moet worden voor validatie. De eerste validatiestap controleert of HASH160(redeem_script) overeenkomt met de hash in de scriptPubKey, waarna het script wordt uitgevoerd met de verstrekte ontgrendelgegevens. De andere opties zijn onjuist: de hash staat al in de originele scriptPubKey, handtekeningen alleen zijn niet voldoende zonder het script en versiebytes worden gebruikt voor adrescodering, niet voor uitgavenvalidatie.

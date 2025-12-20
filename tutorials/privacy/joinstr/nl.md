@@ -653,7 +653,7 @@ Tegen een achtergrond van toenemende financiële controle worden gedecentralisee
 - [Gebruikersdocumentatie](https://docs.joinstr.xyz/users/using-joinstr)
 - [Technische documentatie](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab broncode](https://gitlab.com/invincible-privacy/joinstr)
-- [Android-toepassing] (https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
+- [Android-toepassing](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
 
 
 

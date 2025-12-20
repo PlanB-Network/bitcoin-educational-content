@@ -1,0 +1,8 @@
+question: Miks on expect() kasutamine kõvasti kodeeritud väärtuste puhul, mis tunduvad kompilaatori poolt kontrollitud, potentsiaalselt problemaatiline tootmiskoodis?
+answer: Kõvasti kodeeritud väärtused võivad aja jooksul muutuda refaktooringu kaudu, muutes varem kehtinud väärtused jooksutusaegseteks vigadeks
+wrong_answers:
+  - Kompilaator ei saa kompileerimise ajal kontrollida kõvasti kodeeritud väärtuste kehtivust, mistõttu expect() on ebausaldusväärne
+  - Kõvasti kodeeritud väärtused tarbivad rohkem mälu kui dünaamilised väärtused, põhjustades expect() funktsiooniga jõudlusprobleeme
+  - Meetod expect() lisab võrreldes unwrap() meetodiga ebavajalikku lisakulu, kui tegemist on teadaolevate kehtivate väärtustega
+explanation: |
+  Õige vastus toob esile peatükis esitatud kriitilise arusaama: isegi näiliselt turvalised kõvakooditud väärtused võivad aja jooksul muutuda ohtlikuks. Näide näitab, kuidas kehtiv IP-aadress võidakse ümber kujundada konstantiks ja hiljem muuta 'localhost'-iks, rikkudes sellega algset eeldust. Valed vastused on valed, sest: kompilaator saab kõvasti kodeeritud väärtusi kontrollida kompileerimise ajal, mälukulu ei ole expect() puhul probleemiks ja expect() ei ole võrreldes unwrap() funktsiooniga märkimisväärse jõudluskoormusega.

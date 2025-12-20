@@ -1,5 +1,5 @@
 ---
-name: 德比菲
+name: Debifi
 description: 获得由 Bitcoin 担保的非监护贷款。
 ---
 

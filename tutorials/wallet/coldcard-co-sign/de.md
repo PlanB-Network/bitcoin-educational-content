@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Mitunterzeichnung
+name: COLDCARD - Co-Sign
 description: Entdecken Sie die Co-Sign-Funktion und nutzen Sie sie auf Ihrer COLDCARD
 ---
 
@@ -32,7 +32,7 @@ Ausgabenbedingungen können zum Beispiel sein:
 - Betragsbegrenzungen**: Begrenzen Sie die Menge der Bitcoins, die Sie in einer einzigen Transaktion ausgeben können.
 - Geschwindigkeitsbeschränkungen:** entscheiden, wie viele Transaktionen Sie pro Zeiteinheit (pro Stunde, Tag, Woche usw.) durchführen können, wobei eine Mindestanzahl von Blöcken zwischen den Transaktionen erforderlich ist.
 - Vorab genehmigte Adressen:** Lassen Sie nur Bitcoins zu, die an vorab genehmigte Adressen gesendet werden.
-- Zwei-Faktor-Authentifizierung:** Erfordert die Bestätigung durch eine mobile 2FA-Anwendung eines Drittanbieters (TOTP [RFC 6238] (https://www.rfc-editor.org/rfc/rfc6238)) auf einem NFC-fähigen Smartphone/Tablet mit Internetzugang.
+- Zwei-Faktor-Authentifizierung:** Erfordert die Bestätigung durch eine mobile 2FA-Anwendung eines Drittanbieters (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) auf einem NFC-fähigen Smartphone/Tablet mit Internetzugang.
 
 
 

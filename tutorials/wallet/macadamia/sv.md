@@ -347,4 +347,4 @@ Depåmodellen kräver vaksamhet och god säkerhetspraxis. Rätt använd blir Mac
 
 
 
-- Telegram Cashu-grupp: [t.me/cashu_ecash] (https://t.me/cashu_ecash)
+- Telegram Cashu-grupp: [t.me/cashu_ecash](https://t.me/cashu_ecash)

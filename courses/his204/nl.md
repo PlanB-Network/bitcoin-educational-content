@@ -608,7 +608,7 @@ De intellectuele output van de Gournay-kring had een grote invloed op de geschie
 ![image](assets/nl/035.webp)
 
 
-Om de smaak voor economische discussies onder de Franse bevolking te verspreiden, probeerden Gournay en zijn vrienden deze discussies toegankelijk te maken door middel van romans. Na de *Memoir sur les Trades*, waarin de gilden werden bekritiseerd, hielpen Gournay en Cliquot-Blervache Gabriel-François Coyer bij het schrijven van een korte satirische roman genaamd Chinki: [Een Cochinchinees verhaal dat van toepassing is op andere landen] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Om de smaak voor economische discussies onder de Franse bevolking te verspreiden, probeerden Gournay en zijn vrienden deze discussies toegankelijk te maken door middel van romans. Na de *Memoir sur les Trades*, waarin de gilden werden bekritiseerd, hielpen Gournay en Cliquot-Blervache Gabriel-François Coyer bij het schrijven van een korte satirische roman genaamd Chinki: [Een Cochinchinees verhaal dat van toepassing is op andere landen](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
 ![image](assets/nl/036.webp)
@@ -962,7 +962,7 @@ In zijn eerder geciteerde *Maxims* stelt Quesnay:
 De Fysiocraten hadden de schade gezien die werd veroorzaakt door overheidsbemoeienis, vooral in de graanhandel. Men moet erkennen, zeiden ze, dat de overheid nooit in staat zal zijn om de handel zo goed te beheren als individuen dat doen, omdat het zou moeten reageren op elke behoefte en op elke verandering in vraag of Supply. Dit alles ligt ver buiten de mogelijkheden van zelfs de verstandigste overheid die men zich kan voorstellen. Dit alles ligt ver buiten de mogelijkheden van zelfs de verstandigste regering die men zich kan voorstellen. Daarom is het nodig om de dingen te laten zoals ze zijn en ze te laten stromen.
 
 
-Handel is van nature nuttig en moet volledig en perfect vrij zijn. Een van hun leden, Le Trosne, schreef zelfs een pamflet met de titel [*De vrijheid van de graanhandel: altijd nuttig, nooit schadelijk*] (https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Handel is van nature nuttig en moet volledig en perfect vrij zijn. Een van hun leden, Le Trosne, schreef zelfs een pamflet met de titel [*De vrijheid van de graanhandel: altijd nuttig, nooit schadelijk*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
 
 
 ### Vijfde principe: Alle mensen zijn broeders
@@ -1409,7 +1409,7 @@ Abt van Condillac speelde een belangrijke rol in de definitieve ontmanteling van
 "Definitief" is misschien overdreven, want in het publieke debat duikt deze drogreden vaak weer op. Dit is misschien de reden waarom Condillac een weinig bekende econoom blijft. Afgezien van Oostenrijkse economen hebben weinigen het belang van zijn theorie van Exchange begrepen, niemand interesseert zich meer voor hem.
 
 
-Voor de meeste historici van het economisch denken wordt het jaar 1776 gemarkeerd door de publicatie van *The Wealth of Nations*, waarmee de economische wetenschap werd opgericht. De vijftien lessen die we zojuist hebben afgerond, waarin we de Franse economische wetenschap vóór Adam Smith hebben bestudeerd, volstaan om de onjuistheid van deze opvatting te bewijzen. In datzelfde jaar 1776 verschijnt er bovendien een ander boek dat misschien wel meer lof verdient van historici dan het boek van Adam Smith: het is geschreven door Condillac en is eenvoudig getiteld [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond).
+Voor de meeste historici van het economisch denken wordt het jaar 1776 gemarkeerd door de publicatie van *The Wealth of Nations*, waarmee de economische wetenschap werd opgericht. De vijftien lessen die we zojuist hebben afgerond, waarin we de Franse economische wetenschap vóór Adam Smith hebben bestudeerd, volstaan om de onjuistheid van deze opvatting te bewijzen. In datzelfde jaar 1776 verschijnt er bovendien een ander boek dat misschien wel meer lof verdient van historici dan het boek van Adam Smith: het is geschreven door Condillac en is eenvoudig getiteld [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
 
 
 ![image](assets/nl/085.webp)

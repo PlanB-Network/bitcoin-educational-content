@@ -71,7 +71,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 **第 1 節：定義與關鍵概念**
 
 
-首先，我們要回顧一下支配 Bitcoin 運作的基本原則，如此一來，我們就可以冷靜地處理與機密性相關的概念。掌握一些基本概念是很有必要的，例如 UTXO、接收位址和腳本，這樣才能完全理解我們在接下來的章節中要介紹的概念。我們也將介紹 Bitcoin 的一般保密性模型，正如 Satoshi Nakamoto 所想像的一樣，這將使我們能夠掌握相關的利害關係和風險。
+首先，我們要回顧一下支配 Bitcoin 運作的基本原則，如此一來，我們就可以冷靜地處理與機密性相關的概念。掌握一些基本概念是很有必要的，例如 [UTXO](https://planb.academy/resources/glossary/utxo)、接收位址和腳本，這樣才能完全理解我們在接下來的章節中要介紹的概念。我們也將介紹 Bitcoin 的一般保密性模型，正如 Satoshi Nakamoto 所想像的一樣，這將使我們能夠掌握相關的利害關係和風險。
 
 
 ![BTC204](assets/zh-Hant/001.webp)
@@ -98,7 +98,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 **第 4 節：瞭解 CoinJoin 交易**
 
 
-談到 Bitcoin 上的隱私權，怎麼能不提 coinjoins 呢？在第 4 節中，您將瞭解有關這種混合方法的所有資訊。您將學習到什麼是 coinjoins、它的歷史和目標，以及 CoinJoin 存在的不同類型。最後，對於較有經驗的使用者，我們會看看什麼是 anonsets 和 entropy，以及如何計算它們。
+談到 Bitcoin 上的隱私權，怎麼能不提 [coinjoin](https://planb.academy/resources/glossary/coinjoin)s 呢？在第 4 節中，您將瞭解有關這種混合方法的所有資訊。您將學習到什麼是 coinjoins、它的歷史和目標，以及 CoinJoin 存在的不同類型。最後，對於較有經驗的使用者，我們會看看什麼是 anonsets 和 entropy，以及如何計算它們。
 
 
 ![BTC204](assets/zh-Hant/004.webp)
@@ -502,7 +502,7 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 在這方面，我們可以用密碼學和密碼分析來做類比。一個好的密碼學家首先是一個好的密碼分析師。要設計出新的加密演算法，就必須知道它會面對哪些攻擊，同時也要研究之前的演算法為什麼會被破解。同樣的原則也適用於 Bitcoin 隱私權。了解 Blockchain 分析方法是防禦它們的關鍵。這就是為什麼我在本訓練課程中加入一整篇 on chain 分析的原因。
 
@@ -822,7 +822,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 關於後者，我們可以看到輸入編號 0 和輸出編號 1 使用 P2WPKH 指令碼 (SegWit V0)，而輸出編號 0 則使用不同的 P2PKH 指令碼 (Legacy)。
 
 
-在 2010 年代早期，由於可用的指令碼種類有限，這種以指令碼版本為基礎的啟發式方法相對地沒有什麼幫助。然而，隨著時間的推移和 Bitcoin 的連續更新，腳本類型的多樣性也日益增加。因此，這個啟發式方法變得越來越重要，因為隨著腳本類型的擴大，使用者會分成較小的群組，因此增加了應用這個內部版本重複使用啟發式方法的機會。因此，僅從保密性的角度來看，建議您選擇最常見的腳本類型。例如，在我寫這些行文時，Taproot 腳本 (`bc1p`)的使用頻率比 SegWit V0 腳本 (`bc1q`)低。雖然前者在某些特定情況下具有經濟和保密優勢，但對於較傳統的單一簽章用途而言，基於保密理由，在新標準獲得更廣泛採用之前，堅持使用較舊的標準可能是合理的。
+在 2010 年代早期，由於可用的指令碼種類有限，這種以指令碼版本為基礎的啟發式方法相對地沒有什麼幫助。然而，隨著時間的推移和 Bitcoin 的連續更新，腳本類型的多樣性也日益增加。因此，這個啟發式方法變得越來越重要，因為隨著腳本類型的擴大，使用者會分成較小的群組，因此增加了應用這個內部版本重複使用啟發式方法的機會。因此，僅從保密性的角度來看，建議您選擇最常見的腳本類型。例如，在我寫這些行文時，[Taproot](https://planb.academy/resources/glossary/taproot) 腳本 (`bc1p`)的使用頻率比 SegWit V0 腳本 (`bc1q`)低。雖然前者在某些特定情況下具有經濟和保密優勢，但對於較傳統的單一簽章用途而言，基於保密理由，在新標準獲得更廣泛採用之前，堅持使用較舊的標準可能是合理的。
 
 
 ### 整數付款

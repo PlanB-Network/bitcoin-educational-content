@@ -5,5 +5,5 @@ wrong_answers:
   - Le commissioni di transazione vengono bruciate durante l'elaborazione, riducendo gradualmente la disponibilità di bitcoin
   - "Il protocollo Bitcoin blocca automaticamente le monete che non si sono mosse per lunghi periodi per prevenire l'inflazione"
 explanation: |
-  Il capitolo spiega che mentre il massimo teorico è di circa 20.999.817 BTC, l'offerta effettivamente utilizzabile è molto più bassa a causa di errori umani e perdite. Le chiavi private perse rendono i bitcoin permanentemente inaccessibili, i portafogli vengono rubati o dimenticati e le monete vengono talvolta inviate a indirizzi non validi. Questi fattori creano una riduzione permanente dell'offerta che avvantaggia i detentori rimanenti, poiché Satoshi ha notato che le monete perse fanno sì che le monete degli altri valgano di più.
+  Sebbene il massimo teorico sia di 20 999 999.9769 BTC, l'offerta realmente utilizzabile è molto più bassa a causa di errori umani e perdite. Le chiavi private perse rendono i bitcoin definitivamente inaccessibili, i portafogli vengono rubati o dimenticati e le monete talvolta vengono inviate a indirizzi non validi. Questi fattori comportano una riduzione permanente dell'offerta che avvantaggia i detentori rimanenti, come ha osservato Satoshi: le monete perse aumentano il valore delle monete degli altri.
 reviewed: false

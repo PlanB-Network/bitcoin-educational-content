@@ -1,0 +1,8 @@
+question: Ni igiki kiba mu gihe c’ugukoranya iyo umukozi wa Rust ahuye n’uguhamagara kwa macro?
+answer: Igikoresho gihuza ivyinjijwe n'ibigereranyo vyasobanuwe maze kigasubirira uguhamagara kwa macro na kode yashizweho imbere y'uko ugusuzuma ubwoko kuba
+wrong_answers:
+  - Umukozi asubiramwo ukwaguka kwa macro gushika inyuma y'ugusuzuma ubwoko n'ugutunganya neza kugira ngo umenye neza ko kode ari ukuri
+  - Umukozi abika ihamagarwa rya macro nka bytecode maze akayagura mu buryo bukomeye mu gihe c'ugukora
+  - Umukozi wemeza insiguro y'amajambo ariko asiga ukwaguka nyakuri kugira ngo umuhuza akoreshe
+explanation: |
+  Macros ziragwizwa mu gihe co gukoranya imbere y'uko ubwoko bugenzurwa n'ugutunganya neza bishika. Iyo umukozi ahuye n'uguhamagara kwa macro, aca ahita ahuza input n'imirongo ya macro yasobanuwe maze agasubiriza ihamagarwa rya macro ryose na kode yavutse. Iyi kode yagutse ica mu nzira zisanzwe zo gukoranya harimwo no kugenzura ubwoko. Ibindi bihitamwo ntibibereye kuko macros zikora ku gihe co gukora, atari igihe co gukora, kandi ukwagura bitegerezwa kuba imbere yo gusuzuma ubwoko kuko kode yashizweho ikeneye kwemezwa kugira ngo ibe igororotse.

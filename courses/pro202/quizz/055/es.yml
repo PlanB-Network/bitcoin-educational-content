@@ -1,0 +1,8 @@
+question: Cuando un nodo Bitcoin solicita cabeceras de bloque utilizando el comando getheaders, ¿cuál es el número máximo de cabeceras que se pueden devolver en una sola respuesta, y qué sigue a cada cabecera de 80 bytes?
+answer: Se pueden devolver hasta 2000 cabeceras, cada una seguida de un recuento de transacciones ficticias de cero
+wrong_answers:
+  - Se pueden devolver hasta 1.000 cabeceras, cada una seguida del recuento real de transacciones como varint
+  - Se pueden devolver hasta 2000 cabeceras, cada una seguida de una suma de comprobación de 4 bytes de los datos de la cabecera
+  - Se pueden devolver hasta 500 cabeceras, cada una seguida del hash raíz Merkle para su verificación
+explanation: |
+  El protocolo P2P de Bitcoin limita específicamente las respuestas getheaders a un máximo de 2000 cabeceras para evitar abrumar a los nodos con respuestas masivas. Cada cabecera tiene exactamente 80 bytes y va seguida de un campo de recuento de transacciones igual a cero, ya que los mensajes de cabecera no incluyen transacciones reales. Este diseño permite una sincronización eficiente de la cadena, en la que los nodos pueden descargar y verificar rápidamente la estructura de la cadena proof-of-work antes de solicitar los datos de bloque completos.

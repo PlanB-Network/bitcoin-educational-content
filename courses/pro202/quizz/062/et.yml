@@ -1,0 +1,8 @@
+question: Miks peab P2WSH-tehingu tunnistajate virnas 2-ast-3 multisignaali puhul olema tunnistajate virna allosas tühi element?
+answer: CHECKMULTISIGi off-by-one vea kompenseerimiseks, mis tarbib täitmise ajal täiendavat virnaelementi
+wrong_answers:
+  - "Kolmanda allkirja jaoks, mida ei kasutatud 2-ast-3 multisignaali valideerimise käigus, on vaja kasutada kohatäitjat."
+  - Allkirjaandmete eraldamine tunnistajaskriptist SegWit valideerimise nõuetekohaseks analüüsimiseks
+  - Tagamaks, et tunnistajate virnas on tõhusaks merklipuu konstrueerimiseks paariline arv elemente
+explanation: |
+  CHECKMULTISIG opkoodil on ajalooline viga, mille puhul see tõstab korstnast ühe lisaelemendi üle selle, mida ta peaks vajama. See mõjutab kõiki multisig-tehinguid, sealhulgas P2WSH. Tühi element kompenseerib selle vea, tagades, et ülejäänud virna elemendid (allkirjad ja tunnistajaskript) on valideerimiseks õigesti paigutatud. Teised valikud on valed: kasutamata allkirjad ei ole esindatud tühjade elementidega, tunnistajate analüüs ei nõua eralduselemendid ja tunnistajate virna ei ole vaja merkle-operatsioonide jaoks ühtlast elementide arvu.

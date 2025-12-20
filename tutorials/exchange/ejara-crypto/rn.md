@@ -1,5 +1,5 @@
 ---
-name: Ibanga rya Ejara
+name: Ejara Crypto
 description: Bika, ugure kandi ugurishe amafaranga bitcoins kuva ku mafranga 1000 CFA muri Afirika ivuga igifaransa
 ---
 

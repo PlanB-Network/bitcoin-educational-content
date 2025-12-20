@@ -344,7 +344,7 @@ Führen Sie dann die Schritte 3 und 4 im Abschnitt macOS aus.
 
 
 
-Installieren Sie zunächst Rust über [rustup.rs] (https://rustup.rs/), dann verwenden Sie PowerShell :
+Installieren Sie zunächst Rust über [rustup.rs](https://rustup.rs/), dann verwenden Sie PowerShell :
 
 
 
@@ -368,7 +368,7 @@ Identische Konfiguration: Kopieren Sie `.env-sample` nach `.env` und tragen Sie 
 
 
 
-**Schritt 1**: Gehen Sie zur [GitHub-Releaseseite] (https://github.com/MostroP2P/mobile/releases) und laden Sie die Datei **app-release.apk** (ca. 65 MB) herunter.
+**Schritt 1**: Gehen Sie zur [GitHub-Releaseseite](https://github.com/MostroP2P/mobile/releases) und laden Sie die Datei **app-release.apk** (ca. 65 MB) herunter.
 
 
 
@@ -951,7 +951,7 @@ Für Bitcoiner, die Autonomie und Vertraulichkeit bevorzugen, ist Mostro eine br
 
 
 - [Mostro offizielle Website](https://mostro.network)
-- [Technische Dokumentation] (https://mostro.network/docs-english/index.html)
+- [Technische Dokumentation](https://mostro.network/docs-english/index.html)
 - [Stiftung Mostro](https://mostro.foundation)
 
 
@@ -962,7 +962,7 @@ Für Bitcoiner, die Autonomie und Vertraulichkeit bevorzugen, ist Mostro eine br
 
 
 - [Haupt-GitHub-Repository](https://github.com/MostroP2P/mostro)
-- [Web-Client] (https://github.com/MostroP2P/mostro-web)
+- [Web-Client](https://github.com/MostroP2P/mostro-web)
 - [Kunde CLI](https://github.com/MostroP2P/mostro-cli)
 
 

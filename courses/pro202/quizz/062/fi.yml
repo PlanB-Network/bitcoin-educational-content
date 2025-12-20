@@ -1,0 +1,8 @@
+question: Miksi P2WSH-tapahtuman todistajapinossa 2:3-monisignaalin tapauksessa todistajapinon alareunassa on oltava tyhjä elementti?
+answer: CHECKMULTISIG:n off-by-one-virheen kompensoimiseksi, joka kuluttaa ylimääräisen pinoelementin suorituksen aikana
+wrong_answers:
+  - "Tarjota sijaiskappale kolmannelle allekirjoitukselle, jota ei käytetty 2-of-3-monisignaalin validoinnissa"
+  - Allekirjoitustietojen erottaminen todistajakäsikirjoituksesta, jotta SegWit:n validointi voidaan analysoida asianmukaisesti
+  - Varmistetaan, että todistajapinossa on parillinen määrä elementtejä, jotta merkle-puun rakentaminen olisi tehokasta
+explanation: |
+  CHECKMULTISIG-toimintokoodissa on historiallinen vika, jonka vuoksi se nostaa pinosta yhden ylimääräisen elementin yli sen, mitä sen pitäisi tarvita. Tämä vaikuttaa kaikkiin multisig-tapahtumiin, myös P2WSH:hen. Tyhjä elementti kompensoi tämän virheen ja varmistaa, että loput pinon elementit (allekirjoitukset ja todistajakäsikirjoitus) on sijoitettu oikein validointia varten. Muut vaihtoehdot ovat virheellisiä: käyttämättömiä allekirjoituksia ei esitetä tyhjillä elementeillä, todistajien jäsentäminen ei vaadi erotteluelementtejä, eivätkä todistajapinot tarvitse tasaisia elementtimääriä merkle-operaatioita varten.

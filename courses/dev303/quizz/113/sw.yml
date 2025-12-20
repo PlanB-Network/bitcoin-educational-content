@@ -1,0 +1,8 @@
+question: Ni kizuizi gani muhimu cha mifumo ikolojia ya programu za simu ambacho programu ya awali ya Breez ilifunua ambacho kiliathiri maendeleo ya usanifu wa SDK?
+answer: Programu za simu haziwezi kuwasiliana kwa urahisi, na hivyo kulazimisha watengenezaji kujenga vipengele vyote vya Lightning katika programu moja badala ya kushiriki miundombinu ya Lightning
+wrong_answers:
+  - Vifaa vya mkononi havina nguvu ya kutosha ya kompyuta kuendesha nodi za umeme kwa uaminifu, na hivyo kuhitaji miundombinu inayotegemea wingu ili kushughulikia hesabu tata za uelekezaji wa njia
+  - Mifumo ya uendeshaji ya simu huzuia michakato ya usuli kwa kiasi kikubwa sana, na kuzuia nodi za umeme kudumisha miunganisho endelevu kwenye mtandao.
+  - Maduka ya programu za simu yanapiga marufuku programu za kifedha zisizo za uangalizi, na kuwalazimisha wasanidi programu kutekeleza suluhisho za uangalizi ili kufikia idhini ya duka la programu
+explanation: |
+  Programu ya awali ya Breez ilionyesha kuwa mifumo ikolojia ya simu hairahisishi mawasiliano kati ya programu, na kuzuia programu maalum kutumia miundombinu ya umeme iliyoshirikiwa. Kikwazo hiki cha usanifu kililazimisha utendakazi wote wa umeme katika programu za umeme pekee. Chaguzi zingine si sahihi: vifaa vya mkononi vinaweza kuendesha nodi za umeme (kama Breez ilivyothibitisha), vikwazo vya usuli vinaweza kudhibitiwa kwa usanifu sahihi, na maduka ya programu kwa ujumla huruhusu programu za kifedha zisizo za ulinzi.

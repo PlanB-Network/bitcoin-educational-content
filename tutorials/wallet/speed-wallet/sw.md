@@ -63,7 +63,7 @@ Speed ​​Wallet inapatikana kama programu ya simu kwenye mifumo ya Android (G
 
 
 
-Unaweza kupata viungo vya kupakua mifumo kwenye tovuti rasmi ya [Speed ​​Wallet] (https://speed.app).
+Unaweza kupata viungo vya kupakua mifumo kwenye tovuti rasmi ya [Speed ​​Wallet](https://speed.app).
 
 
 

@@ -63,7 +63,7 @@ Woba wemezwa n’uwo muti umaze gusoma iyi ntangamarara? Ivyo bisigaye ni ugusom
 
 
 
-Imbere y’uko ndababwira laboratwari yanje yo gushinga WireGuard, mukwiye kumenya ko mushobora kwiyumvira **gukoresha WireGuard kugira ngo muhuze ibikorwa remezo bibiri biri kure**, ariko kandi **muhuze umukiriya ari kure n’ibikorwa remezo nk’urubuga rw’ishirahamwe canke urubuga rwawe rwo mu nzu**. Ivyo biri mu mpwemu imwe n'iya OpenVPN, nk'uko twabibonye vuba mu nyigisho "[OpenVPN kuri Synology] (https://www.
+Imbere y’uko ndababwira laboratwari yanje yo gushinga WireGuard, mukwiye kumenya ko mushobora kwiyumvira **gukoresha WireGuard kugira ngo muhuze ibikorwa remezo bibiri biri kure**, ariko kandi **muhuze umukiriya ari kure n’ibikorwa remezo nk’urubuga rw’ishirahamwe canke urubuga rwawe rwo mu nzu**. Ivyo biri mu mpwemu imwe n'iya OpenVPN, nk'uko twabibonye vuba mu nyigisho "[OpenVPN kuri Synology](https://www.
 
 
 
@@ -778,7 +778,7 @@ Ibindi vyanditswe:
 
 
 
-- [Umuntu - Itegeko wg] (ibikoresho vyo kurinda amashanyarazi/ivyerekeye/src/umuntu/wg.8)
+- [Umuntu - Itegeko wg](ibikoresho vyo kurinda amashanyarazi/ivyerekeye/src/umuntu/wg.8)
 - [Umuntu - Itegeko wg-vyihuta](https://impapuro z'abantu.debian.org/ibidashikamye/ibikoresho-vy'uburinzi bw'intsinga/wg-vyihuta.8.ru.html)
 
 

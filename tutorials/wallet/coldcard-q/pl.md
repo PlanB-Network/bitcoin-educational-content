@@ -74,7 +74,7 @@ Od strony oprogramowania, COLDCARD Q jest tak samo dobrze wyposażony jak inne u
 Krótko mówiąc, COLDCARD Q oferuje lepsze wrażenia użytkownika w porównaniu do MK4 i może być idealnym rozwiązaniem dla średnio zaawansowanych i zaawansowanych użytkowników poszukujących większej łatwości użytkowania.
 
 
-COLDCARD Q jest dostępny w sprzedaży [na oficjalnej stronie Coinkite] (https://store.coinkite.com/store/coldcard). Można ją również nabyć u sprzedawcy detalicznego.
+COLDCARD Q jest dostępny w sprzedaży [na oficjalnej stronie Coinkite](https://store.coinkite.com/store/coldcard). Można ją również nabyć u sprzedawcy detalicznego.
 
 
 ## Przygotowanie samouczka

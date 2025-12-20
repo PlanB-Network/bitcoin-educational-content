@@ -1,0 +1,8 @@
+question: Wat is het primaire voordeel van het gebruik van Taproot met MuSig2 voor cross-layer swaps in vergelijking met oude SegWit v0 HTLC's?
+answer: Coöperatieve swaps verschijnen als standaard transacties met één handtekening, bieden volledige privacy en minimaal gebruik van blokruimte
+wrong_answers:
+  - Taproot maakt tijdsloten overbodig, waardoor swaps sneller en efficiënter verlopen dan bij oudere HTLC's
+  - Met MuSig2 kunnen meerdere hash locks tegelijkertijd worden gebruikt, waardoor complexere swapregelingen met meerdere partijen mogelijk zijn
+  - Taproot swaps kunnen worden voltooid zonder cryptografische geheimen prijs te geven, in tegenstelling tot legacy HTLC's die altijd pre-images prijsgeven
+explanation: |
+  Taproot met MuSig2 revolutioneert HTLC privacy door sleutelaggregatie. In het coöperatieve 'happy path' combineren beide partijen hun sleutels in een enkele geaggregeerde publieke sleutel en ondertekenen ze samen de transactie. Dit maakt de ruil niet te onderscheiden van een gewone betaling, verbruikt minimale blokruimte en onthult geen ruilvoorwaarden. Oude SegWit v0 HTLC's vereisten het publiceren van hele scriptlogica on-chain, waardoor ze makkelijk te identificeren en duurder waren. De andere opties zijn onjuist: tijdsloten blijven essentieel voor de veiligheid, meerdere hashloten zijn niet de belangrijkste vernieuwing en preimages worden nog steeds onthuld bij het claimen van fondsen.

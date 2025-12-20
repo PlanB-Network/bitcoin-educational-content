@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Černý pasažér
+name: Ashigaru - Stowaway
 description: Jak mohu provést transakci Payjoin na Ashigaru?
 ---
 ![cover](assets/cover.webp)

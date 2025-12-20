@@ -46,7 +46,7 @@ Schließen Sie Ihr Ledger an Ihren Computer an und entsperren Sie es.
 
 
 
-Um die Anwendung zu installieren, öffnen Sie die Software [Ledger Live] (https://www.Ledger.com/Ledger-live) und gehen Sie dann zur Registerkarte "*Mein Ledger*". Suchen Sie die Anwendung "*Sicherheitsschlüssel*" und installieren Sie sie auf Ihrem Gerät.
+Um die Anwendung zu installieren, öffnen Sie die Software [Ledger Live](https://www.Ledger.com/Ledger-live) und gehen Sie dann zur Registerkarte "*Mein Ledger*". Suchen Sie die Anwendung "*Sicherheitsschlüssel*" und installieren Sie sie auf Ihrem Gerät.
 
 
 

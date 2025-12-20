@@ -114,7 +114,7 @@ A Umbrel encarrega-se de fornecer ao ThunderHub as informações de ligação LN
 
 
 
-Para os utilizadores fora da Umbrel (por exemplo, num servidor pessoal, num Raspberry Pi com RaspiBlitz ou numa instalação *sózinha*), a instalação do ThunderHub requer alguns passos extra. Abaixo descrevemos a instalação a partir da fonte e a configuração, de acordo com a [documentação oficial do ThunderHub] (https://docs.thunderhub.io).
+Para os utilizadores fora da Umbrel (por exemplo, num servidor pessoal, num Raspberry Pi com RaspiBlitz ou numa instalação *sózinha*), a instalação do ThunderHub requer alguns passos extra. Abaixo descrevemos a instalação a partir da fonte e a configuração, de acordo com a [documentação oficial do ThunderHub](https://docs.thunderhub.io).
 
 
 
@@ -136,7 +136,7 @@ Para os utilizadores fora da Umbrel (por exemplo, num servidor pessoal, num Rasp
 
 
 
-**1. Recuperar o código ThunderHub:** Clonar o repositório GitHub do projeto, conforme descrito na [documentação de instalação] (https://docs.thunderhub.io/installation):
+**1. Recuperar o código ThunderHub:** Clonar o repositório GitHub do projeto, conforme descrito na [documentação de instalação](https://docs.thunderhub.io/installation):
 
 
 

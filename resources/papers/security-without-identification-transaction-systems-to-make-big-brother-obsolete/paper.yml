@@ -1,0 +1,16 @@
+title: "Security without identification: transaction systems to make big brother obsolete"
+original_language: en
+authors:
+  - David Chaum
+abstract: |
+  The large-scale automated transaction systems of the near future can be designed to protect the privacy and maintain the security of both individuals and organizations.
+publication_date: 1985-10-01
+paper_type: academic
+source: ACM
+type: SCIE
+category: COMPUTER SCIENCE, THEORY & METHODS
+topics:
+  - Privacy-Preserving Protocols
+  - Anonymous Transaction Systems
+pdf_url: https://ir.cwi.nl/pub/5519/5519D.pdf
+id: 1cae8c26-aecb-402f-b730-f67a6ff8c8a4

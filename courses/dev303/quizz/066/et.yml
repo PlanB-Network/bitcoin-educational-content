@@ -1,0 +1,8 @@
+question: Milline Rust omaduste kombinatsioon muudab selle eriti sobivaks Bitcoin tehingute pöördumatuse käsitlemiseks?
+answer: Staatiline tugev tüübisüsteem, mis avastab vead kompileerimise ajal ja hoiab ära mäluga seotud haavatavused
+wrong_answers:
+  - Dünaamiline tüübistamine koos tööaja kontrolliga ja automaatne prügikogumine mäluhalduse jaoks
+  - Nõrk tüübisüsteem paindlike teisenduste ja käsitsi mäluhaldusega jõudluse optimeerimiseks
+  - Just-in-time kompileerimine koos tööaja optimeerimise ja tõlgitud veakäitlusega paindlikkuse tagamiseks
+explanation: |
+  Rust staatiline tugev tüübisüsteem on Bitcoin arenduse jaoks väga oluline, sest see avastab tüübivastuolud ja loogikavead enne programmi käivitamist, ennetades probleeme, mis võivad mõjutada kasutajate vahendeid. Staatiline olemus tähendab, et vead leitakse pigem kompileerimise ajal kui tegelike tehingute käitlemise ajal. Lisaks sellele tegeleb Rust tüübisüsteem mälu omandiõigusega ja hoiab ära mäluga seotud haavatavused, nagu topeltvabad vead ja võistlustingimused. See on oluline Bitcoin rakenduste puhul, kus vead on pöördumatud ja puudub asutus, kelle poole pöörduda fondide taastamiseks, erinevalt traditsioonilistest finantssüsteemidest, millel on tagasipöördumismehhanismid.

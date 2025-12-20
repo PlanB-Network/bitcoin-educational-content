@@ -1,0 +1,8 @@
+question: Ni kuki gushirwa mu ngiro kwa Mayfell kw’amakete y’isezerano kuri Liquid vyihariye gukoresha Confidential Transactions aho gukoresha amadosiye y’ubuhinga buboneka?
+answer: Ibisabwa ku bijanye n’ubuzima bwite bw’ubudandaji bisaba ko amafaranga y’inguzanyo aguma aboneka gusa ku ngurane n’uwugurisha mu gihe hazigama ubushobozi bwo kugenzura umugenzuzi .
+wrong_answers:
+  - Ivyubahiriza amategeko muri Megizike bisaba ko amafaranga yose akoreshwa ategerezwa guhishwa rwose ku bugenzuzi bwa Leta no ku buyobozi bw’imisoro .
+  - Ivyanditswe biboneka neza vyotuma habaho ibibazo bishobora gutuma iyo sisitemu idashobora gukora neza amakete y'isezerano asabwa arenga 25.000
+  - Kugaragara kw’amahera y’inguzanyo ku bantu bose vyotuma haba ibintu vy’imisoro bihita bituma igikorwa co gutanga ibimenyetso kidashobora gukoreshwa mu vy’amahera ku bari muri iyo nama .
+explanation: |
+  Confidential Transactions itorera umuti ingorane ikomeye y’ubudandaji mu ngurane z’ubudandaji: kubungabunga ubuzima bwite bw’amahiganwa mu gihe bishoboza kwubahiriza amategeko. Mu vy’ubutunzi bwa kera, amafaranga y’inguzanyo hagati y’ubudandaji ni amakuru y’ubudandaji y’ibanga abahiganwa badakwiye kuronka, yamara abagenzuzi n’abagenzuzi barakeneye kugenzura ubutungane bw’igitabu c’ubudandaji. Confidential Transactions ya Liquid ishika ku nzira y’uburinganire mu guhisha amafaranga abantu bose mu buryo bw’ibanga mu gihe yemerera abafise uburenganzira bwo kugenzura amafaranga. Inyishu zitari zo zigaragaza nabi ubuhinga - CT ntihisha abajejwe gucungera ibikorwa (ubuzima bwite n’ibanga), ntitorera umuti ibibazo vy’ugutera imbere (ivyo ni ikibazo c’ubuhinga gitandukanye), kandi ntirema uburyo bwo kwirinda imisoro (ibikoresho vy’ubuzima bwite vyemewe taxcircum don’t).

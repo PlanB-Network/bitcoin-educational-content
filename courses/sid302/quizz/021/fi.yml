@@ -1,0 +1,8 @@
+question: Mikä on tärkein liiketoimintaetu, jonka Liquid:n 2 minuutin selvitysaika tarjoaa perinteisiin rahoitusjärjestelmiin verrattuna?
+answer: Vähentää vastapuoliriskiä mahdollistamalla atomisoidun selvityksen, jossa toimitus ja maksu tapahtuvat samanaikaisesti
+wrong_answers:
+  - Poistaa sääntelyn noudattamista ja KYC-vaatimuksia koskevan tarpeen omaisuuseräkaupassa
+  - Mahdollistaa rajoittamattoman skaalautuvuuden korkean taajuuden kaupankäyntiä varten ilman transaktiomaksuja
+  - Mahdollistaa automaattisen hinnanmäärityksen sisäänrakennettujen markkinatakausalgoritmien avulla
+explanation: |
+  Liquid:n 2 minuutin selvitys mahdollistaa atomisoidun selvityksen, mikä on ratkaisevan tärkeää vastapuoliriskin pienentämiseksi, koska molemmat osapuolet saavat velkansa samanaikaisesti, mikä eliminoi aukon, jossa toinen osapuoli saattaa laiminlyödä maksunsa. Perinteinen T+2-tilitys luo ikkunan, jossa vastapuoliriski on olemassa. Muut vaihtoehdot ovat virheellisiä: Liquid edellyttää edelleen vaatimustenmukaisuutta AMP:n kautta, siihen liittyy transaktiomaksuja ja skaalausrajoja eikä se tarjoa automaattista markkinatakausta.

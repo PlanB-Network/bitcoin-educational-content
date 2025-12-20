@@ -1,0 +1,8 @@
+question: Jak często Rust wydaje nową stabilną wersję zgodnie ze swoim harmonogramem?
+answer: Mniej więcej co sześć tygodni
+wrong_answers:
+  - Mniej więcej co trzy miesiące
+  - Mniej więcej co dwa tygodnie
+  - Mniej więcej co cztery miesiące
+explanation: |
+  Rust jest zgodny z przewidywalnym harmonogramem wydań, a nowe stabilne wersje pojawiają się mniej więcej co sześć tygodni. Ten częsty cykl wydawniczy zapewnia, że nowe funkcje i ulepszenia regularnie docierają do użytkowników przy jednoczesnym zachowaniu stabilności. Inne ramy czasowe są nieprawidłowe - trzy miesiące i cztery miesiące byłyby znacznie wolniejsze niż rzeczywiste tempo Rust, podczas gdy dwa tygodnie byłyby nierealistycznie szybkie dla stabilnych wydań, które wymagają dokładnych testów.

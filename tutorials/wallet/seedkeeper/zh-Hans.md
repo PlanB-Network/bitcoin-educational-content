@@ -1,5 +1,5 @@
 ---
-name: 种子保管员
+name: Seedkeeper
 description: 如何使用 Seedkeeper 智能卡备份 wallet Bitcoin？
 ---
 

@@ -1,0 +1,8 @@
+question: Minkä kriittisen ongelman Breez SDK:n just-in-time-kanavamekanismi ratkaisee, jonka kanssa perinteiset Lightning-toteutukset kamppailevat?
+answer: Se luo automaattisesti uusia kanavia, joissa on riittävästi likviditeettiä, kun maksuja saapuu, jolloin käyttäjien ei tarvitse manuaalisesti hallita kanavakapasiteettia
+wrong_answers:
+  - Se estää kanavien pakkosulkemiset tasapainottamalla automaattisesti varoja useiden kanavien välillä, kun yksi kanava ei vastaa tai menee offline-tilaan
+  - Se alentaa transaktiomaksuja yhdistämällä useita pieniä maksuja suurempiin kanavapalveluihin, jotka käsitellään verkon hiljaisina aikoina
+  - Se eliminoi vahtimestaripalvelujen tarpeen luomalla väliaikaisia kanavia, jotka päättyvät automaattisesti maksun onnistuneen suorittamisen jälkeen
+explanation: |
+  Just-in-time-kanavamekanismi vastaa erityisesti Lightningin likviditeetinhallintahaasteeseen, jossa varoja voi virrata vain niihin suuntiin, joissa on kapasiteettia. Kun käyttäjän on saatava maksu, mutta hänellä ei ole riittävästi likviditeettiä, LSP avaa automaattisesti uuden kanavan maksun saapuessa, mikä tapahtuu saumattomasti ilman käyttäjän toimenpiteitä. Väärät vastaukset kuvaavat muita Lightning-haasteita, mutta eivät erityistä likviditeettiongelmaa, jonka just-in-time-kanavat ratkaisevat.

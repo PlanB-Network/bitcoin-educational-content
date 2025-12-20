@@ -46,7 +46,7 @@ Collegare il Ledger al computer e sbloccarlo.
 
 
 
-Per installare l'applicazione, aprire il software [Ledger Live] (https://www.Ledger.com/Ledger-live), quindi andare alla scheda "*My Ledger*". Trovare l'applicazione "*Chiave di sicurezza*" e installarla sul dispositivo.
+Per installare l'applicazione, aprire il software [Ledger Live](https://www.Ledger.com/Ledger-live), quindi andare alla scheda "*My Ledger*". Trovare l'applicazione "*Chiave di sicurezza*" e installarla sul dispositivo.
 
 
 

@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - En privat nøkkel fra Nostr** (format `nsec1...`)
- - Opprett en dedikert handelsnøkkel på [nostrkeygen.com] (https://nostrkeygen.com/)
+ - Opprett en dedikert handelsnøkkel på [nostrkeygen.com](https://nostrkeygen.com/)
  - Viktig**: Bruk aldri din personlige hovednøkkel Nostr
  - Oppbevar den private nøkkelen på et trygt sted (passordbehandler)
 
@@ -344,7 +344,7 @@ Følg deretter trinn 3 og 4 i macOS-delen.
 
 
 
-Installer først Rust via [rustup.rs] (https://rustup.rs/), og bruk deretter PowerShell :
+Installer først Rust via [rustup.rs](https://rustup.rs/), og bruk deretter PowerShell :
 
 
 
@@ -368,7 +368,7 @@ Identisk konfigurasjon: kopier `.env-sample` til `.env` og fyll inn parametrene 
 
 
 
-**Trinn 1**: Gå til [GitHub-utgivelsessiden] (https://github.com/MostroP2P/mobile/releases) og last ned filen **app-release.apk** (ca. 65 MB).
+**Trinn 1**: Gå til [GitHub-utgivelsessiden](https://github.com/MostroP2P/mobile/releases) og last ned filen **app-release.apk** (ca. 65 MB).
 
 
 
@@ -951,7 +951,7 @@ For bitcoinere som foretrekker autonomi og konfidensialitet, er Mostro et levedy
 
 
 - [Mostros offisielle nettside](https://mostro.network)
-- [Teknisk dokumentasjon] (https://mostro.network/docs-english/index.html)
+- [Teknisk dokumentasjon](https://mostro.network/docs-english/index.html)
 - [Mostro Foundation](https://mostro.foundation)
 
 
@@ -961,8 +961,8 @@ For bitcoinere som foretrekker autonomi og konfidensialitet, er Mostro et levedy
 
 
 
-- [GitHubs hovedlager] (https://github.com/MostroP2P/mostro)
-- [Nettklient] (https://github.com/MostroP2P/mostro-web)
+- [GitHubs hovedlager](https://github.com/MostroP2P/mostro)
+- [Nettklient](https://github.com/MostroP2P/mostro-web)
 - [Kunde CLI](https://github.com/MostroP2P/mostro-cli)
 
 
@@ -972,5 +972,5 @@ For bitcoinere som foretrekker autonomi og konfidensialitet, er Mostro et levedy
 
 
 
-- [Nostr-protokollen] (https://nostr.com)
+- [Nostr-protokollen](https://nostr.com)
 - [Lightning Network Guides](https://lightning.network)

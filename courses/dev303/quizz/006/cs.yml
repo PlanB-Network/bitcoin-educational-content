@@ -1,0 +1,8 @@
+question: Jak často vydává Rust novou stabilní verzi podle svého plánu vydávání?
+answer: Přibližně každých šest týdnů
+wrong_answers:
+  - Přibližně každé tři měsíce
+  - Přibližně každé dva týdny
+  - Přibližně každé čtyři měsíce
+explanation: |
+  Rust se řídí předvídatelným plánem vydávání nových stabilních verzí, které vycházejí přibližně každých šest týdnů. Tento častý cyklus vydávání zajišťuje, že se nové funkce a vylepšení dostávají k uživatelům pravidelně při zachování stability. Ostatní časové rámce jsou nesprávné - tři měsíce a čtyři měsíce by byly mnohem pomalejší než skutečné tempo Rust, zatímco dva týdny by byly nerealisticky rychlé pro stabilní verze, které vyžadují důkladné testování.

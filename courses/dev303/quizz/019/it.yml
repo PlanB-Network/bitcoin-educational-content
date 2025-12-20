@@ -1,0 +1,8 @@
+question: Quale convenzione di denominazione applica Rust per i nomi delle strutture e dei campi?
+answer: CamelCase per i nomi delle strutture e snake_case per i nomi dei campi
+wrong_answers:
+  - snake_case per i nomi delle strutture e CamelCase per i nomi dei campi
+  - kebab-case per i nomi delle strutture e camelCase per i nomi dei campi
+  - MAIUSCOLO per i nomi delle strutture e minuscolo per i nomi dei campi
+explanation: |
+  Rust segue specifiche convenzioni di denominazione che il compilatore fa rispettare tramite avvisi. I nomi delle strutture devono usare CamelCase (noto anche come PascalCase), dove ogni parola inizia con una lettera maiuscola, come 'MyStruct'. I nomi dei campi all'interno delle strutture devono usare snake_case, con trattini bassi che separano le parole, come 'my_field'. Questa convenzione mantiene la coerenza tra le basi di codice di Rust e migliora la leggibilità per gli sviluppatori.

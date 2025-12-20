@@ -927,7 +927,7 @@ Jika Anda siap terjun dan menginginkan kontrol penuh atas prosesnya, perangkat l
 
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-Terakhir, sebagai pelengkap tempat penjualan fisik, Anda dapat mempertimbangkan untuk membuat [Bitcoinize PoS] (https://bitcoinize.com/).
+Terakhir, sebagai pelengkap tempat penjualan fisik, Anda dapat mempertimbangkan untuk membuat [Bitcoinize PoS](https://bitcoinize.com/).
 
 ## Profesional
 
@@ -947,7 +947,7 @@ Mengenai teknologi dan alat, solusi seperti **BTC Pay Server** sering kali menja
 
 ![BIZ101-profiles](assets/id/026.webp)
 
-Selain itu, alat bantu seperti [Zaprite] (https://zaprite.com/) atau [Musqet] (https://musqet.tech/) dapat menyempurnakan pengalaman pembayaran lebih lanjut, yang memungkinkan kustomisasi yang lebih terperinci (dari pilihan merek hingga kemampuan pelaporan yang canggih). Mereka yang lebih memilih lingkungan ritel online yang lengkap dapat memilih [Be-BOP] (https://be-bop.io/), sebuah solusi toko elektronik yang dibuat untuk memfasilitasi pembayaran Bitcoin tanpa mengorbankan kemudahan penggunaan.
+Selain itu, alat bantu seperti [Zaprite](https://zaprite.com/) atau [Musqet](https://musqet.tech/) dapat menyempurnakan pengalaman pembayaran lebih lanjut, yang memungkinkan kustomisasi yang lebih terperinci (dari pilihan merek hingga kemampuan pelaporan yang canggih). Mereka yang lebih memilih lingkungan ritel online yang lengkap dapat memilih [Be-BOP](https://be-bop.io/), sebuah solusi toko elektronik yang dibuat untuk memfasilitasi pembayaran Bitcoin tanpa mengorbankan kemudahan penggunaan.
 
 ![BIZ101-profiles](assets/id/027.webp)
 
@@ -959,7 +959,7 @@ Untuk contoh di dunia nyata, pertimbangkan sebuah toko e-commerce berukuran seda
 
 ![BIZ101-profiles](assets/id/028.webp)
 
-*[Kredit: Toko Bitcoin Bazar di Paris, Prancis.] (https://bitcoinbazar.fr/)*
+*[Kredit: Toko Bitcoin Bazar di Paris, Prancis.](https://bitcoinbazar.fr/)*
 
 Untuk mempelajari lebih dalam tentang implementasi spesifik dan menjelajahi konfigurasi langsung BTC Pay Server, lihat kursus berikut ini:
 
@@ -1198,7 +1198,7 @@ Bisnis harus memastikan bahwa alat pembayaran apa pun yang mereka gunakan menyed
 
 <chapterId>e7b31be5-1176-4835-944e-3cba1b7040fa</chapterId>
 
-Ketika sebuah perusahaan memutuskan untuk mengintegrasikan Bitcoin ke dalam akuntansi mereka, berbagai alat dan perangkat lunak khusus menyederhanakan pengumpulan dan pemrosesan data. Di antara solusi yang paling terkenal adalah [CoinTracker] (https://www.cointracker.io/), [Waltio] (https://www.waltio.com/), [Cryptio] (https://cryptio.co/), [Koinly] (https://koinly.io/), [TokenTax] (https://tokentax.co/), dan [ZenLedger] (https://zenledger.io/). Platform-platform ini berfokus terutama pada empat aspek:
+Ketika sebuah perusahaan memutuskan untuk mengintegrasikan Bitcoin ke dalam akuntansi mereka, berbagai alat dan perangkat lunak khusus menyederhanakan pengumpulan dan pemrosesan data. Di antara solusi yang paling terkenal adalah [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/), dan [ZenLedger](https://zenledger.io/). Platform-platform ini berfokus terutama pada empat aspek:
 
 
 - pengumpulan data otomatis;

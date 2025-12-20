@@ -1,9 +1,9 @@
-question: Phí cho các giao dịch trên Mạng Lưới Lightning thấp đến mức nào, thường ít hơn...?
-answer: 0.5%.
+question: Ark mang lại lợi thế gì so với Lightning trong việc nhận thanh toán?
+answer: Không cần thanh khoản đầu vào
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-  Phí cho các giao dịch trên Mạng Lưới Lightning thực sự rất thấp, thường ít hơn 0.5%.
-reviewed: true
+  - Tính chung cuộc ngay lập tức của thanh toán
+  - Không có phí giao dịch
+  - Không cần có ví
+explanation: |
+  Ark cho phép nhận thanh toán mà không cần có thanh khoản đầu vào từ trước.
+reviewed: false

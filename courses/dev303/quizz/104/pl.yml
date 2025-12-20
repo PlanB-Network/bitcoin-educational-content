@@ -1,0 +1,8 @@
+question: Co umożliwia LDK obsługę różnych mechanizmów transportowych, takich jak gniazda TCP, WebSockets i połączenia szeregowe USB do komunikacji Lightning Network?
+answer: System zarządzania równorzędnego działa niezależnie od podstawowego mechanizmu transportowego podczas obsługi szyfrowania protokołu szumów
+wrong_answers:
+  - Menedżer kanałów koordynuje pracę z wieloma kartami sieciowymi za pośrednictwem ujednoliconej warstwy abstrakcji gniazda
+  - LDK implementuje sterowniki specyficzne dla protokołów dla każdego typu transportu w ramach swojego podstawowego modułu sieciowego
+  - System zdarzeń automatycznie wykrywa dostępne metody transportu i konfiguruje odpowiednie programy obsługi połączeń
+explanation: |
+  System zarządzania peerami LDK został specjalnie zaprojektowany do obsługi komunikacji protokołu Lightning (w tym szyfrowania szumów i struktur wiadomości) niezależnie od rzeczywistej warstwy transportowej. Ta separacja architektoniczna pozwala programistom na implementację dowolnego dwukierunkowego kanału komunikacyjnego, podczas gdy peer manager koncentruje się wyłącznie na zgodności z protokołem Lightning. Inne opcje błędnie sugerują, że LDK zapewnia wbudowane implementacje transportu lub automatyczne wykrywanie, podczas gdy w rzeczywistości siła LDK polega na całkowitym abstrahowaniu od konkretnych mechanizmów transportowych.

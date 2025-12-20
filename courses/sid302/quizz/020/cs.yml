@@ -1,0 +1,8 @@
+question: Co se stane s konfigurací sítě během procesu přechodu na dynamickou federaci (Dynafed) v systému Liquid, když je třeba nahradit některého z funkčních pracovníků?
+answer: Síť vysílá přechodnou transakci, po které následuje dvoutýdenní překryvné období, než se nová konfigurace převezme
+wrong_answers:
+  - Po odvysílání přechodové transakce se síť okamžitě přepne na novou funkční konfiguraci
+  - Všichni funkcionáři musí současně hlasovat o schválení výměny předtím, než dojde ke změnám konfigurace
+  - Síť vyžaduje tvrdé vypnutí fork a dočasné vypnutí za účelem aktualizace seznamu funkcí a opětovného spuštění operací
+explanation: |
+  Dynamická federace umožňuje, aby se systém Liquid vyvíjel bez tvrdých rozvětvení prostřednictvím pečlivě řízeného procesu přechodu. Když je potřeba vyměnit funkčního člena, síť odvysílá přechodovou transakci, která signalizuje nadcházející změnu. Poté následuje povinné dvoutýdenní překryvné období, kdy vedle sebe existují stará i nová konfigurace, čímž je zajištěna plynulá kontinuita. Ostatní možnosti jsou nesprávné, protože okamžitý přechod by znamenal riziko nestability sítě, simultánní hlasování není používaný mechanismus a tvrdé vidlice jsou přesně to, čemu byl systém Dynafed navržen, aby se zabránilo.

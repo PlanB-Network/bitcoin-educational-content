@@ -692,7 +692,7 @@ Lista över utrustning och länkar
 
 - [Elektrikerns socker 2,5 mm²](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
 - [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
-- [ANTELA smart plug (tillval)] (https://www.amazon.fr/dp/B09YYMVXJZ)
+- [ANTELA smart plug (tillval)](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
 # Attakai - Modifiering av programvaran i en Antminer S9
@@ -783,7 +783,7 @@ Denna metod kan tillämpas mellan 2 minuter och 10 minuter efter att Miner har s
 Den ursprungliga programvaran som installerades av Antminer på deras Mining-maskiner är begränsad i funktionalitet. Därför kommer vi i den här guiden att installera en annan programvara som heter BraiinsOS+. Det är en tredjepartsprogramvara som utvecklats av den allra första Bitcoin Mining pool som har fler funktioner och gör det till exempel möjligt att ändra maskinens effekt.
 
 
-Det finns flera sätt att installera Braiins OS+ på en ASIC. Du kan hänvisa till den här guiden samt [den officiella Braiins-dokumentationen] (https://academy.braiins.com/en/braiins-os/about/).
+Det finns flera sätt att installera Braiins OS+ på en ASIC. Du kan hänvisa till den här guiden samt [den officiella Braiins-dokumentationen](https://academy.braiins.com/en/braiins-os/about/).
 
 
 Här kommer vi att se hur du enkelt installerar Braiins OS+ direkt på minnet i din Antminer med hjälp av BOS toolbox-programvaran, som ersätter det ursprungliga operativsystemet, genom de detaljerade stegen nedan.

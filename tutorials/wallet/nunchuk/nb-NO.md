@@ -20,7 +20,7 @@ Etter mer enn fire år med utvikling og bruk er den nå klar til å prøves ut i
 ## Last ned
 
 
-Det første trinnet er definitivt å bestemme hvor du skal laste ned appen. Gå til [official site] (https://nunchuk.io/), der du finner litt dokumentasjon (ikke mye, men det er en begynnelse), en presentasjon av funksjonene samt, mot slutten av siden, alle nedlastingslenkene.
+Det første trinnet er definitivt å bestemme hvor du skal laste ned appen. Gå til [official site](https://nunchuk.io/), der du finner litt dokumentasjon (ikke mye, men det er en begynnelse), en presentasjon av funksjonene samt, mot slutten av siden, alle nedlastingslenkene.
 
 
 
@@ -394,7 +394,7 @@ Du befinner deg i _Home_, der du ser den nyopprettede Wallet som rapporterer sal
 
 
 - Med linseikonet øverst i høyre hjørne kan du gjøre et transaksjonssøk;
-- `View Wallet config` gir tilgang til konfigurasjonsmenyen, der du kan redigere navnet på Wallet og aktivere avanserte alternativer, øverst til høyre (som du ikke kan få skjermbilder av). Her kan du eksportere Wallet-konfigurasjonen, etiketter, erstatte taster, endre [gap limit] (https://planb.academy/en/resources/glossary/gap-limit) og mer.
+- `View Wallet config` gir tilgang til konfigurasjonsmenyen, der du kan redigere navnet på Wallet og aktivere avanserte alternativer, øverst til høyre (som du ikke kan få skjermbilder av). Her kan du eksportere Wallet-konfigurasjonen, etiketter, erstatte taster, endre [gap limit](https://planb.academy/en/resources/glossary/gap-limit) og mer.
 
 
 

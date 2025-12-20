@@ -1,0 +1,8 @@
+question: Jaká je nejvhodnější reakce, když aplikace Bitcoin narazí na chybu neplatného vstupu, například když obdrží zápornou hodnotu pro pole, které vyžaduje pouze kladná celá čísla?
+answer: Odmítnutí vstupu a vrácení chybového hlášení volajícímu
+wrong_answers:
+  - Převést zápornou hodnotu na absolutní hodnotu a pokračovat ve zpracování
+  - Zaznamenat chybu, ale pokračovat v operaci s použitím výchozí hodnoty
+  - Okamžité ukončení celé aplikace, aby se zabránilo poškození dat
+explanation: |
+  Chyby neplatného vstupu představují porušení smlouvy mezi volajícím a funkcí, kdy zadané parametry nesplňují požadavky funkce. Správným přístupem je odmítnutí vstupu a vrácení chybové hlášky, což umožní volajícímu, aby situaci vhodně vyřešil. Převádění záporných hodnot na kladné chybu tiše maskuje a mohlo by vést k nechtěnému chování. Použití výchozích hodnot ignoruje záměr volajícího a může zpracovat nesprávná data. Ukončení celé aplikace je v případě chyb validace vstupu přehnané a v aplikacích Bitcoin, kde je zásadní šetrné zpracování chyb, by způsobilo špatné uživatelské prostředí.

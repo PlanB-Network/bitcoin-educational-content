@@ -85,7 +85,6 @@ Oluline on mõista seda uut tehnoloogiat üldiselt, nii et loodame, et teile mee
 
 Kas olete valmis sukelduma Bitcoini põnevasse maailma ja mõistma kõiki selle mehhanisme? Lähme!
 
-**Märkus**: Kui kursusel satute kokku tundmatute terminitega, palun vaadake [sõnastikust](https://planb.academy/resources/glossary) definitsioonid.
 
 ## Bitcoini eelajalugu
 
@@ -208,7 +207,7 @@ Nende kriteeriumide täitmiseks on valuuta ajalooliselt arenenud erinevate sammu
 
 Valuutad arenevad tänaseni, kohandades oma vorme erinevate kasutusviiside jaoks. Nagu me ütlesime, on kuld küll suurepärane väärtuse säilitaja, kuid praeguses globaliseerunud majanduses ei sobi see enam. Samamoodi on sellised fiduciary valuutad nagu dollar ja euro väga likviidsed ja kergesti transporditavad, sest need on nüüd enamasti digitaalsed, kuid nende väärtust alandab pidevalt rahapoliitiline inflatsioon.
 
-Teisest küljest pakub Bitcoin uusi võimalusi. Selle omadused, näiteks rangelt piiratud pakkumine, teevad sellest suurepärase väärtuse säilitaja. Lisaks sellele on see neutraalse internetivaluutana elujõuline **vahetusvahend**, mis ei tunne piire. Siiski ei ole see tänapäeval kaubanduses veel laialdaselt aktsepteeritud, vaatamata selle [pidevale kasutuselevõtule](https://btcmap.org/map).
+Teisest küljest avab Bitcoin uusi väljavaateid. Selle omadused, eeskätt rangelt piiratud pakkumine, teevad sellest suurepärase väärtuse säilitaja. Samuti kujutab see neutraalse internetirahadena elujõulist **vahetusvahendit**, mis suudab ületada piire. Siiski, hoolimata pidevast kasutuselevõtust (nagu näitab [BTCmapi kaart](https://btcmap.org/map)), ei ole see täna kaubanduses veel laialdaselt aktsepteeritud.
 
 ## Usaldusvaluutad
 
@@ -639,7 +638,7 @@ Saadaval on mitmesuguseid lahendusi: mõned neist on odavad, nagu näiteks "Bloc
 
 Selle esimese praktika kõrval on pärimisplaani koostamine oluline samm, et tagada teie bitcoinide nõuetekohane haldamine pärast teie surma. See plaan hõlmab käsitsi kirjutatud kirja, milles kirjeldate oma varade olemust, nende kasutusviise ja nende eest vastutavate usaldusisikute kontaktandmeid. Samuti on oluline arutada bitcoinide pärandamist notariga, et tagada maksukohustuse täitmine, isegi kui sellele isikule ei tohiks kunagi usaldada otseselt teie bitcoinide haldamist.
 
-Kui soovite oma bitcoinide pärimisplaani teemat põhjalikumalt uurida, soovitame lugeda Pamela Morgani raamatut [Cryptoasset Inheritance Plan] (https://planb.academy/resources/books/28) või registreeruda kursusele BTC102, kus anname juhiseid plaani koostamiseks.
+Kui soovite oma bitcoinide pärimisplaani teemat põhjalikumalt uurida, soovitame lugeda Pamela Morgani raamatut [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) või registreeruda kursusele BTC102, kus anname juhiseid plaani koostamiseks.
 
 ![image](assets/et/037.webp)
 
@@ -716,7 +715,7 @@ Foorumist sai kiiresti Bitcoini kasutajate eelistatud arutelupaik, nii et selles
 > "Valitsused on tublid, kui nad lõikavad keskmiselt pead maha
 > kontrollitud võrgud nagu Napster, kuid puhtad P2P-võrgud nagu
 > Gnutella ja Tor näivad end hoidvat." - Satoshi Nakamoto
-> Vaatamata Satoshi puudumisele jätkas Bitcoini arendamine: Bitcoini ajalugu kirjutatakse iga 10 minuti tagant ja protokoll toimib tänaseni nii, nagu see on ette nähtud. Hoolimata hirmust, ebakindlusest või kahtlustest liigub Bitcoin jätkuvalt edasi, kusjuures veebis on ta väga tugevalt kättesaadav. Tegelikult on Bitcoin selle [veebisaidi] (https://bitcoinuptime.com/) andmetel 99,988% ajast, mil see loodi, olnud toimiv ja töötanud ilma massiliste probleemideta.
+> Vaatamata Satoshi puudumisele jätkas Bitcoini arendamine: Bitcoini ajalugu kirjutatakse iga 10 minuti tagant ja protokoll toimib tänaseni nii, nagu see on ette nähtud. Hoolimata hirmust, ebakindlusest või kahtlustest liigub Bitcoin jätkuvalt edasi, kusjuures veebis on ta väga tugevalt kättesaadav. Tegelikult on Bitcoin selle [veebisaidi](https://bitcoinuptime.com/) andmetel 99,988% ajast, mil see loodi, olnud toimiv ja töötanud ilma massiliste probleemideta.
 
 Mõnede jaoks on Bitcoin määratletud kui seeneolend nagu [mütseel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), samas kui teised kirjeldavad seda kui [musta auku](https://dergigi.com/). Armastage või vihkake seda, Bitcoin jätkab oma pideva rütmiga (10 minutit ploki kohta) nagu uue rahasüsteemi südamelöök.
 
@@ -755,7 +754,7 @@ Selles etapis on tehing loodud ja Bobi rahakott jagab seda Bitcoini võrguga. Se
 
 Sel hetkel, kuigi see tehing on kõigile teada (Mempool-nimelise tööriista kaudu), ei saa seda kinnitada enne, kui kaevandaja, kes on ainus, kes tehingute kinnitamiseks neid plokiahelasse lisab, seda plokki sisestab.
 
-Tegelikult on kaevurite ülesanne koguda kehtivaid ja kinnitamata tehinguid, et need plokiks kokku panna. Lühidalt öeldes peavad nad lahendama krüptograafilise mõistatuse protsessi nimega "proof of work", et nende plokist saaks järgmine plokk Bitcoini plokiahelas.
+Tegelikult on kaevurite ülesanne koguda kehtivaid ja kinnitamata tehinguid, et need plokiks kokku panna. Lühidalt öeldes peavad nad lahendama krüptograafilise mõistatuse protsessi nimega "[proof of work](https://planb.academy/resources/glossary/proof-of-work)", et nende plokist saaks järgmine plokk Bitcoini plokiahelas.
 
 ![image](assets/et/047.webp)
 
@@ -838,7 +837,7 @@ Pärast seda võitu aktiveerisid sõlmed uuenduse nimega SegWit, sillutades teed
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Minerid kindlustavad võrgu ja lisavad tehinguid plokkidesse. Nad kasutavad elektrienergiat ASIC-masinate abil, et lahendada Bitcoini töötõendit **
+**Minerid kindlustavad võrgu ja lisavad tehinguid plokkidesse. Nad kasutavad elektrienergiat [ASIC](https://planb.academy/resources/glossary/asic)-masinate abil, et lahendada Bitcoini töötõendit **
 
 ![image](assets/et/054.webp)
 
@@ -1044,9 +1043,11 @@ Bitcoini majandus eksisteerib ja areneb teatud piirkondades maailmas, nagu El Sa
 
 Siiski on El Salvadoris ja teistes maailma osades üha rohkem üksikisikuid, ettevõtteid ja organisatsioone, kes aktsepteerivad Bitcoin'i oma toodete või teenuste maksevahendina.
 
-![image](assets/et/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
 
-Lisaks on käivitatud avatud lähtekoodiga ja koostööprojekt [BTCMap] (https://btcmap.org/map#2/21.28937/5.46680), et hõlbustada Bitcoini kasutamist igapäevastes tehingutes. Sellel platvormil on loetletud kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma, nii et võite külastada nende veebisaiti, et avastada Bitcoini ökosüsteemi enda ümber. Seega on vaatamata raskustele ja kõhklustele olemas sellised algatused nagu BTCMap, mis aitavad kaasa Bitcoini majanduse kättesaadavamaks ja mugavamaks muutmisele kõigi jaoks.
+*Allikas : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
+
+Lisaks on käivitatud avatud lähtekoodiga ja koostööprojekt [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), et hõlbustada Bitcoini kasutamist igapäevastes tehingutes. Sellel platvormil on loetletud kõik kaupmehed, kes aktsepteerivad Bitcoini, samuti erinevad Bitcoini kogukonnad üle maailma, nii et võite külastada nende veebisaiti, et avastada Bitcoini ökosüsteemi enda ümber. Seega on vaatamata raskustele ja kõhklustele olemas sellised algatused nagu BTCMap, mis aitavad kaasa Bitcoini majanduse kättesaadavamaks ja mugavamaks muutmisele kõigi jaoks.
 
 ### Miks me peaksime selle ostmise asemel Bitcoini vastu võtma?
 
@@ -1199,85 +1200,197 @@ Kui soovite laiendada oma teadmisi Bitcoini kohta, on nüüd õige aeg: paljud a
 
 > "Ma arvan, et Internet saab olema üks peamisi jõudusid, mis vähendavad valitsuse rolli. Ainus asi, mis veel puudub, kuid mis peagi välja töötatakse, on usaldusväärne e-raha - meetod, mille abil saab Internetis raha A-st B-le üle kanda, ilma et A teaks B-d või B A-d." - Milton Friedmani ennustus 1999. aastal
 
-# Bitcoini tulevik: Lightning Network
+# Bitcoini tulevik
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Lightning Networki lühitutvustus
+## Lightning-võrk: bitcoinidega kiirelt ja madalate tasudega maksmine
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Nüüd, kui meil on olemas Bitcoini protokolli põhitõed, tutvustame maksevõrku, mis kasutab Bitcoini protokolli, et võimaldada välkkiireid tehinguid: Lightning Network!
+Nüüd, kui te tunnete Bitcoini protokolli põhialuseid, tutvustame peamist Bitcoini peale ehitatud maksevõrku: Lightning Networki (sageli lühendatult "LN"). Selle eesmärk on lihtne: võimaldada BTC makseid peaaegu kohese lõplikkusega, ilma plokiahelat üle koormamata ning tavaliselt väga madalate tasudega.
 
-Olge teadlik, et järgnev on vaid üldine kirjeldus, nii et kui soovite sellest põhjalikumalt aru saada, kutsume teid üles vaatama meie LNP201 kursust.
+### Plokiahel ei saa kõike teha
 
-### Lühidalt
-
-Lightning Network on revolutsiooniline tehnoloogia, mis on põhjalikult muutnud meie arusaama Bitcoinist, kuna see lahendab Bitcoini skaleeritavuse probleemi.
-
-Lightning Networki täielikuks mõistmiseks on oluline mõista, kuidas Bitcoin areneb ja areneb infrastruktuuri kihtides: esimene kiht on plokiahel ja teine on Lightning Network.
-
-![image](assets/et/080.webp)
-
-### Blockchain ei saa lõputult kasvada
-
-Lightning Network valideeriti ja rakendati 2017. aastal, et lahendada Bitcoini skaleeritavuse probleem, kuna see võimaldab koheseid ja odavaid Bitcoini tehinguid.
-
-Skaleeritavuse probleem viitab väljakutsele rakendada rahasüsteem, mis suudab pakkuda üha suuremat arvu tehinguid sekundis, et tulla toime kasvava vastuvõtmisega. See probleem on seotud plokiahela kolmikprobleemiga. Kujutage ette kolmnurka, mille tippudeks on detsentraliseerimine, turvalisus ja skaleeritavus.
+Bitcoini plokiahel on loodud nii, et see oleks kontrollitav võimalikult paljude inimeste poolt, ilma loata ja ilma usalduseta. See nõue toob kaasa struktuursed piirangud: plokiahel ei saa töödelda piiramatut hulka tehinguid, sest plokid peavad jääma mõistliku suurusega, et sõltumatud sõlmed saaksid neid alla laadida, salvestada ja kontrollida ilma liiga kallisse riistvarasse investeerimata. Seda kompromissi võetakse sageli kokku nn trilemmaga: detsentraliseeritus, turvalisus ja skaleeritavus. Plokiahelal põhinev süsteem ei saa maksimeerida neid kolme omadust samaaegselt. Bitcoin eelistab detsentraliseeritust ja turvalisust, mis piirab loomulikult võimalike onchain-tehingute läbilaskevõimet.
 
 ![image](assets/et/081.webp)
 
-Selle kohaselt saab plokiahelal põhinev protokoll rahuldada ainult kahte neist kolmest omadusest. Bitcoini protokollis on arendajad teinud valikuid, et eelistada detsentraliseerimist ja turvalisust. Ühest küljest võimaldavad 1MB suurune plokisuurus ja kahe ploki vaheline aeg (keskmiselt 10 minutit) Bitcoini sõlme käitamist madalamate kuludega, mis soosib detsentraliseerimist. Teisest küljest muudab plokkide tootmine Proof-of-Work'i abil pettused protokollis äärmiselt kulukaks, hõlbustades samal ajal võrgu sõlmede kontrollimist ja soodustades turvalisust. Need valikud seavad siiski piirangu tehingute keskmisele arvule plokis, mis vastab umbes mõnele tehingule sekundis. See arv on naeruväärne, kui seda võrrelda selliste makseprotsessorite nagu VISA arvutusvõimsusega (1700/s), kuid see piirang on vajalik selleks, et Bitcoiniga saaks teha tehinguid tsensuurikindlalt ja usalduseta. Sellegipoolest on Bitcoini arendajad sellele probleemile algusest peale mõelnud.
+Bitcoinis on arendajad teinud teadlikke valikuid nende omaduste eelistamiseks. Ühelt poolt võimaldavad 1 MB suuruseks piiratud plokid ja keskmine 10-minutiline intervall plokkide vahel käitada Bitcoini sõlme madala kuluga, mis soodustab võrgu detsentraliseeritust. Teisalt muudab plokkide loomine töötõendi abil igasuguse pettusekatse äärmiselt kulukaks, samal ajal lihtsustades sõlmede poolset kontrolli ja tugevdades protokolli üldist turvalisust.
 
-### Välk kui kiht peal
+Need valikud toovad siiski kaasa olulise piirangu: igasse plokki kaasatavate tehingute arv on piiratud. See vastab vaid mõnele tehingule sekundis. See number on tühine võrreldes tsentraliseeritud maksesüsteemide, nagu VISA, võimekusega (mille teoreetiline maksimaalne läbilaskevõime on umbes 65 000 tehingut sekundis), kuid see piirang on hind, mida tuleb maksta tsensuurikindlate ja usalduseta tehingute võimaldamise eest.
 
-Pärast aastatepikkust kaalumist ja mitmeid katseid sündis Lightning-protokoll. Kasutades teatavat arvu spetsifikatsioone, konstrueerib see protokoll võrdõiguslikust maksevõrgustiku, kasutades ära Bitcoini tehinguprotokolli turvalisust ja programmeeritavust. Lightning-võrk toimib maksekanalite võrguna, võimaldades saatjale madala tasuga koheseid tehinguid ning loob isegi vahetusteed üksikisikute vahel, kellel puudub otsene kanaliühendus.
+Praktiliselt tähendab see kahte väga olulist asja Bitcoini igapäevase kasutuse jaoks:
+* kui plokiruumi nõudlus suureneb, võivad onchain-tasud väga kõrgeks tõusta;
+* onchain-maksed vajavad kinnitusi, mis ei ole alati sobiv igapäevaste ostude jaoks.
 
-![image](assets/et/082.webp)
+Lightning Network ongi vastus neile probleemidele. Lightningi idee põhineb kihilisel lähenemisel: Bitcoin jääb baasiks (arvelduskiht, mis on tugev ja väga turvaline), samas kui Lightning toimib selle peal kiire maksekihina.
 
-Traditsioonilised rahaülekandeteenused, nagu Western Union, keskpangad, Visa ja Mastercard, võivad kaduda, kui nad ei võta kasutusele Lightning Networki tehnoloogiat, mis on praegustest maksesüsteemidest tõhusam ja kuluefektiivsem. Tegelikult võimaldab Lightning Network peaaegu piiramatuid tehinguid kahe võrdse osapoole vahel, kes jagavad kanalit, kandes ainult tehinguga seotud energiakulusid, et teatada kanali loomisest, mitte iga üksiku tehingu kohta.
+![image](assets/et/080.webp)
+
+### Bitcoiniga ankurdatud maksekanalid
+
+Lightning põhineb kahesuunalistel maksekanalitel. Kanal on tehniline suhe kahe osapoole vahel, mis võimaldab neil vahetada sate offchain’is, st ilma iga makset plokiahelasse kirjutamata.
+
+Bitcoini (onchain) vaatenurgast tähendab kanali avamine vahendite lukustamist spetsiaalsesse tehingusse. Seda võib vaadelda kui deposiiti: vahendid on lukustatud nii, et neid saab ümber jaotada ainult kanali kehtiva sulgemise kaudu.
+
+Lightningi vaatenurgast muutub sama mehhanism kanaliks, milles mõlemad pooled saavad sate jaotuse seisu uuendada nii sageli kui soovivad, peaaegu koheselt ja ilma iga makset peamisse plokiahelasse salvestamata.
+
+Mehhanism toimib seega järgmiselt:
+* Lightning-kanali avamine ja sulgemine on Bitcoini tehingud (ja avaldatakse seega onchain’is);
+* avamise ja sulgemise vahelised maksed on offchain-uuendused, mida peamises plokiahelas ei näe.
 
 ![image](assets/et/083.webp)
 
-Tehingud on kaitstud krüptograafia abil ja kaudselt Bitcoini kaevurite poolt tarbitava energia kaudu. Neid saab teha koheselt, ilma geograafiliste piiranguteta ja äärmiselt madalate tasudega (sageli alla 0,5%).
+Seega saavad kaks inimest, kes jagavad Lightning-kanalit, teha väga suure hulga makseid ilma iga kord onchain-tehingut tegemata. Siin ilmneb taas skaleeritavuse loogika: plokiahel reserveeritakse haruldasteks ja olulisteks toiminguteks (kanali avamine ja sulgemine ehk lõplik arveldus), samas kui ülejäänud väiksemad vahemaksed viiakse tõhusamasse kihti.
 
-Kokkuvõttes on Lightning Network paljutõotav katse luua tõhus maksesüsteem Bitcoini ostmiseks ja müümiseks. Juba praegu on saadaval arvukalt Lightning rahakotte, mida saate avastada meie õpetusrubriigis või Lightning Networki kursuste kaudu.
+### Omavahel ühendatud kanalite võrk
 
-Kui soovite minna sellest sissejuhatusest kaugemale ja mõista Lightning Networki kõiki toiminguid, soovitame võtta selle suurepärase kursuse, mille on koostanud Fanis Michalakis:
+Lightning ei ole pelgalt isoleeritud kanalite kogum. See on võrk: tuhanded sõlmed on omavahel kanalite kaudu ühendatud ja moodustavad ühenduste graafi.
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+![image](assets/et/082.webp)
 
-## Lightning-võrgu kasutusjuhtumid
+Tänu sellele võrgule saate maksta saajale isegi siis, kui teil ei ole temaga otsest kanalit, eeldusel et eksisteerib kanalite tee, mis võimaldab makse edastamist. Makse liigub seejärel mitme vahesõlme kaudu, hüpe hüppe järel.
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+Siin ilmneb Lightningi oluline mõiste: likviidsus. Kanali maht vastab selles kanalis lukustatud vahendite kogusummale ning likviidsus kirjeldab nende vahendite jaotust kanali kahe poole vahel, st suunda, kuhu satid saavad liikuda. Teisisõnu võib kanalil olla suur maht, kuid see võib olla teatud suunas kasutamatu, kui likviidsus asub valel poolel. Maksete edukus sõltub seega mitte ainult tee olemasolust, vaid ka kogu tee ulatuses saadaolevast likviidsusest.
 
-Nagu äsja nägime, on Bitcoini protokoll küll revolutsiooniline, kuid kõigi meie igapäevaste tehingute käsitlemiseks vajaliku skaleeritavuse osas seisab ta silmitsi märkimisväärsete väljakutsetega. Nende probleemide lahendamiseks pakuti välja Lightning Network, millest on vahepeal välja kujunenud mitu erinevat rakendust, mis kõik on koostalitlusvõimelised:
+### Makse edastamine ilma vahendajaid usaldamata
 
-- Blockstream'i tuumavalgustus
-- Eclair by Acinq
-- LND välklambi poolt
+Lightning on loodud selleks, et võimaldada makseid vahendajate kaudu ilma neid usaldamata. Selleks kasutab protokoll nutilepinguid nimega HTLC (*Hashed Time-Locked Contracts*). Ilma detailidesse laskumata on üldine mehhanism järgmine:
+* makse on tingimuslik ja sõltub saladuse (eelkujutise) avaldamisest;
+* kui lõplik saaja avaldab selle saladuse, saab ta vahendid ning vahendajad saavad omakorda kätte neile kuuluva osa;
+* kui makse ebaõnnestub, aeguvad tähtajad ja iga osapool saab oma vahendid tagasi.
 
-Selle peer-to-peer-võrgu eesmärk on hõlbustada (väga väikese väärtusega) mikrotehinguid, mis muidu oleksid kõrge tasu ja pikkade kinnitamisaegade tõttu Bitcoini plokiahelas ebapraktilised.
+See toimimine annab olulise omaduse: makse on atomaarne. Kas see õnnestub täielikult või ebaõnnestub ilma vahepealsete kaotusteta.
 
-### Millised on võrgu kasutusjuhud?
+Lõpuks sisaldab Lightning ka karistusmehhanismi: kui üks osapool üritab petta, avaldades kanali vana seisu (mis ei kajasta enam tegelikkust), saab teine osapool teda karistada ja kogu vahendid endale võtta. See reegel motiveerib tugevalt ausalt käituma ka vaenulikus keskkonnas.
 
-See tehnoloogia avab ukse paljudele Bitcoini potentsiaalsetele rakendustele, mis olid varem kättesaamatud, sest Bitcoini turvalisuse ja detsentraliseerimise tagamiseks olid vajalikud piirangud. Nende igapäevaste kasutusviiside hulgas võib nimetada koheseid arveldusi nii füüsilises kui ka veebikaubanduses, reaalajas maksete tegemiseks mõeldud voogedastust ja mikroannetusi sisu loojate jaoks. Võimaldades peaaegu kohese, turvalise ja odava (keskmiselt alla 0,5%) tehinguvõrgustiku, on võimalik realiseerida paljusid seni kujuteldamatuid ärimudeleid. See on võimalik, sest Lightning Network töötab bitcoini väikseimat ühikut, satoshit (sats), kasutades.
+### Lightning-sõlm, Lightning-rahakott: mida see tähendab
 
-![image](assets/et/084.webp)
+Bitcoini onchain-maailmas on rahakott tarkvara, mis haldab võtmeid ja koostab tehinguid. Lightningis on olukord ebaselgem, sest tõeline mittehoideline kasutus põhineb Lightning-sõlmel (isegi kui see sõlm on peidetud lihtsa kasutajaliidese taha).
 
-Videomängutööstus on eriti huvitav näide sellest, kuidas Lightning Networki saab kasutada olemasolevate ärimudelite muutmiseks. Mõiste "nahk mängus" on idee, mis on selles kontekstis hiljuti populaarsust kogunud. See tähendab sisuliselt rahalist osalust mängu tulemustes. Tegelikult võimaldab Lightning Network mängijatel panustada mänge mängides väga väikeseid rahasummasid, näiteks mõned satosid (umbes murdosa eurosendist), et luua panus, mis stimuleerib konkurentsi, suurendades samal ajal oluliselt robotite kasutamise kulusid.
+Praktikas on Lightningi kasutamiseks kaks peamist rakenduste kategooriat:
+* Hoiulised teenused: rakendus näitab teile saldot, kuid vahendeid kontrollib teenusepakkuja. Teie saldo on nende süsteemis raamatupidamislik kirje, nagu vahetusplatvormil;
+* Mittehoidelised lahendused: te kontrollite tegelikult võtmeid ja võimalust oma vahendid tagasi saada. See võib olla rakendus, mis sisaldab minimaalse haldusega sõlme, lihtsustades kasutajakogemust (nt Phoenix, Zeus...), või täielik Lightning-sõlm, mida te ise haldate.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Tänapäeval on olemas ka isehoolduslikud rahakotid, mis suudavad Lightning-makseid toetada kaudselt, kasutades nõudmisel käivituvaid atomaarseid swappe iga sisse- või väljamineva makse jaoks (nt Bull Bitcoin Wallet, Aqua…). Need rahakotid kasutavad tavaliselt Liquid-sidechain’i arvelduskihina (järgmises peatükis vaatame, mida see tähendab).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Konkreetsed kasutusjuhtumid: mida Lightning lõpuks võimaldab
+
+Lightning avab hulga kasutusviise, mis olid varem üksnes onchain-Bitcoiniga ebamugavad või isegi võimatud.
+
+- **Igapäevamaksed (veebis ja füüsilises maailmas)**
+
+Kassas maksmisel või veebipoes ostes võimaldab Lightning peaaegu kohest lõplikkust ja tavaliselt madalaid tasusid. See muudab bitcoini kasutatavaks väikeste summade puhul, isegi siis, kui peamine plokiahel on ülekoormatud.
+
+- **Mikromaksed ja “streaming money”**
+
+Väga väikeste summade saatmise võimalus avab uusi majandusmudeleid: kasutuspõhine tasu, minutipõhine makse, korduvad annetused, jootrahad… See on “streaming money” idee: maksta vastavalt tegelikule sisu või teenuse tarbimisele, mitte fikseeritud tellimuse alusel.
+
+- **Sisuloojad, taskuhäälingud ja annetused**
+
+Lightningit kasutatakse sageli mikroannetusteks või premeerimismehhanismideks. Rakendused nagu Fountain või Rumble illustreerivad seda hästi: makse muutub granuleerituks ja kogemuse loomulikuks osaks, mitte raskeks ja harvaks toiminguks. Oleme selle loogika integreerinud ka Plan ₿ Academysse, kus saate hõlpsasti saata väikseid annetusi oma lemmikõppejõududele tänutäheks.
+
+- **Mängud ja digitaalsed majandused**
+
+Videomängud ja digitaalsed keskkonnad sobivad loomulikult mikrotehinguteks: väikesed panused, preemiad, virtuaalsed esemed… Väikese rahalise stiimuli lisamine võib samuti suurendada rämpsu ja teatud kuritarvituste (botid) hinda, jäädes samas kättesaadavaks.
 
 ![image](assets/et/085.webp)
 
-Kokkuvõtteks võib öelda, et mikrotehingute tulevik Bitcoiniga näeb tänu uuendustele nagu Lightning Network paljulubav välja. Kuna need tehnoloogiad arenevad ja küpsevad edasi, võime oodata, et lähitulevikus tekivad uued ja põnevad rakendused.
+### Peamised Lightningi teostused
 
-![image](assets/et/086.webp)
+Nagu Bitcoinigi puhul, on Lightning protokoll, mitte üks konkreetne tarkvara. Mitu teostust eksisteerivad kõrvuti ja on ühilduvad tänu ühistele spetsifikatsioonidele (BOLT):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* jne.
 
-Teine näide võiks olla "raha voogedastamine": Lightning Networki kaudu saame teha iga minut mikrotehinguid (potentsiaalselt ilma usaldusväärse kolmanda osapooleta), mis avab ukse eksperimenteerimiseks majandusmudelitega, kus tarbijad maksavad sisu eest vastavalt tegelikule tarbimisele. On isegi mõeldav, et seda süsteemi saab kasutada kaupade rentimiseks. Sellise süsteemi puhul jagatakse raha automaatselt, eelnevalt kindlaksmääratud protsendi alusel, erinevate teenuse või toote pakkujate vahel. See võib muuta maksemudelitest mõtlemist: selle asemel, et maksta teenuse eest igakuist tellimust, võiks kasutajatelt nõuda tasu teenuse kasutamise eest minuti või isegi sekundi kohta. Sellisel majandusmudelil võiks olla põhjalik mõju sisu loojatele, kes saaksid stiimuli toota kvaliteetset sisu, et hoida kasutajate tähelepanu.
+### Lightning Bitcoini arengus
 
-![image](assets/et/087.webp)
+Lightning ei asenda Bitcoini plokiahelat: see täiendab seda. Plokiahel jääb lõplikuks arvelduskihiks, aeglaseks, kuid äärmiselt vastupidavaks. Lightning on kiire maksekiht, mis on loodud sagedasteks kasutusjuhtudeks ja väikesteks summadeks.
 
-Kokkuvõttes avab Lightning Network Bitcoini kasutajate jaoks palju põnevaid kasutusviise. Sellest tulenevad majandusmudelid ja ärivõimalused on arvukad ja mitmekesised ning julgustame teid ise veenduma, proovides podcastirakendust [Fountain](https://www.fountain.fm/), mis võimaldab teil saada oma lemmikpodcastide kuulamise eest paar sati!
+2025. aastal on Lightning kättesaadavam kui algusaastatel tänu rahakottidele ja teenustele, mis varjavad osa keerukusest. Samas säilitab see kompromissid: likviidsus, kanalite onchain-kulud ning mõnikord valikud lihtsuse, suveräänsuse ja privaatsuse vahel.
+
+Kui soovite Lightningit süvitsi mõista (kanalid, likviidsus, marsruutimine, riskijuhtimine), soovitan Fanis Michalakise põhjalikku teoreetilist kursust LNP 201:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+Ja kui soovite alustada oma Lightning-sõlme haldamisega, pakume ka praktilist kursust LNP 202, mis on spetsiaalselt sellele pühendatud:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Lightningust kaugemale: teised protokollid Bitcoini arendamiseks
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+Nagu eelnevates peatükkides nägime, on Bitcoin loodud äärmiselt tugeva baasikihina: avalik, lihtne ja turvaline register, kuid loomulikult piiratud kiiruse, programmeeritavuse ja maksete läbilaskevõime poolest. Selle asemel, et sundida seda kihti kõike tegema (nagu näiteks Ethereumis), on Bitcoini ökosüsteem järk-järgult omaks võtnud kihilise lähenemise: plokiahel toimib vundamendina (lõplik arveldus), samas kui ülemised kihid lisavad uusi omadusi, nagu kiirem maksmine, suurem privaatsus või varade emiteerimine (stabiilsusrahad, tokeniseeritud väärtpaberid…).
+
+Bitcoin ei arene ainult oma baasprotokolli muutes. See areneb ka peale ehitades, lahendustega, mis teevad erinevaid kompromisse vastavalt eesmärgile. Mõned keskenduvad maksete skaleeritavusele, teised programmeeritavusele (laiemas mõttes) ja varade emiteerimisele, ning teised püüavad neid kahte ühendada.
+
+Selles peatükis tutvustame nelja olulist protokolli, mis pakuvad Bitcoinil uusi võimalusi: sidechain’id (eriti Liquid), Ark, RGB ja Taproot Assets.
+
+### Sidechain’id: Bitcoiniga ühendatud paralleelsed plokiahelad
+
+Sidechain on Bitcoinist eraldiseisev plokiahel, mis on loodud paralleelselt töötama oma reeglite ja konsensusmehhanismiga. See on Bitcoiniga ühendatud kahepoolse ankurdusmehhanismi (*2WP*) kaudu, mis võimaldab praktikas kasutada bitcoine sidechain’is esinduslikul kujul (sageli Bitcoinis lukustatud ja sidechain’is uuesti loodud bitcoin) ning seejärel naasta tagasi peaahelasse.
+
+Sidechain’i eelis on võimalus pakkuda funktsioone, mida on Bitcoinis endas raske saavutada: kiiremad tehingud, varade funktsionaalsus, tugevam privaatsus või suurem arenduspaindlikkus. Vastutasuks teeb sidechain alati kompromisse võrreldes Bitcoiniga, eriti usaldusmudeli või detsentraliseerituse osas.
+
+Kõige tuntum Bitcoini sidechain on tõenäoliselt **Liquid**, mille on arendanud Blockstream. See on loodud eelkõige teatud kasutusjuhtude kiirendamiseks: kiired ülekanded platvormide vahel, sagedasem arveldus ja varade (stabiilsusrahad, väärtpaberid…) emiteerimine, suurema privaatsusega. Liquidis kasutatavaid bitcoine nimetatakse L-BTC-deks: need on mõeldud olema 1:1 seotud BTC-ga kahepoolse ankurdusmehhanismi kaudu.
+
+![image](assets/et/088.webp)
+
+Peamine erinevus Bitcoiniga seisneb turva- ja detsentraliseeritusmudelis: Liquid ei tugine Bitcoini töötõendile, vaid operaatorite föderatsioonile (tuvastatav grupp), mis tagab plokkide tootmise ja sildade toimimise BTC ja L-BTC vahel.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: UTXO-de jagamine kulude vähendamiseks ja kogemuse parandamiseks
+
+Ark tähistab ettepanekute ja teostuste perekonda, mille eesmärk on parandada Bitcoini skaleeritavust, koondades paljude kasutajate toimingud vähestesse Bitcoini tehingutesse. Idee on üsna lihtne: selle asemel, et luua iga kasutaja jaoks eraldi onchain-tehing, luuakse üks onchain-tehing, mis esindab partiid, ning seejärel arenevad iga osapoole õigused peamiselt ahelaväliselt, kuni soovitakse lõplikult Bitcoinis arveldada.
+
+Selle teise kihi protokolli idee tutvustas Burak 2023. aasta mais. Nagu Lightning Network, on ka Ark süsteem, mis toimib Bitcoini peaahela peal. See võimaldaks teha bitcoini makseid ahelaväliselt kiiresti, anonüümselt ja madalate tasudega. Võrreldes Lightningiga ei nõua Ark sissetulevat likviidsust maksete vastuvõtmiseks, mis parandab oluliselt kasutajakogemust. Lisaks pakub see privaatsust, mis läheneb coinjoin-tehingutele. Ark võiks olla ka mitteinteraktiivne, kui Bitcoini lisatakse covenant’id.
+
+Burak kritiseerib sageli Lightningi skaleerimisvõimet selle sõltuvuse tõttu peaahelast ja viitab, et Ark võiks teoreetiliselt kaasata kogu maailma elanikkonna isehooldusesse. Kuigi Arki võib pidada Lightning Networki konkurendiks, saavad need tegelikult koos eksisteerida. Need võivad olla isegi pigem teineteist täiendavad.
+
+Ark on endiselt väga aktiivne, kuid noor valdkond: eesmärk on paljulubav (drastiliselt vähendada onchain-jalajälge kasutaja kohta), kuid tuleb arvestada, et tegemist on keerukama arhitektuuriga, mille eeldused ja riskid erinevad Bitcoini ja Lightningi omadest.
+
+### RGB: lepingud ja varad kliendipoolse valideerimisega
+
+RGB on Bitcoini peal toimiv nutilepingute ja varade süsteem, mis kasutab radikaalselt teistsugust lähenemist kui üldotstarbelised plokiahelad. Selle keskne idee on kliendipoolne valideerimine: selle asemel, et avaldada lepingu täielik olek globaalses plokiahelas, hoiavad ja valideerivad osalejad lokaalselt neid ajalugusid, mis neid huvitavad, samas kui Bitcoini plokiahel toimib vaid krüptograafiliste kohustuste ankurdamiseks ja topeltkulutamise vältimiseks.
+
+Teisisõnu:
+* Bitcoini plokiahel täidab ajatemplite aluse ja minimaalse kohtuniku rolli;
+* detailsed andmed (lepingu reeglid, olekud, üleminekud) liiguvad ahelaväliselt asjaomaste osapoolte vahel;
+* kontroll toimub lokaalselt, mis parandab skaleeritavust ja võib suurendada privaatsust, kuna puudub kõigile nähtav globaalne RGB tegevuste register.
+
+![image](assets/et/089.webp)
+
+RGB võib olla aluseks väga erinevate varade emiteerimiseks ja haldamiseks: tokenid (sealhulgas stabiilsusrahad), NFT-d või digitaalsed väärtpaberid, ning isegi keerukamate lepinguloogikate loomiseks, kõike seda ilma baasikihti koormamata.
+
+Selle lähenemise varjukülg on andmete haldus: kui peate valideerima kliendipoolselt, peate ka korrektselt säilitama ja varundama tõendid oma õiguste kohta.
+
+RGB on protokoll, mida on arendatud juba aastaid. Edusammud on järkjärgulised, kuid tänaseks on olemas juba reaalsed rakendused, mis RGB-d kasutavad. Sügavamaks mõistmiseks pakume Plan ₿ Academys eksperttasemel kursust, mis käsitleb selle protokolli toimimist üksikasjalikult:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: varade emiteerimine Bitcoinis ja nende liigutamine Lightningis
+
+Taproot Assets (varem "Taro") on Lightning Labsi poolt arendatav protokoll, mille eesmärk on võimaldada varade emiteerimist Bitcoinis ning nende hilisemat ülekandmist Lightning-võrgu kaudu kiireteks ja madalate kuludega tehinguteks.
+
+Seda nimetatakse sageli Bitcoini “programmeeritava raha” narratiivi osaks: mitte seetõttu, et Bitcoin muutuks globaalseks arvutiks, vaid kuna finantsinstrumente (varasid) saab Bitcoini alusele kihina lisada ja seejärel Lightningi kaudu tõhusalt ringlusse lasta.
+
+### Bitcoin tugevneb, lastes ülemistel kihtidel uuendada
+
+Tänapäeval ei ole Bitcoini ökosüsteemi kõige täpsem kujutis ei jäik protokoll ega kõike tegev superplokiahel nagu Ethereum. Pigem on see teadlikult konservatiivne alus, mida ümbritsevad kihid ja protokollid, mis katsetavad ja võimaldavad innovatsiooni minimaalse riskiga.
 
 ## Punane või sinine pill?
 

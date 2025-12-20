@@ -1,0 +1,8 @@
+question: Hạn chế cơ bản nào của phương thức thanh toán Lightning Network tạo ra thách thức độc đáo cho các nhà phát triển wallet mà không tồn tại với các giao dịch on-chain Bitcoin?
+answer: Các giao dịch thanh toán chớp nhoáng chỉ tồn tại dưới dạng trạng thái tạm thời trong các kênh thanh toán và không được ghi lại vĩnh viễn trên blockchain, do đó cần có các hệ thống theo dõi lịch sử thanh toán tùy chỉnh.
+wrong_answers:
+  - Giao dịch Lightning đòi hỏi tài nguyên tính toán lớn hơn đáng kể so với giao dịch on-chain, khiến việc triển khai trên thiết bị di động tiêu tốn nhiều tài nguyên.
+  - Các giao dịch thanh toán Lightning không thể được xác minh bằng mật mã giống như các giao dịch on-chain, tạo ra các lỗ hổng bảo mật cho việc triển khai wallet.
+  - Các giao dịch thanh toán Lightning phải được xử lý thông qua các nút định tuyến tập trung, khiến việc duy trì kiến trúc wallet thực sự không thể thực hiện được.
+explanation: |
+  Câu trả lời đúng chỉ ra sự khác biệt cốt lõi về kiến trúc giữa thanh toán Lightning và on-chain. Các giao dịch Bitcoin trên chuỗi được ghi lại vĩnh viễn trên blockchain, giúp việc truy xuất lịch sử thanh toán trở nên dễ dàng thông qua các truy vấn blockchain. Tuy nhiên, thanh toán Lightning chỉ tồn tại dưới dạng trạng thái kênh tạm thời và không để lại bản ghi vĩnh viễn trên blockchain, buộc các nhà phát triển phải triển khai các hệ thống theo dõi và lưu trữ tùy chỉnh. Các câu trả lời sai là không chính xác vì: Thanh toán Lightning hiệu quả về mặt tính toán (không tốn nhiều tài nguyên), chúng duy trì cùng mức độ bảo mật mật mã như Bitcoin và việc định tuyến được phân quyền (không tập trung).

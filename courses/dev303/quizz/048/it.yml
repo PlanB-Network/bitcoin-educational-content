@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale della combinazione di RC e RefCell nella programmazione di Rust?
+answer: Per consentire a più proprietari di condividere e mutare gli stessi dati con controlli di prestito a tempo di esecuzione
+wrong_answers:
+  - Spostare l'applicazione delle regole di prestito dal runtime al tempo di compilazione per migliorare le prestazioni
+  - Per creare dati condivisi immutabili a cui si può accedere in modo sicuro tra più thread
+  - Per evitare cicli di riferimento e perdite di memoria quando si condividono dati tra più proprietari
+explanation: |
+  RC<RefCell<T>> combina il conteggio dei riferimenti per la proprietà condivisa con la mutabilità interna per le mutazioni controllate a tempo di esecuzione. RC consente a più parti di codice di possedere gli stessi dati, mentre RefCell consente la mutazione attraverso riferimenti immutabili, controllando le regole di prestito in runtime. Le altre opzioni non sono corrette: questo schema sposta di fatto i controlli al runtime (non al tempo di compilazione), crea dati condivisi mutabili (non immutabili) e può effettivamente causare cicli di riferimenti anziché prevenirli.

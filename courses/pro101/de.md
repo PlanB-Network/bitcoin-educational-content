@@ -1469,7 +1469,7 @@ Mining Komplexität im Zusammenhang mit Bitcoin beinhaltet in erster Linie die t
 
 5. **Netzwerk-Schwierigkeit**: Die Netzschwierigkeit gibt die Menge an Hashrate an, die im Durchschnitt benötigt wird, um einen Block in 10 Minuten abzubauen.
 
-6. **Strategische Werkzeuge**: Tools wie [braiins.com] (https://insights.braiins.com) sind von unschätzbarem Wert für die Berechnung der Rentabilität und helfen Bergleuten, datengestützte Entscheidungen zu treffen.
+6. **Strategische Werkzeuge**: Tools wie [braiins.com](https://insights.braiins.com) sind von unschätzbarem Wert für die Berechnung der Rentabilität und helfen Bergleuten, datengestützte Entscheidungen zu treffen.
 
 
 #### Praktische Anwendung
@@ -2083,7 +2083,7 @@ Die Verwendung von kompakten Blöcken wird derzeit eingesetzt, um die Effizienz 
 #### Nutzung der vorhandenen Bibliotheken
 
 
-Für konsenskritische Anwendungen wird empfohlen, bestehende Bibliotheken zu verwenden, um Fehler zu vermeiden und die Sicherheit zu gewährleisten, z. B. [Rust-Bitcoin] (https://docs.rs/Bitcoin/latest/Bitcoin/) oder [Bitcoin-dev-kit] (https://docs.rs/BDK/latest/BDK/). Die Implementierung eines eigenen Parsers kann lehrreich sein, aber in Produktionsumgebungen auch riskant.
+Für konsenskritische Anwendungen wird empfohlen, bestehende Bibliotheken zu verwenden, um Fehler zu vermeiden und die Sicherheit zu gewährleisten, z. B. [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) oder [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/). Die Implementierung eines eigenen Parsers kann lehrreich sein, aber in Produktionsumgebungen auch riskant.
 
 
 ![libraries](assets/en/035.webp)

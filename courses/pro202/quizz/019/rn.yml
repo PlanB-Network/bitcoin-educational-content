@@ -1,0 +1,8 @@
+question: Mu nzira yo kugenzura umukono wa ECDSA, ni ubucuti ubuhe bw’imibare butegerezwa kuba ari ukuri kugira ngo umukono ubonwe ko ufise akamaro?
+answer: Igiharuro ca x ca UG + VP kigomba kungana na R, aho U = Z/S na V = R/S .
+wrong_answers:
+  - Igihuza y ca UG + VP kigomba kungana na S, aho U = R/Z na V = S/Z .
+  - Igiharuro ca x ca KG + ZP kigomba kungana na S, aho K ari nonce na Z ari hash
+  - Igitigiri ca R + S kigomba kungana na x-coordinate y’urufunguzo rwa bose P .
+explanation: |
+  Igenzura rya ECDSA rikora mu gusubira kwubaka akarongo k’intango KG biciye mu nsiguro UG + VP, aho U = Z/S (hash igabanwa na S) na V = R/S. Iyo x-coordinate y’iyi nkuru yasubiwemwo ingana na R kuva ku musinya, ukugenzura kuraroranirwa. Iryo sano ry’imibare rituma umuntu ashobora kugenzura ataco azi ku rufunguzo rw’ibanga canke nonce K, nk’uko aligebra isubira kwubaka KG mu buryo butaziguye biciye ku rufunguzo rwa bose n’ibice vy’umukono.

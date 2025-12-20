@@ -1,0 +1,8 @@
+question: Was ist der Hauptvorteil des Rust-Ansatzes zur Kompilierzeit für die Speichersicherheit im Vergleich zur Garbage Collection?
+answer: Es beseitigt Laufzeit-Overhead und unvorhersehbare Leistungspausen
+wrong_answers:
+  - Es benötigt mehr Speicherplatz, bietet aber bessere Sicherheitsgarantien
+  - Es muss weniger Code geschrieben werden, aber es läuft langsamer als die Müllabfuhr
+  - Es verhindert alle Laufzeitfehler, verbraucht aber mehr CPU während der Ausführung
+explanation: |
+  Der Ansatz der Speichersicherheit von Rust zur Kompilierungszeit analysiert den Code während der Kompilierung, um Speichersicherheit ohne Laufzeitkosten zu gewährleisten. Im Gegensatz zur Garbage Collection in Sprachen wie Java und Go, die einen Leistungs-Overhead verursacht und unvorhersehbare Pausen während der Programmausführung verursachen kann, hat das System von Rust keinerlei Auswirkungen auf die Laufzeit. Die anderen Optionen sind falsch, denn Rust nutzt den Speicher tatsächlich effizienter (nicht mehr), läuft nicht langsamer (es läuft schneller ohne Laufzeitprüfungen) und verbraucht nicht mehr CPU während der Ausführung (die Arbeit wird zur Kompilierzeit erledigt).

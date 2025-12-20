@@ -11,4 +11,4 @@ Ten eerste kan een temporele analyse soms de aard van de getraceerde entiteit id
 Naast de aard van de waargenomen entiteit kan het temporele patroon ook bij benadering de locatie van de gebruiker aangeven door middel van tijdzones. Hierdoor kunnen we andere transacties correleren en de Timestamp hiervan gebruiken als een extra heuristiek die kan worden opgenomen in een ketenanalyse.
 
 
-In een ander register is het ook dit type tijdsanalyse dat leidde tot de hypothese dat Satoshi Nakamoto niet opereerde vanuit Japan, maar wel vanuit de Verenigde Staten: [_The Time Zones of Satoshi Nakamoto_] (https://medium.com/@insearchofsatoshi/the-time-zones-of-Satoshi-nakamoto-aa40f035178f).
+In een ander register is het ook dit type tijdsanalyse dat leidde tot de hypothese dat Satoshi Nakamoto niet opereerde vanuit Japan, maar wel vanuit de Verenigde Staten: [_The Time Zones of Satoshi Nakamoto_](https://medium.com/@insearchofsatoshi/the-time-zones-of-Satoshi-nakamoto-aa40f035178f).

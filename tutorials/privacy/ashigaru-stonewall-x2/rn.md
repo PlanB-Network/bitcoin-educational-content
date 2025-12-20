@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Uruhome rw'amabuye x2.
+name: Ashigaru - Stonewall x2
 description: Gutahura no gukoresha amafaranga y'amabuye x2 kuri Ashigaru
 ---
 ![cover stonewall x2](assets/cover.webp)

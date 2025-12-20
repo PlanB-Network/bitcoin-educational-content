@@ -8,4 +8,4 @@ Pertama, analisis temporal terkadang dapat mengidentifikasi sifat entitas yang d
 
 Di luar sifat dari entitas yang diamati, pola temporal juga dapat mengindikasikan lokasi pengguna melalui zona waktu. Hal ini memungkinkan kita untuk menghubungkan transaksi-transaksi lain, dan menggunakan cap waktu ini sebagai heuristik tambahan yang dapat dimasukkan dalam analisis rantai.
 
-Dalam register yang berbeda, jenis analisis temporal ini juga yang menghasilkan hipotesis bahwa Satoshi Nakamoto tidak beroperasi dari Jepang, melainkan dari Amerika Serikat: [_The Time Zones of Satoshi Nakamoto_] (https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f).
+Dalam register yang berbeda, jenis analisis temporal ini juga yang menghasilkan hipotesis bahwa Satoshi Nakamoto tidak beroperasi dari Jepang, melainkan dari Amerika Serikat: [_The Time Zones of Satoshi Nakamoto_](https://medium.com/@insearchofsatoshi/the-time-zones-of-satoshi-nakamoto-aa40f035178f).

@@ -1,6 +1,5 @@
 ---
-name: NOSTR
-
+name: Nostr
 description: Vumbura kandi utangure gukoresha NOSTR
 ---
 

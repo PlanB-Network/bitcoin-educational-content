@@ -681,7 +681,7 @@ Desde Graylog, haz clic en "**Sistema**" en el menú, y luego en "**Índices**".
 
 
 
-Nombra este índice, por ejemplo "**Índice Linux**", añade una descripción y un prefijo, antes de confirmar. Aquí, vamos a **almacenar todos los logs de Linux en este índice**. También es posible crear índices específicos para almacenar sólo determinados registros (sólo registros [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), registros de servicios web, etc.).
+Nombra este índice, por ejemplo "**Índice Linux**", añade una descripción y un prefijo, antes de confirmar. Aquí, vamos a **almacenar todos los logs de Linux en este índice**. También es posible crear índices específicos para almacenar sólo determinados registros (sólo registros [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), registros de servicios web, etc.).
 
 
 

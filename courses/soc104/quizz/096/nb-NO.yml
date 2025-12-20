@@ -1,0 +1,9 @@
+question: Ifølge Eric Hughes' Cypherpunk Manifesto, hva er den viktigste metoden cypherpunks bør bruke for å oppnå sine mål om personvern og frihet?
+answer: Skriver kode for å bygge kryptografiske systemer som gjør politiske skillelinjer irrelevante
+wrong_answers:
+  - Lobbyvirksomhet for å få myndighetene til å vedta strengere lover og regler for personvern
+  - Organisering av masseprotester og sivile ulydighetskampanjer mot overvåking
+  - Utarbeide opplæringsprogrammer for å øke bevisstheten om digitale personvernrettigheter
+explanation: |
+  Eric Hughes uttalte eksplisitt at "Cypherpunks write code" er deres grunnleggende tilnærming. Manifestet understreker at cypherpunks ikke finner trøst i håp og ønsker, men aktivt griper inn ved å bygge anonyme systemer ved hjelp av kryptografi.
+  På denne måten forvandles abstrakte ideer om frihet til konkret økonomisk og samfunnsmessig virkelighet, og politiske skillelinjer blir vilkårlige og unødvendige. De andre alternativene representerer tradisjonell politisk aktivisme, noe som står i motsetning til cypherpunk-filosofien om teknologiske løsninger fremfor institusjonelle reformer.

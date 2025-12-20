@@ -1,5 +1,5 @@
 ---
-name: आशिगारु - स्टोनवॉल
+name: Ashigaru - Stonewall
 description: आशिगारू पर स्टोनवॉल लेनदेन को समझना और उसका उपयोग करना
 ---
 ![cover stonewall](assets/cover.webp)

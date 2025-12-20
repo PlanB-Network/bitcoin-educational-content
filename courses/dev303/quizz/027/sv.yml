@@ -1,0 +1,8 @@
+question: Vad kan du göra med syntaxen för strukturuppdatering när du skapar nya strukturinstanser i Rust?
+answer: Skapa en ny instans genom att endast ange ändrade fält och kopiera återstående fält från en befintlig instans
+wrong_answers:
+  - Modifiera befintliga strukturfält på plats utan att skapa en ny instans
+  - Automatiskt generate-standardvärden för ospecificerade fält med hjälp av egenskapen Standard
+  - Sammanfoga flera strukturinstanser till en enda kombinerad instans
+explanation: |
+  Med struct update-syntaxen i Rust kan du skapa en ny strukturinstans genom att endast ange de fält du vill ändra, samtidigt som du automatiskt kopierar alla andra fält från en befintlig instans. Detta görs med hjälp av syntaxen `..existing_instance`. De andra alternativen är felaktiga: syntaxen struct update skapar alltid en ny instans i stället för att ändra befintliga, den använder inte generate:s standardvärden utan kopierar från befintliga instanser och den arbetar med en källinstans i stället för att slå samman flera instanser.

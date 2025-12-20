@@ -20,7 +20,7 @@ Arch Linux er en distribusjon som er kjent for sin robusthet, ytelse og tilpasni
 - **Gratis og åpen kildekode**: Som de fleste Linux-distribusjoner er Arch Linux helt gratis. Det er ingen lisensavgifter, noe som gjør den til et utmerket valg for studenter, frilansere eller entusiaster.
 - **KISS-filosofien**: Arch er designet for å være enkel, lett og effektiv. Den inneholder bare det viktigste, slik at du kan bygge opp miljøet ditt à la carte.
 - **Pakkebehandleren Pacman**: Pacman er en rask, pålitelig og veldesignet pakkebehandler. Den muliggjør effektiv installasjon og oppdatering av programvare, og håndterer avhengigheter med presisjon.
-- **Omfattende dokumentasjon og et aktivt fellesskap**: [Arch Wiki] (https://wiki.archlinux.org) er sannsynligvis en av de beste tekniske dokumentasjonene i Linux-verdenen. Det er en gullgruve for å forstå hva du gjør. Fellesskapet, som for det meste består av erfarne profiler, er svært aktivt og kan hjelpe deg hvis du står fast, forutsatt at du har gjort litt research på forhånd.
+- **Omfattende dokumentasjon og et aktivt fellesskap**: [Arch Wiki](https://wiki.archlinux.org) er sannsynligvis en av de beste tekniske dokumentasjonene i Linux-verdenen. Det er en gullgruve for å forstå hva du gjør. Fellesskapet, som for det meste består av erfarne profiler, er svært aktivt og kan hjelpe deg hvis du står fast, forutsatt at du har gjort litt research på forhånd.
 
 
 
@@ -58,7 +58,7 @@ Siden 2017 har Arch Linux ikke lenger støtte for 32-bits arkitekturer. Kun 64-b
 
 
 
-- Besøk [det offisielle nettstedet] (https://mir.archlinux.fr/iso/latest/) for å laste ned den nyeste offisielle versjonen av ISO-bildet.
+- Besøk [det offisielle nettstedet](https://mir.archlinux.fr/iso/latest/) for å laste ned den nyeste offisielle versjonen av ISO-bildet.
 
 
 
@@ -72,7 +72,7 @@ For å lage en oppstartbar USB-minnepinne kan du bruke et verktøy som **Balena 
 
 
 
-- Last ned Balena Etcher fra [offisiell nettside] (https://etcher.balena.io).
+- Last ned Balena Etcher fra [offisiell nettside](https://etcher.balena.io).
 - Start programvaren, velg Arch Linux ISO-bildet.
 - Velg USB-nøkkelen din som målenhet.
 - Klikk på **Flash** for å starte opprettelsen av den oppstartbare nøkkelen.

@@ -1,0 +1,8 @@
+question: BIP34 neden blok yüksekliğinin Coinbase işleminin scriptSig alanına gömülmesini gerektiriyor?
+answer: Her Coinbase transaction ID'ın tüm bloklarda benzersiz olmasını sağlamak için
+wrong_answers:
+  - Nonce alanı tükendiğinde madenciler için ek entropi sağlamak için
+  - Hafif istemcilerin tam blokları indirmeden blok sıralamasını doğrulamasını sağlamak için
+  - Madencilerin izin verilen miktardan daha yüksek blok sübvansiyonları talep etmelerini önlemek için
+explanation: |
+  BIP34, özellikle her Coinbase transaction ID'in benzersizliğini garanti etmek için Coinbase scriptSig'e blok yüksekliğinin dahil edilmesini zorunlu kılar. Bu gereklilik olmadan, farklı yükseklikteki iki blok teorik olarak aynı Coinbase işlemlerine sahip olabilir, bu da Bitcoin'nin işlem benzersizliği varsayımlarını ihlal edecek ve txid'e göre dizin oluşturan uygulamalarda potansiyel olarak veritabanı çakışmalarına neden olacak yinelenen txid'ler oluşturabilir.

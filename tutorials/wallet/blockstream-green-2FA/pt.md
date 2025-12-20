@@ -56,7 +56,7 @@ O primeiro passo é, obviamente, descarregar a aplicação Green. Aceda à sua l
 - [Para a Apple](https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590).
 ![GREEN 2FA MULTISIG](assets/fr/03.webp)
 
-Para os utilizadores de Android, também é possível instalar a aplicação através do ficheiro `.apk` [disponível no GitHub da Blockstream] (https://github.com/Blockstream/green_android/releases).
+Para os utilizadores de Android, também é possível instalar a aplicação através do ficheiro `.apk` [disponível no GitHub da Blockstream](https://github.com/Blockstream/green_android/releases).
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
@@ -244,7 +244,7 @@ Selecionar o montante do pagamento.
 
 ![GREEN 2FA MULTISIG](assets/fr/44.webp)
 
-Na parte inferior do ecrã, pode selecionar a taxa de comissão para esta transação. Tem a opção de seguir as recomendações da aplicação ou de personalizar as suas taxas. Quanto mais elevada for a taxa em relação a outras transacções pendentes, mais rapidamente a sua transação será processada. Para obter informações sobre as taxas de mercado, visite [Mempool.space] (https://mempool.space/) na secção "*Transaction Fees*".
+Na parte inferior do ecrã, pode selecionar a taxa de comissão para esta transação. Tem a opção de seguir as recomendações da aplicação ou de personalizar as suas taxas. Quanto mais elevada for a taxa em relação a outras transacções pendentes, mais rapidamente a sua transação será processada. Para obter informações sobre as taxas de mercado, visite [Mempool.space](https://mempool.space/) na secção "*Transaction Fees*".
 
 ![GREEN 2FA MULTISIG](assets/fr/45.webp)
 

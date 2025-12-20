@@ -1,5 +1,5 @@
 ---
-name: 道場
+name: Dojo
 description: 隱私權與自主性的開放原始碼 Bitcoin 節點
 ---
 

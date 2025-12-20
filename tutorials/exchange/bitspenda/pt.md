@@ -177,7 +177,7 @@ Verifique e confirme o número e o montante do seu Exchange e pague o Lightning 
 
 
 
-Através da BitSpenda, a [Bitcoin Dua] (https://www.bitcoindua.org/) pretende criar um quadro ideal para a adoção da Bitcoin em África. BitSpenda destaca-se principalmente por :
+Através da BitSpenda, a [Bitcoin Dua](https://www.bitcoindua.org/) pretende criar um quadro ideal para a adoção da Bitcoin em África. BitSpenda destaca-se principalmente por :
 
 
 

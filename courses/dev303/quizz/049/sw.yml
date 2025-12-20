@@ -1,0 +1,8 @@
+question: Ni tatizo gani la msingi ambalo RC hutatua ambalo Box haiwezi kushughulikia katika mfumo wa umiliki wa Rust?
+answer: RC huwezesha umiliki mwingi wa data moja kupitia kuhesabu marejeleo
+wrong_answers:
+  - RC hutoa ugawaji wa kumbukumbu na ugawaji wa haraka zaidi kuliko Box
+  - RC inaruhusu usimamizi wa kumbukumbu kiotomatiki bila gharama yoyote ya ziada ya muda wa uendeshaji
+  - RC huwezesha ukaguzi wa kukopa kwa wakati wa kukusanya ambao Box haiwezi kufanya
+explanation: |
+  RC (Reference Counter) hushughulikia mahsusi kikomo cha mfumo mmoja wa umiliki wa Box kwa kuruhusu sehemu nyingi za msimbo kushiriki umiliki wa data moja kwa wakati mmoja. Box hufuata sheria za jadi za umiliki ambapo chombo kimoja tu kinaweza kumiliki data kwa wakati mmoja, na kufanya iwe vigumu kuunda hali kama miundo ya data iliyoshirikiwa ambapo orodha nyingi hurejelea sehemu moja ya mkia. RC hudumisha kihesabu cha ndani kinachofuatilia marejeleo, huongezeka wakati wa kuiga na kupungua wakati wa kuangushwa, na kutoa kumbukumbu tu wakati hesabu inafikia sifuri. Hii huwezesha mifumo rahisi ya kushiriki data huku ikidumisha usalama wa kumbukumbu, ambayo kimsingi ni tofauti na mbinu ya kipekee ya umiliki wa Box.

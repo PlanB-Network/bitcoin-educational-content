@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck des dreistufigen Prozesses Verbinden, Vorbereiten und Ausführen in der Entwicklerschnittstelle des Breez SDK?
+answer: Standardisierung komplexer Finanzströme durch Synchronisierung von Geldbörsen, Berechnung aller Gebühren im Voraus und anschließende Erstellung von Transaktionen
+wrong_answers:
+  - Aufbau redundanter Backup-Verbindungen über mehrere Swap-Provider, bevor atomare Operationen eingeleitet werden
+  - Erstellung separater kryptografischer Signaturen für jedes Netzwerk, das an kettenübergreifenden Submarine-Swap-Transaktionen beteiligt ist
+  - Validierung von Zahlungsvorausschätzungen anhand von zeitlich gesperrten Verträgen vor der Freigabe von Mitteln aus Treuhandmechanismen
+explanation: |
+  Das Muster "Connect, Prepare, Execute" vereinfacht die Entwicklung, indem es komplexe Vorgänge in überschaubare Schritte unterteilt: Connect initialisiert Wallets und stellt Überwachungsverbindungen her, Prepare berechnet alle Kosten und zeigt sie den Nutzern transparent an, und Execute führt die eigentliche Transaktionskonstruktion und -übertragung durch. Diese Standardisierung abstrahiert die zugrundeliegende Komplexität von U-Boot-Swaps und kettenübergreifenden Operationen, wodurch es für Entwickler einfacher wird, Bitcoin-Funktionen zu integrieren, ohne sich mit Details auf niedriger Ebene befassen zu müssen.

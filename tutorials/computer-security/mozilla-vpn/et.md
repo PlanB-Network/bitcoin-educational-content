@@ -20,7 +20,7 @@ Digitaalsel andmekogumise ajastul on privaatsus internetis muutunud meie, intern
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Sellele põhimõttele tuginedes on [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) avatud lähtekoodiga VPN-teenus, mille Mozilla Foundation arendas 2020. aastal. See on saadaval aadressil:
+Sellele põhimõttele tuginedes on [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) avatud lähtekoodiga VPN-teenus, mille Mozilla Foundation arendas 2020. aastal. See on saadaval aadressil:
 
 
 

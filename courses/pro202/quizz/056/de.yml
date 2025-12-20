@@ -1,0 +1,8 @@
+question: Was ist der Hauptgrund dafür, dass P2SH-umhüllte SegWit-Transaktionen während der Überprüfung drei Ebenen von Validierungsregeln verwenden?
+answer: Zur Gewährleistung der Abwärtskompatibilität zwischen Vor-BIP16-, Nach-BIP16- und SegWit-Knoten unter Beibehaltung des Konsenses
+wrong_answers:
+  - Verdreifachung der Sicherheit durch die Forderung nach drei separaten kryptografischen Nachweisen vor der Annahme der Transaktion
+  - Verteilung der Validierungsarbeitslast auf verschiedene Knotentypen zur Verbesserung der Netzwerkleistung und Skalierbarkeit
+  - Verhinderung von double-spending-Angriffen durch Validierung der gleichen Transaktionsdaten mit drei unabhängigen Methoden
+explanation: |
+  P2SH-wrapped SegWit verwendet drei Validierungsschichten speziell für die Abwärtskompatibilität: pre-BIP16-Knoten akzeptieren das redeemScript als gültig, post-BIP16-Knoten werten es aus und lassen OP_0 + Hash auf dem Stapel, und SegWit-Knoten führen eine vollständige Zeugenvalidierung durch. Dieser mehrschichtige Ansatz stellt sicher, dass alle Knotentypen am Konsens teilnehmen können, ohne daran zu zerbrechen, im Gegensatz zu den falschen Antworten, die Sicherheitsmultiplikation, Leistungsverteilung oder Verhinderung von Doppelausgaben als Hauptmotivationen vorschlagen.

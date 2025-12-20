@@ -1,0 +1,8 @@
+question: Jaká je nejzákladnější vlastnost, kterou implementují všechny uzávěry v hierarchii vlastností uzávěrů Rust?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterátor
+explanation: |
+  FnOnce je nejzákladnější vlastnost, kterou implementují všechny uzávěry v Rust. Reprezentuje uzávěry, které lze zavolat alespoň jednou, a tvoří tak základ hierarchie uzávěrových rysů. FnMut a Fn jsou restriktivnější rysy, které staví na FnOnce - FnMut umožňuje vícenásobné volání s mutací, zatímco Fn umožňuje vícenásobné volání bez mutace. Iterátor nesouvisí s uzávěrovými rysy a slouží ke zpracování sekvencí dat.

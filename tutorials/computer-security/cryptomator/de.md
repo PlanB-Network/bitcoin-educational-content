@@ -60,7 +60,7 @@ Auf Ihrem Rechner erstellt **Cryptomator einen Ordner, in dem es einen Tresor** 
 
 
 
-Um loszulegen, müssen Sie **Cryptomator** **herunterladen** und **installieren**. Sobald der Download abgeschlossen ist, genügen ein paar Klicks, um die Installation abzuschließen. Wie [Rclone] (https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), verlässt sich Cryptomator auf WinFsp, um **ein virtuelles Laufwerk auf Ihrem Windows-Rechner** einzurichten.
+Um loszulegen, müssen Sie **Cryptomator** **herunterladen** und **installieren**. Sobald der Download abgeschlossen ist, genügen ein paar Klicks, um die Installation abzuschließen. Wie [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), verlässt sich Cryptomator auf WinFsp, um **ein virtuelles Laufwerk auf Ihrem Windows-Rechner** einzurichten.
 
 
 

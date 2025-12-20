@@ -892,7 +892,7 @@ Khi đã có cấu hình phù hợp về mặt bảo mật, bạn nên sử dụ
 
 
 
-Cuối cùng, bạn cũng có thể so sánh **Lynis** với các công cụ khác, hiện có rất nhiều. Nếu bạn muốn chuyển sang quản lý tập trung mà vẫn giữ được tính mở, tôi khuyên bạn nên sử dụng công cụ [Wazuh] (https://wazuh.com/).
+Cuối cùng, bạn cũng có thể so sánh **Lynis** với các công cụ khác, hiện có rất nhiều. Nếu bạn muốn chuyển sang quản lý tập trung mà vẫn giữ được tính mở, tôi khuyên bạn nên sử dụng công cụ [Wazuh](https://wazuh.com/).
 
 
 

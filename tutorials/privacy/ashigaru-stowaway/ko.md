@@ -1,5 +1,5 @@
 ---
-name: 아시가루 - 밀항
+name: Ashigaru - Stowaway
 description: 아시가루에서 페이조인 거래는 어떻게 하나요?
 ---
 ![cover](assets/cover.webp)

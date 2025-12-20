@@ -1,5 +1,5 @@
 ---
-name: آشیگارو - Whirlpool کوین‌جوین
+name: Ashigaru - Whirlpool Coinjoin
 description: چگونه می‌توانم در برنامه Ashigaru کوین‌جوین انجام دهم؟
 ---
 

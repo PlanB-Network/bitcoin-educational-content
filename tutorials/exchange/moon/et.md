@@ -7,6 +7,12 @@ description: Makske bitcoin'idega kõikjal, kus Visa pangakaardid on aktsepteeri
 
 
 
+---
+
+⚠️ *Värskendus detsember 2025: Tähelepanu, **alates 2025. aasta detsembri algusest ei ole osa Mooni teenustest enam saadaval**, sealhulgas taaslaetavad Visa pangakaardid. Me ei tea veel, kas see kättesaamatus on ajutine või püsiv. Seda juhendit ajakohastatakse niipea, kui meil on rohkem teavet.*
+
+---
+
 Moon võimaldab teil kasutada krüptovaluutasid, nagu bitcoin, KYC-vabade virtuaalsete Visa kaartide ja kinkekaartide ostmiseks, mida saab kasutada miljonites veebikauplustes, nagu traditsioonilist pangakaarti. Seega pakub see lihtsat võimalust kulutada oma sats kõikjal, kus Visa't aktsepteeritakse, ilma vahetusplatvormi kaudu käimata.
 
 
@@ -42,7 +48,7 @@ Mooniga on teil tõeline sild teie bitcoinide ja Visa kaardimakse süsteemi vahe
 
 
 
-Mine Mooni [ametlikule platvormile] (https://paywithmoon.com), seejärel klõpsa nupule **"Registreeri "**, läbige inimkontrolli (CAPTCHA), seejärel registreeru, sisestades oma e-posti aadressi ja parooli.
+Mine Mooni [ametlikule platvormile](https://paywithmoon.com), seejärel klõpsa nupule **"Registreeri "**, läbige inimkontrolli (CAPTCHA), seejärel registreeru, sisestades oma e-posti aadressi ja parooli.
 
 
 

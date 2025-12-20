@@ -1,0 +1,8 @@
+question: Sự khác biệt chính về kiến trúc giữa Blockstream AMP Phiên bản 1 và Phiên bản 2 liên quan đến việc xây dựng giao dịch và yêu cầu đối với các nút là gì?
+answer: Phiên bản 2 chuyển độ phức tạp sang máy chủ xử lý việc xây dựng giao dịch và cung cấp PSET cho các nhà phát hành, loại bỏ nhu cầu đồng bộ hóa full node.
+wrong_answers:
+  - Phiên bản 2 yêu cầu các nhà phát hành phải vận hành nhiều nút Elements được đồng bộ hóa để đảm bảo tính dự phòng, trong khi phiên bản 1 chỉ yêu cầu kết nối một nút duy nhất.
+  - Phiên bản 2 chuyển toàn bộ các hoạt động mã hóa sang ví phần cứng phía máy khách, trong khi phiên bản 1 thực hiện tất cả các hoạt động ký trên cơ sở hạ tầng máy chủ.
+  - Phiên bản 2 loại bỏ hoàn toàn yêu cầu đồng ký và cho phép chuyển tiền trực tiếp giữa người dùng với nhau, trong khi phiên bản 1 yêu cầu xác thực máy chủ cho mỗi giao dịch.
+explanation: |
+  Sự phát triển từ AMP Phiên bản 1 sang Phiên bản 2 thể hiện sự chuyển đổi cơ bản từ mô hình "máy khách thông minh, cơ sở hạ tầng phức tạp" sang cách tiếp cận "máy chủ thông minh, máy khách đơn giản hóa". Phiên bản 1 yêu cầu các nhà phát hành phải duy trì các nút Elements được đồng bộ hóa hoàn toàn và phụ thuộc nhiều vào SDK Green nguyên khối, tạo ra những rào cản kỹ thuật cao. Phiên bản 2 chuyển sự phức tạp sang phía máy chủ, nơi máy chủ AMP xử lý việc xây dựng giao dịch, lựa chọn UTXO và tính toán phí, sau đó cung cấp cho các nhà phát hành các Giao dịch Elements được ký một phần (PSET) chỉ yêu cầu chữ ký. Điều này loại bỏ nhu cầu về các nút đầy đủ và cho phép tích hợp wallet tiêu chuẩn.

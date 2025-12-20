@@ -1,0 +1,8 @@
+question: Jakie jest główne ryzyko bezpieczeństwa, które sprawia, że P2SH zasadniczo różni się od standardowych transakcji Bitcoin pod względem odzyskiwania środków?
+answer: Utrata skryptu redeem trwale blokuje środki, nawet jeśli posiadasz klucze prywatne
+wrong_answers:
+  - 20-bajtowy hash może zostać brutalnie sforsowany, jeśli skrypt odblokowujący jest zbyt prosty
+  - Adresy P2SH wygasają po określonej wysokości bloku, uniemożliwiając odzyskanie środków
+  - Dwuetapowy proces weryfikacji może losowo zawieść, powodując trwałą utratę środków
+explanation: |
+  P2SH wprowadza unikalny wymóg bezpieczeństwa: zarówno klucze prywatne, jak i skrypt redeem są niezbędne do wydania środków. W przeciwieństwie do standardowych transakcji, w których potrzebne są tylko klucze prywatne, P2SH wymaga dostarczenia skryptu redeem podczas wydawania środków. Jeśli skrypt redeem zostanie utracony, środki staną się trwale niedostępne niezależnie od posiadania prawidłowych kluczy prywatnych, ponieważ warunków wydatkowania nie można odtworzyć ani zweryfikować.

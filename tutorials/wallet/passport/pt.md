@@ -79,7 +79,7 @@ O passo seguinte consiste em verificar o seu dispositivo. Este procedimento conf
 
 ![Image](assets/fr/08.webp)
 
-Aceda ao [sítio oficial de verificação] (https://validate.foundationdevices.com/) e selecione "*Passport*".
+Aceda ao [sítio oficial de verificação](https://validate.foundationdevices.com/) e selecione "*Passport*".
 
 ![Image](assets/fr/09.webp)
 
@@ -135,7 +135,7 @@ O Passport está pronto para receber o novo firmware através de um cartão Micr
 
 ![Image](assets/fr/20.webp)
 
-Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro) e insira-o no computador. Descarregue a versão mais recente do firmware a partir do [sítio de documentação da Fundação] (https://docs.foundation.xyz/firmware-updates/passport/) ou [do seu repositório GitHub] (https://github.com/Foundation-Devices/passport2/releases).
+Para o fazer, utilize o cartão MicroSD incluído na caixa do Passport (ou outro) e insira-o no computador. Descarregue a versão mais recente do firmware a partir do [sítio de documentação da Fundação](https://docs.foundation.xyz/firmware-updates/passport/) ou [do seu repositório GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 
@@ -324,7 +324,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 Neste tutorial, vou mostrar-vos uma utilização avançada do Passport com a Sparrow Wallet. No entanto, esta carteira de hardware também é compatível com Envoy (a aplicação Foundation), Keeper, BlueWallet, Nunchuk, Specter, e muitos outros...
 
-Comece por descarregar e instalar a Sparrow Wallet [a partir do site oficial] (https://sparrowwallet.com/) no seu computador, caso ainda não o tenha feito.
+Comece por descarregar e instalar a Sparrow Wallet [a partir do site oficial](https://sparrowwallet.com/) no seu computador, caso ainda não o tenha feito.
 
 ![Image](assets/fr/54.webp)
 

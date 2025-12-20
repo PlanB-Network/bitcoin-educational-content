@@ -1,0 +1,8 @@
+question: Dalam Taproot yang diaktifkan HTLC, informasi apa yang diungkapkan ke jaringan Bitcoin ketika swap gagal dan salah satu pihak perlu memulihkan dana mereka melalui jalur permusuhan?
+answer: Hanya cabang pohon Merkle tertentu yang berisi kondisi hash/kunci waktu yang diperlukan untuk pemulihan dana
+wrong_answers:
+  - "Logika skrip lengkap termasuk semua jalur eksekusi yang memungkinkan dan kunci publik masing-masing pihak"
+  - Rahasia preimage dan semua kunci publik gabungan yang digunakan dalam proses kombinasi kunci MuSig2
+  - Seluruh persyaratan kontrak HTLC termasuk jumlah swap, jangka waktu, dan alamat Lightning dan Liquid
+explanation: |
+  Taproot mengatur kondisi HTLC dalam struktur pohon Merkle, yang memungkinkan pengungkapan secara selektif. Ketika kerja sama gagal, hanya cabang spesifik yang diperlukan untuk membuktikan hak untuk memulihkan dana yang terungkap, sementara detail kontrak lainnya tetap tersembunyi. Ini tidak seperti HTLC lama yang mengekspos skrip lengkap, dan berbeda dengan kasus-kasus kerja sama di mana tidak ada detail skrip yang terungkap sama sekali.

@@ -1,0 +1,8 @@
+question: Wat gebeurt er in een Taproot-enabled HTLC wanneer beide partijen samenwerken om de cross-layer swap te voltooien?
+answer: Ze ondertekenen samen met hun geaggregeerde openbare sleutel via MuSig2, waardoor een transactie ontstaat die niet te onderscheiden is van een standaardbetaling met één handtekening
+wrong_answers:
+  - Ze moeten het volledige script met hash en tijdsloten on-chain vrijgeven voor netwerkverificatie
+  - Ze publiceren alleen de specifieke Merkle boomtak die nodig is en houden de geaggregeerde sleutel verborgen voor waarnemers
+  - Ze zenden afzonderlijke transacties op elke laag tegelijk uit om atomaire vereffening zonder sleutelaggregatie te garanderen
+explanation: |
+  Het coöperatieve "sleutelpad" in Taproot stelt partijen in staat om hun sleutels te combineren tot een enkele geaggregeerde publieke sleutel met behulp van MuSig2. Als beide partijen het eens zijn, ondertekenen ze de transactie, die identiek lijkt aan een standaardbetaling op de blockchain. Dit biedt maximale privacy en efficiëntie omdat er geen scriptlogica wordt onthuld en er minimale blokruimte wordt verbruikt. De andere opties beschrijven incorrect het oude HTLC gedrag of het adversaire scriptpad scenario.

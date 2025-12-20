@@ -1,0 +1,8 @@
+question: Apa perbedaan utama antara bagaimana Rust biasanya memberlakukan aturan peminjaman dan bagaimana RefCell memberlakukannya?
+answer: Rust biasanya memberlakukan aturan peminjaman pada saat kompilasi, sementara RefCell memberlakukannya pada saat runtime
+wrong_answers:
+  - Rust biasanya mengizinkan beberapa referensi yang dapat diubah, sementara RefCell membatasinya menjadi satu
+  - Rust biasanya menggunakan penghitungan referensi untuk keamanan, sedangkan RefCell menggunakan analisis statis
+  - Rust biasanya membutuhkan manajemen memori eksplisit, sementara RefCell menanganinya secara otomatis
+explanation: |
+  Inovasi utama RefCell adalah memindahkan penegakan aturan peminjaman dari waktu kompilasi ke waktu proses. Referensi Rust normal diperiksa oleh kompiler selama kompilasi untuk memastikan keamanan, tetapi RefCell melakukan pemeriksaan yang sama saat program berjalan. Hal ini memungkinkan RefCell untuk menyediakan mutabilitas interior dalam situasi di mana analisis statis kompiler terlalu konservatif, tetapi disertai dengan potensi kepanikan saat runtime jika aturan peminjaman dilanggar. Opsi-opsi lain tidak menggambarkan mekanisme keamanan fundamental Rust atau perilaku RefCell yang sebenarnya.

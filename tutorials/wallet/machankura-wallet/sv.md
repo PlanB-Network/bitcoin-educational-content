@@ -101,7 +101,7 @@ Machankura tar dock itu med detta problem genom att utöka funktionaliteten via 
 
 
 
-För att få information om nya länder där tjänsten kommer att finnas tillgänglig, vänligen besök deras [webbplats] (https://8333.mobi) regelbundet.
+För att få information om nya länder där tjänsten kommer att finnas tillgänglig, vänligen besök deras [webbplats](https://8333.mobi) regelbundet.
 
 
 
@@ -301,7 +301,7 @@ Ett meddelande skickas automatiskt till det förregistrerade numret, och använd
 
 
 
-Du kan titta på [videosändningsdemo] (https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) av bitcoins av PIO TARAS (Lead Machankura Afrique Francophone) via Machankura på en vanlig telefon.
+Du kan titta på [videosändningsdemo](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) av bitcoins av PIO TARAS (Lead Machankura Afrique Francophone) via Machankura på en vanlig telefon.
 
 
 

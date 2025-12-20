@@ -1,0 +1,8 @@
+question: Apa pertukaran arsitektur utama yang dilakukan oleh Breez SDK untuk mencapai integrasi Lightning yang disederhanakan sambil mempertahankan prinsip-prinsip non-kustodian?
+answer: Pengguna mengorbankan beberapa privasi karena Greenlight dapat mengamati status saluran dan informasi perutean, tetapi tetap memiliki kontrol penuh atas kunci pribadi dan akses dana
+wrong_answers:
+  - Pengguna harus mempercayai Greenlight dengan hak asuh sebagian dana dengan imbalan manajemen saluran otomatis dan mengurangi kompleksitas operasional
+  - Pengembang kehilangan akses ke fitur-fitur canggih Lightning seperti perutean khusus dan kebijakan saluran sebagai imbalan atas integrasi API yang disederhanakan dan dukungan lintas platform
+  - Aplikasi mengorbankan kemampuan pemrosesan pembayaran waktu nyata dengan imbalan keamanan yang lebih baik melalui validasi berbasis cloud untuk semua transaksi Lightning
+explanation: |
+  Arsitektur Breez SDK mewakili pertukaran antara privasi dan kegunaan yang dipertimbangkan dengan cermat. Meskipun Greenlight dapat mengamati status saluran dan informasi perutean (mengurangi privasi), pengguna tetap memiliki kontrol penuh atas kunci pribadi mereka, yang tidak pernah meninggalkan perangkat mereka. Hal ini memastikan dana tidak dapat diakses tanpa otorisasi pengguna, menjaga prinsip inti non-penahanan. Jawaban yang salah secara keliru menunjukkan penitipan dana, pembatasan fitur, atau penundaan pemrosesan - tidak ada satupun yang merupakan pertukaran yang sebenarnya dalam desain SDK.

@@ -1,0 +1,8 @@
+question: Qual é o método que permite extrair um valor de um Resultado e, ao mesmo tempo, fornecer uma mensagem de pânico personalizada se ocorrer um erro?
+answer: esperar
+wrong_answers:
+  - unwrap_or_else
+  - unwrap_with_message
+  - pânico_com
+explanation: |
+  O método expect foi especificamente concebido para extrair o valor de sucesso de um resultado, permitindo-lhe fornecer uma mensagem de pânico personalizada que será apresentada se ocorrer um erro. Isso torna a depuração mais fácil em comparação com o unwrap, que usa uma mensagem de pânico genérica. O método unwrap_or_else não entra em pânico, mas executa uma closure quando ocorre um erro. As outras opções (unwrap_with_message e panic_with) não são métodos reais do Rust para lidar com tipos de resultados.

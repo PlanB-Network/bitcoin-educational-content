@@ -70,7 +70,7 @@ Controleer voordat u met de installatie begint of u over de volgende apparatuur 
 
 
 
-Ga naar de officiële website van het besturingssysteem [elementary] (https://elementary.io/) en kies een bedrag om het project te steunen. Deze stap is optioneel.
+Ga naar de officiële website van het besturingssysteem [elementary](https://elementary.io/) en kies een bedrag om het project te steunen. Deze stap is optioneel.
 
 
 Als je het ISO-image gratis wilt downloaden, voer dan 0 in in het veld **"Other"** en start het downloaden van het ISO-image van het systeem.
@@ -89,7 +89,7 @@ Zodra je het ISO-image hebt gedownload, moet je het opstartbaar maken op een USB
 
 
 
-Download software zoals [Balena Etcher] (https://etcher.balena.io/) of een vergelijkbaar hulpprogramma en start de software.
+Download software zoals [Balena Etcher](https://etcher.balena.io/) of een vergelijkbaar hulpprogramma en start de software.
 
 
 Selecteer de eerder gedownloade **Elementary OS** ISO image en stel je USB-sleutel in als doel.

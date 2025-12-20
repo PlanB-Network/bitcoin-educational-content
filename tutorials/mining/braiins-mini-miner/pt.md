@@ -14,7 +14,7 @@ O Mini Miner braiins BMM 100 é um produto criado pela Mining pool Braiins. Este
 
 
 
-Também pode encontrar informações muito mais importantes consultando o guia completo diretamente no [sítio do fabricante] (https://braiins.com/hardware/mini-Miner-bmm-100).
+Também pode encontrar informações muito mais importantes consultando o guia completo diretamente no [sítio do fabricante](https://braiins.com/hardware/mini-Miner-bmm-100).
 
 
 
@@ -240,7 +240,7 @@ se voltarem ao painel de controlo, devem começar a ver movimento no gráfico e 
 
 
 
-Através deste pool é possível tentar a sorte e minerar sozinho, apoiando-se num pool. Neste caso, não receberemos recompensa, mas receberemos a recompensa total se conseguirmos minerar um bloco. Vamos então ligar-nos à piscina pública, uma piscina apenas para Mining que é completamente open source. Abrimos uma nova janela no navegador e vamos para [web.public-pool.io] (https://web.public-pool.io/#/).
+Através deste pool é possível tentar a sorte e minerar sozinho, apoiando-se num pool. Neste caso, não receberemos recompensa, mas receberemos a recompensa total se conseguirmos minerar um bloco. Vamos então ligar-nos à piscina pública, uma piscina apenas para Mining que é completamente open source. Abrimos uma nova janela no navegador e vamos para [web.public-pool.io](https://web.public-pool.io/#/).
 
 
 

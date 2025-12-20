@@ -1,0 +1,9 @@
+question: ¿Qué representa el lado derecho del eje económico (hacia 100) en el diagrama político bidimensional?
+answer: Preferencia por la libertad económica con menos intervención estatal, impuestos más bajos y mercados libres
+wrong_answers:
+  - Preferencia por una fuerte intervención estatal en la economía con impuestos y normativas elevados
+  - Preferencia por las libertades personales individuales y la tolerancia social con restricciones morales mínimas
+  - Preferencia por los valores tradicionales, el orden y la seguridad con normas morales impuestas por el Estado
+explanation: |
+  El lado derecho del eje económico representa la libertad económica, caracterizada por una intervención mínima del Estado en la economía, menos regulaciones e impuestos,
+  y énfasis en los mercados libres, la propiedad privada y la competencia. Esto contrasta con el lado izquierdo, que favorece una fuerte intervención económica del Estado. Las otras opciones describen la posición económica de la izquierda o las posiciones en el eje de las libertades personales (arriba para la libertad individual, abajo para el orden tradicional).

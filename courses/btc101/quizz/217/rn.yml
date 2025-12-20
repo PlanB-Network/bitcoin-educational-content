@@ -1,8 +1,9 @@
-question: None Lightning Network yemera iki?
-answer: Ivy’ugucuruza Bitcoin bica bihera, bihenda.
+question: Ni iyihe ntumbero nyamukuru ya Lightning Network?
+answer: Gutuma habaho ukwishyura offchain vuba kandi bidahenze
 wrong_answers:
-  - Ivy’ugucuruza Bitcoin bica bishika, bihenda cane.
-  - Ivy’uguteba, ivy’ugucuruza Bitcoin bihenda.
-  - Ivyiyumviro vy’ugucererwa, vy’agaciro kanini vya Bitcoin.
-explanation: >-
-reviewed: true
+  - Kwongereza ingano y’amablock ya blockchain ya Bitcoin
+  - Gusimbura buhoro buhoro blockchain ya Bitcoin n’uburyo bukora neza kurushaho
+  - Gutuma amasambu y’ubucukuzi aba abakire cane
+explanation: |
+  Lightning Network igamije gutuma habaho ukwishyura kwa bitcoin hafi y’ako kanya, n’amafaranga make, hatabayeho kuremera blockchain nyamukuru.
+reviewed: false

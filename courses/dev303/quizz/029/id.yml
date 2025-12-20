@@ -1,0 +1,8 @@
+question: Apa saja dua varian enum HasRust yang digunakan untuk menangani kesalahan yang dapat dipulihkan?
+answer: Ok (T) untuk operasi yang berhasil dan Err (E) untuk kegagalan
+wrong_answers:
+  - Sukses (T) untuk operasi yang berhasil dan Gagal (E) untuk kegagalan
+  - Beberapa (T) untuk operasi yang berhasil dan Tidak Ada untuk kegagalan
+  - Lulus (T) untuk operasi yang berhasil dan Panik (E) untuk kegagalan
+explanation: |
+  Enum Result dalam Rust memiliki dua varian: Ok(T) yang berisi nilai sukses tipe T, dan Err(E) yang berisi kesalahan tipe E. Desain ini memaksa pengembang untuk secara eksplisit menangani kasus sukses dan gagal. Opsi lainnya tidak benar - Sukses/Gagal bukanlah varian Hasil, Beberapa/Tidak ada termasuk dalam enum Opsi untuk menangani nilai nol, dan Lulus/Panik bukan varian enum Rust standar untuk penanganan kesalahan.

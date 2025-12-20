@@ -98,7 +98,7 @@ Jeśli naprawdę nie możesz sobie pozwolić na uruchomienie własnego Dojo, mo�
 
 
 
-W telefonie otwórz przeglądarkę Tor Browser i przejdź do [oficjalnej strony Ashigaru] (https://ashigaru.rs/download/), w sekcji `Download`. Następnie kliknij przycisk `Download for Android`, aby pobrać plik instalacyjny.
+W telefonie otwórz przeglądarkę Tor Browser i przejdź do [oficjalnej strony Ashigaru](https://ashigaru.rs/download/), w sekcji `Download`. Następnie kliknij przycisk `Download for Android`, aby pobrać plik instalacyjny.
 
 
 
@@ -122,7 +122,7 @@ Wróć do [oficjalnej strony Ashigaru](https://ashigaru.rs/download/) w sekcji `
 
 
 
-Nadal na telefonie, otwórz nową kartę w przeglądarce Tor i przejdź do [narzędzia weryfikacji Keybase] (https://keybase.io/verify). Wklej skopiowaną wiadomość w odpowiednie pole, a następnie kliknij przycisk `Verify`.
+Nadal na telefonie, otwórz nową kartę w przeglądarce Tor i przejdź do [narzędzia weryfikacji Keybase](https://keybase.io/verify). Wklej skopiowaną wiadomość w odpowiednie pole, a następnie kliknij przycisk `Verify`.
 
 
 

@@ -6182,7 +6182,7 @@ Isto é o que está a acontecer no código:
 
 2. `http.createServer()` cria um servidor. Você passou para `http.createServer()` um callback `(req, res) => {...}` para ser executado toda vez que alguém se conectar.
 
-3. Atribuiu um código de estado 200 (que indica uma operação bem sucedida) à resposta. Pode ler sobre os códigos de estado http [aqui] (https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
+3. Atribuiu um código de estado 200 (que indica uma operação bem sucedida) à resposta. Pode ler sobre os códigos de estado http [aqui](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
 
 3. `res.end()` envia a resposta e termina a ligação.
 

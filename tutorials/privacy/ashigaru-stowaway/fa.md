@@ -1,5 +1,5 @@
 ---
-name: آشیگارو - مسافر قاچاقی
+name: Ashigaru - Stowaway
 description: چگونه می‌توانم یک تراکنش Payjoin در Ashigaru انجام دهم؟
 ---
 ![cover](assets/cover.webp)

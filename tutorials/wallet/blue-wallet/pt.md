@@ -263,7 +263,7 @@ Ao validar a sua transação, precisará de uma segunda assinatura para aprovar 
 
 
 
-O segundo signatário do Wallet, se também for um utilizador, pode assinar a transação mesmo que esteja fora da Internet (sem Wi-Fi, sem dados móveis), digitalizando o código QR da [transação parcialmente assinada] (https://planb.academy/resources/glossary/psbt) que acabou de criar.
+O segundo signatário do Wallet, se também for um utilizador, pode assinar a transação mesmo que esteja fora da Internet (sem Wi-Fi, sem dados móveis), digitalizando o código QR da [transação parcialmente assinada](https://planb.academy/resources/glossary/psbt) que acabou de criar.
 
 
 

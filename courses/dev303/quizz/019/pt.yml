@@ -1,0 +1,8 @@
+question: Que convenção de nomenclatura é aplicada pelo Rust para nomes de estruturas e nomes de campos, respetivamente?
+answer: CamelCase para nomes de estruturas e snake_case para nomes de campos
+wrong_answers:
+  - snake_case para nomes de estruturas e CamelCase para nomes de campos
+  - kebab-case para nomes de estruturas e camelCase para nomes de campos
+  - MAIÚSCULAS para nomes de estruturas e minúsculas para nomes de campos
+explanation: |
+  O Rust segue convenções específicas de nomenclatura que o compilador impõe através de avisos. Nomes de estruturas devem usar CamelCase (também conhecido como PascalCase), onde cada palavra começa com uma letra maiúscula, como 'MyStruct'. Nomes de campos dentro de estruturas devem usar snake_case com underscores separando palavras como 'meu_campo'. Esta convenção mantém a consistência entre as bases de código do Rust e melhora a legibilidade para os programadores.

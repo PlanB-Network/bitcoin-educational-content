@@ -99,7 +99,7 @@ Phoenixd - это минимальная специализированная н
 
 
 
-Перейдите на страницу [GitHub releases] (https://github.com/ACINQ/phoenixd/releases) и загрузите последнюю версию для вашей архитектуры:
+Перейдите на страницу [GitHub releases](https://github.com/ACINQ/phoenixd/releases) и загрузите последнюю версию для вашей архитектуры:
 
 
 

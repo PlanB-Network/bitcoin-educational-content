@@ -1,0 +1,8 @@
+question: 在事务构建过程中为 P2SH 输入生成签名时，必须在 sighash 计算过程中使用什么脚本？
+answer: 必须使用赎回脚本来代替 scriptPubKey
+wrong_answers:
+  - 必须直接使用包含哈希值的原始 scriptPubKey
+  - 必须使用 scriptPubKey 和赎回脚本的组合
+  - 必须改用包含解锁数据的 ScriptSig
+explanation: |
+  在 P2SH 签名生成过程中，sighash 程序要求使用赎回脚本代替 scriptPubKey。这一点至关重要，因为 scriptPubKey 只包含赎回脚本的哈希值，而不包含实际支出条件。赎回脚本包含决定如何使用输出的真正逻辑（如多重签名要求），因此必须根据此底层脚本生成签名才有效。直接使用 scriptPubKey 会失败，因为它只包含哈希比较，而不是需要满足的实际支出条件。

@@ -1,5 +1,5 @@
 ---
-name: 아시가루 - 돌담 x2
+name: Ashigaru - Stonewall x2
 description: 아시가루에서 스톤월 x2 트랜잭션의 이해와 사용
 ---
 ![cover stonewall x2](assets/cover.webp)

@@ -1,5 +1,5 @@
 ---
-name: Peras
+name: Pears
 description: ¿Cómo se instalan y utilizan las aplicaciones en Pears?
 ---
 

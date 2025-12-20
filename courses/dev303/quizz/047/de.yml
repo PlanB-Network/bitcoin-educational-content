@@ -1,0 +1,8 @@
+question: Worin besteht der Hauptunterschied zwischen der Art und Weise, wie Rust die Ausleihregeln normalerweise durchsetzt und wie RefCell sie durchsetzt?
+answer: Rust erzwingt die Ausleihregeln normalerweise zur Kompilierzeit, während RefCell sie zur Laufzeit erzwingt
+wrong_answers:
+  - Rust erlaubt normalerweise mehrere veränderbare Referenzen, während RefCell sie auf eine beschränkt
+  - Rust verwendet normalerweise Referenzzählung für die Sicherheit, während RefCell statische Analyse verwendet
+  - Rust erfordert normalerweise eine explizite Speicherverwaltung, während RefCell dies automatisch erledigt
+explanation: |
+  Die wichtigste Neuerung von RefCell ist die Verlagerung der Durchsetzung von Ausleihregeln von der Kompilierzeit zur Laufzeit. Normale Rust-Referenzen werden vom Compiler während der Kompilierung geprüft, um die Sicherheit zu gewährleisten, aber RefCell führt dieselben Prüfungen durch, während das Programm läuft. Dadurch kann RefCell in Situationen, in denen die statische Analyse des Compilers zu konservativ ist, eine innere Veränderbarkeit bieten, hat aber den Nachteil, dass es zur Laufzeit zu einer Panik kommen kann, wenn die Verweisregeln verletzt werden. Die anderen Optionen beschreiben die grundlegenden Sicherheitsmechanismen von Rust oder das tatsächliche Verhalten von RefCell nicht korrekt.

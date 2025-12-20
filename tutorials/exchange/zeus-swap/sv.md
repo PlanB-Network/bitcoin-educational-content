@@ -431,7 +431,7 @@ Den framtida utvecklingen av Zeus Swap, med stöd av det erfarna Zeus LSP-teamet
 
 
 - [Zeus Swap - Webbportal](https://swaps.zeuslsp.com)
-- [Zeus Wallet - Mobilapplikation] (https://zeusln.app)
+- [Zeus Wallet - Mobilapplikation](https://zeusln.app)
 - [Blog Zeus - Meddelanden och handledning](https://blog.zeusln.com)
 - [Teknisk dokumentation för Zeus](https://docs.zeusln.app)
 
@@ -443,5 +443,5 @@ Den framtida utvecklingen av Zeus Swap, med stöd av det erfarna Zeus LSP-teamet
 
 
 - [Twitter Zeus (@zeusln)](https://twitter.com/zeusln)
-- [Telegram Zeus] (https://t.me/ZeusLN)
-- [GitHub Zeus] (https://github.com/ZeusLN)
+- [Telegram Zeus](https://t.me/ZeusLN)
+- [GitHub Zeus](https://github.com/ZeusLN)

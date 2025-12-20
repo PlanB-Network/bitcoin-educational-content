@@ -390,9 +390,9 @@ Rédigez des instructions claires expliquant chaque étape de la récupération.
 
 D'autres solutions existent pour gérer la transmission de vos bitcoins, notamment Liana et Bitcoin Keeper. Vous trouverez nos tutoriels ci-après :
 
-https://planb.academy/fr/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-https://planb.academy/fr/tutorials/wallet/backup/bitcoin-keeper-inheritance-c656a201-9587-4bf2-8cdb-acbd3c3631b4
+https://planb.academy/tutorials/wallet/backup/bitcoin-keeper-inheritance-c656a201-9587-4bf2-8cdb-acbd3c3631b4
 
 ## Conclusion
 

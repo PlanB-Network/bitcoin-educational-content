@@ -1,0 +1,9 @@
+question: ใครเป็นคนคิดที่จะตั้งเครือข่ายทดสอบเพื่อหลีกเลี่ยงการทำอันตรายต่อเครือข่ายหลัก Bitcoin?
+answer: กาวิน แอนเดรเซน
+wrong_answers:
+  - Satoshi Nakamoto
+  - Martti Malmi
+  - ลาสโล ฮานเยซ
+explanation: |
+  เขา [กล่าวถึง](https: //bitcointalk.org/index.php?topic=240.msg2104#msg2104) ไอเดียนี้ในฟอรั่มเมื่อวันที่ 9 มิถุนายน และ Satoshi ได้อนุมัติแล้ว เขา [สร้าง](https; //bitcointalk.org/index.php?topic=363.msg3018#msg3018) testnet เมื่อวันที่ 15 กรกฎาคม
+reviewed: true

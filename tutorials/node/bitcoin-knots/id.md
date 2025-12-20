@@ -24,7 +24,7 @@ Ada dua alasan utama untuk menggunakan klien alternatif seperti Knot daripada Co
 
 ## Bagaimana cara memasang Bitcoin Knot?
 
-Kunjungi [situs web resmi Bitcoin Knot] (https://bitcoinknots.org/#download) untuk mengunduh versi untuk sistem operasi Anda. Jangan lupa untuk mengunduh sidik jari dan tanda tangan untuk memverifikasi perangkat lunak. File-file ini juga tersedia [di repositori GitHub Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
+Kunjungi [situs web resmi Bitcoin Knot](https://bitcoinknots.org/#download) untuk mengunduh versi untuk sistem operasi Anda. Jangan lupa untuk mengunduh sidik jari dan tanda tangan untuk memverifikasi perangkat lunak. File-file ini juga tersedia [di repositori GitHub Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
 
 ![Image](assets/fr/02.webp)
 
@@ -248,7 +248,7 @@ Operasi ini juga dapat dilakukan melalui grafik Bitcoin-QT Interface. Buka menu 
 
 ![Image](assets/fr/37.webp)
 
-Temukan IP Address dari mesin yang menghosting Bitcoin Knot di jaringan lokal Anda. Untuk melakukan ini, Anda dapat menggunakan alat seperti [Angry IP Scanner] (https://angryip.org/). Mari kita asumsikan, untuk kepentingan argumen, bahwa IP Address dari node Anda adalah `192.168.1.18`.
+Temukan IP Address dari mesin yang menghosting Bitcoin Knot di jaringan lokal Anda. Untuk melakukan ini, Anda dapat menggunakan alat seperti [Angry IP Scanner](https://angryip.org/). Mari kita asumsikan, untuk kepentingan argumen, bahwa IP Address dari node Anda adalah `192.168.1.18`.
 
 Pada berkas `Bitcoin.conf`, tambahkan baris berikut, atur `rpcbind=192.168.1.18` untuk mencocokkan IP Address node Anda.
 

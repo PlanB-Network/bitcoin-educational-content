@@ -1,0 +1,8 @@
+question: Wat is volgens de Kleine Stelling van Fermat de vermenigvuldigende inverse van element n in een priemveld F(p)?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  De Kleine Stelling van Fermat stelt dat n^(p-1) ≡ 1 (mod p) voor elk niet-nul element n in een priemveld. Om de vermenigvuldigende inverse te vinden, hebben we een waarde nodig die vermenigvuldigd met n 1 oplevert. Omdat n^(p-1) ≡ 1, kunnen we dit herschrijven als n - n^(p-2) ≡ 1, wat bewijst dat n^(p-2) de vermenigvuldigende inverse van n is. De andere opties zijn onjuist: n^(p-1) is gelijk aan 1 door de stelling van Fermat, terwijl n^(p+1) en n^(p+2) waarden zouden geven die gelijk zijn aan respectievelijk n^2 en n^3 bij reductie modulo p.

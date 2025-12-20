@@ -157,7 +157,7 @@ Hati ya kawaida zaidi inahitaji sahihu,iliyo na ufunguo wa faragha unaohusishwa 
 
 ### UTXOs: Matokeo ya Muamala Usiotumika
 
-Kwenye Bitcoin, kile ambacho sisi kwa kweli hubadilishana sio bitcoins moja kwa moja, lakini **UTXOs** (_Matokeo ya Muamala Usiotumia_), ikimaanisha "matokeo ya muamala ambao haujatumika".
+Kwenye Bitcoin, kile ambacho sisi kwa kweli hubadilishana sio bitcoins moja kwa moja, lakini **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Matokeo ya Muamala Usiotumia_), ikimaanisha "matokeo ya muamala ambao haujatumika".
 
 UTXO ni kipande cha Bitcoin ambacho kinaweza kuwa na thamani yoyote, kwa mfano,  bitcoins 2,000, bitcoins 8, au hata 8,000 Sats. Kila UTXO imefungwa kwa hati, na ili kuitumia, mtu lazima atimize masharti ya hati, mara nyingi sahihi na ufunguo wa faragha unaolingana na kupokea Anwani.
 
@@ -654,7 +654,7 @@ Katika sura hii, tulichunguza njia za malipo kwenye Lightning Network. Lakini sw
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
-Katika sura hii, tutagundua jinsi Umeme huruhusu malipo kupita kupitia nodi za kati bila kuhitaji kuziamini, shukrani kwa **HTLC** (_Kandarasi Zilizofungwa kwa Muda wa Hashed_). Mikataba hii mahiri huhakikisha kwamba kila nodi ya mpatanishi itapokea tu fedha kutoka kwa kituo chake ikiwa itatuma malipo kwa mpokeaji wa mwisho, vinginevyo, malipo hayatathibitishwa.
+Katika sura hii, tutagundua jinsi Umeme huruhusu malipo kupita kupitia nodi za kati bila kuhitaji kuziamini, shukrani kwa **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Kandarasi Zilizofungwa kwa Muda wa Hashed_). Mikataba hii mahiri huhakikisha kwamba kila nodi ya mpatanishi itapokea tu fedha kutoka kwa kituo chake ikiwa itatuma malipo kwa mpokeaji wa mwisho, vinginevyo, malipo hayatathibitishwa.
 
 Suala linalojitokeza kwa uelekezaji wa malipo kwa hivyo ni uaminifu unaohitajika katika nodi za kati, na kati ya nodi za mpatanishi zenyewe. Ili kufafanua hili, hebu tuangalie tena mfano wetu uliorahisishwa wa Lightning Network na nodi 3 na chaneli 2:
 

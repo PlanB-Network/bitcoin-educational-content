@@ -64,7 +64,7 @@ Da biste koristili svoj SeedSigner sa Seedkeeper-om, potrebno je instalirati alt
 
 
 
-Ako već nemate, preuzmite softver [Balena Etcher] (https://etcher.balena.io/), zatim nastavite na sledeći način:
+Ako već nemate, preuzmite softver [Balena Etcher](https://etcher.balena.io/), zatim nastavite na sledeći način:
 
 
 

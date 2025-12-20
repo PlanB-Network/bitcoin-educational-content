@@ -1,0 +1,8 @@
+question: Usanifu wa vipengele vya moduli wa LDK huwezeshaje ujumuishaji wa Moduli ya Usalama wa Vifaa (HSM) kwa miamala ya Umeme?
+answer: Kwa kuruhusu uchimbaji wa vipengele maalum vya kusaini ambavyo vinaweza kuchambua muktadha wa miamala ya Lightning na athari za usalama
+wrong_answers:
+  - Kwa kutoa HSM daemon kamili inayofanya kazi kwa kujitegemea na kuwasiliana kupitia njia zilizosimbwa kwa njia fiche
+  - Kwa kutekeleza viendeshi maalum vya maunzi vinavyounganishwa moja kwa moja na chipsi za HSM kwa ajili ya shughuli za kriptografia
+  - Kwa kuunda visanduku vya mchanga vilivyotengwa vinavyotekeleza mantiki ya itifaki ya Umeme ndani kabisa ya mazingira ya HSM
+explanation: |
+  Ubunifu wa moduli wa LDK huruhusu watengenezaji kutoa vipengele vya utiaji saini na uthibitishaji wa miamala kwa ajili ya ujumuishaji wa HSM pekee. Hii inawezesha uundaji wa vifaa vya utiaji saini vinavyofahamu umeme vinavyoelewa muktadha wa miamala zaidi ya utiaji saini rahisi - vinaweza kutathmini kama muamala unawakilisha malipo halali, shughuli za uelekezaji, au vitisho vinavyowezekana vya usalama. Chaguzi zingine zinaelezea mbinu za monolithic au mahususi za vifaa ambazo zinapingana na falsafa ya moduli ya LDK inayobadilika na ya kutoa vipengele vinavyoweza kutengenezwa badala ya suluhisho kamili.

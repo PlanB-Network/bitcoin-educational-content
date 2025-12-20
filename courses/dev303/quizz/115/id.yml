@@ -1,0 +1,8 @@
+question: Masalah kritis apa yang dipecahkan oleh mekanisme saluran just-in-time dari Breez SDK yang sulit dipecahkan oleh implementasi Lightning tradisional?
+answer: Secara otomatis membuat saluran baru dengan likuiditas masuk yang cukup ketika pembayaran tiba, sehingga pengguna tidak perlu mengelola kapasitas saluran secara manual
+wrong_answers:
+  - Mencegah penutupan paksa saluran dengan menyeimbangkan kembali dana secara otomatis di beberapa saluran ketika salah satu saluran menjadi tidak responsif atau offline
+  - Ini mengurangi biaya transaksi dengan menggabungkan beberapa pembayaran kecil ke dalam operasi saluran yang lebih besar yang diproses selama jam-jam di luar jam sibuk jaringan
+  - Ini menghilangkan kebutuhan akan layanan menara pengawas dengan membuat saluran sementara yang secara otomatis kedaluwarsa setelah pembayaran berhasil diselesaikan
+explanation: |
+  Mekanisme saluran just-in-time secara khusus mengatasi tantangan manajemen likuiditas Lightning di mana dana hanya dapat mengalir ke arah yang memiliki kapasitas. Ketika pengguna perlu menerima pembayaran tetapi tidak memiliki likuiditas masuk yang cukup, LSP secara otomatis membuka saluran baru pada saat pembayaran tiba, terjadi dengan mulus tanpa campur tangan pengguna. Jawaban yang salah menggambarkan tantangan Lightning lainnya, tetapi bukan masalah likuiditas spesifik yang diselesaikan oleh saluran just-in-time.

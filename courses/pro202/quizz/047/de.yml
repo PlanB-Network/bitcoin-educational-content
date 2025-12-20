@@ -1,0 +1,8 @@
+question: Wie lautet die mathematische Formel zur Berechnung der Blocksubvention bei einer bestimmten Blockhöhe h im Protokoll von Bitcoin?
+answer: zuschuss = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - subvention = 50_000_000_000 / (2^(h / 210_000))
+  - zuschuss = 5_000_000_000 * (0,5^(h % 210_000))
+  - zuschuss = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Die richtige Formel verwendet Bit-Shifting-Operationen, wobei 5_000_000_000 für 50 BTC in Satoshis steht und der Rechts-Shift-Operator >> effektiv durch Potenzen von 2 dividiert. Die Bodenteilung h // 210_000 bestimmt, wie viele Halbierungsperioden stattgefunden haben. Die erste falsche Antwort verwendet eine normale Division anstelle von Bit-Shifting und beginnt mit einem falschen Basiswert. Bei der zweiten wird die Modulo-Operation anstelle der Bodenteilung verwendet, was zu einem zyklischen Muster und nicht zu einer progressiven Halbierung führen würde. Die dritte verwendet die Modulo-Operation, die den Halbierungszähler alle 210.000 Blöcke zurücksetzen würde, anstatt Halbierungen über die Zeit zu akkumulieren.

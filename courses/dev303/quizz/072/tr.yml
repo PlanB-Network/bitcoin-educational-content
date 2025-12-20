@@ -1,0 +1,8 @@
+question: Bitcoin uygulama geliştirmede çalışma zamanı kaynak hatalarını geçersiz girdi hatalarından ve mantık hatalarından ayıran nedir?
+answer: Çalışma zamanı kaynak hataları, dosyalar veya ağ bağlantıları gibi harici bağımlılıklar kullanılamadığında ortaya çıkar ve kod değişikliklerinden ziyade çevresel düzeltmeler gerektirir
+wrong_answers:
+  - "Çalışma zamanı kaynak hataları, işlev parametreleri gereksinimleri karşılamadığında ortaya çıkar ve çağıran ile işlev arasındaki sözleşme ihlallerini gösterir"
+  - Çalışma zamanı kaynak hataları, düzgün bir şekilde çözülmesi için hata ayıklama ve kod değişikliği gerektiren program uygulamasındaki hataları temsil eder
+  - Çalışma zamanı kaynak hataları, tür sistemi uyumsuzlukları yakalayamadığında ortaya çıkar ve yanlış veri türlerinin sistemde yayılmasına izin verir
+explanation: |
+  Çalışma zamanı kaynak hataları program mantığının dışındadır ve dosyalar, ağ bağlantıları veya depolama aygıtları gibi bağımlılıklar kullanılamadığında ortaya çıkar. Geçersiz girdi hatalarının (parametre sözleşmesi ihlallerini içerir) veya mantık hatalarının (uygulama hatalarıdır) aksine, çalışma zamanı kaynak hataları genellikle kod değişikliklerinden ziyade çevresel düzeltmeler gerektirir. Genellikle geçici oldukları ve programın doğrudan kontrolü dışında oldukları için uygulama bunları incelikle ele almalıdır.

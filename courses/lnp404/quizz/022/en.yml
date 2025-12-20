@@ -1,0 +1,8 @@
+question: When switching between nodes in Lightning Terminal's multi-node interface, what happens to the dashboard data and tool states?
+answer: All metrics, channel lists, and tool interfaces instantly update to reflect only the selected node's data
+wrong_answers:
+  - Data from all connected nodes remains visible with color-coded indicators to distinguish sources
+  - Previous node data stays cached for comparison while new node data loads in a separate panel
+  - Only basic metrics change while channel management and Loop/Pool tools maintain aggregated views
+explanation: |
+  Lightning Terminal implements complete context switching when nodes are selected. The entire dashboard transforms to show exclusively the active node's data - metrics like ROI and routing history refresh, channel lists display only that node's peers, and Loop/Pool interfaces show swaps and auctions specific to the selected node. This design ensures operators maintain clear situational awareness without data confusion across their fleet, rather than showing mixed or aggregated information from multiple nodes simultaneously.

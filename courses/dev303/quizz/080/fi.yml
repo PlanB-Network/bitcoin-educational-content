@@ -1,0 +1,8 @@
+question: Mikä on merkittävin etu, kun tuotannossa käytettävän Rust-koodin virheenkäsittelyssä käytetään Result- ja Option-tyyppejä panic-tyyppien sijaan?
+answer: Ne pakottavat kuittaamaan nimenomaisesti mahdolliset virheet ja mahdollistavat virheiden sujuvan korjaamisen
+wrong_answers:
+  - Ne parantavat suorituskykyä välttämällä pinon purkamisen virhetilanteissa
+  - Ne muuttavat automaattisesti kaikki virhetyypit merkkijonoviesteiksi, mikä helpottaa vianetsintää
+  - Ne poistavat virheen etenemisen tarpeen käsittelemällä virheet vikapisteessä
+explanation: |
+  Result- ja Option-tyypit tekevät virheenkäsittelystä selkeää ja palautettavissa olevaa pakottamalla kehittäjät myöntämään, että toiminnot voivat epäonnistua, ja tarjoamalla mekanismeja, joilla nämä virheet voidaan käsitellä sujuvasti. Toisin kuin paniikki, joka keskeyttää suorituksen välittömästi, nämä tyypit antavat ohjelmien jatkaa suoritusta ja reagoida asianmukaisesti virhetilanteisiin. Väärät vastaukset antavat väärän kuvan niiden ominaisuuksista: suorituskyky ei ole niiden ensisijainen etu, ne eivät muunna virheitä automaattisesti merkkijonoiksi (se on anyhow'n ominaisuus) ja ne itse asiassa pikemminkin helpottavat kuin poistavat virheiden leviämistä operaattoreiden, kuten ?, avulla.

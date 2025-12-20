@@ -1,0 +1,9 @@
+question: Liquid මත භාවිතා කරන බිට්කොයින් නම් කරන්නේ කෙසේද?
+answer: L-BTC
+wrong_answers:
+  - W-BTC
+  - S-BTC
+  - T-BTC
+explanation: |
+  Liquid මත බිට්කොයින් BTC සමඟ 1ට 1 ලෙස බැඳී ඇති L-BTC ලෙස නිරූපණය කර ඇත.
+reviewed: false

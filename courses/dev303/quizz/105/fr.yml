@@ -1,0 +1,8 @@
+question: Quelle est la différence essentielle entre la conception de la couche de persistance de LDK et la gestion traditionnelle des données des nœuds Lightning, qui permet une flexibilité de déploiement multiplateforme ?
+answer: LDK fournit des blocs de données binaires abstraits pour le stockage, tandis que les applications mettent en œuvre leurs propres mécanismes de stockage
+wrong_answers:
+  - LDK utilise des bases de données SQL standardisées alors que les nœuds traditionnels nécessitent des implémentations de systèmes de fichiers personnalisés
+  - LDK synchronise automatiquement les données entre plusieurs plateformes, alors que les nœuds traditionnels ne stockent les données que localement
+  - LDK crypte par défaut toutes les données de persistance, alors que les nœuds traditionnels s'appuient sur un cryptage au niveau de l'application
+explanation: |
+  La couche de persistance de LDK fait abstraction du stockage en fournissant aux applications des blocs de données binaires sérialisés qui doivent être stockés et récupérés de manière fiable, tout en gérant en interne toute la complexité de la sérialisation des états du canal Lightning et des données du réseau. Cela permet aux applications de choisir n'importe quelle solution de stockage (systèmes de fichiers, stockage en nuage, bases de données) correspondant aux exigences de leur plateforme. Les nœuds Lightning traditionnels mettent généralement en œuvre leurs propres systèmes de gestion des données, liés à des mécanismes de stockage particuliers, ce qui les rend moins flexibles dans différents environnements de déploiement.

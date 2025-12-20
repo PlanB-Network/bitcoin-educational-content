@@ -543,7 +543,7 @@ Etter hvert som du dykker dypere inn i Bitcoin-verdenen, vil du legge merke til 
 Kort sagt: Ikke undervurder cybersikkerhet, ta deg tid til å sette opp det grunnleggende, og husk at konsistens er nøkkelen. Uten god digital hygiene vil selv de beste verktøyene ikke hjelpe deg stort.
 
 
-Ta også en titt på [våre veiledninger om datasikkerhet] (https://planb.academy/tutorials/computer-security) på Plan ₿ Academy.
+Ta også en titt på [våre veiledninger om datasikkerhet](https://planb.academy/tutorials/computer-security) på Plan ₿ Academy.
 
 
 ![image](assets/nb-NO/020.webp)
@@ -635,7 +635,7 @@ En slik tilnærming sikrer at du ikke setter den økonomiske velferden din på s
 ![image](assets/nb-NO/023.webp)
 
 
-Når budsjettet ditt er definert, kan du tenke på hvordan du vil investere. En av de mest nybegynnervennlige og anbefalte metodene er Dollar Cost Averaging (DCA), der du kjøper en fast mengde Bitcoin med jevne mellomrom (ukentlig, månedlig osv.). Denne strategien bidrar til å jevne ut den gjennomsnittlige inngangsprisen over tid og reduserer den følelsesmessige effekten av prissvingninger. Det er en smart tilnærming for de fleste, spesielt nykommere.
+Når budsjettet ditt er definert, kan du tenke på hvordan du vil investere. En av de mest nybegynnervennlige og anbefalte metodene er [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), der du kjøper en fast mengde Bitcoin med jevne mellomrom (ukentlig, månedlig osv.). Denne strategien bidrar til å jevne ut den gjennomsnittlige inngangsprisen over tid og reduserer den følelsesmessige effekten av prissvingninger. Det er en smart tilnærming for de fleste, spesielt nykommere.
 
 
 Så spør deg selv: Hva er tidshorisonten min?
@@ -978,7 +978,7 @@ En av Bitcoins mest undervurderte styrker er dens delbarhet. Hver Bitcoin kan de
 #### En offentlig protokoll, verifiserbar av alle
 
 
-Bitcoin kjører på en offentlig protokoll med **åpen kildekode** (særlig gjennom [Bitcoin Core] (https://github.com/Bitcoin/Bitcoin)). Dette betyr at koden er fritt tilgjengelig for alle som ønsker å inspisere, revidere og forbedre den. Det finnes ingen skjulte mekanismer eller lukkede systemer; alt om hvordan Bitcoin fungerer er åpent tilgjengelig.
+Bitcoin kjører på en offentlig protokoll med **åpen kildekode** (særlig gjennom [Bitcoin Core](https://github.com/Bitcoin/Bitcoin)). Dette betyr at koden er fritt tilgjengelig for alle som ønsker å inspisere, revidere og forbedre den. Det finnes ingen skjulte mekanismer eller lukkede systemer; alt om hvordan Bitcoin fungerer er åpent tilgjengelig.
 
 Denne åpenheten gjør det utrolig vanskelig å innføre bakdører eller gjøre hemmelige endringer. Alle med teknisk kompetanse kan drive en node, bidra til utviklingen eller bygge kompatible verktøy. I Bitcoin oppnås tillit gjennom kode og konsensus, ikke gjennom sentralisert kontroll.
 
@@ -1007,7 +1007,7 @@ Selv om denne tilnærmingen er mer teknisk, gir den de mest krevende brukerne mu
 #### En motstandsdyktig betalingsmetode på tvers av landegrensene
 
 
-På grunn av sin desentraliserte natur fungerer Bitcoin døgnet rundt, uavhengig av landegrenser eller tidssoner. I regioner der tradisjonell bankinfrastruktur mangler, brukes Bitcoin ofte som en rask og rimelig løsning for å sende eller motta penger uten å være avhengig av dyre mellomledd. Selv om transaksjonsgebyrene kan variere avhengig av overbelastning i nettverket, er de generelt mye lavere enn gebyrene bankene tar for internasjonale overføringer. I tillegg gir Layer-2-løsninger som Lightning Network mulighet for enda raskere og billigere Bitcoin-transaksjoner.
+På grunn av sin desentraliserte natur fungerer Bitcoin døgnet rundt, uavhengig av landegrenser eller tidssoner. I regioner der tradisjonell bankinfrastruktur mangler, brukes Bitcoin ofte som en rask og rimelig løsning for å sende eller motta penger uten å være avhengig av dyre mellomledd. Selv om transaksjonsgebyrene kan variere avhengig av overbelastning i nettverket, er de generelt mye lavere enn gebyrene bankene tar for internasjonale overføringer. I tillegg gir Layer-2-løsninger som [Lightning Network](https://planb.academy/resources/glossary/lightning-network) mulighet for enda raskere og billigere Bitcoin-transaksjoner.
 
 
 #### Et verdioppbevaringsmiddel
@@ -1429,7 +1429,7 @@ Børsene spiller en viktig rolle i Bitcoin-økosystemet, og fungerer som broer m
 - enkelt, gratis uttak av bitcoins til en personlig Wallet.
 
 
-Børsene som overholder lokale forskrifter, må vanligvis følge strenge **"Know Your Customer"** (KYC)-protokoller, som krever at brukerne fremlegger identifikasjonsdokumenter før de får tilgang til tjenestene. Selv om disse prosessene er utformet for å forhindre ulovlig aktivitet, kan de gå på bekostning av personvernet som Bitcoin i seg selv tilbyr.
+Børsene som overholder lokale forskrifter, må vanligvis følge strenge **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC)-protokoller, som krever at brukerne fremlegger identifikasjonsdokumenter før de får tilgang til tjenestene. Selv om disse prosessene er utformet for å forhindre ulovlig aktivitet, kan de gå på bekostning av personvernet som Bitcoin i seg selv tilbyr.
 
 
 ![image](assets/nb-NO/058.webp)
@@ -1538,7 +1538,7 @@ Bitcoin Wallet-bransjen er delt inn i flere kategorier, som hver for seg dekker 
 
 
 
-- **Produsenter av Hardware Wallet**: Disse selskapene utvikler fysiske enheter for sikker lagring av nøkler. Noen har åpen kildekode, mens andre tilbyr proprietære løsninger med varierende funksjoner og sikkerhetsnivåer. Blant kjente navn finner vi Ledger, Trezor, Coinkite, Foundation og Shiftcrypto.
+- **Produsenter av [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Disse selskapene utvikler fysiske enheter for sikker lagring av nøkler. Noen har åpen kildekode, mens andre tilbyr proprietære løsninger med varierende funksjoner og sikkerhetsnivåer. Blant kjente navn finner vi Ledger, Trezor, Coinkite, Foundation og Shiftcrypto.
 - **Software Wallet Utviklere**: Dette er alt fra selskaper til uavhengige utviklere som lager mobil- og skrivebordsapplikasjoner. Tilbudene deres varierer når det gjelder brukeropplevelse, sikkerhet og funksjoner. Eksempler inkluderer Sparrow, Wizard Sardine, Galoy, Synonym og Blockstream.
 - DIY-lommebøker (*Do It Yourself*): Disse åpen kildekode-løsningene er utviklet for avanserte brukere som ønsker full kontroll og minimal avhengighet av tredjeparter. Ved å bygge din egen Wallet reduserer du avhengigheten av tredjeparter og kan øke sikkerheten din. Blant de mest kjente alternativene er Seedsigner og Specter DIY.
 
@@ -2112,7 +2112,7 @@ Det er derfor viktig å forstå at det å gå gjennom KYC ikke bare er et mindre
 - **P2P-plattformer**: Plattformer som Bisq, RoboSats og Peach legger til rette for utveksling mellom privatpersoner uten behov for identitetsverifisering, og bruker escrow-systemer for å sikre transaksjoner. Disse plattformene innebærer fortsatt en risiko for tyveri hvis den andre parten ikke samarbeider, men risikoen minimeres ved hjelp av escrow-tjenester.
 - **Bitcoin i minibanker (Automated Teller Machines)**: Noen minibanker (kiosker) lar deg kjøpe Bitcoin med kontanter, men gebyrene har en tendens til å være høye, og noen krever ID-verifisering for større transaksjoner.
 - **KYC-frie Exchange-plattformer**: Noen plattformer, særlig i Sveits, lar deg kjøpe små mengder Bitcoin uten å kreve ID-verifisering.
-- **Mining**: Privatpersoner kan utvinne Bitcoin. Eldre eller mindre maskiner er tilgjengelige, noe som gir en utradisjonell måte å anskaffe Bitcoin på uten KYC. Ved å bli med i en Mining pool kan du tjene regelmessige utbetalinger, selv med grunnleggende utstyr. For mer informasjon, [sjekk ut våre Mining-veiledninger] (https://planb.academy/tutorials/mining).
+- **Mining**: Privatpersoner kan utvinne Bitcoin. Eldre eller mindre maskiner er tilgjengelige, noe som gir en utradisjonell måte å anskaffe Bitcoin på uten KYC. Ved å bli med i en Mining pool kan du tjene regelmessige utbetalinger, selv med grunnleggende utstyr. For mer informasjon, [sjekk ut våre Mining-veiledninger](https://planb.academy/tutorials/mining).
 - **Betalinger / Lønn i bitcoins**: Hvis du driver en bedrift, kan du akseptere Bitcoin som betaling. Hvis du er ansatt, kan du, avhengig av jurisdiksjonen din, be om å få betalt i Bitcoin. Disse metodene lar deg anskaffe Bitcoin uten KYC.
 
 
@@ -2808,7 +2808,7 @@ Valget av å bruke bitcoins er ofte gjenstand for kritikk. Noen Bitcoin-brukere 
 En mer logisk tilnærming er "Bruk og erstatt"-metoden. Dette betyr at du bruker Bitcoin av alle de grunnene som er nevnt tidligere, og i stedet for å la sparepengene dine krympe, erstatter du de brukte Sats ved å kjøpe nye Sats med fiat-valuta.
 
 
-For å gjøre det enklere å bruke Bitcoin finnes det mange tilgjengelige verktøy, for eksempel [BTC Map] (https://btcmap.org/), som viser deg kjøpmenn over hele verden som godtar Bitcoin. Noen av disse forhandlerne lar deg til og med bestille på nettet og få produktene levert.
+For å gjøre det enklere å bruke Bitcoin finnes det mange tilgjengelige verktøy, for eksempel [BTC Map](https://btcmap.org/), som viser deg kjøpmenn over hele verden som godtar Bitcoin. Noen av disse forhandlerne lar deg til og med bestille på nettet og få produktene levert.
 
 
 Siden vi fortsatt er i en overgangsfase der ikke alle dagligvarebutikker godtar BTC, finnes det noen enkle, men effektive løsninger. For eksempel er det en praktisk løsning å kjøpe gavekort med Bitcoin, og mange leverandører som Bitrefill, Coinsbee eller The Bitcoin Company tilbyr denne tjenesten.
@@ -2902,7 +2902,7 @@ Den paranoide brukeren blander aldri midler basert på opprinnelse eller bruk. I
 
 
 
-- En Cold Wallet (luftgapet og/eller DIY) **Langsiktige beholdninger lagres i svært sikre, luftgapede eller DIY-lommebøker.** Dette er vanligvis åpen kildekode-enheter eller enheter med verifiserbar kode, for eksempel Jade, Coldcard, SeedSigner, Portal eller Passport... Når det er mulig, skaffer de seg disse enhetene anonymt; enten ved å betale kontant eller bruke Bitcoin i en fysisk butikk, eller ved å bestille på nettet med diskrete fraktalternativer og BTC-betalinger. I Frankrike er for eksempel [Bitcoin Bazar] (https://bitcoinbazar.fr/) en slik butikk. Du kan søke etter lignende leverandører i din region.
+- En Cold Wallet (luftgapet og/eller DIY) **Langsiktige beholdninger lagres i svært sikre, luftgapede eller DIY-lommebøker.** Dette er vanligvis åpen kildekode-enheter eller enheter med verifiserbar kode, for eksempel Jade, Coldcard, SeedSigner, Portal eller Passport... Når det er mulig, skaffer de seg disse enhetene anonymt; enten ved å betale kontant eller bruke Bitcoin i en fysisk butikk, eller ved å bestille på nettet med diskrete fraktalternativer og BTC-betalinger. I Frankrike er for eksempel [Bitcoin Bazar](https://bitcoinbazar.fr/) en slik butikk. Du kan søke etter lignende leverandører i din region.
 
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -3175,7 +3175,7 @@ Du har da to alternativer:
 ### Målene med en Bitcoin-etterfølgerplan
 
 
-Pamela Morgan skisserer i sin bok *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)* fire viktige mål for en solid arveplan:
+Pamela Morgan skisserer i sin bok *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)* fire viktige mål for en solid arveplan:
 
 
 
@@ -3188,7 +3188,7 @@ Pamela Morgan skisserer i sin bok *[Cryptoasset Inheritance Planning] (https://w
 En gjennomtenkt plan handler ikke bare om å overføre formue, men også om å beskytte dine nærmeste mot vanlige feil og potensielle trusler.
 
 
-Dette kapittelet er inspirert av arbeidet til [Pamela Morgan] (https://x.com/pamelawjd). [Hennes bok](https://www.amazon.com/gp/product/1947910116/), og selv om boken hennes tilbyr en detaljert og ekspertvalidert metode for å lage en Bitcoin-arvplan, **utgjør ikke dette innholdet juridisk rådgivning**.  Det er en velprøvd tilnærming, men hver person bør gjøre sine egne undersøkelser og tilpasse anbefalingene til sin personlige situasjon og jurisdiksjon.
+Dette kapittelet er inspirert av arbeidet til [Pamela Morgan](https://x.com/pamelawjd). [Hennes bok](https://www.amazon.com/gp/product/1947910116/), og selv om boken hennes tilbyr en detaljert og ekspertvalidert metode for å lage en Bitcoin-arvplan, **utgjør ikke dette innholdet juridisk rådgivning**.  Det er en velprøvd tilnærming, men hver person bør gjøre sine egne undersøkelser og tilpasse anbefalingene til sin personlige situasjon og jurisdiksjon.
 
 
 [Pamela Morgan](https://x.com/pamelawjd) har generøst autorisert bruken av [hennes arbeid](https://www.amazon.com/gp/product/1947910116/) til dette kurset, og vi vil følge hennes tilnærming for å lage en konkret Bitcoin-arvplan. I dette kapittelet fokuserer vi på den første delen av boken hennes.
@@ -3460,10 +3460,10 @@ Ved behov kan du rådføre deg med en advokat eller notarius publicus for å int
 
 https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-Referanse: [*Planlegging av arv etter kryptoaktiva, en enkel veiledning for eiere* - Pamela Morgan, 2018] (https://www.amazon.com/gp/product/1947910116/)
+Referanse: [*Planlegging av arv etter kryptoaktiva, en enkel veiledning for eiere* - Pamela Morgan, 2018](https://www.amazon.com/gp/product/1947910116/)
 
 
-En spesiell takk til [Pamela Morgan] (https://x.com/pamelawjd) for hennes arbeid og for å ha tillatt at dette innholdet ble tilpasset.
+En spesiell takk til [Pamela Morgan](https://x.com/pamelawjd) for hennes arbeid og for å ha tillatt at dette innholdet ble tilpasset.
 
 
 
@@ -3590,7 +3590,7 @@ Bitcoin er mer enn bare et økonomisk verktøy; det er en bevegelse. Avhengig av
 - **Bli med i et lokalt fellesskap**: Delta i arrangementer, møter og fora for å møte andre bitcoinere og Exchange synspunkter på den siste utviklingen.
 
 
-Hvis du vil bidra til å utdanne andre, er Plan ₿ Academy alltid på utkikk etter bidragsytere! Alt vårt pedagogiske innhold er åpen kildekode og ligger på GitHub. Vi ønsker bidragsytere velkommen til å hjelpe oss med å korrekturlese og oversette innhold til ulike språk; i Exchange for noen få Sats! Enten det er nå eller senere i din Bitcoin-reise, er du invitert til å bli med i [vår Telegram-gruppe for bidragsytere] (https://t.me/PlanBNetwork_ContentBuilder) i Plan ₿ Academy.
+Hvis du vil bidra til å utdanne andre, er Plan ₿ Academy alltid på utkikk etter bidragsytere! Alt vårt pedagogiske innhold er åpen kildekode og ligger på GitHub. Vi ønsker bidragsytere velkommen til å hjelpe oss med å korrekturlese og oversette innhold til ulike språk; i Exchange for noen få Sats! Enten det er nå eller senere i din Bitcoin-reise, er du invitert til å bli med i [vår Telegram-gruppe for bidragsytere](https://t.me/PlanBNetwork_ContentBuilder) i Plan ₿ Academy.
 
 
 ### Siste ord

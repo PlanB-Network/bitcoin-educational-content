@@ -195,7 +195,7 @@ Syötä PIN-koodi.
 
 ![Image](assets/fr/39.webp)
 
-Mene sitten [Blockstreamin verkkosivustolle] (https://jadefw.blockstream.com/pinqr/qrpin.html) vaihtaaksesi QR-koodeja oraakkelin kanssa.
+Mene sitten [Blockstreamin verkkosivustolle](https://jadefw.blockstream.com/pinqr/qrpin.html) vaihtaaksesi QR-koodeja oraakkelin kanssa.
 
 ![Image](assets/fr/40.webp)
 

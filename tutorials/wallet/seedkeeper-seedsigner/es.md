@@ -64,7 +64,7 @@ Para utilizar tu SeedSigner con un Seedkeeper, necesitas instalar un firmware al
 
 
 
-Si aún no lo tiene, descargue el software [Balena Etcher] (https://etcher.balena.io/) y, a continuación, proceda como se indica a continuación:
+Si aún no lo tiene, descargue el software [Balena Etcher](https://etcher.balena.io/) y, a continuación, proceda como se indica a continuación:
 
 
 

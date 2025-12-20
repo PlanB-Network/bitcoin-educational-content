@@ -1,0 +1,8 @@
+question: Mikä on ratkaiseva ero LDK:n pysyvyyskerroksen suunnittelun ja perinteisen Lightning-solmun tiedonhallinnan välillä, joka mahdollistaa alustarajat ylittävän käyttöönoton joustavuuden?
+answer: LDK tarjoaa abstraktit binääriset datakimpaleet tallennusta varten, kun taas sovellukset toteuttavat omat tallennusmekanisminsa
+wrong_answers:
+  - LDK käyttää standardoituja SQL-tietokantoja, kun taas perinteiset solmut vaativat mukautettuja tiedostojärjestelmätoteutuksia
+  - LDK synkronoi tiedot automaattisesti useiden alustojen välillä, kun taas perinteiset solmut tallentavat tiedot vain paikallisesti
+  - LDK salaa oletusarvoisesti kaiken pysyvyystiedon, kun taas perinteiset solmut käyttävät sovellustason salausta
+explanation: |
+  LDK:n pysyvyyskerros abstrahoi tallennuksen tarjoamalla sovelluksille serialisoituja binääritietokokonaisuuksia, jotka on tallennettava ja haettava luotettavasti, samalla kun se käsittelee sisäisesti Lightning-kanavan tilojen ja verkkotietojen serialisoinnin monimutkaisuuden. Näin sovellukset voivat valita minkä tahansa tallennusratkaisun (tiedostojärjestelmät, pilvitallennukset, tietokannat), joka vastaa niiden alustavaatimuksia. Perinteiset Lightning-solmut toteuttavat tyypillisesti omat erityiset tiedonhallintajärjestelmänsä, jotka on sidottu tiettyihin tallennusmekanismeihin, mikä tekee niistä vähemmän joustavia eri käyttöönottoympäristöissä.

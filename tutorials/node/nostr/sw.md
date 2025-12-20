@@ -1,6 +1,5 @@
 ---
-name: NOSTR
-
+name: Nostr
 description: Gundua na anza kutumia NOSTR
 ---
 

@@ -1,0 +1,8 @@
+question: Jaká kritická omezení ekosystémů mobilních aplikací odhalila původní aplikace Breez, která ovlivnila vývoj architektury SDK?
+answer: Mobilní aplikace spolu nemohou snadno komunikovat, což nutí vývojáře vytvářet všechny funkce Lightningu v jednotlivých aplikacích a nesdílet infrastrukturu Lightningu
+wrong_answers:
+  - Mobilní zařízení nemají dostatečný výpočetní výkon pro spolehlivý provoz bleskových uzlů, takže ke zpracování složitých směrovacích výpočtů je zapotřebí cloudová infrastruktura
+  - Mobilní operační systémy příliš omezují procesy na pozadí, což brání uzlům Lightning udržovat trvalá připojení k síti
+  - Obchody s mobilními aplikacemi zakazují finanční aplikace bez úschovy, což nutí vývojáře implementovat úschovná řešení, aby dosáhli schválení obchodu s aplikacemi
+explanation: |
+  Původní aplikace Breez ukázala, že mobilní ekosystémy neumožňují komunikaci mezi aplikacemi, což brání specializovaným aplikacím využívat sdílenou infrastrukturu Lightning. Toto architektonické omezení si vynutilo, aby všechny funkce Lightning byly umístěny do monolitických aplikací. Ostatní možnosti jsou nesprávné: na mobilních zařízeních lze provozovat uzly Lightning (jak dokázala aplikace Breez), omezení na pozadí lze zvládnout pomocí správné architektury a obchody s aplikacemi obecně umožňují provozovat neústrojné finanční aplikace.

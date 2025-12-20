@@ -28,7 +28,7 @@ IVPN to usługa VPN zaprojektowana specjalnie dla użytkowników poszukujących 
 
 Polityka prywatności IVPN jest surowa: podczas rejestracji nie są wymagane żadne dane osobowe. Konto można otworzyć bez podawania adresu e-mail Address, imienia i nazwiska lub numeru telefonu. W przypadku płatności nie jest konieczne podawanie danych karty kredytowej, ponieważ IVPN akceptuje płatności w bitcoinach (onchain i Lightning). Co więcej, IVPN twierdzi, że nie prowadzi żadnych dzienników aktywności, co oznacza, że teoretycznie ruch internetowy użytkownika nie jest rejestrowany przez firmę.
 
-IVPN jest również [całkowicie open-source] (https://github.com/ivpn), jeśli chodzi o oprogramowanie, aplikacje, a nawet stronę internetową, umożliwiając każdemu weryfikację i przegląd kodu. Co roku przechodzą również niezależne audyty bezpieczeństwa, których wyniki są publikowane na ich stronie internetowej.
+IVPN jest również [całkowicie open-source](https://github.com/ivpn), jeśli chodzi o oprogramowanie, aplikacje, a nawet stronę internetową, umożliwiając każdemu weryfikację i przegląd kodu. Co roku przechodzą również niezależne audyty bezpieczeństwa, których wyniki są publikowane na ich stronie internetowej.
 
 
 IVPN korzysta wyłącznie z własnych serwerów, eliminując w ten sposób ryzyko związane z korzystaniem z usług chmurowych innych firm, takich jak AWS, Google Cloud lub Microsoft Azure.
@@ -92,7 +92,7 @@ Przejdźmy teraz do aktywacji IVPN na swoich urządzeniach.
 ## Jak opłacić i aktywować IVPN?
 
 
-Przejdź do oficjalnej strony IVPN [na stronie płatności] (https://www.ivpn.net/en/pricing/).
+Przejdź do oficjalnej strony IVPN [na stronie płatności](https://www.ivpn.net/en/pricing/).
 
 ![IVPN](assets/notext/07.webp)
 

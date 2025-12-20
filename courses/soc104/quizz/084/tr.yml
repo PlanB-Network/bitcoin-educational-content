@@ -1,0 +1,8 @@
+question: Hayek'in dağınık bilgi teorisine göre, merkezi planlama bir ekonomik koordinasyon mekanizması olarak neden temelden kusurludur?
+answer: Bilginin sadece bireyler arasında dağınık parçalar halinde bulunması, merkezi planlamacıların etkin koordinasyon için gereken eksiksiz bilgiye erişimini imkansız hale getirmektedir
+wrong_answers:
+  - Merkezi planlamacılar, tam piyasa bilgisine sahip olsalar bile, başkaları adına karar verme konusunda ahlaki yetkiden yoksundurlar
+  - Siyasi yozlaşma ve kişisel çıkarlar, merkezi planlamacıların gerekli tüm verilere erişebilmelerine rağmen ekonomik açıdan en uygun çözümleri uygulamalarını engeller
+  - Merkezi planlama, Hayek'in zamanında mevcut olmayan ancak bugün işe yarayabilecek çok fazla hesaplama gücü ve teknoloji gerektirir
+explanation: |
+  Hayek'in merkezi planlama eleştirisi ahlaki ya da teknolojik değil, epistemolojiktir. Hayek, bilginin hiçbir zaman yoğunlaştırılmış bir biçimde var olmadığını, sadece 'tüm farklı bireylerin sahip olduğu eksik ve sıklıkla çelişkili bilginin dağınık parçaları' olarak var olduğunu savunmuştur Bu dağınık bilgi sorunu, merkezi planlamacıların sadece bireylerin sahip olduğu öznel maliyetlere, faydalara ve yerel tercihlere erişemeyeceği anlamına gelir ve niyetleri veya hesaplama yetenekleri ne olursa olsun verimli ekonomik koordinasyonu imkansız hale getirir.

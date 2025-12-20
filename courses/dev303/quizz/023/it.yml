@@ -1,0 +1,8 @@
+question: Cosa succede all'istanza della struttura originale quando si utilizza la sintassi struct update con tipi non copiati?
+answer: I campi copiati diventano inutilizzabili nell'istanza originale a causa della semantica dello spostamento
+wrong_answers:
+  - L'istanza originale rimane completamente invariata e completamente accessibile
+  - L'intera istanza originale viene clonata, lasciando entrambe le istanze completamente funzionanti
+  - Solo i campi modificati esplicitamente diventano inaccessibili nel file originale
+explanation: |
+  Quando si usa la sintassi di aggiornamento delle struct con tipi non copiati, il sistema di proprietà di Rust sposta i campi copiati dall'istanza originale a quella nuova. Ciò significa che quei campi specifici diventano inutilizzabili nell'istanza originale, mentre i campi che non sono stati copiati rimangono accessibili. Il compilatore tiene traccia di questi spostamenti parziali in modo intelligente, impedendo l'accesso ai campi spostati e consentendo l'uso dei campi non spostati. Questo comportamento garantisce la sicurezza della memoria, impedendo il possesso multiplo degli stessi dati.

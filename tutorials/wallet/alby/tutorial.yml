@@ -141,6 +141,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.09
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.76
 tags:
   - lightning
   - wallets

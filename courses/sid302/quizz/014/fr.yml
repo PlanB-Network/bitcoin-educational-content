@@ -1,0 +1,8 @@
+question: Qu'est-ce qui garantit que les deux parties d'un échange inter-couches achèvent la transaction avec succès ou qu'elles échouent toutes deux sans perdre de fonds ?
+answer: Le même verrou de hachage est utilisé sur les deux réseaux, ce qui crée un lien cryptographique entre les jambes d'échange
+wrong_answers:
+  - Les blocages de temps empêchent l'une ou l'autre partie de réclamer des fonds jusqu'à ce que les deux réseaux confirment les transactions
+  - L'agrégation de clés MuSig2 exige la cosignature des deux parties avant tout transfert de fonds
+  - "Le chemin de script de Taproot inverse automatiquement les transactions si l'un des réseaux ne s'achève pas"
+explanation: |
+  La nature atomique des échanges entre couches repose sur l'utilisation de verrous de hachage identiques sur les deux réseaux. Lorsque le destinataire révèle la préimage secrète pour réclamer des fonds sur une couche, ce même secret devient visible et utilisable par l'expéditeur pour réclamer des fonds réciproques sur l'autre couche. Cette liaison cryptographique garantit l'atomicité : soit les deux parties reçoivent leurs fonds, soit aucune ne les reçoit, ce qui élimine le risque de contrepartie dans les échanges sans confiance.

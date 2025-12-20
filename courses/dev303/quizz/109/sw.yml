@@ -1,0 +1,8 @@
+question: Je, ni faida gani ya msingi ya usanifu ya mbinu ya Breez SDK ya usimamizi wa nodi za Umeme ikilinganishwa na utekelezaji wa jadi wa Umeme unaojiendesha?
+answer: Watumiaji hudumisha nodi zao za umeme kwenye miundombinu ya Greenlight huku wakidumisha udhibiti wa kipekee wa funguo za kibinafsi ambazo haziondoki kwenye vifaa vyao.
+wrong_answers:
+  - Watumiaji wanashiriki njia za umeme zilizounganishwa zinazosimamiwa na Breez huku wakidumisha umiliki wa fedha binafsi kupitia mipango ya saini nyingi.
+  - "Watumiaji hutumia nodi nyepesi za umeme ndani ya nchi zinazolingana na nodi kuu za Breez kwa ajili ya kutegemewa zaidi na mahitaji ya kipimo data yaliyopunguzwa"
+  - Watumiaji hukabidhi usimamizi wa chaneli kwa Watoa Huduma za Umeme huku wakidumisha ulinzi kupitia moduli za usalama wa vifaa vilivyojumuishwa kwenye vifaa vya mkononi.
+explanation: |
+  Usanifu wa Breez SDK humpa kila mtumiaji nodi yake maalum ya Lightning inayofanya kazi kwenye miundombinu ya wingu ya Greenlight, lakini muhimu zaidi, funguo za kibinafsi haziondoki kamwe kwenye kifaa cha mtumiaji. Hii ina maana kwamba Greenlight haiwezi kufanya shughuli zozote za Lightning bila programu ya mtumiaji kusaini miamala kikamilifu. Hii inatofautiana na mabwawa ya njia ya pamoja, nodi nyepesi za ndani, au moduli za usalama wa vifaa - ni mbinu ya kipekee mseto ambayo huondoa ugumu wa uendeshaji huku ikihifadhi kanuni za kweli za kujilinda.

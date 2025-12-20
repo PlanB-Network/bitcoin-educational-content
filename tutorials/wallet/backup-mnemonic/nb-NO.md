@@ -46,11 +46,11 @@ For de som er på utkikk etter et økonomisk alternativ for å sikkerhetskopiere
 
 ![SEED](assets/fr/01.webp)
 
-Bildekreditt: [*SAFU Ninja Review*, Jameson Lopp] (https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
+Bildekreditt: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
-Hvis du foretrekker å investere i en komplett metallsikring, anbefaler jeg at du tar en titt på [Jameson Lopps motstandstester] (https://jlopp.github.io/metal-bitcoin-storage-reviews/), som evaluerer de fleste løsningene som finnes på markedet. Jeg vil råde deg til å velge en brakett i ett stykke, for eksempel en metallplate for gravering, stempling eller stansing. Disse enhetene gir generelt mye større motstand enn systemer som bruker uavhengige bokstaver som skal monteres.
+Hvis du foretrekker å investere i en komplett metallsikring, anbefaler jeg at du tar en titt på [Jameson Lopps motstandstester](https://jlopp.github.io/metal-bitcoin-storage-reviews/), som evaluerer de fleste løsningene som finnes på markedet. Jeg vil råde deg til å velge en brakett i ett stykke, for eksempel en metallplate for gravering, stempling eller stansing. Disse enhetene gir generelt mye større motstand enn systemer som bruker uavhengige bokstaver som skal monteres.
 
-Hvis du velger en papirlommebok, har du flere alternativer: et enkelt blankt ark, papplommeboken som ofte følger med maskinvarelommeboken, eller vår nedlastbare mal som du kan skrive ut [ved å klikke her] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
+Hvis du velger en papirlommebok, har du flere alternativer: et enkelt blankt ark, papplommeboken som ofte følger med maskinvarelommeboken, eller vår nedlastbare mal som du kan skrive ut [ved å klikke her](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 ![SEED](assets/fr/02.webp)
 

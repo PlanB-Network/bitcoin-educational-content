@@ -1,0 +1,8 @@
+question: Eliptik eğri noktaları toplama işlemi altında ne tür bir matematiksel yapı oluşturur?
+answer: Kapanış, birliktelik, özdeşlik ve tersleri olan matematiksel bir grup
+wrong_answers:
+  - Çarpma ve bölme işlemlerinin tanımlandığı sonlu bir cisim
+  - Skaler çarpım ve doğrusal kombinasyonlara sahip bir vektör uzayı
+  - Hem toplama hem de çarpma işlemlerine sahip bir halka yapısı
+explanation: |
+  Eliptik eğri noktaları toplama işlemi altında matematiksel bir grup oluşturur, bu da dört temel özelliği karşıladıkları anlamına gelir: kapanma (iki nokta eklemek eğri üzerinde başka bir nokta verir), birleşebilirlik (işlemlerin sırası önemli değildir), özdeşlik (sonsuzdaki nokta sıfır gibi davranır) ve tersler (her noktanın x ekseni boyunca onu iptal eden bir yansıması vardır). Bu grup yapısı eliptik eğri kriptografisi için temeldir çünkü skaler çarpma (bir noktayı tekrar tekrar kendine ekleme) gibi işlemlerin iyi tanımlanmış ve öngörülebilir olmasını sağlayarak Bitcoin'da kullanılanlar gibi güvenli kriptografik protokollere olanak tanır.

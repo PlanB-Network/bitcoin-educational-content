@@ -55,7 +55,7 @@ non_translatable:
   - Blinded ranges
   - BLK*.DAT
   - BLKINDEX.DAT
-  - BLKTREE/
+  - "BLKTREE/"
   - BLOCK
   - Block explorer
   - Block reward
@@ -71,17 +71,21 @@ non_translatable:
   - B-MONEY
   - CGMINER
   - chain code
+  - "CHAINSTATE/"
   - CLI
   - CPFP
   - Child pay for parent
   - Child-pay-for-parent
   - Client-side Validation
   - CoinJoin
+  - Coinjoin
   - Coin
   - Coinbase Transaction
-  - COINS/
+  - "COINS/"
   - Cold
-  - COOKIE (.COOKIE)
+  - Cold Wallet
+  - COLD WALLET
+  - "COOKIE (.COOKIE)"
   - Commitment
   - Commitment Transaction
   - Confidential Transactions
@@ -94,6 +98,7 @@ non_translatable:
   - Contract Rights
   - Contract State
   - Cypherpunk
+  - "DATABASE/"
   - DB.LOG
   - DEBUG.LOG
   - Debugger
@@ -101,9 +106,12 @@ non_translatable:
   - Descriptor
   - Descriptor Wallets
   - Deterministic Bitcoin Commitment
+  - "DIGEST (HASH)"
   - Directed Acyclic Graph
   - Double-spending
   - Dust
+  - DUST LIMIT
+  - DUSTING ATTACK
   - Découvre Bitcoin
   - ECASH
   - ECLAIR
@@ -132,12 +140,12 @@ non_translatable:
   - Green
   - Hal Finney
   - Halving
-  - Hard
   - Hard Fork
   - Hardware Wallet
   - Hash
   - HASHCASH
   - HashCash
+  - Hasher
   - Hashrate
   - HODL
   - Hot
@@ -174,6 +182,7 @@ non_translatable:
   - Merkle Root
   - Merkle Tree
   - Miner
+  - MINER
   - Mining
   - mining
   - Mining Farm
@@ -181,6 +190,7 @@ non_translatable:
   - Mnemonic
   - Multi Protocol Commitment
   - Multisig
+  - MyNode
   - M-OF-N
   - NLOCKTIME
   - Nonce
@@ -287,6 +297,7 @@ non_translatable:
   - Plan ₿ Hangouts
   - Plan ₿ Labs
   - Plan ₿ Network
+  - Plan ₿ Academy
   - POOL HOPPING
   - Proof of Work
   - Proof-of-Work
@@ -437,3 +448,244 @@ non_translatable:
   - wallet
   - watchmen
   - ₿-CERT
+  - "be-BOP"
+  - "Breez - POS"
+  - "BTC Map"
+  - "BTCPay Server - Umbrel"
+  - "BTCPay Server - USDT"
+  - Coinos
+  - LNbits
+  - "LNbits Server"
+  - "Open Node"
+  - "Flash - POS"
+  - "Speed Wallet - POS"
+  - "Swiss Bitcoin Pay"
+  - "Wallet of Satoshi - POS"
+  - "Aegis Authenticator"
+  - "Alias Vault"
+  - "Angry IP Scanner"
+  - "Arch Linux"
+  - "Aurora Store"
+  - "Authy 2FA"
+  - Bitwarden
+  - Cryptomator
+  - Debian
+  - DietPi
+  - "Elementary OS"
+  - "Ente Auth"
+  - "F-Droid"
+  - Fedora
+  - Firefox
+  - GrapheneOS
+  - Graylog
+  - GnuPG
+  - IVPN
+  - Jami
+  - KeePass
+  - Keet
+  - "Ledger U2F & FIDO2"
+  - FIDO2
+  - LibreWolf
+  - LineageOS
+  - "Linux Mint"
+  - "LN VPN"
+  - LUKS
+  - Lynis
+  - Manjaro
+  - "Mozilla VPN"
+  - "Mullvad VPN"
+  - "Mullvad Browser"
+  - Nmap
+  - Ntopng
+  - Olvid
+  - OPNsense
+  - "Orion Browser"
+  - Pears
+  - pfSense
+  - "Pi-Hole"
+  - Picocrypt
+  - "Proton Authenticator"
+  - "Proton Drive"
+  - "Proton Mail"
+  - PureOS
+  - Qubes
+  - "Raspberry Pi Zero"
+  - "YubiKey 2FA"
+  - "Seedkeeper - Password Manager"
+  - Session
+  - Signal
+  - "Simple Login"
+  - "SimpleX Chat"
+  - Tails
+  - Tailscale
+  - Telegram
+  - Threema
+  - Thunderbird
+  - "Tor Browser"
+  - Tox
+  - "Trezor U2F & FIDO2"
+  - Ubuntu
+  - VeraCrypt
+  - VirtualBox
+  - Whonix
+  - WireGuard
+  - "Zen Browser"
+  - "GitHub Account"
+  - "GitHub Desktop"
+  - "Plan ₿ Academy - Pears App"
+  - Banxaas
+  - Bisq
+  - "Bisq 2"
+  - Bitfinex
+  - Bitika
+  - Bitrefill
+  - BitSpenda
+  - Bitstack
+  - Bitstamp
+  - Bittr
+  - Boltz
+  - "Bull Bitcoin"
+  - Coincards
+  - Debifi
+  - Flash
+  - "Hodl Hodl"
+  - Kraken
+  - LNP2PBot
+  - Moon
+  - Mostro
+  - Paymium
+  - Peach
+  - Relai
+  - Robosats
+  - StackinSat
+  - SwapMarket
+  - Tando
+  - "The Bitcoin Company"
+  - Vexl
+  - "Zeus Swap"
+  - Attakaï
+  - Bitaxe
+  - "Braiins Mini Miner"
+  - "Braiins Pool"
+  - "Canaan Avalon Mini 3"
+  - "Canaan Avalon Nano 3S"
+  - "NerdAxe Gamma"
+  - Nerdminer
+  - NerdQaxe
+  - "Ocean Mining"
+  - "Public Pool"
+  - "Alby Hub"
+  - Amboss
+  - "Bitcoin Core (Linux)"
+  - "Bitcoin Core (macOS & Windows)"
+  - Dojo
+  - "Lightning App"
+  - "Lightning Network Daemon (Linux)"
+  - "My Node"
+  - Nakamochi
+  - Neutrino
+  - NOSTR
+  - Nostr
+  - RaspiBlitz
+  - "RGB CLI"
+  - "Ride The Lightning (RTL)"
+  - "RGB Lightning Node"
+  - RoninDojo
+  - "RoninDojo v2"
+  - "Start9"
+  - ThunderHub
+  - Umbrel
+  - "Umbrel LND"
+  - "Umbrel Nostr"
+  - "Lightning Watchtower"
+  - "Ashigaru Terminal"
+  - "Ashigaru Ricochet"
+  - "Ashigaru - Ricochet"
+  - "Ashigaru - Stonewall"
+  - "Ashigaru - Stonewall x2"
+  - "Ashigaru - Stowaway"
+  - "Blockstream Explorer"
+  - "Coin Control"
+  - "Remix - Whirlpool"
+  - "Labelling UTXO"
+  - Alby
+  - "Alby Go"
+  - Ashigaru
+  - Bacca
+  - "BIP-85"
+  - BitBox02
+  - "Bitcoin Keeper"
+  - Bitkey
+  - "Bitkit Wallet"
+  - Blink
+  - "Blitz Wallet"
+  - "Blixt Wallet"
+  - "Blockstream App - Desktop"
+  - "Blockstream App - Liquid"
+  - "Blockstream App - Onchain"
+  - "Blockstream App - Watch-Only"
+  - "Blockstream Green - 2FA"
+  - "Blue Wallet"
+  - Breez
+  - "Bull Bitcoin Wallet"
+  - "Cake Wallet"
+  - "Dana Wallet"
+  - Cashu.me
+  - "COLDCARD Mk"
+  - "COLDCARD - Co-Sign"
+  - "COLDCARD Q"
+  - "COLDCARD Q - Key Teleport"
+  - "Electrum Airgap"
+  - "Electrum OP_RETURN"
+  - Envoy
+  - Fedi
+  - Frostsnap
+  - "Ginger Wallet"
+  - Jade
+  - "Jade DIY"
+  - "Jade Plus - Green"
+  - "Jade Plus - Sparrow"
+  - Krux
+  - "Ledger Nano S"
+  - "Ledger Flex"
+  - "Ledger Nano S Plus"
+  - Lipa
+  - Machankura
+  - "Minibits Wallet"
+  - "Misty Breez"
+  - Muun
+  - "SAFU Ninja"
+  - Nunchuk
+  - OPENDIME
+  - "Passport Core"
+  - Portal
+  - "Proton Wallet"
+  - "Rumble Wallet"
+  - Satochip
+  - Satodime
+  - Satscard
+  - Sats.mobi
+  - Seedkeeper
+  - "Seedkeeper x SeedSigner"
+  - SeedSigner
+  - "Satochip x SeedSigner"
+  - Sentinel
+  - "Sparrow Wallet - Multisig"
+  - "Specter Desktop"
+  - "Specter DIY"
+  - "Speed Wallet"
+  - StashPay
+  - Tapsigner
+  - "Trezor Model One"
+  - "Trezor Safe 3"
+  - "Trezor Safe 5"
+  - "Trezor Shamir Backup"
+  - "Wallet of Satoshi"
+  - "Wasabi Wallet"
+  - "Zeus Embedded"
+  - Kali
+  - "Kali Linux"
+  - "Pop!_OS"
+  - "LN Markets"
+  - Windows 11
+  - Giacomo Zucco

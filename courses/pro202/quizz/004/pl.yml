@@ -1,0 +1,8 @@
+question: Jaka operacja matematyczna jest używana do znalezienia punktu P + Q na krzywej eliptycznej?
+answer: Narysuj prostą przechodzącą przez punkty P i Q, znajdź trzeci punkt przecięcia R, a następnie odbij R przez oś x
+wrong_answers:
+  - Dodaj współrzędne x i współrzędne y punktów P i Q bezpośrednio przy użyciu arytmetyki modularnej
+  - Pomnóż współrzędne P i Q razem i zastosuj równanie krzywej, aby znaleźć wynik
+  - Oblicz punkt środkowy między punktami P i Q, a następnie zastosuj metodę linii stycznej, aby uzyskać sumę
+explanation: |
+  Dodawanie punktów na krzywych eliptycznych odbywa się zgodnie z określoną regułą geometryczną: narysuj linię przechodzącą przez dwa punkty P i Q, która przecina krzywą w trzecim punkcie R, a następnie odbij R przez oś x, aby uzyskać P + Q. Ta operacja geometryczna staje się algebraiczna podczas pracy nad skończonymi polami, ale zachowuje tę samą podstawową zasadę. Pozostałe opcje opisują nieprawidłowe metody, które nie są zgodne z ustalonym prawem grupowym dla krzywych eliptycznych.

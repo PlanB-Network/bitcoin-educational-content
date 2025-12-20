@@ -1,0 +1,8 @@
+question: Vị thế pháp lý của Liquid mang lại lợi thế chiến lược quan trọng nào so với các nền tảng mã hóa token khác như Ethereum hay Solana?
+answer: Liquid tránh được các rủi ro bảo mật chưa đăng ký bằng cách sử dụng Bitcoin (L-BTC) làm tài sản gốc mà không cần mining trước đó hoặc tiến hành ICO.
+wrong_answers:
+  - Liquid hoạt động trong một khuôn khổ pháp lý đặc biệt, cho phép nó được miễn trừ khỏi luật chứng khoán ở hầu hết các quốc gia.
+  - "Mô hình liên kết của Liquid tự động đủ điều kiện cho tất cả các token được phát hành là chứng khoán được quản lý theo các khuôn khổ hiện hành."
+  - Liquid đã nhận được sự chấp thuận toàn diện từ các cơ quan quản lý tài chính lớn đối với tất cả các tài sản được mã hóa trên nền tảng của mình.
+explanation: |
+  Lợi thế về mặt pháp lý chiến lược của Liquid bắt nguồn từ kiến trúc kỹ thuật của nó chứ không phải từ các miễn trừ hoặc phê duyệt đặc biệt. Bằng cách sử dụng Bitcoin làm tài sản gốc (L-BTC) mà không cần token trước mining hoặc tiến hành ICO, Liquid tránh được phân loại "chứng khoán chưa đăng ký" đang đe dọa nhiều nền tảng blockchain khác. Điều này rất quan trọng vì các cơ quan quản lý như SEC ngày càng xem xét kỹ lưỡng các dự án blockchain tạo ra và bán token của riêng họ, có khả năng phân loại chúng là chứng khoán chưa đăng ký. Các câu trả lời sai cho rằng Liquid có các quyền hạn pháp lý đặc biệt hoặc các tính năng tuân thủ tự động, trong khi trên thực tế, lợi thế của nó đến từ việc hoàn toàn tránh được các vấn đề kinh tế của token.

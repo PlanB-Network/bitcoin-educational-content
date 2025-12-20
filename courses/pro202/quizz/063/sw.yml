@@ -1,0 +1,8 @@
+question: Ni sifa gani kuu ya usimbaji fiche inayowezesha vichujio vya vizuizi vidogo (BIP158) kutoa faragha kwa wateja wa mwanga huku ikidumisha usahihi kamili?
+answer: Zinaweza kutoa matokeo chanya ya uongo lakini si matokeo hasi ya uongo wakati wa kulinganisha miamala
+wrong_answers:
+  - Wanatumia uthibitisho usio na maarifa yoyote kuficha anwani zinazoulizwa kutoka kwa nodi.
+  - "Wanasimba data yote ya kichujio kwa kutumia ufunguo wa umma wa mteja ili kuzuia usikilizaji wa siri"
+  - Wanabadilisha mpangilio wa haraka za miamala kwa nasibu ili kuficha mifumo ya matumizi kutoka kwa waangalizi
+explanation: |
+  Vichujio vya vizuizi vifupi hutumia miundo ya data ya uwezekano ambayo inaweza kuonyesha ulinganifu kimakosa (chanya cha uongo) lakini haitakosa ulinganifu halisi (hasi ya uongo). Sifa hii isiyo na ulinganifu ni muhimu: chanya za uongo husababisha tu upakuaji wa vizuizi visivyo vya lazima, huku hasi za uongo zikisababisha pochi kukosa malipo kabisa. Faida ya faragha inatokana na kutokuwa na uhakika huu - waangalizi hawawezi kutofautisha kati ya ulinganifu halisi na chanya za uongo, na kuficha ni miamala gani hasa inayohusiana na wallet inayouliza.

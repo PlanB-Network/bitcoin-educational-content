@@ -1,0 +1,8 @@
+question: Ưu điểm chính của thuật toán nhân đôi và cộng trong phép nhân vô hướng trong mật mã đường cong elliptic là gì?
+answer: Nó giảm độ phức tạp tính toán từ O(n) xuống O(log n) phép toán
+wrong_answers:
+  - Nó loại bỏ sự cần thiết của phép toán số học modulo trong các trường hữu hạn.
+  - Nó chuyển đổi bài toán logarit rời rạc thành lời giải trong thời gian đa thức.
+  - Nó cho phép tính toán trực tiếp khóa riêng từ khóa công khai.
+explanation: |
+  Thuật toán nhân đôi và cộng cải thiện đáng kể hiệu quả bằng cách giảm độ phức tạp tính toán từ phép cộng tuyến tính O(n) xuống phép toán O(log n). Thuật toán này hoạt động bằng cách quét biểu diễn nhị phân của số vô hướng, nhân đôi điểm ở mỗi bước và chỉ cộng điểm sinh khi bit bằng 1. Các tùy chọn khác không chính xác: phép toán modulo vẫn cần thiết trong trường hữu hạn, bài toán logarit rời rạc vẫn không khả thi về mặt tính toán (điều này rất cần thiết cho bảo mật), và khóa riêng không thể được tính toán từ khóa công khai bất kể thuật toán nhân nào được sử dụng.

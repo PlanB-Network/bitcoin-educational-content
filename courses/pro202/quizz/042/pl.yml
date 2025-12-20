@@ -1,0 +1,8 @@
+question: Jeśli mechanizm korekty trudności Bitcoin napotka scenariusz, w którym wydobycie bloków z 2016 roku zajęło dokładnie 6 tygodni zamiast oczekiwanych 2 tygodni, jaki współczynnik korekty zostanie zastosowany?
+answer: Trudność zostanie zmniejszona o współczynnik 4 (maksymalna dozwolona redukcja)
+wrong_answers:
+  - Poziom trudności zostałby zmniejszony o współczynnik 3 (6 tygodni ÷ 2 tygodnie)
+  - Trudność zostanie zmniejszona o współczynnik 2,5, aby zapobiec nadmiernej korekcie
+  - Trudność zostanie zmniejszona o współczynnik 6 w oparciu o współczynnik czasu
+explanation: |
+  Korekta trudności Bitcoin ma wbudowane limity, które ograniczają zmiany do czterokrotności w dowolnym kierunku. Mimo że 6 tygodni ÷ 2 tygodnie = 3, co sugeruje 3-krotną redukcję, protokół ogranicza korekty do 4x, aby zapobiec ekstremalnej zmienności. Ten mechanizm bezpieczeństwa zapewnia stabilność sieci podczas poważnych zmian hash rate, takich jak zakazy mining lub awarie sprzętu, zapobiegając nadmiernej korekcie, która mogłaby zdestabilizować synchronizację bloków.

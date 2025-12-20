@@ -1,0 +1,8 @@
+question: Nini hutokea kwa usanidi wa mtandao wakati wa mchakato wa mpito wa Shirikisho la Nguvu (Dynafed) la Liquid wakati kitendakazi kinahitaji kubadilishwa?
+answer: Mtandao hutangaza muamala wa mpito ukifuatiwa na kipindi cha mwingiliano wa wiki mbili kabla ya usanidi mpya kuchukua nafasi
+wrong_answers:
+  - Mtandao hubadilisha mara moja hadi kwenye usanidi mpya wa utendaji baada ya kutangaza muamala wa mpito
+  - Watendaji wote lazima wapige kura kwa wakati mmoja ili kuidhinisha mbadala kabla ya mabadiliko yoyote ya usanidi kutokea
+  - Mtandao unahitaji fork ngumu na kuzima kwa muda ili kusasisha orodha ya utendaji na kuanzisha upya shughuli
+explanation: |
+  Shirikisho la Dynamic huruhusu Liquid kubadilika bila uma ngumu kupitia mchakato wa mpito uliopangwa kwa uangalifu. Wakati uingizwaji wa utendaji unahitajika, mtandao hutangaza muamala wa mpito unaoashiria mabadiliko yanayokuja. Hii inafuatwa na kipindi cha lazima cha mwingiliano wa wiki mbili ambapo usanidi wa zamani na mpya unaambatana, na kuhakikisha mwendelezo usio na mshono. Chaguzi zingine si sahihi kwa sababu ubadilishaji wa haraka ungehatarisha kutokuwa na utulivu wa mtandao, upigaji kura kwa wakati mmoja sio utaratibu unaotumika, na uma ngumu ndio hasa Dynafed ilibuniwa ili kuepuka.

@@ -1,0 +1,8 @@
+question: Jaka składnia jest używana do uzyskania dostępu do pierwszego pola struktury krotki w Rust?
+answer: Notacja kropkowa z indeksem 0 (np. instance.0)
+wrong_answers:
+  - Nawiasy kwadratowe z indeksem 0 (np. instance[0])
+  - Notacja strzałkowa z indeksem 0 (np. instancja->0)
+  - Podwójny dwukropek z indeksem 0 (np. instance::0)
+explanation: |
+  Struktury krotek w Rust używają notacji kropkowej, po której następuje indeks pola, aby uzyskać dostęp do nienazwanych pól. Pierwsze pole jest dostępne z .0, drugie z .1 itd. Różni się to od tablic lub wektorów, które używają nawiasów kwadratowych, i w przeciwieństwie do C++, który używa notacji strzałkowej dla wskaźników. Składnia podwójnego dwukropka jest zarezerwowana dla powiązanych funkcji i odstępów między nazwami, a nie dla dostępu do pól.

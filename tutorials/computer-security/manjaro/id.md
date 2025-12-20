@@ -104,7 +104,7 @@ Untuk mengunduh, kunjungi [situs web resmi Manjaro](https://manjaro.org/) dan pi
 
 
 
-Kemudian kunjungi situs web perangkat lunak [Rufus] (https://rufus.ie/fr/) dan unduh. Jalankan program, colokkan kunci USB Anda, pilih image ISO Manjaro dan mulai flashing. Tunggu hingga prosesnya selesai sebelum melepas kunci. Anda kemudian dapat memulai ulang komputer Anda.
+Kemudian kunjungi situs web perangkat lunak [Rufus](https://rufus.ie/fr/) dan unduh. Jalankan program, colokkan kunci USB Anda, pilih image ISO Manjaro dan mulai flashing. Tunggu hingga prosesnya selesai sebelum melepas kunci. Anda kemudian dapat memulai ulang komputer Anda.
 
 
 

@@ -1,0 +1,8 @@
+question: Lý do kỹ thuật chính nào giải thích tại sao ví điện tử sử dụng Greenlight đạt được độ tin cậy định tuyến thanh toán vượt trội so với các triển khai Lightning truyền thống trên thiết bị di động?
+answer: Các node Greenlight hoạt động liên tục trên nền tảng đám mây, duy trì đồng bộ hóa đồ thị mạng theo thời gian thực và cung cấp quyền truy cập dữ liệu đồ thị hoàn chỉnh tức thì.
+wrong_answers:
+  - Greenlight sử dụng các thuật toán học máy tiên tiến để dự đoán các tuyến thanh toán tối ưu dựa trên các mô hình giao dịch trong quá khứ.
+  - Greenlight triển khai công nghệ phân chia thanh toán đa đường độc quyền, phân phối các giao dịch trên nhiều kênh cùng lúc để đảm bảo tính dự phòng.
+  - Greenlight duy trì các kết nối băng thông cao chuyên dụng đến các trung tâm Lightning chính, đảm bảo định tuyến ưu tiên thông qua các kênh có lưu lượng truy cập cao nhất.
+explanation: |
+  Câu trả lời đúng đã chỉ ra lợi thế kiến trúc cơ bản của phương pháp dựa trên đám mây của Greenlight. Các ví Lightning di động truyền thống phải đồng bộ hóa dữ liệu đồ thị mạng khi khởi động, gây ra sự chậm trễ và có khả năng hoạt động với thông tin định tuyến lỗi thời. Greenlight giải quyết vấn đề này bằng cách chạy các node Lightning liên tục trên đám mây, đảm bảo chúng luôn có kiến thức mạng hiện tại và có thể cung cấp ngay lập tức dữ liệu đồ thị đầy đủ khi người dùng kết nối. Các câu trả lời sai mô tả các tính năng có vẻ hợp lý nhưng không tồn tại - Greenlight không sử dụng thuật toán định tuyến ML, chia tách thanh toán độc quyền vượt ra ngoài các giao thức Lightning tiêu chuẩn hoặc các kết nối trung tâm đặc biệt để định tuyến ưu tiên.

@@ -1,0 +1,8 @@
+question: Com que frequência são gerados novos blocos no Liquid Network?
+answer: Cada minuto
+wrong_answers:
+  - A cada 10 minutos
+  - A cada 30 segundos
+  - A cada 5 minutos
+explanation: |
+  O Liquid Network produz blocos a cada minuto de forma determinística round-robin, o que é muito mais rápido e previsível do que os intervalos probabilísticos de 10 minutos do Bitcoin. Este tempo exato de um minuto é crítico para os casos de utilização da rede, como a arbitragem e a liquidação rápida entre bolsas, proporcionando a velocidade necessária para as operações comerciais institucionais.

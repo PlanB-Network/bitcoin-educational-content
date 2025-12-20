@@ -1,0 +1,8 @@
+question: "'Hızlı hareket et ve bir şeyleri kır' felsefesi, geleneksel yazılım geliştirmeye kıyasla Bitcoin geliştirme için neden özellikle uygun değildir?"
+answer: "Bitcoin işlemleri geri döndürülemez ve hatalardan kaynaklanan fonları geri alacak merkezi bir otorite yoktur"
+wrong_answers:
+  - "Bitcoin geliştirme, geleneksel web uygulamalarına göre daha hızlı yineleme döngüleri gerektirir"
+  - "Rust'ün derleyicisi blok zinciri inovasyonu için gereken hızlı prototiplemeyi engelliyor"
+  - "Bitcoin'ün açık kaynak yapısı, dağıtımdan sonra hataların düzeltilmesini zorlaştırıyor"
+explanation: |
+  Doğru yanıt, Bitcoin'in temel özelliğini vurgulamaktadır: merkezi olmayan yapısı, işlemler yayınlandıktan sonra fon geri kazanımı için başvurulacak bir makam olmadığı anlamına gelir. Düzenleyici korumalara ve ters ibraz mekanizmalarına sahip geleneksel finansal sistemlerin aksine, Bitcoin hataları kalıcı ve geri döndürülemezdir. Yanlış cevaplar asıl meseleyi yanlış anlamaktadır - mesele geliştirme hızı, derleyici sınırlamaları ya da açık kaynak zorlukları değil, kullanıcı fonlarının kalıcı risk altında olduğu merkezi olmayan bir sistemde finansal işlemlerin geri döndürülemez doğasıdır.

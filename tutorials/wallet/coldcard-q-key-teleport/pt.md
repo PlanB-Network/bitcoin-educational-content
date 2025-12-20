@@ -214,7 +214,7 @@ Os dados são então desencriptados e tornados inteligíveis para o dispositivo 
 
 
 
-Isto pressupõe que o seu Wallet Multisig já tenha sido criado e que o seu dispositivo ColdCardQ já tenha sido pré-configurado para poder efetuar transacções com várias assinaturas. Se não for esse o caso, estão disponíveis explicações [aqui] (https://coldcard.com/docs/Multisig/) no sítio Web da Coinkite.
+Isto pressupõe que o seu Wallet Multisig já tenha sido criado e que o seu dispositivo ColdCardQ já tenha sido pré-configurado para poder efetuar transacções com várias assinaturas. Se não for esse o caso, estão disponíveis explicações [aqui](https://coldcard.com/docs/Multisig/) no sítio Web da Coinkite.
 
 
 

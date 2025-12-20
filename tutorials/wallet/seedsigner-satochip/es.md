@@ -96,7 +96,7 @@ Para usar tu SeedSigner con un Satochip, necesitas instalar un firmware alternat
 
 
 
-Si aún no lo tiene, descargue el software [Balena Etcher] (https://etcher.balena.io/) y, a continuación, proceda como se indica a continuación:
+Si aún no lo tiene, descargue el software [Balena Etcher](https://etcher.balena.io/) y, a continuación, proceda como se indica a continuación:
 
 
 

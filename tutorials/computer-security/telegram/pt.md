@@ -18,7 +18,7 @@ Para além de trocar mensagens, com o Telegram é possível fazer chamadas de v�
 Embora o Telegram esteja disponível nas lojas oficiais, o conselho é sempre o mesmo: descarregue a partir do site do programador, um bom hábito para aqueles que, como você, estão numa viagem preocupada com a privacidade.
 
 
-Com o browser do seu telemóvel, aceda ao site [telegram.org] (https://telegram.org). Pode escolher a sua língua preferida, mas eu recomendo que proceda em inglês, por isso escolha _Telegram for Android_
+Com o browser do seu telemóvel, aceda ao site [telegram.org](https://telegram.org). Pode escolher a sua língua preferida, mas eu recomendo que proceda em inglês, por isso escolha _Telegram for Android_
 
 
 ![image](assets/en/01.webp)
@@ -356,7 +356,7 @@ Na fotografia seguinte, pode ver onde se encontra esta definição.
 O Telegram pode ser utilizado a partir do seu computador, de modo a ser sincronizado com a conta apresentada no seu telemóvel. É possível optar por não descarregar a aplicação e utilizá-la apenas através da Web. No entanto, esta versão tem limitações em comparação com a que é executada no computador, pelo que recomendo que a descarregue e instale para tirar o máximo partido desta poderosa ferramenta.
 
 
-Todas as opções vistas até agora com o modelo móvel podem ser exploradas exatamente da mesma forma a partir do seu computador. Também para esta instalação, vá ao sítio Web oficial [telegram.org] (https://telegram.org). Na página inicial, selecione _Telegram for PC/Linux_.
+Todas as opções vistas até agora com o modelo móvel podem ser exploradas exatamente da mesma forma a partir do seu computador. Também para esta instalação, vá ao sítio Web oficial [telegram.org](https://telegram.org). Na página inicial, selecione _Telegram for PC/Linux_.
 
 No ecrã que se abre, clique para descarregar o executável adequado ao seu sistema operativo.
 

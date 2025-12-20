@@ -287,4 +287,4 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 - [SLIP-0039: Shamir's Secret-Sharing for Mnemonic Codes](https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
 - [Multi-share Backup on Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
-- [Wikipedia: Shamir's secret sharing] (https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).
+- [Wikipedia: Shamir's secret sharing](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

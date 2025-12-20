@@ -1,0 +1,8 @@
+question: Welchen Parametertyp sollte eine Rust-Methode verwenden, wenn sie die Strukturinstanz ändern muss, während der Aufrufer die Eigentümerschaft behalten darf?
+answer: "&mut self"
+wrong_answers:
+  - "&self"
+  - selbst
+  - mut selbst
+explanation: |
+  Methoden, die eine Strukturinstanz ändern müssen, während der Aufrufer die Eigentümerschaft behält, sollten `&mut self` als ihren ersten Parameter verwenden. Dies erzeugt einen veränderbaren Verweis auf die Instanz, der es der Methode ermöglicht, die Felder der Struktur zu ändern, ohne dem Aufrufer den Besitz zu entziehen. Die Verwendung von `&self` würde nur das Lesen der Instanz erlauben, `self` würde die Instanz vollständig verbrauchen, und `mut self` ist keine gültige Rust Syntax für Methodenparameter.

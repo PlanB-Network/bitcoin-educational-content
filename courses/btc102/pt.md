@@ -543,7 +543,7 @@ A cibersegurança pode parecer uma tarefa gigantesca, e é fácil para os princi
 Resumindo: não subestime a cibersegurança, dedique algum tempo a configurar o básico e lembre-se de que a consistência é fundamental. Sem uma boa higiene digital, mesmo as melhores ferramentas não farão muito por si.
 
 
-Não se esqueça também de consultar [os nossos tutoriais sobre segurança informática] (https://planb.academy/tutorials/computer-security) no Plan ₿ Academy.
+Não se esqueça também de consultar [os nossos tutoriais sobre segurança informática](https://planb.academy/tutorials/computer-security) no Plan ₿ Academy.
 
 
 ![image](assets/pt/020.webp)
@@ -635,7 +635,7 @@ Abordar a questão desta forma garante que não está a colocar em risco o seu b
 ![image](assets/pt/023.webp)
 
 
-Quando o seu orçamento estiver definido, pense na forma como quer investir. Um dos métodos mais fáceis para principiantes e amplamente recomendado é o Dollar Cost Averaging (DCA), comprando uma quantidade fixa de Bitcoin em intervalos regulares (semanais, mensais, etc.). Esta estratégia ajuda a suavizar o seu preço médio de entrada ao longo do tempo e reduz o impacto emocional das oscilações de preços. É uma abordagem inteligente para a maioria das pessoas, especialmente para os principiantes.
+Quando o seu orçamento estiver definido, pense na forma como quer investir. Um dos métodos mais fáceis para principiantes e amplamente recomendado é o [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), comprando uma quantidade fixa de Bitcoin em intervalos regulares (semanais, mensais, etc.). Esta estratégia ajuda a suavizar o seu preço médio de entrada ao longo do tempo e reduz o impacto emocional das oscilações de preços. É uma abordagem inteligente para a maioria das pessoas, especialmente para os principiantes.
 
 
 Depois, pergunte a si próprio: Qual é o meu horizonte temporal?
@@ -1007,7 +1007,7 @@ Embora esta abordagem seja mais técnica, oferece aos utilizadores mais exigente
 #### Um método de pagamento transfronteiriço resiliente
 
 
-Devido à sua natureza descentralizada, o Bitcoin funciona 24 horas por dia, 7 dias por semana, sem ser afetado por fronteiras ou fusos horários. Em regiões onde a infraestrutura bancária tradicional é inexistente, o Bitcoin é frequentemente usado como uma solução rápida e de baixo custo para enviar ou receber fundos sem depender de intermediários caros. Embora as taxas de transação possam variar com base no congestionamento da rede, são geralmente muito mais baixas do que as taxas cobradas pelos bancos para transferências internacionais. Além disso, as soluções Layer-2, como o Lightning Network, permitem transacções Bitcoin ainda mais rápidas e baratas.
+Devido à sua natureza descentralizada, o Bitcoin funciona 24 horas por dia, 7 dias por semana, sem ser afetado por fronteiras ou fusos horários. Em regiões onde a infraestrutura bancária tradicional é inexistente, o Bitcoin é frequentemente usado como uma solução rápida e de baixo custo para enviar ou receber fundos sem depender de intermediários caros. Embora as taxas de transação possam variar com base no congestionamento da rede, são geralmente muito mais baixas do que as taxas cobradas pelos bancos para transferências internacionais. Além disso, as soluções Layer-2, como o [Lightning Network](https://planb.academy/resources/glossary/lightning-network), permitem transacções Bitcoin ainda mais rápidas e baratas.
 
 
 #### Uma reserva de valor
@@ -1429,7 +1429,7 @@ As trocas desempenham um papel crítico no ecossistema do Bitcoin, atuando como 
 - levantamento fácil e gratuito de bitcoins para um Wallet pessoal.
 
 
-As bolsas que cumprem os regulamentos locais têm normalmente de seguir protocolos rigorosos **"Know Your Customer "** (KYC), exigindo que os utilizadores forneçam documentos de identificação antes de acederem aos serviços. Embora estes processos sejam concebidos para evitar actividades ilegais, podem comprometer a privacidade que o Bitcoin oferece inerentemente.
+As bolsas que cumprem os regulamentos locais têm normalmente de seguir protocolos rigorosos **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer) "** (KYC), exigindo que os utilizadores forneçam documentos de identificação antes de acederem aos serviços. Embora estes processos sejam concebidos para evitar actividades ilegais, podem comprometer a privacidade que o Bitcoin oferece inerentemente.
 
 
 ![image](assets/pt/058.webp)
@@ -1538,7 +1538,7 @@ A indústria Bitcoin Wallet está dividida em várias categorias, cada uma das q
 
 
 
-- **Fabricantes de Hardware Wallet**: Estas empresas desenvolvem dispositivos físicos concebidos para o armazenamento seguro de chaves. Algumas são de código aberto, enquanto outras oferecem soluções proprietárias com diferentes caraterísticas e níveis de segurança. Nomes notáveis incluem Ledger, Trezor, Coinkite, Foundation e Shiftcrypto.
+- **Fabricantes de [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Estas empresas desenvolvem dispositivos físicos concebidos para o armazenamento seguro de chaves. Algumas são de código aberto, enquanto outras oferecem soluções proprietárias com diferentes caraterísticas e níveis de segurança. Nomes notáveis incluem Ledger, Trezor, Coinkite, Foundation e Shiftcrypto.
 - **Programadores Software Wallet**: Estes vão desde empresas a programadores independentes que criam aplicações móveis e de ambiente de trabalho. As suas ofertas variam em termos de experiência do utilizador, segurança e funcionalidades. Os exemplos incluem Sparrow, Wizard Sardine, Galoy, Synonym e Blockstream.
 - Carteiras DIY (*Do It Yourself*): Estas soluções de código aberto foram concebidas para utilizadores avançados que pretendem um controlo total e uma dependência mínima de terceiros. Construir a sua própria Wallet reduz as dependências de confiança e pode aumentar a sua postura de segurança. As opções DIY notáveis incluem Seedsigner e Specter DIY.
 
@@ -2112,7 +2112,7 @@ Comprar o Bitcoin sem revelar a sua identidade é uma opção para aqueles que d
 - **Plataformas P2P**: Plataformas como a Bisq, RoboSats e Peach facilitam as trocas entre indivíduos privados sem necessidade de verificação de identidade, utilizando sistemas de caução para garantir as transacções. Estas plataformas continuam a comportar o risco de roubo se a outra parte não cooperar, mas o risco é minimizado pelos serviços de caução.
 - **Bitcoin nas caixas automáticas (ATMs)**: Algumas caixas automáticas (quiosques) permitem comprar Bitcoin com dinheiro, embora as taxas tendam a ser elevadas e algumas exijam a verificação da identidade para transacções maiores.
 - **Plataformas Exchange sem KYC**: Algumas plataformas, especialmente na Suíça, permitem-lhe comprar pequenas quantidades de Bitcoin sem exigir a verificação da sua identidade.
-- **Mining**: Os indivíduos podem minerar Bitcoin. Máquinas mais antigas ou mais pequenas são acessíveis, proporcionando uma forma não tradicional de adquirir Bitcoin sem KYC. Ao juntar-se a um Mining pool, pode ganhar pagamentos regulares, mesmo com equipamento básico. Para mais informações, [consulte os nossos tutoriais sobre Mining] (https://planb.academy/tutorials/mining).
+- **Mining**: Os indivíduos podem minerar Bitcoin. Máquinas mais antigas ou mais pequenas são acessíveis, proporcionando uma forma não tradicional de adquirir Bitcoin sem KYC. Ao juntar-se a um Mining pool, pode ganhar pagamentos regulares, mesmo com equipamento básico. Para mais informações, [consulte os nossos tutoriais sobre Mining](https://planb.academy/tutorials/mining).
 - **Pagamentos / Salário em bitcoins**: Se tens um negócio, podes aceitar Bitcoin como pagamento. Se estiveres empregado, dependendo da tua jurisdição, podes pedir para ser pago em Bitcoin. Estes métodos permitem-lhe adquirir Bitcoin sem KYC.
 
 
@@ -2808,7 +2808,7 @@ A escolha de gastar bitcoins é frequentemente objeto de críticas. Alguns utili
 Uma abordagem mais lógica é o método "Gastar e Substituir". Isto significa gastar Bitcoin por todas as razões mencionadas anteriormente e, em seguida, em vez de deixar as suas poupanças de Bitcoin diminuir, substitui os Sats gastos comprando novos Sats com moeda fiduciária.
 
 
-Para facilitar os gastos com Bitcoin, existem muitas ferramentas disponíveis, como o [BTC Map] (https://btcmap.org/), que mostra os comerciantes de todo o mundo que aceitam Bitcoin. Alguns destes comerciantes até permitem encomendar online e receber os produtos em casa.
+Para facilitar os gastos com Bitcoin, existem muitas ferramentas disponíveis, como o [BTC Map](https://btcmap.org/), que mostra os comerciantes de todo o mundo que aceitam Bitcoin. Alguns destes comerciantes até permitem encomendar online e receber os produtos em casa.
 
 
 Uma vez que ainda estamos numa fase de transição em que nem todos os comerciantes diários aceitam BTC, existem algumas soluções simples mas eficazes. Por exemplo, comprar cartões de oferta com Bitcoin é uma solução prática, e muitos fornecedores como Bitrefill, Coinsbee, ou The Bitcoin Company oferecem este serviço.
@@ -3175,7 +3175,7 @@ Gastar apenas 15 minutos a uma hora num plano de herança pode fazer toda a dife
 ### Os objectivos de um plano de sucessão Bitcoin
 
 
-Pamela Morgan, no seu livro *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)*, descreve quatro objectivos fundamentais para um plano de herança sólido:
+Pamela Morgan, no seu livro *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)*, descreve quatro objectivos fundamentais para um plano de herança sólido:
 
 
 
@@ -3590,7 +3590,7 @@ O Bitcoin é mais do que uma ferramenta financeira; é um movimento. Dependendo 
 - **Junte-se a uma comunidade local**: Participe em eventos, encontros e fóruns para conhecer outros utilizadores de bitcoin e para saber mais sobre os últimos desenvolvimentos.
 
 
-Se quiser ajudar a educar os outros, o Plan ₿ Academy está sempre à procura de colaboradores! Todo o nosso conteúdo educativo é de código aberto e está alojado no GitHub. Convidamos os colaboradores a ajudar a rever e a traduzir os conteúdos para várias línguas; em Exchange para alguns Sats! Quer seja agora ou mais tarde na sua jornada Bitcoin, está convidado a juntar-se ao [nosso grupo de Telegrama para colaboradores] (https://t.me/PlanBNetwork_ContentBuilder) do Plan ₿ Academy.
+Se quiser ajudar a educar os outros, o Plan ₿ Academy está sempre à procura de colaboradores! Todo o nosso conteúdo educativo é de código aberto e está alojado no GitHub. Convidamos os colaboradores a ajudar a rever e a traduzir os conteúdos para várias línguas; em Exchange para alguns Sats! Quer seja agora ou mais tarde na sua jornada Bitcoin, está convidado a juntar-se ao [nosso grupo de Telegrama para colaboradores](https://t.me/PlanBNetwork_ContentBuilder) do Plan ₿ Academy.
 
 
 ### Palavras finais

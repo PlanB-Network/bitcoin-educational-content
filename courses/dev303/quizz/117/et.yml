@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus, miks Breez SDK arhitektuur takistab regulatiivseid takistusi, mis tavaliselt mõjutavad hoiuteenuseid Lightning?
+answer: Kasutajad säilitavad täieliku kontrolli oma isiklike võtmete üle, mis ei lahku kunagi nende seadmetest, mistõttu ei ole see tarkvara halduskõlblik
+wrong_answers:
+  - SDK tegutseb detsentraliseeritud LSPde kaudu, mis jaotavad regulatiivse vastutuse mitme jurisdiktsiooni vahel
+  - Greenlight'i infrastruktuuri hoitakse regulatsioonisõbralikes jurisdiktsioonides, mis vabastavad pilvepõhised Lightning-teenused
+  - Just-in-time kanalite mehhanism loob ajutisi maksekanaleid, mis jäävad väljapoole traditsioonilisi finantseeskirju
+explanation: |
+  Breez SDK väldib regulatiivseid takistusi, sest see säilitab mittekaitstavuse põhimõtteid - kasutajate privaatvõtmed ei lahku kunagi nende seadmetest ja Greenlight ei saa juurdepääsu kasutaja rahalistele vahenditele ega teha volitamata toiminguid. Selline mittekaitstav arhitektuur tähendab, et tarkvara ei hoia kliendi raha, erinevalt hoiuteenustest, mille suhtes kehtivad märkimisväärsed regulatiivsed nõuded, kuna nad kontrollivad kasutajate vara. Muude valikuvõimaluste puhul väidetakse ekslikult, et regulatiivsed eelised tulenevad tehnilistest omadustest või jurisdiktsioonistrateegiast, samas kui peamine eelis on lihtsalt see, et mittekaitstav tarkvara seisab ülemaailmselt silmitsi vähemate regulatiivsete tõketega.

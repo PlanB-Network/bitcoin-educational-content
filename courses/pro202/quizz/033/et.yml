@@ -1,0 +1,8 @@
+question: Milline kaheastmeline valideerimisprotsess peab toimuma P2SH väljundi kulutamisel, et tehingut saaks pidada kehtivaks?
+answer: Kõigepealt kontrollige, kas redeem skripti HASH160 vastab scriptPubKey hashile, seejärel käivitage redeem skript esitatud andmetega
+wrong_answers:
+  - Esmalt käivitage lunastusskript esitatud andmetega, seejärel kontrollige, kas saadud hash vastab scriptPubKey'le
+  - Kõigepealt kontrollige, kas kõik allkirjad on kehtivad nende avalike võtmete suhtes, seejärel kontrollige, et lunastusskripti hash vastab
+  - Kõigepealt kinnitage, et lunastusskript sisaldab kehtivaid opkoode, seejärel kontrollige, et skripti täitmine annab tõese tulemuse
+explanation: |
+  P2SH valideerimine nõuab konkreetset kaheetapilist protsessi: kõigepealt peab esitatud lunastusskripti hash vastama 20 baidi suurusele hashile scriptPubKey's (HASH160 kontroll) ja alles pärast seda kontrollimist täidab võrk ise lunastusskripti koos avamisandmetega. Selline ülesehitus tagab, et kasutada saab ainult õiget lunastusskripti, hoides samas tegelikud kulutamistingimused kuni kulutamiseni varjatud. Teised võimalused kirjeldavad usutavaid, kuid ebaõigeid valideerimisjärjekordi, mis ei järgi tegelikku P2SH protokolli.

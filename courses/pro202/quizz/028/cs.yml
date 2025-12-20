@@ -1,0 +1,8 @@
+question: Jaký je zásadní rozdíl mezi P2PK a P2PKH, pokud jde o to, jaké informace jsou odhaleny před utracením mincí?
+answer: P2PK odhaluje celý veřejný klíč v ScriptPubKey před jeho utracením, zatímco P2PKH odhaluje pouze hash veřejného klíče až do jeho utracení
+wrong_answers:
+  - P2PK vyžaduje k ověření více podpisů, zatímco P2PKH potřebuje k odemčení mincí pouze jeden podpis
+  - P2PK používá jiný hashovací algoritmus než P2PKH, takže je bezpečnější proti útokům na kvantové výpočty
+  - P2PK ukládá soukromý klíč do ScriptPubKey, zatímco P2PKH ukládá pouze výsledek ověření podpisu
+explanation: |
+  P2PK zamyká mince přímo na úplný veřejný klíč, který je viditelný ve ScriptPubKey předtím, než dojde k jakémukoli utrácení. P2PKH zlepšuje soukromí tím, že ve ScriptPubKey zobrazuje pouze 20bajtový hash veřejného klíče a skutečný veřejný klíč skrývá, dokud jej vlastník při utrácení neposkytne ve ScriptSig. Toto vylepšení soukromí je jednou z klíčových výhod P2PKH oproti dřívějšímu vzoru P2PK.

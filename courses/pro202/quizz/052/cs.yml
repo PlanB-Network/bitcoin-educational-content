@@ -1,0 +1,8 @@
+question: Jakou hlavní výhodu poskytují Merklovy důkazy klientům SPV (zjednodušené ověřování plateb) při ověřování zařazení transakcí?
+answer: Umožňují ověřit zařazení transakce, aniž by bylo nutné stahovat celý blok, což vyžaduje pouze několik set bajtů i u bloků s tisíci transakcemi
+wrong_answers:
+  - Eliminují potřebu ověřovat hash bloku proti cíli obtížnosti, čímž snižují výpočetní nároky na lehké klienty
+  - Poskytují kryptografický důkaz, který zabraňuje útokům double-spending tím, že ověřuje všechny vstupy transakcí v rámci bloku
+  - Umožňují klientům SPV rekonstruovat kompletní historii transakcí, aniž by se museli připojovat k více plným uzlům současně
+explanation: |
+  Merkleho důkazy využívají logaritmickou růstovou vlastnost Merkleho stromů a umožňují klientům SPV ověřovat začlenění transakcí pouze pomocí hashů sourozenců na cestě ke kořeni. To vyžaduje pouze několik set bajtů bez ohledu na velikost bloku, což je praktické pro lehké klienty. Špatné odpovědi zaměňují Merkleho důkazy s jinými mechanismy Bitcoin - neodstraňují obtížné ověřování, nezabraňují přímo double-spending a nerekonstruují historii transakcí.

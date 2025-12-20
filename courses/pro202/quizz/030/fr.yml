@@ -1,0 +1,8 @@
+question: Quel est l'objectif principal du processus de construction du sighash dans le cadre de la validation des transactions Bitcoin ?
+answer: Pour créer le message exact qui a été signé à l'origine par la clé privée pour la vérification de la signature
+wrong_answers:
+  - A generate un identifiant unique pour la transaction qui empêche les attaques de double-spending
+  - Compresser les données de la transaction dans un format plus petit pour une transmission efficace sur le réseau
+  - Pour crypter le contenu de la transaction afin que seul le destinataire puisse décrypter et dépenser les pièces
+explanation: |
+  La construction du sighash crée le message précis qui a été signé par la clé privée, ce qui permet à OP_CHECKSIG de vérifier l'authenticité de la signature. Ce processus implique de vider les ScriptSigs, de remplacer le ScriptSig de l'entrée actuelle par la clé ScriptPubKey correspondante, et d'ajouter un type de hachage avant le double hachage. Les autres options sont incorrectes : les identifiants de transaction servent d'identifiants, la compression est traitée séparément et les transactions Bitcoin ne sont pas cryptées mais visibles publiquement sur la blockchain.

@@ -1,0 +1,8 @@
+question: Mitä avainsanaa käytetään pakottamaan sulkeminen ottamaan haltuunsa kaapatut muuttujat sen sijaan, että ne lainattaisiin?
+answer: siirrä
+wrong_answers:
+  - oma
+  - kaapata
+  - ota
+explanation: |
+  Avainsanaa `move` käytetään ennen sulkuparametreja pakottamaan sulkuparametri ottamaan haltuunsa kaikki ympäristönsä kaapatut muuttujat. Tämä on tärkeää silloin, kun sulku saattaa ylittää sen alueen, jossa muuttujat alun perin määriteltiin, kuten esimerkiksi säikeitä luotaessa. Ilman `move`-merkintää sulkeutumat tavallisesti kaappaavat muuttujat vähiten rajoittavalla menetelmällä (muuttumaton viittaus, sitten muuttuva viittaus, sitten omistusoikeus), mutta `move`-merkintä kumoaa tämän automaattisen käyttäytymisen varmistaakseen omistusoikeuden siirtymisen. Muut vaihtoehdot (`own`, `capture`, `take`) eivät ole kelvollisia Rust-avainsanoja tähän tarkoitukseen.

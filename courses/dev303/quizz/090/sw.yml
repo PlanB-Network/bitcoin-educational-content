@@ -1,0 +1,8 @@
+question: Ni kikwazo gani cha msingi ambacho watengenezaji programu lazima wafanye kazi nacho wanapotumia UniFFI kwa ajili ya ukuzaji wa programu za simu ambacho kinahitaji violesura vya mtumiaji vinavyoweza kuitikia?
+answer: UniFFI inasaidia tu violesura vya usawazishaji, na hivyo kuwahitaji watengenezaji kushughulikia shughuli zisizo sawazishaji kupitia mifumo tofauti ya uunganishaji wa nyuzi.
+wrong_answers:
+  - UniFFI haiwezi kushughulikia aina changamano za data kama vile enum na structs, na hivyo kupunguza utajiri wa violesura vya simu vya API.
+  - UniFFI hutoa vifungo ambavyo si salama kwa kumbukumbu katika mipaka ya lugha, vinavyohitaji usimamizi wa kumbukumbu kwa mikono
+  - UniFFI haiungi mkono utafsiri wa kushughulikia makosa, na hivyo kuwalazimisha wasanidi programu kutekeleza ushughulikiaji maalum wa ubaguzi katika kila lugha lengwa
+explanation: |
+  Kikwazo kikubwa zaidi cha UniFFI ni ukosefu wake wa usaidizi kwa violesura visivyo na ulandanishi - vifungo vyote vinavyozalishwa ni vya ulandanishi. Hii inaleta changamoto kwa uundaji wa simu ambapo violesura vinavyoitikia ni muhimu, kwani watengenezaji lazima watekeleze suluhisho zao za ulandanishi ili kuepuka kuzuia uzi mkuu. Majibu yasiyo sahihi si sahihi kwa sababu UniFFI kwa kweli inafanikiwa katika kushughulikia aina tata kama vile enum na structs, hutoa uratibu otomatiki salama wa kumbukumbu kuvuka mipaka ya lugha, na ina tafsiri ya kisasa ya kushughulikia makosa ambayo hubadilisha aina za Matokeo ya Rust kuwa modeli asilia za kipekee kwa lugha lengwa.

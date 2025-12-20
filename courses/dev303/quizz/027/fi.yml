@@ -1,0 +1,8 @@
+question: Mitä struct update -syntaksilla voidaan tehdä, kun luodaan uusia rakenneinstansseja Rust:ssa?
+answer: Luo uusi instanssi määrittämällä vain muuttuneet kentät ja kopioimalla loput kentät olemassa olevasta instanssista
+wrong_answers:
+  - Olemassa olevien rakennekenttien muuttaminen paikallaan uutta instanssia luomatta
+  - Automaattisesti generate oletusarvot määrittelemättömille kentille käyttämällä Default-ominaisuutta
+  - Yhdistetään useita rakenneinstansseja yhdeksi yhdistetyksi instanssiksi
+explanation: |
+  Rust:n struct update -syntaksin avulla voit luoda uuden rakenneinstanssin määrittämällä vain ne kentät, joita haluat muuttaa, ja kopioida kaikki muut kentät automaattisesti olemassa olevasta instanssista. Tämä tehdään käyttämällä `..existing_instance`-syntaksia. Muut vaihtoehdot ovat virheellisiä: struct update -syntaksi luo aina uuden instanssin eikä muuta olemassa olevia, se ei käytä generate:n oletusarvoja vaan kopioi ne olemassa olevista instansseista, ja se toimii yhden lähdeinstanssin kanssa sen sijaan, että se yhdistäisi useita instansseja yhteen.

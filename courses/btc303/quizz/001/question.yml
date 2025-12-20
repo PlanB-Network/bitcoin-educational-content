@@ -22,10 +22,11 @@ proofreading:
     contributor_names:
     reward: 0.21
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.21
+      - Truja503
+    reward: 0.11
   - language: et
     last_contribution_date:
     urgency: 1
@@ -136,3 +137,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.29
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.25

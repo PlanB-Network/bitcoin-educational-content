@@ -1,5 +1,5 @@
 ---
-name: 马赞库拉
+name: Machankura
 description: 在任何手机上使用 Bitcoin，无需互联网。
 ---
 

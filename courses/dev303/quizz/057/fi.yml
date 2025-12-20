@@ -1,0 +1,8 @@
+question: Mikä on makron nimen perässä Rust:ssa olevan huutomerkin (!) ensisijainen tarkoitus?
+answer: Se toimii visuaalisena merkkinä siitä, että kyseessä on käännöksen aikainen koodin generointi eikä suoritusaikainen funktiokutsu
+wrong_answers:
+  - Se ilmaisee, että makro hätääntyy, jos sen suorituksen aikana annetaan virheellisiä syöttöparametreja
+  - Se merkitsee makron vaaralliseksi ja vaatii nimenomaista tunnustusta mahdollisista muistiturvallisuusongelmista
+  - Se määrittää, että makro palauttaa tulostyypin, jota on käsiteltävä virheentarkastuksen avulla
+explanation: |
+  Rust:n makrosyntaksissa oleva huutomerkki on tarkoituksellinen valinta, joka erottaa makrot visuaalisesti funktioista. Kun näet `println!()` tai `vec![]`, `!` ilmaisee välittömästi, että käännöksen aikainen koodin laajentaminen tapahtuu, ei suoritusaikainen funktiokutsu. Tämä erottelu on ratkaisevan tärkeä, koska makrot toimivat perustavanlaatuisesti eri tavalla kuin funktiot - ne generate-koodia käännöksen aikana hahmontunnistuksen ja laajennuksen avulla. Väärissä vastauksissa tämä sekoitetaan ajonaikaiseen käyttäytymiseen, kuten paniikkiin, vaarallisiin operaatioihin tai virheenkäsittelyyn, mutta huutomerkki ilmaisee nimenomaan makrojen kääntäen-aikaisen metaohjelmoinnin luonteen.

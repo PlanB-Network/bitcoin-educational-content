@@ -27,7 +27,7 @@ Diagram di bawah ini mengilustrasikan pengoperasian portofolio dengan dua jalur 
 Operasi ini memungkinkan Anda untuk mengatur berbagai konfigurasi, termasuk :
 
 
-- Rencana suksesi (atau warisan), yang memungkinkan ahli waris untuk mendapatkan kembali dana jika pengguna meninggal dunia. Untuk informasi lebih lanjut mengenai hal ini, kami sarankan untuk membaca [bagian 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) dari kursus BTC102.
+- Rencana suksesi (atau warisan), yang memungkinkan ahli waris untuk mendapatkan kembali dana jika pengguna meninggal dunia. Untuk informasi lebih lanjut mengenai hal ini, kami sarankan untuk membaca [bagian 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) dari kursus BTC102.
 - Cadangan yang diperkuat dengan waktu pemulihan, memberikan pengguna kemungkinan untuk menggunakan dompetnya tanpa harus menyimpan frasa rahasia yang sesuai dan berisiko dicuri, selama pencurian misalnya.
 - Jaring pengaman untuk orang-orang yang baru memulai dengan Bitcoin: mereka akan mengelola dompet mereka sendiri, dan "wali" mereka (kerabat, misalnya) akan memiliki hak untuk mendapatkan kembali dana mereka setelah jangka waktu tertentu.
 - Skema tanda tangan multi-pihak (*multisig*) dengan persyaratan yang berkurang dari waktu ke waktu, untuk mengatasi hilangnya satu atau lebih peserta, seperti mitra perusahaan.
@@ -57,7 +57,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 
 ## Instalasi dan konfigurasi
 
-Kunjungi situs web resmi Wizardsardine dan unduh Liana di https://wizardsardine.com/liana/. Anda juga dapat mengunduh versi terbaru [dari repositori GitHub] (https://github.com/wizardsardine/liana/releases), di mana Anda dapat memeriksa keaslian perangkat lunak. Versi yang digunakan dalam tutorial ini adalah 0.9.
+Kunjungi situs web resmi Wizardsardine dan unduh Liana di https://wizardsardine.com/liana/. Anda juga dapat mengunduh versi terbaru [dari repositori GitHub](https://github.com/wizardsardine/liana/releases), di mana Anda dapat memeriksa keaslian perangkat lunak. Versi yang digunakan dalam tutorial ini adalah 0.9.
 
 ![Télécharger Liana](assets/fr/02.webp)
 
@@ -247,7 +247,7 @@ Setelah dikonfirmasi, koin Anda aman! Anda bisa tenang sampai tanggal kedaluwars
 
 Ketika memulihkan dana dari portofolio Liana, Anda mungkin dihadapkan pada salah satu dari dua situasi. Anda mungkin memiliki akses ke komputer tempat perangkat lunak diinstal, dalam hal ini yang harus Anda lakukan adalah membukanya (yang akan terjadi pada kasus model pencadangan yang disempurnakan). Namun, Anda mungkin tidak memiliki akses ke komputer ini, jadi kita akan mulai dari awal di sini. Perhatikan bahwa prosedur pemulihannya sama pada kedua kasus tersebut.
 
-Untuk memulai, unduh Liana dari [situs web resmi Wizardsardine] (https://wizardsardine.com/liana/), atau dari [repositori GitHub] (https://github.com/wizardsardine/liana/releases), di mana Anda dapat memeriksa keaslian perangkat lunak. Instal perangkat lunak dan jalankan. Versi yang digunakan dalam kasus kami adalah 0.9, jadi tampilannya mungkin sudah berubah. Pada layar selamat datang, pilih opsi "Tambahkan dompet Liana yang sudah ada".
+Untuk memulai, unduh Liana dari [situs web resmi Wizardsardine](https://wizardsardine.com/liana/), atau dari [repositori GitHub](https://github.com/wizardsardine/liana/releases), di mana Anda dapat memeriksa keaslian perangkat lunak. Instal perangkat lunak dan jalankan. Versi yang digunakan dalam kasus kami adalah 0.9, jadi tampilannya mungkin sudah berubah. Pada layar selamat datang, pilih opsi "Tambahkan dompet Liana yang sudah ada".
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)
 
@@ -307,7 +307,7 @@ Transaksi akan muncul di layar utama. Setelah dikonfirmasi, pemulihan selesai!
 
 ## Bonus: analisis deskriptor
 
-Deskriptor adalah string karakter yang dapat dibaca manusia yang secara lengkap menjelaskan serangkaian alamat. Deskriptor menggabungkan sejumlah informasi penting untuk mengambil bagian-bagian (UTXO) dari portofolio tingkat lanjut. Cara penulisan deskriptor didasarkan pada [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), bahasa skrip yang dikembangkan oleh Andrew Poelstra, Pieter Wuille, dan Sanket Kanjalkar pada tahun 2019.
+Deskriptor adalah string karakter yang dapat dibaca manusia yang secara lengkap menjelaskan serangkaian alamat. Deskriptor menggabungkan sejumlah informasi penting untuk mengambil bagian-bagian (UTXO) dari portofolio tingkat lanjut. Cara penulisan deskriptor didasarkan pada [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), bahasa skrip yang dikembangkan oleh Andrew Poelstra, Pieter Wuille, dan Sanket Kanjalkar pada tahun 2019.
 
 Untuk lebih memahami mengapa string karakter ini penting, mari kita analisis deskriptor dalam contoh kita, yaitu :
 

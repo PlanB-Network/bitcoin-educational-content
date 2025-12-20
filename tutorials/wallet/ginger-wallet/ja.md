@@ -1,5 +1,5 @@
 ---
-name: ジンジャー Wallet
+name: Ginger Wallet
 description: オープンソース、セルフカストディBitcoin walletソフトウェア、Wasabi Walletからのfork、Coinjoinsの統合
 ---
 ![cover](assets/cover.webp)

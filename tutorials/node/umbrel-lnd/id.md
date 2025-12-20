@@ -198,7 +198,7 @@ Opsi-opsi ini sangat penting untuk keamanan dan manajemen node Lightning Anda. P
 - [Komunitas Umbrel](https://community.umbrel.com) - Forum diskusi bagi pengguna untuk berbagi masalah dan solusi mengenai Umbrel dan ekosistemnya
 
 
-> - [Umbrel App Store - Lightning Node (LND)] (https://apps.umbrel.com/app/lightning) - Deskripsi fitur aplikasi Lightning Node di Umbrel
+> - [Umbrel App Store - Lightning Node (LND)](https://apps.umbrel.com/app/lightning) - Deskripsi fitur aplikasi Lightning Node di Umbrel
 > - [LND Docs - Quickstart](https://docs.lightning.engineering/lightning-network-tools/LND/run-LND) - Dokumentasi resmi LND
 
 ### 4.2 Membuka saluran Lightning
@@ -221,7 +221,7 @@ Setelah LND aktif dan berjalan, Anda dapat membuka saluran Lightning pertama And
 
 
 
-Sebagai contoh, [ACINQ node] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) adalah sebuah node yang diakui dengan statistik ketersediaan dan likuiditas yang sangat baik.
+Sebagai contoh, [ACINQ node](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) adalah sebuah node yang diakui dengan statistik ketersediaan dan likuiditas yang sangat baik.
 
 
 
@@ -707,7 +707,7 @@ Alat-alat ini dapat diinstal hanya dalam beberapa klik melalui Umbrel App Store,
 
 
 
-- [ThunderHub.io - Fitur] (https://thunderhub.io) - Ikhtisar fitur ThunderHub
+- [ThunderHub.io - Fitur](https://thunderhub.io) - Ikhtisar fitur ThunderHub
 - [Info Ride The Lightning (RTL)](https://www.ridethelightning.info/) - Dokumentasi RTL
 - [David Kaspar - Rebalance via ThunderHub](https://blog.davidkaspar.com) - Panduan praktis untuk menyeimbangkan kembali
 - [Panduan "Mengelola Simpul Petir"](https://github.com/openoms/lightning-node-management) - Dokumentasi lanjutan untuk pengguna daya

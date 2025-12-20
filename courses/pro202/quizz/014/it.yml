@@ -1,0 +1,8 @@
+question: Qual è il vantaggio principale dell'algoritmo double-and-add per la moltiplicazione scalare nella crittografia a curva ellittica?
+answer: Riduce la complessità di calcolo da O(n) a O(log n) operazioni
+wrong_answers:
+  - Elimina la necessità dell'aritmetica modulare nei campi finiti
+  - Converte il problema del logaritmo discreto in una soluzione in tempo polinomiale
+  - Permette di calcolare direttamente le chiavi private a partire da quelle pubbliche
+explanation: |
+  L'algoritmo double-and-add migliora significativamente l'efficienza riducendo la complessità computazionale da O(n) addizioni lineari a O(log n) operazioni. Funziona scansionando la rappresentazione binaria dello scalare, raddoppiando il punto a ogni passo e aggiungendo il punto generatore solo quando il bit è 1. Le altre opzioni non sono corrette: l'aritmetica modulare è ancora necessaria nei campi finiti, il problema del logaritmo discreto rimane computazionalmente inaffrontabile (il che è essenziale per la sicurezza) e le chiavi private non possono essere calcolate dalle chiavi pubbliche indipendentemente dall'algoritmo di moltiplicazione utilizzato.

@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van het gebruik van hash160 (SHA-256 dan RIPEMD-160) bij het maken van Bitcoin adressen van openbare sleutels?
+answer: Om de openbare sleutel te verbergen totdat een uitgave plaatsvindt en kortere, beter hanteerbare adressen te maken
+wrong_answers:
+  - Om de privésleutel te versleutelen en onbevoegde toegang tot wallet fondsen te voorkomen
+  - generate de digitale handtekening die nodig is voor transactievalidatie op de blockchain
+  - De elliptische curvepunten converteren naar het juiste formaat voor secp256k1-bewerkingen
+explanation: |
+  Hash160 heeft meerdere belangrijke functies bij het maken van Bitcoin adressen. Door de publieke sleutel te hashen, blijft de eigenlijke publieke sleutel verborgen tot er munten zijn uitgegeven, wat een extra beveiligingslaag biedt. De hashing verkleint de grootte ook aanzienlijk van 33/65 bytes naar slechts 20 bytes, waardoor adressen beter hanteerbaar zijn. De verkeerde antwoorden verwarren dit met privésleutelversleuteling (wat niet gebeurt), digitale handtekeningen (die andere cryptografische bewerkingen gebruiken) of curveopmaak (wat gebeurt tijdens SEC serialisatie, niet bij het aanmaken van adressen).

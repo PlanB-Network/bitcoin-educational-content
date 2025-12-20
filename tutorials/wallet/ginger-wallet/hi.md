@@ -1,5 +1,5 @@
 ---
-name: अदरक Wallet
+name: Ginger Wallet
 description: ओपन-सोर्स, स्व-संरक्षित Bitcoin wallet सॉफ्टवेयर, Wasabi Wallet से fork, कॉइनजॉइन्स को एकीकृत करता है
 ---
 ![cover](assets/cover.webp)

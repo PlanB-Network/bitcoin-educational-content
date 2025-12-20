@@ -1,5 +1,5 @@
 question: Коя опция на сървъра Sparrow wallet съответства на връзката RPC?
-answer: Ядро Bitcoin
+answer: Bitcoin core
 wrong_answers:
   - Публичен сървър
   - Частна Electrum

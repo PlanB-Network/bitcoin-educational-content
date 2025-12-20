@@ -1,0 +1,8 @@
+question: Bigenda gute iyo umenyesheje umuhinduzi muri Rust ukoresheje 'let x = 5' ata majambo y'ingenzi yongereweko?
+answer: Impinduka iba idahinduka kandi ntishobora guhindurwa inyuma y'ugushingwa
+wrong_answers:
+  - Ihinduka rihinduka kandi rishobora guhindurwa igihe cose
+  - Impinduka ihita ihindurwa neza ku gusohora inyubako gusa
+  - Ihinduka risaba ubwoko butomoye bw'ibisobanuro kugira ngo bikozwe neza
+explanation: |
+  Muri Rust, ibihinduka ntibihinduka ku buryo busanzwe iyo bimenyeshejwe na 'reka'. Ivyo bisigura ko iyo umaze gutanga agaciro ku mpinduka nka 'let x = 5', ntushobora guhindura ako gaciro mu nyuma muri porogarama. Niwagerageza kubihindura, umukozi azozana ikosa. Ukwo kudahinduka ni ikintu nyamukuru co gukingira ibibazo vyinshi bisanzwe bitewe n'amahinduka y'imimerere atategerezwa. Kugira ngo umuhinduzi ahinduke, utegerezwa gukoresha ijambo ry'ingenzi 'mut' nka 'let mut x = 5'.

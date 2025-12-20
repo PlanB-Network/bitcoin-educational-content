@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Mobil uygulamaya ek olarak Speed Wallet, güvenli işlemler için bilgisayarınızın Google Chrome tarayıcısına ekleyebileceğiniz bir [Chrome Web uzantısı] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) da sunmaktadır.
+Mobil uygulamaya ek olarak Speed Wallet, güvenli işlemler için bilgisayarınızın Google Chrome tarayıcısına ekleyebileceğiniz bir [Chrome Web uzantısı](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) da sunmaktadır.
 
 
 

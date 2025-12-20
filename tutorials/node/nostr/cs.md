@@ -1,7 +1,6 @@
 ---
-name: NOSTR
-
-description: Objevte a začněte používat NOSTR
+name: Nostr
+description: Objevte a začněte používat Nostr
 ---
 
 

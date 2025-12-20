@@ -54,12 +54,12 @@ _The Global Unbanked Population_
 
 This lecture, **"Why El Salvador Needs Bitcoin,"** provides an overview of the **Bitcoin protocol**, its roots in the **Cypherpunk movement**, and its role as a tool for freedom—enabling **uncensored money**, **financial inclusion**, and much more.
 
-> **Definitions:**
->
-> - _Bitcoin protocol:_ The rules and structure that govern how Bitcoin operates as a decentralized digital currency.
-> - _Cypherpunk movement:_ A group advocating for the use of cryptography to ensure privacy and freedom in digital spaces.
-> - _Financial inclusion:_ Providing access to financial services for people who have been excluded from traditional banking systems, often referred to as the "unbanked."
-> - _Uncensored money:_ Money that cannot be controlled or restricted by governments or financial institutions.
+**Definitions:**
+
+- _Bitcoin protocol:_ The rules and structure that govern how Bitcoin operates as a decentralized digital currency.
+- _Cypherpunk movement:_ A group advocating for the use of cryptography to ensure privacy and freedom in digital spaces.
+- _Financial inclusion:_ Providing access to financial services for people who have been excluded from traditional banking systems, often referred to as the "unbanked."
+- _Uncensored money:_ Money that cannot be controlled or restricted by governments or financial institutions.
 
 #### Ricky's background and Bitcoin advocacy
 
@@ -75,10 +75,10 @@ In authoritarian regimes, where financial repression is common, Bitcoin’s **un
 
 Despite its potential, Bitcoin faces significant challenges. In areas such as Africa and India, basic infrastructure like electricity and internet access is often lacking, limiting adoption. Moreover, **digital inclusion**—ensuring that people of all ages and educational levels can use technology—remains a major hurdle.
 
-> **Definitions:**
->
-> - _Private keys:_ Secret codes that give access to a user's Bitcoin.
-> - _Open-source:_ Software that anyone can inspect, modify, and improve.
+**Definitions:**
+
+- _Private keys:_ Secret codes that give access to a user's Bitcoin.
+- _Open-source:_ Software that anyone can inspect, modify, and improve.
 
 ### The case of El Salvador
 
@@ -98,25 +98,22 @@ In summary, Bitcoin holds immense promise for financial empowerment and inclusio
 
 The **Cypherpunk movement** emerged in the late 20th century, advocating for privacy and freedom through cryptography. Pioneers like **Eric Hughes** and **Tim May** believed that strong encryption was essential to protect personal freedom in a digital world. Their ideas heavily influenced the creation of Bitcoin.
 
-> **Definition:**
->
-> - _Cypherpunk:_ A movement promoting privacy and freedom using cryptography.
+**Definition:**
+- _Cypherpunk:_ A movement promoting privacy and freedom using cryptography.
 
 #### Austrian economics
 
 At the same time, **Austrian Economics** provided the foundation for Bitcoin's monetary principles. Economists like **Ludwig von Mises** and **Friedrich Hayek** argued that sound money should be scarce, durable, and a good store of value—core principles that shaped Bitcoin’s design.
 
-> **Definition:**
->
-> - _Scarcity:_ Limited availability, creating value through the need for careful allocation.
+**Definition:**
+- _Scarcity:_ Limited availability, creating value through the need for careful allocation.
 
 ### Bitcoin's creation
 
 **Satoshi Nakamoto** combined these ideas to create Bitcoin in 2008 as a decentralized, censorship-resistant digital currency. By merging Cypherpunk ideals of privacy with Austrian principles of sound money, Bitcoin offers a financial system that challenges traditional banks and government control.
 
-> **Definition:**
->
-> - _Censorship-resistant:_ Money that cannot be controlled or blocked by external forces.
+**Definition:**
+- _Censorship-resistant:_ Money that cannot be controlled or blocked by external forces.
 
 #### Key economic principles
 
@@ -124,10 +121,10 @@ At the same time, **Austrian Economics** provided the foundation for Bitcoin's m
 - **Time preference:** Encourages saving for the future rather than spending immediately.
 - **Saving:** Storing value for future needs, which leads to investment and innovation.
 
-> **Definitions:**
->
-> - _Time preference:_ Valuing present goods over future ones.
-> - _Saving:_ Storing value for future use.
+**Definitions:**
+
+- _Time preference:_ Valuing present goods over future ones.
+- _Saving:_ Storing value for future use.
 
 ### Bitcoin in El Salvador
 
@@ -172,10 +169,10 @@ Bitcoin relies on **digital signatures** using **elliptic curve cryptography** t
 
 **Satoshi Nakamoto**, Bitcoin's pseudonymous creator, expanded on these ideas by transitioning the PoW model to a decentralized **blockchain**. This allowed for a distributed network of nodes to validate and record transactions without a central authority, marking a significant evolution from previous digital currency attempts.
 
-> **Definitions:**
->
-> - _Proof-of-Work (PoW):_ A system where participants must solve computational puzzles to validate transactions and secure the network.
-> - _Elliptic Curve Cryptography:_ A cryptographic method that enables secure, efficient digital signatures.
+**Definitions:**
+
+- _Proof-of-Work (PoW):_ A system where participants must solve computational puzzles to validate transactions and secure the network.
+- _Elliptic Curve Cryptography:_ A cryptographic method that enables secure, efficient digital signatures.
 
 ### Blockchain mechanics and transaction validation
 
@@ -187,11 +184,11 @@ Each **block** in the blockchain consists of a **header** (with data like the pr
 
 Before transactions are included in a block, they reside in the **mempool**, where they await validation. Once validated, these transactions are added to the newly mined block and then to the blockchain.
 
-> **Definitions:**
->
-> - _Mining:_ The process of solving cryptographic puzzles to add new blocks to the blockchain.
-> - _Nonce:_ A value used to find the correct hash during mining.
-> - _Mempool:_ A waiting area for unconfirmed transactions before they are added to a block.
+**Definitions:**
+
+- _Mining:_ The process of solving cryptographic puzzles to add new blocks to the blockchain.
+- _Nonce:_ A value used to find the correct hash during mining.
+- _Mempool:_ A waiting area for unconfirmed transactions before they are added to a block.
 
 ### Scalability, privacy, and development in Bitcoin
 
@@ -201,11 +198,11 @@ Running a **full node** is essential for ensuring decentralization and security,
 
 Bitcoin development has evolved to improve performance and security. Major upgrades include **Segregated Witness (SegWit)**, which addresses transaction malleability and increases the effective block size, and **Taproot**, which improves privacy and allows for more complex contracts using **Merkleized Abstract Syntax Trees (MAST)**.
 
-> **Definitions:**
->
-> - _SegWit:_ A Bitcoin upgrade that separates signature data from transaction data, improving efficiency.
-> - _Taproot:_ An upgrade that enhances Bitcoin’s privacy and scalability by enabling more complex smart contracts.
-> - _Lightning Network:_ A second-layer solution for faster, cheaper Bitcoin transactions using payment channels.
+**Definitions:**
+
+- _SegWit:_ A Bitcoin upgrade that separates signature data from transaction data, improving efficiency.
+- _Taproot:_ An upgrade that enhances Bitcoin’s privacy and scalability by enabling more complex smart contracts.
+- _Lightning Network:_ A second-layer solution for faster, cheaper Bitcoin transactions using payment channels.
 
 #### Conclusion
 
@@ -225,18 +222,18 @@ In this lecture, we debunk common myths surrounding **Bitcoin**, **blockchains**
 
 A frequent misconception is that **Bitcoin** and **blockchain** are the same. While Bitcoin is a digital currency, **blockchain** is the technology that powers it. Blockchains provide a verified record of transactions but come with trade-offs like slower speeds and higher costs, which solutions like the **Lightning Network** address.
 
-> **Definitions:**
->
-> - _Blockchain:_ The underlying technology used to record transactions in a decentralized, immutable ledger.
-> - _Lightning Network:_ A second-layer solution that improves Bitcoin's transaction efficiency by enabling off-chain transactions.
+**Definitions:**
+
+- _Blockchain:_ The underlying technology used to record transactions in a decentralized, immutable ledger.
+- _Lightning Network:_ A second-layer solution that improves Bitcoin's transaction efficiency by enabling off-chain transactions.
 
 ### Bitcoin vs. Crypto
 
 Another key distinction is that **Bitcoin** was created with the sole purpose of providing a decentralized, censorship-resistant form of money, free from control by any company or government. In contrast, cryptocurrencies **shitcoins** are often designed with centralized control, primarily existing to enrich the companies behind them through predatory practices, pump-and-dump schemes, or outright scams. These tokens typically serve no genuine purpose beyond making a quick profit for their creators at the expense of uninformed investors. Bitcoin, however, stands alone as the only truly decentralized digital currency with a proven track record of security and resilience.
 
-> **Definitions:**
->
-> - _Shitcoins:_ Shitcoins are low-value or questionable quality cryptocurrencies that lack real utility. They are often highly speculative and are sometimes created for fraudulent purposes or without a clear purpose, taking advantage of the cryptocurrency market boom.
+**Definitions:**
+
+- _Shitcoins:_ Shitcoins are low-value or questionable quality cryptocurrencies that lack real utility. They are often highly speculative and are sometimes created for fraudulent purposes or without a clear purpose, taking advantage of the cryptocurrency market boom.
 
 ![Image](assets/en/005.webp)
 
@@ -244,9 +241,9 @@ Another key distinction is that **Bitcoin** was created with the sole purpose of
 
 One of the most common criticisms of Bitcoin is its **energy consumption**. While Bitcoin mining does use energy, it accounts for less than 1% of global electricity consumption and less than 3% of wasted energy. Moreover, **Bitcoin mining** often taps into unused or renewable energy sources, making it greener than often portrayed.
 
-> **Definitions:**
->
-> - _Bitcoin Mining:_ The process of validating transactions and securing the network by solving cryptographic puzzles, which requires computational power.
+**Definitions:**
+
+- _Bitcoin Mining:_ The process of validating transactions and securing the network by solving cryptographic puzzles, which requires computational power.
 
 ### Misconceptions about criminal usage
 
@@ -256,9 +253,9 @@ Bitcoin is often criticized for being used in criminal activities. However, bloc
 
 **Privacy** and **fungibility** are essential features of Bitcoin. Privacy protects users in oppressive regimes, and fungibility ensures that every Bitcoin is equal, regardless of its history. This makes Bitcoin a reliable and fair form of money.
 
-> **Definitions:**
->
-> - _Fungibility:_ The property of money where each unit is interchangeable with another, ensuring equal value.
+**Definitions:**
+
+- _Fungibility:_ The property of money where each unit is interchangeable with another, ensuring equal value.
 
 ### Handling FUD and market dynamics
 
@@ -2067,13 +2064,13 @@ Various Lightning wallets are available, each catering to different user needs a
 
 - **Features**: Browser extension, open-source, supports both custodial and non-custodial models, enhancing versatility.
 
-#### Breeze:
+#### Breez:
 
 - **Features**: Lightweight node on a phone, open-source, combines self-custody with managed liquidity, providing a balance of control and convenience.
 
 #### Phoenix:
 
-- **Features**: Similar to Breeze, utilizes an LSP model for liquidity, open-source, focuses on user simplicity and effective liquidity management.
+- **Features**: Similar to Breez, utilizes an LSP model for liquidity, open-source, focuses on user simplicity and effective liquidity management.
 
 #### Open Bitcoin Wallet (OBW):
 
@@ -2084,7 +2081,7 @@ Various Lightning wallets are available, each catering to different user needs a
 Wallets can be classified based on who holds the private keys and who manages liquidity. This matrix helps users choose wallets that align with their preferences for security and convenience:
 
 - **Custodial wallets**: Third-party holds private keys, usually offer automatic liquidity management. Examples include Wallet of Satoshi.
-- **Non-Custodial wallets**: Users hold private keys, may require manual liquidity management. Examples include Breeze and OBW.
+- **Non-Custodial wallets**: Users hold private keys, may require manual liquidity management. Examples include Breez and OBW.
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
 
@@ -2158,10 +2155,10 @@ Developers face the challenge of implementing seamless liquidity management with
 - **Practical issue**: Implementing effective algorithms for routing payments across a network with variable liquidity can be complex and computationally intensive.
 - **Possible solutions**: Developers are exploring advanced algorithms for **liquidity routing** and utilizing **dual-funded channels** to ensure liquidity is available on both ends of a transaction.
 
-> **Definitions**:
->
-> - **Liquidity**: The availability of funds in a Lightning channel to make or receive payments.
-> - **LSP (Lightning Service Provider)**: A service that helps users manage liquidity and channels on the Lightning Network.
+**Definitions**:
+
+- **Liquidity**: The availability of funds in a Lightning channel to make or receive payments.
+- **LSP (Lightning Service Provider)**: A service that helps users manage liquidity and channels on the Lightning Network.
 
 ---
 
@@ -2181,11 +2178,11 @@ Developers are tasked with abstracting the complexities of L1 and L2 for users, 
 - **Practical issue**: Ensuring that the user is shielded from the technical complexities of managing channels and on-chain transactions while maintaining transparency when needed.
 - **Possible solutions**: Developers are working on features such as **splicing** (which allows funds to be added or removed from a channel without closing it) and automatic channel management tools.
 
-> **Definitions**:
->
-> - **L1 (Layer 1)**: Bitcoin’s main blockchain layer.
-> - **L2 (Layer 2)**: The Lightning Network, which operates on top of Bitcoin to enable faster and cheaper transactions.
-> - **Splicing**: A technique that allows modifications to the balance of a Lightning channel without needing to close it.
+**Definitions**:
+
+- **L1 (Layer 1)**: Bitcoin’s main blockchain layer.
+- **L2 (Layer 2)**: The Lightning Network, which operates on top of Bitcoin to enable faster and cheaper transactions.
+- **Splicing**: A technique that allows modifications to the balance of a Lightning channel without needing to close it.
 
 ---
 
@@ -2205,10 +2202,10 @@ Developers are exploring ways to allow users to receive Lightning payments even 
 - **Practical issue**: Developing a protocol or system that allows users to receive payments offline without compromising security or decentralization is a significant technical challenge.
 - **Possible solutions**: Research into **offline payment vouchers**, which would allow recipients to claim payments once they reconnect to the network, is ongoing.
 
-> **Definitions**:
->
-> - **Offline payments**: Payments sent or received while one party is not connected to the Lightning Network.
-> - **Custodial wallets**: Wallets where a third party controls the private keys and manages transactions on behalf of the user.
+**Definitions**:
+
+- **Offline payments**: Payments sent or received while one party is not connected to the Lightning Network.
+- **Custodial wallets**: Wallets where a third party controls the private keys and manages transactions on behalf of the user.
 
 ---
 
@@ -2228,9 +2225,9 @@ Developers need to implement backup solutions that allow users to recover their 
 - **Practical issue**: Designing backup systems that are secure, decentralized, and user-friendly poses a significant challenge, as backups must be kept up-to-date with each state change in a channel.
 - **Possible solutions**: **Static Channel Backups (SCBs)** have been developed to simplify recovery, but more advanced solutions are needed for fully automated and secure backups.
 
-> **Definitions**:
->
-> - **Static Channel Backup (SCB)**: A type of backup that allows users to recover their funds from a Lightning channel in case of failure by restoring the latest state of the channel.
+**Definitions**:
+
+- **Static Channel Backup (SCB)**: A type of backup that allows users to recover their funds from a Lightning channel in case of failure by restoring the latest state of the channel.
 
 ---
 
@@ -2290,7 +2287,7 @@ Watchtowers are third-party entities that monitor the blockchain for old channel
 Blinded paths are designed to enhance receiver privacy in the Lightning Network. They obscure the final recipient's address, ensuring that only the sender knows the intermediate node, and each node is aware of only its adjacent nodes. This method protects the receiver's identity and enhances overall privacy.
 
 **Lightning Service Providers (LSPs)**
-Conceptualized by Breeze Wallet, Lightning Service Providers (LSPs) aim to improve user experience by enabling instant receiving capabilities. LSPs open channels for users, akin to how internet service providers offer connectivity services. This innovation simplifies the user onboarding process and ensures seamless interactions on the Lightning Network.
+Conceptualized by Breez Wallet, Lightning Service Providers (LSPs) aim to improve user experience by enabling instant receiving capabilities. LSPs open channels for users, akin to how internet service providers offer connectivity services. This innovation simplifies the user onboarding process and ensures seamless interactions on the Lightning Network.
 
 **Resources for staying updated**
 To keep abreast of the latest technical innovations in Bitcoin and the Lightning Network, it is essential to leverage valuable resources. The Bitcoin OpTec newsletter, the lightning dev mailing list, and materials from industry experts like Jason Lopp provide insights and updates on the ongoing advancements and research in this rapidly evolving field.
@@ -2322,11 +2319,11 @@ However, traditional invoices have their limitations. For example:
 - **Single-use**: Invoices are typically used for one transaction only, which can be inconvenient.
 - **Size limitations**: Large invoices can be difficult to handle in QR code form, making them impractical for certain applications.
 
-> **Definitions**:
->
-> - **Invoice**: A request for payment in the Lightning Network, typically containing the amount and recipient details.
-> - **HTLC (Hash Time-Locked Contract)**: A type of smart contract used to ensure conditional payments within a time limit.
-> - **Onion routing**: A privacy technique where transaction data is layered like an onion to protect the identities of the sender and recipient.
+**Definitions**:
+
+- **Invoice**: A request for payment in the Lightning Network, typically containing the amount and recipient details.
+- **HTLC (Hash Time-Locked Contract)**: A type of smart contract used to ensure conditional payments within a time limit.
+- **Onion routing**: A privacy technique where transaction data is layered like an onion to protect the identities of the sender and recipient.
 
 ### Protocols and use cases
 
@@ -2343,14 +2340,14 @@ Another protocol, **RGB**, further extends Lightning's functionality by enabling
 
 **Lightning Liquidity Service Providers (LSPs)** also play a critical role in extending Lightning payments. LSPs provide liquidity for receiving payments, help open **dual-funded channels**, and ensure seamless transactions by intercepting payments and opening channels on-the-fly.
 
-> **Definitions**:
->
-> - **LNURL**: A protocol that allows for dynamic invoice creation, making payments easier and more flexible.
-> - **BOLT 12**: An extension of Lightning that leverages Onion messaging for privacy while automating invoice fetching.
-> - **Nostr**: A decentralized platform that integrates LProtocols and Use Cases
->   ightning payments for micro-transactions.
-> - **RGB protocol**: A protocol enabling the transfer of assets, like tokens, over the Lightning Network.
-> - **LSP (Lightning Service Provider)**: An entity that provides liquidity and opens channels for Lightning transactions, making the network more accessible to users.
+**Definitions**:
+
+- **LNURL**: A protocol that allows for dynamic invoice creation, making payments easier and more flexible.
+- **BOLT 12**: An extension of Lightning that leverages Onion messaging for privacy while automating invoice fetching.
+- **Nostr**: A decentralized platform that integrates LProtocols and Use Cases
+- **Lightning:** payments for micro-transactions.
+- **RGB protocol**: A protocol enabling the transfer of assets, like tokens, over the Lightning Network.
+- **LSP (Lightning Service Provider)**: An entity that provides liquidity and opens channels for Lightning transactions, making the network more accessible to users.
 
 ### Business models and advanced protocols
 
@@ -2366,11 +2363,11 @@ Advanced protocols like **Point Time-Locked Contracts (PTLCs)** take Lightning e
 
 Protocols such as **LNURL** and **BOLT 12** streamline payments by reducing manual interactions, ensuring that the Lightning Network becomes more user-friendly and widely adopted.
 
-> **Definitions**:
->
-> - **PTLC (Point Time-Locked Contract)**: A cryptographic primitive that improves upon HTLCs, enabling more flexible and secure payments.
-> - **Pre-image**: A value used to unlock an HTLC, which can also serve as an access key for services.
-> - **Auction Model**: A payment model where payments are held pending during an auction and released only when the highest bid is accepted.
+**Definitions**:
+
+- **PTLC (Point Time-Locked Contract)**: A cryptographic primitive that improves upon HTLCs, enabling more flexible and secure payments.
+- **Pre-image**: A value used to unlock an HTLC, which can also serve as an access key for services.
+- **Auction Model**: A payment model where payments are held pending during an auction and released only when the highest bid is accepted.
 
 ### Conclusion
 

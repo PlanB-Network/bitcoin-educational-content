@@ -1,0 +1,8 @@
+question: U svakom prostom polju F(p), svaki nenulti element ima multiplikativni inverz zahvaljujući svojstvu koje se naziva **Fermatov mali teorem**.
+answer: Polje je definisano prostim brojem p
+wrong_answers:
+  - Polje sadrži tačno p-1 elemenata
+  - Polje koristi modularne aritmetičke operacije
+  - Polje podržava sabiranje i množenje
+explanation: |
+  Konačno polje F(p) mora biti definisano prostim brojem p kako bi se osiguralo da svaki nenulti element ima multiplikativni inverz. Ovo je osnovni zahtev teorije polja - kada je p prost, celi brojevi modulo p formiraju polje gde je deljenje uvek moguće (osim sa nulom). Ako bi p bio složen, neki nenulti elementi ne bi imali inverze, što bi narušilo strukturu polja. Dok druge opcije opisuju osobine konačnih polja, samo prostost p garantuje postojanje multiplikativnih inverza za sve nenulte elemente.

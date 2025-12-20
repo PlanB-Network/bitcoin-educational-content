@@ -1,0 +1,8 @@
+question: Hva skjer med slutningstypeinferens når en lukking kalles med spesifikke typer?
+answer: Disse typene blir faste for den lukkeinstansen
+wrong_answers:
+  - Nedleggelsen kan fortsatt akseptere forskjellige typer i fremtidige anrop
+  - Kompilatoren tilbakestiller typene for neste funksjonskall
+  - Typene er fleksible og kan endres basert på kontekst
+explanation: |
+  I Rust har lukkinger fordelen av automatisk typeinferens, men denne fleksibiliteten har sine begrensninger. Når en closure er kalt med spesifikke parametertyper, låser kompilatoren disse typene for den aktuelle closure-instansen. Det betyr at den samme lukningen ikke kan kalles med andre typer senere - den blir monomorfisert til de første typene den støter på. Dette er forskjellig fra generiske funksjoner, som kan kalles med forskjellige typer fordi hvert kall skaper en separat instansiering. De andre alternativene er feil fordi de antyder en fleksibilitet som ikke eksisterer når lukkingens typer er bestemt.

@@ -77,7 +77,7 @@ Oczywiście będziesz musiał uzyskać dostęp do RoboSats! Można to zrobić na
 4. Twój własny klient
 
 
-Jeśli dopiero zaczynasz korzystać z przeglądarki Tor, dowiedz się więcej i pobierz ją [tutaj] (https://www.torproject.org/download/).
+Jeśli dopiero zaczynasz korzystać z przeglądarki Tor, dowiedz się więcej i pobierz ją [tutaj](https://www.torproject.org/download/).
 
 
 Krótka uwaga dla użytkowników iOS, którzy chcą uzyskać dostęp do RoboSats przez Tor ze swoich telefonów. "Onion Browser" nie jest przeglądarką Tor. Zamiast tego użyj Orbot + Safari i Orbot + DuckDuckGo.

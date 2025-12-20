@@ -60,7 +60,7 @@ De Alby Browser Extension is beschikbaar voor:
 **Privacy en veiligheid**: De Alby Browser Extension is een zelfbehoudende toepassing. Uw privésleutels worden veilig versleuteld en opgeslagen op uw apparaat. U behoudt de controle over uw bezittingen en gegevens.
 
 
-Kijk voor de meest nauwkeurige en gemakkelijk te volgen instructies naar [Alby's gidsen] (https://guides.getalby.com/user-guide/browser-extension)
+Kijk voor de meest nauwkeurige en gemakkelijk te volgen instructies naar [Alby's gidsen](https://guides.getalby.com/user-guide/browser-extension)
 
 
 ## Video-handleiding

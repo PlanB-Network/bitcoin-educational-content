@@ -1,0 +1,8 @@
+question: Hạn chế cơ bản nào trong khả năng giao dịch của SDK Breez Liquid khiến nó khác biệt so với một node Lightning Network hoàn chỉnh?
+answer: Nó không thể thực hiện các giao dịch Lightning-to-Lightning trực tiếp hoặc Bitcoin-to-Bitcoin vì nó hoạt động độc quyền với Liquid làm cơ sở chính.
+wrong_answers:
+  - Nó không thể xử lý các giao dịch hoán đổi nguyên tử giữa các mạng blockchain khác nhau do thiếu hỗ trợ hợp đồng thông minh xuyên chuỗi.
+  - "Nó không thể xử lý các giao dịch lớn hơn 0,1 BTC do giới hạn kích thước giao dịch tích hợp sẵn của Liquid Network."
+  - Nó không thể hoạt động nếu không có kết nối internet vì cần phải liên tục đồng bộ hóa với các máy chủ Breez tập trung.
+explanation: |
+  Bộ SDK được mô tả rõ ràng là "một công cụ hoàn toàn tập trung vào Liquid" và hoạt động với Liquid làm "nền tảng chính". Nó chỉ hỗ trợ ba thao tác cụ thể: Liquid sang Liquid, Liquid sang Lightning và Liquid sang Bitcoin. Không giống như một node Lightning đầy đủ chức năng có thể định tuyến thanh toán giữa các kênh Lightning, SDK Breez không thể thực hiện các giao dịch Lightning-to-Lightning trực tiếp, điều này khiến nó khác biệt về cơ bản so với cơ sở hạ tầng Lightning truyền thống.

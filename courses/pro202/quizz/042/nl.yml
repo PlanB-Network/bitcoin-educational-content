@@ -1,0 +1,8 @@
+question: Als Bitcoin's moeilijkheidsaanpassingsmechanisme een scenario tegenkomt waarin de vorige 2016-blokken precies 6 weken nodig hadden om te delven in plaats van de verwachte 2 weken, welke aanpassingsfactor zou dan worden toegepast?
+answer: De moeilijkheidsgraad zou worden verminderd met een factor 4 (maximaal toegestane vermindering)
+wrong_answers:
+  - De moeilijkheidsgraad zou worden verminderd met een factor 3 (6 weken ÷ 2 weken)
+  - De moeilijkheidsgraad wordt verminderd met een factor 2,5 om overcorrectie te voorkomen
+  - De moeilijkheidsgraad zou worden verminderd met een factor 6 op basis van de tijdverhouding
+explanation: |
+  De moeilijkheidsaanpassing van Bitcoin heeft ingebouwde limieten die veranderingen beperken tot een factor vier in beide richtingen. Hoewel 6 weken ÷ 2 weken = 3, wat een vermindering van 3x suggereert, beperkt het protocol de aanpassingen tot 4x om extreme volatiliteit te voorkomen. Dit veiligheidsmechanisme garandeert de stabiliteit van het netwerk tijdens grote veranderingen in de hashsnelheid, zoals mining verboden of apparatuurstoringen, door overcorrectie te voorkomen die de timing van blokken zou kunnen destabiliseren.

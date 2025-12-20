@@ -5,5 +5,5 @@ wrong_answers:
   - 간소화된 결제 인증
   - Blockchain
 explanation: |
-  초기 통화 정책은 백서의 첫 번째 버전과 레이 딜린저와 함께한 Satoshi의 [거래소](https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)에 명시된 대로 일정한 발행량(X BTC/블록)에 해당합니다.
+  초기 통화 정책은 백서의 첫 번째 버전과 레이 딜린저와 함께한 Satoshi의 [거래소](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)에 명시된 대로 일정한 발행량(X BTC/블록)에 해당합니다.
 reviewed: true

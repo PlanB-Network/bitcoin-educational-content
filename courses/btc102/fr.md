@@ -389,7 +389,7 @@ En premier lieu, définissez avec précision votre **budget**. Il ne s’agit pa
 
 ![image](assets/fr/023.webp)
 
-Ensuite, pensez à la méthode d’investissement la plus adaptée pour vous. Le **Dollar Cost Averaging (DCA)** consiste à acheter du bitcoin (ou tout autre actif) à intervalles réguliers, toutes les semaines, tous les mois... Cette technique permet de lisser le prix d’achat au fil du temps et de réduire l’impact émotionnel des fluctuations importantes du marché. C’est un choix judicieux pour la majorité des investisseurs, surtout pour les débutants.
+Ensuite, pensez à la méthode d’investissement la plus adaptée pour vous. Le **[Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca)** consiste à acheter du bitcoin (ou tout autre actif) à intervalles réguliers, toutes les semaines, tous les mois... Cette technique permet de lisser le prix d’achat au fil du temps et de réduire l’impact émotionnel des fluctuations importantes du marché. C’est un choix judicieux pour la majorité des investisseurs, surtout pour les débutants.
 
 Enfin, clarifiez votre **vision** : s’agit-il d’un placement à court terme, dans l’optique de faire des allers-retours fréquents (trading), ou d’un investissement moyen ou long terme, plus proche de l’esprit "hodl" (détenir ses bitcoins sur plusieurs années) ? Votre stratégie diffèrera considérablement selon votre horizon de placement. Un "hodler" aura tendance à moins s’inquiéter des variations quotidiennes et préférera stocker ses BTC en toute sécurité, tandis qu’un trader cherchera à tirer parti des mouvements de prix plus rapides, au risque de multiplier les transactions et de s’exposer davantage au stress et aux mauvaises décisions.
 
@@ -409,7 +409,7 @@ Il va de soi qu'il ne faut donc investir que ce que vous pouvez vous permettre d
 
 ### Gestion et sécurité de votre portefeuille Bitcoin
 
-L’un des aspects les plus uniques de Bitcoin est la notion de **self-custody**. Vous pouvez disposer de votre propre portefeuille sur lequel vous êtes entièrement responsable. Celui-ci est généralement généré à partir d'une phrase mnémonique (une série de 12 ou 24 mots), qui vous donne un contrôle absolu sur vos BTC. Si vous la perdez ou si elle tombe entre de mauvaises mains, vos fonds deviennent irrécupérables.
+L’un des aspects les plus uniques de Bitcoin est la notion de **[self-custody](https://planb.academy/resources/glossary/selfcustody)**. Vous pouvez disposer de votre propre portefeuille sur lequel vous êtes entièrement responsable. Celui-ci est généralement généré à partir d'une phrase mnémonique (une série de 12 ou 24 mots), qui vous donne un contrôle absolu sur vos BTC. Si vous la perdez ou si elle tombe entre de mauvaises mains, vos fonds deviennent irrécupérables.
 
 ![image](assets/fr/025.webp)
 
@@ -609,7 +609,7 @@ Cette approche, certes plus technique, garantit aux utilisateurs les plus exigea
 
 #### Un moyen d’échange transfrontalier et résilient
 
-Par sa nature décentralisée, Bitcoin fonctionne jour et nuit, indépendamment des frontières et des fuseaux horaires. Dans certaines régions dépourvues d’infrastructures bancaires robustes, Bitcoin est parfois utilisé comme solution pour envoyer ou recevoir des fonds rapidement, sans intermédiaire coûteux. Les frais de transaction peuvent varier en fonction de la congestion du réseau, mais restent généralement inférieurs aux commissions que pratiquent certaines banques pour des virements internationaux. De plus, il existe des systèmes de surcouche tels que le Lightning Network, qui permettent de réaliser des transactions en bitcoins de manière rapide et à faible coût.
+Par sa nature décentralisée, Bitcoin fonctionne jour et nuit, indépendamment des frontières et des fuseaux horaires. Dans certaines régions dépourvues d’infrastructures bancaires robustes, Bitcoin est parfois utilisé comme solution pour envoyer ou recevoir des fonds rapidement, sans intermédiaire coûteux. Les frais de transaction peuvent varier en fonction de la congestion du réseau, mais restent généralement inférieurs aux commissions que pratiquent certaines banques pour des virements internationaux. De plus, il existe des systèmes de surcouche tels que le [Lightning Network](https://planb.academy/resources/glossary/lightning-network), qui permettent de réaliser des transactions en bitcoins de manière rapide et à faible coût.
 
 #### Une réserve de valeur
 
@@ -860,7 +860,7 @@ Les plateformes d’échange jouent un rôle important dans l’écosystème Bit
 - une option permettant d’effectuer des achats automatiques récurrents (DCA) ;
 - un retrait facile et gratuit des bitcoins vers un portefeuille personnel.
 
-Les plateformes d’échange enregistrées et conformes aux réglementations locales doivent généralement respecter les obligations imposées par les autorités financières. Cela implique souvent l’application de procédures strictes de vérification d’identité, connues sous le nom de **KYC (*Know Your Customer*)**. Ces contrôles exigent que l’utilisateur fournisse des documents d'identification avant de pouvoir accéder aux services de la plateforme.
+Les plateformes d’échange enregistrées et conformes aux réglementations locales doivent généralement respecter les obligations imposées par les autorités financières. Cela implique souvent l’application de procédures strictes de vérification d’identité, connues sous le nom de **KYC (*[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)*)**. Ces contrôles exigent que l’utilisateur fournisse des documents d'identification avant de pouvoir accéder aux services de la plateforme.
 
 ![image](assets/fr/058.webp)
 
@@ -1207,9 +1207,9 @@ Parmi ces solutions, on peut également inclure les portefeuilles qui prennent e
 **Inconvénients** :
 - Exposition au risque de piratage, car les clés privées sont stockées sur un appareil connecté à internet et avec une très grande surface d'attaque.
 
-Les hot wallets sont adaptés aux petits montants et aux utilisateurs ayant besoin d’un accès fréquent à leurs bitcoins. Ils ne sont pas adaptés pour le stockage à long terme de sommes importantes.
+Les [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet)s sont adaptés aux petits montants et aux utilisateurs ayant besoin d’un accès fréquent à leurs bitcoins. Ils ne sont pas adaptés pour le stockage à long terme de sommes importantes.
 
-#### Hardware Wallet
+#### [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)
 
 Les hardware wallets sont des dispositifs physiques conçus pour générer et stocker vos clés privées hors ligne. Ils offrent un niveau de sécurité bien supérieur aux portefeuilles chauds, car ils ne sont pas connectés à internet et disposent d'une surface d'attaque réduite. Exemples : Ledger, Trezor, Jade, Coldcard, BitBox...
 

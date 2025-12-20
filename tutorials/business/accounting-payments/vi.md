@@ -45,7 +45,7 @@ Cấu hình nâng cao hơn một chút là sử dụng tính năng Điểm bán 
 ![image](assets/en/01.webp)
 
 
-Đây là một trong hai cách để truy cập tính năng Điểm bán hàng. Cách còn lại là thông qua [ứng dụng PoS Wallet hoặc Satoshi] (https://www.walletofsatoshi.com/pos.)
+Đây là một trong hai cách để truy cập tính năng Điểm bán hàng. Cách còn lại là thông qua [ứng dụng PoS Wallet hoặc Satoshi](https://www.walletofsatoshi.com/pos.)
 
 
 Có ba lợi ích khi sử dụng tính năng Điểm bán hàng:

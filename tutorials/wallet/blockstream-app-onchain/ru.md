@@ -502,7 +502,7 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-- [Глоссарий] (https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
+- [Глоссарий](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 

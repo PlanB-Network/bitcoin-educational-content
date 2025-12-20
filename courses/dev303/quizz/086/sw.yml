@@ -1,0 +1,8 @@
+question: Kusudi kuu la tamko la nafasi ya majina katika faili ya UniFFI UDL ni lipi?
+answer: Kutoa chombo cha kazi ambazo zinaweza kuitwa moja kwa moja bila kuhitaji uanzishaji wa kitu
+wrong_answers:
+  - Kufafanua muundo wa kifurushi na utegemezi wa kuingiza kwa vifungo vya lugha vilivyozalishwa
+  - Kubainisha lugha lengwa za programu zitakazotumia maktaba ya Rust kupitia UniFFI
+  - Kuanzisha mkakati wa usimamizi wa kumbukumbu kwa ajili ya shughuli za upangaji data wa lugha mtambuka
+explanation: |
+  Nafasi ya majina katika UDL ya UniFFI hutumika kama chombo cha kazi zinazojitegemea ambazo zinaweza kuitishwa moja kwa moja bila kuunda vitu kwanza. Kazi hizi za nafasi ya majina kwa kawaida hushughulikia shughuli rahisi ambazo huchukua thamani kama vigezo na matokeo ya kurudisha. Chaguzi zingine si sahihi kwa sababu: muundo wa kifurushi na uagizaji hushughulikiwa na mchakato wa kuzalisha kiotomatiki, lugha lengwa hubainishwa wakati wa mchakato wa ujenzi badala ya katika faili ya UDL, na usimamizi wa kumbukumbu hushughulikiwa kwa uwazi na safu ya muda wa utekelezaji ya UniFFI badala ya kutangazwa waziwazi katika nafasi za majina.

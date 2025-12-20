@@ -1,0 +1,8 @@
+question: Hur gynnar Rust:s plattformskompatibilitet Bitcoin:s applikationsutveckling i olika driftsättningsmiljöer?
+answer: Det gör det möjligt att köra enhetliga kodbaser på mobila plattformar, webbläsare via WebAssembly och traditionella operativsystem
+wrong_answers:
+  - Den hanterar automatiskt konverteringar av kryptovalutakurser mellan olika regionala marknader och valutor
+  - Det ger inbyggda blockchain-synkroniseringsprotokoll som fungerar identiskt över alla nätverksarkitekturer
+  - Den erbjuder inbyggd integration med hårdvaruplånböcker och säkerhetsmoduler på alla plattformar som stöds
+explanation: |
+  Rust:s plattformsoberoende funktioner gör det möjligt för utvecklare att skriva Bitcoin-applikationer som kan distribueras i olika miljöer, inklusive mobila (Android/iOS), webbläsare (genom WebAssembly-kompilering) och traditionella stationära operativsystem. Denna mångsidighet demonstreras av projekt som Mutiny Wallet, som utnyttjar Rust:s WebAssembly-stöd för att skapa Lightning-plånböcker som körs direkt i webbläsare. De felaktiga svaren beskriver funktioner som inte är relaterade till kompatibilitet mellan plattformar - valutakonvertering är en funktion på applikationsnivå, blockkedjeprotokoll är nätverkslager och hårdvaruintegration kräver specifika API:er snarare än allmänt stöd för plattformar.

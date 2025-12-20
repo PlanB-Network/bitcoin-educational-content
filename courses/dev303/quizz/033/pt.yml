@@ -1,0 +1,8 @@
+question: Que variável de ambiente pode ser definida para exibir um rastreamento completo da pilha de chamadas quando ocorre um panic no Rust?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE é a variável de ambiente correta que fornece informações de depuração adicionais, mostrando a pilha de chamadas completa que conduziu a uma situação de pânico. Isso ajuda os desenvolvedores a rastrear exatamente qual sequência de chamadas de função resultou no erro. As outras opções (RUST_STACKTRACE, RUST_DEBUG_TRACE e RUST_PANIC_TRACE) não são variáveis de ambiente Rust válidas e não produzirão nenhuma saída de depuração quando ocorrer uma pane.

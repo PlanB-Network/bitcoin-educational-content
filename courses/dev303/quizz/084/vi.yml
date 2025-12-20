@@ -1,0 +1,8 @@
+question: Lợi ích kiến trúc chính của phương pháp phân lớp của UniFFI khi tích hợp thư viện Rust với các ngôn ngữ mục tiêu như Swift hoặc Kotlin là gì?
+answer: Lớp liên kết xử lý việc chuyển đổi kiểu dữ liệu và quản lý bộ nhớ, đồng thời cung cấp giao diện hoàn toàn tự nhiên cho ngôn ngữ đích.
+wrong_answers:
+  - Tệp UDL tự động biên dịch mã Rust thành mã bytecode có thể chạy nguyên bản trên nền tảng di động mà không cần dịch.
+  - Mã thư viện Rust được tự động viết lại theo cú pháp ngôn ngữ đích để loại bỏ mọi lời gọi giao diện hàm bên ngoài.
+  - Các ứng dụng ngôn ngữ đích truy cập trực tiếp vào các cấu trúc bộ nhớ Rust thông qua con trỏ chia sẻ để tránh chi phí xử lý dữ liệu bổ sung.
+explanation: |
+  Kiến trúc của UniFFI tạo ra một sự phân tách, trong đó mã liên kết được tạo ra hoạt động như một lớp dịch giữa ngôn ngữ đích và Rust. Lớp này xử lý việc đóng gói/giải mã phức tạp các kiểu dữ liệu, quản lý bộ nhớ một cách an toàn giữa các ngôn ngữ và cung cấp khả năng xử lý lỗi theo các quy ước của ngôn ngữ đích. Các lựa chọn khác không chính xác vì UniFFI không biên dịch thành mã bytecode (nó tạo ra các liên kết), không viết lại mã Rust bằng các ngôn ngữ khác (nó duy trì triển khai Rust gốc) và không sử dụng truy cập bộ nhớ chia sẻ (nó đóng gói dữ liệu một cách an toàn giữa các ranh giới).

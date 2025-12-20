@@ -1,0 +1,8 @@
+question: Mikä on perustavanlaatuisin piirre, jonka kaikki sulkeumat toteuttavat Rust:n sulkeumien piirrehierarkiassa?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iteraattori
+explanation: |
+  FnOnce on perustavanlaatuisin ominaisuus, jonka kaikki sulkimet toteuttavat Rust:ssä. Se edustaa sulkemia, joita voidaan kutsua vähintään kerran, joten se on sulkemishierarkian perusta. FnMut ja Fn ovat rajoittavampia ominaisuuksia, jotka perustuvat FnOnce-ominaisuuteen - FnMut sallii useita kutsuja mutation kanssa, kun taas Fn sallii useita kutsuja ilman mutatiota. Iterator ei liity closure-ominaisuuksiin, ja sitä käytetään datasekvenssien käsittelyyn.

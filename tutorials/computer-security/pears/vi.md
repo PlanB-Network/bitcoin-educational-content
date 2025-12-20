@@ -1,5 +1,5 @@
 ---
-name: Lê
+name: Pears
 description: Làm thế nào để cài đặt và sử dụng ứng dụng trên Pears?
 ---
 

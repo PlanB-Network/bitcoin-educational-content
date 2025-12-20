@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - 공동 서명
+name: COLDCARD - Co-Sign
 description: 공동 서명 기능을 살펴보고 콜드카드에서 사용하세요
 ---
 

@@ -1,0 +1,8 @@
+question: How does the Auto-Fees algorithm determine when to adjust channel fees for a specific peer relationship?
+answer: It compares recent forwarding traffic against a 60-day baseline established from the node's top five earning peers
+wrong_answers:
+  - It monitors real-time network congestion across all Lightning Network channels and adjusts fees accordingly
+  - It uses machine learning to predict future payment volumes based on historical Bitcoin price movements
+  - It analyzes the fee policies of competing nodes in the same geographic region to maintain competitive rates
+explanation: |
+  The Auto-Fees algorithm operates by establishing a performance baseline from the top five earning peers over approximately 60 days, then comparing recent traffic (last few days) against this historical trend on a per-peer basis. This approach allows for targeted adjustments rather than network-wide analysis, price predictions, or geographic competition monitoring, making it more precise and relevant to each specific channel relationship.

@@ -1170,7 +1170,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-[Maak je account aan] (https://app.bullbitcoin.com/registration/orangepeel) met 0,25% korting op Bitcoin aankopen en verkopen.
+[Maak je account aan](https://app.bullbitcoin.com/registration/orangepeel) met 0,25% korting op Bitcoin aankopen en verkopen.
 
 
 

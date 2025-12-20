@@ -1,0 +1,8 @@
+question: Jaką konkretną sekwencję operacji wykonuje klucz ScriptPubKey w ramach walidacji transakcji P2PKH, aby zweryfikować warunki wydatków?
+answer: Duplikuje klucz publiczny, haszuje go, porównuje z zatwierdzonym haszem, a następnie weryfikuje podpis
+wrong_answers:
+  - Hashuje podpis, porównuje z haszem klucza publicznego, a następnie weryfikuje z zatwierdzoną wartością
+  - Najpierw weryfikuje podpis, a następnie haszuje klucz publiczny i porównuje z zatwierdzonym haszem
+  - Łączy podpis i klucz publiczny, haszuje wynik, a następnie porównuje z zatwierdzonym haszem
+explanation: |
+  ScriptPubKey P2PKH ma określoną sekwencję: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Powoduje to powielenie dostarczonego klucza publicznego, zastosowanie haszowania SHA256, a następnie RIPEMD160, sprawdzenie zgodności wyniku z zatwierdzonym hashem, a na koniec sprawdzenie podpisu. Inne opcje nieprawidłowo opisują kolejność operacji lub sugerują haszowanie podpisów zamiast kluczy publicznych, co złamałoby logikę walidacji.

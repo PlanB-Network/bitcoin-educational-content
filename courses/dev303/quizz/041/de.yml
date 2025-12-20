@@ -1,0 +1,8 @@
+question: Welche drei Möglichkeiten gibt es, um Variablen aus der Umgebung in Rust zu erfassen?
+answer: Durch unveränderliche Referenz, durch veränderbare Referenz oder durch Übernahme des Eigentums
+wrong_answers:
+  - Durch Kopieren von Werten, durch Ausleihen von Referenzen oder durch Dereferenzierung von Zeigern
+  - Durch Stack-Zuweisung, durch Heap-Zuweisung oder durch statischen Speicher
+  - Gemeinsamer Zugang, exklusiver Zugang oder gleichzeitiger Zugang
+explanation: |
+  Closures in Rust erfassen Umgebungsvariablen auf genau drei Arten: durch unveränderliche Referenz (wenn sie nur lesen müssen), durch veränderbare Referenz (wenn sie modifizieren müssen) oder durch Übernahme der Eigentümerschaft (wenn sie den Wert verschieben müssen, oft aus Gründen der Thread-Sicherheit). Der Compiler wählt automatisch die restriktivste Methode, die den Anforderungen der Closure entspricht, und folgt dabei dem Prinzip des geringsten Privilegs.

@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Penandatangan Benih Frasa Sandi
+name: BIP-39 Passphrase SeedSigner
 description: Bagaimana cara menambahkan passphrase ke portofolio SeedSigner saya?
 ---
 

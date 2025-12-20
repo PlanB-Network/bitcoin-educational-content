@@ -105,10 +105,11 @@ proofreading:
       - Sanja22B
     reward: 2.18
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 4.35
+      - Tinnah924
+    reward: 2.18
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -144,6 +145,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.48
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.35
 tags:
   - guides
   - personal-security

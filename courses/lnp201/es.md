@@ -154,7 +154,7 @@ El script más común requiere una firma con la clave privada asociada a la dire
 
 ### UTXOs: Salidas de Transacción No Gastadas
 
-En Bitcoin, lo que realmente intercambiamos no son directamente Bitcoin, sino **UTXOs** (_Unspent Transaction Outputs_), que significa "salidas de transacción no gastadas".
+En Bitcoin, lo que realmente intercambiamos no son directamente Bitcoin, sino **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), que significa "salidas de transacción no gastadas".
 
 Un UTXO es una pieza de Bitcoin que puede ser de cualquier valor, por ejemplo, **2,000 Bitcoin**, **8 Bitcoin**, o incluso **8,000 sats**. Cada UTXO está bloqueado por un script, y para gastarlo, se deben satisfacer las condiciones del script, a menudo una firma con la clave privada correspondiente a una dirección de recepción dada.
 
@@ -599,7 +599,7 @@ En este capítulo, exploramos el enrutamiento de pagos en la Red Lightning. Pero
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
-En este capítulo, descubriremos cómo Lightning permite que los pagos transiten a través de nodos intermediarios sin necesidad de confiar en ellos, gracias a los **HTLC** (_Hashed Time-Locked Contracts_ o Contratos de Tiempo Bloqueado con Hash). Estos contratos inteligentes aseguran que cada nodo intermediario solo recibirá los fondos de su canal si reenvía el pago al destinatario final, de lo contrario, el pago no será validado.
+En este capítulo, descubriremos cómo Lightning permite que los pagos transiten a través de nodos intermediarios sin necesidad de confiar en ellos, gracias a los **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_ o Contratos de Tiempo Bloqueado con Hash). Estos contratos inteligentes aseguran que cada nodo intermediario solo recibirá los fondos de su canal si reenvía el pago al destinatario final, de lo contrario, el pago no será validado.
 
 El problema que surge para el enrutamiento de pagos es, por lo tanto, la confianza necesaria en los nodos intermediarios, y entre los propios nodos intermediarios. Para ilustrar esto, revisemos nuestro ejemplo simplificado de la red Lightning con 3 nodos y 2 canales:
 

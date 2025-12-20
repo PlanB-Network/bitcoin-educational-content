@@ -1,4 +1,15 @@
+---
+name: [Valet Bitcoin]
+description: [This is a full tutorial steep-by-step guide on how to use Valet Bitcoin wallet. This tutorial is original and is fully written in English Language]
+---
+
+
+![cover_valet](assets/cover.webp)
+
+
+
 # INTRODUCTION
+
 
 Valet is a Lightweight, self-custodial, Bitcoin and Lightning wallet
 that offers an easy and convenient onboarding process for beginners. It

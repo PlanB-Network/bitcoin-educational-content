@@ -18,11 +18,11 @@ economies, especially in remote areas.
 
 It is a fork of the ***Simple Bitcoin Wallet (SBW)***, with an advanced
 Hosted Lightning channel feature called ***Fiat Channels***, designed to
-enable merchants accept Lightning payments without volatility risks.
+enable anyone accept Lightning payments without volatility risks.
 
 Valet is currently only available for Android devices, and can be
 downloaded and installed from several open-sourced app stores. However,
-Valet is not hosted on the Google Play Store because of developer
+Valet is ***not*** hosted on the ***Google Play Store*** because of developer
 privacy and KYC concerns.
 
 ## DOWNLOAD AND INSTALL VALET
@@ -83,8 +83,8 @@ created, and you will be redirected to the home page.
 ## BACKUP YOUR SEED PHRASE
 
 👉 On the wallet home page, click on the ***Green card*** that has an
-inscription ***Tap to save wallet recovery phrase in case you ever lose
-or replace your device.***
+inscription ***"Tap to save wallet recovery phrase in case you ever lose
+or replace your device".***
 
 ![seed_phrase_green_card](assets/en/007.webp)
 
@@ -137,7 +137,7 @@ code to the person via social media or other communication channels.
 👉 You can also click on the ***Edit*** button to set the amount of
 Bitcoins that should be sent to that address.
 
-*NB:* Like an invoice, the edit feature comes in handy in scenarios
+**NB:** Like an invoice, the edit feature comes in handy in scenarios
 where you may want to receive a specific amount of Bitcoins to an
 address at a point; however, this does not mean that the address cannot
 receive higher or lower amounts.
@@ -224,9 +224,11 @@ or click on ***Max*** to use all your on-chain Bitcoin balance. You may
 adjust the ***fee***, or leave the default fee setting, and click
 ***Ok***.
 
-*NB:* The amount you fund the channel with will be the capacity of your
+**NB:** The amount you fund the channel with will be the capacity of your
 new channel (i.e., the total volume of Sats that can be transacted to
 and from that channel).
+
+It is also important that you use over ***100,000 Sats*** as funding amount when opening a channel. This is because, a lot of Lightning nodes requre a minimum of 100,000 Sats capacity toopen a channel to them. So, to avoid trial and error, simply use amounts higher than that range.
 
 ![enter_funding_amount](assets/en/018.webp)
 
@@ -251,22 +253,22 @@ Lightning channel will be ready.
 ***Lightning card*** on your home page, and you will see the information
 about your Lightning channel as follows:
 
-*SOME RANDOM SET OF NUMBERS SEPARATED BY DOTS:* These are the nodes' IP
+**RANDOM SET OF NUMBERS SEPARATED BY DOTS:** These are the nodes' IP
 addresses. (IPV4 and IPV6, respectively)
 
-*CAPACITY:* This is the total volume of Sats that can be sent and
+**CAPACITY:** This is the total volume of Sats that can be sent and
 received through this channel
 
-*CAN SEND:* This is the amount of Sats you can send out at this point.
+**CAN SEND:** This is the amount of Sats you can send out at this point.
 You'll notice that it is almost the same figure as the ***Capacity***.
 This is because you have not sent out any payments through the channel.
 
-*CAN RECEIVE:* This is the number of Sats you can receive to this
+**CAN RECEIVE:** This is the number of Sats you can receive to this
 channel at the moment. (It will be little to nothing at this point
 because for you to be able to receive, you must first send out some Sats
 to create an inbound Liquidity)
 
-*REFUNDABLE:* This displays the amount that gets paid back to your
+**REFUNDABLE:** This displays the amount that gets paid back to your
 on-chain address when you close your channel. This is also referred to
 as your ***Channel's local balance***. Notice that it is just slightly
 less than the channel capacity, and this is because when closing a
@@ -274,7 +276,7 @@ channel, you must pay a fee to publish the closing transaction on the
 blockchain, just like you did while funding the channel. So the system
 has deducted the approximated lowest amount you'll pay.)
 
-*VALUE IN FLIGHT:* When someone sends some sats to your channel, or when
+**VALUE IN FLIGHT:** When someone sends some sats to your channel, or when
 you try to send some sats to someone, and for whatever reason, the
 transaction is delayed, it's often shown in this field.
 
@@ -321,7 +323,7 @@ To receive on the Lightning channel, you'll have to generate an invoice.
 Unlike Bitcoin on-chain, which uses addresses, the Lightning network
 uses invoices. There are two routes to generate an invoice on Valet.
 
-*OPTION 1:*
+**OPTION 1:**
 
 👉 At the bottom of the home page, click on ***Receive***, select
 ***Receive to Lightning invoice***. Fill out the amount to be received
@@ -334,7 +336,7 @@ code with the payer.
 
 ![copy_invoice_or_share_QR](assets/en/027.webp)
 
-*OPTION 2:*
+**OPTION 2:**
 
 👉 Click on the purple Lightning card on your wallet home page. Tap
 anywhere on your channel, and a list of options will pop up. Select
@@ -345,7 +347,7 @@ copy the invoice or share the QR code with the payer.
 
 ![receive_to_channel](assets/en/028.webp)
 
-*NB:* The first option is a universal option, which means that if you
+**NB:** The first option is a universal option, which means that if you
 have more than one active channel and you use the first option, the
 system will automatically select one of your channels for receiving the
 Sats.
@@ -360,11 +362,11 @@ displayed:
 
 ![channel_pop_ups](assets/en/029.webp)
 
-*SHARE LIGHTNING CHANNEL DETAILS:* This enables you to share your
+**SHARE LIGHTNING CHANNEL DETAILS:** This enables you to share your
 channel details, such as remote peer ID, local channel ID, Funding
 transaction, date of creation, etc.
 
-*CLOSE CHANNEL TO WALLET:* You can close your lightning channel whenever
+**CLOSE CHANNEL TO WALLET:** You can close your lightning channel whenever
 you want. To close your channel, the system checks the Bitcoin balance
 you have on your own side of the channel (remember the ***"Can Send"***
 field, also known as your local balance), and it sends it back to you.
@@ -378,7 +380,7 @@ wallet's on-chain address.
 
 ![close_channel_to_wallet](assets/en/030.webp)
 
-*CLOSE CHANNEL TO ADDRESS:* This is the second option for closing a
+**CLOSE CHANNEL TO ADDRESS:** This is the second option for closing a
 channel. When you choose this option, you will be prompted to enter a
 wallet address to which the Bitcoin balance on your channel will be
 sent. Please note that in this option, you can only scan the QR code of
@@ -391,19 +393,19 @@ will be sent to the address you scanned.
 
 ![scan_address_and_Ok](assets/en/031.webp)
 
-*RECEIVE TO CHANNEL:* This is the same thing as generating an invoice,
+**RECEIVE TO CHANNEL:** This is the same thing as generating an invoice,
 but in some cases, you may have more than one channel, including Fiat
 channels (a unique kind of Lightning channel obtainable in the Valet
 wallet). So, if you have multiple channels open, this option ensures
 that you can receive payment to a specific channel.
 
-*REFILL FROM OTHER CHANNELS:* This option is a feature that allows you
+**REFILL FROM OTHER CHANNELS:** This option is a feature that allows you
 to refill one channel from other existing channels. For instance, if you
 have 2 different Lightning channels (A and B), and the Bitcoin balance
 on channel A has depleted, with this option, you can easily and
 automatically top up the balance of channel A from channel B.
 
-*DIRECT NOT PRIVATE RECEIVE:* This is also an option to generate an
+**DIRECT NOT PRIVATE RECEIVE:** This is also an option to generate an
 invoice to receive payment, but when you use this option, the sender
 pays you directly. This means that the payment does not hop through
 different nodes before it reaches you, as a normal Lightning payment
@@ -447,7 +449,7 @@ must have identified a Host you want to open a channel to, and obtained
 the node's QR. An example of a Host node that you can open a Fiat
 channel to is the SATM node by Standard Sats.)
 
-*NB:* It is important to note that anyone can be a Host. All you require
+**NB:** It is important to note that anyone can be a Host. All you require
 is to run a Lightning node with the ***Fiat channel plugin*** and a
 ***Hedging service***. Fiat channels is an open-source project by
 *Standard Sats*. Read more about it
@@ -469,11 +471,11 @@ Sats right away. You see, it's that simple!!!
 ![channel_confirmation_prompt](assets/en/034.webp)
 
 👉 Go to your wallet's home page, you will see a ***light-green*** card
-labeled \*\*\*\*USD***, that is your ***Fiat channel\*\*\*
+labeled ***USD***, that is your ***Fiat channel***.
 
 ![fiat_channel_card](assets/en/035.webp)
 
-*NB:* When you receive Sats on a Fiat channel, the fiat value of the
+**NB:** When you receive Sats on a Fiat channel, the fiat value of the
 Sats you received will be locked in as a stable balance, while the Sats
 volume floats with the Bitcoin price. This solution was designed mostly
 for merchants who want to accept Sats for payment but do not want to
@@ -487,16 +489,16 @@ you'll see and what each of them means:
 
 ![fiat_channel_info](assets/en/036.webp)
 
-*RANDOM SET OF NUMBERS SEPARATED BY DOTS:* These are the nodes' IP
+**RANDOM SET OF NUMBERS SEPARATED BY DOTS:** These are the nodes' IP
 addresses. (IPV4 and IPV6, respectively)
 
-*SERVER RATE:* This is the Bitcoin market price at which the Host is
+**SERVER RATE:** This is the Bitcoin market price at which the Host is
 offering the services to you. This will often be slightly different from
 the predominant market price, because a Host may add a tiny premium. It
 is entirely up to a Host to decide this rate; hence, this would also
 vary from Host to Host.
 
-*FIAT BALANCE:* This is the locked-in stable fiat value of every sat you
+**FIAT BALANCE:** This is the locked-in stable fiat value of every sat you
 receive on this channel. Remember, as explained earlier, whenever you
 receive Sats on your Fiat channel, the fiat value of the Sats at the
 time of receipt is immediately locked in as a synthetic stable fiat
@@ -505,22 +507,22 @@ with the Bitcoin market price. Whenever you want to make payments from
 this channel, you can only send the Sats equivalent of this Fiat
 balance. So think of this as a digital fiat currency backed by Sats.
 
-*CAPACITY:* This is the total volume of Sats that can be sent and
+**CAPACITY:** This is the total volume of Sats that can be sent and
 received through this channel. (This is also set by the Host. And unlike
 a normal Lightning channel, this capacity can be adjusted by the Host as
 the case may be.)
 
-*CAN SEND:* This is the volume of Sats you can send out at each point
+**CAN SEND:** This is the volume of Sats you can send out at each point
 based on your fiat balance. This is completely different from what you
 have in a normal Lightning channel, because this value floats with the
 Bitcoin price. Hence, what you see here is the Sats worth of your Fiat
 balance at any time based on the ***Server Rate***.
 
-*CAN RECEIVE:* This is the number of Sats you can receive to this
+**CAN RECEIVE:** This is the number of Sats you can receive to this
 channel at the moment. After you create your channel, this value should
 be the same as the channel capacity.
 
-*VALUE IN FLIGHT:* When someone sends some sats to your channel, or when
+**VALUE IN FLIGHT:** When someone sends some sats to your channel, or when
 you try to send some sats to someone, and for whatever reason, the
 transaction is delayed, it's often shown in this field.
 
@@ -555,31 +557,31 @@ be displayed:
 
 ![fiat_channel_pop_up](assets/en/037.webp)
 
-*SHARE HOSTED CHANNEL DETAILS:* This enables you to share your Fiat
+**SHARE HOSTED CHANNEL DETAILS:** This enables you to share your Fiat
 channel details, such as remote peer ID, local channel ID, date of
 creation, etc.
 
-*EXPORT CHANNEL STATE:* This enables you to export the state of a
+**EXPORT CHANNEL STATE:** This enables you to export the state of a
 channel at any point. This is usually useful in fixing channel errors,
 and a Host may ask that you share this if there's a need for it.
 
-*DRAIN CHANNEL BALANCE:* As mentioned earlier, you cannot technically
+**DRAIN CHANNEL BALANCE:** As mentioned earlier, you cannot technically
 close a Fiat channel, but you can drain the balance of your channel into
 your existing normal Lightning channel. This automatically moves the Sat
 equivalent of your Fiat balance to your normal Lightning channel.
 
-*RECEIVE TO CHANNEL:* This is the same thing as generating an invoice,
+**RECEIVE TO CHANNEL:** This is the same thing as generating an invoice,
 but in some cases, a user may have more than one Fiat channel with
 different Hosts, including normal Lightning channels. So, if a user has
 multiple channels open, this option ensures that they can receive
 payment to a specific channel.
 
-*REFILL FROM OTHER CHANNELS:* This option is a feature that allows a
+**REFILL FROM OTHER CHANNELS:** This option is a feature that allows a
 user refill one channel from other existing channels. So, with this
 option, you can refill your Fiat channel from a normal channel or other
 Fiat channels you have, just the same way you could drain.
 
-*DIRECT NOT PRIVATE RECEIVE:* This is also an option to generate an
+**DIRECT NOT PRIVATE RECEIVE:** This is also an option to generate an
 invoice to receive payment, but when you use this option, the sender
 pays you directly. This means that the payment does not hop through
 different nodes before it reaches you. So, in essence, the sender knows
@@ -598,7 +600,7 @@ components in the settings section.
 
 ![settings_icon](assets/en/038.webp)
 
-*LOCAL CHANNEL BACKUP IS ENABLED:* If this is otherwise ***Disabled,***
+**LOCAL CHANNEL BACKUP IS ENABLED:** If this is otherwise ***Disabled,***
 you should enable it because this is the only way you can recover your
 normal Lightning channels if you uninstall and reinstall Valet. We'll
 explain this later. So click on this, and give Valet permission to your
@@ -608,16 +610,16 @@ explain this later. So click on this, and give Valet permission to your
 
 ![enable_media_access](assets/en/040.webp)
 
-*WHERE TO STORE LOCAL BACKUP:* As long as you gave Valet permission to
+**WHERE TO STORE LOCAL BACKUP:** As long as you gave Valet permission to
 your storage, this field will automatically be set to store local
 backups in your ***Downloads*** folder. But you can change it by
 clicking here and selecting any folder of your choice.
 
-*MANAGE CHAIN WALLETS* This is a bit technical, and you do not need to
+**MANAGE CHAIN WALLETS** This is a bit technical, and you do not need to
 bother about this unless you're experienced enough. The default setting
 here is just fine.
 
-*ADD HARDWARE WALLET:* You should also not bother about this, unless you
+**ADD HARDWARE WALLET:** You should also not bother about this, unless you
 have a Hardware wallet you want to connect and monitor. With this
 setting, you can scan and connect your hardware wallet, such as Trezor
 or Cold Card, and monitor its activities. This is a watch-only feature,
@@ -625,29 +627,29 @@ which means you cannot perform transactions on the Hardware wallet from
 here. You can only observe and monitor the wallet activities, balances,
 etc.
 
-*SET CUSTOM ELECTRUM NODE:* This is also technical, and unless you're
+**SET CUSTOM ELECTRUM NODE:** This is also technical, and unless you're
 knowledgeable enough, you shouldn't bother about this. The default
 setting is good enough.
 
-*BITCOIN UNITS:* This is how you want your Bitcoin balance to be
+**BITCOIN UNITS:** This is how you want your Bitcoin balance to be
 displayed. The first option displays your balance in Satoshi terms,
 e.g., 1,000,000 Sats, while the second option displays it in BTC decimal
 points. e.g. 0.01BTC
 
-*USE PIN AUTHENTICATION* If you check this box, then you'll have to set
+**USE PIN AUTHENTICATION** If you check this box, then you'll have to set
 up a PIN or fingerprint with which you must input to log in to your
 wallet, and authenticate transactions.
 
-*USE TOR CONNECTION:* If you check this box, your transactions will be
+**USE TOR CONNECTION:** If you check this box, your transactions will be
 routed over the Tor network. It adds an extra layer of privacy but may
 result in delayed payment throughput, especially for Lightning payments.
 
-*VIEW BIP39 RECOVERY PHRASE:* This is where you can access your 12-word
+**VIEW BIP39 RECOVERY PHRASE:** This is where you can access your 12-word
 seed phrase for backup. So if you didn't write it down before, or you
 can't find where you wrote it down, as long as you still have access to
 your Wallet, you can copy it from here.
 
-*USAGE STATISTICS:* This shows you a summary of all your transactions
+**USAGE STATISTICS:** This shows you a summary of all your transactions
 and activities since the wallet creation
 
 ![usage_stats](assets/en/041.webp)
@@ -710,7 +712,7 @@ stored in your ***Downloads*** folder by default.)
 ![local_backup_file_in_download_folder](assets/en/046.webp)
 
 Once the correct backup file is selected, a prompt confirming that a
-"Backup file is present" will be displayed, and it will then ask you to
+***"Backup file is present"*** will be displayed, and it will then ask you to
 enter your 12-word seed phrase.
 
 ![enter_12_words](assets/en/047.webp)

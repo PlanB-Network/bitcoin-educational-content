@@ -1,6 +1,6 @@
 ---
-nome: Remix - Whirlpool
-descrizione: Quanti remix dovrebbero essere fatti su Whirlpool?
+name: Remix - Whirlpool
+description: Quanti remix dovrebbero essere fatti su Whirlpool?
 ---
 ![cover remix- wp](assets/cover.webp)
 

@@ -1,4 +1,4 @@
 ---
 name: Delta Chat
-description: Delta Chat: guida pratica alla messaggistica decentralizzata
+description: Guida pratica alla messaggistica decentralizzata
 ---

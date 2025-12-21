@@ -144,6 +144,8 @@ Nelle impostazioni avanzate si possono attivare:
 
 In pochi secondi si ritrovano chat, gruppi e cronologia completa, senza dipendere da un server centrale.
 
+![image](assets/it/09.webp)
+
 ## Conclusione:
 
 In un periodo in cui si parla sempre più di controllo delle comunicazioni private, Delta Chat rappresenta una risposta concreta: una messaggistica decentralizzata, cifrata e davvero utilizzabile ogni giorno.

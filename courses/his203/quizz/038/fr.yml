@@ -1,0 +1,9 @@
+question: Pour quel cas d'utilisation en particulier la mise à niveau Pay to Script Hash a-t-elle été déployée principalement ?
+answer: La sécurisation des fonds par signature multipartite (multisig)
+wrong_answers:
+  - Les services de dépôt fiduciaire (escrow)
+  - L'augmentation de la puissance de calcul du réseau grâce au minage combiné (merged mining)
+  - L'envoi de fonds à l'étranger (remittances)
+explanation: |
+ La sécurisation des fonds constitue une question très importante à l'époque, à cause de la multiplication des piratages. Le sujet a été mis sur la table le 23 août 2011 par Gavin Andresen, le meneur du projet, qui désirait accélérer la standardisation de la fonctionnalité de multisignature, déjà présente dans le protocole. Cela a mené au développement d'OP_EVAL puis de P2SH au cours de l'hiver.
+reviewed: false

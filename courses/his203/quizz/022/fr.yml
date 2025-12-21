@@ -1,0 +1,9 @@
+question: Quelle était la principale innovation financière apportée par la plateforme Bitcoinica, lancée en septembre 2011 par le jeune Chinois Zhou Tong ?
+answer: L'effet de levier et la vente à découvert
+wrong_answers:
+  - L'émission d'actions et d'obligations
+  - Le prêt à intérêt collatéralisé
+  - Le change en espèces quasi instantané
+explanation: |
+ Bitcoinica était la première plateforme de l'écosystème à offrir du trading sur marge, qui permettait aux clients d'utiliser un effet de levier pour amplifier leurs gains (et leurs pertes) et d'effectuer de la vente à découverte (short) pour parier sur une baisse du cours. Après sa fermeture, ce type de service a été repris par la plateforme Bitfinex, qui a été lancée en octobre 2012 et qui se basait sur le même code source.
+reviewed: false

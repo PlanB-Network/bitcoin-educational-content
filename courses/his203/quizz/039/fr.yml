@@ -1,0 +1,9 @@
+question: Quel effet avait le code opération OP_EVAL au sein du système de programmation interne de Bitcoin ?
+answer: Exécuter un script à l'intérieur d'un script
+wrong_answers:
+  - Requérir les signatures des participants
+  - Hacher un script et comparer le résultat à une empreinte fournie
+  - Vérifier que deux valeurs sont égales
+explanation: |
+ Il a été décrit par Nicolas van Saberhagen, alias ByteCoin, qui conçoit dans la nuit du 1er au 2 octobre 2011. Le code opération est exécuté à la fin du script de verrouillage pour évaluer la validité du script fourni, dont le hachage est comparé à l'empreinte donnée.
+reviewed: false

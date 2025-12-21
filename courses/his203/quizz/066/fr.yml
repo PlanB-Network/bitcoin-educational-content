@@ -1,0 +1,9 @@
+question: Qui a été responsable indirect du dernier piratage de Bitcoinica qui a eu lieu en juillet 2012 ?
+answer: Amir Taaki
+wrong_answers:
+  - Zhou Tong
+  - Chen Jianhai
+  - Mark Karpelès
+explanation: |
+ Il a rendu public le code source intégral de la plateforme le 7 juillet, code source qui contenait le mot de passe du coffre-fort LastPass de Bitcoinica, qui contenait lui-même le mot de passe de son compte sur Mt. Gox. 40 000 bitcoins et 40 000 LR-USD ont été ainsi retirés. Amir Taaki a reconnu cette action, mais a jeté le blâme sur la direction de Bitcoinica, avec qui il était en conflit.
+reviewed: false

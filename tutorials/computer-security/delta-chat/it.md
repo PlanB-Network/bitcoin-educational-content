@@ -63,12 +63,13 @@ A differenza di WhatsApp o SimpleX Chat, non è necessario registrarsi prima da 
 ## Creazione del profilo:
 
 Una volta aperta l’app, Delta Chat chiede se creare un nuovo profilo o usarne uno esistente.
+
+  ![image](assets/it/02.webp)
+
 Creando un nuovo profilo si può inserire:
 
 - un nome
 - un’immagine (opzionale)
-
-  ![image](assets/it/02.webp)
 
 Di default viene proposto un server ChatMail, ma è possibile:
 
@@ -79,4 +80,4 @@ Di default viene proposto un server ChatMail, ma è possibile:
 
 Dopo pochi secondi il profilo è pronto e si può iniziare a usare l’app.
 
-
+  ![image](assets/it/03.webp)

@@ -83,11 +83,18 @@ Dopo pochi secondi il profilo è pronto e si può iniziare a usare l’app.
 ## Interfaccia e chat:
 
 L’interfaccia è molto semplice e immediata:
-Messaggi di dispositivo, che sono comunicazioni locali
-Messaggi salvati, simili a quelli di Telegram e sincronizzabili tra dispositivi
+
+- Messaggi di dispositivo, che sono comunicazioni locali
+- Messaggi salvati, simili a quelli di Telegram e sincronizzabili tra dispositivi
+
+  ![image](assets/it/04.webp)
+  
 Per aggiungere un contatto basta:
-mostrare il proprio QR code
-oppure scansionare quello dell’altra persona
+
+- mostrare il proprio QR code
+- scansionare quello dell’altra persona
+- invitare tramite link (invita amici)
+  
 Una volta stabilita la connessione, la cifratura end-to-end viene configurata automaticamente.
 Le chat sono praticamente identiche a WhatsApp:
 

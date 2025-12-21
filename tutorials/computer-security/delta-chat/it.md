@@ -59,3 +59,22 @@ Su Linux è disponibile comodamente tramite Flathub, ma ci sono anche pacchetti 
 
 Una cosa molto importante: le versioni desktop non richiedono il telefono.
 A differenza di WhatsApp o SimpleX Chat, non è necessario registrarsi prima da mobile. È possibile creare il profilo direttamente su PC oppure trasferirlo da un altro dispositivo.
+
+## Creazione del profilo:
+
+Una volta aperta l’app, Delta Chat chiede se creare un nuovo profilo o usarne uno esistente.
+Creando un nuovo profilo si può inserire:
+
+- un nome
+- un’immagine (opzionale)
+
+Di default viene proposto un server ChatMail, ma è possibile:
+
+- scegliere un altro server ChatMail
+- usare un account email classico
+- configurare manualmente IMAP e SMTP
+- registrarsi tramite codice di invito di un altro utente
+
+Dopo pochi secondi il profilo è pronto e si può iniziare a usare l’app.
+
+![image](assets/it/02.webp)

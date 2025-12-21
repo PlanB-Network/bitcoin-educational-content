@@ -2,6 +2,9 @@
 name: Delta Chat
 description: Guida pratica alla messaggistica decentralizzata
 ---
+
+![image](assets/cover.webp)
+
 ## Introduzione – Chat Control e privacy:
 
 Negli ultimi anni si parla sempre più spesso di Chat Control, una proposta normativa che punta a introdurre la scansione automatica dei messaggi privati sulle principali piattaforme di comunicazione.

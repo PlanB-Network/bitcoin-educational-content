@@ -9,9 +9,9 @@ objectives:
 ---
 # Un viaggio nei corsi di sviluppo CUBO+ per Bitcoin!
 
-Cosa serve per costruire su Bitcoin? Questo corso di 20 ore ti porta sotto la superficie di Bitcoin e del Lightning Network, esplorando i protocolli che alimentano l'infrastruttura finanziaria più resiliente al mondo. Che tu stia cercando di contribuire a progetti open-source o di costruire la prossima generazione di applicazioni Bitcoin, acquisirai la profondità tecnica necessaria per iniziare a lavorare con fiducia in questo ecosistema.
+Cosa serve per sviluppare su Bitcoin? Questo corso di 20 ore approfondisce Bitcoin e Lightning Network, esplorando i protocolli che alimentano l'infrastruttura finanziaria più resiliente al mondo. Che tu stia cercando di contribuire a progetti open-source o di costruire la prossima generazione di applicazioni Bitcoin, acquisirai il livello di approfondimento tecnico necessario per iniziare a lavorare con fiducia in questo ecosistema.
 
-Registrato durante il bootcamp CUBO+ 2023 in El Salvador, questo corso riunisce le prospettive di sviluppatori ed educatori Bitcoin di primo piano che hanno plasmato la tecnologia. La parte migliore? È completamente gratuito, reso possibile da Fulgure Venture, il Bitcoin Office e DecouvreBitcoin. Se sei stato curioso di sapere come Bitcoin funziona davvero a livello di protocollo, questa è la tua occasione per scoprirlo.
+Registrato durante il bootcamp CUBO+ 2023 in El Salvador, questo corso riunisce le prospettive di sviluppatori ed educatori Bitcoin di primo piano che hanno plasmato questa tecnologia. La parte migliore? È completamente gratuito, reso possibile da Fulgure Venture, il Bitcoin Office e DecouvreBitcoin. Se sei curioso di sapere come Bitcoin funziona davvero a livello di protocollo, questa è la tua occasione per scoprirlo.
 +++
 # Introduzione e corsi preparatori
 

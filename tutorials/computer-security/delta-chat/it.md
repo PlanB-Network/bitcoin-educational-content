@@ -47,6 +47,11 @@ Su Linux è disponibile comodamente tramite Flathub, ma ci sono anche pacchetti 
 È disponibile anche per:
 
 - [F-Droid](https://f-droid.org/app/com.b44t.messenger)
+Puoi trovare un tutoria qui su F-Droid
+
+https://planb.academy/it/tutorials/computer-security/data/f-droid-2cd1aae5-7028-4c04-8fbe-95aeaf278ef4
+
+  
 - [Play Store](https://play.google.com/store/apps/details?id=chat.delta)
 - [iOS](https://apps.apple.com/us/app/delta-chat/id1459523234)
 - [Windows](https://apps.microsoft.com/detail/9pjtxx7hn3pk)

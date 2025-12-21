@@ -68,6 +68,8 @@ Creando un nuovo profilo si può inserire:
 - un nome
 - un’immagine (opzionale)
 
+  ![image](assets/it/02.webp)
+
 Di default viene proposto un server ChatMail, ma è possibile:
 
 - scegliere un altro server ChatMail
@@ -77,4 +79,4 @@ Di default viene proposto un server ChatMail, ma è possibile:
 
 Dopo pochi secondi il profilo è pronto e si può iniziare a usare l’app.
 
-![image](assets/it/02.webp)
+

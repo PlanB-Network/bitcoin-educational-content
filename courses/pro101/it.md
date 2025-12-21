@@ -27,25 +27,25 @@ Registrato durante il bootcamp CUBO+ 2023 in El Salvador, questo corso riunisce 
 
 :::video id=9b6aa5cf-245e-4a66-b3b8-c4860ab51e90:::
 
-Filippo e Mario forniscono un discorso introduttivo su CUBO+ 2023, ponendo le basi per il viaggio di apprendimento completo che ci attende. Discutono la struttura dei corsi, i risultati dell'apprendimento e il modo in cui questi daranno potere agli studenti nello spazio di sviluppo Bitcoin.
+Filippo e Mario forniscono un discorso introduttivo su CUBO+ 2023, ponendo le basi per il percorso di apprendimento completo che ci attende. Discutono la struttura dei corsi, i risultati previsti, e come questi consentiranno agli studenti di operare nello sviluppo Bitcoin.
 
 
 ### Obiettivi
 
 
-Il corso mira a fornire ai partecipanti una profonda comprensione dei principi di base di Bitcoin, competenze pratiche di sviluppo e la capacità di navigare e contribuire all'ecosistema Bitcoin in modo efficace. Attraverso una miscela di conoscenze teoriche ed esercizi pratici, gli studenti impareranno a conoscere gli elementi essenziali della sicurezza del Bitcoin, le complessità del suo stack software e i meccanismi della sua governance.
+Il corso mira a fornire ai partecipanti una profonda comprensione dei principi di base di Bitcoin, competenze pratiche di sviluppo e la capacità di navigare e contribuire all'ecosistema Bitcoin in modo efficace. Attraverso una miscela di conoscenze teoriche ed esercizi pratici, gli studenti impareranno a conoscere gli elementi essenziali della sicurezza di Bitcoin, le complessità del suo stack software e i meccanismi della sua governance.
 
 
 ### Prerequisito
 
 
-I partecipanti devono essere dotati di un forte senso di curiosità, di un'ansia di imparare a livello professionale e di alcune conoscenze fondamentali in materia di sviluppo. Sebbene non sia richiesto un background dettagliato in Bitcoin, una comprensione di base dei principi di codifica e una disponibilità a confrontarsi con concetti tecnici complessi sono essenziali per trarre il massimo dall'acceleratore.
+I partecipanti devono essere dotati di un forte senso di curiosità, voglia di imparare a livello professionale e di alcune conoscenze fondamentali in materia di sviluppo. Sebbene non sia richiesto un background dettagliato in Bitcoin, una comprensione di base dei principi di codifica e una disponibilità a confrontarsi con concetti tecnici complessi sono essenziali per trarre il massimo dal percorso accellerato.
 
 
 #### Strumenti
 
 
-Nel corso del corso, i partecipanti utilizzeranno strumenti chiave che aiuteranno la loro comprensione e miglioreranno la loro esperienza di apprendimento. L'uso di Linux, della riga di comando Interface, di GitHub e di Docker sarà parte integrante di un approccio pratico allo sviluppo di Bitcoin. Questi strumenti faciliteranno il lavoro con lo stack software di Bitcoin, la gestione degli ambienti di sviluppo e la collaborazione con i progetti in un contesto reale. Questi strumenti faciliteranno il lavoro con lo stack software Bitcoin, la gestione degli ambienti di sviluppo e la collaborazione ai progetti in un contesto reale.
+Durante il corso, i partecipanti utilizzeranno strumenti chiave che aiuteranno la loro comprensione e miglioreranno la loro esperienza di apprendimento. L'uso di Linux, della riga di comando Interface, di GitHub e di Docker saranno parte integrante di un approccio pratico allo sviluppo di Bitcoin. Questi strumenti faciliteranno il lavoro con lo stack software di Bitcoin, la gestione degli ambienti di sviluppo e la collaborazione ai progetti in un contesto reale.
 
 
 ## Perché Bitcoin
@@ -59,18 +59,18 @@ Nel corso del corso, i partecipanti utilizzeranno strumenti chiave che aiuterann
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Benvenuti alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo del Bitcoin, guidati da Ricky, il fondatore del **Bitcoin Italia Podcast**. Ricky è un appassionato attivista per i diritti umani che utilizza il Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Ricky ha viaggiato molto, documentando l'adozione del Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e Twitter (**BTC Explorer**, **Ricky6**). La passione di Ricky per il Commitment deriva dalla sua convinzione che il Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
+Benvenuti alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo del Bitcoin, guidati da Rikki, il fondatore del **Bitcoin Italia Podcast**. Rikki è un appassionato attivista per i diritti umani che utilizza il Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Rikki ha viaggiato per diversi paesi, documentando l'adozione del Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e X (**BTC Explorer**, **Rikki6ixx**). La passione di Rikki nasce dalla sua convinzione che Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
 
 
 ![Unbanked Population](assets/en/001.webp)
 
-la popolazione globale non bancarizzata
+la popolazione globale senza accesso ai servizi bancari
 
 
 ### Bitcoin: la libertà finanziaria e il suo impatto su El Salvador
 
 
-Questa conferenza, **"Perché El Salvador ha bisogno del Bitcoin"**, fornisce una panoramica del protocollo **Bitcoin**, delle sue radici nel movimento **Cypherpunk** e del suo ruolo come strumento di libertà per il **denaro non censurato**, **l'inclusione finanziaria** e molto altro.
+Questa conferenza, **"Perché El Salvador ha bisogno di Bitcoin"**, fornisce una panoramica del protocollo **Bitcoin**, delle sue radici nel movimento **Cypherpunk** e del suo ruolo come strumento di libertà per il **denaro non censurato**, **l'inclusione finanziaria** e molto altro.
 
 
 **Definizioni**
@@ -81,25 +81,25 @@ Questa conferenza, **"Perché El Salvador ha bisogno del Bitcoin"**, fornisce un
 - inclusione finanziaria: fornire l'accesso ai servizi finanziari alle persone escluse dai sistemi bancari tradizionali, spesso definite "unbanked"
 - denaro non censurato: denaro che non può essere controllato o limitato da governi o istituzioni finanziarie.
 
-#### Il background di Ricky e la difesa del Bitcoin
+#### Il background di Rikki e la difesa del Bitcoin
 
 
-Il viaggio di Ricky nel Bitcoin ha le sue radici nel suo lavoro di sostenitore dei diritti umani. Crede che il Bitcoin possa fornire agli individui il controllo sulle proprie finanze, permettendo loro di proteggere la propria privacy e di evitare le limitazioni delle banche centralizzate. La sua esplorazione dell'adozione del Bitcoin in luoghi come El Salvador evidenzia come questa tecnologia possa consentire alle persone nei mercati emergenti di ottenere l'indipendenza finanziaria.
+Il viaggio di Rikki in Bitcoin ha le sue radici nel suo lavoro di sostenitore dei diritti umani. Crede che Bitcoin possa fornire agli individui il controllo sulle proprie finanze, permettendo loro di proteggere la propria privacy e di evitare le limitazioni delle banche centralizzate. La sua esplorazione dell'adozione di Bitcoin in luoghi come El Salvador evidenzia come questa tecnologia possa consentire alle persone nei mercati emergenti di ottenere l'indipendenza finanziaria.
 
 
-### Il significato globale e le sfide del Bitcoin
+### Il significato globale e le sfide di Bitcoin
 
 
-Il Bitcoin è molto più di una semplice moneta digitale. È uno strumento per proteggere la privacy e garantire la libertà finanziaria. Utilizzando **chiavi private**, che agiscono come password principali, gli utenti possono gestire in modo sicuro il loro Bitcoin, con il pieno controllo dei loro fondi.
+Bitcoin è molto più di una semplice moneta digitale. È uno strumento per proteggere la privacy e garantire la libertà finanziaria. Utilizzando **chiavi private**, che agiscono come password principali, gli utenti possono gestire in modo sicuro i loro bitcoin, con il pieno controllo dei loro fondi.
 
 
-Nei regimi autoritari, dove la repressione finanziaria è comune, la **natura incensurabile** di Bitcoin consente alle persone di effettuare transazioni senza temere che i loro fondi vengano congelati o confiscati. La sua natura **open-source** incoraggia la partecipazione globale, favorendo una comunità che migliora continuamente la rete.
+Nei regimi autoritari, dove la repressione finanziaria è comune, la **natura incensurabile** di Bitcoin consente alle persone di effettuare transazioni senza temere che i loro fondi vengano congelati o confiscati. La sua natura **open-source** incoraggia la partecipazione globale, favorendo una comunità che migliora continuamente il network.
 
 
 ![Image](assets/en/002.webp)
 
 
-Nonostante il suo potenziale, il Bitcoin deve affrontare sfide significative. In aree come l'Africa e l'India, le infrastrutture di base come l'elettricità e l'accesso a Internet sono spesso carenti, limitandone l'adozione. Inoltre, l'**inclusione digitale**, ossia la garanzia che persone di ogni età e livello di istruzione possano utilizzare la tecnologia, rimane un ostacolo importante.
+Nonostante il suo potenziale, Bitcoin deve affrontare sfide significative. In aree come l'Africa e l'India, le infrastrutture di base come l'elettricità e l'accesso a Internet sono spesso carenti, limitandone l'adozione. Inoltre, l'**inclusione digitale**, ossia la garanzia che persone di ogni età e livello di istruzione possano utilizzare la tecnologia, rimane un ostacolo importante.
 
 
 **Definizioni**
@@ -111,16 +111,16 @@ Nonostante il suo potenziale, il Bitcoin deve affrontare sfide significative. In
 ### Il caso di El Salvador
 
 
-La decisione di El Salvador di adottare il Bitcoin come moneta legale dimostra il suo potenziale di trasformazione. Utilizzando il Bitcoin, il Paese cerca di attrarre investimenti esteri e di promuovere la stabilità finanziaria. Progetti come **Bitcoin Beach** dimostrano come le economie locali possano crescere adottando il Bitcoin come mezzo di pagamento del Exchange.
+La decisione di El Salvador di adottare Bitcoin come moneta legale dimostra il suo potenziale trasformativo. Utilizzando Bitcoin, il Paese cerca di attrarre investimenti esteri e di promuovere la stabilità finanziaria. Progetti come **Bitcoin Beach** dimostrano come le economie locali possano crescere adottando Bitcoin come mezzo di pagamento del Exchange.
 
 
-Tuttavia, l'adozione globale del Bitcoin incontra ostacoli quali l'ignoranza, la resistenza alle nuove tecnologie e le sfide infrastrutturali. Il percorso verso un sistema finanziario più inclusivo - dove il Bitcoin può contribuire a elevare le nazioni in via di sviluppo - è lungo ma promettente. La natura decentralizzata e open-source del Bitcoin offre la speranza di un futuro in cui l'equità finanziaria sia disponibile per tutti.
+Tuttavia, l'adozione globale di Bitcoin incontra ostacoli quali l'ignoranza, la resistenza alle nuove tecnologie e le sfide infrastrutturali. Il percorso verso un sistema finanziario più inclusivo - dove Bitcoin può contribuire a elevare le nazioni in via di sviluppo - è lungo ma promettente. La natura decentralizzata e open-source di Bitcoin offre la speranza di un futuro in cui l'equità finanziaria sia disponibile per tutti.
 
 
 #### Conclusione
 
 
-In sintesi, il Bitcoin promette molto bene per l'empowerment e l'inclusione finanziaria, ma ci attendono sfide significative. Rimanere impegnati con la comunità del Bitcoin, imparare e porre domande sarà fondamentale per realizzare un futuro finanziario decentralizzato. Attraverso la collaborazione e il patrocinio, la visione di un sistema finanziario più equo per tutti può diventare realtà.
+In sintesi, Bitcoin promette molto bene per l'empowerment e l'inclusione finanziaria, ma ci attendono sfide significative. Rimanere impegnati con la comunità Bitcoin, imparare e porre domande sarà fondamentale per realizzare un futuro finanziario decentralizzato. Attraverso la collaborazione e il patrocinio, la visione di un sistema finanziario più equo per tutti può diventare realtà.
 
 
 ### Movimento Cypherpunk ed economia austriaca
@@ -132,7 +132,7 @@ In sintesi, il Bitcoin promette molto bene per l'empowerment e l'inclusione fina
 #### Movimento Cypherpunk
 
 
-Il movimento **Cypherpunk** è emerso alla fine del XX secolo, sostenendo la privacy e la libertà attraverso la crittografia. Pionieri come **Eric Hughes** e **Tim May** credevano che una crittografia forte fosse essenziale per proteggere la libertà personale in un mondo digitale. Le loro idee hanno influenzato pesantemente la creazione del Bitcoin.
+Il movimento **Cypherpunk** è emerso alla fine del XX secolo, sostenendo la privacy e la libertà attraverso la crittografia. Pionieri come **Eric Hughes** e **Tim May** credevano che una crittografia forte fosse essenziale per proteggere la libertà personale in un mondo digitale. Le loro idee hanno influenzato pesantemente la creazione di Bitcoin.
 
 
 **Definizione:**
@@ -143,7 +143,7 @@ Il movimento **Cypherpunk** è emerso alla fine del XX secolo, sostenendo la pri
 #### Economia austriaca
 
 
-Allo stesso tempo, la **economia austriaca** ha fornito le basi per i principi monetari della Bitcoin. Economisti come **Ludwig von Mises** e **Friedrich Hayek** sostenevano che la moneta sana dovesse essere scarsa, durevole e una buona riserva di valore, principi fondamentali che hanno dato forma al progetto del Bitcoin.
+Allo stesso tempo, l' **economia austriaca** ha fornito le basi per i principi monetari di Bitcoin. Economisti come **Ludwig von Mises** e **Friedrich Hayek** sostenevano che la moneta sana dovesse essere scarsa, durevole e una buona riserva di valore, principi fondamentali che hanno dato forma al progetto di Bitcoin.
 
 
 **Definizione:**
@@ -154,7 +154,7 @@ Allo stesso tempo, la **economia austriaca** ha fornito le basi per i principi m
 ### La creazione di Bitcoin
 
 
-**Satoshi Nakamoto** ha unito queste idee per creare Bitcoin nel 2008 come moneta digitale decentralizzata e resistente alla censura. Fondendo gli ideali di privacy del Cypherpunk con i principi austriaci del denaro sano, il Bitcoin offre un sistema finanziario che sfida le banche tradizionali e il controllo governativo.
+**Satoshi Nakamoto** ha unito queste idee per creare Bitcoin nel 2008 come moneta digitale decentralizzata e resistente alla censura. Fondendo gli ideali di privacy dei Cypherpunk con i principi austriaci del denaro sano, Bitcoin offre un sistema finanziario che sfida le banche tradizionali e il controllo governativo.
 
 
 **Definizione:**
@@ -166,7 +166,7 @@ Allo stesso tempo, la **economia austriaca** ha fornito le basi per i principi m
 
 
 
-- Scarsità:** Il Bitcoin fisso del Supply ne garantisce il valore nel tempo.
+- Scarsità:** la quantità fissa di Bitcoin ne garantisce il valore nel tempo.
 - Preferenza per il tempo:** Incoraggia il risparmio per il futuro piuttosto che la spesa immediata.
 - Risparmiare:** Immagazzinare valore per le esigenze future, il che porta a investimenti e innovazione.
 

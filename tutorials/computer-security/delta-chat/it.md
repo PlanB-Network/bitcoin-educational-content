@@ -122,3 +122,17 @@ Tra le più utili:
 Anche giochi più complessi possono essere avviati, dimostrando la flessibilità del sistema.
 
 ![image](assets/it/07.webp)
+
+## Gruppi, canali e funzioni avanzate:
+
+È possibile creare gruppi, usare sticker (soprattutto su desktop) e, attivando le opzioni sperimentali, anche canali, simili a quelli di Telegram.
+
+Nelle impostazioni avanzate si possono attivare:
+
+- chiamate vocali (ancora sperimentali)
+- gestione avanzata del profilo email
+- backup completi
+
+  ![image](assets/it/08.webp)
+
+  

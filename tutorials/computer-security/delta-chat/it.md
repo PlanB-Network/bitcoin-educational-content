@@ -94,6 +94,8 @@ Per aggiungere un contatto basta:
 - mostrare il proprio QR code
 - scansionare quello dell’altra persona
 - invitare tramite link (invita amici)
+
+   ![image](assets/it/05.webp)
   
 Una volta stabilita la connessione, la cifratura end-to-end viene configurata automaticamente.
 Le chat sono praticamente identiche a WhatsApp:

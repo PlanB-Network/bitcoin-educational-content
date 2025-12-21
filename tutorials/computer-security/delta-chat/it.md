@@ -108,3 +108,17 @@ Le chat sono praticamente identiche a WhatsApp:
 - notifiche personalizzabili
 
 ![image](assets/it/06.webp)
+
+## WebXDC: le app nelle chat:
+
+Delta Chat permette di usare WebXDC, cioè piccole applicazioni integrate nelle conversazioni.
+Tra le più utili:
+
+- sondaggi
+- lavagne per disegnare
+- chat private temporanee
+- giochi con punteggi condivisi in chat
+
+Anche giochi più complessi possono essere avviati, dimostrando la flessibilità del sistema.
+
+![image](assets/it/07.webp)

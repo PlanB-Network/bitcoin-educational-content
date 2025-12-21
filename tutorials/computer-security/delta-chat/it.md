@@ -135,4 +135,20 @@ Nelle impostazioni avanzate si possono attivare:
 
   ![image](assets/it/08.webp)
 
-  
+  ## Multidispositivo e backup:
+
+  Delta Chat supporta perfettamente il multidispositivo:
+
+- aggiunta di un secondo dispositivo tramite QR code
+- trasferimento completo tramite backup
+
+In pochi secondi si ritrovano chat, gruppi e cronologia completa, senza dipendere da un server centrale.
+
+## Conclusione:
+
+In un periodo in cui si parla sempre più di controllo delle comunicazioni private, Delta Chat rappresenta una risposta concreta: una messaggistica decentralizzata, cifrata e davvero utilizzabile ogni giorno.
+
+È la soluzione che, tra tutte quelle che ho provato, mi ha convinto di più per semplicità, privacy e libertà.
+Se volete, potete anche contattarmi su Delta Chat tramite il [link invito](https://i.delta.chat/#38824F04DD40600D5D4F079C1F5E0EBA875A6D7E&i=GStGfNW5LMIXhwQMiuQWj3QU&s=cVi5izRJ9NsbIcPlU8yC_SeB&a=9l4la5imj%40nine.testrun.org&n=SatoSats)
+
+Alla prossima.

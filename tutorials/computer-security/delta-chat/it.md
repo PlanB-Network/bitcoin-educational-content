@@ -41,7 +41,7 @@ Ed è proprio questo che lo rende molto più resistente a normative invasive com
 
 ## Installazione:
 
-Dal sito ufficiale di Delta Chat si può andare nella sezione Download.
+Dal sito ufficiale di [Delta Chat](https://delta.chat/it/download) si può andare nella sezione Download.
 Su Linux è disponibile comodamente tramite Flathub, ma ci sono anche pacchetti per Arch, NixOS, Snap e versioni standalone.
 
 ![image](assets/it/01.webp)

@@ -106,3 +106,5 @@ Le chat sono praticamente identiche a WhatsApp:
 - reazioni
 - messaggi a scomparsa
 - notifiche personalizzabili
+
+![image](assets/it/06.webp)

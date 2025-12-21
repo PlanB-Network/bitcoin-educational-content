@@ -81,3 +81,21 @@ Di default viene proposto un server ChatMail, ma è possibile:
 Dopo pochi secondi il profilo è pronto e si può iniziare a usare l’app.
 
   ![image](assets/it/03.webp)
+
+## Interfaccia e chat:
+
+L’interfaccia è molto semplice e immediata:
+Messaggi di dispositivo, che sono comunicazioni locali
+Messaggi salvati, simili a quelli di Telegram e sincronizzabili tra dispositivi
+Per aggiungere un contatto basta:
+mostrare il proprio QR code
+oppure scansionare quello dell’altra persona
+Una volta stabilita la connessione, la cifratura end-to-end viene configurata automaticamente.
+Le chat sono praticamente identiche a WhatsApp:
+
+- messaggi di testo e vocali
+- foto, video e file
+- risposte ai messaggi
+- reazioni
+- messaggi a scomparsa
+- notifiche personalizzabili

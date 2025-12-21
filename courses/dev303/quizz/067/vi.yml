@@ -1,0 +1,8 @@
+question: Khả năng tương thích đa nền tảng của Rust mang lại lợi ích như thế nào cho việc phát triển ứng dụng Bitcoin trên các môi trường triển khai khác nhau?
+answer: Nó cho phép các cơ sở mã thống nhất chạy trên nền tảng di động, trình duyệt web thông qua WebAssembly và các hệ điều hành truyền thống.
+wrong_answers:
+  - Nó tự động xử lý việc chuyển đổi tỷ giá hối đoái tiền điện tử giữa các thị trường và loại tiền tệ khu vực khác nhau.
+  - Nó cung cấp các giao thức đồng bộ hóa blockchain tích hợp sẵn, hoạt động giống hệt nhau trên mọi kiến trúc mạng.
+  - Nó cung cấp khả năng tích hợp nguyên bản với ví phần cứng và các mô-đun bảo mật trên mọi nền tảng được hỗ trợ.
+explanation: |
+  Khả năng đa nền tảng của Rust cho phép các nhà phát triển viết các ứng dụng Bitcoin có thể được triển khai trên nhiều môi trường khác nhau, bao gồm thiết bị di động (Android/iOS), trình duyệt web (thông qua biên dịch WebAssembly) và hệ điều hành máy tính để bàn truyền thống. Tính linh hoạt này được thể hiện qua các dự án như Mutiny Wallet, tận dụng hỗ trợ WebAssembly của Rust để tạo ra các ví Lightning chạy trực tiếp trên trình duyệt. Các câu trả lời sai mô tả các tính năng không liên quan đến khả năng tương thích đa nền tảng - chuyển đổi tiền tệ là tính năng ở cấp độ ứng dụng, giao thức blockchain là vấn đề ở lớp mạng và tích hợp phần cứng yêu cầu các API cụ thể chứ không phải hỗ trợ đa nền tảng chung.

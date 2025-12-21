@@ -1,0 +1,8 @@
+question: Trong Rust, có ba cách nào mà các hàm đóng có thể thu thập các biến từ môi trường của chúng?
+answer: Bằng tham chiếu bất biến, bằng tham chiếu có thể thay đổi, hoặc bằng cách nắm quyền sở hữu
+wrong_answers:
+  - Bằng cách sao chép giá trị, bằng cách mượn tham chiếu hoặc bằng cách giải tham chiếu con trỏ.
+  - Bằng cách cấp phát trên ngăn xếp, cấp phát trên vùng nhớ heap hoặc lưu trữ tĩnh.
+  - Bằng cách truy cập chung, bằng cách truy cập riêng biệt hoặc bằng cách truy cập đồng thời.
+explanation: |
+  Trong Rust, closure nắm giữ các biến môi trường theo ba cách chính xác: bằng tham chiếu bất biến (khi chúng chỉ cần đọc), bằng tham chiếu có thể thay đổi (khi chúng cần sửa đổi) hoặc bằng cách chiếm quyền sở hữu (khi chúng cần di chuyển giá trị, thường là để đảm bảo an toàn luồng). Trình biên dịch tự động chọn phương pháp hạn chế nhất đáp ứng nhu cầu của closure, tuân theo nguyên tắc quyền hạn tối thiểu.

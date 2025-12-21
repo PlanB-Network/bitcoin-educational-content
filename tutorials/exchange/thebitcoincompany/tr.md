@@ -70,7 +70,7 @@ Aşağıda örnek olarak ABD için bir işaret seçkisi yer almaktadır:
 
 
 
-Bunu yapmak için [web sitelerini] (https://thebitcoincompany.com/) ziyaret edin.
+Bunu yapmak için [web sitelerini](https://thebitcoincompany.com/) ziyaret edin.
 
 
 

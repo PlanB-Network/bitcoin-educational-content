@@ -1,0 +1,8 @@
+question: Ni njia gani hukuruhusu kutoa thamani kutoka kwa Matokeo huku ukitoa ujumbe maalum wa hofu ikiwa hitilafu itatokea?
+answer: tarajia
+wrong_answers:
+  - fungua_au_mwingine
+  - fungua_na_ujumbe
+  - hofu_na
+explanation: |
+  Mbinu ya expect imeundwa mahsusi ili kutoa thamani ya mafanikio kutoka kwa Matokeo huku ikikuruhusu kutoa ujumbe maalum wa hofu ambao utaonyeshwa ikiwa hitilafu itatokea. Hii hurahisisha utatuzi ikilinganishwa na unwrap, ambayo hutumia ujumbe wa hofu wa jumla. Mbinu ya unwrap_or_else haiogopi bali hutekeleza ufungaji wakati hitilafu itatokea. Chaguzi zingine (unwrap_with_message na panic_with) si mbinu halisi za Rust za kushughulikia aina za Matokeo.

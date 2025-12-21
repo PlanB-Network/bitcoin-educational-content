@@ -1,0 +1,8 @@
+question: W jakim scenariuszu RefCell byłby najbardziej odpowiedni do rozwiązania ograniczenia zapożyczenia w czasie kompilacji?
+answer: Podczas implementacji obiektu mock, który musi śledzić wewnętrzne zmiany stanu poprzez niezmienny interfejs cechy
+wrong_answers:
+  - Gdy zachodzi potrzeba współdzielenia danych między wieloma wątkami i wymagane jest atomowe zliczanie referencji
+  - Jeśli chcesz uniknąć narzutu czasu wykonywania, przenosząc sprawdzanie pożyczek do czasu kompilacji
+  - Podczas tworzenia odwołań cyklicznych między strukturami danych, które wymagają automatycznego czyszczenia pamięci
+explanation: |
+  RefCell jest przeznaczony do scenariuszy mutowalności wewnętrznej, w których trzeba mutować dane poprzez niezmienne odniesienie, szczególnie gdy analiza statyczna kompilatora jest zbyt konserwatywna. Wyśmiewane obiekty, które implementują cechy z niezmiennymi metodami, ale muszą śledzić stan wewnętrzny, stanowią idealny przypadek użycia. Pozostałe opcje są nieprawidłowe: RefCell nie jest bezpieczny dla wątków, przenosi sprawdzanie do czasu wykonywania (a nie kompilacji) i nie rozwiązuje problemów z odwołaniami cyklicznymi - może wręcz przyczyniać się do ich powstawania w połączeniu z RC.

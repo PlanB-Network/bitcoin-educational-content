@@ -18,7 +18,7 @@ Mit Telegram können Sie nicht nur Nachrichten austauschen, sondern auch Video- 
 Obwohl Telegram in den offiziellen Stores erhältlich ist, ist der Ratschlag immer derselbe: Laden Sie es von der Website des Entwicklers herunter, eine gute Angewohnheit für diejenigen, die wie Sie auf einer datenschutzbewussten Reise sind.
 
 
-Rufen Sie mit dem Browser Ihres Telefons die Website [telegram.org] (https://telegram.org) auf. Sie können Ihre bevorzugte Sprache wählen, aber ich empfehle Ihnen, auf Englisch vorzugehen, also wählen Sie _Telegram for Android_
+Rufen Sie mit dem Browser Ihres Telefons die Website [telegram.org](https://telegram.org) auf. Sie können Ihre bevorzugte Sprache wählen, aber ich empfehle Ihnen, auf Englisch vorzugehen, also wählen Sie _Telegram for Android_
 
 
 ![image](assets/en/01.webp)
@@ -356,7 +356,7 @@ Auf dem folgenden Foto können Sie sehen, wo diese Einstellung zu finden ist.
 Telegram kann von Ihrem Computer aus genutzt werden, so dass es mit dem auf Ihrem Telefon angezeigten Konto synchronisiert wird. Sie können sich dafür entscheiden, die Anwendung nicht herunterzuladen und sie nur über das Internet zu nutzen. Diese Version hat jedoch Einschränkungen im Vergleich zu der auf dem Computer ausgeführten Version, daher empfehle ich, sie herunterzuladen und zu installieren, um das Beste aus diesem leistungsstarken Tool herauszuholen.
 
 
-Alle Optionen, die Sie bisher mit dem mobilen Modell gesehen haben, können Sie auf genau dieselbe Weise von Ihrem Computer aus nutzen. Gehen Sie auch für diese Installation auf die offizielle Website [telegram.org] (https://telegram.org). Wählen Sie auf der Homepage _Telegram für PC/Linux_.
+Alle Optionen, die Sie bisher mit dem mobilen Modell gesehen haben, können Sie auf genau dieselbe Weise von Ihrem Computer aus nutzen. Gehen Sie auch für diese Installation auf die offizielle Website [telegram.org](https://telegram.org). Wählen Sie auf der Homepage _Telegram für PC/Linux_.
 
 Klicken Sie in dem sich öffnenden Fenster auf , um die für Ihr Betriebssystem geeignete ausführbare Datei herunterzuladen.
 

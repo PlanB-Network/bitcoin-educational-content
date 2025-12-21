@@ -1,0 +1,8 @@
+question: Perintah Cargo mana yang melakukan pemeriksaan kompilasi tanpa menghasilkan file yang dapat dieksekusi?
+answer: pemeriksaan kargo
+wrong_answers:
+  - pembangunan kargo
+  - menjalankan kargo
+  - uji kargo
+explanation: |
+  Perintah 'cargo check' melakukan semua pemeriksaan kompilasi dan memverifikasi bahwa kode Anda dikompilasi dengan benar tanpa benar-benar menghasilkan file yang dapat dieksekusi. Hal ini membuatnya jauh lebih cepat daripada build penuh ketika Anda hanya ingin memverifikasi kebenaran kode. Sebaliknya, 'cargo build' mengkompilasi dan menghasilkan file yang dapat dieksekusi, 'cargo run' mengkompilasi dan mengeksekusi program, dan 'cargo test' mengkompilasi dan menjalankan tes.

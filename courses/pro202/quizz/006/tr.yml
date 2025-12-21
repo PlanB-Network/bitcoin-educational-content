@@ -1,0 +1,8 @@
+question: Nokta ekleme işlemleri için kullanılan eliptik eğri grubundaki özdeşlik elemanı nedir?
+answer: Sonsuzluktaki nokta
+wrong_answers:
+  - Başlangıç noktası (0,0)
+  - Üreteç noktası G
+  - Eğri parametresi a
+explanation: |
+  Sonsuzdaki nokta eliptik eğri gruplarında özdeşlik elemanı olarak hizmet eder, yani sonsuzdaki noktaya herhangi bir P noktası eklendiğinde P değişmeden geri döner. Bu, normal aritmetikte sıfır eklemenin nasıl çalıştığına benzer. Başlangıç noktası (0,0) eğri üzerinde olmak zorunda değildir, üreteç noktası G açık anahtarlar oluşturmak için kullanılır ve eğri parametresi a sadece eğri denklemindeki bir katsayıdır, bir kimlik elemanı değildir.

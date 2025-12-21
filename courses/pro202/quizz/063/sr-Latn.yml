@@ -1,0 +1,8 @@
+question: Koja je primarna kriptografska osobina koja omogućava kompaktnim blok filterima (BIP158) da obezbede privatnost za lagane klijente uz održavanje savršene tačnosti?
+answer: Oni mogu proizvesti lažno pozitivne, ali nikada lažno negativne rezultate prilikom usklađivanja transakcija.
+wrong_answers:
+  - Oni koriste dokaze bez znanja da sakriju koje adrese se upituju od čvorova
+  - "Šifruju sve podatke filtera koristeći klijentov javni ključ kako bi sprečili prisluškivanje"
+  - Oni nasumično menjaju redosled heševa transakcija kako bi sakrili obrasce potrošnje od posmatrača.
+explanation: |
+  Kompaktni blok filteri koriste probabilističke strukture podataka koje mogu pogrešno ukazati na podudaranje (lažno pozitivno), ali nikada neće propustiti stvarno podudaranje (lažno negativno). Ovo asimetrično svojstvo je ključno: lažno pozitivni rezultati samo uzrokuju nepotrebna preuzimanja blokova, dok bi lažno negativni rezultati uzrokovali da novčanici potpuno propuste uplate. Prednost privatnosti dolazi iz ove nesigurnosti - posmatrači ne mogu razlikovati stvarna podudaranja od lažno pozitivnih, čime se prikriva koje transakcije zapravo pripadaju upitujućem wallet.

@@ -35,10 +35,10 @@ Vous pouvez rattraper l'épisode en cliquant sur ces liens directs :
 
 
 
-- [Spotify] (https://open.spotify.com/episode/1UaeQxpNq9capLE3KwArbo)
+- [Spotify](https://open.spotify.com/episode/1UaeQxpNq9capLE3KwArbo)
 - [Google podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw/episode/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAAQEw)
 - [Amazon music](https://music.amazon.it/podcasts/b1b27a88-c1c9-48de-a301-20f31d29c676/episodes/54dec992-5b03-463a-bb98-f653b72ccb63/il-priorato-del-Bitcoin-joinmarket-dalla-teoria-alla-pratica---turtlecute)
-- [Anchor] (https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (vous pouvez l'écouter directement depuis votre navigateur).
+- [Anchor](https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (vous pouvez l'écouter directement depuis votre navigateur).
 - [Antenna pod](https://antennapod.org/) est un gestionnaire de podcast gratuit et opensource qui ne nécessite pas d'enregistrement. Pour trouver l'épisode, téléchargez l'application, ajoutez manuellement mon podcast en collant [ce lien](https://Anchor.fm/s/bd5d5b20/podcast/rss) dans la section _feed rss_, puis recherchez l'épisode consacré à JoinMarket.
 
 
@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-si une erreur apparaît, c'est probablement parce que nous avons mal défini les 4 champs RPC spécifiés ci-dessus. Dans ce cas, il peut être utile de suivre [ce guide] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) qui se trouve dans la documentation originale de JoinMarket.
+si une erreur apparaît, c'est probablement parce que nous avons mal défini les 4 champs RPC spécifiés ci-dessus. Dans ce cas, il peut être utile de suivre [ce guide](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) qui se trouve dans la documentation originale de JoinMarket.
 
 
 

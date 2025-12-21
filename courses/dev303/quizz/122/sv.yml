@@ -1,0 +1,8 @@
+question: Vilken är den mest kritiska återställningsutmaningen som användare står inför när deras medel hanteras genom Greenlights molnbaserade Lightning-nodarkitektur?
+answer: Användarna skulle behöva teknisk expertis för att starta upp oberoende Core Lightning-noder och återställa kanaltillstånd utan Greenlight-infrastruktur
+wrong_answers:
+  - "Användare förlorar tillgång till sina privata nycklar som lagras exklusivt på Blockstreams servrar"
+  - "Kanalstatus krypteras med Greenlights egna nycklar, vilket gör det matematiskt omöjligt att återvinna medel"
+  - "Lightning-kanaler upphör automatiskt att fungera efter 30 dagar utan Greenlights kontinuerliga underhållstjänster"
+explanation: |
+  Det korrekta svaret belyser den verkliga tekniska komplexiteten i fondåterställning i Greenlights arkitektur. Användarna behåller sina privata nycklar, men för att få tillgång till medel utan Greenlight krävs att Core Lightning-noder körs och att kanaltillstånd återställs manuellt - en process som de flesta användare inte klarar av. De felaktiga svaren är felaktiga eftersom: användarna kontrollerar sina privata nycklar (lagras inte på servrar), kanaltillstånd använder standardprotokoll för Lightning (inte proprietär kryptering) och Lightning-kanaler inte har automatiska utgångstimer som är knutna till tjänsteleverantörer.

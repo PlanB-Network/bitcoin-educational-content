@@ -345,7 +345,7 @@ Sayfa tamamlandığında, listenin dikkate alındığı anlamına gelen komut do
 
 
 
-Bu eğitimin başında duyurulduğu gibi, Pi-Hole ayrıca **kötü amaçlı yazılım dağıttığı bilinen alan adlarını engellemenizi sağlar. Bu özelliği güçlendirmek için, ağınızın güvenliğini önemli ölçüde güçlendirecek olan Abuse.ch** tarafından dağıtılan düzenli olarak güncellenen alan adı listesini de eklemenizi öneririm, [bu Address] (https://urlhaus.abuse.ch/downloads/hostfile/) adresinde mevcuttur.
+Bu eğitimin başında duyurulduğu gibi, Pi-Hole ayrıca **kötü amaçlı yazılım dağıttığı bilinen alan adlarını engellemenizi sağlar. Bu özelliği güçlendirmek için, ağınızın güvenliğini önemli ölçüde güçlendirecek olan Abuse.ch** tarafından dağıtılan düzenli olarak güncellenen alan adı listesini de eklemenizi öneririm, [bu Address](https://urlhaus.abuse.ch/downloads/hostfile/) adresinde mevcuttur.
 
 
 

@@ -1,0 +1,8 @@
+question: Hva skjer med den opprinnelige strukturforekomsten når du bruker struct update-syntaks med ikke-Copy-typer?
+answer: Felt som kopieres, blir ubrukelige i den opprinnelige forekomsten på grunn av flyttesemantikken
+wrong_answers:
+  - Den opprinnelige forekomsten forblir helt uendret og fullt tilgjengelig
+  - Hele den opprinnelige instansen klones, slik at begge instansene er fullt funksjonelle
+  - Bare de feltene du eksplisitt endrer, blir utilgjengelige i den opprinnelige
+explanation: |
+  Når du bruker struct update-syntaks med ikke-kopierte typer, flytter Rusts eierskapssystem de kopierte feltene fra den opprinnelige forekomsten til den nye. Dette betyr at disse spesifikke feltene blir ubrukelige i den opprinnelige forekomsten, selv om felt som ikke ble kopiert, forblir tilgjengelige. Kompilatoren sporer disse delvise flyttingene på en intelligent måte, og forhindrer tilgang til felter som er flyttet, samtidig som den tillater fortsatt bruk av felter som ikke er flyttet. Dette sikrer minnesikkerhet ved å forhindre flere eiere av de samme dataene.

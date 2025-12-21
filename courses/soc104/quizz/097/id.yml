@@ -1,0 +1,9 @@
+question: Menurut Manifesto Cypherpunk Eric Hughes, apa tanggung jawab utama untuk melindungi privasi dalam masyarakat elektronik yang terbuka?
+answer: Individu harus secara aktif mempertahankan privasi mereka sendiri daripada bergantung pada pemerintah atau perusahaan untuk menyediakannya
+wrong_answers:
+  - Pemerintah harus membuat peraturan privasi yang komprehensif untuk melindungi warga negara dari pengawasan perusahaan
+  - Organisasi besar harus secara sukarela menerapkan perlindungan privasi sebagai bagian dari tanggung jawab sosial perusahaan mereka
+  - Perjanjian internasional harus dinegosiasikan untuk menciptakan standar privasi universal yang ditegakkan oleh badan-badan supranasional
+explanation: |
+  Hughes secara eksplisit menyatakan bahwa 'Kita tidak dapat mengharapkan pemerintah, perusahaan, atau organisasi anonim besar lainnya untuk menjamin kerahasiaan kita' dan bahwa tujuan utama dari Cypherpunks adalah 'untuk membuat orang mempertahankan kerahasiaan mereka, daripada bergantung pada orang lain untuk menyediakannya'.
+  Hal ini mencerminkan filosofi inti dari cypherpunk yaitu tanggung jawab individu dan ketidakpercayaan terhadap institusi yang terpusat. Gerakan ini percaya bahwa alat kriptografi harus memberdayakan individu untuk melindungi diri mereka sendiri daripada bergantung pada institusi yang mereka anggap sebagai ancaman potensial terhadap privasi dan kebebasan.

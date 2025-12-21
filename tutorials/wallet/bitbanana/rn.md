@@ -1,5 +1,5 @@
 ---
-name: Ibitoke bike
+name: BitBanana
 description: Umuyobozi wa telefone ngendanwa ku nzira yawe y'umuravyo
 ---
 

@@ -616,7 +616,7 @@ curl -X POST http://localhost:9740/lnurlauth \
 
 
 
-LNbits, [resmi belgelerine] (https://docs.lnbits.org/guide/wallets.html) göre Phoenixd'yi bir finansman kaynağı olarak kullanabilir:
+LNbits, [resmi belgelerine](https://docs.lnbits.org/guide/wallets.html) göre Phoenixd'yi bir finansman kaynağı olarak kullanabilir:
 
 
 
@@ -706,7 +706,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Güncellemeler:** Yeni sürümler için [GitHub sürümlerini] (https://github.com/ACINQ/phoenixd/releases) izleyin. Güncelleme, ikiliyi değiştirmek ve hizmeti yeniden başlatmak kadar basittir.
+**Güncellemeler:** Yeni sürümler için [GitHub sürümlerini](https://github.com/ACINQ/phoenixd/releases) izleyin. Güncelleme, ikiliyi değiştirmek ve hizmeti yeniden başlatmak kadar basittir.
 
 
 

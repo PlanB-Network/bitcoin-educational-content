@@ -1,0 +1,8 @@
+question: Millist süntaksit kasutatakse Rust struktuuris tupli esimesele väljale juurdepääsuks?
+answer: Punktmärkimine indeksiga 0 (nt instance.0)
+wrong_answers:
+  - Nelinurksed sulgudes indeksiga 0 (nt instance[0])
+  - Noolte märkimine indeksiga 0 (nt instants->0)
+  - Topeltkoolon indeksiga 0 (nt instance::0)
+explanation: |
+  Rust Tuple'i struktuurides kasutatakse punktmärkust, millele järgneb väljaindeks, et pääseda ligi oma nimetamata väljadele. Esimesele väljale pääseb ligi .0, teisele .1 jne. See erineb massiividest või vektoritest, mis kasutavad nurksulgusid, ja erinevalt C++-st, mis kasutab osutajate jaoks noole märgendust. Topeltkoolon-süntaks on reserveeritud seotud funktsioonide ja nimede vahelejätmise jaoks, mitte väljale ligipääsuks.

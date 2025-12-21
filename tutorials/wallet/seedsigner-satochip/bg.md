@@ -96,7 +96,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Ако все още не разполагате с него, изтеглете софтуера [Balena Etcher] (https://etcher.balena.io/), след което процедирайте по следния начин:
+Ако все още не разполагате с него, изтеглете софтуера [Balena Etcher](https://etcher.balena.io/), след което процедирайте по следния начин:
 
 
 

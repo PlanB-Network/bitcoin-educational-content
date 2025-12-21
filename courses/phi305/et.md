@@ -35,7 +35,7 @@ Sellel kursusel on mul hea meel tutvustada Baruch de Spinoza (1632-1677), kuulsa
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/et/001.webp)
 
 
 Spinoza portree
@@ -70,7 +70,7 @@ Kõigepealt tutvustan teile Spinozat, tema iseloomu, tema sotsiaalset, religioos
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/et/002.webp)
 
 
 Spinoza portree
@@ -93,7 +93,7 @@ Vaatleme ka Spinoza kahte põhiteost, alustades 1677. aastal postuumselt avaldat
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/et/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Seejärel vaatleme tema eluajal 1670. aastal avaldatud "Traité théologico-poli
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/et/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Tänu geomeetrite moodi välja töötatud afektiteooriale, "more geometrico", n�
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/et/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Ta oli juudi usku ja kuulus Portugali sefardide kogukonda, kes pärinesid 15. sa
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/et/006.webp)
 
 
 
@@ -157,7 +157,6 @@ Tegelikult ilmutas ta juba varakult tugevat kriitilist suhtumist väljakujunenud
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ Sarnaselt oma kaasaegsete Descartes'i (1596-1650), Pascali (1632-1662) ja Newton
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/et/007.webp)
 
 
 
@@ -189,10 +188,10 @@ Ja just selline lähenemine seob Spinoza valgustusfilosoofiaga, olgu see siis sa
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/et/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/et/009.webp)
 
 
 
@@ -208,7 +207,7 @@ Rikkus ei ole aga seotud loodusvarade, kolooniate ekspluateerimise ja rüüstami
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/et/010.webp)
 
 
 
@@ -255,7 +254,6 @@ Selles peatükis teen ettepaneku pöörduda nüüd Spinoza põhiteose "Eetika" j
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ Eetika on ladina keeles kirjutatud teos, mis on kirjutatud geomeetrite moodi, t�
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/et/011.webp)
 
 
 
@@ -279,7 +277,7 @@ Tahaksin juhtida tähelepanu sellele, et kui te avate "Eetika", siis on soovitat
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/et/012.webp)
 
 
 
@@ -311,7 +309,7 @@ Esiteks, kui Spinoza jaoks ei ole juhust olemas, siis sellepärast, et see on s�
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/et/013.webp)
 
 
 
@@ -331,7 +329,7 @@ Gilles Deleuze'i (1925-1995), kuulsa filosoofiaprofessori ja Spinoza-spetsialist
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/et/014.webp)
 
 
 
@@ -367,7 +365,7 @@ See on 1670. aastal anonüümselt avaldatud "Traité théologico-politique" ehk 
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/et/015.webp)
 
 
 
@@ -378,7 +376,7 @@ Nagu me nägime, on Spinoza jumalakäsitlus kogu "Eetika" esimese osa teema, mil
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/et/016.webp)
 
 
 
@@ -390,7 +388,7 @@ Nii näitab Spinoza meile, et tema arvates ei ole Jumal antropomorfne olend, kel
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/et/017.webp)
 
 
 
@@ -427,7 +425,7 @@ Kurikuulus maavärin Lissabonis 1. novembril 1755. aastal näitas suurt muutust 
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/et/018.webp)
 
 
 
@@ -439,7 +437,7 @@ Draama, mis taaselustab saksa filosoofi ja matemaatiku Leibnizi (1646-1716) esit
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/et/019.webp)
 
 
 
@@ -447,7 +445,7 @@ Jean-Jacques Rousseau (1712-1778) kirjutas Voltaire'ile, kes oli hämmastunud in
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/et/020.webp)
 
 
 
@@ -492,10 +490,9 @@ Nii nagu Nikolaus Kopernik (1473-1543) tõestas, et Maa ei ole maailma keskpunkt
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/et/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +504,7 @@ Enne teda pakkus klassikaline kreeka filosoofia maailma, kosmose ja inimkogemuse
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/et/022.webp)
 
 
 
@@ -519,10 +516,9 @@ Kuid Koperniku (1473-1543) uue füüsikaga 15. sajandil toimus kosmoloogias suur
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/et/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +526,7 @@ Spinozismi täielikuks mõistmiseks peame aga arvestama ka René Descartes'i (15
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/et/024.webp)
 
 
 
@@ -538,7 +534,7 @@ Hoolimata Giordano Bruno (1548-1600) ja Galileo riskidest ja hukkamõistust, asu
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/et/025.webp)
 
 
 
@@ -582,7 +578,7 @@ Nagu me juba nägime, on Spinoza (1632-1677) tuntud selle poolest, et ta pidas v
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/et/026.webp)
 
 
 
@@ -606,7 +602,7 @@ Kuna ta ei alluks oma eluviisides ühelegi muule seadusele kui omaenda tahtele, 
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/et/027.webp)
 
 
 
@@ -622,7 +618,7 @@ See on absoluutse determinismi idee, millest ta oma Eetikas lähtub, et inimeste
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/et/028.webp)
 
 
 
@@ -650,7 +646,7 @@ Selline lähenemine vabadusele kui tegevusvõimele on ühendus, mille võime luu
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/et/029.webp)
 
 
 
@@ -675,10 +671,9 @@ Lõpetuseks tasub märkida, et kuigi libertaarne liikumine, mida me nüüd aruta
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/et/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -709,7 +704,7 @@ Kuid Spinoza (1632-1677) jaoks ei ole inimene "impeerium impeeriumi sees", st ta
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/et/031.webp)
 
 
 
@@ -733,7 +728,7 @@ Seepärast on mõned inimesed alati pidanud uusi haigusi, nagu AIDS 90ndatel võ
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/et/032.webp)
 
 
 
@@ -749,7 +744,7 @@ Just seda väitis ka prantsuse loodusteadlane Jean-Baptiste de Lamarck (1744-182
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/et/033.webp)
 
 
 
@@ -757,7 +752,7 @@ Kuid nagu Spinoza ütleb, "inimeste eksitus ei lõpe sellega", ja kõigi naiivse
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/et/034.webp)
 
 
 
@@ -773,7 +768,7 @@ Selline inflatsiooni kallutatud tõlgendus paneb meid aga unustama, et kuigi see
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/et/035.webp)
 
 
 
@@ -809,7 +804,7 @@ Selles viimases peatükis, mis käsitleb spinozismi pakutavat uut kopernikaalset
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/et/036.webp)
 
 
 
@@ -833,7 +828,7 @@ Teisisõnu, valge habemega vanamees, kes on peidetud pilve taha ja kellele omist
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/et/037.webp)
 
 
 
@@ -845,7 +840,7 @@ Kuid vaatamata meie uhkusele, et me usume end olevat loodusest kõrgemal ja kuju
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/et/038.webp)
 
 
 
@@ -865,7 +860,7 @@ Teisisõnu, Voltaire'i (1694-1778) järgi "kurikuulsad", kelle jaoks ebausk ei s
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/et/039.webp)
 
 
 
@@ -877,7 +872,7 @@ Just seda kaitsesid saksa, inglise ja prantsuse valgustuslased alates 18. sajand
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/et/040.webp)
 
 
 
@@ -885,7 +880,7 @@ Ja seda demonstreerib Spinoza taas oma teoloogilis-poliitilises traktaadis, mida
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/et/041.webp)
 
 
 
@@ -945,7 +940,7 @@ Antiikfilosoofid uskusid, et kurja ei ole looduses olemas, ja näiteks Sokrates 
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/et/042.webp)
 
 
 
@@ -953,7 +948,7 @@ Kuid skolastiline traditsioon, eriti Püha Augustinuse (354-430) traditsioon, mi
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/et/043.webp)
 
 
 
@@ -970,7 +965,7 @@ Muidugi, nagu te võite ette kujutada, rebib Spinoza selle idee tükkideks, sest
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/et/044.webp)
 
 
 
@@ -993,7 +988,7 @@ Seepärast selgitab spinozist Gilles Deleuze (1925-1995), et eetika on omamoodi 
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/et/045.webp)
 
 
 
@@ -1033,7 +1028,7 @@ Ta arendab oma süsteemi eetika kolmandas osas. See on kuulus "afektide teooria"
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/et/046.webp)
 
 
 
@@ -1057,7 +1052,7 @@ Just seda ütleb Spinoza oma "Eetikas", kui ta imestab, et "inimesed näevad sag
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/et/047.webp)
 
 
 
@@ -1073,7 +1068,7 @@ See kehtib muide eelkõige krüptovaluutade valdkonnas.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/et/048.webp)
 
 
 
@@ -1093,7 +1088,7 @@ See on välgu näide. Sest kui välk lööb ja tapab süütuid inimesi, kipuvad 
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/et/049.webp)
 
 
 
@@ -1113,7 +1108,7 @@ See on eetika geniaalsus. Spinoza näitab meile, et on võimalik liikuda vabatah
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/et/050.webp)
 
 
 
@@ -1151,14 +1146,13 @@ Lõpuks tähendab see selgus, et ei ela enam nihilismi, mida hiljem kirjeldas Fr
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Just see oli valgustusaja ratsionaalse filosoofia eesmärk, eelkõige tänu Immanuel Kantile (1724-1804), kelle jaoks ainult haritud inimene saab mõistuse juhtimisel ise mõelda ja eetiliselt kindlaks teha, mis on "õige" või "hea" ja mis on mürgine.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/et/051.webp)
 
 
 
@@ -1169,7 +1163,7 @@ See on mõttekäik, mis loob seose Austria liberaalse majanduskoolkonnaga, mis s
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/et/052.webp)
 
 
 
@@ -1177,7 +1171,7 @@ Näiteks Menger ja Mises tõdesid, et kõik teadmised peavad olema konstrueeritu
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/et/053.webp)
 
 
 
@@ -1198,7 +1192,7 @@ Spinotsistina selgitab Hayek ühes videos, et "kuna seda võimu ei saa ilma väg
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/et/054.webp)
 
 
 
@@ -1206,7 +1200,7 @@ Need on poliitilised ja majanduslikud argumendid, mida esitasid esimesed krüpto
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/et/055.webp)
 
 
 
@@ -1214,7 +1208,7 @@ Eriti kui ta kirjutas Timesi 3. jaanuari 2009. aasta pealkirja Genesis ploki Blo
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/et/056.webp)
 
 
 

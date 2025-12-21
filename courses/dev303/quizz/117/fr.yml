@@ -1,0 +1,8 @@
+question: Quelle est la raison fondamentale pour laquelle l'architecture du SDK Breez permet d'éviter les obstacles réglementaires qui affectent généralement les services Lightning de conservation ?
+answer: Les utilisateurs gardent le contrôle total de leurs clés privées qui ne quittent jamais leurs appareils, ce qui en fait un logiciel non privatif de liberté
+wrong_answers:
+  - La SDK fonctionne par l'intermédiaire de PSL décentralisés qui répartissent la responsabilité réglementaire entre plusieurs juridictions
+  - L'infrastructure de Greenlight est hébergée dans des juridictions respectueuses de la réglementation qui exemptent les services Lightning basés sur le cloud
+  - Le mécanisme du canal "juste à temps" crée des canaux de paiement temporaires qui échappent aux réglementations financières traditionnelles
+explanation: |
+  Le SDK Breez évite les obstacles réglementaires parce qu'il maintient des principes de non-détention - les clés privées des utilisateurs ne quittent jamais leurs appareils et Greenlight ne peut pas accéder aux fonds des utilisateurs ou effectuer des opérations non autorisées. Cette architecture non conservatrice signifie que le logiciel ne détient pas les fonds des clients, contrairement aux services de conservation qui sont soumis à des exigences réglementaires importantes car ils contrôlent les actifs des utilisateurs. Les autres options suggèrent à tort que les avantages réglementaires proviennent de caractéristiques techniques ou de stratégies juridictionnelles, alors que l'avantage principal réside simplement dans le fait que les logiciels non dépositaires sont confrontés à moins d'obstacles réglementaires au niveau mondial.

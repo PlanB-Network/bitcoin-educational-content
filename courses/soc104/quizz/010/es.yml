@@ -1,0 +1,9 @@
+question: Según el Gráfico de Nolan, ¿qué posición política se caracteriza por apoyar una alta libertad económica pero una baja libertad personal?
+answer: Conservadores
+wrong_answers:
+  - Socialistas
+  - Libertarios
+  - Centristas
+explanation: |
+  En el Gráfico Nolan, los conservadores se sitúan en el lado derecho y se definen como los partidarios de una gran libertad económica pero una escasa libertad personal.
+  Esto los distingue de los socialistas (que apoyan una baja libertad económica pero una alta libertad personal), los libertarios (que apoyan tanto una alta libertad económica como personal) y los centristas (que apoyan niveles moderados de ambos tipos de libertad). La posición conservadora refleja la postura tradicional de la derecha, que favorece el libre mercado al tiempo que mantiene controles sociales más estrictos.

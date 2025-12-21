@@ -1,0 +1,8 @@
+question: Jaký je identitní prvek v grupě eliptických křivek používaný pro operace sčítání bodů?
+answer: Bod v nekonečnu
+wrong_answers:
+  - Počáteční bod (0,0)
+  - Generátorový bod G
+  - Parametr křivky a
+explanation: |
+  Bod v nekonečnu slouží v grupách eliptických křivek jako prvek identity, což znamená, že přidáním libovolného bodu P k bodu v nekonečnu se P nezmění. To je analogické tomu, jak funguje přičítání nuly v běžné aritmetice. Počátek (0,0) nemusí nutně ležet na křivce, generátorový bod G se používá pro vytváření veřejných klíčů a parametr křivky a je pouze koeficient v rovnici křivky, nikoli prvek identity.

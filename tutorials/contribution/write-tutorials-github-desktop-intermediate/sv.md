@@ -43,8 +43,8 @@ Programvara som krävs för att följa denna handledning:
 
 
 
-- [GitHub Desktop] (https://desktop.github.com/);
-- En redigerare för markdownfiler som [Obsidian] (https://obsidian.md/);
+- [GitHub Desktop](https://desktop.github.com/);
+- En redigerare för markdownfiler som [Obsidian](https://obsidian.md/);
 - En kodredigerare ([VSC](https://code.visualstudio.com/) eller [Sublime Text](https://www.sublimetext.com/)).
 
 
@@ -55,9 +55,9 @@ Förutsättningar innan du börjar handledningen:
 
 
 
-- Har ett [GitHub-konto] (https://github.com/signup);
-- Ha en Fork av [Plan ₿ Academy källförvar] (https://github.com/PlanB-Network/Bitcoin-educational-content);
-- Har [en professorsprofil på Plan ₿ Academy] (https://planb.academy/professors) (endast om du föreslår en fullständig handledning).
+- Har ett [GitHub-konto](https://github.com/signup);
+- Ha en Fork av [Plan ₿ Academy källförvar](https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Har [en professorsprofil på Plan ₿ Academy](https://planb.academy/professors) (endast om du föreslår en fullständig handledning).
 
 
 Om du behöver hjälp med att skaffa dessa förutsättningar kan du få hjälp av mina andra handledningar:
@@ -238,7 +238,7 @@ Välj ett namn för den katalog som skapats specifikt för din handledning. Namn
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
 
-För taggar väljer du 2 eller 3 relevanta nyckelord som är relaterade till innehållet i din handledning och väljer uteslutande från [Plan ₿ Academy tagglista] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programvaran innehåller också en sökfunktion för nyckelord med en rullgardinslista.
+För taggar väljer du 2 eller 3 relevanta nyckelord som är relaterade till innehållet i din handledning och väljer uteslutande från [Plan ₿ Academy tagglista](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). Programvaran innehåller också en sökfunktion för nyckelord med en rullgardinslista.
 
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
@@ -253,7 +253,7 @@ När all information har angetts och verifierats klickar du på "Create Tutorial
 Du kan nu hoppa över underavsnittet "Utan mitt Python-skript" samt steg 3, "Fyll i YAML-filen", eftersom skriptet redan har utfört dessa åtgärder åt dig. Fortsätt direkt till steg 4 och börja skriva din självstudie.
 
 
-För mer information om detta Python-skript kan du också läsa [README] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+För mer information om detta Python-skript kan du också läsa [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
 ### Utan mitt Python-skript
@@ -344,7 +344,7 @@ Här är de obligatoriska fälten:
 
 
 
-- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du till exempel skapar en handledning om programvaran Green Wallet kan du hitta detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
@@ -364,7 +364,7 @@ Här är de obligatoriska fälten:
 
 
 
-- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
@@ -501,7 +501,7 @@ Undermappen Language i mappen `assets` används för att lagra diagram och bilde
 För att namnge dina bilder använder du helt enkelt nummer som motsvarar den ordning de visas i handledningen, formaterade med två siffror (eller tre siffror om din handledning innehåller fler än 99 bilder). Namnge till exempel din första bild "01.webp", din andra "02.webp" och så vidare.
 
 
-Dina bilder måste uteslutande vara i `.webp`-format. Om det behövs kan du använda [min programvara för bildkonvertering] (https://github.com/LoicPandul/ImagesConverter).
+Dina bilder måste uteslutande vara i `.webp`-format. Om det behövs kan du använda [min programvara för bildkonvertering](https://github.com/LoicPandul/ImagesConverter).
 
 
 ![TUTO](assets/fr/26.webp)
@@ -530,7 +530,7 @@ Om du vill skapa dina egna diagram, se till att följa Plan ₿ Academy:s grafis
 
 **Det är absolut nödvändigt att alla bilder som integreras i dina handledningar är fria från rättigheter eller respekterar källfilens licens**. Alla diagram som publiceras på Plan ₿ Academy görs också tillgängliga under CC-BY-SA-licensen, på samma sätt som texten.
 
-**-> Tips: ** När du delar filer offentligt, till exempel bilder, är det viktigt att ta bort onödiga metadata. Detta kan innehålla känslig information, som platsdata, skapandedatum eller detaljer om författaren. För att skydda din integritet är det lämpligt att radera dessa metadata. För att förenkla denna process kan du använda specialiserade verktyg som [Exif Cleaner] (https://exifcleaner.com/), som gör det möjligt att rengöra ett dokuments metadata genom en enkel dra-och-släpp-funktion.
+**-> Tips: ** När du delar filer offentligt, till exempel bilder, är det viktigt att ta bort onödiga metadata. Detta kan innehålla känslig information, som platsdata, skapandedatum eller detaljer om författaren. För att skydda din integritet är det lämpligt att radera dessa metadata. För att förenkla denna process kan du använda specialiserade verktyg som [Exif Cleaner](https://exifcleaner.com/), som gör det möjligt att rengöra ett dokuments metadata genom en enkel dra-och-släpp-funktion.
 
 ## 7 - Spara och skicka in självstudiekursen
 
@@ -609,4 +609,4 @@ Om du vill göra ändringar i ditt bidrag efter att du redan har skickat in din 
 - Om din PR redan har sammanfogats med huvudgrenen måste du börja om processen genom att skapa en ny gren och sedan skicka in en ny PR. Se till att ditt lokala arkiv är synkroniserat med Plan ₿ Academy:s källarkiv innan du fortsätter.
 
 
-Om du stöter på tekniska svårigheter när du skickar in din handledning, tveka inte att be om hjälp på [vår särskilda Telegramgrupp för bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Tack så mycket!
+Om du stöter på tekniska svårigheter när du skickar in din handledning, tveka inte att be om hjälp på [vår särskilda Telegramgrupp för bidrag](https://t.me/PlanBNetwork_ContentBuilder). Tack så mycket!

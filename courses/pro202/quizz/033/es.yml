@@ -1,0 +1,8 @@
+question: Al gastar una salida de P2SH, ¿qué proceso de validación en dos pasos debe producirse para que la transacción se considere válida?
+answer: Primero compruebe que el hash HASH160 del script de canje coincide con el hash scriptPubKey, después ejecute el script de canje con los datos proporcionados
+wrong_answers:
+  - Primero ejecute el script redeem con los datos proporcionados, después verifique que el hash resultante coincide con el scriptPubKey
+  - Primero verifique que todas las firmas son válidas contra sus claves públicas, después compruebe que el hash del script de redención coincide
+  - En primer lugar, confirme que la secuencia de comandos redeem contiene opcodes válidos y, a continuación, verifique que la ejecución de la secuencia de comandos produce un resultado verdadero
+explanation: |
+  La validación P2SH requiere un proceso específico de dos pasos: en primer lugar, el hash de la secuencia de comandos de canje proporcionada debe coincidir con el hash de 20 bytes de la scriptPubKey (verificación HASH160), y sólo después de que se supere esta verificación la red ejecuta la secuencia de comandos de canje propiamente dicha con los datos de desbloqueo. Este diseño garantiza que sólo se pueda utilizar la secuencia de comandos de canje correcta, al tiempo que mantiene ocultas las condiciones de gasto reales hasta que se produce el gasto. Las otras opciones describen secuencias de validación plausibles pero incorrectas que no siguen el protocolo P2SH real.

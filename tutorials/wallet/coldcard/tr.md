@@ -95,9 +95,9 @@ passphrase > Sözcük Ekle (önerilir) > Uygula. Cihaz, yeni oluşturulan Wallet
 
 
 
-- [Burada] (https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) _Trezor_ tarafından yazılan ilk kitap var;
-- [Burada] (https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/) ikincisini _Coinkite_ tarafından bulabilirsiniz;
-- Ve [burada] (https://armantheparman.com/passphrase/) sonuncusunu _armantheparman_ tarafından bulacaksınız.
+- [Burada](https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af) _Trezor_ tarafından yazılan ilk kitap var;
+- [Burada](https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/) ikincisini _Coinkite_ tarafından bulabilirsiniz;
+- Ve [burada](https://armantheparman.com/passphrase/) sonuncusunu _armantheparman_ tarafından bulacaksınız.
 
 
 ## Wallet'in Bitcoin core'ye aktarılması
@@ -134,7 +134,7 @@ Wallet, Bitcoin core'te oluşturulduktan sonra Pencere sekmesi > Konsol'a gidin 
 Yanıt "mesaj" içeriyorsa: "Menzilli tanımlayıcıların bir etiketi olmamalıdır" içeriyorsa, .txt dosyasından kopyalanan satırdaki "label": .txt dosyasından kopyalanan satırdaki "Coldcard xxxx0000" yazısını silin, ardından tüm satırı Bitcoin core konsoluna geri yapıştırın.
 
 
-Gerekirse, Coldcard Github'da [burada] (https://github.com/Coldcard/firmware/blob/master/docs/Bitcoin-core-usage.md) biraz yardım bulabilirsiniz.
+Gerekirse, Coldcard Github'da [burada](https://github.com/Coldcard/firmware/blob/master/docs/Bitcoin-core-usage.md) biraz yardım bulabilirsiniz.
 
 
 ## Bitcoin core'de Wallet ithalatının doğrulanması

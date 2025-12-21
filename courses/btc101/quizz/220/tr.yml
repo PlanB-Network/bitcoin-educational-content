@@ -1,11 +1,9 @@
-question: Western Union, merkez bankaları, Visa ve Mastercard gibi geleneksel para transferi hizmetleri Lightning Network'ı benimsemezlerse ne olur?
-answer: Ortadan kaybolabilirler.
+question: Bir sidechain’i Bitcoin’e bağlayan mekanizma hangisidir?
+answer: Çift yönlü sabitleme
 wrong_answers:
-  - Daha popüler hale gelebilirler.
-  - Daha güvenli hale gelebilirler.
-  - Daha merkezsiz hale gelebilirler.
+  - Ödeme kanalı
+  - Proof of Stake
+  - Sharding
 explanation: |
-  Western Union gibi geleneksel para transferi hizmetleri,
-  merkez bankaları, Visa ve Mastercard, eğer
-  gW-1 teknolojisini benimsememektedir.
-reviewed: true
+  Two-way peg mekanizması, BTC’nin Bitcoin üzerinde kilitlenmesini ve sidechain üzerinde temsil edilmesini sağlar.
+reviewed: false

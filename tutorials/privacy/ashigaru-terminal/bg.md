@@ -73,7 +73,7 @@ ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru
 
 
 
-Отворете нов раздел на браузъра и отидете на [Keybase verification tool] (https://keybase.io/verify). Поставете съдържанието на току-що изтегления файл `.txt` в предвиденото за това поле, след което щракнете върху бутона `Провери`.
+Отворете нов раздел на браузъра и отидете на [Keybase verification tool](https://keybase.io/verify). Поставете съдържанието на току-що изтегления файл `.txt` в предвиденото за това поле, след което щракнете върху бутона `Провери`.
 
 
 

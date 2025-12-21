@@ -1,0 +1,8 @@
+question: Millist nimetamiskonventsiooni järgib Rust vastavalt struktuuride ja väljade nimede puhul?
+answer: CamelCase struktuuride nimede puhul ja snake_case väljade nimede puhul
+wrong_answers:
+  - snake_case struktuuride nimede jaoks ja CamelCase väljade nimede jaoks
+  - kebab-case struktuuride nimede puhul ja camelCase väljade nimede puhul
+  - UPPER_CASE struktuuride nimede puhul ja väikesi tähtedega väljade nimede puhul
+explanation: |
+  Rust järgib konkreetseid nimetamiskonventsioone, mida kompilaator sunnib hoiatuste kaudu täitma. Struktuuride nimed peaksid kasutama CamelCase (tuntud ka kui PascalCase), kus iga sõna algab suure tähega, nagu näiteks 'MyStruct'. Väljanimed struktuuride sees peaksid kasutama snake_case'i, kusjuures sõnad eraldatakse allajoonega, näiteks 'my_field'. See konventsioon säilitab Rust koodibaaside järjepidevuse ja parandab arendajate jaoks loetavust.

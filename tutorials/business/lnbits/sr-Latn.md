@@ -61,7 +61,7 @@ LNbits za graditelje: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits
 # Neke Osnove
 
 
-LNbits radi na osnovu LNURL protokola što znači da su zahtevi validni u dva oblika: ili kao https:// clearnet link (samopotpisani sertifikati nisu dozvoljeni) ili kao http:// v2/v3 onion link. Da biste ponudili LNbits usluge kao što su LNURLp/w QR kodovi ili NFC kartice, koje se mogu koristiti na terenu, potrebno je da otvorite LNbits prema clearnet-u (https).
+LNbits radi na osnovu LNURL protokola što znači da su zahtevi validni u dva oblika: ili kao https://clearnet link (samopotpisani sertifikati nisu dozvoljeni) ili kao http://v2/v3 onion link. Da biste ponudili LNbits usluge kao što su LNURLp/w QR kodovi ili NFC kartice, koje se mogu koristiti na terenu, potrebno je da otvorite LNbits prema clearnet-u (https).
 
 
 Pre nego što instalirate LNbits, obavezno pročitajte i razumite sledeće opšte vodiče o tome šta je LNbits i koje mogućnosti vam otvara.
@@ -604,7 +604,7 @@ Kada ste novi u izgradnji, počnite sa ovim [MakerBits prezentacijama](https://w
 ### VAŽNO:
 
 
-- LNbits radi na osnovu LNURL protokola čiji su zahtevi validni u dva oblika: ili kao https:// clearnet link (nisu dozvoljeni samopotpisani sertifikati) ili kao http:// v2/v3 onion link. Da biste ponudili LNbits usluge kao što su LNURLp/w QR kodovi ili NFC kartice, koje mogu biti korišćene na terenu, potrebno je da otvorite LNbits za clearnet (https).
+- LNbits radi na osnovu LNURL protokola čiji su zahtevi validni u dva oblika: ili kao https://clearnet link (nisu dozvoljeni samopotpisani sertifikati) ili kao http://v2/v3 onion link. Da biste ponudili LNbits usluge kao što su LNURLp/w QR kodovi ili NFC kartice, koje mogu biti korišćene na terenu, potrebno je da otvorite LNbits za clearnet (https).
 - Koristite samo DATA-kablove za napajanje vašeg esp32. Nisu svi kablovi podržavaju prenos podataka pored napajanja esp-a. Ne biste bili prvi ako je kabl koji ste dobili uz esp samo za napajanje.
 - Obavezno nemojte koristiti USB-Hub sa drugim priključenim uređajima. Ovo može dovesti do čudnih efekata koji su Hard za otklanjanje grešaka (npr. ne pokretanje ili zaustavljanje).
 - Da biste realizovali esp projekte sa MacOS-om, biće vam potreban UART Bridge Driver. Ako imate problema sa drajverom na Mac ili Linux sistemima, možete ih pronaći ovde ili, ako je uključen TTGO Display, ovaj ovde. Ako ste na Windows-u i imate problema sa povezivanjem, obavezno preuzmite STARU verziju 11.1.0 jer novija ne radi! Takođe možete pronaći serijski terminal ovde da proverite vašu konekciju - postavite na baudrate 115200.

@@ -1,0 +1,8 @@
+question: Vad händer med sekretessen för en P2SH-transaktions utgiftsförhållanden över tid?
+answer: Utgiftsvillkoren förblir dolda fram till den första utgiften och blir sedan permanent synliga on-chain
+wrong_answers:
+  - Utgiftsvillkoren förblir permanent privata även efter att flera transaktioner har gjorts
+  - Utgiftsförhållandena är omedelbart synliga när P2SH-adressen först skapas
+  - Utgiftsvillkoren blir synliga tillfälligt under utgifterna men är dolda igen efteråt
+explanation: |
+  P2SH ger integritet genom att dölja de faktiska utgiftsvillkoren (redeem script) bakom en hash i scriptPubKey. Endast hashen på 20 byte är synlig initialt, vilket döljer om det är multisig, timelock eller andra komplexa villkor. Men när P2SH-utgången först spenderas måste hela inlösenskriptet avslöjas on-chain för validering, vilket gör utgiftsvillkoren permanent synliga för alla nätverksdeltagare. Detta engångsavslöjande är den avvägning P2SH gör mellan integritet och funktionalitet.

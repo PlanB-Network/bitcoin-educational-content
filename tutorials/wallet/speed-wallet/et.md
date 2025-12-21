@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Lisaks mobiilirakendusele pakub Speed Wallet ka [Chrome Web extension] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), mille saate turvaliste tehingute tegemiseks lisada oma arvuti Google Chrome'i brauserisse.
+Lisaks mobiilirakendusele pakub Speed Wallet ka [Chrome Web extension](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), mille saate turvaliste tehingute tegemiseks lisada oma arvuti Google Chrome'i brauserisse.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet paneb erilist rõhku Bitcoin ja stabiilse mündi integreerimisele j
 
 
 
-Alates [Speed Business] (https://www.tryspeed.com/) on teil Bitcoin vastuvõtmiseks ühtne makseagregaator, mida saate kasutada oma kaupluses, nii veebis kui ka füüsilises kaupluses.
+Alates [Speed Business](https://www.tryspeed.com/) on teil Bitcoin vastuvõtmiseks ühtne makseagregaator, mida saate kasutada oma kaupluses, nii veebis kui ka füüsilises kaupluses.
 
 
 

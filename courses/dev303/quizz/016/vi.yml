@@ -1,0 +1,8 @@
+question: Rust thực hiện loại thao tác nào theo mặc định khi gán một biến kiểu String cho một biến kiểu String khác?
+answer: Một thao tác di chuyển chuyển quyền sở hữu và vô hiệu hóa biến nguồn.
+wrong_answers:
+  - Một thao tác sao chép sâu (deep copy) nhân đôi toàn bộ dữ liệu heap để tạo ra các chuỗi độc lập.
+  - Một thao tác sao chép nông (shallow copy) tạo ra hai con trỏ trỏ đến cùng một vùng nhớ heap.
+  - Việc tạo tham chiếu cho phép cả hai biến cùng chia sẻ quyền truy cập chỉ đọc.
+explanation: |
+  Rust thực hiện thao tác di chuyển mặc định khi gán các kiểu dữ liệu phức tạp như String. Thao tác này chuyển quyền sở hữu từ biến nguồn sang biến đích đồng thời vô hiệu hóa biến nguồn, ngăn ngừa các tình huống nguy hiểm khi nhiều biến có thể sửa đổi cùng một vùng nhớ heap. Sao chép sâu sẽ không hiệu quả đối với các chuỗi lớn, sao chép nông sẽ tạo ra các vấn đề về an toàn bộ nhớ với nhiều con trỏ trỏ đến cùng một dữ liệu, và việc tạo tham chiếu yêu cầu cú pháp rõ ràng với toán tử dấu và (&).

@@ -1,9 +1,9 @@
-question: Koji oblik NAT trajno povezuje privatnu IP adresu Address sa javnom IP adresom Address?
-answer: Statični prevod
+question: Koji oblik NAT trajno povezuje privatnu IP adresu  sa javnom IP adresom?
+answer: Statičko prevođenje
 wrong_answers:
   - Dinamičko prevođenje
-  - PAT (Port Address Prevod)
+  - PAT (Port Address Translation)
   - Dinamičko rutiranje
 explanation: |
-  Statični prevod stvara fiksno mapiranje između interne IP adrese Address i javne IP adrese Address, što je korisno za omogućavanje pristupa unutrašnjim resursima sa spoljašnje strane.
-reviewed: false
+ Statičko prevođenje stvara fiksno mapiranje između interne IP adrese i javne IP adrese, što je korisno za omogućavanje pristupa unutrašnjim resursima sa spoljašnje strane.
+reviewed: true

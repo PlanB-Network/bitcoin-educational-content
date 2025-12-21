@@ -1,0 +1,8 @@
+question: Hvis Bitcoins mekanisme for justering av vanskelighetsgrad støter på et scenario der de forrige 2016-blokkene tok nøyaktig 6 uker å utvinne i stedet for de forventede 2 ukene, hvilken justeringsfaktor vil da bli brukt?
+answer: Vanskelighetsgraden reduseres med en faktor på 4 (maksimal tillatt reduksjon)
+wrong_answers:
+  - Vanskelighetsgraden vil bli redusert med en faktor på 3 (6 uker ÷ 2 uker)
+  - Vanskelighetsgraden reduseres med en faktor på 2,5 for å forhindre overkorreksjon
+  - Vanskelighetsgraden vil bli redusert med en faktor på 6 basert på tidsforholdet
+explanation: |
+  Bitcoins vanskelighetsjustering har innebygde grenser som begrenser endringer til innenfor en faktor på fire i hver retning. Selv om 6 uker ÷ 2 uker = 3, noe som tyder på en reduksjon på 3 ganger, begrenser protokollen justeringene til 4 ganger for å forhindre ekstrem volatilitet. Denne sikkerhetsmekanismen sikrer nettverksstabilitet under store endringer i hashfrekvensen, som mining-forbud eller utstyrsfeil, ved å forhindre overkorreksjon som kan destabilisere blokktimingen.

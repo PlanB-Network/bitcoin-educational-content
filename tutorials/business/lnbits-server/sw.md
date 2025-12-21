@@ -1,5 +1,5 @@
 ---
-name: Seva ya LNbits
+name: LNbits Server
 description: Ufungaji na usanidi wa seva ya LNbits inayojiendesha yenyewe kwenye Ubuntu VPS na Phoenixd au kwenye Umbrel.
 ---
 

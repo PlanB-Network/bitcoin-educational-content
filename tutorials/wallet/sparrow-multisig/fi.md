@@ -491,7 +491,7 @@ Syötä valitulle Address:lle lähetettävä summa.
 
 
 
-Säädä latausnopeus nykyisten verkko-olosuhteiden mukaan. Katso esimerkiksi [Mempool.space] (https://Mempool.space/) sopivan lataustason valitsemiseksi.
+Säädä latausnopeus nykyisten verkko-olosuhteiden mukaan. Katso esimerkiksi [Mempool.space](https://Mempool.space/) sopivan lataustason valitsemiseksi.
 
 
 

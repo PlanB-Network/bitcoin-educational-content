@@ -20,7 +20,7 @@ Os cursos são naturalmente mais longos e mais estruturados do que os tutoriais.
 
 Os tutoriais são geralmente mais curtos. Eles são guias passo-a-passo sobre como realizar uma tarefa específica relacionada ao Bitcoin, com imagens como suporte.
 
-[Plano de descoberta ₿ Tutoriais de rede] (https://planb.academy/tutorials)
+[Plano de descoberta ₿ Tutoriais de rede](https://planb.academy/tutorials)
 
 ![TUTO](assets/fr/38.webp)
 
@@ -68,7 +68,7 @@ Seja qual for a sua escolha, tenha em conta que todo o conteúdo publicado na Pl
 
 ## 2 - Contactar o Plano ₿ Equipa da rede
 
-Depois de escolheres o tema do teu tutorial, o próximo passo é informar-nos da tua intenção de adicionar este conteúdo à plataforma. A maneira mais fácil, se tiveres uma conta Telegram, é [juntar-te ao nosso grupo] (https://t.me/PlanBNetwork_ContentBuilder).
+Depois de escolheres o tema do teu tutorial, o próximo passo é informar-nos da tua intenção de adicionar este conteúdo à plataforma. A maneira mais fácil, se tiveres uma conta Telegram, é [juntar-te ao nosso grupo](https://t.me/PlanBNetwork_ContentBuilder).
 
 ![TUTO](assets/fr/39.webp)
 

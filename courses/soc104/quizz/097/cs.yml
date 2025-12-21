@@ -1,0 +1,9 @@
+question: Jaká je podle manifestu Cypherpunk Erica Hughese hlavní odpovědnost za ochranu soukromí v otevřené elektronické společnosti?
+answer: Jednotlivci musí aktivně bránit své soukromí a nespoléhat se na to, že jim ho poskytnou vlády nebo korporace
+wrong_answers:
+  - Vlády by měly zavést komplexní předpisy na ochranu soukromí, aby chránily občany před sledováním ze strany podniků
+  - Velké organizace musí dobrovolně zavést ochranu soukromí jako součást své společenské odpovědnosti
+  - Měly by být sjednány mezinárodní smlouvy, které by vytvořily univerzální standardy ochrany soukromí prosazované nadnárodními orgány
+explanation: |
+  Hughes výslovně prohlásil, že "nemůžeme očekávat, že nám vlády, korporace nebo jiné velké anonymní organizace zaručí důvěrnost" a že hlavním cílem Cypherpunků je "přimět lidi, aby si svou důvěrnost hájili, místo aby se spoléhali na to, že ji zajistí někdo jiný".
+  To odráží základní filozofii cypherpunku, kterou je individuální odpovědnost a nedůvěra k centralizovaným institucím. Hnutí věřilo, že kryptografické nástroje by měly jednotlivcům umožnit, aby se chránili sami, místo aby byli závislí na samotných institucích, které považovali za potenciální hrozbu pro soukromí a svobodu.

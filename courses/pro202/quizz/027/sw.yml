@@ -1,0 +1,8 @@
+question: Nini kitatokea kwa mrundiko baada ya kutekeleza OP_CHECKSIG wakati uthibitishaji wa sahihi utafanikiwa?
+answer: Thamani ya 1 inasukumwa kwenye mrundiko
+wrong_answers:
+  - Saini na ufunguo wa umma hubaki kwenye rafu
+  - Rafu imeondolewa na kuwekwa upya kuwa tupu
+  - Hashi ya ufunguo wa umma inasukumwa kwenye rundo
+explanation: |
+  OP_CHECKSIG ni msimbo wa op unaobadilisha mrundiko ambao hutumia sahihi na ufunguo wa umma kutoka kwenye mrundiko, huthibitisha sahihi dhidi ya pumzi ya muamala, na kusukuma 1 (kwa halali) au 0 (kwa batili) kwenye mrundiko. Saini asili na ufunguo wa umma huondolewa wakati wa mchakato huu. Mrundiko haujafutwa kabisa, na hakuna thamani za hashi zinazosukumwa - ni matokeo ya boolean tu ya operesheni ya uthibitishaji.

@@ -627,7 +627,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [Wiki n'ubuyobozi bwo gushiramwo](wiki): Inyandiko z'umugambi wa Arkenfox zishitse
-- [Ibiziga n'ibisohoka] (https://github.com/arkenfox/user.js): Gukuraho dosiye y'user.js maze ukurikirane ivyagezwe
+- [Ibiziga n'ibisohoka](https://github.com/arkenfox/user.js): Gukuraho dosiye y'user.js maze ukurikirane ivyagezwe
 
 
 
@@ -651,5 +651,5 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 - [Igerageza ry'ugusohoka kwa DNS](https://www.dnsleaktest.com/): Igerageza ry'ugusohoka kwa DNS n'ubushobozi bwa DoH
 - [Ivyasohotse mu mucukumbuzi](https://ivyasohotse mu mucukumbuzi.com/): Ivyagezwe vyuzuye (WebRTC, Igitambaro, Imyandikire, n'ibindi)
 - [BadSSL]( https://badssl.com/): Igerageza ryo kwemeza icemezo ca SSL/TLS
-- [CreepJS] (https: Abrahamjuliot.github.io/creepjs/): Isesengura ry'imbere ry'ibimenyetso vy'intoke 50+
+- [CreepJS](https: Abrahamjuliot.github.io/creepjs/): Isesengura ry'imbere ry'ibimenyetso vy'intoke 50+
 - [Igerageza rya DNS ry'Igicu](https://1.1.1.1/imfashanyo): Kugenzura ko DoH y'Igicu ikora neza

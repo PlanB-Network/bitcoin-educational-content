@@ -145,7 +145,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Blockstream App** adalah aplikasi seluler (iOS, Android) dan desktop untuk mengelola portofolio dan aset Bitcoin pada Liquid Network. Diakuisisi oleh [Blockstream] (https://blockstream.com/) pada tahun 2016, sebelumnya bernama *Green Address* dan kemudian *Blockstream Green*.
+- **Blockstream App** adalah aplikasi seluler (iOS, Android) dan desktop untuk mengelola portofolio dan aset Bitcoin pada Liquid Network. Diakuisisi oleh [Blockstream](https://blockstream.com/) pada tahun 2016, sebelumnya bernama *Green Address* dan kemudian *Blockstream Green*.
 - **Fitur-fitur utama**:
 - **Transaksi Onchain** pada Blockchain Bitcoin.
     - Transaksi di jaringan **Liquid** (Sidechain untuk pertukaran yang cepat dan rahasia).
@@ -430,7 +430,7 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 - Daftar Istilah :
- - [Kunci publik yang diperluas] (https://planb.academy/fr/resources/glossary/extended-key)
+ - [Kunci publik yang diperluas](https://planb.academy/fr/resources/glossary/extended-key)
  - [xpub](https://planb.academy/fr/resources/glossary/xpub)
  - [ypub](https://planb.academy/fr/resources/glossary/ypub)
  - [zpub](https://planb.academy/fr/resources/glossary/zpub)
@@ -525,7 +525,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - Penjelajah Blok: **Penjelajah Blok**
  - Onchain: **[Mempool.space](https://Mempool.space/)**
- - Liquid : ** [Info Blockstream] (https://blockstream.info/Liquid) **
+ - Liquid : ** [Info Blockstream](https://blockstream.info/Liquid) **
  - Petir: **[1ML (Lightning Network)](https://1ml.com/)**
 
 

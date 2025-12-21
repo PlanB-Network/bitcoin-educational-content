@@ -1,10 +1,9 @@
-question: Lightning Network -verkon transaktiomaksut ovat erittäin alhaiset, usein alle...?
-answer: 0,5%.
+question: Minkä edun Ark tarjoaa Lightningiin verrattuna maksujen vastaanottamisessa?
+answer: Sisääntulevaa likviditeettiä ei tarvita
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-  Lightning Network -verkon transaktiomaksut ovat erittäin alhaiset, usein
-  alle 0,5%.
-reviewed: true
+  - Maksun välitön lopullisuus
+  - Ei transaktiomaksuja
+  - Lompakkoa ei tarvita
+explanation: |
+  Ark mahdollistaa maksujen vastaanottamisen ilman etukäteen saatavilla olevaa sisääntulevaa likviditeettiä.
+reviewed: false

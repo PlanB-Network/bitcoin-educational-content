@@ -1,10 +1,9 @@
-question: ¿Qué tipo de red crea la Lightning Network?
-answer: Una red de canales de pago.
+question: ¿Qué enfoque estructura la evolución de Bitcoin descrita en este capítulo?
+answer: Evolución en capas
 wrong_answers:
-  - Una red de nodos de minería.
-  - Una red de nodos de blockchain.
-  - Una red de intercambios de criptomonedas.
-explanation: >-
-  La Lightning Network actúa como una red de canales de pago, permitiendo
-  transacciones instantáneas con bajas comisiones para el remitente.
-reviewed: true
+  - Blockchain monolítica
+  - Sharding nativo
+  - Ejecución onchain generalizada
+explanation: |
+  Bitcoin conserva una capa base simple y robusta, mientras que los protocolos superiores añaden funcionalidades específicas.
+reviewed: false

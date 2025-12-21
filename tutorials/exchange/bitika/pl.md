@@ -36,7 +36,7 @@ Kenijczycy mogą zatem kupować satoshis w trzech prostych krokach, bez KYC lub 
 
 
 
-Aby skorzystać z rozwiązania, należy odwiedzić platformę [Bitika] (https://bitika.xyz/). Niezależnie od tego, czy korzystasz z komputera, czy smartfona, interfejs pozostaje taki sam.
+Aby skorzystać z rozwiązania, należy odwiedzić platformę [Bitika](https://bitika.xyz/). Niezależnie od tego, czy korzystasz z komputera, czy smartfona, interfejs pozostaje taki sam.
 
 
 

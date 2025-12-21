@@ -1,0 +1,8 @@
+question: ECDSA imzası oluşturulurken nonce K üretilirken hangi kritik güvenlik gereksinimi karşılanmalıdır?
+answer: Özel anahtarın ele geçirilmesini önlemek için K her imza için benzersiz ve tahmin edilemez olmalıdır
+wrong_answers:
+  - İmza doğrulamasının doğru çalıştığından emin olmak için K açık anahtardan türetilmelidir
+  - İmzalama sürecinde tutarlılığı korumak için K birden fazla imzada aynı olmalıdır
+  - Matematiksel doğruluk için K, özel anahtar ile mesaj karmasının çarpımına eşit olmalıdır
+explanation: |
+  K nonce'u her imza için benzersiz ve öngörülemez olmalıdır çünkü K'nın tekrar kullanılması veya öngörülebilir olması saldırganların özel anahtarı kurtarmasına olanak tanır. Aynı K farklı mesajlarla iki kez kullanılırsa, basit cebir özel anahtarı ortaya çıkarabilir. Modern uygulamalar, benzersizliği sağlarken rastgele sayı üreteci hatalarını önlemek için deterministik K üretimi (RFC 6979) kullanır. Diğer seçenekler yanlıştır: K asla açık anahtardan türetilmemeli, asla tekrar kullanılmamalı ve asla özel anahtar çarpı mesaj karmasına eşit olmamalıdır.

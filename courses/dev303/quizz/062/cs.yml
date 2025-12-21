@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda použití příkazu `cargo expand` při vytváření složitých maker v Rust?
+answer: Zobrazuje plně rozbalený kód generovaný při volání maker, což vývojářům umožňuje ověřit generovaný výstup a odstranit problémy
+wrong_answers:
+  - Automaticky optimalizuje výkon maker tím, že zkracuje dobu kompilace a eliminuje nadbytečné větve pro porovnávání vzorů
+  - Ověřuje syntaxi maker za běhu a poskytuje kontrolu chyb v reálném čase pro dynamickou validaci argumentů maker
+  - Automaticky převádí makra podobná funkcím na odvozená makra, čímž zlepšuje znovupoužitelnost kódu a efektivitu implementace rysů
+explanation: |
+  Příkaz `cargo expand` je pro vývoj maker neocenitelný, protože odhaluje skutečný kód, který makra generate při kompilaci obsahují. Protože makra pracují v době kompilace a transformují vstupní vzory do generovaného kódu, potřebují vývojáři vidět tento rozšířený výstup, aby si ověřili, že jejich makra fungují správně. To je zvláště důležité, když kód generovaný makry obsahuje chyby, protože rozšířený výstup pomáhá určit, zda problémy pramení ze samotné definice makra nebo ze struktury generovaného kódu. Ostatní možnosti jsou nesprávné, protože `cargo expand` je čistě ladicí a kontrolní nástroj - neoptimalizuje výkon, neověřuje chování za běhu ani automaticky nepřevádí mezi typy maker.

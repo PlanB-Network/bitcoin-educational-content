@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - menedżer haseł
+name: Seedkeeper - Menedżer haseł
 description: Jak zapisywać hasła za pomocą karty inteligentnej Seedkeeper?
 ---
 

@@ -1,0 +1,8 @@
+question: Když si uzel Bitcoin vyžádá blokové hlavičky pomocí příkazu getheaders, jaký je maximální počet hlaviček, které mohou být vráceny v jedné odpovědi, a co následuje po každé 80bajtové hlavičce?
+answer: Může být vráceno až 2000 hlaviček, za každou z nich následuje fiktivní počet transakcí roven nule
+wrong_answers:
+  - Lze vrátit až 1000 hlaviček, za každou z nich následuje skutečný počet transakcí jako varint
+  - Může být vráceno až 2000 hlaviček, za každou z nich následuje 4bajtový kontrolní součet dat hlavičky
+  - Může být vráceno až 500 hlaviček, za každou z nich následuje kořenový Merkleho hash pro ověření
+explanation: |
+  Protokol Bitcoin P2P výslovně omezuje odpovědi getheaders na maximálně 2000 hlaviček, aby nedocházelo k zahlcování uzlů masivními odpověďmi. Každá hlavička má přesně 80 bajtů a za ní následuje pole pro počet transakcí nastavené na nulu, protože zprávy obsahující pouze hlavičky neobsahují skutečné transakce. Tato konstrukce umožňuje efektivní synchronizaci řetězce, kdy uzly mohou rychle stáhnout a ověřit strukturu řetězce proof-of-work předtím, než si vyžádají plná data bloku.

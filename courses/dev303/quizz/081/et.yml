@@ -1,0 +1,8 @@
+question: Mis on map_err() kasutamise peamine eesmärk, kui Rust-s kasutatakse tulemitüüpidega tehtavaid operatsioone?
+answer: Et muuta veatüüpe, jättes vea leviku ajal edu väärtused muutmata
+wrong_answers:
+  - Edukuse väärtuste teisendamiseks, kusjuures vead levivad automaatselt ja muutmiseta edasi
+  - Tulemuse tüüpide konverteerimine valiku tüübiks, kui vigu on vaja ignoreerida
+  - Et vältida vigade levikut, muutes kõik vead vaikimisi edu väärtusteks
+explanation: |
+  Meetod map_err() on spetsiaalselt loodud veatüüpide teisendamiseks, säilitades samal ajal edu väärtused muutumatuna. See on oluline mitmekihiliste rakenduste loomisel, kus erinevad komponendid vajavad erinevaid vigade esitusviise. Näiteks saate teisendada madalatasemelised parsimisvead valdkondlikeks vigadeks, mis annavad parema konteksti. Teised valikud on valed: map() teisendab eduväärtusi (mitte map_err()), map_err() ei teisendata optsioonitüüpideks ja see ei takista levikut ega loo vaikimisi eduväärtusi.

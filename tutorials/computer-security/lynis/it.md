@@ -892,7 +892,7 @@ Non dimenticate di comunicare con i vostri team prima dell'implementazione: dove
 
 
 
-Infine, è possibile confrontare **Lynis** con altri strumenti, che sono numerosi. Se volete orientarvi verso una gestione centralizzata pur rimanendo open source, vi consiglio lo strumento [Wazuh] (https://wazuh.com/).
+Infine, è possibile confrontare **Lynis** con altri strumenti, che sono numerosi. Se volete orientarvi verso una gestione centralizzata pur rimanendo open source, vi consiglio lo strumento [Wazuh](https://wazuh.com/).
 
 
 

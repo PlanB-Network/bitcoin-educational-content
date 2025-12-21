@@ -1,0 +1,8 @@
+question: Hangi mimari mekanizma Breez SDK'nın federated peg çıkışlarına veya merkezi değişimlere dayanmadan Liquid'den Bitcoin'e transferler gerçekleştirmesini sağlar?
+answer: Göndericinin Bitcoin fonlarını talep ettiği ve alıcının Liquid fonlarını talep ettiği her iki zincirde eşzamanlı kilitleme işlemlerine sahip bir ikili takas mekanizması
+wrong_answers:
+  - Önce Bitcoin fonlarının kilitlendiği ve ardından Liquid işleminden bir Lightning ödeme ön görüntüsü kullanılarak talep edildiği tek bir denizaltı takası
+  - Liquid Network'in Bitcoin mainchain işlemlerini doğrulamak için aracı köprü görevi gördüğü bir ters denizaltı takas mimarisi
+  - Boltz tarafından yönetilen ve zaman kilitli sözleşmeler kullanarak Liquid ve Bitcoin arasındaki atomik takasları koordine eden birleştirilmiş çoklu imza emanet sistemi
+explanation: |
+  İkili takas mekanizması, hem Liquid hem de Bitcoin ağlarında eşzamanlı kilitleme işlemlerini içeren çapraz zincir Bitcoin transferleri için özel olarak tasarlanmıştır. Bu güvene dayalı olmayan yaklaşım, federated peg çıkışları olmadan doğrudan köprülemeye izin verir. Diğer seçenekler tek yönlü denizaltı takaslarını yanlış tanımlamakta, Liquid Network'ün rolünü yanlış tanıtmakta veya SDK'nın açıkça kaçındığı federe sistemlere güvenmeyi yanlış bir şekilde önermektedir.

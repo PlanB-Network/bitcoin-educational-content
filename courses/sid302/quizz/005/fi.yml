@@ -1,0 +1,8 @@
+question: Mikä on Liquid Network:ssa käytetyn Bitcoin-edustuksen nimi?
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - Kääritty Bitcoin (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - Federated Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC) on oikea nimi Bitcoin:lle, kun se esiintyy Liquid:n sivuketjussa. Kun käyttäjät liittävät Bitcoin:nsä Liquid:een, he saavat vastaavan määrän LBTC:tä, jota voidaan käyttää transaktioihin Liquid Network:ssa. WBTC on Ethereum-pohjainen Bitcoin token, kun taas SBTC ja FBTC eivät ole todellisia Bitcoin-edustuksia, joita käytetään missään suuressa verkossa.

@@ -1,0 +1,8 @@
+question: SegWit'ın SegWit öncesi düğümlerle geriye dönük uyumluluğu korurken blok kapasitesini artırmasını sağlayan temel mekanizma nedir?
+answer: Tanık verilerin kapasite hesaplamalarında %75 oranında indirildiği blok ağırlık sistemi, eski düğümler ≤1MB görürken 4MB'a kadar toplam veriye izin verir
+wrong_answers:
+  - İletimden önce tanık veri boyutunu %75 oranında azaltan ve blokları tüm düğümler için 1 MB'ın altında tutan sıkıştırma algoritmaları
+  - Her bloktaki SegWit işlem yüzdesine bağlı olarak limitleri artıran dinamik blok boyutu ayarı
+  - Eski düğümler geleneksel 1MB blokları alırken, yalnızca yükseltilmiş düğümlere iletilen ayrı tanık blokları
+explanation: |
+  SegWit, temel işlem verilerinin bayt başına 4 ağırlık birimi olarak sayıldığı blok ağırlık birimlerini kullanırken, tanık verileri bayt başına 1 ağırlık birimi olarak sayılır. Bu %75'lik indirim, 4 milyon ağırlık birimine kadar (tüm tanık verileriyle birlikte potansiyel olarak 4MB) bloklara izin verirken, eski düğümlerin asla 1MB'den fazla temel işlem verisi görmemesini sağlar. Diğer seçenekler var olmayan mekanizmaları tanımlar - sıkıştırma, dinamik boyutlandırma ve ayrı blok iletimi yoktur.

@@ -31,7 +31,7 @@ Lipa - это кошелек Lightning без косточек, отличающ
 Первым делом необходимо загрузить приложение Lipa. На данный момент оно доступно только на iOS:
 
 
-- [Для Apple] (https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- [Для Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
 
 Версия для Android находится в стадии разработки и скоро будет доступна.
 
@@ -158,5 +158,5 @@ Lipa - отличный выбор для начала работы с Lightning
 ## Ресурсы
 
 
-- [Официальный сайт Липы] (https://lipa.swiss/)
-- [Поддержка Липы] (https://getlipa.atlassian.net/servicedesk/customer/portal/1)
+- [Официальный сайт Липы](https://lipa.swiss/)
+- [Поддержка Липы](https://getlipa.atlassian.net/servicedesk/customer/portal/1)

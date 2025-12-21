@@ -1,0 +1,8 @@
+question: Welches spezifische Merkmal der ereignisgesteuerten Architektur von LDK ermöglicht es Anwendungen, eine saubere Trennung zwischen Lightning-Protokolllogik und anwendungsspezifischen Antworten aufrechtzuerhalten?
+answer: Asynchrone Benachrichtigungen werden für alle wichtigen Vorgänge und Zustandsänderungen bereitgestellt, so dass benutzerdefinierte Ereignis-Handler unabhängig implementiert werden können
+wrong_answers:
+  - Synchrone Rückrufe werden direkt im Kanalmanager ausgelöst und erfordern sofortige Antworten, um die Einhaltung des Protokolls zu gewährleisten
+  - Ereignisbehandlungsroutinen werden automatisch auf der Grundlage der Anwendungskonfiguration generiert, wodurch die Notwendigkeit einer benutzerdefinierten Implementierungslogik entfällt
+  - Alle Ereignisse werden in einem zentralen Puffer in eine Warteschlange gestellt und sequentiell verarbeitet, um ein deterministisches Anwendungsverhalten zu gewährleisten
+explanation: |
+  Das Ereignissystem von LDK bietet asynchrone Benachrichtigungen für alle Lightning-Vorgänge, einschließlich Peer-Verbindungen, Zahlungen und Kanaländerungen. Dies ermöglicht es Entwicklern, benutzerdefinierte Ereignishandler zu implementieren, die angemessen reagieren und gleichzeitig eine saubere Trennung zwischen der Kernfunktionalität von LDK und der Anwendungslogik beibehalten. Die anderen Optionen sind falsch, da LDK keine synchronen Callbacks verwendet, die Protokolloperationen blockieren, keine Auto-generate-Handler einsetzt und keine sequentielle Verarbeitung von Ereignissen erzwingt.

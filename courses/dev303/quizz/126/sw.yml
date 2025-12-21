@@ -1,0 +1,8 @@
+question: Je, matokeo ya msingi ya kiufundi ya falsafa ya muundo wa Breez SDK yenye maoni tofauti ni yapi ikilinganishwa na mbinu ya jumla ya vifaa vya LDK kwa ajili ya maendeleo ya Lightning wallet?
+answer: Inawezesha ujumuishaji wa moja kwa moja wa huduma muhimu kama vile utendaji wa LSP ndani ya SDK yenyewe, ikiruhusu upokeaji wa malipo ya haraka bila usanidi wa njia ya mwongozo
+wrong_answers:
+  - Inahitaji watengenezaji kutekeleza itifaki za mitandao ya kiwango cha chini zaidi na algoriti za uelekezaji wa malipo ikilinganishwa na kutumia maktaba za kawaida za Lightning
+  - Inalazimisha programu za wallet kushughulikia usawazishaji wa grafu ya mtandao na usimamizi wa matokeo ya nanga bila kujali utekelezaji wa msingi wa Umeme.
+  - Inahitaji utekelezaji maalum wa usaidizi wa LNURL na huduma za kiwango cha ubadilishaji kwa kuwa SDK zenye maoni haziwezi kujumuisha ujumuishaji wa wahusika wengine.
+explanation: |
+  Muundo wa maoni wa Breez SDK unalenga haswa programu za wallet, na kuiruhusu kuunganisha huduma muhimu kama vile utendaji wa LSP moja kwa moja kwenye SDK. Hii inatofautiana sana na mbinu ya jumla ya LDK, ambayo inahitaji watengenezaji kutekeleza huduma hizi kando. Ujumuishaji huu huwezesha uzoefu wa mtumiaji usio na mshono kama vile mapokezi ya malipo ya haraka kwa pochi mpya, ilhali wigo mpana wa LDK unamaanisha kuwa watengenezaji lazima wajenge vipengele hivi maalum vya wallet kuanzia mwanzo, na hivyo kuongeza kwa kiasi kikubwa ugumu wa maendeleo na muda wa soko.

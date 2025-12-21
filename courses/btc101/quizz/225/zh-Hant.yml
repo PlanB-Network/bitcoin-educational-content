@@ -1,7 +1,0 @@
-question: Bitcoin 通訊協定中的區塊大小有多大？
-answer: 4MB.
-wrong_answers:
-  - 1MB.
-  - 2MB.
-  - 3MB.
-reviewed: true

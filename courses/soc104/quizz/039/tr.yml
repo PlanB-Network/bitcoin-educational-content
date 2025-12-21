@@ -1,0 +1,9 @@
+question: Milton Friedman'ın bakış açısına göre, sosyal politikaları gerçek sonuçlarından ziyade belirtilen hedeflerine göre değerlendirmenin temel sorunu nedir?
+answer: İyi niyetli politikalar genellikle bağımlılık veya piyasa çarpıklıkları yaratmak gibi asıl amaçlarıyla çelişen istenmeyen sonuçlar doğurur
+wrong_answers:
+  - Politikacılar gerçek gündemlerini halktan gizlemek ve hesap vermekten kaçınmak için gerçek niyetlerini kasıtlı olarak yanlış beyan ederler
+  - İyi niyetler doğası gereği kusurludur çünkü sosyal sorunların nesnel bilimsel analizinden ziyade kişisel önyargıları yansıtırlar
+  - Belirtilen hedefler genellikle sınırlı hükümet bütçeleri ve kaynakları dahilinde ulaşılamayacak kadar iddialı ve gerçekçi değildir
+explanation: |
+  Friedman'ın eleştirisi, hedeflerin samimiyetine veya uygulanabilirliğine değil, niyetler ile sonuçlar arasındaki uçuruma odaklanmaktadır. Friedman, tasarlanan politikaların
+  insani güdülerin ve ekonomik mekanizmaların yeterince anlaşılamaması nedeniyle genellikle geri teper. Sorun sahtekârlık, önyargı ya da bütçe kısıtlamaları değil, iyi niyetin iyi sonuçları garanti etmemesi. Bu nedenle, sistemlerin neyi başardıklarını iddia ettiklerinden ziyade gerçekte nasıl işlediklerini inceleyen yapısal tanımları savunmaktadır.

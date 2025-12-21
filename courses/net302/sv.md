@@ -90,7 +90,7 @@ I slutet av kursen har du grundläggande kunskaper för att effektivt administre
 **ANMÄRKNING**: Beskrivningarna är baserade på ett GNU/Linux CentOS 7-system. Nätverkskonfigurationerna är dock i stort sett desamma när man jämför ett Debian- med ett CentOS-system. Så vi kommer inte att göra någon åtskillnad. När det finns en, kommer vi att prefixera den med en specifik logotyp.
 
 
-**N.B.**: Om du stöter på obekanta termer under kursens gång, vänligen se [ordlistan] (https://planb.academy/resources/glossary) för definitioner.
+**N.B.**: Om du stöter på obekanta termer under kursens gång, vänligen se [ordlistan](https://planb.academy/resources/glossary) för definitioner.
 
 
 
@@ -1002,7 +1002,7 @@ I moderna nätverk kombineras IP-adressering vanligtvis med andra identifierare:
 För att hantera bristen på IPv4 Address och för att lägga till en Layer säkerhet använder nätverk ofta Address-översättning (_NAT_). NAT gör det möjligt för många privata enheter att dela en enda offentlig IP Address vid åtkomst till Internet.
 
 
-**Anmärkning**: Onlineverktyg och inbyggda OS-verktyg, t.ex. [Grenoble CRIC calculator] (http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/), gör det mycket enklare att beräkna subnät och masker.
+**Anmärkning**: Onlineverktyg och inbyggda OS-verktyg, t.ex. [Grenoble CRIC calculator](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/), gör det mycket enklare att beräkna subnät och masker.
 
 Dessa verktyg hjälper till att planera nätverksdelning på ett effektivt sätt.
 

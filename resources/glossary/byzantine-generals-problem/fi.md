@@ -2,7 +2,7 @@
 term: BYSANTIN KENRAALIEN ONGELMA
 
 ---
-Leslie Lamport, Robert Shostak ja Marshall Pease muotoilivat ongelman ensimmäisen kerran *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"] (https://lamport.azurewebsites.net/pubs/byz.pdf) -erikoislehdessä heinäkuussa 1982. Sitä käytetään nykyään havainnollistamaan päätöksenteon haasteita silloin, kun hajautettu järjestelmä ei voi luottaa yhteenkään toimijaan.
+Leslie Lamport, Robert Shostak ja Marshall Pease muotoilivat ongelman ensimmäisen kerran *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) -erikoislehdessä heinäkuussa 1982. Sitä käytetään nykyään havainnollistamaan päätöksenteon haasteita silloin, kun hajautettu järjestelmä ei voi luottaa yhteenkään toimijaan.
 
 Tässä vertauskuvassa joukko bysanttilaisia kenraaleja ja heidän armeijansa leiriytyvät kaupungin ympärille, johon he haluavat hyökätä tai jonka he haluavat piirittää. Kenraalit ovat maantieteellisesti erillään toisistaan, ja heidän on kommunikoitava viestinviejän välityksellä koordinoidakseen strategiaansa. Sillä, hyökkäävätkö vai vetäytyvätkö he, ei ole väliä, kunhan kaikki kenraalit pääsevät yhteisymmärrykseen.
 

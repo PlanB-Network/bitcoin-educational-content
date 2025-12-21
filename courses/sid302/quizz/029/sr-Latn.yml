@@ -1,0 +1,8 @@
+question: Koji osnovni kompromis investitori moraju prihvatiti kada učestvuju u Blockstream AMP ekosistemima imovine u poređenju sa standardnim Liquid Network transakcijama?
+answer: Potpuna vidljivost njihovih poseda i istorije transakcija za izdavaoca sredstava uprkos očuvanju privatnosti od drugih korisnika
+wrong_answers:
+  - Više transakcione naknade zbog dodatnog računarskog opterećenja potrebnog za mehanizme autorizacije sa zajedničkim potpisivanjem
+  - Smanjena brzina transakcije jer sve transfere mora da validuje centralizovani server za usklađenost pre potvrde
+  - Ograničena prenosivost sredstava jer se AMP tokeni mogu slati samo na unapred odobrene novčanike unutar iste regulatorne jurisdikcije
+explanation: |
+  Tačan odgovor identifikuje osnovni kompromis privatnosti AMP-a: dok Confidential Transactions održava privatnost korisnika prema korisniku, AMP sredstva omogućavaju izdavačima potpunu unblinded vidljivost radi usklađenosti sa propisima. Pogrešni odgovori opisuju operativna ograničenja (naknade, brzina, prenosivost) umesto osnovnog kompromisa transparentnosti koji razlikuje AMP od standardnog potpuno poverljivog modela Liquid.

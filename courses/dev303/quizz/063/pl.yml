@@ -1,0 +1,8 @@
+question: Kiedy makro używa wzorca `$($x:expr),*` w swojej definicji, co osiąga ten wzorzec?
+answer: Dopasowuje zero lub więcej wyrażeń oddzielonych przecinkami, umożliwiając tworzenie list argumentów o zmiennej długości
+wrong_answers:
+  - Dopasowuje dokładnie jedno wyrażenie i wielokrotnie powtarza rozszerzenie makra
+  - Dopasowuje dowolną liczbę definicji typów oddzielonych średnikami w celu wygenerowania kodu
+  - Tworzy pętlę, która wykonuje makro w czasie wykonywania z różnymi wartościami wyrażeń
+explanation: |
+  Wzorzec `$($x:expr),*` używa składni powtórzeń makr Rust, gdzie kwantyfikator `*` oznacza "zero lub więcej", `$x:expr` przechwytuje każde wyrażenie, a przecinek określa separator między wyrażeniami. Umożliwia to makrom takim jak `vec!` akceptowanie dowolnej liczby argumentów: `vec![1, 2, 3]` lub `vec![]`. Pozostałe opcje są niepoprawne, ponieważ: wzorzec obsługuje wiele wyrażeń, a nie tylko jedno, dopasowuje wyrażenia, a nie definicje typów i używa przecinków, a nie średników, a makra są wykonywane w czasie kompilacji podczas generowania kodu, a nie w czasie wykonywania.

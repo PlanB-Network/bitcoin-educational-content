@@ -8,39 +8,31 @@ description: Bagaimana cara melakukan transaksi Payjoin di Ashigaru?
 
 > *Paksa mata-mata blockchain untuk memikirkan kembali segala sesuatu yang mereka pikir mereka ketahui*
 
-Payjoin adalah sebuah struktur transaksi Bitcoin yang dirancang untuk meningkatkan kerahasiaan pengguna dengan melibatkan kolaborasi langsung dengan penerima pembayaran. Beberapa implementasi tersedia untuk memfasilitasi penerapannya dan mengotomatiskan prosesnya. Yang paling terkenal di antaranya tidak diragukan lagi adalah Stowaway, yang awalnya dikembangkan oleh tim Samurai Wallet dan sekarang diintegrasikan ke dalam fork Ashigaru.
-
+Payjoin adalah struktur transaksi Bitcoin yang dirancang untuk meningkatkan kerahasiaan pengguna dengan melibatkan kolaborasi langsung dengan penerima pembayaran. Beberapa implementasi tersedia untuk mempermudah penerapannya sekaligus mengotomatiskan prosesnya. Yang paling dikenal di antaranya adalah Stowaway, yang awalnya dikembangkan oleh tim Samurai Wallet dan kini telah diintegrasikan ke dalam fork Ashigaru.
 
 
 ## Bagaimana cara kerja Stowaway?
 
 
 
-Seperti yang telah disebutkan sebelumnya, Ashigaru mengintegrasikan alat PayJoin yang disebut `Penumpang gelap`. Alat ini tersedia di aplikasi Ashigaru di Android. Agar Payjoin dapat dilakukan, penerima (yang juga berperan sebagai kolaborator) harus menggunakan perangkat lunak yang kompatibel dengan Stowaway, yaitu hanya Ashigaru untuk saat ini.
+Seperti yang telah disebutkan sebelumnya, Ashigaru mengintegrasikan alat PayJoin bernama `Stowaway`. Alat ini tersedia di aplikasi Ashigaru di Android. Agar PayJoin dapat dilakukan, penerima, yang juga berperan sebagai kolaborator, harus menggunakan perangkat lunak yang kompatibel dengan Stowaway, yaitu untuk saat ini hanya Ashigaru.
 
-
-
-Penumpang gelap didasarkan pada kategori transaksi yang disebut Samurai sebagai "Cahoot". Cahoot adalah transaksi kolaboratif antara beberapa pengguna, yang melibatkan pertukaran informasi di luar blockchain Bitcoin. Ashigaru saat ini menawarkan dua alat Cahoots: Stowaway (Payjoins) dan StonewallX2.
-
+Stowaway didasarkan pada kategori transaksi yang oleh Samourai Wallet disebut sebagai "Cahoots". Cahoots adalah transaksi kolaboratif antara beberapa pengguna yang melibatkan pertukaran informasi di luar blockchain Bitcoin. Saat ini, Ashigaru menawarkan dua alat Cahoots: Stowaway (PayJoin) dan StonewallX2.
 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
-Transaksi Cahoots membutuhkan pertukaran sebagian transaksi yang ditandatangani antar pengguna. Proses ini bisa jadi lama dan membosankan, terutama jika dilakukan dari jarak jauh. Namun, hal ini masih dapat dilakukan secara manual, jika para kolaborator berada di lokasi yang sama. Secara konkret, ini melibatkan pemindaian lima kode QR secara berurutan, dipertukarkan antara dua peserta.
+Transaksi Cahoots membutuhkan pertukaran sebagian transaksi yang telah ditandatangani antar pengguna. Proses ini bisa terasa lama dan membosankan, terutama jika dilakukan dari jarak jauh. Namun, hal ini masih bisa dilakukan secara manual jika para kolaborator berada di lokasi yang sama. Secara konkret, ini melibatkan pemindaian lima kode QR secara berurutan, yang dipertukarkan antara dua peserta.
 
+Untuk transaksi jarak jauh, metode ini menjadi terlalu rumit. Untuk mengatasinya, Samourai mengembangkan protokol komunikasi terenkripsi berbasis Tor yang disebut "Soroban". Berkat Soroban, pertukaran yang dibutuhkan untuk PayJoin dilakukan secara otomatis dan berlangsung di latar belakang.
 
-
-Pada jarak jauh, metode ini menjadi terlalu rumit. Untuk mengatasi hal ini, Samourai telah mengembangkan protokol komunikasi terenkripsi berbasis Tor yang disebut "*Soroban*". Berkat Soroban, pertukaran yang diperlukan untuk Payjoin dilakukan secara otomatis dan berlangsung di latar belakang.
-
-
-
-Komunikasi terenkripsi ini membutuhkan koneksi dan autentikasi antara peserta Cahoot. Inilah sebabnya mengapa Soroban bergantung pada Paynyms pengguna. Jika Anda belum terbiasa dengan cara kerja Paynyms, lihat tutorial khusus ini untuk mempelajari lebih lanjut:
+Komunikasi terenkripsi ini membutuhkan koneksi dan autentikasi antara peserta Cahoot. Inilah alasan Soroban bergantung pada Paynyms pengguna. Jika kamu belum terbiasa dengan cara kerja Paynyms, lihat tutorial khusus ini untuk mempelajari lebih lanjut:
 
 
 
 https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
-Singkatnya, Paynym adalah sebuah pengenal unik yang diasosiasikan dengan wallet Anda, yang memungkinkan Anda untuk mengaktifkan berbagai fungsi, termasuk bursa terenkripsi. Bentuknya berupa pengenal yang disertai dengan ilustrasi. Ini, sebagai contoh, adalah yang saya gunakan pada Testnet:
+Singkatnya, Paynym adalah sebuah pengenal unik yang diasosiasikan dengan wallet kamu, yang memungkinkan kamu untuk mengaktifkan berbagai fungsi, termasuk bursa terenkripsi. Bentuknya berupa pengenal yang disertai dengan ilustrasi. Ini, sebagai contoh, adalah yang aku gunakan pada Testnet:
 
 
 
@@ -82,7 +74,7 @@ Singkatnya, Paynym adalah sebuah pengenal unik yang diasosiasikan dengan wallet 
 
 
 
-Untuk melihat lebih dalam tentang cara kerja Payjoins dan kegunaannya dalam privasi onchain, saya merekomendasikan tutorial lain ini:
+Untuk melihat lebih dalam tentang cara kerja Payjoins dan kegunaannya dalam privasi onchain, aku merekomendasikan tutorial lain ini:
 
 
 
@@ -92,13 +84,13 @@ https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 
 
 
-Untuk memulai, tentu saja Anda perlu menginstal Ashigaru dan membuat file :
+Untuk memulai, tentu saja kamu perlu menginstal Ashigaru dan membuat file :
 
 
 
 https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-80f8e178158f
 
-Untuk melakukan transaksi Cahoots jarak jauh, termasuk PayJoin (*Penumpang gelap*) melalui Ashigaru, Anda harus terlebih dahulu "mengikuti" pengguna yang ingin Anda ajak berkolaborasi, dengan menggunakan Paynym mereka. Dalam kasus Penumpang Gelap, ini berarti mengikuti orang yang ingin Anda kirimi bitcoin. Jika Anda belum mengetahui cara mengikuti Paynym lain, Anda akan menemukan prosedur detailnya di tutorial ini:
+Untuk melakukan transaksi Cahoots jarak jauh, termasuk PayJoin (*Stowaway*) melalui Ashigaru, kamu harus terlebih dahulu "mengikuti" pengguna yang ingin kamu ajak berkolaborasi, dengan menggunakan Paynym mereka. Dalam kasus Penumpang Gelap, ini berarti mengikuti orang yang ingin kamu kirimi bitcoin. Jika kamu belum mengetahui cara mengikuti Paynym lain, kamu akan menemukan prosedur detailnya di tutorial ini:
 
 
 
@@ -108,15 +100,14 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 
-Untuk melakukan transaksi Penumpang Gelap, klik gambar Paynym Anda di pojok kiri atas layar, lalu buka menu `Kolaborasi`. Orang yang ikut serta dalam transaksi dengan Anda juga harus melakukan hal yang sama, kecuali jika Anda menukarkan kode QR secara langsung.
-
+Untuk melakukan transaksi Penumpang Gelap, klik gambar Paynym kamu di pojok kiri atas layar, lalu buka menu `Kolaborasi`. Orang yang ikut serta dalam transaksi dengan kamu juga harus melakukan hal yang sama, kecuali jika kamu menukarkan kode QR secara langsung.
 
 
 ![Image](assets/fr/02.webp)
 
 
 
-Anda memiliki dua pilihan: pilih `Memulai` jika Anda adalah pengirim pembayaran, atau `Berpartisipasi` jika Anda adalah penerima pembayaran dari payjoin ini.
+Kamu memiliki dua pilihan: pilih `Memulai` jika kamu adalah pengirim pembayaran, atau `Berpartisipasi` jika kamu adalah penerima pembayaran dari payjoin ini.
 
 
 
@@ -124,23 +115,21 @@ Anda memiliki dua pilihan: pilih `Memulai` jika Anda adalah pengirim pembayaran,
 
 
 
-Jika Anda adalah penerima, prosedurnya sangat sederhana. Untuk kolaborasi jarak jauh melalui jaringan Soroban, klik `Berpartisipasi`, pilih akun yang ingin Anda gunakan, lalu tekan `DENGARKAN PERMINTAAN CAHOOTS` untuk menunggu permintaan yang dikirim oleh pembayar.
-
+Jika kamu adalah penerima, prosedurnya sangat sederhana. Untuk kolaborasi jarak jauh melalui jaringan Soroban, klik `Berpartisipasi`, pilih akun yang ingin kamu gunakan, lalu tekan `DENGARKAN PERMINTAAN CAHOOTS` untuk menunggu permintaan yang dikirim oleh pembayar.
 
 
 ![Image](assets/fr/04.webp)
 
 
 
-Di sisi lain, untuk kolaborasi langsung melalui pemindaian kode QR, buka halaman beranda wallet Anda, tekan ikon kode QR di bagian atas layar, lalu pindai kode QR yang disediakan oleh pembayar yang memulai transaksi.
-
+Di sisi lain, untuk kolaborasi langsung melalui pemindaian kode QR, buka halaman beranda wallet kamu, tekan ikon kode QR di bagian atas layar, lalu pindai kode QR yang disediakan oleh pembayar yang memulai transaksi.
 
 
 ![Image](assets/fr/05.webp)
 
 
 
-Jika Anda berperan sebagai pembayar, yaitu pihak yang memulai transaksi, buka menu `Bekerja Sama`, lalu pilih `Memulai`.
+Jika kamu berperan sebagai pembayar, yaitu pihak yang memulai transaksi, buka menu `Bekerja Sama`, lalu pilih `Memulai`.
 
 
 
@@ -156,7 +145,7 @@ Untuk jenis transaksi, karena kami ingin membuat Payjoin Stowaway, pilih opsi in
 
 
 
-Anda kemudian dapat memilih antara kolaborasi online (*Cahoots* melalui *Soroban*) atau kolaborasi tatap muka, dengan pertukaran kode QR.
+Kemudian kamu dapat memilih antara kolaborasi online (*Cahoots* melalui *Soroban*) atau kolaborasi tatap muka, dengan pertukaran kode QR.
 
 
 
@@ -168,7 +157,7 @@ Anda kemudian dapat memilih antara kolaborasi online (*Cahoots* melalui *Soroban
 
 
 
-Jika Anda telah memilih opsi `Online`, pilih penerima dari Paynyms yang Anda ikuti.
+Jika kamu telah memilih opsi `Online`, pilih penerima dari Paynyms yang kamu ikuti.
 
 
 
@@ -176,7 +165,7 @@ Jika Anda telah memilih opsi `Online`, pilih penerima dari Paynyms yang Anda iku
 
 
 
-Klik `Siapkan transaksi`, lalu pilih akun yang ingin Anda gunakan untuk melakukan pengeluaran.
+Klik `Siapkan transaksi`, lalu pilih akun yang ingin kamu gunakan untuk melakukan pengeluaran.
 
 
 
@@ -187,7 +176,6 @@ Klik `Siapkan transaksi`, lalu pilih akun yang ingin Anda gunakan untuk melakuka
 Pada halaman berikutnya, masukkan detail transaksi: jumlah yang akan dikirim ke penerima dan tarif biaya. Tidak perlu memasukkan alamat penerima, karena penerima akan mengirimkannya sendiri selama pertukaran PSBT.
 
 
-
 Kemudian klik `Tinjau pengaturan transaksi`.
 
 
@@ -196,7 +184,7 @@ Kemudian klik `Tinjau pengaturan transaksi`.
 
 
 
-Periksa informasi dengan seksama, pastikan kolaborator Anda mendengarkan permintaan *Cahoots*, lalu klik tombol hijau `MULAI TRANSAKSI` untuk memulai pertukaran PSBT melalui Soroban.
+Periksa informasi dengan seksama, pastikan kolaborator kamu mendengarkan permintaan *Cahoots*, lalu klik tombol hijau `MULAI TRANSAKSI` untuk memulai pertukaran PSBT melalui Soroban.
 
 
 
@@ -216,7 +204,7 @@ Tunggu hingga kedua peserta menandatangani transaksi, lalu siarkan di jaringan B
 
 
 
-Jika Anda ingin melakukan penukaran secara langsung, pilih jenis transaksi `STONEWALL X2`, lalu pilih opsi `Di Tempat / Manual`.
+Jika kamu ingin melakukan penukaran secara langsung, pilih jenis transaksi `STONEWALL X2`, lalu pilih opsi `Di Tempat / Manual`.
 
 
 
@@ -224,7 +212,7 @@ Jika Anda ingin melakukan penukaran secara langsung, pilih jenis transaksi `STON
 
 
 
-Klik `Siapkan transaksi`, lalu pilih akun yang ingin Anda gunakan untuk melakukan pengeluaran.
+Klik `Siapkan transaksi`, lalu pilih akun yang ingin kamu gunakan untuk melakukan pengeluaran.
 
 
 
@@ -233,7 +221,6 @@ Klik `Siapkan transaksi`, lalu pilih akun yang ingin Anda gunakan untuk melakuka
 
 
 Pada halaman berikutnya, masukkan detail transaksi: jumlah yang akan dikirim ke penerima dan tarif biaya. Tidak perlu memasukkan alamat penerima, karena penerima akan mengirimkannya sendiri selama pertukaran PSBT.
-
 
 
 Kemudian klik `Tinjau pengaturan transaksi`.
@@ -252,7 +239,7 @@ Periksa detailnya, lalu tekan tombol hijau `MULAI TRANSAKSI` untuk mulai menukar
 
 
 
-Pertukaran dilakukan dengan cara bergantian memindai dengan kolaborator: klik `TAMPILKAN KODE QR` untuk menampilkan kode QR Anda kepada kolaborator Anda, yang akan memindainya. Dia kemudian akan mengklik `TAMPILKAN KODE QR` untuk menampilkan kode QR miliknya, dan Anda akan memindainya dengan `LAKUKAN PEMINDAH QR`. Ulangi proses ini sampai kelima langkah pertukaran selesai.
+Pertukaran dilakukan dengan cara bergantian memindai dengan kolaborator: klik 'TAMPILKAN KODE QR' untuk menampilkan kode QR kamu kepada kolaborator kamu, yang akan memindainya. Dia kemudian akan mengklik 'TAMPILKAN KODE QR' untuk menampilkan kode QR miliknya, dan kamu akan memindainya dengan 'LAKUKAN PEMINDAH QR'. Ulangi proses ini sampai kelima langkah pertukaran selesai.
 
 
 
@@ -280,16 +267,13 @@ Setelah semua pertukaran selesai, periksa detail transaksi, lalu lepaskan dengan
 
 
 
-Jika kita menganalisis transaksi ini, kita melihat UTXO saya sebesar `164.211 sats` di sisi input, serta UTXO sebesar `190.002 sats` milik penerima pembayaran yang sebenarnya. Di sisi output, saya menerima pertukaran UTXO sebesar `63.995 sats`, sedangkan penerima menerima UTXO sebesar `290.002 sats`. Dengan membandingkan input dan output, kita dapat melihat bahwa penerima memang mendapatkan `100.000 sats`, yang sesuai dengan jumlah pembayaran saya yang sebenarnya, dan bahwa saya kehilangan `100.000 sats`, yang telah saya tambahkan dengan biaya mining.
+Jika kita menganalisis transaksi ini, kita melihat UTXO aku sebesar `164.211 sats` di sisi input, serta UTXO sebesar `190.002 sats` milik penerima pembayaran yang sebenarnya. Di sisi output, aku menerima pertukaran UTXO sebesar `63.995 sats`, sedangkan penerima menerima UTXO sebesar `290.002 sats`. Dengan membandingkan input dan output, kita dapat melihat bahwa penerima memang mendapatkan `100.000 sats`, yang sesuai dengan jumlah pembayaran aku yang sebenarnya, dan bahwa aku kehilangan `100.000 sats`, yang telah aku tambahkan dengan biaya mining.
 
 
 
-Tentunya, saya dapat menggambarkan struktur ini karena saya sendiri yang membuat transaksinya. Tetapi bagi pengamat luar, umumnya tidak mungkin untuk menentukan UTXO mana yang menjadi milik peserta mana, baik dalam hal input maupun output.
+Tentunya, aku dapat menggambarkan struktur ini karena aku sendiri yang membuat transaksinya. Tetapi bagi pengamat luar, umumnya tidak mungkin untuk menentukan UTXO mana yang menjadi milik peserta mana, baik dalam hal input maupun output.
 
-
-
-Untuk memperdalam pengetahuan Anda tentang manajemen privasi onchain di Bitcoin, saya sarankan Anda mengikuti pelatihan BTC 204 saya di Plan ₿ Academy:
-
+Untuk memperdalam pengetahuan kamu tentang manajemen privasi onchain di Bitcoin, aku sarankan kamu mengikuti pelatihan BTC 204 aku di Plan ₿ Academy:
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

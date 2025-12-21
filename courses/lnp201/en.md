@@ -61,7 +61,7 @@ Ready to uncover the technical mechanisms of the Lightning Network? Let’s dive
 
 The Lightning Network is a network of payment channels built on top of the Bitcoin protocol, aiming to enable fast and low-cost transactions. It enables the creation of payment channels between participants, within which transactions can be made almost instantly and with minimal fees, without requiring the recording of each transaction individually on the blockchain. Thus, the Lightning Network aims to enhance Bitcoin's scalability and make it more suitable for low-value transactions.
 
-Before exploring the "network" aspect, it is essential to understand the concept of a **payment channel** on Lightning, its operation, and its specifics. This is the subject of this first chapter.
+Before exploring the "network" aspect, it is essential to understand the concept of a **[payment channel](https://planb.academy/resources/glossary/payment-channel)** on Lightning, its operation, and its specifics. This is the subject of this first chapter.
 
 ### The Concept of Payment Channel
 
@@ -136,7 +136,7 @@ The most common script requires a signature with the private key associated with
 
 ### UTXOs: Unspent Transaction Outputs
 
-On Bitcoin, what we actually exchange are not directly bitcoins, but **UTXOs** (_Unspent Transaction Outputs_), meaning "unspent transaction outputs".
+On Bitcoin, what we actually exchange are not directly bitcoins, but **[UTXOs](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), meaning "unspent transaction outputs".
 
 A UTXO is a piece of bitcoin that can be of any value, for example, **2,000 bitcoins**, **8 bitcoins**, or even **8,000 sats**. Each UTXO is locked by a script, and to spend it, one must satisfy the script's conditions, often a signature with the private key corresponding to a given receiving address.
 
@@ -206,7 +206,7 @@ It's worth noting that a Lightning node can communicate via the P2P protocol wit
 
 ![LNP201](assets/en/011.webp)
 
-- **Creation of the multisignature address**: With these two public keys, Alice creates a **2/2 multisignature address**, meaning that the funds that will later be deposited on this address will require both signatures (Alice and Bob) to be spent.
+- **Creation of the [multisignature](https://planb.academy/resources/glossary/multisig) address**: With these two public keys, Alice creates a **2/2 multisignature address**, meaning that the funds that will later be deposited on this address will require both signatures (Alice and Bob) to be spent.
 
 ![LNP201](assets/en/012.webp)
 
@@ -260,7 +260,7 @@ At the time of opening the channel, Alice deposited **130,000 satoshis** on the 
 
 ### Unpublished Transactions: The Commitment Transactions
 
-When Alice makes a transaction in the channel to send funds to Bob, a new Bitcoin transaction is created to reflect this change in the distribution of funds. This transaction, called a **commitment transaction**, is not published on the blockchain but represents the new state of the channel following the Lightning transaction.
+When Alice makes a transaction in the channel to send funds to Bob, a new Bitcoin transaction is created to reflect this change in the distribution of funds. This transaction, called a **[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)**, is not published on the blockchain but represents the new state of the channel following the Lightning transaction.
 
 Let's take an example with Alice sending 30,000 satoshis to Bob:
 
@@ -271,7 +271,7 @@ Let's take an example with Alice sending 30,000 satoshis to Bob:
 
 ### Transfer Process: The Invoice
 
-When Bob wants to receive funds, he sends Alice an **_invoice_** for 30,000 satoshis. Alice then proceeds to pay this invoice by starting the transfer within the channel. As we have seen, this process relies on the creation and signing of a new **commitment transaction**.
+When Bob wants to receive funds, he sends Alice an **_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_** for 30,000 satoshis. Alice then proceeds to pay this invoice by starting the transfer within the channel. As we have seen, this process relies on the creation and signing of a new **commitment transaction**.
 
 Each commitment transaction represents the new distribution of funds in the channel after the transfer. In this example, after the transaction, Bob has 30,000 satoshis and Alice has 100,000 satoshis. If either of the two participants decided to publish this commitment transaction on the blockchain, it would result in the closing of the channel, and the funds would be distributed according to this last distribution.
 
@@ -585,7 +585,7 @@ In this chapter, we explored payment routing on the Lightning Network. But a que
 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
-In this chapter, we will explore how Lightning enables payments to transit through intermediary nodes without requiring trust, thanks to **HTLC** (_Hashed Time-Locked Contracts_). These smart contracts ensure that each intermediary node will only receive the funds from its channel if it forwards the payment to the final recipient; otherwise, the payment will not be validated.
+In this chapter, we will explore how Lightning enables payments to transit through intermediary nodes without requiring trust, thanks to **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). These smart contracts ensure that each intermediary node will only receive the funds from its channel if it forwards the payment to the final recipient; otherwise, the payment will not be validated.
 
 The issue that arises for payment routing is therefore the necessary trust in intermediary nodes, as well as the trust among these intermediary nodes themselves. To illustrate this, let's revisit our simplified Lightning network example with 3 nodes and 2 channels:
 

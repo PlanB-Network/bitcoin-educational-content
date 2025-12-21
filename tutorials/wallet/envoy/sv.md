@@ -85,15 +85,15 @@ Gå till din appbutik för att ladda ner Envoy :
 
 
 
-- På [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- På [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
-- På [F-Cold] (https://foundation.xyz/fdroid/).
+- På [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- På [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- På [F-Cold](https://foundation.xyz/fdroid/).
 
 
 ![Image](assets/fr/50.webp)
 
 
-Du kan också ladda ner APK-filen direkt [från Foundation's GitHub-arkiv] (https://github.com/Foundation-Devices/envoy/releases).
+Du kan också ladda ner APK-filen direkt [från Foundation's GitHub-arkiv](https://github.com/Foundation-Devices/envoy/releases).
 
 
 ![Image](assets/fr/51.webp)

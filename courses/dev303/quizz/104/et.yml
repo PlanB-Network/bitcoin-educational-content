@@ -1,0 +1,8 @@
+question: Mis võimaldab LDK-l toetada erinevaid transpordimehhanisme, nagu TCP-soketid, WebSockets ja USB-seeriaühendused Lightning Network suhtlemiseks?
+answer: Vastastikuse haldussüsteem toimib sõltumatult aluseks olevast transpordimehhanismist, käsitledes samal ajal müraprotokolli krüpteerimist
+wrong_answers:
+  - Kanalihaldur kooskõlastab mitme võrguadapteriga ühtse pistikupesa abstraktsioonikihi kaudu
+  - LDK rakendab oma põhivõrgumoodulis iga transporditüübi jaoks protokolli-spetsiifilisi draivereid
+  - Sündmuste süsteem tuvastab automaatselt olemasolevad transpordimeetodid ja konfigureerib sobivad ühenduskäitlejad
+explanation: |
+  LDK peer-haldussüsteem on spetsiaalselt loodud Lightning-protokolliga suhtlemiseks (sh müra krüpteerimine ja sõnumite struktuurid) tegelikust transpordikihist sõltumatult. Selline arhitektuuriline eraldatus võimaldab arendajatel rakendada mis tahes kahesuunalist suhtluskanalit, samas kui peer manager keskendub ainult Lightning-protokollile vastavuse tagamisele. Teised valikud viitavad ekslikult sellele, et LDK pakub sisseehitatud transpordi implementatsioone või automaatset tuvastamist, kuigi tegelikult seisneb LDK tugevus selles, et ta abstraheerib konkreetsetest transpordimehhanismidest täielikult ära.

@@ -1,5 +1,5 @@
 ---
-name: Armutlar
+name: Pears
 description: Pears'a uygulamaları nasıl yükleyebilir ve kullanabilirim?
 ---
 

@@ -1,0 +1,8 @@
+question: Koji je osnovni mehanizam koji omogućava SegWit da poveća kapacitet bloka, a da pritom zadrži unazadnu kompatibilnost sa čvorovima pre-SegWit?
+answer: Sistem težine bloka gde su podaci svedoka sniženi za 75% u proračunima kapaciteta, omogućavajući do 4MB ukupnih podataka dok čvorovi sa starijom verzijom vide ≤1MB
+wrong_answers:
+  - Algoritmi kompresije koji smanjuju veličinu podataka svedoka za 75% pre prenosa, držeći blokove ispod 1MB za sve čvorove
+  - Dinamičko podešavanje veličine bloka koje povećava limite na osnovu procenta SegWit transakcija u svakom bloku
+  - Odvojeni blokovi svedoka prenose se samo na nadograđene čvorove, dok čvorovi sa starijom verzijom primaju tradicionalne blokove od 1MB.
+explanation: |
+  SegWit koristi jedinice težine blokova gde osnovni podaci transakcije računaju kao 4 jedinice težine po bajtu, dok podaci svedoka računaju kao 1 jedinica težine po bajtu. Ovaj popust od 75% omogućava blokovima do 4 miliona jedinica težine (potencijalno 4MB sa svim podacima svedoka) dok osigurava da čvorovi sa starijom verzijom nikada ne vide više od 1MB osnovnih podataka transakcije. Druge opcije opisuju nepostojeće mehanizme - nema kompresije, nema dinamičkog određivanja veličine i nema odvojenog prenosa blokova.

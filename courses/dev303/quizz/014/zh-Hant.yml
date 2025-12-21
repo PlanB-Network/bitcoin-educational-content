@@ -1,0 +1,8 @@
+question: 在 Rust 中，String 和 string literal (&str) 的主要差別是什麼？
+answer: String 管理動態分配的堆記憶體，並且可以修改，而 &str 則是不可變的字串資料的檢視。
+wrong_answers:
+  - String 儲存在堆疊上，而 &str 則儲存在堆上，以獲得更好的效能。
+  - 字串只能包含 ASCII 字元，而 &str 則可包含任何 Unicode 字元。
+  - String 自動實現借用，而 &str 則需要明確的所有權轉移
+explanation: |
+  String 和 &str 代表了 Rust 中處理字串的不同方法。String 是堆分配、可成長的字串類型，擁有其資料，並可在執行時修改。相反地，&str（字串切片）是對字串資料的不可變引用，通常指向嵌入在程式二進位中的字串文字或現有字串資料的切片。這個區別讓 Rust 可以同時優化彈性 (String 用於動態內容) 和效率 (&str 用於唯讀存取而不需要分配)。

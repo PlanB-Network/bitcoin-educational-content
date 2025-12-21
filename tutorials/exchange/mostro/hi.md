@@ -1,5 +1,5 @@
 ---
-name: मोस्ट्रो
+name: Mostro
 description: लाइटनिंग और नोस्ट्र के माध्यम से KYC-मुक्त Bitcoin P2P एक्सचेंज प्लेटफ़ॉर्म
 ---
 

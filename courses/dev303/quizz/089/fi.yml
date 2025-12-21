@@ -1,0 +1,8 @@
+question: Mikä on pääasiallinen syy siihen, että UniFFI vaatii kehittäjiä luomaan erillisen UDL-tiedoston sen sijaan, että se tuottaisi sidokset automaattisesti suoraan Rust-koodista?
+answer: UDL toimii nimenomaisena rajapintasopimuksena, jossa määritellään, mitkä Rust-kirjaston osat on esitettävä muille kielille
+wrong_answers:
+  - "UDL tarvitaan, koska Rust:n tyyppijärjestelmä ei ole yhteensopiva muiden ohjelmointikielten kanssa ilman käännöstä"
+  - UDL-tiedostot ovat välttämättömiä, jotta voidaan optimoida kieltenvälisten funktiokutsujen suorituskyky ajonaikaisen suorituksen aikana
+  - "UDL tarjoaa tavan muuntaa Rust:n omistajuusmalli automaattisesti kohdekielten roskienkeräykseen"
+explanation: |
+  UniFFI käyttää UDL:ää tarkoituksellisena suunnitteluvalintana, jolla säilytetään huolenaiheiden erillisyys toteutuksen ja käyttöliittymän välillä. UDL-tiedosto toimii nimenomaisena sopimuksena, jonka avulla kehittäjät voivat valikoivasti paljastaa Rust-kirjastonsa osia pitäen samalla sisäiset toteutustiedot salassa. Tämä lähestymistapa estää kaikkien julkisten Rust-kohteiden automaattisen paljastamisen ja antaa kehittäjille hienojakoisen hallinnan API-pinnastaan. Muut vaihtoehdot ovat virheellisiä, koska Rust-tyyppejä voidaan kuvata ilman UDL:ää (vaikkakin vähemmän tyylikkäästi), suorituskyvyn optimointi ei ole UDL:n ensisijainen tarkoitus, eikä UDL muunna omistajuusmalleja.

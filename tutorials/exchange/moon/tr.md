@@ -1,11 +1,17 @@
 ---
-name: Ay
+name: Moon
 description: Visa banka kartlarının kabul edildiği her yerde bitcoin ile ödeme yapın.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Aralık 2025 güncellemesi: Dikkat, **Aralık 2025’in başından bu yana Moon hizmetlerinin bir kısmı artık kullanılamamaktadır**, özellikle yeniden yüklenebilir Visa banka kartları. Bu kullanılamazlığın geçici mi yoksa kalıcı mı olduğunu henüz bilmiyoruz. Daha fazla bilgiye ulaştığımızda bu eğitim güncellenecektir.*
+
+---
 
 Moon, tıpkı geleneksel bir banka kartı gibi milyonlarca çevrimiçi satıcıda kullanılabilen KYC içermeyen sanal Visa kartları ve hediye kartları satın almak için bitcoin gibi kripto para birimlerini kullanmanıza olanak tanır. Böylece sats'ınızı Visa'nın kabul edildiği her yerde, bir değişim platformundan geçmeden harcamanın basit bir yolunu sunuyor.
 
@@ -42,7 +48,7 @@ Moon ile bitcoinleriniz ve çoğu tüccar sitesinde kabul edilen Visa kart ödem
 
 
 
-Moon'un [resmi platformuna] (https://paywithmoon.com) gidin, ardından **"Kaydol "** düğmesine tıklayın, insan doğrulamasını (CAPTCHA) geçin, ardından e-posta adresinizi ve şifrenizi girerek kaydolun.
+Moon'un [resmi platformuna](https://paywithmoon.com) gidin, ardından **"Kaydol "** düğmesine tıklayın, insan doğrulamasını (CAPTCHA) geçin, ardından e-posta adresinizi ve şifrenizi girerek kaydolun.
 
 
 

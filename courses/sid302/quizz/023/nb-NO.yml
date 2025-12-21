@@ -1,0 +1,8 @@
+question: Hvorfor bruker Mayfells implementering av gjeldsbrev på Liquid spesifikt Confidential Transactions i stedet for å bruke transparente blokkjedeposter?
+answer: Kommersielle krav til personvern krever at lånebeløpene kun er synlige for långiver og låntaker, samtidig som revisorens verifiseringsmuligheter opprettholdes
+wrong_answers:
+  - I Mexico er det lovpålagt at alle finansielle transaksjoner må holdes fullstendig skjult for myndighetene og skattemyndighetene
+  - Transparente poster vil skape flaskehalser i skalerbarheten som hindrer systemet i å behandle de nødvendige mer enn 25 000 gjeldsbrevene på en effektiv måte
+  - Offentliggjøring av lånebeløp vil utløse automatiske skattehendelser som gjør tokeniseringsprosessen økonomisk ulønnsom for deltakerne
+explanation: |
+  Confidential Transactions løser et kritisk forretningsproblem innen kommersiell långivning: å opprettholde konkurransedyktig personvern samtidig som man overholder regelverket. I tradisjonell finans er lånebeløp mellom bedrifter konfidensiell kommersiell informasjon som konkurrenter ikke bør ha tilgang til, samtidig som revisorer og tilsynsmyndigheter må kunne verifisere hovedbokens integritet. Liquids Confidential Transactions oppnår denne balansen ved å skjule beløpene fra offentligheten på kryptografisk vis, samtidig som autoriserte parter kan verifisere transaksjoner. De gale svarene gir en feilaktig fremstilling av teknologien - CT skjuler ikke transaksjoner for tilsynsmyndigheter (personvern vs. hemmelighold), løser ikke problemer med skalerbarhet (det er et separat teknisk problem) og skaper ikke mekanismer for skatteunndragelse (legitime personvernverktøy omgår ikke skatteforpliktelser).

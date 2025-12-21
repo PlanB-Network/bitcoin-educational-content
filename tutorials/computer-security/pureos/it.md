@@ -64,7 +64,7 @@ L'installazione e la configurazione di PureOS sul computer richiedono le seguent
 
 
 
-Accedere al [sito web ufficiale di PureOS] (https://pureos.net/) e scaricare l'immagine ISO del sistema operativo in base all'architettura della propria macchina.
+Accedere al [sito web ufficiale di PureOS](https://pureos.net/) e scaricare l'immagine ISO del sistema operativo in base all'architettura della propria macchina.
 
 
 

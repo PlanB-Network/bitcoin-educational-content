@@ -1,0 +1,8 @@
+question: Hva er de to kritiske verifiseringssjekkene en Bitcoin-node må utføre når den mottar en ny blokk før den aksepteres i blokkjeden?
+answer: Blokkens hash-kode må være lavere enn målets vanskelighetsgrad, og den beregnede Merkle-roten må samsvare med headerens Merkle-rot
+wrong_answers:
+  - Tidsstempelet for blokken må være gyldig, og alle transaksjonssignaturer må være kryptografisk verifisert
+  - Blokkstørrelsen må være under 1 MB, og den forrige blokkhashingen må referere til en kjent, gyldig blokk
+  - Blokkversjonen må samsvare med nettverkets konsensus, og de totale transaksjonsgebyrene må overstige mining-belønningen
+explanation: |
+  Bitcoins "ikke stol på, verifiser"-prinsipp krever nøyaktig to grunnleggende kontroller for aksept av blokker: proof-of-work-validering (blokkhash under vanskelighetsmålet) og verifisering av transaksjonsintegritet (Merkle-rotmatching). Selv om andre kontroller som validering av tidsstempel, signaturverifisering og størrelsesgrenser er viktige, sikrer disse to spesifikke kontrollene at blokken oppfyller vanskelighetsgradskravene og inneholder de påkrevde transaksjonene uten manipulering.

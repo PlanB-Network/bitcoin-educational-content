@@ -1,0 +1,8 @@
+question: Minkä salausominaisuuden avulla Liquid voi piilottaa transaktioiden summat ja omaisuuserätyypit julkisuudelta?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Laitteiston turvamoduulit (HSM)
+  - Dynaaminen liittovaltioprotokolla (Dynafed)
+  - Peg-out-valtuutusavaimet (PAK)
+explanation: |
+  Confidential Transactions (CT) on salausominaisuus, jonka avulla Liquid voi piilottaa omaisuuserätyypit ja transaktioiden määrät julkisesta pääkirjasta, mutta verkko voi silti tarkistaa transaktioiden oikeellisuuden. Tämä tarjoaa laitoksille välttämättömän kaupallisen yksityisyyden suojan. Laitteiston turvamoduulit ovat fyysisiä laitteita, jotka suojaavat yksityiset avaimet, Dynafed-protokolla hallinnoi federaatiomuutoksia ja PAKit valvovat peg-out-prosessia - mikään näistä ei kätke transaktiotietoja julkisuudelta.

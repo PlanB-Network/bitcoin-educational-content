@@ -1,0 +1,8 @@
+question: Hvilken matematisk operasjon brukes for å finne punktet P + Q på en elliptisk kurve?
+answer: Tegn en linje gjennom punktene P og Q, finn det tredje skjæringspunktet R, og reflekter deretter R over x-aksen
+wrong_answers:
+  - Legg sammen x- og y-koordinatene til P og Q direkte ved hjelp av modulær aritmetikk
+  - Multipliser koordinatene til P og Q sammen, og bruk kurvelikningen for å finne resultatet
+  - Beregn midtpunktet mellom P og Q, og bruk deretter tangentlinjemetoden for å få summen
+explanation: |
+  Punktaddering av elliptiske kurver følger en spesifikk geometrisk regel: Trekk en linje gjennom de to punktene P og Q, som skjærer kurven i et tredje punkt R, og speilvend deretter R over x-aksen for å få P + Q. Denne geometriske operasjonen blir algebraisk når du arbeider over endelige felt, men opprettholder det samme grunnleggende prinsippet. De andre alternativene beskriver feilaktige metoder som ikke følger den etablerte gruppeloven for elliptiske kurver.

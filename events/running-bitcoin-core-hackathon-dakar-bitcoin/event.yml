@@ -6,9 +6,7 @@ address_city_country: Dakar, Senegal
 name: Running Bitcoin Core Hackathon - Dakar Bitcoin
 type: workshop
 description: |
-  "We are powering their live learning lectures leading up to the
-  hackathon Oct 29–31.
-  It kicked off with a deep dive into Bitcoin Core!"
+  We are powering their live learning lectures leading up to the hackathon Oct 29–31. It kicked off with a deep dive into Bitcoin Core!
 language:
   - fr
 links:

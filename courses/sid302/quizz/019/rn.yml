@@ -1,0 +1,8 @@
+question: Ni igiki gitandukanya ivy’ubutunzi bitegekanijwe n’ivy’ubutunzi bitegekanijwe mu buryo bw’ivy’ubutunzi bw’imvukira bwa Liquid?
+answer: Itunga ritegekanijwe risaba umukono wa kabiri uva ku serveri y’uburenganzira imbere y’uko rishobora kwimurirwa, bikaba bishoboza kwubahiriza KYC/AML .
+wrong_answers:
+  - Itunga ritegekanijwe rikoresha amasezerano y'ubwenge mu gihe itunga ridategekanijwe rikoresha amahamagara yoroshe ya RPC yo gutanga
+  - Itunga ritegekanijwe rishigikirwa n'ibizigamirwa vya Bitcoin mu gihe itunga ridategekanijwe ririho gusa ku ruzitiro rw'inyuma .
+  - Itunga ritegekanijwe risaba kwemererwa n'abakozi kugira ngo riremwe mu gihe itunga ridategekanijwe rishobora gusohoka ata ruhusha
+explanation: |
+  Mu nyubakwa ya Liquid, ivy’ubutunzi vyose bitegekanijwe n’ibitategekanijwe birashobora gusohoka ata ruhusha hakoreshejwe amahamagara yoroshe ya RPC ata masezerano y’ubwenge. Itandukaniro rikomeye riri mu kwimuka kwavyo: imitungo itegekanijwe ikoresha urubuga rwo gucunga imitungo (AMP) rwa Blockstream kugira ngo ishire mu ngiro ivyubahiriza mu gusaba umukono w’uruhusha rw’inyongera imbere y’uko birungikwa, mu gihe imitungo idategekanijwe ishobora kwidegemvya ata n’ivyo bibujijwe.

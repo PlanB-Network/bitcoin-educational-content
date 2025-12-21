@@ -1,0 +1,8 @@
+question: Mitä pinolle tapahtuu OP_CHECKSIG:n suorittamisen jälkeen, kun allekirjoituksen tarkistus onnistuu?
+answer: Arvo 1 työnnetään pinoon
+wrong_answers:
+  - Allekirjoitus ja julkinen avain pysyvät pinossa
+  - Pino tyhjennetään ja palautetaan tyhjäksi
+  - Julkisen avaimen hash siirretään pinoon
+explanation: |
+  OP_CHECKSIG on pinon muokkaava op-koodi, joka ottaa pinosta allekirjoituksen ja julkisen avaimen, tarkistaa allekirjoituksen transaktion sighashia vastaan ja työntää pinoon joko arvon 1 (voimassa oleva) tai arvon 0 (virheellinen). Alkuperäinen allekirjoitus ja julkinen avain poistetaan tämän prosessin aikana. Pinoa ei tyhjennetä kokonaan, eikä hash-arvoja siirretä - ainoastaan tarkistuksen boolen tulos.

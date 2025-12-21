@@ -165,7 +165,7 @@ In questa sezione daremo un'occhiata agli usi principali dello strumento di scan
 
 
 
-Nmap può essere utilizzato per la diagnostica di rete e, più in generale, per il monitoraggio. Così come un ping può essere usato per determinare se due host stanno comunicando, Nmap può essere usato per determinare rapidamente se un host è attivo o se un particolare servizio è operativo. Grazie a [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), è possibile ottenere dati precisi sul tempo di risposta di un host, sul percorso effettuato dai pacchetti, sulla risposta fornita da un servizio specifico, ecc.
+Nmap può essere utilizzato per la diagnostica di rete e, più in generale, per il monitoraggio. Così come un ping può essere usato per determinare se due host stanno comunicando, Nmap può essere usato per determinare rapidamente se un host è attivo o se un particolare servizio è operativo. Grazie a [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), è possibile ottenere dati precisi sul tempo di risposta di un host, sul percorso effettuato dai pacchetti, sulla risposta fornita da un servizio specifico, ecc.
 
 
 
@@ -312,7 +312,7 @@ In questa sezione impareremo a installare lo strumento di scansione di rete Nmap
 
 
 
-Nmap è stato originariamente progettato per funzionare su sistemi operativi GNU/Linux. Di conseguenza, grazie alla sua longevità e popolarità, lo troverete in tutti i repository ufficiali delle principali distribuzioni Unix. In questo tutorial, utilizzerò un sistema operativo basato su Debian [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Ma potete usarlo esattamente nello stesso modo da una classica Debian, CentOS, Red Hat o altro!
+Nmap è stato originariamente progettato per funzionare su sistemi operativi GNU/Linux. Di conseguenza, grazie alla sua longevità e popolarità, lo troverete in tutti i repository ufficiali delle principali distribuzioni Unix. In questo tutorial, utilizzerò un sistema operativo basato su Debian [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Ma potete usarlo esattamente nello stesso modo da una classica Debian, CentOS, Red Hat o altro!
 
 
 
@@ -433,7 +433,7 @@ installazione della libreria "Npcap" durante l'installazione di Nmap in Windows
 
 
 
-Come per Linux, è possibile verificare che Nmap sia installato aprendo un Prompt dei comandi o un terminale [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") e digitando il seguente comando:
+Come per Linux, è possibile verificare che Nmap sia installato aprendo un Prompt dei comandi o un terminale [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") e digitando il seguente comando:
 
 
 
@@ -901,7 +901,7 @@ trasmissione di pacchetti uDP e ricezione ICMP (porta irraggiungibile) durante l
 
 
 
-Nella schermata precedente si può notare che Nmap invia un gran numero di pacchetti UDP e riceve in risposta un pacchetto ICMP "Destination unreachable (Port unreachable)". Questo è normale, poiché è la risposta appropriata definita da [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") quando una porta UDP non è raggiungibile:
+Nella schermata precedente si può notare che Nmap invia un gran numero di pacchetti UDP e riceve in risposta un pacchetto ICMP "Destination unreachable (Port unreachable)". Questo è normale, poiché è la risposta appropriata definita da [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") quando una porta UDP non è raggiungibile:
 
 
 
@@ -2198,7 +2198,7 @@ Sia chiaro: Nmap non è in grado di effettuare un test di penetrazione completo 
 
 
 
-Che siate un amministratore di sistema di rete, un ingegnere della sicurezza o addirittura un CISO, l'uso di Nmap vi offre una panoramica dello stato di sicurezza di un sistema informatico. Si tratta di un primo passo importante per la sicurezza di un sistema, che può essere eseguito regolarmente dal team IT. Tuttavia, non dovrebbe sostituire l'intervento e la consulenza di esperti di [cybersecurity] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), che saranno in grado di scoprire i punti deboli in modo molto più completo di Nmap.
+Che siate un amministratore di sistema di rete, un ingegnere della sicurezza o addirittura un CISO, l'uso di Nmap vi offre una panoramica dello stato di sicurezza di un sistema informatico. Si tratta di un primo passo importante per la sicurezza di un sistema, che può essere eseguito regolarmente dal team IT. Tuttavia, non dovrebbe sostituire l'intervento e la consulenza di esperti di [cybersecurity](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), che saranno in grado di scoprire i punti deboli in modo molto più completo di Nmap.
 
 
 
@@ -2973,7 +2973,7 @@ La possibilità di salvare i risultati delle scansioni Nmap in XML rende i dati 
 
 
 
-Citerò alcuni strumenti offensivi senza descriverne nel dettaglio l'uso e il funzionamento. Presumo che il lettore abbia familiarità con il loro uso di base e che siano già operativi. Questa sezione sarà di particolare interesse per i professionisti della [cybersecurity] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), per le persone in formazione o per coloro che hanno deciso di approfondire l'argomento.
+Citerò alcuni strumenti offensivi senza descriverne nel dettaglio l'uso e il funzionamento. Presumo che il lettore abbia familiarità con il loro uso di base e che siano già operativi. Questa sezione sarà di particolare interesse per i professionisti della [cybersecurity](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), per le persone in formazione o per coloro che hanno deciso di approfondire l'argomento.
 
 
 
@@ -3062,7 +3062,7 @@ elenco dei servizi importati dal file XML nel database di Metasploit
 
 
 
-Infine, possiamo riutilizzare rapidamente e facilmente questi dati in un modulo grazie all'opzione `-R`, che "convertirà" l'elenco dei servizi ottenuti come input per la direttiva `RHOSTS`, utilizzata per specificare gli obiettivi dell'attacco da effettuare. Ecco un esempio con il modulo `ssh_login`, che permette di effettuare un attacco brute force ai servizi [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Infine, possiamo riutilizzare rapidamente e facilmente questi dati in un modulo grazie all'opzione `-R`, che "convertirà" l'elenco dei servizi ottenuti come input per la direttiva `RHOSTS`, utilizzata per specificare gli obiettivi dell'attacco da effettuare. Ecco un esempio con il modulo `ssh_login`, che permette di effettuare un attacco brute force ai servizi [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 

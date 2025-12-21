@@ -28,7 +28,7 @@ https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 
 
-Buka [situs web resmi Kraken] (https://www.kraken.com/). Di halaman beranda, cari dan klik opsi "Daftar" di sudut kanan atas untuk mulai membuat akun Anda.
+Buka [situs web resmi Kraken](https://www.kraken.com/). Di halaman beranda, cari dan klik opsi "Daftar" di sudut kanan atas untuk mulai membuat akun Anda.
 
 
 

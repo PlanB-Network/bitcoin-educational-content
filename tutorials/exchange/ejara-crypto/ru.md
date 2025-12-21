@@ -1,5 +1,5 @@
 ---
-name: Криптовалюта Ejara
+name: Ejara Crypto
 description: Храните, покупайте и продавайте биткойны от 1000 франков КФА во франкоязычных странах Африки
 ---
 
@@ -33,7 +33,7 @@ description: Храните, покупайте и продавайте битк
 
 
 - [Для Android](https://play.google.com/store/apps/details?id=com.ejara.ejarav2);
-- [Для Apple] (https://apps.apple.com/fr/app/ejara-crypto/id1541127587).
+- [Для Apple](https://apps.apple.com/fr/app/ejara-crypto/id1541127587).
 
 
 

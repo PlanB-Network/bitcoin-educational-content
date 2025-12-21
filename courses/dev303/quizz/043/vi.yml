@@ -1,0 +1,8 @@
+question: Từ khóa nào được sử dụng để buộc một closure phải nắm quyền sở hữu các biến đã được bắt giữ thay vì chỉ mượn chúng?
+answer: di chuyển
+wrong_answers:
+  - sở hữu
+  - chiếm lấy
+  - lấy
+explanation: |
+  Từ khóa `move` được sử dụng trước các tham số của closure để buộc closure phải nắm quyền sở hữu tất cả các biến được nắm bắt từ môi trường của nó. Điều này rất cần thiết khi closure có thể tồn tại lâu hơn phạm vi mà các biến được định nghĩa ban đầu, chẳng hạn như khi tạo luồng. Nếu không có `move`, closure thường nắm bắt bằng phương pháp ít hạn chế nhất (tham chiếu bất biến, sau đó là tham chiếu có thể thay đổi, sau đó là quyền sở hữu), nhưng `move` ghi đè lên hành vi tự động này để đảm bảo việc chuyển giao quyền sở hữu. Các tùy chọn khác (`own`, `capture`, `take`) không phải là từ khóa Rust hợp lệ cho mục đích này.

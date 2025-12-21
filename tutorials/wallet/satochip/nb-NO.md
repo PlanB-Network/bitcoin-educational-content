@@ -48,7 +48,7 @@ Du finner Satochip inni.
 
 ![SATOCHIP](assets/notext/04.webp)
 
-For å administrere lommeboken foreslår jeg i denne veiledningen at du bruker Sparrow. Hvis du ennå ikke har programvaren, [besøk den offisielle nettsiden for å laste den ned] (https://sparrowwallet.com/download/). Du kan også sjekke ut vår veiledning om Sparrow Wallet (kommer snart).
+For å administrere lommeboken foreslår jeg i denne veiledningen at du bruker Sparrow. Hvis du ennå ikke har programvaren, [besøk den offisielle nettsiden for å laste den ned](https://sparrowwallet.com/download/). Du kan også sjekke ut vår veiledning om Sparrow Wallet (kommer snart).
 
 ![SATOCHIP](assets/notext/05.webp)
 

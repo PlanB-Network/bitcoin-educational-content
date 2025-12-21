@@ -1,0 +1,8 @@
+question: Quel est le principal avantage de l'utilisation du format SEC compressé par rapport au format SEC non compressé pour les clés publiques Bitcoin ?
+answer: Il réduit la taille du stockage de 65 octets à 33 octets tout en conservant la même sécurité cryptographique
+wrong_answers:
+  - Il fournit une sécurité cryptographique plus forte en utilisant des couches de cryptage supplémentaires
+  - Il permet d'accélérer les opérations de multiplication des points lors des processus de vérification des signatures
+  - Il permet de dériver plusieurs clés publiques à partir d'un seul format compressé
+explanation: |
+  Le format SEC compressé réduit la taille de la clé publique de 65 octets (non compressée) à 33 octets en ne stockant que la coordonnée x et un bit de parité (préfixe 0x02 ou 0x03) au lieu des deux coordonnées complètes. La coordonnée y peut être reconstruite mathématiquement à partir de la coordonnée x et de l'information de parité puisque les courbes elliptiques ont au plus deux valeurs y pour tout x donné. Cette compression permet des économies de stockage significatives sans perte de sécurité, c'est pourquoi le Bitcoin préfère désormais les clés compressées pour des raisons d'efficacité.

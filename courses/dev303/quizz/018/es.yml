@@ -1,0 +1,8 @@
+question: ¿Qué mecanismo utiliza Rust para limpiar automáticamente las variables y sus recursos cuando salen de ámbito?
+answer: El mecanismo de caída que llama a funciones de caída sobre variables
+wrong_answers:
+  - Un recolector de basura que busca periódicamente la memoria no utilizada
+  - Liberación manual de memoria mediante llamadas explícitas a la función free()
+  - Recuento de referencias que registra cuántos punteros hacen referencia a cada valor
+explanation: |
+  Rust utiliza el mecanismo drop para limpiar automáticamente los recursos cuando las variables salen del ámbito. Este sistema llama implícitamente a una función drop en cada variable cuando sale del ámbito, marcando la memoria como disponible para su reutilización y realizando las operaciones de limpieza necesarias, como el cierre de los manejadores de archivo. Este enfoque, tomado del patrón RAII de C++, garantiza la gestión automática de los recursos sin necesidad de recolección de basura, gestión manual de la memoria o sistemas de recuento de referencias utilizados por otros lenguajes.

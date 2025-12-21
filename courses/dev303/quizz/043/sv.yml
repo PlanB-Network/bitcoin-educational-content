@@ -1,0 +1,8 @@
+question: Vilket nyckelord används för att tvinga en avslutning att ta över ägandet av fångade variabler istället för att låna dem?
+answer: flytta
+wrong_answers:
+  - egen
+  - fånga
+  - ta
+explanation: |
+  Nyckelordet `move` används före closure-parametrar för att tvinga closure att ta över alla variabler som fångats upp från dess miljö. Detta är viktigt när nedstängningen kan överleva det scope där variablerna ursprungligen definierades, till exempel när trådar skapas. Utan `move` fångar stängningar vanligtvis upp med den minst restriktiva metoden (oföränderlig referens, sedan föränderlig referens, sedan ägande), men `move` åsidosätter detta automatiska beteende för att säkerställa överföring av ägande. De andra alternativen (`own`, `capture`, `take`) är inte giltiga Rust-nyckelord för detta ändamål.

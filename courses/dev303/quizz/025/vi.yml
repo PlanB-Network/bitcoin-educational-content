@@ -1,0 +1,8 @@
+question: Từ khóa nào được sử dụng để định nghĩa các khối triển khai chứa các phương thức và các hàm liên kết cho các cấu trúc trong Rust?
+answer: triển khai
+wrong_answers:
+  - phương pháp
+  - cấu trúc
+  - fn
+explanation: |
+  Từ khóa `impl` được sử dụng đặc biệt để tạo các khối triển khai, nơi bạn định nghĩa các phương thức và các hàm liên kết cho các cấu trúc. Trong khi `struct` định nghĩa chính cấu trúc, `fn` định nghĩa các hàm riêng lẻ, và `method` hoàn toàn không phải là từ khóa Rust, chỉ có `impl` mới tạo ra khối chứa hành vi liên kết với một kiểu dữ liệu. Các khối triển khai sử dụng `impl` cho phép bạn thêm chức năng vào các cấu trúc của mình, làm cho chúng không chỉ đơn thuần là các thùng chứa dữ liệu.

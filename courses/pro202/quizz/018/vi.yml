@@ -1,0 +1,8 @@
+question: Trong định dạng mã hóa DER dành cho chữ ký ECDSA, kích thước dữ liệu chữ ký thô thường tăng lên bao nhiêu so với chữ ký được mã hóa cuối cùng?
+answer: Từ 64 byte lên khoảng 71-72 byte do chi phí định dạng DER.
+wrong_answers:
+  - Từ 32 byte đến khoảng 64 byte do mã hóa thành phần R và S.
+  - Từ 64 byte lên chính xác 128 byte do mã hóa kép các thành phần chữ ký.
+  - Từ 71 byte xuống còn khoảng 64 byte do nén các dấu hiệu trình tự.
+explanation: |
+  Mã hóa DER làm tăng thêm chi phí cấu trúc cho chữ ký ECDSA thông qua các dấu hiệu chuỗi (0x30), byte độ dài và tiền tố thành phần (0x02). Chữ ký ECDSA thô bao gồm hai giá trị 32 byte (R và S) với tổng cộng 64 byte, nhưng định dạng DER mở rộng điều này lên khoảng 71-72 byte. Sự thiếu hiệu quả này là một trong những lý do khiến Bitcoin sau này áp dụng chữ ký Schnorr trong Taproot, sử dụng chữ ký cố định 64 byte mà không có chi phí mã hóa bổ sung.

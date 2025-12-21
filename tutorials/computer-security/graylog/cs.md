@@ -681,7 +681,7 @@ V programu Graylog klikněte v nabídce na "**Systém**" a poté na "**Indices**
 
 
 
-Před potvrzením tento index pojmenujte, například "**Linux Index**", přidejte popis a předponu. Zde budeme **ukládat všechny protokoly systému Linux do tohoto indexu**. Je také možné vytvořit specifické indexy pro ukládání pouze určitých protokolů (pouze protokoly [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), protokoly webových služeb atd.)
+Před potvrzením tento index pojmenujte, například "**Linux Index**", přidejte popis a předponu. Zde budeme **ukládat všechny protokoly systému Linux do tohoto indexu**. Je také možné vytvořit specifické indexy pro ukládání pouze určitých protokolů (pouze protokoly [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), protokoly webových služeb atd.)
 
 
 

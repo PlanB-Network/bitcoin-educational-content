@@ -1,0 +1,8 @@
+question: UniFFI'nin bağlayıcıları doğrudan Rust kodundan otomatik olarak oluşturmak yerine geliştiricilerin ayrı bir UDL dosyası oluşturmasını gerektirmesinin temel nedeni nedir?
+answer: UDL, Rust kütüphanesinin hangi bölümlerinin diğer dillere açık olması gerektiğini belirten açık bir arayüz sözleşmesi olarak hizmet eder
+wrong_answers:
+  - "UDL gereklidir çünkü Rust'nin tip sistemi çeviri olmadan diğer programlama dilleriyle uyumsuzdur"
+  - UDL dosyaları, çalışma zamanı yürütmesi sırasında diller arası işlev çağrılarının performansını optimize etmek için gereklidir
+  - "UDL, Rust'ün sahiplik modelini hedef diller için otomatik olarak çöp toplamaya dönüştürmek için bir yol sağlar"
+explanation: |
+  UniFFI, UDL'yi uygulama ve arayüz arasındaki endişelerin ayrılmasını sağlamak için kasıtlı bir tasarım seçimi olarak kullanır. UDL dosyası, geliştiricilerin dahili uygulama ayrıntılarını gizli tutarken Rust kütüphanelerinin bazı bölümlerini seçici olarak açığa çıkarmalarına olanak tanıyan açık bir sözleşme görevi görür. Bu yaklaşım, tüm genel Rust öğelerinin otomatik olarak açığa çıkmasını önler ve geliştiricilere API yüzeyleri üzerinde ince taneli kontrol sağlar. Diğer seçenekler yanlıştır çünkü Rust türleri UDL olmadan eşlenebilir (daha az zarif olsa da), performans optimizasyonu UDL'nin birincil amacı değildir ve UDL sahiplik modellerini dönüştürmez.

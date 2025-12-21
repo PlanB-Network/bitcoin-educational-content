@@ -147,7 +147,7 @@ Tämä Interface kertoo tämän solmun Address-yhteyden: se on muotoa `pubkey@ip
 
 - Saapuva suhdeluku**: Määrä, jonka solmu veloittaa sinua jokaisesta vastaanottamastaan miljoonasta Satoshi:sta valitusta kanavasta riippuen.
 - Suhdeluku (miljoonasosaa)** : joka kuvaa Satoshi:n määrää miljoonaa yksikköä kohti, jonka solmu veloittaa sinulta, kun päätät suorittaa maksun jonkin sen kanavan kautta. Oletetaan, että päätät maksaa `10_000 Sats`:n suuruisen maksun kanavan kautta, jonka ppm-suhde on `500 Sats`, sinun on maksettava solmulle `10_000 * 500 / 1_000_000` satosheja, mikä vastaa `5 Sats`.
-- [HTLC] (https://planb.academy/resources/glossary/htlc) enimmäismäärä** : Enimmäismäärä, jonka tämä solmu sallii sinun kulkea jonkin kanavan kautta.
+- [HTLC](https://planb.academy/resources/glossary/htlc) enimmäismäärä** : Enimmäismäärä, jonka tämä solmu sallii sinun kulkea jonkin kanavan kautta.
 
 
 

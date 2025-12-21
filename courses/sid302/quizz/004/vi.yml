@@ -1,0 +1,8 @@
+question: Tính năng mã hóa nào cho phép Liquid che giấu số tiền giao dịch và loại tài sản khỏi tầm nhìn công chúng?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Mô-đun bảo mật phần cứng (HSM)
+  - Giao thức Liên minh động (Dynafed)
+  - Khóa ủy quyền chốt ngoài (PAK)
+explanation: |
+  Confidential Transactions (CT) là tính năng mã hóa cho phép Liquid che giấu loại tài sản và số tiền giao dịch khỏi sổ cái công khai trong khi vẫn cho phép mạng lưới xác minh tính hợp lệ của giao dịch. Điều này cung cấp tính bảo mật thương mại thiết yếu cho các tổ chức. Mô-đun bảo mật phần cứng là các thiết bị vật lý bảo mật khóa riêng, giao thức Dynafed quản lý các thay đổi liên kết và PAK kiểm soát quá trình phân bổ - không có cái nào trong số này che giấu chi tiết giao dịch khỏi tầm nhìn công khai.

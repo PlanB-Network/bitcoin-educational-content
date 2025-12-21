@@ -47,7 +47,7 @@ Celem tego szkolenia jest przekazanie ci kluczy do opanowania narzędzi, z któr
 
 Zanim zagłębimy się w szczegóły budowy i działania portfeli Bitcoin, zaczniemy od kilku rozdziałów na temat prymitywów kryptograficznych, które warto znać.
 
-Zaczniemy od kryptograficznych funkcji Hash, fundamentalnych zarówno dla portfeli, jak i samego protokołu Bitcoin. Odkryjesz ich główne cechy, konkretne funkcje używane w Bitcoin, a w bardziej technicznym rozdziale poznasz szczegółowo działanie królowej funkcji Hash: SHA256.
+Zaczniemy od kryptograficznych funkcji Hash, fundamentalnych zarówno dla portfeli, jak i samego protokołu Bitcoin. Odkryjesz ich główne cechy, konkretne funkcje używane w Bitcoin, a w bardziej technicznym rozdziale poznasz szczegółowo działanie królowej funkcji Hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ Kiedy już dobrze zrozumiemy te Elements kryptografii, przejdziemy wreszcie do s
 ![CYP201](assets/en/003.webp)
 
 
-Szkolenie będzie kontynuowane wraz z badaniem BIP39 passphrase, seed (nie mylić z frazą Mnemonic), głównego kodu łańcucha i klucza głównego. Zobaczymy szczegółowo, czym są te Elements, jakie są ich role i jak są obliczane.
+Szkolenie będzie kontynuowane wraz z badaniem [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed (nie mylić z frazą Mnemonic), głównego kodu łańcucha i klucza głównego. Zobaczymy szczegółowo, czym są te Elements, jakie są ich role i jak są obliczane.
 
 
 ![CYP201](assets/en/004.webp)
@@ -949,7 +949,7 @@ Użytkownik, który chce dokonać transakcji Bitcoin, musi zatem utworzyć podpi
 W rezultacie użytkownik posiadający bitcoiny zablokowane kluczem publicznym musi znaleźć sposób na bezpieczne przechowywanie tego, co umożliwia odblokowanie jego środków: klucza prywatnego. Bitcoin Wallet to właśnie urządzenie, które pozwoli ci łatwo przechowywać wszystkie klucze bez dostępu do nich innych osób. Przypomina więc bardziej brelok do kluczy niż Wallet.
 
 
-Matematyczne powiązanie między kluczem publicznym a kluczem prywatnym, a także możliwość wykonania podpisu w celu udowodnienia posiadania klucza prywatnego bez jego ujawniania, są możliwe dzięki algorytmowi podpisu cyfrowego. W protokole Bitcoin stosowane są dwa algorytmy podpisu: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) oraz **Schnorr signature scheme**. ECDSA jest protokołem podpisu cyfrowego używanym w Bitcoin od jego początków. Schnorr jest nowszy w Bitcoin, ponieważ został wprowadzony w listopadzie 2021 r. wraz z aktualizacją Taproot.
+Matematyczne powiązanie między kluczem publicznym a kluczem prywatnym, a także możliwość wykonania podpisu w celu udowodnienia posiadania klucza prywatnego bez jego ujawniania, są możliwe dzięki algorytmowi podpisu cyfrowego. W protokole Bitcoin stosowane są dwa algorytmy podpisu: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) oraz **Schnorr signature scheme**. ECDSA jest protokołem podpisu cyfrowego używanym w Bitcoin od jego początków. Schnorr jest nowszy w Bitcoin, ponieważ został wprowadzony w listopadzie 2021 r. wraz z aktualizacją Taproot.
 
 Te dwa algorytmy są dość podobne w swoich mechanizmach. Oba opierają się na kryptografii krzywej eliptycznej. Główna różnica między tymi dwoma protokołami polega na strukturze podpisu i pewnych specyficznych właściwościach matematycznych. Przeanalizujemy zatem działanie tych algorytmów, zaczynając od najstarszego: ECDSA.
 
@@ -1855,7 +1855,7 @@ Na przykład, dla 256-bitowej entropii, wynik $\text{ENT} \Vert \text{CS}$ wynos
 ### Konwersja sekwencji binarnej na frazę Mnemonic
 
 
-Sekwencja bitów $\text{ENT} \Vert \text{CS}$ jest następnie dzielony na segmenty po 11 bitów. Każdy 11-bitowy segment, po przekonwertowaniu na liczbę dziesiętną, odpowiada liczbie od 0 do 2047, która wyznacza pozycję słowa [na liście 2048 słów znormalizowanej przez BIP39] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Sekwencja bitów $\text{ENT} \Vert \text{CS}$ jest następnie dzielony na segmenty po 11 bitów. Każdy 11-bitowy segment, po przekonwertowaniu na liczbę dziesiętną, odpowiada liczbie od 0 do 2047, która wyznacza pozycję słowa [na liście 2048 słów znormalizowanej przez BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)

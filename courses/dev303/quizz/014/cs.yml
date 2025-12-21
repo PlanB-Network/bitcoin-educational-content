@@ -1,0 +1,8 @@
+question: Jaký je hlavní rozdíl mezi řetězcem a řetězcovým literálem (&str) v Rust?
+answer: String spravuje dynamicky alokovanou paměť haldy a lze jej modifikovat, zatímco &str je zobrazení neměnných řetězcových dat
+wrong_answers:
+  - Řetězec je uložen na zásobníku, zatímco &str je uložen na haldě pro lepší výkon
+  - String může obsahovat pouze znaky ASCII, zatímco &str může obsahovat libovolné znaky Unicode
+  - String automaticky implementuje výpůjčku, zatímco &str vyžaduje explicitní přenos vlastnictví
+explanation: |
+  String a &str představují různé přístupy k práci s řetězci v Rust. String je typ řetězce alokovaný na hromadě, který lze zvětšovat, vlastní svá data a lze jej za běhu modifikovat. Naproti tomu &str (string slice) je neměnný odkaz na řetězcová data, který často ukazuje na řetězcové literály vložené do binárního souboru programu nebo na řezy existujících dat String. Toto rozlišení umožňuje optimalizovat v Rust jak flexibilitu (String pro dynamický obsah), tak efektivitu (&str pro přístup pouze pro čtení bez alokace).

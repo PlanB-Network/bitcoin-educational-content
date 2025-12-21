@@ -1,0 +1,8 @@
+question: Mitä tapahtuu, kun palveluntarjoaja maksaa Lightning-laskun Liquid:sta Lightningiin tapahtuvan vaihdon suorittamiseksi HTLC:tä käyttäen?
+answer: Palveluntarjoaja saa Lightning-maksusta ennakkokuvan, jonka avulla se voi sitten avata lukituksen ja lunastaa L-BTC:n HTLC:ltä
+wrong_answers:
+  - Palveluntarjoajan on odotettava aikalukon päättymistä ennen kuin se voi käyttää HTLC-sopimukseen lukittua L-BTC:tä
+  - "Asiakas vastaanottaa automaattisesti ennakkokuvan ja vapauttaa sen avulla L-BTC:n suoraan palveluntarjoajan Liquid wallet:ään"
+  - HTLC-sopimus toteutetaan automaattisesti ja siirtää L-BTC:n palveluntarjoajalle ilman ylimääräistä kryptografista todistusta
+explanation: |
+  HTLC:t luovat atomisia vaihtoja kryptografisen sitomisen avulla käyttäen samaa hash-lukkoa molemmissa verkoissa. Kun palveluntarjoaja maksaa Lightning-laskun onnistuneesti, se saa esikuvauksen (salaisuuden), joka vastaa hash-lukkoa. Tämä preimage on kryptografinen avain, jonka avulla he voivat avata HTLC:een aiemmin lukitun L-BTC:n lukituksen. Muut vaihtoehdot ovat virheellisiä, koska ne eivät kuvasta HTLC:iden atomista luonnetta - aikalukko on vain varamekanismi, asiakkaat eivät käsittele preimagen jakelua, ja HTLC:t edellyttävät aktiivista kryptografista todentamista automaattisen suorittamisen sijaan.

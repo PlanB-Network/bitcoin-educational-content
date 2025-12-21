@@ -17,7 +17,7 @@ Bitfinex ondersteunt actief de ontwikkeling van Bitcoin, investeert in technolog
 ## 1 - Een Bitfinex account aanmaken
 
 
-Ga naar [de officiële website van Bitfinex] (https://www.bitfinex.com/). Zoek en klik op de startpagina op de optie "*Aanmelden*" om te beginnen met het aanmaken van uw account.
+Ga naar [de officiële website van Bitfinex](https://www.bitfinex.com/). Zoek en klik op de startpagina op de optie "*Aanmelden*" om te beginnen met het aanmaken van uw account.
 
 
 ![BITFINEX](assets/fr/01.webp)

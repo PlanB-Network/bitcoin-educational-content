@@ -217,7 +217,7 @@ Poniżej znajdują się wymagane pola:
 
 
 
-- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tagi**: 2 lub 3 odpowiednie słowa kluczowe związane z treścią samouczka, wybrane wyłącznie [z listy tagów Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -388,4 +388,4 @@ print("Hello, Bitcoin!")
         - Biały: `#FFFFFF`
 
 
-Jeśli masz trudności techniczne z przesłaniem swojego samouczka, nie wahaj się poprosić o pomoc na [naszej dedykowanej grupie Telegram dla kontrybucji] (https://t.me/PlanBNetwork_ContentBuilder). Dziękujemy bardzo!
+Jeśli masz trudności techniczne z przesłaniem swojego samouczka, nie wahaj się poprosić o pomoc na [naszej dedykowanej grupie Telegram dla kontrybucji](https://t.me/PlanBNetwork_ContentBuilder). Dziękujemy bardzo!

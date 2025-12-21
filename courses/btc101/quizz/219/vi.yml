@@ -1,9 +1,9 @@
-question: Lightning Network tạo ra loại mạng lưới nào?
-answer: Một mạng lưới của các kênh thanh toán.
+question: Cách tiếp cận nào cấu trúc sự tiến hóa của Bitcoin được mô tả trong chương này?
+answer: Tiến hóa theo lớp
 wrong_answers:
-  - Một mạng lưới của các nút đào.
-  - Một mạng lưới của các nút blockchain.
-  - Một mạng lưới của các sàn giao dịch tiền mã hóa.
-explanation: >-
-  Lightning Network hoạt động như một mạng lưới của các kênh thanh toán, cho phép thực hiện các giao dịch tức thì với phí thấp cho người gửi.
-reviewed: true
+  - Blockchain đơn khối
+  - Sharding gốc
+  - Thực thi onchain tổng quát
+explanation: |
+  Bitcoin giữ một lớp cơ sở đơn giản và vững chắc, trong khi các giao thức cấp cao hơn bổ sung các chức năng cụ thể.
+reviewed: false

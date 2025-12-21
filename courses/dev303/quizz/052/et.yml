@@ -1,0 +1,8 @@
+question: Mis on peamine erinevus selles, kuidas laenamise rikkumisi käsitletakse tavaliste Rust viidete ja RefCelli puhul?
+answer: Tavalised viited põhjustavad kompileerimisvigu, samas kui RefCell põhjustab paanikaid tööajal
+wrong_answers:
+  - Tavalised viited põhjustavad paanikaid tööajal, samas kui RefCell põhjustab kompileerimisvigu
+  - Tavalised viited lubavad mitut muutuvat laenutust, samas kui RefCell nõuab ühekordset muutuvat ligipääsu
+  - Tavalised viited nõuavad selgesõnalisi eluea märkusi, samas kui RefCell kasutab automaatset puhastamist
+explanation: |
+  RefCell liigutab Rust laenutusreeglite jõustamise kompileerimisaja pealt tööaja peale. Kui kompilaator analüüsib staatiliselt regulaarseid viiteid ja takistab laenamise rikkumisi enne programmi käivitamist, siis RefCell teostab neid samu turvakontrolle programmi täitmise ajal. See võimaldab RefCellil mööda minna kompilaatori konservatiivsetest piirangutest juhtudel, kus programmeerija teab, et kood on turvaline, kuid rikkumised põhjustavad kompileerimisvigade asemel tööaja paanikat.

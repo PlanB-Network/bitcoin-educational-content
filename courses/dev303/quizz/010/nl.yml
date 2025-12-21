@@ -1,0 +1,8 @@
+question: Wat gebeurt er met een variabele wanneer het eigendom wordt verplaatst naar een andere variabele in Rust?
+answer: De oorspronkelijke variabele wordt ongeldig en kan niet meer worden gebruikt
+wrong_answers:
+  - De oorspronkelijke variabele wordt een alleen-lezen verwijzing naar de gegevens
+  - Beide variabelen delen eigendom en kunnen de gegevens onafhankelijk wijzigen
+  - De oorspronkelijke variabele wordt automatisch geconverteerd naar een muteerbare referentie
+explanation: |
+  Wanneer het eigendom wordt verplaatst in Rust, wordt de oorspronkelijke variabele volledig ongeldig en is deze niet meer toegankelijk. Dit is een fundamentele veiligheidsfunctie die voorkomt dat meerdere variabelen hetzelfde heapgeheugen beheren, wat zou kunnen leiden tot use-after-free bugs of double-free fouten. De move operatie draagt de volledige controle over naar de nieuwe variabele en de compiler zal een fout produceren als je de originele variabele probeert te gebruiken na de move. Dit verschilt van kopiëren (waarbij beide variabelen geldig blijven) en lenen (waarbij de oorspronkelijke eigenaar eigenaar blijft).

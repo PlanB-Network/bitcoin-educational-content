@@ -1,0 +1,8 @@
+question: Milline on peamine erinevus selle vahel, kuidas Rust tavaliselt laenutamisreegleid rakendab ja kuidas RefCell neid rakendab?
+answer: Rust rakendab laenutusreegleid tavaliselt kompileerimise ajal, RefCell aga täitmise ajal
+wrong_answers:
+  - Rust lubab tavaliselt mitut muutuvat viidet, samas kui RefCell piirdub ühega
+  - Rust kasutab tavaliselt turvalisuse tagamiseks võrdlusarvestust, samas kui RefCell kasutab staatilist analüüsi
+  - Rust nõuab tavaliselt selgesõnalist mäluhaldust, samal ajal kui RefCell tegeleb sellega automaatselt
+explanation: |
+  RefCelli peamine uuendus on laenutusreeglite jõustamise üleviimine kompileerimisaja asemel tööajaks. Tavalisi Rust viiteid kontrollib kompilaator turvalisuse tagamiseks kompileerimise ajal, kuid RefCell teostab samu kontrolle ka programmi käivitamise ajal. See võimaldab RefCellil pakkuda sisemist muutuvust olukordades, kus kompilaatori staatiline analüüs on liiga konservatiivne, kuid sellega kaasneb kompromiss, et laenutusreeglite rikkumise korral võib tekkida jooksuaegne paanika. Teised valikud kirjeldavad Rust põhilisi turvamehhanisme või RefCelli tegelikku käitumist ebaõigesti.

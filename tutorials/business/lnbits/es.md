@@ -43,7 +43,7 @@ LNbits para desarrolladores: [EN](/assets/lnbits-builders-es.pdf) | [DE](/assets
 
 # Algunos aspectos básicos
 
-LNbits funciona basándose en el protocolo LNURL, lo que significa que las solicitudes son válidas de dos formas: como enlace https:// clearnet (no se permiten certificados autofirmados) o como enlace http:// v2/v3 onion. Para ofrecer servicios LNbits como los códigos QR LNURLp/w o las tarjetas NFC, que se pueden utilizar in the wild, tendrás que abrir LNbits a clearnet (https).
+LNbits funciona basándose en el protocolo LNURL, lo que significa que las solicitudes son válidas de dos formas: como enlace https://clearnet (no se permiten certificados autofirmados) o como enlace http://v2/v3 onion. Para ofrecer servicios LNbits como los códigos QR LNURLp/w o las tarjetas NFC, que se pueden utilizar in the wild, tendrás que abrir LNbits a clearnet (https).
 
 Antes de instalar LNbits asegúrese de haber leído y comprendido las siguientes guías generales sobre qué es LNbits y qué posibilidades le ofrece.
 
@@ -450,7 +450,7 @@ Si eres nuevo en el mundo del desarrollo, empieza con estas [presentaciones Make
 ### IMPORTANTE:
 
 
-- LNbits funciona basado en el protocolo LNURL cuyas peticiones son válidas de dos formas: como enlace https:// clearnet (no se permiten certificados autofirmados) o como enlace http:// v2/v3 onion. Para ofrecer servicios LNbits como los códigos QR LNURLp/w o las tarjetas NFC, que se pueden utilizar in the wild, tendrás que abrir LNbits a clearnet (https).
+- LNbits funciona basado en el protocolo LNURL cuyas peticiones son válidas de dos formas: como enlace https://clearnet (no se permiten certificados autofirmados) o como enlace http://v2/v3 onion. Para ofrecer servicios LNbits como los códigos QR LNURLp/w o las tarjetas NFC, que se pueden utilizar in the wild, tendrás que abrir LNbits a clearnet (https).
 - Utiliza sólo cables de DATOS para alimentar tu esp32. No todos los cables soportan datos además de alimentar el esp. No serías el primero si el cable que viene con el esp es de sólo alimentación
 - Asegúrate de no usar un USB-Hub con otros dispositivos conectados. Esto puede provocar efectos extraños difíciles de depurar (por ejemplo, que no se inicie o se detenga).
 - Para realizar proyectos esp con un MacOS necesitarás un UART Bridge Driver. Si tienes problemas con el driver en sistemas Mac o Linux, puedes encontrarlos aquí o, si se trata de un TTGO Display este. Si está en Windows y tienes problemas para conectarse asegúrate de descargar la versión ANTIGUA 11.1.0 porque la nueva no funciona. También puedes encontrar un terminal serie aquí para comprobar tu conexión - configurado a 115200 baudios.

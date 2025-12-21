@@ -1,0 +1,8 @@
+question: Dalam Taproot yang mendukung HTLC, apa yang terjadi jika kedua belah pihak secara kooperatif setuju untuk menyelesaikan pertukaran lintas-lapisan?
+answer: Mereka menandatangani bersama menggunakan kunci publik agregat mereka melalui MuSig2, menciptakan transaksi yang tidak dapat dibedakan dari pembayaran tanda tangan tunggal standar
+wrong_answers:
+  - Mereka harus mengungkapkan skrip lengkap yang berisi hash dan kunci waktu on-chain untuk verifikasi jaringan
+  - Mereka hanya mempublikasikan cabang pohon Merkle tertentu yang dibutuhkan sambil menjaga kunci agregat tetap tersembunyi dari pengamat
+  - Mereka menyiarkan transaksi terpisah pada setiap lapisan secara bersamaan untuk memastikan penyelesaian atomik tanpa agregasi kunci
+explanation: |
+  "Jalur kunci" kooperatif dalam Taproot memungkinkan para pihak untuk menggabungkan kunci mereka ke dalam satu kunci publik gabungan menggunakan MuSig2. Ketika keduanya setuju, mereka cukup menandatangani bersama transaksi, yang tampak identik dengan pembayaran standar apa pun di blockchain. Hal ini memberikan privasi dan efisiensi maksimum karena tidak ada logika skrip yang terungkap, dan hanya menghabiskan ruang blok yang minimal. Opsi lainnya tidak menggambarkan perilaku HTLC yang lama atau skenario jalur skrip yang berlawanan.

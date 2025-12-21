@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Neben der mobilen Anwendung bietet Speed Wallet auch eine [Chrome-Web-Erweiterung] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), die Sie dem Google Chrome-Browser Ihres Computers für sichere Transaktionen hinzufügen können.
+Neben der mobilen Anwendung bietet Speed Wallet auch eine [Chrome-Web-Erweiterung](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), die Sie dem Google Chrome-Browser Ihres Computers für sichere Transaktionen hinzufügen können.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet legt besonderen Wert auf die Integration und Verwendung von Bitcoin
 
 
 
-Mit [Speed Business] (https://www.tryspeed.com/) steht Ihnen ein einheitlicher Zahlungsaggregator zur Verfügung, mit dem Sie Bitcoin akzeptieren können, der von Lightning Network unterstützt wird und den Sie in Ihrem Geschäft, online oder physisch, verwenden können.
+Mit [Speed Business](https://www.tryspeed.com/) steht Ihnen ein einheitlicher Zahlungsaggregator zur Verfügung, mit dem Sie Bitcoin akzeptieren können, der von Lightning Network unterstützt wird und den Sie in Ihrem Geschäft, online oder physisch, verwenden können.
 
 
 

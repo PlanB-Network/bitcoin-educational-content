@@ -27,7 +27,7 @@ F-Droid er dessverre ikke et program som er tilgjengelig på iOS, og inneholder 
 
 
 
-Du kan laste ned F-droid fra [det offisielle nettstedet] (https://f-droid.org/) i APK-format og installere det manuelt på Android-telefonen din.
+Du kan laste ned F-droid fra [det offisielle nettstedet](https://f-droid.org/) i APK-format og installere det manuelt på Android-telefonen din.
 
 
 
@@ -163,7 +163,7 @@ F-Droid er et Open Source-prosjekt som oppfordrer til å bidra til applikasjoner
 Applikasjonen din må være åpen kildekode, med kildekoden offentlig tilgjengelig på for eksempel GitHub eller GitLab.
 
 
-Du må deretter utarbeide en YAML-fil (metadataene) som beskriver applikasjonen din, inkludert all informasjon og alle tillatelser som kreves for å bruke den, i henhold til [metadatamalen] (https://f-droid.org/docs/Build_Metadata_Reference/) som er foreslått av F-Droid.
+Du må deretter utarbeide en YAML-fil (metadataene) som beskriver applikasjonen din, inkludert all informasjon og alle tillatelser som kreves for å bruke den, i henhold til [metadatamalen](https://f-droid.org/docs/Build_Metadata_Reference/) som er foreslått av F-Droid.
 
 
 

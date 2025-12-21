@@ -175,9 +175,9 @@ Officiella installationslänkar :
 
 
 
-- [Installation på Raspberry Pi 5] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- [Installation på Raspberry Pi 5](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - [Installation på x86-system (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-x86-Systems)
-- [Installation av virtuell maskin] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
+- [Installation av virtuell maskin](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
 
 
 
@@ -222,7 +222,7 @@ För denna installation behöver du :
 
 
 
-- Besök den [officiella webbplatsen] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- Besök den [officiella webbplatsen](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Ladda ner den senaste versionen av UmbrelOS för Raspberry Pi 5
 
 
@@ -730,7 +730,7 @@ Din Umbrel är nu redo att användas. Du deltar aktivt i Bitcoin-nätverket samt
 
 - [Umbrels officiella webbplats](https://umbrel.com)
 - [Umbrel-dokumentation](https://github.com/getumbrel/umbrel/wiki)
-- [App Store Umbrel] (https://apps.umbrel.com)
+- [App Store Umbrel](https://apps.umbrel.com)
 
 
 
@@ -739,10 +739,10 @@ Din Umbrel är nu redo att användas. Du deltar aktivt i Bitcoin-nätverket samt
 
 
 
-- [Bitcoin Core] (https://Bitcoin.org/fr/)
-- [Electrs] (https://github.com/romanz/electrs)
-- [Mempool] (https://Mempool.space)
-- [Sparrow wallet] (https://sparrowwallet.com)
+- [Bitcoin Core](https://Bitcoin.org/fr/)
+- [Electrs](https://github.com/romanz/electrs)
+- [Mempool](https://Mempool.space)
+- [Sparrow wallet](https://sparrowwallet.com)
 
 
 

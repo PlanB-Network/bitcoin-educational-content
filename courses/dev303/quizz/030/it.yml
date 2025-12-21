@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale dell'operatore punto interrogativo (?) di Rust quando viene usato con i tipi di risultato?
+answer: Per scartare automaticamente i valori di successo e restituire immediatamente gli errori dalla funzione corrente
+wrong_answers:
+  - Per convertire tutti i tipi di Risultato in tipi di Opzione per facilitare la gestione di null
+  - Per creare automaticamente il panico con un messaggio personalizzato quando si verifica un qualsiasi errore
+  - Per avvolgere i valori di successo in un ulteriore strato di Result per una maggiore sicurezza
+explanation: |
+  L'operatore punto interrogativo (?) è stato progettato specificamente per la propagazione degli errori in Rust. Quando viene applicato a un risultato, estrae il valore di successo se l'operazione è riuscita, consentendo al codice di continuare con quel valore. Tuttavia, se si è verificato un errore, l'operatore ? restituisce immediatamente l'errore dalla funzione corrente, propagandolo di fatto nello stack delle chiamate. Questo elimina la necessità di espressioni di corrispondenza verbose, pur mantenendo una semantica di gestione degli errori esplicita. L'operatore può essere utilizzato solo nelle funzioni che restituiscono tipi di risultato, garantendo un corretto modello di propagazione degli errori.

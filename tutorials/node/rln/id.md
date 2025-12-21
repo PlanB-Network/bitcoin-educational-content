@@ -10,7 +10,7 @@ Dalam tutorial langkah demi langkah ini, Anda akan mempelajari cara menyiapkan n
 
 Tim RGB Bitfinex telah bekerja sejak tahun 2022 untuk memperkaya ekosistem RGB dengan mengembangkan rangkaian teknologi yang lengkap. Alih-alih bertujuan untuk satu produk komersial, upayanya difokuskan untuk menyediakan batu bata perangkat lunak sumber terbuka, berkontribusi pada spesifikasi protokol RGB, dan membuat referensi implementasi.
 
-Di antara kontribusi penting Bitfinex terhadap ekosistem RGB adalah [pustaka *RGBlib*] (https://github.com/RGB-Tools/rgb-lib), yang ditulis dalam bahasa Rust dan dapat diakses melalui binding di Kotlin dan Python, yang sangat menyederhanakan pengembangan aplikasi RGB dengan mengenkapsulasi mekanisme validasi dan keterlibatan yang kompleks.
+Di antara kontribusi penting Bitfinex terhadap ekosistem RGB adalah [pustaka *RGBlib*](https://github.com/RGB-Tools/rgb-lib), yang ditulis dalam bahasa Rust dan dapat diakses melalui binding di Kotlin dan Python, yang sangat menyederhanakan pengembangan aplikasi RGB dengan mengenkapsulasi mekanisme validasi dan keterlibatan yang kompleks.
 
 Tim Bitfinex juga telah merancang dompet seluler RGB, yang disebut "[*Iris Wallet*](https://iriswallet.com/)", tersedia di Android. Dompet ini mengintegrasikan penggunaan server proxy RGB untuk dengan mudah mengelola pertukaran data off-chain (*kiriman*) untuk *Validasi Sisi Klien* pada RGB.
 

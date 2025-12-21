@@ -31,11 +31,9 @@ L’unica mancanza attuale è la Perfect Forward Secrecy, ma è un aspetto in ev
 
 Essendo basato esclusivamente sulle email, Delta Chat evita del tutto:
 
-numeri di telefono obbligatori
-
-ID centralizzati
-
-registrazioni legate a un singolo servizio
+- numeri di telefono obbligatori
+- ID centralizzati
+- registrazioni legate a un singolo servizio
 
 Ed è proprio questo che lo rende molto più resistente a normative invasive come il Chat Control.
 

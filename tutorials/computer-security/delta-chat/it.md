@@ -151,4 +151,6 @@ In un periodo in cui si parla sempre più di controllo delle comunicazioni priva
 È la soluzione che, tra tutte quelle che ho provato, mi ha convinto di più per semplicità, privacy e libertà.
 Se volete, potete anche contattarmi su Delta Chat tramite il [link invito](https://i.delta.chat/#38824F04DD40600D5D4F079C1F5E0EBA875A6D7E&i=GStGfNW5LMIXhwQMiuQWj3QU&s=cVi5izRJ9NsbIcPlU8yC_SeB&a=9l4la5imj%40nine.testrun.org&n=SatoSats)
 
+Se questa guida ti è piaciuta e ti è stata utile, puoi supportare il mio lavoro con una donazione e lasciando un pollice in su.
+
 Alla prossima.

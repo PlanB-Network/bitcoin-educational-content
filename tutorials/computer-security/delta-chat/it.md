@@ -48,12 +48,14 @@ Su Linux è disponibile comodamente tramite Flathub, ma ci sono anche pacchetti 
 
 È disponibile anche per:
 
-Android (Play Store, F-Droid e altri store)
+- [F-Droid](https://f-droid.org/app/com.b44t.messenger)
+- [Play Store](https://play.google.com/store/apps/details?id=chat.delta)
+- [iOS](https://apps.apple.com/us/app/delta-chat/id1459523234)
+- [Windows](https://apps.microsoft.com/detail/9pjtxx7hn3pk)
+- [macOS](https://apps.apple.com/us/app/delta-chat-desktop/id1462750497)
+- [Ubuntu Touch](https://open-store.io/app/deltatouch.lotharketterer)
 
-- iOS
-- Windows
-- macOS
-- Ubuntu Touch
+  e altri store...
 
 Una cosa molto importante: le versioni desktop non richiedono il telefono.
 A differenza di WhatsApp o SimpleX Chat, non è necessario registrarsi prima da mobile. È possibile creare il profilo direttamente su PC oppure trasferirlo da un altro dispositivo.

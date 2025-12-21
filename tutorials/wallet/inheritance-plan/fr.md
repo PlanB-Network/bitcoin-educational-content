@@ -209,3 +209,21 @@ Un plan d'héritage Bitcoin technique combine des mécanismes cryptographiques (
 Les éléments critiques à transmettre à vos héritiers sont : le fichier de descripteur ou de configuration, leur phrase de récupération, les instructions de récupération détaillées, et les coordonnées de personnes compétentes pouvant les assister.
 
 Commencez par choisir une solution technique adaptée à votre profil, testez-la avec un petit montant, puis documentez l'ensemble dans un plan structuré. La complexité initiale garantit une transmission souveraine de votre patrimoine Bitcoin.
+
+## Ressources
+
+### Modèle de plan d'héritage
+
+- [Bitcoin Inheritance Plan Template (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Modèle de documentation Plan ₿ Network
+
+### Références techniques
+
+- [BIP-65 : OP_CHECKLOCKTIMEVERIFY](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) - Spécification des timelocks absolus (CLTV)
+- [BIP-112 : OP_CHECKSEQUENCEVERIFY](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki) - Spécification des timelocks relatifs (CSV)
+- [Miniscript Reference](https://bitcoin.sipa.be/miniscript/) - Documentation officielle Miniscript par Pieter Wuille
+
+### Sites officiels des solutions
+
+- [Liana Wallet](https://wizardsardine.com/liana/) - Wizardsardine
+- [Bitcoin Keeper](https://bitcoinkeeper.app/) - Bithyve
+- [Heritage Wallet](https://btc-heritage.com/) - Crypto7

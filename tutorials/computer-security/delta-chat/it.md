@@ -93,7 +93,7 @@ Per aggiungere un contatto basta:
 
 - mostrare il proprio QR code
 - scansionare quello dell’altra persona
-- invitare tramite link (invita amici)
+- invitare tramite link (condividi collegamento d'invito)
 
    ![image](assets/it/05.webp)
   

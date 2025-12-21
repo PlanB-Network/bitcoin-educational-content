@@ -54,12 +54,12 @@ Durante il corso, i partecipanti utilizzeranno strumenti chiave che aiuteranno l
 <chapterId>89a0aa8b-90bd-58b2-82b3-bc5e1f82eaeb</chapterId>
 
 
-### Perché El Salvador ha bisogno del Bitcoin
+### Perché El Salvador ha bisogno di Bitcoin
 
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Benvenuti alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo del Bitcoin, guidati da Rikki, il fondatore del **Bitcoin Italia Podcast**. Rikki è un appassionato attivista per i diritti umani che utilizza il Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Rikki ha viaggiato per diversi paesi, documentando l'adozione del Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e X (**BTC Explorer**, **Rikki6ixx**). La passione di Rikki nasce dalla sua convinzione che Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
+Benvenuti alla prima lezione del programma didattico **Cubo Plus**. Oggi ci immergiamo nel mondo di Bitcoin, guidati da Rikki, il fondatore del **Bitcoin Italia Podcast**. Rikki è un appassionato attivista per i diritti umani che utilizza il Bitcoin come strumento per proteggere e promuovere i diritti umani. Con oltre sei anni di esperienza, Rikki ha viaggiato per diversi paesi, documentando l'adozione del Bitcoin in mercati emergenti come El Salvador e Guatemala. Il suo lavoro va oltre il podcast; è anche attivo su YouTube (**Bitcoin Explorers**) e X (**BTC Explorer**, **Rikki6ixx**). La passione di Rikki nasce dalla sua convinzione che Bitcoin offra libertà finanziaria e privacy, sfidando i sistemi bancari tradizionali e centralizzati.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,7 +81,7 @@ Questa conferenza, **"Perché El Salvador ha bisogno di Bitcoin"**, fornisce una
 - inclusione finanziaria: fornire l'accesso ai servizi finanziari alle persone escluse dai sistemi bancari tradizionali, spesso definite "unbanked"
 - denaro non censurato: denaro che non può essere controllato o limitato da governi o istituzioni finanziarie.
 
-#### Il background di Rikki e la difesa del Bitcoin
+#### Il background di Rikki e la difesa di Bitcoin
 
 
 Il viaggio di Rikki in Bitcoin ha le sue radici nel suo lavoro di sostenitore dei diritti umani. Crede che Bitcoin possa fornire agli individui il controllo sulle proprie finanze, permettendo loro di proteggere la propria privacy e di evitare le limitazioni delle banche centralizzate. La sua esplorazione dell'adozione di Bitcoin in luoghi come El Salvador evidenzia come questa tecnologia possa consentire alle persone nei mercati emergenti di ottenere l'indipendenza finanziaria.
@@ -174,13 +174,13 @@ Allo stesso tempo, l' **economia austriaca** ha fornito le basi per i principi m
 **Definizioni**
 
 
-- preferenza temporale:_ Valutare i beni presenti rispetto a quelli futuri.
+- preferenza temporale:_ attribuire maggiore valore ai beni presenti rispetto a quelli futuri.
 - conservare:_ Immagazzinare un valore per un uso futuro.
 
 ### Bitcoin in El Salvador
 
 
-L'adozione del Bitcoin da parte di El Salvador riflette il suo potenziale come strumento di libertà finanziaria, allineandosi con l'economia austriaca** e promuovendo l'adozione volontaria e la decentralizzazione. Questa iniziativa sfida i sistemi finanziari tradizionali affrontando questioni chiave: concorrenza, monopolio e confisca.
+L'adozione di Bitcoin da parte di El Salvador riflette il suo potenziale come strumento di libertà finanziaria, allineandosi con l'economia austriaca** e promuovendo l'adozione volontaria e la decentralizzazione. Questa iniziativa sfida i sistemi finanziari tradizionali affrontando questioni chiave: concorrenza, monopolio e confisca.
 
 
 ![Image](assets/en/003.webp)
@@ -191,23 +191,23 @@ L'adozione del Bitcoin da parte di El Salvador riflette il suo potenziale come s
 
 
 
-- Monopolio**: Decentrando l'accesso finanziario, il Bitcoin rompe il monopolio delle banche e delle valute emesse dai governi, riducendo la dipendenza dalle istituzioni centralizzate e favorendo l'inclusione finanziaria.
+- Monopolio**: Decentralizzando l'accesso finanziario, Bitcoin rompe il monopolio delle banche e delle valute emesse dai governi, riducendo la dipendenza dalle istituzioni centralizzate e favorendo l'inclusione finanziaria.
 
 
 
-- Confisca**: La resistenza del Bitcoin alla confisca fornisce ai salvadoregni il controllo sui loro beni, proteggendo la loro ricchezza dal sequestro esterno e rafforzando la sovranità finanziaria.
+- Confisca**: La resistenza di Bitcoin alla confisca fornisce ai salvadoregni il controllo sui loro beni, proteggendo la loro ricchezza dal sequestro esterno e rafforzando la sovranità finanziaria.
 
 
-L'adozione del Bitcoin da parte di El Salvador promuove un sistema finanziario più inclusivo, competitivo e sicuro, sfidando i limiti della finanza tradizionale.
+L'adozione di Bitcoin da parte di El Salvador promuove un sistema finanziario più inclusivo, competitivo e sicuro, sfidando i limiti della finanza tradizionale.
 
 
 #### Conclusione
 
 
-Le basi del Bitcoin nel **movimento Cypherpunk** e nell'**economia austriaca** lo rendono una forma di denaro unica e rivoluzionaria. La comprensione di questi principi aiuta a capire perché il Bitcoin è stato creato e come opera oggi. Per ulteriori letture, prendere in considerazione **The Bitcoin Standard** di **Saifedean Ammous**.
+Le basi di Bitcoin nel **movimento Cypherpunk** e nell'**economia austriaca** lo rendono una forma di denaro unica e rivoluzionaria. La comprensione di questi principi aiuta a capire perché Bitcoin è stato creato e come opera oggi. Per ulteriori letture, prendere in considerazione **The Bitcoin Standard** di **Saifedean Ammous**.
 
 
-Grazie per esservi impegnati con questo materiale!
+Grazie per aver dedicato attenzione a questo materiale!
 
 
 ## Come Bitcoin
@@ -221,7 +221,7 @@ Grazie per esservi impegnati con questo materiale!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-Nella prima lezione del corso "Come funziona il Bitcoin", abbiamo iniziato a esplorare lo stack tecnologico che sta alla base della rete Bitcoin. Abbiamo trattato argomenti quali **Hashcash**, **transazioni**, il **Blockchain**, il **Lightning Network** e altri componenti fondamentali del protocollo Bitcoin.
+Nella prima lezione del corso "Come funziona Bitcoin", abbiamo iniziato a esplorare lo stack tecnologico che sta alla base della rete Bitcoin. Abbiamo trattato argomenti quali **Hashcash**, **transazioni**, il **Blockchain**, il **Lightning Network** e altri componenti fondamentali del protocollo Bitcoin.
 
 
 ### Lo stack tecnologico di Bitcoin parte 2
@@ -237,47 +237,47 @@ Durante la seconda lezione di 'Come Bitcoin', abbiamo condotto un esame più app
 Le origini di Bitcoin si basano su diverse innovazioni chiave, a partire da Hashcash** di **Adam Back, un sistema Proof-of-Work (PoW) progettato per prevenire lo spam via e-mail e gli attacchi denial-of-service richiedendo ai mittenti di completare attività di calcolo. Questo concetto di PoW è diventato una pietra miliare della sicurezza di Bitcoin.
 
 
-Il Bitcoin si basa su **firme digitali** che utilizzano la **crittografia a curva ellittica** per proteggere e verificare le transazioni. L'algoritmo **Elliptic Curve Digital Signature Algorithm (ECDSA)** garantisce che solo il legittimo proprietario del Bitcoin possa autorizzare le transazioni senza rivelare le proprie chiavi private.
+Bitcoin si basa su **firme digitali** che utilizzano la **crittografia a curva ellittica** per proteggere e verificare le transazioni. L'algoritmo **Elliptic Curve Digital Signature Algorithm (ECDSA)** garantisce che solo il legittimo proprietario dei bitcoin possa autorizzare le transazioni senza rivelare le proprie chiavi private.
 
 
-**Satoshi Nakamoto**, il creatore pseudonimo di Bitcoin, ha ampliato queste idee passando dal modello PoW a un **Blockchain** decentralizzato. Ciò ha permesso a una rete distribuita di nodi di convalidare e registrare le transazioni senza un'autorità centrale, segnando un'evoluzione significativa rispetto ai precedenti tentativi di valuta digitale.
+**Satoshi Nakamoto**, lo pseudonimo del creatore di Bitcoin, ha ampliato queste idee passando dal modello PoW ad una **Blockchain** decentralizzata. Ciò ha permesso a una rete distribuita di nodi di convalidare e registrare le transazioni senza un'autorità centrale, segnando un'evoluzione significativa rispetto ai precedenti tentativi di valuta digitale.
 
 
 **Definizioni**
 
 
-- un sistema in cui i partecipanti devono risolvere enigmi computazionali per convalidare le transazioni e proteggere la rete.
+- Proof of Work: un sistema in cui i partecipanti devono risolvere enigmi computazionali per convalidare le transazioni e proteggere la rete.
 - crittografia a curva ellittica: un metodo crittografico che consente di apporre firme digitali sicure ed efficienti.
 
 ### Meccanica Blockchain e convalida delle transazioni
 
 
-Le transazioni Bitcoin sono convalidate e aggiunte ai blocchi dai **minatori**, che competono per risolvere un puzzle crittografico utilizzando l'algoritmo Proof-of-Work. Si tratta di trovare un Hash con un numero specifico di zeri iniziali regolando un valore **Nonce** fino a scoprire il Hash corretto.
+Le transazioni Bitcoin sono convalidate e aggiunte ai blocchi dai **miner**, che competono per risolvere un puzzle crittografico utilizzando l'algoritmo Proof-of-Work. Si tratta di trovare un Hash con un numero specifico di zeri iniziali regolando un valore **Nonce** fino a scoprire l'Hash corretto.
 
 
-Ogni **blocco** del Blockchain consiste in una **intestazione** (con dati simili al Hash del blocco precedente) e in un elenco di transazioni. Il primo blocco, noto come **Blocco Genesis**, è unico perché non ha predecessori.
+Ogni **blocco** della Blockchain consiste in una **intestazione** (con dati simili all' Hash del blocco precedente) e in un elenco di transazioni. Il primo blocco, noto come **Blocco Genesis**, è unico perché non ha predecessori.
 
 
 ![Image](assets/en/004.webp)
 
 
-Prima di essere incluse in un blocco, le transazioni risiedono nel **Mempool**, dove attendono la convalida. Una volta convalidate, le transazioni vengono aggiunte al nuovo blocco estratto e quindi al Blockchain.
+Prima di essere incluse in un blocco, le transazioni risiedono nella **Mempool**, dove attendono la convalida. Una volta convalidate, le transazioni vengono aggiunte al nuovo blocco estratto e quindi alla Blockchain.
 
 
 **Definizioni**
 
 
-- il processo di risoluzione di enigmi crittografici per aggiungere nuovi blocchi alla Blockchain.
-- un valore utilizzato per trovare il Hash corretto durante il Mining.
-- un'area di attesa per le transazioni non confermate prima che vengano aggiunte a un blocco.
+- _Mining:_- il processo di risoluzione di enigmi crittografici per aggiungere nuovi blocchi alla Blockchain.
+- _Nonce:_- un valore utilizzato per trovare l'Hash corretto durante il Mining.
+- _Mempool:_- un'area di attesa per le transazioni non confermate prima che vengano aggiunte a un blocco.
 
 ### Scalabilità, privacy e sviluppo in Bitcoin
 
 
-Il Bitcoin deve affrontare sfide legate alla scalabilità e alla privacy. La limitata capacità di transazione del Blockchain rende difficile la gestione di elevati volumi di transazioni. Soluzioni come il **Lightning Network** Address affrontano queste sfide consentendo le transazioni off-chain attraverso i canali di pagamento, che aumentano la velocità e la privacy.
+Bitcoin deve affrontare sfide legate alla scalabilità e alla privacy. La limitata capacità di transazione della Blockchain rende difficile la gestione di elevati volumi di transazioni. Soluzioni come il **Lightning Network** affrontano queste sfide consentendo le transazioni off-chain attraverso i canali di pagamento, che aumentano la velocità e la privacy.
 
 
-L'esecuzione di un **Full node** è essenziale per garantire la decentralizzazione e la sicurezza, ma i nodi **Simplified Payment Verification (SPV)** consentono una partecipazione più leggera al costo di una certa sicurezza.
+L'esecuzione di un **Full node** è essenziale per garantire la decentralizzazione e la sicurezza, ma i nodi **Simplified Payment Verification (SPV)** consentono una partecipazione più leggera, a scapito però di una parte della sicurezza.
 
 
 Lo sviluppo di Bitcoin si è evoluto per migliorare le prestazioni e la sicurezza. I principali aggiornamenti includono **Segregated Witness (SegWit)**, che affronta la malleabilità delle transazioni e aumenta la dimensione effettiva dei blocchi, e **Taproot**, che migliora la privacy e consente contratti più complessi utilizzando **Merkleized Abstract Syntax Trees (MAST)**.
@@ -286,41 +286,41 @@ Lo sviluppo di Bitcoin si è evoluto per migliorare le prestazioni e la sicurezz
 **Definizioni**
 
 
-- un aggiornamento di Bitcoin che separa i dati della firma da quelli della transazione, migliorando l'efficienza.
-- un aggiornamento che migliora la privacy e la scalabilità di Bitcoin, consentendo la creazione di contratti intelligenti più complessi.
-- una seconda soluzione Layer per transazioni Bitcoin più veloci e meno costose utilizzando i canali di pagamento.
+- _SegWit:_- un aggiornamento di Bitcoin che separa i dati della firma da quelli della transazione, migliorando l'efficienza.
+- _Taproot:_- un aggiornamento che migliora la privacy e la scalabilità di Bitcoin, consentendo la creazione di contratti intelligenti più complessi.
+- _Lightning Network:_ - una soluzione tramite layer secondario per transazioni Bitcoin più veloci e meno costose utilizzando i canali di pagamento.
 
 #### Conclusione
 
 
-La struttura e la continua evoluzione del Bitcoin dimostrano l'innovazione e l'adattabilità della sua tecnologia. Da **Hashcash** a un Blockchain decentralizzato, e da **SegWit** a **Taproot**, il Bitcoin continua a Address sfide legate alla scalabilità, alla privacy e alla sicurezza. I continui sforzi della comunità assicurano che il Bitcoin rimanga resiliente e decentralizzato, evolvendo al contempo per soddisfare le esigenze del futuro.
+La struttura e la continua evoluzione di Bitcoin dimostrano l'innovazione e l'adattabilità della sua tecnologia. Da **Hashcash** ad una Blockchain decentralizzata, e da **SegWit** a **Taproot**, Bitcoin continua ad affrontare sfide legate alla scalabilità, alla privacy e alla sicurezza. I continui sforzi della comumunity assicurano che Bitcoin rimanga resiliente e decentralizzato, evolvendo al contempo per soddisfare le esigenze del futuro.
 
 
-## Sfatare il Bitcoin
+## Sfatare Bitcoin
 
 
 <chapterId>171ec71d-3028-5820-9b4f-36682113fc81</chapterId>
 
 
-### Sfatare il Bitcoin
+### Sfatare Bitcoin
 
 
 :::video id=c5e2e575-fa9d-4430-805f-205c2cf6f2a5:::
 
-In questa conferenza sfatiamo i miti comuni che circondano il **Bitcoin**, le **blockchain** e le **criptovalute**. Sfatiamo le idee sbagliate sul consumo energetico del Bitcoin, sull'uso criminale e sul più ampio "FUD" (paura, incertezza, dubbio) diffuso su questa tecnologia.
+In questa conferenza sfatiamo i miti comuni che circondano **Bitcoin**, le **blockchain** e le **criptovalute**. Sfatiamo le idee sbagliate sul consumo energetico di Bitcoin, sull'uso criminale e sul più ampio "FUD" (paura, incertezza, dubbio) diffuso riguardo questa tecnologia.
 
 
 ### Bitcoin vs. Blockchain
 
 
-Un'idea sbagliata frequente è che **Bitcoin** e **Blockchain** siano la stessa cosa. Mentre il Bitcoin è una valuta digitale, il **Blockchain** è la tecnologia che lo alimenta. Le blockchain forniscono una registrazione verificata delle transazioni, ma comportano dei compromessi, come velocità più basse e costi più elevati, che soluzioni come la **Lightning Network** Address.
+Un'idea sbagliata frequente è che **Bitcoin** e **Blockchain** siano la stessa cosa. Mentre Bitcoin è una valuta digitale, la **Blockchain** è la tecnologia che lo alimenta. Le blockchain forniscono una registrazione verificata delle transazioni, ma comportano dei compromessi, come velocità più basse e costi più elevati, che soluzioni come **Lightning Network** risolvono.
 
 
 **Definizioni**
 
 
-- la tecnologia sottostante utilizzata per registrare le transazioni in una Ledger decentralizzata e immutabile.
-- una soluzione per il secondo Layer che migliora l'efficienza delle transazioni del Bitcoin abilitando le transazioni del off-chain.
+- _Blockchain:_- la tecnologia sottostante utilizzata per registrare le transazioni in una Ledger decentralizzata e immutabile.
+- _Lightning Network:_- una soluzione di layer 2 che migliora l'efficienza delle transazioni di Bitcoin abilitando le transazioni off-chain.
 
 ### Bitcoin vs. Crypto
 
@@ -331,7 +331,7 @@ Un'altra distinzione fondamentale è che **Bitcoin** è stata creata con l'unico
 **Definizioni**
 
 
-- le Shitcoin sono criptovalute di basso valore o di qualità discutibile, prive di reale utilità. Spesso sono altamente speculative e talvolta vengono create per scopi fraudolenti o senza uno scopo preciso, approfittando del boom del mercato delle criptovalute.
+- _Shitcoins:_ - le Shitcoin sono criptovalute di basso valore o di qualità discutibile, prive di reale utilità. Spesso sono altamente speculative e talvolta vengono create per scopi fraudolenti o senza uno scopo preciso, approfittando del boom del mercato delle criptovalute.
 
 ![Image](assets/en/005.webp)
 
@@ -339,24 +339,24 @@ Un'altra distinzione fondamentale è che **Bitcoin** è stata creata con l'unico
 ### Consumo di energia e impatto ambientale
 
 
-Una delle critiche più comuni al Bitcoin è il suo **consumo di energia**. Sebbene il Bitcoin Mining utilizzi energia, rappresenta meno dell'1% del consumo globale di elettricità e meno del 3% dell'energia sprecata. Inoltre, il **Bitcoin Mining** spesso attinge a fonti di energia inutilizzate o rinnovabili, il che lo rende più verde di quanto spesso venga rappresentato.
+Una delle critiche più comuni a Bitcoin è il suo **consumo di energia**. Sebbene il Bitcoin Mining utilizzi energia, rappresenta meno dell'1% del consumo globale di elettricità e meno del 3% dell'energia sprecata. Inoltre, il **Bitcoin Mining** spesso attinge a fonti di energia inutilizzate o rinnovabili, il che lo rende più verde di quanto spesso venga rappresentato.
 
 
 **Definizioni**
 
 
-- il processo di convalida delle transazioni e di sicurezza della rete si basa sulla risoluzione di enigmi crittografici, che richiedono potenza di calcolo.
+- _Bitcoin Mining:_- il processo di convalida delle transazioni e di sicurezza della rete si basa sulla risoluzione di enigmi crittografici, che richiedono potenza di calcolo.
 
-### Idee sbagliate sull'uso criminale
+### False convinzioni sull'uso criminale
 
 
-Il Bitcoin viene spesso criticato per il suo utilizzo in attività criminali. Tuttavia, l'analisi del Blockchain mostra che solo una piccola percentuale delle transazioni del Bitcoin è legata alla criminalità. In realtà, i sistemi finanziari tradizionali vedono un uso criminale di gran lunga superiore a quello del Bitcoin.
+Bitcoin viene spesso criticato per il suo utilizzo in attività criminali. Tuttavia, l'analisi della Blockchain mostra che solo una piccola percentuale delle transazioni Bitcoin è legata alla criminalità. In realtà, i sistemi finanziari tradizionali vedono un uso criminale di gran lunga superiore a quello di Bitcoin.
 
 
 ### Privacy e fungibilità
 
 
-*la *privacy** e la **fungibilità** sono caratteristiche essenziali di Bitcoin. La privacy protegge gli utenti in regimi oppressivi, mentre la fungibilità assicura che ogni Bitcoin sia uguale, indipendentemente dalla sua storia. Ciò rende il Bitcoin una forma di denaro affidabile ed equa.
+*la *privacy** e la **fungibilità** sono caratteristiche essenziali di Bitcoin. La privacy protegge gli utenti in regimi oppressivi, mentre la fungibilità assicura che ogni Bitcoin sia uguale, indipendentemente dalla sua storia. Ciò rende Bitcoin una forma di denaro affidabile ed equa.
 
 
 **Definizioni**
@@ -367,13 +367,13 @@ Il Bitcoin viene spesso criticato per il suo utilizzo in attività criminali. Tu
 ### Gestione del FUD e delle dinamiche di mercato
 
 
-Il FUD che circonda il Bitcoin spesso esagera le preoccupazioni sull'impatto ambientale, l'uso criminale e la sicurezza. Anche se si verificheranno fluttuazioni di mercato, la tecnologia decentralizzata e solida del Bitcoin fornisce una solida base per la stabilità a lungo termine e la libertà finanziaria, in particolare in ambienti restrittivi come il Venezuela.
+Il FUD che circonda Bitcoin spesso esagera le preoccupazioni sull'impatto ambientale, l'uso criminale e la sicurezza. Anche se si verificheranno fluttuazioni di mercato, la tecnologia decentralizzata e robusta di Bitcoin fornisce una solida base per la stabilità a lungo termine e la libertà finanziaria, in particolare in ambienti restrittivi come il Venezuela.
 
 
 #### Conclusione
 
 
-Comprendere la realtà del consumo energetico del Bitcoin, delle sue caratteristiche di privacy e del suo ruolo nella prevenzione del crimine aiuta a sfatare i miti che lo circondano. Sfatando il FUD, possiamo apprezzare il potenziale del Bitcoin come forma rivoluzionaria di denaro sano che promuove la privacy, la sicurezza e la decentralizzazione.
+Comprendere la realtà del consumo energetico del Bitcoin, delle sue caratteristiche di privacy e del suo ruolo nella prevenzione del crimine aiuta a sfatare i miti che lo circondano. Sfatando il FUD, possiamo apprezzare il potenziale di Bitcoin come forma rivoluzionaria di denaro sano che promuove la privacy, la sicurezza e la decentralizzazione.
 
 
 ## Esecuzione di Bitcoin
@@ -389,7 +389,7 @@ Comprendere la realtà del consumo energetico del Bitcoin, delle sue caratterist
 
 :::video id=4a5253cf-b863-466a-8506-0506b28a28de:::
 
-Nella prima lezione del quarto modulo, abbiamo esplorato l'architettura del Bitcoin e l'installazione di un nodo Bitcoin core.
+Nella prima lezione del quarto modulo, abbiamo esplorato l'architettura di Bitcoin e l'installazione di un nodo Bitcoin core.
 
 
 ### Esecuzione di un nodo Bitcoin
@@ -402,31 +402,31 @@ Bentornati! Nella sessione precedente abbiamo trattato i concetti fondamentali d
 
 **2. Panoramica della sessione pratica**
 
-In questa sessione, Alekos ci guiderà attraverso il processo di configurazione di un nodo Bitcoin utilizzando una macchina virtuale. Questa esercitazione pratica ha lo scopo di farvi conoscere le fasi di configurazione del vostro nodo per partecipare alla rete Bitcoin.
+In questa sessione, Alekos ci guiderà attraverso il processo di configurazione di un nodo Bitcoin utilizzando una virtual machine. Questa esercitazione pratica ha lo scopo di farvi conoscere le fasi di configurazione del vostro nodo per partecipare alla rete Bitcoin.
 
 
 La gestione di un nodo Bitcoin comporta la convalida di transazioni e blocchi, l'applicazione delle regole di consenso e il supporto della decentralizzazione della rete. La creazione di un nodo garantisce una connessione diretta alla rete Bitcoin, consentendo di contribuire alla sua sicurezza e integrità.
 
 
-In questa lezione troverete una guida per installare e far funzionare il vostro Bitcoin core, imparare a potare il Blockchain per risparmiare spazio e iniziare a sperimentare con il software. Alekos vi guiderà passo dopo passo in questo entusiasmante processo.
+In questa lezione troverete una guida per installare e far funzionare il vostro Bitcoin core, imparare a "potare"(prune) la Blockchain per risparmiare spazio e iniziare a sperimentare con il software. Alekos vi guiderà passo dopo passo in questo entusiasmante processo.
 
 
-### Cosa si può fare con il Bitcoin core e i suoi benefici
+### Cosa si può fare con Bitcoin Core e i suoi benefici
 
 
-Eseguendo il Bitcoin core, si ottiene la capacità di:
+Eseguendo Bitcoin Core, si ottiene la capacità di:
 
 
 
 - Convalidare le proprie transazioni e i propri blocchi**: Garantire il rispetto delle regole della rete Bitcoin senza affidarsi a terzi.
-- Rafforzare la rete**: Partecipando alla rete, si contribuisce a mantenerla decentralizzata, rendendo il Bitcoin più resistente agli attacchi.
-- Potare il Blockchain**: Riduce i requisiti di memorizzazione conservando solo le transazioni più recenti, il che è ideale se lo spazio su disco è limitato.
-- Utilizzate le funzioni avanzate del Wallet**: Gestite il vostro Bitcoin con privacy e sicurezza, le chiavi private generate offline e firmate le transazioni in modo sicuro.
-- Interagire direttamente con la rete Bitcoin**: Utilizzando il Bitcoin core, è possibile connettersi direttamente alla rete senza intermediari, garantendo la massima precisione dei dati.
-- Beneficiate di una maggiore privacy**: In qualità di operatori del Full node, non dovrete affidarvi a servizi esterni, proteggendo la privacy delle vostre transazioni dalla sorveglianza esterna.
+- Rafforzare la rete**: Partecipando alla rete, si contribuisce a mantenerla decentralizzata, rendendo Bitcoin più resistente agli attacchi.
+- Potare la Blockchain**: Riduce i requisiti di memoria conservando solo le transazioni più recenti, il che è ideale se lo spazio su disco è limitato.
+- Utilizzare le funzioni avanzate del Wallet**: Gestite i vostri bitcoin con privacy e sicurezza, le chiavi private generate offline e firmare le transazioni in modo sicuro.
+- Interagire direttamente con la rete Bitcoin**: Utilizzando Bitcoin Core, è possibile connettersi direttamente alla rete senza intermediari, garantendo la massima precisione dei dati.
+- Beneficiare di una maggiore privacy**: In qualità di operatori del Full node, non dovrete affidarvi a servizi esterni, proteggendo la privacy delle vostre transazioni dalla sorveglianza esterna.
 
 
-I vantaggi di gestire un nodo Bitcoin sono sostanziali per qualsiasi Bitcoiner dedicato. Non solo si contribuisce a proteggere la rete e a rafforzarne la decentralizzazione, ma si migliora anche la propria privacy, si garantisce l'integrità delle proprie transazioni e si assume un ruolo proattivo nell'ecosistema di Bitcoin. La gestione di un nodo è un passo fondamentale per raggiungere la sovranità finanziaria e abbracciare pienamente la natura decentralizzata di Bitcoin.
+I vantaggi di gestire un nodo Bitcoin sono sostanziali per qualsiasi Bitcoiner dedito. Non solo si contribuisce a proteggere la rete e a rafforzarne la decentralizzazione, ma si migliora anche la propria privacy, si garantisce l'integrità delle proprie transazioni e si assume un ruolo proattivo nell'ecosistema di Bitcoin. La gestione di un nodo è un passo fondamentale per raggiungere la sovranità finanziaria e abbracciare pienamente la natura decentralizzata di Bitcoin.
 
 
 ### Comandi fondamentali
@@ -472,7 +472,7 @@ bitcoin-cli getblockchaininfo
 
 
 
-- Potare il Blockchain per risparmiare spazio su disco mantenendo solo i blocchi più recenti:**:
+- Potare la Blockchain per risparmiare spazio su disco mantenendo solo i blocchi più recenti:**:
 
 
 ```bash
@@ -481,7 +481,7 @@ prune=550
 
 
 
-- Abilitare il server Bitcoin core e configurare le impostazioni del RPC:**:
+- Abilitare il server Bitcoin Core e configurare le impostazioni del RPC:**:
 
 
 ```bash
@@ -516,17 +516,17 @@ sudo systemctl status bitcoind
 #### 1. **Riepilogo Bitcoin core**
 
 
-Iniziamo con un breve riepilogo dei passaggi necessari per l'installazione di Bitcoin core su una macchina virtuale cloud, in quanto sarà fondamentale per la successiva configurazione di C-Lightning.
+Iniziamo con un breve riepilogo dei passaggi necessari per l'installazione di Bitcoin core su una cloud virtual machine, in quanto sarà fondamentale per la successiva configurazione di C-Lightning.
 
 
-**Reinstallazione di Bitcoin core su una macchina virtuale cloud**
+**Reinstallazione di Bitcoin core su una cloud virtual machine**
 
-Per iniziare, è necessario reinstallare Bitcoin core sulla macchina virtuale. Per questa sessione, salteremo la verifica dei binari per risparmiare tempo, ma ricordate che in un ambiente di produzione, la verifica dei binari è un passo fondamentale per garantire la sicurezza.
+Per iniziare, è necessario reinstallare Bitcoin Core sulla macchina virtuale. Per questa sessione, salteremo la verifica dei binari per risparmiare tempo, ma ricordate che in un ambiente di produzione, la verifica dei binari è un passo fondamentale per garantire la sicurezza.
 
 
 **Scaricare e verificare gli hash dei file**
 
-Innanzitutto, scaricare l'ultima versione di Bitcoin core e verificare gli hash dei file per assicurarsi che non vi siano state manomissioni.
+Innanzitutto, scaricare l'ultima versione di Bitcoin Core e verificare gli hash dei file per assicurarsi che non vi siano state manomissioni.
 
 
 ```sh
@@ -576,9 +576,9 @@ WantedBy=multi-user.target
 ```
 
 
-**Creare e configurare l'utente e le directory del Bitcoin
+**Creare e configurare l'utente e le directory di Bitcoin
 
-Creare un utente dedicato e impostare le directory per Bitcoin core.
+Creare un utente dedicato e impostare le directory per Bitcoin Core.
 
 
 ```sh
@@ -606,13 +606,13 @@ prune=550
 ```
 
 
-Con questi passaggi, Bitcoin core dovrebbe essere attivo e funzionante con un utilizzo minimo del disco, pronto per interagire con C-Lightning.
+Con questi passaggi, Bitcoin Core dovrebbe essere attivo e funzionante con un utilizzo minimo del disco, pronto per interagire con C-Lightning.
 
 
 #### 2. **Panoramica e installazione di C-Lightning**
 
 
-**Panoramica sui fulmini**
+**Panoramica su C-Lightning**
 
 
 C-Lightning, noto anche come Core-Lightning, è un protocollo Layer 2 che facilita le transazioni più veloci e più economiche utilizzando i canali off-chain. Si distingue per la sua architettura modulare e facile da sviluppare, che consente un'ampia personalizzazione tramite plugin.
@@ -755,7 +755,7 @@ sudo systemctl enable lightningd
 ```
 
 
-**Percorsi e permessi dei file Address, in particolare per l'integrazione di Tor**
+**Gestsire i percorsi e permessi dei file , in particolare per l'integrazione di Tor**
 
 Configurare i percorsi e i permessi dei file per garantire un funzionamento regolare, soprattutto se si utilizza Tor per la privacy.
 
@@ -774,9 +774,9 @@ proxy=127.0.0.1:9050
 ```
 
 
-**Segreto HSM di backup per il recupero dei fondi**
+**Eseguire il backup del segreto dell’HSM per il recupero dei fondi**
 
-Eseguire il backup del segreto HSM per il recupero dei fondi.
+Eseguire il backup dell' HSM segreto per il recupero dei fondi.
 
 
 ```sh
@@ -784,7 +784,7 @@ sudo cp /var/lib/lightning/hsm_secret /path/to/secure/location
 ```
 
 
-**Testare le connessioni e convalidare lo stato operativo del nodo
+**Testare le connessioni e convalidare lo stato operativo del nodo**
 
 Infine, convalidare lo stato operativo del nodo testando le connessioni e assicurandosi che tutto funzioni come previsto.
 
@@ -3240,7 +3240,7 @@ Contrariamente alla nozione di staticità, il Bitcoin è in uno stato di perpetu
 
 **Lightning Network: sviluppo rapido**
 
-Il Lightning Network, la seconda soluzione Layer del Bitcoin per scalare e accelerare le transazioni, è in fase di rapido sviluppo. Questo Layer consente transazioni rapide e a basso costo grazie all'abilitazione dei canali di pagamento off-chain. Sono in corso di integrazione importanti innovazioni per rafforzarne l'efficienza e l'usabilità.
+Il Lightning Network, la soluzione Layer 2 del Bitcoin per scalare e accelerare le transazioni, è in fase di rapido sviluppo. Questo Layer consente transazioni rapide e a basso costo grazie all'abilitazione dei canali di pagamento off-chain. Sono in corso di integrazione importanti innovazioni per rafforzarne l'efficienza e l'usabilità.
 
 
 **Canali a doppio finanziamento**

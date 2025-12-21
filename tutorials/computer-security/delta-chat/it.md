@@ -45,3 +45,15 @@ Dal sito ufficiale di [Delta Chat](https://delta.chat/it/download) si può andar
 Su Linux è disponibile comodamente tramite Flathub, ma ci sono anche pacchetti per Arch, NixOS, Snap e versioni standalone.
 
 ![image](assets/it/01.webp)
+
+È disponibile anche per:
+
+Android (Play Store, F-Droid e altri store)
+
+- iOS
+- Windows
+- macOS
+- Ubuntu Touch
+
+Una cosa molto importante: le versioni desktop non richiedono il telefono.
+A differenza di WhatsApp o SimpleX Chat, non è necessario registrarsi prima da mobile. È possibile creare il profilo direttamente su PC oppure trasferirlo da un altro dispositivo.

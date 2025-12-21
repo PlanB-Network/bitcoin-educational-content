@@ -227,7 +227,7 @@ Como parte de esta dinámica, ARPA financió a la Universidad de Berkeley para q
 En sentido estricto, TCP/IP no es un único protocolo, sino un conjunto de protocolos construidos en torno a TCP e IP. Alcanzó la fama porque ofrecía una interfaz de programación estandarizado para el intercambio de datos entre máquinas de una misma red. Esta interfaz, basado en primitivas denominadas "sockets", permitía crear conexiones fiables y flexibles al tiempo que integraba protocolos de aplicación esenciales.
 
 
-ARPANET es, por tanto, la base histórica de la actual Internet. En efecto, el internet es una red mundial basada en el principio de la conmutación de paquetes, en la que la información circula utilizando un conjunto de protocolos normalizados que garantizan la compatibilidad y la interoperabilidad entre sistemas heterogéneos. Esta arquitectura abierta ha permitido el desarrollo y despliegue de innumerables servicios y aplicaciones, entre ellos:
+ARPANET es, por tanto, la base histórica de el internet actual. En efecto, el internet es una red mundial basada en el principio de la conmutación de paquetes, en la que la información circula utilizando un conjunto de protocolos normalizados que garantizan la compatibilidad y la interoperabilidad entre sistemas heterogéneos. Esta arquitectura abierta ha permitido el desarrollo y despliegue de innumerables servicios y aplicaciones, entre ellos:
 
 
 - correos electrónicos,
@@ -241,7 +241,7 @@ Esta organización coordina las direcciones técnicas a través de dos estructur
 
 
 - **IRTF** (_Internet Research Task Force_), que investiga a largo plazo la evolución y mejora de los protocolos.
-- **IETF** (_Internet Engineering Task Force_), que desarrolla, normaliza y documenta los protocolos operativos utilizados en Internet
+- **IETF** (_Internet Engineering Task Force_), que desarrolla, normaliza y documenta los protocolos operativos utilizados en internet
 
 
 La distribución de los recursos de red (rangos de direcciones IP, números de sistema autónomos, nombres de dominio raíz, etc.) está coordinada internacionalmente por **IANA/ICANN**. La gestión operativa depende de **RIR** (*Regional Internet Registries*): **RIPE NCC** (Europa, Oriente Medio, Asia Central), **ARIN**, **APNIC**, **LACNIC** y **AFRINIC**.
@@ -256,22 +256,16 @@ La pila TCP/IP suele representarse como una pila de cuatro capas funcionales, a 
 Las cuatro capas del modelo TCP/IP son:
 
 
-- el NETWORK ACCESS Layer, que proporciona el enlace físico y los protocolos de control de acceso al medio;
-- iNTERNET Layer, que gestiona el enrutamiento y el direccionamiento IP;
-- el Layer TRANSPORTE, que garantiza la fiabilidad y la gestión de los flujos de datos que utilizan protocolos como TCP o UDP ;
-- el Layer de APLICACIÓN, que agrupa protocolos de usuario y software como HTTP, FTP, SMTP y DNS.
-
-
+- la capa de ACCESO A LA RED (NETWORK ACCESS), que proporciona el enlace físico y los protocolos de control de acceso al medio;
+- La capa de INTERNET, que gestiona el enrutamiento y el direccionamiento IP;
+- La capa de TRANSPORTE, que garantiza la fiabilidad y la gestión de los flujos de datos que utilizan protocolos como TCP o UDP ;
+- La capa de APLICACIÓN, que agrupa protocolos de usuario y software como HTTP, FTP, SMTP y DNS.
 
 ![Image](assets/es/006.webp)
 
+Hoy en día, la versión más utilizada de IP es IPv4, pero su espacio de direcciones de 32 bits tiene claras limitaciones. Esto llevó a la creación de IPv6, que utiliza un direccionamiento de 128 bits y ofrece una capacidad prácticamente ilimitada: esencial para soportar el crecimiento explosivo de los dispositivos conectados y afrontar los retos del Internet de las cosas, la movilidad y la seguridad.
 
-
-Hoy en día, la versión más utilizada de IP es IPv4, pero su espacio Address de 32 bits tiene claras limitaciones. Esto llevó a la creación de IPv6, que utiliza un direccionamiento de 128 bits y ofrece una capacidad prácticamente ilimitada: esencial para soportar el crecimiento explosivo de los dispositivos conectados y afrontar los retos del Internet de las cosas, la movilidad y la seguridad.
-
-
-Cada Layer de la pila TCP/IP proporciona servicios específicos, lo que hace posible Address diferentes necesidades de red de forma modular: transmisión física, direccionamiento lógico, integridad de datos y servicios a nivel de aplicación.
-
+Cada capa de la pila TCP/IP proporciona servicios específicos, lo que hace posible abordar diferentes necesidades de red de forma modular: transmisión física, direccionamiento lógico, integridad de datos y servicios a nivel de aplicación.
 
 | Device example    | Description                                                                               | 	TCP/IP layer |
 | ---------------------- | ----------------------------------------------------------------------------------------- | ----------------------- |
@@ -291,13 +285,9 @@ https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea
 
 ## Protocolo QoS IPv5
 
-
 <chapterId>570ded19-be61-4005-844e-9490570a6455</chapterId>
 
-
-
-La cabecera de un paquete IP es una estructura de datos esencial, dividida en varios campos, cada uno con una función específica para garantizar que los paquetes se transmiten y procesan correctamente mientras viajan por la red. Estos campos incluyen el IP Address de destino (necesario para encaminar el paquete a su destinatario), la longitud de la cabecera indicada por el campo IHL (*Internet Header Length*), la longitud total del paquete registrada en el campo *Total Length*, información de control y verificación, y otros parámetros para gestionar el flujo y la calidad de la comunicación.
-
+La cabecera de un paquete IP es una estructura de datos esencial, dividida en varios campos, cada uno con una función específica para garantizar que los paquetes se transmiten y procesan correctamente mientras viajan por la red. Estos campos incluyen la dirección IP de destino (necesario para encaminar el paquete a su destinatario), la longitud de la cabecera indicada por el campo IHL (*Internet Header Length*), la longitud total del paquete registrada en el campo *Total Length*, información de control y verificación, y otros parámetros para gestionar el flujo y la calidad de la comunicación.
 
 El primer campo de la cabecera se denomina Versión. Este valor de 4 bits especifica qué versión del protocolo IP sigue el paquete. Es importante porque indica a cada enrutador o dispositivo intermedio cómo interpretar y manejar los datos encapsulados.
 
@@ -319,61 +309,46 @@ El primer campo de la cabecera se denomina Versión. Este valor de 4 bits especi
 | 10–14          | Unassigned | Unassigned                  |                         |
 | 15             | Reserved   | Reserved                    |                         |
 
-Entre ellos está IPv5, que, aunque en gran medida desconocido para el público, ya existía como ST (_Stream Protocol_). Desarrollado en los años 80, IPv5 se diseñó para Address una necesidad creciente en aquella época: proporcionar "_Calidad de Servicio_" (QoS) a determinados flujos de datos que requerían una transmisión continua y estable, como la Voz sobre IP o los flujos multimedia. Su objetivo era garantizar ancho de banda y prioridad de extremo a extremo, un concepto similar al que hoy ofrece el RSVP (_Protocolo de Reserva de Recursos_) para reservar dinámicamente recursos de red en los routers modernos.
+Entre ellos está IPv5, que, aunque en gran medida desconocido para el público, ya existía como ST (_Stream Protocol_). Desarrollado en los años 80, IPv5 se diseñó para abordar una necesidad creciente en aquella época: proporcionar "_Calidad de Servicio_" (QoS) a determinados flujos de datos que requerían una transmisión continua y estable, como la Voz sobre IP o los flujos multimedia. Su objetivo era garantizar ancho de banda y prioridad de extremo a extremo, un concepto similar al que hoy ofrece el RSVP (_Protocolo de Reserva de Recursos_) para reservar dinámicamente recursos de red en los routers modernos.
 
-
-Sin embargo, IPv5 siguió siendo experimental y sólo se implantó en un pequeño número de dispositivos de red. Su escasa adopción, unida a la creciente necesidad de más espacio Address, llevó a los diseñadores de Internet a pasar directamente de IPv4 a IPv6. Así se evitaron tanto las limitaciones de Address de IPv4 como cualquier riesgo de confusión o incompatibilidad con las especificaciones experimentales de IPv5.
+Sin embargo, IPv5 siguió siendo experimental y solo se implantó en un pequeño número de dispositivos de red. Su escasa adopción, unida a la creciente necesidad de más espacio de direcciones, llevó a los diseñadores de Internet a pasar directamente de IPv4 a IPv6. Así se evitaron tanto las limitaciones de direcciones de IPv4 como cualquier riesgo de confusión o incompatibilidad con las especificaciones experimentales de IPv5.
 
 
 Aunque IPv5 nunca llegó a utilizarse de forma generalizada, desempeñó un papel importante en las primeras ideas sobre calidad de servicio y gestión del tráfico. Hoy es más un marcador histórico que un estándar operativo.
 
 
-**Recordatorio** - Un protocolo es un conjunto de reglas de comunicación: estructuras de datos, algoritmos, formatos de paquetes y convenciones que permiten que diferentes dispositivos Exchange información de forma fiable y comprensible. Un servicio es la implementación concreta de un protocolo a través de programas específicos (clientes, servidores) que siguen estas reglas y ponen la funcionalidad a disposición de usuarios y aplicaciones.
-
+**Recordatorio** - Un protocolo es un conjunto de reglas de comunicación: estructuras de datos, algoritmos, formatos de paquetes y convenciones que permiten que diferentes dispositivos intercambien información de forma fiable y comprensible. Un servicio es la implementación concreta de un protocolo a través de programas específicos (clientes, servidores) que siguen estas reglas y ponen la funcionalidad a disposición de usuarios y aplicaciones.
 
 Ahora podemos examinar más de cerca la estructura y el funcionamiento del protocolo IP, la base esencial de toda comunicación en red.
 
-
-
 ## El protocolo IP
-
 
 <chapterId>758fddbd-b652-4c18-bd1e-d038bd2e4d05</chapterId>
 
-
-
 ### Definiciones e información general
 
-
 El protocolo IP, o "***Protocolo de Internet***", es la columna vertebral del modelo TCP/IP. Transporta paquetes de datos de un host a otro dentro de una red, ya sea local o mundial. Tiene dos funciones clave: gestionar el direccionamiento lógico de los dispositivos y garantizar el encaminamiento de los paquetes a través de redes a menudo heterogéneas e interconectadas.
-
 
 A nivel físico, la transmisión se basa en interfaces de hardware para establecer conexiones punto a punto entre nodos. Sin embargo, es el protocolo IP el que hace posible la comunicación de extremo a extremo, dando a cada paquete la información que necesita para navegar por múltiples caminos posibles hasta su destino.
 
 
-Tres Elements de configuración de red determinan cómo se envía un paquete en su camino:
+Tres elementos de configuración de red determinan cómo se envía un paquete en su camino:
 
 
-- **IP Address**: identifica unívocamente el host de destino en la red.
-- **Máscara de subred**: especifica qué parte de la Address identifica la red y qué parte identifica el host, lo que permite la división lógica en subredes.
-- **La pasarela**: indica el encaminador intermedio por el que debe pasar el paquete para llegar a una red externa o a otro segmento de la red local.
+- **Dirección IP**: identifica de forma única el host de destino en la red.
+- **Máscara de subred**: especifica qué parte de la dirección identifica la red y qué parte identifica el host, lo que permite la división lógica en subredes.
+- **Puerta de enlace (gateway)**: indica el encaminador intermedio por el que debe pasar el paquete para llegar a una red externa o a otro segmento de la red local.
 
 
 En Internet, los datos no fluyen como un flujo continuo, sino que se envían como **datagramas**: bloques independientes de datos, cada uno encapsulado con toda la información necesaria para su entrega. Este es el principio de la **conmutación de paquetes**, en la que la información se divide en unidades autónomas que pueden tomar distintos caminos para llegar al mismo destinatario.
 
-
-Además de la carga útil (*payload*), cada datagrama IP contiene una cabecera estructurada con campos como el Address de destino, el Address de origen, el tipo de servicio, el número de versión del protocolo y otra información de control necesaria para gestionar la transmisión.
-
+Además de la carga útil (*payload*), cada datagrama IP contiene una cabecera estructurada con campos como la dirección de destino, la dirección de origen, el tipo de servicio, el número de versión del protocolo y otra información de control necesaria para gestionar la transmisión.
 
 El tamaño máximo teórico de un datagrama IP es de **65.536 octetos**, límite fijado por el campo de longitud total de la cabecera. En la práctica, rara vez se alcanza este tamaño, ya que las redes físicas que transportan los paquetes (Ethernet, Wi-Fi, fibra óptica...) suelen imponer unos límites más estrictos conocidos como **MTU** (_Unidad Máxima de Transmisión_). Si un datagrama supera la MTU del enlace físico, debe dividirse en paquetes más pequeños, cada uno enviado por separado y reensamblado a su llegada.
 
-
 Esta adaptabilidad hace del IP un protocolo robusto y flexible, capaz de funcionar con una amplia variedad de tecnologías subyacentes, manteniendo al mismo tiempo la compatibilidad universal entre sistemas y redes heterogéneos.
 
-
-
 ### Fragmentación de datagramas IP
-
 
 Cuando un datagrama IP tiene que pasar por una red cuya capacidad de transmisión es menor que la del propio datagrama, hay que **fragmentarlo** para que pueda viajar sin problemas. Este límite de tamaño físico se denomina **MTU** (Unidad de Transmisión Máxima): el mayor tamaño de trama que puede pasar por una red determinada sin dividirse.
 
@@ -392,80 +367,57 @@ Cuando un datagrama supera la MTU de un segmento de red que debe atravesar, el e
 
 ![Image](assets/es/007.webp)
 
-
-
 El proceso de fragmentación funciona así:
-
 
 - El router divide el datagrama en fragmentos que no superan la MTU de la red de destino.
 - El tamaño de cada fragmento es múltiplo de 8 bytes, ya que el protocolo IP utiliza esta unidad para codificar el offset de reensamblado.
 - Cada fragmento recibe su propia cabecera IP, que contiene la información que necesita el destinatario final para reensamblarlos en el orden correcto.
 
-
 Una vez fragmentados, los trozos viajan independientemente por la red. Pueden tomar rutas diferentes, dependiendo de las tablas de enrutamiento, las cargas de los enlaces o las interrupciones. No hay garantía de que lleguen en el orden en que se enviaron.
 
-
-A su llegada, la máquina receptora se encarga del **reensamblaje**. Utilizando la información de las cabeceras (identificador compartido, desplazamiento y banderas de fragmentación), vuelve a colocar los fragmentos en el orden correcto para reconstruir el datagrama original antes de transmitirlo al siguiente Layer. Si se pierde o corrompe aunque sólo sea un fragmento, normalmente se descarta todo el datagrama. Si se pierde o corrompe un solo fragmento, normalmente se descarta todo el datagrama, ya que sin cada uno de ellos el resultado sería incompleto o inutilizable.
-
+A su llegada, la máquina receptora se encarga del **reensamblaje**. Utilizando la información de las cabeceras (identificador compartido, desplazamiento y banderas de fragmentación), vuelve a colocar los fragmentos en el orden correcto para reconstruir el datagrama original antes de transmitirlo ala siguiente capa. Si se pierde o corrompe aunque solo sea un fragmento, normalmente se descarta todo el datagrama. Si se pierde o corrompe un solo fragmento, normalmente se descarta todo el datagrama, ya que sin cada uno de ellos el resultado sería incompleto o inutilizable.
 
 Aunque eficaces, la fragmentación y el reensamblado tienen sus inconvenientes: procesamiento adicional para routers y hosts, y mayor probabilidad de pérdida de paquetes, lo que puede aumentar las retransmisiones. Por eso es importante gestionar con cuidado las MTU y optimizar el tamaño de los paquetes para que la comunicación IP sea fluida y eficiente.
 
-
-
 ### Encapsulación de datos
-
 
 Para garantizar que los datos se encaminan correctamente a través de las capas del modelo TCP/IP, el proceso de **encapsulación** desempeña un papel clave. En cada etapa del viaje de un mensaje desde la aplicación del remitente hasta la máquina del destinatario, se añade información adicional, conocida como cabeceras. Estas cabeceras dan a los dispositivos intermedios y a las capas de software las instrucciones que necesitan para procesar, entregar y, si es necesario, volver a ensamblar los datos.
 
-
-Cuando se envía un mensaje, éste pasa por las cuatro capas de la pila TCP/IP. En cada Layer, se añade una nueva cabecera delante de los datos existentes: cada cabecera contiene metadatos específicos, como direcciones lógicas o físicas, puertos de comunicación, números de secuencia, indicadores de control de errores y cualquier información necesaria para gestionar la transmisión y el enrutamiento.
+Cuando se envía un mensaje, éste pasa por las cuatro capas de la pila TCP/IP. En cada capa, se añade una nueva cabecera delante de los datos existentes: cada cabecera contiene metadatos específicos, como direcciones lógicas o físicas, puertos de comunicación, números de secuencia, indicadores de control de errores y cualquier información necesaria para gestionar la transmisión y el enrutamiento.
 
 
 La transmisión sigue así un proceso estructurado:
 
 
-- La Aplicación Layer crea el **mensaje** inicial, que contiene los datos en bruto.
-- El Layer de transporte lo encapsula en un **segmento**, añadiendo puertos de origen y destino, números de secuencia y mecanismos de control de flujo.
-- Internet Layer añade al segmento una cabecera IP para formar un **datagrama**, especificando las direcciones IP de origen y destino.
-- Network Access Layer envuelve el datagrama en una **trama**, añadiendo direcciones MAC y códigos de comprobación de integridad (CRC).
+- La capa de aplicación crea el **mensaje** inicial, que contiene los datos en bruto.
+- La capa de transporte lo encapsula en un **segmento**, añadiendo puertos de origen y destino, números de secuencia y mecanismos de control de flujo.
+- La capa de internet añade al segmento una cabecera IP para formar un **datagrama**, especificando las direcciones IP de origen y destino.
+- La capa de acceso a la red envuelve el datagrama en una **trama**, añadiendo direcciones MAC y códigos de comprobación de integridad (CRC).
 
 
 
 ![Image](assets/es/008.webp)
 
 
-
 Este proceso de encapsulación garantiza tanto la integridad y trazabilidad de los datos como su adaptabilidad: al pasar de una red a otra, las cabeceras proporcionan a los dispositivos la información necesaria para elegir la ruta, comprobar la validez o realizar la fragmentación si es necesario.
 
 
-A su llegada, el proceso se invierte: la máquina receptora recibe la trama en la Layer de Acceso a Red, que lee y elimina la cabecera correspondiente. A continuación, el datagrama pasa a la Layer de Internet, que lee la cabecera IP y la elimina a su vez para entregar el segmento a la Layer de Transporte. La Layer de Transporte procesa las cabeceras de transporte, comprueba la integridad del flujo y, finalmente, entrega el **mensaje** a la aplicación de destino en su estado original.
-
-
+A su llegada, el proceso se invierte: la máquina receptora recibe la trama en la capa de Acceso a Red, que lee y elimina la cabecera correspondiente. A continuación, el datagrama pasa a la capa de Internet, que lee la cabecera IP y la elimina a su vez para entregar el segmento a la capa de Transporte. La capa de Transporte procesa las cabeceras de transporte, comprueba la integridad del flujo y, finalmente, entrega el **mensaje** a la aplicación de destino en su estado original.
 
 ![Image](assets/es/009.webp)
 
+La transformación de los datos en cada capa puede resumirse así:
 
-
-La transformación de los datos en cada Layer puede resumirse así:
-
-
-- **Mensaje**: bloque de información en la Aplicación Layer.
-- **Segmento**: unidad de datos una vez encapsulada por el Layer de transporte.
-- **Datagrama**: forma adoptada tras la adición de la cabecera IP por el Layer de Internet.
-- **Trama**: bloque final listo para su transmisión a través del medio físico por el Layer de acceso a la red.
-
-
+- **Mensaje**: bloque de información en la capa de Aplicación.
+- **Segmento**: unidad de datos una vez encapsulada por la capa de transporte.
+- **Datagrama**: forma adoptada tras la adición de la cabecera IP por la capa de Internet.
+- **Trama**: bloque final listo para su transmisión a través del medio físico por la capa de acceso a la red.
 
 ![Image](assets/es/010.webp)
 
-
-
 Este proceso, esencial para la fiabilidad y universalidad de las comunicaciones por Internet, garantiza que cada dato, por fragmentado o complejo que sea, pueda transportarse de extremo a extremo sin dejar de ser comprensible y utilizable por la máquina receptora.
 
-
-
 ### Direccionamiento IP
-
 
 Incluso con la conmutación de paquetes, la fragmentación y la encapsulación, una red no podría funcionar sin un sistema de direccionamiento fiable. Para garantizar que cada paquete de datos llega al destinatario correcto, Internet Layer utiliza un identificador único: el **IP Address**.
 
@@ -692,7 +644,7 @@ Para mejorar la fiabilidad, TCP utiliza un temporizador: una vez enviado un segm
 
 
 
-TCP es capaz de detectar y manejar duplicados. Si llega un segmento retransmitido pero también aparece el original, el receptor utiliza los números de secuencia para identificar el duplicado y quedarse sólo con la copia correcta, eliminando cualquier ambigüedad.
+TCP es capaz de detectar y manejar duplicados. Si llega un segmento retransmitido pero también aparece el original, el receptor utiliza los números de secuencia para identificar el duplicado y quedarse solo con la copia correcta, eliminando cualquier ambigüedad.
 
 
 Para que este proceso funcione, ambas máquinas deben tener en común sus números de secuencia iniciales. Esto se garantiza siguiendo un estricto procedimiento de conexión: por un lado, el **servidor** escucha en un puerto específico, a la espera de una solicitud entrante (modo pasivo); por otro, el **cliente** inicia activamente la conexión enviando una solicitud al servidor en el mismo puerto de servicio.
@@ -718,7 +670,7 @@ La sincronización de secuencias Exchange se basa en el famoso mecanismo **"*thr
 Este protocolo Exchange garantiza que ambas partes comparten la misma base de numeración antes de transmitir los datos de la carga útil. Una vez completada esta sincronización, se abre la sesión: ahora los segmentos pueden viajar en ambas direcciones, cada uno con acuse de recibo, lo que garantiza la máxima fiabilidad del flujo de datos.
 
 
-Este ***handshake de tres vías*** sólo afecta al establecimiento de la conexión. Para el cierre, TCP utiliza un *handshake de cuatro vías*: FIN → ACK → FIN → ACK, que garantiza que no se pierda ningún segmento en tránsito antes de que se libere completamente la conexión.
+Este ***handshake de tres vías*** solo afecta al establecimiento de la conexión. Para el cierre, TCP utiliza un *handshake de cuatro vías*: FIN → ACK → FIN → ACK, que garantiza que no se pierda ningún segmento en tránsito antes de que se libere completamente la conexión.
 
 
 Aunque diseñado para ser robusto y fiable, este proceso también ha dado lugar a vulnerabilidades explotables. Por ejemplo, ataques como el **IP Spoofing** pretenden eludir o corromper esta relación de confianza haciéndose pasar por una máquina autorizada mediante números de secuencia falsificados, creando una brecha que permite interceptar o manipular el flujo de datos.
@@ -758,7 +710,7 @@ Esta gestión precisa, que combina el encaminamiento flexible de IP con el contr
 En algunos casos, sin embargo, la fiabilidad absoluta no es la prioridad: lo son la velocidad y la sencillez. Es el caso de aplicaciones como el streaming en directo o la VoIP, que pueden tolerar cierta pérdida de paquetes sin afectar gravemente a la experiencia del usuario. En estos casos, se prefiere el **UDP** (_Protocolo de Datagramas de Usuario_).
 
 
-UDP funciona según un principio fundamentalmente distinto de TCP: es **sin conexión**, lo que significa que no se establece ninguna relación previa entre emisor y receptor. Cuando una máquina envía paquetes a través de UDP, éstos se transmiten en un solo sentido; el receptor no envía acuses de recibo, y el emisor no tiene confirmación de que el mensaje haya llegado. La cabecera UDP es intencionadamente mínima, conteniendo sólo el puerto de origen, el puerto de destino, la longitud del segmento y una suma de comprobación, sin acuse de recibo incorporado ni mecanismo de control de estado. Como siempre, las direcciones IP son transportadas por la cabecera IP subyacente.
+UDP funciona según un principio fundamentalmente distinto de TCP: es **sin conexión**, lo que significa que no se establece ninguna relación previa entre emisor y receptor. Cuando una máquina envía paquetes a través de UDP, éstos se transmiten en un solo sentido; el receptor no envía acuses de recibo, y el emisor no tiene confirmación de que el mensaje haya llegado. La cabecera UDP es intencionadamente mínima, conteniendo solo el puerto de origen, el puerto de destino, la longitud del segmento y una suma de comprobación, sin acuse de recibo incorporado ni mecanismo de control de estado. Como siempre, las direcciones IP son transportadas por la cabecera IP subyacente.
 
 
 Una analogía común es que TCP es como una **llamada telefónica**, donde se establece un circuito, que se sigue y controla a lo largo de la conversación. Mientras que el protocolo UDP es como **enviar un correo**, donde el remitente desliza una carta en un buzón sin prueba inmediata de entrega ni respuesta sistemática.
@@ -804,7 +756,7 @@ Dos aspectos clave rigen estos intercambios:
 
 
 
-La arquitectura por capas sigue el principio de que cada Layer procesa sólo la información que entra dentro de su ámbito: las estructuras de datos, las cabeceras y los mecanismos de control varían de una Layer a otra, pero juntas forman un sistema coherente, que garantiza que los datos se encaminan gradualmente hacia su destino final.
+La arquitectura por capas sigue el principio de que cada Layer procesa solo la información que entra dentro de su ámbito: las estructuras de datos, las cabeceras y los mecanismos de control varían de una Layer a otra, pero juntas forman un sistema coherente, que garantiza que los datos se encaminan gradualmente hacia su destino final.
 
 
 **Recordatorio**: Se utiliza una terminología específica para describir las unidades de datos intercambiadas entre capas:
@@ -1056,7 +1008,7 @@ El agotamiento de IPv4 se confirmó oficialmente en 2011. Para prolongar su vida
 - Recuperación de bloques Address no utilizados o devueltos voluntariamente por las empresas
 
 
-Estas medidas demuestran que el direccionamiento IP no es sólo un reto técnico, sino también una cuestión de gobernanza mundial, fundamental para la continua expansión de Internet.
+Estas medidas demuestran que el direccionamiento IP no es solo un reto técnico, sino también una cuestión de gobernanza mundial, fundamental para la continua expansión de Internet.
 
 
 
@@ -1088,7 +1040,7 @@ Un nombre de dominio siempre se estructura jerárquicamente, con cada nivel sepa
 El sistema DNS está diseñado como un **árbol de zonas**. Una **zona** es una sección del espacio de nombres de dominio gestionada por un servidor DNS específico. Una misma zona puede contener múltiples **subdominios**, que a su vez pueden ser delegados a otras zonas gestionadas por diferentes servidores. Los administradores son responsables del mantenimiento de sus zonas: gestión de actualizaciones, delegaciones y gestión general.
 
 
-Esta estructura permite no sólo apuntar a un dominio principal (por ejemplo, `ejemplo.com`), sino también ajustar registros para hosts individuales (`www`, `mail`, `ftp`, etc.). En los primeros tiempos de las redes, esta asignación se gestionaba con archivos estáticos como (`/etc/hosts` en sistemas Unix), pero este método pronto se volvió poco práctico para una Internet interconectada y en rápido crecimiento.
+Esta estructura permite no solo apuntar a un dominio principal (por ejemplo, `ejemplo.com`), sino también ajustar registros para hosts individuales (`www`, `mail`, `ftp`, etc.). En los primeros tiempos de las redes, esta asignación se gestionaba con archivos estáticos como (`/etc/hosts` en sistemas Unix), pero este método pronto se volvió poco práctico para una Internet interconectada y en rápido crecimiento.
 
 
 Es importante entender que un **servidor DNS** puede tener un alcance limitado. Por ejemplo, el servidor DNS interno de una empresa puede no ser directamente accesible desde Internet. Si este DNS no está configurado para reenviar consultas, o no tiene una relación de confianza con otros servidores, algunas consultas fallarán: ni el nombre ni la IP Address podrán entonces resolverse fuera de la zona definida.
@@ -1144,7 +1096,7 @@ Los motivos de un cambio de este tipo son variados. Puede ser la necesidad de qu
 El cambio de la MAC Address también puede estar motivado por consideraciones de privacidad: al ocultar el identificador único grabado en la tarjeta, los usuarios reducen la posibilidad de que su dispositivo sea rastreado por redes o servicios de vigilancia. Sin embargo, esta práctica no está exenta de consecuencias. Cambiar una MAC Address puede perturbar ciertos dispositivos de filtrado, o exigir que se reconfiguren los cortafuegos para autorizar el nuevo hardware.
 
 
-Algunas redes, especialmente las Wi-Fi, utilizan el filtrado MAC Address para permitir sólo dispositivos con direcciones aprobadas. Aunque esto añade un nivel básico de control, no es seguro por sí solo. Un atacante puede capturar una MAC Address válida ya autorizada en la red y clonarla para saltarse las restricciones. Por esta razón, el filtrado MAC siempre debe combinarse con medidas de seguridad más fuertes.
+Algunas redes, especialmente las Wi-Fi, utilizan el filtrado MAC Address para permitir solo dispositivos con direcciones aprobadas. Aunque esto añade un nivel básico de control, no es seguro por sí solo. Un atacante puede capturar una MAC Address válida ya autorizada en la red y clonarla para saltarse las restricciones. Por esta razón, el filtrado MAC siempre debe combinarse con medidas de seguridad más fuertes.
 
 
 ### Correspondencia MAC/IP
@@ -1204,13 +1156,13 @@ El protocolo ARP es, por tanto, fundamental: proporciona el enlace entre las dir
 Esta tabla ARP actúa como un mini directorio de mapeo, actualizado dinámicamente de forma similar a como DNS asocia nombres de dominio con direcciones IP. Sin ARP, no sería posible una Exchange local, ya que la Layer de enlace de datos necesita conocer la Address MAC para encapsular correctamente las tramas Ethernet.
 
 
-Por el contrario, el protocolo RARP (_Reverse Address Resolution Protocol_) se diseñó para la situación opuesta: permitir que una máquina que sólo conoce su Address MAC descubra su Address IP. Este era el caso habitual de las estaciones de trabajo más antiguas sin un disco Hard local, que tenían que arrancar a través de la red y solicitar una Address IP. RARP fue eventualmente reemplazado por **BOOTP** y luego **DHCP**, que son más flexibles y automatizados.
+Por el contrario, el protocolo RARP (_Reverse Address Resolution Protocol_) se diseñó para la situación opuesta: permitir que una máquina que solo conoce su Address MAC descubra su Address IP. Este era el caso habitual de las estaciones de trabajo más antiguas sin un disco Hard local, que tenían que arrancar a través de la red y solicitar una Address IP. RARP fue eventualmente reemplazado por **BOOTP** y luego **DHCP**, que son más flexibles y automatizados.
 
 
 Estos protocolos de asociación desempeñan un papel importante en el encaminamiento. Un encaminador es esencialmente una máquina con múltiples interfaces de red, que conecta diferentes segmentos. Cuando un router recibe una trama, la procesa para extraer el datagrama IP y examina la cabecera IP para determinar el destino. Si el destino está en una red conectada directamente, el datagrama se entrega directamente tras actualizar la cabecera. Si el destino pertenece a otra red, el router consulta su tabla de encaminamiento para identificar la mejor ruta, o _siguiente salto_, hacia el destino.
 
 
-Esto divide la ruta en segmentos más cortos y manejables. Cada encaminador intermedio sólo conoce el siguiente paso, no necesariamente el destino final.
+Esto divide la ruta en segmentos más cortos y manejables. Cada encaminador intermedio solo conoce el siguiente paso, no necesariamente el destino final.
 
 
 **Recordatorio:** La entrega directa se produce cuando el remitente y el destinatario se encuentran en la misma red física. En caso contrario, la entrega es indirecta y pasa por uno o varios routers.
@@ -1242,7 +1194,7 @@ Por último, los protocolos de encaminamiento dinámico incluyen estándares com
 ### Definición
 
 
-Network Address Translation_ (NAT) es una técnica desarrollada para Address el agotamiento gradual de las direcciones IPv4 disponibles. Diseñada como solución provisional antes de la adopción generalizada de IPv6, NAT permitía a empresas y particulares seguir conectando un gran número de máquinas utilizando sólo un conjunto limitado de direcciones IP públicas.
+Network Address Translation_ (NAT) es una técnica desarrollada para Address el agotamiento gradual de las direcciones IPv4 disponibles. Diseñada como solución provisional antes de la adopción generalizada de IPv6, NAT permitía a empresas y particulares seguir conectando un gran número de máquinas utilizando solo un conjunto limitado de direcciones IP públicas.
 
 
 **Recordatorio importante:** el paso de IPv4 a IPv6 resuelve teóricamente el problema del agotamiento al ampliar el espacio Address de 32 bits a 128 bits, proporcionando un número casi ilimitado de direcciones (2^128). En la práctica, sin embargo, la transición es aún incompleta, y NAT sigue siendo ampliamente utilizado hoy en día.
@@ -1254,7 +1206,7 @@ El principio en el que se basa NAT es sencillo pero muy eficaz: en lugar de asig
 Este enfoque tiene una ventaja inmediata: oculta completamente la arquitectura interna de la red. Para un observador externo, todas las peticiones de estaciones de trabajo, servidores o impresoras parecen proceder de la misma identidad pública. Las direcciones privadas, normalmente tomadas de rangos reservados (por ejemplo, 192.168.x.x o 10.x.x.x), permanecen invisibles desde Internet.
 
 
-Además de hacer frente a la escasez de IPv4, NAT también refuerza la seguridad al crear una primera barrera lógica entre la red interna y la pública. Las comunicaciones entrantes no solicitadas se bloquean de forma natural, ya que sólo las conexiones iniciadas desde el interior de la red se benefician de la traducción necesaria para recibir respuestas.
+Además de hacer frente a la escasez de IPv4, NAT también refuerza la seguridad al crear una primera barrera lógica entre la red interna y la pública. Las comunicaciones entrantes no solicitadas se bloquean de forma natural, ya que solo las conexiones iniciadas desde el interior de la red se benefician de la traducción necesaria para recibir respuestas.
 
 
 
@@ -1277,7 +1229,7 @@ NAT puede implementarse de diferentes maneras para adaptarse a necesidades espec
 **La traducción dinámica**, por otro lado, utiliza un conjunto de direcciones IP públicas. Cuando un host interno inicia una conexión, el router asigna temporalmente una de estas direcciones públicas a la Address privada del host mientras dure la sesión. El enlace es 1 a 1, pero temporal: una vez finalizada la conexión, la Address pública pasa a estar disponible para otro dispositivo. Por tanto, la NAT dinámica reduce el número de direcciones públicas necesarias cuando no todos los equipos están conectados al mismo tiempo, pero sigue necesitando un bloque de direcciones externas al menos tan grande como el número máximo de conexiones simultáneas.
 
 
-**La traducción de puertos** (PAT), también conocida como **sobrecarga de NAT** o **enmascaramiento de IP**, va un paso más allá: todos los dispositivos privados comparten una única IP pública Address (o un número muy pequeño). Para distinguir las sesiones, la pasarela modifica no sólo el Address de origen, sino también el puerto de origen. Mantiene una tabla que vincula cada par **(Address privada, puerto privado)** a un único par **(Address pública, puerto público)**. Esta forma de NAT se utiliza en casi todos los routers domésticos, permitiendo que docenas de dispositivos (ordenadores, smartphones, objetos conectados, etc.) compartan la misma IP Address pública, manteniendo una comunicación fluida.
+**La traducción de puertos** (PAT), también conocida como **sobrecarga de NAT** o **enmascaramiento de IP**, va un paso más allá: todos los dispositivos privados comparten una única IP pública Address (o un número muy pequeño). Para distinguir las sesiones, la pasarela modifica no solo el Address de origen, sino también el puerto de origen. Mantiene una tabla que vincula cada par **(Address privada, puerto privado)** a un único par **(Address pública, puerto público)**. Esta forma de NAT se utiliza en casi todos los routers domésticos, permitiendo que docenas de dispositivos (ordenadores, smartphones, objetos conectados, etc.) compartan la misma IP Address pública, manteniendo una comunicación fluida.
 
 
 Por tanto, NAT prolonga la vida útil de IPv4, al tiempo que añade un valioso Layer de segmentación y seguridad. Sin embargo, a medida que aumente la adopción de IPv6 y se generalice el uso de su vasto espacio Address, es probable que el papel de NAT disminuya, aunque por motivos de compatibilidad y control, seguirá utilizándose en algunos entornos para segmentar y filtrar el tráfico.
@@ -1728,7 +1680,7 @@ Además, una única secuencia continua de grupos cero puede sustituirse por::, a
 ```
 
 
-**Atención:** esta regla es estricta: sólo se puede sustituir una secuencia de ceros consecutivos por `::`. Si una Address contiene varias secuencias de ceros, sólo se condensa la más larga. Esto garantiza tanto la unicidad como la legibilidad.
+**Atención:** esta regla es estricta: solo se puede sustituir una secuencia de ceros consecutivos por `::`. Si una Address contiene varias secuencias de ceros, solo se condensa la más larga. Esto garantiza tanto la unicidad como la legibilidad.
 
 
 **Detalle importante:** el carácter `:` utilizado para separar bloques hexadecimales puede causar ambigüedad en las URL, ya que `:` también se utiliza para indicar un puerto de servicio. Para evitar confusiones, las direcciones IPv6 en URL deben ir entre corchetes `[ ]`.
@@ -1878,7 +1830,7 @@ En IPv6, las **direcciones de multidifusión** sustituyen al mecanismo de difusi
 Cada Address multicast incluye un campo especial _scope_ de 4 bits, que define el límite geográfico o lógico de la difusión:
 
 
-- Un ámbito de `1` significa que el paquete es sólo para el dispositivo local.
+- Un ámbito de `1` significa que el paquete es solo para el dispositivo local.
 - Un ámbito de `2` restringe el paquete al enlace local: todos los dispositivos del mismo segmento físico o virtual pueden recibirlo.
 - Un ámbito de "5" amplía el alcance a un sitio, normalmente toda una red corporativa.
 - Un ámbito de `8` amplía el alcance a una organización, permitiendo la entrega en todas las subredes de la misma entidad.
@@ -1897,7 +1849,7 @@ La estructura de una multidifusión IPv6 Address incluye:
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 
-Un ejemplo bien conocido de multidifusión IPv6 en acción es el _Neighbor Discovery Protocol_ (NDP). En lugar de utilizar ARP como en IPv4, NDP se basa en direcciones multicast como `ff02::1:ff00:0/104` para difundir solicitudes de descubrimiento de vecinos, dirigiéndose sólo a los hosts relevantes en el mismo enlace.
+Un ejemplo bien conocido de multidifusión IPv6 en acción es el _Neighbor Discovery Protocol_ (NDP). En lugar de utilizar ARP como en IPv4, NDP se basa en direcciones multicast como `ff02::1:ff00:0/104` para difundir solicitudes de descubrimiento de vecinos, dirigiéndose solo a los hosts relevantes en el mismo enlace.
 
 
 Al definir los ámbitos Address con tanta precisión, IPv6 estructura cómo se envían, reciben y enrutan los flujos de datos. Esta granularidad hace que el protocolo sea más flexible y eficiente para gestionar comunicaciones locales y globales, al tiempo que evita los inconvenientes de la difusión generalizada.
@@ -2089,7 +2041,7 @@ He aquí un resumen de los diferentes tipos de cabeceras de extensión definidas
 #### Cabecera Hop-by-Hop
 
 
-Esta cabecera, si está presente, siempre se coloca inmediatamente después de la cabecera base. Contiene información que debe ser procesada por cada enrutador a lo largo de la ruta del paquete, a diferencia de la mayoría de las otras cabeceras, que normalmente son manejadas sólo por el nodo de destino. Los usos típicos incluyen la señalización de parámetros globales o la solicitud de pasos de procesamiento específicos a medida que el paquete viaja a través de la red.
+Esta cabecera, si está presente, siempre se coloca inmediatamente después de la cabecera base. Contiene información que debe ser procesada por cada enrutador a lo largo de la ruta del paquete, a diferencia de la mayoría de las otras cabeceras, que normalmente son manejadas solo por el nodo de destino. Los usos típicos incluyen la señalización de parámetros globales o la solicitud de pasos de procesamiento específicos a medida que el paquete viaja a través de la red.
 
 
 ![Image](assets/es/028.webp)
@@ -2102,7 +2054,7 @@ La cabecera de enrutamiento especifica una lista de direcciones intermedias por 
 
 
 - Enrutamiento estricto: la ruta exacta está predefinida
-- Enrutamiento flexible: sólo se especifican algunos pasos obligatorios.
+- Enrutamiento flexible: solo se especifican algunos pasos obligatorios.
 
 
 Los cuatro primeros campos de esta cabecera de enraizamiento son:
@@ -2123,7 +2075,7 @@ El campo "Segmentos restantes" comienza con el número total de segmentos restan
 #### Cabecera de fragmentación
 
 
-En IPv6, sólo el host de origen puede fragmentar un datagrama, a diferencia de IPv4, donde los routers también podían hacerlo. Todos los nodos IPv6 deben ser capaces de manejar paquetes de al menos 1280 bytes. Si un router encuentra un paquete mayor que la MTU del siguiente enlace, envía un mensaje *ICMPv6 Packet Too Big* de vuelta a la fuente, que entonces ajusta el tamaño de sus transmisiones.
+En IPv6, solo el host de origen puede fragmentar un datagrama, a diferencia de IPv4, donde los routers también podían hacerlo. Todos los nodos IPv6 deben ser capaces de manejar paquetes de al menos 1280 bytes. Si un router encuentra un paquete mayor que la MTU del siguiente enlace, envía un mensaje *ICMPv6 Packet Too Big* de vuelta a la fuente, que entonces ajusta el tamaño de sus transmisiones.
 
 
 La cabecera de fragmentación contiene los siguientes campos:
@@ -2155,7 +2107,7 @@ En caso de intento de modificación fraudulenta, el código de autenticación de
 Esta cabecera está destinada únicamente al destinatario final del datagrama. Puede utilizarse para añadir opciones o metadatos específicos de la aplicación, sin que los encaminadores intermedios los tengan en cuenta.
 
 
-Inicialmente, esta opción no estaba definida en el protocolo. Sin embargo, esta cabecera se introdujo cuando se diseñó IPv6, para permitir que se añadieran futuras extensiones sin modificar la estructura general del paquete. La opción null, por ejemplo, sólo se utiliza para rellenar la cabecera con un múltiplo de 8 bytes con fines de alineación de memoria.
+Inicialmente, esta opción no estaba definida en el protocolo. Sin embargo, esta cabecera se introdujo cuando se diseñó IPv6, para permitir que se añadieran futuras extensiones sin modificar la estructura general del paquete. La opción null, por ejemplo, solo se utiliza para rellenar la cabecera con un múltiplo de 8 bytes con fines de alineación de memoria.
 
 
 ![Image](assets/es/032.webp)
@@ -2186,7 +2138,7 @@ ipv6.mydmn.org.         IN      AAAA    2001:66c:2a8:22::c100:68b
 ```
 
 
-Este registro indica que el dominio `ipv6.mydmn.org` resuelve a la Address IPv6 `2001:66c:2a8:22::c100:68b`. Es posible, e incluso recomendable para una compatibilidad máxima, asociar el mismo nombre de dominio a varias direcciones IP, ya sean IPv4 (mediante un registro A) o IPv6 (mediante un registro AAAA). Esto permite a los clientes compatibles con IPv6 preferir IPv6, al tiempo que garantiza que los clientes sólo IPv4 sigan siendo compatibles.
+Este registro indica que el dominio `ipv6.mydmn.org` resuelve a la Address IPv6 `2001:66c:2a8:22::c100:68b`. Es posible, e incluso recomendable para una compatibilidad máxima, asociar el mismo nombre de dominio a varias direcciones IP, ya sean IPv4 (mediante un registro A) o IPv6 (mediante un registro AAAA). Esto permite a los clientes compatibles con IPv6 preferir IPv6, al tiempo que garantiza que los clientes solo IPv4 sigan siendo compatibles.
 
 
 Además, el DNS admite la resolución inversa, lo que significa que puede buscar el nombre de dominio asociado a una IP Address determinada. En el caso de IPv6, esta operación utiliza registros PTR colocados en la zona `ip6.arpa`. Esta zona está reservada específicamente para la resolución inversa IPv6. Para IPv4, es la zona `in-addr.arpa`.
@@ -2275,7 +2227,7 @@ También hemos detallado cómo se asignan los bloques Address, empezando por IAN
 Hemos visto que DNS se ha adaptado a IPv6 con la introducción del registro AAAA, y que los mecanismos de resolución inversa se basan ahora en la zona `ip6.arpa`. Es importante destacar que el DNS sigue siendo independiente del protocolo de transporte utilizado (IPv4 o IPv6), lo que garantiza una interoperabilidad sin fisuras en un entorno de doble pila.
 
 
-Por tanto, IPv6 no es sólo una mejora incremental sobre IPv4, sino un rediseño completo del sistema de direccionamiento, construido para responder a los retos actuales y futuros de la Internet global.
+Por tanto, IPv6 no es solo una mejora incremental sobre IPv4, sino un rediseño completo del sistema de direccionamiento, construido para responder a los retos actuales y futuros de la Internet global.
 
 
 En la parte final de este curso NET 302, pasaremos a la práctica y nos centraremos en las herramientas de diagnóstico de redes.
@@ -2334,7 +2286,7 @@ arp -a 192.168.1.5
 Esto facilita la comprobación de si una determinada IP Address está presente en la caché, lo que puede ayudar a diagnosticar fallos de comunicación entre dos hosts de la misma red.
 
 
-Del mismo modo, para mostrar sólo las entradas ARP asociadas con una red específica Interface (por ejemplo una tarjeta Ethernet llamada `eth0`), puede utilizar:
+Del mismo modo, para mostrar solo las entradas ARP asociadas con una red específica Interface (por ejemplo una tarjeta Ethernet llamada `eth0`), puede utilizar:
 
 
 ```bash
@@ -2345,7 +2297,7 @@ arp -a -i eth0
 Esto es especialmente útil en entornos multi-Interface (cableados, inalámbricos, VPN, etc.), donde un host puede tener varios adaptadores de red.
 
 
-El comando `arp` no está limitado a un uso de sólo lectura. También se puede utilizar para editar manualmente la caché ARP, una característica muy valiosa en ciertos escenarios avanzados de solución de problemas o cuando se simulan condiciones específicas. Por ejemplo, puedes añadir manualmente un mapeo IP/MAC:
+El comando `arp` no está limitado a un uso de solo lectura. También se puede utilizar para editar manualmente la caché ARP, una característica muy valiosa en ciertos escenarios avanzados de solución de problemas o cuando se simulan condiciones específicas. Por ejemplo, puedes añadir manualmente un mapeo IP/MAC:
 
 
 ```bash
@@ -2404,7 +2356,7 @@ Ejemplo de salida:
 Esta línea indica que la máquina conoce un mapeo válido entre IP Address `192.168.1.5` y MAC Address `00:17:BC:56:4F:25` vía Interface `eth0`.
 
 
-También puede filtrar las entradas por criterios como IP Address, Interface o estado. Por ejemplo, para consultar sólo Address `192.168.1.7`:
+También puede filtrar las entradas por criterios como IP Address, Interface o estado. Por ejemplo, para consultar solo Address `192.168.1.7`:
 
 
 ```bash
@@ -2523,7 +2475,7 @@ Las dos herramientas se pueden combinar: se puede hacer una captura en un sistem
 ### Herramientas de análisis de Interface
 
 
-En Network Access Layer, a menudo es necesario consultar y configurar las interfaces físicas de red para diagnosticar averías, optimizar el rendimiento o verificar la integridad de la conexión. Una de las herramientas más potentes disponibles en Linux para este fin es `ethtool`, una utilidad de línea de comandos que no sólo proporciona información técnica detallada sobre una Ethernet Interface, sino que también permite ajustar algunos de sus parámetros en tiempo real.
+En Network Access Layer, a menudo es necesario consultar y configurar las interfaces físicas de red para diagnosticar averías, optimizar el rendimiento o verificar la integridad de la conexión. Una de las herramientas más potentes disponibles en Linux para este fin es `ethtool`, una utilidad de línea de comandos que no solo proporciona información técnica detallada sobre una Ethernet Interface, sino que también permite ajustar algunos de sus parámetros en tiempo real.
 
 
 #### Ver especificaciones de Interface
@@ -2770,8 +2722,8 @@ Este comando borra la ruta previamente definida.
 He aquí algunas variantes útiles para el análisis o el scripting:
 
 
-- `ip -4 route`: muestra sólo las rutas IPv4;
-- ip -6 route`: muestra sólo las rutas IPv6;
+- `ip -4 route`: muestra solo las rutas IPv4;
+- ip -6 route`: muestra solo las rutas IPv6;
 - `ip route list table main`: muestra la tabla de enrutamiento principal (valor por defecto) ;
 - ip route get <Address>`: muestra qué Interface y pasarela utilizaría un paquete dirigido a la Address dada.
 
@@ -2858,7 +2810,7 @@ Si un router no responde o filtra mensajes ICMP, se muestran asteriscos `*` en l
 - un problema temporal de conectividad a lo largo de la ruta.
 
 
-Así, `traceroute` no sólo identifica la ruta seguida, sino que también pone de relieve los puntos de latencia anormal o las interrupciones.
+Así, `traceroute` no solo identifica la ruta seguida, sino que también pone de relieve los puntos de latencia anormal o las interrupciones.
 
 
 En algunos sistemas, se puede utilizar el comando equivalente `tracepath`, que no requiere privilegios de root. Para IPv6, utilice `traceroute6` o `tracepath6`.
@@ -2895,9 +2847,9 @@ ss [options]
 Algunas opciones habituales para refinar el análisis:
 
 
-- `-t`: mostrar sólo conexiones TCP;
-- `-u`: mostrar sólo conexiones UDP;
-- `-l`: mostrar sólo sockets a la escucha;
+- `-t`: mostrar solo conexiones TCP;
+- `-u`: mostrar solo conexiones UDP;
+- `-l`: mostrar solo sockets a la escucha;
 - `-n`: desactivar la resolución de nombres (IPs brutas y números de puerto) ;
 - `-p`: muestra los procesos asociados a cada socket (PID y nombre del programa),
 - `-a`: muestra todas las conexiones, incluidas las inactivas,
@@ -2940,7 +2892,7 @@ ss -s
 ```
 
 
-Para filtrar sólo conexiones UDP:
+Para filtrar solo conexiones UDP:
 
 ```bash
 ss -unp
@@ -3115,7 +3067,7 @@ Un administrador puede confiar en `nmap` para varias tareas:
 
 
 - **Detectar hosts activos**: identificar qué máquinas responden dentro de una subred;
-- **Inventario de servicios**: garantizar que sólo se pueda acceder a los puertos necesarios (principio del menor privilegio);
+- **Inventario de servicios**: garantizar que solo se pueda acceder a los puertos necesarios (principio del menor privilegio);
 - **Comprobación del cumplimiento**: compara los puertos abiertos con la política de seguridad de la organización;
 - **Prevención de vulnerabilidades**: detectar servicios inseguros o anticuados que se ejecutan en máquinas críticas.
 
@@ -3156,7 +3108,7 @@ lsof -n -i @192.168.2.1:25
 ```
 
 
-Esto mostrará sólo las conexiones de red activas con el host `192.168.2.1` en el puerto 25, útil para diagnosticar actividad sospechosa o problemas de flujo SMTP.
+Esto mostrará solo las conexiones de red activas con el host `192.168.2.1` en el puerto 25, útil para diagnosticar actividad sospechosa o problemas de flujo SMTP.
 
 
 #### Seguimiento del acceso a los dispositivos
@@ -3184,7 +3136,7 @@ lsof -i -a -p 1521
 ```
 
 
-La opción `-a` interseca los criterios (`-i` y `-p`), restringiendo la salida sólo a las conexiones de red de ese proceso.
+La opción `-a` interseca los criterios (`-i` y `-p`), restringiendo la salida solo a las conexiones de red de ese proceso.
 
 
 #### Seguimiento multiusuario
@@ -3204,7 +3156,7 @@ Esto muestra los archivos o conexiones de red utilizados por el usuario `phil` o
 ### Resumen de la sección
 
 
-En esta sección final, hemos explorado una amplia gama de herramientas indispensables para diagnosticar, analizar y administrar redes informáticas. Estructurado en torno a las capas del modelo TCP/IP, este estudio no sólo aclara cómo funcionan las comunicaciones de red, sino que también establece una metodología rigurosa para identificar, aislar y resolver posibles problemas.
+En esta sección final, hemos explorado una amplia gama de herramientas indispensables para diagnosticar, analizar y administrar redes informáticas. Estructurado en torno a las capas del modelo TCP/IP, este estudio no solo aclara cómo funcionan las comunicaciones de red, sino que también establece una metodología rigurosa para identificar, aislar y resolver posibles problemas.
 
 
 Estas herramientas ofrecen a los administradores un conjunto coherente de palancas técnicas para supervisar la salud de la red, analizar el tráfico, auditar las conexiones e intervenir rápidamente en equipos o servicios defectuosos.

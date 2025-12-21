@@ -1502,205 +1502,114 @@ Jika node Anda berkomunikasi di port terbuka (secara default, 8333), ia menerima
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
 
-Ketika node Anda telah menyelesaikan sinkronisasi awal, node akan menyimpan beberapa set data pelengkap secara lokal, sehingga memungkinkannya untuk memvalidasi blok dan transaksi, melayani rekan-rekan jaringan, dan memulai ulang dengan cepat sambil mempertahankan statusnya. 3 batu bata utama sangat penting pada sebuah node:
-
-
-
+Ketika smartphone atau komputer Anda yang menjalankan node telah menyelesaikan sinkronisasi awal (IBD), node menyimpan beberapa kumpulan data pelengkap secara lokal. Data ini memungkinkan node untuk memvalidasi blok dan transaksi, melayani peer di jaringan, dan memulai ulang sistem dengan cepat tanpa kehilangan status terakhirnya. Ada 3 komponen utama yang esensial pada sebuah node:
 
 - **blok** blockchain yang disimpan di disk,
-- set **UTXO** yang disimpan dalam basis data nilai kunci,
+- set **UTXO** yang disimpan dalam database key-value.,
 - dan **Mempool** disimpan dalam RAM dan diserialisasikan secara berkala.
 
-
-
-Selain itu, beberapa file tambahan (rekan kerja, perkiraan biaya, daftar pengecualian, dompet, dll.) melengkapi gambar. Mari kita cari tahu peran dari semua file ini.
-
-
+Selain itu, terdapat beberapa file tambahan (data peers, estimasi biaya transaksi, daftar pengecualian, wallet, dll.) yang melengkapi gambaran tersebut. Mari kita pelajari peran dari file-file ini.
 
 ### Di mana sebenarnya data node berada?
 
-
-
-Secara default, Bitcoin core menyimpan datanya di direktori kerja tertentu. Di bawah GNU/Linux, ini biasanya berada di `~/.Bitcoin/`, di bawah Windows di `%APPDATA%\Bitcoin/`, dan di bawah macOS di `~/Library/Application Support/Bitcoin/`. Jika Anda menggunakan solusi paket (misalnya, dalam distribusi node), direktori ini dapat dipasang di tempat lain, tetapi strukturnya tetap sama. Sub-folder dan berkas penting yang dijelaskan di bawah ini masih berada di sini.
-
-
+Secara default, Bitcoin core menyimpan datanya di direktori kerja tertentu. Di GNU/Linux, ini biasanya berada di `~/.Bitcoin/`, di Windows berada di `%APPDATA%\Bitcoin/`, dan di macOS di `~/Library/Application Support/Bitcoin/`. Jika Anda menggunakan solusi paket (misalnya, dalam distribusi node), direktori ini dapat dipindah di tempat lain, tetapi strukturnya tetap sama. Sub-folder dan file penting yang dijelaskan di bawah ini masih berada di sini.
 
 ![Image](assets/fr/098.webp)
 
+### Block
 
+Blockchain adalah kumpulan blok. Sebuah full node menyimpan blok-blok ini sebagai flat files berurutan dan mengelola indeks paralel untuk pengambilan data yang cepat. Saat dibutuhkan (seperti saat reorganisasi, pemindaian ulang wallet, atau melayani peer), data ini dibaca ulang apa adanya.
 
-### Blok-blok
-
-
-
-Oleh karena itu, Blockchain adalah kumpulan blok. Full node menyimpan blok-blok ini sebagai file datar berurutan dan mempertahankan indeks paralel untuk pengambilan cepat. Bila diperlukan (reorganisasi, pemindaian ulang Wallet, layanan peer), data ini dibaca ulang sebagaimana adanya.
-
-
-
-**Catatan:** Reorganisasi, atau sinkronisasi ulang, adalah fenomena di mana Blockchain mengalami modifikasi struktur karena adanya blok yang bersaing pada ketinggian yang sama. Hal ini terjadi ketika sebagian Blockchain digantikan oleh rantai lain dengan jumlah akumulasi pekerjaan yang lebih besar. Sinkronisasi ulang ini adalah bagian alami dari operasi Bitcoin, di mana penambang yang berbeda dapat menemukan blok baru hampir secara bersamaan, sehingga membelah jaringan Bitcoin menjadi dua. Dalam kasus seperti itu, jaringan dapat terpecah untuk sementara waktu menjadi rantai yang saling bersaing. Pada akhirnya, ketika salah satu rantai ini mengumpulkan lebih banyak pekerjaan, rantai yang lain akan ditinggalkan oleh node, dan blok mereka dikenal sebagai "blok usang" atau "blok yatim piatu" Proses penggantian satu rantai dengan rantai lainnya disebut sinkronisasi ulang.
-
-
+**Catatan:** Reorganisasi, atau resinkronisasi, adalah fenomena di mana Blockchain mengalami modifikasi struktur karena adanya blok-blok yang bersaing pada ketinggian (height) yang sama. Hal ini terjadi ketika sebagian dari blockchain digantikan oleh chain lain yang memiliki akumulasi kerja (accumulated work) yang lebih besar. Resinkronisasi ini merupakan bagian alami dari operasional Bitcoin, di mana penambang yang berbeda dapat menemukan blok baru hampir secara bersamaan, sehingga membagi jaringan Bitcoin menjadi dua. Dalam kasus seperti ini, jaringan mungkin terpecah untuk sementara menjadi beberapa chain yang bersaing. Pada akhirnya, ketika salah satu dari chain ini mengakumulasi lebih banyak bekerja, chain lainnya akan ditinggalkan oleh node, dan blok-blok di dalamnya dikenal sebagai "blok usang" (obsolete blocks) atau "blok yatim" (orphan blocks). Proses penggantian satu chain dengan chain lainnya inilah yang disebut dengan resinkronisasi atau reorganisasi.
 
 #### File Blk * .dat (data blok mentah)
 
-
-
-Blok yang diterima dan divalidasi ditulis ke wadah berurutan bernama `blkNNNNN.dat`, yang disimpan dalam folder `blocks/`. Setiap file diisi secara berurutan hingga mencapai ukuran maksimum 128 MiB, di mana pada saat itu Core membuka file berikutnya. Di dalam, setiap blok diserialisasikan dalam format jaringan, diawali dengan pengenal ajaib dan panjangnya. Pengaturan ini memungkinkan penulisan cepat ke disk dan memfasilitasi layanan blok untuk menyinkronkan rekan-rekan.
-
-
+Blok yang telah diterima dan divalidasi akan ditulis ke dalam kontainer berurutan bernama `blkNNNNN.dat`, yang disimpan di dalam folder `blocks/`. Setiap file diisi secara berurutan hingga mencapai ukuran maksimum 128 MiB, di mana pada titik tersebut Bitcoin Core akan membuka file baru berikutnya. Di dalamnya, setiap blok diserialisasi dalam format jaringan, didahului oleh pengidentifikasi magic dan panjang data. Pengaturan ini memungkinkan penulisan yang cepat ke disk dan memudahkan layanan blok untuk mensinkronisasi peer lainnya.
 
 ![Image](assets/fr/099.webp)
 
-
-
-Dalam mode pruned, simpul hanya menyimpan jendela terbaru dari berkas-berkas ini untuk membatasi jejak disk. Mode ini menghapus container `blk*.dat` tertua segera setelah target ruang yang dikonfigurasi tercapai, sambil mempertahankan riwayat yang cukup untuk tetap konsisten dengan rantai yang paling terkenal. Indeks dan set UTXO tetap normal, memungkinkan transaksi dan blok berikutnya untuk divalidasi.
-
-
+Dalam mode pruned, node hanya menyimpan jendela waktu terbaru dari file-file ini untuk membatasi jejak penggunaan disk. Sistem akan menghapus kontainer `blk*.dat` tertua segera setelah target ruang yang dikonfigurasi tercapai, sambil tetap mempertahankan riwayat yang cukup agar tetap konsisten dengan chain terbaik yang diketahui. Indeks dan UTXO set tetap normal, sehingga transaksi dan blok berikutnya tetap dapat divalidasi.
 
 #### File Rev * .dat (data pembatalan)
 
-
-
-Agar dapat kembali ke masa lalu selama reorganisasi, Core menyimpan, secara paralel dengan setiap file `blk`, file `revNNNNN.dat` di `blocks/`. File ini berisi informasi yang diperlukan untuk membatalkan efek blok pada set UTXO: untuk setiap output yang dikonsumsi oleh blok, status sebelumnya dari UTXO yang sesuai disimpan (jumlah, skrip, tinggi ...). Jika terjadi pembatalan blok, node dapat dengan cepat menyusun kembali keadaan sebelumnya tanpa harus memindai ulang seluruh rantai.
-
-
+Agar dapat "kembali ke masa lalu" selama proses reorganisasi, Core menyimpan file `revNNNNN.dat` di folder `blocks/` secara paralel dengan setiap file `blk`. File ini berisi informasi yang diperlukan untuk membatalkan efek suatu blok pada UTXO set: untuk setiap output yang dikonsumsi oleh blok tersebut, status sebelumnya dari UTXO yang sesuai akan disimpan (jumlah, script, ketinggian, dll.). Jika terjadi pembatalan blok, node dapat dengan cepat menyusun kembali status sebelumnya tanpa harus memindai ulang seluruh chain.
 
 ![Image](assets/fr/100.webp)
 
-
-
 #### Indeks blok (blok/indeks)
 
-
-
-Mencari sebuah blok secara langsung di dalam berkas datar akan terlalu memakan waktu. Oleh karena itu, Core memelihara basis data LevelDB di `blocks/index/` yang berisi daftar, untuk setiap blok yang diketahui, metadata seperti Hash, tinggi, status validasi, file `blk`, dan offset di mana blok tersebut berada. Ketika sebuah peer meminta sebuah blok, atau ketika sebuah komponen internal perlu mengakses blok tertentu, indeks ini menyediakan akses cepat. Tanpa indeks ini, terlalu banyak operasi yang diperlukan.
-
-
+Mencari blok secara langsung di dalam file flat akan memakan waktu terlalu lama. Oleh karena itu, Core mengelola database LevelDB di `blocks/index/` yang mencantumkan metadata untuk setiap blok yang diketahui, seperti Hash, ketinggian (height), status validasi, file `blk` terkait, dan posisi (offset) tepatnya di mana blok tersebut berada. Ketika sebuah peer meminta blok, atau ketika komponen internal perlu mengakses blok tertentu, indeks ini menyediakan akses yang cepat. Tanpa indeks ini, operasi yang dibutuhkan akan terlalu banyak.
 
 ![Image](assets/fr/101.webp)
 
-
-
 #### Indeks opsional (indeks/)
-
-
 
 Beberapa indeks bersifat opsional dan dinonaktifkan secara default, karena indeks tersebut meningkatkan jejak disk:
 
-
-
-
-- `indexes/txindex/`, yang telah kami sebutkan, menyediakan tabel pemetaan transaksi → lokasi, sehingga memungkinkan untuk mengambil transaksi yang telah dikonfirmasi tanpa mengetahui blok yang berisi transaksi tersebut. Ini berguna untuk kueri Wallet tipe `getrawtransaction` di luar RPC, tetapi cukup mahal.
-- indexes/blockfilter/` yang dapat berisi filter blok ringkas (BIP157/158) untuk thin client. Struktur ini mempercepat verifikasi sisi klien dengan mengorbankan penyimpanan tambahan pada simpul pengindeks.
-
-
+Beberapa indeks bersifat opsional dan dinonaktifkan secara default karena meningkatkan penggunaan ruang disk:
+- `indexes/txindex/`: Seperti yang telah disebutkan sebelumnya, indeks ini menyediakan tabel pemetaan Transaksi → lokasi. Hal ini memungkinkan pengambilan transaksi terkonfirmasi apa pun tanpa harus mengetahui blok mana yang memuatnya. Ini berguna untuk kueri Wallet tipe `getrawtransaction` di luar RPC, tetapi cukup mahal.
+- `indexes/blockfilter/`: Folder ini dapat berisi filter blok ringkas (BIP157/158) untuk thin clients. Struktur ini mempercepat verifikasi di sisi klien dengan mengorbankan penyimpanan tambahan pada node pengindeks.
 
 ### Set UTXO (status rantai)
 
-
-
-Model UTXO (*Output Transaksi yang Tidak Terpakai*) adalah representasi akuntansi dari Bitcoin: setiap output yang tidak terpakai adalah "Coin" yang tersedia yang dapat digunakan sebagai input untuk transaksi di masa depan.
-
-
+Model UTXO (_Unspent Transaction Output_) adalah representasi akuntansi dari Bitcoin: setiap output yang belum dibelanjakan adalah "koin" yang tersedia yang dapat digunakan sebagai input untuk transaksi di masa depan.
 
 ![Image](assets/fr/102.webp)
 
-
-
-Totalitas dari semua bagian ini pada saat tertentu T merupakan kumpulan UTXO: daftar besar dari semua bagian yang sekarang tersedia. Keadaan inilah yang dikonsultasikan oleh node untuk memutuskan apakah sebuah transaksi menggunakan unit yang sah yang belum digunakan dalam transaksi sebelumnya (untuk menghindari Double-spending).
-
-
+Totalitas dari semua bagian ini pada waktu tertentu (T) membentuk UTXO set: sebuah daftar besar berisi semua koin yang tersedia saat ini. Status inilah yang dikonsultasikan oleh node untuk memutuskan apakah suatu transaksi menggunakan unit yang sah dan belum digunakan dalam transaksi sebelumnya (untuk menghindari double-spending).
 
 ![Image](assets/fr/103.webp)
 
-
-
-Kumpulan UTXO disimpan dalam folder `chainstate/` sebagai basis data LevelDB yang ringkas. Setiap bagian mengaitkan kunci yang berasal dari Hash transaksi dan indeks keluaran dengan nilai yang berisi: jumlah, kunci `scriptPubKey`, tinggi blok pembuatan, dan indikator coinbase.
-
-
+UTXO set disimpan di folder `chainstate/` sebagai database LevelDB yang ringkas. Setiap bagian menghubungkan kunci (berasal dari Hash transaksi dan indeks output) dengan nilai yang berisi: jumlah koin, `scriptPubKey`, ketinggian blok pembuatan, dan indikator coinbase.
 
 ![Image](assets/fr/104.webp)
 
-
-
 Node mempertahankan cache memori di atas LevelDB untuk menyerap operasi baca dan tulis yang sering dilakukan. Parameter `dbcache` dapat digunakan untuk memodifikasi ukuran cache ini: semakin besar ukurannya, semakin banyak akses memori yang diuntungkan oleh IBD dan validasi saat ini, dengan mengorbankan konsumsi RAM yang lebih tinggi. Ketika sebuah blok baru ditemukan oleh Miner, node menghapus dari UTXO mengatur output yang dihabiskan (atau dikonsumsi) oleh transaksi yang termasuk dalam blok tersebut dan menambahkan output yang baru dibuat.
 
+Node mengelola cache memori di atas LevelDB untuk menyerap operasi baca dan tulis yang sering terjadi. Parameter `dbcache` dapat digunakan untuk mengubah ukuran cache ini: semakin besar ukurannya, semakin besar manfaat akses memori bagi IBD dan validasi saat ini, dengan biaya konsumsi RAM yang lebih tinggi. Ketika blok baru ditemukan oleh Miner, node akan menghapus output yang digunakan (dikonsumsi) dari UTXO set dan menambahkan output yang baru dibuat.
 
+Secara teoritis, kita bisa memvalidasi transaksi dengan memindai ulang riwayat blok untuk memeriksa bahwa suatu output belum pernah dibelanjakan. Namun, dalam praktiknya hal ini akan memakan waktu terlalu lama. UTXO set menyediakan tampilan minimum yang diperlukan untuk membuktikan secara lokal dan dalam waktu yang wajar mengenai tidak adanya Double-spending.
 
-Secara teoritis, kita dapat memvalidasi sebuah transaksi dengan memindai ulang riwayat blok untuk memeriksa apakah sebuah output belum pernah dibelanjakan. Akan tetapi, pada praktiknya, hal ini akan terlalu memakan waktu, karena seluruh Blockchain harus dipindai untuk setiap transaksi baru. Oleh karena itu, set UTXO menyediakan tampilan minimum yang diperlukan untuk membuktikan secara lokal dan dalam waktu yang wajar tidak adanya Double-spending.
-
-
-
-Perhatikan bahwa set UTXO sering kali menjadi pusat perhatian tentang desentralisasi Bitcoin, karena ukurannya secara alami meningkat dengan cepat. Hal ini sebagian disebabkan oleh kenaikan harga Bitcoin, yang mendorong fragmentasi suku cadang, dan sebagian lagi karena adopsi sistem yang terus meningkat: semakin banyak pengguna, semakin besar permintaan UTXO.
-
-
+Perlu dicatat bahwa UTXO set sering menjadi pusat kekhawatiran terkait desentralisasi Bitcoin, karena ukurannya meningkat dengan cepat secara alami. Hal ini sebagian disebabkan oleh kenaikan harga Bitcoin yang mendorong fragmentasi bagian, dan sebagian lagi karena adopsi sistem yang terus tumbuh: semakin banyak pengguna, semakin besar permintaan akan UTXO.
 
 ![Image](assets/fr/105.webp)
 
-
-
-Pertumbuhan set UTXO juga berasal dari struktur transaksi pembayaran sederhana pada Bitcoin. Memang, ketika Anda melakukan pembayaran, Anda mengonsumsi satu UTXO sebagai input dan membuat 2 UTXO baru sebagai output (satu untuk pembayaran dan satu lagi untuk Exchange). Terakhir, heuristik analisis rantai, yang disebut CIOH (*Common Input Ownership Heuristic*), memberikan insentif lebih lanjut untuk menghindari konsolidasi Coin.
-
-
+Pertumbuhan UTXO set juga berasal dari struktur transaksi pembayaran sederhana di Bitcoin. Memang, saat Anda melakukan pembayaran, Anda mengonsumsi satu UTXO sebagai input dan membuat 2 UTXO baru sebagai output (satu untuk pembayaran dan satu lagi untuk pertukaran). Terakhir, heuristik analisis chain yang disebut CIOH (_Common Input Ownership Heuristic_) memberikan insentif lebih lanjut untuk menghindari konsolidasi koin demi menjaga privasi.
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Karena sebagian harus disimpan dalam RAM untuk memverifikasi transaksi dalam waktu yang wajar, set UTXO secara bertahap dapat membuat pengoperasian Full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal sudah ada, terutama [Utreexo] (https://planb.academy/resources/glossary/utreexo).
-
-
+Karena sebagian dari UTXO set harus disimpan di RAM agar verifikasi transaksi berjalan cepat, UTXO set secara bertahap dapat membuat pengoperasian full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal telah diajukan, salah satunya adalah [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 ### Mempool
 
-
-
 Mempool adalah kumpulan lokal dari transaksi valid yang telah diterima tetapi belum dikonfirmasi. Sebagai pengingat, "transaksi terkonfirmasi" adalah transaksi yang telah dimasukkan ke dalam blok yang valid. Setiap node menyimpan Mempool-nya sendiri, yang mungkin berbeda dengan node lain dalam jaringan, tergantung pada:
 
+Mempool adalah kumpulan lokal dari transaksi valid yang telah diterima tetapi belum dikonfirmasi. Sebagai pengingat, "transaksi terkonfirmasi" adalah transaksi yang telah dimasukkan ke dalam blok yang valid. Setiap node menyimpan Mempool-nya sendiri, yang mungkin berbeda dari node lain di jaringan tergantung pada:
 
+- Ukuran yang dialokasikan melalui parameter `maxmempool`: node dengan Mempool yang lebih besar dapat menampung lebih banyak transaksi.
+- Aturan Mempool: Ini adalah bagian dari aturan relai node yang menentukan karakteristik transaksi tidak terkonfirmasi agar bisa diterima masuk ke Mempool.
+- Perkolasi transaksi: Karena berbagai faktor, suatu transaksi mungkin sudah tersebar ke satu bagian jaringan, tetapi belum mencapai bagian lainnya.
 
-
-- ukuran yang dialokasikan ke Mempool melalui parameter `maxmempool`: node dengan Mempool yang lebih besar akan dapat menampung lebih banyak transaksi daripada node dengan Mempool yang lebih kecil (kecuali jika node yang terakhir menjadi kosong);
-- aturan mempool: merupakan subset dari aturan perantara node dan menentukan karakteristik yang harus dipenuhi oleh transaksi yang belum dikonfirmasi agar diterima ke dalam mempool;
-- perembesan transaksi: karena berbagai faktor, transaksi tertentu mungkin telah didistribusikan ke satu bagian jaringan, tetapi belum mencapai bagian lain.
-
-
-
-Penting untuk dicatat bahwa mempool node tidak memiliki nilai konsensus. Bitcoin bekerja dengan sempurna meskipun setiap node memiliki Mempool yang berbeda. Pada akhirnya, blok otoritatif selalu merupakan blok yang ditambahkan ke Blockchain. Sebagai contoh, meskipun sebuah node pada awalnya menolak transaksi yang diberikan dalam Mempool-nya (valid menurut aturan konsensus), node tersebut akan berkewajiban untuk menerimanya jika pada akhirnya dimasukkan ke dalam blok dengan Proof of Work yang valid. Jika ia gagal melakukannya dan menolak blok ini, meskipun sesuai dengan aturan konsensus, maka akan memicu Hard Fork, yaitu pembuatan Bitcoin yang baru dan terpisah di mana ia akan berdiri sendiri.
-
-
+Penting untuk dicatat bahwa mempool node tidak memiliki nilai konsensus. Bitcoin bekerja dengan sempurna bahkan jika setiap node memiliki Mempool yang berbeda. Pada akhirnya, blok yang berwenang selalu merupakan blok yang ditambahkan ke Blockchain. Sebagai contoh, bahkan jika sebuah node awalnya menolak suatu transaksi tertentu di Mempool-nya (yang valid menurut aturan konsensus), node wajib untuk menerimanya jika transaksi tersebut akhirnya dimasukkan ke dalam blok dengan proof of work yang valid. Jika ia gagal melakukannya dan menolak blok ini, meskipun blok tersebut mematuhi aturan konsensus, hal itu akan memicu Hard Fork, yaitu pembuatan Bitcoin baru yang terpisah di mana ia akan berjalan sendiri.
 
 #### Kebijakan dan manajemen memori
 
+Ketika sebuah transaksi diterima, Core menerapkan serangkaian pemeriksaan terhadap aturan konsensus (sintaksis, skrip yang valid, tidak ada double spending, dll.) dan aturan Mempool, yang merupakan kebijakan lokal (RBF, ambang batas biaya minimum, batas data dalam `OP_RETURN`, dll.). Jika transaksi tersebut mematuhi aturan-aturan ini, ia akan disimpan dalam memori.
 
+Ukuran Mempool dibatasi oleh parameter `maxmempool` dalam file `Bitcoin.conf` (lebih lanjut tentang ini di bab berikutnya). Secara default, batasnya adalah 300 MB. Ketika sudah penuh, node secara dinamis menaikkan ambang batas biaya minimumnya dan mengeluarkan transaksi yang paling tidak menguntungkan terlebih dahulu (artinya, node mempertahankan transaksi yang harus dimining terlebih dahulu). Transaksi yang terlalu tua juga dapat kedaluwarsa setelah penundaan yang dikonfigurasi.
 
-Ketika sebuah transaksi diterima, Core menerapkan serangkaian pemeriksaan terhadap aturan konsensus (sintaks, skrip yang valid, tidak ada pengeluaran ganda, dll.) dan aturan Mempool, yang merupakan kebijakan lokal (RBF, ambang batas biaya minimum, batas data dalam `OP_RETURN`, dll.). Jika transaksi mematuhi aturan-aturan ini, maka transaksi akan disimpan dalam memori.
+#### Persistensi Mempool pada disk
 
+Untuk mempercepat restart, Core secara berkala menserialisasikan status Mempool dalam file `Mempool.dat` ketika node dimatikan. Selain Mempool sebenarnya yang tetap berada di memori, Core menyimpan file `Mempool.dat` ini di disk. Saat berikutnya node dijalankan, ia memuat ulang snapshot ini dan menghapus apa pun yang tidak lagi valid untuk Blockchain saat ini.
 
-
-Ukuran Mempool dibatasi oleh parameter `maxmempool` dalam file `Bitcoin.conf` (lebih lanjut mengenai hal ini dalam bab berikutnya). Secara default, batasnya adalah 300 MB. Ketika sudah penuh, node akan secara dinamis menaikkan ambang batas muatan minimumnya dan mengeluarkan transaksi yang paling tidak menguntungkan terlebih dahulu (dengan kata lain, node akan menyimpan transaksi yang harus ditambang terlebih dahulu). Transaksi yang terlalu lama juga dapat kedaluwarsa setelah penundaan yang dikonfigurasi.
-
-
-
-#### Kegigihan Mempool pada disk
-
-
-
-Untuk mempercepat restart, Core secara berkala menserialisasi status Mempool dalam file `Mempool.dat` ketika node dimatikan. Selain Mempool yang sebenarnya, yang tetap berada di memori, Core menyimpan file `Mempool.dat` ini pada disk. Saat berikutnya node diluncurkan, node akan memuat ulang snapshot ini dan menghapus apa pun yang tidak lagi valid untuk Blockchain saat ini.
-
-
-
-### File dan basis data tambahan
-
-
+### File dan Database tambahan
 
 Beberapa file lain pada tingkat yang sama dengan `blocks/`, `chainstate/`, dan `indexes/` ikut serta dalam berfungsinya file :
 
-
-
-
-- `peers.dat` menyimpan buku IP Address yang berisi peers potensial, yang diperoleh dari penemuan DNS awal, pertukaran jaringan, dan penambahan secara manual. Ketika node mulai hidup, node dapat menggunakan file ini untuk membuat koneksi keluar.
-- Ketika node dimatikan, `anchors.dat` menyimpan alamat rekan-rekan yang keluar, sehingga Anda dapat mencoba menghubungi mereka lagi dengan cepat pada saat Anda memulai lagi.
-- `banlist.json` berisi larangan lokal yang diputuskan oleh operator atau oleh node (perilaku tidak valid yang berulang), untuk mencegah node menyambung kembali atau menerima koneksi dari rekan-rekan tertentu.
-- `fee_estimates.dat` menyimpan statistik horizon waktu pada konfirmasi yang diamati, yang digunakan oleh estimator biaya untuk mengusulkan tarif biaya yang konsisten dengan tujuan penundaan yang dipilih saat membuat transaksi.
+- `peers.dat` menyimpan buku IP Address yang berisi peer potensial, yang diperoleh dari penemuan DNS awal, pertukaran jaringan, dan penambahan secara manual. Ketika node mulai hidup, node dapat menggunakan file ini untuk membuat koneksi keluar.
+- Ketika node dimatikan, `anchors.dat` menyimpan alamat peers yang keluar, sehingga Anda dapat mencoba menghubungi mereka lagi dengan cepat pada saat Anda memulai lagi.
+- `banlist.json` berisi pemblokiran lokal yang diputuskan oleh operator atau oleh node (perilaku tidak valid yang berulang), untuk mencegah node menyambung kembali atau menerima koneksi dari peer tertentu.
+- `fee_estimates.dat` menyimpan statistik pemetaan waktu pada konfirmasi yang diamati, yang digunakan oleh estimator biaya untuk mengusulkan tarif biaya yang konsisten dengan tujuan penundaan yang dipilih saat membuat transaksi.
 - `bitcoin.conf` berisi parameter konfigurasi node Anda. Dalam file inilah aturan perantara dapat disesuaikan. Saya akan membahasnya lebih detail di bab berikutnya;
 - `settings.json` berisi parameter tambahan untuk `Bitcoin.conf`.
 - `debug.log` adalah log teks diagnostik, yang dapat digunakan untuk memahami aktivitas node jika terjadi bug.
@@ -1708,27 +1617,17 @@ Beberapa file lain pada tingkat yang sama dengan `blocks/`, `chainstate/`, dan `
 - `ip_asn.map` adalah tabel pemetaan IP → ASN (sistem mandiri) yang digunakan untuk bucketing dan diversifikasi peer (opsi `-asmap`).
 - `onion_v3_private_key` menyimpan kunci privat dari layanan Tor v3 ketika opsi `-listenonion` diaktifkan, untuk menjaga kestabilan onion Address di antara proses reboot.
 - `i2p_private_key` menyimpan kunci privat I2P ketika `-i2psam=` digunakan, untuk membuat koneksi keluar dan mungkin masuk pada I2P.
-- `.cookie` berisi autentikasi RPC token sementara (dibuat saat pengaktifan, dihapus saat pematian) ketika autentikasi cookie digunakan. Ini dapat digunakan, misalnya, untuk menghubungkan perangkat lunak Wallet.
+- `.cookie` berisi autentikasi RPC token sementara (dibuat saat pengaktifan, dihapus saat dinonaktifkan) ketika autentikasi cookie digunakan. Ini dapat digunakan, misalnya, untuk menghubungkan perangkat lunak Wallet.
 - `.lock` adalah kunci direktori data, yang mencegah beberapa instance menulis ke datadir yang sama secara bersamaan.
 - `guisettings.ini.bak` adalah penyimpanan otomatis pengaturan GUI (*Bitcoin Qt*) ketika opsi `resetguisettings` digunakan.
 
+Seperti yang kita lihat di bagian pertama kursus BTC 202 ini, Bitcoin Core merupakan perangkat lunak node Bitcoin sekaligus wallet. Namun, ini bukanlah merupakan solusi yang saya rekomendasikan untuk mengelola wallet Anda, karena interface-nya sangat sederhana dan fungsionalitasnya terbatas dibandingkan dengan perangkat lunak modern seperti Sparrow atau Liana. Core juga menyertakan file-file untuk mengelola wallet Anda:
 
-
-Seperti yang telah kita lihat di bagian pertama kursus BTC 202 ini, Bitcoin core adalah perangkat lunak node Bitcoin dan Wallet. Namun, ini bukanlah solusi yang saya rekomendasikan untuk mengelola wallet Anda, karena Interface masih sangat sederhana dan fungsinya terbatas dibandingkan dengan perangkat lunak modern seperti Sparrow atau Liana. Core juga menyertakan file untuk mengelola dompet Anda:
-
-
-
-
-
-- `wallets/` adalah direktori default yang menampung satu atau lebih dompet;
-- `wallets/<name>/Wallet.dat` adalah basis data SQLite dari Wallet (kunci, deskriptor, metadata transaksi, dll.);
+- `wallets/` adalah direktori default yang menampung satu atau lebih wallet;
+- `wallets/<name>/Wallet.dat` adalah database SQLite dari Wallet (kunci, deskriptor, metadata transaksi, dll.);
 - `wallets/<name>/wallet.dat-journal` adalah jurnal rollback SQLite.
 
-
-
 Sebagai rangkuman, berikut ini adalah struktur file Bitcoin core:
-
-
 
 ```
 ~/.bitcoin/
@@ -1772,20 +1671,11 @@ Sebagai rangkuman, berikut ini adalah struktur file Bitcoin core:
 
 ### Jalur validasi untuk blok baru
 
+Saat menerima blok baru, node Anda memeriksa proof of work dan, secara lebih umum, kepatuhan terhadap aturan konsensus. Jika semuanya baik-baik saja, ia menerapkan perubahan transaksi demi transaksi ke dalam UTXO set-nya: ia memeriksa bahwa setiap entri menggunakan UTXO yang ada dengan skrip yang valid, menghapus UTXO tersebut, dan menambahkan pengeluaran (output) baru. Jika semuanya valid, perubahan tersebut dikomitke `chainstate/`.
 
-
-Setelah menerima blok baru, node Anda memeriksa Proof of Work dan, secara umum, kepatuhan terhadap aturan konsensus. Jika semuanya baik-baik saja, ia akan menerapkan perubahan transaksi demi transaksi ke dalam set UTXO: ia memeriksa bahwa setiap entri menggunakan UTXO yang ada dengan skrip yang valid, menghapus UTXO ini, dan menambahkan jalan keluar yang baru. Jika semuanya valid, perubahan akan dikomit ke `chainstate/`.
-
-
-
-Secara paralel, data pembatalan ditulis ke `rev*.dat` dan metadata ke indeks `blocks/index/`. Blok kemudian diserialisasikan ke file `blk*.dat` yang benar. Jika terjadi reorganisasi, simpul membaca `rev*.dat` secara terbalik untuk memutuskan blok yang ditinggalkan dengan bersih, mengembalikan set UTXO, dan kemudian menghubungkan blok-blok dari rantai terbaik yang baru.
-
-
-
-
+Secara paralel, data pembatalan ditulis ke `rev*.dat` dan metadata ke indeks `blocks/index/`. Blok tersebut kemudian diserialisasi ke dalam file `blk*.dat` yang tepat. Dalam peristiwa reorganisasi, node membaca `rev*.dat` secara terbalik untuk memutuskan blok-blok yang ditinggalkan secara bersih, memulihkan UTXO set, dan kemudian menghubungkan blok-blok dari chain terbaik yang baru.
 
 ## Memahami Bitcoin.conf
-
 
 <chapterId>c54a629a-ddb1-41cb-9a88-21dfd9be50ca</chapterId>
 

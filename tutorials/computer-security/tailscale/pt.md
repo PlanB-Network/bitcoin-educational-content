@@ -88,7 +88,7 @@ O Tailscale funciona nos sistemas operativos **mais comuns** (Windows, macOS, Li
 
 
 
-Aceda a [https://tailscale.com/] (https://tailscale.com/) e clique no botão "Get Started" (Iniciar) no canto superior direito da página.
+Aceda a [https://tailscale.com/](https://tailscale.com/) e clique no botão "Get Started" (Iniciar) no canto superior direito da página.
 
 
 
@@ -635,4 +635,4 @@ O Tailscale é uma ferramenta essencial para a auto-hospedagem, graças à sua s
 
 
 
-A Tailscale disponibiliza regularmente novos conteúdos e funcionalidades. Visite o [blogue oficial] (https://tailscale.com/blog/) para obter as últimas notícias e estudos de casos.
+A Tailscale disponibiliza regularmente novos conteúdos e funcionalidades. Visite o [blogue oficial](https://tailscale.com/blog/) para obter as últimas notícias e estudos de casos.

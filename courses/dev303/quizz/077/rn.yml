@@ -1,0 +1,8 @@
+question: Ni igiki kiba iyo uhamagara lock() kuri mutex muri Rust kandi ni kuki abahinguzi benshi babona ko vyemewe gufungura iyo nzira?
+answer: Igarura Igisubizo gishobora kunanirwa iyo uwundi murongo uteye ubwoba mu gihe ufashe mutex, kandi gufungura ni vyemewe kubera ko udashobora gutorera umuti amakosa ava mu bindi bimenyetso vy'ubwoba
+wrong_answers:
+  - Igarura Amahitamwo ashobora kuba Ntayo iyo mutex ikora cane, kandi gufungura ni vyiza kuko mutexes zikora cane zikwiye gutuma porogarama ihagarara ubwo nyene
+  - Igarura Igisubizo gishobora kunanirwa kubera ukumenya ko hariho ikintu gipfuye, kandi gufungura ni vyiza kubera ko ikintu gipfutse kigaragaza amakosa y'ishimikiro y'imiterere akwiye gutera ubwoba
+  - Ihora iroranirwa kandi igasubiza umurinzi w’urufunguzo ataco akora, bikaba bituma gufungura bidakenewe kuko ibikorwa vya mutex vyemezwa ko bizoba bitekanye ku ndodo muri Rust.
+explanation: |
+  Iyo uhamagara lock() kuri mutex, Rust igarura Igisubizo kuko igikorwa gishobora kunanirwa iyo uwundi mudodo uteye ubwoba mu gihe ufashe mutex, ukayisiga mu gihe c’ubumara. Ivyo bituma haba ikintu kidasanzwe aho kode yawe yo mu karere ironka ikosa ry'ikintu cabaye mu gihe c'urudodo rutandukanye rwose. Kubera ko udashobora gukora canke gukira neza ikosa ryavuye mu ubwoba bw’iyindi nzira, abahinguzi benshi babona ko vyemewe gufungura amafunguro ya mutex, cane cane mu bibanza vy’amakode bitagira ubwoba. Ayandi mahitamwo ntabwo ari meza kuko mutexes ntizigarura Amahitamwo ku bihugu bifise vyinshi zikora, ntizigira ubuhinga bwo kumenya ivy’uguhagarara kwubatswemwo butera Result failures, kandi igikorwa nticama kigenda neza kubera uburyo bw’ubumara.

@@ -40,7 +40,7 @@ För att följa Picocrypt-projektet finns det bara en Address:
 
 
 
-- [Picocrypt på GitHub] (https://github.com/Picocrypt/Picocrypt)
+- [Picocrypt på GitHub](https://github.com/Picocrypt/Picocrypt)
 
 
 
@@ -74,7 +74,7 @@ Krypteringsprogrammet **Picocrypt** presenterar sig som **ett alternativ** till 
 | Telemetry      | ✅ None                                                                             | ✅ None      | ✅ None    | ❓ Unknown  | ✅ None      |
 | Audited        | ✅ [Yes](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) | ✅ Yes       | ❌ No      | ❓ Unknown  | ✅ Yes       |
 
-Källa: [Github.com] (https://github.com/Picocrypt/Picocrypt)
+Källa: [Github.com](https://github.com/Picocrypt/Picocrypt)
 
 
 

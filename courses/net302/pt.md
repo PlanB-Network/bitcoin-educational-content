@@ -90,7 +90,7 @@ Pronto para mergulhar no mundo das redes informáticas? Vamos lá!
 **NOTA**: As descrições são baseadas num sistema GNU/Linux CentOS 7. No entanto, as configurações de rede são largamente as mesmas quando se compara um sistema Debian com um sistema CentOS. Então, nós não faremos nenhuma distinção. Quando houver uma, nós a prefixaremos com um logotipo específico.
 
 
-**N.B.**: Se encontrar termos que não lhe sejam familiares durante o curso, consulte [o glossário] (https://planb.academy/resources/glossary) para obter as definições.
+**N.B.**: Se encontrar termos que não lhe sejam familiares durante o curso, consulte [o glossário](https://planb.academy/resources/glossary) para obter as definições.
 
 
 
@@ -1006,7 +1006,7 @@ Nas redes modernas, o endereçamento IP é normalmente associado a outros identi
 Para lidar com a escassez de IPv4 Address e para adicionar um Layer de segurança, as redes frequentemente usam tradução Address (_NAT_). O NAT permite que muitos dispositivos privados partilhem um único IP Address público quando acedem à Internet.
 
 
-**Nota**: As ferramentas online e integradas no SO, como a [Grenoble CRIC calculator] (http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/), facilitam muito os cálculos de sub-rede e máscara.
+**Nota**: As ferramentas online e integradas no SO, como a [Grenoble CRIC calculator](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/), facilitam muito os cálculos de sub-rede e máscara.
 
 Estes utilitários ajudam a planear eficazmente a divisão da rede.
 

@@ -6,13 +6,13 @@ description: Memahami dan menggunakan transaksi Stonewall di Ashigaru
 
 
 
-> *Hancurkan asumsi analisis blockchain dengan keraguan yang dapat dibuktikan secara matematis antara pengirim dan penerima transaksi Anda*
+> *Hancurkan asumsi analisis blockchain dengan keraguan yang dapat dibuktikan secara matematis antara pengirim dan penerima transaksi kamu*
 
 ## Apa yang dimaksud dengan transaksi Stonewall?
 
 
 
-Stonewall adalah sebuah bentuk khusus dari transaksi Bitcoin yang dirancang untuk meningkatkan kerahasiaan pengguna ketika melakukan transaksi dengan meniru coinjoin antara dua orang, tanpa benar-benar menjadi satu. Pada kenyataannya, transaksi ini tidak bersifat kolaboratif. Seorang pengguna dapat membuatnya sendiri, dengan hanya menggunakan UTXO yang dimilikinya sebagai input. Jadi, Anda dapat membuat transaksi Stonewall untuk setiap kesempatan, tanpa harus melakukan sinkronisasi dengan pengguna lain.
+Stonewall adalah sebuah bentuk khusus dari transaksi Bitcoin yang dirancang untuk meningkatkan kerahasiaan pengguna ketika melakukan transaksi dengan meniru coinjoin antara dua orang, tanpa benar-benar menjadi satu. Pada kenyataannya, transaksi ini tidak bersifat kolaboratif. Seorang pengguna dapat membuatnya sendiri, dengan hanya menggunakan UTXO yang dimilikinya sebagai input. Jadi, kamu dapat membuat transaksi Stonewall untuk setiap kesempatan, tanpa harus melakukan sinkronisasi dengan pengguna lain.
 
 
 
@@ -42,7 +42,7 @@ Dengan menganalisa transaksi ini, kita dapat melihat bahwa si pembuat roti telah
 
 
 
-Dalam contoh ini, saya sengaja mengabaikan biaya mining agar lebih mudah dipahami. Pada kenyataannya, biaya transaksi ditanggung sepenuhnya oleh penerbit.
+Dalam contoh ini, aku sengaja mengabaikan biaya mining agar lebih mudah dipahami. Pada kenyataannya, biaya transaksi ditanggung sepenuhnya oleh penerbit.
 
 
 
@@ -102,7 +102,7 @@ Seorang pengamat luar yang mengandalkan heuristik analisis rantai yang umum mung
 
 
 
-Interpretasi ini tidak akurat, karena, seperti yang Anda ketahui, satu UTXO dikirim ke tukang roti, 2 UTXO yang masuk berasal dari Alices, dan dia memulihkan 3 output nilai tukar.
+Interpretasi ini tidak akurat, karena, seperti yang kamu ketahui, satu UTXO dikirim ke tukang roti, 2 UTXO yang masuk berasal dari Alices, dan dia memulihkan 3 output nilai tukar.
 
 
 
@@ -122,7 +122,7 @@ Bahkan jika pengamat luar berhasil mengidentifikasi pola transaksi Stonewall, di
 
 
 
-Awalnya dikembangkan oleh tim Samourai Wallet, transaksi Stonewall telah diambil alih oleh aplikasi Ashigaru, sebuah fork dari wallet asli yang dibuat setelah pengembang Samourai ditangkap. Anda harus menginstal Ashigaru dan membuat wallet:
+Awalnya dikembangkan oleh tim Samourai Wallet, transaksi Stonewall telah diambil alih oleh aplikasi Ashigaru, sebuah fork dari wallet asli yang dibuat setelah pengembang Samourai ditangkap. Kamu harus menginstal Ashigaru dan membuat wallet:
 
 
 
@@ -132,7 +132,7 @@ Tidak seperti transaksi Stowaway atau Stonewall x2 (*cahoots*), transaksi Stonew
 
 
 
-Bahkan, Anda tidak benar-benar membutuhkan tutorial untuk melakukan transaksi Stonewall, karena Ashigaru membuatnya secara otomatis setiap kali Anda melakukan pembelanjaan, segera setelah wallet Anda berisi cukup UTXO.
+Bahkan, kamu tidak benar-benar membutuhkan tutorial untuk melakukan transaksi Stonewall, karena Ashigaru membuatnya secara otomatis setiap kali kamu melakukan pembelanjaan, segera setelah wallet kamu berisi cukup UTXO.
 
 
 
@@ -144,7 +144,7 @@ Klik tombol `+` di bagian kanan bawah layar, lalu pilih `Kirim`.
 
 
 
-Pilih rekening yang ingin Anda gunakan untuk melakukan pengeluaran.
+Pilih rekening yang ingin kamu gunakan untuk melakukan pengeluaran.
 
 
 
@@ -160,7 +160,7 @@ Kemudian masukkan detail transaksi: alamat penerima dan jumlah yang akan dikirim
 
 
 
-Di sini, Anda tentu saja dapat menyesuaikan biaya transaksi default sesuai dengan kondisi pasar. Namun, elemen yang paling menarik di halaman ini adalah tipe transaksi. Anda akan melihat bahwa Ashigaru secara otomatis memilih `STONEWALL`. Klik tombol `PREVIEW` untuk mengetahui lebih lanjut.
+Di sini, kamu tentu saja dapat menyesuaikan biaya transaksi default sesuai dengan kondisi pasar. Namun, elemen yang paling menarik di halaman ini adalah tipe transaksi. Kamu akan melihat bahwa Ashigaru secara otomatis memilih `STONEWALL`. Klik tombol `PREVIEW` untuk mengetahui lebih lanjut.
 
 
 
@@ -168,7 +168,7 @@ Di sini, Anda tentu saja dapat menyesuaikan biaya transaksi default sesuai denga
 
 
 
-Anda bisa melihat bahwa transaksi ini memang merupakan tipe Stonewall: terdiri dari 2 input dengan jumlah yang sama, 2 output dengan jumlah yang sama, serta output penukaran, dan, dalam kasus saya, sebuah input tambahan untuk memenuhi jumlah pembayaran.
+Kamu bisa melihat bahwa transaksi ini memang merupakan tipe Stonewall: terdiri dari 2 input dengan jumlah yang sama, 2 output dengan jumlah yang sama, serta output penukaran, dan, dalam kasusku, sebuah input tambahan untuk memenuhi jumlah pembayaran.
 
 
 
@@ -176,7 +176,7 @@ Anda bisa melihat bahwa transaksi ini memang merupakan tipe Stonewall: terdiri d
 
 
 
-Jika Anda tidak ingin melakukan transaksi Stonewall, tetapi lebih memilih pembayaran konvensional, klik ikon pensil di bagian kanan atas layar, lalu pilih `Simple`, bukan `STONEWALL`.
+Jika kamu tidak ingin melakukan transaksi Stonewall, tetapi lebih memilih pembayaran konvensional, klik ikon pensil di bagian kanan atas layar, lalu pilih `Simple`, bukan `STONEWALL`.
 
 
 
@@ -184,7 +184,7 @@ Jika Anda tidak ingin melakukan transaksi Stonewall, tetapi lebih memilih pembay
 
 
 
-Setelah Anda memeriksa semua detail, seret panah hijau di bagian bawah layar untuk menandatangani dan melepaskan transaksi.
+Setelah kamu memeriksa semua detail, seret panah hijau di bagian bawah layar untuk menandatangani dan melepaskan transaksi.
 
 
 
@@ -192,7 +192,7 @@ Setelah Anda memeriksa semua detail, seret panah hijau di bagian bawah layar unt
 
 
 
-Sekarang Anda sudah mengetahui cara melakukan transaksi Stonewall, dan yang lebih penting lagi, bagaimana cara kerjanya. Jika Anda ingin mengetahui lebih lanjut, lihat tutorial saya di Ashigaru Terminal, yang menjelaskan cara membuat coinjoin melalui Whirlpool.
+Sekarang kamu sudah mengetahui cara melakukan transaksi Stonewall, dan yang lebih penting lagi, bagaimana cara kerjanya. Jika kamu ingin mengetahui lebih lanjut, lihat tutorial di Ashigaru Terminal, yang menjelaskan cara membuat coinjoin melalui Whirlpool.
 
 
 

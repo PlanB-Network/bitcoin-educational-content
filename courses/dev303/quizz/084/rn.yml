@@ -1,0 +1,8 @@
+question: Ni inyungu iyihe y’intango y’ubwubatsi bw’uburyo bwa UniFFI bwo gukorana n’ibindi bitabo igihe ushiramwo amasomero ya Rust n’indimi zigenewe nka Swift canke Kotlin?
+answer: Igipande c'ubufatanye gikora ubuhinduzi bw'ubwoko n'uburongozi bw'ubwenge mu gihe kigaragaza ikigaragara c'ururimi rw'intumbero
+wrong_answers:
+  - Dosiye ya UDL ihita ikoranya kode ya Rust mu bytecode ishobora gukora ku mbuga ngurukanabumenyi ata mpinduro
+  - Kode y'ububiko bwa Rust irasubirwamwo mu rurimi rw'intumbero kugira ngo ikureho amahamagara yose y'ibikorwa vy'amahanga
+  - Ururimi rwo gukoresha rushobora gushika ku miterere y'ubwenge bwa Rust biciye ku bimenyetso bisangiye kugira ngo ntihagire amakuru akoreshwa
+explanation: |
+  Ubwubatsi bwa UniFFI buratuma habaho itandukaniro aho kode y'ubufatanye ikora nk'ubuhinduzi hagati y'ururimi rwo gukoresha na Rust. Iyi layer ikora ibikorwa vy'ugushiramwo/gukuraho ubwoko bw'amakuru, icungera ubwonko mu buryo butekanye mu mipaka y'ururimi, kandi itanga uburyo bwo gukora amakosa hakurikijwe amasezerano y'ururimi rw'intumbero. Ayandi mahitamwo ntabwo ari meza kuko UniFFI ntikoranya kuri bytecode (itanga amabohero), ntisubira kwandika kode ya Rust mu zindi ndimi (igumya ugushirwa mu ngiro kwa Rust kw’intango), kandi ntikoresha uburyo bwo kwibuka busangiye (ikorana n’amakuru ata nkomanzi ku mipaka).

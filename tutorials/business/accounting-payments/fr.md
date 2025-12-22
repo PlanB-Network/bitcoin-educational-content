@@ -45,7 +45,7 @@ Une configuration légèrement plus avancée consiste à utiliser Wallet de la f
 ![image](assets/en/01.webp)
 
 
-C'est l'une des deux façons d'accéder à la fonction de point de vente. L'autre méthode consiste à utiliser l'application dédiée [Wallet of Satoshi PoS app] (https://www.walletofsatoshi.com/pos.)
+C'est l'une des deux façons d'accéder à la fonction de point de vente. L'autre méthode consiste à utiliser l'application dédiée [Wallet of Satoshi PoS app](https://www.walletofsatoshi.com/pos.)
 
 
 L'utilisation de la fonction "Point de vente" présente trois avantages :

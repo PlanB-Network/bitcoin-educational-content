@@ -1,0 +1,8 @@
+question: Co dělá Rust během procesu odvíjení, když dojde k panice?
+answer: Prochází zpět zásobníkem volání a poskytuje podrobný přehled zásobníku
+wrong_answers:
+  - Okamžitě ukončí program bez jakéhokoli čištění nebo informací
+  - Převede paniku na obnovitelný typ Result pro zpracování chyb
+  - Restartuje provádění aktuální funkce od začátku
+explanation: |
+  Když v systému Rust dojde k panice, proces odvíjení prochází zpět zásobníkem volání a poskytuje podrobnou stopu zásobníku, která ukazuje, kde přesně k panice došlo. To pomáhá vývojářům při ladění identifikovat zdroj problému. Ostatní možnosti jsou nesprávné: Rust se neukončí okamžitě bez vyčištění (k tomu dochází pouze při vypnutém odvíjení), paniku nelze převést na typy Result, protože představuje neopravitelné chyby, a Rust při výskytu paniky znovu nespustí provádění funkce.

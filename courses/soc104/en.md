@@ -2,10 +2,9 @@
 name: What's your political leaning?
 goal: Understand the complexity of the modern political spectrum to identify your own tendency and situate the major ideological families beyond the left-right divide.
 objectives: 
-
   - Understanding that political typology is more nuanced than a simple left/right axis
-  - Identify the two main dimensions that structure the political spectrum: economic themes and societal themes
-  - Characterize the four main political families: Libertarians, Socialists, Conservatives, Centrists
+  - Identify the two main dimensions that structure the political spectrum
+  - Characterize the four main political families
   - Exploring the positioning of bitcoiners in the political spectrum
 
 

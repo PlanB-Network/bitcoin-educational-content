@@ -30,7 +30,7 @@ Mullvad VPN är en svensk tjänst som utmärker sig genom sin Commitment-strateg
 För betalning är det inte nödvändigtvis nödvändigt att ange kreditkortsinformation, eftersom Mullvad accepterar Bitcoin-betalningar (endast på kedjan på deras officiella webbplats, men det finns en inofficiell metod för att betala via Lightning). De accepterar också kontantbetalningar via posten.
 
 
-Mullvad VPN utmärker sig också genom sin transparens och säkerhet. Deras programvara är öppen källkod och de genomgår regelbundet oberoende säkerhetsrevisioner för att bedöma sina applikationer och infrastruktur, vars resultat [publiceras på deras webbplats] (https://mullvad.net/fr/blog/tag/audits). Företaget bakom Mullvad är baserat i Sverige, ett land som är känt för sina strikta integritetslagar. De använder uteslutande servrar som de själva driver och eliminerar därmed de risker som är förknippade med att använda molntjänster från tredje part, såsom hyperscalers AWS, Google Cloud eller Microsoft Azure.
+Mullvad VPN utmärker sig också genom sin transparens och säkerhet. Deras programvara är öppen källkod och de genomgår regelbundet oberoende säkerhetsrevisioner för att bedöma sina applikationer och infrastruktur, vars resultat [publiceras på deras webbplats](https://mullvad.net/fr/blog/tag/audits). Företaget bakom Mullvad är baserat i Sverige, ett land som är känt för sina strikta integritetslagar. De använder uteslutande servrar som de själva driver och eliminerar därmed de risker som är förknippade med att använda molntjänster från tredje part, såsom hyperscalers AWS, Google Cloud eller Microsoft Azure.
 
 
 När det gäller funktioner erbjuder Mullvad allt man förväntar sig av en bra VPN-klient, inklusive en kill switch som skyddar din trafik om VPN kopplas bort, ett alternativ för att inaktivera VPN för specifika applikationer och möjligheten att dirigera din trafik genom flera VPN-servrar.
@@ -50,7 +50,7 @@ Jag genomförde också några informella hastighetstester för att jämföra IVP
 ## Hur installerar jag Mullvad VPN på en dator?
 
 
-Gå till [Mullvads officiella webbplats] (https://mullvad.net/en/download/) och klicka på menyn "*Downloads*".
+Gå till [Mullvads officiella webbplats](https://mullvad.net/en/download/) och klicka på menyn "*Downloads*".
 
 ![MULLVAD VPN](assets/notext/04.webp)
 
@@ -82,7 +82,7 @@ Låt oss nu gå vidare till att aktivera Mullvad på dina enheter.
 ## Hur betalar jag för och aktiverar Mullvad VPN?
 
 
-Gå till [Mullvads officiella webbplats] (https://mullvad.net/) och klicka på knappen "*Get Started*".
+Gå till [Mullvads officiella webbplats](https://mullvad.net/) och klicka på knappen "*Get Started*".
 
 ![MULLVAD VPN](assets/notext/09.webp)
 

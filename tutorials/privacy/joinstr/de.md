@@ -534,7 +534,7 @@ Joinstr generiert derzeit im Durchschnitt Pools von **2 bis 5 Teilnehmern**. Die
 
 
 
-💡 **Um die Anonymitätssätze und ihre Berechnung im Detail zu verstehen**, siehe unseren vollständigen Kurs: [Anonymitätssätze] (https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
+💡 **Um die Anonymitätssätze und ihre Berechnung im Detail zu verstehen**, siehe unseren vollständigen Kurs: [Anonymitätssätze](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
 
 
 
@@ -651,9 +651,9 @@ Vor dem Hintergrund zunehmender finanzieller Kontrolle werden dezentralisierte I
 
 - [Joinstr offizielle Website](https://joinstr.xyz)
 - [Benutzerdokumentation](https://docs.joinstr.xyz/users/using-joinstr)
-- [Technische Dokumentation] (https://docs.joinstr.xyz/overview/how-does-it-work)
+- [Technische Dokumentation](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab-Quellcode](https://gitlab.com/invincible-privacy/joinstr)
-- [Android-Anwendung] (https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
+- [Android-Anwendung](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases)
 
 
 

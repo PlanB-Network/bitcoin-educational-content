@@ -43,7 +43,7 @@ LNbits ehitajatele: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-b
 
 # Mõned põhitõed
 
-LNbits töötab LNURL-protokolli alusel, mis tähendab, et päringud kehtivad kahes vormis: kas https:// clearnet link (isesigneeritud sertifikaadid ei ole lubatud) või http:// v2/v3 onion link. Selleks, et pakkuda LNbits'i teenuseid, nagu LNURLp/w QR-koodid või NFC-kaardid, mida saab kasutada looduses, tuleb LNbits avada clearnetile (https).
+LNbits töötab LNURL-protokolli alusel, mis tähendab, et päringud kehtivad kahes vormis: kas https://clearnet link (isesigneeritud sertifikaadid ei ole lubatud) või http://v2/v3 onion link. Selleks, et pakkuda LNbits'i teenuseid, nagu LNURLp/w QR-koodid või NFC-kaardid, mida saab kasutada looduses, tuleb LNbits avada clearnetile (https).
 
 Enne LNbits'i paigaldamist veenduge, et olete lugenud ja mõistnud järgmisi üldisi juhiseid selle kohta, mis on LNbits ja milliseid võimalusi see teile avab.
 
@@ -450,7 +450,7 @@ Kui te olete uus ehitamine alustada selle [MakerBits esitlused](https://www.yout
 ### TÄHELEPANU:
 
 
-- LNbits töötab LNURL-protokolli alusel, mille taotlused kehtivad kahel kujul: kas https:// clearnet link (isesigneeritud sertifikaadid ei ole lubatud) või http:// v2/v3 sibulalink. Selleks et pakkuda LNbits'i teenuseid, nagu LNURLp/w QR-koodid või NFC-kaardid, mida saab kasutada looduses, tuleb LNbits avada clearnetile (https).
+- LNbits töötab LNURL-protokolli alusel, mille taotlused kehtivad kahel kujul: kas https://clearnet link (isesigneeritud sertifikaadid ei ole lubatud) või http://v2/v3 sibulalink. Selleks et pakkuda LNbits'i teenuseid, nagu LNURLp/w QR-koodid või NFC-kaardid, mida saab kasutada looduses, tuleb LNbits avada clearnetile (https).
 - Kasutage esp32 toiteks ainult DATA-kaableid. Mitte kõik kaablid ei toeta lisaks esp-i toitele ka andmeid. Te ei oleks esimene, kui esp-ga kaasasolev kaabel on ainult toiteallikaks
 - Veenduge, et te ei kasuta USB-keskust, millele on ühendatud teisi seadmeid. See võib põhjustada kummalisi efekte, mida on raske kõrvaldada (nt ei käivitu või ei peatu).
 - Esp-projektide realiseerimiseks MacOSiga on vaja UART Bridge Driver'i. Kui sul on probleeme draiveriga Mac või Linux süsteemides, leiad need siit või, kui tegemist on TTGO ekraaniga, siis siit. Kui olete windowsis ja teil on probleeme ühendamisega, siis laadige kindlasti alla VANA versioon 11.1.0, sest uuem versioon ei tööta! Samuti leiate siit jadaterminali, et kontrollida oma ühendust - seadistage baudrate 115200.

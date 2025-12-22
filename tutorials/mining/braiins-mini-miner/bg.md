@@ -168,7 +168,7 @@ https://planb.academy/it/tutorials/mining/pool/braiins-pool-557be706-35a9-4375-a
 
 
 
-Следва прозорецът с информацията, която ни е необходима, за да свържем нашия мини Miner към басейна. Тук единствената промяна, която можем да направим, е да изберем Stratum V2. За да разберете какво е Stratum v2, вижте този запис в [glossary] (https://planb.academy/en/resources/glossary/stratum-v2).
+Следва прозорецът с информацията, която ни е необходима, за да свържем нашия мини Miner към басейна. Тук единствената промяна, която можем да направим, е да изберем Stratum V2. За да разберете какво е Stratum v2, вижте този запис в [glossary](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

@@ -1,0 +1,8 @@
+question: Qual è la principale limitazione dell'uso della libreria anyhow per la gestione degli errori nello sviluppo della libreria Rust?
+answer: Converte tutti gli errori in messaggi stringa, impedendo ai consumatori di rispondere programmaticamente a condizioni di errore diverse
+wrong_answers:
+  - Funziona solo con i tipi di risultato e non può gestire i tipi di opzione, limitando la sua utilità in scenari misti
+  - Richiede la conversione manuale degli errori per ogni tipo di errore, rendendola più prolissa rispetto alla gestione standard dei risultati
+  - Va automaticamente in panico su alcuni tipi di errore, il che lo rende inadatto al codice della libreria di produzione
+explanation: |
+  Lo svantaggio principale della libreria anyhow per lo sviluppo delle librerie è che essenzialmente appiattisce tutti gli errori in rappresentazioni di stringhe, perdendo le informazioni strutturate sugli errori di cui gli utenti delle librerie hanno bisogno per prendere decisioni programmatiche. Mentre anyhow eccelle nel semplificare la gestione degli errori per le applicazioni dell'utente finale, dove gli errori vengono principalmente visualizzati, le librerie devono fornire tipi di errore specifici che consentano agli utenti di distinguere tra diverse modalità di errore (come input non valido o errori di runtime) e di rispondere in modo appropriato. Le altre opzioni non sono corrette: anyhow funziona bene sia con i tipi Result che Option, riduce effettivamente la verbosità attraverso la conversione automatica e non causa panico.

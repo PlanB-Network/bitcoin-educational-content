@@ -1,0 +1,8 @@
+question: ¿Qué hace que el sistema de tipos de Rust sea especialmente eficaz para evitar vulnerabilidades relacionadas con la memoria en las aplicaciones de Bitcoin?
+answer: El sistema de tipos gestiona tanto el modelado de la lógica empresarial como el control de la propiedad de la memoria a través del mismo mecanismo
+wrong_answers:
+  - El compilador genera automáticamente rutinas de asignación de memoria que evitan los ataques por desbordamiento del búfer
+  - La tipificación estática requiere que todas las direcciones de memoria se declaren en tiempo de compilación y no en tiempo de ejecución
+  - La tipificación fuerte convierte todas las operaciones con punteros en una comprobación segura de los límites de las matrices durante la ejecución
+explanation: |
+  El sistema de tipos de Rust es único porque cumple una doble función: modela la lógica empresarial compleja y, al mismo tiempo, gestiona la seguridad de la memoria mediante la propiedad, el préstamo y el recuento de referencias. Esta integración significa que la misma comprobación de tipos que garantiza una lógica de programa correcta también elimina las fugas de memoria, los errores doblemente libres y las condiciones de carrera en tiempo de compilación. Las respuestas incorrectas describen mecanismos que no existen en Rust: el compilador no auto-generate rutinas de asignación, las direcciones de memoria no están obligados a ser constantes en tiempo de compilación, y la seguridad de puntero proviene de las reglas de propiedad en lugar de en tiempo de ejecución límites de verificación.

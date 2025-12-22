@@ -1,0 +1,8 @@
+question: Koje je kritično ograničenje ekosistema mobilnih aplikacija otkrila originalna aplikacija Breez koje je uticalo na razvoj arhitekture SDK-a?
+answer: Mobilne aplikacije ne mogu lako komunicirati jedna s drugom, što primorava programere da izgrade sve Lightning funkcije u jednoj aplikaciji umesto da dele Lightning infrastrukturu.
+wrong_answers:
+  - Mobilni uređaji nemaju dovoljno računske snage da pouzdano pokreću Lightning čvorove, što zahteva infrastrukturu zasnovanu na oblaku za obradu složenih proračuna rutiranja.
+  - Mobilni operativni sistemi previše strogo ograničavaju pozadinske procese, sprečavajući Lightning čvorove da održavaju stalne veze sa mrežom
+  - Prodavnice mobilnih aplikacija zabranjuju nekustodijalne finansijske aplikacije, primoravajući programere da implementiraju kustodijalna rešenja kako bi dobili odobrenje prodavnice aplikacija.
+explanation: |
+  Originalna aplikacija Breez pokazala je da mobilni ekosistemi ne olakšavaju komunikaciju između aplikacija, sprečavajući specijalizovane aplikacije da koriste zajedničku Lightning infrastrukturu. Ovo arhitektonsko ograničenje primoralo je svu Lightning funkcionalnost u monolitne aplikacije. Ostale opcije su netačne: mobilni uređaji mogu pokretati Lightning čvorove (kao što je Breez dokazao), ograničenja u pozadini su upravljiva uz odgovarajuću arhitekturu, a prodavnice aplikacija generalno dozvoljavaju nekustodijalne finansijske aplikacije.

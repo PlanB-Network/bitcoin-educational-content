@@ -46,7 +46,7 @@ Unganisha Ledger yako kwenye kompyuta yako na uifungue.
 
 
 
-Ili kusakinisha programu, fungua programu ya [Ledger Live] (https://www.Ledger.com/Ledger-live), kisha uende kwenye kichupo cha "*Ledger* yangu". Tafuta programu ya "*Ufunguo wa Usalama*" na uisakinishe kwenye kifaa chako.
+Ili kusakinisha programu, fungua programu ya [Ledger Live](https://www.Ledger.com/Ledger-live), kisha uende kwenye kichupo cha "*Ledger* yangu". Tafuta programu ya "*Ufunguo wa Usalama*" na uisakinishe kwenye kifaa chako.
 
 
 

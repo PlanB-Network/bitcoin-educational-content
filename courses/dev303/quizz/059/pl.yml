@@ -1,0 +1,8 @@
+question: Jaka jest kluczowa zaleta korzystania z makr derive, takich jak #[derive(Debug)], w porównaniu do ręcznego implementowania cech dla niestandardowych typów?
+answer: Automatycznie generate kompletne implementacje cech w czasie kompilacji, redukując kod boilerplate
+wrong_answers:
+  - Zapewniają one lepszą wydajność w czasie wykonywania poprzez optymalizację wywołań metod cech podczas wykonywania
+  - Pozwalają one na wielokrotne implementowanie cech dla tego samego typu z różnymi zachowaniami
+  - Umożliwiają one dynamiczną implementację cech, które mogą być modyfikowane w czasie wykonywania w oparciu o stan programu
+explanation: |
+  Makra pochodne automatycznie generate implementują cechy podczas kompilacji, eliminując potrzebę ręcznego pisania powtarzającego się kodu standardowego. Kiedy używasz #[derive(Debug)], kompilator generuje całą niezbędną logikę formatowania dla tej cechy. Błędne odpowiedzi są niepoprawne, ponieważ: makra derive nie poprawiają wydajności w czasie wykonywania (generate ten sam kod, który napisałbyś ręcznie), cechy mogą być zaimplementowane tylko raz na typ, niezależnie od tego, w jaki sposób są zaimplementowane, a makra derive generate kod statyczny w czasie kompilacji zamiast umożliwiać modyfikacje w czasie wykonywania.

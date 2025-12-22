@@ -21,7 +21,7 @@ Akan tetapi, pendekatan ini memiliki risiko yang signifikan: seed harus tetap da
 
 
 
-Untuk mengatasi kelemahan ini, SeedSigner dapat digabungkan dengan [**Seedkeeper**] (https://satochip.io/product/seedkeeper/), sebuah kartu pintar yang dikembangkan oleh Satochip. Hal ini memungkinkan frase mnemonic (atau rahasia lainnya) untuk disimpan di dalam secure element yang dilindungi oleh kode PIN. Applet Seedkeeper merupakan sumber terbuka, dan secure element-nya memiliki sertifikasi EAL6+. Digunakan bersama dengan SeedSigner, aplikasi ini menawarkan fitur keamanan yang sangat menarik: kunci Anda tetap dikelola sepenuhnya secara offline, Anda menandatangani transaksi Anda pada layar yang terpercaya, dan seed secara fisik terlindungi dengan smartcard yang tahan terhadap serangan fisik.
+Untuk mengatasi kelemahan ini, SeedSigner dapat digabungkan dengan [**Seedkeeper**](https://satochip.io/product/seedkeeper/), sebuah kartu pintar yang dikembangkan oleh Satochip. Hal ini memungkinkan frase mnemonic (atau rahasia lainnya) untuk disimpan di dalam secure element yang dilindungi oleh kode PIN. Applet Seedkeeper merupakan sumber terbuka, dan secure element-nya memiliki sertifikasi EAL6+. Digunakan bersama dengan SeedSigner, aplikasi ini menawarkan fitur keamanan yang sangat menarik: kunci Anda tetap dikelola sepenuhnya secara offline, Anda menandatangani transaksi Anda pada layar yang terpercaya, dan seed secara fisik terlindungi dengan smartcard yang tahan terhadap serangan fisik.
 
 
 
@@ -31,7 +31,7 @@ Yang Anda perlukan untuk menyelesaikan instalasi adalah item berikut ini:
 
 
 - Peralatan yang biasa dibutuhkan untuk SeedSigner klasik: Raspberry Pi Zero, layar Waveshare 1.3", kamera yang kompatibel dan kartu microSD (Anda akan menemukan detail lebih lanjut dalam tutorial SeedSigner di bawah);
-- Kit ekstensi SeedSigner, tersedia [di toko resmi Satochip] (https://satochip.io/product/seedsigner-extension-kit/), yang memungkinkan Anda membaca dan menulis ke smartcard secara langsung dari SeedSigner Anda. Pilihan lainnya adalah dengan menggunakan pembaca smartcard eksternal, yang dapat dihubungkan dengan kabel ke port Micro-USB pada Raspberry Pi. Namun, saya sendiri belum menguji solusi ini;
+- Kit ekstensi SeedSigner, tersedia [di toko resmi Satochip](https://satochip.io/product/seedsigner-extension-kit/), yang memungkinkan Anda membaca dan menulis ke smartcard secara langsung dari SeedSigner Anda. Pilihan lainnya adalah dengan menggunakan pembaca smartcard eksternal, yang dapat dihubungkan dengan kabel ke port Micro-USB pada Raspberry Pi. Namun, saya sendiri belum menguji solusi ini;
 - Seedkeeper, atau sebagai alternatif, sebuah smartcard kosong untuk menginstal applet Seedkeeper (kit ekstensi yang dijual oleh Satochip sudah termasuk smartcard kosong).
 
 
@@ -56,7 +56,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Untuk menggunakan SeedSigner Anda dengan Seedkeeper, Anda perlu menginstal firmware alternatif, yang berbeda dari SeedSigner asli, untuk mendukung pembacaan kartu pintar. Untuk hal ini, [saya sarankan untuk menggunakan fork dari "*3rdIteration*"] (https://github.com/3rdIteration/seedsigner). Unduh [versi terbaru dari gambar] (https://github.com/3rdIteration/seedsigner/releases) (`.zip`) yang sesuai dengan model Raspberry Pi yang Anda gunakan.
+Untuk menggunakan SeedSigner Anda dengan Seedkeeper, Anda perlu menginstal firmware alternatif, yang berbeda dari SeedSigner asli, untuk mendukung pembacaan kartu pintar. Untuk hal ini, [saya sarankan untuk menggunakan fork dari "*3rdIteration*"](https://github.com/3rdIteration/seedsigner). Unduh [versi terbaru dari gambar](https://github.com/3rdIteration/seedsigner/releases) (`.zip`) yang sesuai dengan model Raspberry Pi yang Anda gunakan.
 
 
 
@@ -64,7 +64,7 @@ Untuk menggunakan SeedSigner Anda dengan Seedkeeper, Anda perlu menginstal firmw
 
 
 
-Jika Anda belum memilikinya, unduh perangkat lunak [Balena Etcher] (https://etcher.balena.io/), kemudian lanjutkan sebagai berikut:
+Jika Anda belum memilikinya, unduh perangkat lunak [Balena Etcher](https://etcher.balena.io/), kemudian lanjutkan sebagai berikut:
 
 
 
@@ -505,6 +505,6 @@ Jika pengaturan ini meyakinkan Anda, jangan ragu untuk mendukung proyek yang mem
 
 
 
-- Dengan membeli peralatan Anda secara langsung [di situs web Satochip] (https://satochip.io/shop/);
-- Dengan memberikan [donasi untuk proyek SeedSigner] (https://seedsigner.com/donate/);
-- Dengan berlangganan [saluran YouTube Crypto Guide] (https://www.youtube.com/@CryptoGuide/), yang dijalankan oleh orang yang mengelola repositori GitHub yang menghosting firmware yang dimodifikasi.
+- Dengan membeli peralatan Anda secara langsung [di situs web Satochip](https://satochip.io/shop/);
+- Dengan memberikan [donasi untuk proyek SeedSigner](https://seedsigner.com/donate/);
+- Dengan berlangganan [saluran YouTube Crypto Guide](https://www.youtube.com/@CryptoGuide/), yang dijalankan oleh orang yang mengelola repositori GitHub yang menghosting firmware yang dimodifikasi.

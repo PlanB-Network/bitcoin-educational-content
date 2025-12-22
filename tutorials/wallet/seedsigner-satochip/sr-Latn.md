@@ -96,7 +96,7 @@ Da biste koristili svoj SeedSigner sa Satochip-om, potrebno je da instalirate al
 
 
 
-Ako već nemate, preuzmite softver [Balena Etcher] (https://etcher.balena.io/), zatim nastavite na sledeći način:
+Ako već nemate, preuzmite softver [Balena Etcher](https://etcher.balena.io/), zatim nastavite na sledeći način:
 
 
 

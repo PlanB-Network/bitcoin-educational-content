@@ -1,0 +1,8 @@
+question: Miksi köyhille suunnatut sosiaaliset ohjelmat eivät Milton Friedmanin mukaan useinkaan saavuta tavoitteitaan?
+answer: Koska ne aiheuttavat vääristyneitä vaikutuksia, kuten taloudellista riippuvuutta ja markkinoiden vääristymistä
+wrong_answers:
+  - Koska heidän rahoittajiltaan puuttuu hyvät aikeet ja anteliaisuus vähävaraisia kohtaan
+  - Koska niillä ei ole riittävästi rahoitusta todellisiin tarpeisiin vastaamiseen
+  - Koska edunsaajat eivät ymmärrä, miten näitä ohjelmia käytetään tehokkaasti
+explanation: |
+  Friedman huomauttaa, että sosiaalipolitiikka epäonnistuu usein hyvistä aikeistaan huolimatta, koska siinä ei oteta huomioon ihmisten kannustimien ja käyttäytymisen tarkkaa analyysia. Nämä ohjelmat aiheuttavat odottamattomia vääristyneitä vaikutuksia, kuten taloudellista riippuvuutta tai markkinoiden vääristymistä, ja tuottavat tuloksia, jotka ovat alkuperäisten tavoitteiden vastaisia.

@@ -14,12 +14,9 @@ description: Memahami dan menggunakan transaksi Stonewall pada Sparrow
 
 
 
-Stonewall adalah sebuah bentuk spesifik dari transaksi Bitcoin yang dirancang untuk meningkatkan kerahasiaan pengguna ketika melakukan transaksi dengan meniru coinjoin antara dua orang, tanpa benar-benar menjadi satu. Pada kenyataannya, transaksi ini tidak bersifat kolaboratif. Seorang pengguna dapat membuatnya sendiri, dengan hanya menggunakan UTXO yang dimilikinya sebagai input. Jadi, Anda dapat membuat transaksi Stonewall untuk setiap kesempatan, tanpa harus melakukan sinkronisasi dengan pengguna lain.
+Stonewall adalah bentuk spesifik dari transaksi Bitcoin yang dirancang untuk meningkatkan kerahasiaan pengguna saat melakukan transaksi dengan meniru coinjoin antara dua orang, tanpa benar-benar melibatkan pihak lain. Pada praktiknya, transaksi ini tidak bersifat kolaboratif. Kamu bisa membuatnya sendiri hanya dengan menggunakan UTXO milikmu sebagai input. Jadi, kamu dapat membuat transaksi Stonewall kapan pun dibutuhkan, tanpa harus melakukan sinkronisasi dengan pengguna lain.
 
-
-
-Transaksi Stonewall bekerja sebagai berikut: sebagai input untuk transaksi, penerbit menggunakan 2 UTXO yang dimilikinya. Di sisi output, transaksi menghasilkan 4 output, 2 di antaranya memiliki jumlah yang sama persis. Dua lainnya adalah valuta asing. Dari 2 output dengan jumlah yang sama, hanya satu yang akan benar-benar masuk ke penerima pembayaran.
-
+Transaksi Stonewall bekerja sebagai berikut: sebagai input transaksi, penerbit menggunakan 2 UTXO miliknya. Di sisi output, transaksi ini menghasilkan 4 output, dengan 2 di antaranya memiliki jumlah yang sama persis. Dua output lainnya adalah output kembalian. Dari 2 output dengan jumlah yang identik tersebut, hanya satu yang benar-benar dikirim ke penerima pembayaran.
 
 
 Jadi hanya ada 2 peran dalam transaksi Stonewall:
@@ -32,19 +29,16 @@ Jadi hanya ada 2 peran dalam transaksi Stonewall:
 
 
 
-Mari kita ambil sebuah contoh untuk memahami struktur transaksi ini. Alice pergi ke toko roti untuk membeli roti baguette seharga `4.000 sats`. Ia ingin membayar dengan bitcoin, namun tetap menjaga kerahasiaan pembayarannya. Jadi, dia memutuskan untuk membuat transaksi Stonewall untuk pembayarannya.
-
+Mari kita ambil satu contoh untuk memahami struktur transaksi ini. Alice pergi ke toko roti untuk membeli roti baguette seharga '4.000 sats'. Ia ingin membayar dengan bitcoin sambil tetap menjaga kerahasiaan pembayarannya. Karena itu, Alice memutuskan untuk membuat transaksi Stonewall untuk melakukan pembayaran tersebut.
 
 
 ![image](assets/fr/01.webp)
 
 
 
-Dengan menganalisis transaksi ini, kita dapat melihat bahwa tukang roti telah menerima `4.000 sats` sebagai pembayaran untuk baguette. Alice menggunakan 2 UTXO sebagai input: satu dari `10.000 sats` dan satu lagi dari `15.000 sats`. Pada output, ia telah memulihkan 3 UTXO: satu dari `4.000 sats`, satu dari `6.000 sats` dan satu dari `11.000 sats`. Oleh karena itu, Alice memiliki saldo bersih sebesar `- 4.000 sats` pada transaksi ini, yang sesuai dengan harga baguette.
+Dengan menganalisis transaksi ini, kita dapat melihat bahwa tukang roti menerima '4.000 sats' sebagai pembayaran untuk baguette. Alice menggunakan 2 UTXO sebagai input: satu sebesar 10.000 sats dan satu lagi sebesar '15.000 sats'. Pada sisi output, ia memulihkan 3 UTXO: satu sebesar '4.000 sats', satu sebesar '6.000 sats', dan satu sebesar '11.000 sats'. Dengan demikian, Alice memiliki saldo bersih sebesar '-4.000 sats' pada transaksi ini, yang sesuai dengan harga baguette.
 
-
-
-Dalam contoh ini, saya sengaja mengabaikan biaya mining agar lebih mudah dipahami. Pada kenyataannya, biaya transaksi ditanggung sepenuhnya oleh penerbit.
+Dalam contoh ini, aku sengaja mengabaikan biaya mining agar lebih mudah dipahami. Pada praktiknya, biaya transaksi sepenuhnya ditanggung oleh penerbit.
 
 
 
@@ -52,11 +46,9 @@ Dalam contoh ini, saya sengaja mengabaikan biaya mining agar lebih mudah dipaham
 
 
 
-Transaksi Stonewall bekerja secara identik dengan transaksi StonewallX2, kecuali bahwa transaksi StonewallX2 membutuhkan kolaborasi, tidak seperti transaksi Stonewall klasik, oleh karena itu dinamakan "x2". Hal ini dikarenakan transaksi Stonewall dieksekusi tanpa membutuhkan kerja sama eksternal: pengirim dapat melakukannya tanpa bantuan orang lain. Sebaliknya, untuk transaksi Stonewall x2, peserta tambahan, yang dikenal sebagai "kolaborator", bergabung dalam proses tersebut. Ia menyumbangkan bitcoin-nya sendiri ke dalam transaksi, bersama dengan bitcoin milik pengirim, dan mengambil alih seluruh jumlah di akhir transaksi (dikurangi biaya mining).
+Transaksi Stonewall bekerja secara identik dengan transaksi StonewallX2, kecuali bahwa StonewallX2 membutuhkan kolaborasi, tidak seperti transaksi Stonewall klasik. Karena itu, transaksi ini dinamakan “x2”. Hal ini terjadi karena transaksi Stonewall dieksekusi tanpa memerlukan kerja sama eksternal: pengirim dapat melakukannya sendiri tanpa bantuan pihak lain. Sebaliknya, pada transaksi Stonewall x2, peserta tambahan yang dikenal sebagai “kolaborator” ikut terlibat dalam proses tersebut. Ia menyumbangkan bitcoin miliknya ke dalam transaksi bersama bitcoin milik pengirim, lalu mengambil kembali seluruh jumlah kontribusinya di akhir transaksi, dikurangi biaya mining.
 
-
-
-Mari kita kembali ke contoh kita dengan Alice di toko roti. Jika dia ingin melakukan transaksi Stonewall x2, Alice harus berkolaborasi dengan Bob (pihak ketiga) saat menyiapkan transaksi. Mereka masing-masing akan membawa UTXO. Bob kemudian akan menerima jumlah penuh kontribusinya saat keluar. Tukang roti akan menerima pembayaran untuk baguette-nya dengan cara yang sama seperti pada transaksi Stonewall, sementara Alice akan mendapatkan kembali saldo awalnya, dikurangi biaya baguette.
+Mari kita kembali ke contoh Alice di toko roti. Jika Alice ingin melakukan transaksi Stonewall x2, ia harus berkolaborasi dengan Bob sebagai pihak ketiga saat menyiapkan transaksi. Keduanya masing-masing akan membawa UTXO. Bob kemudian akan menerima kembali jumlah penuh kontribusinya saat transaksi selesai. Tukang roti tetap menerima pembayaran untuk baguette dengan cara yang sama seperti pada transaksi Stonewall, sementara Alice mendapatkan kembali saldo awalnya, dikurangi biaya baguette.
 
 
 
@@ -72,8 +64,7 @@ Dari sudut pandang orang luar, transaksi tersebut akan tetap sama.
 
 
 
-Singkatnya, transaksi Stonewall dan Stonewall x2 memiliki struktur yang sama. Perbedaan antara keduanya terletak pada sifat kolaboratif atau non-kolaboratif. Transaksi Stonewall dikembangkan secara individual, tanpa perlu kolaborasi. Transaksi Stonewall x2, di sisi lain, bergantung pada kerja sama antara dua orang untuk mengaturnya.
-
+Singkatnya, transaksi Stonewall dan Stonewall x2 memiliki struktur yang sama. Perbedaan di antara keduanya terletak pada sifat kolaboratif atau non-kolaboratifnya. Transaksi Stonewall dibuat secara individual tanpa memerlukan kolaborasi. Sebaliknya, transaksi Stonewall x2 bergantung pada kerja sama dua orang untuk menyusunnya.
 
 
 [**-> Pelajari lebih lanjut tentang transaksi Stonewall x2**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
@@ -84,8 +75,7 @@ Singkatnya, transaksi Stonewall dan Stonewall x2 memiliki struktur yang sama. Pe
 
 
 
-Struktur Stonewall menambahkan sejumlah besar entropi pada transaksi, mengaburkan garis analisis rantai. Dilihat dari luar, transaksi seperti ini dapat diartikan sebagai sebuah koin kecil antara dua orang. Namun pada kenyataannya, seperti transaksi Stonewall x2, transaksi ini adalah sebuah pembayaran. Oleh karena itu, metode ini menghasilkan ketidakpastian dalam analisis rantai, atau bahkan menyebabkan petunjuk yang salah.
-
+Struktur Stonewall menambahkan tingkat entropi yang tinggi pada transaksi, sehingga mengaburkan jalur analisis rantai. Dari sudut pandang eksternal, transaksi seperti ini bisa diartikan sebagai coinjoin kecil antara dua orang. Namun pada kenyataannya, seperti pada transaksi Stonewall x2, transaksi ini adalah sebuah pembayaran. Karena itu, metode ini menciptakan ketidakpastian dalam analisis rantai, bahkan dapat mengarahkan pengamat pada kesimpulan yang keliru.
 
 
 Mari kita ambil contoh Alice di toko roti. Transaksi pada blockchain akan terlihat seperti ini:
@@ -104,7 +94,7 @@ Seorang pengamat luar yang mengandalkan heuristik analisis rantai yang umum mung
 
 
 
-Interpretasi ini tidak akurat, karena, seperti yang Anda ketahui, satu UTXO dikirim ke tukang roti, 2 UTXO yang masuk berasal dari Alices, dan dia memulihkan 3 output pertukaran.
+Interpretasi ini tidak akurat, karena, seperti yang kamu ketahui, satu UTXO dikirim ke tukang roti, 2 UTXO yang masuk berasal dari Alices, dan dia memulihkan 3 output pertukaran.
 
 
 
@@ -112,7 +102,7 @@ Interpretasi ini tidak akurat, karena, seperti yang Anda ketahui, satu UTXO diki
 
 
 
-Bahkan jika pengamat luar berhasil mengidentifikasi pola transaksi Stonewall, dia tidak akan memiliki semua informasi. Dia tidak akan dapat menentukan mana dari dua UTXO dengan jumlah yang sama yang sesuai dengan pembayaran. Selain itu, ia tidak akan dapat menentukan apakah dua entri UTXO tersebut berasal dari dua orang yang berbeda, atau apakah keduanya milik satu orang yang telah menggabungkannya. Poin terakhir ini disebabkan oleh fakta bahwa transaksi Stonewall x2, yang disebutkan di atas, mengikuti pola yang sama persis dengan transaksi Stonewall. Dilihat dari luar dan tanpa informasi kontekstual tambahan, tidak mungkin untuk membedakan antara transaksi Stonewall dan transaksi Stonewall x2. Yang pertama bukanlah transaksi kolaboratif, sedangkan yang kedua adalah transaksi kolaboratif. Hal ini menambah keraguan pada biaya.
+Bahkan jika pengamat luar berhasil mengidentifikasi pola transaksi Stonewall, ia tetap tidak memiliki seluruh informasi. Ia tidak dapat menentukan mana dari dua UTXO dengan jumlah yang sama yang merupakan pembayaran. Selain itu, ia juga tidak dapat memastikan apakah dua input UTXO tersebut berasal dari dua orang yang berbeda, atau justru keduanya milik satu orang yang digabungkan. Poin terakhir ini muncul karena transaksi Stonewall x2, seperti yang telah dijelaskan sebelumnya, mengikuti pola yang persis sama dengan transaksi Stonewall. Dilihat dari luar dan tanpa informasi kontekstual tambahan, tidak mungkin membedakan antara transaksi Stonewall dan transaksi Stonewall x2. Yang pertama bersifat non-kolaboratif, sedangkan yang kedua merupakan transaksi kolaboratif. Hal ini menambah tingkat keraguan dalam analisis biaya transaksi.
 
 
 
@@ -124,21 +114,16 @@ Bahkan jika pengamat luar berhasil mengidentifikasi pola transaksi Stonewall, di
 
 
 
-Awalnya dikembangkan oleh tim Samurai Wallet, transaksi Stonewall diambil alih oleh aplikasi Ashigaru, fork dari portofolio asli yang dibuat setelah penangkapan pengembang Samurai, dan juga pada Sparrow Wallet.
+Awalnya dikembangkan oleh tim Samurai Wallet, transaksi Stonewall kemudian diadopsi oleh aplikasi Ashigaru, sebuah fork dari wallet asli yang dibuat setelah penangkapan pengembang Samurai, serta oleh Sparrow Wallet.
 
-
-
-Anda harus menginstal Sparrow dan membuat file :
-
+Kamu perlu menginstal Sparrow dan membuat file:
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Tidak seperti transaksi Stowaway atau Stonewall x2 (*kongkalikong*), transaksi Stonewall tidak memerlukan penggunaan Paynyms. Transaksi ini dapat dilakukan secara langsung, tanpa persiapan khusus atau kolaborasi dengan pengguna lain.
+Tidak seperti transaksi Stowaway atau Stonewall x2 (*cahoots*), transaksi Stonewall tidak memerlukan penggunaan PayNym. Transaksi ini dapat dilakukan secara langsung tanpa persiapan khusus atau kolaborasi dengan pengguna lain.
 
-
-
-Untuk melakukan transaksi Stonewall pada Sparrow, prosedurnya sangat sederhana: mulailah dengan membuat transaksi seperti biasa, baik melalui menu `Kirim`, atau dari menu `UTXOs` jika Anda ingin melakukan *Kontrol Coin*.
+Untuk melakukan transaksi Stonewall di Sparrow, langkah-langkahnya sangat sederhana: mulailah dengan membuat transaksi seperti biasa, baik melalui menu Kirim maupun dari menu UTXOs jika kamu ingin melakukan Kontrol Coin.
 
 
 
@@ -154,16 +139,14 @@ Kemudian masukkan detail transaksi: alamat penerima, label, jumlah yang akan dik
 
 
 
-Sebelum mengonfirmasi, di sinilah Anda dapat memilih struktur Stonewall. Di bagian bawah antarmuka, ganti `Efficiency` dengan `Privacy`. Jika opsi ini tidak muncul, ini berarti portofolio Anda tidak memiliki jumlah UTXO yang cukup untuk membangun jenis transaksi ini.
-
+Sebelum mengonfirmasi, di sinilah kamu dapat memilih struktur Stonewall. Di bagian bawah antarmuka, ganti 'Efficiency' menjadi 'Privacy'. Jika opsi ini tidak muncul, berarti wallet kamu tidak memiliki jumlah UTXO yang cukup untuk membangun jenis transaksi ini.
 
 
 ![Image](assets/fr/08.webp)
 
 
 
-Setelah memilih opsi `Privasi`, Anda akan melihat bahwa struktur transaksi sepenuhnya dimodifikasi: transaksi ini menjadi transaksi Stonewall, menggunakan beberapa UTXO Anda sebagai input dan menghasilkan dua output dengan jumlah yang sama, yang salah satunya sesuai dengan pembayaran aktual sebesar `100.000 sats`, di samping output pertukaran.
-
+Setelah memilih opsi `Privacy`, kamu akan melihat bahwa struktur transaksi sepenuhnya berubah. Transaksi ini menjadi transaksi Stonewall, dengan menggunakan beberapa UTXO milikmu sebagai input dan menghasilkan dua output dengan jumlah yang sama, di mana salah satunya merupakan pembayaran aktual sebesar `100.000 sats`, di samping output kembalian.
 
 
 ![Image](assets/fr/09.webp)
@@ -174,15 +157,13 @@ Jika semuanya sudah benar, klik `Buat Transaksi`.
 
 
 
-Anda kemudian dapat memeriksa detail transaksi Anda untuk terakhir kalinya, dan klik `Finalize Transaction for Signing`.
-
+Kamu kemudian dapat memeriksa detail transaksi untuk terakhir kalinya, lalu klik `Finalize Transaction for Signing`.
 
 
 ![Image](assets/fr/10.webp)
 
 
-
-Kemudian tandatangani transaksi sesuai dengan metode khusus untuk portofolio Anda, dan klik `Broadcast Transaction` untuk menyiarkannya di jaringan Bitcoin, sambil menunggu konfirmasi.
+Kemudian tandatangani transaksi sesuai dengan metode yang digunakan oleh wallet kamu, lalu klik `Broadcast Transaction` untuk menyiarkannya ke jaringan Bitcoin sambil menunggu konfirmasi.
 
 
 
@@ -190,7 +171,7 @@ Kemudian tandatangani transaksi sesuai dengan metode khusus untuk portofolio And
 
 
 
-Sekarang Anda sudah mengetahui cara kerja transaksi Stonewall pada Sparrow Wallet dan cara membuatnya. Untuk memperdalam penguasaan Anda atas alat-alat yang dirancang untuk memperkuat kerahasiaan onchain Anda, saya mengundang Anda untuk mengikuti pelatihan BTC 204 saya di Plan ₿ Academy:
+Sekarang kamu sudah memahami cara kerja transaksi Stonewall di Sparrow Wallet dan cara membuatnya. Untuk memperdalam penguasaanmu atas alat-alat yang dirancang untuk memperkuat kerahasiaan on-chain kamu, aku mengajak kamu untuk mengikuti pelatihan BTC 204 milikku di Plan ₿ Academy:
 
 
 

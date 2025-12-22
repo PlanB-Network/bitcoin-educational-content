@@ -1,0 +1,9 @@
+question: Menurut filosofi Satoshi Nakamoto, apa masalah mendasar dari mata uang konvensional yang dirancang untuk dipecahkan oleh Bitcoin?
+answer: Kepercayaan berlebihan yang diperlukan dalam lembaga-lembaga terpusat yang secara historis telah melanggar kepercayaan itu melalui pelemahan mata uang
+wrong_answers:
+  - Kurangnya infrastruktur digital dan lambatnya kecepatan pemrosesan transaksi dalam sistem perbankan tradisional
+  - Tingginya biaya transaksi dan terbatasnya aksesibilitas transfer uang internasional melalui bank
+  - Dampak lingkungan dan konsumsi energi dari sistem perbankan dan pemrosesan pembayaran tradisional
+explanation: |
+  Satoshi Nakamoto secara eksplisit menyatakan bahwa 'akar masalah dari mata uang konvensional adalah kepercayaan yang dibutuhkan untuk membuatnya bekerja' dan bahwa bank sentral harus dipercaya untuk tidak merendahkan mata uang, tetapi 'sejarah mata uang fiat penuh dengan pelanggaran terhadap kepercayaan tersebut'.
+  Kutipan ini mengungkapkan tujuan utama Bitcoin: menghilangkan kebutuhan akan kepercayaan terhadap institusi yang tersentralisasi. Pilihan lain, meskipun berpotensi menimbulkan kekhawatiran tentang keuangan tradisional, tidak membahas masalah filosofis mendasar yang diidentifikasi oleh Satoshi - bahwa sistem fiat membutuhkan kepercayaan buta pada institusi yang telah berulang kali terbukti tidak dapat dipercaya melalui manipulasi dan perendahan nilai tukar.

@@ -1,0 +1,8 @@
+question: Milline on peamine piirang, mis takistab anyhow raamatukogu kasutamist vigade käsitlemisel Rust raamatukogu arendamisel?
+answer: See teisendab kõik vead string-teadeteks, takistades tarbijatel programmiliselt reageerida erinevatele veatingimustele
+wrong_answers:
+  - See töötab ainult Result-tüüpidega ja ei saa käsitleda Option-tüüpe, mis piirab selle kasulikkust segatud stsenaariumides
+  - See nõuab iga veatüübi puhul käsitsi veamuutust, mis muudab selle põhjalikumaks kui standardne tulemuste käsitlemine
+  - See paanitseb automaatselt teatud veatüüpide korral, mistõttu see ei sobi tootearhiivi koodiks
+explanation: |
+  Raamatukogu anyhow peamine puudus raamatukogu arendamisel on see, et see sisuliselt lamedaks muudab kõik vead stringi kujuliseks, kaotades struktureeritud veateabe, mida raamatukogu tarbijad vajavad programmiliste otsuste tegemiseks. Kuigi anyhow on suurepärane veakäsitluse lihtsustamine lõppkasutaja rakenduste jaoks, kus vead peamiselt kuvatakse, peavad raamatukogud pakkuma spetsiifilisi veatüüpe, mis võimaldavad tarbijatel eristada erinevaid veamooduseid (näiteks kehtetu sisend vs. jooksuaegsed vead) ja reageerida asjakohaselt. Teised valikud on valed: anyhow töötab hästi nii Result- kui ka Option-tüüpidega, vähendab tegelikult sõnamahukust automaatse teisendamise kaudu ja ei tekita paanikat.

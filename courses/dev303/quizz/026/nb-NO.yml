@@ -1,0 +1,8 @@
+question: Hva er den primære fordelen med at Rust enums kan bære data innenfor hver variant?
+answer: Den forhindrer uoverensstemmelser mellom typeindikatorer og tilhørende data ved å samle dem sammen
+wrong_answers:
+  - Det gjør at enumer automatisk implementerer alle standard egenskaper uten eksplisitt deklarasjon
+  - Det gjør det mulig å bruke enumer som generiske parametere i en hvilken som helst funksjon eller metode
+  - Det gjør at enumer bruker mindre minne enn tradisjonelle strukturer med tilsvarende data
+explanation: |
+  Rust-enumer kan knytte data direkte til hver variant, noe som eliminerer den vanlige programmeringsfeilen med å opprettholde separate variabler for typeindikatorer og tilhørende data. Denne utformingen sikrer at dataene alltid samsvarer med varianten, noe som forhindrer inkonsekvenser som kan føre til kjøretidsfeil. I motsetning til andre språk der du kan ha en separat enum for typen og variabler for dataene, samler Rust alt sammen, noe som gjør det umulig for typen og dataene å komme i uoverensstemmelse.

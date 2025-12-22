@@ -51,7 +51,7 @@ Bu güçlü aracın keşfinde yeni gelenlere eşlik edecek kapsamlı ve eksiksiz
 
 
 
-Her zaman olduğu gibi [aliasvault.net] (aliasvault.net) web sitesinden başlar. Belirtildiği gibi, Alias Vault kişinin kendi sunucusunda veya kendi kendine barındırılan çözüme geçmeden önce onu tanımak için geliştiricinin bulutundan kullanılabilir.
+Her zaman olduğu gibi [aliasvault.net](aliasvault.net) web sitesinden başlar. Belirtildiği gibi, Alias Vault kişinin kendi sunucusunda veya kendi kendine barındırılan çözüme geçmeden önce onu tanımak için geliştiricinin bulutundan kullanılabilir.
 
 
 
@@ -433,7 +433,7 @@ Alias Vault _Beta_ aşamasında olduğundan, ana şifreyi değiştirirseniz/gün
 
 
 
-Alias Vault tarafından benimsenen mimari ve güvenliği tam olarak anlamak için, işleyişinin altında yatan kriptografinin ayrıntılarını içeren [bu sayfaya] (https://docs.aliasvault.net/architecture/) başvurmanızı şiddetle tavsiye ederim.
+Alias Vault tarafından benimsenen mimari ve güvenliği tam olarak anlamak için, işleyişinin altında yatan kriptografinin ayrıntılarını içeren [bu sayfaya](https://docs.aliasvault.net/architecture/) başvurmanızı şiddetle tavsiye ederim.
 
 
 

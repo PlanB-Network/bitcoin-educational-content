@@ -1,0 +1,8 @@
+question: Qual é o objetivo principal da utilização de map_err() quando se encadeiam operações com tipos Result no Rust?
+answer: Para transformar os tipos de erro, deixando os valores de sucesso inalterados durante a propagação do erro
+wrong_answers:
+  - Para transformar os valores de sucesso e propagar automaticamente os erros sem modificação
+  - Para converter tipos de resultados em tipos de opções quando os erros têm de ser ignorados
+  - Para evitar a propagação de erros, convertendo todos os erros em valores de sucesso predefinidos
+explanation: |
+  O método map_err() foi especificamente concebido para transformar tipos de erro, preservando inalterados os valores de sucesso. Isto é crucial para a construção de aplicações em camadas onde diferentes componentes precisam de diferentes representações de erros. Por exemplo, é possível converter erros de análise de baixo nível em erros específicos do domínio que fornecem um contexto melhor. As outras opções estão incorrectas: map() transforma valores de sucesso (não map_err()), map_err() não converte para tipos Option, e não impede a propagação ou cria valores de sucesso predefinidos.

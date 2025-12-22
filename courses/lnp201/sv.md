@@ -1471,7 +1471,7 @@ Slutligen, för routrar, vars mål är att maximera antalet betalningar som beha
 ### The Loop Out Service
 
 
-Tjänsten [Loop Out] (https://lightning.engineering/loop/), som erbjuds av Lightning Labs, gör det möjligt att flytta likviditet till den motsatta sidan av kanalen och samtidigt återkräva medlen på Bitcoin Blockchain. Till exempel skickar Alice 1 miljon satoshis via Lightning till en loop-nod, som sedan returnerar dessa medel till henne i On-Chain bitcoins. Detta balanserar hennes kanal med 1 miljon satoshis på varje sida, vilket optimerar hennes kapacitet att ta emot betalningar.
+Tjänsten [Loop Out](https://lightning.engineering/loop/), som erbjuds av Lightning Labs, gör det möjligt att flytta likviditet till den motsatta sidan av kanalen och samtidigt återkräva medlen på Bitcoin Blockchain. Till exempel skickar Alice 1 miljon satoshis via Lightning till en loop-nod, som sedan returnerar dessa medel till henne i On-Chain bitcoins. Detta balanserar hennes kanal med 1 miljon satoshis på varje sida, vilket optimerar hennes kapacitet att ta emot betalningar.
 
 
 ![LNP201](assets/en/075.webp)

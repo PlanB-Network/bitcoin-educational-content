@@ -70,7 +70,7 @@ Bij het openen zou je de volgende items in de doos moeten vinden:
 - Kaarten om je Mnemonic zin op te schrijven.
 
 
-Voor deze tutorial hebt u 2 softwaretoepassingen nodig: Ledger Live om de Ledger te initialiseren, en Sparrow wallet om uw Bitcoin Wallet te beheren. Download [Ledger Live] (https://www.Ledger.com/Ledger-live) en [Sparrow wallet] (https://sparrowwallet.com/download/) van hun officiële websites.
+Voor deze tutorial hebt u 2 softwaretoepassingen nodig: Ledger Live om de Ledger te initialiseren, en Sparrow wallet om uw Bitcoin Wallet te beheren. Download [Ledger Live](https://www.Ledger.com/Ledger-live) en [Sparrow wallet](https://sparrowwallet.com/download/) van hun officiële websites.
 
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)

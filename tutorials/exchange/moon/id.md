@@ -7,6 +7,12 @@ description: Bayar dengan bitcoin di mana pun kartu bank Visa diterima.
 
 
 
+---
+
+⚠️ *Pembaruan Desember 2025: Perhatian, **sejak awal Desember 2025, sebagian layanan Moon tidak lagi tersedia**, khususnya kartu bank Visa isi ulang. Kami belum mengetahui apakah ketidaktersediaan ini bersifat sementara atau permanen. Tutorial ini akan diperbarui segera setelah kami memiliki informasi lebih lanjut.*
+
+---
+
 Moon memungkinkan Anda menggunakan mata uang kripto seperti bitcoin untuk membeli kartu Visa virtual bebas KYC dan kartu hadiah, yang dapat digunakan di jutaan pedagang online, seperti kartu bank tradisional. Dengan demikian, Moon menawarkan cara sederhana untuk membelanjakan sats Anda di mana pun Visa diterima, tanpa melalui platform penukaran.
 
 

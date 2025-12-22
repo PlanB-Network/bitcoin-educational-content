@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe ry'intango hagati y'uburyo bwo gufungura_canke () n'uburyo bwo gufungura_canke_mbere () igihe ukoresha ubwoko bw'Igisubizo n'Ihitamwo?
+answer: unwrap_canke() bisaba ko ugaragaza agaciro k'inyuma, mu gihe unwrap_canke_default() ikoresha ubwoko mburabuzi
+wrong_answers:
+  - unwrap_canke() itera ubwoba ku makosa mu gihe unwrap_canke_default() igarura Ntaco, itanga umutekano mwiza wo gufata amakosa mu guhingura
+  - unwrap_or() ikora gusa n'ubwoko bw'Igisubizo mu gihe unwrap_canke_default() ikora gusa n'ubwoko bw'amahitamwo yo gukuraho agaciro
+  - unwrap_canke() ikwiragiza amakosa hejuru y'ikirundo c'amahamagara mu gihe unwrap_canke_default() ihindura amakosa yose mu butumwa bw'urudodo mburabuzi
+explanation: |
+  Uburyo bwa unwrap_or() buraguha uburenganzira bwo gutanga agaciro k'inyuma igihe Igisubizo kirimwo ikosa canke Ihitamwo ririmwo Ntaco, biguha ububasha ku gaciro wokoresha mu bihe vy'ukunanirwa. Mu buryo bunyuranye, unwrap_or_default() ikoresha ubwayo ubwoko bw'akaranga ka mbere, bibereye iyo agaciro ka mbere kabereye ku bijanye n'ikoreshwa ryawe. Ubwo buryo bwompi bukorana n'ubwoko bwompi bw'Igisubizo n'Ihitamwo kandi nta na bumwe butera ubwoba canke ngo bukwiragize amakosa - bwompi buratanga ugusenyuka kw'ubuntu mu kugarura agaciro gakoreshwa aho kunanirwa.

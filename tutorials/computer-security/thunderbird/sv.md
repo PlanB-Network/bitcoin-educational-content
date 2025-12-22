@@ -34,7 +34,7 @@ Thunderbird är ett e-postprogram som är känt för sin flexibilitet och sitt b
 ### Nedladdningar
 
 
-För att installera Thunderbird måste du ladda ner programvaran från den [officiella webbplatsen] (https://www.thunderbird.net/). Observera att programmet finns tillgängligt för olika operativsystem. Standardversionen kommer dock att vara den som automatiskt identifieras av de data som tillhandahålls av din webbläsare.
+För att installera Thunderbird måste du ladda ner programvaran från den [officiella webbplatsen](https://www.thunderbird.net/). Observera att programmet finns tillgängligt för olika operativsystem. Standardversionen kommer dock att vara den som automatiskt identifieras av de data som tillhandahålls av din webbläsare.
 
 
 
@@ -42,7 +42,7 @@ För att installera Thunderbird måste du ladda ner programvaran från den [offi
 
 
 
-För att ladda ner en specifik version av Thunderbird, gå till [den här sidan] (https://www.thunderbird.net/an/thunderbird/all/). Välj språk, operativsystem och processorarkitektur och starta sedan nedladdningen.
+För att ladda ner en specifik version av Thunderbird, gå till [den här sidan](https://www.thunderbird.net/an/thunderbird/all/). Välj språk, operativsystem och processorarkitektur och starta sedan nedladdningen.
 
 
 

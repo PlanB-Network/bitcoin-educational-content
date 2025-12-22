@@ -43,7 +43,7 @@ LNbits pro stavitele: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits
 
 # Některé základy
 
-LNbits funguje na základě protokolu LNURL, což znamená, že požadavky jsou platné ve dvou formách: buď jako https:// clearnet link (nejsou povoleny žádné samopodepsané certifikáty), nebo jako http:// v2/v3 onion link. Chcete-li nabízet služby LNbits, jako jsou kódy LNURLp/w QR nebo karty NFC, které lze používat ve volné přírodě, musíte LNbits otevřít do sítě clearnet (https).
+LNbits funguje na základě protokolu LNURL, což znamená, že požadavky jsou platné ve dvou formách: buď jako https://clearnet link (nejsou povoleny žádné samopodepsané certifikáty), nebo jako http://v2/v3 onion link. Chcete-li nabízet služby LNbits, jako jsou kódy LNURLp/w QR nebo karty NFC, které lze používat ve volné přírodě, musíte LNbits otevřít do sítě clearnet (https).
 
 Před instalací LNbits se ujistěte, že jste si přečetli a pochopili následující obecné pokyny o tom, co je LNbits a jaké možnosti vám nabízí.
 
@@ -450,7 +450,7 @@ Pokud se stavěním začínáte, začněte s tímto [MakerBits prezentace](https
 ### DŮLEŽITÉ:
 
 
-- LNbits funguje na základě protokolu LNURL, jehož požadavky jsou platné ve dvou formách: buď jako https:// clearnet link (nejsou povoleny žádné certifikáty podepsané vlastním jménem), nebo jako http:// v2/v3 onion link. Chcete-li nabízet služby LNbits, jako jsou kódy LNURLp/w QR nebo karty NFC, které lze používat ve volné přírodě, je třeba otevřít LNbits do sítě clearnet (https).
+- LNbits funguje na základě protokolu LNURL, jehož požadavky jsou platné ve dvou formách: buď jako https://clearnet link (nejsou povoleny žádné certifikáty podepsané vlastním jménem), nebo jako http://v2/v3 onion link. Chcete-li nabízet služby LNbits, jako jsou kódy LNURLp/w QR nebo karty NFC, které lze používat ve volné přírodě, je třeba otevřít LNbits do sítě clearnet (https).
 - K napájení zařízení esp32 používejte pouze kabely DATA. Ne všechny kabely podporují kromě napájení esp také data. Nebyli byste první, kdyby kabel dodaný s esp byl pouze napájecí
 - Dbejte na to, abyste nepoužívali USB-Hub s připojenými dalšími zařízeními. To může vést k podivným efektům, které se obtížně ladí (např. nespuštění nebo zastavení).
 - Pro realizaci projektů esp s operačním systémem MacOS budete potřebovat ovladač UART Bridge Driver. Pokud máte problémy s ovladačem v systémech Mac nebo Linux, můžete je najít zde, nebo pokud se jedná o TTGO Display, zde. Pokud jste na Windows a máte problémy s připojením, ujistěte se, že jste si stáhli STAROU verzi 11.1.0, protože novější nefunguje! Sériový terminál pro kontrolu připojení najdete také zde - nastavte přenosovou rychlost 115200.

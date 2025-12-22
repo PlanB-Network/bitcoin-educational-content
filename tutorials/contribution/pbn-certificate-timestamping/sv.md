@@ -20,7 +20,7 @@ På Plan ₿ Academy signerar vi kryptografiskt certifikat och diplom och tidsst
 
 1. En GPG-signatur på en textfil som sammanfattar dina prestationer
 
-2. Tidsstämpling av samma signerade fil via [opentimestamps] (https://opentimestamps.org/).
+2. Tidsstämpling av samma signerade fil via [opentimestamps](https://opentimestamps.org/).
 
 
 Den första åtgärden gör att du kan bekräfta vem som har utfärdat certifikatet (eller diplomet), medan den andra åtgärden gör att du kan verifiera datumet för utfärdandet.
@@ -176,7 +176,7 @@ Om du ser ett meddelande som det följande är Timestamp giltigt:
 OBS: denna procedur **kräver en igångvarande lokal Bitcoin-nod**
 
 
-1. Installera OpenTimestamps-klienten från det officiella [repository] (https://github.com/opentimestamps/opentimestamps-client) genom att köra följande kommando:
+1. Installera OpenTimestamps-klienten från det officiella [repository](https://github.com/opentimestamps/opentimestamps-client) genom att köra följande kommando:
 
 
 ```

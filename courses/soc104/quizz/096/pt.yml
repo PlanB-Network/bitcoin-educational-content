@@ -1,0 +1,9 @@
+question: De acordo com o Manifesto Cypherpunk de Eric Hughes, qual é o principal método que os cypherpunks devem utilizar para atingir os seus objectivos de privacidade e liberdade?
+answer: Escrever código para construir sistemas criptográficos que tornem irrelevantes as divisões políticas
+wrong_answers:
+  - Pressionar os governos para que aprovem leis e regulamentos mais rigorosos em matéria de proteção da privacidade
+  - Organização de protestos em massa e campanhas de desobediência civil contra a vigilância
+  - Criar programas educativos para sensibilizar o público para os direitos de privacidade digital
+explanation: |
+  Eric Hughes declarou explicitamente que "os cypherpunks escrevem código" como a sua abordagem fundamental. O manifesto sublinha que os cypherpunks não encontram conforto em esperanças e desejos, mas intervêm ativamente construindo sistemas anónimos através da criptografia.
+  Isto transforma ideias abstractas de liberdade em realidade económica e social concreta, tornando as divisões políticas arbitrárias e desnecessárias. As outras opções representam o ativismo político tradicional, que contradiz a filosofia cypherpunk de soluções tecnológicas em detrimento da reforma institucional.

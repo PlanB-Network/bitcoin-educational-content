@@ -83,7 +83,6 @@ Důležité je pochopit tuto novou technologii v obecné rovině, takže doufám
 
 Jste připraveni ponořit se do fascinujícího světa Bitcoinu a pochopit všechny jeho mechanismy? Jdeme na to!
 
-**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
 
 ## Prehistorie bitcoinu
 
@@ -206,7 +205,7 @@ Aby tato kritéria splnila, měna se v minulosti vyvíjela různými kroky:
 
 Měny se dodnes vyvíjejí a přizpůsobují své formy různým případům použití. Jak jsme již řekli, zlato je sice vynikajícím uchovatelem hodnoty, ale pro současnou globalizovanou ekonomiku již není vhodné. Stejně tak fiduciární měny, jako je dolar a euro, jsou velmi likvidní a snadno přepravitelné, protože jsou dnes převážně digitální, ale jejich hodnota je neustále snižována měnovou inflací.
 
-Na druhou stranu bitcoin představuje nové možnosti. Jeho vlastnosti, jako je přísně omezená nabídka, z něj činí vynikající úložiště hodnoty. Navíc jako neutrální internetová měna slouží jako životaschopné **prostředí směny**, které překračuje hranice. I přes jeho [neustálé přijímání](https://btcmap.org/map) však dnes stále není v obchodě široce přijímán.
+Na druhé straně bitcoin otevírá nové perspektivy. Jeho vlastnosti, zejména přísně omezená nabídka, z něj činí vynikající uchovatel hodnoty. Také jako neutrální internetová měna představuje životaschopný **směnný prostředek**, schopný překračovat hranice. Přesto navzdory pokračujícímu přijetí (jak ukazuje [mapa BTCmap](https://btcmap.org/map)) zatím není v obchodě široce přijímán.
 
 ## Fiduciární měny
 
@@ -722,7 +721,7 @@ Chcete-li se o Satoshi Nakamotovi dozvědět více, doporučujeme přečíst si 
 
 ![image](assets/cs/044.webp)
 
-> "Základním problémem konvenční měny je důvěra, která je nutná k jejímu fungování. Je třeba důvěřovat centrální bance, že měnu neznehodnotí, ale historie fiat měn je plná porušení této důvěry. Bankám je třeba důvěřovat, že naše peníze budou držet a převádět elektronicky, ale ony je půjčují ve vlnách úvěrových bublin se sotva zlomkem v rezervě." - [Satoshi Nakamoto] (https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
+> "Základním problémem konvenční měny je důvěra, která je nutná k jejímu fungování. Je třeba důvěřovat centrální bance, že měnu neznehodnotí, ale historie fiat měn je plná porušení této důvěry. Bankám je třeba důvěřovat, že naše peníze budou držet a převádět elektronicky, ale ony je půjčují ve vlnách úvěrových bublin se sotva zlomkem v rezervě." - [Satoshi Nakamoto](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 > Nyní, když jsme se seznámili s některými souvislostmi, prozkoumejme, jak transakce s bitcoiny obecně probíhá.
 
 ## Transakce s bitcoiny

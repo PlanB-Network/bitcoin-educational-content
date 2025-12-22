@@ -1,0 +1,8 @@
+question: Missä skenaariossa RefCelliä olisi sopivinta käyttää kääntämisen aikaisten lainausrajoitusten ratkaisemiseen?
+answer: Kun toteutetaan pilkkuobjekti, jonka on seurattava sisäisiä tilamuutoksia muuttumattoman ominaisuuden rajapinnan kautta
+wrong_answers:
+  - Kun dataa on jaettava useiden säikeiden kesken ja kun tarvitaan atomaarista viittauslaskentaa
+  - Kun haluat välttää ajonaikaista ylikuormitusta siirtämällä kaikki lainojen tarkistukset kääntämisaikaan
+  - Kun luodaan ympyräviittauksia sellaisten tietorakenteiden välille, jotka tarvitsevat automaattista muistin siivousta
+explanation: |
+  RefCell on suunniteltu sisäisen muunneltavuuden skenaarioihin, joissa dataa on muunneltava muuttumattoman viittauksen kautta, erityisesti silloin, kun kääntäjän staattinen analyysi on liian konservatiivinen. Mock-objektit, jotka toteuttavat muuttumattomia metodeja sisältäviä piirteitä, mutta joiden on seurattava sisäistä tilaa, ovat täydellinen käyttötapaus. Muut vaihtoehdot ovat virheellisiä: RefCell ei ole säikeenkestävä, se siirtää tarkistuksen suoritusaikaan (ei kääntämisaikaan), eikä se ratkaise ympyräviittausongelmia - se voi itse asiassa lisätä niitä, kun se yhdistetään RC:hen.

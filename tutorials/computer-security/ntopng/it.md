@@ -300,7 +300,7 @@ Quindi aggiungerò la parola **contributo** a righe come queste.
 
 
 
-Il resto dei passaggi è elencato nel sito [NtopNG] (https://packages.ntop.org/apt/) dove, per Debian 11, è necessario aggiungere i sorgenti di Ntop per una futura installazione. Questa aggiunta è automatizzata utilizzando un file:
+Il resto dei passaggi è elencato nel sito [NtopNG](https://packages.ntop.org/apt/) dove, per Debian 11, è necessario aggiungere i sorgenti di Ntop per una futura installazione. Questa aggiunta è automatizzata utilizzando un file:
 
 
 

@@ -33,7 +33,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3
 
 
 
-For å installere Ashigaru Terminal trenger du Tor Browser, siden de binære filene kun distribueres via Tor-nettverket. Hvis du ikke allerede har gjort det, [installer det på maskinen din] (https://www.torproject.org/download/).
+For å installere Ashigaru Terminal trenger du Tor Browser, siden de binære filene kun distribueres via Tor-nettverket. Hvis du ikke allerede har gjort det, [installer det på maskinen din](https://www.torproject.org/download/).
 
 
 
@@ -41,7 +41,7 @@ For å installere Ashigaru Terminal trenger du Tor Browser, siden de binære fil
 
 
 
-Fra Tor Browser kan du gå til [utgivelsessiden til Git-arkivet] (http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) for å laste ned den nyeste versjonen av Ashigaru Terminal for operativsystemet ditt.
+Fra Tor Browser kan du gå til [utgivelsessiden til Git-arkivet](http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) for å laste ned den nyeste versjonen av Ashigaru Terminal for operativsystemet ditt.
 
 
 
@@ -73,7 +73,7 @@ Før du kjører programvaren på enheten din, må du sjekke ektheten og integrit
 
 
 
-Åpne en ny nettleserfane og gå til [Keybase-verifiseringsverktøy] (https://keybase.io/verify). Lim inn innholdet i `.txt`-filen du nettopp har lastet ned i det angitte feltet, og klikk deretter på `Verify`-knappen.
+Åpne en ny nettleserfane og gå til [Keybase-verifiseringsverktøy](https://keybase.io/verify). Lim inn innholdet i `.txt`-filen du nettopp har lastet ned i det angitte feltet, og klikk deretter på `Verify`-knappen.
 
 
 
@@ -81,7 +81,7 @@ Før du kjører programvaren på enheten din, må du sjekke ektheten og integrit
 
 
 
-For å diversifisere bekreftelseskildene dine, kan du også sammenligne meldingen med den som er tilgjengelig på nettstedet clearnet [ashigaru.rs] (https://ashigaru.rs/download/), i `/download`-delen.
+For å diversifisere bekreftelseskildene dine, kan du også sammenligne meldingen med den som er tilgjengelig på nettstedet clearnet [ashigaru.rs](https://ashigaru.rs/download/), i `/download`-delen.
 
 
 
@@ -109,7 +109,7 @@ Hvis det vises en feilmelding på dette stadiet, er signaturen ugyldig. I så fa
 
 
 
-Keybase har gitt deg den autentiserte hashen til applikasjonen. Vi skal nå sjekke at hashen til `.deb`-, `.zip`- eller `.dmg`-filen du har lastet ned, samsvarer med den som er validert på Keybase. For å gjøre dette går du til [HASH FILE ONLINE] (https://hash-file.online/).
+Keybase har gitt deg den autentiserte hashen til applikasjonen. Vi skal nå sjekke at hashen til `.deb`-, `.zip`- eller `.dmg`-filen du har lastet ned, samsvarer med den som er validert på Keybase. For å gjøre dette går du til [HASH FILE ONLINE](https://hash-file.online/).
 
 
 

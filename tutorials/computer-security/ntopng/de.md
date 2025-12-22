@@ -98,7 +98,7 @@ Es ist durchaus möglich, einen Router unter Linux zu mounten und ntopng auf ihm
 
 
 
-Hinweis: Für Leser des Artikels [Create a Wifi router with Raspberry Pi and RaspAP] (https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) ist es durchaus möglich, ntopng auf dem Rpi zu installieren, um genaue Statistiken zu erhalten!
+Hinweis: Für Leser des Artikels [Create a Wifi router with Raspberry Pi and RaspAP](https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) ist es durchaus möglich, ntopng auf dem Rpi zu installieren, um genaue Statistiken zu erhalten!
 
 
 

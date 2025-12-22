@@ -1,0 +1,8 @@
+question: Qual è il principale vantaggio dell'utilizzo del comando `cargo check` durante lo sviluppo?
+answer: Esegue controlli di compilazione più velocemente di una compilazione completa, senza generare eseguibili
+wrong_answers:
+  - Corregge automaticamente gli errori di compilazione e i problemi di stile del codice nel progetto
+  - Scarica e aggiorna tutte le dipendenze del progetto alle loro ultime versioni
+  - Esegue il programma con informazioni di debug e rapporti dettagliati sugli errori
+explanation: |
+  Il comando `cargo check` è progettato per una rapida iterazione dello sviluppo, eseguendo tutti gli stessi controlli di compilazione di `cargo build`, ma saltando la fase finale di generazione dell'eseguibile. Questo lo rende significativamente più veloce di una compilazione completa quando si deve solo verificare che il codice venga compilato correttamente. Le risposte sbagliate descrivono le funzionalità di altri strumenti: Clippy e altri linters possono suggerire correzioni ma non applicarle automaticamente, `cargo update` gestisce gli aggiornamenti delle dipendenze e `cargo run` esegue programmi con funzionalità di debug.

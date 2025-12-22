@@ -1,0 +1,8 @@
+question: Mitä syntaksia käytetään parametrien määrittelyyn Rust-sulkemisissa?
+answer: Piippumerkit (|) parametrien sulkemiseksi sisäänsä
+wrong_answers:
+  - Sulkumerkit () parametrien sulkemiseksi sisälle
+  - Sulkumerkit [] parametrien sulkemiseen
+  - Suljetut aaltosulkeet {} parametrien sulkemiseen
+explanation: |
+  Rust:n sulkutoiminnot käyttävät parametrien määrittelyssä putkimerkkejä (|), mikä erottaa ne tavallisista funktioista, jotka käyttävät sulkuja. Esimerkiksi sulkeuma ilman parametreja kirjoitetaan muotoa ||, kun taas sulkeuma parametreineen näyttää muotoa |x, y|. Tämä ainutlaatuinen syntaksi tekee sulkemisista helposti tunnistettavia ja erottaa ne funktiomäärittelyistä. Sulkumerkkejä käytetään tavallisissa funktioissa, kun taas hakasulkeilla ja sulkeilla on Rust-syntaksissa muita tarkoituksia.

@@ -1,0 +1,8 @@
+question: LDK'nın olay güdümlü mimarisinin hangi özelliği uygulamaların Lightning protokol mantığı ile uygulamaya özel yanıtlar arasında temiz bir ayrım yapmasını sağlar?
+answer: Tüm önemli işlemler ve durum değişiklikleri için eşzamansız bildirimler sağlanır ve özel olay işleyicilerinin bağımsız olarak uygulanmasına olanak tanır
+wrong_answers:
+  - Senkron geri aramalar doğrudan kanal yöneticisi içinde tetiklenir ve protokol uyumluluğunu korumak için anında yanıt gerektirir
+  - Olay işleyicileri, özel uygulama mantığı ihtiyacını ortadan kaldırarak uygulama yapılandırmasına göre otomatik olarak oluşturulur
+  - Tüm olaylar merkezi bir tamponda kuyruğa alınır ve deterministik uygulama davranışı sağlamak için sırayla işlenir
+explanation: |
+  LDK'nın olay sistemi, eş bağlantıları, ödemeler ve kanal değişiklikleri dahil olmak üzere tüm Lightning işlemleri için eşzamansız bildirimler sağlar. Bu, geliştiricilerin LDK'nın temel işlevselliği ile uygulama mantığı arasında temiz bir ayrım sağlarken uygun şekilde yanıt veren özel olay işleyicileri uygulamasına olanak tanır. Diğer seçenekler yanlıştır çünkü LDK protokol işlemlerini engelleyen senkronize geri aramalar kullanmaz, otomatik generate işleyicileri kullanmaz ve olayların sıralı olarak işlenmesini zorunlu kılmaz.

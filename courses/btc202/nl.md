@@ -853,7 +853,7 @@ Dit is de meest soevereine en flexibele aanpak: je weet precies wat er draait, w
 
 
 
-[Bitcoin core is de ultra-majority client van het netwerk] (https://bitcoincore.org/). Het downloadt, valideert en onderhoudt de blockchain, biedt RPC/REST API's en kan een wallet integreren. Als je de voorkeur hebt voor standaard tools en je comfortabel voelt om zelf diensten toe te voegen (zoals Electrum server, verkenner en LND), dan kun je Core beter gebruiken zoals het is.
+[Bitcoin core is de ultra-majority client van het netwerk](https://bitcoincore.org/). Het downloadt, valideert en onderhoudt de blockchain, biedt RPC/REST API's en kan een wallet integreren. Als je de voorkeur hebt voor standaard tools en je comfortabel voelt om zelf diensten toe te voegen (zoals Electrum server, verkenner en LND), dan kun je Core beter gebruiken zoals het is.
 
 
 
@@ -1633,7 +1633,7 @@ Ga naar [de officiële Umbrel website om de ISO-image te downloaden](https://dow
 
 
 
-Om de opstartbare USB-stick te maken, gebruik je een eenvoudig, platformonafhankelijk hulpprogramma genaamd [Balena Etcher] (https://www.balena.io/etcher/). Download en installeer het op je computer.
+Om de opstartbare USB-stick te maken, gebruik je een eenvoudig, platformonafhankelijk hulpprogramma genaamd [Balena Etcher](https://www.balena.io/etcher/). Download en installeer het op je computer.
 
 
 

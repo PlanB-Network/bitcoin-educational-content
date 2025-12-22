@@ -1,0 +1,8 @@
+question: Quelle est la principale différence entre une chaîne et un littéral de chaîne (&str) dans Rust ?
+answer: String gère la mémoire du tas allouée dynamiquement et peut être modifiée, tandis que &str est une vue des données immuables d'une chaîne de caractères
+wrong_answers:
+  - La chaîne est stockée sur la pile alors que &str est stocké sur le tas pour de meilleures performances
+  - String ne peut contenir que des caractères ASCII alors que &str peut contenir n'importe quel caractère Unicode
+  - String implémente automatiquement l'emprunt alors que &str nécessite un transfert de propriété explicite
+explanation: |
+  String et &str représentent des approches différentes de la gestion des chaînes de caractères dans Rust. String est un type de chaîne alloué au tas et extensible qui possède ses données et peut être modifié au moment de l'exécution. En revanche, &str (tranche de chaîne) est une référence immuable à des données de chaîne, pointant souvent vers des chaînes littérales intégrées dans le binaire du programme ou des tranches de données de chaîne existantes. Cette distinction permet à Rust d'optimiser à la fois la flexibilité (String pour le contenu dynamique) et l'efficacité (&str pour l'accès en lecture seule sans allocation).

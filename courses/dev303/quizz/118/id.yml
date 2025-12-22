@@ -1,0 +1,8 @@
+question: Apa alasan teknis utama mengapa dompet bertenaga Greenlight mencapai keandalan perutean pembayaran yang unggul dibandingkan dengan implementasi Lightning seluler tradisional?
+answer: Node Greenlight berjalan terus menerus di awan, mempertahankan sinkronisasi grafik jaringan waktu nyata dan akses data grafik lengkap secara instan
+wrong_answers:
+  - Greenlight menggunakan algoritma pembelajaran mesin yang canggih untuk memprediksi rute pembayaran yang optimal berdasarkan pola transaksi historis
+  - Greenlight mengimplementasikan pemisahan pembayaran multi jalur yang mendistribusikan transaksi di beberapa saluran secara bersamaan untuk redundansi
+  - Greenlight mempertahankan koneksi bandwidth tinggi khusus ke hub Lightning utama, memastikan perutean prioritas melalui saluran yang paling cair
+explanation: |
+  Jawaban yang benar mengidentifikasi keunggulan arsitektur mendasar dari pendekatan berbasis cloud Greenlight. Dompet Lightning seluler tradisional harus menyinkronkan data grafik jaringan ketika mereka memulai, menciptakan penundaan dan berpotensi bekerja dengan informasi perutean yang basi. Greenlight memecahkan masalah ini dengan menjalankan node Lightning secara terus menerus di cloud, memastikan node tersebut selalu memiliki pengetahuan jaringan terkini dan dapat langsung memberikan data grafik lengkap ketika pengguna terhubung. Jawaban yang salah menggambarkan fitur yang masuk akal tetapi tidak ada - Greenlight tidak menggunakan algoritme perutean ML, pemisahan pembayaran yang dipatenkan di luar protokol Lightning standar, atau koneksi hub khusus untuk perutean prioritas.

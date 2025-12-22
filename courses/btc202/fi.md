@@ -1437,7 +1437,7 @@ Umbrel tarjoaa kaksi erilaista lähestymistapaa:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): Tämä on käyttövalmis minipalvelin, joka on erityisesti suunniteltu ja optimoitu umbrelOS:lle. Kompakti, hiljainen, Ethernet-yhteydellä varustettu, varustettu NVMe SSD-levyllä (jopa 4TB valinnaisesti), 16GB RAM-muistilla ja neliydinsuorittimella. Tilaat sen, kytket sen ja menet osoitteeseen `umbrel.local`. Saat toimivan Umbrelin käyttöön muutamassa minuutissa. Tämä on plug-and-play-vaihtoehto.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): Tämä on käyttövalmis minipalvelin, joka on erityisesti suunniteltu ja optimoitu umbrelOS:lle. Kompakti, hiljainen, Ethernet-yhteydellä varustettu, varustettu NVMe SSD-levyllä (jopa 4TB valinnaisesti), 16GB RAM-muistilla ja neliydinsuorittimella. Tilaat sen, kytket sen ja menet osoitteeseen `umbrel.local`. Saat toimivan Umbrelin käyttöön muutamassa minuutissa. Tämä on plug-and-play-vaihtoehto.
 
 
 

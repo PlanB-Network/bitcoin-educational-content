@@ -110,7 +110,7 @@ Nästa steg är att kontrollera din enhet. Detta bekräftar att ditt pass är ä
 ![Image](assets/fr/08.webp)
 
 
-Gå till [den officiella verifieringssidan] (https://validate.foundationdevices.com/) och välj "*Passport*".
+Gå till [den officiella verifieringssidan](https://validate.foundationdevices.com/) och välj "*Passport*".
 
 
 ![Image](assets/fr/09.webp)
@@ -473,7 +473,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 I den här handledningen visar jag dig en avancerad användning av Passport med Sparrow wallet. Denna Hardware Wallet är dock också kompatibel med Envoy (Foundation-applikationen), Keeper, BlueWallet, Nunchuk, Specter och många andra...
 
 
-Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
+Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen](https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
 
 
 ![Image](assets/fr/54.webp)

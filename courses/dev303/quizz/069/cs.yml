@@ -1,0 +1,8 @@
+question: Jaká je hlavní úloha tvrzení při vývoji aplikací Bitcoin podle osvědčených postupů Rust?
+answer: Zachytit chyby během testování, způsobit včasné selhání programu při výskytu problémů a sloužit jako proveditelná dokumentace programátorských předpokladů
+wrong_answers:
+  - Řešení chyb prostředků za běhu, jako jsou selhání přístupu k souborům a problémy se síťovým připojením, šetrným způsobem
+  - Překlad chyb knihovny na nízké úrovni do chyb aplikace na vysoké úrovni, kterým uživatelé rozumí a podle kterých mohou jednat
+  - Zabránění chybám neplatného vstupu omezením parametrů funkcí tak, aby přijímaly pouze hodnoty v platných rozmezích
+explanation: |
+  Při robustním vývoji softwaru Bitcoin plní aserce tři klíčové funkce: zachycují chyby během fáze testování, zajišťují, že programy při porušení základních předpokladů včas selžou (což usnadňuje ladění), a fungují jako spustitelná dokumentace, která popisuje očekávání programátora ohledně stavu programu. Ostatní možnosti popisují různé strategie ošetření chyb - šetrné ošetření selhání vnějších zdrojů, překlad chyb mezi abstrakčními vrstvami a ověřování vstupů - které jsou důležité, ale liší se od specifické úlohy tvrzení při ověřování vnitřních předpokladů programu.

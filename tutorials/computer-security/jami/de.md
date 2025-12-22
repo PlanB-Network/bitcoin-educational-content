@@ -90,7 +90,7 @@ Um Jami auf Ihrem Gerät zu installieren, müssen Sie zunächst die offizielle J
 
 
 
-Für macOS-Benutzer ist die Datei auch auf der [macOS-Downloadseite] (https://jami.net/download-jami-macos/) verfügbar.
+Für macOS-Benutzer ist die Datei auch auf der [macOS-Downloadseite](https://jami.net/download-jami-macos/) verfügbar.
 
 
 

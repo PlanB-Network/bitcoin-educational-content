@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste verschil tussen hoe panic en Result omgaan met foutherstel in Rust toepassingen?
+answer: Paniek stopt de uitvoering onmiddellijk en kan niet hersteld worden, terwijl Result aanroepers in staat stelt om fouten netjes af te handelen
+wrong_answers:
+  - Panic geeft gedetailleerde foutinformatie terwijl Result alleen succes of falen aangeeft zonder context
+  - Paniek is thread-veilig en kan over threads heen worden afgehandeld, terwijl Resultaatfouten beperkt blijven tot enkele threads
+  - Panic registreert automatisch fouten in het systeem, terwijl Result handmatige foutenregistratie en -rapportage vereist
+explanation: |
+  Paniek staat voor onherstelbare fouten die de uitvoering onmiddellijk beëindigen door af te wikkelen of af te breken, waardoor het voor de aanroepende code onmogelijk wordt om de fout af te handelen en door te gaan. Result, als een enum met Ok(value) of Err(error), dwingt bellers expliciet om potentiële fouten te erkennen en te kiezen hoe te reageren - door de fout af te handelen, defaults aan te bieden, of door de fout door te geven in de aanroepstapel. Dit fundamentele verschil maakt Result de voorkeurskeuze voor herstelbare fouten in productiecode, terwijl panic moet worden gereserveerd voor echt onherstelbare situaties of ontwikkelingsscenario's.

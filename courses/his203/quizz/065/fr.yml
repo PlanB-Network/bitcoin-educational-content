@@ -1,0 +1,9 @@
+question: Combien de piratages distincts a connu la plateforme de trading Bitcoinica avant de déclarer sa faillite ?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Les trois piratages ont été les suivants : le piratage du compte Linode faisant perdre à la plateforme 43 554 bitcoins ; le piratage de son compte Rackspace qui a mené à la perte de 18 574 bitcoins ; le piratage du compte Mt. Gox lors duquel le pirate a retiré 40 000 bitcoins et 40 000 LR-USD. La liquidation de Bitcoinica a été annoncée le 1er août 2012.
+reviewed: false

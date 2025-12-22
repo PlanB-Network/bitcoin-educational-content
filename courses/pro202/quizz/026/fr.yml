@@ -3,6 +3,6 @@ answer: Chaque entrée nécessite son propre calcul de sighash sur une structure
 wrong_answers:
   - Chaque entrée doit vérifier les signatures de toutes les autres entrées afin d'éviter les double-spending au sein de la transaction
   - Le modèle d'exécution basé sur la pile nécessite des boucles imbriquées pour traiter les opcodes pour chaque combinaison d'entrée
-  - "La clé ScriptSig de chaque entrée doit être validée par rapport à la clé ScriptPubKey de chaque sortie afin de trouver la bonne correspondance
+  - "La clé ScriptSig de chaque entrée doit être validée par rapport à la clé ScriptPubKey de chaque sortie afin de trouver la bonne correspondance"
 explanation: |
   L'ancienne validation Bitcoin engendre une complexité quadratique, car chaque entrée nécessite son propre calcul du sighash, mais chaque calcul traite une structure de transaction contenant toutes les entrées. Avec n entrées, cela crée n×n opérations. La SegWit a résolu ce problème en mettant en cache les parties partagées du calcul du sighash, réduisant ainsi la complexité à un temps linéaire et empêchant les attaques par déni de service potentielles dues à de grandes transactions à entrées multiples.

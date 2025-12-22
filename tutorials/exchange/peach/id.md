@@ -50,7 +50,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ![Installation de Peach](assets/fr/01.webp)
 
 
-- Unduh aplikasi dari [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/).
+- Unduh aplikasi dari [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
 - Ikuti petunjuk pemasangan pada perangkat Anda.
 - Selama instalasi, Anda akan diminta untuk memilih apakah Anda ingin membagikan data tertentu untuk meningkatkan aplikasi Peach (gambar 1)
 - Pada layar berikutnya (gambar 2), Anda memiliki dua opsi:

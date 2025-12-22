@@ -1,0 +1,8 @@
+question: Hạn chế kiến trúc cơ bản nào của Bộ công cụ phát triển Lightning (LDK) tạo ra rủi ro vận hành nghiêm trọng nhất đối với người dùng wallet di động trong thời điểm phí mạng tăng đột biến?
+answer: Việc thiếu các đầu ra neo ngăn chặn việc buộc đóng kênh khi phí đặt trước không đủ để xác nhận giao dịch.
+wrong_answers:
+  - Việc thiếu hỗ trợ LNURL đòi hỏi phải tạo hóa đơn và xử lý thanh toán thủ công cho tất cả các giao dịch Lightning.
+  - Việc thiếu đồng bộ hóa đồ thị mạng gây ra lỗi định tuyến thanh toán khi các ứng dụng di động khởi động lại sau một thời gian dài.
+  - Quản lý dự trữ kênh không hiệu quả dẫn đến tình trạng kẹt tiền khi người dùng cố gắng sử dụng toàn bộ số dư hiển thị.
+explanation: |
+  Việc thiếu các đầu ra neo trong LDK tạo ra một lỗ hổng nghiêm trọng, trong đó các kênh không thể bị buộc đóng trong thời điểm phí tăng đột biến vì mức phí được thiết lập sẵn không đủ để xác nhận trên blockchain. Điều này đặc biệt nguy hiểm đối với ví di động, nơi người dùng có thể bỏ ứng dụng mà không hợp tác đóng kênh, dẫn đến nguy cơ tiền bị mắc kẹt vô thời hạn. Mặc dù việc thiếu LNURL ảnh hưởng đến trải nghiệm người dùng và các vấn đề định tuyến ảnh hưởng đến độ tin cậy, nhưng cả hai đều không tạo ra rủi ro hiện hữu đối với việc thu hồi tiền như những hạn chế của đầu ra neo trong môi trường phí cao.

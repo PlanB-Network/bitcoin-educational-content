@@ -1,0 +1,8 @@
+question: Jaký je zásadní rozdíl mezi návrhem perzistenční vrstvy LDK a tradiční správou dat uzlu Lightning, který umožňuje flexibilitu nasazení napříč platformami?
+answer: LDK poskytuje abstraktní binární datové bloby pro ukládání, zatímco aplikace implementují vlastní mechanismy ukládání
+wrong_answers:
+  - LDK používá standardizované databáze SQL, zatímco tradiční uzly vyžadují vlastní implementaci souborového systému
+  - LDK automaticky synchronizuje data na více platformách, zatímco tradiční uzly ukládají data pouze lokálně
+  - LDK ve výchozím nastavení šifruje všechna data perzistence, zatímco tradiční uzly se spoléhají na šifrování na úrovni aplikace
+explanation: |
+  Vrstva perzistence LDK abstrahuje úložiště tím, že aplikacím poskytuje serializované binární datové bloby, které je třeba spolehlivě ukládat a načítat, přičemž veškerou složitost serializace stavů kanálů Lightning a síťových dat řeší interně. Aplikace si tak mohou vybrat libovolné úložné řešení (souborové systémy, cloudová úložiště, databáze), které odpovídá jejich požadavkům na platformu. Tradiční uzly Lightning obvykle implementují vlastní specifické systémy správy dat vázané na konkrétní úložné mechanismy, což je činí méně flexibilními v různých prostředích nasazení.

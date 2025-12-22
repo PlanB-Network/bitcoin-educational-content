@@ -289,7 +289,7 @@ Prostředí PowerShell poté vypočítá hash SHA256 souboru s obrázkem. Porovn
 
 
 
-Pokud jej ještě nemáte, stáhněte si software [Balena Etcher] (https://etcher.balena.io/) a poté :
+Pokud jej ještě nemáte, stáhněte si software [Balena Etcher](https://etcher.balena.io/) a poté :
 
 
 

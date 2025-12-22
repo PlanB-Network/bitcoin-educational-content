@@ -1,0 +1,8 @@
+question: Vid definition av callback-gränssnitt i UniFFI, vilka ytterligare Rust-egenskapsgränser krävs vanligtvis för callback-egenskapen för att säkerställa säker anrop över språkgränser?
+answer: Send- och Sync-gränser krävs eftersom callbacks kan korsa trådgränser mellan Rust och målspråken
+wrong_answers:
+  - Clone- och Copy-gränser krävs för att göra det möjligt att duplicera återuppringningsdata över språkgränser
+  - Debug- och Display-gränser krävs för att möjliggöra korrekt felrapportering när callbacks misslyckas under körningen
+  - Serialize- och Deserialize-gränser krävs för att flytta callback-parametrar mellan olika språkkörningar
+explanation: |
+  Callback-gränssnitt i UniFFI kräver Send- och Sync-gränser eftersom de möjliggör dubbelriktad kommunikation där Rust-kod anropar tillbaka till applikationskod skriven i målspråk. Eftersom dessa callbacks kan korsa trådgränser under exekvering kräver Rust:s typsystem Send- (säkert att överföra mellan trådar) och Sync- (säkert att dela referenser mellan trådar) gränser för att säkerställa minnessäkerhet. De andra alternativen är felaktiga: Clone/Copy behövs inte för anrop över språkgränser, Debug/Display är till för formatering, inte säkerhet, och Serialize/Deserialize hanteras automatiskt av UniFFIs marshalingsystem.

@@ -18,7 +18,7 @@ Förutom att utbyta meddelanden kan du med Telegram ringa video- och röstsamtal
 Även om Telegram finns tillgängligt från officiella butiker är rådet alltid detsamma: ladda ner från utvecklarens webbplats, en bra vana för dem som, precis som du, är på en integritetsmedveten resa.
 
 
-Med telefonens webbläsare går du till webbplatsen [telegram.org] (https://telegram.org). Du kan välja önskat språk, men jag rekommenderar att du fortsätter på engelska, så välj _Telegram för Android_
+Med telefonens webbläsare går du till webbplatsen [telegram.org](https://telegram.org). Du kan välja önskat språk, men jag rekommenderar att du fortsätter på engelska, så välj _Telegram för Android_
 
 
 ![image](assets/en/01.webp)
@@ -356,7 +356,7 @@ På bilden nedan kan du se var du hittar den här inställningen.
 Telegram kan användas från din dator, så att det synkroniseras med kontot som visas på din telefon. Du kan välja att inte ladda ner applikationen och att bara använda den via webben. Den här versionen har dock begränsningar jämfört med den som körs på datorn, därför rekommenderar jag att du laddar ner och installerar den för att få ut det mesta av detta kraftfulla verktyg.
 
 
-Alla alternativ som hittills har sett med mobilmodellen kan utnyttjas på exakt samma sätt från din dator. Även för denna installation går du till den officiella webbplatsen [telegram.org] (https://telegram.org). Från hemsidan väljer du _Telegram för PC/Linux_.
+Alla alternativ som hittills har sett med mobilmodellen kan utnyttjas på exakt samma sätt från din dator. Även för denna installation går du till den officiella webbplatsen [telegram.org](https://telegram.org). Från hemsidan väljer du _Telegram för PC/Linux_.
 
 På skärmen som öppnas klickar du på för att ladda ner den körbara filen som passar ditt operativsystem.
 

@@ -8,7 +8,7 @@ description: BitAxe nasıl kurulur?
 ## Giriş
 
 
-BitAxe, Skot tarafından oluşturulan ve [GitHub'da mevcut] (https://github.com/skot/bitaxe) uygun maliyetli Mining denemelerine olanak tanıyan açık kaynaklı bir projedir.
+BitAxe, Skot tarafından oluşturulan ve [GitHub'da mevcut](https://github.com/skot/bitaxe) uygun maliyetli Mining denemelerine olanak tanıyan açık kaynaklı bir projedir.
 
 
 ASIC'lerde pazar lideri olan Bitmain, Bitcoin Mining için özel makineler olan ünlü Antminer S19'un işleyişini tersine mühendislikle geliştirdi. Artık bu güçlü çipleri yeni açık kaynak projelerinde kullanmak mümkün. Nerdminer'ın aksine BitAxe, düzenli olarak birkaç satoshi kazanmanızı sağlayacak bir Mining pool'ye bağlanmak için yeterli hesaplama gücüne sahiptir. Nerdminer ise yalnızca solopool adı verilen ve piyango bileti gibi işlev gören bir sisteme bağlanabilir: Block reward'in tamamını kazanma şansınız çok düşüktür.

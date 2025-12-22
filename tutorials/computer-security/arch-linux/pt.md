@@ -58,7 +58,7 @@ Desde 2017, o Arch Linux já não suporta arquitecturas de 32 bits. Apenas estã
 
 
 
-- Visite [o sítio Web oficial] (https://mir.archlinux.fr/iso/latest/) para transferir a versão oficial mais recente da imagem ISO.
+- Visite [o sítio Web oficial](https://mir.archlinux.fr/iso/latest/) para transferir a versão oficial mais recente da imagem ISO.
 
 
 
@@ -72,7 +72,7 @@ Para criar uma unidade flash USB de arranque, pode utilizar uma ferramenta como 
 
 
 
-- Descarregar o Balena Etcher a partir do [sítio Web oficial] (https://etcher.balena.io).
+- Descarregar o Balena Etcher a partir do [sítio Web oficial](https://etcher.balena.io).
 - Inicie o software, selecione a imagem ISO do Arch Linux.
 - Escolha a sua chave USB como dispositivo de destino.
 - Clique em **Flash** para começar a criar a chave de arranque.

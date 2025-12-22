@@ -585,7 +585,7 @@ Le bitcoin fonctionnant comme un moyen d'échange, il est possible d'envisager u
 
 Il s'agit de tirer des revenus de l'exploitation de machines dites "minières" (ordinateurs). Pour les entreprises non spécialisées dans cette activité, cela reste relativement marginal. Vous pouvez participer par le biais d'intermédiaires qui vous vendront ou vous loueront l'ordinateur, le réseau et la maintenance. Si vous possédez les machines, vous pouvez les comptabiliser comme des actifs amortissables. À grande échelle, vous devrez calculer soigneusement le retour sur investissement, car le marché est très concurrentiel et nécessite une bonne anticipation des coûts, notamment de l'électricité.
 
-Pour en savoir plus sur les méthodes d'exploitation minière, vous pouvez [consulter la section "exploitation minière" de nos tutoriels] (https://planb.academy/tutorials/mining).
+Pour en savoir plus sur les méthodes d'exploitation minière, vous pouvez [consulter la section "exploitation minière" de nos tutoriels](https://planb.academy/tutorials/mining).
 
 
 - **Acheter des bitcoins:**
@@ -598,7 +598,7 @@ https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Pour en savoir plus sur les méthodes d'acquisition de bitcoins via un échange ou en peer-to-peer, vous pouvez [consulter la section "échange" de nos tutoriels] (https://planb.academy/tutorials/exchange).
+Pour en savoir plus sur les méthodes d'acquisition de bitcoins via un échange ou en peer-to-peer, vous pouvez [consulter la section "échange" de nos tutoriels](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/fr/012.webp)
 
@@ -904,7 +904,7 @@ Si vous êtes prêt à mettre les mains dans le cambouis et que vous souhaitez a
 
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
-Enfin, en complément des points de vente physiques, vous pouvez envisager de mettre en place [un point de vente Bitcoinize] (https://bitcoinize.com/).
+Enfin, en complément des points de vente physiques, vous pouvez envisager de mettre en place [un point de vente Bitcoinize](https://bitcoinize.com/).
 
 ## Le professionnel
 
@@ -936,7 +936,7 @@ Pour ce qui est des exemples concrets, prenons l'exemple d'un magasin de commerc
 
 ![BIZ101-profiles](assets/fr/028.webp)
 
-*[Crédit : Boutique Bitcoin Bazar à Paris, France] (https://bitcoinbazar.fr/)*
+*[Crédit : Boutique Bitcoin Bazar à Paris, France](https://bitcoinbazar.fr/)*
 
 Pour approfondir les spécificités de l'implémentation et explorer les configurations pratiques de BTC Pay Server, reportez-vous au cours suivant :
 
@@ -1000,7 +1000,7 @@ Les nouvelles infrastructures réussissent parce qu'elles sont plus efficaces, e
 
 ![BIZ101-profiles](assets/fr/029.webp)
 
-*[Source : BTC Map] (https://btcmap.org/)*
+*[Source : BTC Map](https://btcmap.org/)*
 
 
 - **Métriques du réseau:** Le nombre total de canaux et de bitcoins bloqués sur Lightning reste stable, avec environ 20 000 nœuds, 5 200 BTC et 60 000 canaux. Toutefois, ces chiffres ne reflètent qu'une partie du réseau et indiquent une rotation parmi les participants, avec moins de particuliers et plus de professionnels.

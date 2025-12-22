@@ -1,0 +1,8 @@
+question: Vilken är den primära arkitektoniska avvägningen som Breez SDK gör för att uppnå förenklad Lightning-integration samtidigt som principerna om icke-frihetsberövande upprätthålls?
+answer: Användarna förlorar en del integritet eftersom Greenlight kan observera kanaltillstånd och routinginformation, men behåller full kontroll över privata nycklar och tillgång till fonder
+wrong_answers:
+  - Användare måste anförtro Greenlight delvis förvaring av medel i utbyte mot automatiserad kanalhantering och minskad operativ komplexitet
+  - Utvecklare förlorar tillgång till avancerade Lightning-funktioner som anpassad routing och kanalpolicyer i utbyte mot förenklad API-integration och stöd för flera plattformar
+  - Applikationerna offrar funktioner för betalningshantering i realtid i utbyte mot bättre säkerhet genom molnbaserad validering av alla Lightning-transaktioner
+explanation: |
+  Breez SDK:s arkitektur representerar en noggrant övervägd avvägning mellan integritet och användbarhet. Medan Greenlight kan observera kanaltillstånd och routinginformation (vilket minskar integriteten), behåller användarna fullständig kontroll över sina privata nycklar, som aldrig lämnar sina enheter. Detta säkerställer att medel inte kan nås utan användarens tillstånd, vilket bevarar kärnprincipen om icke-förvar. De felaktiga svaren föreslår felaktigt fondförvaring, funktionsbegränsningar eller bearbetningsfördröjningar - inget av detta är faktiska avvägningar i SDK:s design.

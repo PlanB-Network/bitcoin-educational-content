@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Naast de mobiele applicatie biedt Speed Wallet ook een [Chrome Web extensie] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) die je kunt toevoegen aan de Google Chrome browser van je computer voor beveiligde transacties.
+Naast de mobiele applicatie biedt Speed Wallet ook een [Chrome Web extensie](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) die je kunt toevoegen aan de Google Chrome browser van je computer voor beveiligde transacties.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet legt vooral de nadruk op de integratie en het gebruik van Bitcoin e
 
 
 
-Met [Speed Business] (https://www.tryspeed.com/) heb je een uniforme betalingsaggregator om Bitcoin te accepteren, aangedreven door Lightning Network, die je kunt gebruiken in je winkel, online of fysiek.
+Met [Speed Business](https://www.tryspeed.com/) heb je een uniforme betalingsaggregator om Bitcoin te accepteren, aangedreven door Lightning Network, die je kunt gebruiken in je winkel, online of fysiek.
 
 
 

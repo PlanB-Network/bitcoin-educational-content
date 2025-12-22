@@ -1,0 +1,9 @@
+question: Mikä on Karl Popperin kehyksen mukaan se perusominaisuus, joka erottaa avoimen yhteiskunnan suljetusta yhteiskunnasta?
+answer: Yksilön kyky käyttää kriittistä harkintakykyä ja henkilökohtaista vastuuta päätöksenteossa
+wrong_answers:
+  - Taloudellisen vapauden ja markkinapohjaisen vaihdon aste eri yhteiskuntaryhmien välillä
+  - Yhteiskunnan saavuttama teknisen ja tieteellisen kehityksen taso
+  - Demokraattisen osallistumisen laajuus ja enemmistövalta poliittisessa päätöksenteossa
+explanation: |
+  Popper määrittelee avoimen yhteiskunnan sellaiseksi, jossa yksilöt joutuvat tekemään henkilökohtaisia päätöksiä ja voivat käyttää kriittistä arvostelukykyä, kun taas suljettu yhteiskunta kieltäytyy kriittisestä vapaudesta ja yksilön vastuusta.
+  Erottelussa on pohjimmiltaan kyse pikemminkin kognitiivisesta ja moraalisesta autonomiasta kuin talousjärjestelmistä, teknologisesta kehityksestä tai demokraattisista menettelyistä. Suljetut yhteiskunnat pelkäävät muutosta ja kritiikkiä ja ihannoivat staattista järjestystä, kun taas avoimet yhteiskunnat hyväksyvät dynaamisen kritiikin ja yksilölliset valinnat abstraktien käyttäytymissääntöjen puitteissa.

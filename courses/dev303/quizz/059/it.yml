@@ -1,0 +1,8 @@
+question: Qual è il vantaggio principale dell'uso di macro derivate come #[derive(Debug)] rispetto all'implementazione manuale dei tratti per i tipi personalizzati?
+answer: generate implementa automaticamente tratti completi in fase di compilazione, riducendo il codice boilerplate
+wrong_answers:
+  - Forniscono migliori prestazioni in fase di esecuzione, ottimizzando le chiamate ai metodi dei tratti durante l'esecuzione
+  - Consentono di implementare più volte i tratti per lo stesso tipo, con comportamenti diversi
+  - Consentono l'implementazione di tratti dinamici che possono essere modificati in fase di esecuzione in base allo stato del programma
+explanation: |
+  Le macro di derivazione generano automaticamente le implementazioni dei tratti generate durante la compilazione, eliminando la necessità di scrivere manualmente codice boilerplate ripetitivo. Quando si usa #[derive(Debug)], il compilatore genera tutta la logica di formattazione necessaria per quel tratto. Le risposte sbagliate non sono corrette perché: le macro di derivazione non migliorano le prestazioni in fase di runtime (esse generano lo stesso codice che si scriverebbe manualmente), i tratti possono essere implementati solo una volta per tipo, indipendentemente dal modo in cui sono implementati, e le macro di derivazione generano codice statico in fase di compilazione anziché consentire modifiche in fase di runtime.

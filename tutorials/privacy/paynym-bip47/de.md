@@ -132,7 +132,7 @@ Sie können dann entweder den vollständigen Zahlungscode des Empfängers einfü
 
 
 
-Wenn Sie nur seine PayNym-ID haben, gehen Sie zu [Paynym.rs] (https://paynym.rs/), um den QR-Code zu finden, der mit seinem Zahlungscode verbunden ist.
+Wenn Sie nur seine PayNym-ID haben, gehen Sie zu [Paynym.rs](https://paynym.rs/), um den QR-Code zu finden, der mit seinem Zahlungscode verbunden ist.
 
 
 

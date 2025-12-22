@@ -994,7 +994,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Глоссарий] (https://planb.academy/fr/resources/glossary/payjoin)
+- [Глоссарий](https://planb.academy/fr/resources/glossary/payjoin)
 - Chapitre [Les transactions PayJoin](https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c/c1e90b95-f709-4574-837b-2ec26b11286f)
 
 
@@ -1023,7 +1023,7 @@ bitcoin:bc1qp2nxbullbticoinzt6tx7x5tlnpzhv37?amount=0.000006&pj=HTTPS%3A%2F%2FPA
 
 
 
-- [Глоссарий] (https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
+- [Глоссарий](https://planb.academy/fr/resources/glossary/rbf-replacebyfee)
 
 
 

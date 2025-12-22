@@ -1,0 +1,8 @@
+question: Vad gör unwrap-metoden när den anropas på en Result-typ i Rust?
+answer: Extraherar framgångsvärdet men får panik om ett fel inträffar
+wrong_answers:
+  - Returnerar None om ett fel inträffar och Some om det lyckas
+  - Omvandlar felet till ett varningsmeddelande och fortsätter exekveringen
+  - Förmedlar automatiskt felet till den anropande funktionen
+explanation: |
+  Metoden unwrap extraherar framgångsvärdet från ett Result men orsakar panik i programmet om ett fel inträffar. Detta gör den användbar för snabba prototyper eller situationer där du är säker på att en operation kommer att lyckas. De andra alternativen beskriver olika beteenden: att returnera None/Some beskriver Option-typer, att konvertera fel till varningar är inte ett Rust-standardmönster och automatisk felfortplantning är vad operatorn med frågetecken (?) gör, inte unwrap.

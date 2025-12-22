@@ -672,7 +672,7 @@ Mu gihe ivy’ugusuzuma ivy’amahera biriko birarushiriza, ibikoresho vy’inze
 
 
 - [Itsinda ry'abafatanyabikorwa b'itelegaramu](https://t.me/joinstr) - Infashanyo y'abanyagihugu n'imfuruka z'ibimenyetso
-- [Ikiganiro c'ubuhinga ku bijanye n'amahera] (https:
+- [Ikiganiro c'ubuhinga ku bijanye n'amahera](https:
 
 
 
@@ -681,6 +681,6 @@ Mu gihe ivy’ugusuzuma ivy’amahera biriko birarushiriza, ibikoresho vy’inze
 
 
 
-- [Ikimenyetso Faucet] (ikimenyetso c'ikimenyetso.com) - Igerageza ry'ubuntu ry'ama Bitcoins
+- [Ikimenyetso Faucet](ikimenyetso c'ikimenyetso.com) - Igerageza ry'ubuntu ry'ama Bitcoins
 - [Ikimenyetso c'iyindi Faucet](iyindi nkuru.com) - Faucet ubundi buryo
 - [Mempool.ikibanza](kibanza) - Block explorer n'isesengura ry'ubuzima bwite

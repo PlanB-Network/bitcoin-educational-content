@@ -1,0 +1,8 @@
+question: Med vilken metod kan du extrahera ett värde från ett resultat samtidigt som du tillhandahåller ett anpassat panikmeddelande om ett fel uppstår?
+answer: förväntar sig
+wrong_answers:
+  - unwrap_or_else
+  - packa upp_med_meddelande
+  - panik_med
+explanation: |
+  Metoden expect är särskilt utformad för att extrahera success-värdet från ett Result samtidigt som du kan ange ett anpassat panikmeddelande som visas om ett fel inträffar. Detta gör felsökningen enklare jämfört med unwrap, som använder ett generiskt panikmeddelande. Metoden unwrap_or_else ger inte panik utan kör istället en closure när ett fel inträffar. De andra alternativen (unwrap_with_message och panic_with) är inte faktiska Rust-metoder för hantering av Result-typer.

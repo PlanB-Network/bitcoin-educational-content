@@ -1,0 +1,8 @@
+question: ¿Qué comando de Cargo realiza comprobaciones de compilación sin generar un archivo ejecutable?
+answer: control de carga
+wrong_answers:
+  - construcción de carga
+  - carrera de carga
+  - prueba de carga
+explanation: |
+  El comando 'cargo check' realiza todas las comprobaciones de compilación y verifica que tu código compila correctamente sin generar realmente el archivo ejecutable final. Esto lo hace significativamente más rápido que una compilación completa cuando simplemente quieres verificar la corrección del código. Por el contrario, 'cargo build' compila y genera archivos ejecutables, 'cargo run' compila y ejecuta el programa, y 'cargo test' compila y ejecuta pruebas.

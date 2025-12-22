@@ -1,0 +1,8 @@
+question: Co se stane, když naklonujete instanci RC<T> obsahující velkou datovou strukturu?
+answer: Zkopíruje se pouze odkaz a zvýší se čítač odkazů, přičemž původní data zůstanou nezměněna
+wrong_answers:
+  - Celá datová struktura je v paměti duplikována a obě kopie si udržují samostatné čítače referencí
+  - Vytvoří se mělká kopie, do které se zkopírují primitivní pole, ale složitá pole zůstanou sdílenými odkazy
+  - Data se přesunou na nové místo v paměti a původní RC se stane neplatným, dokud nebude znovu inicializován
+explanation: |
+  Při klonování RC kopíruje Rust pouze referenční ukazatel a inkrementuje interní referenční čítač, takže operace je mimořádně efektivní bez ohledu na velikost dat. Základní data zůstávají ve stejném umístění paměti a jsou sdílena všemi instancemi RC. To se zásadně liší od klonování skutečných dat, které by zmařilo účel sdíleného vlastnictví a plýtvalo pamětí.

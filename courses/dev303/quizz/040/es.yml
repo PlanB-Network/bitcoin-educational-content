@@ -1,0 +1,8 @@
+question: ¿Qué ocurre con la inferencia de tipos de cierre una vez que se llama a un cierre con tipos específicos?
+answer: Esos tipos se fijan para esa instancia de cierre
+wrong_answers:
+  - El cierre puede seguir aceptando diferentes tipos en futuras llamadas
+  - El compilador restablece los tipos para la siguiente llamada a función
+  - Los tipos siguen siendo flexibles y pueden cambiar en función del contexto
+explanation: |
+  En Rust, los cierres se benefician de la inferencia automática de tipos, pero esta flexibilidad tiene límites. Una vez que un cierre es llamado con tipos de parámetros específicos, el compilador bloquea esos tipos para esa instancia de cierre en particular. Esto significa que el mismo cierre no puede ser llamado posteriormente con diferentes tipos - se convierte en monomorfizado a los primeros tipos que encuentra. Esto es diferente de las funciones genéricas que pueden ser llamadas con diferentes tipos porque cada llamada crea una instanciación separada. Las otras opciones son incorrectas porque sugieren una flexibilidad continua que no existe una vez que se determinan los tipos del cierre.

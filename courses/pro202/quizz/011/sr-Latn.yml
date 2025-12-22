@@ -1,0 +1,8 @@
+question: Koja je ključna prednost korišćenja kompresovanog SEC formata u odnosu na nekompresovani SEC format za Bitcoin javne ključeve?
+answer: Smanjuje veličinu skladištenja sa 65 bajtova na 33 bajta, dok održava istu kriptografsku sigurnost.
+wrong_answers:
+  - Pruža jaču kriptografsku sigurnost korišćenjem dodatnih slojeva enkripcije
+  - Omogućava brže operacije množenja tačaka tokom procesa verifikacije potpisa
+  - Omogućava da se više javnih ključeva izvede iz jednog komprimovanog formata
+explanation: |
+  Kompresovani SEC format smanjuje veličinu javnog ključa sa 65 bajtova (nekompresovano) na 33 bajta tako što čuva samo x-koordinatu i bit pariteta (prefiks 0x02 ili 0x03) umesto obe pune koordinate. y-koordinata se može matematički rekonstruisati iz x-koordinate i informacija o paritetu, jer eliptičke krive imaju najviše dve y-vrednosti za bilo koju datu x-vrednost. Ova kompresija pruža značajnu uštedu prostora bez gubitka sigurnosti, zbog čega Bitcoin sada preferira kompresovane ključeve radi efikasnosti.

@@ -1,11 +1,9 @@
-question: Was ist das Blockchain-Trilemma?
-answer: Ein auf einer Blockchain basierendes Protokoll kann nur zwei der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
+question: Welches Risiko geht ein Lightning-Knoten ein, der einen alten Kanalzustand veröffentlicht?
+answer: Eine Strafe
 wrong_answers:
-  - Ein auf einer Blockchain basierendes Protokoll kann nur eines der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
-  - Ein auf einer Blockchain basierendes Protokoll kann alle Kriterien der Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
-  - Ein auf einer Blockchain basierendes Protokoll kann keines der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
+  - Eine Verwarnung
+  - Zusätzliche Mining-Gebühren
+  - Eine vorübergehende Sperre
 explanation: |
-  Das Blockchain-Trilemma bezieht sich auf die Herausforderung, dass
-  ein auf einer Blockchain basierendes Protokoll nur zwei Kriterien aus
-  Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen kann.
-reviewed: true
+  Das Protokoll sieht eine abschreckende Strafe vor, die es der anderen Partei ermöglicht, sämtliche Mittel zurückzuerlangen.
+reviewed: false

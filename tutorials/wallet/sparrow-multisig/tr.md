@@ -54,7 +54,7 @@ https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 
-Bu eğitimde size [Sparrow wallet Wallet yönetim yazılımı] (https://sparrowwallet.com/download/) ile nasıl Multisig yapacağınızı göstereceğim. Eğer bu yazılımı henüz yüklemediyseniz, lütfen şimdi yükleyin. Yardıma ihtiyacınız olursa, Sparrow wallet'nin yapılandırılması hakkında ayrıntılı bir eğitimimiz de var:
+Bu eğitimde size [Sparrow wallet Wallet yönetim yazılımı](https://sparrowwallet.com/download/) ile nasıl Multisig yapacağınızı göstereceğim. Eğer bu yazılımı henüz yüklemediyseniz, lütfen şimdi yükleyin. Yardıma ihtiyacınız olursa, Sparrow wallet'nin yapılandırılması hakkında ayrıntılı bir eğitimimiz de var:
 
 
 

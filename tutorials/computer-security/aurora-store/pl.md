@@ -32,7 +32,7 @@ Aurora Store jest jednym z najpopularniejszych alternatywnych sklepów z aplikac
 
 
 
-Aurora Store można pobrać z [oficjalnej strony] (https://auroraoss.com/aurora-store), klikając przycisk "Release" w typach kompilacji. Wybierz opcję Vanilla, jeśli używasz telefonu marki innej niż Huawei. Najnowsze modele telefonów Huawei mają własną wersję Aurora Store ze względu na ograniczenia usług Google wynikające z sankcji USA.
+Aurora Store można pobrać z [oficjalnej strony](https://auroraoss.com/aurora-store), klikając przycisk "Release" w typach kompilacji. Wybierz opcję Vanilla, jeśli używasz telefonu marki innej niż Huawei. Najnowsze modele telefonów Huawei mają własną wersję Aurora Store ze względu na ograniczenia usług Google wynikające z sankcji USA.
 
 
 

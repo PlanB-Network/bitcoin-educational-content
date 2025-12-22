@@ -1,19 +1,19 @@
 ---
-name: Kue Wallet
+name: Cake Wallet
 description: Tutorial tentang Cake Wallet dan Pembayaran Diam
 ---
 
 ![cover](assets/cover.webp)
 
 
-Panduan ini membahas [**Cake Wallet**] (https://cakewallet.com/): sebuah sumber terbuka, non-kustodian, multi-mata uang yang berfokus pada privasi yang tersedia untuk Android, iOS, macOS, Linux, dan Windows. Kita akan menyelami fitur privasi khusus Bitcoin, membahas pengiriman/penerimaan Bitcoin melalui **Silent Payments** (protokol privasi on-chain yang telah disempurnakan) dan akan melihat implementasi PayJoin v2 untuk transaksi asinkron.
+Panduan ini membahas [**Cake Wallet**](https://cakewallet.com/): sebuah sumber terbuka, non-kustodian, multi-mata uang yang berfokus pada privasi yang tersedia untuk Android, iOS, macOS, Linux, dan Windows. Kita akan menyelami fitur privasi khusus Bitcoin, membahas pengiriman/penerimaan Bitcoin melalui **Silent Payments** (protokol privasi on-chain yang telah disempurnakan) dan akan melihat implementasi PayJoin v2 untuk transaksi asinkron.
 
 
 ## 🎉 Fitur Utama
 
 
 
-- [**Pembayaran Senyap (BIP-352)**] (https://bips.dev/352/) meningkatkan kode pembayaran [BIP 47 sebelumnya] (https://silentpayments.xyz/docs/comparing-proposals/bip47/) yang juga disebut "PayNyms" dengan alamat siluman yang dapat digunakan kembali. Ketika pengirim menggunakan alamat Silent Payment Anda, wallet mereka akan mendapatkan alamat satu kali yang unik menggunakan kunci yang berbeda yang akan digabungkan ke dalam alamat satu kali Taproot yang unik. Catatan blockchain menunjukkan transaksi yang tidak terkait, mencegah keterkaitan pembayaran yang masuk. Silent Payment menawarkan berbagai manfaat, termasuk:
+- [**Pembayaran Senyap (BIP-352)**](https://bips.dev/352/) meningkatkan kode pembayaran [BIP 47 sebelumnya](https://silentpayments.xyz/docs/comparing-proposals/bip47/) yang juga disebut "PayNyms" dengan alamat siluman yang dapat digunakan kembali. Ketika pengirim menggunakan alamat Silent Payment Anda, wallet mereka akan mendapatkan alamat satu kali yang unik menggunakan kunci yang berbeda yang akan digabungkan ke dalam alamat satu kali Taproot yang unik. Catatan blockchain menunjukkan transaksi yang tidak terkait, mencegah keterkaitan pembayaran yang masuk. Silent Payment menawarkan berbagai manfaat, termasuk:
     - Alamat yang dapat digunakan kembali: Tidak perlu membuat alamat baru untuk setiap transaksi, memberikan pengalaman pengguna yang lebih baik dan meningkatkan privasi
     - Tidak ada kenaikan biaya: Pembayaran Senyap tidak meningkatkan ukuran atau biaya transaksi.
     - Anonimitas yang ditingkatkan: Pengamat dari luar tidak dapat menautkan transaksi ke alamat Pembayaran Senyap.
@@ -148,7 +148,7 @@ Untuk mengamankan wallet kita, kita dapat membuat cadangan dengan mengikuti petu
 ![image](assets/en/08.webp)
 
 
-**Catatan**: Mulai September 2025, autentikasi biometrik sidik jari pada perangkat Android diharuskan berfungsi dengan setidaknya implementasi biometrik Kelas 2, untuk detail lebih lanjut, lihat [di sini] (https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Namun, persyaratan ini dapat berubah di masa mendatang.
+**Catatan**: Mulai September 2025, autentikasi biometrik sidik jari pada perangkat Android diharuskan berfungsi dengan setidaknya implementasi biometrik Kelas 2, untuk detail lebih lanjut, lihat [di sini](https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Namun, persyaratan ini dapat berubah di masa mendatang.
 
 
 ### D - Pengaturan Privasi 🔒

@@ -70,7 +70,7 @@ Nedenfor ser du et utvalg av tegn for USA som et eksempel:
 
 
 
-For å gjøre det, besøk [deres nettsted] (https://thebitcoincompany.com/).
+For å gjøre det, besøk [deres nettsted](https://thebitcoincompany.com/).
 
 
 

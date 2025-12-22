@@ -1,0 +1,8 @@
+question: Vilken är den främsta fördelen med Rust:s statiska typning jämfört med dynamisk typning vid utveckling av Bitcoin-applikationer?
+answer: Typfel fångas upp vid kompilering före distribution, vilket förhindrar körtidsfel vid hantering av användarfonder
+wrong_answers:
+  - Statisk typning möjliggör snabbare exekveringshastighet vid bearbetning av Bitcoin-transaktioner på blockchain
+  - "Dynamisk typning kräver mer minnesallokering vilket står i konflikt med Bitcoin:s krav på lättviktsnod"
+  - Statisk typning möjliggör automatisk kodgenerering för Bitcoin-protokollimplementeringar och smarta kontrakt
+explanation: |
+  Rust:s statiska typning fångar upp typfel under kompilering, vilket säkerställer att fel löses innan programvaran kan byggas eller distribueras. Detta är avgörande för Bitcoin-utvecklingen, för när programvaran hanterar riktiga användares medel kan typfel under körning orsaka oåterkalleliga ekonomiska förluster. Dynamisk typning avslöjar endast fel under exekvering, potentiellt efter driftsättning när användarnas pengar är i fara. De andra alternativen är felaktiga eftersom den primära fördelen med statisk typning inte är exekveringshastighet, minnesanvändning eller kodgenerering, utan snarare förebyggande av fel vid kompilering.

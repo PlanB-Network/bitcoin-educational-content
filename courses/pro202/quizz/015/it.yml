@@ -1,0 +1,8 @@
+question: Cosa succede alle operazioni aritmetiche quando le curve ellittiche sono definite su campi finiti invece che su numeri reali?
+answer: Tutte le operazioni utilizzano l'aritmetica modulare mantenendo le stesse regole algebriche
+wrong_answers:
+  - Le formule di addizione dei punti devono essere completamente riscritte per la matematica discreta
+  - I calcoli della pendenza diventano indefiniti a causa della natura discreta dei punti
+  - Tutte le regole algebriche cambiano fondamentalmente per adattarsi alla struttura del campo finito
+explanation: |
+  Quando le curve ellittiche passano dai numeri reali ai campi finiti, la struttura e le regole algebriche sottostanti rimangono identiche - solo l'aritmetica cambia in aritmetica modulare. Tutte le formule di addizione dei punti, i calcoli delle pendenze e le relazioni geometriche funzionano esattamente allo stesso modo, ma ogni calcolo viene eseguito modulo p. Questa conservazione delle regole algebriche, pur cambiando solo la base aritmetica, è ciò che rende le curve ellittiche in campo finito così potenti per la crittografia, mantenendo tutte le proprietà matematiche necessarie e creando al contempo il comportamento discreto e imprevedibile essenziale per la sicurezza.

@@ -1,5 +1,5 @@
 ---
-name: अशीगारू - स्टोवअवे
+name: Ashigaru - Stowaway
 description: मैं अशिगारू पर पेजॉइन लेनदेन कैसे करूं?
 ---
 ![cover](assets/cover.webp)

@@ -129,7 +129,7 @@ Bist du bereit, die volle Kontrolle über deine IT-Sicherheit zu übernehmen, de
 
 
 
-*Hinweis: Wenn du während des Kurses auf unbekannte Begriffe stösst, konsultiere bitte das [das Glossar] (https://planb.academy/resources/glossary) für Definitionen.
+*Hinweis: Wenn du während des Kurses auf unbekannte Begriffe stösst, konsultiere bitte das [das Glossar](https://planb.academy/resources/glossary) für Definitionen.
 
 
 
@@ -979,7 +979,7 @@ ChromeOS schliesslich, das Betriebssystem, das Google für seine Chromebooks ent
 
 
 
-Um mehr über die Linux-Distributionsfamilien zu erfahren und die einzelnen Zweige zu visualisieren, empfehle ich dir dieses ausgezeichnete und sehr umfassende Diagramm auf Wikimedia: [*Zeitleiste der Linux-Distributionen*] (https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
+Um mehr über die Linux-Distributionsfamilien zu erfahren und die einzelnen Zweige zu visualisieren, empfehle ich dir dieses ausgezeichnete und sehr umfassende Diagramm auf Wikimedia: [*Zeitleiste der Linux-Distributionen*](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
 
 
 
@@ -1778,7 +1778,7 @@ Klicke einfach auf die Schaltfläche "*Download*", um das Ubuntu-ISO-Image herun
 Um Ubuntu auf deinem Computer zu installieren, musst du das ISO-Image von einem USB-Stick bootfähig machen. Dieser Stick wird als Installationsmedium dienen.
 
 
-Stecke ein USB-Flash-Laufwerk mit mindestens 8 GB ein (Vorsicht, der Inhalt wird gelöscht) und verwende dann ein Tool wie [BalenaEtcher] (https://www.balena.io/etcher), um aus dem ISO-Image ein bootfähiges Medium zu erstellen. Wähle einfach die ISO-Datei und den USB-Stick aus und klicke auf "Flash".
+Stecke ein USB-Flash-Laufwerk mit mindestens 8 GB ein (Vorsicht, der Inhalt wird gelöscht) und verwende dann ein Tool wie [BalenaEtcher](https://www.balena.io/etcher), um aus dem ISO-Image ein bootfähiges Medium zu erstellen. Wähle einfach die ISO-Datei und den USB-Stick aus und klicke auf "Flash".
 
 
 ![Image](assets/fr/061.webp)
@@ -4089,7 +4089,7 @@ Achte darauf, dass alle diese Dateien im selben Verzeichnis abgelegt werden, um 
 
 Schliesslich brauchst du den öffentlichen Schlüssel des Entwicklers, um die PGP‑Signatur zu überprüfen. Dieser Schlüssel ist in der Regel auf der offiziellen Website der Software, im GitHub‑Repository des Projekts, manchmal in den sozialen Netzwerken des Entwicklers oder auf speziellen Plattformen wie Keybase verfügbar.
 
-Im Fall von *Sparrow wallet* findest du den öffentlichen Schlüssel des Entwicklers [Craig Raw auf Keybase] (https://keybase.io/craigraw). Um ihn direkt aus dem Terminal herunterzuladen, führst du den folgenden Befehl aus:
+Im Fall von *Sparrow wallet* findest du den öffentlichen Schlüssel des Entwicklers [Craig Raw auf Keybase](https://keybase.io/craigraw). Um ihn direkt aus dem Terminal herunterzuladen, führst du den folgenden Befehl aus:
 
 
 
@@ -5009,7 +5009,7 @@ mat2 ~/Downloads/*
 
 
 
-Unter Windows und macOS gibt es mehrere Methoden zum Entfernen von Metadaten aus deinen Dokumenten. Meiner Meinung nach ist es am einfachsten, die Open-Source-Software [ExifCleaner] (https://exifcleaner.com/) zu verwenden. Dieses leichtgewichtige Tool verfügt über ein grafisches Interface und kann die meisten Dateiformate durch einfaches Ziehen und Ablegen verarbeiten. Wenn du eine oder mehrere Dateien auf das Interface ziehst, entfernt die Software automatisch unnötige Metadaten und ersetzt die Originaldateien im selben Verzeichnis. ExifCleaner ist für Windows, macOS und Linux verfügbar.
+Unter Windows und macOS gibt es mehrere Methoden zum Entfernen von Metadaten aus deinen Dokumenten. Meiner Meinung nach ist es am einfachsten, die Open-Source-Software [ExifCleaner](https://exifcleaner.com/) zu verwenden. Dieses leichtgewichtige Tool verfügt über ein grafisches Interface und kann die meisten Dateiformate durch einfaches Ziehen und Ablegen verarbeiten. Wenn du eine oder mehrere Dateien auf das Interface ziehst, entfernt die Software automatisch unnötige Metadaten und ersetzt die Originaldateien im selben Verzeichnis. ExifCleaner ist für Windows, macOS und Linux verfügbar.
 
 
 
@@ -5455,7 +5455,7 @@ Ziel dieses Kapitels ist es, dir bei der Auswahl des Browsers zu helfen, der dei
 
 
 
-[Chrome] (https://www.google.com/chrome/) profitiert von einer schnellen und kontinuierlichen Entwicklung, die hauptsächlich von Google geleitet wird. Er ist bekannt für seine hohe Leistung, Geschwindigkeit, breite Kompatibilität mit modernen Webstandards und eine gute Integration von Google-Diensten.
+[Chrome](https://www.google.com/chrome/) profitiert von einer schnellen und kontinuierlichen Entwicklung, die hauptsächlich von Google geleitet wird. Er ist bekannt für seine hohe Leistung, Geschwindigkeit, breite Kompatibilität mit modernen Webstandards und eine gute Integration von Google-Diensten.
 
 
 
@@ -5541,7 +5541,7 @@ Um zu überprüfen, ob dein Browser-Fingerabdruck dich einzigartig macht oder ob
 
 
 
-[Vivaldi] (https://vivaldi.com/), gegründet vom ehemaligen CEO von Opera, richtet sich an fortgeschrittene Nutzer, die eine tiefere Personalisierung und erweiterte Funktionen wie Seitenleisten, einen erweiterten Tab-Manager und integrierte Notizen suchen.
+[Vivaldi](https://vivaldi.com/), gegründet vom ehemaligen CEO von Opera, richtet sich an fortgeschrittene Nutzer, die eine tiefere Personalisierung und erweiterte Funktionen wie Seitenleisten, einen erweiterten Tab-Manager und integrierte Notizen suchen.
 
 
 
@@ -5557,7 +5557,7 @@ Was die Sicherheit betrifft, so bietet Vivaldi mehrere Funktionen zum Blockieren
 
 
 
-[Opera] (https://www.opera.com/) ist ein langjähriger Browser, den es bereits seit 1995 gibt. Er verwendet jetzt Blink, nachdem er seine proprietäre Engine (*Presto*) aufgegeben hat. Er hat ein modernes Interface und einige innovative Funktionen.
+[Opera](https://www.opera.com/) ist ein langjähriger Browser, den es bereits seit 1995 gibt. Er verwendet jetzt Blink, nachdem er seine proprietäre Engine (*Presto*) aufgegeben hat. Er hat ein modernes Interface und einige innovative Funktionen.
 
 
 
@@ -5601,7 +5601,7 @@ Aus technischer Sicht basiert Arc auf Chromium, bleibt aber eine proprietäre So
 
 
 
-[Polypane] (https://polypane.app/) richtet sich speziell an Front-End-Entwickler und UX-Designer. Seine Hauptfunktion besteht darin, mehrere Instanzen derselben Website gleichzeitig auf verschiedenen Bildschirmauflösungen anzuzeigen, um das *reaktionsfähige* Verhalten eines Interface in Echtzeit zu testen. Ausserdem bietet es Zugänglichkeitstools, HTML/CSS-Validatoren, Farbenblindheitssimulatoren und Leistungsmetriken.
+[Polypane](https://polypane.app/) richtet sich speziell an Front-End-Entwickler und UX-Designer. Seine Hauptfunktion besteht darin, mehrere Instanzen derselben Website gleichzeitig auf verschiedenen Bildschirmauflösungen anzuzeigen, um das *reaktionsfähige* Verhalten eines Interface in Echtzeit zu testen. Ausserdem bietet es Zugänglichkeitstools, HTML/CSS-Validatoren, Farbenblindheitssimulatoren und Leistungsmetriken.
 
 
 
@@ -5621,7 +5621,7 @@ Polypane ist ein proprietärer, kostenpflichtiger, auf Chromium basierender Brow
 
 
 
-[Firefox] (https://www.mozilla.org/firefox/new/) ist der bekannteste Browser, der die Gecko-Rendering-Engine verwendet. Der von der Mozilla Foundation entwickelte Firefox zeichnet sich durch eine klare Datenschutzpolitik aus: verbesserter Schutz vor Tracking, erweiterte Optionen zum Blockieren von Cookies von Drittanbietern, isolierte Tab-Container und die Integration von sicherheitsrelevanten Erweiterungen.
+[Firefox](https://www.mozilla.org/firefox/new/) ist der bekannteste Browser, der die Gecko-Rendering-Engine verwendet. Der von der Mozilla Foundation entwickelte Firefox zeichnet sich durch eine klare Datenschutzpolitik aus: verbesserter Schutz vor Tracking, erweiterte Optionen zum Blockieren von Cookies von Drittanbietern, isolierte Tab-Container und die Integration von sicherheitsrelevanten Erweiterungen.
 
 
 
@@ -5645,7 +5645,7 @@ Firefox ist nach wie vor ein Massstab für Sicherheit und Datenschutz, auch wenn
 
 
 
-[Tor Browser] (https://www.torproject.org/download/) ist ein Browser, der auf Firefox ESR basiert. Er ist eine der robustesten Lösungen für Online-Anonymität. Er leitet den Datenverkehr über das Tor-Netzwerk um und verhindert so jede direkte Verbindung zwischen dem Nutzer und dem Zielort im Internet.
+[Tor Browser](https://www.torproject.org/download/) ist ein Browser, der auf Firefox ESR basiert. Er ist eine der robustesten Lösungen für Online-Anonymität. Er leitet den Datenverkehr über das Tor-Netzwerk um und verhindert so jede direkte Verbindung zwischen dem Nutzer und dem Zielort im Internet.
 
 
 
@@ -5661,7 +5661,7 @@ Der Nachteil ist eine erhebliche Leistungseinbusse (hohe Latenz) und eine einges
 
 #### Mullvad-Browser
 
-[Mullvad Browser] (https://mullvad.net/en/browser) ist das Ergebnis der Zusammenarbeit zwischen der Tor Foundation und Mullvad VPN. Er basiert auf dem Tor-Browser, der wiederum von Firefox ESR abgeleitet ist. Mullvad Browser wurde entwickelt, um die Privatsphäre der Benutzer zu maximieren. Standardmässig enthält er einen erweiterten Schutz gegen Fingerabdrücke, Tracker und Skripte von Dritten.
+[Mullvad Browser](https://mullvad.net/en/browser) ist das Ergebnis der Zusammenarbeit zwischen der Tor Foundation und Mullvad VPN. Er basiert auf dem Tor-Browser, der wiederum von Firefox ESR abgeleitet ist. Mullvad Browser wurde entwickelt, um die Privatsphäre der Benutzer zu maximieren. Standardmässig enthält er einen erweiterten Schutz gegen Fingerabdrücke, Tracker und Skripte von Dritten.
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
@@ -5681,7 +5681,7 @@ Mullvad Browser ist eine ausgezeichnete Lösung, wenn du dich um deine Privatsph
 
 
 
-[LibreWolf] (https://librewolf.net/) ist ein auf Firefox basierender Browser, der ein noch höheres Mass an Privatsphäre bieten soll. Er entfernt alle Funktionen, die die Privatsphäre gefährden könnten, wie z.B. die Telemetrie, die Integration der Mozilla-Dienste und den Pocket-Dienst.
+[LibreWolf](https://librewolf.net/) ist ein auf Firefox basierender Browser, der ein noch höheres Mass an Privatsphäre bieten soll. Er entfernt alle Funktionen, die die Privatsphäre gefährden könnten, wie z.B. die Telemetrie, die Integration der Mozilla-Dienste und den Pocket-Dienst.
 
 
 
@@ -5697,7 +5697,7 @@ https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9
 
 #### Zen-Browser
 
-[Zen Browser] (https://zen-browser.app/) ist ein freier und quelloffener Browser, der auf Firefox (Gecko-Engine) basiert und 2024 auf den Markt kam. Sein Ziel ist es, ein modernes, elegantes, hochgradig anpassbares und vor allem datenschutzfreundliches Browsing-Erlebnis zu bieten, ohne von Chromium abhängig zu sein.
+[Zen Browser](https://zen-browser.app/) ist ein freier und quelloffener Browser, der auf Firefox (Gecko-Engine) basiert und 2024 auf den Markt kam. Sein Ziel ist es, ein modernes, elegantes, hochgradig anpassbares und vor allem datenschutzfreundliches Browsing-Erlebnis zu bieten, ohne von Chromium abhängig zu sein.
 
 Zen zeichnet sich durch seine radikale Herangehensweise an das Interface und seine Benutzerfreundlichkeit aus, die weitgehend vom Arc-Browser inspiriert ist, sich aber durch seinen Open-Source-Charakter und die Gecko-Engine von ihm emanzipiert. Er umfasst :
 
@@ -5733,7 +5733,7 @@ Wir konzentrieren uns hier auf Desktop-Browser, aber es ist wichtig zu wissen, d
 
 
 
-Eine interessante Alternative zu Safari ist [Orion] (https://kagi.com/orion/), ein moderner Browser, der ausschliesslich für das Apple-Ökosystem entwickelt wurde und ebenfalls auf WebKit basiert. Sein Ziel ist es, eine schnelle, leichtgewichtige und die Privatsphäre respektierende Alternative zu bieten, ohne Kompromisse bei den erweiterten Funktionen einzugehen.
+Eine interessante Alternative zu Safari ist [Orion](https://kagi.com/orion/), ein moderner Browser, der ausschliesslich für das Apple-Ökosystem entwickelt wurde und ebenfalls auf WebKit basiert. Sein Ziel ist es, eine schnelle, leichtgewichtige und die Privatsphäre respektierende Alternative zu bieten, ohne Kompromisse bei den erweiterten Funktionen einzugehen.
 
 
 
@@ -5757,7 +5757,7 @@ Orion wird vollständig vom Kagi-Team (bekannt für seine werbefreie Suchmaschin
 
 
 
-Schliesslich möchte ich diesen Überblick mit einer viel weniger bekannten und sehr marginalen Alternative beenden: Textmodus-Browser, von denen der bekannteste [Lynx Browser] (https://lynx.invisible-island.net/) ist.
+Schliesslich möchte ich diesen Überblick mit einer viel weniger bekannten und sehr marginalen Alternative beenden: Textmodus-Browser, von denen der bekannteste [Lynx Browser](https://lynx.invisible-island.net/) ist.
 
 
 
@@ -6386,7 +6386,7 @@ Das erste Android-Gerät, das auf den Markt kam, das HTC Dream, wurde 2008 verö
 ![Image](assets/fr/131.webp)
 
 
-*Quelle: [Von Akela NDE - Eigenes Werk] (https://commons.wikimedia.org/w/index.php?curid=6680413), CC BY-SA 3.0*
+*Quelle: [Von Akela NDE - Eigenes Werk](https://commons.wikimedia.org/w/index.php?curid=6680413), CC BY-SA 3.0*
 
 
 Diese anfängliche Offenheit wird von Google jedoch nach und nach eingeschränkt. Neben dem quelloffenen AOSP-Code entwickelt das Unternehmen eine Reihe von proprietären Anwendungen und APIs, die unter dem Namen *Google Mobile Services (GMS)* zusammengefasst werden. Diese werden nach und nach den Play Store, Google Maps, YouTube, Google Play Services, Gmail, Chrome und Voice Assistant umfassen. Um den Play Store vorinstallieren zu können, müssen die Hersteller nun eine Lizenzvereinbarung mit Google unterzeichnen und die Kompatibilität ihrer Geräte mit den GMS-Standards garantieren, was ihre Möglichkeiten der individuellen Anpassung stark einschränkt.
@@ -6524,7 +6524,7 @@ https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08
 #### CalyxOS
 
 
-[CalyxOS] (https://calyxos.org/) ist ein Zwischensystem, das darauf abzielt, Privatsphäre, Sicherheit und Kompatibilität mit dem täglichen Gebrauch in Einklang zu bringen. Es basiert ebenfalls auf AOSP, mit Sicherheitsverbesserungen. Seine Besonderheit ist die optionale Integration von MicroG, einer kostenlosen Neuimplementierung von Google-Diensten. Damit können die meisten Android-Anwendungen, die von Google-Diensten abhängig sind, ausgeführt werden, ohne dass offizielle proprietäre Binärdateien verwendet werden müssen.
+[CalyxOS](https://calyxos.org/) ist ein Zwischensystem, das darauf abzielt, Privatsphäre, Sicherheit und Kompatibilität mit dem täglichen Gebrauch in Einklang zu bringen. Es basiert ebenfalls auf AOSP, mit Sicherheitsverbesserungen. Seine Besonderheit ist die optionale Integration von MicroG, einer kostenlosen Neuimplementierung von Google-Diensten. Damit können die meisten Android-Anwendungen, die von Google-Diensten abhängig sind, ausgeführt werden, ohne dass offizielle proprietäre Binärdateien verwendet werden müssen.
 
 
 CalyxOS bietet auch vorinstallierte Anwendungen (Signal, F-Droid, Aurora Store, integriertes VPN...), und ein sauberes Interface. Es ist einfach über ein grafisches Tool für Pixel-Nutzer zu installieren. Calyx ist hauptsächlich mit Google Pixels, aber auch mit einigen Fairphone- und Motorola-Modellen kompatibel.
@@ -6536,7 +6536,7 @@ CalyxOS bietet auch vorinstallierte Anwendungen (Signal, F-Droid, Aurora Store, 
 #### LineageOS
 
 
-[LineageOS] (https://lineageos.org/), Nachfolger von CyanogenMod, ist die am weitesten kompatible alternative ROM. Es unterstützt mehrere hundert Modelle, dank einer grossen Gemeinschaft von Mitwirkenden. Basierend auf AOSP, betont es die Anpassung, Einfachheit und Freiheit der Nutzung.
+[LineageOS](https://lineageos.org/), Nachfolger von CyanogenMod, ist die am weitesten kompatible alternative ROM. Es unterstützt mehrere hundert Modelle, dank einer grossen Gemeinschaft von Mitwirkenden. Basierend auf AOSP, betont es die Anpassung, Einfachheit und Freiheit der Nutzung.
 
 
 LineageOS bietet dir ein Android-System ohne Hersteller-Overlays, ohne Bloatware, mit vollständiger Rechteverwaltung, einfachen Updates und einem optimierten Interface. Du kannst Google-Dienste hinzufügen oder dich für eine 100 % kostenlose Nutzung entscheiden.
@@ -7199,7 +7199,7 @@ Die meisten klassischen Kartenanwendungen wie Google Maps, Waze oder Citymapper 
 
 
 
-- [Organic Maps] (https://organicmaps.app/)
+- [Organic Maps](https://organicmaps.app/)
 
 
 Organic Maps ist eine kostenlose Offline-Navigationsanwendung. Sie basiert auf Daten von [OpenStreetMap](https://www.openstreetmap.org), einer offenen, gemeinschaftlichen Datenbank. Du lädtst die Karten der Regionen herunter, für die du dich interessierst, und navigierst dann ohne Netz.
@@ -7586,7 +7586,7 @@ Der beliebte VLC Media Player ist auch für Android verfügbar. Er unterstützt 
 
 
 
-- [Funkwhale] (https://funkwhale.audio/):
+- [Funkwhale](https://funkwhale.audio/):
 
 
 Funkwhale ist eine dezentrale Plattform zum Teilen und Hören von Musik mit kompatiblen Clients.
@@ -7673,7 +7673,7 @@ Die Anwendung Google News ist zwar praktisch und personalisiert, stützt sich ab
 
 
 
-- [News] (https://github.com/bubelov/news)
+- [News](https://github.com/bubelov/news)
 
 
 Die Anwendung *News*, die von Bubelov entwickelt wurde, bietet einen radikal anderen Ansatz. Es handelt sich um einen minimalistischen RSS-Reader, der Nachrichten ohne Tracker, Werbung oder undurchsichtige Empfehlungsalgorithmen konsultieren kann. Du kannst deine Quellen (Presse, Blogs, Podcasts, unabhängige Medien usw.) manuell auswählen und so ein neutrales, privates Leseerlebnis garantieren. Das Design ist übersichtlich, die Feeds werden automatisch aktualisiert, und es werden keine Daten an Dritte weitergegeben.
@@ -7847,7 +7847,7 @@ Eine interessante Alternative ist [PairDrop](https://github.com/schlagmichdoch/p
 
 
 
-- [Warpinator] (https://github.com/linuxmint/warpinator)
+- [Warpinator](https://github.com/linuxmint/warpinator)
 
 
 Warpinator, entwickelt von Linux Mint, erleichtert die Übertragung von Dateien zwischen Geräten, die mit demselben Wi-Fi-Netzwerk verbunden sind. Es funktioniert Peer-to-Peer, ohne Cloud oder Drittanbieter-Server, mit einem einfachen Interface. Es gibt Ports für Android, mit denen Dateien zwischen Telefon und Computer übertragen werden können.
@@ -7873,7 +7873,7 @@ Anwendungen wie Goodreads sind zwar weit verbreitet, werfen aber ernste Fragen z
 
 
 
-- [Openreads] (https://github.com/mateusz-bak/openreads)
+- [Openreads](https://github.com/mateusz-bak/openreads)
 
 
 Openreads ist die Open-Source-Alternative für datenschutzfreundliche Leseverfolgung. Mit dieser Anwendung kannst du eine persönliche digitale Bibliothek erstellen, deinen Lesefortschritt verfolgen, Bücher bewerten und kommentieren und auf Empfehlungen zugreifen, die auf deinen eigenen Kriterien basieren, ohne dass eine zentrale Analyse oder Nachverfolgung stattfindet. Alle Daten verbleiben auf deinem Gerät oder werden über selbst gehostete Dienste synchronisiert.
@@ -8340,7 +8340,7 @@ Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte
 
 
 
-- [Quad9] (https://quad9.net/): Enthält Sperrlisten für bösartige Domains und führt keine Langzeitprotokolle von Namen
+- [Quad9](https://quad9.net/): Enthält Sperrlisten für bösartige Domains und führt keine Langzeitprotokolle von Namen
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Amapera
+name: Pears
 description: Ni gute noshiramwo no gukoresha porogarama kuri Pears?
 ---
 

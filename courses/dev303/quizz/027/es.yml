@@ -1,0 +1,8 @@
+question: ¿Qué permite hacer la sintaxis de actualización de estructuras al crear nuevas instancias de estructuras en Rust?
+answer: Crear una nueva instancia especificando sólo los campos modificados y copiando los campos restantes de una instancia existente
+wrong_answers:
+  - Modificar los campos de la estructura existente sin crear una nueva instancia
+  - Automáticamente generate valores por defecto para campos no especificados utilizando el rasgo Default
+  - Fusionar varias instancias de estructura en una única instancia combinada
+explanation: |
+  La sintaxis de actualización de la estructura en Rust permite crear una nueva instancia de la estructura especificando sólo los campos que desea cambiar, mientras que copia automáticamente todos los demás campos de una instancia existente. Esto se hace usando la sintaxis `..existing_instance`. Las otras opciones son incorrectas: la sintaxis de actualización de estructura siempre crea una nueva instancia en lugar de modificar las existentes, no generate valores por defecto, pero las copias de las instancias existentes, y funciona con una instancia de origen en lugar de fusionar varias instancias juntos.

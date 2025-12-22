@@ -6,14 +6,13 @@ description: Jelajahi rantai protokol Bitcoin utama.
 ![cover](assets/cover.webp)
 
 
-
-Bitfeed adalah sebuah platform untuk memvisualisasikan lapisan onchain protokol Bitcoin. Ini diprakarsai oleh salah satu kontributor proyek Mempool.space dan menonjol terutama karena tampilannya yang minimalis dan kemudahan penggunaannya.
+Bitfeed adalah platform buat memvisualisasikan layer onchain di protokol Bitcoin. Ini diprakarsai oleh salah satu kontributor proyek Mempool.space dan menonjol terutama karena tampilannya yang minimalis dan cara pakainya yang gampang.
 
 
 
 https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-Dalam tutorial ini, kita akan melihat alat ini, yang memungkinkan Anda menjelajahi semua transaksi dan blok di jaringan.
+Dalam tutorial ini, kita akan melihat alat ini, yang memungkinkan kamu menjelajahi semua transaksi dan blok di jaringan.
 
 
 
@@ -37,21 +36,20 @@ Bitfeed adalah platform yang berfokus pada tiga hal utama:
 
 
 
-Pada halaman beranda Bitfeed, Anda terutama akan menemukan :
+Pada halaman beranda Bitfeed, kamu terutama akan menemukan :
 
 
 
 
 
-- Bilah pencarian: Bagian ini adalah titik masuk untuk kueri blockchain. Di sini Anda bisa mencari blok tertentu berdasarkan nomor atau hash-nya. Anda juga bisa mencari transaksi tertentu dan alamat Bitcoin untuk memverifikasi informasi transaksi tertentu di jaringan.
-
+- Bilah pencarian: Bagian ini jadi titik masuk buat ngekueri blockchain. Di sini kamu bisa nyari blok tertentu berdasarkan nomor atau hash-nya. Kamu juga bisa nyari transaksi tertentu dan alamat Bitcoin buat ngecek informasi transaksi tertentu di jaringan.
 
 
 ![searchBar](assets/fr/01.webp)
 
 
 
-Di pojok kiri atas, Anda bisa melihat harga bitcoin saat ini, yang diperkirakan dalam dolar AS (USD).
+Di pojok kiri atas, kamu bisa melihat harga bitcoin saat ini, yang diperkirakan dalam dolar AS (USD).
 
 
 
@@ -59,24 +57,21 @@ Di pojok kiri atas, Anda bisa melihat harga bitcoin saat ini, yang diperkirakan 
 
 
 
-Pada bilah sisi kanan adalah menu platform. Dari menu ini Anda dapat menyesuaikan antarmuka platform sesuai dengan keinginan Anda, menambah atau menghapus item, dan menyesuaikan filter tampilan. Sebagai contoh, melihat ukuran setiap blok berdasarkan nilai atau berat dalam byte virtual (vBytes).
-
+Di bilah sisi kanan ada menu platform. Dari menu ini kamu bisa sesuaikan antarmuka platform sesuai kebutuhan kamu, tambah atau hapus item, dan ngatur filter tampilan. Misalnya, ngeliat ukuran tiap blok berdasarkan nilai atau beratnya dalam virtual bytes (vBytes).
 
 
 ![menu](assets/fr/03.webp)
 
 
 
-Di bagian tengah halaman terdapat blok terakhir yang ditambang, dengan tampilan semua transaksi yang termasuk dalam blok tersebut. Bagian ini memberikan informasi mengenai stempel waktu, jumlah total bitcoin yang terlibat dalam blok tersebut, ukuran blok dalam byte, jumlah transaksi, dan rasio biaya transaksi rata-rata per byte virtual dalam blok tersebut.
-
+Di bagian tengah halaman ada blok terbaru yang ditambang, lengkap dengan semua transaksi yang masuk ke blok itu. Bagian ini menunjukkan info tentang stempel waktu, total jumlah bitcoin yang ada di dalam blok itu, ukuran blok dalam byte, jumlah transaksi, dan rasio biaya transaksi rata-rata per virtual byte di blok tersebut.
 
 
 ![block](assets/fr/04.webp)
 
 
 
-Anda dapat kembali menelusuri riwayat saluran dengan mencari blok tertentu di bilah pencarian, dan melihatnya sesuai dengan kriteria Anda.
-
+Kamu bisa mundur menelusuri riwayat chain dengan nyari blok tertentu lewat bilah pencarian, lalu ngeliatnya sesuai kriteria kamu.
 
 
 Sebagai contoh, kita ingin melihat transaksi di blok `879488`.
@@ -87,7 +82,7 @@ Sebagai contoh, kita ingin melihat transaksi di blok `879488`.
 
 
 
-Transaksi pertama dari blok ini merupakan transaksi **coinbase** yang memungkinkan penambang blok ini untuk mendapatkan hadiah mining, yang hanya dapat digunakan setelah 100 blok ditambang, yang terdiri dari biaya transaksi yang disertakan dan hibah blok. Transaksi ini adalah transaksi yang memungkinkan bitcoin baru diterbitkan pada sistem.
+Transaksi pertama di blok ini adalah transaksi **coinbase** yang ngasih penambang blok ini hadiah mining. Hadiah ini cuma bisa dipakai setelah 100 blok berikutnya ditambang, dan terdiri dari biaya transaksi yang masuk plus block subsidy. Transaksi ini adalah transaksi yang bikin bitcoin baru diterbitin ke dalam sistem.
 
 
 
@@ -111,8 +106,7 @@ Secara default, transaksi dalam sebuah blok direpresentasikan berdasarkan dua kr
 
 
 
-Oleh karena itu, kita dapat menyimpulkan bahwa semua transaksi yang termasuk dalam blok yang sama memiliki jumlah konfirmasi yang sama dalam blockchain. Kubus terbesar mewakili transaksi yang mengandung jumlah bitcoin tertinggi.
-
+Karena itu, kita bisa nyimpulin kalau semua transaksi yang ada di dalam blok yang sama punya jumlah konfirmasi yang sama di blockchain. Kubus terbesar mewakili transaksi yang punya jumlah bitcoin paling gede.
 
 
 Interpretasi ini lebih lanjut dikonfirmasi oleh opsi menu **"Info "**, yang menginformasikan kepada kita tentang terjemahan warna dan ukuran transaksi blok.
@@ -123,8 +117,7 @@ Interpretasi ini lebih lanjut dikonfirmasi oleh opsi menu **"Info "**, yang meng
 
 
 
-Anda juga bisa melihat transaksi blok berdasarkan byte virtual dan rasio biaya. Tampilan ini mungkin berbeda dengan tampilan sebelumnya, karena nilai bitcoin yang disertakan dalam sebuah transaksi tidak menentukan ukurannya.
-
+Kamu juga bisa lihat transaksi di blok berdasarkan virtual bytes dan rasio biayanya. Tampilan ini bisa beda dari tampilan sebelumnya, soalnya nilai bitcoin yang ada di sebuah transaksi nggak menentukan ukuran transaksinya.
 
 
 ![visualisation](assets/fr/09.webp)
@@ -135,27 +128,20 @@ Anda juga bisa melihat transaksi blok berdasarkan byte virtual dan rasio biaya. 
 
 
 
-Anda dapat mencari transaksi dengan menggunakan pengenalnya melalui bilah pencarian. Anda juga dapat mengeklik sebuah kubus untuk melihat informasi yang terkait dengan transaksi tersebut.
+Kamu bisa nyari transaksi pakai ID-nya lewat bilah pencarian. Kamu juga bisa ngeklik sebuah kubus buat ngeliat info terkait transaksi itu.
 
-
-
-Dalam kasus kita, mari kita ambil transaksi yang menempati ruang terbesar di blok `879488`.
-
+Di kasus kita, mari kita ambil transaksi yang paling banyak makan ruang di blok '879488'.
 
 
 ![biggest](assets/fr/10.webp)
 
 
 
-Anda akan melihat bahwa transaksi ini memiliki `42.989`, yang merepresentasikan perbedaan antara blok terakhir yang ditambang dengan blok yang kita pilih. Konfirmasi ini membantu memperkuat keamanan jaringan Bitcoin, karena untuk memodifikasi transaksi ini secara jahat, penyerang harus memiliki daya komputasi yang setara untuk menulis ulang seluruh rantai-blok utama.
+Kamu bakal liat kalau transaksi ini punya '42.989', yang nunjukin selisih antara blok terakhir yang ditambang dan blok yang kita pilih. Jumlah konfirmasi ini bantu ngekuatin keamanan jaringan Bitcoin, soalnya kalau ada penyerang yang mau ngubah transaksi ini dengan niat jahat, dia harus punya daya komputasi yang cukup buat nulis ulang seluruh rantai blok utama.
 
+Ukuran transaksi ini adalah '57.088' vByte, terutama karena banyaknya UTXO yang dipakai waktu transaksi ini dibuat (842 entri). Uniknya, rasio biaya yang dipakai tetap relatif rendah, cuma 4 sats/vByte, dibanding rata-rata keseluruhan blok yang sebesar 5,82 sats/vByte.
 
-
-Ukuran transaksi ini adalah `57.088 vByte`, terutama karena banyaknya jumlah UTXO yang digunakan dalam pembuatannya (842 entri). Anehnya, rasio biaya yang diterapkan tetap relatif rendah (hanya 4 sats/vByte) dibandingkan dengan rata-rata keseluruhan blok sebesar 5,82 sats/vByte.
-
-
-
-Oleh karena itu, transaksi yang paling banyak menggunakan ruang belum tentu merupakan transaksi dengan rasio biaya transaksi tertinggi.
+Jadi, transaksi yang paling banyak makan ruang belum tentu jadi transaksi dengan rasio biaya transaksi paling tinggi.
 
 
 
@@ -163,7 +149,7 @@ Oleh karena itu, transaksi yang paling banyak menggunakan ruang belum tentu meru
 
 
 
-Jika Anda mengikuti skala pada menu **Info**, transaksi dengan rasio biaya transaksi tertinggi adalah yang berwarna ungu. Ini adalah transaksi [bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35] (https://bitfeed.live/tx/bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35) dengan rasio biaya transaksi sebesar `147,49 sats/vBytes`.
+Jika Anda mengikuti skala pada menu **Info**, transaksi dengan rasio biaya transaksi tertinggi adalah yang berwarna ungu. Ini adalah transaksi [bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35](https://bitfeed.live/tx/bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35) dengan rasio biaya transaksi sebesar `147,49 sats/vBytes`.
 
 
 
@@ -177,7 +163,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Mempool adalah lokasi virtual di mana transaksi Bitcoin yang menunggu untuk dimasukkan ke dalam blok dikelompokkan bersama. Bitfeed memungkinkan konsultasi [mempool] (https://planb.academy/resources/glossary/mempool) dari beberapa penambang Bitcoin, yang menawarkan berbagai macam pelacakan transaksi.
+Mempool adalah lokasi virtual di mana transaksi Bitcoin yang menunggu untuk dimasukkan ke dalam blok dikelompokkan bersama. Bitfeed memungkinkan konsultasi [mempool](https://planb.academy/resources/glossary/mempool) dari beberapa penambang Bitcoin, yang menawarkan berbagai macam pelacakan transaksi.
 
 
 
@@ -185,7 +171,7 @@ Mempool adalah lokasi virtual di mana transaksi Bitcoin yang menunggu untuk dima
 
 
 
-Pada bagian ini, Anda dapat melacak semua transaksi yang valid dan yang belum dikonfirmasi pada rantai utama jaringan Bitcoin.
+Pada bagian ini, kamu dapat melacak semua transaksi yang valid dan yang belum dikonfirmasi pada rantai utama jaringan Bitcoin.
 
 
 
@@ -193,8 +179,6 @@ Pada bagian ini, Anda dapat melacak semua transaksi yang valid dan yang belum di
 
 
 
-Anda sekarang memiliki panduan untuk menggunakan platform Bitfeed untuk menganalisis blok dan transaksi untuk memvisualisasikan informasi yang tersedia di rantai utama jaringan Bitcoin, sambil memanfaatkan antarmuka yang minimalis dan mudah digunakan. Jika Anda menikmati tutorial ini, kami sarankan Anda untuk mengambil langkah selanjutnya: temukan Lightning Network melalui proyek Amboss.
-
-
+Sekarang kamu punya panduan buat pake platform Bitfeed buat menganalisis blok dan transaksi supaya bisa memvisualisasikan info yang ada di rantai utama jaringan Bitcoin, sambil manfaatin antarmuka yang minimalis dan gampang dipakai. Kalau kamu suka tutorial ini, aku saranin kamu lanjut ke langkah berikutnya: kenalan sama Lightning Network lewat proyek Amboss.
 
 https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb-af18-491384af1017

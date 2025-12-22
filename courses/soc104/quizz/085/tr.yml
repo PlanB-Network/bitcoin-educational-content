@@ -1,0 +1,9 @@
+question: Hayek'in dağınık bilgi teorisine göre, merkezi planlı ekonomiler serbest piyasalara kıyasla fiyat belirlemede neden zorlanmaktadır?
+answer: Merkezi planlamacılar, sadece piyasa katılımcılarının sahip olduğu bireysel maliyet, fayda ve tercihlere ilişkin öznel ve yerel bilgiye erişemezler
+wrong_answers:
+  - Merkezi planlamacılar ellerindeki tüm ekonomik verileri işlemek için yeterli hesaplama gücüne ve gelişmiş algoritmalara sahip değildir
+  - Merkezi planlamacılar doğaları gereği yozlaşmışlardır ve fedakar olan piyasa katılımcılarının aksine, fiyatları toplumdan ziyade kendilerine fayda sağlayacak şekilde belirlerler
+  - Merkezi planlamacılar, anlık arz ve talep dalgalanmalarına yanıt vermek yerine uzun vadeli ekonomik istikrara çok fazla odaklanırlar
+explanation: |
+  Hayek'in temel anlayışı, bilginin yalnızca 'tüm farklı bireylerin sahip olduğu eksik ve sıklıkla çelişkili bilginin dağılmış parçaları' olarak var olduğudur Bu bilgi öznel ve yereldir - sadece bireyler kendi maliyetlerini, faydalarını ve tercihlerini bilir. Gönüllü mübadele ve fiyat pazarlığı yoluyla serbest piyasalar bu dağınık bilginin ortaya çıkmasına ve ekonomik faaliyetlerin koordine edilmesine olanak tanır.
+  Merkezi planlamacılar, niyetleri veya yetenekleri ne olursa olsun, milyonlarca bireyin zihninde var olan bu öznel, dağınık bilgiye erişemezler ve bu da etkili fiyat belirlemeyi imkansız hale getirir.

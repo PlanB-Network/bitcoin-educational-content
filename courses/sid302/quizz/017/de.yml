@@ -1,0 +1,8 @@
+question: Wie viele Unterschriften von Funktionsträgern sind im föderalen Konsensmodell von Liquid mindestens erforderlich, um einen Block zu validieren, und wie viele Knotenausfälle kann das Netz maximal tolerieren?
+answer: 11 Signaturen erforderlich, kann bis zu 4 Knotenausfälle verkraften
+wrong_answers:
+  - 8 Signaturen erforderlich, kann bis zu 7 Knotenausfälle verkraften
+  - 15 Signaturen erforderlich, kann bis zu 2 Knotenausfälle verkraften
+  - 9 Signaturen erforderlich, kann bis zu 6 Knotenausfälle verkraften
+explanation: |
+  Liquid verwendet ein 11-von-15-Schwellensystem, bei dem mindestens 11 von 15 Funktionsträgern jeden Block unterschreiben müssen, damit er gültig ist. Mit diesem Konzept kann das Netz auch dann weiterarbeiten, wenn bis zu 4 Knoten ausfallen (15 - 11 = 4). Die anderen Optionen geben entweder falsche Schwellenwerte für die Unterschriften vor oder berechnen die Fehlertoleranz falsch, die sich immer aus der Gesamtzahl der Knoten abzüglich der erforderlichen Unterschriften ergibt.

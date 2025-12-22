@@ -1,5 +1,5 @@
 ---
-name: 마카다미아 Wallet
+name: Macadamia Wallet
 description: 익명 및 즉시 BTC 결제를 위한 캐슈 모바일 wallet
 ---
 

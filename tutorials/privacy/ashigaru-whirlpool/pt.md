@@ -324,7 +324,7 @@ Aqui estão várias estratégias possíveis para gerir os seus UTXOs de moeda es
 
 
 
-- Comprar cartões-presente pré-pagos ou cartões Visa:** Plataformas como [Bitrefill] (https://www.bitrefill.com/) permitem-lhe trocar os seus bitcoins por cartões-presente ou cartões Visa recarregáveis que podem ser utilizados em lojas. Esta pode ser uma forma simples e discreta de gastar os seus UTXOs tóxicos.
+- Comprar cartões-presente pré-pagos ou cartões Visa:** Plataformas como [Bitrefill](https://www.bitrefill.com/) permitem-lhe trocar os seus bitcoins por cartões-presente ou cartões Visa recarregáveis que podem ser utilizados em lojas. Esta pode ser uma forma simples e discreta de gastar os seus UTXOs tóxicos.
 
 
 

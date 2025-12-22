@@ -1,0 +1,8 @@
+question: Hvilke tre komponenter utgjør strukturen til en streng i Rusts minneoppsett?
+answer: En peker til heap-data, gjeldende lengde og total kapasitet
+wrong_answers:
+  - En peker til stakkedata, gjeldende størrelse og maksimal lengde
+  - En minneadresse, antall tegn og allokeringstype
+  - En datareferanse, bytestørrelsen og eierstatus
+explanation: |
+  En streng i Rust består av nøyaktig tre komponenter som er lagret på stakken: en peker til tegndataene som er allokert i heapen, den aktuelle lengden på strenginnholdet og den totale kapasiteten til den allokerte bufferen. Denne strukturen gjør det mulig for strenger å vokse og krympe effektivt, samtidig som de beholder kunnskapen om grensene. De andre alternativene er feil fordi de enten refererer til feil plasseringer (stakken i stedet for heapen), bruker upresis terminologi (størrelse vs. lengde, antall tegn vs. bytelengde) eller inkluderer ikke-eksisterende komponenter som allokeringstype eller eierstatus.

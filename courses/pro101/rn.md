@@ -2084,7 +2084,7 @@ Ikoreshwa ry’ibice bikomeye ubu rikoreshwa mu kwongerera ubushobozi bwo gutang
 #### Gukoresha amasomero asanzweho
 
 
-Ku bikorwa bihambaye vy'uguhurizako, birakenewe gukoresha amasomero asanzweho kugira ngo wirinde ibikoko kandi ubone umutekano nka [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) canke [Igikoresho co gutegura Bitcoin] (Ivyanditswe/BDK/ivya nyuma/BDK/). Gushira mu ngiro parser yawe bwite birashobora kuba inyigisho ariko kandi bishobora gutera ingorane mu bidukikije vy’ubuhinga.
+Ku bikorwa bihambaye vy'uguhurizako, birakenewe gukoresha amasomero asanzweho kugira ngo wirinde ibikoko kandi ubone umutekano nka [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) canke [Igikoresho co gutegura Bitcoin](Ivyanditswe/BDK/ivya nyuma/BDK/). Gushira mu ngiro parser yawe bwite birashobora kuba inyigisho ariko kandi bishobora gutera ingorane mu bidukikije vy’ubuhinga.
 
 
 ![libraries](assets/en/035.webp)
@@ -2199,7 +2199,7 @@ Kugira umuntu aronke ubumenyi bujanye n’ibikorwa vya Bitcoin core, arashobora 
 
 
 
-- Gukoranya codebase kugira ngo ureme verisiyo ishobora gukorwa. [Bitcoin github] (Bitcoin) gushika ku doc/build-\*.md kugira ngo ubone amabwirizwa.
+- Gukoranya codebase kugira ngo ureme verisiyo ishobora gukorwa. [Bitcoin github](Bitcoin) gushika ku doc/build-\*.md kugira ngo ubone amabwirizwa.
 
 
 ```Bash

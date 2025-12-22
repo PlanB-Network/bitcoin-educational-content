@@ -154,7 +154,7 @@ Klanten kopen een product in de winkel met Bitcoin.
 
 
 - Opzetten:
-  - Zie de diagrammen/uitleg in de bijgevoegde Figjam - [Activiteitenschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Zie de diagrammen/uitleg in de bijgevoegde Figjam - [Activiteitenschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Laat drie student-vrijwilligers de rollen van klant (Alice), handelaar (Bob) en bank spelen.
 - Speel de volgorde van de gebeurtenissen na:
   - Klant - bladert online door de winkel en vindt een artikel voor $25 dat hij wil hebben en laat de verkoper weten dat hij het wil kopen
@@ -176,7 +176,7 @@ Klanten kopen een product in de winkel met Bitcoin.
 
 
 - Opzetten:
-  - Zie de diagrammen/uitleg in de bijgevoegde Figjam - [Activiteitenschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Zie de diagrammen/uitleg in de bijgevoegde Figjam - [Activiteitenschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Vervang de Bank door negen studenten die de rol spelen van een Computer (Bitcoin Nodes/Miners) in een netwerk om de Bank te vervangen.
 - Elk van de 9 computers heeft een volledig historisch overzicht van alle transacties die ooit hebben plaatsgevonden (dus nauwkeurige balansen zonder vervalsingen), evenals een aantal regels:
   - Controleer of de transactie correct is ondertekend (thekeyfitsthelock)
@@ -2451,7 +2451,7 @@ In BTCPay Server vertegenwoordigt een Invoice een document dat moet worden betaa
 De kern van BTCPay Server is de mogelijkheid om op te treden als een Bitcoin Invoice beheersysteem. Een Invoice is een essentieel hulpmiddel voor het bijhouden en beheren van ontvangen betalingen.
 
 
-Tenzij u een ingebouwde [Wallet] (https://docs.btcpayserver.org/Wallet/) gebruikt om handmatig betalingen te ontvangen, worden alle betalingen binnen een winkel getoond op de Facturen pagina. Deze pagina sorteert betalingen cumulatief op datum en dient als een centrale bron voor Invoice beheer en het oplossen van betalingsproblemen.
+Tenzij u een ingebouwde [Wallet](https://docs.btcpayserver.org/Wallet/) gebruikt om handmatig betalingen te ontvangen, worden alle betalingen binnen een winkel getoond op de Facturen pagina. Deze pagina sorteert betalingen cumulatief op datum en dient als een centrale bron voor Invoice beheer en het oplossen van betalingsproblemen.
 
 
 ![image](assets/en/093.webp)
@@ -2620,7 +2620,7 @@ De begunstigde en de aanvrager kunnen de status van het betalingsverzoek bekijke
 De inhoud van de beschrijving kan worden bewerkt met de teksteditor van het betalingsverzoek. Beide opties zijn beschikbaar als je extra kleurenthema's of aangepaste CSS-styling wilt gebruiken.
 
 
-Niet-technische gebruikers kunnen een [bootstrap theme] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes) gebruiken. Verdere aanpassingen kunnen worden gedaan door extra CSS-code op te geven, zoals hieronder wordt getoond.
+Niet-technische gebruikers kunnen een [bootstrap theme](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes) gebruiken. Verdere aanpassingen kunnen worden gedaan door extra CSS-code op te geven, zoals hieronder wordt getoond.
 
 
 ```css
@@ -2669,13 +2669,13 @@ Wat als de verzender de betaling niet pusht, maar de ontvanger toestaat om de be
 ### Uitbetalingen
 
 
-De uitbetalingsfunctionaliteit is gekoppeld aan de functie [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Deze functie laat u toe om uitbetalingen te creëren binnen uw BTCPay. Met deze functie kunt u pull-betalingen verwerken (terugbetalingen, uitbetalingen van salarissen of opnames).
+De uitbetalingsfunctionaliteit is gekoppeld aan de functie [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Deze functie laat u toe om uitbetalingen te creëren binnen uw BTCPay. Met deze functie kunt u pull-betalingen verwerken (terugbetalingen, uitbetalingen van salarissen of opnames).
 
 
 #### Voorbeeld 1: Terugbetaling
 
 
-Laten we beginnen met het voorbeeld van de terugbetaling. De klant heeft een artikel gekocht in je winkel, maar moet het helaas terugsturen. Ze willen een terugbetaling. Binnen BTCPay, kunt u een [Terugbetaling] (https://docs.btcpayserver.org/Refund/) aanmaken en de klant de link geven om hun geld op te eisen. Zodra de klant zijn Address heeft ingevuld en het geld heeft geclaimd, zal het worden weergegeven in de Payouts sectie.
+Laten we beginnen met het voorbeeld van de terugbetaling. De klant heeft een artikel gekocht in je winkel, maar moet het helaas terugsturen. Ze willen een terugbetaling. Binnen BTCPay, kunt u een [Terugbetaling](https://docs.btcpayserver.org/Refund/) aanmaken en de klant de link geven om hun geld op te eisen. Zodra de klant zijn Address heeft ingevuld en het geld heeft geclaimd, zal het worden weergegeven in de Payouts sectie.
 
 
 De eerste status is In afwachting van goedkeuring. Winkelbedienden kunnen controleren of er meerdere wachten en na het maken van de selectie gebruik je de knop Acties.
@@ -2699,7 +2699,7 @@ De klant wordt nu bijgewerkt op de claimpagina. Hij kan de transactie volgen via
 #### Voorbeeld 2: Salaris
 
 
-Laten we nu eens kijken naar de uitbetaling van salarissen, aangezien deze vanuit de winkel wordt aangestuurd en niet op verzoek van de klant. Het onderliggende concept is hetzelfde; het maakt gebruik van pull-betalingen. Maar in plaats van een terugbetaling maken we een [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Laten we nu eens kijken naar de uitbetaling van salarissen, aangezien deze vanuit de winkel wordt aangestuurd en niet op verzoek van de klant. Het onderliggende concept is hetzelfde; het maakt gebruik van pull-betalingen. Maar in plaats van een terugbetaling maken we een [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Ga naar de tab Pull Betalingen in uw BTCPay server. Klik in de rechterbovenhoek op de knop "Create Pull Payment".
@@ -2743,7 +2743,7 @@ Hierna kan de verzender de pull-betaling via een link delen met de ontvanger, zo
 Zodra een uitbetaling is aangemaakt, telt deze mee voor de limiet van de pull-betaling voor de huidige periode. De verzender zal dan de uitbetaling goedkeuren door het tarief in te stellen waartegen de uitbetaling zal worden verzonden en doorgaan met de betaling.
 
 
-Voor de verzender voorzien we een gebruiksvriendelijke methode om meerdere uitbetalingen van de [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/) te batchen.
+Voor de verzender voorzien we een gebruiksvriendelijke methode om meerdere uitbetalingen van de [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/) te batchen.
 
 
 #### Greenfield API

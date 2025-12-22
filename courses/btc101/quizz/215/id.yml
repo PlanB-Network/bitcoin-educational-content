@@ -1,11 +1,9 @@
-question: Apa itu masalah skalabilitas Bitcoin?
-answer: Tantangan dalam mengimplementasikan sistem moneter yang mampu menyediakan jumlah transaksi per detik yang terus meningkat seiring dengan adopsinya.
+question: Mekanisme apa yang membuat pembayaran Lightning bersifat atomik?
+answer: HTLC
 wrong_answers:
-  - Kesulitan dalam menambang Bitcoin baru.
-  - Volatilitas harga Bitcoin.
-  - Kurangnya regulasi untuk Bitcoin.
-explanation: >-
-  Masalah skalabilitas merujuk pada tantangan dalam mengimplementasikan sistem
-  moneter yang mampu menyediakan jumlah transaksi per detik yang terus meningkat
-  seiring dengan adopsinya.
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC mengondisikan pembayaran pada pengungkapan sebuah rahasia, sehingga menjamin keberhasilan penuh atau kegagalan tanpa kerugian.
 reviewed: false

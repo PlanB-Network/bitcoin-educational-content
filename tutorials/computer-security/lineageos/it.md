@@ -149,7 +149,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-- Strumento Android Flash**: Utilizzare lo strumento ufficiale di Google [flash.android.com] (https://flash.android.com) per ripristinare facilmente il dispositivo Pixel ad Android stock dal browser web (è necessario Chrome/Edge)
+- Strumento Android Flash**: Utilizzare lo strumento ufficiale di Google [flash.android.com](https://flash.android.com) per ripristinare facilmente il dispositivo Pixel ad Android stock dal browser web (è necessario Chrome/Edge)
 - Alternativa**: Immagini di fabbrica manualmente da [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
@@ -176,7 +176,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 
 
-**Strumenti ADB e Fastboot:** Seguire la [guida ufficiale LineageOS] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) per installare gli strumenti della piattaforma Android SDK. Verificare l'installazione con `adb version` e `fastboot --version`.
+**Strumenti ADB e Fastboot:** Seguire la [guida ufficiale LineageOS](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) per installare gli strumenti della piattaforma Android SDK. Verificare l'installazione con `adb version` e `fastboot --version`.
 
 
 

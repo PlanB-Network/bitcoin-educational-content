@@ -20,7 +20,7 @@ Neste tutorial, descobrimos **Banxaas**, uma plataforma de troca que aproxima os
 
 
 
-Banxaas vem do dialeto senegalês (Wolof) e significa ramo. Ideologicamente, podemos ver o Banxaas como um ramo que liga os senegaleses à utilização do Bitcoin. Um ramo em que se pode confiar para proteger as suas poupanças da inflação e da censura. Desenvolvido por uma start-up senegalesa (Yité Technologies), [Banxaas] (https://banxaas.com) oferece um serviço instantâneo de Exchange entre o Bitcoin e o Franco CFA (XOF) vice-versa, graças ao poder do Lightning Network. A Banxaas apresenta uma abordagem invulgar às plataformas Exchange na sub-região da África Ocidental.
+Banxaas vem do dialeto senegalês (Wolof) e significa ramo. Ideologicamente, podemos ver o Banxaas como um ramo que liga os senegaleses à utilização do Bitcoin. Um ramo em que se pode confiar para proteger as suas poupanças da inflação e da censura. Desenvolvido por uma start-up senegalesa (Yité Technologies), [Banxaas](https://banxaas.com) oferece um serviço instantâneo de Exchange entre o Bitcoin e o Franco CFA (XOF) vice-versa, graças ao poder do Lightning Network. A Banxaas apresenta uma abordagem invulgar às plataformas Exchange na sub-região da África Ocidental.
 
 
 

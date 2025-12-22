@@ -253,7 +253,7 @@ sudo systemctl status RTL
 
 
 
-Se utilizar [Umbrel] (https://getumbrel.com), a instalação RTL é muito mais simples:
+Se utilizar [Umbrel](https://getumbrel.com), a instalação RTL é muito mais simples:
 
 
 

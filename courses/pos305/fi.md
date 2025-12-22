@@ -154,7 +154,7 @@ Asiakkaat ostavat tuotteen kaupasta Bitcoin:llä.
 
 
 - Järjestä:
-  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Hanki kolme vapaaehtoista opiskelijaa esittämään asiakkaan (Alice), kauppiaan (Bob) ja pankin rooleja.
 - Näyttele tapahtumien kulku:
   - Asiakas - selaa verkkokauppaa ja löytää haluamansa tuotteen 25 dollarilla ja ilmoittaa kauppiaalle haluavansa ostaa sen
@@ -176,7 +176,7 @@ Asiakkaat ostavat tuotteen kaupasta Bitcoin:llä.
 
 
 - Järjestä:
-  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Katso kaaviot/selitykset liitteenä olevasta Figjam - [toimintakaavio](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Korvaa pankki yhdeksällä oppilaalla, jotka toimivat tietokoneen (Bitcoin solmua/kaukoputkea) roolissa verkossa, joka korvaa pankin.
 - Kullakin yhdeksästä tietokoneesta on täydellinen historiatieto kaikista koskaan tehdyistä tapahtumista (siten tarkat saldot ilman väärennöksiä) sekä joukko sääntöjä:
   - Tarkista, että tapahtuma on asianmukaisesti allekirjoitettu (thekeyfitsthelock)
@@ -2670,7 +2670,7 @@ Entä jos sen sijaan, että lähettäjä työntää maksun, lähettäjä antaa v
 ### Maksut
 
 
-Maksutoiminto on sidottu [Pull Payments] (https://docs.btcpayserver.org/PullPayments/) -toimintoon. Tämän ominaisuuden avulla voit luoda maksuja BTCPayn sisällä. Tämän ominaisuuden avulla voit käsitellä pull-maksuja (palautuksia, palkanmaksuja tai nostoja).
+Maksutoiminto on sidottu [Pull Payments](https://docs.btcpayserver.org/PullPayments/) -toimintoon. Tämän ominaisuuden avulla voit luoda maksuja BTCPayn sisällä. Tämän ominaisuuden avulla voit käsitellä pull-maksuja (palautuksia, palkanmaksuja tai nostoja).
 
 
 #### Esimerkki 1: Palautus
@@ -2700,7 +2700,7 @@ Asiakas päivitetään nyt Vaatimus-sivulle. Hän voi seurata tapahtumaa, koska 
 #### Esimerkki 2: Palkka
 
 
-Seuraavaksi käsitellään palkanmaksua, sillä sitä ohjataan myymälän sisältä eikä asiakkaan pyynnön mukaan. Peruskonsepti on sama; siinä hyödynnetään pull-maksuja. Mutta sen sijaan, että luomme palautuksen, teemme [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Seuraavaksi käsitellään palkanmaksua, sillä sitä ohjataan myymälän sisältä eikä asiakkaan pyynnön mukaan. Peruskonsepti on sama; siinä hyödynnetään pull-maksuja. Mutta sen sijaan, että luomme palautuksen, teemme [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Siirry BTCPay-palvelimesi Pull Payments -välilehdelle. Napsauta oikeassa yläkulmassa Create Pull Payment -painiketta.

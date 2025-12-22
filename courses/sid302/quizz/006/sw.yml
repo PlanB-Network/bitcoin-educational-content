@@ -1,0 +1,8 @@
+question: Elements hutumia mbinu gani ya usimbaji kuficha kiasi cha miamala huku ikiruhusu uthibitishaji wa mtandao?
+answer: Ahadi za Pedersen
+wrong_answers:
+  - Hashing ya Merkle Tree
+  - Saini za Mkunjo wa Elliptic
+  - Usimbaji fiche wa SHA-256
+explanation: |
+  Ahadi za Pedersen ni mbinu maalum ya usimbaji data inayotumika katika Confidential Transactions ya Elements' kuficha kiasi cha miamala. Ahadi hizi hubadilisha kiasi kinachoonekana na ahadi za usimbaji data ambazo bado zinaweza kuthibitishwa kihisabati na wathibitishaji bila kufichua thamani halisi. Usimbaji data wa Merkle Tree hutumika kupanga data ya miamala katika vizuizi, Saini za Mkunjo wa Elliptic hutumika kwa idhini ya miamala, na SHA-256 ni algoriti ya usimbaji data, lakini hakuna hata moja kati ya hizi inayoficha kiasi cha miamala huku ikidumisha uwezo wa uthibitishaji kama Pedersen Ahadi zinavyofanya.

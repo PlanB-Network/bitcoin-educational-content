@@ -1,5 +1,5 @@
 ---
-name: 天氣
+name: Tiankii
 description: 適用於零售商和消費者的 Lightning 套裝工具
 ---
 

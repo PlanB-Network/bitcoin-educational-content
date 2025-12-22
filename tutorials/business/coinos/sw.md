@@ -1,5 +1,5 @@
 ---
-name: Sarafu
+name: Coinos
 description: Programu rahisi ya wavuti ya kutuma, kupokea na kukubali malipo ya bitcoin.
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Huhitaji ujuzi wowote wa kiufundi au wa kina kabla ya kuchukua **Coinos** mkonon
 
 
 
-Nenda kwenye tovuti ya [Coinos] (https://coinos.io/) katika kivinjari chako na ubofye kwenye **Anza kwa sekunde**.
+Nenda kwenye tovuti ya [Coinos](https://coinos.io/) katika kivinjari chako na ubofye kwenye **Anza kwa sekunde**.
 
 
 

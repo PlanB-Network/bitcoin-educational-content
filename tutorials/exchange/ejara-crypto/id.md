@@ -537,7 +537,7 @@ Setelah Anda membeli bitcoin on-chain pertama Anda atau sejumlah besar satoshi, 
 
 
 
-Jika Anda belum mengetahui cara menggunakan portofolio Bitcoin, saya mengundang Anda untuk menjelajahi [bagian "Wallet" di Plan ₿ Academy] (https://planb.academy/tutorials/wallet).
+Jika Anda belum mengetahui cara menggunakan portofolio Bitcoin, saya mengundang Anda untuk menjelajahi [bagian "Wallet" di Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Дебифи
+name: Debifi
 description: Получите кредит без опекунства под гарантию Bitcoin.
 ---
 
@@ -165,7 +165,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-Посетите [официальный сайт Дебифи] (https://debifi.com/app).
+Посетите [официальный сайт Дебифи](https://debifi.com/app).
 
 
 

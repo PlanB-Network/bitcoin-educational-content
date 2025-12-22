@@ -1,5 +1,5 @@
 ---
-name: マチャンクラ
+name: Machankura
 description: インターネットがなくても、どの電話でもBitcoinを利用できる。
 ---
 

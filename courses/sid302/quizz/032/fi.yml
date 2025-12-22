@@ -1,0 +1,8 @@
+question: Mitä tapahtuu, kun käänteinen sukellusveneen vaihto epäonnistuu tai päättyy Breez SDK -arkkitehtuurissa?
+answer: SDK rakentaa ja lähettää automaattisesti palautustapahtuman varojen palauttamiseksi käyttäjän wallet:lle
+wrong_answers:
+  - Swap-palveluntarjoaja käynnistää manuaalisesti palautusprosessin, joka edellyttää käyttäjän toimenpiteitä 24 tunnin kuluessa
+  - Varat pysyvät pysyvästi lukittuina, kunnes Lightning Network-yhteys palautetaan
+  - Käyttäjän on otettava yhteyttä Boltz:n tukeen federated peg-out-tapahtuman käynnistämiseksi manuaalisesti
+explanation: |
+  Breez SDK toteuttaa automaattisen palautustenhallinnan kriittisenä turvallisuusmekanismina. Kun swapit epäonnistuvat tai niiden kesto päättyy, SDK valvoo kaikkia swap-tiloja ja hoitaa palautusprosessin automaattisesti ilman käyttäjän toimenpiteitä. Tämä poistaa aikarajoitettujen sopimusten monimutkaisuuden ja varmistaa, että varoja ei koskaan menetetä pysyvästi. Muut vaihtoehdot ovat virheellisiä, koska ne joko edellyttävät manuaalista puuttumista, olettavat varojen pysyvän menetyksen tai sisältävät prosesseja, joita ei ole olemassa automatisoidussa järjestelmässä.

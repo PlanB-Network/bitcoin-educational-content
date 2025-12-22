@@ -1,0 +1,8 @@
+question: Mikä UTXO-mallin perustavanlaatuinen rajoitus edellyttää erityistä käsittelyä Bitcoin-mallia käytettäessä?
+answer: UTXO:t on käytettävä kokonaan, eikä niitä voi käyttää osittain
+wrong_answers:
+  - UTXO:t voidaan käyttää vain kerran lohkoa kohti kaksinkertaisen käytön estämiseksi
+  - UTXO:t on käytettävä kronologisessa järjestyksessä luomisen ajankohdan perusteella
+  - UTXO:t edellyttävät useita allekirjoituksia eri avaimilla ollakseen voimassa
+explanation: |
+  UTXO-mallissa on perusrajoitus, jonka mukaan käyttämättömät transaktiotulot on käytettävä kokonaan - osittaista käyttöä varten ei ole mitään mekanismia. Kun sinun on käytettävä vähemmän kuin koko UTXO:n määrä, sinun on luotava tapahtuma, joka käyttää koko UTXO:n ja sisältää loppuosan muutostuloksen takaisin itsellesi. Muut vaihtoehdot kuvaavat olemattomia rajoituksia: UTXO:t voidaan käyttää useita kertoja lohkoa kohti (eri UTXO:t), ne eivät vaadi aikajärjestystä, ja niihin tarvitaan yleensä vain yksi voimassa oleva allekirjoitus, ellei niitä ole erityisesti suunniteltu monisignaalisiksi.

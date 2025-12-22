@@ -1,0 +1,8 @@
+question: Co se stane během kompilace, když překladač Rust narazí na volání makra?
+answer: Překladač porovná vstup s definovanými vzory a nahradí volání makra vygenerovaným kódem předtím, než dojde ke kontrole typu
+wrong_answers:
+  - Překladač odkládá expanzi maker až po kontrole typu a optimalizaci, aby byla zajištěna platnost kódu
+  - Překladač uloží volání makra jako bajtový kód a dynamicky jej rozšíří během běhu
+  - Překladač ověří syntaxi makra, ale vlastní expanzi ponechá na linkeru
+explanation: |
+  Makra jsou expandována během kompilace předtím, než dojde ke kontrole typu a optimalizaci. Když překladač narazí na volání makra, okamžitě porovná vstup s definovanými vzory makra a nahradí celé volání makra vygenerovaným kódem. Tento expandovaný kód pak prochází běžnými kompilačními procesy včetně kontroly typů. Ostatní možnosti jsou nesprávné, protože makra pracují v době kompilace, nikoli v době běhu, a k expanzi musí dojít před typovou kontrolou, protože je třeba ověřit správnost vygenerovaného kódu.

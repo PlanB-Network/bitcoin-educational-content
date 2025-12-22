@@ -1,0 +1,8 @@
+question: According to Hayek's theory of dispersed knowledge, why do centrally planned economies fail to allocate resources efficiently compared to free market systems?
+answer: Central planners cannot access the fragmented, localized knowledge that individuals possess about their specific needs, preferences, and circumstances, making optimal resource allocation impossible.
+wrong_answers:
+  - Central planners lack sufficient computational power and advanced algorithms to process all the economic data needed for optimal resource allocation decisions.
+  - Central planners are inherently corrupt and self-interested, prioritizing their own welfare over society's needs when making economic decisions.
+  - Central planners focus too heavily on long-term strategic goals while neglecting the immediate consumption needs and preferences of individual citizens.
+explanation: |
+  Hayek's key insight is that knowledge exists only as 'fragments dispersed of incomplete and frequently contradictory knowledge possessed by all distinct individuals.' The market's price system serves as a discovery mechanism that mobilizes this dispersed knowledge through voluntary exchanges. Central planners, regardless of their intentions or capabilities, cannot access the subjective, localized information that individuals have about costs, benefits, and preferences. This creates the fundamental 'knowledge problem' that makes central planning inherently inefficient compared to spontaneous market coordination.

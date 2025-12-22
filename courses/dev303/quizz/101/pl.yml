@@ -1,0 +1,8 @@
+question: Która konkretna cecha architektury sterowanej zdarzeniami LDK umożliwia aplikacjom zachowanie czystej separacji między logiką protokołu Lightning a odpowiedziami specyficznymi dla aplikacji?
+answer: Asynchroniczne powiadomienia są dostarczane dla wszystkich istotnych operacji i zmian stanu, umożliwiając niezależną implementację niestandardowych programów obsługi zdarzeń
+wrong_answers:
+  - Synchroniczne wywołania zwrotne są wyzwalane bezpośrednio w channel managerze, wymagając natychmiastowych odpowiedzi w celu zachowania zgodności z protokołem
+  - Programy obsługi zdarzeń są generowane automatycznie na podstawie konfiguracji aplikacji, eliminując potrzebę stosowania niestandardowej logiki implementacji
+  - Wszystkie zdarzenia są kolejkowane w centralnym buforze i przetwarzane sekwencyjnie w celu zapewnienia deterministycznego zachowania aplikacji
+explanation: |
+  System zdarzeń LDK zapewnia asynchroniczne powiadomienia dla wszystkich operacji Lightning, w tym połączeń peer, płatności i zmian kanałów. Pozwala to programistom na implementację niestandardowych programów obsługi zdarzeń, które odpowiednio reagują, zachowując jednocześnie czystą separację między podstawową funkcjonalnością LDK a logiką aplikacji. Pozostałe opcje są nieprawidłowe, ponieważ LDK nie używa synchronicznych wywołań zwrotnych, które blokują operacje protokołu, nie obsługuje automatycznie generate i nie wymusza sekwencyjnego przetwarzania zdarzeń.

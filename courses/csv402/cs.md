@@ -3167,7 +3167,7 @@ Bobovi ji lze předat jakýmkoli kanálem (text, QR kód atd.).
 Převod z této faktury :
 
 
-- Bob (který má žetony ve své skrýši) má peněženku Bitcoin. Potřebuje připravit bitcoinovou transakci (ve formě PSBT, např. `tx.psbt`), která utratí UTXO, v nichž se nacházejí požadované RGB tokeny, plus jedno UTXO pro měnu (směnu) ;
+- Bob (který drží tokeny ve svém stash) má bitcoinovou peněženku. Musí připravit bitcoinovou transakci (ve formě PSBT, např. `tx.psbt`), která utrácí UTXO, kde se nacházejí potřebné RGB tokeny, plus jeden UTXO na drobné (change);
 - Bob provede následující příkaz:
 
 ```bash

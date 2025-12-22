@@ -1,0 +1,8 @@
+question: Ni iyihe nzira y’amajambo ikoreshwa kugira ngo umuntu ashobore gushika ku kibanza ca mbere c’imiterere y’amajambo muri Rust?
+answer: Utudomo dufise urutonde 0 (nk'akarorero, urugero.0)
+wrong_answers:
+  - Ibifunga bifise urutonde 0 (nk'akarorero, urugero[0])
+  - Umwampi ufise urutonde 0 (nk'akarorero, urugero->0)
+  - Inyuguti zibiri zifise urutonde 0 (nk'akarorero::0)
+explanation: |
+  Ivyubatswe mu Rust bikoresha utudomo dukurikiwe n'urutonde rw'ibibanza kugira ngo bigere ku bibanza vyavyo bitagira izina. Ico kibanza ca mbere gishikirwa n’ .0, ica kabiri gishikirizwa n’ .1, n’ibindi. Ibi bitandukanye n'imirongo canke ama vecteur akoresha amabara y'inzira, kandi bitandukanye na C++ ikoresha umwampi ku bimenyetso. Inyuguti zibiri z'inyuguti zibikiwe ibikorwa bifitaniye isano n'amazina, si ukuronka umurima.

@@ -356,7 +356,7 @@ Deze handeling kan ook worden uitgevoerd via Bitcoin-QT's Interface graphics. Ga
 ![Image](assets/fr/37.webp)
 
 
-Zoek het IP Address van de machine die Bitcoin Knots host op uw lokale netwerk. Hiervoor kunt u een tool zoals [Angry IP Scanner] (https://angryip.org/) gebruiken. Laten we omwille van het argument aannemen dat het IP Address van uw knooppunt `192.168.1.18` is.
+Zoek het IP Address van de machine die Bitcoin Knots host op uw lokale netwerk. Hiervoor kunt u een tool zoals [Angry IP Scanner](https://angryip.org/) gebruiken. Laten we omwille van het argument aannemen dat het IP Address van uw knooppunt `192.168.1.18` is.
 
 
 Voeg in het `Bitcoin.conf` bestand de volgende regels toe, waarbij je `rpcbind=192.168.1.18` instelt om overeen te komen met het IP Address van je node.

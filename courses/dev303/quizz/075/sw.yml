@@ -1,0 +1,8 @@
+question: Je, faida kuu ya kutumia mbinu za map() na map_err() kwenye aina za Matokeo ni ipi ikilinganishwa na mifumo ya kawaida ya kushughulikia hitilafu za kujaribu-kukamata?
+answer: Huruhusu mnyororo wa utendaji kazi kwa mtindo wa utendaji kazi huku zikiweka utunzaji wa makosa karibu na shughuli ambazo zinaweza kushindwa
+wrong_answers:
+  - Hubadilisha kiotomatiki aina zote za hitilafu kuwa ujumbe wa kamba ili kurahisisha utatuzi wa matatizo na uonyesho wa mtumiaji
+  - Huondoa hitaji la opereta wa alama ya kuuliza kwa kutoa mifumo ya uenezaji wa hitilafu iliyojengewa ndani
+  - Huzuia hali ya hofu kwa kufunga shughuli zote zinazoweza kushindwa katika vyombo salama vya Matokeo
+explanation: |
+  Mbinu za map() na map_err() huwezesha utunzaji wa hitilafu za mtindo wa kiutendaji ambapo unaweza kuratibu shughuli na kubadilisha thamani au hitilafu katika sehemu zinapotokea. Hii huweka mantiki ya utunzaji wa hitilafu karibu na shughuli ambazo zinaweza kushindwa, tofauti na vitalu vya kujaribu-kukamata ambapo utunzaji wa hitilafu hutenganishwa na shughuli halisi. Chaguzi zingine si sahihi: mbinu za ramani hazibadilishi hitilafu kuwa mifuatano (hiyo ni jukumu la vyovyote vile), zinafanya kazi pamoja na opereta wa alama ya swali badala ya kuibadilisha, na hazizuii hofu bali hutoa utunzaji wa hitilafu uliopangwa kwa Matokeo.

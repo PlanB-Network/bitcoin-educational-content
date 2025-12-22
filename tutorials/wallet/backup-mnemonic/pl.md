@@ -74,7 +74,7 @@ Dla tych, którzy szukają ekonomicznej opcji tworzenia kopii zapasowych swoich 
 Jeśli wolisz zainwestować w kompletne metalowe urządzenie do tworzenia kopii zapasowych, polecam zapoznać się z [testami odporności Jamesona Loppa](https://jlopp.github.io/metal-Bitcoin-storage-reviews/), które oceniają większość rozwiązań dostępnych na rynku. Radziłbym zdecydować się na jednoczęściowe wsporniki, takie jak metalowa płytka do grawerowania, tłoczenia lub wykrawania. Takie urządzenia oferują zazwyczaj znacznie większą odporność niż systemy wykorzystujące niezależne litery do montażu.
 
 
-Jeśli zdecydujesz się na papierowy Wallet, masz kilka opcji: zwykły czysty arkusz papieru, kartonowy Wallet często dostarczany z Hardware Wallet lub nasz szablon do pobrania, który możesz wydrukować [klikając tutaj] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Jeśli zdecydujesz się na papierowy Wallet, masz kilka opcji: zwykły czysty arkusz papieru, kartonowy Wallet często dostarczany z Hardware Wallet lub nasz szablon do pobrania, który możesz wydrukować [klikając tutaj](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

@@ -101,7 +101,7 @@ Ancak Machankura, web sitesi, SMS mesajlaşma ve WhatsApp aracılığıyla işle
 
 
 
-Hizmetin sunulacağı yeni ülkelerden haberdar olmak için lütfen [web sitesine] (https://8333.mobi) düzenli olarak bakın.
+Hizmetin sunulacağı yeni ülkelerden haberdar olmak için lütfen [web sitesine](https://8333.mobi) düzenli olarak bakın.
 
 
 
@@ -301,7 +301,7 @@ Alıcının numarası henüz bir kullanıcı olarak kaydedilmemişse, Machankura
 
 
 
-PIO TARAS (Lead Machankura Afrique Francophone) tarafından Machankura aracılığıyla bitcoinlerin [video gönderme demosunu] (https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) basit bir telefonda izleyebilirsiniz.
+PIO TARAS (Lead Machankura Afrique Francophone) tarafından Machankura aracılığıyla bitcoinlerin [video gönderme demosunu](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) basit bir telefonda izleyebilirsiniz.
 
 
 

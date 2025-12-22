@@ -1,5 +1,5 @@
 ---
-name: 스펙터 데스크톱
+name: Specter Desktop
 description: 자체 노드로 멀티서명 Bitcoin 포트폴리오를 전체 주권으로 관리하세요
 ---
 

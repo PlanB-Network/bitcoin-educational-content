@@ -1,0 +1,8 @@
+question: Jaki jest najważniejszy kompromis w zakresie prywatności wprowadzony podczas migracji z samodzielnie zarządzanej implementacji LDK do architektury opartej na chmurze Breez SDK?
+answer: Greenlight zyskuje potencjalny wgląd w miejsca docelowe płatności i działania związane z generowaniem faktur dzięki routingowi opartemu na chmurze
+wrong_answers:
+  - "Klucze prywatne są przechowywane na serwerach Blockstream zamiast lokalnie na urządzeniu użytkownika"
+  - Informacje o stanie kanału stają się publicznie widoczne na wykresie Lightning Network za pośrednictwem węzłów Greenlight
+  - Usługi LSP mogą teraz monitorować wszystkie transakcje on-chain i łączyć je z wzorcami płatności Lightning
+explanation: |
+  Prawidłowa odpowiedź identyfikuje kluczową degradację prywatności: routing oparty na chmurze pozwala Greenlight potencjalnie obserwować miejsca docelowe płatności, podczas gdy generowanie faktur w chmurze rozszerza ekspozycję informacji poza to, co ujawniały tradycyjne architektury oparte wyłącznie na LSP. Błędne odpowiedzi są nieprawidłowe, ponieważ: klucze prywatne pozostają pod kontrolą użytkownika pomimo architektury chmury; stany kanałów nie są publicznie widoczne poprzez routing; a LSP nie zyskują dodatkowych możliwości monitorowania transakcji on-chain dzięki tej zmianie architektury.

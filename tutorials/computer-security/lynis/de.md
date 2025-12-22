@@ -892,7 +892,7 @@ Vergessen Sie nicht, vor der Umsetzung mit Ihren Teams zu kommunizieren: Sie mü
 
 
 
-Schließlich können Sie **Lynis** auch mit anderen Tools vergleichen, von denen es mehrere gibt. Wenn Sie eine zentralisierte Verwaltung anstreben und dabei Open Source bleiben wollen, empfehle ich das Tool [Wazuh] (https://wazuh.com/).
+Schließlich können Sie **Lynis** auch mit anderen Tools vergleichen, von denen es mehrere gibt. Wenn Sie eine zentralisierte Verwaltung anstreben und dabei Open Source bleiben wollen, empfehle ich das Tool [Wazuh](https://wazuh.com/).
 
 
 

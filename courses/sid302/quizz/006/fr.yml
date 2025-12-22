@@ -1,0 +1,8 @@
+question: Quelle technique cryptographique Elements utilise-t-elle pour dissimuler les montants des transactions tout en permettant la validation du réseau ?
+answer: Engagements de Pedersen
+wrong_answers:
+  - Merkle Tree Hachage
+  - Signatures par courbes elliptiques
+  - Chiffrement SHA-256
+explanation: |
+  Les engagements Pedersen sont la technique cryptographique spécifique utilisée dans Elements' Confidential Transactions pour dissimuler les montants des transactions. Ces engagements remplacent les montants visibles par des engagements cryptographiques qui peuvent encore être vérifiés mathématiquement par les validateurs sans révéler les valeurs réelles. Le hachage Merkle Tree est utilisé pour organiser les données de transaction en blocs, les signatures à courbe elliptique sont utilisées pour l'autorisation des transactions et SHA-256 est un algorithme de hachage, mais aucun de ces algorithmes ne masque les montants des transactions tout en maintenant la capacité de validation comme le font les engagements de Pedersen.

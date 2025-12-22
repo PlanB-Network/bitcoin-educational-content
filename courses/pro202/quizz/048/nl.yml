@@ -1,0 +1,8 @@
+question: Wat gebeurt er bij het construeren van een Merkle tree van transacties als het aantal hashes op elk niveau oneven is?
+answer: De laatste hash wordt gedupliceerd om een even aantal paren te maken voor het volgende niveau
+wrong_answers:
+  - De laatste hash wordt ongewijzigd overgedragen naar het volgende niveau zonder te koppelen
+  - De laatste hash wordt XORed met de eerste hash van dat niveau om de koppeling te voltooien
+  - De laatste hash wordt gecombineerd met een null hash (allemaal nullen) om het uiteindelijke paar te maken
+explanation: |
+  Bitcoin's Merkle tree constructie vereist het koppelen van hashes op elk niveau. Als er een oneven aantal bestaat, dupliceert het protocol specifiek de laatste hash om de juiste koppeling te garanderen. Dit handhaaft de binaire structuur van de boom en zorgt voor een deterministische berekening van de root. De andere opties zouden de compatibiliteit met Bitcoin's consensusregels verbreken en verschillende Merkle wortels creëren voor identieke transactiesets.

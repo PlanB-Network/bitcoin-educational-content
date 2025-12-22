@@ -29,7 +29,7 @@ Welkom bij de BTC101-cursus!
 
 Bitcoin is een technologische en monetaire revolutie, die in staat is onze relatie met geld en de maatschappij in twijfel te trekken. In feite is Bitcoin (ook wel BTC genoemd) een **neutrale** en **decentrale** valuta, wat betekent dat het niet gecontroleerd wordt door een entiteit of instelling. Het is een innovatie die verder gaat dan een gewone "internetvaluta": het is zowel een computerprotocol (Bitcoin) als een munteenheid (bitcoin).
 
-Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "blockchain", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
+Het Bitcoin protocol maakt gebruik van onderliggende technologieën zoals cryptografie, netwerkcommunicatie en de beroemde "[blockchain](https://planb.academy/resources/glossary/blockchain)", terwijl de bitcoin munteenheid dient als de noodzakelijke valuta voor het goed functioneren van dit protocol. In het dagelijks leven gebruiken Salvadoranen en bitcoiners over de hele wereld de bitcoin valuta om goederen en diensten te kopen en verkopen, vertrouwend op deze technologie om hun leven te verbeteren.
 
 **Een uitgebreid maar toegankelijk curriculum:**
 
@@ -83,7 +83,6 @@ Het belangrijkste punt hier is om deze nieuwe technologie op een algemene manier
 
 Ben je er klaar voor om in de fascinerende wereld van Bitcoin te duiken en alles over de werking ervan te leren? Let's go!
 
-**N.B.**: Als u tijdens de cursus onbekende termen tegenkomt, raadpleeg dan [de woordenlijst](https://planb.academy/resources/glossary) voor definities.
 
 ## De Voorgeschiedenis Van Bitcoin
 
@@ -126,7 +125,7 @@ De afbeelding hieronder illustreert duidelijk de ontwikkeling van de beweging do
 
 ![image](assets/nl/005.webp)
 
-In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 de Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals proof of work en cryptografische tijdstempels, om gedecentraliseerd en censuurbestendig digitaal geld te creëren.
+In deze vruchtbare omgeving publiceerde de mysterieuze Satoshi Nakamoto in 2008 de Bitcoin whitepaper. In dit document combineerde hij verschillende ideeën uit de Cypherpunk beweging, zoals [proof of work](https://planb.academy/resources/glossary/proof-of-work) en cryptografische tijdstempels, om gedecentraliseerd en censuurbestendig digitaal geld te creëren.
 
 Bitcoin was echter meer dan dat: het vertegenwoordigde de verwezenlijking van de Cypherpunk idealen. Naast de technologie symboliseerde het een revolutie tegen traditionele financiële systemen en bood het een alternatief gebaseerd op transparantie, decentralisatie en individuele soevereiniteit.
 
@@ -203,7 +202,7 @@ Om aan deze criteria te voldoen, heeft valuta zich historisch ontwikkeld door ve
 
 Geld evolueert tot op de dag van vandaag en past zijn vorm aan om te voldoen aan verschillende gebruikssituaties. Zoals we al zeiden, hoewel goud een uitstekend waardeopslagmiddel (store of value) is, is het niet langer geschikt voor de huidige geglobaliseerde economie. Op dezelfde manier zijn fiduciaire valuta's zoals de dollar en de euro erg liquide en makkelijk transporteerbaar omdat ze nu grotendeels digitaal zijn, maar hun waarde wordt constant verlaagd door monetaire inflatie.
 
-Aan de andere kant biedt Bitcoin nieuwe mogelijkheden. Zijn eigenschappen, zoals de strikt gelimiteerde voorraad, maken het een uitstekend waardeopslagmiddel. Bovendien, als neutrale internetvaluta is het een realistisch **ruilmiddel** dat grensoverstijgend is. Het wordt vandaag de dag echter nog steeds niet algemeen geaccepteerd in commercie, ondanks zijn [constante adoptie] (https://btcmap.org/map).
+Anderzijds opent Bitcoin nieuwe perspectieven. Zijn eigenschappen, met name een strikt beperkt aanbod, maken het tot een uitstekende waardeopslag. Bovendien vormt het, als neutrale internetvaluta, een levensvatbaar **ruilmiddel** dat grenzen kan overstijgen. Desondanks wordt het, ondanks een voortdurende adoptie (zoals geïllustreerd door [de BTCmap-kaart](https://btcmap.org/map)), vandaag de dag nog niet breed geaccepteerd in de handel.
 
 ## Fiduciaire valuta's
 
@@ -391,7 +390,7 @@ Na het succesvol uitvoeren van deze taak, worden miners elke tien minuten beloon
 | 19               | 3,990,000   | 0.000095367431640625 BTC  | 20,999,959.946 BTC                   |
 | 20               | 4,200,000   | 0.0000476837158203125 BTC | 20,999,979.973 BTC                   |
 
-We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk] (https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+We zullen het concept van mining in meer detail bespreken in het [miner hoofdstuk](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 ### Digitale schaarste garanderen
 
@@ -419,7 +418,7 @@ Het idee om de valuta te devalueren druist in tegen de fundamentele filosofie va
 
 De schaarste van Bitcoin is een belangrijke troef en de maximale hoeveelheid van 21 miljoen bitcoins in omloop is openbaar en kan door iedereen geverifieerd worden.
 
-In feite kan iedereen dit doen via een Bitcoin node (d.w.z. een transactie validator) door simpelweg het volgende commando in te voeren: `bitcoin-cli gettxoutsetinfo`. Deze transparantie versterkt het vertrouwen in het Bitcoin systeem, dat niet gebaseerd is op centrale instituten of individuen, maar eerder op de wiskundige en cryptografische garanties die inherent zijn aan het protocol (Je zult leren hoe je dit eenvoudig kunt doen in LNP201).
+In feite kan iedereen dit doen via een Bitcoin [node](https://planb.academy/resources/glossary/node) (d.w.z. een transactie validator) door simpelweg het volgende commando in te voeren: `bitcoin-cli gettxoutsetinfo`. Deze transparantie versterkt het vertrouwen in het Bitcoin systeem, dat niet gebaseerd is op centrale instituten of individuen, maar eerder op de wiskundige en cryptografische garanties die inherent zijn aan het protocol (Je zult leren hoe je dit eenvoudig kunt doen in LNP201).
 
 ```json
 {
@@ -677,7 +676,7 @@ Nu we de basisprincipes van Bitcoin wallets en de beste methodes om ze te beveil
 
 ![image](assets/nl/038.webp)
 
-31 oktober 2008 markeert de geboorte van de nieuwe financiële technologie die Bitcoin is. Op deze dag presenteerde de anonieme Satoshi Nakamoto zijn innovatie aan de wereld via een e-mail naar de mailinglijst van de cypherpunks, een gemeenschap van liefhebbers van cryptografie die privacy op het internet promoten. Deze e-mail bevatte een document met de naam "White Paper", waarin werd uitgelegd hoe Bitcoin werkte.
+31 oktober 2008 markeert de geboorte van de nieuwe financiële technologie die Bitcoin is. Op deze dag presenteerde de anonieme Satoshi Nakamoto zijn innovatie aan de wereld via een e-mail naar de mailinglijst van de cypherpunks, een gemeenschap van liefhebbers van cryptografie die privacy op het internet promoten. Deze e-mail bevatte een document met de naam "[White Paper](https://planb.academy/resources/glossary/white-paper)", waarin werd uitgelegd hoe Bitcoin werkte.
 
 Dit initiatief wekte niet meteen enthousiasme op, waarschijnlijk vanwege de eerdere mislukkingen in de pogingen om een digitaal geldsysteem te creëren. Desondanks werd deze whitepaper uiteindelijk een referentie voor Bitcoin gebruikers en is het door de jaren heen het onderwerp geweest van vele debatten in het Bitcoin ecosysteem.
 
@@ -835,7 +834,7 @@ Na deze overwinning activeerden de nodes een update genaamd SegWit, die de weg v
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
-**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via ASIC machines om de Bitcoin proof of work op te lossen.**
+**Miners beveiligen het netwerk en voegen transacties toe aan de blokken. Ze gebruiken elektriciteit via [ASIC](https://planb.academy/resources/glossary/asic) machines om de Bitcoin proof of work op te lossen.**
 
 ![image](assets/nl/054.webp)
 
@@ -1037,7 +1036,9 @@ De Bitcoin economie bestaat en ontwikkelt zich in bepaalde regio's van de wereld
 
 Toch zijn er in El Salvador en in andere delen van de wereld steeds meer individuen, bedrijven en organisaties die Bitcoin accepteren als betaalmiddel voor hun producten of diensten.
 
-![image](assets/nl/072.webp)
+![btc-map-video](https://youtu.be/2-fEEC9_YT8)
+
+*Bron : [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 Daarnaast is er een open-source en samenwerkingsproject gelanceerd, [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), om het gebruik van Bitcoin in alledaagse transacties te vergemakkelijken. Dit platform geeft een overzicht van alle bedrijven, winkeliers en handelaren die Bitcoin accepteren, evenals de verschillende Bitcoin gemeenschappen over de hele wereld, dus je kunt hun website bezoeken om het Bitcoin ecosysteem om je heen te ontdekken. Dus, ondanks de moeilijkheden en aarzelingen, zijn er initiatieven zoals BTCMap die bijdragen aan het toegankelijker en gemakkelijker maken van de Bitcoin economie voor iedereen.
 
@@ -1189,85 +1190,201 @@ Als je je kennis over Bitcoin wilt uitbreiden, dan is dit het juiste moment: een
 
 > "Ik denk dat het internet een van de belangrijkste krachten zal zijn om de rol van de overheid te verkleinen. Het enige dat nog ontbreekt, maar dat snel ontwikkeld zal worden, is een betrouwbare e-cash - een methode waarbij je op het internetgeld kunt overmaken van A naar B zonder dat A B kent of B A kent." - Voorspelling van Milton Friedman in 1999
 
-# De Toekomst van Bitcoin: Het Lightning Network
+
+# De toekomst van Bitcoin
 
 <partId>899fd35e-39e6-5a25-a73e-6fed6e725094</partId>
 
-## Een korte introductie van het Lightning Network
+## Het Lightning-netwerk: snel betalen met bitcoin, tegen lage kosten
 
 <chapterId>b403f1e4-f1ff-572b-a242-9b58cb3736d0</chapterId>
 
-Nu we de basis van het Bitcoin protocol kennen, zullen we een betalingsnetwerk introduceren dat het Bitcoin protocol gebruikt om bliksemsnelle transacties mogelijk te maken: het Lightning Network!
+Nu u de basis van het Bitcoin-protocol kent, introduceren we het belangrijkste betalingsnetwerk dat bovenop Bitcoin is gebouwd: het Lightning Network (vaak afgekort als "LN"). Het doel is eenvoudig: betalingen in BTC mogelijk maken met een quasi-onmiddellijke finaliteit, zonder de blockchain te verzadigen, en met doorgaans zeer lage kosten.
 
-Houd er rekening mee dat het volgende slechts een algemene beschrijving is, dus als je het in meer detail wilt begrijpen, nodigen we je uit om onze LNP201 cursus te volgen.
+### De blockchain kan niet alles doen
 
-### In een notendop
-
-Het Lightning Network is een revolutionaire technologie die onze perceptie van Bitcoin ingrijpend heeft veranderd, omdat het het schaalbaarheidsprobleem van Bitcoin aanpakt.
-
-Om het Lightning Network volledig te begrijpen, is het cruciaal om te begrijpen hoe Bitcoin evolueert en de infrastructuur zich ontwikkelt in lagen: de eerste laag is de blockchain, en de tweede is het Lightning Network.
-
-![image](assets/nl/080.webp)
-
-### Een blockchain kan niet onbeperkt groeien
-
-Het Lightning Network werd in 2017 gevalideerd en geïmplementeerd om het schaalbaarheidsprobleem van Bitcoin op te lossen, omdat het directe, goedkope Bitcoin-transacties mogelijk maakt.
-
-Het schaalbaarheidsprobleem verwijst naar de uitdaging om een monetair systeem te implementeren dat in staat is om een steeds groter aantal transacties per seconde te verrichten in reactie op een toenemende adoptie. Dit probleem houdt verband met het blockchain trilemma. Stel je een driehoek voor met decentralisatie, veiligheid en schaalbaarheid als hoekpunten.
+De Bitcoin-blockchain is ontworpen om door zo veel mogelijk mensen verifieerbaar te zijn, zonder toestemming en zonder vertrouwen. Deze vereiste brengt structurele beperkingen met zich mee: de blockchain kan geen onbeperkte hoeveelheid transacties verwerken, omdat blokken redelijk moeten blijven om te downloaden, op te slaan en te verifiëren door onafhankelijke nodes, zonder te moeten investeren in te dure hardware. Dit compromis wordt vaak samengevat in het trilemma: decentralisatie, veiligheid en schaalbaarheid. Een op blockchain gebaseerd systeem kan deze drie eigenschappen niet tegelijkertijd maximaliseren. Bitcoin geeft prioriteit aan decentralisatie en veiligheid, wat de mogelijke onchain-transactiecapaciteit vanzelf beperkt.
 
 ![image](assets/nl/081.webp)
 
-Volgens dit voorbeeld kan een protocol gebaseerd op een blockchain slechts aan twee van deze drie eigenschappen voldoen. Binnen het Bitcoin protocol hebben ontwikkelaars keuzes gemaakt ten gunste van decentralisatie en veiligheid. Aan de ene kant maken de blokgrootte van 1MB en de tijd tussen twee blokken (gemiddeld 10 minuten) het mogelijk om een Bitcoin node tegen lagere kosten te laten draaien, wat decentralisatie bevordert. Aan de andere kant maakt de productie van blokken via Proof-of-Work fraude binnen het protocol extreem duur, terwijl het verificatie door nodes in het netwerk vergemakkelijkt en veiligheid bevordert. Deze keuzes leggen echter een limiet op aan het gemiddelde aantal transacties in een blok, wat ruwweg overeenkomt met een paar transacties per seconde. Dit aantal is ontzettend laag als je het vergelijkt met de rekencapaciteit van betalingsverwerkers zoals VISA (1700/s), maar deze limiet is noodzakelijk om transacties met Bitcoin op een censuurbestendige manier en zonder noodzaak tot vertrouwen te kunnen doen. Desondanks hebben de ontwikkelaars van Bitcoin vanaf het begin over dit probleem nagedacht.
+Binnen Bitcoin hebben ontwikkelaars bewuste keuzes gemaakt om dit te waarborgen. Enerzijds maken een blokgrootte die beperkt is tot 1 MB en een gemiddelde tijd van 10 minuten tussen twee blokken het mogelijk om een Bitcoin-node tegen lage kosten te draaien, wat de decentralisatie van het netwerk bevordert. Anderzijds maakt blokproductie via proof-of-work elke poging tot fraude extreem kostbaar, terwijl dit tegelijk de verificatie door nodes vergemakkelijkt en de algehele veiligheid van het protocol versterkt.
 
-### Lightning als een laag erbovenop
+Deze keuzes brengen echter ook een belangrijke beperking met zich mee: het aantal transacties dat in elk blok kan worden opgenomen is beperkt. Dit komt neer op slechts enkele transacties per seconde. Dit cijfer is verwaarloosbaar in vergelijking met de capaciteit van gecentraliseerde betalingssystemen zoals VISA (dat een theoretische maximale capaciteit heeft van ongeveer 65.000 transacties per seconde), maar deze beperking is de prijs die wordt betaald om transacties zonder censuur en zonder vertrouwde derde partij mogelijk te maken.
 
-Na jaren van nadenken en meerdere pogingen is het Lightning-protocol ontstaan. Met behulp van een bepaald aantal specificaties bouwt dit protocol een peer-to-peer betalingsnetwerk door gebruik te maken van de veiligheid en programmeerbaarheid van het Bitcoin transactieprotocol. De Lightning Network fungeert als een netwerk van betaalkanalen, waardoor directe transacties met lage kosten voor de verzender mogelijk zijn, en het creëert zelfs routes voor transacties tussen individuen die geen directe kanaalverbinding hebben.
+Concreet betekent dit twee zeer belangrijke zaken voor het dagelijks gebruik van Bitcoin:
+* wanneer de vraag naar blokruimte toeneemt, kunnen de onchain-kosten zeer hoog oplopen;
+* onchain-betalingen vereisen bevestigingen, wat niet altijd geschikt is voor dagelijkse aankopen.
 
-![image](assets/nl/082.webp)
+Het Lightning Network is precies een antwoord op deze problemen. Het idee achter Lightning past binnen een gelaagde benadering: Bitcoin blijft de basislaag (de afwikkelingslaag, robuust en zeer veilig), terwijl Lightning fungeert als een snelle betalingslaag daarboven.
 
-Traditionele geldtransferdiensten zoals Western Union, centrale banken, Visa en Mastercard kunnen verdwijnen als ze de Lightning Network technologie niet overnemen, die efficiënter en kosteneffectiever is dan de huidige betalingssystemen. In feite maakt het Lightning Network bijna ongelimiteerde transacties mogelijk tussen twee peers die een kanaal delen, waarbij er alleen energiekosten verbonden zijn aan de transactie om de creatie van het kanaal aan te kondigen, in plaats van aan elke individuele transactie.
+![image](assets/nl/080.webp)
+
+### Betalingskanalen verankerd in Bitcoin
+
+Lightning is gebaseerd op bidirectionele betalingskanalen. Een kanaal is een technische relatie tussen twee deelnemers, die hen in staat stelt sats offchain uit te wisselen, dat wil zeggen zonder elke betaling op de blockchain vast te leggen.
+
+Vanuit het perspectief van Bitcoin (onchain) betekent het openen van een kanaal dat fondsen worden vergrendeld in een speciale transactie. Dit kan worden gezien als een vorm van escrow: de fondsen worden zo geblokkeerd dat alleen een geldige sluiting van het kanaal ze opnieuw kan verdelen.
+
+Vanuit het perspectief van Lightning wordt ditzelfde mechanisme een kanaal waarin beide partijen de verdelingstoestand van de sats zo vaak als ze willen kunnen bijwerken, vrijwel onmiddellijk en zonder elke betaling op de hoofdblockchain te hoeven registreren.
+
+Het mechanisme werkt dus als volgt:
+* het openen en sluiten van een Lightning-kanaal zijn Bitcoin-transacties (en worden dus onchain gepubliceerd);
+* de betalingen tussen opening en sluiting zijn offchain-updates, die niet zichtbaar zijn op de hoofdblockchain.
 
 ![image](assets/nl/083.webp)
 
-Transacties worden beveiligd door cryptografie en indirect door de energie die miners op Bitcoin verbruiken. Ze kunnen onmiddellijk worden uitgevoerd, zonder geografische beperkingen, met extreem lage kosten (vaak minder dan 0,5%).
+Zo kunnen twee personen die een Lightning-kanaal delen een zeer groot aantal betalingen uitvoeren zonder telkens een onchain-transactie te doen. Hier zien we opnieuw een schaalbaarheidslogica: de blockchain wordt gereserveerd voor zeldzame en belangrijke operaties (het openen en sluiten van kanalen, met andere woorden de definitieve afwikkeling), terwijl de overige kleine tussentijdse betalingen worden verplaatst naar een efficiëntere laag.
 
-Samengevat is het Lightning Network een veelbelovende poging om een efficiënt betalingssysteem te implementeren om te kopen en verkopen in Bitcoin. Er zijn al talloze Lightning wallets beschikbaar, die je kunt ontdekken in onze tutorialsectie of via onze Lightning Network cursussen.
+### Een netwerk van onderling verbonden kanalen
 
-Als je verder wilt gaan dan deze inleiding en alle werkingen van het Lightning Network wilt begrijpen, raden we je aan deze uitstekende cursus van Fanis Michalakis over dit onderwerp te volgen:
+Lightning is niet slechts een verzameling geïsoleerde kanalen. Het is een netwerk: duizenden nodes zijn via kanalen met elkaar verbonden en vormen zo een verbindingsgrafiek.
 
-https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+![image](assets/nl/082.webp)
 
-## Lightning Network Usecases
+Dankzij dit netwerk kunt u een ontvanger betalen, zelfs als u geen direct kanaal met hem hebt, zolang er een pad van kanalen bestaat dat de betaling kan routeren. De betaling gaat dan via meerdere tussenliggende nodes, sprong voor sprong.
 
-<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+Hier verschijnt een belangrijk Lightning-begrip: liquiditeit. De capaciteit van een kanaal komt overeen met het totale bedrag aan fondsen dat in dat kanaal is vergrendeld, en liquiditeit verwijst naar de verdeling van deze fondsen tussen de twee zijden van het kanaal, en dus naar de richting waarin sats kunnen stromen. Met andere woorden, een kanaal kan een grote capaciteit hebben, maar in een bepaalde richting onbruikbaar zijn als de liquiditeit zich aan de verkeerde kant bevindt. Het slagen van betalingen hangt dus niet alleen af van het bestaan van een pad, maar ook van de beschikbare liquiditeit langs het volledige pad.
 
-Zoals we zojuist hebben gezien, heeft het Bitcoin protocol, hoewel revolutionair, te kampen met aanzienlijke uitdagingen als het gaat om de schaalbaarheid die nodig is om al onze dagelijkse transacties te verwerken. Om deze problemen op te lossen, werd het Lightning Network voorgesteld en sindsdien heeft het zich ontwikkeld tot verschillende implementaties, die allemaal interoperabel zijn:
+### Een betaling routeren zonder tussenpersonen te vertrouwen
 
-- Core-lightning door Blockstream
-- Eclair door Acinq
-- LND door Lightning strike
+Lightning is ontworpen om betalingen via tussenpersonen mogelijk te maken zonder hen te hoeven vertrouwen. Hiervoor gebruikt het protocol slimme contracten die HTLC’s (*Hashed Time-Locked Contracts*) worden genoemd. Zonder in alle details te treden, is het algemene mechanisme als volgt:
+* de betaling is afhankelijk van de onthulling van een geheim (een preimage);
+* als de uiteindelijke ontvanger dit geheim onthult, ontvangt hij de fondsen, en kunnen de tussenpersonen op hun beurt ontvangen wat hun toekomt;
+* als de betaling mislukt, verlopen de tijdslimieten en krijgt iedereen zijn fondsen terug.
 
-Dit peer-to-peer netwerk is bedoeld om microtransacties (transacties met zeer lage waarde) mogelijk te maken die anders onpraktisch zouden zijn vanwege de hoge kosten en lange bevestigingstijden op de Bitcoin blockchain.
+Deze werking levert een essentiële eigenschap op: de betaling is atomair. Ofwel slaagt zij volledig, ofwel mislukt zij zonder tussentijds verlies.
 
-### Wat zijn de usecases van het netwerk?
+Tot slot bevat Lightning een strafmechanisme: als een van de deelnemers probeert te frauderen door een oude kanaalstatus te publiceren (die de werkelijkheid niet meer weerspiegelt), kan de ander hem straffen en alle fondsen terugvorderen. Deze regel moedigt sterk aan om eerlijk te blijven, zelfs in een vijandige omgeving.
 
-Deze technologie opent de deur naar een breed scala aan potentiële toepassingen voor Bitcoin die voorheen buiten bereik lagen vanwege de noodzakelijke beperkingen om de veiligheid en decentralisatie van Bitcoin te garanderen. Onder deze alledaagse toepassingen vallen bijvoorbeeld directe facturering in zowel fysieke als online handel, streaming van geld voor real-time betalingen en micro-donaties voor contentmakers. Door een netwerk van bijna directe, veilige en goedkope transacties (gemiddeld minder dan 0,5%) mogelijk te maken, kunnen veel voorheen ondenkbare bedrijfsmodellen worden gerealiseerd. Dit is mogelijk omdat het Lightning Network werkt met satoshis (sats), de kleinste eenheid van Bitcoin.
+### Lightning-node, Lightning-wallet: wat betekent dat?
 
-![image](assets/nl/084.webp)
+Bij Bitcoin onchain is een wallet een softwareprogramma dat sleutels beheert en transacties opstelt. Bij Lightning is de situatie ambiguër, omdat echt niet-custodiaal gebruik steunt op een Lightning-node (zelfs als die node verborgen is achter een eenvoudige interface).
 
-De videogame-industrie biedt een bijzonder interessant voorbeeld van hoe het Lightning Network kan worden gebruikt om bestaande bedrijfsmodellen te transformeren. Het concept van "skin in the game" is een idee dat recentelijk aan populariteit heeft gewonnen in deze context. In wezen betekent het dat je een financieel belang hebt bij de uitkomst van een spel. In feite stelt het Lightning Network spelers in staat om zeer kleine bedragen in te zetten bij het spelen van spellen, zoals een paar satoshis (ongeveer een fractie van een eurocent) om een inzet te creëren die de concurrentie stimuleert en tegelijkertijd de kosten voor het gebruik van bots aanzienlijk verhoogt.
+In de praktijk zijn er twee grote categorieën toepassingen om Lightning te gebruiken:
+* Custodiale diensten: de applicatie toont u een saldo, maar de fondsen worden beheerd door een dienstverlener. Uw saldo is een boekhoudkundige vermelding in hun systeem, vergelijkbaar met een handelsplatform;
+* Niet-custodiale oplossingen: u beheert daadwerkelijk de sleutels en de mogelijkheid om uw fondsen terug te krijgen. Dit kan een applicatie zijn die een node bevat met minimale beheerslast, wat de gebruikerservaring vereenvoudigt (bijvoorbeeld Phoenix, Zeus…), of een volwaardige Lightning-node die u volledig zelf beheert.
+
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+
+https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
+
+Tegenwoordig bestaan er ook self-custodial wallets die Lightning-betalingen indirect kunnen ondersteunen, door gebruik te maken van atomische swaps die op verzoek worden geactiveerd voor elke inkomende of uitgaande betaling (bijvoorbeeld Bull Bitcoin Wallet, Aqua…). Deze wallets gebruiken doorgaans de Liquid-sidechain als afwikkelingslaag (we zullen in het volgende hoofdstuk zien wat dit inhoudt).
+
+https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
+
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+
+### Concrete gebruiksscenario’s: wat Lightning eindelijk mogelijk maakt
+
+Lightning ontsluit een reeks gebruikstoepassingen die voorheen onpraktisch of zelfs onmogelijk waren met alleen Bitcoin onchain.
+
+- **Dagelijkse betalingen (online en fysiek)**
+
+Voor een betaling aan de kassa of een online aankoop biedt Lightning een quasi-onmiddellijke finaliteit, met doorgaans lage kosten. Dit maakt bitcoin bruikbaar voor kleine bedragen, zelfs wanneer de hoofdblockchain druk bezet is.
+
+- **Microbetalingen en streaming money**
+
+De mogelijkheid om zeer kleine bedragen te versturen opent nieuwe economische modellen: betalen per gebruik, betalen per minuut, terugkerende donaties, fooien… Dit is het idee van “streaming money”: betalen in verhouding tot het daadwerkelijke verbruik van een inhoud of dienst, in plaats van via een vast abonnement.
+
+- **Contentmakers, podcasts en donaties**
+
+Lightning wordt vaak gebruikt voor microdonaties of beloningsmechanismen. Applicaties zoals Fountain of Rumble illustreren deze logica goed: de betaling wordt fijnmazig en integraal onderdeel van de ervaring, in plaats van een zware en sporadische handeling. Deze logica hebben we ook geïntegreerd in Plan ₿ Academy, aangezien u eenvoudig kleine donaties kunt sturen naar uw favoriete docenten om hen te bedanken.
+
+- **Games en digitale economieën**
+
+Videogames en digitale omgevingen lenen zich van nature voor microtransacties: kleine inzetten, beloningen, virtuele objecten… Het introduceren van een minimale monetaire inzet kan ook de kosten van spam en bepaalde vormen van misbruik (bots) verhogen, terwijl het toegankelijk blijft.
 
 ![image](assets/nl/085.webp)
 
-Samengevat ziet de toekomst van microtransacties met Bitcoin er veelbelovend uit dankzij innovaties zoals het Lightning Network. Naarmate deze technologieën zich verder ontwikkelen en volwassen worden, kunnen we in de nabije toekomst nieuwe en spannende toepassingen verwachten.
+### De belangrijkste Lightning-implementaties
 
-![image](assets/nl/086.webp)
+Net als bij Bitcoin is Lightning een protocol, geen enkele software. Meerdere implementaties bestaan naast elkaar en blijven interoperabel dankzij gemeenschappelijke specificaties (de BOLT’s):
+* LND (Lightning Labs);
+* Core Lightning (Blockstream);
+* Éclair (ACINQ);
+* LDK (Spiral/Block);
+* enz.
 
-Een ander voorbeeld zou "money streaming (geld streaming)" kunnen zijn: via het Lightning Network kunnen we elke minuut microtransacties doen (mogelijk zonder vertrouwde derde partij), wat de deur opent om te experimenteren met economische modellen waarbij consumenten betalen voor content op basis van hun daadwerkelijke consumptie. Het is zelfs denkbaar om dit systeem te gebruiken voor het huren van goederen. In zo'n systeem wordt geld automatisch verdeeld, op basis van een vooraf bepaald percentage, onder de verschillende partijen die bijdragen aan een dienst of product. Dit zou een revolutie teweeg kunnen brengen in de manier waarop we denken over betalingsmodellen: in plaats van een maandelijks abonnement te betalen voor een dienst, zouden gebruikers per minuut of zelfs per seconde kunnen worden afgerekend voor de tijd die ze besteden aan het gebruik van de dienst. Zo'n economisch model zou ingrijpende gevolgen kunnen hebben voor makers van inhoud, die gestimuleerd zouden worden om kwalitatief goede inhoud te produceren om de aandacht van gebruikers vast te houden.
+### Lightning als onderdeel van de evolutie van Bitcoin
 
-![image](assets/nl/087.webp)
+Lightning vervangt de Bitcoin-blockchain niet: het vult haar aan. De blockchain blijft de uiteindelijke afwikkelingslaag, traag maar zeer robuust. Lightning is de snelle betalingslaag, ontworpen voor frequent gebruik en kleine bedragen.
 
-Concluderend, het Lightning Network opent een veelheid aan opwindende gebruikssituaties voor Bitcoin gebruikers. De resulterende economische modellen en zakelijke mogelijkheden zijn talrijk en gevarieerd, en we moedigen je aan om het zelf te controleren door de podcasttoepassing [Fountain](https://www.fountain.fm/) te proberen, waarmee je beloond kunt worden met een paar sats voor het luisteren naar je favoriete podcasts!
+In 2025 is Lightning toegankelijker dan in de beginfase, dankzij wallets en diensten die een deel van de complexiteit verbergen. Maar het blijft gepaard gaan met compromissen: liquiditeit, onchain-kosten voor kanalen en soms afwegingen tussen eenvoud, soevereiniteit en privacy.
+
+Als u Lightning diepgaand wilt begrijpen (kanalen, liquiditeit, routing, risicobeheer), raad ik de volledige theoretische cursus LNP 201 van Fanis Michalakis aan:
+
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+
+En als u zich wilt wagen aan het avontuur van het beheren van uw eigen Lightning-node, bieden wij ook de praktische cursus LNP 202 aan, die specifiek aan dit onderwerp is gewijd:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+
+## Verder dan Lightning: andere protocollen om Bitcoin te laten evolueren
+
+<chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
+
+Zoals we in de voorgaande hoofdstukken hebben gezien, is Bitcoin ontworpen als een uiterst robuuste basislaag: een openbaar register, eenvoudig en veilig, maar van nature beperkt in snelheid, programmeerbaarheid en betalingsdoorvoer. In plaats van deze laag te dwingen alles te doen (zoals bijvoorbeeld bij Ethereum), heeft het Bitcoin-ecosysteem geleidelijk een gelaagde benadering aangenomen: de blockchain fungeert als fundament (definitieve afwikkeling), terwijl hogere lagen nieuwe eigenschappen toevoegen, zoals snellere betalingen, meer privacy of de uitgifte van activa (stablecoins, getokeniseerde effecten…).
+
+Bitcoin evolueert niet alleen door zijn basisprotocol te wijzigen. Het evolueert ook door erop voort te bouwen, met oplossingen die verschillende compromissen sluiten afhankelijk van het nagestreefde doel. Sommige richten zich op de schaalbaarheid van betalingen, andere op programmeerbaarheid (in brede zin) en activauitgifte, en weer andere proberen beide te combineren.
+
+In dit hoofdstuk introduceren we vier belangrijke protocollen die elk nieuwe mogelijkheden op Bitcoin bieden: sidechains (waaronder Liquid), Ark, RGB en Taproot Assets.
+
+### Sidechains: parallelle blockchains verbonden met Bitcoin
+
+Een sidechain is een blockchain die gescheiden is van die van Bitcoin, ontworpen om parallel te functioneren, met eigen regels en een eigen consensusmechanisme. Ze is verbonden met Bitcoin via een tweezijdig verankeringsmechanisme (*2WP*), dat het in de praktijk mogelijk maakt om bitcoins op de sidechain te gebruiken in een representatieve vorm (vaak een bitcoin die op Bitcoin is vergrendeld en op de sidechain opnieuw wordt gecreëerd), en deze later weer naar de hoofdketen terug te brengen.
+
+Het voordeel van een sidechain is dat ze functionaliteiten kan bieden die moeilijk rechtstreeks op Bitcoin te realiseren zijn: snellere transacties, activafunctionaliteiten, verbeterde privacy of grotere ontwikkelingsflexibiliteit. Daartegenover staat dat een sidechain altijd compromissen sluit ten opzichte van Bitcoin, met name op het gebied van het vertrouwensmodel of decentralisatie.
+
+De bekendste sidechain op Bitcoin is waarschijnlijk **Liquid**, ontwikkeld door Blockstream. Deze is met name ontworpen om bepaalde gebruiksscenario’s te versnellen: snelle overdrachten tussen platforms, frequentere afwikkelingen en de uitgifte van activa (stablecoins, effecten…), met verbeterde privacy. Op Liquid heten de gebruikte bitcoins L-BTC: ze zijn ontworpen om 1-op-1 aan BTC gekoppeld te zijn via een tweezijdig verankeringsmechanisme.
+
+![image](assets/nl/088.webp)
+
+Het belangrijkste verschil met Bitcoin ligt in het veiligheids- en decentralisatiemodel: Liquid is niet gebaseerd op Bitcoins proof-of-work, maar op een federatie van operatoren (een geïdentificeerde groep) die instaat voor de blokproductie en de werking van bruggen tussen BTC en L-BTC.
+
+https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
+
+### Ark: UTXO’s delen om kosten te verlagen en de ervaring te verbeteren
+
+Ark verwijst naar een familie van voorstellen en implementaties die erop gericht zijn de schaalbaarheid van Bitcoin te verbeteren door veel gebruikersoperaties te bundelen in een beperkt aantal Bitcoin-transacties. Het idee is vrij eenvoudig: in plaats van per gebruiker één onchain-transactie te creëren, wordt één onchain-transactie gecreëerd die een batch vertegenwoordigt, waarna de rechten van elke deelnemer voornamelijk offchain evolueren, tot het moment waarop men definitief op Bitcoin wil afrekenen.
+
+Dit idee van een tweede-laagsprotocol werd in mei 2023 onthuld door Burak. Net als het Lightning Network is Ark een systeem dat bovenop de hoofdketen van Bitcoin wordt uitgerold. Het zou snelle, anonieme en goedkope bitcoinbetalingen buiten de keten mogelijk maken. In vergelijking met Lightning vereist Ark geen inkomende liquiditeit om betalingen te ontvangen, wat de gebruikerservaring aanzienlijk verbetert. Bovendien biedt het een privacy-niveau dat dicht in de buurt komt van coinjoin-transacties. Ark zou ook niet-interactief kunnen zijn als covenants aan Bitcoin worden toegevoegd.
+
+Burak bekritiseert vaak het schaalvermogen van Lightning vanwege de afhankelijkheid van de hoofdketen en suggereert dat Ark theoretisch de volledige wereldbevolking in self-custody zou kunnen integreren. Hoewel Ark kan worden gezien als een concurrerend protocol voor het Lightning Network, kunnen de twee in werkelijkheid naast elkaar bestaan. Ze zouden zelfs complementair kunnen zijn.
+
+Ark blijft een zeer actief maar nog jong domein: het doel is veelbelovend (het drastisch verminderen van de onchain-voetafdruk per gebruiker), maar men moet in gedachten houden dat het een complexere architectuur betreft, met aannames en risico’s die verschillen van die van Bitcoin en Lightning.
+
+### RGB: contracten en activa met validatie aan de clientzijde
+
+RGB is een systeem van slimme contracten en activa op Bitcoin dat een radicaal andere benadering hanteert dan algemene blockchains. Het centrale idee is validatie aan de clientzijde: in plaats van de volledige toestand van een contract op een globale blockchain te publiceren, bewaren en valideren deelnemers lokaal de geschiedenissen die voor hen relevant zijn, terwijl de Bitcoin-blockchain alleen dient om cryptografische verbintenissen te verankeren en dubbel uitgeven te voorkomen.
+
+Met andere woorden:
+* de Bitcoin-blockchain fungeert als tijdstempelbasis en minimale arbiter;
+* gedetailleerde gegevens (contractregels, toestanden, overgangen) circuleren offchain tussen de betrokken partijen;
+* verificatie gebeurt lokaal, wat de schaalbaarheid verbetert en ook de privacy kan verbeteren, aangezien er geen wereldwijd register bestaat van alle RGB-activiteiten dat voor iedereen zichtbaar is.
+
+![image](assets/nl/089.webp)
+
+RGB kan dienen als basis voor het uitgeven en beheren van een grote verscheidenheid aan activa: tokens (inclusief stablecoins), NFT’s of digitale effecten, of zelfs voor het bouwen van complexere contractlogica, allemaal zonder de basislaag te verzwaren.
+
+De keerzijde is gegevensbeheer: als u aan de clientzijde moet valideren, moet u ook correct opslaan en back-ups maken van het bewijs van uw rechten.
+
+RGB is een protocol dat al vele jaren in ontwikkeling is. De vooruitgang is geleidelijk, maar vandaag bestaan er al concrete toepassingen die gebruikmaken van RGB. Om verder te gaan, bieden wij op Plan ₿ Academy een cursus op expertniveau aan die de werking van dit protocol diepgaand behandelt:
+
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+### Taproot Assets: activa uitgeven op Bitcoin en ze verplaatsen via Lightning
+
+Taproot Assets (voorheen "Taro") is een protocol ontwikkeld door Lightning Labs, dat tot doel heeft de uitgifte van activa op Bitcoin mogelijk te maken, met de mogelijkheid om deze vervolgens via het Lightning-netwerk te verplaatsen voor snelle en goedkope transacties.
+
+Het wordt vaak genoemd als bouwsteen in het verhaal van “programmable money” op Bitcoin: niet omdat Bitcoin een wereldwijde computer wordt, maar omdat financiële instrumenten (activa) bovenop het Bitcoin-fundament kunnen worden gelegd en vervolgens efficiënt via Lightning kunnen circuleren.
+
+### Bitcoin wordt sterker door hogere lagen te laten innoveren
+
+Tegenwoordig is het meest treffende beeld van het Bitcoin-ecosysteem niet dat van een vaststaand protocol, noch dat van een superblockchain die alles doet, zoals Ethereum. Het is eerder een bewust conservatief fundament, omringd door lagen en protocollen die experimenteren en innovatie mogelijk maken met een minimaal risico.
+
+
+
 
 ## Rode Pil Of Blauwe Pil?
 

@@ -1,0 +1,16 @@
+id: 1bc2c27b-3332-40f1-9c4a-47a75cca45fe
+chapterId: 5545c513-74de-57e8-929e-a75406ed5829
+difficulty: easy
+duration: 15
+author: 81e18c30-579e-46c1-a197-98cd32cb37ae
+original_language: fr
+
+# Proofreading metadata
+
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-12-17
+    urgency: 1
+    contributor_names:
+      - lugaxker
+    reward: 0

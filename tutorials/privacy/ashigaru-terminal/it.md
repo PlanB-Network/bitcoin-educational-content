@@ -1,5 +1,5 @@
 ---
-name: Terminale Ashigaru
+name: Ashigaru Terminal
 description: Usa Ashigaru sul desktop per creare coinjoin
 ---
 
@@ -73,7 +73,7 @@ Prima di eseguire il software sul proprio dispositivo, è necessario verificarne
 
 
 
-Aprite una nuova scheda del browser e andate su [Keybase verification tool] (https://keybase.io/verify). Incollate il contenuto del file `.txt` appena scaricato nell'apposito campo, quindi fate clic sul pulsante `Verifica`.
+Aprite una nuova scheda del browser e andate su [Keybase verification tool](https://keybase.io/verify). Incollate il contenuto del file `.txt` appena scaricato nell'apposito campo, quindi fate clic sul pulsante `Verifica`.
 
 
 

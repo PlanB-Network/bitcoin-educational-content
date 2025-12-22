@@ -1,0 +1,18 @@
+title: "Brick: Asynchronous State Channels"
+original_language: en
+authors:
+  - Georgia Avarikioti
+  - Eleftherios Kokoris Kogias
+  - Roger Wattenhofer
+  - Dionysis Zindros
+abstract: |
+  Off-chain (Layer 2) protocols are a promising solution to the scalability and privacy challenges of blockchain systems. In off-chain protocols, or so-called channels, the core idea is that state changes between two parties in consensus need not be transparently published. Instead, on-chain computation (acting as a trusted third party) is only required when the parties are in dispute. Current proposals, however, require a synchronous network to preserve the safety of the channel, leaking to the adversary the exact amount of time he needs to control the network in order to attack clients. This problem is exacerbated when lifting the assumption of a perfect blockchain substrate, as low chain-quality (i.e. censorship probability) or congestion can break the assumption that dispute resolution transactions will appear on-chain on-time even if the network is perfect. In this paper, we introduce Brick, the first off-chain construction that remains secure under full asynchrony. The core idea is to incorporate the conflict resolution process within the off-chain channel by introducing a watchtower committee. Every state update is consistently broadcasted to the committee after approval. Hence, if a party wants to unilaterally close a channel, it can only get the committee's approval for the valid state. Furthermore, we consider the permissioned model of blockchains where the additional property of audibility might be desired for regulatory purposes and introduce Brick+ an off-chain construction that can provide auditability on top of Brick without conflicting with its privacy guarantees. We formally define the properties our state-channel construction should fulfill, prove them for Brick and Brick+, and design incentives for the committee such that honest and rational behavior align.
+publication_date: 2019-05-27
+paper_type: pre-print
+source: arXiv
+topics:
+  - Payment Channel Networks
+  - Smart Contract Security
+  - Off-Chain Scalability
+pdf_url: https://arxiv.org/pdf/1905.11360v1
+id: 9c5c75f6-cfc5-48d6-93a2-f590620f4a53

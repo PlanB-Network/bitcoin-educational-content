@@ -162,7 +162,7 @@ Najčešće skripta zahteva potpis sa privatnim ključem povezanim sa adresom. K
 
 ### UTXOs: Neutrošeni Izlazi Transakcija
 
-Na Bitkojnu, ono što mi zapravo razmenjujemo nisu direktno bitkojni, već **UTXO** (_Unspent Transaction Outputs_), što znači "nepotrošeni izlazi transakcije".
+Na Bitkojnu, ono što mi zapravo razmenjujemo nisu direktno bitkojni, već **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), što znači "nepotrošeni izlazi transakcije".
 
 UTXO je deo bitkojna koji može imati bilo koju vrednost, na primer, **2,000 bitkojna**, **8 bitkojna**, ili čak **8,000 satsa**. Svaki UTXO je zaključan skriptom, i da bi se potrošio, mora se ispuniti uslov skripte, što je često potpis sa privatnim ključem koji je povezan sa primajućom adresom.
 
@@ -660,7 +660,7 @@ U ovom poglavlju smo istražili usmeravanje plaćanja na Lajtning mreži. Ali po
 
 ![video en](https://youtu.be/jI4nM297aHA)
 
-U ovom poglavlju ćemo otkriti kako Lajtning omogućava plaćanja da prolaze kroz posredničke čvorove bez potrebe za poverenjem u njih, zahvaljujući **HTLC** (_Hashed Time-Locked Contracts_). Ovi pametni ugovori osiguravaju da će svaki posrednički čvor primiti sredstva iz svog kanala samo ako prosledi uplatu krajnjem primaocu, u suprotnom, uplata neće biti validirana.
+U ovom poglavlju ćemo otkriti kako Lajtning omogućava plaćanja da prolaze kroz posredničke čvorove bez potrebe za poverenjem u njih, zahvaljujući **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Ovi pametni ugovori osiguravaju da će svaki posrednički čvor primiti sredstva iz svog kanala samo ako prosledi uplatu krajnjem primaocu, u suprotnom, uplata neće biti validirana.
 
 Problem koji se javlja kod usmeravanja plaćanja je neophodno poverenje u posredničke čvorove, kao i među samim posredničkim čvorovima. Da bismo to ilustrovali, hajde da ponovo razmotrimo naš pojednostavljeni primer Lajtning mreže sa 3 čvora i 2 kanala:
 

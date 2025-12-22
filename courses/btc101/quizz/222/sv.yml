@@ -1,8 +1,9 @@
-question: Hur säkras transaktioner på Lightning Network?
-answer: Genom kryptografi och indirekt genom den energi som förbrukas av gruvarbetare på Bitcoin.
+question: Vad är den centrala principen bakom RGB?
+answer: Validering på klientsidan
 wrong_answers:
-  - Endast genom användning av privata nycklar.
-  - Endast genom användning av publika nycklar.
-  - Endast genom användning av både privata och offentliga nycklar.
-explanation: >-
-reviewed: true
+  - Global exekvering på blockkedjan
+  - Federerad konsensus
+  - Proof-of-Work
+explanation: |
+  RGB bygger på lokal validering av tillstånd, där blockkedjan endast fungerar som ett kryptografiskt ankare och skydd mot dubbelspendering.
+reviewed: false

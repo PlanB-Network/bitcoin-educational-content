@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Verstekeling
+name: Ashigaru - Stowaway
 description: Hoe maak ik een Payjoin transactie op Ashigaru?
 ---
 ![cover](assets/cover.webp)

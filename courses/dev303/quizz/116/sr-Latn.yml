@@ -1,0 +1,8 @@
+question: Koja je primarna prednost interoperabilne funkcije Breez SDK-a koja omogućava više aplikacija da se povežu na isti Lightning čvor koristeći istu seed frazu?
+answer: Korisnici mogu održavati jedinstveni Lightning saldo kroz različite specijalizovane aplikacije, dok izbegavaju složenost upravljanja višestrukim Lightning čvorovima.
+wrong_answers:
+  - Aplikacije mogu međusobno direktno deliti privatne ključeve, omogućavajući neprimetno potpisivanje transakcija između aplikacija bez intervencije korisnika.
+  - Više aplikacija može objediniti svoju likvidnost kako bi kreirale veće Lightning kanale sa povećanim kapacitetom rutiranja za mrežu.
+  - Programeri mogu pristupiti deljenoj Lightning infrastrukturi bez implementacije sopstvenog upravljanja čvorovima, smanjujući troškove razvoja i složenost.
+explanation: |
+  Interoperabilnost SDK-a omogućava korisnicima pristup istom Lightning čvoru i sredstvima iz više specijalizovanih aplikacija (kao što su opšti wallet i aplikacija za podkasting) bez upravljanja posebnim saldima ili čvorovima. Pogrešni odgovori pogrešno predstavljaju arhitekturu: privatni ključevi nikada ne napuštaju korisnikov uređaj i ne dele se između aplikacija, objedinjavanje likvidnosti nije način na koji sistem funkcioniše, i iako programeri imaju koristi od pojednostavljene infrastrukture, primarna prednost koja je opisana je objedinjeno korisničko iskustvo kroz aplikacije.

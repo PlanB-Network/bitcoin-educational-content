@@ -1,0 +1,8 @@
+question: Welchen Mechanismus verwendet Rust, um Variablen und ihre Ressourcen automatisch zu bereinigen, wenn sie den Anwendungsbereich verlassen?
+answer: Der Drop-Mechanismus, der Drop-Funktionen für Variablen aufruft
+wrong_answers:
+  - Ein Garbage Collector, der in regelmäßigen Abständen nach ungenutztem Speicher sucht
+  - Manuelle Speicherfreigabe durch explizite free()-Funktionsaufrufe
+  - Referenzzählung, die verfolgt, wie viele Zeiger auf jeden Wert verweisen
+explanation: |
+  Rust verwendet den Drop-Mechanismus, um Ressourcen automatisch zu bereinigen, wenn Variablen aus dem Geltungsbereich herausgehen. Dieses System ruft implizit eine Drop-Funktion für jede Variable auf, wenn sie den Gültigkeitsbereich verlässt, und markiert den Speicher als für die Wiederverwendung verfügbar und führt alle notwendigen Bereinigungsoperationen wie das Schließen von Datei-Handles durch. Dieser Ansatz, der dem RAII-Muster von C++ entlehnt ist, gewährleistet eine automatische Ressourcenverwaltung, ohne dass eine Garbage Collection, eine manuelle Speicherverwaltung oder die von anderen Sprachen verwendeten Referenzzählsysteme erforderlich sind.

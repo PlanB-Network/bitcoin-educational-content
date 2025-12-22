@@ -90,13 +90,13 @@ Plan ₿ Academy'ye yeni bir öğretici eklemek için, bunu doğrudan GitHub'da 
 Sıfırdan bir eğitim tasarlayabilir veya daha önce web sitenizde yayınlanmış bir eğitimi alıp (telif hakkına sahip olmanız koşuluyla) orijinal makaleye bir bağlantı ekleyerek Plan ₿ Academy'da da paylaşabilirsiniz.
 
 
-Hangisini seçerseniz seçin, lütfen Plan ₿ Academy'de yayınlanan tüm içeriğin ücretsiz [CC-BY-SA] (https://creativecommons.org/licenses/by-sa/4.0/) lisansı altında lisanslandığını unutmayın. Bu lisans, orijinal kaynağa usulüne uygun şekilde atıfta bulunulması koşuluyla, herkese içeriğinizi kopyalama ve potansiyel olarak değiştirme yetkisi verir.
+Hangisini seçerseniz seçin, lütfen Plan ₿ Academy'de yayınlanan tüm içeriğin ücretsiz [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) lisansı altında lisanslandığını unutmayın. Bu lisans, orijinal kaynağa usulüne uygun şekilde atıfta bulunulması koşuluyla, herkese içeriğinizi kopyalama ve potansiyel olarak değiştirme yetkisi verir.
 
 
 ## 2 - Plan ₿ Academy ekibiyle iletişime geçin
 
 
-Eğitiminiz için temayı seçtikten sonra, bir sonraki adım bu içeriği platforma ekleme niyetinizi bize bildirmektir. En kolay yol, eğer bir Telegram hesabınız varsa, [grubumuza katılın] (https://t.me/PlanBNetwork_ContentBuilder).
+Eğitiminiz için temayı seçtikten sonra, bir sonraki adım bu içeriği platforma ekleme niyetinizi bize bildirmektir. En kolay yol, eğer bir Telegram hesabınız varsa, [grubumuza katılın](https://t.me/PlanBNetwork_ContentBuilder).
 
 
 ![TUTO](assets/fr/39.webp)

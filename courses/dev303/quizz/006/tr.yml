@@ -1,0 +1,8 @@
+question: Rust yayın takvimine göre ne sıklıkla yeni bir kararlı sürüm yayınlıyor?
+answer: Yaklaşık altı haftada bir
+wrong_answers:
+  - Yaklaşık her üç ayda bir
+  - Yaklaşık iki haftada bir
+  - Yaklaşık dört ayda bir
+explanation: |
+  Rust, yaklaşık her altı haftada bir çıkan yeni kararlı sürümlerle öngörülebilir bir yayın programını takip eder. Bu sık sürüm döngüsü, kararlılığı korurken yeni özelliklerin ve iyileştirmelerin kullanıcılara düzenli olarak ulaşmasını sağlar. Diğer zaman dilimleri yanlıştır - üç ay ve dört ay Rust'in gerçek hızından çok daha yavaş olacaktır, iki hafta ise kapsamlı testler gerektiren kararlı sürümler için gerçekçi olmayacak kadar hızlı olacaktır.

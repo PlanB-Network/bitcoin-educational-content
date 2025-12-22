@@ -226,4 +226,4 @@ PR'niz daha sonra ana Plan ₿ Academy deposunun "*Pull Request*" sekmesinde gö
 ![Image](assets/fr/12.webp)
 
 
-Değişikliğinizi gönderirken herhangi bir teknik zorlukla karşılaşırsanız, lütfen [katkılara adanmış Telegram grubumuz] (https://t.me/PlanBNetwork_ContentBuilder) üzerinden yardım istemekten çekinmeyin. Çok teşekkür ederiz!
+Değişikliğinizi gönderirken herhangi bir teknik zorlukla karşılaşırsanız, lütfen [katkılara adanmış Telegram grubumuz](https://t.me/PlanBNetwork_ContentBuilder) üzerinden yardım istemekten çekinmeyin. Çok teşekkür ederiz!

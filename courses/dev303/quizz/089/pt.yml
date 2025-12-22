@@ -1,0 +1,8 @@
+question: Qual é a principal razão pela qual o UniFFI exige que os programadores criem um ficheiro UDL separado em vez de gerar automaticamente ligações diretamente a partir do código Rust?
+answer: A UDL serve como um contrato de interface explícito que especifica quais as partes da biblioteca Rust que devem ser expostas a outras linguagens
+wrong_answers:
+  - "A UDL é necessária porque o sistema de tipos do Rust é incompatível com outras linguagens de programação sem tradução"
+  - Os ficheiros UDL são necessários para otimizar o desempenho das chamadas de função entre linguagens durante a execução em tempo de execução
+  - "A UDL fornece uma forma de converter automaticamente o modelo de propriedade do Rust em recolha de lixo para linguagens de destino"
+explanation: |
+  UniFFI usa UDL como uma escolha deliberada de design para manter a separação de preocupações entre implementação e interface. O ficheiro UDL funciona como um contrato explícito que permite aos programadores expor seletivamente partes da sua biblioteca Rust, mantendo privados os detalhes da implementação interna. Esta abordagem evita a exposição automática de todos os itens públicos do Rust, dando aos programadores um controlo fino sobre a sua superfície API. As outras opções estão incorrectas porque os tipos Rust podem ser mapeados sem UDL (embora de forma menos elegante), a otimização do desempenho não é o objetivo principal da UDL e a UDL não converte modelos de propriedade.

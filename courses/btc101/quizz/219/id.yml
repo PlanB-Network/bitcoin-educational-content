@@ -1,9 +1,9 @@
-question: Apa fungsi dari Lightning Network?
-answer: Sebuah jaringan dari saluran pembayaran.
+question: Pendekatan apa yang menyusun evolusi Bitcoin yang dijelaskan dalam bab ini?
+answer: Evolusi berlapis
 wrong_answers:
-  - Sebuah jaringan dari node penambangan.
-  - Sebuah jaringan dari node blockchain.
-  - Sebuah jaringan dari bursa kripto.
-explanation: >-
-  Lightning Network berfungsi sebagai jaringan dari saluran pembayaran, memungkinkan transaksi instan dengan biaya rendah untuk pengirim.
+  - Blockchain monolitik
+  - Sharding native
+  - Eksekusi onchain yang digeneralisasi
+explanation: |
+  Bitcoin mempertahankan lapisan dasar yang sederhana dan tangguh, sementara protokol tingkat atas menambahkan fungsionalitas tertentu.
 reviewed: false

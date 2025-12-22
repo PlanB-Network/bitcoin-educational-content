@@ -1470,7 +1470,7 @@ Mining kompleksitet i forbindelse med Bitcoin innebærer først og fremst de tek
 
 5. **Nettverksvansker**: Nettverksvanskelighetsgraden representerer hvor mye Hashrate som i gjennomsnitt trengs for å utvinne en blokk på 10 minutter.
 
-6. **Strategiske verktøy**: Verktøy som [braiins.com] (https://insights.braiins.com) er uvurderlige for å beregne lønnsomhet og hjelpe gruvearbeidere med å ta datadrevne beslutninger.
+6. **Strategiske verktøy**: Verktøy som [braiins.com](https://insights.braiins.com) er uvurderlige for å beregne lønnsomhet og hjelpe gruvearbeidere med å ta datadrevne beslutninger.
 
 
 #### Praktisk anvendelse
@@ -2084,7 +2084,7 @@ Bruk av kompakte blokker brukes i dag for å effektivisere dataoverføringen mel
 #### Bruk av eksisterende biblioteker
 
 
-For konsensuskritiske applikasjoner anbefales det å bruke eksisterende biblioteker for å unngå feil og ivareta sikkerheten, for eksempel [Rust-Bitcoin] (https://docs.rs/Bitcoin/latest/Bitcoin/) eller [Bitcoin-dev-kit] (https://docs.rs/BDK/latest/BDK/). Det kan være lærerikt å implementere din egen parser, men det kan også være risikabelt i produksjonsmiljøer.
+For konsensuskritiske applikasjoner anbefales det å bruke eksisterende biblioteker for å unngå feil og ivareta sikkerheten, for eksempel [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) eller [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/). Det kan være lærerikt å implementere din egen parser, men det kan også være risikabelt i produksjonsmiljøer.
 
 
 ![libraries](assets/en/035.webp)
@@ -2211,7 +2211,7 @@ make install # optional
 
 
 
-- Kjører tester for å sikre at alt fungerer som det skal. Instruksjoner finner du [her] (https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
+- Kjører tester for å sikre at alt fungerer som det skal. Instruksjoner finner du [her](https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
 
 
 ```Bash

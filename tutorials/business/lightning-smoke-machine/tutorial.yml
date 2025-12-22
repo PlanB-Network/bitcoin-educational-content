@@ -1,0 +1,27 @@
+id: 1a14c9e2-764f-4cbc-ab57-cf6c217a317d
+
+project_id: cd62a137-baad-4133-b90d-711963e510c7
+
+tags:
+  - hardware
+  - DIY
+  - lightning
+
+category: others
+
+level: intermediate
+
+professor_id: c7824bbd-8725-4b7e-9ab2-d1c127cde0b0
+
+licence: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-12-08
+    urgency: 1
+    contributor_names:
+      - Rezmo1
+    reward: 1.92

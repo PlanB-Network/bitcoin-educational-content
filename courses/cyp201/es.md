@@ -35,7 +35,7 @@ Bienvenido al curso CYP201, donde exploraremos en profundidad el funcionamiento 
 El objetivo de esta formación es darte las claves para dominar las herramientas que usas a diario. Las carteras de Bitcoin HD, que están en el corazón de tu experiencia de usuario, se basan en conceptos a veces complejos, los cuales intentaremos hacer accesibles. ¡Eliminemos esos mitos!
 
 Antes de sumergirnos en los detalles de la construcción y operación de las carteras de Bitcoin, comenzaremos con algunos capítulos sobre los fundamentos de la criptografía que hay que conocer para lo que sigue.
-Comenzaremos con las funciones hash criptográficas, fundamentales tanto para las carteras como para el propio protocolo de Bitcoin. Descubrirás sus principales características, las funciones específicas usadas en Bitcoin y, en un capítulo más técnico, aprenderás en detalle sobre el funcionamiento de la reina de las funciones hash: SHA256.
+Comenzaremos con las funciones hash criptográficas, fundamentales tanto para las carteras como para el propio protocolo de Bitcoin. Descubrirás sus principales características, las funciones específicas usadas en Bitcoin y, en un capítulo más técnico, aprenderás en detalle sobre el funcionamiento de la reina de las funciones hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 A continuación, discutiremos el funcionamiento de los algoritmos de firma digital que usas todos los días para asegurar tus UTXOs. Bitcoin utiliza dos: ECDSA y el protocolo Schnorr. Aprenderás qué fundamentos matemátioas subyacen a estos algoritmos y cómo aseguran las transacciones.
@@ -45,7 +45,7 @@ A continuación, discutiremos el funcionamiento de los algoritmos de firma digit
 Una vez que tengamos una buena comprensión de estos elementos de criptografía, finalmente pasaremos al corazón de la formación: ¡las carteras deterministas y jerárquicas! Primero, hay una sección dedicada a las frases mnemotécnicas, estas secuencias de 12 o 24 palabras que te permiten crear y restaurar tus carteras. Descubrirás cómo se generan estas palabras a partir de una fuente de entropía y cómo facilitan el uso de Bitcoin.
 
 ![CYP201](assets/en/003.webp)
-La formación continuará con el estudio de la passphrase BIP39, la semilla (no confundir con la frase mnemotécnica), el código de cadena maestro y la llave maestra. Veremos en detalle qué son estos elementos, sus respectivos roles y cómo se calculan.
+La formación continuará con el estudio de la passphrase [BIP39](https://planb.academy/resources/glossary/bip0039), la semilla (no confundir con la frase mnemotécnica), el código de cadena maestro y la llave maestra. Veremos en detalle qué son estos elementos, sus respectivos roles y cómo se calculan.
 ![CYP201](assets/en/004.webp)
 
 Finalmente, a partir de la llave maestra, descubriremos cómo se derivan los pares de claves criptográficas de manera determinista y jerárquica hasta las direcciones de recepción.
@@ -686,7 +686,7 @@ Un usuario que desee realizar una transacción de Bitcoin debe, por lo tanto, cr
 
 Como resultado, un usuario que posee bitcoins asegurados con una clave pública debe encontrar una manera de almacenar de forma segura lo que permite desbloquear sus fondos: la clave privada. Una cartera de Bitcoin es precisamente un dispositivo que te permitirá mantener todas tus claves sin que otras personas tengan acceso a ellas. Por lo tanto, es más como un llavero que como una cartera.
 
-El vínculo matemático entre una clave pública y una clave privada, así como la capacidad de realizar una firma para probar la posesión de una clave privada sin revelarla, son posibles gracias a un algoritmo de firma digital. En el protocolo de Bitcoin, se utilizan 2 algoritmos de firma: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) y el **esquema de firma Schnorr**. ECDSA es el protocolo de firma digital utilizado en Bitcoin desde sus inicios. Schnorr es más reciente en Bitcoin, ya que fue introducido en noviembre de 2021 con la actualización de Taproot.
+El vínculo matemático entre una clave pública y una clave privada, así como la capacidad de realizar una firma para probar la posesión de una clave privada sin revelarla, son posibles gracias a un algoritmo de firma digital. En el protocolo de Bitcoin, se utilizan 2 algoritmos de firma: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm*) y el **esquema de firma Schnorr**. ECDSA es el protocolo de firma digital utilizado en Bitcoin desde sus inicios. Schnorr es más reciente en Bitcoin, ya que fue introducido en noviembre de 2021 con la actualización de Taproot.
 
 Estos dos algoritmos son bastante similares en sus mecanismos. Ambos se basan en la criptografía de curva elíptica. La principal diferencia entre estos dos protocolos radica en la estructura de la firma y algunas propiedades matemáticas específicas. Por lo tanto, estudiaremos el funcionamiento de estos algoritmos, comenzando con el más antiguo: ECDSA.
 ### Criptografía de Curva Elíptica

@@ -1,0 +1,9 @@
+question: Secondo la critica fondamentale di Satoshi Nakamoto, qual è il problema principale delle valute fiat convenzionali che Bitcoin è stato progettato per risolvere?
+answer: L'eccessiva fiducia richiesta alle istituzioni centralizzate che storicamente hanno ripetutamente violato tale fiducia svilendo le valute
+wrong_answers:
+  - La mancanza di infrastrutture digitali e la lentezza nell'elaborazione delle transazioni rispetto ai moderni sistemi di pagamento
+  - L'impossibilità di effettuare transazioni internazionali senza costosi intermediari e commissioni di conversione della valuta
+  - La vulnerabilità alla contraffazione e ai furti fisici dovuta alla dipendenza dalla cartamoneta e dall'archiviazione fisica
+explanation: |
+  Satoshi Nakamoto ha dichiarato esplicitamente che "il problema principale della moneta convenzionale è la fiducia necessaria per farla funzionare" e che "la storia delle valute fiat è piena di violazioni di tale fiducia"
+  Questo fondamento filosofico ha guidato il progetto del Bitcoin come sistema privo di fiducia che non richiede la fiducia nelle banche centrali o nei governi per mantenere la stabilità monetaria, affrontando direttamente il modello storico di svilimento della valuta attraverso l'eccessiva stampa di denaro.

@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Kaçak Yolcu
+name: Ashigaru - Stowaway
 description: Ashigaru'da nasıl Payjoin işlemi yapabilirim?
 ---
 ![cover](assets/cover.webp)

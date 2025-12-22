@@ -2,149 +2,26 @@ id: c656a201-9587-4bf2-8cdb-acbd3c3631b4
 
 project_id: cb3e67d7-62bd-43ae-a81c-8e0533390d2c
 
+tags:
+  - wallets
+  - onchain
+  - guides
+
 category: backup
 
-level: advanced
+level: intermediate
 
-professor_id: d940a2d2-4dbf-4ba1-bdaf-a1f2f1a57f5f
+professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+licence: CC-BY-SA-V4
 
 # Proofreading metadata
 
-original_language: en
+original_language: fr
 proofreading:
-  - language: en
-    last_contribution_date: 2025-08-20
-    urgency: 1
-    contributor_names:
-      - PaoloFoti
-    reward: 0.21
-  - language: cs
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.54
-  - language: de
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: es
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: et
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.54
-  - language: fa
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.54
-  - language: fi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.54
   - language: fr
-    last_contribution_date:
+    last_contribution_date: 2025-12-11
     urgency: 1
     contributor_names:
-    reward: 0.43
-  - language: hi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.87
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: it
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: ja
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.76
-  - language: nb-NO
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.54
-  - language: nl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.54
-  - language: pl
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.54
-  - language: pt
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: ru
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.54
-  - language: sr-Latn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.54
-  - language: sv
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.43
-  - language: sw
-    last_contribution_date: '2025-11-05'
-    urgency: 1
-    contributor_names:
-      - Tinnah924
-    reward: 0.27
-  - language: tr
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: vi
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.76
-  - language: zh-Hans
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: zh-Hant
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: ko
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.65
-  - language: rn
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
-    reward: 0.76
-tags:
-  - wallets
-  - guides
-  - risks
+      - Pivii
+    reward: 2.13

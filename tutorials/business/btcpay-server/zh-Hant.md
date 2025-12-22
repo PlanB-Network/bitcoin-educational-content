@@ -1,5 +1,5 @@
 ---
-name: BTCPay 伺服器
+name: BTCPay Server
 description: 無中介接受 BTC 付款
 ---
 

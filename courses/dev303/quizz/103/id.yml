@@ -1,0 +1,8 @@
+question: Bagaimana arsitektur komponen modular LDK memungkinkan integrasi Modul Keamanan Perangkat Keras (HSM) untuk transaksi Lightning?
+answer: Dengan memungkinkan ekstraksi komponen penandatanganan spesifik yang dapat menganalisis konteks transaksi Lightning dan implikasi keamanan
+wrong_answers:
+  - Dengan menyediakan HSM daemon lengkap yang berjalan secara independen dan berkomunikasi melalui saluran terenkripsi
+  - Dengan mengimplementasikan driver khusus perangkat keras yang secara langsung berinteraksi dengan chipset HSM untuk operasi kriptografi
+  - Dengan membuat kotak pasir terisolasi yang menjalankan logika protokol Lightning sepenuhnya di dalam lingkungan HSM
+explanation: |
+  Desain modular LDK memungkinkan pengembang untuk mengekstrak komponen penandatanganan dan verifikasi transaksi untuk integrasi HSM. Hal ini memungkinkan pembuatan perangkat penandatanganan Lightning-aware yang memahami konteks transaksi lebih dari sekadar penandatanganan sederhana - perangkat ini dapat mengevaluasi apakah suatu transaksi merupakan pembayaran yang sah, operasi perutean, atau potensi ancaman keamanan. Opsi lainnya menggambarkan pendekatan monolitik atau khusus perangkat keras yang bertentangan dengan filosofi LDK yang fleksibel dan modular dalam menyediakan komponen yang dapat dikomposisikan, bukan solusi lengkap.

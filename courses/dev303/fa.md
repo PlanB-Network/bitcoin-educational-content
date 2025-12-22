@@ -1,940 +1,1698 @@
 ---
-name: Learning Rust with Bitcoin 
-goal: Advance your Rust development skills via Bitcoin coding
-objectives:
-  - Get used to Rust Language
-  - Understand why using Rust for developping Bitcoin
-  - Get the basis of Lightning SDK 
+name: یادگیری Rust با Bitcoin
+goal: مهارت‌های توسعه Rust خود را از طریق کدنویسی Bitcoin پیشرفت دهید.
+objectives: 
+
+  - به زبان Rust عادت کنید
+  - درک کنید چرا استفاده از Rust برای توسعه Bitcoin
+  - مبانی Lightning SDK را دریافت کنید
+
 ---
 
-# A Rust Expedition for Bitcoin Builders
+# یک سفر Rust برای سازندگان Bitcoin
 
 
-In this hands-on course, which was filmed during a seminar organised by Fulgur' Ventures in October 2023, you’ll level up your Rust skills by building real Bitcoin-focused components and mini-projects. We’ll guide you through Rust fundamentals, why Rust is a powerhouse for Bitcoin development (memory safety, performance, and fearless concurrency), and how to get started with the Lightning SDK to build fast, secure, and scalable payment features.
 
-Across the chapters, you’ll practice core Rust patterns (ownership, lifetimes, traits, async), work with Bitcoin primitives (keys, transactions, scripting), and progressively integrate Lightning concepts (nodes, channels, invoices).
+در این دوره عملی، که در طول سمیناری سازماندهی شده توسط Fulgur' Ventures در اکتبر 2023 فیلم‌برداری شده است، مهارت‌های Rust خود را با ساختن اجزا و مینی‌پروژه‌های متمرکز بر Bitcoin توسعه خواهید داد. ما اصول Rust، دلایل استفاده از Rust برای توسعه Bitcoin (ایمنی حافظه، عملکرد و همزمانی ایمن)، و نحوه شروع با Lightning SDK برای ساخت ویژگی‌های پرداخت را پوشش خواهیم داد.
 
-No prior Rust or Bitcoin development is strictly required, though familiarity with basic programming helps. The course is beginner-friendly yet practical enough for engineers crossing into Bitcoin. 
+
+در طول فصل‌ها، الگوهای اصلی Rust (مالکیت، طول عمر، ویژگی‌ها، async) را تمرین خواهید کرد، با ابتداییات Bitcoin (کلیدها، تراکنش‌ها، اسکریپت‌نویسی) کار خواهید کرد و به تدریج مفاهیم Lightning (گره‌ها، کانال‌ها، فاکتورها) را ادغام خواهید کرد.
+
+
+هیچ توسعه قبلی Rust یا Bitcoin به‌طور دقیق لازم نیست، اگرچه آشنایی با برنامه‌نویسی پایه کمک می‌کند. دوره برای مبتدیان مناسب است و در عین حال به اندازه کافی عملی است برای مهندسانی که به Bitcoin وارد می‌شوند.
+
 
 +++
 
-# Introduction
+# معرفی
+
 <partId>594ab43f-7216-5326-ab41-f92b85be4581</partId>
 
-## Course overview
+
+## بررسی کلی دوره
+
 <chapterId>36526df2-66a2-58df-8f38-378fb553f08c</chapterId>
 
-**Introduction**
 
-Welcome to this advanced programming course on SDKs. In this training, you will learn the basics of Rust, then focus on BTC & Rust, and finish with some practical exercises using SDKs.
+**مقدمه**
 
-This training will be available only in English for now and was part of a live seminar organized last October in Tuscany by Fulgure Venture. The program of the LIVE event can be found below, and this training will focus on the first week only. The second half was targeted at RGB and can be found in the RGB course.
 
-This training gives you the opportunity to develop your programming skills on the Lightning Network using Rust and various SDKs. It is designed for developers with a solid programming background who want to dive into Lightning Network-specific development. You’ll learn the basics of Rust, why it’s suitable for Bitcoin development, and then move on to hands-on implementation using specialized SDKs.
+به دوره برنامه‌نویسی مبتدی‌پسند در مورد SDKها خوش آمدید. در این آموزش، شما اصول اولیه Rust را یاد خواهید گرفت، سپس بر Rust که به برنامه‌نویسی Bitcoin اعمال می‌شود تمرکز خواهید کرد و در نهایت با برخی موارد استفاده از SDKها به پایان خواهید رساند.
 
-**Section 2: Learn to code with Rust**  
-In this section, you’ll discover Rust fundamentals through a series of progressive chapters. You’ll learn to write Rust code, understand its specificities, and master its essential features over seven detailed parts. This module is essential to understand why Rust is a favored language for Bitcoin development.
 
-**Section 3: Rust & Bitcoin**  
-Here, we will explore in depth why Rust is a relevant choice for Bitcoin development. You will learn about its error model, the UniFFI tool, and asynchronous traits – all key elements in building robust and secure software.
+ویدیوهای آموزش فعلاً فقط به زبان انگلیسی در دسترس خواهند بود و بخشی از یک سمینار زنده بودند که اکتبر گذشته در توسکانی توسط Fulgure Venture سازماندهی شد. این آموزش فقط بر هفته اول تمرکز خواهد داشت. نیمه دوم به RGB اختصاص داده شده و می‌توان آن را در دوره RGB یافت.
 
-**Section 4: LNP/BP development with SDKs**  
-You’ll learn how to develop LN nodes using various SDKs like Breez SDK and Greenlight for Lipa. You’ll see how to implement Lightning Network applications using libraries designed to simplify Bitcoin and Lightning development.
 
-Ready to grow your Lightning Network skills with Rust? Let’s go!
-# Learn how to code with the rust book
+https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+
+این آموزش به شما فرصت می‌دهد تا مهارت‌های برنامه‌نویسی خود را بر روی Lightning Network با استفاده از Rust و SDKهای مختلف توسعه دهید. این دوره برای توسعه‌دهندگانی با پیش‌زمینه قوی برنامه‌نویسی طراحی شده است که می‌خواهند به توسعه خاص Lightning Network بپردازند. شما اصول اولیه Rust، دلیل مناسب بودن آن برای توسعه Bitcoin را یاد خواهید گرفت و سپس به پیاده‌سازی عملی با استفاده از SDKهای تخصصی خواهید پرداخت.
+
+
+**بخش ۲: یادگیری کدنویسی با Rust**
+
+در این بخش، اصول اولیه Rust را از طریق مجموعه‌ای از فصل‌های پیشرونده کشف خواهید کرد. شما یاد خواهید گرفت که کد Rust بنویسید، ویژگی‌های خاص آن را درک کنید و ویژگی‌های اساسی آن را در هفت بخش مفصل بیاموزید. این ماژول برای درک اینکه چرا Rust یک زبان محبوب برای توسعه Bitcoin است، ضروری است.
+
+
+**بخش ۳: Rust و Bitcoin**
+
+در اینجا، ما به طور عمیق بررسی خواهیم کرد که چرا Rust یک انتخاب مرتبط برای توسعه Bitcoin است. شما درباره مدل خطای آن، ابزار UniFFI و ویژگی‌های ناهمگام یاد خواهید گرفت - همه عناصر کلیدی در ساخت نرم‌افزار قوی و امن.
+
+
+**بخش ۴: توسعه LNP/BP با SDKها**
+
+شما یاد خواهید گرفت که چگونه گره‌های LN را با استفاده از SDKهای مختلف مانند Breez SDK و Greenlight برای Lipa توسعه دهید. شما خواهید دید که چگونه برنامه‌های Lightning Network را با استفاده از کتابخانه‌هایی که برای ساده‌سازی توسعه Bitcoin و Lightning طراحی شده‌اند، پیاده‌سازی کنید.
+
+
+آماده‌اید مهارت‌های Lightning Network خود را با Rust ارتقا دهید؟ بزن بریم!
+
+# یاد بگیرید چگونه با کتاب Rust کدنویسی کنید
+
 <partId>152b58c9-fb33-5d3b-9c15-64919869aa34</partId>
 
-## Introduction to Rust 
+
+## مقدمه‌ای بر Rust
+
 <chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
+
 <professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
+
 
 :::video id=12a518cf-64be-43f1-b6d4-f6592a1324ea:::
 
-### Installing and Managing Rust with Rustup
-
-When beginning your journey with Rust, the first step involves setting up a proper development environment. The most widely recommended approach for installing Rust is through Rustup, a powerful toolchain management system that simplifies the entire process of working with Rust across different projects and platforms.
-
-Rustup serves as more than just an installer—it functions as a comprehensive management tool for your Rust development environment. With Rustup, you can easily install additional compilation targets for different platforms, such as ARM64 for Android development or other architectures you might need to support. The tool also handles Rust updates seamlessly, which is particularly valuable given that Rust releases a new stable version approximately every six weeks. When you need to update to the latest release, a simple `rustup update` command handles everything automatically.
-
-However, it's important to understand the security implications of using Rustup, especially if you plan to work in security-sensitive environments like Bitcoin development. The installation process involves downloading and executing a script directly from the internet, which presents potential security risks since there are no cryptographic signatures or integrity checks built into this process. While Rustup is perfectly acceptable for development and learning purposes, production environments or security-critical applications should consider using more trusted installation methods, such as installing Rust through your Linux distribution's package manager, which typically includes proper signature verification and integrity checks.
-
-For most development scenarios, you can install Rustup by running the installation script provided on the official Rust website. The installer will prompt you to choose between different toolchain options, with the stable toolchain being the recommended choice for most users. The installation occurs in your home directory, requiring no administrator privileges, and sets up all necessary environment variables for immediate use.
-
-### Understanding Rust Toolchains and Components
-
-Rust's development ecosystem consists of several key components that work together to provide a complete programming environment. Understanding these components helps you navigate the Rust development process more effectively and troubleshoot issues when they arise.
-
-The Rust compiler, known as `rustc`, forms the core of the Rust toolchain. While you could theoretically use `rustc` directly to compile Rust programs, most development work relies on Cargo, Rust's package manager and build system. Cargo functions similarly to npm in the JavaScript ecosystem, managing dependencies, coordinating builds, and providing convenient commands for common development tasks. When you run commands like `cargo build` or `cargo run`, Cargo orchestrates the compilation process, handles dependency resolution, and manages the overall project structure.
-
-Clippy represents another essential component of the Rust ecosystem, functioning as an advanced linter that analyzes your code and provides suggestions for improvements. Unlike basic syntax checkers, Clippy understands Rust idioms and can recommend more efficient or idiomatic ways to accomplish specific tasks. This tool proves invaluable for learning Rust best practices and writing more maintainable code.
-
-The Rust toolchain also includes comprehensive documentation tools and the standard library documentation, accessible through the official Rust documentation website. This documentation serves as an indispensable reference during development, providing detailed information about standard library functions, types, and modules. The documentation includes extensive examples and explanations that help you understand not just what functions do, but how to use them effectively in your programs.
-
-Rust supports multiple release channels: stable, beta, and nightly. The stable channel provides thoroughly tested releases suitable for production use. The beta channel offers a preview of the next stable release, primarily used for final testing before official release. The nightly channel includes experimental features under active development, which can be useful for exploring cutting-edge Rust capabilities, though these features may change or be removed in future releases.
-
-### Creating and Managing Rust Projects with Cargo
-
-Modern Rust development centers around Cargo, which streamlines project creation, dependency management, and the build process. Rather than manually creating directories and files, Cargo provides the `cargo new` command to generate a complete project structure with sensible defaults.
-
-When you create a new project with `cargo new project_name`, Cargo establishes a standard directory structure, creates a basic `main.rs` file with a "Hello, world!" program, initializes a Git repository, and generates a `Cargo.toml` file for project configuration. The `Cargo.toml` file serves as the central configuration point for your project, containing metadata about your project and listing all dependencies your code requires.
-
-Cargo provides several essential commands for daily development work. The `cargo build` command compiles your project and its dependencies, creating executable files in the `target` directory. For quick iteration during development, `cargo run` combines building and execution in a single step. The `cargo check` command performs all compilation checks without generating the final executable, making it significantly faster than a full build when you simply want to verify that your code compiles correctly.
-
-When preparing code for production deployment, the `--release` flag enables optimizations and removes debug assertions. Release builds run faster and produce smaller executables, but they take longer to compile and remove helpful debugging information. The compiler applies various optimizations during release builds and disables runtime checks like integer overflow detection, which improves performance but removes some safety guarantees present in debug builds.
-
-### Variables, Mutability, and Rust's Safety Philosophy
-
-Rust takes a distinctive approach to variable management that prioritizes safety and predictability. By default, all variables in Rust are immutable, meaning their values cannot be changed after initial assignment. This design decision reflects Rust's commitment to preventing common programming errors that arise from unexpected state changes.
-
-When you declare a variable using `let x = 5`, that variable becomes immutable by default. Any attempt to modify its value later will result in a compilation error. This immutability requirement forces developers to think carefully about when state changes are truly necessary and makes code behavior more predictable. Many programming bugs stem from variables changing unexpectedly, and Rust's default immutability helps prevent these issues.
-
-When you genuinely need to modify a variable's value, Rust requires explicit declaration of mutability using the `mut` keyword: `let mut x = 5`. This explicit declaration serves as a clear signal to both the compiler and other developers that this variable's value may change during program execution. The requirement to explicitly declare mutability encourages thoughtful consideration of whether mutability is truly necessary for each variable.
-
-Rust also supports a powerful feature called shadowing, which allows you to declare a new variable with the same name as a previous variable. Unlike mutation, shadowing creates an entirely new variable that happens to have the same name, effectively hiding the previous variable. This technique proves particularly useful when transforming data through multiple steps, such as parsing a string into a number and then processing that number further. With shadowing, you can maintain a consistent variable name throughout the transformation process while changing the variable's type at each step.
-
-The distinction between shadowing and mutation becomes important when considering type changes. With shadowing, you can change both the value and type of a variable because you're creating a new variable. With mutation, you can only change the value while maintaining the same type, since you're modifying an existing variable rather than creating a new one.
-
-### Data Types and Type System Fundamentals
-
-Rust implements a strong, static type system where every value must have a well-defined type known at compile time. While this might seem restrictive compared to dynamically typed languages, Rust's type inference capabilities mean you rarely need to specify types explicitly. The compiler can usually determine the appropriate type based on how you use the value.
-
-However, certain situations require explicit type annotations. When using generic functions like `parse()`, which can convert strings into various numeric types, the compiler needs to know which specific type you want. In these cases, you provide type annotations using the colon syntax: `let guess: u32 = "42".parse().expect("Not a number!")`.
-
-Rust's scalar types include integers, floating-point numbers, booleans, and characters. The integer type system provides precise control over memory usage and performance characteristics. Integer types are named systematically: `i8`, `i16`, `i32`, `i64`, and `i128` for signed integers, and `u8`, `u16`, `u32`, `u64`, and `u128` for unsigned integers. The numbers indicate the bit width, making memory usage and value ranges immediately clear.
-
-The `isize` and `usize` types deserve special attention as they adapt to your target architecture. On 64-bit systems, these types are 64 bits wide, while on 32-bit systems, they're 32 bits wide. These types are commonly used for array indexing and memory offsets because they match the natural word size of the target architecture, enabling efficient pointer arithmetic and memory operations.
-
-Rust provides multiple ways to write integer literals, including decimal, hexadecimal (`0x`), octal (`0o`), and binary (`0b`) formats. You can also use underscores anywhere within numeric literals to improve readability, such as writing `1_000_000` instead of `1000000`. The underscores have no effect on the value but can make large numbers more readable.
-
-Floating-point types in Rust are straightforward: `f32` for single-precision and `f64` for double-precision floating-point numbers. The `f64` type is generally preferred due to its higher precision and the fact that modern processors can often handle 64-bit floating-point operations as efficiently as 32-bit operations.
-
-### Compound Types and Data Organization
-
-Beyond scalar types, Rust provides compound types that group multiple values together. Tuples allow you to combine values of different types into a single compound value. You create tuples using parentheses and can specify the type of each element: `let tup: (i32, f64, u8) = (500, 6.4, 1)`.
-
-Tuples support destructuring, which provides an elegant way to extract individual values: `let (x, y, z) = tup`. This syntax creates three separate variables from the tuple's components. Alternatively, you can access tuple elements directly using dot notation with the element index: `tup.0`, `tup.1`, `tup.2`.
-
-Arrays in Rust differ significantly from arrays or lists in many other languages because they have a fixed size that becomes part of their type. An array of five integers has the type `[i32; 5]`, where the semicolon separates the element type from the array length. This type-level size information enables the compiler to perform bounds checking and ensures that functions receiving arrays know exactly how many elements to expect.
-
-You can initialize arrays by listing all elements explicitly: `[1, 2, 3, 4, 5]`, or by using a shorthand syntax for arrays with repeated values: `[3; 5]` creates an array of five elements, all with the value 3. This shorthand proves useful for initializing buffers or creating arrays with default values.
-
-Array access uses square bracket notation like most languages, but Rust provides both compile-time and runtime bounds checking. When you access an array with a constant index that the compiler can verify, it will catch out-of-bounds access at compile time. For dynamic indices determined at runtime, Rust inserts bounds checks that will cause the program to panic if you attempt to access an invalid index, preventing memory safety violations.
+### نصب و مدیریت Rust با Rustup
 
 
-## Ownership and Memory Safety in Rust
+هنگام شروع سفر خود با Rust، اولین گام شامل راه‌اندازی یک محیط توسعه مناسب است. روش به شدت توصیه شده برای نصب Rust از طریق Rustup است، یک سیستم مدیریت ابزار که نصب و به‌روزرسانی‌ها را در پروژه‌ها و پلتفرم‌های مختلف مدیریت می‌کند.
+
+
+راستاپ به عنوان چیزی بیش از یک نصب‌کننده عمل می‌کند—این ابزار به عنوان یک ابزار مدیریت جامع برای محیط توسعه Rust شما عمل می‌کند. با راستاپ، می‌توانید به راحتی اهداف کامپایل اضافی برای پلتفرم‌های مختلف، مانند ARM64 برای توسعه اندروید یا سایر معماری‌هایی که ممکن است نیاز به پشتیبانی داشته باشید، نصب کنید. این ابزار همچنین به‌روزرسانی‌های Rust را به‌صورت یکپارچه مدیریت می‌کند، که این امر به‌ویژه با توجه به اینکه Rust تقریباً هر شش هفته یک نسخه پایدار جدید منتشر می‌کند، ارزشمند است. هنگامی که نیاز به به‌روزرسانی به آخرین نسخه دارید، یک دستور ساده `rustup update` همه چیز را به‌طور خودکار مدیریت می‌کند.
+
+
+هنگام نصب Rustup، درک مدل امنیتی مرتبط با آن ارزشمند است. فرآیند نصب، یک اسکریپت را از وب‌سایت رسمی Rust از طریق HTTPS دانلود و اجرا می‌کند که امنیت رمزنگاری لایه انتقال را فراهم می‌کند. بسته‌هایی که توسط Rustup و Cargo دانلود می‌شوند از منابع معتبری (crates.io و زیرساخت رسمی Rust) می‌آیند و از رمزنگاری HTTPS بهره‌مند می‌شوند. در حالی که این روش برای اکثر سناریوهای توسعه امن است، برخی سازمان‌ها با سیاست‌های امنیتی سخت‌گیرانه ممکن است ترجیح دهند Rust را از طریق مدیر بسته توزیع لینوکس خود نصب کنند، که یک لایه اعتماد اضافی از طریق زیرساخت امضای بسته توزیع فراهم می‌کند. برای اهداف یادگیری و توسعه عمومی، Rustup یک ابزار جاافتاده و به‌طور گسترده مورد اعتماد در اکوسیستم Rust است.
+
+
+برای اکثر سناریوهای توسعه، می‌توانید Rustup را با اجرای اسکریپت نصب ارائه شده در وب‌سایت رسمی Rust نصب کنید. نصب‌کننده از شما می‌خواهد که بین گزینه‌های مختلف ابزار زنجیره‌ای انتخاب کنید، که ابزار زنجیره‌ای پایدار برای اکثر کاربران توصیه می‌شود. نصب در دایرکتوری خانگی شما انجام می‌شود و نیازی به امتیازات مدیر ندارد و تمام متغیرهای محیطی لازم را برای استفاده فوری تنظیم می‌کند.
+
+
+### درک زنجیره‌های ابزار و اجزای Rust
+
+
+اکوسیستم توسعه Rust شامل چندین مؤلفه کلیدی است که با هم کار می‌کنند تا یک محیط برنامه‌نویسی کامل را فراهم کنند. درک این مؤلفه‌ها به شما کمک می‌کند تا فرآیند توسعه Rust را به‌طور مؤثرتری پیمایش کنید و مشکلات را هنگام بروز آن‌ها رفع کنید.
+
+
+کامپایلر Rust، که به عنوان `rustc` شناخته می‌شود، هسته اصلی زنجیره ابزار Rust را تشکیل می‌دهد. در حالی که به‌طور نظری می‌توانید از `rustc` به‌طور مستقیم برای کامپایل برنامه‌های Rust استفاده کنید، بیشتر کارهای توسعه به Cargo، مدیر بسته و سیستم ساخت Rust، متکی است. Cargo به‌طور مشابه با npm در اکوسیستم جاوااسکریپت عمل می‌کند، وابستگی‌ها را مدیریت می‌کند، ساخت‌ها را هماهنگ می‌کند و دستورات راحتی برای وظایف توسعه معمول ارائه می‌دهد. هنگامی که دستورات مانند `cargo build` یا `cargo run` را اجرا می‌کنید، Cargo فرآیند کامپایل را سازماندهی می‌کند، حل وابستگی‌ها را انجام می‌دهد و ساختار کلی پروژه را مدیریت می‌کند.
+
+
+کلیپی یک ابزار تحلیل‌گر است که کد شما را بررسی کرده و پیشنهاداتی برای بهبود ارائه می‌دهد. برخلاف بررسی‌کننده‌های ساده نحو، کلیپی اصطلاحات Rust را درک می‌کند و می‌تواند روش‌های اصطلاحی‌تری برای انجام وظایف خاص پیشنهاد دهد. این ابزار به یادگیری بهترین شیوه‌های Rust و نوشتن کدی که نگهداری آن آسان‌تر باشد کمک می‌کند.
+
+
+زنجیره ابزار Rust همچنین شامل ابزارهای مستندسازی جامع و مستندات کتابخانه استاندارد است که از طریق وب‌سایت رسمی مستندات Rust قابل دسترسی است. این مستندات به عنوان یک مرجع ضروری در طول توسعه عمل می‌کند و اطلاعات دقیقی درباره توابع، انواع و ماژول‌های کتابخانه استاندارد ارائه می‌دهد. مستندات شامل مثال‌ها و توضیحات گسترده‌ای است که به شما کمک می‌کند نه تنها بفهمید توابع چه کاری انجام می‌دهند، بلکه چگونه آن‌ها را به طور مؤثر در برنامه‌های خود استفاده کنید.
+
+
+Rust از چندین کانال انتشار پشتیبانی می‌کند: پایدار، بتا و شبانه. کانال پایدار نسخه‌های کاملاً تست‌شده‌ای را ارائه می‌دهد که برای استفاده در تولید مناسب هستند. کانال بتا پیش‌نمایشی از نسخه پایدار بعدی ارائه می‌دهد که عمدتاً برای آزمایش نهایی قبل از انتشار رسمی استفاده می‌شود. کانال شبانه شامل ویژگی‌های آزمایشی در حال توسعه فعال است که می‌تواند برای امتحان قابلیت‌های جدید Rust مفید باشد، اگرچه این ویژگی‌ها ممکن است در نسخه‌های آینده تغییر کنند یا حذف شوند.
+
+
+### ایجاد و مدیریت پروژه‌های Rust با Cargo
+
+
+توسعه مدرن Rust حول Cargo متمرکز است که فرآیند ایجاد پروژه، مدیریت وابستگی‌ها و ساخت را ساده می‌کند. به جای ایجاد دستی دایرکتوری‌ها و فایل‌ها، Cargo فرمان `cargo new` را برای generate ارائه می‌دهد تا ساختار کامل پروژه با تنظیمات پیش‌فرض معقول ایجاد شود.
+
+
+وقتی یک پروژه جدید با `cargo new project_name` ایجاد می‌کنید، Cargo یک ساختار دایرکتوری استاندارد ایجاد می‌کند، یک فایل `main.rs` پایه با برنامه "Hello, world!" می‌سازد، یک مخزن Git را مقداردهی اولیه می‌کند و یک فایل `Cargo.toml` برای پیکربندی پروژه تولید می‌کند. فایل `Cargo.toml` به عنوان نقطه مرکزی پیکربندی برای پروژه شما عمل می‌کند و شامل متادیتا درباره پروژه شما و فهرستی از تمام وابستگی‌هایی است که کد شما نیاز دارد.
+
+
+Cargo چندین دستور ضروری برای کارهای روزانه توسعه ارائه می‌دهد. دستور `cargo build` پروژه و وابستگی‌های آن را کامپایل می‌کند و فایل‌های اجرایی را در دایرکتوری `target` ایجاد می‌کند. برای تکرار سریع در طول توسعه، `cargo run` ساخت و اجرا را در یک مرحله ترکیب می‌کند. دستور `cargo check` تمام بررسی‌های کامپایل را بدون تولید فایل اجرایی نهایی انجام می‌دهد و زمانی که فقط می‌خواهید مطمئن شوید که کد شما به درستی کامپایل می‌شود، به طور قابل توجهی سریع‌تر از یک ساخت کامل است.
+
+
+هنگام آماده‌سازی کد برای استقرار در تولید، فلگ `--release` بهینه‌سازی‌ها را فعال کرده و اظهارات اشکال‌زدایی را حذف می‌کند. بیلدهای انتشار سریع‌تر اجرا می‌شوند و فایل‌های اجرایی کوچکتری تولید می‌کنند، اما زمان بیشتری برای کامپایل می‌گیرند و اطلاعات اشکال‌زدایی مفید را حذف می‌کنند. کامپایلر در طول بیلدهای انتشار بهینه‌سازی‌های مختلفی را اعمال می‌کند و بررسی‌های زمان اجرا مانند تشخیص سرریز عدد صحیح را غیرفعال می‌کند، که عملکرد را بهبود می‌بخشد اما برخی از تضمین‌های ایمنی موجود در بیلدهای اشکال‌زدایی را حذف می‌کند.
+
+
+### متغیرها، تغییرپذیری، و فلسفه ایمنی Rust
+
+
+Rust رویکرد متفاوتی به مدیریت متغیرها نسبت به اکثر زبان‌ها دارد. به‌طور پیش‌فرض، تمام متغیرها در Rust تغییرناپذیر هستند، به این معنی که مقادیر آن‌ها پس از تخصیص اولیه نمی‌توانند تغییر کنند. این تصمیم طراحی به منظور جلوگیری از خطاهای رایج برنامه‌نویسی که از تغییرات غیرمنتظره وضعیت ناشی می‌شوند، اتخاذ شده است.
+
+
+وقتی یک متغیر را با استفاده از `let x = 5` اعلام می‌کنید، آن متغیر به‌طور پیش‌فرض غیرقابل تغییر می‌شود. هرگونه تلاش برای تغییر مقدار آن در آینده منجر به خطای کامپایل می‌شود. این الزام به غیرقابل تغییر بودن، توسعه‌دهندگان را مجبور می‌کند تا با دقت بیشتری درباره زمان‌هایی که تغییر وضعیت واقعاً ضروری است فکر کنند و رفتار کد را قابل پیش‌بینی‌تر می‌کند. بسیاری از باگ‌های برنامه‌نویسی از تغییرات غیرمنتظره متغیرها ناشی می‌شوند و غیرقابل تغییر بودن پیش‌فرض در Rust به جلوگیری از این مشکلات کمک می‌کند.
+
+
+وقتی واقعاً نیاز دارید مقدار یک متغیر را تغییر دهید، Rust نیاز به اعلام صریح تغییرپذیری با استفاده از کلمه کلیدی `mut` دارد: `let mut x = 5`. این اعلام صریح به عنوان یک سیگنال واضح برای هم کامپایلر و هم سایر توسعه‌دهندگان عمل می‌کند که مقدار این متغیر ممکن است در طول اجرای برنامه تغییر کند. الزام به اعلام صریح تغییرپذیری، تشویق به بررسی دقیق می‌کند که آیا تغییرپذیری واقعاً برای هر متغیر ضروری است یا خیر.
+
+
+Rust همچنین از سایه‌زنی پشتیبانی می‌کند، که به شما اجازه می‌دهد یک متغیر جدید با همان نام متغیر قبلی اعلام کنید. برخلاف تغییر، سایه‌زنی یک متغیر کاملاً جدید ایجاد می‌کند که به طور اتفاقی همان نام را دارد و به طور مؤثر متغیر قبلی را پنهان می‌کند. این تکنیک به ویژه زمانی مفید است که داده‌ها را از طریق مراحل متعدد تغییر می‌دهید، مانند تجزیه یک رشته به یک عدد و سپس پردازش بیشتر آن عدد. با سایه‌زنی، می‌توانید در طول فرآیند تغییر، یک نام متغیر ثابت را حفظ کنید در حالی که نوع متغیر را در هر مرحله تغییر می‌دهید.
+
+
+تفاوت بین سایه‌زنی و تغییر زمانی که تغییرات نوع را در نظر می‌گیریم مهم می‌شود. با سایه‌زنی، می‌توانید هم مقدار و هم نوع یک متغیر را تغییر دهید زیرا در حال ایجاد یک متغیر جدید هستید. با تغییر، فقط می‌توانید مقدار را تغییر دهید در حالی که نوع را حفظ می‌کنید، زیرا در حال اصلاح یک متغیر موجود هستید نه ایجاد یک متغیر جدید.
+
+
+```rust
+// Shadowing: creating new variables with the same name
+let amount = "100000";           // amount is a &str (string slice)
+let amount = amount.parse::<u64>().unwrap();  // amount is now u64
+let amount = amount * 100;       // amount is still u64, new value
+
+// Mutation: modifying the same variable
+let mut balance = 50000_u64;
+balance = balance + amount;      // OK: same type, different value
+// balance = "empty";            // ERROR: cannot change type with mutation
+
+// Practical example: processing a Bitcoin amount input
+let user_input = "  0.001 ";                    // &str with whitespace
+let user_input = user_input.trim();            // &str, whitespace removed
+let satoshis: u64 = (user_input.parse::<f64>().unwrap() * 100_000_000.0) as u64;
+println!("Amount in satoshis: {}", satoshis);  // 100000
+```
+
+
+### انواع داده و اصول سیستم نوع‌بندی
+
+
+Rust یک سیستم نوع قوی و ایستا را پیاده‌سازی می‌کند که در آن هر مقدار باید دارای نوعی به‌خوبی تعریف‌شده در زمان کامپایل باشد. در حالی که این ممکن است در مقایسه با زبان‌های با نوع‌گذاری پویا محدودکننده به نظر برسد، قابلیت‌های استنتاج نوع در Rust به این معناست که شما به ندرت نیاز دارید که انواع را به‌طور صریح مشخص کنید. کامپایلر معمولاً می‌تواند نوع مناسب را بر اساس نحوه استفاده شما از مقدار تعیین کند.
+
+
+با این حال، برخی موقعیت‌ها نیاز به حاشیه‌نویسی‌های نوع صریح دارند. هنگام استفاده از توابع عمومی مانند `parse()`، که می‌تواند رشته‌ها را به انواع عددی مختلف تبدیل کند، کامپایلر باید بداند که کدام نوع خاص را می‌خواهید. در این موارد، شما با استفاده از نحو کولون حاشیه‌نویسی نوع را ارائه می‌دهید: `let guess: u32 = "42".parse().expect("Not a number!")`.
+
+
+انواع اسکالر Rust شامل اعداد صحیح، اعداد اعشاری، بولین‌ها و کاراکترها می‌شود. سیستم نوع عدد صحیح کنترل دقیقی بر استفاده از حافظه و ویژگی‌های عملکردی ارائه می‌دهد. انواع اعداد صحیح به صورت سیستماتیک نام‌گذاری شده‌اند: `i8`، `i16`، `i32`، `i64` و `i128` برای اعداد صحیح علامت‌دار، و `u8`، `u16`، `u32`، `u64` و `u128` برای اعداد صحیح بدون علامت. اعداد نشان‌دهنده عرض بیت هستند که استفاده از حافظه و محدوده مقادیر را به وضوح نشان می‌دهند.
+
+
+نوع‌های `isize` و `usize` شایسته توجه ویژه‌ای هستند زیرا با معماری هدف شما سازگار می‌شوند. در سیستم‌های ۶۴ بیتی، این نوع‌ها ۶۴ بیت عرض دارند، در حالی که در سیستم‌های ۳۲ بیتی، ۳۲ بیت عرض دارند. این نوع‌ها معمولاً برای اندیس‌گذاری آرایه و جابجایی‌های حافظه استفاده می‌شوند زیرا با اندازه کلمه طبیعی معماری هدف مطابقت دارند و محاسبات اشاره‌گر و عملیات حافظه را بهینه می‌کنند.
+
+
+Rust چندین روش برای نوشتن اعداد صحیح ارائه می‌دهد، از جمله قالب‌های دهدهی، هگزادسیمال (`0x`)، اکتال (`0o`) و باینری (`0b`). همچنین می‌توانید از زیرخط‌ها در هر جایی از اعداد برای بهبود خوانایی استفاده کنید، مانند نوشتن `1_000_000` به جای `1000000`. زیرخط‌ها تأثیری بر روی مقدار ندارند اما می‌توانند اعداد بزرگ را خواناتر کنند.
+
+
+نوع‌های اعداد اعشاری در Rust ساده هستند: `f32` برای اعداد اعشاری با دقت تک‌گانه و `f64` برای اعداد اعشاری با دقت دوگانه. نوع `f64` به‌طور کلی به دلیل دقت بالاتر و این واقعیت که پردازنده‌های مدرن اغلب می‌توانند عملیات اعداد اعشاری ۶۴ بیتی را به همان اندازه کارآمد انجام دهند که عملیات ۳۲ بیتی را، ترجیح داده می‌شود.
+
+
+### انواع ترکیبی و سازماندهی داده‌ها
+
+
+فراتر از انواع اسکالر، Rust انواع مرکبی را فراهم می‌کند که چندین مقدار را با هم گروه‌بندی می‌کنند. تاپل‌ها به شما اجازه می‌دهند مقادیر از انواع مختلف را در یک مقدار مرکب واحد ترکیب کنید. شما می‌توانید تاپل‌ها را با استفاده از پرانتز ایجاد کنید و نوع هر عنصر را مشخص کنید: `let tup: (i32, f64, u8) = (500, 6.4, 1)`.
+
+
+تاپل‌ها از تخریب پشتیبانی می‌کنند که به شما اجازه می‌دهد مقادیر فردی را استخراج کنید: `let (x, y, z) = tup`. این سینتکس سه متغیر جداگانه از اجزای تاپل ایجاد می‌کند. به‌طور جایگزین، می‌توانید به عناصر تاپل به‌طور مستقیم با استفاده از نقطه‌گذاری و شاخص عنصر دسترسی پیدا کنید: `tup.0`, `tup.1`, `tup.2`.
+
+
+```rust
+// Creating a tuple with different types
+let transaction: (&str, u64, bool) = ("abc123", 50000, true);
+
+// Destructuring: extract all values at once
+let (txid, amount, confirmed) = transaction;
+println!("Transaction {} for {} sats", txid, amount);
+
+// Dot notation: access individual elements by index
+println!("Confirmed: {}", transaction.2);  // true
+
+// Practical example: function returning multiple values
+fn parse_utxo(data: &str) -> (String, u32, u64) {
+// Returns (txid, output_index, value_in_sats)
+("a]1b2c3".to_string(), 0, 100000)
+}
+
+let (txid, vout, value) = parse_utxo("raw_data");
+println!("UTXO {}:{} = {} sats", txid, vout, value);
+```
+
+
+آرایه‌ها در Rust به طور قابل توجهی با آرایه‌ها یا لیست‌ها در بسیاری از زبان‌های دیگر متفاوت هستند زیرا اندازه ثابتی دارند که بخشی از نوع آن‌ها می‌شود. یک آرایه از پنج عدد صحیح دارای نوع `[i32; 5]` است، جایی که نقطه ویرگول نوع عنصر را از طول آرایه جدا می‌کند. این اطلاعات اندازه در سطح نوع به کامپایلر اجازه می‌دهد تا بررسی محدوده را انجام دهد و اطمینان حاصل کند که توابع دریافت‌کننده آرایه‌ها دقیقاً می‌دانند چه تعداد عنصر را باید انتظار داشته باشند.
+
+
+می‌توانید آرایه‌ها را با فهرست کردن تمام عناصر به‌طور صریح مقداردهی اولیه کنید: `[1, 2, 3, 4, 5]`، یا با استفاده از یک نحو کوتاه برای آرایه‌هایی با مقادیر تکراری: `[3; 5]` یک آرایه با پنج عنصر ایجاد می‌کند که همه دارای مقدار 3 هستند. این نحو کوتاه برای مقداردهی اولیه بافرها یا ایجاد آرایه‌هایی با مقادیر پیش‌فرض مفید است.
+
+
+دسترسی به آرایه از نشانه‌گذاری کروشه‌ای مانند اکثر زبان‌ها استفاده می‌کند، اما Rust هم بررسی‌های محدوده در زمان کامپایل و هم در زمان اجرا را فراهم می‌کند. هنگامی که به یک آرایه با یک شاخص ثابت که کامپایلر می‌تواند تأیید کند دسترسی پیدا می‌کنید، دسترسی خارج از محدوده را در زمان کامپایل شناسایی خواهد کرد. برای شاخص‌های پویا که در زمان اجرا تعیین می‌شوند، Rust بررسی‌های محدوده‌ای را وارد می‌کند که در صورت تلاش برای دسترسی به یک شاخص نامعتبر، باعث وحشت برنامه می‌شود و از نقض ایمنی حافظه جلوگیری می‌کند.
+
+
+
+## Ownership و ایمنی حافظه در Rust
+
 <chapterId>918ca359-c123-5414-af01-253016670f3a</chapterId>
+
 
 :::video id=8ed76bae-7c30-4aac-9f28-bb4cbb9180e4:::
 
 
-### Understanding Rust's Unique Approach to Memory Management
-
-This chapter marks a significant transition in our exploration of Rust, moving beyond syntax similarities with other languages to examine what makes Rust truly distinctive. While previous concepts may have felt familiar to programmers coming from other languages, ownership represents Rust's revolutionary approach to solving one of programming's most persistent challenges: memory safety.
-
-Rust was designed with a fundamental goal of preventing memory-related bugs that plague low-level languages like C and C++. These issues include use-after-free bugs, where memory is accessed after it has been released, and buffer overflows, where programs write outside allocated memory boundaries. Traditional solutions to these problems have involved trade-offs that Rust seeks to eliminate. Higher-level languages like Java and Go solve memory safety through garbage collection, where an automatic process periodically identifies and frees unused memory. However, garbage collectors introduce performance overhead and can cause unpredictable pauses during program execution, making them unsuitable for systems programming where consistent performance is critical.
-
-Rust's innovation lies in its ability to achieve memory safety through static analysis performed entirely at compile time. The compiler examines source code and can determine with certainty whether memory operations are safe, without requiring runtime checks or garbage collection. This approach differs fundamentally from static analyzers available for C and C++, which were retrofitted onto languages not originally designed for comprehensive static analysis. Rust's syntax and language rules were crafted from the ground up to enable complete compile-time verification, ensuring that once a program compiles successfully, it will run without memory safety violations.
-
-### The Ownership System: Rules and Principles
-
-The cornerstone of Rust's memory safety guarantees is the ownership system, which governs how memory is managed throughout a program's execution. Ownership operates on three fundamental rules that the compiler enforces at all times. First, every value in Rust has exactly one owner at any given moment. Second, there can only be one owner of a value simultaneously. Third, when the owner goes out of scope, the value is automatically dropped and its memory is freed.
-
-Scopes in Rust are typically defined by curly braces, whether in function bodies, conditional blocks, or explicitly created scope blocks. When a variable is declared within a scope, that scope becomes the owner of the variable's value. The variable remains accessible and valid throughout the scope's lifetime, but as soon as execution leaves the scope, all owned variables are automatically cleaned up through a process called dropping.
-
-This automatic cleanup is implemented through Rust's drop mechanism, where the language implicitly calls a drop function on variables going out of scope. For basic types, this simply means the memory is marked as available for reuse. For more complex types that manage resources, custom drop implementations can perform additional cleanup operations, such as closing file handles or releasing network connections. This pattern, borrowed from C++'s RAII (Resource Acquisition Is Initialization), ensures that resources are always properly released without requiring explicit cleanup code from the programmer.
-
-### Moving Ownership and Memory Layout
-
-Understanding how ownership transfers between variables requires examining the difference between simple types and complex types in terms of memory layout and copying behavior. Simple types like integers, booleans, and floating-point numbers have a fixed, known size at compile time and can be efficiently copied. When you assign one integer variable to another, Rust creates a complete, independent copy of the value, allowing both variables to exist simultaneously without any ownership concerns.
-
-Complex types like strings present a different challenge because they manage dynamically allocated memory. A String in Rust consists of three components stored on the stack: a pointer to heap-allocated character data, the current length of the string, and the total capacity of the allocated buffer. This structure allows strings to grow and shrink efficiently while maintaining knowledge of their boundaries. When you assign one String variable to another, Rust faces a choice: it could copy just the stack-based structure (creating two pointers to the same heap data) or perform a deep copy of all the heap data.
-
-Rust's default behavior is to move ownership rather than copy, transferring the heap data from the source variable to the destination variable and invalidating the source. This approach prevents the dangerous scenario where multiple variables could modify the same heap memory or where the same memory could be freed multiple times when variables go out of scope. The move operation is efficient because it only copies the small stack-based structure, not the potentially large heap data, while maintaining memory safety by ensuring single ownership.
-
-### References and Borrowing
-
-While ownership moves provide safety, they can be restrictive when you need to use a value in multiple places without transferring ownership. Rust addresses this through borrowing, which allows functions and variables to temporarily access data without taking ownership. A reference, created using the ampersand operator, provides read-only access to a value while leaving ownership with the original variable.
-
-References enable functions to operate on data without consuming it, making it possible to use the same value multiple times throughout a program. When you pass a reference to a function, you're lending the data temporarily, and the function must return the reference before the original owner can regain full control. This borrowing metaphor reflects the temporary nature of the access: just as you might lend a book to a friend while retaining ownership, references allow temporary access while preserving the original ownership relationship.
-
-Mutable references extend this concept to allow modification of borrowed data, but with strict restrictions to maintain safety. Rust permits only one mutable reference to a piece of data at any given time, preventing data races where multiple parts of a program might simultaneously modify the same memory. Additionally, you cannot have both mutable and immutable references to the same data simultaneously, as this could lead to situations where code assumes data is stable while other code is actively modifying it. These rules are enforced at compile time, eliminating entire classes of concurrency bugs that plague other systems programming languages.
-
-### String Types and Slices
-
-Rust distinguishes between string literals and the String type, reflecting different memory management strategies and use cases. String literals are embedded directly in the compiled binary and have the type &str (string slice), representing a view into immutable string data. These literals are efficient because they require no runtime allocation, but they cannot be modified since they're part of the program's code.
-
-The String type, in contrast, manages dynamically allocated memory and can grow, shrink, and be modified at runtime. You can create a String from a literal using String::from() or similar methods, which allocates heap memory and copies the literal's content. This distinction allows Rust to optimize for both performance (using literals when possible) and flexibility (using String when modification is needed).
-
-String slices (&str) provide a powerful abstraction for working with portions of strings without copying data. A slice contains a pointer to the start of the string data and a length, allowing you to reference substrings efficiently. The slice syntax uses ranges (e.g., &s[0..5]) to specify which portion of the string to reference. Because slices are references, they're subject to borrowing rules, preventing the underlying string from being modified while slices exist. This compile-time enforcement prevents common bugs like accessing invalid memory after the original string has been freed or modified.
-
-### Arrays, Vectors, and Generic Slices
-
-The slice concept extends beyond strings to any sequence of elements, providing a unified way to work with both fixed-size arrays and dynamic vectors. Arrays in Rust have their length encoded in their type (e.g., [i32; 5] for an array of five 32-bit integers), making them suitable for situations requiring compile-time size guarantees. Functions that accept arrays can enforce exact length requirements, useful for operations like cryptographic functions that need precisely sized inputs.
-
-Slices (&[T]) provide a more flexible alternative, representing a view into any contiguous sequence of elements regardless of the underlying storage. You can create slices from arrays, vectors, or other slices, and the same slice can reference different portions of data throughout its lifetime. This flexibility makes slices ideal for functions that need to process sequences without caring about the specific storage mechanism or exact size.
-
-The relationship between owned types (String, Vec<T>) and their borrowed slice counterparts (&str, &[T]) follows a consistent pattern throughout Rust. Owned types manage their memory and can be modified, while slices provide efficient, read-only access to portions of that data. This design enables APIs that are both flexible (accepting various input types through slices) and efficient (avoiding unnecessary copying), while maintaining Rust's safety guarantees through the borrowing system.
+### درک رویکرد منحصر به فرد Rust در مدیریت حافظه
 
 
-## Structures, Building Complex Data Types
+این فصل یکی از مهم‌ترین مفاهیم Rust را پوشش می‌دهد. در حالی که مفاهیم قبلی ممکن است برای برنامه‌نویسانی که از زبان‌های دیگر آمده‌اند آشنا به نظر برسند، مالکیت رویکرد Rust برای حل ایمنی حافظه بدون جمع‌آوری زباله است.
+
+
+Rust با هدف اساسی جلوگیری از باگ‌های مرتبط با حافظه که زبان‌های سطح پایین مانند C و C++ را گرفتار می‌کنند، طراحی شده است. این مشکلات شامل باگ‌های استفاده پس از آزادسازی، که در آن حافظه پس از آزاد شدن دسترسی پیدا می‌شود، و سرریز بافر، که در آن برنامه‌ها خارج از مرزهای حافظه تخصیص‌یافته می‌نویسند، می‌شود. راه‌حل‌های سنتی برای این مشکلات شامل مصالحه‌هایی بوده‌اند که Rust به دنبال حذف آن‌ها است. زبان‌های سطح بالاتر مانند جاوا و Go ایمنی حافظه را از طریق جمع‌آوری زباله حل می‌کنند، جایی که یک فرآیند خودکار به‌طور دوره‌ای حافظه استفاده‌نشده را شناسایی و آزاد می‌کند. با این حال، جمع‌آوری‌کننده‌های زباله سربار عملکردی را معرفی می‌کنند و می‌توانند باعث توقف‌های غیرقابل پیش‌بینی در طول اجرای برنامه شوند، که آن‌ها را برای برنامه‌نویسی سیستم که عملکرد ثابت حیاتی است، نامناسب می‌سازد.
+
+
+Rust ایمنی حافظه را عمدتاً از طریق تحلیل ایستا که در زمان کامپایل انجام می‌شود، به دست می‌آورد. کامپایلر کد منبع را بررسی می‌کند و می‌تواند تعیین کند که آیا اکثر عملیات حافظه ایمن هستند یا خیر، بدون نیاز به جمع‌آوری زباله. برای مواردی که نمی‌توان به صورت ایستا تأیید کرد—مانند دسترسی به آرایه با شاخص‌های محاسبه‌شده در زمان اجرا—Rust بررسی‌های محدوده‌ای را وارد می‌کند که به جای اجازه دادن به رفتار تعریف‌نشده، باعث وحشت می‌شود. این رویکرد اساساً با تحلیل‌گرهای ایستای موجود برای C و C++ متفاوت است، که به زبان‌هایی که در اصل برای تحلیل ایستای جامع طراحی نشده بودند، اضافه شده‌اند. نحو و قوانین زبان Rust از ابتدا به گونه‌ای طراحی شده‌اند که تأیید گسترده در زمان کامپایل را ممکن سازند، و اطمینان حاصل می‌کنند که وقتی یک برنامه با موفقیت کامپایل می‌شود، یا به صورت ایمن اجرا می‌شود یا به طور پیش‌بینی‌شده‌ای وحشت می‌کند، به جای اینکه رفتار تعریف‌نشده‌ای نشان دهد.
+
+
+### سیستم Ownership: قوانین و اصول
+
+
+سنگ بنای تضمین‌های ایمنی حافظه Rust سیستم مالکیت است که نحوه مدیریت حافظه را در طول اجرای برنامه کنترل می‌کند. Ownership بر اساس سه قانون اساسی عمل می‌کند که کامپایلر همیشه آن‌ها را اجرا می‌کند:
+
+
+۱. هر مقدار در Rust دارای یک مالک است (یک متغیر که مقدار را نگه می‌دارد)
+
+۲. در هر زمان فقط می‌تواند یک مالک وجود داشته باشد
+
+۳. وقتی مالک از محدوده خارج می‌شود، مقدار حذف می‌شود
+
+
+در Rust، حوزه‌ها معمولاً با آکولاد تعریف می‌شوند، چه در بدنه‌های تابع، بلوک‌های شرطی، یا بلوک‌های حوزه‌ای که به‌طور صریح ایجاد شده‌اند. هنگامی که یک متغیر در یک حوزه اعلام می‌شود، آن حوزه مالک مقدار متغیر می‌شود. متغیر در طول عمر حوزه قابل دسترسی و معتبر باقی می‌ماند، اما به محض اینکه اجرا از حوزه خارج شود، تمام متغیرهای متعلق به‌طور خودکار از طریق فرآیندی به نام حذف پاک‌سازی می‌شوند.
+
+
+این پاکسازی خودکار از طریق مکانیزم رهاسازی Rust پیاده‌سازی شده است، جایی که زبان به‌طور ضمنی یک تابع رهاسازی را بر روی متغیرهایی که از دامنه خارج می‌شوند، فراخوانی می‌کند. برای انواع پایه، این به سادگی به این معناست که حافظه به عنوان قابل استفاده مجدد علامت‌گذاری می‌شود. برای انواع پیچیده‌تری که منابع را مدیریت می‌کنند، پیاده‌سازی‌های سفارشی رهاسازی می‌توانند عملیات پاکسازی اضافی انجام دهند، مانند بستن دسته‌های فایل یا آزادسازی اتصالات شبکه. این الگو، که از RAII (Resource Acquisition Is Initialization) در C++ قرض گرفته شده است، تضمین می‌کند که منابع همیشه به‌درستی آزاد می‌شوند بدون اینکه نیاز به کد پاکسازی صریح از برنامه‌نویس باشد.
+
+
+### انتقال Ownership و چیدمان حافظه
+
+
+درک چگونگی انتقال مالکیت بین متغیرها نیازمند بررسی تفاوت بین انواع ساده و انواع پیچیده از نظر چیدمان حافظه و رفتار کپی‌برداری است. انواع ساده مانند اعداد صحیح، بولین‌ها و اعداد اعشاری دارای اندازه ثابتی هستند که در زمان کامپایل مشخص می‌شود و می‌توانند به‌طور کارآمدی کپی شوند. هنگامی که یک متغیر عدد صحیح را به متغیر دیگری اختصاص می‌دهید، Rust یک کپی کامل و مستقل از مقدار ایجاد می‌کند و به هر دو متغیر اجازه می‌دهد به‌طور همزمان بدون هیچ نگرانی از مالکیت وجود داشته باشند.
+
+
+نوع‌های پیچیده مانند رشته‌ها چالشی متفاوت ارائه می‌دهند زیرا آن‌ها حافظه تخصیص‌یافته پویا را مدیریت می‌کنند. یک رشته در Rust شامل سه مؤلفه است که بر روی پشته ذخیره می‌شوند: یک اشاره‌گر به داده‌های کاراکتری تخصیص‌یافته در هیپ، طول فعلی رشته و ظرفیت کل بافر تخصیص‌یافته. این ساختار به رشته‌ها اجازه می‌دهد به‌طور کارآمد رشد کرده و کوچک شوند در حالی که از مرزهای خود آگاه هستند. هنگامی که یک متغیر رشته‌ای را به دیگری اختصاص می‌دهید، Rust با یک انتخاب مواجه می‌شود: می‌تواند فقط ساختار مبتنی بر پشته را کپی کند (ایجاد دو اشاره‌گر به همان داده‌های هیپ) یا یک کپی عمیق از تمام داده‌های هیپ انجام دهد.
+
+
+رفتار پیش‌فرض Rust انتقال مالکیت به جای کپی کردن است، که داده‌های هیپ را از متغیر منبع به متغیر مقصد منتقل کرده و منبع را نامعتبر می‌کند. این رویکرد از سناریوی خطرناکی که در آن چندین متغیر می‌توانند همان حافظه هیپ را تغییر دهند یا همان حافظه چندین بار آزاد شود وقتی متغیرها از محدوده خارج می‌شوند، جلوگیری می‌کند. عملیات انتقال کارآمد است زیرا تنها ساختار کوچک مبتنی بر پشته را کپی می‌کند، نه داده‌های هیپ که ممکن است بزرگ باشند، در حالی که با اطمینان از مالکیت واحد، ایمنی حافظه را حفظ می‌کند.
+
+
+### مراجع و قرض گرفتن
+
+
+در حالی که انتقال مالکیت ایمنی را فراهم می‌کند، می‌تواند محدودکننده باشد زمانی که نیاز دارید از یک مقدار در مکان‌های مختلف استفاده کنید بدون اینکه مالکیت را انتقال دهید. Rust این مسئله را از طریق قرض‌گیری حل می‌کند، که به توابع و متغیرها اجازه می‌دهد به طور موقت به داده‌ها دسترسی داشته باشند بدون اینکه مالکیت را بگیرند. یک مرجع، که با استفاده از عملگر & ایجاد می‌شود، دسترسی فقط خواندنی به یک مقدار را فراهم می‌کند در حالی که مالکیت را به متغیر اصلی واگذار می‌کند.
+
+
+ارجاعات به توابع اجازه می‌دهند تا بدون مصرف داده‌ها بر روی آن‌ها عمل کنند و امکان استفاده از یک مقدار را چندین بار در طول یک برنامه فراهم می‌کنند. وقتی یک ارجاع را به یک تابع می‌فرستید، در واقع داده را به طور موقت قرض می‌دهید و تابع باید ارجاع را برگرداند تا مالک اصلی بتواند کنترل کامل را دوباره به دست آورد. این استعاره قرض دادن، ماهیت موقت دسترسی را منعکس می‌کند: همان‌طور که ممکن است یک کتاب را به دوستی قرض دهید در حالی که مالکیت آن را حفظ می‌کنید، ارجاعات دسترسی موقت را فراهم می‌کنند در حالی که رابطه مالکیت اصلی را حفظ می‌کنند.
+
+
+مراجع قابل تغییر این مفهوم را گسترش می‌دهند تا اجازه‌ی تغییر داده‌های قرض‌گرفته‌شده را بدهند، اما با محدودیت‌های سخت‌گیرانه برای حفظ ایمنی. Rust تنها یک مرجع قابل تغییر به یک قطعه داده را در هر زمان مجاز می‌داند و از رقابت داده‌ها جلوگیری می‌کند، جایی که بخش‌های مختلف یک برنامه ممکن است به‌طور همزمان همان حافظه را تغییر دهند. علاوه بر این، نمی‌توانید همزمان مراجع قابل تغییر و غیرقابل تغییر به همان داده داشته باشید، زیرا این می‌تواند به موقعیت‌هایی منجر شود که کد فرض می‌کند داده‌ها پایدار هستند در حالی که کد دیگری به‌طور فعال در حال تغییر آن است. این قوانین در زمان کامپایل اعمال می‌شوند و دسته‌های کاملی از باگ‌های همزمانی را که زبان‌های برنامه‌نویسی سیستم‌های دیگر را گرفتار می‌کنند، از بین می‌برند.
+
+
+```rust
+fn main() {
+let mut wallet_balance: u64 = 100_000; // 100,000 satoshis
+
+// Immutable borrow: read the balance
+let balance_ref = &wallet_balance;
+println!("Current balance: {} sats", balance_ref);
+// balance_ref goes out of scope here
+
+// Mutable borrow: update the balance
+let balance_mut = &mut wallet_balance;
+*balance_mut += 50_000; // Receive payment
+println!("After deposit: {} sats", balance_mut);
+// balance_mut goes out of scope here
+
+// Function that borrows immutably
+fn display_balance(balance: &u64) {
+println!("Balance check: {} sats", balance);
+}
+
+// Function that borrows mutably
+fn deduct_fee(balance: &mut u64, fee: u64) {
+*balance -= fee;
+}
+
+display_balance(&wallet_balance);
+deduct_fee(&mut wallet_balance, 1_000);
+println!("After fee: {} sats", wallet_balance); // 149,000
+}
+```
+
+
+### انواع رشته و برش‌ها
+
+
+Rust بین لیترال‌های رشته‌ای و نوع String تمایز قائل می‌شود و استراتژی‌های مختلف مدیریت حافظه و موارد استفاده را منعکس می‌کند. لیترال‌های رشته‌ای به‌طور مستقیم در باینری کامپایل‌شده جاسازی می‌شوند و نوع &str (برش رشته) را دارند که نمایی از داده‌های رشته‌ای تغییرناپذیر را نشان می‌دهد. این لیترال‌ها کارآمد هستند زیرا نیازی به تخصیص در زمان اجرا ندارند، اما نمی‌توانند تغییر کنند زیرا بخشی از کد برنامه هستند.
+
+
+نوع String، در مقابل، حافظه تخصیص داده شده به صورت پویا را مدیریت می‌کند و می‌تواند در زمان اجرا رشد کند، کوچک شود و تغییر یابد. شما می‌توانید یک String را از یک لیترال با استفاده از String::from() یا روش‌های مشابه ایجاد کنید، که حافظه heap را تخصیص داده و محتوای لیترال را کپی می‌کند. این تمایز به Rust اجازه می‌دهد تا هم برای عملکرد (استفاده از لیترال‌ها در صورت امکان) و هم برای انعطاف‌پذیری (استفاده از String زمانی که نیاز به تغییر است) بهینه‌سازی کند.
+
+
+برش‌های رشته‌ای (&str) یک انتزاع قدرتمند برای کار با بخش‌هایی از رشته‌ها بدون کپی کردن داده‌ها ارائه می‌دهند. یک برش شامل یک اشاره‌گر به ابتدای داده‌های رشته و یک طول است که به شما اجازه می‌دهد زیررشته‌ها را به‌طور کارآمد مرجع‌دهی کنید. نحو برش از بازه‌ها (مثلاً &s[0..5]) برای مشخص کردن کدام بخش از رشته برای مرجع‌دهی استفاده می‌کند. از آنجا که برش‌ها مراجع هستند، تابع قوانین قرض‌گیری می‌شوند و از تغییر رشته اصلی در حالی که برش‌ها وجود دارند جلوگیری می‌کنند. این اعمال در زمان کامپایل از بروز باگ‌های رایج مانند دسترسی به حافظه نامعتبر پس از آزادسازی یا تغییر رشته اصلی جلوگیری می‌کند.
+
+
+### آرایه‌ها، وکتورها، و برش‌های عمومی
+
+
+مفهوم برش فراتر از رشته‌ها به هر دنباله‌ای از عناصر گسترش می‌یابد و روشی یکپارچه برای کار با هر دو آرایه با اندازه ثابت و بردارهای پویا فراهم می‌کند. آرایه‌ها در Rust طول خود را در نوعشان رمزگذاری کرده‌اند (مثلاً [i32; 5] برای آرایه‌ای از پنج عدد صحیح ۳۲ بیتی)، که آن‌ها را برای موقعیت‌هایی که نیاز به تضمین اندازه در زمان کامپایل دارند مناسب می‌سازد. توابعی که آرایه‌ها را می‌پذیرند می‌توانند الزامات طول دقیق را اعمال کنند، که برای عملیات‌هایی مانند توابع رمزنگاری که به ورودی‌های با اندازه دقیق نیاز دارند، مفید است.
+
+
+برش‌ها (&[T]) یک جایگزین انعطاف‌پذیرتر ارائه می‌دهند و نمایی از هر دنباله پیوسته از عناصر را بدون توجه به ذخیره‌سازی زیرین نشان می‌دهند. شما می‌توانید برش‌ها را از آرایه‌ها، وکتورها یا برش‌های دیگر ایجاد کنید و همان برش می‌تواند در طول عمر خود به بخش‌های مختلفی از داده‌ها اشاره کند. این انعطاف‌پذیری برش‌ها را برای توابعی که نیاز به پردازش دنباله‌ها دارند، بدون توجه به مکانیزم ذخیره‌سازی خاص یا اندازه دقیق، ایده‌آل می‌سازد.
+
+
+رابطه بین انواع مالکیت‌شده (String, Vec<T>) و همتایان برش قرض‌گرفته‌شده آن‌ها (&str, &[T]) در سراسر Rust یک الگوی ثابت را دنبال می‌کند. انواع مالکیت‌شده حافظه خود را مدیریت می‌کنند و می‌توانند تغییر یابند، در حالی که برش‌ها دسترسی کارآمد و فقط خواندنی به بخش‌هایی از آن داده‌ها را فراهم می‌کنند. این طراحی به APIهایی که هم انعطاف‌پذیر هستند (پذیرش انواع ورودی مختلف از طریق برش‌ها) و هم کارآمد (اجتناب از کپی‌برداری غیرضروری) امکان می‌دهد، در حالی که تضمین‌های ایمنی Rust را از طریق سیستم قرض‌گیری حفظ می‌کند.
+
+
+
+## ساختارها، انواع داده پیچیده ساختمان
+
 <chapterId>0278ed13-68b6-59e1-97c5-f8dde505549b</chapterId>
+
 
 :::video id=c78a543f-1462-43a1-9845-889d310d31a4:::
 
-Structures in Rust serve as the foundation for creating complex data types, similar to classes in other programming languages. They allow you to group related data together into a single, cohesive unit that can contain multiple fields of different types. The syntax for defining a structure follows a straightforward pattern: you use the `struct` keyword followed by the structure name, then define the fields within curly braces using a colon syntax to specify each field's type.
-
-Rust follows specific naming conventions for structures that the compiler will enforce through warnings. Structure names should use CamelCase (also known as PascalCase), while field names within the structure should use snake_case with underscores. This convention helps maintain consistency across Rust codebases and makes code more readable for other developers.
-
-Creating instances of structures requires you to specify values for all fields using the structure's name followed by curly braces containing the field assignments. Once you have a structure instance, you can access and modify individual fields using dot notation, provided the instance is declared as mutable. This dot notation works consistently in Rust, unlike languages like C++ where you might use different operators for pointers versus direct objects.
-
-### Constructor Functions and Field Shortcuts
-
-Rust doesn't have built-in constructors like some object-oriented languages, but you can create functions that return structure instances to serve the same purpose. These constructor functions typically take parameters for some or all fields and may set default values for others. When writing such functions, Rust provides a convenient shorthand: if a parameter has the same name as a structure field, you can simply write the field name once instead of repeating it in the `field: value` format.
-
-Structure instances can also be created by copying values from existing instances using the struct update syntax. This feature allows you to create a new instance while specifying only the fields you want to change, with all other fields copied from an existing instance. However, this operation follows Rust's ownership rules, which means that non-Copy types will be moved from the source instance, potentially making parts of the original instance unusable afterward. The compiler tracks these partial moves intelligently, allowing you to continue using fields that weren't moved while preventing access to moved fields.
-
-### Tuple Structures and Unit Structures
-
-Rust supports tuple structures, which are structures with unnamed fields accessed by index rather than by name. These are useful for simple wrapper types or when you need a structure but don't require named fields. You access tuple structure fields using dot notation followed by the field index, such as `.0` for the first field, `.1` for the second, and so on. This approach works well for structures that wrap a single value or contain just a few closely related values where names might be redundant.
-
-Unit structures represent the simplest form of structures—they contain no data at all. While this might seem pointless initially, unit structures become valuable when working with Rust's trait system, as they can implement behaviors without storing any data. These empty structures serve as markers or placeholders in more advanced Rust patterns.
-
-### Methods and Associated Functions
-
-Structures become more powerful when you add behavior through implementation blocks. Using the `impl` keyword followed by the structure name, you can define methods that operate on instances of your structure. Methods are functions that take `self` as their first parameter, which can be an owned value (`self`), an immutable reference (`&self`), or a mutable reference (`&mut self`), depending on what the method needs to do with the instance.
-
-The choice of `self` parameter type determines the method's behavior regarding ownership. Methods taking `&self` can read from the instance without taking ownership, making them suitable for operations that don't modify the structure. Methods taking `&mut self` can modify the instance while still allowing the caller to retain ownership. Methods taking `self` by value consume the instance, which is appropriate for operations that transform the structure into something else or when the method represents the final operation on that instance.
-
-Associated functions are functions defined within an implementation block that don't take `self` as a parameter. These are similar to static methods in other languages and are commonly used as constructors or utility functions related to the type. You call associated functions using the double colon syntax (`Type::function_name()`), which clearly distinguishes them from methods called on instances.
-
-#### Enumerations: Modeling Choices and Variants
-
-Enumerations in Rust are significantly more powerful than enums in many other languages. While they can represent simple sets of named constants, Rust enums can also carry data within each variant, making them excellent tools for modeling situations where a value can be one of several different types or states. Each enum variant can contain different types and amounts of data, from no data at all to complex structures with named fields.
-
-The ability to attach data to enum variants eliminates many common programming errors found in other languages. Instead of maintaining separate variables for a type indicator and the associated data—which can easily become inconsistent—Rust enums bundle the type information with the data itself. This design ensures that the data always matches the variant, preventing mismatches that could lead to runtime errors.
-
-Enum variants can contain data in several forms: no data for simple flags, tuple-like data for unnamed fields, or struct-like data with named fields. You can even mix these styles within a single enum, choosing the most appropriate form for each variant. This flexibility makes enums suitable for modeling complex domain concepts where different cases require different information.
-
-#### The Option Type: Handling Absence Safely
-
-One of Rust's most important enums is `Option<T>`, which represents values that may or may not be present. This enum has two variants: `Some(T)` containing a value of type T, and `None` representing the absence of a value. The Option type serves as Rust's solution to null pointer problems that plague many other languages, forcing developers to explicitly handle cases where values might be missing.
-
-Using Option types makes your code more robust because the compiler requires you to handle both the presence and absence of values. You cannot accidentally use a potentially missing value without first checking whether it exists. This explicit handling prevents null pointer exceptions and similar runtime errors that are common sources of bugs in other programming languages.
-
-The Option type integrates seamlessly with Rust's pattern matching system, allowing you to handle both cases elegantly. Methods like `unwrap_or()` provide convenient ways to extract values with fallback defaults, while methods like `map()` and `and_then()` enable functional programming patterns for working with optional values.
-
-### Pattern Matching with Match Expressions
-
-Pattern matching through `match` expressions provides a powerful way to work with enums and other data types. A match expression examines a value and executes different code based on which pattern the value matches. Each pattern can destructure the matched value, binding parts of it to variables that can be used in the corresponding code block.
-
-Match expressions must be exhaustive, meaning they must handle every possible case for the type being matched. This requirement prevents bugs that could occur if certain cases were accidentally left unhandled. When you don't want to handle every case explicitly, you can use the wildcard pattern (`_`) to catch all remaining cases, or bind unhandled cases to a variable if you need access to the value.
-
-The `if let` construct provides a more concise alternative to match when you only care about one specific pattern. This syntax is particularly useful when working with Option types or when you want to execute code only if a value matches a particular enum variant. The `if let` construct can include an `else` clause for cases where the pattern doesn't match, making it a streamlined way to handle simple pattern matching scenarios.
-
-#### Collections: Managing Groups of Data
-
-Rust's standard library provides several collection types for managing groups of related data. These collections are generic, meaning they can store elements of any type, and they handle memory management automatically. The most commonly used collections are vectors for ordered lists, hash maps for key-value associations, and strings for text data.
-
-#### Vectors: Dynamic Arrays
-
-Vectors represent growable arrays that can change size during program execution. Unlike fixed-size arrays, vectors allocate memory on the heap and can expand or shrink as needed. Creating a vector often requires explicit type annotation when starting with an empty vector, since the compiler needs to know what type of elements the vector will contain.
-
-Vectors provide multiple ways to access elements, each with different safety characteristics. Index notation (`vec[0]`) provides direct access but will panic if the index is out of bounds. The `get()` method returns an `Option`, allowing you to handle out-of-bounds access gracefully. The choice between these approaches depends on whether you can guarantee the index is valid or need to handle potential failures.
-
-Rust's borrowing rules apply to vectors, preventing common memory safety issues. If you hold a reference to a vector element, you cannot modify the vector until that reference goes out of scope. This prevents situations where references might point to deallocated memory after vector operations like pushing new elements or clearing the vector.
-
-#### Hash Maps: Key-Value Storage
-
-Hash maps provide efficient key-value storage where you can quickly look up values based on their associated keys. Both keys and values can be of any type, though keys must implement the necessary traits for hashing and equality comparison. Hash maps take ownership of inserted values unless the values implement the Copy trait.
-
-Hash maps offer several methods for inserting and updating values. The basic `insert()` method will overwrite existing values, while `entry()` provides more sophisticated insertion logic. The entry API allows you to insert values only if they don't already exist, or to update existing values based on their current state. This API is particularly useful for patterns like counting occurrences or maintaining running totals.
-
-When retrieving values from hash maps, the `get()` method returns an `Option` since the requested key might not exist. You can use methods like `copied()` to convert from `Option<&T>` to `Option<T>` for Copy types, and `unwrap_or()` to provide default values when keys are missing.
-
-### String Handling and Unicode
-
-Strings in Rust are UTF-8 encoded, which provides full Unicode support but introduces complexity compared to simple ASCII strings. The `String` type represents owned, growable text data, while string slices (`&str`) provide borrowed views into string data. You can convert between these types as needed, with string slices often used for function parameters to accept both owned strings and string literals.
-
-String manipulation includes methods for appending text, formatting multiple values together, and extracting substrings. The `push_str()` method appends string slices without taking ownership, while the `format!` macro provides a flexible way to construct strings from multiple components. When working with string indices, you must be careful to respect UTF-8 character boundaries to avoid runtime panics.
-
-For safe character-by-character processing, strings provide iterator methods like `chars()` for Unicode scalar values and `bytes()` for raw byte access. These iterators handle UTF-8 encoding correctly, ensuring you don't accidentally split multi-byte characters. This approach is safer and more reliable than manual indexing, especially when working with international text that may contain complex Unicode characters.
+ساختارها در Rust به عنوان پایه‌ای برای ایجاد انواع داده‌های پیچیده عمل می‌کنند، مشابه کلاس‌ها در سایر زبان‌های برنامه‌نویسی. آن‌ها به شما اجازه می‌دهند داده‌های مرتبط را در یک واحد منسجم و واحد که می‌تواند شامل چندین فیلد از انواع مختلف باشد، گروه‌بندی کنید. نحو تعریف یک ساختار از یک الگوی ساده پیروی می‌کند: شما از کلمه کلیدی `struct` به دنبال نام ساختار استفاده می‌کنید، سپس فیلدها را در داخل آکولادها با استفاده از نحو کولون برای مشخص کردن نوع هر فیلد تعریف می‌کنید.
 
 
-## Rust's Two-Category Error Handling System
+Rust از قراردادهای نام‌گذاری خاصی برای ساختارها پیروی می‌کند که کامپایلر از طریق هشدارها آن‌ها را اعمال خواهد کرد. نام‌های ساختار باید از CamelCase (که به عنوان PascalCase نیز شناخته می‌شود) استفاده کنند، در حالی که نام‌های فیلدها درون ساختار باید از snake_case با زیرخط‌ها استفاده کنند. این قرارداد به حفظ یکنواختی در کدبیس‌های Rust کمک می‌کند و کد را برای سایر توسعه‌دهندگان خواناتر می‌سازد.
+
+
+ایجاد نمونه‌هایی از ساختارها نیازمند مشخص کردن مقادیر برای تمامی فیلدها با استفاده از نام ساختار و سپس آکولادهایی است که شامل تخصیص فیلدها هستند. هنگامی که یک نمونه از ساختار دارید، می‌توانید به فیلدهای فردی دسترسی پیدا کرده و آن‌ها را با استفاده از نشانه‌گذاری نقطه‌ای تغییر دهید، به شرطی که نمونه به صورت قابل تغییر اعلام شده باشد. این نشانه‌گذاری نقطه‌ای به طور مداوم در Rust کار می‌کند، برخلاف زبان‌هایی مانند C++ که ممکن است از عملگرهای مختلفی برای اشاره‌گرها در مقابل اشیاء مستقیم استفاده کنید.
+
+
+### توابع سازنده و میانبرهای فیلد
+
+
+Rust مانند برخی زبان‌های شیءگرا سازنده‌های داخلی ندارد، اما می‌توانید توابعی ایجاد کنید که نمونه‌های ساختار را برای همان هدف بازگردانند. این توابع سازنده معمولاً پارامترهایی برای برخی یا همه فیلدها می‌گیرند و ممکن است مقادیر پیش‌فرضی برای دیگران تنظیم کنند. هنگام نوشتن چنین توابعی، Rust یک میانبر راحت ارائه می‌دهد: اگر یک پارامتر همان نام فیلد ساختار را داشته باشد، می‌توانید به سادگی نام فیلد را یک بار بنویسید به جای اینکه آن را در قالب `field: value` تکرار کنید.
+
+
+نمونه‌های ساختار را می‌توان با کپی کردن مقادیر از نمونه‌های موجود با استفاده از نحو به‌روزرسانی ساختار ایجاد کرد. این ویژگی به شما امکان می‌دهد یک نمونه جدید ایجاد کنید در حالی که فقط فیلدهایی را که می‌خواهید تغییر دهید مشخص می‌کنید و سایر فیلدها از یک نمونه موجود کپی می‌شوند. با این حال، این عملیات از قوانین مالکیت Rust پیروی می‌کند، به این معنی که انواع غیر-Copy از نمونه منبع منتقل می‌شوند و ممکن است بخش‌هایی از نمونه اصلی پس از آن غیرقابل استفاده شوند. کامپایلر این انتقال‌های جزئی را به‌طور هوشمندانه پیگیری می‌کند و به شما اجازه می‌دهد از فیلدهایی که منتقل نشده‌اند استفاده کنید و در عین حال از دسترسی به فیلدهای منتقل شده جلوگیری می‌کند.
+
+
+### ساختارهای تاپل و ساختارهای واحد
+
+
+Rust از ساختارهای تاپل پشتیبانی می‌کند، که ساختارهایی با فیلدهای بدون نام هستند که به جای نام، با شاخص دسترسی پیدا می‌کنند. این‌ها برای انواع ساده‌ی بسته‌بندی یا زمانی که به یک ساختار نیاز دارید اما نیازی به فیلدهای نام‌گذاری شده ندارید، مفید هستند. شما به فیلدهای ساختار تاپل با استفاده از نشانه‌گذاری نقطه‌ای به دنبال شاخص فیلد دسترسی پیدا می‌کنید، مانند `.0` برای فیلد اول، `.1` برای فیلد دوم و به همین ترتیب. این روش برای ساختارهایی که یک مقدار واحد را بسته‌بندی می‌کنند یا فقط شامل چند مقدار نزدیک به هم هستند که نام‌ها ممکن است زائد باشند، به خوبی کار می‌کند.
+
+
+ساختارهای واحد ساده‌ترین شکل ساختارها را نشان می‌دهند—آن‌ها هیچ داده‌ای را در بر ندارند. در حالی که این موضوع در ابتدا بی‌معنی به نظر می‌رسد، ساختارهای واحد در هنگام کار با سیستم ویژگی Rust ارزشمند می‌شوند، زیرا می‌توانند رفتارهایی را بدون ذخیره‌سازی داده‌ها پیاده‌سازی کنند. این ساختارهای خالی به عنوان نشانگرها یا جای‌نگهدارها در الگوهای پیشرفته‌تر Rust عمل می‌کنند.
+
+
+### روش‌ها و توابع مرتبط
+
+
+ساختارها با افزودن رفتار از طریق بلوک‌های پیاده‌سازی، قابلیت‌های اضافی کسب می‌کنند. با استفاده از کلمه کلیدی `impl` که به دنبال آن نام ساختار می‌آید، می‌توانید متدهایی تعریف کنید که بر روی نمونه‌های ساختار شما عمل می‌کنند. متدها توابعی هستند که `self` را به عنوان اولین پارامتر خود می‌گیرند، که می‌تواند یک مقدار مالکیت‌شده (`self`)، یک ارجاع غیرقابل تغییر (`&self`) یا یک ارجاع قابل تغییر (`&mut self`) باشد، بسته به اینکه متد نیاز دارد با نمونه چه کاری انجام دهد.
+
+
+نوع پارامتر `self` انتخابی رفتار متد را در مورد مالکیت تعیین می‌کند. متدهایی که `&self` می‌گیرند می‌توانند بدون گرفتن مالکیت از نمونه بخوانند، که آن‌ها را برای عملیات‌هایی که ساختار را تغییر نمی‌دهند مناسب می‌سازد. متدهایی که `&mut self` می‌گیرند می‌توانند نمونه را تغییر دهند در حالی که همچنان به فراخواننده اجازه می‌دهند مالکیت را حفظ کند. متدهایی که `self` را به صورت مقداری می‌گیرند نمونه را مصرف می‌کنند، که برای عملیات‌هایی که ساختار را به چیز دیگری تبدیل می‌کنند یا زمانی که متد نمایانگر عملیات نهایی بر روی آن نمونه است مناسب است.
+
+
+توابع وابسته توابعی هستند که در یک بلوک پیاده‌سازی تعریف شده‌اند و `self` را به عنوان پارامتر نمی‌گیرند. این توابع مشابه متدهای استاتیک در زبان‌های دیگر هستند و معمولاً به عنوان سازنده‌ها یا توابع کمکی مرتبط با نوع استفاده می‌شوند. شما توابع وابسته را با استفاده از نحو دو نقطه (`Type::function_name()`) فراخوانی می‌کنید، که به وضوح آنها را از متدهایی که بر روی نمونه‌ها فراخوانی می‌شوند متمایز می‌کند.
+
+
+```rust
+// Define a struct for a Lightning invoice
+struct Invoice {
+payment_hash: String,
+amount_msat: u64,
+description: String,
+expiry_secs: u32,
+}
+
+impl Invoice {
+// Associated function (constructor) - no self parameter
+fn new(payment_hash: String, amount_msat: u64, description: String) -> Self {
+Invoice {
+payment_hash,
+amount_msat,
+description,
+expiry_secs: 3600, // default 1 hour
+}
+}
+
+// Method with &self - read-only access
+fn amount_sats(&self) -> u64 {
+self.amount_msat / 1000
+}
+
+// Method with &mut self - can modify the instance
+fn extend_expiry(&mut self, additional_secs: u32) {
+self.expiry_secs += additional_secs;
+}
+
+// Method with self - consumes the instance
+fn into_payment_request(self) -> String {
+format!("lnbc{}n1p{}", self.amount_msat, self.payment_hash)
+}
+}
+
+fn main() {
+// Use associated function to create instance
+let mut invoice = Invoice::new(
+"abc123".to_string(),
+100_000_000, // 100,000 sats in millisats
+"Coffee payment".to_string(),
+);
+
+println!("Amount: {} sats", invoice.amount_sats());
+invoice.extend_expiry(1800); // Add 30 minutes
+
+let request = invoice.into_payment_request();
+// invoice is now consumed, cannot be used anymore
+println!("Payment request: {}", request);
+}
+```
+
+
+#### شمارش‌ها: مدل‌سازی انتخاب‌ها و واریانت‌ها
+
+
+در Rust، شمارش‌ها قابلیت‌های بیشتری نسبت به شمارش‌ها در بسیاری از زبان‌های دیگر دارند. در حالی که می‌توانند مجموعه‌های ساده‌ای از ثابت‌های نام‌گذاری شده را نمایش دهند، شمارش‌های Rust می‌توانند داده‌ها را در هر واریانت حمل کنند، که آن‌ها را برای مدل‌سازی موقعیت‌هایی که یک مقدار می‌تواند یکی از چندین نوع یا حالت مختلف باشد، مناسب می‌سازد. هر واریانت شمارش می‌تواند حاوی انواع و مقادیر مختلفی از داده‌ها باشد، از بدون داده تا ساختارهای پیچیده با فیلدهای نام‌گذاری شده.
+
+
+قابلیت پیوست کردن داده به واریانت‌های enum بسیاری از خطاهای رایج برنامه‌نویسی که در زبان‌های دیگر یافت می‌شود را از بین می‌برد. به جای نگهداری متغیرهای جداگانه برای یک نشانگر نوع و داده‌های مرتبط—که به راحتی می‌توانند ناسازگار شوند—enumهای Rust اطلاعات نوع را با خود داده ترکیب می‌کنند. این طراحی تضمین می‌کند که داده همیشه با واریانت مطابقت دارد و از ناسازگاری‌هایی که می‌تواند به خطاهای زمان اجرا منجر شود جلوگیری می‌کند.
+
+
+انواع Enum می‌توانند داده‌ها را به چندین شکل در بر گیرند: بدون داده برای فلگ‌های ساده، داده‌های شبیه به تاپل برای فیلدهای بدون نام، یا داده‌های شبیه به ساختار با فیلدهای نام‌گذاری شده. شما حتی می‌توانید این سبک‌ها را در یک enum واحد ترکیب کنید و برای هر نوع، مناسب‌ترین فرم را انتخاب کنید. این انعطاف‌پذیری، enums را برای مدل‌سازی مفاهیم پیچیده دامنه که در آن موارد مختلف به اطلاعات متفاوتی نیاز دارند، مناسب می‌سازد.
+
+
+#### نوع گزینه: مدیریت غیاب به‌صورت ایمن
+
+
+یکی از مهم‌ترین enumهای Rust، `Option<T>` است که مقادیری را نشان می‌دهد که ممکن است وجود داشته باشند یا نداشته باشند. این enum دو نوع دارد: `Some(T)` که حاوی مقداری از نوع T است و `None` که نشان‌دهنده عدم وجود مقدار است. نوع Option به عنوان راه‌حل Rust برای مشکلات اشاره‌گرهای null که بسیاری از زبان‌های دیگر را گرفتار کرده‌اند، عمل می‌کند و توسعه‌دهندگان را مجبور می‌کند تا به‌طور صریح با مواردی که ممکن است مقادیر وجود نداشته باشند، برخورد کنند.
+
+
+استفاده از انواع Option کد شما را قوی‌تر می‌کند زیرا کامپایلر شما را ملزم می‌کند که هم حضور و هم عدم حضور مقادیر را مدیریت کنید. شما نمی‌توانید به طور تصادفی از یک مقدار که ممکن است وجود نداشته باشد استفاده کنید بدون اینکه ابتدا بررسی کنید آیا وجود دارد یا خیر. این مدیریت صریح از بروز استثناهای اشاره‌گر null و خطاهای زمان اجرا مشابه که منابع رایج باگ‌ها در زبان‌های برنامه‌نویسی دیگر هستند، جلوگیری می‌کند.
+
+
+نوع Option با سیستم تطبیق الگوی Rust ادغام می‌شود و به شما امکان می‌دهد هر دو حالت را مدیریت کنید. روش‌هایی مانند `unwrap_or()` راه‌های مناسبی برای استخراج مقادیر با مقادیر پیش‌فرض جایگزین ارائه می‌دهند، در حالی که روش‌هایی مانند `map()` و `and_then()` الگوهای برنامه‌نویسی تابعی را برای کار با مقادیر اختیاری امکان‌پذیر می‌سازند.
+
+
+### الگویابی با عبارات Match
+
+
+الگویابی از طریق عبارات `match` روشی برای کار با enumها و سایر انواع داده ارائه می‌دهد. یک عبارت match یک مقدار را بررسی می‌کند و بر اساس الگویی که مقدار با آن مطابقت دارد، کد متفاوتی را اجرا می‌کند. هر الگو می‌تواند مقدار مطابقت‌یافته را تجزیه کند و بخش‌هایی از آن را به متغیرهایی که می‌توانند در بلوک کد مربوطه استفاده شوند، متصل کند.
+
+
+عبارات تطبیق باید جامع باشند، به این معنی که باید هر حالت ممکن برای نوعی که تطبیق داده می‌شود را مدیریت کنند. این الزام از بروز باگ‌هایی که ممکن است در صورت نادیده گرفتن تصادفی برخی موارد رخ دهد، جلوگیری می‌کند. هنگامی که نمی‌خواهید هر حالت را به‌طور صریح مدیریت کنید، می‌توانید از الگوی کاراکتر عام (`_`) برای گرفتن تمام موارد باقی‌مانده استفاده کنید، یا اگر به دسترسی به مقدار نیاز دارید، موارد مدیریت‌نشده را به یک متغیر متصل کنید.
+
+
+ساختار `if let` جایگزین مختصر‌تری برای match فراهم می‌کند زمانی که شما فقط به یک الگوی خاص اهمیت می‌دهید. این نحو به‌ویژه زمانی مفید است که با انواع Option کار می‌کنید یا زمانی که می‌خواهید کدی را اجرا کنید فقط اگر یک مقدار با یک نوع خاص از enum مطابقت داشته باشد. ساختار `if let` می‌تواند شامل یک بند `else` برای مواردی باشد که الگو مطابقت ندارد، که آن را به روشی ساده برای مدیریت سناریوهای تطبیق الگوی ساده تبدیل می‌کند.
+
+
+#### مجموعه‌ها: مدیریت گروه‌های داده
+
+
+کتابخانه استاندارد Rust چندین نوع مجموعه برای مدیریت گروه‌های داده‌های مرتبط ارائه می‌دهد. این مجموعه‌ها عمومی هستند، به این معنی که می‌توانند عناصر از هر نوعی را ذخیره کنند و مدیریت حافظه را به‌طور خودکار انجام می‌دهند. مجموعه‌های پرکاربرد شامل وکتورها برای لیست‌های مرتب، نقشه‌های هش برای ارتباطات کلید-مقدار، و رشته‌ها برای داده‌های متنی هستند.
+
+
+#### بردارها: آرایه‌های پویا
+
+
+وکتورها نشان‌دهنده آرایه‌های قابل رشد هستند که می‌توانند در طول اجرای برنامه اندازه خود را تغییر دهند. برخلاف آرایه‌های با اندازه ثابت، وکتورها حافظه را در هیپ تخصیص می‌دهند و می‌توانند بر اساس نیاز گسترش یا کاهش یابند. ایجاد یک وکتور اغلب نیاز به حاشیه‌نویسی نوع صریح دارد وقتی که با یک وکتور خالی شروع می‌کنید، زیرا کامپایلر باید بداند که وکتور چه نوع عناصری را در بر خواهد داشت.
+
+
+وکتورها روش‌های متعددی برای دسترسی به عناصر ارائه می‌دهند که هر کدام ویژگی‌های ایمنی متفاوتی دارند. نشانه‌گذاری اندیس (`vec[0]`) دسترسی مستقیم فراهم می‌کند اما اگر اندیس خارج از محدوده باشد، باعث وحشت می‌شود. متد `get()` یک `Option` برمی‌گرداند که به شما امکان می‌دهد دسترسی خارج از محدوده را به‌طور مؤثر مدیریت کنید. انتخاب بین این روش‌ها بستگی به این دارد که آیا می‌توانید تضمین کنید اندیس معتبر است یا نیاز به مدیریت شکست‌های احتمالی دارید.
+
+
+قوانین قرض‌گیری Rust به بردارها اعمال می‌شود و از مشکلات رایج ایمنی حافظه جلوگیری می‌کند. اگر به یک عنصر بردار ارجاع دارید، نمی‌توانید بردار را تغییر دهید تا زمانی که آن ارجاع از حوزه خارج شود. این امر از موقعیت‌هایی جلوگیری می‌کند که در آن ارجاعات ممکن است پس از عملیات بردار مانند افزودن عناصر جدید یا پاک کردن بردار به حافظه آزاد شده اشاره کنند.
+
+
+#### نقشه‌های Hash: ذخیره‌سازی کلید-مقدار
+
+
+نقشه‌های Hash ذخیره‌سازی کلید-مقدار کارآمدی را فراهم می‌کنند که در آن می‌توانید به سرعت مقادیر را بر اساس کلیدهای مرتبطشان جستجو کنید. هم کلیدها و هم مقادیر می‌توانند از هر نوعی باشند، اگرچه کلیدها باید ویژگی‌های لازم برای هش کردن و مقایسه برابری را پیاده‌سازی کنند. نقشه‌های Hash مالکیت مقادیر وارد شده را به عهده می‌گیرند مگر اینکه مقادیر ویژگی Copy را پیاده‌سازی کنند.
+
+
+نقشه‌های Hash چندین روش برای وارد کردن و به‌روزرسانی مقادیر ارائه می‌دهند. روش پایه `insert()` مقادیر موجود را بازنویسی می‌کند، در حالی که `entry()` منطق درج انعطاف‌پذیرتری را فراهم می‌کند. ورودی API به شما اجازه می‌دهد تا مقادیر را فقط در صورتی که قبلاً وجود ندارند وارد کنید، یا مقادیر موجود را بر اساس وضعیت فعلی آن‌ها به‌روزرسانی کنید. این API برای الگوهایی مانند شمارش وقوع‌ها یا حفظ مجموع‌های جاری مفید است.
+
+
+هنگام بازیابی مقادیر از نقشه‌های هش، متد `get()` یک `Option` برمی‌گرداند زیرا ممکن است کلید درخواست‌شده وجود نداشته باشد. می‌توانید از متدهایی مانند `copied()` برای تبدیل از `Option<&T>` به `Option<T>` برای انواع Copy استفاده کنید و از `unwrap_or()` برای ارائه مقادیر پیش‌فرض زمانی که کلیدها وجود ندارند، بهره ببرید.
+
+
+### مدیریت رشته و یونیکد
+
+
+رشته‌ها در Rust به صورت UTF-8 کدگذاری شده‌اند که پشتیبانی کامل از یونیکد را فراهم می‌کند اما در مقایسه با رشته‌های ساده ASCII پیچیدگی بیشتری را معرفی می‌کند. نوع `String` متن داده‌ای قابل مالکیت و قابل رشد را نشان می‌دهد، در حالی که برش‌های رشته‌ای (`&str`) نمایی قرضی از داده‌های رشته‌ای ارائه می‌دهند. شما می‌توانید بین این انواع تبدیل کنید، با برش‌های رشته‌ای که اغلب برای پارامترهای تابع استفاده می‌شوند تا هم رشته‌های مالکیت‌دار و هم رشته‌های ثابت را بپذیرند.
+
+
+دستکاری رشته شامل روش‌هایی برای افزودن متن، قالب‌بندی چندین مقدار با هم، و استخراج زیررشته‌ها است. متد `push_str()` برش‌های رشته را بدون گرفتن مالکیت اضافه می‌کند، در حالی که ماکروی `format!` راهی انعطاف‌پذیر برای ساخت رشته‌ها از چندین مؤلفه ارائه می‌دهد. هنگام کار با شاخص‌های رشته، باید مراقب باشید که مرزهای کاراکتر UTF-8 را رعایت کنید تا از بروز خطاهای زمان اجرا جلوگیری شود.
+
+
+برای پردازش ایمن کاراکتر به کاراکتر، رشته‌ها متدهای تکرارگری مانند `chars()` برای مقادیر اسکالر یونیکد و `bytes()` برای دسترسی به بایت خام ارائه می‌دهند. این تکرارگرها کدگذاری UTF-8 را به درستی مدیریت می‌کنند و اطمینان می‌دهند که به طور تصادفی کاراکترهای چند بایتی را تقسیم نمی‌کنید. این روش ایمن‌تر و قابل اطمینان‌تر از ایندکس‌گذاری دستی است، به ویژه زمانی که با متون بین‌المللی که ممکن است حاوی کاراکترهای پیچیده یونیکد باشند کار می‌کنید.
+
+
+
+## سیستم مدیریت خطای دو دسته‌ای Rust
+
 <chapterId>915e523a-8fbd-5789-ab42-99b56a2a16c3</chapterId>
+
 
 :::video id=0f2f6f68-52ca-474f-a64f-ba61cdc92821:::
 
-Rust takes a fundamentally different approach to error handling compared to most programming languages. While many languages rely primarily on exceptions, Rust distinguishes between two distinct categories of errors and provides specific mechanisms for handling each type. This chapter explores Rust's comprehensive error handling system, covering both unrecoverable errors that terminate program execution and recoverable errors that allow programs to continue running gracefully.
+Rust رویکردی اساساً متفاوت به مدیریت خطا در مقایسه با اکثر زبان‌های برنامه‌نویسی اتخاذ می‌کند. در حالی که بسیاری از زبان‌ها عمدتاً به استثناها متکی هستند، Rust بین دو دسته متمایز از خطاها تمایز قائل می‌شود و مکانیزم‌های خاصی برای مدیریت هر نوع ارائه می‌دهد. این فصل سیستم جامع مدیریت خطای Rust را بررسی می‌کند و هم خطاهای غیرقابل بازیابی که اجرای برنامه را خاتمه می‌دهند و هم خطاهای قابل بازیابی که به برنامه‌ها اجازه می‌دهند به طور مؤثر به اجرا ادامه دهند را پوشش می‌دهد.
 
-### Unrecoverable Errors and Panic
 
-Unrecoverable errors represent situations where the program has entered an inconsistent or unexpected state from which it cannot safely recover. These include scenarios like accessing an array out of bounds, attempting operations that violate memory safety, or encountering conditions that indicate fundamental program logic errors. When such errors occur, the appropriate response is to terminate the program immediately rather than risk further corruption or undefined behavior.
+### خطاهای غیرقابل بازیابی و وحشت
 
-In Rust, unrecoverable errors trigger a panic, which causes the program to crash in a controlled manner. Before terminating, Rust performs a process called unwinding, where it walks back through the call stack to provide a detailed stack trace showing exactly where the panic occurred. This unwinding process helps developers identify the source of the problem during debugging. For performance-critical applications or embedded systems, you can disable unwinding and configure Rust to abort immediately when a panic occurs, though this sacrifices debugging information for faster termination.
 
-You can trigger a panic explicitly using the `panic!` macro with a custom message. When a panic occurs, you'll see output indicating which thread panicked and the associated message. Setting the `RUST_BACKTRACE` environment variable provides additional debugging information, showing the complete call stack that led to the panic. For example, attempting to access element 99 of a vector containing only three elements will generate a panic with an "index out of bounds" message, along with a backtrace showing the exact sequence of function calls that resulted in the error.
+خطاهای غیرقابل بازیابی نشان‌دهنده وضعیت‌هایی هستند که در آن برنامه به حالتی ناسازگار یا غیرمنتظره وارد شده است که نمی‌تواند به‌طور ایمن بازیابی شود. این موارد شامل سناریوهایی مانند دسترسی به آرایه خارج از محدوده، تلاش برای انجام عملیاتی که ایمنی حافظه را نقض می‌کند، یا مواجهه با شرایطی که نشان‌دهنده خطاهای اساسی در منطق برنامه هستند، می‌شود. هنگامی که چنین خطاهایی رخ می‌دهند، پاسخ مناسب این است که برنامه را بلافاصله خاتمه دهیم تا از خطر فساد بیشتر یا رفتار نامشخص جلوگیری شود.
 
-### Recoverable Errors with Result
 
-Recoverable errors represent expected failure conditions that programs can handle gracefully without terminating. Examples include attempting to open a file that doesn't exist, network connection failures, or invalid user input. For these situations, Rust provides the `Result` enum, which explicitly represents operations that might fail and forces developers to handle both success and failure cases.
+در Rust، خطاهای غیرقابل بازیابی یک وحشت را تحریک می‌کنند که باعث می‌شود برنامه به صورت کنترل‌شده‌ای کرش کند. قبل از خاتمه، Rust فرآیندی به نام بازگشت را انجام می‌دهد، که در آن از طریق پشته فراخوانی به عقب برمی‌گردد تا یک ردیابی پشته دقیق ارائه دهد که دقیقاً نشان می‌دهد وحشت کجا رخ داده است. این فرآیند بازگشت به توسعه‌دهندگان کمک می‌کند تا منبع مشکل را در حین اشکال‌زدایی شناسایی کنند. برای برنامه‌های حساس به عملکرد یا سیستم‌های تعبیه‌شده، می‌توانید بازگشت را غیرفعال کرده و Rust را طوری پیکربندی کنید که بلافاصله هنگام وقوع وحشت متوقف شود، اگرچه این کار اطلاعات اشکال‌زدایی را برای خاتمه سریع‌تر قربانی می‌کند.
 
-The `Result` enum is defined with two variants: `Ok(T)` for successful operations containing a value of type `T`, and `Err(E)` for failures containing an error of type `E`. This design uses Rust's type system to ensure that potential failures cannot be ignored. Functions that might fail return a `Result`, and calling code must explicitly handle both the success and error cases, typically using pattern matching with `match` expressions.
 
-Consider the `File::open` function, which returns a `Result<File, std::io::Error>`. When opening a file, you receive either a `File` object if successful or an `std::io::Error` if the operation fails. You can match on this result to handle each case appropriately. In the success case, you might proceed with file operations, while in the error case, you might attempt to create the file, try an alternative approach, or propagate the error to the calling code. This explicit handling ensures that your program makes conscious decisions about error recovery rather than crashing unexpectedly.
+می‌توانید با استفاده از ماکروی `panic!` و یک پیام سفارشی، به‌طور صریح یک وحشت را ایجاد کنید. هنگامی که یک وحشت رخ می‌دهد، خروجی‌ای را مشاهده خواهید کرد که نشان می‌دهد کدام رشته دچار وحشت شده و پیام مرتبط با آن چیست. تنظیم متغیر محیطی `RUST_BACKTRACE` اطلاعات اشکال‌زدایی اضافی را فراهم می‌کند و پشته کامل فراخوانی که منجر به وحشت شده را نشان می‌دهد. به عنوان مثال، تلاش برای دسترسی به عنصر 99 از یک وکتور که تنها سه عنصر دارد، یک وحشت با پیام "index out of bounds" ایجاد می‌کند، همراه با یک backtrace که توالی دقیق فراخوانی‌های تابع که منجر به خطا شده را نشان می‌دهد.
 
-### Error Handling Patterns and Shortcuts
 
-While explicit pattern matching provides complete control over error handling, Rust offers several convenience methods for common error handling patterns. The `unwrap` method extracts the success value from a `Result` but panics if an error occurs, making it useful for quick prototyping or situations where you're confident an operation will succeed. The `expect` method works similarly but allows you to provide a custom panic message, making debugging easier when things go wrong.
+### خطاهای قابل بازیابی با نتیجه
 
-For more sophisticated error handling, methods like `unwrap_or_else` allow you to provide a closure that executes when an error occurs, enabling custom recovery logic. You can chain these operations together to handle complex scenarios, such as attempting to open a file and creating it if it doesn't exist, with different error handling strategies for each step.
 
-The question mark operator (`?`) provides an elegant solution for error propagation, which is extremely common in Rust programs. When you append `?` to a `Result`, it automatically unwraps successful values and returns errors immediately from the current function. This operator can only be used in functions that return `Result` types, ensuring that errors can be properly propagated up the call stack. The `?` operator makes error handling code much more readable by eliminating verbose match expressions while maintaining explicit error propagation semantics.
+خطاهای قابل بازیابی نشان‌دهنده شرایط شکست مورد انتظار هستند که برنامه‌ها می‌توانند بدون خاتمه به‌طور مؤدبانه با آن‌ها برخورد کنند. مثال‌ها شامل تلاش برای باز کردن فایلی که وجود ندارد، شکست‌های اتصال شبکه، یا ورودی نامعتبر کاربر است. برای این موقعیت‌ها، Rust `Result` enum را فراهم می‌کند که به‌طور صریح عملیات‌هایی را که ممکن است شکست بخورند نشان می‌دهد و توسعه‌دهندگان را مجبور می‌کند تا هر دو حالت موفقیت و شکست را مدیریت کنند.
 
-### Error Propagation and Function Design
 
-Error propagation is a fundamental concept in Rust error handling, allowing functions to pass errors up the call stack rather than handling them locally. When designing functions that might fail, you should return `Result` types to give callers the flexibility to decide how to handle errors. This approach promotes composable error handling where each function in the call chain can either handle errors locally or pass them up to higher-level code that has more context for making recovery decisions.
+`Result` enum با دو نوع متغیر تعریف شده است: `Ok(T)` برای عملیات موفق که حاوی مقداری از نوع `T` است، و `Err(E)` برای شکست‌ها که حاوی خطایی از نوع `E` است. این طراحی از سیستم نوع Rust استفاده می‌کند تا اطمینان حاصل شود که شکست‌های احتمالی نمی‌توانند نادیده گرفته شوند. توابعی که ممکن است شکست بخورند یک `Result` برمی‌گردانند و کد فراخوان باید به‌طور صریح هر دو حالت موفقیت و خطا را مدیریت کند، که معمولاً با استفاده از تطبیق الگو با عبارات `match` انجام می‌شود.
 
-The question mark operator makes error propagation particularly elegant. Instead of writing verbose match expressions for every potentially failing operation, you can chain operations together with `?` operators, creating clean, readable code that handles the happy path while automatically propagating any errors that occur. This pattern is so common that many Rust functions are designed specifically to work well with the `?` operator, enabling fluent error handling throughout your codebase.
 
-When deciding between panicking and returning errors, consider whether the calling code can reasonably recover from the failure. If a failure represents a programming error or an unrecoverable system state, panicking is appropriate. However, if the failure is an expected condition that calling code might handle differently depending on context, returning a `Result` provides better flexibility and composability.
+تابع `File::open` را در نظر بگیرید که یک `Result<File, std::io::Error>` برمی‌گرداند. هنگام باز کردن یک فایل، یا یک شیء `File` دریافت می‌کنید اگر عملیات موفق باشد، یا یک `std::io::Error` اگر عملیات شکست بخورد. می‌توانید با استفاده از match روی این نتیجه، هر حالت را به‌طور مناسب مدیریت کنید. در حالت موفقیت، ممکن است با عملیات فایل ادامه دهید، در حالی که در حالت خطا، ممکن است تلاش کنید فایل را ایجاد کنید، یک روش جایگزین را امتحان کنید، یا خطا را به کد فراخوانی‌کننده منتقل کنید. این مدیریت صریح تضمین می‌کند که برنامه شما تصمیمات آگاهانه‌ای درباره بازیابی از خطا می‌گیرد و به‌جای آنکه به‌طور غیرمنتظره‌ای خراب شود.
 
-### Best Practices and Design Considerations
 
-Effective error handling in Rust requires thoughtful consideration of when to panic versus when to return errors. Use panics for situations that represent programming errors or states that should never occur in correct programs, such as accessing hardcoded data that you know is valid. For example, parsing a hardcoded IP address string that you've verified is correct can safely use `expect` with a descriptive message explaining why the operation should never fail.
+### الگوها و میانبرهای مدیریت خطا
 
-For user-controlled input or external system interactions, always prefer returning `Result` types rather than panicking. Users make mistakes, files get deleted, and network connections fail – these are normal conditions that well-designed programs should handle gracefully. By returning errors for these situations, you allow calling code to implement appropriate recovery strategies, whether that's prompting the user for different input, falling back to default values, or displaying helpful error messages.
 
-Consider creating custom types that enforce validation at construction time to prevent invalid states from propagating through your program. For example, if your program requires numbers within a specific range, create a wrapper type that validates input during construction and provides no way to create invalid instances. This approach uses Rust's type system to eliminate entire classes of errors by making invalid states unrepresentable, reducing the need for runtime error checking throughout your codebase.
+در حالی که تطبیق الگو به صورت صریح کنترل کامل بر مدیریت خطا را فراهم می‌کند، Rust چندین روش راحتی برای الگوهای رایج مدیریت خطا ارائه می‌دهد. متد `unwrap` مقدار موفقیت را از یک `Result` استخراج می‌کند اما اگر خطایی رخ دهد، باعث وحشت می‌شود، که این امر آن را برای نمونه‌سازی سریع یا موقعیت‌هایی که به موفقیت عملیات اطمینان دارید، مفید می‌سازد. متد `expect` به طور مشابه عمل می‌کند اما به شما اجازه می‌دهد یک پیام وحشت سفارشی ارائه دهید، که هنگام بروز مشکل، اشکال‌زدایی را آسان‌تر می‌کند.
 
-## Functional Programming Features, Closures and Smart Pointers
+
+برای مدیریت خطا به‌صورت انعطاف‌پذیرتر، روش‌هایی مانند `unwrap_or_else` به شما اجازه می‌دهند تا یک closure ارائه دهید که در صورت وقوع خطا اجرا می‌شود و منطق بازیابی سفارشی را امکان‌پذیر می‌سازد. شما می‌توانید این عملیات‌ها را به هم زنجیر کنید تا سناریوهای پیچیده را مدیریت کنید، مانند تلاش برای باز کردن یک فایل و ایجاد آن در صورت عدم وجود، با استراتژی‌های مختلف مدیریت خطا برای هر مرحله.
+
+
+عملگر علامت سوال (`?`) یک نحو مختصر برای انتشار خطا ارائه می‌دهد که در برنامه‌های Rust رایج است. هنگامی که `?` را به یک `Result` اضافه می‌کنید، به طور خودکار مقادیر موفقیت‌آمیز را باز می‌کند و خطاها را بلافاصله از تابع فعلی بازمی‌گرداند. این عملگر فقط در توابعی که نوع `Result` را بازمی‌گردانند قابل استفاده است، و اطمینان حاصل می‌کند که خطاها می‌توانند به درستی در پشته فراخوانی منتشر شوند. عملگر `?` کد مدیریت خطا را با حذف عبارات تطبیق پرحجم و در عین حال حفظ معنای صریح انتشار خطا، بسیار خواناتر می‌کند.
+
+
+```rust
+use std::fs::File;
+use std::io::{self, Read};
+
+// Custom error type for wallet operations
+#[derive(Debug)]
+enum WalletError {
+FileNotFound,
+InvalidFormat,
+InsufficientFunds,
+}
+
+// Function returning Result for recoverable errors
+fn load_wallet_balance(path: &str) -> Result<u64, WalletError> {
+// Simulate reading from file
+let balance_str = "150000"; // Would normally read from file
+balance_str
+.parse::<u64>()
+.map_err(|_| WalletError::InvalidFormat)
+}
+
+// Using the ? operator for clean error propagation
+fn send_payment(amount: u64) -> Result<String, WalletError> {
+let balance = load_wallet_balance("wallet.dat")?; // Propagates error if it fails
+
+if balance < amount {
+return Err(WalletError::InsufficientFunds);
+}
+
+Ok(format!("Sent {} sats, remaining: {}", amount, balance - amount))
+}
+
+fn main() {
+// Handle the Result explicitly
+match send_payment(50_000) {
+Ok(msg) => println!("Success: {}", msg),
+Err(WalletError::InsufficientFunds) => println!("Error: Not enough funds"),
+Err(WalletError::FileNotFound) => println!("Error: Wallet file not found"),
+Err(WalletError::InvalidFormat) => println!("Error: Corrupted wallet file"),
+}
+
+// Or use unwrap_or_else for custom fallback
+let result = send_payment(200_000)
+.unwrap_or_else(|e| format!("Payment failed: {:?}", e));
+println!("{}", result);
+}
+```
+
+
+### انتشار خطا و طراحی تابع
+
+
+انتشار خطا یک مفهوم اساسی در مدیریت خطای Rust است که به توابع اجازه می‌دهد خطاها را به جای مدیریت محلی، به بالای پشته فراخوانی منتقل کنند. هنگام طراحی توابعی که ممکن است شکست بخورند، باید انواع `Result` را برگردانید تا به فراخوانان انعطاف‌پذیری در تصمیم‌گیری درباره نحوه مدیریت خطاها بدهید. این رویکرد، مدیریت خطای ترکیبی را ترویج می‌دهد که در آن هر تابع در زنجیره فراخوانی می‌تواند خطاها را به صورت محلی مدیریت کند یا آنها را به کد سطح بالاتری که زمینه بیشتری برای تصمیم‌گیری‌های بازیابی دارد، منتقل کند.
+
+
+عملگر علامت سوال ساده‌سازی انتشار خطا را فراهم می‌کند. به جای نوشتن عبارات تطبیق طولانی برای هر عملیات بالقوه ناموفق، می‌توانید عملیات‌ها را با عملگرهای `?` به هم زنجیر کنید و کدی خوانا ایجاد کنید که مسیر موفقیت را مدیریت کرده و به طور خودکار هر خطایی که رخ می‌دهد را منتشر می‌کند. این الگو آنقدر رایج است که بسیاری از توابع Rust به طور خاص طراحی شده‌اند تا به خوبی با عملگر `?` کار کنند و مدیریت خطای روان را در سراسر کدبیس شما امکان‌پذیر می‌سازند.
+
+
+هنگام تصمیم‌گیری بین وحشت‌زدگی و بازگرداندن خطاها، در نظر بگیرید که آیا کد فراخوانی می‌تواند به طور منطقی از شکست بازیابی شود یا خیر. اگر یک شکست نشان‌دهنده یک خطای برنامه‌نویسی یا یک وضعیت غیرقابل بازیابی سیستم باشد، وحشت‌زدگی مناسب است. با این حال، اگر شکست یک وضعیت مورد انتظار باشد که کد فراخوانی ممکن است بسته به زمینه به طور متفاوتی با آن برخورد کند، بازگرداندن یک `Result` انعطاف‌پذیری و ترکیب‌پذیری بهتری را فراهم می‌کند.
+
+
+### بهترین روش‌ها و ملاحظات طراحی
+
+
+مدیریت مؤثر خطا در Rust نیازمند بررسی دقیق است که چه زمانی باید از panic استفاده کرد و چه زمانی باید خطاها را برگرداند. از panic برای موقعیت‌هایی استفاده کنید که نشان‌دهنده خطاهای برنامه‌نویسی یا وضعیت‌هایی هستند که در برنامه‌های صحیح هرگز نباید رخ دهند، مانند دسترسی به داده‌های هاردکد شده‌ای که می‌دانید معتبر هستند. به عنوان مثال، تجزیه یک رشته آدرس IP هاردکد شده که صحت آن را تأیید کرده‌اید، می‌تواند با اطمینان از `expect` با یک پیام توصیفی که توضیح می‌دهد چرا عملیات هرگز نباید شکست بخورد، استفاده کند.
+
+
+برای ورودی‌های کنترل‌شده توسط کاربر یا تعاملات با سیستم‌های خارجی، همیشه ترجیح دهید که انواع `Result` را برگردانید به جای اینکه برنامه را متوقف کنید. کاربران اشتباه می‌کنند، فایل‌ها حذف می‌شوند و اتصالات شبکه‌ای قطع می‌شوند – این‌ها شرایط عادی هستند که برنامه‌های خوب طراحی‌شده باید به‌طور مناسب مدیریت کنند. با برگرداندن خطاها برای این شرایط، به کد فراخوان اجازه می‌دهید تا استراتژی‌های بازیابی مناسب را پیاده‌سازی کند، چه این است که از کاربر درخواست ورودی متفاوت کند، به مقادیر پیش‌فرض برگردد، یا پیام‌های خطای مفید نمایش دهد.
+
+
+در نظر داشته باشید که انواع سفارشی ایجاد کنید که اعتبارسنجی را در زمان ساخت اعمال می‌کنند تا از انتشار حالت‌های نامعتبر در برنامه شما جلوگیری شود. به عنوان مثال، اگر برنامه شما به اعدادی در یک محدوده خاص نیاز دارد، یک نوع بسته‌بندی ایجاد کنید که ورودی را در طول ساخت اعتبارسنجی کند و هیچ راهی برای ایجاد نمونه‌های نامعتبر ارائه ندهد. این رویکرد از سیستم نوع Rust استفاده می‌کند تا کلاس‌های کامل خطا را با غیرقابل نمایش کردن حالت‌های نامعتبر حذف کند و نیاز به بررسی خطا در زمان اجرا را در سراسر کد شما کاهش دهد.
+
+
+## ویژگی‌های برنامه‌نویسی تابعی، بسته‌ها و اشاره‌گرهای هوشمند
+
 
 <chapterId>96d54999-cdbc-5601-acac-1bc7acbe2eb7</chapterId>
 
+
 :::video id=5514da77-5b71-4763-96b8-49eb21291c2b:::
 
-While Rust is not a pure functional programming language, it incorporates several powerful features inspired by functional programming paradigms. These features enable developers to write more expressive, concise, and safe code by leveraging concepts like closures and iterators. The designers of Rust deliberately included these functional elements to provide developers with flexible tools for data processing and callback mechanisms, making the language both systems-oriented and expressively powerful.
-
-The functional programming features in Rust are particularly valuable because they maintain the language's core principles of memory safety and zero-cost abstractions. When you use closures and iterators, you're not sacrificing performance for expressiveness – the Rust compiler optimizes these constructs to produce efficient machine code comparable to traditional loop-based approaches.
-
-### Understanding Closures
-
-Closures in Rust are anonymous functions that can capture variables from their surrounding environment. In other programming languages, these are often called lambda functions. The fundamental characteristic that makes closures powerful is their ability to "close over" their environment, meaning they can access and use variables that exist in the scope where the closure is defined.
-
-The syntax for closures uses pipe characters (`|`) instead of parentheses to define parameters. For a closure with no parameters, you write `||`, and for closures with parameters, you list them between the pipes like `|x, y|`. If the closure body consists of a single expression, you can omit the curly braces, making the syntax very concise.
-
-Consider this practical example of a t-shirt company that gives away exclusive shirts based on customer preferences. If a customer has specified a favorite color, they receive that color; otherwise, they get the most stocked color as a default. Using closures, this logic becomes elegant: `user_preference.unwrap_or_else(|| self.most_stocked())`. The closure `|| self.most_stocked()` provides the default value only when needed, and it can access `self` from its environment.
-
-### Closure Type Inference and Flexibility
-
-One of Rust's most convenient features with closures is automatic type inference. Unlike regular functions where you must explicitly specify parameter types and return types, closures can often infer these types from context. The compiler analyzes how the closure is used and determines the appropriate types automatically. However, once a closure is called with specific types, those types become fixed for that closure instance.
-
-You can store closures in variables just like any other value, making them first-class citizens in the language. When you assign a closure to a variable, you can call it later using parentheses: `let my_closure = |x| x + 1; let result = my_closure(5);`. This flexibility allows you to pass closures as arguments to functions, return them from functions, and use them in data structures.
-
-If the compiler cannot infer types or if you want to be explicit, you can annotate closure parameters and return types using syntax similar to functions: `|x: i32| -> i32 { x + 1 }`. This explicit typing is sometimes necessary in complex scenarios where the compiler needs additional information to resolve types correctly.
-
-### Capturing Environment Variables
-
-Closures can capture variables from their environment in three different ways: by immutable reference, by mutable reference, or by taking ownership. The Rust compiler automatically determines the most restrictive capture method that satisfies your closure's needs, following the principle of least privilege.
-
-When a closure only needs to read a value, it captures by immutable reference. This allows the original variable to remain accessible after the closure is defined and called. For example, a closure that prints a list will borrow the list immutably, allowing you to continue using the list after the closure executes.
-
-If a closure needs to modify a captured variable, it must capture by mutable reference. In this case, both the captured variable and the closure itself must be declared as mutable. The closure can then modify the captured variable, but the borrowing rules still apply – you cannot have other references to that variable while the mutable closure exists.
-
-The most restrictive capture method is taking ownership, which moves the captured variables into the closure. This is necessary when the closure might outlive the scope where the variables were originally defined, such as when spawning threads. You can force ownership capture using the `move` keyword before the closure parameters: `move |x| { /* closure body */ }`. This is essential for thread safety, as threads cannot safely borrow from other threads that might terminate and drop their variables.
-
-### Closure Traits and Function Types
-
-Rust represents closures through a sophisticated trait system with three key traits: `FnOnce`, `FnMut`, and `Fn`. These traits form a hierarchy that describes how closures can be called and what they can do with captured variables.
-
-`FnOnce` is the most basic trait that all closures implement. It represents closures that can be called at least once. Some closures, particularly those that move captured values or consume them in some way, can only be called once because they destroy or move their captured data during execution.
-
-`FnMut` represents closures that can be called multiple times and may mutate their captured environment. These closures capture variables by mutable reference and can modify them across multiple calls. The borrowing rules ensure that when an `FnMut` closure is active, it has exclusive mutable access to its captured variables.
-
-`Fn` is the most restrictive trait, representing closures that can be called multiple times without mutating their captured environment. These closures only capture by immutable reference and can be called concurrently without violating Rust's safety guarantees. If a closure implements `Fn`, it automatically implements `FnMut` and `FnOnce` as well, since being callable multiple times without mutation implies being callable with mutation and being callable once.
-
-### Working with Iterators
-
-Iterators in Rust provide a powerful and efficient way to process sequences of data. They are lazy, meaning they don't perform any work until you consume them by calling methods that actually iterate through the data. This lazy evaluation allows for efficient chaining of operations without creating intermediate collections.
-
-The `Iterator` trait defines the core functionality with an associated type `Item` that represents what the iterator yields, and a `next` method that returns `Option<Self::Item>`. When `next` returns `None`, the iterator is exhausted. This design allows iterators to represent both finite and potentially infinite sequences safely.
-
-You can create iterators from collections using methods like `iter()` for borrowing iteration, `iter_mut()` for mutable borrowing iteration, and `into_iter()` for consuming iteration. The choice between these methods depends on whether you need to modify elements and whether you want to consume the original collection.
-
-### Iterator Adaptors and Consumers
-
-Iterator adaptors are methods that transform one iterator into another, allowing you to chain operations together. Common adaptors include `map` for transforming each element, `filter` for selecting elements based on a predicate, and `enumerate` for adding indices. These adaptors are lazy – they don't do any work until consumed.
-
-The `map` method applies a closure to each element, transforming it into something else. For example, `numbers.iter().map(|x| x * 2)` creates an iterator that doubles each number. The `filter` method keeps only elements for which the predicate closure returns true: `numbers.iter().filter(|&x| x > 10)` keeps only numbers greater than ten.
-
-Consumer methods actually iterate through the data and produce a final result. The `collect` method consumes an iterator and creates a collection from it. You often need to specify the collection type: `let vec: Vec<_> = iterator.collect()`. Other consumers include `sum` for adding numeric elements, `fold` for accumulating values with a custom operation, and `for_each` for executing side effects on each element.
-
-### Advanced Iterator Patterns
-
-More sophisticated iterator operations include `zip` for combining two iterators element-wise, `chain` for concatenating iterators, and `filter_map` for combining filtering and mapping in one operation. The `zip` method creates pairs from corresponding elements of two iterators: `a.iter().zip(b.iter())` produces tuples `(a[0], b[0]), (a[1], b[1]), ...`.
-
-The `fold` method is particularly powerful for accumulating values. It takes an initial value and a closure that combines the accumulator with each element: `numbers.iter().fold(0, |acc, x| acc + x)` sums all numbers. This pattern can implement many other operations like finding maximum values, building strings, or creating complex data structures.
-
-Iterator chains can become quite sophisticated, allowing you to express complex data transformations concisely. For example, processing audio data might involve: `coefficients.iter().zip(buffer.iter()).map(|(c, b)| c * b).sum::<i32>() >> 12`. This multiplies corresponding coefficients and buffer values, sums the results, and shifts the final value, all in a single readable expression.
-
-### Introduction to Smart Pointers
-
-Smart pointers are data structures that act like traditional pointers but provide additional capabilities and automatic memory management. Unlike simple references, smart pointers own the data they point to and can implement custom behavior for memory allocation, deallocation, and access patterns. They are essential tools for managing heap-allocated data and implementing complex ownership patterns that go beyond Rust's basic ownership system.
-
-The "smart" aspect comes from their ability to automatically handle memory management tasks that would otherwise require manual intervention. When a smart pointer goes out of scope, it can automatically free associated memory, decrement reference counts, or perform other cleanup operations. This automation helps prevent memory leaks and use-after-free errors while providing more flexibility than stack-only allocation.
-
-Smart pointers typically implement two key traits: `Deref` and `Drop`. The `Deref` trait allows the smart pointer to be used transparently as if it were a reference to the contained data. The `Drop` trait enables custom cleanup logic when the smart pointer is destroyed. Together, these traits make smart pointers feel natural to use while providing powerful memory management capabilities.
-
-### The Box Smart Pointer
-
-`Box<T>` is the simplest smart pointer, providing heap allocation for any type `T`. When you create a `Box`, the contained value is stored on the heap rather than the stack, and the `Box` itself (which is just a pointer) is stored on the stack. This indirection is useful when you need to store large amounts of data without moving it around, when you need a type with unknown compile-time size, or when you want to transfer ownership of heap data efficiently.
-
-Creating a `Box` is straightforward: `let boxed_value = Box::new(42);` allocates an integer on the heap. The `Box` automatically manages this memory – when the `Box` goes out of scope, it automatically deallocates the heap memory. This automatic cleanup prevents memory leaks without requiring manual memory management.
-
-One of the most important use cases for `Box` is enabling recursive data structures. Consider a linked list where each node contains a value and a pointer to the next node. Without `Box`, you cannot define such a structure because the compiler cannot determine the size of a type that contains itself. By using `Box<Node>` for the next pointer, you break the recursive sizing problem because `Box` has a known, fixed size regardless of what it contains.
-
-### Implementing the Deref Trait
-
-The `Deref` trait allows a type to be dereferenced using the `*` operator, making smart pointers behave like references to their contained data. When you implement `Deref` for a smart pointer, you enable automatic dereferencing that makes the smart pointer transparent to use. This means you can call methods on the contained type directly through the smart pointer without explicit dereferencing.
-
-The `Deref` trait defines an associated type `Target` that specifies what type of reference the dereference operation should produce. The trait requires implementing a `deref` method that returns a reference to the target type. For `Box<T>`, the implementation returns a reference to the contained `T` value.
-
-Rust performs automatic deref coercion, which means the compiler can automatically insert calls to `deref` when needed to make types compatible. This is why you can pass a `String` to a function expecting a `&str` – the compiler automatically dereferences the `String` to get a string slice. This coercion can chain multiple levels, so a `Box<String>` can be automatically converted to a `&str` through multiple deref operations.
-
-### Custom Drop Implementation
-
-The `Drop` trait allows you to specify custom cleanup code that runs when a value goes out of scope. This is particularly important for smart pointers that manage resources beyond simple memory, such as file handles, network connections, or reference counts. The `Drop` trait has a single method, `drop`, that takes a mutable reference to `self` and performs the cleanup.
-
-Most types don't need custom `Drop` implementations because Rust automatically handles dropping their fields. However, smart pointers often need custom logic to properly clean up the resources they manage. For example, a reference-counted smart pointer needs to decrement the reference count and potentially deallocate shared data when the last reference is dropped.
-
-You can also explicitly drop a value before it goes out of scope using `std::mem::drop()`. This function takes ownership of a value and immediately drops it, which can be useful for releasing resources early or ensuring cleanup happens at a specific point in your program. The explicit drop function is just an identity function that takes ownership – the real work happens when the value is dropped at the end of the function.
-
-This foundation of closures, iterators, and smart pointers provides Rust developers with powerful tools for writing expressive, safe, and efficient code. These features work together to enable sophisticated programming patterns while maintaining Rust's core guarantees of memory safety and performance.
+در حالی که Rust یک زبان برنامه‌نویسی تابعی خالص نیست، ویژگی‌هایی را که از پارادایم‌های برنامه‌نویسی تابعی الهام گرفته شده‌اند، در بر می‌گیرد. این ویژگی‌ها به توسعه‌دهندگان این امکان را می‌دهند که با استفاده از مفاهیمی مانند closures و iterators، کد مختصر بنویسند. Rust این عناصر تابعی را برای ارائه ابزارهای انعطاف‌پذیر برای پردازش داده‌ها و مکانیزم‌های callback شامل می‌شود.
 
 
-## Reference Counting and Interior Mutability
+ویژگی‌های برنامه‌نویسی تابعی در Rust اصول اصلی زبان را که شامل ایمنی حافظه و انتزاع بدون هزینه است، حفظ می‌کند. هنگامی که از کلوزرها و تکرارگرها استفاده می‌کنید، عملکرد را فدای بیان‌پذیری نمی‌کنید – کامپایلر Rust این ساختارها را بهینه‌سازی می‌کند تا کد ماشین کارآمدی تولید کند که با روش‌های مبتنی بر حلقه سنتی قابل مقایسه است.
+
+
+### درک Closureها
+
+
+بسته‌ها در Rust توابع ناشناسی هستند که می‌توانند متغیرها را از محیط اطراف خود بگیرند. در سایر زبان‌های برنامه‌نویسی، این‌ها اغلب به عنوان توابع لامبدا شناخته می‌شوند. ویژگی کلیدی بسته‌ها توانایی آن‌ها در "بستن بر روی" محیط خود است، به این معنی که آن‌ها می‌توانند به متغیرهایی که در حوزه‌ای که بسته تعریف شده است وجود دارند، دسترسی داشته و از آن‌ها استفاده کنند.
+
+
+نحو برای کلوزرها از کاراکترهای پایپ (`|`) به جای پرانتزها برای تعریف پارامترها استفاده می‌کند. برای یک کلوزر بدون پارامتر، شما می‌نویسید `||`، و برای کلوزرهایی با پارامترها، آن‌ها را بین پایپ‌ها مانند `|x, y|` فهرست می‌کنید. اگر بدنه کلوزر شامل یک عبارت واحد باشد، می‌توانید آکولادها را حذف کنید و نحو را بسیار مختصر کنید.
+
+
+این مثال عملی را در نظر بگیرید: یک شرکت تی‌شرت که بر اساس ترجیحات مشتری، تی‌شرت‌های انحصاری هدیه می‌دهد. اگر مشتری رنگ مورد علاقه‌ای مشخص کرده باشد، همان رنگ را دریافت می‌کند؛ در غیر این صورت، رنگی که بیشترین موجودی را دارد به عنوان پیش‌فرض به او داده می‌شود. با استفاده از closures، این منطق به صورت زیر می‌شود: `user_preference.unwrap_or_else(|| self.most_stocked())`. کلوزر `|| self.most_stocked()` مقدار پیش‌فرض را تنها زمانی که نیاز باشد فراهم می‌کند و می‌تواند به `self` از محیط خود دسترسی داشته باشد.
+
+
+### استنباط نوع بسته و انعطاف‌پذیری
+
+
+یکی از ویژگی‌های بسیار راحت Rust با closures، استنباط نوع خودکار است. برخلاف توابع معمولی که در آن‌ها باید انواع پارامترها و انواع بازگشتی را به‌طور صریح مشخص کنید، closures اغلب می‌توانند این انواع را از زمینه استنباط کنند. کامپایلر تحلیل می‌کند که چگونه closure استفاده می‌شود و انواع مناسب را به‌طور خودکار تعیین می‌کند. با این حال، زمانی که یک closure با انواع خاصی فراخوانی می‌شود، آن انواع برای آن نمونه closure ثابت می‌شوند.
+
+
+شما می‌توانید closureها را مانند هر مقدار دیگری در متغیرها ذخیره کنید و آن‌ها را به عنوان شهروندان درجه یک در زبان در نظر بگیرید. وقتی یک closure را به یک متغیر اختصاص می‌دهید، می‌توانید بعداً با استفاده از پرانتز آن را فراخوانی کنید: `let my_closure = |x| x + 1; let result = my_closure(5);`. این انعطاف‌پذیری به شما اجازه می‌دهد closureها را به عنوان آرگومان به توابع ارسال کنید، آن‌ها را از توابع بازگردانید و در ساختارهای داده استفاده کنید.
+
+
+اگر کامپایلر نتواند نوع‌ها را استنباط کند یا اگر بخواهید صریح باشید، می‌توانید پارامترها و نوع‌های بازگشتی کلوزر را با استفاده از نحوی مشابه با توابع مشخص کنید: `|x: i32| -> i32 { x + 1 }`. این نوع‌دهی صریح گاهی در سناریوهای پیچیده که کامپایلر به اطلاعات اضافی برای حل صحیح نوع‌ها نیاز دارد، ضروری است.
+
+
+### ضبط متغیرهای محیطی
+
+
+بسته‌ها می‌توانند متغیرها را از محیط خود به سه روش مختلف ضبط کنند: با ارجاع غیرقابل تغییر، با ارجاع قابل تغییر، یا با گرفتن مالکیت. کامپایلر Rust به‌طور خودکار محدودترین روش ضبط را که نیازهای بسته شما را برآورده می‌کند، بر اساس اصل کمترین امتیاز تعیین می‌کند.
+
+
+وقتی یک closure فقط نیاز به خواندن یک مقدار دارد، آن را با ارجاع غیرقابل تغییر (immutable) ضبط می‌کند. این اجازه می‌دهد تا متغیر اصلی پس از تعریف و فراخوانی closure همچنان قابل دسترسی باشد. به عنوان مثال، یک closure که یک لیست را چاپ می‌کند، لیست را به صورت غیرقابل تغییر قرض می‌گیرد و به شما اجازه می‌دهد تا پس از اجرای closure همچنان از لیست استفاده کنید.
+
+
+اگر یک closure نیاز داشته باشد که یک متغیر گرفته‌شده را تغییر دهد، باید آن را با ارجاع قابل تغییر بگیرد. در این حالت، هم متغیر گرفته‌شده و هم خود closure باید به‌عنوان قابل تغییر اعلام شوند. سپس closure می‌تواند متغیر گرفته‌شده را تغییر دهد، اما قوانین قرض‌گیری همچنان اعمال می‌شوند – شما نمی‌توانید ارجاعات دیگری به آن متغیر داشته باشید در حالی که closure قابل تغییر وجود دارد.
+
+
+محدودترین روش ضبط، به‌دست‌گرفتن مالکیت است که متغیرهای ضبط‌شده را به درون closure منتقل می‌کند. این کار زمانی ضروری است که closure ممکن است بیشتر از محدوده‌ای که متغیرها در ابتدا تعریف شده‌اند، زنده بماند، مانند زمانی که رشته‌ها (threads) ایجاد می‌شوند. می‌توانید با استفاده از کلمه کلیدی `move` قبل از پارامترهای closure، مالکیت ضبط را اجباری کنید: `move |x| { /* closure body */ }`. این برای ایمنی رشته‌ها ضروری است، زیرا رشته‌ها نمی‌توانند به‌طور ایمن از رشته‌های دیگر که ممکن است خاتمه یابند و متغیرهایشان را حذف کنند، قرض بگیرند.
+
+
+### ویژگی‌های بسته و انواع تابع
+
+
+Rust نشان‌دهنده‌ی بستن‌ها از طریق یک سیستم ویژگی با سه ویژگی کلیدی است: `FnOnce`، `FnMut` و `Fn`. این ویژگی‌ها یک سلسله‌مراتب را تشکیل می‌دهند که توصیف می‌کند چگونه بستن‌ها می‌توانند فراخوانی شوند و با متغیرهای ضبط‌شده چه کاری می‌توانند انجام دهند.
+
+
+`FnOnce` ابتدایی‌ترین ویژگی است که همهٔ closures پیاده‌سازی می‌کنند. این ویژگی نشان‌دهندهٔ closures است که حداقل یک بار می‌توان آن‌ها را فراخوانی کرد. برخی closures، به‌ویژه آن‌هایی که مقادیر گرفته‌شده را منتقل می‌کنند یا به نوعی مصرف می‌کنند، تنها یک بار می‌توانند فراخوانی شوند زیرا در طول اجرا داده‌های گرفته‌شدهٔ خود را از بین می‌برند یا منتقل می‌کنند.
+
+
+`FnMut` نشان‌دهنده‌ی کلوزرهایی است که می‌توانند چندین بار فراخوانی شوند و ممکن است محیطی که در آن قرار گرفته‌اند را تغییر دهند. این کلوزرها متغیرها را با ارجاع قابل تغییر (mutable reference) ضبط می‌کنند و می‌توانند آن‌ها را در طول چندین فراخوانی تغییر دهند. قوانین وام‌گیری (borrowing rules) تضمین می‌کنند که وقتی یک کلوزر `FnMut` فعال است، دسترسی انحصاری و قابل تغییر به متغیرهای ضبط‌شده‌ی خود دارد.
+
+
+`Fn` محدودترین ویژگی است که نشان‌دهنده‌ی closureهایی است که می‌توانند چندین بار بدون تغییر محیط ذخیره‌شده‌ی خود فراخوانی شوند. این closureها تنها با ارجاع غیرقابل‌تغییر ذخیره می‌شوند و می‌توانند به‌صورت همزمان فراخوانی شوند بدون اینکه تضمین‌های ایمنی Rust را نقض کنند. اگر یک closure `Fn` را پیاده‌سازی کند، به‌طور خودکار `FnMut` و `FnOnce` را نیز پیاده‌سازی می‌کند، زیرا قابلیت فراخوانی چندباره بدون تغییر به معنای قابلیت فراخوانی با تغییر و فراخوانی یک‌باره نیز هست.
+
+
+### کار با Iteratorها
+
+
+ایتریتورها در Rust راهی برای پردازش دنباله‌های داده فراهم می‌کنند. آن‌ها تنبل هستند، به این معنی که تا زمانی که با فراخوانی متدهایی که واقعاً از طریق داده‌ها تکرار می‌کنند، آن‌ها را مصرف نکنید، هیچ کاری انجام نمی‌دهند. این ارزیابی تنبل امکان زنجیره‌سازی کارآمد عملیات را بدون ایجاد مجموعه‌های میانی فراهم می‌کند.
+
+
+صفت `Iterator` عملکرد اصلی را با یک نوع وابسته `Item` تعریف می‌کند که نشان‌دهنده چیزی است که تکرارگر تولید می‌کند، و یک متد `next` که `Option<Self::Item>` را برمی‌گرداند. زمانی که `next` مقدار `None` را برگرداند، تکرارگر به پایان رسیده است. این طراحی به تکرارگرها اجازه می‌دهد تا به‌طور ایمن دنباله‌های محدود و بالقوه بی‌نهایت را نمایش دهند.
+
+
+می‌توانید از مجموعه‌ها با استفاده از روش‌هایی مانند `iter()` برای تکرار قرضی، `iter_mut()` برای تکرار قرضی قابل تغییر، و `into_iter()` برای تکرار مصرفی، تکرارگر ایجاد کنید. انتخاب بین این روش‌ها بستگی به این دارد که آیا نیاز به تغییر عناصر دارید و آیا می‌خواهید مجموعه اصلی را مصرف کنید یا خیر.
+
+
+### تطبیق‌دهنده‌ها و مصرف‌کننده‌های تکرارگر
+
+
+آداپتورهای تکرارگر روش‌هایی هستند که یک تکرارگر را به تکرارگر دیگری تبدیل می‌کنند و به شما اجازه می‌دهند عملیات را به هم زنجیر کنید. آداپتورهای رایج شامل `map` برای تبدیل هر عنصر، `filter` برای انتخاب عناصر بر اساس یک گزاره، و `enumerate` برای افزودن شاخص‌ها هستند. این آداپتورها تنبل هستند – تا زمانی که مصرف نشوند، هیچ کاری انجام نمی‌دهند.
+
+
+متد `map` یک closure را به هر عنصر اعمال می‌کند و آن را به چیز دیگری تبدیل می‌کند. به عنوان مثال، `numbers.iter().map(|x| x * 2)` یک iterator ایجاد می‌کند که هر عدد را دو برابر می‌کند. متد `filter` فقط عناصری را نگه می‌دارد که برای آن‌ها closure شرطی مقدار true را برمی‌گرداند: `numbers.iter().filter(|&x| x > 10)` فقط اعداد بزرگتر از ده را نگه می‌دارد.
+
+
+روش‌های مصرف‌کننده در واقع داده‌ها را تکرار کرده و یک نتیجه نهایی تولید می‌کنند. متد `collect` یک iterator را مصرف کرده و یک مجموعه از آن ایجاد می‌کند. اغلب نیاز دارید نوع مجموعه را مشخص کنید: `let vec: Vec<_> = iterator.collect()`. سایر مصرف‌کننده‌ها شامل `sum` برای جمع کردن عناصر عددی، `fold` برای انباشتن مقادیر با یک عملیات سفارشی، و `for_each` برای اجرای اثرات جانبی بر روی هر عنصر هستند.
+
+
+### الگوهای پیشرفته تکرارگر
+
+
+عملیات اضافی تکرارگر شامل `zip` برای ترکیب دو تکرارگر به صورت عنصر به عنصر، `chain` برای الحاق تکرارگرها، و `filter_map` برای ترکیب فیلتر کردن و نگاشت در یک عملیات است. متد `zip` جفت‌هایی از عناصر متناظر دو تکرارگر ایجاد می‌کند: `a.iter().zip(b.iter())` تاپل‌هایی به صورت `(a[0], b[0]), (a[1], b[1]), ...` تولید می‌کند.
+
+
+متد `fold` برای انباشت مقادیر مفید است. این متد یک مقدار اولیه و یک closure که انباشته‌کننده را با هر عنصر ترکیب می‌کند، می‌گیرد: `numbers.iter().fold(0, |acc, x| acc + x)` تمام اعداد را جمع می‌کند. این الگو می‌تواند بسیاری از عملیات دیگر مانند یافتن مقادیر حداکثر، ساخت رشته‌ها، یا ایجاد ساختارهای داده پیچیده را پیاده‌سازی کند.
+
+
+زنجیره‌های تکرارگر می‌توانند تبدیلات پیچیده داده‌ها را به‌طور مختصر بیان کنند. برای مثال، پردازش داده‌های صوتی ممکن است شامل این باشد: `coefficients.iter().zip(buffer.iter()).map(|(c, b)| c * b).sum::<i32>() >> 12`. این عبارت ضرایب و مقادیر بافر متناظر را ضرب می‌کند، نتایج را جمع می‌کند و مقدار نهایی را شیفت می‌دهد، همه در یک عبارت خوانا.
+
+
+```rust
+fn main() {
+// Sample UTXOs: (txid_suffix, amount_sats)
+let utxos = vec![
+("a1b2", 50_000u64),
+("c3d4", 15_000),
+("e5f6", 100_000),
+("g7h8", 3_000),
+("i9j0", 75_000),
+];
+
+// Using closures and iterators to process UTXOs
+
+// 1. Filter UTXOs above dust threshold (10,000 sats)
+let spendable: Vec<_> = utxos
+.iter()
+.filter(|(_, amount)| *amount >= 10_000)
+.collect();
+println!("Spendable UTXOs: {:?}", spendable);
+
+// 2. Calculate total balance with fold
+let total_balance: u64 = utxos
+.iter()
+.map(|(_, amount)| amount)
+.fold(0, |acc, amount| acc + amount);
+println!("Total balance: {} sats", total_balance);
+
+// 3. Find UTXOs needed to cover a 120,000 sat payment
+let target = 120_000u64;
+let mut accumulated = 0u64;
+let selected: Vec<_> = utxos
+.iter()
+.filter(|(_, amount)| *amount >= 10_000) // Skip dust
+.take_while(|(_, amount)| {
+if accumulated >= target {
+false
+} else {
+accumulated += amount;
+true
+}
+})
+.collect();
+println!("Selected for payment: {:?}", selected);
+
+// 4. Transform to display format using map and collect
+let display_strings: Vec<String> = utxos
+.iter()
+.map(|(txid, amount)| format!("{}...:{} sats", txid, amount))
+.collect();
+println!("Display: {:?}", display_strings);
+}
+```
+
+
+### مقدمه‌ای بر اشاره‌گرهای هوشمند
+
+
+اشاره‌گرهای هوشمند ساختارهای داده‌ای هستند که مانند اشاره‌گرهای سنتی عمل می‌کنند اما قابلیت‌های اضافی و مدیریت خودکار حافظه را فراهم می‌کنند. برخلاف ارجاعات ساده، اشاره‌گرهای هوشمند مالک داده‌ای هستند که به آن اشاره می‌کنند و می‌توانند رفتار سفارشی برای تخصیص، آزادسازی و الگوهای دسترسی حافظه را پیاده‌سازی کنند. آن‌ها ابزارهای ضروری برای مدیریت داده‌های تخصیص‌یافته در هیپ و پیاده‌سازی الگوهای مالکیت پیچیده‌ای هستند که فراتر از سیستم مالکیت پایه Rust می‌روند.
+
+
+جنبه "هوشمند" از توانایی آنها در مدیریت خودکار وظایف مدیریت حافظه ناشی می‌شود که در غیر این صورت نیاز به مداخله دستی دارد. هنگامی که یک اشاره‌گر هوشمند از محدوده خارج می‌شود، می‌تواند به‌طور خودکار حافظه مرتبط را آزاد کند، شمارنده‌های مرجع را کاهش دهد یا عملیات پاکسازی دیگری انجام دهد. این اتوماسیون به جلوگیری از نشت حافظه و خطاهای استفاده پس از آزادسازی کمک می‌کند و در عین حال انعطاف‌پذیری بیشتری نسبت به تخصیص فقط پشته ارائه می‌دهد.
+
+
+اشاره‌گرهای هوشمند معمولاً دو ویژگی کلیدی را پیاده‌سازی می‌کنند: `Deref` و `Drop`. ویژگی `Deref` به اشاره‌گر هوشمند اجازه می‌دهد تا به گونه‌ای استفاده شود که گویی یک مرجع به داده‌های درون آن است. ویژگی `Drop` امکان منطق پاکسازی سفارشی را هنگامی که اشاره‌گر هوشمند از بین می‌رود، فراهم می‌کند. این ویژگی‌ها به طور مشترک به اشاره‌گرهای هوشمند اجازه می‌دهند تا به صورت خودکار حافظه را مدیریت کنند.
+
+
+### اشاره‌گر هوشمند Box
+
+
+`Box<T>` ساده‌ترین اشاره‌گر هوشمند است که تخصیص حافظه heap را برای هر نوع `T` فراهم می‌کند. هنگامی که یک `Box` ایجاد می‌کنید، مقدار درون آن به جای stack در heap ذخیره می‌شود و خود `Box` (که فقط یک اشاره‌گر است) در stack ذخیره می‌شود. این واسطه‌گری زمانی مفید است که نیاز دارید مقادیر زیادی از داده‌ها را بدون جابجایی ذخیره کنید، زمانی که به نوعی با اندازه ناشناخته در زمان کامپایل نیاز دارید، یا زمانی که می‌خواهید مالکیت داده‌های heap را به‌طور کارآمد انتقال دهید.
+
+
+ایجاد یک `Box` ساده است: `let boxed_value = Box::new(42);` یک عدد صحیح را در heap تخصیص می‌دهد. `Box` به‌طور خودکار این حافظه را مدیریت می‌کند – وقتی که `Box` از حوزه خارج می‌شود، به‌طور خودکار حافظه heap را آزاد می‌کند. این پاکسازی خودکار از نشت حافظه جلوگیری می‌کند بدون اینکه نیاز به مدیریت دستی حافظه باشد.
+
+
+یکی از مهم‌ترین موارد استفاده از `Box`، امکان‌پذیر کردن ساختارهای داده‌ای بازگشتی است. یک لیست پیوندی را در نظر بگیرید که هر گره شامل یک مقدار و یک اشاره‌گر به گره بعدی است. بدون استفاده از `Box`، نمی‌توانید چنین ساختاری را تعریف کنید زیرا کامپایلر نمی‌تواند اندازه نوعی که خودش را شامل می‌شود تعیین کند. با استفاده از `Box<Node>` برای اشاره‌گر بعدی، مشکل اندازه‌گیری بازگشتی را حل می‌کنید زیرا `Box` دارای اندازه‌ای ثابت و شناخته‌شده است، بدون توجه به اینکه چه چیزی را در بر دارد.
+
+
+### پیاده‌سازی ویژگی Deref
+
+
+ویژگی `Deref` به یک نوع اجازه می‌دهد تا با استفاده از عملگر `*` از حالت ارجاع خارج شود، و این باعث می‌شود که اشاره‌گرهای هوشمند مانند ارجاعاتی به داده‌های درون خود رفتار کنند. وقتی `Deref` را برای یک اشاره‌گر هوشمند پیاده‌سازی می‌کنید، ارجاع‌زدایی خودکار را فعال می‌کنید که استفاده از اشاره‌گر هوشمند را شفاف می‌سازد. این بدان معناست که می‌توانید مستقیماً از طریق اشاره‌گر هوشمند، بدون ارجاع‌زدایی صریح، متدهای نوع درون آن را فراخوانی کنید.
+
+
+صفت `Deref` یک نوع مرتبط `Target` را تعریف می‌کند که مشخص می‌کند عملیات رفع ارجاع باید چه نوع مرجعی تولید کند. این صفت نیاز به پیاده‌سازی یک متد `deref` دارد که یک مرجع به نوع هدف را برمی‌گرداند. برای `Box<T>`، پیاده‌سازی یک مرجع به مقدار `T` موجود را برمی‌گرداند.
+
+
+Rust به‌طور خودکار تبدیل deref را انجام می‌دهد، به این معنی که کامپایلر می‌تواند به‌طور خودکار فراخوانی‌های `deref` را در صورت نیاز برای سازگار کردن انواع وارد کند. به همین دلیل است که می‌توانید یک `String` را به تابعی که انتظار `&str` دارد، پاس دهید – کامپایلر به‌طور خودکار `String` را dereference می‌کند تا یک برش رشته‌ای بگیرد. این تبدیل می‌تواند چندین سطح را زنجیره کند، بنابراین یک `Box<String>` می‌تواند از طریق چندین عملیات deref به‌طور خودکار به یک `&str` تبدیل شود.
+
+
+### پیاده‌سازی سفارشی Drop
+
+
+صفت `Drop` به شما اجازه می‌دهد کد پاکسازی سفارشی را مشخص کنید که زمانی که یک مقدار از حوزه خارج می‌شود اجرا شود. این موضوع به‌ویژه برای اشاره‌گرهای هوشمندی که منابعی فراتر از حافظه ساده را مدیریت می‌کنند، مانند دسته‌های فایل، اتصالات شبکه یا شمارش مراجع، اهمیت دارد. صفت `Drop` دارای یک متد واحد به نام `drop` است که یک ارجاع قابل تغییر به `self` می‌گیرد و پاکسازی را انجام می‌دهد.
+
+
+اکثر انواع نیازی به پیاده‌سازی‌های سفارشی `Drop` ندارند زیرا Rust به‌طور خودکار مدیریت حذف فیلدهای آن‌ها را انجام می‌دهد. با این حال، اشاره‌گرهای هوشمند اغلب به منطق سفارشی نیاز دارند تا منابعی که مدیریت می‌کنند به‌درستی پاک‌سازی شوند. به عنوان مثال، یک اشاره‌گر هوشمند با شمارش مرجع نیاز دارد تا شمارش مرجع را کاهش دهد و در صورت حذف آخرین مرجع، داده‌های مشترک را احتمالاً آزاد کند.
+
+
+شما همچنین می‌توانید به‌طور صریح یک مقدار را قبل از اینکه از حوزه خارج شود با استفاده از `std::mem::drop()` حذف کنید. این تابع مالکیت یک مقدار را می‌گیرد و بلافاصله آن را حذف می‌کند، که می‌تواند برای آزادسازی منابع زودتر یا اطمینان از انجام پاکسازی در یک نقطه خاص در برنامه شما مفید باشد. تابع حذف صریح فقط یک تابع هویت است که مالکیت را می‌گیرد – کار واقعی زمانی انجام می‌شود که مقدار در انتهای تابع حذف می‌شود.
+
+
+این پایه‌ای از closures، iterators، و smart pointers به توسعه‌دهندگان Rust ابزارهایی برای نوشتن کدهای بیانی، ایمن و کارآمد می‌دهد. این ویژگی‌ها با هم کار می‌کنند تا الگوهای برنامه‌نویسی رایج را ممکن سازند و در عین حال تضمین‌های اصلی Rust در مورد ایمنی حافظه و عملکرد را حفظ کنند.
+
+
+
+## شمارش مرجع و تغییرپذیری داخلی
+
 <chapterId>a66c63ed-9514-51d1-b3a0-c8edb57603bb</chapterId>
+
 
 :::video id=44c681d1-d154-4240-b3e8-15590cbfcbd2:::
 
-### Reference Counting with RC
+### شمارش مرجع با RC
 
-Reference counting represents another fundamental type of smart pointer in Rust, designed specifically to enable multiple ownership scenarios. Unlike Box, which follows traditional single ownership rules where one entity owns the data, RC (Reference Counter) allows multiple parts of your code to share ownership of the same data simultaneously. This shared ownership model works through a counting mechanism that tracks how many references exist to a particular piece of data.
 
-The reference counting system operates by maintaining an internal counter that increments each time you clone an RC and decrements when an RC is dropped. Memory is only freed when this counter reaches zero, ensuring that data remains valid as long as any reference exists. This approach prevents premature deallocation while enabling flexible data sharing patterns that would be impossible with simple Box ownership.
+شمارش مرجع نمایانگر نوع اساسی دیگری از اشاره‌گر هوشمند در Rust است که به‌طور خاص برای امکان‌پذیر کردن سناریوهای مالکیت چندگانه طراحی شده است. برخلاف Box که از قوانین سنتی مالکیت واحد پیروی می‌کند و در آن یک نهاد مالک داده است، RC (شمارش مرجع) به بخش‌های مختلف کد شما اجازه می‌دهد تا به‌طور همزمان مالکیت داده‌های یکسان را به اشتراک بگذارند. این مدل مالکیت مشترک از طریق مکانیزم شمارشی کار می‌کند که تعداد مراجعات به یک قطعه خاص از داده را ردیابی می‌کند.
 
-A practical example where RC proves invaluable involves creating shared data structures like linked lists where multiple lists might reference the same tail portion. Consider attempting to create two separate lists that both reference a common subsequence. With Box ownership, this becomes impossible because moving the shared portion into the first list transfers ownership, preventing its use in the second list. RC solves this by allowing you to clone the reference rather than the underlying data, making the shared structure possible while maintaining memory safety.
 
-When you clone an RC, you're not duplicating the internal data regardless of its size or complexity. Instead, you're creating another reference to the same memory location and incrementing the reference counter. This makes cloning RC instances extremely efficient even for large data structures, as only the reference itself is copied while the underlying data remains in place.
+سیستم شمارش مرجع با نگهداری یک شمارنده داخلی عمل می‌کند که هر بار که یک RC را کلون می‌کنید افزایش می‌یابد و زمانی که یک RC حذف می‌شود کاهش می‌یابد. حافظه تنها زمانی آزاد می‌شود که این شمارنده به صفر برسد، و این اطمینان را می‌دهد که داده‌ها تا زمانی که هر مرجعی وجود دارد معتبر باقی می‌مانند. این رویکرد از آزادسازی زودهنگام جلوگیری می‌کند و در عین حال الگوهای اشتراک‌گذاری داده انعطاف‌پذیری را ممکن می‌سازد که با مالکیت ساده Box غیرممکن خواهد بود.
 
-### Interior Mutability with RefCell
 
-RefCell introduces a powerful concept called interior mutability, which allows you to mutate data even when you only have an immutable reference to it. This capability fundamentally changes how Rust's borrowing rules are enforced by moving the checks from compile time to runtime. While normal references rely on the compiler to verify borrowing safety, RefCell performs these checks during program execution, providing greater flexibility at the cost of potential runtime panics.
+یک مثال عملی که در آن RC مفید است شامل ایجاد ساختارهای داده مشترک مانند لیست‌های پیوندی است که در آن چندین لیست ممکن است به همان بخش انتهایی اشاره کنند. در نظر بگیرید که تلاش می‌کنید دو لیست جداگانه ایجاد کنید که هر دو به یک زیر دنباله مشترک اشاره دارند. با مالکیت Box، این امر غیرممکن می‌شود زیرا انتقال بخش مشترک به لیست اول مالکیت را منتقل می‌کند و استفاده از آن در لیست دوم را غیرممکن می‌سازد. RC این مشکل را با اجازه دادن به شما برای کلون کردن مرجع به جای داده‌های زیرین حل می‌کند، و ساختار مشترک را ممکن می‌سازد در حالی که ایمنی حافظه را حفظ می‌کند.
 
-The core principle behind RefCell involves maintaining the same borrowing rules that Rust normally enforces at compile time, but checking them dynamically. At any given moment, you can have either one mutable reference or any number of immutable references to the data inside a RefCell. If your code attempts to violate these rules by creating conflicting borrows simultaneously, the program will panic rather than produce undefined behavior.
 
-This runtime checking enables certain programming patterns that the compiler might reject even when they're actually safe. The compiler's static analysis, while powerful, cannot always prove that complex borrowing patterns are correct, leading it to err on the side of caution. RefCell allows you to override these conservative restrictions when you're confident in your code's correctness, but this confidence comes with the responsibility of ensuring proper usage to avoid runtime crashes.
+وقتی یک RC را کلون می‌کنید، داده‌های داخلی را بدون توجه به اندازه یا پیچیدگی آن تکرار نمی‌کنید. در عوض، شما یک مرجع دیگر به همان مکان حافظه ایجاد کرده و شمارنده مرجع را افزایش می‌دهید. این امر کلون کردن نمونه‌های RC را حتی برای ساختارهای داده بزرگ کارآمد می‌سازد، زیرا تنها خود مرجع کپی می‌شود در حالی که داده‌های زیرین در جای خود باقی می‌مانند.
 
-A common use case for RefCell involves mock objects in testing scenarios. When implementing a trait that only provides immutable access to self, but your mock implementation needs to track state changes internally, RefCell enables this pattern. You can wrap the internal state in a RefCell, allowing the mock to mutate its tracking data even through an immutable interface, enabling sophisticated testing strategies that would otherwise be impossible.
 
-### Combining RC and RefCell for Shared Mutable State
+### تغییرپذیری داخلی با RefCell
 
-The combination of RC and RefCell creates a powerful pattern for shared mutable state, where multiple owners can all potentially modify the same data. RC provides the shared ownership capability, while RefCell enables mutation through immutable references. This combination is particularly useful in scenarios like graph structures, caches, or any situation where multiple parts of your program need both read and write access to shared data.
 
-When you wrap a RefCell inside an RC, you create a structure that can be cloned and distributed throughout your program, with each clone providing access to the same underlying mutable data. All owners can potentially modify the data using RefCell's borrow_mut method, but they must still respect the borrowing rules at runtime. This pattern enables complex data sharing scenarios while maintaining Rust's safety guarantees through runtime checks.
+RefCell قابلیت تغییر داخلی را معرفی می‌کند که به شما اجازه می‌دهد داده‌ها را حتی زمانی که تنها یک ارجاع غیرقابل تغییر به آن دارید، تغییر دهید. این قابلیت به طور اساسی قوانین قرض‌گیری Rust را با انتقال بررسی‌ها از زمان کامپایل به زمان اجرا تغییر می‌دهد. در حالی که ارجاعات معمولی به کامپایلر متکی هستند تا ایمنی قرض‌گیری را تأیید کنند، RefCell این بررسی‌ها را در حین اجرای برنامه انجام می‌دهد و انعطاف‌پذیری بیشتری را با هزینه احتمال وقوع خطاهای زمان اجرا فراهم می‌کند.
 
-However, this flexibility comes with important caveats regarding memory leaks and reference cycles. When using RC with RefCell, it becomes possible to accidentally create circular references where data structures reference themselves, either directly or through a chain of references. These cycles prevent the reference count from ever reaching zero, causing memory leaks because the data appears to always have active references even when it's no longer accessible from the rest of the program.
 
-The solution to reference cycles involves using weak references, which don't contribute to the reference count used for memory management decisions. Weak references allow you to maintain connections between data structures without keeping them alive, breaking potential cycles while preserving the ability to access related data when it still exists.
+اصل اساسی پشت RefCell شامل حفظ همان قوانین قرض‌گیری است که Rust به‌طور معمول در زمان کامپایل اعمال می‌کند، اما این قوانین به‌صورت پویا بررسی می‌شوند. در هر لحظه، شما می‌توانید یا یک ارجاع قابل تغییر یا هر تعداد ارجاع غیرقابل تغییر به داده‌های داخل یک RefCell داشته باشید. اگر کد شما تلاش کند با ایجاد قرض‌گیری‌های متناقض به‌طور همزمان این قوانین را نقض کند، برنامه به جای تولید رفتار نامشخص، دچار وحشت خواهد شد.
 
-### Thread Safety and Concurrency Fundamentals
 
-Rust's approach to concurrency centers on preventing data races and memory safety issues at compile time, earning the designation "fearless concurrency." The type system enforces thread safety through traits like Send and Sync, which mark types as safe for transfer between threads or safe for concurrent access respectively. This compile-time verification eliminates entire classes of concurrency bugs that plague other systems programming languages.
+این بررسی زمان اجرا الگوهای برنامه‌نویسی خاصی را ممکن می‌سازد که کامپایلر ممکن است حتی زمانی که در واقع ایمن هستند، رد کند. تحلیل ایستای کامپایلر نمی‌تواند همیشه اثبات کند که الگوهای پیچیده قرض‌گیری صحیح هستند، و این امر باعث می‌شود که کامپایلر به سمت احتیاط گرایش پیدا کند. RefCell به شما اجازه می‌دهد تا این محدودیت‌های محافظه‌کارانه را زمانی که به درستی کد خود اطمینان دارید، نادیده بگیرید، اما این اطمینان با مسئولیت اطمینان از استفاده صحیح برای جلوگیری از خرابی‌های زمان اجرا همراه است.
 
-Creating threads in Rust follows a straightforward pattern using thread::spawn, which takes a closure to execute in the new thread and returns a handle for managing the thread's lifecycle. The spawned thread runs concurrently with the main thread, and you can use the join method on the handle to wait for completion. Without explicit joining, spawned threads may be terminated when the main thread exits, potentially cutting off incomplete work.
 
-The move keyword becomes crucial when working with threads because closures passed to spawned threads often need to own their data rather than borrow it. Since spawned threads can outlive the scope that created them, borrowing from the parent scope creates potential lifetime violations. Moving data into the thread closure transfers ownership, ensuring the data remains valid for the thread's entire lifetime while preventing access from the original scope.
+یک مورد استفاده رایج برای RefCell شامل اشیاء ساختگی در سناریوهای تست است. هنگامی که یک ویژگی را پیاده‌سازی می‌کنید که فقط دسترسی غیرقابل تغییر به self را فراهم می‌کند، اما پیاده‌سازی ساختگی شما نیاز دارد تغییرات وضعیت را به صورت داخلی پیگیری کند، RefCell این الگو را امکان‌پذیر می‌سازد. شما می‌توانید وضعیت داخلی را در یک RefCell بپیچید و به این ترتیب به ساختگی اجازه دهید داده‌های پیگیری خود را حتی از طریق یک رابط غیرقابل تغییر تغییر دهد.
 
-Message passing provides an elegant alternative to shared state concurrency through channels that allow threads to communicate by sending data rather than sharing memory. Rust's standard library provides Multiple Producer Single Consumer (MPSC) channels, where multiple threads can send messages to a single receiving thread. This pattern eliminates many synchronization issues by avoiding shared mutable state entirely, instead relying on message exchange for coordination.
 
-### Shared State Concurrency with Mutex and Arc
+### ترکیب RC و RefCell برای حالت متغیر مشترک
 
-When message passing isn't suitable, Rust provides traditional shared state concurrency through Mutex (mutual exclusion) combined with Arc (Atomic Reference Counter). Mutex ensures that only one thread can access protected data at a time by requiring threads to acquire a lock before accessing the data. The lock is automatically released when the guard object returned by the lock operation goes out of scope, preventing common deadlock scenarios caused by forgotten unlocks.
 
-Arc serves as the thread-safe equivalent of RC, using atomic operations to manage the reference count safely across multiple threads. While RC works perfectly for single-threaded scenarios, its non-atomic reference counting creates race conditions when accessed from multiple threads. Arc's atomic counters ensure that reference count modifications happen safely even under concurrent access, making it suitable for sharing data across thread boundaries.
+ترکیب RC و RefCell الگویی برای حالت متغیر مشترک ایجاد می‌کند، جایی که چندین مالک می‌توانند همگی به طور بالقوه داده‌های یکسان را تغییر دهند. RC قابلیت مالکیت مشترک را فراهم می‌کند، در حالی که RefCell امکان تغییر از طریق ارجاعات غیرقابل تغییر را فراهم می‌کند. این ترکیب در سناریوهایی مانند ساختارهای گراف، حافظه‌های پنهان، یا هر موقعیتی که بخش‌های مختلف برنامه شما نیاز به دسترسی خواندن و نوشتن به داده‌های مشترک دارند، مفید است.
 
-The combination of Arc and Mutex creates a powerful pattern for shared mutable state in concurrent programs. By wrapping a Mutex in an Arc, you can clone the Arc to distribute access to the same mutex across multiple threads, with each thread able to acquire the lock and modify the protected data safely. This pattern provides the flexibility of shared state while maintaining Rust's safety guarantees through compile-time verification and runtime locking.
 
-The Send and Sync traits work behind the scenes to ensure thread safety at compile time. Send indicates that a type can be safely transferred to another thread, while Sync indicates that references to a type can be safely shared between threads. Most types automatically implement these traits when their components are thread-safe, but some types like RC and RefCell explicitly don't implement them because they're not designed for concurrent access. This automatic trait implementation prevents accidental introduction of thread safety violations while allowing safe types to work seamlessly in concurrent contexts.
+وقتی یک RefCell را درون یک RC قرار می‌دهید، ساختاری ایجاد می‌کنید که می‌تواند کلون شده و در سراسر برنامه شما توزیع شود، به طوری که هر کلون دسترسی به همان داده‌های قابل تغییر زیربنایی را فراهم می‌کند. همه مالکان می‌توانند به طور بالقوه داده‌ها را با استفاده از متد borrow_mut از RefCell تغییر دهند، اما همچنان باید قوانین قرض‌گیری را در زمان اجرا رعایت کنند. این الگو امکان سناریوهای پیچیده اشتراک‌گذاری داده را فراهم می‌کند و در عین حال تضمین‌های ایمنی Rust را از طریق بررسی‌های زمان اجرا حفظ می‌کند.
 
-## Understanding Rust Macros
+
+با این حال، این انعطاف‌پذیری با هشدارهای مهمی در مورد نشت حافظه و چرخه‌های مرجع همراه است. هنگامی که از RC با RefCell استفاده می‌شود، ممکن است به طور تصادفی مراجع دایره‌ای ایجاد شود که در آن ساختارهای داده به خودشان ارجاع می‌دهند، چه به صورت مستقیم و چه از طریق زنجیره‌ای از مراجع. این چرخه‌ها مانع از رسیدن شمارش مرجع به صفر می‌شوند و باعث نشت حافظه می‌شوند زیرا داده‌ها به نظر می‌رسد همیشه مراجع فعال دارند حتی زمانی که دیگر از بقیه برنامه قابل دسترسی نیستند.
+
+
+راه‌حل چرخه‌های مرجع شامل استفاده از ارجاعات ضعیف است که به شمارش مرجع برای تصمیم‌گیری‌های مدیریت حافظه کمک نمی‌کنند. ارجاعات ضعیف به شما اجازه می‌دهند تا ارتباطات بین ساختارهای داده را حفظ کنید بدون اینکه آن‌ها را زنده نگه دارید، و به این ترتیب چرخه‌های بالقوه را می‌شکنید در حالی که توانایی دسترسی به داده‌های مرتبط را زمانی که هنوز وجود دارند، حفظ می‌کنید.
+
+
+```rust
+use std::rc::Rc;
+use std::cell::RefCell;
+
+// Simulating a channel state that multiple components need to access and modify
+#[derive(Debug)]
+struct ChannelState {
+channel_id: String,
+local_balance_msat: u64,
+remote_balance_msat: u64,
+is_active: bool,
+}
+
+fn main() {
+// Rc<RefCell<T>> allows multiple owners with interior mutability
+let channel = Rc::new(RefCell::new(ChannelState {
+channel_id: "abc123".to_string(),
+local_balance_msat: 1_000_000_000,  // 1M sats in msats
+remote_balance_msat: 500_000_000,
+is_active: true,
+}));
+
+// Clone Rc to share ownership (cheap - only increments counter)
+let channel_for_ui = Rc::clone(&channel);
+let channel_for_router = Rc::clone(&channel);
+
+// Reference count is now 3
+println!("Reference count: {}", Rc::strong_count(&channel));
+
+// UI component reads the state (immutable borrow)
+{
+let state = channel_for_ui.borrow();
+println!("UI shows balance: {} msats", state.local_balance_msat);
+} // borrow ends here
+
+// Router updates the state after a payment (mutable borrow)
+{
+let mut state = channel_for_router.borrow_mut();
+state.local_balance_msat -= 100_000_000; // Sent 100k sats
+state.remote_balance_msat += 100_000_000;
+println!("Router updated balances");
+} // mutable borrow ends here
+
+// Original reference can still read the updated state
+let state = channel.borrow();
+println!("New local balance: {} msats", state.local_balance_msat);
+
+// WARNING: This would panic at runtime!
+// let borrow1 = channel.borrow();
+// let borrow2 = channel.borrow_mut(); // PANIC: already borrowed
+}
+```
+
+
+### ایمنی رشته و اصول هم‌زمانی
+
+
+رویکرد Rust به هم‌زمانی بر جلوگیری از رقابت داده‌ها و مسائل ایمنی حافظه در زمان کامپایل متمرکز است. سیستم نوع از طریق ویژگی‌هایی مانند `Send` و `Sync` ایمنی رشته را اعمال می‌کند، که به ترتیب انواع را به عنوان ایمن برای انتقال بین رشته‌ها یا ایمن برای دسترسی هم‌زمان علامت‌گذاری می‌کنند. این تأیید در زمان کامپایل بسیاری از باگ‌های هم‌زمانی را که در زبان‌های برنامه‌نویسی سیستمی دیگر تنها در زمان اجرا ظاهر می‌شوند، شناسایی می‌کند.
+
+
+ایجاد رشته‌ها در Rust از یک الگوی ساده با استفاده از thread::spawn پیروی می‌کند، که یک closure برای اجرا در رشته جدید می‌گیرد و یک handle برای مدیریت چرخه حیات رشته برمی‌گرداند. رشته ایجاد شده به صورت همزمان با رشته اصلی اجرا می‌شود و می‌توانید از متد join روی handle برای انتظار جهت تکمیل استفاده کنید. بدون پیوستن صریح، رشته‌های ایجاد شده ممکن است زمانی که رشته اصلی خاتمه می‌یابد، متوقف شوند و احتمالاً کار ناتمام باقی بماند.
+
+
+کلیدواژه move هنگام کار با نخ‌ها بسیار مهم می‌شود زیرا بسته‌هایی که به نخ‌های ایجاد شده ارسال می‌شوند اغلب نیاز دارند که مالک داده‌های خود باشند نه اینکه آن‌ها را قرض بگیرند. از آنجا که نخ‌های ایجاد شده می‌توانند بیشتر از دامنه‌ای که آن‌ها را ایجاد کرده است زنده بمانند، قرض گرفتن از دامنه والد می‌تواند نقض‌های احتمالی طول عمر را ایجاد کند. انتقال داده به داخل بسته نخ، مالکیت را منتقل می‌کند و اطمینان می‌دهد که داده‌ها برای کل طول عمر نخ معتبر باقی می‌مانند و در عین حال از دسترسی از دامنه اصلی جلوگیری می‌کند.
+
+
+ارسال پیام جایگزینی برای هم‌زمانی با حالت مشترک از طریق کانال‌هایی است که به رشته‌ها اجازه می‌دهد با ارسال داده به جای اشتراک‌گذاری حافظه، ارتباط برقرار کنند. کتابخانه استاندارد Rust کانال‌های تولیدکننده چندگانه و مصرف‌کننده تکی (MPSC) را فراهم می‌کند، جایی که چندین رشته می‌توانند پیام‌ها را به یک رشته دریافت‌کننده ارسال کنند. این الگو بسیاری از مشکلات همگام‌سازی را با اجتناب کامل از حالت متغیر مشترک از بین می‌برد و به جای آن بر تبادل پیام برای هماهنگی تکیه می‌کند.
+
+
+### هم‌روندی با حالت مشترک با Mutex و Arc
+
+
+هنگامی که ارسال پیام مناسب نیست، Rust همزمانی حالت مشترک سنتی را از طریق Mutex (حذف متقابل) همراه با Arc (شمارنده مرجع اتمی) فراهم می‌کند. Mutex تضمین می‌کند که تنها یک رشته می‌تواند در هر زمان به داده‌های محافظت‌شده دسترسی داشته باشد، با الزام رشته‌ها به گرفتن قفل قبل از دسترسی به داده‌ها. قفل به‌طور خودکار زمانی که شیء نگهبان بازگشتی توسط عملیات قفل از حوزه خارج می‌شود، آزاد می‌شود و از سناریوهای رایج بن‌بست ناشی از فراموشی باز کردن قفل جلوگیری می‌کند.
+
+
+Arc به عنوان معادل ایمن در برابر نخ برای RC عمل می‌کند و از عملیات اتمی برای مدیریت ایمن شمارنده مرجع در میان چندین نخ استفاده می‌کند. در حالی که RC برای سناریوهای تک‌نخی به خوبی کار می‌کند، شمارش مرجع غیراتمی آن باعث ایجاد شرایط رقابتی می‌شود وقتی که از چندین نخ به آن دسترسی پیدا می‌شود. شمارنده‌های اتمی Arc اطمینان می‌دهند که تغییرات شمارنده مرجع حتی در دسترسی همزمان نیز به صورت ایمن انجام می‌شود و آن را برای به اشتراک‌گذاری داده‌ها در مرزهای نخ مناسب می‌سازد.
+
+
+ترکیب Arc و Mutex الگویی برای حالت متغیر مشترک در برنامه‌های همزمان ایجاد می‌کند. با قرار دادن یک Mutex در یک Arc، می‌توانید Arc را کلون کنید تا دسترسی به همان mutex را در چندین رشته توزیع کنید، به طوری که هر رشته بتواند قفل را به دست آورد و داده‌های محافظت‌شده را به‌طور ایمن تغییر دهد. این الگو انعطاف‌پذیری حالت مشترک را فراهم می‌کند در حالی که تضمین‌های ایمنی Rust را از طریق تأیید در زمان کامپایل و قفل‌گذاری در زمان اجرا حفظ می‌کند.
+
+
+ویژگی‌های Send و Sync در پشت صحنه کار می‌کنند تا ایمنی رشته‌ها را در زمان کامپایل تضمین کنند. Send نشان می‌دهد که یک نوع می‌تواند به‌طور ایمن به رشته دیگری منتقل شود، در حالی که Sync نشان می‌دهد که ارجاعات به یک نوع می‌توانند به‌طور ایمن بین رشته‌ها به اشتراک گذاشته شوند. اکثر انواع به‌طور خودکار این ویژگی‌ها را زمانی که اجزای آن‌ها ایمن برای رشته‌ها هستند، پیاده‌سازی می‌کنند، اما برخی انواع مانند RC و RefCell به‌طور صریح آن‌ها را پیاده‌سازی نمی‌کنند زیرا برای دسترسی همزمان طراحی نشده‌اند. این پیاده‌سازی خودکار ویژگی از معرفی تصادفی نقض‌های ایمنی رشته جلوگیری می‌کند در حالی که به انواع ایمن اجازه می‌دهد تا به‌طور یکپارچه در زمینه‌های همزمان کار کنند.
+
+
+## درک ماکروهای Rust
+
 <chapterId>21cf8dab-239a-580a-85cd-34326aeb1b26</chapterId>
+
 
 :::video id=5e96914d-df02-4781-ae54-b06008952301:::
 
-### Introduction to Macros in Rust
-
-Macros in Rust represent a powerful metaprogramming feature that allows developers to write code that generates other code at compile time. Unlike functions, which are called at runtime, macros are expanded by the compiler before the actual compilation process begins. This fundamental distinction makes macros particularly useful for reducing code repetition and creating domain-specific languages within Rust programs.
-
-The most recognizable indicator of a macro call is the exclamation mark (!) that follows the macro name. For example, when using `println!("Hello, world!")`, you're not calling a function but invoking a macro. This macro expands into more complex code that handles the formatting and output operations. The exclamation mark serves as a visual cue to developers that compile-time code generation is occurring rather than a standard function call.
-
-Rust provides three distinct types of macros, each serving different purposes in the language ecosystem. Function-like macros resemble function calls but operate at compile time, derive macros automatically implement traits for types, and attribute-like macros modify the behavior of code elements they're applied to. Understanding these different macro types is essential for effective Rust programming, as each addresses specific use cases and programming patterns.
-
-### Types of Macros and Their Applications
-
-Function-like macros represent the most commonly encountered macro type in Rust programming. These macros use syntax similar to function calls but perform pattern matching on their input to generate appropriate code. The `vec!` macro serves as an excellent example of this category, allowing developers to create and initialize vectors with a concise syntax. When you write `vec![1, 2, 3, 4]`, the macro expands this into code that creates a new vector, pushes each element individually, and returns the completed vector.
-
-Derive macros provide automatic trait implementations for custom types, significantly reducing boilerplate code. When you add `#[derive(Debug)]` to a struct or enum definition, you're instructing the compiler to generate a complete implementation of the Debug trait for that type. This generated implementation handles the formatting logic necessary to display the type's contents in a human-readable format. The derive mechanism supports numerous standard library traits, including Clone, PartialEq, and Serialize, making it an indispensable tool for rapid development.
-
-Attribute-like macros modify the behavior of the code elements they annotate, providing a way to add metadata or alter compilation behavior. These macros appear as attributes placed above type definitions, functions, or other code constructs. For instance, the `#[non_exhaustive]` attribute on an enum indicates that additional variants might be added in future versions, requiring match expressions to include a default case. This mechanism ensures forward compatibility while providing clear documentation of the type's evolution potential.
-
-### Creating Custom Function-Like Macros
-
-Writing custom function-like macros involves understanding Rust's pattern matching syntax for macro definitions. The macro definition uses a declarative approach where you specify patterns that match different input forms and corresponding code generation templates. Each macro can contain multiple branches, allowing it to handle various input patterns and generate appropriate code for each case.
-
-Consider creating a custom vector macro that demonstrates the fundamental principles of macro construction. The macro definition begins with `macro_rules!` followed by the macro name and a series of pattern-matching branches. Each branch consists of a pattern that matches specific input syntax and a code template that generates the corresponding Rust code. For example, a simple branch might match empty brackets `[]` and generate code to create an empty vector, while another branch matches a single expression and generates code to create a vector with one element.
-
-The power of macros becomes evident when implementing variable argument patterns using repetition syntax. The pattern `$($x:expr),*` matches zero or more expressions separated by commas, allowing the macro to handle an arbitrary number of arguments. The corresponding code generation template uses `$(vec.push($x);)*` to iterate over all matched expressions and generate individual push statements for each one. This repetition mechanism enables macros to generate code that would be impossible or extremely verbose to write manually.
-
-The compilation process transforms macro calls into expanded code before type checking and optimization occur. When the compiler encounters a macro invocation, it matches the input against the defined patterns and replaces the macro call with the generated code. This expanded code then undergoes normal compilation processes, including type checking and optimization. Tools like `cargo expand` allow developers to inspect the generated code, providing valuable debugging capabilities when developing complex macros.
-
-### Advanced Macro Concepts and Debugging
-
-Macro development requires understanding the distinction between compile-time and runtime execution. Macros execute during compilation, generating code that will run at runtime. This temporal separation means that macro logic cannot depend on runtime values, but it also enables powerful optimizations where complex computations can be performed once during compilation rather than repeatedly during execution.
-
-The pattern matching system in macros supports various fragment specifiers that define what kind of code elements can be matched. The `expr` specifier matches expressions, `ty` matches types, `ident` matches identifiers, and several others provide fine-grained control over input validation. These specifiers ensure that macros receive syntactically valid input and provide clear error messages when invalid syntax is encountered.
-
-Debugging macros presents unique challenges due to their compile-time nature. The `cargo expand` command proves invaluable for macro development, as it displays the fully expanded code generated by macro invocations. This tool allows developers to verify that their macros generate the intended code and identify issues in the expansion logic. When macro-generated code contains errors, the expanded output helps pinpoint whether the problem lies in the macro definition or the generated code structure.
-
-Complex macros can implement recursive patterns, where a macro calls itself with modified arguments to handle nested or iterative code generation. While powerful, recursive macros require careful design to avoid infinite expansion and compilation performance issues. The compile-time nature of macro expansion means that even inefficient macro implementations only affect compilation speed, not runtime performance, but excessively complex macros can significantly slow down the build process.
+### مقدمه‌ای بر ماکروها در Rust
 
 
-# Rust & Bitcoin 
+ماکروها در Rust یک ویژگی متاپروگرامینگ هستند که به توسعه‌دهندگان اجازه می‌دهند کدی بنویسند که در زمان کامپایل، کد دیگری تولید کند. برخلاف توابع که در زمان اجرا فراخوانی می‌شوند، ماکروها در مراحل اولیه فرآیند کامپایل، قبل از بررسی نوع و مراحل بعدی، گسترش می‌یابند. این تفاوت اساسی ماکروها را به‌ویژه برای کاهش تکرار کد و ایجاد زبان‌های خاص دامنه در برنامه‌های Rust مفید می‌سازد.
+
+
+قابل تشخیص‌ترین نشانگر یک فراخوانی ماکرو علامت تعجب (!) است که پس از نام ماکرو می‌آید. به عنوان مثال، هنگامی که از `println!("Hello, world!")` استفاده می‌کنید، شما یک تابع را فراخوانی نمی‌کنید بلکه یک ماکرو را فراخوانی می‌کنید. این ماکرو به کدی پیچیده‌تر گسترش می‌یابد که عملیات قالب‌بندی و خروجی را مدیریت می‌کند. علامت تعجب به عنوان یک نشانه بصری برای توسعه‌دهندگان عمل می‌کند که نشان می‌دهد تولید کد در زمان کامپایل در حال وقوع است و نه یک فراخوانی تابع استاندارد.
+
+
+Rust سه نوع ماکرو متمایز ارائه می‌دهد که هر کدام اهداف مختلفی را در اکوسیستم زبان دنبال می‌کنند:
+
+
+
+- ماکروهای شبیه به تابع**: شبیه به فراخوانی توابع هستند اما در زمان کامپایل عمل می‌کنند (مثلاً، `vec!`، `println!`)
+- مشتق ماکروها**: به‌طور خودکار ویژگی‌ها را برای انواع پیاده‌سازی کنید (مثلاً `#[derive(Debug, Clone)]`)
+- ماکروهای شبیه به ویژگی**: رفتار عناصر کد که به آن‌ها اعمال می‌شوند را تغییر می‌دهند (مثلاً `#[test]`, `#[tokio::main]`)
+
+
+درک این انواع مختلف ماکرو برای برنامه‌نویسی مؤثر Rust ضروری است، زیرا هر کدام به موارد استفاده خاص و الگوهای برنامه‌نویسی می‌پردازند.
+
+
+### انواع ماکروها و کاربردهای آن‌ها
+
+
+ماکروهای شبیه به تابع رایج‌ترین نوع ماکرو در برنامه‌نویسی Rust هستند. این ماکروها از نحوی مشابه با فراخوانی توابع استفاده می‌کنند اما بر روی ورودی خود تطبیق الگو انجام می‌دهند تا کد مناسب generate را تولید کنند. ماکروی `vec!` نمونه‌ای رایج از این دسته است که به توسعه‌دهندگان اجازه می‌دهد تا با نحوی مختصر، وکتورها را ایجاد و مقداردهی اولیه کنند. وقتی شما `vec![1, 2, 3, 4]` می‌نویسید، ماکرو این را به کدی گسترش می‌دهد که یک وکتور جدید ایجاد می‌کند، هر عنصر را به صورت جداگانه اضافه می‌کند و وکتور کامل شده را برمی‌گرداند.
+
+
+ماکروهای مشتق پیاده‌سازی خودکار ویژگی‌ها را برای انواع سفارشی فراهم می‌کنند و به‌طور قابل‌توجهی کد تکراری را کاهش می‌دهند. وقتی `#[derive(Debug)]` را به تعریف یک ساختار یا شمارش اضافه می‌کنید، به کامپایلر دستور می‌دهید تا پیاده‌سازی کامل ویژگی Debug را برای آن نوع generate کند. این پیاده‌سازی تولید شده، منطق قالب‌بندی لازم برای نمایش محتوای نوع به صورت قابل‌خواندن برای انسان را مدیریت می‌کند. مکانیزم مشتق از ویژگی‌های متعدد کتابخانه استاندارد، از جمله Clone و PartialEq پشتیبانی می‌کند و آن را به ابزاری معمول برای کاهش کد تکراری تبدیل می‌کند.
+
+
+ماکروهای شبیه به ویژگی رفتار عناصر کدی که آن‌ها را حاشیه‌نویسی می‌کنند، تغییر می‌دهند و راهی برای افزودن فراداده یا تغییر رفتار کامپایل ارائه می‌دهند. این ماکروها به صورت ویژگی‌هایی ظاهر می‌شوند که بالای تعاریف نوع، توابع یا سایر ساختارهای کد قرار می‌گیرند. به عنوان مثال، ویژگی `#[non_exhaustive]` بر روی یک enum نشان می‌دهد که ممکن است واریانت‌های اضافی در نسخه‌های آینده اضافه شوند، که نیازمند این است که عبارات match شامل یک حالت پیش‌فرض باشند. این مکانیزم تضمین می‌کند که سازگاری به جلو حفظ شود و در عین حال مستندات روشنی از پتانسیل تکامل نوع ارائه می‌دهد.
+
+
+### ایجاد ماکروهای شبیه به تابع سفارشی
+
+
+نوشتن ماکروهای سفارشی شبیه به توابع شامل درک نحو تطبیق الگوی Rust برای تعریف ماکروها است. تعریف ماکرو از یک رویکرد اعلامی استفاده می‌کند که در آن الگوهایی را مشخص می‌کنید که با فرم‌های ورودی مختلف و قالب‌های تولید کد مربوطه مطابقت دارند. هر ماکرو می‌تواند شامل شاخه‌های متعددی باشد که به آن اجازه می‌دهد الگوهای ورودی مختلف و کد مناسب generate را برای هر مورد مدیریت کند.
+
+
+ایجاد یک ماکروی وکتور سفارشی را در نظر بگیرید که اصول بنیادی ساخت ماکرو را نشان می‌دهد. تعریف ماکرو با `macro_rules!` شروع می‌شود و به دنبال آن نام ماکرو و مجموعه‌ای از شاخه‌های تطبیق الگو قرار می‌گیرد. هر شاخه شامل یک الگو است که با نحو ورودی خاصی تطبیق می‌یابد و یک قالب کد که کد Rust متناظر را تولید می‌کند. به عنوان مثال، یک شاخه ساده ممکن است براکت‌های خالی `[]` را تطبیق دهد و کد generate را برای ایجاد یک وکتور خالی تولید کند، در حالی که شاخه دیگری یک عبارت واحد را تطبیق می‌دهد و کدی برای ایجاد یک وکتور با یک عنصر تولید می‌کند.
+
+
+ماکروها به‌ویژه زمانی مفید می‌شوند که الگوهای آرگومان متغیر را با استفاده از نحو تکرار پیاده‌سازی می‌کنید. الگوی `$($x:expr),*` با صفر یا بیشتر از عبارات جدا شده با کاما مطابقت دارد و به ماکرو اجازه می‌دهد تا تعداد دلخواهی از آرگومان‌ها را مدیریت کند. قالب تولید کد متناظر از `$(vec.push($x);)*` برای تکرار بر روی تمام عبارات مطابقت یافته و generate دستورات push فردی برای هر یک استفاده می‌کند. این مکانیزم تکرار به ماکروها امکان می‌دهد تا کدی تولید کنند که نوشتن آن به صورت دستی غیرممکن یا بسیار طولانی باشد.
+
+
+```rust
+// A macro to create a HashMap with Bitcoin-related data
+macro_rules! btc_map {
+// Empty case
+() => {
+std::collections::HashMap::new()
+};
+// Key-value pairs case
+($($key:expr => $value:expr),+ $(,)?) => {
+{
+let mut map = std::collections::HashMap::new();
+$(
+map.insert($key, $value);
+)+
+map
+}
+};
+}
+
+// A macro for logging with context (simulating a derive-like pattern)
+macro_rules! log_payment {
+($level:ident, $($arg:tt)*) => {
+println!(
+"[{}] [PAYMENT] {}",
+stringify!($level).to_uppercase(),
+format!($($arg)*)
+)
+};
+}
+
+fn main() {
+// Using the btc_map! macro
+let fee_rates = btc_map! {
+"high_priority" => 50_u64,    // sats/vbyte
+"medium" => 25_u64,
+"low" => 10_u64,
+};
+
+println!("Fee rates: {:?}", fee_rates);
+
+// Using the log_payment! macro
+log_payment!(info, "Sending {} sats to {}", 100_000, "bc1q...");
+log_payment!(warn, "Fee rate {} sats/vB is above average", 75);
+log_payment!(error, "Payment failed: insufficient funds");
+
+// Standard vec! macro usage comparison
+let utxos = vec![50_000_u64, 30_000, 20_000];
+let total: u64 = utxos.iter().sum();
+println!("Total UTXOs: {} sats", total);
+}
+```
+
+
+فرآیند کامپایل، فراخوانی‌های ماکرو را به کد گسترش‌یافته تبدیل می‌کند قبل از اینکه بررسی نوع و بهینه‌سازی انجام شود. هنگامی که کامپایلر با یک فراخوانی ماکرو مواجه می‌شود، ورودی را با الگوهای تعریف‌شده مطابقت می‌دهد و فراخوانی ماکرو را با کد تولیدشده جایگزین می‌کند. سپس این کد گسترش‌یافته تحت فرآیندهای معمول کامپایل، از جمله بررسی نوع و بهینه‌سازی قرار می‌گیرد. ابزارهایی مانند `cargo expand` به توسعه‌دهندگان اجازه می‌دهند تا کد تولیدشده را بررسی کنند و قابلیت‌های اشکال‌زدایی ارزشمندی را هنگام توسعه ماکروهای پیچیده فراهم می‌کنند.
+
+
+### مفاهیم پیشرفته ماکرو و اشکال‌زدایی
+
+
+توسعه ماکرو نیازمند درک تفاوت بین اجرای زمان کامپایل و زمان اجرا است. ماکروها در طول کامپایل اجرا می‌شوند و کدی تولید می‌کنند که در زمان اجرا اجرا خواهد شد. این جداسازی زمانی به این معناست که منطق ماکرو نمی‌تواند به مقادیر زمان اجرا وابسته باشد، اما همچنین بهینه‌سازی‌هایی را ممکن می‌سازد که در آن محاسبات پیچیده می‌توانند یک‌بار در طول کامپایل انجام شوند به جای اینکه به‌طور مکرر در طول اجرا انجام شوند.
+
+
+سیستم تطبیق الگو در ماکروها از مشخص‌کننده‌های قطعه مختلفی پشتیبانی می‌کند که نوع عناصر کد قابل تطبیق را تعریف می‌کنند. مشخص‌کننده `expr` عبارات را تطبیق می‌دهد، `ty` انواع را تطبیق می‌دهد، `ident` شناسه‌ها را تطبیق می‌دهد و چندین مشخص‌کننده دیگر کنترل دقیق‌تری بر اعتبارسنجی ورودی ارائه می‌دهند. این مشخص‌کننده‌ها اطمینان حاصل می‌کنند که ماکروها ورودی نحوی معتبر دریافت می‌کنند و پیام‌های خطای واضحی در صورت مواجهه با نحو نامعتبر ارائه می‌دهند.
+
+
+اشکال‌زدایی ماکروها به دلیل ماهیت زمان کامپایل آن‌ها چالش‌های منحصربه‌فردی را ارائه می‌دهد. فرمان `cargo expand` برای توسعه ماکرو مفید است، زیرا کد کاملاً گسترش‌یافته‌ای که توسط فراخوانی‌های ماکرو تولید می‌شود را نمایش می‌دهد. این ابزار به توسعه‌دهندگان اجازه می‌دهد تا تأیید کنند که ماکروهای آن‌ها کد مورد نظر generate را تولید می‌کنند و مشکلات موجود در منطق گسترش را شناسایی کنند. هنگامی که کد تولید شده توسط ماکرو حاوی خطا باشد، خروجی گسترش‌یافته به شناسایی این که آیا مشکل در تعریف ماکرو یا ساختار کد تولید شده است کمک می‌کند.
+
+
+ماکروهای پیچیده می‌توانند الگوهای بازگشتی را پیاده‌سازی کنند، جایی که یک ماکرو خود را با آرگومان‌های اصلاح‌شده فراخوانی می‌کند تا کدهای تودرتو یا تکراری را تولید کند. با این حال، ماکروهای بازگشتی نیاز به طراحی دقیقی دارند تا از گسترش بی‌نهایت و مشکلات عملکرد کامپایل جلوگیری شود. ماهیت زمان کامپایل گسترش ماکرو به این معناست که حتی پیاده‌سازی‌های ناکارآمد ماکرو تنها بر سرعت کامپایل تأثیر می‌گذارد، نه بر عملکرد زمان اجرا، اما ماکروهای بیش از حد پیچیده می‌توانند به طور قابل توجهی فرآیند ساخت را کند کنند.
+
+
+
+# Rust & Bitcoin
+
 <partId>0f4f2ff0-7f41-5ce3-8f64-9ecff69c5355</partId>
 
-## Why Rust for Bitcoin Development
+
+## چرا Rust برای توسعه Bitcoin
+
 <chapterId>92f13f36-70bd-5b00-8c6c-fcd1a1bd1531</chapterId>
+
 
 :::video id=f59c4951-e109-4c70-b7da-41721e50ab04:::
 
 
-The choice of Rust for Bitcoin and Lightning development is not coincidental. Bitcoin development carries unique responsibilities that distinguish it from typical software development. When working with Bitcoin, developers are often handling user funds in an environment where mistakes can be irreversible. Unlike traditional financial systems with regulatory protections and chargeback mechanisms, Bitcoin's decentralized nature means that once a transaction is broadcast, there is no authority to appeal to for fund recovery. This reality demands a higher level of responsibility and precision in software development.
-
-The "move fast and break things" philosophy that works in many technology sectors simply doesn't apply to Bitcoin development. Instead, the ecosystem requires languages and tools that help developers create robust, secure software where failures are either prevented or handled gracefully. This is why many prominent Bitcoin projects have gravitated toward Rust, including the Bitcoin Development Kit (BDK), Lightning Development Kit (LDK), and BreezSDK.
-
-Rust offers three essential properties that make it particularly suitable for Bitcoin development: a static strong type system, rich modern tooling, and cross-platform compatibility. Each of these characteristics contributes to the language's ability to help developers write safer, more reliable code for handling cryptocurrency operations.
-
-### Rust's Static Strong Type System
-
-Rust's type system provides both static and strong typing characteristics that work together to catch errors before they can affect users. The static nature means that type checking occurs at compile time, requiring developers to resolve type mismatches before the program can even be built. This contrasts with dynamically typed languages where type errors only surface during runtime, potentially after the software has been deployed and is handling real user funds.
-
-The strength of Rust's type system refers to its expressiveness and rigor in modeling problems. Unlike languages with weak type systems such as C, where developers are limited to basic types like numbers and structs, Rust allows for rich type modeling that can represent complex domain concepts accurately. For example, you can create types that distinguish between different kinds of lists or enforce that certain operations are only performed on specific object types.
-
-What makes Rust's type system particularly powerful for Bitcoin development is its novel approach to memory safety. The same type system that models business logic also handles memory ownership and shared access control. This dual responsibility means that common classes of vulnerabilities, such as memory leaks, double-free errors, and race conditions, are eliminated entirely by the compiler. The type system enforces these safety guarantees through concepts like ownership, borrowing, and reference counting, making it extremely difficult to introduce memory-related bugs that could compromise security or stability.
-
-### Modern Tooling and Cross-Platform Support
-
-Rust's modern tooling ecosystem provides developers with sophisticated tools that enhance productivity and code quality. The Rust compiler itself is designed not just to translate code into binary form, but to serve as an educational tool that helps developers learn and improve. When compilation errors occur, the compiler provides detailed explanations of what went wrong and often suggests specific fixes. This approach is particularly valuable for developers new to Rust, as the compiler effectively teaches good practices and helps prevent common mistakes.
-
-The language includes Cargo, a unified package manager that handles dependency management, building, testing, and documentation generation. This standardization eliminates the fragmentation seen in older languages like C++, where multiple competing tools create inconsistency across projects. Cargo also supports extensions like rustfmt for code formatting and Clippy for static analysis, ensuring that code follows consistent style guidelines and catches potential issues before they become problems.
-
-Rust's cross-platform capabilities extend beyond traditional operating systems to include mobile platforms like Android and iOS, as well as WebAssembly for browser-based applications. This versatility is particularly valuable for Bitcoin applications that need to run across diverse environments. For instance, projects like Mutiny Wallet leverage Rust's WebAssembly compilation to create Lightning wallets that run directly in web browsers, something that would be impractical with traditional web technologies alone.
-
-### Understanding Error Types and Their Implications
-
-Effective error handling begins with understanding the different categories of errors that can occur during program execution. Consider a simple routing application that calculates paths between geographic points. This example illustrates three fundamental types of errors that developers must address: invalid input errors, runtime resource errors, and logic errors.
-
-Invalid input errors occur when a function receives parameters that don't meet its requirements. For instance, if a geographic coordinate system uses signed integers for longitude but receives a negative value where only positive values are valid, the function cannot proceed meaningfully. These errors represent a contract violation between the caller and the function, and the appropriate response is typically to reject the input and return an error indication.
-
-Runtime resource errors happen when external dependencies are unavailable or inaccessible. Reading a map file might fail because the file doesn't exist, the application lacks proper permissions, or the storage device is unavailable. These errors are external to the program logic and often require environmental fixes rather than code changes. However, robust applications must anticipate and handle these scenarios gracefully.
-
-Logic errors represent bugs in program implementation or misunderstandings about how components interact. If a routing algorithm returns an empty path when given valid start and end points, this indicates a logical flaw that needs to be corrected in the code itself. Unlike the other error types, logic errors typically require debugging and code modification to resolve.
-
-### Strategies for Robust Error Management
-
-Building reliable software requires proactive strategies that minimize error opportunities and handle unavoidable errors gracefully. The first strategy involves limiting possible errors through careful type design. By choosing types that can only represent valid values, developers can eliminate entire classes of invalid input errors. For example, using unsigned integers for values that cannot be negative prevents negative value errors at compile time.
-
-Assertions provide another layer of protection by explicitly checking that expected conditions hold true during program execution. These checks serve multiple purposes: they catch bugs during testing, cause programs to fail early when problems occur (making debugging easier), and serve as executable documentation that describes the programmer's assumptions. When an assertion fails, it indicates that a fundamental assumption about the program's state has been violated, typically pointing to a logic error that needs investigation.
-
-The principle of layered abstractions helps manage complexity by ensuring that errors are handled at appropriate levels of the system. Internal implementation details, including specific error types from lower-level libraries, should not propagate beyond subsystem boundaries. Instead, each layer should translate errors into terms that are meaningful at that level of abstraction. For instance, a wallet application using a Bitcoin library should translate low-level descriptor parsing errors into higher-level messages like "invalid wallet configuration" that provide actionable information to users or calling code.
-
-This approach to error handling, combined with Rust's type system and tooling, creates a development environment where many potential problems are caught early in the development process, before they can affect users or compromise the security of Bitcoin applications. The result is more reliable software that can handle the unique demands of cryptocurrency development.
+انتخاب Rust برای توسعه Bitcoin و Lightning تصادفی نیست. توسعه Bitcoin مسئولیت‌های منحصر به فردی را به همراه دارد که آن را از توسعه نرم‌افزارهای معمولی متمایز می‌کند. هنگام کار با Bitcoin، توسعه‌دهندگان اغلب با وجوه کاربران در محیطی سروکار دارند که اشتباهات می‌توانند غیرقابل برگشت باشند. برخلاف سیستم‌های مالی سنتی با حفاظت‌های قانونی و مکانیزم‌های بازپرداخت، ماهیت غیرمتمرکز Bitcoin به این معناست که پس از پخش یک تراکنش، هیچ مرجعی برای درخواست بازگشت وجوه وجود ندارد. این واقعیت نیازمند سطح بالاتری از مسئولیت‌پذیری و دقت در توسعه نرم‌افزار است.
 
 
-## Error model
+فلسفه "سریع حرکت کن و چیزها را بشکن" که در بسیاری از بخش‌های فناوری کار می‌کند، به سادگی در توسعه Bitcoin قابل اعمال نیست. در عوض، اکوسیستم به زبان‌ها و ابزارهایی نیاز دارد که به توسعه‌دهندگان کمک کند نرم‌افزارهای قوی و امن ایجاد کنند که در آن شکست‌ها یا جلوگیری می‌شوند یا به‌طور مؤثری مدیریت می‌شوند. به همین دلیل است که بسیاری از پروژه‌های برجسته Bitcoin به سمت Rust گرایش پیدا کرده‌اند، از جمله کیت توسعه Bitcoin (BDK)، کیت توسعه Lightning (LDK)، و BreezSDK.
+
+
+Rust سه ویژگی اساسی ارائه می‌دهد که آن را به‌ویژه برای توسعه Bitcoin مناسب می‌سازد: یک سیستم نوع قوی استاتیک، ابزارهای مدرن غنی، و سازگاری چندسکویی. هر یک از این ویژگی‌ها به توانایی زبان در کمک به توسعه‌دهندگان برای نوشتن کد ایمن‌تر و قابل‌اعتمادتر برای مدیریت عملیات ارزهای دیجیتال کمک می‌کند.
+
+
+### سیستم نوع ایستای قوی Rust
+
+
+سیستم نوع Rust ویژگی‌های تایپینگ استاتیک و قوی را ارائه می‌دهد که با هم کار می‌کنند تا خطاها را قبل از اینکه بتوانند کاربران را تحت تأثیر قرار دهند، شناسایی کنند. ماهیت استاتیک به این معناست که بررسی نوع در زمان کامپایل انجام می‌شود و توسعه‌دهندگان باید ناسازگاری‌های نوع را قبل از اینکه برنامه حتی ساخته شود، حل کنند. این در تضاد با زبان‌های تایپ دینامیک است که در آن خطاهای نوع تنها در زمان اجرا ظاهر می‌شوند، و ممکن است پس از اینکه نرم‌افزار منتشر شده و در حال مدیریت وجوه واقعی کاربران است، رخ دهند.
+
+
+قدرت سیستم نوع Rust به بیان‌گری و دقت آن در مدل‌سازی مسائل اشاره دارد. برخلاف زبان‌هایی با سیستم‌های نوع ضعیف‌تر مانند C، که توسعه‌دهندگان به انواع پایه‌ای مانند اعداد و ساختارها محدود هستند، Rust امکان مدل‌سازی نوع غنی را فراهم می‌کند که می‌تواند مفاهیم پیچیده دامنه را به‌طور دقیق نمایندگی کند. به عنوان مثال، شما می‌توانید انواعی ایجاد کنید که بین انواع مختلف لیست‌ها تمایز قائل شوند یا اطمینان حاصل کنید که عملیات خاصی فقط بر روی انواع خاصی از اشیاء انجام می‌شود.
+
+
+آنچه که سیستم نوع Rust را برای توسعه Bitcoin مرتبط می‌سازد، رویکرد آن به ایمنی حافظه است. همان سیستم نوعی که منطق کسب‌وکار را مدل‌سازی می‌کند، مالکیت حافظه و کنترل دسترسی مشترک را نیز مدیریت می‌کند. این مسئولیت دوگانه به این معناست که دسته‌های رایج آسیب‌پذیری‌ها، مانند نشت حافظه، خطاهای آزادسازی دوباره و شرایط رقابتی، به‌طور کامل توسط کامپایلر حذف می‌شوند. سیستم نوع این تضمین‌های ایمنی را از طریق مفاهیمی مانند مالکیت، قرض‌گیری و شمارش مرجع اعمال می‌کند، که معرفی باگ‌های مرتبط با حافظه که می‌تواند امنیت یا پایداری را به خطر بیندازد، بسیار دشوار می‌سازد.
+
+
+```rust
+// Example: Type-safe Bitcoin amount handling
+// Using newtypes to prevent mixing up satoshis and other values
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+struct Satoshis(u64);
+
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+struct FeeRate(u64); // sats per vbyte
+
+impl Satoshis {
+fn from_btc(btc: f64) -> Self {
+Satoshis((btc * 100_000_000.0) as u64)
+}
+
+fn as_btc(&self) -> f64 {
+self.0 as f64 / 100_000_000.0
+}
+}
+
+// Calculate fee given tx size - type system ensures we can't mix up values
+fn calculate_fee(tx_size_vbytes: u32, rate: FeeRate) -> Satoshis {
+Satoshis(tx_size_vbytes as u64 * rate.0)
+}
+
+fn main() {
+let payment = Satoshis::from_btc(0.001); // 100,000 sats
+let fee_rate = FeeRate(25);              // 25 sats/vbyte
+let tx_size = 250_u32;                   // vbytes
+
+let fee = calculate_fee(tx_size, fee_rate);
+println!("Payment: {:?} ({} BTC)", payment, payment.as_btc());
+println!("Fee: {:?}", fee);
+
+// This would NOT compile - type safety prevents mixing values:
+// let bad_fee = calculate_fee(tx_size, payment); // ERROR: expected FeeRate, found Satoshis
+}
+```
+
+
+### ابزارهای مدرن و پشتیبانی از پلتفرم‌های مختلف
+
+
+اکوسیستم ابزار Rust به توسعه‌دهندگان ابزارهایی ارائه می‌دهد که به بهره‌وری و کیفیت کد کمک می‌کنند. خود کامپایلر Rust نه تنها برای ترجمه کد به فرم باینری طراحی شده است، بلکه به عنوان یک ابزار آموزشی عمل می‌کند که به توسعه‌دهندگان کمک می‌کند یاد بگیرند و پیشرفت کنند. هنگامی که خطاهای کامپایل رخ می‌دهد، کامپایلر توضیحات دقیقی از آنچه اشتباه پیش رفته ارائه می‌دهد و اغلب راه‌حل‌های خاصی پیشنهاد می‌کند. این رویکرد به ویژه برای توسعه‌دهندگان جدید به Rust ارزشمند است، زیرا کامپایلر به طور مؤثر به آموزش روش‌های خوب کمک می‌کند و از اشتباهات رایج جلوگیری می‌کند.
+
+
+این زبان شامل Cargo است، یک مدیر بسته یکپارچه که مدیریت وابستگی‌ها، ساخت، آزمایش و تولید مستندات را بر عهده دارد. این استانداردسازی، تکه‌تکه شدن مشاهده شده در زبان‌های قدیمی‌تر مانند C++ را که در آن ابزارهای رقابتی متعدد باعث ایجاد ناسازگاری در پروژه‌ها می‌شوند، از بین می‌برد. Cargo همچنین از افزونه‌هایی مانند rustfmt برای قالب‌بندی کد و Clippy برای تحلیل ایستا پشتیبانی می‌کند و اطمینان حاصل می‌کند که کد از دستورالعمل‌های سبک سازگار پیروی می‌کند و مشکلات احتمالی را قبل از تبدیل شدن به مسائل جدی شناسایی می‌کند.
+
+
+قابلیت‌های چندسکویی Rust فراتر از سیستم‌عامل‌های سنتی است و شامل پلتفرم‌های موبایل مانند اندروید و iOS، و همچنین WebAssembly برای برنامه‌های مبتنی بر مرورگر می‌شود. این پشتیبانی چندسکویی برای برنامه‌های Bitcoin که نیاز به اجرا در محیط‌های متنوع دارند، مفید است. به عنوان مثال، پروژه‌هایی مانند Mutiny Wallet از کامپایل WebAssembly Rust بهره می‌برند تا کیف پول‌های Lightning ایجاد کنند که مستقیماً در مرورگرهای وب اجرا می‌شوند، چیزی که با فناوری‌های وب سنتی به تنهایی غیرعملی خواهد بود.
+
+
+### درک انواع خطاها و پیامدهای آن‌ها
+
+
+مدیریت مؤثر خطا با درک دسته‌های مختلف خطاهایی که می‌توانند در حین اجرای برنامه رخ دهند، آغاز می‌شود. یک برنامه مسیریابی ساده را در نظر بگیرید که مسیرها بین نقاط جغرافیایی را محاسبه می‌کند. این مثال سه نوع اساسی خطا را که توسعه‌دهندگان باید به آن‌ها بپردازند، نشان می‌دهد: خطاهای ورودی نامعتبر، خطاهای منابع زمان اجرا، و خطاهای منطقی.
+
+
+خطاهای ورودی نامعتبر زمانی رخ می‌دهند که یک تابع پارامترهایی دریافت می‌کند که با الزامات آن مطابقت ندارند. به عنوان مثال، اگر یک سیستم مختصات جغرافیایی از اعداد صحیح علامت‌دار برای طول جغرافیایی استفاده کند اما یک مقدار منفی دریافت کند در جایی که فقط مقادیر مثبت معتبر هستند، تابع نمی‌تواند به طور معناداری ادامه دهد. این خطاها نشان‌دهنده نقض قرارداد بین فراخوان و تابع هستند و پاسخ مناسب معمولاً رد ورودی و بازگرداندن یک نشانگر خطا است.
+
+
+خطاهای منابع زمان اجرا زمانی رخ می‌دهند که وابستگی‌های خارجی در دسترس یا قابل دسترسی نیستند. خواندن یک فایل نقشه ممکن است به دلیل عدم وجود فایل، نداشتن مجوزهای مناسب توسط برنامه، یا عدم دسترسی به دستگاه ذخیره‌سازی شکست بخورد. این خطاها خارج از منطق برنامه هستند و اغلب به اصلاحات محیطی نیاز دارند تا تغییرات کد. با این حال، برنامه‌های قوی باید این سناریوها را پیش‌بینی کرده و به‌طور مؤثر مدیریت کنند.
+
+
+خطاهای منطقی نشان‌دهنده باگ‌هایی در پیاده‌سازی برنامه یا سوءتفاهم‌هایی درباره نحوه تعامل اجزا هستند. اگر یک الگوریتم مسیریابی در هنگام دریافت نقاط شروع و پایان معتبر، مسیر خالی برگرداند، این نشان‌دهنده یک نقص منطقی است که نیاز به اصلاح در خود کد دارد. برخلاف انواع دیگر خطاها، خطاهای منطقی معمولاً نیاز به اشکال‌زدایی و اصلاح کد برای حل دارند.
+
+
+### استراتژی‌هایی برای مدیریت خطای قوی
+
+
+ساخت نرم‌افزار قابل‌اعتماد نیازمند استراتژی‌های پیشگیرانه‌ای است که فرصت‌های خطا را به حداقل برسانند و خطاهای اجتناب‌ناپذیر را به‌طور مؤثری مدیریت کنند. اولین استراتژی شامل محدود کردن خطاهای ممکن از طریق طراحی دقیق نوع‌ها است. با انتخاب نوع‌هایی که تنها می‌توانند مقادیر معتبر را نشان دهند، توسعه‌دهندگان می‌توانند دسته‌های کاملی از خطاهای ورودی نامعتبر را حذف کنند. به‌عنوان مثال، استفاده از اعداد صحیح بدون علامت برای مقادیری که نمی‌توانند منفی باشند، از خطاهای مقادیر منفی در زمان کامپایل جلوگیری می‌کند.
+
+
+اظهارات یک لایه محافظتی دیگر فراهم می‌کنند که با بررسی صریح شرایط مورد انتظار در طول اجرای برنامه، اطمینان حاصل می‌کنند. این بررسی‌ها چندین هدف را دنبال می‌کنند: آنها باگ‌ها را در طول تست‌گیری شناسایی می‌کنند، باعث می‌شوند برنامه‌ها در صورت بروز مشکلات زودتر متوقف شوند (که اشکال‌زدایی را آسان‌تر می‌کند)، و به عنوان مستندات اجرایی عمل می‌کنند که فرضیات برنامه‌نویس را توصیف می‌کنند. هنگامی که یک اظهارنامه شکست می‌خورد، نشان می‌دهد که یک فرض اساسی درباره وضعیت برنامه نقض شده است، که معمولاً به یک خطای منطقی اشاره دارد که نیاز به بررسی دارد.
+
+
+اصل لایه‌بندی انتزاعات به مدیریت پیچیدگی کمک می‌کند، به این صورت که اطمینان حاصل می‌شود خطاها در سطوح مناسب سیستم مدیریت می‌شوند. جزئیات پیاده‌سازی داخلی، از جمله انواع خاص خطا از کتابخانه‌های سطح پایین‌تر، نباید فراتر از مرزهای زیرسیستم گسترش یابند. در عوض، هر لایه باید خطاها را به اصطلاحاتی ترجمه کند که در آن سطح از انتزاع معنادار باشند. به عنوان مثال، یک برنامه wallet که از یک کتابخانه Bitcoin استفاده می‌کند، باید خطاهای تجزیه توصیف‌گر سطح پایین را به پیام‌های سطح بالاتری مانند "پیکربندی wallet نامعتبر" ترجمه کند که اطلاعات قابل اقدام به کاربران یا کد فراخوان ارائه می‌دهد.
+
+
+این رویکرد به مدیریت خطا، همراه با سیستم نوع و ابزارهای Rust، به شناسایی مشکلات احتمالی در اوایل فرآیند توسعه کمک می‌کند، پیش از آنکه بتوانند بر کاربران تأثیر بگذارند یا امنیت برنامه‌های Bitcoin را به خطر بیندازند.
+
+
+
+## مدل خطا
+
 <chapterId>1a648363-0aff-54dd-a79d-ead75231e5d6</chapterId>
+
 
 :::video id=9fac0184-8443-4c36-8afd-8acb21fb43c3:::
 
-Rust provides a comprehensive approach to error handling that balances safety with practicality. While the general error model concepts apply across programming languages, Rust offers specific tools and patterns that make error handling both explicit and manageable. Understanding these mechanisms is crucial for writing robust Rust applications that can gracefully handle unexpected situations while maintaining performance and safety.
+Rust یک رویکرد جامع برای مدیریت خطا ارائه می‌دهد که ایمنی را با عملی بودن متعادل می‌کند. در حالی که مفاهیم کلی مدل خطا در زبان‌های برنامه‌نویسی مختلف کاربرد دارند، Rust ابزارها و الگوهای خاصی ارائه می‌دهد که مدیریت خطا را هم صریح و هم قابل مدیریت می‌سازد. درک این مکانیزم‌ها برای نوشتن برنامه‌های Rust مقاوم که می‌توانند به طور مؤثر با موقعیت‌های غیرمنتظره برخورد کنند و در عین حال عملکرد و ایمنی را حفظ کنند، بسیار مهم است.
 
-### Panic and Its Appropriate Uses
 
-Rust's panic mechanism represents the most direct way to handle unrecoverable errors. When you call the `panic!` macro, the program immediately stops execution, either aborting or unwinding depending on your configuration. The panic macro accepts a string message that describes what went wrong, providing context for debugging. Additionally, methods like `unwrap()` and `expect()` on Result and Option types serve as shortcuts to panic when these types contain error values or None respectively. The `expect()` method allows you to provide a custom message, making it slightly more informative than `unwrap()` when debugging failures.
+### وحشت و کاربردهای مناسب آن
 
-Despite its simplicity, panic should be used judiciously in production code. There are several scenarios where panic is not only acceptable but recommended. When writing examples or prototypes, panic provides a clean way to focus on the core functionality without cluttering the code with comprehensive error handling. In testing environments, panic is often the desired behavior when assertions fail, as it clearly indicates that something unexpected occurred. The Rust community also acknowledges situations where developers have more knowledge than the compiler, such as when parsing hard-coded IP addresses that are known to be valid.
 
-However, the apparent safety of "compiler-verified" panics can be deceptive. Consider a scenario where you hard-code an IP address and use `expect()` because you know it's valid. Over time, as code evolves, that hard-coded value might be refactored into a constant, and later that constant might be changed to something like "localhost" for better user experience. Suddenly, your "safe" panic becomes a runtime failure. This evolution demonstrates why it's generally better to avoid panics in production code and instead return appropriate error types that can be handled gracefully.
+مکانیزم وحشت Rust نمایانگر مستقیم‌ترین روش برای مدیریت خطاهای غیرقابل بازیابی است. هنگامی که ماکروی `panic!` را فراخوانی می‌کنید، برنامه بلافاصله اجرای خود را متوقف می‌کند و بسته به تنظیمات شما یا متوقف می‌شود یا بازگشایی می‌کند. ماکروی وحشت یک پیام رشته‌ای را می‌پذیرد که توضیح می‌دهد چه چیزی اشتباه پیش رفته است و برای اشکال‌زدایی زمینه فراهم می‌کند. علاوه بر این، روش‌هایی مانند `unwrap()` و `expect()` بر روی انواع Result و Option به عنوان میانبرهایی برای وحشت عمل می‌کنند، زمانی که این انواع حاوی مقادیر خطا یا None هستند. روش `expect()` به شما اجازه می‌دهد یک پیام سفارشی ارائه دهید که آن را در هنگام اشکال‌زدایی خرابی‌ها کمی اطلاعاتی‌تر از `unwrap()` می‌کند.
 
-One notable exception to the "avoid panic" rule involves mutex operations. When you call `lock()` on a mutex, it returns a Result because the lock can fail if another thread panicked while holding the mutex. This creates a confusing situation where your local code receives an error for something that happened in a completely different context. Since you cannot reasonably handle an error that originated from another thread's panic, many developers consider it acceptable to unwrap mutex locks, especially if you maintain a panic-free codebase elsewhere.
 
-### Working with Result and Option Types
+با وجود سادگی‌اش، استفاده از panic در کد تولیدی باید با احتیاط انجام شود. چندین سناریو وجود دارد که در آن‌ها panic نه تنها قابل قبول بلکه توصیه‌شده است. هنگام نوشتن مثال‌ها یا نمونه‌های اولیه، panic راهی تمیز برای تمرکز بر روی عملکرد اصلی بدون شلوغ کردن کد با مدیریت جامع خطا فراهم می‌کند. در محیط‌های تست، panic اغلب رفتار مطلوبی است وقتی که ادعاها شکست می‌خورند، زیرا به وضوح نشان می‌دهد که چیزی غیرمنتظره رخ داده است. جامعه Rust نیز موقعیت‌هایی را می‌پذیرد که در آن‌ها توسعه‌دهندگان دانش بیشتری نسبت به کامپایلر دارند، مانند زمانی که آدرس‌های IP سخت‌کد شده که معتبر بودن آن‌ها مشخص است، تجزیه می‌شوند.
 
-The Result type forms the backbone of Rust's error handling system. As an enum that can hold either an `Ok(value)` or an `Err(error)`, Result forces you to explicitly acknowledge that operations can fail. The Option type serves a similar purpose for cases where a value might simply be absent, containing either `Some(value)` or `None`. While Option doesn't provide detailed error information, it's perfect for situations where the absence of a value is meaningful and expected.
 
-Both Result and Option provide several utility methods that make error handling more ergonomic. The `unwrap_or()` method returns the contained value if present, or a default value if there's an error or None. This pattern is particularly useful when you have a reasonable fallback, such as parsing user input with a sensible default when parsing fails. The `unwrap_or_default()` method works similarly but uses the type's default value instead of requiring you to specify one. While these methods don't technically handle errors in the traditional sense, they provide a way to gracefully degrade functionality when problems occur.
+با این حال، ایمنی ظاهری "وحشت‌های تأیید شده توسط کامپایلر" می‌تواند فریبنده باشد. سناریویی را در نظر بگیرید که در آن یک آدرس IP را به صورت سخت‌کد شده وارد می‌کنید و از `expect()` استفاده می‌کنید زیرا می‌دانید که معتبر است. با گذشت زمان، با تکامل کد، ممکن است آن مقدار سخت‌کد شده به یک ثابت تبدیل شود و بعداً آن ثابت ممکن است برای تجربه کاربری بهتر به چیزی مانند "localhost" تغییر یابد. ناگهان، وحشت "ایمن" شما به یک خطای زمان اجرا تبدیل می‌شود. این تکامل نشان می‌دهد که چرا به طور کلی بهتر است از وحشت‌ها در کد تولیدی اجتناب کنید و در عوض انواع خطای مناسب را برگردانید که می‌توانند به صورت مؤثر مدیریت شوند.
 
-The question mark operator (`?`) represents one of Rust's most elegant features for error propagation. When applied to a Result or Option, it extracts the success value if present, or immediately returns the error from the current function if there's a problem. This operator eliminates the verbose error checking patterns common in languages like Go, where you must manually check and return errors at every step. The question mark operator essentially provides syntactic sugar for early returns, allowing you to write clean, linear code that focuses on the happy path while automatically handling error propagation.
 
-### Advanced Error Handling Patterns
+یک استثنای قابل توجه در قانون "اجتناب از وحشت" شامل عملیات‌های mutex می‌شود. زمانی که `lock()` را روی یک mutex فراخوانی می‌کنید، یک Result برمی‌گرداند زیرا اگر یک رشته دیگر در حالی که mutex را نگه داشته بود دچار وحشت شود، قفل می‌تواند شکست بخورد. این وضعیت گیج‌کننده‌ای ایجاد می‌کند که کد محلی شما برای چیزی که در یک زمینه کاملاً متفاوت اتفاق افتاده است، خطا دریافت می‌کند. از آنجا که نمی‌توانید به طور منطقی خطایی را که از وحشت رشته دیگری ناشی شده است، مدیریت کنید، بسیاری از توسعه‌دهندگان در نظر می‌گیرند که باز کردن قفل‌های mutex قابل قبول است، به ویژه اگر در جای دیگری یک پایگاه کد بدون وحشت را حفظ کنید.
 
-The `map()` method on Result and Option types enables functional-style error handling that can make code more expressive and composable. When you call `map()` on a Result, the provided function is applied to the success value if present, while errors are automatically propagated without modification. This pattern is particularly powerful when chaining operations, as you can focus on transforming values without repeatedly handling error cases. The `map_err()` method provides the inverse functionality, allowing you to transform error types while leaving success values unchanged.
 
-Error transformation becomes crucial when building layered applications where different components need different error types. Consider a function that parses user input and needs to convert low-level parsing errors into domain-specific errors. Using `map_err()`, you can easily translate a generic "invalid number format" error into a more contextual "invalid age" error that makes sense within your application's domain. This transformation happens right at the point where the error occurs, making the code more readable and maintainable than traditional try-catch blocks where error handling is separated from the operations that can fail.
+### کار با انواع Result و Option
 
-The combination of the question mark operator with error mapping creates powerful, concise error handling patterns. You can chain operations, transform errors as needed, and propagate them up the call stack with minimal boilerplate. This approach keeps error handling close to the operations that can fail while maintaining clean separation between success and error paths.
 
-### External Libraries and Error Handling Ecosystems
+نوع Result ستون فقرات سیستم مدیریت خطای Rust را تشکیل می‌دهد. به عنوان یک enum که می‌تواند یا `Ok(value)` یا `Err(error)` را نگه دارد، Result شما را مجبور می‌کند به‌طور صریح اذعان کنید که عملیات ممکن است شکست بخورد. نوع Option هدف مشابهی را برای مواردی که ممکن است یک مقدار به سادگی غایب باشد، ارائه می‌دهد و یا `Some(value)` یا `None` را در بر دارد. در حالی که Option اطلاعات خطای دقیقی ارائه نمی‌دهد، برای موقعیت‌هایی که غیاب یک مقدار معنادار و مورد انتظار است، ایده‌آل است.
 
-The Rust ecosystem includes several popular libraries that extend the standard library's error handling capabilities. The `anyhow` library provides a simplified approach to error handling by offering a universal error type that can automatically convert from any error type that implements the standard Error trait. This automatic conversion allows you to use the question mark operator with different error types without manual conversion, making it particularly useful for applications where you don't need to programmatically distinguish between different error types.
 
-While `anyhow` excels at simplifying error handling for applications where errors are primarily displayed to users, it has limitations in library development. Since `anyhow` essentially converts all errors to string messages, consumers of your library cannot easily programmatically respond to different error conditions. This limitation makes `anyhow` more suitable for end-user applications than for libraries that need to provide structured error information to their consumers.
+هم Result و هم Option چندین متد کاربردی ارائه می‌دهند که مدیریت خطا را راحت‌تر می‌کنند. متد `unwrap_or()` مقدار موجود را در صورت وجود برمی‌گرداند، یا یک مقدار پیش‌فرض در صورت بروز خطا یا None. این الگو به‌ویژه زمانی مفید است که یک جایگزین منطقی دارید، مانند تجزیه ورودی کاربر با یک مقدار پیش‌فرض معقول وقتی که تجزیه شکست می‌خورد. متد `unwrap_or_default()` به‌طور مشابه عمل می‌کند اما از مقدار پیش‌فرض نوع استفاده می‌کند به‌جای اینکه شما یکی را مشخص کنید. در حالی که این متدها به‌طور فنی خطاها را به معنای سنتی مدیریت نمی‌کنند، اما راهی برای کاهش عملکرد به‌صورت ملایم زمانی که مشکلات رخ می‌دهند، فراهم می‌کنند.
 
-More sophisticated error handling approaches involve creating custom error types that model the specific failure modes of your application or library. A well-designed error model might distinguish between invalid input (which the caller can fix), runtime errors (which might be retryable), and permanent failures (which indicate bugs or unrecoverable conditions). This structured approach enables consumers of your code to make intelligent decisions about how to respond to different types of failures, whether that means retrying operations, prompting users for different input, or reporting bugs to developers.
 
-## UniFFI, Bridging Rust Libraries to Multiple Languages
+عملگر علامت سوال (`?`) یک نحو مختصر برای انتشار خطا است. هنگامی که به یک Result یا Option اعمال می‌شود، مقدار موفقیت را در صورت وجود استخراج می‌کند، یا در صورت بروز مشکل، بلافاصله خطا را از تابع فعلی بازمی‌گرداند. این عملگر الگوهای بررسی خطای پرحرف را که در زبان‌هایی مانند Go رایج است، حذف می‌کند، جایی که باید به صورت دستی خطاها را در هر مرحله بررسی و بازگردانید. عملگر علامت سوال اساساً شکر نحوی برای بازگشت‌های زودهنگام فراهم می‌کند و به شما اجازه می‌دهد کد تمیز و خطی بنویسید که بر مسیر موفقیت تمرکز دارد در حالی که به صورت خودکار انتشار خطا را مدیریت می‌کند.
+
+
+### الگوهای پیشرفته مدیریت خطا
+
+
+متد `map()` بر روی انواع Result و Option امکان مدیریت خطا به سبک تابعی را فراهم می‌کند که می‌تواند کد را بیانگرتر و ترکیب‌پذیرتر کند. وقتی `map()` را بر روی یک Result فراخوانی می‌کنید، تابع ارائه‌شده به مقدار موفقیت اعمال می‌شود اگر موجود باشد، در حالی که خطاها به‌طور خودکار بدون تغییر منتقل می‌شوند. این الگو زمانی که عملیات‌ها را زنجیره‌ای می‌کنید مفید است، زیرا می‌توانید بر روی تبدیل مقادیر تمرکز کنید بدون اینکه به‌طور مکرر با موارد خطا برخورد کنید. متد `map_err()` عملکرد معکوس را فراهم می‌کند و به شما اجازه می‌دهد انواع خطا را تغییر دهید در حالی که مقادیر موفقیت را بدون تغییر باقی می‌گذارد.
+
+
+تبدیل خطا زمانی که برنامه‌های لایه‌ای ساخته می‌شوند و اجزای مختلف به انواع خطاهای مختلف نیاز دارند، بسیار مهم می‌شود. در نظر بگیرید تابعی که ورودی کاربر را تجزیه می‌کند و نیاز دارد خطاهای تجزیه سطح پایین را به خطاهای خاص دامنه تبدیل کند. با استفاده از `map_err()`، می‌توانید به راحتی یک خطای عمومی "فرمت عدد نامعتبر" را به یک خطای "سن نامعتبر" که در دامنه برنامه شما معنا دارد، تبدیل کنید. این تبدیل دقیقاً در نقطه‌ای که خطا رخ می‌دهد، انجام می‌شود و کد را خواناتر و قابل نگهداری‌تر از بلوک‌های سنتی try-catch می‌کند که در آن‌ها مدیریت خطا از عملیات‌هایی که ممکن است شکست بخورند، جدا است.
+
+
+ترکیب عملگر علامت سوال با نگاشت خطا الگوهای مدیریت خطای مختصری ایجاد می‌کند. شما می‌توانید عملیات را زنجیره کنید، خطاها را در صورت نیاز تغییر دهید و آن‌ها را با حداقل کد اضافی به بالای پشته فراخوانی منتقل کنید. این رویکرد مدیریت خطا را نزدیک به عملیاتی که ممکن است شکست بخورند نگه می‌دارد و در عین حال جدایی تمیز بین مسیرهای موفقیت و خطا را حفظ می‌کند.
+
+
+```rust
+use std::fmt;
+
+// Layered error types for a wallet application
+#[derive(Debug)]
+enum NetworkError {
+ConnectionFailed(String),
+Timeout,
+}
+
+#[derive(Debug)]
+enum WalletError {
+Network(NetworkError),
+InvalidAddress(String),
+InsufficientFunds { required: u64, available: u64 },
+}
+
+// Implement Display for user-friendly messages
+impl fmt::Display for WalletError {
+fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+match self {
+WalletError::Network(e) => write!(f, "Network error: {:?}", e),
+WalletError::InvalidAddress(addr) => write!(f, "Invalid address: {}", addr),
+WalletError::InsufficientFunds { required, available } =>
+write!(f, "Need {} sats but only have {} available", required, available),
+}
+}
+}
+
+// Convert from lower-level error to domain error
+impl From<NetworkError> for WalletError {
+fn from(err: NetworkError) -> Self {
+WalletError::Network(err)
+}
+}
+
+// Simulated network call
+fn fetch_balance(address: &str) -> Result<u64, NetworkError> {
+if address.starts_with("bc1") {
+Ok(500_000) // 500k sats
+} else {
+Err(NetworkError::ConnectionFailed("Invalid endpoint".into()))
+}
+}
+
+// Higher-level function using ? with automatic error conversion
+fn send_payment(from: &str, amount: u64) -> Result<String, WalletError> {
+let balance = fetch_balance(from)?; // NetworkError auto-converts to WalletError
+
+if balance < amount {
+return Err(WalletError::InsufficientFunds {
+required: amount,
+available: balance,
+});
+}
+
+Ok(format!("Sent {} sats", amount))
+}
+
+fn main() {
+match send_payment("bc1qtest...", 100_000) {
+Ok(msg) => println!("Success: {}", msg),
+Err(e) => println!("Failed: {}", e), // User-friendly message
+}
+}
+```
+
+
+### کتابخانه‌های خارجی و اکوسیستم‌های مدیریت خطا
+
+
+اکوسیستم Rust شامل چندین کتابخانه محبوب است که قابلیت‌های مدیریت خطای کتابخانه استاندارد را گسترش می‌دهند. کتابخانه `anyhow` رویکردی ساده‌شده برای مدیریت خطا ارائه می‌دهد با ارائه یک نوع خطای جهانی که می‌تواند به‌طور خودکار از هر نوع خطایی که ویژگی استاندارد Error را پیاده‌سازی می‌کند، تبدیل شود. این تبدیل خودکار به شما اجازه می‌دهد تا از عملگر علامت سؤال با انواع خطای مختلف بدون تبدیل دستی استفاده کنید، که این امر به‌ویژه برای برنامه‌هایی که نیازی به تمایز برنامه‌ریزی‌شده بین انواع خطای مختلف ندارند، مفید است.
+
+
+در حالی که `anyhow` در ساده‌سازی مدیریت خطا برای برنامه‌هایی که خطاها عمدتاً به کاربران نمایش داده می‌شوند، عالی عمل می‌کند، در توسعه کتابخانه محدودیت‌هایی دارد. از آنجا که `anyhow` اساساً تمام خطاها را به پیام‌های متنی تبدیل می‌کند، مصرف‌کنندگان کتابخانه شما نمی‌توانند به راحتی به صورت برنامه‌ریزی شده به شرایط مختلف خطا پاسخ دهند. این محدودیت باعث می‌شود `anyhow` برای برنامه‌های کاربر نهایی مناسب‌تر باشد تا برای کتابخانه‌هایی که نیاز به ارائه اطلاعات خطای ساختاریافته به مصرف‌کنندگان خود دارند.
+
+
+رویکردهای پیشرفته‌تر در مدیریت خطا شامل ایجاد انواع خطای سفارشی است که مدل‌های خاصی از حالت‌های شکست برنامه یا کتابخانه شما را نشان می‌دهند. یک مدل خطای خوب طراحی‌شده ممکن است بین ورودی نامعتبر (که تماس‌گیرنده می‌تواند آن را اصلاح کند)، خطاهای زمان اجرا (که ممکن است قابل تکرار باشند) و شکست‌های دائمی (که نشان‌دهنده باگ‌ها یا شرایط غیرقابل بازیابی هستند) تمایز قائل شود. این رویکرد ساختاریافته به مصرف‌کنندگان کد شما این امکان را می‌دهد که تصمیمات هوشمندانه‌ای در مورد نحوه پاسخ به انواع مختلف شکست‌ها بگیرند، چه به معنای تکرار عملیات، درخواست ورودی متفاوت از کاربران، یا گزارش باگ‌ها به توسعه‌دهندگان باشد.
+
+
+## UniFFI، پل زدن کتابخانه‌های Rust به زبان‌های متعدد
+
 
 <chapterId>fe1be3e3-2288-5a10-b64b-9ba72fb985d1</chapterId>
 
+
 :::video id=b1a0f5f6-fc29-4b83-9c09-0b24711654e2:::
 
-### Introduction to UniFFI and Cross-Platform Development
+### مقدمه‌ای بر UniFFI و توسعه چندسکویی
 
-UniFFI represents a significant advancement in making Rust libraries accessible across multiple programming languages and platforms. Developed by Mozilla, this tool addresses a fundamental challenge in modern software development: how to leverage the performance and safety benefits of Rust while maintaining compatibility with diverse development ecosystems. The tool automatically generates language bindings for Rust libraries, eliminating the need for developers to manually create interface code for each target language.
 
-The core problem UniFFI solves stems from Rust's nature as a compiled language. When Rust code is compiled, it produces binary output with a Foreign Function Interface (FFI) that, while powerful, presents a low-level interface that can be challenging to use directly from higher-level languages like Python, Swift, or Kotlin. Traditionally, each library developer would need to write custom binding code for every target language, creating a significant barrier to cross-platform adoption. UniFFI eliminates this redundancy by providing a standardized approach to generating these bindings automatically.
+UniFFI ابزاری است برای دسترسی به کتابخانه‌های Rust در چندین زبان برنامه‌نویسی و پلتفرم. این ابزار که توسط موزیلا توسعه یافته است، به یک چالش اساسی در توسعه نرم‌افزار مدرن می‌پردازد: چگونه می‌توان از مزایای عملکرد و ایمنی Rust بهره‌مند شد در حالی که سازگاری با اکوسیستم‌های توسعه متنوع حفظ شود. این ابزار به‌طور خودکار پیوندهای زبانی برای کتابخانه‌های Rust تولید می‌کند و نیاز به ایجاد دستی کد رابط برای هر زبان هدف را از بین می‌برد.
 
-The tool's design philosophy centers on enabling Rust developers to focus on their core business logic while making their libraries accessible to developers working in other languages. An iOS developer using Swift, for instance, can consume a Rust library through UniFFI-generated bindings that present a completely native Swift interface, with no indication that the underlying implementation is written in Rust. This seamless integration allows teams to leverage Rust's performance benefits without requiring all team members to learn Rust.
 
-### Understanding the UniFFI Architecture and Workflow
+مشکل اصلی که UniFFI حل می‌کند از ماهیت Rust به عنوان یک زبان کامپایل شده ناشی می‌شود. زمانی که کد Rust کامپایل می‌شود، خروجی باینری با یک رابط تابع خارجی Interface (FFI) تولید می‌کند که یک رابط سطح پایین ارائه می‌دهد که می‌تواند استفاده مستقیم از زبان‌های سطح بالاتر مانند Python، Swift یا Kotlin را چالش‌برانگیز کند. به طور سنتی، هر توسعه‌دهنده کتابخانه باید کد اتصال سفارشی برای هر زبان هدف بنویسد که مانعی قابل توجه برای پذیرش چندسکویی ایجاد می‌کند. UniFFI این تکرار را با ارائه یک روش استاندارد برای تولید خودکار این اتصالات از بین می‌برد.
 
-UniFFI operates through a well-defined workflow that transforms Rust libraries into multi-language compatible packages. The process begins with the creation of a Unified Definition Language (UDL) file, which serves as an interface specification that describes what parts of your Rust library should be exposed to other languages. This UDL file acts as a contract between your Rust implementation and the generated language bindings.
 
-The architecture follows a clear separation of concerns. Developers maintain their Rust library with standard Rust idioms and patterns, then create a separate UDL file that maps the public interface to UniFFI's type system. The UniFFI binding generator processes both the Rust library and the UDL specification to produce native language bindings for the requested target platforms. These generated bindings handle all the complex marshaling and unmarshaling of data between the foreign language runtime and the Rust code.
+فلسفه طراحی این ابزار بر این تمرکز دارد که به توسعه‌دهندگان Rust اجازه دهد تا بر منطق اصلی کسب‌وکار خود تمرکز کنند، در حالی که کتابخانه‌های خود را برای توسعه‌دهندگانی که با زبان‌های دیگر کار می‌کنند، قابل دسترسی می‌سازند. به عنوان مثال، یک توسعه‌دهنده iOS که از Swift استفاده می‌کند، می‌تواند یک کتابخانه Rust را از طریق بایندینگ‌های تولید شده توسط UniFFI مصرف کند که یک رابط کاملاً بومی Swift ارائه می‌دهد، بدون هیچ نشانه‌ای که پیاده‌سازی زیرین به زبان Rust نوشته شده است. این یکپارچگی بی‌نقص به تیم‌ها اجازه می‌دهد تا از مزایای عملکردی Rust بهره‌مند شوند بدون اینکه نیاز باشد همه اعضای تیم Rust را یاد بگیرند.
 
-At runtime, the architecture creates a layered approach where application code written in the target language (such as Kotlin for Android) interacts with generated binding code that appears completely native to that language. This binding layer handles the translation between language-specific types and Rust types, manages memory safely across language boundaries, and provides error handling that follows the conventions of the target language. The underlying Rust business logic remains unchanged and unaware of the multiple language interfaces built on top of it.
 
-### Working with UDL: Interface Definition and Type Mapping
+### درک معماری و جریان کاری UniFFI
 
-The Unified Definition Language serves as the cornerstone of UniFFI's functionality, providing a declarative way to specify which parts of a Rust library should be exposed and how they should be presented in target languages. UDL files must contain at least one namespace, which acts as a container for functions that can be called directly without requiring object instantiation. These namespace functions typically handle simple operations that take values as parameters and return results.
 
-UDL supports a comprehensive set of built-in types that map naturally to corresponding Rust types. Basic types include standard primitives like booleans, various integer sizes (u8, u32, etc.), floating-point numbers, and strings. More complex types include vectors, hash maps, and Rust-specific concepts like Option types (represented with a question mark syntax) and Result types for error handling. The type system also supports enumerations, both simple value-based enums and complex enums that contain associated data, allowing for sophisticated data modeling that translates well across language boundaries.
+UniFFI از طریق یک جریان کاری به خوبی تعریف شده عمل می‌کند که کتابخانه‌های Rust را به بسته‌های سازگار با چند زبان تبدیل می‌کند. این فرآیند با ایجاد یک فایل زبان تعریف یکپارچه (UDL) آغاز می‌شود که به عنوان یک مشخصات رابط عمل می‌کند و توضیح می‌دهد که کدام بخش‌های کتابخانه Rust شما باید به زبان‌های دیگر نمایش داده شوند. این فایل UDL به عنوان یک قرارداد بین پیاده‌سازی Rust شما و اتصال‌های زبانی تولید شده عمل می‌کند.
 
-Structs in Rust translate to dictionaries in UDL, maintaining a nearly one-to-one correspondence while adapting to UDL's syntax conventions. When Rust structs have associated methods, they can be exposed as interfaces in UDL, which generate as classes with methods in object-oriented target languages like Kotlin or Swift. This mapping preserves the object-oriented design patterns that developers expect in these languages while maintaining the underlying Rust implementation's structure and behavior.
 
-### Error Handling and Advanced Features
+معماری از یک جداسازی واضح نگرانی‌ها پیروی می‌کند. توسعه‌دهندگان کتابخانه Rust خود را با اصطلاحات و الگوهای استاندارد Rust نگهداری می‌کنند، سپس یک فایل UDL جداگانه ایجاد می‌کنند که رابط عمومی را به سیستم نوع UniFFI نگاشت می‌کند. مولد اتصال UniFFI هم کتابخانه Rust و هم مشخصات UDL را پردازش می‌کند تا اتصالات زبان بومی را برای پلتفرم‌های هدف درخواست شده تولید کند. این اتصالات تولید شده تمام پیچیدگی‌های تبدیل و بازتبدیل داده‌ها بین زمان اجرای زبان خارجی و کد Rust را مدیریت می‌کنند.
 
-UniFFI provides sophisticated error handling that preserves Rust's Result-based error model while translating it appropriately for target languages. Functions that return Result types in Rust can be marked with the "throws" keyword in UDL, specifying which error types they may produce. These errors must be defined as error enums in the UDL file and must implement Rust's standard Error trait in the underlying Rust code. The thiserror crate provides a convenient macro for implementing this trait, reducing boilerplate code significantly.
 
-The error handling translation demonstrates UniFFI's language-aware approach. In Kotlin, functions marked as throwing in UDL generate methods that throw exceptions following Java/Kotlin conventions. Python bindings similarly use Python's exception model. This translation ensures that error handling feels natural and idiomatic in each target language while preserving the semantic meaning of the original Rust error types.
+در زمان اجرا، معماری یک رویکرد لایه‌ای ایجاد می‌کند که در آن کد برنامه نوشته شده به زبان هدف (مانند Kotlin برای اندروید) با کد بایندینگ تولید شده که به طور کامل بومی آن زبان به نظر می‌رسد، تعامل دارد. این لایه بایندینگ ترجمه بین انواع خاص زبان و انواع Rust را مدیریت می‌کند، حافظه را به صورت ایمن در مرزهای زبان مدیریت می‌کند و مدیریت خطا را که از کنوانسیون‌های زبان هدف پیروی می‌کند، فراهم می‌سازد. منطق کسب‌وکار Rust زیرین بدون تغییر باقی می‌ماند و از رابط‌های چندگانه زبانی که بر روی آن ساخته شده‌اند، بی‌اطلاع است.
 
-Callback interfaces represent another advanced feature that enables bidirectional communication between Rust libraries and consuming applications. When a Rust library needs to call back into application code, developers can define traits in Rust and mark them as callback interfaces in UDL. The consuming application implements these interfaces in their native language, and UniFFI handles the complex marshaling required to invoke these callbacks from Rust code. This pattern requires careful consideration of thread safety, as callbacks may cross thread boundaries, necessitating Send and Sync bounds on the Rust side.
 
-### Real-World Applications and Current Limitations
+### کار با UDL: تعریف و نگاشت نوع Interface
 
-UniFFI has gained significant adoption in the cryptocurrency and blockchain development community, with major projects like BDK (Bitcoin Development Kit), LDK (Lightning Development Kit), and various wallet implementations using it to provide mobile SDKs. These projects demonstrate UniFFI's maturity and effectiveness in production environments, where the combination of Rust's performance and safety with mobile platform accessibility creates significant value.
 
-Examining real-world UDL files from these projects reveals patterns and best practices that have emerged from practical usage. BDK's UDL file, for example, shows how complex domain models with multiple enums, structs, and interfaces can be effectively mapped to create comprehensive mobile SDKs. The consistency of UDL syntax across different projects means that developers familiar with one UniFFI-enabled library can quickly understand and work with others, creating a network effect that benefits the entire ecosystem.
+زبان تعریف یکپارچه به عنوان سنگ بنای عملکرد UniFFI عمل می‌کند و روشی اعلامی برای مشخص کردن بخش‌هایی از کتابخانه Rust که باید افشا شوند و نحوه ارائه آن‌ها در زبان‌های هدف ارائه می‌دهد. فایل‌های UDL باید حداقل یک فضای نام داشته باشند که به عنوان یک ظرف برای توابعی عمل می‌کند که می‌توانند مستقیماً بدون نیاز به نمونه‌سازی شیء فراخوانی شوند. این توابع فضای نام معمولاً عملیات ساده‌ای را که مقادیر را به عنوان پارامتر می‌گیرند و نتایج را برمی‌گردانند، مدیریت می‌کنند.
 
-However, UniFFI does have notable limitations that developers must consider. The most significant is the lack of support for asynchronous interfaces. All generated bindings are synchronous, requiring developers to handle asynchronous operations within their Rust code and present synchronous interfaces to consuming applications. Additionally, documentation placement presents a challenge: documentation written in Rust code doesn't transfer to generated bindings, while documentation in UDL files isn't available to direct Rust consumers of the library. While there are ongoing efforts to address these limitations through automatic parsing and generation, they remain considerations for current implementations. Finally, UniFFI generates language bindings but doesn't handle the platform-specific packaging and distribution, leaving developers to manage the final steps of creating distributable packages for each target platform.
 
-## Async traits
-<chapterId>e1610abe-574c-5995-abe4-a92b0dca4c93</chapterId>
+UDL از مجموعه‌ای جامع از انواع داخلی پشتیبانی می‌کند که به‌طور طبیعی به انواع متناظر Rust نگاشت می‌شوند. انواع پایه شامل انواع اولیه استاندارد مانند بولین‌ها، اندازه‌های مختلف اعداد صحیح (u8، u32 و غیره)، اعداد اعشاری و رشته‌ها هستند. انواع پیچیده‌تر شامل بردارها، نقشه‌های هش و مفاهیم خاص Rust مانند انواع Option (که با نحو علامت سوال نشان داده می‌شوند) و انواع Result برای مدیریت خطا هستند. سیستم نوع همچنین از شمارش‌ها پشتیبانی می‌کند، هم شمارش‌های ساده مبتنی بر مقدار و هم شمارش‌های پیچیده که داده‌های مرتبط را شامل می‌شوند، که امکان مدل‌سازی داده‌ای را فراهم می‌کند که در مرزهای زبانی ترجمه می‌شود.
 
-:::video id=8926dd48-3613-43b6-a509-60ba26ec337f:::
 
-This chapter introduces a hands-on approach to learning Rust through the development of a complete command-line application. Rather than focusing solely on language syntax, we'll build a "guess the number" game that incorporates essential development practices including testing, code formatting, and third-party library integration. This practical project serves as an excellent foundation for understanding how real-world Rust applications are structured and developed.
+ساختارها در Rust به دیکشنری‌ها در UDL ترجمه می‌شوند و تقریباً یک تطابق یک‌به‌یک را حفظ می‌کنند در حالی که به قواعد نحوی UDL تطبیق می‌یابند. زمانی که ساختارهای Rust دارای متدهای مرتبط هستند، می‌توانند به عنوان رابط‌ها در UDL نمایش داده شوند، که generate به عنوان کلاس‌ها با متدها در زبان‌های هدف شیءگرا مانند Kotlin یا Swift است. این نگاشت الگوهای طراحی شیءگرا را که توسعه‌دهندگان در این زبان‌ها انتظار دارند حفظ می‌کند در حالی که ساختار و رفتار پیاده‌سازی Rust زیرین را حفظ می‌کند.
 
-### Project Overview and Learning Objectives
 
-The core concept behind this project is straightforward: create a number guessing game where the computer generates a secret number and the player attempts to guess it through an interactive command-line interface. However, the simplicity of the game mechanics allows us to focus on the more important aspects of Rust development, including proper project structure, user interface design, and the integration of external libraries.
+```
+// Example UDL file for a Bitcoin wallet library (wallet.udl)
+namespace wallet {
+// Namespace functions - called directly without object
+string generate_mnemonic();
+Wallet create_wallet(string mnemonic);
+};
 
-The primary educational goal extends beyond just writing functional code. To truly become proficient in Rust, developers typically need to write approximately 1,000 lines of code across various projects. This game serves as an ideal starting point because it combines multiple essential skills: basic Rust syntax, error handling, user input processing, and command-line interface development. Additionally, the project introduces practical development tools that are crucial for professional Rust programming, including unit testing frameworks, code formatting utilities, and static analysis tools.
+// Dictionary (struct) - becomes data class in Kotlin, struct in Swift
+dictionary Balance {
+u64 confirmed_sats;
+u64 pending_sats;
+};
 
-### Command-Line Interface Design
+// Interface (class with methods) - becomes class with methods
+interface Wallet {
+// Constructor
+constructor(string mnemonic);
 
-The game features a comprehensive command-line interface that demonstrates professional-grade user experience design. When launched, the application provides a help system that explains available commands and their parameters, ensuring users can quickly understand how to interact with the program. The interface supports commands for starting a new game, setting the range of possible numbers, making guesses, and quitting the application.
+// Methods
+Balance get_balance();
+string get_new_address();
+string send_to_address(string address, u64 amount_sats);
+};
 
-A typical game session begins with the player setting a numerical range, such as 1 to 30, from which the computer will select its secret number. The program confirms the range selection and prompts the player to begin guessing. As players make guesses, the system provides feedback indicating whether their guess is too high or too low, guiding them toward the correct answer. Upon successfully guessing the number, the program displays the total number of attempts required, providing a sense of accomplishment and encouraging replay.
+// Enum with data - maps to sealed class (Kotlin) or enum with associated values (Swift)
+[Enum]
+interface TransactionStatus {
+Pending(u32 confirmations_needed);
+Confirmed(u32 block_height);
+Failed(string reason);
+};
 
-This interface design philosophy reflects common patterns found in professional Bitcoin and Lightning Development Kit (BDK/LDK) tools, where command-line interfaces serve as both testing environments and practical utilities for library interaction. Understanding how to create intuitive, helpful command-line tools is therefore directly applicable to real-world blockchain development scenarios.
+// Error enum for Result types
+[Error]
+enum WalletError {
+"InsufficientFunds",
+"InvalidAddress",
+"NetworkError",
+};
 
-### Development Workflow and Best Practices
+// Function that can fail - throws in target language
+interface Wallet {
+[Throws=WalletError]
+string send_to_address(string address, u64 amount_sats);
+};
+```
 
-The development process emphasizes industry-standard practices that extend far beyond basic coding. Throughout the project, we'll implement comprehensive unit testing to ensure code reliability and maintainability. These tests not only verify that individual functions work correctly but also serve as documentation for how different components should behave under various conditions.
 
-Code quality maintenance involves regular use of Cargo's built-in tools, particularly `cargo fmt` for consistent code formatting and `cargo clippy` for identifying potential improvements and common mistakes. These tools help maintain professional code standards and catch issues before they become problems in production environments. The formatting tool ensures consistent style across the entire codebase, while Clippy provides intelligent suggestions for more idiomatic Rust code.
+اجرای متناظر Rust این انواع را تعریف کرده و ویژگی `uniffi::export` را برای پیوندهای generate به زبان‌های Kotlin، Swift، Python و سایر زبان‌های پشتیبانی‌شده پیاده‌سازی می‌کند.
 
-### Library Integration and Enhanced Features
 
-The project incorporates several third-party libraries to demonstrate how external dependencies enhance application functionality. The colors library provides an excellent starting point for visual enhancement, allowing the application to display feedback in different colors based on the accuracy of guesses. For example, incorrect guesses might appear in red to indicate danger, while closer guesses could display in green to suggest progress.
+### مدیریت خطا و ویژگی‌های پیشرفته
 
-The readline library integration introduces sophisticated input handling capabilities, including command completion, input hints, and command history. These features transform the basic command-line interface into a professional-grade tool that users will find familiar and comfortable to use. The readline functionality mirrors the experience users expect from modern terminal applications, making the game feel polished and complete.
 
-Additionally, the project explores progress bar implementation through dedicated libraries, even though the game's operations complete quickly. By artificially introducing delays during number generation, we can demonstrate how progress indicators keep users informed during longer operations. This technique proves valuable when developing more complex applications where actual processing time justifies progress feedback.
+UniFFI مدیریت خطا را ارائه می‌دهد که مدل خطای مبتنی بر Result در Rust را حفظ می‌کند و در عین حال آن را به‌طور مناسب برای زبان‌های هدف ترجمه می‌کند. توابعی که انواع Result را در Rust بازمی‌گردانند می‌توانند با کلمه کلیدی "throws" در UDL علامت‌گذاری شوند و مشخص کنند که چه نوع خطاهایی ممکن است تولید کنند. این خطاها باید به‌عنوان enum خطا در فایل UDL تعریف شوند و باید ویژگی استاندارد Error در کد پایه Rust را پیاده‌سازی کنند. crate این خطا یک ماکروی مناسب برای پیاده‌سازی این ویژگی ارائه می‌دهد که به‌طور قابل توجهی کدهای تکراری را کاهش می‌دهد.
 
-The project setup begins with creating a new Cargo application using `cargo new guess`, followed by navigating to the project directory and running the initial build. Dependencies can be added efficiently using Cargo's built-in dependency management, which automatically updates the project's configuration file with the required library information.
 
-# Developping LNP/BP with SDK
+ترجمه‌ی مدیریت خطا، رویکرد زبان‌آگاه UniFFI را نشان می‌دهد. در Kotlin، توابعی که در UDL به عنوان پرتاب‌کننده علامت‌گذاری شده‌اند، روش‌های generate که استثناها را بر اساس قراردادهای Java/Kotlin پرتاب می‌کنند. اتصالات Python به‌طور مشابه از مدل استثنای Python استفاده می‌کنند. این ترجمه تضمین می‌کند که مدیریت خطا در هر زبان هدف به‌طور طبیعی و اصطلاحی احساس می‌شود، در حالی که معنای معنایی انواع خطای اصلی Rust را حفظ می‌کند.
+
+
+رابط‌های بازگشتی نمایانگر ویژگی پیشرفته دیگری هستند که ارتباط دوطرفه بین کتابخانه‌های Rust و برنامه‌های مصرف‌کننده را امکان‌پذیر می‌سازند. هنگامی که یک کتابخانه Rust نیاز دارد به کد برنامه بازگردد، توسعه‌دهندگان می‌توانند ویژگی‌هایی را در Rust تعریف کرده و آن‌ها را به عنوان رابط‌های بازگشتی در UDL علامت‌گذاری کنند. برنامه مصرف‌کننده این رابط‌ها را در زبان بومی خود پیاده‌سازی می‌کند و UniFFI مدیریت پیچیده مورد نیاز برای فراخوانی این بازگشت‌ها از کد Rust را انجام می‌دهد. این الگو نیازمند توجه دقیق به ایمنی رشته‌ها است، زیرا بازگشت‌ها ممکن است از مرزهای رشته عبور کنند و نیاز به محدودیت‌های Send و Sync در سمت Rust دارند.
+
+
+### کاربردهای دنیای واقعی و محدودیت‌های فعلی
+
+
+UniFFI در جامعه توسعه ارزهای دیجیتال و بلاکچین پذیرفته شده است، با پروژه‌های بزرگی مانند BDK (کیت توسعه Bitcoin)، LDK (کیت توسعه لایتنینگ)، و پیاده‌سازی‌های مختلف wallet که از آن برای ارائه SDKهای موبایل استفاده می‌کنند. این پروژه‌ها استفاده UniFFI در محیط‌های تولیدی را نشان می‌دهند.
+
+
+بررسی فایل‌های UDL دنیای واقعی از این پروژه‌ها الگوها و بهترین روش‌هایی را نشان می‌دهد که از استفاده عملی به وجود آمده‌اند. به عنوان مثال، فایل UDL مربوط به BDK نشان می‌دهد که چگونه مدل‌های دامنه پیچیده با چندین enum، struct و interface می‌توانند به طور مؤثر نقشه‌برداری شوند تا SDKهای موبایل جامع ایجاد کنند. یکنواختی سینتکس UDL در پروژه‌های مختلف به این معناست که توسعه‌دهندگانی که با یک کتابخانه فعال‌شده با UniFFI آشنا هستند، می‌توانند به سرعت دیگران را درک کرده و با آن‌ها کار کنند و یک اثر شبکه‌ای ایجاد کنند که به کل اکوسیستم سود می‌رساند.
+
+
+با این حال، UniFFI محدودیت‌های قابل توجهی دارد که توسعه‌دهندگان باید در نظر بگیرند. مهم‌ترین آن‌ها عدم پشتیبانی از رابط‌های غیرهمزمان است. تمام بایندینگ‌های تولید شده همزمان هستند و توسعه‌دهندگان باید عملیات غیرهمزمان را در کد Rust خود مدیریت کرده و رابط‌های همزمان را به برنامه‌های مصرف‌کننده ارائه دهند. علاوه بر این، جای‌گذاری مستندات چالشی را به وجود می‌آورد: مستنداتی که در کد Rust نوشته می‌شوند به بایندینگ‌های تولید شده منتقل نمی‌شوند، در حالی که مستندات در فایل‌های UDL برای مصرف‌کنندگان مستقیم کتابخانه Rust در دسترس نیستند. در حالی که تلاش‌هایی برای رفع این محدودیت‌ها از طریق تجزیه و تولید خودکار در حال انجام است، این موارد همچنان برای پیاده‌سازی‌های فعلی مورد توجه هستند. در نهایت، UniFFI بایندینگ‌های زبان را تولید می‌کند اما بسته‌بندی و توزیع خاص پلتفرم را مدیریت نمی‌کند و توسعه‌دهندگان باید مراحل نهایی ایجاد بسته‌های قابل توزیع برای هر پلتفرم هدف را مدیریت کنند.
+
+
+# توسعه LNP/BP با SDK
+
 <partId>42e8e0f8-1c07-5c71-8378-c57afb38e25d</partId>
 
-## LN node on SDK
+
+## گره LN بر روی SDK
+
 <chapterId>643e4670-bb1f-581f-a102-f84e8e5d2a02</chapterId>
+
 
 :::video id=94b9bee6-154e-4b9c-a8ce-5e2d9e9656a2:::
 
-### Understanding LDK's Modular Architecture
+### درک معماری مدولار LDK
 
-The Lightning Development Kit (LDK) represents a fundamentally different approach to Lightning Network implementation compared to traditional node software like CLightning or LND. While conventional Lightning nodes operate as complete daemon applications running continuously on a machine, LDK functions as a modular Rust library that provides primitive components for building custom Lightning solutions. This architectural distinction makes LDK exceptionally flexible, allowing developers to assemble Lightning functionality in ways that best serve their specific project requirements.
 
-The core philosophy behind LDK centers on modularity and adaptability. Rather than providing a monolithic solution, LDK offers individual components that can be combined, customized, or replaced entirely. Each component comes with default implementations that work out of the box, but developers retain the freedom to substitute their own implementations when needed. For instance, LDK includes default implementations for blockchain monitoring, transaction signing, and network communication, yet any of these can be replaced with custom solutions tailored to specific use cases or environments.
+کیت توسعه لایتنینگ (LDK) رویکرد متفاوتی به پیاده‌سازی Lightning Network در مقایسه با نرم‌افزارهای نود سنتی مانند CLightning یا LND دارد. در حالی که نودهای لایتنینگ متعارف به عنوان برنامه‌های کامل daemon که به طور مداوم روی یک ماشین اجرا می‌شوند عمل می‌کنند، LDK به عنوان یک کتابخانه ماژولار Rust عمل می‌کند که اجزای ابتدایی برای ساخت راه‌حل‌های سفارشی لایتنینگ را فراهم می‌کند. این تمایز معماری LDK را انعطاف‌پذیر می‌سازد و به توسعه‌دهندگان اجازه می‌دهد تا عملکرد لایتنینگ را به روش‌هایی که نیازهای خاص پروژه‌شان را برآورده می‌کند، مونتاژ کنند.
 
-This modular design enables LDK to function across diverse platforms and scenarios that would be challenging for traditional Lightning nodes. Mobile applications, web browsers, embedded devices, and specialized hardware can all leverage LDK's components in ways that suit their unique constraints and requirements. The library's architecture ensures that developers can create Lightning-enabled applications without being locked into predetermined operational patterns or system dependencies.
 
-### LDK Use Cases and Platform Flexibility
+فلسفه اصلی پشت LDK بر ماژولار بودن و سازگاری متمرکز است. به جای ارائه یک راه‌حل یکپارچه، LDK اجزای فردی را ارائه می‌دهد که می‌توانند ترکیب، سفارشی‌سازی یا به‌طور کامل جایگزین شوند. هر جزء با پیاده‌سازی‌های پیش‌فرضی ارائه می‌شود که به‌طور خودکار کار می‌کنند، اما توسعه‌دهندگان آزادی دارند که در صورت نیاز پیاده‌سازی‌های خود را جایگزین کنند. به عنوان مثال، LDK شامل پیاده‌سازی‌های پیش‌فرض برای نظارت بر بلاک‌چین، امضای تراکنش و ارتباطات شبکه است، اما هر یک از این‌ها می‌توانند با راه‌حل‌های سفارشی متناسب با موارد استفاده یا محیط‌های خاص جایگزین شوند.
 
-LDK's architectural flexibility opens up numerous use cases that extend far beyond traditional Lightning node deployments. Mobile wallet development represents one of the most compelling applications, where LDK enables the creation of non-custodial Lightning wallets similar to Phoenix wallet. These mobile implementations can maintain user control over private keys while synchronizing with Lightning Service Providers (LSPs) when coming online, allowing for seamless payment reception and channel management even with intermittent connectivity.
 
-Hardware Security Module (HSM) integration showcases another powerful use case for LDK. By extracting just the transaction signing and verification components, developers can create Lightning-aware signing devices that understand the context and implications of Lightning transactions. This capability goes beyond simple transaction signing to include intelligent analysis of payment forwarding, channel operations, and security-critical decisions. The HSM can evaluate whether a transaction represents a legitimate payment, a routing operation, or a potentially malicious attempt, providing users with meaningful security insights.
+این طراحی ماژولار به LDK امکان می‌دهد تا در پلتفرم‌ها و سناریوهای متنوعی که برای نودهای سنتی لایتنینگ چالش‌برانگیز هستند، عمل کند. برنامه‌های موبایل، مرورگرهای وب، دستگاه‌های تعبیه‌شده و سخت‌افزارهای تخصصی همگی می‌توانند از اجزای LDK به روش‌هایی که با محدودیت‌ها و نیازهای خاص خود سازگار است، بهره‌برداری کنند. معماری کتابخانه تضمین می‌کند که توسعه‌دهندگان می‌توانند برنامه‌های مجهز به لایتنینگ ایجاد کنند بدون اینکه به الگوهای عملیاتی از پیش تعیین‌شده یا وابستگی‌های سیستمی محدود شوند.
 
-Web-based Lightning applications benefit significantly from LDK's system-call-free design philosophy. Since WebAssembly environments lack direct access to system resources like file systems, network sockets, or entropy sources, LDK's pure approach allows Lightning functionality to operate seamlessly in browser environments. Developers can implement custom networking layers using WebSockets and provide browser-compatible persistence and randomness sources while maintaining full Lightning protocol compliance.
 
-### Core Components and Event-Driven Architecture
+### موارد استفاده LDK و انعطاف‌پذیری پلتفرم
 
-LDK's internal architecture revolves around several key components that work together through an event-driven system. The peer management system handles all communication with other Lightning nodes, implementing the noise protocol for encryption and managing message structures for Lightning protocol compliance. This component operates independently of the underlying transport mechanism, allowing developers to implement networking over TCP sockets, WebSockets, USB serial connections, or any other bidirectional communication channel.
 
-The channel manager serves as the central coordinator for Lightning channel operations, working closely with the peer manager to execute channel opening, closing, and payment operations. When a developer initiates a channel opening, the channel manager creates the necessary protocol messages and coordinates with the peer manager to handle the multi-step negotiation process. This separation of concerns allows for clean abstraction between Lightning protocol logic and network communication details.
+انعطاف‌پذیری معماری LDK موارد استفاده متعددی را فراتر از استقرارهای سنتی نود لایتنینگ باز می‌کند. توسعه Mobile wallet یکی از جذاب‌ترین کاربردها را نشان می‌دهد، جایی که LDK امکان ایجاد کیف‌پول‌های لایتنینگ غیرامانی مشابه Phoenix wallet را فراهم می‌کند. این پیاده‌سازی‌های موبایل می‌توانند کنترل کاربر بر کلیدهای خصوصی را حفظ کنند و در عین حال هنگام آنلاین شدن با ارائه‌دهندگان خدمات لایتنینگ (LSPs) همگام شوند، که این امر امکان دریافت پرداخت‌ها و مدیریت کانال‌ها را حتی با اتصال متناوب فراهم می‌کند.
 
-LDK's event system provides asynchronous notifications for all significant operations and state changes. Events cover the full spectrum of Lightning operations, from peer connections and disconnections to payment successes and failures, channel state changes, and blockchain confirmations. This event-driven approach allows applications to respond appropriately to Lightning network activity while maintaining clean separation between LDK's core functionality and application-specific logic. Developers can implement custom event handlers that update user interfaces, trigger notifications, or initiate follow-up actions based on Lightning network events.
 
-### Blockchain Integration and Data Management
+ادغام ماژول امنیتی سخت‌افزاری (HSM) نمونه‌ای دیگر از کاربردهای قدرتمند LDK را به نمایش می‌گذارد. با استخراج تنها اجزای امضای تراکنش و تأیید، توسعه‌دهندگان می‌توانند دستگاه‌های امضاکننده‌ای ایجاد کنند که از تراکنش‌های لایتنینگ آگاه باشند و زمینه و پیامدهای آن‌ها را درک کنند. این قابلیت فراتر از امضای ساده تراکنش است و شامل تحلیل هوشمند از انتقال پرداخت، عملیات کانال و تصمیمات حیاتی امنیتی می‌شود. HSM می‌تواند ارزیابی کند که آیا یک تراکنش نمایانگر یک پرداخت قانونی، یک عملیات مسیریابی یا یک تلاش بالقوه مخرب است و به کاربران بینش‌های امنیتی معناداری ارائه دهد.
 
-Blockchain data integration represents one of LDK's most sophisticated abstraction layers, designed to accommodate everything from full Bitcoin nodes to lightweight mobile clients. LDK supports two primary modes of blockchain interaction, each optimized for different resource constraints and operational requirements. The full block mode allows applications with access to complete blockchain data to pass entire blocks to LDK, enabling comprehensive transaction monitoring and immediate response to relevant blockchain events.
 
-For resource-constrained environments, LDK provides a filtering-based approach that dramatically reduces bandwidth and storage requirements. In this mode, LDK communicates its monitoring interests through abstract interfaces, requesting surveillance of specific transaction IDs, UTXOs, or script patterns. The application layer can then implement this monitoring using Electrum servers, block explorers, or other lightweight blockchain data sources. This approach enables mobile wallets and web applications to maintain Lightning functionality without requiring full blockchain synchronization.
+برنامه‌های Lightning مبتنی بر وب به طور قابل توجهی از فلسفه طراحی بدون فراخوانی سیستم LDK بهره‌مند می‌شوند. از آنجا که محیط‌های WebAssembly به منابع سیستم مانند سیستم‌های فایل، سوکت‌های شبکه یا منابع تصادفی دسترسی مستقیم ندارند، رویکرد خالص LDK امکان عملکرد بی‌نقص قابلیت‌های Lightning را در محیط‌های مرورگر فراهم می‌کند. توسعه‌دهندگان می‌توانند لایه‌های شبکه سفارشی را با استفاده از WebSockets پیاده‌سازی کرده و منابع پایداری و تصادفی سازگار با مرورگر را فراهم کنند، در حالی که همچنان به طور کامل با پروتکل Lightning سازگار باقی می‌مانند.
 
-The persistence layer in LDK follows the same abstraction principles, providing applications with binary data blobs that must be stored and retrieved reliably. LDK handles all the complexity of serializing and deserializing Lightning channel states, network gossip data, and other critical information. Applications simply need to implement reliable storage mechanisms, whether using local file systems, cloud storage services, or specialized database systems. This design ensures that Lightning state management remains robust while allowing applications to choose storage solutions that match their operational requirements and security models.
 
-### Advanced Features and Integration Patterns
+### اجزای اصلی و معماری مبتنی بر رویداد
 
-LDK's advanced capabilities extend to sophisticated Lightning Network features like multi-path payments, route optimization, and network gossip management. The routing system maintains a comprehensive view of the Lightning Network topology through gossip protocol participation, enabling intelligent path finding for payments. Applications can influence routing decisions through configuration parameters and can even implement custom routing logic for specialized use cases.
 
-The library's language binding system enables LDK integration across multiple programming environments, supporting Java, Kotlin, Swift, TypeScript, JavaScript, and C++. This cross-platform compatibility allows mobile applications written in native languages to incorporate Lightning functionality while maintaining optimal performance characteristics. The binding system preserves LDK's event-driven architecture and modular design across all supported languages, ensuring consistent developer experiences regardless of the target platform.
+معماری داخلی LDK حول چندین مؤلفه کلیدی می‌چرخد که از طریق یک سیستم مبتنی بر رویداد با هم کار می‌کنند. سیستم مدیریت همتا تمام ارتباطات با سایر نودهای لایتنینگ را مدیریت می‌کند، پروتکل نویز را برای رمزگذاری پیاده‌سازی کرده و ساختارهای پیام را برای تطابق با پروتکل لایتنینگ مدیریت می‌کند. این مؤلفه به صورت مستقل از مکانیزم انتقال زیرین عمل می‌کند و به توسعه‌دهندگان اجازه می‌دهد تا شبکه‌سازی را بر روی سوکت‌های TCP، WebSockets، اتصالات سریال USB یا هر کانال ارتباطی دوطرفه دیگر پیاده‌سازی کنند.
 
-Fee estimation and transaction broadcasting represent additional areas where LDK's flexibility proves valuable. Applications can implement custom fee estimation strategies that account for their specific operational patterns and user requirements. Similarly, transaction broadcasting can be customized to work with various Bitcoin network interfaces, from direct full node connections to third-party broadcasting services. This flexibility ensures that LDK-based applications can optimize their blockchain interactions for their particular use cases while maintaining Lightning protocol compliance and security standards.
+
+مدیر کانال به عنوان هماهنگ‌کننده مرکزی برای عملیات کانال لایتنینگ عمل می‌کند و با مدیر همتا برای اجرای عملیات باز کردن، بستن و پرداخت کانال همکاری نزدیک دارد. هنگامی که یک توسعه‌دهنده باز کردن کانال را آغاز می‌کند، مدیر کانال پیام‌های پروتکل لازم را ایجاد کرده و با مدیر همتا هماهنگ می‌کند تا فرآیند مذاکره چند مرحله‌ای را مدیریت کند. این جداسازی وظایف، امکان انتزاع تمیز بین منطق پروتکل لایتنینگ و جزئیات ارتباط شبکه را فراهم می‌کند.
+
+
+سیستم رویداد LDK اعلان‌های ناهمگام برای تمامی عملیات و تغییرات وضعیت مهم را فراهم می‌کند. رویدادها طیف کامل عملیات لایتنینگ را پوشش می‌دهند، از اتصالات و قطع ارتباطات همتا تا موفقیت‌ها و شکست‌های پرداخت، تغییرات وضعیت کانال و تأییدیه‌های بلاک‌چین. این رویکرد مبتنی بر رویداد به برنامه‌ها اجازه می‌دهد تا به فعالیت‌های شبکه لایتنینگ به‌طور مناسب پاسخ دهند و در عین حال جداسازی تمیز بین عملکرد اصلی LDK و منطق خاص برنامه را حفظ کنند. توسعه‌دهندگان می‌توانند هندلرهای رویداد سفارشی را پیاده‌سازی کنند که رابط‌های کاربری را به‌روزرسانی کنند، اعلان‌ها را فعال کنند، یا اقدامات پیگیری را بر اساس رویدادهای شبکه لایتنینگ آغاز کنند.
+
+
+### ادغام و مدیریت داده Blockchain
+
+
+ادغام داده‌های Blockchain یکی از لایه‌های انتزاعی LDK را نشان می‌دهد که برای سازگاری با همه چیز از گره‌های کامل Bitcoin تا مشتریان سبک وزن موبایل طراحی شده است. LDK از دو حالت اصلی تعامل با بلاکچین پشتیبانی می‌کند که هر کدام برای محدودیت‌های منابع و نیازهای عملیاتی مختلف بهینه‌سازی شده‌اند. حالت بلوک کامل به برنامه‌هایی که به داده‌های کامل بلاکچین دسترسی دارند اجازه می‌دهد تا بلوک‌های کامل را به LDK منتقل کنند و نظارت جامع بر تراکنش‌ها و پاسخ فوری به رویدادهای مرتبط با بلاکچین را امکان‌پذیر می‌سازد.
+
+
+برای محیط‌های با منابع محدود، LDK یک رویکرد مبتنی بر فیلتر ارائه می‌دهد که نیازهای پهنای باند و ذخیره‌سازی را کاهش می‌دهد. در این حالت، LDK علاقه‌مندی‌های نظارتی خود را از طریق رابط‌های انتزاعی ارتباط می‌دهد و درخواست نظارت بر روی شناسه‌های تراکنش خاص، UTXOها یا الگوهای اسکریپت می‌کند. لایه کاربردی می‌تواند این نظارت را با استفاده از سرورهای Electrum، کاوشگرهای بلاک یا دیگر منابع داده بلاکچین سبک پیاده‌سازی کند. این رویکرد به کیف‌پول‌های موبایل و برنامه‌های وب اجازه می‌دهد تا عملکرد لایتنینگ را بدون نیاز به همگام‌سازی کامل بلاکچین حفظ کنند.
+
+
+لایه پایداری در LDK از همان اصول انتزاعی پیروی می‌کند و به برنامه‌ها داده‌های دودویی ارائه می‌دهد که باید به‌طور قابل‌اعتماد ذخیره و بازیابی شوند. LDK تمام پیچیدگی‌های سریال‌سازی و دی‌سریال‌سازی وضعیت‌های کانال لایتنینگ، داده‌های شایعه شبکه و سایر اطلاعات حیاتی را مدیریت می‌کند. برنامه‌ها تنها نیاز دارند که مکانیزم‌های ذخیره‌سازی قابل‌اعتماد را پیاده‌سازی کنند، چه با استفاده از سیستم‌های فایل محلی، خدمات ذخیره‌سازی ابری یا سیستم‌های پایگاه داده تخصصی. این طراحی تضمین می‌کند که مدیریت وضعیت لایتنینگ قوی باقی می‌ماند در حالی که به برنامه‌ها اجازه می‌دهد راه‌حل‌های ذخیره‌سازی را انتخاب کنند که با نیازهای عملیاتی و مدل‌های امنیتی آن‌ها مطابقت دارد.
+
+
+### ویژگی‌های پیشرفته و الگوهای یکپارچه‌سازی
+
+
+قابلیت‌های LDK به ویژگی‌های Lightning Network مانند پرداخت‌های چند مسیره، بهینه‌سازی مسیر و مدیریت شایعات شبکه گسترش می‌یابد. سیستم مسیریابی با مشارکت در پروتکل شایعه‌پراکنی، دیدگاهی جامع از توپولوژی Lightning Network را حفظ می‌کند و امکان یافتن مسیرهای هوشمند برای پرداخت‌ها را فراهم می‌سازد. برنامه‌ها می‌توانند از طریق پارامترهای پیکربندی بر تصمیمات مسیریابی تأثیر بگذارند و حتی می‌توانند منطق مسیریابی سفارشی برای موارد استفاده خاص پیاده‌سازی کنند.
+
+
+سیستم اتصال زبان کتابخانه امکان یکپارچه‌سازی LDK را در محیط‌های برنامه‌نویسی متعدد فراهم می‌کند و از Java، Kotlin، Swift، TypeScript، JavaScript و C++ پشتیبانی می‌کند. این سازگاری چندسکویی به برنامه‌های موبایلی که به زبان‌های بومی نوشته شده‌اند اجازه می‌دهد تا عملکرد Lightning را در حالی که ویژگی‌های عملکردی بهینه را حفظ می‌کنند، به کار گیرند. سیستم اتصال، معماری رویدادمحور و طراحی ماژولار LDK را در تمام زبان‌های پشتیبانی‌شده حفظ می‌کند و تجربه‌های توسعه‌دهنده‌ای سازگار را بدون توجه به پلتفرم هدف تضمین می‌کند.
+
+
+برآورد هزینه و پخش تراکنش نمایانگر حوزه‌های اضافی هستند که در آن‌ها LDK انعطاف‌پذیری ارائه می‌دهد. برنامه‌ها می‌توانند استراتژی‌های برآورد هزینه سفارشی را پیاده‌سازی کنند که الگوهای عملیاتی خاص و نیازهای کاربر را در نظر می‌گیرند. به‌طور مشابه، پخش تراکنش می‌تواند برای کار با رابط‌های شبکه Bitcoin مختلف، از اتصالات مستقیم full node تا خدمات پخش شخص ثالث، سفارشی‌سازی شود. این انعطاف‌پذیری تضمین می‌کند که برنامه‌های مبتنی بر LDK می‌توانند تعاملات بلاک‌چین خود را برای موارد استفاده خاص خود بهینه‌سازی کنند و در عین حال از انطباق با پروتکل Lightning و استانداردهای امنیتی اطمینان حاصل کنند.
+
 
 ## Breez sdk
+
 <chapterId>52f20a4d-7d81-58e4-be00-9d39334352af</chapterId>
+
 
 :::video id=68d1f253-6210-4eab-8329-b676e5772eac:::
 
-### The Challenge of Lightning Development
+### چالش توسعه لایتنینگ
 
-Developing applications that integrate Lightning payments presents a significant barrier for most developers. To create an app with Lightning payment functionality, developers essentially need to become Lightning experts, understanding complex concepts like channel management, liquidity balancing, and network topology. This expertise requirement creates a fundamental problem for Lightning adoption: while the Lightning network itself is operational and payments are reliable, the technical complexity prevents widespread integration into everyday applications.
 
-The core challenge lies in the gap between what developers need and what they want to deliver. Developers typically work under tight deadlines and prefer straightforward solutions that allow them to focus on their application's core functionality rather than becoming experts in payment infrastructure. When Lightning integration is difficult, developers naturally gravitate toward custodial solutions because they offer the path of least resistance. However, this tendency toward custodial services undermines Bitcoin's fundamental value proposition of non-custodial financial sovereignty.
+توسعه برنامه‌هایی که پرداخت‌های لایتنینگ را یکپارچه می‌کنند، برای اکثر توسعه‌دهندگان مانعی قابل توجه است. برای ایجاد یک برنامه با قابلیت پرداخت لایتنینگ، توسعه‌دهندگان اساساً باید به کارشناسان لایتنینگ تبدیل شوند و مفاهیم پیچیده‌ای مانند مدیریت کانال، تعادل نقدینگی و توپولوژی شبکه را درک کنند. این نیاز به تخصص، یک مشکل اساسی برای پذیرش لایتنینگ ایجاد می‌کند: در حالی که شبکه لایتنینگ خود عملیاتی است و پرداخت‌ها قابل اعتماد هستند، پیچیدگی فنی مانع از یکپارچگی گسترده در برنامه‌های روزمره می‌شود.
 
-### Breez's Vision, Lightning Everywhere
 
-Breez emerged from a simple but ambitious vision: to get everyone connected to the Lightning network through intuitive interfaces to the Lightning economy. The company's approach recognizes that while the Lightning network functions well technically, it desperately needs user adoption to reach its full potential. This adoption challenge extends beyond individual users to encompass the entire ecosystem of applications and services that could benefit from Lightning integration.
+چالش اصلی در فاصله بین آنچه توسعه‌دهندگان نیاز دارند و آنچه می‌خواهند ارائه دهند، نهفته است. توسعه‌دهندگان معمولاً تحت فشار زمانی شدید کار می‌کنند و راه‌حل‌های ساده‌ای را ترجیح می‌دهند که به آن‌ها اجازه می‌دهد بر روی عملکرد اصلی برنامه خود تمرکز کنند، به جای اینکه به متخصصان زیرساخت‌های پرداخت تبدیل شوند. وقتی ادغام Lightning دشوار است، توسعه‌دهندگان به طور طبیعی به سمت راه‌حل‌های حضانتی گرایش پیدا می‌کنند زیرا آن‌ها مسیر کمترین مقاومت را ارائه می‌دهند. با این حال، این تمایل به سمت خدمات حضانتی، ارزش پیشنهادی اساسی Bitcoin را که حاکمیت مالی غیرحضانتی است، تضعیف می‌کند.
 
-The original Breez app demonstrated this vision by providing users with a non-custodial Lightning node running directly on their mobile phones. This app showcased unique Lightning capabilities like streaming micropayments to podcasters and point-of-sale functionality, features that were impossible before Lightning's invention. However, the Breez app also revealed a critical architectural limitation: the mobile app ecosystem doesn't facilitate easy communication between applications, forcing developers to build all Lightning-related features into a single app rather than allowing specialized applications to leverage shared Lightning infrastructure.
 
-The company's learnings from the Breez app led to a crucial insight: the future of Lightning adoption depends on winning over developers. If non-custodial Lightning integration becomes the easiest option for developers, it becomes the default choice. This approach also offers regulatory advantages, as non-custodial software faces fewer regulatory hurdles than custodial services, making it easier for developers to ship their applications globally.
+### چشم‌انداز Breez، رعد و برق در همه جا
 
-### The Breez SDK Architecture
 
-The Breez SDK represents a fundamental shift in how Lightning functionality can be integrated into applications. Rather than requiring each app to run its own Lightning node, the SDK provides a sophisticated architecture that maintains non-custodial principles while dramatically simplifying the developer experience. At its core, the SDK gives each end-user their own personal Lightning node running on Greenlight infrastructure, Blockstream's cloud-based Lightning node hosting service.
+Breez از یک چشم‌انداز ساده اما بلندپروازانه پدید آمد: متصل کردن همه به شبکه لایتنینگ از طریق رابط‌های کاربری شهودی به اقتصاد لایتنینگ. رویکرد این شرکت اذعان دارد که در حالی که شبکه لایتنینگ از نظر فنی به خوبی عمل می‌کند، به شدت نیاز به پذیرش کاربران دارد تا به پتانسیل کامل خود برسد. این چالش پذیرش فراتر از کاربران فردی است و کل اکوسیستم برنامه‌ها و خدماتی را که می‌توانند از یکپارچه‌سازی لایتنینگ بهره‌مند شوند، در بر می‌گیرد.
 
-This architecture solves several critical problems simultaneously. Users don't need to worry about database management, server uptime, or infrastructure maintenance—concerns that would be overwhelming for typical consumers. However, unlike traditional custodial solutions, Greenlight never has access to user keys. The Lightning node in the cloud cannot perform any operations without an actively connected application that can sign transactions and messages. This design maintains the security benefits of self-custody while eliminating the operational complexity.
 
-The SDK's interoperability represents another major advancement. Multiple applications can connect to the same user's Lightning node using the same seed phrase, allowing users to maintain a single Lightning balance across different specialized applications. For example, a user might have both a general Lightning wallet app and a specialized podcasting app, both accessing the same funds and Lightning channels. This architecture enables the development of focused, specialized applications while maintaining unified financial infrastructure.
+اپلیکیشن اصلی Breez این دیدگاه را با ارائه یک نود لایتنینگ غیر حضانتی که مستقیماً بر روی تلفن‌های همراه کاربران اجرا می‌شود، به نمایش گذاشت. این اپلیکیشن قابلیت‌های لایتنینگ مانند استریم پرداخت‌های خرد به پادکسترها و عملکرد نقطه‌فروش را به نمایش گذاشت. با این حال، اپلیکیشن Breez همچنین یک محدودیت معماری بحرانی را آشکار کرد: اکوسیستم اپلیکیشن‌های موبایل ارتباط آسان بین برنامه‌ها را تسهیل نمی‌کند و توسعه‌دهندگان را مجبور می‌کند تا تمام ویژگی‌های مرتبط با لایتنینگ را در یک اپلیکیشن واحد بسازند، به جای اینکه به برنامه‌های تخصصی اجازه دهند از زیرساخت مشترک لایتنینگ استفاده کنند.
 
-### Lightning Service Providers and Just-in-Time Liquidity
 
-A critical component of the Breez SDK is its integration with Lightning Service Providers (LSPs), which function analogously to Internet Service Providers but for the Lightning network. LSPs solve one of Lightning's most complex challenges: liquidity management. In Lightning channels, funds can only flow in directions where liquidity exists, similar to beads on an abacus that can only move where there's space.
+یادگیری‌های شرکت از اپلیکیشن Breez به یک بینش حیاتی منجر شد: آینده پذیرش Lightning به جذب توسعه‌دهندگان بستگی دارد. اگر یکپارچه‌سازی غیرامانی Lightning به آسان‌ترین گزینه برای توسعه‌دهندگان تبدیل شود، به انتخاب پیش‌فرض تبدیل می‌شود. این رویکرد همچنین مزایای نظارتی ارائه می‌دهد، زیرا نرم‌افزار غیرامانی با موانع نظارتی کمتری نسبت به خدمات امانی مواجه است و این امر توسعه‌دهندگان را قادر می‌سازد تا برنامه‌های خود را به‌راحتی در سطح جهانی عرضه کنند.
 
-The SDK implements "just-in-time" channels through LSPs, automatically managing liquidity without user intervention. When a user needs to receive a payment but lacks sufficient inbound liquidity, the LSP automatically opens a new Lightning channel at the moment the payment arrives. This process happens seamlessly in the background, ensuring users can always receive payments without understanding the underlying channel mechanics.
 
-This LSP integration extends beyond simple liquidity management. The SDK includes comprehensive Lightning functionality out of the box: built-in watchtower services for security, on-chain interoperability through submarine swaps, fiat on-ramps through services like MoonPay, and support for LNURL protocols. The system also provides seamless backup and recovery, ensuring users never lose access to their funds even if infrastructure providers change or become unavailable.
+### معماری SDK Breez
 
-### Implementation and Developer Experience
 
-The Breez SDK prioritizes developer experience through its comprehensive, batteries-included approach. The SDK provides bindings for multiple programming languages including Rust, Swift, Kotlin, Python, Go, React Native, Flutter, and C#, allowing developers to integrate Lightning payments using their preferred development tools. The architecture abstracts away Lightning complexity through intuitive APIs while maintaining the full power and security of the Lightning network.
+SDK Breez رویکردی جایگزین برای یکپارچه‌سازی قابلیت‌های Lightning در برنامه‌ها ارائه می‌دهد. به جای اینکه هر برنامه نیاز داشته باشد گره Lightning خود را اجرا کند، این SDK معماری‌ای فراهم می‌کند که اصول غیرامانی را حفظ کرده و تجربه توسعه‌دهنده را ساده‌تر می‌کند. در هسته خود، این SDK به هر کاربر نهایی گره Lightning شخصی خود را که بر روی زیرساخت Greenlight، سرویس میزبانی گره Lightning مبتنی بر ابر Blockstream اجرا می‌شود، ارائه می‌دهد.
 
-Key components work together seamlessly to provide this simplified experience. The input parser automatically handles different payment formats, determining whether a string represents an invoice, LNURL, or other payment method and routing it to the appropriate handling function. The integrated signer manages all cryptographic operations in the background, while the swapper handles on-chain interactions transparently. This design allows developers to focus on their application's unique value proposition rather than becoming Lightning infrastructure experts.
 
-The SDK's trustless architecture ensures that while Greenlight can observe channel states and routing information, they cannot access user funds or perform unauthorized operations. Users maintain complete control over their private keys, which never leave their devices. This approach represents a carefully considered trade-off between operational simplicity and privacy, providing a practical path for mainstream Lightning adoption while preserving Bitcoin's core principles of financial sovereignty.
+این معماری به‌طور همزمان چندین مشکل حیاتی را حل می‌کند. کاربران نیازی به نگرانی درباره مدیریت پایگاه داده، زمان‌بندی سرور، یا نگهداری زیرساخت ندارند—نگرانی‌هایی که برای مصرف‌کنندگان معمولی می‌تواند طاقت‌فرسا باشد. با این حال، برخلاف راه‌حل‌های سنتی حضانتی، Greenlight هرگز به کلیدهای کاربر دسترسی ندارد. نود لایتنینگ در ابر نمی‌تواند هیچ عملیاتی را بدون یک برنامه فعال متصل که قادر به امضای تراکنش‌ها و پیام‌ها باشد، انجام دهد. این طراحی مزایای امنیتی حضانت شخصی را حفظ می‌کند در حالی که پیچیدگی عملیاتی را از بین می‌برد.
 
-## Greenlight for Lipa
+
+SDK همچنین از قابلیت همکاری پشتیبانی می‌کند. برنامه‌های متعدد می‌توانند با استفاده از همان عبارت seed به نود لایتنینگ یک کاربر متصل شوند و به کاربران اجازه دهند تا یک موجودی لایتنینگ واحد را در برنامه‌های تخصصی مختلف حفظ کنند. به عنوان مثال، یک کاربر ممکن است هم یک برنامه عمومی لایتنینگ wallet و هم یک برنامه تخصصی پادکست داشته باشد که هر دو به همان وجوه و کانال‌های لایتنینگ دسترسی دارند. این معماری امکان توسعه برنامه‌های متمرکز و تخصصی را فراهم می‌کند در حالی که زیرساخت مالی یکپارچه را حفظ می‌کند.
+
+
+### ارائه‌دهندگان خدمات لایتنینگ و نقدینگی به‌موقع
+
+
+یک جزء حیاتی از Breez SDK، یکپارچه‌سازی آن با ارائه‌دهندگان خدمات لایتنینگ (LSPs) است که به‌طور مشابه با ارائه‌دهندگان خدمات اینترنت عمل می‌کنند اما برای شبکه لایتنینگ. LSPها یکی از پیچیده‌ترین چالش‌های لایتنینگ را حل می‌کنند: مدیریت نقدینگی. در کانال‌های لایتنینگ، وجوه فقط می‌توانند در جهت‌هایی جریان پیدا کنند که نقدینگی وجود دارد، مشابه مهره‌های یک چرتکه که فقط می‌توانند در جایی حرکت کنند که فضا وجود دارد.
+
+
+SDK کانال‌های "در لحظه" را از طریق LSPها پیاده‌سازی می‌کند و به‌طور خودکار نقدینگی را بدون دخالت کاربر مدیریت می‌کند. هنگامی که یک کاربر نیاز به دریافت پرداخت دارد اما نقدینگی ورودی کافی ندارد، LSP به‌طور خودکار یک کانال لایتنینگ جدید را در لحظه‌ای که پرداخت می‌رسد باز می‌کند. این فرآیند به‌صورت بی‌وقفه در پس‌زمینه اتفاق می‌افتد و اطمینان حاصل می‌کند که کاربران همیشه می‌توانند پرداخت‌ها را دریافت کنند بدون اینکه نیاز به درک مکانیک‌های کانال زیرین داشته باشند.
+
+
+این یکپارچه‌سازی LSP فراتر از مدیریت ساده نقدینگی است. SDK شامل عملکرد جامع لایتنینگ به صورت پیش‌فرض است: خدمات برج مراقبت داخلی برای امنیت، قابلیت همکاری on-chain از طریق مبادلات زیرآبی، ورودی‌های فیات از طریق خدماتی مانند MoonPay، و پشتیبانی از پروتکل‌های LNURL. سیستم همچنین پشتیبان‌گیری و بازیابی بدون درز را فراهم می‌کند و اطمینان می‌دهد که کاربران هرگز دسترسی به وجوه خود را از دست نمی‌دهند حتی اگر ارائه‌دهندگان زیرساخت تغییر کنند یا در دسترس نباشند.
+
+
+### پیاده‌سازی و تجربه توسعه‌دهنده
+
+
+SDK Breez تجربه توسعه‌دهنده را از طریق رویکرد جامع و شامل باتری‌های خود در اولویت قرار می‌دهد. این SDK اتصالاتی برای چندین زبان برنامه‌نویسی از جمله Rust، Swift، Kotlin، Python، Go، React Native، Flutter و C# فراهم می‌کند و به توسعه‌دهندگان اجازه می‌دهد تا پرداخت‌های Lightning را با استفاده از ابزارهای توسعه مورد علاقه خود ادغام کنند. معماری این SDK پیچیدگی Lightning را از طریق APIها انتزاع می‌کند و در عین حال امنیت شبکه Lightning را حفظ می‌کند.
+
+
+اجزای کلیدی با هم کار می‌کنند تا این تجربه ساده‌شده را فراهم کنند. تجزیه‌کننده ورودی به‌طور خودکار فرمت‌های مختلف پرداخت را مدیریت می‌کند و تعیین می‌کند که آیا یک رشته نمایانگر یک فاکتور، LNURL یا روش پرداخت دیگری است و آن را به تابع مدیریت مناسب هدایت می‌کند. امضاکننده یکپارچه تمام عملیات رمزنگاری را در پس‌زمینه مدیریت می‌کند، در حالی که تعویض‌کننده به‌طور شفاف تعاملات on-chain را مدیریت می‌کند. این طراحی به توسعه‌دهندگان اجازه می‌دهد تا بر روی پیشنهاد ارزش منحصر به فرد برنامه خود تمرکز کنند، به جای اینکه به کارشناسان زیرساخت Lightning تبدیل شوند.
+
+
+معماری بدون نیاز به اعتماد SDK تضمین می‌کند که در حالی که Greenlight می‌تواند وضعیت کانال‌ها و اطلاعات مسیریابی را مشاهده کند، نمی‌تواند به وجوه کاربران دسترسی پیدا کند یا عملیات غیرمجاز انجام دهد. کاربران کنترل کامل بر کلیدهای خصوصی خود دارند که هرگز دستگاه‌هایشان را ترک نمی‌کنند. این رویکرد نشان‌دهنده یک مصالحه با دقت در نظر گرفته شده بین سادگی عملیاتی و حریم خصوصی است و یک مسیر عملی برای پذیرش گسترده Lightning فراهم می‌کند در حالی که اصول اصلی Bitcoin در مورد حاکمیت مالی را حفظ می‌کند.
+
+
+## LDK در مقابل Breez SDK
+
 <chapterId>7ba30435-d26e-5e6f-a973-94080d44bf27</chapterId>
+
 
 :::video id=c3dec3df-1416-4761-b7c8-e1d66d27e390:::
 
-### Understanding the Limitations of Lightning Development Kit (LDK)
+### درک محدودیت‌های کیت توسعه لایتنینگ (LDK)
 
-The Lightning Development Kit represents a powerful collection of Rust libraries designed to provide developers with maximum flexibility when building Lightning Network applications. However, this flexibility comes with significant implementation challenges that became apparent during real-world development at Lipa. The LDK's low-level nature means developers must handle numerous complex tasks independently, from network graph synchronization to payment routing optimization. While this approach offers complete control over the Lightning implementation, it requires substantial development resources and deep technical expertise to achieve production-ready reliability.
 
-One of the most critical missing features in LDK was support for LNURL, a widely adopted standard that simplifies Lightning Network interactions for end users. Additionally, the absence of anchor outputs presented serious operational challenges, particularly in high-fee environments. Anchor outputs solve a fundamental problem with Lightning channel force closures: when network fees spike dramatically, channels with predefined fees may become impossible to close unilaterally because the preset fee becomes insufficient for transaction confirmation. This limitation proved especially problematic for mobile wallet applications, where users might abandon the wallet without coordinating cooperative channel closures, leaving funds potentially stranded during fee spikes.
+کیت توسعه لایتنینگ مجموعه‌ای از کتابخانه‌های Rust است که برای ارائه انعطاف‌پذیری به توسعه‌دهندگان در هنگام ساخت برنامه‌های Lightning Network طراحی شده است. با این حال، این انعطاف‌پذیری با چالش‌های پیاده‌سازی قابل توجهی همراه است که در طول توسعه واقعی در Lipa آشکار شد. ماهیت سطح پایین LDK به این معناست که توسعه‌دهندگان باید به‌طور مستقل با وظایف پیچیده متعددی از همگام‌سازی نمودار شبکه تا بهینه‌سازی مسیریابی پرداخت‌ها برخورد کنند. در حالی که این رویکرد کنترل کامل بر پیاده‌سازی لایتنینگ را ارائه می‌دهد، اما نیازمند منابع توسعه قابل توجه و تخصص فنی عمیق برای دستیابی به قابلیت اطمینان آماده برای تولید است.
 
-The LDK's relative immaturity also manifested in unreliable payment routing, a critical issue for any Lightning application. Despite being a technically sound implementation, the LDK's broad scope as a generic solution made it challenging to address specific issues quickly. The development team found themselves spending considerable time troubleshooting routing problems and implementing features that should ideally be handled at the library level, ultimately impacting development velocity and user experience quality.
 
-### Discovering the Advantages of Breez SDK and Greenlight
+یکی از مهم‌ترین ویژگی‌های مفقود در LDK، پشتیبانی از LNURL بود، یک استاندارد به‌طور گسترده پذیرفته‌شده که تعاملات Lightning Network را برای کاربران نهایی ساده می‌کند. علاوه بر این، نبود خروجی‌های anchor چالش‌های عملیاتی جدی ایجاد کرد، به‌ویژه در محیط‌های با کارمزد بالا. خروجی‌های Anchor یک مشکل اساسی با بستن اجباری کانال‌های Lightning را حل می‌کنند: زمانی که کارمزدهای شبکه به‌طور چشمگیری افزایش می‌یابد، کانال‌هایی با کارمزدهای از پیش تعیین‌شده ممکن است به‌طور یک‌جانبه غیرقابل بستن شوند زیرا کارمزد از پیش تعیین‌شده برای تأیید تراکنش کافی نیست. این محدودیت به‌ویژه برای برنامه‌های موبایل wallet مشکل‌ساز بود، جایی که کاربران ممکن است بدون هماهنگی بستن‌های تعاونی کانال، wallet را ترک کنند و وجوه در طول افزایش کارمزدها به‌طور بالقوه گیر بیفتند.
 
-The transition to Breez SDK represented a fundamental shift in architectural approach, moving from a self-managed Lightning node to a cloud-based solution powered by Blockstream's Greenlight service. This change immediately addressed several critical pain points experienced with the LDK implementation. The most significant improvement came in payment reliability, primarily due to Greenlight's ability to maintain an always-current network graph. Unlike traditional mobile Lightning implementations that must synchronize network information when the application starts, Greenlight nodes run continuously in the cloud, maintaining real-time network awareness and instantly providing complete graph data when users connect.
 
-This architecture leverages the battle-tested Core Lightning (CLN) implementation, which has been routing payments successfully for years as one of the original Lightning Network implementations. The accumulated experience and proven reliability of CLN provided immediate stability improvements over the younger LDK project. When users activate their Greenlight-powered wallet, they instantly inherit the full network knowledge and routing capabilities of a continuously-running Lightning node, eliminating the synchronization delays and routing uncertainties that plagued the previous implementation.
+نابالغی نسبی LDK همچنین در مسیریابی پرداخت غیرقابل اعتماد، که یک مسئله حیاتی برای هر برنامه Lightning است، نمایان شد. با وجود اینکه یک پیاده‌سازی از نظر فنی صحیح بود، دامنه وسیع LDK به عنوان یک راه‌حل عمومی، رفع سریع مسائل خاص را چالش‌برانگیز می‌کرد. تیم توسعه زمان قابل توجهی را صرف رفع مشکلات مسیریابی و پیاده‌سازی ویژگی‌هایی کردند که به طور ایده‌آل باید در سطح کتابخانه مدیریت شوند، که در نهایت بر سرعت توسعه و کیفیت تجربه کاربری تأثیر گذاشت.
 
-The Breez SDK's opinionated design philosophy proved particularly valuable for wallet development. Rather than providing a generic Lightning toolkit, Breez focuses specifically on end-user wallet applications, allowing the development team to concentrate their efforts on creating comprehensive solutions for this specific use case. This targeted approach enabled Breez to integrate essential services directly into the SDK, including Lightning Service Provider (LSP) functionality that allows users to receive payments immediately upon wallet installation, without requiring manual channel opening procedures.
 
-### Comprehensive Features and User Experience Enhancements
+### کشف مزایای Breez SDK و Greenlight
 
-The Breez SDK's integrated approach extends far beyond basic Lightning functionality, incorporating sophisticated features that significantly enhance user experience. The built-in LSP integration eliminates the traditional barrier of requiring users to understand channel management, enabling immediate payment reception for new wallet installations. This seamless onboarding process represents a crucial improvement for mainstream adoption, as users can begin receiving Lightning payments without any technical knowledge or setup procedures.
 
-On-chain swap functionality provides another layer of user experience optimization by enabling the presentation of a unified balance to users. Rather than forcing users to understand the distinction between Lightning and on-chain Bitcoin, the swap service allows automatic conversion between these layers as needed. When users need to make on-chain payments, the system can seamlessly swap Lightning funds to on-chain Bitcoin behind the scenes, maintaining the illusion of a single, liquid balance while handling the technical complexity internally.
+گذار به Breez SDK نشان‌دهنده تغییری در رویکرد معماری بود که از یک نود لایتنینگ خودمدیریتی به یک راه‌حل مبتنی بر ابر که توسط سرویس Greenlight بلاک‌استریم پشتیبانی می‌شود، حرکت کرد. این تغییر بلافاصله به چندین نقطه ضعف بحرانی که در پیاده‌سازی LDK تجربه شده بود، پاسخ داد. بهبود قابل‌توجه در قابلیت اطمینان پرداخت به‌وجود آمد، عمدتاً به دلیل توانایی Greenlight در حفظ یک گراف شبکه همیشه به‌روز. برخلاف پیاده‌سازی‌های سنتی لایتنینگ موبایل که باید اطلاعات شبکه را هنگام شروع برنامه همگام‌سازی کنند، نودهای Greenlight به‌طور مداوم در ابر اجرا می‌شوند و آگاهی از شبکه در زمان واقعی را حفظ کرده و به محض اتصال کاربران، داده‌های کامل گراف را به‌صورت فوری ارائه می‌دهند.
 
-The SDK's support for zero-channel reserves addresses a significant user experience challenge in traditional Lightning implementations. Channel reserves typically prevent users from spending their complete displayed balance, creating confusion when payments fail despite apparently sufficient funds. By eliminating these reserves, Breez enables users to spend their full displayed balance, though this requires the LSP to accept additional risk. This trade-off exemplifies Breez's user-centric approach, where technical complexity and risk are absorbed by service providers to create intuitive user experiences.
 
-Additional features like LNURL support, exchange rate services, and multi-device synchronization further demonstrate the SDK's comprehensive approach to wallet development. The cloud-based architecture enables users to access their Lightning node from multiple devices or applications, with Breez handling state synchronization across these different access points. Future roadmap items include spend-all functionality for complete wallet drainage, splicing for dynamic channel management, and a marketplace of competing LSPs to introduce healthy competition in service provision.
+این معماری از پیاده‌سازی آزموده‌شده Core Lightning (CLN) بهره می‌برد که به‌عنوان یکی از پیاده‌سازی‌های اصلی Lightning Network، سال‌هاست که پرداخت‌ها را با موفقیت مسیریابی می‌کند. تجربه انباشته‌شده و قابلیت اطمینان اثبات‌شده CLN بهبودهای پایداری فوری نسبت به پروژه جوان‌تر LDK ارائه داد. هنگامی که کاربران wallet مبتنی بر Greenlight خود را فعال می‌کنند، بلافاصله از دانش کامل شبکه و قابلیت‌های مسیریابی یک نود لایتنینگ که به‌طور مداوم در حال اجراست، بهره‌مند می‌شوند و تأخیرهای همگام‌سازی و عدم قطعیت‌های مسیریابی که پیاده‌سازی قبلی را آزار می‌داد، از بین می‌برند.
 
-### Evaluating Trade-offs and Centralization Concerns
 
-The transition to Breez SDK and Greenlight introduces important centralization trade-offs that must be carefully considered in the context of Bitcoin's decentralization principles. The cloud-based architecture means users' Lightning nodes operate on Blockstream's infrastructure, creating dependencies on both Greenlight's continued operation and Breez's ongoing development. This centralization extends beyond mere convenience, potentially impacting users' ability to recover funds if services become unavailable or if censorship occurs.
+فلسفه طراحی نظر محور SDK-245 GW برای توسعه wallet مفید بود. به جای ارائه یک ابزارک عمومی Lightning، Breez به طور خاص بر روی برنامه‌های کاربردی کاربر نهایی wallet تمرکز دارد و به تیم توسعه اجازه می‌دهد تا تلاش‌های خود را بر روی ایجاد راه‌حل‌های جامع برای این مورد استفاده خاص متمرکز کنند. این رویکرد هدفمند به Breez امکان داد تا خدمات ضروری را مستقیماً در SDK ادغام کند، از جمله قابلیت‌های ارائه‌دهنده خدمات Lightning (LSP) که به کاربران اجازه می‌دهد بلافاصله پس از نصب wallet پرداخت‌ها را دریافت کنند، بدون نیاز به رویه‌های دستی باز کردن کانال.
 
-Recovery scenarios present particular challenges in this architecture. While users retain control of their private keys, accessing funds without Greenlight's infrastructure would require technical expertise to spin up independent Core Lightning nodes and restore channel states. For individual users, this recovery process would likely prove prohibitively complex, and even wallet providers would face significant challenges migrating entire user bases to alternative infrastructure if Greenlight services were discontinued.
 
-Privacy considerations also shift with this architectural change. The cloud-based routing means Greenlight potentially gains visibility into payment destinations, whereas previous LSP-only architectures limited information leakage to payment amounts and timing. Invoice generation in the cloud further expands the potential information exposure, as unused invoices that previously remained private on user devices now pass through Blockstream's infrastructure.
+### ویژگی‌های جامع و بهبودهای تجربه کاربری
 
-Despite these centralization concerns, the practical benefits often outweigh the theoretical risks for many use cases. The improved reliability, comprehensive feature set, and superior user experience enable wallet developers to focus on application-layer innovations rather than Lightning infrastructure management. This division of labor reflects a maturing ecosystem where specialized service providers handle complex technical challenges, allowing application developers to concentrate on user experience and business logic. The key lies in understanding these trade-offs clearly and making informed decisions based on specific use case requirements and risk tolerance levels.
 
+رویکرد یکپارچه SDK Breez فراتر از عملکرد پایه‌ای Lightning است و ویژگی‌هایی را شامل می‌شود که تجربه کاربری را بهبود می‌بخشد. یکپارچگی LSP داخلی، مانع سنتی نیاز به درک مدیریت کانال را از بین می‌برد و امکان دریافت فوری پرداخت‌ها را برای نصب‌های جدید wallet فراهم می‌کند. این فرآیند ورود به سیستم به پذیرش عمومی کمک می‌کند، زیرا کاربران می‌توانند بدون هیچ دانش فنی یا مراحل تنظیم، دریافت پرداخت‌های Lightning را آغاز کنند.
 
 
-## Breez SDK for Lipa
-<chapterId>93d87d63-dd7b-5e05-ad2e-dda12915ea32</chapterId>
+قابلیت تعویض در زنجیره، با ارائه یک تراز یکپارچه به کاربران، لایه دیگری از بهینه‌سازی تجربه کاربری را فراهم می‌کند. به جای اینکه کاربران را مجبور به درک تفاوت بین Lightning و on-chain Bitcoin کنیم، سرویس تعویض امکان تبدیل خودکار بین این لایه‌ها را در صورت نیاز فراهم می‌کند. هنگامی که کاربران نیاز به انجام پرداخت‌های on-chain دارند، سیستم می‌تواند به‌طور یکپارچه وجوه Lightning را به on-chain Bitcoin در پشت صحنه تبدیل کند و در عین حال توهم یک تراز واحد و مایع را حفظ کرده و پیچیدگی فنی را به صورت داخلی مدیریت کند.
 
-:::video id=f2770a37-a22f-43d7-9334-8de60eaacff8:::
 
-Building a non-custodial Lightning wallet presents unique challenges that extend far beyond traditional Bitcoin wallet development. Gabriel and his team at Lipa embarked on this journey with specific requirements that would ultimately test the boundaries of existing Lightning infrastructure. Their experience provides valuable insights into the practical realities of implementing Lightning Network functionality in mobile applications, particularly when using the Lightning Development Kit (LDK) as the foundation.
+پشتیبانی SDK از ذخایر کانال صفر به یک چالش مهم در تجربه کاربری در پیاده‌سازی‌های سنتی لایتنینگ می‌پردازد. ذخایر کانال معمولاً مانع از این می‌شوند که کاربران بتوانند کل موجودی نمایش داده شده خود را خرج کنند، که این امر باعث سردرگمی می‌شود وقتی که پرداخت‌ها با وجود موجودی ظاهراً کافی شکست می‌خورند. با حذف این ذخایر، Breez به کاربران اجازه می‌دهد تا کل موجودی نمایش داده شده خود را خرج کنند، هرچند این امر نیازمند پذیرش ریسک اضافی توسط LSP است. این مبادله نمونه‌ای از رویکرد کاربرمحور Breez است، جایی که پیچیدگی فنی و ریسک توسط ارائه‌دهندگان خدمات جذب می‌شود تا تجربه‌های کاربری شهودی ایجاد شود.
 
-The team's primary goal was to create a mobile wallet that would work seamlessly across both Android and iOS platforms while maintaining the security benefits of non-custodial architecture. This meant users would retain full control of their private keys and funds, but the implementation complexity would be significantly higher than custodial alternatives. The wallet needed to support fundamental Lightning operations including sending and receiving payments, maintaining payment history, and most importantly, providing easy onboarding through on-the-fly channel creation.
 
-### Core Requirements and Technical Challenges
+ویژگی‌های اضافی مانند پشتیبانی از LNURL، خدمات نرخ تبادل و همگام‌سازی چند دستگاهی، رویکرد جامع SDK به توسعه wallet را بیشتر نشان می‌دهند. معماری مبتنی بر ابر به کاربران این امکان را می‌دهد که به نود لایتنینگ خود از دستگاه‌ها یا برنامه‌های مختلف دسترسی داشته باشند، در حالی که Breez همگام‌سازی وضعیت را در این نقاط دسترسی مختلف مدیریت می‌کند. موارد نقشه راه آینده شامل قابلیت خرج‌کردن کامل برای تخلیه کامل wallet، اسپلیسینگ برای مدیریت پویا کانال و بازاری از LSPهای رقابتی برای معرفی رقابت سالم در ارائه خدمات است.
 
-The requirements for their Lightning wallet appeared straightforward on the surface but revealed substantial complexity upon implementation. The wallet needed to create Lightning channels automatically upon installation, allowing users to receive payments immediately without manual channel management. This "channels on the fly" approach has become standard among mobile Lightning wallets because it dramatically improves user experience, eliminating the technical barriers that traditionally made Lightning Network adoption challenging for non-technical users.
 
-Recovery functionality presented another critical requirement that proved more complex than anticipated. While Layer 1 Bitcoin wallets can be fully restored using only a seed phrase through hierarchical deterministic key derivation, Lightning wallets require additional channel state information. This creates a fundamental challenge: how to enable complete wallet recovery while maintaining the security and decentralization principles of non-custodial architecture. The solution requires implementing remote persistence mechanisms that can securely store channel states while remaining accessible during recovery scenarios.
+### ارزیابی موازنه‌ها و نگرانی‌های تمرکزگرایی
 
-The team also needed to implement comprehensive payment history functionality, which LDK does not provide out of the box. Unlike on-chain transactions that are permanently recorded on the blockchain, Lightning payments exist only as temporary states within payment channels. This means wallet developers must implement their own systems for tracking, storing, and displaying payment history to users.
 
-### Evaluating Implementation Approaches
+گذار به Breez SDK و Greenlight معرفی‌کننده‌ی مبادلات مهم تمرکزگرایی است که باید با دقت در زمینه اصول تمرکززدایی Bitcoin مورد بررسی قرار گیرند. معماری مبتنی بر ابر به این معناست که نودهای لایتنینگ کاربران بر روی زیرساخت‌های Blockstream عمل می‌کنند و وابستگی‌هایی به ادامه فعالیت Greenlight و توسعه مداوم Breez ایجاد می‌کنند. این تمرکزگرایی فراتر از راحتی صرف است و می‌تواند بر توانایی کاربران در بازیابی وجوه در صورت عدم دسترسی به خدمات یا وقوع سانسور تأثیر بگذارد.
 
-When considering how to build their Lightning wallet, the team evaluated three primary approaches, each with distinct advantages and limitations. The first option involved building everything from scratch, creating a complete Lightning node implementation tailored specifically to their requirements. While this approach would provide maximum control and customization, the complexity of the Lightning Network protocol makes this path extremely resource-intensive and time-consuming. The Lightning specification encompasses numerous edge cases, security considerations, and interoperability requirements that have taken existing implementations years to mature.
 
-Using an existing Lightning node implementation like LND represented the second approach. LND has proven reliability and is used by several mobile wallets, including Breez. However, LND was designed as a complete node solution rather than a library for integration into other applications. This architectural decision creates challenges when attempting to embed LND functionality within mobile applications. Additionally, LND's resource requirements and synchronization processes are optimized for server environments rather than mobile devices with limited bandwidth, battery life, and processing power.
+سناریوهای بازیابی در این معماری چالش‌های خاصی را ارائه می‌دهند. در حالی که کاربران کنترل کلیدهای خصوصی خود را حفظ می‌کنند، دسترسی به وجوه بدون زیرساخت Greenlight نیاز به تخصص فنی برای راه‌اندازی گره‌های مستقل Core Lightning و بازیابی وضعیت کانال‌ها دارد. برای کاربران فردی، این فرآیند بازیابی احتمالاً به شدت پیچیده خواهد بود و حتی ارائه‌دهندگان wallet نیز با چالش‌های قابل توجهی در مهاجرت کل پایگاه کاربران به زیرساخت‌های جایگزین در صورت توقف خدمات Greenlight مواجه خواهند شد.
 
-The third approach, using LDK, ultimately proved most appealing because it was specifically designed as a library rather than a complete application. LDK provides the core Lightning Network functionality while allowing developers to implement application-specific features like user interfaces, persistence mechanisms, and integration with existing systems. This modular approach meant the team could leverage battle-tested Lightning logic while maintaining control over the user experience and mobile-specific optimizations.
 
-### Why LDK Became the Chosen Solution
+ملاحظات حریم خصوصی نیز با این تغییر معماری تغییر می‌کند. مسیریابی مبتنی بر ابر به این معنی است که Greenlight به طور بالقوه می‌تواند به مقصدهای پرداخت دسترسی پیدا کند، در حالی که معماری‌های قبلی که فقط LSP بودند، نشت اطلاعات را به مقادیر و زمان‌بندی پرداخت محدود می‌کردند. تولید Invoice در ابر، پتانسیل افشای اطلاعات را بیشتر گسترش می‌دهد، زیرا فاکتورهای استفاده نشده که قبلاً به صورت خصوصی در دستگاه‌های کاربر باقی می‌ماندند، اکنون از زیرساخت Blockstream عبور می‌کنند.
 
-LDK's architecture as a collection of modular Rust crates provided the flexibility the team needed for mobile deployment. Rather than a monolithic implementation, LDK offers discrete libraries that can be selectively integrated based on specific requirements. This modularity allows developers to include only necessary functionality, reducing the overall application size and resource consumption critical for mobile environments.
 
-The choice of Rust as LDK's implementation language provided additional benefits beyond modularity. Rust's memory safety guarantees and performance characteristics make it particularly well-suited for Bitcoin and Lightning applications that handle financial transactions and cryptographic operations. The language's cross-platform compilation capabilities, enhanced by tools like UniFFI, enable deployment across Android and iOS from a single codebase. This significantly reduces development and maintenance overhead compared to maintaining separate implementations for each platform.
+علیرغم این نگرانی‌ها درباره تمرکزگرایی، مزایای عملی اغلب برای بسیاری از موارد استفاده بر ریسک‌های نظری برتری دارند. قابلیت اطمینان بهبود یافته، مجموعه ویژگی‌های جامع و تجربه کاربری برتر به توسعه‌دهندگان wallet این امکان را می‌دهد که به جای مدیریت زیرساخت Lightning بر نوآوری‌های لایه کاربردی تمرکز کنند. این تقسیم کار نشان‌دهنده یک اکوسیستم در حال بلوغ است که در آن ارائه‌دهندگان خدمات تخصصی با چالش‌های فنی پیچیده سروکار دارند و به توسعه‌دهندگان برنامه اجازه می‌دهند بر تجربه کاربری و منطق کسب‌وکار تمرکز کنند. کلید موفقیت در درک واضح این مبادلات و اتخاذ تصمیمات آگاهانه بر اساس نیازهای خاص مورد استفاده و سطوح تحمل ریسک نهفته است.
 
-The broader Rust ecosystem for Bitcoin development also influenced their decision. The Rust community has developed an extensive collection of Bitcoin-related libraries and tools, creating a rich environment for building financial applications. This ecosystem effect means developers can leverage existing solutions for common Bitcoin operations rather than implementing everything from scratch, accelerating development while improving reliability through shared, well-tested components.
 
 
-### Blockchain Synchronization Complexity
 
-One of the first major challenges the team encountered involved synchronizing with the Bitcoin blockchain. LDK requires accurate blockchain information to manage Lightning channels properly, but it doesn't provide a complete synchronization implementation. Instead, it offers interfaces that developers must implement according to their specific requirements and constraints. The sample node provided with LDK demonstrated synchronization using a full Bitcoin node, but this approach was unsuitable for mobile applications due to bandwidth and storage limitations.
+# بخش نهایی
 
-The team needed to implement a transaction-based synchronization interface where LDK specifies which transactions and outputs it needs to monitor, and the wallet implementation provides confirmation status and spending information. This approach is more efficient for mobile applications but requires careful handling of blockchain reorganizations. When transactions that were previously confirmed become unconfirmed due to reorgs, the wallet must notify LDK of these changes to maintain accurate channel states.
-
-Implementing this synchronization mechanism proved more complex than initially anticipated, requiring significant development time and testing. The LDK team later recognized this common need and developed a dedicated crate implementing transaction synchronization using the Esplora API, which has become a standard interface for lightweight Bitcoin clients. However, early adopters like the Lipa team had to solve these problems independently, highlighting the challenges of working with evolving library ecosystems.
-
-### Payment History and Channel State Persistence
-
-LDK's modular design means it focuses on core Lightning functionality while leaving application-specific features like payment history to developers. This design philosophy provides flexibility but requires additional implementation work for features users expect in modern wallets. The team had to design and implement systems for tracking payment attempts, successes, failures, and associated metadata like amounts, timestamps, and counterparty information.
-
-Channel state persistence presented even greater challenges due to the critical nature of this data. Lightning channels maintain complex state information that must be preserved to prevent fund loss. If channel state data becomes corrupted or unavailable, users may lose access to funds locked in those channels. LDK provides interfaces for persisting this data but leaves the implementation details to developers.
-
-The requirement for seed-phrase-only recovery complicated persistence significantly. While local storage could handle channel states during normal operation, recovery scenarios require accessing this information from new devices. This necessitated implementing remote persistence services that could securely store encrypted channel states while remaining accessible during recovery. The team had to develop their own remote persistence service, though the LDK team has since begun work on a Virtual Storage Service (VSS) project to provide standardized solutions for this common requirement.
-
-### Lightning Service Provider Integration
-
-Implementing on-the-fly channel creation required integration with Lightning Service Providers (LSPs) that could provide liquidity to new users. When users install the wallet and want to receive their first payment, the LSP must detect this intent and open a channel with sufficient capacity to handle the incoming payment. This process involves complex coordination between the wallet, LSP, and the broader Lightning Network.
-
-The wallet must register payment requests with the LSP, indicating when users want to receive funds and providing necessary information for channel creation. The LSP then monitors for incoming payments and creates channels as needed, ensuring users can receive funds immediately after wallet installation. This functionality requires custom protocols and careful timing coordination to ensure channels are available when needed while avoiding unnecessary channel creation costs.
-
-
-### Rapid Gossip Sync Implementation Issues
-
-Deploying a production Lightning wallet requires supporting infrastructure beyond the wallet application itself. The team needed to implement Rapid Gossip Sync (RGS), an LDK innovation designed to accelerate Lightning Network graph synchronization. Traditional gossip synchronization requires mobile clients to connect to Lightning peers and gradually build their view of the network topology, consuming significant time and bandwidth.
-
-RGS addresses this by providing pre-computed network snapshots that clients can download to quickly obtain current network topology. The service runs a Lightning node that participates in gossip protocols, processes the information, and generates compressed snapshots representing the current network state. Mobile clients can download these snapshots and immediately begin routing payments without lengthy synchronization periods.
-
-However, the RGS implementation proved less robust than expected in production environments. The service lacked essential configuration options, making it difficult to customize for specific deployment requirements. Memory consumption during snapshot generation was substantial, requiring approximately 6 gigabytes of RAM and 30 minutes of processing time. In cloud environments with resource limits, this often caused containers to exceed memory limits and terminate unexpectedly, requiring extensive debugging and infrastructure adjustments.
-
-### Payment Reliability Problems
-
-Despite successfully implementing the required functionality, the deployed wallet suffered from significant payment reliability issues. Success rates for Lightning payments were approximately 50% or lower, making the wallet unsuitable for regular use. Investigation revealed multiple contributing factors, some related to RGS implementation bugs and others stemming from fundamental limitations of the snapshot-based approach.
-
-The RGS incremental update mechanism, designed to allow clients to download only changes since their last update, was losing gossip messages over time. This meant mobile clients gradually developed incomplete views of the network topology, making successful route construction increasingly difficult. Even when bugs were fixed, a more fundamental problem remained: RGS snapshots were generated only once daily, but routing nodes frequently adjust their fees throughout the day to manage channel liquidity.
-
-When routing nodes increase fees to discourage traffic through imbalanced channels, this information isn't reflected in daily snapshots. Mobile wallets attempting to route payments see outdated fee information and construct payment attempts with insufficient fees. The routing nodes reject these payments, leading to failures that could be avoided with current fee information. This represents a fundamental tension between the efficiency of snapshot-based synchronization and the dynamic nature of Lightning Network routing.
-
-### Multi-Path Payment Complications
-
-Larger payments revealed additional reliability challenges related to multi-path payments (MPP). When single channels lack sufficient capacity for large payments, the Lightning Network can split payments across multiple paths and recombine them at the destination. While this enables larger payments than would otherwise be possible, it also reduces overall reliability because failure of any individual path causes the entire payment to fail.
-
-Mobile wallets face particular challenges with multi-path payments because they lack detailed information about channel liquidity distribution. While the network topology reveals channel capacities, the actual balance distribution within channels remains private. Desktop Lightning nodes can probe channels to learn liquidity information over time, but mobile wallets typically lack this historical data due to intermittent connectivity and resource constraints.
-
-This information asymmetry means mobile wallets must construct payment paths based on incomplete information, leading to higher failure rates for multi-path payments. The reliability degradation becomes more pronounced as payment amounts increase and require splitting across more paths, creating a poor user experience for larger transactions.
-
-
-### LDK as a Development Platform
-
-The team's experience revealed that while LDK provides substantial value by handling core Lightning Network complexity, it remains a relatively low-level toolkit requiring significant additional development work. LDK successfully abstracts away the most complex aspects of Lightning protocol implementation, such as HTLC management, channel state machines, and force-close procedures. However, developers must still implement numerous application-level features that users expect from modern wallets.
-
-The modular architecture that makes LDK flexible also means developers must integrate multiple components and implement various interfaces to create complete applications. This requires deep understanding of Lightning Network concepts and careful attention to security considerations, particularly around channel state persistence and recovery mechanisms. The learning curve is substantial, and the potential for implementation errors that could lead to fund loss remains significant.
-
-LDK's relative youth compared to more established implementations like LND or Core Lightning also became apparent through production deployment. While the core Lightning logic was solid, supporting components like RGS had not been extensively tested in production environments. This meant early adopters encountered issues that had not been discovered through development testing, requiring additional debugging and problem-solving efforts.
-
-### The Evolution of Lightning Infrastructure
-
-The challenges encountered by the Lipa team reflect broader patterns in Lightning Network development, where theoretical solutions often require significant refinement when deployed in production environments. The RGS concept of providing network snapshots to mobile clients is sound, but the implementation details around update frequency, memory usage, and configuration flexibility required iteration based on real-world usage patterns.
-
-The Lightning ecosystem continues evolving rapidly, with teams like Mutiny Wallet encountering similar challenges and developing solutions. Mutiny addressed payment reliability issues through various optimizations and increased RGS update frequency to every 4-6 hours rather than daily. While this doesn't completely solve the stale fee information problem, it significantly improves payment success rates by reducing the time window during which fee information becomes outdated.
-
-The LDK team has also responded to common developer needs by creating additional supporting infrastructure. The development of standardized transaction synchronization using Esplora APIs and the ongoing VSS project for channel state persistence demonstrate how library ecosystems mature in response to developer feedback and production deployment experiences.
-
-### Strategic Considerations for Lightning Wallet Development
-
-The team's experience highlights important strategic considerations for organizations considering Lightning wallet development. While LDK provides a solid foundation, successful deployment requires substantial additional development work, supporting infrastructure, and ongoing maintenance. The complexity extends beyond the wallet application itself to include various backend services, monitoring systems, and operational procedures.
-
-Organizations must carefully evaluate whether their specific use case justifies the development and operational overhead of building custom Lightning wallets. For many applications, existing wallet solutions or custodial services may provide better cost-benefit ratios. However, for organizations requiring specific functionality, deep integration with existing systems, or particular security models, the LDK approach remains valuable despite its complexity.
-
-The rapid evolution of the Lightning ecosystem also means that solutions developed today may require significant updates as standards and best practices continue evolving. Development teams must plan for ongoing maintenance and updates rather than treating Lightning wallet development as a one-time implementation project. This long-term commitment requirement should factor into strategic planning and resource allocation decisions.
-
-# Final Section
 <partId>aff1e861-e6a3-58ad-af6a-33ceaedbda99</partId>
 
 
-## Reviews & Ratings
+
+## بررسی‌ها و امتیازات
+
 <chapterId>9331e519-9e5c-5639-9d0d-055587d8ba4c</chapterId>
+
 <isCourseReview>true</isCourseReview>
 
-## Conclusion
-<chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
-<isCourseConclusion>true</isCourseConclusion>
+## نتیجه‌گیری
 
+<chapterId>d47b792e-d269-595b-9290-4788aba6e298</chapterId>
+
+<isCourseConclusion>true</isCourseConclusion>

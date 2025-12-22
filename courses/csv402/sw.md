@@ -3216,7 +3216,7 @@ Inaweza kupitishwa kwa Bob kupitia chaneli yoyote (maandishi, msimbo wa QR, nk).
 Kuhamisha kutoka Invoice :
 
 
-- Bob (ambaye anashikilia ishara katika Stash yake) ana Bitcoin Wallet. Anahitaji kutayarisha shughuli ya Bitcoin (katika mfumo wa PSBT, k.m. `tx.PSBT`) ambayo hutumia UTXO ambapo tokeni zinazohitajika za RGB zinapatikana, pamoja na UTXO moja kwa sarafu (Exchange) ;
+- Bob (anayeshikilia tokeni kwenye stash yake) ana pochi ya Bitcoin. Lazima aandaa muamala wa Bitcoin (kwa mfumo wa PSBT, kwa mfano `tx.psbt`) unaotumia UTXO zilizo na tokeni za RGB zinazohitajika, pamoja na UTXO moja ya chenji (change);
 - Bob anatoa amri ifuatayo:
 
 ```bash

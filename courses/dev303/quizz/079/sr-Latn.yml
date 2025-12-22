@@ -1,0 +1,8 @@
+question: Koja je ključna razlika između načina na koji panic i Result rukuju oporavkom od grešaka u Rust aplikacijama?
+answer: Panika odmah zaustavlja izvršenje i ne može se oporaviti, dok Result omogućava pozivaocima da elegantno upravljaju greškama.
+wrong_answers:
+  - Panika pruža detaljne informacije o grešci dok Result samo ukazuje na uspeh ili neuspeh bez konteksta
+  - Panika je bezbedna za niti i može se obrađivati između niti, dok su greške rezultata ograničene na pojedinačne niti.
+  - Panic automatski beleži greške u sistemu dok Result zahteva ručno beleženje i prijavljivanje grešaka
+explanation: |
+  Panika predstavlja nepopravljive greške koje odmah prekidaju izvršavanje kroz odmotavanje ili abortiranje, čineći nemogućim da pozivajući kod obradi grešku i nastavi. Result, kao enum koji sadrži Ok(vrednost) ili Err(greška), eksplicitno primorava pozivaoce da priznaju potencijalne neuspehe i izaberu kako da odgovore - bilo obradom greške, pružanjem podrazumevanih vrednosti, ili propagiranjem uz stek poziva. Ova fundamentalna razlika čini Result preferiranim izborom za popravljive greške u produkcijskom kodu, dok panika treba biti rezervisana za zaista nepopravljive situacije ili razvojne scenarije.

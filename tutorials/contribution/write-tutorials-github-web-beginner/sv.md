@@ -44,9 +44,9 @@ Förutsättningar innan du påbörjar handledningen:
 
 
 
-- Har ett [GitHub-konto] (https://github.com/signup);
-- Ha en Fork av [Plan ₿ Academy-källförvaret] (https://github.com/PlanB-Network/Bitcoin-educational-content);
-- Har [en lärarprofil på Plan ₿ Academy] (https://planb.academy/professors) (endast om du erbjuder en fullständig handledning).
+- Har ett [GitHub-konto](https://github.com/signup);
+- Ha en Fork av [Plan ₿ Academy-källförvaret](https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Har [en lärarprofil på Plan ₿ Academy](https://planb.academy/professors) (endast om du erbjuder en fullständig handledning).
 
 
 Om du behöver hjälp med att få dessa förutsättningar, kommer mina andra handledningar att hjälpa dig:
@@ -197,7 +197,7 @@ Här är de obligatoriska fälten:
 
 
 
-- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du t.ex. skapar en handledning om programvaran Green Wallet hittar du detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
+- **projekt_id**: UUID för företaget eller organisationen bakom det verktyg som presenteras i handledningen [från projektlistan](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Om du t.ex. skapar en handledning om programvaran Green Wallet hittar du detta `project_id` i följande fil: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Den här informationen läggs till i din handlednings YAML-fil eftersom Plan ₿ Academy upprätthåller en databas över alla företag och organisationer som arbetar med Bitcoin eller relaterade projekt. Genom att lägga till `project_id` för den enhet som är länkad till din handledning skapar du en länk mellan de två Elements;
 
 
 
@@ -217,7 +217,7 @@ Här är de obligatoriska fälten:
 
 
 
-- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Ditt `professor_id` (UUID) som visas på [din professorsprofil](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
@@ -442,7 +442,7 @@ Språkundermappen i mappen `/assets` (i mitt exempel: `/assets/en`) används fö
 För att namnge dina bilder använder du helt enkelt nummer som motsvarar den ordning de visas i handledningen, formaterade som två siffror (eller tre siffror om din handledning innehåller fler än 99 bilder). Namnge till exempel den första bilden "01.webp", den andra "02.webp" och så vidare.
 
 
-Dina bilder måste endast vara i formatet `.webp`. Om det behövs kan du använda [min programvara för bildkonvertering] (https://github.com/LoicPandul/ImagesConverter).
+Dina bilder måste endast vara i formatet `.webp`. Om det behövs kan du använda [min programvara för bildkonvertering](https://github.com/LoicPandul/ImagesConverter).
 
 
 ![GITHUB](assets/fr/32.webp)
@@ -489,7 +489,7 @@ Om du vill skapa dina egna scheman, se till att följa Plan ₿ Academy:s grafis
 **Det är absolut nödvändigt att alla bilder som integreras i dina handledningar är fria från upphovsrätt eller respekterar källfilslicensen**. Därför görs alla diagram som publiceras på Plan ₿ Academy tillgängliga under en CC-BY-SA-licens, på samma sätt som texten.
 
 
-**-> Tips: ** När du delar filer offentligt, till exempel bilder, är det viktigt att ta bort överflödiga metadata. Dessa kan innehålla känslig information, t.ex. platsdata, skapandedatum och författardetaljer. För att skydda din integritet är det en bra idé att ta bort dessa metadata. För att förenkla detta kan du använda specialiserade verktyg som [Exif Cleaner] (https://exifcleaner.com/), som gör att du kan rensa upp ett dokuments metadata med en enkel dra-och-släpp-funktion.
+**-> Tips: ** När du delar filer offentligt, till exempel bilder, är det viktigt att ta bort överflödiga metadata. Dessa kan innehålla känslig information, t.ex. platsdata, skapandedatum och författardetaljer. För att skydda din integritet är det en bra idé att ta bort dessa metadata. För att förenkla detta kan du använda specialiserade verktyg som [Exif Cleaner](https://exifcleaner.com/), som gör att du kan rensa upp ett dokuments metadata med en enkel dra-och-släpp-funktion.
 
 
 ## 9 - Föreslå handledning
@@ -543,4 +543,4 @@ Om du vill göra ändringar i ditt bidrag efter att du redan har skickat in din 
 - Om din PR redan har slagits samman med huvudgrenen måste du göra om processen från början genom att skapa en ny gren och sedan skicka in en ny PR. Se till att din Fork är synkroniserad med Plan ₿ Academy-källarkivet på `dev`-grenen innan du fortsätter.
 
 
-Om du har tekniska problem med att skicka in din handledning, tveka inte att be om hjälp på [vår dedikerade Telegramgrupp för bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Tack så mycket!
+Om du har tekniska problem med att skicka in din handledning, tveka inte att be om hjälp på [vår dedikerade Telegramgrupp för bidrag](https://t.me/PlanBNetwork_ContentBuilder). Tack så mycket!

@@ -1,0 +1,8 @@
+question: Katika muundo wa ujumbe wa mtandao wa P2P wa Bitcoin, ni data gani maalum inayounda sehemu ya ukaguzi wa baiti 4 katika kila bahasha ya ujumbe?
+answer: Baiti 4 za kwanza za hash256 ya upakiaji wa ujumbe
+wrong_answers:
+  - Baiti 4 za kwanza za hashi ya SHA256 ya bahasha nzima ya ujumbe
+  - Baiti 4 za kwanza za hash256 za sehemu ya amri zilizounganishwa na mzigo wa malipo
+  - Baiti 4 za kwanza za hashi ya RIPEMD160 ya upakiaji wa ujumbe
+explanation: |
+  Bahasha ya ujumbe ya P2P ya Bitcoin hutumia utaratibu maalum wa checksum ambapo sehemu ya checksum ya baiti 4 ina baiti 4 za kwanza za hash256 zinazotumika kwenye mzigo wa ujumbe pekee. Hii hutoa uthibitisho wa uadilifu kwa data ya mzigo wakati wa uwasilishaji wa mtandao. Chaguzi zingine si sahihi kwa sababu zinarejelea vitendakazi tofauti vya hash (SHA256 moja, RIPEMD160) au data tofauti ya ingizo (bahasha nzima, amri+mshahara) kuliko kile ambacho Bitcoin inatekeleza katika itifaki yake ya mtandao.

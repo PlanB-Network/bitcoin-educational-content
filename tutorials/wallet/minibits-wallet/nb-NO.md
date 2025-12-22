@@ -62,7 +62,7 @@ Etter at du har fullført det første oppsettet, kommer du til startskjermen, so
 Som standard er Minibits myntenhet aktivert når du starter appen. En av styrkene til ecash er imidlertid muligheten til å bruke flere mynter for økt desentralisering og sikkerhet. For å legge til en ny mynte, naviger til "Innstillinger", velg deretter "Administrer mynter", og trykk til slutt på "Legg til mynte".
 
 
-[Bitcoinmints.com] (Bitcoinmints.com) gir en omfattende liste over tilgjengelige mynter med brukervurderinger for å hjelpe deg med å velge anerkjente alternativer. Bruk av flere myntverk reduserer risikoen. Hvis en myntutsteder opplever problemer, forblir pengene dine på andre myntutstedere tilgjengelige.
+[Bitcoinmints.com](Bitcoinmints.com) gir en omfattende liste over tilgjengelige mynter med brukervurderinger for å hjelpe deg med å velge anerkjente alternativer. Bruk av flere myntverk reduserer risikoen. Hvis en myntutsteder opplever problemer, forblir pengene dine på andre myntutstedere tilgjengelige.
 
 
 ![image](assets/en/04.webp)
@@ -73,7 +73,7 @@ Som standard er Minibits myntenhet aktivert når du starter appen. En av styrken
 
 Sikkerhetskopiering er uten tvil det mest kritiske trinnet i hele installasjonsprosessen. For å få tilgang til alternativene for sikkerhetskopiering, naviger til `Innstillinger`-> `Backup` Her finner du to viktige alternativer:
 
-1. "Din seed-frase", som inneholder "12 ord" som gjør at du kan gjenopprette ecash-saldoen din i tilfelle tap av enheten. Denne seed-frasen er din hovednøkkel til alle ecash på tvers av alle mynter du har lagt til. Skriv den ned på et fysisk medium (papir eller metall), og oppbevar den sikkert på flere steder. seed-frasen må aldri lagres digitalt der den kan bli kompromittert. Besøk denne [veiledningen] (https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) for beste praksis for å beskytte din Wallet.
+1. "Din seed-frase", som inneholder "12 ord" som gjør at du kan gjenopprette ecash-saldoen din i tilfelle tap av enheten. Denne seed-frasen er din hovednøkkel til alle ecash på tvers av alle mynter du har lagt til. Skriv den ned på et fysisk medium (papir eller metall), og oppbevar den sikkert på flere steder. seed-frasen må aldri lagres digitalt der den kan bli kompromittert. Besøk denne [veiledningen](https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) for beste praksis for å beskytte din Wallet.
 
 2. `Wallet backup` som inneholder en lang backup-streng.
 
@@ -168,9 +168,9 @@ Minibits er en lett tilgjengelig inngangsport til en verden av ecash, og tilbyr 
 For ytterligere ressurser, sjekk ut Minibits GitHub-depotet, den offisielle nettsiden og Telegram-kanalen deres, der fellesskapet aktivt diskuterer utvikling og feilsøking av problemer
 
 
-- [Github] (https://github.com/minibits-cash/minibits_wallet)
-- [Nettsted] (https://www.minibits.cash/)
-- [Telegram] (https://t.me/MinibitsWallet)
+- [Github](https://github.com/minibits-cash/minibits_wallet)
+- [Nettsted](https://www.minibits.cash/)
+- [Telegram](https://t.me/MinibitsWallet)
 
 
 Økosystemet for ecash er fortsatt under utvikling, men verktøy som Minibits gjør denne kraftige personvernteknologien stadig mer tilgjengelig for vanlige brukere.

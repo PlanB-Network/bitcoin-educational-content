@@ -1,0 +1,8 @@
+question: Mis eristab Bitcoin rakenduste arendamisel tööaja ressursi vigu vigadest, mis on kehtetud sisendvead ja loogikavead?
+answer: Käitusaegsed ressursivead tekivad, kui välised sõltuvused, nagu failid või võrguühendused, ei ole kättesaadavad, mis nõuab pigem keskkonna parandamist kui koodi muutmist
+wrong_answers:
+  - "Käitusaegsed ressursivead tekivad siis, kui funktsiooni parameetrid ei vasta nõuetele, mis viitab lepingu rikkumisele kutsuja ja funktsiooni vahel"
+  - Käitusaegsed ressursi vead kujutavad endast vigu programmi rakenduses, mille nõuetekohaseks lahendamiseks on vaja teha silumist ja koodi muutmist
+  - Käitusaegsed ressursivigad tekivad, kui tüübisüsteem ei suuda tabada mittevastavusi, võimaldades ebaõigete andmetüüpide levikut süsteemis
+explanation: |
+  Käitusaegsed ressursivigad on programmiloogikast välised ja tekivad siis, kui sõltuvused, näiteks failid, võrguühendused või mäluseadmed ei ole kättesaadavad. Erinevalt kehtetu sisendiga seotud vigadest (mis hõlmavad parameetrite lepingu rikkumisi) või loogikavigadest (mis on rakendusvigad) nõuavad tööaja ressursivigad tavaliselt pigem keskkonna parandamist kui koodi muutmist. Rakendus peab neid graatsiliselt käsitlema, kuna need on sageli ajutised ja väljaspool programmi otsest kontrolli.

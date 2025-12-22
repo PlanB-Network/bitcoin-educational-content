@@ -1,5 +1,5 @@
 ---
-name: Spectre DIY
+name: Specter DIY
 description: Guide d'installation pour Specter DIY
 ---
 
@@ -31,7 +31,7 @@ Les codes QR sont un moyen par défaut pour Specter de communiquer avec l'hôte.
 Pour le stockage des secrets, nous supportons le mode agnostique (wallet oublie tous les secrets lorsqu'il est éteint), le mode téméraire (stocke les secrets dans la mémoire flash du microcontrôleur de l'application) et l'intégration de secure element est à venir.
 
 
-Nous nous concentrons principalement sur la configuration multi-signature avec d'autres portefeuilles matériels, mais wallet peut également fonctionner en tant que signataire unique. Nous essayons de le rendre compatible avec Bitcoin Core dans la mesure du possible - PSBT pour les transactions non signées, les descripteurs wallet pour l'importation/exportation de portefeuilles multi-signatures. Pour faciliter la communication avec Bitcoin Core, nous travaillons également sur [Specter Desktop app] (https://github.com/cryptoadvance/specter-desktop) - un petit serveur python flask qui communique avec votre nœud Bitcoin Core.
+Nous nous concentrons principalement sur la configuration multi-signature avec d'autres portefeuilles matériels, mais wallet peut également fonctionner en tant que signataire unique. Nous essayons de le rendre compatible avec Bitcoin Core dans la mesure du possible - PSBT pour les transactions non signées, les descripteurs wallet pour l'importation/exportation de portefeuilles multi-signatures. Pour faciliter la communication avec Bitcoin Core, nous travaillons également sur [Specter Desktop app](https://github.com/cryptoadvance/specter-desktop) - un petit serveur python flask qui communique avec votre nœud Bitcoin Core.
 
 
 La plupart des microprogrammes sont écrits en MicroPython, ce qui facilite l'audit et la modification du code. Nous utilisons la bibliothèque [secp256k1](https://github.com/bitcoin-core/secp256k1) de Bitcoin Core pour les calculs de courbes elliptiques et la bibliothèque [LittlevGL](https://lvgl.io/) pour l'interface graphique.
@@ -43,7 +43,7 @@ La plupart des microprogrammes sont écrits en MicroPython, ce qui facilite l'au
 Le projet a considérablement évolué, au point que le niveau de sécurité de Specter-DIY est désormais comparable à celui des portefeuilles matériels commerciaux disponibles sur le marché. Nous avons mis en œuvre un chargeur de démarrage sécurisé qui vérifie les mises à jour du micrologiciel, de sorte que vous pouvez être sûr que seul le micrologiciel signé peut être téléchargé sur l'appareil après l'installation initiale. Toutefois, contrairement aux dispositifs de signature commerciaux, le chargeur de démarrage doit être installé manuellement par l'utilisateur et n'est pas configuré en usine par le vendeur de l'appareil. Il convient donc de redoubler d'attention lors de l'installation initiale du micrologiciel, de s'assurer que les signatures PGP ont été vérifiées et de télécharger le micrologiciel à partir d'un ordinateur sécurisé.
 
 
-Si quelque chose ne fonctionne pas, ouvrez un problème ici ou posez une question dans notre [groupe Telegram] (https://t.me/+VEinVSYkW5TUl5Ai).
+Si quelque chose ne fonctionne pas, ouvrez un problème ici ou posez une question dans notre [groupe Telegram](https://t.me/+VEinVSYkW5TUl5Ai).
 
 
 ## Liste d'achats pour Specter-DIY
@@ -159,7 +159,7 @@ Consultez le dossier [enclosures](https://github.com/cryptoadvance/specter-diy/t
 Assemblez votre propre Specter-DIY et envoyez-nous les photos (faites une pull request ou contactez-nous).
 
 
-Découvrez la [Galerie] (https://github.com/cryptoadvance/specter-diy/blob/master/docs/pictures/gallery/README.md) avec les Spectres assemblés par la communauté !
+Découvrez la [Galerie](https://github.com/cryptoadvance/specter-diy/blob/master/docs/pictures/gallery/README.md) avec les Spectres assemblés par la communauté !
 
 
 
@@ -176,12 +176,12 @@ Avec le chargeur de démarrage sécurisé, l'installation initiale du micrologic
 ### Flashing du firmware initial
 
 
-**Note** Si vous ne voulez pas utiliser les binaires des versions, consultez la [documentation du bootloader] (https://github.com/cryptoadvance/specter-bootloader/blob/master/doc/selfsigned.md) qui explique comment compiler et configurer le bootloader pour qu'il utilise vos clés publiques au lieu des nôtres.
+**Note** Si vous ne voulez pas utiliser les binaires des versions, consultez la [documentation du bootloader](https://github.com/cryptoadvance/specter-bootloader/blob/master/doc/selfsigned.md) qui explique comment compiler et configurer le bootloader pour qu'il utilise vos clés publiques au lieu des nôtres.
 
 
 
 - Si vous mettez à jour des versions inférieures à `1.4.0` ou si vous téléchargez le firmware pour la première fois, utilisez le fichier `initial_firmware_<version>.bin` de la page [releases](https://github.com/cryptoadvance/specter-diy/releases).
- - Vérifier la signature du fichier `sha256.signed.txt` par rapport à [la clé PGP de Stepan] (https://stepansnigirev.com/ss-specter-release.asc)
+ - Vérifier la signature du fichier `sha256.signed.txt` par rapport à [la clé PGP de Stepan](https://stepansnigirev.com/ss-specter-release.asc)
  - Vérifier le hachage du fichier `initial_firmware_<version>.bin` par rapport au hachage stocké dans le fichier `sha256.signed.txt`
 - Si vous effectuez une mise à jour à partir d'un bootloader vide ou si le message d'erreur du bootloader indique que le micrologiciel n'est pas valide, consultez la section suivante - Flashing du micrologiciel signé Specter.
 - Assurez-vous que le cavalier d'alimentation de votre carte de découverte est en position STLK
@@ -202,7 +202,7 @@ Si cela échoue toujours, vous pouvez utiliser l'outil open-source [stlink](http
 
 
 
-- Téléchargez le fichier `specter_upgrade_<version>.bin` depuis le site [releases] (https://github.com/cryptoadvance/specter-diy/releases).
+- Téléchargez le fichier `specter_upgrade_<version>.bin` depuis le site [releases](https://github.com/cryptoadvance/specter-diy/releases).
 - Copiez ce fichier binaire à la racine de la carte SD (formatée en FAT, 32 Go maximum)
  - Assurez-vous qu'un seul fichier `specter_upgrade***.bin` se trouve dans le répertoire racine
 - Insérez la carte SD dans l'emplacement SD de la carte Discovery et mettez la carte sous tension

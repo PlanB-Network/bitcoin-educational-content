@@ -1,0 +1,8 @@
+question: Hva forårsaker off-by-one-feilen i OP_CHECKMULTISIG som krever en ekstra OP_0 i bare multisig ScriptSigs?
+answer: OP_CHECKMULTISIG bruker et ekstra stabelelement utover de forventede signaturene og offentlige nøklene
+wrong_answers:
+  - Signaturverifiseringsprosessen krever en ekstra byte for at ECDSA-valideringen skal fungere korrekt
+  - "Bitcoins stakktimplementering har en grensesjekk som trenger et utfyllingselement for minnejustering"
+  - Terskeltellingen for multisig starter på null i stedet for én, noe som krever en offset-plassholderverdi
+explanation: |
+  OP_CHECKMULTISIG-operasjonskoden har en implementeringsfeil som gjør at den henter ett element mer fra stakken enn den burde under kjøring. Dette betyr at i tillegg til de nødvendige m signaturene og n offentlige nøklene, bruker den et ekstra stabelelement. For å forhindre at operasjonen mislykkes, må bare multisig ScriptSigs inneholde en innledende OP_0 (som skyver en tom byte-array) for å tilfredsstille dette uventede stabelforbruket. De andre alternativene beskriver teknisk sett plausible problemer, men er ikke den faktiske årsaken til denne velkjente Bitcoin-feilen.

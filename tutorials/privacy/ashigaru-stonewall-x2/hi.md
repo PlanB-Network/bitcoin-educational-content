@@ -1,5 +1,5 @@
 ---
-name: आशिगारु - स्टोनवॉल x2
+name: Ashigaru - Stonewall x2
 description: आशिगारू पर स्टोनवॉल x2 लेनदेन को समझना और उसका उपयोग करना
 ---
 ![cover stonewall x2](assets/cover.webp)

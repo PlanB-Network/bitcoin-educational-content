@@ -22,7 +22,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 Pierwszym krokiem do wykorzystania Kraken do zarządzania finansami firmy jest oczywiście utworzenie konta. W tym przypadku nie będziemy tworzyć konta dla osób fizycznych, ale konto firmowe, które nie tylko zapewnia zgodność z przepisami, ale także oferuje specjalnie dostosowane funkcje, takie jak eksport księgowości.
 
 
-Wejdź na oficjalną stronę [kraken.com] (https://www.kraken.com/) i kliknij przycisk "*Sign Up*".
+Wejdź na oficjalną stronę [kraken.com](https://www.kraken.com/) i kliknij przycisk "*Sign Up*".
 
 
 ![KRAKEN](assets/fr/01.webp)

@@ -1,5 +1,5 @@
 ---
-name: Mtunza mbegu - Kidhibiti Nenosiri
+name: Seedkeeper - Meneja wa Nenosiri
 description: Jinsi ya kuhifadhi nywila zako kwa kutumia kadi mahiri ya Seedkeeper?
 ---
 

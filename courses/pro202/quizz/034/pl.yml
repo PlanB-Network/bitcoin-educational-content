@@ -1,0 +1,8 @@
+question: Jaki konkretny element musi być zawarty w P2SH ScriptSig, który odróżnia go od zwykłych danych wejściowych transakcji?
+answer: Kompletny skrypt odblokowujący wraz z danymi odblokowującymi
+wrong_answers:
+  - HASH160 skryptu redeem i kluczy publicznych
+  - Tylko podpisy i klucze publiczne potrzebne do spełnienia warunków
+  - Bajt wersji i kodowanie adresu dla walidacji P2SH
+explanation: |
+  Wejścia P2SH wymagają zarówno danych odblokowujących (podpisów itp.) ORAZ pełnego skryptu odkupienia w ScriptSig. Jest to wyjątkowe, ponieważ skrypt redeem był wcześniej ukryty za hashem i teraz musi zostać ujawniony w celu walidacji. Pierwszy krok walidacji sprawdza, czy HASH160(redeem_script) pasuje do skrótu w scriptPubKey, a następnie skrypt redeem jest wykonywany z dostarczonymi danymi odblokowującymi. Pozostałe opcje są nieprawidłowe: hash znajduje się już w oryginalnym kluczu scriptPubKey, same podpisy nie są wystarczające bez skryptu, a bajty wersji są używane do kodowania adresów, a nie do walidacji wydatków.

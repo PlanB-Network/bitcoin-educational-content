@@ -20,7 +20,7 @@ Arch Linux ist eine Distribution, die für ihre Robustheit, Leistung und Anpassu
 - **Frei und quelloffen**: Wie die meisten Linux-Distributionen ist auch Arch Linux völlig kostenlos. Es fallen keine Lizenzgebühren an, was es zu einer hervorragenden Wahl für Studenten, Freiberufler oder Enthusiasten macht.
 - **KISS-Philosophie**: Arch ist so konzipiert, dass es einfach, leicht und effizient ist. Es bietet nur das Wesentliche und ermöglicht es Ihnen, Ihre Umgebung à la carte zu gestalten.
 - **Pacman** Paketmanager: Pacman ist ein schneller, zuverlässiger und gut durchdachter Paketmanager. Er ermöglicht eine effiziente Installation und Aktualisierung von Software und verwaltet Abhängigkeiten mit Präzision.
-- **Umfassende Dokumentation und eine aktive Gemeinschaft**: Das [Arch Wiki] (https://wiki.archlinux.org) ist wahrscheinlich eine der besten technischen Dokumentationen in der Linux-Welt. Es ist eine Goldmine, um zu verstehen, was Sie tun. Die Gemeinschaft, die hauptsächlich aus erfahrenen Profilen besteht, ist sehr aktiv und kann Ihnen helfen, wenn Sie nicht weiterkommen, vorausgesetzt, Sie haben vorher ein wenig recherchiert.
+- **Umfassende Dokumentation und eine aktive Gemeinschaft**: Das [Arch Wiki](https://wiki.archlinux.org) ist wahrscheinlich eine der besten technischen Dokumentationen in der Linux-Welt. Es ist eine Goldmine, um zu verstehen, was Sie tun. Die Gemeinschaft, die hauptsächlich aus erfahrenen Profilen besteht, ist sehr aktiv und kann Ihnen helfen, wenn Sie nicht weiterkommen, vorausgesetzt, Sie haben vorher ein wenig recherchiert.
 
 
 

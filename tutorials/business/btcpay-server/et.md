@@ -1,5 +1,5 @@
 ---
-name: BTCPay server
+name: BTCPay Server
 description: BTC maksete vastuvõtmine ilma vahendajateta
 ---
 

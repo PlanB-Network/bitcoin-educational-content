@@ -1,0 +1,8 @@
+question: Rust kütüphane geliştirmede hata işleme için anyhow kütüphanesini kullanmanın temel sınırlaması nedir?
+answer: Tüm hataları dize mesajlarına dönüştürerek tüketicilerin farklı hata koşullarına programlı olarak yanıt vermesini engeller
+wrong_answers:
+  - Yalnızca Sonuç türleriyle çalışır ve Seçenek türlerini işleyemez, bu da karışık senaryolarda kullanışlılığını sınırlar
+  - Her hata türü için manuel hata dönüşümü gerektirir, bu da onu standart Sonuç işlemeden daha ayrıntılı hale getirir
+  - Belirli hata türlerinde otomatik olarak panik yapar, bu da onu üretim kütüphanesi kodu için uygunsuz hale getirir
+explanation: |
+  Anyhow kütüphanesinin kütüphane geliştirme açısından temel dezavantajı, tüm hataları dize gösterimlerine dönüştürerek kütüphane tüketicilerinin programatik kararlar vermek için ihtiyaç duyduğu yapılandırılmış hata bilgilerini kaybetmesidir. Anyhow, hataların öncelikli olarak görüntülendiği son kullanıcı uygulamaları için hata işlemeyi basitleştirmede başarılı olsa da, kütüphanelerin tüketicilerin farklı hata modlarını (geçersiz girdi ve çalışma zamanı hataları gibi) ayırt etmesine ve uygun şekilde yanıt vermesine olanak tanıyan belirli hata türleri sağlaması gerekir. Diğer seçenekler yanlıştır: anyhow hem Result hem de Option türleriyle sorunsuz çalışır, aslında otomatik dönüştürme yoluyla ayrıntı düzeyini azaltır ve paniğe neden olmaz.

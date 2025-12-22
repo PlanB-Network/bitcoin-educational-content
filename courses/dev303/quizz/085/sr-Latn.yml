@@ -1,0 +1,8 @@
+question: Kada definišete callback interfejse u UniFFI, koji dodatni Rust trait ograničenja su obično potrebna na callback trait-u kako bi se osigurala sigurna pozivnost između jezika?
+answer: Send i Sync ograničenja su potrebna jer povratni pozivi mogu prelaziti granice niti između Rust i ciljanih jezika
+wrong_answers:
+  - Kloniranje i kopiranje granica su potrebni kako bi se omogućilo dupliciranje podataka povratnog poziva preko jezičkih granica.
+  - Otklanjanje grešaka i prikazivanje granica su potrebni da bi se omogućilo pravilno izveštavanje o greškama kada povratni pozivi ne uspeju tokom izvršavanja.
+  - Serijalizacija i Deserijalizacija granica su potrebne za prenos parametara povratnog poziva između različitih izvršnih okruženja jezika.
+explanation: |
+  Interfejsi povratnih poziva u UniFFI zahtevaju Send i Sync ograničenja jer omogućavaju dvosmernu komunikaciju gde Rust kod poziva nazad u aplikacioni kod napisan u ciljnim jezicima. Pošto ovi povratni pozivi mogu prelaziti granice niti tokom izvršavanja, Rust-ov sistem tipova zahteva Send (bezbedno za prenos između niti) i Sync (bezbedno za deljenje referenci između niti) ograničenja kako bi se osigurala bezbednost memorije. Ostale opcije su netačne: Clone/Copy nisu potrebni za pozive između jezika, Debug/Display su za formatiranje, a ne za bezbednost, a Serialize/Deserialize se automatski obrađuju putem UniFFI-jevog sistema za maršalovanje.

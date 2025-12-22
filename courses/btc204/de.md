@@ -85,7 +85,7 @@ Bereit, die Tiefen der Privatsphäre bei Bitcoin zu erkunden? Los geht's!
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Das UTXO-Modell von Bitcoin
+## Das [UTXO](https://planb.academy/resources/glossary/utxo)-Modell von Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -319,7 +319,7 @@ Laienhaft ausgedrückt, gibt es drei Hauptstufen der Blockchain-Analyse:
 
 ![BTC204](assets/de/026.webp)
 
-Die Blockchain-Analyse kann von jedem durchgeführt werden. Alles, was Sie brauchen, ist der Zugang zu den öffentlichen Informationen der Blockchain über einen vollständigen Knoten, um die Bewegungen der Transaktionen zu beobachten und Hypothesen aufzustellen. Es gibt auch kostenlose Tools, die diese Analyse erleichtern, wie z. B. [OXT.me] (https://oxt.me/), auf das wir in den letzten beiden Kapiteln dieses Abschnitts näher eingehen werden. Das größte Risiko für die Vertraulichkeit geht jedoch von Unternehmen aus, die sich auf die String-Analyse spezialisiert haben. Diese Unternehmen haben die Blockchain-Analyse auf ein industrielles Niveau gebracht und verkaufen ihre Dienste an Finanzinstitute und Regierungen. Unter diesen Unternehmen ist Chainalysis sicherlich das bekannteste.
+Die Blockchain-Analyse kann von jedem durchgeführt werden. Alles, was Sie brauchen, ist der Zugang zu den öffentlichen Informationen der Blockchain über einen vollständigen Knoten, um die Bewegungen der Transaktionen zu beobachten und Hypothesen aufzustellen. Es gibt auch kostenlose Tools, die diese Analyse erleichtern, wie z. B. [OXT.me](https://oxt.me/), auf das wir in den letzten beiden Kapiteln dieses Abschnitts näher eingehen werden. Das größte Risiko für die Vertraulichkeit geht jedoch von Unternehmen aus, die sich auf die String-Analyse spezialisiert haben. Diese Unternehmen haben die Blockchain-Analyse auf ein industrielles Niveau gebracht und verkaufen ihre Dienste an Finanzinstitute und Regierungen. Unter diesen Unternehmen ist Chainalysis sicherlich das bekannteste.
 
 ### Ziele der Blockchain-Analyse
 
@@ -351,7 +351,7 @@ Wie kann man der Blockchain-Analyse besser begegnen, als wenn man die dabei verw
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Hier können wir eine Analogie zur Kryptographie und Kryptoanalyse ziehen. Ein guter Kryptograph ist in erster Linie ein guter Kryptoanalytiker. Um einen neuen Verschlüsselungsalgorithmus zu entwickeln, muss man wissen, welchen Angriffen er ausgesetzt sein wird, und auch untersuchen, warum frühere Algorithmen gebrochen wurden. Das gleiche Prinzip gilt für die Bitcoin-Privatsphäre. Das Verständnis der Blockchain-Analysemethoden ist der Schlüssel zum Schutz vor ihnen. Deshalb habe ich einen ganzen Abschnitt über die Blockchain-Analyse in diesen Kurs aufgenommen.
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Auf letzterem ist zu sehen, dass Eingang Nr. 0 und Ausgang Nr. 1 P2WPKH-Skripte (SegWit V0) verwenden, während Ausgang Nr. 0 ein anderes P2PKH-Skript (Legacy) verwendet.
 
-In den frühen 2010er Jahren war diese Heuristik, die auf der Skriptversionierung basierte, aufgrund der begrenzten Anzahl der verfügbaren Skripttypen relativ wenig hilfreich. Im Laufe der Zeit und mit aufeinanderfolgenden Bitcoin-Updates wurde jedoch eine zunehmende Vielfalt an Skripttypen eingeführt. Diese Heuristik wird daher immer relevanter, da sich die Nutzer mit einer größeren Bandbreite an Skripttypen in kleinere Gruppen aufteilen, was die Chancen erhöht, diese interne Heuristik zur Wiederverwendung von Versionen anzuwenden. Aus diesem Grund ist es allein schon aus Gründen der Vertraulichkeit ratsam, sich für den am häufigsten verwendeten Skripttyp zu entscheiden. Während ich diese Zeilen schreibe, werden beispielsweise Taproot-Skripte (`bc1p`) weniger häufig verwendet als SegWit V0-Skripte (`bc1q`). Obwohl erstere in bestimmten Kontexten wirtschaftliche und Vertraulichkeitsvorteile bieten, kann es für traditionellere Anwendungen mit nur einer Unterschrift sinnvoll sein, aus Vertraulichkeitsgründen bei einem älteren Standard zu bleiben, bis sich der neue Standard weiter durchgesetzt hat.
+In den frühen 2010er Jahren war diese Heuristik, die auf der Skriptversionierung basierte, aufgrund der begrenzten Anzahl der verfügbaren Skripttypen relativ wenig hilfreich. Im Laufe der Zeit und mit aufeinanderfolgenden Bitcoin-Updates wurde jedoch eine zunehmende Vielfalt an Skripttypen eingeführt. Diese Heuristik wird daher immer relevanter, da sich die Nutzer mit einer größeren Bandbreite an Skripttypen in kleinere Gruppen aufteilen, was die Chancen erhöht, diese interne Heuristik zur Wiederverwendung von Versionen anzuwenden. Aus diesem Grund ist es allein schon aus Gründen der Vertraulichkeit ratsam, sich für den am häufigsten verwendeten Skripttyp zu entscheiden. Während ich diese Zeilen schreibe, werden beispielsweise [Taproot](https://planb.academy/resources/glossary/taproot)-Skripte (`bc1p`) weniger häufig verwendet als SegWit V0-Skripte (`bc1q`). Obwohl erstere in bestimmten Kontexten wirtschaftliche und Vertraulichkeitsvorteile bieten, kann es für traditionellere Anwendungen mit nur einer Unterschrift sinnvoll sein, aus Vertraulichkeitsgründen bei einem älteren Standard zu bleiben, bis sich der neue Standard weiter durchgesetzt hat.
 
 ### Zahlungen mit runden Zahlen
 
@@ -1033,8 +1033,8 @@ ___
 *Für die Abfassung dieses Teils 3 über die Blockchain-Analyse habe ich folgende Quellen herangezogen:*
 
 
-- *Die Serie von vier Artikeln mit dem Titel: [Understanding Bitcoin Privacy with OXT] (https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), erstellt von Samourai Wallet im Jahr 2021 ;*
-- *Die verschiedenen Berichte von [OXT Research] (https://medium.com/oxt-research) sowie ihr kostenloses Blockchain-Analyse-Tool (das nach der Verhaftung der Gründer von Samourai Wallet vorläufig nicht mehr verfügbar ist) ;*
+- *Die Serie von vier Artikeln mit dem Titel: [Understanding Bitcoin Privacy with OXT](https://medium.com/oxt-research/understanding-bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), erstellt von Samourai Wallet im Jahr 2021 ;*
+- *Die verschiedenen Berichte von [OXT Research](https://medium.com/oxt-research) sowie ihr kostenloses Blockchain-Analyse-Tool (das nach der Verhaftung der Gründer von Samourai Wallet vorläufig nicht mehr verfügbar ist) ;*
 - *Im Großen und Ganzen stammt mein Wissen aus verschiedenen Tweets und Inhalten von [@LaurentMT](https://twitter.com/LaurentMT) und [@ErgoBTC](https://twitter.com/ErgoBTC) ;*
 - *Das [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji), an dem ich in Begleitung von [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) und [@LaurentMT](https://twitter.com/LaurentMT) teilnahm
 
@@ -1404,7 +1404,7 @@ Dennoch gibt es Risiken für die persönliche Sicherheit. Die größte Gefahr be
 
 ![BTC204](assets/de/089.webp)
 
-Um dieses Risiko zu begrenzen, würde ich Ihnen raten, Bargeldtransaktionen mit vertrauenswürdigen Personen, wie Familienmitgliedern oder engen Freunden, zu bevorzugen. Alternativ könnten Sie auch in Erwägung ziehen, bei [lokalen Bitcoin-Treffen] (https://btcmap.org/communities/map) zu handeln, nachdem Sie ein paar Mal daran teilgenommen haben. So können Sie die anderen Teilnehmer besser kennenlernen und sind beim physischen Tausch nicht allein. Es ist jedoch wichtig, sich darüber im Klaren zu sein, dass P2P-Bargeldbörsen von Natur aus Risiken für Ihre persönliche Sicherheit bergen, die beim Kauf über eine regulierte Plattform und Ihr Bankkonto nicht bestehen.
+Um dieses Risiko zu begrenzen, würde ich Ihnen raten, Bargeldtransaktionen mit vertrauenswürdigen Personen, wie Familienmitgliedern oder engen Freunden, zu bevorzugen. Alternativ könnten Sie auch in Erwägung ziehen, bei [lokalen Bitcoin-Treffen](https://btcmap.org/communities/map) zu handeln, nachdem Sie ein paar Mal daran teilgenommen haben. So können Sie die anderen Teilnehmer besser kennenlernen und sind beim physischen Tausch nicht allein. Es ist jedoch wichtig, sich darüber im Klaren zu sein, dass P2P-Bargeldbörsen von Natur aus Risiken für Ihre persönliche Sicherheit bergen, die beim Kauf über eine regulierte Plattform und Ihr Bankkonto nicht bestehen.
 
 Je nachdem, wo Sie leben, kann der Transport und die Lagerung großer Geldsummen riskant sein, egal ob es sich um Bitcoin oder Bargeld handelt.
 
@@ -1438,13 +1438,13 @@ Ein weiterer Nachteil von P2P-Käufen besteht darin, dass der Preis oft höher i
 
 ![BTC204](assets/de/095.webp)
 
-Was die Lösungen betrifft, so habe ich persönlich immer [Bisq] (https://bisq.network/) verwendet und bin sehr zufrieden damit. Ihr System ist erprobt und scheint zuverlässig zu sein.  Allerdings ist Bisq nur für den PC verfügbar und die Benutzeroberfläche könnte für Anfänger zu komplex sein.  Ein weiterer Nachteil ist, dass Bisq nur mit Onchain-Transaktionen arbeitet, was in Zeiten hoher Bitcoin-Transaktionsgebühren kostspielig werden kann.
+Was die Lösungen betrifft, so habe ich persönlich immer [Bisq](https://bisq.network/) verwendet und bin sehr zufrieden damit. Ihr System ist erprobt und scheint zuverlässig zu sein.  Allerdings ist Bisq nur für den PC verfügbar und die Benutzeroberfläche könnte für Anfänger zu komplex sein.  Ein weiterer Nachteil ist, dass Bisq nur mit Onchain-Transaktionen arbeitet, was in Zeiten hoher Bitcoin-Transaktionsgebühren kostspielig werden kann.
 
 -> Siehe unser Bisq-Tutorial.
 
 https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-Eine einfachere Option ist [Peach] (https://peachbitcoin.com/), eine mobile App, die Käufer und Verkäufer mit einem integrierten Konfliktlösungssystem zusammenbringt. Das Verfahren ist intuitiver als das von Bisq.
+Eine einfachere Option ist [Peach](https://peachbitcoin.com/), eine mobile App, die Käufer und Verkäufer mit einem integrierten Konfliktlösungssystem zusammenbringt. Das Verfahren ist intuitiver als das von Bisq.
 
 -> Siehe unser Peach-Tutorial.
 
@@ -1456,7 +1456,7 @@ Eine weitere Online-Option ist [HodlHodl](https://hodlhodl.com/), eine gut etabl
 
 https://planb.academy/tutorials/exchange/peer-to-peer/hodlhodl-d7344cd5-6b18-40f5-8e78-2574a93a3879
 
-Für Lightning Network-basierte Lösungen probieren Sie [RoboSats] (https://learn.robosats.com/) und [LNP2PBot] (https://lnp2pbot.com/). RoboSats ist über eine Website zugänglich und relativ einfach zu bedienen. LNP2PBot ist eher untypisch, da es über ein Austauschsystem in der Telegram-Messaging-Anwendung funktioniert.
+Für Lightning Network-basierte Lösungen probieren Sie [RoboSats](https://learn.robosats.com/) und [LNP2PBot](https://lnp2pbot.com/). RoboSats ist über eine Website zugänglich und relativ einfach zu bedienen. LNP2PBot ist eher untypisch, da es über ein Austauschsystem in der Telegram-Messaging-Anwendung funktioniert.
 
 -> Siehe unser RoboSats-Tutorial.
 
@@ -1605,9 +1605,9 @@ Vergessen Sie auf keinen Fall, dass jede Konsolidierung unweigerlich einen Verlu
 
 Werfen wir einen Blick auf ein paar andere bewährte Praktiken zur Optimierung Ihrer Privatsphäre auf Bitcoin.
 
-### Die Full Node
+### Die [full node](https://planb.academy/resources/glossary/full-node)
 
-Der Besitz Ihrer Bitcoins in Selbstverwahrung ist großartig, aber die Verwendung Ihres eigenen Full Node ist noch besser! Hier erfahren Sie, warum ein eigener Node für die souveräne Nutzung von Bitcoin entscheidend ist:
+Der Besitz Ihrer Bitcoins in Selbstverwahrung ist großartig, aber die Verwendung Ihres eigenen [full node](https://planb.academy/resources/glossary/full-node) ist noch besser! Hier erfahren Sie, warum ein eigener Node für die souveräne Nutzung von Bitcoin entscheidend ist:
 
 
 - **Widerstandsfähigkeit gegen Zensur**: Ihre Transaktionen können von niemandem blockiert werden;
@@ -1845,13 +1845,13 @@ Maxwell, G. (2013, 22. August). *CoinJoin: Bitcoin-Privatsphäre für die reale 
 
 Es gibt jedoch weitere frühere Erwähnungen, sowohl für Chaum-Signaturen als Teil des Mixens, als auch für Coinjoins. [Im Juni 2011 präsentierte Duncan Townsend auf BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0) einen Mixer, der Chaum-Signaturen in einer Weise verwendet, die modernen Chaumian Coinjoins sehr ähnlich ist.
 
-Im gleichen Thread finden wir [eine Nachricht von hashcoin als Antwort auf Duncan Townsend] (https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793), um seinen Mixer zu verbessern. Der in dieser Nachricht beschriebene Prozess ist genau das, worum es bei Coinjoins geht. Ein ähnliches System wird auch in [einer Nachricht von Alex Mizrahi aus dem Jahr 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry) erwähnt, als er die Schöpfer von Tenebrix beriet, einem der ersten Altcoins, der später als Grundlage für die Schaffung von Litecoin diente. Auch der Begriff "Coinjoin" selbst soll nicht von Greg Maxwell geprägt worden sein, sondern auf eine Idee von Peter Todd zurückgehen.
+Im gleichen Thread finden wir [eine Nachricht von hashcoin als Antwort auf Duncan Townsend](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793), um seinen Mixer zu verbessern. Der in dieser Nachricht beschriebene Prozess ist genau das, worum es bei Coinjoins geht. Ein ähnliches System wird auch in [einer Nachricht von Alex Mizrahi aus dem Jahr 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry) erwähnt, als er die Schöpfer von Tenebrix beriet, einem der ersten Altcoins, der später als Grundlage für die Schaffung von Litecoin diente. Auch der Begriff "Coinjoin" selbst soll nicht von Greg Maxwell geprägt worden sein, sondern auf eine Idee von Peter Todd zurückgehen.
 
 ![BTC204](assets/de/131.webp)
 
 ### Zerolink
 
-Zerolink ist ein umfassendes Mischprotokoll, das Chaumian-Coinjoins und verschiedene Strategien zum Schutz der Anonymität der Nutzer vor verschiedenen Formen der Blockchain-Analyse umfasst, insbesondere durch die Minimierung von Fehlern im Zusammenhang mit der Portfolioverwaltung. Dieses Protokoll [wurde von nopara73 und TDevD im Jahr 2017 vorgestellt] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink ist ein umfassendes Mischprotokoll, das Chaumian-Coinjoins und verschiedene Strategien zum Schutz der Anonymität der Nutzer vor verschiedenen Formen der Blockchain-Analyse umfasst, insbesondere durch die Minimierung von Fehlern im Zusammenhang mit der Portfolioverwaltung. Dieses Protokoll [wurde von nopara73 und TDevD im Jahr 2017 vorgestellt](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 ![BTC204](assets/de/132.webp)
 
@@ -2172,7 +2172,7 @@ Hier finden Sie einige Strategien, wie Sie diese nutzen können:
 - **Mischen Sie sie in kleinere Pools:** Wenn Ihr doxisches UTXO groß genug ist, um in einen kleineren Pool zu passen, sollten Sie es mischen. Dies ist oft die beste Option. Es ist jedoch nicht ratsam, mehrere toxische UTXOs zusammenzulegen, um auf einen Pool zuzugreifen, da dies Ihre verschiedenen Einträge verbinden könnte;
 - **Markieren Sie sie als "nicht ausgabefähig":** Eine andere Möglichkeit besteht darin, sie nicht mehr zu verwenden, sie auf dem entsprechenden Konto als "nicht ausgabefähig" zu markieren und sie einfach zu horten. Dadurch wird sichergestellt, dass Sie sie nicht versehentlich ausgeben. Wenn der Wert von Bitcoin steigt, können neue Pools auftauchen, die für Ihre toxischen UTXOs besser geeignet sind;
 - **Spenden:** Erwägen Sie Spenden, auch wenn sie noch so bescheiden sind, an Entwickler, die an Bitcoin und verwandter Software arbeiten. Sie können auch an Vereine spenden, die BTC akzeptieren. Wenn Ihnen die Verwaltung Ihrer toxischen UTXOs zu kompliziert erscheint, können Sie sie einfach loswerden und eine Spende tätigen;
-- **Geschenkkarten kaufen:** Plattformen wie [Bitrefill] (https://www.bitrefill.com/) ermöglichen es Ihnen, Bitcoins in Geschenkkarten einzutauschen, die bei verschiedenen Händlern verwendet werden können. Dies kann eine Möglichkeit sein, sich von Ihren toxischen UTXOs zu trennen, ohne den damit verbundenen Wert zu verlieren;
+- **Geschenkkarten kaufen:** Plattformen wie [Bitrefill](https://www.bitrefill.com/) ermöglichen es Ihnen, Bitcoins in Geschenkkarten einzutauschen, die bei verschiedenen Händlern verwendet werden können. Dies kann eine Möglichkeit sein, sich von Ihren toxischen UTXOs zu trennen, ohne den damit verbundenen Wert zu verlieren;
 - **Über Monero konsolidieren:** Samourai Wallet bot früher einen atomaren Swap zwischen BTC und XMR an, doch dieser ist seit ihrer Verhaftung nicht mehr verfügbar. Dieser Ansatz erlaubte es, toxische UTXOs zu behandeln, indem man sie auf Monero konsolidierte, ohne die Privatsphäre über CIOH zu gefährden, bevor sie zurück zu Bitcoin gesendet wurden. Sollte ein vergleichbarer Dienst wieder erscheinen, könnte er eine interessante Option darstellen. Dennoch ist zu bedenken, dass diese Methode kostspielig werden kann – sowohl durch Mining-Gebühren als auch durch einen Aufpreis aufgrund von Liquiditätsengpässen bei der Rückkonvertierung in Bitcoin.
 - **Senden Sie sie an das Lightning Network:** Die Übertragung dieser UTXOs an das Lightning Network, um von reduzierten Transaktionsgebühren zu profitieren, kann eine attraktive Option sein.  Diese Methode kann jedoch bestimmte Informationen preisgeben, je nachdem, wie Sie Lightning verwenden, und sollte daher mit Vorsicht verwendet werden.
 
@@ -2307,7 +2307,7 @@ Aus der Anzahl der Interpretationen einer Bitcoin-Transaktion können wir ihre E
 
 Im allgemeinen Kontext der Kryptographie und der Information ist die Entropie ein quantitatives Maß für die Unsicherheit oder Unvorhersehbarkeit einer Datenquelle oder eines Zufallsprozesses. Mit anderen Worten: Die Entropie ist ein Maß dafür, wie schwierig es ist, eine Information vorherzusagen oder zu erraten.
 
-Im spezifischen Kontext der Blockchain-Analyse ist Entropie auch der Name eines Indikators, der von Shannons Entropie abgeleitet ist und [von LaurentMT] (https://gist.github.com/LaurentMT/e758767ca4038ac40aaf) erfunden wurde, und der für eine Bitcoin-Transaktion berechnet werden kann.
+Im spezifischen Kontext der Blockchain-Analyse ist Entropie auch der Name eines Indikators, der von Shannons Entropie abgeleitet ist und [von LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf) erfunden wurde, und der für eine Bitcoin-Transaktion berechnet werden kann.
 
 Wenn eine Transaktion eine große Anzahl möglicher Interpretationen aufweist, ist es oft sinnvoller, sich auf ihre Entropie zu beziehen. Dieser Indikator misst den Mangel an Wissen der Analysten über die genaue Konfiguration der Transaktion. Mit anderen Worten: Je höher die Entropie, desto schwieriger ist es für die Analysten, den Fluss der Bitcoins zwischen den Ein- und Ausgängen zu erkennen.
 
@@ -2900,7 +2900,7 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_
 
 Fassen wir zusammen, wie eine Adaptor-Signatur bei einem Coinswap funktioniert. Zunächst schickt Alice Bob eine unsignierte Transaktion zusammen mit einem Adapter, mit dem Bob überprüfen kann, ob das später enthüllte Geheimnis ihm Zugang zu Bitcoins verschafft. Im Gegenzug schickt Bob Alice seine eigene unsignierte Transaktion und den Adapter. Alice kann dann Bobs Transaktion abschließen und die Bitcoins abrufen, indem sie dank des Geheimnisses eine gültige Transaktion sendet. Wenn diese Transaktion auf der Blockchain veröffentlicht wird, hat Bob die Möglichkeit, das Geheimnis zu extrahieren und damit die Transaktion von Alice zu entsperren. Wenn Alice also eine Überweisung von Bobs Bitcoin veranlasst, kann Bob seinerseits auf Alices Bitcoin zugreifen, ohne dass ein gegenseitiges Vertrauen erforderlich ist.
 
-Beachten Sie, dass Coinswaps erstmals von [Gregory Maxwell im Oktober 2013 auf BitcoinTalk] (https://bitcointalk.org/index.php?topic=321228.0) vorgeschlagen wurden.
+Beachten Sie, dass Coinswaps erstmals von [Gregory Maxwell im Oktober 2013 auf BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0) vorgeschlagen wurden.
 
 ### Atomare Tauschgeschäfte
 
@@ -3838,7 +3838,7 @@ Bob kann dann Alice die Zahlungen auf die gleiche Weise zurückzahlen, wie sie s
 
 ![BTC204](assets/de/242.webp)
 
-*Vielen Dank an [Fanis Michalakis] (https://x.com/FanisMichalakis) für sein Korrekturlesen und seine fachkundigen Ratschläge zu dem Artikel, der den Anstoß zum Schreiben dieses Kapitels gab!*
+*Vielen Dank an [Fanis Michalakis](https://x.com/FanisMichalakis) für sein Korrekturlesen und seine fachkundigen Ratschläge zu dem Artikel, der den Anstoß zum Schreiben dieses Kapitels gab!*
 
 https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 

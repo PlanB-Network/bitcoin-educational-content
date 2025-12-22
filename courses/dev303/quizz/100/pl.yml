@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta architektoniczna, która umożliwia LDK działanie w środowiskach przeglądarek WebAssembly, w których tradycyjne węzły Lightning nie mogą działać?
+answer: Filozofia projektowania LDK bez wywołań systemowych pozwala mu działać bez bezpośredniego dostępu do systemów plików, gniazd sieciowych lub źródeł entropii
+wrong_answers:
+  - "Modułowa struktura biblioteki Rust LDK automatycznie zapewnia kompatybilność z WebAssembly dzięki natywnym funkcjom kompilacji Rust do WASM"
+  - "Architektura LDK oparta na zdarzeniach eliminuje potrzebę trwałych połączeń i może działać całkowicie poprzez cykle żądanie-odpowiedź HTTP"
+  - "Lekka integracja blockchain LDK zmniejsza zużycie pamięci w wystarczającym stopniu, aby sprostać ścisłym ograniczeniom zasobów i ograniczeniom WebAssembly"
+explanation: |
+  Konstrukcja LDK wolna od wywołań systemowych zapewnia kompatybilność z przeglądarkami. Tradycyjne węzły Lightning opierają się na bezpośrednich wywołaniach systemowych dla sieci, we/wy plików i losowości, których środowiska WebAssembly zabraniają ze względów bezpieczeństwa. LDK abstrahuje te zależności, pozwalając programistom na dostarczanie implementacji kompatybilnych z przeglądarkami przy użyciu WebSockets dla sieci i interfejsów API przeglądarki dla trwałości i losowości, przy jednoczesnym zachowaniu pełnej zgodności z protokołem Lightning.

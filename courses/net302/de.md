@@ -90,7 +90,7 @@ Sind Sie bereit, in die Welt der Computernetzwerke einzutauchen? Los geht's!
 **HINWEIS**: Die Beschreibungen basieren auf einem GNU/Linux CentOS 7 System. Die Netzwerkkonfigurationen sind jedoch weitgehend identisch, wenn man ein Debian- mit einem CentOS-System vergleicht. Wir werden also keine Unterscheidung machen. Wenn es einen gibt, werden wir ihn mit einem speziellen Logo versehen.
 
 
-**N.B.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, schlagen Sie bitte im [Glossar] (https://planb.academy/resources/glossary) nach.
+**N.B.**: Wenn Sie während des Kurses auf unbekannte Begriffe stoßen, schlagen Sie bitte im [Glossar](https://planb.academy/resources/glossary) nach.
 
 
 
@@ -1002,7 +1002,7 @@ In modernen Netzen ist die IP-Adressierung in der Regel mit anderen Identifikato
 Um die IPv4 Address-Knappheit zu beheben und ein Layer an Sicherheit hinzuzufügen, verwenden Netzwerke oft Address-Übersetzung (_NAT_). NAT ermöglicht es vielen privaten Geräten, beim Zugriff auf das Internet eine einzige öffentliche IP Address zu nutzen.
 
 
-**Anmerkung**: Online- und eingebaute Betriebssystem-Tools wie der [Grenoble CRIC Calculator] (http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/) erleichtern die Berechnung von Subnetzen und Masken erheblich.
+**Anmerkung**: Online- und eingebaute Betriebssystem-Tools wie der [Grenoble CRIC Calculator](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/) erleichtern die Berechnung von Subnetzen und Masken erheblich.
 
 Diese Dienstprogramme helfen bei der effizienten Planung der Netzaufteilung.
 

@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Slepi putnik
+name: Ashigaru - Stowaway
 description: Kako da napravim Payjoin transakciju na Ashigaru?
 ---
 ![cover](assets/cover.webp)

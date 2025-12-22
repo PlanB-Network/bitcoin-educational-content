@@ -1,0 +1,8 @@
+question: Trong một HTLC được hỗ trợ bởi Taproot, điều gì sẽ xảy ra khi cả hai bên cùng hợp tác đồng ý hoàn thành việc trao đổi giữa các lớp?
+answer: Họ cùng ký tên bằng khóa công khai tổng hợp của mình thông qua MuSig2, tạo ra một giao dịch không thể phân biệt được với một khoản thanh toán chữ ký đơn thông thường.
+wrong_answers:
+  - Họ phải tiết lộ toàn bộ kịch bản chứa mã băm và khóa thời gian on-chain để xác minh mạng.
+  - Họ chỉ công bố nhánh cây Merkle cụ thể cần thiết trong khi vẫn giữ kín khóa tổng hợp khỏi người quan sát.
+  - Chúng phát sóng các giao dịch riêng biệt trên từng lớp đồng thời để đảm bảo thanh toán nguyên tử mà không cần tổng hợp khóa.
+explanation: |
+  Cơ chế "đường dẫn khóa" hợp tác trong Taproot cho phép các bên kết hợp khóa của họ thành một khóa công khai tổng hợp duy nhất bằng cách sử dụng MuSig2. Khi cả hai bên đồng ý, họ chỉ cần cùng ký vào giao dịch, giao dịch này trông giống hệt như bất kỳ khoản thanh toán tiêu chuẩn nào trên blockchain. Điều này mang lại sự riêng tư và hiệu quả tối đa vì không có logic kịch bản nào được tiết lộ, tiêu tốn không gian khối tối thiểu. Các tùy chọn khác mô tả không chính xác hành vi của HTLC cũ hoặc kịch bản đường dẫn kịch bản đối thủ.

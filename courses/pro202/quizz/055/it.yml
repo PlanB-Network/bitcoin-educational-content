@@ -1,0 +1,8 @@
+question: Quando un nodo Bitcoin richiede intestazioni di blocco utilizzando il comando getheaders, qual è il numero massimo di intestazioni che possono essere restituite in una singola risposta e cosa segue ogni intestazione di 80 byte?
+answer: Possono essere restituite fino a 2000 intestazioni, ciascuna seguita da un conteggio di transazioni fittizie pari a zero
+wrong_answers:
+  - Possono essere restituite fino a 1000 intestazioni, ognuna seguita dal conteggio effettivo delle transazioni come varint
+  - Possono essere restituite fino a 2000 intestazioni, ciascuna seguita da una somma di controllo di 4 byte dei dati dell'intestazione
+  - Possono essere restituite fino a 500 intestazioni, ciascuna seguita dall'hash della radice Merkle per la verifica
+explanation: |
+  Il protocollo Bitcoin di P2P limita specificamente le risposte di getheaders a un massimo di 2000 intestazioni per evitare di sovraccaricare i nodi con risposte massicce. Ogni intestazione è esattamente di 80 byte ed è seguita da un campo di conteggio delle transazioni impostato a zero, poiché i messaggi di sola intestazione non includono le transazioni effettive. Questo design consente una sincronizzazione efficiente della catena, in cui i nodi possono scaricare e verificare rapidamente la struttura della catena proof-of-work prima di richiedere i dati completi dei blocchi.

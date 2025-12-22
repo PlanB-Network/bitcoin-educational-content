@@ -1,0 +1,8 @@
+question: Apa batasan mendasar dari kemampuan transaksi Breez Liquid SDK yang membedakannya dari node Lightning Network penuh?
+answer: Tidak dapat melakukan transaksi langsung Lightning-to-Lightning atau Bitcoin-ke-Bitcoin karena beroperasi secara eksklusif dengan Liquid sebagai basisnya
+wrong_answers:
+  - Tidak dapat menangani pertukaran atom antara jaringan blockchain yang berbeda karena kurangnya dukungan kontrak pintar lintas rantai
+  - "Tidak dapat memproses transaksi yang lebih besar dari 0,1 BTC karena batasan ukuran transaksi bawaan Liquid Network"
+  - Tidak dapat beroperasi tanpa konektivitas internet karena memerlukan sinkronisasi konstan dengan server Breez terpusat
+explanation: |
+  SDK secara eksplisit dideskripsikan sebagai 'alat yang sepenuhnya berpusat pada Liquid' yang beroperasi dengan Liquid sebagai 'basis utama' SDK ini hanya mendukung tiga operasi spesifik: Liquid-ke-Liquid, Liquid-ke-Lightning, dan Liquid-ke-Bitcoin. Tidak seperti node Lightning penuh yang dapat merutekan pembayaran di antara saluran Lightning, Breez SDK tidak dapat melakukan transaksi Lightning-ke-Lightning secara langsung, sehingga secara fundamental berbeda dari infrastruktur Lightning tradisional.

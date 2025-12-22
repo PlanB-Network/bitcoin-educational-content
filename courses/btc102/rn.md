@@ -628,7 +628,7 @@ Kuvyegera muri ubwo buryo biratuma udashira mu kaga ubuzima bwawe bw’ivy’ubu
 ![image](assets/rn/023.webp)
 
 
-Igihe ingengo y’imari yawe imaze gusobanurwamwo, wiyumvire ingene ushaka gushiramwo amahera. Uburyo bumwe bufasha abatangura kandi bushimikwa cane ni Dollar Cost Averaging (DCA), ugura umubare udahinduka w’ama Bitcoin mu bihe bitandukanye (ku ndwi, ku kwezi, n’ibindi). Iyi nzira ifasha gutuma igiciro cawe co kwinjira kigenda neza mu gihe c’igihe kandi igabanura ingaruka z’inyiyumvo z’uguhinduka kw’igiciro. Ni uburyo bwiza ku bantu benshi cane cane abashasha.
+Igihe ingengo y’imari yawe imaze gusobanurwamwo, wiyumvire ingene ushaka gushiramwo amahera. Uburyo bumwe bufasha abatangura kandi bushimikwa cane ni [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), ugura umubare udahinduka w’ama Bitcoin mu bihe bitandukanye (ku ndwi, ku kwezi, n’ibindi). Iyi nzira ifasha gutuma igiciro cawe co kwinjira kigenda neza mu gihe c’igihe kandi igabanura ingaruka z’inyiyumvo z’uguhinduka kw’igiciro. Ni uburyo bwiza ku bantu benshi cane cane abashasha.
 
 
 Hanyuma, wibaze uti: Igihe canje ni ikihe?
@@ -999,7 +999,7 @@ Naho ubu buryo ari ubw’ubuhinga, buraha abakoresha basaba cane ubushobozi bwo 
 #### Uburyo bwo kwishura bukomeye, bujabuka imipaka
 
 
-Kubera ko Bitcoin ikora 24/7, itagira ico ikoze ku mipaka canke ku masaha. Mu turere aho ibikorwa remezo vya kera vy’amabanki bitagira, Bitcoin akenshi ikoreshwa nk’umuti wihuta kandi utazimvye wo kohereza canke kwakira amahera ata kwizigira abahuza bazimvye. Naho amafaranga yo gukoresha ashobora guhinduka bivanye n’uguhagarara kw’urubuga, muri rusangi ni make cane kuruta amafaranga amabanki asaba ku bijanye no gutanga amafaranga hanze. Ikindi, inyishu za Layer-2 nka Lightning Network zituma mbere umuntu ashobora gukoresha Bitcoin vyihuta kandi bihendutse.
+Kubera ko Bitcoin ikora 24/7, itagira ico ikoze ku mipaka canke ku masaha. Mu turere aho ibikorwa remezo vya kera vy’amabanki bitagira, Bitcoin akenshi ikoreshwa nk’umuti wihuta kandi utazimvye wo kohereza canke kwakira amahera ata kwizigira abahuza bazimvye. Naho amafaranga yo gukoresha ashobora guhinduka bivanye n’uguhagarara kw’urubuga, muri rusangi ni make cane kuruta amafaranga amabanki asaba ku bijanye no gutanga amafaranga hanze. Ikindi, inyishu za Layer-2 nka [Lightning Network](https://planb.academy/resources/glossary/lightning-network) zituma mbere umuntu ashobora gukoresha Bitcoin vyihuta kandi bihendutse.
 
 
 #### Ububiko bw'agaciro
@@ -1528,7 +1528,7 @@ Inganda za Bitcoin Wallet zigizwe n’ibice vyinshi, kimwe cose kikaba gifise iv
 
 
 
-- **Abahinguzi ba Hardware Wallet**: Izo sosiyete zikora ibikoresho vy'umubiri vyagenewe kubika imfunguruzo ata nkomanzi. Bimwe bifise inkomoko yuguruye, mu gihe ibindi bitanga inyishu zitandukanye zifise ibintu bitandukanye be n'ingero z'umutekano. Amazina azwi cane ni Ledger, Trezor, Coinkite, Umushinge, na Shiftcrypto.
+- **Abahinguzi ba [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet)**: Izo sosiyete zikora ibikoresho vy'umubiri vyagenewe kubika imfunguruzo ata nkomanzi. Bimwe bifise inkomoko yuguruye, mu gihe ibindi bitanga inyishu zitandukanye zifise ibintu bitandukanye be n'ingero z'umutekano. Amazina azwi cane ni Ledger, Trezor, Coinkite, Umushinge, na Shiftcrypto.
 - **Software Wallet Developers**: Abo bava ku masosiyete gushika ku bahinga bigenga bakora porogarama zo kuri telefone ngendanwa n'izo kuri mudasobwa. Ivyo batanga biratandukanye n'ubumenyi bw'abakoresha, umutekano be n'ibintu birimwo. Ingero ni Sparrow, Sardine y'Umupfumu, Galoy, Ijambo rimwe, n'Igikoko c'Igihugu.
 - DIY (*Do It Yourself*) **Wallets**: Izo nzira zifunguye zigenewe abakoresha bateye imbere bashaka kugenzura vyose no kwizigira cane abandi bantu. Kubaka Wallet yawe bigabanya ukwizigira kandi birashobora kwongera umutekano wawe. Amahitamwo azwi cane yo gukora harimwo Seedsigner na Spectre gukora.
 

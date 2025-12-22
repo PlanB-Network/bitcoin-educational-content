@@ -1,0 +1,8 @@
+question: Kusudi kuu la alama ya mshangao (!) inayofuata jina la jumla katika Rust ni lipi?
+answer: Inatumika kama kiashiria kinachoonekana kwamba utengenezaji wa msimbo wa wakati wa kukusanya unatokea badala ya simu ya chaguo-msingi ya wakati wa utekelezaji
+wrong_answers:
+  - Inaonyesha kwamba makro itaingiwa na hofu ikipewa vigezo batili vya kuingiza wakati wa utekelezaji
+  - Inaashiria makro kuwa si salama na inahitaji kutambuliwa waziwazi kwa masuala yanayoweza kutokea ya usalama wa kumbukumbu
+  - Inabainisha kuwa makro inarudisha aina ya Matokeo ambayo lazima ishughulikiwe kwa kuangalia hitilafu
+explanation: |
+  Alama ya mshangao katika sintaksia ya makro ya Rust ni chaguo la usanifu la makusudi linalotofautisha makro kutoka kwa vitendakazi. Unapoona `println!()` au `vec![]`, `!` mara moja huashiria kwamba upanuzi wa msimbo wa wakati wa kukusanya utatokea, sio wito wa kitendakazi wa wakati wa utekelezaji. Tofauti hii ni muhimu kwa sababu makro hufanya kazi tofauti kimsingi na vitendakazi - huweka msimbo wa generate wakati wa mkusanyiko kupitia ulinganishaji wa ruwaza na upanuzi. Majibu yasiyo sahihi huchanganya hili na tabia za wakati wa utekelezaji kama vile hofu, shughuli zisizo salama, au utunzaji wa hitilafu, lakini alama ya mshangao inaonyesha haswa asili ya upangaji wa wakati wa kukusanya wa makro.

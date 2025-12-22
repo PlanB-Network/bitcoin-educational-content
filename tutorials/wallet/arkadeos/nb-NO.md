@@ -267,7 +267,7 @@ Kontroller detaljene på skjermbildet "Signer transaksjon", og bekreft deretter 
 
 
 
-**on-chain-utdatakonfidensialitet**: Eksemplet nedenfor viser en [Ark-utgangstransaksjon på mempool.space] (https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb). Vi observerer en distribuert inngang til 4 forskjellige utganger, som en CoinJoin. For en ekstern observatør er det umulig å avgjøre hvilket beløp som tilhører hvilken bruker.
+**on-chain-utdatakonfidensialitet**: Eksemplet nedenfor viser en [Ark-utgangstransaksjon på mempool.space](https://mempool.space/fr/tx/153a70384d1c8a183c0e408e29b0a11820fd71a8bd5b4b00b12bc9b7f9decacb). Vi observerer en distribuert inngang til 4 forskjellige utganger, som en CoinJoin. For en ekstern observatør er det umulig å avgjøre hvilket beløp som tilhører hvilken bruker.
 
 
 

@@ -1,0 +1,8 @@
+question: Igihe Bitcoin block hashes zisobanurwa nk'imibare mikeyi y'iherezo ry'ukugereranya intumbero, ni kuki amabuye y'ukuri yerekana zero nyinshi zikurikira mu guserukira kwazo kw'icumi na gatandatu?
+answer: Kubera ko insobanuro ya little-endian isobanura ko bytes ziri iburyo cane muri hex zihuye n'ibice bihambaye cane vy'agaciro k'umubare wose
+wrong_answers:
+  - Kubera ko SHA-256 algorithm mu bisanzwe itanga zero zikurikira iyo inyungu irimwo amakuru y'ibikorwa n'ibigereranyo bisubirwamwo .
+  - Kubera ko abacukuzi b’amabuye y’agaciro bashiramwo n’ibigirankana umutwe w’ibarabara n’ama bytes zero kugira ngo hash computation ibe nziza cane ku bikoresho vya ASIC .
+  - Kubera ko umurima wa nonce wongerwa kuva kuri zero uja hejuru, bituma igikorwa ca hash kija ku mirongo ya generate ifise zero zikurikira
+explanation: |
+  Mu nsobanuro ya little-endian, bytes zisomwa mu buryo buhindutse, rero bytes ziri iburyo cane mu hexadecimal zica zihinduka igice gihambaye kuruta ibindi vyose c'umubare wose. Kugira ngo hash ibe munsi y'intumbero (umubare muto), ibice vyayo bihambaye cane bitegerezwa kuba zero, bigaragara nk'ibikurikira zero mu kigaragaza hex. Ivyo ni ikintu giserukira gusa uguhindura kw'iherezo, si umutungo w'ibikoresho vya SHA-256 canke mining.

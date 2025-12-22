@@ -28,7 +28,7 @@ BTC304 kursusel vaatame, miks kogukonna loomine on oluline, uurime tööriistu t
 
 
 
-Tere tulemast BTC302!
+Tere tulemast BTC 304!
 
 
 
@@ -39,7 +39,7 @@ Alates 2009. aastast on Bitcoin pidevalt kasvanud. See kasv on võtnud kuju uute
 Selle areng on ilmne ka On-Chain puhul, kus tehingute arv kasvab pidevalt.
 
 
-Näiteks ajavahemikul 1. jaanuarist 2018 kuni 1. jaanuarini 2024 on tehingute arv Bitcoin peamisel Layer-l hinnanguliselt [kasvanud 66,2%] (https://dune.com/queries/3375917/5663935). Vahepeal, 2021. aasta augusti ja 2023. aasta augusti vahel, on Lightning Network avalike tehingute arv [tõusnud 1212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
+Näiteks ajavahemikul 1. jaanuarist 2018 kuni 1. jaanuarini 2024 on tehingute arv Bitcoin peamisel Layer-l hinnanguliselt [kasvanud 66,2%](https://dune.com/queries/3375917/5663935). Vahepeal, 2021. aasta augusti ja 2023. aasta augusti vahel, on Lightning Network avalike tehingute arv [tõusnud 1212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
 
@@ -688,7 +688,7 @@ Selleks on saadaval mitu tehisintellekti. Nende hulka kuuluvad
 - [midjourney](https://docs.midjourney.com/docs/quick-start) (tasuline);
 - [leonardo](https://leonardo.ai/) (tasuta, piiratud kasutajakontoga);
 - [copilot](https://copilot.microsoft.com/) (tasuta, piiratud kasutajakontoga);
-- [DALL-E] (https://www.dall-efree.com/) (tasuline).
+- [DALL-E](https://www.dall-efree.com/) (tasuline).
 
 
 Viimasel ajal on tekkinud palju muid tehisintellekti vahendeid, nii et see loetelu ei ole kaugeltki ammendav.
@@ -1342,7 +1342,7 @@ Nüüd, kui teie suhtluskanalid ja sotsiaalvõrgustikud on loodud ja peegeldavad
 
 
 
-Alustage Twitteris Bitcoin ülemaailmselt propageerivate võtmekontode, nagu [@Bitcoin] (https://twitter.com/Bitcoin) ja [@planb_network] (https://twitter.com/planb_network), samuti selliste algatuste nagu [@FBCEglobal] (https://twitter.com/FBCEglobal) jälgimisest. Võite ka retweetida [@halfin](https://twitter.com/halfin) kuulsat "Running Bitcoin" säutsu 11. jaanuarist 2009. Ja mis veelgi tähtsam, **jälgige Bitcoin kogukondade ja kohtumiste kontosid oma riigis**.
+Alustage Twitteris Bitcoin ülemaailmselt propageerivate võtmekontode, nagu [@Bitcoin](https://twitter.com/Bitcoin) ja [@planb_network](https://twitter.com/planb_network), samuti selliste algatuste nagu [@FBCEglobal](https://twitter.com/FBCEglobal) jälgimisest. Võite ka retweetida [@halfin](https://twitter.com/halfin) kuulsat "Running Bitcoin" säutsu 11. jaanuarist 2009. Ja mis veelgi tähtsam, **jälgige Bitcoin kogukondade ja kohtumiste kontosid oma riigis**.
 
 
 See loob **võimalusi üksteise jälgimiseks, üksteise märgistamiseks ja kollektiivse nähtavuse suurendamiseks**. See on juba tavaline tava ~50 Bitcoin kogukonna seas Prantsusmaal, "Satoshi Spritz" algatuste seas Itaalias ja "Einundzwanzig" gruppide seas Saksamaal.
@@ -1547,7 +1547,7 @@ Teisel juhul võiks teine igakuine üritus olla pühendatud konkreetsele teemale
 
 
 
-Pidage meeles, et **see nõuab rohkem organiseerimist ja rohkem teie aega**. Õnneks leiate [selle kursuse 6/8. osast] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) hulga taaskasutatavaid avatud lähtekoodiga ressursse, mis aitavad.
+Pidage meeles, et **see nõuab rohkem organiseerimist ja rohkem teie aega**. Õnneks leiate [selle kursuse 6/8. osast](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) hulga taaskasutatavaid avatud lähtekoodiga ressursse, mis aitavad.
 
 
 Igal juhul sõltub kõik sellest, millise lühi-, keskpika ja pikaajalise tegevuskava te või teie kogukond endale seadsite.
@@ -2006,7 +2006,7 @@ Samuti võiksite kujundada oma kogukonnale või kokkusaamisele omase infolehe, m
 Mitmed flaierid on juba **saadavaks avatud lähtekoodiga [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** planB.network'is ja aja jooksul lisandub veel rohkem.
 
 
-Üks näide on [täielik infoleht] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), milles on 21 põhjust Bitcoin kasutamiseks. Selle kujundus on samuti [avatud lähtekoodiga](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), mida saate muuta, kohandada ja jagada. Lihtsalt ärge unustage, et viitaksite oma allikatele.
+Üks näide on [täielik infoleht](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), milles on 21 põhjust Bitcoin kasutamiseks. Selle kujundus on samuti [avatud lähtekoodiga](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), mida saate muuta, kohandada ja jagada. Lihtsalt ärge unustage, et viitaksite oma allikatele.
 
 
 
@@ -2165,7 +2165,7 @@ Kui soovite tellida rohkem kui 50 NFC-kaarti, võite võtta ettevõttega ühendu
 
 
 
-Näiteks 2023. aastal tellis Prantsuse ühing [Bitcoin Lille] (https://twitter.com/BitcoinLille) partii NFC-kaarte, mille disain oli kohandatud. Iga uus liige sai aasta jooksul ühe oma tervituspakendis. Seda ideed saab hõlpsasti kohandada ja isikupärastada oma kogukonna jaoks.
+Näiteks 2023. aastal tellis Prantsuse ühing [Bitcoin Lille](https://twitter.com/BitcoinLille) partii NFC-kaarte, mille disain oli kohandatud. Iga uus liige sai aasta jooksul ühe oma tervituspakendis. Seda ideed saab hõlpsasti kohandada ja isikupärastada oma kogukonna jaoks.
 
 
 Nende kaartide ühikuhind jääb tavaliselt vahemikku 2,50-5 eurot, sõltuvalt tellimuse suurusest ja turutingimustest, kusjuures suuremate koguste puhul on hind madalam.
@@ -2218,11 +2218,11 @@ Populaarsed platvormid on järgmised:
 
 
 - [**YouTube**](https://www.youtube.com/), mida kasutatakse laialdaselt, kuid mis ei ole tsensuurikindel.
-- [**Odyssee**] (https://odysee.com/), mis on vähem populaarne, kuid detsentraliseeritud peer-to-peer-tehnoloogia abil.
+- [**Odyssee**](https://odysee.com/), mis on vähem populaarne, kuid detsentraliseeritud peer-to-peer-tehnoloogia abil.
 - [**peertube**](https://joinpeertube.org/fr_FR), võimaldab teil oma videoplatvormi hallata, kuigi selle seadistamine on keerulisem.
 
 
-Olenemata sellest, millise platvormi te valite, kujundage oma kanali atraktiivseks muutmiseks platvormipõhine visuaalne kujundus. Canva, mida mainiti [osa 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), pakub kategooriat "YouTube'i pisipilt", kus on eelnevalt valmistatud ja kohandatavad kujundused.
+Olenemata sellest, millise platvormi te valite, kujundage oma kanali atraktiivseks muutmiseks platvormipõhine visuaalne kujundus. Canva, mida mainiti [osa 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef), pakub kategooriat "YouTube'i pisipilt", kus on eelnevalt valmistatud ja kohandatavad kujundused.
 
 
 
@@ -2262,12 +2262,12 @@ Populaarsed podcast-platvormid on järgmised:
 - [**Google podcast**](https://podcasts.google.com/).
 
 
-Igal platvormil on oma sihtrühm, nii et mitmel platvormil osalemine laiendab teie haardeulatust. **[Spotify for podcasters] (https://podcasters.spotify.com/) teeb selle lihtsaks, võimaldades teil oma podcasti üks kord üles laadida ja generate RSS-voo teistele platvormidele**.
+Igal platvormil on oma sihtrühm, nii et mitmel platvormil osalemine laiendab teie haardeulatust. **[Spotify for podcasters](https://podcasters.spotify.com/) teeb selle lihtsaks, võimaldades teil oma podcasti üks kord üles laadida ja generate RSS-voo teistele platvormidele**.
 
 Seega, kui töö on "Spotify for Podcasters" jaoks tehtud, jääb vaid sisu vormindamine teiste platvormide jaoks, mis on suhteliselt kiire protsess.
 
 
-Salvestamiseks on [Audacity] (https://www.audacityteam.org/) tasuta ja võimaldab teil reguleerida helitaset, lisada efekte, näiteks fade, ja suurendada selgust redigeerimise ajal. Sellega on lihtne oma häält salvestada ja luua professionaalse kvaliteediga podcast.
+Salvestamiseks on [Audacity](https://www.audacityteam.org/) tasuta ja võimaldab teil reguleerida helitaset, lisada efekte, näiteks fade, ja suurendada selgust redigeerimise ajal. Sellega on lihtne oma häält salvestada ja luua professionaalse kvaliteediga podcast.
 
 
 Siin on lühike 10-minutiline õpetus, mis hõlmab Audacityga podcasti loomise põhitõdesid:
@@ -2831,14 +2831,14 @@ Selle asemel **otsige abi bitcoini kasutajatelt, kes on juba käinud sama tunnel
 
 
 
-## BTC302, mis saab edasi
+## BTC 304, mis saab edasi
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Selles BTC302 kursuses oleme lähemalt käsitlenud, kuidas luua kogukond või kohtumine ning kuidas käivitada erinevaid projekte.
+Selles BTC 304 kursuses oleme lähemalt käsitlenud, kuidas luua kogukond või kohtumine ning kuidas käivitada erinevaid projekte.
 
 
 Kui teie kogukond on valmis astuma järgmise sammu, **võite luua ametliku ühingu**.

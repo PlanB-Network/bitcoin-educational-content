@@ -37,7 +37,7 @@ Untuk saat ini, mari kita mulai petualangan kita dengan Misty Breez Wallet.
 
 
 
-Aplikasi seluler Misty Breez tersedia di platform unduhan resmi seperti Google Play Store (di Android) dan Apple Store (di iOS). Anda juga dapat diarahkan ke aplikasi yang tepat dari situs web resmi [Misty Breez] (https://breez.technology/misty/).
+Aplikasi seluler Misty Breez tersedia di platform unduhan resmi seperti Google Play Store (di Android) dan Apple Store (di iOS). Anda juga dapat diarahkan ke aplikasi yang tepat dari situs web resmi [Misty Breez](https://breez.technology/misty/).
 
 
 

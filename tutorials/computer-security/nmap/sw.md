@@ -432,7 +432,7 @@ Hii ndiyo maktaba ambayo Nmap inategemea kusimamia mawasiliano ya mtandao, yaani
 
 
 
-Kama ilivyo kwa Linux, unaweza kuthibitisha kuwa Nmap imesakinishwa kwa kufungua Command Prompt au terminal ya [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") na kuandika amri ifuatayo:
+Kama ilivyo kwa Linux, unaweza kuthibitisha kuwa Nmap imesakinishwa kwa kufungua Command Prompt au terminal ya [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") na kuandika amri ifuatayo:
 
 
 
@@ -2197,7 +2197,7 @@ Kwa hivyo ni muhimu kuelewa ni nini Nmap hufanya na haifanyi, na vivyo hivyo kuj
 
 
 
-Iwe wewe ni msimamizi wa mfumo wa mtandao, mhandisi wa usalama au hata CISO, kwa kutumia Nmap hukupa muhtasari wa hali ya usalama ya mfumo wa taarifa. Hii ni hatua ya kwanza muhimu katika kupata mfumo, ambao unaweza kufanywa mara kwa mara na timu ya IT. Hata hivyo, haipaswi kuchukua nafasi ya uingiliaji kati na ushauri wa wataalamu [wa usalama mtandao] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), ambao wataweza kufichua udhaifu kwa kina zaidi kuliko Nmap.
+Iwe wewe ni msimamizi wa mfumo wa mtandao, mhandisi wa usalama au hata CISO, kwa kutumia Nmap hukupa muhtasari wa hali ya usalama ya mfumo wa taarifa. Hii ni hatua ya kwanza muhimu katika kupata mfumo, ambao unaweza kufanywa mara kwa mara na timu ya IT. Hata hivyo, haipaswi kuchukua nafasi ya uingiliaji kati na ushauri wa wataalamu [wa usalama mtandao](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), ambao wataweza kufichua udhaifu kwa kina zaidi kuliko Nmap.
 
 
 
@@ -2972,7 +2972,7 @@ Uwezo wa kuhifadhi matokeo ya uchanganuzi wa Nmap katika XML hufanya data iendan
 
 
 
-Nitataja zana chache za kukera bila kuelezea kwa undani jinsi zinatumiwa au jinsi zinavyofanya kazi. Nitachukulia kuwa msomaji anafahamu matumizi yao ya kimsingi na kwamba tayari yanafanya kazi. Sehemu hii itawavutia sana wataalamu wa [cybersecurity] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), watu walio katika mafunzo au wale ambao wameamua kutafakari kwa kina zaidi somo hili.
+Nitataja zana chache za kukera bila kuelezea kwa undani jinsi zinatumiwa au jinsi zinavyofanya kazi. Nitachukulia kuwa msomaji anafahamu matumizi yao ya kimsingi na kwamba tayari yanafanya kazi. Sehemu hii itawavutia sana wataalamu wa [cybersecurity](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), watu walio katika mafunzo au wale ambao wameamua kutafakari kwa kina zaidi somo hili.
 
 
 
@@ -3061,7 +3061,7 @@ orodha ya huduma zilizoagizwa kutoka kwa faili ya XML hadi kwenye hifadhidata ya
 
 
 
-Hatimaye, tunaweza kutumia tena data hii kwa haraka na kwa urahisi katika moduli ya shukrani kwa chaguo la `-R`, ambalo "litabadilisha" orodha ya huduma zilizopatikana kama ingizo la maagizo ya `RHOSTS`, ambayo hutumika kubainisha malengo ya shambulio hilo kufanywa. Huu hapa ni mfano wa moduli ya `ssh_login`, ambayo hukuwezesha kutekeleza mashambulizi ya kikatili kwenye huduma za [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Hatimaye, tunaweza kutumia tena data hii kwa haraka na kwa urahisi katika moduli ya shukrani kwa chaguo la `-R`, ambalo "litabadilisha" orodha ya huduma zilizopatikana kama ingizo la maagizo ya `RHOSTS`, ambayo hutumika kubainisha malengo ya shambulio hilo kufanywa. Huu hapa ni mfano wa moduli ya `ssh_login`, ambayo hukuwezesha kutekeleza mashambulizi ya kikatili kwenye huduma za [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 
@@ -3393,7 +3393,7 @@ Kabla ya kuchanganua mtandao au mfumo, hakikisha umepata uidhinishaji unaofaa. M
 
 
 
-Matokeo yanayotolewa na Nmap yanaweza kuchukuliwa kuwa nyeti, hasa yanapokuwa na taarifa kuhusu udhaifu katika mfumo wa taarifa ambao unaweza kutumiwa na mshambulizi. Lakini pia inapohusu mifumo ambayo haiwezi kufikiwa na kila mtu (k.m. mifumo nyeti, ya viwandani, ya afya au [chelezo] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
+Matokeo yanayotolewa na Nmap yanaweza kuchukuliwa kuwa nyeti, hasa yanapokuwa na taarifa kuhusu udhaifu katika mfumo wa taarifa ambao unaweza kutumiwa na mshambulizi. Lakini pia inapohusu mifumo ambayo haiwezi kufikiwa na kila mtu (k.m. mifumo nyeti, ya viwandani, ya afya au [chelezo](https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
 
 
 
@@ -3436,7 +3436,7 @@ Kama tulivyoona katika somo hili lote, Nmap inaweza kuwa ya kitenzi katika kiwan
 
 
 
-Ili kuepuka matukio yoyote, unahitaji kufahamu tabia ya Nmap na kujua jinsi ya kuirekebisha ili kuendana na muktadha ambamo inatumiwa, kwa kutumia chaguo mbalimbali zilizojadiliwa katika somo hili. Hatutatumia Nmap kwa njia ile ile kwenye mfumo wa taarifa ulio na [vifaa] (https://www.it-connect.fr/actualites/actu-materiel/) kama ilivyo kwa mtandao wa mtumiaji unaoundwa na mifumo ya Windows inayolindwa na ngome ya ndani au katika msingi wa mtandao.
+Ili kuepuka matukio yoyote, unahitaji kufahamu tabia ya Nmap na kujua jinsi ya kuirekebisha ili kuendana na muktadha ambamo inatumiwa, kwa kutumia chaguo mbalimbali zilizojadiliwa katika somo hili. Hatutatumia Nmap kwa njia ile ile kwenye mfumo wa taarifa ulio na [vifaa](https://www.it-connect.fr/actualites/actu-materiel/) kama ilivyo kwa mtandao wa mtumiaji unaoundwa na mifumo ya Windows inayolindwa na ngome ya ndani au katika msingi wa mtandao.
 
 
 

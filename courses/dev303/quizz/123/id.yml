@@ -1,0 +1,8 @@
+question: Apa keunggulan arsitektur utama yang memungkinkan Breez SDK untuk menghilangkan penghalang tradisional Lightning Network dari pembukaan saluran manual untuk pengguna baru?
+answer: Fungsionalitas Penyedia Layanan Petir (LSP) terintegrasi yang secara otomatis menyediakan likuiditas masuk pada saat instalasi wallet
+wrong_answers:
+  - Layanan swap kapal selam internal yang mengubah saluran on-chain Bitcoin ke Lightning tanpa campur tangan pengguna
+  - Kumpulan saluran yang telah didanai sebelumnya yang dikelola oleh Greenlight yang dialokasikan secara dinamis kepada pengguna berdasarkan permintaan
+  - Mekanisme penemuan rekan otomatis yang menghubungkan dompet baru ke node dengan likuiditas tinggi untuk pembuatan saluran instan
+explanation: |
+  Fungsionalitas LSP terintegrasi dari Breez SDK secara khusus dirancang untuk menghilangkan penghalang pembukaan saluran secara manual dengan secara otomatis menyediakan likuiditas masuk ketika pengguna menginstal wallet mereka. Hal ini memungkinkan penerimaan pembayaran langsung tanpa pengaturan teknis. Submarine swap menangani konversi lapisan tetapi tidak menangani penyediaan saluran awal. Pool yang telah didanai sebelumnya dan peer discovery bukanlah mekanisme yang digunakan Breez - sebagai gantinya, integrasi LSP secara langsung menyediakan kapasitas masuk yang diperlukan bagi pengguna baru untuk menerima pembayaran dengan segera.

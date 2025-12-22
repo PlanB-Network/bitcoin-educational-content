@@ -1,0 +1,8 @@
+question: Sifat mana yang mewakili penutupan yang dapat dipanggil beberapa kali tanpa mengubah lingkungan yang ditangkapnya?
+answer: Fn
+wrong_answers:
+  - FnSekali
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn adalah sifat penutupan yang paling ketat yang merepresentasikan penutupan yang dapat dipanggil beberapa kali tanpa mengubah lingkungan yang ditangkap. Penutupan ini hanya ditangkap oleh referensi yang tidak berubah dan dapat dipanggil secara bersamaan dengan aman. FnOnce merepresentasikan closure yang hanya bisa dipanggil sekali, sedangkan FnMut merepresentasikan closure yang bisa dipanggil beberapa kali tetapi bisa mengubah lingkungan yang ditangkap. FnCapture bukanlah sifat Rust yang sebenarnya.

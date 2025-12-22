@@ -13,11 +13,12 @@ published_at: 2025-09-13
 original_language: en
 proofreading:
   - language: en
-    last_contribution_date:
+    last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 24.36
+      - AlexBrou
+    reward: 12.18
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -143,6 +144,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 81.14
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 64.93
 tags:
   - mining
   - DIY

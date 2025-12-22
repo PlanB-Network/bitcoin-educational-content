@@ -1,0 +1,8 @@
+question: Çapraz katmanlı bir takasta her iki tarafın da işlemi başarıyla tamamlamasını ya da her ikisinin de fon kaybetmeden başarısız olmasını sağlayan nedir?
+answer: Her iki ağda da aynı hash kilidi kullanılır ve takas bacakları arasında kriptografik bağ oluşturulur
+wrong_answers:
+  - Zaman kilitleri, her iki ağ da işlemleri onaylayana kadar taraflardan birinin fon talep etmesini engeller
+  - MuSig2 anahtar toplaması, herhangi bir fonun taşınabilmesi için her iki tarafın da ortak imza atmasını gerektirir
+  - "Taproot'ın komut dosyası yolu, bir ağın tamamlanamaması durumunda işlemleri otomatik olarak tersine çevirir"
+explanation: |
+  Katmanlar arası takasların atomik yapısı, her iki ağda da aynı hash kilitlerinin kullanılmasına dayanır. Alıcı bir katmanda fon talep etmek için gizli ön görüntüyü ortaya çıkardığında, aynı sır diğer katmanda karşılıklı fon talep etmek için gönderen tarafından görülebilir ve kullanılabilir hale gelir. Bu kriptografik bağlama atomikliği sağlar - ya her iki taraf da fonlarını alır ya da hiçbiri almaz, böylece güvene dayalı olmayan takaslarda karşı taraf riski ortadan kalkar.

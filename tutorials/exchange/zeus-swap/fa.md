@@ -1,5 +1,5 @@
 ---
-name: زئوس سواپ
+name: Zeus Swap
 description: خدمات Exchange غیر حضانتی بین بیت‌کوین‌های On-Chain و Lightning Network
 ---
 

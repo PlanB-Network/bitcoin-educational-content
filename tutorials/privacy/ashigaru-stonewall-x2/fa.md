@@ -1,5 +1,5 @@
 ---
-name: آشیگارو - استون‌وال x2
+name: Ashigaru - Stonewall x2
 description: درک و استفاده از تراکنش‌های Stonewall x2 در Ashigaru
 ---
 ![cover stonewall x2](assets/cover.webp)

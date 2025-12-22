@@ -1,5 +1,5 @@
 ---
-name: Päärynät
+name: Pears
 description: Miten asennan ja käytän Pearsin sovelluksia?
 ---
 

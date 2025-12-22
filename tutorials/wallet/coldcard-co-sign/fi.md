@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Yhteiskirjoitus
+name: COLDCARD - Co-Sign
 description: Tutustu rinnakkaisallekirjoitusominaisuuteen ja käytä sitä COLDCARD-kortissasi
 ---
 

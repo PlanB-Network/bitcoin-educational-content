@@ -609,7 +609,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - **Blokverkenners**:
     - Onchain : [Mempool.space](https://Mempool.space/)
-    - Liquid : [Informatie over blokstroom] (https://blockstream.info/Liquid)
+    - Liquid : [Informatie over blokstroom](https://blockstream.info/Liquid)
     - Bliksem : [1ML (Lightning Network)](https://1ml.com/)
 
 

@@ -1,0 +1,8 @@
+question: Khi tạo một macro tùy chỉnh giống như hàm cần xử lý số lượng đối số đầu vào khác nhau, sự kết hợp giữa bộ chỉ định đoạn và mẫu lặp nào sẽ phù hợp nhất?
+answer: Sử dụng $($x:expr),* để khớp với không hoặc nhiều biểu thức được phân cách bởi dấu phẩy.
+wrong_answers:
+  - Sử dụng $($x:ident)+ để khớp với một hoặc nhiều định danh mà không có dấu phân cách.
+  - Sử dụng $($x:ty);* để khớp với không hoặc nhiều kiểu dữ liệu được phân tách bằng dấu chấm phẩy.
+  - Sử dụng $($x:expr)? để khớp với một biểu thức đơn tùy chọn mà không lặp lại.
+explanation: |
+  Cấu trúc $($x:expr),* được thiết kế đặc biệt cho các macro có số lượng đối số thay đổi, trong đó expr khớp với bất kỳ biểu thức nào và cú pháp ,* xử lý không hoặc nhiều lần lặp lại được phân tách bằng dấu phẩy. Đây chính xác là những gì cần thiết cho các macro như vec! có thể chấp nhận số lượng đối số khác nhau. Các tùy chọn khác không chính xác vì: ident chỉ khớp với các định danh (không phải toàn bộ biểu thức), ty khớp với các kiểu (không phải giá trị) và ? khớp với các mục đơn tùy chọn chứ không phải các lần lặp lại thay đổi.

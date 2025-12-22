@@ -1,5 +1,5 @@
 ---
-name: 스펙터 DIY
+name: Specter DIY
 description: 스펙터 DIY를 위한 설정 가이드
 ---
 

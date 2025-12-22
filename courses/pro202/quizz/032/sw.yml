@@ -1,0 +1,8 @@
+question: Ni sababu gani kuu kwa nini miamala ya multisig bare ilibadilishwa kwa kiasi kikubwa na P2SH kwa masharti magumu ya matumizi?
+answer: Bare multisig hufichua funguo zote za umma on-chain, na kufanya miamala kuwa mikubwa, ghali, na vigumu kusimba kama anwani
+wrong_answers:
+  - Sigi nyingi bare zinahitaji sahihi zaidi kuliko P2SH ili kufikia kiwango sawa cha usalama kwa miamala ya vyama vingi.
+  - Bare multisig haiwezi kushughulikia miamala iliyofungwa kwa muda au mahitaji ya matumizi ya masharti kama vile P2SH can
+  - Saini za multisig bare haziendani na programu ya kisasa ya wallet na haziwezi kutangazwa kwenye nodi za sasa
+explanation: |
+  P2SH ilianzishwa mahsusi ili kushughulikia ufinyu wa ufanisi wa multisig. Bare multisig inahitaji funguo zote za umma kuonekana kwenye scriptPubKey, na kuunda ukubwa mkubwa wa miamala unaogharimu zaidi katika ada na ni vigumu kuwakilisha kama anwani zinazofaa kwa mtumiaji. P2SH hutatua hili kwa kuficha hati changamano nyuma ya hash ya baiti 20, ikifichua tu hali halisi ya matumizi wakati matokeo yanapotumika. Hii hupunguza alama ya on-chain, inaboresha faragha, na inawezesha miundo ya anwani ya kawaida huku ikidumisha dhamana sawa za usalama.

@@ -1,6 +1,5 @@
 ---
-name: NOSTR
-
+name: Nostr
 description: Upptäck och börja använda NOSTR
 ---
 

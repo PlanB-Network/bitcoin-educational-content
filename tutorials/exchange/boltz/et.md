@@ -20,7 +20,7 @@ Bitcoin protokolli kihtide vahel jäi siiski üks suur probleem: sujuv koostalit
 
 
 
-[Boltz] (https://boltz.Exchange) on mittekaitstav platvorm, mis on ideaalne kõigile, kes soovivad teha tehinguid Bitcoin protokolli eri kihtide vahel:
+[Boltz](https://boltz.Exchange) on mittekaitstav platvorm, mis on ideaalne kõigile, kes soovivad teha tehinguid Bitcoin protokolli eri kihtide vahel:
 
 
 

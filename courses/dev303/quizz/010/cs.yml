@@ -1,0 +1,8 @@
+question: Co se stane s proměnnou, když je vlastnictví přesunuto do jiné proměnné v Rust?
+answer: Původní proměnná se stává neplatnou a nelze ji již použít
+wrong_answers:
+  - Původní proměnná se stane odkazem na data pouze pro čtení
+  - Obě proměnné sdílejí vlastnictví a mohou data upravovat nezávisle
+  - Původní proměnná se automaticky převede na proměnnou referenci
+explanation: |
+  Při přesunu vlastnictví v systému Rust se původní proměnná stane zcela neplatnou a nelze k ní již přistupovat. Jedná se o základní bezpečnostní prvek, který zabraňuje tomu, aby více proměnných spravovalo stejnou paměť haldy, což by mohlo vést k chybám typu use-after-free nebo double-free. Operace přesunu přenáší kompletní řízení na novou proměnnou a kompilátor vyhodí chybu, pokud se po přesunu pokusíte použít původní proměnnou. Tím se liší od kopírování (kdy obě proměnné zůstávají v platnosti) a půjčování (kdy si původní vlastník ponechává vlastnictví).

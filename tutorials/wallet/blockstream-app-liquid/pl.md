@@ -346,7 +346,7 @@ Aby to zrobić, zapiszemy referencję, usuniemy Wallet, przywrócimy ją za pomo
 
 
 
-- Na ekranie głównym Wallet kliknij zakładkę "Ustawienia", a następnie "Szczegóły Wallet" i skopiuj zPub ([rozszerzony klucz publiczny] (https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
+- Na ekranie głównym Wallet kliknij zakładkę "Ustawienia", a następnie "Szczegóły Wallet" i skopiuj zPub ([rozszerzony klucz publiczny](https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f):
 
 
 

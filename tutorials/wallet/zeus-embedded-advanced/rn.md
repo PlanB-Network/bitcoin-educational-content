@@ -29,7 +29,7 @@ Abacuruzi bakoresha [BTCPay](https://btcpayserver.org/) canke [LNBits](https://g
 
 - Urubuga rwemewe rwa Zewu - [urupapuro rwa zeusln/]
 - Inyandiko za Zewu - [inyandiko.zeusln.porogarama/](inyandiko.zeusln.porogarama/)
-- [Ububiko bwa Zewu Github] (Zewu LN/zewu)
+- [Ububiko bwa Zewu Github](Zewu LN/zewu)
 - [Itsinda ry'abafasha Zewu Telegaramu](ZeusLN)
 - [Zewu kuri NOSTR](iris.ku/zewu@zewu.app)
 - [Itangazo ry'urubuga rwa Zewu](urubuga rwa Zeusln.com)
@@ -74,7 +74,7 @@ Kugira ngo ushobore gukoresha Zeus no gucunga imihora y'umuravyo, amafaranga, am
 - [Inyandiko za LND - Lightning Network Daemon](inyandiko.umuravyo.ubuhinga/)
 - [CLN - Inyandiko z'umuravyo nyamukuru](https://umuravyo.soma inyandiko.io/urutonde.html)
 - [Igitabu c'umuravyo c'abatanguje](https://bitcoiner.igitabu/umuravyo/) – na Bitcoin Ibibazo n'Inyishu
-- [Uburongozi bw'Imirongo y'Umuravyo] (https://www.umurongo w'umuravyo.amakuru/) – na openoms
+- [Uburongozi bw'Imirongo y'Umuravyo](https://www.umurongo w'umuravyo.amakuru/) – na openoms
 - [Ikigereranyo c’ikibuga c’indege ca Lightning Network n’ikibuga c’indege]
 - [Gucungera amafaranga y'umuravyo](https://darthcoin.substack.com/p/gucungera-amafaranga-y'umuravyo)
 - [Ugucungera umuravyo](https://darthcoin.substack.com/p/ugucungera-umuravyo)

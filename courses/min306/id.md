@@ -614,7 +614,7 @@ Keberhasilan pembentukan pool mining rumahan merupakan langkah signifikan menuju
 Dalam dunia penyolderan perangkat pemasangan permukaan (SMD), terutama ketika bekerja dengan proyek Bitaxe, memiliki peralatan yang tepat membuat perbedaan antara frustrasi dan kesuksesan. Panduan komprehensif ini mencakup peralatan penting yang diperlukan untuk menangani proyek penyolderan SMD secara efektif, mulai dari perkakas tangan dasar hingga peralatan khusus yang akan meningkatkan kemampuan penyolderan Anda.
 
 
-Jika Anda ingin merujuk ke beberapa dokumentasi tentang skema, periksa [repo GitHub] (https://github.com/skot/bitaxe-doc/tree/main).
+Jika Anda ingin merujuk ke beberapa dokumentasi tentang skema, periksa [repo GitHub](https://github.com/skot/bitaxe-doc/tree/main).
 
 
 ### Perkakas Tangan Dasar dan Instrumen Presisi
@@ -1090,7 +1090,7 @@ Hubungan antara metrik ini sangat kompleks dan saling bergantung. Frekuensi yang
 ### Arsitektur Alat Benchmark Bitaxe Hashrate
 
 
-Alat [Bitaxe Hashrate Benchmark] (https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) merupakan solusi canggih berbasis Python yang awalnya dikembangkan oleh WhiteCookie dan kemudian disempurnakan oleh mrv777. Alat sumber terbuka ini, yang didistribusikan di bawah lisensi GPLv3, mengotomatiskan proses kompleks pengujian beberapa kombinasi konfigurasi untuk mengidentifikasi pengaturan optimal untuk perangkat keras spesifik Anda. Kekuatan utama alat ini terletak pada pendekatan sistematisnya terhadap pengujian parameter, secara bertahap menyesuaikan pengaturan frekuensi dan voltase sambil terus memantau metrik kinerja dan kondisi termal.
+Alat [Bitaxe Hashrate Benchmark](https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) merupakan solusi canggih berbasis Python yang awalnya dikembangkan oleh WhiteCookie dan kemudian disempurnakan oleh mrv777. Alat sumber terbuka ini, yang didistribusikan di bawah lisensi GPLv3, mengotomatiskan proses kompleks pengujian beberapa kombinasi konfigurasi untuk mengidentifikasi pengaturan optimal untuk perangkat keras spesifik Anda. Kekuatan utama alat ini terletak pada pendekatan sistematisnya terhadap pengujian parameter, secara bertahap menyesuaikan pengaturan frekuensi dan voltase sambil terus memantau metrik kinerja dan kondisi termal.
 
 
 Proses pembandingan biasanya membutuhkan waktu 30 hingga 40 menit untuk menyelesaikannya, di mana alat ini secara metodis menguji berbagai kombinasi pengaturan frekuensi dan voltase ASIC. Alat ini dimulai dengan pengaturan awal yang konservatif, biasanya dimulai dari 1,15 volt dan 500 megahertz, kemudian secara bertahap meningkatkan parameter ini sambil memantau hashrate, suhu, dan stabilitas. Yang penting, alat ini memprioritaskan pengoperasian yang aman di atas kinerja maksimum, secara otomatis mundur dari pengaturan yang menyebabkan pembentukan panas yang berlebihan atau ketidakstabilan. Pendekatan konservatif ini memastikan bahwa proses pengoptimalan tidak mengorbankan umur panjang atau keandalan perangkat keras.

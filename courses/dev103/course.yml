@@ -152,3 +152,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 35.79
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 23.89

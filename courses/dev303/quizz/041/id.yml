@@ -1,0 +1,8 @@
+question: Apa saja tiga cara penutupan dapat menangkap variabel dari lingkungannya di Rust?
+answer: Dengan referensi yang tidak dapat diubah, dengan referensi yang dapat diubah, atau dengan mengambil alih kepemilikan
+wrong_answers:
+  - Dengan penyalinan nilai, dengan peminjaman referensi, atau dengan pengalihan penunjuk
+  - Dengan alokasi tumpukan, dengan alokasi tumpukan, atau dengan penyimpanan statis
+  - Dengan akses bersama, dengan akses eksklusif, atau dengan akses bersamaan
+explanation: |
+  Penutupan dalam Rust menangkap variabel lingkungan dengan tiga cara: dengan referensi yang tidak dapat diubah (ketika mereka hanya perlu membaca), dengan referensi yang dapat diubah (ketika mereka perlu memodifikasi), atau dengan mengambil kepemilikan (ketika mereka perlu memindahkan nilainya, sering kali untuk keamanan utas). Kompiler secara otomatis memilih metode yang paling ketat yang memenuhi kebutuhan penutupan, mengikuti prinsip hak istimewa yang paling sedikit.

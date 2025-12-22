@@ -1,0 +1,8 @@
+question: Bij het definiëren van callback interfaces in UniFFI, welke extra Rust trait begrenzingen zijn meestal nodig op de callback trait om veilige cross-language aanroeping te garanderen?
+answer: Send- en Sync-begrenzingen zijn nodig omdat callbacks de threadgrenzen tussen Rust en doeltalen kunnen overschrijden
+wrong_answers:
+  - Kloon- en kopieergrenzen zijn nodig om de callbackgegevens over taalgrenzen heen te kunnen dupliceren
+  - Debug- en weergavegrenzen zijn nodig voor een goede foutmelding wanneer callbacks tijdens de uitvoering mislukken
+  - Serialize en Deserialize grenzen zijn nodig om callback parameters te marshaliseren tussen verschillende taal runtimes
+explanation: |
+  Callback interfaces in UniFFI vereisen Send en Sync begrenzingen omdat ze bidirectionele communicatie mogelijk maken waarbij Rust code terugbelt naar applicatiecode geschreven in doeltalen. Omdat deze callbacks tijdens de uitvoering draadgrenzen kunnen overschrijden, vereist Rust's typesysteem Send (veilig om over te dragen tussen threads) en Sync (veilig om referenties te delen tussen threads) bounds om geheugenveiligheid te garanderen. De andere opties zijn onjuist: Clone/Copy zijn niet nodig voor cross-language aanroepen, Debug/Display zijn voor opmaak niet veiligheid, en Serialize/Deserialize worden automatisch afgehandeld door UniFFI's marshaling systeem.

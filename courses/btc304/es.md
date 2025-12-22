@@ -28,7 +28,7 @@ En BTC304, veremos por qué es importante la construcción de comunidades, explo
 
 
 
-¡Bienvenido a BTC302!
+¡Bienvenido a BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Solo, puedes explorar rápidamente uno de los muchos túneles de la madriguera d
 
 
 
-## BTC302, Lo que viene
+## BTC 304, Lo que viene
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-En este curso BTC302, hemos entrado en detalle sobre cómo crear una comunidad o meet-up, así como la forma de poner en marcha una variedad de proyectos.
+En este curso BTC 304, hemos entrado en detalle sobre cómo crear una comunidad o meet-up, así como la forma de poner en marcha una variedad de proyectos.
 
 
 Cuando tu comunidad esté preparada para dar el siguiente paso, **puedes crear una asociación formal**.

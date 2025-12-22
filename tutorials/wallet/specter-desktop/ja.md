@@ -1,5 +1,5 @@
 ---
-name: スペクターデスクトップ
+name: Specter Desktop
 description: マルチシグネチャーのBitcoinポートフォリオを、あなた自身のノードで完全に主権を持って管理する。
 ---
 

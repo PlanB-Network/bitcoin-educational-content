@@ -1,0 +1,8 @@
+question: Hvilken grunnleggende begrensning i UTXO-modellen krever spesiell håndtering når man bruker Bitcoin?
+answer: UTXO-er må brukes i sin helhet og kan ikke delvis forbrukes
+wrong_answers:
+  - UTXO-er kan bare brukes én gang per blokk for å forhindre dobbeltbruk
+  - UTXO-er må brukes i kronologisk rekkefølge basert på opprettelsestidspunkt
+  - UTXOer krever flere signaturer fra forskjellige nøkler for å være gyldige
+explanation: |
+  UTXO-modellen har en grunnleggende begrensning om at ubrukte transaksjonsutganger må brukes i sin helhet - det finnes ingen mekanisme for delvis bruk. Når du trenger å bruke mindre enn hele UTXO-beløpet, må du opprette en transaksjon som bruker hele UTXO og inkluderer en endringsutgang tilbake til deg selv for resten. De andre alternativene beskriver ikke-eksisterende begrensninger: UTXO-er kan brukes flere ganger per blokk (forskjellige UTXO-er), krever ikke kronologisk rekkefølge og trenger vanligvis bare én gyldig signatur, med mindre de er spesifikt utformet som multisig.

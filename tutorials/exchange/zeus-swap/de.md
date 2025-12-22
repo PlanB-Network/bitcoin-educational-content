@@ -432,7 +432,7 @@ Die künftige Entwicklung von Zeus Swap, unterstützt durch das erfahrene Zeus L
 
 - [Zeus Swap - Webportal](https://swaps.zeuslsp.com)
 - [Zeus Wallet - Mobile Anwendung](https://zeusln.app)
-- [Blog Zeus - Ankündigungen und Anleitungen] (https://blog.zeusln.com)
+- [Blog Zeus - Ankündigungen und Anleitungen](https://blog.zeusln.com)
 - [Technische Dokumentation Zeus](https://docs.zeusln.app)
 
 
@@ -443,5 +443,5 @@ Die künftige Entwicklung von Zeus Swap, unterstützt durch das erfahrene Zeus L
 
 
 - [Twitter Zeus (@zeusln)](https://twitter.com/zeusln)
-- [Telegramm Zeus] (https://t.me/ZeusLN)
+- [Telegramm Zeus](https://t.me/ZeusLN)
 - [GitHub Zeus](https://github.com/ZeusLN)

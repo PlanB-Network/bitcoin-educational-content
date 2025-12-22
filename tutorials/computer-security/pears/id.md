@@ -1,5 +1,5 @@
 ---
-name: Pir
+name: Pears
 description: Bagaimana cara menginstal dan menggunakan aplikasi di Pears?
 ---
 

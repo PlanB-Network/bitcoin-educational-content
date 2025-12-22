@@ -1,0 +1,8 @@
+question: Mitä tapahtuu P2SH-tapahtuman kulutusehtojen yksityisyydelle ajan myötä?
+answer: Kulutusehdot pysyvät piilossa ensimmäiseen käyttökertaan asti, minkä jälkeen ne tulevat pysyvästi näkyviin on-chain
+wrong_answers:
+  - Kulutusehdot pysyvät pysyvästi yksityisinä, vaikka useita maksutapahtumia olisi tehty
+  - Kulutusehdot näkyvät välittömästi, kun P2SH-osoite luodaan ensimmäisen kerran
+  - Kulutusehdot tulevat tilapäisesti näkyviin kulutuksen aikana, mutta ovat sen jälkeen taas piilossa
+explanation: |
+  P2SH tarjoaa yksityisyyden suojaa piilottamalla todelliset käyttöehdot (lunastusskripti) scriptPubKey:n hash-tiedon taakse. Vain 20 tavun hash on aluksi näkyvissä, jolloin ei ole tiedossa, onko kyseessä multisig-, timelock- tai muu monimutkainen ehto. Kun P2SH-tulos käytetään ensimmäisen kerran, koko lunastusskripti on kuitenkin paljastettava on-chain:lle validointia varten, jolloin käyttöehdot ovat pysyvästi kaikkien verkon osallistujien nähtävissä. Tämä kertaluonteinen paljastaminen on kompromissi, jonka P2SH tekee yksityisyyden ja toiminnallisuuden välillä.

@@ -1,0 +1,8 @@
+question: Hvilken syntaks brukes til å definere parametere i Rust-lukkinger?
+answer: Pipe-tegn (|) for å omslutte parametere
+wrong_answers:
+  - Parenteser () for å omslutte parametere
+  - Firkantede parenteser [] for å omslutte parametere
+  - Krøllete klammer {} for å omslutte parametere
+explanation: |
+  Rust-lukkinger bruker pipe-tegn (|) for å definere parametere, noe som skiller dem fra vanlige funksjoner som bruker parenteser. En closure uten parametere skrives for eksempel som ||, mens en closure med parametere ser ut som |x, y|. Denne unike syntaksen gjør lukninger lett gjenkjennelige og skiller dem fra funksjonsdefinisjoner. Parenteser brukes for vanlige funksjoner, mens hakeparenteser og krøllparenteser tjener andre formål i Rust-syntaksen.

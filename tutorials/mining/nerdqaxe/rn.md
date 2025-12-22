@@ -1,5 +1,5 @@
 ---
-name: NerdAxe
+name: NerdQaxe
 description: Ni gute wocukura ukoresheje NerdQaxe?
 ---
 

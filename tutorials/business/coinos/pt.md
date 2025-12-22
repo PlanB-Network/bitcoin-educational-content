@@ -42,7 +42,7 @@ Não são necessários quaisquer conhecimentos técnicos ou aprofundados antes d
 
 
 
-Aceder ao sítio Web [Coinos] (https://coinos.io/) no seu navegador e clicar em **Iniciar em segundos**.
+Aceder ao sítio Web [Coinos](https://coinos.io/) no seu navegador e clicar em **Iniciar em segundos**.
 
 
 
